@@ -1,48 +1,51 @@
-# Journal des Tâches - Mise en place du Frontend Public
+# Journal des Tâches - Game Center Seniors
 
-Ce document recense les modifications effectuées pour transformer le backend d'administration en une plateforme de jeu utilisable par des seniors.
+Ce document recense les modifications effectuées sur le projet.
 
-## 1. Analyse & Stratégie
+## 1. Analyse & Stratégie (Phase Initiale)
 *   **Constat initial :** Architecture backend (Lowdb/Admin) validée et robuste. Frontend public inexistant.
 *   **Philosophie UX :** "Senior First". Priorité à la lisibilité, aux gros boutons, et à la prévention des erreurs de navigation.
 
-## 2. Réalisations Techniques
+## 2. Réalisations Techniques (Frontend Public)
 
 ### Backend (Server Actions)
-*   **`src/app/actions/get-public-games.ts`** : Création d'une fonction d'agrégation. Elle lit `db.json`, récupère la liste des jeux et croise les données avec la table `scores` pour extraire le "Record à battre" en une seule passe.
-*   **`src/app/actions/get-game.ts`** : Création d'une fonction simple pour récupérer les métadonnées d'un jeu spécifique par son ID.
-*   **`src/app/actions/game-manager.ts`** :
-    *   Ajout de `uploadGameThumbnail` pour gérer les images de couverture.
-    *   Ajout de `deleteGame` et `deleteVersion` pour le nettoyage complet (Fichiers + DB).
+*   **`src/app/actions/get-public-games.ts`** : Création d'une fonction d'agrégation pour la page d'accueil.
+*   **`src/app/actions/get-game.ts`** : Création d'une fonction pour récupérer un jeu spécifique.
+*   **`src/app/actions/game-manager.ts`** : Ajout de `uploadGameThumbnail`, `deleteGame`, `deleteVersion`.
 
 ### Frontend (Interface Utilisateur)
-*   **Page d'Accueil (`src/app/page.tsx`)** :
-    *   Remplacement de la page par défaut par une **Grille de Jeux**.
-    *   **Design Card** : Visuels larges, Titres en 24px+, affichage proéminent du Meilleur Score.
-    *   **Comportement** : Clic unique sur un gros bouton "JOUER" pour lancer la partie.
+*   **Page d'Accueil (`src/app/page.tsx`)** : Création de la grille de jeux.
+*   **Page de Jeu (`src/app/play/[gameId]/page.tsx`)** : Création du layout immersif avec iframe et bouton de sortie.
 
-*   **Page de Jeu (`src/app/play/[gameId]/page.tsx`)** :
-    *   Création de la route dynamique.
-    *   **Layout Immersif** : Fond sombre pour focaliser l'attention sur le jeu.
-    *   **Iframe Sécurisée** : Isolation du code p5.js.
-    *   **Gestion du Focus** : Composant `GamePlayer` qui force le focus sur le jeu pour garantir que le clavier et la souris répondent immédiatement.
-    *   **Sécurité Navigation** : Ajout d'un bandeau supérieur avec un **bouton "QUITTER LE JEU" Rouge et Massif** pour un retour facile à l'accueil.
+---
 
-*   **Admin (`/admin`)** :
-    *   Upload d'images de couverture (Thumbnails).
-    *   Suppression de jeux et de versions.
+## 3. Implémentation de la Résolution Dynamique & Corrections (Session Actuelle)
 
-## 3. État d'Avancement
+### Analyse & Stratégie
+*   **Constat :** Le lecteur de jeu était rigide (ratio 16:9 fixe), ce qui rognait ou déformait les jeux n'ayant pas ce format.
+*   **Objectif :** Permettre à chaque jeu de définir sa propre résolution et garantir un affichage "pixel perfect" qui s'adapte à la taille de l'écran.
 
-| Composant | État | Notes |
-| :--- | :---: | :--- |
-| **Admin Core** | ✅ | Détection, Création, Génération index.html |
-| **Admin Actions** | ✅ | Upload Thumbnails, Suppression Jeux/Versions |
-| **API Scores** | ✅ | GET/POST vers Lowdb |
-| **Accueil Public** | ✅ | Grille, Top Scores, Navigation, Affichage Images |
-| **Lecteur Jeu** | ✅ | Iframe, Bouton Sortie, **Focus Inputs Fonctionnel** |
-| **Gestion Images** | ✅ | Upload admin fonctionnel et rendu public OK |
+### Modifications Structurelles (Backend & DB)
+1.  **Schéma DB (`lib/database.ts`) :** Ajout des champs `width` et `height` à l'interface `GameMetadata`.
+2.  **Gestionnaire (`actions/game-manager.ts`) :** Mise à jour des fonctions `createGameFolder`, `createGameVersion` et `updateGameMetadata` pour prendre en compte et sauvegarder les nouvelles dimensions.
+3.  **Admin UI (`app/admin/page.tsx`) :** Ajout des champs "Largeur" et "Hauteur" dans les formulaires de création et d'édition pour permettre la saisie de ces données.
 
-## 4. Prochaines Étapes Prioritaires
-1.  **Mode Hors-ligne (PWA)** : Rendre l'application installable sur tablette pour une utilisation sans internet constant.
-2.  **Amélioration UI** : Ajouter des feedbacks visuels (toast/loader) plus précis lors de l'upload de gros fichiers.
+### Refonte du Lecteur de Jeu (`components/game-player.tsx`)
+*   **Abandon du ratio CSS simple :** La méthode `aspect-ratio` a été remplacée par une technique de mise à l'échelle plus robuste.
+*   **Implémentation de `transform: scale()` :**
+    *   L'iframe conserve ses dimensions natives (ex: 900x600), garantissant que le jeu s'exécute dans sa résolution prévue.
+    *   Un script calcule le ratio entre la largeur disponible de l'écran et la largeur native du jeu.
+    *   Ce ratio est appliqué via `transform: scale()` à un conteneur parent, qui "zoome" ou "dézoome" l'iframe pour qu'elle remplisse l'espace sans déformation.
+
+### Cycle de Débogage & Finalisation
+*   **Problème 1 : La résolution ne s'enregistrait pas.**
+    *   **Diagnostic :** Incohérence de casse (`toLowerCase()`) entre la création de l'ID du jeu et sa recherche lors de la mise à jour.
+    *   **Solution :** Standardisation de tous les ID en minuscules dans `game-manager.ts` pour les opérations de lecture, mise à jour et suppression.
+
+*   **Problème 2 : Le jeu était rogné par la bordure.**
+    *   **Diagnostic :** Problème de "Box Model" CSS. La bordure était dessinée *à l'intérieur* de l'espace alloué à l'iframe.
+    *   **Solution :** Application de `box-sizing: content-box` au conteneur du jeu. La bordure est maintenant dessinée *autour* du contenu, préservant 100% de l'espace pour l'iframe. Le calcul de l'échelle a été ajusté pour prendre en compte cette épaisseur supplémentaire.
+
+### État Final
+*   Le système gère désormais des résolutions personnalisées pour chaque version de jeu.
+*   Le lecteur de jeu est stable, responsive, et garantit un affichage sans rognage ni bandes noires, quel que soit le ratio du jeu ou la taille de l'écran.

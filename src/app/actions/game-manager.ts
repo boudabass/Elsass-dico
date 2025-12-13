@@ -36,27 +36,34 @@ export async function listGamesFolders(): Promise<GameFolder[]> {
   for (const entry of entries) {
     if (entry.isDirectory()) {
       const gamePath = path.join(GAMES_DIR, entry.name);
-      const versionEntries = await readdir(gamePath, { withFileTypes: true });
-      const versions = versionEntries
-        .filter(v => v.isDirectory())
-        .map(v => v.name);
-      
-      gameFolders.push({
-        name: entry.name,
-        versions: versions.sort().reverse()
-      });
+      // On lit les sous-dossiers pour trouver les versions
+      try {
+        const versionEntries = await readdir(gamePath, { withFileTypes: true });
+        const versions = versionEntries
+          .filter(v => v.isDirectory())
+          .map(v => v.name);
+        
+        gameFolders.push({
+          name: entry.name,
+          versions: versions.sort().reverse()
+        });
+      } catch (e) {
+        // Dossier vide ou erreur, on ignore
+      }
     }
   }
   return gameFolders;
 }
 
+// Création ou Enregistrement d'un jeu (Idempotent)
 export async function createGameFolder(gameName: string) {
   const safeName = gameName.toLowerCase().replace(/[^a-z0-9-]/g, '-');
   const dirPath = path.join(GAMES_DIR, safeName, 'v1');
   
+  // 1. Création physique (ne plante pas si existe déjà grâce à recursive: true)
   await fs.mkdir(dirPath, { recursive: true });
 
-  // Enregistrement DB (Admin listing only)
+  // 2. Enregistrement DB
   const db = await getDb();
   const gameId = `${safeName}-v1`;
   
@@ -65,41 +72,48 @@ export async function createGameFolder(gameName: string) {
     await db.update(({ games }) => games.push({
       id: gameId,
       name: gameName,
-      description: "Description par défaut",
+      description: "Jeu importé ou créé",
       path: `${safeName}/v1`,
       version: 'v1',
       createdAt: new Date().toISOString()
     }));
   }
 
-  return { success: true, gameName: safeName, version: 'v1' };
+  // 3. (Important) On génère TOUJOURS le index.html par défaut si on "crée/importe"
+  // Cela garantit que même un dossier copié à la main devient jouable immédiatement
+  await generateIndexHtml(safeName, 'v1', { bgColor: '#000000' });
+
+  return { success: true, gameName: safeName, version: 'v1', message: exists ? "Jeu existant mis à jour (index.html régénéré)" : "Nouveau jeu créé" };
 }
 
+// Création ou Enregistrement d'une version (Idempotent)
 export async function createGameVersion(gameName: string, versionName: string) {
   const safeVersion = versionName.toLowerCase().replace(/[^a-z0-9-]/g, '-');
   const dirPath = path.join(GAMES_DIR, gameName, safeVersion);
   
-  try {
-    await fs.access(dirPath);
-    return { success: false, error: "Cette version existe déjà." };
-  } catch {
-    await fs.mkdir(dirPath, { recursive: true });
+  // 1. Création physique
+  await fs.mkdir(dirPath, { recursive: true });
 
-    // Enregistrement DB
-    const db = await getDb();
-    const gameId = `${gameName}-${safeVersion}`;
-    
+  // 2. Enregistrement DB
+  const db = await getDb();
+  const gameId = `${gameName}-${safeVersion}`;
+  
+  const exists = db.data.games.find(g => g.id === gameId);
+  if (!exists) {
     await db.update(({ games }) => games.push({
       id: gameId,
       name: gameName,
-      description: "Nouvelle version",
+      description: `Version ${safeVersion}`,
       path: `${gameName}/${safeVersion}`,
       version: safeVersion,
       createdAt: new Date().toISOString()
     }));
-
-    return { success: true, gameName, version: safeVersion };
   }
+
+  // 3. Génération index.html
+  await generateIndexHtml(gameName, safeVersion, { bgColor: '#000000' });
+
+  return { success: true, gameName, version: safeVersion, message: exists ? "Version existante mise à jour" : "Nouvelle version créée" };
 }
 
 export async function uploadGameFile(gameName: string, version: string, formData: FormData) {

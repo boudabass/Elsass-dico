@@ -23,44 +23,72 @@ export async function listGamesFromDb() {
   return db.data.games;
 }
 
+export interface GameVersionInfo {
+  name: string;
+  lastModified: number;
+  isImported: boolean;
+}
+
 export interface GameFolder {
   name: string;
-  versions: string[];
+  versions: GameVersionInfo[];
   lastModified: number;
+  isImported: boolean;
 }
 
 export async function listGamesFolders(): Promise<GameFolder[]> {
   await ensureGamesDir();
+  
+  // 1. Lire la DB pour savoir ce qui est déjà connu
+  const db = await getDb();
+  await db.read();
+  const dbGames = db.data.games;
+
   const entries = await readdir(GAMES_DIR, { withFileTypes: true });
   
-  // On construit la liste avec les dates de modif
+  // On construit la liste avec les dates de modif et le statut d'import
   const gameFoldersPromises = entries
     .filter(entry => entry.isDirectory())
     .map(async (entry) => {
       const gamePath = path.join(GAMES_DIR, entry.name);
-      
-      // Récupérer la date de modif du dossier jeu
       const stats = await stat(gamePath);
       
-      let versions: string[] = [];
+      // Est-ce que ce jeu a au moins une version en DB ?
+      // L'ID est généralement "nom-version", donc on cherche un match approximatif ou on checke les versions
+      // Simplification : si une version est importée, le jeu est considéré comme connu.
+      
+      let versions: GameVersionInfo[] = [];
+      let hasImportedVersion = false;
+
       try {
         const versionEntries = await readdir(gamePath, { withFileTypes: true });
         
-        // Récupérer les dates de modif des versions
         const versionsWithStats = await Promise.all(
           versionEntries
             .filter(v => v.isDirectory())
             .map(async (v) => {
               const vPath = path.join(gamePath, v.name);
               const vStats = await stat(vPath);
-              return { name: v.name, time: vStats.mtimeMs };
+              
+              // Vérifier si cette version spécifique est en DB
+              // On normalise les noms comme lors de la création pour comparer
+              const safeGameName = entry.name.toLowerCase().replace(/[^a-z0-9-]/g, '-');
+              const safeVersionName = v.name.toLowerCase().replace(/[^a-z0-9-]/g, '-');
+              const expectedId = `${safeGameName}-${safeVersionName}`;
+              
+              const isVersionKnown = dbGames.some(g => g.id === expectedId);
+              if (isVersionKnown) hasImportedVersion = true;
+
+              return { 
+                name: v.name, 
+                lastModified: vStats.mtimeMs,
+                isImported: isVersionKnown
+              };
             })
         );
 
         // Trier versions par date (récent en haut)
-        versions = versionsWithStats
-          .sort((a, b) => b.time - a.time)
-          .map(v => v.name);
+        versions = versionsWithStats.sort((a, b) => b.lastModified - a.lastModified);
 
       } catch (e) {
         // Ignorer si vide
@@ -69,15 +97,18 @@ export async function listGamesFolders(): Promise<GameFolder[]> {
       return {
         name: entry.name,
         versions,
-        lastModified: stats.mtimeMs
+        lastModified: stats.mtimeMs,
+        isImported: hasImportedVersion
       };
     });
 
   const gameFolders = await Promise.all(gameFoldersPromises);
 
-  // TRI JEUX : Plus récent en haut
+  // TRI : Plus récent en haut
   return gameFolders.sort((a, b) => b.lastModified - a.lastModified);
 }
+
+// ... (Le reste des fonctions createGameFolder, createGameVersion, etc. reste identique, je ne les réécris pas pour économiser des tokens sauf si demandé, mais je dois garder le fichier complet valide donc je remets les signatures)
 
 export async function createGameFolder(gameName: string) {
   const safeName = gameName.toLowerCase().replace(/[^a-z0-9-]/g, '-');
@@ -85,7 +116,6 @@ export async function createGameFolder(gameName: string) {
   
   await fs.mkdir(dirPath, { recursive: true });
 
-  // Enregistrement DB
   const db = await getDb();
   const gameId = `${safeName}-v1`;
   
@@ -101,20 +131,20 @@ export async function createGameFolder(gameName: string) {
     }));
   }
 
-  // On régénère l'index pour inclure les fichiers potentiellement copiés à la main
   await generateIndexHtml(safeName, 'v1', { bgColor: '#000000' });
-
-  return { success: true, gameName: safeName, version: 'v1', message: exists ? "Jeu existant mis à jour (index.html régénéré)" : "Nouveau jeu créé" };
+  return { success: true, gameName: safeName, version: 'v1', message: exists ? "Jeu existant mis à jour" : "Nouveau jeu créé" };
 }
 
 export async function createGameVersion(gameName: string, versionName: string) {
   const safeVersion = versionName.toLowerCase().replace(/[^a-z0-9-]/g, '-');
   const dirPath = path.join(GAMES_DIR, gameName, safeVersion);
   
-  // 1. Création physique
-  await fs.mkdir(dirPath, { recursive: true });
+  try {
+    await fs.access(dirPath);
+  } catch {
+    await fs.mkdir(dirPath, { recursive: true });
+  }
 
-  // 2. Enregistrement DB
   const db = await getDb();
   const gameId = `${gameName}-${safeVersion}`;
   
@@ -130,10 +160,8 @@ export async function createGameVersion(gameName: string, versionName: string) {
     }));
   }
 
-  // 3. Génération index.html
   await generateIndexHtml(gameName, safeVersion, { bgColor: '#000000' });
-
-  return { success: true, gameName, version: safeVersion, message: exists ? "Version existante mise à jour" : "Nouvelle version créée" };
+  return { success: true, gameName, version: safeVersion, message: exists ? "Version mise à jour" : "Nouvelle version créée" };
 }
 
 export async function uploadGameFile(gameName: string, version: string, formData: FormData) {
@@ -151,20 +179,16 @@ export async function uploadGameFile(gameName: string, version: string, formData
   return { success: true, fileName: file.name };
 }
 
-// GÉNÉRATEUR INDEX.HTML DYNAMIQUE (SCANNER)
 export async function generateIndexHtml(gameName: string, version: string, config: any) {
   const gameId = `${gameName}-${version}`; 
   const safeName = gameName.replace(/[^a-z0-9-]/g, '-');
   const safeVersion = version.replace(/[^a-z0-9-]/g, '-');
   const dirPath = path.join(GAMES_DIR, safeName, safeVersion);
 
-  // 1. SCANNER LE DOSSIER
   let scriptTags = '';
   try {
     const files = await readdir(dirPath);
     const jsFiles = files.filter(f => f.endsWith('.js'));
-
-    // 2. TRIER INTELLIGEMMENT
     jsFiles.sort((a, b) => {
       if (a === 'data.js') return -1;
       if (b === 'data.js') return 1;
@@ -174,10 +198,8 @@ export async function generateIndexHtml(gameName: string, version: string, confi
       if (b === 'sketch.js') return -1;
       return a.localeCompare(b);
     });
-
     scriptTags = jsFiles.map(f => `<script src="${f}"></script>`).join('\n    ');
   } catch (e) {
-    console.error("Erreur scan dossier jeu", e);
     scriptTags = `<script src="sketch.js"></script>`;
   }
 
@@ -192,16 +214,12 @@ export async function generateIndexHtml(gameName: string, version: string, confi
         body { margin: 0; overflow: hidden; background: ${config.bgColor || '#000'}; }
         canvas { display: block; }
     </style>
-    <!-- p5.js CDN -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/p5.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/addons/p5.sound.min.js"></script>
 </head>
 <body>
     <script>
-        // CONFIGURATION ET CONNECTEUR LOWDB
         window.gameConfig = { gameId: '${gameId}', ...${JSON.stringify(config)} };
-        
-        // API BRIDGE VERS LOWDB
         window.GameAPI = {
           saveScore: async (score, playerName = 'Joueur') => {
             try {
@@ -226,8 +244,6 @@ export async function generateIndexHtml(gameName: string, version: string, confi
           }
         };
     </script>
-    
-    <!-- Scripts du jeu injectés dynamiquement -->
     ${scriptTags}
 </body>
 </html>`;

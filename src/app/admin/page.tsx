@@ -122,7 +122,7 @@ export default function AdminPage() {
           {mode === "new-game" ? (
             <div className="space-y-4">
               <div className="space-y-2">
-                <Label>Dossiers de jeux détectés (Récents en haut)</Label>
+                <Label>Dossiers détectés (🆕 = Non importé)</Label>
                 <Select onValueChange={(val) => setNewGameName(val)}>
                   <SelectTrigger>
                     <SelectValue placeholder="Sélectionner un dossier..." />
@@ -130,7 +130,7 @@ export default function AdminPage() {
                   <SelectContent>
                     {games.map(g => (
                       <SelectItem key={g.name} value={g.name}>
-                        {g.name} (Modifié le {new Date(g.lastModified).toLocaleDateString()})
+                        {g.isImported ? "✅" : "🆕"} {g.name}
                       </SelectItem>
                     ))}
                   </SelectContent>
@@ -143,7 +143,7 @@ export default function AdminPage() {
                   value={newGameName}
                   onChange={(e) => setNewGameName(e.target.value)}
                 />
-                <Button onClick={handleCreateGame}>Valider (V1)</Button>
+                <Button onClick={handleCreateGame}>Valider / Importer (V1)</Button>
               </div>
             </div>
           ) : (
@@ -156,7 +156,9 @@ export default function AdminPage() {
                   </SelectTrigger>
                   <SelectContent>
                     {games.map(g => (
-                      <SelectItem key={g.name} value={g.name}>{g.name}</SelectItem>
+                      <SelectItem key={g.name} value={g.name}>
+                        {g.isImported ? "✅" : "🆕"} {g.name}
+                      </SelectItem>
                     ))}
                   </SelectContent>
                 </Select>
@@ -164,14 +166,16 @@ export default function AdminPage() {
 
               {selectedGame && (
                 <div className="space-y-2">
-                  <Label>2. Dossiers de version détectés (Récents en haut)</Label>
+                  <Label>2. Versions détectées (🆕 = Non importé)</Label>
                   <Select onValueChange={(val) => setNewVersionName(val)}>
                     <SelectTrigger>
-                      <SelectValue placeholder="Sélectionner une version existante..." />
+                      <SelectValue placeholder="Sélectionner une version..." />
                     </SelectTrigger>
                     <SelectContent>
                       {getSelectedGameVersions().map(v => (
-                        <SelectItem key={v} value={v}>{v}</SelectItem>
+                        <SelectItem key={v.name} value={v.name}>
+                          {v.isImported ? "✅" : "🆕"} {v.name}
+                        </SelectItem>
                       ))}
                     </SelectContent>
                   </Select>
@@ -184,7 +188,7 @@ export default function AdminPage() {
                   value={newVersionName}
                   onChange={(e) => setNewVersionName(e.target.value)}
                 />
-                <Button onClick={handleCreateVersion}>Valider Version</Button>
+                <Button onClick={handleCreateVersion}>Valider / Importer Version</Button>
               </div>
             </div>
           )}

@@ -45,7 +45,6 @@ export interface GameVersionInfo {
   lastModified: number;
   isImported: boolean;
   dbId?: string;
-  // Dimensions spécifiques à la version
   width?: number;
   height?: number;
   description?: string;
@@ -56,7 +55,6 @@ export interface GameFolder {
   versions: GameVersionInfo[];
   lastModified: number;
   isImported: boolean;
-  // Infos globales (pour l'affichage générique)
   description?: string;
   prettyName?: string;
   width?: number;
@@ -107,7 +105,6 @@ export async function listGamesFolders(): Promise<GameFolder[]> {
                 lastModified: vStats.mtimeMs,
                 isImported: !!foundGame,
                 dbId: foundGame?.id,
-                // On passe les infos spécifiques de CETTE version
                 width: foundGame?.width || 800,
                 height: foundGame?.height || 600,
                 description: foundGame?.description
@@ -208,7 +205,6 @@ export async function createGameVersion(gameName: string, versionName: string) {
   const db = await getDb();
   const gameId = `${gameName}-${safeVersion}`;
   
-  // Récupérer les dimensions du jeu parent pour pré-remplir
   const parentGame = db.data.games.find(g => g.name === gameName);
   const defaultWidth = parentGame?.width || 800;
   const defaultHeight = parentGame?.height || 600;
@@ -244,7 +240,6 @@ export async function createGameVersion(gameName: string, versionName: string) {
   };
 }
 
-// Upload fichier générique
 export async function uploadGameFile(gameName: string, version: string, formData: FormData) {
   const file = formData.get('file') as File;
   if (!file) return { success: false, error: "Pas de fichier fourni" };
@@ -260,7 +255,6 @@ export async function uploadGameFile(gameName: string, version: string, formData
   return { success: true, fileName: file.name };
 }
 
-// Upload SPÉCIFIQUE pour le thumbnail
 export async function uploadGameThumbnail(gameName: string, version: string, formData: FormData) {
   const file = formData.get('file') as File;
   if (!file) return { success: false, error: "Pas de fichier fourni" };
@@ -276,7 +270,8 @@ export async function uploadGameThumbnail(gameName: string, version: string, for
 
   await fs.writeFile(filePath, buffer);
 
-  const gameId = `${gameName}-${safeVersion}`;
+  // Correction ici : ajout de toLowerCase()
+  const gameId = `${safeName.toLowerCase()}-${safeVersion.toLowerCase()}`;
   const db = await getDb();
   await db.update(({ games }) => {
     const game = games.find(g => g.id === gameId);
@@ -289,9 +284,10 @@ export async function uploadGameThumbnail(gameName: string, version: string, for
 }
 
 export async function generateIndexHtml(gameName: string, version: string, config: any) {
-  const gameId = `${gameName}-${version}`; 
   const safeName = gameName.replace(/[^a-z0-9-]/g, '-');
   const safeVersion = version.replace(/[^a-z0-9-]/g, '-');
+  // Correction ici : ajout de toLowerCase() pour l'ID injecté dans le HTML
+  const gameId = `${safeName.toLowerCase()}-${safeVersion.toLowerCase()}`; 
   const dirPath = path.join(GAMES_DIR, safeName, safeVersion);
 
   let scriptTags = '';
@@ -364,6 +360,8 @@ export async function generateIndexHtml(gameName: string, version: string, confi
 
 export async function deleteGame(gameFolderName: string) {
   const safeName = gameFolderName.replace(/[^a-z0-9-]/g, '-');
+  // Correction ici : ajout de toLowerCase()
+  const dbIdPrefix = `${safeName.toLowerCase()}-`;
   const gamePath = path.join(GAMES_DIR, safeName);
 
   try {
@@ -374,8 +372,8 @@ export async function deleteGame(gameFolderName: string) {
 
   const db = await getDb();
   await db.update(({ games, scores }) => {
-    const gamesToKeep = games.filter(g => !g.id.startsWith(`${safeName}-`));
-    const scoresToKeep = scores.filter(s => !s.gameId.startsWith(`${safeName}-`));
+    const gamesToKeep = games.filter(g => !g.id.startsWith(dbIdPrefix));
+    const scoresToKeep = scores.filter(s => !s.gameId.startsWith(dbIdPrefix));
     return { games: gamesToKeep, scores: scoresToKeep };
   });
 
@@ -386,7 +384,8 @@ export async function deleteVersion(gameFolderName: string, versionName: string)
   const safeName = gameFolderName.replace(/[^a-z0-9-]/g, '-');
   const safeVersion = versionName.replace(/[^a-z0-9-]/g, '-');
   const versionPath = path.join(GAMES_DIR, safeName, safeVersion);
-  const gameId = `${safeName}-${safeVersion}`;
+  // Correction ici : ajout de toLowerCase()
+  const gameId = `${safeName.toLowerCase()}-${safeVersion.toLowerCase()}`;
 
   try {
     await fs.rm(versionPath, { recursive: true, force: true });
@@ -404,12 +403,19 @@ export async function deleteVersion(gameFolderName: string, versionName: string)
 }
 
 export async function updateGameMetadata(gameFolderName: string, version: string, newName: string, newDescription: string, width: number, height: number) {
-  const safeName = gameFolderName.replace(/[^a-z0-9-]/g, '-');
-  const safeVersion = version.replace(/[^a-z0-9-]/g, '-');
+  // IMPORTANT: On applique toLowerCase() pour matcher l'ID en base
+  const safeName = gameFolderName.toLowerCase().replace(/[^a-z0-9-]/g, '-');
+  const safeVersion = version.toLowerCase().replace(/[^a-z0-9-]/g, '-');
   const gameId = `${safeName}-${safeVersion}`;
-  const dirPath = path.join(GAMES_DIR, safeName, safeVersion);
+  
+  // Pour le chemin de fichier (fs), on garde la casse originale si nécessaire, ou on utilise le nom du dossier
+  // Mais ici on utilise safeName qui est lowercase pour le path aussi (car createGameFolder utilise lowercase pour le dossier)
+  // Attention: Si le dossier physique n'est PAS lowercase, cela peut poser problème sur Linux.
+  // Mais createGameFolder force le lowercase pour le dossier.
+  const dirPath = path.join(GAMES_DIR, gameFolderName.replace(/[^a-z0-9-]/g, '-'), version.replace(/[^a-z0-9-]/g, '-'));
 
   const db = await getDb();
+  
   await db.update(({ games }) => {
     const game = games.find(g => g.id === gameId);
     if (game) {

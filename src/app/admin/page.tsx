@@ -85,6 +85,12 @@ export default function AdminPage() {
     toast.success("index.html généré et injecté !");
   };
 
+  // Helper pour trouver les versions du jeu sélectionné
+  const getSelectedGameVersions = () => {
+    const game = games.find(g => g.name === selectedGame);
+    return game?.versions || [];
+  };
+
   if (isLoading) return <div>Chargement...</div>;
   if (!user) return <div>Accès refusé</div>;
 
@@ -116,10 +122,10 @@ export default function AdminPage() {
           {mode === "new-game" ? (
             <div className="space-y-4">
               <div className="space-y-2">
-                <Label>Importer un dossier existant (Récents en haut)</Label>
+                <Label>Dossiers de jeux détectés (Récents en haut)</Label>
                 <Select onValueChange={(val) => setNewGameName(val)}>
                   <SelectTrigger>
-                    <SelectValue placeholder="Sélectionner un dossier détecté..." />
+                    <SelectValue placeholder="Sélectionner un dossier..." />
                   </SelectTrigger>
                   <SelectContent>
                     {games.map(g => (
@@ -139,29 +145,46 @@ export default function AdminPage() {
                 />
                 <Button onClick={handleCreateGame}>Valider (V1)</Button>
               </div>
-              <p className="text-xs text-muted-foreground">
-                Si le dossier existe déjà physiquement, il sera importé et le index.html sera généré.
-              </p>
             </div>
           ) : (
             <div className="space-y-4">
-              <Select onValueChange={setSelectedGame}>
-                <SelectTrigger>
-                  <SelectValue placeholder="Choisir un jeu" />
-                </SelectTrigger>
-                <SelectContent>
-                  {games.map(g => (
-                    <SelectItem key={g.name} value={g.name}>{g.name}</SelectItem>
-                  ))}
-                </SelectContent>
-              </Select>
+              <div className="space-y-2">
+                <Label>1. Choisir le jeu</Label>
+                <Select onValueChange={setSelectedGame}>
+                  <SelectTrigger>
+                    <SelectValue placeholder="Liste des jeux..." />
+                  </SelectTrigger>
+                  <SelectContent>
+                    {games.map(g => (
+                      <SelectItem key={g.name} value={g.name}>{g.name}</SelectItem>
+                    ))}
+                  </SelectContent>
+                </Select>
+              </div>
+
+              {selectedGame && (
+                <div className="space-y-2">
+                  <Label>2. Dossiers de version détectés (Récents en haut)</Label>
+                  <Select onValueChange={(val) => setNewVersionName(val)}>
+                    <SelectTrigger>
+                      <SelectValue placeholder="Sélectionner une version existante..." />
+                    </SelectTrigger>
+                    <SelectContent>
+                      {getSelectedGameVersions().map(v => (
+                        <SelectItem key={v} value={v}>{v}</SelectItem>
+                      ))}
+                    </SelectContent>
+                  </Select>
+                </div>
+              )}
+
               <div className="flex gap-2">
                 <Input 
-                  placeholder="Version (ex: v2)" 
+                  placeholder="Ou taper nouvelle version (ex: v2)" 
                   value={newVersionName}
                   onChange={(e) => setNewVersionName(e.target.value)}
                 />
-                <Button onClick={handleCreateVersion}>Créer Version</Button>
+                <Button onClick={handleCreateVersion}>Valider Version</Button>
               </div>
             </div>
           )}

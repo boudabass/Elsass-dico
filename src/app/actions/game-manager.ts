@@ -39,16 +39,29 @@ export async function listGamesFolders(): Promise<GameFolder[]> {
     .map(async (entry) => {
       const gamePath = path.join(GAMES_DIR, entry.name);
       
-      // Récupérer la date de modif du dossier
+      // Récupérer la date de modif du dossier jeu
       const stats = await stat(gamePath);
       
       let versions: string[] = [];
       try {
         const versionEntries = await readdir(gamePath, { withFileTypes: true });
-        versions = versionEntries
-          .filter(v => v.isDirectory())
-          .map(v => v.name)
-          .sort().reverse();
+        
+        // Récupérer les dates de modif des versions
+        const versionsWithStats = await Promise.all(
+          versionEntries
+            .filter(v => v.isDirectory())
+            .map(async (v) => {
+              const vPath = path.join(gamePath, v.name);
+              const vStats = await stat(vPath);
+              return { name: v.name, time: vStats.mtimeMs };
+            })
+        );
+
+        // Trier versions par date (récent en haut)
+        versions = versionsWithStats
+          .sort((a, b) => b.time - a.time)
+          .map(v => v.name);
+
       } catch (e) {
         // Ignorer si vide
       }
@@ -62,7 +75,7 @@ export async function listGamesFolders(): Promise<GameFolder[]> {
 
   const gameFolders = await Promise.all(gameFoldersPromises);
 
-  // TRI : Plus récent en haut
+  // TRI JEUX : Plus récent en haut
   return gameFolders.sort((a, b) => b.lastModified - a.lastModified);
 }
 
@@ -91,40 +104,36 @@ export async function createGameFolder(gameName: string) {
   // On régénère l'index pour inclure les fichiers potentiellement copiés à la main
   await generateIndexHtml(safeName, 'v1', { bgColor: '#000000' });
 
-  return { success: true, gameName: safeName, version: 'v1' };
+  return { success: true, gameName: safeName, version: 'v1', message: exists ? "Jeu existant mis à jour (index.html régénéré)" : "Nouveau jeu créé" };
 }
 
 export async function createGameVersion(gameName: string, versionName: string) {
   const safeVersion = versionName.toLowerCase().replace(/[^a-z0-9-]/g, '-');
   const dirPath = path.join(GAMES_DIR, gameName, safeVersion);
   
-  try {
-    await fs.access(dirPath);
-    // Si dossier existe, on met juste à jour la DB et l'index
-  } catch {
-    await fs.mkdir(dirPath, { recursive: true });
-  }
+  // 1. Création physique
+  await fs.mkdir(dirPath, { recursive: true });
 
-  // Enregistrement DB
+  // 2. Enregistrement DB
   const db = await getDb();
   const gameId = `${gameName}-${safeVersion}`;
   
-  // Update or Insert
-  const existingGame = db.data.games.find(g => g.id === gameId);
-  if (!existingGame) {
+  const exists = db.data.games.find(g => g.id === gameId);
+  if (!exists) {
     await db.update(({ games }) => games.push({
       id: gameId,
       name: gameName,
-      description: "Nouvelle version",
+      description: `Version ${safeVersion}`,
       path: `${gameName}/${safeVersion}`,
       version: safeVersion,
       createdAt: new Date().toISOString()
     }));
   }
 
+  // 3. Génération index.html
   await generateIndexHtml(gameName, safeVersion, { bgColor: '#000000' });
 
-  return { success: true, gameName, version: safeVersion };
+  return { success: true, gameName, version: safeVersion, message: exists ? "Version existante mise à jour" : "Nouvelle version créée" };
 }
 
 export async function uploadGameFile(gameName: string, version: string, formData: FormData) {
@@ -156,22 +165,19 @@ export async function generateIndexHtml(gameName: string, version: string, confi
     const jsFiles = files.filter(f => f.endsWith('.js'));
 
     // 2. TRIER INTELLIGEMMENT
-    // Ordre de chargement : data.js (configs) -> libs -> autres -> sketch.js (main)
     jsFiles.sort((a, b) => {
       if (a === 'data.js') return -1;
       if (b === 'data.js') return 1;
-      if (a === 'hud.js') return -1; // HUD tôt
+      if (a === 'hud.js') return -1;
       if (b === 'hud.js') return 1;
-      if (a === 'sketch.js') return 1; // Sketch en dernier généralement
+      if (a === 'sketch.js') return 1;
       if (b === 'sketch.js') return -1;
       return a.localeCompare(b);
     });
 
-    // 3. GÉNÉRER LES BALISES
     scriptTags = jsFiles.map(f => `<script src="${f}"></script>`).join('\n    ');
   } catch (e) {
     console.error("Erreur scan dossier jeu", e);
-    // Fallback si erreur
     scriptTags = `<script src="sketch.js"></script>`;
   }
 

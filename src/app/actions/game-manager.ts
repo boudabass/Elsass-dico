@@ -50,6 +50,7 @@ export interface GameVersionInfo {
   name: string;
   lastModified: number;
   isImported: boolean;
+  dbId?: string; // ID dans la DB si importé
 }
 
 export interface GameFolder {
@@ -57,6 +58,8 @@ export interface GameFolder {
   versions: GameVersionInfo[];
   lastModified: number;
   isImported: boolean;
+  description?: string; // Depuis la DB
+  prettyName?: string; // Depuis la DB
 }
 
 export async function listGamesFolders(): Promise<GameFolder[]> {
@@ -76,6 +79,7 @@ export async function listGamesFolders(): Promise<GameFolder[]> {
       
       let versions: GameVersionInfo[] = [];
       let hasImportedVersion = false;
+      let dbGameInfo = null;
 
       try {
         const versionEntries = await readdir(gamePath, { withFileTypes: true });
@@ -91,13 +95,17 @@ export async function listGamesFolders(): Promise<GameFolder[]> {
               const safeVersionName = v.name.toLowerCase().replace(/[^a-z0-9-]/g, '-');
               const expectedId = `${safeGameName}-${safeVersionName}`;
               
-              const isVersionKnown = dbGames.some(g => g.id === expectedId);
-              if (isVersionKnown) hasImportedVersion = true;
+              const foundGame = dbGames.find(g => g.id === expectedId);
+              if (foundGame) {
+                hasImportedVersion = true;
+                dbGameInfo = foundGame; // On prend le dernier trouvé pour les infos globales
+              }
 
               return { 
                 name: v.name, 
                 lastModified: vStats.mtimeMs,
-                isImported: isVersionKnown
+                isImported: !!foundGame,
+                dbId: foundGame?.id
               };
             })
         );
@@ -110,7 +118,9 @@ export async function listGamesFolders(): Promise<GameFolder[]> {
         name: entry.name,
         versions,
         lastModified: stats.mtimeMs,
-        isImported: hasImportedVersion
+        isImported: hasImportedVersion,
+        description: dbGameInfo?.description,
+        prettyName: dbGameInfo?.name
       };
     });
 
@@ -334,5 +344,81 @@ export async function generateIndexHtml(gameName: string, version: string, confi
 
   const filePath = path.join(dirPath, 'index.html');
   await fs.writeFile(filePath, htmlContent);
+  return { success: true };
+}
+
+// --- GESTION ET SUPPRESSION ---
+
+export async function deleteGame(gameFolderName: string) {
+  const safeName = gameFolderName.replace(/[^a-z0-9-]/g, '-');
+  const gamePath = path.join(GAMES_DIR, safeName);
+
+  // 1. Supprimer le dossier physique
+  try {
+    await fs.rm(gamePath, { recursive: true, force: true });
+  } catch (e) {
+    console.error("Erreur suppression dossier", e);
+  }
+
+  // 2. Nettoyer la DB (Jeux + Scores)
+  const db = await getDb();
+  await db.update(({ games, scores }) => {
+    // Supprimer toutes les versions du jeu (ID commence par "tetris-")
+    const gamesToKeep = games.filter(g => !g.id.startsWith(`${safeName}-`));
+    // Supprimer les scores associés
+    const scoresToKeep = scores.filter(s => !s.gameId.startsWith(`${safeName}-`));
+    
+    // Mutation directe car lowdb v7+ utilise Immer si configuré, ou réassignation
+    // Ici on réassigne pour être sûr avec l'adaptateur JSONFilePreset par défaut
+    // Note: JSONFilePreset utilise l'objet data directement.
+    return { games: gamesToKeep, scores: scoresToKeep };
+  });
+
+  return { success: true };
+}
+
+export async function deleteVersion(gameFolderName: string, versionName: string) {
+  const safeName = gameFolderName.replace(/[^a-z0-9-]/g, '-');
+  const safeVersion = versionName.replace(/[^a-z0-9-]/g, '-');
+  const versionPath = path.join(GAMES_DIR, safeName, safeVersion);
+  const gameId = `${safeName}-${safeVersion}`;
+
+  // 1. Supprimer le dossier de la version
+  try {
+    await fs.rm(versionPath, { recursive: true, force: true });
+  } catch (e) {}
+
+  // 2. Nettoyer DB pour cette version spécifique
+  const db = await getDb();
+  await db.update(({ games, scores }) => {
+    return {
+      games: games.filter(g => g.id !== gameId),
+      scores: scores.filter(s => s.gameId !== gameId)
+    };
+  });
+
+  return { success: true };
+}
+
+export async function updateGameMetadata(gameFolderName: string, version: string, newName: string, newDescription: string) {
+  const safeName = gameFolderName.replace(/[^a-z0-9-]/g, '-');
+  const safeVersion = version.replace(/[^a-z0-9-]/g, '-');
+  const gameId = `${safeName}-${safeVersion}`;
+  const dirPath = path.join(GAMES_DIR, safeName, safeVersion);
+
+  const db = await getDb();
+  await db.update(({ games }) => {
+    const game = games.find(g => g.id === gameId);
+    if (game) {
+      game.name = newName;
+      game.description = newDescription;
+    }
+  });
+
+  // Mettre à jour description.md pour garder la synchro
+  try {
+    await fs.writeFile(path.join(dirPath, 'description.md'), newDescription);
+  } catch(e) {}
+
   return { success: true };
 }

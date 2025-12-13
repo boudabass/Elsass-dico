@@ -51,4 +51,7 @@ jobs:
           labels: ${{ steps.meta.outputs.labels }}
           cache-from: type=gha # This will now work
           cache-to: type=gha,mode=max # This will now work
+          build-args: |
+            NEXT_PUBLIC_SUPABASE_URL=${{ secrets.NEXT_PUBLIC_SUPABASE_URL }}
+            NEXT_PUBLIC_SUPABASE_ANON_KEY=${{ secrets.NEXT_PUBLIC_SUPABASE_ANON_KEY }}
 

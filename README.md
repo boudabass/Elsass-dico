@@ -6,7 +6,7 @@ Bienvenue sur le Game Center, une plateforme de jeux web conçue pour être simp
 
 ##  Partie 1 : Présentation (Pour Tous)
 
-### 🎯 Notre Mission
+### 🎯 Notre Mission !
 
 Offrir un espace de divertissement numérique clair et facile d'accès. Chaque jeu est présenté de manière lisible, avec de gros boutons pour lancer une partie en un seul clic. L'objectif est de s'amuser sans se perdre dans des menus compliqués.
 

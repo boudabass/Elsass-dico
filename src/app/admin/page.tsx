@@ -1,3 +1,4 @@
+listGamesFolders">
 "use client";
 
 import { useEffect, useState } from "react";
@@ -8,7 +9,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Label } from "@/components/ui/label";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { toast } from "sonner";
-import { listGames, createGameFolder, createGameVersion, uploadGameFile, generateIndexHtml, GameFolder } from "@/app/actions/game-manager";
+import { listGamesFolders, createGameFolder, createGameVersion, uploadGameFile, generateIndexHtml, GameFolder } from "@/app/actions/game-manager";
 
 export default function AdminPage() {
   const { user, isLoading } = useAuth();
@@ -29,7 +30,8 @@ export default function AdminPage() {
   }, []);
 
   const refreshGames = async () => {
-    const g = await listGames();
+    // Correction ici : utilisation de listGamesFolders
+    const g = await listGamesFolders();
     setGames(g);
   };
 
@@ -37,7 +39,7 @@ export default function AdminPage() {
     if (!newGameName) return toast.error("Nom du jeu requis");
     const res = await createGameFolder(newGameName);
     if (res.success) {
-      toast.success(`Dossier créé : ${res.gameName}/${res.version}`);
+      toast.success(res.message); // Message ajusté pour le feedback import
       setActivePath({ name: res.gameName!, version: res.version! });
       refreshGames();
     }
@@ -47,7 +49,7 @@ export default function AdminPage() {
     if (!selectedGame || !newVersionName) return toast.error("Jeu et version requis");
     const res = await createGameVersion(selectedGame, newVersionName);
     if (res.success) {
-      toast.success(`Version créée : ${res.gameName}/${res.version}`);
+      toast.success(res.message);
       setActivePath({ name: res.gameName!, version: res.version! });
       refreshGames();
     } else {
@@ -120,7 +122,7 @@ export default function AdminPage() {
                 value={newGameName}
                 onChange={(e) => setNewGameName(e.target.value)}
               />
-              <Button onClick={handleCreateGame}>Créer (V1)</Button>
+              <Button onClick={handleCreateGame}>Créer / Importer (V1)</Button>
             </div>
           ) : (
             <div className="space-y-4">
@@ -140,7 +142,7 @@ export default function AdminPage() {
                   value={newVersionName}
                   onChange={(e) => setNewVersionName(e.target.value)}
                 />
-                <Button onClick={handleCreateVersion}>Créer Version</Button>
+                <Button onClick={handleCreateVersion}>Créer / Importer Version</Button>
               </div>
             </div>
           )}

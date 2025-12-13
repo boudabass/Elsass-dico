@@ -1,0 +1,2 @@
+# Ce fichier permet de conserver le dossier 'games' dans git même s'il est vide.
+# En production, ce dossier sera masqué par le volume Docker.

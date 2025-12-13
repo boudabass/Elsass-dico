@@ -1,0 +1,2 @@
+# Ce fichier permet de conserver le dossier 'data' dans git.
+# C'est ici que db.json sera créé.

@@ -13,11 +13,12 @@ import {
   createGameFolder, 
   createGameVersion, 
   uploadGameFile, 
+  uploadGameThumbnail,
   generateIndexHtml, 
   listGameFiles,
   GameFolder 
 } from "@/app/actions/game-manager";
-import { FileIcon, FileCode, ImageIcon, FileText } from "lucide-react";
+import { FileIcon, FileCode, ImageIcon, FileText, Upload } from "lucide-react";
 
 export default function AdminPage() {
   const { user, isLoading } = useAuth();
@@ -117,6 +118,25 @@ export default function AdminPage() {
     setUploading(false);
   };
 
+  const handleThumbnailUpload = async (e: React.ChangeEvent<HTMLInputElement>) => {
+    if (!e.target.files || !activePath) return;
+    setUploading(true);
+
+    const file = e.target.files[0];
+    const formData = new FormData();
+    formData.append('file', file);
+
+    const res = await uploadGameThumbnail(activePath.name, activePath.version, formData);
+    
+    if (res.success) {
+      toast.success(`Image de couverture mise à jour (thumbnail.png)`);
+      loadFiles(activePath.name, activePath.version); 
+    } else {
+      toast.error(res.error);
+    }
+    setUploading(false);
+  };
+
   const handleGenerateIndex = async () => {
     if (!activePath) return;
     const config = {
@@ -135,7 +155,6 @@ export default function AdminPage() {
     return game?.versions || [];
   };
 
-  // Helper icone fichier
   const getFileIcon = (fileName: string) => {
     if (fileName.endsWith('.js')) return <FileCode className="w-4 h-4 text-yellow-600" />;
     if (fileName.endsWith('.html')) return <FileCode className="w-4 h-4 text-orange-600" />;
@@ -279,21 +298,40 @@ export default function AdminPage() {
                       {getFileIcon(file)}
                       <span>{file}</span>
                       {file === 'index.html' && <span className="text-xs bg-green-100 text-green-700 px-2 rounded-full">Généré</span>}
+                      {file === 'thumbnail.png' && <span className="text-xs bg-blue-100 text-blue-700 px-2 rounded-full">Couverture</span>}
                     </li>
                   ))}
                 </ul>
               )}
             </div>
 
-            <div className="flex flex-col gap-4">
-              <Label>Uploader un fichier (complémentaire)</Label>
-              <Input 
-                type="file" 
-                onChange={handleFileUpload} 
-                disabled={uploading}
-              />
-              {uploading && <p className="text-sm text-yellow-500">Upload en cours...</p>}
+            <div className="grid grid-cols-2 gap-4">
+                <div className="space-y-2">
+                    <Label className="flex items-center gap-2">
+                        <Upload className="w-4 h-4"/> Fichier Jeu (.js, etc)
+                    </Label>
+                    <Input 
+                        type="file" 
+                        onChange={handleFileUpload} 
+                        disabled={uploading}
+                    />
+                </div>
+                <div className="space-y-2">
+                    <Label className="flex items-center gap-2 text-blue-600">
+                        <ImageIcon className="w-4 h-4"/> Image Couverture
+                    </Label>
+                    <Input 
+                        type="file"
+                        accept="image/*" 
+                        onChange={handleThumbnailUpload} 
+                        disabled={uploading}
+                        className="file:text-blue-600"
+                    />
+                    <p className="text-xs text-slate-500">Sera renommée thumbnail.png</p>
+                </div>
             </div>
+            
+            {uploading && <p className="text-sm text-yellow-500 animate-pulse">Upload en cours...</p>}
 
             <div className="pt-4 border-t">
               <Button onClick={handleGenerateIndex} className="w-full h-12 text-lg" variant="default">

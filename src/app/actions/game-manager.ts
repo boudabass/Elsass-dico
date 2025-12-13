@@ -118,7 +118,7 @@ export async function listGamesFolders(): Promise<GameFolder[]> {
   return gameFolders.sort((a, b) => b.lastModified - a.lastModified);
 }
 
-// NOUVELLE FONCTION : Lister les fichiers d'une version spécifique
+// Lister les fichiers d'une version spécifique
 export async function listGameFiles(gameName: string, versionName: string): Promise<string[]> {
   const safeName = gameName.replace(/[^a-z0-9-]/g, '-');
   const safeVersion = versionName.replace(/[^a-z0-9-]/g, '-');
@@ -217,6 +217,7 @@ export async function createGameVersion(gameName: string, versionName: string) {
   };
 }
 
+// Upload fichier générique
 export async function uploadGameFile(gameName: string, version: string, formData: FormData) {
   const file = formData.get('file') as File;
   if (!file) return { success: false, error: "Pas de fichier fourni" };
@@ -230,6 +231,36 @@ export async function uploadGameFile(gameName: string, version: string, formData
 
   await fs.writeFile(filePath, buffer);
   return { success: true, fileName: file.name };
+}
+
+// Upload SPÉCIFIQUE pour le thumbnail (Update DB auto)
+export async function uploadGameThumbnail(gameName: string, version: string, formData: FormData) {
+  const file = formData.get('file') as File;
+  if (!file) return { success: false, error: "Pas de fichier fourni" };
+
+  const bytes = await file.arrayBuffer();
+  const buffer = Buffer.from(bytes);
+
+  const safeName = gameName.replace(/[^a-z0-9-]/g, '-');
+  const safeVersion = version.replace(/[^a-z0-9-]/g, '-');
+  
+  // On renomme systématiquement en thumbnail.png
+  const fileName = 'thumbnail.png'; 
+  const filePath = path.join(GAMES_DIR, safeName, safeVersion, fileName);
+
+  await fs.writeFile(filePath, buffer);
+
+  // Mise à jour de la DB
+  const gameId = `${gameName}-${safeVersion}`;
+  const db = await getDb();
+  await db.update(({ games }) => {
+    const game = games.find(g => g.id === gameId);
+    if (game) {
+      game.thumbnail = fileName;
+    }
+  });
+
+  return { success: true, fileName };
 }
 
 export async function generateIndexHtml(gameName: string, version: string, config: any) {

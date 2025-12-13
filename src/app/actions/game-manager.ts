@@ -117,7 +117,7 @@ export async function uploadGameFile(gameName: string, version: string, formData
   return { success: true, fileName: file.name };
 }
 
-// GÉNÉRATEUR INDEX.HTML STATIQUE
+// GÉNÉRATEUR INDEX.HTML AVEC CONNECTEUR LOWDB
 export async function generateIndexHtml(gameName: string, version: string, config: any) {
   const gameId = `${gameName}-${version}`; 
   const safeName = gameName.replace(/[^a-z0-9-]/g, '-');
@@ -140,14 +140,40 @@ export async function generateIndexHtml(gameName: string, version: string, confi
 </head>
 <body>
     <script>
-        // INJECTION ID UNIQUE POUR LOCALSTORAGE
-        window.gameId = '${gameId}';
+        // CONFIGURATION ET CONNECTEUR LOWDB
+        window.gameConfig = { gameId: '${gameId}', ...${JSON.stringify(config)} };
         
-        // Config optionnelle si ton sketch en a besoin
-        window.gameConfig = ${JSON.stringify(config)};
+        // API BRIDGE VERS LOWDB
+        window.GameAPI = {
+          // Sauvegarder un score dans Lowdb
+          saveScore: async (score, playerName = 'Joueur') => {
+            console.log('Saving to Lowdb...', score);
+            try {
+              await fetch('/api/scores', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({
+                  gameId: window.gameConfig.gameId,
+                  playerName,
+                  score
+                })
+              });
+              return true;
+            } catch (e) { console.error("Erreur Lowdb save", e); return false; }
+          },
+
+          // Lire les scores depuis Lowdb
+          getHighScores: async () => {
+             try {
+              const res = await fetch('/api/scores?gameId=' + window.gameConfig.gameId);
+              const data = await res.json();
+              return Array.isArray(data) ? data : [];
+             } catch (e) { console.error("Erreur Lowdb read", e); return []; }
+          }
+        };
     </script>
     
-    <!-- Scripts du jeu (Doivent être uploadés via l'admin) -->
+    <!-- Scripts du jeu -->
     <script src="data.js"></script>
     <script src="hud.js"></script>
     <script src="sketch.js"></script>

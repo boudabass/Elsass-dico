@@ -25,8 +25,7 @@ async function readLocalMetadata(dirPath: string) {
   try {
     description = await fs.readFile(path.join(dirPath, 'description.md'), 'utf-8');
   } catch (e) {
-    // Pas de description, on garde undefined pour ne pas écraser l'existant s'il y en a un en DB, 
-    // ou on mettra une valeur par défaut plus tard
+    // Pas de description
   }
 
   // 2. Vérifier thumbnail.png
@@ -119,6 +118,21 @@ export async function listGamesFolders(): Promise<GameFolder[]> {
   return gameFolders.sort((a, b) => b.lastModified - a.lastModified);
 }
 
+// NOUVELLE FONCTION : Lister les fichiers d'une version spécifique
+export async function listGameFiles(gameName: string, versionName: string): Promise<string[]> {
+  const safeName = gameName.replace(/[^a-z0-9-]/g, '-');
+  const safeVersion = versionName.replace(/[^a-z0-9-]/g, '-');
+  const dirPath = path.join(GAMES_DIR, safeName, safeVersion);
+
+  try {
+    const files = await readdir(dirPath);
+    // On cache les fichiers système cachés
+    return files.filter(f => !f.startsWith('.')).sort();
+  } catch (e) {
+    return [];
+  }
+}
+
 // --- CRÉATION / MISE À JOUR JEU ---
 export async function createGameFolder(gameName: string) {
   const safeName = gameName.toLowerCase().replace(/[^a-z0-9-]/g, '-');
@@ -126,25 +140,19 @@ export async function createGameFolder(gameName: string) {
   
   await fs.mkdir(dirPath, { recursive: true });
 
-  // Lire les métadonnées sur le disque (si fichiers présents)
   const meta = await readLocalMetadata(dirPath);
-
   const db = await getDb();
   const gameId = `${safeName}-v1`;
   
   const existingIndex = db.data.games.findIndex(g => g.id === gameId);
   
   if (existingIndex >= 0) {
-    // MISE À JOUR (UPDATE)
     await db.update(({ games }) => {
       const g = games[existingIndex];
-      // On met à jour si une nouvelle valeur est trouvée, sinon on garde l'ancienne
       if (meta.description) g.description = meta.description;
       if (meta.thumbnail) g.thumbnail = meta.thumbnail;
-      // On force la mise à jour de la date ? Optionnel.
     });
   } else {
-    // CRÉATION (INSERT)
     await db.update(({ games }) => games.push({
       id: gameId,
       name: gameName,
@@ -177,21 +185,18 @@ export async function createGameVersion(gameName: string, versionName: string) {
   }
 
   const meta = await readLocalMetadata(dirPath);
-
   const db = await getDb();
   const gameId = `${gameName}-${safeVersion}`;
   
   const existingIndex = db.data.games.findIndex(g => g.id === gameId);
 
   if (existingIndex >= 0) {
-    // UPDATE
     await db.update(({ games }) => {
       const g = games[existingIndex];
       if (meta.description) g.description = meta.description;
       if (meta.thumbnail) g.thumbnail = meta.thumbnail;
     });
   } else {
-    // INSERT
     await db.update(({ games }) => games.push({
       id: gameId,
       name: gameName,

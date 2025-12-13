@@ -8,7 +8,16 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Label } from "@/components/ui/label";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { toast } from "sonner";
-import { listGamesFolders, createGameFolder, createGameVersion, uploadGameFile, generateIndexHtml, GameFolder } from "@/app/actions/game-manager";
+import { 
+  listGamesFolders, 
+  createGameFolder, 
+  createGameVersion, 
+  uploadGameFile, 
+  generateIndexHtml, 
+  listGameFiles,
+  GameFolder 
+} from "@/app/actions/game-manager";
+import { FileIcon, FileCode, ImageIcon, FileText } from "lucide-react";
 
 export default function AdminPage() {
   const { user, isLoading } = useAuth();
@@ -20,35 +29,47 @@ export default function AdminPage() {
   const [selectedGame, setSelectedGame] = useState("");
   const [newVersionName, setNewVersionName] = useState("");
   
-  // États dérivés pour l'UI
-  const [isGameUpdate, setIsGameUpdate] = useState(false);
-  const [isVersionUpdate, setIsVersionUpdate] = useState(false);
-  
-  // État Upload
+  // État Upload & Fichiers
   const [activePath, setActivePath] = useState<{name: string, version: string} | null>(null);
   const [uploading, setUploading] = useState(false);
+  const [folderFiles, setFolderFiles] = useState<string[]>([]);
 
   useEffect(() => {
     refreshGames();
   }, []);
+
+  // Rafraîchir la liste des fichiers quand le dossier actif change
+  useEffect(() => {
+    if (activePath) {
+      loadFiles(activePath.name, activePath.version);
+    } else {
+      setFolderFiles([]);
+    }
+  }, [activePath]);
 
   const refreshGames = async () => {
     const g = await listGamesFolders();
     setGames(g);
   };
 
-  // Détecter si on est en mode Update pour le Jeu
+  const loadFiles = async (name: string, version: string) => {
+    const files = await listGameFiles(name, version);
+    setFolderFiles(files);
+  };
+
+  // ... (Logique isGameUpdate / isVersionUpdate identique)
+  const [isGameUpdate, setIsGameUpdate] = useState(false);
+  const [isVersionUpdate, setIsVersionUpdate] = useState(false);
+
   useEffect(() => {
     const existing = games.find(g => g.name === newGameName);
     setIsGameUpdate(!!existing && existing.isImported);
   }, [newGameName, games]);
 
-  // Détecter si on est en mode Update pour la Version
   useEffect(() => {
     if (!selectedGame) return;
     const game = games.find(g => g.name === selectedGame);
     if (game) {
-        // Simple check : est-ce que cette version est marquée comme importée dans la liste ?
         const version = game.versions.find(v => v.name === newVersionName);
         setIsVersionUpdate(!!version && version.isImported);
     }
@@ -89,6 +110,7 @@ export default function AdminPage() {
     
     if (res.success) {
       toast.success(`Fichier ${res.fileName} uploadé`);
+      loadFiles(activePath.name, activePath.version); // Rafraîchir la liste
     } else {
       toast.error(res.error);
     }
@@ -105,11 +127,20 @@ export default function AdminPage() {
     
     await generateIndexHtml(activePath.name, activePath.version, config);
     toast.success("index.html généré et injecté !");
+    loadFiles(activePath.name, activePath.version); // Rafraîchir pour voir le nouveau index.html
   };
 
   const getSelectedGameVersions = () => {
     const game = games.find(g => g.name === selectedGame);
     return game?.versions || [];
+  };
+
+  // Helper icone fichier
+  const getFileIcon = (fileName: string) => {
+    if (fileName.endsWith('.js')) return <FileCode className="w-4 h-4 text-yellow-600" />;
+    if (fileName.endsWith('.html')) return <FileCode className="w-4 h-4 text-orange-600" />;
+    if (fileName.endsWith('.png') || fileName.endsWith('.jpg')) return <ImageIcon className="w-4 h-4 text-blue-600" />;
+    return <FileText className="w-4 h-4 text-gray-500" />;
   };
 
   if (isLoading) return <div>Chargement...</div>;
@@ -122,7 +153,7 @@ export default function AdminPage() {
       {/* Étape 1 : Création Dossier / Import */}
       <Card className="mb-8">
         <CardHeader>
-          <CardTitle>1. Gestion des Jeux</CardTitle>
+          <CardTitle>1. Sélection</CardTitle>
         </CardHeader>
         <CardContent className="space-y-4">
           <div className="flex gap-4 mb-4">
@@ -130,13 +161,13 @@ export default function AdminPage() {
               variant={mode === "new-game" ? "default" : "outline"}
               onClick={() => { setMode("new-game"); setActivePath(null); }}
             >
-              Importer / Nouveau
+              Jeux
             </Button>
             <Button 
               variant={mode === "new-version" ? "default" : "outline"}
               onClick={() => { setMode("new-version"); setActivePath(null); }}
             >
-              Nouvelle Version
+              Version
             </Button>
           </div>
 
@@ -168,14 +199,9 @@ export default function AdminPage() {
                     onClick={handleCreateGame}
                     variant={isGameUpdate ? "secondary" : "default"}
                 >
-                    {isGameUpdate ? "Mettre à jour / Relire" : "Créer / Importer (V1)"}
+                    {isGameUpdate ? "Mettre à jour" : "Valider (V1)"}
                 </Button>
               </div>
-              {isGameUpdate && (
-                  <p className="text-xs text-blue-500">
-                      Ce jeu existe déjà. Cliquer mettra à jour la base de données avec le contenu actuel du dossier (description.md, thumbnail.png).
-                  </p>
-              )}
             </div>
           ) : (
             <div className="space-y-4">
@@ -223,7 +249,7 @@ export default function AdminPage() {
                     onClick={handleCreateVersion}
                     variant={isVersionUpdate ? "secondary" : "default"}
                 >
-                    {isVersionUpdate ? "Mettre à jour / Relire" : "Créer / Importer"}
+                    {isVersionUpdate ? "Mettre à jour" : "Valider Version"}
                 </Button>
               </div>
             </div>
@@ -236,21 +262,31 @@ export default function AdminPage() {
         <Card className="border-primary border-2">
           <CardHeader>
             <CardTitle>
-              2. Fichiers pour : <span className="text-primary">{activePath.name} / {activePath.version}</span>
+              2. Fichiers : <span className="text-primary">{activePath.name} / {activePath.version}</span>
             </CardTitle>
           </CardHeader>
           <CardContent className="space-y-6">
-            <div className="p-4 bg-muted rounded-lg">
-              <h3 className="font-semibold mb-2">État du dossier :</h3>
-              <p className="text-sm text-muted-foreground mb-4">
-                Le système a potentiellement rechargé : <b>description.md</b> et <b>thumbnail.png</b>.
-                <br/>
-                Si vous avez modifié des fichiers, cliquez sur "Générer index.html" pour être sûr que tout est lié.
-              </p>
+            
+            {/* Liste des fichiers */}
+            <div className="bg-slate-100 rounded-md p-4 border border-slate-200">
+              <h3 className="font-semibold mb-2 text-sm text-slate-700">Contenu du dossier :</h3>
+              {folderFiles.length === 0 ? (
+                <p className="text-sm text-slate-400 italic">Dossier vide.</p>
+              ) : (
+                <ul className="space-y-1">
+                  {folderFiles.map((file) => (
+                    <li key={file} className="text-sm flex items-center gap-2 text-slate-700">
+                      {getFileIcon(file)}
+                      <span>{file}</span>
+                      {file === 'index.html' && <span className="text-xs bg-green-100 text-green-700 px-2 rounded-full">Généré</span>}
+                    </li>
+                  ))}
+                </ul>
+              )}
             </div>
 
             <div className="flex flex-col gap-4">
-              <Label>Ajouter un fichier manquant</Label>
+              <Label>Uploader un fichier (complémentaire)</Label>
               <Input 
                 type="file" 
                 onChange={handleFileUpload} 

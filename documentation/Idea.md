@@ -1,107 +1,84 @@
-Cahier des Charges - Game Center Seniors
-🎯 Objectif
-Plateforme ludique pour seniors : Game Center liste jeux statiques + Admin upload jeux créés séparément. Simple, accessible, mobile-first.
+# Cahier des Charges - Game Center Seniors (Architecture 100% Lowdb)
 
-🏗️ Architecture
-text
-Frontend : Next.js (App Router)
-Auth : Supabase (admin only)
-Stockage : Lowdb local (data/games.json) - configs + scores
-Fichiers jeux : /public/games/{nom}/{version}/
-Git workflow : main (Game Center) + branches jeu/{nom}/
-📁 Structure fichiers jeux
-text
+## 🎯 Objectif
+Plateforme ludique pour seniors avec une architecture centralisée.
+**Règle d'Or : TOUTES les données (Métadonnées des jeux + Scores des joueurs) sont stockées EXCLUSIVEMENT dans Lowdb (`data/db.json`).**
+
+## 🏗️ Architecture Technique
+
+### Stockage (Source de Vérité Unique)
+*   **Base de données :** Lowdb (JSON local).
+*   **Fichier :** `data/db.json` (Persistant via Docker Volume).
+*   **Contenu :**
+    *   `games`: Liste des jeux installés, versions, chemins, descriptions.
+    *   `scores`: Historique complet des scores de tous les joueurs.
+
+### Flux de Données (Le "Pont")
+1.  **Jeu (Client/Iframe)** : Le jeu p5.js tourne dans le navigateur.
+2.  **Pont (window.GameAPI)** : `index.html` injecte un script qui expose `saveScore()` et `getHighScores()`.
+3.  **Transport** : `fetch('/api/scores')` envoie les données au serveur Next.js.
+4.  **Serveur (API)** : Next.js reçoit la requête, ouvre Lowdb, et écrit dans `data/db.json`.
+
+**Il n'y a PAS de LocalStorage pour les données persistantes.**
+
+## 📂 Structure des Fichiers (Statique + Logique)
+
+Le serveur sert les fichiers, la DB gère les données.
+
+```text
 public/games/tetris/v1/
-├── index.html     ← p5.js CDN + tous scripts
-├── sketch.js      ← Logique principale
-├── data.js        ← Données (blocs, niveaux)
-├── assets.js      ← Assets (images, sons)
-├── hud.js         ← HUD standard (score, temps)
-└── objects.js     ← Objets (ball, paddle...)
-🔐 Pages & Fonctionnalités
-/games (Public - Seniors)
-text
-✅ Grille responsive cartes jeux
-✅ Thumbnail + nom + description courte
-✅ High scores (Lowdb)
-✅ Clic → /games/{id}/ → iframe statique
-✅ HUD standard tous jeux
-✅ Mobile-first (gros boutons, police 24px)
-/admin (Auth Supabase - Toi seulement)
-text
-✅ Liste jeux existants (Lowdb)
-✅ + NOUVEAU : Drag & drop dossier complet
-✅ Formulaire : nom, description, version, thumbnail
-✅ Sauvegarde Lowdb : {id, nom, path, date}
-✅ Supprimer jeu (Lowdb + fs.rm)
-✅ Éditer metadata
-/games/[id] (Joueur)
-text
-✅ Iframe pleine page : src="/games/{path}/"
-✅ HUD persistant (score, temps)
-✅ Responsive canvas
-💾 Stockage 100% Lowdb
-json
-data/games.json
+├── index.html     ← GÉNÉRÉ PAR ADMIN. Contient le script de liaison vers Lowdb.
+├── sketch.js      ← Logique du jeu (p5.js). Appelle GameAPI.saveScore().
+├── data.js        ← Données statiques du jeu.
+└── hud.js         ← Interface. Affiche les scores récupérés via GameAPI.getHighScores().
+```
+
+## 🔐 Fonctionnalités & Routes
+
+### /games (Public)
+*   Lit **Lowdb** pour afficher la grille des jeux disponibles.
+*   Affiche le "Meilleur Score Global" pour chaque jeu (depuis **Lowdb**).
+
+### /games/[id] (Joueur)
+*   Charge l'iframe du jeu.
+*   L'iframe charge les High Scores depuis **Lowdb** via l'API pour les afficher dans le HUD.
+*   À la fin de la partie, le score est envoyé dans **Lowdb**.
+
+### /admin (Privé)
+*   **Création** : Créer un dossier physique ET une entrée dans **Lowdb** (`games`).
+*   **Upload** : Ajoute les fichiers `.js` dans le dossier.
+*   **Génération** : Crée le `index.html` qui contient l'ID unique du jeu pour faire le lien avec **Lowdb**.
+
+## 💾 Schéma Lowdb (`data/db.json`)
+
+```json
 {
-  "jeux": [
+  "games": [
     {
       "id": "tetris-v1",
-      "nom": "Tetris Classique", 
-      "description": "Empile les blocs colorés",
+      "name": "Tetris",
       "path": "tetris/v1",
-      "thumbnail": "tetris-thumb.jpg",
-      "date": "2025-12-13",
-      "highScores": [1500, 1200, 900]
+      "version": "v1",
+      "createdAt": "2024-01-01T12:00:00Z"
+    }
+  ],
+  "scores": [
+    {
+      "gameId": "tetris-v1",
+      "playerName": "Mamie Lucette",
+      "score": 1500,
+      "date": "2024-01-02T14:30:00Z"
     }
   ]
 }
-🚀 Git Workflow
-text
-main ← Game Center + Admin
-  ├── branche jeu/tetris → export /public/games/tetris/v1/ → merge main
-  ├── branche jeu/snake → export /public/games/snake/v1/ → merge main  
-  └── branche jeu/breakout → export → merge main
-🎮 HUD Standard (TOUS jeux)
-text
-- Score (haut-gauche, 24px)
-- Temps de jeu
-- High Score actuel
-- Bouton Pause/Redémarrer (gros)
-- Contraste élevé (blanc/noir)
-- Position fixe (pas canvas)
-📱 Design Seniors
-text
-✅ Police 24px minimum
-✅ Contraste WCAG AAA
-✅ Boutons 48x48px touch
-✅ Pas de scroll horizontal
-✅ Sons optionnels (toggle)
-✅ Chargement < 2s
-⏱️ Planning MVP (8h)
-text
-Jour 1 (4h) :
-- Next.js structure + pages /games + /admin
-- Lowdb CRUD jeux
-- Supabase auth
+```
 
-Jour 2 (4h) :
-- Upload drag & drop dossier
-- Iframe /games/[id]
-- HUD standard + styles seniors
-✅ Livrables finaux
-text
-1️⃣ Game Center fonctionnel (grille + iframe)
-2️⃣ Admin upload (drag dossier + metadata)
-3️⃣ Lowdb configs + scores
-4️⃣ 3 jeux uploadés (Tetris, Snake, Breakout)
-5️⃣ HUD standardisé
-6️⃣ Mobile responsive seniors
-🛠️ Tech Stack final
-text
-✅ Next.js 15 (App Router)
-✅ Supabase Auth (admin)
-✅ Lowdb (data/games.json)
-✅ p5.js CDN (jeux statiques)
-✅ Tailwind CSS (seniors design)
-✅ Git branches jeu/{nom}/
+## 🚀 Résumé du Workflow Admin
+
+1.  Admin clique "Nouveau Jeu : Snake".
+    *   -> Création dossier `public/games/snake/v1`.
+    *   -> Ajout entrée `{ id: "snake-v1", ... }` dans **Lowdb**.
+2.  Admin upload `sketch.js`, `hud.js`.
+3.  Admin clique "Générer".
+    *   -> Création `index.html` avec `<script>window.gameId = "snake-v1"</script>`.
+4.  Jeu prêt. Quand un joueur joue, le score part dans **Lowdb** avec l'ID "snake-v1".

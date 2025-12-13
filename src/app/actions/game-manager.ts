@@ -3,7 +3,7 @@
 import fs from 'fs/promises';
 import path from 'path';
 import { readdir, stat } from 'fs/promises';
-import { getDb } from '@/lib/database';
+import { getDb, GameMetadata } from '@/lib/database';
 
 const GAMES_DIR = path.join(process.cwd(), 'public', 'games');
 
@@ -78,7 +78,7 @@ export async function listGamesFolders(): Promise<GameFolder[]> {
       
       let versions: GameVersionInfo[] = [];
       let hasImportedVersion = false;
-      let lastImportedGame = null;
+      let lastImportedGame: GameMetadata | null = null;
 
       try {
         const versionEntries = await readdir(gamePath, { withFileTypes: true });

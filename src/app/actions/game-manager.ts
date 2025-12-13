@@ -3,6 +3,7 @@
 import fs from 'fs/promises';
 import path from 'path';
 import { readdir } from 'fs/promises';
+import { getDb } from '@/lib/database';
 
 const GAMES_DIR = path.join(process.cwd(), 'public', 'games');
 
@@ -15,12 +16,20 @@ async function ensureGamesDir() {
   }
 }
 
+// Récupérer les jeux depuis la DB (plus fiable que le FS pour les métadonnées)
+export async function listGamesFromDb() {
+  const db = await getDb();
+  await db.read();
+  return db.data.games;
+}
+
+// Ancien listing FS (toujours utile pour le debug ou fallback)
 export interface GameFolder {
   name: string;
   versions: string[];
 }
 
-export async function listGames(): Promise<GameFolder[]> {
+export async function listGamesFolders(): Promise<GameFolder[]> {
   await ensureGamesDir();
   const entries = await readdir(GAMES_DIR, { withFileTypes: true });
   const gameFolders: GameFolder[] = [];
@@ -35,7 +44,7 @@ export async function listGames(): Promise<GameFolder[]> {
       
       gameFolders.push({
         name: entry.name,
-        versions: versions.sort().reverse() // Versions récentes en premier
+        versions: versions.sort().reverse()
       });
     }
   }
@@ -45,7 +54,27 @@ export async function listGames(): Promise<GameFolder[]> {
 export async function createGameFolder(gameName: string) {
   const safeName = gameName.toLowerCase().replace(/[^a-z0-9-]/g, '-');
   const dirPath = path.join(GAMES_DIR, safeName, 'v1');
+  
+  // Création FS
   await fs.mkdir(dirPath, { recursive: true });
+
+  // Enregistrement DB
+  const db = await getDb();
+  const gameId = `${safeName}-v1`;
+  
+  // Vérifier si existe déjà
+  const exists = db.data.games.find(g => g.id === gameId);
+  if (!exists) {
+    await db.update(({ games }) => games.push({
+      id: gameId,
+      name: gameName,
+      description: "Description par défaut",
+      path: `${safeName}/v1`,
+      version: 'v1',
+      createdAt: new Date().toISOString()
+    }));
+  }
+
   return { success: true, gameName: safeName, version: 'v1' };
 }
 
@@ -53,12 +82,25 @@ export async function createGameVersion(gameName: string, versionName: string) {
   const safeVersion = versionName.toLowerCase().replace(/[^a-z0-9-]/g, '-');
   const dirPath = path.join(GAMES_DIR, gameName, safeVersion);
   
-  // Vérifier si ça existe déjà pour ne pas écraser
   try {
     await fs.access(dirPath);
     return { success: false, error: "Cette version existe déjà." };
   } catch {
     await fs.mkdir(dirPath, { recursive: true });
+
+    // Enregistrement DB
+    const db = await getDb();
+    const gameId = `${gameName}-${safeVersion}`;
+    
+    await db.update(({ games }) => games.push({
+      id: gameId,
+      name: gameName, // Idéalement on récupérerait le "Joli Nom" du parent
+      description: "Nouvelle version",
+      path: `${gameName}/${safeVersion}`,
+      version: safeVersion,
+      createdAt: new Date().toISOString()
+    }));
+
     return { success: true, gameName, version: safeVersion };
   }
 }
@@ -70,7 +112,6 @@ export async function uploadGameFile(gameName: string, version: string, formData
   const bytes = await file.arrayBuffer();
   const buffer = Buffer.from(bytes);
 
-  // Sécurisation basique du chemin
   const safeName = gameName.replace(/[^a-z0-9-]/g, '-');
   const safeVersion = version.replace(/[^a-z0-9-]/g, '-');
   const filePath = path.join(GAMES_DIR, safeName, safeVersion, file.name);
@@ -79,8 +120,12 @@ export async function uploadGameFile(gameName: string, version: string, formData
   return { success: true, fileName: file.name };
 }
 
-// Générateur automatique de index.html si besoin
+// Générateur automatique de index.html
 export async function generateIndexHtml(gameName: string, version: string, config: any) {
+  // On injecte l'ID du jeu pour que le HUD sache quel score charger
+  const gameId = `${gameName}-${version}`; 
+  const finalConfig = { ...config, gameId };
+
   const htmlContent = `
 <!DOCTYPE html>
 <html lang="fr">
@@ -97,9 +142,32 @@ export async function generateIndexHtml(gameName: string, version: string, confi
 </head>
 <body>
     <script>
-        // INJECTION CONFIGURATION
-        window.gameConfig = ${JSON.stringify(config)};
-        localStorage.setItem('gameConfig_${gameName}', JSON.stringify(window.gameConfig));
+        // CONFIGURATION INJECTÉE PAR LE BACKEND
+        window.gameConfig = ${JSON.stringify(finalConfig)};
+        
+        // Helper pour appeler l'API Next.js depuis l'iframe
+        window.GameAPI = {
+          saveScore: async (playerName, score) => {
+            try {
+              await fetch('/api/scores', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({
+                  gameId: window.gameConfig.gameId,
+                  playerName,
+                  score
+                })
+              });
+              return true;
+            } catch (e) { console.error("Erreur save score", e); return false; }
+          },
+          getHighScores: async () => {
+             try {
+              const res = await fetch('/api/scores?gameId=' + window.gameConfig.gameId);
+              return await res.json();
+             } catch (e) { return []; }
+          }
+        };
     </script>
     
     <!-- Scripts du jeu -->

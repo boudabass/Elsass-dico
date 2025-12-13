@@ -36,34 +36,27 @@ export async function listGamesFolders(): Promise<GameFolder[]> {
   for (const entry of entries) {
     if (entry.isDirectory()) {
       const gamePath = path.join(GAMES_DIR, entry.name);
-      // On lit les sous-dossiers pour trouver les versions
-      try {
-        const versionEntries = await readdir(gamePath, { withFileTypes: true });
-        const versions = versionEntries
-          .filter(v => v.isDirectory())
-          .map(v => v.name);
-        
-        gameFolders.push({
-          name: entry.name,
-          versions: versions.sort().reverse()
-        });
-      } catch (e) {
-        // Dossier vide ou erreur, on ignore
-      }
+      const versionEntries = await readdir(gamePath, { withFileTypes: true });
+      const versions = versionEntries
+        .filter(v => v.isDirectory())
+        .map(v => v.name);
+      
+      gameFolders.push({
+        name: entry.name,
+        versions: versions.sort().reverse()
+      });
     }
   }
   return gameFolders;
 }
 
-// Création ou Enregistrement d'un jeu (Idempotent)
 export async function createGameFolder(gameName: string) {
   const safeName = gameName.toLowerCase().replace(/[^a-z0-9-]/g, '-');
   const dirPath = path.join(GAMES_DIR, safeName, 'v1');
   
-  // 1. Création physique (ne plante pas si existe déjà grâce à recursive: true)
   await fs.mkdir(dirPath, { recursive: true });
 
-  // 2. Enregistrement DB
+  // Enregistrement DB
   const db = await getDb();
   const gameId = `${safeName}-v1`;
   
@@ -72,48 +65,50 @@ export async function createGameFolder(gameName: string) {
     await db.update(({ games }) => games.push({
       id: gameId,
       name: gameName,
-      description: "Jeu importé ou créé",
+      description: "Description par défaut",
       path: `${safeName}/v1`,
       version: 'v1',
       createdAt: new Date().toISOString()
     }));
   }
 
-  // 3. (Important) On génère TOUJOURS le index.html par défaut si on "crée/importe"
-  // Cela garantit que même un dossier copié à la main devient jouable immédiatement
+  // On régénère l'index pour inclure les fichiers potentiellement copiés à la main
   await generateIndexHtml(safeName, 'v1', { bgColor: '#000000' });
 
-  return { success: true, gameName: safeName, version: 'v1', message: exists ? "Jeu existant mis à jour (index.html régénéré)" : "Nouveau jeu créé" };
+  return { success: true, gameName: safeName, version: 'v1' };
 }
 
-// Création ou Enregistrement d'une version (Idempotent)
 export async function createGameVersion(gameName: string, versionName: string) {
   const safeVersion = versionName.toLowerCase().replace(/[^a-z0-9-]/g, '-');
   const dirPath = path.join(GAMES_DIR, gameName, safeVersion);
   
-  // 1. Création physique
-  await fs.mkdir(dirPath, { recursive: true });
+  try {
+    await fs.access(dirPath);
+    // Si dossier existe, on met juste à jour la DB et l'index
+  } catch {
+    await fs.mkdir(dirPath, { recursive: true });
+  }
 
-  // 2. Enregistrement DB
+  // Enregistrement DB
   const db = await getDb();
   const gameId = `${gameName}-${safeVersion}`;
   
-  const exists = db.data.games.find(g => g.id === gameId);
-  if (!exists) {
+  // Update or Insert
+  const existingGame = db.data.games.find(g => g.id === gameId);
+  if (!existingGame) {
     await db.update(({ games }) => games.push({
       id: gameId,
       name: gameName,
-      description: `Version ${safeVersion}`,
+      description: "Nouvelle version",
       path: `${gameName}/${safeVersion}`,
       version: safeVersion,
       createdAt: new Date().toISOString()
     }));
   }
 
-  // 3. Génération index.html
   await generateIndexHtml(gameName, safeVersion, { bgColor: '#000000' });
 
-  return { success: true, gameName, version: safeVersion, message: exists ? "Version existante mise à jour" : "Nouvelle version créée" };
+  return { success: true, gameName, version: safeVersion };
 }
 
 export async function uploadGameFile(gameName: string, version: string, formData: FormData) {
@@ -131,11 +126,38 @@ export async function uploadGameFile(gameName: string, version: string, formData
   return { success: true, fileName: file.name };
 }
 
-// GÉNÉRATEUR INDEX.HTML AVEC CONNECTEUR LOWDB
+// GÉNÉRATEUR INDEX.HTML DYNAMIQUE (SCANNER)
 export async function generateIndexHtml(gameName: string, version: string, config: any) {
   const gameId = `${gameName}-${version}`; 
   const safeName = gameName.replace(/[^a-z0-9-]/g, '-');
   const safeVersion = version.replace(/[^a-z0-9-]/g, '-');
+  const dirPath = path.join(GAMES_DIR, safeName, safeVersion);
+
+  // 1. SCANNER LE DOSSIER
+  let scriptTags = '';
+  try {
+    const files = await readdir(dirPath);
+    const jsFiles = files.filter(f => f.endsWith('.js'));
+
+    // 2. TRIER INTELLIGEMMENT
+    // Ordre de chargement : data.js (configs) -> libs -> autres -> sketch.js (main)
+    jsFiles.sort((a, b) => {
+      if (a === 'data.js') return -1;
+      if (b === 'data.js') return 1;
+      if (a === 'hud.js') return -1; // HUD tôt
+      if (b === 'hud.js') return 1;
+      if (a === 'sketch.js') return 1; // Sketch en dernier généralement
+      if (b === 'sketch.js') return -1;
+      return a.localeCompare(b);
+    });
+
+    // 3. GÉNÉRER LES BALISES
+    scriptTags = jsFiles.map(f => `<script src="${f}"></script>`).join('\n    ');
+  } catch (e) {
+    console.error("Erreur scan dossier jeu", e);
+    // Fallback si erreur
+    scriptTags = `<script src="sketch.js"></script>`;
+  }
 
   const htmlContent = `
 <!DOCTYPE html>
@@ -159,9 +181,7 @@ export async function generateIndexHtml(gameName: string, version: string, confi
         
         // API BRIDGE VERS LOWDB
         window.GameAPI = {
-          // Sauvegarder un score dans Lowdb
           saveScore: async (score, playerName = 'Joueur') => {
-            console.log('Saving to Lowdb...', score);
             try {
               await fetch('/api/scores', {
                 method: 'POST',
@@ -175,26 +195,22 @@ export async function generateIndexHtml(gameName: string, version: string, confi
               return true;
             } catch (e) { console.error("Erreur Lowdb save", e); return false; }
           },
-
-          // Lire les scores depuis Lowdb
           getHighScores: async () => {
              try {
               const res = await fetch('/api/scores?gameId=' + window.gameConfig.gameId);
               const data = await res.json();
               return Array.isArray(data) ? data : [];
-             } catch (e) { console.error("Erreur Lowdb read", e); return []; }
+             } catch (e) { return []; }
           }
         };
     </script>
     
-    <!-- Scripts du jeu -->
-    <script src="data.js"></script>
-    <script src="hud.js"></script>
-    <script src="sketch.js"></script>
+    <!-- Scripts du jeu injectés dynamiquement -->
+    ${scriptTags}
 </body>
 </html>`;
 
-  const filePath = path.join(GAMES_DIR, safeName, safeVersion, 'index.html');
+  const filePath = path.join(dirPath, 'index.html');
   await fs.writeFile(filePath, htmlContent);
   return { success: true };
 }

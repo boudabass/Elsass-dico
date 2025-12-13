@@ -17,7 +17,7 @@ services:
     # or you can map a host path (e.g., "./data:/app/data").
     volumes:
       - dyad_db_data:/app/data # Maps named volume 'dyad_db_data' to /app/data inside the container
-      # Ensure your DATABASE_URL in .env points to this path, e.g., "file:/app/data/dev.db"
+      - /mnt/share1/apps/gamesenior/games:/app/public/games # Persistance des jeux pour Game Center
 
     # Optionally sets environment variables.
     # These override any ENVs set in the Dockerfile.

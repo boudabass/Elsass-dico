@@ -16,26 +16,33 @@ export function GamePlayer({ gameUrl, gameName, width = 800, height = 600 }: Gam
   const containerRef = useRef<HTMLDivElement>(null);
   const iframeRef = useRef<HTMLIFrameElement>(null);
 
+  // Épaisseur de la bordure en pixels (border-4 = 4px)
+  const BORDER_WIDTH = 4; 
+  // Espace total pris par les bordures (gauche + droite)
+  const TOTAL_BORDER_X = BORDER_WIDTH * 2;
+  const TOTAL_BORDER_Y = BORDER_WIDTH * 2;
+
   // Fonction de calcul de l'échelle
   const updateScale = () => {
     if (containerRef.current) {
       const containerWidth = containerRef.current.offsetWidth;
-      // On calcule le ratio entre la largeur disponible et la largeur native du jeu
-      const newScale = containerWidth / width;
-      // On limite l'échelle à 1 maximum pour ne pas pixelliser sur les très grands écrans
-      // (Optionnel : retirer Math.min si on veut que ça grossisse à l'infini)
+      
+      // On calcule le ratio en incluant la place nécessaire pour la bordure
+      // Sinon la bordure sortirait de l'écran sur mobile
+      const contentWidthNeeded = width + TOTAL_BORDER_X;
+      
+      const newScale = containerWidth / contentWidthNeeded;
+      
+      // On limite l'échelle à 1.5 pour éviter que ça devienne énorme sur les écrans 4k
       setScale(Math.min(newScale, 1.5)); 
     }
   };
 
   useEffect(() => {
-    // Calcul initial
     updateScale();
-    
-    // Recalcul au redimensionnement
     window.addEventListener('resize', updateScale);
     return () => window.removeEventListener('resize', updateScale);
-  }, [width]);
+  }, [width]); // Recalcul si la largeur native change
 
   const handleLoad = () => {
     setIsLoading(false);
@@ -53,9 +60,9 @@ export function GamePlayer({ gameUrl, gameName, width = 800, height = 600 }: Gam
       {/* Conteneur Parent qui définit la largeur disponible */}
       <div 
         ref={containerRef} 
-        className="w-full max-w-[1200px] relative"
-        // La hauteur du conteneur doit s'adapter à la hauteur mise à l'échelle de l'iframe
-        style={{ height: height * scale }}
+        className="w-full max-w-[1200px] relative flex justify-center"
+        // La hauteur du conteneur doit s'adapter à la hauteur mise à l'échelle (+ les bordures)
+        style={{ height: (height + TOTAL_BORDER_Y) * scale }}
       >
         {/* Loader */}
         {isLoading && (
@@ -69,9 +76,15 @@ export function GamePlayer({ gameUrl, gameName, width = 800, height = 600 }: Gam
         <div
           className="origin-top-left absolute top-0 left-0 overflow-hidden rounded-xl shadow-2xl border-4 border-slate-700 bg-black"
           style={{
-            width: width,   // Largeur RÉELLE du jeu
-            height: height, // Hauteur RÉELLE du jeu
-            transform: `scale(${scale})`, // Magie : on met à l'échelle le tout
+            // IMPORTANT : content-box assure que width = largeur du contenu (iframe)
+            // La bordure s'ajoute A L'EXTERIEUR de ces dimensions
+            boxSizing: 'content-box', 
+            width: width,   
+            height: height, 
+            transform: `scale(${scale})`,
+            // Centrage horizontal si le conteneur est plus large que le jeu scalé
+            left: '50%',
+            translate: '-50% 0' 
           }}
           onClick={focusGame}
         >
@@ -91,9 +104,9 @@ export function GamePlayer({ gameUrl, gameName, width = 800, height = 600 }: Gam
         </div>
       </div>
       
-      {/* Info debug (utile pour vérifier si la résolution est bien prise en compte) */}
+      {/* Info debug */}
       <p className="text-xs text-slate-500 mt-2 opacity-50">
-        Résolution native : {width}x{height} | Échelle : {Math.round(scale * 100)}%
+        Jeu : {width}x{height} | Total (avec bordures) : {width + TOTAL_BORDER_X}x{height + TOTAL_BORDER_Y} | Scale : {scale.toFixed(3)}
       </p>
     </div>
   );

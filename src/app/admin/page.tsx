@@ -1,4 +1,3 @@
-listGamesFolders">
 "use client";
 
 import { useEffect, useState } from "react";
@@ -30,7 +29,6 @@ export default function AdminPage() {
   }, []);
 
   const refreshGames = async () => {
-    // Correction ici : utilisation de listGamesFolders
     const g = await listGamesFolders();
     setGames(g);
   };
@@ -39,7 +37,7 @@ export default function AdminPage() {
     if (!newGameName) return toast.error("Nom du jeu requis");
     const res = await createGameFolder(newGameName);
     if (res.success) {
-      toast.success(res.message); // Message ajusté pour le feedback import
+      toast.success(res.message);
       setActivePath({ name: res.gameName!, version: res.version! });
       refreshGames();
     }

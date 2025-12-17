@@ -5,6 +5,7 @@ let coins;
 
 let score = 0;
 let lives = 3;
+let highScore = 0;
 
 const PLATFORM_COLOR = 'gray';
 const PLAYER_COLOR = 'blue';
@@ -29,10 +30,17 @@ function setup() {
     coins.collider = 'none'; 
     coins.color = COIN_COLOR;
     
-    // Création du sol et d'une plateforme
+    // --- CRÉATION DU NIVEAU ---
+    // Sol
     new platforms.Sprite(400, 580, 800, 40);
-    new platforms.Sprite(600, 450, 200, 20);
-    new platforms.Sprite(200, 350, 200, 20); // Ajout d'une plateforme pour tester
+    
+    // Plateformes étagées
+    new platforms.Sprite(150, 450, 200, 20);
+    new platforms.Sprite(650, 450, 200, 20);
+    new platforms.Sprite(400, 350, 200, 20);
+    new platforms.Sprite(150, 250, 200, 20);
+    new platforms.Sprite(650, 250, 200, 20);
+    new platforms.Sprite(400, 150, 200, 20);
     
     // Création du joueur
     player = new Sprite(100, 500, 30, 30);
@@ -44,6 +52,8 @@ function setup() {
     
     if(window.GameSystem) {
         window.GameSystem.Lifecycle.notifyReady();
+        // Récupérer le high score (simulation, car async)
+        // window.GameSystem.Score.getLeaderboard().then(...)
     }
 }
 
@@ -68,24 +78,21 @@ function draw() {
     if (player.y > height + 50) handlePlayerDeath();
     
     // --- 2. SPAWN ---
-    if (frameCount % 120 === 0) spawnEnemy();
-    if (frameCount % 90 === 0) spawnCoin();
+    // Ennemis moins fréquents, pièces plus fréquentes pour le fun
+    if (frameCount % 180 === 0 && enemies.length < 5) spawnEnemy();
+    if (frameCount % 60 === 0 && coins.length < 10) spawnCoin();
     
-    // --- 3. PATROUILLE ENNEMIS (Méthode Robuste) ---
+    // --- 3. PATROUILLE ENNEMIS ---
     enemies.collide(platforms);
     
     for (let enemy of enemies) {
-        // Direction du regard (1 ou -1)
         let dir = Math.sign(enemy.vel.x) || 1;
-        
-        // Point à tester : devant l'ennemi et un peu vers le bas (dans le sol)
         let scanX = enemy.x + dir * (enemy.w/2 + 5); 
         let scanY = enemy.y + enemy.h/2 + 5; 
         
-        // Si PAS de sol devant -> Demi-tour
         if (!isPointOnPlatform(scanX, scanY)) {
             enemy.vel.x *= -1;
-            enemy.x += enemy.vel.x * 2; // Petit saut pour éviter de rester coincé
+            enemy.x += enemy.vel.x * 2; 
         }
     }
     
@@ -98,10 +105,8 @@ function draw() {
     drawUI();
 }
 
-// Fonction utilitaire manuelle (ne dépend pas de l'API p5play complexe)
 function isPointOnPlatform(x, y) {
     for (let p of platforms) {
-        // Vérification rectangle simple (AABB)
         if (x > p.x - p.w/2 && x < p.x + p.w/2 &&
             y > p.y - p.h/2 && y < p.y + p.h/2) {
             return true;
@@ -118,6 +123,11 @@ function resetPlayer() {
 function handlePlayerDeath() {
     lives--;
     if (lives <= 0) {
+        // Sauvegarder le meilleur score
+        if (score > highScore) highScore = score;
+        if (window.GameSystem) window.GameSystem.Score.submit(score);
+        
+        // Reset complet
         lives = 3;
         score = 0;
         enemies.removeAll();
@@ -137,10 +147,12 @@ function hitEnemy(player, enemy) {
 }
 
 function spawnEnemy() {
-    // Spawn uniquement au-dessus des plateformes pour éviter la chute immédiate
     let targetPlatform = random(platforms);
+    // On évite de spawner sur le sol du bas pour plus de défi en hauteur
+    if (targetPlatform.y > 500 && random() > 0.3) return; 
+    
     let x = targetPlatform.x;
-    let y = targetPlatform.y - 40; // Au dessus
+    let y = targetPlatform.y - 40;
     
     let enemy = new enemies.Sprite(x, y, 25, 25);
     enemy.vel.x = random([-2, 2]); 
@@ -154,6 +166,7 @@ function spawnCoin() {
     let y = random(50, height - 100);
     let coin = new coins.Sprite(x, y, 15, 15);
     coin.shape = 'circle';
+    coin.color = 'gold'; // Doré
 }
 
 function drawUI() {
@@ -162,4 +175,8 @@ function drawUI() {
     textAlign(LEFT, TOP);
     text(`Score: ${score}`, 20, 20);
     text(`Vies: ${lives}`, 20, 50);
+    if (highScore > 0) {
+        textAlign(RIGHT, TOP);
+        text(`Best: ${highScore}`, width - 20, 20);
+    }
 }

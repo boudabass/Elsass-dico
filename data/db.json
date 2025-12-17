@@ -31,17 +31,6 @@
       "height": 600
     },
     {
-      "id": "snake-v3-system",
-      "name": "snake",
-      "description": "Portage V3 Standardisé (GameSystem Proof of Concept)",
-      "path": "snake/v3-system",
-      "version": "v3-system",
-      "thumbnail": "thumbnail.png",
-      "createdAt": "2025-12-16T22:00:00.000Z",
-      "width": 800,
-      "height": 600
-    },
-    {
       "id": "test-hub-v1",
       "name": "Test Hub System",
       "description": "Jeu de test pour l'integration du HUB",
@@ -58,6 +47,16 @@
       "path": "q5-test/v1",
       "version": "v1",
       "createdAt": "2025-12-17T10:00:00.000Z",
+      "width": 800,
+      "height": 600
+    },
+    {
+      "id": "snake-v2",
+      "name": "Snake",
+      "description": "Le jeu classique du serpent, version p5.js stable.",
+      "path": "snake/v2",
+      "version": "v2",
+      "createdAt": "2025-12-17T11:00:00.000Z",
       "width": 800,
       "height": 600
     }

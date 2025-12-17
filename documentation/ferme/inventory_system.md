@@ -129,3 +129,61 @@ L'inventaire s'ouvre dans un modal avec trois onglets principaux.
 *   ❌ Pas de vente directe
 *   ❌ Pas de recherche/filtres
 *   ❌ Pas de catégories custom
+
+---
+
+## 6. 🧩 INVENTORY SYSTEM – Architecture Générale (v1.0)
+
+L’Inventory System est le noyau logique qui gère la possession, le stockage et le transfert des objets entre le joueur et les coffres.
+Il relie le HUD permanent, le modal inventaire, et les machines de craft de manière unifiée.
+
+### 🎮 A. Principe central
+
+L’inventaire n’est pas un sac, mais une grille catégorisée stable, divisée en trois ensembles :
+
+*   🌱 **Graines** → Gestion de la production agricole.
+*   ⚙️ **Outils** → Gestion de l’action physique.
+*   🧺 **Loot** → Gestion des ressources et matériaux.
+
+Chaque ensemble suit sa propre logique de progression mais reste synchronisé visuellement et en mémoire player/coffre.
+
+### 🔄 B. États et interactions principales
+
+| Action | Description | Résultat |
+|---|---|---|
+| Ouvrir | Tap sur 📦 INV (HUD haut-droit) | Ouverture modal inventaire (fade-in 0.2s). |
+| Changer d’onglet | Tap sur [🌱], [⚙️], [🧺] | Changement d’ensemble, surlignage jaune. |
+| Sélection item | Tap sur slot actif | Mini-modal quantité. |
+| Transfert | Choix quantité + validation | Mouvement automatique vers slot identique du coffre. |
+| Fermeture | Tap hors modal ou MENU | Anim fade-out 0.2s + retour au jeu. |
+
+### ⚙️ C. Structure logique interne (conceptuelle)
+
+L’Inventory System maintient une symétrie stricte :
+
+| Couche logique | Rôle principal | Contenu |
+|---|---|---|
+| PlayerInventory | Données joueur | 3 tableaux fixes (Seeds, Tools, Loot) |
+| ChestInventory | Données stockage local | 3 tableaux identiques |
+| InventoryModal | Interface | Onglets, slots, interactions |
+| InventoryManager | Contrôleur | Gère les transferts, quantités, synchro HUD |
+| CraftingLink | Connecteur | Vérifie les ressources disponibles avant craft |
+
+Synchronisation : les deux inventaires (perso/coffre) restent en miroir de structure → validation de compatibilité instantanée sans parsing complexe.
+
+### 🧭 D. Règles de cohérence UX (mobilité et lisibilité)
+
+*   Tap-only, aucune gestuelle complexe ou long press.
+*   Slots figés : position = identité (pas d’ordre libre).
+*   Iconographie uniforme (pictos 32x32px, label minimal).
+*   Feedback clair : son/clignotement à chaque interaction.
+*   Latence max 0.2s entre action et résultat visuel.
+*   Fermeture instantanée dès qu’un tap terrain est détecté.
+
+### 🪄 E. Vision du système à terme
+
+L’inventaire devient une extension naturelle du HUD, non une interface séparée.
+Le joueur ne « cherche » jamais ses items — il les reconnaît visuellement.
+L’efficacité repose sur la stabilité :
+
+*   même structure, même réaction, même feedback, quel que soit le contexte.

@@ -1,4 +1,3 @@
-
 import { createClient } from '@/utils/supabase/server'
 import { redirect, notFound } from 'next/navigation'
 import { Button } from "@/components/ui/button"
@@ -32,7 +31,7 @@ export default async function PlayPage({ params }: { params: Promise<{ gameId: s
   }
 
   return (
-    <div className="flex flex-col h-[calc(100vh-4rem)] bg-slate-950">
+    <div className="flex flex-col min-h-screen bg-slate-950">
       {/* Toolbar */}
       <div className="flex items-center justify-between px-6 py-2 bg-slate-900 border-b border-white/10 text-white shadow-md z-10">
         <div className="flex items-center gap-4">

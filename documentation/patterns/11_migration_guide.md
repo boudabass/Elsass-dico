@@ -8,7 +8,8 @@ Objectif : transformer sketches p5.js en jeux p5play en 20 minutes max.
 <script src="snake.js"></script>
 
 <!-- ✅ APRÈS (p5.js + p5play) -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.4/p5.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/p5@1.11.4/lib/p5.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/p5@1.11.4/lib/addons/p5.sound.min.js"></script>
 <script src="https://p5play.org/v3/planck.min.js"></script>
 <script src="https://p5play.org/v3/p5play.js"></script>
 <script>window.DyadGame = { id: 'snake-p5play', version: 'v1' };</script>

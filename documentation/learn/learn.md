@@ -21,7 +21,7 @@
 - Score = temps de survie  
 - Game over au centre écran  
 
-**Checklist :** [ ] Animation auto [ ] Compteur temps [ ] Détection bord
+**Checklist :** [x] Animation auto [x] Compteur temps [x] Détection bord **(VALIDÉE)**
 
 ---
 

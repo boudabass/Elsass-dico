@@ -54,7 +54,6 @@ export default async function PlayPage({ params }: { params: Promise<{ gameId: s
         <iframe
           src={`/games/${game.path}/index.html`}
           className="absolute inset-0 w-full h-full border-0"
-          allowFullScreen
           allow="autoplay; gamepad; fullscreen" // Important for games
         />
       </div>

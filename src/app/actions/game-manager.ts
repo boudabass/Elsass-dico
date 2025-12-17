@@ -25,8 +25,8 @@ const Q5_P5PLAY_TEMPLATE = (gameId: string, versionName: string) => `<!DOCTYPE h
     <script src="https://unpkg.com/q5@3/q5.min.js"></script>
     <script src="https://unpkg.com/p5play@3/build/p5play.min.js"></script>
 
-    <!-- 3️⃣ CHARGEMENT DU SYSTÈME (Chemin Relatif Standard) -->
-    <script src="../../system/system.js"></script>
+    <!-- 3️⃣ CHARGEMENT DU SYSTÈME (Chemin Absolu) -->
+    <script src="/system/system.js"></script>
 
     <!-- 4️⃣ TON JEU (main.js est le standard) -->
     <script src="main.js"></script>

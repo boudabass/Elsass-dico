@@ -81,7 +81,7 @@
 - 5 plateformes + sol  
 - Physique réaliste (chute, rebond)  
 
-**Checklist :** [ ] Gravité auto [ ] Saut précis [ ] 10+ collisions
+**Checklist :** [x] Gravité auto [x] Saut précis [x] 10+ collisions **(VALIDÉE)**
 
 ---
 

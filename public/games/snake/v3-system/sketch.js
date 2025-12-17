@@ -77,6 +77,12 @@ q5.setup = () => {
     });
     
     states.add('gameover', {
+        // Soumission du score au GameSystem dès l'entrée dans l'état Game Over
+        start: (finalScore) => {
+            if (window.GameSystem) {
+                window.GameSystem.Score.submit(finalScore);
+            }
+        },
         draw: drawGameOver,
         update: updateGameOver
     });
@@ -166,6 +172,7 @@ function drawGameOver() {
     text('GAME OVER', width / 2, height / 2 - 80);
     textSize(30);
     fill(255);
+    // states.gameover.props.args[0] contient le score passé lors du states.load('gameover', score)
     text(`Score Final: ${states.gameover.props.args[0]}`, width / 2, height / 2);
     textSize(20);
     text('Appuyez sur R pour rejouer', width / 2, height / 2 + 50);
@@ -177,8 +184,19 @@ function updateGameOver() {
     }
 }
 
-// --- Gestion des Inputs (sera complétée en Phase 3) ---
+// --- Gestion des Inputs ---
 
 q5.keyPress = () => {
-    // Logique de direction du serpent (sera implémentée en Phase 3)
+    if (states.current.name !== 'game') return;
+
+    // Empêche de faire demi-tour instantanément
+    if (q5.key === 'up' && snake.vel.y !== scl) {
+        snake.vel.set(0, -scl);
+    } else if (q5.key === 'down' && snake.vel.y !== -scl) {
+        snake.vel.set(0, scl);
+    } else if (q5.key === 'left' && snake.vel.x !== scl) {
+        snake.vel.set(-scl, 0);
+    } else if (q5.key === 'right' && snake.vel.x !== -scl) {
+        snake.vel.set(scl, 0);
+    }
 }

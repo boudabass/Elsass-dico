@@ -33,7 +33,7 @@
 - Cibles apparaissent aléatoirement  
 - Clic/touch = +1 score, nouvelle cible  
 
-**Checklist :** [ ] 3 méthodes input [ ] Score incrémental [ ] Respawn cible
+**Checklist :** [x] 3 méthodes input [x] Score incrémental [x] Respawn cible **(VALIDÉE)**
 
 ---
 

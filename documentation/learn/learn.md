@@ -69,7 +69,7 @@
 - Sol + 2 plateformes fixes  
 - Sprites visibles, collisions  
 
-**Checklist :** [ ] p5.play chargé [ ] 3+ sprites [ ] drawSprites() fonctionne
+**Checklist :** [x] p5.play chargé [x] 3+ sprites [x] drawSprites() fonctionne **(VALIDÉE)**
 
 ---
 

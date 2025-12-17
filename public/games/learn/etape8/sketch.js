@@ -3,6 +3,9 @@ let platforms;
 let enemies;
 let coins;
 
+let score = 0;
+let lives = 3;
+
 const PLATFORM_COLOR = 'gray';
 const PLAYER_COLOR = 'blue';
 const ENEMY_COLOR = 'red';
@@ -63,12 +66,12 @@ function draw() {
         player.vel.x = lerp(player.vel.x, targetSpeed, 0.05);
     }
     
-    // Respawn
+    // Respawn si chute
     if (player.y > height + 50) {
-        resetPlayer();
+        handlePlayerDeath();
     }
     
-    // 2. Spawn des entités (Phase 1)
+    // 2. Spawning des entités
     if (frameCount % 120 === 0) {
         spawnEnemy();
     }
@@ -76,11 +79,20 @@ function draw() {
         spawnCoin();
     }
     
-    // 3. Collision ennemi vs plateforme (Phase 1)
+    // 3. Collisions physiques (Ennemis vs Plateformes)
     enemies.collide(platforms);
     
-    // --- Rendu ---
+    // 4. Interactions (Callbacks)
+    
+    // Joueur collecte pièce (Overlap)
+    player.overlaps(coins, collectCoin);
+    
+    // Joueur touche ennemi (Collision)
+    player.collides(enemies, hitEnemy);
+    
+    // 5. Rendu et UI
     allSprites.draw();
+    drawUI();
 }
 
 function resetPlayer() {
@@ -88,19 +100,48 @@ function resetPlayer() {
     player.vel = {x: 0, y: 0};
 }
 
+function handlePlayerDeath() {
+    lives--;
+    if (lives <= 0) {
+        // Game Over simplifié: on réinitialise tout
+        lives = 3;
+        score = 0;
+        enemies.removeAll(); // Supprime les ennemis sans les détruire du monde (pourrait être delete, mais removeAll est plus sûr ici)
+        coins.removeAll();
+    }
+    resetPlayer();
+}
+
+function collectCoin(player, coin) {
+    score += 10;
+    coin.remove(); // Supprime la pièce du monde
+}
+
+function hitEnemy(player, enemy) {
+    // L'ennemi est détruit, le joueur perd une vie
+    enemy.remove();
+    handlePlayerDeath();
+}
+
 function spawnEnemy() {
-    // Apparaît en haut de l'écran, position x aléatoire
     let x = random(50, width - 50);
     let enemy = new enemies.Sprite(x, 0, 25, 25);
-    enemy.vel.x = random([-1, 1]); // Mouvement horizontal initial
+    enemy.vel.x = random([-1, 1]); 
     enemy.friction = 0;
     enemy.bounciness = 0;
 }
 
 function spawnCoin() {
-    // Apparaît à une position aléatoire
     let x = random(50, width - 50);
     let y = random(50, height - 100);
     let coin = new coins.Sprite(x, y, 15, 15);
     coin.shape = 'circle';
+}
+
+function drawUI() {
+    fill(255);
+    textSize(24);
+    textAlign(LEFT, TOP);
+    text(`Score: ${score}`, 20, 20);
+    text(`Vies: ${lives}`, 20, 50);
 }

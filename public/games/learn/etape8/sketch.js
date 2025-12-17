@@ -88,8 +88,11 @@ function draw() {
         let testX = enemy.x + enemy.vel.x * 10;
         let testY = enemy.y + enemy.h / 2 + 5; // Juste sous les pieds
         
-        // Si le point devant l'ennemi n'est pas sur une plateforme, ou si l'ennemi est bloqué
-        if (!platforms.overlap(testX, testY) || enemy.colliding(platforms, true)) {
+        // allSprites.overlap(x, y, group) renvoie le premier sprite trouvé ou undefined
+        let isPlatformAhead = allSprites.overlap(testX, testY, platforms);
+        
+        // Si le point devant l'ennemi n'est PAS sur une plateforme, ou si l'ennemi est bloqué (colliding(platforms, true) vérifie les collisions avec les bords)
+        if (!isPlatformAhead || enemy.colliding(platforms, true)) {
             enemy.vel.x *= -1; // Inverse la direction
         }
     }

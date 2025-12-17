@@ -12,9 +12,6 @@ function setup() {
     createCanvas(800, 600);
     world.gravity.y = 25;
     
-    // --- MODE DEBUG ---
-    // allSprites.debug = true;
-    
     // Limites du monde
     allSprites.bounds = { 
         left: 0, 
@@ -32,7 +29,6 @@ function setup() {
     new platforms.Sprite(WORLD_WIDTH / 2, WORLD_HEIGHT - 20, WORLD_WIDTH, 40);
     
     // Plateformes de test
-    // Une plateforme juste sous le joueur au départ
     new platforms.Sprite(400, 500, 200, 20); 
     
     for(let i = 0; i < 15; i++) {
@@ -43,7 +39,6 @@ function setup() {
     }
     
     // --- JOUEUR ---
-    // Position de départ connue et sûre (au début du monde)
     player = new Sprite(400, 400, 30, 30);
     player.color = PLAYER_COLOR;
     player.collider = 'dynamic';
@@ -54,7 +49,7 @@ function setup() {
     // --- CAMÉRA INITIALE ---
     camera.x = player.x;
     camera.y = player.y;
-    camera.zoom = 1; // Zoom par défaut
+    camera.zoom = 1;
     
     if(window.GameSystem) {
         window.GameSystem.Lifecycle.notifyReady();
@@ -80,7 +75,6 @@ function draw() {
     }
     
     // 2. Caméra Follow (Manuelle)
-    // On suit le joueur
     let targetCamX = player.x;
     let targetCamY = player.y;
     
@@ -97,19 +91,18 @@ function draw() {
     camera.x = lerp(camera.x, targetCamX, 0.1);
     camera.y = lerp(camera.y, targetCamY, 0.1);
     
-    // 3. Rendu
+    // 3. Rendu du Monde (AVEC CAMÉRA)
+    camera.on(); 
     allSprites.draw();
+    camera.off(); // Important : on éteint la caméra pour dessiner l'interface (HUD) par dessus
     
-    // 4. HUD de DEBUG (fixe sur l'écran)
-    // Pour dessiner l'interface fixe, on désactive la caméra temporairement
-    camera.off();
-        fill(255);
-        textSize(16);
-        textAlign(LEFT, TOP);
-        text(`Player: ${Math.round(player.x)}, ${Math.round(player.y)}`, 10, 10);
-        text(`Camera: ${Math.round(camera.x)}, ${Math.round(camera.y)}`, 10, 30);
-        text(`World: ${WORLD_WIDTH}x${WORLD_HEIGHT}`, 10, 50);
-    camera.on();
+    // 4. HUD de DEBUG (Fixe)
+    fill(255);
+    textSize(16);
+    textAlign(LEFT, TOP);
+    text(`Player: ${Math.round(player.x)}, ${Math.round(player.y)}`, 10, 10);
+    text(`Camera: ${Math.round(camera.x)}, ${Math.round(camera.y)}`, 10, 30);
+    text(`World: ${WORLD_WIDTH}x${WORLD_HEIGHT}`, 10, 50);
 }
 
 function windowResized() {

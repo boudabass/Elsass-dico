@@ -1,247 +1,169 @@
-/*
- * GameSystem Hub
- * Ce script est chargé par tous les jeux.
- * Il centralise la communication avec le backend et les utilitaires communs.
+/**
+ * GameSystem Hub (v2 - Q5/P5Play Standard)
+ * 
+ * Ce script est injecté dans l'iframe de chaque jeu et fournit l'API
+ * standardisée pour la soumission des scores et la gestion du cycle de vie.
+ * Il utilise fetch pour communiquer avec le backend Next.js (/api/scores).
  */
 
 (function () {
-    console.log("🔌 GameSystem Hub Loaded");
-
-    // 1. Validation de la configuration
-    // On accepte window.DyadGame (Legacy/Current) ou window.__GAME_CONFIG__ (Future)
-    const config = window.DyadGame || window.__GAME_CONFIG__;
-
-    if (!config) {
-        console.error("❌ GameSystem Error: Configuration not found.");
-        console.warn("⚠️ Have you defined window.DyadGame = { id: '...', version: '...' } before loading system.js?");
+    // Vérifie si la configuration DyadGame est présente
+    if (typeof window.DyadGame === 'undefined' || !window.DyadGame.id) {
+        console.error("[GameSystem] Erreur: window.DyadGame.id n'est pas défini. Le jeu ne peut pas s'initialiser correctement.");
         return;
     }
 
-    console.log(`🎮 Game Detected: ${config.id} (${config.version})`);
+    const GAME_ID = window.DyadGame.id;
+    const API_URL = '/api/scores';
 
-    // 2. Définition du Namespace Standard
-    window.GameSystem = {
-        config: config,
+    /**
+     * Gestion des scores (Soumission et Leaderboard)
+     */
+    const Score = {
+        /**
+         * Soumet un score au serveur.
+         * @param {number} score - Le score du joueur.
+         * @param {string} [playerName] - Nom du joueur (optionnel, sera ignoré si l'utilisateur est authentifié).
+         * @returns {Promise<boolean>} True si la soumission a réussi.
+         */
+        async submit(score, playerName = 'Anonyme') {
+            if (typeof score !== 'number' || score < 0) {
+                console.warn(`[GameSystem] Tentative de soumission d'un score invalide: ${score}`);
+                return false;
+            }
 
-        // Module Score
-        Score: {
-            submit: async (score, playerName = 'Joueur') => {
-                console.log(`[GameSystem] 📤 Sending Score: ${score} (${playerName})`);
-                try {
-                    const res = await fetch('/api/scores', {
-                        method: 'POST',
-                        headers: { 'Content-Type': 'application/json' },
-                        body: JSON.stringify({
-                            gameId: config.id,
-                            playerName,
-                            score
-                        })
-                    });
+            console.log(`[GameSystem] Soumission du score ${score} pour le jeu ${GAME_ID}...`);
 
-                    if (!res.ok) throw new Error(`HTTP ${res.status}`);
-                    console.log("[GameSystem] ✅ Score saved.");
-                    return true;
-                } catch (e) {
-                    console.error("[GameSystem] ❌ Error saving score:", e);
+            try {
+                const response = await fetch(API_URL, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({
+                        gameId: GAME_ID,
+                        score: score,
+                        playerName: playerName,
+                        date: new Date().toISOString(),
+                    }),
+                });
+
+                if (!response.ok) {
+                    const errorData = await response.json();
+                    console.error("[GameSystem] Échec de la soumission du score:", response.status, errorData.error);
                     return false;
                 }
-            },
 
-            getLeaderboard: async () => {
-                console.log("[GameSystem] 📥 Fetching Leaderboard...");
-                try {
-                    const res = await fetch('/api/scores?gameId=' + config.id);
-                    if (!res.ok) throw new Error(`HTTP ${res.status}`);
-                    const data = await res.json();
-                    return Array.isArray(data) ? data : [];
-                } catch (e) {
-                    console.error("[GameSystem] ❌ Error fetching leaderboard:", e);
+                console.log("[GameSystem] Score soumis avec succès.");
+                return true;
+
+            } catch (error) {
+                console.error("[GameSystem] Erreur réseau lors de la soumission du score:", error);
+                return false;
+            }
+        },
+
+        /**
+         * Récupère le leaderboard pour le jeu actuel.
+         * @returns {Promise<Array<{ playerName: string, score: number, date: string }>>}
+         */
+        async getLeaderboard() {
+            console.log(`[GameSystem] Récupération du leaderboard pour ${GAME_ID}...`);
+            try {
+                const response = await fetch(`${API_URL}?gameId=${GAME_ID}`);
+
+                if (!response.ok) {
+                    console.error("[GameSystem] Échec de la récupération du leaderboard:", response.status);
                     return [];
                 }
-            }
-        },
 
-        // Module Affichage
-        Display: {
-            toggleFullscreen: () => {
-                if (!document.fullscreenElement) {
-                    document.documentElement.requestFullscreen().catch(e => {
-                        console.error(`[GameSystem] Fullscreen failed: ${e.message}`);
-                    });
-                } else {
-                    if (document.exitFullscreen) {
-                        document.exitFullscreen();
-                    }
-                }
-            }
-        },
+                const data = await response.json();
+                console.log(`[GameSystem] Leaderboard récupéré (${data.length} entrées).`);
+                return data;
 
-        // Module Cycle de Vie (Placeholder pour l'instant)
-        Lifecycle: {
-            notifyReady: () => {
-                console.log("[GameSystem] Game Ready Signal Sent.");
-                window.dispatchEvent(new Event('gamesystem:ready'));
+            } catch (error) {
+                console.error("[GameSystem] Erreur réseau lors de la récupération du leaderboard:", error);
+                return [];
             }
         }
     };
 
-    // 3. Rétro-compatibilité temporaire (pour que Test-Hub V1 fonctionne encore sans rewrite total immédiat)
-    // ATTENTION : Sera supprimé dans le futur.
-    window.GameAPI = {
-        saveScore: window.GameSystem.Score.submit,
-        getHighScores: window.GameSystem.Score.getLeaderboard
-    };
-
-    console.log("✅ GameSystem Ready");
-
-    // 4. Injection Automatique de l'UI Système (Overlay)
-    function injectSystemUI() {
-        // Eviter la double injection
-        if (document.getElementById('dyad-system-ui')) return;
-
-        console.log("[GameSystem] 🎨 Injecting System UI...");
-
-        // Styles CSS pour l'UI
-        const style = document.createElement('style');
-        style.innerHTML = `
-            #dyad-system-ui {
-                position: absolute;
-                top: 0;
-                left: 0;
-                width: 100%;
-                height: 0;
-                overflow: visible;
-                z-index: 9999;
-                font-family: sans-serif;
-                pointer-events: none; /* Laisser passer les clics vers le jeu */
-            }
-            .dyad-btn {
-                pointer-events: auto;
-                background: rgba(0, 0, 0, 0.5);
-                color: white;
-                border: 1px solid rgba(255, 255, 255, 0.3);
-                border-radius: 4px;
-                padding: 8px 12px;
-                cursor: pointer;
-                font-size: 20px;
-                transition: background 0.2s;
-            }
-            .dyad-btn:hover { background: rgba(0, 0, 0, 0.8); }
-            
-            #dyad-menu-btn {
-                position: absolute;
-                top: 10px;
-                left: 10px;
-            }
-
-            #dyad-menu-overlay {
-                pointer-events: auto;
-                display: none;
-                position: absolute;
-                top: 50px;
-                left: 10px;
-                background: rgba(20, 20, 20, 0.95);
-                border: 1px solid #444;
-                border-radius: 8px;
-                padding: 10px;
-                min-width: 150px;
-                box-shadow: 0 4px 15px rgba(0,0,0,0.5);
-                display: flex; /* Caché par défaut via JS, sinon flex */
-                flex-direction: column;
-                gap: 5px;
-            }
-            
-            .dyad-menu-item {
-                background: transparent;
-                border: none;
-                color: #ddd;
-                text-align: left;
-                padding: 8px;
-                cursor: pointer;
-                font-size: 14px;
-                border-radius: 4px;
-            }
-            .dyad-menu-item:hover { background: rgba(255,255,255,0.1); color: white; }
-            .dyad-hidden { display: none !important; }
-        `;
-        document.head.appendChild(style);
-
-        // Structure HTML
-        const container = document.createElement('div');
-        container.id = 'dyad-system-ui';
-        container.innerHTML = `
-            <button id="dyad-menu-btn" class="dyad-btn">☰</button>
-            <div id="dyad-menu-overlay" class="dyad-hidden">
-                <button class="dyad-menu-item" id="dyad-fs-btn">⛶ Plein Écran</button>
-                <div style="height:1px; background:#444; margin:5px 0;"></div>
-                <button class="dyad-menu-item" id="dyad-close-menu">Fermer</button>
-            </div>
-        `;
-        document.body.appendChild(container);
-
-        // Logic
-        const menuBtn = document.getElementById('dyad-menu-btn');
-        const menuOverlay = document.getElementById('dyad-menu-overlay');
-        const fsBtn = document.getElementById('dyad-fs-btn');
-        const closeBtn = document.getElementById('dyad-close-menu');
-
-        // --- AUTH CHECK UI ---
-        // On demande qui est connecté pour l'afficher dans le menu
-        fetch('/api/auth/me')
-            .then(res => res.json())
-            .then(data => {
-                if (data.user) {
-                    const userDisplay = document.createElement('div');
-                    userDisplay.style.padding = '8px';
-                    userDisplay.style.fontSize = '12px';
-                    userDisplay.style.color = '#4ade80'; // Green
-                    userDisplay.style.borderBottom = '1px solid #444';
-                    userDisplay.innerHTML = `👤 ${data.user.email}`;
-                    menuOverlay.insertBefore(userDisplay, menuOverlay.firstChild);
-                } else {
-                    const loginLink = document.createElement('a');
-                    loginLink.href = "/login";
-                    loginLink.target = "_blank"; // Ouvrir dans un nouvel onglet pour pas tuer le jeu
-                    loginLink.className = "dyad-menu-item";
-                    loginLink.style.color = "#fbbf24"; // Amber
-                    loginLink.innerText = "⚠️ Non connecté";
-                    menuOverlay.insertBefore(loginLink, menuOverlay.firstChild);
+    /**
+     * Gestion de l'affichage (Fullscreen)
+     */
+    const Display = {
+        toggleFullscreen() {
+            const doc = document.documentElement;
+            if (!document.fullscreenElement) {
+                if (doc.requestFullscreen) {
+                    doc.requestFullscreen();
+                } else if (doc.mozRequestFullScreen) { // Firefox
+                    doc.mozRequestFullScreen();
+                } else if (doc.webkitRequestFullscreen) { // Chrome, Safari and Opera
+                    doc.webkitRequestFullscreen();
+                } else if (doc.msRequestFullscreen) { // IE/Edge
+                    doc.msRequestFullscreen();
                 }
-            })
-            .catch(e => console.error("Auth check failed", e));
-        // ---------------------
-
-        function toggleMenu() {
-            const isHidden = menuOverlay.classList.contains('dyad-hidden');
-            if (isHidden) {
-                menuOverlay.classList.remove('dyad-hidden');
-                menuOverlay.style.display = 'flex';
-                // Mettre le jeu en pause ? window.GameSystem.Lifecycle.pause();
+                console.log("[GameSystem] Demande de plein écran.");
             } else {
-                menuOverlay.classList.add('dyad-hidden');
-                menuOverlay.style.display = 'none';
+                if (document.exitFullscreen) {
+                    document.exitFullscreen();
+                } else if (document.mozCancelFullScreen) {
+                    document.mozCancelFullScreen();
+                } else if (document.webkitExitFullscreen) {
+                    document.webkitExitFullscreen();
+                } else if (document.msExitFullscreen) {
+                    document.msExitFullscreen();
+                }
+                console.log("[GameSystem] Sortie du plein écran.");
             }
         }
+    };
 
-        menuBtn.addEventListener('click', toggleMenu);
-        closeBtn.addEventListener('click', toggleMenu);
+    /**
+     * Gestion du cycle de vie (pour communication avec le wrapper React)
+     */
+    const Lifecycle = {
+        /**
+         * Notifie le wrapper parent que le jeu a fini de charger ses assets et est prêt à jouer.
+         */
+        notifyReady() {
+            console.log("[GameSystem] Jeu prêt (notifyReady).");
+            // Envoie un message au parent (le wrapper React)
+            window.parent.postMessage({ 
+                type: 'GAME_READY', 
+                gameId: GAME_ID 
+            }, '*');
+        },
+        
+        // Hooks de pause/reprise (à implémenter si nécessaire dans le jeu)
+        onPause: (callback) => {
+            // Le jeu doit implémenter sa propre logique de pause
+            console.warn("[GameSystem] Lifecycle.onPause est un hook. Le jeu doit l'implémenter.");
+        },
+        onResume: (callback) => {
+            // Le jeu doit implémenter sa propre logique de reprise
+            console.warn("[GameSystem] Lifecycle.onResume est un hook. Le jeu doit l'implémenter.");
+        }
+    };
 
-        fsBtn.addEventListener('click', () => {
-            window.GameSystem.Display.toggleFullscreen();
-            toggleMenu();
-        });
-    }
+    // Expose l'API globale
+    window.GameSystem = {
+        config: window.DyadGame,
+        Score,
+        Display,
+        Lifecycle,
+        // Utilitaires de debug
+        debug: (message) => console.log(`[GameSystem Debug] ${message}`)
+    };
 
-    // Attendre que le DOM soit prêt si le script est chargé dans le <head>
-    if (document.readyState === 'loading') {
-        document.addEventListener('DOMContentLoaded', injectSystemUI);
-    } else {
-        injectSystemUI();
-    }
+    console.log(`[GameSystem] Initialisé pour le jeu: ${GAME_ID}`);
 
-    console.log("✅ GameSystem Ready");
-
-    // Auto-notify ready
-    window.GameSystem.Lifecycle.notifyReady();
+    // Ajout d'un écouteur pour le bouton Fullscreen (si un bouton est injecté par le wrapper)
+    document.addEventListener('click', (e) => {
+        if (e.target.id === 'game-system-fullscreen-button') {
+            Display.toggleFullscreen();
+        }
+    });
 
 })();

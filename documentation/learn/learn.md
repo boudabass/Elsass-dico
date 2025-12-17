@@ -45,7 +45,7 @@
 - 1 ennemi descend lentement  
 - Collision = game over  
 
-**Checklist :** [ ] 5+ fonctions distinctes [ ] Code < 100 lignes [ ] Logique claire
+**Checklist :** [x] 5+ fonctions distinctes [x] Code < 100 lignes [x] Logique claire **(VALIDÉE)**
 
 ---
 

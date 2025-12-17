@@ -349,10 +349,12 @@ export async function uploadGameFile(gameName: string, version: string, formData
 }
 
 export async function deleteGame(gameFolderName: string) {
-  const safeName = gameFolderName.replace(/[^a-z0-9-]/g, '-');
-  // Correction ici : ajout de toLowerCase()
-  const dbIdPrefix = `${safeName.toLowerCase()}-`;
-  const gamePath = path.join(GAMES_DIR, safeName);
+  // 1. Déterminer le nom sécurisé et en minuscules pour la DB
+  const safeGameName = gameFolderName.toLowerCase().replace(/[^a-z0-9-]/g, '-');
+  const dbIdPrefix = `${safeGameName}-`;
+  
+  // 2. Déterminer le chemin physique (utilise le nom exact du dossier pour la suppression)
+  const gamePath = path.join(GAMES_DIR, gameFolderName);
 
   try {
     await fs.rm(gamePath, { recursive: true, force: true });
@@ -362,6 +364,7 @@ export async function deleteGame(gameFolderName: string) {
 
   const db = await getDb();
   await db.update(({ games, scores }) => {
+    // Filtrer les jeux et scores dont l'ID commence par le préfixe du jeu (ex: 'tetris-')
     const gamesToKeep = games.filter(g => !g.id.startsWith(dbIdPrefix));
     const scoresToKeep = scores.filter(s => !s.gameId.startsWith(dbIdPrefix));
     return { games: gamesToKeep, scores: scoresToKeep };

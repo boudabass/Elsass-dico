@@ -255,6 +255,7 @@ export async function createGameFolder(gameName: string, width = 800, height = 6
   }
 
   await createStandardGameFiles(safeName, 'v1', { bgColor: '#000000' });
+  await db.write(); // PERSISTENCE CRITIQUE
   revalidatePath('/games');
 
   return {
@@ -308,6 +309,7 @@ export async function createGameVersion(gameName: string, versionName: string) {
     }
 
     await createStandardGameFiles(gameName, safeVersion, { bgColor: '#000000' });
+    await db.write(); // PERSISTENCE CRITIQUE
     revalidatePath('/games');
 
     return {
@@ -364,6 +366,7 @@ export async function deleteGame(gameFolderName: string) {
     const scoresToKeep = scores.filter(s => !s.gameId.startsWith(dbIdPrefix));
     return { games: gamesToKeep, scores: scoresToKeep };
   });
+  await db.write(); // PERSISTENCE CRITIQUE
 
   revalidatePath('/games');
   revalidatePath('/dashboard');
@@ -399,6 +402,7 @@ export async function deleteVersion(gameFolderName: string, versionName: string)
       scores: scores.filter(s => s.gameId !== gameId)
     };
   });
+  await db.write(); // PERSISTENCE CRITIQUE
   
   revalidatePath('/games');
   revalidatePath('/dashboard');
@@ -435,6 +439,7 @@ export async function updateGameMetadata(gameFolderName: string, version: string
     await fs.writeFile(path.join(dirPath, 'description.md'), newDescription);
   } catch (e) { }
 
+  await db.write(); // PERSISTENCE CRITIQUE
   revalidatePath('/games');
   revalidatePath('/dashboard');
   revalidatePath('/scores');

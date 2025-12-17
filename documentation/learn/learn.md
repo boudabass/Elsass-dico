@@ -93,7 +93,7 @@
 - Group pièces (+score)  
 - Vies -1 collision ennemi  
 
-**Checklist :** [ ] 2 groupes actifs [ ] 3 callbacks collision [ ] Score + vies
+**Checklist :** [x] 2 groupes actifs [x] 3 callbacks collision [x] Score + vies **(VALIDÉE)**
 
 ---
 

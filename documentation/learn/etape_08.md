@@ -1,11 +1,11 @@
 # Étape 8 : Groupes + Interactions (3h)
 
 ## 🎯 Objectifs finaux
-- [ ] 2 groupes actifs (ennemis/pièces)
-- [ ] 3 callbacks collision différents
-- [ ] Score + vies fonctionnels
-- [ ] Ennemis patrouillent
-- [ ] Collecte de pièces
+- [x] 2 groupes actifs (ennemis/pièces)
+- [x] 3 callbacks collision différents
+- [x] Score + vies fonctionnels
+- [x] Ennemis patrouillent
+- [x] Collecte de pièces
 
 ## 📚 Concepts à maîtriser
 
@@ -60,15 +60,15 @@ Pièces dorées (+10 score)
 
 Collision ennemi = -1 vie (3 max)
 
-Game over 0 vie + restart R
+Game over 0 vie + meilleur score
 
 ## ✅ Checklist validation
-[ ] `enemies.length > 3` actifs
-[ ] `coins.length > 5` actifs
-[ ] `collectCoin()` callback fonctionne
-[ ] `hitEnemy()` callback fonctionne
-[ ] Vies 3 → 2 → 1 → game over
-[ ] Code < 130 lignes
+[x] `enemies.length > 3` actifs
+[x] `coins.length > 5` actifs
+[x] `collectCoin()` callback fonctionne
+[x] `hitEnemy()` callback fonctionne
+[x] Vies 3 → 2 → 1 → game over
+[x] Code < 130 lignes
 
 ## 🚨 Erreurs fréquentes
 ❌ `new Group()` dans `draw()` → spam

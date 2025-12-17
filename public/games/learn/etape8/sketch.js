@@ -85,11 +85,13 @@ function draw() {
     // 4. Logique de patrouille des ennemis (Phase 3)
     for (let enemy of enemies) {
         // Créer un point de test juste devant l'ennemi
+        // On utilise une petite distance (10) pour tester si le sol continue
         let testX = enemy.x + enemy.vel.x * 10;
-        let testY = enemy.y + enemy.h / 2 + 5; // Juste sous les pieds
+        let testY = enemy.y + enemy.h / 2 + 5; // 5 pixels sous les pieds
         
-        // allSprites.overlap(x, y, group) renvoie le premier sprite trouvé ou undefined
-        let isPlatformAhead = allSprites.overlap(testX, testY, platforms);
+        // platforms.overlap(x, y) renvoie le sprite qui chevauche le point (x, y)
+        // Si aucun sprite n'est trouvé, cela renvoie null/undefined (falsy)
+        let isPlatformAhead = platforms.overlap(testX, testY);
         
         // Si le point devant l'ennemi n'est PAS sur une plateforme, ou si l'ennemi est bloqué (colliding(platforms, true) vérifie les collisions avec les bords)
         if (!isPlatformAhead || enemy.colliding(platforms, true)) {

@@ -40,6 +40,7 @@ Ton fichier `index.html` **doit** inclure le script de configuration ET le scrip
 <body>
     <!-- 1️⃣ Bibliothèques (p5.js + p5play) -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.4/p5.min.js"></script>
+    <script src="https://p5play.org/v3/planck.min.js"></script>
     <script src="https://p5play.org/v3/p5play.js"></script>
 
     <!-- 2️⃣ CONFIGURATION OBLIGATOIRE -->

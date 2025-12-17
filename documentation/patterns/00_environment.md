@@ -21,6 +21,7 @@ Stable sur tous navigateurs depuis 10 ans. Zéro WebGPU.
 &lt;body&gt;
     &lt;!-- P5.JS STABLE + P5PLAY OFFICIEL --&gt;
     &lt;script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.4/p5.min.js"&gt;&lt;/script&gt;
+    &lt;script src="https://p5play.org/v3/planck.min.js"&gt;&lt;/script&gt;
     &lt;script src="https://p5play.org/v3/p5play.js"&gt;&lt;/script&gt;
     
     &lt;!-- CONFIG JEUX (ton system.js) --&gt;
@@ -35,9 +36,10 @@ Stable sur tous navigateurs depuis 10 ans. Zéro WebGPU.
 ### Ordre de chargement CRITIQUE
 ```text
 1. p5.js (rendu Canvas 2D stable)
-2. p5play v3 (moteur sprites/physique)
-3. system.js (menu ☰ + scores)
-4. main.js (logique jeu)
+2. planck.min.js (moteur physique)
+3. p5play.js (moteur sprites/physique)
+4. system.js (menu ☰ + scores)
+5. main.js (logique jeu)
 ```
 
 ### Structure de dossier standard

@@ -1,67 +1,6 @@
 {
   "games": [
     {
-      "id": "breakout-v1",
-      "name": "breakout",
-      "description": "Description par défaut",
-      "path": "breakout/v1",
-      "version": "v1",
-      "createdAt": "2025-12-13T02:31:04.389Z",
-      "width": 800,
-      "height": 600
-    },
-    {
-      "id": "asteroids-v1",
-      "name": "Asteroids",
-      "description": "Description par défaut",
-      "path": "asteroids/v1",
-      "version": "v1",
-      "createdAt": "2025-12-13T13:34:07.067Z",
-      "width": 800,
-      "height": 600
-    },
-    {
-      "id": "forest-v1",
-      "name": "forest",
-      "description": "Description forest",
-      "path": "forest/v1",
-      "version": "v1",
-      "createdAt": "2025-12-13T15:18:31.123Z",
-      "width": 800,
-      "height": 600
-    },
-    {
-      "id": "snake-v3-system",
-      "name": "snake",
-      "description": "Portage V3 Standardisé (GameSystem Proof of Concept)",
-      "path": "snake/v3-system",
-      "version": "v3-system",
-      "thumbnail": "thumbnail.png",
-      "createdAt": "2025-12-16T22:00:00.000Z",
-      "width": 800,
-      "height": 600
-    },
-    {
-      "id": "test-hub-v1",
-      "name": "Test Hub System",
-      "description": "Jeu de test pour l'integration du HUB",
-      "path": "test-hub/v1",
-      "version": "v1",
-      "createdAt": "2025-12-16T22:00:00.000Z",
-      "width": 800,
-      "height": 600
-    },
-    {
-      "id": "p5play-test-v1",
-      "name": "P5Play Test",
-      "description": "Jeu de test pour valider la stack p5.js et p5play.",
-      "path": "p5play-test/v1",
-      "version": "v1",
-      "createdAt": "2025-12-17T10:00:00.000Z",
-      "width": 800,
-      "height": 600
-    },
-    {
       "id": "p5-learn-etape10",
       "name": "P5.js Apprentissage - Étape 10",
       "description": "Architecture Complète : États, Classes, Config.",

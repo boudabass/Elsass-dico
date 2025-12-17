@@ -6,185 +6,124 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
 import { Label } from "@/components/ui/label";
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { Textarea } from "@/components/ui/textarea";
 import { toast } from "sonner";
 import { 
-  listGamesFolders, 
-  createGameFolder, 
-  createGameVersion, 
-  uploadGameFile, 
-  uploadGameThumbnail,
-  generateIndexHtml, 
-  listGameFiles,
-  deleteGame,
-  deleteVersion,
-  updateGameMetadata,
-  GameFolder,
-  GameVersionInfo
+  createGameRelease,
+  deleteGameRelease,
+  getGameReleases,
+  listGameReleaseFiles,
+  regenerateIndexHtml,
+  updateGameRelease,
+  uploadGameFiles
 } from "@/app/actions/game-manager";
-import { FileCode, ImageIcon, FileText, Trash2, Edit, Save, FolderOpen, FolderPlus, Layers } from "lucide-react";
+import { GameRelease } from "@/lib/database";
+import { FileCode, ImageIcon, FileText, Trash2, Edit, Save, FolderPlus, Layers, Upload, RefreshCw } from "lucide-react";
 
 export default function AdminPage() {
   const { user, isLoading } = useAuth();
-  const [games, setGames] = useState<GameFolder[]>([]);
-  const [mode, setMode] = useState<"new-game" | "new-version" | "manage">("manage");
+  const [releases, setReleases] = useState<GameRelease[]>([]);
   
-  // États Creation / Import
+  // Form state
   const [newGameName, setNewGameName] = useState("");
-  const [gameWidth, setGameWidth] = useState(800);
-  const [gameHeight, setGameHeight] = useState(600);
+  const [newVersionName, setNewVersionName] = useState("v1");
+  const [newGameWidth, setNewGameWidth] = useState(800);
+  const [newGameHeight, setNewGameHeight] = useState(600);
+  const [newGameDescription, setNewGameDescription] = useState("");
 
-  const [selectedGame, setSelectedGame] = useState("");
-  const [newVersionName, setNewVersionName] = useState("");
-  
-  // État Upload & Fichiers
-  const [activePath, setActivePath] = useState<{name: string, version: string} | null>(null);
+  // File management state
+  const [activeRelease, setActiveRelease] = useState<GameRelease | null>(null);
   const [uploading, setUploading] = useState(false);
-  const [folderFiles, setFolderFiles] = useState<string[]>([]);
+  const [releaseFiles, setReleaseFiles] = useState<string[]>([]);
 
-  // État Edition
+  // Editing state
   const [editingId, setEditingId] = useState<string | null>(null);
   const [editForm, setEditForm] = useState({ name: "", description: "", width: 800, height: 600 });
 
   useEffect(() => {
-    refreshGames();
+    refreshReleases();
   }, []);
 
   useEffect(() => {
-    if (activePath) {
-      loadFiles(activePath.name, activePath.version);
+    if (activeRelease) {
+      loadFiles(activeRelease.id);
     } else {
-      setFolderFiles([]);
+      setReleaseFiles([]);
     }
-  }, [activePath]);
+  }, [activeRelease]);
 
-  const refreshGames = async () => {
-    const g = await listGamesFolders();
-    setGames(g);
+  const refreshReleases = async () => {
+    const r = await getGameReleases();
+    setReleases(r.sort((a, b) => a.name.localeCompare(b.name) || a.version.localeCompare(b.version)));
   };
 
-  const loadFiles = async (name: string, version: string) => {
-    const files = await listGameFiles(name, version);
-    setFolderFiles(files);
+  const loadFiles = async (id: string) => {
+    const files = await listGameReleaseFiles(id);
+    setReleaseFiles(files);
   };
 
-  const [isGameUpdate, setIsGameUpdate] = useState(false);
-  const [isVersionUpdate, setIsVersionUpdate] = useState(false);
-
-  useEffect(() => {
-    const existing = games.find(g => g.name === newGameName);
-    setIsGameUpdate(!!existing && existing.isImported);
-  }, [newGameName, games]);
-
-  useEffect(() => {
-    if (!selectedGame) return;
-    const game = games.find(g => g.name === selectedGame);
-    if (game) {
-        const version = game.versions.find(v => v.name === newVersionName);
-        setIsVersionUpdate(!!version && version.isImported);
-    }
-  }, [selectedGame, newVersionName, games]);
-
-
-  const handleCreateGame = async () => {
-    if (!newGameName) return toast.error("Nom du jeu requis");
-    const res = await createGameFolder(newGameName, gameWidth, gameHeight);
-    if (res.success) {
-      toast.success(res.message);
-      setActivePath({ name: res.gameName!, version: res.version! });
-      setMode("manage"); 
-      refreshGames();
-    }
-  };
-
-  const handleCreateVersion = async () => {
-    if (!selectedGame || !newVersionName) return toast.error("Jeu et version requis");
-    const res = await createGameVersion(selectedGame, newVersionName);
-    if (res.success) {
-      toast.success(res.message);
-      setActivePath({ name: res.gameName!, version: res.version! });
-      refreshGames();
+  const handleCreateRelease = async () => {
+    if (!newGameName || !newVersionName) return toast.error("Nom et version requis");
+    const res = await createGameRelease(newGameName, newVersionName, newGameWidth, newGameHeight, newGameDescription);
+    if (res.success && res.release) {
+      toast.success(`Jeu "${res.release.id}" créé !`);
+      setNewGameName("");
+      setNewVersionName("v1");
+      setNewGameDescription("");
+      setActiveRelease(res.release);
+      refreshReleases();
     } else {
-      toast.error(res.error);
+      toast.error(res.error || "Erreur inconnue");
     }
   };
 
   const handleFileUpload = async (e: React.ChangeEvent<HTMLInputElement>) => {
-    if (!e.target.files || !activePath) return;
+    if (!e.target.files || !activeRelease) return;
     setUploading(true);
-    const file = e.target.files[0];
     const formData = new FormData();
-    formData.append('file', file);
-    const res = await uploadGameFile(activePath.name, activePath.version, formData);
+    Array.from(e.target.files).forEach(file => formData.append('files', file));
+    
+    const res = await uploadGameFiles(activeRelease.id, formData);
     if (res.success) {
-      toast.success(`Fichier ${res.fileName} uploadé`);
-      loadFiles(activePath.name, activePath.version); 
+      toast.success(`${res.fileNames?.length || 0} fichier(s) uploadé(s)`);
+      loadFiles(activeRelease.id);
+      refreshReleases(); // To update thumbnail if present
     } else {
       toast.error(res.error);
     }
     setUploading(false);
   };
 
-  const handleThumbnailUpload = async (e: React.ChangeEvent<HTMLInputElement>) => {
-    if (!e.target.files || !activePath) return;
-    setUploading(true);
-    const file = e.target.files[0];
-    const formData = new FormData();
-    formData.append('file', file);
-    const res = await uploadGameThumbnail(activePath.name, activePath.version, formData);
-    if (res.success) {
-      toast.success(`Image de couverture mise à jour (thumbnail.png)`);
-      loadFiles(activePath.name, activePath.version); 
-    } else {
-      toast.error(res.error);
-    }
-    setUploading(false);
+  const handleRegenerateIndex = async () => {
+    if (!activeRelease) return;
+    await regenerateIndexHtml(activeRelease.id);
+    toast.success("index.html régénéré !");
+    loadFiles(activeRelease.id);
   };
 
-  const handleGenerateIndex = async () => {
-    if (!activePath) return;
-    const config = {
-      gameId: `${activePath.name}-${activePath.version}`,
-      bgColor: '#1a1a1a',
-      version: activePath.version
-    };
-    await generateIndexHtml(activePath.name, activePath.version, config);
-    toast.success("index.html généré et injecté !");
-    loadFiles(activePath.name, activePath.version);
+  const handleDeleteRelease = async (id: string) => {
+    if (!confirm(`Supprimer la release "${id}" et ses fichiers ?`)) return;
+    await deleteGameRelease(id);
+    toast.success("Release supprimée");
+    refreshReleases();
+    if (activeRelease?.id === id) setActiveRelease(null);
   };
 
-  const handleDeleteGame = async (gameName: string) => {
-    if (!confirm(`Supprimer TOUT le jeu "${gameName}" et ses scores ?`)) return;
-    await deleteGame(gameName);
-    toast.success("Jeu supprimé");
-    refreshGames();
-    setActivePath(null);
-  };
-
-  const handleDeleteVersion = async (gameName: string, version: string) => {
-    if (!confirm(`Supprimer la version "${version}" ?`)) return;
-    await deleteVersion(gameName, version);
-    toast.success("Version supprimée");
-    refreshGames();
-    if (activePath?.name === gameName && activePath?.version === version) setActivePath(null);
-  };
-
-  const startEditing = (game: GameFolder, version: GameVersionInfo) => {
-    setEditingId(`${game.name}-${version.name}`);
+  const startEditing = (release: GameRelease) => {
+    setEditingId(release.id);
     setEditForm({ 
-        name: game.prettyName || game.name, 
-        description: version.description || game.description || "",
-        width: version.width || game.width || 800,
-        height: version.height || game.height || 600
+        name: release.name, 
+        description: release.description || "",
+        width: release.width || 800,
+        height: release.height || 600
     });
   };
 
-  const saveEditing = async (gameName: string, version: string) => {
-    await updateGameMetadata(gameName, version, editForm.name, editForm.description, editForm.width, editForm.height);
+  const saveEditing = async (id: string) => {
+    await updateGameRelease(id, editForm);
     toast.success("Métadonnées mises à jour");
     setEditingId(null);
-    refreshGames();
+    refreshReleases();
   };
 
   const getFileIcon = (fileName: string) => {
@@ -194,265 +133,111 @@ export default function AdminPage() {
     return <FileText className="w-4 h-4 text-gray-500" />;
   };
 
-  const getSelectedGameVersions = () => {
-    const game = games.find(g => g.name === selectedGame);
-    return game?.versions || [];
-  };
-
   if (isLoading) return <div>Chargement...</div>;
   if (!user) return <div>Accès refusé</div>;
 
   return (
     <div className="container mx-auto p-4 md:p-8 max-w-5xl">
-      <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-8 gap-4">
-        <h1 className="text-3xl font-bold">Admin Panel</h1>
-        <div className="flex bg-slate-100 p-1 rounded-lg">
-          <Button 
-            variant={mode === "manage" ? "default" : "ghost"}
-            onClick={() => { setMode("manage"); setActivePath(null); }}
-            className="flex gap-2"
-          >
-            <FolderOpen className="w-4 h-4" /> Gérer
-          </Button>
-          <Button 
-            variant={mode === "new-game" ? "default" : "ghost"}
-            onClick={() => { setMode("new-game"); setActivePath(null); }}
-            className="flex gap-2"
-          >
-            <FolderPlus className="w-4 h-4" /> Nouveau Jeu
-          </Button>
-          <Button 
-            variant={mode === "new-version" ? "default" : "ghost"}
-            onClick={() => { setMode("new-version"); setActivePath(null); }}
-            className="flex gap-2"
-          >
-            <Layers className="w-4 h-4" /> Nouvelle Version
-          </Button>
-        </div>
-      </div>
+      <h1 className="text-3xl font-bold mb-8">Admin Panel</h1>
 
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
-        {/* COLONNE GAUCHE : ACTIONS PRINCIPALES */}
         <div className="lg:col-span-2 space-y-8">
-          
-          {mode === "manage" && (
-            <Card>
-                <CardHeader>
-                    <CardTitle>Jeux Installés</CardTitle>
-                    <CardDescription>Liste des dossiers trouvés dans /public/games</CardDescription>
-                </CardHeader>
-                <CardContent className="space-y-6">
-                    {games.length === 0 && <p className="text-slate-400 italic">Aucun jeu détecté.</p>}
-                    
-                    {games.map(game => (
-                        <div key={game.name} className="border rounded-lg p-4 bg-slate-50">
-                            <div className="flex justify-between items-center mb-4">
-                                <div>
-                                    <h3 className="text-xl font-bold flex items-center gap-2">
-                                        {game.prettyName || game.name}
-                                        <span className="text-xs font-normal text-slate-400 bg-slate-200 px-2 py-0.5 rounded-full">{game.name}</span>
-                                    </h3>
-                                    {game.description && <p className="text-sm text-slate-500 mt-1 line-clamp-1">{game.description}</p>}
-                                </div>
-                                <Button variant="destructive" size="sm" onClick={() => handleDeleteGame(game.name)}>
-                                    <Trash2 className="w-4 h-4" />
-                                </Button>
-                            </div>
+          <Card>
+            <CardHeader>
+              <CardTitle className="flex items-center gap-2"><FolderPlus /> Créer une Release de Jeu</CardTitle>
+            </CardHeader>
+            <CardContent className="space-y-4">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div className="space-y-2"><Label>Nom du Jeu</Label><Input placeholder="ex: Snake" value={newGameName} onChange={(e) => setNewGameName(e.target.value)} /></div>
+                <div className="space-y-2"><Label>Version</Label><Input placeholder="ex: v1" value={newVersionName} onChange={(e) => setNewVersionName(e.target.value)} /></div>
+              </div>
+              <div className="grid grid-cols-2 gap-4">
+                <div className="space-y-2"><Label>Largeur</Label><Input type="number" value={newGameWidth} onChange={(e) => setNewGameWidth(Number(e.target.value))} /></div>
+                <div className="space-y-2"><Label>Hauteur</Label><Input type="number" value={newGameHeight} onChange={(e) => setNewGameHeight(Number(e.target.value))} /></div>
+              </div>
+              <div className="space-y-2"><Label>Description</Label><Textarea placeholder="Description courte..." value={newGameDescription} onChange={(e) => setNewGameDescription(e.target.value)} /></div>
+              <Button onClick={handleCreateRelease} className="w-full">Créer la Release</Button>
+            </CardContent>
+          </Card>
 
-                            <div className="space-y-2">
-                                {game.versions.map(v => {
-                                    const editKey = `${game.name}-${v.name}`;
-                                    const isEditing = editingId === editKey;
-
-                                    return (
-                                        <div key={v.name} className="flex flex-col gap-2 bg-white p-3 rounded border">
-                                            <div className="flex items-center justify-between">
-                                                <div className="flex items-center gap-3">
-                                                    <span className="font-mono text-sm font-bold text-blue-600">{v.name}</span>
-                                                    {v.isImported ? 
-                                                        <span className="text-xs bg-green-100 text-green-700 px-2 rounded-full">Actif {v.width}x{v.height}</span> : 
-                                                        <span className="text-xs bg-yellow-100 text-yellow-700 px-2 rounded-full">Non importé</span>
-                                                    }
-                                                </div>
-                                                <div className="flex gap-2">
-                                                    <Button variant="outline" size="sm" onClick={() => setActivePath({ name: game.name, version: v.name })}>
-                                                        Fichiers
-                                                    </Button>
-                                                    {v.isImported && !isEditing && (
-                                                        <Button variant="ghost" size="sm" onClick={() => startEditing(game, v)}>
-                                                            <Edit className="w-4 h-4" />
-                                                        </Button>
-                                                    )}
-                                                    <Button variant="ghost" size="sm" className="text-red-500 hover:text-red-700 hover:bg-red-50" onClick={() => handleDeleteVersion(game.name, v.name)}>
-                                                        <Trash2 className="w-4 h-4" />
-                                                    </Button>
-                                                </div>
-                                            </div>
-
-                                            {isEditing && (
-                                                <div className="mt-2 p-3 bg-slate-50 border rounded-md space-y-3 animate-accordion-down">
-                                                    <div className="grid gap-2">
-                                                        <Label>Titre (Affichage)</Label>
-                                                        <Input value={editForm.name} onChange={e => setEditForm({...editForm, name: e.target.value})} />
-                                                    </div>
-                                                    <div className="grid grid-cols-2 gap-2">
-                                                        <div>
-                                                            <Label>Largeur</Label>
-                                                            <Input type="number" value={editForm.width} onChange={e => setEditForm({...editForm, width: Number(e.target.value)})} />
-                                                        </div>
-                                                        <div>
-                                                            <Label>Hauteur</Label>
-                                                            <Input type="number" value={editForm.height} onChange={e => setEditForm({...editForm, height: Number(e.target.value)})} />
-                                                        </div>
-                                                    </div>
-                                                    <div className="grid gap-2">
-                                                        <Label>Description</Label>
-                                                        <Textarea value={editForm.description} onChange={e => setEditForm({...editForm, description: e.target.value})} />
-                                                    </div>
-                                                    <div className="flex justify-end gap-2">
-                                                        <Button variant="ghost" size="sm" onClick={() => setEditingId(null)}>Annuler</Button>
-                                                        <Button size="sm" onClick={() => saveEditing(game.name, v.name)}>
-                                                            <Save className="w-4 h-4 mr-2" /> Enregistrer
-                                                        </Button>
-                                                    </div>
-                                                </div>
-                                            )}
-                                        </div>
-                                    );
-                                })}
-                            </div>
-                        </div>
-                    ))}
-                </CardContent>
-            </Card>
-          )}
-
-          {mode === "new-game" && (
-            <Card>
-                <CardHeader>
-                    <CardTitle>Créer / Importer un Jeu</CardTitle>
-                </CardHeader>
-                <CardContent className="space-y-4">
-                    <div className="space-y-2">
-                        <Label>Dossier existant ?</Label>
-                        <Select onValueChange={(val) => setNewGameName(val)}>
-                            <SelectTrigger><SelectValue placeholder="Sélectionner..." /></SelectTrigger>
-                            <SelectContent>
-                                {games.map(g => (
-                                    <SelectItem key={g.name} value={g.name}>{g.isImported ? "✅" : "🆕"} {g.name}</SelectItem>
-                                ))}
-                            </SelectContent>
-                        </Select>
+          <Card>
+            <CardHeader>
+              <CardTitle>Releases Installées</CardTitle>
+              <CardDescription>Liste des jeux configurés dans la base de données.</CardDescription>
+            </CardHeader>
+            <CardContent className="space-y-4">
+              {releases.length === 0 && <p className="text-slate-400 italic">Aucune release trouvée.</p>}
+              {releases.map(release => {
+                const isEditing = editingId === release.id;
+                return (
+                  <div key={release.id} className="flex flex-col gap-2 bg-slate-50 p-3 rounded-lg border">
+                    <div className="flex items-center justify-between">
+                      <div>
+                        <h3 className="font-bold">{release.name} <span className="font-mono text-sm text-blue-600 bg-blue-100 px-2 py-0.5 rounded-full">{release.version}</span></h3>
+                        <p className="text-xs text-slate-500">{release.id}</p>
+                      </div>
+                      <div className="flex gap-2">
+                        <Button variant="outline" size="sm" onClick={() => setActiveRelease(release)}>Fichiers</Button>
+                        {!isEditing && <Button variant="ghost" size="sm" onClick={() => startEditing(release)}><Edit className="w-4 h-4" /></Button>}
+                        <Button variant="ghost" size="sm" className="text-red-500 hover:text-red-700 hover:bg-red-50" onClick={() => handleDeleteRelease(release.id)}><Trash2 className="w-4 h-4" /></Button>
+                      </div>
                     </div>
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                        <div className="space-y-2">
-                            <Label>Nom (Identifiant dossier)</Label>
-                            <Input placeholder="ex: snake" value={newGameName} onChange={(e) => setNewGameName(e.target.value)} />
-                        </div>
+                    {isEditing && (
+                      <div className="mt-2 p-3 bg-white border rounded-md space-y-3 animate-accordion-down">
+                        <div className="grid gap-2"><Label>Titre</Label><Input value={editForm.name} onChange={e => setEditForm({...editForm, name: e.target.value})} /></div>
                         <div className="grid grid-cols-2 gap-2">
-                             <div className="space-y-2">
-                                <Label>Largeur</Label>
-                                <Input type="number" value={gameWidth} onChange={(e) => setGameWidth(Number(e.target.value))} />
-                            </div>
-                            <div className="space-y-2">
-                                <Label>Hauteur</Label>
-                                <Input type="number" value={gameHeight} onChange={(e) => setGameHeight(Number(e.target.value))} />
-                            </div>
+                          <div><Label>Largeur</Label><Input type="number" value={editForm.width} onChange={e => setEditForm({...editForm, width: Number(e.target.value)})} /></div>
+                          <div><Label>Hauteur</Label><Input type="number" value={editForm.height} onChange={e => setEditForm({...editForm, height: Number(e.target.value)})} /></div>
                         </div>
-                    </div>
-                    
-                    <Button onClick={handleCreateGame} variant={isGameUpdate ? "secondary" : "default"} className="w-full">
-                        {isGameUpdate ? "Mettre à jour v1" : "Créer le jeu"}
-                    </Button>
-                </CardContent>
-            </Card>
-          )}
-
-          {mode === "new-version" && (
-            <Card>
-                <CardHeader>
-                    <CardTitle>Ajouter une Version</CardTitle>
-                </CardHeader>
-                <CardContent className="space-y-4">
-                    <div className="space-y-2">
-                        <Label>Jeu</Label>
-                        <Select onValueChange={setSelectedGame}>
-                            <SelectTrigger><SelectValue placeholder="Choisir..." /></SelectTrigger>
-                            <SelectContent>
-                                {games.map(g => <SelectItem key={g.name} value={g.name}>{g.name}</SelectItem>)}
-                            </SelectContent>
-                        </Select>
-                    </div>
-                    {selectedGame && (
-                        <>
-                            <div className="space-y-2">
-                                <Label>Version existante ?</Label>
-                                <Select onValueChange={(val) => setNewVersionName(val)}>
-                                    <SelectTrigger><SelectValue placeholder="Sélectionner..." /></SelectTrigger>
-                                    <SelectContent>
-                                        {getSelectedGameVersions().map(v => <SelectItem key={v.name} value={v.name}>{v.name}</SelectItem>)}
-                                    </SelectContent>
-                                </Select>
-                            </div>
-                            <div className="flex gap-2">
-                                <Input placeholder="Nouvelle version (ex: v2)" value={newVersionName} onChange={(e) => setNewVersionName(e.target.value)} />
-                                <Button onClick={handleCreateVersion} variant={isVersionUpdate ? "secondary" : "default"}>
-                                    {isVersionUpdate ? "MàJ" : "Créer"}
-                                </Button>
-                            </div>
-                        </>
+                        <div className="grid gap-2"><Label>Description</Label><Textarea value={editForm.description} onChange={e => setEditForm({...editForm, description: e.target.value})} /></div>
+                        <div className="flex justify-end gap-2">
+                          <Button variant="ghost" size="sm" onClick={() => setEditingId(null)}>Annuler</Button>
+                          <Button size="sm" onClick={() => saveEditing(release.id)}><Save className="w-4 h-4 mr-2" /> Enregistrer</Button>
+                        </div>
+                      </div>
                     )}
-                </CardContent>
-            </Card>
-          )}
+                  </div>
+                );
+              })}
+            </CardContent>
+          </Card>
         </div>
 
-        {/* COLONNE DROITE : GESTION FICHIERS (CONTEXTUELLE) */}
         <div>
-            {activePath ? (
-                <Card className="border-primary border-2 sticky top-4">
-                    <CardHeader>
-                        <CardTitle className="text-lg">
-                            Fichiers : <span className="text-primary">{activePath.name}/{activePath.version}</span>
-                        </CardTitle>
-                    </CardHeader>
-                    <CardContent className="space-y-6">
-                        <div className="bg-slate-100 rounded-md p-3 border text-xs max-h-60 overflow-y-auto">
-                            {folderFiles.length === 0 ? <p className="text-slate-400 italic">Vide</p> : (
-                                <ul className="space-y-1">
-                                    {folderFiles.map((file) => (
-                                        <li key={file} className="flex items-center gap-2 text-slate-700">
-                                            {getFileIcon(file)} {file}
-                                            {file === 'thumbnail.png' && <span className="text-[10px] bg-blue-100 text-blue-700 px-1 rounded">Cover</span>}
-                                        </li>
-                                    ))}
-                                </ul>
-                            )}
-                        </div>
-
-                        <div className="space-y-4">
-                            <div className="space-y-1">
-                                <Label className="text-xs">Fichier Jeu (.js)</Label>
-                                <Input type="file" onChange={handleFileUpload} disabled={uploading} className="h-8 text-xs" />
-                            </div>
-                            <div className="space-y-1">
-                                <Label className="text-xs text-blue-600">Image Couverture</Label>
-                                <Input type="file" accept="image/*" onChange={handleThumbnailUpload} disabled={uploading} className="h-8 text-xs file:text-blue-600" />
-                            </div>
-                        </div>
-                        
-                        {uploading && <p className="text-xs text-yellow-500 animate-pulse">Upload...</p>}
-
-                        <Button onClick={handleGenerateIndex} className="w-full" size="sm">
-                            🚀 Générer index.html
-                        </Button>
-                    </CardContent>
-                </Card>
-            ) : (
-                <div className="h-full flex items-center justify-center p-8 border-2 border-dashed rounded-lg text-slate-300">
-                    <p className="text-center">Sélectionnez un jeu<br/>pour gérer ses fichiers</p>
+          {activeRelease ? (
+            <Card className="border-primary border-2 sticky top-4">
+              <CardHeader>
+                <CardTitle className="text-lg">Fichiers : <span className="text-primary">{activeRelease.id}</span></CardTitle>
+              </CardHeader>
+              <CardContent className="space-y-4">
+                <div className="bg-slate-100 rounded-md p-3 border text-xs max-h-60 overflow-y-auto">
+                  {releaseFiles.length === 0 ? <p className="text-slate-400 italic">Vide</p> : (
+                    <ul className="space-y-1">
+                      {releaseFiles.map((file) => (
+                        <li key={file} className="flex items-center gap-2 text-slate-700">
+                          {getFileIcon(file)} {file}
+                          {file === activeRelease.thumbnail && <span className="text-[10px] bg-blue-100 text-blue-700 px-1 rounded">Cover</span>}
+                        </li>
+                      ))}
+                    </ul>
+                  )}
                 </div>
-            )}
+                <div className="space-y-2">
+                  <Label className="text-sm flex items-center gap-2"><Upload className="w-4 h-4" /> Uploader Fichiers</Label>
+                  <Input type="file" multiple onChange={handleFileUpload} disabled={uploading} className="h-10 text-xs" />
+                  <p className="text-xs text-slate-400">Un fichier nommé `thumbnail.png` sera défini comme image de couverture.</p>
+                </div>
+                {uploading && <p className="text-xs text-yellow-500 animate-pulse">Upload...</p>}
+                <Button onClick={handleRegenerateIndex} className="w-full" size="sm" variant="secondary">
+                  <RefreshCw className="w-4 h-4 mr-2" /> Régénérer index.html
+                </Button>
+              </CardContent>
+            </Card>
+          ) : (
+            <div className="h-full flex items-center justify-center p-8 border-2 border-dashed rounded-lg text-slate-300">
+              <p className="text-center">Sélectionnez une release<br/>pour gérer ses fichiers</p>
+            </div>
+          )}
         </div>
       </div>
     </div>

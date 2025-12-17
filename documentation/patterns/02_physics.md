@@ -1,73 +1,105 @@
 # 🚀 Patterns : Physique & Mouvement
 
-La plupart des jeux interactifs (Asteroids, Forest) nécessitent une simulation physique, même basique.
-
 ## 1. La Puissance des Vecteurs (`p5.Vector`)
 
-Au lieu de gérer `x`, `y`, `speedX`, `speedY` séparément, utilisez `p5.Vector`. C'est le standard utilisé dans **Asteroids**.
+### Remplacement de p5.Vector manuel
+Ancien paradigme p5.js pur : gestion manuelle des positions, vitesses avec `createVector()`.
 
-### Le Trio Sacré :
-1.  **Position (`pos`)** : Où je suis.
-2.  **Vitesse (`vel`)** : De combien je bouge à chaque frame.
-3.  **Accélération (`acc`)** : La force du moteur / gravité.
+Nouveau paradigme p5play : propriétés intégrées `sprite.pos`, `sprite.vel`, `sprite.acc` mises à jour automatiquement.
 
 ```javascript
-/* Dans votre classe (ex: Ship.js) */
-constructor() {
-    this.pos = createVector(width/2, height/2);
-    this.vel = createVector(0, 0);
-    this.acc = createVector(0, 0);
+// ❌ AVANT (p5.js manuel - Snake)
+class Snake {
+    constructor(x, y) {
+        this.pos = createVector(x, y);
+        this.vel = createVector(scl, 0);
+    }
+    update() {
+        this.pos.add(this.vel);
+    }
 }
 
-applyForce(force) {
-    this.acc.add(force); // F = ma (si m=1)
-}
-
-update() {
-    this.vel.add(this.acc); // La vitesse change selon l'accélération
-    this.pos.add(this.vel); // La position change selon la vitesse
-    this.acc.mult(0);       // On remet l'accélération à 0 pour la prochaine frame
-}
+// ✅ APRÈS (p5play v3)
+let snake = new Sprite(width/2, height/2, scl);
+snake.vel = { x: scl, y: 0 };  // TOUT AUTO
+// pos += vel chaque frame automatiquement
 ```
 
-## 2. Le Mouvement de Caméra ("Scrolling")
+### Propriétés physiques principales (p5play v3)
+| Propriété | Type | Description | Exemple Snake |
+|---|---|---|---|
+| `sprite.x`, `sprite.y` | `number` | Position | `snake.x = width/2` |
+| `sprite.vx`, `sprite.vy` | `number` | Vitesse | `snake.vx = scl` |
+| `sprite.ax`, `sprite.ay` | `number` | Accélération | `snake.ay = 0.1` |
+| `sprite.friction` | `number` | Résistance (0-1) | `snake.friction = 0.9` |
 
-Pour un jeu plus grand que l'écran (comme **Forest**), on ne bouge pas la "caméra" (qui n'existe pas en 2D), on bouge **tout le monde** dans le sens inverse du joueur.
-
-### Technique : `translate()`
-Utilisez `push()` et `pop()` pour isoler ce mouvement du HUD (score, vies).
-
+### Gestion des bords d'écran intégrée
 ```javascript
-/* Dans draw() */
+// ❌ AVANT (6 lignes if/else)
+if(pos.x < 0) pos.x = width;
+// ...
 
-// 1. Calcul du décalage (Le joueur doit rester au centre)
-let camX = -player.x + width / 2;
-let camY = -player.y + height / 2;
+// ✅ APRÈS (1 ligne)
+snake.wrap();    // Wrap autour écran (Asteroids)
+snake.bounce();  // Rebond
+// snake.removeOnCollide();  // Mort aux bords
+```
 
-push(); 
-    // Appliquer le décalage à tout ce qui est dessiné ensuite
-    translate(camX, camY); 
+### Flux physique automatique p5play
+```javascript
+function setup() {
+    createCanvas(windowWidth, windowHeight);
+    snake = new Sprite(width/2, height/2, scl);
+    snake.color = color(255);
     
-    // Dessiner le monde
-    ground.show();
-    enemies.forEach(e => e.show());
-    player.show(); 
-pop();
+    // Config World une seule fois
+    allSprites.friction = 0.9;  // Friction globale
+}
 
-// 2. Dessiner le HUD (Sans translate, donc fixe à l'écran)
-fill(255);
-text("Score: " + score, 20, 20);
-```
-
-## 3. L'Espace Infini ("Wrap Around")
-
-Utilisé dans **Asteroids**. Si on sort à droite, on rentre à gauche.
-
-```javascript
-function wrapEdges(obj) {
-    if (obj.pos.x > width)  obj.pos.x = 0;
-    if (obj.pos.x < 0)      obj.pos.x = width;
-    if (obj.pos.y > height) obj.pos.y = 0;
-    if (obj.pos.y < 0)      obj.pos.y = height;
+function draw() {
+    background(20);
+    
+    // PHYSIQUE 100% AUTOMATIQUE
+    // 1. pos += vel
+    // 2. Friction appliquée
+    // 3. Wrap/bounce
+    // 4. Collisions vérifiées
+    
+    // Rendu auto
 }
 ```
+
+### Contrôle directionnel Snake
+```javascript
+function keyPressed() {
+    if(keyCode === LEFT_ARROW)  snake.vx = -scl;
+    if(keyCode === RIGHT_ARROW) snake.vx = scl;
+    if(keyCode === UP_ARROW)    snake.vy = -scl;
+    if(keyCode === DOWN_ARROW)  snake.vy = scl;
+}
+```
+
+### Bonnes pratiques p5play v3 vérifiées
+**Configuration globale :**
+```javascript
+allSprites.friction = 0.9;     // Friction tous sprites
+allSprites.bounce = 0;         // Pas de rebond (Snake)
+allSprites.tileSize = scl;     // Grille uniforme
+```
+
+**Limitation vitesse :**
+```javascript
+snake.maxSpeed = scl;  // Plus propre que vx.limit()
+```
+
+**Debug physique :**
+```javascript
+snake.debug = true;  // Vecteurs vitesse visibles
+allSprites.debug = true;
+```
+
+### Intégration GameSystem (inchangée)
+```javascript
+snake.collides = function() {
+    window.GameSystem.Score.submit(this.life * 100);
+};

@@ -1,6 +1,7 @@
 let player;
 let platforms;
 let floor;
+let maxHeightScore = 0; // Score basé sur la hauteur maximale atteinte
 
 function setup() {
     createCanvas(800, 600);
@@ -12,7 +13,7 @@ function setup() {
     player.collider = 'dynamic';
     player.rotationLock = true; 
     player.bounciness = 0;
-    player.friction = 0; // Gestion manuelle inertie
+    player.friction = 0;
 
     platforms = new Group();
     platforms.collider = 'static';
@@ -27,6 +28,9 @@ function setup() {
         let y = 500 - (i * 55 + 50);
         new platforms.Sprite(x, y, w, 20);
     }
+    
+    // Initialiser le score max à la position de départ
+    maxHeightScore = height - player.y;
 }
 
 function draw() {
@@ -34,24 +38,28 @@ function draw() {
     
     let isGrounded = player.colliding(platforms);
 
+    // --- MISE À JOUR DU SCORE ---
+    // Plus la position Y est petite (plus on est haut), plus le score est grand.
+    // On inverse la valeur Y (height - player.y) pour que le score augmente en montant.
+    let currentScore = floor(height - player.y);
+    if (currentScore > maxHeightScore) {
+        maxHeightScore = currentScore;
+    }
+    
     // --- INPUTS ---
     let targetSpeed = 0;
     
-    // Vitesse réduite à 4 (80% de 5)
     if (kb.pressing('left')) targetSpeed = -4;
     if (kb.pressing('right')) targetSpeed = 4;
 
     // --- PHYSIQUE DE DÉPLACEMENT ---
     if (isGrounded) {
-        // AU SOL : Réactif (0.2)
         player.vel.x = lerp(player.vel.x, targetSpeed, 0.2);
         
-        // SAUT
         if (kb.presses('space') || kb.presses('up')) {
             player.vel.y = -12;
         }
     } else {
-        // EN L'AIR : Moins réactif (0.05)
         player.vel.x = lerp(player.vel.x, targetSpeed, 0.05);
     }
     
@@ -61,6 +69,12 @@ function draw() {
     }
     
     allSprites.draw();
+    
+    // --- AFFICHAGE DU SCORE ---
+    fill(255);
+    textSize(24);
+    textAlign(LEFT, TOP);
+    text("Hauteur Max: " + maxHeightScore, 20, 20);
 }
 
 function resetPlayer() {

@@ -152,6 +152,72 @@ export async function listGameFiles(gameName: string, versionName: string): Prom
   }
 }
 
+
+// --- CRÉATION DE JEU STANDARD ---
+async function createStandardGameFiles(gameName: string, version: string, config: any) {
+  const safeName = gameName.replace(/[^a-z0-9-]/g, '-');
+  const safeVersion = version.replace(/[^a-z0-9-]/g, '-');
+  const dirPath = path.join(GAMES_DIR, safeName, safeVersion);
+  const filePath = path.join(dirPath, 'index.html');
+
+  // Si le fichier existe déjà, ON NE TOUCHE À RIEN.
+  // La philosophie : "Le Jeu s'adapte au Système".
+  // Si le fichier n'existe pas, on crée le squelette standard.
+  try {
+    await fs.access(filePath);
+    return { success: true, message: "Index existant conservé" };
+  } catch {
+    // Fichier inexistant, on crée le template standard
+  }
+
+  const htmlContent = `
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>${gameName}</title>
+    <style>
+        body { margin: 0; overflow: hidden; background: ${config.bgColor || '#000'}; }
+        canvas { display: block; margin: 0 auto; }
+    </style>
+    <!-- Bibliothèques par défaut (p5.js) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/addons/p5.sound.min.js"></script>
+</head>
+<body>
+    <!-- 1. CONFIGURATION STANDARD -->
+    <script>
+        window.DyadGame = { 
+            id: '${safeName.toLowerCase()}-${safeVersion.toLowerCase()}',
+            version: '${version}'
+        };
+    </script>
+
+    <!-- 2. SYSTEME CENTRALISÉ -->
+    <script src="../../system/system.js"></script>
+
+    <!-- 3. JEU (Squelette) -->
+    <script>
+        function setup() {
+            createCanvas(windowWidth, windowHeight);
+            background(0);
+            fill(255);
+            textAlign(CENTER, CENTER);
+            textSize(24);
+            text("Nouveau Jeu : ${gameName}", width/2, height/2);
+            text("Modifiez main.js pour commencer", width/2, height/2 + 40);
+        }
+        function draw() { }
+        function windowResized() { resizeCanvas(windowWidth, windowHeight); }
+    </script>
+</body>
+</html>`;
+
+  await fs.writeFile(filePath, htmlContent);
+  return { success: true, message: "Squelette standard créé" };
+}
+
 // --- CRÉATION / MISE À JOUR JEU ---
 export async function createGameFolder(gameName: string, width = 800, height = 600) {
   const safeName = gameName.toLowerCase().replace(/[^a-z0-9-]/g, '-');
@@ -187,7 +253,8 @@ export async function createGameFolder(gameName: string, width = 800, height = 6
     }));
   }
 
-  await generateIndexHtml(safeName, 'v1', { bgColor: '#000000' });
+  await createStandardGameFiles(safeName, 'v1', { bgColor: '#000000' });
+
   return {
     success: true,
     gameName: safeName,
@@ -238,7 +305,8 @@ export async function createGameVersion(gameName: string, versionName: string) {
       }));
     }
 
-    await generateIndexHtml(gameName, safeVersion, { bgColor: '#000000' });
+    await createStandardGameFiles(gameName, safeVersion, { bgColor: '#000000' });
+
     return {
       success: true,
       gameName,
@@ -269,138 +337,10 @@ export async function uploadGameFile(gameName: string, version: string, formData
 
   await fs.writeFile(filePath, buffer);
 
-  // Si c'est un index.html, on lance la régénération (qui fera une injection intelligente)
-  if (file.name.toLowerCase() === 'index.html') {
-    await generateIndexHtml(gameName, version, { bgColor: '#000000' });
-  }
+  // AUCUNE INJECTION MAGIQUE. 
+  // On laisse le fichier tel quel. C'est au développeur de suivre le guide.
 
   return { success: true, fileName: file.name };
-}
-
-export async function uploadGameThumbnail(gameName: string, version: string, formData: FormData) {
-  const file = formData.get('file') as File;
-  if (!file) return { success: false, error: "Pas de fichier fourni" };
-
-  const bytes = await file.arrayBuffer();
-  const buffer = Buffer.from(bytes);
-
-  const safeName = gameName.replace(/[^a-z0-9-]/g, '-');
-  const safeVersion = version.replace(/[^a-z0-9-]/g, '-');
-
-  const fileName = 'thumbnail.png';
-  const filePath = path.join(GAMES_DIR, safeName, safeVersion, fileName);
-
-  await fs.writeFile(filePath, buffer);
-
-  // Correction ici : ajout de toLowerCase()
-  const gameId = `${safeName.toLowerCase()}-${safeVersion.toLowerCase()}`;
-  const db = await getDb();
-  await db.update(({ games }) => {
-    const game = games.find(g => g.id === gameId);
-    if (game) {
-      game.thumbnail = fileName;
-    }
-  });
-
-  return { success: true, fileName };
-}
-
-export async function generateIndexHtml(gameName: string, version: string, config: any) {
-  const safeName = gameName.replace(/[^a-z0-9-]/g, '-');
-  const safeVersion = version.replace(/[^a-z0-9-]/g, '-');
-  const gameId = `${safeName.toLowerCase()}-${safeVersion.toLowerCase()}`;
-  const dirPath = path.join(GAMES_DIR, safeName, safeVersion);
-  const filePath = path.join(dirPath, 'index.html');
-
-  // Script d'API à injecter
-  const apiScript = `
-    <script>
-        window.gameConfig = { gameId: '${gameId}', ...${JSON.stringify(config)} };
-        window.GameAPI = {
-          saveScore: async (score, playerName = 'Joueur') => {
-            try {
-              await fetch('/api/scores', {
-                method: 'POST',
-                headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify({
-                  gameId: window.gameConfig.gameId,
-                  playerName,
-                  score
-                })
-              });
-              return true;
-            } catch (e) { console.error("Erreur Lowdb save", e); return false; }
-          },
-          getHighScores: async () => {
-             try {
-              const res = await fetch('/api/scores?gameId=' + window.gameConfig.gameId);
-              const data = await res.json();
-              return Array.isArray(data) ? data : [];
-             } catch (e) { return []; }
-          }
-        };
-    </script>`;
-
-  try {
-    // 1. Essayer de lire un index existant pour faire de l'injection
-    const existingHtml = await fs.readFile(filePath, 'utf-8');
-
-    // Si l'API n'est pas déjà présente, on l'injecte
-    if (!existingHtml.includes('window.GameAPI =')) {
-      let finalHtml = existingHtml;
-      if (finalHtml.includes('<body')) {
-        // Injection safe : après l'ouverture du body
-        finalHtml = finalHtml.replace(/<body[^>]*>/i, (match) => match + '\n' + apiScript);
-      } else {
-        // Fallback : au début
-        finalHtml = apiScript + '\n' + finalHtml;
-      }
-      await fs.writeFile(filePath, finalHtml);
-    }
-  } catch (error) {
-    // 2. Si pas de fichier existant, on génère le squelette par défaut (Comportement original)
-    let scriptTags = '';
-    try {
-      const files = await readdir(dirPath);
-      const jsFiles = files.filter(f => f.endsWith('.js'));
-      jsFiles.sort((a, b) => {
-        if (a === 'data.js') return -1;
-        if (b === 'data.js') return 1;
-        if (a === 'hud.js') return -1;
-        if (b === 'hud.js') return 1;
-        if (a === 'sketch.js') return 1;
-        if (b === 'sketch.js') return -1;
-        return a.localeCompare(b);
-      });
-      scriptTags = jsFiles.map(f => `<script src="${f}"></script>`).join('\n    ');
-    } catch (e) {
-      scriptTags = `<script src="sketch.js"></script>`;
-    }
-
-    const htmlContent = `
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>${gameName}</title>
-    <style>
-        body { margin: 0; overflow: hidden; background: ${config.bgColor || '#000'}; }
-        canvas { display: block; margin: 0 auto; }
-    </style>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/p5.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/addons/p5.sound.min.js"></script>
-</head>
-<body>
-    ${apiScript}
-    ${scriptTags}
-</body>
-</html>`;
-
-    await fs.writeFile(filePath, htmlContent);
-  }
-
-  return { success: true };
 }
 
 export async function deleteGame(gameFolderName: string) {
@@ -426,24 +366,33 @@ export async function deleteGame(gameFolderName: string) {
 }
 
 export async function deleteVersion(gameFolderName: string, versionName: string) {
-  const safeName = gameFolderName.replace(/[^a-z0-9-]/g, '-');
-  const safeVersion = versionName.replace(/[^a-z0-9-]/g, '-');
-  const versionPath = path.join(GAMES_DIR, safeName, safeVersion);
-  // Correction ici : ajout de toLowerCase()
-  const gameId = `${safeName.toLowerCase()}-${safeVersion.toLowerCase()}`;
+  // 1. File System Deletion
+  // Utiliser les noms bruts pour le chemin afin de respecter la casse du système de fichiers
+  const versionPath = path.join(GAMES_DIR, gameFolderName, versionName);
+  
+  // 2. Calcul de l'ID DB (doit être en minuscules/safe pour correspondre aux entrées DB)
+  const safeGameName = gameFolderName.toLowerCase().replace(/[^a-z0-9-]/g, '-');
+  const safeVersionName = versionName.toLowerCase().replace(/[^a-z0-9-]/g, '-');
+  const gameId = `${safeGameName}-${safeVersionName}`;
 
+  // Supprimer les fichiers
   try {
     await fs.rm(versionPath, { recursive: true, force: true });
-  } catch (e) { }
+    console.log(`[GameManager] Successfully deleted directory: ${versionPath}`);
+  } catch (e) { 
+    console.error(`[GameManager] Failed to delete directory ${versionPath}. Continuing with DB cleanup.`, e);
+  }
 
+  // 3. Supprimer l'entrée DB
   const db = await getDb();
+  
   await db.update(({ games, scores }) => {
     return {
       games: games.filter(g => g.id !== gameId),
       scores: scores.filter(s => s.gameId !== gameId)
     };
   });
-
+  
   return { success: true };
 }
 
@@ -476,4 +425,46 @@ export async function updateGameMetadata(gameFolderName: string, version: string
   } catch (e) { }
 
   return { success: true };
+}
+
+export async function uploadGameThumbnail(gameName: string, version: string, formData: FormData) {
+  const file = formData.get('file') as File;
+  if (!file) return { success: false, error: "Pas de fichier fourni" };
+
+  const bytes = await file.arrayBuffer();
+  const buffer = Buffer.from(bytes);
+
+  const safeName = gameName.replace(/[^a-z0-9-]/g, '-');
+  const safeVersion = version.replace(/[^a-z0-9-]/g, '-');
+  const filePath = path.join(GAMES_DIR, safeName, safeVersion, 'thumbnail.png');
+
+  await fs.writeFile(filePath, buffer);
+
+  // Update DB metadata
+  /*
+  const db = await getDb();
+  await db.update(({ games }) => {
+      const gameId = `${safeName.toLowerCase()}-${safeVersion.toLowerCase()}`;
+      const game = games.find(g => g.id === gameId);
+      if(game) game.thumbnail = 'thumbnail.png';
+  });
+  */
+
+  return { success: true, fileName: 'thumbnail.png' };
+}
+
+export async function generateIndexHtml(gameName: string, version: string, config: any) {
+  // Cette fonction force la recréation de l'index.html standard
+  // Utile si l'utilisateur a tout cassé ou veut mettre à jour vers le dernier standard système
+  const safeName = gameName.replace(/[^a-z0-9-]/g, '-');
+
+  // On supprime l'ancien index pour forcer la création
+  try {
+    const indexParams = { gameName, version, config }; // Dummy usage
+    const dirPath = path.join(GAMES_DIR, safeName, version);
+    await fs.unlink(path.join(dirPath, 'index.html'));
+  } catch (e) { }
+
+  // On rappelle la fonction interne qui contient le template
+  return await createStandardGameFiles(gameName, version, config);
 }

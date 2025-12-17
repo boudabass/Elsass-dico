@@ -2,8 +2,9 @@
 
 import { createContext, useContext, useEffect, useState } from "react";
 import { User, Session } from "@supabase/supabase-js";
-import { createClient } from "@/lib/supabase";
+import { createClient } from "@/utils/supabase/client";
 import { useRouter } from "next/navigation";
+import { signOutAction } from "@/app/actions/auth";
 
 interface AuthContextType {
   user: User | null;
@@ -16,7 +17,7 @@ const AuthContext = createContext<AuthContextType>({
   user: null,
   session: null,
   isLoading: true,
-  signOut: async () => {},
+  signOut: async () => { },
 });
 
 export const useAuth = () => useContext(AuthContext);
@@ -35,7 +36,7 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
       setSession(session);
       setUser(session?.user ?? null);
       setIsLoading(false);
-      
+
       if (event === 'SIGNED_OUT') {
         router.refresh();
       }
@@ -47,8 +48,8 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
   }, [supabase, router]);
 
   const signOut = async () => {
-    await supabase.auth.signOut();
-    router.push("/login");
+    // Calls the Server Action to clear HttpOnly cookies and redirect
+    await signOutAction();
   };
 
   return (

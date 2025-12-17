@@ -1,88 +1,101 @@
-import { getPublicGames } from "@/app/actions/get-public-games";
-import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
+"use client";
+
+import { useEffect, useState } from "react";
+import { useAuth } from "@/components/auth-provider";
 import { Button } from "@/components/ui/button";
-import { Trophy, Play } from "lucide-react";
+import { Trophy, Star, Gamepad2, Rocket, ArrowRight, LayoutDashboard } from "lucide-react";
 import Link from "next/link";
-import { MadeWithDyad } from "@/components/made-with-dyad";
 
-export const dynamic = 'force-dynamic';
-
-export default async function Home() {
-  const games = await getPublicGames();
+export default function LandingPage() {
+  const { user, isLoading } = useAuth();
+  const [mounted, setMounted] = useState(false);
+  useEffect(() => setMounted(true), []);
 
   return (
-    <div className="min-h-screen bg-slate-50 flex flex-col">
-      <header className="bg-white shadow-sm py-8 px-4 text-center">
-        <h1 className="text-4xl md:text-5xl font-extrabold text-slate-900 tracking-tight">
-          Espace Jeux
-        </h1>
-        <p className="text-slate-500 mt-2 text-xl">Choisissez un jeu pour commencer</p>
+    <div className="min-h-screen bg-slate-950 text-white selection:bg-indigo-500/30">
+      {/* Header / Nav Rapide */}
+      <header className="fixed top-0 w-full z-50 bg-slate-950/80 backdrop-blur-md border-b border-white/10">
+        <div className="container mx-auto px-6 h-16 flex items-center justify-between">
+          <div className="font-black text-2xl tracking-tighter bg-gradient-to-r from-indigo-400 to-cyan-400 bg-clip-text text-transparent">
+            ARCADE.OS
+          </div>
+          <div>
+            {!isLoading && user ? (
+              <Link href="/dashboard">
+                <Button variant="default" className="bg-indigo-600 hover:bg-indigo-700 text-white transition-all shadow-lg shadow-indigo-500/20">
+                  <LayoutDashboard className="w-4 h-4 mr-2" /> Accéder au Dashboard
+                </Button>
+              </Link>
+            ) : (
+              <Link href="/login">
+                <Button variant="outline" className="border-indigo-500 text-indigo-400 hover:bg-indigo-500 hover:text-white transition-all">
+                  Connexion
+                </Button>
+              </Link>
+            )}
+          </div>
+        </div>
       </header>
 
-      <main className="flex-1 container mx-auto p-6 md:p-12">
-        {games.length === 0 ? (
-          <div className="text-center py-20">
-            <p className="text-2xl text-slate-400">Aucun jeu disponible pour le moment.</p>
+      {/* Hero Section */}
+      <section className="relative pt-32 pb-20 px-6 overflow-hidden min-h-[80vh] flex flex-col justify-center">
+        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-indigo-900/20 via-slate-950 to-slate-950 z-0"></div>
+        <div className={`container mx-auto relative z-10 text-center space-y-8 transition-all duration-1000 ${mounted ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
+          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-indigo-500/10 border border-indigo-500/20 text-indigo-300 text-sm font-medium mb-4">
+            <Rocket className="w-4 h-4" /> Nouvelle Version Disponible
           </div>
-        ) : (
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {games.map((game) => (
-              <Card key={game.id} className="overflow-hidden border-2 hover:border-primary/50 transition-colors shadow-lg flex flex-col h-full">
-                {/* Zone Image / Thumbnail */}
-                <div className="h-48 bg-slate-200 flex items-center justify-center relative">
-                  {game.thumbnail && game.path ? (
-                    <img 
-                      src={`/games/${game.path}/${game.thumbnail}`} 
-                      alt={game.name}
-                      className="w-full h-full object-cover"
-                    />
-                  ) : (
-                    <span className="text-6xl font-bold text-slate-300 select-none">
-                      {game.name.substring(0, 2).toUpperCase()}
-                    </span>
-                  )}
-                </div>
-
-                <CardHeader className="pb-2">
-                  <CardTitle className="text-3xl font-bold text-slate-800">
-                    {game.name}
-                  </CardTitle>
-                  <p className="text-lg text-slate-500 line-clamp-2">
-                    {game.description}
-                  </p>
-                </CardHeader>
-
-                <CardContent className="flex-1">
-                  {game.bestScore && (
-                    <div className="bg-amber-50 border border-amber-200 rounded-lg p-4 flex items-center gap-3">
-                      <div className="bg-amber-100 p-2 rounded-full">
-                        <Trophy className="w-6 h-6 text-amber-600" />
-                      </div>
-                      <div>
-                        <p className="text-sm font-semibold text-amber-800 uppercase tracking-wide">Record à battre</p>
-                        <p className="text-xl font-bold text-amber-900">
-                          {game.bestScore.value} <span className="text-sm font-normal text-amber-700">par {game.bestScore.playerName}</span>
-                        </p>
-                      </div>
-                    </div>
-                  )}
-                </CardContent>
-
-                <CardFooter className="pt-2 pb-6 px-6">
-                  <Button asChild size="lg" className="w-full text-xl py-8 font-bold shadow-md hover:scale-[1.02] transition-transform">
-                    <Link href={`/play/${game.id}`}>
-                      <Play className="mr-2 h-6 w-6 fill-current" />
-                      JOUER
-                    </Link>
-                  </Button>
-                </CardFooter>
-              </Card>
-            ))}
+          <h1 className="text-5xl md:text-7xl font-black tracking-tight leading-tight max-w-5xl mx-auto">
+            Retrouvez le frisson du <br />
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 via-cyan-400 to-teal-400">Gaming Rétro</span>
+          </h1>
+          <p className="text-lg md:text-xl text-slate-400 max-w-2xl mx-auto leading-relaxed">
+            Une collection curée de jeux classiques et indépendants.
+            Sauvegardez vos scores, défiez la communauté et redécouvrez le plaisir simple du jeu d'arcade.
+          </p>
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-8">
+            {user ? (
+              <Link href="/dashboard">
+                <Button size="lg" className="h-14 px-8 text-lg font-bold bg-indigo-600 hover:bg-indigo-500 shadow-[0_0_20px_rgba(79,70,229,0.5)] transition-all transform hover:scale-105">
+                  Lancer l'Arcade <ArrowRight className="ml-2 w-5 h-5" />
+                </Button>
+              </Link>
+            ) : (
+              <Link href="/login">
+                <Button size="lg" className="h-14 px-8 text-lg font-bold bg-indigo-600 hover:bg-indigo-500 shadow-[0_0_20px_rgba(79,70,229,0.5)] transition-all transform hover:scale-105">
+                  Commencer maintenant <ArrowRight className="ml-2 w-5 h-5" />
+                </Button>
+              </Link>
+            )}
           </div>
-        )}
-      </main>
-      
-      <MadeWithDyad />
+        </div>
+      </section>
+
+      {/* Features Grid */}
+      <section className="py-20 bg-slate-900/30 border-t border-white/5">
+        <div className="container mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="p-8 rounded-2xl bg-slate-950 border border-white/5 hover:border-indigo-500/30 transition-colors">
+            <div className="w-14 h-14 bg-indigo-500/10 rounded-2xl flex items-center justify-center mb-6 text-indigo-400">
+              <Gamepad2 className="w-8 h-8" />
+            </div>
+            <h3 className="text-2xl font-bold mb-3">Jeux Instantanés</h3>
+            <p className="text-slate-400 leading-relaxed">Pas d'installation. Lancez vos jeux préférés directement dans le navigateur en haute performance.</p>
+          </div>
+          <div className="p-8 rounded-2xl bg-slate-950 border border-white/5 hover:border-cyan-500/30 transition-colors">
+            <div className="w-14 h-14 bg-cyan-500/10 rounded-2xl flex items-center justify-center mb-6 text-cyan-400">
+              <Trophy className="w-8 h-8" />
+            </div>
+            <h3 className="text-2xl font-bold mb-3">Classements Mondiaux</h3>
+            <p className="text-slate-400 leading-relaxed">Chaque pixel compte. Vos scores sont enregistrés et comparés aux meilleurs joueurs de la plateforme.</p>
+          </div>
+          <div className="p-8 rounded-2xl bg-slate-950 border border-white/5 hover:border-teal-500/30 transition-colors">
+            <div className="w-14 h-14 bg-teal-500/10 rounded-2xl flex items-center justify-center mb-6 text-teal-400">
+              <Star className="w-8 h-8" />
+            </div>
+            <h3 className="text-2xl font-bold mb-3">Compte Unique</h3>
+            <p className="text-slate-400 leading-relaxed">Retrouvez votre historique, vos statistiques et votre progression sur tous vos appareils.</p>
+          </div>
+        </div>
+      </section>
     </div>
   );
 }

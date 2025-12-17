@@ -1,0 +1,214 @@
+{
+  "games": [
+    {
+      "id": "snake-v1",
+      "name": "snake",
+      "description": "super cool",
+      "path": "snake/v1",
+      "version": "v1",
+      "createdAt": "2025-12-13T02:08:37.802Z",
+      "thumbnail": "thumbnail.png",
+      "width": 900,
+      "height": 600
+    },
+    {
+      "id": "snake-v2",
+      "name": "snake",
+      "description": "Version v2",
+      "path": "snake/v2",
+      "version": "v2",
+      "createdAt": "2025-12-13T02:10:01.476Z"
+    },
+    {
+      "id": "warrior-v1",
+      "name": "warrior",
+      "description": "Description par défaut",
+      "path": "warrior/v1",
+      "version": "v1",
+      "createdAt": "2025-12-13T02:26:03.853Z",
+      "width": 900,
+      "height": 600
+    },
+    {
+      "id": "tetris-v1",
+      "name": "tetris",
+      "description": "Description par défaut",
+      "path": "tetris/v1",
+      "version": "v1",
+      "createdAt": "2025-12-13T02:27:15.426Z",
+      "width": 600,
+      "height": 600
+    },
+    {
+      "id": "samegame-v1",
+      "name": "sameGame",
+      "description": "Description par défaut",
+      "path": "samegame/v1",
+      "version": "v1",
+      "createdAt": "2025-12-13T02:30:56.737Z",
+      "width": 900,
+      "height": 600
+    },
+    {
+      "id": "jumper-v1",
+      "name": "jumper",
+      "description": "Description par défaut",
+      "path": "jumper/v1",
+      "version": "v1",
+      "createdAt": "2025-12-13T02:31:00.161Z",
+      "width": 900,
+      "height": 600
+    },
+    {
+      "id": "breakout-v1",
+      "name": "breakout",
+      "description": "Description par défaut",
+      "path": "breakout/v1",
+      "version": "v1",
+      "createdAt": "2025-12-13T02:31:04.389Z",
+      "width": 800,
+      "height": 600
+    },
+    {
+      "id": "asteroids-v1",
+      "name": "Asteroids",
+      "description": "Description par défaut",
+      "path": "asteroids/v1",
+      "version": "v1",
+      "createdAt": "2025-12-13T13:34:07.067Z",
+      "width": 800,
+      "height": 600
+    },
+    {
+      "id": "forest-v1",
+      "name": "forest",
+      "description": "Description par défaut",
+      "path": "forest/v1",
+      "version": "v1",
+      "createdAt": "2025-12-13T15:18:31.123Z",
+      "width": 800,
+      "height": 600
+    },
+    {
+      "id": "snake-v3-system",
+      "name": "snake",
+      "description": "Portage V3 Standardisé (GameSystem Proof of Concept)",
+      "path": "snake/v3-system",
+      "version": "v3-system",
+      "thumbnail": "thumbnail.png",
+      "createdAt": "2025-12-16T22:00:00.000Z",
+      "width": 800,
+      "height": 600
+    },
+    {
+      "id": "test-hub-v1",
+      "name": "Test Hub System",
+      "description": "Jeu de test pour l'integration du HUB",
+      "path": "test-hub/v1",
+      "version": "v1",
+      "createdAt": "2025-12-16T22:00:00.000Z",
+      "width": 800,
+      "height": 600
+    }
+  ],
+  "scores": [
+    {
+      "gameId": "test-hub-v1",
+      "playerName": "Tester_86",
+      "score": 395,
+      "date": "2025-12-16T21:09:22.754Z"
+    },
+    {
+      "gameId": "test-hub-v1",
+      "playerName": "Tester_45",
+      "score": 570,
+      "date": "2025-12-16T21:12:03.755Z"
+    },
+    {
+      "gameId": "snake-v3-system",
+      "playerName": "Joueur",
+      "score": 800,
+      "date": "2025-12-16T22:02:54.231Z"
+    },
+    {
+      "gameId": "test-hub-v1",
+      "playerName": "Tester_51",
+      "score": 824,
+      "date": "2025-12-16T22:06:32.880Z"
+    },
+    {
+      "gameId": "snake-v3-system",
+      "playerName": "Joueur",
+      "score": 2600,
+      "date": "2025-12-16T22:07:15.795Z"
+    },
+    {
+      "gameId": "snake-v3-system",
+      "playerName": "Joueur",
+      "score": 2200,
+      "date": "2025-12-16T22:17:13.007Z"
+    },
+    {
+      "gameId": "snake-v3-system",
+      "playerName": "Joueur",
+      "score": 1700,
+      "date": "2025-12-16T22:19:00.137Z"
+    },
+    {
+      "gameId": "snake-v3-system",
+      "playerName": "lacolleacervelle+admin",
+      "score": 1400,
+      "date": "2025-12-16T22:49:10.067Z",
+      "userId": "75ed45e6-9aed-442c-a958-4ecb630272a4",
+      "userEmail": "lacolleacervelle+admin@gmail.com"
+    },
+    {
+      "gameId": "snake-v3-system",
+      "playerName": "lacolleacervelle+admin",
+      "score": 3700,
+      "date": "2025-12-16T22:51:52.651Z",
+      "userId": "75ed45e6-9aed-442c-a958-4ecb630272a4",
+      "userEmail": "lacolleacervelle+admin@gmail.com"
+    },
+    {
+      "gameId": "snake-v3-system",
+      "playerName": "lacolleacervelle+admin",
+      "score": 400,
+      "date": "2025-12-16T23:21:11.473Z",
+      "userId": "75ed45e6-9aed-442c-a958-4ecb630272a4",
+      "userEmail": "lacolleacervelle+admin@gmail.com"
+    },
+    {
+      "gameId": "snake-v3-system",
+      "playerName": "lacolleacervelle+admin",
+      "score": 800,
+      "date": "2025-12-16T23:21:22.030Z",
+      "userId": "75ed45e6-9aed-442c-a958-4ecb630272a4",
+      "userEmail": "lacolleacervelle+admin@gmail.com"
+    },
+    {
+      "gameId": "snake-v3-system",
+      "playerName": "lacolleacervelle+admin",
+      "score": 1100,
+      "date": "2025-12-16T23:21:35.848Z",
+      "userId": "75ed45e6-9aed-442c-a958-4ecb630272a4",
+      "userEmail": "lacolleacervelle+admin@gmail.com"
+    },
+    {
+      "gameId": "snake-v3-system",
+      "playerName": "lacolleacervelle+admin",
+      "score": 700,
+      "date": "2025-12-16T23:21:47.183Z",
+      "userId": "75ed45e6-9aed-442c-a958-4ecb630272a4",
+      "userEmail": "lacolleacervelle+admin@gmail.com"
+    },
+    {
+      "gameId": "snake-v3-system",
+      "playerName": "lacolleacervelle+admin",
+      "score": 1100,
+      "date": "2025-12-16T23:22:01.985Z",
+      "userId": "75ed45e6-9aed-442c-a958-4ecb630272a4",
+      "userEmail": "lacolleacervelle+admin@gmail.com"
+    }
+  ]
+}

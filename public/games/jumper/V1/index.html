@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jumper</title>
+    <style>
+        body { margin: 0; overflow: hidden; background: #1a1a1a; }
+        canvas { display: block; }
+    </style>
+    <!-- p5.js CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/addons/p5.sound.min.js"></script>
+</head>
+<body>
+    <script>
+        // CONFIGURATION ET CONNECTEUR LOWDB
+        window.gameConfig = { gameId: 'jumper-v1', ...{"gameId":"jumper-v1","bgColor":"#1a1a1a","version":"v1"} };
+        
+        // API BRIDGE VERS LOWDB
+        window.GameAPI = {
+          saveScore: async (score, playerName = 'Joueur') => {
+            try {
+              await fetch('/api/scores', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({
+                  gameId: window.gameConfig.gameId,
+                  playerName,
+                  score
+                })
+              });
+              return true;
+            } catch (e) { console.error("Erreur Lowdb save", e); return false; }
+          },
+          getHighScores: async () => {
+             try {
+              const res = await fetch('/api/scores?gameId=' + window.gameConfig.gameId);
+              const data = await res.json();
+              return Array.isArray(data) ? data : [];
+             } catch (e) { return []; }
+          }
+        };
+    </script>
+    
+    <!-- Scripts du jeu injectés dynamiquement -->
+    <script src="ball.js"></script>
+    <script src="bricks.js"></script>
+    <script src="sketch.js"></script>
+</body>
+</html>

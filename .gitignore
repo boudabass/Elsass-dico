@@ -42,7 +42,7 @@ next-env.d.ts
 
 # Game Center specific
 # On ignore le contenu mais on garde les dossiers
-public/games/*
+# public/games/*
 !public/games/.gitkeep
 !public/games/Asteroids
 !public/games/forest
@@ -50,3 +50,7 @@ public/games/*
 
 data/*
 !data/.gitkeep
+!public/games/system
+!public/games/test-hub
+
+!data/db.json

@@ -1,63 +1,64 @@
-import { getGame } from "@/app/actions/get-game";
-import { Button } from "@/components/ui/button";
-import { ArrowLeft } from "lucide-react";
-import Link from "next/link";
-import { notFound } from "next/navigation";
-import { GamePlayer } from "@/components/game-player";
 
-interface PlayPageProps {
-  params: Promise<{ gameId: string }>;
-}
+import { createClient } from '@/utils/supabase/server'
+import { redirect, notFound } from 'next/navigation'
+import { Button } from "@/components/ui/button"
+import { ArrowLeft } from "lucide-react"
+import Link from "next/link"
+import { getDb } from "@/lib/database"
 
-export default async function PlayPage(props: PlayPageProps) {
-  const params = await props.params;
-  const game = await getGame(params.gameId);
+export default async function PlayPage({ params }: { params: Promise<{ gameId: string }> }) {
+  // 1. Auth Check (Server Side)
+  const supabase = await createClient()
+  const { data: { user } } = await supabase.auth.getUser()
 
-  if (!game) {
-    notFound();
+  if (!user) {
+    redirect('/')
   }
 
-  // Le chemin stocké dans la DB est relatif à /public/games
-  const gameUrl = `/games/${game.path}/index.html`;
+  // 2. Unwrap Params and Fetch Data
+  const { gameId } = await params
+  const db = await getDb()
+  const game = db.data.games.find(g => g.id === gameId)
+
+  if (!game) {
+    return (
+      <div className="min-h-[80vh] flex flex-col items-center justify-center text-center space-y-4">
+        <h1 className="text-2xl font-bold">Jeu introuvable</h1>
+        <Link href="/games">
+          <Button>Retour au catalogue</Button>
+        </Link>
+      </div>
+    );
+  }
 
   return (
-    <div className="h-screen overflow-hidden bg-slate-900 flex flex-col">
-      {/* En-tête de navigation sécurisante */}
-      <header className="bg-white p-4 shadow-md z-10 flex items-center justify-between">
-        <Button
-          asChild
-          variant="destructive"
-          size="lg"
-          className="text-lg font-bold px-8 h-14"
-        >
-          <Link href="/">
-            <ArrowLeft className="mr-2 h-6 w-6" />
-            QUITTER LE JEU
+    <div className="flex flex-col h-[calc(100vh-4rem)] bg-slate-950">
+      {/* Toolbar */}
+      <div className="flex items-center justify-between px-6 py-2 bg-slate-900 border-b border-white/10 text-white shadow-md z-10">
+        <div className="flex items-center gap-4">
+          <Link href="/games">
+            <Button variant="ghost" size="sm" className="text-slate-400 hover:text-white">
+              <ArrowLeft className="mr-2 w-4 h-4" /> Retour
+            </Button>
           </Link>
-        </Button>
+          <h1 className="font-bold text-lg hidden md:block">{game.name}</h1>
+        </div>
+        <div className="flex items-center gap-2">
+          <span className="text-xs text-slate-500 px-2 py-1 bg-slate-800 rounded font-mono">
+            {game.version}
+          </span>
+        </div>
+      </div>
 
-        <h1 className="text-2xl font-bold text-slate-800 hidden md:block">
-          {game.name}
-        </h1>
-
-        {/* Placeholder pour équilibrer le header */}
-        <div className="w-[140px] hidden md:block"></div>
-      </header>
-
-      {/* Zone de jeu */}
-      <main className="flex-1 flex flex-col items-center justify-center p-4">
-
-        <GamePlayer
-          gameUrl={gameUrl}
-          gameName={game.name}
-          width={game.width}
-          height={game.height}
+      {/* Game Canvas (Iframe) */}
+      <div className="flex-1 w-full h-full relative bg-black">
+        <iframe
+          src={`/games/${game.path}/index.html`}
+          className="absolute inset-0 w-full h-full border-0"
+          allowFullScreen
+          allow="autoplay; gamepad; fullscreen" // Important for games
         />
-
-        <p className="text-slate-400 mt-4 text-center max-w-lg">
-          {game.description}
-        </p>
-      </main>
+      </div>
     </div>
   );
 }

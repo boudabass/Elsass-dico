@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>warrior</title>
+    <style>
+        body { margin: 0; overflow: hidden; background: #000000; }
+        canvas { display: block; }
+    </style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/addons/p5.sound.min.js"></script>
+</head>
+<body>
+    <script>
+        window.gameConfig = { gameId: 'warrior-v1', ...{"bgColor":"#000000"} };
+        window.GameAPI = {
+          saveScore: async (score, playerName = 'Joueur') => {
+            try {
+              await fetch('/api/scores', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({
+                  gameId: window.gameConfig.gameId,
+                  playerName,
+                  score
+                })
+              });
+              return true;
+            } catch (e) { console.error("Erreur Lowdb save", e); return false; }
+          },
+          getHighScores: async () => {
+             try {
+              const res = await fetch('/api/scores?gameId=' + window.gameConfig.gameId);
+              const data = await res.json();
+              return Array.isArray(data) ? data : [];
+             } catch (e) { return []; }
+          }
+        };
+    </script>
+    <script src="sketch.js"></script>
+</body>
+</html>

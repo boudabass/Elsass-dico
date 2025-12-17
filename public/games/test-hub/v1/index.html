@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Test Hub</title>
+    <style>
+        body {
+            background: #333;
+            color: white;
+            font-family: sans-serif;
+            padding: 20px;
+        }
+
+        .box {
+            background: #444;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+
+        button {
+            cursor: pointer;
+            padding: 10px 20px;
+            font-size: 16px;
+            margin-right: 10px;
+        }
+
+        pre {
+            background: #222;
+            padding: 10px;
+            border-radius: 4px;
+            max-height: 200px;
+            overflow-y: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>🛠️ Test Hub Integration</h1>
+
+    <div class="box">
+        <h3>1. Status System</h3>
+        <div id="status">⏳ Chargement system.js...</div>
+    </div>
+
+    <div class="box">
+        <h3>2. Test Actions</h3>
+        <button onclick="testSave()">Sauvegarder Score (123)</button>
+        <button onclick="testLoad()">Charger Scores</button>
+    </div>
+
+    <div class="box">
+        <h3>3. Logs</h3>
+        <pre id="logs"></pre>
+    </div>
+
+    <!-- --- CONFIGURATION STANDARD (C'est ce que le jeu doit définir) --- -->
+    <script>
+        window.DyadGame = {
+            id: 'test-hub-v1',
+            version: 'v1'
+        };
+    </script>
+
+    <!-- --- CHARGEMENT DU SYSTEME --- -->
+    <script src="../../system/system.js"></script>
+
+    <!-- --- LOGIQUE DU JEU (Test) --- -->
+    <script src="script.js"></script>
+</body>
+
+</html>

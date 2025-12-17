@@ -23,7 +23,7 @@
     {
       "id": "forest-v1",
       "name": "forest",
-      "description": "Description par défaut",
+      "description": "Description forest",
       "path": "forest/v1",
       "version": "v1",
       "createdAt": "2025-12-13T15:18:31.123Z",

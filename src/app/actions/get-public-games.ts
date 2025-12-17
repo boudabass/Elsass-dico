@@ -34,7 +34,7 @@ export async function getPublicGames(): Promise<PublicGame[]> {
     return {
       id: game.id,
       name: game.name,
-      description: game.description,
+      description: game.description || '',
       version: game.version,
       path: game.path,
       thumbnail: game.thumbnail,

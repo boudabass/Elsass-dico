@@ -1,33 +1,55 @@
-# 📘 Guide Développeur - Création de Jeux pour la Plateforme
+# 📘 Guide Technique & Architecture - Game Center
 
-Bienvenue ! Ce guide explique comment rendre ton jeu compatible avec notre plateforme (Game Center).
-Nous utilisons un système standardisé appelé **GameSystem** et nous recommandons fortement la stack **p5.js + p5play v3**.
+Ce document est la référence technique unique pour la plateforme. Il définit comment les données sont structurées et comment les jeux doivent être codés pour fonctionner parfaitement avec le système.
 
-## 1. Stack Technique Recommandée
+**Source de Vérité :** Le code fonctionnel situé dans `public/games/learn/etape10/`.
 
-Pour une intégration rapide et robuste, nous recommandons :
-*   **Moteur de rendu :** p5.js
-*   **Moteur physique & sprites :** p5play v3
-*   **Communication :** GameSystem Hub (`system.js`)
+---
 
-Consultez les `documentation/patterns/` pour des exemples de code et des bonnes pratiques avec p5play.
+## 1. Architecture des Données (Backend & Fichiers)
 
-## 2. Structure Requise
+La plateforme distingue le **Stockage Physique** (Fichiers) du **Catalogue Logique** (Base de données).
 
-Chaque jeu doit être autonome dans son dossier. La structure minimale est :
+### A. Stockage Physique (GameProject)
+Les jeux sont stockés statiquement sur le disque.
+*   **Chemin :** `public/games/{gameId}/{version}/`
+*   **Structure :** Chaque dossier de version doit être autonome (contient son propre `index.html`, ses assets, ses scripts).
 
-```text
-mon-jeu/v1/
-├── index.html          (Point d'entrée obligatoire)
-├── main.js             (Logique de ton jeu)
-├── thumbnail.png       (Image d'aperçu 400x300px)
-├── description.md      (Description courte pour le menu)
-└── assets/             (Tes images, sons, etc.)
+### B. Base de Données (GameRelease)
+Le fichier `data/db.json` (Lowdb) est la source de vérité pour l'affichage et les scores.
+Il ne stocke pas d'arborescence, mais une liste plate de "Releases" jouables.
+
+```typescript
+// Modèle de données (dans db.json)
+{
+  "games": [
+    {
+      "id": "snake-v1",          // ID Unique
+      "name": "Snake",           // Nom d'affichage
+      "version": "v1",           // Version
+      "path": "snake/v1",        // Chemin relatif vers le dossier (sans public/games/)
+      "width": 800,
+      "height": 600,
+      "description": "..."
+    }
+  ],
+  "scores": [...]
+}
 ```
 
-## 3. Configuration (`index.html`)
+---
 
-Ton fichier `index.html` **doit** inclure le script de configuration ET le script système **avant** tes propres scripts.
+## 2. Standard de Développement de Jeu (Le Modèle "Étape 10")
+
+Pour garantir la stabilité, tous les jeux doivent suivre l'architecture modulaire validée lors du programme d'apprentissage.
+
+### A. Stack Technique
+*   **Moteur :** p5.js + p5.play v3 (via CDN).
+*   **Architecture :** Modulaire (Fichiers séparés).
+*   **Gestion d'États :** Switch/Case natif (Pas de librairie externe).
+
+### B. Template `index.html` (Strict)
+Ce template assure le chargement correct des librairies et du système.
 
 ```html
 <!DOCTYPE html>
@@ -35,75 +57,97 @@ Ton fichier `index.html` **doit** inclure le script de configuration ET le scrip
 <head>
     <meta charset="UTF-8">
     <title>Mon Jeu</title>
-    <style> body { margin: 0; overflow: hidden; background: #000; } </style>
-</head>
-<body>
-    <!-- 1️⃣ Bibliothèques (p5.js + p5play) -->
+    <style>
+        body { margin: 0; overflow: hidden; background: #1a1a1a; display: flex; justify-content: center; align-items: center; height: 100vh; }
+        canvas { display: block; }
+    </style>
+    
+    <!-- 1. LIBRAIRIES (Ordre Critique) -->
     <script src="https://cdn.jsdelivr.net/npm/p5@1.11.4/lib/p5.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/p5@1.11.4/lib/addons/p5.sound.min.js"></script>
     <script src="https://p5play.org/v3/planck.min.js"></script>
     <script src="https://p5play.org/v3/p5play.js"></script>
 
-    <!-- 2️⃣ CONFIGURATION OBLIGATOIRE -->
+    <!-- 2. CONFIGURATION SYSTEM -->
     <script>
-        window.DyadGame = { 
-            id: 'mon-jeu-v1',   // Doit être unique (minuscules, tirets)
-            version: 'v1'       // Version du dossier
-        };
+        window.DyadGame = { id: 'mon-jeu-v1', version: 'v1' };
     </script>
-
-    <!-- 3️⃣ CHARGEMENT DU SYSTÈME (Ne pas modifier ce chemin) -->
     <script src="../../system/system.js"></script>
 
-    <!-- 4️⃣ TON JEU -->
-    <script src="main.js"></script>
+    <!-- 3. MODULES DU JEU -->
+    <script src="config.js"></script>
+    <script src="player.js"></script>
+    <script src="enemy.js"></script>
+    <script src="sketch.js"></script>
+</head>
+<body>
 </body>
 </html>
 ```
 
-## 4. L'API `GameSystem`
+### C. Structure des Fichiers JS
+Ne jamais tout mettre dans un seul fichier.
 
-Une fois le système chargé, tu as accès à l'objet global `window.GameSystem`.
+1.  **`config.js`** : Contient toutes les constantes (Couleurs, Gravité, Vitesses, Timers). Facilite le réglage du "Game Feel".
+2.  **`player.js` / `enemy.js`** : Classes encapsulant la logique des entités (création du sprite, update, méthodes spécifiques).
+3.  **`sketch.js`** : Le chef d'orchestre. Il initialise le jeu et gère les états.
 
-### 🏆 Gestion des Scores
-
-Utilise le module `GameSystem.Score` pour gérer la progression du joueur.
-
-#### Envoyer un score
-Appelle cette méthode quand le joueur perd ou termine une partie.
+### D. Gestion des États (Pattern Validé)
+N'utilisez pas `states.add()` de p5.play (instable sur certaines versions). Utilisez ce pattern robuste :
 
 ```javascript
-// async submit(score: number, playerName?: string)
-await window.GameSystem.Score.submit(1500); 
-
-// Exemple dans une boucle de jeu p5play
-snake.collides = function() {
-    window.GameSystem.Score.submit(score);
-    states.next('gameover'); // Change de scène
+// Dans sketch.js
+const GameState = {
+    MENU: 'menu',
+    GAME: 'game',
+    GAMEOVER: 'gameover'
 };
-```
+let currentState = GameState.MENU;
 
-#### Récupérer les meilleurs scores (Leaderboard)
-
-```javascript
-// async getLeaderboard() -> Array<{ playerName, score, date }>
-const highScores = await window.GameSystem.Score.getLeaderboard();
-console.log(highScores[0]); // Affiche le meilleur score
-```
-
-### 🖥️ Affichage & Outils
-
-Le `GameSystem` injecte une UI par-dessus ton jeu avec un menu ☰ et un bouton plein écran. Tu n'as pas besoin de les recréer.
-
-#### Mode Plein Écran
-Tu peux toujours le déclencher par code si voulu :
-```javascript
-window.GameSystem.Display.toggleFullscreen();
+function draw() {
+    switch (currentState) {
+        case GameState.MENU:
+            drawMenu();
+            break;
+        case GameState.GAME:
+            updateGame(); // Logique
+            drawGame();   // Rendu (camera.on/off)
+            break;
+        case GameState.GAMEOVER:
+            drawGameOver();
+            break;
+    }
+}
 ```
 
 ---
 
-## ⚠️ Règles Importantes
-1.  **Pas de Backend Custom :** Ton jeu doit être 100% statique (JS/HTML/CSS).
-2.  **Chemins Relatifs :** Utilise toujours `./assets/image.png`, jamais `/games/mon-jeu/...`.
-3.  **Propreté :** N'utilise pas `localStorage` pour les données critiques, elles seront perdues si le cache est vidé. Utilise `GameSystem.Score`.
+## 3. Intégration GameSystem (API)
+
+Le jeu communique avec la plateforme via l'objet global `window.GameSystem`.
+
+### Démarrage
+Signaler à la plateforme que le jeu est chargé (cache l'écran de chargement).
+```javascript
+function setup() {
+    // ... init ...
+    if(window.GameSystem) window.GameSystem.Lifecycle.notifyReady();
+}
+```
+
+### Sauvegarde du Score
+Envoyer le score à la fin de la partie (Game Over).
+```javascript
+function endGame() {
+    // ... logique de fin ...
+    if(window.GameSystem) window.GameSystem.Score.submit(score);
+}
+```
+
+---
+
+## 4. Règles de Gameplay & Physique (Rappel)
+
+*   **Caméra :** Utiliser `camera.on()` et `camera.off()` pour séparer le monde du HUD.
+*   **Collisions :** Utiliser des vérifications manuelles (AABB) pour la logique critique (comme la détection de vide pour les ennemis) si `overlap` est capricieux.
+*   **Contrôles :** Implémenter le **Coyote Time** et le **Jump Buffer** pour une meilleure jouabilité (voir `base_parametre.md`).

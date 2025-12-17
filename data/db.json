@@ -41,10 +41,10 @@
       "height": 600
     },
     {
-      "id": "q5-validator-v1",
+      "id": "p5play-validator-v1",
       "name": "P5Play Validator",
       "description": "Jeu de validation pour la stack p5.js + p5.play classique.",
-      "path": "q5-validator/v1",
+      "path": "p5play-validator/v1",
       "version": "v1",
       "createdAt": "2025-12-17T12:00:00.000Z",
       "width": 800,

@@ -2,33 +2,17 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <title>P5Play Test</title>
-    <style>
-        body { 
-            margin: 0; 
-            overflow: hidden; 
-            background: #1a1a1a; 
-        }
-    </style>
-    
-    <!-- 1️⃣ Bibliothèques (p5.js + p5play) -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.4/p5.min.js"></script>
-    <script src="https://unpkg.com/p5play@3/build/p5play.min.js"></script>
-
-    <!-- 2️⃣ CONFIGURATION OBLIGATOIRE -->
-    <script>
-        window.DyadGame = { 
-            id: 'p5play-test-v1',
-            version: 'v1'
-        };
-    </script>
-
-    <!-- 3️⃣ CHARGEMENT DU SYSTÈME (Ne pas modifier ce chemin) -->
-    <script src="../../system/system.js"></script>
-
-    <!-- 4️⃣ TON JEU -->
-    <script src="main.js"></script>
+    <title>p5play-test</title>
+    <style>body { margin: 0; overflow: hidden; background: #000; }</style>
 </head>
 <body>
+    <!-- ORDRE CRITIQUE : p5.js D'ABORD, p5play ENSUITE -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.4/p5.min.js"></script>
+    <script src="https://unpkg.com/p5play@3/build/p5play.min.js"></script>
+    
+    <!-- GameSystem APRÈS p5play -->
+    <script>window.DyadGame = { id: 'p5play-test-v1', version: 'v1' };</script>
+    <script src="../../system/system.js"></script>
+    <script src="main.js"></script>
 </body>
 </html>

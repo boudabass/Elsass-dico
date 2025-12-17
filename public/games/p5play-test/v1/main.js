@@ -2,23 +2,29 @@ let square;
 
 function setup() {
     createCanvas(windowWidth, windowHeight);
+    frameRate(60);
     
-    // Créer un sprite carré au centre
-    square = new Sprite(width / 2, height / 2, 50);
+    // Test Sprite p5play
+    square = new Sprite(width/2, height/2, 100, 100);  // largeur, hauteur
     square.color = 'coral';
-    square.collider = 'static'; // Le carré ne bouge pas
+    square.collider = 'static';
+    
+    console.log("✅ p5play OK:", square);
+    
+    if(window.GameSystem) {
+        window.GameSystem.Lifecycle.notifyReady();
+    }
 }
 
 function draw() {
     background(20);
-    // Le rendu des sprites est automatique avec p5play
+    // Rendu AUTO p5play
 }
 
 function windowResized() {
     resizeCanvas(windowWidth, windowHeight);
-    // Repositionner le carré si la fenêtre change de taille
-    if (square) {
-        square.x = width / 2;
-        square.y = height / 2;
+    if(square) {
+        square.x = width/2;
+        square.y = height/2;
     }
 }

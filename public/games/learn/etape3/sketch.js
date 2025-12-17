@@ -16,16 +16,20 @@ function draw() {
     background(50); // Fond gris foncé
 
     // --- Logique de mouvement (Clavier) ---
-    if (keyIsDown(LEFT_ARROW) || keyIsDown(65)) { // Gauche ou A
+    // Gauche : LEFT_ARROW (37) ou A (65) ou Q (81)
+    if (keyIsDown(LEFT_ARROW) || keyIsDown(65) || keyIsDown(81)) { 
         playerX -= playerSpeed;
     }
-    if (keyIsDown(RIGHT_ARROW) || keyIsDown(68)) { // Droite ou D
+    // Droite : RIGHT_ARROW (39) ou D (68)
+    if (keyIsDown(RIGHT_ARROW) || keyIsDown(68)) { 
         playerX += playerSpeed;
     }
-    if (keyIsDown(UP_ARROW) || keyIsDown(87)) { // Haut ou W
+    // Haut : UP_ARROW (38) ou W (87) ou Z (90)
+    if (keyIsDown(UP_ARROW) || keyIsDown(87) || keyIsDown(90)) { 
         playerY -= playerSpeed;
     }
-    if (keyIsDown(DOWN_ARROW) || keyIsDown(83)) { // Bas ou S
+    // Bas : DOWN_ARROW (40) ou S (83)
+    if (keyIsDown(DOWN_ARROW) || keyIsDown(83)) { 
         playerY += playerSpeed;
     }
     

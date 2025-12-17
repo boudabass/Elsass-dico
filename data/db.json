@@ -110,6 +110,16 @@
       "createdAt": "2025-12-17T14:00:00.000Z",
       "width": 800,
       "height": 600
+    },
+    {
+      "id": "p5-learn-etape6",
+      "name": "P5.js Apprentissage - Étape 6",
+      "description": "p5.play Sprites : Sprites de base et mouvement.",
+      "path": "learn/etape6",
+      "version": "etape6",
+      "createdAt": "2025-12-17T14:30:00.000Z",
+      "width": 800,
+      "height": 600
     }
   ]
 }

@@ -1,56 +1,119 @@
 # 💥 Patterns : Collisions & Interactions
 
-Détecter quand deux objets se touchent est crucial. Voici les méthodes du simple au complexe.
+## Remplacement des calculs manuels de distance
+Ancien paradigme p5.js pur : vérifications manuelles avec `dist()` et conditions `if`.
 
-## 1. Cercle vs Cercle (Le plus simple)
-Utilisé pour les balles, astéroïdes, ou personnages ronds.
-Très rapide à calculer (distance).
-
-```javascript
-// p5.js offre la fonction dist()
-let d = dist(obj1.x, obj1.y, obj2.x, obj2.y);
-
-// Si la distance est plus petite que la somme des rayons -> BOOM
-if (d < obj1.radius + obj2.radius) {
-    return true; // Collision !
-}
-```
-
-## 2. Rectangle vs Rectangle (AABB)
-Utilisé dans **Breakout** ou les platformers classiques (Mario).
-On vérifie si les boîtes se chevauchent.
+Nouveau paradigme p5play v3 : méthodes intégrées `overlaps()`, `collides()`, `overlapping()` avec hitboxes automatiques.
 
 ```javascript
-if (
-    rect1.x < rect2.x + rect2.w &&
-    rect1.x + rect1.w > rect2.x &&
-    rect1.y < rect2.y + rect2.h &&
-    rect1.y + rect1.h > rect2.y
-) {
-    return true; // Collision !
-}
-```
-
-## 3. Optimisation : Le Quadtree (Pour beaucoup d'objets)
-Si vous avez 100 astéroïdes et 50 balles, faire 5000 vérifications par frame va faire laguer le jeu.
-**Solution :** Le Quadtree (utilisé dans **Asteroids**).
-
-*   **Principe :** Diviser l'écran en 4 zones, récursivement.
-*   **Logique :** "Si je suis en haut à gauche, je ne teste la collision qu'avec les objets en haut à gauche."
-
-*Note : Une librairie `Quadtree.js` est souvent utilisée plutôt que de le recoder soi-même.*
-
-## 4. Gestion des "Hitbox"
-Souvent, l'image (sprite) est carrée mais l'objet est rond.
-**Conseil :** Découplez l'affichage de la logique.
-
-```javascript
-class Enemy {
-    show() {
-        image(this.sprite, this.x, this.y); // Affiche l'image
-        
-        // Debug : voir la hitbox réelle
-        // noFill(); stroke(255, 0, 0); ellipse(this.x, this.y, this.radius * 2); 
+// ❌ AVANT (p5.js manuel - Snake)
+eat(food) {
+    let d = dist(this.x, this.y, food.x, food.y);
+    if(d < 1) {
+        this.total++;
+        return true;
     }
 }
+
+// ✅ APRÈS (p5play v3 - 1 ligne)
+if(snake.overlaps(foodGroup)) {
+    let eaten = snake.overlapping(foodGroup);
+    eaten[0].remove();
+    snake.life++;
+}
 ```
+
+## Méthodes de collision officielles p5play v3
+| Méthode | Retour | Usage | Exemple Snake |
+|---|---|---|---|
+| `sprite.overlaps(other)` | `boolean` | Détection sans destruction | `snake.overlaps(foodGroup)` |
+| `sprite.collides(other)` | `function` | Callback collision | `snake.collides = gameOver` |
+| `sprite.overlapping(group)` | `array` | Liste sprites touchés | `snake.overlapping(foodGroup)` |
+| `group.overlaps(group)` | `boolean` | Groupe vs groupe | `bullets.overlaps(enemies)` |
+
+## Configuration des hitboxes (p5play v3)
+```javascript
+// Hitbox = taille sprite par défaut
+let snake = new Sprite(100, 100, 20);  // Hitbox 20x20
+
+// Hitbox personnalisée
+snake.width = 15;   // Plus petite
+snake.debug = true; // Hitbox visible (dev)
+
+// Collision pixel-perfect (images)
+snake.img = 'snake.png';
+snake.imgHitbox = true;
+```
+
+## Callbacks de collision (gameplay)
+```javascript
+// 1. Callback global sur sprite
+snake.collides = function() {
+    if(window.GameSystem) {
+        window.GameSystem.Score.submit(this.life * 100);
+    }
+    states.next('gameover');
+};
+
+// 2. Collision conditionnelle
+snake.overlaps(foodGroup, function(food) {
+    food.remove();
+    createFood();
+});
+
+// 3. Collision avec filtre
+if(snake.overlaps(enemies, true)) {
+    snake.life--;
+}
+```
+
+## Groupes vs collisions optimisées
+```javascript
+// ❌ MAUVAIS : vérifications individuelles
+for(let enemy of enemies) {
+    if(player.overlaps(enemy)) enemy.remove();
+}
+
+// ✅ BON : groupe optimisé
+player.overlaps(enemiesGroup, function(enemy) {
+    enemy.remove();
+});
+
+// Quadtree interne = O(1) vs O(n²)
+```
+
+## Flux de collision automatique
+```javascript
+function draw() {
+    background(20);
+    
+    // TOUTES LES COLLISIONS AUTOMATIQUES
+    // overlaps() / collides() vérifiées chaque frame
+    // Callbacks exécutés auto
+    
+    // Rendu
+}
+```
+
+## Bonnes pratiques p5play v3 vérifiées
+**Configuration collision :**
+
+```javascript
+allSprites.collider = 'dynamic';  // Physique
+foodGroup.collider = 'static';    // Immobile
+```
+
+**Debug collisions :**
+
+```javascript
+allSprites.debug = true;  // Hitbox + vecteurs
+// Performance : max 500 sprites recommandés.
+```
+
+**Intégration GameSystem Snake**
+```javascript
+// Collision serpent → queue
+snake.collides(tailGroup, function() {
+    window.GameSystem.Score.submit(snake.life * 100);
+    states.next('gameover');
+});

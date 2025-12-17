@@ -1,67 +1,103 @@
 # 🚀 Patterns : Physique & Mouvement (Standard Q5/P5Play)
 
-La simulation physique est désormais gérée par **P5Play** (basé sur Box2D), ce qui simplifie grandement le code.
+## 1. Remplacement de p5.Vector manuel
+Ancien paradigme p5.js : gestion manuelle des positions, vitesses et collisions avec `createVector()` et `add()`.
 
-## 1. La Puissance des Sprites
-
-Au lieu de gérer manuellement les vecteurs, nous manipulons les propriétés des objets `Sprite` de P5Play.
-
-### Le Trio Sacré (Propriétés de Sprite) :
-1.  **Position (`sprite.x`, `sprite.y`)** : Où je suis.
-2.  **Vitesse (`sprite.vel.x`, `sprite.vel.y`)** : De combien je bouge à chaque frame.
-3.  **Accélération (`sprite.acc.x`, `sprite.acc.y`)** : La force du moteur / gravité.
+Nouveau paradigme p5play : propriétés intégrées `sprite.pos`, `sprite.vel`, `sprite.acc` mises à jour automatiquement chaque frame.
 
 ```javascript
-/* Dans votre logique de jeu (ex: Ship.js) */
-
-// Création d'un sprite
-let ship = new Sprite(width/2, height/2, 50);
-
-// Appliquer une force (ex: moteur)
-function applyThrust() {
-    // P5Play gère l'application de la force et la mise à jour de la vitesse/position
-    ship.applyForce(0.5, ship.rotation); 
+// ❌ AVANT (p5.js manuel - Snake)
+class Snake {
+    constructor(x, y) {
+        this.pos = createVector(x, y);      // Vector manuel
+        this.vel = createVector(scl, 0);    // Vector manuel
+    }
+    
+    update() {
+        this.pos.add(this.vel);             // Calcul manuel
+        this.vel.limit(scl);                // Limite manuelle
+    }
 }
 
-// Mise à jour (Automatique)
-// P5Play met à jour la position du sprite automatiquement dans la boucle draw().
-// Vous n'avez plus besoin d'une fonction update() manuelle pour la physique.
+// ✅ APRÈS (p5play)
+let snake = sprite(width/2, height/2, scl);
+snake.vel = vec2(0, scl);           // vec2() plus léger que createVector
+// TOUT EST AUTOMATIQUE : pos += vel chaque frame
+// vel.limit(scl) géré par p5play
 ```
+## 2. Propriétés physiques principales (doc p5play)
+| Propriété | Type | Description | Exemple Snake |
+|---|---|---|---|
+| `sprite.pos` | `vec2` | Position (x, y) | `snake.pos = vec2(width/2, height/2)` |
+| `sprite.vel` | `vec2` | Vitesse (dx, dy) | `snake.vel = vec2(scl, 0)` |
+| `sprite.acc` | `vec2` | Accélération | `snake.acc = vec2(0, 0.1)` (futur) |
+| `sprite.oldPos` | `vec2` | Position précédente | Collision précise |
+| `sprite.friction` | `number` | Résistance (0-1) | `snake.friction = 0.9` |
 
-## 2. Le Mouvement de Caméra ("Scrolling")
-
-Pour un jeu plus grand que l'écran (comme l'ancien Forest), P5Play offre une gestion de caméra intégrée.
-
-### Technique : `camera`
-Utilisez l'objet `camera` global pour suivre un sprite.
+## 3. Gestion des bords d'écran intégrée
+Fini les conditions manuelles `if(pos.x < 0) pos.x = width`.
 
 ```javascript
-/* Dans q5.setup() */
-let player = new Sprite(0, 0, 20);
-camera.x = player.x;
-camera.y = player.y;
-
-/* Dans q5.draw() */
-// La caméra suit automatiquement le joueur
-camera.x = player.x;
-camera.y = player.y;
-
-// Le HUD (Score) doit être dessiné en utilisant camera.off()
-camera.off();
-    fill(255);
-    text("Score: " + score, 20, 20);
-camera.on();
-```
-
-## 3. L'Espace Infini ("Wrap Around")
-
-Utilisé dans **Asteroids**. Si on sort à droite, on rentre à gauche.
-
-### Technique : `sprite.wrap()`
-C'est désormais une méthode intégrée à chaque sprite.
-
-```javascript
-function q5.draw() {
-    // Le sprite réapparaît de l'autre côté de l'écran
-    ship.wrap(); 
+// ❌ AVANT (4 conditions if/else)
+edges() {
+    if(this.pos.x < 0) this.pos.x = width;
+    else if(this.pos.x > width) this.pos.x = 0;
+    // ... 6 lignes
 }
+
+// ✅ APRÈS (1 ligne)
+snake.wrap();   // Wrap autour de l'écran (Asteroids-style)
+snake.bounce(); // Rebond aux bords
+snake.removeOnCollide(); // Mort aux bords
+```
+## 4. Flux physique automatique
+```javascript
+q5.setup = () => {
+    new Canvas(windowWidth, windowHeight);
+    snake = sprite(width/2, height/2, scl);
+    snake.color = color(255);
+    World.gravity.y = 0;    // Pas de gravité (Snake)
+};
+
+q5.draw = () => {
+    clear();
+    
+    // PHYSIQUE 100% AUTOMATIQUE (aucune boucle manuelle !)
+    // 1. Mise à jour positions (pos += vel)
+    // 2. Vérification collisions
+    // 3. Application friction
+    // 4. Wrap/bounce si configuré
+    
+    allSprites.draw();  // Rendu automatique
+};
+```
+## 5. Bonnes pratiques vérifiées (doc officielle)
+Configuration World (une seule fois) :
+
+```javascript
+World.gravity = vec2(0, 0);     // Snake (pas de gravité)
+World.drag = 0.9;               // Friction globale
+allSprites.tileSize = scl;      // Grille uniforme
+```
+Contrôle directionnel Snake :
+
+```javascript
+q5.keyPress = () => {
+    if(q5.key === 'left')  snake.vel.set(-scl, 0);
+    if(q5.key === 'right') snake.vel.set(scl, 0);
+    if(q5.key === 'up')    snake.vel.set(0, -scl);
+    if(q5.key === 'down')  snake.vel.set(0, scl);
+};
+```
+Limitation vitesse (optionnel) :
+
+```javascript
+snake.maxSpeed = scl;  // Plus propre que vel.limit()
+```
+Intégration GameSystem (inchangée)
+```javascript
+// Collision auto → GameSystem
+snake.collides = () => {
+    window.GameSystem.Score.submit(snake.life * 100);
+    states.next('gameover');
+};

@@ -2,7 +2,7 @@
 
 import { useState, useEffect, createContext, useContext, useMemo } from 'react';
 import { useRouter } from 'next/navigation';
-import { createClient } from '@/integrations/supabase/client';
+import { supabase } from '@/integrations/supabase/client'; // Corrected import
 import { User as SupabaseUser } from '@supabase/supabase-js';
 
 // Define the Profile type based on the Supabase schema
@@ -23,7 +23,7 @@ interface AuthContextType {
 
 const AuthContext = createContext<AuthContextType | undefined>(undefined);
 
-const supabase = createClient();
+// const supabase = createClient(); // Removed redundant client creation
 
 export const AuthProvider = ({ children }: { children: React.ReactNode }) => {
   const [user, setUser] = useState<Profile | null>(null);

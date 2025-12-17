@@ -7,19 +7,14 @@ function setup() {
     // Créer le canvas
     createCanvas(800, 600);
     
-    // Limiter les FPS pour la stabilité
-    frameRate(60);
-
-    // Créer un "Sprite" p5play au lieu d'un simple cercle
+    // Créer un "Sprite" p5play. C'est le test crucial.
+    // Si cette ligne fonctionne, p5play est correctement initialisé.
     circleSprite = new Sprite();
     circleSprite.x = width / 2;
     circleSprite.y = height / 2;
     circleSprite.diameter = 150;
     circleSprite.color = 'cyan';
     circleSprite.stroke = null; // Pas de bordure
-
-    // Lui donner une vitesse horizontale
-    circleSprite.vel.x = 3;
 
     // Notifier le système que le jeu est prêt
     if (window.GameSystem) {
@@ -32,8 +27,6 @@ function draw() {
     // Dessiner le fond
     background(10, 10, 30); // Fond bleu nuit
 
-    // Si le sprite sort de l'écran, il réapparaît de l'autre côté
-    if (circleSprite.x > width + circleSprite.diameter / 2) {
-        circleSprite.x = -circleSprite.diameter / 2;
-    }
+    // Avec p5play, il n'est même pas nécessaire de dessiner les sprites manuellement dans draw().
+    // Le simple fait qu'ils existent suffit. La boucle draw() ne sert qu'à effacer l'écran.
 }

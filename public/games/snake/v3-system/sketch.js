@@ -52,7 +52,7 @@ function resetGame() {
 // --- Callbacks de P5Play ---
 
 q5.setup = () => {
-    new Canvas(windowWidth, windowHeight);
+    new Canvas(windowWidth, windowHeight, 'p2d'); // Force le moteur de rendu 2D
     frameRate(10);
     
     // Configuration du monde

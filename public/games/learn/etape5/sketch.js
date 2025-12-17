@@ -88,7 +88,7 @@ function drawAsteroids() {
 }
 
 function drawUI() {
-    score = floor(frameCount / 60);
+    // Le score est maintenant basé sur les destructions + le temps
     fill(255);
     textSize(24);
     textAlign(LEFT, TOP);
@@ -121,6 +121,24 @@ function draw() {
         drawUI();
     } else if (gameState === "gameOver") {
         drawGameOver();
+    }
+}
+
+function mousePressed() {
+    if (gameState !== "playing") return;
+
+    // Vérification de la destruction par clic
+    for (let i = asteroids.length - 1; i >= 0; i--) {
+        let a = asteroids[i];
+        // Calcul de la distance entre le clic et le centre de l'astéroïde
+        const d = dist(mouseX, mouseY, a.x, a.y);
+        
+        if (d < a.size / 2) {
+            // Destruction !
+            asteroids.splice(i, 1);
+            score += 10; // +10 points par destruction
+            break; // On ne détruit qu'un seul astéroïde par clic
+        }
     }
 }
 

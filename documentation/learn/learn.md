@@ -9,7 +9,7 @@
 - Change couleur selon position écran  
 - Fond se met à jour chaque frame  
 
-**Checklist :** [ ] Canvas 800x600 [ ] Formes colorées [ ] Suivi souris fluide
+**Checklist :** [x] Canvas 800x600 [x] Formes colorées [x] Suivi souris fluide **(VALIDÉE)**
 
 ---
 

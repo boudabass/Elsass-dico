@@ -36,12 +36,11 @@ Ton fichier `index.html` **doit** inclure le script de configuration ET le scrip
     <meta charset="UTF-8">
     <title>Mon Jeu</title>
     <style> body { margin: 0; overflow: hidden; background: #000; } </style>
-    
-    <!-- 1️⃣ Bibliothèques (p5.js + p5play) -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.4/p5.min.js"></script>
-    <script src="https://unpkg.com/p5play@3/build/p5play.min.js"></script>
 </head>
 <body>
+    <!-- 1️⃣ Bibliothèques (p5.js + p5play) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.4/p5.min.js"></script>
+    <script src="https://p5play.org/v3/p5play.js"></script>
 
     <!-- 2️⃣ CONFIGURATION OBLIGATOIRE -->
     <script>

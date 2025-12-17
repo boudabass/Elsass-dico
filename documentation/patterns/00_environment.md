@@ -17,10 +17,11 @@ Stable sur tous navigateurs depuis 10 ans. Zéro WebGPU.
             font-family: sans-serif;
         }
     &lt;/style&gt;
-    
-    &lt;!-- P5.JS STABLE + P5PLAY MATURE --&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;!-- P5.JS STABLE + P5PLAY OFFICIEL --&gt;
     &lt;script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.4/p5.min.js"&gt;&lt;/script&gt;
-    &lt;script src="https://unpkg.com/p5play@3/build/p5play.min.js"&gt;&lt;/script&gt;
+    &lt;script src="https://p5play.org/v3/p5play.js"&gt;&lt;/script&gt;
     
     &lt;!-- CONFIG JEUX (ton system.js) --&gt;
     &lt;script&gt;window.DyadGame = { id: '[ID_JEU]', version: 'v1' };&lt;/script&gt;
@@ -28,8 +29,7 @@ Stable sur tous navigateurs depuis 10 ans. Zéro WebGPU.
     
     &lt;!-- TON JEU --&gt;
     &lt;script src="main.js"&gt;&lt;/script&gt;
-&lt;/head&gt;
-&lt;body&gt;&lt;/body&gt;
+&lt;/body&gt;
 &lt;/html&gt;</code></pre>
 
 ### Ordre de chargement CRITIQUE

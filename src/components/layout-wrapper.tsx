@@ -7,7 +7,7 @@ import { cn } from "@/lib/utils";
 
 export function LayoutWrapper({ children }: { children: React.ReactNode }) {
     const pathname = usePathname();
-    const isGamePage = pathname.startsWith("/play/");
+    const isGamePage = pathname?.startsWith("/play/");
 
     return (
         <div className="flex-col md:flex min-h-screen">

@@ -40,7 +40,7 @@ export function MainNav({
                         href="/games"
                         className={cn(
                             "text-sm font-medium transition-colors hover:text-primary",
-                            pathname.startsWith("/games") ? "text-foreground" : "text-muted-foreground"
+                            pathname?.startsWith("/games") ? "text-foreground" : "text-muted-foreground"
                         )}
                     >
                         Jeux

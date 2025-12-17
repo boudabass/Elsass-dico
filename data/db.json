@@ -150,6 +150,16 @@
       "createdAt": "2025-12-17T16:00:00.000Z",
       "width": 800,
       "height": 600
+    },
+    {
+      "id": "p5-learn-etape10",
+      "name": "P5.js Apprentissage - Étape 10",
+      "description": "Architecture Complète : États, Classes, Config.",
+      "path": "learn/etape10",
+      "version": "etape10",
+      "createdAt": "2025-12-17T16:30:00.000Z",
+      "width": 800,
+      "height": 600
     }
   ],
   "scores": []

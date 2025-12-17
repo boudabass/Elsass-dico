@@ -1,20 +1,29 @@
 # 🎛️ Patterns : Entrées, Audio & Intégration
 
-Ce guide couvre les interactions avec le joueur et le système central (Hub).
-
 ## 1. Gestion des Entrées (Inputs)
 
-### Clavier & Souris (p5.js)
-Ne gérez pas les inputs n'importe où. Centralisez-les.
+### Inputs unifiés p5.js + p5play v3
+Ancien : gestion manuelle `keyPressed()` avec `keyCode` numérique.
+
+Nouveau : `keyPressed()` + propriétés `sprite.key[]` + gamepad natif.
 
 ```javascript
+// ❌ AVANT (p5.js pur)
 function keyPressed() {
-    if (key === ' ') ship.fire();
-    if (keyCode === UP_ARROW) ship.thrust(true);
+    if(keyCode === UP_ARROW) snake.dir(0, -1);
+    if(keyCode === 87) player.jump();  // 'W' = 87
 }
 
-function keyReleased() {
-    if (keyCode === UP_ARROW) ship.thrust(false);
+// ✅ APRÈS (p5play v3)
+function keyPressed() {
+    // Direction Snake
+    if(keyCode === LEFT_ARROW)  snake.vx = -scl;
+    if(keyCode === RIGHT_ARROW) snake.vx = scl;
+    if(keyCode === UP_ARROW)    snake.vy = -scl;
+    if(keyCode === DOWN_ARROW)  snake.vy = scl;
+    
+    // Actions
+    if(key === ' ') player.jump();
 }
 ```
 
@@ -45,27 +54,107 @@ function jump() {
 
 Tous nos jeux doivent communiquer avec `window.GameSystem`.
 
-### Configuration (index.html)
-C'est le contrat d'entrée.
-
-```html
-<script>
-    window.DyadGame = { id: 'mon-jeu-v1', version: '1.0' };
-</script>
-<script src="../../system/system.js"></script>
-```
-
 ### Sauvegarde du Score
 Dès la fin de partie, envoyez le score. C'est asynchrone, mais on n'attend souvent pas la réponse pour afficher "Game Over".
 
 ```javascript
-function gameOver() {
-    // Affiche l'écran de fin
-    // ...
+// ❌ AVANT : death() manuelle
+death() {
+    if(dist(head, tail) < 1) {
+        window.GameSystem.Score.submit(this.total * 100);
+    }
+}
+
+// ✅ APRÈS : callback collision p5play
+snake.collides = function() {
+    window.GameSystem.Score.submit(snake.life * 100);
+    states.next('gameover');
+};
+
+// Fin de scène
+states.gameover = {
+    start: function() {
+        window.GameSystem.Score.submit(finalScore);
+    }
+};
+```
+
+### Cycle de vie jeu + GameSystem
+```javascript
+function setup() {
+    createCanvas(windowWidth, windowHeight);
+    frameRate(60);
     
-    // Sauvegarde en arrière-plan
-    if (window.GameSystem) {
-        window.GameSystem.Score.submit(score);
+    states.add('menu', { 
+        start: () => window.GameSystem.Lifecycle.notifyReady()
+    });
+    states.load('menu');
+}
+
+function draw() {
+    // Physique + collisions auto
+}
+```
+
+### Responsive + redimensionnement
+```javascript
+function setup() {
+    createCanvas(windowWidth, windowHeight);
+}
+
+function windowResized() {
+    resizeCanvas(windowWidth, windowHeight);
+    // Sprites repositionnés AUTO par p5play
+}
+```
+
+### Leaderboard + menu système
+```javascript
+states.gameover = {
+    draw: function() {
+        background(0);
+        textAlign(CENTER);
+        text(`Score: ${snake.life * 100}`, width/2, height/2);
+        
+        // Leaderboard GameSystem
+        // (async dans update())
+    }
+};
+```
+
+### Bonnes pratiques d'intégration vérifiées
+**Ordre des callbacks :**
+
+```javascript
+function draw() {
+    // Physique auto p5play
+    background(20);
+    allSprites.draw();
+}
+```
+**Debug intégré :**
+
+```javascript
+function keyPressed() {
+    if(key === 'f1') {
+        allSprites.debug = !allSprites.debug;
     }
 }
 ```
+**Pause globale (menu ☰ GameSystem) :**
+
+```javascript
+window.GameSystem.pauseGame = () => {
+    allSprites.paused = true;
+};
+```
+**Exemple Snake complet intégré**
+```javascript
+snake.collides = function() {
+    window.GameSystem.Score.submit(snake.life * 100);
+};
+
+foodGroup.overlaps(snake, function(food) {
+    food.remove();
+    createFood();
+});

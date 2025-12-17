@@ -39,7 +39,7 @@ async function readLocalMetadata(dirPath: string) {
 export async function listGamesFromDb() {
   const db = await getDb();
   await db.read();
-  return db.data.games;
+  return db.data.games || [];
 }
 
 export interface GameVersionInfo {
@@ -68,7 +68,7 @@ export async function listGamesFolders(): Promise<GameFolder[]> {
 
   const db = await getDb();
   await db.read();
-  const dbGames = db.data.games;
+  const dbGames = db.data.games || [];
 
   const entries = await readdir(GAMES_DIR, { withFileTypes: true });
 
@@ -229,6 +229,8 @@ export async function createGameFolder(gameName: string, width = 800, height = 6
 
   const meta = await readLocalMetadata(dirPath);
   const db = await getDb();
+  db.data.games ||= []; // Ensure array exists
+
   const gameId = `${safeName}-v1`;
 
   const existingIndex = db.data.games.findIndex(g => g.id === gameId);
@@ -281,6 +283,8 @@ export async function createGameVersion(gameName: string, versionName: string) {
 
     const meta = await readLocalMetadata(dirPath);
     const db = await getDb();
+    db.data.games ||= []; // Ensure array exists
+
     const gameId = `${gameName}-${safeVersion}`;
 
     const parentGame = db.data.games.find(g => g.name === gameName);
@@ -366,6 +370,10 @@ export async function deleteGame(gameFolderName: string) {
   const db = await getDb();
   await db.read(); // Lire l'état actuel du disque
 
+  // Sécurité: S'assurer que les tableaux existent
+  db.data.games = db.data.games || [];
+  db.data.scores = db.data.scores || [];
+
   // Filtrer les jeux et scores dont l'ID commence par le préfixe du jeu (ex: 'tetris-')
   db.data.games = db.data.games.filter(g => !g.id.startsWith(dbIdPrefix));
   db.data.scores = db.data.scores.filter(s => !s.gameId.startsWith(dbIdPrefix));
@@ -401,6 +409,10 @@ export async function deleteVersion(gameFolderName: string, versionName: string)
   const db = await getDb();
   await db.read(); // Lire l'état actuel du disque
   
+  // Sécurité: S'assurer que les tableaux existent
+  db.data.games = db.data.games || [];
+  db.data.scores = db.data.scores || [];
+
   db.data.games = db.data.games.filter(g => g.id !== gameId);
   db.data.scores = db.data.scores.filter(s => s.gameId !== gameId);
   
@@ -419,14 +431,11 @@ export async function updateGameMetadata(gameFolderName: string, version: string
   const safeVersion = version.toLowerCase().replace(/[^a-z0-9-]/g, '-');
   const gameId = `${safeName}-${safeVersion}`;
 
-  // Pour le chemin de fichier (fs), on garde la casse originale si nécessaire, ou on utilise le nom du dossier
-  // Mais ici on utilise safeName qui est lowercase pour le path aussi (car createGameFolder utilise lowercase pour le dossier)
-  // Attention: Si le dossier physique n'est PAS lowercase, cela peut poser problème sur Linux.
-  // Mais createGameFolder force le lowercase pour le dossier.
   const dirPath = path.join(GAMES_DIR, gameFolderName.replace(/[^a-z0-9-]/g, '-'), version.replace(/[^a-z0-9-]/g, '-'));
 
   const db = await getDb();
   await db.read();
+  db.data.games = db.data.games || [];
 
   const game = db.data.games.find(g => g.id === gameId);
   if (game) {
@@ -460,16 +469,6 @@ export async function uploadGameThumbnail(gameName: string, version: string, for
   const filePath = path.join(GAMES_DIR, safeName, safeVersion, 'thumbnail.png');
 
   await fs.writeFile(filePath, buffer);
-
-  // Update DB metadata
-  /*
-  const db = await getDb();
-  await db.update(({ games }) => {
-      const gameId = `${safeName.toLowerCase()}-${safeVersion.toLowerCase()}`;
-      const game = games.find(g => g.id === gameId);
-      if(game) game.thumbnail = 'thumbnail.png';
-  });
-  */
 
   return { success: true, fileName: 'thumbnail.png' };
 }

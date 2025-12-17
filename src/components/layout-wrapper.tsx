@@ -1,35 +1,25 @@
 "use client";
 
 import { usePathname } from "next/navigation";
-import { MainNav } from "@/components/main-nav";
-import { UserNav } from "@/components/user-nav";
-import { cn } from "@/lib/utils";
+import { Header } from "@/components/header";
+import { Toaster } from "@/components/ui/sonner";
 
-export function LayoutWrapper({ children }: { children: React.ReactNode }) {
-    const pathname = usePathname();
-    const isGamePage = pathname.startsWith("/play/");
+interface LayoutWrapperProps {
+  children: React.ReactNode;
+}
 
-    return (
-        <div className="flex-col md:flex min-h-screen">
-            {/* Conditional Header */}
-            {!isGamePage && (
-                <div className="border-b">
-                    <div className="flex h-16 items-center px-4 container mx-auto">
-                        <MainNav className="mx-6" />
-                        <div className="ml-auto flex items-center space-x-4">
-                            <UserNav />
-                        </div>
-                    </div>
-                </div>
-            )}
-            
-            {/* Conditional Main Content Padding */}
-            <main className={cn(
-                "flex-1",
-                isGamePage ? "p-0 pt-0 space-y-0" : "space-y-4 p-8 pt-6"
-            )}>
-                {children}
-            </main>
-        </div>
-    );
+export function LayoutWrapper({ children }: LayoutWrapperProps) {
+  const pathname = usePathname();
+  // FIX: Check if pathname is not null before calling startsWith
+  const isGamePage = pathname ? pathname.startsWith("/play/") : false;
+
+  return (
+    <>
+      {!isGamePage && <Header />}
+      <main className={isGamePage ? "h-screen w-screen" : "flex-1"}>
+        {children}
+      </main>
+      <Toaster />
+    </>
+  );
 }

@@ -1,32 +1,28 @@
-import { JSONFilePreset } from 'lowdb/node';
+import { Low } from 'lowdb';
+import { JSONFile } from 'lowdb/node';
+import path from 'path';
 
-// --- STANDARD: ONE SOURCE OF TRUTH ---
-// Voir documentation/architecture_standard.md
+// --- SCHEMA DEFINITIONS ---
 
-// L'unité atomique du système est une "GameRelease" (Version Jouable).
-// La DB stocke une liste plate de ces releases.
 export interface GameRelease {
-  id: string;           // ID Unique Composite : "{gameName}-{versionName}" (ex: snake-v1)
-  name: string;         // Nom d'affichage du projet (ex: Snake)
-  version: string;      // Nom de la version (ex: v1)
-  path: string;         // Chemin relatif du launcher (ex: snake/v1)
-
-  description?: string;
+  id: string;
+  name: string;
+  version: string;
+  path: string;
+  description: string;
   thumbnail?: string;
-  width?: number;
-  height?: number;
-  createdAt?: string;
+  width: number;
+  height: number;
+  createdAt: string;
 }
 
-// Alias pour compatibilité existante, mais déprécié mentalement
-export type GameMetadata = GameRelease;
-
 export interface Score {
-  gameId: string;       // Doit correspondre à GameRelease.id
+  gameId: string;
   playerName: string;
   score: number;
   date: string;
-  userId?: string;      // Supabase UUID
+  // New fields for Supabase integration
+  userId?: string;
   userEmail?: string;
 }
 
@@ -35,9 +31,34 @@ export interface DatabaseData {
   scores: Score[];
 }
 
-const defaultData: DatabaseData = { games: [], scores: [] };
+// --- DATABASE SETUP ---
 
-// Singleton pour la connexion DB
-export const getDb = async () => {
-  return await JSONFilePreset<DatabaseData>('data/db.json', defaultData);
+const defaultData: DatabaseData = {
+  games: [],
+  scores: [],
 };
+
+// Determine the database file path
+const DATABASE_DIR = process.env.DATABASE_DIR || path.join(process.cwd(), 'data');
+const file = path.join(DATABASE_DIR, 'db.json');
+
+const adapter = new JSONFile<DatabaseData>(file);
+let db: Low<DatabaseData> | null = null;
+
+export async function getDb() {
+  if (db) {
+    await db.read();
+    return db;
+  }
+
+  db = new Low(adapter, defaultData);
+  await db.read();
+
+  // Initialize with default data if the file was empty
+  if (!db.data || Object.keys(db.data).length === 0) {
+    db.data = defaultData;
+    await db.write();
+  }
+
+  return db;
+}

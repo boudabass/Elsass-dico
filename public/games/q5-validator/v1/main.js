@@ -1,25 +1,27 @@
-// Règle d'or : Forcer le mode 2D pour une compatibilité maximale
-q5.mode = '2d';
+// main.js - Validation avec la stack p5.js + p5.play (classique)
 
-q5.setup = () => {
-    // Syntaxe q5.js correcte
-    new Canvas(800, 600);
-    frameRate(60);
-    
-    console.log("✅ q5 + p5play OK");
-    
-    // Syntaxe p5play correcte
-    let circle = new Sprite(width/2, height/2, 100);
-    circle.color = 'lime';
-    circle.stroke = null;
+let circleSprite;
 
-    if (window.GameSystem) {
-        window.GameSystem.Lifecycle.notifyReady();
-    }
-};
+function setup() {
+  // Syntaxe p5.js correcte
+  createCanvas(800, 600);
+  frameRate(30); // FPS limité pour la stabilité
+  
+  // Syntaxe p5.play classique correcte
+  circleSprite = createSprite(width / 2, height / 2, 150, 150);
+  circleSprite.shapeColor = color('lime');
+  circleSprite.strokeWeight = 0;
+  
+  console.log("✅ p5.js + p5.play (classique) OK");
 
-q5.draw = () => {
-    // Syntaxe q5.js correcte
-    clear();
-    // p5play dessine les sprites automatiquement
-};
+  if(window.GameSystem) {
+    window.GameSystem.Lifecycle.notifyReady();
+  }
+}
+
+function draw() {
+  background(10, 10, 30); // Fond bleu nuit
+  
+  // Commande obligatoire pour dessiner les sprites p5.play
+  drawSprites();
+}

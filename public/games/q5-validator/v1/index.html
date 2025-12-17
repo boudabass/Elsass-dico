@@ -2,16 +2,21 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <title>Q5 Validator</title>
+    <title>P5Play Validator</title>
     <style> body { margin: 0; overflow: hidden; background: #000; } </style>
     
     <script>
         window.DyadGame = { id: 'q5-validator-v1', version: 'v1' };
     </script>
 
-    <script src="https://unpkg.com/q5@3/q5.min.js"></script>
-    <script src="https://unpkg.com/p5play@3/build/p5play.min.js"></script>
+    <!-- 1️⃣ LIBRAIRIES : p5.js classique + p5.play classique -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.4/p5.min.js"></script>
+    <script src="https://p5play.org/packages/p5play.js"></script>
+
+    <!-- 2️⃣ CHARGEMENT DU SYSTÈME -->
     <script src="/system/system.js"></script>
+
+    <!-- 3️⃣ NOTRE JEU DE VALIDATION -->
     <script src="main.js"></script>
 </head>
 <body>

@@ -130,6 +130,10 @@ window.UIManager = {
                 <strong>--- MOUSE (WORLD) ---</strong><br>
                 World X: ${Math.round(info.worldX)}<br>
                 World Y: ${Math.round(info.worldY)}<br>
+                <br>
+                <strong>--- INPUT ---</strong><br>
+                Mouse Pressed: ${info.mousePressed ? 'TRUE' : 'FALSE'}<br>
+                Mouse Y: ${info.mouseY}<br>
             `;
         }
     }

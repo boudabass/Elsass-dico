@@ -51,6 +51,7 @@ function draw() {
     background(currentZone.bgColor);
     
     // 2. Déplacement Caméra (Drag & Pan)
+    // Si mouseIsPressed est TRUE et que la souris est en dessous du HUD (60px)
     if (mouseIsPressed && mouseY > 60) {
         camera.x -= (mouseX - pmouseX) / camera.zoom;
         camera.y -= (mouseY - pmouseY) / camera.zoom;
@@ -76,7 +77,7 @@ function draw() {
     strokeWeight(2);
     rect(0, 0, Config.zoneWidth, Config.zoneHeight);
     
-    if (Config.debug && Config.showGrid) { // Condition ajoutée
+    if (Config.debug && Config.showGrid) {
         drawSimpleGrid();
     }
     
@@ -92,7 +93,9 @@ function draw() {
             camX: camera.x,
             camY: camera.y,
             worldX: camera.mouse.x,
-            worldY: camera.mouse.y
+            worldY: camera.mouse.y,
+            mousePressed: mouseIsPressed, // Ajout de l'état de la souris
+            mouseY: mouseY // Ajout de la position Y de la souris
         });
     }
 }

@@ -42,6 +42,9 @@ function setup() {
     if (window.GameSystem && window.GameSystem.Lifecycle) {
         window.GameSystem.Lifecycle.notifyReady();
     }
+    
+    // Initialisation des systèmes
+    InputManager.init();
 }
 
 function draw() {
@@ -50,14 +53,7 @@ function draw() {
     // 1. Fond de la zone
     background(currentZone.bgColor);
     
-    // 2. Déplacement Caméra (Drag & Pan)
-    // Si mouseIsPressed est TRUE et que la souris est en dessous du HUD (60px)
-    if (mouseIsPressed && mouseY > 60) {
-        camera.x -= (mouseX - pmouseX) / camera.zoom;
-        camera.y -= (mouseY - pmouseY) / camera.zoom;
-    }
-    
-    // 3. Contraintes Caméra
+    // 2. Contraintes Caméra (Appliquées à chaque frame)
     const margin = Config.worldMargin;
     
     const minX = (width / 2) / camera.zoom - margin;
@@ -68,7 +64,7 @@ function draw() {
     camera.x = constrain(camera.x, minX, maxX);
     camera.y = constrain(camera.y, minY, maxY);
 
-    // 4. Rendu Monde
+    // 3. Rendu Monde
     camera.on();
     
     // Dessin du monde réel (la zone active)
@@ -84,7 +80,7 @@ function draw() {
     allSprites.draw();
     camera.off();
     
-    // 5. Mise à jour des infos de debug dans le UIManager
+    // 4. Mise à jour des infos de debug dans le UIManager
     if (Config.debug && window.UIManager) {
         UIManager.updateDebugInfo({
             zoneId: currentZone.id,
@@ -94,10 +90,17 @@ function draw() {
             camY: camera.y,
             worldX: camera.mouse.x,
             worldY: camera.mouse.y,
-            mousePressed: mouseIsPressed, // Ajout de l'état de la souris
-            mouseY: mouseY // Ajout de la position Y de la souris
+            mousePressed: mouseIsPressed,
+            mouseY: mouseY
         });
     }
+}
+
+// Fonction de rappel p5.js pour le drag
+function mouseDragged() {
+    InputManager.handleDrag();
+    // Empêcher le drag de sélectionner du texte ou de bouger l'iframe
+    return false; 
 }
 
 function mouseClicked() {

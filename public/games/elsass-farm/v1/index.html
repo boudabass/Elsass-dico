@@ -87,17 +87,22 @@
                         document.body.style.backgroundColor = 'black';
                         
                         setTimeout(() => {
-                            // La fonction changeZone est dans sketch.js, mais on peut la rendre globale si besoin
-                            // Pour l'instant, on simule juste le changement d'état et on ferme le modal
-                            window.ElsassFarm.state.currentZoneId = zone.id;
+                            // La fonction changeZone est dans sketch.js, on l'appelle via window
+                            if (window.changeZone) {
+                                // On passe null comme point d'entrée car la minimap ne donne pas de direction
+                                window.changeZone(zone.id, null); 
+                            } else {
+                                // Fallback si changeZone n'est pas global
+                                window.ElsassFarm.state.currentZoneId = zone.id;
+                                if (window.redraw) window.redraw();
+                            }
+                            
                             toggleMap();
                             
                             // Réinitialiser la couleur de fond du body après la transition
                             document.body.style.backgroundColor = '#111';
                             document.body.style.transition = 'none';
                             
-                            // Forcer le moteur p5.js à redessiner la nouvelle zone
-                            if (window.redraw) window.redraw(); 
                         }, 200);
                     }
                 };
@@ -139,7 +144,7 @@
         <!-- Mini-Map Modal -->
         <div id="map-modal" class="modal-overlay" onclick="if(event.target.id === 'map-modal') toggleMap()">
             <div class="modal-content">
-                <h3>Carte du Monde (3x3)</h3>
+                <h3 style="color: white;">Carte de Elsas Farm</h3>
                 <div id="minimap-grid" class="minimap-grid">
                     <!-- Tiles générées par JS -->
                 </div>

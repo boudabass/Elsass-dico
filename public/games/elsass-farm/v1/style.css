@@ -97,13 +97,6 @@ canvas {
     gap: 15px;
 }
 
-.menu-list {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    margin-top: 20px;
-}
-
 /* Mini-Map Grid */
 .minimap-grid {
     display: grid;
@@ -121,9 +114,9 @@ canvas {
     border-radius: 4px;
     cursor: pointer;
     transition: transform 0.1s, box-shadow 0.1s;
-    font-size: 12px;
+    font-size: 18px; /* Augmenté de 12px à 18px (50% plus grand que 12px) */
     font-weight: bold;
-    color: #eee;
+    color: black; /* Texte des lieux en noir */
     border: 2px solid transparent;
 }
 

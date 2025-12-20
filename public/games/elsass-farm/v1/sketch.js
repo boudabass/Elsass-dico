@@ -5,7 +5,7 @@ function getCurrentZone() {
 }
 
 // Fonction de changement de zone (Rendue globale)
-window.changeZone = function(newZoneId, entryPoint) {
+window.changeZone = function(newZoneId, entryPoint = 'C') { // Définit 'C' comme défaut pour la minimap
     const newZone = Config.zones.find(z => z.id === newZoneId);
     if (!newZone) {
         console.error(`Zone ID ${newZoneId} non trouvée.`);
@@ -21,16 +21,21 @@ window.changeZone = function(newZoneId, entryPoint) {
     else if (entryPoint === 'W') camera.x = Config.zoneWidth - 100;
     else if (entryPoint === 'E') camera.x = 100;
     else {
+        // Centre par défaut (Minimap)
         camera.x = Config.zoneWidth / 2;
         camera.y = Config.zoneHeight / 2;
     }
     
-    window.redraw();
+    // Forcer le redessinage
+    if (window.p5Instance) window.p5Instance.loop();
 }
 
 function setup() {
+    // Stocker l'instance p5 pour les appels externes
+    window.p5Instance = this; 
     createCanvas(windowWidth, windowHeight);
     
+    // Rendre redraw accessible globalement
     window.redraw = () => { loop(); };
     noLoop(); 
     
@@ -137,7 +142,6 @@ function mouseWheel(event) {
 
 function drawSimpleGrid() {
     stroke(Config.colors.gridLines);
-    // Assurer une épaisseur minimale de 0.5 pixel
     strokeWeight(max(0.5, 1 / camera.zoom)); 
     
     for (let x = 0; x <= Config.zoneWidth; x += 64) {

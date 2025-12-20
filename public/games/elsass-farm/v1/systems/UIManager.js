@@ -28,7 +28,6 @@ class UIManager {
     }
     
     syncDebugState() {
-        // Synchroniser l'état du switch au chargement
         const gridToggle = document.getElementById('toggle-grid');
         if (gridToggle) {
             gridToggle.checked = window.ElsassFarm.state.showGrid;
@@ -47,7 +46,6 @@ class UIManager {
     updateDebugCoords(worldX, worldY) {
         const el = document.getElementById('debug-coords');
         if (el && Config.debug) {
-            // Afficher les coordonnées du monde (non zoomées)
             el.innerText = `X: ${Math.round(worldX)}, Y: ${Math.round(worldY)}`;
         }
     }
@@ -83,7 +81,8 @@ class UIManager {
     
     toggleDebugGrid(checked) {
         window.ElsassFarm.state.showGrid = checked;
-        if (window.redraw) window.redraw();
+        // Utiliser window.changeZone pour forcer le redessinage
+        if (window.changeZone) window.changeZone(window.ElsassFarm.state.currentZoneId);
     }
 
     renderMinimap() {
@@ -112,6 +111,7 @@ class UIManager {
                     document.body.style.backgroundColor = 'black';
                     
                     setTimeout(() => {
+                        // Appel direct à la fonction globale changeZone
                         if (window.changeZone) {
                             window.changeZone(zone.id, 'C');
                         }

@@ -4,8 +4,8 @@ function getCurrentZone() {
     return Config.zones.find(z => z.id === zoneId);
 }
 
-// Fonction de changement de zone
-function changeZone(newZoneId, entryPoint) {
+// Fonction de changement de zone (Rendue globale)
+window.changeZone = function(newZoneId, entryPoint) {
     const newZone = Config.zones.find(z => z.id === newZoneId);
     if (!newZone) {
         console.error(`Zone ID ${newZoneId} non trouvée.`);
@@ -16,21 +16,26 @@ function changeZone(newZoneId, entryPoint) {
     window.ElsassFarm.state.currentZoneId = newZoneId;
     
     // Réinitialiser la position de la caméra dans la nouvelle zone
-    // La logique de spawn est conservée même si la transition se fait par la minimap
     if (entryPoint === 'N') camera.y = Config.zoneHeight - 100;
     else if (entryPoint === 'S') camera.y = 100;
     else if (entryPoint === 'W') camera.x = Config.zoneWidth - 100;
     else if (entryPoint === 'E') camera.x = 100;
     else {
+        // Si transition par minimap ('C'), centrer la caméra
         camera.x = Config.zoneWidth / 2;
         camera.y = Config.zoneHeight / 2;
     }
     
-    redraw();
+    // Forcer le redessinage
+    window.redraw();
 }
 
 function setup() {
     createCanvas(windowWidth, windowHeight);
+    
+    // Rendre redraw accessible globalement pour le HTML
+    window.redraw = () => { loop(); };
+    noLoop(); // Démarrer en mode pause pour le premier chargement
     
     // Config Physique
     world.gravity.y = 0; 
@@ -43,6 +48,9 @@ function setup() {
     if (window.GameSystem && window.GameSystem.Lifecycle) {
         window.GameSystem.Lifecycle.notifyReady();
     }
+    
+    // Démarrer la boucle de jeu après l'initialisation
+    loop();
 }
 
 function draw() {
@@ -77,8 +85,6 @@ function draw() {
     strokeWeight(2);
     rect(0, 0, Config.zoneWidth, Config.zoneHeight);
     
-    // drawPortals(currentZone); <-- SUPPRIMÉ
-    
     if (Config.debug) {
         drawSimpleGrid();
     }
@@ -96,11 +102,8 @@ function draw() {
     }
 }
 
-// drawPortals() est supprimée car elle n'est plus utilisée pour le rendu.
-
 function mouseClicked() {
-    // La logique de clic pour les portails est conservée ici, 
-    // mais elle est désormais invisible et redondante si la minimap est utilisée.
+    // La logique de clic pour les portails est conservée mais invisible.
     if (mouseY < 60) return;
     
     const worldX = camera.mouse.x;
@@ -110,29 +113,21 @@ function mouseClicked() {
     const { zoneWidth, zoneHeight, portal } = Config;
     const { size, margin } = portal;
     
-    // Vérification des portails (logique conservée pour la robustesse, mais non visible)
-    
-    // Nord
+    // Vérification des portails (logique conservée pour la robustesse)
     if (zone.neighbors.N && worldX > zoneWidth / 2 - size / 2 && worldX < zoneWidth / 2 + size / 2 && worldY < margin) {
-        changeZone(zone.neighbors.N, 'S');
+        window.changeZone(zone.neighbors.N, 'S');
         return;
     }
-    
-    // Sud
     if (zone.neighbors.S && worldX > zoneWidth / 2 - size / 2 && worldX < zoneWidth / 2 + size / 2 && worldY > zoneHeight - margin) {
-        changeZone(zone.neighbors.S, 'N');
+        window.changeZone(zone.neighbors.S, 'N');
         return;
     }
-    
-    // Ouest
     if (zone.neighbors.W && worldY > zoneHeight / 2 - size / 2 && worldY < zoneHeight / 2 + size / 2 && worldX < margin) {
-        changeZone(zone.neighbors.W, 'E');
+        window.changeZone(zone.neighbors.W, 'E');
         return;
     }
-    
-    // Est
     if (zone.neighbors.E && worldY > zoneHeight / 2 - size / 2 && worldY < zoneHeight / 2 + size / 2 && worldX > zoneWidth - margin) {
-        changeZone(zone.neighbors.E, 'W');
+        window.changeZone(zone.neighbors.E, 'W');
         return;
     }
     

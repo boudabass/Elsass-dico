@@ -21,9 +21,91 @@
 
     <!-- 3. JEU -->
     <script src="config.js"></script>
-    <script src="systems/UIManager.js"></script>
     <script src="main.js"></script>
     <script src="sketch.js"></script>
+
+    <script>
+        // Mappage Icônes (Simplifié pour l'instant)
+        const ZONE_ICONS = {
+            'N_W': '⛏', // Mine
+            'N_C': '⛰', // Montagne
+            'N_E': '🌲', // Forêt
+            'C_W': '🏙', // Ville
+            'C_C': '🏚', // Ferme Principale (Maison)
+            'C_E': '🌊', // Riviere
+            'S_W': '🐊', // Marais
+            'S_C': '🌾', // Champs Sud
+            'S_E': '🏖'  // Plage
+        };
+
+        function toggleMenu() {
+            const el = document.getElementById('menu-modal');
+            el.classList.toggle('active');
+        }
+        
+        function toggleMap() {
+            const el = document.getElementById('map-modal');
+            el.classList.toggle('active');
+            if (el.classList.contains('active')) {
+                renderMinimap();
+            }
+        }
+
+        function toggleFullscreen() {
+            if(window.GameSystem && window.GameSystem.Display) {
+                window.GameSystem.Display.toggleFullscreen();
+            }
+            toggleMenu();
+        }
+
+        function renderMinimap() {
+            const grid = document.getElementById('minimap-grid');
+            grid.innerHTML = ''; // Nettoyage
+            const currentZoneId = window.ElsassFarm.state.currentZoneId;
+
+            Config.zones.forEach(zone => {
+                const tile = document.createElement('div');
+                tile.className = 'minimap-tile';
+                tile.style.backgroundColor = zone.bgColor;
+                tile.setAttribute('data-zone-id', zone.id);
+
+                if (zone.id === currentZoneId) {
+                    tile.classList.add('current');
+                }
+
+                // Contenu
+                tile.innerHTML = `
+                    <span class="minimap-icon">${ZONE_ICONS[zone.id] || '❓'}</span>
+                    <span>${zone.name}</span>
+                `;
+
+                // Logique de clic (Téléportation)
+                tile.onclick = () => {
+                    if (zone.id !== currentZoneId) {
+                        // Simuler la transition (Fondu noir 0.2s)
+                        document.body.style.transition = 'background-color 0.2s';
+                        document.body.style.backgroundColor = 'black';
+                        
+                        setTimeout(() => {
+                            // La fonction changeZone est dans sketch.js, mais on peut la rendre globale si besoin
+                            // Pour l'instant, on simule juste le changement d'état et on ferme le modal
+                            window.ElsassFarm.state.currentZoneId = zone.id;
+                            toggleMap();
+                            
+                            // Réinitialiser la couleur de fond du body après la transition
+                            document.body.style.backgroundColor = '#111';
+                            document.body.style.transition = 'none';
+                            
+                            // Forcer le moteur p5.js à redessiner la nouvelle zone
+                            if (window.redraw) window.redraw(); 
+                        }, 200);
+                    }
+                };
+
+                grid.appendChild(tile);
+            });
+        }
+    </script>
 </head>
 <body>
     <!-- UI Layer -->
@@ -51,35 +133,18 @@
                     <button class="hud-btn" onclick="console.log('Save')">💾 Sauvegarder</button>
                     <button class="hud-btn" onclick="toggleMenu()">Reprendre</button>
                 </div>
-
-                <!-- Section Debug -->
-                <div class="debug-section">
-                    <div class="debug-header" onclick="toggleDebugOptions()">⚙️ DEBUG</div>
-                    <div id="debug-options" class="debug-options">
-                        <div class="debug-option">
-                            <span>Afficher Grille</span>
-                            <label class="switch">
-                                <input type="checkbox" id="toggle-grid" onchange="toggleDebugGrid(this.checked)">
-                                <span class="slider"></span>
-                            </label>
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
 
         <!-- Mini-Map Modal -->
         <div id="map-modal" class="modal-overlay" onclick="if(event.target.id === 'map-modal') toggleMap()">
             <div class="modal-content">
-                <h3>Carte de Elsass Farm</h3>
+                <h3>Carte du Monde (3x3)</h3>
                 <div id="minimap-grid" class="minimap-grid">
                     <!-- Tiles générées par JS -->
                 </div>
             </div>
         </div>
     </div>
-    
-    <!-- Debug Coordonnées (Affiché en bas à gauche) -->
-    <div id="debug-coords" style="position: absolute; bottom: 10px; left: 10px; color: white; font-size: 12px; pointer-events: none; z-index: 999;"></div>
 </body>
 </html>

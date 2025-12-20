@@ -6,10 +6,13 @@ const Config = {
     zoneHeight: 3000,
     worldMargin: 100, // Marge de vide visible autour du monde
     
+    // Grille
+    tileSize: 40, // Nouvelle taille de tuile
+    
     // Zones de Transition (Portails) - Gardé pour la logique de clic, mais non dessiné
     portal: {
-        size: 64 * 3,
-        margin: 64 * 3,
+        size: 40 * 3, // 3 tuiles de large/haut
+        margin: 40 * 3, // Marge pour centrer le portail
         color: 'rgba(255, 255, 255, 0.0)' // Rendu invisible
     },
     
@@ -30,7 +33,7 @@ const Config = {
         // Ligne 2 (Centre)
         { id: 'C_W', name: 'Ville', bgColor: '#f9ca24' }, // Jaune doux
         { id: 'C_C', name: 'Ferme Principale', bgColor: '#55efc4' }, // Turquoise clair (Zone de départ)
-        { id: 'C_E', name: 'Riviere', bgColor: '#70a1ff' }, // Bleu ciel
+        { id: 'C_E': 'Riviere', bgColor: '#70a1ff' }, // Bleu ciel
         // Ligne 3 (Sud)
         { id: 'S_W', name: 'Marais', bgColor: '#ff7979' }, // Rouge/Rose doux
         { id: 'S_C', name: 'Champs Sud', bgColor: '#ffbe76' }, // Orange pêche

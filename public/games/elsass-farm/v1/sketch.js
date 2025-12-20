@@ -74,7 +74,7 @@ function draw() {
     
     // Dessin du monde réel (la zone active)
     noFill();
-    stroke(0); // Bordure du monde en noir
+    stroke(0);
     strokeWeight(2);
     rect(0, 0, Config.zoneWidth, Config.zoneHeight);
     
@@ -96,16 +96,17 @@ function draw() {
 }
 
 function mouseClicked() {
-    // La logique de clic pour les portails est conservée ici, 
-    // mais elle est désormais invisible et redondante si la minimap est utilisée.
     if (mouseY < 60) return;
     
     const worldX = camera.mouse.x;
     const worldY = camera.mouse.y;
     
     const zone = getCurrentZone();
-    const { zoneWidth, zoneHeight, portal } = Config;
-    const { size, margin } = portal;
+    const { zoneWidth, zoneHeight, portal, tileSize } = Config;
+    
+    // Recalcul des marges et tailles basées sur tileSize=40
+    const size = tileSize * 3;
+    const margin = tileSize * 3;
     
     // Vérification des portails (logique conservée pour la robustesse, mais non visible)
     
@@ -148,13 +149,15 @@ function mouseWheel(event) {
 }
 
 function drawSimpleGrid() {
-    stroke(0); // Lignes de grille en noir
+    stroke(0);
     strokeWeight(1 / camera.zoom);
     
-    for (let x = 0; x <= Config.zoneWidth; x += 64) {
+    const step = Config.tileSize; // Utilisation de 40
+    
+    for (let x = 0; x <= Config.zoneWidth; x += step) {
         line(x, 0, x, Config.zoneHeight);
     }
-    for (let y = 0; y <= Config.zoneHeight; y += 64) {
+    for (let y = 0; y <= Config.zoneHeight; y += step) {
         line(0, y, Config.zoneWidth, y);
     }
 }

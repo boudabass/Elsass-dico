@@ -16,6 +16,7 @@ function changeZone(newZoneId, entryPoint) {
     window.ElsassFarm.state.currentZoneId = newZoneId;
     
     // Réinitialiser la position de la caméra dans la nouvelle zone
+    // La logique de spawn est conservée même si la transition se fait par la minimap
     if (entryPoint === 'N') camera.y = Config.zoneHeight - 100;
     else if (entryPoint === 'S') camera.y = 100;
     else if (entryPoint === 'W') camera.x = Config.zoneWidth - 100;
@@ -25,7 +26,6 @@ function changeZone(newZoneId, entryPoint) {
         camera.y = Config.zoneHeight / 2;
     }
     
-    // Forcer un redraw pour la nouvelle couleur de fond
     redraw();
 }
 
@@ -77,16 +77,8 @@ function draw() {
     strokeWeight(2);
     rect(0, 0, Config.zoneWidth, Config.zoneHeight);
     
-    // --- ORDRE DE RENDU CORRIGÉ ---
+    // drawPortals(currentZone); <-- SUPPRIMÉ
     
-    // Dessin des portails (zones cliquables)
-    if (Config.debug) {
-        drawPortals(currentZone); 
-    }
-    
-    // Dessin de la grille (doit être après les portails si les portails sont opaques, 
-    // ou avant si les portails sont transparents et on veut voir la grille à travers)
-    // Je dessine la grille après pour qu'elle soit visible sur le fond de la zone.
     if (Config.debug) {
         drawSimpleGrid();
     }
@@ -104,68 +96,13 @@ function draw() {
     }
 }
 
-// Dessine les zones de transition cliquables
-function drawPortals(zone) {
-    const { zoneWidth, zoneHeight, portal } = Config;
-    const { size, margin, color } = portal;
-    
-    // Dessin des zones cliquables (rectangles transparents)
-    fill(color);
-    noStroke();
-    
-    // Nord (Y=0)
-    if (zone.neighbors.N) {
-        rect(zoneWidth / 2 - size / 2, 0, size, margin);
-    }
-    
-    // Sud (Y=zoneHeight)
-    if (zone.neighbors.S) {
-        rect(zoneWidth / 2 - size / 2, zoneHeight - margin, size, margin);
-    }
-    
-    // Ouest (X=0)
-    if (zone.neighbors.W) {
-        rect(0, zoneHeight / 2 - size / 2, margin, size);
-    }
-    
-    // Est (X=zoneWidth)
-    if (zone.neighbors.E) {
-        rect(zoneWidth - margin, zoneHeight / 2 - size / 2, margin, size);
-    }
-    
-    // Dessin du texte (doit être fait après pour ne pas être écrasé par le fill)
-    fill(255);
-    textSize(20 / camera.zoom); // Taille du texte ajustée au zoom
-    textAlign(CENTER, CENTER);
-    
-    if (zone.neighbors.N) {
-        text(Config.zones.find(z => z.id === zone.neighbors.N).name, zoneWidth / 2, margin / 2);
-    }
-    if (zone.neighbors.S) {
-        text(Config.zones.find(z => z.id === zone.neighbors.S).name, zoneWidth / 2, zoneHeight - margin / 2);
-    }
-    if (zone.neighbors.W) {
-        // Rotation du texte pour les bords latéraux (optionnel, mais plus lisible)
-        push();
-        translate(margin / 2, zoneHeight / 2);
-        rotate(PI / 2);
-        text(Config.zones.find(z => z.id === zone.neighbors.W).name, 0, 0);
-        pop();
-    }
-    if (zone.neighbors.E) {
-        push();
-        translate(zoneWidth - margin / 2, zoneHeight / 2);
-        rotate(PI / 2);
-        text(Config.zones.find(z => z.id === zone.neighbors.E).name, 0, 0);
-        pop();
-    }
-}
+// drawPortals() est supprimée car elle n'est plus utilisée pour le rendu.
 
 function mouseClicked() {
-    // Ignorer les clics sur le HUD
+    // La logique de clic pour les portails est conservée ici, 
+    // mais elle est désormais invisible et redondante si la minimap est utilisée.
     if (mouseY < 60) return;
     
-    // Convertir les coordonnées écran en coordonnées monde
     const worldX = camera.mouse.x;
     const worldY = camera.mouse.y;
     
@@ -173,7 +110,7 @@ function mouseClicked() {
     const { zoneWidth, zoneHeight, portal } = Config;
     const { size, margin } = portal;
     
-    // Vérification des portails
+    // Vérification des portails (logique conservée pour la robustesse, mais non visible)
     
     // Nord
     if (zone.neighbors.N && worldX > zoneWidth / 2 - size / 2 && worldX < zoneWidth / 2 + size / 2 && worldY < margin) {

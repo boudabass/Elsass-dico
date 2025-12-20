@@ -16,13 +16,11 @@ function changeZone(newZoneId, entryPoint) {
     window.ElsassFarm.state.currentZoneId = newZoneId;
     
     // Réinitialiser la position de la caméra dans la nouvelle zone
-    // Si on vient du Nord, on spawn au Sud, etc.
     if (entryPoint === 'N') camera.y = Config.zoneHeight - 100;
     else if (entryPoint === 'S') camera.y = 100;
     else if (entryPoint === 'W') camera.x = Config.zoneWidth - 100;
     else if (entryPoint === 'E') camera.x = 100;
     else {
-        // Spawn par défaut au centre
         camera.x = Config.zoneWidth / 2;
         camera.y = Config.zoneHeight / 2;
     }
@@ -59,7 +57,7 @@ function draw() {
         camera.y -= (mouseY - pmouseY) / camera.zoom;
     }
     
-    // 3. Contraintes Caméra (Limitation au bord de la zone 3000x3000 + 100px de vide)
+    // 3. Contraintes Caméra
     const margin = Config.worldMargin;
     
     const minX = (width / 2) / camera.zoom - margin;
@@ -79,9 +77,18 @@ function draw() {
     strokeWeight(2);
     rect(0, 0, Config.zoneWidth, Config.zoneHeight);
     
+    // --- ORDRE DE RENDU CORRIGÉ ---
+    
+    // Dessin des portails (zones cliquables)
+    if (Config.debug) {
+        drawPortals(currentZone); 
+    }
+    
+    // Dessin de la grille (doit être après les portails si les portails sont opaques, 
+    // ou avant si les portails sont transparents et on veut voir la grille à travers)
+    // Je dessine la grille après pour qu'elle soit visible sur le fond de la zone.
     if (Config.debug) {
         drawSimpleGrid();
-        drawPortals(currentZone); // Dessin des zones cliquables
     }
     
     allSprites.draw();
@@ -102,51 +109,58 @@ function drawPortals(zone) {
     const { zoneWidth, zoneHeight, portal } = Config;
     const { size, margin, color } = portal;
     
+    // Dessin des zones cliquables (rectangles transparents)
     fill(color);
     noStroke();
     
     // Nord (Y=0)
     if (zone.neighbors.N) {
         rect(zoneWidth / 2 - size / 2, 0, size, margin);
-        fill(255);
-        textSize(20);
-        textAlign(CENTER, CENTER);
-        text(Config.zones.find(z => z.id === zone.neighbors.N).name, zoneWidth / 2, margin / 2);
-        fill(color); // Rétablir la couleur de fond
     }
     
     // Sud (Y=zoneHeight)
     if (zone.neighbors.S) {
         rect(zoneWidth / 2 - size / 2, zoneHeight - margin, size, margin);
-        fill(255);
-        textSize(20);
-        textAlign(CENTER, CENTER);
-        text(Config.zones.find(z => z.id === zone.neighbors.S).name, zoneWidth / 2, zoneHeight - margin / 2);
-        fill(color);
     }
     
     // Ouest (X=0)
     if (zone.neighbors.W) {
         rect(0, zoneHeight / 2 - size / 2, margin, size);
-        fill(255);
-        textSize(20);
-        textAlign(CENTER, CENTER);
-        text(Config.zones.find(z => z.id === zone.neighbors.W).name, margin / 2, zoneHeight / 2);
-        fill(color);
     }
     
     // Est (X=zoneWidth)
     if (zone.neighbors.E) {
         rect(zoneWidth - margin, zoneHeight / 2 - size / 2, margin, size);
-        fill(255);
-        textSize(20);
-        textAlign(CENTER, CENTER);
-        text(Config.zones.find(z => z.id === zone.neighbors.E).name, zoneWidth - margin / 2, zoneHeight / 2);
-        fill(color);
+    }
+    
+    // Dessin du texte (doit être fait après pour ne pas être écrasé par le fill)
+    fill(255);
+    textSize(20 / camera.zoom); // Taille du texte ajustée au zoom
+    textAlign(CENTER, CENTER);
+    
+    if (zone.neighbors.N) {
+        text(Config.zones.find(z => z.id === zone.neighbors.N).name, zoneWidth / 2, margin / 2);
+    }
+    if (zone.neighbors.S) {
+        text(Config.zones.find(z => z.id === zone.neighbors.S).name, zoneWidth / 2, zoneHeight - margin / 2);
+    }
+    if (zone.neighbors.W) {
+        // Rotation du texte pour les bords latéraux (optionnel, mais plus lisible)
+        push();
+        translate(margin / 2, zoneHeight / 2);
+        rotate(PI / 2);
+        text(Config.zones.find(z => z.id === zone.neighbors.W).name, 0, 0);
+        pop();
+    }
+    if (zone.neighbors.E) {
+        push();
+        translate(zoneWidth - margin / 2, zoneHeight / 2);
+        rotate(PI / 2);
+        text(Config.zones.find(z => z.id === zone.neighbors.E).name, 0, 0);
+        pop();
     }
 }
 
-// Gestion du clic pour la transition
 function mouseClicked() {
     // Ignorer les clics sur le HUD
     if (mouseY < 60) return;
@@ -163,29 +177,28 @@ function mouseClicked() {
     
     // Nord
     if (zone.neighbors.N && worldX > zoneWidth / 2 - size / 2 && worldX < zoneWidth / 2 + size / 2 && worldY < margin) {
-        changeZone(zone.neighbors.N, 'S'); // Entrée par le Sud
+        changeZone(zone.neighbors.N, 'S');
         return;
     }
     
     // Sud
     if (zone.neighbors.S && worldX > zoneWidth / 2 - size / 2 && worldX < zoneWidth / 2 + size / 2 && worldY > zoneHeight - margin) {
-        changeZone(zone.neighbors.S, 'N'); // Entrée par le Nord
+        changeZone(zone.neighbors.S, 'N');
         return;
     }
     
     // Ouest
     if (zone.neighbors.W && worldY > zoneHeight / 2 - size / 2 && worldY < zoneHeight / 2 + size / 2 && worldX < margin) {
-        changeZone(zone.neighbors.W, 'E'); // Entrée par l'Est
+        changeZone(zone.neighbors.W, 'E');
         return;
     }
     
     // Est
     if (zone.neighbors.E && worldY > zoneHeight / 2 - size / 2 && worldY < zoneHeight / 2 + size / 2 && worldX > zoneWidth - margin) {
-        changeZone(zone.neighbors.E, 'W'); // Entrée par l'Ouest
+        changeZone(zone.neighbors.E, 'W');
         return;
     }
     
-    // Si ce n'est pas un portail, c'est une interaction de jeu (à implémenter plus tard)
     console.log(`Clic Monde: ${Math.round(worldX)}, ${Math.round(worldY)}`);
 }
 
@@ -198,6 +211,18 @@ function mouseWheel(event) {
     camera.zoom = constrain(camera.zoom, Config.zoom.min, Config.zoom.max);
     
     return false;
+}
+
+function drawSimpleGrid() {
+    stroke(Config.colors.gridLines);
+    strokeWeight(1 / camera.zoom);
+    
+    for (let x = 0; x <= Config.zoneWidth; x += 64) {
+        line(x, 0, x, Config.zoneHeight);
+    }
+    for (let y = 0; y <= Config.zoneHeight; y += 64) {
+        line(0, y, Config.zoneWidth, y);
+    }
 }
 
 function windowResized() {

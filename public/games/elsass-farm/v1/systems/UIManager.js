@@ -30,6 +30,7 @@ class UIManager {
     syncDebugState() {
         const gridToggle = document.getElementById('toggle-grid');
         if (gridToggle) {
+            // Utiliser l'état initialisé dans main.js
             gridToggle.checked = window.ElsassFarm.state.showGrid;
         }
     }
@@ -81,7 +82,7 @@ class UIManager {
     
     toggleDebugGrid(checked) {
         window.ElsassFarm.state.showGrid = checked;
-        // Utiliser window.changeZone pour forcer le redessinage
+        // Forcer le redessinage via changeZone pour que p5.js mette à jour l'affichage
         if (window.changeZone) window.changeZone(window.ElsassFarm.state.currentZoneId);
     }
 

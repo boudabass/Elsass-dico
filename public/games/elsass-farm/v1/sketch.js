@@ -1,69 +1,63 @@
 function setup() {
-    createCanvas(Config.canvasWidth, Config.canvasHeight);
+    // Le canvas prend toute la taille de l'iframe/fenêtre
+    createCanvas(windowWidth, windowHeight);
     
     // Configuration p5.play
-    world.gravity.y = 0; // Pas de gravité (Top-down)
+    world.gravity.y = 0; 
     
-    // Signal au Hub que le jeu est prêt
+    // Caméra démarre au centre du monde (ou spawn joueur)
+    camera.x = Config.worldWidth / 2;
+    camera.y = Config.worldHeight / 2;
+    
+    // Signal Ready
     if (window.GameSystem && window.GameSystem.Lifecycle) {
         window.GameSystem.Lifecycle.notifyReady();
-        console.log("✅ Elsass Farm: Ready Signal Sent");
     }
 }
 
 function draw() {
-    background(Config.bgColor);
+    background(Config.colors.background);
     
-    // 1. Logique (Update)
-    // TODO: Update Systems
+    // 1. Déplacement Caméra (Temporaire pour test: Flèches ou Souris aux bords)
+    // Dans la version finale, la caméra suivra le joueur
+    if (mouseIsPressed) {
+        camera.x += (mouseX - width/2) * 0.05;
+        camera.y += (mouseY - height/2) * 0.05;
+    }
+
+    // 2. Rendu Monde (Soumis à la caméra)
+    camera.on();
     
-    // 2. Rendu (Draw)
+    // Dessin limites monde
+    noFill();
+    stroke(255);
+    rect(0, 0, Config.worldWidth, Config.worldHeight);
     
-    // Tri de profondeur pour l'isométrique (Y-Sort)
-    // Les objets plus bas (Y plus grand) sont dessinés après (devant)
-    allSprites.sort((a, b) => a.y - b.y);
+    // Dessin Grille simple (Repère visuel)
+    if (Config.debug) {
+        drawSimpleGrid();
+    }
     
     allSprites.draw();
+    camera.off();
     
-    // Debug Grille (si activé)
-    if (Config.debug) {
-        drawDebugGrid();
+    // 3. UI (Overlay HTML géré par index.html, rien ici)
+}
+
+function drawSimpleGrid() {
+    stroke(Config.colors.gridLines);
+    strokeWeight(1);
+    
+    // Lignes verticales
+    for (let x = 0; x <= Config.worldWidth; x += 64) {
+        line(x, 0, x, Config.worldHeight);
+    }
+    // Lignes horizontales
+    for (let y = 0; y <= Config.worldHeight; y += 64) {
+        line(0, y, Config.worldWidth, y);
     }
 }
 
-function drawDebugGrid() {
-    // Dessin simple de la grille isométrique pour repère
-    stroke(255, 50);
-    noFill();
-    
-    const cols = Config.grid.cols;
-    const rows = Config.grid.rows;
-    const size = Config.grid.tileSize;
-    const originX = Config.grid.originX;
-    const originY = Config.grid.originY;
-    
-    for (let x = 0; x < cols; x++) {
-        for (let y = 0; y < rows; y++) {
-            // Conversion Iso
-            // ScreenX = (x - y) * width / 2
-            // ScreenY = (x + y) * height / 2
-            
-            // Note: p5.play gère les sprites, ici c'est juste du dessin ligne pour visualiser
-            let isoX = originX + (x - y) * size;
-            let isoY = originY + (x + y) * (size / 2);
-            
-            // Dessin d'un losange
-            beginShape();
-            vertex(isoX, isoY);
-            vertex(isoX + size, isoY + size/2);
-            vertex(isoX, isoY + size);
-            vertex(isoX - size, isoY + size/2);
-            endShape(CLOSE);
-        }
-    }
-}
-
-function touchStarted() {
-    // TODO: Gestionnaire de Tap global
-    // Convertir Screen X/Y -> Grid X/Y
+function windowResized() {
+    resizeCanvas(windowWidth, windowHeight);
 }

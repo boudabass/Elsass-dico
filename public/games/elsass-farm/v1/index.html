@@ -5,25 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>Elsass Farm</title>
     
-    <!-- Styles -->
     <link rel="stylesheet" href="style.css">
-    
-    <style>
-        body { 
-            margin: 0; 
-            overflow: hidden; 
-            background: #000; 
-            display: flex; 
-            justify-content: center; 
-            align-items: center; 
-            height: 100vh;
-            touch-action: none; /* Empêche le zoom/scroll natif */
-        }
-        canvas { 
-            display: block; 
-            box-shadow: 0 0 20px rgba(0,0,0,0.5);
-        }
-    </style>
     
     <!-- 1. LIBRAIRIES -->
     <script src="https://cdn.jsdelivr.net/npm/p5@1.11.4/lib/p5.js"></script>
@@ -31,7 +13,7 @@
     <script src="https://p5play.org/v3/planck.min.js"></script>
     <script src="https://p5play.org/v3/p5play.js"></script>
 
-    <!-- 2. CONFIGURATION SYSTEM -->
+    <!-- 2. SYSTEME -->
     <script>
         window.DyadGame = { id: 'elsass-farm-v1', version: 'v1' };
     </script>
@@ -41,9 +23,24 @@
     <script src="config.js"></script>
     <script src="main.js"></script>
     <script src="sketch.js"></script>
+
+    <script>
+        // Logique UI simple
+        function toggleMenu() {
+            const el = document.getElementById('menu-modal');
+            el.classList.toggle('active');
+        }
+        
+        function toggleFullscreen() {
+            if(window.GameSystem && window.GameSystem.Display) {
+                window.GameSystem.Display.toggleFullscreen();
+            }
+            toggleMenu(); // Fermer le menu après action
+        }
+    </script>
 </head>
 <body>
-    <!-- UI Layer HTML (Overlay) -->
+    <!-- UI Layer -->
     <div id="ui-layer">
         <div class="hud-bar">
             <div class="hud-group">
@@ -54,16 +51,19 @@
                 <span>🌅 J<span id="val-day">1</span> <span id="val-time">6:00</span></span>
             </div>
             <div class="hud-group">
-                <button onclick="console.log('Menu')">≡</button>
+                <button class="hud-btn" onclick="toggleMenu()">≡ MENU</button>
             </div>
         </div>
         
-        <!-- Placeholder Modal -->
-        <div id="modal-container" class="modal-overlay">
+        <!-- Menu Principal Modal -->
+        <div id="menu-modal" class="modal-overlay">
             <div class="modal-content">
-                <h3 id="modal-title">Titre</h3>
-                <div id="modal-body">Contenu...</div>
-                <button onclick="document.getElementById('modal-container').classList.remove('active')">Fermer</button>
+                <h3>PAUSE</h3>
+                <div class="menu-list">
+                    <button class="hud-btn" onclick="toggleFullscreen()">⛶ Plein Écran</button>
+                    <button class="hud-btn" onclick="console.log('Save')">💾 Sauvegarder</button>
+                    <button class="hud-btn" onclick="toggleMenu()">Reprendre</button>
+                </div>
             </div>
         </div>
     </div>

@@ -9,7 +9,6 @@ body {
 
 canvas {
     display: block;
-    /* Le canvas n'a plus de box-shadow ou margin car il est fullscreen */
 }
 
 /* UI Overlay Container */
@@ -87,9 +86,15 @@ canvas {
     border: 2px solid #95a5a6;
     border-radius: 8px;
     padding: 20px;
-    width: 300px;
+    width: 80vw; /* 70-80% largeur */
+    max-width: 600px;
+    height: 50vh; /* 50-60% hauteur */
+    max-height: 400px;
     text-align: center;
     box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
 }
 
 .menu-list {
@@ -97,4 +102,41 @@ canvas {
     flex-direction: column;
     gap: 10px;
     margin-top: 20px;
+}
+
+/* Mini-Map Grid */
+.minimap-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 5px;
+    flex-grow: 1;
+}
+
+.minimap-tile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: transform 0.1s, box-shadow 0.1s;
+    font-size: 12px;
+    font-weight: bold;
+    color: #eee;
+    border: 2px solid transparent;
+}
+
+.minimap-tile:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+}
+
+.minimap-tile.current {
+    border: 3px solid #f39c12; /* Bordure jaune pour zone actuelle */
+}
+
+.minimap-icon {
+    font-size: 32px;
+    margin-bottom: 5px;
 }

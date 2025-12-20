@@ -21,102 +21,9 @@
 
     <!-- 3. JEU -->
     <script src="config.js"></script>
+    <script src="systems/UIManager.js"></script>
     <script src="main.js"></script>
     <script src="sketch.js"></script>
-
-    <script>
-        // Mappage Icônes (Simplifié pour l'instant)
-        const ZONE_ICONS = {
-            'N_W': '⛏', // Mine
-            'N_C': '⛰', // Montagne
-            'N_E': '🌲', // Forêt
-            'C_W': '🏙', // Ville
-            'C_C': '🏚', // Ferme Principale (Maison)
-            'C_E': '🌊', // Riviere
-            'S_W': '🐊', // Marais
-            'S_C': '🌾', // Champs Sud
-            'S_E': '🏖'  // Plage
-        };
-
-        function toggleMenu() {
-            const el = document.getElementById('menu-modal');
-            el.classList.toggle('active');
-        }
-        
-        function toggleMap() {
-            const el = document.getElementById('map-modal');
-            el.classList.toggle('active');
-            if (el.classList.contains('active')) {
-                renderMinimap();
-            }
-        }
-
-        function toggleFullscreen() {
-            if(window.GameSystem && window.GameSystem.Display) {
-                window.GameSystem.Display.toggleFullscreen();
-            }
-            toggleMenu();
-        }
-
-        function renderMinimap() {
-            const grid = document.getElementById('minimap-grid');
-            grid.innerHTML = ''; // Nettoyage
-            const currentZoneId = window.ElsassFarm.state.currentZoneId;
-
-            Config.zones.forEach(zone => {
-                const tile = document.createElement('div');
-                tile.className = 'minimap-tile';
-                tile.style.backgroundColor = zone.bgColor;
-                tile.setAttribute('data-zone-id', zone.id);
-
-                if (zone.id === currentZoneId) {
-                    tile.classList.add('current');
-                }
-
-                // Contenu
-                tile.innerHTML = `
-                    <span class="minimap-icon">${ZONE_ICONS[zone.id] || '❓'}</span>
-                    <span>${zone.name}</span>
-                `;
-
-                // Logique de clic (Téléportation)
-                tile.onclick = () => {
-                    if (zone.id !== currentZoneId) {
-                        // Simuler la transition (Fondu noir 0.2s)
-                        document.body.style.transition = 'background-color 0.2s';
-                        document.body.style.backgroundColor = 'black';
-                        
-                        setTimeout(() => {
-                            // Utiliser la fonction changeZone du sketch.js
-                            // On utilise un point d'entrée par défaut 'C' (Centre) car la minimap ne donne pas de direction
-                            if (window.changeZone) {
-                                window.changeZone(zone.id, 'C');
-                            } else {
-                                window.ElsassFarm.state.currentZoneId = zone.id;
-                                if (window.redraw) window.redraw();
-                            }
-                            
-                            toggleMap();
-                            
-                            // Réinitialiser la couleur de fond du body après la transition
-                            document.body.style.backgroundColor = '#111';
-                            document.body.style.transition = 'none';
-                            
-                        }, 200);
-                    }
-                };
-
-                grid.appendChild(tile);
-            });
-        }
-        
-        // Rendre changeZone accessible globalement pour le HTML
-        window.changeZone = (newZoneId, entryPoint) => {
-            // Cette fonction sera remplacée par celle de sketch.js après le chargement
-            // Mais on la définit ici pour éviter les erreurs de référence dans le HTML
-            console.warn("changeZone not fully initialized yet.");
-        };
-    </script>
 </head>
 <body>
     <!-- UI Layer -->
@@ -130,6 +37,7 @@
                 <span>🌅 J<span id="val-day">1</span> <span id="val-time">6:00</span></span>
             </div>
             <div class="hud-group">
+                <!-- Les fonctions sont maintenant globales via UIManager.js -->
                 <button class="hud-btn" onclick="toggleMap()">🗺️ MAP</button>
                 <button class="hud-btn" onclick="toggleMenu()">≡ MENU</button>
             </div>

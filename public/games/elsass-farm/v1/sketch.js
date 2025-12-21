@@ -112,7 +112,6 @@ function setup() {
     }
     
     // --- GESTION DES INPUTS UNIFIÉE (DOM) ---
-    // Utiliser p5Canvas.elt pour obtenir la référence DOM
     const canvasElement = p5Canvas.elt;
 
     // Fonction utilitaire pour obtenir les coordonnées (souris ou touch)
@@ -172,7 +171,6 @@ function setup() {
     canvasElement.addEventListener('mousedown', handleStart);
     canvasElement.addEventListener('touchstart', handleStart, { passive: false });
 
-    // Les écouteurs de mouvement doivent être sur la fenêtre/document pour ne pas perdre le drag si la souris sort du canvas
     document.addEventListener('mousemove', handleMove);
     document.addEventListener('touchmove', handleMove, { passive: false });
 
@@ -205,45 +203,36 @@ window.redraw = function() {
 function draw() {
     const currentZone = getCurrentZone();
 
-    // DEBUG AVANT TOUT
-    console.log('draw() - zone:', GameState?.currentZoneId);
-    console.log('Config.zones:', Config?.zones?.length);
-    
-    // Fond SIMPLE (PAS camera.on())
-    background(50, 100, 50); // Vert ferme fixe
-    
-    // Grille SANS caméra
-    stroke(255, 0, 0);
-    strokeWeight(2);
-    for(let i = 0; i < 10; i++) {
-      line(i*64, 0, i*64, 640);
-      line(0, i*64, 640, i*64);
-    }
-    
-    // Texte debug
-    fill(255);
-    textSize(20);
-    text(`Zone: ${GameState?.currentZoneId || 'NULL'}`, 20, 30);
+    // 1. Fond de la zone
+    background(currentZone.bgColor);
 
-    // Mise à jour des infos de debug
-    if (Config.debug && window.UIManager) {
-        UIManager.updateDebugInfo({
-            zoneId: currentZone.id,
-            zoneName: currentZone.name,
-            zoom: camera.zoom,
-            camX: camera.x,
-            camY: camera.y,
-            worldX: mouseX,
-            worldY: mouseY,
-            mousePressed: InputManager.isDragging,
-            mouseY: mouseY
-        });
+    // 2. Rendu Monde (Active la transformation de la caméra)
+    camera.on();
+
+    // Dessin du monde réel (la zone active)
+    noFill();
+    stroke(0);
+    strokeWeight(2);
+    rect(0, 0, Config.zoneWidth, Config.zoneHeight);
+
+    if (Config.debug && Config.showGrid) {
+        drawSimpleGrid();
     }
-    
-    // Contrainte de la caméra (appelée à chaque frame)
+
+    // Dessiner la grille de farming (si dans une zone de ferme)
+    if (GridSystem && (GameState.currentZoneId === 'C_C' ||
+        GameState.currentZoneId.includes('N') ||
+        GameState.currentZoneId.includes('S'))) {
+        GridSystem.draw();
+    }
+
+    allSprites.draw();
+    camera.off(); // Désactive la transformation
+
+    // 3. Mise à jour de la caméra (Déplacement et Contraintes)
     InputManager.constrainCamera(camera, width, height);
 
-    // Mise à jour automatique du temps (Game Loop)
+    // 4. Mise à jour automatique du temps (Game Loop)
     if (window.TimeManager) {
         if (typeof window.lastTimeCheck === 'undefined') {
             window.lastTimeCheck = millis();
@@ -253,6 +242,21 @@ function draw() {
             window.lastTimeCheck = millis();
             TimeManager.advanceMinutes(TimeManager.MINUTES_PER_REAL_SECOND);
         }
+    }
+
+    // 5. Mise à jour des infos de debug dans le UIManager (HUD fixe)
+    if (Config.debug && window.UIManager) {
+        UIManager.updateDebugInfo({
+            zoneId: currentZone.id,
+            zoneName: currentZone.name,
+            zoom: camera.zoom,
+            camX: camera.x,
+            camY: camera.y,
+            worldX: mouse.x,
+            worldY: mouse.y,
+            mousePressed: InputManager.isDragging,
+            mouseY: mouseY
+        });
     }
 }
 

@@ -153,7 +153,8 @@ function mousePressed() {
     // Laisser p5.js gérer le reste
 }
 
-function mouseClicked() {
+// Logique de clic du monde (extraite pour être réutilisée)
+function handleWorldClick() {
     // Ne pas traiter le clic si une modale est ouverte
     if (UIManager && UIManager.isAnyModalOpen()) {
         InputManager.hasMoved = false; // Réinitialiser
@@ -223,6 +224,11 @@ function mouseClicked() {
     }
 }
 
+function mouseClicked() {
+    // Sur desktop, p5.js appelle mouseClicked après un clic simple
+    handleWorldClick();
+}
+
 function mouseWheel(event) {
     if (mouseY < 60) return true;
 
@@ -266,12 +272,20 @@ function touchMoved() {
 function touchEnded() {
     console.log('touchEnded - hasMoved:', InputManager.hasMoved);
     
+    // Si aucun mouvement significatif n'a eu lieu, forcer l'exécution de la logique de clic
+    if (!InputManager.hasMoved) {
+        // Nous devons simuler le clic ici car p5.js peut ne pas appeler mouseClicked
+        // si touchMoved a été appelé, même pour un mouvement minime.
+        handleWorldClick();
+    }
+    
     // Réinitialiser les positions de départ
     InputManager.touchStartTime = null;
     InputManager.touchStartX = null;
     InputManager.touchStartY = null;
     
-    // Laisser p5.js convertir en mouseClicked
+    // Laisser p5.js gérer le reste (qui peut appeler mouseClicked si le mouvement était minime)
+    // Mais notre garde dans handleWorldClick empêchera la double exécution.
     return true;
 }
 

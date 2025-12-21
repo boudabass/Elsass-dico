@@ -200,33 +200,41 @@ window.redraw = function() {
 };
 
 function draw() {
-    const currentZone = getCurrentZone();
-
-    // 1. Fond de la zone
-    background(currentZone.bgColor);
-
-    // 2. Rendu Monde (Active la transformation de la caméra)
-    camera.on();
-
-    // Dessin du monde réel (la zone active)
-    noFill();
-    stroke(0);
+    // DEBUG AVANT TOUT
+    console.log('draw() - zone:', GameState?.currentZoneId);
+    console.log('Config.zones:', Config?.zones?.length);
+    
+    // Fond SIMPLE (PAS camera.on())
+    background(50, 100, 50); // Vert ferme fixe
+    
+    // Grille SANS caméra
+    stroke(255, 0, 0);
     strokeWeight(2);
-    rect(0, 0, Config.zoneWidth, Config.zoneHeight);
-
-    if (Config.debug && Config.showGrid) {
-        drawSimpleGrid();
+    for(let i = 0; i < 10; i++) {
+      line(i*64, 0, i*64, 640);
+      line(0, i*64, 640, i*64);
     }
+    
+    // Texte debug
+    fill(255);
+    textSize(20);
+    text(`Zone: ${GameState?.currentZoneId || 'NULL'}`, 20, 30);
 
-    if (GridSystem && (GameState.currentZoneId === 'C_C' ||
-        GameState.currentZoneId.includes('N') ||
-        GameState.currentZoneId.includes('S'))) {
-        GridSystem.draw();
+    // Mise à jour des infos de debug
+    if (Config.debug && window.UIManager) {
+        UIManager.updateDebugInfo({
+            zoneId: GameState?.currentZoneId || 'NULL',
+            zoneName: getCurrentZone()?.name || 'NULL',
+            zoom: camera.zoom,
+            camX: camera.x,
+            camY: camera.y,
+            worldX: mouseX,
+            worldY: mouseY,
+            mousePressed: InputManager.isDragging,
+            mouseY: mouseY
+        });
     }
-
-    allSprites.draw();
-    camera.off();
-
+    
     // Contrainte de la caméra (appelée à chaque frame)
     InputManager.constrainCamera(camera, width, height);
 
@@ -240,21 +248,6 @@ function draw() {
             window.lastTimeCheck = millis();
             TimeManager.advanceMinutes(TimeManager.MINUTES_PER_REAL_SECOND);
         }
-    }
-
-    // Mise à jour des infos de debug
-    if (Config.debug && window.UIManager) {
-        UIManager.updateDebugInfo({
-            zoneId: currentZone.id,
-            zoneName: currentZone.name,
-            zoom: camera.zoom,
-            camX: camera.x,
-            camY: camera.y,
-            worldX: mouse.x,
-            worldY: mouse.y,
-            mousePressed: InputManager.isDragging, // Utiliser l'état du manager
-            mouseY: mouseY
-        });
     }
 }
 

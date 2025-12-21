@@ -1,4 +1,3 @@
-Plantes. Mise à jour des onglets.">
 <!DOCTYPE html>
 <html lang="fr">
 
@@ -148,14 +147,14 @@ Plantes. Mise à jour des onglets.">
 
         // Sauvegarde/Chargement
         function saveGame() {
-            if (SaveManager) {
+            if (window.SaveManager) {
                 SaveManager.save();
                 alert('✅ Partie sauvegardée !');
             }
         }
 
         function loadGame() {
-            if (SaveManager) {
+            if (window.SaveManager) {
                 SaveManager.load();
             }
         }
@@ -218,9 +217,13 @@ Plantes. Mise à jour des onglets.">
         // Charger automatiquement au démarrage
         window.addEventListener('load', function () {
             setTimeout(function () {
-                if (SaveManager && SaveManager.hasSave()) {
+                // Utilisation sécurisée de SaveManager avec typeof
+                if (typeof SaveManager !== 'undefined') {
+                    // On lance le chargement intelligent (Local puis Serveur)
+                    // Plus besoin de hasSave() ici car load() gère le fallback
                     SaveManager.load();
-                    console.log("🎮 Sauvegarde chargée automatiquement");
+                } else {
+                    console.error("❌ SaveManager non chargé !");
                 }
             }, 500);
         });

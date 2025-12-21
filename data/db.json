@@ -48,5 +48,7344 @@
       "userEmail": "lacolleacervelle+admin@gmail.com"
     }
   ],
-  "saves": []
+  "saves": [
+    {
+      "gameId": "elsass-farm-v1",
+      "userId": "75ed45e6-9aed-442c-a958-4ecb630272a4",
+      "updatedAt": "2025-12-21T16:50:23.697Z",
+      "data": {
+        "energy": 80,
+        "gold": 0,
+        "day": 1,
+        "hour": 7,
+        "minute": 18,
+        "season": "SPRING",
+        "currentZoneId": "C_C",
+        "grids": {
+          "C_C": [
+            {
+              "id": 0,
+              "row": 0,
+              "col": 0,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 1,
+              "row": 0,
+              "col": 1,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 2,
+              "row": 0,
+              "col": 2,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 3,
+              "row": 0,
+              "col": 3,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 4,
+              "row": 0,
+              "col": 4,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 5,
+              "row": 0,
+              "col": 5,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 6,
+              "row": 0,
+              "col": 6,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 7,
+              "row": 0,
+              "col": 7,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 8,
+              "row": 0,
+              "col": 8,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 9,
+              "row": 0,
+              "col": 9,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 10,
+              "row": 1,
+              "col": 0,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 11,
+              "row": 1,
+              "col": 1,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 12,
+              "row": 1,
+              "col": 2,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 13,
+              "row": 1,
+              "col": 3,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 14,
+              "row": 1,
+              "col": 4,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 15,
+              "row": 1,
+              "col": 5,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 16,
+              "row": 1,
+              "col": 6,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 17,
+              "row": 1,
+              "col": 7,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 18,
+              "row": 1,
+              "col": 8,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 19,
+              "row": 1,
+              "col": 9,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 20,
+              "row": 2,
+              "col": 0,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 21,
+              "row": 2,
+              "col": 1,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 22,
+              "row": 2,
+              "col": 2,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 23,
+              "row": 2,
+              "col": 3,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 24,
+              "row": 2,
+              "col": 4,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 25,
+              "row": 2,
+              "col": 5,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 26,
+              "row": 2,
+              "col": 6,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 27,
+              "row": 2,
+              "col": 7,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 28,
+              "row": 2,
+              "col": 8,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 29,
+              "row": 2,
+              "col": 9,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 30,
+              "row": 3,
+              "col": 0,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 31,
+              "row": 3,
+              "col": 1,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 32,
+              "row": 3,
+              "col": 2,
+              "state": "PLANTED",
+              "watered": true,
+              "seedType": "potato",
+              "growthStage": 0,
+              "season": "SPRING"
+            },
+            {
+              "id": 33,
+              "row": 3,
+              "col": 3,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 34,
+              "row": 3,
+              "col": 4,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 35,
+              "row": 3,
+              "col": 5,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 36,
+              "row": 3,
+              "col": 6,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 37,
+              "row": 3,
+              "col": 7,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 38,
+              "row": 3,
+              "col": 8,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 39,
+              "row": 3,
+              "col": 9,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 40,
+              "row": 4,
+              "col": 0,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 41,
+              "row": 4,
+              "col": 1,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 42,
+              "row": 4,
+              "col": 2,
+              "state": "PLANTED",
+              "watered": true,
+              "seedType": "potato",
+              "growthStage": 0,
+              "season": "SPRING"
+            },
+            {
+              "id": 43,
+              "row": 4,
+              "col": 3,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 44,
+              "row": 4,
+              "col": 4,
+              "state": "PLANTED",
+              "watered": false,
+              "seedType": "potato",
+              "growthStage": 0,
+              "season": "SPRING"
+            },
+            {
+              "id": 45,
+              "row": 4,
+              "col": 5,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 46,
+              "row": 4,
+              "col": 6,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 47,
+              "row": 4,
+              "col": 7,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 48,
+              "row": 4,
+              "col": 8,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 49,
+              "row": 4,
+              "col": 9,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 50,
+              "row": 5,
+              "col": 0,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 51,
+              "row": 5,
+              "col": 1,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 52,
+              "row": 5,
+              "col": 2,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 53,
+              "row": 5,
+              "col": 3,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 54,
+              "row": 5,
+              "col": 4,
+              "state": "PLANTED",
+              "watered": false,
+              "seedType": "potato",
+              "growthStage": 0,
+              "season": "SPRING"
+            },
+            {
+              "id": 55,
+              "row": 5,
+              "col": 5,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 56,
+              "row": 5,
+              "col": 6,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 57,
+              "row": 5,
+              "col": 7,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 58,
+              "row": 5,
+              "col": 8,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 59,
+              "row": 5,
+              "col": 9,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 60,
+              "row": 6,
+              "col": 0,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 61,
+              "row": 6,
+              "col": 1,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 62,
+              "row": 6,
+              "col": 2,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 63,
+              "row": 6,
+              "col": 3,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 64,
+              "row": 6,
+              "col": 4,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 65,
+              "row": 6,
+              "col": 5,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 66,
+              "row": 6,
+              "col": 6,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 67,
+              "row": 6,
+              "col": 7,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 68,
+              "row": 6,
+              "col": 8,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 69,
+              "row": 6,
+              "col": 9,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 70,
+              "row": 7,
+              "col": 0,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 71,
+              "row": 7,
+              "col": 1,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 72,
+              "row": 7,
+              "col": 2,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 73,
+              "row": 7,
+              "col": 3,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 74,
+              "row": 7,
+              "col": 4,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 75,
+              "row": 7,
+              "col": 5,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 76,
+              "row": 7,
+              "col": 6,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 77,
+              "row": 7,
+              "col": 7,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 78,
+              "row": 7,
+              "col": 8,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 79,
+              "row": 7,
+              "col": 9,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 80,
+              "row": 8,
+              "col": 0,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 81,
+              "row": 8,
+              "col": 1,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 82,
+              "row": 8,
+              "col": 2,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 83,
+              "row": 8,
+              "col": 3,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 84,
+              "row": 8,
+              "col": 4,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 85,
+              "row": 8,
+              "col": 5,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 86,
+              "row": 8,
+              "col": 6,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 87,
+              "row": 8,
+              "col": 7,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 88,
+              "row": 8,
+              "col": 8,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 89,
+              "row": 8,
+              "col": 9,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 90,
+              "row": 9,
+              "col": 0,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 91,
+              "row": 9,
+              "col": 1,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 92,
+              "row": 9,
+              "col": 2,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 93,
+              "row": 9,
+              "col": 3,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 94,
+              "row": 9,
+              "col": 4,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 95,
+              "row": 9,
+              "col": 5,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 96,
+              "row": 9,
+              "col": 6,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 97,
+              "row": 9,
+              "col": 7,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 98,
+              "row": 9,
+              "col": 8,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 99,
+              "row": 9,
+              "col": 9,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            }
+          ],
+          "N_W": [
+            {
+              "id": 0,
+              "row": 0,
+              "col": 0,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 1,
+              "row": 0,
+              "col": 1,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 2,
+              "row": 0,
+              "col": 2,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 3,
+              "row": 0,
+              "col": 3,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 4,
+              "row": 0,
+              "col": 4,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 5,
+              "row": 0,
+              "col": 5,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 6,
+              "row": 0,
+              "col": 6,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 7,
+              "row": 0,
+              "col": 7,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 8,
+              "row": 0,
+              "col": 8,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 9,
+              "row": 0,
+              "col": 9,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 10,
+              "row": 1,
+              "col": 0,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 11,
+              "row": 1,
+              "col": 1,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 12,
+              "row": 1,
+              "col": 2,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 13,
+              "row": 1,
+              "col": 3,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 14,
+              "row": 1,
+              "col": 4,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 15,
+              "row": 1,
+              "col": 5,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 16,
+              "row": 1,
+              "col": 6,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 17,
+              "row": 1,
+              "col": 7,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 18,
+              "row": 1,
+              "col": 8,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 19,
+              "row": 1,
+              "col": 9,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 20,
+              "row": 2,
+              "col": 0,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 21,
+              "row": 2,
+              "col": 1,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 22,
+              "row": 2,
+              "col": 2,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 23,
+              "row": 2,
+              "col": 3,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 24,
+              "row": 2,
+              "col": 4,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 25,
+              "row": 2,
+              "col": 5,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 26,
+              "row": 2,
+              "col": 6,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 27,
+              "row": 2,
+              "col": 7,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 28,
+              "row": 2,
+              "col": 8,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 29,
+              "row": 2,
+              "col": 9,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 30,
+              "row": 3,
+              "col": 0,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 31,
+              "row": 3,
+              "col": 1,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 32,
+              "row": 3,
+              "col": 2,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 33,
+              "row": 3,
+              "col": 3,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 34,
+              "row": 3,
+              "col": 4,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 35,
+              "row": 3,
+              "col": 5,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 36,
+              "row": 3,
+              "col": 6,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 37,
+              "row": 3,
+              "col": 7,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 38,
+              "row": 3,
+              "col": 8,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 39,
+              "row": 3,
+              "col": 9,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 40,
+              "row": 4,
+              "col": 0,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 41,
+              "row": 4,
+              "col": 1,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 42,
+              "row": 4,
+              "col": 2,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 43,
+              "row": 4,
+              "col": 3,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 44,
+              "row": 4,
+              "col": 4,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 45,
+              "row": 4,
+              "col": 5,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 46,
+              "row": 4,
+              "col": 6,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 47,
+              "row": 4,
+              "col": 7,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 48,
+              "row": 4,
+              "col": 8,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 49,
+              "row": 4,
+              "col": 9,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 50,
+              "row": 5,
+              "col": 0,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 51,
+              "row": 5,
+              "col": 1,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 52,
+              "row": 5,
+              "col": 2,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 53,
+              "row": 5,
+              "col": 3,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 54,
+              "row": 5,
+              "col": 4,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 55,
+              "row": 5,
+              "col": 5,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 56,
+              "row": 5,
+              "col": 6,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 57,
+              "row": 5,
+              "col": 7,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 58,
+              "row": 5,
+              "col": 8,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 59,
+              "row": 5,
+              "col": 9,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 60,
+              "row": 6,
+              "col": 0,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 61,
+              "row": 6,
+              "col": 1,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 62,
+              "row": 6,
+              "col": 2,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 63,
+              "row": 6,
+              "col": 3,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 64,
+              "row": 6,
+              "col": 4,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 65,
+              "row": 6,
+              "col": 5,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 66,
+              "row": 6,
+              "col": 6,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 67,
+              "row": 6,
+              "col": 7,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 68,
+              "row": 6,
+              "col": 8,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 69,
+              "row": 6,
+              "col": 9,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 70,
+              "row": 7,
+              "col": 0,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 71,
+              "row": 7,
+              "col": 1,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 72,
+              "row": 7,
+              "col": 2,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 73,
+              "row": 7,
+              "col": 3,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 74,
+              "row": 7,
+              "col": 4,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 75,
+              "row": 7,
+              "col": 5,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 76,
+              "row": 7,
+              "col": 6,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 77,
+              "row": 7,
+              "col": 7,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 78,
+              "row": 7,
+              "col": 8,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 79,
+              "row": 7,
+              "col": 9,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 80,
+              "row": 8,
+              "col": 0,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 81,
+              "row": 8,
+              "col": 1,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 82,
+              "row": 8,
+              "col": 2,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 83,
+              "row": 8,
+              "col": 3,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 84,
+              "row": 8,
+              "col": 4,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 85,
+              "row": 8,
+              "col": 5,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 86,
+              "row": 8,
+              "col": 6,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 87,
+              "row": 8,
+              "col": 7,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 88,
+              "row": 8,
+              "col": 8,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 89,
+              "row": 8,
+              "col": 9,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 90,
+              "row": 9,
+              "col": 0,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 91,
+              "row": 9,
+              "col": 1,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 92,
+              "row": 9,
+              "col": 2,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 93,
+              "row": 9,
+              "col": 3,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 94,
+              "row": 9,
+              "col": 4,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 95,
+              "row": 9,
+              "col": 5,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 96,
+              "row": 9,
+              "col": 6,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 97,
+              "row": 9,
+              "col": 7,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 98,
+              "row": 9,
+              "col": 8,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 99,
+              "row": 9,
+              "col": 9,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            }
+          ],
+          "N_C": [
+            {
+              "id": 0,
+              "row": 0,
+              "col": 0,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 1,
+              "row": 0,
+              "col": 1,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 2,
+              "row": 0,
+              "col": 2,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 3,
+              "row": 0,
+              "col": 3,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 4,
+              "row": 0,
+              "col": 4,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 5,
+              "row": 0,
+              "col": 5,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 6,
+              "row": 0,
+              "col": 6,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 7,
+              "row": 0,
+              "col": 7,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 8,
+              "row": 0,
+              "col": 8,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 9,
+              "row": 0,
+              "col": 9,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 10,
+              "row": 1,
+              "col": 0,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 11,
+              "row": 1,
+              "col": 1,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 12,
+              "row": 1,
+              "col": 2,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 13,
+              "row": 1,
+              "col": 3,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 14,
+              "row": 1,
+              "col": 4,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 15,
+              "row": 1,
+              "col": 5,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 16,
+              "row": 1,
+              "col": 6,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 17,
+              "row": 1,
+              "col": 7,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 18,
+              "row": 1,
+              "col": 8,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 19,
+              "row": 1,
+              "col": 9,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 20,
+              "row": 2,
+              "col": 0,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 21,
+              "row": 2,
+              "col": 1,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 22,
+              "row": 2,
+              "col": 2,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 23,
+              "row": 2,
+              "col": 3,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 24,
+              "row": 2,
+              "col": 4,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 25,
+              "row": 2,
+              "col": 5,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 26,
+              "row": 2,
+              "col": 6,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 27,
+              "row": 2,
+              "col": 7,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 28,
+              "row": 2,
+              "col": 8,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 29,
+              "row": 2,
+              "col": 9,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 30,
+              "row": 3,
+              "col": 0,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 31,
+              "row": 3,
+              "col": 1,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 32,
+              "row": 3,
+              "col": 2,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 33,
+              "row": 3,
+              "col": 3,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 34,
+              "row": 3,
+              "col": 4,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 35,
+              "row": 3,
+              "col": 5,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 36,
+              "row": 3,
+              "col": 6,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 37,
+              "row": 3,
+              "col": 7,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 38,
+              "row": 3,
+              "col": 8,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 39,
+              "row": 3,
+              "col": 9,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 40,
+              "row": 4,
+              "col": 0,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 41,
+              "row": 4,
+              "col": 1,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 42,
+              "row": 4,
+              "col": 2,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 43,
+              "row": 4,
+              "col": 3,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 44,
+              "row": 4,
+              "col": 4,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 45,
+              "row": 4,
+              "col": 5,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 46,
+              "row": 4,
+              "col": 6,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 47,
+              "row": 4,
+              "col": 7,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 48,
+              "row": 4,
+              "col": 8,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 49,
+              "row": 4,
+              "col": 9,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 50,
+              "row": 5,
+              "col": 0,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 51,
+              "row": 5,
+              "col": 1,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 52,
+              "row": 5,
+              "col": 2,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 53,
+              "row": 5,
+              "col": 3,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 54,
+              "row": 5,
+              "col": 4,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 55,
+              "row": 5,
+              "col": 5,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 56,
+              "row": 5,
+              "col": 6,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 57,
+              "row": 5,
+              "col": 7,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 58,
+              "row": 5,
+              "col": 8,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 59,
+              "row": 5,
+              "col": 9,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 60,
+              "row": 6,
+              "col": 0,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 61,
+              "row": 6,
+              "col": 1,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 62,
+              "row": 6,
+              "col": 2,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 63,
+              "row": 6,
+              "col": 3,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 64,
+              "row": 6,
+              "col": 4,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 65,
+              "row": 6,
+              "col": 5,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 66,
+              "row": 6,
+              "col": 6,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 67,
+              "row": 6,
+              "col": 7,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 68,
+              "row": 6,
+              "col": 8,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 69,
+              "row": 6,
+              "col": 9,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 70,
+              "row": 7,
+              "col": 0,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 71,
+              "row": 7,
+              "col": 1,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 72,
+              "row": 7,
+              "col": 2,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 73,
+              "row": 7,
+              "col": 3,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 74,
+              "row": 7,
+              "col": 4,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 75,
+              "row": 7,
+              "col": 5,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 76,
+              "row": 7,
+              "col": 6,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 77,
+              "row": 7,
+              "col": 7,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 78,
+              "row": 7,
+              "col": 8,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 79,
+              "row": 7,
+              "col": 9,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 80,
+              "row": 8,
+              "col": 0,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 81,
+              "row": 8,
+              "col": 1,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 82,
+              "row": 8,
+              "col": 2,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 83,
+              "row": 8,
+              "col": 3,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 84,
+              "row": 8,
+              "col": 4,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 85,
+              "row": 8,
+              "col": 5,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 86,
+              "row": 8,
+              "col": 6,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 87,
+              "row": 8,
+              "col": 7,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 88,
+              "row": 8,
+              "col": 8,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 89,
+              "row": 8,
+              "col": 9,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 90,
+              "row": 9,
+              "col": 0,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 91,
+              "row": 9,
+              "col": 1,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 92,
+              "row": 9,
+              "col": 2,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 93,
+              "row": 9,
+              "col": 3,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 94,
+              "row": 9,
+              "col": 4,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 95,
+              "row": 9,
+              "col": 5,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 96,
+              "row": 9,
+              "col": 6,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 97,
+              "row": 9,
+              "col": 7,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 98,
+              "row": 9,
+              "col": 8,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 99,
+              "row": 9,
+              "col": 9,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            }
+          ],
+          "S_W": [
+            {
+              "id": 0,
+              "row": 0,
+              "col": 0,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 1,
+              "row": 0,
+              "col": 1,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 2,
+              "row": 0,
+              "col": 2,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 3,
+              "row": 0,
+              "col": 3,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 4,
+              "row": 0,
+              "col": 4,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 5,
+              "row": 0,
+              "col": 5,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 6,
+              "row": 0,
+              "col": 6,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 7,
+              "row": 0,
+              "col": 7,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 8,
+              "row": 0,
+              "col": 8,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 9,
+              "row": 0,
+              "col": 9,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 10,
+              "row": 1,
+              "col": 0,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 11,
+              "row": 1,
+              "col": 1,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 12,
+              "row": 1,
+              "col": 2,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 13,
+              "row": 1,
+              "col": 3,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 14,
+              "row": 1,
+              "col": 4,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 15,
+              "row": 1,
+              "col": 5,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 16,
+              "row": 1,
+              "col": 6,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 17,
+              "row": 1,
+              "col": 7,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 18,
+              "row": 1,
+              "col": 8,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 19,
+              "row": 1,
+              "col": 9,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 20,
+              "row": 2,
+              "col": 0,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 21,
+              "row": 2,
+              "col": 1,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 22,
+              "row": 2,
+              "col": 2,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 23,
+              "row": 2,
+              "col": 3,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 24,
+              "row": 2,
+              "col": 4,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 25,
+              "row": 2,
+              "col": 5,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 26,
+              "row": 2,
+              "col": 6,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 27,
+              "row": 2,
+              "col": 7,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 28,
+              "row": 2,
+              "col": 8,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 29,
+              "row": 2,
+              "col": 9,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 30,
+              "row": 3,
+              "col": 0,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 31,
+              "row": 3,
+              "col": 1,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 32,
+              "row": 3,
+              "col": 2,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 33,
+              "row": 3,
+              "col": 3,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 34,
+              "row": 3,
+              "col": 4,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 35,
+              "row": 3,
+              "col": 5,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 36,
+              "row": 3,
+              "col": 6,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 37,
+              "row": 3,
+              "col": 7,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 38,
+              "row": 3,
+              "col": 8,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 39,
+              "row": 3,
+              "col": 9,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 40,
+              "row": 4,
+              "col": 0,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 41,
+              "row": 4,
+              "col": 1,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 42,
+              "row": 4,
+              "col": 2,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 43,
+              "row": 4,
+              "col": 3,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 44,
+              "row": 4,
+              "col": 4,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 45,
+              "row": 4,
+              "col": 5,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 46,
+              "row": 4,
+              "col": 6,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 47,
+              "row": 4,
+              "col": 7,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 48,
+              "row": 4,
+              "col": 8,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 49,
+              "row": 4,
+              "col": 9,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 50,
+              "row": 5,
+              "col": 0,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 51,
+              "row": 5,
+              "col": 1,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 52,
+              "row": 5,
+              "col": 2,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 53,
+              "row": 5,
+              "col": 3,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 54,
+              "row": 5,
+              "col": 4,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 55,
+              "row": 5,
+              "col": 5,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 56,
+              "row": 5,
+              "col": 6,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 57,
+              "row": 5,
+              "col": 7,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 58,
+              "row": 5,
+              "col": 8,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 59,
+              "row": 5,
+              "col": 9,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 60,
+              "row": 6,
+              "col": 0,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 61,
+              "row": 6,
+              "col": 1,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 62,
+              "row": 6,
+              "col": 2,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 63,
+              "row": 6,
+              "col": 3,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 64,
+              "row": 6,
+              "col": 4,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 65,
+              "row": 6,
+              "col": 5,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 66,
+              "row": 6,
+              "col": 6,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 67,
+              "row": 6,
+              "col": 7,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 68,
+              "row": 6,
+              "col": 8,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 69,
+              "row": 6,
+              "col": 9,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 70,
+              "row": 7,
+              "col": 0,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 71,
+              "row": 7,
+              "col": 1,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 72,
+              "row": 7,
+              "col": 2,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 73,
+              "row": 7,
+              "col": 3,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 74,
+              "row": 7,
+              "col": 4,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 75,
+              "row": 7,
+              "col": 5,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 76,
+              "row": 7,
+              "col": 6,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 77,
+              "row": 7,
+              "col": 7,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 78,
+              "row": 7,
+              "col": 8,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 79,
+              "row": 7,
+              "col": 9,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 80,
+              "row": 8,
+              "col": 0,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 81,
+              "row": 8,
+              "col": 1,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 82,
+              "row": 8,
+              "col": 2,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 83,
+              "row": 8,
+              "col": 3,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 84,
+              "row": 8,
+              "col": 4,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 85,
+              "row": 8,
+              "col": 5,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 86,
+              "row": 8,
+              "col": 6,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 87,
+              "row": 8,
+              "col": 7,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 88,
+              "row": 8,
+              "col": 8,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 89,
+              "row": 8,
+              "col": 9,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 90,
+              "row": 9,
+              "col": 0,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 91,
+              "row": 9,
+              "col": 1,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 92,
+              "row": 9,
+              "col": 2,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 93,
+              "row": 9,
+              "col": 3,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 94,
+              "row": 9,
+              "col": 4,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 95,
+              "row": 9,
+              "col": 5,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 96,
+              "row": 9,
+              "col": 6,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 97,
+              "row": 9,
+              "col": 7,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 98,
+              "row": 9,
+              "col": 8,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 99,
+              "row": 9,
+              "col": 9,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            }
+          ],
+          "S_C": [
+            {
+              "id": 0,
+              "row": 0,
+              "col": 0,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 1,
+              "row": 0,
+              "col": 1,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 2,
+              "row": 0,
+              "col": 2,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 3,
+              "row": 0,
+              "col": 3,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 4,
+              "row": 0,
+              "col": 4,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 5,
+              "row": 0,
+              "col": 5,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 6,
+              "row": 0,
+              "col": 6,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 7,
+              "row": 0,
+              "col": 7,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 8,
+              "row": 0,
+              "col": 8,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 9,
+              "row": 0,
+              "col": 9,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 10,
+              "row": 1,
+              "col": 0,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 11,
+              "row": 1,
+              "col": 1,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 12,
+              "row": 1,
+              "col": 2,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 13,
+              "row": 1,
+              "col": 3,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 14,
+              "row": 1,
+              "col": 4,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 15,
+              "row": 1,
+              "col": 5,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 16,
+              "row": 1,
+              "col": 6,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 17,
+              "row": 1,
+              "col": 7,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 18,
+              "row": 1,
+              "col": 8,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 19,
+              "row": 1,
+              "col": 9,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 20,
+              "row": 2,
+              "col": 0,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 21,
+              "row": 2,
+              "col": 1,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 22,
+              "row": 2,
+              "col": 2,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 23,
+              "row": 2,
+              "col": 3,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 24,
+              "row": 2,
+              "col": 4,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 25,
+              "row": 2,
+              "col": 5,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 26,
+              "row": 2,
+              "col": 6,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 27,
+              "row": 2,
+              "col": 7,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 28,
+              "row": 2,
+              "col": 8,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 29,
+              "row": 2,
+              "col": 9,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 30,
+              "row": 3,
+              "col": 0,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 31,
+              "row": 3,
+              "col": 1,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 32,
+              "row": 3,
+              "col": 2,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 33,
+              "row": 3,
+              "col": 3,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 34,
+              "row": 3,
+              "col": 4,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 35,
+              "row": 3,
+              "col": 5,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 36,
+              "row": 3,
+              "col": 6,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 37,
+              "row": 3,
+              "col": 7,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 38,
+              "row": 3,
+              "col": 8,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 39,
+              "row": 3,
+              "col": 9,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 40,
+              "row": 4,
+              "col": 0,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 41,
+              "row": 4,
+              "col": 1,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 42,
+              "row": 4,
+              "col": 2,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 43,
+              "row": 4,
+              "col": 3,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 44,
+              "row": 4,
+              "col": 4,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 45,
+              "row": 4,
+              "col": 5,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 46,
+              "row": 4,
+              "col": 6,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 47,
+              "row": 4,
+              "col": 7,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 48,
+              "row": 4,
+              "col": 8,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 49,
+              "row": 4,
+              "col": 9,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 50,
+              "row": 5,
+              "col": 0,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 51,
+              "row": 5,
+              "col": 1,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 52,
+              "row": 5,
+              "col": 2,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 53,
+              "row": 5,
+              "col": 3,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 54,
+              "row": 5,
+              "col": 4,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 55,
+              "row": 5,
+              "col": 5,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 56,
+              "row": 5,
+              "col": 6,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 57,
+              "row": 5,
+              "col": 7,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 58,
+              "row": 5,
+              "col": 8,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 59,
+              "row": 5,
+              "col": 9,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 60,
+              "row": 6,
+              "col": 0,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 61,
+              "row": 6,
+              "col": 1,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 62,
+              "row": 6,
+              "col": 2,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 63,
+              "row": 6,
+              "col": 3,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 64,
+              "row": 6,
+              "col": 4,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 65,
+              "row": 6,
+              "col": 5,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 66,
+              "row": 6,
+              "col": 6,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 67,
+              "row": 6,
+              "col": 7,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 68,
+              "row": 6,
+              "col": 8,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 69,
+              "row": 6,
+              "col": 9,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 70,
+              "row": 7,
+              "col": 0,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 71,
+              "row": 7,
+              "col": 1,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 72,
+              "row": 7,
+              "col": 2,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 73,
+              "row": 7,
+              "col": 3,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 74,
+              "row": 7,
+              "col": 4,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 75,
+              "row": 7,
+              "col": 5,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 76,
+              "row": 7,
+              "col": 6,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 77,
+              "row": 7,
+              "col": 7,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 78,
+              "row": 7,
+              "col": 8,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 79,
+              "row": 7,
+              "col": 9,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 80,
+              "row": 8,
+              "col": 0,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 81,
+              "row": 8,
+              "col": 1,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 82,
+              "row": 8,
+              "col": 2,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 83,
+              "row": 8,
+              "col": 3,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 84,
+              "row": 8,
+              "col": 4,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 85,
+              "row": 8,
+              "col": 5,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 86,
+              "row": 8,
+              "col": 6,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 87,
+              "row": 8,
+              "col": 7,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 88,
+              "row": 8,
+              "col": 8,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 89,
+              "row": 8,
+              "col": 9,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 90,
+              "row": 9,
+              "col": 0,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 91,
+              "row": 9,
+              "col": 1,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 92,
+              "row": 9,
+              "col": 2,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 93,
+              "row": 9,
+              "col": 3,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 94,
+              "row": 9,
+              "col": 4,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 95,
+              "row": 9,
+              "col": 5,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 96,
+              "row": 9,
+              "col": 6,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 97,
+              "row": 9,
+              "col": 7,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 98,
+              "row": 9,
+              "col": 8,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 99,
+              "row": 9,
+              "col": 9,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            }
+          ],
+          "S_E": [
+            {
+              "id": 0,
+              "row": 0,
+              "col": 0,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 1,
+              "row": 0,
+              "col": 1,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 2,
+              "row": 0,
+              "col": 2,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 3,
+              "row": 0,
+              "col": 3,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 4,
+              "row": 0,
+              "col": 4,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 5,
+              "row": 0,
+              "col": 5,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 6,
+              "row": 0,
+              "col": 6,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 7,
+              "row": 0,
+              "col": 7,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 8,
+              "row": 0,
+              "col": 8,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 9,
+              "row": 0,
+              "col": 9,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 10,
+              "row": 1,
+              "col": 0,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 11,
+              "row": 1,
+              "col": 1,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 12,
+              "row": 1,
+              "col": 2,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 13,
+              "row": 1,
+              "col": 3,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 14,
+              "row": 1,
+              "col": 4,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 15,
+              "row": 1,
+              "col": 5,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 16,
+              "row": 1,
+              "col": 6,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 17,
+              "row": 1,
+              "col": 7,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 18,
+              "row": 1,
+              "col": 8,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 19,
+              "row": 1,
+              "col": 9,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 20,
+              "row": 2,
+              "col": 0,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 21,
+              "row": 2,
+              "col": 1,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 22,
+              "row": 2,
+              "col": 2,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 23,
+              "row": 2,
+              "col": 3,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 24,
+              "row": 2,
+              "col": 4,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 25,
+              "row": 2,
+              "col": 5,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 26,
+              "row": 2,
+              "col": 6,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 27,
+              "row": 2,
+              "col": 7,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 28,
+              "row": 2,
+              "col": 8,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 29,
+              "row": 2,
+              "col": 9,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 30,
+              "row": 3,
+              "col": 0,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 31,
+              "row": 3,
+              "col": 1,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 32,
+              "row": 3,
+              "col": 2,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 33,
+              "row": 3,
+              "col": 3,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 34,
+              "row": 3,
+              "col": 4,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 35,
+              "row": 3,
+              "col": 5,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 36,
+              "row": 3,
+              "col": 6,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 37,
+              "row": 3,
+              "col": 7,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 38,
+              "row": 3,
+              "col": 8,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 39,
+              "row": 3,
+              "col": 9,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 40,
+              "row": 4,
+              "col": 0,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 41,
+              "row": 4,
+              "col": 1,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 42,
+              "row": 4,
+              "col": 2,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 43,
+              "row": 4,
+              "col": 3,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 44,
+              "row": 4,
+              "col": 4,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 45,
+              "row": 4,
+              "col": 5,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 46,
+              "row": 4,
+              "col": 6,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 47,
+              "row": 4,
+              "col": 7,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 48,
+              "row": 4,
+              "col": 8,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 49,
+              "row": 4,
+              "col": 9,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 50,
+              "row": 5,
+              "col": 0,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 51,
+              "row": 5,
+              "col": 1,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 52,
+              "row": 5,
+              "col": 2,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 53,
+              "row": 5,
+              "col": 3,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 54,
+              "row": 5,
+              "col": 4,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 55,
+              "row": 5,
+              "col": 5,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 56,
+              "row": 5,
+              "col": 6,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 57,
+              "row": 5,
+              "col": 7,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 58,
+              "row": 5,
+              "col": 8,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 59,
+              "row": 5,
+              "col": 9,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 60,
+              "row": 6,
+              "col": 0,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 61,
+              "row": 6,
+              "col": 1,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 62,
+              "row": 6,
+              "col": 2,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 63,
+              "row": 6,
+              "col": 3,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 64,
+              "row": 6,
+              "col": 4,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 65,
+              "row": 6,
+              "col": 5,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 66,
+              "row": 6,
+              "col": 6,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 67,
+              "row": 6,
+              "col": 7,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 68,
+              "row": 6,
+              "col": 8,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 69,
+              "row": 6,
+              "col": 9,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 70,
+              "row": 7,
+              "col": 0,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 71,
+              "row": 7,
+              "col": 1,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 72,
+              "row": 7,
+              "col": 2,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 73,
+              "row": 7,
+              "col": 3,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 74,
+              "row": 7,
+              "col": 4,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 75,
+              "row": 7,
+              "col": 5,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 76,
+              "row": 7,
+              "col": 6,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 77,
+              "row": 7,
+              "col": 7,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 78,
+              "row": 7,
+              "col": 8,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 79,
+              "row": 7,
+              "col": 9,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 80,
+              "row": 8,
+              "col": 0,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 81,
+              "row": 8,
+              "col": 1,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 82,
+              "row": 8,
+              "col": 2,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 83,
+              "row": 8,
+              "col": 3,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 84,
+              "row": 8,
+              "col": 4,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 85,
+              "row": 8,
+              "col": 5,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 86,
+              "row": 8,
+              "col": 6,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 87,
+              "row": 8,
+              "col": 7,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 88,
+              "row": 8,
+              "col": 8,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 89,
+              "row": 8,
+              "col": 9,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 90,
+              "row": 9,
+              "col": 0,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 91,
+              "row": 9,
+              "col": 1,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 92,
+              "row": 9,
+              "col": 2,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 93,
+              "row": 9,
+              "col": 3,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 94,
+              "row": 9,
+              "col": 4,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 95,
+              "row": 9,
+              "col": 5,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 96,
+              "row": 9,
+              "col": 6,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 97,
+              "row": 9,
+              "col": 7,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 98,
+              "row": 9,
+              "col": 8,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 99,
+              "row": 9,
+              "col": 9,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            }
+          ],
+          "N_E": [
+            {
+              "id": 0,
+              "row": 0,
+              "col": 0,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 1,
+              "row": 0,
+              "col": 1,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 2,
+              "row": 0,
+              "col": 2,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 3,
+              "row": 0,
+              "col": 3,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 4,
+              "row": 0,
+              "col": 4,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 5,
+              "row": 0,
+              "col": 5,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 6,
+              "row": 0,
+              "col": 6,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 7,
+              "row": 0,
+              "col": 7,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 8,
+              "row": 0,
+              "col": 8,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 9,
+              "row": 0,
+              "col": 9,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 10,
+              "row": 1,
+              "col": 0,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 11,
+              "row": 1,
+              "col": 1,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 12,
+              "row": 1,
+              "col": 2,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 13,
+              "row": 1,
+              "col": 3,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 14,
+              "row": 1,
+              "col": 4,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 15,
+              "row": 1,
+              "col": 5,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 16,
+              "row": 1,
+              "col": 6,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 17,
+              "row": 1,
+              "col": 7,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 18,
+              "row": 1,
+              "col": 8,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 19,
+              "row": 1,
+              "col": 9,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 20,
+              "row": 2,
+              "col": 0,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 21,
+              "row": 2,
+              "col": 1,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 22,
+              "row": 2,
+              "col": 2,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 23,
+              "row": 2,
+              "col": 3,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 24,
+              "row": 2,
+              "col": 4,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 25,
+              "row": 2,
+              "col": 5,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 26,
+              "row": 2,
+              "col": 6,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 27,
+              "row": 2,
+              "col": 7,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 28,
+              "row": 2,
+              "col": 8,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 29,
+              "row": 2,
+              "col": 9,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 30,
+              "row": 3,
+              "col": 0,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 31,
+              "row": 3,
+              "col": 1,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 32,
+              "row": 3,
+              "col": 2,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 33,
+              "row": 3,
+              "col": 3,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 34,
+              "row": 3,
+              "col": 4,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 35,
+              "row": 3,
+              "col": 5,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 36,
+              "row": 3,
+              "col": 6,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 37,
+              "row": 3,
+              "col": 7,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 38,
+              "row": 3,
+              "col": 8,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 39,
+              "row": 3,
+              "col": 9,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 40,
+              "row": 4,
+              "col": 0,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 41,
+              "row": 4,
+              "col": 1,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 42,
+              "row": 4,
+              "col": 2,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 43,
+              "row": 4,
+              "col": 3,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 44,
+              "row": 4,
+              "col": 4,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 45,
+              "row": 4,
+              "col": 5,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 46,
+              "row": 4,
+              "col": 6,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 47,
+              "row": 4,
+              "col": 7,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 48,
+              "row": 4,
+              "col": 8,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 49,
+              "row": 4,
+              "col": 9,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 50,
+              "row": 5,
+              "col": 0,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 51,
+              "row": 5,
+              "col": 1,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 52,
+              "row": 5,
+              "col": 2,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 53,
+              "row": 5,
+              "col": 3,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 54,
+              "row": 5,
+              "col": 4,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 55,
+              "row": 5,
+              "col": 5,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 56,
+              "row": 5,
+              "col": 6,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 57,
+              "row": 5,
+              "col": 7,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 58,
+              "row": 5,
+              "col": 8,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 59,
+              "row": 5,
+              "col": 9,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 60,
+              "row": 6,
+              "col": 0,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 61,
+              "row": 6,
+              "col": 1,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 62,
+              "row": 6,
+              "col": 2,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 63,
+              "row": 6,
+              "col": 3,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 64,
+              "row": 6,
+              "col": 4,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 65,
+              "row": 6,
+              "col": 5,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 66,
+              "row": 6,
+              "col": 6,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 67,
+              "row": 6,
+              "col": 7,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 68,
+              "row": 6,
+              "col": 8,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 69,
+              "row": 6,
+              "col": 9,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 70,
+              "row": 7,
+              "col": 0,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 71,
+              "row": 7,
+              "col": 1,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 72,
+              "row": 7,
+              "col": 2,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 73,
+              "row": 7,
+              "col": 3,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 74,
+              "row": 7,
+              "col": 4,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 75,
+              "row": 7,
+              "col": 5,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 76,
+              "row": 7,
+              "col": 6,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 77,
+              "row": 7,
+              "col": 7,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 78,
+              "row": 7,
+              "col": 8,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 79,
+              "row": 7,
+              "col": 9,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 80,
+              "row": 8,
+              "col": 0,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 81,
+              "row": 8,
+              "col": 1,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 82,
+              "row": 8,
+              "col": 2,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 83,
+              "row": 8,
+              "col": 3,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 84,
+              "row": 8,
+              "col": 4,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 85,
+              "row": 8,
+              "col": 5,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 86,
+              "row": 8,
+              "col": 6,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 87,
+              "row": 8,
+              "col": 7,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 88,
+              "row": 8,
+              "col": 8,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 89,
+              "row": 8,
+              "col": 9,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 90,
+              "row": 9,
+              "col": 0,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 91,
+              "row": 9,
+              "col": 1,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 92,
+              "row": 9,
+              "col": 2,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 93,
+              "row": 9,
+              "col": 3,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 94,
+              "row": 9,
+              "col": 4,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 95,
+              "row": 9,
+              "col": 5,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 96,
+              "row": 9,
+              "col": 6,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 97,
+              "row": 9,
+              "col": 7,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 98,
+              "row": 9,
+              "col": 8,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            },
+            {
+              "id": 99,
+              "row": 9,
+              "col": 9,
+              "state": "EMPTY",
+              "watered": false,
+              "seedType": null,
+              "growthStage": 0,
+              "season": null
+            }
+          ]
+        },
+        "inventory": {
+          "seeds": {
+            "SPRING": [
+              {
+                "id": "potato",
+                "name": "Pomme de terre",
+                "icon": "🥔",
+                "qty": 6
+              },
+              {
+                "id": "leek",
+                "name": "Poireau",
+                "icon": "🧅",
+                "qty": 5
+              },
+              {
+                "id": "cabbage",
+                "name": "Chou",
+                "icon": "🥬",
+                "qty": 5
+              },
+              {
+                "id": "radish",
+                "name": "Radis",
+                "icon": "🌱",
+                "qty": 8
+              }
+            ],
+            "SUMMER": [
+              {
+                "id": "blueberry",
+                "name": "Bleuets",
+                "icon": "🫐",
+                "qty": 0
+              },
+              {
+                "id": "beans",
+                "name": "Haricots",
+                "icon": "🫘",
+                "qty": 0
+              },
+              {
+                "id": "pepper",
+                "name": "Piment",
+                "icon": "🌶️",
+                "qty": 0
+              },
+              {
+                "id": "melon",
+                "name": "Melon",
+                "icon": "🍈",
+                "qty": 0
+              }
+            ],
+            "AUTUMN": [
+              {
+                "id": "eggplant",
+                "name": "Aubergine",
+                "icon": "🍆",
+                "qty": 0
+              },
+              {
+                "id": "pumpkin",
+                "name": "Potiron",
+                "icon": "🎃",
+                "qty": 0
+              },
+              {
+                "id": "squash",
+                "name": "Citrouille",
+                "icon": "🎃",
+                "qty": 0
+              },
+              {
+                "id": "mushroom",
+                "name": "Champignon",
+                "icon": "🍄",
+                "qty": 0
+              }
+            ],
+            "WINTER": [
+              {
+                "id": "garlic",
+                "name": "Ail",
+                "icon": "🧄",
+                "qty": 0
+              },
+              {
+                "id": "artichoke",
+                "name": "Artichaut",
+                "icon": "🌿",
+                "qty": 0
+              },
+              {
+                "id": "winter_empty1",
+                "name": "?",
+                "icon": "❓",
+                "qty": 0
+              },
+              {
+                "id": "winter_empty2",
+                "name": "?",
+                "icon": "❓",
+                "qty": 0
+              }
+            ]
+          },
+          "tools": [
+            {
+              "id": "watering_can",
+              "name": "Arrosoir",
+              "icon": "💧",
+              "level": 1
+            },
+            {
+              "id": "pickaxe",
+              "name": "Pioche",
+              "icon": "⛏️",
+              "level": 1
+            },
+            {
+              "id": "axe",
+              "name": "Hache",
+              "icon": "🪓",
+              "level": 1
+            },
+            {
+              "id": "sword",
+              "name": "Épée",
+              "icon": "🗡️",
+              "level": 1
+            },
+            {
+              "id": "wand",
+              "name": "Baguette",
+              "icon": "✨",
+              "level": 1
+            },
+            {
+              "id": "special",
+              "name": "Spécial",
+              "icon": "🔧",
+              "level": 0
+            }
+          ],
+          "loot": {
+            "WOOD": [
+              {
+                "id": "log",
+                "name": "Bûches",
+                "icon": "🪵",
+                "qty": 0
+              },
+              {
+                "id": "coal",
+                "name": "Charbon",
+                "icon": "💎",
+                "qty": 0
+              },
+              {
+                "id": "plank",
+                "name": "Planche",
+                "icon": "🪵",
+                "qty": 0
+              },
+              {
+                "id": "stick",
+                "name": "Bâton",
+                "icon": "🥢",
+                "qty": 0
+              }
+            ],
+            "STONE": [
+              {
+                "id": "stone",
+                "name": "Pierre",
+                "icon": "🪨",
+                "qty": 0
+              },
+              {
+                "id": "concrete",
+                "name": "Béton",
+                "icon": "🧱",
+                "qty": 0
+              },
+              {
+                "id": "brick",
+                "name": "Brique",
+                "icon": "🧱",
+                "qty": 0
+              },
+              {
+                "id": "gravel",
+                "name": "Gravier",
+                "icon": "⚪",
+                "qty": 0
+              }
+            ],
+            "METAL": [
+              {
+                "id": "iron_ore",
+                "name": "Fer (Minerai)",
+                "icon": "🪨",
+                "qty": 0
+              },
+              {
+                "id": "iron_ingot",
+                "name": "Fer (Lingot)",
+                "icon": "🥈",
+                "qty": 0
+              },
+              {
+                "id": "copper_ore",
+                "name": "Cuivre (Minerai)",
+                "icon": "🪨",
+                "qty": 0
+              },
+              {
+                "id": "copper_ingot",
+                "name": "Cuivre (Lingot)",
+                "icon": "🥉",
+                "qty": 0
+              }
+            ],
+            "MACHINES": [
+              {
+                "id": "workbench",
+                "name": "Établi",
+                "icon": "🔨",
+                "qty": 0
+              },
+              {
+                "id": "furnace",
+                "name": "Four",
+                "icon": "🔥",
+                "qty": 0
+              },
+              {
+                "id": "herbalist",
+                "name": "Herbaliste",
+                "icon": "⚗️",
+                "qty": 0
+              },
+              {
+                "id": "research",
+                "name": "Recherche",
+                "icon": "🔬",
+                "qty": 0
+              }
+            ],
+            "NATURE": [
+              {
+                "id": "wild_berry",
+                "name": "Baies Sauvages",
+                "icon": "🫐",
+                "qty": 0
+              },
+              {
+                "id": "wild_mushroom",
+                "name": "Champi. Sauvage",
+                "icon": "🍄",
+                "qty": 0
+              },
+              {
+                "id": "herb",
+                "name": "Herbe",
+                "icon": "🌿",
+                "qty": 0
+              },
+              {
+                "id": "flower",
+                "name": "Fleur",
+                "icon": "🌸",
+                "qty": 0
+              }
+            ],
+            "POTIONS": [
+              {
+                "id": "potion_health",
+                "name": "Santé",
+                "icon": "❤️",
+                "qty": 0
+              },
+              {
+                "id": "potion_energy",
+                "name": "Énergie",
+                "icon": "⚡",
+                "qty": 0
+              },
+              {
+                "id": "potion_speed",
+                "name": "Vitesse",
+                "icon": "👟",
+                "qty": 0
+              },
+              {
+                "id": "potion_force",
+                "name": "Force",
+                "icon": "💪",
+                "qty": 0
+              }
+            ]
+          },
+          "selectedToolIndex": 0,
+          "selectedSeedIndex": 0
+        },
+        "savedAt": "2025-12-21T16:50:23.534Z",
+        "version": "1.1"
+      }
+    }
+  ]
 }

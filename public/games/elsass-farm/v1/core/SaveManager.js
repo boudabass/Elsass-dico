@@ -1,3 +1,4 @@
+Si vide, récupération DB + Synchro locale.">
 // core/SaveManager.js
 // Gestion de la persistance (Local + Serveur/DB)
 
@@ -5,7 +6,7 @@ window.SaveManager = {
     // Clé de sauvegarde locale
     SAVE_KEY: 'elsass-farm-save',
 
-    // Sauvegarde l'état actuel
+    // Sauvegarde l'état actuel (Inchangé)
     save: async function () {
         const saveData = {
             // État du joueur
@@ -44,8 +45,7 @@ window.SaveManager = {
         const gameId = window.DyadGame ? window.DyadGame.id : null;
         if (gameId) {
             try {
-                // On ne met pas 'await' bloquant pour ne pas figer le jeu, 
-                // mais on lance la requête
+                // On ne met pas 'await' bloquant pour ne pas figer le jeu
                 fetch('/api/storage', {
                     method: 'POST',
                     headers: { 'Content-Type': 'application/json' },
@@ -65,45 +65,56 @@ window.SaveManager = {
         return true;
     },
 
-    // Charge une sauvegarde existante
+    // Charge une sauvegarde existante (Logique modifiée : Local > Serveur > Synchro)
     load: async function () {
         let saveData = null;
+        let source = "None";
         const gameId = window.DyadGame ? window.DyadGame.id : null;
 
         console.log("📂 Tentative de chargement...");
 
-        // 1. Tenter de charger depuis le Serveur (Priorité à la persistance cross-device)
-        if (gameId) {
+        // 1. Vérification LocalStorage (Priorité 1)
+        try {
+            const localStr = localStorage.getItem(this.SAVE_KEY);
+            if (localStr) {
+                saveData = JSON.parse(localStr);
+                source = "LocalStorage";
+                console.log("💾 Sauvegarde locale trouvée.");
+            }
+        } catch (e) {
+            console.warn("⚠️ Erreur lecture LocalStorage, essai serveur...");
+        }
+
+        // 2. Si pas de local, récupération Serveur (Priorité 2)
+        if (!saveData && gameId) {
+            console.log("☁️ Pas de local, recherche sur serveur...");
             try {
                 const res = await fetch(`/api/storage?gameId=${gameId}`);
                 if (res.ok) {
                     const json = await res.json();
                     if (json.data) {
                         saveData = json.data;
-                        console.log("☁️ Données chargées depuis le serveur.");
+                        source = "Serveur";
+                        console.log("☁️ Sauvegarde serveur trouvée.");
+
+                        // 3. Synchronisation : Création de la save locale depuis le serveur
+                        localStorage.setItem(this.SAVE_KEY, JSON.stringify(saveData));
+                        console.log("🔄 Synchronisation : Sauvegarde copiée en LocalStorage.");
                     }
                 }
             } catch (e) {
-                console.warn("⚠️ Impossible de joindre le serveur, repli sur local.");
+                console.warn("⚠️ Impossible de joindre le serveur.");
             }
         }
 
-        // 2. Si pas de save serveur, tenter le LocalStorage
-        if (!saveData) {
-            const stored = localStorage.getItem(this.SAVE_KEY);
-            if (stored) {
-                saveData = JSON.parse(stored);
-                console.log("💾 Données chargées depuis le localStorage.");
-            }
-        }
-
-        // 3. Application des données
+        // 4. Application des données
         if (saveData) {
             this.applyData(saveData);
+            console.log(`✅ Jeu chargé avec succès (Source: ${source})`);
             return true;
         }
 
-        console.log("📂 Aucune sauvegarde trouvée (Nouveau jeu).");
+        console.log("📂 Aucune sauvegarde trouvée nulle part (Nouveau jeu).");
         return false;
     },
 
@@ -132,14 +143,13 @@ window.SaveManager = {
         if (window.refreshHUD) window.refreshHUD();
     },
 
-    // Supprime la sauvegarde
+    // Supprime la sauvegarde locale
     clear: function () {
         localStorage.removeItem(this.SAVE_KEY);
-        // Note: On ne supprime pas encore côté serveur pour sécurité
         console.log("🗑️ Sauvegarde locale effacée");
     },
 
-    // Vérifie si une sauvegarde existe (localement pour l'instant pour la rapidité UI)
+    // Vérifie si une sauvegarde existe (localement)
     hasSave: function () {
         return localStorage.getItem(this.SAVE_KEY) !== null;
     }

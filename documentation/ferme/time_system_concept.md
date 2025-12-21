@@ -1,4 +1,4 @@
-# 🕰️ Horloge de jeu — Système simple (NO SAVE AUTO)
+# 🕰️ Horloge de jeu — Système Hybride (Local First)
 
 > 1 seconde réelle = 1 minute jeu (16min = 1 jour complet).
 
@@ -6,23 +6,24 @@
 *   Mise à jour fluide temps réel (delta calculé).
 *   Triggers vérifiés seulement sur changement de minute jeu.
 
-### AUCUNE sauvegarde auto sur temps — UNIQUEMENT sur actions :
+## 💾 Stratégie de Sauvegarde
+
+### 1. En cours de jeu (Fréquent - LOCAL)
+Le jeu écrit dans le `localStorage` du navigateur lors des actions clés. C'est instantané et invisible.
 *   Sommeil (+8h)
-*   Fin journée (2h)
-*   Changement zone (MAP)
-*   Craft terminé
+*   Changement de zone
 *   Quête validée
 
+### 2. Fin de session (Unique - CLOUD)
+Le jeu écrit dans la **Base de Données (DB)** une seule fois.
+*   Bouton "Quitter & Sauvegarder"
+*   Cela garantit que la progression est disponible sur un autre appareil au prochain lancement.
+
 ## 🔔 Fréquences optimisées
-| Action | Fréquence | Impact |
+| Action | Cible | Fréquence |
 | :--- | :--- | :--- |
-| Triggers (taverne 20h, magasins 8h...) | 1x/minute jeu (60/jour) | Léger |
-| Sauvegarde | Action joueur UNIQUEMENT | Parfait |
+| Gameplay (Dormir, Planter) | **Local Storage** | Haute (Sans latence) |
+| Démarrage Jeu | **Lecture DB** | 1 fois (Synchro) |
+| Quitter Jeu | **Écriture DB** | 1 fois (Upload) |
 
-## ✅ Avantages
-*   **Pause automatique** (onglet inactif).
-*   **Synchro parfaite** (fermeture/relance).
-*   **Triggers précis** (heures fixes, jour 28).
-*   **Save 100% contrôlé** (jamais de corruption).
-
-> Système parfait — temps tourne, saves manuelles/actions uniquement.
+> **Résultat :** Portabilité totale sans ralentir le jeu avec des requêtes réseau constantes.

@@ -2,9 +2,6 @@
 // Gère les interactions de la souris/touch pour le mouvement de la caméra.
 
 window.InputManager = {
-    lastMouseX: null,
-    lastMouseY: null,
-    isDragging: false,
     touchStartTime: null,
     touchStartX: null,
     touchStartY: null,
@@ -13,9 +10,6 @@ window.InputManager = {
 
     init: function () {
         console.log("InputManager initialized.");
-        this.lastMouseX = null;
-        this.lastMouseY = null;
-        this.isDragging = false;
         this.touchStartTime = null;
         this.touchStartX = null;
         this.touchStartY = null;
@@ -24,24 +18,20 @@ window.InputManager = {
 
     // Fonction appelée à chaque frame par sketch.js
     updateCamera: function (camera, mouseIsPressed, mouseX, pmouseX, mouseY, pmouseY, width, height) {
-        // 1. Détection de Drag (Desktop)
-        if (mouseIsPressed && !this.isDragging && mouseY > 60) {
-            // Démarre le drag sur desktop
-            this.isDragging = true;
-            this.lastMouseX = mouseX;
-            this.lastMouseY = mouseY;
-            this.hasMoved = false; // Réinitialiser au début du clic
-        }
+        
+        // Détection de Drag (Desktop & Mobile)
+        if (mouseIsPressed && mouseY > 60) {
+            
+            // Calculer le delta de déplacement depuis la frame précédente
+            const deltaX = mouseX - pmouseX;
+            const deltaY = mouseY - pmouseY;
 
-        // 2. Déplacement Caméra (Drag & Pan)
-        if (this.isDragging && mouseY > 60) {
-            // Vérifier si le mouvement est suffisant pour être considéré comme un drag
-            const deltaX = mouseX - this.lastMouseX;
-            const deltaY = mouseY - this.lastMouseY;
-
+            // Si un mouvement significatif est détecté (pour différencier clic/drag)
             if (Math.abs(deltaX) > 0 || Math.abs(deltaY) > 0) {
-                // Si on a bougé plus que le seuil initial (pour le mobile)
+                
+                // Si c'est un drag, on met à jour hasMoved
                 if (this.touchStartX !== null) {
+                    // Mobile: Vérifier le mouvement total depuis touchStarted
                     const totalDeltaX = Math.abs(mouseX - this.touchStartX);
                     const totalDeltaY = Math.abs(mouseY - this.touchStartY);
                     if (totalDeltaX > this.DRAG_THRESHOLD || totalDeltaY > this.DRAG_THRESHOLD) {
@@ -54,23 +44,12 @@ window.InputManager = {
             }
 
             if (this.hasMoved) {
-                // Appliquer le déplacement
+                // Appliquer le déplacement (divisé par le zoom pour rester cohérent)
                 camera.x -= deltaX / camera.zoom;
                 camera.y -= deltaY / camera.zoom;
             }
-
-            // Sauvegarder les positions pour le prochain frame
-            this.lastMouseX = mouseX;
-            this.lastMouseY = mouseY;
         }
-
-        // 3. Fin du Drag (Desktop)
-        if (!mouseIsPressed && this.isDragging) {
-            this.isDragging = false;
-            this.lastMouseX = null;
-            this.lastMouseY = null;
-        }
-
+        
         // 4. Contraintes Caméra (Limitation du mouvement)
         const margin = Config.worldMargin;
         const zoneWidth = Config.zoneWidth;

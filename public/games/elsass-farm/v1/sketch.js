@@ -225,7 +225,6 @@ function mouseWheel(event) {
 }
 
 // Fonctions touch pour mobile - SIMPLIFIÉES
-// 1 doigt = drag de la caméra OU clic simple (selon mouvement)
 function touchStarted() {
     if (touches.length === 1) {
         // Un seul doigt : enregistrer la position pour détecter tap vs drag
@@ -233,9 +232,6 @@ function touchStarted() {
         InputManager.touchStartY = touches[0].y;
         InputManager.touchStartTime = millis();
         InputManager.hasMoved = false;
-        InputManager.isDragging = true; // Commencer en mode drag
-        InputManager.lastMouseX = touches[0].x;
-        InputManager.lastMouseY = touches[0].y;
     }
     // Retourner true permet à p5.js de convertir le touch en mouseClicked
     return true;
@@ -250,23 +246,15 @@ function touchMoved() {
         if (deltaX > InputManager.DRAG_THRESHOLD || deltaY > InputManager.DRAG_THRESHOLD) {
             InputManager.hasMoved = true; // C'est un drag
         }
-        
-        // Mettre à jour la position pour le drag dans InputManager
-        InputManager.lastMouseX = touches[0].x;
-        InputManager.lastMouseY = touches[0].y;
     }
+    // Si c'est un drag, on laisse InputManager.updateCamera gérer le déplacement
     return false; // Empêche le scroll
 }
 
 function touchEnded() {
     console.log('touchEnded - hasMoved:', InputManager.hasMoved);
     
-    // Si pas de mouvement significatif, mouseClicked sera appelé par p5.js
-    // Si mouvement, mouseClicked sera appelé mais ignoré par la garde hasMoved
-    
-    // Réinitialiser les positions de drag
-    InputManager.lastMouseX = null;
-    InputManager.lastMouseY = null;
+    // Réinitialiser les positions de départ
     InputManager.touchStartTime = null;
     InputManager.touchStartX = null;
     InputManager.touchStartY = null;

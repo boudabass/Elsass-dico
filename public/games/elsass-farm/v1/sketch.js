@@ -31,169 +31,15 @@ window.changeZone = function (newZoneId, entryPoint) {
     }
 }
 
-function setup() {
-    new Canvas(windowWidth, windowHeight);
-
-    world.gravity.y = 0;
-
-    // S'assurer qu'allSprites existe
-    if (typeof allSprites === 'undefined') {
-        allSprites = new Group();
-    }
-
-    camera.x = Config.zoneWidth / 2;
-    camera.y = Config.zoneHeight / 2;
-    camera.zoom = Config.zoom.start;
-
-    if (window.GameSystem && window.GameSystem.Lifecycle) {
-        window.GameSystem.Lifecycle.notifyReady();
-    }
-
-    InputManager.init();
-
-    // Initialiser les raccourcis (Refactorisé)
-    if (window.QuickAction && QuickAction.refresh) {
-        QuickAction.refresh();
-    }
-}
-
-function windowResized() {
-    resizeCanvas(windowWidth, windowHeight);
-    // Force un redraw après redimensionnement pour mobile
-    if (typeof redraw === 'function') {
-        redraw();
-    }
-}
-
-// Fonction globale redraw pour compatibilité (utilisée par MinimapRenderer et autres)
-window.redraw = function() {
-    if (typeof redraw === 'function') {
-        redraw();
-    }
-};
-
-function draw() {
-    const currentZone = getCurrentZone();
-
-    // 1. Fond de la zone
-    background(currentZone.bgColor);
-
-    // 2. Rendu Monde (Active la transformation de la caméra)
-    camera.on();
-
-    // Dessin du monde réel (la zone active)
-    noFill();
-    stroke(0);
-    strokeWeight(2);
-    rect(0, 0, Config.zoneWidth, Config.zoneHeight);
-
-    if (Config.debug && Config.showGrid) {
-        drawSimpleGrid();
-    }
-
-    // Dessiner la grille de farming (si dans une zone de ferme)
-    if (GridSystem && (GameState.currentZoneId === 'C_C' ||
-        GameState.currentZoneId.includes('N') ||
-        GameState.currentZoneId.includes('S'))) {
-        GridSystem.draw();
-    }
-
-    allSprites.draw();
-    camera.off(); // Désactive la transformation
-
-    // 3. Mise à jour de la caméra (Déplacement et Contraintes)
-    // Appel après camera.off() pour utiliser les coordonnées écran (mouseX, mouseY)
-    InputManager.updateCamera(
-        camera,
-        mouseIsPressed,
-        mouseX,
-        pmouseX,
-        mouseY,
-        pmouseY,
-        width,
-        height
-    );
-
-    // 4. Mise à jour automatique du temps (Game Loop)
-    if (window.TimeManager) {
-        // Initialiser lastTimeCheck si nécessaire
-        if (typeof window.lastTimeCheck === 'undefined') {
-            window.lastTimeCheck = millis();
-        }
-
-        // Vérifier si 1 seconde réelle s'est écoulée
-        if (millis() - window.lastTimeCheck >= 1000) {
-            window.lastTimeCheck = millis();
-            // Avancer de X minutes (Configuré dans TimeManager)
-            TimeManager.advanceMinutes(TimeManager.MINUTES_PER_REAL_SECOND);
-        }
-    }
-
-    // 5. Mise à jour des infos de debug dans le UIManager
-    if (Config.debug && window.UIManager) {
-        UIManager.updateDebugInfo({
-            zoneId: currentZone.id,
-            zoneName: currentZone.name,
-            zoom: camera.zoom,
-            camX: camera.x,
-            camY: camera.y,
-            worldX: mouse.x,
-            worldY: mouse.y,
-            mousePressed: mouseIsPressed,
-            mouseY: mouseY
-        });
-    }
-}
-
-function mousePressed() {
-    // Définir le flag pour ignorer le delta du premier frame
-    if (InputManager) {
-        InputManager.ignoreNextDelta = true;
-    }
-    // Laisser p5.js gérer le reste
-}
-
-// Logique de clic du monde (extraite pour être réutilisée)
-function handleWorldClick(screenX, screenY) {
-    // Utiliser les coordonnées passées (pour mobile) ou les coordonnées p5.js (pour desktop)
-    const clickX = screenX !== undefined ? screenX : mouseX;
-    const clickY = screenY !== undefined ? screenY : mouseY;
-
+// Logique de clic du monde (accepte les coordonnées monde directement)
+function handleWorldClick(worldX, worldY) {
     // Ne pas traiter le clic si une modale est ouverte
     if (UIManager && UIManager.isAnyModalOpen()) {
-        InputManager.hasMoved = false; // Réinitialiser
-        return;
-    }
-    // Ignorer le clic si on clique sur la barre du HUD
-    if (clickY < 60) {
-        InputManager.hasMoved = false; // Réinitialiser
         return;
     }
     
-    // Si InputManager a détecté un mouvement significatif (drag), ignorer le clic
-    if (InputManager.hasMoved) {
-        console.log('Clic ignoré - c\'était un drag');
-        InputManager.hasMoved = false; // Réinitialiser
-        return;
-    }
+    console.log('Clic Monde détecté !');
     
-    console.log('Clic détecté !');
-    
-    // Réinitialiser le flag après utilisation
-    InputManager.hasMoved = false;
-
-    // Convertir les coordonnées écran en coordonnées monde
-    // Note: p5.js met à jour mouse.x/y automatiquement si mouseClicked est appelé,
-    // mais si nous appelons directement, nous devons le faire manuellement.
-    // Pour simplifier, nous allons utiliser la fonction interne de p5.js pour la conversion
-    // en utilisant les coordonnées de la caméra.
-    
-    // Calculer les coordonnées monde à partir des coordonnées écran
-    const worldX = camera.x + (clickX - width / 2) / camera.zoom;
-    const worldY = camera.y + (clickY - height / 2) / camera.zoom;
-
-    console.log(`Clic Monde: ${Math.round(worldX)}, ${Math.round(worldY)}`);
-
     // Vérifier si le clic est sur la grille de farming
     if (GridSystem) {
         const gridPos = GridSystem.worldToGrid(worldX, worldY);
@@ -235,69 +81,181 @@ function handleWorldClick(screenX, screenY) {
     }
 }
 
-function mouseClicked() {
-    // Sur desktop, p5.js appelle mouseClicked après un clic simple
-    handleWorldClick();
-}
+function setup() {
+    new Canvas(windowWidth, windowHeight);
 
-function mouseWheel(event) {
-    if (mouseY < 60) return true;
+    world.gravity.y = 0;
 
-    let zoomAmount = event.delta * Config.zoom.sensitivity;
-    camera.zoom -= zoomAmount;
+    if (typeof allSprites === 'undefined') {
+        allSprites = new Group();
+    }
 
-    camera.zoom = constrain(camera.zoom, Config.zoom.min, Config.zoom.max);
-}
+    camera.x = Config.zoneWidth / 2;
+    camera.y = Config.zoneHeight / 2;
+    camera.zoom = Config.zoom.start;
 
-// Fonctions touch pour mobile - SIMPLIFIÉES
-function touchStarted() {
-    if (touches.length === 1) {
-        // Un seul doigt : enregistrer la position pour détecter tap vs drag
-        InputManager.touchStartX = touches[0].x;
-        InputManager.touchStartY = touches[0].y;
-        InputManager.touchStartTime = millis();
-        InputManager.hasMoved = false;
+    if (window.GameSystem && window.GameSystem.Lifecycle) {
+        window.GameSystem.Lifecycle.notifyReady();
+    }
+
+    InputManager.init();
+
+    if (window.QuickAction && QuickAction.refresh) {
+        QuickAction.refresh();
+    }
+    
+    // --- GESTION DES INPUTS UNIFIÉE (DOM) ---
+    const canvasElement = canvas.elt;
+
+    // Fonction utilitaire pour obtenir les coordonnées (souris ou touch)
+    const getCoords = (e) => {
+        const rect = canvasElement.getBoundingClientRect();
+        const clientX = e.clientX || e.touches?.[0]?.clientX;
+        const clientY = e.clientY || e.touches?.[0]?.clientY;
+        return {
+            x: clientX - rect.left,
+            y: clientY - rect.top
+        };
+    };
+
+    // 1. DÉBUT (mousedown/touchstart)
+    const handleStart = (e) => {
+        e.preventDefault();
+        const { x, y } = getCoords(e);
         
-        // Définir le flag pour ignorer le delta du premier frame
-        if (InputManager) {
-            InputManager.ignoreNextDelta = true;
+        // Ignorer si clic sur HUD
+        if (y < 60) return; 
+        
+        InputManager.startDrag(x, y);
+    };
+
+    // 2. MOUVEMENT (mousemove/touchmove)
+    const handleMove = (e) => {
+        e.preventDefault();
+        const { x, y } = getCoords(e);
+        
+        if (InputManager.isDragging) {
+            InputManager.moveDrag(x, y, camera);
+        }
+    };
+
+    // 3. FIN (mouseup/touchend)
+    const handleEnd = (e) => {
+        // e.preventDefault(); // Ne pas bloquer ici pour laisser les événements DOM se propager si besoin
+        
+        if (InputManager.isDragging) {
+            const wasClick = InputManager.endDrag();
+            
+            if (wasClick) {
+                // Si c'était un clic pur, nous utilisons les coordonnées de fin (lastX/Y)
+                const screenX = InputManager.lastX;
+                const screenY = InputManager.lastY;
+                
+                // Conversion manuelle des coordonnées écran en coordonnées monde
+                const worldX = camera.x + (screenX - width / 2) / camera.zoom;
+                const worldY = camera.y + (screenY - height / 2) / camera.zoom;
+                
+                handleWorldClick(worldX, worldY);
+            }
+        }
+    };
+
+    // Écouteurs
+    canvasElement.addEventListener('mousedown', handleStart);
+    canvasElement.addEventListener('touchstart', handleStart, { passive: false });
+
+    canvasElement.addEventListener('mousemove', handleMove);
+    canvasElement.addEventListener('touchmove', handleMove, { passive: false });
+
+    canvasElement.addEventListener('mouseup', handleEnd);
+    canvasElement.addEventListener('touchend', handleEnd);
+    
+    // Gestion du zoom (inchangé)
+    canvasElement.addEventListener('wheel', (e) => {
+        if (e.clientY < 60) return true;
+        e.preventDefault();
+        let zoomAmount = e.deltaY * Config.zoom.sensitivity;
+        camera.zoom -= zoomAmount;
+        camera.zoom = constrain(camera.zoom, Config.zoom.min, Config.zoom.max);
+    }, { passive: false });
+}
+
+function windowResized() {
+    resizeCanvas(windowWidth, windowHeight);
+    if (typeof redraw === 'function') {
+        redraw();
+    }
+}
+
+window.redraw = function() {
+    if (typeof redraw === 'function') {
+        redraw();
+    }
+};
+
+function draw() {
+    const currentZone = getCurrentZone();
+
+    background(currentZone.bgColor);
+
+    camera.on();
+
+    noFill();
+    stroke(0);
+    strokeWeight(2);
+    rect(0, 0, Config.zoneWidth, Config.zoneHeight);
+
+    if (Config.debug && Config.showGrid) {
+        drawSimpleGrid();
+    }
+
+    if (GridSystem && (GameState.currentZoneId === 'C_C' ||
+        GameState.currentZoneId.includes('N') ||
+        GameState.currentZoneId.includes('S'))) {
+        GridSystem.draw();
+    }
+
+    allSprites.draw();
+    camera.off();
+
+    // Contrainte de la caméra (appelée à chaque frame)
+    InputManager.constrainCamera(camera, width, height);
+
+    // Mise à jour automatique du temps (Game Loop)
+    if (window.TimeManager) {
+        if (typeof window.lastTimeCheck === 'undefined') {
+            window.lastTimeCheck = millis();
+        }
+
+        if (millis() - window.lastTimeCheck >= 1000) {
+            window.lastTimeCheck = millis();
+            TimeManager.advanceMinutes(TimeManager.MINUTES_PER_REAL_SECOND);
         }
     }
-    // Retourner true permet à p5.js de convertir le touch en mouseClicked
-    return true;
+
+    // Mise à jour des infos de debug
+    if (Config.debug && window.UIManager) {
+        UIManager.updateDebugInfo({
+            zoneId: currentZone.id,
+            zoneName: currentZone.name,
+            zoom: camera.zoom,
+            camX: camera.x,
+            camY: camera.y,
+            worldX: mouse.x,
+            worldY: mouse.y,
+            mousePressed: InputManager.isDragging, // Utiliser l'état du manager
+            mouseY: mouseY
+        });
+    }
 }
 
-function touchMoved() {
-    if (touches.length === 1 && InputManager.touchStartX !== null) {
-        // Mettre à jour hasMoved si le mouvement dépasse le seuil
-        const deltaX = Math.abs(touches[0].x - InputManager.touchStartX);
-        const deltaY = Math.abs(touches[0].y - InputManager.touchStartY);
-        
-        if (deltaX > InputManager.DRAG_THRESHOLD || deltaY > InputManager.DRAG_THRESHOLD) {
-            InputManager.hasMoved = true; // C'est un drag
-        }
-    }
-    return false; // Empêche le scroll
-}
-
-function touchEnded() {
-    console.log('touchEnded - hasMoved:', InputManager.hasMoved);
-    
-    // Si aucun mouvement significatif n'a eu lieu, forcer l'exécution de la logique de clic
-    if (!InputManager.hasMoved && touches.length === 0) {
-        // Utiliser les coordonnées de fin de touch (qui sont stockées dans mouseX/Y par p5.js)
-        // Nous passons mouseX/Y explicitement pour garantir que handleWorldClick utilise les coordonnées écran
-        handleWorldClick(mouseX, mouseY);
-    }
-    
-    // Réinitialiser les positions de départ
-    InputManager.touchStartTime = null;
-    InputManager.touchStartX = null;
-    InputManager.touchStartY = null;
-    
-    // Laisser p5.js gérer le reste (qui peut appeler mouseClicked si le mouvement était minime)
-    return true;
-}
+// Fonctions p5.js inutilisées après refactor (laisser vides pour éviter les avertissements)
+function mouseClicked() {}
+function mousePressed() {}
+function mouseReleased() {}
+function touchStarted() {}
+function touchMoved() { return false; }
+function touchEnded() {}
 
 function drawSimpleGrid() {
     stroke(Config.colors.gridLines);

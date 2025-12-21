@@ -90,6 +90,12 @@ function setup() {
         allSprites = new Group();
     }
 
+    // --- FIX: Assurer l'état initial ---
+    if (window.GameState && !GameState.currentZoneId) {
+        GameState.currentZoneId = 'C_C'; // Default Zone
+    }
+    // -----------------------------------
+
     camera.x = Config.zoneWidth / 2;
     camera.y = Config.zoneHeight / 2;
     camera.zoom = Config.zoom.start;
@@ -196,10 +202,13 @@ window.redraw = function() {
 function draw() {
     const currentZone = getCurrentZone();
 
+    // 1. Fond de la zone
     background(currentZone.bgColor);
 
+    // 2. Rendu Monde (Active la transformation de la caméra)
     camera.on();
 
+    // Dessin du monde réel (la zone active)
     noFill();
     stroke(0);
     strokeWeight(2);

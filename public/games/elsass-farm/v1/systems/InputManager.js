@@ -6,7 +6,7 @@ window.InputManager = {
     touchStartX: null,
     touchStartY: null,
     hasMoved: false,
-    DRAG_THRESHOLD: 15, // Seuil de pixels pour considérer un mouvement comme un drag
+    DRAG_THRESHOLD: 30, // Augmenté à 30px pour mieux gérer le tap sur mobile
     
     // Nouveau flag pour ignorer le delta du premier frame après un clic/touch
     ignoreNextDelta: false, 

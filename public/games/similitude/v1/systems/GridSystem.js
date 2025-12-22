@@ -118,7 +118,7 @@ window.GridSystem = {
         return true;
     },
     
-    // Échange deux items (Swap)
+    // Échange deux items (Swap) - TOUJOURS PERMANENT
     swapItems: function (col1, row1, col2, row2) {
         const tile1 = this.getTile(col1, row1);
         const tile2 = this.getTile(col2, row2);
@@ -136,32 +136,14 @@ window.GridSystem = {
         
         console.log(`🔄 Swap effectué: (${col1}, ${row1}) <-> (${col2}, ${row2})`);
         
-        // Vérifier si le swap a créé un match
-        const matches1 = this.checkMatch(col1, row1).length;
-        const matches2 = this.checkMatch(col2, row2).length;
+        // Vérifier si le swap a créé un match et traiter la fusion
+        this.checkAndProcessFusions();
         
-        if (matches1 >= Config.grid.matchMin || matches2 >= Config.grid.matchMin) {
-            // Match trouvé, laisser le swap et traiter la fusion
-            this.checkAndProcessFusions();
-            return true;
-        } else {
-            // Pas de match, annuler le swap
-            this.undoSwap(col1, row1, col2, row2);
-            return false;
-        }
+        return true; // Le swap est toujours réussi
     },
     
-    // Annule un échange
-    undoSwap: function (col1, row1, col2, row2) {
-        const tile1 = this.getTile(col1, row1);
-        const tile2 = this.getTile(col2, row2);
-        
-        const tempId = tile1.itemId;
-        tile1.itemId = tile2.itemId;
-        tile2.itemId = tempId;
-        
-        console.log("❌ Swap annulé (pas de combo).");
-    },
+    // Annule un échange (Fonction supprimée car le swap est toujours permanent)
+    // undoSwap: function (col1, row1, col2, row2) { ... },
 
     // Vérifie les alignements et marque les tuiles
     checkMatch: function (col, row) {

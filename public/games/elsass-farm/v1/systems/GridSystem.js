@@ -246,6 +246,9 @@ window.GridSystem = {
 
     // Dessine une tuile individuelle
     drawTile: function (x, y, tile) {
+        // Alias pour la fonction p5.js rect
+        const p5Rect = rect; 
+        
         // --- LOGIQUE VISUELLE v1.3 ---
         // Sol = État du terrain (Sec/Mouillé), Pas Maturité
         
@@ -273,7 +276,7 @@ window.GridSystem = {
         fill(fillColor);
         stroke(60, 40, 20);
         strokeWeight(2);
-        rect(x, y, this.TILE_SIZE, this.TILE_SIZE, 8);
+        p5Rect(x, y, this.TILE_SIZE, this.TILE_SIZE, 8);
 
         // Dessin de la Plante (Taille Dynamique)
         if (tile.state !== this.STATES.EMPTY) {

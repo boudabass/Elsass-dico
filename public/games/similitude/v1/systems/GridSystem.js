@@ -62,6 +62,15 @@ window.GridSystem = {
         const index = row * this.cols + col;
         return this.grid[index];
     },
+    
+    // Supprime l'item d'une tuile
+    clearTile: function (col, row) {
+        const tile = this.getTile(col, row);
+        if (tile) {
+            tile.itemId = null;
+            tile.state = 'NORMAL';
+        }
+    },
 
     // Supprime les matchs initiaux (pour ne pas commencer par un combo)
     removeInitialMatches: function () {

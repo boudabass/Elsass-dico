@@ -19,6 +19,7 @@ window.UIManager = {
 
     _closeAllModals: function (exceptId) {
         const modals = ['menu-modal', 'debug-modal', 'gameover-modal', 'powerup-modal', 'shop-modal'];
+        let wasPaused = GameState.currentState === GameState.GAME_STATE.PAUSED;
         let modalClosed = false;
 
         modals.forEach(id => {
@@ -33,14 +34,14 @@ window.UIManager = {
         });
         
         // Si une modale a été fermée et que le jeu était en pause (et n'est pas en Game Over)
-        if (modalClosed && GameState.currentState === GameState.GAME_STATE.PAUSED) {
+        if (modalClosed && wasPaused && GameState.currentState !== GameState.GAME_STATE.GAMEOVER) {
             // On utilise un petit délai pour s'assurer que le DOM a été mis à jour
             setTimeout(() => {
-                // Si aucune modale n'est visible, on reprend le jeu
-                if (!this.isAnyModalVisible()) {
-                    GameState.currentState = GameState.GAME_STATE.PLAYING;
-                    window.toggleGameLoop(true); // REPRISE DE LA BOUCLE P5.JS
-                    console.log("▶️ Jeu repris automatiquement.");
+                // Si aucune modale n'est visible, on appelle startGame() pour reprendre
+                if (!this.isAnyModalVisible() && typeof startGame === 'function') {
+                    // startGame() gère la transition d'état vers PLAYING et l'appel à loop()
+                    startGame(); 
+                    console.log("▶️ Jeu repris automatiquement via startGame().");
                 }
             }, 50); 
         }

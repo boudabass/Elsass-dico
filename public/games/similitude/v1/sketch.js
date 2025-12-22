@@ -157,6 +157,9 @@ window.redraw = function() {
 };
 
 function draw() {
+    // Log de vérification de l'exécution de la boucle
+    // console.log("Draw loop running. State:", GameState.currentState); 
+    
     background(Config.colors.background);
 
     // 1. Mise à jour de la logique de jeu

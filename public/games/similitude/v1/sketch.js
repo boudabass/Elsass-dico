@@ -21,6 +21,12 @@ function handleWorldClick(screenX, screenY) {
             const tile = GridSystem.getTile(gridPos.col, gridPos.row);
             
             if (!tile) return;
+            
+            // --- LOGIQUE POWER-UP (Priorité 1) ---
+            if (GameState.activePowerUpIndex !== -1 && window.PowerUpManager) {
+                PowerUpManager.useActivePowerUp(gridPos.col, gridPos.row);
+                return;
+            }
 
             // --- LOGIQUE DE SÉLECTION (Clic 1) ---
             if (!GameState.selectedTile) {

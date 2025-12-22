@@ -29,6 +29,7 @@
     <script src="systems/InputManager.js"></script>
     <script src="systems/GridSystem.js"></script>
     <script src="systems/AnimationSystem.js"></script>
+    <script src="systems/PowerUpManager.js"></script>
     <script src="main.js"></script>
     <script src="sketch.js"></script>
 
@@ -38,6 +39,8 @@
         function toggleDebug() { UIManager.toggleDebug(); }
         function toggleFullscreen() { UIManager.toggleFullscreen(); }
         function toggleGrid() { UIManager.toggleGrid(); }
+        function togglePowerUpWindow() { UIManager.togglePowerUpWindow(); }
+        function toggleShop() { UIManager.toggleShop(); }
         
         function startGame() {
             if (window.GameState) {
@@ -108,6 +111,31 @@
                 <button class="hud-btn" onclick="event.stopPropagation(); toggleMenu()">≡ MENU</button>
             </div>
         </div>
+        
+        <!-- --- NOUVELLE ZONE UI BASSE --- -->
+        
+        <!-- Ligne 1: Bouton Power Up (y=82vh) -->
+        <div class="bottom-ui-line line-1">
+            <button class="hud-btn pu-btn-main" onclick="event.stopPropagation(); togglePowerUpWindow()">
+                💥 POWER UP
+            </button>
+        </div>
+        
+        <!-- Ligne 2: Slots d'utilisation rapide (y=90vh) -->
+        <div class="bottom-ui-line line-2">
+            <div id="quick-slots-container" class="quick-slots-container">
+                <!-- Slots générés par JS -->
+            </div>
+        </div>
+        
+        <!-- Ligne 3: Bouton Boutique (y=97vh) -->
+        <div class="bottom-ui-line line-3">
+            <button class="hud-btn pu-btn-main" onclick="event.stopPropagation(); toggleShop()">
+                💰 BOUTIQUE
+            </button>
+        </div>
+        
+        <!-- --- MODALES --- -->
 
         <!-- Menu Principal Modal -->
         <div id="menu-modal" class="modal-overlay" onclick="if(event.target.id === 'menu-modal') toggleMenu()">
@@ -129,6 +157,29 @@
                 <p style="font-size: 18px;">Score Final: <span id="final-score" style="font-weight: bold;">0</span></p>
                 <button class="hud-btn" onclick="startGame()">Rejouer</button>
                 <button class="hud-btn hud-btn-red" onclick="quitGame(event)">Quitter</button>
+            </div>
+        </div>
+
+        <!-- Power Up Management Modal (Fenêtre 5x5) -->
+        <div id="powerup-modal" class="modal-overlay" onclick="if(event.target.id === 'powerup-modal') togglePowerUpWindow()">
+            <div class="modal-content pu-modal-content">
+                <h3 style="color: #55efc4;">Gestion des Power-ups (5x5)</h3>
+                <div id="powerup-grid" class="powerup-grid">
+                    <!-- Power-ups générés par JS -->
+                </div>
+                <button class="hud-btn hud-btn-red" onclick="togglePowerUpWindow()">Fermer</button>
+            </div>
+        </div>
+        
+        <!-- Shop Modal -->
+        <div id="shop-modal" class="modal-overlay" onclick="if(event.target.id === 'shop-modal') toggleShop()">
+            <div class="modal-content pu-modal-content">
+                <h3 style="color: #f39c12;">💰 Boutique Power-ups</h3>
+                <p style="color: white; font-size: 14px;">Or disponible: <span style="font-weight: bold;">${GameState.gold}</span></p>
+                <div id="shop-grid" class="shop-grid">
+                    <!-- Items de la boutique générés par JS -->
+                </div>
+                <button class="hud-btn hud-btn-red" onclick="toggleShop()">Fermer</button>
             </div>
         </div>
 

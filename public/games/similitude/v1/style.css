@@ -232,3 +232,203 @@ canvas {
 .debug-tabs .hud-btn.active {
     background: #e74c3c !important;
 }
+
+/* --- NOUVELLE ZONE UI BASSE (Power-ups) --- */
+
+.bottom-ui-line {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+    max-width: 400px;
+    pointer-events: auto;
+    z-index: 110; /* Au-dessus du canvas */
+    display: flex;
+    justify-content: center;
+}
+
+.line-1 {
+    bottom: 18vh; /* y=82vh */
+}
+
+.line-2 {
+    bottom: 10vh; /* y=90vh */
+}
+
+.line-3 {
+    bottom: 3vh; /* y=97vh */
+}
+
+.pu-btn-main {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    background: #f39c12; /* Jaune/Ambre */
+    border-color: #f1c40f;
+    color: #1e272e;
+}
+
+.pu-btn-main:hover {
+    background: #f1c40f;
+}
+
+/* Ligne 2: Slots d'utilisation rapide */
+.quick-slots-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    width: 100%;
+}
+
+.quick-slot {
+    background: #34495e;
+    border: 2px solid #7f8c8d;
+    border-radius: 8px;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+    transition: all 0.1s;
+}
+
+.quick-slot:hover {
+    transform: scale(1.05);
+}
+
+.slot-icon {
+    font-size: 24px;
+}
+
+.slot-qty {
+    font-size: 10px;
+    font-weight: bold;
+    color: #ecf0f1;
+    position: absolute;
+    bottom: 2px;
+    right: 4px;
+    background: #1e272e;
+    padding: 0 3px;
+    border-radius: 3px;
+}
+
+.quick-slot.active-glow {
+    border-color: #f39c12; /* Glow jaune prêt */
+    box-shadow: 0 0 10px #f39c12;
+    background: #4a657a;
+}
+
+.quick-slot.empty-slot {
+    opacity: 0.5;
+    cursor: default;
+    border-style: dashed;
+}
+
+/* --- Modale Power Up (5x5) et Shop --- */
+.pu-modal-content {
+    max-width: 600px;
+    width: 90%;
+}
+
+.powerup-grid, .shop-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.pu-slot {
+    background: #34495e;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.1s;
+    min-height: 80px;
+}
+
+.pu-slot:hover {
+    background: #4a657a;
+}
+
+.pu-slot.equipped {
+    border-color: #55efc4; /* Turquoise pour équipé */
+    box-shadow: 0 0 8px #55efc4;
+}
+
+.pu-icon {
+    font-size: 28px;
+}
+
+.pu-name {
+    font-size: 9px;
+    text-align: center;
+    line-height: 1.1;
+    margin-top: 3px;
+}
+
+.pu-qty {
+    font-size: 12px;
+    font-weight: bold;
+    color: #f39c12;
+}
+
+/* Shop Items */
+.shop-grid {
+    grid-template-columns: repeat(3, 1fr); /* 3 colonnes pour plus de détails */
+    gap: 15px;
+}
+
+.shop-item {
+    background: #1e272e;
+    border: 1px solid #7f8c8d;
+    border-radius: 8px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    transition: background 0.1s;
+}
+
+.shop-item:hover {
+    background: #34495e;
+}
+
+.shop-icon {
+    font-size: 32px;
+    flex-shrink: 0;
+}
+
+.shop-details {
+    flex-grow: 1;
+    text-align: left;
+}
+
+.shop-name {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.shop-price {
+    font-size: 12px;
+    color: #f39c12;
+}
+
+.shop-stock {
+    font-size: 14px;
+    font-weight: bold;
+    color: #55efc4;
+    flex-shrink: 0;
+}
+
+.shop-item.cannot-afford {
+    opacity: 0.6;
+    cursor: not-allowed;
+}

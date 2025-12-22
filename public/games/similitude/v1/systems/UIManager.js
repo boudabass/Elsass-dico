@@ -12,7 +12,7 @@ window.UIManager = {
     },
 
     _closeAllModals: function (exceptId) {
-        const modals = ['menu-modal', 'debug-modal', 'gameover-modal'];
+        const modals = ['menu-modal', 'debug-modal', 'gameover-modal', 'powerup-modal', 'shop-modal'];
         modals.forEach(id => {
             if (id !== exceptId) {
                 const el = document.getElementById(id);
@@ -22,6 +22,10 @@ window.UIManager = {
                 }
             }
         });
+        // Reprendre le jeu si toutes les modales bloquantes sont fermées
+        if (exceptId !== 'gameover-modal' && !this.isAnyModalOpen() && GameState.currentState === GameState.GAME_STATE.PAUSED) {
+            GameState.currentState = GameState.GAME_STATE.PLAYING;
+        }
     },
 
     toggleMenu: function () {
@@ -30,13 +34,49 @@ window.UIManager = {
         if (!el) return;
         const becomingInactive = el.classList.contains('active');
         el.classList.toggle('active');
-        if (becomingInactive) this.lastCloseTime = Date.now();
         
-        // Pause/Reprise du jeu
-        if (GameState.currentState === GameState.GAME_STATE.PLAYING) {
-            GameState.currentState = GameState.GAME_STATE.PAUSED;
-        } else if (GameState.currentState === GameState.GAME_STATE.PAUSED) {
-            GameState.currentState = GameState.GAME_STATE.PLAYING;
+        if (becomingInactive) {
+            this.lastCloseTime = Date.now();
+        } else {
+            // Pause le jeu si le menu s'ouvre
+            if (GameState.currentState === GameState.GAME_STATE.PLAYING) {
+                GameState.currentState = GameState.GAME_STATE.PAUSED;
+            }
+        }
+    },
+    
+    togglePowerUpWindow: function () {
+        this._closeAllModals('powerup-modal');
+        const el = document.getElementById('powerup-modal');
+        if (!el) return;
+        const becomingInactive = el.classList.contains('active');
+        el.classList.toggle('active');
+        
+        if (becomingInactive) {
+            this.lastCloseTime = Date.now();
+        } else {
+            // Pause le jeu et rend le contenu
+            if (GameState.currentState === GameState.GAME_STATE.PLAYING) {
+                GameState.currentState = GameState.GAME_STATE.PAUSED;
+            }
+            this.renderPowerUpWindow();
+        }
+    },
+    
+    toggleShop: function() {
+        this._closeAllModals('shop-modal');
+        const el = document.getElementById('shop-modal');
+        if (!el) return;
+        const becomingInactive = el.classList.contains('active');
+        el.classList.toggle('active');
+        
+        if (becomingInactive) {
+            this.lastCloseTime = Date.now();
+        } else {
+            if (GameState.currentState === GameState.GAME_STATE.PLAYING) {
+                GameState.currentState = GameState.GAME_STATE.PAUSED;
+            }
+            this.renderShopWindow();
         }
     },
 
@@ -59,7 +99,6 @@ window.UIManager = {
         if (!el) return;
         el.classList.add('active');
         
-        // Mettre à jour le score final
         const finalScoreEl = document.getElementById('final-score');
         if (finalScoreEl) finalScoreEl.innerText = GameState.score;
     },
@@ -77,6 +116,85 @@ window.UIManager = {
             if (window.DebugManager) DebugManager.updateGridButton();
             if (window.redraw) window.redraw();
         }
+    },
+
+    // --- Rendu des Power-ups ---
+    
+    renderQuickSlots: function() {
+        const container = document.getElementById('quick-slots-container');
+        if (!container || !window.PowerUpManager) return;
+        
+        let html = '';
+        
+        GameState.equippedSlots.forEach((slot, index) => {
+            const pu = PowerUpManager.getEquippedPowerUp(index);
+            const qty = pu ? pu.qty : 0;
+            const isActive = GameState.activePowerUpIndex === index;
+            const isEmpty = qty === 0;
+            
+            html += `
+                <div class="quick-slot ${isActive ? 'active-glow' : ''} ${isEmpty ? 'empty-slot' : ''}" 
+                     onclick="event.stopPropagation(); PowerUpManager.toggleActive(${index})">
+                    <span class="slot-icon">${slot.icon}</span>
+                    <span class="slot-qty">x${qty}</span>
+                </div>
+            `;
+        });
+        
+        container.innerHTML = html;
+    },
+    
+    renderPowerUpWindow: function() {
+        const container = document.getElementById('powerup-grid');
+        if (!container || !window.PowerUpManager) return;
+        
+        let html = '';
+        
+        Config.powerUps.forEach((category, colIndex) => {
+            category.forEach(pu => {
+                const qty = GameState.powerUpStock[pu.id] || 0;
+                const isEquipped = GameState.equippedSlots[colIndex].id === pu.id;
+                
+                html += `
+                    <div class="pu-slot ${isEquipped ? 'equipped' : ''}" 
+                         onclick="event.stopPropagation(); PowerUpManager.equipPowerUp('${pu.id}', ${colIndex})">
+                        <span class="pu-icon">${pu.icon}</span>
+                        <span class="pu-name">${pu.name}</span>
+                        <span class="pu-qty">x${qty}</span>
+                    </div>
+                `;
+            });
+        });
+        
+        container.innerHTML = html;
+    },
+    
+    renderShopWindow: function() {
+        const container = document.getElementById('shop-grid');
+        if (!container || !window.PowerUpManager) return;
+        
+        let html = '';
+        
+        Config.powerUps.forEach(category => {
+            category.forEach(pu => {
+                const qty = GameState.powerUpStock[pu.id] || 0;
+                const canAfford = GameState.gold >= pu.cost;
+                
+                html += `
+                    <div class="shop-item ${!canAfford ? 'cannot-afford' : ''}" 
+                         onclick="event.stopPropagation(); PowerUpManager.buyPowerUp('${pu.id}')">
+                        <div class="shop-icon">${pu.icon}</div>
+                        <div class="shop-details">
+                            <div class="shop-name">${pu.name}</div>
+                            <div class="shop-price">💰 ${pu.cost}</div>
+                        </div>
+                        <div class="shop-stock">x${qty}</div>
+                    </div>
+                `;
+            });
+        });
+        
+        container.innerHTML = html;
     },
 
     // --- Fonctions de mise à jour (Sécurisées) ---

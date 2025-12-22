@@ -15,6 +15,8 @@ console.log("🧩 Similitude v1 Initializing...");
         { name: 'UIManager', obj: window.UIManager },
         { name: 'DebugManager', obj: window.DebugManager },
         { name: 'GridSystem', obj: window.GridSystem },
+        { name: 'AnimationSystem', obj: window.AnimationSystem },
+        { name: 'PowerUpManager', obj: window.PowerUpManager }, // NOUVEAU
     ];
 
     const missing = required.filter(dep => !dep.obj);
@@ -49,6 +51,10 @@ window.refreshHUD = function () {
         score: GameState.score,
         chrono: ChronoManager.getTimeString()
     });
+    // Mettre à jour les slots de power-up rapides
+    if (window.PowerUpManager && window.UIManager) {
+        UIManager.renderQuickSlots();
+    }
 };
 
 // Fonction d'initialisation finale (appelée après le chargement de la sauvegarde)

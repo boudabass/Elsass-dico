@@ -7,6 +7,7 @@ import { getDb, GameMetadata } from '@/lib/database';
 import { revalidatePath } from 'next/cache'; // Importation nécessaire
 
 const GAMES_DIR = path.join(process.cwd(), 'public', 'games');
+const ABSOLUTE_GAMES_DIR = path.resolve(GAMES_DIR); // Define once for security checks
 const EXCLUDED_FOLDERS = ['system']; // Dossiers à ignorer
 
 // S'assurer que le dossier games existe
@@ -339,7 +340,13 @@ export async function uploadGameFile(gameName: string, version: string, formData
 
   const safeName = gameName.replace(/[^a-z0-9-]/g, '-');
   const safeVersion = version.replace(/[^a-z0-9-]/g, '-');
-  const filePath = path.join(GAMES_DIR, safeName, safeVersion, file.name);
+  
+  // Sanitize file.name to prevent path traversal and unsafe characters
+  const originalFileName = file.name;
+  const baseFileName = path.basename(originalFileName);
+  const sanitizedFileName = baseFileName.replace(/[^a-zA-Z0-9-._]/g, '_'); // Allow alphanumeric, hyphens, underscores, dots
+
+  const filePath = path.join(GAMES_DIR, safeName, safeVersion, sanitizedFileName);
 
   await fs.writeFile(filePath, buffer);
 
@@ -354,11 +361,18 @@ export async function deleteGame(gameFolderName: string) {
   const safeGameName = gameFolderName.toLowerCase().replace(/[^a-z0-9-]/g, '-');
   const dbIdPrefix = `${safeGameName}-`;
   
-  // 2. Déterminer le chemin physique (utilise le nom exact du dossier pour la suppression)
-  const gamePath = path.join(GAMES_DIR, gameFolderName);
+  // 2. Déterminer le chemin physique et valider pour éviter le path traversal
+  const intendedGamePath = path.join(GAMES_DIR, gameFolderName);
+  const resolvedGamePath = path.resolve(intendedGamePath);
+
+  // CRITICAL SECURITY CHECK: Ensure the resolved path is still within the GAMES_DIR
+  if (!resolvedGamePath.startsWith(ABSOLUTE_GAMES_DIR)) {
+    console.error(`[SECURITY ALERT] Path traversal attempt detected for game: ${gameFolderName}`);
+    return { success: false, error: "Invalid path provided." };
+  }
 
   try {
-    await fs.rm(gamePath, { recursive: true, force: true });
+    await fs.rm(resolvedGamePath, { recursive: true, force: true });
   } catch (e) {
     console.error("Erreur suppression dossier", e);
   }
@@ -380,22 +394,28 @@ export async function deleteGame(gameFolderName: string) {
 }
 
 export async function deleteVersion(gameFolderName: string, versionName: string) {
-  // 1. File System Deletion
-  // Utiliser les noms bruts pour le chemin afin de respecter la casse du système de fichiers
-  const versionPath = path.join(GAMES_DIR, gameFolderName, versionName);
-  
+  // 1. Déterminer le chemin physique et valider pour éviter le path traversal
+  const intendedVersionPath = path.join(GAMES_DIR, gameFolderName, versionName);
+  const resolvedVersionPath = path.resolve(intendedVersionPath);
+
+  // CRITICAL SECURITY CHECK: Ensure the resolved path is still within the GAMES_DIR
+  if (!resolvedVersionPath.startsWith(ABSOLUTE_GAMES_DIR)) {
+    console.error(`[SECURITY ALERT] Path traversal attempt detected for version: ${gameFolderName}/${versionName}`);
+    return { success: false, error: "Invalid path provided." };
+  }
+
+  // Supprimer les fichiers
+  try {
+    await fs.rm(resolvedVersionPath, { recursive: true, force: true });
+    console.log(`[GameManager] Successfully deleted directory: ${resolvedVersionPath}`);
+  } catch (e) { 
+    console.error(`[GameManager] Failed to delete directory ${resolvedVersionPath}. Continuing with DB cleanup.`, e);
+  }
+
   // 2. Calcul de l'ID DB (doit être en minuscules/safe pour correspondre aux entrées DB)
   const safeGameName = gameFolderName.toLowerCase().replace(/[^a-z0-9-]/g, '-');
   const safeVersionName = versionName.toLowerCase().replace(/[^a-z0-9-]/g, '-');
   const gameId = `${safeGameName}-${safeVersionName}`;
-
-  // Supprimer les fichiers
-  try {
-    await fs.rm(versionPath, { recursive: true, force: true });
-    console.log(`[GameManager] Successfully deleted directory: ${versionPath}`);
-  } catch (e) { 
-    console.error(`[GameManager] Failed to delete directory ${versionPath}. Continuing with DB cleanup.`, e);
-  }
 
   // 3. Supprimer l'entrée DB
   const db = await getDb();
@@ -419,11 +439,15 @@ export async function updateGameMetadata(gameFolderName: string, version: string
   const safeVersion = version.toLowerCase().replace(/[^a-z0-9-]/g, '-');
   const gameId = `${safeName}-${safeVersion}`;
 
-  // Pour le chemin de fichier (fs), on garde la casse originale si nécessaire, ou on utilise le nom du dossier
-  // Mais ici on utilise safeName qui est lowercase pour le path aussi (car createGameFolder utilise lowercase pour le dossier)
-  // Attention: Si le dossier physique n'est PAS lowercase, cela peut poser problème sur Linux.
-  // Mais createGameFolder force le lowercase pour le dossier.
-  const dirPath = path.join(GAMES_DIR, gameFolderName.replace(/[^a-z0-9-]/g, '-'), version.replace(/[^a-z0-9-]/g, '-'));
+  // For file system path, we use the sanitized folder name and version name
+  const intendedDirPath = path.join(GAMES_DIR, gameFolderName.replace(/[^a-z0-9-]/g, '-'), version.replace(/[^a-z0-9-]/g, '-'));
+  const resolvedDirPath = path.resolve(intendedDirPath);
+
+  // CRITICAL SECURITY CHECK: Ensure the resolved path is still within the GAMES_DIR
+  if (!resolvedDirPath.startsWith(ABSOLUTE_GAMES_DIR)) {
+    console.error(`[SECURITY ALERT] Path traversal attempt detected for metadata update: ${gameFolderName}/${version}`);
+    return { success: false, error: "Invalid path provided." };
+  }
 
   const db = await getDb();
   await db.read();
@@ -437,7 +461,7 @@ export async function updateGameMetadata(gameFolderName: string, version: string
   }
 
   try {
-    await fs.writeFile(path.join(dirPath, 'description.md'), newDescription);
+    await fs.writeFile(path.join(resolvedDirPath, 'description.md'), newDescription);
   } catch (e) { }
 
   await db.write(); // PERSISTENCE CRITIQUE
@@ -457,7 +481,13 @@ export async function uploadGameThumbnail(gameName: string, version: string, for
 
   const safeName = gameName.replace(/[^a-z0-9-]/g, '-');
   const safeVersion = version.replace(/[^a-z0-9-]/g, '-');
-  const filePath = path.join(GAMES_DIR, safeName, safeVersion, 'thumbnail.png');
+  
+  // Sanitize file.name to prevent path traversal and unsafe characters
+  const originalFileName = file.name;
+  const baseFileName = path.basename(originalFileName);
+  const sanitizedFileName = baseFileName.replace(/[^a-zA-Z0-9-._]/g, '_'); // Allow alphanumeric, hyphens, underscores, dots
+
+  const filePath = path.join(GAMES_DIR, safeName, safeVersion, 'thumbnail.png'); // Fixed filename for thumbnail
 
   await fs.writeFile(filePath, buffer);
 
@@ -483,7 +513,15 @@ export async function generateIndexHtml(gameName: string, version: string, confi
   try {
     const indexParams = { gameName, version, config }; // Dummy usage
     const dirPath = path.join(GAMES_DIR, safeName, version);
-    await fs.unlink(path.join(dirPath, 'index.html'));
+    const resolvedDirPath = path.resolve(dirPath);
+
+    // CRITICAL SECURITY CHECK: Ensure the resolved path is still within the GAMES_DIR
+    if (!resolvedDirPath.startsWith(ABSOLUTE_GAMES_DIR)) {
+      console.error(`[SECURITY ALERT] Path traversal attempt detected for index.html generation: ${gameName}/${version}`);
+      return { success: false, error: "Invalid path provided." };
+    }
+
+    await fs.unlink(path.join(resolvedDirPath, 'index.html'));
   } catch (e) { }
 
   // On rappelle la fonction interne qui contient le template

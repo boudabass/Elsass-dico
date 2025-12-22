@@ -9,6 +9,7 @@ const Config = {
         tileSize: 64, // Taille de tuile standard
         matchMin: 3,  // Minimum pour fusion
         itemTypes: 8, // Nombre de types d'items différents utilisés dans la grille
+        initialEmptySlots: 5, // NOUVEAU: Nombre de cases vides au départ
     },
 
     // --- PARAMÈTRES DE JEU ---

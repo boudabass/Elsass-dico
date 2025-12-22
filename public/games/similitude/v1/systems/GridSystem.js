@@ -13,6 +13,7 @@ window.GridSystem = {
         this.grid = [];
         const totalTiles = this.rows * this.cols;
         
+        // 1. Remplir la grille entièrement avec des items aléatoires
         for (let i = 0; i < totalTiles; i++) {
             this.grid.push({
                 itemId: this.getRandomItem(),
@@ -22,14 +23,32 @@ window.GridSystem = {
             });
         }
         
-        // S'assurer qu'il n'y a pas de match au départ
+        // 2. S'assurer qu'il n'y a pas de match au départ
         this.removeInitialMatches();
-        console.log(`✅ Grille ${this.rows}x${this.cols} initialisée.`);
+
+        // 3. Créer des cases vides initiales
+        const emptySlots = Config.grid.initialEmptySlots;
+        const indices = Array.from({ length: totalTiles }, (_, i) => i);
+        
+        // Mélanger les indices et prendre les 'emptySlots' premiers
+        for (let i = indices.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [indices[i], indices[j]] = [indices[j], indices[i]];
+        }
+        
+        for (let i = 0; i < emptySlots; i++) {
+            const index = indices[i];
+            if (this.grid[index]) {
+                this.grid[index].itemId = null;
+            }
+        }
+        
+        console.log(`✅ Grille ${this.rows}x${this.cols} initialisée avec ${emptySlots} cases vides.`);
     },
 
     // Récupère un item aléatoire (limité par Config.grid.itemTypes)
     getRandomItem: function () {
-        const index = Math.floor(Math.random() * Config.grid.itemTypes);
+        const index = floor(random(Config.grid.itemTypes));
         return Config.seedIcons[index];
     },
 
@@ -48,7 +67,7 @@ window.GridSystem = {
             for (let r = 0; r < this.rows; r++) {
                 for (let c = 0; c < this.cols; c++) {
                     const tile = this.getTile(c, r);
-                    if (tile && this.checkMatch(c, r).length >= Config.grid.matchMin) {
+                    if (tile && tile.itemId && this.checkMatch(c, r).length >= Config.grid.matchMin) {
                         tile.itemId = this.getRandomItem();
                         matched = true;
                     }
@@ -166,7 +185,8 @@ window.GridSystem = {
         const comboLength = tilesToClear.length;
         const multiplier = comboLength >= 5 ? 3 : comboLength >= 4 ? 2 : 1;
         
-        totalScore = GameState.score += baseScore * comboLength * multiplier;
+        totalScore = baseScore * comboLength * multiplier;
+        GameState.score += totalScore;
         
         console.log(`💥 Combo de ${comboLength} ! Score: +${totalScore} (x${multiplier})`);
 

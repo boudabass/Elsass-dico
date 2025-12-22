@@ -11,6 +11,9 @@ window.GridSystem = {
     // Délai avant la suppression du combo (en millisecondes)
     COMBO_DELAY: 300, 
     
+    // Vitesse de lissage (0.1 = lent, 1.0 = snap)
+    ANIMATION_SPEED: 0.3, 
+    
     // Initialisation de la grille
     init: function () {
         this.grid = [];
@@ -18,11 +21,21 @@ window.GridSystem = {
         
         // 1. Remplir la grille entièrement avec des items aléatoires
         for (let i = 0; i < totalTiles; i++) {
+            const col = i % this.cols;
+            const row = Math.floor(i / this.cols);
+            const worldPos = this.gridToWorld(col, row);
+
             this.grid.push({
                 itemId: this.getRandomItem(),
                 state: 'NORMAL', // NORMAL, SELECTED, MATCHED
-                col: i % this.cols,
-                row: Math.floor(i / this.cols)
+                col: col,
+                row: row,
+                // Position de rendu (pour l'animation)
+                renderX: worldPos.x,
+                renderY: worldPos.y,
+                // Position cible (où l'item doit être)
+                targetX: worldPos.x,
+                targetY: worldPos.y
             });
         }
         
@@ -60,6 +73,20 @@ window.GridSystem = {
         if (col < 0 || col >= this.cols || row < 0 || row >= this.rows) return null;
         const index = row * this.cols + col;
         return this.grid[index];
+    },
+    
+    // Convertit coordonnées grille → monde (centre de la tuile)
+    gridToWorld: function (col, row) {
+        const gridWidth = this.cols * this.tileSize;
+        const gridHeight = this.rows * this.tileSize;
+        
+        const offsetX = (width / 2) - (gridWidth / 2);
+        const offsetY = (height / 2) - (gridHeight / 2);
+
+        return {
+            x: offsetX + col * this.tileSize + this.tileSize / 2,
+            y: offsetY + row * this.tileSize + this.tileSize / 2
+        };
     },
 
     // Supprime les matchs initiaux (pour ne pas commencer par un combo)
@@ -107,12 +134,24 @@ window.GridSystem = {
             return false;
         }
 
-        // 1. Déplacement
+        // 1. Déplacement logique
         toTile.itemId = fromTile.itemId;
         fromTile.itemId = null;
         fromTile.state = 'NORMAL';
         
-        // 2. Vérification de fusion
+        // 2. Mise à jour des positions cibles pour l'animation
+        const targetPos = this.gridToWorld(toCol, toRow);
+        fromTile.targetX = targetPos.x; // L'ancienne tuile prend la position cible
+        fromTile.targetY = targetPos.y;
+        
+        // L'item est maintenant dans toTile, mais il faut animer l'item qui était dans fromTile
+        // Pour cela, nous devons transférer les propriétés de rendu de fromTile à toTile
+        toTile.renderX = fromTile.renderX;
+        toTile.renderY = fromTile.renderY;
+        toTile.targetX = targetPos.x;
+        toTile.targetY = targetPos.y;
+        
+        // 3. Vérification de fusion
         this.checkAndProcessFusions();
         
         return true;
@@ -125,10 +164,31 @@ window.GridSystem = {
         
         if (!tile1 || !tile2) return false;
         
-        // Échange des IDs
+        // 1. Préparation de l'animation (avant l'échange logique)
+        const targetPos1 = this.gridToWorld(col1, row1);
+        const targetPos2 = this.gridToWorld(col2, row2);
+        
+        // L'item 1 doit aller à la position 2, et vice-versa
+        tile1.targetX = targetPos2.x;
+        tile1.targetY = targetPos2.y;
+        
+        tile2.targetX = targetPos1.x;
+        tile2.targetY = targetPos1.y;
+        
+        // 2. Échange des IDs (Logique)
         const tempId = tile1.itemId;
         tile1.itemId = tile2.itemId;
         tile2.itemId = tempId;
+        
+        // 3. Échange des positions de rendu (pour que l'animation commence au bon endroit)
+        const tempRenderX = tile1.renderX;
+        const tempRenderY = tile1.renderY;
+        
+        tile1.renderX = tile2.renderX;
+        tile1.renderY = tile2.renderY;
+        
+        tile2.renderX = tempRenderX;
+        tile2.renderY = tempRenderY;
         
         // Réinitialiser les états de sélection
         tile1.state = 'NORMAL';
@@ -136,14 +196,11 @@ window.GridSystem = {
         
         console.log(`🔄 Swap effectué: (${col1}, ${row1}) <-> (${col2}, ${row2})`);
         
-        // Vérifier si le swap a créé un match et traiter la fusion
+        // 4. Vérification de fusion
         this.checkAndProcessFusions();
         
         return true; // Le swap est toujours réussi
     },
-    
-    // Annule un échange (Fonction supprimée car le swap est toujours permanent)
-    // undoSwap: function (col1, row1, col2, row2) { ... },
 
     // Vérifie les alignements et marque les tuiles
     checkMatch: function (col, row) {
@@ -277,9 +334,17 @@ window.GridSystem = {
                     line(x, y, x + this.tileSize, y);
                     line(x, y, x, y + this.tileSize);
                 }
-
-                // 3. Dessin de l'item
+                
+                // 3. Mise à jour de la position de rendu (Animation)
                 if (tile.itemId) {
+                    // La position cible est toujours le centre de la tuile logique
+                    const targetPos = this.gridToWorld(tile.col, tile.row);
+                    
+                    // Lissage (Lerp)
+                    tile.renderX = lerp(tile.renderX, tile.targetX, this.ANIMATION_SPEED);
+                    tile.renderY = lerp(tile.renderY, tile.targetY, this.ANIMATION_SPEED);
+                    
+                    // 4. Dessin de l'item à la position de rendu animée
                     textAlign(CENTER, CENTER);
                     textSize(this.tileSize * 0.7);
                     
@@ -295,6 +360,7 @@ window.GridSystem = {
                         noFill();
                         stroke(glowColor);
                         strokeWeight(8);
+                        // Dessiner le contour à la position logique (x, y)
                         rect(x + 2, y + 2, this.tileSize - 4, this.tileSize - 4, 8);
                     }
                     
@@ -305,11 +371,13 @@ window.GridSystem = {
                         noFill();
                         stroke(glowColor);
                         strokeWeight(5);
+                        // Dessiner le contour à la position logique (x, y)
                         rect(x + 2, y + 2, this.tileSize - 4, this.tileSize - 4, 8);
                         fill(itemColor);
                     }
                     
-                    text(tile.itemId, x + this.tileSize / 2, y + this.tileSize / 2 + 5);
+                    // Dessiner l'emoji à la position animée (renderX, renderY)
+                    text(tile.itemId, tile.renderX - offsetX, tile.renderY - offsetY + 5);
                 }
             }
         }

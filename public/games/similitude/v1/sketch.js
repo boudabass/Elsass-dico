@@ -44,21 +44,19 @@ function handleWorldClick(screenX, screenY) {
                     return;
                 }
                 
+                // Vérification de l'énergie pour toute action de mouvement
+                if (!GameState.spendEnergy(1)) {
+                    console.warn("Pas assez d'énergie pour bouger.");
+                    return;
+                }
+                
                 let actionSuccess = false;
-                let energySpent = false;
-
+                
+                // Si la cible est vide, c'est un move. Si elle est occupée, c'est un swap.
                 if (!tile.itemId) {
-                    // Clic sur une case libre -> Déplacement (Snap libre)
-                    if (GameState.spendEnergy(1)) {
-                        energySpent = true;
-                        actionSuccess = GridSystem.moveItem(selected.col, selected.row, gridPos.col, gridPos.row);
-                    }
+                    actionSuccess = GridSystem.moveItem(selected.col, selected.row, gridPos.col, gridPos.row);
                 } else {
-                    // Clic sur une case occupée -> Swap
-                    if (GameState.spendEnergy(1)) {
-                        energySpent = true;
-                        actionSuccess = GridSystem.swapItems(selected.col, selected.row, gridPos.col, gridPos.row);
-                    }
+                    actionSuccess = GridSystem.swapItems(selected.col, selected.row, gridPos.col, gridPos.row);
                 }
                 
                 if (actionSuccess) {
@@ -66,9 +64,8 @@ function handleWorldClick(screenX, screenY) {
                     if (previousTile) previousTile.state = 'NORMAL';
                     GameState.selectedTile = null;
                     if (window.refreshHUD) refreshHUD();
-                } else if (energySpent) {
-                    // Si l'énergie a été dépensée mais l'action a échoué (swap annulé), 
-                    // on désélectionne pour recommencer.
+                } else {
+                    // Si l'action a échoué (ex: move invalide), on désélectionne quand même
                     if (previousTile) previousTile.state = 'NORMAL';
                     GameState.selectedTile = null;
                 }

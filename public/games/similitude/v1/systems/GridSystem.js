@@ -134,6 +134,8 @@ window.GridSystem = {
         tile1.state = 'NORMAL';
         tile2.state = 'NORMAL';
         
+        console.log(`🔄 Swap effectué: (${col1}, ${row1}) <-> (${col2}, ${row2})`);
+        
         // Vérifier si le swap a créé un match
         const matches1 = this.checkMatch(col1, row1).length;
         const matches2 = this.checkMatch(col2, row2).length;
@@ -158,7 +160,7 @@ window.GridSystem = {
         tile1.itemId = tile2.itemId;
         tile2.itemId = tempId;
         
-        console.log("Swap annulé (pas de combo).");
+        console.log("❌ Swap annulé (pas de combo).");
     },
 
     // Vérifie les alignements et marque les tuiles

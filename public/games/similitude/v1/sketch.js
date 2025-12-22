@@ -44,21 +44,21 @@ function handleWorldClick(screenX, screenY) {
                     return;
                 }
                 
-                // Vérification de l'énergie pour toute action de mouvement
-                if (!GameState.spendEnergy(1)) {
-                    console.warn("Pas assez d'énergie pour bouger.");
-                    return;
-                }
-                
                 let actionSuccess = false;
+                let energySpent = false;
 
                 if (!tile.itemId) {
                     // Clic sur une case libre -> Déplacement (Snap libre)
-                    actionSuccess = GridSystem.moveItem(selected.col, selected.row, gridPos.col, gridPos.row);
-                    
+                    if (GameState.spendEnergy(1)) {
+                        energySpent = true;
+                        actionSuccess = GridSystem.moveItem(selected.col, selected.row, gridPos.col, gridPos.row);
+                    }
                 } else {
                     // Clic sur une case occupée -> Swap
-                    actionSuccess = GridSystem.swapItems(selected.col, selected.row, gridPos.col, gridPos.row);
+                    if (GameState.spendEnergy(1)) {
+                        energySpent = true;
+                        actionSuccess = GridSystem.swapItems(selected.col, selected.row, gridPos.col, gridPos.row);
+                    }
                 }
                 
                 if (actionSuccess) {
@@ -66,17 +66,11 @@ function handleWorldClick(screenX, screenY) {
                     if (previousTile) previousTile.state = 'NORMAL';
                     GameState.selectedTile = null;
                     if (window.refreshHUD) refreshHUD();
-                } else {
-                    // Si le swap a été annulé (pas de combo), l'énergie est déjà dépensée.
-                    // Si c'était un move invalide (ne devrait pas arriver ici), l'énergie est dépensée.
-                    // Si le swap a été annulé, l'état de la grille est revenu à la normale par undoSwap.
-                    
-                    // Si l'action a échoué, on désélectionne quand même pour recommencer
+                } else if (energySpent) {
+                    // Si l'énergie a été dépensée mais l'action a échoué (swap annulé), 
+                    // on désélectionne pour recommencer.
                     if (previousTile) previousTile.state = 'NORMAL';
                     GameState.selectedTile = null;
-                    
-                    // On pourrait restaurer l'énergie ici si le swap est annulé, mais pour l'instant,
-                    // nous laissons l'énergie dépensée pour simplifier la logique de Match-3.
                 }
             }
         }

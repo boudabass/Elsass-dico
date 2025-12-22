@@ -8,6 +8,9 @@ window.GridSystem = {
     cols: Config.grid.cols,
     tileSize: Config.grid.tileSize,
     
+    // Délai avant la suppression du combo (en millisecondes)
+    COMBO_DELAY: 300, 
+    
     // Initialisation de la grille
     init: function () {
         this.grid = [];
@@ -161,7 +164,6 @@ window.GridSystem = {
 
     // Traite les fusions trouvées
     checkAndProcessFusions: function () {
-        let totalScore = 0;
         let tilesToClear = [];
 
         // 1. Identifier toutes les tuiles à fusionner
@@ -179,54 +181,59 @@ window.GridSystem = {
 
         if (tilesToClear.length === 0) return 0;
 
-        // 2. Calculer le score et marquer pour suppression
+        // 2. Marquer les tuiles comme MATCHED (pour le rendu visuel temporaire)
+        tilesToClear.forEach(tile => {
+            tile.state = 'MATCHED';
+        });
+        
+        // 3. Calculer le score (avant la suppression)
         const baseScore = 10;
         const comboLength = tilesToClear.length;
         const multiplier = comboLength >= 5 ? 3 : comboLength >= 4 ? 2 : 1;
+        const scoreGained = baseScore * comboLength * multiplier;
         
-        totalScore = baseScore * comboLength * multiplier;
-        GameState.score += totalScore;
+        GameState.score += scoreGained;
         
-        console.log(`💥 Combo de ${comboLength} ! Score: +${totalScore} (x${multiplier})`);
+        console.log(`💥 Combo détecté de ${comboLength} ! Score: +${scoreGained} (x${multiplier})`);
 
-        // 3. Supprimer les items
-        tilesToClear.forEach(tile => {
-            tile.itemId = null;
-            tile.state = 'MATCHED'; // État temporaire pour l'animation (non implémentée ici)
-        });
+        // 4. Délai avant la suppression et la cascade
+        setTimeout(() => {
+            // Suppression des items
+            tilesToClear.forEach(tile => {
+                tile.itemId = null;
+                tile.state = 'NORMAL'; // Revenir à l'état normal (vide)
+            });
+            
+            // Mise à jour du HUD
+            if (window.refreshHUD) refreshHUD();
+            
+            // Si la gravité était activée, elle serait appelée ici.
+            // this.applyGravity(); 
+            
+        }, this.COMBO_DELAY);
 
-        // 4. Appliquer la gravité et le spawn (DÉSACTIVÉ)
-        // this.applyGravity(); 
-        
-        // 5. Vérifier les réactions en chaîne (récursif)
-        // Pour l'instant, on ne fait qu'une passe simple.
-
-        return totalScore;
+        return scoreGained;
     },
 
     // Fait tomber les items et spawn de nouveaux en bas
     applyGravity: function () {
-        // Cette fonction est maintenant inactive dans checkAndProcessFusions()
-        // Elle est conservée ici pour le debug ou si la gravité est réactivée plus tard.
+        // Cette fonction est désactivée pour le mode puzzle actuel.
         for (let c = 0; c < this.cols; c++) {
-            let emptyRow = this.rows - 1; // La ligne la plus basse vide
+            let emptyRow = this.rows - 1; 
             
-            // Parcourir de bas en haut
             for (let r = this.rows - 1; r >= 0; r--) {
                 const tile = this.getTile(c, r);
                 
                 if (tile && tile.itemId !== null) {
                     if (r !== emptyRow) {
-                        // Déplacer l'item vers la ligne vide la plus basse
                         const targetTile = this.getTile(c, emptyRow);
                         targetTile.itemId = tile.itemId;
                         tile.itemId = null;
                     }
-                    emptyRow--; // La nouvelle ligne vide est au-dessus
+                    emptyRow--; 
                 }
             }
             
-            // Remplir les tuiles vides restantes (en haut) avec de nouveaux items
             for (let r = emptyRow; r >= 0; r--) {
                 const tile = this.getTile(c, r);
                 if (tile) {
@@ -252,7 +259,6 @@ window.GridSystem = {
             for (let c = 0; c < this.cols; c++) {
                 const tile = this.getTile(c, r);
                 
-                // Vérification critique si la tuile existe
                 if (!tile) continue; 
                 
                 const x = c * this.tileSize;
@@ -275,15 +281,32 @@ window.GridSystem = {
                 if (tile.itemId) {
                     textAlign(CENTER, CENTER);
                     textSize(this.tileSize * 0.7);
-                    fill(Config.colors.itemText);
                     
-                    // Glow de sélection
+                    let itemColor = Config.colors.itemText;
+                    let glowColor = Config.colors.selectionGlow;
+                    
+                    // Effet visuel pour le combo en cours
+                    if (tile.state === 'MATCHED') {
+                        // Rendre l'item plus visible ou clignotant avant de disparaître
+                        itemColor = color(255, 255, 0); // Jaune vif
+                        glowColor = color(255, 0, 0); // Rouge pour l'explosion
+                        
+                        // Dessiner un contour rouge pour le combo
+                        noFill();
+                        stroke(glowColor);
+                        strokeWeight(8);
+                        rect(x + 2, y + 2, this.tileSize - 4, this.tileSize - 4, 8);
+                    }
+                    
+                    fill(itemColor);
+                    
+                    // Glow de sélection (si l'item est sélectionné ET n'est pas en cours de match)
                     if (tile.state === 'SELECTED') {
                         noFill();
-                        stroke(Config.colors.selectionGlow);
+                        stroke(glowColor);
                         strokeWeight(5);
                         rect(x + 2, y + 2, this.tileSize - 4, this.tileSize - 4, 8);
-                        fill(Config.colors.itemText);
+                        fill(itemColor);
                     }
                     
                     text(tile.itemId, x + this.tileSize / 2, y + this.tileSize / 2 + 5);

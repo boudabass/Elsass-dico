@@ -342,9 +342,10 @@ window.GridSystem = {
                         fill(itemColor);
                     }
                     
-                    // Ne dessiner l'item que s'il n'est pas en cours de déplacement (MOVE)
-                    // L'animation system le dessine à la place
-                    if (!window.AnimationSystem || !AnimationSystem.animations.some(a => a.type === 'MOVE' && a.itemId === tile.itemId)) {
+                    // NE PAS DESSINER si l'item est en cours d'animation de déplacement
+                    const isMoving = window.AnimationSystem && AnimationSystem.animations.some(a => a.type === 'MOVE' && a.itemId === tile.itemId);
+                    
+                    if (!isMoving) {
                         text(tile.itemId, x + this.tileSize / 2, y + this.tileSize / 2 + 5);
                     }
                 }

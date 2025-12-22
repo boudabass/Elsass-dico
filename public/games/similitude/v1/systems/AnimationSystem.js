@@ -38,7 +38,7 @@ window.AnimationSystem = {
             startFrame: frameCount,
             duration: 15, // frames (0.25s)
             col, row,
-            itemId,
+            itemId, // Ajout de l'itemId pour le rendu
             scale: 1,
             rotation: 0,
             alpha: 1

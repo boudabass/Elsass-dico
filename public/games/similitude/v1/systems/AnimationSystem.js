@@ -38,7 +38,7 @@ window.AnimationSystem = {
             startFrame: frameCount,
             duration: 15, // frames (0.25s)
             col, row,
-            itemId,
+            itemId, // Ajout de l'itemId pour le rendu
             scale: 1,
             rotation: 0,
             alpha: 1
@@ -57,15 +57,6 @@ window.AnimationSystem = {
             duration: 30,
             shakeOffset: 0
         });
-        
-        // Déclencher l'effet CSS sur le HUD
-        const energyEl = document.getElementById('val-energy');
-        if (energyEl) {
-            energyEl.classList.add('warning-pulse');
-            setTimeout(() => {
-                energyEl.classList.remove('warning-pulse');
-            }, 500); // Durée du pulse CSS
-        }
     },
     
     // Met à jour TOUTES les animations (appel dans draw())
@@ -123,7 +114,8 @@ window.AnimationSystem = {
             }
             
             if (anim.type === 'ENERGY_WARN') {
-                // Pas de rendu Canvas nécessaire, l'effet est géré par CSS/DOM
+                // Shake HUD énergie (non implémenté dans le canvas, mais dans le DOM si nécessaire)
+                // Pour l'instant, on laisse vide car le HUD est DOM.
             }
         });
         pop();

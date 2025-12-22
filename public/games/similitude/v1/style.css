@@ -232,3 +232,14 @@ canvas {
 .debug-tabs .hud-btn.active {
     background: #e74c3c !important;
 }
+
+/* --- FEEDBACK ÉNERGIE ZÉRO --- */
+@keyframes pulse-red {
+    0% { color: white; text-shadow: none; }
+    50% { color: #e74c3c; text-shadow: 0 0 5px #e74c3c; }
+    100% { color: white; text-shadow: none; }
+}
+
+.warning-pulse {
+    animation: pulse-red 0.5s ease-in-out;
+}

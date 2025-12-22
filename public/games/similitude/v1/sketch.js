@@ -45,13 +45,16 @@ function handleWorldClick(screenX, screenY) {
                 }
                 
                 // Vérification de l'énergie pour toute action de mouvement
-                if (!GameState.spendEnergy(1)) {
+                if (GameState.energy <= 0) {
+                    if (window.AnimationSystem) AnimationSystem.addEnergyWarning();
                     console.warn("Pas assez d'énergie pour bouger.");
                     return;
                 }
                 
+                // Dépense d'énergie
+                GameState.spendEnergy(1);
+                
                 let actionSuccess = false;
-                let energySpent = true; // L'énergie est dépensée ici
 
                 if (!tile.itemId) {
                     // Clic sur une case libre -> Déplacement (Snap libre)
@@ -67,8 +70,8 @@ function handleWorldClick(screenX, screenY) {
                     if (previousTile) previousTile.state = 'NORMAL';
                     GameState.selectedTile = null;
                     if (window.refreshHUD) refreshHUD();
-                } else if (energySpent) {
-                    // Si l'action a échoué (ne devrait pas arriver avec le swap permanent), on désélectionne
+                } else {
+                    // Si l'action a échoué (swap annulé), on désélectionne
                     if (previousTile) previousTile.state = 'NORMAL';
                     GameState.selectedTile = null;
                 }
@@ -180,7 +183,7 @@ function draw() {
     if (window.GridSystem) {
         GridSystem.draw();
     }
-    
+
     // 3. Rendu des animations (DOIT être après GridSystem.draw())
     if (window.AnimationSystem) {
         AnimationSystem.update();
@@ -212,7 +215,7 @@ function keyPressed() {
     }
 }
 
-// Fonction de tick du chrono (appelée par p5.js)
+// Fonction de tick du chrono (appelé par p5.js)
 function timeTick() {
     if (GameState.currentState === GameState.GAME_STATE.PLAYING && window.ChronoManager) {
         ChronoManager.tick();

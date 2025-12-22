@@ -235,28 +235,21 @@ canvas {
 
 /* --- NOUVELLE ZONE UI BASSE (Power-ups) --- */
 
-.bottom-ui-line {
+/* Conteneurs de coin (POWER UP et BOUTIQUE) */
+.corner-ui-zone {
     position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 90%;
-    max-width: 400px;
+    bottom: 3vh; /* Ligne 3 */
     pointer-events: auto;
-    z-index: 110; /* Au-dessus du canvas */
-    display: flex;
-    justify-content: center;
+    z-index: 110;
+    width: 120px; /* Taille fixe pour le bouton */
 }
 
-.line-1 {
-    bottom: 18vh; /* y=82vh */
+.corner-left {
+    left: 3vh;
 }
 
-.line-2 {
-    bottom: 10vh; /* y=90vh */
-}
-
-.line-3 {
-    bottom: 3vh; /* y=97vh */
+.corner-right {
+    right: 3vh;
 }
 
 .pu-btn-main {
@@ -272,7 +265,23 @@ canvas {
     background: #f1c40f;
 }
 
-/* Ligne 2: Slots d'utilisation rapide */
+/* Ligne 2: Slots d'utilisation rapide (Centrés) */
+.bottom-ui-line {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+    max-width: 400px;
+    pointer-events: auto;
+    z-index: 110; /* Au-dessus du canvas */
+    display: flex;
+    justify-content: center;
+}
+
+.line-2 {
+    bottom: 10vh; /* y=90vh */
+}
+
 .quick-slots-container {
     display: grid;
     grid-template-columns: repeat(5, 1fr);

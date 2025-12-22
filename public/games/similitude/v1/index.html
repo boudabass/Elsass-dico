@@ -114,25 +114,25 @@
         
         <!-- --- NOUVELLE ZONE UI BASSE --- -->
         
-        <!-- Ligne 1: Bouton Power Up (y=82vh) -->
-        <div class="bottom-ui-line line-1">
+        <!-- Bouton POWER UP (Coin Bas Gauche) -->
+        <div class="corner-ui-zone corner-left">
             <button class="hud-btn pu-btn-main" onclick="event.stopPropagation(); togglePowerUpWindow()">
                 💥 POWER UP
             </button>
         </div>
         
-        <!-- Ligne 2: Slots d'utilisation rapide (y=90vh) -->
+        <!-- Bouton BOUTIQUE (Coin Bas Droit) -->
+        <div class="corner-ui-zone corner-right">
+            <button class="hud-btn pu-btn-main" onclick="event.stopPropagation(); toggleShop()">
+                💰 BOUTIQUE
+            </button>
+        </div>
+        
+        <!-- Ligne 2: Slots d'utilisation rapide (Centrés) -->
         <div class="bottom-ui-line line-2">
             <div id="quick-slots-container" class="quick-slots-container">
                 <!-- Slots générés par JS -->
             </div>
-        </div>
-        
-        <!-- Ligne 3: Bouton Boutique (y=97vh) -->
-        <div class="bottom-ui-line line-3">
-            <button class="hud-btn pu-btn-main" onclick="event.stopPropagation(); toggleShop()">
-                💰 BOUTIQUE
-            </button>
         </div>
         
         <!-- --- MODALES --- -->

@@ -17,7 +17,7 @@ window.AnimationSystem = {
         const fromX = fromCol * tileSize + this.gridOffsetX + halfTile;
         const fromY = fromRow * tileSize + this.gridOffsetY + halfTile;
         const toX = toCol * tileSize + this.gridOffsetX + halfTile;
-        const toY = row * tileSize + this.gridOffsetY + halfTile;
+        const toY = toRow * tileSize + this.gridOffsetY + halfTile;
         
         this.animations.push({
             id: `move_${Date.now()}`,
@@ -59,7 +59,7 @@ window.AnimationSystem = {
         });
         
         // Déclencher l'effet CSS sur le HUD
-        const energyEl = document.getElementById('energy-container');
+        const energyEl = document.getElementById('val-energy');
         if (energyEl) {
             energyEl.classList.add('warning-pulse');
             setTimeout(() => {

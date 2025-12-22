@@ -23,24 +23,19 @@ window.GridSystem = {
         for (let i = 0; i < totalTiles; i++) {
             const col = i % this.cols;
             const row = Math.floor(i / this.cols);
-            
-            // NOTE: gridToWorld est appelé ici, mais width/height ne sont pas encore définis.
-            // Nous initialisons renderX/Y à 0,0 et laissons draw() les corriger au premier frame.
-            // Cependant, targetX/Y doit être correct. Nous allons forcer l'appel à gridToWorld
-            // après setup() ou accepter que les valeurs soient incorrectes jusqu'au premier draw.
-            // Pour l'instant, nous allons initialiser renderX/Y à 0,0 et laisser draw() faire le lerp.
-            
+            const worldPos = this.gridToWorld(col, row);
+
             this.grid.push({
                 itemId: this.getRandomItem(),
                 state: 'NORMAL', // NORMAL, SELECTED, MATCHED
                 col: col,
                 row: row,
                 // Position de rendu (pour l'animation)
-                renderX: 0, // Initialisation à 0
-                renderY: 0, // Initialisation à 0
-                // Position cible (sera corrigée dans draw() si nécessaire)
-                targetX: 0,
-                targetY: 0
+                renderX: worldPos.x,
+                renderY: worldPos.y,
+                // Position cible (où l'item doit être)
+                targetX: worldPos.x,
+                targetY: worldPos.y
             });
         }
         
@@ -82,15 +77,11 @@ window.GridSystem = {
     
     // Convertit coordonnées grille → monde (centre de la tuile)
     gridToWorld: function (col, row) {
-        // Utilisation de window.width/height pour s'assurer que les variables globales p5.js sont accessibles
-        const w = window.width || 800; // Fallback si non défini
-        const h = window.height || 600; // Fallback si non défini
-        
         const gridWidth = this.cols * this.tileSize;
         const gridHeight = this.rows * this.tileSize;
         
-        const offsetX = (w / 2) - (gridWidth / 2);
-        const offsetY = (h / 2) - (gridHeight / 2);
+        const offsetX = (width / 2) - (gridWidth / 2);
+        const offsetY = (height / 2) - (gridHeight / 2);
 
         return {
             x: offsetX + col * this.tileSize + this.tileSize / 2,
@@ -117,15 +108,12 @@ window.GridSystem = {
 
     // Convertit coordonnées monde → grille
     worldToGrid: function (worldX, worldY) {
-        const w = window.width || 800;
-        const h = window.height || 600;
-        
         // La grille est centrée sur l'écran
         const gridWidth = this.cols * this.tileSize;
         const gridHeight = this.rows * this.tileSize;
         
-        const offsetX = (w / 2) - (gridWidth / 2);
-        const offsetY = (h / 2) - (gridHeight / 2);
+        const offsetX = (width / 2) - (gridWidth / 2);
+        const offsetY = (height / 2) - (gridHeight / 2);
 
         const col = Math.floor((worldX - offsetX) / this.tileSize);
         const row = Math.floor((worldY - offsetY) / this.tileSize);
@@ -153,8 +141,11 @@ window.GridSystem = {
         
         // 2. Mise à jour des positions cibles pour l'animation
         const targetPos = this.gridToWorld(toCol, toRow);
+        fromTile.targetX = targetPos.x; // L'ancienne tuile prend la position cible
+        fromTile.targetY = targetPos.y;
         
-        // Transférer les propriétés de rendu de fromTile à toTile
+        // L'item est maintenant dans toTile, mais il faut animer l'item qui était dans fromTile
+        // Pour cela, nous devons transférer les propriétés de rendu de fromTile à toTile
         toTile.renderX = fromTile.renderX;
         toTile.renderY = fromTile.renderY;
         toTile.targetX = targetPos.x;
@@ -316,8 +307,8 @@ window.GridSystem = {
         const gridWidth = this.cols * this.tileSize;
         const gridHeight = this.rows * this.tileSize;
         
-        const offsetX = (window.width / 2) - (gridWidth / 2);
-        const offsetY = (window.height / 2) - (gridHeight / 2);
+        const offsetX = (width / 2) - (gridWidth / 2);
+        const offsetY = (height / 2) - (gridHeight / 2);
 
         push();
         translate(offsetX, offsetY);
@@ -343,9 +334,17 @@ window.GridSystem = {
                     line(x, y, x + this.tileSize, y);
                     line(x, y, x, y + this.tileSize);
                 }
-
-                // 3. Dessin de l'item
+                
+                // 3. Mise à jour de la position de rendu (Animation)
                 if (tile.itemId) {
+                    // La position cible est toujours le centre de la tuile logique
+                    const targetPos = this.gridToWorld(tile.col, tile.row);
+                    
+                    // Lissage (Lerp)
+                    tile.renderX = lerp(tile.renderX, tile.targetX, this.ANIMATION_SPEED);
+                    tile.renderY = lerp(tile.renderY, tile.targetY, this.ANIMATION_SPEED);
+                    
+                    // 4. Dessin de l'item à la position de rendu animée
                     textAlign(CENTER, CENTER);
                     textSize(this.tileSize * 0.7);
                     
@@ -378,23 +377,11 @@ window.GridSystem = {
                     }
                     
                     // Dessiner l'emoji à la position animée (renderX, renderY)
-                    // Nous devons ajuster les coordonnées de rendu par rapport à l'offset de la grille
                     text(tile.itemId, tile.renderX - offsetX, tile.renderY - offsetY + 5);
                 }
             }
         }
         pop();
-        
-        // Correction des positions initiales au premier frame
-        if (window.width && window.height && this.grid.length > 0 && this.grid[0].renderX === 0) {
-            this.grid.forEach(tile => {
-                const worldPos = this.gridToWorld(tile.col, tile.row);
-                tile.renderX = worldPos.x;
-                tile.renderY = worldPos.y;
-                tile.targetX = worldPos.x;
-                tile.targetY = worldPos.y;
-            });
-        }
     }
 };
 

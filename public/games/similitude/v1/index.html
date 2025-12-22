@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+    <title>Similitude</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- 1. LIBRAIRIES (Ordre Critique) -->
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.11.4/lib/p5.js"></script>
+    <script src="https://p5play.org/v3/planck.min.js"></script>
+    <script src="https://p5play.org/v3/p5play.js"></script>
+
+    <!-- 2. SYSTEME -->
+    <script>
+        window.DyadGame = { id: 'similitude-v1', version: 'v1' };
+    </script>
+    <script src="../../system/system.js"></script>
+
+    <!-- 3. JEU -->
+    <script src="config.js"></script>
+    <script src="../elsass-farm/v1/core/LoadingManager.js"></script>
+    <script src="core/GameState.js"></script>
+    <script src="core/ChronoManager.js"></script>
+    <script src="systems/DebugManager.js"></script>
+    <script src="systems/UIManager.js"></script>
+    <script src="systems/InputManager.js"></script>
+    <script src="systems/GridSystem.js"></script>
+    <script src="main.js"></script>
+    <script src="sketch.js"></script>
+
+    <script>
+        // Ponts vers UIManager (nécessaires pour les onclick)
+        function toggleMenu() { UIManager.toggleMenu(); }
+        function toggleDebug() { UIManager.toggleDebug(); }
+        function toggleFullscreen() { UIManager.toggleFullscreen(); }
+        function toggleGrid() { UIManager.toggleGrid(); }
+        
+        function startGame() {
+            if (window.GameState) {
+                GameState.reset();
+                GameState.currentState = GameState.GAME_STATE.PLAYING;
+                if (window.refreshHUD) refreshHUD();
+                
+                // Fermer le menu si on démarre depuis le menu
+                const menuModal = document.getElementById('menu-modal');
+                if (menuModal && menuModal.classList.contains('active')) {
+                    UIManager.toggleMenu();
+                }
+                
+                // Redémarrer la boucle p5.js si elle était arrêtée
+                if (typeof loop === 'function') loop();
+            }
+        }
+
+        // Quitter le jeu (Similitude n'a pas de sauvegarde Cloud pour l'instant, on quitte juste)
+        function quitGame(event) {
+            if (event) event.stopPropagation();
+            document.body.innerHTML = `
+                <div style="display:flex;justify-content:center;align-items:center;height:100vh;background:#111;color:white;flex-direction:column;font-family:sans-serif;">
+                    <h1>Partie terminée</h1>
+                    <p style="color:#777;font-size:12px;margin-top:20px;">Vous pouvez fermer cet onglet.</p>
+                </div>
+            `;
+            try { window.close(); } catch (e) { }
+        }
+    </script>
+</head>
+
+<body>
+    <!-- Écran de Chargement (Réutilisé d'Elsass Farm) -->
+    <div id="loading-screen" class="loading-screen">
+        <div class="loading-content">
+            <h1>Similitude</h1>
+            
+            <div id="loading-history" class="loading-history"></div>
+
+            <div id="loading-bar-container" class="loading-bar-container">
+                <div class="save-progress-track">
+                    <div class="save-progress-fill" id="loading-progress-fill"></div>
+                </div>
+            </div>
+            
+            <button id="play-button" class="hud-btn" style="display: none; margin-top: 20px;" onclick="startGame()">JOUER</button>
+        </div>
+    </div>
+
+    <!-- UI Layer -->
+    <div id="ui-layer">
+        <div class="hud-bar">
+            <div class="hud-group">
+                <span>⚡ <span id="val-energy">0</span></span>
+                <span>💰 <span id="val-gold">0</span></span>
+            </div>
+            <div class="hud-group">
+                <span>📊 <span id="val-score">0</span></span>
+            </div>
+            <div class="hud-group">
+                <span>⏱ <span id="val-chrono">00:00</span></span>
+                <button class="hud-btn" onclick="event.stopPropagation(); toggleMenu()">≡ MENU</button>
+            </div>
+        </div>
+
+        <!-- Menu Principal Modal -->
+        <div id="menu-modal" class="modal-overlay" onclick="if(event.target.id === 'menu-modal') toggleMenu()">
+            <div class="modal-content">
+                <h3>PAUSE</h3>
+                <div class="menu-list">
+                    <button class="hud-btn" onclick="startGame()">▶️ Reprendre</button>
+                    <button class="hud-btn" onclick="toggleFullscreen()">⛶ Plein Écran</button>
+                    <button class="hud-btn" onclick="toggleDebug()">🐛 Debug Info</button>
+                    <button class="hud-btn hud-btn-red" onclick="quitGame(event)">❌ Quitter</button>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Game Over Modal -->
+        <div id="gameover-modal" class="modal-overlay" style="background: rgba(0,0,0,0.8);">
+            <div class="modal-content">
+                <h3 style="color: #f39c12;">GAME OVER</h3>
+                <p style="font-size: 18px;">Score Final: <span id="final-score" style="font-weight: bold;">0</span></p>
+                <button class="hud-btn" onclick="startGame()">Rejouer</button>
+                <button class="hud-btn hud-btn-red" onclick="quitGame(event)">Quitter</button>
+            </div>
+        </div>
+
+        <!-- Debug Modal (Réutilisé d'Elsass Farm) -->
+        <div id="debug-modal" class="modal-overlay" onclick="if(event.target.id === 'debug-modal') toggleDebug()">
+            <div class="modal-content"
+                style="max-width: 500px; text-align: left; height: 80vh; overflow: hidden; display: flex; flex-direction: column;">
+
+                <!-- ENTETE DEBUG -->
+                <div
+                    style="display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #7f8c8d; padding-bottom: 10px; margin-bottom: 10px;">
+                    <h3 style="margin: 0; color: #e74c3c;">🐛 Debug Console</h3>
+                    <button class="hud-btn hud-btn-red" onclick="toggleDebug()"
+                        style="padding: 4px 8px; font-size: 12px;">X</button>
+                </div>
+
+                <!-- ONGLETS -->
+                <div class="debug-tabs" style="display: flex; gap: 5px; margin-bottom: 10px;">
+                    <button class="hud-btn active" id="tab-general"
+                        onclick="DebugManager.switchTab('general')">Général</button>
+                    <button class="hud-btn" id="tab-time" onclick="DebugManager.switchTab('time')">Temps</button>
+                    <button class="hud-btn" id="tab-puzzle"
+                        onclick="DebugManager.switchTab('puzzle')">Puzzle</button>
+                    <button class="hud-btn" id="tab-res" onclick="DebugManager.switchTab('res')">Ressources</button>
+                </div>
+
+                <!-- CONTENU SCROLLABLE -->
+                <div id="debug-panels" style="flex: 1; overflow-y: auto; padding-right: 5px;">
+
+                    <!-- PANNEAU GENERAL -->
+                    <div id="panel-general" class="debug-panel">
+                        <button class="hud-btn" id="toggle-grid-btn" onclick="toggleGrid()"
+                            style="width: 100%; margin-bottom: 10px;">Toggle Grid (ON)</button>
+                        <div id="debug-content"
+                            style="font-family: monospace; font-size: 12px; background: #000; padding: 10px; border-radius: 4px; color: #2ecc71;">
+                            <!-- Info temps réel -->
+                        </div>
+                    </div>
+
+                    <!-- PANNEAU TEMPS -->
+                    <div id="panel-time" class="debug-panel" style="display: none;">
+                        <h4 style="margin: 5px 0; color: #f39c12;">Temps Actuel</h4>
+                        <div style="background: #2c3e50; padding: 10px; border-radius: 4px; margin-bottom: 10px;">
+                            <span id="dbg-time-display">00:00</span>
+                        </div>
+
+                        <h4 style="margin: 10px 0;">Contrôles</h4>
+                        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px;">
+                            <button class="hud-btn" onclick="DebugManager.action('addTime')">+30s</button>
+                            <button class="hud-btn hud-btn-red" onclick="DebugManager.action('endGame')">Fin de Partie</button>
+                        </div>
+                    </div>
+
+                    <!-- PANNEAU PUZZLE -->
+                    <div id="panel-puzzle" class="debug-panel" style="display: none;">
+                        <h4 style="margin: 5px 0; color: #2ecc71;">Grille</h4>
+                        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px;">
+                            <button class="hud-btn" onclick="DebugManager.action('forceFusion')">💥 Forcer Fusion</button>
+                            <button class="hud-btn hud-btn-red" onclick="DebugManager.action('resetGrid')">🔄 Réinitialiser Grille</button>
+                        </div>
+                    </div>
+
+                    <!-- PANNEAU RESSOURCES -->
+                    <div id="panel-res" class="debug-panel" style="display: none;">
+                        <h4 style="margin: 5px 0; color: #3498db;">Ressources</h4>
+                        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px;">
+                            <button class="hud-btn" onclick="DebugManager.action('addEnergy')">⚡ +10 Énergie</button>
+                            <button class="hud-btn" onclick="DebugManager.action('addGold')">💰 +100 Or</button>
+                            <button class="hud-btn" onclick="DebugManager.action('addScore')">📊 +500 Score</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

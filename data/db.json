@@ -20,6 +20,16 @@
       "width": 800,
       "height": 600,
       "thumbnail": "thumbnail.png"
+    },
+    {
+      "id": "similitude-v1",
+      "name": "similitude",
+      "description": "Description par défaut",
+      "path": "similitude/v1",
+      "version": "v1",
+      "createdAt": "2025-12-22T01:59:03.180Z",
+      "width": 800,
+      "height": 600
     }
   ],
   "scores": [

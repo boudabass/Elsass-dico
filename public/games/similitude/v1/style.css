@@ -1,0 +1,234 @@
+/* Masquer le bouton menu par défaut du GameSystem (Obsolète ici) */
+#dyad-menu-btn,
+#dyad-system-ui {
+    display: none !important;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+body {
+    background: #111;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    -webkit-overflow-scrolling: touch;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+canvas {
+    display: block !important;
+    position: fixed !important;
+    top: 0 !important;
+    left: 0 !important;
+    z-index: 1;
+    touch-action: none;
+}
+
+/* --- Écran de Chargement Fullscreen --- */
+.loading-screen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #1e272e;
+    z-index: 2000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    font-family: sans-serif;
+}
+
+.loading-content {
+    width: 80%;
+    max-width: 400px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.loading-content h1 {
+    font-size: 36px;
+    color: #55efc4;
+    margin-bottom: 30px;
+}
+
+/* Historique de chargement (Liste des étapes) */
+.loading-history {
+    width: 100%;
+    height: 200px;
+    background: rgba(0, 0, 0, 0.3);
+    border: 1px solid #34495e;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 15px;
+    overflow-y: auto;
+    text-align: left;
+    font-family: monospace;
+    font-size: 12px;
+    color: #ecf0f1;
+}
+
+.loading-history p {
+    margin: 2px 0;
+    line-height: 1.4;
+}
+
+.loading-history .step-success {
+    color: #2ecc71;
+}
+
+.loading-bar-container {
+    width: 100%;
+    margin-top: 0;
+    text-align: center;
+}
+
+.save-progress-track {
+    width: 100%;
+    height: 12px;
+    background: #34495e;
+    border-radius: 6px;
+    overflow: hidden;
+    border: 1px solid #7f8c8d;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+.save-progress-fill {
+    width: 0%;
+    height: 100%;
+    background: linear-gradient(90deg, #f1c40f, #2ecc71);
+    transition: width 0.05s linear;
+}
+
+/* UI Overlay Container */
+#ui-layer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    font-family: sans-serif;
+    color: white;
+    z-index: 100;
+}
+
+/* HUD Top Bar - Fond Solide */
+.hud-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    background: #2c3e50;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    box-sizing: border-box;
+    pointer-events: auto;
+    border-bottom: 2px solid #34495e;
+    z-index: 1000;
+}
+
+.hud-group {
+    display: flex;
+    gap: 15px;
+    font-size: 16px;
+    font-weight: bold;
+    text-shadow: none;
+}
+
+.hud-btn {
+    background: #34495e;
+    border: 1px solid #7f8c8d;
+    color: #ecf0f1;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.2s;
+}
+
+.hud-btn:hover {
+    background: #5dade2;
+    color: white;
+}
+
+/* Modales - Surcouche Opaque qui cache tout */
+.modal-overlay {
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    height: calc(100% - 60px);
+    background: #2c3e50;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 500;
+    pointer-events: auto;
+}
+
+.modal-overlay.active {
+    display: flex;
+}
+
+.modal-content {
+    background: #1e272e;
+    border: 2px solid #95a5a6;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    pointer-events: auto;
+    position: relative;
+    z-index: 501;
+}
+
+.menu-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* Bouton spécial Rouge */
+.hud-btn-red {
+    background: rgba(192, 57, 43, 0.8) !important;
+    border: 1px solid rgba(255, 255, 255, 0.4) !important;
+}
+
+.hud-btn-red:hover {
+    background: rgba(231, 76, 60, 1) !important;
+}
+
+/* --- Debug Panel --- */
+.debug-tabs .hud-btn {
+    background: #34495e;
+    border: 1px solid #7f8c8d;
+    color: #ecf0f1;
+    padding: 6px 10px;
+    font-size: 12px;
+}
+
+.debug-tabs .hud-btn.active {
+    background: #e74c3c !important;
+}

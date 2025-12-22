@@ -97,13 +97,13 @@ window.GridSystem = {
         return { col: -1, row: -1, valid: false };
     },
 
-    // Déplace un item de la source à la destination
+    // Déplace un item de la source à la destination (Snap libre vers case vide)
     moveItem: function (fromCol, fromRow, toCol, toRow) {
         const fromTile = this.getTile(fromCol, fromRow);
         const toTile = this.getTile(toCol, toRow);
 
         if (!fromTile || !toTile || toTile.itemId !== null) {
-            console.warn("Déplacement invalide.");
+            console.warn("Déplacement invalide (cible non vide).");
             return false;
         }
 
@@ -112,10 +112,53 @@ window.GridSystem = {
         fromTile.itemId = null;
         fromTile.state = 'NORMAL';
         
-        // 2. Vérification de fusion (la gravité ne sera PAS appelée ici)
+        // 2. Vérification de fusion
         this.checkAndProcessFusions();
         
         return true;
+    },
+    
+    // Échange deux items (Swap)
+    swapItems: function (col1, row1, col2, row2) {
+        const tile1 = this.getTile(col1, row1);
+        const tile2 = this.getTile(col2, row2);
+        
+        if (!tile1 || !tile2) return false;
+        
+        // Échange des IDs
+        const tempId = tile1.itemId;
+        tile1.itemId = tile2.itemId;
+        tile2.itemId = tempId;
+        
+        // Réinitialiser les états de sélection
+        tile1.state = 'NORMAL';
+        tile2.state = 'NORMAL';
+        
+        // Vérifier si le swap a créé un match
+        const matches1 = this.checkMatch(col1, row1).length;
+        const matches2 = this.checkMatch(col2, row2).length;
+        
+        if (matches1 >= Config.grid.matchMin || matches2 >= Config.grid.matchMin) {
+            // Match trouvé, laisser le swap et traiter la fusion
+            this.checkAndProcessFusions();
+            return true;
+        } else {
+            // Pas de match, annuler le swap
+            this.undoSwap(col1, row1, col2, row2);
+            return false;
+        }
+    },
+    
+    // Annule un échange
+    undoSwap: function (col1, row1, col2, row2) {
+        const tile1 = this.getTile(col1, row1);
+        const tile2 = this.getTile(col2, row2);
+        
+        const tempId = tile1.itemId;
+        tile1.itemId = tile2.itemId;
+        tile2.itemId = tempId;
+        
+        console.log("Swap annulé (pas de combo).");
     },
 
     // Vérifie les alignements et marque les tuiles
@@ -207,40 +250,14 @@ window.GridSystem = {
             // Mise à jour du HUD
             if (window.refreshHUD) refreshHUD();
             
-            // Si la gravité était activée, elle serait appelée ici.
-            // this.applyGravity(); 
-            
         }, this.COMBO_DELAY);
 
         return scoreGained;
     },
 
-    // Fait tomber les items et spawn de nouveaux en bas
+    // Fait tomber les items et spawn de nouveaux en bas (Inactif pour ce mode)
     applyGravity: function () {
-        // Cette fonction est désactivée pour le mode puzzle actuel.
-        for (let c = 0; c < this.cols; c++) {
-            let emptyRow = this.rows - 1; 
-            
-            for (let r = this.rows - 1; r >= 0; r--) {
-                const tile = this.getTile(c, r);
-                
-                if (tile && tile.itemId !== null) {
-                    if (r !== emptyRow) {
-                        const targetTile = this.getTile(c, emptyRow);
-                        targetTile.itemId = tile.itemId;
-                        tile.itemId = null;
-                    }
-                    emptyRow--; 
-                }
-            }
-            
-            for (let r = emptyRow; r >= 0; r--) {
-                const tile = this.getTile(c, r);
-                if (tile) {
-                    tile.itemId = this.getRandomItem();
-                }
-            }
-        }
+        // ... (Inactif)
     },
 
     // --- Rendu ---
@@ -287,7 +304,6 @@ window.GridSystem = {
                     
                     // Effet visuel pour le combo en cours
                     if (tile.state === 'MATCHED') {
-                        // Rendre l'item plus visible ou clignotant avant de disparaître
                         itemColor = color(255, 255, 0); // Jaune vif
                         glowColor = color(255, 0, 0); // Rouge pour l'explosion
                         

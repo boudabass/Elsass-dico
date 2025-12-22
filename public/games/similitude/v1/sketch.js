@@ -31,7 +31,7 @@ function handleWorldClick(screenX, screenY) {
                     console.log(`Clic 1: Sélectionné ${tile.itemId} à (${gridPos.col}, ${gridPos.row})`);
                 }
             } 
-            // --- LOGIQUE DE DÉPLACEMENT (Clic 2) ---
+            // --- LOGIQUE DE DÉPLACEMENT/SWAP (Clic 2) ---
             else {
                 const selected = GameState.selectedTile;
                 const previousTile = GridSystem.getTile(selected.col, selected.row);
@@ -44,25 +44,39 @@ function handleWorldClick(screenX, screenY) {
                     return;
                 }
                 
-                // Clic sur une case libre -> Déplacement
+                // Vérification de l'énergie pour toute action de mouvement
+                if (!GameState.spendEnergy(1)) {
+                    console.warn("Pas assez d'énergie pour bouger.");
+                    return;
+                }
+                
+                let actionSuccess = false;
+
                 if (!tile.itemId) {
-                    if (GameState.spendEnergy(1)) {
-                        GridSystem.moveItem(selected.col, selected.row, gridPos.col, gridPos.row);
-                        
-                        // Réinitialiser la sélection
-                        if (previousTile) previousTile.state = 'NORMAL';
-                        GameState.selectedTile = null;
-                        
-                        if (window.refreshHUD) refreshHUD();
-                    } else {
-                        console.warn("Pas assez d'énergie pour bouger.");
-                    }
+                    // Clic sur une case libre -> Déplacement (Snap libre)
+                    actionSuccess = GridSystem.moveItem(selected.col, selected.row, gridPos.col, gridPos.row);
+                    
                 } else {
-                    // Clic sur une autre tuile occupée -> Nouvelle sélection
+                    // Clic sur une case occupée -> Swap
+                    actionSuccess = GridSystem.swapItems(selected.col, selected.row, gridPos.col, gridPos.row);
+                }
+                
+                if (actionSuccess) {
+                    // Réinitialiser la sélection après un mouvement réussi (swap ou move)
                     if (previousTile) previousTile.state = 'NORMAL';
-                    GameState.selectedTile = { col: gridPos.col, row: gridPos.row, itemId: tile.itemId };
-                    tile.state = 'SELECTED';
-                    console.log(`Clic 2: Nouvelle sélection ${tile.itemId}`);
+                    GameState.selectedTile = null;
+                    if (window.refreshHUD) refreshHUD();
+                } else {
+                    // Si le swap a été annulé (pas de combo), l'énergie est déjà dépensée.
+                    // Si c'était un move invalide (ne devrait pas arriver ici), l'énergie est dépensée.
+                    // Si le swap a été annulé, l'état de la grille est revenu à la normale par undoSwap.
+                    
+                    // Si l'action a échoué, on désélectionne quand même pour recommencer
+                    if (previousTile) previousTile.state = 'NORMAL';
+                    GameState.selectedTile = null;
+                    
+                    // On pourrait restaurer l'énergie ici si le swap est annulé, mais pour l'instant,
+                    // nous laissons l'énergie dépensée pour simplifier la logique de Match-3.
                 }
             }
         }
@@ -157,9 +171,6 @@ window.redraw = function() {
 };
 
 function draw() {
-    // Log de vérification de l'exécution de la boucle
-    // console.log("Draw loop running. State:", GameState.currentState); 
-    
     background(Config.colors.background);
 
     // 1. Mise à jour de la logique de jeu

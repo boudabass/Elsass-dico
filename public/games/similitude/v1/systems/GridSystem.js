@@ -18,7 +18,7 @@ window.GridSystem = {
                 itemId: this.getRandomItem(),
                 state: 'NORMAL', // NORMAL, SELECTED, MATCHED
                 col: i % this.cols,
-                row: floor(i / this.cols)
+                row: Math.floor(i / this.cols)
             });
         }
         
@@ -29,7 +29,7 @@ window.GridSystem = {
 
     // Récupère un item aléatoire (limité par Config.grid.itemTypes)
     getRandomItem: function () {
-        const index = floor(random(Config.grid.itemTypes));
+        const index = Math.floor(Math.random() * Config.grid.itemTypes);
         return Config.seedIcons[index];
     },
 
@@ -66,8 +66,8 @@ window.GridSystem = {
         const offsetX = (width / 2) - (gridWidth / 2);
         const offsetY = (height / 2) - (gridHeight / 2);
 
-        const col = floor((worldX - offsetX) / this.tileSize);
-        const row = floor((worldY - offsetY) / this.tileSize);
+        const col = Math.floor((worldX - offsetX) / this.tileSize);
+        const row = Math.floor((worldY - offsetY) / this.tileSize);
 
         if (col >= 0 && col < this.cols && row >= 0 && row < this.rows) {
             return { col, row, valid: true };
@@ -166,8 +166,7 @@ window.GridSystem = {
         const comboLength = tilesToClear.length;
         const multiplier = comboLength >= 5 ? 3 : comboLength >= 4 ? 2 : 1;
         
-        totalScore = baseScore * comboLength * multiplier;
-        GameState.score += totalScore;
+        totalScore = GameState.score += baseScore * comboLength * multiplier;
         
         console.log(`💥 Combo de ${comboLength} ! Score: +${totalScore} (x${multiplier})`);
 

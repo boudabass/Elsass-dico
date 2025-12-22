@@ -13,8 +13,8 @@ Ce document liste les fonctionnalités restantes à implémenter pour atteindre 
 | ✅ | **Score & Multiplicateurs** | Calcul du score basé sur la longueur du combo (x1, x2, x3). |
 | ✅ | **Chrono & Énergie** | Décompte du temps et consommation d'énergie par mouvement. |
 | ✅ | **HUD & Modales** | Affichage des stats et modales Pause/Game Over. |
-| ⬜ | **Animation de Déplacement** | Lissage visuel du mouvement d'un item de la source à la destination (actuellement un snap instantané). |
-| ⬜ | **Animation de Fusion** | Effet visuel (explosion, disparition) lors de la fusion des items. |
+| ✅ | **Animation de Déplacement** | Lissage visuel du mouvement d'un item de la source à la destination (actuellement un snap instantané). |
+| ✅ | **Animation de Fusion** | Effet visuel (explosion, disparition) lors de la fusion des items. |
 | ⬜ | **Feedback Énergie Zéro** | Afficher un message d'alerte lorsque l'énergie est épuisée et le jeu est bloqué. |
 
 ## Phase 2 : Fonctionnalités Avancées (Inventaire & Power-ups)

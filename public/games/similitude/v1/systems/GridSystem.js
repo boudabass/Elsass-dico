@@ -195,7 +195,7 @@ window.GridSystem = {
             for (let r = this.rows - 1; r >= 0; r--) {
                 const tile = this.getTile(c, r);
                 
-                if (tile.itemId !== null) {
+                if (tile && tile.itemId !== null) {
                     if (r !== emptyRow) {
                         // Déplacer l'item vers la ligne vide la plus basse
                         const targetTile = this.getTile(c, emptyRow);
@@ -209,7 +209,9 @@ window.GridSystem = {
             // Remplir les tuiles vides restantes (en haut) avec de nouveaux items
             for (let r = emptyRow; r >= 0; r--) {
                 const tile = this.getTile(c, r);
-                tile.itemId = this.getRandomItem();
+                if (tile) {
+                    tile.itemId = this.getRandomItem();
+                }
             }
         }
     },
@@ -229,6 +231,10 @@ window.GridSystem = {
         for (let r = 0; r < this.rows; r++) {
             for (let c = 0; c < this.cols; c++) {
                 const tile = this.getTile(c, r);
+                
+                // Vérification critique si la tuile existe
+                if (!tile) continue; 
+                
                 const x = c * this.tileSize;
                 const y = r * this.tileSize;
                 

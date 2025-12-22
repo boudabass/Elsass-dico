@@ -92,7 +92,7 @@ window.DebugManager = {
                 Gold: ${GameState.gold}<br>
                 <br>
                 <strong>--- SELECTION ---</strong><br>
-                Selected: ${GameState.selectedTile ? \`(\${GameState.selectedTile.col}, \${GameState.selectedTile.row})\` : 'NONE'}<br>
+                Selected: ${GameState.selectedTile ? '(' + GameState.selectedTile.col + ', ' + GameState.selectedTile.row + ')' : 'NONE'}<br>
                 <br>
                 <strong>--- MOUSE (SCREEN) ---</strong><br>
                 Mouse X: ${Math.round(info.screenX)}<br>

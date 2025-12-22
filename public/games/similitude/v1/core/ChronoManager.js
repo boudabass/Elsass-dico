@@ -20,7 +20,7 @@ window.ChronoManager = {
 
     // Formatte le temps en MM:SS
     getTimeString: function () {
-        const minutes = floor(GameState.chrono / 60);
+        const minutes = Math.floor(GameState.chrono / 60);
         const seconds = GameState.chrono % 60;
         return `${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}`;
     }

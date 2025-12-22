@@ -19,7 +19,6 @@ window.UIManager = {
 
     _closeAllModals: function (exceptId) {
         const modals = ['menu-modal', 'debug-modal', 'gameover-modal', 'powerup-modal', 'shop-modal'];
-        let wasPaused = GameState.currentState === GameState.GAME_STATE.PAUSED;
         let modalClosed = false;
 
         modals.forEach(id => {
@@ -33,29 +32,26 @@ window.UIManager = {
             }
         });
         
-        // Si une modale a été fermée et que le jeu était en pause (et n'est pas en Game Over)
-        if (modalClosed && wasPaused && GameState.currentState !== GameState.GAME_STATE.GAMEOVER) {
-            // On utilise un petit délai pour s'assurer que le DOM a été mis à jour
-            setTimeout(() => {
-                // Si aucune modale n'est visible, on appelle startGame() pour reprendre
-                if (!this.isAnyModalVisible() && typeof startGame === 'function') {
-                    // startGame() gère la transition d'état vers PLAYING et l'appel à loop()
-                    startGame(); 
-                    console.log("▶️ Jeu repris automatiquement via startGame().");
-                }
-            }, 50); 
-        }
+        // NOTE: La reprise du jeu est maintenant gérée par les fonctions toggle individuelles
+        // (toggleMenu, toggleShop, etc.) après la fermeture de la modale.
+        return modalClosed;
     },
 
     toggleMenu: function () {
-        this._closeAllModals('menu-modal');
         const el = document.getElementById('menu-modal');
         if (!el) return;
         const becomingInactive = el.classList.contains('active');
+        
+        this._closeAllModals('menu-modal');
         el.classList.toggle('active');
         
         if (becomingInactive) {
             this.lastCloseTime = Date.now();
+            // Si le menu se ferme ET qu'aucune autre modale n'est visible, on reprend le jeu
+            if (GameState.currentState === GameState.GAME_STATE.PAUSED && !this.isAnyModalVisible() && typeof startGame === 'function') {
+                startGame(); // Reprend le jeu (met l'état à PLAYING et appelle loop())
+                console.log("▶️ Jeu repris automatiquement (Menu).");
+            }
         } else {
             // Pause le jeu si le menu s'ouvre
             if (GameState.currentState === GameState.GAME_STATE.PLAYING) {
@@ -66,14 +62,20 @@ window.UIManager = {
     },
     
     togglePowerUpWindow: function () {
-        this._closeAllModals('powerup-modal');
         const el = document.getElementById('powerup-modal');
         if (!el) return;
         const becomingInactive = el.classList.contains('active');
+        
+        this._closeAllModals('powerup-modal');
         el.classList.toggle('active');
         
         if (becomingInactive) {
             this.lastCloseTime = Date.now();
+            // Reprise automatique
+            if (GameState.currentState === GameState.GAME_STATE.PAUSED && !this.isAnyModalVisible() && typeof startGame === 'function') {
+                startGame();
+                console.log("▶️ Jeu repris automatiquement (PowerUp).");
+            }
         } else {
             // Pause le jeu et rend le contenu
             if (GameState.currentState === GameState.GAME_STATE.PLAYING) {
@@ -85,14 +87,20 @@ window.UIManager = {
     },
     
     toggleShop: function() {
-        this._closeAllModals('shop-modal');
         const el = document.getElementById('shop-modal');
         if (!el) return;
         const becomingInactive = el.classList.contains('active');
+        
+        this._closeAllModals('shop-modal');
         el.classList.toggle('active');
         
         if (becomingInactive) {
             this.lastCloseTime = Date.now();
+            // Reprise automatique
+            if (GameState.currentState === GameState.GAME_STATE.PAUSED && !this.isAnyModalVisible() && typeof startGame === 'function') {
+                startGame();
+                console.log("▶️ Jeu repris automatiquement (Shop).");
+            }
         } else {
             if (GameState.currentState === GameState.GAME_STATE.PLAYING) {
                 GameState.currentState = GameState.GAME_STATE.PAUSED;
@@ -103,15 +111,25 @@ window.UIManager = {
     },
 
     toggleDebug: function () {
-        this._closeAllModals('debug-modal');
         const el = document.getElementById('debug-modal');
         if (!el) return;
         const becomingInactive = el.classList.contains('active');
+        
+        this._closeAllModals('debug-modal');
         el.classList.toggle('active');
-        if (becomingInactive) this.lastCloseTime = Date.now();
-
-        if (el.classList.contains('active') && window.DebugManager) {
-            DebugManager.updateGridButton();
+        
+        if (becomingInactive) {
+            this.lastCloseTime = Date.now();
+            // Reprise automatique
+            if (GameState.currentState === GameState.GAME_STATE.PAUSED && !this.isAnyModalVisible() && typeof startGame === 'function') {
+                startGame();
+                console.log("▶️ Jeu repris automatiquement (Debug).");
+            }
+        } else {
+            if (GameState.currentState === GameState.GAME_STATE.PLAYING) {
+                GameState.currentState = GameState.GAME_STATE.PAUSED;
+                window.toggleGameLoop(false); // PAUSE DE LA BOUCLE P5.JS
+            }
         }
     },
     

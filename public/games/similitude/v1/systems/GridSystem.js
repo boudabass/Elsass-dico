@@ -109,7 +109,7 @@ window.GridSystem = {
         fromTile.itemId = null;
         fromTile.state = 'NORMAL';
         
-        // 2. Vérification de fusion (la gravité sera appelée si une fusion a lieu)
+        // 2. Vérification de fusion (la gravité ne sera PAS appelée ici)
         this.checkAndProcessFusions();
         
         return true;
@@ -195,8 +195,8 @@ window.GridSystem = {
             tile.state = 'MATCHED'; // État temporaire pour l'animation (non implémentée ici)
         });
 
-        // 4. Appliquer la gravité et le spawn
-        this.applyGravity();
+        // 4. Appliquer la gravité et le spawn (DÉSACTIVÉ)
+        // this.applyGravity(); 
         
         // 5. Vérifier les réactions en chaîne (récursif)
         // Pour l'instant, on ne fait qu'une passe simple.
@@ -206,6 +206,8 @@ window.GridSystem = {
 
     // Fait tomber les items et spawn de nouveaux en bas
     applyGravity: function () {
+        // Cette fonction est maintenant inactive dans checkAndProcessFusions()
+        // Elle est conservée ici pour le debug ou si la gravité est réactivée plus tard.
         for (let c = 0; c < this.cols; c++) {
             let emptyRow = this.rows - 1; // La ligne la plus basse vide
             

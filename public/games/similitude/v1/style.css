@@ -238,7 +238,7 @@ canvas {
 /* Conteneurs de coin (POWER UP et BOUTIQUE) */
 .corner-ui-zone {
     position: absolute;
-    bottom: 3vh; /* Ligne 3 */
+    bottom: 10vh; /* ALIGNÉ AVEC LIGNE 2 */
     pointer-events: auto;
     z-index: 110;
     width: 120px; /* Taille fixe pour le bouton */

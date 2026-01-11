@@ -1,5 +1,3 @@
-version: '3.8'
-
 services:
   web:
     image: ghcr.io/boudabass/game-4:latest
@@ -8,10 +6,10 @@ services:
       - "3000:3000"
     volumes:
       # STOCKAGE DONNÉES (db.json - Scores & Métadonnées)
-      - /mnt/share1/apps/gamesenior/data:/app/data
+      - /mnt/share1/server/apps/gamesenior/data:/app/data
 
       # STOCKAGE FICHIERS (Jeux p5.js statiques)
-      - /mnt/share1/apps/gamesenior/games:/app/public/games
+      - /mnt/share1/server/apps/gamesenior/games:/app/public/games
 
     environment:
       NODE_ENV: production

@@ -8,7 +8,10 @@ export async function getUsersAction() {
 
     // On récupère auth et profile
     const { data: { users }, error: authError } = await supabase.auth.admin.listUsers()
-    if (authError) return { success: false, error: authError.message }
+    if (authError) {
+        console.error(`[Admin Action] listUsers Error: ${authError.message}`);
+        return { success: false, error: authError.message }
+    }
 
     const { data: profiles, error: profError } = await supabase
         .from('profiles')
@@ -29,6 +32,8 @@ export async function createUserAction(formData: FormData) {
     const email = formData.get('email') as string
     const password = formData.get('password') as string
     const role = formData.get('role') as string || 'user'
+
+    console.log(`[Admin Action] Creating user: ${email} with role: ${role}`);
 
     if (!email || !password) {
         return { success: false, error: "Email et mot de passe requis" }

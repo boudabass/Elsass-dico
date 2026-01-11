@@ -227,8 +227,14 @@ export default function AdminPage() {
     return game?.versions || [];
   };
 
-  if (isLoading) return <div>Chargement...</div>;
-  if (!user) return <div>Accès refusé</div>;
+  if (isLoading) {
+    console.log("[Admin Page] Loading auth state...");
+    return <div>Chargement...</div>;
+  }
+  if (!user) {
+    console.warn("[Admin Page] Access denied: No user found.");
+    return <div>Accès refusé</div>;
+  }
 
   return (
     <div className="container mx-auto p-4 md:p-8 max-w-5xl">

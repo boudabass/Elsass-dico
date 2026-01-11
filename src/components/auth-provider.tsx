@@ -36,23 +36,39 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
     const {
       data: { subscription },
     } = supabase.auth.onAuthStateChange(async (event, session) => {
+      console.log(`[Auth] Event: ${event} | Session: ${session ? 'Active' : 'None'}`);
       setSession(session);
       setUser(session?.user ?? null);
 
       if (session?.user) {
-        // Fetch role from profiles table
-        const { data: profile } = await supabase
-          .from("profiles")
-          .select("role")
-          .eq("id", session.user.id)
-          .single();
+        console.log(`[Auth] User ID: ${session.user.id}. Fetching profile...`);
+        try {
+          // Fetch role from profiles table
+          const { data: profile, error } = await supabase
+            .from("profiles")
+            .select("role")
+            .eq("id", session.user.id)
+            .single();
 
-        setRole(profile?.role ?? "user");
+          if (error) {
+            console.warn("[Auth] Profile fetch error:", error.message);
+            setRole("user"); // Fallback to user role
+          } else {
+            console.log(`[Auth] Profile fetched. Role: ${profile?.role ?? "user"}`);
+            setRole(profile?.role ?? "user");
+          }
+        } catch (err) {
+          console.error("[Auth] Unexpected profile error:", err);
+          setRole("user");
+        } finally {
+          setIsLoading(false);
+          console.log("[Auth] Loading finished.");
+        }
       } else {
+        console.log("[Auth] No session user found.");
         setRole(null);
+        setIsLoading(false);
       }
-
-      setIsLoading(false);
 
       if (event === 'SIGNED_OUT') {
         router.refresh();

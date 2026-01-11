@@ -13,8 +13,6 @@ export interface GameRelease {
 
   description?: string;
   thumbnail?: string;
-  width?: number;
-  height?: number;
   createdAt?: string;
 }
 

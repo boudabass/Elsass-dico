@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+    <title>Cerebro v1</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Librarie p5.js -->
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.11.4/lib/p5.js"></script>
+
+    <!-- App Scripts -->
+    <script src="config.js"></script>
+    <script src="core/SaveManager.js"></script>
+    <script src="systems/InputManager.js"></script>
+    <script src="systems/GraphSystem.js"></script>
+    <script src="systems/ViewSystem.js"></script>
+    <script src="systems/UIManager.js"></script>
+
+    <!-- Tools -->
+    <script src="tools/ToolManager.js"></script>
+    <script src="tools/MoveTool.js"></script>
+    <script src="tools/EditTool.js"></script>
+    <script src="tools/LinkTool.js"></script>
+    <script src="tools/RemoveTool.js"></script>
+
+    <!-- Entry Points -->
+    <script src="sketch.js"></script>
+</head>
+
+<body>
+    <div id="app-container">
+        <!-- p5.js canvas instancié ici par défaut ou attaché au body -->
+    </div>
+
+    <!-- UI Overlay : Drawer Memoire (Top) -->
+    <div id="memory-drawer" class="drawer drawer-top" onmousedown="event.stopPropagation()">
+        <div class="drawer-handle" onclick="UIManager.toggleMemory()">📂 MÉMOIRE</div>
+        <div class="drawer-content">
+            <!-- Liste neurones dormants -->
+        </div>
+    </div>
+
+    <!-- Link Editor Panel -->
+    <div id="link-editor" class="editor-panel hidden" onmousedown="event.stopPropagation()">
+        <div class="editor-header">
+            <span id="link-editor-title">🔗 Synapse</span>
+            <button class="action-btn" style="background:#e74c3c; padding: 5px 10px;"
+                onclick="UIManager.deleteLink()">🗑️</button>
+        </div>
+        <div class="editor-body">
+            <label style="display:block; margin-bottom:5px; font-weight:bold;">Type</label>
+            <select id="link-type-select" style="width:100%; padding:10px; margin-bottom:20px; border-radius:8px;">
+                <option value="analogy">Analogie</option>
+                <option value="cause">Causalité</option>
+                <option value="oppose">Opposition</option>
+                <option value="inspire">Inspire</option>
+                <option value="suite">Suite</option>
+                <option value="metaphor">Métaphore</option>
+            </select>
+
+            <label style="display:block; margin-bottom:5px; font-weight:bold;">Poids (Force)</label>
+            <input type="range" id="link-weight-slider" min="0" max="1" step="0.1" style="width:100%;">
+        </div>
+        <div class="editor-footer">
+            <button class="action-btn" onclick="UIManager.validateLink()">OK</button>
+            <button class="action-btn" style="background:#95a5a6;" onclick="UIManager.closeLinkEditor()">X</button>
+        </div>
+    </div>
+
+    <!-- UI Overlay : Mini Toolbar Contextuelle (Hidden by default) -->
+    <div id="node-context-menu" class="context-menu hidden" onmousedown="event.stopPropagation()">
+        <button class="ctx-btn" onclick="ToolManager.activate('move', UIManager.contextNode)"
+            title="Déplacer">MOVE</button>
+        <button class="ctx-btn" onclick="ToolManager.activate('edit', UIManager.contextNode)"
+            title="Éditer">EDIT</button>
+        <button class="ctx-btn" onclick="ToolManager.activate('link', UIManager.contextNode)" title="Lier">LINK</button>
+        <button class="ctx-btn ctx-danger" onclick="ToolManager.activate('remove', UIManager.contextNode)"
+            title="Supprimer">DEL</button>
+    </div>
+
+    <!-- UI Overlay : FAB (Bottom Left) -->
+    <div id="fab-container" class="fab-container" onmousedown="event.stopPropagation()">
+        <button id="add-btn" class="fab-main" onclick="UIManager.toggleAddMenu()">+</button>
+        <div id="add-menu" class="add-menu hidden">
+            <button class="add-item" onclick="GraphSystem.createNode(0,0,'text'); UIManager.toggleAddMenu()">📝
+                Texte</button>
+            <button class="add-item" onclick="GraphSystem.createNode(0,0,'image'); UIManager.toggleAddMenu()">🖼️
+                Image</button>
+            <button class="add-item" onclick="UIManager.toggleAddMenu()">❌</button>
+        </div>
+    </div>
+
+    <!-- UI Overlay : Node Editor (Panel) -->
+    <div id="node-editor" class="editor-panel hidden" onmousedown="event.stopPropagation()">
+        <div class="editor-header">
+            <span id="editor-title">Titre Neurone</span>
+        </div>
+        <div class="editor-toolbar"
+            style="display:flex; gap:10px; padding:10px; background:#fafafa; border-bottom:1px solid #ddd;">
+            <button class="tool-btn-small" onclick="UIManager.openDisplacementMode()">⚙️</button>
+            <button class="tool-btn-small" onclick="document.getElementById('node-content-text').focus()">✏️</button>
+            <button class="tool-btn-small" onclick="UIManager.startLinkFromActive()">🔗</button>
+            <button class="tool-btn-small" onclick="alert('Template: Non implémenté')">📄</button>
+            <button class="tool-btn-small" style="margin-left:auto; color:green;"
+                onclick="UIManager.validateEdit()">✅</button>
+            <button class="tool-btn-small" style="color:red;" onclick="UIManager.closeEditor()">❌</button>
+        </div>
+        <div class="editor-body">
+            <textarea id="node-content-text" placeholder="Écrire une pensée..."></textarea>
+            <!-- Autres types de contenus à venir -->
+        </div>
+        <div class="editor-footer">
+            <button class="action-btn" onclick="UIManager.validateEdit()">✅ Valider</button>
+        </div>
+    </div>
+    <!-- UI Overlay : Displacement Mode (Bottom Right) -->
+    <div id="displacement-ui" class="displacement-ui hidden" onmousedown="event.stopPropagation()">
+        <div class="displacement-controls">
+            <button class="d-btn d-up" onclick="UIManager.moveNode(0, -1)">▲</button>
+            <div class="d-row">
+                <button class="d-btn d-left" onclick="UIManager.moveNode(-1, 0)">◀</button>
+                <div class="d-spacer"></div>
+                <button class="d-btn d-right" onclick="UIManager.moveNode(1, 0)">▶</button>
+            </div>
+            <button class="d-btn d-down" onclick="UIManager.moveNode(0, 1)">▼</button>
+        </div>
+        <div class="displacement-actions">
+            <!-- Buttons moved to corner if needed, or stick with controls -->
+            <button class="action-btn d-validate" onclick="UIManager.validateDisplacement()">✅</button>
+            <button class="action-btn d-cancel" onclick="UIManager.cancelDisplacement()">❌</button>
+        </div>
+    </div>
+</body>
+
+</html>

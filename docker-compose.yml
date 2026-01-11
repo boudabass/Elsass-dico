@@ -2,14 +2,14 @@ version: '3.8'
 
 services:
   web:
-    image: ghcr.io/your-github-username/your-repo-name:latest
+    image: ghcr.io/boudabass/game-4:latest
     container_name: dyad-app-web
     ports:
       - "3000:3000"
     volumes:
       # STOCKAGE DONNÉES (db.json - Scores & Métadonnées)
       - /mnt/share1/apps/gamesenior/data:/app/data
-      
+
       # STOCKAGE FICHIERS (Jeux p5.js statiques)
       - /mnt/share1/apps/gamesenior/games:/app/public/games
 

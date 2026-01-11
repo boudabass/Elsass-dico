@@ -7,8 +7,6 @@
       "path": "elsass-farm/v1",
       "version": "v1",
       "createdAt": "2025-05-20T10:00:00.000Z",
-      "width": 800,
-      "height": 600,
       "thumbnail": "thumbnail.png"
     },
     {
@@ -17,9 +15,7 @@
       "description": "Description par défaut",
       "path": "similitude/v1",
       "version": "v1",
-      "createdAt": "2025-12-22T01:59:03.180Z",
-      "width": 800,
-      "height": 600
+      "createdAt": "2025-12-22T01:59:03.180Z"
     },
     {
       "id": "elsass-frost-v1",
@@ -27,9 +23,7 @@
       "description": "Version v1",
       "path": "elsass-frost/v1",
       "version": "v1",
-      "createdAt": "2025-12-26T20:00:00.359Z",
-      "width": 800,
-      "height": 600
+      "createdAt": "2025-12-26T20:00:00.359Z"
     },
     {
       "id": "test-personnage-v1",
@@ -37,9 +31,7 @@
       "description": "Tester le deplacement d'une entiter",
       "path": "test-personnage/v1",
       "version": "v1",
-      "createdAt": "2026-01-02T20:00:00.359Z",
-      "width": 800,
-      "height": 600
+      "createdAt": "2026-01-02T20:00:00.359Z"
     },
     {
       "id": "elsass-farm-v2",
@@ -47,9 +39,15 @@
       "description": "Version v2",
       "path": "elsass-farm/v2",
       "version": "v2",
-      "createdAt": "2026-01-07T21:45:41.572Z",
-      "width": 800,
-      "height": 600
+      "createdAt": "2026-01-07T21:45:41.572Z"
+    },
+    {
+      "id": "cerebro-v1",
+      "name": "cerebro",
+      "description": "Version v1",
+      "path": "cerebro/v1",
+      "version": "v1",
+      "createdAt": "2026-01-11T21:45:41.572Z"
     }
   ],
   "scores": [],

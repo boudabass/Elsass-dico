@@ -48,8 +48,6 @@ export interface GameVersionInfo {
   lastModified: number;
   isImported: boolean;
   dbId?: string;
-  width?: number;
-  height?: number;
   description?: string;
 }
 
@@ -60,8 +58,6 @@ export interface GameFolder {
   isImported: boolean;
   description?: string;
   prettyName?: string;
-  width?: number;
-  height?: number;
 }
 
 export async function listGamesFolders(): Promise<GameFolder[]> {
@@ -109,8 +105,6 @@ export async function listGamesFolders(): Promise<GameFolder[]> {
                 lastModified: vStats.mtimeMs,
                 isImported: !!foundGame,
                 dbId: foundGame?.id,
-                width: foundGame?.width || 800,
-                height: foundGame?.height || 600,
                 description: foundGame?.description
               };
             })
@@ -130,10 +124,7 @@ export async function listGamesFolders(): Promise<GameFolder[]> {
         versions,
         lastModified: stats.mtimeMs,
         isImported: hasImportedVersion,
-        description: importedGameMetadata?.description,
-        prettyName: importedGameMetadata?.name,
-        width: importedGameMetadata?.width || 800,
-        height: importedGameMetadata?.height || 600
+        prettyName: importedGameMetadata?.name
       };
     });
 
@@ -221,8 +212,61 @@ async function createStandardGameFiles(gameName: string, version: string, config
   return { success: true, message: "Squelette standard créé" };
 }
 
+// --- IMPORT EXPLICITE D'UNE VERSION EXISTANTE ---
+export async function importGameVersion(gameFolderName: string, versionName: string) {
+  const safeName = gameFolderName.toLowerCase().replace(/[^a-z0-9-]/g, '-');
+  const safeVersion = versionName.toLowerCase().replace(/[^a-z0-9-]/g, '-');
+  const gameId = `${safeName}-${safeVersion}`;
+  const gamePath = `${safeName}/${safeVersion}`;
+  const dirPath = path.join(GAMES_DIR, gameFolderName, versionName);
+
+  // Vérifier que le dossier existe sur le disque
+  try {
+    await fs.access(dirPath);
+  } catch {
+    return { success: false, error: `Le dossier ${gamePath} n'existe pas sur le disque.` };
+  }
+
+  // Lire les métadonnées locales
+  const meta = await readLocalMetadata(dirPath);
+
+  const db = await getDb();
+  await db.read();
+
+  const existingIndex = db.data.games.findIndex(g => g.id === gameId);
+
+  if (existingIndex >= 0) {
+    // Mise à jour des métadonnées si elles existent localement
+    await db.update(({ games }) => {
+      const g = games[existingIndex];
+      if (meta.description) g.description = meta.description;
+      if (meta.thumbnail) g.thumbnail = meta.thumbnail;
+    });
+    await db.write();
+    revalidatePath('/games');
+    return { success: true, message: `Version ${safeVersion} mise à jour.`, gameId };
+  }
+
+  // Création d'une nouvelle entrée DB
+  await db.update(({ games }) => games.push({
+    id: gameId,
+    name: gameFolderName, // Nom d'affichage par défaut
+    description: meta.description || `Jeu importé depuis ${gamePath}`,
+    path: gamePath,
+    version: safeVersion,
+    thumbnail: meta.thumbnail,
+    createdAt: new Date().toISOString()
+  }));
+
+  await db.write();
+  revalidatePath('/games');
+  revalidatePath('/dashboard');
+
+  return { success: true, message: `Version ${safeVersion} importée avec succès.`, gameId };
+}
+
 // --- CRÉATION / MISE À JOUR JEU ---
-export async function createGameFolder(gameName: string, width = 800, height = 600) {
+export async function createGameFolder(gameName: string) {
   const safeName = gameName.toLowerCase().replace(/[^a-z0-9-]/g, '-');
   const dirPath = path.join(GAMES_DIR, safeName, 'v1');
 
@@ -239,8 +283,6 @@ export async function createGameFolder(gameName: string, width = 800, height = 6
       const g = games[existingIndex];
       if (meta.description) g.description = meta.description;
       if (meta.thumbnail) g.thumbnail = meta.thumbnail;
-      g.width = width;
-      g.height = height;
     });
   } else {
     await db.update(({ games }) => games.push({
@@ -250,9 +292,7 @@ export async function createGameFolder(gameName: string, width = 800, height = 6
       path: `${safeName}/v1`,
       version: 'v1',
       thumbnail: meta.thumbnail,
-      createdAt: new Date().toISOString(),
-      width,
-      height
+      createdAt: new Date().toISOString()
     }));
   }
 
@@ -285,8 +325,6 @@ export async function createGameVersion(gameName: string, versionName: string) {
     const gameId = `${gameName}-${safeVersion}`;
 
     const parentGame = db.data.games.find(g => g.name === gameName);
-    const defaultWidth = parentGame?.width || 800;
-    const defaultHeight = parentGame?.height || 600;
 
     const existingIndex = db.data.games.findIndex(g => g.id === gameId);
 
@@ -304,9 +342,7 @@ export async function createGameVersion(gameName: string, versionName: string) {
         path: `${gameName}/${safeVersion}`,
         version: safeVersion,
         thumbnail: meta.thumbnail,
-        createdAt: new Date().toISOString(),
-        width: defaultWidth,
-        height: defaultHeight
+        createdAt: new Date().toISOString()
       }));
     }
 
@@ -340,7 +376,7 @@ export async function uploadGameFile(gameName: string, version: string, formData
 
   const safeName = gameName.replace(/[^a-z0-9-]/g, '-');
   const safeVersion = version.replace(/[^a-z0-9-]/g, '-');
-  
+
   // Sanitize file.name to prevent path traversal and unsafe characters
   const originalFileName = file.name;
   const baseFileName = path.basename(originalFileName);
@@ -360,7 +396,7 @@ export async function deleteGame(gameFolderName: string) {
   // 1. Déterminer le nom sécurisé et en minuscules pour la DB
   const safeGameName = gameFolderName.toLowerCase().replace(/[^a-z0-9-]/g, '-');
   const dbIdPrefix = `${safeGameName}-`;
-  
+
   // 2. Déterminer le chemin physique et valider pour éviter le path traversal
   const intendedGamePath = path.join(GAMES_DIR, gameFolderName);
   const resolvedGamePath = path.resolve(intendedGamePath);
@@ -383,7 +419,7 @@ export async function deleteGame(gameFolderName: string) {
   // Filtrer les jeux et scores dont l'ID commence par le préfixe du jeu (ex: 'tetris-')
   db.data.games = db.data.games.filter(g => !g.id.startsWith(dbIdPrefix));
   db.data.scores = db.data.scores.filter(s => !s.gameId.startsWith(dbIdPrefix));
-  
+
   await db.write(); // PERSISTENCE CRITIQUE
 
   revalidatePath('/games');
@@ -408,7 +444,7 @@ export async function deleteVersion(gameFolderName: string, versionName: string)
   try {
     await fs.rm(resolvedVersionPath, { recursive: true, force: true });
     console.log(`[GameManager] Successfully deleted directory: ${resolvedVersionPath}`);
-  } catch (e) { 
+  } catch (e) {
     console.error(`[GameManager] Failed to delete directory ${resolvedVersionPath}. Continuing with DB cleanup.`, e);
   }
 
@@ -420,12 +456,12 @@ export async function deleteVersion(gameFolderName: string, versionName: string)
   // 3. Supprimer l'entrée DB
   const db = await getDb();
   await db.read(); // Lire l'état actuel du disque
-  
+
   db.data.games = db.data.games.filter(g => g.id !== gameId);
   db.data.scores = db.data.scores.filter(s => s.gameId !== gameId);
-  
+
   await db.write(); // PERSISTENCE CRITIQUE
-  
+
   revalidatePath('/games');
   revalidatePath('/dashboard');
   revalidatePath('/scores');
@@ -433,7 +469,7 @@ export async function deleteVersion(gameFolderName: string, versionName: string)
   return { success: true };
 }
 
-export async function updateGameMetadata(gameFolderName: string, version: string, newName: string, newDescription: string, width: number, height: number) {
+export async function updateGameMetadata(gameFolderName: string, version: string, newName: string, newDescription: string) {
   // IMPORTANT: On applique toLowerCase() pour matcher l'ID en base
   const safeName = gameFolderName.toLowerCase().replace(/[^a-z0-9-]/g, '-');
   const safeVersion = version.toLowerCase().replace(/[^a-z0-9-]/g, '-');
@@ -456,8 +492,6 @@ export async function updateGameMetadata(gameFolderName: string, version: string
   if (game) {
     game.name = newName;
     game.description = newDescription;
-    game.width = width;
-    game.height = height;
   }
 
   try {
@@ -481,7 +515,7 @@ export async function uploadGameThumbnail(gameName: string, version: string, for
 
   const safeName = gameName.replace(/[^a-z0-9-]/g, '-');
   const safeVersion = version.replace(/[^a-z0-9-]/g, '-');
-  
+
   // Sanitize file.name to prevent path traversal and unsafe characters
   const originalFileName = file.name;
   const baseFileName = path.basename(originalFileName);

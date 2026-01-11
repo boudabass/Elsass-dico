@@ -5,8 +5,7 @@ export const createAdminClient = () => {
     const key = process.env.SUPABASE_SERVICE_ROLE_KEY
 
     if (!url || !key) {
-        if (!url) console.error("[Admin Client] CRITICAL ERROR: NEXT_PUBLIC_SUPABASE_URL is missing! (Build-time issue)");
-        if (!key) console.error("[Admin Client] CRITICAL ERROR: SUPABASE_SERVICE_ROLE_KEY is missing! (Runtime/Docker Compose issue)");
+        console.error("[Admin Client] CRITICAL: NEXT_PUBLIC_SUPABASE_URL or SUPABASE_SERVICE_ROLE_KEY is missing in environment variables!");
         throw new Error("Supabase Admin configuration missing");
     }
 

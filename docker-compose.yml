@@ -13,9 +13,9 @@ services:
 
     environment:
       NODE_ENV: production
-      # Force le passage de la clé de service depuis l'environnement hôte ou .env
-      SUPABASE_SERVICE_ROLE_KEY: ${SUPABASE_SERVICE_ROLE_KEY}
+      # Plus besoin de DATABASE_URL car on est en Lowdb pur
+      # Les variables Supabase sont injectées via le .env ou l'UI Dyad
     env_file:
-      - ./.env
+      - .env
 
     restart: unless-stopped

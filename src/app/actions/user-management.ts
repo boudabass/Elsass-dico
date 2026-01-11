@@ -4,33 +4,28 @@ import { createAdminClient } from "@/utils/supabase/admin"
 import { revalidatePath } from "next/cache"
 
 export async function getUsersAction() {
-    try {
-        const supabase = createAdminClient()
+    const supabase = createAdminClient()
 
-        // On récupère auth et profile
-        const { data: { users }, error: authError } = await supabase.auth.admin.listUsers()
-        if (authError) {
-            console.error(`[Admin Action] listUsers Error: ${authError.message}`);
-            return { success: false, error: authError.message }
-        }
-
-        const { data: profiles, error: profError } = await supabase
-            .from('profiles')
-            .select('id, role')
-
-        if (profError) return { success: false, error: profError.message }
-
-        // Merge
-        const mergedUsers = users.map(u => ({
-            ...u,
-            profile_role: profiles.find(p => p.id === u.id)?.role || 'user'
-        }))
-
-        return { success: true, users: mergedUsers }
-    } catch (error) {
-        console.error("[Admin Action] Error in getUsersAction:", error);
-        return { success: false, error: "Configuration admin manquante ou erreur serveur" }
+    // On récupère auth et profile
+    const { data: { users }, error: authError } = await supabase.auth.admin.listUsers()
+    if (authError) {
+        console.error(`[Admin Action] listUsers Error: ${authError.message}`);
+        return { success: false, error: authError.message }
     }
+
+    const { data: profiles, error: profError } = await supabase
+        .from('profiles')
+        .select('id, role')
+
+    if (profError) return { success: false, error: profError.message }
+
+    // Merge
+    const mergedUsers = users.map(u => ({
+        ...u,
+        profile_role: profiles.find(p => p.id === u.id)?.role || 'user'
+    }))
+
+    return { success: true, users: mergedUsers }
 }
 
 export async function createUserAction(formData: FormData) {
@@ -44,76 +39,61 @@ export async function createUserAction(formData: FormData) {
         return { success: false, error: "Email et mot de passe requis" }
     }
 
-    try {
-        const supabase = createAdminClient()
+    const supabase = createAdminClient()
 
-        // 1. Create in Auth
-        const { data: authData, error: authError } = await supabase.auth.admin.createUser({
-            email,
-            password,
-            email_confirm: true,
-            user_metadata: { role }
-        })
+    // 1. Create in Auth
+    const { data: authData, error: authError } = await supabase.auth.admin.createUser({
+        email,
+        password,
+        email_confirm: true,
+        user_metadata: { role }
+    })
 
-        if (authError) return { success: false, error: authError.message }
+    if (authError) return { success: false, error: authError.message }
 
-        // 2. Update Role in Profiles (Created by trigger on_auth_user_created)
-        const { error: profError } = await supabase
-            .from('profiles')
-            .update({ role })
-            .eq('id', authData.user.id)
+    // 2. Update Role in Profiles (Created by trigger on_auth_user_created)
+    const { error: profError } = await supabase
+        .from('profiles')
+        .update({ role })
+        .eq('id', authData.user.id)
 
-        if (profError) {
-            return { success: false, error: `Erreur mise à jour rôle profil: ${profError.message}` }
-        }
-
-        revalidatePath('/admin')
-        return { success: true, message: "Utilisateur créé avec succès" }
-    } catch (error) {
-        console.error("[Admin Action] Error in createUserAction:", error);
-        return { success: false, error: "Erreur lors de la création (Configuration admin manquante ?)" }
+    if (profError) {
+        return { success: false, error: `Erreur mise à jour rôle profil: ${profError.message}` }
     }
+
+    revalidatePath('/admin')
+    return { success: true, message: "Utilisateur créé avec succès" }
 }
 
 export async function deleteUserAction(userId: string) {
-    try {
-        const supabase = createAdminClient()
+    const supabase = createAdminClient()
 
-        // Suppression profil (si pas de cascade)
-        await supabase.from('profiles').delete().eq('id', userId)
+    // Suppression profil (si pas de cascade)
+    await supabase.from('profiles').delete().eq('id', userId)
 
-        const { error } = await supabase.auth.admin.deleteUser(userId)
-        if (error) return { success: false, error: error.message }
+    const { error } = await supabase.auth.admin.deleteUser(userId)
+    if (error) return { success: false, error: error.message }
 
-        revalidatePath('/admin')
-        return { success: true, message: "Utilisateur supprimé" }
-    } catch (error) {
-        console.error("[Admin Action] Error in deleteUserAction:", error);
-        return { success: false, error: "Erreur suppression" }
-    }
+    revalidatePath('/admin')
+    return { success: true, message: "Utilisateur supprimé" }
 }
 
 export async function updateUserRoleAction(userId: string, role: string) {
-    try {
-        const supabase = createAdminClient()
+    const supabase = createAdminClient()
 
-        // Sync metadata for backup
-        await supabase.auth.admin.updateUserById(userId, {
-            user_metadata: { role }
-        })
+    // Sync metadata for backup
+    await supabase.auth.admin.updateUserById(userId, {
+        user_metadata: { role }
+    })
 
-        // Update primary role source
-        const { error } = await supabase
-            .from('profiles')
-            .update({ role })
-            .eq('id', userId)
+    // Update primary role source
+    const { error } = await supabase
+        .from('profiles')
+        .update({ role })
+        .eq('id', userId)
 
-        if (error) return { success: false, error: error.message }
+    if (error) return { success: false, error: error.message }
 
-        revalidatePath('/admin')
-        return { success: true, message: "Rôle mis à jour dans la table profil" }
-    } catch (error) {
-        console.error("[Admin Action] Error in updateUserRoleAction:", error);
-        return { success: false, error: "Erreur mise à jour" }
-    }
+    revalidatePath('/admin')
+    return { success: true, message: "Rôle mis à jour dans la table profil" }
 }

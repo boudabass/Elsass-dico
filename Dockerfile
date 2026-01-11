@@ -27,6 +27,9 @@ RUN pnpm build
 # Stage 2: Create the production-ready image
 FROM node:20-alpine
 
+# Install CA certificates for HTTPS requests
+RUN apk add --no-cache ca-certificates
+
 # Set environment variables for Next.js production mode
 ENV NODE_ENV=production
 ENV PORT=3000

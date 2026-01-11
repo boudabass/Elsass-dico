@@ -41,9 +41,20 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
       setUser(session?.user ?? null);
 
       if (session?.user) {
-        console.log(`[Auth] User ID: ${session.user.id}. Fetching profile...`);
+        const metadataRole = session.user.user_metadata?.role;
+        console.log(`[Auth] User ID: ${session.user.id}. Metadata Role: ${metadataRole || 'None'}`);
+
+        // Priorité 1: Utiliser le rôle des métadonnées s'il existe (Rapide, pas de requête)
+        if (metadataRole) {
+          setRole(metadataRole);
+          setIsLoading(false);
+          console.log(`[Auth] Role set from metadata: ${metadataRole}`);
+        }
+
+        // Priorité 2: Vérifier la table profiles (Plus fiable mais plus lent)
+        // On le fait même si on a les métadonnées pour être sûr d'être à jour, 
+        // mais on ne bloque pas l'UI si on a déjà un rôle.
         try {
-          // Fetch role from profiles table
           const { data: profile, error } = await supabase
             .from("profiles")
             .select("role")
@@ -52,17 +63,18 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
 
           if (error) {
             console.warn("[Auth] Profile fetch error:", error.message);
-            setRole("user"); // Fallback to user role
+            if (!metadataRole) setRole("user");
           } else {
-            console.log(`[Auth] Profile fetched. Role: ${profile?.role ?? "user"}`);
-            setRole(profile?.role ?? "user");
+            const finalRole = profile?.role ?? "user";
+            console.log(`[Auth] Profile fetched. Role: ${finalRole}`);
+            setRole(finalRole);
           }
         } catch (err) {
           console.error("[Auth] Unexpected profile error:", err);
-          setRole("user");
+          if (!metadataRole) setRole("user");
         } finally {
           setIsLoading(false);
-          console.log("[Auth] Loading finished.");
+          console.log("[Auth] Auth lifecycle ready.");
         }
       } else {
         console.log("[Auth] No session user found.");

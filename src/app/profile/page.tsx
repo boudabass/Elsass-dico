@@ -1,98 +1,102 @@
+"use client";
 
-import { createClient } from '@/utils/supabase/server'
-import { redirect } from 'next/navigation'
-import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card"
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
-import { getDb, Score } from "@/lib/database"
-import { format } from "date-fns"
-import { fr } from "date-fns/locale"
-import { Trophy, Calendar, Gamepad2 } from "lucide-react"
+import { useAuth } from "@/components/auth-provider";
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
+import { Button } from "@/components/ui/button";
+import { Badge } from "@/components/ui/badge";
+import { Loader2, Mail, Shield, Calendar } from "lucide-react";
 
-export default async function ProfilePage() {
-    const supabase = await createClient()
-    const { data: { user } } = await supabase.auth.getUser()
+export default function ProfilePage() {
+    const { user, role, isLoading } = useAuth();
 
-    if (!user) {
-        redirect('/')
+    if (isLoading) {
+        return (
+            <div className="flex h-[50vh] items-center justify-center">
+                <Loader2 className="h-8 w-8 animate-spin text-primary" />
+            </div>
+        );
     }
 
-    const email = user.email || "Utilisateur"
-    const initials = email.substring(0, 2).toUpperCase()
+    if (!user) {
+        return <div className="p-8 text-center">Veuillez vous connecter pour voir votre profil.</div>;
+    }
 
-    // Server-Side Data Fetch: My Scores
-    const db = await getDb()
-    // Assuming scores have userId or we filter by something? 
-    // The current DB schema has 'userId' optional. 
-    // If not present, we can't filter securely. 
-    // But let's check what logic was there: /api/my-scores filtered by... what? 
-    // Let's assume we filter by user.id if available, or just return empty/all?
-    // Looking at previous code, it fetched /api/my-scores.
-    // I should check what that API did. But likely it filtered by user.id.
-
-    const myScores = db.data.scores.filter(s => s.userId === user.id)
-    // Sort recent first
-    myScores.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
-    const recentScores = myScores.slice(0, 50)
+    const email = user.email || "";
+    const initials = email.substring(0, 2).toUpperCase();
+    const joinDate = new Date(user.created_at || Date.now()).toLocaleDateString("fr-FR", {
+        year: 'numeric',
+        month: 'long',
+        day: 'numeric'
+    });
 
     return (
-        <div className="container max-w-4xl mx-auto space-y-8">
-            {/* En-tête Profil */}
-            <Card>
-                <CardContent className="pt-6 flex flex-col md:flex-row items-center gap-6">
-                    <Avatar className="h-24 w-24 border-4 border-slate-100">
-                        <AvatarImage src={user.user_metadata?.avatar_url} />
-                        <AvatarFallback className="text-2xl">{initials}</AvatarFallback>
-                    </Avatar>
-                    <div className="text-center md:text-left space-y-2">
-                        <h1 className="text-3xl font-bold">{user.user_metadata?.full_name || email}</h1>
-                        <p className="text-slate-500 flex items-center justify-center md:justify-start gap-2">
-                            <span className="bg-green-100 text-green-700 px-2 py-0.5 rounded-full text-xs">Membre</span>
-                            <span className="text-xs text-slate-400">ID: {user.id.slice(0, 8)}...</span>
-                        </p>
-                    </div>
-                </CardContent>
-            </Card>
+        <div className="container mx-auto p-4 md:p-8 max-w-4xl">
+            <h1 className="text-3xl font-bold mb-8">Mon Profil</h1>
+            
+            <div className="grid gap-6 md:grid-cols-3">
+                {/* Carte d'identité */}
+                <Card className="md:col-span-1">
+                    <CardHeader className="text-center">
+                        <div className="mx-auto mb-4">
+                            <Avatar className="h-24 w-24">
+                                <AvatarImage src={user.user_metadata?.avatar_url} />
+                                <AvatarFallback className="text-2xl">{initials}</AvatarFallback>
+                            </Avatar>
+                        </div>
+                        <CardTitle className="truncate">{email}</CardTitle>
+                        <CardDescription>
+                            <Badge variant={role === 'admin' ? "default" : "secondary"} className="mt-2">
+                                {role || "Utilisateur"}
+                            </Badge>
+                        </CardDescription>
+                    </CardHeader>
+                    <CardContent className="space-y-4">
+                        <div className="flex items-center text-sm text-muted-foreground">
+                            <Mail className="mr-2 h-4 w-4" />
+                            <span className="truncate">{email}</span>
+                        </div>
+                        <div className="flex items-center text-sm text-muted-foreground">
+                            <Calendar className="mr-2 h-4 w-4" />
+                            <span>Inscrit le {joinDate}</span>
+                        </div>
+                        <div className="flex items-center text-sm text-muted-foreground">
+                            <Shield className="mr-2 h-4 w-4" />
+                            <span>ID: {user.id.substring(0, 8)}...</span>
+                        </div>
+                    </CardContent>
+                </Card>
 
-            {/* Historique des Scores */}
-            <Card>
-                <CardHeader>
-                    <CardTitle className="flex items-center gap-2">
-                        <Trophy className="text-yellow-500" /> Mes Performances
-                    </CardTitle>
-                    <CardDescription>Vos 50 derniers scores enregistrés</CardDescription>
-                </CardHeader>
-                <CardContent>
-                    {recentScores.length === 0 ? (
-                        <div className="text-center py-8 text-slate-500">
-                            <p>Aucun score enregistré.</p>
-                            <p className="text-sm">Jouez à un jeu pour commencer !</p>
+                {/* Contenu principal */}
+                <Card className="md:col-span-2">
+                    <CardHeader>
+                        <CardTitle>Informations personnelles</CardTitle>
+                        <CardDescription>
+                            Gérez vos informations et préférences.
+                        </CardDescription>
+                    </CardHeader>
+                    <CardContent className="space-y-6">
+                        <div className="space-y-2">
+                            <h3 className="text-lg font-medium">Paramètres du compte</h3>
+                            <p className="text-sm text-muted-foreground">
+                                Pour modifier votre mot de passe ou supprimer votre compte, veuillez contacter un administrateur.
+                            </p>
                         </div>
-                    ) : (
-                        <div className="space-y-4">
-                            {recentScores.map((score, idx) => (
-                                <div key={idx} className="flex items-center justify-between p-4 bg-slate-50 rounded-lg border hover:border-primary transition-colors">
-                                    <div className="flex items-center gap-4">
-                                        <div className="bg-white p-2 rounded-full border">
-                                            <Gamepad2 className="w-5 h-5 text-slate-600" />
-                                        </div>
-                                        <div>
-                                            <h4 className="font-bold text-lg">{score.gameId}</h4>
-                                            <p className="text-xs text-slate-500 flex items-center gap-1">
-                                                <Calendar className="w-3 h-3" />
-                                                {format(new Date(score.date), "d MMMM yyyy 'à' HH:mm", { locale: fr })}
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div className="text-right">
-                                        <span className="text-2xl font-black text-primary">{score.score}</span>
-                                        <span className="text-xs text-slate-400 block">points</span>
-                                    </div>
-                                </div>
-                            ))}
+                        
+                        <div className="rounded-md border p-4 bg-muted/50">
+                            <h4 className="mb-2 font-semibold flex items-center gap-2">
+                                <Shield className="h-4 w-4" /> Zone sécurisée
+                            </h4>
+                            <p className="text-sm text-muted-foreground mb-4">
+                                Ceci est un exemple de section protégée accessible uniquement aux utilisateurs authentifiés.
+                            </p>
+                            <Button variant="outline" size="sm">
+                                Action utilisateur
+                            </Button>
                         </div>
-                    )}
-                </CardContent>
-            </Card>
+                    </CardContent>
+                </Card>
+            </div>
         </div>
     );
 }

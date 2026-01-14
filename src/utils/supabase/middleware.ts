@@ -1,6 +1,9 @@
 import { createServerClient } from '@supabase/ssr'
 import { NextResponse, type NextRequest } from 'next/server'
 
+const SUPABASE_URL = process.env.NEXT_PUBLIC_SUPABASE_URL || 'https://irdsoeamklkngxbgscom.supabase.co';
+const SUPABASE_ANON_KEY = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY || 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImlyZHNvZWFta2xrbmd4YmdzY29tIiwicm9sZSI6ImFub24iLCJpYXQiOjE3Njg0MTQzNTcsImV4cCI6MjA4Mzk5MDM1N30.lcDopujYrmV6bvBOIOZzltl6TZcNB7wrbnsTlgl0hzk';
+
 export async function updateSession(request: NextRequest) {
     let response = NextResponse.next({
         request: {
@@ -8,18 +11,9 @@ export async function updateSession(request: NextRequest) {
         },
     })
 
-    const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL
-    const supabaseKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY
-
-    if (!supabaseUrl || !supabaseKey) {
-        console.error('ERREUR CRITIQUE: NEXT_PUBLIC_SUPABASE_URL ou NEXT_PUBLIC_SUPABASE_ANON_KEY manquant dans le Middleware.')
-        // On retourne la réponse sans session plutôt que de faire planter l'app
-        return response
-    }
-
     const supabase = createServerClient(
-        supabaseUrl,
-        supabaseKey,
+        SUPABASE_URL,
+        SUPABASE_ANON_KEY,
         {
             cookies: {
                 getAll() {

@@ -48,6 +48,14 @@
       "path": "cerebro/v1",
       "version": "v1",
       "createdAt": "2026-01-11T21:45:41.572Z"
+    },
+    {
+      "id": "test-system-v1",
+      "name": "test-system",
+      "description": "Description par défaut",
+      "path": "test-system/v1",
+      "version": "v1",
+      "createdAt": "2026-01-11T12:01:27.905Z"
     }
   ],
   "scores": [],
@@ -369,6 +377,23 @@
         },
         "savedAt": "2026-01-07T12:23:22.502Z",
         "version": "1.4"
+      }
+    },
+    {
+      "gameId": "test-system-v1",
+      "userId": "75ed45e6-9aed-442c-a958-4ecb630272a4",
+      "updatedAt": "2026-01-11T13:30:53.075Z",
+      "data": {
+        "gameState": {
+          "energy": 55,
+          "gold": 70,
+          "day": 1,
+          "hour": 14,
+          "minute": 50,
+          "season": "SPRING",
+          "currentZoneId": "default"
+        },
+        "savedAt": "2026-01-11T13:30:52.888Z"
       }
     }
   ]

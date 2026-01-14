@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { cn } from "@/lib/utils";
-import { Gamepad2, LayoutDashboard } from "lucide-react";
+import { Rocket, LayoutDashboard } from "lucide-react";
 import { useAuth } from "@/components/auth-provider";
 
 export function MainNav({
@@ -22,7 +22,7 @@ export function MainNav({
                 href={user ? "/dashboard" : "/"}
                 className="flex items-center gap-2 font-bold text-lg mr-4 text-primary hover:opacity-80 transition-opacity"
             >
-                <Gamepad2 className="w-6 h-6" /> GameCenter
+                <Rocket className="w-6 h-6 text-indigo-500" /> AppTemplate
             </Link>
 
             {user && (
@@ -34,25 +34,16 @@ export function MainNav({
                             pathname === "/dashboard" ? "text-foreground" : "text-muted-foreground"
                         )}
                     >
-                        <LayoutDashboard className="w-4 h-4" /> Accueil
+                        <LayoutDashboard className="w-4 h-4" /> Dashboard
                     </Link>
                     <Link
-                        href="/games"
+                        href="/profile"
                         className={cn(
                             "text-sm font-medium transition-colors hover:text-primary",
-                            pathname?.startsWith("/games") ? "text-foreground" : "text-muted-foreground"
+                            pathname === "/profile" ? "text-foreground" : "text-muted-foreground"
                         )}
                     >
-                        Jeux
-                    </Link>
-                    <Link
-                        href="/scores"
-                        className={cn(
-                            "text-sm font-medium transition-colors hover:text-primary",
-                            pathname === "/scores" ? "text-foreground" : "text-muted-foreground"
-                        )}
-                    >
-                        Scores
+                        Mon Profil
                     </Link>
                 </>
             )}

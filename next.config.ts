@@ -15,39 +15,18 @@ const nextConfig: NextConfig = {
   async rewrites() {
     const rewrites = [];
 
-    const externalApiUrlService1 = process.env.EXTERNAL_API_URL_SERVICE1;
-    const externalApiUrlService2 = process.env.EXTERNAL_API_URL_SERVICE2;
-    const weatherApiUrl = process.env.WEATHER_API_URL;
-    // Removed: pollinationExternalApiUrl from template's base config.
-    // The AI will add specific API rewrites based on user requests.
+    // Exemple de Proxy API externe pour contourner les CORS
+    const externalApiUrl = process.env.EXTERNAL_API_URL;
 
-    if (externalApiUrlService1) {
+    if (externalApiUrl) {
       rewrites.push({
-        source: '/api/service1/:path*',
-        destination: `${externalApiUrlService1}/:path*`,
+        source: '/api/proxy/:path*',
+        destination: `${externalApiUrl}/:path*`,
       });
     }
-
-    if (externalApiUrlService2) {
-      rewrites.push({
-        source: '/api/service2/:path*',
-        destination: `${externalApiUrlService2}/:path*`,
-      });
-    }
-
-    if (weatherApiUrl) {
-      rewrites.push({
-        source: '/api/weather/:path*',
-        destination: `${weatherApiUrl}/:path*`,
-      });
-    }
-
-    // Removed: Specific rewrite rule for Pollinations API.
-    // The AI is expected to add this when a user requests it.
 
     return rewrites;
   },
 };
 
 export default nextConfig;
-

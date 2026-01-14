@@ -4,17 +4,9 @@ import { createClient } from '@/lib/supabase/server';
 
 export const dynamic = 'force-dynamic';
 
-// GET /api/storage?gameId=xxx
-// Récupère la sauvegarde du joueur connecté pour ce jeu
-export async function GET(request: Request) {
-  const { searchParams } = new URL(request.url);
-  const gameId = searchParams.get('gameId');
-
-  if (!gameId) {
-    return NextResponse.json({ error: 'Game ID required' }, { status: 400 });
-  }
-
-  // 1. Auth Check
+// GET /api/storage
+// Récupère les données du profil/settings du joueur connecté
+export async function GET() {
   const supabase = await createClient();
   const { data: { user } } = await supabase.auth.getUser();
 
@@ -22,32 +14,28 @@ export async function GET(request: Request) {
     return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
   }
 
-  // 2. DB Read
   const db = await getDb();
   await db.read();
 
-  // 3. Find Save
-  const save = db.data.saves.find(s => s.gameId === gameId && s.userId === user.id);
+  const entry = db.data.users_data.find(u => u.userId === user.id);
 
-  if (!save) {
-    return NextResponse.json({ data: null }); // Pas de sauvegarde existante, c'est valide
-  }
-
-  return NextResponse.json({ data: save.data, updatedAt: save.updatedAt });
+  return NextResponse.json({ 
+    data: entry ? entry.payload : null, 
+    updatedAt: entry ? entry.updatedAt : null 
+  });
 }
 
 // POST /api/storage
-// Écrase la sauvegarde du joueur pour ce jeu
+// Sauvegarde ou écrase les données de l'utilisateur
 export async function POST(request: Request) {
   try {
     const body = await request.json();
-    const { gameId, data } = body;
+    const { payload } = body;
 
-    if (!gameId || !data) {
-      return NextResponse.json({ error: 'Missing gameId or data' }, { status: 400 });
+    if (!payload) {
+      return NextResponse.json({ error: 'Missing payload' }, { status: 400 });
     }
 
-    // 1. Auth Check
     const supabase = await createClient();
     const { data: { user } } = await supabase.auth.getUser();
 
@@ -57,29 +45,24 @@ export async function POST(request: Request) {
 
     const db = await getDb();
     
-    // 2. Upsert Logic (Update or Insert)
-    await db.update(({ saves }) => {
-      const existingIndex = saves.findIndex(s => s.gameId === gameId && s.userId === user.id);
+    await db.update(({ users_data }) => {
+      const existingIndex = users_data.findIndex(u => u.userId === user.id);
       
-      const newSaveEntry = {
-        gameId,
+      const newEntry = {
         userId: user.id,
         updatedAt: new Date().toISOString(),
-        data: data
+        payload: payload
       };
 
       if (existingIndex >= 0) {
-        // Update
-        saves[existingIndex] = newSaveEntry;
+        users_data[existingIndex] = newEntry;
       } else {
-        // Insert
-        saves.push(newSaveEntry);
+        users_data.push(newEntry);
       }
     });
 
     return NextResponse.json({ success: true });
   } catch (e) {
-    console.error(e);
     return NextResponse.json({ error: 'Server Error' }, { status: 500 });
   }
 }

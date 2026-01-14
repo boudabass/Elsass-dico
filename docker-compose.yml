@@ -1,20 +1,16 @@
 services:
   web:
     image: ghcr.io/boudabass/game-4:latest
-    container_name: dyad-app-web
+    container_name: next-boilerplate
     ports:
       - "3000:3000"
     volumes:
-      # STOCKAGE DONNÉES (db.json - Scores & Métadonnées)
-      - /mnt/share1/server/apps/gamesenior/data:/app/data
-
-      # STOCKAGE FICHIERS (Jeux p5.js statiques)
-      - /mnt/share1/server/apps/gamesenior/games:/app/public/games
+      # VOLUME PERSISTANT UNIQUE POUR LES DONNÉES (db.json et fichiers uploadés)
+      - ./data/storage:/app/data/storage
 
     environment:
       NODE_ENV: production
-      # Plus besoin de DATABASE_URL car on est en Lowdb pur
-      # Les variables Supabase sont injectées via le .env ou l'UI Dyad
+      # Les variables Supabase doivent être définies dans l'UI Dyad ou le .env
     env_file:
       - .env
 

@@ -1,6 +1,6 @@
 import { JSONFilePreset } from 'lowdb/node';
 
-// Interfaces for Games
+// Interfaces for generic items (formerly Games)
 export interface GameMetadata {
   id: string;
   name: string;
@@ -13,14 +13,17 @@ export interface GameMetadata {
   height?: number;
 }
 
+// Alias for backward compatibility during refactor
+export type GameRelease = GameMetadata;
+
 export interface Score {
   gameId: string;
   score: number;
   userId?: string;
   userEmail?: string;
-  playerName?: string; // Added field
+  playerName?: string;
   timestamp?: string;
-  date?: string;       // Added field used in api/scores/route.ts
+  date?: string;
 }
 
 export interface Save {

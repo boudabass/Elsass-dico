@@ -3,7 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { Toaster } from "@/components/ui/sonner";
 import { AuthProvider } from "@/components/auth-provider";
-import { LayoutWrapper } from "@/components/layout-wrapper"; // Import LayoutWrapper
+import { LayoutWrapper } from "@/components/layout-wrapper";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -16,8 +16,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Game Center Seniors",
-  description: "Plateforme de jeux accessible pour seniors",
+  title: "Next.js Boilerplate",
+  description: "Supabase + Lowdb + Docker Starter",
 };
 
 export default function RootLayout({

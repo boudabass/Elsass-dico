@@ -1,36 +1,12 @@
 import { JSONFilePreset } from 'lowdb/node';
 
-// Interfaces for generic items (formerly Games)
-export interface GameMetadata {
+// Generic Interface for a resource (Example)
+export interface Item {
   id: string;
   name: string;
   description: string;
-  path: string;
-  version: string;
   createdAt: string;
-  thumbnail?: string;
-  width?: number;
-  height?: number;
-}
-
-// Alias for backward compatibility during refactor
-export type GameRelease = GameMetadata;
-
-export interface Score {
-  gameId: string;
-  score: number;
-  userId?: string;
-  userEmail?: string;
-  playerName?: string;
-  timestamp?: string;
-  date?: string;
-}
-
-export interface Save {
-  gameId: string;
-  userId: string;
-  updatedAt: string;
-  data: any;
+  userId?: string; // Ownership
 }
 
 // Interfaces for User Storage (Settings, Profile, etc.)
@@ -42,17 +18,13 @@ export interface UserData {
 
 // Main Database Schema
 export interface DatabaseData {
-  games: GameMetadata[];
-  scores: Score[];
-  saves: Save[];
+  items: Item[];        // Generic collection example
   users_data: UserData[];
   app_settings: any;
 }
 
 const defaultData: DatabaseData = { 
-  games: [],
-  scores: [],
-  saves: [],
+  items: [],
   users_data: [], 
   app_settings: { version: "1.0.0", maintenance: false } 
 };

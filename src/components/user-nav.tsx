@@ -15,7 +15,7 @@ import {
 import { createClient } from "@/lib/supabase";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
-import { LogOut, User, Shield, Trophy } from "lucide-react";
+import { LogOut, User, Shield } from "lucide-react";
 
 export function UserNav() {
     const { user, role, isLoading } = useAuth();
@@ -66,12 +66,6 @@ export function UserNav() {
                         <Link href="/profile" className="cursor-pointer">
                             <User className="mr-2 h-4 w-4" />
                             <span>Mon Profil</span>
-                        </Link>
-                    </DropdownMenuItem>
-                    <DropdownMenuItem asChild>
-                        <Link href="/profile" className="cursor-pointer">
-                            <Trophy className="mr-2 h-4 w-4" />
-                            <span>Mes Scores</span>
                         </Link>
                     </DropdownMenuItem>
                 </DropdownMenuGroup>

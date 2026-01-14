@@ -18,7 +18,9 @@ export interface Score {
   score: number;
   userId?: string;
   userEmail?: string;
-  timestamp: string;
+  playerName?: string; // Added field
+  timestamp?: string;
+  date?: string;       // Added field used in api/scores/route.ts
 }
 
 export interface Save {

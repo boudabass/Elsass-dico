@@ -1,0 +1,4307 @@
+[
+  {
+    "id": "danse_tyrolienne_17",
+    "type": "expression_figee",
+    "francais": "danse tyrolienne",
+    "article": "(la)",
+    "traductions": [
+      {
+        "alsacien": "d'r Schüaplàttner",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "danse tyrolienne.- (la) d'r Schüaplàttner.",
+      "index": 17
+    }
+  },
+  {
+    "id": "danseur__toile_18",
+    "type": "expression_figee",
+    "francais": "danseur étoile",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "d'r ärschta Tanzer",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "danseur étoile.- (le) d'r ärschta Tanzer.",
+      "index": 18
+    }
+  },
+  {
+    "id": "dartre_buccal_24",
+    "type": "expression_figee",
+    "francais": "dartre buccal",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "s'Hetzbiwala",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "de Bluder",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "dartre buccal.- (le) s'Hetzbiwala, de Bluder.",
+      "index": 24
+    }
+  },
+  {
+    "id": "date_limite_28",
+    "type": "expression_figee",
+    "francais": "date limite",
+    "article": "(la)",
+    "traductions": [
+      {
+        "alsacien": "d'r Schlusstärmin",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "date limite.- (la) d'r Schlusstärmin.",
+      "index": 28
+    }
+  },
+  {
+    "id": "date_de_livraison_29",
+    "type": "expression_figee",
+    "francais": "date de livraison",
+    "article": "(la)",
+    "traductions": [
+      {
+        "alsacien": "d'r Leefertärmin",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "date de livraison.- (la) d'r Leefertärmin.",
+      "index": 29
+    }
+  },
+  {
+    "id": "date_de_naissance_30",
+    "type": "expression_figee",
+    "francais": "date de naissance",
+    "article": "(la)",
+    "traductions": [
+      {
+        "alsacien": "s'Geburtsdàtum",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "date de naissance.- (la) s'Geburtsdàtum.",
+      "index": 30
+    }
+  },
+  {
+    "id": "date_de_p_remption_31",
+    "type": "expression_figee",
+    "francais": "date de péremption",
+    "article": "(la)",
+    "traductions": [
+      {
+        "alsacien": "s'Verfàllsdàtum",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "date de péremption.- (la) s'Verfàllsdàtum.",
+      "index": 31
+    }
+  },
+  {
+    "id": "d____coudre_44",
+    "type": "expression_figee",
+    "francais": "dé à coudre",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "d'r Fengerhüat",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "de Fingerhöt",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "dé à coudre.- (le) d'r Fengerhüat, de Fingerhöt.",
+      "index": 44
+    }
+  },
+  {
+    "id": "d_bile_mental_65",
+    "type": "expression_figee",
+    "francais": "débile mental",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "d'r Gaischtesgschtert",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "d'r Verruckt",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "débile mental.- (le) d'r Gaischtesgschtert, d'r Verruckt.",
+      "index": 65
+    }
+  },
+  {
+    "id": "d_bit_de_bi_re_68",
+    "type": "expression_figee",
+    "francais": "Débit de bière",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "d'Biarschtuwa",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "d'Beerschtub",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "Débit de bière.- (le) d'Biarschtuwa, d'Beerschtub.",
+      "index": 68
+    }
+  },
+  {
+    "id": "d_bit_de_lait_69",
+    "type": "expression_figee",
+    "francais": "débit de lait",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "d'r Melchhàndel",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "débit de lait.- (le) d'r Melchhàndel.",
+      "index": 69
+    }
+  },
+  {
+    "id": "d_bit_de_tabac_70",
+    "type": "expression_figee",
+    "francais": "débit de tabac",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "s'Tüwàckgschaft",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "débit de tabac.- (le) s'Tüwàckgschaft.",
+      "index": 70
+    }
+  },
+  {
+    "id": "d_git_de_vin_71",
+    "type": "expression_figee",
+    "francais": "dégit de vin",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "d'Wischtuwa",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "d'Winschtub",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "dégit de vin.- (le) d'Wischtuwa, d'Winschtub.",
+      "index": 71
+    }
+  },
+  {
+    "id": "d_but_de_l__t__114",
+    "type": "expression_figee",
+    "francais": "début de l'été",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "d'r Summeràfàng",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "de Sommerànfàng",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "début de l'été.- (le) d'r Summeràfàng, de Sommerànfàng.",
+      "index": 114
+    }
+  },
+  {
+    "id": "d_but_de_l_hiver_115",
+    "type": "expression_figee",
+    "francais": "début de l'hiver",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "d'r Wenteràfàng",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "de Winterànfàng",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "début de l'hiver.- (le) d'r Wenteràfàng, de Winterànfàng.",
+      "index": 115
+    }
+  },
+  {
+    "id": "d_calage_horaire_121",
+    "type": "expression_figee",
+    "francais": "décalage horaire",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "d'Zittverschiawung",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "d'Zittverschewung",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "décalage horaire.- (le) d'Zittverschiawung, d'Zittverschewung.",
+      "index": 121
+    }
+  },
+  {
+    "id": "d_chirure_de_ligament_169",
+    "type": "expression_figee",
+    "francais": "déchirure de ligament",
+    "article": "(la)",
+    "traductions": [
+      {
+        "alsacien": "d'r Bàndress",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "de Bàndriss",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "déchirure de ligament.- (la) d'r Bàndress, de Bàndriss.",
+      "index": 169
+    }
+  },
+  {
+    "id": "d_chirure_musculaire_170",
+    "type": "expression_figee",
+    "francais": "déchirure musculaire",
+    "article": "(la)",
+    "traductions": [
+      {
+        "alsacien": "d'r Muschkelress",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "de Muschkelriss",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "déchirure musculaire.- (la) d'r Muschkelress, de Muschkelriss.",
+      "index": 170
+    }
+  },
+  {
+    "id": "d_cision_juridique_176",
+    "type": "expression_figee",
+    "francais": "décision juridique",
+    "article": "(la)",
+    "traductions": [
+      {
+        "alsacien": "d'r Beschluss",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "d'Sàtzung",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "décision juridique.- (la) d'r Beschluss, d'Sàtzung.",
+      "index": 176
+    }
+  },
+  {
+    "id": "d_cision_du_tribunal_184",
+    "type": "expression_figee",
+    "francais": "décision du tribunal",
+    "article": "(la)",
+    "traductions": [
+      {
+        "alsacien": "d'Grechtsäntschaidung",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "décision du tribunal.- (la) d'Grechtsäntschaidung.",
+      "index": 184
+    }
+  },
+  {
+    "id": "d_cision_finale_185",
+    "type": "expression_figee",
+    "francais": "décision finale",
+    "article": "(la)",
+    "traductions": [
+      {
+        "alsacien": "d'r Antäntschluss",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "décision finale.- (la) d'r Antäntschluss.",
+      "index": 185
+    }
+  },
+  {
+    "id": "d_claration_d_amour_189",
+    "type": "expression_figee",
+    "francais": "déclaration d'amour",
+    "article": "(la)",
+    "traductions": [
+      {
+        "alsacien": "d'Liawesärklärung",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "déclaration d'amour.- (la) d'Liawesärklärung.",
+      "index": 189
+    }
+  },
+  {
+    "id": "d_claration_de_succession_191",
+    "type": "expression_figee",
+    "francais": "déclaration de succession",
+    "article": "(la)",
+    "traductions": [
+      {
+        "alsacien": "d'Ärbfàllsärklärung",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "déclaration de succession. (la) d'Ärbfàllsärklärung.",
+      "index": 191
+    }
+  },
+  {
+    "id": "d_claration_des_droits_de_l_homme_et_du_citoyen_192",
+    "type": "expression_figee",
+    "francais": "déclaration des droits de l'homme et du citoyen",
+    "article": "(la)",
+    "traductions": [
+      {
+        "alsacien": "d'Mänscha un Bergerrachta-n-ärklärung",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "déclaration des droits de l'homme et du citoyen.- (la) d'Mänscha un Bergerrachta-n-ärklärung.",
+      "index": 192
+    }
+  },
+  {
+    "id": "d_claration_d_imp_t_193",
+    "type": "expression_figee",
+    "francais": "déclaration d'impôt",
+    "article": "(la)",
+    "traductions": [
+      {
+        "alsacien": "d'Schtirärklärung",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "déclaration d'impôt.- (la) d'Schtirärklärung.",
+      "index": 193
+    }
+  },
+  {
+    "id": "d_claration_en_douane_194",
+    "type": "expression_figee",
+    "francais": "déclaration en douane",
+    "article": "(la)",
+    "traductions": [
+      {
+        "alsacien": "d'Zollärklärung",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "verzolla",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "verzolle",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "déclaration en douane.- (la) d'Zollärklärung, verzolla, verzolle.",
+      "index": 194
+    }
+  },
+  {
+    "id": "d_clencheur___retardement_197",
+    "type": "expression_figee",
+    "francais": "déclencheur à retardement",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "d'r Salbschtüssleeser",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "déclencheur à retardement.- (le) d'r Salbschtüssleeser.",
+      "index": 197
+    }
+  },
+  {
+    "id": "d_collement_de_la_r_tine_212",
+    "type": "expression_figee",
+    "francais": "décollement de la rétine",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "d'Nätzhüttàbtrännung",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "décollement de la rétine.- (le) d'Nätzhüttàbtrännung.",
+      "index": 212
+    }
+  },
+  {
+    "id": "d_faut_de_fabrication_289",
+    "type": "expression_figee",
+    "francais": "défaut de fabrication",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "d'r Fàwrikàzionsfahler",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "défaut de fabrication.- (le) d'r Fàwrikàzionsfahler.",
+      "index": 289
+    }
+  },
+  {
+    "id": "d_fense_antia_rienne_300",
+    "type": "expression_figee",
+    "francais": "défense antiaérienne",
+    "article": "(la)",
+    "traductions": [
+      {
+        "alsacien": "d'Flugàbwehr",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "défense antiaérienne.- (la) d'Flugàbwehr.",
+      "index": 300
+    }
+  },
+  {
+    "id": "d_ferlement_d_enthousiasme_307",
+    "type": "expression_figee",
+    "francais": "déferlement d'enthousiasme",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "d'Begaischterungsbràndung",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "déferlement d'enthousiasme.- (le) d'Begaischterungsbràndung.",
+      "index": 307
+    }
+  },
+  {
+    "id": "d_ficience_cardiaque_312",
+    "type": "expression_figee",
+    "francais": "déficience cardiaque",
+    "article": "(la)",
+    "traductions": [
+      {
+        "alsacien": "d'r Harzfahler",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "d'Harzbraschta",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "déficience cardiaque.- (la) d'r Harzfahler, d'Harzbraschta.",
+      "index": 312
+    }
+  },
+  {
+    "id": "d_gagement_de_chaleur_341",
+    "type": "expression_figee",
+    "francais": "dégagement de chaleur",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "d'Wärma-n-üsschtrehmung",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "üsschtràhlung",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "dégagement de chaleur.- (le) d'Wärma-n-üsschtrehmung, üsschtràhlung.",
+      "index": 341
+    }
+  },
+  {
+    "id": "d_g_t_des_eaux_347",
+    "type": "expression_figee",
+    "francais": "dégât des eaux",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "d'r Wàsserschàda",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "de Wàsserschàde",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "dégât des eaux.- (le) d'r Wàsserschàda, de Wàsserschàde.",
+      "index": 347
+    }
+  },
+  {
+    "id": "d_g_t_de_toiture_348",
+    "type": "expression_figee",
+    "francais": "dégât de toiture",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "d'r Dàchschàda",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "de Dàchschàde",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "dégât de toiture. (le) d'r Dàchschàda, de Dàchschàde.",
+      "index": 348
+    }
+  },
+  {
+    "id": "d_g_t_du_feu_349",
+    "type": "expression_figee",
+    "francais": "dégât du feu",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "d'r Bràndschàda",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "de Bràndschàde",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "dégât du feu.- (le) d'r Bràndschàda, de Bràndschàde.",
+      "index": 349
+    }
+  },
+  {
+    "id": "d_g_t_mat_riel_350",
+    "type": "expression_figee",
+    "francais": "dégât matériel",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "d'r Blachschàda",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "dégât matériel. (le) d'r Blachschàda",
+      "index": 350
+    }
+  },
+  {
+    "id": "d_g_n_rescence_graisseuse_354",
+    "type": "expression_figee",
+    "francais": "dégénérescence graisseuse",
+    "article": "(la)",
+    "traductions": [
+      {
+        "alsacien": "d'Verfattung",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "dégénérescence graisseuse.- (la) d'Verfattung.",
+      "index": 354
+    }
+  },
+  {
+    "id": "degr__de_lattitude_380",
+    "type": "expression_figee",
+    "francais": "degré de lattitude",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "s'Braitagràd",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "degré de lattitude.- (le) s'Braitagràd.",
+      "index": 380
+    }
+  },
+  {
+    "id": "degr__d_escalier_381",
+    "type": "expression_figee",
+    "francais": "degré d'escalier",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "d'Schtàffla",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "d'Schtàffel",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "degré d'escalier.- (le) d'Schtàffla, d'Schtàffel.",
+      "index": 381
+    }
+  },
+  {
+    "id": "d_gr_vement_fiscal_384",
+    "type": "expression_figee",
+    "francais": "dégrèvement fiscal",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "d'Schtirärmasigung",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "dégrèvement fiscal.- (le) d'Schtirärmasigung.",
+      "index": 384
+    }
+  },
+  {
+    "id": "dehors_de_402",
+    "type": "expression_figee",
+    "francais": "dehors de",
+    "article": "(en)",
+    "traductions": [
+      {
+        "alsacien": "üsserhàlb",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "dehors de.- (en) üsserhàlb.",
+      "index": 402
+    }
+  },
+  {
+    "id": "dehors_de__a_403",
+    "type": "expression_figee",
+    "francais": "dehors de ça",
+    "article": "(en)",
+    "traductions": [
+      {
+        "alsacien": "üsserdam",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "üsserdäm",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "dehors de ça.- (en) üsserdam, üsserdäm.",
+      "index": 403
+    }
+  },
+  {
+    "id": "d_lai_de_d_claration_411",
+    "type": "expression_figee",
+    "francais": "délai de déclaration",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "d'Maldafrescht",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "délai de déclaration.- (le) d'Maldafrescht.",
+      "index": 411
+    }
+  },
+  {
+    "id": "d_lai_de_gr_ce_412",
+    "type": "expression_figee",
+    "francais": "délai de grâce",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "d'Schoonfrescht",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "délai de grâce.- (le) d'Schoonfrescht.",
+      "index": 412
+    }
+  },
+  {
+    "id": "d_lai_de_livraison_413",
+    "type": "expression_figee",
+    "francais": "délai de livraison",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "d'Leferfrescht",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "délai de livraison.- (le) d'Leferfrescht.",
+      "index": 413
+    }
+  },
+  {
+    "id": "d_lai_de_paiement_414",
+    "type": "expression_figee",
+    "francais": "délai de paiement",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "d'r Zàhlungsfrescht",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "délai de paiement.- (le) d'r Zàhlungsfrescht.",
+      "index": 414
+    }
+  },
+  {
+    "id": "d_lai_de_pr_avis_415",
+    "type": "expression_figee",
+    "francais": "délai de préavis",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "d'Kendigungsfrescht",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "délai de préavis.- (le) d'Kendigungsfrescht.",
+      "index": 415
+    }
+  },
+  {
+    "id": "d_lai_d_objection_416",
+    "type": "expression_figee",
+    "francais": "délai d'objection",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "d'r Ischpruchsfrescht",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "délai d'objection.- (le) d'r Ischpruchsfrescht.",
+      "index": 416
+    }
+  },
+  {
+    "id": "d_lit_de_fuite_441",
+    "type": "expression_figee",
+    "francais": "délit de fuite",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "d' Unfàllflucht",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "délit de fuite.- (le) d' Unfàllflucht.",
+      "index": 441
+    }
+  },
+  {
+    "id": "d_lit_informatique_442",
+    "type": "expression_figee",
+    "francais": "délit informatique",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "d'r Dàtamessbrüch",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "délit informatique.- (le) d'r Dàtamessbrüch.",
+      "index": 442
+    }
+  },
+  {
+    "id": "demande_d_emploi_458",
+    "type": "expression_figee",
+    "francais": "demande d'emploi",
+    "article": "(la)",
+    "traductions": [
+      {
+        "alsacien": "d'Schtällasüach",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "demande d'emploi.- (la) d'Schtällasüach.",
+      "index": 458
+    }
+  },
+  {
+    "id": "demande_en_mariage_459",
+    "type": "expression_figee",
+    "francais": "demande en mariage",
+    "article": "(la)",
+    "traductions": [
+      {
+        "alsacien": "d'r Hirotsàtràg",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "de Hirotsàntràj",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "demande en mariage.- (la) d'r Hirotsàtràg, de Hirotsàntràj.",
+      "index": 459
+    }
+  },
+  {
+    "id": "demande_de_nationalisation_460",
+    "type": "expression_figee",
+    "francais": "demande de nationalisation",
+    "article": "(la)",
+    "traductions": [
+      {
+        "alsacien": "d'r Ibergerungsàtràg",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "de Inberjerrungsàntràj",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "demande de nationalisation.- (la) d'r Ibergerungsàtràg, de Inberjerrungsàntràj.",
+      "index": 460
+    }
+  },
+  {
+    "id": "demande_de_salaire_461",
+    "type": "expression_figee",
+    "francais": "demande de salaire",
+    "article": "(la)",
+    "traductions": [
+      {
+        "alsacien": "d'Lohnforderung",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "demande de salaire.- (la) d'Lohnforderung.",
+      "index": 461
+    }
+  },
+  {
+    "id": "d_mangeaison_anale_466",
+    "type": "expression_figee",
+    "francais": "démangeaison anale",
+    "article": "(la)",
+    "traductions": [
+      {
+        "alsacien": "d'r Wolf",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "démangeaison anale.- (la) d'r Wolf.",
+      "index": 466
+    }
+  },
+  {
+    "id": "d_marche_rat_e_471",
+    "type": "expression_figee",
+    "francais": "démarche ratée",
+    "article": "(la)",
+    "traductions": [
+      {
+        "alsacien": "d'r Nàrragàng",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "de Metzjersgàng",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "démarche ratée.- (la) d'r Nàrragàng, de Metzjersgàng.",
+      "index": 471
+    }
+  },
+  {
+    "id": "demoiselle_d_honneur_513",
+    "type": "expression_figee",
+    "francais": "demoiselle d'honneur",
+    "article": "(la)",
+    "traductions": [
+      {
+        "alsacien": "d'Ehrajumpfra",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "d'Brütmaid",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "demoiselle d'honneur. (la) d'Ehrajumpfra, d'Brütmaid.",
+      "index": 513
+    }
+  },
+  {
+    "id": "denier_public_537",
+    "type": "expression_figee",
+    "francais": "denier public",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "d'Äffentliga Galder",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "s'äffentlische Gäld",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "denier public.- (le) d'Äffentliga Galder,s'äffentlische Gäld.",
+      "index": 537
+    }
+  },
+  {
+    "id": "dent_de_lait_551",
+    "type": "expression_figee",
+    "francais": "dent de lait",
+    "article": "(la)",
+    "traductions": [
+      {
+        "alsacien": "s'Melchzehnla",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "de Melischzàhn",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "dent de lait.- (la) s'Melchzehnla, de Melischzàhn.",
+      "index": 551
+    }
+  },
+  {
+    "id": "dent_de_sagesse_552",
+    "type": "expression_figee",
+    "francais": "dent de sagesse",
+    "article": "(la)",
+    "traductions": [
+      {
+        "alsacien": "d'r Waishaitszàhn",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "de Weisheitszàhn",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "dent de sagesse.- (la) d'r Waishaitszàhn, de Weisheitszàhn.",
+      "index": 552
+    }
+  },
+  {
+    "id": "d_p_t_de_charbon_628",
+    "type": "expression_figee",
+    "francais": "dépôt de charbon",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "d'r Kohlaplohn",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "dépôt de charbon.- (le) d'r Kohlaplohn.",
+      "index": 628
+    }
+  },
+  {
+    "id": "d_p_t_de_gerbe_629",
+    "type": "expression_figee",
+    "francais": "dépôt de gerbe",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "d'Krànzneederlegung",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "dépôt de gerbe.- (le) d'Krànzneederlegung.",
+      "index": 629
+    }
+  },
+  {
+    "id": "dernier_de_nich_e_675",
+    "type": "expression_figee",
+    "francais": "dernier de nichée",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "d'r Naschthoker",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "de näschthoker",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "dernier de nichée.- (le) d'r Naschthoker, de näschthoker.",
+      "index": 675
+    }
+  },
+  {
+    "id": "dernier_lieu_676",
+    "type": "expression_figee",
+    "francais": "dernier lieu",
+    "article": "(en)",
+    "traductions": [
+      {
+        "alsacien": "z'àllerlätscht",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "dernier lieu.- (en) z'àllerlätscht.",
+      "index": 676
+    }
+  },
+  {
+    "id": "dernier_son_680",
+    "type": "expression_figee",
+    "francais": "dernier son",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "d'r Üsslüt",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "dernier son.- (le) d'r Üsslüt.",
+      "index": 680
+    }
+  },
+  {
+    "id": "descente_aux_enfers_734",
+    "type": "expression_figee",
+    "francais": "descente aux enfers",
+    "article": "(la)",
+    "traductions": [
+      {
+        "alsacien": "d'Hällfàhrt",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "descente aux enfers.- (la) d'Hällfàhrt.",
+      "index": 734
+    }
+  },
+  {
+    "id": "descente_de_lit_735",
+    "type": "expression_figee",
+    "francais": "descente de lit",
+    "article": "(la)",
+    "traductions": [
+      {
+        "alsacien": "d'Bättvorlàga",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "d'Bättvorlàje",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "descente de lit.- (la) d'Bättvorlàga, d'Bättvorlàje.",
+      "index": 735
+    }
+  },
+  {
+    "id": "descente_de_police_736",
+    "type": "expression_figee",
+    "francais": "descente de police",
+    "article": "(la)",
+    "traductions": [
+      {
+        "alsacien": "d'Razzia",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "descente de police.- (la) d'Razzia.",
+      "index": 736
+    }
+  },
+  {
+    "id": "descente_en_rappel_737",
+    "type": "expression_figee",
+    "francais": "descente en rappel",
+    "article": "(la)",
+    "traductions": [
+      {
+        "alsacien": "sech àbsaila",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "sisch àbseile",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "descente en rappel.- (la) sech àbsaila, sisch àbseile.",
+      "index": 737
+    }
+  },
+  {
+    "id": "d_sert_de_sable_752",
+    "type": "expression_figee",
+    "francais": "désert de sable",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "d'Sàndwiaschta",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "désert de sable.- (le) d'Sàndwiaschta.",
+      "index": 752
+    }
+  },
+  {
+    "id": "dessin___la_craie_803",
+    "type": "expression_figee",
+    "francais": "dessin à la craie",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "d'Kridazaichnung",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "d'Kridzeischnung",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "dessin à la craie.- (le) d'Kridazaichnung, d'Kridzeischnung.",
+      "index": 803
+    }
+  },
+  {
+    "id": "dessin___la_plume_804",
+    "type": "expression_figee",
+    "francais": "dessin à la plume",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "d'Faderzaichnung",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "d'Faderzeischnung",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "dessin à la plume.- (le) d'Faderzaichnung, d'Faderzeischnung.",
+      "index": 804
+    }
+  },
+  {
+    "id": "dessin_au_fusain_805",
+    "type": "expression_figee",
+    "francais": "dessin au fusain",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "d'Kohlazaichnung",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "d'Hohlezeischnung",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "dessin au fusain.- (le) d'Kohlazaichnung, d'Hohlezeischnung.",
+      "index": 805
+    }
+  },
+  {
+    "id": "dessous_de_bi_re_811",
+    "type": "expression_figee",
+    "francais": "dessous de bière",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "s'Biardäckala",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "de Beerfelz",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "dessous de bière.- (le) s'Biardäckala, de Beerfelz.",
+      "index": 811
+    }
+  },
+  {
+    "id": "dessous_de_lit_812",
+    "type": "expression_figee",
+    "francais": "dessous de lit",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "d'Bättlàcha",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "d'Bettlàche",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "dessous de lit.- (le) d'Bättlàcha, d'Bettlàche.",
+      "index": 812
+    }
+  },
+  {
+    "id": "dessous_de_plat_813",
+    "type": "expression_figee",
+    "francais": "dessous de plat",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "s'Plàttabischala",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "dessous de plat.- (le) s'Plàttabischala.",
+      "index": 813
+    }
+  },
+  {
+    "id": "dessous_de_table_814",
+    "type": "expression_figee",
+    "francais": "dessous de table",
+    "article": "(les)",
+    "traductions": [
+      {
+        "alsacien": "d'Schmergalder",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "d'Schmirgälder",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "dessous de table.- (les) d'Schmergalder, d'Schmirgälder.",
+      "index": 814
+    }
+  },
+  {
+    "id": "dessous_sexy_815",
+    "type": "expression_figee",
+    "francais": "dessous sexy",
+    "article": "(les)",
+    "traductions": [
+      {
+        "alsacien": "d'Raizwäsch",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "d'Reizwäsch",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "dessous sexy.- (les) d'Raizwäsch, d'Reizwäsch.",
+      "index": 815
+    }
+  },
+  {
+    "id": "dessus_de_lit_818",
+    "type": "expression_figee",
+    "francais": "dessus de lit",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "d'Schtappdäcka",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "d'Schdapdäck",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "dessus de lit.- (le) d'Schtappdäcka, d'Schdapdäck.",
+      "index": 818
+    }
+  },
+  {
+    "id": "d_tecteur_de_fum_e_842",
+    "type": "expression_figee",
+    "francais": "détecteur de fumée",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "d'r Ràuichmalder",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "détecteur de fumée.- (le) d'r Ràuichmalder.",
+      "index": 842
+    }
+  },
+  {
+    "id": "d_tecteur_de_mensonges_843",
+    "type": "expression_figee",
+    "francais": "détecteur de mensonges",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "d'r Polygràf",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "détecteur de mensonges.- (le) d'r Polygràf.",
+      "index": 843
+    }
+  },
+  {
+    "id": "d_tention_provisoire_852",
+    "type": "expression_figee",
+    "francais": "détention provisoire",
+    "article": "(la)",
+    "traductions": [
+      {
+        "alsacien": "d'Untersüachungshàft",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "détention provisoire.- (la) d'Untersüachungshàft.",
+      "index": 852
+    }
+  },
+  {
+    "id": "d_tournement_d_avion_866",
+    "type": "expression_figee",
+    "francais": "détournement d'avion",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "d'Fliageräntfiarung",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "détournement d'avion.- (le) d'Fliageräntfiarung.",
+      "index": 866
+    }
+  },
+  {
+    "id": "deux_chiffres_884",
+    "type": "expression_figee",
+    "francais": "deux chiffres",
+    "article": "(à)",
+    "traductions": [
+      {
+        "alsacien": "zwaischtällig",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "zweischtellisch",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "deux chiffres.- (à) zwaischtällig, zweischtellisch.",
+      "index": 884
+    }
+  },
+  {
+    "id": "deux_colonnes_885",
+    "type": "expression_figee",
+    "francais": "deux colonnes",
+    "article": "(à)",
+    "traductions": [
+      {
+        "alsacien": "zwaischpàltig",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "deux colonnes.- (à) zwaischpàltig.",
+      "index": 885
+    }
+  },
+  {
+    "id": "deux_cot_s_886",
+    "type": "expression_figee",
+    "francais": "deux cotés",
+    "article": "(des)",
+    "traductions": [
+      {
+        "alsacien": "baidersits",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "beiderssitz",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "deux cotés.- (des) baidersits, beiderssitz.",
+      "index": 886
+    }
+  },
+  {
+    "id": "deuxi_me_cat_gorie_889",
+    "type": "expression_figee",
+    "francais": "deuxième catégorie",
+    "article": "(de)",
+    "traductions": [
+      {
+        "alsacien": "zwaitklàssig",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "zweitklàssisch",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "deuxième catégorie.- (de) zwaitklàssig, zweitklàssisch.",
+      "index": 889
+    }
+  },
+  {
+    "id": "deux_parties_891",
+    "type": "expression_figee",
+    "francais": "deux parties",
+    "article": "(en)",
+    "traductions": [
+      {
+        "alsacien": "en zwaitail",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "in zweiteil",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "deux parties.- (en) en zwaitail, in zweiteil.",
+      "index": 891
+    }
+  },
+  {
+    "id": "deux_portes_894",
+    "type": "expression_figee",
+    "francais": "deux portes",
+    "article": "(à)",
+    "traductions": [
+      {
+        "alsacien": "zwaiteerig",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "zweitirisch",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "deux portes.- (à) zwaiteerig, zweitirisch.",
+      "index": 894
+    }
+  },
+  {
+    "id": "deux_syllabes_896",
+    "type": "expression_figee",
+    "francais": "deux syllabes",
+    "article": "(à)",
+    "traductions": [
+      {
+        "alsacien": "zwaiselwig",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "zweisilwisch",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "deux syllabes.- (à) zwaiselwig, zweisilwisch.",
+      "index": 896
+    }
+  },
+  {
+    "id": "deux_voies_898",
+    "type": "expression_figee",
+    "francais": "deux voies",
+    "article": "(à)",
+    "traductions": [
+      {
+        "alsacien": "zwaischpurig",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "zweischpürisch",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "deux voies.- (à) zwaischpurig, zweischpürisch.",
+      "index": 898
+    }
+  },
+  {
+    "id": "devoir_d_assistance_933",
+    "type": "expression_figee",
+    "francais": "devoir d'assistance",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "d'Fersorgapflecht",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "d'Fürsorgepflischt",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "devoir d'assistance.- (le) d'Fersorgapflecht, d'Fürsorgepflischt.",
+      "index": 933
+    }
+  },
+  {
+    "id": "devoir_de_calcul_934",
+    "type": "expression_figee",
+    "francais": "devoir de calcul",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "d'Rachenuffgàb",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "d'Räschenuffgàb",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "devoir de calcul.- (le) d'Rachenuffgàb, d'Räschenuffgàb.",
+      "index": 934
+    }
+  },
+  {
+    "id": "diable_vauvert_950",
+    "type": "expression_figee",
+    "francais": "diable vauvert",
+    "article": "(au)",
+    "traductions": [
+      {
+        "alsacien": "en Kàpperschlàberscha",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "diable vauvert.- (au) en Kàpperschlàberscha.",
+      "index": 950
+    }
+  },
+  {
+    "id": "dimanche_avant_mardi_gras_1021",
+    "type": "expression_figee",
+    "francais": "dimanche avant mardi-gras",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "d'Härrafàsanàcht",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "d'r Tulwasunntig",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "dimanche avant mardi-gras.- (le) d'Härrafàsanàcht, d'r Tulwasunntig.",
+      "index": 1021
+    }
+  },
+  {
+    "id": "dimanche_apr_s_mardi_gras_1022",
+    "type": "expression_figee",
+    "francais": "dimanche après mardi-gras",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "d'Bürafàsanàcht",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "d'Àltafàsanàcht",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "dimanche après mardi-gras.- (le) d'Bürafàsanàcht, d'Àltafàsanàcht.",
+      "index": 1022
+    }
+  },
+  {
+    "id": "dimanche_de_l_avent_1023",
+    "type": "expression_figee",
+    "francais": "dimanche de l'Avent",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "d'r Àdvantsunntig",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "de Àdventsundi",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "dimanche de l'Avent.- (le) d'r Àdvantsunntig, de Àdventsundi.",
+      "index": 1023
+    }
+  },
+  {
+    "id": "dimanche_de_p_ques_1024",
+    "type": "expression_figee",
+    "francais": "dimanche de Pâques",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "d'r Oschtersunntig",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "de Oschtersundi",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "dimanche de Pâques.- (le) d'r Oschtersunntig, de Oschtersundi.",
+      "index": 1024
+    }
+  },
+  {
+    "id": "dimanche_de_pentec_te_1025",
+    "type": "expression_figee",
+    "francais": "dimanche de pentecôte",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "d'r Pfengschtsuntig",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "de Pfingschtsundi",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "dimanche de pentecôte.- (le) d'r Pfengschtsuntig, de Pfingschtsundi.",
+      "index": 1025
+    }
+  },
+  {
+    "id": "dimanche_de_quasimodo_1026",
+    "type": "expression_figee",
+    "francais": "dimanche de Quasimodo",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "d'r Wissasuntig",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "de Wissesundi",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "dimanche de Quasimodo.- (le) d'r Wissasuntig, de Wissesundi.",
+      "index": 1026
+    }
+  },
+  {
+    "id": "dimanche_des_rameaux_1027",
+    "type": "expression_figee",
+    "francais": "dimanche des rameaux",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "d'r Pàlmsunntig",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "de Pàlmsundi",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "dimanche des rameaux.- (le) d'r Pàlmsunntig, de Pàlmsundi.",
+      "index": 1027
+    }
+  },
+  {
+    "id": "dimension_infime_1030",
+    "type": "expression_figee",
+    "francais": "dimension infime",
+    "article": "(la)",
+    "traductions": [
+      {
+        "alsacien": "s'Muckasäckala",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "de Muckeseckel",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "dimension infime.- (la) s'Muckasäckala, de Muckeseckel.",
+      "index": 1030
+    }
+  },
+  {
+    "id": "dindon_de_la_farce_1035",
+    "type": "expression_figee",
+    "francais": "dindon de la farce",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "d'r Laidtràger",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "d'r Sendabock",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "s'Opferhammele",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "dindon de la farce.- (le) d'r Laidtràger, d'r Sendabock, s'Opferhammele.",
+      "index": 1035
+    }
+  },
+  {
+    "id": "ding_deng_dong_1038",
+    "type": "expression_figee",
+    "francais": "ding deng dong",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "s'Bimmelbàmmel",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "ding deng dong.- (le) s'Bimmelbàmmel.",
+      "index": 1038
+    }
+  },
+  {
+    "id": "dipl_me_universitaire_1044",
+    "type": "expression_figee",
+    "francais": "diplôme universitaire",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "d'r Schtudia-n-àbschluss",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "diplôme universitaire.- (le) d'r Schtudia-n-àbschluss.",
+      "index": 1044
+    }
+  },
+  {
+    "id": "directeur_g_n_ral_1050",
+    "type": "expression_figee",
+    "francais": "directeur général",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "d'r Hàuiptdirakter",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "directeur général.- (le) d'r Hàuiptdirakter.",
+      "index": 1050
+    }
+  },
+  {
+    "id": "directeur_de_conscience_1051",
+    "type": "expression_figee",
+    "francais": "directeur de conscience",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "d'r Bichtvàtter",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "de Bischtvàtter",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "directeur de conscience.- (le) d'r Bichtvàtter, de Bischtvàtter.",
+      "index": 1051
+    }
+  },
+  {
+    "id": "discipline_sportive_1063",
+    "type": "expression_figee",
+    "francais": "discipline sportive",
+    "article": "(la)",
+    "traductions": [
+      {
+        "alsacien": "d'Schportàrt",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "discipline sportive.- (la) d'Schportàrt.",
+      "index": 1063
+    }
+  },
+  {
+    "id": "disc_joquey_1064",
+    "type": "expression_figee",
+    "francais": "disc joquey",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "d'r Schàllplàttahàndlanger",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "disc joquey.- (le) d'r Schàllplàttahàndlanger.",
+      "index": 1064
+    }
+  },
+  {
+    "id": "discours_de_bienvenue_1072",
+    "type": "expression_figee",
+    "francais": "discours de bienvenue",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "d'Begriessungsreed",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "discours de bienvenue.- (le) d'Begriessungsreed.",
+      "index": 1072
+    }
+  },
+  {
+    "id": "discours_de_table_1073",
+    "type": "expression_figee",
+    "francais": "discours de table",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "d'Teschreed",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "d'Tischreed",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "discours de table.- (le) d'Teschreed, d'Tischreed.",
+      "index": 1073
+    }
+  },
+  {
+    "id": "dispositions_testamentaires_1106",
+    "type": "expression_figee",
+    "francais": "dispositions testamentaires",
+    "article": "(les)",
+    "traductions": [
+      {
+        "alsacien": "d'Lätschtwellikaita",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "d'Lätschtwillischkeite",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "dispositions testamentaires.- (les) d'Lätschtwellikaita, d'Lätschtwillischkeite.",
+      "index": 1106
+    }
+  },
+  {
+    "id": "dispute_domestique_1109",
+    "type": "expression_figee",
+    "francais": "dispute domestique",
+    "article": "(la)",
+    "traductions": [
+      {
+        "alsacien": "s'Kuchagwetter",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "s'Kischegwitter",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "dispute domestique.- (la) s'Kuchagwetter, s'Kischegwitter.",
+      "index": 1109
+    }
+  },
+  {
+    "id": "disque_dur_1112",
+    "type": "expression_figee",
+    "francais": "disque dur",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "d'Hàuiptplàtta",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "disque dur.- (le) d'Hàuiptplàtta.",
+      "index": 1112
+    }
+  },
+  {
+    "id": "disque_intervert_bral_1113",
+    "type": "expression_figee",
+    "francais": "disque intervertébral",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "d'Werwelbàndschiwa",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "d'Wirbelendschib",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "disque intervertébral.- (le) d'Werwelbàndschiwa, d'Wirbelendschib.",
+      "index": 1113
+    }
+  },
+  {
+    "id": "distance_focale_1131",
+    "type": "expression_figee",
+    "francais": "distance focale",
+    "article": "(la)",
+    "traductions": [
+      {
+        "alsacien": "d'Brännwitta",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "d'Brännwitte",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "distance focale.- (la) d'Brännwitta, d'Brännwitte.",
+      "index": 1131
+    }
+  },
+  {
+    "id": "distribution_d__lectricit__1144",
+    "type": "expression_figee",
+    "francais": "distribution d'électricité",
+    "article": "(la)",
+    "traductions": [
+      {
+        "alsacien": "d'Schtrohmversorgung",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "d'Schtrohmversorjung",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "distribution d'électricité.- (la) d'Schtrohmversorgung, d'Schtrohmversorjung.",
+      "index": 1144
+    }
+  },
+  {
+    "id": "distribution_d_eau_1145",
+    "type": "expression_figee",
+    "francais": "distribution d'eau",
+    "article": "(la)",
+    "traductions": [
+      {
+        "alsacien": "d'Wàsservertailung",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "d'Wàsserverteilung",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "distribution d'eau. (la) d'Wàsservertailung, d'Wàsserverteilung.",
+      "index": 1145
+    }
+  },
+  {
+    "id": "distribution_de_cadeaux_1146",
+    "type": "expression_figee",
+    "francais": "distribution de cadeaux",
+    "article": "(la)",
+    "traductions": [
+      {
+        "alsacien": "d'Bscharung",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "d'Bescherung",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "distribution de cadeaux.- (la) d'Bscharung, d'Bescherung.",
+      "index": 1146
+    }
+  },
+  {
+    "id": "distribution_des_prix_1147",
+    "type": "expression_figee",
+    "francais": "distribution des prix",
+    "article": "(la)",
+    "traductions": [
+      {
+        "alsacien": "d'Prisüsstailung",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "d'Prissüsteilung",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "distribution des prix.- (la) d'Prisüsstailung, d'Prissüsteilung.",
+      "index": 1147
+    }
+  },
+  {
+    "id": "division_cellulaire_1166",
+    "type": "expression_figee",
+    "francais": "division cellulaire",
+    "article": "(la)",
+    "traductions": [
+      {
+        "alsacien": "d'Zällatailung",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "d'Zelleteilung",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "division cellulaire.- (la) d'Zällatailung, d'Zelleteilung.",
+      "index": 1166
+    }
+  },
+  {
+    "id": "dix_de_coeur_1171",
+    "type": "expression_figee",
+    "francais": "dix de coeur",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "d'r Harz Zehner",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "de Härz Zehner",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "dix de coeur.- (le) d'r Harz Zehner, de Härz Zehner.",
+      "index": 1171
+    }
+  },
+  {
+    "id": "dix_ans_1172",
+    "type": "expression_figee",
+    "francais": "dix ans",
+    "article": "(dans les)",
+    "traductions": [
+      {
+        "alsacien": "zehjarig",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "zehnjärisch",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "dix ans.- (dans les) zehjarig, zehnjärisch.",
+      "index": 1172
+    }
+  },
+  {
+    "id": "docteur_honoris_causa_1180",
+    "type": "expression_figee",
+    "francais": "docteur honoris causa",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "d'r Ehradokter",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "de Ehredokter",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "docteur honoris causa.- (le) d'r Ehradokter, de Ehredokter.",
+      "index": 1180
+    }
+  },
+  {
+    "id": "doigt_de_gant_1188",
+    "type": "expression_figee",
+    "francais": "doigt de gant",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "d'r Dimleng",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "de Dimling",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "doigt de gant.- (le) d'r Dimleng, de Dimling.",
+      "index": 1188
+    }
+  },
+  {
+    "id": "doigt_de_pied_1189",
+    "type": "expression_figee",
+    "francais": "doigt de pied",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "d'r Zeecha",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "de Zische",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "doigt de pied.- (le) d'r Zeecha, de Zische.",
+      "index": 1189
+    }
+  },
+  {
+    "id": "doigts_charnus_1190",
+    "type": "expression_figee",
+    "francais": "doigts charnus",
+    "article": "(les)",
+    "traductions": [
+      {
+        "alsacien": "d'Kroschawerschtlafenger",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "doigts charnus.- (les) d'Kroschawerschtlafenger.",
+      "index": 1190
+    }
+  },
+  {
+    "id": "doigts_de_f_e_1191",
+    "type": "expression_figee",
+    "francais": "doigts de fée",
+    "article": "(les)",
+    "traductions": [
+      {
+        "alsacien": "d'Hewàmafengerla",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "d'Hewàmfingerle",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "doigts de fée.- (les) d'Hewàmafengerla, d'Hewàmfingerle.",
+      "index": 1191
+    }
+  },
+  {
+    "id": "doigts_engourdis_1192",
+    "type": "expression_figee",
+    "francais": "doigts engourdis",
+    "article": "(les)",
+    "traductions": [
+      {
+        "alsacien": "d'Hornegelda",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "d'Hornepelte",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "doigts engourdis.- (les) d'Hornegelda, d'Hornepelte.",
+      "index": 1192
+    }
+  },
+  {
+    "id": "doit_et_avoir_1194",
+    "type": "expression_figee",
+    "francais": "doit et avoir",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "d'r Soll un Hà",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "doit et avoir.- (le) d'r Soll un Hà.",
+      "index": 1194
+    }
+  },
+  {
+    "id": "domaine_d_activit__1197",
+    "type": "expression_figee",
+    "francais": "domaine d'activité",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "s'Betatigungsfald",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "domaine d'activité.- (le) s'Betatigungsfald.",
+      "index": 1197
+    }
+  },
+  {
+    "id": "domaine_rural_1198",
+    "type": "expression_figee",
+    "francais": "domaine rural",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "s'Lànsgüat",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "de Làndsgöt",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "domaine rural.- (le) s'Lànsgüat, de Làndsgöt.",
+      "index": 1198
+    }
+  },
+  {
+    "id": "dommages_et_int_r_ts_1213",
+    "type": "expression_figee",
+    "francais": "dommages et intérêts",
+    "article": "(les)",
+    "traductions": [
+      {
+        "alsacien": "d'r Schàda-n-ärsàtz",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "de Schàde-n-ersàtz",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "dommages et intérêts. (les) d'r Schàda-n-ärsàtz, de Schàde-n-ersàtz.",
+      "index": 1213
+    }
+  },
+  {
+    "id": "donner_du_mal_1224",
+    "type": "expression_figee",
+    "francais": "donner du mal",
+    "article": "(se)",
+    "traductions": [
+      {
+        "alsacien": "sech miaj gah",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "sech àbmurcksa",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "donner du mal.- (se) sech miaj gah, sech àbmurcksa.",
+      "index": 1224
+    }
+  },
+  {
+    "id": "donneur_d_ordres_1227",
+    "type": "expression_figee",
+    "francais": "donneur d'ordres",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "d'r Ufftràgsgawer",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "donneur d'ordres.- (le) d'r Ufftràgsgawer.",
+      "index": 1227
+    }
+  },
+  {
+    "id": "donneur_de_sang_1228",
+    "type": "expression_figee",
+    "francais": "donneur de sang",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "d'r Blüatschpander",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "donneur de sang.- (le) d'r Blüatschpander.",
+      "index": 1228
+    }
+  },
+  {
+    "id": "dos_courb__1241",
+    "type": "expression_figee",
+    "francais": "dos courbé",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "gebuckt",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "bucklig",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "dos courbé.- (le) gebuckt, bucklig.",
+      "index": 1241
+    }
+  },
+  {
+    "id": "dos_d__ne_1242",
+    "type": "expression_figee",
+    "francais": "dos d'âne",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "d'Bodawalla",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "d'r Kàtzabuckel",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "dos d'âne.- (le) d'Bodawalla, d'r Kàtzabuckel.",
+      "index": 1242
+    }
+  },
+  {
+    "id": "dossier_de_candidature_1245",
+    "type": "expression_figee",
+    "francais": "dossier de candidature",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "d'Bewarwungsunterlààg",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "dossier de candidature.- (le) d'Bewarwungsunterlààg.",
+      "index": 1245
+    }
+  },
+  {
+    "id": "double_jeu_1255",
+    "type": "expression_figee",
+    "francais": "double jeu",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "s'Doppelschpeel",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "double jeu.- (le) s'Doppelschpeel.",
+      "index": 1255
+    }
+  },
+  {
+    "id": "double_menton_1256",
+    "type": "expression_figee",
+    "francais": "double menton",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "s'Doppelkehn",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "de làppe",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "double menton.- (le) s'Doppelkehn, de làppe.",
+      "index": 1256
+    }
+  },
+  {
+    "id": "double_sens_1258",
+    "type": "expression_figee",
+    "francais": "double sens",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "zwaidittig",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "zweidittisch",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "zwaigangig",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "zweigängisch",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "double sens.- (le) zwaidittig, zweidittisch, zwaigangig, zweigängisch.",
+      "index": 1258
+    }
+  },
+  {
+    "id": "double_tranchant_1259",
+    "type": "expression_figee",
+    "francais": "double tranchant",
+    "article": "(à)",
+    "traductions": [
+      {
+        "alsacien": "doppelschnidigd",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "doppelschnidisch",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "double tranchant.- (à) doppelschnidigd, doppelschnidisch.",
+      "index": 1259
+    }
+  },
+  {
+    "id": "douleur_morale_1272",
+    "type": "expression_figee",
+    "francais": "douleur morale",
+    "article": "(la)",
+    "traductions": [
+      {
+        "alsacien": "d'r Seelaschmartz",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "douleur morale.- (la) d'r Seelaschmartz.",
+      "index": 1272
+    }
+  },
+  {
+    "id": "douleur_physique_1273",
+    "type": "expression_figee",
+    "francais": "douleur physique",
+    "article": "(la)",
+    "traductions": [
+      {
+        "alsacien": "s'Weh",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "douleur physique.- (la) s'Weh.",
+      "index": 1273
+    }
+  },
+  {
+    "id": "douleurs_articulaire_1274",
+    "type": "expression_figee",
+    "francais": "douleurs articulaire",
+    "article": "(les)",
+    "traductions": [
+      {
+        "alsacien": "d'Gleederschmarza",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "douleurs articulaire.- (les) d'Gleederschmarza.",
+      "index": 1274
+    }
+  },
+  {
+    "id": "douleurs_puerp_rales_1275",
+    "type": "expression_figee",
+    "francais": "douleurs puerpérales",
+    "article": "(les)",
+    "traductions": [
+      {
+        "alsacien": "d'Noohweh",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "douleurs puerpérales.- (les) d'Noohweh.",
+      "index": 1275
+    }
+  },
+  {
+    "id": "dragueur_de_mines_1295",
+    "type": "expression_figee",
+    "francais": "dragueur de mines",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "d'r Minaüacher",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "de Minesöscher",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "dragueur de mines. (le) d'r Minaüacher, de Minesöscher.",
+      "index": 1295
+    }
+  },
+  {
+    "id": "drap_de_lit_1300",
+    "type": "expression_figee",
+    "francais": "drap de lit",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "s'Lihntüach",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "s'Bettösch",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "drap de lit.- (le) s'Lihntüach, s'Bettösch.",
+      "index": 1300
+    }
+  },
+  {
+    "id": "droit_administratif_1313",
+    "type": "expression_figee",
+    "francais": "droit administratif",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "s'Verwàltungsracht",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "s'Werwàltungsrescht",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "droit administratif.- (le) s'Verwàltungsracht, s'Werwàltungsrescht.",
+      "index": 1313
+    }
+  },
+  {
+    "id": "droit_d_auteur_1314",
+    "type": "expression_figee",
+    "francais": "droit d'auteur",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "s'Ürhàwerracht",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "s'Ürhàwerrescht",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "droit d'auteur. (le) s'Ürhàwerracht, s'Ürhàwerrescht.",
+      "index": 1314
+    }
+  },
+  {
+    "id": "droit_de_recours_1315",
+    "type": "expression_figee",
+    "francais": "droit de recours",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "d'r Regrässàschpruch",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "droit de recours.- (le) d'r Regrässàschpruch.",
+      "index": 1315
+    }
+  },
+  {
+    "id": "droit_d__tablissement_1316",
+    "type": "expression_figee",
+    "francais": "droit d'établissement",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "s'Neederlàssungsracht",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "d'Niderlàsungsrecht",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "droit d'établissement.- (le) s'Neederlàssungsracht, d'Niderlàsungsrecht.",
+      "index": 1316
+    }
+  },
+  {
+    "id": "droit_civil_1317",
+    "type": "expression_figee",
+    "francais": "droit civil",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "s'Bergerligaziwilracht",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "s'Berjerlischeziwilrescht",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "droit civil.- (le) s'Bergerligaziwilracht,s'Berjerlischeziwilrescht.",
+      "index": 1317
+    }
+  },
+  {
+    "id": "droit_commercial_1318",
+    "type": "expression_figee",
+    "francais": "droit commercial",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "s'Hàndelsracht",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "s'Hàndelsrecht",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "droit commercial.- (le) s'Hàndelsracht, s'Hàndelsrecht.",
+      "index": 1318
+    }
+  },
+  {
+    "id": "droit_communeautaire_1319",
+    "type": "expression_figee",
+    "francais": "droit communeautaire",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "s'Gmainschàftsracht",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "s'Gmeinschàftsrrescht",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "droit communeautaire.- (le) s'Gmainschàftsracht, s'Gmeinschàftsrrescht.",
+      "index": 1319
+    }
+  },
+  {
+    "id": "droit_constitutionnel_1320",
+    "type": "expression_figee",
+    "francais": "droit constitutionnel",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "s'Verfàssungsracht",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "s'Verfàssungsrescht",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "droit constitutionnel.- (le) s'Verfàssungsracht, s'Verfàssungsrescht.",
+      "index": 1320
+    }
+  },
+  {
+    "id": "droit_coutumier_1321",
+    "type": "expression_figee",
+    "francais": "droit coutumier",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "s'Gwonetsracht",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "s'Gwonetrescht",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "droit coutumier. (le) s'Gwonetsracht, s'Gwonetrescht.",
+      "index": 1321
+    }
+  },
+  {
+    "id": "droit__lectoral_1322",
+    "type": "expression_figee",
+    "francais": "droit électoral",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "s'Wàhlracht",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "s'Wàhlrescht",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "droit électoral. (le) s'Wàhlracht, s'Wàhlrescht.",
+      "index": 1322
+    }
+  },
+  {
+    "id": "droit_de_gr_ve_1323",
+    "type": "expression_figee",
+    "francais": "droit de grève",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "s'Schtraikracht",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "s'Schteikrescht",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "droit de grève.- (le) s'Schtraikracht, s'Schteikrescht.",
+      "index": 1323
+    }
+  },
+  {
+    "id": "droit_de_propri_t__1324",
+    "type": "expression_figee",
+    "francais": "droit de propriété",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "s'Aigatumsracht",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "s'Äijetumsrescht",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "droit de propriété.- (le) s'Aigatumsracht, s'Äijetumsrescht.",
+      "index": 1324
+    }
+  },
+  {
+    "id": "droit_de_regard_1325",
+    "type": "expression_figee",
+    "francais": "droit de regard",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "s' Metgschprachracht",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "s'Mitgschpräschrescht",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "droit de regard.- (le) s' Metgschprachracht, s'Mitgschpräschrescht.",
+      "index": 1325
+    }
+  },
+  {
+    "id": "droit_de_vote_1326",
+    "type": "expression_figee",
+    "francais": "droit de vote",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "s'Schtemmracht",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "s'Schtimmrescht",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "droit de vote.- (le) s'Schtemmracht, s'Schtimmrescht.",
+      "index": 1326
+    }
+  },
+  {
+    "id": "droit_fondamental_1327",
+    "type": "expression_figee",
+    "francais": "droit fondamental",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "s'Grundracht",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "s'Grundrescht",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "droit fondamental.- (le) s'Grundracht,s'Grundrescht.",
+      "index": 1327
+    }
+  },
+  {
+    "id": "droit_p_nal_1328",
+    "type": "expression_figee",
+    "francais": "droit pénal",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "s'Schtrofracht",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "s'Schtroffrescht",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "droit pénal.- (le) s'Schtrofracht, s'Schtroffrescht.",
+      "index": 1328
+    }
+  },
+  {
+    "id": "droit_public_1329",
+    "type": "expression_figee",
+    "francais": "droit public",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "s'Äffentligkaitsracht",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "s'Äffentlischkeitsrescht",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "droit public.- (le) s'Äffentligkaitsracht, s'Äffentlischkeitsrescht.",
+      "index": 1329
+    }
+  },
+  {
+    "id": "droits_de_l_homme_1330",
+    "type": "expression_figee",
+    "francais": "droits de l'homme",
+    "article": "(les)",
+    "traductions": [
+      {
+        "alsacien": "d'Mänscharachta",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "s'Mänscherescht",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "droits de l'homme.- (les) d'Mänscharachta, s'Mänscherescht.",
+      "index": 1330
+    }
+  },
+  {
+    "id": "dur___la_d_tente_1345",
+    "type": "expression_figee",
+    "francais": "dur à la détente",
+    "article": "(être)",
+    "traductions": [
+      {
+        "alsacien": "nohzendung hà",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "dur à la détente.- (être) nohzendung hà.",
+      "index": 1345
+    }
+  },
+  {
+    "id": "dynastie_r_gnante_1354",
+    "type": "expression_figee",
+    "francais": "dynastie règnante",
+    "article": "(la)",
+    "traductions": [
+      {
+        "alsacien": "s'Härschergschlacht",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "s'Herschergschlescht",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "dynastie règnante.- (la) s'Härschergschlacht, s'Herschergschlescht.",
+      "index": 1354
+    }
+  }
+]

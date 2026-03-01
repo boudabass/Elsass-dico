@@ -28,7 +28,7 @@ export default function LoginPage() {
     <div className="flex min-h-screen items-center justify-center bg-gray-50 p-4">
       <Card className="w-full max-w-md">
         <CardHeader className="text-center">
-          <CardTitle>Game Center Admin</CardTitle>
+          <CardTitle>Connexion</CardTitle>
         </CardHeader>
         <CardContent>
           <Auth

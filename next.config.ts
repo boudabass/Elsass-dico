@@ -15,7 +15,7 @@ const nextConfig: NextConfig = {
   async rewrites() {
     const rewrites = [];
 
-    // Exemple de Proxy API externe pour contourner les CORS
+    // Proxy API externe pour contourner les CORS (si nécessaire)
     const externalApiUrl = process.env.EXTERNAL_API_URL;
 
     if (externalApiUrl) {

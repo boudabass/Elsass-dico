@@ -33,6 +33,39 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
   const supabase = createClient();
 
   useEffect(() => {
+    // Initialisation au montage - récupérer la session existante
+    const initializeAuth = async () => {
+      const { data: { session } } = await supabase.auth.getSession();
+      if (session?.user) {
+        setSession(session);
+        setUser(session.user);
+
+        // Récupérer le rôle depuis profiles
+        try {
+          const { data: profile, error } = await supabase
+            .from("profiles")
+            .select("role")
+            .eq("id", session.user.id)
+            .single();
+
+          if (error) {
+            console.warn("[Auth] Profile fetch error on init:", error.message);
+            setRole("user");
+          } else {
+            setRole(profile?.role ?? "user");
+            console.log(`[Auth] Initial role: ${profile?.role ?? "user"}`);
+          }
+        } catch (err) {
+          console.error("[Auth] Unexpected profile error on init:", err);
+          setRole("user");
+        }
+      }
+      setIsLoading(false);
+    };
+
+    initializeAuth();
+
+    // Écouter les changements d'état d'authentification
     const {
       data: { subscription },
     } = supabase.auth.onAuthStateChange(async (event, session) => {
@@ -41,19 +74,7 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
       setUser(session?.user ?? null);
 
       if (session?.user) {
-        const metadataRole = session.user.user_metadata?.role;
-        console.log(`[Auth] User ID: ${session.user.id}. Metadata Role: ${metadataRole || 'None'}`);
-
-        // Priorité 1: Utiliser le rôle des métadonnées s'il existe (Rapide, pas de requête)
-        if (metadataRole) {
-          setRole(metadataRole);
-          setIsLoading(false);
-          console.log(`[Auth] Role set from metadata: ${metadataRole}`);
-        }
-
-        // Priorité 2: Vérifier la table profiles (Plus fiable mais plus lent)
-        // On le fait même si on a les métadonnées pour être sûr d'être à jour, 
-        // mais on ne bloque pas l'UI si on a déjà un rôle.
+        // Récupérer le rôle depuis profiles
         try {
           const { data: profile, error } = await supabase
             .from("profiles")
@@ -63,24 +84,20 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
 
           if (error) {
             console.warn("[Auth] Profile fetch error:", error.message);
-            if (!metadataRole) setRole("user");
+            setRole("user");
           } else {
-            const finalRole = profile?.role ?? "user";
-            console.log(`[Auth] Profile fetched. Role: ${finalRole}`);
-            setRole(finalRole);
+            setRole(profile?.role ?? "user");
+            console.log(`[Auth] Role set: ${profile?.role ?? "user"}`);
           }
         } catch (err) {
           console.error("[Auth] Unexpected profile error:", err);
-          if (!metadataRole) setRole("user");
-        } finally {
-          setIsLoading(false);
-          console.log("[Auth] Auth lifecycle ready.");
+          setRole("user");
         }
       } else {
-        console.log("[Auth] No session user found.");
         setRole(null);
-        setIsLoading(false);
       }
+
+      setIsLoading(false);
 
       if (event === 'SIGNED_OUT') {
         router.refresh();

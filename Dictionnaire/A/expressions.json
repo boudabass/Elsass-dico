@@ -1,0 +1,8773 @@
+[
+  {
+    "id": "__quelle_heure_2",
+    "type": "expression_figee",
+    "francais": "à quelle heure",
+    "article": "",
+    "traductions": [
+      {
+        "alsacien": "àm wäll Zitt",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "um wälli Zitt",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "à quelle heure.- àm wäll Zitt, um wälli Zitt.",
+      "index": 2
+    }
+  },
+  {
+    "id": "__grand_peine_3",
+    "type": "expression_figee",
+    "francais": "à grand-peine",
+    "article": "",
+    "traductions": [
+      {
+        "alsacien": "met grooser Miaj",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "mit grosser meij",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "met Miaj un Noot",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "mit meij und Not",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "met knàpper Not",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "à grand-peine.- met grooser Miaj, mit grosser meij, met Miaj un Noot, mit meij und Not, met knàpper Not.",
+      "index": 3
+    }
+  },
+  {
+    "id": "__la_fra_che_4",
+    "type": "expression_figee",
+    "francais": "à la fraîche",
+    "article": "",
+    "traductions": [
+      {
+        "alsacien": "en d'r Morgafrescha",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "in de Morjafresche",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "à la fraîche.- en d'r Morgafrescha, in de Morjafresche.",
+      "index": 4
+    }
+  },
+  {
+    "id": "__la_longue_5",
+    "type": "expression_figee",
+    "francais": "à la longue",
+    "article": "",
+    "traductions": [
+      {
+        "alsacien": "uff d'Dür",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "à la longue.- uff d'Dür.",
+      "index": 5
+    }
+  },
+  {
+    "id": "__mes_frais_6",
+    "type": "expression_figee",
+    "francais": "à mes frais",
+    "article": "",
+    "traductions": [
+      {
+        "alsacien": "uff mina koschta",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "à mes frais.- uff mina koschta.",
+      "index": 6
+    }
+  },
+  {
+    "id": "abandon_de_famille_11",
+    "type": "expression_figee",
+    "francais": "abandon de famille",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "vernochlassigung vu d'r Unterhàltungspflecht",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "abandon de famille.- (l') vernochlassigung vu d'r Unterhàltungspflecht.",
+      "index": 11
+    }
+  },
+  {
+    "id": "abattage___domicile_19",
+    "type": "expression_figee",
+    "francais": "abattage à domicile",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "s'Haimmätzgna",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "s'Hüsmetze",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "abattage à domicile.- (l') s'Haimmätzgna, s'Hüsmetze.",
+      "index": 19
+    }
+  },
+  {
+    "id": "abattage_d_urgence_20",
+    "type": "expression_figee",
+    "francais": "abattage d'urgence",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'Notschlàchtung",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "s'Noodmetza",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "abattage d'urgence.- (l') d'Notschlàchtung, s'Noodmetza.",
+      "index": 20
+    }
+  },
+  {
+    "id": "abc_s_pustuleux_31",
+    "type": "expression_figee",
+    "francais": "abcès pustuleux",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "s'Schühmläffelgschwar",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "s'Kochläffelgschwar",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "abcès pustuleux.- (l') s'Schühmläffelgschwar, s'Kochläffelgschwar.",
+      "index": 31
+    }
+  },
+  {
+    "id": "abonder_dans_mon_sens_51",
+    "type": "expression_figee",
+    "francais": "abonder dans mon sens",
+    "article": "",
+    "traductions": [
+      {
+        "alsacien": "gànz miner Mainung seh",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "abonder dans mon sens.- gànz miner Mainung seh.",
+      "index": 51
+    }
+  },
+  {
+    "id": "__bon_droit_52",
+    "type": "expression_figee",
+    "francais": "à bon droit",
+    "article": "",
+    "traductions": [
+      {
+        "alsacien": "met Fug un Racht",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "met Fug und Räscht",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "à bon droit.- met Fug un Racht, met Fug und Räscht.",
+      "index": 52
+    }
+  },
+  {
+    "id": "abri_de_jardin_78",
+    "type": "expression_figee",
+    "francais": "abri de jardin",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "s'Gàrtahettla",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "de gàrte-n-ànlàje",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "abri de jardin.- (l') s'Gàrtahettla, de gàrte-n-ànlàje.",
+      "index": 78
+    }
+  },
+  {
+    "id": "absolument_rien_92",
+    "type": "expression_figee",
+    "francais": "absolument rien",
+    "article": "",
+    "traductions": [
+      {
+        "alsacien": "gàr nix",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "àse nix",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "absolument rien.- gàr nix, àse nix.",
+      "index": 92
+    }
+  },
+  {
+    "id": "absolument_s_r_93",
+    "type": "expression_figee",
+    "francais": "absolument sûr",
+    "article": "",
+    "traductions": [
+      {
+        "alsacien": "totsecher",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "dodsischer",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "absolument sûr.- totsecher, dodsischer.",
+      "index": 93
+    }
+  },
+  {
+    "id": "acc_der___un_d_sir_126",
+    "type": "expression_figee",
+    "francais": "accéder à un désir",
+    "article": "",
+    "traductions": [
+      {
+        "alsacien": "a Wunsch ärfella",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "accéder à un désir.- a Wunsch ärfella.",
+      "index": 126
+    }
+  },
+  {
+    "id": "accent_aigu_130",
+    "type": "expression_figee",
+    "francais": "accent aigu",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'r Akut",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "accent aigu.- (l') d'r Akut.",
+      "index": 130
+    }
+  },
+  {
+    "id": "accent_grave_131",
+    "type": "expression_figee",
+    "francais": "accent grave",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'r Gravis",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "accent grave.- (l') d'r Gravis",
+      "index": 131
+    }
+  },
+  {
+    "id": "accent_circonflexe_132",
+    "type": "expression_figee",
+    "francais": "accent circonflexe",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'r Zirkumfläx",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "accent circonflexe.- (l') d'r Zirkumfläx.",
+      "index": 132
+    }
+  },
+  {
+    "id": "acc_s_de_col_re_139",
+    "type": "expression_figee",
+    "francais": "accès de colère",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'r Wüatüssbruch",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "d'r Wüatàfàll",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "d'r Wötànnfàll",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "d'r Garzorn",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "accès de colère.- (l') d'r Wüatüssbruch, d'r Wüatàfàll, d'r Wötànnfàll, d'r Garzorn.",
+      "index": 139
+    }
+  },
+  {
+    "id": "accession_au_tr_ne_142",
+    "type": "expression_figee",
+    "francais": "accession au trône",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'Troonbeschtigung",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "d'Tronnbeschtijung",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "accession au trône.- (l') d'Troonbeschtigung, d'Tronnbeschtijung.",
+      "index": 142
+    }
+  },
+  {
+    "id": "accident_d_avion_148",
+    "type": "expression_figee",
+    "francais": "accident d'avion",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "s'Fliagerungleck",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "s'Flejerungleck",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "accident d'avion.- (l') s'Fliagerungleck, s'Flejerungleck.",
+      "index": 148
+    }
+  },
+  {
+    "id": "accident_de_chemin_de_fer_149",
+    "type": "expression_figee",
+    "francais": "accident de chemin de fer",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "s'Isabàhnungleck",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "accident de chemin de fer.- (l') s'Isabàhnungleck.",
+      "index": 149
+    }
+  },
+  {
+    "id": "accident_de_la_route_150",
+    "type": "expression_figee",
+    "francais": "accident de la route",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'r Schtroosa-n-unfàll",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "accident de la route.- (l') d'r Schtroosa-n-unfàll.",
+      "index": 150
+    }
+  },
+  {
+    "id": "accident_de_voiture_151",
+    "type": "expression_figee",
+    "francais": "accident de voiture",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'r Otounfàll",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "s'Àutounfàll",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "accident de voiture.- (l') d'r Otounfàll, s'Àutounfàll.",
+      "index": 151
+    }
+  },
+  {
+    "id": "accident_du_travail_152",
+    "type": "expression_figee",
+    "francais": "accident du travail",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'r Àrwetsunfàll",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "De Àrweitsunfàll",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "accident du travail.- (l') d'r Àrwetsunfàll, De Àrweitsunfàll.",
+      "index": 152
+    }
+  },
+  {
+    "id": "accord_de_non_bellig_rence_170",
+    "type": "expression_figee",
+    "francais": "accord de non belligérence",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "s'Gwàltverzechtungsàbkumma",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "Gewàltsverzeschtungsàbkumme",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "accord de non belligérence.- (l') s'Gwàltverzechtungsàbkumma, Gewàltsverzeschtungsàbkumme.",
+      "index": 170
+    }
+  },
+  {
+    "id": "accus__de_r_ception_204",
+    "type": "expression_figee",
+    "francais": "accusé de réception",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d' Ämpfàngsbeschtadigung",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "accusé de réception.- (l') d' Ämpfàngsbeschtadigung.",
+      "index": 204
+    }
+  },
+  {
+    "id": "ac_tate_d_aluminium_209",
+    "type": "expression_figee",
+    "francais": "acétate d'aluminium",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'Ässigsüratoonarda",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "acétate d'aluminium.- (l') d'Ässigsüratoonarda.",
+      "index": 209
+    }
+  },
+  {
+    "id": "ache_de_montagne_214",
+    "type": "expression_figee",
+    "francais": "ache de montagne",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "s'Maggikrüt",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "de Lobschtock",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "s'Liabschtäckla",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "ache de montagne.- (l') s'Maggikrüt, de Lobschtock, s'Liabschtäckla.",
+      "index": 214
+    }
+  },
+  {
+    "id": "acheter___cr_dit_217",
+    "type": "expression_figee",
+    "francais": "acheter à crédit",
+    "article": "",
+    "traductions": [
+      {
+        "alsacien": "uff d'r Bangel kàuifa",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "uff Bums köife",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "àbschtottra",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "acheter à crédit.- uff d'r Bangel kàuifa, uff Bums köife, àbschtottra.",
+      "index": 217
+    }
+  },
+  {
+    "id": "achill_e_mille_feuille_222",
+    "type": "expression_figee",
+    "francais": "achillée mille-feuille",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'Schoofgàrwa",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "d'Schofgarwe.-",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "achillée mille-feuille.- (l') d'Schoofgàrwa, d'Schofgarwe.-",
+      "index": 222
+    }
+  },
+  {
+    "id": "acide_chlorhydrique_226",
+    "type": "expression_figee",
+    "francais": "acide chlorhydrique",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'Sàlzsira",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "di Sàlzsirr",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "acide chlorhydrique.- (l') d'Sàlzsira, di Sàlzsirr.",
+      "index": 226
+    }
+  },
+  {
+    "id": "acide_cilicique_227",
+    "type": "expression_figee",
+    "francais": "acide cilicique",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'Keeselsira",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "d'Kesselsirr",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "acide cilicique.- (l') d'Keeselsira, d'Kesselsirr.",
+      "index": 227
+    }
+  },
+  {
+    "id": "acide_gastrique_228",
+    "type": "expression_figee",
+    "francais": "acide gastrique",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'Mààgasira",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "di Mawasirr s'Hartzwàsser",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "acide gastrique.- (l') d'Mààgasira, di Mawasirr s'Hartzwàsser.",
+      "index": 228
+    }
+  },
+  {
+    "id": "acide_gras_229",
+    "type": "expression_figee",
+    "francais": "acide gras",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'Fattsira",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "acide gras.- (l') d'Fattsira.",
+      "index": 229
+    }
+  },
+  {
+    "id": "acide_nitrique_230",
+    "type": "expression_figee",
+    "francais": "acide nitrique",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'Sàlpetersira",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "acide nitrique.- (l') d'Sàlpetersira.",
+      "index": 230
+    }
+  },
+  {
+    "id": "acide_prussique_231",
+    "type": "expression_figee",
+    "francais": "acide prussique",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'Blàuisira",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "d'Blöisirr",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "acide prussique.- (l') d'Blàuisira, d'Blöisirr.",
+      "index": 231
+    }
+  },
+  {
+    "id": "acide_salicilique_232",
+    "type": "expression_figee",
+    "francais": "acide salicilique",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'Schpirsira",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "acide salicilique.- (l') d'Schpirsira.",
+      "index": 232
+    }
+  },
+  {
+    "id": "acide_tannique_233",
+    "type": "expression_figee",
+    "francais": "acide tannique",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "Garbsira",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "acide tannique.- (l') Garbsira.",
+      "index": 233
+    }
+  },
+  {
+    "id": "acqu_rir_le_droit_de_cit__247",
+    "type": "expression_figee",
+    "francais": "acquérir le droit de cité",
+    "article": "",
+    "traductions": [
+      {
+        "alsacien": "s'Ibergerungsracht ärwarwa",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "s'Inberijerrungsräscht ärwerwe",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "acquérir le droit de cité.- s'Ibergerungsracht ärwarwa, s'Inberijerrungsräscht ärwerwe.",
+      "index": 247
+    }
+  },
+  {
+    "id": "acquis_d_avance_251",
+    "type": "expression_figee",
+    "francais": "acquis d'avance",
+    "article": "(d')",
+    "traductions": [
+      {
+        "alsacien": "d'Vorärwarwung",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "de Heeb",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "acquis d'avance.- (d') d'Vorärwarwung, de Heeb.",
+      "index": 251
+    }
+  },
+  {
+    "id": "acquit_de_conscience_254",
+    "type": "expression_figee",
+    "francais": "acquit de conscience",
+    "article": "(par)",
+    "traductions": [
+      {
+        "alsacien": "zu Gwessensberiawigung",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "acquit de conscience.- (par) zu Gwessensberiawigung.",
+      "index": 254
+    }
+  },
+  {
+    "id": "acte_constitutif_262",
+    "type": "expression_figee",
+    "francais": "acte constitutif",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'Grendungsürkunda",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "acte constitutif.- (l') d'Grendungsürkunda.",
+      "index": 262
+    }
+  },
+  {
+    "id": "acte_d_adh_sion_263",
+    "type": "expression_figee",
+    "francais": "acte d'adhésion",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'r Bitrettschin",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "acte d'adhésion.- (l') d'r Bitrettschin.",
+      "index": 263
+    }
+  },
+  {
+    "id": "acte_de_bapt_me_264",
+    "type": "expression_figee",
+    "francais": "acte de baptême",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'r Daifschin",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "acte de baptême.- (l') d'r Daifschin.",
+      "index": 264
+    }
+  },
+  {
+    "id": "acte_de_bravoure_265",
+    "type": "expression_figee",
+    "francais": "acte de bravoure",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d' Müattàt",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "d'Möttàt",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "acte de bravoure.- (l') d' Müattàt, d'Möttàt.",
+      "index": 265
+    }
+  },
+  {
+    "id": "acte_de_charit__266",
+    "type": "expression_figee",
+    "francais": "acte de charité",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'r Nachschtaliawabewis",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "acte de charité.- (l') d'r Nachschtaliawabewis.",
+      "index": 266
+    }
+  },
+  {
+    "id": "acte_de_d_c_s_267",
+    "type": "expression_figee",
+    "francais": "acte de décès",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'r Totaschin",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "acte de décès.- (l') d'r Totaschin.",
+      "index": 267
+    }
+  },
+  {
+    "id": "acte_de_mariage_268",
+    "type": "expression_figee",
+    "francais": "acte de mariage",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'r Tràuischin",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "d'r Hirotsvertràg",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "acte de mariage.- (l') d'r Tràuischin, d'r Hirotsvertràg.",
+      "index": 268
+    }
+  },
+  {
+    "id": "acte_de_naissance_269",
+    "type": "expression_figee",
+    "francais": "acte de naissance",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'r Geburtsschin",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "acte de naissance.- (l') d'r Geburtsschin.",
+      "index": 269
+    }
+  },
+  {
+    "id": "acte_de_pr_sence_270",
+    "type": "expression_figee",
+    "francais": "acte de présence",
+    "article": "(faire)",
+    "traductions": [
+      {
+        "alsacien": "sech kurz zaiga",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "sisch schnäll zäije",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "acte de présence.- (faire) sech kurz zaiga, sisch schnäll zäije.",
+      "index": 270
+    }
+  },
+  {
+    "id": "acte_de_terrorisme_271",
+    "type": "expression_figee",
+    "francais": "acte de terrorisme",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "s'Tärrorunternamma",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "acte de terrorisme.- (l') s'Tärrorunternamma.",
+      "index": 271
+    }
+  },
+  {
+    "id": "acte_de_vandalisme_272",
+    "type": "expression_figee",
+    "francais": "acte de vandalisme",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'r Zärschterungswüat",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "acte de vandalisme.- (l') d'r Zärschterungswüat.",
+      "index": 272
+    }
+  },
+  {
+    "id": "acte_de_violence_273",
+    "type": "expression_figee",
+    "francais": "acte de violence",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'Gwàlttàt",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "acte de violence.- (l') d'Gwàlttàt.",
+      "index": 273
+    }
+  },
+  {
+    "id": "acte_d_sesp_r__274",
+    "type": "expression_figee",
+    "francais": "acte désespéré",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'Verziflungstàt",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "acte désespéré.- (l') d'Verziflungstàt.",
+      "index": 274
+    }
+  },
+  {
+    "id": "acte_d__tat_civil_275",
+    "type": "expression_figee",
+    "francais": "acte d'état civil",
+    "article": "(d'r)",
+    "traductions": [
+      {
+        "alsacien": "d'r Schtàndesàmtregischterüsszug",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "acte d'état civil.- (d'r) d'r Schtàndesàmtregischterüsszug.",
+      "index": 275
+    }
+  },
+  {
+    "id": "acte_final_276",
+    "type": "expression_figee",
+    "francais": "acte final",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'r Schlussàkt",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "acte final.- (l') d'r Schlussàkt.",
+      "index": 276
+    }
+  },
+  {
+    "id": "acte_gratuit_277",
+    "type": "expression_figee",
+    "francais": "acte gratuit",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'Unbegrendeda Hàndlung",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "acte gratuit.- (l') d'Unbegrendeda Hàndlung.",
+      "index": 277
+    }
+  },
+  {
+    "id": "acte_h_ro_que_278",
+    "type": "expression_figee",
+    "francais": "acte héroïque",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'Häldatàt",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "acte héroïque.- (l') d'Häldatàt.",
+      "index": 278
+    }
+  },
+  {
+    "id": "acte_obsessionnel_279",
+    "type": "expression_figee",
+    "francais": "acte obsessionnel",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'Zwàngshàndlung",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "acte obsessionnel.- (l') d'Zwàngshàndlung.",
+      "index": 279
+    }
+  },
+  {
+    "id": "acteur_principal_281",
+    "type": "expression_figee",
+    "francais": "acteur principal",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'r Hàuiptdàrschtäller",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "acteur principal.- (l') d'r Hàuiptdàrschtäller.",
+      "index": 281
+    }
+  },
+  {
+    "id": "action_au_porteur_285",
+    "type": "expression_figee",
+    "francais": "action au porteur",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'r Ennhàweràtailsschin",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "action au porteur.- (l') d'r Ennhàweràtailsschin.",
+      "index": 285
+    }
+  },
+  {
+    "id": "action_judiciaire_286",
+    "type": "expression_figee",
+    "francais": "action judiciaire",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "s'Grechtsverfàhra",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "action judiciaire.- (l') s'Grechtsverfàhra.",
+      "index": 286
+    }
+  },
+  {
+    "id": "action_de_gr_ce_287",
+    "type": "expression_figee",
+    "francais": "action de grâce",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'Dànksàgung",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "action de grâce.- (l') d'Dànksàgung.",
+      "index": 287
+    }
+  },
+  {
+    "id": "action_de_planter_des_pieux_288",
+    "type": "expression_figee",
+    "francais": "action de planter des pieux",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "s'Ipfohla",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "de Schtiket",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "action de planter des pieux.- (l') s'Ipfohla, de Schtiket.",
+      "index": 288
+    }
+  },
+  {
+    "id": "actionner_le_poussoir_290",
+    "type": "expression_figee",
+    "francais": "actionner le poussoir",
+    "article": "",
+    "traductions": [
+      {
+        "alsacien": "uffdrucka",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "uffdrucke",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "actionner le poussoir.- uffdrucka, uffdrucke.",
+      "index": 290
+    }
+  },
+  {
+    "id": "action_nominative_291",
+    "type": "expression_figee",
+    "francais": "action nominative",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'r Nàmensàtailschin",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "action nominative.- (l') d'r Nàmensàtailschin.",
+      "index": 291
+    }
+  },
+  {
+    "id": "action_ordinaire_292",
+    "type": "expression_figee",
+    "francais": "action ordinaire",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'r Schtàmmàtailschin",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "action ordinaire.- (l') d'r Schtàmmàtailschin.",
+      "index": 292
+    }
+  },
+  {
+    "id": "action_syndicale_293",
+    "type": "expression_figee",
+    "francais": "action syndicale",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'r Gwarkschàftskàmpf",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "action syndicale.- (l') d'r Gwarkschàftskàmpf.",
+      "index": 293
+    }
+  },
+  {
+    "id": "activit__h_teli_re_298",
+    "type": "expression_figee",
+    "francais": "activité hôtelière",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'Wertaräi",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "d'Wirtei",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "activité hôtelière.- (l') d'Wertaräi, d'Wirtei.",
+      "index": 298
+    }
+  },
+  {
+    "id": "activit__intense_299",
+    "type": "expression_figee",
+    "francais": "activité intense",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'r Hochbetrib",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "activité intense.- (l') d'r Hochbetrib.",
+      "index": 299
+    }
+  },
+  {
+    "id": "acuit__c_r_brale_307",
+    "type": "expression_figee",
+    "francais": "acuité cérébrale",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'Gaischtesschärfa",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "acuité cérébrale.- (l') d'Gaischtesschärfa.",
+      "index": 307
+    }
+  },
+  {
+    "id": "acuit__visuelle_308",
+    "type": "expression_figee",
+    "francais": "acuité visuelle",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "s'Sahvermeega",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "s'Sähnvermeije",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "acuité visuelle.- (l') s'Sahvermeega, s'Sähnvermeije.",
+      "index": 308
+    }
+  },
+  {
+    "id": "adduction_d_eau_317",
+    "type": "expression_figee",
+    "francais": "adduction d'eau",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "Wàsseràschluss",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "adduction d'eau.- (l') Wàsseràschluss.",
+      "index": 317
+    }
+  },
+  {
+    "id": "admettant_que_338",
+    "type": "expression_figee",
+    "francais": "admettant que",
+    "article": "(en)",
+    "traductions": [
+      {
+        "alsacien": "vorüsgsätzt àss",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "admettant que.- (en) vorüsgsätzt àss.",
+      "index": 338
+    }
+  },
+  {
+    "id": "administrateur_fiduciaire_341",
+    "type": "expression_figee",
+    "francais": "administrateur fiduciaire",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'r Träihander",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "administrateur fiduciaire.- (l') d'r Träihander.",
+      "index": 341
+    }
+  },
+  {
+    "id": "adonide_d__t__352",
+    "type": "expression_figee",
+    "francais": "adonide d'été",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "s'Blüatträpfla",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "s'Blöttrepfel",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "adonide d'été.- (l') s'Blüatträpfla, s'Blöttrepfel.",
+      "index": 352
+    }
+  },
+  {
+    "id": "adoration_perp_tuelle_356",
+    "type": "expression_figee",
+    "francais": "adoration perpétuelle",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'Ewiga-n-Àbattung",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "di Ewischiànbetung",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "adoration perpétuelle.- (l') d'Ewiga-n-Àbattung, di Ewischiànbetung.",
+      "index": 356
+    }
+  },
+  {
+    "id": "adresse_t_l_phonique_362",
+    "type": "expression_figee",
+    "francais": "adresse téléphonique",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'Farnschprachàschreft",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "adresse téléphonique.- (l') d'Farnschprachàschreft.",
+      "index": 362
+    }
+  },
+  {
+    "id": "adresse_du_mail_363",
+    "type": "expression_figee",
+    "francais": "adresse du mail",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'Eläktronischaposchtàschreft",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "adresse du mail.- (l') d'Eläktronischaposchtàschreft.",
+      "index": 363
+    }
+  },
+  {
+    "id": "adroit_personnage_367",
+    "type": "expression_figee",
+    "francais": "adroit personnage",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'r Schlàuimaier",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "de Fissigügges",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "adroit personnage.- (l') d'r Schlàuimaier, de Fissigügges.",
+      "index": 367
+    }
+  },
+  {
+    "id": "advienne_que_pourra_378",
+    "type": "expression_figee",
+    "francais": "advienne que pourra",
+    "article": "",
+    "traductions": [
+      {
+        "alsacien": "kummt wàss well",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "advienne que pourra.- kummt wàss well.",
+      "index": 378
+    }
+  },
+  {
+    "id": "affaire_de_go_t_405",
+    "type": "expression_figee",
+    "francais": "affaire de goût",
+    "article": "(c'est une)",
+    "traductions": [
+      {
+        "alsacien": "s'esch a gschmàcksàch",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "affaire de goût.- (c'est une) s'esch a gschmàcksàch.",
+      "index": 405
+    }
+  },
+  {
+    "id": "affaire_priv_e_406",
+    "type": "expression_figee",
+    "francais": "affaire privée",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'Privàtàglagahait",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "affaire privée.- (l') d'Privàtàglagahait.",
+      "index": 406
+    }
+  },
+  {
+    "id": "affaires_d_hommes_407",
+    "type": "expression_figee",
+    "francais": "affaires d'hommes",
+    "article": "(les )",
+    "traductions": [
+      {
+        "alsacien": "d'Mànnersàch",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "affaires d'hommes.- (les ) d'Mànnersàch.",
+      "index": 407
+    }
+  },
+  {
+    "id": "affaires_d_honneur_408",
+    "type": "expression_figee",
+    "francais": "affaires d'honneur",
+    "article": "(les )",
+    "traductions": [
+      {
+        "alsacien": "d'Ehrasàch",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "affaires d'honneur.- (les ) d'Ehrasàch.",
+      "index": 408
+    }
+  },
+  {
+    "id": "affaires__trang_res_409",
+    "type": "expression_figee",
+    "francais": "affaires étrangères",
+    "article": "(les)",
+    "traductions": [
+      {
+        "alsacien": "d'Üsserpolitik",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "dÜsswartiga Àglagahaita",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "affaires étrangères.- (les) d'Üsserpolitik, dÜsswartiga Àglagahaita.",
+      "index": 409
+    }
+  },
+  {
+    "id": "affection_cardiaque_417",
+    "type": "expression_figee",
+    "francais": "affection cardiaque",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "s'Harzlida",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "s'Härzlidde",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "affection cardiaque.- (l') s'Harzlida, s'Härzlidde.",
+      "index": 417
+    }
+  },
+  {
+    "id": "affection_cutan_e_418",
+    "type": "expression_figee",
+    "francais": "affection cutanée",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'Hüttkrànket",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "affection cutanée.- (l') d'Hüttkrànket.",
+      "index": 418
+    }
+  },
+  {
+    "id": "affoler_un_animal_448",
+    "type": "expression_figee",
+    "francais": "affoler un animal",
+    "article": "",
+    "traductions": [
+      {
+        "alsacien": "vergälschtra",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "vergelschtere",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "affoler un animal.- vergälschtra, vergelschtere.",
+      "index": 448
+    }
+  },
+  {
+    "id": "__gauche_466",
+    "type": "expression_figee",
+    "francais": "à gauche",
+    "article": "(aller/mettre)",
+    "traductions": [
+      {
+        "alsacien": "Lenks umma",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "uff d'Sitta schàffa",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "uff d'Sitt schàfe",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "à gauche.- (aller/mettre) Lenks umma, uff d'Sitta schàffa, uff d'Sitt schàfe.",
+      "index": 466
+    }
+  },
+  {
+    "id": "_ge_canonique_470",
+    "type": "expression_figee",
+    "francais": "âge canonique",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "s'Schwowa-n-àlter",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "âge canonique.- (l') s'Schwowa-n-àlter.",
+      "index": 470
+    }
+  },
+  {
+    "id": "_ge_critique_471",
+    "type": "expression_figee",
+    "francais": "âge critique",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'Wackseljohra",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "d'Wäckseljohre",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "âge critique.- (l') d'Wackseljohra, d'Wäckseljohre.",
+      "index": 471
+    }
+  },
+  {
+    "id": "age_de_charrue_472",
+    "type": "expression_figee",
+    "francais": "age de charrue",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'r Pflüagbàuim",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "de Grindel",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "d'r Pflüagbàlka",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "age de charrue.- (l') d'r Pflüagbàuim, de Grindel, d'r Pflüagbàlka.",
+      "index": 472
+    }
+  },
+  {
+    "id": "_ge_de_fer_473",
+    "type": "expression_figee",
+    "francais": "âge de fer",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'Isazitt",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "âge de fer.- (l') d'Isazitt.",
+      "index": 473
+    }
+  },
+  {
+    "id": "_ge_de_glace_474",
+    "type": "expression_figee",
+    "francais": "âge de glace",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'Isszitt",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "âge de glace.- (l') d'Isszitt.",
+      "index": 474
+    }
+  },
+  {
+    "id": "_ge_de_marcher___quatre_pattes_475",
+    "type": "expression_figee",
+    "francais": "âge de marcher à quatre pattes",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "s'Krowelàlter",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "âge de marcher à quatre pattes.- (l') s'Krowelàlter.",
+      "index": 475
+    }
+  },
+  {
+    "id": "_ge_de_pierre_476",
+    "type": "expression_figee",
+    "francais": "âge de pierre",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'Schtaizitt",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "s' Schtaijàlter",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "âge de pierre.- (l') d'Schtaizitt, s' Schtaijàlter.",
+      "index": 476
+    }
+  },
+  {
+    "id": "_ge_ingrat_477",
+    "type": "expression_figee",
+    "francais": "âge ingrat",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'Flegeljohra",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "d' Bangeljohra",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "d'Bängeljohre",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "âge ingrat.- (l') d'Flegeljohra, d' Bangeljohra, d'Bängeljohre.",
+      "index": 477
+    }
+  },
+  {
+    "id": "_ge_limite_478",
+    "type": "expression_figee",
+    "francais": "âge limite",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'Àltersgranza",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "d'Àltersgränz",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "âge limite.- (l') d'Àltersgranza, d'Àltersgränz.",
+      "index": 478
+    }
+  },
+  {
+    "id": "_ge_scolaire_479",
+    "type": "expression_figee",
+    "francais": "âge scolaire",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "schüalpflechtig",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "schölpflechtisch",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "âge scolaire.- (l') schüalpflechtig, schölpflechtisch.",
+      "index": 479
+    }
+  },
+  {
+    "id": "agence_matrimoniale_481",
+    "type": "expression_figee",
+    "francais": "agence matrimoniale",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'Hirotvermettlungsagentür",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "agence matrimoniale.- (l') d'Hirotvermettlungsagentür.",
+      "index": 481
+    }
+  },
+  {
+    "id": "agence_nationale_pour_l_emploi_483",
+    "type": "expression_figee",
+    "francais": "agence nationale pour l'emploi",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "s'Àrwetsàmt",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "agence nationale pour l'emploi.- (l') s'Àrwetsàmt.",
+      "index": 483
+    }
+  },
+  {
+    "id": "agence_de_publicit__484",
+    "type": "expression_figee",
+    "francais": "agence de publicité",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'Warwungsàgentür",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "agence de publicité.- (l') d'Warwungsàgentür.",
+      "index": 484
+    }
+  },
+  {
+    "id": "agence_de_mariage_485",
+    "type": "expression_figee",
+    "francais": "agence de mariage",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "D'Hirotvermettlungsàgentür",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "agence de mariage.- (l') D'Hirotvermettlungsàgentür.",
+      "index": 485
+    }
+  },
+  {
+    "id": "agence_de_voyage_486",
+    "type": "expression_figee",
+    "francais": "agence de voyage",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "s'Raisabüro",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "agence de voyage.- (l') s'Raisabüro.",
+      "index": 486
+    }
+  },
+  {
+    "id": "agent_commercial_491",
+    "type": "expression_figee",
+    "francais": "agent commercial",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'r Hàndelsvertratter",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "agent commercial.- (l') d'r Hàndelsvertratter.",
+      "index": 491
+    }
+  },
+  {
+    "id": "agent_d_administration_publique_492",
+    "type": "expression_figee",
+    "francais": "agent d'administration publique",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'r Beherda-n-àgschtällta",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "agent d'administration publique.- (l') d'r Beherda-n-àgschtällta.",
+      "index": 492
+    }
+  },
+  {
+    "id": "agent_d_assurance_493",
+    "type": "expression_figee",
+    "francais": "agent d'assurance",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'r Versecherungsvertratter",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "agent d'assurance.- (l') d'r Versecherungsvertratter.",
+      "index": 493
+    }
+  },
+  {
+    "id": "agent_de_change_494",
+    "type": "expression_figee",
+    "francais": "agent de change",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'r Effaktahandler",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "agent de change.- (l') d'r Effaktahandler.",
+      "index": 494
+    }
+  },
+  {
+    "id": "agent_de_police_495",
+    "type": "expression_figee",
+    "francais": "agent de Police",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'r Polizischt",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "d'r Schutzmànn",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "d'r Pamsel",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "d'r Schugger",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "agent de Police.- (l') d'r Polizischt, d'r Schutzmànn, d'r Pamsel, d'r Schugger.",
+      "index": 495
+    }
+  },
+  {
+    "id": "agent_de_ma_trise_496",
+    "type": "expression_figee",
+    "francais": "agent de maîtrise",
+    "article": "(d'r)",
+    "traductions": [
+      {
+        "alsacien": "d'r Maischter",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "d'r Warkmaischter",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "d'r Poliar",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "agent de maîtrise.- (d'r) d'r Maischter, d'r Warkmaischter, d'r Poliar.",
+      "index": 496
+    }
+  },
+  {
+    "id": "agent_des_douanes_497",
+    "type": "expression_figee",
+    "francais": "agent des douanes",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'r Granzbeàmter",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "agent des douanes.- (l') d'r Granzbeàmter.",
+      "index": 497
+    }
+  },
+  {
+    "id": "agent_immobilier_498",
+    "type": "expression_figee",
+    "francais": "agent immobilier",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'r Hisermàkler",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "d'r Grundschteckmàkler",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "agent immobilier.- (l')d'r Hisermàkler, d'r Grundschteckmàkler.",
+      "index": 498
+    }
+  },
+  {
+    "id": "agent_patog_ne_499",
+    "type": "expression_figee",
+    "francais": "agent patogène",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'r Krànketärreger",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "agent patogène.- (l') d'r Krànketärreger.",
+      "index": 499
+    }
+  },
+  {
+    "id": "agent_secret_500",
+    "type": "expression_figee",
+    "francais": "agent secret",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'r Kaimschucker",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "agent secret.- (l') d'r Kaimschucker.",
+      "index": 500
+    }
+  },
+  {
+    "id": "agiter_avant_l_emploi_513",
+    "type": "expression_figee",
+    "francais": "agiter avant l'emploi",
+    "article": "",
+    "traductions": [
+      {
+        "alsacien": "schettla vor gebrüch",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "agiter avant l'emploi.- schettla vor gebrüch.",
+      "index": 513
+    }
+  },
+  {
+    "id": "agiter_l__ventail_514",
+    "type": "expression_figee",
+    "francais": "agiter l'éventail",
+    "article": "",
+    "traductions": [
+      {
+        "alsacien": "fachla",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "fäschle",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "agiter l'éventail.- fachla, fäschle.",
+      "index": 514
+    }
+  },
+  {
+    "id": "agiter_la_queue_516",
+    "type": "expression_figee",
+    "francais": "agiter la queue",
+    "article": "",
+    "traductions": [
+      {
+        "alsacien": "wadla",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "waddle",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "agiter la queue.- wadla, waddle.",
+      "index": 516
+    }
+  },
+  {
+    "id": "agneau_pascal_518",
+    "type": "expression_figee",
+    "francais": "agneau pascal",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "s'Oschterlammla",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "s'Oschterlämml",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "agneau pascal.- (l') s'Oschterlammla, s'Oschterlämml.",
+      "index": 518
+    }
+  },
+  {
+    "id": "agrafe_de_bureau_522",
+    "type": "expression_figee",
+    "francais": "agrafe de bureau",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "s'Häftklammerla",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "agrafe de bureau.- (l') s'Häftklammerla.",
+      "index": 522
+    }
+  },
+  {
+    "id": "ah_bon_555",
+    "type": "expression_figee",
+    "francais": "ah bon",
+    "article": "",
+    "traductions": [
+      {
+        "alsacien": "àh so",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "ah bon.- àh so.",
+      "index": 555
+    }
+  },
+  {
+    "id": "aide_de_560",
+    "type": "expression_figee",
+    "francais": "aide de",
+    "article": "(avec l')",
+    "traductions": [
+      {
+        "alsacien": "met d'r Helf vu",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "aide de.- (avec l') met d'r Helf vu.",
+      "index": 560
+    }
+  },
+  {
+    "id": "aide_financi_re_561",
+    "type": "expression_figee",
+    "francais": "aide financière",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'Finànziälla-n-unterschtezung",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "d'r Züaschuss",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "d'r Zöschuss",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "aide financière.- (l') d'Finànziälla-n-unterschtezung, d'r Züaschuss, d'r Zöschuss.",
+      "index": 561
+    }
+  },
+  {
+    "id": "aide_maternelle_563",
+    "type": "expression_figee",
+    "francais": "aide maternelle",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'Tàgesmüatter",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "d'Tàjesmiedder",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "aide maternelle.- (l') d'Tàgesmüatter, d'Tàjesmiedder.",
+      "index": 563
+    }
+  },
+  {
+    "id": "aide_sociale_566",
+    "type": "expression_figee",
+    "francais": "aide sociale",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'r Soziàbischtànd",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "aide sociale.- (l') d'r Soziàbischtànd.",
+      "index": 566
+    }
+  },
+  {
+    "id": "aiguille___coudre_585",
+    "type": "expression_figee",
+    "francais": "aiguille à coudre",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d' Naijnoodla",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "d'Näinoddel",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "aiguille à coudre.- (l') d' Naijnoodla, d'Näinoddel, .",
+      "index": 585
+    }
+  },
+  {
+    "id": "aiguille___repriser_586",
+    "type": "expression_figee",
+    "francais": "aiguille à repriser",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'Schtupfnoodla",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "d'Schtopfnoddel",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "aiguille à repriser.- (l') d'Schtupfnoodla, d'Schtopfnoddel.",
+      "index": 586
+    }
+  },
+  {
+    "id": "aiguille___tricoter_587",
+    "type": "expression_figee",
+    "francais": "aiguille à tricoter",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'Schtrecknoodla",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "d'Schtricknoddel",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "aiguille à tricoter.- (l') d'Schtrecknoodla, d'Schtricknoddel.",
+      "index": 587
+    }
+  },
+  {
+    "id": "aiguille_de_pin_588",
+    "type": "expression_figee",
+    "francais": "aiguille de pin",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'Kiafernoodla",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "d'Forlenoddel",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "aiguille de pin.- (l') d'Kiafernoodla, d'Forlenoddel.",
+      "index": 588
+    }
+  },
+  {
+    "id": "aiguilleur_du_ciel_592",
+    "type": "expression_figee",
+    "francais": "aiguilleur du ciel",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'r Fluglotza",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "de Flejlotze",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "aiguilleur du ciel.- (l') d'r Fluglotza, de Flejlotze.",
+      "index": 592
+    }
+  },
+  {
+    "id": "ailier_droit_600",
+    "type": "expression_figee",
+    "francais": "ailier droit",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'r Rachtsüsserscht",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "de Reschtsüsse",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "ailier droit.- (l') d'r Rachtsüsserscht, de Reschtsüsse.",
+      "index": 600
+    }
+  },
+  {
+    "id": "ailier_gauche_601",
+    "type": "expression_figee",
+    "francais": "ailier gauche",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'r Lenksüsserscht",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "de Linksüsse",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "ailier gauche.- (l') d'r Lenksüsserscht, de Linksüsse.",
+      "index": 601
+    }
+  },
+  {
+    "id": "aimer_bien_609",
+    "type": "expression_figee",
+    "francais": "aimer bien",
+    "article": "",
+    "traductions": [
+      {
+        "alsacien": "meega",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "meje",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "lida",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "aimer bien.- meega, meje, lida.",
+      "index": 609
+    }
+  },
+  {
+    "id": "aimer_tendrement_610",
+    "type": "expression_figee",
+    "francais": "aimer tendrement",
+    "article": "",
+    "traductions": [
+      {
+        "alsacien": "vu harza garn hà",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "aimer tendrement.- vu harza garn hà.",
+      "index": 610
+    }
+  },
+  {
+    "id": "ainsi_dire_615",
+    "type": "expression_figee",
+    "francais": "ainsi dire",
+    "article": "(pour)",
+    "traductions": [
+      {
+        "alsacien": "sozusàga",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "sozesawa",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "ainsi dire.- (pour) sozusàga, sozesawa.",
+      "index": 615
+    }
+  },
+  {
+    "id": "ainsi_dit_616",
+    "type": "expression_figee",
+    "francais": "ainsi dit",
+    "article": "",
+    "traductions": [
+      {
+        "alsacien": "sogsait",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "ainsi dit.- sogsait.",
+      "index": 616
+    }
+  },
+  {
+    "id": "air_chaud_620",
+    "type": "expression_figee",
+    "francais": "air chaud",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'Wàrmluft",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "air chaud.- (l') d'Wàrmluft.",
+      "index": 620
+    }
+  },
+  {
+    "id": "air_frais_621",
+    "type": "expression_figee",
+    "francais": "air frais",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'frescha Luft",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "air frais.- (l') d'frescha Luft.",
+      "index": 621
+    }
+  },
+  {
+    "id": "air_marin_622",
+    "type": "expression_figee",
+    "francais": "air marin",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'Meeresluft",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "air marin.- (l') d'Meeresluft.",
+      "index": 622
+    }
+  },
+  {
+    "id": "aire_de_battage_624",
+    "type": "expression_figee",
+    "francais": "aire de battage",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'Tänna",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "d'Tennpritsch",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "aire de battage.- (l') d'Tänna, d'Tennpritsch.",
+      "index": 624
+    }
+  },
+  {
+    "id": "aire_de_repos_625",
+    "type": "expression_figee",
+    "francais": "aire de repos",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'r Rüaijplàtz",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "de Röijplàtz",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "aire de repos.- (l') d'r Rüaijplàtz, de Röijplàtz.",
+      "index": 625
+    }
+  },
+  {
+    "id": "aire_d_influence_626",
+    "type": "expression_figee",
+    "francais": "aire d'influence",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "s'Iflussberaich",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "aire d'influence.- (l') s'Iflussberaich.",
+      "index": 626
+    }
+  },
+  {
+    "id": "airelle_rouge_628",
+    "type": "expression_figee",
+    "francais": "airelle rouge",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "s'Priselbeerla",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "s'Preiselbeer",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "airelle rouge.- (l') s'Priselbeerla, s'Preiselbeer.",
+      "index": 628
+    }
+  },
+  {
+    "id": "ajustement_de_salaire_639",
+    "type": "expression_figee",
+    "francais": "ajustement de salaire",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'r Lohnüssglich",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "ajustement de salaire.- (l') d'r Lohnüssglich.",
+      "index": 639
+    }
+  },
+  {
+    "id": "alcool_de_marc_656",
+    "type": "expression_figee",
+    "francais": "alcool de marc",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'Tràwra",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "de Tresch",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "alcool de marc.- (l') d'Tràwra, de Tresch.",
+      "index": 656
+    }
+  },
+  {
+    "id": "alcool_du_raisin_press__657",
+    "type": "expression_figee",
+    "francais": "alcool du raisin pressé",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'r Trüasa",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "d' Tröse",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "alcool du raisin pressé.- (l') d'r Trüasa, d' Tröse.",
+      "index": 657
+    }
+  },
+  {
+    "id": "ali_nation_mentale_677",
+    "type": "expression_figee",
+    "francais": "aliénation mentale",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'Gaischtesschterung",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "aliénation mentale.- (l') d'Gaischtesschterung.",
+      "index": 677
+    }
+  },
+  {
+    "id": "aliments_naturels_681",
+    "type": "expression_figee",
+    "francais": "aliments naturels",
+    "article": "(les)",
+    "traductions": [
+      {
+        "alsacien": "d'Nàtürkoscht",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "aliments naturels.- (les) d'Nàtürkoscht.",
+      "index": 681
+    }
+  },
+  {
+    "id": "all_es_et_venues_690",
+    "type": "expression_figee",
+    "francais": "allées et venues",
+    "article": "(les)",
+    "traductions": [
+      {
+        "alsacien": "s'Hen un Har",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "allées et venues.- (les) s'Hen un Har.",
+      "index": 690
+    }
+  },
+  {
+    "id": "allemand_d__glise_699",
+    "type": "expression_figee",
+    "francais": "allemand d'église",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "s'Pfàrrerditsch",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "s'Pfarrerdeitsch",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "allemand d'église.- (l') s'Pfàrrerditsch, s'Pfarrerdeitsch.",
+      "index": 699
+    }
+  },
+  {
+    "id": "aller___la_maison_701",
+    "type": "expression_figee",
+    "francais": "aller à la maison",
+    "article": "",
+    "traductions": [
+      {
+        "alsacien": "haimgeh",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "haamgehn",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "aller à la maison.- haimgeh, haamgehn.",
+      "index": 701
+    }
+  },
+  {
+    "id": "aller___l__chec_702",
+    "type": "expression_figee",
+    "francais": "aller à l'échec",
+    "article": "",
+    "traductions": [
+      {
+        "alsacien": "uff d'r Hund geh",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "z'Gügges geh",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "z'Blaida geh",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "aller à l'échec.- uff d'r Hund geh, z'Gügges geh, z'Blaida geh.",
+      "index": 702
+    }
+  },
+  {
+    "id": "aller___pied_703",
+    "type": "expression_figee",
+    "francais": "aller à pied",
+    "article": "",
+    "traductions": [
+      {
+        "alsacien": "z'Füass geh",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "ze Fösgehn",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "aller à pied.- z'Füass geh, ze Fösgehn.",
+      "index": 703
+    }
+  },
+  {
+    "id": "aller_au_lit_704",
+    "type": "expression_figee",
+    "francais": "aller au lit",
+    "article": "",
+    "traductions": [
+      {
+        "alsacien": "z'Bätt geh",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "ze Bettgehn",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "aller au lit.- z'Bätt geh, ze Bettgehn.",
+      "index": 704
+    }
+  },
+  {
+    "id": "aller_chercher_705",
+    "type": "expression_figee",
+    "francais": "aller chercher",
+    "article": "",
+    "traductions": [
+      {
+        "alsacien": "geh hohla",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "gehn holle",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "aller chercher.- geh hohla, gehn holle.",
+      "index": 705
+    }
+  },
+  {
+    "id": "aller_de_l_avant_706",
+    "type": "expression_figee",
+    "francais": "aller de l'avant",
+    "article": "",
+    "traductions": [
+      {
+        "alsacien": "vorwartz schtrawa",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "vorwärtz schträwe",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "aller de l'avant.- vorwartz schtrawa, vorwärtz schträwe.",
+      "index": 706
+    }
+  },
+  {
+    "id": "allez_donc_707",
+    "type": "expression_figee",
+    "francais": "allez donc",
+    "article": "",
+    "traductions": [
+      {
+        "alsacien": "wàss dänn",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "allez donc.- wàss dänn.",
+      "index": 707
+    }
+  },
+  {
+    "id": "aller_en_justice_708",
+    "type": "expression_figee",
+    "francais": "aller en justice",
+    "article": "",
+    "traductions": [
+      {
+        "alsacien": "vor Grecht geh",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "vor Gerescht gehn",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "aller en justice.- vor Grecht geh, vor Gerescht gehn.",
+      "index": 708
+    }
+  },
+  {
+    "id": "aller_ensemble_709",
+    "type": "expression_figee",
+    "francais": "aller ensemble",
+    "article": "",
+    "traductions": [
+      {
+        "alsacien": "zunànder pàssa",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "metnànder geh",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "aller ensemble.- zunànder pàssa, metnànder geh.",
+      "index": 709
+    }
+  },
+  {
+    "id": "aller_et_venir_710",
+    "type": "expression_figee",
+    "francais": "aller et venir",
+    "article": "",
+    "traductions": [
+      {
+        "alsacien": "hen un har làuifa",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "hin un heer gehn",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "aller et venir.- hen un har làuifa, hin un heer gehn.",
+      "index": 710
+    }
+  },
+  {
+    "id": "aller_faire_ses_besoins_711",
+    "type": "expression_figee",
+    "francais": "aller faire ses besoins",
+    "article": "",
+    "traductions": [
+      {
+        "alsacien": "geh sina Notderftikait verrechta",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "aller faire ses besoins.- geh sina Notderftikait verrechta.",
+      "index": 711
+    }
+  },
+  {
+    "id": "aller_loin_712",
+    "type": "expression_figee",
+    "francais": "aller loin",
+    "article": "",
+    "traductions": [
+      {
+        "alsacien": "witt kumma",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "aller loin.- witt kumma.",
+      "index": 712
+    }
+  },
+  {
+    "id": "aller_retour_713",
+    "type": "expression_figee",
+    "francais": "aller retour",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "s'àhna un zruck",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "aller retour.- (l') s'àhna un zruck.",
+      "index": 713
+    }
+  },
+  {
+    "id": "aller_vers_714",
+    "type": "expression_figee",
+    "francais": "aller vers",
+    "article": "",
+    "traductions": [
+      {
+        "alsacien": "äntgega geh",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "äntgeija gehn",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "aller vers.- äntgega geh, äntgeija gehn.",
+      "index": 714
+    }
+  },
+  {
+    "id": "aller_vers_la_ruine_715",
+    "type": "expression_figee",
+    "francais": "aller vers la ruine",
+    "article": "",
+    "traductions": [
+      {
+        "alsacien": "z'Flöitageh",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "z'Gügges geh",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "a Buckel màcha",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "aller vers la ruine.- z'Flöitageh, z'Gügges geh, a Buckel màcha.",
+      "index": 715
+    }
+  },
+  {
+    "id": "aller_voir_716",
+    "type": "expression_figee",
+    "francais": "aller voir",
+    "article": "",
+    "traductions": [
+      {
+        "alsacien": "geh lüga",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "gehn löije",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "aller voir.- geh lüga, gehn löije.",
+      "index": 716
+    }
+  },
+  {
+    "id": "allez_hop_718",
+    "type": "expression_figee",
+    "francais": "allez hop",
+    "article": "",
+    "traductions": [
+      {
+        "alsacien": "alle hoplagais",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "allez hop.- alle hoplagais.",
+      "index": 718
+    }
+  },
+  {
+    "id": "allocation_de_ch_mage_725",
+    "type": "expression_figee",
+    "francais": "allocation de chômage",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'Àrwertslosa-n-unterschtetzung",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "allocation de chômage.- (l') d'Àrwertslosa-n-unterschtetzung.",
+      "index": 725
+    }
+  },
+  {
+    "id": "allocation_de_formation_professionnelle_726",
+    "type": "expression_figee",
+    "francais": "allocation de formation professionnelle",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'Üssbeldungsbihelf",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "allocation de formation professionnelle.- (l') d'Üssbeldungsbihelf.",
+      "index": 726
+    }
+  },
+  {
+    "id": "allocation_familiale_727",
+    "type": "expression_figee",
+    "francais": "allocation familiale",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'Fàmeliabihelf",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "allocation familiale.- (l') d'Fàmeliabihelf.",
+      "index": 727
+    }
+  },
+  {
+    "id": "allocation_pour_frais_de_repr_sentation_728",
+    "type": "expression_figee",
+    "francais": "allocation pour frais de représentation",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'Uffwàndsäntschadigung",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "allocation pour frais de représentation.- (l') d'Uffwàndsäntschadigung.",
+      "index": 728
+    }
+  },
+  {
+    "id": "allocation_de_vieillesse_729",
+    "type": "expression_figee",
+    "francais": "allocation de vieillesse",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'Àltersunterschtetzung",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "allocation de vieillesse.- (l') d'Àltersunterschtetzung.",
+      "index": 729
+    }
+  },
+  {
+    "id": "allusion_d_sobligeante_742",
+    "type": "expression_figee",
+    "francais": "allusion désobligeante",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'Àzeglikait",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "de Schlotter",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "allusion désobligeante.- (l') d'Àzeglikait, de Schlotter.",
+      "index": 742
+    }
+  },
+  {
+    "id": "alors_que_749",
+    "type": "expression_figee",
+    "francais": "alors que",
+    "article": "",
+    "traductions": [
+      {
+        "alsacien": "dodrbi",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "dodebie",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "alors que.- dodrbi, dodebie.",
+      "index": 749
+    }
+  },
+  {
+    "id": "alsace_bossue_759",
+    "type": "expression_figee",
+    "francais": "Alsace bossue",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "s'Krumma-n-Elsàss",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "s'Buckliga-n-Elsàss",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "Alsace bossue.- (l') s'Krumma-n-Elsàss, s'Buckliga-n-Elsàss.",
+      "index": 759
+    }
+  },
+  {
+    "id": "amanite_phalo_de_791",
+    "type": "expression_figee",
+    "francais": "amanite phaloïde",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'r Knollablätterpelz",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "amanite phaloïde.- (l') d'r Knollablätterpelz.",
+      "index": 791
+    }
+  },
+  {
+    "id": "_me_qui_vive_810",
+    "type": "expression_figee",
+    "francais": "âme qui vive",
+    "article": "(pas)",
+    "traductions": [
+      {
+        "alsacien": "kai Mänsch un kai Seel",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "kai Schwantz",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "âme qui vive.- (pas) kai Mänsch un kai Seel, kai Schwantz.",
+      "index": 810
+    }
+  },
+  {
+    "id": "am_nagement_du_territoire_814",
+    "type": "expression_figee",
+    "francais": "aménagement du territoire",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'Ràuimordnung",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "aménagement du territoire.- (l') d'Ràuimordnung.",
+      "index": 814
+    }
+  },
+  {
+    "id": "amorce_d_atterrissge_850",
+    "type": "expression_figee",
+    "francais": "amorce d'atterrissge",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'r Làndàflug",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "amorce d'atterrissge.- (l') d'r Làndàflug.",
+      "index": 850
+    }
+  },
+  {
+    "id": "amorcer_un_virage_851",
+    "type": "expression_figee",
+    "francais": "amorcer un virage",
+    "article": "",
+    "traductions": [
+      {
+        "alsacien": "en a Kurva geh",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "amorcer un virage.- en a Kurva geh.",
+      "index": 851
+    }
+  },
+  {
+    "id": "amour_de_jeunesse_859",
+    "type": "expression_figee",
+    "francais": "amour de jeunesse",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'Jugendliawa",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "amour de jeunesse.- (l') d'Jugendliawa.",
+      "index": 859
+    }
+  },
+  {
+    "id": "amour_du_prochain_860",
+    "type": "expression_figee",
+    "francais": "amour du prochain",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'Nachschtaliawa",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "d'Nächschtelieb",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "amour du prochain.- (l') d'Nachschtaliawa, d'Nächschtelieb.",
+      "index": 860
+    }
+  },
+  {
+    "id": "amour_maternel_861",
+    "type": "expression_figee",
+    "francais": "amour maternel",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d' Müatterliawa",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "d'Möderlieb",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "amour maternel.- (l') d' Müatterliawa, d'Möderlieb.",
+      "index": 861
+    }
+  },
+  {
+    "id": "amour_fou_866",
+    "type": "expression_figee",
+    "francais": "amour fou",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'Versassahait",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "d'Verknàltheit",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "amour fou.- (l') d'Versassahait, d'Verknàltheit.",
+      "index": 866
+    }
+  },
+  {
+    "id": "amples_renseignements_873",
+    "type": "expression_figee",
+    "francais": "amples renseignements",
+    "article": "(d')",
+    "traductions": [
+      {
+        "alsacien": "d' Wittera-d'nehera Üsskunfta",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "amples renseignements.- (d') d' Wittera-d'nehera Üsskunfta.",
+      "index": 873
+    }
+  },
+  {
+    "id": "an_dernier_888",
+    "type": "expression_figee",
+    "francais": "an dernier",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "s'Lätschtajohr",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "s'värdriga Johr",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "an dernier.- (l') s'Lätschtajohr, s'värdriga Johr.",
+      "index": 888
+    }
+  },
+  {
+    "id": "analyse_de_tendance_897",
+    "type": "expression_figee",
+    "francais": "analyse de tendance",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'Naigungsuntersüachung",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "analyse de tendance.- (l') d'Naigungsuntersüachung.",
+      "index": 897
+    }
+  },
+  {
+    "id": "ancien_combattant_906",
+    "type": "expression_figee",
+    "francais": "ancien combattant",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'r Àlta Fruntkampfer",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "ancien combattant.- (l') d'r Àlta Fruntkampfer.",
+      "index": 906
+    }
+  },
+  {
+    "id": "ancien_testament_908",
+    "type": "expression_figee",
+    "francais": "ancien testament",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "s'Àlta Täschtamant",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "ancien testament.- (l') s'Àlta Täschtamant.",
+      "index": 908
+    }
+  },
+  {
+    "id": "_ne_de_b_t_919",
+    "type": "expression_figee",
+    "francais": "âne de bât",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'r Bàschteesel",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "d'r d'r Pàckeesel",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "d'r Làschteesel",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "âne de bât.- (l') d'r Bàschteesel, d'r d'r Pàckeesel, d'r Làschteesel.",
+      "index": 919
+    }
+  },
+  {
+    "id": "ange_gardien_926",
+    "type": "expression_figee",
+    "francais": "ange gardien",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'r Schutzangel",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "de Schutzengel",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "ange gardien.- (l') d'r Schutzangel, de Schutzengel.",
+      "index": 926
+    }
+  },
+  {
+    "id": "angine_de_poitrine_931",
+    "type": "expression_figee",
+    "francais": "angine de poitrine",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d' Lunga-n-àrteria verangerung",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "angine de poitrine.- (l') d' Lunga-n-àrteria verangerung.",
+      "index": 931
+    }
+  },
+  {
+    "id": "angle_aigu_937",
+    "type": "expression_figee",
+    "francais": "angle aigu",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'r Schpetzwenkel",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "angle aigu.- (l') d'r Schpetzwenkel.",
+      "index": 937
+    }
+  },
+  {
+    "id": "angle_de_tir_938",
+    "type": "expression_figee",
+    "francais": "angle de tir",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'r Schiasswenckel",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "angle de tir.- (l') d'r Schiasswenckel.",
+      "index": 938
+    }
+  },
+  {
+    "id": "angle_de_vue_939",
+    "type": "expression_figee",
+    "francais": "angle de vue",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'r Bleckwenckel",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "angle de vue.- (l') d'r Bleckwenckel.",
+      "index": 939
+    }
+  },
+  {
+    "id": "angle_d_incidence_940",
+    "type": "expression_figee",
+    "francais": "angle d'incidence",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'r Ifàllswenkel",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "angle d'incidence.- (l') d'r Ifàllswenkel.",
+      "index": 940
+    }
+  },
+  {
+    "id": "angle_mort_941",
+    "type": "expression_figee",
+    "francais": "angle mort",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'r tota Bleckwenkel",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "angle mort.- (l') d'r tota Bleckwenkel.",
+      "index": 941
+    }
+  },
+  {
+    "id": "anguille_fum_e_944",
+    "type": "expression_figee",
+    "francais": "anguille fumée",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'r graijerchta Ool de gereijechte Ààl",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "anguille fumée.- (l') d'r graijerchta Ool de gereijechte Ààl.",
+      "index": 944
+    }
+  },
+  {
+    "id": "animal_domestique_950",
+    "type": "expression_figee",
+    "francais": "animal domestique",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "s'Hüsstiar",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "sHüssteer",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "animal domestique.- (l') s'Hüsstiar, sHüssteer",
+      "index": 950
+    }
+  },
+  {
+    "id": "animation_culturelle_954",
+    "type": "expression_figee",
+    "francais": "animation culturelle",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "D'Fräizitsgschtàltung",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "animation culturelle.- (l') D'Fräizitsgschtàltung.",
+      "index": 954
+    }
+  },
+  {
+    "id": "animaux_de_basse_cour_955",
+    "type": "expression_figee",
+    "francais": "animaux de basse-cour",
+    "article": "(les)",
+    "traductions": [
+      {
+        "alsacien": "s'Klaiveh",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "animaux de basse-cour.- (les) s'Klaiveh.",
+      "index": 955
+    }
+  },
+  {
+    "id": "anneau_de_dentition_961",
+    "type": "expression_figee",
+    "francais": "anneau de dentition",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'r Bissreng",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "anneau de dentition.- (l') d'r Bissreng.",
+      "index": 961
+    }
+  },
+  {
+    "id": "ann_e___l_autre_963",
+    "type": "expression_figee",
+    "francais": "année à l'autre",
+    "article": "(d'une)",
+    "traductions": [
+      {
+        "alsacien": "vu aim Johr zum àndra",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "vu Johr zu Johr",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "année à l'autre.- (d'une) vu aim Johr zum àndra, vu Johr zu Johr.",
+      "index": 963
+    }
+  },
+  {
+    "id": "ann_e_bissextile_964",
+    "type": "expression_figee",
+    "francais": "année bissextile",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "s'Schàltjohr",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "année bissextile.- (l') s'Schàltjohr.",
+      "index": 964
+    }
+  },
+  {
+    "id": "ann_e_civile_965",
+    "type": "expression_figee",
+    "francais": "année civile",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "s'Kàlanderjohr",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "année civile.- (l') s'Kàlanderjohr.",
+      "index": 965
+    }
+  },
+  {
+    "id": "ann_e_derni_re_966",
+    "type": "expression_figee",
+    "francais": "année dernière",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "s'Lätschtjohr",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "farn",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "Sundgau",
+    "tags": [],
+    "source": {
+      "ligne": "année dernière.- (l') s'Lätschtjohr, farn (Sundgau).",
+      "index": 966
+    }
+  },
+  {
+    "id": "ann_e_fiscale_967",
+    "type": "expression_figee",
+    "francais": "année fiscale",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "s'Schtirrachnungsjohr",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "année fiscale.- (l') s'Schtirrachnungsjohr.",
+      "index": 967
+    }
+  },
+  {
+    "id": "ann_e_lumi_re_968",
+    "type": "expression_figee",
+    "francais": "année lumière",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "s'Liachtjohr",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "année lumière.- (l') s'Liachtjohr.",
+      "index": 968
+    }
+  },
+  {
+    "id": "ann_e_pass_e_969",
+    "type": "expression_figee",
+    "francais": "année passée",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "s'Färdrigajohr",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "s'Färdische Johr",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "année passée.- (l') s'Färdrigajohr, s'Färdische Johr.",
+      "index": 969
+    }
+  },
+  {
+    "id": "ann_e_prochaine_970",
+    "type": "expression_figee",
+    "francais": "année prochaine",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "s'Nachschtajohr",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "s'Nägschtejohr",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "année prochaine.- (l') s'Nachschtajohr, s'Nägschtejohr.",
+      "index": 970
+    }
+  },
+  {
+    "id": "ann_e_scolaire_971",
+    "type": "expression_figee",
+    "francais": "année scolaire",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "s'Schüaljohr",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "s'Schöljorr",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "année scolaire.- (l') s'Schüaljohr, s'Schöljorr.",
+      "index": 971
+    }
+  },
+  {
+    "id": "ann_es_vingt_972",
+    "type": "expression_figee",
+    "francais": "années vingt",
+    "article": "(les)",
+    "traductions": [
+      {
+        "alsacien": "d'Zwànzigerjohra",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "années vingt.- (les) d'Zwànzigerjohra.",
+      "index": 972
+    }
+  },
+  {
+    "id": "annonce_de_naissance_980",
+    "type": "expression_figee",
+    "francais": "annonce de naissance",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'Geburtsàkendigung",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "s'Geburtsàzaiga",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "annonce de naissance.- (l') d'Geburtsàkendigung,s'Geburtsàzaiga.",
+      "index": 980
+    }
+  },
+  {
+    "id": "annonce_de_mariage_981",
+    "type": "expression_figee",
+    "francais": "annonce de mariage",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d' Hirotsbekànntmàchung",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "annonce de mariage.- (l') d' Hirotsbekànntmàchung.",
+      "index": 981
+    }
+  },
+  {
+    "id": "annonce_de_d_c_s_982",
+    "type": "expression_figee",
+    "francais": "annonce de décès",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "s'Todesàzaiga",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "annonce de décès.- (l') s'Todesàzaiga.",
+      "index": 982
+    }
+  },
+  {
+    "id": "annoncer_avec_les_cloches_986",
+    "type": "expression_figee",
+    "francais": "annoncer avec les cloches",
+    "article": "",
+    "traductions": [
+      {
+        "alsacien": "ilütta",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "zammalütta",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "annoncer avec les cloches.- ilütta, zammalütta.",
+      "index": 986
+    }
+  },
+  {
+    "id": "antenne_collective_1009",
+    "type": "expression_figee",
+    "francais": "antenne collective",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'Gmainschàftsàntänna",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "antenne collective.- (l') d'Gmainschàftsàntänna.",
+      "index": 1009
+    }
+  },
+  {
+    "id": "antenne_de_t_l_vision_1010",
+    "type": "expression_figee",
+    "francais": "antenne de télévision",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'r Farnracha",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "antenne de télévision.- (l') d'r Farnracha.",
+      "index": 1010
+    }
+  },
+  {
+    "id": "apaiser_la_douleur_1056",
+    "type": "expression_figee",
+    "francais": "apaiser la douleur",
+    "article": "",
+    "traductions": [
+      {
+        "alsacien": "d'r Schmartzlendra",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "apaiser la douleur.- d'r Schmartzlendra.",
+      "index": 1056
+    }
+  },
+  {
+    "id": "apaiser_la_faim_1057",
+    "type": "expression_figee",
+    "francais": "apaiser la faim",
+    "article": "",
+    "traductions": [
+      {
+        "alsacien": "d'r Hungerschtella",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "apaiser la faim.- d'r Hungerschtella.",
+      "index": 1057
+    }
+  },
+  {
+    "id": "apaiser_la_soif_1058",
+    "type": "expression_figee",
+    "francais": "apaiser la soif",
+    "article": "",
+    "traductions": [
+      {
+        "alsacien": "d'r Durscht läscha",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "apaiser la soif.- d'r Durscht läscha.",
+      "index": 1058
+    }
+  },
+  {
+    "id": "apaiser_les_sens_1059",
+    "type": "expression_figee",
+    "francais": "apaiser les sens",
+    "article": "",
+    "traductions": [
+      {
+        "alsacien": "d'Sennbefrediga",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "apaiser les sens.- d'Sennbefrediga.",
+      "index": 1059
+    }
+  },
+  {
+    "id": "a_posteriori_1089",
+    "type": "expression_figee",
+    "francais": "a posteriori",
+    "article": "",
+    "traductions": [
+      {
+        "alsacien": "nohtraglig",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "Nochträglisch",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "hentadri",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "a posteriori.- nohtraglig, Nochträglisch, hentadri.",
+      "index": 1089
+    }
+  },
+  {
+    "id": "appareil_administratif_1099",
+    "type": "expression_figee",
+    "francais": "appareil administratif",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'r Verwàltungsàpparàt",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "appareil administratif.- (l') d'r Verwàltungsàpparàt.",
+      "index": 1099
+    }
+  },
+  {
+    "id": "appareil___sous_1100",
+    "type": "expression_figee",
+    "francais": "appareil à sous",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'r Schpeelotomàt",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "appareil à sous.- (l') d'r Schpeelotomàt.",
+      "index": 1100
+    }
+  },
+  {
+    "id": "appareil_digestif_1101",
+    "type": "expression_figee",
+    "francais": "appareil digestif",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'r Verdàuijungsàpparàt",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "appareil digestif.- (l') d'r Verdàuijungsàpparàt.",
+      "index": 1101
+    }
+  },
+  {
+    "id": "appareil_d_enregistrement_1102",
+    "type": "expression_figee",
+    "francais": "appareil d'enregistrement",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "s'Uffnàhmsgrat",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "appareil d'enregistrement.- (l') s'Uffnàhmsgrat.",
+      "index": 1102
+    }
+  },
+  {
+    "id": "appartement_de_vacances_1113",
+    "type": "expression_figee",
+    "francais": "appartement de vacances",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'Feriawohnung",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "appartement de vacances.- (l') d'Feriawohnung.",
+      "index": 1113
+    }
+  },
+  {
+    "id": "appartement_t_moin_1114",
+    "type": "expression_figee",
+    "francais": "appartement témoin",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'Muschterwohnung",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "appartement témoin.- (l') d'Muschterwohnung.",
+      "index": 1114
+    }
+  },
+  {
+    "id": "appel___t_moin_1121",
+    "type": "expression_figee",
+    "francais": "appel à témoin",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'r Ziga-n-uffrüaf",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "appel à témoin.- (l') d'r Ziga-n-uffrüaf.",
+      "index": 1121
+    }
+  },
+  {
+    "id": "appel_de_d_tresse_1122",
+    "type": "expression_figee",
+    "francais": "appel de détresse",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'r Notrüaf",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "appel de détresse.- (l') d'r Notrüaf.",
+      "index": 1122
+    }
+  },
+  {
+    "id": "appel_d_offre_1123",
+    "type": "expression_figee",
+    "francais": "appel d'offre",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'Àgebotsüsschriwung",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "appel d'offre.- (l') d'Àgebotsüsschriwung.",
+      "index": 1123
+    }
+  },
+  {
+    "id": "appel_du_regard_1124",
+    "type": "expression_figee",
+    "francais": "appel du regard",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'r Bleckzüawenck",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "appel du regard.- (l') d'r Bleckzüawenck.",
+      "index": 1124
+    }
+  },
+  {
+    "id": "appel_d_urgence_1125",
+    "type": "expression_figee",
+    "francais": "appel d'urgence",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'r drengenda Notrüaf",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "appel d'urgence.- (l') d'r drengenda Notrüaf.",
+      "index": 1125
+    }
+  },
+  {
+    "id": "appeler_au_secours_1129",
+    "type": "expression_figee",
+    "francais": "appeler au secours",
+    "article": "",
+    "traductions": [
+      {
+        "alsacien": "um Helf schräija",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "um helf riafa",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "appeler au secours.- um Helf schräija, um helf riafa.",
+      "index": 1129
+    }
+  },
+  {
+    "id": "app_tit_du_pouvoir_1137",
+    "type": "expression_figee",
+    "francais": "appétit du pouvoir",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "Màchtgluschtig",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "appétit du pouvoir.- (l') Màchtgluschtig.",
+      "index": 1137
+    }
+  },
+  {
+    "id": "app_tit_du_savoir_1138",
+    "type": "expression_figee",
+    "francais": "appétit du savoir",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'r Wessensdurscht",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "appétit du savoir.- (l') d'r Wessensdurscht.",
+      "index": 1138
+    }
+  },
+  {
+    "id": "apporter_ici_1150",
+    "type": "expression_figee",
+    "francais": "apporter ici",
+    "article": "",
+    "traductions": [
+      {
+        "alsacien": "do àhna brenga",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "apporter ici.- do àhna brenga.",
+      "index": 1150
+    }
+  },
+  {
+    "id": "apposer_des_scell_s_1152",
+    "type": "expression_figee",
+    "francais": "apposer des scellés",
+    "article": "",
+    "traductions": [
+      {
+        "alsacien": "bappa",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "klawe",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "apposer des scellés.- bappa, klawe.",
+      "index": 1152
+    }
+  },
+  {
+    "id": "apprendre_par_coeur_1158",
+    "type": "expression_figee",
+    "francais": "apprendre par coeur",
+    "article": "",
+    "traductions": [
+      {
+        "alsacien": "üssawandig lehra",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "ischtudiara",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "apprendre par coeur.- üssawandig lehra, ischtudiara.",
+      "index": 1158
+    }
+  },
+  {
+    "id": "appui_de_fen_tre_1177",
+    "type": "expression_figee",
+    "francais": "appui de fenêtre",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'r Fanschterbànk",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "appui de fenêtre.- (l') d'r Fanschterbànk.",
+      "index": 1177
+    }
+  },
+  {
+    "id": "apr_s_moi_1184",
+    "type": "expression_figee",
+    "francais": "après moi",
+    "article": "(d')",
+    "traductions": [
+      {
+        "alsacien": "minra Mainung noh",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "minere Mänung noch",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "après moi.- (d') minra Mainung noh, minere Mänung noch.",
+      "index": 1184
+    }
+  },
+  {
+    "id": "apr_s_quoi_1185",
+    "type": "expression_figee",
+    "francais": "après quoi",
+    "article": "",
+    "traductions": [
+      {
+        "alsacien": "nohar",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "nodert",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "après quoi.- nohar, nodert.",
+      "index": 1185
+    }
+  },
+  {
+    "id": "apr_s_tout_1186",
+    "type": "expression_figee",
+    "francais": "après tout",
+    "article": "",
+    "traductions": [
+      {
+        "alsacien": "wänn schu",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "wann schon",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "après tout.- wänn schu, wann schon.",
+      "index": 1186
+    }
+  },
+  {
+    "id": "a_priori_1190",
+    "type": "expression_figee",
+    "francais": "a priori",
+    "article": "",
+    "traductions": [
+      {
+        "alsacien": "s'Vohràhna",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "a priori.- s'Vohràhna.",
+      "index": 1190
+    }
+  },
+  {
+    "id": "arbitre_de_touche_1208",
+    "type": "expression_figee",
+    "francais": "arbitre de touche",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'r Liniarechter",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "de Linierischter",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "arbitre de touche.- (l') d'r Liniarechter, de Linierischter.",
+      "index": 1208
+    }
+  },
+  {
+    "id": "arbre___cames_1211",
+    "type": "expression_figee",
+    "francais": "arbre à cames",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'Kurwelwalla",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "d'Nockawalla",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "arbre à cames.- (l') d'Kurwelwalla, d'Nockawalla.",
+      "index": 1211
+    }
+  },
+  {
+    "id": "arbre_en_espalier_1212",
+    "type": "expression_figee",
+    "francais": "arbre en espalier",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'r Schpàliarbàuim",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "de Schpàlerbaam",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "arbre en espalier.- (l') d'r Schpàliarbàuim, de Schpàlerbaam.",
+      "index": 1212
+    }
+  },
+  {
+    "id": "arbre_fruitier_1213",
+    "type": "expression_figee",
+    "francais": "arbre fruitier",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'r Obschtbàuim",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "de Obschtbaam",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "arbre fruitier.- (l') d'r Obschtbàuim, de Obschtbaam.",
+      "index": 1213
+    }
+  },
+  {
+    "id": "arbre_g_n_alogique_1214",
+    "type": "expression_figee",
+    "francais": "arbre généalogique",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'r Schtàmbàuim",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "s'Schtàmmbild",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "arbre généalogique.- (l') d'r Schtàmbàuim, s'Schtàmmbild.",
+      "index": 1214
+    }
+  },
+  {
+    "id": "arbre_de_no_l_1215",
+    "type": "expression_figee",
+    "francais": "arbre de noël",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'r Wianachtsbàuim",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "de Winachtsbaam",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "arbre de noël.- (l') d'r Wianachtsbàuim, de Winachtsbaam.",
+      "index": 1215
+    }
+  },
+  {
+    "id": "arbre_de_transmission_1216",
+    "type": "expression_figee",
+    "francais": "arbre de transmission",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'Kàrdànwalla",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "arbre de transmission.- (l') d'Kàrdànwalla.",
+      "index": 1216
+    }
+  },
+  {
+    "id": "arc_de_portail_1221",
+    "type": "expression_figee",
+    "francais": "arc de portail",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'r Toorbooga",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "de Torboje",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "arc de portail.- (l') d'r Toorbooga, de Torboje.",
+      "index": 1221
+    }
+  },
+  {
+    "id": "arc_en_plein_cintre_1223",
+    "type": "expression_figee",
+    "francais": "arc en plein cintre",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'r Rundbooga",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "arc en plein cintre.- (l') d'r Rundbooga.",
+      "index": 1223
+    }
+  },
+  {
+    "id": "arc_ogival_1224",
+    "type": "expression_figee",
+    "francais": "arc ogival",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'r Schpetzbooga",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "arc ogival.- (l') d'r Schpetzbooga.",
+      "index": 1224
+    }
+  },
+  {
+    "id": "arcade_sourcili_re_1226",
+    "type": "expression_figee",
+    "francais": "arcade sourcilière",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'r Àuigsbràuijabooga",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "arcade sourcilière.- (l') d'r Àuigsbràuijabooga.",
+      "index": 1226
+    }
+  },
+  {
+    "id": "arche_de_no__1229",
+    "type": "expression_figee",
+    "francais": "arche de Noé",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'Taiwa",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "d'Arisch",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "arche de Noé.- (l') d'Taiwa, d'Arisch.",
+      "index": 1229
+    }
+  },
+  {
+    "id": "archi_connu_1234",
+    "type": "expression_figee",
+    "francais": "archi connu",
+    "article": "",
+    "traductions": [
+      {
+        "alsacien": "àltbekànnt",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "archi connu.- àltbekànnt.",
+      "index": 1234
+    }
+  },
+  {
+    "id": "argent_comptant_1251",
+    "type": "expression_figee",
+    "francais": "argent comptant",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "s'Bàrgald",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "argent comptant.- (l') s'Bàrgald.",
+      "index": 1251
+    }
+  },
+  {
+    "id": "argent_de_poche_1252",
+    "type": "expression_figee",
+    "francais": "argent de poche",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "s'Sàckgald",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "argent de poche.- (l') s'Sàckgald.",
+      "index": 1252
+    }
+  },
+  {
+    "id": "argent_liquide_1256",
+    "type": "expression_figee",
+    "francais": "argent liquide",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "s'Bàrgald",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "argent liquide.- (l') s'Bàrgald.",
+      "index": 1256
+    }
+  },
+  {
+    "id": "argus_bleu_1263",
+    "type": "expression_figee",
+    "francais": "argus bleu",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'r Blàuijleng",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "de Blöijling",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "argus bleu.- (l') d'r Blàuijleng, de Blöijling.",
+      "index": 1263
+    }
+  },
+  {
+    "id": "arme_atomique_1274",
+    "type": "expression_figee",
+    "francais": "arme atomique",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'Karnwàffa",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "d'Kärnwàff",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "arme atomique.- (l') d'Karnwàffa, d'Kärnwàff.",
+      "index": 1274
+    }
+  },
+  {
+    "id": "arme_de_destruction_massive_1275",
+    "type": "expression_figee",
+    "francais": "arme de destruction massive",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'Màssavernechtungswàffa",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "arme de destruction massive.- (l') d'Màssavernechtungswàffa.",
+      "index": 1275
+    }
+  },
+  {
+    "id": "arm_e_de_l_air_1277",
+    "type": "expression_figee",
+    "francais": "armée de l'air",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'Luftwàffa",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "armée de l'air.- (l') d'Luftwàffa.",
+      "index": 1277
+    }
+  },
+  {
+    "id": "arm_e_de_lib_ration_1278",
+    "type": "expression_figee",
+    "francais": "armée de libération",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'Befräijungstruppa",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "armée de libération.- (l') d'Befräijungstruppa.",
+      "index": 1278
+    }
+  },
+  {
+    "id": "arm_e_du_salut_1279",
+    "type": "expression_figee",
+    "francais": "armée du salut",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'Hailsàrmee",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "armée du salut.- (l') d'Hailsàrmee.",
+      "index": 1279
+    }
+  },
+  {
+    "id": "armoire_frigorifique_1285",
+    "type": "expression_figee",
+    "francais": "armoire frigorifique",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'r Isskàschta",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "d'r Kialschrànk",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "armoire frigorifique.- (l') d'r Isskàschta, d'r Kialschrànk.",
+      "index": 1285
+    }
+  },
+  {
+    "id": "armoire___glace_1286",
+    "type": "expression_figee",
+    "francais": "armoire à glace",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'r Schpiagelkàschta",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "de Schpielelschrànk",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "armoire à glace.- (l') d'r Schpiagelkàschta, de Schpielelschrànk.",
+      "index": 1286
+    }
+  },
+  {
+    "id": "armoire___linge_1287",
+    "type": "expression_figee",
+    "francais": "armoire à linge",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'r Klaiderkàschta",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "de Kleiderschrànk",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "armoire à linge.- (l') d'r Klaiderkàschta, de Kleiderschrànk.",
+      "index": 1287
+    }
+  },
+  {
+    "id": "armoire___pharmacie_1288",
+    "type": "expression_figee",
+    "francais": "armoire à pharmacie",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "s'Àpathekerkaschtla d'Hüssàpoteek",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "armoire à pharmacie.- (l') s'Àpathekerkaschtla d'Hüssàpoteek.",
+      "index": 1288
+    }
+  },
+  {
+    "id": "armoire_de_cuisine_1289",
+    "type": "expression_figee",
+    "francais": "armoire de cuisine",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "s'Kuchakanschterla",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "de Kescheschrànk",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "armoire de cuisine.- (l') s'Kuchakanschterla, de Kescheschrànk.",
+      "index": 1289
+    }
+  },
+  {
+    "id": "armoire___glace_1290",
+    "type": "expression_figee",
+    "francais": "armoire à glace",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'r Schpiagelkàschta",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "armoire à glace.- (l') d'r Schpiagelkàschta.",
+      "index": 1290
+    }
+  },
+  {
+    "id": "arracher_les_cheveux_1310",
+    "type": "expression_figee",
+    "francais": "arracher les cheveux",
+    "article": "(s')",
+    "traductions": [
+      {
+        "alsacien": "sech d'Hoor üssrissa",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "arracher les cheveux.- (s') sech d'Hoor üssrissa.",
+      "index": 1310
+    }
+  },
+  {
+    "id": "arracher_un_oeil_1311",
+    "type": "expression_figee",
+    "francais": "arracher un oeil",
+    "article": "(plutôt s')",
+    "traductions": [
+      {
+        "alsacien": "ender sech a-n-Àuig üssrissa",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "arracher un oeil.- (plutôt s') ender sech a-n-Àuig üssrissa.",
+      "index": 1311
+    }
+  },
+  {
+    "id": "arr_t_cardiaque_1320",
+    "type": "expression_figee",
+    "francais": "arrêt cardiaque",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'r Harzschlàg",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "de Härzschlaa",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "arrêt cardiaque.- (l') d'r Harzschlàg, de Härzschlaa.",
+      "index": 1320
+    }
+  },
+  {
+    "id": "arr_t_de_bus_1321",
+    "type": "expression_figee",
+    "francais": "arrèt de bus",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'Bushàltaschtälla",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "arrèt de bus.- (l') d'Bushàltaschtälla.",
+      "index": 1321
+    }
+  },
+  {
+    "id": "arr_t_de_travail_1322",
+    "type": "expression_figee",
+    "francais": "arrêt de travail",
+    "article": "(être en)",
+    "traductions": [
+      {
+        "alsacien": "krànkgschrewa seh",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "arrêt de travail.- (être en) krànkgschrewa seh.",
+      "index": 1322
+    }
+  },
+  {
+    "id": "arr_t__d_expulsion_1324",
+    "type": "expression_figee",
+    "francais": "arrêté d'expulsion",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'Üsswisungsverfiagung",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "d'r Rühmungsbefahl",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "arrêté d'expulsion.- (l') d'Üsswisungsverfiagung, d'r Rühmungsbefahl.",
+      "index": 1324
+    }
+  },
+  {
+    "id": "arr_ts_de_rigueur_1327",
+    "type": "expression_figee",
+    "francais": "arrèts de rigueur",
+    "article": "(aux)",
+    "traductions": [
+      {
+        "alsacien": "en kwàrtiarhàft",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "arrèts de rigueur.- (aux) en kwàrtiarhàft.",
+      "index": 1327
+    }
+  },
+  {
+    "id": "arri_re_train_1339",
+    "type": "expression_figee",
+    "francais": "arrière train",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "s'hentera Tail",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "arrière train.- (l') s'hentera Tail.",
+      "index": 1339
+    }
+  },
+  {
+    "id": "arriv____bout_1344",
+    "type": "expression_figee",
+    "francais": "arrivé à bout",
+    "article": "(j'en suis)",
+    "traductions": [
+      {
+        "alsacien": "ech hànn's gmegt",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "arrivé à bout.- (j'en suis) ech hànn's gmegt.",
+      "index": 1344
+    }
+  },
+  {
+    "id": "arriver_____chez_1346",
+    "type": "expression_figee",
+    "francais": "arriver à - chez",
+    "article": "",
+    "traductions": [
+      {
+        "alsacien": "itraffa",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "arriver à - chez.- itraffa.",
+      "index": 1346
+    }
+  },
+  {
+    "id": "arriver____ch_ance_1347",
+    "type": "expression_figee",
+    "francais": "arriver à échéance",
+    "article": "",
+    "traductions": [
+      {
+        "alsacien": "fällig wara",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "arriver à échéance.- fällig wara.",
+      "index": 1347
+    }
+  },
+  {
+    "id": "arrive_que_1348",
+    "type": "expression_figee",
+    "francais": "arrive que",
+    "article": "(il)",
+    "traductions": [
+      {
+        "alsacien": "s'kännt seh dàss",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "arrive que.- (il) s'kännt seh dàss.",
+      "index": 1348
+    }
+  },
+  {
+    "id": "arrondir_les_angles_1355",
+    "type": "expression_figee",
+    "francais": "arrondir les angles",
+    "article": "",
+    "traductions": [
+      {
+        "alsacien": "d' Wenkel àbrunda",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "s'Zammalawa àbrunda",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "arrondir les angles.- d' Wenkel àbrunda, s'Zammalawa àbrunda.",
+      "index": 1355
+    }
+  },
+  {
+    "id": "arrondir_vers_le_bas_1356",
+    "type": "expression_figee",
+    "francais": "arrondir vers le bas",
+    "article": "",
+    "traductions": [
+      {
+        "alsacien": "àbrunda",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "arrondir vers le bas.- àbrunda.",
+      "index": 1356
+    }
+  },
+  {
+    "id": "arrondir_vers_le_haut_1357",
+    "type": "expression_figee",
+    "francais": "arrondir vers le haut",
+    "article": "",
+    "traductions": [
+      {
+        "alsacien": "uffrunda",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "arrondir vers le haut.- uffrunda.",
+      "index": 1357
+    }
+  },
+  {
+    "id": "arroser_son_entr_e_1360",
+    "type": "expression_figee",
+    "francais": "arroser son entrée",
+    "article": "",
+    "traductions": [
+      {
+        "alsacien": "d'r Ischtànd zàhla",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "arroser son entrée.- d'r Ischtànd zàhla.",
+      "index": 1360
+    }
+  },
+  {
+    "id": "arsenal_d_incendie_1363",
+    "type": "expression_figee",
+    "francais": "arsenal d'incendie",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "s'Schpretzahüss",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "s'Spritzehüss",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "arsenal d'incendie.- (l') s'Schpretzahüss, s'Spritzehüss.",
+      "index": 1363
+    }
+  },
+  {
+    "id": "art_populaire_1366",
+    "type": "expression_figee",
+    "francais": "art populaire",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'Volkskunscht",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "art populaire.- (l') d'Volkskunscht.",
+      "index": 1366
+    }
+  },
+  {
+    "id": "art_de_vivre_1367",
+    "type": "expression_figee",
+    "francais": "art de vivre",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'Laweskunscht",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "art de vivre.- (l') d'Laweskunscht.",
+      "index": 1367
+    }
+  },
+  {
+    "id": "art_re_carotide_1369",
+    "type": "expression_figee",
+    "francais": "artère carotide",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'Hàlsschlàgoodra",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "artère carotide.- (l') d'Hàlsschlàgoodra.",
+      "index": 1369
+    }
+  },
+  {
+    "id": "article_de_la_mort_1376",
+    "type": "expression_figee",
+    "francais": "article de la mort",
+    "article": "(à l')",
+    "traductions": [
+      {
+        "alsacien": "Todskrànk",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "article de la mort.- (à l') Todskrànk.",
+      "index": 1376
+    }
+  },
+  {
+    "id": "aspirer_la_poussi_re_1419",
+    "type": "expression_figee",
+    "francais": "aspirer la poussière",
+    "article": "",
+    "traductions": [
+      {
+        "alsacien": "schtàuibsügra",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "de Schtaublüxe",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "aspirer la poussière.- schtàuibsügra, de Schtaublüxe.",
+      "index": 1419
+    }
+  },
+  {
+    "id": "aspirer_bruyamment_1420",
+    "type": "expression_figee",
+    "francais": "aspirer bruyamment",
+    "article": "",
+    "traductions": [
+      {
+        "alsacien": "schlurpfa",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "schlutze",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "aspirer bruyamment.- schlurpfa, schlutze.",
+      "index": 1420
+    }
+  },
+  {
+    "id": "assembl_e_g_n_rale_1434",
+    "type": "expression_figee",
+    "francais": "assemblée générale",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'Generàlversàmmlung",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "assemblée générale.- (l') d'Generàlversàmmlung.",
+      "index": 1434
+    }
+  },
+  {
+    "id": "assembl_e_nationale_1435",
+    "type": "expression_figee",
+    "francais": "assemblée nationale",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'Nàzionàlversàmmlung",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "assemblée nationale.- (l') d'Nàzionàlversàmmlung.",
+      "index": 1435
+    }
+  },
+  {
+    "id": "assembl_e_pl_ni_re_1436",
+    "type": "expression_figee",
+    "francais": "assemblée plénière",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'Vollversàmmlung",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "d'r Plenum",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "assemblée plénière.- (l') d'Vollversàmmlung, d'r Plenum.",
+      "index": 1436
+    }
+  },
+  {
+    "id": "assez_bien_1445",
+    "type": "expression_figee",
+    "francais": "assez bien",
+    "article": "",
+    "traductions": [
+      {
+        "alsacien": "geniagend",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "geniejend",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "assez bien.- geniagend, geniejend.",
+      "index": 1445
+    }
+  },
+  {
+    "id": "assez_grand_1446",
+    "type": "expression_figee",
+    "francais": "assez grand",
+    "article": "",
+    "traductions": [
+      {
+        "alsacien": "groos genüag",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "gross genög",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "assez grand.- groos genüag, gross genög.",
+      "index": 1446
+    }
+  },
+  {
+    "id": "assiette_anglaise_1450",
+    "type": "expression_figee",
+    "francais": "assiette anglaise",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'r Uffschnettaller",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "de Uffschnittdäller",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "assiette anglaise.- (l') d'r Uffschnettaller, de Uffschnittdäller.",
+      "index": 1450
+    }
+  },
+  {
+    "id": "assiette___dessert_1451",
+    "type": "expression_figee",
+    "francais": "assiette à dessert",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "s'Desärtalerla",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "s'Dallerle",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "assiette à dessert.- (l') s'Desärtalerla, s'Dallerle.",
+      "index": 1451
+    }
+  },
+  {
+    "id": "assiette_creuse_1452",
+    "type": "expression_figee",
+    "francais": "assiette creuse",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'r Suppataller",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "assiette creuse.- (l') d'r Suppataller.",
+      "index": 1452
+    }
+  },
+  {
+    "id": "association_de_petits_joueurs_1461",
+    "type": "expression_figee",
+    "francais": "association de petits joueurs",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "s'Kachalaklüb",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "s'Klebberlesverein",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "association de petits joueurs.- (l') s'Kachalaklüb, s'Klebberlesverein.",
+      "index": 1461
+    }
+  },
+  {
+    "id": "association_d_id_es_1462",
+    "type": "expression_figee",
+    "francais": "association d'idées",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'Gedànkaverbendung",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "association d'idées.- (l') d'Gedànkaverbendung.",
+      "index": 1462
+    }
+  },
+  {
+    "id": "association_d_int_r_ts_1463",
+    "type": "expression_figee",
+    "francais": "association d'intérèts",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'Entrassagmainschàft",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "association d'intérèts.- (l') d'Entrassagmainschàft.",
+      "index": 1463
+    }
+  },
+  {
+    "id": "association_d_utilit__publique_1464",
+    "type": "expression_figee",
+    "francais": "association d'utilité publique",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "s'Gmainnetzligaverain",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "association d'utilité publique.- (l') s'Gmainnetzligaverain.",
+      "index": 1464
+    }
+  },
+  {
+    "id": "assoiff__de_plaisir_1467",
+    "type": "expression_figee",
+    "francais": "assoiffé de plaisir",
+    "article": "",
+    "traductions": [
+      {
+        "alsacien": "vergniagungssechtig",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "assoiffé de plaisir.- vergniagungssechtig.",
+      "index": 1467
+    }
+  },
+  {
+    "id": "assoiff__de_sang_1468",
+    "type": "expression_figee",
+    "francais": "assoiffé de sang",
+    "article": "",
+    "traductions": [
+      {
+        "alsacien": "blüatdurschtig",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "assoiffé de sang.- blüatdurschtig.",
+      "index": 1468
+    }
+  },
+  {
+    "id": "assoiff__de_vengeance_1469",
+    "type": "expression_figee",
+    "francais": "assoiffé de vengeance",
+    "article": "",
+    "traductions": [
+      {
+        "alsacien": "ràchsechtig",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "assoiffé de vengeance.- ràchsechtig.",
+      "index": 1469
+    }
+  },
+  {
+    "id": "assumer_son_pass__1488",
+    "type": "expression_figee",
+    "francais": "assumer son passé",
+    "article": "",
+    "traductions": [
+      {
+        "alsacien": "sina Vergàngahait bewaltiga",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "assumer son passé.- sina Vergàngahait bewaltiga.",
+      "index": 1488
+    }
+  },
+  {
+    "id": "assurance_maladie_1492",
+    "type": "expression_figee",
+    "francais": "assurance maladie",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'Krànkaversercherung",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "assurance maladie.- (l') d'Krànkaversercherung.",
+      "index": 1492
+    }
+  },
+  {
+    "id": "assurance_obligatoire_1493",
+    "type": "expression_figee",
+    "francais": "assurance obligatoire",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'Pflechtsversecherung",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "assurance obligatoire.- (l') d'Pflechtsversecherung.",
+      "index": 1493
+    }
+  },
+  {
+    "id": "assurance_tous_risques_1494",
+    "type": "expression_figee",
+    "francais": "assurance tous risques",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'Vollkaskoversecherung",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "assurance tous risques.- (l') d'Vollkaskoversecherung.",
+      "index": 1494
+    }
+  },
+  {
+    "id": "assurer_de_1499",
+    "type": "expression_figee",
+    "francais": "assurer de",
+    "article": "",
+    "traductions": [
+      {
+        "alsacien": "sech züasechera",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "sech vergwessra",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "sisch vergwissere",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "assurer de.- sech züasechera, sech vergwessra, sisch vergwissere.",
+      "index": 1499
+    }
+  },
+  {
+    "id": "attaque__clair_1547",
+    "type": "expression_figee",
+    "francais": "attaque éclair",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'r Schturmàgreff",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "attaque éclair.- (l') d'r Schturmàgreff.",
+      "index": 1547
+    }
+  },
+  {
+    "id": "attendre___1557",
+    "type": "expression_figee",
+    "francais": "attendre à",
+    "article": "(s')",
+    "traductions": [
+      {
+        "alsacien": "sech gfàsst màcha",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "attendre à.- (s') sech gfàsst màcha.",
+      "index": 1557
+    }
+  },
+  {
+    "id": "attendre_impatiemment_1558",
+    "type": "expression_figee",
+    "francais": "attendre impatiemment",
+    "article": "",
+    "traductions": [
+      {
+        "alsacien": "blànga",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "attendre impatiemment.- blànga.",
+      "index": 1558
+    }
+  },
+  {
+    "id": "attentat___la_pudeur_1562",
+    "type": "expression_figee",
+    "francais": "attentat à la pudeur",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'Unzechtliga Hàndlung",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "s'Sittlikaitsvergeh",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "attentat à la pudeur.- (l') d'Unzechtliga Hàndlung, s'Sittlikaitsvergeh.",
+      "index": 1562
+    }
+  },
+  {
+    "id": "attentat_terroriste_1563",
+    "type": "expression_figee",
+    "francais": "attentat terroriste",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'r Tärroràschlàg",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "attentat terroriste.- (l') d'r Tärroràschlàg.",
+      "index": 1563
+    }
+  },
+  {
+    "id": "atterissage_forc__1571",
+    "type": "expression_figee",
+    "francais": "atterissage forcé",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d' Notlàndung",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "atterissage forcé.- (l') d' Notlàndung.",
+      "index": 1571
+    }
+  },
+  {
+    "id": "aucun_cas_1605",
+    "type": "expression_figee",
+    "francais": "aucun cas",
+    "article": "(en)",
+    "traductions": [
+      {
+        "alsacien": "en kaim fàll",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "aucun cas.- (en) en kaim fàll.",
+      "index": 1605
+    }
+  },
+  {
+    "id": "aucune_importance_1606",
+    "type": "expression_figee",
+    "francais": "aucune importance",
+    "article": "",
+    "traductions": [
+      {
+        "alsacien": "s'legt m'r net à",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "aucune importance.- s'legt m'r net à.",
+      "index": 1606
+    }
+  },
+  {
+    "id": "au_dessus_de_1616",
+    "type": "expression_figee",
+    "francais": "au-dessus de",
+    "article": "",
+    "traductions": [
+      {
+        "alsacien": "owadràh",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "owedrànn",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "au-dessus de.- owadràh, owedrànn.",
+      "index": 1616
+    }
+  },
+  {
+    "id": "augmentation_de_la_taxe_sur_le_tabac_1629",
+    "type": "expression_figee",
+    "francais": "augmentation de la taxe sur le tabac",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'Tüwàkschtira-n-ärhehung",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "augmentation de la taxe sur le tabac.- (l') d'Tüwàkschtira-n-ärhehung.",
+      "index": 1629
+    }
+  },
+  {
+    "id": "augmentation_des_imp_ts_1630",
+    "type": "expression_figee",
+    "francais": "augmentation des impôts",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'Schtira-n-ärhehung",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "augmentation des impôts.- (l') d'Schtira-n-ärhehung.",
+      "index": 1630
+    }
+  },
+  {
+    "id": "au_mieux_1634",
+    "type": "expression_figee",
+    "francais": "au mieux",
+    "article": "",
+    "traductions": [
+      {
+        "alsacien": "em bäschta fàll",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "au mieux.- em bäschta fàll.",
+      "index": 1634
+    }
+  },
+  {
+    "id": "au_revoir_1642",
+    "type": "expression_figee",
+    "francais": "au revoir",
+    "article": "",
+    "traductions": [
+      {
+        "alsacien": "orwar",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "àdje",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "uff wederlüaga",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "uff wedersah",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "au revoir.- orwar, àdje, uff wederlüaga, uff wedersah.",
+      "index": 1642
+    }
+  },
+  {
+    "id": "autant_mieux_1655",
+    "type": "expression_figee",
+    "francais": "autant mieux",
+    "article": "(d')",
+    "traductions": [
+      {
+        "alsacien": "um so bässer",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "autant mieux.- (d') um so bässer.",
+      "index": 1655
+    }
+  },
+  {
+    "id": "autant_que_possible_1656",
+    "type": "expression_figee",
+    "francais": "autant que possible",
+    "article": "",
+    "traductions": [
+      {
+        "alsacien": "sovill àss meglig",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "autant que possible.- sovill àss meglig.",
+      "index": 1656
+    }
+  },
+  {
+    "id": "autant_que_rien_1657",
+    "type": "expression_figee",
+    "francais": "autant que rien",
+    "article": "",
+    "traductions": [
+      {
+        "alsacien": "sovill àss nit",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "autant que rien.- sovill àss nit.",
+      "index": 1657
+    }
+  },
+  {
+    "id": "autant_plus_1658",
+    "type": "expression_figee",
+    "francais": "autant plus",
+    "article": "(d')",
+    "traductions": [
+      {
+        "alsacien": "um so mer",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "autant plus.- (d') um so mer.",
+      "index": 1658
+    }
+  },
+  {
+    "id": "auteur_compositeur_interpr_te_1662",
+    "type": "expression_figee",
+    "francais": "auteur compositeur interprète",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'r Liadermàcher",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "de Leedermàcher",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "auteur compositeur interprète.- (l') d'r Liadermàcher, de Leedermàcher.",
+      "index": 1662
+    }
+  },
+  {
+    "id": "auto_lente_1667",
+    "type": "expression_figee",
+    "francais": "auto lente",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'r Rutscher",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "s'Ritscherle",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "auto lente.- (l') d'r Rutscher, s'Ritscherle.",
+      "index": 1667
+    }
+  },
+  {
+    "id": "auto_mitrailleuse_1676",
+    "type": "expression_figee",
+    "francais": "auto mitrailleuse",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'r Schtrosapàntzerwààga",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "auto mitrailleuse.- (l') d'r Schtrosapàntzerwààga.",
+      "index": 1676
+    }
+  },
+  {
+    "id": "autorisation_sp_ciale_1683",
+    "type": "expression_figee",
+    "francais": "autorisation spéciale",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'Sundergnamigung",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "autorisation spéciale.- (l') d'Sundergnamigung.",
+      "index": 1683
+    }
+  },
+  {
+    "id": "autour_de_1692",
+    "type": "expression_figee",
+    "francais": "autour de",
+    "article": "",
+    "traductions": [
+      {
+        "alsacien": "drum umma",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "autour de.- drum umma.",
+      "index": 1692
+    }
+  },
+  {
+    "id": "autour_des_palombes_1693",
+    "type": "expression_figee",
+    "francais": "autour des palombes",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'r Hianerdiab",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "de Schtossvogel",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "autour des palombes.- (l') d'r Hianerdiab, de Schtossvogel.",
+      "index": 1693
+    }
+  },
+  {
+    "id": "auvant_ferm__1702",
+    "type": "expression_figee",
+    "francais": "auvant fermé",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "s'Vorhisla",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "s'Vorhissel",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "auvant fermé.- (l') s'Vorhisla, s'Vorhissel.",
+      "index": 1702
+    }
+  },
+  {
+    "id": "avaler_de_travers_1710",
+    "type": "expression_figee",
+    "francais": "avaler de travers",
+    "article": "",
+    "traductions": [
+      {
+        "alsacien": "sech verschlucka",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "sisch verschluke",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "en d'r latza Hàls bikumma",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "en d'r Suntigshàls geh",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "avaler de travers.- sech verschlucka, sisch verschluke, en d'r latza Hàls bikumma, en d'r Suntigshàls geh.",
+      "index": 1710
+    }
+  },
+  {
+    "id": "avanc_e_de_toit_1714",
+    "type": "expression_figee",
+    "francais": "avancée de toit",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "s'Watterdàch",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "s'Watterdäschel",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "avancée de toit.- (l') s'Watterdàch, s'Watterdäschel.",
+      "index": 1714
+    }
+  },
+  {
+    "id": "avancer_la_montre_1717",
+    "type": "expression_figee",
+    "francais": "avancer la montre",
+    "article": "",
+    "traductions": [
+      {
+        "alsacien": "d'Ühra vorrucka",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "d'Ührrucke",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "avancer la montre.- d'Ühra vorrucka, d'Ührrucke.",
+      "index": 1717
+    }
+  },
+  {
+    "id": "avance_sur_salaire_1718",
+    "type": "expression_figee",
+    "francais": "avance sur salaire",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'r Lohnvorschuss",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "avance sur salaire.- (l') d'r Lohnvorschuss.",
+      "index": 1718
+    }
+  },
+  {
+    "id": "avant_que_1733",
+    "type": "expression_figee",
+    "francais": "avant que",
+    "article": "",
+    "traductions": [
+      {
+        "alsacien": "vor àss",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "ebb",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "avant que.- vor àss, ebb.",
+      "index": 1733
+    }
+  },
+  {
+    "id": "avant_toute_chose_1735",
+    "type": "expression_figee",
+    "francais": "avant toute chose",
+    "article": "",
+    "traductions": [
+      {
+        "alsacien": "z'àllerärscht",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "vor àllem",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "avant toute chose.- z'àllerärscht, vor àllem.",
+      "index": 1735
+    }
+  },
+  {
+    "id": "averse_orageuse_1755",
+    "type": "expression_figee",
+    "francais": "averse orageuse",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'r Gwetterraaga",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "averse orageuse.- (l') d'r Gwetterraaga.",
+      "index": 1755
+    }
+  },
+  {
+    "id": "avion___h_lice_1774",
+    "type": "expression_figee",
+    "francais": "avion à hélice",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "s'Probällerflugzig",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "avion à hélice.- (l') s'Probällerflugzig.",
+      "index": 1774
+    }
+  },
+  {
+    "id": "avion___r_action_1775",
+    "type": "expression_figee",
+    "francais": "avion à réaction",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'r Düsajager",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "de Düsejäjer",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "avion à réaction.- (l') d'r Düsajager, de Düsejäjer.",
+      "index": 1775
+    }
+  },
+  {
+    "id": "avion_de_chasse_1776",
+    "type": "expression_figee",
+    "francais": "avion de chasse",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "s'Jàchtflugzig",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "avion de chasse.- (l') s'Jàchtflugzig.",
+      "index": 1776
+    }
+  },
+  {
+    "id": "avis_de_temp_te_1779",
+    "type": "expression_figee",
+    "francais": "avis de tempête",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'Schturmàkendigung",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "avis de tempête.- (l') d'Schturmàkendigung.",
+      "index": 1779
+    }
+  },
+  {
+    "id": "avocat_commis_d_office_1785",
+    "type": "expression_figee",
+    "francais": "avocat commis d'office",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'r Pflechtsvertaidiger",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "dePflischtzverteidiger",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "avocat commis d'office.- (l') d'r Pflechtsvertaidiger, dePflischtzverteidiger.",
+      "index": 1785
+    }
+  },
+  {
+    "id": "avoir_assez_1789",
+    "type": "expression_figee",
+    "francais": "avoir assez",
+    "article": "(en)",
+    "traductions": [
+      {
+        "alsacien": "d'r Ewerdruss hà",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "avoir assez.- (en) d'r Ewerdruss hà.",
+      "index": 1789
+    }
+  },
+  {
+    "id": "avoir_marre_1790",
+    "type": "expression_figee",
+    "francais": "avoir marre",
+    "article": "(en)",
+    "traductions": [
+      {
+        "alsacien": "sàtt hà",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "avoir marre.- (en) sàtt hà.",
+      "index": 1790
+    }
+  },
+  {
+    "id": "__vous_1796",
+    "type": "expression_figee",
+    "francais": "à vous",
+    "article": "",
+    "traductions": [
+      {
+        "alsacien": "äich",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "eisch",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "à vous.- äich, eisch.",
+      "index": 1796
+    }
+  },
+  {
+    "id": "axe_ferroviaire_1800",
+    "type": "expression_figee",
+    "francais": "axe ferroviaire",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d' Zugverkehrsschträcka",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "d'Isabàhnschträcka",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "axe ferroviaire.- (l') d' Zugverkehrsschträcka, d'Isabàhnschträcka.",
+      "index": 1800
+    }
+  },
+  {
+    "id": "axe_routier_1801",
+    "type": "expression_figee",
+    "francais": "axe routier",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d' Verkehrsoodra",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "axe routier.- (l') d' Verkehrsoodra.",
+      "index": 1801
+    }
+  },
+  {
+    "id": "axe_terrestre_1802",
+    "type": "expression_figee",
+    "francais": "axe terrestre",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'Ardàxa",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "axe terrestre.- (l') d'Ardàxa.",
+      "index": 1802
+    }
+  },
+  {
+    "id": "ayant_droit_1805",
+    "type": "expression_figee",
+    "francais": "ayant droit",
+    "article": "(l')",
+    "traductions": [
+      {
+        "alsacien": "d'r Bezugsberachtigta",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "d'r Àschpruchsberatigt",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "ayant droit.- (l') d'r Bezugsberachtigta, d'r Àschpruchsberatigt.",
+      "index": 1805
+    }
+  }
+]

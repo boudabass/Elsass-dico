@@ -1,49 +1,30 @@
-# Next.js Boilerplate
+# Elsass Dico
 
-A production-ready starter template featuring:
+**Elsass Dico** est une application moderne de traduction Français-Alsacien, conçue pour sauvegarder et promouvoir la langue alsacienne à travers un outil numérique performant et précis.
 
-*   **Framework**: Next.js 15 (App Router)
-*   **Auth**: Supabase Auth (SSR + Middleware protection)
-*   **Database**: Lowdb (Local JSON database)
-*   **UI**: Tailwind CSS + Shadcn/UI
-*   **Deployment**: Docker & Docker Compose ready
+## 🚀 Mission
+Créer l'outil de traduction le plus complet au monde pour l'alsacien. Le projet s'appuie sur le système **ORTHAL 2023** comme base de travail évolutive pour forger un nouveau standard d'**Alsacien Unifié** 100% open-source et libre de droits.
 
-## Features
+## 🛠 Stack Technique
+- **Framework** : Next.js 15 (App Router)
+- **Backend / BDD** : Supabase (PostgreSQL, RLS, pg_trgm, unaccent)
+- **Styling** : Tailwind CSS + Shadcn/UI
+- **Données** : Dictionnaire bidirectionnel (~46 000 entrées)
 
-*   **Authentication**: Complete user management (Login, Register, Admin roles).
-*   **Admin Dashboard**: User management interface included.
-*   **Secure**: Middleware protection for private routes.
-*   **Persistance**: Data stored in `data/storage/db.json` via Docker volumes.
+## 📁 Documentation
+Tous les détails du projet sont disponibles dans le dossier `documentation/` :
+- [01 - PRD](documentation/01-PRD.md) : Vision et fonctionnalités.
+- [02 - Schéma BDD](documentation/02-SCHEMA-BDD.md) : Modèle de données PostgreSQL.
+- [03 - Décisions Techniques](03-DECISIONS-TECHNIQUES.md) : Choix architecturaux.
+- [04 - Architecture Technique](documentation/04-ARCHITECTURE.md) : Flux de données et API.
+- [05 - Import des Données](documentation/05-IMPORT-DONNEES.md) : Processus d'acquisition des données.
+- [06 - Interface UI Public](documentation/06-INTERFACE-UI-PUBLIC.md) : Spécifications de l'expérience utilisateur.
 
-## Getting Started
+## 💻 Installation (Développement)
+1. Cloner le dépôt.
+2. Installer les dépendances : `npm install`.
+3. Configurer le fichier `.env` avec vos clés Supabase.
+4. Lancer le serveur de développement : `npm run dev`.
 
-### Prerequisites
-
-*   Docker & Docker Compose
-*   Node.js (for local dev without Docker)
-
-### Environment Setup
-
-Copy `.env.example` to `.env`:
-
-```bash
-NEXT_PUBLIC_SUPABASE_URL=your_url
-NEXT_PUBLIC_SUPABASE_ANON_KEY=your_key
-SUPABASE_SERVICE_ROLE_KEY=your_service_role_key
-```
-
-### Running with Docker
-
-```bash
-docker compose up -d
-```
-
-Access the app at [http://localhost:3000](http://localhost:3000).
-
-### Project Structure
-
-*   `src/app`: Application routes and pages.
-*   `src/components`: Reusable UI components.
-*   `src/lib`: Core libraries (Database, Supabase client).
-*   `src/app/actions`: Server actions for data mutation.
-*   `data`: persistent storage location.
+---
+© 2026 Elsass Dico - Pour la sauvegarde de notre patrimoine linguistique.

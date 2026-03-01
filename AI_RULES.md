@@ -2,6 +2,12 @@
 
 This document outlines the technology stack and specific library usage guidelines for this Next.js application. Adhering to these rules will help maintain consistency, improve collaboration, and ensure the AI assistant can effectively understand and modify the codebase.
 
+> [!IMPORTANT]
+> **CRITICAL - SUPABASE SELF-HOSTED GUIDE**
+> Before attempting ANY database operations or migrations, you **MUST** read `documentation/SUPABASE_SELF_HOSTED_GUIDE.md`.
+> This project uses a specific self-hosted Supabase configuration with Kong API Gateway that requires a specific approach for DDL operations (`/pg/query` endpoint).
+> **DO NOT try to access the Supabase Studio URL or use standard DDL commands via PostgREST.**
+
 ## Tech Stack Overview
 
 The application is built using the following core technologies:
@@ -22,7 +28,7 @@ The application is built using the following core technologies:
   
 - **Forms**: React Hook Form for managing form state and validation, typically with Zod for schema validation.
   
-- **Database**: JSON database (`lowdb`) - A lightweight, file-based database that runs entirely in JavaScript.
+- **Database**: Supabase (PostgreSQL) - A self-hosted Supabase instance with Auth, RLS, and real-time capabilities.
   
 - **State Management**: Primarily React Context API and built-in React hooks (`useState`, `useReducer`).
   
@@ -64,17 +70,17 @@ To ensure consistency and leverage the chosen stack effectively, please follow t
     
   - **Validation**: Use `zod` for schema-based validation with `react-hook-form` via `@hookform/resolvers`.
     
-5. **Database (JSON Database with `lowdb`)**:
+5. **Database (Supabase PostgreSQL)**:
   
-  - **Integration**: Interact with the JSON database directly using the **`lowdb` library** via the utility functions in `src/lib/database.ts`.
+  - **Integration**: Use the Supabase client via `src/lib/supabase/server.ts` (server-side) or `src/lib/supabase.ts` (client-side).
     
-  - **Schema Extension**: The `DbSchema` interface in `src/lib/database.database.ts` defines the structure of the JSON database. **When a user requests to store new types of data, the AI MUST extend this `DbSchema` interface by adding new properties (e.g., `myCustomData: { ... }[]`) and initialize them as empty arrays/objects in the `Low` constructor's default data.**
+  - **Tables**: `profiles` (user data with roles) and `app_settings` (application configuration).
     
-  - **Persistence**: Any changes to the database (adding, updating, deleting data by modifying `db.data`) **must be explicitly persisted to the `db.json` file by calling `await db.write()`** after the modification.
+  - **Helper Functions**: Use the utility functions in `src/lib/database.ts` for common operations (`getProfile`, `updateProfile`, `getAppSettings`, `updateAppSettings`).
     
-  - **Initialization**: The `db.json` file and its initial structure (`{ examples: [] }`) are automatically created with default empty data when the application first starts, so no manual database setup commands are required.
+  - **RLS**: Row Level Security is enabled on all tables. Users can only access their own data.
     
-  - **Database File**: The `db.json` file is expected to reside in the `/app/data/` directory (or a directory specified by `DATABASE_DIR` environment variable) within the Docker container for persistence via volume mapping.
+  - **Migrations**: SQL migrations are stored in `supabase/migrations/`.
     
 6. **State Management**:
   

@@ -17,7 +17,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Next.js Boilerplate",
-  description: "Supabase + Lowdb + Docker Starter",
+  description: "Supabase + Docker Starter",
 };
 
 export default function RootLayout({

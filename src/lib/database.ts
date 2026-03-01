@@ -1,35 +1,63 @@
-import { JSONFilePreset } from 'lowdb/node';
+import { createClient } from '@/lib/supabase/server';
 
-// Generic Interface for a resource (Example)
-export interface Item {
+export interface Profile {
   id: string;
-  name: string;
-  description: string;
-  createdAt: string;
-  userId?: string; // Ownership
+  email: string | null;
+  role: 'user' | 'admin';
+  updated_at: string;
 }
 
-// Interfaces for User Storage (Settings, Profile, etc.)
-export interface UserData {
-  userId: string;       // ID Supabase
-  updatedAt: string;    // Date de dernière modification
-  payload: any;         // Données libres (settings, profile, etc.)
+export interface AppSettings {
+  id: number;
+  version: string;
+  maintenance: boolean;
+  settings: Record<string, unknown>;
+  updated_at: string;
 }
 
-// Main Database Schema
-export interface DatabaseData {
-  items: Item[];        // Generic collection example
-  users_data: UserData[];
-  app_settings: any;
+/**
+ * Récupère le profil de l'utilisateur connecté
+ */
+export async function getProfile(userId: string): Promise<Profile | null> {
+  const supabase = await createClient();
+  const { data } = await supabase
+    .from('profiles')
+    .select('*')
+    .eq('id', userId)
+    .single();
+  return data;
 }
 
-const defaultData: DatabaseData = { 
-  items: [],
-  users_data: [], 
-  app_settings: { version: "1.0.0", maintenance: false } 
-};
+/**
+ * Met à jour le profil de l'utilisateur
+ */
+export async function updateProfile(userId: string, updates: Partial<Profile>): Promise<void> {
+  const supabase = await createClient();
+  await supabase
+    .from('profiles')
+    .update({ ...updates, updated_at: new Date().toISOString() })
+    .eq('id', userId);
+}
 
-// Singleton pour la connexion DB - Pointant vers le dossier storage demandé
-export const getDb = async () => {
-  return await JSONFilePreset<DatabaseData>('data/storage/db.json', defaultData);
-};
+/**
+ * Récupère les paramètres de l'application
+ */
+export async function getAppSettings(): Promise<AppSettings | null> {
+  const supabase = await createClient();
+  const { data } = await supabase
+    .from('app_settings')
+    .select('*')
+    .single();
+  return data;
+}
+
+/**
+ * Met à jour les paramètres de l'application (admin uniquement)
+ */
+export async function updateAppSettings(updates: Partial<AppSettings>): Promise<void> {
+  const supabase = await createClient();
+  await supabase
+    .from('app_settings')
+    .update({ ...updates, updated_at: new Date().toISOString() })
+    .eq('id', 1);
+}

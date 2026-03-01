@@ -1,0 +1,5652 @@
+ORTHAL 20231
+Table des matières
+ORTHAL 2023 ........................................................................................................................................... 1
+Introduction............................................................................................................................................. 4
+Questions légitimes ................................................................................................................................. 4
+Critères .................................................................................................................................................... 5
+Fil conducteur .......................................................................................................................................... 5
+Majuscules ou minuscules ? .................................................................................................................... 5
+Voyelles (monophtongues) ..................................................................................................................... 7
+Emploi des accents .............................................................................................................................. 7
+Pourquoi écrire < ì > et < à > ? ......................................................................................................... 7
+Pourquoi employer < é > ? ............................................................................................................ 11
+Pourquoi employer < è > ? ............................................................................................................ 11
+La lettre < e > ..................................................................................................................................... 11
+Emploi de < e > en syllabe inaccentuée (atone) correspondant au son /e/ réduit (Murmellütt). 11
+Quelles sont les autres configurations où l’on emploiera < e > pour /e/ réduit ? ........................ 12
+Emplois de < e > en syllabe accentuée (tonique) .......................................................................... 13
+< e > simple.................................................................................................................................... 13
+La lettre < ä > ................................................................................................................................. 14
+Le digramme < ee > ....................................................................................................................... 16
+Le digramme < eh > ....................................................................................................................... 16
+La lettre < ë > ................................................................................................................................. 17
+Les lettres < u > et < ü >................................................................................................................. 17
+La lettre < ù > ................................................................................................................................. 17
+La lettre < œ > ............................................................................................................................... 17
+Les digrammes < aa > et < àà >...................................................................................................... 18
+Le digramme < oo > ....................................................................................................................... 18
+Diphtongues .......................................................................................................................................... 19
+Comment lire < ei > et < ai > ? ........................................................................................................... 19
+Le digraphe < ei > .......................................................................................................................... 19
+Le digraphe < ai >........................................................................................................................... 19
+Comment lire < éi > ? ........................................................................................................................ 20
+
+1
+
+ORTHAL pour « orthographe alsacienne ».
+
+1
+
+Comment lire < èi > ? ........................................................................................................................ 21
+Comment lire < äi > et < ëi > ? ........................................................................................................... 21
+Comment lire < àui > et < ài > ? ......................................................................................................... 21
+Comment lire < oi > ? ........................................................................................................................ 22
+Comment lire < öi > ........................................................................................................................... 22
+Comment lire < oï > ? ........................................................................................................................ 22
+Comment lire < äu > ? ....................................................................................................................... 22
+Comment lire < eu > ? ....................................................................................................................... 23
+Comment lire < aui > ? ...................................................................................................................... 23
+Comment lire < ie > ? ........................................................................................................................ 24
+Comment lire < ia > ?......................................................................................................................... 24
+Comment lire < üe > ? ....................................................................................................................... 25
+Comment lire < üa >? ........................................................................................................................ 25
+Comment lire < ue > ? ....................................................................................................................... 25
+Comment distinguer les voyelles longues et les voyelles brèves ? ....................................................... 26
+Voyelles longues ................................................................................................................................ 26
+Lois de phonétique ........................................................................................................................ 27
+Durée des voyelles devant les suffixes < -le, -la, -lì/lé > des diminutifs ........................................ 27
+Durée des voyelles dans les formes verbales contractées en < -re/-ra > ..................................... 28
+Durée des voyelles devant < ch > .................................................................................................. 28
+Les « mots grammaticaux » monosyllabiques .................................................................................. 29
+Mots grammaticaux » monosyllabiques faisant exception à la règle : V + C = VL ........................ 29
+Mots grammaticaux bisyllabiques ..................................................................................................... 30
+Formes conjuguées ........................................................................................................................... 31
+Comment signaler les changements de durée par rapport à l’infinitif ? ...................................... 32
+Exemples de diphtongaison et de relâchement articulatoire (palatalisation) < g – j > pour les
+parlers de Mulhouse et de Colmar ................................................................................................ 33
+Consonnes ............................................................................................................................................. 35
+Emploi de la lettre < h > .................................................................................................................... 36
+Faut-il employer < h > d’allongement derrière une diphtongue ? .................................................... 36
+Alternative au < ß > ........................................................................................................................... 37
+Emploi de < der >............................................................................................................................... 40
+Emploi de < d >, < di > et < die > ....................................................................................................... 40
+L’article défini < d > et < di > ......................................................................................................... 40
+Le pronom et l’adjectif possessif < di > ......................................................................................... 40
+Le démonstratif féminin singulier et pluriel < die > ...................................................................... 40
+2
+
+Comment écrire le pronom impersonnel on ? .................................................................................. 41
+Quand employer l’apostrophe ? ....................................................................................................... 41
+Emploi de < m’r > et de < d’r > ...................................................................................................... 41
+Emploi de < ’s > avec les verbes impersonnels ............................................................................. 41
+Emploi de < ’s > avec d’autres catégories verbales ....................................................................... 42
+Emploi de l’apostrophe dans les formes contractées : ................................................................. 42
+Les formes contractées associant une préposition à un pronom personnel au datif ................... 42
+Emploi de l’apostrophe pour les formes contractées associant une préposition à ...................... 42
+l’article défini au datif ................................................................................................................... 42
+Emploi de l’apostrophe pour les formes contractées associant une préposition à l’article indéfini
+au datif........................................................................................................................................... 43
+Emploi de l’apostrophe pour les formes contractées associant une préposition à un pronom
+personnel à l’accusatif ................................................................................................................... 43
+Quand peut-on faire l’économie de l’apostrophe ? ....................................................................... 43
+Quand utiliser le trait d’union ? ........................................................................................................ 44
+Comment reconnaître la coupure syllabique ? ................................................................................. 44
+La coupure syllabique dans les diminutifs ..................................................................................... 44
+La coupure syllabique dans les mots composés............................................................................ 44
+Comment éviter le triplement de consonnes ? ............................................................................. 45
+Conclusion ............................................................................................................................................. 45
+Tableaux – ORTHAL ............................................................................................................................... 46
+Tableau A - Correspondance des lettres et des sons (phones) ......................................................... 46
+Voyelles ......................................................................................................................................... 46
+Diphtongues .................................................................................................................................. 52
+Semi-consonne .............................................................................................................................. 55
+Consonnnes ................................................................................................................................... 56
+Tableau B – Correspondance des sons (phones) et des lettres (graphèmes) ................................... 60
+Dans le tableau B et sur notre site www.agate-orthal.fr et, nous utilisons trois couleurs différentes
+pour faciliter la localisation des variantes dialectales : ..................................................................... 60
+Les voyelles (monophtongues) ...................................................................................................... 60
+Les voyelles complexes ou diphtongues ....................................................................................... 71
+La semi-consonne < j > .................................................................................................................. 76
+Les consonnes................................................................................................................................ 77
+En résumé .............................................................................................................................................. 84
+Synopsis des choix orthographiques de la méthode ORTHAL............................................................... 84
+Annexe ................................................................................................................................................... 90
+
+3
+
+Liste alphabétique des termes usuels orthographiés avec < h > d’allongement de la voyelle
+(monophtongue) précédente. ........................................................................................................... 90
+Index – Wortregister ........................................................................................................................... 100
+
+Introduction
+Après deux symposiums consacrés à la meilleure manière d’écrire l’alsacien en 2003 et de
+nombreuses dictées organisées dans toute l’Alsace par de futurs membres de l’association AGATe2,
+qui ont touché plus de 400 personnes, ORTHAL est née en 2008 et a été conçue par Edgar Zeidler et
+Danielle Crévenat-Werner, linguistes et dialectologues et membres co-fondateurs de l’association
+AGATe.
+Lors de l’Assemblée Générale de l’association AGATe le 10 septembre 2022 à Colmar, il a été
+convenu d’apporter des compléments et des précisions à la version historique de la méthode ORTHAL.
+En 2023, Edgar Zeidler, après une lecture attentive du mémoire en master Sciences du langage,
+Quelle(s) norme(s) pour l’écriture de l’alsacien en 2022 de Nathanaël Beiner, sous la direction de
+Pascale Erhart et de Anne Theissen, propose aux membres de l’AGATe et à la communauté linguistique
+d’Alsace une nouvelle version d’ORTHAL, baptisée ORTHAL 2023.
+Sans renier les choix de la version historique, ORTHAL 2023 tient compte des changements
+sociolinguistiques qui se sont opérés en Alsace entre 2008 et 2023 et s’ouvre davantage à un public
+sans prérequis en allemand. Pour ce faire, le système élargit le choix entre plusieurs graphies
+équivalentes et offre aux utilisateurs un plus grand espace de liberté.
+La méthode ORTHAL est la propriété intellectuelle de l’association AGATe.
+
+Questions légitimes
+Est-ce que « ORTHAL 2023 »…
+-
+
+2
+
+propose une orthographe cohérente valable pour l’ensemble des dialectes alsaciens ? OUI !
+tient compte de de l’image graphique de l’allemand standard ? OUI !
+s’appuie sur un alsacien standardisé ? NON !
+permet de transcrire les principales variétés dialectales en usage ? OUI !
+est conçu pour permettre à tout un chacun de lire et d’écrire l’alsacien : OUI !
+s’adresse autant à un public germanophone et à des germanistes qu’à des apprenants sans
+prérequis en allemand : OUI !
+est évolutif ? OUI !
+
+AGATe : Académie pour une Graphie Alsacienne Transfrontalière
+
+4
+
+Critères
+ORTHAL repose sur trois critères fondamentaux :
+1. La référence graphique, hormis l’emploi de l’accent grave et de l’accent aigu du français, est
+l’alphabet allemand.
+2. La graphie doit être lisible par un public large, notamment par des lecteurs non-initiés aux
+différentes variations dialectales.
+3. La graphie doit être agréable à l’œil, sans surcharge inutile3, aisément identifiable comme
+étant de l’alsacien4, reproductible à la fois par des apprenants germanophones ou
+germanistes que par des apprenants qui n’ont pas de prérequis en allemand.
+
+Fil conducteur
+ORTHAL ne cherche pas à transcrire orthographiquement dans le moindre détail toutes les variations
+de « l’arc-en-ciel dialectal », mais propose un système orthographique cohérent, respectueux de la
+plupart des prononciations en usage en 2023.
+Le fil conducteur qui a guidé les concepteurs de la méthode ORTHAL se résume ainsi :
+„So nooch àn der elsassisch Üssproch wie mäjlig, so nooch àm Hochditsche wie neetig.“
+Épouser au mieux les prononciations de la langue alsacienne et célébrer avec la langue allemande un
+mariage de raison.
+Il est temps à présent d’entrer dans le vif du sujet.
+
+Majuscules ou minuscules ?
+Majuscule
+- Au début d’une phrase, après un point, double point, point d’interrogation et d’exclamation
+- Noms communs (substantifs) :
+Korb, corbeille, Pfànn, casserole ; Hüss, maison, Litt, gens
+- Noms propres :
+Schmidt, Charles
+- Toponymes, noms géographiques :
+3
+
+Nous entendons par là surcharge, pour un même mot, de signes diacritiques, doublement systématique des
+voyelles longues et triplement de consonnes.
+4
+Ce terme, compréhensible par le grand public, n’est pas scientifique. Il recouvre les différentes familles
+dialectales parlées sur le territoire alsacien, à savoir du sud au nord : le haut-alémanique (HA), le basalémanique du sud (BAS), le bas-alémanique du nord (BAN), le francique rhénan lorrain parlé en Alsace-Bossue
+(FRL) et le francique méridional palatin (FMP) parlé dans la région de Wissembourg.
+
+5
+
+-
+
+-
+
+Mìlhüsa, Colmer, Strosbùrig, Elsàss, Pàris, Frànkrich, Berlin, Ditschlànd, Europa, Àtlàntik
+Noms dérivés de toponymes ou noms géographiques :
+e/a Colmerer, e/a Mìlhüser, e/a Strosbùrjer, e/a Elsasser, e/a Frànzos, e/a Berliner, e/a
+Ditscher, e/a Europäer
+Notions et événements historiques :
+Bàsler Leckerli, d Weimarer Repüblik, der Zweit Waltkrieg
+Adjectifs et verbes substantivés :
+ebbis Scheens, quelque chose de beau, s Trìnke, le boire
+Pronoms à la forme de politesse :
+Ìhr, Ìhne, Èich, Sìe, vous
+Adjectifs possessifs à la forme de politesse :
+Wie heist Èiri (68) / Ìhri (67) Tochter, Màdàm Meyer? Comment s’appelle votre fille, Madame
+Meyer ?
+Wie geht’s ìn Èirem (68) / Ìhrem (67) Mànn, Màdàm Meyer ? Comment va votre mari, Madame
+Meyer ?
+
+Minuscule
+- Tous les mots, hormis ceux mentionnés ci-dessus, après virgule, point-virgule, ou points de
+suspension
+- Articles définis et indéfinis :
+der, de, d, di, s, e, a
+- Démonstratifs :
+die/dia, da, dar, dër, dënne, dàs, däs, dìs
+- Pronoms personnels (sauf forme de politesse) :
+ich, mich, mìr, dü, dich, dìr, ar, as, es ìhns, ìhn, ìhm, sìe, ìhr, as, ìhm, mìr, uns, ìhr, èich, sìe
+- Interrogatifs, pronoms relatifs :
+wo, wer, wenn, wann, wàs, wie, wie viel/wia vìel, wurum/worùm, wieso/wiaso etc.
+- Indéfinis :
+àlles, tout; àlli/àlla, tous, toutes
+- Adjectifs :
+wohr: Dia/Die Gschìcht ìsch wohr. Cette histoire est vraie.
+bràv: Dàs ìsch e/a bràv Kìnd. C’est un enfant obéissant.
+scheen: Dàs ìsch e/a scheeni/scheena Gschìcht. C’est une belle histoire.
+- Déterminatifs indéfinis :
+viel, wenig/wennig, manki/manschi/mànischi, gwìssi/gwìssa, einigi, e/a pààr5 etc.
+- Adverbes :
+garn: Ich fàhr garn. J’aime bien rouler.
+gschnall: Sìe reddt gschnall. Elle parle vite.
+- Prépositions :
+ìn, üs, üf/uf/ùf, ìber/ìwwer/, mìt, ohne/ohna/ohni, nawe/nawa/naba, zwìsche/zwìscha,
+unter/ùnter/ìnger etc.
+- Conjonctions :
+un/ùn, àber, àwwer, denn, wil, àss, dàss, wo, bis, ob, äb etc.
+- Verbes :
+schàffe/schàffa, travailler; schriwe/schriwa/schriba, écrire
+À vous de jouer!
+Majuscule ou minuscule?
+5
+
+e/a Pààr s’écrit avec majuscule, puisqu’il s’agit d’un substantif. (cf. Ehpààr, couple marié; e Pààr Schüe, une
+paire de chaussures)
+
+6
+
+Dans le texte suivant, tous les mots sont en minuscule. Armez-vous d’un feutre et soulignez les
+lettres écrites de façon erronée ! Réécrivez le texte, et confrontez le vôtre avec la solution
+préconisée !
+Texte6 illustrant une variété dialectale en usage dans le Haut-Rhin (68)
+as sìn amol viar kleina hàsa gsì. sa han flopsi, mopsi un peter gheisa. sa han mìt ìhra müater ìme
+sàndloch glabt, unter da wurzla vun’ra sehr scheena tànna.
+et dans le Bas-Rhin (67)
+es sìn emol vìer klëëni hasle gewann. sie hàn flopsi, mopsi, boemwollwaddele ùn peter ghëise. sie hàn
+mìt ìhrer mueter ìme sàndloch gelabt, ìnger de wùrzle vùn ere àri grose tànn.
+Solutions
+(68)
+As sìn amol viar kleina Hàsa gsì. Sa han Flopsi, Mopsi, Bàuimwullawadala un Peter gheisa. Sa han mìt
+ìhra Müater ìme Sàndloch glabt, unter da Wurzla vun’ra sehr scheena Tànna.
+(67)
+Es sìn emol vìer klëëni Hasle gewann. Sie hàn Flopsi, Mopsi, Boemwollwaddele ùn Peter ghëise. Sie hàn
+mìt ìhrer Mueter ìme Sàndloch gelabt, ìnger de Wùrzle vùn ere àri grose Tànn.
+
+Voyelles (monophtongues)
+Emploi des accents
+Pourquoi écrire < ì > et < à > ?
+ORTHAL a recours à l’accent grave du français dans deux cas de figure emblématiques qui sont les
+piliers de la méthode ORTHAL.
+Il s’agit de différencier /i/ fermé, orthographié < i > de /i/ très ouvert, orthographié < ì >. Il convient
+également de ne pas confondre /a/ clair orthographié < a >, et /a/ sombre, voilé, orthographié < à >.
+Ces distinctions sont pertinentes sur le plan phonologique, orthographique et grammatical, car elles
+concernent des termes qui forment des oppositions distinctives :
+a) Différenciation de l’infinitif et du participe passé
+schliffe # gschlìffe, aiguiser – aiguisé
+verrisse # verrìsse, déchirer – déchiré
+b) Différenciation sémantique
+6
+
+Extrait de Peter Hàs – Pierre Lapin, éditions MK 67, Rhinau, 2022.
+
+7
+
+wisse # wìsse, blancs - savoir
+dànke # danke, remercier - penser
+c) Différenciation du singulier et du pluriel
+Mànn # Manner, homme - hommes
+Gàns # Gans, oie - oies
+d) Différenciation entre le terme de base et le diminutif
+Pàck # Packla, paquet – petit paquet
+Gàss # Gassla, rue – ruelle
+Dans l’introduction, nous avons signalé que la différenciation graphique entre /a/ clair et /a/ sombre
+est un trait marquant du système Orthal. Nous l’avons illustré avec l’exemple emblématique dànke /
+dànka, remercier, danken, et danke / danka, penser, denken.
+Différentiation de /a/ clair et /a/ voilé (sombre)
+Prenons l’exemple :
+Le chemin du chasseur suit la rivière.
+Choisissez une des trois façons d‘écrire : a, b ou c.
+Chacune est présentée sous une forme double : une variante en usage dans le Bas-Rhin (67) et une
+autre dans le Haut-Rhin (68)7
+a) De Waj vom Jajer geht am Bach entlang. (67)
+a) Der Wag vum Jager geht am Bach entlang. (68)
+b) De Waj vom Jajer geht àm Bàch entlàng. (67)
+b) Der Wag vum Jager geht àm Bàch entlàng. (68)
+c) De Wàj vom Jàjer geht am Bach entlang. (67)
+c) Der Wàg vum Jàger geht am Bach entlang. (68)
+Commentaire
+a) Si la graphie ne tient pas compte des deux prononciations très différentes des deux /a/
+quelqu’un qui ne maîtrise pas parfaitement l’alsacien lira tous les exemples avec /a/ clair. Si
+l’on ne distingue pas par écrit /a/ clair et /a/ voilé ou sombre, on complique inutilement la
+tâche à tout apprenant ou néophyte. La prononciation de chaque mot contenant < a >
+devrait être mémorisée, ce qui à terme peut s’avérer fastidieux et décourager plus d’un.
+b) Le choix de marquer /a/ dans par ex. Bàch signale au lecteur qu’il convient de le lire
+autrement que < a > dans Waj, Jajer (67), Wag, Jager (68). Un lecteur familier de la langue
+allemande réagira attentivement à ce marquage, et pensera que Bàch, en alsacien, doit être
+prononcé différemment que „Bach“ en allemand. Même des lecteurs francophones
+devraient assez rapidement comprendre qu’un accent sur une lettre en modifie sa
+prononciation de base. ORTHAL a choisi par conséquent de marquer /a/ sombre avec
+l’accent grave et ce en dépit de vieilles habitude passées chez certains auteurs haut-rhinois
+comme l’illustre la ligne c).
+Exercice
+7
+
+67 renvoie aussi aux aires linguistiques bas-alémanique du nord et francique. 68 renvoie aussi à deux aires
+linguistiques : bas-alémanique du sud et haut-alémanique.
+
+8
+
+Traduisez cette phrase en alsacien
+Le chasseur part à la chasse. Il voit un chat qui se moque de lui..
+De J_jer geht ùf d J_cht. Er seht e K_tz, wo ne üsl_cht. (67)
+Der J_ger geht uf d J_cht. Ar seht a K_tz, wu na üsl_cht. (68)
+Solution
+Hormis Jajer ou Jager, tous les autres mots sont prononcés avec < a > sombre.
+De Jajer geht ùf d Jàcht ùn seht e Kàtz, wo ne üslàcht. (67)
+Der Jager geht uf d Jàcht un seht a Kàtz, wu na üslàcht. (68)
+Voici en illustration, quelques comparaisons entre l’alsacien et l’allemand avec /a/ clair et /a/
+sombre :
+anfangen – ànfànge (67); fahren – fàhre (67); Hammer – Hàmmer (67 + 68); Krach – Kràch (67 + 68)
+laden – làde (67); lachen – làche (67); Magd – Màgd (67 + 68); machen – màcha (68); Mann – Mànn
+(67 + 68); Nagel – Nàgel (68); Tag – Tàg (68) ; Wasser – Wàsser (67 + 68); Zahn – Zàhn (67 + 68)
+Si un son ou phone n’existe pas dans aucune des deux langues référentes (français, allemand), il faut
+inventer un nouveau graphème (signe graphique) C’est le cas pour le très répandu /i/ très ouvert
+proche de /e/ fermé. Mais avant d’expliquer le choix d’ORTHAL, nous vous invitons à vous confronter
+vous-mêmes au problème.
+Exercice
+Traduisez cette phrase en alsacien et optez pour l’une des solutions proposées.
+Sepp Deck n’est pas très gros.
+a) De Seppi Deck isch nit sehr dick. (67)8
+a) Der Seppi Deck isch nit sehr dick. (68)9
+b) De Seppi Deck esch net sehr deck. (67)
+b) Der Seppi Deck esch net sehr deck. (68)
+c) De Seppi Deck ésch nét séhr déck. (67)
+c) Der Seppi Deck ésch nét séhr déck. (68)
+d) De Seppi Deck ìsch nìt sehr dìck. (67)
+d) Der Seppi Deck ìsch nìt sehr dìck (68)
+Commentaire
+a) D’emblée, on reconnaîtra tous les < i > comme /i/ fermé et on prononcera isch nit dick
+exactement comme < i > dans Seppi. Comment un apprenant ou un lecteur néophyte
+pourraient-ils distinguer /i/ fermé de /i/ très ouvert proche de < é > ?
+b) Deux phones (sons) différents ne sont pas différenciés orthographiquement. Le phone /i/
+très ouvert de l‘adjectif deck est orthographié de la même façon que le nom propre Deck,
+8
+9
+
+67 illustre une des variantes en usage dans le Bas-Rhin.
+68 illustre une des variantes en usage dans le Haut-Rhin.
+
+9
+
+prononcé avec /e/ ouvert, < è >. Les familiers de l’orthographe allemande prononceront et
+liront spontanément les deux mots avec < è > De surcroît, net sera lu aussi avec /e/ ouvert,
+notamment par des francophones, qui connaissent « net », sans parler du « net » ou
+d’Internet. Seule la prononciation de sehr ne devrait pas poser de problème. À cet endroit, il
+nous faut rappeler une particularité de l’Alsace. L’Alsacien, qui est soumis à la fois à
+l’influence du français et de l’allemand, lira plus ou moins spontanément la lettre < e >
+comme < è > quand elle est suivie de plusieurs consonnes ou de consonnes doublées. C’est le
+cas en général dans les deux langues :
+belle, certain, recherche, perte ; Dreck, essen, Kette, helfen.
+Par conséquent, Allemands et Français liront /e/ dans la séquence : esch net deck, comme
+/e/ dans in Seppi et Deck.
+c) Le problème de l’accentuation « à la française »
+Il existe quelques adeptes de l’accentuation sur le modèle français qui plaident pour l’emploi
+des accents aigu, grave et circonflexe. Le principal argument serait une meilleure lisibilité
+pour les francophones. Mais leur emploi systématique conduirait à un foisonnement
+d’accents qui défigurerait la graphie de l’alsacien. Par ailleurs, l’alsacien perdrait son
+caractère originel, celui d’une langue germanique, un ensemble constitué de francique et
+d’alémanique. C’est pour cette raison qu’ORTHAL n’emploie des accents français uniquement
+quand cela est pertinent, comme par ex. pour différencier des prononciations différentes
+pour un même mot :
+Lehrer, Lèhrer, professeur ; kè, kei, aucun(e), pas de… ; fréi, frèi, libre.
+Imaginons la phrase suivante avec une accentuation systématique à la française :
+Mes meilleurs amis font tout pour moi, même l‘impossible. Ce n’est pas beau, ça ?
+Minni bèschte Frénd géhn fér misch durisch déck ùn dénn. Ésch dés nét schén ? (67)
+Minna bèschta Frénd géhn fér méch dur déck un dénn. Ésch dàs nét schén ? (68)
+La référence à la langue allemande est presque entièrement gommée et la graphie semble
+surchargée.
+d) Le graphème innovant < ì > est la pierre angulaire du système ORTHAL. Il offre l’avantage
+d’éviter l’emploi de < é > dans presque toutes les occurrences. Il permet de différencier/é/
+de /è/ ce qui dans la ligne b) n’est absolument pas le cas. D’une part, ce choix rend la chose
+plus compliquée pour les apprenants sans prérequis en allemand, mais d’autre part, il illustre
+la proximité avec l’allemand écrit :
+ìch bìn – ich bin; dìck – dick; ìhr – ihr; mìt – mit; nìt – nicht; Kìnd – Kind; Wìlle – Wille; nìmm!
+– nimm!
+On peut réaliser < ì > sans problème : sur PC (Windows) soit actionner en même temps la touche alt
+gr et accent grave, puis actionner la touche < i > minuscule ou majuscule. Ou bien, appuyer sur alt
+141 pour < ì > minuscule et alt 222 pour < Ì > majuscule.
+
+Voyons ce que donne la phrase ci-dessus en ORTHAL :
+10
+
+Minni beschte Frìnd gehn fìr misch durisch dìck ùn dìnn. Ìsch dìs nìt scheen ? (67)
+Minna beschta Frìnd gehn fìr mìch dur dìck un dìnn. Ìsch dàs nìt scheen ? (68)
+Commentaire : L’emploi des accents est limité au strict nécessaire. La proximité de l’allemand écrit
+saute aux yeux.
+Exercice
+Traduisez en alsacien :
+L’aubergiste Emma mange tous les jours des kilos de poissons et grossit de plus en plus.
+D W_rt_n Emma _sst j_de Dàj k_low_s F_sch ùn wùrd _mmer d_cker. (67)
+D W_rt_n Emma _sst j_de Tàg k_low_s F_sch un w_rd _mmer d_cker. (68)
+Solution
+D Wìrtin10 Emma ìsst jede Dàj kilowis Fìsch ùn wùrd ìmmer dìcker. (67)
+D Wìrtin Emma ìsst jeda Tàg kilowis Fìsch un wìrd ìmmer dìcker (68)
+
+Pourquoi employer < é > ?
+Nous employons < é > pour transcrire la diphtongue /éi/, [ei], courante dans le Val de Munster. C’est
+la seule façon de la distinguer de < ei > [ai] ou de < èi > [ɛi] :
+dréi [drei], trois # Heimet [′haimət], pays natal
+fréi [frei], libre # Frèiheit [′frɛi″hait], liberté
+
+Pourquoi employer < è > ?
+Pour illustrer le continuum géolinguistique entre Lehrer et Lèhrer, et indiquer la différence
+d’aperture entre /e/ fermé et long [eː] et /e/ ouvert et long [ɛː], il est recommandé de transcrire [ɛ]
+orthographiquement par < è >. Mais < ä > est une alternative :
+Lèhrer [′lɛːrər] est préférable à Lährer dont l’orthographe est trop éloignée du terme référent Lehrer
+[′leːrər].
+En outre, < è > permet de bien orthographier la diphtongue [ɛi] tout en restant proche du
+« Schiftbild » allemand : drèi [drɛi], trois, drei ; frèi [frɛi], libre, frei
+Finalement, < è > permet de lever toute ambiguïté quant à la prononciation de kè, aucun, pas de, et
+là encore de souligner la proximité avec la variante kei.
+
+La lettre < e >
+Emploi de < e > en syllabe inaccentuée (atone) correspondant au son /e/ réduit (Murmellütt)
+La tendance des parlers du bas-alémanique du sud et du haut-alémanique de prononcer avec /a/
+clair l’article indéfini un, une, et de marteler davantage la syllabe finale, où l’on entend plutôt /a/
+clair que /e/ réduit, conduit logiquement tout scripteur au sud du « Landgraben » à écrire :
+10
+
+Variante : D’Wìrtin
+
+11
+
+a Mànn [a] [mɒn], un homme
+màcha [′mɒxa], faire
+lasa [′laːsa], lire
+Maidla [′maidla]
+ORTHAL permet de souligner cette différence de prononciation en proposant < a > dans ces cas de
+figure.
+Pour les aires linguistiques du francique et du bas alémanique du nord, où est plutôt réalisé /e/
+réduit [ə], ORTHAL emploie < e >. Ce faisant, ORTHAL se réfère aussi aux auteurs qui ont choisi
+d’employer < e > pour distinguer les syllabes accentuées (toniques) des syllabes non accentuées
+(atones), notamment pour orthographier l’article indéfini ou les syllabes finales en < e >.
+À l’instar de nos voisins badois et suisses, les scripteurs au nord du « Landgraben » écrirons11 :
+e Mànn, un homme
+màche, faire
+lase, écrire
+Maidle, jeunes filles
+L’article défini, prononcé avec /e/ réduit12 [ə], baptisé « Murmellütt », son murmuré, s’écrira
+respectivement :
+-
+
+de [də], dans l’aire linguistique du bas-alémanique du nord (BAN) et dans celles du francique
+(FR) de l’Alsace Bossue et de la région de Wissembourg :
+de Mànn [də] [mɒn], l’homme
+
+-
+
+der 13[dər], dans l’aire du bas-alémanique du sud (BAS) et dans celle du haut-alémanique
+(HA) :
+der Mànn [dər] [mɒn], l’homme
+
+Quelles sont les autres configurations où l’on emploiera < e > pour /e/ réduit ?
+Ce sera le cas pour les syllabes inaccentuées suivantes :
+
+
+
+
+La syllabe en -end :
+wahrend [′vaːrənd], pendant
+La syllabe en -el :
+Maidel [′maidəl], jeune fille
+Les syllabes en -ersch :
+
+11
+
+Les scripteurs au sud du « Langraben », opposés à l’emploi de < a > en finale et pour écrire l’article indéfini,
+sont libres d’employer < e > dans ces cas de figure et écrire : e Maidle, une (jeune) fille ; lase, lire.
+12
+Il s’agit d’un phonème qui s’amuït, mais qui n’est pas muet comme dans la séquence : « une belle femme ».
+En alsacien, il se prononce [ə], comme dans la séquence en français : « il porte beau. »
+13
+Variantes : dr, d’r. Il ne sera pas confondu avec le démonstratif en usage en Basse-Alsace : dër [dæːr]
+
+12
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+dü zìttersch [′tsɪtərʃ], tu trembles
+Les syllabes en -ert :
+’s dundert [′dundərt], il tonne
+Les terminaisons en -et, fréquentes dans le Sundgau :
+ar zìtteret [′tsɪtərət], il tremble
+Les suffixes dans les formes comparatives en -er :
+schnaller [′ʃnalər], plus vite
+Les syllabes finales en -ens :
+zweitens [′tsvaitəns], deuxièmement
+Les syllabes finales en -erscht :
+bsunderscht [′bsundərʃt], particulièrement
+Les désinences en -er ou -es des adjectifs déclinés au nominatif et accusatif masculins
+singuliers :
+e intrassànter [′intra″sɒntər] Romàn / e intrassàntes [′intra″sɒntəs] Büech, un roman / un livre
+intéressant
+Les syllabes inaccentuées ou faiblement accentuées comportant < e > (la syllabe accentuée est
+en gras) :
+Verzìcht [fər′tsɪxt], renonciation ; bekumme [bə′kumə], recevoir ; hoffentlig [′hɔfəntlig],
+espérons
+Le pronom impersonnel es [əs] qui est inaccentué et le plus souvent postposé :
+Ich hoff, àss es làngt, j’espère que cela suffit
+As weis es. Elle le sait.
+Employé en début de phrase, es est le plus souvent prononcé de façon abrégée. Nous
+signalons l’élision de < e > par l’apostrophe (cf. emploi de < ’s > ) :
+Es horricht nìt. →’s horricht nìt. Elle n’écoute pas.
+Le pronom personnel se [sə], variante de sìe [sɪː] ou de sie [siː] postposé au verbe est
+inaccentué :
+Wàs màcht se? Que fait-elle ?
+Wàs màche se? Que font-ils /-elles
+
+Emplois de < e > en syllabe accentuée (tonique)
+< e > simple
+La lettre < e > a la valeur de /e/ fermé et long [eː] dans quelques rares exemples :
+bewega [bə′veːga], bouger, déplacer
+gega14 [′geːga], contre
+
+14
+
+Il faut bien sûr inclure les termes dérivés et apparentés comme par ex. s Gegateil, le contraire
+
+13
+
+jeder [′jeːdər], chacun
+Kolleg [ko′leːg]
+ledig [leːdig], célibataire
+lega [′leːga], poser, coucher
+Red [reːd], discours
+reda [′reːda], parler
+ORTHAL emploie également < e > pour transcrire le son /e/ ouvert et bref [ɛ]. C’est le cas lorsque
+< e > est suivi de plusieurs consonnes.
+Nous avons en effet deux références : le français et l’allemand. Dans un tel environnement
+consonantique, < e > est prononcé /è/ en français (F) et en allemand (D) :
+F : geste, peste, verre, vert, belle, pelleteuse, détestation, mettre etc.
+D: gestern (hier) ; wetten (parier) ; kennen (connaître) ; schrecklich (terrible) ; Herr (monsieur)
+Nous proposons donc :
+dert, [dɛrt] là-bas
+gejje [′gɛjə], contre
+Gejjner [′gɛjnər], adversaire
+geschtert [′gɛʃtərt], hier
+kenne [′kɛnə], connaître
+Metzger [′mɛtsgər], boucher
+Schrecke [′ʃrɛkə], effroi
+wette [′vɛtə], parier
+zerscht [tsɛrʃt], d’abord
+
+La lettre < ä >
+La lettre < ä > correspond le plus souvent au son /e/ ouvert [ɛ], bref ou long [ɛː] :
+Elle peut s’employer à la place de < e > et des formes comme därt, gäjje, Gäjjner, gäschtert, Mätzger,
+Schräcke, wätte, zärscht sont une alternative, dans la mesure où la lisibilité n’est pas entravée.
+Nous conseillons de toujours employer < ä > pour les formes du conditionnel des auxiliaires sì(n) et
+hà(n) :
+sìe wär, elle serait
+sìe hätt, elle aurait
+mìr wäre / wära, nous serions
+mìr hätte / hätta, nous aurions
+L’emploi de < ä > permet d’éviter que des homonymes soient homographes, c’est-à-dire que des
+homonymes s’écrivent de la même façon :
+(lìnker) Beck, arrière gauche # Bäck, boulanger
+känne, pouvoir # kenne, connaître
+d Kälte, le froid # d Kelte, les Celtes
+14
+
+Il nous paraît également judicieux d’employer < ä > pour quelques « mots-calque » par rapport à
+l’allemand :
+Äpfel, pomme(s), Äpfel
+März, mars, März
+nähre / nähra, nourrir, nähren
+wähle / wähla, choisir, élire, wählen
+Wäsch, linge, Wäsche
+On peut également réserver < ä > à quelques pluriels et à quelques formes dérivées présentant
+l’alternance vocalique < à - ä > ou < o - ä > :
+Glàs – Gläser, verres
+Gràs – Gräser, herbes
+Gàscht - Gäscht, invités
+kàlt – kälter – (der) kältscht; froid – plus froid - le plus froid
+kàlt – verkälta / verkälte, enrhumé, refroidi
+làng – länger - (der) längscht, long – plus long - le plus long
+Bàhnhoff – Bàhnhäff, gares
+Koch – Käch, cuisiniers
+Koch – Kächene, cuisinière
+Dorf – Därfer, villages
+Loch – Lächer, trous
+bàche, cuire au four, - Bäck, boulanger
+Nàhrùng, nourriture – nähra / nähre, nourrir
+Wàhle, élections – wähla / wähle, voter ; Wähler, électeur
+
+Enfin, < ä > est recommandé pour quelques emprunts au français ou à l’allemand :
+s Nésésär, le nécéssaire
+s Militär, l’armée, das Militär
+Mais < ä > pourra aussi correspondre, en bas-alémanique du nord et en francique, au son /e/ très
+ouvert dans des formes dérivées de termes s’écrivant avec < a > ou < à > :
+s Bànd – s Bändel, le ruban, la décoration
+s Lànd – s Ländel, le pays, le petit pays (l’Alsace)
+Exercice 1 : Comment écrire ?
+Le professeur connaît une blague en alsacien.
+D_ H_rr L_hr_r k_nnt e Wìtz ùf Els_ssisch (67)15
+
+15
+
+67 correspond à une variante en usage en Basse-Alsace
+
+15
+
+D_r H_rr L_hr_r k_nnt a Wìtz uf Elsassisch (68)16
+Exercice 2 : Comment écrire ?
+L‘élève au dernier rang pourrait raconter une blague en alsacien.
+De Schìeler ìn de l_ tscht Reih k_nnt e Wìtz ùf Els_ssisch verz_hle (67)
+Der Schialer ìn der l_tschta Reiha k_nnt a Wìtz uf Elsassisch verz_hla. (68)
+***
+Solutions 1 et 2 : il s’agit avant tout de distinguer kenne / kenna, connaître de känne / känna,
+pouvoir. Dazu die Unterscheidung zwischen < a > und < ä > im Wort Elsässisch (Unterelsass) und
+Elsassisch (Oberelsass):
+De Herr Lehrer kennt e Wìtz ùf Elsässisch (67)
+Der Herr Lehrer kennt a Wìtz uf Elsassisch (68)
+De Schìeler ìn de letscht Reih kännt e Wìtz ùf Elsässisch verzähle. (67)
+Der Schialer ìn der letschta Reiha kännt a Wìtz uf Elsassisch verzähla. (68)
+
+Le digramme < ee >
+Le digramme < ee > correspond à /e/ fermé et long [eː] dans quasiment tous les exemples :
+Meer [meːr], mer
+Gleeser [gleːsər], verres
+leese [leːsə], résoudre
+meege [meːgə], bien aimer
+scheen [ʃeːn], beau
+See [seː], lac
+Seel [seːl], âme
+teete [teːtə], tuer
+treeschte [treːʃtə], consoler
+
+Le digramme < eh >
+Associé à < h >, la lettre < e > a la valeur de /é/ fermé et long [eː]. Les termes orthographiés
+< eh > sont des « mots-calques » de l’allemand :
+àbwehre [′ɒb″veːre] ou, repousser
+geh [geː], aller
+Lehrer [′leːrər], professeur
+
+16
+
+68 correspond à une variante en usage en Haute-Alsace
+
+16
+
+La lettre < ë >
+ORTHAL emploie < ë > pour transcrire le phone /e/ très ouvert, bref [æ], ou long [æː].
+dënne [′dænə], ce, cet
+Mënung17 [′mæː″nuŋ], opinion
+ëne [′æːnə], un
+(de) ënzig18 [′ænːtsig], le seul
+Hëmet [′hæːmət], pays natal
+
+Les lettres < u > et < ü >
+La lettre < u > ne se lit pas comme en français, mais comme en allemand : du, tu.
+En revanche, pour transcrire le son /u/ comme dans tu en français, Orthal, comme l’allemand,
+emploie < ü > : dü.
+Il convient donc aussi d’être attentif à la graphie de la diphtongue [yə] et [ya]
+et écrire güet ou güat, bon, bien et non pas guet ou guat, et Hüet ou Hüat, chapeau, et non pas
+Huet, ou Huat
+
+La lettre < ù >
+Certes, les systèmes phonologiques des parlers alsaciens ne comportent pas d’opposition /ou/
+fermé, noté < u >, et /ou/ ouvert, noté < ù >. En d’autres termes, les phones
+[u] et [Ʊ] ne sont pas réalisées dans des termes qui présenteraient une opposition distinctive.
+Cependant, la tendance à réaliser /ou/ fermé [u] est très marquée dans le sud de l’Alsace (région de
+Mulhouse, Florival), celle de réaliser /ou/ [Ʊ] ouvert est plus marquée en région colmarienne et dans
+le Bas-Rhin. C’est pourquoi, nous proposons de différencier les deux phones sur le plan
+orthographique, car les deux prononciations correspondent à des variantes géolinguistiques :
+dùmm, dumm, stupide
+Dùnnerwatter, Dunderwatter, orage
+hùndert, hundert, cent
+kùmme, kumme, venir
+Kùmmissione, Kummissione, courses
+Kùnscht, Kunscht, art
+Lùscht, Luscht, envie
+Sùnndàà, Sunndig, dimanche
+
+La lettre < œ >
+Elle correspond à une prononciation proche de « un » en français qui emploie ce signe graphique
+dans lœss ou cœur :
+Dœ, jour
+17
+18
+
+Variante : Mëënùng
+Variante : ëënzig
+
+17
+
+œnder, autre
+
+Les digrammes < aa > et < àà >
+Dans de rares cas, il est conseillé de doubler < a > ou < à > quand ces voyelles sont longues, soit par
+souci du calque de quelques termes en allemand19, soit pour éviter que des homonymes soient
+homographes :
+laar, vide, leer
+Pààr, Paarla, couple, paire
+e/a pààr, quelques
+Stààt, État
+
+Le digramme < oo >
+Dans de rares cas, il est conseillé de doubler la lettre < o > quand /o/ est long, devant < ch > et
+< sch > :
+nooch, près, nah
+Noochber, voisin, Nachbar
+Trooscht, consolation, Trost
+L’intérêt décrire < oo > concerne également Boot, bateau. En effet, Botschàft, ambassade, message,
+Botschaft, ou Briefbott, facteur, Briefbote, sont nettement différenciés. Pour Hoor, cheveux, Haare,
+on peut aussi envisager d’écrire Hor. Angelshor est tout aussi lisible que Angelshoor.
+
+19
+
+En allemand, Saal, pl. Säle, salle ; Waage, balance ; Aal, anguille s’écrivent avec < a > doublé. Pour ces
+exemples, l’intérêt du calque de l’allemand ne saute pas aux yeux, et ORTHAL suggère d’écrire Sàl, Wog ou
+Woj, Àl ou Ol.
+
+18
+
+Diphtongues
+Comment lire < ei > et < ai > ?
+Le digraphe < ei >
+< ei > correspond à la transcription de la diphtongue [ai] :
+Geis, chèvre
+gheim, secret
+Hei, foin
+Heimet, pays natal
+heise20, s’appeler
+heisrig, enroué
+kei, aucun
+Leischtung, performance
+Leiter, échelle, dirigeant
+Meinung, opinion
+Reis, voyage
+Seif, savon
+verreise, partir en voyage
+
+Le digraphe < ai >
+ORTHAL propose < ai > comme alternative à < ei > pour lever une difficulté qui concerne notamment
+les personnes sans prérequis en allemand :
+Gais, chèvre
+ghaim, secret
+Haimet, pays natal
+haise, s’appeler
+haisrig, enroué
+kai, aucun
+Laischtung, performance
+Laiter, échelle, dirigeant
+Mainung, opinion
+Rais, voyage
+Saif, savon
+verraise, partir en voyage
+
+20
+
+Variante heisse que l’on prononce aussi à Strasbourg et en Alsace Bossue
+
+19
+
+Mais ORTHAL propose d’employer toujours le digraphe < ai > pour transcrire la diphtongue [ai] dans
+quatre cas de figure :
+a) Pour quelques mots calqués sur l’allemand :
+Haifìsch, requin, Haifisch
+Kaiser, empereur, Kaiser
+Kaiserreich, empire, Kaiserreich
+Mai, mai, Mai
+b) Pour éviter des confusions entre homonymes :
+Hai requin, Hai # Hei, foin, Heu
+Laib, miche, Laib # Leib, corps, Leib
+Waisekìnd, orphelin, Waise # Weiser, sage, Weiser
+
+c) Pour écrire les formes dérivées de termes en < a, aa, aui, àui, äu, au > :
+Baam, Bauim, Bàuim, Bäum, Baum, arbre → Baim, arbres
+kauife, kàuifa, chäufa, kaufe, acheter → Kaifer, acheteur
+Traam, Trauim, Tràuim, Träum, Traum, rêve → Traim, rêves
+d)
+
+Pour un exemple correspondant à l’allemand « Mädchen » :
+
+Maidla, Maidlì/Maidlé, Maidli, Maidle, Maidel, jeune(s) fille(s)
+
+Comment lire < éi > ?
+ORTHAL a recours aux accents aigus et graves du français pour différencier certaines diphtongues.
+Le digraphe < éi > correspond à la diphtongue/é/ vers /i/ d’aperture variable [ei] en usage
+notamment dans le Val de Munster :
+Déifel, diable
+dréi, trois
+fréi, libre
+Fréiheit, liberté
+kéie, tomber
+
+20
+
+Comment lire < èi > ?
+Le digraphe < èi > correspond à la diphtongue /è/ vers /i/ d’aperture variable [ɛi], très répandu sur
+« l’arc-en-ciel dialectal » :
+Dèifel, diable
+drèi, trois
+frèi, libre
+Frèiheit, liberté
+kèie, tomber
+
+Comment lire < äi > et < ëi > ?
+Les digraphes < äi > ou < ëi > peuvent être employés au choix pour transcrire la même diphtongue
+/è/ très ouvert vers /i/ d’aperture variable [æi].
+Le choix d’employer < ëi > peut se déterminer par la présence d’une variante dialectale en
+< ei > :
+Mëischter [′mæiʃtər], maître (cf. Meischter)
+Klëider [′klæidər], vêtements (cf. Kleider)
+L’emploi de < äi > peut se faire en fonction d’un terme apparenté où figure la lettre < a > :
+Mäidle [′mæidlə], jeune fille (cf. Maidla)
+Träim [træim], rêves (cf. Traim)
+
+Comment lire < àui > et < ài > ?
+Les deux orthographes, < àui > et < ài > correspondent à la diphtongue /a/ sombre vers /i/ d’aperture
+variable : [ɒi]. Nous conseillons d’employer < àui >21 quand le terme allemand correspondant s’écrit
+avec < au > :
+Bàuim, arbre, Baum
+Fràui, femme, Frau
+gràui, gris, grau
+kàuife / kàuifa, acheter, kaufen
+tàuisig, mille, tausend
+Tràuim, rêve, Traum
+Dans les autres cas de figure, l’emploi du digraphe < ài > s’impose, car il retranscrit
+strictement la diphtongue [ɒi] :
+Hài, foin, Heu
+Màidel, jeune fille, Mädchen
+21
+
+Nous sommes conscients que c’est une difficulté pour les personnes sans prérequis en allemand. C’est
+pourquoi, ORTHAL propose l’alternative d’utiliser < ài > dans tous les cas de figure et d’écrire : Bàim, Frài, grài,
+kàife / kàifa, tàisig, Tràim
+
+21
+
+rài(h), cru, roh
+Rhàin, Rhin, Rhein
+Strài(h), paille, Stroh
+
+Comment lire < oi > ?
+Le digraphe < oi > correspond également à la diphtongue /o/ d’aperture variable vers /i/ d’aperture
+variable : [oi]. On peut l’employer dans tous les autres cas de figure que ceux listés sous < aui >22 :
+àbgroi(h)mt, écrémé, entrahmt
+Hoi, foin, Heu
+roi(h), cru, roh
+Roi(h)m23, crème, Rahm
+Stroi(h), paille, Stroh
+
+Comment lire < öi >
+Le digraphe < öi > transcrit la diphtongue /eu/ fermé de longueur variable vers /i/ d’aperture variable
+[Øi]. Il est fréquent en Basse-Alsace. :
+blöi, bleu
+döisig, mille
+gröi, gris
+röi(h), cru
+
+Comment lire < oï > ?
+Le graphème < oï > n’est pas une diphtongue, mais le son /o/ suivi de /i/ à l’hiatus, comme dans
+égoïste. C’est pourquoi, nous ne réservons à des rares cas de figure comme pour Egoïscht et non pas
+Egoischt. Idem pour l’adjectif egoïstisch, égoïste.
+Rappelons que le français l’emploie pour distinguer les prononciations de maïs et mais, haïr et haine,
+laïc et lait, coït de coite etc.
+
+Comment lire < äu > ?
+Le digraphe < äu > transcrit la diphtongue /œ/ ouvert vers /u/ d’aperture variable : [ɶY] ou vers /i/
+ouvert [[ɶɪ] Nous l’employons dans la quasi-totalité des cas :
+Äugscht, août
+22
+
+Conscients de la difficulté que présente cette distinction pour des personnes sans prérequis en allemand,
+nous proposons comme alternative à < aui > d’utiliser < oi > dans tous les cas de figure et donc d’écrire par ex. :
+Boim, Froi, koife / koifa, Soi
+23
+On distinguera par ex. Roi(h)m, crème de Rauim, espace.
+
+22
+
+behäupte, affirmer
+bläu, bleu, blau
+enttäusche, décevoir
+Fräu, femme
+Läub, feuillage
+Sundgäu, Sundgau
+Täu, rosée
+täusig, mille
+
+Comment lire < eu > ?
+Il s’agit de lire < eu > comme < äu >. Nous le proposons uniquement pour quelques termes calqués
+sur l’allemand24 :
+beleuchta, éclairer, illuminer, beleuchten
+leuchta, briller, leuchten
+Beuta, butin, Beute
+üsbeute, exploter, ausbeuten
+Leuchttùrm, phare, Leuchtturm
+keusch, chaste, keusch
+Keuschheitsgìrtel, ceinture de chasteté, Keuschheitsgürtel
+verseuche, polluer, verseuchen
+
+Comment lire < aui > ?
+Le trigraphe < aui > correspond à la diphtongue /o/ d’aperture variable vers /i/ d’aperture variable :
+[oi]. On peut se référer aux termes allemands correspondants qui s’écrivent avec < au, äu >.
+Ce trigraphe a aussi l’avantage d’inviter les francophones sans prérequis en allemand de le lire
+spontanément /au/ vers /i/ :
+àbgrauimt, débarrassé, abgeräumt
+Bauim, arbre, Baum
+Fraui, femme, Frau
+Haui(a), houe, Haue, Hacke
+hauie / hauia, frapper, cogner, hauen
+kauife / kauifa, acheter, kaufen
+Rauim, espace, Raum
+Saui, cochon, Sau
+tauisig, mille, tausend
+trauie / trauia, oser, sich trauen
+
+24
+
+Pour qui trouve cette distinction trop compliquée, possibilité d’utiliser < äu > comme alternative à < eu >
+dans tous les cas de figure : beläuchta, versäuche etc.
+
+23
+
+Comment lire < ie > ?
+Le digraphe < ie > correspond à la diphtongue /i/ fermé vers /e/ réduit [iə] :
+die, ce, cette
+flieje, voler
+Lieb, amour
+riefe, appeler
+Exceptions : les exemples suivants se prononcent avec /i/ fermé et long [iː], notamment dans des
+aires du bas-alémanique du nord et du francique :
+Bier, bière
+lieb, gentil
+nie, jamais
+sie, Sie, elle, ils, vous (forme de politesse)
+Spiel, jeu
+viel, beaucoup
+vier, quatre
+Exemples où < ie > peut être employé à la place de < i > et être considéré comme un digramme
+avec la valeur de /i/ fermé et long comme en allemand.
+Il s’agit de termes dont la finale est en < ie > à la fois en français et en allemand. Comme on ne peut
+distinguer le singulier du pluriel où < ie > est alors prononcé comme la diphtongue /i/ vers /e/ réduit
+ou atone, on se fiera au contexte chargé d’éclairer la question :
+Liidsch àn Allergie ? Souffres-tu d’allergies ?
+Liidsch àn ere Allergie ? Souffres-tu d’une allergie ?
+Orthal 2023 laisse le choix aux scripteurs d’employer < ie > ou < i > dans ces cas-là
+Akademie / Akademi
+Allegorie / Allegori
+Allergie / Allergi
+Demokràtie / Demokràti
+Energie / Energi
+Hysterie / Hysteri
+Melodie / Melodi
+Philosophie / Philosophi
+Prosodie / Prosodi
+
+Comment lire < ia > ?
+Le digraphe < ia > correspond à la diphtongue /i/ fermé vers /a/ :
+dia, ce, cet(te)
+24
+
+fliaga, voler
+Liabi, amour
+riafa, appeler
+
+Comment lire < üe > ?
+Le digraphe < üe > correspond à la diphtongue /u/ fermé vers /e/ réduit [yə] :
+Büe, garçon
+güet, bien, bon
+Hüet, chapeau
+Schüel, école
+süeche, chercher
+
+Comment lire < üa >?
+Le digraphe < üa > correspond à la diphtongue /u/ fermé vers /a/ clair [ya] :
+Büa, garçon
+güat, bien, bon
+Hüat, chapeau
+Schüal, école
+süacha, chercher
+
+Comment lire < ue > ?
+Le digramme < ue > ne transcrit pas une diphtongue, mais un phone (son) réalisé en Basse-Alsace
+dont l’articulation se situe entre /e/ comme dans « eux » et /u/ comme dans « tu ». Dans les phases
+de tests auprès du public, les formes « Bü » ou « Bö » pour l’équivalent allemand Bube, garçon, ont
+été majoritairement rejetées. Finalement, un compromis a été trouvé avec la forme Bue :
+Bue, garçon
+guet, bien, bon
+Huet, chapeau
+Schuel, école
+
+25
+
+Comment distinguer les voyelles longues et les voyelles brèves ?
+Pour les formes verbales contractées en < -re/-ra > où < e > est élidé à l’infinitif, si l’on ne veut pas
+doubler la voyelle longue suivie de plusieurs consonnes, on peut se référer à la forme « entière »,
+non contractée :
+àbladere/àbladera = àbladre/àbladra, rosser ; sécher avec une peau de chamois
+àblàjere/àblàgera = àblàjre/àblàgra , entreposer, sécher
+
+Voyelles longues
+ORTHAL évite de doubler systématiquement les voyelles longues pour éviter une graphie lourde qui
+peut être perçue comme inesthétique. Mais certains doublements sont nécessaires, notamment
+dans les cas de figure suivants :
+-
+
+Emploi quasi systématique de < ee > pour orthographier le son /e/ fermé et long [eː] :
+gheere, appartenir
+heere, entendre
+Meer, mer
+Schnee, neige
+See, lac
+Seel, âme
+teete, tuer
+treeschte, consoler
+Veegel, oiseaux
+Exceptions :
+bewega, bouger, gega, contre ; jeder, ; chaque ; lega, poser, coucher ; reda, parler
+
+-
+
+-
+
+-
+
+Emploi de < oo > pour éviter des confusions de sens concernant deux termes qui se
+prononcent avec /o/ bref d’aperture variable et /o/ long, d’aperture variable :
+noch [nᴐx], encore, # nooch [nᴐːx]ou [noːx], près, proche
+Emploi de < oo > pour éviter des confusions entre deux termes qui se prononcent avec /o/
+long :
+loose [′lᴐːsə], écouter # lose [′lᴐːsə], tirer au sort, apparenté à Los [lᴐːs], lot
+Emploi de < oo > pour lever toute ambiguïté concernant la bonne prononciation :
+Noochber [′noːxbər] ou [′nᴐːxbər], voisin, apparenté à nooch [noːx] ou [nᴐːx],, près
+
+Liberté de choix pour :
+hoch/hooch, [hoːx] ou hᴐːx] haut, Sproch/Sprooch [ʃproːx] ou [ʃprᴐːx], langue ;
+Hochsproch/Hoochsprooch, langue haute, Oschtre/Ooschtre [′oːʃtrə] ou [′ᴐːʃtrə],, Pâques
+-
+
+Emploi de < aa > ou < èè > en référence à deux termes allemands correspondants :
+26
+
+laar / lèèr, vide, leer
+laare / laara / lèèra, vider, leeren
+Stààt, État, Staat
+
+Lois de phonétique
+Pour éviter le doublement systématique des voyelles longues, ORTHAL se base sur les lois de durée
+de la phonétique allemande instaurée par Siebs et Duden (Deutsche Bühnenaussprache), avec trois
+formules simples à retenir :
+ Une voyelle accentuée (V), en syllabe ouverte (sans consonne subséquente) est une voyelle
+longue (VL) :
+V = VL :
+ga [gaː], donner
+hà [hɒː], avoir
+sì [sɪː], être
+ Une voyelle accentuée (V) suivie d’une seule consonne est une voyelle longue (VL) :
+V + C = VL :
+Gràs [grɒːs], herbe
+hole [′hoːlə], aller chercher
+Hoke [′hɔːkə], crochet
+Làde [′lɒːdə], volet
+lose [′lɔːsə], tirer au sort
+Ros [rɔːs], rose
+ Une voyelle accentuée (V) suivie de plusieurs consonnes (CC) est une voyelle brève (VB) :
+V + CC = VB :
+boll [bɔl], bientôt
+Bolle [′bɔlə], boulle
+hocke [′hɔkə], être accroupi, être assis
+Kàss [kɒs], caisse
+koschta [′kɔʃta], coûter
+Làtte [′lɒtə], latte de bois
+losse [′lᴐsə], laisser
+Ross [rᴐs], cheval
+
+Durée des voyelles devant les suffixes < -le, -la, -lì/lé > des diminutifs
+Comme pour la conjugaison des verbes (cf. Formes conjuguées), on ne tiendra compte que du radical
+du mot25 si l’on ne veut pas systématiquement doubler la voyelle longue,
+
+25
+
+Exception : les termes qui forment le diminutif avec /é/ long et fermé [eː], toujours doublé : Doba, patte –
+Deebla ; Schof, mouton - Scheefla
+
+27
+
+Ainsi, pour un terme dont la voyelle tonique est longue comme Làd, il n’est pas nécessaire de doubler
+< a > pour écrire le diminutif Ladla, même si l’on « voit » plusieurs consonnes derrière < a >.
+On considèrera le suffixe < -la > comme « hors construction » ou « hors radical. »
+Voici quelques exemples :
+Glàs, verre : Gläsle, Gläsla, Gläslì/Gläslé
+Nàs, nez : Nasle, Nasla, Naslì/Naslé
+Ràd, roue : Rädle, Rädla, Rädlì/Rädlé
+
+Durée des voyelles dans les formes verbales contractées en < -re/-ra >
+Dans àblàjre, àblàgra, entreposer, sécher, < à >dans le radical làjre, làgra se prononce comme dans
+àblàjere, àblàgera
+Dans àbmàjre, àbmàgra, maigrir < à > dans le radical màjre, màgra se prononce comme dans
+àbmàjere, àbmàgera
+
+Durée des voyelles devant < ch >
+Nous considérons que < ch > équivaut à deux consonnes. De ce fait, les voyelles employées devant
+< ch > doivent être considérées comme brèves :
+Dìchter [′dɪxtər], poète
+ich [ix], je
+Kràch [krɒx], bruit
+làche [′lɒxə], rire
+Loch [lox], trou
+noch [nox], encore
+
+Quand elles sont longues, il convient de les doubler :
+Bààch [bɒːx], ruisseau
+nooch [noːx], près, après
+Noochber [′noːxbər], voisin
+Cette règle ne s’appliquera pas forcément à trois termes et leurs dérivés, réalisés avec /o/ long, où
+ORTHAL laisse le choix entre deux graphies :
+hoch/hooch [hoːx], haut
+Sproch/Sprooch [ʃproːx], langue
+Hochsproch/Hoochsprooch, [′hoːx″ʃproːx], langue haute
+Oschtre/Ooschtre[′oːʃtrə], Pâques
+Oschterhàs/Ooschterhàs [′oːʃtər″hɒːs], lapin de Pâques
+Exercice : Distinguons les voyelles brèves et longues. À quoi pourrait ressembler le mot ?
+28
+
+a) bref
+fà___, Lo__, Grì__, Zi__, Li___, de__, we__, Ko__, sofo__, Gä___, Gà__, nà__
+b) long
+Gà_, Nà_, la_e, Ho__spro__, le_ra, no_el, là_m, O_reschmàlz, S__làchs
+Solutions
+a) fàscht, presque ; Loch, trou ; Grìff, poignée, prise ; Zitt, temps; Litt, gens, denn, car / dert, làbas ; wenn, quand, si ; Koch, cuisinier / Koscht, nourriture; sofort, immédiatement ; Gäscht,
+invite(e)s ; Gàss, rue / Gàscht, invite(e) ; nàss, mouillé
+b) Gàs, gaz ; Nàs, nez ; lawe, vivre ; Ho(o)chspro(o)ch , langue haute ; lehra, apprendre,
+enseigner ; nowel/nobel, noble, distingué ; làhm, paralysé(e) ; Ohreschmàlz, cérumen ;
+Seelàchs, lieu noir, colin
+
+Les « mots grammaticaux » monosyllabiques
+Pour des raisons de cohérence intrasystémique, (il est par ex. délicat d’écrire ich bìnn, je suis, comme
+sìnn, être) nous proposons que les mots grammaticaux fassent exception à la règle V + C = VL (une
+voyelle accentuée suivie d’une seule consonne est longue)
+
+Mots grammaticaux » monosyllabiques faisant exception à la règle : V + C = VL
+Voici la liste complète des exceptions concernant la voyelle brève qui ne sera pas signalée par des
+consonnes doublées subséquentes. Précisons qu’il s’agit le plus souvent de voyelles atones ou
+faiblement accentuées, dont la réalisation, dans ces conditions, est brève de toute façon.
+a) L’élément servant à former des contraires : unUnsìnn, Unsinn, absurdité ; ùnmäjlig, unmöglich, impossible
+b) Les prépositions
+àb, àn, àm, bis, ìn, ìm, mìt, ùf, uf, üs, vom, vùm, vum, ùm, um, zùm, zum
+c) Les adverbes prépositionnels
+dràn, dràb, drìn, drùf, druf, drùm, drum, drüs
+d) Les adverbes
+nìt, nit, nix, hin un har, wag, weg
+e) Les conjonctions de subordination et de coordination
+un, ùn, äb, ob, bis, wil, wìl
+f) Les auxiliaires de temps « hà » et « sì » à l’infinitif et à l’indicatif*
+bìn, sìn, hàb, hàn, hàt, het26, han
+g) Les particules séparables
+àb : àbfàhra, abfahren, partir
+
+26
+
+Nous constatons que la quasi-totalité des auteurs, y compris badois et suisses, écrivent het [hɛt] pour
+exprimer /è/ bref. Nous y souscrivons et écrivons au passé composé : sìe het ghet
+
+29
+
+ùf, uf27, üf : ùffàlla, se faire remarquer ; ufstecke, aufstecken, arrêter ; üfstoh, se lever
+üs28 : üssüeche, choisir ; üshàlta, supporter
+NB : Au conditionnel, nous employons < tt > qui est sa « marque de fabrique » caractéristique :
+sìe hatt(igt), sìe hätt, sie hätte, elle aurait
+ar wott29, il voudrait
+mer/me/ma sott30, on devrait
+Un cas d’école (la syllabe tonique est en gras) :
+verdeckel, verdammt, nom d’une pipe : la syllabe « deck » est brève et < e > se prononce /è/
+Dans cet exemple, < ver > et < el > sont inaccentués et brefs : < e > se prononce /e/ réduit [ə].
+Par voie de conséquence, la règle V+C = VL ne s’applique pas non plus pour :
+
+
+
+les suffixes inaccentués en -ig, -is, -lig, -nis31. Dans ces exemples, la syllabe accentuée est en
+gras : zwànzig, vingt ; Gheimnis, secret, heeflig, poli
+les préfixes et les préverbes (particules) inséparables inaccentuées :
+ba-, be-, ge-, ga-, er-, ver-, zer-
+
+Notons que la prononciation de er-, ver-, zer- est variable, tantôt /e/ réduit, tantôt /è/. ORTHAL ne
+tient pas compte de ces fluctuations, souvent individuelles :
+bahàuipta / behàuipta, affirmer
+erfàhre, apprendre (nouvelle)
+Ergabnis, résultat
+Gebèi, bâtiment
+gemàcht / gamàcht, fait
+verlore, perdu(e)
+Verluscht, perte
+zersteere, détruire
+Zersteerùng, destruction
+
+Mots grammaticaux bisyllabiques
+Application sans hésitation des règles :
+V + C = VL (une voyelle accentuée suivie d’une seule consonne est longue)
+ Conjonctions de coordination : àber, mais ; oder, ou
+27
+
+Comme beaucoup d’auteurs emploient < ff > pour ùff et uff, Orthal considère que ces graphies sont des
+options tout aussi valables.
+28
+Alternative : üss
+29
+Alternative : wodd
+30
+Alternative : sodd
+31
+Cependant, on écrira Kompromiss, compromis, car < miss > n’est pas un suffixe et l’accent tonique est sur la
+dernière syllabe où /i/ est bref et signalé par < ss >.
+
+30
+
+V + CC = VB (la voyelle accentuée suivie de plusieurs consonnes est brève)
+ Adverbes : dusse, dehors
+ Conjonctions de coordination : àwwer, mais ; edder, odder, ou
+ Prépositions : wagge, wajje, à cause ; gejje, contre
+
+Formes conjuguées
+Les règles, V+C = VL (une voyelle accentuée suivie d’une seule consonne est une voyelle longue) et
+V+CC = VB (une voyelle accentuée suivie de plusieurs consonnes est une voyelle brève), concernent
+aussi les formes conjuguées. Mais elles s’appliquent uniquement au radical du verbe.
+Les terminaisons en < -sch, -t, -e > des formes conjuguées sont à considérer à part, sans influence sur
+la règle de la durée des voyelles toniques.
+Nous appliquons donc la règle V+C = VL sur le radical du verbe, sans tenir compte des terminaisons :
+(le radical du verbe est en gras pour mieux visualiser la règle :
+Exemples de conjugaison valables pour le bas-alémanique du sud (région de Mulhouse)
+Infinitif :
+hola [′hᴐːla], aller chercher
+
+Indicatif présent avec /o/ long à toutes les personnes :
+ìch hol, dü holsch, ar, sìe, as, mer holt, mìr hola, ìhr / Ìhr hola, sìe hola, Sìe hola, Sìe holt
+Participe passé avec /o/ long :
+gholt
+Impératif avec /o/ long :
+hol, hola, hola Sìe, holt Sìe
+Infinitif
+rolla [′rᴐla] : rouler, enrouler
+Indicatif présent avec /o/ bref à toutes les personnes :
+ìch roll, dü rollsch, ar, sìe, as, mer rollt, mìr rolla, ìhr / Ìhr rolla, sìe rolla, Sìe rolla, Sìe rollt
+Participe passé avec /o/ bref :
+grollt
+Impératif avec /o/ bref :
+roll, rolla, rolla Sìe, rollt Sìe
+
+31
+
+Comment signaler les changements de durée par rapport à l’infinitif ?
+Le radical seul (en gras) doit signaler la voyelle brève, selon la règle V+CC = VB :
+Il faut considérer que la terminaison n’influe pas sur la durée de la voyelle du radical verbal.
+Dans la conjugaison du verbe reda, parler, caractéristique du parler de Mulhouse,
+< e > a plusieurs valeurs. Il correspond à /é/ long [eː] quand il est suivi d’une seule consonne et à /è/
+bref [ɛ] quand il est suivi de plusieurs consonnes.
+Infinitif :
+reda [′reːda], parler
+Indicatif présent singulier avec /e/ ouvert et bref [ɛ] :
+ìch redd, dü reddsch, ar, sìe, as, mer reddt, Sìe reddt :
+Indicatif présent pluriel avec /e/ fermé et long [eː] :
+mìr reda, ìhr / Ìhr reda, sìe reda, Sìe reda : /é/ fermé et long
+
+Participe passé avec [ɛ] :
+greddt
+Impératif avec une alternance de [ɛ] et de [eː] :
+redd [rɛd], reda [′reːda], reda [′reːda] Sìe, reddt [rɛd] Sìe :
+Dans la conjugaison du verbe froga, demander la durée de /o/ varie.
+Infinitif :
+froga, [′froːgə], demander
+Indicatif présent singulier : /o/ bref
+ìch frogg [frog], dü froggsch [frogʃ], ar, sìe, as, mer froggt [frogt]
+Indicatif présent pluriel : alternance de /o/ ouvert et bref et /o/ ouvert et long
+mìr froga, ìhr / Ìhr froga, sìe / Sìe froga [′froːga] ; Sìe froggt: [frogt]
+Participe passé : /o/ ouvert et bref
+gfroggt [gfrogt]
+Impératif : alternance de /o/ bref et /o/ long
+frogg, [frog], froga, froga Sìe : [′froːga] ; froggt [frogt] Sìe !
+Remarque importante
+Pour sàga, dire, on observe un changement de timbre vocalique à la 2e et 3e pers. sing. La voyelle
+longue < à > est transformée en diphtongue
+
+32
+
+Infinitif :
+sàga, dire : /à/ long
+Indicatif présent :
+ìch sàgg /à/ bref, dü saisch, ar, sìe, as, mer sait, mìr sàga, ìhr / Ìhr sàga, sìe / Sìe sàga, Sìe sait
+Participe passé :
+gsait
+Impératif :
+sàgg : /à / bref, sàga, sàga Sìe : /à/ long
+
+Exemples de diphtongaison et de relâchement articulatoire (palatalisation) < g – j > pour les
+parlers de Mulhouse et de Colmar
+Mulhouse
+Infinitif
+tràga, porter
+Indicatif présent
+ìch tràgg, dü trajsch, ar trajt, mìr tràga, ìhr / Ìhr tràga, sìe, Sìe tràga, Sìe trajt
+
+Participe passé
+trajt
+Impératif
+tràgg, tràga, tràga Sìe, trajt Sìe
+Colmar
+Infinitif
+tràja, porter
+Indicatif présent
+ìch tràj, dü trajsch, ar trajt, mìr tràja, ìhr / Ìhr tràja, sìe, Sìe tràja, Sìe trajt
+Participe passé
+getrajt
+Impératif
+tràj, tràja, tràja Sìe, trajt Sìe
+
+33
+
+34
+
+Consonnes
+Le problème avec les occlusives alsaciennes < p-t-k > et < b-d-g >
+La phonétique de l’allemand standard distingue nettement les occlusives fortes et sourdes, < p-t-k >
+des occlusives faibles et sonores, < b-d-g > comme dans packen – backen, saisir, faire sa valise – cuire
+au four ; raten – radeln, conseiller – faire du vélo ; Gasse – Kasse, ruelle - caisse.
+En alsacien et dans les autres parlers alémaniques, on réalise en règle générale une occlusive
+bilabiale faible sourde, situé entre /p/ et /b/ et une occlusive dentale faible et sourde, située entre
+/d/ et /t/. Le choix entre les bilabiales et les dentales faibles et fortes est donc un casse-tête. Pour
+éviter la migraine aux scripteurs et auteurs alsaciens, ORTHAL propose un fil conducteur. Dans ce cas
+comme dans d’autres, la première priorité est la lisibilité et, par conséquent, la compréhension. Tout
+un chacun est libre d‘écrire des mots comme bàsse, dànze, Vàdder avec < b > et < d > ou avec < p > et
+< t > : pàsse, tànze, Vàtter, passer, danser, père. Faisons le test ! Quelle phrase vous semble plus
+compréhensible ?
+a) Der gànz Owe dànze bàsst ìm Vàdder gànz güet.
+b) Der gànz Owe tànze pàsst ìm Vàtter gànz güet.
+La réponse est comme souvent une affaire de goût. Mais aucune phrase n’est incompréhensible. Les
+deux sont donc valables. Mais cette tolérance a des limites. Si par ex., un mauvais choix est source de
+confusions : a Backla, une joue, n’est pas a Packla, un paquet ; redde, parler, n’est pas rette, sauver.
+Et tànke, prendre du carburant, n’est pas équivalent à dànke, remercier.
+C’est pourquoi, ORTHAL, en cas de doute, recommande de s’en tenir à l’allemand standard. Cette
+référence à l’allemand devrait d’ailleurs également s’opérer pour l’emploi des labiodentales < f > et
+< v > et de la vélaire < w > : fìr comme für, pour ; Vojl, Vogel comme Vogel, oiseau ; Fattig comme
+Flügel, aile(s) ; Wàsser comme Wasser, eau ; Fasser comme Fässer, tonneaux ; Vorderràd comme
+Vorderrad, roue avant; vorwarts comme vorwärts, en avant etc.
+Pour les occlusives vélaires /k/ et /g/, l’opposition de force et de sonorité est plus notable et les
+choses sont plus simples. On peut en effet former bon nombre de paires minimales qui reposent sur
+l’opposition de force :
+Gàss - Kàss, ruelle – caisse ; Gäschta – Käschta, invités - châtaignes, Gàbel - Kàbel, fourchette –
+câble ; garn - Karn, volontiers - noyau ; Gùnscht - Kùnscht, faveur - art, etc.
+Exercice : Traduisons en alsacien la phrase suivante non dénuée d’humour : Écoute-moi bien ! Je te
+donne un bon conseil. Achète-toi une moto avec deux roues. Elle roulera mieux qu’une avec une roue.
+_àss ùf! Isch _ìb dìr e gue_er Rà_. _auf dìr e Motorrà_ mìt zwei Rä_er. S _àhrt besser àss eins mìt
+einem Rà_. (67)32
+_àss uf! Ìch _ìb dìr a güa_a Rà_. _àuif dìr a Motorrà_ mìt zwei Rä_er. S _àhrt besser àss eins mìt eim
+Rà_. (68)33
+
+32
+33
+
+67 correspond à forme en usage en Basse-Alsace.
+68 correspond à une forme en usage en Haute-Alsace.
+
+35
+
+Solution
+Pàss/Bàss ùf! Isch gìb dìr e gueter/gueder Ràt. Kauf dìr e Motorràd mìt zwei Räder. S fàhrt besser àss
+eins mìt einem Ràd. (67)
+Pàss/Bàss uf! Ìch gìb dìr a güata/güada Ràt. Kàuif dìr a Motorràd mìt zwei Räder. S fàhrt besser àss
+eins mìt eim Ràd. (68)
+
+Emploi de la lettre < h >
+Contrairement au français où < h > est muet comme dans haine [ɛn], < h > à l’initiale est prononcé et
+réalisé avec un souffle. On dit qu’il est « aspiré », comme dans la traduction de haine : Hàss [hɒs].
+En revanche, il est « muet » derrière une voyelle, où il sert à signaler que cette voyelle est longue.
+Quasiment tous les auteurs alsaciens se sont basés sur l’allemand pour l’utiliser comme une
+indication d’allongement de la voyelle précédente :
+Lehrer, professeur ; hohl, creux ; fahren, rouler ; Kohle, charbon.
+ORTHAL recommande d’employer < h > d’allongement pour les voyelles simples (monophtongues).
+En effet, le calque de l’allemand est le seul moyen d’éviter le doublement systématique et qui peut
+être ressenti comme disgracieux des voyelles longues.
+Nous écrirons, sur le « modèle » de l’allemand :
+fahren → fàhre, rouler
+Fahrt → Fàhrt, trajet,
+Lehrer → Lehrer, professeur,
+lehren → lehre, enseigner
+Ohr → Ohr, oreille
+Le maintien de < h > d’allongement a également l’avantage d’éviter que des homonymes soient
+homographes :
+hohl, creux # hol ! Va chercher !
+fühle, ressentir # füle, pourrir
+Pour faciliter le travail aux personnes qui n’ont pas de prérequis en allemand, nous avons dressé en
+« Annexe » un mini-dictionnaire de termes usuels orthographiés avec < h > d’allongement de la
+voyelle précédente.
+
+Faut-il employer < h > d’allongement derrière une diphtongue ?
+Derrière une diphtongue, qui est une ancienne voyelle longue ayant connu, dans sa réalisation, un
+changement du lieu d’articulation, employer < h > d’allongement est, sur le plan linguistique et
+orthographique incohérent et une surcharge inutile.
+36
+
+Mais ne pas l’employer conduirait à heurter ceux et celles qui ont l’habitude de se référer au
+« Schriftbild » de l’allemand. C’est pourquoi, nous proposons de laisser le choix aux scripteurs
+d’employer ou non < h > derrière une diphtongue quand le terme allemand équivalent s’écrit avec
+< h >. La priorité d’ORTHAL est la lisibilité. Or < h >, qui dans ce cas de figure est une lettre muette,
+n’a aucune influence sur la prononciation :
+fiere/fiehre, conduire, diriger, führen
+friej/friehj, tôt, früh
+Friejohr/Friehjohr, Friajohr/Friahjohr, Frèijohr/Frèihjohr, printemps, Frühling
+Küej/Küehj, vache, Kuh
+Miaj/Miahj, peine, Mühe
+Rüej/Rüehj, repos, calme, Ruhe
+roi/roih, cru, roh
+Roim/Roihm, crème, Rahm
+Rei/Reih, rangée, Reihe
+Schüe/Schüeh, Schüa/Schüah, chaussure, Schuh
+Stroi/Stroih, paille, Stroh
+Stüel/Stüehl, Stüal/Stüahl, chaise, Stuhl
+Wèier/Wèiher, étang, Weiher
+Exception : pour des raisons étymologiques où Weihnachten est tiré de « geweihte Nächte », nuits
+sacrées, il est fortement recommandé d’employer < h > pour
+Wiahnachta/Wiehnachte, Wihnàchte, Noël, Weihnachten
+
+Alternative au < ß >
+Rappel : en allemand, < ß > correspond au son /s/ dur et sourd [s] après une voyelle longue et une
+diphtongue :
+fließen [′ﬂiːsən], couler
+genießen [gə′niːsən], savourer
+groß [groːs], grand
+Straße [′ʃtraːsə], route
+heiß [haɪs], chaud
+reißen [′raɪsən], se déchirer etc.
+Depuis la réforme orthographique allemande de 2006, < ß > a cédé la place à /ss/ dans les
+monophtongues après voyelle brève :
+dass [das], que
+Fluss [flus], fleuve
+genossen [gə′nosən], savouré
+Hass [has], haine
+Riss [rɪs], fissure, déchirure
+
+37
+
+Comme le système phonologique allemand présente une opposition de force et de sonorité /s/ dur
+et sourd [s] et /s/ doux et voisé [z], le système orthographique allemand souligne cette opposition en
+employant < s > simple pour /s/ doux et voisé [z] réalisé derrière une voyelle longue ou une
+diphtongue et en position initiale :
+Rose [roːzə], rose
+Hase [′haːzə], lièvre
+Rasen [′raːzən], gazon
+reisen [′raɪzən], voyager
+Seife [zaɪfə], savon
+L’allemand emploie < ss > [s] pour transcrire /s/ dur et sourd [s] derrière une voyelle brève :
+hassen [′hasən], haïr
+Rassen [′rasən], races
+Ross [rᴐs], cheval
+Or, pour le son /s/, le système phonologique et phonétique de l’alsacien ne présente pas
+d’opposition de force et de sonorité.
+En effet, /s/ est toujours dur et sourd [s]. En l’absence de /s/ doux et voisé [z] comme dans zèbre en
+français ou Rose en allemand, il n’est donc pas utile d’employer < ß > si l’on se réfère au seul système
+phonologique de l’alsacien.
+Par conséquent, à ceux qui ne souhaitent pas employer < ß > dans les conditions où l’emploie
+l’allemand (derrière voyelle longue et diphtongue), nous suggérons d’employer < s > simple derrière
+les voyelles (monophtongues) longues et les diphtongues.
+Voyelles simples (monophtongues) :
+Streesla/Streeßla [′ʃtreːsla], ruelle, Straße
+Stros/Stroß34 [ʃtrɔːs], route, Straße
+Greesewàhn/Greeßewàhn, Greesawàhn/Greeßawàhn folie des grandeurs, Größenwahn
+gros/groß35 [grɔːs], grand, groß
+Diphtongues36 :
+Fies/Fiess/Fieß [fiəs], pieds, Füße
+Füesbàll/Füessbàll/Füeßbàll [′fyəs″bɒl], football, Fußball
+Geis/Geiss/Geiß [gais], chèvre, Geiß
+griese/griesse/grieße [′griəsə], saluer, grüßen
+Grües/Grüess/Grüeß [gryəs], salutation, Gruß
+
+34
+
+Comme à l’origine, Strooss a pu être proposé comme un compromis pour éviter Stross qui se prononcerait
+avec /o/ bref comme /è/ dans Stress, nous considérons qu’il représente également une alternative, même si
+nous préférons proposer Stros ou Stroß, car un doublement de consonnes derrière une voyelle indique qu’elle
+est brève.
+35
+Alternative : grooss
+36
+Comme à l’origine, nous avions proposé < ss > derrière une diphtongue comme une alternative au < ß >, nous
+la maintenons. Les auteur(e)s ont donc le choix entre trois formes, tout aussi lisibles les unes comme les autres.
+
+38
+
+Griess37/Grieß [griəs], Griass/Griaß [grias], salutations, Grüße
+heis/heiss/heiß [hais], chaud, heiß
+heise/heisse/heiße [′haisə], s’appeler, heißen
+Pour les personnes qui optent pour < ß >, attention à ne pas l’employer systématiquement. En cas de
+doute, mieux vaut se référer au « Schriftdeutsch » :
+Voyelles :
+Gàs [gɒːs], gaz, Gas
+Hàs [hɒːs], lièvre, Hase
+lase [′laːsə], lire, lesen
+Los [lᴐːs], sort, lot, Los
+Ràse [′rɒːsə], gazon, Rasen
+Ros [roːs], rose, Rose
+üslose [′ys″lᴐːsə], tirer au sort, auslosen
+Diphtongues :
+Gleis [glais], rail, Gleis
+Gries [griəs], semoule, Gries
+Reis [rais], voyage, Reise
+reise [′raisə], voyager, reisen
+Et, à l’instar de l’allemand, ORTHAL signale avec l’emploi de < ss > les voyelles (monophtongues)
+brèves précédentes
+àss [ɒs], que
+Gàss [gɒs], rue
+Gassla [′gasla], ruelle
+Hàss [hɒs], haine
+hàsse [′hɒsə], haïr
+Kàss [kɒs], caisse
+Kàssierer [′kɒsiərər], caissier, trésorier
+Ross [rᴐs], cheval
+sasshàft [′sas″hɒft], sédentaire
+La règle suivante, logique et cohérente, sera facile à mémoriser :
+
+
+
+s ou ß derrière voyelle longue et diphtongue
+ss derrière voyelle brève
+
+37
+
+Dans ce cas, il est conseillé de doubler < s >, pour distinguer Griess ou Griass de Gries ou Grias qui
+correspond à semoule, Gries.
+
+39
+
+Emploi de < der >
+Dans les aires du haut-alémanique et du bas-alémanique du sud, der transcrit l’article défini au
+masculin singulier prononcé avec /e/ réduit (Mùrmellütt) :
+der Mànn, l’homme
+Son pendant dans les aires du bas-alémanique du nord et des aires franciques est < de >
+de Mànn
+Pour ceux qui considèrent que der ressemble trop à l’article en allemand, ORTHAL propose les
+variantes < dr > ou < d’r > :
+dr/d’r Mànn
+
+Emploi de < d >, < di > et < die >
+L’article défini < d > et < di >
+En règle générale, l’article défini au féminin et au pluriel est réalisé avec < d >. Nous conseillons
+d’écrire < d > sans apostrophe38 pour éviter toute surcharge inutile, à l’instar de nos voisins suisses et
+badois :
+d Heimet, le pays natal
+d Litt, les gens
+Cependant, dans certaines aires linguistiques, l’article défini, au féminin singulier et au pluriel, n’est
+pas abrégé et se prononce [di]. Nous l’écrivons di et le distinguons du démonstratif féminin singulier
+ou pluriel : die, cette, ces :
+di Heimet
+di Litt
+
+Le pronom et l’adjectif possessif < di >
+L’article défini féminin et pluriel di a deux homonymes. Ils s’emploient dans des contextes différents
+et ne peuvent être confondus. Il s’agit du pronom et de l’adjectif possessifs. On les rencontre en
+Haute-Alsace, sous deux formes :
+- Pronom possessif réalisé avec /i/ fermé et long :
+Dàs ìsch di. [diː] C’est à toi
+-
+
+Adjectif possessif au masculin et neutre singuliers réalisé avec /i/ fermé et bref :
+di [di] Mànn, ton mari ; di [di] Kìnd, ton enfant
+
+Le démonstratif féminin singulier et pluriel < die >
+L’article défini ne sera pas non plus confondu avec le démonstratif féminin singulier ou pluriel die qui
+transcrit la diphtongue : /i/ + /e/ réduit [diə] :
+38
+
+L’emploi de l’apostrophe ne doit pas être un objet de différends. Son emploi est libre.
+
+40
+
+die Dàm, cette dame ; die Manner, ces hommes.
+
+Comment écrire le pronom impersonnel on ?
+ORTHAL propose d’écrire le pronom impersonnel correspondant à l’allemand man et au français on,
+mer [mər], avec < e > qui, comme dans der, a la valeur de /e/ réduit [ə].
+Pour qui considère que mer rappelle trop « mer » en français, nous proposons les alternatives mr, ou
+m’r.
+Quant à me et ma, variantes ou formes abrégées de mer, elles seront employées pour les
+prononciations [mə] et [ma] :
+Dàs sait mer nìt. Dàs sait me/ma nìt. On ne dit pas des choses pareilles !
+
+Quand employer l’apostrophe ?
+L’emploi de l’apostrophe est libre. Mais si l’on veut limiter son usage, il faudrait l’employer
+uniquement pour signaler l’élision d’une voyelle. Voici quelques illustrations :
+
+Emploi de < m’r > et de < d’r >
+Ces deux orthographes correspondent aux formes contractées des pronoms personnels mìr et dìr au
+datif :
+mìr → m’r, à moi ; dìr → d’r, à toi :
+Hìlfsch mìr ? → Hìlfsch m’r ? Ja, i hìlf dìr → Ja, i hìlf d’r.
+Est-ce que tu m’aides ? Oui, je t’aide.
+
+Emploi de < ’s > avec les verbes impersonnels
+Les verbes impersonnels sont conjugués à la 3e personne du singulier. Le pronom impersonnel est <
+es / as >, le plus souvent contracté en < s > avec élision de
+< e >. Ils appartiennent tous au domaine des phénomènes météorologiques. Voici des exemples en
+« mulhousien » :
+’s blìtzt, il y a des éclairs
+’s dundert, il tonne
+’s gfriert, il gèle
+’s gfriert uf, il dégèle
+’s hàgelt, il grêle
+’s niselt, il bruine
+’s ragent, il pleut
+’s ragelt, il pleuvine, il pleuv(i)ote
+’s riselt, ruisseler
+’s schnèit, il neige
+’s schìfft, il pleut des cordes
+’s wìndet, il vente
+
+41
+
+Wenn’s ragent, bliwa mìr dheim. S’il pleut, nous restons chez nous.
+’s schnèit schu der gànza Tàg. Il neige déjà toute la journée.
+Morna schnèit’s. Il neigera demain.
+Geschtert hàt’s der gànza Tàg gschìfft. Hier, il a plu des cordes toute la journée.
+
+Emploi de < ’s > avec d’autres catégories verbales
+L’emploi de l’apostrophe concerne aussi les autres catégories verbales, dès lors qu’un élément est
+élidé :
+Dàs màcht nit. → ’s màcht nit. Cela ne fait rien.
+Màcht dàs weh? → Màcht’s weh ? Est-ce que ça fait mal ?
+
+Emploi de l’apostrophe dans les formes contractées :
+< ’s > signale l’élision de la voyelle < a > ou < e > dans les formes contractées du pronom personnel as
+ou es → ’s :
+Wàs màcht s Kìnd? → Wàs màcht’s?
+Que fait l’enfant ? Que fait-il ?
+S Gritti kommt nìt. → Es / As kommt nìt. → ’s kommt nìt.
+Marguerite ne vient pas. Elle ne vient pas.
+’s hàndelt si um a klei Kìnd. → As / Es hàndelt si um e klei Kìnd.
+Il s’agit d’un petit enfant.
+
+Les formes contractées associant une préposition à un pronom personnel au datif
+àn ìhm → àn’m, à lui : Sìe hankt àn’m. Elle tient à lui.
+mìt ìhm → mìt’m, avec lui : Sìe kùmmt mìt’m. Elle vient avec lui.
+nooch ìhm → nooch’m, après lui : Wer kùmmt nooch’m ? Qui lui succède ?
+uf ìhm → uf’m, sur lui : As hockt standig uf’m. Elle ne lui fiche jamais la paix.
+üs ìhm → üs’m, de lui : Sìe màcht üs’m, wàs se wìll. Elle fait de lui ce qu’elle veut.
+züe n39 ìhm → züe n’m, chez lui : Mìr gehn àlli züe n’m. Nous allons tous chez lui.
+
+Emploi de l’apostrophe pour les formes contractées associant une préposition à
+l’article défini au datif
+àb em → àb’m : Sìe streika àb’m Zischdig. Ils font grève à compter de mardi.
+mìt em → mìt’m : Ich kùmm mìt’m Vèlo. Je viens à bicyclette.
+uf /ùf em → uf’m/ùf’m : D Kàtz schloft ùf’m Bett. Le chat dort sur le lit.
+üs em → üs’m : Sìn ìhr üs’m Dorf ? Êtes-vous du village ?
+
+39
+
+Cet emploi de < n > est euphonique, pour éviter un hiatus.
+
+42
+
+Emploi de l’apostrophe pour les formes contractées associant une préposition à l’article
+indéfini au datif
+L’article indéfini < e >, un, une, se décline au datif de la manière suivante
+- eme / ema au masculin ou neutre singulier
+- ere / era au féminin singulier
+D Litt sìtze uf eme / ema Teppig.
+Les gens sont assis sur un tapis.
+D Litt sìtze uf ere / era Màtràtz(a).
+Les gens sont assis sur un matelas.
+Comme l’apostrophe signale l’élision de < e >, les formes contractées doivent logiquement s’écrire :
+ùf’me/uf’ma Teppig, ùf’re/uf’ra Màtràtz(a)
+Voyons un autre exemple :
+Sìe schàfft ìn eme scheene Büro. Sìe schàfft ìn ema scheena Büro.
+Elle travaille dans un beau bureau.
+Deux formes de contractions sont possibles :
+- La première avec apostrophe signale une élision :
+ìn’me scheene Büro / ìn’ma scheena Büro
+- La seconde relève de l’écriture agglomérée :
+ìme scheene Büro / ìma scheena Büro
+L’auteur(e) qui ne veut pas agglomérer et qui emploie « ì » et non « ìn », pourra écrire :
+ì me scheene / ì ma scheena Büro
+
+Emploi de l’apostrophe pour les formes contractées associant une préposition à un pronom
+personnel à l’accusatif
+àn as / es → àn’s : Ich dank jede Dàj àn’s. Je pense à elle tous les jours.
+fìr as / es → fìr’s : Ich hà nìt viel ìwrig fìr’s. Je ne l’apprécie guère.
+
+Quand peut-on faire l’économie de l’apostrophe ?
+Dans la mesure où il n’y a pas d’élision grammaticale proprement dite, il est, en principe, inutile
+d’employer l’apostrophe :
+-
+
+Au sein de groupes prépositionnels associant une préposition et un article défini au neutre
+singulier :
+Kumm ìns Bett! Viens te coucher !
+Der Hund kummt àns Bett. Le chien s’approche du lit.
+43
+
+-
+
+-
+
+-
+
+D Menschheit rennt ìns Verdarwa. L’humanité court à sa perte.
+Dans les propositions infinitives :
+Ar hàt Luscht, uf Strosburg z geh.40 Il a envie d’aller à Strasbourg
+Sìe hàt noch vìel z düe. Elle a encore beaucoup à faire.
+Pour les compléments de lieu introduits par < z > :
+Ar wohnt z Mìlhüsa. Il habite à Mulhouse.
+Pour orthographier l’article défini au neutre singulier, la lettre < s > se suffit à elle-même :
+s Kìnd, l’enfant ; s Büech, le livre ; s Elsàss, l’Alsace
+
+Quand utiliser le trait d’union ?
+ORTHAL conseille d’utiliser le trait d’union quand il permet d’améliorer la lisibilité. C’est notamment
+le cas quand le mot composé présente un hiatus41 ou une succession importante de consonnes :
+Doddeleàrwet est moins lisible que Doddele-Àrwet, travail stupide,
+Fleisch-Schnacka est une alternative plus lisible à Fleischschnacka
+
+Comment reconnaître la coupure syllabique ?
+La coupure syllabique dans les diminutifs
+Les diminutifs sont caractérisés soit par le suffixe <-lì /-lé> Streeslì/Streeslé, < -la > Streesla, < -le >
+Streesle, ou < -el > Streesel, ruelle(s).
+La coupure syllabique se situe entre le radical « Strees » et le suffixe. Il convient donc de bien
+marteler la première syllabe et de lire : Strees-lì/Strees-lé, Strees-la, Strees-le ou Strees-el.
+
+La coupure syllabique dans les mots composés
+Pour bien prononcer et écrire les mots composés, il faut distinguer le déterminant, le premier élément
+qui porte l’accent principal matérialisé dans la transcription phonétique par l’apostrophe simple, et le
+déterminé (deuxième élément ou dernier élément) qui porte l’accent secondaire, matérialisé par
+l’apostrophe double :
+Ditschlehrer (Ditsch + Lehrer) [′ditʃ″le:rər], professeur d’allemand
+Glàssplìtter [′glɒsː″ʃplɪtər], éclat de verre, (Glàs + Splìtter)
+Nàstüech [′nɒːs″tyəx], mouchoir (Nàs + Tüech)
+
+40
+
+Si dans un même système phonologique, les formes infinitives ze geh et z geh alternent, il est judicieux
+d’employer l’apostrophe pour signaler l’élision de < e > : z’geh.
+41
+Hiatus : cacophonie résultant de la rencontre de deux voyelles que le locuteur est obligé de prononcer la
+bouche ouverte, du latin hiare, être béant.
+
+44
+
+Comment éviter le triplement de consonnes ?
+Tripler des consonnes permettrait sans doute de voir plus clairement la césure dans les mots
+composés et de mieux distinguer la particule séparable du radical du verbe.
+Tripler respecterait la coupure syllabique et serait cohérent avec la règle V + CC = VB :
+der Rolllàde (Roll-làde), Rollladen, volet roulant
+d Schìfffàhrt (Schìff-fàhrt), Schifffahrt, navigation
+Mais nous considérons que ces triplements sont inesthétiques. C’est pourquoi, ORTHAL,
+contrairement à l’allemand (réforme orthographique de 2006) conseille de ne pas employer de
+consonnes triplées et d’écrire :
+Rollàde, volet roulant
+Schìffàhrt, navigation
+
+Conclusion
+ORTHAL poursuit un objectif ambitieux : répondre aux attentes de deux catégories de personnes.
+Dans sa version originelle, le système s’adressait prioritairement aux apprenants germanistes,
+notamment aux élèves des écoles bilingues et aux germanophones.
+L’objectif de la nouvelle mouture, appelée « ORTHAL 2023 », est de mieux tenir compte des
+aspirations des personnes sans prérequis en allemand. Cette nouvelle philosophie tient compte des
+changements sociolinguistiques qui s’opèrent actuellement dans la société alsacienne où la
+connaissance et la maîtrise de l’allemand sont en net recul. C’est la raison pour laquelle ORTHAL a
+ouvert davantage la fenêtre vers les francophones et les non- germanophones tout en maintenant
+grande ouverte celle vers l’allemand standard. Le fait d’élargir les choix orthographiques devrait
+permettre à tout un chacun de trouver l’espace de liberté nécessaire, condition essentielle pour
+s’exprimer en alsacien avec plaisir.
+Ce faisant, ORTHAL se démarque des systèmes orthographiques et grammaticaux des langues
+standard souvent engoncés dans des corsets de règles engendrant un nombre impressionnant
+d’exceptions. (cf. « Le Bon Usage, Grammaire française » de Maurice Grevisse qui compte plus de
+1500 pages)
+Les recommandations d’ORTHAL 2023 sont autant de fils conducteurs devant permettre aux
+utilisateurs de faire des choix cohérents.
+Gageons qu’au début du 21e siècle, au lieu d’assister passivement au déclin d’une langue souvent
+donnée pour moribonde, ORTHAL sera un outil précieux aux mains de toutes les personnes
+désireuses de transmettre l’alsacien. En permettant aux auteur(e)s de s’exprimer aisément et avec
+élégance dans leurs parlers respectifs, ORTHAL espère contribuer à la renaissance d’une langue
+vernaculaire indissociable de l’histoire de l’Alsace qui, bien davantage que le folklore, est l’expression
+de son âme profonde et de son originalité. Une langue millénaire, qui dans sa forme littéraire, est
+parfaitement capable de jouer dans la cour des grands.42
+
+42
+
+cf. Edgar Zeidler, traduction de Gitangali de R. Tagore, Lobliader en alsacien, Agence Couleur Service Numéric
+(2019) et du poème d’Arthur Rimbaud, Le Bateau Ivre, S wànkende Schìff, Editions Lire Objet, 2022
+
+45
+
+Tableaux – ORTHAL
+Dans le tableau A ci-dessous figurent les exemples qui correspondent à des prononciations en usage
+dans toute l’Alsace. Dans certains cas, Orthal propose deux orthographes différentes pour le même
+mot et signale ainsi que deux formes sont possibles.
+
+Tableau A - Correspondance des lettres et des sons (phones)
+Voyelles
+En noir, les formes recommandées. En gris, les formes alternatives.
+a [aː]
+Wag, chemin
+aa [aː]
+laar, vide
+Paarla, paire, couple
+a [a]
+Drack, saleté
+kocha, bouillir, faire la cuisine
+à [ɒ]
+Kràch, bruit
+Mànn, homme
+à [ɒː]
+làde, charger
+Wàga, voiture
+àà [ɒː]
+Stààt, État
+Pààr, paire, couple
+e/a pààr, quelques
+àh [ɒː]
+Wàhl, choix
+ä [ɛ]
+äb, si
+Därfer, villages
+däs, ça
+sìe hätt, elle aurait
+känna, pouvoir
+Kälta, (le) froid
+46
+
+länger, plus long
+Lächer, trous
+ìch / ich mächt, j’aimerais
+Wäcker, réveil
+Wäsch, linge
+
+ä [ɛː]
+färig, fini
+räda, parler
+sìe wär, elle serait
+ä [æ]
+Ländel, pays
+e [ɛ]
+sìe het, elle a
+mìr derfa/derfe
+Kelta, Celtes
+kenna/kenne, connaître
+Metzger, Metzjer, boucher
+redda/redde, parler
+renna/renne, courir
+retta/rette, sauver
+Wecker, réveil
+è [ɛː]
+fèrig, fini
+rèda, parler
+èè [ɛː]
+lèèr, vide
+èh [ɛː]
+èhrlig, honnête
+hèhre, entendre
+Lèhrer, professeur
+äh [ɛː]
+ährlig, honnête
+hähre, entendre
+Lährer, professeur
+Wähler, électeur(s)
+ää [ɛː]
+läär, vide
+47
+
+ë [æ]
+dënne, ce, cet
+ë [æː]
+dër, ce, cet
+Mënung, opinion
+ee [eː]
+bleed, stupide
+Erleeser, sauveur
+heere, entendre
+gheere, appartenir
+heere, entendre
+leese, résoudre
+meega, (bien) aimer
+Meer, mer
+See, lac
+Seel, âme
+teete, tuer
+treeschte, consoler
+e [eː]
+bewega, bouger, déplacer
+jeder, chaque
+gega, contre
+lega, poser, coucher
+Red, discours
+reda, parler
+eh [eː]
+geh, aller
+kehra/kehre, faire demi-tour
+sehr, très
+é [e]
+Maidlé, (jeune fille
+
+e [ə]
+benutze, utiliser
+de, der, le
+me, mer, on
+Hìmmel m., ciel, Himmel
+verruckt, verrùckt, fou
+48
+
+zweitens, deuxièmement
+ì [ɪ]
+blìnd, aveugle
+Dìchter, poète
+Frìnd, amis
+Fìnd, ennemi
+Glìck , chance
+hìtte, aujourd’hui
+Kìnd, enfant
+Maidlì, fille
+vìll, beaucoup
+vìllìcht, peut-être
+Wìrt, aubergiste
+ì [ɪː]
+mìr, nous ; à moi
+sì, être
+Spìl, jeu
+Tìr, porte
+ìh [ɪː]
+fìhle, ressentir
+ìhr, vous
+ìe [ɪː]
+sìe, elle, ils, elles
+Sìe, vous (forme de politesse)
+Spìel, jeu
+i [iː]
+bliba, rester
+hile, pleurer
+schise, tirer
+si, être
+Spil, jeu
+vil, beaucoup
+ii [iː]
+verbii, passé, révolu
+fliiche, voler
+ih [iː]
+Kih, vaches
+
+49
+
+ie [iː]
+sie ; Sie, elle, ils, elles ; vous
+Spiel, jeu
+viel, beaucoup
+
+i [i]
+bissa, mordre
+dinner, ton
+Litt, gens
+Winn, vin
+y [i]
+Systèm nt., système
+o [oː] ou [ɔː]
+Brot nt., pain, Brot
+do, ici
+hoch
+Monet, mois
+Oschtere, Pâques
+Owa, soir
+Sproch, langue
+schone, ménager, prendre soin
+
+oo [oː] ou [ɔː]
+Boot, bateau
+hooch, haut
+loose, écouter, obéir
+nooch, près
+Ooschtere, Pâques
+Sprooch, langue
+o [o] ou [ɔ]
+doch, si, tout de même
+Loch, trou
+Koch, cuisinier
+noch, encore
+ö [Ø]
+Böjje, arc, arcade
+Vöjjel, oiseau
+
+50
+
+ö [Øː]
+Fröj, question
+ue : phone réalisé entre [y] et [Ø] :
+Bue, garçon
+Bluem, fleur
+guet, bien, bon
+Wuet, colère
+œ [ɶː] ou [ɶ]
+Dœ m., jour
+œnder, autre
+
+u [uː]
+dure, à travers
+uh [uː]
+Suhn, fils
+u [u]
+dumm, bête, stupide
+kurz, court
+Schmutz, baiser
+Sunna, soleil
+verruckt, fou
+ù [ʊː]
+Blùt, sang
+Brùder, frère
+rùfe, appeler
+Rùs, suie
+ùh [ʊː]
+Strùh, paille
+Stùhl, chaise
+ù [ʊ]
+dùmm, bête, stupide
+kùrz, court
+Schmùtz, baiser
+Sùnn, soleil
+verrùckt, fou
+ü [yː]
+grüsig, horrible
+51
+
+Lüser, coquin
+trürig, triste
+ü [y]
+Hüss, maison
+rüssisch, russe
+Strüss, bouquet
+
+Diphtongues
+éi [ei]
+dréi, trois
+fréi, libre
+èi [ɛi]
+drèi, trois
+frèi, libre
+ei [ai]
+Bein, jambe
+eins, un
+Hei, foin
+Heimet f., pays natal
+heis, chaud
+kei, aucun, pas de
+klein, petit
+Meischter, maître
+Weisheit, sagesse
+zwei, deux
+ai [ai]
+ains, un
+Bain, jambe
+Haimet f., pays natal
+hais, chaud
+kai, aucun, pas de
+klain, petit
+Maischter, maître
+zwai, deux
+ai [ai]
+Baim, arbres
+Hai, requin
+mìr hai, nous avons
+52
+
+mìr wai, nous voulons
+Kaiser, empereur
+Mai, mai
+Maidla, (jeune) fille
+Waisekìnd, orphelin
+Traim, rêves
+
+ài [ɒi]
+Màidel, (jeune) fille
+rài(h), cru
+Rhàin, Rhin
+àui [ɒi]
+Bàuim, arbre
+Fràui, femme
+Hàui, houe
+hàuie, cogner
+Ràuim, espace
+aui [ɔi] ou [oi]
+Bauim, arbre
+Fraui, femme
+Haui, houe
+hauia/hauie, cogner
+Rauim, espace
+oi [ɔi] ou [oi]
+Boim, arbre
+Froi, femme
+Hoi, houe
+hoia/hoie, cogner
+Roim, espace
+gschroia, crié
+Hoi, foin
+roi(h), cru
+Roi(h)m, crème
+Stroi(h), paille
+öi [Øi]
+blöi, bleu
+döisig, mille
+Fröi, femme
+gröi, gris
+53
+
+röi(h), cru
+äu [ɶy, ɶɪ]
+beläuchta/beläuchte, éclairer, illuminer
+Beläuchtung/ Beläuchtùng, éclairage
+Bäuta, proie
+üsbäuta/üsbäute, exploiter
+versäucha/versäuche, polluer
+käusch, chaste
+äu, aussi
+bläu, bleu
+enttäusche, décevoir
+Fräu f., femme
+täusig, mille
+eu [ɶy, ɶɪ]
+beleuchta, éclairer, illuminer
+Beleuchtung, éclairage
+Beuta, proie
+üsbeute, exploiter
+verseucha, polluer
+keusch, chaste
+au [au]
+au, aussi
+Baum m., arbre
+Frau f., femme
+äi [æi] 43
+Fräihait, Fräiheit, liberté
+Mäischter, maître
+Mäidle, jeune fille
+Träim, rêves
+ëi [æi]44
+Frëiheit, liberté
+Mëischter, maître
+Mëidle, jeune fille
+Trëim, rêves
+Diphtongue fréquente dans le Val de Munster et le Val de Villé. Lorsque la diphtongue [æi] est réalisée dans
+un terme dont une variante géolinguistique s’orthographie avec < a, au, ài, äu >, il est judicieux d’employer
+< äi > : traime – träime, rêver.
+44
+Quand une variante d’un terme réalisé avec la diphtongue [æi] s’écrit avec < e >, on pourra opter pour < ëi > :
+Mënung – Mëinung, opinion.
+43
+
+54
+
+ie [iə]45
+die, cette, ces
+Liecht, lumière
+lieb, gentil
+nie, jamais
+ìe [ɪə]46
+Lìecht, lumière
+lìeb, gentil
+wìe, comme
+üe [yə]
+Büe, garçon
+Wüet, colère
+üa [ya]
+Büa, garçon
+Wüat, colère
+ui [ui]
+Ruina, ruines
+ùi [ʊiː]
+Bùi, construction
+nùi, neuf, nouveau
+Sùi, cochon
+
+Semi-consonne
+j [j]
+Jager, chasseur
+Waj, chemin
+nèiji 47, nouveaux, neufs, neuves, pluriel de nèi
+
+45
+
+Exceptions courantes : Sie, vous, sie, elle, ils, elles, Spiel, jeu, viel, beaucoup, Ziel, but, objectif, réalisés avec
+/i/ fermé, long ou bref : [siː], [ʃpiːl], [fiːl] ou [ﬁl]
+46
+Exceptions : trois termes prononcés avec /i/ très ouvert et long ou bref [ɪː] ou [ɪ] : sìe, elle, ils, elles
+Sìe [sɪː], vous, Spìel, [ʃpɪːl], jeu, vìel, [fɪːl] ou [fɪl] beaucoup.
+47
+L’emploi de < j > évite la graphie disgracieuse « nèii »
+
+55
+
+Consonnnes
+b, occlusive bilabiale faible sourde, phone intermédiaire entre /b / et /p/
+Barg, montagne
+Gràb, tombe
+p, occlusive bilabiale faible sourde, phone intermédiaire entre /b / et /p/
+Poscht, poste
+verpàcke, emballer
+d, occlusive alvéolaire faible sourde, phone intermédiaire entre /d/ et /t/
+dü, du
+Hund, chien
+redde, parler
+Ràd, roue
+t, occlusive alvéolaire faible sourde, phone intermédiaire entre /d/ et /t/
+Tier, animal
+Trumpf, atout
+rette, sauver
+Ràtt, rat
+g, occlusive vélaire faible sourde [g]
+Gàrte, jardin
+Gàss, rue
+Wag, chemin
+làwandig48, vivant
+frìndlig, amical, aimable
+k, occlusive vélaire forte49 et sourde [k]
+Kàrte,.cartes
+Kàss, caisse
+Hoke 50, crochet
+ck [k]
+Mucka51, mouche
+Drack, saleté
+48
+
+Orthal conseille d’écrire les suffixes en < -ig >, même si l’on perçoit çà et là un durcissement en finale. Ces
+suffixes correspondent en allemand soit à < -ig >, lebendig, soit à < -ich >, freundlich. Certains auteurs peuvent
+être tentés d’écrire làwandick ou frìndlick. Employer < -ick > en finale relève davantage de l’écriture
+phonétique, car dans des formes dérivées, la prononciation s’adoucit : làwandigi Wase, des êtres vivants ;
+frìndligi Litt, des gens aimables.
+49
+L’opposition de force entre < g > et < k > est en général atténuée, mais tout de même plus perceptible que
+pour < p > et < b > ou < d > et < t >
+50
+L’emploi de < k > signale une voyelle précédente longue.
+51
+L’emploi de < ck > signale une voyelle précédente brève.
+
+56
+
+Lastick, élastique
+qu [kv]
+Qualla, source
+Quatsch, quetsche
+m [m]
+Mord, meurtre
+wàrm, chaud
+n [n]
+Nascht, nid
+Sprochrenner, course pour la langue
+ng [ŋ] cf. parking
+làng, lang
+sìnga, chanter
+nk [ŋk]
+Bànk f., banque
+hanke, être suspendu
+pf [pf]
+Pfaffer, poivre
+s [s]
+Stros52, rue
+gros, grand
+heis, chaud
+Geis, chèvre
+Reis, voyage
+Seif, savon
+lase, lire, lesen
+ss [s]
+Gàss, rue
+Kàssierer, caissier
+hàssa, haïr
+Ross, cheval
+h [h] < h > aspiré » à l’initiale et < h > muet dit « d’allongement » de la voyelle précédente.
+
+52
+
+Les personnes favorables au maintien de < ß > pourront continuer à l’employer et écrire : Stroß, route, rue,
+groß, grand, heiß, chaud, Geiß, chèvre
+
+57
+
+Hüet m., chapeau, Hut
+fàhre, rouler, fahren
+Kuh, Kih, vaches, Kühe
+Derrière une diphtongue, son emploi est facultatif :
+Küe(h)j, Küa(h), vache, Kuh
+Kia(h), vaches, Kühe
+fie(h)re, conduire, führen
+ORTHAL recommande néanmoins son emploi dans quelques exemples :
+Reiha, rangée, Reihe
+Wèiher, étang, Weiher
+Wiehnàchte, Wiahnachta, Noël, Weihnachten
+ch [x] constrictive vélaire, Ach-Laut, son qui râcle la gorge contrairement à /r/.
+ìch, ich, je
+làche, rire
+Chìng, enfant
+ch [ç] Ich-Laut, constrictive palatale postérieure comme dans ich en allemand53
+ich, je
+licht, léger
+Lécher, trous
+Kiche, cuisine
+chsch [kʃ]
+nachschtens, prochainement
+gscht [gʃ]
+naagschtens, prochainement
+sch [ʃ]
+krische, crier
+Schluss, fin
+Knoschpe, bourgeon
+sp [ʃp]
+Spack m., lard
+spàre, économiser
+schp [ʃp]
+53
+
+Ce phone est réalisé dans quelques aires linguistes en Basse-Alsace. Nous conseillons aux auteurs qui
+l’utilisent de le signaler par une note, afin qu’on ne le confonde pas avec la constrictive vélaire « Ach-Laut »
+également notée < ch >
+
+58
+
+Waschp, guêpe
+st [ʃt]
+stacka, être coincé
+Stacka, bâton
+Stein, caillou
+scht [ʃt]
+Kùnscht, art
+Wùrscht, saucisse
+tsch [tʃ]
+Kütsch, charrette
+rùtsche, glisser
+f [f] 54
+fìnde, trouver
+schàffe, travailler
+v [f] 55
+narvig, nerveux
+Vàtter, père
+Volk, peuple
+w [v]
+Wi(nn), vin
+Wunder, miracle
+x [ks]
+Àx, hache
+Hax, sorcière
+Sex, sexe
+chs [ks]
+Àchs, essieu
+sechs, six
+wachsle, changer
+ks [ks]
+lìnks, gauche (seul exemple connu)
+z [ts]
+Zitt, temps
+
+54
+55
+
+On emploie < f > en référence aux termes allemands qui s’orthographient avec < f >
+On emploie < v > en référence aux termes allemands qui s’orthographient avec < v >
+
+59
+
+tz [ts] 56
+Schàtz m., trésor, chéri(e)
+
+Tableau B – Correspondance des sons (phones) et des lettres (graphèmes)
+Dans le tableau B et sur notre site www.agate-orthal.fr et, nous utilisons trois couleurs
+différentes pour faciliter la localisation des variantes dialectales :
+
+
+
+
+Celles en usage en Centre-Alsace et en Haute-Alsace (68) sont en bleu (bas-alémanique du sud
+et haut-alémanique)
+Celles en usage en Basse Alsace (67) sont en vert (bas-alémanique du nord et francique)
+Celles communes aux différentes aires dialectales sont en marron
+
+Nous avons répertorié sur l’ensemble de l’arc-en-ciel dialectal les sons (phones) que nous transcrivons
+à l’aide de voyelles simples, redoublées ou combinées, à l’aide de diphtongues et de consonnes.
+
+Les voyelles (monophtongues)
+Dans le premier tableau figurent les voyelles simples et des exemples.
+Les syllabes finales réalisées avec /a/ faiblement accentuée sont plus fréquentes dans le sud de
+l’Alsace.
+Les exemples qui décrivent et illustrent au mieux les réalisations phoniques sont en français. La
+rubrique « références internationales » comporte, le cas échéant, des exemples en allemand et / ou
+en anglais.
+
+56
+
+On emploie < tz > derrière voyelle brève : Kritz [krits], croix, et < z > derrière voyelle longue : Schwiz [ʃviːts],
+Suisse
+
+60
+
+Description du son
+avec des lettres de
+l’alphabet français
+Entre crochets, la
+transcription
+phonétique en A.P.I.
+(Alphabet
+phonétique
+international)
+
+Références
+internationales
+
+Lettres
+
+Dialecte
+Français
+
+Deutsch (D)
+
+Allemand
+
+English (E)
+
+Exemples en
+français
+
+/a/ clair et long [a :]
+comparable à
+« phare »
+
+(D) Lage, situation
+(E) arm, bras
+
+a
+
+ah
+On emploie < ah >,
+quand le terme
+allemand
+correspondant s’écrit
+avec < h >
+d’allongement < ah >
+aa
+On peut employer
+< aa > quand on
+estime qu’il faut surcaractériser la
+longueur de la voyelle
+
+/a/ clair et bref [a]
+comme /a/ dans
+« pas ».
+
+(D) Gast, invité
+
+Bar, ours, Bär
+gal, jaune, gelb
+Jajer, chasseur, Jäger
+jara, fermenter, gären
+Laba, vie, Leben
+Sal, salles, Säle
+Jahrel, année, Jährchen
+Mahl, farine, Mehl
+
+Baam, arbre, Baum
+Kaas, fromage, Käse
+
+Il est conseillé
+d’employer < aa >
+pour de rares mots
+calqués sur l’allemand
+
+laar, vide, leer
+Paarla, paire, couple, Paar
+
+a
+
+galte, valoir, compter, gelten
+hall, clair, hell
+Walt, monde, Welt
+
+61
+
+/a/ sombre, voilé et
+long [ɒ :] entre /a/et
+/o/ comparable à
+« an », mais sans
+nasalité.
+
+à
+Àl, anguille, Aal
+Sàl, salle, Saal
+Hàgel, grêle, Hagel
+làda, charger, laden,
+Màga, estomac, Magen
+Wàga, voiture, Wagen
+.
+àh
+On emploie < àh >,
+quand le terme
+allemand
+correspondant s’écrit
+avec
+< h > d’allongement
+de la voyelle
+précédente.
+
+/a/ sombre et bref (E) what, quoi
+[ɒ], entre /a/ et /o/,
+comparable à « an »,
+mais sans nasalité
+/i/ fermé et long [i :]
+comparable à /i/
+dans « rire »
+
+(D) Liebe, amour
+(E) deal, affaire
+
+àà
+On peut employer
+< àà > quand on
+estime que l’on doit
+sur-caractériser la
+longueur de la voyelle.
+Il faudrait l’employer
+devant < ch > et dans
+quelques rares mots
+calqués sur l’allemand
+allemand
+à
+
+i
+
+àhne, deviner, ahnen
+Hàhn, coq, Hahn
+màhne, avertir, rappeler,
+mahnen
+Wàhl, choix, Wahl
+
+Bààm, arbre, Baum
+Dàà, jour, Tag
+Bààch, ruisseau, Bach
+Pààr, paire, couple, Paar
+e pààr, quelques, ein paar
+Stààt, État, Staat
+
+Kràch, bruit, Krach
+Màcht, pouvoir, Macht
+Schànd, honte, Schande
+Wàld, forêt, Wald
+Fir, feu, Feuer
+lida, souffrir, leiden
+riba, frotter, reiben
+schise, tirer, schießen
+si, être, sein
+Spil, jeu
+Zil, but, objectif, Ziel
+
+62
+
+ih
+On emploie < ih >,
+quand la
+monophtongue du
+terme allemand
+correspondant s’écrit
+avec < h >.
+ii
+On double < i > long
+devant
+< ch >, pour éviter des
+confusions et en
+syllabe finale
+accentuée dans
+quelques rares
+exemples.
+
+ie
+Liste des principaux
+termes pouvant être
+orthographiés
+< ie > qui s’emploient
+avec /i/ fermé et long,
+notamment en BasseAlsace.
+
+Liste des principaux
+mots d’emprunt dont
+la finale peut être
+orthographiée < ie >
+en allemand et /ou en
+français.
+
+ihr, vous, ihr
+Kih, vaches, Kühe
+
+fliiche, voler, fliegen
+d(e)rbii, auprès, dabei
+Siida, soie, Seide
+verbii, passé, vorbei
+
+Bier, bière, Bier
+lieb, gentil, lieb
+nie, jamais, nie
+Spiel, jeu, Spiel
+Sie, elle, vous, Sie, sie
+viel, beaucoup, viel
+vier, quatre, vier
+Ziel, but, objectif, Ziel
+
+Allegorie, allégorie, Allegorie
+Allergie, allergie, Allergie
+Demokràtie, démocratie,
+Demokratie
+Energie, énergie, Energie
+Epidemie, épidemie ,
+Epidemie
+Genie, génie, Genie
+Hysterie, hystérie, Hysterie
+Melodie, mélodie, Melodie
+Orthodoxie, orthodoxie,
+Orthodoxie
+Orthopedie, orthopédie,
+Orthopädie
+63
+
+Orthogràfie, orthographe,
+Orthografie
+Pàndemie, pandémie,
+Pandemie
+Philosophie, philosophie,
+Philosophie
+Polyphonie, polyphonie,
+Polyphonie
+Prosodie, prosodie, Prosodie
+Serie, série, Serie
+/i/ fermé et bref [i]
+comme dans « lit »
+
+(D) Fisimatenten,
+simagrées
+(E) happy heureux
+
+/i/ très ouvert et
+long, [ɪː], proche de
+/é/
+
+son inexistant en
+français ou en
+allemand
+
+i
+
+ì
+Pour écrire < ì >
+Sur PC, taper :
+Alt 141 pour ì
+Alt 222 pour Ì
+ìh
+On emploie < ìh >,
+quand la
+monophtongue du
+terme allemand
+correspondant s’écrit
+avec < h >57
+
+/e/ long et fermé
+[e:]
+
+57
+
+(D) leben, vivre
+
+ee
+
+beditte, signifier, bedeuten
+bissa, mordre, beißen
+dinner, ton, dein(er)
+hitt, aujourd’hui, heute
+Lischt, liste, Liste
+Litt, gens, Leute
+Maidli, (jeune) fille,
+Mädchen
+vill, beaucoup, viel
+Winn, vin, Wein
+
+dìr, à toi, dir
+mìr, nous, wir
+sì, être, sein
+spìre, sentir, spüren
+
+ìhr, vous, ihr
+fìhle, ressentir, fühlen
+Mìhli, moulin, Mühle
+
+heere, entendre, hören
+Meewa, mouette, Möwe
+meega, (bien) aimer, mögen
+leesa, résoudre, lösen
+scheen, beau, schön
+See, lac, See
+
+Voir Annexe : liste des termes usuels orthographiés avec < h > d’allongement de la voyelle précédente.
+
+64
+
+e
+
+/i/ bref très ouvert
+proche de /é/
+bref [e]
+
+/e/ long et ouvert
+[Ɛ :]
+
+son inexistant en
+français et en
+allemand
+
+(D) wählen, voter
+
+eh
+On emploie < eh >,
+quand la
+monophtongue du
+terme allemand
+correspondant s’écrit
+avec < h >
+ì
+La correspondance de
+< ì > avec < i > ou
+< ie > dans les termes
+allemands
+correspondants est
+frappante.
+
+bewega, bouger, bewegen
+gega, contre, gegen
+jeder, chacun, jeder
+lega, poser, coucher, legen
+Red, discours, Rede
+reda, parler, reden
+Ehr, honneur, Ehre
+geh, aller, gehen
+weh, mal, weh
+
+Fìsch, poisson, Fisch
+Kìnd, enfant, Kind
+vìll, beaucoup, viel
+Wìnd, vent, Wind
+Wìrt, aubergiste, Wirt
+Zìwwel, oignon, Zwiebel
+
+Mais elle n’est pas
+systématique
+
+Glìck bonheur, Glück
+Frìnd, ami, Freund
+Fìnd, ennemi, Feind
+vìllìcht, peut-être, vielleicht
+
+On emploie au choix
+< ì > ou < é > pour les
+suffixes en < -lì > ou
+< lé > des diminutifs
+fréquents en hautalémanique.
+
+Maidlì/Maidlé, jeune fille,
+Mädchen
+Chatzlì/Chatzlé, chaton,
+Kätzchen
+
+è/ä
+Libre choix entre
+< è > et < ä >
+Exception :
+wer, qui, wer
+
+kè/kä, aucun, kein
+hèra/hära, entendre, hören
+Mèwel/Mäwel meubles,
+Möbel
+Rèd/Räd discours, Rede
+
+Emploi de < ä > pour
+l’auxiliaire sì au
+conditionnel
+
+ìch wär, je serais, ich wäre
+
+65
+
+Emploi de
+< ä > recommandé
+pour quelques « motscalques » de
+l’allemand
+
+Gläser, verres, Gläser
+Gräser, herbes, Gräser
+Militär, armée, Militär
+
+èh / äh
+
+/e/ très ouvert et
+long [æ:]
+comparable à « in »
+dans « vin », mais
+sans nasalité
+/e/ très ouvert et
+bref [æ] comparable
+à « in » dans « vin »,
+mais sans nasalité
+
+(E) bad, mauvais
+
+On peut employer
+< èh >, quand le terme
+allemand
+correspondant s’écrit
+avec < eh >
+
+lèhra/lähra, apprendre,
+lernen, lehren
+Lèhrer/Lährer, professeur,
+Lehrer
+sìch wèhra/währa se
+défendre, sich wehren
+
+On peut employer
+< äh >
+quand le terme
+allemand
+correspondant s’écrit
+avec < äh >
+
+wähle, voter, wählen
+Wähler, électeur, Wähler
+nähre, nourrir, nähren
+
+èè / ää
+
+lèèr/läär, vide, leer
+hèècher/häächer, plus haut,
+höher
+
+ë
+
+dër, ce, cet, dieser
+Mënung, avis, Meinung
+Fëhler, erreur, Fehler
+
+ë
+
+dënne, ce, cet, diesen
+
+66
+
+/e/ ouvert et bref [Ɛ] (D) Bett, lit
+comme dans
+(E) bed, lit
+« cher »
+
+e/ä
+äb, si, ob
+däs, ça, das
+Bett, lit, Bett
+Beck/Bäck, boulanger,
+Bäcker
+elf, onze, elf
+Fàhrgäscht, passagers,
+Fahrgäste
+Hewwel, gourdin, Hebel
+Kelte, Celtes, Kelten
+kenna, connaître, kennen
+Metzger, boucher, Metzger
+Wärter/Werter, mots,
+Wörter
+zwelf/zwälf, douze, zwölf
+
+ä
+Nous recommandons
+d’employer < ä > pour
+éviter des confusions
+entre des
+homonymes.
+Nous préconisons
+l’emploi de < ä > pour
+l’auxiliaire hà(n) au
+conditionnel.
+
+Nous conseillons
+d’utiliser < ä > pour de
+rares pluriels et
+formes dérivées
+présentant
+l’alternance vocalique
+< à - ä > et < o - ä >
+
+känna, pouvoir, können
+Kälte, (le) froid, Kälte
+
+sìe hätt, elle aurait, sie hätte
+
+Därfer, villages, Dörfer
+Kälte, froid, Kälte
+d längscht, la plus longue,
+die längste
+kächle, mijoter, köcheln
+
+Nous l’employons
+aussi pour quelques
+Äpfel, pommes, Äpfel
+67
+
+« mots-calque » de
+l’allemand
+
+/e/ réduit [Ə]
+comme dans
+« largement »
+
+(D) Gabe, don
+(E) about, à propos
+
+e
+/e/ réduit ou caduc,
+atone ou très
+faiblement accentué.
+
+/u/ fermé long [y :]
+comparable à /u/
+dans « tube »
+
+(D) Lüge mensonge
+
+ü
+
+üh
+On emploie < üh >
+quand la
+monophtongue du
+terme allemand
+correspondant s’écrit
+avec < h >
+d’allongement.
+üü
+L’emploi de < üü > est
+laissé à la discrétion
+de tout un chacun
+
+/u/ fermé et bref [y]
+comme dans « bu »
+
+Phone intermédiaire
+entre /u/ [y] et /eu/
+[Ø], bref ou long
+
+(D) Brücke, pont
+
+März, mars, März
+Märzagläckla, perce-neige,
+Schneeglöckchen
+
+Begrìff, concept, Begriff
+begriffe, comprendre,
+begreifen
+der, de, le, der
+denoh, ensuite, danach
+làche, rire, lachen
+verruckt, fou, verrückt
+e, un, ein
+mer/me, on, man
+Bür, paysan, Bauer
+düre, durer, dauern
+Lüs, pou, Laus
+süfer, propre, sauber
+Ühr, montre, Uhr
+
+Büür, paysan, Bauer
+düüre, durer, dauern
+füül, paresseux, pourri, faul
+Lüüs, pou, Laus
+süüfer, propre, sauber
+
+ü
+
+Hüss, maison, Haus
+rüsche, bruire, rauschen
+tüsche, échanger, tauschen
+
+ue
+
+Bluem, fleur, Blume
+Bue, garçon, Bube, Junge
+guet, bien, bon, gut
+
+68
+
+Phone comparable à
+/e/ dans « eux »,
+mais long : [Øː]
+Phone comparable à
+/e/ dans « eux » : [Ø]
+
+(F) eux
+
+ö
+
+Fröj, question, Frage
+
+(F) eux
+
+ö
+
+Vöjjel, oiseau, Vogel
+
+/œ/ bref [ɶ] ou long
+[ɶː] comparable à
+« un », mais sans
+nasalité
+/o/ long fermé [o :]
+ou ouvert [ᴐː]
+comparable à /o/
+dans « dose »
+
+(D) Dörfer, villages
+
+œ
+
+Dœ, jour, journée, Tag
+œ, aussi, auch
+œnder, autre, andere
+
+(D) Hose, pantalon
+
+o
+
+Hosa, pantalon, Hose
+nowel, chic, nobel
+Stros / Stroß, route, Straße
+Vogel, oiseau, Vogel
+
+oh
+L’emploi de
+< oh > est fortement
+recommandé quand la
+monophtongue du
+terme allemand
+correspondant s’écrit
+avec < h >.
+
+hohl, creux, hohl
+Ohr, oreille, Ohr
+Rohr, tuyau, tube, Rohr
+
+oo
+Devant < ch > qui
+correspond à deux
+consonnes, il est
+recommandé de
+doubler la voyelle
+pour signaler qu’elle
+est longue.
+Exception :
+Sproch, langue
+
+Frooch, question, Frage
+nooch, près, nah
+hooch, haut, hoch
+Noochberslitt, voisins,
+Nachbarn
+
+Devant < sch > libre
+choix de doubler < o >
+ou non
+
+Oschtre/Ooschtre, Pâques,
+
+Nous adoptons le
+calque de l’allemand
+dans un exemple
+
+Boot, bateau, Boot
+
+69
+
+Nous distinguons losa,
+tirer au sort, de loosa,
+écouter, obéir
+
+loosa, écouter, obéir,
+horchen, gehorchen
+
+/o/ bref d’aperture
+variable [o] comme
+dans « au »
+
+(D) Oase, oasis
+
+o
+
+Koch, cuisinier, Koch
+Loch, trou, Loch
+noch, encore, noch
+o, aussi, auch
+
+/ou/ fermé et long
+[u:] comparable
+à /ou/ dans
+« fougue »
+
+(D) Hut, chapeau
+(E) loser, perdant
+
+u
+
+Blut, sang, Blut
+gut, bon, bien, gut
+Gufa, épingle, Nadel
+Hut, chapeau, Hut
+Wut, colère, Wut
+
+uh
+L’emploi de < uh > est
+recommandé quand le
+terme allemand
+correspondant s’écrit
+avec < h >
+d’allongement.
+uu
+Il est possible
+d’employer
+< uu > en syllabe
+ouverte.
+Son emploi est
+fortement
+recommandé devant
+< ch >
+
+/ou/ très ouvert et
+long [Ʊ:] comparable
+à /on/ dans
+« honte », mais sans
+nasalité
+
+ù, ùh
+
+Huhn, poule, Huhn
+Suhn, fils, Sohn
+Stuhl, chaise, Stuhl
+
+Buu, garçon, Bube
+luuche, regarder, schauen
+
+Blùt, sang, Blut
+Brùder, frère, Bruder
+Grùs, salutation, Gruß
+Rùs, suie, Ruß
+Strùh, paille, Stroh
+Sùhn, fils, Sohn
+Wùt, colère, Wut
+
+70
+
+/ou/ fermé et bref
+[u] comme dans
+« où »
+
+(D) zuerst, d’abord,
+
+/ou/ très ouvert et
+bref [Ʊ] comparable
+à « on », mais sans
+nasalité.
+
+u
+
+dumm, stupide, dumm
+Hund, chien, Hund
+kurz, court, kurz
+Sunna, soleil, Sonne
+Wurscht, saucisse, Wurst
+
+ù
+
+dùmm, stupide, dumm
+Hùnd, chien, Hund
+kùrz, court, kurz
+Sùnn, soleil, Sonne
+Wùrscht, saucisse, Wurst
+
+Variante :
+u
+
+Les voyelles complexes ou diphtongues
+Dans ce deuxième tableau figurent les diphtongues et des exemples en couleur qui correspondent
+aux réalisations en usage dans diverses aires linguistiques du Haut-Rhin et du Bas-Rhin.
+Les exemples qui décrivent et illustrent au mieux les réalisations phoniques sont en français. La
+rubrique « références internationales » comporte, le cas échéant, des exemples en allemand et / ou
+en anglais. Précisons que la graphie ne prend pas en compte la durée variable des diphtongues.
+Description du
+son avec des
+lettres de
+l’alphabet
+français
+Entre crochets,
+la transcription
+
+Références
+internationales
+Deutsch (D)
+English (E)
+
+Lettres
+
+Dialecte
+Français
+Allemand
+
+71
+
+phonétique en
+A.P.I.
+Exemples en
+français
+/a/ vers /ou /
+d’aperture
+variable : [au]
+
+(D) Haus, maison
+(E) house, maison
+
+au
+
+/a/ vers /i/
+d’aperture
+variable : [ai]
+
+(D) drei, trois
+(E) by, chez
+
+ei, ai
+
+/a/ vers /i/
+d’aperture
+variable : [ai]
+
+(D) drei, trois
+(E) by, chez
+
+Nous proposons
+d’employer au choix soit
+< ei > ou < ai > dans la
+quasi-totalité des cas.
+Exception : Ei, œuf, Ei
+
+Baum, arbre, Baum
+Frau, femme, Frau
+kaufe, acheter, kaufen
+
+Bein/Bain, jambe, Bein
+Heimet/Haimet, pays natal, Heimat
+Feischter/Faischter, fenêtre, Fenster
+Freindin/Fraindin, amie, Freundin
+Freid/Fraid, joie, Freude
+kei/kai, aucun, kein
+
+ai
+Nous conseillons
+d’employer
+exclusivement
+< ai > pour écrire
+Maidla, Maidel, (jeune)
+fille, et dans les formes
+dérivées de termes en
+< a, aa, à, au, àui, aui,
+äu >
+
+Maidla, jeune fille, Mädchen
+mìr hai, nous avons, wir haben
+mìr wai, nous voulons, wir wollen
+
+Nous employons < ai >
+pour quelques rares
+« mots-calque » de
+l’allemand
+orthographiés < ai >.
+
+Mai, mai, Mai
+Kaiser, empereur, Kaiser
+Laib, miche, Laib
+Waisekìnd, orphelin, Waisenkind
+
+Nous recommandons
+fortement d’employer
+< ai > pour éviter des
+confusions entre des
+homonymes comme
+Hai, requin et Hei, foin
+
+Haifìsch, requin, Haifisch
+
+Baim, arbres, Bäume
+Kaifer, acheteur, Käufer
+Traim, rêves, Träume
+traima, rêver, träumen
+
+72
+
+/en/ vers
+/i/ d’aperture
+variable : [ɒi]
+
+/en/ vers /i/
+d’aperture
+variable : [ɒi]
+
+/o/ d’aperture
+variable vers /i/
+d’aperture
+variable : [oi]
+
+/o/ d’aperture
+variable vers /i/
+d’aperture
+variable : [oi]
+
+/ e/ fermé vers
+/i/ d’aperture
+variable : [ei]
+
+àui / ài
+Les deux orthographes
+sont valables, mais nous
+conseillons d’écrire
+< àui > quand, en
+allemand, le terme
+correspondant s’écrit
+avec < au >
+
+àui/ài, aussi, auch
+Bàuim/Bàim, arbre, Baum
+Fràui/Frài, femme, Frau
+Hàuia/Hàia, houe, Haue, Hacke
+kàuifa/kàifa, acheter, kaufen
+Ràuim/Ràim, espace, Raum
+tàuisig/tàisig, mille, tausend
+
+ài
+Nous employons < ài >
+dans tous les autres cas
+de figure
+
+Hài, foin, Heu
+Màidel, jeune fille, Mädchen
+rài(h), cru, roh
+Rhàin, Rhin, Rhein
+Strài(h), paille, Stroh
+
+aui / oi
+Les deux orthographes
+sont valables, mais
+Nous conseillons
+d’employer < aui >
+quand le terme
+correspondant en
+allemand, s’écrit avec
+< au >
+
+aui/oi, aussi, auch
+Bauim/Boim arbre, Baum
+Fraui/Froi, femme, Frau
+kauifa/koifa, acheter, kaufen
+tauisig/toisig, mille, tausend
+
+oi
+Nous écrivons < oi >
+dans tous les autres cas
+de figure
+
+éi
+
+gschroie, crié, geschrien
+Hoi, foin, Heu
+roi(h), cru, roh
+Roi(h)m, crème, Rahm
+Stroi(h), paille, Stroh
+dréi, trois, drei
+fréi, libre, frei
+kéia, tomber, fallen
+Schréi, cri, Schrei
+
+73
+
+/e/ ouvert vers
+/i/ d’aperture
+variable : [ɛi]
+
+èi
+
+/e/ très ouvert,
+proche du
+français « in »
+mais sans
+nasalité, vers /i/
+d’aperture
+variable [æi]
+
+ëi / äi
+Nous proposons
+d’employer au choix
+< ëi > ou < äi > dans la
+quasi-totalité des cas.
+
+/e/ très ouvert,
+proche du
+français « in »
+mais sans
+nasalité, vers /i/
+d’aperture
+variable [æi]
+
+/i/ fermé vers
+/e/ réduit : [iə]
+
+fëischter / fäischter, sombre, finster
+fëif / fäif, cinq, fünf
+Hëimet / Häimet, pays natal, Heimet
+Mëinùng / Mäinùng, opinion,
+Meinung
+
+äi
+Nous conseillons
+d’employer < äi > pour
+les formes apparentées
+ou dérivées de termes
+en
+< au, àui, aui, äu >
+
+/e/ comparable
+à « eux » de
+durée variable
+vers /i/
+d’aperture
+variable : [Øi]
+/œ/ vers /u/
+d’aperture
+variable : [œy]
+ou
+/œ/ vers /i/
+d’aperture
+variable
+comparable à
+« œil » :
+[œi]
+
+ar hèig, il aurait, er hätte
+Sèi, cochons, Säue
+sèig!, sois! sei!
+
+öi
+
+(D) Häuser,
+maisons
+
+Mäidla, (jeune) fille, Mädchen
+Käifer, acheteur, Käufer
+Träim, rêves, Träume
+
+blöi, bleu, blau
+döisisch, mille, tausend
+gröi, gris, gris
+röi(h), cru, roh
+
+äu / eu
+
+Bäum, arbre, Baum
+bläu, bleu, blau
+Nous proposons d’écrire däusig, mille, tausend
+< äu > dans presque
+Fräu, femme, Frau
+tous les cas de figure.
+läufa, marcher, laufen, gehen
+räui(h), cru, roh
+Sundgäu, Sundgau
+Mais nous
+recommandons d’écrire
+< eu > et non pas < äu >
+pour quelques termes
+calqués sur l’allemand
+
+Beleuchtung, éclairage, Beleuchtung
+beleuchta, éclairer, beleuchten
+leuchte, briller, leuchten
+Leuchttùrm, phare, Leuchtturm
+verseucha, polluer, verseuchen
+keusch, chaste, keusch
+
+ie
+Bier, bière, Bier
+74
+
+Exceptions : sie, elle, ils,
+elles, Spiel, jeu, et viel,
+prononcés avec /i/
+fermé et long :
+[siː], [ʃpiːl], [ﬁːl]
+
+/i/ fermé vers
+/a/ [ia] comme
+/ia/ dans
+« fiable » : [ia]
+
+Biar, bière, Bier
+Demokràtia, démocraties,
+Demokratien
+dia, cette, ces, diese
+liab, gentil, lieb
+Liader, chansons, Lieder
+nia, jamais, nie
+Theoria, théories, Theorien
+wia, comme, wie
+
+/i/fermé vers
+/e/ ouvert: [iɛ]
+
+iè
+
+/i/ très ouvert
+vers /e/ réduit :
+[ɪə]
+
+ìe
+
+/u/ fermé vers
+/e/ réduit : [yə]
+
+/u/ fermé vers
+/a/ :
+[ya]
+
+Demokràtie, démocraties,
+Demokratien
+die, cette, ces, diese
+lieb, gentil, lieb
+Lied, chanson, Lied
+nie, jamais, nie
+Theorie, théories, Theorien
+wie, comme, wie
+Genie, génie, Genie
+
+Hormis pour Sìe, vous,
+sìe [sɪː], elle, ils, elles,
+Spìel [ʃpɪːl], jeu, et vìel,
+[fɪ :l] ou [fɪl], réalisés
+avec /i/ très ouvert,
+long ou bref,
+< ìe > est toujours la
+diphtongue [ɪə]
+üe
+
+üa
+
+lièb, gentil, lieb
+
+grìese/grìeße, saluer, grüßen
+lìeb, gentil, lieb
+Lìechtùng, clairière, Lichtung
+Lìedel, chansonnette, Liedchen
+
+Büe, garçon, Junge
+Brüeder, frère, Bruder
+güet, bon, bien, gut
+Hüet, chapeau, Hut
+Wüet, colère, Wut
+Büa, garçon, Bube
+Brüader, frère, Bruder
+güat, bon, bien, gut
+Hüat, chapeau, Hut
+Wüat, colère, Wut
+
+75
+
+/ou / fermé vers
+/i/ [ui]
+
+(D) pfui (interj)
+
+/ou/ très ouvert
+vers /i/
+d’aperture
+variable
+
+ui
+
+Ruina, ruines, Ruinen
+
+ùi
+
+Bùi, bâtiment, Bau
+bùia, construire, bauen
+nùi, neuf, nouveau, neu
+Sùi, cochon, Sau
+
+La semi-consonne < j >
+j/ [j] « iode »
+
+(D) Ja
+(E) yes
+
+j
+est en général le
+résultat d’un
+relâchement
+articulatoire /g/ - /j/
+appelé
+« palatalisation » :
+Wag – Waj, chemin
+Jager – Jajer, chasseur
+nàga – nàje, ronger
+
+Nous l’employons aussi
+pour éviter des
+graphies disgracieuses
+comme nèii, nouveaux
+
+fröje, demander, fragen
+Gejjner, adversaire, Gegner
+gejje, contre, gegen,
+Jajer, chasseur, Jäger
+Kia(h)j, vaches, Kühe
+Làj, situation, Lage
+Mìhj, peine, Mühe
+
+nèiji, nouveaux, neue
+
+y
+L’emploi de « y » est
+limité à quelques
+emprunts.
+
+Yàcht
+Yoga
+Systèm
+
+76
+
+Les consonnes
+Un mot sur la transcription des sons / p – b / ; / t – d /
+ORTHAL cherche à trouver le bon équilibre entre une orthographe fidèle à la prononciation de tout
+un chacun et une bonne lisibilité. En cas de doute, nous privilégions la proximité avec l’allemand
+standard, seule référence possible et nous préférons écrire :
+Pilot, pilote, Pilot, Tànte tante, Tante, de préférence à « Bilod » ou « Dànde ».
+La proximité avec l’allemand facilite, en général, la compréhension immédiate. C’est notamment le
+cas pour des élèves germanistes ou germanophones en classe bilingue français-allemand.
+Mais nous sommes conscients que c’est une difficulté non négligeable pour les apprenants qui n’ont
+pas de prérequis en allemand, car les parlers alsaciens ne distinguent pas nettement [p] et [b] ou [t]
+et [d]. En général, les réalisations phoniques des bilabiales et des dentales sont des occlusives faibles
+sourdes et plus proches de [b] et [d] que de [p] et de [t]
+En revanche, l’opposition de force est plus marquée entre les occlusives vélaires < g > et < k > :
+Gùnscht, bienveillance, faveur, Kùnscht, art.
+Quand les termes alsaciens n’ont pas leur équivalent en « Hochdeutsch », il n’y pas à hésiter.
+L’orthographe doit refléter la prononciation et nous écrivons :
+Bolle, boule, Kugel # Pole, Pologne, Polen ; bollig, grumeleux, klumpig ; Dubel/Doddel, imbécile,
+Trottel ; Doba, patte, Pfoten ; doidla, tituber, schwanken.
+On peut également privilégier la prononciation et employer < b > et < d >, même si le terme allemand
+correspondant s’écrit avec < p > ou < t > :
+widderscht , plus loin, weiter ; Sunndig, Sunndàà, dimanche, Sonntag; Dàà, Dàj, jour, Tag
+Il convient cependant de veiller à ce qu’il n’y ait de risque de confusion avec un homonyme comme
+dans redde, parler et rette, sauver.
+
+77
+
+Dans ce quatrième tableau figurent les consonnes et des exemples qui correspondent aux principales
+réalisations en usage dans diverses aires linguistiques du Haut-Rhin et du Bas-Rhin. Les exemples qui
+illustrent au plus près les réalisations phoniques sont en français. La rubrique « références
+internationales » comporte, le cas échéant, des exemples en allemand et / ou en anglais.
+Description du
+son avec des
+lettres de
+l’alphabet
+français
+
+Références
+internationales
+
+Lettres
+
+Dialecte
+Français
+
+Deutsch (D)
+
+Allemand
+
+English (E)
+
+Entre
+crochets, la
+transcription
+phonétique en
+A.P.I.
+Exemples en
+français
+/p/ [p]
+comparable
+à /p/ dans
+« point »
+
+(D) Punkt, point
+
+/ b / [b]
+comparable à
+/b/ dans
+« banque »
+
+(D) Bank, banque
+
+/t/ [t]
+comparable à
+/t/ dans
+« table »
+
+(D) Tisch, table
+
+/d/ [t]
+comparable
+à /d/ dans
+« démon »
+
+(D) Dämon,
+démon
+
+/pf/ [pf]
+
+(D) Pfeife, pipe
+
+Ce son
+n’existe pas en
+français.
+
+p, pp
+
+Päckel, paquet, Päckchen
+tàppa, avancer à tâtons, tappen
+
+b, bb
+
+Bäckel , pommette, Bäckchen
+Schrubber, balai-brosse, Schrubber
+
+t, tt
+
+rette, sauver, retten
+Trìtt, coup de pied, Tritt
+
+d, dd
+
+Doddel , imbécile Trottel
+Drìtt, troisième, Dritte
+redde, parler, reden
+
+pf
+
+Pfaffer poivre, Pfeffer
+pfiffa, siffler, pfeifen
+rupfe, plumer, rupfen
+Zopf, natte, Zopf
+
+(E) point, point
+
+(E) bank, banque
+
+(E) table, table
+
+(E) demon,
+démon
+
+78
+
+/ts/ [ts]
+« tsigane »
+
+/k/ [k] « cas »
+
+(D) Zeit, temps
+
+z, tz
+Nous employons < z >
+au début du mot et
+derrière une voyelle
+longue et derrière une
+diphtongue.
+
+Heizung, chauffage, Heizung
+Schwiz, Suisse, Schweiz
+Zittung, journal, Zeitung
+
+Nous écrivons < tz >
+derrière une voyelle
+brève.
+
+Kritzung, intersection, Kreuzung
+Schwitz, Suisse, Schweiz
+Wìtz, blague, Witz
+
+(D) Kuss, baiser
+
+k, ck,
+
+(E) kiss, baiser
+
+Nous employons < k >
+au début du mot,
+derrière une voyelle
+longue et une
+diphtongue ; < ck >
+derrière une voyelle
+brève.
+
+Kìnschtler, artiste, Künstler
+Hoka, crochet, Haken
+heikel, délicat, épineux, heikel
+hocka, être accroupi, hocken
+Schock, choc, Schock
+
+c, kk
+Les emplois de < c > et
+de < kk > se limitent à
+quelques emprunts.
+/g/ [g] « gars » (D) gut, bon
+(E) good, bon
+
+« Ach-Laut »
+/ch/ [x]
+
+(D) Dach, toit
+
+Computer ordinateur, Computer
+Mokka, moka, Mokka
+
+g, gg
+Nous employons < g >
+au début du mot et
+derrière une voyelle
+longue et une
+diphtongue.
+
+Gàss, rue, ruelle, Gasse
+zeiga, montrer, zeigen
+Zug, train, Zug
+Feiglìng, lâche, Feigling
+frìndlig, amical, aimable, freundlich
+làwandig, vivant, lebendig
+
+Nous écrivons < gg >
+derrière une voyelle
+brève.
+
+Dùrrichzùgg, courant d’air, Durchzug
+
+ch
+Nous employons < ch >
+quand le son racle la
+gorge.
+
+Bàch, rivière, Bach
+Chìng, enfant Kind
+Chuchi, cuisine, Küche
+Kràch, bruit, Krach
+verlocha, enterrer, vergraben
+79
+
+« Ich-Laut »
+/ch/ [ç]
+
+/r/ [r]« roue »
+
+(D) ich, je
+
+ch
+La palatale postérieure
+dont le lieu
+d’articulation est situé
+devant la vélaire AchLaut est caractéristique
+de la prononciation de
+mots allemands
+comme ich möchte,
+j’aimerais, leicht, léger,
+feucht, humide,
+Dächer, toits, Becher,
+gobelet, Küche, cuisine,
+est notamment réalisé
+dans des aires
+linguistiques dans le
+nord de l’Alsace.
+
+ich, je, ich
+Kiche, cuisine, Küche
+licht, facile, leicht
+Lécher, trous, Löcher
+
+(D) rot, rouge
+
+r, rr
+
+(E) red, rouge
+
+Nous employons < r >
+quand le son évoque
+nos petites colères :
+« rrr ».
+
+Bàrt, barbe, Bart
+dìrr, sec, dürr
+Ràuich, fumée, Rauch
+verlore, perdu verloren
+
+/ng/ [ŋ]
+
+(D) Ding, chose
+
+ng
+
+« parking »
+
+(E) ring, ring
+
+Hüssgàng, couloir, Flur
+gsùnge, chanté, gesungen
+làng, long, lang
+
+/ngk/ [ŋk]
+
+(D) krank,
+malade
+
+/ks/ [ks]
+« axe »
+
+/gsch/ : [gʃ ]
+
+(D) Fuchs, renard
+
+nk
+Nous employons < nk >
+quand nous
+prononçons [k] à la
+suite de [ŋ].
+
+dànkbàr, reconnaissant, dankbar
+gsùnke, sombré, gesunken
+schanka, offrir, schenken
+
+gs, ks, x, chs
+
+Gsùndheit, santé, Gesundheit
+lìnks, gauche, links
+Sex, sexe, Sex
+sechs, six, sechs
+
+Nous proposons au
+choix :
+gsch / chsch
+
+heegschtens/heechschtens, au
+maximum, höchstens
+naagschtens/naachschtens,
+prochainement, nächstens
+
+(E) fox, renard
+
+80
+
+/kv/ [kv]
+« quetsche »
+
+(D) Quelle,
+source
+(E) queen, reine
+
+qu
+
+/schp/ [ʃp]
+comme /sch/
+dans
+« schéma » et
+/p/
+
+(D) Spiel, jeu
+
+sp
+À l’instar de
+l’allemand, nous
+employons < sp > pour
+le son /schp/ au début
+du mot ou du radical,
+pour éviter une
+graphie lourde.
+Attention à la coupure
+syllabique des verbes à
+particule séparable et
+à la coupure entre le
+déterminant et le
+déterminé des mots
+composés.
+Contrairement à
+l’allemand, nous ne
+triplons pas les
+consonnes.
+
+Quàl, supplice, Qual
+Quàlität, qualité, Qualität
+Quatsch, quetsche, Zwetschge
+Quàtsch, bêtises, Quatsch
+
+Ànspànnung, tension, Anspannung
+Lùschtspìel, comédie, Lustspiel
+spot, tard, spät
+Sproch, langue, Sprache
+Sprìtz, piqûre, Spritze
+verspreche, promettre, versprechen
+
+üsspànne, se détendre, ausspannen
+üssprache, prononcer, aussprechen
+Üssproch, prononciation, Aussprache
+
+schp
+Nous employons
+< schp > au milieu ou à
+la fin du mot, quand la
+prononciation
+dialectale est
+différente de celle des
+termes allemands
+correspondants
+prononcés /sp/ comme
+dans « spam ».
+
+Kaschperla, guignol, Kasperle,
+Knoschpa, bourgeons, Knospen
+Waschp, guêpe, Wespe
+
+81
+
+/scht/[ʃt]
+comme dans
+« chtimi »
+
+(D) Stunde, heure
+
+st
+À l’instar de
+l’allemand, nous
+employons < st > pour
+le son /scht/ au début
+du mot, pour éviter
+une graphie
+inesthétique. Soyons
+attentifs à la coupure
+syllabique des verbes à
+particule et à la
+coupure entre le
+déterminant et le
+déterminé des mots
+composés.
+scht
+Nous employons
+< scht > au milieu ou à
+la fin du mot, quand la
+prononciation
+dialectale est
+différente de celle des
+termes allemands
+correspondants
+prononcés /st/comme
+dans « stade ».
+
+/f/ [f] « fou »
+
+(D) Vater, père
+
+v, f
+
+(D) für, pour
+
+L’emploi de < v > et de
+< f > se fait en
+référence à
+l’orthographe des
+termes allemands
+correspondants.
+
+(E) father, père
+
+/s/ [s] « sur »
+
+(D) Busse,
+autocars
+(D) Buße,
+amende
+(E) sale, vente
+
+ss, s, ß
+Les voyelles brèves
+sont suivies de
+< ss >.
+
+Bàchstein, brique, Backstein
+Lahnstüehl, fauteuil, Lehnstuhl
+Stàdt, ville, Stadt
+stolz, fier, stolz
+ùfsteh, se lever, aufstehen
+
+Kloschter, couvent, Kloster
+koschte, coûter, kosten
+Luscht, envie, Lust
+Poscht, courrier, Post
+treeschte, consoler, trösten
+
+fùrtfàhre, partir, fortfahren
+Fleisch, viande, Fleisch
+Vàtter, père, Vater
+vorfàhre, avancer, vorfahren
+Volk, peuple, Volk
+Hàss, haine, Hass
+Ràss, race, Rasse
+Ross, cheval, Ross, Pferd
+wìsse, savoir, wissen
+
+Stros /Stroß, route, Straße
+82
+
+/h/ aspiré
+[h] « hé » et
+muet
+
+ORTHAL propose deux
+graphies au choix pour
+l’emploi de /s/ sourd
+derrière les voyelles
+longues et les
+diphtongues : soit < s >
+ou < ß > quand le
+terme allemand
+correspondant s’écrit
+avec < ß >.
+
+gros/groß/, grand, groß
+Geis/Geiß, chèvre, Geis
+hëise/hëiße, s’appeler, heißen
+
+Dans les autres cas de
+figure, < s > est la règle
+
+Gràs, herbe, Gras
+Ros, rose, Rose
+Basa, balai, Besen
+Laser, lecteur, Leser
+reise, voyager, reisen
+
+(D) Haus, maison
+
+h
+
+(E) house,
+maison
+
+Nous employons /h /
+aspiré au début du mot
+et /h/ muet
+uniquement pour
+signaler les voyelles
+longues
+(monophtongues)
+quand c’est également
+le cas pour les termes
+allemands
+correspondants.
+(cf. Annexe)
+
+Herr, monsieur, Herr
+Hìtz, chaleur, Hitze
+hol, va chercher, hol
+hohl, creux, hohl
+Hehla, grotte ; Höhle
+Wàhl, choix, Wahl
+Wohnung, appartement, Wohnung
+
+Libre choix d’employer
+ou non
+< h > muet derrière
+une diphtongue quand
+le terme
+correspondant en
+allemand s’écrit avec
+<h>
+
+fiere/fiehre, conduire, guider, führen
+Fiarung/Fiahrung, visite guidée,
+Führung
+Friejohr/Friehjohr, printemps, Frühling
+Küej/Küehj, vache, Kuh
+Roim/Roihm, crème, Rahm
+Stroi/Stroih, paille, Stroh
+
+L’emploi de < h > est
+cependant fortement
+recommandé pour
+quelques termes
+
+Reih, rangée, Reihe
+Wèiher, étang, Weiher
+Wiehnachte, Wiahnachta, Noël,
+Weihnachten
+83
+
+En résumé
+Les améliorations apportées à ORTHAL sont des précisions et des clarifications qui sont la
+conséquence de réflexions approfondies.
+La philosophie d’ORTHAL est de permettre à tout un chacun d’écrire l’alsacien selon sa propre
+prononciation, ce qui n’exclut pas le fait d’aller puiser son inspiration dans des aires linguistiques
+différentes, selon ses besoins ou ses envies.
+Le souci d’offrir à l’utilisateur une bonne marge de manœuvre est matérialisé par les choix
+orthographiques résumés dans les deux tableaux qui suivent.
+Cette souplesse sera également utile pour évaluer la production écrite dans le cadre de DCL alsacien.
+
+Synopsis des choix orthographiques de la méthode ORTHAL
+Rappel des choix orthographiques de la version Orthal 2023, qui, sans renier la version originelle de
+2008, propose davantage d’options.
+Les choix listés dans la colonne A sont ceux recommandés en priorité.
+Les choix listés dans la colonne B sont une alternative tout aussi valable.
+Choix A
+
+Choix B
+
+< s > après voyelle longue et diphtongue.
+
+< ß > après voyelle longue et/ou ss après
+diphtongue.
+
+fliese, fliasa, couler, fließen
+gros/groos, grand, groß
+heise, heisa, s’appeler, heißen
+Stros/Stroos, rue, Straße
+Strosburg, Strosbùrri(g), Strasbourg
+
+fließe, fliaßa, fliesse, fliassa
+groß
+heiße, heißa, heisse, heissa
+Stroß
+Stroßburg, Stroßbùrri(g)
+
+Utilisation de < p, b > et < t, d > en référence aux
+termes allemands correspondants
+
+Utilisation généralisée de < b, d >, sauf en
+cas de confusions potentielles
+
+Pàppa, Pàppe, papa, Vati
+àpàssa, ànpàsse, adapter, anpassen
+Pàppadeckel, Pàppedeckel, carton, Pappdeckel
+Müater, Müeter, Mueter, mère, Mutter
+Vàtter, père, Vater
+sìe sott, elle devrait, sie sollte
+mìr wotta, wotte, nous voudrions, wir möchten
+
+Bàbba/Bàbbe
+àbàssa/ànbàsse
+Bàbbadeckel/Bàbbedeckel,
+Müader/Müeder/Mueder,
+Vàdder
+sìe sodd
+mìr wodda, wodde
+Pas d’alternative pour :
+Packla, Päckel
+Backla, Bäckel
+retta, rette
+
+Packla, Päckel, paquet, Päckchen
+Backla, Bäckel, joue, Backen
+retta, retta, sauver, retten
+
+84
+
+redda/redde, parler, reden
+<ì>
+
+redda/redde
+<e>
+
+fìr, pour, für
+derfìr, defìr, pour cela, dafür
+
+fer,
+drfer, d’rfer, defer
+
+/e/ réduit écrit en toutes lettres.
+
+/e/ réduit prononcé, mais non écrit.
+
+mer, on, man
+der, le, der
+dernoh, ensuite, danach
+
+mr/m’r
+dr/d’r
+drnoh/d’rnoh
+
+Emploi de < è, èè, èh > pour le phone /e/ ouvert et
+long en référence aux termes allemands écrits avec
+< e >. Emploi de < ä > quand le terme
+correspondant en allemand s’écrit avec < ä >.
+
+Emploi de < ä, äh, ää > pour le phone /e/
+ouvert et long dans tous cas de figure.
+
+hèra, entendre, hören
+rèda, parler, reden
+Lèhrer, professeur, Lehrer
+lèhra, apprendre, enseigner, lernen, lehren
+lèèra, vider, leeren
+hèècher, plus haut, höher
+ghèèra, , appartenir, gehören
+
+hära
+räda
+Lährer
+lähra
+läära
+häächer
+ghära
+
+Täter, criminel, Täter
+Wähler, électeur, Wähler
+sìe wär, elle serait, sie wäre
+
+Täter
+Wähler
+sìe wär
+
+Doublement de la voyelle longue limité au phone
+/e/ fermé et long et pour le phone /o/ d’aperture
+variable uniquement en cas d’ambiguïté.
+
+Doublement des voyelles longues laissé à
+la discrétion de tout un chacun.
+
+meega, bien aimer, désirer, mögen
+scheen, beau, schön
+teete, teeta, tuer, töten
+hoch, haut, hoch
+Sproch, langue, Sprache
+Oschtre, Oschtra, Pâques, Ostern
+
+meega
+scheen
+teete, teeta
+hooch
+Sprooch
+Ooschtre, Ooschtra
+
+Dà, jour, Tag
+Bu, garçon, Bube
+Bür, paysan, Bauer
+Fir, feu, Feuer
+sì, être, sein
+Widabàuim, Widebaum, saule, Weide
+
+Dàà
+Buu
+Büür
+Fiir
+sìì
+Wiidabàuim/Wiidebaum
+85
+
+nooch, près, nah (# noch, encore, noch)
+Noochber, voisin, Nachbar
+
+nooch
+Noochber,
+
+Emploi de < ie > en finale ayant la valeur de /i/
+fermé et long dans les mots d’emprunts s’écrivant
+avec < ie > allemand et /ou en français.
+
+Emploi de < i > en finale ayant la valeur de
+/i/ fermé et long y compris dans les mots
+d’emprunts s’écrivant avec < ie > en
+allemand et/ou en français.
+
+Akademie, académie, Akademie
+Allegorie, allégorie, Allegorie
+Allergie, allergie, Allergie
+Demokràtie, démocratie, Demokratie
+Energie, énergie, Energie
+Epidemie, épidémie, Epidemie
+Genie, génie, Genie
+Hysterie, hystérie, Hysterie
+Melodie, mélodie, Melodie
+Orthogràfie,orthographe, Orthografie/Orthographie
+Pàndemie, pandémie, Pandemie
+Philosophie, philosophie, Philosophie
+Prosodie, prosodie, Prosodie
+Serie, série, Serie [′seːriə] D # [se′riː] CH
+
+Akademi
+Allegori
+Allergi
+Demokràti
+Energi
+Epidemi
+Geni
+Hysteri
+Melodi
+Orthogràfi
+Pàndemi
+Philosophi
+Prosodi
+Seri
+
+Emploi exceptionnel de < ie > pour le phone /i/
+long et fermé, réservé normalement pour la
+diphtongue /i/ vers /e/ réduit, pour quelques
+termes usuels calqués sur l’allemand, notamment
+en Basse-Alsace.
+
+Emploi de < i > ou < ii > pour le phone /i/
+long et fermé.
+
+Bier, bière, Bier
+Krieg, guerre, Krieg
+lieb, gentil, lieb
+nie, jamais, nie
+Spiel, jeu, Spiel
+Sie ; sie, vous ; elle, ils, elles, Sie ; sie
+viel, beaucoup, viel
+vier, quatre, vier
+Ziel, but, objectif, Ziel
+
+Bir
+Krig
+lib
+ni/nii
+Spil
+Si, si
+vil
+vir
+Zil
+
+86
+
+Emploi de < ìe > pour le phone /i/ très ouvert et
+long réservé normalement pour la diphtongue /ì/
+vers /e/ réduit.
+
+Emploi systématique de < ì > pour le
+phone /i/ très ouvert et long.
+
+Sìe ; sìe, vous ; elle, ils, elles
+Spìel, jeu, Spiel
+spìele, spìela, jouer, spielen
+
+Sì ; sì
+Spìl
+spìle, spìla
+
+< gscht >
+
+< chscht >
+
+heegschtens, au maximum, tout au plus, höchstens
+naagschtens, prochainement, nächstens
+d naagscht, la prochaine, die nächste
+
+heechschtens
+naachschtens
+d nachscht
+
+On n’emploie pas < h > d’allongement après
+diphtongue.
+
+Emploi du < h > d’allongement après
+diphtongue, calque de l’allemand.
+
+fiere, fìere, fiara, conduire, guider, führen, fahren
+Friejohr, Friajohr, Frèijohr, printemps, Frühjahr
+Küej, Küaj, vache, Kuh
+Roim, crème, Rahm
+Stroi, paille, Stroh
+
+fiehre, fìehre, fiahra
+Friehjohr, Friahjohr, Frèihjohr
+Küehj, Küahj
+Roihm
+Stroih
+
+Transcription par < ei > de la diphtongue [ai], sauf
+pour quelques termes calqués sur l’allemand.
+
+Transcription par < ai > de la diphtongue
+[ai] dans tous les cas de figure.
+
+Feischter, fenêtre, Fenster
+Freid, joie, Freude
+Heimet, pays natal, patrie, Heimat
+Meischter, maître, Meister
+Weisheit, sagesse, Weisheit
+Mais :
+Hai, Haifìsch, requin, Hai, Haifisch
+Laib, miche, Laib
+Mai, mai, Mai
+Kaiser, empereur, Kaiser
+Waisekìnd, Waisakìnd, orphelin, Waisenkind
+
+Faischter
+Fraid
+Haimet
+Maischter,
+Waishait
+Hai, Haifìsch
+Laib
+Mai
+Kaiser
+Waisekìnd, Waisakìnd
+
+87
+
+Transcription de la diphtongue /è/ très ouvert vers
+/i/ fermé [æi]
+par < ëi > pour les mots correspondant à des
+termes allemands comportant la diphtongue < eu >
+ou < ei >,
+et par < äi > dans les autres cas de figure.
+
+Transcription par < ëi > de la diphtongue
+[æi]
+dans tous les cas de figure.
+
+Dëifel, diable, Teufel
+Frëid, joie, Freude
+Hëimet, pays natal, Heimat
+Mëischter, maître, Meister
+Mais :
+Fäischter, sombre, finster
+fäif, cinq, fünf
+Mäidla, (jeune) fille, Mädchen
+Träim, rêves, Träume
+
+Dëifel
+Frëid
+Hëimet
+Mëischter
+
+Transcription par < äu > de la diphtongue [ɶy], sauf
+pour quelques mots calqués sur l’allemand en
+< eu >.
+
+Transcription par < äu > de la diphtongue
+[ɶy] dans tous les cas de figure.
+
+Fräu, femme, Frau
+Läuch, poireau, Lauch
+Läufa, marcher, laufen (Dial.), gehen
+Sundgäu, Sundgau
+Mais :
+beleuchte, beleuchta, éclairer, illuminer, beleuchten
+Beleuchtung, Baleuchtùng, Beläuchtùng, éclairage,
+Beleuchtung
+Beute, Beuta, proie, Beute
+üs(s)beute, üs(s)beuta, exploiter, ausbeuten
+verseuche, verseucha, polluer, verseuchen
+keusch, chaste, keusch
+
+Fräu
+Läuch
+läufa
+Sundgäu
+
+fëischter
+fëif
+Mëidla
+Trëim
+
+beläuchte, beläuchta,
+Beläuchtung, Baläuchtùng, Beläuchtùng
+Bäute, Bäuta
+üs(s)bäute, üs(s)bäuta
+versäuche, versäucha
+käusch
+
+88
+
+Transcription par < aui > de la diphtongue [ᴐi], en
+référence aux termes allemands comportant < au >.
+Transcription par < oi > dans les autres cas de
+figure.
+
+Transcription par < oi > de la diphtongue
+[ᴐi], dans tous les cas de figure.
+
+aui, aussi, auch
+Bauim, arbre, Baum
+Fraui, femme, Frau
+Kauifmànn, commerçant, Kaufmann
+Lauich, poireau, Lauch
+Pauis, pause, Pause
+Saui, cochon, Sau
+Sauim, ourlet, Saum
+Trauim, rêve, Traum
+Mais :
+Roi(h)m, crème, Rahm
+roi(h), cru, roh
+Stroi(h), paille, Stroh
+
+oi
+Boim
+Froi
+Koifmànn
+Loich
+Pois
+Soi
+Soim
+Troim
+
+Transcription par < àui > de la diphtongue [ɒi] en
+référence aux termes allemands comportant < au >.
+Transcription par < ài > dans les autres cas de
+figure.
+
+Transcription par < ài > de la diphtongue
+[ɒi] dans tous les cas de figure.
+
+àui, aussi, auch
+Bàuim, arbre, Baum
+Fràui, femme, Frau
+Kàuifmànn, commerçant, Kaufmann
+Làuich, poireau, Lauch
+Pàuis, pause, Pause
+Sàui, cochon, Sau
+Sàuim, ourlet, Saum
+Tràuim, rêve, Traum
+Rài(h)m, crème, Rahm
+rài(h), cru, roh
+Strài(h), paille, Stroh
+
+ài
+Bàim
+Frài
+Kàifmànn
+Làich
+Pàis
+Sài
+Sàim
+Tràim
+Rài(h)m
+rài(h)
+Strài(h)
+
+Roi(h)m
+roi(h)
+Stroi(h)
+
+89
+
+Distinction de /u/ fermé noté < u >
+et de /u/ très ouvert noté < ù >.
+
+Pas de distinction entre /u/ fermé et /u/
+très ouvert.
+
+ànrufe, téléphoner, anrufen
+Dusch, douche, Dusche
+dùmm, stupide, dumm
+kùrz, court, bref, kurz
+Puls, pouls, Puls
+Putsch, putsch, Putsch
+rufe, appeler, rufen
+
+ànrufe
+Dusch
+dumm
+kurz
+Puls
+Putsch
+rufe
+
+Formes agglomérées
+
+Formes non agglomérées
+
+àb ìns Bett, allez, au lit, los, ins Bett
+ìma, ìme Bett, dans un lit, in einem Bett
+
+àb ìn s Bett
+ì ma, ì me, ìm a, ìm e Bett
+
+Diminutifs en haut-alémanique orthographiés < lì >.
+
+Diminutifs en haut-alémanique
+orthographiés < lé >
+Biablé
+Maidlé
+
+Biablì, petit garçon, garçonnet, kleiner Junge
+Maidlì, (jeune) fille, Mädchen
+
+Annexe
+Liste alphabétique des termes usuels orthographiés avec < h > d’allongement de la
+voyelle (monophtongue) précédente.
+Pour éviter une surcharge inutile, nous nous limitons à deux variantes, une pour le département 68
+et une autre pour le 67.
+Nous présentons une liste alphabétique des termes alsaciens usuels orthographiés avec < h >
+d’allongement qui signale la voyelle longue précédente (monophtongue), à l’instar de l’allemand.
+En revanche, pour faciliter la tâche aux personnes sans prérequis en allemand, cette « règle » ne sera
+pas appliquée aux diphtongues.
+-
+
+58
+
+L’ordre alphabétique est strict et ne tient pas compte des différents timbres des voyelles
+orthographiées < a >, < à >, < i >, < ì >, < e >, < ä >, < u >, < ü >.
+Les termes de référence58 sont en gras, le genre du nom indiqué par m. pour masculin, f.
+pour féminin, nt. pour neutre. Le pluriel est signalé entre parenthèses, soit par un simple
+tiret s’il est invariable, Wohrsàjere (-), voyante, par un tiret et la lettre < e > ou < a > si le
+radical du nom ne change pas, Lahn (-e/-a), soit par la forme partielle, si un élément du mot
+change, Wohnblock (-bläck), immeuble. La forme complète est indiquée dans tous les autres
+cas de figure, Zàhn (Zahn, Zehn), dent.
+
+Par terme de référence, nous entendons les principales formes en usage.
+
+90
+
+-
+
+-
+
+Si le terme n’existe qu’au pluriel, nous le signalons par (pl.), s’il n’existe qu’au singulier par
+(sing.)
+L’adjectif et le verbe substantivés sont signalés par adj. subst. et v. subst.
+Les abréviations vt., vi. et vpr. signalent les verbes transitifs, intransitifs et pronominaux.
+Les abréviations : adj., adj. dém., adj. poss., adj. subst., et adv. renvoient respectivement à
+adjectif, adjectif démonstratif, adjectif possessif, adjectif substantivé, et adverbe.
+La forme de l’adjectif substantivé est celle employée avec l’article indéfini, e ou a, le pluriel
+est la forme employée sans article. (déclinaison forte de l’adjectif)
+Les abréviations pr. réfl., pr. pers, pr. dém., pr. indéf. ainsi que interj. renvoient à pronom
+réfléchi, pronom personnel, pronom démonstratif, pronom indéfini et interjection.
+Les variations géolinguistiques sont séparées par une virgule et en caractères gras. Les
+traductions en français et en allemand sont séparées par point-virgule. Les termes dérivés ou
+synonymes en gras sont signalés, le cas échéant, par une flèche.
+Le trait vertical entre la particule et la racine du verbe indique qu’il s’agit d’un verbe à
+particule séparable.
+
+àn|flehe, à|fleha vt. (à(n)gfleht) ; supplier,
+implorer ; anflehen
+
+làhm adj. ; paralysé(e) ; lahm
+
+àn|lehre, à|lehra vt. (à(n)glehrt ; former ;
+anlehren
+
+Làhm m. (-e) ; le paralytique, le paralysé ; der
+Lahme
+
+→ lehre
+
+Àhn m. (-e) ; ancêtre ; Ahn
+
+Làhmàrsch m. (-arsch) ; lambin, mollasson;
+Lahmarsch
+
+àhne, àhna vt. (gàhnt) ; pressentir ; ahnen
+
+làhmàrschig adj. nonchalant ; lahmarschig
+
+ahnle, ahnla vi. (gahnelt) ; ressembler ; ähneln
+
+lahme vt. (glahmt, glähmt) ; paralyser ;
+lähmen
+
+Àhneforschùng, Ahnaforschungf. (-e/-a) ,
+généalogie ; Ahnenforschung
+
+Lahmùng, Lähmung f. (-e/-a) ; paralysie ;
+Lähmung
+
+Àhnung f. (sing.), Àhnig, idée vague, intuition ;
+Ahnung
+
+Lahn f. (-e / -a) ; accoudoir ; Armlehne
+
+àhnungslos adj. ; inconscient ; adv. sans se
+douter de rien ; ahnungslos
+
+Lahnstüel, Lahnstüal m. (-stiel, stial) ;
+fauteuil ; Lehnstuhl
+
+91
+
+Àhnungsloser adj. subst. m (Àhnungslosi) ;
+personne qui ne se doute de rien ; Ahnungsloser
+
+lehne, lehna (glehnt) ; prêter, emprunter ;
+(aus)leihen
+
+Àhnùngslosigkeit, Àhnungslosigkeit f. (sing.) ;
+ignorance, Ahnungslosigkeit
+
+Lehnwort nt. (-wärter) ; mot d’emprunt ;
+Lehnwort
+
+Àhr f. (-e) ; épi ; Ähre
+
+Lehr f. (-e/-a) ; précepte, avertissement,
+morale (fable) ; Lehre
+
+Bàhn f. (-e) ; (-a) ; passage, couloir, piste, orbite,
+Bahn, Umlaufbahn → Isebàhn ; Isabàhn, chemin
+de fer ; Eisenbahn
+
+Lehrbüe, Lehrbüa m. (-büewe, -büawa) ;
+apprenti ; Lehrling, Azubi
+
+Bàhnbracher m. (-) ; pionnier ; Bahnbrecher
+
+Lehrbüech, Lehrbüach nt. (-biecher, -biacher);
+manuel (scolaire) ; Lehrbuch
+
+Bàhndàmm m. (sing.) ; remblai ; Bahndamm
+
+lehre, lehra vt. (glehrt) ; apprendre,
+enseigner; lernen, lehren
+
+bàhne, bàhna vt. (gebàhnt) ; déneiger ; vom
+Schnee freiräumen
+
+Lehrer, Lèhrer m. (-) ; enseignant, professeur ;
+Lehrer
+
+Bàhngleis nt. (-e/-a) ; voie, rail ; Bahngleis
+
+Lehrere, Lehrera f. (-) ; enseignante,
+professeure ; Lehrerin
+
+Bàhnhoff m.(-häff) ; gare ; Bahnhof
+
+Lehrerzìmmer nt. (-) ; salle des professeurs ;
+Lehrerzimmer
+
+Bàhnìwwergàng m. (-ìwwergang), Bàhnìbergàng
+m. (-ìbergang) ; passerelle ; Bahnübergang
+
+Lehrjohr nt. (-e) ; année d’apprentissage ;
+Lehrjahr
+
+Bàhnschlìtte, m. (-) ; chasse-neige ; Schneepflug
+
+Lehrpersonàl nt. (sing) ; personnel
+enseignant ; Lehrpersonal
+
+Bàhr f. (-e) → Tràgbàhr f. (-e / -a) ; civière ;
+Tragbahre
+
+Lehrplàn m. (-plan) ; programme
+d‘enseignement ; Lehrplan
+
+Blüemekehl, Blüamkehl m. (sing.) ; chou-fleur ;
+Blumenkohl
+
+Lehrsàl m. (-sal) ; salle de cours ; Lehrsaal
+
+Dàhlie f. (-), Dàhlià (-) ; dahlia ; Dahlie
+
+Lohn m. (Lehn) ; salaire ; Lohn
+
+dehnbàr adj. ; adv. ; extensible ; dehnbar
+
+lohne vpr. (glohnt) ; être profitable, valoir la
+peine ; sich lohnen
+
+dehne vpr. (gedehnt) ; dehna (dehnt) ; se dilater,
+s’étendre ; sich dehnen
+
+Lohnkoschte, Lohnkoschta pl. ; charges
+salariales ; Lohnkosten
+
+92
+
+Dehnungs-h nt. (sing.) ; < h > graphique
+d’allongement de la voyelle précédente ;
+Dehnungs -h
+
+Lohnstir f. (-e/-a) ; impôt sur le revenu ;
+Lohnsteuer
+
+Dehnungszeiche nt. (-) ; lettre rendant compte de Lohnzettel m. (-) ; fiche de paye ; Lohnzettel
+la longueur de la voyelle précédente ;
+Dehnungszeichen
+Eh f. (-e/-a) ; mariage, union conjugale ; Ehe
+
+Mahl f. (sing.) ; farine ; Mehl
+
+Ehfràui, Ehfraui f. (-e/-a) ; épouse ; Ehefrau
+
+màhle, màhla vt. (gmàhle, gmàhla) ; moudre ;
+mahlen
+
+Ehmànn m (-manner) ; mari, époux ; Gatte
+
+mahlig adj. ; farineux ; mehlig
+
+ehmolig, ehmàlig, adj. ; ancien ; ehemalig
+
+Mahlsàck m. (-säck) ; sac de farine ; Mehlsack
+
+Ehepaarel, Ehepaarla nt. (-) ; couple ; Ehepaar
+
+Mahlsuppe f. (-), Mahlsupp, f. (-e) ; bouillie de
+farine ; Mehlsuppe
+
+Ehpàrtner m. (-) ; conjoint ; Ehepartner
+
+Màhnbrief, Màhnbriaf m. (-) lettre de rappel,
+mise en demeure ; Mahnbrief
+
+Ehr f. (-e) ; honneur ; Ehre
+
+màhne, màhna vt. (gmàhnt) ; avertir,
+rappeler ; mahnen
+
+ehre, ehra vt. (gehrt) ; honorer ; ehren
+
+meh adv. ; davantage ; mehr
+
+Ehregàscht, Ehragàscht m (-gäscht) ; invité
+d’honneur ; Ehrengast
+
+mehmol adv. ; plusieurs fois ; mehrmals
+
+Ehremìtglid, Ehramìtglìd nt. (-er) ; membre
+honoraire ; Ehrenmitglied
+
+mehre vt. (gmehrt) ; multiplier ; mehren
+
+Ehrepresident, Ehrapresidant m. (-e), président
+honoraire ; Ehrenpräsident
+
+mehreri, mehrere pr. indéf. ; plusieurs ;
+mehrere
+
+Ehresàch f. (-e) ; affaire d’honneur, parole
+d’honneur ; Ehrensache
+
+Mehrheit f (-e) ; majorité ; Mehrheit
+
+Ehrewinn m. (sing.), Ehrawi ; vin d’honneur,
+Ehrenwein
+
+mehrsprochig adj. ; multilingue ;
+mehrsprachig
+
+Ehrewort, Ehrawort nt. (sing.) ; parole
+d’honneur, ; Ehrenwort
+
+Mehrzàhl f. (sing.) ; pluriel ; Mehrzahl
+
+Ehrgfühl nt. (sing.) ; sens de l’honneur ; Ehrgefühl
+
+Mìhl, f. (-e/-a), Mìhli f .(-) ; moulin ; Mühle
+
+→ vermehre
+
+93
+
+Ehrgitz m. (sing.) ; ambition ; Ehrgeiz
+
+Mìhlbàch m. (-bach), bief du moulin,
+Mühlbach
+
+ehrgitzig adj. ; ambitieux ; ehrgeizig
+
+Mìhlràd nt. (-räder) ; roue du moulin ;
+Mühlrad
+
+Ehrìng m. (-) ; alliance ; Ehering
+
+Mohn m. (sing.) ; pavot, coquelicot ; Mohn
+
+ehrlig adj., ehrlisch59 ; honnête ; ehrlich
+
+nähre, nähra vt. (gnährt) ; nourrir ; nähren
+
+Ehrligkeit f. (sing.), Ehrlischkëit60 ; honnêteté ;
+Ehrlichkeit
+
+nàhrhàft adj. ; nourrissant ; nahrhaft
+
+Ehrùng, Ehrung f. (-e/-a) ; mise à l’honneur,
+distinction ; Ehrung
+
+Nährstoff m. (-e/-a) ; substance nutritive ;
+Nährstoff
+
+Ehstànd m. (sing.) ; mariage, vie conjugale ;
+Ehestand
+
+Nohrìcht f (-e) ; nouvelle ; Nachricht
+
+fahl adv. : fahl àm Plàtz ; déplacé ; fehl am Platz
+
+Noht f. (-e) ; couture ; Naht
+
+Fahlàlàrm m (sing.) ; fausse alerte ; Fehlalarm
+
+Oh(n)màcht f. (Ohmachte); évanouissement;
+Ohnmacht
+
+fahlbàr, fehlbàr adj. ; faillible ; fehlbar
+
+oh(n)machtig adj. ; évanoui(e) ; ohnmächtig
+
+fahle, fahla vt, vi. (gfahlt), fähle (gfählt) ;
+manquer ; fehlen
+
+Ohmet, Ahmt m. / nt. ; regain ; Öhmd
+
+Fahlentwìcklùng, Fahlentwìcklung f. (-e) ;
+dérapage, Fehlentwicklung
+
+ohne prép. ; sans ; ohne
+
+Fahler m. (-), Fëhler (-) ; faute, erreur ; Fehler
+
+Ohr nt. (-e); oreille; Ohr
+
+fahlerhàft, fëhlerhàft adj. ; défectueux,
+fehlerhaft
+
+Ohrelappel, nt (-lapple), Ohralappla nt. (-) ;
+lobe de l’oreille ; Ohrläppchen
+
+fahlerlos, fëhlerlos adj. ; sans faute, impeccable ;
+fehlerlos
+
+Ohreweh, Ohraweh nt. (sing.) ; otalgie ;
+Ohrenschmerzen
+
+Fahlgebùrt, Fahlgaburt f. (-e/-a) ; fausse couche ;
+Fehlgeburt
+
+Reh nt. (-) ; chevreuil ; Reh
+
+Fahlgrìff m. (-) ; coup manqué, bévue ; Fehlgriff
+
+Rehbock m. (-bäck) ; chevreuil mâle ; Rehbock
+
+Fahltrìtt m. (-) ; faux-pas ; Fehltritt
+
+Rehgeis, Rehgëis f. (-e) ; biche, Hirschkuh
+
+59
+
+Rares sont les suffixes en -isch ou -lisch prononcées avec « ich-Laut », d’où le choix ici de la chuintante
+< sch >.
+60
+C’est aussi le cas pour les substantifs dérivés.
+
+94
+
+Fahlzìndung f. (-e) ; raté ; Fehlzündung
+
+Rehrel, nt. (Rehrle), Rehrla (-) ; petit tuyau,
+cheminée (orgue) ; Röhrchen → Rohr
+
+Fàhne, Fàhna m. (Fahne), drapeau ; Fahne
+
+Rohr nt. (Rehr) ; tuyau ; Rohr
+
+Fàhneflùcht, Fàhnaflucht f. (sing.) ; désertion ;
+Fahnenflucht
+
+Rohrspàtz m. (-e/-a) ; bruant des roseaux ;
+Rohrspatz
+
+Fahnel, Fahnla nt. (-) ; petit drapeau ; Fähnchen
+
+Rohrzùcker, Rohrzucker m. (sing.) ; sucre de
+canne ; Rohrzucker
+
+Fahnelewìnker, Fahnlawìnker m. (-) ; juge de
+touche ; Linienrichter
+
+Rohstoff m. (-e) ; matière première ; Rohstoff
+
+Fàhnebippel interj ; parbleu ; O Gott
+
+Rohstoffmàngel m. (-mangel) ; pénurie de
+matières premières ; Rohstoffmangel
+
+Fàhrbàhn f. (-e/-a) ; chaussée ; Fahrbahn
+
+(g)sah, sähn vt. (gsah, gsähn) ; voir ; sehen
+
+fàhre, fàhra vi. (gfàhre, gfàhra), rouler ; fahren
+
+sahne, sahna vpr. ; désirer ardemment, avoir
+la nostalgie ; sich sehnen
+
+Fàhrer m. (-) ; conducteur ; Fahrer
+
+Sahnsucht, Sehnsucht f. sing. ; nostalgie ;
+Sehnsucht
+
+Fàhrgàscht m. (-gäscht)
+
+Sohl f. (-e), Sohla f. (-) ; semelle ; Sohle
+
+Fàhrkàrt f. (-e/-a) ; ticket ; Fahrkarte
+
+Sohn, Suhn m. (Sehn) ; fils ; Sohn
+
+Fàhrlehrer, Fàhrlèhrer m. (-) ; moniteur d’autoécole ; Fahrlehrer
+
+Sùhnsfràui, Suhnsfräu f. (-e) ; belle-fille ;
+Schwiegertochter
+
+Fàhrplàn m. (-plan) ; horaire, indicateur ;
+Fahrplan
+
+Stàhl, m. (sing.) ; acier ; Stahl
+
+Fàhrprüfùng, Fàhrprüfung f. (-e/-a) ; examen du
+permis de conduire ; Fahrprüfung
+
+stahle, stahla vt. (gstohle, gstohla) ; voler,
+dérober ; stehlen
+
+Fàhrschin(n) m. (-) ; permis de conduire ;
+Führerschein
+
+Stahler, m. (-) ; voleur ; Dieb
+
+Fàhrschüel, Fàhrschüal f. (-e/-a) ; auto-école, ;
+Fahrschule
+
+Stràhl m. (-e / -a) ; rayon ; Strahl
+
+Fàhrstüel, Fàhrstüal m. (-stiel, stial) ; ascenseur ;
+Fahrstuhl
+
+stràhle, stràhla vi. (gstràhlt) ; rayonner ;
+strahlen
+
+Fleh (pl.) ; puces, Flöhe → Floh
+
+stràhlend adj. ; radieux ; strahlend
+
+95
+
+flehe, fleha vi. (gfleht) ; supplier, implorer ;
+flehen
+
+Strahn f. (-e) ; mèche de cheveux ; Strähne
+
+→ à(n)flehe
+Floh m. (Fleh) ; puce ; Floh
+
+Strohwìtwer m. (-) ; célibataire occasionnel ;
+Strohwitwer
+
+Flohmärrick, Flohmart m. (-) ; marché aux puces ;
+Flohmarkt
+
+Ühr f (-e / -a) ; montre, horloge ; Uhr
+
+Fohle, Fohla nt. (-) ; poulain ; Fohlen
+
+Ührefàwrìck, Ührafàbrìck f (-e) ; horlogerie ;
+Uhrenfabrik
+
+Föhn, m. (sing.) ; foehn, vent sec et chaud, sèchecheveux ; Föhn
+
+Ühremàcher, Ühramàcher m. (-) ; horloger ;
+Uhrmacher
+
+föhne, föhna vt. (gföhnt) ; sécher les cheveux ;
+föhnen
+
+Ührwarrick, Ührwark nt. (sing.) ; mécanisme
+(montre, horloge) ; Uhrwerk
+
+froh adj. ; content ; froh
+
+Veh, Viah nt (sing.) ; bétail ; Vieh
+
+gahne, gahna vi. (gahnt) ; bâiller ; gähnen
+
+Wàhl f. (-e / -a) ; choix, élection ; Wahl
+
+geh vi. (gànge, gànga) ; aller ; geh
+
+Wähler m. (-); électeur ; Wähler
+
+geh|lo, goh|lo vpr. (gehlo, gohlo) ; se laisser
+aller ; sich gehen lassen
+
+Wählerstìmm f. (-e/-a) ; suffrage;
+Wählerstimme
+
+Gehre m. (-) ; giron ; Schoß
+
+Wàhlkàmpf m. (-kampf) ; campagne
+électorale ; Wahlkampf
+
+→ Schos
+goh vi. (gànga) ; aller ; gehen
+
+Wàhlracht nt. (sing.) ; droit de vote ;
+Wahlrecht
+
+Hàhn (-e), Hàhna m. (-) ; coq ; Hahn
+
+Wàhlzettel m. (-) ; bulletin de vote ;
+Wahlzettel
+
+Hàhne, Hàhna m. (Hahne) ; robinet ; Hahn
+
+Wàhn m. (sing.) ; illusion, chimère ; Wahn
+
+Hàhnebier, Hàhnabier nt. (sing) ; bière pression ;
+Bier vom Fass, Fassbier
+
+Wàhnsìnn m. (sing.) ; folie ; Wahnsinn
+
+Hàhnefües, Hàhnafües m (-fies) ; renoncule ;
+Hahnenfuß
+
+wàhnsìnnig adj. ; fou, insensé ; wahnsinnig
+
+Hàhnekraje, Hàhnakraja nt. (sing.) ; chant du
+coq, Hahnenkrähen
+
+wahrend prép., conj. ; pendant (que) ;
+während
+
+96
+
+Hahnel, Hahnla nt. (-) ; petit robinet ; kleiner
+Hahn
+
+wàhrhàft adj. ; vrai, authentique ; wahrhaft
+
+Hàhneschrèi, Hàhnaschrèi m. (-) ; chant du coq ;
+Hahnenschrei
+
+Weh nt. (sing.) ; douleur; Weh
+
+Hàhnewàsser, Hàhnawàsser nt. (sing. ; eau du
+robinet ; Leitungswasser
+
+weh adj. mal; weh
+
+Hahnelwàsser, Hahnlawàsser nt. (sing.) ; eau du
+robinet ; Leitungswasser
+
+wehleidig adj.; douillet; wehleidig
+
+Hehl, f. (-e), Hehla f. (-) ; grotte, caverne ; Höhle
+
+Wehmüet, Wehmüat f. (sing.) ; mélancolie ;
+Wehmut
+
+Hehlebewohner, Hehlabewohner m. (-) ;
+troglodyte, homme des cavernes ;
+Höhlenbewohner
+
+wehre, wehra vpr. (gwèhrt, gwehrt) ; se
+défendre ; sich wehren
+
+Hehleforscher, Hehlaforscher m. (-) ;
+spéléologue ; Höhlenforscher
+
+Wehrpflìcht f. (sing) ; service militaire
+obligatoire ; Wehrpflicht
+
+Hehlemensch m. (-e), Hehlamansch m. (-a) ;
+homme des cavernes ; Höhlenmensch
+
+weh|tüe, weh|màcha vi. (wehtüe,
+wehgmàcht) ; faire mal ; weh tun
+
+Hehpùnkt, Hehpunkt m. (-pìnkt) ; point
+culminant, point d’orgue, apothéose ; Höhepunkt
+
+Wohl nt. (sing.) ; bien-être ; Wohl
+
+hohl adj. ; creux ; hohl
+
+Wohlstànd m. (sing). ; prospérité, opulence ;
+Wohlstand
+
+Hohlkopf m. (-käpf) ; demeuré ; Hohlkopf
+
+wohnbàr adj.; habitable ; wohnbar
+
+Hohlràuim, Hohlrauim m. (sing.) ; cavité, vide
+(sanitaire) ; Hohlraum
+
+Wohnblock m. (bläck) ; bloc, immeuble ;
+Wohnblock
+
+Hohlwaj, Holwag m. (-) ; chemin creux ; Holweg
+
+wohne, wohna vi. (gwohnt) ; habiter ;
+wohnen
+
+huh (interj.) ; Hou ! ; Huh !
+
+Wohnflache, Wohnflächa f. (-) ; surface
+habitable; Wohnfläche
+
+ìhr pr. pers. ; vous ; ihr
+
+Wohnhüss nt. (-hiser) ; maison, immeuble
+d’habitation ; Wohnhaus
+
+Ìhr pr. pers. ; vous (forme de politesse) ; Ìhr
+
+Wohnsìtz m. (sing.) ; domicile ; Wohnsitz
+
+ìhr adj. poss. ; votre ; ihr
+
+Wohnùng, Wohnung f. (-e) ; appartement ;
+Wohnung
+
+97
+
+ìhre pr. pers. f. au datif, à elle ; ihr
+
+Wohnviertel, Wohnviartel nt. (-) ; quartier ;
+Wohnviertel
+
+ìhre adj. poss., pr. poss. ; sa, son ; ihre
+
+wohr adj. ; vrai ; wahr
+
+Ihrel, Ihrla nt. (-) ; petite montre, kleine Uhr
+
+Wohret f. (-e ) ; vérité ; Wahrheit
+
+ìhrersitts adv. ; de leur côté ; ihrerseits
+
+wohrsàje, wohrsàga vi. (wohgsajt) ; prédire ;
+wahrsagen
+
+ìhretswìlle adv. ; pour elle, ils, vous ; ihretwillen
+
+Wohrsàjere, Wohrsàgera f. (-); voyante ;
+Wahrsagerin
+
+ìhretwaje, ìhretwaga adv. pour elle, ils, vous ;
+ihretwegen
+
+wohrschinlig adv. ; vraisemblablement,
+probablement ; wahrscheinlich
+
+jahre vpr. (gjahrt) ; ‘s jahrt sich, il y à un an
+aujourd’hui ; es jährt sich heute.
+
+wohrschins adv. probablement ;
+wahrscheinlich
+
+jäh adj. ; impétueux, vif, brusque ; jäh
+
+Wohrzeiche, Wohrzëicha nt. (-) ; emblème ;
+Wahrzeichen
+
+jähzornig adj. ; colérique ; jähzornig
+
+zah, zäh adj. ; coriace ; zäh
+
+johle, johla vi. (gjohlt) ; crier à tue-tête, jubiler ;
+johlen
+
+Zàhl f. (-e) ; nombre, chiffre ; Zahl
+
+Johr nt. (-e/-a) ; année ; Jahr
+
+zàhle, zàhla vt., vi (gezàhlt) ; payer ; zahlen
+
+Johrbüech, Johrbüach nt. (-biecher, -biacher) ;
+annuaire ; Jahrbuch
+
+zähle, zähla vt., vi. (gezählt) ; compter ; zählen
+
+johrelàng, johralàng adv. des années durant ;
+jahrelang
+
+Zàhlùng, Zàhlung f. (-e) ; paiement ; Zahlung
+
+Johreswachsel m. (-) ; changement d’année,
+nouvel an ; Jahreswechsel
+
+zàhm adj. ; apprivoisé, docile ; zahm
+
+Johreszitt f. (-e) ; saison ; Jahreszeit
+
+Zàhn m. (Zahn, Zehn) ; dent ; Zahn
+
+Johrgàng m. (-gang) ; année, millésime ; Jahrgang
+
+Zàhnàrzt m. (-arzt) ; dentiste ; Zahnarzt
+
+Johrhùndert, Johrhundert nt. (-e, -a) ; siècle ;
+Jahrhundert
+
+Zàhnbìrscht f. (-e/-a ) ; brosse à dents ;
+Zahnbürste
+
+Johrmarrick, Johrmar(k)t m. (-) ; foire annuelle ;
+fête foraine, marché annuel, Jahrmarkt
+
+zàhne vi. ; faire ses dents ; zahnen
+
+Johrmärrick m. (-) ; foire annuelle ; fête foraine,
+marché annuel, Jahrmarkt
+
+Zàhnfleisch, Zàhnflëisch nt. (sing.) ; gencive ;
+Zahnfleisch
+98
+
+Johrtàuisig, Johrtauisig nt. (-e) ; millénaire ;
+Jahrtausend
+
+Zàhnpasta f. (sing.) ; dentifrice ; Zahnpasta
+
+johrüs, johri adv. tout au long de l’année ; Jahr
+aus, Jahr ein
+
+Zàhnschmarze (pl.) ; mal aux dents ;
+Zahnschmerzen
+→ Zàhnweh nt. (sing.)
+
+Johrzehnt nt. (-e/-a) ; décennie; Jahrzehnt
+
+Zàhnstein, Zàhnstei m. (sing.) ; tartre ;
+Zahnstein
+
+kàhl adj.; chauve, dénudé ; kahl
+
+Zeh m. (-) ; orteil ; Zeh → Zeeche m. (-)
+
+Kàhn m. (Kahn) ; barque, Kahn
+
+zeh, zehn adj. num. ; dix ; zehn
+
+Kehl m. / nt. (sing.) ; chou cabus, pommé, Kehl
+
+Zehner m. (-) ; pièce ou billet de dix (devise) ;
+Zehner
+
+→ Blüamkehl
+kehre, kehra vi. (kehrt, gakehrt) ; tourner ;
+kehren
+
+zeh(n)jahrig adj.; de dix ans ; zehnjährig
+
+→ ùmkehre
+
+Kehrel nt. (sing.) : ìm Kehrel erumfàhre, tourner
+en rond ; im Kreis fahren
+
+zehnt, adj. num. (le) dixième; (der) zehnte
+
+Kehrsitt f. (-e/-a) ; revers; Kehrseite
+
+zehntel adj. num. ; dixième ; Zehntel
+
+Kohle, Kohla f. (-) ; charbon; Kohle
+
+zehntöisig adj. num. ; dix-mille ; zehntausend
+
+Kohlehändler, Kohlahandler m. (-) ; marchand de
+charbon ; Kohlenhändler
+
+zehre, zehra vi. ; ronger, miner ; zehren
+
+kohleschwàrz, kohlaschwàrz adj. ; noir comme
+de l’ébène ; kohlenschwarz
+
+zehtàuisig, zehntöisig adj. num. dix-mille ;
+zehntausend
+
+Kohlmeisel, nt. (-meisle), Kohlmeisla nt. (-)
+mésange charbonnière ; Kohlmeise
+
+Zehtonner, Zèhtonner m. (-) ; véhicule de dix
+tonnes (poids de charge) ; Zehntonner
+
+99
+
+Index – Wortregister
+< ä >, 14
+< aa >, 18
+< àà >, 18
+< ai >, 19
+< ài >, 21
+< äi >, 21
+< äu>, 22
+< aui >, 23
+< àui >, 21
+< d >, 40
+< die >, 40
+< e >, 11, 13
+< é >, 11
+< è >, 11
+< ë >, 16
+< ee >, 16
+< eh >, 16
+< ei >, 19
+< éi >, 20
+< èi >, 21
+< ëi >, 21
+< eu >, 23
+< h > d’allongement, 36
+< ia >, 24
+< ie >, 24
+< œ >, 17
+< oi >, 22
+< öi >, 22
+< oï >, 22
+< oo >, 18
+< s >, 38
+< ss >, 39
+< tt >, 30
+< ù >, 17
+< üa >?, 25
+< ue >, 25
+< üe >, 25
+alphabet allemand, 5
+alsacien standardisé, 4
+Alternative au < ß >, 37
+Annexe, 36
+apostrophe, 41
+article défini, 12
+article indéfini, 43
+changements de durée par rapport à l’infinitif, 32
+compléments de lieu, 44
+Conclusion, 45
+conditionnel, 30
+Consonnnes, 56
+Correspondance des lettres et des sons, 46
+Correspondance des sons (phones) et des lettres
+(graphèmes), 60
+di, 40
+die, 40
+digramme, 16
+
+digraphe, 19
+diphtongue, 36
+Diphtongues, 19, 52
+Durée des voyelles devant < ch >, 28
+économie de l’apostrophe, 43
+élision, 41
+élision grammaticale, 43
+Emploi de la lettre < h >, 36
+Emploi des accents, 7
+Emplois de < e > en syllabe accentuée, 13
+Fil conducteur, 5
+formes conjuguées, 31
+Formes conjuguées, 31
+formes verbales contractées, 26, 28
+groupes prépositionnels, 43
+homographes, 36
+homonymes, 36
+La lettre < ä >, 14
+Le démonstratif féminin singulier et pluriel < die >, 40
+Le pronom et l’adjectif possessif < di >, 40
+les lois de durée de la phonétique allemande, 27
+Liste alphabétique des termes usuels orthographiés avec
+< h > d’allongement de la voyelle (monophtongue)
+précédente., 90
+monophtongues, 60
+monophtongues, 36
+mots grammaticaux » monosyllabiques, 29
+Mots grammaticaux bisyllabiques, 30
+Murmellütt, 12
+opposition distinctive, 17
+orthographe cohérente, 4
+philosophie d’ORTHAL, 84
+Pourquoi écrire < ì > et < à > ?, 7
+prérequis en allemand, 45
+pronom impersonnel es, 13
+pronom impersonnel on, 41
+pronom personnel se, 13
+propositions infinitives, 44
+radical, 32
+radical du verbe, 31
+référence graphique, 5
+Semi-consonne, 55
+suffixes < -le, -la, -lì > des diminutifs, 27
+syllabes accentuées, 12
+syllabes non accentuées, 12
+terminaisons, 31
+trait d’union, 44
+triplement de consonnes, 45
+variations, 5
+variétés dialectales, 4
+verbes impersonnels, 41
+voyelles brèves, 26
+voyelles longues, 26
+Voyelles longues, 26
+voyelles simples, 60
+
+100
+
+Voyelles simples, 46
+
+101
+
+102
+
+

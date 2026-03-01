@@ -1,0 +1,30 @@
+[
+  {
+    "id": "a_0",
+    "type": "note_phonetique",
+    "francais": "a",
+    "article": "(première lettre)",
+    "traductions": [
+      {
+        "alsacien": "s'écrit aussi à et se prononce comme an sans n",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "ä et se prononce comme ai",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "a.- (première lettre) s'écrit aussi à et se prononce comme an sans n, ä et se prononce comme ai.",
+      "index": 0
+    }
+  }
+]

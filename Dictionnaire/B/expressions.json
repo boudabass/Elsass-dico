@@ -1,0 +1,7856 @@
+[
+  {
+    "id": "baguette_de_coudrier_37",
+    "type": "expression_figee",
+    "francais": "baguette de coudrier",
+    "article": "(la)",
+    "traductions": [
+      {
+        "alsacien": "s'Hàselriatla",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "d'Haxebeitsch",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "baguette de coudrier.- (la) s'Hàselriatla, d'Haxebeitsch.",
+      "index": 37
+    }
+  },
+  {
+    "id": "baguette_de_tambour_38",
+    "type": "expression_figee",
+    "francais": "baguette de tambour",
+    "article": "(la)",
+    "traductions": [
+      {
+        "alsacien": "d'r Trummelschlegel",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "de Trummelklüpfel",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "baguette de tambour.- (la) d'r Trummelschlegel, de Trummelklüpfel.",
+      "index": 38
+    }
+  },
+  {
+    "id": "baguette_magique_39",
+    "type": "expression_figee",
+    "francais": "baguette magique",
+    "article": "(la)",
+    "traductions": [
+      {
+        "alsacien": "d'r Zàuiwerschtàb",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "d'Wunderfitz",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "baguette magique.- (la) d'r Zàuiwerschtàb, d'Wunderfitz.",
+      "index": 39
+    }
+  },
+  {
+    "id": "bain_de_bouche_52",
+    "type": "expression_figee",
+    "francais": "bain de bouche",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "s'Mühlwàsser",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "bain de bouche.- (le) s'Mühlwàsser.",
+      "index": 52
+    }
+  },
+  {
+    "id": "bain_de_boue_53",
+    "type": "expression_figee",
+    "francais": "bain de boue",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "s'Fàngobààd",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "bain de boue.- (le) s'Fàngobààd.",
+      "index": 53
+    }
+  },
+  {
+    "id": "bain_de_fixation_54",
+    "type": "expression_figee",
+    "francais": "bain de fixation",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "s'Fixiarbààd",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "bain de fixation.- (le) s'Fixiarbààd.",
+      "index": 54
+    }
+  },
+  {
+    "id": "bain_de_sang_55",
+    "type": "expression_figee",
+    "francais": "bain de sang",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "s'Blüatbààd",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "bain de sang.- (le) s'Blüatbààd.",
+      "index": 55
+    }
+  },
+  {
+    "id": "bains_pour_chevaux_58",
+    "type": "expression_figee",
+    "francais": "bains pour chevaux",
+    "article": "(les)",
+    "traductions": [
+      {
+        "alsacien": "d'Rossschwämma",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "bains pour chevaux.- (les) d'Rossschwämma.",
+      "index": 58
+    }
+  },
+  {
+    "id": "baiser_de_langue_63",
+    "type": "expression_figee",
+    "francais": "baiser de langue",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "d'r Zungaschmutz",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "baiser de langue.- (le) d'r Zungaschmutz.",
+      "index": 63
+    }
+  },
+  {
+    "id": "balai___franges_78",
+    "type": "expression_figee",
+    "francais": "balai à franges",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "d'r Zodzelbasa",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "deZoddelbese",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "balai à franges.- (le) d'r Zodzelbasa, deZoddelbese.",
+      "index": 78
+    }
+  },
+  {
+    "id": "balai_en_paille_de_riz_79",
+    "type": "expression_figee",
+    "francais": "balai en paille de riz",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "D'r Rissbaasa",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "balai en paille de riz.- (le) D'r Rissbaasa.",
+      "index": 79
+    }
+  },
+  {
+    "id": "balance_rustique_88",
+    "type": "expression_figee",
+    "francais": "balance rustique",
+    "article": "(la)",
+    "traductions": [
+      {
+        "alsacien": "d' Bàskül",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "balance rustique.- (la) d' Bàskül.",
+      "index": 88
+    }
+  },
+  {
+    "id": "balayeur_municipal_94",
+    "type": "expression_figee",
+    "francais": "balayeur municipal",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "d'r Schtroosawescher",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "de Schtrossefäijer",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "balayeur municipal.- (le) d'r Schtroosawescher, de Schtrossefäijer.",
+      "index": 94
+    }
+  },
+  {
+    "id": "ballon_d_eau_chaude_111",
+    "type": "expression_figee",
+    "francais": "ballon d'eau chaude",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "d'r Wàrmwàsserkässel",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "ballon d'eau chaude.- (le) d'r Wàrmwàsserkässel.",
+      "index": 111
+    }
+  },
+  {
+    "id": "ballon_prisonnier_113",
+    "type": "expression_figee",
+    "francais": "ballon prisonnier",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "d'r Välkerbàll",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "ballon prisonnier.- (le) d'r Välkerbàll.",
+      "index": 113
+    }
+  },
+  {
+    "id": "bal_masqu__118",
+    "type": "expression_figee",
+    "francais": "bal masqué",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "d'r Màskabààl",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "bal masqué.- (le) d'r Màskabààl.",
+      "index": 118
+    }
+  },
+  {
+    "id": "banc_d__cole_132",
+    "type": "expression_figee",
+    "francais": "banc d'école",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "d'r Schüalbànk",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "s'Schölbänkel",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "banc d'école.- (le) d'r Schüalbànk, s'Schölbänkel.",
+      "index": 132
+    }
+  },
+  {
+    "id": "banc_de_travail_133",
+    "type": "expression_figee",
+    "francais": "banc de travail",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "d'r Warkbànk",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "banc de travail.- (le) d'r Warkbànk.",
+      "index": 133
+    }
+  },
+  {
+    "id": "banc_des_accus_s_134",
+    "type": "expression_figee",
+    "francais": "banc des accusés",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "d'r Àklààgabànk",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "banc des accusés.- (le) d'r Àklààgabànk.",
+      "index": 134
+    }
+  },
+  {
+    "id": "banc_d_argile_135",
+    "type": "expression_figee",
+    "francais": "banc d'argile",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "d' Laimaschecht",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "d'Leemschischt",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "banc d'argile.- (le) d' Laimaschecht, d'Leemschischt.",
+      "index": 135
+    }
+  },
+  {
+    "id": "banc_de_brume_136",
+    "type": "expression_figee",
+    "francais": "banc de brume",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "d'r Nawelschwàder",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "de Näwelschwader",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "banc de brume.- (le) d'r Nawelschwàder, de Näwelschwader.",
+      "index": 136
+    }
+  },
+  {
+    "id": "banc_d_essai_137",
+    "type": "expression_figee",
+    "francais": "banc d'essai",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "d'r Prüfbànk",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "banc d'essai.- (le) d'r Prüfbànk.",
+      "index": 137
+    }
+  },
+  {
+    "id": "banc_de_glace_138",
+    "type": "expression_figee",
+    "francais": "banc de glace",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "d'r Issbarg",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "d'r Issbarig",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "banc de glace.- (le) d'r Issbarg, d'r Issbarig.",
+      "index": 138
+    }
+  },
+  {
+    "id": "banc_de_hareng_139",
+    "type": "expression_figee",
+    "francais": "banc de hareng",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "d'r Harengschwàrm",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "banc de hareng.- (le) d'r Harengschwàrm.",
+      "index": 139
+    }
+  },
+  {
+    "id": "banc_de_nuages_140",
+    "type": "expression_figee",
+    "francais": "banc de nuages",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "d'r Wulkaschtolla",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "banc de nuages.- (le) d'r Wulkaschtolla.",
+      "index": 140
+    }
+  },
+  {
+    "id": "banc_de_sable_141",
+    "type": "expression_figee",
+    "francais": "banc de sable",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "d'r Sàndbarg",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "de Sàndbarig",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "banc de sable. (le) d'r Sàndbarg, de Sàndbarig.",
+      "index": 141
+    }
+  },
+  {
+    "id": "banc_de_tourneur_143",
+    "type": "expression_figee",
+    "francais": "banc de tourneur",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "d'r Draibànk",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "banc de tourneur.- (le) d'r Draibànk",
+      "index": 143
+    }
+  },
+  {
+    "id": "bancelle_de_vacher_145",
+    "type": "expression_figee",
+    "francais": "bancelle de vacher",
+    "article": "(la)",
+    "traductions": [
+      {
+        "alsacien": "d'r Malkerschamel",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "de Malkerschtöhl",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "bancelle de vacher.- (la) d'r Malkerschamel, de Malkerschtöhl.",
+      "index": 145
+    }
+  },
+  {
+    "id": "bandage_m_tallique_147",
+    "type": "expression_figee",
+    "francais": "bandage métallique",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "d'r Rààdraif",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "de Reif",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "bandage métallique.- (le) d'r Rààdraif, de Reif.",
+      "index": 147
+    }
+  },
+  {
+    "id": "bande_collante_149",
+    "type": "expression_figee",
+    "francais": "bande collante",
+    "article": "(la)",
+    "traductions": [
+      {
+        "alsacien": "d'r Klaibschtraifa",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "bande collante.- (la) d'r Klaibschtraifa.",
+      "index": 149
+    }
+  },
+  {
+    "id": "bande_d_arr_t_d_urgence_150",
+    "type": "expression_figee",
+    "francais": "bande d'arrèt d'urgence",
+    "article": "(la)",
+    "traductions": [
+      {
+        "alsacien": "d'Schtàndschpür",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "bande d'arrèt d'urgence.- (la) d'Schtàndschpür.",
+      "index": 150
+    }
+  },
+  {
+    "id": "bande_de_motif_de_tricot_151",
+    "type": "expression_figee",
+    "francais": "bande de motif de tricot",
+    "article": "(la)",
+    "traductions": [
+      {
+        "alsacien": "s'Schteckmuschterbànd",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "s'Zwickelmuschter",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "bande de motif de tricot.- (la) s'Schteckmuschterbànd, s'Zwickelmuschter.",
+      "index": 151
+    }
+  },
+  {
+    "id": "bande_de_transport_152",
+    "type": "expression_figee",
+    "francais": "bande de transport",
+    "article": "(la)",
+    "traductions": [
+      {
+        "alsacien": "s'Trànsportbànd",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "bande de transport.- (la) s'Trànsportbànd.",
+      "index": 152
+    }
+  },
+  {
+    "id": "bande__lastique_153",
+    "type": "expression_figee",
+    "francais": "bande élastique",
+    "article": "(la)",
+    "traductions": [
+      {
+        "alsacien": "d'Gummibenda",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "d'Gummibend",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "bande élastique.- (la) d'Gummibenda, d'Gummibend.",
+      "index": 153
+    }
+  },
+  {
+    "id": "bande_isolante_154",
+    "type": "expression_figee",
+    "francais": "bande isolante",
+    "article": "(la)",
+    "traductions": [
+      {
+        "alsacien": "s'Isoliarbànd",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "s'Isoleerbànd",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "bande isolante.- (la) s'Isoliarbànd, s'Isoleerbànd.",
+      "index": 154
+    }
+  },
+  {
+    "id": "bande_magn_tique_155",
+    "type": "expression_figee",
+    "francais": "bande magnétique",
+    "article": "(la)",
+    "traductions": [
+      {
+        "alsacien": "s'Toonbànd",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "bande magnétique.- (la) s'Toonbànd.",
+      "index": 155
+    }
+  },
+  {
+    "id": "bande_molleti_re_156",
+    "type": "expression_figee",
+    "francais": "bande molletière",
+    "article": "la",
+    "traductions": [
+      {
+        "alsacien": "d'Weckelgàmàscha",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "bande molletière.- (la d'Weckelgàmàscha.",
+      "index": 156
+    }
+  },
+  {
+    "id": "bande_perfor_e_157",
+    "type": "expression_figee",
+    "francais": "bande perforée",
+    "article": "(la)",
+    "traductions": [
+      {
+        "alsacien": "d'r Lochschtraifa",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "bande perforée.- (la) d'r Lochschtraifa.",
+      "index": 157
+    }
+  },
+  {
+    "id": "banque_du_sperme_169",
+    "type": "expression_figee",
+    "francais": "banque du sperme",
+    "article": "(la)",
+    "traductions": [
+      {
+        "alsacien": "d'Sohmabànk",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "banque du sperme.- (la) d'Sohmabànk.",
+      "index": 169
+    }
+  },
+  {
+    "id": "baquet_de_bain_177",
+    "type": "expression_figee",
+    "francais": "baquet de bain",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "d'r Bààdzewer",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "baquet de bain.- (le) d'r Bààdzewer.",
+      "index": 177
+    }
+  },
+  {
+    "id": "baquet___traire_178",
+    "type": "expression_figee",
+    "francais": "baquet à traire",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "s'Malkerbediggla",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "s'Malikkewel",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "baquet à traire.- (le) s'Malkerbediggla, s'Malikkewel.",
+      "index": 178
+    }
+  },
+  {
+    "id": "barbe___papa_191",
+    "type": "expression_figee",
+    "francais": "barbe à papa",
+    "article": "(la)",
+    "traductions": [
+      {
+        "alsacien": "d'Zuckerwàtta",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "d'Zuckerwàtt",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "barbe à papa.- (la) d'Zuckerwàtta, d'Zuckerwàtt.",
+      "index": 191
+    }
+  },
+  {
+    "id": "barbe_d__pi_192",
+    "type": "expression_figee",
+    "francais": "barbe d'épi",
+    "article": "(la)",
+    "traductions": [
+      {
+        "alsacien": "d'Grànna",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "d'Kornsidd",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "barbe d'épi.- (la) d'Grànna, d'Kornsidd.",
+      "index": 192
+    }
+  },
+  {
+    "id": "barrage_routier_222",
+    "type": "expression_figee",
+    "francais": "barrage routier",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "d'Schtroosaschpärra",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "barrage routier.- (le) d'Schtroosaschpärra.",
+      "index": 222
+    }
+  },
+  {
+    "id": "barre___lattes_224",
+    "type": "expression_figee",
+    "francais": "barre à lattes",
+    "article": "(la)",
+    "traductions": [
+      {
+        "alsacien": "s'Kwerholtz",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "d'r Wepfel",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "barre à lattes.- (la) s'Kwerholtz, d'r Wepfel.",
+      "index": 224
+    }
+  },
+  {
+    "id": "barre___mine_225",
+    "type": "expression_figee",
+    "francais": "barre à mine",
+    "article": "(la)",
+    "traductions": [
+      {
+        "alsacien": "s'Hebisa",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "s'Hebise",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "barre à mine.- (la) s'Hebisa, s'Hebise.",
+      "index": 225
+    }
+  },
+  {
+    "id": "barre_de_fraction_227",
+    "type": "expression_figee",
+    "francais": "barre de fraction",
+    "article": "(la)",
+    "traductions": [
+      {
+        "alsacien": "d'r Bruchschtrech",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "barre de fraction.- (la) d'r Bruchschtrech.",
+      "index": 227
+    }
+  },
+  {
+    "id": "barre_fixe_228",
+    "type": "expression_figee",
+    "francais": "barre fixe",
+    "article": "(la)",
+    "traductions": [
+      {
+        "alsacien": "d'r Räck",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "barre fixe.- (la) d'r Räck.",
+      "index": 228
+    }
+  },
+  {
+    "id": "barres_parall_les_231",
+    "type": "expression_figee",
+    "francais": "barres parallèles",
+    "article": "(les)",
+    "traductions": [
+      {
+        "alsacien": "d'Bàrra",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "barres parallèles.- (les) d'Bàrra.",
+      "index": 231
+    }
+  },
+  {
+    "id": "bas__ge_241",
+    "type": "expression_figee",
+    "francais": "bas âge",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "s'Zàrta-n-àlter",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "bas âge.- (le) s'Zàrta-n-àlter.",
+      "index": 241
+    }
+  },
+  {
+    "id": "bas_de_laine_243",
+    "type": "expression_figee",
+    "francais": "bas de laine",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "d'r Schpàrschtrumpf",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "bas de laine (le) d'r Schpàrschtrumpf.",
+      "index": 243
+    }
+  },
+  {
+    "id": "bas_de_page_244",
+    "type": "expression_figee",
+    "francais": "bas de page",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "s'Sitta-n-and",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "bas de page.- (le) s'Sitta-n-and.",
+      "index": 244
+    }
+  },
+  {
+    "id": "bas_en_haut_245",
+    "type": "expression_figee",
+    "francais": "bas en haut",
+    "article": "(de)",
+    "traductions": [
+      {
+        "alsacien": "vu unta bis uffa",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "vu Kopf bis Füass",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "vo Kopf bis Fös",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "bas en haut.- (de) vu unta bis uffa, vu Kopf bis Füass, vo Kopf bis Fös.",
+      "index": 245
+    }
+  },
+  {
+    "id": "basse_profonde_260",
+    "type": "expression_figee",
+    "francais": "basse profonde",
+    "article": "(la)",
+    "traductions": [
+      {
+        "alsacien": "d'r Brummelbàss",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "basse profonde.- (la) d'r Brummelbàss.",
+      "index": 260
+    }
+  },
+  {
+    "id": "basse_pression_262",
+    "type": "expression_figee",
+    "francais": "basse pression",
+    "article": "(la)",
+    "traductions": [
+      {
+        "alsacien": "d'r Tiafdruck",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "teefdruck",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "basse pression.- (la) d'r Tiafdruck, teefdruck.",
+      "index": 262
+    }
+  },
+  {
+    "id": "bassin_de_fontaine_266",
+    "type": "expression_figee",
+    "francais": "bassin de fontaine",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "d'r Brunnabäcka",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "de Brunnbäcke",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "bassin de fontaine.- (le) d'r Brunnabäcka, de Brunnbäcke.",
+      "index": 266
+    }
+  },
+  {
+    "id": "bassin_houiller_267",
+    "type": "expression_figee",
+    "francais": "bassin houiller",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "d'r Schtaikohlabäcka",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "bassin houiller.- (le) d'r Schtaikohlabäcka.",
+      "index": 267
+    }
+  },
+  {
+    "id": "bassin_hygi_nique_268",
+    "type": "expression_figee",
+    "francais": "bassin hygiénique",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "d'Bättschessla",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "d'Bättpfànna",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "d'Bättpfànn",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "bassin hygiénique.- (le) d'Bättschessla, d'Bättpfànna, d'Bättpfànn.",
+      "index": 268
+    }
+  },
+  {
+    "id": "bassin_minier_269",
+    "type": "expression_figee",
+    "francais": "bassin minier",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "s'Bargboigebiat",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "bassin minier.- (le) s'Bargboigebiat.",
+      "index": 269
+    }
+  },
+  {
+    "id": "bassin_potassique_270",
+    "type": "expression_figee",
+    "francais": "bassin potassique",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "d'r Kàlibäcka",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "bassin potassique.- (le) d'r Kàlibäcka.",
+      "index": 270
+    }
+  },
+  {
+    "id": "bassine_en_bois_272",
+    "type": "expression_figee",
+    "francais": "bassine en bois",
+    "article": "(la)",
+    "traductions": [
+      {
+        "alsacien": "d'r Holzkewel",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "s'Bettig",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "d'Bitt",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "bassine en bois.- (la) d'r Holzkewel, s'Bettig, d'Bitt.",
+      "index": 272
+    }
+  },
+  {
+    "id": "bassiner___plooga__plooje___mbatiare_273",
+    "type": "expression_figee",
+    "francais": "bassiner.- Plooga, plooje, àmbatiare",
+    "article": "(pop)",
+    "traductions": [
+      {
+        "alsacien": "d' Schissa màcha",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "bassiner.- Plooga, plooje, àmbatiare, (pop) d' Schissa màcha.",
+      "index": 273
+    }
+  },
+  {
+    "id": "bataille_de_boule_de_neige_290",
+    "type": "expression_figee",
+    "francais": "bataille de boule de neige",
+    "article": "(la)",
+    "traductions": [
+      {
+        "alsacien": "d'Schneebàllaschlàcht",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "bataille de boule de neige.- (la) d'Schneebàllaschlàcht.",
+      "index": 290
+    }
+  },
+  {
+    "id": "bataille__lectorale_291",
+    "type": "expression_figee",
+    "francais": "bataille électorale",
+    "article": "(la)",
+    "traductions": [
+      {
+        "alsacien": "d'r Wàhlkàmpf",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "bataille électorale.- (la) d'r Wàhlkàmpf",
+      "index": 291
+    }
+  },
+  {
+    "id": "bataille_de_pelochon_292",
+    "type": "expression_figee",
+    "francais": "bataille de pelochon",
+    "article": "(la)",
+    "traductions": [
+      {
+        "alsacien": "d'Kessaschlàcht",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "bataille de pelochon.- (la) d'Kessaschlàcht.",
+      "index": 292
+    }
+  },
+  {
+    "id": "bateau___vapeur_297",
+    "type": "expression_figee",
+    "francais": "bateau à vapeur",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "s'Dàmpfscheff",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "d'r Dàmpfer",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "bateau à vapeur.- (le) s'Dàmpfscheff, d'r Dàmpfer.",
+      "index": 297
+    }
+  },
+  {
+    "id": "bateau___voile_298",
+    "type": "expression_figee",
+    "francais": "bateau à voile",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "S' Segelscheff",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "s'Sejelschiff",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "bateau à voile.- (le) S' Segelscheff, s'Sejelschiff.",
+      "index": 298
+    }
+  },
+  {
+    "id": "bateau_corsaire_299",
+    "type": "expression_figee",
+    "francais": "bateau corsaire",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "s'Kàperscheff",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "bateau corsaire.- (le) s'Kàperscheff.",
+      "index": 299
+    }
+  },
+  {
+    "id": "bateau_de_p_che_300",
+    "type": "expression_figee",
+    "francais": "bateau de pêche",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "s'Fecherscheffla",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "s'Fischerschiffel",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "bateau de pêche.- (le) s'Fecherscheffla, s'Fischerschiffel.",
+      "index": 300
+    }
+  },
+  {
+    "id": "bateau_de_sauvetage_301",
+    "type": "expression_figee",
+    "francais": "bateau de sauvetage",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "s' Rättungsboot",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "s'Rättungsscheffla",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "bateau de sauvetage.- (le) s' Rättungsboot, s'Rättungsscheffla.",
+      "index": 301
+    }
+  },
+  {
+    "id": "b_timent_des_b_tes_311",
+    "type": "expression_figee",
+    "francais": "bâtiment des bêtes",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "d'Schtàllung",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "bâtiment des bêtes.- (le) d'Schtàllung.",
+      "index": 311
+    }
+  },
+  {
+    "id": "b_tisseurs_de_cath_drale_314",
+    "type": "expression_figee",
+    "francais": "bâtisseurs de cathédrale",
+    "article": "(les)",
+    "traductions": [
+      {
+        "alsacien": "d'Kerchaboijer",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "de Kerischeboijer",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "bâtisseurs de cathédrale.- (les) d'Kerchaboijer, de Kerischeboijer.",
+      "index": 314
+    }
+  },
+  {
+    "id": "b_ton_de_comptage_316",
+    "type": "expression_figee",
+    "francais": "bâton de comptage",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "s'Kärbholz",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "bâton de comptage.- (le) s'Kärbholz.",
+      "index": 316
+    }
+  },
+  {
+    "id": "b_ton_de_rouge___l_vres_317",
+    "type": "expression_figee",
+    "francais": "bâton de rouge à lèvres",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "d'r Leppelschteft",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "de Lippelschtift",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "bâton de rouge à lèvres.- (le) d'r Leppelschteft, de Lippelschtift.",
+      "index": 317
+    }
+  },
+  {
+    "id": "battant_de_porte_319",
+    "type": "expression_figee",
+    "francais": "battant de porte",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "d'r Teerafleegel",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "de Teerflejel",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "battant de porte.- (le) d'r Teerafleegel, de Teerflejel.",
+      "index": 319
+    }
+  },
+  {
+    "id": "b_tonnet_d_encens_320",
+    "type": "expression_figee",
+    "francais": "bâtonnet d'encens",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "s'Ràuichschtabla",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "sRauchschtäwwel",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "bâtonnet d'encens.- (le) s'Ràuichschtabla, sRauchschtäwwel.",
+      "index": 320
+    }
+  },
+  {
+    "id": "battant_de_cloche_325",
+    "type": "expression_figee",
+    "francais": "battant de cloche",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "d'r Glockaschlegel",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "s'Gleckelschteckel",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "d'r Pflüepfel",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "battant de cloche.- (le) d'r Glockaschlegel, s'Gleckelschteckel, d'r Pflüepfel.",
+      "index": 325
+    }
+  },
+  {
+    "id": "battant_de_fl_au_326",
+    "type": "expression_figee",
+    "francais": "battant de fléau",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "d'r Flegelkopf",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "s'Fleijelhoipt;",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "battant de fléau.- (le) d'r Flegelkopf, s'Fleijelhoipt;",
+      "index": 326
+    }
+  },
+  {
+    "id": "battant_de_porte_327",
+    "type": "expression_figee",
+    "francais": "battant de porte",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "d'r Teerafleegel",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "de Teerflejel",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "battant de porte.- (le) d'r Teerafleegel, de Teerflejel.",
+      "index": 327
+    }
+  },
+  {
+    "id": "battements_de_coeur_330",
+    "type": "expression_figee",
+    "francais": "battements de coeur",
+    "article": "(les)",
+    "traductions": [
+      {
+        "alsacien": "d'Harzschleeg",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "s'Harzpoppra",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "s'Harzbobble",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "s'Harzklopfa",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "battements de coeur.- (les) d'Harzschleeg, s'Harzpoppra, s'Harzbobble, s'Harzklopfa.",
+      "index": 330
+    }
+  },
+  {
+    "id": "battoir___linge_334",
+    "type": "expression_figee",
+    "francais": "battoir à linge",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "d'r Wäschdatscher",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "s'Mangelbrätt",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "de Blojel",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "battoir à linge.- (le) d'r Wäschdatscher, s'Mangelbrätt, de Blojel.",
+      "index": 334
+    }
+  },
+  {
+    "id": "battoir___tapis_335",
+    "type": "expression_figee",
+    "francais": "battoir à tapis",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "d'r Täppigklopfer",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "de Teppiklopfler",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "battoir à tapis.- (le) d'r Täppigklopfer, de Teppiklopfler.",
+      "index": 335
+    }
+  },
+  {
+    "id": "beaut_e_fatale_373",
+    "type": "expression_figee",
+    "francais": "beautée fatale",
+    "article": "(la)",
+    "traductions": [
+      {
+        "alsacien": "d'Triagerischa Scheenhait",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "ketzerischeen",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "beautée fatale.- (la) d'Triagerischa Scheenhait, ketzerischeen.",
+      "index": 373
+    }
+  },
+  {
+    "id": "beau_temps_376",
+    "type": "expression_figee",
+    "francais": "beau temps",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "s' scheena Watter",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "beau temps.- (le) s' scheena Watter.",
+      "index": 376
+    }
+  },
+  {
+    "id": "beau_temps_377",
+    "type": "expression_figee",
+    "francais": "beau temps",
+    "article": "(il y a)",
+    "traductions": [
+      {
+        "alsacien": "s'esch schu làng har",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "s'esch schu-n-a scheena Zitt har",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "beau temps.- (il y a) s'esch schu làng har, s'esch schu-n-a scheena Zitt har.",
+      "index": 377
+    }
+  },
+  {
+    "id": "beau_parleur_378",
+    "type": "expression_figee",
+    "francais": "beau parleur",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "d'r Uffschnider",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "d'r Scheen-en-s'Gsecht-reeder",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "beau parleur.- (le) d'r Uffschnider, d'r Scheen-en-s'Gsecht-reeder.",
+      "index": 378
+    }
+  },
+  {
+    "id": "bec_de_cigogne_382",
+    "type": "expression_figee",
+    "francais": "bec de cigogne",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "d'r Schtorkaschnàwel",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "de Schtorischeschnàwwel",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "bec de cigogne.- (le) d'r Schtorkaschnàwel, de Schtorischeschnàwwel.",
+      "index": 382
+    }
+  },
+  {
+    "id": "bec_verseur_383",
+    "type": "expression_figee",
+    "francais": "bec verseur",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "d'r Giasschnàwel",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "d'Schnàpp",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "bec verseur.- (le) d'r Giasschnàwel, d'Schnàpp.",
+      "index": 383
+    }
+  },
+  {
+    "id": "b_dane___bois_392",
+    "type": "expression_figee",
+    "francais": "bédane à bois",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "s' Holtzschtämmisa",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "bédane à bois.- (le) s' Holtzschtämmisa.",
+      "index": 392
+    }
+  },
+  {
+    "id": "beignet_mignon_410",
+    "type": "expression_figee",
+    "francais": "beignet mignon",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "s'Fengerla",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "s'Fingerle",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "beignet mignon.- (le) s'Fengerla, s'Fingerle.",
+      "index": 410
+    }
+  },
+  {
+    "id": "belle_au_bois_dormant_417",
+    "type": "expression_figee",
+    "francais": "belle au bois dormant",
+    "article": "(la)",
+    "traductions": [
+      {
+        "alsacien": "s' Dornreesla",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "s'Dornereesel",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "belle au bois dormant.- (la) s' Dornreesla, s'Dornereesel.",
+      "index": 417
+    }
+  },
+  {
+    "id": "belle_occasion_420",
+    "type": "expression_figee",
+    "francais": "belle occasion",
+    "article": "(la)",
+    "traductions": [
+      {
+        "alsacien": "d'genschtiga Glagahait",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "belle occasion.- (la) d'genschtiga Glagahait.",
+      "index": 420
+    }
+  },
+  {
+    "id": "besoin_de_se_faire_valoir_464",
+    "type": "expression_figee",
+    "francais": "besoin de se faire valoir",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "s'Galtungsbederfniss",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "besoin de se faire valoir.- (le) s'Galtungsbederfniss.",
+      "index": 464
+    }
+  },
+  {
+    "id": "b_te___bon_dieu_471",
+    "type": "expression_figee",
+    "francais": "bête à bon dieu",
+    "article": "(la)",
+    "traductions": [
+      {
+        "alsacien": "s'Liawahärgottstiarla",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "s'Härgottskaferle",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "bête à bon dieu.- (la) s'Liawahärgottstiarla, s'Härgottskaferle.",
+      "index": 471
+    }
+  },
+  {
+    "id": "b_tes_de_boucherie_473",
+    "type": "expression_figee",
+    "francais": "bêtes de boucherie",
+    "article": "(les)",
+    "traductions": [
+      {
+        "alsacien": "d'Schlàchtveher",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "d'Bheime",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "bêtes de boucherie.- (les) d'Schlàchtveher, d'Bheime.",
+      "index": 473
+    }
+  },
+  {
+    "id": "betterave_sucri_re_483",
+    "type": "expression_figee",
+    "francais": "betterave sucrière",
+    "article": "(la)",
+    "traductions": [
+      {
+        "alsacien": "d' Zuckerrüawa",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "d'Zuckerröb",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "betterave sucrière.- (la) d' Zuckerrüawa, d'Zuckerröb.",
+      "index": 483
+    }
+  },
+  {
+    "id": "betterave_rouge_484",
+    "type": "expression_figee",
+    "francais": "betterave rouge",
+    "article": "(la)",
+    "traductions": [
+      {
+        "alsacien": "d' Rotaràhna",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "d'Rotrànn",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "betterave rouge.- (la) d' Rotaràhna, d'Rotrànn.",
+      "index": 484
+    }
+  },
+  {
+    "id": "beurre_laitier_488",
+    "type": "expression_figee",
+    "francais": "beurre laitier",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "d'r Molkabutter",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "beurre laitier.- (le) d'r Molkabutter.",
+      "index": 488
+    }
+  },
+  {
+    "id": "bidon_de_lait_517",
+    "type": "expression_figee",
+    "francais": "bidon de lait",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "d'Melchkànna",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "d'Melischkànn",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "bidon de lait.- (le) d'Melchkànna, d'Melischkànn.",
+      "index": 517
+    }
+  },
+  {
+    "id": "bien_commun_531",
+    "type": "expression_figee",
+    "francais": "bien commun",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "s'Gmaingüat",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "s'Gmängöt",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "bien commun.- (le) s'Gmaingüat, s'Gmängöt.",
+      "index": 531
+    }
+  },
+  {
+    "id": "bien_de_consommation_532",
+    "type": "expression_figee",
+    "francais": "bien de consommation",
+    "article": "(les)",
+    "traductions": [
+      {
+        "alsacien": "s'Verbrüchsgiater",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "d'Verbrüschsgeeter",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "bien de consommation.- (les) s'Verbrüchsgiater, d'Verbrüschsgeeter.",
+      "index": 532
+    }
+  },
+  {
+    "id": "bien_fond__542",
+    "type": "expression_figee",
+    "francais": "bien fondé",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "d'Rechtikait",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "d'Rischtischkeit",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "bien fondé.- (le) d'Rechtikait, d'Rischtischkeit.",
+      "index": 542
+    }
+  },
+  {
+    "id": "biens_fonciers_549",
+    "type": "expression_figee",
+    "francais": "biens fonciers",
+    "article": "(les)",
+    "traductions": [
+      {
+        "alsacien": "d'Legaschàft",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "biens fonciers.- (les) d'Legaschàft.",
+      "index": 549
+    }
+  },
+  {
+    "id": "biens_priv_s_550",
+    "type": "expression_figee",
+    "francais": "biens privés",
+    "article": "(les)",
+    "traductions": [
+      {
+        "alsacien": "s'Privàtaigatum",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "s'Privàtaijetum",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "biens privés.- (les) s'Privàtaigatum, s'Privàtaijetum.",
+      "index": 550
+    }
+  },
+  {
+    "id": "bi_re_de_malt_559",
+    "type": "expression_figee",
+    "francais": "bière de malt",
+    "article": "(la)",
+    "traductions": [
+      {
+        "alsacien": "s'Màlzbiar",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "s'Màlzbeer",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "bière de malt.- (la) s'Màlzbiar, s'Màlzbeer.",
+      "index": 559
+    }
+  },
+  {
+    "id": "bi_re_pression_560",
+    "type": "expression_figee",
+    "francais": "bière pression",
+    "article": "(la)",
+    "traductions": [
+      {
+        "alsacien": "s'Biar vum Fàss",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "s'Beer vom Fassel",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "s'Hàhnabiar",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "bière pression.- (la) s'Biar vum Fàss, s'Beer vom Fassel, s'Hàhnabiar.",
+      "index": 560
+    }
+  },
+  {
+    "id": "bijou_de_fantaisie_575",
+    "type": "expression_figee",
+    "francais": "bijou de fantaisie",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "d'r Modaschmuck",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "bijou de fantaisie. (le) d'r Modaschmuck.",
+      "index": 575
+    }
+  },
+  {
+    "id": "bitte_d_amarrage_612",
+    "type": "expression_figee",
+    "francais": "bitte d'amarrage",
+    "article": "(la)",
+    "traductions": [
+      {
+        "alsacien": "d'r Vertàuipoller",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "bitte d'amarrage.- (la) d'r Vertàuipoller.",
+      "index": 612
+    }
+  },
+  {
+    "id": "blague___tabac_621",
+    "type": "expression_figee",
+    "francais": "blague à tabac",
+    "article": "(la)",
+    "traductions": [
+      {
+        "alsacien": "s'Tüwàksäckla",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "s'Düwàcksäckel",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "s'Düwàcksbittele",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "blague à tabac.- (la) s'Tüwàksäckla, s'Düwàcksäckel, s'Düwàcksbittele.",
+      "index": 621
+    }
+  },
+  {
+    "id": "blague_plaisante_622",
+    "type": "expression_figee",
+    "francais": "blague plaisante",
+    "article": "(la)",
+    "traductions": [
+      {
+        "alsacien": "d'r Plàuisch",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "blague plaisante.- (la) d'r Plàuisch.",
+      "index": 622
+    }
+  },
+  {
+    "id": "blanc_en_neige_634",
+    "type": "expression_figee",
+    "francais": "blanc en neige",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "d'r Aischnee",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "s'Geschlàuijene Eiwiss",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "blanc en neige.- (le) d'r Aischnee, s'Geschlàuijene Eiwiss.",
+      "index": 634
+    }
+  },
+  {
+    "id": "blanchiment_d_argent_636",
+    "type": "expression_figee",
+    "francais": "blanchiment d'argent",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "d'Galdwäsch",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "blanchiment d'argent.- (le) d'Galdwäsch.",
+      "index": 636
+    }
+  },
+  {
+    "id": "blanquette_de_veau_640",
+    "type": "expression_figee",
+    "francais": "blanquette de veau",
+    "article": "(la)",
+    "traductions": [
+      {
+        "alsacien": "s' Kàlbsfrikasse",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "d'Blànkett",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "blanquette de veau.- (la) s' Kàlbsfrikasse, d'Blànkett.",
+      "index": 640
+    }
+  },
+  {
+    "id": "blessure_de_couteau_652",
+    "type": "expression_figee",
+    "francais": "blessure de couteau",
+    "article": "(la)",
+    "traductions": [
+      {
+        "alsacien": "d'Schtechwunda",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "d'Schràmma",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "d'Schràmm",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "blessure de couteau.- (la) d'Schtechwunda, d'Schràmma, d'Schràmm.",
+      "index": 652
+    }
+  },
+  {
+    "id": "bleu_ciel_656",
+    "type": "expression_figee",
+    "francais": "bleu ciel",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "s'Hemmelblàui",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "s'Azürblöi",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "bleu ciel.- (le) s'Hemmelblàui, s'Azürblöi.",
+      "index": 656
+    }
+  },
+  {
+    "id": "bleu_de_cologne_657",
+    "type": "expression_figee",
+    "francais": "bleu de cologne",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "s' Kälschblàui",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "s'Kelschblöi",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "bleu de cologne.- (le) s' Kälschblàui, s'Kelschblöi.",
+      "index": 657
+    }
+  },
+  {
+    "id": "bleu_de_nacre_658",
+    "type": "expression_figee",
+    "francais": "bleu de nacre",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "s' Pärlamüatterblàui",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "s'Pärlemöterblöi",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "bleu de nacre.- (le) s' Pärlamüatterblàui, s'Pärlemöterblöi.",
+      "index": 658
+    }
+  },
+  {
+    "id": "bloc___dessin_664",
+    "type": "expression_figee",
+    "francais": "bloc à dessin",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "d'r Zaichenblock",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "de Zeischenblock",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "bloc à dessin.- (le) d'r Zaichenblock, de Zeischenblock.",
+      "index": 664
+    }
+  },
+  {
+    "id": "bloc_de_glace_666",
+    "type": "expression_figee",
+    "francais": "bloc de glace",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "d'r Issklotz",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "bloc de glace.- (le) d'r Issklotz.",
+      "index": 666
+    }
+  },
+  {
+    "id": "bloc_erratique_667",
+    "type": "expression_figee",
+    "francais": "bloc erratique",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "d'r Fendleng",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "bloc erratique.- (le) d'r Fendleng.",
+      "index": 667
+    }
+  },
+  {
+    "id": "bobine_de_fil_685",
+    "type": "expression_figee",
+    "francais": "bobine de fil",
+    "article": "(la)",
+    "traductions": [
+      {
+        "alsacien": "s'Fàdarugala",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "s' Fàdarällele",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "bobine de fil.- (la) s'Fàdarugala, s' Fàdarällele.",
+      "index": 685
+    }
+  },
+  {
+    "id": "bobine_d_allumage_686",
+    "type": "expression_figee",
+    "francais": "bobine d'allumage",
+    "article": "(la)",
+    "traductions": [
+      {
+        "alsacien": "d'Zendschpüala",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "bobine d'allumage.- (la) d'Zendschpüala.",
+      "index": 686
+    }
+  },
+  {
+    "id": "bobine_en_bois_687",
+    "type": "expression_figee",
+    "francais": "bobine en bois",
+    "article": "(la)",
+    "traductions": [
+      {
+        "alsacien": "s'Fàdarugala",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "bobine en bois.- (la) s'Fàdarugala.",
+      "index": 687
+    }
+  },
+  {
+    "id": "bois_de_ch_taignier_703",
+    "type": "expression_figee",
+    "francais": "bois de châtaignier",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "s' Käschtaholz",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "bois de châtaignier.- (le) s' Käschtaholz.",
+      "index": 703
+    }
+  },
+  {
+    "id": "bois_de_chauffage_704",
+    "type": "expression_figee",
+    "francais": "bois de chauffage",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "s'Brännholz",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "bois de chauffage.- (le) s'Brännholz.",
+      "index": 704
+    }
+  },
+  {
+    "id": "bois_de_construction_705",
+    "type": "expression_figee",
+    "francais": "bois de construction",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "s'Boiholz",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "bois de construction.- (le) s'Boiholz.",
+      "index": 705
+    }
+  },
+  {
+    "id": "bois_de_gibet_706",
+    "type": "expression_figee",
+    "francais": "bois de gibet",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "s'Gàlgaholz",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "s'Galjeholz",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "bois de gibet.- (le) s'Gàlgaholz, s'Galjeholz.",
+      "index": 706
+    }
+  },
+  {
+    "id": "bois_encoch__707",
+    "type": "expression_figee",
+    "francais": "bois encoché",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "s' Kärbholz",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "s'Kerbholtz",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "bois encoché.- (le) s' Kärbholz, s'Kerbholtz.",
+      "index": 707
+    }
+  },
+  {
+    "id": "bois_exotique_708",
+    "type": "expression_figee",
+    "francais": "bois exotique",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "s'Tropaholz",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "bois exotique.- (le) s'Tropaholz.",
+      "index": 708
+    }
+  },
+  {
+    "id": "bois_de_lit_709",
+    "type": "expression_figee",
+    "francais": "bois de lit",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "d'Bättlààda",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "bois de lit.- (le) d'Bättlààda.",
+      "index": 709
+    }
+  },
+  {
+    "id": "bois_de_santal_710",
+    "type": "expression_figee",
+    "francais": "bois de santal",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "s'Sàndelholz",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "bois de santal.- (le) s'Sàndelholz.",
+      "index": 710
+    }
+  },
+  {
+    "id": "bois_de_sapin_711",
+    "type": "expression_figee",
+    "francais": "bois de sapin",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "s' Tànnaholz",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "s'Tanneholz",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "bois de sapin.- (le) s' Tànnaholz, s'Tanneholz.",
+      "index": 711
+    }
+  },
+  {
+    "id": "bois_de_sciage_712",
+    "type": "expression_figee",
+    "francais": "bois de sciage",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "s'Brattlaholz",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "s'Saagholz",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "bois de sciage.- (le) s'Brattlaholz, s'Saagholz.",
+      "index": 712
+    }
+  },
+  {
+    "id": "bo_te___chaussures_718",
+    "type": "expression_figee",
+    "francais": "boîte à chaussures",
+    "article": "(la)",
+    "traductions": [
+      {
+        "alsacien": "d' Schüahlààda",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "d'Schöhlàdd",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "boîte à chaussures.- (la) d' Schüahlààda, d'Schöhlàdd.",
+      "index": 718
+    }
+  },
+  {
+    "id": "bo_te___cirage_719",
+    "type": "expression_figee",
+    "francais": "boîte à cirage",
+    "article": "(la)",
+    "traductions": [
+      {
+        "alsacien": "s'Schüawecksbexla",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "s'Schöwexladdel",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "boîte à cirage.- (la) s'Schüawecksbexla, s'Schöwexladdel.",
+      "index": 719
+    }
+  },
+  {
+    "id": "bo_te___compas_720",
+    "type": "expression_figee",
+    "francais": "boîte à compas",
+    "article": "(la)",
+    "traductions": [
+      {
+        "alsacien": "s'Zerkelkaschtla",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "boîte à compas.- (la) s'Zerkelkaschtla.",
+      "index": 720
+    }
+  },
+  {
+    "id": "bo_te___conserves_721",
+    "type": "expression_figee",
+    "francais": "boîte à conserves",
+    "article": "(la)",
+    "traductions": [
+      {
+        "alsacien": "d' Konsarwabecksa",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "boîte à conserves.- (la) d' Konsarwabecksa.",
+      "index": 721
+    }
+  },
+  {
+    "id": "bo_te____pingles_722",
+    "type": "expression_figee",
+    "francais": "boîte à épingles",
+    "article": "(la)",
+    "traductions": [
+      {
+        "alsacien": "s'Gufalaadla",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "s'Guffeladdel",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "boîte à épingles.- (la) s'Gufalaadla, s'Guffeladdel.",
+      "index": 722
+    }
+  },
+  {
+    "id": "bo_te___gants_723",
+    "type": "expression_figee",
+    "francais": "boîte à gants",
+    "article": "(la)",
+    "traductions": [
+      {
+        "alsacien": "s' Hanschigfachla",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "s'Hanschikaschtel",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "boîte à gants.- (la) s' Hanschigfachla, s'Hanschikaschtel.",
+      "index": 723
+    }
+  },
+  {
+    "id": "bo_te___lait_724",
+    "type": "expression_figee",
+    "francais": "boîte à lait",
+    "article": "(la)",
+    "traductions": [
+      {
+        "alsacien": "s'Melchkannla",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "s'Melischkännel",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "boîte à lait. (la) s'Melchkannla, s'Melischkännel.",
+      "index": 724
+    }
+  },
+  {
+    "id": "bo_te___ordures_725",
+    "type": "expression_figee",
+    "francais": "boîte à ordures",
+    "article": "(la)",
+    "traductions": [
+      {
+        "alsacien": "d'r Drackaimer",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "de Wiktori",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "boîte à ordures.- (la) d'r Drackaimer, de Wiktori.",
+      "index": 725
+    }
+  },
+  {
+    "id": "bo_te___outils_726",
+    "type": "expression_figee",
+    "francais": "boîte à outils",
+    "article": "(la)",
+    "traductions": [
+      {
+        "alsacien": "d' Warkzigkeschta",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "d'Warikzickkescht",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "boîte à outils.- (la) d' Warkzigkeschta, d'Warikzickkescht.",
+      "index": 726
+    }
+  },
+  {
+    "id": "bo_te___ouvrages_727",
+    "type": "expression_figee",
+    "francais": "boîte à ouvrages",
+    "article": "(la)",
+    "traductions": [
+      {
+        "alsacien": "s' Naijkaschtla",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "s'Näijladel",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "boîte à ouvrages.- (la) s' Naijkaschtla, s'Näijladel.",
+      "index": 727
+    }
+  },
+  {
+    "id": "bo_te___poudre_728",
+    "type": "expression_figee",
+    "francais": "boîte à poudre",
+    "article": "(la)",
+    "traductions": [
+      {
+        "alsacien": "s'Puderbecksla",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "s'Puderbecksel",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "boîte à poudre.- (la) s'Puderbecksla, s'Puderbecksel.",
+      "index": 728
+    }
+  },
+  {
+    "id": "bo_te___savon_729",
+    "type": "expression_figee",
+    "francais": "boîte à savon",
+    "article": "(la)",
+    "traductions": [
+      {
+        "alsacien": "s'Saifakachala",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "s'Seifeladel",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "boîte à savon.- (la) s'Saifakachala, s'Seifeladel.",
+      "index": 729
+    }
+  },
+  {
+    "id": "bo_te___sel_730",
+    "type": "expression_figee",
+    "francais": "boîte à sel",
+    "article": "(la)",
+    "traductions": [
+      {
+        "alsacien": "s'Sàlzbecksla",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "boîte à sel.- (la) s'Sàlzbecksla.",
+      "index": 730
+    }
+  },
+  {
+    "id": "bo_te_aux_lettres_731",
+    "type": "expression_figee",
+    "francais": "boîte aux lettres",
+    "article": "(la)",
+    "traductions": [
+      {
+        "alsacien": "s' Briafkaschtla",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "s'Breefkäschtel",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "boîte aux lettres.- (la) s' Briafkaschtla, s'Breefkäschtel.",
+      "index": 731
+    }
+  },
+  {
+    "id": "bo_te_bordelique_732",
+    "type": "expression_figee",
+    "francais": "boîte bordelique",
+    "article": "(la)",
+    "traductions": [
+      {
+        "alsacien": "d'r Sàftlààda",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "boîte bordelique.- (la) d'r Sàftlààda.",
+      "index": 732
+    }
+  },
+  {
+    "id": "bo_te_cr_nienne_733",
+    "type": "expression_figee",
+    "francais": "boîte crânienne",
+    "article": "(la)",
+    "traductions": [
+      {
+        "alsacien": "d'Hernschàla",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "de Hirnkàschte",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "d'Schadeldäcka",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "boîte crânienne.- (la) d'Hernschàla, de Hirnkàschte, d'Schadeldäcka.",
+      "index": 733
+    }
+  },
+  {
+    "id": "bo_te_d_allumettes_734",
+    "type": "expression_figee",
+    "francais": "boîte d'allumettes",
+    "article": "(la)",
+    "traductions": [
+      {
+        "alsacien": "s' Grezerhälslaladla",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "s'Schwawelhelselladl",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "boîte d'allumettes.- (la) s' Grezerhälslaladla, s'Schwawelhelselladl.",
+      "index": 734
+    }
+  },
+  {
+    "id": "bo_te_de_couleur_735",
+    "type": "expression_figee",
+    "francais": "boîte de couleur",
+    "article": "(la)",
+    "traductions": [
+      {
+        "alsacien": "d'Fàrwalàda",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "d'Fàrwelàd",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "boîte de couleur.- (la) d'Fàrwalàda, d'Fàrwelàd.",
+      "index": 735
+    }
+  },
+  {
+    "id": "bo_te_de_nuit_736",
+    "type": "expression_figee",
+    "francais": "boîte de nuit",
+    "article": "(la)",
+    "traductions": [
+      {
+        "alsacien": "s' Nàchtlokàl",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "boîte de nuit.- (la) s' Nàchtlokàl.",
+      "index": 736
+    }
+  },
+  {
+    "id": "bo_te_de_petits_fours_737",
+    "type": "expression_figee",
+    "francais": "boîte de petits fours",
+    "article": "(la)",
+    "traductions": [
+      {
+        "alsacien": "d'Bredlabecksa",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "d'Breddelbecks",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "boîte de petits fours. (la) d'Bredlabecksa, d'Breddelbecks.",
+      "index": 737
+    }
+  },
+  {
+    "id": "bo_te_de_prise_de_courant_738",
+    "type": "expression_figee",
+    "francais": "boîte de prise de courant",
+    "article": "(la)",
+    "traductions": [
+      {
+        "alsacien": "d' Schtäckdoosa",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "boîte de prise de courant.- (la) d' Schtäckdoosa.",
+      "index": 738
+    }
+  },
+  {
+    "id": "bo_te_de_secours_739",
+    "type": "expression_figee",
+    "francais": "boîte de secours",
+    "article": "(la)",
+    "traductions": [
+      {
+        "alsacien": "d'r Verbànskàschta",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "boîte de secours.- (la) d'r Verbànskàschta.",
+      "index": 739
+    }
+  },
+  {
+    "id": "bo_te_en_carton_740",
+    "type": "expression_figee",
+    "francais": "boîte en carton",
+    "article": "(la)",
+    "traductions": [
+      {
+        "alsacien": "d'Pàppadäckellààda",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "d'Pàppschàchtel",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "boîte en carton.- (la) d'Pàppadäckellààda, d'Pàppschàchtel.",
+      "index": 740
+    }
+  },
+  {
+    "id": "bo_te_en_bois_741",
+    "type": "expression_figee",
+    "francais": "boîte en bois",
+    "article": "(la)",
+    "traductions": [
+      {
+        "alsacien": "s'Holzkeschtla",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "s'Keschtel",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "boîte en bois.- (la) s'Holzkeschtla, s'Keschtel.",
+      "index": 741
+    }
+  },
+  {
+    "id": "bo_te_en_fer_blanc_742",
+    "type": "expression_figee",
+    "francais": "boîte en fer blanc",
+    "article": "(la)",
+    "traductions": [
+      {
+        "alsacien": "d' Blachbecksa",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "d'Bläschbechs",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "boîte en fer blanc.- (la) d' Blachbecksa, d'Bläschbechs.",
+      "index": 742
+    }
+  },
+  {
+    "id": "bo_te_postale_743",
+    "type": "expression_figee",
+    "francais": "boîte postale",
+    "article": "(la)",
+    "traductions": [
+      {
+        "alsacien": "Poschtschliassfàch",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "boîte postale.- (la) Poschtschliassfàch.",
+      "index": 743
+    }
+  },
+  {
+    "id": "bol_d_air_749",
+    "type": "expression_figee",
+    "francais": "bol d'air",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "a schnüfer frescha luft",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "bol d'air.- (le) a schnüfer frescha luft.",
+      "index": 749
+    }
+  },
+  {
+    "id": "bombe_fumig_ne_757",
+    "type": "expression_figee",
+    "francais": "bombe fumigène",
+    "article": "(la)",
+    "traductions": [
+      {
+        "alsacien": "d'Ràuichbumba",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "bombe fumigène.- (la) d'Ràuichbumba.",
+      "index": 757
+    }
+  },
+  {
+    "id": "bombe_incendiaire_758",
+    "type": "expression_figee",
+    "francais": "bombe incendiaire",
+    "article": "(la)",
+    "traductions": [
+      {
+        "alsacien": "d'Bràndbumba",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "bombe incendiaire.- (la) d'Bràndbumba.",
+      "index": 758
+    }
+  },
+  {
+    "id": "bon_coeur_765",
+    "type": "expression_figee",
+    "francais": "bon coeur",
+    "article": "(de)",
+    "traductions": [
+      {
+        "alsacien": "vu harza",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "bon coeur.- (de) vu harza.",
+      "index": 765
+    }
+  },
+  {
+    "id": "bon_de_caisse_766",
+    "type": "expression_figee",
+    "francais": "bon de caisse",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "d'r Güatschin",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "bon de caisse.- (le) d'r Güatschin.",
+      "index": 766
+    }
+  },
+  {
+    "id": "bon_de_commande_767",
+    "type": "expression_figee",
+    "francais": "bon de commande",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "d'r Bschtällschin",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "bon de commande.- (le) d'r Bschtällschin.",
+      "index": 767
+    }
+  },
+  {
+    "id": "bon_de_livraison_768",
+    "type": "expression_figee",
+    "francais": "bon de livraison",
+    "article": "le",
+    "traductions": [
+      {
+        "alsacien": "d'r Leeferschin",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "bon de livraison.- (le d'r Leeferschin.",
+      "index": 768
+    }
+  },
+  {
+    "id": "bon_go_t_769",
+    "type": "expression_figee",
+    "francais": "bon goût",
+    "article": "(de)",
+    "traductions": [
+      {
+        "alsacien": "gschmàckvoll",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "bon goût.- (de) gschmàckvoll.",
+      "index": 769
+    }
+  },
+  {
+    "id": "bon_du_tr_sor_771",
+    "type": "expression_figee",
+    "francais": "bon du trésor",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "d' Schàtzàwisung",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "bon du trésor.- (le) d' Schàtzàwisung.",
+      "index": 771
+    }
+  },
+  {
+    "id": "bon_march__773",
+    "type": "expression_figee",
+    "francais": "bon marché",
+    "article": "(très)",
+    "traductions": [
+      {
+        "alsacien": "schpottbellig",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "schpottbillisch",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "bon marché.- (très) schpottbellig, schpottbillisch.",
+      "index": 773
+    }
+  },
+  {
+    "id": "bon_matin_774",
+    "type": "expression_figee",
+    "francais": "bon matin",
+    "article": "(de)",
+    "traductions": [
+      {
+        "alsacien": "z'Morgafriaij",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "àm morjafreih",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "en àller Härgottsfriaija",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "bon matin.- (de) z'Morgafriaij, àm morjafreih, en àller Härgottsfriaija.",
+      "index": 774
+    }
+  },
+  {
+    "id": "bon_mot_775",
+    "type": "expression_figee",
+    "francais": "bon mot",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "d'r Wetziga Schpruch",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "bon mot.- (le) d'r Wetziga Schpruch",
+      "index": 775
+    }
+  },
+  {
+    "id": "bon_sens_776",
+    "type": "expression_figee",
+    "francais": "bon sens",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "d'r Gsundamänschaverschtànd",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "d'Klughait",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "bon sens.- (le) d'r Gsundamänschaverschtànd, d'Klughait .",
+      "index": 776
+    }
+  },
+  {
+    "id": "bonbonne_de_schnaps_779",
+    "type": "expression_figee",
+    "francais": "bonbonne de Schnaps",
+    "article": "(la)",
+    "traductions": [
+      {
+        "alsacien": "d'Schàpsguttra",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "d'Schnàpsgutter",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "bonbonne de Schnaps.- (la) d'Schàpsguttra, d'Schnàpsgutter.",
+      "index": 779
+    }
+  },
+  {
+    "id": "bonheur_la_chance_786",
+    "type": "expression_figee",
+    "francais": "bonheur la chance",
+    "article": "(au p'tit)",
+    "traductions": [
+      {
+        "alsacien": "uff güat gleck",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "off göt glick",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "bonheur la chance.- (au p'tit) uff güat gleck, off göt glick.",
+      "index": 786
+    }
+  },
+  {
+    "id": "bonheur_de_vivre_787",
+    "type": "expression_figee",
+    "francais": "bonheur de vivre",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "d'Lawesfraid",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "d\"Läwesfreid",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "bonheur de vivre.- (le) d'Lawesfraid, d\"Läwesfreid.",
+      "index": 787
+    }
+  },
+  {
+    "id": "bonhomme_articul__790",
+    "type": "expression_figee",
+    "francais": "bonhomme articulé",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "d'r Hàmpelmànn",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "de Hànswurscht",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "bonhomme articulé.- (le) d'r Hàmpelmànn, de Hànswurscht.",
+      "index": 790
+    }
+  },
+  {
+    "id": "bonhomme_de_neige_791",
+    "type": "expression_figee",
+    "francais": "bonhomme de neige",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "d'r Schneemànn",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "bonhomme de neige.- (le) d'r Schneemànn.",
+      "index": 791
+    }
+  },
+  {
+    "id": "bonne___rien_797",
+    "type": "expression_figee",
+    "francais": "bonne à rien",
+    "article": "(la)",
+    "traductions": [
+      {
+        "alsacien": "d'Schlàmpra",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "s'Schlämperle",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "bonne à rien.- (la) d'Schlàmpra, s'Schlämperle.",
+      "index": 797
+    }
+  },
+  {
+    "id": "bonne___tout_faire_798",
+    "type": "expression_figee",
+    "francais": "bonne à tout faire",
+    "article": "(la)",
+    "traductions": [
+      {
+        "alsacien": "s'Maidla fer àlles",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "d'Màgd",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "bonne à tout faire.- (la) s'Maidla fer àlles, d'Màgd.",
+      "index": 798
+    }
+  },
+  {
+    "id": "bonne_femme_799",
+    "type": "expression_figee",
+    "francais": "bonne femme",
+    "article": "(la)",
+    "traductions": [
+      {
+        "alsacien": "s'Fràuijazemmer",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "s'Wib",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "bonne femme.- (la) s'Fràuijazemmer, s'Wib.",
+      "index": 799
+    }
+  },
+  {
+    "id": "bonne_foi_800",
+    "type": "expression_figee",
+    "francais": "bonne foi",
+    "article": "(de)",
+    "traductions": [
+      {
+        "alsacien": "em güta glàuiwa",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "em göte glaawe",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "bonne foi.- (de) em güta glàuiwa, em göte glaawe.",
+      "index": 800
+    }
+  },
+  {
+    "id": "bonne_soeur_801",
+    "type": "expression_figee",
+    "francais": "bonne soeur",
+    "article": "la",
+    "traductions": [
+      {
+        "alsacien": "d'Schwäschter",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "d'Schweschtre",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "bonne soeur.- (la d'Schwäschter, d'Schweschtre.",
+      "index": 801
+    }
+  },
+  {
+    "id": "bonne_p_te_803",
+    "type": "expression_figee",
+    "francais": "bonne pâte",
+    "article": "(la)",
+    "traductions": [
+      {
+        "alsacien": "d'r Gmiatsmänsch",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "de Gmeetsmänsch",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "bonne pâte.- (la) d'r Gmiatsmänsch, de Gmeetsmänsch.",
+      "index": 803
+    }
+  },
+  {
+    "id": "bonnet___pointe_805",
+    "type": "expression_figee",
+    "francais": "bonnet à pointe",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "s'Zepfelkappla",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "d'Zipfelkàppe",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "bonnet à pointe.- (le) s'Zepfelkappla, d'Zipfelkàppe.",
+      "index": 805
+    }
+  },
+  {
+    "id": "bonnet_de_bain_806",
+    "type": "expression_figee",
+    "francais": "bonnet de bain",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "s'Bààdkappla",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "s'Bààdkäppel",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "bonnet de bain.- (le) s'Bààdkappla, s'Bààdkäppel.",
+      "index": 806
+    }
+  },
+  {
+    "id": "bonnet_de_nuit_807",
+    "type": "expression_figee",
+    "francais": "bonnet de nuit",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "s'Nàchtkappla",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "d' Schloofkàppa",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "d'Schlofkàpp",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "bonnet de nuit.- (le) s'Nàchtkappla, d' Schloofkàppa, d'Schlofkàpp.",
+      "index": 807
+    }
+  },
+  {
+    "id": "bonne_volont__809",
+    "type": "expression_figee",
+    "francais": "bonne volonté",
+    "article": "(la)",
+    "traductions": [
+      {
+        "alsacien": "d'Güatwellikait",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "d'Götellischkeit",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "bonne volonté.- (la) d'Güatwellikait, d'Götellischkeit.",
+      "index": 809
+    }
+  },
+  {
+    "id": "bonshommes_de_feu_810",
+    "type": "expression_figee",
+    "francais": "bonshommes de feu",
+    "article": "(les)",
+    "traductions": [
+      {
+        "alsacien": "d'Fihrmannala",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "d'Firmännel",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "bonshommes de feu.- (les) d'Fihrmannala, d'Firmännel.",
+      "index": 810
+    }
+  },
+  {
+    "id": "bordereau_de_livraison_822",
+    "type": "expression_figee",
+    "francais": "bordereau de livraison",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "d'r Leferschin",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "de Lefferschin",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "bordereau de livraison.- (le) d'r Leferschin, de Lefferschin.",
+      "index": 822
+    }
+  },
+  {
+    "id": "bord_du_chemin_823",
+    "type": "expression_figee",
+    "francais": "bord du chemin",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "d'r Waagrànd",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "de Waijrànd",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "bord du chemin.- (le) d'r Waagrànd, de Waijrànd.",
+      "index": 823
+    }
+  },
+  {
+    "id": "bord_du_trottoir_824",
+    "type": "expression_figee",
+    "francais": "bord du trottoir",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "d'r Trottwarrànd",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "de Föswaijrànd",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "bord du trottoir.- (le) d'r Trottwarrànd, de Föswaijrànd.",
+      "index": 824
+    }
+  },
+  {
+    "id": "bordure_de_tombe_826",
+    "type": "expression_figee",
+    "francais": "bordure de tombe",
+    "article": "(la)",
+    "traductions": [
+      {
+        "alsacien": "d'r Gràbifàssungsschtai",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "de Innfàssungsschtei",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "bordure de tombe.- (la) d'r Gràbifàssungsschtai, de Innfàssungsschtei.",
+      "index": 826
+    }
+  },
+  {
+    "id": "borne_d_appel_d_urgence_830",
+    "type": "expression_figee",
+    "francais": "borne d'appel d'urgence",
+    "article": "(la)",
+    "traductions": [
+      {
+        "alsacien": "d'Notrüafsühla",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "Nohtröfsül",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "borne d'appel d'urgence.- (la) d'Notrüafsühla, Nohtröfsül.",
+      "index": 830
+    }
+  },
+  {
+    "id": "borne_kilom_trique_832",
+    "type": "expression_figee",
+    "francais": "borne kilométrique",
+    "article": "(la)",
+    "traductions": [
+      {
+        "alsacien": "d'r Kilomäterschtai",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "borne kilométrique.- (la) d'r Kilomäterschtai.",
+      "index": 832
+    }
+  },
+  {
+    "id": "botte_de_radis_841",
+    "type": "expression_figee",
+    "francais": "botte de radis",
+    "article": "(la)",
+    "traductions": [
+      {
+        "alsacien": "s'Radigbeschala",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "d'r Busche Radjele",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "botte de radis.- (la) s'Radigbeschala, d'r Busche Radjele.",
+      "index": 841
+    }
+  },
+  {
+    "id": "bouc__missaire_846",
+    "type": "expression_figee",
+    "francais": "bouc émissaire",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "d'r Sendabock",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "d'r Laidtràgenda",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "bouc émissaire.- (le) d'r Sendabock, d'r Laidtràgenda.",
+      "index": 846
+    }
+  },
+  {
+    "id": "bouche___oreille_849",
+    "type": "expression_figee",
+    "francais": "bouche à oreille",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "d'Fleschterpropaganda",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "bouche à oreille.- (le) d'Fleschterpropaganda.",
+      "index": 849
+    }
+  },
+  {
+    "id": "bouche_b_e_851",
+    "type": "expression_figee",
+    "francais": "bouche bée",
+    "article": "(être)",
+    "traductions": [
+      {
+        "alsacien": "Mühl un Nààsa uff schpärra",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "Müll un nàs uffschperre",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "bouche bée.- (être) Mühl un Nààsa uff schpärra, Müll un nàs uffschperre.",
+      "index": 851
+    }
+  },
+  {
+    "id": "bouch_e___la_reine_854",
+    "type": "expression_figee",
+    "francais": "bouchée à la reine",
+    "article": "(la)",
+    "traductions": [
+      {
+        "alsacien": "s'Suppapàschtetla",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "s'Suppepàschtetle",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "bouchée à la reine.- (la) s'Suppapàschtetla, s'Suppepàschtetle.",
+      "index": 854
+    }
+  },
+  {
+    "id": "bouche_d_eau_855",
+    "type": "expression_figee",
+    "francais": "bouche d'eau",
+    "article": "(la)",
+    "traductions": [
+      {
+        "alsacien": "d'r Wàsseràschluss",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "bouche d'eau.- (la) d'r Wàsseràschluss.",
+      "index": 855
+    }
+  },
+  {
+    "id": "bouche_de_m_tro_856",
+    "type": "expression_figee",
+    "francais": "bouche de métro",
+    "article": "(la)",
+    "traductions": [
+      {
+        "alsacien": "d'r Unterbàhnigàng",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "bouche de métro. (la) d'r Unterbàhnigàng.",
+      "index": 856
+    }
+  },
+  {
+    "id": "bouche_d_incendie_857",
+    "type": "expression_figee",
+    "francais": "bouche d'incendie",
+    "article": "(la)",
+    "traductions": [
+      {
+        "alsacien": "d'r Hydrànt",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "bouche d'incendie.- (la) d'r Hydrànt.",
+      "index": 857
+    }
+  },
+  {
+    "id": "bouche__brech_e_858",
+    "type": "expression_figee",
+    "francais": "bouche ébrechée",
+    "article": "(la)",
+    "traductions": [
+      {
+        "alsacien": "s'Schluckamühl",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "s'Schluckemül",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "bouche ébrechée.- (la) s'Schluckamühl, s'Schluckemül.",
+      "index": 858
+    }
+  },
+  {
+    "id": "bouchon_de_paille_864",
+    "type": "expression_figee",
+    "francais": "bouchon de paille",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "d'r Schtràuiwesch",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "s'Schaible",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "bouchon de paille.- (le) d'r Schtràuiwesch, s'Schaible.",
+      "index": 864
+    }
+  },
+  {
+    "id": "bouchon_de_verre_865",
+    "type": "expression_figee",
+    "francais": "bouchon de verre",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "d'r Schtöpsel",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "de Schtöpfel",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "bouchon de verre.- (le) d'r Schtöpsel, de Schtöpfel.",
+      "index": 865
+    }
+  },
+  {
+    "id": "boucle_de_cheveux_868",
+    "type": "expression_figee",
+    "francais": "boucle de cheveux",
+    "article": "(la)",
+    "traductions": [
+      {
+        "alsacien": "d'Locka",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "d'Lock",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "d'Läckala",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "d'Leckele",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "s'Grüsala",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "s'Grüsele",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "boucle de cheveux.- (la) d'Locka, d'Lock, d'Läckala, d'Leckele, s'Grüsala, s'Grüsele.",
+      "index": 868
+    }
+  },
+  {
+    "id": "boucle_de_ceinture_869",
+    "type": "expression_figee",
+    "francais": "boucle de ceinture",
+    "article": "(la)",
+    "traductions": [
+      {
+        "alsacien": "d'Gertelschnàlla",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "boucle de ceinture.- (la) d'Gertelschnàlla.",
+      "index": 869
+    }
+  },
+  {
+    "id": "boucle_d_oreilles_870",
+    "type": "expression_figee",
+    "francais": "boucle d'oreilles",
+    "article": "(la)",
+    "traductions": [
+      {
+        "alsacien": "s'Ohrarengla",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "s'Ohregangele",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "boucle d'oreilles.- (la) s'Ohrarengla, s'Ohregangele.",
+      "index": 870
+    }
+  },
+  {
+    "id": "boucle_juive_871",
+    "type": "expression_figee",
+    "francais": "boucle juive",
+    "article": "(la)",
+    "traductions": [
+      {
+        "alsacien": "d'Schmàlzlocka",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "d'Veidelslocke",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "boucle juive.- (la) d'Schmàlzlocka, d'Veidelslocke.",
+      "index": 871
+    }
+  },
+  {
+    "id": "bouclier_spirituel_875",
+    "type": "expression_figee",
+    "francais": "bouclier spirituel",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "s' Hailiga Scheld",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "s'Heili Schild",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "s' Gaischtliga Scheld",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "s'Haxabüach",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "bouclier spirituel.- (le) s' Hailiga Scheld, s'Heili Schild, s' Gaischtliga Scheld, s'Haxabüach.",
+      "index": 875
+    }
+  },
+  {
+    "id": "boudin_blanc_878",
+    "type": "expression_figee",
+    "francais": "boudin blanc",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "d'r Brotwurscht",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "d'r Wisswurscht",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "boudin blanc.- (le) d'r Brotwurscht, d'r Wisswurscht.",
+      "index": 878
+    }
+  },
+  {
+    "id": "bouff_es_de_chaleur_886",
+    "type": "expression_figee",
+    "francais": "bouffées de chaleur",
+    "article": "(les)",
+    "traductions": [
+      {
+        "alsacien": "d' Fliagendahetza",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "d'Fliehendihitze",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "bouffées de chaleur.- (les) d' Fliagendahetza, d'Fliehendihitze.",
+      "index": 886
+    }
+  },
+  {
+    "id": "bougie_magique_897",
+    "type": "expression_figee",
+    "francais": "bougie magique",
+    "article": "(la)",
+    "traductions": [
+      {
+        "alsacien": "D'r Schtarnlaschpäijer",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "d'r Schtarnlaschisser",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "bougie magique.- (la) D'r Schtarnlaschpäijer, d'r Schtarnlaschisser.",
+      "index": 897
+    }
+  },
+  {
+    "id": "boui_boui_901",
+    "type": "expression_figee",
+    "francais": "boui boui",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "d' misa Knaipa",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "boui boui.- (le) d' misa Knaipa.",
+      "index": 901
+    }
+  },
+  {
+    "id": "bouilleur_de_cru_905",
+    "type": "expression_figee",
+    "francais": "bouilleur de cru",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "d'r Schnàpsbränner",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "bouilleur de cru.- (le) d'r Schnàpsbränner.",
+      "index": 905
+    }
+  },
+  {
+    "id": "bouillie_de_flocons_d_avoine_908",
+    "type": "expression_figee",
+    "francais": "bouillie de flocons d'avoine",
+    "article": "(la)",
+    "traductions": [
+      {
+        "alsacien": "d'r Hàwerflokaschlim",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "de Hàwerschlim",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "bouillie de flocons d'avoine.- (la) d'r Hàwerflokaschlim, de Hàwerschlim.",
+      "index": 908
+    }
+  },
+  {
+    "id": "bouillon_blanc_914",
+    "type": "expression_figee",
+    "francais": "bouillon blanc",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "d'Wullabliamla",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "d'Wollblöme",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "bouillon blanc.- (le) d'Wullabliamla, d'Wollblöme.",
+      "index": 914
+    }
+  },
+  {
+    "id": "bouillon_de_boeuf_915",
+    "type": "expression_figee",
+    "francais": "bouillon de boeuf",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "d'Kràftbriaja; d'Kràftbrei",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "bouillon de boeuf.- (le) d'Kràftbriaja; d'Kràftbrei.",
+      "index": 915
+    }
+  },
+  {
+    "id": "bouillon_de_culture_916",
+    "type": "expression_figee",
+    "francais": "bouillon de culture",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "d' Nährbriaija",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "bouillon de culture.- (le) d' Nährbriaija.",
+      "index": 916
+    }
+  },
+  {
+    "id": "bouillon_de_onze_heures_917",
+    "type": "expression_figee",
+    "francais": "bouillon de onze heures",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "s'Älferseppla",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "d'Elführsupp",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "bouillon de onze heures.- (le) s'Älferseppla, d'Elführsupp.",
+      "index": 917
+    }
+  },
+  {
+    "id": "bouillon_de_viande_918",
+    "type": "expression_figee",
+    "francais": "bouillon de viande",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "d'Flaischbriaja",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "bouillon de viande.- (le) d'Flaischbriaja.",
+      "index": 918
+    }
+  },
+  {
+    "id": "bouillotte_de_noyaux_de_cerises_921",
+    "type": "expression_figee",
+    "francais": "bouillotte de noyaux de cerises",
+    "article": "(la)",
+    "traductions": [
+      {
+        "alsacien": "s'Kerschaschtaisäckla",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "s'Kirscheschteinsäckel",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "bouillotte de noyaux de cerises.- (la) s'Kerschaschtaisäckla, s'Kirscheschteinsäckel.",
+      "index": 921
+    }
+  },
+  {
+    "id": "boulanger_du_couvent_923",
+    "type": "expression_figee",
+    "francais": "boulanger du couvent",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "d'r Pfischter",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "d'r Kloschterbäck",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "boulanger du couvent.- (le) d'r Pfischter, d'r Kloschterbäck.",
+      "index": 923
+    }
+  },
+  {
+    "id": "boule_anti_mites_927",
+    "type": "expression_figee",
+    "francais": "boule anti-mites",
+    "article": "(la)",
+    "traductions": [
+      {
+        "alsacien": "s' Schàwakegala",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "s'Schàwekejele",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "Naphtalinkegala",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "boule anti-mites.- (la) s' Schàwakegala, s'Schàwekejele, Naphtalinkegala.",
+      "index": 927
+    }
+  },
+  {
+    "id": "boule_bleue_928",
+    "type": "expression_figee",
+    "francais": "boule bleue",
+    "article": "(la)",
+    "traductions": [
+      {
+        "alsacien": "s' Blàuischtaikegala",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "s'Blöikejele",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "boule bleue.- (la) s' Blàuischtaikegala, s'Blöikejele.",
+      "index": 928
+    }
+  },
+  {
+    "id": "boule___z_ro_929",
+    "type": "expression_figee",
+    "francais": "boule à zéro",
+    "article": "(la)",
+    "traductions": [
+      {
+        "alsacien": "d'Blutkopf",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "d'r Blutkieli",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "d'r Glaze",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "boule à zéro.- (la) d'Blutkopf, d'r Blutkieli, d'r Glaze.",
+      "index": 929
+    }
+  },
+  {
+    "id": "boule_de_berlin_930",
+    "type": "expression_figee",
+    "francais": "boule de berlin",
+    "article": "(la)",
+    "traductions": [
+      {
+        "alsacien": "d'Berliner Pfànnaküacha",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "d'Pfànnkösche",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "boule de berlin.- (la) d'Berliner Pfànnaküacha, d'Pfànnkösche.",
+      "index": 930
+    }
+  },
+  {
+    "id": "boule_de_coton_931",
+    "type": "expression_figee",
+    "francais": "boule de coton",
+    "article": "(la)",
+    "traductions": [
+      {
+        "alsacien": "d'Wàttabuschla",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "boule de coton.- (la) d'Wàttabuschla.",
+      "index": 931
+    }
+  },
+  {
+    "id": "boule_de_laine_932",
+    "type": "expression_figee",
+    "francais": "boule de laine",
+    "article": "(la)",
+    "traductions": [
+      {
+        "alsacien": "d'Wullaknoila ou Knäijala",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "d'Wollköile",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "boule de laine.- (la) d'Wullaknoila ou Knäijala, d'Wollköile.",
+      "index": 932
+    }
+  },
+  {
+    "id": "boule_de_neige_933",
+    "type": "expression_figee",
+    "francais": "boule de neige",
+    "article": "(la)",
+    "traductions": [
+      {
+        "alsacien": "d'Schneebàlla",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "d'Schneebàll",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "boule de neige.- (la) d'Schneebàlla, d'Schneebàll.",
+      "index": 933
+    }
+  },
+  {
+    "id": "boule_de_neige_934",
+    "type": "expression_figee",
+    "francais": "boule de neige",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "d'r Schneeballalabàuim",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "de Schneebàllbaam",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "boule de neige.- (le) d'r Schneeballalabàuim, de Schneebàllbaam.",
+      "index": 934
+    }
+  },
+  {
+    "id": "boule_de_gomme_935",
+    "type": "expression_figee",
+    "francais": "boule de gomme",
+    "article": "(la)",
+    "traductions": [
+      {
+        "alsacien": "s' Hüaschtabumbum",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "de Höschtebombom",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "boule de gomme.- (la) s' Hüaschtabumbum, de Höschtebombom.",
+      "index": 935
+    }
+  },
+  {
+    "id": "boulette_de_pain_azyme_939",
+    "type": "expression_figee",
+    "francais": "boulette de pain azyme",
+    "article": "(la)",
+    "traductions": [
+      {
+        "alsacien": "s'Màtzaknäpfla",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "s'Màtzeknepfle",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "boulette de pain azyme.- (la) s'Màtzaknäpfla, s'Màtzeknepfle.",
+      "index": 939
+    }
+  },
+  {
+    "id": "boulette_de_viande_940",
+    "type": "expression_figee",
+    "francais": "boulette de viande",
+    "article": "(la)",
+    "traductions": [
+      {
+        "alsacien": "d'Flaischklösa",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "boulette de viande.- (la) d'Flaischklösa.",
+      "index": 940
+    }
+  },
+  {
+    "id": "bouquet_des_mari_s_954",
+    "type": "expression_figee",
+    "francais": "bouquet des mariés",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "d'r Hochzittsschtrüss",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "de Hochzitsmaje",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "bouquet des mariés. (le) d'r Hochzittsschtrüss, de Hochzitsmaje.",
+      "index": 954
+    }
+  },
+  {
+    "id": "bouquet_final_955",
+    "type": "expression_figee",
+    "francais": "bouquet final",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "d'Schlussgàrwa",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "bouquet final.- (le) d'Schlussgàrwa.",
+      "index": 955
+    }
+  },
+  {
+    "id": "bourgeois___la_canne_967",
+    "type": "expression_figee",
+    "francais": "bourgeois à la canne",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "d'r Schtäckalaburger",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "de Schtäckelburjer",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "bourgeois à la canne.- (le) d'r Schtäckalaburger, de Schtäckelburjer.",
+      "index": 967
+    }
+  },
+  {
+    "id": "bourreau_d_enfant_979",
+    "type": "expression_figee",
+    "francais": "bourreau d'enfant",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "d'r Kendermesshàndler",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "bourreau d'enfant.- (le) d'r Kendermesshàndler.",
+      "index": 979
+    }
+  },
+  {
+    "id": "bourreau_des_coeurs_980",
+    "type": "expression_figee",
+    "francais": "bourreau des coeurs",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "d'r Harzensbracher",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "de Härzensbräscher",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "bourreau des coeurs.- (le) d'r Harzensbracher, de Härzensbräscher.",
+      "index": 980
+    }
+  },
+  {
+    "id": "bourse_d__tude_992",
+    "type": "expression_figee",
+    "francais": "bourse d'étude",
+    "article": "(la)",
+    "traductions": [
+      {
+        "alsacien": "s'Leergald",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "s'Schtüpendium",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "bourse d'étude.- (la) s'Leergald, s'Schtüpendium.",
+      "index": 992
+    }
+  },
+  {
+    "id": "bout_de_champs_1004",
+    "type": "expression_figee",
+    "francais": "bout de champs",
+    "article": "(à tout)",
+    "traductions": [
+      {
+        "alsacien": "àlagebot",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "àlle gelte",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "bout de champs.- (à tout) àlagebot, àlle gelte.",
+      "index": 1004
+    }
+  },
+  {
+    "id": "bout_du_monde_1005",
+    "type": "expression_figee",
+    "francais": "bout du monde",
+    "article": "(au)",
+    "traductions": [
+      {
+        "alsacien": "àm And d'r Walt",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "àm End d'r Welt",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "bout du monde.- (au) àm And d'r Walt, àm End d'r Welt.",
+      "index": 1005
+    }
+  },
+  {
+    "id": "bout_de_pain_1006",
+    "type": "expression_figee",
+    "francais": "bout de pain",
+    "article": "(un)",
+    "traductions": [
+      {
+        "alsacien": "a schteckla Brot",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "e schteckel Brot",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "bout de pain.- (un) a schteckla Brot, e schteckel Brot.",
+      "index": 1006
+    }
+  },
+  {
+    "id": "bout_du_nez_1007",
+    "type": "expression_figee",
+    "francais": "bout du nez",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "d'r Nààsaschpetz",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "de Nasezipfel",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "bout du nez.- (le) d'r Nààsaschpetz, de Nasezipfel.",
+      "index": 1007
+    }
+  },
+  {
+    "id": "bout_du_rouleau_1008",
+    "type": "expression_figee",
+    "francais": "bout du rouleau",
+    "article": "(être au)",
+    "traductions": [
+      {
+        "alsacien": "àm And seh",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "schiewes",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "bout du rouleau.- (être au) àm And seh, schiewes.",
+      "index": 1008
+    }
+  },
+  {
+    "id": "bout_en_bout_1009",
+    "type": "expression_figee",
+    "francais": "bout en bout",
+    "article": "(de)",
+    "traductions": [
+      {
+        "alsacien": "durchawaag",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "durischewag",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "vu aim And zum àndra",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "bout en bout.- (de) durchawaag, durischewag, vu aim And zum àndra.",
+      "index": 1009
+    }
+  },
+  {
+    "id": "bouteille_d_eau_de_vie_1014",
+    "type": "expression_figee",
+    "francais": "bouteille d'eau de vie",
+    "article": "(la)",
+    "traductions": [
+      {
+        "alsacien": "d'Schnàpsflascha",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "d'Brännwinbudall",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "bouteille d'eau de vie.- (la) d'Schnàpsflascha, d'Brännwinbudall.",
+      "index": 1014
+    }
+  },
+  {
+    "id": "bouteille_de_vin_bouch__1015",
+    "type": "expression_figee",
+    "francais": "bouteille de vin bouché",
+    "article": "(la)",
+    "traductions": [
+      {
+        "alsacien": "d'Butschiarta",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "d'Petschierti",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "bouteille de vin bouché.- (la) d'Butschiarta, d'Petschierti.",
+      "index": 1015
+    }
+  },
+  {
+    "id": "bouteille_consign__1016",
+    "type": "expression_figee",
+    "francais": "bouteille consigné",
+    "article": "(la)",
+    "traductions": [
+      {
+        "alsacien": "d'Pfàndflascha",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "d'Pfàndflàsch",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "bouteille consigné.- (la) d'Pfàndflascha, d'Pfàndflàsch.",
+      "index": 1016
+    }
+  },
+  {
+    "id": "bouteille_d_oxig_ne_1017",
+    "type": "expression_figee",
+    "francais": "bouteille d'oxigène",
+    "article": "(la)",
+    "traductions": [
+      {
+        "alsacien": "d'Sürschtoffflascha",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "bouteille d'oxigène.- (la) d'Sürschtoffflascha.",
+      "index": 1017
+    }
+  },
+  {
+    "id": "bouteille_non_consign_e_1018",
+    "type": "expression_figee",
+    "francais": "bouteille non consignée",
+    "article": "(la)",
+    "traductions": [
+      {
+        "alsacien": "d'Aiwaagsflascha",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "d'Einwajsflàsch",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "bouteille non consignée- (la) d'Aiwaagsflascha, d'Einwajsflàsch.",
+      "index": 1018
+    }
+  },
+  {
+    "id": "bouton___pression_1022",
+    "type": "expression_figee",
+    "francais": "bouton à pression",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "s' Druckknäpfla",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "s'Druckknäpfel",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "bouton à pression.- (le) s' Druckknäpfla, s'Druckknäpfel.",
+      "index": 1022
+    }
+  },
+  {
+    "id": "bouton_d_acn__1023",
+    "type": "expression_figee",
+    "francais": "bouton d'acné",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "d'Büawabiwala",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "s'Böwebiwele",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "bouton d'acné.- (le) d'Büawabiwala, s'Böwebiwele.",
+      "index": 1023
+    }
+  },
+  {
+    "id": "bouton_de_fi_vre_1024",
+    "type": "expression_figee",
+    "francais": "bouton de fièvre",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "s'Fiawerbiwala",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "bouton de fièvre.- (le) s'Fiawerbiwala.",
+      "index": 1024
+    }
+  },
+  {
+    "id": "bouton_de_manchettes_1025",
+    "type": "expression_figee",
+    "francais": "bouton de manchettes",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "d'r Mànschättaknopf",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "s'Müederle",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "d'r Hämdärmelknopf",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "bouton de manchettes.- (le) d'r Mànschättaknopf, s'Müederle, d'r Hämdärmelknopf.",
+      "index": 1025
+    }
+  },
+  {
+    "id": "bouton_de_souris_1026",
+    "type": "expression_figee",
+    "francais": "bouton de souris",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "d'r Mislaknopf",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "de Miselknopf",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "bouton de souris.- (le) d'r Mislaknopf, de Miselknopf.",
+      "index": 1026
+    }
+  },
+  {
+    "id": "bouton_d_or_1027",
+    "type": "expression_figee",
+    "francais": "bouton d'or",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "d'Butterblüma",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "d'Ànkeblöm",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "d'r Hàhnafüas",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "bouton d'or.- (le) d'Butterblüma, d'Ànkeblöm, d'r Hàhnafüas.",
+      "index": 1027
+    }
+  },
+  {
+    "id": "bouton_de_rose_1028",
+    "type": "expression_figee",
+    "francais": "bouton de rose",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "d'r Rosaknopf",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "de Roseknopf",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "bouton de rose.- (le) d'r Rosaknopf, de Roseknopf.",
+      "index": 1028
+    }
+  },
+  {
+    "id": "branchage___petits_pois_1061",
+    "type": "expression_figee",
+    "francais": "branchage à petits pois",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "d'Arbsariser",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "branchage à petits pois.- (le) d'Arbsariser.",
+      "index": 1061
+    }
+  },
+  {
+    "id": "branche_de_sapin_1063",
+    "type": "expression_figee",
+    "francais": "branche de sapin",
+    "article": "(la)",
+    "traductions": [
+      {
+        "alsacien": "d'Tànnariser",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "s'Tànnenäschtel",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "branche de sapin.- (la) d'Tànnariser, s'Tànnenäschtel.",
+      "index": 1063
+    }
+  },
+  {
+    "id": "bras_de_lecture_1075",
+    "type": "expression_figee",
+    "francais": "bras de lecture",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "d'r Toonàrm",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "bras de lecture.- (le) d'r Toonàrm.",
+      "index": 1075
+    }
+  },
+  {
+    "id": "bras_de_levier_1076",
+    "type": "expression_figee",
+    "francais": "bras de levier",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "d'r Hewelàrm",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "bras de levier.- (le) d'r Hewelàrm.",
+      "index": 1076
+    }
+  },
+  {
+    "id": "bras_de_mer_1077",
+    "type": "expression_figee",
+    "francais": "bras de mer",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "d'r Meeresàrm",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "bras de mer.- (le) d'r Meeresàrm.",
+      "index": 1077
+    }
+  },
+  {
+    "id": "bras_ouvert_1079",
+    "type": "expression_figee",
+    "francais": "bras ouvert",
+    "article": "(à)",
+    "traductions": [
+      {
+        "alsacien": "met uffana Arm",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "bras ouvert.- (à) met uffana Arm.",
+      "index": 1079
+    }
+  },
+  {
+    "id": "bras_raccourci_1080",
+    "type": "expression_figee",
+    "francais": "bras raccourci",
+    "article": "(à)",
+    "traductions": [
+      {
+        "alsacien": "met voller Kràft",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "bras raccourci.- (à) met voller Kràft.",
+      "index": 1080
+    }
+  },
+  {
+    "id": "brebis_galeuse_1095",
+    "type": "expression_figee",
+    "francais": "brebis galeuse",
+    "article": "(la)",
+    "traductions": [
+      {
+        "alsacien": "s'Schwàrzaschoof",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "s'Schwàrzescheef",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "brebis galeuse.- (la) s'Schwàrzaschoof, s'Schwàrzescheef.",
+      "index": 1095
+    }
+  },
+  {
+    "id": "bresse_bleue_1104",
+    "type": "expression_figee",
+    "francais": "Bresse bleue",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "d'r Blàuischemmelkas",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "Bresse bleue.- (le) d'r Blàuischemmelkas.",
+      "index": 1104
+    }
+  },
+  {
+    "id": "bretzel_d_or_1107",
+    "type": "expression_figee",
+    "francais": "bretzel d'or",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "s' Guldiga Bratzala",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "s'golde Bratschal",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "bretzel d'or.- (le) s' Guldiga Bratzala, s'golde Bratschal.",
+      "index": 1107
+    }
+  },
+  {
+    "id": "brevet_de_compagnon_1110",
+    "type": "expression_figee",
+    "francais": "brevet de compagnon",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "d' Fàchbriafung",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "d'Fàchpreefung",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "brevet de compagnon.- (le) d' Fàchbriafung, d'Fàchpreefung.",
+      "index": 1110
+    }
+  },
+  {
+    "id": "brevet_de_pilotage_1111",
+    "type": "expression_figee",
+    "francais": "brevet de pilotage",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "d'r Flugschin",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "brevet de pilotage.- (le) d'r Flugschin.",
+      "index": 1111
+    }
+  },
+  {
+    "id": "brevet_de_ma_trise_1112",
+    "type": "expression_figee",
+    "francais": "brevet de maîtrise",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "D'Maischterpriafung",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "d'Mzischterpreefung",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "brevet de maîtrise.- (le) D'Maischterpriafung, d'Mzischterpreefung.",
+      "index": 1112
+    }
+  },
+  {
+    "id": "brevet_des_coll_ges_1113",
+    "type": "expression_figee",
+    "francais": "brevet des collèges",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "d'r Reàlschüala-n-àbschluss",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "de Reàlàbschluss",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "brevet des collèges.- (le) d'r Reàlschüala-n-àbschluss, de Reàlàbschluss.",
+      "index": 1113
+    }
+  },
+  {
+    "id": "bribe_de_conversation_1116",
+    "type": "expression_figee",
+    "francais": "bribe de conversation",
+    "article": "(la)",
+    "traductions": [
+      {
+        "alsacien": "s'Gschpachmäckala",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "s'Gschpräschschteckel",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "bribe de conversation.- (la) s'Gschpachmäckala, s'Gschpräschschteckel.",
+      "index": 1116
+    }
+  },
+  {
+    "id": "bric_et_de_broc_1118",
+    "type": "expression_figee",
+    "francais": "bric et de broc",
+    "article": "(de)",
+    "traductions": [
+      {
+        "alsacien": "zammagschpatelt",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "bric et de broc.- (de) zammagschpatelt.",
+      "index": 1118
+    }
+  },
+  {
+    "id": "brosse___chiendent_1135",
+    "type": "expression_figee",
+    "francais": "brosse à chiendent",
+    "article": "(la)",
+    "traductions": [
+      {
+        "alsacien": "d'Wurzelberschta",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "d'Wurzelbirscht",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "brosse à chiendent.- (la) d'Wurzelberschta, d'Wurzelbirscht.",
+      "index": 1135
+    }
+  },
+  {
+    "id": "brosse___dent_1136",
+    "type": "expression_figee",
+    "francais": "brosse à dent",
+    "article": "(la)",
+    "traductions": [
+      {
+        "alsacien": "s' Zàhnberschtla; d'Zàhnbirschtel",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "brosse à dent.- (la) s' Zàhnberschtla; d'Zàhnbirschtel.",
+      "index": 1136
+    }
+  },
+  {
+    "id": "brosse___habits_1137",
+    "type": "expression_figee",
+    "francais": "brosse à habits",
+    "article": "(la)",
+    "traductions": [
+      {
+        "alsacien": "d' Klaiderberschta",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "d'Kleiderbirscht",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "brosse à habits.- (la) d' Klaiderberschta, d'Kleiderbirscht.",
+      "index": 1137
+    }
+  },
+  {
+    "id": "brosse___souliers_1138",
+    "type": "expression_figee",
+    "francais": "brosse à souliers",
+    "article": "(la)",
+    "traductions": [
+      {
+        "alsacien": "d'Schüaberschta",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "d'Schöhbirscht",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "brosse à souliers.- (la) d'Schüaberschta, d'Schöhbirscht.",
+      "index": 1138
+    }
+  },
+  {
+    "id": "brosse_m_tallique_1139",
+    "type": "expression_figee",
+    "francais": "brosse métallique",
+    "article": "(la)",
+    "traductions": [
+      {
+        "alsacien": "d'Drohtberschta",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "d'Drohtbirschte",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "brosse métallique.- (la) d'Drohtberschta, d'Drohtbirschte.",
+      "index": 1139
+    }
+  },
+  {
+    "id": "brou_de_noix_1142",
+    "type": "expression_figee",
+    "francais": "brou de noix",
+    "article": "(la)",
+    "traductions": [
+      {
+        "alsacien": "d'Laifleta",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "d'Löfelte",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "brou de noix.- (la) d'Laifleta, d'Löfelte.",
+      "index": 1142
+    }
+  },
+  {
+    "id": "brouette___fumier_1144",
+    "type": "expression_figee",
+    "francais": "brouette à fumier",
+    "article": "(la)",
+    "traductions": [
+      {
+        "alsacien": "d'r Meschtkàrra",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "de Mischttrawer",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "brouette à fumier.- (la) d'r Meschtkàrra, de Mischttrawer.",
+      "index": 1144
+    }
+  },
+  {
+    "id": "brouillard_givrant_1147",
+    "type": "expression_figee",
+    "francais": "brouillard givrant",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "d'r Riffa",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "de Roihrif",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "brouillard givrant.- (le) d'r Riffa, de Roihrif.",
+      "index": 1147
+    }
+  },
+  {
+    "id": "la_brouillerie_1151",
+    "type": "expression_figee",
+    "francais": "la brouillerie",
+    "article": "(la)",
+    "traductions": [
+      {
+        "alsacien": "d'r Beker",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "de Bik",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "la brouillerie.- (la) d'r Beker, de Bik.",
+      "index": 1151
+    }
+  },
+  {
+    "id": "bruant_des_roseaux_1162",
+    "type": "expression_figee",
+    "francais": "bruant des roseaux",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "d'r Rohrschpàtz",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "d'r Rohràmmer",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "bruant des roseaux.- (le) d'r Rohrschpàtz, d'r Rohràmmer.",
+      "index": 1162
+    }
+  },
+  {
+    "id": "bruant_jaune_1163",
+    "type": "expression_figee",
+    "francais": "bruant jaune",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "d'r Gahlàmmer",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "d'r Guldàmmer",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "bruant jaune.- (le) d'r Gahlàmmer, d'r Guldàmmer.",
+      "index": 1163
+    }
+  },
+  {
+    "id": "bruit_d_aspiration_1168",
+    "type": "expression_figee",
+    "francais": "bruit d'aspiration",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "s'Schlurpfa",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "s'Zurpfe",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "bruit d'aspiration.- (le) s'Schlurpfa, s'Zurpfe.",
+      "index": 1168
+    }
+  },
+  {
+    "id": "bruit_de_cha_nes_1169",
+    "type": "expression_figee",
+    "francais": "bruit de chaînes",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "s'rossla s'ràssle",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "bruit de chaînes.- (le) s'rossla s'ràssle.",
+      "index": 1169
+    }
+  },
+  {
+    "id": "bruit_d_enfer_1170",
+    "type": "expression_figee",
+    "francais": "bruit d'enfer",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "d'r Hällakràch",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "de Heideschpetàckel",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "bruit d'enfer. (le) d'r Hällakràch, de Heideschpetàckel.",
+      "index": 1170
+    }
+  },
+  {
+    "id": "bruit_de_fond_1171",
+    "type": "expression_figee",
+    "francais": "bruit de fond",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "s'Rümora",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "s'Rümore",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "bruit de fond.- (le) s'Rümora, s'Rümore.",
+      "index": 1171
+    }
+  },
+  {
+    "id": "bruit_de_mastication_1172",
+    "type": "expression_figee",
+    "francais": "bruit de mastication",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "s'Knatscha",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "s'Ratsche",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "bruit de mastication.- (le) s'Knatscha, s'Ratsche.",
+      "index": 1172
+    }
+  },
+  {
+    "id": "br_lure_d_estomac_1183",
+    "type": "expression_figee",
+    "francais": "brûlure d'estomac",
+    "article": "(la)",
+    "traductions": [
+      {
+        "alsacien": "s'Màgabränna",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "brûlure d'estomac.- (la) s'Màgabränna.",
+      "index": 1183
+    }
+  },
+  {
+    "id": "brume_matinale_1186",
+    "type": "expression_figee",
+    "francais": "brume matinale",
+    "article": "(la)",
+    "traductions": [
+      {
+        "alsacien": "d'r Friajnawel",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "de Freinäwwel",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "brume matinale.- (la) d'r Friajnawel, de Freinäwwel.",
+      "index": 1186
+    }
+  },
+  {
+    "id": "bubon_pestilenciel_1200",
+    "type": "expression_figee",
+    "francais": "bubon pestilenciel",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "d'Päschtbihla",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "bubon pestilenciel.- (le) d'Päschtbihla.",
+      "index": 1200
+    }
+  },
+  {
+    "id": "buffet_de_cuisine_1211",
+    "type": "expression_figee",
+    "francais": "buffet de cuisine",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "s' Kuchakanschterla",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "s'Kischekanschterle",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "buffet de cuisine.- (le) s' Kuchakanschterla, s'Kischekanschterle.",
+      "index": 1211
+    }
+  },
+  {
+    "id": "buffet_de_la_gare_1212",
+    "type": "expression_figee",
+    "francais": "buffet de la gare",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "d'Bàhnhofgàschtschtätta",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "de Bàhnhofbüffe",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "buffet de la gare.- (le) d'Bàhnhofgàschtschtätta, de Bàhnhofbüffe.",
+      "index": 1212
+    }
+  },
+  {
+    "id": "buffet_d_orgue_1213",
+    "type": "expression_figee",
+    "francais": "buffet d'orgue",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "d'Orgelbehna",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "d'Orjelbehne",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "buffet d'orgue.- (le) d'Orgelbehna, d'Orjelbehne.",
+      "index": 1213
+    }
+  },
+  {
+    "id": "bulletin_d_information_1221",
+    "type": "expression_figee",
+    "francais": "bulletin d'information",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "d'Nochrechta",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "d'Nochrescht",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "bulletin d'information.- (le) d'Nochrechta, d'Nochrescht.",
+      "index": 1221
+    }
+  },
+  {
+    "id": "bureau_de_change_1226",
+    "type": "expression_figee",
+    "francais": "bureau de change",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "d'Wackselschtuwa",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "bureau de change.- (le) d'Wackselschtuwa.",
+      "index": 1226
+    }
+  },
+  {
+    "id": "bureau_d__tat_civil_1227",
+    "type": "expression_figee",
+    "francais": "bureau d'état civil",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "s'Schtàndesàmt",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "bureau d'état civil.- (le) s'Schtàndesàmt.",
+      "index": 1227
+    }
+  },
+  {
+    "id": "bureau_des_objets_trouv_s_1228",
+    "type": "expression_figee",
+    "francais": "bureau des objets trouvés",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "s'Fundbüro",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "bureau des objets trouvés.- (le) s'Fundbüro.",
+      "index": 1228
+    }
+  },
+  {
+    "id": "bureau_de_poste_1229",
+    "type": "expression_figee",
+    "francais": "bureau de poste",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "s'Poschtàmt",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "bureau de poste.- (le) s'Poschtàmt.",
+      "index": 1229
+    }
+  },
+  {
+    "id": "bureau_de_renseignements_1230",
+    "type": "expression_figee",
+    "francais": "bureau de renseignements",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "s'Üskunftbüro",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "bureau de renseignements.- (le) s'Üskunftbüro.",
+      "index": 1230
+    }
+  },
+  {
+    "id": "bureau_de_tabac_1231",
+    "type": "expression_figee",
+    "francais": "bureau de tabac",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "d'r Tüwàklààda",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "bureau de tabac.- (le) d'r Tüwàklààda.",
+      "index": 1231
+    }
+  },
+  {
+    "id": "buveur_inv_t_r__1252",
+    "type": "expression_figee",
+    "francais": "buveur invétéré",
+    "article": "(le)",
+    "traductions": [
+      {
+        "alsacien": "d'r Gschtiffsüffer",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      },
+      {
+        "alsacien": "d'r Lump",
+        "variante": "",
+        "niveau": "",
+        "region": "",
+        "note": ""
+      }
+    ],
+    "contexte": "",
+    "tags": [],
+    "source": {
+      "ligne": "buveur invétéré.- (le) d'r Gschtiffsüffer, d'r Lump.",
+      "index": 1252
+    }
+  }
+]

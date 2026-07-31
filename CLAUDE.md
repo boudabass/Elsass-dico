@@ -52,8 +52,10 @@ alsacien publié sous cette marque serait un vrai problème.
    casse le build (ERR_PNPM_IGNORED_BUILDS sur sharp). Pinner la version.
 3. Les variables NEXT_PUBLIC_* doivent être passées en build args, sinon le
    build échoue sur "Missing Supabase environment variables".
-4. src/integrations/supabase/client.ts contient une URL et une clé anon Supabase
-   en dur, en fallback silencieux. À supprimer.
+4. Une URL et une clé anon Supabase en dur, en fallback silencieux, étaient
+   répétées dans src/integrations/supabase/client.ts,
+   src/app/actions/auth.ts, src/utils/supabase/middleware.ts et
+   src/utils/supabase/server.ts. À supprimer partout.
 5. middleware.ts à la racine est du code mort, c'est src/middleware.ts qui est
    actif. Résidus du projet game-4 dans .dockerignore et le Dockerfile.
 

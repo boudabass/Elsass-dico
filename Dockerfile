@@ -1,8 +1,8 @@
 # Stage 1: Build the Next.js application
 FROM node:20-alpine AS builder
 
-# Install pnpm
-RUN corepack enable && corepack prepare pnpm@latest --activate
+# Install pnpm (version pinnée : compatible avec lockfileVersion 9.0 du pnpm-lock.yaml)
+RUN corepack enable && corepack prepare pnpm@10.33.2 --activate
 
 WORKDIR /app
 
@@ -37,7 +37,7 @@ ENV PORT=3000
 WORKDIR /app
 
 # Install pnpm in production stage too (optional for running scripts, but good practice)
-RUN corepack enable && corepack prepare pnpm@latest --activate
+RUN corepack enable && corepack prepare pnpm@10.33.2 --activate
 
 # Create volume mount points with correct permissions
 RUN mkdir -p /app/data && mkdir -p /app/public/games

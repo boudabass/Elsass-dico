@@ -16,8 +16,8 @@ export async function updateSession(request: NextRequest) {
     })
 
     const supabase = createServerClient(
-        SUPABASE_URL,
-        SUPABASE_ANON_KEY,
+        SUPABASE_URL!,
+        SUPABASE_ANON_KEY!,
         {
             cookies: {
                 getAll() {

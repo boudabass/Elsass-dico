@@ -15,8 +15,8 @@ export async function signOutAction() {
     const cookieStore = await cookies()
 
     const supabase = createServerClient(
-        SUPABASE_URL,
-        SUPABASE_ANON_KEY,
+        SUPABASE_URL!,
+        SUPABASE_ANON_KEY!,
         {
             cookies: {
                 get(name: string) {

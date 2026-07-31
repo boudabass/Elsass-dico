@@ -39,9 +39,6 @@ WORKDIR /app
 # Install pnpm in production stage too (optional for running scripts, but good practice)
 RUN corepack enable && corepack prepare pnpm@10.33.2 --activate
 
-# Create volume mount points with correct permissions
-RUN mkdir -p /app/data && mkdir -p /app/public/games
-
 # Copy only necessary files from the builder stage
 COPY --from=builder /app/.next ./.next
 COPY --from=builder /app/node_modules ./node_modules

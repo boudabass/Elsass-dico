@@ -63,6 +63,21 @@ alsacien publié sous cette marque serait un vrai problème.
 
 Coolify self-hosted v4.1.2 sur VPS OVH. Supabase self-hosted à déployer dessus.
 
+## Décisions prises
+
+- Modèle de données à deux niveaux retenu : attestations brutes par source,
+  puis entrees dérivées par recoupement. Le schéma à 4 tables plates de la
+  doc initiale est abandonné.
+- Déploiement : GitHub Actions construit l'image et la publie sur
+  ghcr.io/boudabass/elsass-dico. Coolify tire l'image, il ne build pas. Les
+  NEXT_PUBLIC_* sont gravées dans l'image au build, donc elles vivent dans
+  les secrets GitHub. SUPABASE_SERVICE_ROLE_KEY est une variable runtime
+  dans Coolify uniquement.
+- Domaine : dico.theelsassisch.fr
+- Prochaine étape après la migration : ingérer les 7260 entrées du dossier
+  Dictionnaire dans attestations avec la source culture_alsace. Elles ne
+  doivent jamais alimenter entrees directement.
+
 ## Règles de travail
 
 - Ne jamais inventer de traduction alsacienne, même pour un exemple ou un test.

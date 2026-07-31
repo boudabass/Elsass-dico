@@ -1,6 +1,6 @@
 services:
   web:
-    image: ghcr.io/boudabass/game-4:latest
+    image: ghcr.io/boudabass/elsass-dico:latest
     container_name: next-boilerplate
     ports:
       - "3000:3000"

@@ -1,6 +1,6 @@
 # Elsass Dico
 
-Traducteur français/alsacien, publié sur dico.theelsassisch.com, adossé à la
+Traducteur français/alsacien, publié sur dico.theelsassisch.fr, adossé à la
 marque The Elsassisch. La crédibilité linguistique est critique : du faux
 alsacien publié sous cette marque serait un vrai problème.
 

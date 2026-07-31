@@ -9,10 +9,6 @@ services:
     container_name: next-boilerplate
     ports:
       - "3000:3000"
-    volumes:
-      # VOLUME PERSISTANT UNIQUE POUR LES DONNÉES (db.json et fichiers uploadés)
-      - ./data/storage:/app/data/storage
-
     environment:
       NODE_ENV: production
       # Les variables Supabase doivent être définies dans l'UI Dyad ou le .env

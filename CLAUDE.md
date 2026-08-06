@@ -30,8 +30,12 @@ alsacien publié sous cette marque serait un vrai problème.
 
 - Le front est un boilerplate Dyad intact, zéro code métier. La landing affiche
   "Template Next.js Boilerplate".
-- Aucune table dictionnaire dans supabase/migrations, seulement profiles et
-  app_settings. Pas de pg_trgm ni unaccent malgré ce qu'annonce le README.
+- Le schéma dictionnaire existe depuis
+  supabase/migrations/20260731120000_schema_dictionnaire.sql : tables
+  sources, attestations, entrees, entree_attestations, avec pg_trgm et
+  unaccent. Aucune donnée n'y est encore chargée — l'ingestion des 7260
+  entrées du dossier Dictionnaire vers attestations reste à faire (cf.
+  Décisions prises).
 - Le dossier Dictionnaire contient 7260 entrées (lettres A à D), mais c'est un
   scrape mot pour mot d'une source unique : culture.alsace.pagesperso-orange.fr,
   dont le miroir est commité dans temp_page_af.html. Cela viole la règle 2. À

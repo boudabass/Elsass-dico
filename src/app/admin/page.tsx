@@ -16,7 +16,8 @@ import {
   generateRecoveryLinkAction
 } from "@/app/actions/user-management";
 import { User } from "@supabase/supabase-js";
-import { Trash2, Users, UserPlus, Shield, ShieldCheck, Loader2, Copy, KeyRound } from "lucide-react";
+import { Trash2, Users, UserPlus, Loader2, Copy, KeyRound } from "lucide-react";
+import { ROLES_AUTORISES, LIBELLES_ROLE } from "@/lib/roles";
 
 export default function AdminPage() {
   const { user, role, isLoading } = useAuth();
@@ -89,8 +90,9 @@ export default function AdminPage() {
               <Select name="role" defaultValue="user">
                 <SelectTrigger><SelectValue /></SelectTrigger>
                 <SelectContent>
-                  <SelectItem value="user">Utilisateur</SelectItem>
-                  <SelectItem value="admin">Administrateur</SelectItem>
+                  {ROLES_AUTORISES.map((role) => (
+                    <SelectItem key={role} value={role}>{LIBELLES_ROLE[role]}</SelectItem>
+                  ))}
                 </SelectContent>
               </Select>
             </div>
@@ -143,18 +145,24 @@ export default function AdminPage() {
                       <tr key={u.id} className="hover:bg-slate-50">
                         <td className="p-3">{u.email}</td>
                         <td className="p-3">
-                          <span className={`inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-xs font-medium ${currentRole === 'admin' ? 'bg-purple-100 text-purple-700' : 'bg-blue-100 text-blue-700'}`}>
-                            {currentRole === 'admin' ? <ShieldCheck className="w-3 h-3" /> : <Shield className="w-3 h-3" />}
-                            {currentRole}
-                          </span>
+                          <Select
+                            value={currentRole}
+                            onValueChange={async (nouveauRole) => {
+                              if (nouveauRole === currentRole) return;
+                              const res = await updateUserRoleAction(u.id, nouveauRole);
+                              if (res.success) { toast.success(res.message); refreshUsers(); }
+                              else { toast.error(res.error); }
+                            }}
+                          >
+                            <SelectTrigger className="w-44"><SelectValue /></SelectTrigger>
+                            <SelectContent>
+                              {ROLES_AUTORISES.map((role) => (
+                                <SelectItem key={role} value={role}>{LIBELLES_ROLE[role]}</SelectItem>
+                              ))}
+                            </SelectContent>
+                          </Select>
                         </td>
                         <td className="p-3 text-right space-x-2">
-                          <Button variant="outline" size="sm" onClick={async () => {
-                            const newRole = currentRole === 'admin' ? 'user' : 'admin';
-                            const res = await updateUserRoleAction(u.id, newRole);
-                            if (res.success) { toast.success(res.message); refreshUsers(); }
-                            else { toast.error(res.error); }
-                          }}>Rôle</Button>
                           <Button variant="outline" size="sm" title="Générer un lien de réinitialisation" onClick={async () => {
                             const res = await generateRecoveryLinkAction(u.email!);
                             if (res.success) {

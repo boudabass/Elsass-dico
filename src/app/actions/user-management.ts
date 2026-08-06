@@ -2,6 +2,7 @@
 
 import { createAdminClient } from "@/utils/supabase/admin"
 import { requireAdmin } from "@/utils/supabase/require-admin"
+import { estRoleValide } from "@/lib/roles"
 import { revalidatePath } from "next/cache"
 import { headers } from "next/headers"
 
@@ -62,6 +63,10 @@ export async function inviteUserAction(formData: FormData): Promise<ResultatLien
 
     if (!email) {
         return { success: false, error: "Email requis" }
+    }
+
+    if (!estRoleValide(role)) {
+        return { success: false, error: `Rôle inconnu : ${role}` }
     }
 
     const supabase = createAdminClient()
@@ -133,6 +138,12 @@ export async function deleteUserAction(userId: string) {
 export async function updateUserRoleAction(userId: string, role: string) {
     const guard = await requireAdmin()
     if (!guard.authorized) return { success: false, error: guard.error }
+
+    // La contrainte en base rejetterait déjà une valeur inconnue, mais un refus
+    // explicite ici donne un message clair plutôt qu'une erreur Postgres brute.
+    if (!estRoleValide(role)) {
+        return { success: false, error: `Rôle inconnu : ${role}` }
+    }
 
     const supabase = createAdminClient()
 

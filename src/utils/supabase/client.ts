@@ -7,21 +7,14 @@ if (!SUPABASE_URL || !SUPABASE_ANON_KEY) {
     throw new Error('Missing Supabase environment variables');
 }
 
+// Le verrou navigator.locks par défaut est conservé : il synchronise le
+// rafraîchissement de session entre onglets. Il avait été neutralisé le
+// 06/08/2026 pour débloquer des pages figées sur "Chargement...", mais la
+// cause réelle était ailleurs — un appel Supabase à l'intérieur du callback
+// onAuthStateChange, qui s'attendait lui-même (cf. auth-provider.tsx).
 export function createClient() {
     return createBrowserClient(
         SUPABASE_URL!,
         SUPABASE_ANON_KEY!,
-        {
-            auth: {
-                // Le verrou navigator.locks par défaut sert à synchroniser le
-                // rafraîchissement de session entre onglets. En pratique il
-                // peut rester bloqué (onglet précédent non refermé proprement)
-                // et fait alors pendre indéfiniment getSession()/getUser(),
-                // sans même émettre de requête réseau. On le désactive : le
-                // coût (rafraîchissements concurrents entre onglets) est
-                // largement inférieur au risque de page bloquée sur "Chargement...".
-                lock: (_name, _acquireTimeout, fn) => fn(),
-            },
-        }
     )
 }

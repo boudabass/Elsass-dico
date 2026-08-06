@@ -35,32 +35,37 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
   useEffect(() => {
     // Initialisation au montage - récupérer la session existante
     const initializeAuth = async () => {
-      const { data: { session } } = await supabase.auth.getSession();
-      if (session?.user) {
-        setSession(session);
-        setUser(session.user);
+      try {
+        const { data: { session } } = await supabase.auth.getSession();
+        if (session?.user) {
+          setSession(session);
+          setUser(session.user);
 
-        // Récupérer le rôle depuis profiles
-        try {
-          const { data: profile, error } = await supabase
-            .from("profiles")
-            .select("role")
-            .eq("id", session.user.id)
-            .single();
+          // Récupérer le rôle depuis profiles
+          try {
+            const { data: profile, error } = await supabase
+              .from("profiles")
+              .select("role")
+              .eq("id", session.user.id)
+              .single();
 
-          if (error) {
-            console.warn("[Auth] Profile fetch error on init:", error.message);
+            if (error) {
+              console.warn("[Auth] Profile fetch error on init:", error.message);
+              setRole("user");
+            } else {
+              setRole(profile?.role ?? "user");
+              console.log(`[Auth] Initial role: ${profile?.role ?? "user"}`);
+            }
+          } catch (err) {
+            console.error("[Auth] Unexpected profile error on init:", err);
             setRole("user");
-          } else {
-            setRole(profile?.role ?? "user");
-            console.log(`[Auth] Initial role: ${profile?.role ?? "user"}`);
           }
-        } catch (err) {
-          console.error("[Auth] Unexpected profile error on init:", err);
-          setRole("user");
         }
+      } catch (err) {
+        console.error("[Auth] getSession failed on init:", err);
+      } finally {
+        setIsLoading(false);
       }
-      setIsLoading(false);
     };
 
     initializeAuth();

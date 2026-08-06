@@ -3,8 +3,8 @@
 import { createAdminClient } from "@/utils/supabase/admin"
 import { requireAdmin } from "@/utils/supabase/require-admin"
 import { estRoleValide } from "@/lib/roles"
+import { urlDuSite } from "@/lib/site-url"
 import { revalidatePath } from "next/cache"
-import { headers } from "next/headers"
 
 // Union discriminée explicite : sans elle, l'inférence rend `lien` optionnel
 // côté appelant et le typage du composant admin ne tient plus.
@@ -18,10 +18,8 @@ type ResultatLien =
 // seul schéma fiable en rendu serveur. Le jour où le SMTP sera configuré,
 // les gabarits d'e-mail Supabase pointeront vers cette même route.
 async function construireLienConfirmation(tokenHash: string, type: 'invite' | 'recovery') {
-    const entetes = await headers()
-    const protocole = entetes.get('x-forwarded-proto') ?? 'https'
-    const hote = entetes.get('x-forwarded-host') ?? entetes.get('host')
-    return `${protocole}://${hote}/auth/confirm?token_hash=${tokenHash}&type=${type}&next=/set-password`
+    const base = await urlDuSite()
+    return `${base}/auth/confirm?token_hash=${tokenHash}&type=${type}&next=/set-password`
 }
 
 export async function getUsersAction() {

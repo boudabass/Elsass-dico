@@ -1,4 +1,5 @@
 import { createClient } from '@/utils/supabase/server'
+import { urlDuSite } from '@/lib/site-url'
 import { type EmailOtpType } from '@supabase/supabase-js'
 import { NextResponse, type NextRequest } from 'next/server'
 
@@ -12,14 +13,9 @@ export async function GET(request: NextRequest) {
     const type = searchParams.get('type') as EmailOtpType | null
     const next = searchParams.get('next') ?? '/dashboard'
 
-    // Derrière le proxy Coolify, request.url porte l'adresse interne
-    // (localhost:3000) et non l'URL publique : une redirection calculée à
-    // partir de lui envoie l'utilisateur sur localhost. On reconstruit donc
-    // la base depuis les en-têtes transmis par le proxy.
-    const enTetes = request.headers
-    const protocole = enTetes.get('x-forwarded-proto') ?? 'https'
-    const hote = enTetes.get('x-forwarded-host') ?? enTetes.get('host')
-    const base = `${protocole}://${hote}`
+    // Surtout pas request.url : derrière le proxy Coolify il porte l'adresse
+    // interne (localhost:3000) et non l'URL publique.
+    const base = await urlDuSite()
 
     if (!token_hash || !type) {
         return NextResponse.redirect(new URL('/login?erreur=lien_invalide', base))

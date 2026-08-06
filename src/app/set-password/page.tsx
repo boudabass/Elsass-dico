@@ -1,7 +1,6 @@
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
-import { useRouter } from "next/navigation";
 import { createClient } from "@/utils/supabase/client";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -14,7 +13,6 @@ const LONGUEUR_MINIMALE = 8;
 
 export default function SetPasswordPage() {
     const supabase = useMemo(() => createClient(), []);
-    const router = useRouter();
     const [motDePasse, setMotDePasse] = useState("");
     const [confirmation, setConfirmation] = useState("");
     const [enCours, setEnCours] = useState(false);
@@ -41,16 +39,25 @@ export default function SetPasswordPage() {
         }
 
         setEnCours(true);
-        const { error } = await supabase.auth.updateUser({ password: motDePasse });
-        setEnCours(false);
+        try {
+            const { error } = await supabase.auth.updateUser({ password: motDePasse });
 
-        if (error) {
-            toast.error(error.message);
-            return;
+            if (error) {
+                console.error("[SetPassword] updateUser a échoué:", error);
+                toast.error(error.message);
+                return;
+            }
+
+            toast.success("Mot de passe enregistré.");
+            // Navigation complète : AuthProvider ne relit la session qu'au
+            // montage, une navigation douce le laisserait sur un état périmé.
+            window.location.href = "/dashboard";
+        } catch (erreur) {
+            console.error("[SetPassword] Erreur inattendue:", erreur);
+            toast.error("Enregistrement impossible, réessayez.");
+        } finally {
+            setEnCours(false);
         }
-
-        toast.success("Mot de passe enregistré.");
-        router.push("/dashboard");
     };
 
     if (sessionValide === null) {

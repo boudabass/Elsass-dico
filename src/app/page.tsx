@@ -2,7 +2,7 @@
 
 import { useAuth } from "@/components/auth-provider";
 import { Button } from "@/components/ui/button";
-import { Rocket, ArrowRight, LayoutDashboard, Database, Shield } from "lucide-react";
+import { ArrowRight, LayoutDashboard, CheckCircle2, BookOpenCheck } from "lucide-react";
 import Link from "next/link";
 
 export default function LandingPage() {
@@ -14,12 +14,13 @@ export default function LandingPage() {
 
       <div className="relative z-10 space-y-8 max-w-3xl">
         <h1 className="text-5xl md:text-7xl font-black tracking-tight leading-tight">
-          Template <br />
-          <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 to-cyan-400">Next.js Boilerplate</span>
+          Elsass Dico <br />
+          <span className="text-indigo-400">Français ⇄ Alsacien</span>
         </h1>
         <p className="text-lg md:text-xl text-slate-400 leading-relaxed">
-          Un point de départ propre incluant : Supabase Auth, Base de données PostgreSQL avec RLS,
-          Dashboard Admin, et déploiement Docker prêt pour la production.
+          Le dictionnaire du projet The Elsassisch. Chaque traduction est retenue par recoupement
+          de plusieurs sources indépendantes puis validée à la main avant publication — jamais
+          générée par une IA.
         </p>
 
         <div className="flex flex-wrap items-center justify-center gap-4 pt-4">
@@ -40,14 +41,18 @@ export default function LandingPage() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-12 text-left">
           <div className="p-4 rounded-xl border border-white/5 bg-white/5">
-            <Shield className="w-6 h-6 text-indigo-400 mb-2" />
-            <h3 className="font-bold">Auth Supabase</h3>
-            <p className="text-sm text-slate-400">Gestion des comptes et rôles (User/Admin) déjà configurée.</p>
+            <CheckCircle2 className="w-6 h-6 text-indigo-400 mb-2" />
+            <h3 className="font-bold">Recoupement, pas génération</h3>
+            <p className="text-sm text-slate-400">
+              Aucune entrée n'est retenue si elle n'est attestée que dans une seule source.
+            </p>
           </div>
           <div className="p-4 rounded-xl border border-white/5 bg-white/5">
-            <Database className="w-6 h-6 text-cyan-400 mb-2" />
-            <h3 className="font-bold">Supabase Database</h3>
-            <p className="text-sm text-slate-400">PostgreSQL avec Row Level Security et migrations intégrées.</p>
+            <BookOpenCheck className="w-6 h-6 text-cyan-400 mb-2" />
+            <h3 className="font-bold">Graphie ORTHAL 2023</h3>
+            <p className="text-sm text-slate-400">
+              Chaque entrée validée est réécrite selon la norme de l'association AGATE.
+            </p>
           </div>
         </div>
       </div>

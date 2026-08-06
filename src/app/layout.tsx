@@ -16,8 +16,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Next.js Boilerplate",
-  description: "Supabase + Docker Starter",
+  title: "Elsass Dico — Traducteur français-alsacien",
+  description:
+    "Dictionnaire français-alsacien construit par recoupement de sources indépendantes, en graphie ORTHAL. Un projet de The Elsassisch.",
 };
 
 export default function RootLayout({

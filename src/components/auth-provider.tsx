@@ -31,77 +31,28 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
   const [isLoading, setIsLoading] = useState(true);
   const router = useRouter();
   const supabase = useMemo(() => createClient(), []);
+  const userId = user?.id ?? null;
 
   useEffect(() => {
-    // Initialisation au montage - récupérer la session existante
-    const initializeAuth = async () => {
-      try {
-        const { data: { session } } = await supabase.auth.getSession();
-        if (session?.user) {
-          setSession(session);
-          setUser(session.user);
-
-          // Récupérer le rôle depuis profiles
-          try {
-            const { data: profile, error } = await supabase
-              .from("profiles")
-              .select("role")
-              .eq("id", session.user.id)
-              .single();
-
-            if (error) {
-              console.warn("[Auth] Profile fetch error on init:", error.message);
-              setRole("user");
-            } else {
-              setRole(profile?.role ?? "user");
-              console.log(`[Auth] Initial role: ${profile?.role ?? "user"}`);
-            }
-          } catch (err) {
-            console.error("[Auth] Unexpected profile error on init:", err);
-            setRole("user");
-          }
-        }
-      } catch (err) {
-        console.error("[Auth] getSession failed on init:", err);
-      } finally {
-        setIsLoading(false);
-      }
-    };
-
-    initializeAuth();
-
-    // Écouter les changements d'état d'authentification
+    // Ce callback DOIT rester synchrone et ne faire aucun appel Supabase.
+    // Le client attend sa résolution avant de rendre la main : une requête
+    // lancée ici attendrait la fin de l'opération en cours, qui attend
+    // elle-même ce callback. Symptôme observé en production : updateUser()
+    // ne retournait jamais et le bouton restait bloqué. Le rôle est donc
+    // chargé plus bas, dans un effet séparé.
+    //
+    // INITIAL_SESSION est émis dès l'abonnement, y compris sans session : il
+    // sert d'initialisation, aucun getSession() supplémentaire n'est requis.
     const {
       data: { subscription },
-    } = supabase.auth.onAuthStateChange(async (event, session) => {
+    } = supabase.auth.onAuthStateChange((event, session) => {
       console.log(`[Auth] Event: ${event} | Session: ${session ? 'Active' : 'None'}`);
+
       setSession(session);
       setUser(session?.user ?? null);
-
-      if (session?.user) {
-        // Récupérer le rôle depuis profiles
-        try {
-          const { data: profile, error } = await supabase
-            .from("profiles")
-            .select("role")
-            .eq("id", session.user.id)
-            .single();
-
-          if (error) {
-            console.warn("[Auth] Profile fetch error:", error.message);
-            setRole("user");
-          } else {
-            setRole(profile?.role ?? "user");
-            console.log(`[Auth] Role set: ${profile?.role ?? "user"}`);
-          }
-        } catch (err) {
-          console.error("[Auth] Unexpected profile error:", err);
-          setRole("user");
-        }
-      } else {
+      if (!session?.user) {
         setRole(null);
       }
-
       setIsLoading(false);
 
       if (event === 'SIGNED_OUT') {
@@ -113,6 +64,43 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
       subscription.unsubscribe();
     };
   }, [supabase, router]);
+
+  useEffect(() => {
+    if (!userId) return;
+
+    let annule = false;
+
+    const chargerRole = async () => {
+      try {
+        const { data: profile, error } = await supabase
+          .from("profiles")
+          .select("role")
+          .eq("id", userId)
+          .single();
+
+        if (annule) return;
+
+        if (error) {
+          console.warn("[Auth] Profile fetch error:", error.message);
+          setRole("user");
+        } else {
+          setRole(profile?.role ?? "user");
+          console.log(`[Auth] Role set: ${profile?.role ?? "user"}`);
+        }
+      } catch (err) {
+        if (!annule) {
+          console.error("[Auth] Unexpected profile error:", err);
+          setRole("user");
+        }
+      }
+    };
+
+    chargerRole();
+
+    return () => {
+      annule = true;
+    };
+  }, [supabase, userId]);
 
   const signOut = async () => {
     // Calls the Server Action to clear HttpOnly cookies and redirect

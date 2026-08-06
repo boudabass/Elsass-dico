@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { cn } from "@/lib/utils";
-import { Rocket, LayoutDashboard } from "lucide-react";
+import { Languages, LayoutDashboard } from "lucide-react";
 import { useAuth } from "@/components/auth-provider";
 
 export function MainNav({
@@ -22,7 +22,7 @@ export function MainNav({
                 href={user ? "/dashboard" : "/"}
                 className="flex items-center gap-2 font-bold text-lg mr-4 text-primary hover:opacity-80 transition-opacity"
             >
-                <Rocket className="w-6 h-6 text-indigo-500" /> AppTemplate
+                <Languages className="w-6 h-6 text-indigo-500" /> Elsass Dico
             </Link>
 
             {user && (

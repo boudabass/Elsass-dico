@@ -48,21 +48,6 @@ alsacien publié sous cette marque serait un vrai problème.
 - scripts/import_existing.py insère dans des tables qui n'existent pas et
   n'implémente aucune règle de la doctrine.
 
-## Blocages déploiement identifiés
-
-1. docker-compose.yml pointe vers ghcr.io/boudabass/game-4:latest, l'image d'un
-   autre projet.
-2. Le Dockerfile fait "corepack prepare pnpm@latest", non déterministe, ce qui
-   casse le build (ERR_PNPM_IGNORED_BUILDS sur sharp). Pinner la version.
-3. Les variables NEXT_PUBLIC_* doivent être passées en build args, sinon le
-   build échoue sur "Missing Supabase environment variables".
-4. Une URL et une clé anon Supabase en dur, en fallback silencieux, étaient
-   répétées dans src/integrations/supabase/client.ts,
-   src/app/actions/auth.ts, src/utils/supabase/middleware.ts et
-   src/utils/supabase/server.ts. À supprimer partout.
-5. middleware.ts à la racine est du code mort, c'est src/middleware.ts qui est
-   actif. Résidus du projet game-4 dans .dockerignore et le Dockerfile.
-
 ## Infra
 
 Coolify self-hosted v4.1.2 sur VPS OVH. Supabase self-hosted à déployer dessus.
@@ -72,11 +57,15 @@ Coolify self-hosted v4.1.2 sur VPS OVH. Supabase self-hosted à déployer dessus
 - Modèle de données à deux niveaux retenu : attestations brutes par source,
   puis entrees dérivées par recoupement. Le schéma à 4 tables plates de la
   doc initiale est abandonné.
-- Déploiement : GitHub Actions construit l'image et la publie sur
-  ghcr.io/boudabass/elsass-dico. Coolify tire l'image, il ne build pas. Les
-  NEXT_PUBLIC_* sont gravées dans l'image au build, donc elles vivent dans
-  les secrets GitHub. SUPABASE_SERVICE_ROLE_KEY est une variable runtime
-  dans Coolify uniquement.
+- Déploiement (révisé le 06/08/2026) : Coolify build directement depuis le
+  repo GitHub (Dockerfile, branche main), même mode que elsass-game —
+  redeploy automatique à chaque push, sans étape intermédiaire. Remplace
+  l'ancien pipeline GitHub Actions -> ghcr.io (image "pull-only"), abandonné
+  parce qu'il n'offrait pas de redeploy automatique sans webhook manuel. Les
+  NEXT_PUBLIC_* sont des Build Variables Coolify (gravées dans l'image par
+  Coolify lui-même, pas par GitHub Actions). SUPABASE_SERVICE_ROLE_KEY reste
+  une variable runtime Coolify uniquement, jamais marquée disponible au
+  build.
 - Domaine : dico.theelsassisch.fr
 - Prochaine étape après la migration : ingérer les 7260 entrées du dossier
   Dictionnaire dans attestations avec la source culture_alsace. Elles ne

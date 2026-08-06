@@ -67,6 +67,20 @@ Coolify self-hosted v4.1.2 sur VPS OVH. Supabase self-hosted à déployer dessus
   une variable runtime Coolify uniquement, jamais marquée disponible au
   build.
 - Domaine : dico.theelsassisch.fr
+- Authentification (06/08/2026) : Odoo est l'autorité sur les mots de passe,
+  Supabase reste l'autorité sur les sessions et les rôles. Le login vérifie
+  les identifiants portail via un POST JSON-RPC sur
+  /web/session/authenticate, puis ouvre une vraie session Supabase
+  (generateLink + verifyOtp côté serveur) : la RLS, profiles et
+  requireAdmin() fonctionnent inchangés. profiles.odoo_uid relie les deux
+  annuaires. Le modèle d'elsass-game (cookie HMAC maison, PostgreSQL sans
+  RLS, admin dérivé d'ADMIN_UID) a été écarté ici : la RLS du dico est
+  porteuse et non décorative, et il faut trois rôles, pas un booléen. Une
+  connexion de secours par mot de passe Supabase reste disponible si Odoo
+  est injoignable.
+- Rôles : user, contributeur, admin. Un contributeur propose et corrige mais
+  ne valide pas — le passage à statut='valide' reste réservé aux admins
+  (règle 4).
 - Prochaine étape après la migration : ingérer les 7260 entrées du dossier
   Dictionnaire dans attestations avec la source culture_alsace. Elles ne
   doivent jamais alimenter entrees directement.

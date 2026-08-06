@@ -97,6 +97,24 @@ CREATE INDEX idx_attestations_francais_trgm
 -- TABLE entrees — l'entrée retenue après recoupement, en Orthal
 -- ============================================
 
+-- Une contrainte CHECK ne peut pas contenir de sous-requête directement
+-- (erreur Postgres 0A000) : la validation des valeurs "region" à l'intérieur
+-- du tableau JSONB passe donc par une fonction IMMUTABLE, appelée depuis le
+-- CHECK comme un simple appel de fonction.
+CREATE OR REPLACE FUNCTION public.traductions_regions_valides(traductions JSONB)
+RETURNS boolean
+LANGUAGE sql
+IMMUTABLE
+AS $$
+  SELECT NOT EXISTS (
+    SELECT 1
+    FROM jsonb_array_elements(traductions) elem
+    WHERE elem ? 'region'
+      AND elem->>'region' IS NOT NULL
+      AND NOT (elem->>'region' = ANY (enum_range(NULL::public.region_alsace)::text[]))
+  )
+$$;
+
 CREATE TABLE public.entrees (
   id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
   francais TEXT NOT NULL,
@@ -104,15 +122,7 @@ CREATE TABLE public.entrees (
   type public.type_terme NOT NULL,
   traductions JSONB NOT NULL DEFAULT '[]'::jsonb
     CHECK (jsonb_typeof(traductions) = 'array')
-    CHECK (
-      NOT EXISTS (
-        SELECT 1
-        FROM jsonb_array_elements(traductions) elem
-        WHERE elem ? 'region'
-          AND elem->>'region' IS NOT NULL
-          AND NOT (elem->>'region' = ANY (enum_range(NULL::public.region_alsace)::text[]))
-      )
-    ),
+    CHECK (public.traductions_regions_valides(traductions)),
   nb_attestations INTEGER NOT NULL DEFAULT 0,
   statut public.statut_entree NOT NULL DEFAULT 'a_valider',
   notes_arbitrage TEXT,

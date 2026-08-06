@@ -81,6 +81,10 @@ Coolify self-hosted v4.1.2 sur VPS OVH. Supabase self-hosted à déployer dessus
   porteuse et non décorative, et il faut trois rôles, pas un booléen. Une
   connexion de secours par mot de passe Supabase reste disponible si Odoo
   est injoignable.
+- Pas de SMTP (07/08/2026) : les utilisateurs sont créés et gérés dans Odoo,
+  et les comptes créés à la main voient leur lien transmis à la main depuis
+  /admin. Aucun envoi d'e-mail automatique n'est donc à mettre en place — ne
+  pas reproposer de relais SMTP.
 - Rôles : user, contributeur, admin. Un contributeur propose et corrige mais
   ne valide pas — le passage à statut='valide' reste réservé aux admins
   (règle 4).

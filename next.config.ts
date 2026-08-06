@@ -1,6 +1,11 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
+  // Produit .next/standalone : un serveur autonome n'embarquant que les
+  // dépendances réellement tracées. L'image de production n'a alors plus à
+  // recopier node_modules en entier, ce qui saturait le disque du VPS et
+  // finissait par faire échouer les déploiements.
+  output: "standalone",
   webpack: (config) => {
     if (process.env.NODE_ENV === "development") {
       config.module.rules.push({

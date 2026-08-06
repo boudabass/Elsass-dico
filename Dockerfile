@@ -34,19 +34,21 @@ RUN apk add --no-cache ca-certificates
 ENV NODE_ENV=production
 ENV PORT=3000
 
+# Sans cela, le serveur standalone n'écoute que sur localhost et reste
+# injoignable depuis l'extérieur du conteneur.
+ENV HOSTNAME=0.0.0.0
+
 WORKDIR /app
 
-# Install pnpm in production stage too (optional for running scripts, but good practice)
-RUN corepack enable && corepack prepare pnpm@10.33.2 --activate
-
-# Copy only necessary files from the builder stage
-COPY --from=builder /app/.next ./.next
-COPY --from=builder /app/node_modules ./node_modules
-COPY --from=builder /app/package.json ./package.json
+# La sortie standalone embarque son propre serveur et les seules dépendances
+# tracées : ni node_modules complet, ni pnpm dans cette étape. En revanche
+# elle n'inclut ni public/ ni .next/static, qu'il faut copier à part.
 COPY --from=builder /app/public ./public
+COPY --from=builder /app/.next/standalone ./
+COPY --from=builder /app/.next/static ./.next/static
 
 # Expose the port
 EXPOSE 3000
 
 # Command to run the Next.js application
-CMD ["pnpm", "start"]
+CMD ["node", "server.js"]

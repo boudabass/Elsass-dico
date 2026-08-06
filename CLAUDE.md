@@ -11,7 +11,10 @@ alsacien publié sous cette marque serait un vrai problème.
 2. Aucune copie d'une source unique. La base se construit par recoupement : un
    équivalent attesté dans plusieurs sources indépendantes est retenu, puis
    réécrit en Orthal. Divergence entre sources = entrée marquée pour arbitrage
-   manuel.
+   manuel. Seule exception, décidée le 07/08/2026 : un admin peut publier une
+   entrée à partir d'une contribution unique s'il en juge ainsi. La règle vise
+   la reprise en masse d'une source scrapée, pas le témoignage d'un locuteur
+   qu'un humain a arbitré.
 3. Chaque entrée porte un champ sources et un nombre d'attestations, qui sert
    de score de confiance.
 4. Rien ne passe en production sans validation humaine. Statut "à valider" par
@@ -81,6 +84,21 @@ Coolify self-hosted v4.1.2 sur VPS OVH. Supabase self-hosted à déployer dessus
 - Rôles : user, contributeur, admin. Un contributeur propose et corrige mais
   ne valide pas — le passage à statut='valide' reste réservé aux admins
   (règle 4).
+- Contributions (07/08/2026) : une proposition de contributeur entre dans
+  attestations, jamais directement dans entrees. Un contributeur = une source
+  (sources.type='contribution', sources.profil_id), pour que deux
+  contributeurs proposant le même mot comptent comme deux attestations
+  distinctes — la contrainte UNIQUE d'attestations porte sur source_id. Le
+  nom de la source est pseudonyme, car sources_entree() expose nom et url
+  publiquement ; l'e-mail reste dans notes, réservé aux admins.
+- Validation par les pairs : un vote (table attestation_votes), distinct de
+  l'attestation. Voter ne crée pas d'attestation, donc le score n'est PAS un
+  recoupement au sens de la règle 2 — c'est une aide à l'arbitrage affichée
+  sur 5. Aucun seuil ne déclenche quoi que ce soit automatiquement. On ne vote
+  pas pour soi.
+- Une contribution se fige dès qu'elle est retenue dans une entrée
+  (entree_attestations) : ni modifiable ni supprimable par son auteur, sinon
+  la traçabilité mentirait sur ce qui a fondé la décision.
 - Prochaine étape après la migration : ingérer les 7260 entrées du dossier
   Dictionnaire dans attestations avec la source culture_alsace. Elles ne
   doivent jamais alimenter entrees directement.

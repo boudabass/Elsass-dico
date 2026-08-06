@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { cn } from "@/lib/utils";
-import { Languages, LayoutDashboard } from "lucide-react";
+import { Languages, LayoutDashboard, PenLine } from "lucide-react";
 import { useAuth } from "@/components/auth-provider";
 
 export function MainNav({
@@ -11,7 +11,8 @@ export function MainNav({
     ...props
 }: React.HTMLAttributes<HTMLElement>) {
     const pathname = usePathname();
-    const { user } = useAuth();
+    const { user, role } = useAuth();
+    const estContributeur = role === "contributeur" || role === "admin";
 
     return (
         <nav
@@ -36,6 +37,17 @@ export function MainNav({
                     >
                         <LayoutDashboard className="w-4 h-4" /> Dashboard
                     </Link>
+                    {estContributeur && (
+                        <Link
+                            href="/contributions"
+                            className={cn(
+                                "text-sm font-medium transition-colors hover:text-primary flex items-center gap-1",
+                                pathname === "/contributions" ? "text-foreground" : "text-muted-foreground"
+                            )}
+                        >
+                            <PenLine className="w-4 h-4" /> Contributions
+                        </Link>
+                    )}
                     <Link
                         href="/profile"
                         className={cn(

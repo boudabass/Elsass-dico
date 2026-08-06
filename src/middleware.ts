@@ -59,8 +59,13 @@ export async function middleware(request: NextRequest) {
   // Récupération de l'utilisateur
   const { data: { user } } = await supabase.auth.getUser()
 
-  // Protection des routes /admin
-  if (request.nextUrl.pathname.startsWith('/admin')) {
+  // Protection des routes à rôle. Ce n'est qu'un confort de navigation : la
+  // vraie barrière est le RLS côté base et les gardes des server actions.
+  const chemin = request.nextUrl.pathname
+  const routeAdmin = chemin.startsWith('/admin')
+  const routeContributeur = chemin.startsWith('/contributions')
+
+  if (routeAdmin || routeContributeur) {
     if (!user) {
       // Redirection vers le login si pas connecté
       return NextResponse.redirect(new URL('/login', request.url))
@@ -72,7 +77,12 @@ export async function middleware(request: NextRequest) {
       .eq('id', user.id)
       .single()
 
-    if (profile?.role !== 'admin') {
+    const role = profile?.role
+    const autorise = routeAdmin
+      ? role === 'admin'
+      : role === 'contributeur' || role === 'admin'
+
+    if (!autorise) {
       return NextResponse.redirect(new URL('/dashboard', request.url))
     }
   }

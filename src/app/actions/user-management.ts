@@ -1,9 +1,13 @@
 'use server'
 
 import { createAdminClient } from "@/utils/supabase/admin"
+import { requireAdmin } from "@/utils/supabase/require-admin"
 import { revalidatePath } from "next/cache"
 
 export async function getUsersAction() {
+    const guard = await requireAdmin()
+    if (!guard.authorized) return { success: false, error: guard.error }
+
     const supabase = createAdminClient()
 
     // On récupère auth et profile
@@ -29,6 +33,9 @@ export async function getUsersAction() {
 }
 
 export async function createUserAction(formData: FormData) {
+    const guard = await requireAdmin()
+    if (!guard.authorized) return { success: false, error: guard.error }
+
     const email = formData.get('email') as string
     const password = formData.get('password') as string
     const role = formData.get('role') as string || 'user'
@@ -66,6 +73,9 @@ export async function createUserAction(formData: FormData) {
 }
 
 export async function deleteUserAction(userId: string) {
+    const guard = await requireAdmin()
+    if (!guard.authorized) return { success: false, error: guard.error }
+
     const supabase = createAdminClient()
 
     // Suppression profil (si pas de cascade)
@@ -79,6 +89,9 @@ export async function deleteUserAction(userId: string) {
 }
 
 export async function updateUserRoleAction(userId: string, role: string) {
+    const guard = await requireAdmin()
+    if (!guard.authorized) return { success: false, error: guard.error }
+
     const supabase = createAdminClient()
 
     // Sync metadata for backup

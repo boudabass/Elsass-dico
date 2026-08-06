@@ -18,7 +18,7 @@ import { User } from "@supabase/supabase-js";
 import { Trash2, Users, UserPlus, Shield, ShieldCheck, Loader2 } from "lucide-react";
 
 export default function AdminPage() {
-  const { user, isLoading } = useAuth();
+  const { user, role, isLoading } = useAuth();
   const [usersList, setUsersList] = useState<User[]>([]);
   const [isUsersLoading, setIsUsersLoading] = useState(false);
 
@@ -36,7 +36,7 @@ export default function AdminPage() {
   };
 
   if (isLoading) return <div className="flex h-screen items-center justify-center"><Loader2 className="animate-spin" /></div>;
-  if (!user) return <div className="p-8 text-center">Accès refusé</div>;
+  if (!user || role !== 'admin') return <div className="p-8 text-center">Accès refusé</div>;
 
   return (
     <div className="container mx-auto p-4 md:p-8 max-w-5xl space-y-8">

@@ -12,19 +12,18 @@ import {
     DropdownMenuSeparator,
     DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
-import { createClient } from "@/lib/supabase";
-import { useRouter } from "next/navigation";
 import Link from "next/link";
 import { LogOut, User, Shield } from "lucide-react";
 
 export function UserNav() {
-    const { user, role, isLoading } = useAuth();
-    const router = useRouter();
-    const supabase = createClient();
+    const { user, role, isLoading, signOut } = useAuth();
 
     const handleSignOut = async () => {
-        await supabase.auth.signOut();
-        router.refresh(); // Rafraîchir pour mettre à jour le middleware/cookies
+        // Passe par la server action : un signOut côté navigateur seul laisse
+        // la session serveur ouverte. La navigation complète qui suit garantit
+        // de repartir d'un AuthProvider vierge.
+        await signOut();
+        window.location.href = "/";
     };
 
     if (isLoading) return <div className="h-8 w-8 animate-pulse rounded-full bg-slate-200"></div>;

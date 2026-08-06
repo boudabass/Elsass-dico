@@ -3,6 +3,25 @@
 import { createAdminClient } from "@/utils/supabase/admin"
 import { requireAdmin } from "@/utils/supabase/require-admin"
 import { revalidatePath } from "next/cache"
+import { headers } from "next/headers"
+
+// Union discriminée explicite : sans elle, l'inférence rend `lien` optionnel
+// côté appelant et le typage du composant admin ne tient plus.
+type ResultatLien =
+    | { success: true; message: string; lien: string }
+    | { success: false; error: string }
+
+// Construit le lien que l'admin transmettra manuellement. On passe par notre
+// propre route /auth/confirm (et non par le lien Supabase brut) car elle
+// vérifie le jeton côté serveur et pose les cookies de session : c'est le
+// seul schéma fiable en rendu serveur. Le jour où le SMTP sera configuré,
+// les gabarits d'e-mail Supabase pointeront vers cette même route.
+async function construireLienConfirmation(tokenHash: string, type: 'invite' | 'recovery') {
+    const entetes = await headers()
+    const protocole = entetes.get('x-forwarded-proto') ?? 'https'
+    const hote = entetes.get('host')
+    return `${protocole}://${hote}/auth/confirm?token_hash=${tokenHash}&type=${type}&next=/set-password`
+}
 
 export async function getUsersAction() {
     const guard = await requireAdmin()
@@ -32,44 +51,67 @@ export async function getUsersAction() {
     return { success: true, users: mergedUsers }
 }
 
-export async function createUserAction(formData: FormData) {
+export async function inviteUserAction(formData: FormData): Promise<ResultatLien> {
     const guard = await requireAdmin()
     if (!guard.authorized) return { success: false, error: guard.error }
 
     const email = formData.get('email') as string
-    const password = formData.get('password') as string
     const role = formData.get('role') as string || 'user'
 
-    console.log(`[Admin Action] Creating user: ${email} with role: ${role}`);
+    console.log(`[Admin Action] Inviting user: ${email} with role: ${role}`);
 
-    if (!email || !password) {
-        return { success: false, error: "Email et mot de passe requis" }
+    if (!email) {
+        return { success: false, error: "Email requis" }
     }
 
     const supabase = createAdminClient()
 
-    // 1. Create in Auth
-    const { data: authData, error: authError } = await supabase.auth.admin.createUser({
+    // Crée le compte sans mot de passe et produit un jeton d'invitation :
+    // c'est l'utilisateur qui choisira son mot de passe via le lien.
+    const { data, error } = await supabase.auth.admin.generateLink({
+        type: 'invite',
         email,
-        password,
-        email_confirm: true,
-        user_metadata: { role }
     })
 
-    if (authError) return { success: false, error: authError.message }
+    if (error) return { success: false, error: error.message }
 
-    // 2. Update Role in Profiles (Created by trigger on_auth_user_created)
+    // Le trigger on_auth_user_created a déjà inséré le profil avec le rôle
+    // 'user' par défaut : on ne fait que l'ajuster si besoin.
     const { error: profError } = await supabase
         .from('profiles')
         .update({ role })
-        .eq('id', authData.user.id)
+        .eq('id', data.user.id)
 
     if (profError) {
         return { success: false, error: `Erreur mise à jour rôle profil: ${profError.message}` }
     }
 
     revalidatePath('/admin')
-    return { success: true, message: "Utilisateur créé avec succès" }
+    return {
+        success: true,
+        message: "Invitation créée",
+        lien: await construireLienConfirmation(data.properties.hashed_token, 'invite'),
+    }
+}
+
+export async function generateRecoveryLinkAction(email: string): Promise<ResultatLien> {
+    const guard = await requireAdmin()
+    if (!guard.authorized) return { success: false, error: guard.error }
+
+    const supabase = createAdminClient()
+
+    const { data, error } = await supabase.auth.admin.generateLink({
+        type: 'recovery',
+        email,
+    })
+
+    if (error) return { success: false, error: error.message }
+
+    return {
+        success: true,
+        message: "Lien de réinitialisation créé",
+        lien: await construireLienConfirmation(data.properties.hashed_token, 'recovery'),
+    }
 }
 
 export async function deleteUserAction(userId: string) {

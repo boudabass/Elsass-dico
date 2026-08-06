@@ -12,8 +12,17 @@ export async function GET(request: NextRequest) {
     const type = searchParams.get('type') as EmailOtpType | null
     const next = searchParams.get('next') ?? '/dashboard'
 
+    // Derrière le proxy Coolify, request.url porte l'adresse interne
+    // (localhost:3000) et non l'URL publique : une redirection calculée à
+    // partir de lui envoie l'utilisateur sur localhost. On reconstruit donc
+    // la base depuis les en-têtes transmis par le proxy.
+    const enTetes = request.headers
+    const protocole = enTetes.get('x-forwarded-proto') ?? 'https'
+    const hote = enTetes.get('x-forwarded-host') ?? enTetes.get('host')
+    const base = `${protocole}://${hote}`
+
     if (!token_hash || !type) {
-        return NextResponse.redirect(new URL('/login?erreur=lien_invalide', request.url))
+        return NextResponse.redirect(new URL('/login?erreur=lien_invalide', base))
     }
 
     const supabase = await createClient()
@@ -21,11 +30,11 @@ export async function GET(request: NextRequest) {
 
     if (error) {
         console.warn(`[Auth Confirm] Vérification échouée: ${error.message}`)
-        return NextResponse.redirect(new URL('/login?erreur=lien_expire', request.url))
+        return NextResponse.redirect(new URL('/login?erreur=lien_expire', base))
     }
 
     // `next` provient de nos propres liens, mais on force un chemin relatif
     // pour qu'un lien trafiqué ne puisse pas rediriger vers un site externe.
     const destination = next.startsWith('/') ? next : '/dashboard'
-    return NextResponse.redirect(new URL(destination, request.url))
+    return NextResponse.redirect(new URL(destination, base))
 }

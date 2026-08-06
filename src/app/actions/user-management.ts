@@ -20,7 +20,7 @@ type ResultatLien =
 async function construireLienConfirmation(tokenHash: string, type: 'invite' | 'recovery') {
     const entetes = await headers()
     const protocole = entetes.get('x-forwarded-proto') ?? 'https'
-    const hote = entetes.get('host')
+    const hote = entetes.get('x-forwarded-host') ?? entetes.get('host')
     return `${protocole}://${hote}/auth/confirm?token_hash=${tokenHash}&type=${type}&next=/set-password`
 }
 

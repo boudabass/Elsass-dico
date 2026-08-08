@@ -24,6 +24,16 @@ export const LIBELLES_REGION: Record<Region, string> = {
 // automatique (règle 4 de CLAUDE.md).
 export const SCORE_PLEIN = 5
 
+export const STATUTS_ENTREE = ['a_valider', 'valide', 'conflit', 'rejete'] as const
+export type StatutEntree = typeof STATUTS_ENTREE[number]
+
+export const LIBELLES_STATUT: Record<StatutEntree, string> = {
+    a_valider: 'À valider',
+    valide: 'Validée',
+    conflit: 'Conflit',
+    rejete: 'Rejetée',
+}
+
 export function estTypeTermeValide(valeur: string): valeur is TypeTerme {
     return (TYPES_TERME as readonly string[]).includes(valeur)
 }
@@ -31,3 +41,52 @@ export function estTypeTermeValide(valeur: string): valeur is TypeTerme {
 export function estRegionValide(valeur: string): valeur is Region {
     return (REGIONS as readonly string[]).includes(valeur)
 }
+
+export function estStatutValide(valeur: string): valeur is StatutEntree {
+    return (STATUTS_ENTREE as readonly string[]).includes(valeur)
+}
+
+// Un élément du tableau JSONB entrees.traductions. L'index 0 est la traduction
+// canonique — règle « Premier est Roi » de la doctrine éditoriale.
+export interface Traduction {
+    alsacien: string
+    region: Region | null
+    niveau: string | null
+    note: string | null
+}
+
+export function traductionVide(): Traduction {
+    return { alsacien: '', region: null, niveau: null, note: null }
+}
+
+export interface Entree {
+    id: string
+    francais: string
+    contexte: string
+    type: TypeTerme
+    traductions: Traduction[]
+    nb_attestations: number
+    statut?: StatutEntree
+}
+
+// Une variante telle que la renvoient candidats_arbitrage() et
+// detail_candidat() : l'attestation brute, jamais retouchée, avec sa source.
+export interface VarianteAttestee {
+    attestation_id: string
+    alsacien: string
+    graphie_origine: string
+    region: Region | null
+    type: TypeTerme
+    source_id: string
+    source_nom: string
+    source_type: string
+    fiabilite: number
+    reference: string | null
+    votes: number
+    retenue?: boolean
+}
+
+// Le seuil de recoupement de la règle 2 : en dessous, la publication exige une
+// note d'arbitrage (exception du 07/08/2026). Doit rester aligné sur la garde
+// de arbitrer_entree() — c'est la base qui tranche, pas l'interface.
+export const SOURCES_MINIMUM = 2

@@ -40,17 +40,9 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
-# Game Center specific
-# On ignore le contenu mais on garde les dossiers
-# public/games/*
-!public/games/.gitkeep
-!public/games/Asteroids
-!public/games/forest
-
-
-data/*
-!data/.gitkeep
-!public/games/system
-!public/games/test-hub
-
-!data/db.json
+# Restes du boilerplate Game Center (public/games/, data/db.json) retirés le
+# 08/08/2026 : ces chemins n'existent pas dans le dico, et la règle « data/* »
+# rendait invisible le dépôt du studio. data/ est désormais versionné en
+# entier — c'est la copie brute des sources qui rend une extraction
+# vérifiable (voir data/README.md).
+__pycache__/

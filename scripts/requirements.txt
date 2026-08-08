@@ -1,0 +1,4 @@
+# Outillage d'ingestion du studio (scripts/ingest_attestations.py).
+# Hors du build de l'app : le Dockerfile ignore scripts/ (.dockerignore).
+requests>=2.31
+python-dotenv>=1.0

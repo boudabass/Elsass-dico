@@ -13,6 +13,12 @@ node_modules
 .git
 .gitignore
 
+# Dépôt du studio : sources brutes et JSONL d'attestations. Volumineux, et
+# sans usage à l'exécution — l'app lit Supabase, jamais ces fichiers.
+data
+scripts
+Dictionnaire
+
 # IDE & OS
 .vscode
 .idea

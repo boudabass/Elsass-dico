@@ -48,8 +48,9 @@ alsacien publié sous cette marque serait un vrai problème.
   français+contexte en doublon, homonymes non arbitrés.
 - Les chiffres 46000 (README, doc schéma) et 30000 (doc import) sont des
   objectifs, pas des existants. À corriger dans la doc.
-- scripts/import_existing.py insère dans des tables qui n'existent pas et
-  n'implémente aucune règle de la doctrine.
+- (Périmé depuis le 08/08/2026) scripts/import_existing.py insérait dans des
+  tables inexistantes et n'implémentait aucune règle de la doctrine. Supprimé,
+  remplacé par scripts/ingest_attestations.py.
 
 ## Mise à jour du 08/08/2026
 
@@ -64,7 +65,52 @@ alsacien publié sous cette marque serait un vrai problème.
   qui rend la recherche alsacien -> français indexable.
 - Reste inchangé : aucune donnée n'est chargée, l'ingestion des 7260 entrées
   du dossier Dictionnaire vers attestations sous la source culture_alsace n'a
-  pas commencé, et scripts/import_existing.py est toujours à refaire.
+  pas commencé.
+
+## Studio Elsass Dico (08/08/2026)
+
+Équipe autonome de collecte de sources, montée sur le Kanban Swarm de Hermes,
+sur le modèle du studio Elsass Game. Board `elsassdico`, sept profils `ed-*`.
+Documentation Odoo, sous le hub 117 : board et rôles 716, profils 717
+(sous-articles 718-724), passerelle Claude <-> elsassdico 725, amorçage lu par
+le profil `default` 726.
+
+- **La frontière du studio est `attestations`.** Les agents cherchent,
+  extraient, vérifient et déposent du brut attesté. Ils ne créent jamais une
+  `entree` : le passage attestation -> entrée reste humain, via
+  `arbitrer_entree()` et /admin/arbitrage (règle 4, inchangée).
+- **Quatre garde-fous**, écrits dans le SOUL.md de chaque profil et non dans
+  persona.md — l'investigation Hermes 712 a établi que seul SOUL.md est
+  réellement chargé : (1) aucune forme alsacienne qui ne soit copiée verbatim
+  d'une source, un doute se signale et ne se comble pas ; (2) extraction par
+  parseur versionné, jamais de saisie — une ligne qu'aucun parseur ne peut
+  regénérer est un défaut bloquant ; (3) aucun agent n'a
+  SUPABASE_SERVICE_ROLE_KEY ; (4) aucun push sur main (Coolify y redéploie).
+- **Périmètre : données et sources uniquement.** Le code de l'app reste à
+  Claude Code.
+- **Dépôt** : `data/` versionné, contrat dans `data/README.md`. `data/raw/`
+  contient la copie brute des sources — sans elle une extraction n'est pas
+  vérifiable, et rejouer un parseur doit produire un `git diff` vide.
+- **Ingestion** : `scripts/ingest_attestations.py`, idempotent, simulation par
+  défaut, lancé à la main après relecture du diff. Remplace
+  `scripts/import_existing.py`, supprimé.
+- **elsassisch.eu n'est pas une source distincte** de
+  culture.alsace.pagesperso-orange.fr : le chemin d'URL du miroir se déclare
+  archive du même site. Même code `culture_alsace` — deux codes feraient
+  compter deux fois la même attestation et videraient la règle 2.
+- **type_terme étendu** à `toponyme` et `prenom` (migration
+  20260808140000) : les rubriques villes/villages et prénoms alsaciens entrent
+  dans `entrees` comme le reste. Les codes postaux 67/68 y remplissent enfin
+  le champ `region`, vide à 100 % jusqu'ici.
+- **ORTHAL** : un profil `ed-orthal` propose une graphie pour une forme déjà
+  attestée, jamais ne décide. Ses propositions vont dans `propositions_orthal`
+  (migration 20260808150000), **jamais dans `attestations`** — une graphie
+  transcodée dérive d'une attestation, elle n'en est pas une seconde, et l'y
+  verser gonflerait `nb_sources` d'un recoupement fictif. Il signe sous
+  l'identité `orthal_bot` de la table `automates`, explicitement désignée comme
+  automatique : personne ne doit prendre un transcodage pour le témoignage
+  d'un locuteur. Profil non activé avant qu'une première campagne complète
+  soit passée.
 
 ## Infra
 
@@ -124,10 +170,17 @@ Coolify self-hosted v4.1.2 sur VPS OVH. Supabase self-hosted à déployer dessus
   notes_arbitrage est renseignée — c'est la forme technique de l'exception du
   07/08/2026. L'interface reproduit la règle pour l'ergonomie, elle n'en est
   pas la barrière.
-- Prochaine étape : ingérer les 7260 entrées du dossier Dictionnaire dans
-  attestations avec la source culture_alsace. Elles ne doivent jamais
-  alimenter entrees directement — elles entreront dans la file d'arbitrage
-  comme n'importe quelle autre attestation, marquées 1 source sur N.
+- Prochaine étape (révisée le 08/08/2026) : monter le studio en deux temps —
+  le profil Hermes `default` crée le seul profil `elsassdico` puis s'arrête
+  (article Odoo 726), et `elsassdico` crée ensuite le board et les six profils
+  `ed-*` (article 725). La séparation évite qu'un profil généraliste prenne
+  des décisions qui engagent la doctrine. Puis lancer la campagne 1 sur
+  culture_alsace — rubriques villes/villages et prénoms, dont
+  l'inventaire complet du miroir reste à faire. Le dossier Dictionnaire
+  (7260 entrées A-D) est une extraction antérieure au studio et non vérifiée :
+  à reprendre au contrat data/README.md avant ingestion. Ces attestations ne
+  doivent jamais alimenter entrees directement — elles entreront dans la file
+  d'arbitrage comme n'importe quelle autre, marquées 1 source sur N.
 
 ## Règles de travail
 

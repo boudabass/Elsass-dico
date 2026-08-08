@@ -1,0 +1,54 @@
+{
+  "code": "culture_alsace",
+  "nom": "Culture Alsace (site de Raymond Matzen et contributeurs)",
+  "url": "http://culture.alsace.pagesperso-orange.fr/",
+  "type": "site",
+  "annee": null,
+  "licence": "non précisée — site personnel",
+  "fiabilite": 3,
+  "notes": "Source unique, non recoupée. À traiter comme 1 source sur N : le dossier Dictionnaire (7260 entrées, lettres A-D) en est un scrape mot pour mot, et le miroir de la page A est commité dans temp_page_af.html.\n\nLe site d'origine n'étant plus maintenu, l'accès passe par le miroir https://www.elsassisch.eu/culture.alsace.pagesperso-orange.archive/ . Ce miroir n'est PAS une source distincte : le chemin d'URL le déclare lui-même archive du même site, donc même auteur. Lui attribuer un code propre reviendrait à se recouper avec soi-même et viderait la règle 2 de sa substance.",
+  "miroir": "https://www.elsassisch.eu/culture.alsace.pagesperso-orange.archive/",
+  "rubriques": [
+    {
+      "cle": "lexique_a_d",
+      "libelle": "Lexique français → alsacien, lettres A à D",
+      "statut": "extrait hors studio",
+      "type_terme": "mot, expression",
+      "volumetrie": 7260,
+      "emplacement": "Dictionnaire/{A,B,C,D}/{mots,expressions,notes}.json",
+      "notes": "Extraction antérieure au studio, non vérifiée par ed-verificateur. À reprendre au contrat data/README.md avant ingestion."
+    },
+    {
+      "cle": "villes_villages_hr",
+      "libelle": "Villes et villages du Haut-Rhin",
+      "statut": "à inventorier",
+      "type_terme": "toponyme",
+      "url": "https://www.elsassisch.eu/culture.alsace.pagesperso-orange.archive/villes_villages.htm",
+      "format_ligne": "<code postal> <nom alsacien> <nom français>",
+      "region": "haut_rhin",
+      "notes": "Le code postal 68xxx porte la région. Première donnée du projet qui remplira réellement le champ region."
+    },
+    {
+      "cle": "villes_villages_br",
+      "libelle": "Villes et villages du Bas-Rhin",
+      "statut": "à inventorier",
+      "type_terme": "toponyme",
+      "url": "https://www.elsassisch.eu/culture.alsace.pagesperso-orange.archive/villes_villagesB.R.htm",
+      "format_ligne": "<code postal> <nom alsacien> <nom français>",
+      "region": "bas_rhin",
+      "notes": "Code postal 67xxx."
+    },
+    {
+      "cle": "prenoms",
+      "libelle": "Prénoms alsaciens",
+      "statut": "à inventorier",
+      "type_terme": "prenom",
+      "url": "https://www.elsassisch.eu/culture.alsace.pagesperso-orange.archive/prenomsalsaciens.htm",
+      "format_ligne": "<prénom(s) alsacien(s) séparés par /> <prénom français>",
+      "volumetrie_estimee": 170,
+      "notes": "Une ligne JSONL par variante alsacienne : « Màri / Maria » → deux attestations pour le français « Marie », même graphie_origine."
+    }
+  ],
+  "inventaire_complet": false,
+  "_a_faire": "ed-prospecteur : parcourir l'arborescence du miroir et compléter 'rubriques' avec les pages restantes, puis passer inventaire_complet à true. John mentionne 6 pages et 2 thèmes supplémentaires — les trois URL ci-dessus sont celles qu'il a fournies, le reste est à relever."
+}

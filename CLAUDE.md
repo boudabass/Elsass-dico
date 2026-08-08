@@ -79,13 +79,17 @@ le profil `default` 726.
   extraient, vérifient et déposent du brut attesté. Ils ne créent jamais une
   `entree` : le passage attestation -> entrée reste humain, via
   `arbitrer_entree()` et /admin/arbitrage (règle 4, inchangée).
-- **Quatre garde-fous**, écrits dans le SOUL.md de chaque profil et non dans
-  persona.md — l'investigation Hermes 712 a établi que seul SOUL.md est
+- **Sept règles doctrinales**, écrites dans le SOUL.md de chaque profil et non
+  dans persona.md — l'investigation Hermes 712 a établi que seul SOUL.md est
   réellement chargé : (1) aucune forme alsacienne qui ne soit copiée verbatim
   d'une source, un doute se signale et ne se comble pas ; (2) extraction par
   parseur versionné, jamais de saisie — une ligne qu'aucun parseur ne peut
   regénérer est un défaut bloquant ; (3) aucun agent n'a
-  SUPABASE_SERVICE_ROLE_KEY ; (4) aucun push sur main (Coolify y redéploie).
+  SUPABASE_SERVICE_ROLE_KEY ; (4) aucun push sur main (Coolify y redéploie) ;
+  (5) aucun agent ne crée d'entrée ; (6) jamais de root ni de modification de
+  /opt/hermes/ ; (7) dépasser son budget d'actions se solde par un blocage de
+  carte, jamais par plus d'efforts. Le bloc fait foi dans l'article Odoo 717 et
+  se recopie intégralement, de 1 à 7.
 - **Périmètre : données et sources uniquement.** Le code de l'app reste à
   Claude Code.
 - **Dépôt** : `data/` versionné, contrat dans `data/README.md`. `data/raw/`
@@ -111,6 +115,31 @@ le profil `default` 726.
   automatique : personne ne doit prendre un transcodage pour le témoignage
   d'un locuteur. Profil non activé avant qu'une première campagne complète
   soit passée.
+
+### Studio monté le 08/08/2026 au soir
+
+- Profils en place : `elsassdico` (orchestrateur, port 8645, bot Telegram
+  dédié) et six workers — `ed-prospecteur` 8646, `ed-extracteur` 8647,
+  `ed-verificateur` 8648, `ed-orthal` 8649, `ed-gardien` 8650, `ed-doc` 8651.
+  Board `elsassdico` créé, repo cloné dans /opt/data/elsass-dico sur la branche
+  `data`.
+- **Un worker n'a ni bot Telegram ni gateway actif.** Le dispatcher est unique
+  sur la machine, vit dans le gateway de l'orchestrateur, et lance pour chaque
+  carte un sous-processus éphémère `hermes -p <assignee> chat -q "work kanban
+  task N"`. Les flags s6 `down` des `ed-*` restent en place. Donner un bot à un
+  worker ouvrirait un canal de consignes hors du board, donc une perte de
+  traçabilité.
+- Trois affirmations de la doc initiale ont été démenties par le relevé réel et
+  corrigées dans les articles : le port 8642 n'est pas occupé mais seulement la
+  valeur par défaut d'Hermes ; `api_server: connected` n'est un critère de
+  succès pour personne (aucun ne l'a actif dans ce build) ; le motif
+  d'inventaire des variables d'environnement doit accepter les chiffres
+  (`grep -oE '^[A-Z0-9_]+='`), faute de quoi il rate N8N_API_KEY.
+- **Le PAT git du conteneur est celui de l'owner du dépôt.** Tout profil peut
+  donc techniquement pousser sur main. Push suspendu jusqu'à substitution par
+  un jeton restreint (dépôt seul, Contents en écriture, pas d'Administration)
+  et pose d'une protection de branche sur main. La règle 4 doit être une
+  barrière technique, pas une promesse.
 
 ## Infra
 
@@ -170,13 +199,16 @@ Coolify self-hosted v4.1.2 sur VPS OVH. Supabase self-hosted à déployer dessus
   notes_arbitrage est renseignée — c'est la forme technique de l'exception du
   07/08/2026. L'interface reproduit la règle pour l'ergonomie, elle n'en est
   pas la barrière.
-- Prochaine étape (révisée le 08/08/2026) : monter le studio en deux temps —
-  le profil Hermes `default` crée le seul profil `elsassdico` puis s'arrête
-  (article Odoo 726), et `elsassdico` crée ensuite le board et les six profils
-  `ed-*` (article 725). La séparation évite qu'un profil généraliste prenne
-  des décisions qui engagent la doctrine. Puis lancer la campagne 1 sur
-  culture_alsace — rubriques villes/villages et prénoms, dont
-  l'inventaire complet du miroir reste à faire. Le dossier Dictionnaire
+- Amorçage en deux temps (08/08/2026, fait) : le profil Hermes `default` a créé
+  le seul profil `elsassdico` (article Odoo 726) puis s'est arrêté, et
+  `elsassdico` a créé le board et les six profils `ed-*` (article 725). La
+  séparation évitait qu'un profil généraliste prenne des décisions engageant la
+  doctrine ; elle a tenu.
+- Prochaine étape (révisée le 08/08/2026 au soir) : la campagne 1 sur
+  culture_alsace est lancée — `ed-prospecteur` inventorie le miroir et archive
+  les pages brutes dans data/raw/, puis s'arrête au GATE inventaire. Rien n'est
+  poussé vers origin tant que le jeton git n'est pas restreint. Le dossier
+  Dictionnaire
   (7260 entrées A-D) est une extraction antérieure au studio et non vérifiée :
   à reprendre au contrat data/README.md avant ingestion. Ces attestations ne
   doivent jamais alimenter entrees directement — elles entreront dans la file

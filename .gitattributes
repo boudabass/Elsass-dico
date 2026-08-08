@@ -2,3 +2,9 @@
 # Aucune normalisation de fins de ligne, aucun retraitement : le md5 doit
 # rester stable quel que soit le config global (autocrlf, attributs herites).
 data/raw/** -text
+
+# Fichiers produits par le studio : toujours \n (contrat data/README.md),
+# meme quand le checkout se fait sous Windows (core.autocrlf=true).
+data/attestations/*.jsonl text eol=lf
+data/orthal/*.jsonl       text eol=lf
+data/sources/*.json       text eol=lf

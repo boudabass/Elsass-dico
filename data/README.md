@@ -58,11 +58,11 @@ exactement les colonnes de `public.attestations` :
 | `source_code` | oui | Doit exister dans `data/sources/`. |
 | `francais` | oui | Copié verbatim. |
 | `alsacien` | oui | **Copié verbatim.** Jamais normalisé, jamais corrigé, jamais complété. |
-| `graphie_origine` | oui | La ligne brute d'origine, entière, avant tout découpage. C'est elle qui rend la vérification possible. |
+| `graphie_origine` | oui | Le **fragment source entier, dans l'ordre des colonnes de la source**, avant tout découpage. C'est lui qui rend la vérification possible : sans lui, personne ne peut reconstituer ce que la source disait vraiment. |
 | `type` | oui | `mot`, `expression`, `proverbe`, `toponyme` ou `prenom`. |
 | `contexte` | oui | `""` si la source n'en donne pas. Sépare les homonymes. |
 | `region` | non | `bas_rhin`, `haut_rhin`, `commun`, ou absent. Ne se déduit que d'une information **présente dans la source** (un code postal, un intitulé de page). Jamais d'un jugement sur la forme. |
-| `reference` | oui | Localisation précise et rejouable : fichier `raw/` + numéro de ligne, page, ou URL exacte. |
+| `reference` | oui | Localisation précise et rejouable : fichier `raw/` + numéro de ligne, page, ou URL exacte. Une **ancre de bloc** est légitime quand la source organise ses entrées en cellules multi-lignes (plusieurs entrées par ancre) : combinée au code postal ou à l'identifiant présent dans `graphie_origine`, la localisation reste exacte. |
 
 ### Les trois règles qui font foi
 

@@ -532,7 +532,7 @@
     {
       "cle": "villes_villages_br",
       "libelle": "Villes et villages du Bas-Rhin",
-      "statut": "inventorié",
+      "statut": "extrait",
       "type_terme": "toponyme",
       "url": "https://www.elsassisch.eu/culture.alsace.pagesperso-orange.archive/villes_villagesB.R.htm",
       "format_ligne": "<code postal> <nom français> <nom alsacien>",

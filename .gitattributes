@@ -1,0 +1,4 @@
+# data/raw/ archive des octets bruts des sources, tels que telecharges.
+# Aucune normalisation de fins de ligne, aucun retraitement : le md5 doit
+# rester stable quel que soit le config global (autocrlf, attributs herites).
+data/raw/** -text

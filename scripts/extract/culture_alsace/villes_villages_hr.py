@@ -25,10 +25,15 @@ RÈGLES APPLIQUÉES (décision John, GATE inventaire 08/08/2026)
 - Alignement par position dans chaque bloc. Toute cellule vide (nom
   alsacien manquant) ou colonne déficitaire entraîne l'OMISSION de la
   ligne du JSONL ; la ligne est listée sur stdout avec son numéro.
-- region : « haut_rhin » si le code commence par 68, « bas_rhin » si
-  par 67, ABSENT sinon. Le code postal est une information présente
-  dans la source : le lire n'est pas une déduction. Un code à préfixe
-  65/58 (coquilles probables) garde region absent et est signalé.
+- region : déduite de L'INTITULÉ DE PAGE — villes_villages.htm est la
+  page du Haut-Rhin (fiche source culture_alsace : rubrique
+  villes_villages_hr « Villes et villages du Haut-Rhin », region
+  haut_rhin) -> region=haut_rhin pour TOUTES les lignes du JSONL.
+  Le code postal ne décide plus : il devient un CONTRÔLE. Un code
+  hors 67/68 est un désaccord code/page signalé dans le rapport de
+  carte, jamais corrigé — le code reste verbatim dans
+  graphie_origine (règle 1, copie verbatim ; décision John, GATE 2
+  08/08/2026).
 - EXCLUSIONS_MAPPING (décision John, GATE inventaire 08/08/2026) : la
   colonne française doit correspondre au nom officiel de la commune
   associée au code postal (pièce : BOCP La Poste). Deux lignes de la
@@ -198,7 +203,10 @@ def extract() -> tuple[list[dict], list[dict], list[dict], list[dict]]:
                     })
                     continue
 
-                # coquilles / codes hors 67/68
+                # CONTRÔLE code postal (décision John, GATE 2 08/08/2026) :
+                # le code ne décide plus de region. Il signale les
+                # désaccords code/page — jamais corrigés, le code reste
+                # verbatim dans graphie_origine.
                 if not re.fullmatch(r"\d{5}", code):
                     anomalies.append({
                         "type": "code_non_numerique",
@@ -246,9 +254,11 @@ def extract() -> tuple[list[dict], list[dict], list[dict], list[dict]]:
                         "detail": f"{code} {alsacien} {francais}",
                     })
 
-                region = "haut_rhin" if code.startswith("68") else (
-                    "bas_rhin" if code.startswith("67") else None)
-
+                # region : déduite de L'INTITULÉ DE PAGE — cette page est
+                # la page du Haut-Rhin (décision John, GATE 2 08/08/2026).
+                # Le code postal ne décide plus : les désaccords (codes
+                # hors 67/68) sont signalés ci-dessus, jamais corrigés —
+                # le code reste verbatim dans graphie_origine.
                 att = {
                     "source_code": SOURCE_CODE,
                     "francais": francais,
@@ -256,9 +266,8 @@ def extract() -> tuple[list[dict], list[dict], list[dict], list[dict]]:
                     "graphie_origine": f"{code} {alsacien} {francais}",
                     "type": TYPE,
                     "contexte": "",
+                    "region": "haut_rhin",
                 }
-                if region is not None:
-                    att["region"] = region
                 att["reference"] = f"villes_villages.htm#L{l_code}"
                 attestations.append(att)
 

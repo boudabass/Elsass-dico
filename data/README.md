@@ -29,6 +29,21 @@ Sans la copie brute, une extraction n'est pas vérifiable. `raw/` sert trois usa
 3. Un site personnel peut disparaître. `culture.alsace.pagesperso-orange.fr` en est
    déjà à son miroir.
 
+## Statut d'une rubrique — vocabulaire fermé
+
+Le champ `statut` de chaque rubrique de `sources/<code>.json` ne prend que quatre
+valeurs, dans l'ordre du cycle de vie :
+
+| Valeur | Signification |
+|---|---|
+| `inventorié` | Page relevée et archivée dans `raw/`, pas encore extraite. |
+| `extrait` | Parseur produit et JSONL déposé, non encore vérifié. |
+| `vérifié` | `ed-verificateur` a rendu un verdict CONFORME. |
+| `ingéré` | John a lancé l'ingestion après relecture du diff. |
+
+Toute autre valeur est un défaut de la fiche (décision John, GATE inventaire
+08/08/2026).
+
 ## Format d'une ligne `attestations/*.jsonl`
 
 Un objet JSON par ligne, encodage UTF-8, `\n` en fin de ligne. Les clés reprennent

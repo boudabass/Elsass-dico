@@ -12,7 +12,7 @@
     {
       "cle": "lexique_a_d",
       "libelle": "Lexique français → alsacien, lettres A à D",
-      "statut": "extrait hors studio",
+      "statut": "extrait",
       "type_terme": "mot, expression",
       "volumetrie": 7260,
       "emplacement": "Dictionnaire/{A,B,C,D}/{mots,expressions,notes}.json",

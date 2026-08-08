@@ -31,8 +31,8 @@ alsacien publié sous cette marque serait un vrai problème.
 
 ## État réel (audit du 31/07/2026)
 
-- Le front est un boilerplate Dyad intact, zéro code métier. La landing affiche
-  "Template Next.js Boilerplate".
+- (Périmé depuis le 08/08/2026, cf. plus bas) Le front était un boilerplate
+  Dyad intact, zéro code métier.
 - Le schéma dictionnaire existe depuis
   supabase/migrations/20260731120000_schema_dictionnaire.sql : tables
   sources, attestations, entrees, entree_attestations, avec pg_trgm et
@@ -50,6 +50,21 @@ alsacien publié sous cette marque serait un vrai problème.
   objectifs, pas des existants. À corriger dans la doc.
 - scripts/import_existing.py insère dans des tables qui n'existent pas et
   n'implémente aucune règle de la doctrine.
+
+## Mise à jour du 08/08/2026
+
+- Le front n'est plus vide : login adossé à Odoo, /admin (utilisateurs),
+  /contributions (proposer, corriger, voter), /admin/arbitrage (file de
+  candidats et écran d'arbitrage), / (recherche publique dans les deux sens) et
+  /entree/[id] (détail avec sources).
+- La table entrees est désormais alimentée et lue. Migration
+  supabase/migrations/20260808120000_arbitrage.sql : candidats_arbitrage(),
+  detail_candidat(), arbitrer_entree(), entrees_par_statut(),
+  rechercher_entrees(), plus une colonne générée entrees.alsacien_recherche
+  qui rend la recherche alsacien -> français indexable.
+- Reste inchangé : aucune donnée n'est chargée, l'ingestion des 7260 entrées
+  du dossier Dictionnaire vers attestations sous la source culture_alsace n'a
+  pas commencé, et scripts/import_existing.py est toujours à refaire.
 
 ## Infra
 
@@ -103,9 +118,16 @@ Coolify self-hosted v4.1.2 sur VPS OVH. Supabase self-hosted à déployer dessus
 - Une contribution se fige dès qu'elle est retenue dans une entrée
   (entree_attestations) : ni modifiable ni supprimable par son auteur, sinon
   la traçabilité mentirait sur ce qui a fondé la décision.
-- Prochaine étape après la migration : ingérer les 7260 entrées du dossier
-  Dictionnaire dans attestations avec la source culture_alsace. Elles ne
-  doivent jamais alimenter entrees directement.
+- Arbitrage (08/08/2026) : la garde de la règle 2 vit dans
+  arbitrer_entree(), pas dans l'interface. Passer une entrée à statut='valide'
+  avec moins de 2 sources distinctes lève une exception, sauf si
+  notes_arbitrage est renseignée — c'est la forme technique de l'exception du
+  07/08/2026. L'interface reproduit la règle pour l'ergonomie, elle n'en est
+  pas la barrière.
+- Prochaine étape : ingérer les 7260 entrées du dossier Dictionnaire dans
+  attestations avec la source culture_alsace. Elles ne doivent jamais
+  alimenter entrees directement — elles entreront dans la file d'arbitrage
+  comme n'importe quelle autre attestation, marquées 1 source sur N.
 
 ## Règles de travail
 

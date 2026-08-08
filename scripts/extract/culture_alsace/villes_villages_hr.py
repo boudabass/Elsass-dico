@@ -29,6 +29,18 @@ RÈGLES APPLIQUÉES (décision John, GATE inventaire 08/08/2026)
   par 67, ABSENT sinon. Le code postal est une information présente
   dans la source : le lire n'est pas une déduction. Un code à préfixe
   65/58 (coquilles probables) garde region absent et est signalé.
+- EXCLUSIONS_MAPPING (décision John, GATE inventaire 08/08/2026) : la
+  colonne française doit correspondre au nom officiel de la commune
+  associée au code postal (pièce : BOCP La Poste). Deux lignes de la
+  source portent une colonne française hors référentiel, confirmées par
+  ed-verificateur (carte t_c1be5ce4) :
+      « 68580 Schtrüet Eschie »     — officiel attendu : Strueth
+      « 68600 Owersààsa Owersààsa » — officiel attendu : Obersaasheim
+  Règle 1 interdit de corriger (copie verbatim) : ces lignes sont OMISES
+  du JSONL et listées dans le rapport (règle 3), avec la valeur officielle
+  attendue. La clé d'exclusion est le triplet décodé (code, alsacien,
+  francais) — unique dans la source, à la différence de la reference qui
+  est partagée par tout un bloc.
 - graphie_origine : la ligne logique complète « <code> <alsacien>
   <français> » avant découpage (format de ligne de la fiche source).
 - reference : villes_villages.htm#L<n>, où n est la ligne physique du
@@ -57,6 +69,18 @@ TYPE = "toponyme"
 
 # Gabarit déclaré d'une table : 2 blocs de 3 colonnes + cellule image.
 GABARIT = ["8", "18", "19", "10", "8", "18", "19"]
+
+# Colonnes françaises hors référentiel officiel (décision John, GATE
+# inventaire 08/08/2026 — pièce : BOCP La Poste, vérifiée par
+# ed-verificateur t_c1be5ce4). Clé : triplet décodé (code, alsacien,
+# francais), unique dans la source — la reference est partagée par tout
+# un bloc et ne peut pas servir de clé. Valeur : nom officiel attendu,
+# pour le rapport (jamais écrit dans le JSONL — règle 1, copie verbatim ;
+# la ligne est OMISE, règle 3).
+EXCLUSIONS_MAPPING = {
+    ("68580", "Schtrüet", "Eschie"): "Strueth",
+    ("68600", "Owersààsa", "Owersààsa"): "Obersaasheim",
+}
 
 
 def has_malformed_entity(raw: str) -> bool:
@@ -155,6 +179,24 @@ def extract() -> tuple[list[dict], list[dict], list[dict], list[dict]]:
                     continue
                 code, alsacien, francais = row
                 l_code = lines[0]
+
+                # colonne française hors référentiel officiel (GATE
+                # inventaire) : la ligne est OMISE du JSONL (règle 3),
+                # jamais corrigée (règle 1 — copie verbatim). L'officiel
+                # attendu est porté dans le rapport pour ré-admission
+                # ultérieure par arbitrage.
+                exclusion = EXCLUSIONS_MAPPING.get((code, alsacien, francais))
+                if exclusion is not None:
+                    omissions.append({
+                        "bloc": f"table {tables_vues} bloc {block}",
+                        "position": i + 1,
+                        "ligne": l_code,
+                        "raison": f"colonne française hors référentiel "
+                                  f"officiel — attendu « {exclusion} » "
+                                  f"(BOCP La Poste, GATE inventaire)",
+                        "contenu": " ".join(row),
+                    })
+                    continue
 
                 # coquilles / codes hors 67/68
                 if not re.fullmatch(r"\d{5}", code):

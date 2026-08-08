@@ -19,36 +19,537 @@
       "notes": "Extraction antérieure au studio, non vérifiée par ed-verificateur. À reprendre au contrat data/README.md avant ingestion."
     },
     {
+      "cle": "dico_fr_als_a",
+      "libelle": "Dictionnaire français → alsacien — lettre A (page_af.htm)",
+      "statut": "inventorié",
+      "type_terme": "mot, expression",
+      "url": "https://www.elsassisch.eu/culture.alsace.pagesperso-orange.archive/page_af.htm",
+      "format_ligne": "<français>.- <alsacien(s) séparés par des virgules>",
+      "volumetrie_estimee": 1785,
+      "notes": "Comptage brut des lignes « .- » (certaines entrées s'étendent sur plusieurs lignes, certaines pages portent des notes de prononciation en tête)."
+    },
+    {
+      "cle": "dico_als_fr_a",
+      "libelle": "Dictionnaire alsacien → français — lettre A (page_a.htm)",
+      "statut": "inventorié",
+      "type_terme": "mot, expression",
+      "url": "https://www.elsassisch.eu/culture.alsace.pagesperso-orange.archive/page_a.htm",
+      "format_ligne": "<alsacien>.- <traduction(s) française(s)>",
+      "volumetrie_estimee": 1450,
+      "notes": "Comptage brut des lignes « .- » (certaines entrées s'étendent sur plusieurs lignes, certaines pages portent des notes de prononciation en tête)."
+    },
+    {
+      "cle": "dico_fr_als_b",
+      "libelle": "Dictionnaire français → alsacien — lettre B (page_bf.htm)",
+      "statut": "inventorié",
+      "type_terme": "mot, expression",
+      "url": "https://www.elsassisch.eu/culture.alsace.pagesperso-orange.archive/page_bf.htm",
+      "format_ligne": "<français>.- <alsacien(s) séparés par des virgules>",
+      "volumetrie_estimee": 1285,
+      "notes": "Comptage brut des lignes « .- » (certaines entrées s'étendent sur plusieurs lignes, certaines pages portent des notes de prononciation en tête)."
+    },
+    {
+      "cle": "dico_als_fr_b",
+      "libelle": "Dictionnaire alsacien → français — lettre B (page_b.htm)",
+      "statut": "inventorié",
+      "type_terme": "mot, expression",
+      "url": "https://www.elsassisch.eu/culture.alsace.pagesperso-orange.archive/page_b.htm",
+      "format_ligne": "<alsacien>.- <traduction(s) française(s)>",
+      "volumetrie_estimee": 1329,
+      "notes": "Comptage brut des lignes « .- » (certaines entrées s'étendent sur plusieurs lignes, certaines pages portent des notes de prononciation en tête)."
+    },
+    {
+      "cle": "dico_fr_als_c",
+      "libelle": "Dictionnaire français → alsacien — lettre C (page_cf.htm)",
+      "statut": "inventorié",
+      "type_terme": "mot, expression",
+      "url": "https://www.elsassisch.eu/culture.alsace.pagesperso-orange.archive/page_cf.htm",
+      "format_ligne": "<français>.- <alsacien(s) séparés par des virgules>",
+      "volumetrie_estimee": 2866,
+      "notes": "Comptage brut des lignes « .- » (certaines entrées s'étendent sur plusieurs lignes, certaines pages portent des notes de prononciation en tête)."
+    },
+    {
+      "cle": "dico_als_fr_c",
+      "libelle": "Dictionnaire alsacien → français — lettre C (page_c.htm)",
+      "statut": "inventorié",
+      "type_terme": "mot, expression",
+      "url": "https://www.elsassisch.eu/culture.alsace.pagesperso-orange.archive/page_c.htm",
+      "format_ligne": "<alsacien>.- <traduction(s) française(s)>",
+      "volumetrie_estimee": 24,
+      "notes": "Comptage brut des lignes « .- » (certaines entrées s'étendent sur plusieurs lignes, certaines pages portent des notes de prononciation en tête)."
+    },
+    {
+      "cle": "dico_fr_als_d",
+      "libelle": "Dictionnaire français → alsacien — lettre D (page_df.htm)",
+      "statut": "inventorié",
+      "type_terme": "mot, expression",
+      "url": "https://www.elsassisch.eu/culture.alsace.pagesperso-orange.archive/page_df.htm",
+      "format_ligne": "<français>.- <alsacien(s) séparés par des virgules>",
+      "volumetrie_estimee": 1348,
+      "notes": "Comptage brut des lignes « .- » (certaines entrées s'étendent sur plusieurs lignes, certaines pages portent des notes de prononciation en tête)."
+    },
+    {
+      "cle": "dico_als_fr_d",
+      "libelle": "Dictionnaire alsacien → français — lettre D (page_d.htm)",
+      "statut": "inventorié",
+      "type_terme": "mot, expression",
+      "url": "https://www.elsassisch.eu/culture.alsace.pagesperso-orange.archive/page_d.htm",
+      "format_ligne": "<alsacien>.- <traduction(s) française(s)>",
+      "volumetrie_estimee": 684,
+      "notes": "Comptage brut des lignes « .- » (certaines entrées s'étendent sur plusieurs lignes, certaines pages portent des notes de prononciation en tête)."
+    },
+    {
+      "cle": "dico_fr_als_e",
+      "libelle": "Dictionnaire français → alsacien — lettre E (page_ef.htm)",
+      "statut": "inventorié",
+      "type_terme": "mot, expression",
+      "url": "https://www.elsassisch.eu/culture.alsace.pagesperso-orange.archive/page_ef.htm",
+      "format_ligne": "<français>.- <alsacien(s) séparés par des virgules>",
+      "volumetrie_estimee": 1446,
+      "notes": "Comptage brut des lignes « .- » (certaines entrées s'étendent sur plusieurs lignes, certaines pages portent des notes de prononciation en tête)."
+    },
+    {
+      "cle": "dico_als_fr_e",
+      "libelle": "Dictionnaire alsacien → français — lettre E (page_e.htm)",
+      "statut": "inventorié",
+      "type_terme": "mot, expression",
+      "url": "https://www.elsassisch.eu/culture.alsace.pagesperso-orange.archive/page_e.htm",
+      "format_ligne": "<alsacien>.- <traduction(s) française(s)>",
+      "volumetrie_estimee": 399,
+      "notes": "Comptage brut des lignes « .- » (certaines entrées s'étendent sur plusieurs lignes, certaines pages portent des notes de prononciation en tête)."
+    },
+    {
+      "cle": "dico_fr_als_f",
+      "libelle": "Dictionnaire français → alsacien — lettre F (page_ff.htm)",
+      "statut": "inventorié",
+      "type_terme": "mot, expression",
+      "url": "https://www.elsassisch.eu/culture.alsace.pagesperso-orange.archive/page_ff.htm",
+      "format_ligne": "<français>.- <alsacien(s) séparés par des virgules>",
+      "volumetrie_estimee": 1322,
+      "notes": "Comptage brut des lignes « .- » (certaines entrées s'étendent sur plusieurs lignes, certaines pages portent des notes de prononciation en tête)."
+    },
+    {
+      "cle": "dico_als_fr_f",
+      "libelle": "Dictionnaire alsacien → français — lettre F (page_f.htm)",
+      "statut": "inventorié",
+      "type_terme": "mot, expression",
+      "url": "https://www.elsassisch.eu/culture.alsace.pagesperso-orange.archive/page_f.htm",
+      "format_ligne": "<alsacien>.- <traduction(s) française(s)>",
+      "volumetrie_estimee": 948,
+      "notes": "Comptage brut des lignes « .- » (certaines entrées s'étendent sur plusieurs lignes, certaines pages portent des notes de prononciation en tête)."
+    },
+    {
+      "cle": "dico_fr_als_g",
+      "libelle": "Dictionnaire français → alsacien — lettre G (page_gf.htm)",
+      "statut": "inventorié",
+      "type_terme": "mot, expression",
+      "url": "https://www.elsassisch.eu/culture.alsace.pagesperso-orange.archive/page_gf.htm",
+      "format_ligne": "<français>.- <alsacien(s) séparés par des virgules>",
+      "volumetrie_estimee": 968,
+      "notes": "Comptage brut des lignes « .- » (certaines entrées s'étendent sur plusieurs lignes, certaines pages portent des notes de prononciation en tête)."
+    },
+    {
+      "cle": "dico_als_fr_g",
+      "libelle": "Dictionnaire alsacien → français — lettre G (page_g.htm)",
+      "statut": "inventorié",
+      "type_terme": "mot, expression",
+      "url": "https://www.elsassisch.eu/culture.alsace.pagesperso-orange.archive/page_g.htm",
+      "format_ligne": "<alsacien>.- <traduction(s) française(s)>",
+      "volumetrie_estimee": 1126,
+      "notes": "Comptage brut des lignes « .- » (certaines entrées s'étendent sur plusieurs lignes, certaines pages portent des notes de prononciation en tête)."
+    },
+    {
+      "cle": "dico_fr_als_h",
+      "libelle": "Dictionnaire français → alsacien — lettre H (page_hf.htm)",
+      "statut": "inventorié",
+      "type_terme": "mot, expression",
+      "url": "https://www.elsassisch.eu/culture.alsace.pagesperso-orange.archive/page_hf.htm",
+      "format_ligne": "<français>.- <alsacien(s) séparés par des virgules>",
+      "volumetrie_estimee": 429,
+      "notes": "Comptage brut des lignes « .- » (certaines entrées s'étendent sur plusieurs lignes, certaines pages portent des notes de prononciation en tête)."
+    },
+    {
+      "cle": "dico_als_fr_h",
+      "libelle": "Dictionnaire alsacien → français — lettre H (page_h.htm)",
+      "statut": "inventorié",
+      "type_terme": "mot, expression",
+      "url": "https://www.elsassisch.eu/culture.alsace.pagesperso-orange.archive/page_h.htm",
+      "format_ligne": "<alsacien>.- <traduction(s) française(s)>",
+      "volumetrie_estimee": 986,
+      "notes": "Comptage brut des lignes « .- » (certaines entrées s'étendent sur plusieurs lignes, certaines pages portent des notes de prononciation en tête)."
+    },
+    {
+      "cle": "dico_fr_als_i",
+      "libelle": "Dictionnaire français → alsacien — lettre I (page_if.htm)",
+      "statut": "inventorié",
+      "type_terme": "mot, expression",
+      "url": "https://www.elsassisch.eu/culture.alsace.pagesperso-orange.archive/page_if.htm",
+      "format_ligne": "<français>.- <alsacien(s) séparés par des virgules>",
+      "volumetrie_estimee": 849,
+      "notes": "Comptage brut des lignes « .- » (certaines entrées s'étendent sur plusieurs lignes, certaines pages portent des notes de prononciation en tête)."
+    },
+    {
+      "cle": "dico_als_fr_i",
+      "libelle": "Dictionnaire alsacien → français — lettre I (page_i.htm)",
+      "statut": "inventorié",
+      "type_terme": "mot, expression",
+      "url": "https://www.elsassisch.eu/culture.alsace.pagesperso-orange.archive/page_i.htm",
+      "format_ligne": "<alsacien>.- <traduction(s) française(s)>",
+      "volumetrie_estimee": 327,
+      "notes": "Comptage brut des lignes « .- » (certaines entrées s'étendent sur plusieurs lignes, certaines pages portent des notes de prononciation en tête)."
+    },
+    {
+      "cle": "dico_fr_als_j",
+      "libelle": "Dictionnaire français → alsacien — lettre J (page_jf.htm)",
+      "statut": "inventorié",
+      "type_terme": "mot, expression",
+      "url": "https://www.elsassisch.eu/culture.alsace.pagesperso-orange.archive/page_jf.htm",
+      "format_ligne": "<français>.- <alsacien(s) séparés par des virgules>",
+      "volumetrie_estimee": 270,
+      "notes": "Comptage brut des lignes « .- » (certaines entrées s'étendent sur plusieurs lignes, certaines pages portent des notes de prononciation en tête)."
+    },
+    {
+      "cle": "dico_als_fr_j",
+      "libelle": "Dictionnaire alsacien → français — lettre J (page_j.htm)",
+      "statut": "inventorié",
+      "type_terme": "mot, expression",
+      "url": "https://www.elsassisch.eu/culture.alsace.pagesperso-orange.archive/page_j.htm",
+      "format_ligne": "<alsacien>.- <traduction(s) française(s)>",
+      "volumetrie_estimee": 121,
+      "notes": "Comptage brut des lignes « .- » (certaines entrées s'étendent sur plusieurs lignes, certaines pages portent des notes de prononciation en tête)."
+    },
+    {
+      "cle": "dico_fr_als_k",
+      "libelle": "Dictionnaire français → alsacien — lettre K (page_kf.htm)",
+      "statut": "inventorié",
+      "type_terme": "mot, expression",
+      "url": "https://www.elsassisch.eu/culture.alsace.pagesperso-orange.archive/page_kf.htm",
+      "format_ligne": "<français>.- <alsacien(s) séparés par des virgules>",
+      "volumetrie_estimee": 37,
+      "notes": "Comptage brut des lignes « .- » (certaines entrées s'étendent sur plusieurs lignes, certaines pages portent des notes de prononciation en tête)."
+    },
+    {
+      "cle": "dico_als_fr_k",
+      "libelle": "Dictionnaire alsacien → français — lettre K (page_k.htm)",
+      "statut": "inventorié",
+      "type_terme": "mot, expression",
+      "url": "https://www.elsassisch.eu/culture.alsace.pagesperso-orange.archive/page_k.htm",
+      "format_ligne": "<alsacien>.- <traduction(s) française(s)>",
+      "volumetrie_estimee": 1165,
+      "notes": "Comptage brut des lignes « .- » (certaines entrées s'étendent sur plusieurs lignes, certaines pages portent des notes de prononciation en tête)."
+    },
+    {
+      "cle": "dico_fr_als_l",
+      "libelle": "Dictionnaire français → alsacien — lettre L (page_lf.htm)",
+      "statut": "inventorié",
+      "type_terme": "mot, expression",
+      "url": "https://www.elsassisch.eu/culture.alsace.pagesperso-orange.archive/page_lf.htm",
+      "format_ligne": "<français>.- <alsacien(s) séparés par des virgules>",
+      "volumetrie_estimee": 667,
+      "notes": "Comptage brut des lignes « .- » (certaines entrées s'étendent sur plusieurs lignes, certaines pages portent des notes de prononciation en tête)."
+    },
+    {
+      "cle": "dico_als_fr_l",
+      "libelle": "Dictionnaire alsacien → français — lettre L (page_l.htm)",
+      "statut": "inventorié",
+      "type_terme": "mot, expression",
+      "url": "https://www.elsassisch.eu/culture.alsace.pagesperso-orange.archive/page_l.htm",
+      "format_ligne": "<alsacien>.- <traduction(s) française(s)>",
+      "volumetrie_estimee": 710,
+      "notes": "Comptage brut des lignes « .- » (certaines entrées s'étendent sur plusieurs lignes, certaines pages portent des notes de prononciation en tête)."
+    },
+    {
+      "cle": "dico_fr_als_m",
+      "libelle": "Dictionnaire français → alsacien — lettre M (page_mf.htm)",
+      "statut": "inventorié",
+      "type_terme": "mot, expression",
+      "url": "https://www.elsassisch.eu/culture.alsace.pagesperso-orange.archive/page_mf.htm",
+      "format_ligne": "<français>.- <alsacien(s) séparés par des virgules>",
+      "volumetrie_estimee": 1422,
+      "notes": "Comptage brut des lignes « .- » (certaines entrées s'étendent sur plusieurs lignes, certaines pages portent des notes de prononciation en tête)."
+    },
+    {
+      "cle": "dico_als_fr_m",
+      "libelle": "Dictionnaire alsacien → français — lettre M (page_m.htm)",
+      "statut": "inventorié",
+      "type_terme": "mot, expression",
+      "url": "https://www.elsassisch.eu/culture.alsace.pagesperso-orange.archive/page_m.htm",
+      "format_ligne": "<alsacien>.- <traduction(s) française(s)>",
+      "volumetrie_estimee": 963,
+      "notes": "Comptage brut des lignes « .- » (certaines entrées s'étendent sur plusieurs lignes, certaines pages portent des notes de prononciation en tête)."
+    },
+    {
+      "cle": "dico_fr_als_n",
+      "libelle": "Dictionnaire français → alsacien — lettre N (page_nf.htm)",
+      "statut": "inventorié",
+      "type_terme": "mot, expression",
+      "url": "https://www.elsassisch.eu/culture.alsace.pagesperso-orange.archive/page_nf.htm",
+      "format_ligne": "<français>.- <alsacien(s) séparés par des virgules>",
+      "volumetrie_estimee": 375,
+      "notes": "Comptage brut des lignes « .- » (certaines entrées s'étendent sur plusieurs lignes, certaines pages portent des notes de prononciation en tête)."
+    },
+    {
+      "cle": "dico_als_fr_n",
+      "libelle": "Dictionnaire alsacien → français — lettre N (page_n.htm)",
+      "statut": "inventorié",
+      "type_terme": "mot, expression",
+      "url": "https://www.elsassisch.eu/culture.alsace.pagesperso-orange.archive/page_n.htm",
+      "format_ligne": "<alsacien>.- <traduction(s) française(s)>",
+      "volumetrie_estimee": 480,
+      "notes": "Comptage brut des lignes « .- » (certaines entrées s'étendent sur plusieurs lignes, certaines pages portent des notes de prononciation en tête)."
+    },
+    {
+      "cle": "dico_fr_als_o",
+      "libelle": "Dictionnaire français → alsacien — lettre O (page_of.htm)",
+      "statut": "inventorié",
+      "type_terme": "mot, expression",
+      "url": "https://www.elsassisch.eu/culture.alsace.pagesperso-orange.archive/page_of.htm",
+      "format_ligne": "<français>.- <alsacien(s) séparés par des virgules>",
+      "volumetrie_estimee": 459,
+      "notes": "Comptage brut des lignes « .- » (certaines entrées s'étendent sur plusieurs lignes, certaines pages portent des notes de prononciation en tête)."
+    },
+    {
+      "cle": "dico_als_fr_o",
+      "libelle": "Dictionnaire alsacien → français — lettre O (page_o.htm)",
+      "statut": "inventorié",
+      "type_terme": "mot, expression",
+      "url": "https://www.elsassisch.eu/culture.alsace.pagesperso-orange.archive/page_o.htm",
+      "format_ligne": "<alsacien>.- <traduction(s) française(s)>",
+      "volumetrie_estimee": 189,
+      "notes": "Comptage brut des lignes « .- » (certaines entrées s'étendent sur plusieurs lignes, certaines pages portent des notes de prononciation en tête)."
+    },
+    {
+      "cle": "dico_fr_als_p",
+      "libelle": "Dictionnaire français → alsacien — lettre P (page_pf.htm)",
+      "statut": "inventorié",
+      "type_terme": "mot, expression",
+      "url": "https://www.elsassisch.eu/culture.alsace.pagesperso-orange.archive/page_pf.htm",
+      "format_ligne": "<français>.- <alsacien(s) séparés par des virgules>",
+      "volumetrie_estimee": 2476,
+      "notes": "Comptage brut des lignes « .- » (certaines entrées s'étendent sur plusieurs lignes, certaines pages portent des notes de prononciation en tête)."
+    },
+    {
+      "cle": "dico_als_fr_p",
+      "libelle": "Dictionnaire alsacien → français — lettre P (page_p.htm)",
+      "statut": "inventorié",
+      "type_terme": "mot, expression",
+      "url": "https://www.elsassisch.eu/culture.alsace.pagesperso-orange.archive/page_p.htm",
+      "format_ligne": "<alsacien>.- <traduction(s) française(s)>",
+      "volumetrie_estimee": 633,
+      "notes": "Comptage brut des lignes « .- » (certaines entrées s'étendent sur plusieurs lignes, certaines pages portent des notes de prononciation en tête)."
+    },
+    {
+      "cle": "dico_fr_als_q",
+      "libelle": "Dictionnaire français → alsacien — lettre Q (page_qf.htm)",
+      "statut": "inventorié",
+      "type_terme": "mot, expression",
+      "url": "https://www.elsassisch.eu/culture.alsace.pagesperso-orange.archive/page_qf.htm",
+      "format_ligne": "<français>.- <alsacien(s) séparés par des virgules>",
+      "volumetrie_estimee": 146,
+      "notes": "Comptage brut des lignes « .- » (certaines entrées s'étendent sur plusieurs lignes, certaines pages portent des notes de prononciation en tête)."
+    },
+    {
+      "cle": "dico_als_fr_q",
+      "libelle": "Dictionnaire alsacien → français — lettre Q (page_q.htm)",
+      "statut": "inventorié",
+      "type_terme": "mot, expression",
+      "url": "https://www.elsassisch.eu/culture.alsace.pagesperso-orange.archive/page_q.htm",
+      "format_ligne": "<alsacien>.- <traduction(s) française(s)>",
+      "volumetrie_estimee": 53,
+      "notes": "Comptage brut des lignes « .- » (certaines entrées s'étendent sur plusieurs lignes, certaines pages portent des notes de prononciation en tête)."
+    },
+    {
+      "cle": "dico_fr_als_r",
+      "libelle": "Dictionnaire français → alsacien — lettre R (page_rf.htm)",
+      "statut": "inventorié",
+      "type_terme": "mot, expression",
+      "url": "https://www.elsassisch.eu/culture.alsace.pagesperso-orange.archive/page_rf.htm",
+      "format_ligne": "<français>.- <alsacien(s) séparés par des virgules>",
+      "volumetrie_estimee": 1511,
+      "notes": "Comptage brut des lignes « .- » (certaines entrées s'étendent sur plusieurs lignes, certaines pages portent des notes de prononciation en tête)."
+    },
+    {
+      "cle": "dico_als_fr_r",
+      "libelle": "Dictionnaire alsacien → français — lettre R (page_r.htm)",
+      "statut": "inventorié",
+      "type_terme": "mot, expression",
+      "url": "https://www.elsassisch.eu/culture.alsace.pagesperso-orange.archive/page_r.htm",
+      "format_ligne": "<alsacien>.- <traduction(s) française(s)>",
+      "volumetrie_estimee": 781,
+      "notes": "Comptage brut des lignes « .- » (certaines entrées s'étendent sur plusieurs lignes, certaines pages portent des notes de prononciation en tête)."
+    },
+    {
+      "cle": "dico_fr_als_s",
+      "libelle": "Dictionnaire français → alsacien — lettre S (page_sf.htm)",
+      "statut": "inventorié",
+      "type_terme": "mot, expression",
+      "url": "https://www.elsassisch.eu/culture.alsace.pagesperso-orange.archive/page_sf.htm",
+      "format_ligne": "<français>.- <alsacien(s) séparés par des virgules>",
+      "volumetrie_estimee": 1542,
+      "notes": "Comptage brut des lignes « .- » (certaines entrées s'étendent sur plusieurs lignes, certaines pages portent des notes de prononciation en tête)."
+    },
+    {
+      "cle": "dico_als_fr_s",
+      "libelle": "Dictionnaire alsacien → français — lettre S (page_s.htm)",
+      "statut": "inventorié",
+      "type_terme": "mot, expression",
+      "url": "https://www.elsassisch.eu/culture.alsace.pagesperso-orange.archive/page_s.htm",
+      "format_ligne": "<alsacien>.- <traduction(s) française(s)>",
+      "volumetrie_estimee": 2424,
+      "notes": "Comptage brut des lignes « .- » (certaines entrées s'étendent sur plusieurs lignes, certaines pages portent des notes de prononciation en tête)."
+    },
+    {
+      "cle": "dico_fr_als_t",
+      "libelle": "Dictionnaire français → alsacien — lettre T (page_tf.htm)",
+      "statut": "inventorié",
+      "type_terme": "mot, expression",
+      "url": "https://www.elsassisch.eu/culture.alsace.pagesperso-orange.archive/page_tf.htm",
+      "format_ligne": "<français>.- <alsacien(s) séparés par des virgules>",
+      "volumetrie_estimee": 1365,
+      "notes": "Comptage brut des lignes « .- » (certaines entrées s'étendent sur plusieurs lignes, certaines pages portent des notes de prononciation en tête)."
+    },
+    {
+      "cle": "dico_als_fr_t",
+      "libelle": "Dictionnaire alsacien → français — lettre T (page_t.htm)",
+      "statut": "inventorié",
+      "type_terme": "mot, expression",
+      "url": "https://www.elsassisch.eu/culture.alsace.pagesperso-orange.archive/page_t.htm",
+      "format_ligne": "<alsacien>.- <traduction(s) française(s)>",
+      "volumetrie_estimee": 555,
+      "notes": "Comptage brut des lignes « .- » (certaines entrées s'étendent sur plusieurs lignes, certaines pages portent des notes de prononciation en tête)."
+    },
+    {
+      "cle": "dico_fr_als_u",
+      "libelle": "Dictionnaire français → alsacien — lettre U (page_uf.htm)",
+      "statut": "inventorié",
+      "type_terme": "mot, expression",
+      "url": "https://www.elsassisch.eu/culture.alsace.pagesperso-orange.archive/page_uf.htm",
+      "format_ligne": "<français>.- <alsacien(s) séparés par des virgules>",
+      "volumetrie_estimee": 104,
+      "notes": "Comptage brut des lignes « .- » (certaines entrées s'étendent sur plusieurs lignes, certaines pages portent des notes de prononciation en tête)."
+    },
+    {
+      "cle": "dico_als_fr_u",
+      "libelle": "Dictionnaire alsacien → français — lettre U (page_u.htm)",
+      "statut": "inventorié",
+      "type_terme": "mot, expression",
+      "url": "https://www.elsassisch.eu/culture.alsace.pagesperso-orange.archive/page_u.htm",
+      "format_ligne": "<alsacien>.- <traduction(s) française(s)>",
+      "volumetrie_estimee": 1001,
+      "notes": "Comptage brut des lignes « .- » (certaines entrées s'étendent sur plusieurs lignes, certaines pages portent des notes de prononciation en tête)."
+    },
+    {
+      "cle": "dico_fr_als_v",
+      "libelle": "Dictionnaire français → alsacien — lettre V (page_vf.htm)",
+      "statut": "inventorié",
+      "type_terme": "mot, expression",
+      "url": "https://www.elsassisch.eu/culture.alsace.pagesperso-orange.archive/page_vf.htm",
+      "format_ligne": "<français>.- <alsacien(s) séparés par des virgules>",
+      "volumetrie_estimee": 773,
+      "notes": "Comptage brut des lignes « .- » (certaines entrées s'étendent sur plusieurs lignes, certaines pages portent des notes de prononciation en tête)."
+    },
+    {
+      "cle": "dico_als_fr_v",
+      "libelle": "Dictionnaire alsacien → français — lettre V (page_v.htm)",
+      "statut": "inventorié",
+      "type_terme": "mot, expression",
+      "url": "https://www.elsassisch.eu/culture.alsace.pagesperso-orange.archive/page_v.htm",
+      "format_ligne": "<alsacien>.- <traduction(s) française(s)>",
+      "volumetrie_estimee": 941,
+      "notes": "Comptage brut des lignes « .- » (certaines entrées s'étendent sur plusieurs lignes, certaines pages portent des notes de prononciation en tête)."
+    },
+    {
+      "cle": "dico_fr_als_w",
+      "libelle": "Dictionnaire français → alsacien — lettre W (page_wf.htm)",
+      "statut": "inventorié",
+      "type_terme": "mot, expression",
+      "url": "https://www.elsassisch.eu/culture.alsace.pagesperso-orange.archive/page_wf.htm",
+      "format_ligne": "<français>.- <alsacien(s) séparés par des virgules>",
+      "volumetrie_estimee": 48,
+      "notes": "Comptage brut des lignes « .- » (certaines entrées s'étendent sur plusieurs lignes, certaines pages portent des notes de prononciation en tête)."
+    },
+    {
+      "cle": "dico_als_fr_w",
+      "libelle": "Dictionnaire alsacien → français — lettre W (page_w.htm)",
+      "statut": "inventorié",
+      "type_terme": "mot, expression",
+      "url": "https://www.elsassisch.eu/culture.alsace.pagesperso-orange.archive/page_w.htm",
+      "format_ligne": "<alsacien>.- <traduction(s) française(s)>",
+      "volumetrie_estimee": 917,
+      "notes": "Comptage brut des lignes « .- » (certaines entrées s'étendent sur plusieurs lignes, certaines pages portent des notes de prononciation en tête)."
+    },
+    {
+      "cle": "dico_fr_als_xy",
+      "libelle": "Dictionnaire français → alsacien — lettre XY (page_xyf.htm)",
+      "statut": "inventorié",
+      "type_terme": "mot, expression",
+      "url": "https://www.elsassisch.eu/culture.alsace.pagesperso-orange.archive/page_xyf.htm",
+      "format_ligne": "<français>.- <alsacien(s) séparés par des virgules>",
+      "volumetrie_estimee": 12,
+      "notes": "Comptage brut des lignes « .- » (certaines entrées s'étendent sur plusieurs lignes, certaines pages portent des notes de prononciation en tête)."
+    },
+    {
+      "cle": "dico_als_fr_xy",
+      "libelle": "Dictionnaire alsacien → français — lettre XY (page_xy.htm)",
+      "statut": "inventorié",
+      "type_terme": "mot, expression",
+      "url": "https://www.elsassisch.eu/culture.alsace.pagesperso-orange.archive/page_xy.htm",
+      "format_ligne": "<alsacien>.- <traduction(s) française(s)>",
+      "volumetrie_estimee": 12,
+      "notes": "Comptage brut des lignes « .- » (certaines entrées s'étendent sur plusieurs lignes, certaines pages portent des notes de prononciation en tête)."
+    },
+    {
+      "cle": "dico_fr_als_z",
+      "libelle": "Dictionnaire français → alsacien — lettre Z (page_zf.htm)",
+      "statut": "inventorié",
+      "type_terme": "mot, expression",
+      "url": "https://www.elsassisch.eu/culture.alsace.pagesperso-orange.archive/page_zf.htm",
+      "format_ligne": "<français>.- <alsacien(s) séparés par des virgules>",
+      "volumetrie_estimee": 47,
+      "notes": "Comptage brut des lignes « .- » (certaines entrées s'étendent sur plusieurs lignes, certaines pages portent des notes de prononciation en tête)."
+    },
+    {
+      "cle": "dico_als_fr_z",
+      "libelle": "Dictionnaire alsacien → français — lettre Z (page_z.htm)",
+      "statut": "inventorié",
+      "type_terme": "mot, expression",
+      "url": "https://www.elsassisch.eu/culture.alsace.pagesperso-orange.archive/page_z.htm",
+      "format_ligne": "<alsacien>.- <traduction(s) française(s)>",
+      "volumetrie_estimee": 698,
+      "notes": "Comptage brut des lignes « .- » (certaines entrées s'étendent sur plusieurs lignes, certaines pages portent des notes de prononciation en tête)."
+    },
+    {
       "cle": "villes_villages_hr",
       "libelle": "Villes et villages du Haut-Rhin",
-      "statut": "à inventorier",
+      "statut": "inventorié",
       "type_terme": "toponyme",
       "url": "https://www.elsassisch.eu/culture.alsace.pagesperso-orange.archive/villes_villages.htm",
       "format_ligne": "<code postal> <nom alsacien> <nom français>",
       "region": "haut_rhin",
-      "notes": "Le code postal 68xxx porte la région. Première donnée du projet qui remplira réellement le champ region."
+      "volumetrie_estimee": 401,
+      "notes": "3 colonnes parallèles par bloc de lettre (ordre : code postal | nom alsacien | nom français). Comptage : 401 codes, 399 noms alsaciens, 401 noms français — la colonne alsacienne compte 2 cellules de moins : alignement par position à vérifier au parse. Le code postal 68xxx porte la région."
     },
     {
       "cle": "villes_villages_br",
       "libelle": "Villes et villages du Bas-Rhin",
-      "statut": "à inventorier",
+      "statut": "inventorié",
       "type_terme": "toponyme",
       "url": "https://www.elsassisch.eu/culture.alsace.pagesperso-orange.archive/villes_villagesB.R.htm",
-      "format_ligne": "<code postal> <nom alsacien> <nom français>",
+      "format_ligne": "<code postal> <nom français> <nom alsacien>",
       "region": "bas_rhin",
-      "notes": "Code postal 67xxx."
+      "volumetrie_estimee": 596,
+      "notes": "Ordre des colonnes DIFFÉRENT du Haut-Rhin : code postal | nom français | nom alsacien. Comptage : 596 cellules de codes (dont 18 coquilles « O » pour « 0 », ex. 6731O, et un code à 4 chiffres : 6730), 573 noms français, 601 noms alsaciens — colonnes déséquilibrées, alignement par position à vérifier au parse. Le code postal 67xxx porte la région."
     },
     {
       "cle": "prenoms",
       "libelle": "Prénoms alsaciens",
-      "statut": "à inventorier",
+      "statut": "inventorié",
       "type_terme": "prenom",
       "url": "https://www.elsassisch.eu/culture.alsace.pagesperso-orange.archive/prenomsalsaciens.htm",
       "format_ligne": "<prénom(s) alsacien(s) séparés par /> <prénom français>",
-      "volumetrie_estimee": 170,
-      "notes": "Une ligne JSONL par variante alsacienne : « Màri / Maria » → deux attestations pour le français « Marie », même graphie_origine."
+      "volumetrie_estimee": 136,
+      "notes": "Paires de colonnes (alsacien en gras | français) par bloc de lettre. 136 paires, 179 formes alsaciennes une fois les variantes « / » éclatées : chaque variante d'une même paire produira une attestation pour le même prénom français, avec la même graphie_origine."
     }
   ],
-  "inventaire_complet": false,
-  "_a_faire": "ed-prospecteur : parcourir l'arborescence du miroir et compléter 'rubriques' avec les pages restantes, puis passer inventaire_complet à true. John mentionne 6 pages et 2 thèmes supplémentaires — les trois URL ci-dessus sont celles qu'il a fournies, le reste est à relever."
+  "inventaire_complet": true
 }

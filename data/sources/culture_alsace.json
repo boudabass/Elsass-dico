@@ -521,13 +521,13 @@
     {
       "cle": "villes_villages_hr",
       "libelle": "Villes et villages du Haut-Rhin",
-      "statut": "extrait",
+      "statut": "vérifié",
       "type_terme": "toponyme",
       "url": "https://www.elsassisch.eu/culture.alsace.pagesperso-orange.archive/villes_villages.htm",
       "format_ligne": "<code postal> <nom alsacien> <nom français>",
       "region": "haut_rhin",
       "volumetrie_estimee": 401,
-      "notes": "3 colonnes parallèles par bloc de lettre (ordre : code postal | nom alsacien | nom français). Comptage : 401 codes, 399 noms alsaciens, 401 noms français — la colonne alsacienne compte 2 cellules de moins : alignement par position à vérifier au parse. Le code postal 68xxx porte la région."
+      "notes": "3 colonnes parallèles par bloc de lettre (ordre : code postal | nom alsacien | nom français). Inventaire : 401 codes, 399 noms alsaciens, 401 noms français (2 cellules alsaciennes vides). Vérifié par ed-verificateur (t_c1be5ce4, verdict CONFORME) : 397 attestations, 4 omissions documentées — 2 nom alsacien absent (Chavannes-sur l'Etang L103, Vieil-Armand L584), 2 colonne française hors référentiel officiel (68580 Schtrüet Eschie → Strueth, 68600 Owersààsa Owersààsa → Obersaasheim ; décision GATE inventaire, omises règle 3, jamais corrigées). Le code postal 68xxx porte la région."
     },
     {
       "cle": "villes_villages_br",

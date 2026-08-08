@@ -521,7 +521,7 @@
     {
       "cle": "villes_villages_hr",
       "libelle": "Villes et villages du Haut-Rhin",
-      "statut": "inventorié",
+      "statut": "extrait",
       "type_terme": "toponyme",
       "url": "https://www.elsassisch.eu/culture.alsace.pagesperso-orange.archive/villes_villages.htm",
       "format_ligne": "<code postal> <nom alsacien> <nom français>",

@@ -184,6 +184,36 @@ def valider_orthal(objet: dict, chemin: Path, numero: int) -> dict:
     }
 
 
+def inventaire_data() -> list[tuple[str, str, str]]:
+    """(dossier, source, rubrique) de chaque JSONL déposé dans data/."""
+    trouves = []
+    for dossier in ("attestations", "orthal"):
+        for chemin in sorted((DATA / dossier).glob("*__*.jsonl")):
+            source, _, rubrique = chemin.stem.partition("__")
+            trouves.append((dossier, source, rubrique))
+    return trouves
+
+
+def message_rien_trouve(motif: str, source: str | None) -> str:
+    """Nomme ce que data/ contient réellement : une erreur qui ne dit pas quoi
+    corriger oblige à aller lire le dossier, et on finit par deviner."""
+    inventaire = inventaire_data()
+    lignes = [f"Aucun fichier ne correspond à {motif}."]
+
+    if not inventaire:
+        lignes.append("data/attestations/ et data/orthal/ ne contiennent aucun JSONL.")
+    elif source and any(s == source for _, s, _ in inventaire):
+        lignes.append(f"Rubriques déposées pour {source} :")
+        lignes += [f"  --rubrique {r}   ({d})"
+                   for d, s, r in inventaire if s == source]
+    else:
+        lignes.append("Sources et rubriques déposées :")
+        lignes += [f"  --source {s} --rubrique {r}   ({d})"
+                   for d, s, r in inventaire]
+
+    return "\n".join(lignes)
+
+
 def signaler_doublons_internes(lignes: list[dict], chemin: Path) -> list[str]:
     """Deux fois la même clé dans un seul fichier : bug de parseur, pas doublon
     de source. La base l'absorberait en silence — autant le dire."""
@@ -490,6 +520,16 @@ def main() -> int:
     # Avant la vérification des identifiants : n'avoir rien à faire n'est pas
     # une erreur de configuration.
     if not attestations and not propositions:
+        # Sauf si l'utilisateur a nommé ce qu'il voulait ingérer. Un filtre
+        # explicite qui ne désigne aucun fichier est une faute de frappe ou une
+        # rubrique pas encore déposée — jamais une intention. Sortir 0 ferait
+        # passer « je n'ai rien trouvé » pour « c'est ingéré », et le lot
+        # manquant ne se verrait qu'au prochain comptage en base. Le cas s'est
+        # présenté : la fiche source nomme la rubrique « prenoms » là où le
+        # fichier s'appelait « ...__prenomsalsaciens.jsonl ».
+        if args.source or args.rubrique:
+            print(message_rien_trouve(motif, args.source), file=sys.stderr)
+            return 1
         print(f"Aucun fichier à ingérer (motif {motif}).")
         return 0
 

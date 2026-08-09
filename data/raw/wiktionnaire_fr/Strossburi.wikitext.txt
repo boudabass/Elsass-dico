@@ -1,0 +1,21 @@
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: {{composé de|Stross|buri|lang=gsw|sens1=route|sens2=château fort}} en alsacien (équivalent à l’allemand ''{{lien|Burg|de}}'').
+
+=== {{S|nom propre|gsw}} ===
+'''Strossburi''' {{pron||gsw}}
+# {{localités|gsw|de France}} [[Strasbourg#Français|Strasbourg]] (ville de [[France]]).
+
+==== {{S|synonymes}} ====
+* [[Schdroosburi]]
+* [[Strassburg]]
+
+== {{langue|gsw-fr}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étyl|gsw|gsw-fr|Strossburi}}, {{composé de|Stross|Buri|lang=gsw-fr}}.
+
+=== {{S|nom propre|gsw-fr}} ===
+[[File:Absolute place Kleber 02.jpg|thumb|'''Strossburi''']]
+'''Strossburi''' {{pron|ʃtʁosbɔʁi|gsw-fr}}
+# [[Strasbourg#Français|Strasbourg]].

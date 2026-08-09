@@ -1,0 +1,53 @@
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Altenach
+| nomalsacien = Àltenàcht
+| alt moy = 350
+| alt mini = 313
+| alt maxi = 386
+| km² = 6.18
+}}
+'''Àltenàcht''' (([[IPA]]: {{IPA|[ˈɑld̥ənɑxd̥]}}, frz. ''Altenach'') isch e [[Frankreich|frànzeesche]] Gmein ìm [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}} ({{Kanton|FR|{{#Property:P374}}}}) ìm [[Département Haut-Rhin|Owerelsàss]] (Haut-Rhin).
+
+== Geographi ==
+Dr Ort lijt am Südrand vun dr [[Vogesen|Vogese]] un ém owere Larguetal. Nochbergmàine sén [[Dannemarie (Haut-Rhin)|Dammerkirech]] un [[Manspach|Manschpach]] ém Norde un [[Saint-Ulrich]] ém Side.
+
+== Gschichte ==
+Dr Name leitet sich wohrschins vun ''Alti Ach'' (= Alter Bach) her.
+
+Àltenàcht wird s'erscht Mol anno 1302 erwähnt. Es hat zu der Grafschaft Ferrette ghért. Ém Schloss, wu oi 1302 zum èrschte Mol erwàhnt wérd, han d'Hèrre vu Àltenàcht glàbt; der lètscht vu éhne ésch der Richard gsé. Noch sinem Dod ésch der Ort an der Adel vu [[Brinighoffen|Brinighoffe]] (héte [[Saint-Bernard (Haut-Rhin)|Saint-Bernard]]) éwergange, derno hat en d'Famélie Klötzlin vu [[Hindlingen|Héndlénge]] kaift. Sàlle Famélie hat derno oi der Name ''Klötzlin vu Altenach'' agnu.
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vo Àltenàcht isch {{Maires|FR|{{#Property:P374}}}}. D Gmeind ghert zum Gmeindsverband {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Bevölkerung==
+D'Inwohnerzahl isch 1962 bi 229 Lit glege un bis 1990 uf 360 Persone agstige. Bis 1999 isch si no uf 344 Lit gsunke.
+
+== Séheswérdigkàite ==
+Én der Urkunde vu 1302 wérd oi e Pfarrkérch gnànnt. Sé ésch ém [[Dreißigjähriger Krieg|Drissigjéhrige Krieg]] zerstért wore un héte ésch nume noch d Kapàlle ébrig. D andere Kérch ésch àndwàder 1790 oder 1810 boit wore. 1829 ésch oi a Orgle inekumme, wu s lètscht Exemplar vu éhrem Hàrstèller ésch; 1854 sén der Glocketurm un s Vordach boit wore. 1990 hat e Restaurierig under anderem vu der Orgle stattgfunde.
+
+D Schüel vu Àltenàcht ésch 1838 fèrtig gsé un hat zwài Klassezémmer, e Wohnrüm un e Bérgermàisterbüro. Oi sé ésch méhrere Mol restauriert wore.
+
+{|
+|[[Datei:Altenach, Église Saint-Sylvestre.jpg|thumb|left|upright 0.8|Pfarrkérch Saint-Sylvestre]]
+|[[Datei:Altenach, École.jpg|thumb|left|Schüel]]
+|}
+
+== Dialekt ==
+Dr [[Elsässisch|elsassisch]] Dialekt vun Àltenàcht ghert zem [[Oberrheinalemannisch|Owerrhinàlemànnisch]].
+
+== Weblink ==
+{{Commonscat}}
+* [http://www.cc-porte-alsace.fr/territoire_intercom/altenach/altenach.htm www.cc-porte-alsace.fr]
+
+== Referanza ==
+<references/>
+
+{{Navigationsleiste Gemeinden im Kanton Masmünster}}
+
+{{Übersetzungshinweis|de| altenach|dütsch}}
+
+{{Normdaten}}
+
+[[Kategorie:Ort (Owerelsàss)]]

@@ -1,0 +1,19 @@
+{
+ "source": "Wörterbuch der elsässischen Mundarten (Martin & Lienhart), via Wörterbuchnetz API",
+ "lemme_recherche": "Straßburg",
+ "resultat_lemmata": [
+  {
+   "value": "P01762",
+   "label": "Stra&#x00df;burg",
+   "gram": ""
+  }
+ ],
+ "bookref": [
+  {
+   "lemma": "Stra&#x00df;burg",
+   "gram": "",
+   "bookref": "2,86b,45"
+  }
+ ],
+ "note": "Échantillon de qualification — une page (résultat de recherche de lemme + localisation). Le texte de l'article est en Bd. 2, Sp. 86b, Z. 45."
+}

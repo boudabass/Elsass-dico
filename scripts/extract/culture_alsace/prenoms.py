@@ -2,7 +2,11 @@
 """Parseur de la rubrique prenoms — source culture_alsace.
 
 Lit data/raw/culture_alsace/prenomsalsaciens.htm (JAMAIS le réseau) et
-produit data/attestations/culture_alsace__prenomsalsaciens.jsonl.
+produit data/attestations/culture_alsace__prenoms.jsonl.
+
+Le brut garde le nom de la page (prenomsalsaciens.htm) et le JSONL prend celui
+de la RUBRIQUE (prenoms) : c'est la clé de rubrique de la fiche source qui
+nomme le lot, sinon --rubrique ne le désigne pas.
 
 STRUCTURE DE LA PAGE (constatée sur le brut, jamais déduite)
 ------------------------------------------------------------
@@ -69,7 +73,7 @@ from pathlib import Path
 
 REPO = Path(__file__).resolve().parents[3]
 RAW = REPO / "data" / "raw" / "culture_alsace" / "prenomsalsaciens.htm"
-OUT = REPO / "data" / "attestations" / "culture_alsace__prenomsalsaciens.jsonl"
+OUT = REPO / "data" / "attestations" / "culture_alsace__prenoms.jsonl"
 
 SOURCE_CODE = "culture_alsace"
 TYPE = "prenom"

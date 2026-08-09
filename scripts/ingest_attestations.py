@@ -34,7 +34,8 @@ Usage :
     python scripts/ingest_attestations.py                    # simulation, tout data/
     python scripts/ingest_attestations.py --apply            # ingestion réelle
     python scripts/ingest_attestations.py --source culture_alsace --apply
-    python scripts/ingest_attestations.py --source culture_alsace --apply --resync
+    python scripts/ingest_attestations.py --source culture_alsace \
+        --rubrique villes_villages_hr --apply --resync
 """
 
 from __future__ import annotations
@@ -456,6 +457,9 @@ def main() -> int:
                          help="écrire réellement en base (sinon : simulation)")
     parseur.add_argument("--source", metavar="CODE",
                          help="ne traiter que les fichiers de cette source")
+    parseur.add_argument("--rubrique", metavar="CODE",
+                         help="ne traiter qu'une rubrique de la source "
+                              "(ex. villes_villages_hr)")
     parseur.add_argument("--resync", action="store_true",
                          help="réaligner les attestations déjà en base sur le "
                               "fichier (corrige les colonnes hors clé)")
@@ -464,8 +468,22 @@ def main() -> int:
     if args.resync and not args.apply:
         print("--resync écrit en base : le combiner avec --apply.", file=sys.stderr)
         return 1
+    if args.rubrique and not args.source:
+        print("--rubrique désigne une rubrique d'une source : préciser --source.",
+              file=sys.stderr)
+        return 1
 
-    motif = f"{args.source}__*.jsonl" if args.source else "*.jsonl"
+    # Une source a plusieurs rubriques, et elles n'avancent pas au même rythme :
+    # au 11/08/2026 culture_alsace en avait une ingérée, une vérifiée et une
+    # seulement extraite, côte à côte dans data/attestations/. Réingérer « la
+    # source » emporterait donc les rubriques qui n'ont pas passé leur GATE.
+    # --rubrique restreint le lot à ce qu'un humain a réellement autorisé.
+    if args.rubrique:
+        motif = f"{args.source}__{args.rubrique}.jsonl"
+    elif args.source:
+        motif = f"{args.source}__*.jsonl"
+    else:
+        motif = "*.jsonl"
     attestations = sorted((DATA / "attestations").glob(motif))
     propositions = sorted((DATA / "orthal").glob(motif))
 

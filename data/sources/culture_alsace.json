@@ -527,7 +527,14 @@
       "format_ligne": "<code postal> <nom alsacien> <nom français>",
       "region": "haut_rhin",
       "volumetrie_estimee": 401,
-      "notes": "3 colonnes parallèles par bloc de lettre (ordre : code postal | nom alsacien | nom français). Comptage : 401 codes, 399 noms alsaciens, 401 noms français — la colonne alsacienne compte 2 cellules de moins : alignement par position à vérifier au parse. Le code postal 68xxx porte la région."
+      "notes": "3 colonnes parallèles par bloc de lettre (ordre : code postal | nom alsacien | nom français). Comptage : 401 codes, 399 noms alsaciens, 401 noms français — la colonne alsacienne compte 2 cellules de moins : alignement par position à vérifier au parse. Le code postal 68xxx porte la région.",
+      "verification": {
+        "verdict": "CONFORME",
+        "carte": "t_bb34f41b",
+        "echantillon": "30/30",
+        "graine": "20260810",
+        "date": "2026-08-09"
+      }
     },
     {
       "cle": "villes_villages_br",
@@ -538,7 +545,14 @@
       "format_ligne": "<code postal> <nom français> <nom alsacien>",
       "region": "bas_rhin",
       "volumetrie_estimee": 602,
-      "notes": "Ordre des colonnes DIFFÉRENT du Haut-Rhin : code postal | nom français | nom alsacien. Comptage : 602 cellules de codes (dont 2 vides), 16 coquilles « O » pour « 0 » (14 codes distincts ; 6727O ×2 ; 6731O ×2), 1 code à 4 chiffres : 6730 — colonnes déséquilibrées : 601 noms français (colonne 18%), 573 noms alsaciens non vides (colonne 19%), alignement par position à vérifier au parse. Le code postal 67xxx porte la région."
+      "notes": "Ordre des colonnes DIFFÉRENT du Haut-Rhin : code postal | nom français | nom alsacien. Comptage : 602 cellules de codes (dont 2 vides), 16 coquilles « O » pour « 0 » (14 codes distincts ; 6727O ×2 ; 6731O ×2), 1 code à 4 chiffres : 6730 — colonnes déséquilibrées : 601 noms français (colonne 18%), 573 noms alsaciens non vides (colonne 19%), alignement par position à vérifier au parse. Le code postal 67xxx porte la région.",
+      "verification": {
+        "verdict": "CONFORME",
+        "carte": "t_94cad4ec",
+        "echantillon": "30/30",
+        "graine": "20260811",
+        "date": "2026-08-09"
+      }
     },
     {
       "cle": "prenoms",
@@ -548,7 +562,14 @@
       "url": "https://www.elsassisch.eu/culture.alsace.pagesperso-orange.archive/prenomsalsaciens.htm",
       "format_ligne": "<prénom(s) alsacien(s) séparés par /> <prénom français>",
       "volumetrie_estimee": 136,
-      "notes": "Paires de colonnes (alsacien en gras | français) par bloc de lettre. 136 paires, 179 formes alsaciennes une fois les variantes « / » éclatées : chaque variante d'une même paire produira une attestation pour le même prénom français, avec la même graphie_origine."
+      "notes": "Paires de colonnes (alsacien en gras | français) par bloc de lettre. 136 paires, 179 formes alsaciennes une fois les variantes « / » éclatées : chaque variante d'une même paire produira une attestation pour le même prénom français, avec la même graphie_origine.",
+      "verification": {
+        "verdict": "CONFORME",
+        "carte": "t_024274c8",
+        "echantillon": "30/30",
+        "graine": "20260809",
+        "date": "2026-08-09"
+      }
     }
   ],
   "inventaire_complet": true

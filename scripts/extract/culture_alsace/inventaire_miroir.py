@@ -135,7 +135,8 @@ def main() -> int:
     # page. Les trois rubriques villes/prenoms sont remplacées par leur version
     # inventoriée ci-dessous. Les statuts de cycle de vie (inventorié → extrait
     # → vérifié → ingéré) appartiennent au studio : la régénération les
-    # préserve, elle ne les réinitialise pas.
+    # préserve, elle ne les réinitialise pas. Idem pour les blocs
+    # « verification » (verdict de carte, graine, échantillon).
     ancienne = json.loads(FICHE.read_text(encoding="utf-8"))["rubriques"]
     statut_precedent = {r["cle"]: r["statut"] for r in ancienne}
     rubriques = [r for r in ancienne if r["cle"] == "lexique_a_d"]
@@ -241,6 +242,19 @@ def main() -> int:
                  "produira une attestation pour le même prénom français, avec "
                  "la même graphie_origine.",
     })
+
+    # --- 3bis. verdicts de verification preserves (comme statut) ---
+    # Regle John (09/08/2026) : le generateur calcule ce qu'il tire du brut
+    # et PRESERVE ce qui releve d'un jugement humain ou d'un verdict de carte.
+    # S'il ecrase un verdict, c'est le generateur qui a un defaut — pas le
+    # verdict qui etait mal range.
+    verification_precedente = {
+        r["cle"]: r.get("verification") for r in ancienne
+    }
+    for r in rubriques:
+        v = verification_precedente.get(r["cle"])
+        if v:
+            r["verification"] = v
 
     # --- 4. fiche ---
     fiche = json.loads(FICHE.read_text(encoding="utf-8"))

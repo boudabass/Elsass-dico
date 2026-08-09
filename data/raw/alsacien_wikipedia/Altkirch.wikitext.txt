@@ -1,0 +1,60 @@
+{{DISPLAYTITLE:Àltkìrech}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Altkirch
+| nomalsacien = Àltkìrech
+| alt moy = 303
+| alt mini = 274
+| alt maxi = 392
+| km² = 9.54
+|}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Àltkìrech''' ([[Französische Sprache|frz.]] ''Altkirch'', [[Deutsche Sprache|dt.]] ''Altkirch'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Haut-Rhin|Owerelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}.
+
+== Geogràfi ==
+Àltkìrech lijt uf eme Biel iwer em Flissel [[Ill (Elsass)|Ill]] un ìsch dr zentràl Ort vum [[Sundgau|Sundgöi]]. Uf [[Basel]] ìm Oschte sìn s rund 30 Kilometer, uf [[Belfort]] im Weschte 42 Kilometer un uf [[Mülhausen|Mìlhüüse]] im Norde 19 Kilometer.
+
+Nochbergmeine vun Àltkìrech sìn [[Aspach (Oberelsass)|Ààschpi]] un [[Walheim (Oberelsass)|Wàhle]] im Norde, [[Wittersdorf|Witterschdorf]] ìm Oschte, [[Hirsingue|Hìrsinge]] un [[Hirtzbach|Hìrzbàch]] ìm Sìde un [[Karspach|Kàrschbàch]] im Nordweschte.
+
+== Gschìcht ==
+Àltkìrech ìsch zem erschte Mol gnannt worre ànne 1102 àls ''Altikirich''. Ànne 1324 ìsch s dur e Hochzitt ìn dr Bsìtz vum [[Habsburger|Hüüs Habsburg]] kumme. Zytter em [[Westfälischer Frieden|Weschtfälische Frìde]] (1648) ghert d Stàdt – mìt re Unterbrachung vun 1871 bìs 1919 – züe Frànkrich. Dr Kinni [[Ludwig XIV.]] het sa 1659 em Kardinal [[Jules Mazarin|Mazarin]] gschankt.
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Àltkìrech ìsch {{Maires|FR|{{#Property:P374}}}}. Àltkìrech ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+==Bevelkerungsentwicklung ==
+{|class="wikitable"
+|-class="hintergrundfarbe5"
+|'''Johr'''
+! 1851 !! 1962 !! 1968 !! 1975 !! 1982 !! 1990 !! 1999 !! 2006
+|-
+|'''Iinwohner''' || 3611 || 4246 || 5118 || 5319 || 5268 || 5090 || 5386 || 5575
+|}
+
+== Dialekt ==
+Dr [[Elsässisch|elsassisch]] Dialekt vun Àltkìrech ghert zem [[Oberrheinalemannisch|Owerrhinàlemànnisch]].
+
+<gallery>
+Datei:Altkirch,_Eglise_Notre-Dame_de_l'Assomption.jpg|Wàllfàhrtskìrech St. Morandus
+Datei:Altkirch, Rue du Général-de-Gaulle.jpg|Rue du Général-de-Gaulle
+Datei:Altkirch, Fontaine de la Vierge.jpg|Jumpfere-Brunne àm Place de la République
+Datei:Synagogue d'Altkirch.JPG|Synagog
+</gallery>
+
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+{{commonscat}}
+*[http://www.alsace-passion.com/deut/altkirch_de_1.htm Ìwer Àltkìrech]
+*{{HLS|7355|Altkirch (F)|Autor=Jean-Luc Eichenlaub}}
+
+== Referanza ==
+<references/>
+
+{{Navigationsleiste Gemeinden im Kanton Altkirch}}
+
+{{Normdaten}}
+
+[[Kategorie:Ort (Owerelsàss)]]

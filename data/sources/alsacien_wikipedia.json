@@ -1,0 +1,24 @@
+{
+  "code": "alsacien_wikipedia",
+  "nom": "Wikipedia en alsacien (als.wikipedia.org)",
+  "url": "https://als.wikipedia.org/",
+  "type": "wiki",
+  "annee": null,
+  "licence": "CC BY-SA 4.0",
+  "fiabilite": 2,
+  "notes": "Source collaborative : chaque article porte la graphie de son rédacteur, non harmonisée entre articles ni avec aucune autre source. À traiter comme 1 source sur N. Le lot restreint pilote (10 communes) est un recoupement avec culture_alsace : les divergences de forme sont préservées et listées dans le rapport de carte, jamais corrigées (règle 1 du contrat).",
+  "rubriques": [
+    {
+      "cle": "toponymes",
+      "libelle": "Toponymes — communes (champ « nomalsacien » de l'infobox « Gemeinde in Frankreich »)",
+      "statut": "extrait",
+      "type_terme": "toponyme",
+      "url": "https://als.wikipedia.org/wiki/<Commune>?action=raw (un article par commune)",
+      "format_ligne": "{{Infobox Gemeinde in Frankreich\\n| nomalsacien = <forme alsacienne>",
+      "volumetrie": 10,
+      "emplacement": "data/raw/alsacien_wikipedia/<commune>.wikitext.txt",
+      "notes": "Lot restreint pilote de 10 communes (GATE John 09/08/2026, article 725). La généralisation à l'ensemble des communes ne se lance qu'après le GATE. francais, contexte et region sont repris de la base culture_alsace (recoupement, jamais déduits de l'article)."
+    }
+  ],
+  "inventaire_complet": false
+}

@@ -1,0 +1,222 @@
+{{DISPLAYTITLE:Kolmer}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Colmar
+| nomalsacien = Colmer
+| alt moy = 197
+| alt mini = 175
+| alt maxi = 214
+| km² = 66.57
+| image = Colmar - Alsace.jpg
+| description = Colmar, Altstadt
+|}}
+
+'''Kolmer''' oder '''Colmer''' ([[IPA]]: {{IPA|[kolmər]}}; vo [[Lateinische Sprache|Latiin]]: ''columbarium'' (Düüwehüs)), (amtl. ''Colmar'') leijt ém zentrale [[Elsass]], ém Norde vum südlich [[Département]] [[Département Haut-Rhin|Haut-Rhin]] (Owerèlsass), wo es als Sitz von dr [[Präfektur (Frankreich)|Präfektür]] d Häuptstadt devu isch. Kolmer hat e pittoresques Stadtbild, sehr bekànnt isch d "Rue des Marchands". Zamme mit [[Straßburg|Strossburi]] und [[Mülhausen|Milhüüsa]] ghéért Kolmer züe de drei grééschti Städt im Elsass.
+
+== Géografi ==
+=== Lag ===
+Kolmer légt am Füeß vu der [[Vogesen|Vogése]] un ésch d dréttgréschte Stadt vum Èlsass un noch [[Mülhausen|Méhlhüse]] d zwàitgréschte vum Département. D Entfèrnung vu Stroßburg ésch 75 Kilométer, vu [[Basel]] 65 un vu der Grànze zum Ditschland 20 Kilométer. D große Flughàfe vu Europa sén oi nét allzüe wit ewèg ([[Flughafen Basel-Mülhausen|Flughafe Basel-Milhüüsa]]).
+
+{| class="wikitable" style="text-align:center; font-size:95%;"
+!width="140px"| !! [[Paris]] !! [[Lyon]] !! [[Frankfurt am Main|Frankfurt]] !! [[Brüssel|Bréssel]] !! [[Zürich|Züri]] !! [[Mailand|Màiland]]</tr>
+|-
+|-style="background: #FFFFFF"
+|align="left"| Entfèrnung || 453 km || 413 km || 285 km || 476 km || 150 km || 403 km</tr>
+|align="left"| Fahrtzit || 5h41 || 3h49 || 2h52 || 4h53 || 1h40 || 4h27
+|}
+
+Durch d Néchi vu der Vogése kat me oi d nèchste Wéntersportstatione énnerhalb vu 30 Minute erràiche. D Alpe én der Schwiz sén rund drèi Stunde vu der Stadt ewèg.
+
+Kolmer légt oi én der Néchi vu méhrere Gwàsser. D wéchtigste sén d [[Lauch (Fluss)|Laich]] un der Kanal [[Logelbach]]. Èstlig vu Kolmer fließt d'[[Ill (Elsass)|Éll]] dure.
+
+;Nochbergmàinde
+{{Nachbargemeinden|NORDWEST=[[Ingersheim (Oberelsass)|Ingersa]] – [[Türkheim (Oberelsass)|Dìrka]]|NORD=[[Hausen (Oberelsass)|Hüssa]]|NORDOST=[[Jebsheim|Iebsa]]|WEST=[[Winzenheim|Wìnzne]]|OST=[[Horbourg-Wihr|Horburg-Wihr]]|SÜDWEST=[[Wettolsheim|Wattelse]]|SÜD=[[Sainte-Croix-en-Plaine|Heilikriz]]|SÜDOST=[[Andolsheim|Andolsa]]}}
+
+=== Klima ===
+Obwohl Kolmer métte én ere sémi-kontinentale Région légt wie s ràstlig Èlsass, d Lorraine un Franche-Comté, ésch es noch [[Marseille]] d zwàitdruckeste Stadt vu Frankrich; d Néderschlagsmànge ésch verglichbar mét sàller én Clermont-Ferrant én der [[Auvergne]]. Bro Johr ghèie durchschnéttlig 530 Milliméter Néderschlag. (Amèrkung: ém Internet féndet mer vilmol Quèlle, wu e gréßere Mànge agàn. Sàlle Zahle kumme vu Météo-France un sén àigentlig én Colmar-Meyenem gmàsse wore, wu ca. 20 Kilométer vu der Stadt ewèg ésch un nét ém Flachland am Füeß vu de Vogése légt).
+
+S druckene Klima légt am Féhn: Wil Kolmer diràkt am Füeß vu de héchste Gépfel vu der Vogése légt, wàre d Wulke vu de Kàmm vu de Bàrg ufghalte un e Großdàil vu éhrem Wasser ghèit uf d Lorraine, wàhrend Kolmer rélativ drucke blibt. Eso ghèit én Épinal éwer e Méter Néderschlag bro Johr un 1,6 Méter ém Col de la Schlucht.
+
+<center>
+{| class="wikitable" style="text-align:right; font-size:95%;"
+!width="140px"| Stadt !! Sunnestunde !! Ràge !! Schnée !! Gwétter !! Nàbel
+|-
+|-style="background: #D1E8FF"
+|align="left"| Kolmer<ref name="colmarlinternaute">[http://www.journaldunet.com/management/ville/ville/climat/1003/colmar.shtml Site de l'Internaute, Encyclopédie des villes]</ref> || 1.723 h/J. || 530 mm/J || 26 Dàg/J. || 24 Dàg/J. || 59 Dàg/J.</tr>
+|align="left"| [[Straßburg|Stroßburg]] || 1 637 h/J. || 610 mm/J. || 30 Dàg/J. || 29 Dàg/J. || 65 Dàg/J.</tr>
+|align="left"| [[Paris]] || 1.797 h/J. || 642 mm/J. || 15 Dàg/J. || 19 Dàg/J. || 13 Dàg/J.</tr>
+|align="left"| [[Nizza]] || 2.694 h/J. || 767 mm/J. || 1 Dàg/J. || 31 Dàg/J. || 1 Dàg/J.</tr>
+|align="left"| Durchschnétt vu Frankrich || 1.973 h/J. || 770 mm/J. || 14 Dàg/J. || 22 Dàg/J. || 40 Dàg/J.</tr>
+|}
+</center>
+
+==== Bsundere météorologische Eràignis ====
+Ém Dézàmber 1999 hat e Sturm ganz Wèsteuropa durchfàgt. Én Kolmer sén am 26. Dézàmber Wéngschwéndigkàite vu 165 km/h gmàsse wore.
+
+Én der èrschte Hàlfte vum Augüst 2003 hat d Hétzewàlle oi Kolmer bedroffe. D maximale Tèmperatur hat mét 40,9 Grad e Wèrt erràicht, wu do vorhàr noch nie gmàsse wore ésch.
+
+Am 4. Mèrz 2006 sén énnerhalb vu eme àinzige Dag ém ganze Département 40 Zèntiméter Nèischnée ghèit. Das ésch zlètscht fast zwanzig Johr dervor bassiert gsé.
+
+== Gschécht ==
+=== Urspréng bis zur Réformation ===
+Kolmer wérd zum èrschte Mol ém Johr 823 erwàhnt, wu's der Louis le Pieux ''Columbarium'' der Abtèi vu Ménschter gschànkt hat. D Urkunde ésch am 12. Jüni én [[Frankfurt am Main]] unterzàichnet wore. Der Name vum haiptsàchlig bürlig bsédelte Ort làitet séch vum latinische Wort fér ''Dubeschlag'' ab. Ca. 965 ésch der Owerhof ans Kluniazànskloster Payere [[Kanton Waadt|VD]] ([[Schweiz|Schwiz]]) éwergange, der Néderhof an der Bischof vu [[Konstanz|Konschtanz]]. „Columbarium“ hat séch én der Folgezit witer entwéckelt un schu ém Johr 1000 e Kérech gha; ém 12. Johrhundert hat der Ort vum Friedrich von Hohenstaufen d Ràcht vu-ne-re Riichsstadt bikumme; e èrschte urkundlige Bezàichnung als Stadt ésch üs em Johr 1226 z fénde, 1295 wérd oi e Rothüs boie. Vu Kolmer ésch oi der àinzig Èlsàssisch Bapscht gsé, der Leo IX., wu do 1002 uf d Wàlt kumme ésch.
+
+1292 hat z Kolmer e Ufstand gége der Adolf von Nassau stattgfunde un ésch nédergschlage wore.
+
+Ém Johr 1337 ésch zum èrschte Mol vum Hafe Ladhof d'Réd. Vu do üs sén Gieter uf [[Straßburg|Stroßburg]] un spéter oi uf [[Amsterdam|Amschterdam]] verschéfft wore un zwàimol bro Johr sén Schéff züe der Frankfurter Màss gfahre.
+
+Sit 1376 dèrfe z Kolmer Ménze gschlage wàre.
+
+Ém Johr 1418 hat séch d'[[Pest|Pèst]] én Kolmer üsbràitet. Es hat schu 1349 e Épidémi gé gha, wu d'Ursach vu vile Massaker an der sit em 13. Johrhundert asàssige [[Judentum|Jude]] gsé ésch. Sàlle Jude sén ém Johr 1512 üs Kolmer verdrébe wore.
+
+=== Réformation ===
+S 15. un s 16. Johrhundert sén e Blietezit én der Gschécht vu der Stadt gsé. Do sén vile vu der schénste Geboide vu Kolmer entstande. Glichzitig hat's awer oi zwésche 1522 un 1525 Unrüe gé, begénschtigt oi durch d Druckerèi Farckall, wu Bropaganda fér em [[Martin Luther]] sine Schréfte bedrébe hat. Vum [[Bauernkrieg|Burekrieg]] ésch Kolmer aber nét bedroffe gsé. Nochdàm ém Johr 1575 d Réformation ribungslos igfiehrt wore ésch, hat der [[Dreißigjähriger Krieg|Drissigjéhrig Krieg]] e schwére Verwiestung vu der Stadt zum Ergébnis gha. Wàhrend em Krieg, ém Johr 1627, ésch d'Réformation ruckgàngig gmacht, under der [[Schweden|schwédische]] Bsatzung awer wéder igfiehrt wore. Ém Johr 1680, wu zwài Dréttel vu de Iwohner évangélisch gsé sén, hat me d lutheranische un d katholische Kérech enand glichgstèllt. E jüdische Synagog dergége hat's èrscht 1843 gé.
+
+1673 ésch Kolmer ém Verlauf vum franzésche Krieg gége [[Niederlande|Holland]] vu de Druppe vum Kénig Louis XVI. bsètzt wore. Noch em Krieg ésch se drotz Versüech, unabhàngig z wàre, Bsétz vum Kénig Louis XIV. gsé un 1678 ém Verdrag vu Nimègue e Kénigsstadt wore.
+
+=== Industrialisierung, Ufklàrung un Révolution ===
+1775 ésch e èrscht Zàiche vu Industrialisierung z beobachte. D Fabrik Haussmann z Logelbach stèllt druckte Stoff hér. Oi e Azeiche vu der Ufklàrung hat's gé, wu 1785 én der Litérarische Tabakstube (''Tabagie littéraire'') éwer d uffklàrerische Idée diskutiert wore sén. Ab 1790 ésch Kolmer d'Haiptstadt vum Département Haut-Rhin gsé. Éwer d Révolution ésch ab 1791 én der ''Société des Amis de la Liberté et de l'Egalité'' diskutiert wore. Zwài Johr spéter ésch üs em Strofgrécht e Révolutionsgrécht wore un drizà Pèrsone sén hégréchtet wore.
+
+1800 ésch Kolmer zur Haiptstadt vu der Bràfèktur Haut-Rhin wore. D Gréndung vum Brüefungsgrécht (spéter ''Kàiserligs Grécht'') ém Johr 1804 hat d Stadt oi züe me Zàndrum fér Ràcht gmacht.
+
+Bal dodruf hat séch d Industrialisierung verstàrkt, un zwar mét de Tèxtilfabrike Herzog (1818) un Kiener (1828). 1841 ésch oi d Isebahnstrècke vu [[Basel]] éwer Kolmer uf Stroßburg fèrig gsé. Der Bahnhof ésch ém Johr dernoch fèrig. 1869 hat's oi e Lénie uf Ménschter gé.
+
+D lètschte Épidémi ésch d'Cholera gsé, wu 1854 üsbroche ésch un 349 Mànschelàbe gfordert hat.
+
+Mét em Fréde vu Frankfurt hat Frankrich Kolmer am 10. Mài 1870 zàmme mét em ràstlige Èlsass mieße ans [[Deutschland|Ditschland]] abdràtte. Das hat under anderem zur Folg gha, dass der franzésch Maire 1877 durch e ditsche ersètzt wore ésch; s [[Deutsche Sprache|Ditsch]] ésch ab 1883 d àinzige Amtssproch gsé.
+
+=== Èrschte Wàldkrieg ===
+Nochdàm 1914 d Jàgerpatrouille versüecht hat d Stadt under franzésche Hèrrschaft z brénge un 1917 d Franzose Agréff uf d Stadt gstartet hàn (under anderem mét eme Kampf zwésche der franzésche un der ditsche Luftwaffe un vier Dote), hàn d franzésche Soldate Kolmer am 18. Novàmber 1918 bsètzt.
+
+=== Zwàite Wàltkrieg ===
+Am èrschte Sèptàmber 1939 hat Frankrich der Krieg adràtte. Ém Jüni 1940 hàn d Ditsche s Èlsass annèktiert un d Bevèlkerung brutal „entwèlscht“, d. h. „gèrmanisiert“. Zwài Johr spéter hàn d junge Lit schu mieße der Hitlerjugend bidràtte. Ab em Novàmber 1940 hàn d Èlsàsser zwar e Wéderstandsnètz gha, wu gfléchtete Kriegsgfangene uf d andere Site vu der Vogése brocht hat, sàll han d Ditsche awer ém Aigüst 1942 üssegfunde un mét der Fèstnahm vu der Afiehrer beàndet. Én der Waffe-SS sén 40.000 vu der 130.000 Soldate umkumme. Am 2. Fébruar 1945 ésch Kolmer befràit wore. Ém Johr 1946 hat Colmer s Kriegsverdienschtkriz 1939-46 bikumme.
+
+=== 1945 bis héte ===
+1958 ésch ém Norde vu Comer e Industrigebiet aglègt wore. Oi én Réchtung Wèste hat séch d Stadt vergréßert.
+
+1964 ésch der Flugblatz Kolmar-Housse ufgmacht wore. Fér d internationale Zàmmearwet ésch d Interàssegmàinschaft Méttelèlsass-Brisgai entstande.
+
+E Großdàil vu der Altstadt vu Kolmer stéht sit 1972 under Dànkmolschutz. D Restaurierung vu der Martinskérech hat agfange un bis 1985 durt. D Stroße vu der Altstadt un d Kérech Saint-Matthieu sén 1997 restauriert wore.
+
+Sit 1983 ésch Isestadt ém Burgeland (Éstrich) e Partnerstadt vu Kolmer. Ém Johr vum 100-Johr-Jubilàum vu der Frèihàitsstatue (wu vum Bartholdi vu Kolmer konschtruiert wore ésch) hat sàll oi e Partnerschaft mét Princeton én der USA gschlosse. E witere Partnerschaft gét's sit 1993 mét Győr én Ungarn.
+
+1996 ésch s ''Espace d'art contemporain André Malraux'' (Muséum fér zitgnèssische Kunscht) ufgmacht wore.
+
+== Beriahmta Colmerer ==
+* Colmerer Dominikanerchronist (1221 bis um 1305)
+* Gaspard Isenmann (ca. 1430 bis 1480), ditscher Mohler
+* Martin Schongauer (ca. 1450 bis 1491), ditscher Mohler un Kupferstacher
+* Jörg Wickram (um 1505 bis 1562), ditscher Schrìftsteller
+* Antoine Xavier Natal (1733 bis 1801), frànzeescher Generàlfaldmarschall
+* Gottlieb Konrad Pfeffel (1736 bis 1809), ditscher Schrìftsteller, Militärwìssaschàftler un Pädagog
+* Jean-François Reubell (1747 bis 1807), frànzeescher Revolutionàr, Mìtglìed vum Direktorium
+* Jean-Ulrich Metzger (1752 bis 1836), frànzeescher Politiker
+* Joseph Thadée Nicolas Fitremann (1770 bis 1832), Oberscht
+* Jean-Jacques Karpff, Casimir g'nennt (1770 bis1829), frànzeescher Mohler
+* Jean Rapp (1771 bis 1821), frànzeecher Generàlleutnant un Gràf
+* Jean-Jacques Kessel (1772 bis 1847), frànzeecher Generàl
+* Johann Georg Haffner (1777 bis 1830), ditsch-frànzeescher Dokter
+* Johan Stephan Decker (1784 bis 1844), frànzeescher Mohler
+* Armand Joseph Bruat (1796 bis 1855), frànzeescher Admiral
+* Georges-Charles de Heeckeren d’Anthès (1812 bis 1895), frànzeescher Politiker
+* Auguste Nefftzer (1820 bis 1876), frànzeescher Journalischt
+* [[Frédéric Auguste Bartholdi]] (1834 bis 1904), frànzeescher Bìldhàuier, Schäpfer vu dr Freiheit Stàtüta z [[New York]] un vum Beferter Leeb
+
+[[Datei:Bartholdi newyork.JPG|mini|Plàkàt ìwerm Frédéric Auguste Bartholdi unta àn dr Freiheit Stàtüta]]
+
+* Marie-Antoinette Lix (1839 bis 1909), frànzeescha-polnischa Heldin
+* Camille Sée (1847 bis 1919), frànzeescher Politiker
+* Jean-Baptiste Lemire (1867 bis 1945), frànzeescher Komponist
+* Rudolf Schwander (1868 bis 1950), ditscher Politiker
+* [[Jean-Jacques Waltz]], '''Hansi''' g’nennt (1873 bis 1951), Zeichner und Heimàtforscher
+* Sophie Wolf (1880 bis 1938), Opernsangera
+* [[Ernst Stadler]] (1883 bis 1914), elsassischer Lyriker
+* Paul Coelestin Ettighoffer (1896 bis 1975), ditscher Schrìftsteller
+* Kurt Ihlenfeld (1901 bis 1972), ditscher Schrìftsteller
+* Hansjörg Schmitthenner (1908 bis 1993), ditscher Dràmàturg
+* Michel Hausser (* 1927), Jazzvibraphonist
+* André Weber (1928 bis 1996), frànzeescher Schàuispìeler
+* Raymond Kaelbel (1932 bis 2007), frànzeescher Füeßbàllspìeler
+* Guy Roux (* 1938), frànzeescher Füeßbàlltrainer
+* Alfred Wahl (* 1938), Gschìchtswìssaschàftler un Füeßbàllsoziolog
+* Bernard Friedrich (* 1939), frànzeescher Generàl
+* Gérard Cardonne, frànzeescher Schrìftsteller
+* Etienne-Marie Stirnemann, [[Missionar|Missionnàr]]
+* Pierre Moerlen (1952 bis 2005), [[Schlagzeug|Schlàgziiger]] un Komponist
+* [[Brigitte Klinkert]] (* 1956), Politikerin
+* Rodolphe Burger (* 1957), frànzeescher Müsiker un Sìnger
+* Jean-Christian Bourcart (* 1960), Photogràf
+* Pierre Hermé (* 1961), frànzeescher Pâtissier
+* Thomas Bloch (* 1962), frànzeescher Müsiker
+* Stéphane Lippert (* 1966), frànzeescher Journàlìscht
+* Pascal Elbé (* 1967), frànzeescher Schàuispìeler un Drehbüechschriiwer
+* Marc Keller (* 1968), frànzeescher Füeßbàllspìeler
+* Laetitia Bleger (* 1981), Miss France ìm Johr 2004
+* Amaury Bischoff (* 1987), portugesischer Fußballspìeler
+* Ryad Boudebouz (* 1990), frànzeescher Füeßbàllspìeler
+
+== Wértschaft ==
+Kolmer ésch d Haiptstadt un dodermét oi der Atréb vu der wértschaftlige Entwécklung ém méttlere Èlsass. D wéchtigste Branche vu der Wértschaft sén:
+
+* Élèctroméchanik
+* élèctronische Gràt
+* Pharmazeutische Brodukt
+* Baumatérialie wie zum Bispil Béton
+
+=== Industri ===
+Ischließlig Flughafe wàre én Kolmer 382 Hèktare fér d Industri gnutzt. D gréschte private Undernàmme üs der Industri sén Liebherr mét 1676 Agstèllte Ànd 2006 un Timken Europe mét éwer doisig.
+
+Bis 2012 entstéhn vorüssséchtlig noch doisig nèie Stèlle. 500 dervu sén der Firma Liebherr z verdanke, wu der Boi vu eme Technologi- un Forschungspark blant. Sàll ésch àine vu de gréschte Invèstitione én der Industri vu Nordostfrankrich.
+
+Én Kolmer ésch oi d’''Handels- un Industrikammer vu Kolmer un vum Méttelèlsass'' (''Chambre de commerce et d'industrie de Colmar et du Centre-Alsace'') asàssig. Es gét e Hafe un e Jachthafe, der Flughafe Kolmer-Houssen un andere industriàlle Iréchtunge.
+
+=== Gschàfter ===
+Es gét én Kolmer e séhr große Kètte vu Gschàfter: im Zàndrum vu der Stadt konzendriere séch drèihundert Boutique un Rèstaurants; vile nationale un internationale Firme sén azdràffe. Es gét én der ganze Agglomeration drèi Hypermàrkt, zàh Supermàrkt, verschédene ''Supérettes'' un Diefbrisgschàfter.
+
+== Kultur un Séhenswérdigkeite ==
+=== Architèktür ===
+S àltist èffentlig Geboide vu der Stadt ésch s ''Kaifhüs'', e éhemoliger Zoll. Er ésch 1370 zum èrschte Mol gnànnt wore un 1480 fèrig gsé. Er hat friejer e wéchtige Rolle gspélt én der Wértschaft vu der Stadt, wil er e Lager un Transitstèll vu Ware gsé ésch.
+
+Vu der Füeßgàngerzone én der Altstadt kat me méttelalterlige Geboide bewundere: d Stéftskérech Saint-Martin, wu spéter züe ere gothische Kérech umboie wore ésch un wu der Chor üs em 14. Johrhundert stammt, un d Dominikanerkérech (fèrig gstèllt 1346). Én der Franziskanerkérech Saint-Matthieu (boie am Ànd vum 13. Johrhundert) wàre héte vil klassische Konzèrt gspélt un s Festival International de Colmar. D’''Maison Adolpe'' üs em 14. Johrhundert oder s ''Huselin zum Swan'' zàige, wie rich do d Architèktur ém Méttelalter gsé ésch. D Maison Pfister un d Maison des Têtes sén Boiwèrk üs der Renaissance. S èrscht ésch üs em Johr 1537 un s Symbol vu Kolmer; es ésch àins vu der schénste Hénterlasseschafte vu der Bourgeoisie. D Maison des Têtes hàißt eso, wil an éhrer Fassade 111 Kèpf un Maske z séh sén. Der Palais du Conseil Souverain mét der Fassade üs em Johr 1771 un s Ancien Hôpital (wu dèmnèchst d Stadtbibliothék izieht) vu 1744 sén ém klassizisdische Stil boie. Am Quai de la Poisonnerie légt s Klài-Vénédig, wu friejer e Zàndrum fér Féscherèi un der Handel mét Fésch gsé ésch.<ref>[http://www.ot-colmar.fr/index.php?option=com_content&task=section&id=12&Itemid=215&lang=fr Patrimoine architectural] uf ot-colmar.fr</ref>
+
+=== Müsée ===
+* S '''Underlénde-Müséum''' (''Musée Unterlinden'') behèrbèrgt zahlriche Gmàlde üs der Rhigégend, der Isehàimer Altar vum Matthias Grünewald, volksdimlige un modèrne Kunscht. Es verdankt si Richdum sinem Sétz én eme friejere Kloster üs em 13. Johrhundert.
+* S '''Bartholdi-Müséum''' (''Musée Bartholdi'') ésch ém Geburtshüs vum Frédéric Auguste Bartholdi asàssig. D Bsüecher kènne Statue, Büste, Zàichnige un Méwel vu éhm gséh un es ésch d gréschte Üssstellung éwer en.
+* Ém '''Spélzigmüséum''' (''Musée de Jouets'') sén under anderem d Karosse vum Àschebrödel un e Isebahnnètz én der Lànge vu 1000 Méter z séh.
+* S '''Natürgschéchtlig un Éthnografisch Müséum''' (''Musée d'histoire naturelle et éthnographique'') stèllt éwer 1500 Gstài, éthnografische, zoologische un ägyptologische Gégestànd üs; se kèmme oi üs andere Kontinànt. Zwài vu der zàh Üsstèllungsrim sén zitgnèssisch.
+* D '''Zitgnèssische Galeri André Malraux''' (''Musée d'art contemporain André Malraux'') ésch én ere friejere Sürkrütfabrik un àins vu de bekannteste Müsée fér zitgnèssische Kunscht vum Èlsass.<ref>[http://ot-colmar.fr/index.php?option=com_content&task=blogcategory&id=72&Itemid=65&lang=fr Musées] uf ot-colmar.fr</ref>
+
+=== Draditione ===
+Én Kolmer gét's e Hüfe Wiehnachtsmàrkt: uf der Place Jeanne d'Arc, uf em Dominikanerblatz, vor em Koifhüs un én Glài-Vénédig.
+
+Am zwàite Wucheànd vum Sèptàmber féndet d ''Fête des bateliers'' (batelier = Fàhrmann) statt. Se erénnert dra, dass friejer d Gmieshàndler éhre Ware noch mét em Boot én d Stadt un uf der Màrkt brocht hàn, wu héte durch s Auto ersètzt wore ésch. Sit e baar Johr kènne Touriste un Ihàimische an dàm Wucheànd mét em Boot éwer d Laich fahre, derzüe gét's e Màrkt mét Ihàimische Brodukt un Bràsentatione.
+
+Wie oi én andere Ort vum Èlsass wérd d Wi-Èrnte gfirt. Eso bikumme Bsüecher zwésche Abrél un Oktower d Glàgehàit, der Wi z brobiere un d ufgrègte Stémmung vu der Èrntefèst erlàbe.
+
+Am ''Pfifferdaj'' oder uf Franzésch ''Fête des Ménétriers'' bràsentiere verglàidete Jugendlige s Làbe ém Méttelalter dar vu der Büre un der Firschte. D Kostim sén maßgschnàidert un vu brofèssionàlle Schnider agfèrigt. D Darstèllunge fénde am èrschte Sunndig vum Sèptàmber én Ribeauvillé statt.<ref>[http://ot-colmar.fr/index.php?option=com_content&task=view&id=167&Itemid=96 Traditions] uf ot-colmer.fr</ref>
+
+== Sunschtigs ==
+Z [[Malaysia]] git s au e '''Colmer''' git und zwar en Art e Imitatioon in dr ''Genting Mountains''. Es heisst döt '''Tropical Colmar'''.
+
+== Weblink ==
+{{Commonscat|Colmar|Colmer}}
+* [https://www.colmar.fr/ Offizielle Website vo de Stadt Colmer]
+* [https://www.museumspass.com/Musees/Colmar Museen z Colmer]
+* [https://www.festival-colmar.com/de Internationals Musigfestival z Colmer]
+* [https://www.tourisme-colmar.com/de/ Fremdeverkehrsamt Colmer]
+
+== Quèlle ==
+* [http://www.ot-colmar.fr/index.php?option=com_content&task=blogcategory&id=69&Itemid=179 Tourisme Alsace] (lüeg Undersite)
+* [http://www.alsace-passion.com/colmar-2.htm www.alsace-passion.com]
+
+== Literatür ==
+* ''Annalen und Chronik von Kolmar'' (Useggä vo de ''Monumenta Germaniae'', us em Latyn übersetzt vom H.&nbsp;Pabst). Berlin 1867, [http://books.google.de/books?id=yzQAAAAAcAAJ&pg=PA1#PPR3 online]
+* Auguste Scherlen: ''Colmar – Dorf und Stadt.'' Colmar 1931.
+
+== Referanza ==
+<references/>
+
+{{Normdaten}}
+{{Normdaten}}
+
+[[Kategorie:Kolmer| ]]
+[[Kategorie:Ort (Owerelsàss)]]

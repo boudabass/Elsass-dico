@@ -1,0 +1,43 @@
+{{DISPLAYTITLE:Oschwàld}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Ostwald
+| nomalsacien = Oschwàld
+| alt moy = 139–144
+| km² = 7.11
+|}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Oschwàld''' ([[Französische Sprache|frz.]] ''Ostwald'', [[Deutsche Sprache|dt.]] ''Ostwald'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Bas-Rhin|Unterelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}.
+
+== Gschìcht ==
+Oschwàld ìsch zem erschte Mol gnannt worre ànne 974. Bìs 1789 hàt dr Ort ''Wickersheim'' oder ''Illwickersheim'' gheiße.
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Oschwàld ìsch {{Maires|FR|{{#Property:P374}}}}. Oschwàld ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Bevelkerungsentwìcklung ==
+{| class="wikitable" width=400
+|- align=center class="hintergrundfarbe5"
+|align=left | '''Johr''' || '''1962''' || '''1968''' || '''1975''' || '''1982''' || '''1990''' || '''1999''' || '''2007'''
+|- align=center
+|align=left|'''Inwohner'''<ref>[[Institut National de la Statistique et des Études Économiques|INSEE]]: ''Population et logements par commune depuis le recensement de 1962 (1961 pour les Dom) à 1999''</ref> || 4.810 || 5.717 || 8.688 || 9.876 || 10.197 || 10.761 || 10.761
+|}
+
+== Dialekt ==
+Dr [[Elsässisch|elsassisch]] Dialekt vun Oschwàld ghert zem [[Oberrheinalemannisch|Owerrhinàlemànnisch]].
+
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+{{Commonscat}}
+* http://www.ville-ostwald.fr
+
+== Referanza ==
+<references/>
+
+{{Navigationsleiste Gemeinden im Kanton Illkirch-Graffenstaden}}
+{{Normdaten}}
+
+[[Kategorie:Ort (Unterelsass)]]

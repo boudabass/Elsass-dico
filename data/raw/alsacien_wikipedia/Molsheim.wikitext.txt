@@ -1,0 +1,54 @@
+{{DISPLAYTITLE:Molse}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Molsheim
+| nomalsacien = Molse
+| alt moy = 165–371
+| km² = 10.85
+| image = Moltzheim-2.jpg
+| description = M. Merian: Ànsicht vun Molse um 1640
+}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Molse''' ([[Französische Sprache|fr.]] ''Molsheim'', [[Deutsche Sprache|dt.]] ''Molsheim'') ìsch e Stadt ìm [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}} ({{Kanton|FR|{{#Property:P374}}}}) im [[Département Bas-Rhin|Unterelsàss]] (Bas-Rhin).
+
+== Geogràfi ==
+Molse lijt àn dr [[Bruche (Fluss)|Brisch]], eme kline Fluss, wie vun dr [[Vogesen|Vogese]] züe dr [[Ill (Elsass)|Ill]] fließt. S Stadtel lijt rund 30 km sìdweschtlich vun [[Straßburg|Stroßburi]] àm Ìwergàng vun dr [[Rheinebene|Rhinewene]] züe dr erschte Bickel vun dr Vogese, wie [[Wein|Rawe]] wàchse. D [[Elsässische Weinstraße|elsassisch Winstroß]] geht durich Molse.
+
+== Gschìcht ==
+Molse ìsch zem erschte Mol gnannt worre ànne 820.
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Molse ìsch {{Maires|FR|{{#Property:P374}}}}. Molse ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Bevelkerungsentwìcklung ==
+{| class="wikitable" width=400
+|- align=center class="hintergrundfarbe5"
+|align=left | '''Johr''' || '''1962''' || '''1968''' || '''1975''' || '''1982''' || '''1990''' || '''1999''' || '''2007'''
+|- align=center
+|align=left|'''Inwohner'''<ref>[[Institut National de la Statistique et des Études Économiques|INSEE]]: ''Population et logements par commune depuis le recensement de 1962 (1961 pour les Dom) à 1999''</ref> || 4955 || 5739 || 6649 || 6928 || 7973 || 9335 || 9331
+|}
+
+== Dialekt ==
+Dr [[Elsässisch|elsassisch]] Dialekt vun Molse ghert zem [[Oberrheinalemannisch|Owerrhinàlemànnisch]].
+
+{|
+|[[Datei:Molsheim 1650.jpg|thumb|Molse]]
+|[[Datei:Eglise des jésuites.jpg|thumb|D Sànkt-Georg- und Dreifàltigkeitskirich]]
+|}
+
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+{{commonscat}}
+{{Wikisource|Topographia_Alsatiae_(Elsass):_Molßheim|Molsheim in der Topographia Alsatiae (M. Merian)}}
+* http://www.mairie-molsheim.fr
+
+== Referanza ==
+<references/>
+
+{{Navigationsleiste Gemeinden im Kanton Molsheim}}
+{{Normdaten}}
+
+[[Kategorie:Ort (Unterelsass)]]

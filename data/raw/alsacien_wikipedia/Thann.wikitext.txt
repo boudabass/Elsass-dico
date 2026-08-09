@@ -1,0 +1,73 @@
+{{DISPLAYTITLE:Dànn}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Thann
+| nomalsacien = Dànn
+| alt moy = 343
+| alt mini = 328
+| alt maxi = 922
+| km² = 12.51
+| image = Vue plongeante sur Thann et son église.jpg
+| description = Dànn
+|}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Dànn''' ([[Französische Sprache|frz.]] ''Thann'', [[Deutsche Sprache|dt.]] ''Thann'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Haut-Rhin|Owerelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}.
+
+== Gschìcht ==
+Dànn ìsch zem erschte Mol gnannt worre ànne 991 àls ''Danne''.
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Dànn ìsch {{Maires|FR|{{#Property:P374}}}}. Dànn ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Bevelkerungsentwìcklung ==
+{| class="wikitable"
+|-class="hintergrundfarbe8"
+!Johr
+!1962
+!1968 
+!1975
+!1982
+!1990
+!1999
+!2006
+|- align=center
+| Inwohner || 7736 || 8218 || 8519 || 7788 || 7751 || 8033 || 7981
+|}
+
+== Dialekt ==
+Dr [[Elsässisch|elsassisch]] Dialekt vun Dànn ghert zem [[Oberrheinalemannisch|Owerrhinàlemànnisch]].
+
+== Verkehr ==
+Dànn isch Endpunkt vun dr [[Straßenbahn Mülhausen|Milhüüser Tràm]].
+{|
+|[[Datei:Industrial zone and railway station of Thann, Alsace.jpg|miniatur|S Industrigebiet un dr Bàhnhof.]]
+|[[Datei:Thur Thann.jpg|miniatur|D [[Thur (Elsass)|Thur]].]]
+|}
+
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+* {{Literatur|Sprache=fr|Autor=Gilles Sifferlen|Titel=Histoire de Thann|Jahr=1919|Verlag=Revue d’Alsace|Umfang=52}}
+* {{Literatur|Sprache=fr|Autor=Joseph Baumann|Titel=Histoire de Thann des origines à nos jours|Jahr=1981|Verlag=S.A.E.P|Umfang=370|Online={{Google Buch|BuchID=6ZQHHAAACAAJ}}}}
+* {{Literatur|Sprache=fr|Autor=Charles Weymann|Titel=Une ville d’Alsace du Moyen-Age, Thann, légendes et histoire|Jahr=1924|Verlag=Éd. artistique|Umfang=420}}
+* {{Literatur|Sprache=fr|Autor=Christine Heider|Titel=Thann, entre France et Allemagne : une ville de Haute-Alsace sous la domination des Habsbourg, 1324-1648|Jahr=2007|ISBN=9782904920370|Online={{Google Buch|BuchID=jAUMAQAAMAAJ}}|Umfang=410|Verlag=Publications de la société savante d’Alsace}}
+* {{Literatur|Sprache=fr|Autor=Henry Poulet|Titel=L’Esprit public à Thann pendant la Révolution : la Société des Amis de la Constitution (1791-1795)|Verlag=Imp. Mazel & Plancher|Jahr=1919|Umfang=253|Online={{Google Buch|BuchID=V9pzQVv2XcYC}}}}
+* {{Literatur|Sprache=fr|Autor=Charles Krumholtz|Titel=Thann, une ville martyre en Alsace|Jahr=1915|Verlag=Millot|Umfang=26}}
+* {{Literatur|Sprache=fr|Autor=Marcel Robischung, Cercle cartophile de Thann et de la vallée de Saint-Amarin|Titel=Thann à la belle époque de la carte postale, 1896-1914|Online={{Google Buch|BuchID=04gBEQAAQBAJ}}|Jahr=1989|Umfang=120}}
+* {{Literatur|Sprache=fr|Titel=Collégiale de Thann|Autor=Andre Kirner, René Kirner |Jahr=1979|Online={{Google Buch|BuchID=nnfsAAAAMAAJ}}|Umfang=23|Verlag=Hansi}}
+*Assaf Pinkus: ''The Patron Hidden in the Narrative: Eve and Johanna at St. Theobald in Thann'', in: Zeitschrift für Kunstgeschichte, Jg. 70, Heft 1 (2007), S. 23-54.
+
+== Weblink ==
+* {{Commonscat|Thann}}
+* {{Wikisource|Topographia Alsatiae: Thann|Thann in der Topographia Alsatiae (M. Merian)}}
+* https://web.archive.org/web/20060910004425/http://www.ville-thann.fr/
+* [http://www.ot-thann.fr/ Website vum Framdeverkehrsàmt vum „Pays de Thann“] (de)
+* [https://web.archive.org/web/20120123194513/http://www.ccpaysdethann.fr/spip/spip.php?article12&res=1680#thann Dànn] bi dr Communauté de Communes du Pays de Thann (fr)
+
+== Referanza ==
+<references/>
+
+{{Navigationsleiste Gemeinden im Kanton Sennheim}}
+{{Normdaten}}
+
+[[Kategorie:Ort (Owerelsàss)]]

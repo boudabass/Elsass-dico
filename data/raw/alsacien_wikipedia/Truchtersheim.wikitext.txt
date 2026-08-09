@@ -1,0 +1,52 @@
+{{DISPLAYTITLE:Drüdersche}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Truchtersheim
+| nomalsacien = Drüdersche
+| alt moy = 147–199
+| km² = 9.92
+| image = Truchtersheim mairie.JPG
+| description = Mairie
+|}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Drüdersche''' ([[Französische Sprache|frz.]] ''Truchtersheim'', [[Deutsche Sprache|dt.]] ''Truchtersheim'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Bas-Rhin|Unterelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}.
+
+== Gschìcht ==
+Drüdersche ìsch zem erschte Mol gnannt worre ànne 713.
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+Ànna [[1974]] ìsch d ehmàliga Gmein Behlenheim derzüe kumma, un àm [[1. Januar|1. Janner]] [[2016]] hàt sìch aui, dur a Fusion, [[Pfettisheim|Pfetze]] zammagschlossa<ref>[http://static.reseaudespetitescommunes.fr/cities/694/documents/ce0pfarkxqzj.pdf Dokumant ìwer d Fusion vu Drüdersche un Pfetze (fr)]{{Toter Link|date=2017-09 |bot=InternetArchiveBot |url=http://static.reseaudespetitescommunes.fr/cities/694/documents/ce0pfarkxqzj.pdf}}</ref>.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Drüdersche ìsch {{Maires|FR|{{#Property:P374}}}}. Drüdersche ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Bevelkerungsentwìcklung ==
+{| class="wikitable" width=400
+|- align=center class="hintergrundfarbe5"
+|align=left | '''Johr''' || '''1962''' || '''1968''' || '''1975''' || '''1982''' || '''1990''' || '''1999''' || '''2007'''
+|- align=center
+|align=left|'''Inwohner'''<ref>[[Institut National de la Statistique et des Études Économiques|INSEE]]: ''Population et logements par commune depuis le recensement de 1962 (1961 pour les Dom) à 1999''</ref> || 830 || 874 || 1439 || 1745 || 2024 || 2373 || 2826
+|}
+
+== Dialekt ==
+Dr [[Elsässisch|elsassisch]] Dialekt vun Drüdersche ghert zem [[Oberrheinalemannisch|Owerrhinàlemànnisch]].
+
+<gallery widths="200" heights="180" perrow="2">
+Datei:Truchtersheim college.JPG|Collège du Kochersberg
+Datei:Truchtersheim maison du Kochersberg.JPG|Fáchwarkhüs
+</gallery>
+
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+{{Commonscat}}
+* http://www.mairie-truchtersheim.fr
+
+== Referanza ==
+<references/>
+
+{{Navigationsleiste Gemeinden im Kanton Buchsweiler}}
+{{Normdaten}}
+
+[[Kategorie:Ort (Unterelsass)]]

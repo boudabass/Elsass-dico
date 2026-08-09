@@ -13,6 +13,12 @@ Trois principes, qui expliquent la forme du script :
    rendre son rapport. Écrire en base est un acte explicite.
 3. **Idempotent.** Les contraintes UNIQUE des tables font le dédoublonnage
    (resolution=ignore-duplicates). Relancer une ingestion n'ajoute rien.
+4. **La base doit être à jour avant d'écrire.** Coolify redéploie l'app à
+   chaque push mais n'applique aucune migration : supabase/migrations/ et la
+   base divergent en silence, et rien ne le signale tant qu'on ne tente pas
+   d'écrire. Le 09/08/2026 une ingestion a échoué à mi-parcours sur un enum en
+   retard de deux migrations, après avoir déjà créé une source. La garde de
+   schéma refuse maintenant avant le premier appel d'écriture.
 
 Le script n'écrit JAMAIS dans entrees : la création d'une entrée passe par
 arbitrer_entree() et un arbitre humain (règle 4 de CLAUDE.md).
@@ -52,9 +58,36 @@ CHAMPS_ORTHAL = ("source_code", "francais", "alsacien", "contexte",
 
 TAILLE_LOT = 500
 
+# Les objets que ce script écrit, et le fichier de supabase/migrations/ qui les
+# crée. Sert à nommer la migration à passer plutôt qu'à laisser Postgres rendre
+# un 22P02 au milieu d'un lot.
+MIG_SCHEMA = "20260731120000_schema_dictionnaire.sql"
+MIG_TYPES = "20260808140000_types_toponyme_prenom.sql"
+MIG_ORTHAL = "20260808150000_propositions_orthal.sql"
+
+TABLES_NOYAU = {
+    "sources": MIG_SCHEMA,
+    "attestations": MIG_SCHEMA,
+    "entrees": MIG_SCHEMA,
+    "entree_attestations": MIG_SCHEMA,
+}
+TABLES_ORTHAL = {
+    "automates": MIG_ORTHAL,
+    "propositions_orthal": MIG_ORTHAL,
+}
+# (table, colonne) -> valeurs que le script peut écrire, et leur migration.
+ENUMS_ATTENDUS = {
+    ("attestations", "type"): (TYPES_TERME, MIG_TYPES),
+    ("attestations", "region"): (REGIONS, MIG_SCHEMA),
+}
+
 
 class ErreurContrat(Exception):
     """Une ligne viole data/README.md. Bloque le fichier entier."""
+
+
+class ErreurSchema(Exception):
+    """La base est en retard sur supabase/migrations/. Bloque tout le lot."""
 
 
 # ----------------------------------------------------------------------------
@@ -174,6 +207,19 @@ class Supabase:
             "Content-Type": "application/json",
         })
 
+    def schema(self) -> dict:
+        """Schéma exposé par PostgREST : tables visibles et valeurs d'enum.
+
+        Une seule requête, et c'est la vue de la base que le script utilisera
+        réellement — pas celle qu'on lit dans supabase/migrations/, qui n'est
+        qu'une intention tant que personne n'a lancé le SQL.
+        """
+        r = self.session.get(self.base + "/",
+                             headers={"Accept": "application/openapi+json"},
+                             timeout=30)
+        r.raise_for_status()
+        return r.json().get("definitions", {})
+
     def selectionner(self, table: str, params: dict) -> list[dict]:
         r = self.session.get(f"{self.base}/{table}", params=params, timeout=30)
         r.raise_for_status()
@@ -196,6 +242,45 @@ class Supabase:
                 raise RuntimeError(f"{table} : {r.status_code} {r.text[:500]}")
             crees += len(r.json())
         return crees
+
+
+def verifier_schema(sb: Supabase, besoin_orthal: bool) -> list[str]:
+    """Compare la base au schéma attendu, avant le premier appel d'écriture.
+
+    Bloque sur ce que ce lot-ci va écrire, avertit sur le reste : refuser une
+    ingestion d'attestations parce que la table des propositions ORTHAL manque
+    serait une garde qui gêne au lieu de protéger.
+
+    Renvoie la liste des avertissements. Lève ErreurSchema si le lot est
+    ininsérable en l'état.
+    """
+    definitions = sb.schema()
+
+    requis = dict(TABLES_NOYAU)
+    if besoin_orthal:
+        requis.update(TABLES_ORTHAL)
+
+    bloquants = [f"table {table} absente — appliquer {migration}"
+                 for table, migration in sorted(requis.items())
+                 if table not in definitions]
+
+    for (table, colonne), (valeurs, migration) in sorted(ENUMS_ATTENDUS.items()):
+        if table not in definitions:
+            continue  # déjà signalé, ne pas dire deux fois la même chose
+        propriete = definitions[table].get("properties", {}).get(colonne, {})
+        absentes = valeurs - set(propriete.get("enum") or ())
+        if absentes:
+            bloquants.append(
+                f"{table}.{colonne} n'accepte pas {', '.join(sorted(absentes))} "
+                f"— appliquer {migration}")
+
+    if bloquants:
+        raise ErreurSchema("\n  ".join(bloquants))
+
+    return [f"{table} absente en base ({migration} non appliquée) — sans effet "
+            f"sur ce lot, mais le repo et la base ont divergé"
+            for table, migration in sorted(TABLES_ORTHAL.items())
+            if table not in definitions]
 
 
 def synchroniser_sources(sb: Supabase, appliquer: bool) -> dict[str, str]:
@@ -364,6 +449,9 @@ def main() -> int:
     sb = Supabase(url, cle)
 
     try:
+        # Avant toute écriture : la base a-t-elle les objets qu'on va remplir ?
+        avertissements = verifier_schema(sb, besoin_orthal=bool(propositions))
+
         print("Sources :")
         sources = synchroniser_sources(sb, args.apply)
         if not args.apply:
@@ -373,8 +461,6 @@ def main() -> int:
                 code = json.loads(fiche.read_text(encoding="utf-8"))["code"]
                 sources.setdefault(code, "00000000-0000-0000-0000-000000000000")
         print(f"  {len(sources)} source(s) connue(s)\n")
-
-        avertissements = []
 
         print("Attestations :")
         n_att, crees_att, avert = ingerer_attestations(sb, attestations, sources, args.apply)
@@ -388,6 +474,13 @@ def main() -> int:
             n_orth, crees_orth, avert = ingerer_orthal(sb, propositions, sources, args.apply)
             avertissements += avert
 
+    except ErreurSchema as e:
+        print(f"\nBASE EN RETARD SUR supabase/migrations/ — rien n'a été écrit.\n  {e}\n\n"
+              "Coolify redéploie l'application mais n'applique aucune migration : les\n"
+              "fichiers de supabase/migrations/ se lancent à la main dans le SQL Editor\n"
+              "du Studio Supabase, dans l'ordre de leur horodatage.",
+              file=sys.stderr)
+        return 4
     except ErreurContrat as e:
         print(f"\nCONTRAT VIOLÉ — rien n'a été écrit.\n  {e}", file=sys.stderr)
         return 2

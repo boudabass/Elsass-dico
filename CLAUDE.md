@@ -63,9 +63,8 @@ alsacien publié sous cette marque serait un vrai problème.
   detail_candidat(), arbitrer_entree(), entrees_par_statut(),
   rechercher_entrees(), plus une colonne générée entrees.alsacien_recherche
   qui rend la recherche alsacien -> français indexable.
-- Reste inchangé : aucune donnée n'est chargée, l'ingestion des 7260 entrées
-  du dossier Dictionnaire vers attestations sous la source culture_alsace n'a
-  pas commencé.
+- (Périmé depuis le 09/08/2026, cf. « Première ingestion ») Aucune donnée
+  n'était chargée à cette date.
 
 ## Studio Elsass Dico (08/08/2026)
 
@@ -204,15 +203,52 @@ Coolify self-hosted v4.1.2 sur VPS OVH. Supabase self-hosted à déployer dessus
   `elsassdico` a créé le board et les six profils `ed-*` (article 725). La
   séparation évitait qu'un profil généraliste prenne des décisions engageant la
   doctrine ; elle a tenu.
-- Prochaine étape (révisée le 08/08/2026 au soir) : la campagne 1 sur
-  culture_alsace est lancée — `ed-prospecteur` inventorie le miroir et archive
-  les pages brutes dans data/raw/, puis s'arrête au GATE inventaire. Rien n'est
-  poussé vers origin tant que le jeton git n'est pas restreint. Le dossier
-  Dictionnaire
-  (7260 entrées A-D) est une extraction antérieure au studio et non vérifiée :
-  à reprendre au contrat data/README.md avant ingestion. Ces attestations ne
-  doivent jamais alimenter entrees directement — elles entreront dans la file
-  d'arbitrage comme n'importe quelle autre, marquées 1 source sur N.
+- Prochaine étape (révisée le 09/08/2026) : campagnes BR puis prénoms sur
+  culture_alsace, au même contrat. Le dossier Dictionnaire (7260 entrées A-D)
+  est une extraction antérieure au studio et non vérifiée : à reprendre au
+  contrat data/README.md avant ingestion. Ces attestations ne doivent jamais
+  alimenter entrees directement — elles entreront dans la file d'arbitrage
+  comme n'importe quelle autre, marquées 1 source sur N.
+
+## Première ingestion (09/08/2026)
+
+**La base n'est plus vide : 396 attestations, 0 entrée.** Lot
+`culture_alsace__villes_villages_hr` — les communes du Haut-Rhin, premier
+aboutissement de la chaîne studio -> arbitrage.
+
+- La chaîne complète a tourné : inventaire (73 pages brutes archivées) ->
+  extraction par parseur versionné -> vérification -> audit doctrinal -> GATE
+  humain -> ingestion. Le vérificateur a **trouvé deux vraies erreurs** de
+  mapping de colonnes avant le GATE ; un dispositif qui ne trouve jamais rien
+  ne prouve rien.
+- 397 lignes au JSONL, 396 en base : la source liste `Altenbach` deux fois,
+  la contrainte UNIQUE l'absorbe. Le JSONL reste fidèle à la source, le
+  dédoublonnage est le travail de la base — ne jamais « nettoyer » un JSONL.
+- Ces 396 sont des candidats à **1 source sur N** : `arbitrer_entree()`
+  refusera de les valider sans note d'arbitrage. Rien n'est publié.
+- `region` est enfin rempli (393/396). Les 3 vides viennent de coquilles de
+  codes postaux dans la source (58500 pour 68500, etc.), non corrigées. D'où
+  la règle retenue pour la suite : **`region` se déduit de l'intitulé de page,
+  le code postal n'est plus qu'un contrôle** — le contrat data/README.md
+  autorise les deux, et la page ne comporte pas de coquille.
+
+**Coolify n'applique aucune migration.** Il construit l'image Next.js à chaque
+push, et rien d'autre : supabase/migrations/ ne s'exécute qu'à la main, dans le
+SQL Editor du Studio. Les migrations 20260808140000 et 20260808150000 avaient
+été oubliées, et rien ne le signalait — le site répondait 200. Le retard n'est
+apparu qu'à la première écriture, à mi-parcours, après création d'une source.
+`ingest_attestations.py` porte désormais une garde de schéma
+(`verifier_schema()`) : elle lit le schéma réellement exposé par PostgREST,
+refuse avant tout appel d'écriture (code de sortie 4) et nomme le fichier de
+migration à passer. Elle bloque sur ce que le lot va écrire et se contente
+d'avertir sur le reste.
+
+- Studio Supabase : `https://supabasekong-<uuid>.theelsassisch.fr/`,
+  authentification basique, identifiants dans les variables du service Coolify.
+- `main` est protégé depuis le 08/08/2026 au soir : ruleset
+  `protect-main-no-direct-push`, règle `pull_request`, **aucun bypass** — la
+  règle 4 est une barrière technique et non plus une promesse. Toute
+  modification de main passe par une PR, y compris les nôtres.
 
 ## Règles de travail
 

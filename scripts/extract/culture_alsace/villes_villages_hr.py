@@ -34,6 +34,16 @@ RÈGLES APPLIQUÉES (décision John, GATE inventaire 08/08/2026)
   carte, jamais corrigé — le code reste verbatim dans
   graphie_origine (règle 1, copie verbatim ; décision John, GATE 2
   08/08/2026).
+- contexte : même dérivation que region — l'INTITULÉ DE PAGE est
+  « Villes et villages du Haut-Rhin » -> contexte="Haut-Rhin" (EN
+  CLAIR, valeur affichée à l'utilisateur, pas en snake_case) pour
+  TOUTES les lignes du JSONL. Le contexte sépare les homonymes
+  (CLAUDE.md) : Bouxwiller existe dans les DEUX pages — 68480
+  (Haut-Rhin) et 67330 (Bas-Rhin), deux communes distinctes à la même
+  forme alsacienne. La clé d'unicité (source_id, francais, alsacien,
+  contexte) porte le contexte, pas region : sans lui, l'ingestion
+  fusionne les deux attestations. Décision John, 09/08/2026 (article
+  720).
 - EXCLUSIONS_MAPPING (décision John, GATE inventaire 08/08/2026) : la
   colonne française doit correspondre au nom officiel de la commune
   associée au code postal (pièce : BOCP La Poste). Deux lignes de la
@@ -265,7 +275,15 @@ def extract() -> tuple[list[dict], list[dict], list[dict], list[dict]]:
                     "alsacien": alsacien,
                     "graphie_origine": f"{code} {alsacien} {francais}",
                     "type": TYPE,
-                    "contexte": "",
+                    # contexte : dérivé de L'INTITULÉ DE PAGE — cette page
+                    # est la page du Haut-Rhin (« Villes et villages du
+                    # Haut-Rhin », fiche source). En clair : le contexte est
+                    # affiché à l'utilisateur (« Bouxwiller (Haut-Rhin) »).
+                    # Sépare les homonymes inter-pages (Bouxwiller 68480 /
+                    # 67330) dans la clé d'unicité (décision John,
+                    # 09/08/2026). Même information que region, pas un
+                    # jugement sur la forme.
+                    "contexte": "Haut-Rhin",
                     "region": "haut_rhin",
                 }
                 att["reference"] = f"villes_villages.htm#L{l_code}"

@@ -39,6 +39,16 @@ RÈGLES APPLIQUÉES (décisions John, GATE inventaire 08/08/2026)
   67, coquilles O/0, formats anormaux), il ne décide plus. Les 18 coquilles
   « O » pour « 0 » (16 cellules observées, ex. 6731O) NE SE CORRIGENT PAS ;
   aucun code n'est réécrit ; le code reste dans graphie_origine.
+- contexte : même dérivation que region — l'INTITULÉ DE PAGE est
+  « Villes et villages du Bas-Rhin » -> contexte="Bas-Rhin" (EN
+  CLAIR, valeur affichée à l'utilisateur, pas en snake_case) pour
+  TOUTES les lignes du JSONL. Le contexte sépare les homonymes
+  (CLAUDE.md) : Bouxwiller existe dans les DEUX pages — 68480
+  (Haut-Rhin) et 67330 (Bas-Rhin), deux communes distinctes à la même
+  forme alsacienne. La clé d'unicité (source_id, francais, alsacien,
+  contexte) porte le contexte, pas region : sans lui, l'ingestion
+  fusionne les deux attestations (celle du Bas-Rhin disparaissait).
+  Décision John, 09/08/2026 (article 720).
 - CONTRÔLE DE MAPPING (décision John, GATE inventaire, consigne 5 — il a
   attrapé 2 erreurs réelles sur HR : Eschie→Strueth, Owersààsa→Obersaasheim) :
   la colonne française doit correspondre aux noms officiels associés au code
@@ -348,7 +358,15 @@ def extract(ref: dict[str, set], union: set
                     "alsacien": alsacien,
                     "graphie_origine": contenu,
                     "type": TYPE,
-                    "contexte": "",
+                    # contexte : dérivé de L'INTITULÉ DE PAGE — cette page
+                    # est la page du Bas-Rhin (« Villes et villages du
+                    # Bas-Rhin », fiche source). En clair : le contexte est
+                    # affiché à l'utilisateur (« Bouxwiller (Bas-Rhin) »).
+                    # Sépare les homonymes inter-pages (Bouxwiller 67330 /
+                    # 68480) dans la clé d'unicité (décision John,
+                    # 09/08/2026). Même information que region, pas un
+                    # jugement sur la forme.
+                    "contexte": "Bas-Rhin",
                     # AMENDEMENT GATE 2 : région de l'INTITULÉ DE PAGE —
                     # villes_villagesB.R.htm est la page du Bas-Rhin. Le code
                     # postal ne décide plus (il signale).

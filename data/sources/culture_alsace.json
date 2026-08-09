@@ -530,9 +530,9 @@
       "notes": "3 colonnes parallèles par bloc de lettre (ordre : code postal | nom alsacien | nom français). Comptage : 401 codes, 399 noms alsaciens, 401 noms français — la colonne alsacienne compte 2 cellules de moins : alignement par position à vérifier au parse. Le code postal 68xxx porte la région.",
       "verification": {
         "verdict": "CONFORME",
-        "carte": "t_bb34f41b",
+        "carte": "t_7d814d01",
         "echantillon": "30/30",
-        "graine": "20260810",
+        "graine": "20260812",
         "date": "2026-08-09"
       }
     },

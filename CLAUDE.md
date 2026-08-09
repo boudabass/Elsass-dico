@@ -255,7 +255,7 @@ d'avertir sur le reste.
 
 **1 132 attestations, 0 entrée.** Source `culture_alsace`, trois rubriques :
 `villes_villages_hr` (397 lignes -> 396), `villes_villages_br` (558),
-`prenomsalsaciens` (179 -> 178). 954 toponymes, 178 prénoms.
+`prenoms` (179 -> 178). 954 toponymes, 178 prénoms.
 
 - **Homonymes : `contexte`, jamais `region`.** `Bouxwiller` existe dans les deux
   départements avec la même forme alsacienne. La clé UNIQUE portant sur
@@ -273,6 +273,14 @@ d'avertir sur le reste.
 - **L'ingestion se fait rubrique par rubrique** (`--rubrique`). Les rubriques
   d'une source n'avancent pas au même rythme : `--source` seul emporterait des
   lots qui n'ont pas passé leur GATE, sans erreur ni avertissement.
+- **Un JSONL se nomme d'après la clé de rubrique de la fiche source**, jamais
+  d'après la page d'origine — le motif de `--rubrique` est
+  `<source>__<rubrique>.jsonl`. Le lot des prénoms s'appelait
+  `culture_alsace__prenomsalsaciens.jsonl` pour une rubrique `prenoms` :
+  `--rubrique prenoms` ne désignait rien et rendait un succès silencieux.
+  Depuis, un filtre explicite qui ne trouve aucun fichier **échoue** (code 1) en
+  listant les rubriques réellement déposées. Le brut, lui, garde le nom de la
+  page : c'est la copie de la source, pas un produit du studio.
 - **`--resync`** rattrape une correction de parseur appliquée après ingestion —
   `ignore-duplicates` laisse sinon la ligne existante telle quelle, en silence.
   Il ne peut rien quand la correction touche la clé elle-même : il faut alors

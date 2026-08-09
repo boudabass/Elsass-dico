@@ -1,0 +1,12 @@
+== {{langue|gsw}} ==
+
+=== {{S|étymologie}} ===
+: {{composé de|Muus|sens1=souris|-li|lang=gsw|m=1}}.
+
+=== {{S|nom|gsw}} ===
+'''Müesli''' {{n}}
+# Petite [[souris]].
+# [[céréale#fr|Céréale]], [[muesli]], [[musli]].
+
+=== {{S|voir aussi}} ===
+* {{WP|Birchermüesli|lang=gsw}}

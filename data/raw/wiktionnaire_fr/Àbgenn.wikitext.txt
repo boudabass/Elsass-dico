@@ -1,0 +1,11 @@
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw}}
+
+=== {{S|nom|gsw}} ===
+'''Àbgenn''' {{pron||gsw}}
+# {{Alsace|gsw}} [[abandon#fr|Abandon]].
+#* {{exemple|lang=gsw}}
+
+=== {{S|références}} ===
+* {{R:Alsadico}}

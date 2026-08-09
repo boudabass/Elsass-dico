@@ -1,0 +1,409 @@
+{{voir|gold}}
+
+== {{langue|fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|fr}}
+
+=== {{S|nom de famille|fr}} ===
+'''Gold''' {{pron||fr}} {{mf}}
+# Nom de famille.
+#* {{exemple | lang=fr
+ | Ces artistes et intellectuels, souvent juifs, ont bénéficié de l’aide du journaliste Varian Fry, à la tête du Comité américain de secours d’urgence basé à Marseille, et de sa compatriote Mary Jayne '''Gold''', une riche héritière new-yorkaise, pour fuir le nazisme.
+ | source=journal ''20 minutes'', édition Paris-IDF, 7 avril 2023, page 12}}
+
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw}}
+
+=== {{S|nom|gsw}} ===
+'''Gold''' {{pron||gsw}}
+# {{éléments|gsw}} {{métaux|gsw}} [[or|Or]].
+{{clr}}
+
+==== {{S|vocabulaire}} ====
+{{tableau périodique/gsw}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=gsw}}
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: {{siècle|VIII}}. Du {{étyl|gmh|de|golt}}, {{étyl|goh|de|gold}}, du {{étyl|proto-germanique|de|*gulÞa-}}<ref>Friedrich Kluge, bearbeitet von Elmar Seebold: Etymologisches Wörterbuch der deutschen Sprache. 24., durchgesehene und erweiterte Auflage. Walter de Gruyter, Berlin/New York 2001, ISBN 978-3-11-017473-1, DNB 965096742, Stichwort „Gold“, Seite 365.</ref>. Cognat de l’anglais ''{{lien|gold|en}}'', du néerlandais ''{{lien|goud|nl}}'', du danois ''{{lien|guld|da}}'', du suédois ''{{lien|guld|sv}}''.
+
+=== {{S|nom|de}} ===
+{{de-nom-n|sing=oui|gs2=Goldes|ds2=Golde}}
+{{légende élément/de|Au}}
+[[Image:Native_gold_nuggets.jpg|thumb|'''Gold'''.]]
+'''Gold''' {{pron|ˈɡɔlt|de}} {{n}}
+# {{éléments|de}} {{métaux|de}} [[or#fr|Or]] (l’{{lien|élément chimique}} [[Au#conv|Au]]).
+#* {{exemple|lang=de}}
+# {{lexique|chimie|de}} [[or#fr|Or]] (le métal).
+#* {{exemple | lang=de | Menschen waren schon immer von '''Gold''' fasziniert. | sens=Les hommes ont toujours été fascinés par l'or.}}
+#* {{exemple|Der Alchemist behauptet, Eisen in '''Gold''' verwandeln zu können.|lang=de|sens=L’alchimiste prétend pouvoir transformer le fer en or.}}
+#* {{exemple|Das Gesetz vom 8. November 1934, das das Bankgeheimnis begründet, schützt diese Berge von '''Gold''', Devisen und Wertpapieren wirksam vor den neugierigen Blicken der ausländischen Steuerbehörden, der ausgeplünderten Staaten – und manchmal auch der Rechtsnachfolger der Gläubiger.|lang=de|sens=La loi du 8 novembre 1934 instituant le secret bancaire protège efficacement ces montagnes d’or, de devises, de titres du regard indiscret des fiscs étrangers, des gouvernements spoliés… et même parfois des ayants droit légitimes des créanciers.|source={{ouvrage|auteur={{w|Jean Ziegler}}|trad=Friedrich Griese et Thorsten Schmidt|titre=Die Schweiz wäscht weisser|année=1990|éditeur=Piper|lieu=München et Zürich|url=}}}}
+# {{lexique|héraldique|de}} [[or#fr|Or]] (le métal et la couleur).
+#* {{exemple|lang=de}}
+
+==== {{S|synonymes}} ====
+* {{lien|Aurum|de}}
+* {{lien|Goldmünze|de}}
+* {{lien|Goldmedaille|de}}
+
+==== {{S|antonymes}} ====
+* {{lien|Silber|de}}
+
+==== {{S|hyponymes}} ====
+{{(|}}
+* {{lien|Altgold|de|sens=vieil or}}
+* {{lien|Barrengold|de|sens=lingot d'or}}
+* {{lien|Blattgold|de|sens=feuille d'or}}
+* {{lien|Dukatengold|de}}
+* {{lien|Feingold|de}}
+* {{lien|Flittergold|de|sens=oripeau}}
+* {{lien|Katzengold|de|sens=pyrite}}
+* {{lien|Rauschgold|de|sens=oripeau}}
+* {{lien|Rheingold|de}}
+* {{lien|Staatsgold|de}}
+* {{lien|Waschgold|de}}
+* {{lien|Weißgold|de|sens=or blanc}}
+* {{lien|Zahngold|de|sens=or pour couronne dentaire}}
+* {{lien|Zentralbankgold|de}}
+* {{lien|Abendgold|de}}
+{{)}}
+{{(|}}
+* {{lien|flüssiges Gold|de}}
+* {{lien|schwarzes Gold|de}}
+* {{lien|weißes Gold|de}}
+* {{lien|Betongold|de}}
+* {{lien|Garagengold|de}}
+* {{lien|Hüftgold|de}}
+* {{lien|Olympiagold|de|sens=or olympique}}
+* {{lien|Rudergold|de}}
+{{)}}
+==== {{S|vocabulaire}} ====
+* {{voir thésaurus|de|couleur}}
+
+==== {{S|phrases}} ====
+* {{lien|ein Herz aus Gold haben|de|dif=ein Herz aus ''Gold'' haben}}
+* {{lien|Gold gegen etwas sein|de|dif=''Gold'' gegen etwas sein}}
+* {{lien|Gold in der Kehle haben|de|dif=''Gold'' in der Kehle haben}}
+* {{lien|Gold wert sein|de|dif=''Gold'' wert sein}}
+* {{lien|nicht für alles Gold in der Welt|de|dif=nicht für alles ''Gold'' in der Welt}}
+* {{lien|nicht mit Gold aufzuwiegen sein|de|dif=nicht mit ''Gold'' aufzuwiegen sein}}
+* {{lien|nicht mit Gold zu bezahlen sein|de|dif=nicht mit ''Gold'' zu bezahlen sein}}
+* {{lien|treu wie Gold sein|de|dif=treu wie ''Gold'' sein}}
+
+==== {{S|dérivés}} ====
+{{(|&nbsp;}}
+* {{lien|Berggold|de}}
+* {{lien|Dubleegold|de}}
+* {{lien|durchgoldet|de}}
+* {{lien|Eka-Gold|de|sens=roentgenium}}
+* {{lien|Gold führend|de}}
+* {{lien|gold gelockt|de}}
+* {{lien|Gold(I)-sulfid|de|sens=sulfure d'or(I)}}
+* {{lien|Gold(III)-chlorid|sens=chlorure d'or(III) », « chlorure aurique}}
+* {{lien|Gold(III)-oxid|sens=oxyde d'or(III) », « sesquioxyde d'or}}
+* {{lien|Gold(III)-sulfid|sens=sulfure d'or(III) », « trisulfure d'or}}
+* {{lien|Goldader|de|sens=filon d'or}}
+* {{lien|Goldafter|de|sens=cul-brun}}
+* {{lien|goldähnlich|de|sens=semblable à l'or}}
+* {{lien|Goldamalgam|de|sens=amalgame d'or}}
+* {{lien|Goldammer|de|sens=bruant jaune}}
+* {{lien|Goldamsel|de|sens=loriot}}
+* {{lien|Goldanstrich|de|sens=peinture dorée}}
+* {{lien|Goldarbeit|de|sens=orfèvrerie}}
+* {{lien|Goldarbeiter|de|sens=orfèvre}}
+* {{lien|Goldarmband|de|sens=bracelet en or}}
+* {{lien|goldartig|de}}
+* {{lien|Goldatom|de|sens=atome d'or}}
+* {{lien|Goldauflage|de}}
+* {{lien|Goldaugenbremse|de|sens=Chrysops relictus}}
+* {{lien|Goldausbeute|de|sens=rendement de l'or}}
+* {{lien|Goldbarbe|sens=barbus doré », « barbus de schubert}}
+* {{lien|Goldbarren|de|sens=lingot d'or}}
+* {{lien|Goldbarsch|de|sens=sébaste doré}}
+* {{lien|Goldbergwerk|de|sens=mine d'or}}
+* {{lien|Goldbeschlag|de|sens=ferrure dorée}}
+* {{lien|goldbesetzt|de}}
+* {{lien|Goldbestand|de|sens=stock d'or}}
+* {{lien|goldbestickt|de|sens=brodé d'or}}
+* {{lien|goldbetresst|de|sens=galonné d'or}}
+* {{lien|Goldblättchen|de|sens=petite feuille d'or}}
+* {{lien|Goldblech|sens=tôle d'or », « plaque d'or}}
+* {{lien|goldblond|de|sens=blond doré}}
+* {{lien|Goldbörse|de|sens=bourse de l'or}}
+* {{lien|Goldborte|de|sens=galon doré}}
+* {{lien|Goldbrasse|de|sens=dorade royale}}
+* {{lien|goldbraun|de|sens=brun doré}}
+* {{lien|Goldbrille|de|sens=lunettes d'or}}
+* {{lien|Goldbrokat|de|sens=brocart doré}}
+* {{lien|Goldbronze|de|sens=bronze doré}}
+* {{lien|Goldbuchstabe|de|sens=lettre d'or}}
+* {{lien|Golddeckung|de|sens=garantie par l'étalon-or}}
+* {{lien|Golddickkopf|de|sens=hespérie de la crételle}}
+* {{lien|Golddistel|de|sens=carline commune}}
+* {{lien|Golddraht|de|sens=fil d'or}}
+* {{lien|Golddruck|de|sens=impression à la feuille d'or}}
+* {{lien|golddurchwirkt|de}}
+* {{lien|Golddoublé|de}} ou {{lien|Golddublee|de|sens= plaqué or}}
+* {{lien|goldecht|de}}
+* {{lien|goldehrlich|de}}
+* {{lien|Goldehrlichkeit|de}}
+* {{lien|golden|sens=en or », « doré}}
+* {{lien|Goldengel|de}}
+* {{lien|Golderz|de|sens=minerai d'or}}
+* {{lien|Goldesel|de}}
+* {{lien|Goldeule|de|sens=xanthie dorée}}
+* {{lien|Goldfaden|de}}
+* {{lien|goldfarben|de|sens=doré}}
+* {{lien|goldfarbig|de}}
+* {{lien|Goldfasan|de|sens=faisan doré}}
+* {{lien|Goldfeder|de}}
+* {{lien|Goldfeld|de}}
+* {{lien|Goldfieber|de|sens=fièvre de l'or}}
+* {{lien|Goldfinger|de}}
+* {{lien|Goldfisch|de|sens=poisson rouge}}
+* {{lien|Goldfliege|de}}
+* {{lien|Goldfolie|de|sens=feuille d'or}}
+* {{lien|goldfrei|de}}
+* {{lien|Goldfuchs|de}}
+* {{lien|goldführend|de}}
+* {{lien|Goldfüllung|de}}
+* {{lien|goldgefasst|de}}
+* {{lien|Goldgehalt|sens=titre de l'or », « teneur en or}}
+* {{lien|goldgelb|sens=jaune d'or », « doré}}
+* {{lien|Goldgeld|de}}
+* {{lien|goldgelockt|de}}
+* {{lien|goldgerändert|de}}
+* {{lien|Goldgeschirr|de}}
+* {{lien|Goldgeschmeide|de}}
+* {{lien|Goldgewicht|de}}
+* {{lien|Goldgewinnung|de}}
+* {{lien|Goldgier|de}}
+* {{lien|goldgierig|de}}
+* {{lien|Goldglanz|de|sens=éclat doré}}
+* {{lien|goldglänzend|de|sens=or brillant}}
+* {{lien|Goldglas|sens=verre d'or », « verre sandwich doré}}
+* [[Goldgräber]] (''chercheur d'or''), [[Goldgräberin]] (''chercheuse d'or'')
+* {{lien|Goldgriff|sens=manche en or », « poignée en or}}
+* {{lien|Goldgrube|de|sens=mine d'or}}
+* {{lien|goldgrün|de|sens=vert doré}}
+* {{lien|Goldgrund|de|sens=fond doré}}
+* {{lien|Goldgulden|de}}
+* {{lien|Goldhaar|de|sens=cheveu d'or}}
+* {{lien|goldhaarig|de|sens=aux cheveux d'or}}
+* {{lien|Goldhafer|de|sens=avoine dorée}}
+* {{lien|Goldhähnchen|de|sens=roitelet}}
+* {{lien|Goldhahnenfuß|de|sens=renoncule tête d'or}}
+* {{lien|goldhaltig|de|sens=aurifère}}
+* {{lien|Goldhamster|de|sens=hamster doré}}
+* {{lien|Goldhase|de}}
+* {{lien|goldhell|de|sens=or clair}}
+* {{lien|goldhungrig|de|sens=avide d'or}}
+* [[goldig]] (''d'or''), (''délicieux''), (''chouchou''), (''chouchoute'')
+* {{lien|Goldjunge|de|sens=chouchou}}
+* {{lien|Goldkäfer|de|sens=cétoine}}
+* {{lien|Goldkäferfarbig|de|sens=mordoré}}
+* {{lien|Goldkäferschuh|de}}
+* {{lien|Goldkehlchen|de}}
+* {{lien|Goldkettchen|de}}
+* {{lien|Goldkette|de|sens=chaîne en or}}
+* {{lien|Goldkind|de}}
+* {{lien|Goldklausel|de}}
+* {{lien|Goldklumpen|de|sens=pépite d'or}}
+* {{lien|Goldknopf|de|sens=bouton en or}}
+* {{lien|Goldkorn|de}}
+* {{lien|Goldkrone|de|sens=couronne d'or}}
+* {{lien|Goldkupfer|de|sens=cuivre doré}}
+* {{lien|Goldkurs|de}}
+* {{lien|Goldküste|de}}
+* {{lien|Goldlack|de|sens=giroflée jaune}}
+* {{lien|Goldlager|de}}
+* {{lien|Goldlagerstätte|de}}
+* {{lien|Goldland|de|sens=Eldorado}}
+* {{lien|Goldlaufkäfer|de|sens=carabe doré}}
+* {{lien|Goldleder|de|sens=cuir doré}}
+* {{lien|Goldlegierung|de}}
+* {{lien|Goldleiste|de|sens=carabe violet}}
+* {{lien|goldlockig|de}}
+* {{lien|Goldmacher|de|sens=alchimiste}}
+* {{lien|Goldmacherei|de}}
+* {{lien|Goldmacherkunst|de|sens=alchimie}}
+* {{lien|Goldmädchen|de}}
+* {{lien|Goldmakrele|de|sens=dorade coryphène}}
+* {{lien|Goldmarie|de}}
+* {{lien|Goldmark|de|sens=mark-or}}
+* {{lien|Goldmarkt|de|sens=marché de l'or}}
+* {{lien|Goldmaske|de|sens=masque en or}}
+* {{lien|Goldmedaille|de|sens=médaille d'or}}
+* {{lien|Goldmine|de|sens=mine d'or}}
+* {{lien|Goldmull|de|sens=taupe dorée}}
+* {{lien|Goldmundstück|de}}
+* {{lien|Goldmünze|de|sens=pièce d'or}}
+* {{lien|Goldnessel|de|sens=lamier jaune}}
+* {{lien|Goldnugget|de|sens=pépite d'or}}
+* {{lien|Goldorfe|de}}
+* {{lien|Goldpapier|de|sens=papier doré}}
+* {{lien|Goldparität|de}}
+* {{lien|Goldparmäne|de|sens=reine des reinettes}}
+* {{lien|Goldpfeil|de|sens=flèche d'or}}
+* {{lien|Goldplätter|de|sens=batteur d'or}}
+* {{lien|Goldplattierung|de}}
+* {{lien|Goldplombe|de}}
+* {{lien|Goldpokal|de|sens=coupe d'or}}
+* {{lien|Goldpool|de}}
+* {{lien|Goldpreis|de|sens=prix de l'or}}
+* {{lien|Goldprobe|de}}
+* {{lien|Goldrahmen|de|sens=cadre doré}}
+* {{lien|Goldrand|sens=bordure dorée », « bordure en or}}
+* {{lien|Goldrausch|sens=fièvre de l'or », « ruée vers l'or}}
+* {{lien|Goldraute|de}}
+* {{lien|Goldregen|sens=cytise », « pluie d'or}}
+* {{lien|Goldregenpfeifer|de|sens=pluvier doré}}
+* {{lien|Goldreichtum|de}}
+* {{lien|Goldreif|de}}
+* {{lien|Goldreinette|de}} ou {{lien|Goldrenette|de|sens= reinette dorée}}
+* {{lien|Goldreserve|de|sens=réserve d'or}}
+* {{lien|goldrichtig|sens=être en or », « être impeccable}}
+* {{lien|Goldring|sens=anneau d'or », « bague en or}}
+* {{lien|Goldröhrling|de}} ou {{lien|Gold-Röhrling|de|sens= bolet élégant}}
+* {{lien|Goldröschen|de|sens=corète du Japon}}
+* {{lien|Goldrute|sens=solidage », « verge d'or}}
+* {{lien|Goldsand|de|sens=sable aurifère}}
+* {{lien|Goldschatz|sens=trésor en or », « personne adorée}}
+* {{lien|Goldschaum|de}}
+* {{lien|Goldscheldewasser|de|sens=eau régale}}
+* {{lien|Goldschicht|sens=strate aurifère », « veine aurifère}}
+* {{lien|Goldschläger|de}}
+* [[Goldschmied]], (''orfèvre''), (''carabe doré'') [[Goldschmiedin]] (''orfèvre''), (''orfèvresse'')
+* {{lien|Goldschmuck|de|sens=bijou en or}}
+* {{lien|Goldschnepfe|de}}
+* {{lien|Goldschnitt|sens=tranche dorée », « tranche d'or}}
+* {{lien|Goldschrift|de}}
+* {{lien|Goldseife|de}}
+* {{lien|Goldsohn|de}}
+* {{lien|Goldspecht|de|sens=pic flamboyant}}
+* {{lien|Goldspitze|de}}
+* {{lien|Goldstandard|de|sens=étalon-or}}
+* {{lien|Goldstaub|de|sens=poussière d'or}}
+* {{lien|Goldstern|de|sens=ornithogale jaune}}
+* {{lien|Goldstickerei|de}}
+* {{lien|Goldstoff|de}}
+* [[Goldstück]] (''pièce d'or''), (''morceau d'or''), (''chouchou'')
+* {{lien|Goldsuche|sens=quête d'or », « recherche d'or}}
+* [[Goldsucher]] (''chercheur d'or''), [[Goldsucherin]] (''chercheuse d'or'')
+* {{lien|Goldsucherei|de|sens=prospection de l'or}}
+* {{lien|Goldtaler|de|sens=thaler d'or}}
+* {{lien|Goldtochter|de}}
+* {{lien|Goldton|de}}
+* {{lien|Goldtopas|de}}
+* {{lien|Goldtransport|de|sens=transport de l'or}}
+* {{lien|Goldtresse|de}}
+* {{lien|goldtreu|de}}
+* {{lien|Goldüberzug|de}}
+* {{lien|goldverziert|de}}
+* {{lien|Goldvorrat|de}}
+* {{lien|Goldvreneli|de|sens=Vreneli d'or}}
+* {{lien|Goldwaage|de|sens=trébuchet}}
+* {{lien|Goldwährung|de|sens=monnaie d'or}}
+* {{lien|Goldwaldsänger|de|sens=paruline jaune}}
+* {{lien|Goldware|de|sens=orfèvrerie}}
+* {{lien|Goldwäsche|de|sens=orpaillage}}
+* [[Goldwäscher]] (''orpailleur''), [[Goldwäscherin]] (''orpailleuse'')
+* {{lien|Goldwäscherei|de}}
+* {{lien|Goldwasser|de|sens=eau dorée de Dantzig}}
+* {{lien|Goldweide|de}}
+* {{lien|Goldwert|de|sens=valeur-or}}
+* {{lien|Goldwespe|de|sens=chryside}}
+* {{lien|Goldzahn|de|sens=dent en or}}
+* {{lien|Graugold|de|sens=or blanc}}
+* {{lien|gülden|de|sens=doré}}
+* {{lien|Halbgold|de}}
+* {{lien|Knittergold|de}}
+* {{lien|Münzgold|de}}
+* {{lien|Muschelgold|de|sens=poudre dorée}}
+* {{lien|Musivgold|de|sens=poudre dorée}}
+* {{lien|Narrengold|de|sens=pyrite}}
+* {{lien|Neugold|de}}
+* {{lien|Plattgold|de}}
+* {{lien|Raubgold|de}}
+* {{lien|Reingold|de|sens=l'or du Rhin}}
+* {{lien|Schaumgold|de}}
+* {{lien|Sonnengold|de}}
+* {{lien|Talmigold|de}}
+* {{lien|Tetrachlorogoldsäure|de|sens=Acide chloraurique}}
+* {{lien|vergolden|sens=dorer », « acheter à prix d'or}}
+* {{lien|Wald-Goldstern|de|sens=ornithogale jaune}}
+{{)}}
+
+==== {{S|hyperonymes}} ====
+* {{lien|Metall|de}}
+{{clr}}
+
+==== {{S|vocabulaire}} ====
+* {{voir thésaurus|de|tableau périodique des éléments}}
+{{tableau périodique/de}}
+{{Liste|avant={{lien|Platin|de}}<br>([[Pt#conv|Pt]])|après={{lien|Quecksilber|de}} ou {{lien|Hydrargyrum|de}} {{désuet|nocat=1}}<br>([[Hg#conv|Hg]])|liste=[[Thésaurus:tableau périodique des éléments/allemand|Éléments chimiques en allemand]]}}
+
+=== {{S|prononciation}} ===
+* {{pron|ˈɡɔlt|de}}
+* {{écouter|Vienne (Autriche)|ɡɔlt|lang=de|audio=De-at-Gold.ogg}}
+* {{écouter|Berlin (Allemagne)|ɡɔlt|lang=de|audio=De-Gold.ogg}}
+* {{écouter|{{DE|nocat=1}}|ɡɔlt|lang=de|audio=LL-Q188 (deu)-Lucas Werkmeister-Gold.wav}}
+* {{écouter|Berlin (Allemagne)|ɡɔlt|lang=de|audio=LL-Q188 (deu)-Sebastian Wallroth-Gold.wav}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=de}}
+
+=== {{S|références}} ===
+* {{R:Duden|Gold}}
+
+<references />
+
+==== {{S|sources}} ====
+* {{R:DWDS|Gold}}
+* ''Duden'' : [http://www.duden.de/rechtschreibung/Gold Gold]
+* {{Source-wikt|de|Gold}}
+
+==== {{S|bibliographie}} ====
+* Larousse - Dictionnaire allemand/français – français/allemand , éd. 1958, p 511.
+* Harrap’s  de poche – Bordas Dictionnaire allemand/français, éd. 1997, ISBN 0-245-50308-0, p 127.
+
+[[Catégorie:Couleurs en allemand]]
+
+== {{langue|hrx}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|hrx}}
+
+=== {{S|nom|hrx}} ===
+'''Gold''' {{pron|kolt|hrx}} {{n}}
+# {{éléments|hrx}} [[or#fr|Or]] (l’{{lien|élément chimique}} [[Au#conv|Au]]).
+
+=== {{S|références}} ===
+* {{R:Boll2021|p=68|vue=85}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=de}}
+
+== {{langue|lb}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|lb}}
+
+=== {{S|nom|lb}} ===
+{{lb-inv|ɡolt}}
+'''Gold''' {{pron|ɡolt|lb}} {{n}}, {{au singulier uniquement|lb}}
+# {{éléments|lb}} {{métaux|lb}} [[or#fr|Or]].
+#* {{exemple|lang=lb}}
+{{clr}}
+==== {{S|vocabulaire}} ====
+{{tableau périodique/lb}}
+
+=== {{S|prononciation}} ===
+* {{écouter|Angers (France)||niveau=bon|lang=lb|audio=LL-Q9051 (ltz)-Procrastineur49-Gold.wav}}
+
+=== {{S|références}} ===
+: {{R:LOD}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=lb}}

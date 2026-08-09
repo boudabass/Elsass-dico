@@ -1,0 +1,24 @@
+{{voir|bredele}}
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw}}
+
+=== {{S|nom|gsw}} ===
+'''Bredele''' {{pron||gsw}} {{m}}
+# {{gâteaux|gsw}} [[bredele|Bredele]].
+
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{composé de|Brot|-ele|lang=gsw-fr|m=1|sens=petit pain}}.
+
+=== {{S|nom|gsw-fr}} ===
+[[File:Bredele noel 4.jpg|thumb|'''Bredele''']]
+'''Bredele''' {{pron||gsw-fr}} {{m}}
+# {{gâteaux|gsw-fr}} [[bredele|Bredele]].
+#* {{exemple|lang=gsw-fr}}
+
+==== {{S|variantes}} ====
+* {{l|Bredel|gsw-fr}}, {{l|Bredle|gsw-fr}}
+
+=== {{S|prononciation}} ===
+{{ébauche-pron-audio|gsw-fr}}

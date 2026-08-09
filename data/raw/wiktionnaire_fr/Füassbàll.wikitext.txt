@@ -1,0 +1,25 @@
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: {{composé de|Füass|sens1=pied|Bàll|sens2=balle, ballon|sens=balle au pied|lang=gsw|m=1}}. Cognat avec l'allemand ''{{lien|Fußball|de}}''.
+
+=== {{S|nom propre|gsw}} ===
+'''Füassbàll''' {{phon|ˈfʏˑəsˌb̥ɒl|gsw}} {{m}}
+# {{Région mulhousienne|gsw}} {{lexique|sport|gsw}} [[football#fr|Football]].
+
+==== {{S|dérivés}} ====
+* {{lien|Füassbàllmànnschàft|gsw}} — équipe de football
+* {{lien|Füassbàllnàzionààlmànnschàft|gsw}} — équipe nationale de football
+* {{lien|Füassbàllschpììler|gsw}} — joueur de football
+* {{lien|Füassbàllträäner|gsw}} — entraîneur de football
+* {{lien|Füassbàllschììdsrìchter|gsw}} — arbitre de football
+* {{lien|Füassbàllklub|gsw}} — club de football
+* {{lien|Füassbàllverain|gsw}} — club de football
+* {{lien|Füassbàllnàzionààlmaischterschàft|gsw}} — championnat national de football
+* {{lien|Füassbàllwaltmaischterschàft|gsw}} — championnat national de football
+* {{lien|Füassbàllwättbewarb|gsw}} — compétition de football, tournoi de football
+
+==== {{S|variantes dialectales}} ====
+* {{lien|Füessbàll|gsw}}
+
+=== {{S|références}} ===
+* {{Ouvrage|langue=fr|prénom=André |nom=Nisslé|titre=D’ Lehrschtuwa: Dictionnaire français-alsacien / Wärterbüach elsassisch franzesch|éditeur=Association Culture et Patrimoine d’Alsace|ISBN=978-2-36702-058-7|page=|para=|année=2015}}.

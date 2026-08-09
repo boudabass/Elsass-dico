@@ -1,0 +1,91 @@
+== {{langue|gsw}} ==
+{{ébauche|gsw}}
+
+=== {{S|étymologie}} ===
+Du latin médiéval Alsatia, du vieux haut allemand ali sazzo ("habitant de l'autre") (en référence à la rive opposée du Rhin), du proto-germanique occidental *alljas ("autre") + *sittjan ("habiter", littéralement "s'asseoir").
+
+=== {{S|nom propre|gsw}} ===
+'''Elsass'''
+# [[Alsace#Français|Alsace]] (région française).
+
+==== {{S|dérivés}} ====
+* [[elsässisch]]
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|de}}
+
+=== {{S|nom propre|de}} ===
+{{de-nom-propre|genre=n|gs=Elsass|gs2=Elsasses|ds2=Elsasse}}
+'''Elsass''' {{pron|ˈɛlzas|de}} {{n}}
+# {{régions|de|de France}} [[Alsace#Français|Alsace]] (région française).
+#* {{exemple|Sie brachten vierzehn Tage im '''Elsaß''' zu, wobei ununterbrochen gegessen wurde: die Brüder erzählten sich zotige Geschichten im Elsässer Dialekt; von Zeit zu Zeit wandte sich der Pastor an Louise und übersetzte ihr, aus christlicher Nächstenliebe, diese Geschichten.|lang=de|sens=Ils passèrent quinze jours en Alsace sans quitter la table; les frères se racontaient en patois des histoires scatologiques; de temps en temps, le pasteur se tournait vers Louise et les lui traduisait, par charité chrétienne.|source={{ouvrage|auteur={{w|Jean-Paul Sartre}}|trad=Hans Mayer|titre=Die Wörter|année=1965|éditeur=Rowohlt Verlag|lieu=Hamburg|url=}}}}
+
+==== {{S|synonymes}} ====
+* [[Elsaß]] (avant la {{w|Réforme de l'orthographe allemande de 1996}}).
+
+==== {{S|dérivés}} ====
+* [[elsässisch]]
+
+=== {{S|prononciation}} ===
+* {{écouter|Berlin|ˈɛlzas|lang=de|audio=De-Elsass.ogg}}
+
+== {{langue|et}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|et}}
+
+=== {{S|nom propre|et}} ===
+'''Elsass''' {{pron||et}}
+# [[Alsace]].
+
+[[Catégorie:Régions en estonien]]
+
+== {{langue|fi}} ==
+=== {{S|étymologie}} ===
+: Utilisation du nom local.
+
+=== {{S|nom propre|fi}} ===
+'''Elsass''' {{pron|ˈel.sɑs|fi}}
+# [[Alsace#Français|Alsace]] (région française, utilisé surtout en Histoire).
+
+==== {{S|synonymes}} ====
+* [[Alsace]]
+
+== {{langue|id}} ==
+=== {{S|étymologie}} ===
+: Utilisation du nom local.
+
+=== {{S|nom propre|id}} ===
+'''Elsass''' {{pron||id}}
+# [[Alsace#Français|Alsace]] (région française).
+#* {{exemple|lang=id}}
+
+== {{langue|lb}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|lb}}
+
+==== {{S|attestations}} ====
+: {{date|1906}} {{lien|Èlsass|lb}}<ref>{{R:WLM|E00245|titre=Èlsass}}</ref>
+
+=== {{S|nom propre|lb}} ===
+{{lb-inv||inv_titre=Nom propre}}
+'''Elsass''' {{pron||lb}} {{f}}
+# {{régions|lb|de France}} {{lien|Alsace|fr}}.
+#* {{exemple|lang=lb}}
+
+==== {{S|variantes}} ====
+* {{lien|Elsaass|lb}}
+
+==== {{S|dérivés}} ====
+* {{lien|Elsass-Loutrengen|lb|sens=Alsace-Lorraine}}
+
+==== {{S|gentilés}} ====
+* {{lien|Elsässer|lb}}, {{lien|Elsässerin|lb}}
+* {{lien|elsässesch|lb}}
+
+=== {{S|voir aussi}} ===
+{{liste projets|lb|Q1142}}
+
+=== {{S|références}} ===
+: {{R:LWB|E00334}}
+{{Références}}

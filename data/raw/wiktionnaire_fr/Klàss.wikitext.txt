@@ -1,0 +1,8 @@
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw}}
+
+=== {{S|nom|gsw}} ===
+'''Klàss''' {{pron||gsw}}
+# {{Wolschheim|gsw}} {{lexique|sociologie|gsw}} [[classe#fr|Classe]].
+#* {{exemple|lang=gsw}}

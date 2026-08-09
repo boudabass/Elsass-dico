@@ -1,0 +1,16 @@
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw}}
+
+=== {{S|nom propre|gsw}} ===
+'''Schdroosburi''' {{pron||gsw}}
+# [[Strasbourg#fr|Strasbourg]] (ville de [[France]]).
+
+==== {{S|synonymes}} ====
+* [[Strassburg]]
+* [[Strossburi]]
+
+
+{{clé de tri}}
+
+[[Catégorie:Localités en alémanique]]

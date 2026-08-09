@@ -1,0 +1,15 @@
+{{voir|kougelhopf}}
+== {{langue|gsw}} ==
+{{ébauche|gsw}}
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw}}
+
+=== {{S|nom|gsw}} ===
+'''Kougelhopf''' {{pron||gsw}}
+# [[kougelhopf#fr|Kougelhopf]].
+
+==== {{S|dérivés autres langues}} ====
+* {{L|fr}} : {{lien|kougelhopf|fr}}
+
+[[Catégorie:Gâteaux en alémanique]]

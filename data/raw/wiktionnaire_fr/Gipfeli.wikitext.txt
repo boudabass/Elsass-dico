@@ -1,0 +1,8 @@
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: Diminutif de l’{{étyl|de|gsw}} [[Gipfel]] « sommet » 
+
+=== {{S|nom|gsw}} ===
+'''Gipfeli''' {{pron|ɡip.fə.ˈliː|gsw}} {{n}} ({{p}}: '''Gipfelis''' {{pron|ɡip.fə.ˈliː|gsw}})
+# Le [[croissant]], la viennoiserie.
+#* Es Kaaffi und es '''Gipfeli''' muss ich am morgä ha — Je dois avoir un café et un croissant le matin (Début du refrain de la chanson ''Kaffi Und Gipfeli'' de Peach Weber)

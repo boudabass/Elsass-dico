@@ -1,0 +1,10 @@
+{{voir|huus}}
+
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: du moyen haut-allemand ''[[hūs]]'' issu du germanique ''*[[χūsam]]'' de la racine indo-européenne ''*[s]keu-'' ''(« entourer, couvrir »)''
+: {{cf|lang=gsw}} le gotique ''[[hūs]]'', l’allemand ''[[Haus]]'', le néerlandais ''[[huis]]'', l’anglais ''[[house]]'', le suédois et le danois ''[[hus]]'' et le français [[hutte]]
+
+=== {{S|nom|gsw}} ===
+'''Huus''' {{n}} {{pron|huːz̊|gsw}} ({{p}} [[Hüüs]], {{diminutif|gsw}}: [[Hüsli]])
+# La [[maison]]

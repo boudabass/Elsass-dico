@@ -1,0 +1,13 @@
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw}}
+
+=== {{S|nom|gsw}} ===
+'''Iise''' {{pron||gsw}}
+# {{éléments|gsw}} {{métaux|gsw}} [[fer|Fer]].
+{{clr}}
+==== {{S|vocabulaire}} ====
+{{tableau périodique/gsw}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=gsw}}

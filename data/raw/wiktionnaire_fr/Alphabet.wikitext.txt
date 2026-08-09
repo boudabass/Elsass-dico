@@ -1,0 +1,89 @@
+{{voir|alphabet}}
+
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|gsw|mot=alphabetum}}.
+
+=== {{S|nom|gsw}} ===
+'''Alphabet''' {{pron||gsw}}
+# [[alphabet#fr|Alphabet]].
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=gsw}}
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|gmh|de|mot=alfabēte}}, lui-même issu du {{étylp|la|de|mot=alphabētum}}.<ref>{{R:DWDS|Alphabet}}</ref>
+
+=== {{S|nom|de}} ===
+{{de-nom-n-s-e|gse=opt|dse=opt}}
+'''Alphabet''' {{pron|al.fa.ˈbeːt|de}} {{n}}
+# [[alphabet#fr|Alphabet]].
+#* {{exemple|Wieviele Buchstaben hat das thailändische '''Alphabet'''?|lang=de|sens=Combien de lettres compte l’alphabet thaïlandais ?}}
+#* {{exemple|Als sie Moskau verließen, sprach Elena ein rudimentäres Englisch, Eduard dagegen kein Wort – er beherrschte nur das kyrillische '''Alphabet''' –, doch im Laufe der zwei Monate in einem Auffanglager für Emigranten in Wien, in dem sie pausenlos tricksten, um nicht in die Schlange nach Israel zu geraten, brachten sie sich beide Grundkenntnisse bei und radebrechten zunehmend jenes broken english, mit dem sich in der Tat sehr viele Ausländer in New York durchschlagen.|lang=de|sens=Elle parlait un petit peu anglais en quittant Moscou, lui pas un mot, il ne déchiffre que l’alphabet cyrillique, mais au cours des deux mois qu’ils ont passés, à Vienne, dans un centre de transit pour émigrants où ils rusaient sans cesse pour ne pas se retrouver dans la file en partance pour Israël, ils se sont dégrossis tous les deux, baragouinant le broken english dont se contentent, en fait, énormément d’étrangers à New York.|source={{ouvrage|auteur={{w|Emmanuel Carrère}}|trad=Claudia Hamm|titre=Limonow|année=2012|éditeur=MSB Matthes & Seitz Berlin Verlagsgesellschaft|lieu=Berlin|url=}}}}
+
+==== {{S|synonymes}} ====
+* {{lien|Abc|de}}
+
+==== {{S|antonymes}} ====
+* {{lien|Analphabet|de}}
+
+==== {{S|hyperonymes}} ====
+* {{lien|Buchstabenfolge|de}}
+
+==== {{S|hyponymes}} ====
+{{(}}
+* {{lien|Afrika-Alphabet|de}}
+* {{lien|Braille-Alphabet|de}}
+* {{lien|Fingeralphabet|de}}
+* {{lien|Flaggenalphabet|de}}
+* {{lien|Grundalphabet|de}}
+* {{lien|Keilschriftalphabet|de}}
+* {{lien|Klopfalphabet|de}}
+* {{lien|Morsealphabet|de}}
+* {{lien|Runenalphabet|de}}
+* {{lien|Telegrafenalphabet|de}}
+* {{lien|Zeichenalphabet|de}}
+* {{lien|Kyrilliza|de}}
+{{)}}
+
+==== {{S|dérivés}} ====
+* {{lien|alphabetisch|de|sens=alphabétique}}
+* [[alphabetisieren]] ''(alphabétiser)''
+* [[Analphabet]], (''illettré''), (''analphabète'') [[Analphabetin]] (''illettrée''), , (''analphabète'')
+* {{lien|Analphabetentum|sens=analphabétisme », « illettrisme}}
+
+=== {{S|prononciation}} ===
+* {{pron|al.fa.ˈbeːt|de}}
+* {{écouter|{{DE|nocat=1}}|alfaˈbeːt|lang=de|audio=De-Alphabet.OGG}}
+* {{écouter|{{DE|nocat=1}}|alfaˈbeːt|lang=de|audio=De-Alphabet.ogg}}
+* {{écouter|Berlin (Allemagne)|alfaˈbeːt|lang=de|audio=De-Alphabet2.ogg}}
+* {{écouter|{{DE|nocat=1}}|alfaˈbeːt|lang=de|audio=LL-Q188 (deu)-Trypeds-Alphabet.wav}}
+
+=== {{S|références}} ===
+{{Références}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=de}}
+
+[[Catégorie:Lexique en allemand de l’éducation]]
+[[Catégorie:Lexique en alémanique de l’éducation]]
+
+== {{langue|en}} ==
+=== {{S|étymologie}} ===
+: {{date|lang=en|2015}} Du mot anglais {{lien|alphabet|en|nom|dif=''alphabet''|sens=alphabet}} ; peut-être aussi un {{mot-valise|de=alpha|de2=bet|lang=en}} (« pari sur alpha »).
+
+=== {{S|nom propre|en}} ===
+{{en-inv||inv_titre=Singulier}}
+'''Alphabet''' {{pron||en}} {{au singulier uniquement|en}}
+# {{lexique|entreprise|informatique|en}} {{lien|conglomérat|fr|nom|dif=Conglomérat}} possédant les anciennes filiales de {{lien|Google|fr|nom-pr}}.
+#* {{exemple|lang=en}}
+
+==== {{S|méronymes}} ====
+* {{lien|Google|en|nom-pr}}
+* {{lien|Waymo|en|nom-pr}}
+
+=== {{S|prononciation}} ===
+{{ébauche-pron-audio|en}}
+
+{{clé de tri|alphabet}}

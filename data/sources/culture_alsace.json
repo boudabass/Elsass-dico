@@ -543,7 +543,7 @@
     {
       "cle": "prenoms",
       "libelle": "Prénoms alsaciens",
-      "statut": "inventorié",
+      "statut": "extrait",
       "type_terme": "prenom",
       "url": "https://www.elsassisch.eu/culture.alsace.pagesperso-orange.archive/prenomsalsaciens.htm",
       "format_ligne": "<prénom(s) alsacien(s) séparés par /> <prénom français>",

@@ -539,7 +539,7 @@
     {
       "cle": "villes_villages_br",
       "libelle": "Villes et villages du Bas-Rhin",
-      "statut": "vérifié",
+      "statut": "ingéré",
       "type_terme": "toponyme",
       "url": "https://www.elsassisch.eu/culture.alsace.pagesperso-orange.archive/villes_villagesB.R.htm",
       "format_ligne": "<code postal> <nom français> <nom alsacien>",
@@ -557,7 +557,7 @@
     {
       "cle": "prenoms",
       "libelle": "Prénoms alsaciens",
-      "statut": "vérifié",
+      "statut": "ingéré",
       "type_terme": "prenom",
       "url": "https://www.elsassisch.eu/culture.alsace.pagesperso-orange.archive/prenomsalsaciens.htm",
       "format_ligne": "<prénom(s) alsacien(s) séparés par /> <prénom français>",

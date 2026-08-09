@@ -203,12 +203,11 @@ Coolify self-hosted v4.1.2 sur VPS OVH. Supabase self-hosted à déployer dessus
   `elsassdico` a créé le board et les six profils `ed-*` (article 725). La
   séparation évitait qu'un profil généraliste prenne des décisions engageant la
   doctrine ; elle a tenu.
-- Prochaine étape (révisée le 09/08/2026) : campagnes BR puis prénoms sur
-  culture_alsace, au même contrat. Le dossier Dictionnaire (7260 entrées A-D)
-  est une extraction antérieure au studio et non vérifiée : à reprendre au
-  contrat data/README.md avant ingestion. Ces attestations ne doivent jamais
-  alimenter entrees directement — elles entreront dans la file d'arbitrage
-  comme n'importe quelle autre, marquées 1 source sur N.
+- Prochaine étape (révisée le 09/08/2026 au soir) : **trouver une deuxième
+  source**, pas extraire le dictionnaire. Cf. « Campagne 1 close ». Le dossier
+  Dictionnaire (7260 entrées A-D) sera *remplacé* par la sortie du parseur de
+  la campagne dictionnaire, pas repris : il vient de la même source, déjà
+  archivée dans data/raw/.
 
 ## Première ingestion (09/08/2026)
 
@@ -246,9 +245,53 @@ d'avertir sur le reste.
 - Studio Supabase : `https://supabasekong-<uuid>.theelsassisch.fr/`,
   authentification basique, identifiants dans les variables du service Coolify.
 - `main` est protégé depuis le 08/08/2026 au soir : ruleset
-  `protect-main-no-direct-push`, règle `pull_request`, **aucun bypass** — la
-  règle 4 est une barrière technique et non plus une promesse. Toute
-  modification de main passe par une PR, y compris les nôtres.
+  `protect-main-no-direct-push`, règles `pull_request` + `non_fast_forward` +
+  `deletion`, **aucun bypass** — la règle 4 est une barrière technique et non
+  plus une promesse. Toute modification de main passe par une PR, y compris les
+  nôtres. C'est la protection de branche, et non le remplacement du jeton, qui
+  porte la règle : elle vaut contre tous les jetons, owner compris.
+
+## Campagne 1 close (09/08/2026)
+
+**1 132 attestations, 0 entrée.** Source `culture_alsace`, trois rubriques :
+`villes_villages_hr` (397 lignes -> 396), `villes_villages_br` (558),
+`prenomsalsaciens` (179 -> 178). 954 toponymes, 178 prénoms.
+
+- **Homonymes : `contexte`, jamais `region`.** `Bouxwiller` existe dans les deux
+  départements avec la même forme alsacienne. La clé UNIQUE portant sur
+  `(source_id, francais, alsacien, contexte)`, les deux communes fusionnaient et
+  l'une disparaissait en silence. Les toponymes portent donc `contexte` =
+  `Haut-Rhin` / `Bas-Rhin`, en clair car le champ s'affiche. `region` ne peut pas
+  jouer ce rôle : elle n'est pas dans la clé. C'est ce que dit déjà la doctrine
+  éditoriale — homonymes séparés via `contexte`.
+- **Une répétition interne à une source n'est jamais un recoupement.** Ni
+  `Altenbach` listé deux fois, ni `Schennla` partagée par deux entrées de la page
+  des prénoms, ni les deux sens du dictionnaire (`page_X` / `page_Xf`) ne
+  comptent double : ils gonfleraient `nb_attestations` d'un recoupement fictif.
+  Le sens inverse sert de contrôle de cohérence interne, à rendre au rapport,
+  jamais dans le JSONL.
+- **L'ingestion se fait rubrique par rubrique** (`--rubrique`). Les rubriques
+  d'une source n'avancent pas au même rythme : `--source` seul emporterait des
+  lots qui n'ont pas passé leur GATE, sans erreur ni avertissement.
+- **`--resync`** rattrape une correction de parseur appliquée après ingestion —
+  `ignore-duplicates` laisse sinon la ligne existante telle quelle, en silence.
+  Il ne peut rien quand la correction touche la clé elle-même : il faut alors
+  supprimer puis réingérer.
+- **`data/raw/** -text` dans `.gitattributes`** : la source a des fins de ligne
+  mixtes, et `core.autocrlf` les réécrivait au checkout. Sans cet attribut, les
+  73 md5 tombent faux et un aller-retour Windows modifie l'archive.
+- **La fiche source porte les verdicts de vérification** (bloc `verification` :
+  verdict, carte, échantillon, graine, date), préservés à la régénération comme
+  `statut`. Un rapport de carte est éphémère, le dépôt reste — et le verdict est
+  ce qui *autorise* l'ingestion.
+
+**Le goulot n'est plus l'extraction.** Tout vient d'une source unique, donc tout
+est à 1 source sur N et `arbitrer_entree()` refuse. Extraire les 50 pages du
+dictionnaire porterait le stock à ~44 000 lignes également bloquées. La campagne
+suivante est donc la **recherche d'une deuxième source** (article Odoo 725), et
+non le dictionnaire. Pour les toponymes, la deuxième source la plus solide n'est
+peut-être pas un site : le circuit `/contributions` existe déjà, un contributeur
+= une source, et 954 communes à confirmer est un objet de campagne fini.
 
 ## Règles de travail
 

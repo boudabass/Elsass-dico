@@ -6,7 +6,7 @@
   "annee": null,
   "licence": "CC BY-SA 4.0",
   "fiabilite": 2,
-  "notes": "Source collaborative : chaque article porte la graphie de son rédacteur, non harmonisée entre articles ni avec aucune autre source. À traiter comme 1 source sur N. Le lot restreint pilote (10 communes) est un recoupement avec culture_alsace : les divergences de forme sont préservées et listées dans le rapport de carte, jamais corrigées (règle 1 du contrat).",
+  "notes": "Source collaborative : chaque article porte la graphie de son rédacteur, non harmonisée entre articles ni avec aucune autre source. À traiter comme 1 source sur N. fiabilite estimée à 2 (source collaborative, formes non harmonisées, à recouper) — échelle non documentée dans data/README, valeur à confirmer par John. Le lot restreint pilote (10 communes) est un recoupement avec culture_alsace : les divergences de forme sont préservées et listées dans le rapport de carte, jamais corrigées (règle 1 du contrat).",
   "rubriques": [
     {
       "cle": "toponymes",

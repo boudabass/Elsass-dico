@@ -1,0 +1,51 @@
+{{DISPLAYTITLE:Mollài}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Mollau
+| nomalsacien = Mollài
+| alt moy = 470
+| alt mini = 452
+| alt maxi = 1195
+| km² = 8.82
+|}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Mollài''' ([[Französische Sprache|frz.]] ''Mollau'', [[Deutsche Sprache|dt.]] ''Mollau'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Haut-Rhin|Owerelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}.
+
+== Gschìcht ==
+Mollài ìsch zem erschte Mol gnannt worre ànne 1216 àls ''Mulenowe''.
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Mollài ìsch {{Maires|FR|{{#Property:P374}}}}. Mollài ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+==Bevelkerungsentwicklung ==
+{| class="wikitable" width=400
+|- align=center class="hintergrundfarbe5"
+|align=left | '''Johr''' || '''1962''' || '''1968''' || '''1975''' || '''1982''' || '''1990''' || '''1999''' || '''2006'''
+|- align=center
+|align=left|'''Inwohner'''<ref>[[Institut National de la Statistique et des Études Économiques|INSEE]]: ''Population et logements par commune depuis le recensement de 1962 (1961 pour les Dom) à 1999''</ref> || 437 || 480 || 412 || 397 || 397 || 419 || 424
+|}
+
+== Dialekt ==
+Dr [[Elsässisch|elsassisch]] Dialekt vun Mollài ghert zem [[Oberrheinalemannisch|Owerrhinàlemànnisch]].
+
+{|
+|[[Datei:Mollau, Eglise Saint-Jean-Baptiste1.jpg|thumb|Kirich Saint-Jean-Baptiste]]
+|[[Datei:Mollau, Eglise Saint-Jean-Baptiste2.jpg|thumb|Kirich Saint-Jean-Baptiste]]
+|}
+
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+* {{Commonscat|Mollau|Mollài}}
+* [http://www.cc-stamarin.fr/index.php?option=com_content&task=view&id=44&Itemid=49 Mollo] bi dr CC Vallée de Saint-Amarin (fr)
+
+== Referanza ==
+<references/>
+
+{{Navigationsleiste Gemeinden im Kanton Sennheim}}
+
+{{Normdaten}}
+
+[[Kategorie:Ort (Owerelsàss)]]

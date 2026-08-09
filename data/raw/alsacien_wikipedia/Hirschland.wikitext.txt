@@ -1,0 +1,49 @@
+{{DISPLAYTITLE:Hìrschlànd}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Hirschland
+| nomalsacien = Hìrschlànd
+| alt moy = 244–332
+| km² = 10.73
+| image = Hirschland, Mairie et l'école.jpg
+| description = Mairie und Schüel
+|}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Hìrschlànd''' ([[Französische Sprache|frz.]] ''Hirschland'', [[Deutsche Sprache|dt.]] ''Hirschland'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Bas-Rhin|Unterelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}.
+
+== Gschìcht ==
+Hìrschlànd ìsch zem erschte Mol gnannt worre ìm 9. Jh. àls ''Hirslanden''.
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Hìrschlànd ìsch {{Maires|FR|{{#Property:P374}}}}. Hìrschlànd ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Bevelkerungsentwìcklung ==
+{| class="wikitable" width=400
+|- align=center class="hintergrundfarbe5"
+|align=left | '''Johr''' || '''1962''' || '''1968''' || '''1975''' || '''1982''' || '''1990''' || '''1999''' || '''2007'''
+|- align=center
+|align=left|'''Inwohner'''<ref>[[Institut National de la Statistique et des Études Économiques|INSEE]]: ''Population et logements par commune depuis le recensement de 1962 (1961 pour les Dom) à 1999''</ref> || 291 || 332 || 329 || 284 || 286 || 340 || 319
+|}
+
+== Dialekt ==
+Dr [[Lothringisch (Rheinfränkisch)|lothringisch]] Dialekt vun Hìrschlànd ghert zem [[Rheinfränkisch|Rhinfrankisch]].
+
+{|
+|[[Datei:Hirschland, Eglise luthérienne.jpg|miniatur|hochkant|Evàngelisch-lutherische Kirich]]
+|}
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+{{Commonscat}}
+* https://web.archive.org/web/20090325014202/http://www.hirschland.net/
+* [https://web.archive.org/web/20160304093323/http://www.cc-alsace-bossue.net/html/index.php?page=2&menu1=17&menu2=1&menu3=6&page_id=740 Hìrschland] uf cc-alsace-bossue.net
+
+== Referanza ==
+<references />
+
+{{Navigationsleiste Gemeinden im Kanton Ingweiler}}
+{{Normdaten}}
+
+[[Kategorie:Ort (Unterelsass)]]

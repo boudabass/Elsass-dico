@@ -1,0 +1,62 @@
+{{DISPLAYTITLE:Merze}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Mertzen
+| nomalsacien = Merze
+| alt moy = 350
+| alt mini = 329
+| alt maxi = 400
+| km² = 2.01
+| image = Mertzen, Mairie.jpg
+| description = Mairie
+|}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Merze''' ([[Franc-comtois|Patois]] ''Meurentsche'', [[Französische Sprache|frz.]] ''Mertzen'', [[Deutsche Sprache|dt.]] ''Merzen'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Haut-Rhin|Owerelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}.
+
+== Geogràfi ==
+Merze lijt ìm [[Sundgau|Sundgöi]] àn dr [[Largue (Ill)|Làrg]], 10 Kilometer sìdeschtlich vun [[Altkirch|Àltkìrech]] un 22 Kilometer sìdeschtlich vun [[Belfort]]. Nochbergmeine vun Merze sìn [[Sankt Ulrich (Oberelsass)|Sant Üelri]], [[Strüth|Strüeth]], [[Hindlingen|Hìndlìnge]] un [[Fülleren|Fìllere]].
+
+== Gschìcht ==
+Merze ìsch zem erschte Mol gnannt worre ànne 1100 àls ''Morentze'' (1341 ''Moerentze'', 1491 ''Mörentz'', 1509 ''Mauritz'', 1525 ''Möritzen'', 1571 ''Moritzheim'', 1576 ''Meritz'').
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Merze ìsch {{Maires|FR|{{#Property:P374}}}}. Merze ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Bevelkerungsentwìcklung ==
+{| class="wikitable" width=400
+|- align=center class="hintergrundfarbe5"
+|align=left | '''Johr''' || '''1962''' || '''1968''' || '''1975''' || '''1982''' || '''1990''' || '''1999''' || '''2007'''
+|- align=center
+|align=left|'''Inwohner'''<ref>[[Institut National de la Statistique et des Études Économiques|INSEE]]: ''Population et logements par commune depuis le recensement de 1962 (1961 pour les Dom) à 1999''</ref> || 154 || 168 || 170 || 185 || 185 || 189 || 207
+|}
+
+== Verkehr ==
+Vun 1910 bis 1971 hàt s z Merze e Bàhnhof gan àn dr Bàhnlinie [[Dammerkirch|Dàmmerkìlch]]–[[Pfetterhausen|Pfatterhüse]].
+
+== Dialekt ==
+Dr [[Elsässisch|elsassisch]] Dialekt vun Merze ghert zem [[Oberrheinalemannisch|Owerrhinàlemànnisch]].
+
+== Böiwark ==
+* Kìrich Saint-Maurice (Durm romànisch-gotisch, Schìff 1780, 1965 reschtauriert)
+* Théobald-Bilger-Kapell, 1878 geböit vum Théobald Bilger (1813-1894)
+
+{|
+|[[Datei:Mertzen.JPG|thumb|left|upright 1.0|<center>Théobald-Bilger-Kapell</center>]]
+|[[Datei:Mertzen, Eglise Saint-Maurice.jpg|thumb|left|upright 1.1|<center>Kìrich Saint-Maurice</center>]]
+|}
+
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+* {{commonscat|Mertzen}}
+
+== Referanza ==
+<references/>
+
+{{Navigationsleiste Gemeinden im Kanton Hirsingue}}
+
+{{Normdaten}}
+
+[[Kategorie:Ort (Owerelsàss)]]

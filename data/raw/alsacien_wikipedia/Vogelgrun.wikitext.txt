@@ -1,0 +1,63 @@
+{{DISPLAYTITLE:Vogelgrien}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Vogelgrun
+| nomalsacien = Vogelgrien
+| alt moy = 192
+| alt mini = 189
+| alt maxi = 195
+| km² = 5.03
+|}}
+'''Vogelgrien''' ([[IPA]]: {{IPA|[ˈfoːg̊əlg̊riə̯n]}}; [[Französische Sprache|frz.]] ''Vogelgrun'', [[Deutsche Sprache|dt.]] ''Vogelgrün'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Haut-Rhin|Owerelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}. S'klei Dorf ghört im Kommunalverband {{Kommunalverband|FR|{{#Property:P374}}}} a.
+
+== Geographi ==
+Vogelgrien lijt südweschtlich von dr Brucke iwer [[Rhein|Rhin]] un [[Rheinseitenkanal|Rhinsidekanal (Grand Canal d'Alsace)]] an dr Grenz zue [[Deutschland|Ditschland]] gegeniwer von [[Breisach am Rhein| alt-Brisach]].
+
+== Gschicht ==
+Dr Name kommt von "Vogelgrien" un meint nit e griene Vogel, sundern dr Wortteil ''grien'' wiist uf e Sandbank im Rhin hin, wo wohrschins von Vögel als Raschtplatz gnutzt worde isch.
+
+S'Dorf isch ufgrund von siner vor dr Rhinbegradigung gfährdete Lag im ehemolige Mäander vom Rhin dütlich jünger wie di Nochbergmeinde un isch lang e Deil von [[Biesheim|Biese]] gsin. 1568 het es no [[Breisach am Rhein|Brisach]] erworbe un 1756 an dr Graf Waldner von Freundstein verkäuft. Säller het es no 1770 an Frankrich abtrete. Am 1. Dezember 1805 isch dr Ort zue ener Gmeind erhobe worde, am 11. November 1807 isch no d'Gmeindschuel igwihe worde.
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Vogelgrien ìsch {{Maires|FR|{{#Property:P374}}}}. Vogelgrien ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Bevölkerung ==
+D'Bevölkerung, wo in dr 1960er Johre um 150 Lit gschwankt isch, isch no bis 1975 uf guet 400 gwachse und het uf sällem Niveau bis gege 1990 stagniert. Bis zum Ende von dr 1990er Johre isch d'Inwohnerzahl no uf iwer 500 Lit agstige.
+
+== Wirtschaft un Infrastruktur ==
+Am Nordend von dr Gemarkung verläuft dr Rhiniwergang uf Ditschland. Dort lijt äu d'Stäustuf, wo s'Nordend vom Rhinsidekanal markiert. D'Stäustuf mit Schleus un Wasserkraftwerk (Läufkraftwerk) verschaffe dr Gmeind gueti Stiirinnahme.
+
+S' 1956-59 errichtet Wasserkraftwerk, wo an dr 4. Stäustufe vum Rhinsidekanal lejt, produziert 745 Mio. kWh pro Jahr.
+Dr Kanal, wo d'Masse vum Rhinwasser het (dr Rhin sälwer isch praktisch nümm e Iwerläufrinn) wird debi uf 14 km gstäut.
+
+Denewe git's z'Vogelgrien äu noch Landwirtschaft mit grosse Gärtnereie, Viihzucht un [[Getreide|Fruuchtabau]].
+
+== Kultur und Sähenswürdigkeite ==
+* Hauptattraktion sin d'Stäustuf mit dr Schleus bi dr Brucke iwer Rhin und Kanal.
+* D'Dorfkirch isch 1975 an dr Stell von dr alde errichtet worde.
+
+== Bevelkerungsentwìcklung ==
+{|class="wikitable" width=375
+|- bgcolor="#E3ffE3" align=center
+|align=left | '''Johr''' || '''1910''' || '''1962''' || '''1968''' || '''1975''' || '''1982''' || '''1990''' || '''1999''' || '''2006''' 
+|- align=center
+|align=left | '''Inwohner'''<ref>[[Institut National de la Statistique et des Études Économiques|INSEE]]: ''Population et logements par commune depuis le recensement de 1962 (1961 pour les Dom) à 1999''</ref> || 167 || 144 || 155 || 397 || 420 || 415 || 519 || 589
+|}
+
+<gallery widths=140>
+Datei:Vogelgrun, Vestige de l'ancienne église Saint-Alphonse.jpg|Rescht vu dr alti Kirich St. Alfons
+</gallery>
+
+== Weblink ==
+* {{Commonscat|Vogelgrun}}
+* [http://www.vogelgrun.fr/ Uftritt von dr Gmeind Vogelgrien] (französisch)
+
+== Referanza ==
+<references/>
+
+{{Navigationsleiste Gemeinden im Kanton Ensisheim}}
+
+{{Normdaten}}
+
+[[Kategorie:Ort (Owerelsàss)]]

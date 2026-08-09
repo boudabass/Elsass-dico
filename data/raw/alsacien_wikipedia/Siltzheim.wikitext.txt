@@ -1,0 +1,43 @@
+{{DISPLAYTITLE:Sìlze}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Siltzheim
+| nomalsacien = Sìlze
+| alt moy = 200–287
+| km² = 6.96
+|}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Sìlze''' ([[Französische Sprache|frz.]] ''Siltzheim'', [[Deutsche Sprache|dt.]] ''Silzheim'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Bas-Rhin|Unterelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}.
+
+== Gschìcht ==
+Sìlze ìsch zem erschte Mol gnannt worre ìm 17. Jh. àls ''Silzen``.
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Sìlze ìsch {{Maires|FR|{{#Property:P374}}}}. Sìlze ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Bevelkerungsentwìcklung ==
+{| class="wikitable" width=400
+|- align=center class="hintergrundfarbe5"
+|align=left | '''Johr''' || '''1962''' || '''1968''' || '''1975''' || '''1982''' || '''1990''' || '''1999''' || '''2007'''
+|- align=center
+|align=left|'''Inwohner'''<ref>[[Institut National de la Statistique et des Études Économiques|INSEE]]: ''Population et logements par commune depuis le recensement de 1962 (1961 pour les Dom) à 1999''</ref> || 459 || 481 || 505 || 538 || 551 || 582 || 621
+|}
+
+== Dialekt ==
+Dr [[Lothringisch (Rheinfränkisch)|lothringisch]] Dialekt vun Sìlze ghert zem [[Rheinfränkisch|Rhinfrankisch]].
+
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+{{Commonscat|Siltzheim}}
+* [http://www.agglo-sarreguemines.fr/les-communes/siltzheim Sìlze] uf agglo-sarreguemines.fr
+
+== Referanza ==
+<references/>
+
+{{Navigationsleiste Gemeinden im Kanton Ingweiler}}
+{{Normdaten}}
+
+[[Kategorie:Ort (Unterelsass)]]

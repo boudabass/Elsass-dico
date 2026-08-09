@@ -1,0 +1,67 @@
+{{DISPLAYTITLE:Kàrschbàch}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Carspach
+| nomalsacien = Kàrschbàch
+| alt moy = 300
+| alt mini = 283
+| alt maxi = 397
+| km² = 17.17
+| image = Carspach, Mairie.jpg
+| description = <center>Mairie
+|}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Kàrschbàch''' ([[Französische Sprache|frz.]] ''Carspach'', [[Deutsche Sprache|dt.]] ''Karspach'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Haut-Rhin|Owerelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}.
+
+== Geogràfi ==
+Kàrschbàch lijt im [[Sundgau|Sundgöi]] nerdlich vun [[Altkirch|Àltkìrech]].
+
+== Gschìcht ==
+Kàrschbàch ìsch zem erschte Mol gnannt worre ànne 837 àls ''Karoldespach'' (877 ''Charoltespach'', 1266 ''Karolspach'').
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Karschbach ìsch {{Maires|FR|{{#Property:P374}}}}. Kàrschbàch ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Bevelkerungsentwìcklung ==
+{|class="wikitable"
+!|Johr
+!|1962
+!|1968
+!|1975
+!|1982
+!|1990
+!|1999
+!|2007
+|-
+| Inwohner || 1448 || 1685 || 1676 || 1666 || 1546 || 1620 || 1816
+|}
+
+== Dialekt ==
+Dr [[Elsässisch|elsassisch]] Dialekt vun Kàrschbàch ghert zem [[Oberrheinalemannisch|Owerrhinàlemànnisch]].
+
+== Boiwark un Kültür ==
+* Wàsserschloss (1933)
+* Kìrech Saint-Georges (1832)
+* Fascht rund um d’Bach, ìm Öigscht
+
+{|
+|[[Datei:Carspach, Eglise Saint-Georges.jpg|thumb|<center>Kìrech Saint-Georges]]
+|}
+
+== Literàtür ==
+* „Un village du Sundgau sous l'ancien régime: Carspach“, [https://web.archive.org/web/20151228064342/http://bramirez.free.fr/livre-carspach-ancien-regime.htm Studie vun dr historische un genealogische Dàte vun Kàrschbàch], Zitrüm 1680-1789, Quälle üs em fimfzehnte Johrhundert (ISBN 978-2-7466-2129-9)
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+{{Commonscat|Carspach}}
+*[https://web.archive.org/web/20100424223013/http://www.carspach.fr/ carspach.fr] 
+
+== Referanza ==
+<references/>
+
+{{Navigationsleiste Gemeinden im Kanton Altkirch}}
+
+{{Normdaten}}
+
+[[Kategorie:Ort (Owerelsàss)]]

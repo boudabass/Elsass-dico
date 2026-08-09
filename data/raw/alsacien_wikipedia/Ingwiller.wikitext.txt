@@ -1,0 +1,52 @@
+{{DISPLAYTITLE:Ìngwiller}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Ingwiller
+| nomalsacien = Ìngwiller
+| alt moy = 185–371
+| km² = 18.05
+| image = Ingwiller.exterieur1.JPG
+| description = Synàgog
+|}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Ìngwiller''' ([[Französische Sprache|frz.]] ''Ingwiller'', [[Deutsche Sprache|dt.]] ''Ingweiler'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Bas-Rhin|Unterelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}.
+
+== Gschìcht ==
+Ìngwiller ìsch zem erschte Mol gnannt worre ànne 742 àls ''Ingoniwillare''.
+{|
+|[[Datei:Panorama Ingwiller 1880.jpg|thumb|Pánoràmà vun Ìngwiller (1880)]]
+|}
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Ìngwiller ìsch {{Maires|FR|{{#Property:P374}}}}. Ìngwiller ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Bevelkerungsentwìcklung ==
+{| class="wikitable" width=400
+|- align=center class="hintergrundfarbe5"
+|align=left | '''Johr''' || '''1962''' || '''1968''' || '''1975''' || '''1982''' || '''1990''' || '''1999''' || '''2007'''
+|- align=center
+|align=left|'''Inwohner'''<ref>[[Institut National de la Statistique et des Études Économiques|INSEE]]: ''Population et logements par commune depuis le recensement de 1962 (1961 pour les Dom) à 1999''</ref> || 3074 || 3257 || 3674 || 3900 || 3753 || 3847 || 4070 
+|}
+
+== Dialekt ==
+Dr [[Elsässisch|elsassisch]] Dialekt vun Ìngwiller ghert zem [[Oberrheinalemannisch|Owerrhinàlemànnisch]].
+
+<gallery widths="200" heights="180" perrow="2">
+Datei:Ingwiller Röemerstross.JPG|Röemerstross
+Datei:Ingwiller Schiesmüür.JPG|Schiessmüür
+</gallery>
+
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+{{commonscat|Ingwiller}}
+{{Wikisource|Topographia Alsatiae: Ingweiler|Ingweiler in der Topographia Alsatiae (Matthäus Merian)}}
+* https://web.archive.org/web/20141227085848/http://www.ingwiller.fr/
+
+== Referanza ==
+<references />
+
+{{Navigationsleiste Gemeinden im Kanton Ingweiler}}
+{{Normdaten}}
+
+[[Kategorie:Ort (Unterelsass)]]

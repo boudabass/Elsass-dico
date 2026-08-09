@@ -1,0 +1,86 @@
+{{DISPLAYTITLE:Siewe}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Sewen
+| nomalsacien = Siewe
+| alt moy = 504
+| alt mini = 483
+| alt maxi = 1242
+| km² = 21.50
+|}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Siewe''' ([[Französische Sprache|frz.]] ''Sewen'', [[Deutsche Sprache|dt.]] ''Sewen'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Haut-Rhin|Owerelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}.
+
+== Gschìcht ==
+Siewe ìsch zem erschte Mol gnannt worre ìm 14. Jh. àls ''Seben''.
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Siewe ìsch {{Maires|FR|{{#Property:P374}}}}. Siewe ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}. 
+
+===Lischt vun dr Maires zitter 1790===
+{| width=66%
+| valign=top width=33% align=left |
+* Sébastien GEBEL (1790-1794)
+* Michel ILTIS (1794-1795)
+* Joseph LUTTENSCHLAGER (1794-1795)
+* Jean NÄGELEN (1795-1797)
+* Michel ILTIS (le vieux) (1797-1797)
+* Jean NÄGELEN (1797-1802)
+* Jean ILTIS (1802-1807)
+* Conrad ILTIS (le jeune) (1807-1813)
+* Nicolas LATSCH (1813-1816)
+* Michel ILTIS (le jeune) (1816-1830)
+* Antoine FLÜHR (1830-1835)
+* Antoine ILTIS (1835-1848)
+* Jean ILTIS (1848-1853)
+* Michel (fils de Michel) ILTIS (1853-1855)
+| valign=top width=33% align=left |
+* Antoine ILTIS (1855-1865)
+* Jérôme FLÜHR (1865-1868)
+* Léon FISCHMEISTER (1868-1882)
+* Philibert LINTZER (1882-1895)
+* Victor RINGENBACH (1895-1914)
+* Xavier FLÜHR (1914-1916)
+* Xavier LEHMANN (1916-1916)
+* Auguste (d'Adolphe) ILTIS (1916-1945)
+* Charles FLÜHR -1945
+* Auguste Maurice FLÜHR (1945-1965)
+* Robert KIEFFER (1965-1977)
+* Marc GASSER (1977-1986)
+* Bertrand DANTUNG (1986-2001)
+* Jean-Paul BINDLER (zitter 2001)
+|}
+
+== Bevelkerungsentwìcklung ==
+{| class="wikitable"
+|-class="hintergrundfarbe8"
+!Johr
+!1962
+!1968 
+!1975
+!1982
+!1990
+!1999
+!2005
+|- align=center
+| Inwohner || 586 || 604 || 552 || 516 || 539 || 530 || 531
+|}
+
+== Dialekt ==
+Dr [[Elsässisch|elsassisch]] Dialekt vun Siewe ghert zem [[Oberrheinalemannisch|Owerrhinàlemànnisch]].
+
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+* {{Commonscat|Sewen|Siewe}}
+* [https://web.archive.org/web/20081207005249/http://www.cc-vallee-doller.fr/Pagesweb/Explorer/Sous%20rubriques/PageCommunes/Sewen.htm Siewe] bi dr ''CC de la Vallée de la Doller et du Soultzbach''
+
+== Referanza ==
+<references/>
+
+{{Navigationsleiste Gemeinden im Kanton Masevaux}}
+{{Normdaten}}
+
+[[Kategorie:Ort (Owerelsàss)]]

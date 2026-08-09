@@ -1,0 +1,59 @@
+{{DISPLAYTITLE:Kolbse}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Kolbsheim
+| nomalsacien = Kolbse
+| alt moy = 152–211
+| km² = 3.33
+|}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Kolbse''' ([[Französische Sprache|frz.]] ''Kolbsheim'', [[Deutsche Sprache|dt.]] ''Kolbsheim'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Bas-Rhin|Unterelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}.
+
+== Geografi ==
+Kolbse ìsch a Dorf vom Elsass in de Nähe von Strossburi. Nett witt von Kolbse sinn [[Hangenbieten|Hangebiede]], [[Breuschwickersheim|Wickersche]] un Ernelse. Dr Bann het e Grese von 333 Hektar, devon 26 Hektar Wald. Kolbse lijt am Rand im Sudoschte vom Kochersbari im lœss, wo gued isch fer Landwirtschaft. S Dorf lijt iwer d'Brisch, wo umgranzt isch von guedem Land un Wald. S gibt e steiler Hang, wo man von 152 m Hee of 211 m geht. De Grund kommt von de Erd, wo von de Brisch hergeschlept worde isch. Bis 1900 esch a grosser Deil vo der Abhäng bei Rewe bedekt gewann. Zwische de geologische Schichte hett man Wasser gefunde, wo fer's Vee und fer d Mensche gedient hett, dank Brunne, wo noch mehreri noch im Dorf sinn.
+
+== Gschìcht ==
+Kolbse ìsch zem erschte Mol gnannt worre ànne 736.
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Kolbse ìsch {{Maires|FR|{{#Property:P374}}}}. Kolbse ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Bevelkerungsentwìcklung ==
+{| class="wikitable" width=400
+|- align=center class="hintergrundfarbe5"
+|align=left | '''Johr''' || '''1962''' || '''1968''' || '''1975''' || '''1982''' || '''1990''' || '''1999''' || '''2007'''
+|- align=center
+|align=left|'''Inwohner'''<ref>[[Institut National de la Statistique et des Études Économiques|INSEE]]: ''Population et logements par commune depuis le recensement de 1962 (1961 pour les Dom) à 1999''</ref> || 508 || 509 || 604 || 633 || 668 || 765 || 825
+|}
+
+== Dialekt ==
+Dr [[Elsässisch|elsassisch]] Dialekt vun Kolbse ghert zem [[Oberrheinalemannisch|Owerrhinàlemànnisch]].
+
+== Böiwark ==
+* Kìrich Saint-Léger (1768)
+* Château de Kolbsheim (18. Jh.)
+* Synagog (17. Jh.)
+
+<gallery widths="160">
+Kolbsheim StLéger 53.JPG|Kìrich un Dor zum Schlosshof
+Kolbsheim Château 12.JPG|Schloss Kolbse 
+Kolbsheim rDivisionLeclerc 36a.JPG|Fachwarkhüüs
+Kolbsheim AncSynagogue.JPG|Synagog
+</gallery>
+
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+{{Commonscat|Kolbsheim}}
+* http://www.mairie-kolbsheim.fr
+* [https://web.archive.org/web/20101120044738/http://sites.estvideo.net/kolbsheim/ Ìwer Kolbse]
+
+== Referanza ==
+<references />
+
+{{Navigationsleiste Gemeinden im Kanton Lingolsheim}}
+{{Normdaten}}
+
+[[Kategorie:Ort (Unterelsass)]]

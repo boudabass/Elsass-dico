@@ -1,0 +1,57 @@
+{{DISPLAYTITLE:Fàlkwiller}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Falkwiller
+| nomalsacien = Fàlkwiller
+| alt moy = 292
+| alt mini = 286
+| alt maxi = 351
+| km² = 3.55
+| image = Falkwiller, Mairie.jpg
+| description = Mairie
+|}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Fàlkwiller''' ([[Französische Sprache|frz.]] ''Falkwiller'', [[Deutsche Sprache|dt.]] ''Falkweiler'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Haut-Rhin|Owerelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}.
+
+== Geogràfi ==
+Fàlkwiller lijt 20 Kilometer sìdweschtlich vun [[Mülhausen (Elsass)|Mìlhüüse]] im Dàl vum [[Soultzbach (Largue)|Sulzbàch]], wie ìn d [[Largue (Ill)|Làrg]] mìndet. Nochbergmeine vun Fàlkwiller sìn [[Gildweiler|Gìldwiller]] ìm Norde, [[Balschweiler|Bàlschwiller]] ìm Sìdoschte, [[Bütweiler|Büethwiller]] ìm Sìde, [[Obertraubach|Ewertröibàch]] ìm Sìdweschte, [[Gevenatten|Gavenàtt]] ìm Weschte un [[Hecken (Oberelsass)|Hecke]] ìm Nordweschte.
+
+== Gschìcht ==
+Fàlkwiller ìsch zem erschte Mol gnannt worre ànne 1625 àls ''Falckhweiler''.
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Fàlkwiller ìsch {{Maires|FR|{{#Property:P374}}}}. Fàlkwiller ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Bevelkerungsentwìcklung ==
+{|class="wikitable"
+|- class="hintergrundfarbe9"
+|'''Johr'''
+!1962 
+!1968 
+!1975 
+!1982 
+!1990
+!1999 
+!2006
+|- align=center
+|align=left |'''Inwohner'''<ref>[[Institut National de la Statistique et des Études Économiques|INSEE]]: ''Population et logements par commune depuis le recensement de 1962 (1961 pour les Dom) à 1999''</ref> || 136 || 143 || 158 || 175 || 174 || 178 || 201
+|}
+
+== Dialekt ==
+Dr [[Elsässisch|elsassisch]] Dialekt vun Fàlkwiller ghert zem [[Oberrheinalemannisch|Owerrhinàlemànnisch]].
+
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+{{Commonscat|Falkwiller|Fàlkwiller}}
+
+== Referanza ==
+<references/>
+
+{{Navigationsleiste Gemeinden im Kanton Masmünster}}
+
+{{Normdaten}}
+
+[[Kategorie:Ort (Owerelsàss)]]

@@ -1,0 +1,50 @@
+{{DISPLAYTITLE:Wìttse}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Wittisheim
+| nomalsacien = Wìttse
+| alt moy = 163–170
+| km² = 11.47
+| image = Wittisheim 006.JPG
+| description = Wìttse
+|}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Wìttse''' ([[Französische Sprache|frz.]] ''Wittisheim'', [[Deutsche Sprache|dt.]] ''Wittisheim'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Bas-Rhin|Unterelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}.
+
+== Gschìcht ==
+Wìttse ìsch zem erschte Mol gnannt worre ànne 818 àls ''Wittenesheim''.
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Wìttse ìsch {{Maires|FR|{{#Property:P374}}}}. Wìttse ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Bevelkerungsentwìcklung ==
+{| class="wikitable" width=400
+|- align=center class="hintergrundfarbe5"
+|align=left | '''Johr''' || '''1962''' || '''1968''' || '''1975''' || '''1982''' || '''1990''' || '''1999''' || '''2006'''
+|- align=center
+|align=left|'''Inwohner'''<ref>[[Institut National de la Statistique et des Études Économiques|INSEE]]: ''Population et logements par commune depuis le recensement de 1962 (1961 pour les Dom) à 1999''</ref> || 1521 || 1703 || 1705 || 1660 || 1631 || 1822 || 1923
+|}
+
+== Dialekt ==
+Dr [[Elsässisch|elsassisch]] Dialekt vun Wìttse ghert zem [[Oberrheinalemannisch|Owerrhinàlemànnisch]].
+
+<gallery widths="200" heights="180" perrow="2">
+Datei:Wittisheim 014.JPG|Mairie
+Datei:Wittisheim 010.JPG|Kirich Saint-Blaise
+</gallery>
+
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+{{commonscat}}
+* http://www.wittisheim.fr
+
+== Referanza ==
+<references />
+
+{{Navigationsleiste Gemeinden im Kanton Sélestat}}
+{{Normdaten}}
+
+[[Kategorie:Ort (Unterelsass)]]

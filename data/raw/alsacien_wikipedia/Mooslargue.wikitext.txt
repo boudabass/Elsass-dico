@@ -1,0 +1,52 @@
+{{DISPLAYTITLE:Moos-Nìderlàrg}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Mooslargue
+| nomalsacien = Moos-Neederlàrg
+| alt moy = 424
+| alt mini = 396
+| alt maxi = 462
+| km² = 5.63
+| image = Mooslargue, Mairie.jpg
+| description = Mairie
+|}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Moos-Nìderlàrg''' ([[Französische Sprache|frz.]] ''Mooslargue'', [[Deutsche Sprache|dt.]] ''Moos-Niederlarg'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Haut-Rhin|Owerelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}.
+
+== Gschìcht ==
+Moos-Nìderlàrg ìsch àm 1. Jüli 1975 entstànde üs dr Fusion vun dr Gmeine Moos un Neederlàrg. Moos ìsch zem erschte Mol gnannt worre ànne 1139 àls ''Mosa'', Nìderlàrg 1145 àls ''Larga''.
+
+Vun 1871 bìs 1918 han d Derfer zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Moos-Nìderlàrg ìsch {{Maires|FR|{{#Property:P374}}}}. Moos-Nìderlàrg ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Bevelkerungsentwìcklung ==
+{| class="wikitable" width=400
+|- align=center class="hintergrundfarbe5"
+|align=left | '''Johr''' || '''1962''' || '''1968''' || '''1975''' || '''1982''' || '''1990''' || '''1999''' || '''2007'''
+|- align=center
+|align=left|'''Inwohner'''<ref>[[Institut National de la Statistique et des Études Économiques|INSEE]]: ''Population et logements par commune depuis le recensement de 1962 (1961 pour les Dom) à 1999''</ref> || 256 || 264 || 261 || 267 || 268 || 291 || 393
+|}
+
+== Dialekt ==
+Dr [[Elsässisch|elsassisch]] Dialekt vun Moos-Nìderlàrg ghert zem [[Hochalemannisch|Hochàlemànnisch]].
+
+<gallery widths="200" heights="180" perrow="2">
+Datei:Mooslargue, Eglise Saint-Blaise 1.jpg|Kirich St. Blasius
+Datei:Mooslargue, Eglise Saint-Blaise 2.jpg|Kirich St. Blasius
+</gallery>
+
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+* {{Commonscat|Mooslargue}}
+
+== Referanza ==
+<references/>
+
+{{Navigationsleiste Gemeinden im Kanton Ferrette}}
+
+{{Normdaten}}
+
+[[Kategorie:Ort (Owerelsàss)]]

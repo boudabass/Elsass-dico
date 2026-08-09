@@ -1,0 +1,51 @@
+{{DISPLAYTITLE:Bìlze}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Biltzheim
+| nomalsacien = Bìlze
+| alt moy = 203
+| alt mini = 199
+| alt maxi = 206
+| km² = 7.15
+|}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Bìlze''' ([[Französische Sprache|frz.]] ''Biltzheim'', bìs 2003 ''Bilzheim'', [[Deutsche Sprache|dt.]] ''Bilzheim'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Haut-Rhin|Owerelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}.
+
+== Gschìcht ==
+Bìlze ìsch zem erschte Mol gnannt worre ànne 1278 àls ''Bilolzheim''.
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Bìlze ìsch {{Maires|FR|{{#Property:P374}}}}. Bìlze ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Bevelkerungsentwìcklung ==
+{|class="wikitable"
+!|Johr
+!|1962
+!|1968
+!|1975
+!|1982
+!|1990
+!|1999
+!|2007
+|-
+| '''Inwohner'''<ref>[[Institut National de la Statistique et des Études Économiques|INSEE]]: ''Population et logements par commune depuis le recensement de 1962 (1961 pour les Dom) à 1999''</ref> || 146 || 162 || 154 || 153 || 314 || 334 || 365
+|}
+
+== Dialekt ==
+Dr [[Elsässisch|elsassisch]] Dialekt vun Bìlze ghert zem [[Oberrheinalemannisch|Owerrhinàlemànnisch]].
+
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+* {{Commonscat|Biltzheim}}
+* http://www.biltzheim.com
+
+== Referanza ==
+<references/>
+
+{{Navigationsleiste Gemeinden im Kanton Ensisheim}}
+{{Normdaten}}
+
+[[Kategorie:Ort (Owerelsàss)]]

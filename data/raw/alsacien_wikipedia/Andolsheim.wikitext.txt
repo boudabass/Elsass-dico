@@ -1,0 +1,51 @@
+{{DISPLAYTITLE:Àndelse}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Andolsheim
+| nomalsacien = Àndelse
+| alt moy = 189
+| alt mini = 185
+| alt maxi = 192
+| km² = 11.60
+|}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Àndelse''' ([[Französische Sprache|frz.]] ''Andolsheim'', [[Deutsche Sprache|dt.]] ''Andolsheim'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Haut-Rhin|Owerelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}.
+
+== Gschìcht ==
+Àndelse ìsch zem erschte Mol gnannt worre ànne 768 àls ''Ansulfisheim''.
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Àndelse ìsch {{Maires|FR|{{#Property:P374}}}}. Àndelse ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Bevelkerungsentwìcklung ==
+{| class="wikitable" width=400
+|- align=center class="hintergrundfarbe5"
+|align=left | '''Johr''' || '''1962''' || '''1968''' || '''1975''' || '''1982''' || '''1990''' || '''1999''' || '''2006''' || '''2007'''
+|- align=center
+|align=left|'''Inwohner'''<ref>[[Institut National de la Statistique et des Études Économiques|INSEE]]: ''Population et logements par commune depuis le recensement de 1962 (1961 pour les Dom) à 1999''</ref> || 751 || 871 || 1 088 || 1262 || 1565 || 1985 || 2238 || 2227
+|}
+
+== Dialekt ==
+Dr [[Elsässisch|elsassisch]] Dialekt vun Àndelse ghert zem [[Oberrheinalemannisch|Owerrhinàlemànnisch]].
+
+{|
+|[[Datei:Andolsheim, Église luthérienne Saint Georges 1.jpg|thumb|left|Lutherischi Kirich Saint-Georges]]
+|[[Datei:Andolsheim, Église catholique Saint-Georges.jpg|thumb|left|Katholischi Kirich Saint-Georges]]
+|}
+
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+* {{Commonscat|Andolsheim}}
+* https://web.archive.org/web/20100416104540/http://www.andolsheim.fr/
+* [http://www.culture.gouv.fr/public/mistral/memoire_fr?ACTION=CHERCHER&FIELD_1=INSEE&VALUE_1=68007 Àndelse] bi dr Base Mémoire des Ministère de la culture (fr)
+
+== Referanza ==
+<references/>
+
+{{Navigationsleiste Gemeinden im Kanton Colmar-2}}
+{{Normdaten}}
+
+[[Kategorie:Ort (Owerelsàss)]]

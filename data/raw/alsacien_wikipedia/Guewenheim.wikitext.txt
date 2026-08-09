@@ -1,0 +1,56 @@
+{{DISPLAYTITLE:Gaiwene}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Guewenheim
+| nomalsacien = Gaiwene
+| alt moy = 331
+| alt mini = 309
+| alt maxi = 420
+| km² = 8.55
+|}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Gaiwene''' ([[Französische Sprache|frz.]] ''Guewenheim'', [[Deutsche Sprache|dt.]] ''Gewenheim'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Haut-Rhin|Owerelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}.
+
+== Gschìcht ==
+Gaiwene ìsch zem erschte Mol gnannt worre ìm 12. Jh. àls ''Göwenheim''.
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Gaiwene ìsch {{Maires|FR|{{#Property:P374}}}}. Gaiwene ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Bevelkerungsentwìcklung ==
+{|class="wikitable"
+|-class="hintergrundfarbe8"
+!Johr
+!1962
+!1968 
+!1975
+!1982
+!1990
+!1999
+!2006
+|- align=center
+|Inwohner || 798 || 778 || 833 || 877 || 1140 || 1176 || 1205
+|}
+
+== Kültür ==
+Ìm Derfel git s a ''Kàtzemüseum''.
+
+== Dialekt ==
+Dr [[Elsässisch|elsassisch]] Dialekt vun Gaiwene ghert zem [[Oberrheinalemannisch|Owerrhinàlemànnisch]].
+
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+* {{Commonscat|Guewenheim}}
+* https://web.archive.org/web/20110203055332/http://guewenheim.com/
+* [https://web.archive.org/web/20081113124630/http://www.cc-vallee-doller.fr/Pagesweb/Explorer/Sous%20rubriques/PageCommunes/Guewenheim.htm Gaiwene] bi dr ''Communauté de communes de la Vallée de la Doller et du Soultzbach'' (fr)
+
+== Referanza ==
+<references/>
+
+{{Navigationsleiste Gemeinden im Kanton Masmünster}}
+{{Normdaten}}
+
+[[Kategorie:Ort (Owerelsàss)]]

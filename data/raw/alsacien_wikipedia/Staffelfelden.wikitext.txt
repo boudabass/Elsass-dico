@@ -1,0 +1,54 @@
+{{DISPLAYTITLE:Stàffelfalde}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Staffelfelden
+| nomalsacien = Stàffelfalde
+| alt moy = 254
+| alt mini = 238
+| alt maxi = 270
+| km² = 7.42
+|}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Stàffelfalde''' ([[Französische Sprache|frz.]] ''Staffelfelden'', [[Deutsche Sprache|dt.]] ''Staffelfelden'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Haut-Rhin|Owerelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}.
+
+== Gschìcht ==
+Stàffelfalde ìsch zem erschte Mol gnannt worre ànne 1245 àls ''Stabula''.
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Stàffelfalde ìsch {{Maires|FR|{{#Property:P374}}}}. Stàffelfalde ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Bevelkerungsentwìcklung ==
+{| class="wikitable"
+!class="hintergrundfarbe5"|Johr
+!class="hintergrundfarbe5"|1962
+!class="hintergrundfarbe5"|1968
+!class="hintergrundfarbe5"|1975
+!class="hintergrundfarbe5"|1982
+!class="hintergrundfarbe5"|1990
+!class="hintergrundfarbe5"|1999
+!class="hintergrundfarbe5"|2006
+|-
+|Inwohner || 3164 || 3234 || 3513 || 3465 || 3331 || 3553 || 3579
+|}
+
+== Dialekt ==
+Dr [[Elsässisch|elsassisch]] Dialekt vun Stàffelfalde ghert zem [[Oberrheinalemannisch|Owerrhinàlemànnisch]].
+
+== Böiwark ==
+* Kirich Saint-Gall
+
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+* {{Commonscat|Staffelfelden}}
+
+== Referanza ==
+<references/>
+
+{{Navigationsleiste Gemeinden im Kanton Wittenheim}}
+
+{{Normdaten}}
+
+[[Kategorie:Ort (Owerelsàss)]]

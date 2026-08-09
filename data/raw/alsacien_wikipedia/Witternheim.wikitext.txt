@@ -1,0 +1,64 @@
+{{DISPLAYTITLE:Wìttre}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Witternheim
+| nomalsacien = Wìttre
+| alt moy = 159–163
+| km² = 4.99
+| image = Witternheim 012.JPG
+| description = Ortsingàng vun Wìttre
+|}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Wìttre''' ([[Französische Sprache|frz.]] ''Witternheim'', [[Deutsche Sprache|dt.]] ''Witternheim'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Bas-Rhin|Unterelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}.
+
+== Geogràfi ==
+Wìttre lijt àm Löifgràwe. Nochbergmeinde sìn [[Rossfeld|Rossfald]] ìm Norde, [[Friesenheim (Unterelsass)|Friesene]] ìm Oschte, [[Bindernheim|Bìndre]] ìm Sìde un [[Hilsenheim|Hìlse]] ìm Sìdweschte.
+
+== Gschìcht ==
+Wìttre ìsch zem erschte Mol gnannt worre ìm 10. Jh.
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Wìttre ìsch {{Maires|FR|{{#Property:P374}}}}. Wìttre ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Bevelkerungsentwìcklung ==
+{| align="center" rules="all" cellspacing="0" cellpadding="4" style="border: 1px solid #999; border-right: 2px solid #999; border-bottom:2px solid #999; background: #f3fff3"
+|+ style="font-weight: bold; font-size: 1.1em; margin-bottom: 0.5em"|Entwicklung von de Bevelkerung<ref>[http://cassini.ehess.fr/cassini/fr/html/fiche.php?select_resultat=41318 cassini.ehess.fr]</ref> 
+|-style="background: #ddffdd"
+! 1793 !! 1800 !! 1806 !! 1821 !! 1831 !! 1836 !! 1841 !! 1846 !! 1851 !! 1856 !! 1861 !! 1866 
+|-
+| 223 || 241 || 288 || 315 || 427 || 420 || 414 || 393 || 430 || 442 || 450 || 475 
+|-style="background: #ddffdd"
+! 1871 !! 1875 !! 1880 !! 1885 !! 1890 !! 1895 !! 1900 !! 1905 !! 1910 !! 1921 !! 1926 !! 1931 
+|-
+| 454 || 410 || 398 || 396 || 399 || 402 || 432 || 412 || 390 || 352 || 346 || 378 
+|-style="background: #ddffdd"
+! 1936 !! 1946 !! 1954 !! 1962 !! 1968 !! 1975 !! 1982 !! 1990 !! 1999 !! 2005 !! 2010 !! 2012	 
+|-
+| 360 || 331 || 322 || 340 || 316 || 274 || 353 || 386 || 382 || 497 || 510 || 517 
+|-
+|}
+
+== Dialekt ==
+Dr [[Elsässisch|elsassisch]] Dialekt vun Wìttre ghert zem [[Oberrheinalemannisch|Owerrhinàlemànnisch]].
+
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+<gallery widths="200" heights="180" perrow="2">
+Datei:Witternheim 013.JPG|Kirich Saint-Sébastien
+Datei:Witternheim 018.JPG|Fàchwarikhiser
+</gallery>
+
+== Weblink ==
+{{Commonscat}}
+* https://web.archive.org/web/20190828223653/http://witternheim.fr/
+* [https://web.archive.org/web/20100803164231/http://www.cc-benfeld.fr/commune/witternheim.htm Wìttre] uf www.cc-benfeld.fr
+
+== Referanza ==
+<references />
+
+{{Navigationsleiste Gemeinden im Kanton Benfeld}}
+{{Normdaten}}
+
+[[Kategorie:Ort (Unterelsass)]]

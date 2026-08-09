@@ -1,0 +1,57 @@
+{{DISPLAYTITLE:Willer}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Willer-sur-Thur
+| nomalsacien = Willer
+| alt moy = 370
+| alt mini = 356
+| alt maxi = 1183
+| km² = 18.00
+|}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Willer''' ([[Französische Sprache|frz.]] ''Willer-sur-Thur'', [[Deutsche Sprache|dt.]] ''Weiler'') ìsch a [[Frankreich|frànzeescha]] Gmeind ìm [[Département Haut-Rhin|Owerelsàss]] ìn der [[Region (Frankreich)|Region]] [[Grand Est]] (bis 2015 Region [[Elsass|Elsàss]]). D'Gmeinda gheert zum {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}.
+
+== Gschìcht ==
+Willer ìsch zum erschta Mol gnannt wora ànna 1191 àls ''Wilri''.
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vu Willer ìsch {{Maires|FR|{{#Property:P374}}}}. Willer gheert zum Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Bevälkerungsentwìcklung ==
+{| class="wikitable"
+|-
+!Johr
+!1962
+!1968 
+!1975
+!1982
+!1990
+!1999
+!2007
+|- align=center
+| Iwohner || 1752 || 1828 || 1923 || 2019 || 1947 || 1875 || 1916
+|}
+
+== Dialekt ==
+Der [[Elsässisch|elsassisch]] Dialekt vu Willer gheert zum [[Oberrheinalemannisch|Owerrhinàlemànnisch]].
+
+<gallery widths="200" heights="180" perrow="2">
+Datei:Willer-sur-Thur, Eglise Saint-Didier.jpg|Kìrich Saint-Didier
+</gallery>
+
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblìnk ==
+* {{Commonscat|Willer-sur-Thur}}
+* [https://web.archive.org/web/20120123194513/http://www.ccpaysdethann.fr/spip/spip.php?article12&res=1680#willersurthur Willer] uf ccpaysdethann.fr (fr)
+
+== Referanza ==
+<references/>
+
+{{Navigationsleiste Gemeinden im Kanton Sennheim}}
+
+{{Normdaten}}
+
+[[Kategorie:Ort (Owerelsàss)]]

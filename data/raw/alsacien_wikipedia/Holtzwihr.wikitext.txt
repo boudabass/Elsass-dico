@@ -1,0 +1,73 @@
+{{DISPLAYTITLE:Holzwihr}}
+{{Infobox Ortsteil einer Gemeinde in Frankreich
+|nomhameau=Holzwihr
+|commune=[[Porte du Ried]]
+|armoiries=Blason de la ville d'Holtzwihr (68).svg
+|région=[[Grand Est]]
+|département=[[Département Haut-Rhin|Owerelsass]]
+|arrondissement=[[Arrondissement Colmar-Ribeauvillé|Colmer-Ràppschwihr]]
+|datefusion=1. Janner 2016
+|status=cd
+|insee=68143
+|cp=68320
+|longitude=07/25/14/E
+|latitude=48/06/45/N
+|alt mini=180
+|alt maxi=186
+|km²=6.45
+|siteweb=
+|}}
+'''Holzwihr''' ([[IPA]]: {{IPA|[ˈholtsʋiːr]}}, [[Französische Sprache|frz.]] ''Holtzwihr'', [[Deutsche Sprache|dt.]] ''Holzweier'') ìsch e ehmolige [[Frankreich|frànzeesche]] Gmein ìm [[Département Haut-Rhin|Owerelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). Sit 2016 ghert s Dorf zue dr Gmein [[Porte du Ried]].
+
+== Geographi ==
+S'Dorf lijt in dr [[Oberrheinische Tiefebene|Owerrhineweni]], 4 km öschtlich vum Industrigebit im Norde vu [[Colmar|Colmer]]. Noochberdorf isch [[Wickerschwihr]], wo praktisch nohtlos im Oschte vum Ortsetter an Holzwihr aschlieest.
+
+D'Umgäwung wird vorwigend fier dr [[Acker]]bäu gnutzt.
+
+== Gschicht ==
+Der Ort ésch vu der [[Franken (Volk)|Franke]] gréndet un ém Johr 735 under em Name „Lilenselida“ zum èrschte Mol erwàhnt wore. Én sàllem Johr hat's der Graf vu Eberhard der Abtèi Murbach gschànkt. E àltere Form vum hétige Name, ''Heloldowilare'', daicht 760 uf. Er beditet „Bürehof vum Helold“. Der Ort hat der Abtèi Murbach ghért, bis en d Habsburger sàllem ém 13. Johrhundert ewèggnumme hàn.
+
+Der [[Dreißigjähriger Krieg|Drissigjéhrig Krieg]] hat s Dèrfle schwàr droffe un es ésch 1634 an [[Colmar|Kolmer]] agschlosse wore. D Bevèlkerung hat's én der Folgezit mét der Hélf vu zahlriche Iwanderer üs der [[Schweiz|Schwiz]] wéder ufboie. Es ésch vu der Famélie vu Klingin verwaltet wore.
+
+Bis 1837 isch dr öschtlich Noochberort [[Wickerschwihr]] e Ortsteil vu Holzwihr gsin.
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+Ém Wénter 1944/45 sén 80 Brozànt vu Holzwihr zerstért wore. Am 27. Jànner 1945 hàn en d franzésche un d amérikanische Druppe befrèit.
+
+== Wappe ==
+S Wappe zàigt unde uf goldigem Grund e gàls Kriz un owedra drèi sélbrige Lilie uf blaiem Grund. Es éxistiert sit 1977. S Kriz kummt vu sàllem Wappe, wu under em [[Louis XIV.]] fér Holzwihr un Wickerschwihr (wu sàllemols ài àinziger Ort gsé sén) verwàndet wore ésch. D Lilie symbolisiere d Famélie Klingin; sé hat als Wappe drèi goldige Lilie uf sélbrigem Grund gha.
+
+== Bevölkerung ==
+Holzwihr het in dr 1960er Johre guet 500 Inwohner gha, 2005 sin 's no meh as 1200 gsin. Örtlichi Regionalsproch isch [[Elsässisch|Elsàsserditsch]].
+
+{| class = "wikitable" width = 400
+|- align = center class = "hintergrundfarbe5"
+| align = left | '''Johr''' || '''1962''' || '''1968''' || '''1975''' || '''1982''' || '''1990''' || '''1999''' || '''2007'''
+|- align = center
+| align = left|'''Inwohner'''<ref>[[Institut National de la Statistique et des Études Économiques|INSEE]]: ''Population et logements par commune depuis le recensement de 1962 (1961 pour les Dom) à 1999''</ref> || 482 || 527 || 631 || 728 || 831 || 1064 || 1304
+|}
+
+== Wértschaft ==
+Holzwihr ésch landwértschaftlig bràgt. Es wàre haiptsàchlig Rénder un Soi zéchtet un Wi, Obst un Sürkrüt broduziert. Es gét oi e landwértschaftlige Gnosseschaft.
+
+== Böiwark ==
+* Kìrich St. Martin (1956)
+* Denkmol vum amerikanische Künschtler ''Audie Murphy''
+
+<gallery widths = "200" heights = "180" perrow = "1">
+Datei:Holtzwihr, Eglise Saint-Martin.jpg|Kìrich St. Martin
+</gallery>
+
+== Weblink ==
+{{Commonscat|Holtzwihr}}
+* [http://www.holtzwihr.fr Ufdrétt ém Internet]
+* [https://web.archive.org/web/20090920200020/http://www.quid.fr/communes.html?mode = detail Holtzwihr uf www.quid.fr]
+* [https://web.archive.org/web/20091012004302/http://www.holtzwihr.fr/pageLibre00011655.html Internetsite vu Holtzwihr]
+
+== Referanza ==
+<references />
+
+{{Normdaten}}
+
+[[Kategorie:Ort (Owerelsàss)]]

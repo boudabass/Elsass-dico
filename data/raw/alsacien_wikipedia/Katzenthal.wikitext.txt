@@ -1,0 +1,52 @@
+{{Dieser Artikel|bhandlet d Gmein ìm Arrondissement Rapperschwir. Wyteri Bedütige vo „Katzenthal“ findsch [[Katzenthal (Begriffsklärung)|doo]].}}
+{{DISPLAYTITLE:Kàtzedàl}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Katzenthal
+| nomalsacien = Kàtzedàl
+| alt moy = 276
+| alt mini = 210
+| alt maxi = 660
+| km² = 3.50
+| image = Katzenthal1.JPG
+| description = Kàtzedàl
+|}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Kàtzedàl''' ([[Französische Sprache|frz.]] ''Katzenthal'', [[Deutsche Sprache|dt.]] ''Katzenthal'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Haut-Rhin|Owerelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}.
+
+== Gschìcht ==
+Kàtzedàl ìsch zem erschte Mol gnannt worre ànne 1184 àls ''Chazinthalo''.
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Kàtzedàl ìsch {{Maires|FR|{{#Property:P374}}}}. Kàtzedàl ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Bevelkerungsentwìcklung ==
+{| class="wikitable" width=400
+|- align=center class="hintergrundfarbe5"
+|align=left | '''Johr''' || '''1962''' || '''1968''' || '''1975''' || '''1982''' || '''1990''' || '''1999''' || '''2006'''
+|- align=center
+|align=left|'''Inwohner'''<ref>[[Institut National de la Statistique et des Études Économiques|INSEE]]: ''Population et logements par commune depuis le recensement de 1962 (1961 pour les Dom) à 1999''</ref> || 463 || 483 || 528 || 505 || 505 || 497 || 538
+|}
+
+== Dialekt ==
+Dr [[Elsässisch|elsassisch]] Dialekt vun Kàtzedàl ghert zem [[Oberrheinalemannisch|Owerrhinàlemànnisch]].
+
+{|
+|[[Datei:Katzenthal6.JPG|thumb|Mairie un Schüel]]
+|}
+
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+{{commonscat}}
+
+== Referanza ==
+<references/>
+
+{{Navigationsleiste Gemeinden im Kanton Markirch}}
+
+{{Normdaten}}
+
+[[Kategorie:Ort (Owerelsàss)]]

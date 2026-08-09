@@ -1,0 +1,65 @@
+{{DISPLAYTITLE:Ballerschdorf}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Ballersdorf
+| nomalsacien = Ballerschdorf
+| alt moy = 300
+| alt mini = 292
+| alt maxi = 387
+| km² = 10.7
+|}}
+'''Ballerschdorf''' ([[IPA]]: {{IPA|[ˈb̥ɑlərʃd̥orf]}}; amtl. ''Ballersdorf'') isch e [[Frankreich|frànzeesche]] Gmein ìm [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}} ({{Kanton|FR|{{#Property:P374}}}}) ìm [[Département Haut-Rhin|Owerelsàss]] (Haut-Rhin) mit guet 700 Inwohner.
+
+== Geographi ==
+Dr Ort leijt an dr Stross und dr Bahnlinie vun [[Altkirch|Altkìrech]] uf [[Dammerkirch|Dammerkìrech]] uf halwem Wàg zwische [[Belfort|Beffert (Belfort)]] und [[Mulhouse|Milhüüsa]] im Tal vum Rösbach.
+
+== Gschicht ==
+Ballerschdorf wird s'erscht Mol anno 823 als ''Balderisdorff'' in ere Urkunde erwähnt, wo aber in ihrer Echtheit umstritte isch. Anno 1188 wird no e Johannes von Badricort erwähnt und 1215 schliesslich e Jordanus von Baerdstorff.
+
+Im 14. Johrhundert isch dr Ort [[Habsburger|habsburgisch]] worre.
+
+Anno 1375 sin Ballerschdorf und s unmittelbar denewe befindlich Mettedorf Opfer vume Grossbrand und zwische 1441 und 1576 fählt no jedi Erwähnung vum Ort Mettedorf. Z'Mettedorf bestoht hit e Kìrech üs dr erschte Hälft vum 18. Jhdt., wo awer zum Teil wesetlich älteri Bäusubstanz enthaltet. 
+
+Anno 1648 isch Ballerschdorf noch em [[Westfälischer Frieden|Weschtfälische Friide]] mit em [[Sundgau]] an [[Frankreich|Frankriich]] gfalle.
+
+Zwische 1813 und 1815 het Ballerschdorf derart unter dr Abgabe fer d'Finanzierung vun dr franzeesche Armee z'liide gha, dass es sich bi dr Noochberorte het verschulde miesse. Später het d'Gmeind unter dr drei Kriege zwische Frankrich un Ditschland z'lide gha. Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert. Wie am Afang vu 1943 e Dutzend Ballerschdorfer Männer versuecht hän, dr zwangswise Rekrutierung fer die ditsch Wehrmacht z'entgo, het mer si ufgriffe un drei vunene verschosse (Massaker vun Ballerschdorf). Am 26. November 1944 isch dr Ort no befreit worde.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Ballerschdorf ìsch {{Maires|FR|{{#Property:P374}}}}. Ballerschdorf ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Wirtschaft un Infrastruktür==
+Ursprünglich isch dr Ort e rein landwirtschaftlich prägti Gmeind gsi. Hit verfiegt Ballerschdorf iwer e Wirtschaft un e Reihe vun Kleibetriwe (Autowerkstatt, Fernsehreparatüre, Kunschtschrinerei, u.&nbsp;a.) 
+
+== Bevelkerungsentwìcklung ==
+{|class="wikitable"
+!|Johr
+!|1962
+!|1968
+!|1975
+!|1982
+!|1990
+!|1999
+!|2007
+|-
+| Inwohner || 600 || 602 || 617 || 659 || 642 || 719 || 851
+|}
+
+== Dialekt ==
+Dr [[Elsässisch|elsàssisch]] Dialekt vun Ballerschdorf ghert zem [[Oberrheinalemannisch|Owerrhinalemannisch]].
+
+<gallery widths="200" heights="160" perrow="2">
+Datei:Ballersdorf, Église Saint-Jean-l'Evangéliste 2.jpg|St. Johannes-Kìrch 
+</gallery>
+
+== Weblink ==
+{{Commonscat|Ballersdorf}}
+* [https://web.archive.org/web/20191014215736/https://www.sudalsace-largue.fr/territoire-intercommunal/ballersdorf.htm Ballersdorf auf cc-porte-alsace.fr] (französisch)
+
+== Referanza ==
+<references />
+
+{{Navigationsleiste Gemeinden im Kanton Masmünster}}
+{{Übersetzungshinweis|de|Ballersdorf|dütsch}}
+
+{{Normdaten}}
+
+[[Kategorie:Ort (Owerelsàss)]]

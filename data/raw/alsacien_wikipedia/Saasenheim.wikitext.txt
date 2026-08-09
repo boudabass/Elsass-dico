@@ -1,0 +1,49 @@
+{{DISPLAYTITLE:Sààse}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Saasenheim
+| nomalsacien = Sààse
+| alt moy = 164–170
+| km² = 7.80
+| image = Saasenheim 049.JPG
+| description = Ortsingàng
+|}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Sààse''' ([[Französische Sprache|frz.]] ''Saasenheim'', [[Deutsche Sprache|dt.]] ''Saasenheim'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Bas-Rhin|Unterelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}.
+
+== Gschìcht ==
+Sààse ìsch zem erschte Mol gnannt worre ànne 739 àls ''Saxinhaime'', 742: ''Sacinesheim'', 778: ''Saxones'', 1270: ''Sahsenheim'', 1419: ''Saasenheim'', 1650: ''Sasen''
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Sààse ìsch {{Maires|FR|{{#Property:P374}}}}. Sààse ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Bevelkerungsentwìcklung ==
+{| class="wikitable" width=400
+|- align=center class="hintergrundfarbe5"
+|align=left | '''Johr''' || '''1962''' || '''1968''' || '''1975''' || '''1982''' || '''1990''' || '''1999''' || '''2006'''
+|- align=center
+|align=left|'''Inwohner'''<ref>[[Institut National de la Statistique et des Études Économiques|INSEE]]: ''Population et logements par commune depuis le recensement de 1962 (1961 pour les Dom) à 1999''</ref> || 413 || 424 || 447 || 447 || 458 || 479 || 567
+|}
+
+== Dialekt ==
+Dr [[Elsässisch|elsassisch]] Dialekt vun Sààse ghert zem [[Oberrheinalemannisch|Owerrhinàlemànnisch]].
+
+<gallery widths="200" heights="180" perrow="2">
+Datei:Saasenheim 065.JPG|Mairie un Schüel
+Datei:Saasenheim 054.JPG|Kirich Saint Jean-Baptiste
+</gallery>
+
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+{{commonscat}}
+* http://www.saasenheim.fr
+
+== Referanza ==
+<references/>
+
+{{Navigationsleiste Gemeinden im Kanton Sélestat}}
+
+{{Normdaten}}
+
+[[Kategorie:Ort (Unterelsass)]]

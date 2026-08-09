@@ -1,0 +1,52 @@
+{{DISPLAYTITLE:Lìgschderf}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Ligsdorf
+| nomalsacien = Lìgschderf
+| alt moy = 488
+| alt mini = 468
+| alt maxi = 810
+| km² = 10.03
+|}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Lìgschderf''' ([[Französische Sprache|frz.]] ''Ligsdorf'', [[Deutsche Sprache|dt.]] ''Ligsdorf'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Haut-Rhin|Owerelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}.
+
+== Gschìcht ==
+Lìgschderf ìsch zem erschte Mol gnannt worre ànne 1146 àls ''Luchesdorf''.
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Lìgschderf ìsch {{Maires|FR|{{#Property:P374}}}}. Lìgschderf ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Bevelkerungsentwìcklung ==
+{| class="wikitable" width=400
+|- align=center class="hintergrundfarbe5"
+|align=left | '''Johr''' || '''1962''' || '''1968''' || '''1975''' || '''1982''' || '''1990''' || '''1999''' 
+|- align=center
+|align=left|'''Inwohner'''<ref>[[Institut National de la Statistique et des Études Économiques|INSEE]]: ''Population et logements par commune depuis le recensement de 1962 (1961 pour les Dom) à 1999''</ref> || 258 || 270 || 236 || 276 || 313 || 297
+|}
+
+== Dialekt ==
+Dr [[Elsässisch|elsassisch]] Dialekt vun Lìgschderf ghert zem [[Hochalemannisch|Hochàlemànnisch]].
+
+== Böiwark ==
+* Kirich St. Georg
+
+{|
+|[[Datei:Ligsdorf, Mairie-école.jpg|thumb|left|upright 1.2|<center>Mairie un Schüel</center>]]
+|}
+
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+* {{Commonscat|Ligsdorf}}
+
+== Referanza ==
+<references/>
+
+{{Navigationsleiste Gemeinden im Kanton Altkirch}}
+
+{{Normdaten}}
+
+[[Kategorie:Ort (Owerelsàss)]]

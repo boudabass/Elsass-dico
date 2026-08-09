@@ -1,0 +1,55 @@
+{{DISPLAYTITLE:Bollwiller}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Bollwiller
+| nomalsacien = Bollwiller
+| alt moy = 235
+| alt mini = 229
+| alt maxi = 265
+| km² = 8.63
+|}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Bollwiller''' ([[Französische Sprache|frz.]] ''Bollwiller'', [[Deutsche Sprache|dt.]] ''Bollweiler'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Haut-Rhin|Owerelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}.
+
+== Gschìcht ==
+Bollwiller ìsch zem erschte Mol gnannt worre ànne 737 àls ''Baltovilare'' (1135 ''Bollunwilre'').
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Bollwiller ìsch {{Maires|FR|{{#Property:P374}}}}. Bollwiller ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Bevelkerungsentwìcklung ==
+{|class="wikitable"
+!|Johr
+!|1962 
+!|1968 
+!|1975 
+!|1982 
+!|1990 
+!|1999 
+!|2006
+|- 
+|'''Inwohner'''<ref>[[Institut National de la Statistique et des Études Économiques|INSEE]]: ''Population et logements par commune depuis le recensement de 1962 (1961 pour les Dom) à 1999''</ref> || 2536 || 2846 || 3007 || 2951 || 3194 || 3550 || 3565
+|}
+
+== Dialekt ==
+Dr [[Elsässisch|elsassisch]] Dialekt vun Bollwiller ghert zem [[Oberrheinalemannisch|Owerrhinàlemànnisch]].
+
+{|
+|[[Datei:Bollwiller, Eglise Saint-Charles.jpg|thumb|left|Kirich Saint-Charles]]
+|}
+
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+{{commonscat|Bollwiller}}
+
+== Referanza ==
+<references/>
+
+{{Navigationsleiste Gemeinden im Kanton Wittenheim}}
+
+{{Normdaten}}
+
+[[Kategorie:Ort (Owerelsàss)]]

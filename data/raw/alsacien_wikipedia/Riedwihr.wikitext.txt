@@ -1,0 +1,65 @@
+{{DISPLAYTITLE:Riedwihr}}
+{{Infobox Ortsteil einer Gemeinde in Frankreich
+|nomhameau=Riedwihr
+|commune=[[Porte du Ried]]
+|armoiries=Blason ville fr Riedwihr (Haut-Rhin).svg
+|région=[[Grand Est]]
+|département=[[Département Haut-Rhin|Owerelsass]]
+|arrondissement=[[Arrondissement Colmar-Ribeauvillé|Colmer-Ràppschwihr]]
+|datefusion=1. Janner 2016
+|status=cd
+|insee=68272
+|cp=68320
+|longitude=07/26/42/E
+|latitude=48/07/36/N
+|alt mini=177
+|alt maxi=184
+|km²=3.04
+|}}
+'''Riedwihr''' ([[Französische Sprache|frz.]] ''Riedwihr,'' [[Deutsche Sprache|dt.]] ''Riedweier'') ìsch e ehmolige [[Frankreich|frànzeesche]] Gmein ìm [[Département Haut-Rhin|Owerelsàss]] (Haut-Rhin). Sit 2016 ghert s Dorf zue dr Gmein [[Porte du Ried]].
+
+== Geographi ==
+Riedwihr isch e Gmein im Zentrum vum Elsass in dr [[Oberrheinische Tiefebene|Owerrhineweni]] un lijt am Ufer vu dr [[Blind (Fluss)|Blind]]. D'Ortschaft lijt am Krizungspunkt vu dr Landstrosse 45 un 31 guet 7 Kilometer nordöschtlich vu [[Colmar|Colmer]]. Vu dr Autobahn 35 isch dr Ort iwer d'Üsfahrte Colmar-Nord un Ostheim erreichbar.
+
+Nochbergmeinde sin [[Jebsheim|Iebse]], [[Wickerschwihr]], [[Holtzwihr]] und [[Colmar|Colmer]].
+
+S'Dorf het sin Namme vu sinere Lag im [[Ried (Landschaft im Elsass)|Ried]], eme Mosaik üs Truche- und Fiichtwiise, Heckene und Waldunge. In dr Landwirtschaft dominiert dr Abau vu [[Kohl]] un [[Mais|Welschkorn (Mais)]].
+
+== Gschicht ==
+Riedwihr ìsch zem erschte Mol gnannt worre ànne 1279 àls ''Rietwilr''.
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+Dr letscht Maire vun Riedwihr ìsch dr Bernard Dirninger gsin.
+
+== Gmeipartnerschafte ==
+Riedwihr het sit 1996 e Gmeipartnerschaft mit [[Bahlingen am Kaiserstuhl|Bahlinge am Kaiserstüehl]]
+
+== Bevelkerungsentwìcklung ==
+{|class = "wikitable"
+!class = "hintergrundfarbe5"|1962 
+!class = "hintergrundfarbe5"|1968 
+!class = "hintergrundfarbe5"|1975 
+!class = "hintergrundfarbe5"|1982 
+!class = "hintergrundfarbe5"|1990 
+!class = "hintergrundfarbe5"|1999
+!class = "hintergrundfarbe5"|2006
+| -
+| 303 || 322 || 289 || 306 || 315 || 382 || 376
+|}
+
+== Böiwark ==
+* Kirich Sainte-Marguerite (1864-1882)
+{|
+| [[Datei:Riedwihr, Eglise Sainte-Marguerite.jpg|thumb|left|Kirich Sainte-Marguerite]]
+|}
+
+== Weblink ==
+* {{commonscat|Riedwihr}}
+* [https://web.archive.org/web/20071223021617/http://www.riedwihr.fr/ Offizielle Internetseite der Gemeinde Riedwihr]
+* [https://web.archive.org/web/20071010085435/http://www.recensement.insee.fr/RP99/rp99/co_navigation.co_page?nivgeo = C Riedwihr] uf der Website vum [[Insee]]
+
+{{Normdaten}}
+
+[[Kategorie:Ort (Owerelsàss)]]

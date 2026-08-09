@@ -1,0 +1,46 @@
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Geiswasser
+| nomalsacien = Geiswasser
+| alt moy = 195 
+| alt mini = 193 
+| alt maxi = 200
+| km² = 8.24
+| image = Geiswasser, Église Saint-Fridolin.jpg
+| description = Chilche Saint-Fridolin
+|}}
+
+'''Geiswasser''' ([[IPA]]: {{IPA|[ˈg̊aɪ̯sʋɑsər]}}) ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Haut-Rhin|Owerelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}. S'klei Strossedorf ghört im Kummunalverband {{Kommunalverband|FR|{{#Property:P374}}}} a.
+
+== Geogràfi ==
+Geiswasser ligt absits vu grössere Hauptverkehrsstrosse S'Gmeigebit grenzt mit em [[Rhein|Rhin]] an [[Deutschland|Ditschland]] (Gmarkung von [[Breisach am Rhein| alt-Brisach]]) a, doch gibt's kei Üwergang. Zwische Rhin und Geiswasser ligt usserdem dr [[Rheinseitenkanal|Rhinsitekanal]]. Un uf dr lange Insel zwische Kanal und Rhin z'gelange muess mer uffem Landweg dr Unweg iwer d'Rhinbruck bi Brisach oder d'Staustufe bi [[Fessenheim|Fessene]] mache.
+
+Bi Geiswasser sin als Iwerblibsel vum Kalte Krieg an Rhin un Kanal sognennte NATO-Rampe aglegt, so dass es im Militär liicht möglich isch, Behelfsbrucke riwer uf dr ditsch Site z'baue, wo d'Rampe ihr Gegestuck uf Höhe vum [[Rimsingen|Rimschiger Ei]] het.
+
+==Gschicht==
+Bis zue dr Begradigung isch Geiswasser immer wiider emol links oder rechts vum Rhin, uf ere Insel oder langzogene Halbinsel im mäandrierede Rhin glege.
+
+Geiswasser isch uf dr Namme vume abgschnittene Altrhinarm daift. 1770 isch dr Geiswassermer Bann an Frankrich verkauft worde, und erscht um 1775 isch d'Sidlung e Gmeind worde.
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+Am Afang vum Zweite Weltkrieg het die französisch Regierung d'Bevölkerung nach Aquitanie evakuiert. Nach dr ditsche Besetzung von Frankrich sin d'Lit im Herbscht 1940 wider zruckkehrt. D'Allierte hän Geiswasser no am 8. Februar 1945 von dr ditsche Besatzung befreit.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Geiswasser ìsch {{Maires|FR|{{#Property:P374}}}}. Geiswasser ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Wirtschaft==
+Dr Ort isch landwirtschaftlich prägt. Es wird hauptsächlich [[Getreide|Fruucht]] apflanzt, denebe git's Vihhaltig (Rinder, Säu).
+
+== Weblink ==
+* {{Commonscat|Geiswasser}}
+* [https://web.archive.org/web/20071012135452/http://www.geiswasser.fr/ Uftritt von dr Gmeind Geiswasser] (französisch)
+* [https://web.archive.org/web/20081112232245/http://hubert.miehe.free.fr/communes/geiswasser.htm Geiswasser uf em Uftritt vom Kanton Nej-Brisach] (französisch)
+
+== Referanza ==
+<references/>
+
+{{Navigationsleiste Gemeinden im Kanton Ensisheim}}
+
+{{Normdaten}}
+
+[[Kategorie:Ort (Owerelsàss)]]

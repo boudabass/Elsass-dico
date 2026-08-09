@@ -1,0 +1,51 @@
+{{DISPLAYTITLE:Àsswiller}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Asswiller
+| nomalsacien = Àsswiller
+| alt moy = 256–337
+| km² = 6.02
+|}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Àsswiller''' ([[Französische Sprache|frz.]] ''Asswiller'', [[Deutsche Sprache|dt.]] ''Aßweiler'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Bas-Rhin|Unterelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}.
+
+== Geogràfi ==
+Àsswiller lijt ìm [[Krummes Elsass|Krumme Elsàss]] àm Rànd vum [[Biosphärenreservat Pfälzerwald-Vosges du Nord|Nàtürpàrk Nordvogese]]. D Nochbergmeine sìn [[Drulingen|Drulinge]] ìm Sìdweschte, [[Durstel|Durschtel]] ìm Nordweschte, [[Tieffenbach|Diefebàch]] ìm Norde, [[Struth (Unterelsass)|Struth]] ìm Nordoschte, [[Petersbach|Peterschbàch]] ìm Oschte un [[Ottweiler (Unterelsass)|Ottwiller]] ìm Sìde.
+
+== Gschìcht ==
+Àsswiller ìsch zem erschte Mol gnannt worre ànne 718 àls ''Ascovillare''.
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Àsswiller ìsch {{Maires|FR|{{#Property:P374}}}}. Àsswiller ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Bevelkerungsentwìcklung ==
+{| class="wikitable" width=400
+|- align=center class="hintergrundfarbe5"
+|align=left | '''Johr''' || '''1962''' || '''1968''' || '''1975''' || '''1982''' || '''1990''' || '''1999''' || '''2007'''
+|- align=center
+|align=left|'''Inwohner'''<ref>[[Institut National de la Statistique et des Études Économiques|INSEE]]: ''Population et logements par commune depuis le recensement de 1962 (1961 pour les Dom) à 1999''</ref> || 223 || 238 || 225 || 218 || 215 || 230 || 269
+|}
+
+== Dialekt ==
+Dr [[Lothringisch (Rheinfränkisch)|lothringisch]] Dialekt vun Àsswiller ghert zem [[Rheinfränkisch|Rhinfrankisch]].
+
+== Böiwark ==
+* Schlossruine (18. Jh.)
+* Proteschtàntische Kìrich (18. Jh.)
+
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+{{Commonscat|Asswiller}}
+* [http://www.cc-alsace-bossue.net/html/index.php?page=2&menu1=17&menu2=1&menu3=6&page_id=722 Asswiller] bi dr CC Alsace Bossue
+
+== Referanza ==
+<references />
+
+{{Navigationsleiste Gemeinden im Kanton Ingweiler}}
+{{DEFAULTSORT:Assweiler}}
+{{Normdaten}}
+
+[[Kategorie:Ort (Unterelsass)]]

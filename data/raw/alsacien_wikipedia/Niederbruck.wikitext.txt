@@ -1,0 +1,62 @@
+{{DISPLAYTITLE:Nìderbrucke}}
+{{Infobox Ortsteil einer Gemeinde in Frankreich
+|nomhameau=Nìderbrucke
+|commune=[[Masevaux-Niederbruck]]
+|armoiries=Blason de la ville de Niederbruck (68).svg
+|région=[[Grand Est]]
+|département=[[Département Haut-Rhin|Owerelsàss]]
+|arrondissement=[[Arrondissement Thann-Guebwiller|Dànn-Gawiller]]
+|datefusion=1. Janner 2016
+|status=cd
+|insee=68233
+|cp=68290
+|longitude=06/58/03/O
+|latitude=47/47/05/N
+|alt mini=420
+|alt maxi=950
+|km²=3.78
+}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Nìderbrucke''' ([[Französische Sprache|frz.]] ''Niederbruck,'' [[Deutsche Sprache|dt.]] ''Niederbruck'') ìsch e [[Frankreich|frànzeesche]] Gmein gsi ìm [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}} ({{Kanton|FR|{{#Property:P374}}}}) ìm [[Département Haut-Rhin|Owerelsàss]] (Haut-Rhin).
+
+== Gschìcht ==
+Nìderbrucke ìsch zem erschte Mol gnannt worre ànne 1482 àls ''Niederbrucklen''. 
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+Am 1. Januar 2016 hàt d Gmein mit [[Masmünster|Màsmìnschter]] zer Gmein [[Masevaux-Niederbruck]] fusioniert.
+
+== Verwàltung ==
+Dr letscht Maire vun Nìderbrucke ìsch dr Jean-Luc Reitzer gsi. Nìderbrucke hàt zem Kommünàlverbànd [[Communauté de communes de la Vallée de la Doller et du Soultzbach]] ghert. 
+
+== Bevelkerungsentwìcklung ==
+{| class = "wikitable"
+|-class = "hintergrundfarbe8"
+!Johr
+!1962
+!1968 
+!1975
+!1982
+!1990
+!1999
+!2007
+|- align = center
+| Inwohner || 249 || 275 || 305 || 352 || 364 || 369 || 442
+|}
+
+== Dialekt ==
+Dr [[Elsässisch|elsassisch]] Dialekt vun Nìderbrucke ghert zem [[Oberrheinalemannisch|Owerrhinàlemànnisch]].
+
+{|
+| [[Datei:Niederbruck, Mairie.jpg|thumb|left|upright 1.05|<center>Mairie</center>]]
+|}
+
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+* {{Commonscat|Niederbruck}}
+
+{{Normdaten}}
+
+[[Kategorie:Ort (Owerelsàss)]]

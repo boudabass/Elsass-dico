@@ -1,0 +1,65 @@
+{{DISPLAYTITLE:Sulzmàtt}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Soultzmatt
+| nomalsacien = Sulzmàtt
+| alt moy = 260
+| alt mini = 236
+| alt maxi = 773
+| km² = 19.57
+| image = Soultzmatt 056.JPG
+| description = Mairie
+|}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Sulzmàtt''' ([[Französische Sprache|frz.]] ''Soultzmatt'', [[Deutsche Sprache|dt.]] ''Sulzmatt'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Haut-Rhin|Owerelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}.
+
+== Geogràfi ==
+Züe dr Gmein ghere d Willer Wintzfelden, Thannwiller, Dietenthal, Langenfurch, Mengenstein un Ziegellofen. Nochbergmeine sìn [[Westhalten|Waschthàlte]], [[Osenbach|Osebàch]] un [[Orschweier (Oberelsass)|Orschwihr]].
+
+== Gschìcht ==
+Sulzmàtt ìsch zem erschte Mol gnannt worre ànne 1044 àls ''Sulzmata'', 1191: ''Sulzemata'', 1246: ''Sulzmaten'', 1441: ''Sultznat'', 1577: ''Sultzmath'', 1627: ''ad acidulas Sultzmatensis''.
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Sulzmàtt ìsch {{Maires|FR|{{#Property:P374}}}}. Sulzmàtt ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Bevelkerungsentwìcklung ==
+{|class="wikitable" width=350 
+|- align=center style="background:#E1FFE1;"
+|align=left | '''Johr''' || 1962 || 1968 || 1975 || 1982 || 1990 || 1999 || 2006
+|- align=center
+|align=left | '''Inwohner'''<ref>[[Institut National de la Statistique et des Études Économiques|INSEE]]: ''Population et logements par commune depuis le recensement de 1962 (1961 pour les Dom) à 1999''</ref> || 1990 || 2057 || 2040 || 1924 || 1997 || 2138 || 2228
+|}
+
+== Wìrtschàft ==
+* d Firma ''Lisbeth - Les Sources de Soultzmatt'', wie bekànnt ìsch fìr ìhre Wasser vun dr Sulzmàttqualle un s [[Elsass Cola]].
+
+== Dialekt ==
+Dr [[Elsässisch|elsassisch]] Dialekt vun Sulzmàtt ghert zem [[Oberrheinalemannisch|Owerrhinàlemànnisch]].
+
+== Böiwark ==
+* Kirich Saint Sébastien (12. Jh., romànisch)
+* Kàpall Saint-Nicolas (14. Jh., zem erschte Mol gnannt 1394)
+* Kàpall Val du Pâtre, Schaeferthal (13. Jh., gotisch)
+* Kàpall Notre Dame-Auxiliatrice (1950)
+* Mairie (1912/13)
+
+<gallery widths=200 heights=150>
+Datei:Soultzmatt 076.JPG|Kirich Saint Sébastien
+Datei:Soultzmatt 057.JPG|Kàpall Saint-Nicolas
+</gallery>
+
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+{{commonscat|Soultzmatt}}
+
+== Referanza ==
+<references/>
+
+{{Navigationsleiste Gemeinden im Kanton Wintzenheim}}
+
+{{Normdaten}}
+
+[[Kategorie:Ort (Owerelsàss)]]

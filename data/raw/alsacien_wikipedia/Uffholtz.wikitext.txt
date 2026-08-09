@@ -1,0 +1,52 @@
+{{DISPLAYTITLE:Üffholz}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Uffholtz
+| nomalsacien = Üffholz
+| alt moy = 310
+| alt mini = 267
+| alt maxi = 1120
+| km² = 11.91
+| image = Uffholtz, Eglise Saint-Erasme.jpg
+| description = Kirich Saint-Erasme
+|}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Üffholz''' ([[Französische Sprache|frz.]] ''Uffholtz'', [[Deutsche Sprache|dt.]] ''Uffholz'') ìsch a [[Frankreich|frànzeescha]] Gmeind ìm [[Département Haut-Rhin|Owerelsàss]] ìn der [[Region (Frankreich)|Region]] [[Grand Est]] (bis 2015 Region [[Elsass|Elsàss]]). D'Gmeinda gheert zum {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}.
+
+== Gschìcht ==
+Üffholz ìsch zum erschta Mol gnannt worra ànna 769 àls ''Aufoldus'' (823 ''Uffholtz'').
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vu Üffholz ìsch {{Maires|FR|{{#Property:P374}}}}. Üffholz gheert zum Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Bevälkerungsentwìcklung ==
+{| class="wikitable" width=400
+|- align=center class="hintergrundfarbe5"
+|align=left | '''Johr''' || '''1962''' || '''1968''' || '''1975''' || '''1982''' || '''1990''' || '''1999''' || '''2007'''
+|- align=center
+|align=left|'''Iwohner''' || 1152 || 1169 || 1231 || 1327 || 1303 || 1385 || 1559
+|}
+
+== Dialekt ==
+Der [[Elsässisch|elsassischa]] Dialekt vu Üffholz gheert zum [[Oberrheinalemannisch|Owerrhinàlemànnisch]].
+
+<gallery widths="270" heights="200">
+Datei:Uffvuecentrale1082010.jpg|Dorfzentrum
+Datei:Uffabrimemoirerue.jpg|Schutzrüüm vum Gedànka (Abri-mémoire)
+</gallery>
+
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblìnk ==
+* {{Commonscat|Uffholtz}}
+
+== Referanza ==
+<references/>
+
+{{Navigationsleiste Gemeinden im Kanton Sennheim}}
+
+{{Normdaten}}
+
+[[Kategorie:Ort (Owerelsàss)]]

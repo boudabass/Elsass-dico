@@ -1,0 +1,60 @@
+{{DISPLAYTITLE:Appewihr}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Appenwihr
+| nomalsacien = Appewihr
+| alt moy = 194
+| alt mini = 191
+| alt maxi = 197
+| km² = 7.72
+}}
+'''Appewihr''' ([[IPA]]: {{IPA|[ɑb̥əˈʋiːr]}}; [[Französische Sprache|frz.]] ''Appenwihr'', ditsch ''Appenweiher'') isch e [[Frankreich|frànzeesche]] Gmein ìm [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}} ({{Kanton|FR|{{#Property:P374}}}}) ìm [[Département Haut-Rhin|Owerelsàss]] (Haut-Rhin). Appewihr ghört im Kommunalverband {{Kommunalverband|FR|{{#Property:P374}}}} a.
+
+S Wappe vu der Gmàind zàigt uf sélbrigem Grund e griens Màiglèckle, wu wissi Bliete dràit. Owedréwer ésch s Gwàih vun eme Hérsch.
+
+== Geographi ==
+Appewihr lijt am ''Hardt'', em Waldgebit im Elsass, im Zentrum vu dr Ebene zwische [[Ill (Elsass)|Ill]] und [[Rhein|Rhin]]. Èstlig dervu légt der Kastewald.
+
+== Gschichte ==
+Es ésch én Appewihr e hallstattischi Sédlung gfunde wore, üsserdàm gét's méhrere Grabhégel üs der [[Bronzezeit|Bronze-]] un üs der [[Eisenzeit|Isezit]]. Witere Üsgrabunge vu do sén ém Müséum én [[Colmar|Kolmer]] üsgstèllt. Anno 884 isch dr Ort zum erschte Mol erwähnt worde als ''Abbunuuileri''. Ém èlfte Johrhundert ésch Appewihr an s Kloster vu Basel kumme, spéter hat's zum Léhe vu Horburg ghért. 1535 ésch én Appewihr d Réformation igfiehrt wore, es gét héte noch e [[Gotik|gotische]] Kérch mét-e-me alte Glocketurm un eme Kércheschéff üs em 16. oder 18. Johrhundert. Im [[Dreißigjähriger Krieg|Drissigjährige Krieg]] isch di Gmeind komplett zerstört worde. Anno 1752 isch sell, dismol wegenem grosse Brand, wiider passiert. 
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert. Am 5. Februar 1945 isch Appewihr durch US-Truppe von dr ditsche Besatzermacht im Zweite Weltkrieg befreit worde, drei Tag nach [[Colmar|Colmer]].
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vo Appewihr isch {{Maires|FR|{{#Property:P374}}}}. D Gmeind ghert zum Gmeindsverband {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Wértschaft ==
+Én Appewihr wérd Getràide aboie. Zudàm wérd Dierzucht bedrébe, es wàre vor allem Rénder un Soi ghalte.
+
+== Bevelkerungsentwìcklung ==
+{|class="wikitable"
+!|Johr
+!|1962
+!|1968
+!|1975
+!|1982
+!|1990
+!|1999
+!|2006
+|-
+| Inwohner || 173 || 183 || 228 || 376 || 417 || 443 || 446
+|}
+
+<gallery widths="200" heights="180" perrow="2">
+Datei:Appenwihr, Eglise protestante Saint-Antoine.jpg|Protestantische Kirich Saint-Antoine
+</gallery>
+
+== Weblink ==
+* {{Commonscat|Appenwihr}}
+* [http://www.appenwihr.fr/ Uftritt von dr Gmeind Appewihr] (Franzésch)
+* [https://web.archive.org/web/20070312230102/http://www.quid.fr/communes.html?mode=detail&id=524&req=appenwihr&style=fiche Appewihr uf quid.fr] (Franzésch)
+
+== Referanza ==
+<references/>
+
+{{Navigationsleiste Gemeinden im Kanton Ensisheim}}
+
+{{Übersetzungshinweis|de|Appenweiher|dütsch}}
+
+{{Normdaten}}
+
+[[Kategorie:Ort (Owerelsàss)]]

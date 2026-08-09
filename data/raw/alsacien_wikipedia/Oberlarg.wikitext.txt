@@ -1,0 +1,53 @@
+{{DISPLAYTITLE:Oberlàrg}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Oberlarg
+| nomalsacien = Oberlàrg
+| alt moy = 521
+| alt mini = 482
+| alt maxi = 740
+| km² = 8.21
+| image = Oberlarg, Mairie.jpg
+| description = Mairie
+|}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Oberlàrg''' ([[Französische Sprache|frz.]] ''Oberlarg'', [[Deutsche Sprache|dt.]] ''Oberlarg'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Haut-Rhin|Owerelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}.
+
+== Gschìcht ==
+Oberlàrg ìsch zem erschte Mol gnannt worre ànne 1145 àls ''Larga''.
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Oberlàrg ìsch {{Maires|FR|{{#Property:P374}}}}. Oberlàrg ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Bevelkerungsentwìcklung ==
+{| class="wikitable" width=400
+|- align=center class="hintergrundfarbe5"
+|align=left | '''Johr''' || '''1962''' || '''1968''' || '''1975''' || '''1982''' || '''1990''' || '''1999''' || '''2006''' 
+|- align=center
+|align=left|'''Inwohner'''<ref>[[Institut National de la Statistique et des Études Économiques|INSEE]]: ''Population et logements par commune depuis le recensement de 1962 (1961 pour les Dom) à 1999''</ref> || 162 || 174 || 157 || 148 || 146 || 143 || 146
+|}
+
+== Dialekt ==
+Dr [[Elsässisch|elsassisch]] Dialekt vun Oberlàrg ghert zem [[Hochalemannisch|Hochàlemànnisch]].
+
+<gallery>
+Datei:Oberlarg, Eglise Saint-Martin.jpg|Kirich St. Martin
+Datei:Ruins_of_Castle_of_Morimont.jpg|Burg Mersbarg (''Morimont'')
+Datei:Oberlarg, Ecole.jpg|Schüel
+</gallery>
+
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+* {{Commonscat|Oberlarg}}
+
+== Referanza ==
+<references/>
+
+{{Navigationsleiste Gemeinden im Kanton Altkirch}}
+
+{{Normdaten}}
+
+[[Kategorie:Ort (Owerelsàss)]]

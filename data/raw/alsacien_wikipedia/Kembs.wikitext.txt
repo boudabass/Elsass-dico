@@ -1,0 +1,70 @@
+{{DISPLAYTITLE:Chems}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Kembs
+| nomalsacien = Chems
+| alt moy = 241
+| alt mini = 222
+| alt maxi = 255
+| km² = 16.45
+| image = Mairie de Kembs - 2015.JPG
+| description = Mairie
+|}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Chems''' ([[Französische Sprache|frz.]] ''Kembs'', [[Deutsche Sprache|dt.]] ''Kembs'') ìsch a [[Frankreich|frànzeescha]] Gmein ìm [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}} ({{Kanton|FR|{{#Property:P374}}}}) ìm [[Département Haut-Rhin|Owerelsàss]] (Haut-Rhin).
+
+==Geographie==
+D Gmein Chems lìgt zwìschem Rhii àm Oschta un dr Hàrdt àm Weschta. S Nàtürschutzgebìet „Petite Camargue Alsacienne“ befìndet sìch uf em Boda vu mehrera Gmeina, bi dana gheert Chems.
+
+Z Chems fàngt dr Chems-Niffer-Kànàl àà, dàs ìsch d letschta Strecka vum Hiniger Kànal wo d Schìff noch känna fàhra. Àm [[15. April|15. Àwrìl]] [[1962]] ìsch d Schliaßa vu Chems-Niffer igwèiht worra. Sa ìsch vum beriahmta Àrchitekt [[Le Corbusier]] bàuia worra, sa verbìndet dr Hiniger Kànàl un dr [[Rheinseitenkanal|großa Kànal vum Rhii ìm Elsàss]].
+
+D Neecha vu dr [[Schweiz|Schwitz]] màcht Chems àttràktiv z wohna fer d Granzìwerganger, ìn dr letschta Zitt hàt sìch d Gmein zìmlig verbàuia.<ref>[http://unes.spqr.fr/pdf.php?pdf=alsa/alsace_d20080301.pdf D Entwìcklung vu Chems, ìn dr Zittung L'ALSACE vum 01/03/2008 (fr)]</ref>
+
+== Gschìcht ==
+Ìn dr [[Römisches Reich|reemischa Zitt]] hàt Chems „Cambete“ gheißa un ìsch uf dr Reemischstroß wo dur [[Augusta Raurica]] un Argentoratum (d hìttiga Stroßburg) gànga ìsch<ref>[http://routes.wikia.com/wiki/Voie_romaine_3 Reemischstroß 3, dur Cambete un Argentoratum, uf WikiSara (fr)]</ref><ref>[http://www.2rives3ponts.eu/UserFiles/Parcours/pdf/Description_Tour3.pdf Reemischstroß dur Augusta Raurica, uf 2rives3ponts.eu (fr)]</ref>. Sa steht uf dr [[Peutingersche Tafel|Peutingerscha Tàfla]] un uf em Itinerarium Antonini.
+
+Mìt dr Zitt ìsch Cambete ìmmer wìchtiger worra: ìm 1. Johrhundert àls kaiserlig Wohnort, un ìm IV. Johrhundert àls Feschtung. Ànna 1950, wo dr [[Rheinseitenkanal|Kànàl vum Rhii]] bàuia worra ìsch, sìn Spura vu dara Vergàngaheit gfunda worra: ma hat a Ruina vu-n'ra ehmàliga Rhii-Brucka vum 1. Johrhundert entdeckt.<ref>[http://www.culture.gouv.fr/public/mistral/merimee_fr?ACTION=CHERCHER&FIELD_1=REF&VALUE_1=IA00122501 Kültürell Erbgüet Ìnventàr „Mérimée“ ìwer Chems (fr)]</ref>
+
+Dr hìttiga Nàmma „Chems“ ìsch zum erschta Mol ànna 757 gnannt worra.
+
+Vum Mìttelàlter bis àm [[Dreißigjähriger Krieg|Drissigjohrig Kriag]] ìsch Chems dur sina zwei Hàuiptbesìtzer verteilt gsìì; dia Besìtzer sìn dr Bischof un s Kloschter Sankt-Alban vu Bàsel gsìì. Ìn da XIV. un XV. Johrhunderta ìsch s Dorf mehrmols zersteert un wìder bàuia worra. Speeter hàt sìch Chems wìder vereinigt un s Dorf hàt sìch verbreitet.
+
+Ànna 1830 ìsch d Gmein noch greeßer worra, dur dr Ààschluss vu da Viartel Schaeferhof, Lächla un Richardshiiser, wo vorhar zum Gmein Nèiwag gheert han. Kurz nochhar, ànna 1932, ìsch s Kràftwark vum Chems igwèiht worra.
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Chems ìsch {{Maires|FR|{{#Property:P374}}}}. Chems gheert zum Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Bevelkerungsentwìcklung ==
+{| class="wikitable" width=400
+|- align=center class="hintergrundfarbe5"
+|align=left | '''Johr''' || '''1962''' || '''1968''' || '''1975''' || '''1982''' || '''1990''' || '''1999''' || '''2006'''
+|- align=center
+|align=left|'''Inwohner'''<ref>[[Institut National de la Statistique et des Études Économiques|INSEE]]: ''Population et logements par commune depuis le recensement de 1962 (1961 pour les Dom) à 1999''</ref> || 1702 || 2009 || 2211 || 2575 || 3016 || 3739 || 4210
+|}
+
+== Dialekt ==
+Dr [[Elsässisch|elsassisch]] Dialekt vun Chems ghert zem [[Hochalemannisch|Hochàlemànnisch]].
+
+<gallery>
+Datei:Kembs, Eglise Saint-Jean-Baptiste.jpg|Kìrch Saint-Jean-Baptiste
+Datei:Loechlé, Église Notre-Dame-de-la-Maternité.jpg|Kìrch vu Lächla
+Datei:Kembs usine hydro-électrique.jpg|Wàsserkràftwark vu Chems
+</gallery>
+
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+* {{Literatur|Sprache=fr|Autor=Louis Abel|Titel=Kembs en Sundgau rhénan. L’église et l’architecte du XVIIIème siècle : François-Antoine Zeller (1740-1816) et son activité en Haute-Alsace|Jahr=1986|Verlag=Association du souvenir de l’Eglise St-Jean-Baptiste de Kembs|Online={{Google Buch|BuchID=a5sjAAAAMAAJ}}|Umfang=285|Jahr=1986}}
+
+== Weblink ==
+{{Commonscat}}
+* [http://www.ville-kembs.fr Offiziell Websitt vu dr Gmein Chems (fr)]
+
+== Referanza ==
+<references/>
+
+{{Navigationsleiste Gemeinden im Kanton Brunstatt}}
+
+{{Normdaten}}
+
+[[Kategorie:Ort (Owerelsàss)]]

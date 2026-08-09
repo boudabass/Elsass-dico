@@ -1,0 +1,56 @@
+{{DISPLAYTITLE:Mìttlàch}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Mittlach
+| nomalsacien = Mìttlàch
+| alt moy = 533
+| alt mini = 515
+| alt maxi = 1320
+| km² = 11.39
+| image = View of Mittlach, Haut-Rhin.jpg
+| description = Mìttlàch
+|}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Mìttlàch''' oder '''Mìttla''' ([[Französische Sprache|frz.]] ''Mittlach'', [[Deutsche Sprache|dt.]] ''Mittlach'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Haut-Rhin|Owerelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}.
+
+== Gschìcht ==
+Mìttlàch ìsch zem erschte Mol gnannt worre ànne 1571 àls ''Mitla''.
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Mìttlàch ìsch {{Maires|FR|{{#Property:P374}}}}. Mìttlàch ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Bevelkerungsentwìcklung ==
+{|class="wikitable"
+|-class="hintergrundfarbe8"
+!align=left|Johr
+!1962
+!1968 
+!1975
+!1982
+!1990
+!1999
+!2006
+|- align=center
+!align=left|Inwohner
+|371 || 376 || 364 || 307 || 291 || 290 || 311
+|-
+|}
+
+== Dialekt ==
+Dr [[Elsässisch|elsassisch]] Dialekt vun Mìttlàch ghert zem [[Oberrheinalemannisch|Owerrhinàlemànnisch]].
+
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+{{Commonscat|Mittlach}}
+* http://www.mittlach.fr
+
+== Referanza ==
+<references/>
+
+{{Navigationsleiste Gemeinden im Kanton Munster}}
+{{Normdaten}}
+
+[[Kategorie:Ort (Owerelsàss)]]

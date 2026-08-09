@@ -1,0 +1,59 @@
+{{DISPLAYTITLE:Didena}}
+{{Infobox Ortsteil einer Gemeinde in Frankreich
+|nomhameau=Didene
+|commune=[[Brunstatt-Didenheim]]
+|armoiries=Blason de la ville de Didenheim (68).svg
+|région=[[Grand Est]]
+|département = [[Haut-Rhin|Owerelsàss]]
+|arrondissement = [[Arrondissement Mulhouse|Milhüüse]]
+|datefusion=1. Janner 2016
+|status=cd
+|insee=68070
+|cp=68350
+|longitude=07/18/03/E
+|latitude=47/43/08/N
+|alt mini=242
+|alt maxi=332
+|km²=4.44
+|}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Didena''' ([[Französische Sprache|frz.]] ''Didenheim'', [[Deutsche Sprache|dt.]] ''Didenheim'') ìsch e ehmolige [[Frankreich|frànzeesche]] Gmein ìm [[Département Haut-Rhin|Owerelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}.
+
+== Gschìcht ==
+Didena ìsch zem erschte Mol gnannt worre ànne 796 àls ''Tudinhaim''.
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+Àm [[1. Januar|1. Janner]] [[2016]] ìsch sa füsioniert worda mìt dr Gmein [[Brunstatt|Brunscht]] züe [[Brunstatt-Didenheim]].
+
+== Verwàltung ==
+Dr letscht Maire vun Didena ìsch bìs 2015 dr Jean-Denis Bauer gsin.
+
+== Bevelkerungsentwìcklung ==
+{| class = "wikitable" width = 400
+|- align = center class = "hintergrundfarbe5"
+| align = left | '''Johr''' || '''1962''' || '''1968''' || '''1975''' || '''1982''' || '''1990''' || '''1999''' || '''2006'''
+|- align = center
+| align = left|'''Inwohner'''<ref>[[Institut National de la Statistique et des Études Économiques|INSEE]]: ''Population et logements par commune depuis le recensement de 1962 (1961 pour les Dom) à 1999''</ref> || 1492 || 1897 || 1920 || 1902 || 1771 || 1758 || 1666
+|}
+
+== Dialekt ==
+Dr [[Elsässisch|elsassisch]] Dialekt vun Didena ghert zem [[Oberrheinalemannisch|Owerrhinàlemànnisch]].
+
+<gallery widths = "200" heights = "180" perrow = "2">
+Datei:Didenheim, Eglise Saint-Gall.jpg|Kirich St. Galle
+</gallery>
+
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+* {{Commonscat|Didenheim|Didena}}
+* https://web.archive.org/web/20161025174245/http://www.mairie-didenheim.fr/
+
+== Referanza ==
+<references />
+
+{{Normdaten}}
+
+[[Kategorie:Ort (Owerelsàss)]]

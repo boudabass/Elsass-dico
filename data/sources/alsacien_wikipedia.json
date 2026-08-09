@@ -15,9 +15,9 @@
       "type_terme": "toponyme",
       "url": "https://als.wikipedia.org/wiki/<Commune>?action=raw (un article par commune)",
       "format_ligne": "{{Infobox Gemeinde in Frankreich\\n| nomalsacien = <forme alsacienne>",
-      "volumetrie": 10,
+      "volumetrie": 680,
       "emplacement": "data/raw/alsacien_wikipedia/<commune>.wikitext.txt",
-      "notes": "Lot restreint pilote de 10 communes (GATE John 09/08/2026, article 725). La généralisation à l'ensemble des communes ne se lance qu'après le GATE. francais, contexte et region sont repris de la base culture_alsace (recoupement, jamais déduits de l'article)."
+      "notes": "Généralisation (GATE John 09/08/2026, article 725, carte t_8efbd6d7) : 680 pages archivées sur les 947 noms distincts de culture_alsace (villes_villages_hr + br) — 371 articles directs + 299 titres français en redirection résolue vers l'article sous titre alsacien (ex. Strasbourg -> Straßburg, wikitext de la cible archivé tel quel). 267 communes sans aucune page (404), omises et listées au rapport de carte (règle 3). francais, contexte et region sont repris de la base culture_alsace (recoupement, jamais déduits de l'article)."
     }
   ],
   "inventaire_complet": false

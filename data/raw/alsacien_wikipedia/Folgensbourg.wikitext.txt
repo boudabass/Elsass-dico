@@ -1,0 +1,58 @@
+{{DISPLAYTITLE:Folgeschburg}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Folgensbourg
+| nomalsacien = Folgeschburg
+| alt moy = 455
+| alt mini = 365
+| alt maxi = 499
+| km² = 6.72
+| image = Folgensbourg, Eglise Saint-Gall.jpg
+| description = Kirich St. Gallus
+|}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Folgeschburg''' ([[Französische Sprache|frz.]] ''Folgensbourg'', [[Deutsche Sprache|dt.]] ''Folgensburg'' oder ''Volkensberg'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Haut-Rhin|Owerelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}.
+
+== Gschìcht ==
+Folgeschburg ìsch zem erschte Mol gnannt worre ànne 1190 àls ''Volkoldesberg''.
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Folgeschburg ìsch {{Maires|FR|{{#Property:P374}}}}. Folgeschburg ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Bevelkerungsentwìcklung ==
+{|class="wikitable"
+!|Johr
+!|1962
+!|1968
+!|1975
+!|1982
+!|1990
+!|1999
+!|2007
+|-
+| Inwohner || 524 || 532 || 600 || 590 || 581 || 633 || 749
+|}
+
+== Dialekt ==
+Dr [[Elsässisch|elsassisch]] Dialekt vun Folgeschburg ghert zem [[Hochalemannisch|Hochàlemànnisch]].
+
+{|
+|[[Datei:Folgensbourg, Mairie.jpg|thumb|left|upright 1.0|<center>Mairie</center>]]
+|[[Datei:Folgensbourg, Ecole.jpg|thumb|left|upright 1.0|<center>Schüel</center>]]
+|}
+
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+* {{Commonscat|Folgensbourg}}
+
+== Referanza ==
+<references/>
+
+{{Navigationsleiste Gemeinden im Kanton Saint-Louis}}
+
+{{Normdaten}}
+
+[[Kategorie:Ort (Owerelsàss)]]

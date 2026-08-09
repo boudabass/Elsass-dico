@@ -1,0 +1,45 @@
+{{DISPLAYTITLE:Stàttmàtte}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Stattmatten
+| nomalsacien = Stàttmàtte
+| alt moy = 116–122
+| km² = 3.93
+|}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Stàttmàtte''' ([[Französische Sprache|frz.]] ''Stattmatten'', [[Deutsche Sprache|dt.]] ''Stattmatten'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Bas-Rhin|Unterelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}.
+
+== Geogràfi ==
+Stattmatten lijt àn dr untere [[Moder (Fluss)|Moder]], 20 Kilometer eschtlich vun [[Hagenau|Hàwenàu]] un 20 Kilometer sìdweschtlich vun [[Rastatt|Raschti]]. Nochbergmeine sìn [[Auenheim (Unterelsass)|Auenem]] ìm Norde, [[Fort-Louis|For-Lui]] ìm Oschte, [[Dalhunden|Dalhunde]] ìm Sìde un [[Sessenheim|Säsem]] ìm Weschte.
+
+== Gschìcht ==
+Stàttmàtte ìsch zem erschte Mol gnannt worre ìm 14. Jh.
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Stàttmàtte ìsch {{Maires|FR|{{#Property:P374}}}}. Stàttmàtte ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Bevelkerungsentwìcklung ==
+{| class="wikitable" width=400
+|- align=center class="hintergrundfarbe5"
+|align=left | '''Johr''' || '''1962''' || '''1968''' || '''1975''' || '''1982''' || '''1990''' || '''1999''' || '''2006'''
+|- align=center
+|align=left|'''Inwohner'''<ref>[[Institut National de la Statistique et des Études Économiques|INSEE]]: ''Population et logements par commune depuis le recensement de 1962 (1961 pour les Dom) à 1999''</ref> || 339 || 375 || 423 || 544 || 570 || 598 || 657
+|}
+
+== Dialekt ==
+Dr [[Elsässisch|elsassisch]] Dialekt vun Stàttmàtte ghert zem [[Oberrheinalemannisch|Owerrhinàlemànnisch]].
+
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+{{Commonscat}}
+
+== Referanza ==
+<references/>
+
+{{Navigationsleiste Gemeinden im Kanton Bischweiler}}
+{{Normdaten}}
+
+[[Kategorie:Ort (Unterelsass)]]

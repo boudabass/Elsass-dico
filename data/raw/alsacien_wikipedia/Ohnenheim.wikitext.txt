@@ -1,0 +1,49 @@
+{{DISPLAYTITLE:Uune}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Ohnenheim
+| nomalsacien = Uune
+| alt moy = 172–178
+| km² = 12.12
+| image = Ohnenheim 012.JPG
+| description = Ortsingàng
+|}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Uune''' ([[Französische Sprache|frz.]] ''Ohnenheim'', [[Deutsche Sprache|dt.]] ''Ohnenheim'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Bas-Rhin|Unterelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}.
+
+== Gschìcht ==
+Uune ìsch zem erschte Mol gnannt worre ànne 673 àls ''Onenhaim'' (896: ''Hononheim'').
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Uune ìsch {{Maires|FR|{{#Property:P374}}}}. Uune ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Bevelkerungsentwìcklung ==
+{| class="wikitable" width=400
+|- align=center class="hintergrundfarbe5"
+|align=left | '''Johr''' || '''1962''' || '''1968''' || '''1975''' || '''1982''' || '''1990''' || '''1999''' || '''2007'''
+|- align=center
+|align=left|'''Inwohner'''<ref>[[Institut National de la Statistique et des Études Économiques|INSEE]]: ''Population et logements par commune depuis le recensement de 1962 (1961 pour les Dom) à 1999''</ref> || 667 || 685 || 632 || 587 || 629 || 721 || 825
+|}
+
+== Dialekt ==
+Dr [[Elsässisch|elsassisch]] Dialekt vun Uune ghert zem [[Oberrheinalemannisch|Owerrhinàlemànnisch]].
+
+<gallery widths="200" heights="180" perrow="2">
+Datei:Ohnenheim 002.JPG|Mairie
+Datei:Ohnenheim 024.JPG|Kàtholische Kirich
+</gallery>
+
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+{{Commonscat}}
+
+== Referanza ==
+<references/>
+
+{{Navigationsleiste Gemeinden im Kanton Sélestat}}
+{{Normdaten}}
+
+[[Kategorie:Ort (Unterelsass)]]

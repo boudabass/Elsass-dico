@@ -1,0 +1,44 @@
+{{DISPLAYTITLE:Bettwiller}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Bettwiller
+| nomalsacien = Bettwiller
+| alt moy = 248–351
+| km² = 4.06
+|}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Bettwiller''' ([[Französische Sprache|frz.]] ''Bettwiller'', [[Deutsche Sprache|dt.]] ''Bettweiler'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Bas-Rhin|Unterelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}.
+
+== Gschìcht ==
+Bettwiller ìsch zem erschte Mol gnannt worre ànne 713 àls ''In marea Bettune''.
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Bettwiller ìsch {{Maires|FR|{{#Property:P374}}}}. Bettwiller ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Bevelkerungsentwìcklung ==
+{| class="wikitable" width=400
+|- align=center class="hintergrundfarbe5"
+|align=left | '''Johr''' || '''1962''' || '''1968''' || '''1975''' || '''1982''' || '''1990''' || '''1999''' || '''2007'''
+|- align=center
+|align=left|'''Inwohner'''<ref>[[Institut National de la Statistique et des Études Économiques|INSEE]]: ''Population et logements par commune depuis le recensement de 1962 (1961 pour les Dom) à 1999''</ref> || 265 || 283 || 302 || 332 || 347 || 332 || 338
+|}
+
+== Dialekt ==
+Dr [[Lothringisch (Rheinfränkisch)|lothringisch]] Dialekt vun Bettwiller ghert zem [[Rheinfränkisch|Rhinfrankisch]].
+
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+{{Commonscat|Bettwiller}}
+* [http://www.cc-alsace-bossue.net/html/index.php?page=2&menu1=17&menu2=1&menu3=6&page_id=726 Bettwiller] uf cc-alsace-bossue.net
+
+== Referanza ==
+<references />
+
+{{Navigationsleiste Gemeinden im Kanton Ingweiler}}
+
+{{Normdaten}}
+
+[[Kategorie:Ort (Unterelsass)]]

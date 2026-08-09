@@ -1,0 +1,49 @@
+{{DISPLAYTITLE:Waisseburich}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Wissembourg
+| nomalsacien = Waisseburch/Wisseburi
+| alt moy = 133–527
+| km² = 48.18
+| image = Weissenburg Elsass 469.jpg
+| description = Blick uf Waisseburch vo Rott her
+}}
+'''Waisseburich''' ([[Elsässisch|els.]] ''Wisseburi'', [[Französische Sprache|frz.]] ''Wissembourg'' [{{IPA|visɑ̃ˈbuʀ}}], [[Deutsche Sprache|dütsch]] ''Weißenburg'') ìsch e [[Frankreich|frànzeesche]] Stàdt ìm [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}} ({{Kanton|FR|{{#Property:P374}}}}) im [[Département Bas-Rhin|Unterelsàss]] (Bas-Rhin).
+
+== D Lag ==
+Waisseburich ligt am Übergang vo de [[Oberrheingraben|Rhyebeni]] zum [[Pfälzerwald]]. S Schtädtli isch direkt am Gscheid zwüschem Elsass u de [[Pfalz (Region)|Pfalz]] reschperktiv zwüsche [[Frankreich|Frankriich]] u [[Deutschland|Dütschland]] a de [[Lauter]].
+
+== Gschicht ==
+De Ursprung vo de Schtadt Waisseburich ligt im Chloschter, wo uf Veraalassig vom damalige [[Bistum Speyer|Bischof vo Speyer]], vermuetlich em Dragobodo in de Ziit um 660 gründt worden isch. S Chloschter het bald grossi Bsitzige im Elsàss, de Pfalz un au in [[Baden (Land)|Bade]] gha.
+
+Um s Chloschter umme het sich d Schtadt Waisseburich entwicklet, wo ab 1306 e [[Freie Reichsstadt|freii Reichsschtadt]] isch gsi. Zwüschem 17. un em 20. Johrhundert het Waisseburich e paar Mol müesse d Schtaatszugehörigkeit wechsle. Zerscht isch d Schtadt mit ihrem südliche Umland mit em [[Westfälischer Frieden|Weschtfälische Fride]] vo 1648 a Frankriich cho, nach em [[Deutsch-Französischer Krieg|dütsch-französische Chrieg vo 1870/71]] wider an Dütschland. Mit em End vom [[Erster Weltkrieg|erschte Wältchrieg]] isch Waisseburich zämme mim reschtliche Elsàss wider an Frankreich gfalle un während de Bsetzig vo Frankriich im [[Zweiter Weltkrieg|zwaite Wältchrieg]] durch Nazi-Dütschland anektiirt worde. Site m End vom zwaite Weltchrieg ghört Waisseburich zu Frankriich. 
+
+== Politik ==
+{{MairesTitel|FR|{{#Property:P374}}}} vo Waisseburich isch {{Maires|FR|{{#Property:P374}}}}. D Gmeind isch Mitglied im Gmeindsverband {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Dialekt ==
+Dr [[Südfränkische Dialekte|südfränkisch]] Dialekt vo Waisseburich ghört zum [[Ostfränkisch|Oschtfränkisch]] (Nordoberdütsch).
+
+== Galerii ==
+<gallery widths="200" heights="180" perrow="3">
+Datei:Weissenburg-Hotel-de-Ville.jpg|S Rathus
+Datei:Weissenburg-St-Pierre-et-St-Paul.jpg|St. Peter und Paul
+Datei:Wissembourg, Maison du sel, Frankreich.jpg|S Salzhus (''Maison du Sel'')
+</gallery>
+
+== Lüt ==
+*[[Otfrid von Weißenburg]] (790–870), althochdütsche Dichter
+
+== Weblink ==
+{{Commonscat|Wissembourg|Waisseburich}}
+*[http://www.ville-wissembourg.eu/ Offizielli Website vo de Schadt Waisseburich]
+
+== Referanza ==
+<references />
+
+{{Navigationsleiste Gemeinden im Kanton Weissenburg}}
+
+{{Normdaten}}
+{{DEFAULTSORT:Weissenburg (Unterelsass)}}
+{{Normdaten}}
+
+[[Kategorie:Ort (Unterelsass)]]

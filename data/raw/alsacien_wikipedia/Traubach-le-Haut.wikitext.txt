@@ -1,0 +1,63 @@
+{{DISPLAYTITLE:Ìwertràibàch}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Traubach-le-Haut
+| nomalsacien = Ìwertràibàch
+| alt moy = 314
+| alt mini = 289
+| alt maxi = 372
+| km² = 6.91
+| image = Traubach-le-Haut, Mairie-école.jpg
+| description = <center>Mairie un Schüel
+|}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Ìwertràibàch''' ([[Französische Sprache|frz.]] ''Traubach-le-Haut'', [[Deutsche Sprache|dt.]] ''Obertraubach'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Haut-Rhin|Owerelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}.
+
+== Geogràfi ==
+Ìwertràibàch lijt ìm [[Sundgau|Sundgöi]] àm Tröibàch (''Traubach''), wie ìn d [[Largue (Ill)|Làrg]] mìndet. Nochbergmeine vun Ìwertràibàch sìn [[Gevenatten|Gavenàtt]] ìm Norde, [[Hecken (Oberelsass)|Hecke]] un [[Falkweiler|Fàlkwiller]] ìm Nordoschte, [[Bütweiler|Büethwiller]] ìm Sìdoschte, [[Niedertraubach|Needertröibàch]] ìm Sìde un [[Brückensweiler|Bruckedswiller]] ìm Weschte.
+
+== Gschìcht ==
+Ìwertràibàch ìsch zem erschte Mol gnannt worre ànne 1226 àls ''Trobe'' (1236 ''Trogebach'', 1421 ''Trobach'').
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Ìwertràibàch ìsch {{Maires|FR|{{#Property:P374}}}}. Ìwertràibàch ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Bevelkerungsentwìcklung ==
+{|class= "wikitable"
+!class="hintergrundfarbe5"|Johr
+!class="hintergrundfarbe5"|1962 
+!class="hintergrundfarbe5"|1968 
+!class="hintergrundfarbe5"|1975 
+!class="hintergrundfarbe5"|1982 
+!class="hintergrundfarbe5"|1990 
+!class="hintergrundfarbe5"|1999 
+|-
+| '''Inwohner'''<ref>[[Institut National de la Statistique et des Études Économiques|INSEE]]: ''Population et logements par commune depuis le recensement de 1962 (1961 pour les Dom) à 1999''</ref> || 325 || 356 || 360 || 390 || 400 || 448
+|}
+
+== Dialekt ==
+Dr [[Elsässisch|elsassisch]] Dialekt vun Ìwertràibàch ghert zem [[Oberrheinalemannisch|Owerrhinàlemànnisch]].
+
+== Böiwark ==
+* Kìrich Saint-Jean-Baptiste
+
+<gallery widths="200" heights="180">
+Datei:Traubach-le-Haut, Eglise Saint-Jean-Baptiste 2.jpg|<center>Kìrich Saint-Jean-Baptiste, Sìdsitt
+</gallery>
+
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+* {{commonscat|Traubach-le-Haut|Ìwertràibàch}}
+* [https://web.archive.org/web/20140217085724/http://www.cc-porte-alsace.fr/territoire-intercommunal/traubach-le-haut.htm Ewertröibàch] uf cc-porte-alsace.fr
+
+== Referanza ==
+<references/>
+
+{{Navigationsleiste Gemeinden im Kanton Masmünster}}
+
+{{Normdaten}}
+
+[[Kategorie:Ort (Owerelsàss)]]

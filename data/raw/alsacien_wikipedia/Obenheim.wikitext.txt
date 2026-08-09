@@ -1,0 +1,44 @@
+{{DISPLAYTITLE:Owene}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Obenheim
+| nomalsacien = Owene
+| alt moy = 154–159
+| km² = 7.99
+|}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Owene''' ([[Französische Sprache|frz.]] ''Obenheim'', [[Deutsche Sprache|dt.]] ''Obenheim'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Bas-Rhin|Unterelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}.
+
+== Geografie ==
+Owene lejt àm [[Rhein-Rhône-Kanal|Rhin-Rhone-Kànàl]], durich dr Ort geht d Departementsstroß D&nbsp;468.
+
+== Gschìcht ==
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Owene ìsch {{Maires|FR|{{#Property:P374}}}}. Owene ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Bevelkerungsentwìcklung ==
+{| class="wikitable" width=400
+|- align=center class="hintergrundfarbe5"
+|align=left | '''Johr''' || '''1962''' || '''1968''' || '''1975''' || '''1982''' || '''1990''' || '''1999''' || '''2006'''
+|- align=center
+|align=left|'''Inwohner'''<ref>[[Institut National de la Statistique et des Études Économiques|INSEE]]: ''Population et logements par commune depuis le recensement de 1962 (1961 pour les Dom) à 1999''</ref> || 901 || 1.042 || 1.127 || 1.130 || 1.078 || 1.214 || 1.352
+|}
+
+== Dialekt ==
+Dr [[Elsässisch|elsassisch]] Dialekt vun Owene ghert zem [[Oberrheinalemannisch|Owerrhinàlemànnisch]].
+
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+{{Commonscat}}
+* [https://web.archive.org/web/20101111022516/http://www.cc-rhin.fr/intercommunalite/obenheim.htm Owene] uf cc-rhin.fr
+
+== Referanza ==
+<references/>
+
+{{Navigationsleiste Gemeinden im Kanton Erstein}}
+{{Normdaten}}
+
+[[Kategorie:Ort (Unterelsass)]]

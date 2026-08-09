@@ -1,0 +1,55 @@
+{{DISPLAYTITLE:Wittelse}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Wittelsheim
+| nomalsacien = Wittelse
+| alt moy = 265
+| alt mini = 239
+| alt maxi = 285
+| km² = 23.63
+|}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Wittelse''' ([[Französische Sprache|frz.]] ''Wittelsheim'', [[Deutsche Sprache|dt.]] ''Wittelsheim'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Haut-Rhin|Owerelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}.
+
+== Gschìcht ==
+Wittelse ìsch zem erschte Mol gnannt worre ànne 1183 àls ''Witolsheim''.
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Wittelse ìsch {{Maires|FR|{{#Property:P374}}}}. Wittelse ghert züe keim Kommünàlverbànd ([[Communauté de communes]]).
+
+== Bevelkerungsentwìcklung ==
+{|class="wikitable"
+!|Johr
+!|1962
+!|1968
+!|1975
+!|1982
+!|1990
+!|1999
+!|2006
+|-
+| Inwohner || 9 782 || 10 088 || 10 032 || 10 177 || 10 452 || 10 226 || 10 708
+|}
+
+== Dialekt ==
+Dr [[Elsässisch|elsassisch]] Dialekt vun Wittelse ghert zem [[Oberrheinalemannisch|Owerrhinàlemànnisch]].
+
+<gallery widths="200" heights="200" perrow="2">
+Datei:Wittelsheim, Eglise Saint-Michel.jpg|Kirich Saint-Michel
+</gallery>
+
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+* {{Commonscat|Wittelsheim}}
+
+== Referanza ==
+<references/>
+
+{{Navigationsleiste Gemeinden im Kanton Wittenheim}}
+
+{{Normdaten}}
+
+[[Kategorie:Ort (Owerelsàss)]]

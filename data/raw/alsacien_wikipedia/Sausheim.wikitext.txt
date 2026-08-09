@@ -1,0 +1,59 @@
+{{DISPLAYTITLE:Sàise}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Sausheim
+| nomalsacien = Sàise
+| alt moy = 230
+| alt mini = 226
+| alt maxi = 236
+| km² = 16.91
+| image = Sausheim, Mairie.jpg
+| description = Mairie
+|}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Sàise''' ([[Französische Sprache|frz.]] ''Sausheim'', [[Deutsche Sprache|dt.]] ''Sausheim'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Haut-Rhin|Owerelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}.
+
+== Gschìcht ==
+Sàise ìsch zem erschte Mol gnannt worre ànne 801 àls ''Sowenesheim''.
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Sàise ìsch {{Maires|FR|{{#Property:P374}}}}. Sàise ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Bevelkerungsentwìcklung ==
+{|class="prettytable"
+!class="hintergrundfarbe5"|Johr
+!class="hintergrundfarbe5"|1962
+!class="hintergrundfarbe5"|1968
+!class="hintergrundfarbe5"|1975
+!class="hintergrundfarbe5"|1982
+!class="hintergrundfarbe5"|1990
+!class="hintergrundfarbe5"|1999
+!class="hintergrundfarbe5"|2006
+!class="hintergrundfarbe5"|2007
+|- style="text-align:right"
+|'''Inwohner'''<ref>[[Institut National de la Statistique et des Études Économiques|INSEE]]: ''Population et logements par commune depuis le recensement de 1962 (1961 pour les Dom) à 1999''</ref> || 2447 || 3156 || 4940 || 4737 || 4748 || 5470 || 5299 || 5280
+|}
+
+== Dialekt ==
+Dr [[Elsässisch|elsassisch]] Dialekt vun Sàise ghert zem [[Oberrheinalemannisch|Owerrhinàlemànnisch]].
+
+{|
+|[[Datei:Sausheim, Eglise Saint-Laurent.jpg|thumb|left|<center>St. Laurentius</center>]]
+|}
+
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+* {{Commonscat|Sausheim}}
+* http://www.ville-sausheim.fr
+
+== Referanza ==
+<references/>
+
+{{Navigationsleiste Gemeinden im Kanton Rixheim}}
+
+{{Normdaten}}
+
+[[Kategorie:Ort (Owerelsàss)]]

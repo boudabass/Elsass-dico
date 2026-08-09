@@ -1,0 +1,40 @@
+{{DISPLAYTITLE:Eschbe-im-Dal}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Eschbach-au-Val
+| nomalsacien = Eschbe-im-Dal
+| alt moy = 481
+| alt mini = 389
+| alt maxi = 905
+| km² = 4,84
+|}}
+
+'''Eschbe''' ([[IPA]]: [{{IPA|ɛʃb̥ə}}], amtl. ''Eschbach au Val'', [[Deutsche Sprache|dt.]] ''Eschbach im Tal'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Haut-Rhin|Owerelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}.
+
+== Gschicht ==
+Eschbe im Dàl isch zum erschte Mol gnennt worde im 13. Jh. àls ''Oschinsbach''.
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} isch {{Maires|FR|{{#Property:P374}}}}. Eschbe ghört zum Kommunalverband {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Bevölkerungsentwicklung ==
+D'Bevölkerung vum Dörfle het sich vu 250 anno 1800 uf iwer 500 anno 1830 meh wie verdoppelet. No isch si bis um 1920 meischtens liicht unter 500 pendelet un vo 1920 bis 1946 no uf 330 rächt starch rucklaifig gsin. Noch eme Astiig uf guet 430 Inwohner bis 1975 het si isch sither 1980 bi guet 370 Lit ipendelet.
+
+== Dialekt ==
+Dr [[Elsässisch|elsassisch]] Dialekt vun Eschbe im Dàl ghört zum [[Oberrheinalemannisch|Oberrhiialemannisch]].
+
+== Literatur ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+* {{Commonscat|Eschbach-au-Val}}
+
+== Referanza ==
+<references/>
+
+{{Navigationsleiste Gemeinden im Kanton Wintzenheim}}
+
+{{Normdaten}}
+
+[[Kategorie:Ort (Owerelsàss)]]

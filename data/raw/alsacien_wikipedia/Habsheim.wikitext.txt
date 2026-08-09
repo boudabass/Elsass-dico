@@ -1,0 +1,53 @@
+{{DISPLAYTITLE:Hàbse}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Habsheim
+| nomalsacien = Hàbse
+| alt moy = 240
+| alt mini = 236
+| alt maxi = 318
+| km² = 15.63
+| image = Habsheim, Mairie.jpg
+| description = Mairie
+|}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Hàbse''' ([[Französische Sprache|frz.]] ''Habsheim'', [[Deutsche Sprache|dt.]] ''Habsheim'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Haut-Rhin|Owerelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}.
+
+== Gschìcht ==
+Hàbse ìsch zem erschte Mol gnannt worre ànne 758 àls ''Habuhinesheim''.
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Hàbse ìsch {{Maires|FR|{{#Property:P374}}}}. Hàbse ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Bevelkerungsentwìcklung ==
+{| class="wikitable" width=400
+|- align=center class="hintergrundfarbe5"
+|align=left | '''Johr''' || '''1962''' || '''1968''' || '''1975''' || '''1982''' || '''1990''' || '''1999''' || '''2006'''
+|- align=center
+|align=left|'''Inwohner'''<ref>[[Institut National de la Statistique et des Études Économiques|INSEE]]: ''Population et logements par commune depuis le recensement de 1962 (1961 pour les Dom) à 1999''</ref> || 2 124 || 2 207 || 2 560 || 3 644 || 3 799 || 4 313 || 4 684
+|}
+
+== Dialekt ==
+Dr [[Elsässisch|elsassisch]] Dialekt vun Hàbse ghert zem [[Oberrheinalemannisch|Owerrhinàlemànnisch]].
+
+{|
+|[[Datei:Habsheim, Église Saint-Martin 1.jpg|thumb|upright 0.6|Kirich Saint-Martin]]
+|[[Datei:Habsheim, Chapelle Notre-Dame des Champs.jpg|thumb|upright 1.1|Kapelle Notre-Dame des Champs]]
+|}
+
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+* {{Commonscat|Habsheim}}
+* http://www.mairie-habsheim.fr
+
+== Referanza ==
+<references/>
+
+{{Navigationsleiste Gemeinden im Kanton Rixheim}}
+
+{{Normdaten}}
+
+[[Kategorie:Ort (Owerelsàss)]]

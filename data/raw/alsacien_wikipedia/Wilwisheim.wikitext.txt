@@ -1,0 +1,42 @@
+{{DISPLAYTITLE:Wìlse}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Wilwisheim
+| nomalsacien = Wìlse
+| alt moy = 158–215
+| km² = 5.30
+|}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Wìlse''' ([[Französische Sprache|frz.]] ''Wilwisheim'', [[Deutsche Sprache|dt.]] ''Wilwisheim'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Bas-Rhin|Unterelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}.
+
+== Gschìcht ==
+Wìlse ìsch zem erschte Mol gnannt worre ànne 1074.
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Wìlse ìsch {{Maires|FR|{{#Property:P374}}}}. Wìlse ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Bevelkerungsentwìcklung ==
+{| class="wikitable" width=400
+|- align=center class="hintergrundfarbe5"
+|align=left | '''Johr''' || '''1962''' || '''1968''' || '''1975''' || '''1982''' || '''1990''' || '''1999''' || '''2006'''
+|- align=center
+|align=left|'''Inwohner'''<ref>[[Institut National de la Statistique et des Études Économiques|INSEE]]: ''Population et logements par commune depuis le recensement de 1962 (1961 pour les Dom) à 1999''</ref> || 457 || 479 || 483 || 512 || 600 || 680 || 662
+|}
+
+== Dialekt ==
+Dr [[Elsässisch|elsassisch]] Dialekt vun Wìlse ghert zem [[Oberrheinalemannisch|Owerrhinàlemànnisch]].
+
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+{{commonscat}}
+
+== Referanza ==
+<references />
+
+{{Navigationsleiste Gemeinden im Kanton Buchsweiler}}
+{{Normdaten}}
+
+[[Kategorie:Ort (Unterelsass)]]

@@ -1,0 +1,63 @@
+{{DISPLAYTITLE:Kiene}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Kunheim
+| nomalsacien = Kiene
+| alt moy = 185
+| alt mini = 181
+| alt maxi = 189
+| km² = 11.75
+|}}
+'''Kiene''' ([[IPA]]: {{IPA|[ˈkɪə̯nə]}}; [[Französische Sprache|frz.]] ''Kunheim'', [[Deutsche Sprache|ditsch]] ''Künheim'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Haut-Rhin|Owerelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}. D Ortschaft isch e Mitglid vum interkommunale Zweckverband {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Geographi ==
+Kiene lijt guet 1,5&nbsp;km weschtlich vum [[Rhein|Rhin]] gegeniwer vun [[Oberrotweil|Rootwiil]] im [[Kaiserstuhl (Oberbaden)|Kaiserstüehl]] in dr [[Oberrheinische Tiefeben|Owerrhineweni]]. Weschtlich vum Ortsrand verläuft dr [[Rhein-Rhône-Kanal|Rhone-Rhin-Kanal]]. Südlich vum Ort mündet in säller Kanal dr Nej-Brisacher Kanal ine, wo vum Rhin herkummt. Am Rhin sälwer lijt e grossi Industrizone.
+
+==Gschicht==
+Die erscht urkundlich Erwähnung vu Kiene stammt us ere Urkund vu anno 785 ''(Cuonenhaim)''. Anno 1766 isch dr Ort zum Schutz vor dr widerholte Iwerschwemmunge vum Rhin um 1&nbsp;km verlegt worre. Betroffe sin 32 Familie un demit insgsamt schätzungswiis 200 Lit gsin. Zuer Hilf bi dr Umsiedlung hän die umligende Dörfer Manne und Fuhrwerker gstellt.
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+Am Afang vum 2. Weltkrieg 1939 isch d'Dorfbevölkerung greschteteils uf [[Casteljaloux]] im Département [[Lot-et-Garonne]] evakuiert worre. Säll Ereignis isch 60 Johr später im Jüni 1999 Alass fier d'Begründung vu ere offizielle Gmeindpartnerschaft (''Jumelage'') zwische dr beide Kommune gsin..
+
+Bim ditsche Frankrichfeldzug isch dr Ort am 16. Jüni 1940 unter schwerem ditsche Artilleriebeschuss gläge, un äu wiider nooch dr durch amerikanischi Truppe erfolgte Befreiung vun dr Naziherrschaft am 02. Februar 1945.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Kiene ìsch {{Maires|FR|{{#Property:P374}}}}. Kiene ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Wirtschaft ==
+Dr Usbau vum [[Rhein|Rhin]] in dr 1950er Johre ([[Rheinseitenkanal|Rhinsidekanal]], Schlingelösung, zwische [[Breisach|Brisach]] un [[Straßburg|Strossburg]]) het mer z'Kiene un z'[[Biesheim|Biese]] dezue gnutzt, e gmeinsami Industrizone entlang vum Rhin z'errichte, wo no namhafti Konzerne Produktionsstätte errichtet hän.
+
+Dr Rhin, wo in dr 1920er un 1930er Johre noch e Grenzfluss gsin isch, isch mit dr europäische Einigung zue dr wichtigschte Schifffahrtsstross in dr wichtigschte industrielle Kernregion vun [[Europäische Union|Europa]] worre, Kiene meh noch wie s'Elsass, vu ere gfährdete Grenzlag in e ginschtigi Zentrallag gruckt un demit fier Investore attraktiv worre.
+
+==Bevölkerung==
+S'Dorf het mittlerwili iwer 1600 Inwohner un sich demit sit 1960 meh wie verdoppelet. Örtlichi Regionalsproch isch [[Elsässisch|Elsàsserditsch]].
+
+{|class="wikitable"
+|-class="hintergrundfarbe5"
+!align=left|Johr
+!1962
+!1968 
+!1975
+!1982
+!1990
+!1999
+!2006
+! 2012
+|- align=center
+!align=left|Inwohner
+|600 || 752 || 1035 || 1179 || 1313 || 1569 || 1742 || 1800 |1800
+|}
+
+== Weblink ==
+* {{Commonscat|Kunheim|Kiene}}
+* [https://web.archive.org/web/20071214223230/http://www.paysdebrisach.fr/sivom Internetuftritt vum Brisàcher Land]
+
+== Referanza ==
+<references/>
+
+{{Navigationsleiste Gemeinden im Kanton Ensisheim}}
+
+{{DEFAULTSORT:Kunheim}}
+{{Normdaten}}
+
+[[Kategorie:Ort (Owerelsàss)]]

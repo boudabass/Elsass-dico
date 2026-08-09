@@ -1,0 +1,59 @@
+{{DISPLAYTITLE:Balze}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Baltzenheim
+| nomalsacien = Balze
+| alt moy = 183
+| alt mini = 180
+| alt maxi = 186
+| km² = 6.52
+}}
+'''Balze''' ([[IPA]]: {{IPA|[b̥ɑltsə]}}; [[Französische Sprache|frz.]] ''Baltzenheim'') isch e [[Frankreich|frànzeesche]] Gmein ìm [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}} ({{Kanton|FR|{{#Property:P374}}}}) ìm [[Département Haut-Rhin|Owerelsàss]] (Haut-Rhin).
+
+== Geographi ==
+Balze leijt 1,5 km weschtlich vum [[Rhein|Rhin]], wo dert d'Staatsgrenze zwische [[Frankreich|Frankrich]] un [[Bundesrepublik Deutschland|Ditschland]] bildet. Uf dr ditsche Site vum Fluss lijt dr Burkemer Baggersee uf dr Garkung vu [[Vogtsburg im Kaiserstuhl|Vogtsburg]] un öschtlich devu dr [[Kaiserstuhl (Baden)|Kaiserstüehl]]. Nordeschtlich vu Balze isch e Stäuwehr im Rhin, wo e Schlinge vum [[Rheinseitenkanal|Rhinsidekanal (Grand Canal d'Alsace)]] zue dr Stäustufe bi [[Marckolsheim|Markelse]] abzwigt.
+
+== Gschicht ==
+Di àltist Sédlungsspur vum Ort stèllt e [[Merowinger|mérowéngischer]] Frédhof dar. Die erscht urkundlich Erwähnung vu ere Sidlung uf dr Gmarkung stammt vu anno 786. Anno 847 wird no e ''Baldofesheim'' gnennt. Sàll hàißt „s Dorf vum Baldolo“. Ém Méttelalter hat der Ort em Bischof vu [[Straßburg|Stroßburg]] ghért.
+
+Im [[Dreißigjähriger Krieg|Drissigjährige Krieg]] sin fascht alli Inwohner ums Läwe kumme. 1636 het dr Ort grad no sechs Inwohner gha.
+
+Dr Ort isch äu immer wiider Opfer vum Rhinhochwasser worre. Säll het erscht mir dr Rhinbegradigung im 19. Johrhundert ufghört.
+
+1789 isch dr Ort unter franzeesche Zentralverwaltung kumme.
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Balze ìsch {{Maires|FR|{{#Property:P374}}}}. Balze ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+==Bevölkerung==
+S'Dorf het knapp 600 Inwohner, wobi d'Bevölkerung sit 1999 e relativ starche Astig erfahre het. Örtlichi Regionalsproch isch [[Elsässisch|Elsàsserditsch]]. Vili Iwohner sén én der Landwértschaft dàtig; es wérd vor allem Gedràide broduziert.
+
+{|class="wikitable"
+|1962
+|1968
+|1975
+|1982
+|1990
+|1999
+|2006
+|-
+|201 || 204 || 245 || 318 || 458 || 495 || 574
+|}
+
+== Séhenswérdigkàite ==
+Én Balze stéht e romanische Kérech mét Glockedurm mét Statue ém Énnere. D Frèske sén verscholle. Usserdàm féndet mer d Ràst vu me Bunker un ere Kasematte.
+
+== Weblink ==
+* {{Commonscat|Baltzenheim}}
+* [https://web.archive.org/web/20071214223230/http://www.paysdebrisach.fr/sivom Internetuftritt vum Brisàcher Land]
+* [https://web.archive.org/web/20090920200020/http://www.quid.fr/communes.html?mode=detail Balze bi quid.fr]
+
+== Referanza ==
+<references/>
+
+{{Navigationsleiste Gemeinden im Kanton Ensisheim}}
+
+{{Normdaten}}
+
+[[Kategorie:Ort (Owerelsàss)]]

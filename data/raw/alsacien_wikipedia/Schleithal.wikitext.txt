@@ -1,0 +1,47 @@
+{{DISPLAYTITLE:Schlatel}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Schleithal
+| nomalsacien = Schlatel
+| alt moy = 135–187
+| km² = 9.12
+| image = Schleithal 338.jpg
+| description = Ortsiigang vo Schlatel
+|}}
+
+'''Schlatel''' ([[Französische Sprache|frz.]] ''Schleithal'', [[Deutsche Sprache|dt.]] ''Schleithal'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Bas-Rhin|Unterelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}. Wi vili Dörfli im Elsass isch Schlatel prägt vo de vile Fachwerkhüser, wo noch erhalte sin. 
+
+== D Lag ==
+Schlatel isch es öpper 3 Kilometer langs Schtrassedorf, wo sich entlang de D 244, wo vo [[Lauterburg|Lüterburi]] uf [[Weissenburg (Elsass)|Waisseburch]] führt, zieht. De öschtlich Nachbarort isch [[Salmbach|Sàlembàch]], de weschtlich Waisseburch. Im Südweschte führt d D 249 über de Frohnackerhof uf [[Seebach (Unterelsass)|Seebàch]] un im Norde vo de Gmeind isch d [[Pfalz (Region)|Pfalz]], wo durch d [[Lauter (Rhein)|Lauter]] vom Elsass trennt isch.
+
+==Gschicht==
+Schlatel isch zum erschte Mol gnännt worde im 8. Jh.
+
+== Politik ==
+{{MairesTitel|FR|{{#Property:P374}}}} vo Schlatel isch {{Maires|FR|{{#Property:P374}}}}. D Gmeind ghört zum Gmeindsverband {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Bevölkeringsentwicklig ==
+{| class="wikitable" width=400
+|- align=center class="hintergrundfarbe5"
+|align=left | '''Johr''' || '''1962''' || '''1968''' || '''1975''' || '''1982''' || '''1990''' || '''1999''' || '''2006'''
+|- align=center
+|align=left|'''Iiwohner''' || 1445 || 1459 || 1468 || 1389 || 1374 || 1395 || 1438
+|}
+
+== Dialekt ==
+Dr [[Südfränkische Dialekte|südfränkisch]] Dialekt vo Schlatel ghört zum [[Ostfränkisch|Oschtfränkisch]] (Nordoberdütsch).
+
+<gallery widths="200" heights="180" perrow="2">
+Datei:Schleithal 346.jpg|Mairie
+Datei:Schleithal 355.jpg|Kirich
+</gallery>
+
+== Weblinks ==
+{{commonscat|Schleithal|Schlatel}}
+
+== Referanza ==
+<references/>
+
+{{Navigationsleiste Gemeinden im Kanton Weissenburg}}
+{{Normdaten}}
+
+[[Kategorie:Ort (Unterelsass)]]

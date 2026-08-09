@@ -1,0 +1,69 @@
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Montreux-Vieux
+| nomalsacien = Àltmìnschtràl
+| alt moy = 355
+| alt mini = 338
+| alt maxi = 361
+| km² = 4.14
+| image = Montreux-Vieux, Mairie.jpg
+| description = Mairie
+|}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Montreux-Vieux''' ([[Elsässisch|els.]] ''Àltmìnschtràl'', [[Deutsche Sprache|dt.]] ''Alt-Münsterol'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Haut-Rhin|Owerelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}.
+
+== Geogràfi ==
+Montreux-Vieux lijt ìm Sìdweschte vum Elsàss àn dr Granz züe dr Region [[Franche-Comté]]. Nochbergmeine sìn [[Chavannes-sur-l'Étang]] ìm Norde, [[Valdieu-Lutran]] ìm Oschte, [[Magny (Haut-Rhin)|Magny]] ìm Sìdoschte, [[Montreux-Jeune]] ìm Sìde, [[Montreux-Château]] ìm Sìdweschte un [[Cunelières]] un [[Foussemagne]] ìm Nordweschte.
+
+== Gschìcht ==
+Montreux-Vieux ìsch zem erschte Mol gnannt worre ànne 1265 ''Montsureulx''.
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Montreux-Vieux ìsch {{Maires|FR|{{#Property:P374}}}}. Montreux-Vieux ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Bevelkerungsentwìcklung ==
+{|class="wikitable"
+!class="hintergrundfarbe5"|Johr
+!class="hintergrundfarbe5"|1962 
+!class="hintergrundfarbe5"|1968 
+!class="hintergrundfarbe5"|1975 
+!class="hintergrundfarbe5"|1982 
+!class="hintergrundfarbe5"|1990 
+!class="hintergrundfarbe5"|1999
+|-
+|Inwohner || 917 || 967 || 1010 || 969 || 905 || 769
+|}
+
+== Dialekt ==
+Dr [[Langues d'oïl|romànisch]] Dialekt vun Montreux-Vieux ghert zem [[Franc-comtois]].
+
+== Böiwark ==
+* Kìrich Saint-Alban (19. Jh.)
+* Bàhnnhof (um 1900)
+
+<gallery>
+Datei:Montreux-Vieux, Eglise Saint-Alban 1.jpg|<center>Kìrich Saint-Alban, Oschtsitte</center>
+Datei:Montreux-Vieux, Eglise Saint-Alban 2.jpg|<center>Kìrich Saint-Alban, Sìdsitte</center>
+Datei:Montreux-Vieux, Château d'eau.jpg|<center>Wàsserdurm</center>
+</gallery>
+
+== Litt ==
+* [[Hans Paetsch]], (1909-2002), ditscher Schöispìler, Regisseur un Synchronspracher
+* [[Joseph Rossé]], (1892-1951), elsassischer Autonomist, Bolitiker un Journalischt
+ 
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+{{Commonscat}}
+* https://web.archive.org/web/20101230155003/http://www.montreux-vieux.com/
+
+== Referanza ==
+<references/>
+
+{{Navigationsleiste Gemeinden im Kanton Dannemarie}}
+
+{{Normdaten}}
+
+[[Kategorie:Ort (Owerelsàss)]]

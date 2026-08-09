@@ -1,0 +1,58 @@
+{{DISPLAYTITLE:Widsole}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Widensolen
+| nomalsacien = Widsole
+| alt moy = 188
+| alt mini = 184
+| alt maxi = 194
+| km² = 10.67
+|}}
+
+'''Widsole''' ([[IPA]]: {{IPA|[ˈʋiːtsoːlə]}}; [[Französische Sprache|frz.]] sit 1999 ''Widensolen'', devor ''Widensohlen'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Haut-Rhin|Owerelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}.
+
+== Geografi ==
+Dr Ort lijt 6&nbsp;km nordweschtlich vu [[Neuf-Brisach|Nej-Brisach]] un 8&nbsp;km öschtlich vu [[Colmar]] in dr [[Oberrheinische Tiefebene|Rhieweni]] am End vum Widsoler Kanal, wo vu Nej-Brisach herkummt. Dr Stross uf s'2&nbsp;km nördlich gleje [[Urschenheim|Ürsche]] verläuft uf dr alte [[Römerstraße|Reemerstross]].
+	
+== Gschicht ==
+[[Datei:Widensolen, Église Saint-Nicolas.jpg|thumb|left|Kérch St. Nikolaus üs em Johr 1867]]
+Die beditendscht Entdeckung us vorgschichtlicher Zitt uffem Widesoler Bann sin anno 1909 kupferni Rippebarre us dr Bronzezit (1800-1500 v.&nbsp;Chr.) im e Garte vum Dorf gsi, wo die einzige sonige bekannte im gsamte Elsass sin.
+
+Us dr [[Eisenzeit|Isezit]] (750-620 v.&nbsp;Chr.) sin Grabhüegel (''Tumuli'') bekannt, wo Töpfereiware un e Urne gfunde worre sin. Zahlrichi Funde künde vu dr Besidelung in dr Reemische Zit vu 50 v.&nbsp;Chr. bus guet 400 n.&nbsp;Chr.
+
+S'Dorf wird in ere Urkunde vu 768 im Zug vu ere Schenkung vu eme Wido gnennt un 940 als ''Widosolica'' erwähnt. Dr Namme beziegt sich wohl uf säller Wido.
+
+Im Hochmittelalter isch s'Dorf e Teil vu dr Herrschaft vu [[Horbourg|Horburg]] gsi, bevor es vu 1324 bis 1789 zue [[Württemberg|Wirdebàrig]] ghört het un dorum 1535 evangelisch worre isch, wo mer z'Wirdebàrig d'[[Reformation]] ingfüehrt het. 1687 isch d'Oberhoheit, wo vorher bim [[Heiliges Römisches Reich|Ditsche Riich]] gläge isch, an Frankriich gfalle un dorum dr Katholizismus wiider erläubt worre, trotz witterhi (bis zue dr Grosse Revolution) wirdebàrigscher un demit evangelischer Hoheit. Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert. 1875 isch dr Namme no uf ''Wiedensohlen'' gänderet worre, mit dr Rückgab an Frankrich 1919 uf ''Widensohlen'' un 1999 schliesslich uf ''Widensolen''.
+
+Mitem Afang vum 20. Johrhundert het sich Kleiindustri agsidelet. Im Juni 1940 isch d'Bevölkerung nooch em ditsche Agruiff uf Frankrich uf Puymiclan im Département ''Lot et Garonne'' evakuierte worre. Nooch dr franzeesche Niderlag un dr Besetzung durch Naziditschland isch d'Bevölkerung e Virtel Johr später wiider zruckkehrt. In dr Nacht vum 31. Jänner 1945 isch Widsole no durch amerikanischi Truppe befreit worre.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Widsole ìsch {{Maires|FR|{{#Property:P374}}}}. Widsole ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+===Wappe===
+1978 isch s'hittig Gmeiwappe verlihe worre.
+
+==Bevölkerungsentwicklung==
+D'Bevölkerung isch anno 2001 bi 1070 Seele gleje. Örtlichi Regionalsproch isch [[Elsässisch|Elsàsserditsch]].
+
+{| class="wikitable" width=400
+|- align=center class="hintergrundfarbe5"
+|align=left | '''Johr''' || '''1962''' || '''1968''' || '''1975''' || '''1982''' || '''1990''' || '''1999''' || '''2007'''
+|- align=center
+|align=left|'''Inwohner'''<ref>[[Institut National de la Statistique et des Études Économiques|INSEE]]: ''Population et logements par commune depuis le recensement de 1962 (1961 pour les Dom) à 1999''</ref> || 420 || 431 || 506 || 624 || 825 || 1051 || 1238
+|}
+
+== Politik ==
+{{MairesTitel|FR|{{#Property:P374}}}} isch {{Maires|FR|{{#Property:P374}}}}.
+
+== Weblink ==
+* {{Commonscat|Widensolen}}
+* [https://web.archive.org/web/20071214223230/http://www.paysdebrisach.fr/sivom Internetuftritt vum Brisàcher Land]
+
+== Referanza ==
+<references/>
+
+{{Navigationsleiste Gemeinden im Kanton Ensisheim}}
+
+{{Normdaten}}
+
+[[Kategorie:Ort (Owerelsàss)]]

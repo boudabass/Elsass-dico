@@ -1,0 +1,43 @@
+{{DISPLAYTITLE:Ridselz}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Riedseltz
+| nomalsacien = Ridselz
+| alt moy = 145–218
+| km² = 10.02
+|}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Ridselz''' ([[Französische Sprache|frz.]] ''Riedseltz'', [[Deutsche Sprache|dt.]] ''Riedselz'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Bas-Rhin|Unterelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}.
+
+== Gschìcht ==
+Ridselz ìsch zem erschte Mol gnannt worre ànne 941.
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Ridselz ìsch {{Maires|FR|{{#Property:P374}}}}. Ridselz ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Bevelkerungsentwìcklung ==
+{| class="wikitable" width=400
+|- align=center class="hintergrundfarbe5"
+|align=left | '''Johr''' || '''1962''' || '''1968''' || '''1975''' || '''1982''' || '''1990''' || '''1999''' || '''2007'''
+|- align=center
+|align=left|'''Inwohner'''<ref>[[Institut National de la Statistique et des Études Économiques|INSEE]]: ''Population et logements par commune depuis le recensement de 1962 (1961 pour les Dom) à 1999''</ref> || 930 || 975 || 1019 || 1029 || 1061 || 1126
+|}
+
+== Dialekt ==
+Dr [[Südfränkische Dialekte|sìdfrankisch]] Dialekt vun Ridselz ghert zem [[Ostfränkisch|Oschtfrankisch]] (Nordowerditsch).
+
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+{{commonscat|Riedseltz}}
+
+== Referanza ==
+<references/>
+
+{{Navigationsleiste Gemeinden im Kanton Weissenburg}}
+
+{{Normdaten}}
+
+[[Kategorie:Ort (Unterelsass)]]

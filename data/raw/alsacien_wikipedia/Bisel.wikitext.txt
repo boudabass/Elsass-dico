@@ -1,0 +1,91 @@
+{{DISPLAYTITLE:Bìsel}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Bisel
+| nomalsacien = Bìsel
+| alt moy = 406
+| alt mini = 386
+| alt maxi = 431
+| km² = 8.10
+|}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Bìsel''' ([[Franc-comtois|Patois]] ''Péjeu'', [[Französische Sprache|frz.]] ''Bisel'', [[Deutsche Sprache|dt.]] ''Bisel'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Haut-Rhin|Owerelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}.
+
+== Geogràfi ==
+Bìsel lijt ìm [[Sundgau|Sundgöi]], 14 Kilometer sìdlich von [[Altkirch|Àltkìrech]] un 30 Kilometer weschtlich vun [[Basel|Bàsel]]. Ìwer dr Bànn fließt dr ''Largitzenbach'' e Züefluss vun dr [[Largue (Ill)|Làrg]].
+
+Nochbergmeine vun Bìsel sìn [[Heimersdorf|Haimerschdorf]] ìm Norde, [[Rüderbach|Rüederbi]] ìm Nordoschte, [[Feldbach (Oberelsass)|Falbe]] ìm Oschte, [[Mörnach|Merne]] ìm Sìdoschte, [[Moos-Niederlarg|Moos-Neederlàrg]] ìm Sìde, [[Obersept]] ìm Weschte un [[Largizen|Làrgìtze]] ìm Nordweschte.
+
+== Gschìcht ==
+Bìsel ìsch zem erschte Mol gnannt worre ànne 1280 àls ''Bisol'' (1303 ''Bysol'', 1341 ''Bisel'', 1370 ''Pysul'', 1485 ''Bisel'', 1495 ''Bysol'', 1567 ''Bisell'', 1651 ''Byszell'').
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Bìsel ìsch {{Maires|FR|{{#Property:P374}}}}. Bìsel ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}. 
+
+;Lìscht vun dr Maires
+* Ursus Gritz (um 1670)
+* Georges Zimberlin (um 1776)
+* Fortuné Gink (1793)
+* François Manne (1794)
+* Maurice Higelin (1795 - 1797)
+* Fortuné Wira (1798)
+* François-Joseph Berger (1799)
+* Fortuné Wira (1800 - 1807)
+* Antoine Vogt (1808 - 1811)
+* Jean Berger (1811)
+* Henri Berger (1812 - 1821)
+* Sébastien Wira (1821 - 1826)
+* Maurice Higelin (1826 - 1831)
+* François-Joseph Berger (1831 - 1836)
+* Antoine Hirtzlin (1837 - 1840)
+* Adam Wira (1841 - 1846)
+* Antoine Rocklin (1847 - 1848)
+* François-Joseph Berger (1849 - 1851)
+* Antoine Rocklin (1852 - 1853)
+* Léger Wira (1854 - 1865)
+* Colomban Muth (1866 - 1870)
+* Fortuné Wira (1871 - 1880)
+* Léger Wira (1881 - 1891)
+* Colomban Wira (1891 - 1919)
+* Joseph Manne (1920 - 1929)
+* Joseph Wira (1930 - 1936)
+* Lucien Federspiel (1936 - 1944)
+* Marcel Hirtzlin (1945 - 1947)
+* Oscar Berger (1947 - 1959)
+* Antoine Wira (1959 - 1971)
+* Robert Manne (1971 - 1989)
+* Robert Zipper (1989 - 1995)
+* Edouard Goepfert (1995 - 2002)
+* Robert Zipper (2002 - 2014)
+* Joseph Berbett (sitter 2014)
+
+== Bevelkerungsentwìcklung ==
+{| class="wikitable" width=400
+|- align=center class="hintergrundfarbe5"
+|align=left | '''Johr''' || '''1962''' || '''1968''' || '''1975''' || '''1982''' || '''1990''' || '''1999''' || '''2006''' || '''2007'''
+|- align=center
+|align=left|'''Inwohner'''<ref>[[Institut National de la Statistique et des Études Économiques|INSEE]]: ''Population et logements par commune depuis le recensement de 1962 (1961 pour les Dom) à 1999''</ref> || 467 || 487 || 518 || 545 || 534 || 601 || 568 || 569
+|}
+
+== Dialekt ==
+Dr [[Elsässisch|elsassisch]] Dialekt vun Bìsel ghert zem [[Oberrheinalemannisch|Owerrhinàlemànnisch]].
+
+{|
+|[[Datei:Bisel, Eglise Saint-Colomban.jpg|thumb|left|upright 1.0|<center>Kirich]]
+|}
+
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblinks ==
+{{Commonscat|Bisel|Bìsel}}
+
+== Referanza ==
+<references/>
+
+{{Navigationsleiste Gemeinden im Kanton Altkirch}}
+
+{{Normdaten}}
+
+[[Kategorie:Ort (Owerelsàss)]]

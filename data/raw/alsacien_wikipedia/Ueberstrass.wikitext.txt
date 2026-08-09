@@ -1,0 +1,62 @@
+{{DISPLAYTITLE:Ìwerstrooss}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Ueberstrass
+| nomalsacien = Ìwerstrooss
+| alt moy = 365
+| alt mini = 354
+| alt maxi = 427
+| km² = 5.12
+| image = Ueberstrass, Mairie.jpg
+| description = <center>Mairie
+|}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Ìwerstrooss''' ([[Franc-comtois|Patois]] ''Chû-Estrée'', [[Französische Sprache|frz.]] ''Ueberstrass'', [[Deutsche Sprache|dt.]] ''Überstrass'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Haut-Rhin|Owerelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}.
+
+== Geogràfi ==
+Ìwerstrooss lijt ìm Dàl vun dr [[Largue (Ill)|Làrg]] ìm [[Sundgau|Sundgöi]], weschtlich vun [[Basel|Bàsel]]. Nochbergmeine vun Ìwerstrooss sìn [[Friesen (Oberelsass)|Friese]] ìm Norde, [[Largizen|Làrgìtze]] ìm Oschte, [[Niedersept|Sept]] ìm Sìde un [[Lepuix-Neuf]] un [[Réchésy]] ìm Weschte.
+
+== Gschìcht ==
+Ìwerstrooss ìsch zem erschte Mol gnannt worre ànne 1284 àls ''Uberstrasse''.
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Ìwerstrooss ìsch {{Maires|FR|{{#Property:P374}}}}. Ìwerstrooss ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Bevelkerungsentwìcklung ==
+{| class="wikitable"
+|-
+|'''Johr''' || '''1962''' || '''1968''' || '''1975''' || '''1982''' || '''1990''' || '''1999''' || '''2007'''
+|- align=center
+| '''Inwohner'''<ref>[[Institut National de la Statistique et des Études Économiques|INSEE]]: ''Population et logements par commune depuis le recensement de 1962 (1961 pour les Dom) à 1999''</ref> || 265 || 271 || 274 || 285 || 313 || 312 || 348
+|}
+
+== Dialekt ==
+Dr [[Elsässisch|elsassisch]] Dialekt vun Ìwerstrooss ghert zem [[Oberrheinalemannisch|Owerrhinàlemànnisch]].
+
+== Böiwark ==
+* Kìrich Sainte-Thérèse-de-l'enfant-Jésus
+* Kàpall Notre-Dame du Grunenwald (16. Jh, rekonschtrüiert 1705)
+* Kàpall Saint-Jean (15. Jh.)
+
+<gallery>
+Datei:Ueberstrass, Eglise Sainte-Thérèse-de-l'enfant-Jésus.jpg|<center>Kirich Sainte-Thérèse-de-l'enfant-Jésus
+Datei:Chapelle ND Grunenwald.jpg|<center>Kàpall Notre-Dame du Grunenwald
+</gallery>
+
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+{{Commonscat|Ueberstrass}}
+* [http://www.cc-canton-hirsingue.com/les-communes/ueberstrass/ Ìwerstrooss]{{Toter Link|date=2017-09 |bot=InternetArchiveBot |url=http://www.cc-canton-hirsingue.com/les-communes/ueberstrass/}} bi dr CC Canton de Hirsingue
+
+== Referanza ==
+<references/>
+
+{{Navigationsleiste Gemeinden im Kanton Masmünster}}
+
+{{DEFAULTSORT:Uberstrass}}
+{{Normdaten}}
+
+[[Kategorie:Ort (Owerelsàss)]]

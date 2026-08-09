@@ -1,0 +1,63 @@
+{{DISPLAYTITLE:Pfatterhüse}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Pfetterhouse
+| nomalsacien = Pfatterhüse
+| alt moy = 435
+| alt mini = 391
+| alt maxi = 501
+| km² = 14.28
+| image = Pfetterhouse 090.jpg
+| description = Kìrich
+|}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Pfatterhüse''' ([[Französische Sprache|frz.]] ''Pfetterhouse'', àlt aui ''Pérouse'', [[Deutsche Sprache|dt.]] ''Pfetterhausen'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Haut-Rhin|Owerelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}.
+
+== Geogràfi ==
+Pfatterhüse lijt ìm [[Sundgau|Sundgöi]], direkt àn dr Granz zum Département [[Territoire de Belfort]] un dr [[Schweiz|Schwizer]] [[Kanton Jura|Kànton Jura]]. Nochbergmeine vun Pfatterhüse sìn [[Basse-Vendline]] ìn dr Schwiz un [[Niedersept|Sept]], [[Obersept]], [[Durlinsdorf|Deerlersterf]], [[Moos-Niederlarg|Moos-Neederlàrg]] und [[Courtavon]] ìm Elsàss.
+
+== Gschìcht ==
+Pfatterhüse ìsch zem erschte Mol gnannt worre ànne 731 àls ''Petrosa'' (1139 ''Perosa'', 1296 ''Pheterhusen'').
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Pfatterhüse ìsch {{Maires|FR|{{#Property:P374}}}}. Pfatterhüse ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Bevelkerungsentwìcklung ==
+{|class="wikitable"
+|align=left |'''Johr''' 
+! 1962 || 1968 || 1975 || 1982 || 1990 || 1999 || 2006
+|- align=center
+|'''Inwohner'''<ref>[[Institut National de la Statistique et des Études Économiques|INSEE]]: ''Population et logements par commune depuis le recensement de 1962 (1961 pour les Dom) à 1999''</ref> || 789 || 809 || 906 || 924 || 971 || 972 || 1027
+|}
+
+== Verkehr ==
+Vun 1910 bis 1971 hàt s z Pfatterhüse e Bàhnhof gan àn dr Bàhnlinie [[Dammerkirch|Dàmmerkìlch]]–Pfatterhüse.
+
+== Dialekt ==
+Dr [[Elsässisch|elsassisch]] Dialekt vun Pfatterhüse ghert zem [[Hochalemannisch|Hochàlemànnisch]].
+
+<gallery>
+Datei:Pfetterhouse 088.jpg|Mairie
+Datei:Pfetterhouse 089.jpg|Dotedankmol
+Datei:2014-04-25 14-39-33 villa-agathe.jpg|''Villa Agathe'', e Bunker üs em 1. Waltkriej
+Datei:Das Dorf Pfetterhausen - CH-BAR - 3238559.tif|Pfatterhüse ìn dr Zitt vum 1. Waltkriej
+</gallery>
+
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+{{commonscat|Pfetterhouse}}
+* http://www.pfetterhouse.net/
+
+== Referanza ==
+<references/>
+
+{{Navigationsleiste Gemeinden im Kanton Hirsingue}}
+
+{{Normdaten}}
+
+{{Normdaten}}
+
+[[Kategorie:Ort (Owerelsàss)]]

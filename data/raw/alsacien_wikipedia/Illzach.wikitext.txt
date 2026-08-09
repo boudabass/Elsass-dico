@@ -1,0 +1,55 @@
+{{DISPLAYTITLE:Ìllzi}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Illzach
+| nomalsacien = Ìllzi
+| alt moy = 232
+| alt mini = 228
+| alt maxi = 237
+| km² = 7.50
+| image = Illzach, Hôtel de ville.jpg
+| description = Hôtel de ville
+|}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Ìllzi''' ([[Französische Sprache|frz.]] ''Illzach'', [[Deutsche Sprache|dt.]] ''Illzach'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Haut-Rhin|Owerelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}.
+
+== Gschìcht ==
+Ìllzi ìsch zem erschte Mol gnannt worre ànne 835 àls ''Hilciaco'' (1040 ''Ilzicha'').
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Ìllzi ìsch {{Maires|FR|{{#Property:P374}}}}. Ìllzi gheert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Bevelkerungsentwìcklung ==
+{| class="wikitable" width=400
+|- align=center class="hintergrundfarbe5"
+|align=left | '''Johr''' || '''1962''' || '''1968''' || '''1975''' || '''1982''' || '''1990''' || '''1999''' || '''2007'''
+|- align=center
+|align=left|'''Inwohner'''<ref>[[Institut national de la statistique et des études économiques|INSEE]]: ''Population et logements par commune depuis le recensement de 1962 (1961 pour les Dom) à 1999''</ref> || 6688 || 10575 || 14988 || 15396 || 15485 || 14947 || 14889
+|}
+
+== Dialekt ==
+Dr [[Elsässisch|elsassisch]] Dialekt vun Ìllzi ghert zem [[Oberrheinalemannisch|Owerrhinàlemànnisch]].
+
+{|
+|[[Datei:Illzach, Eglise Saint-Jean-Baptiste.jpg|mini|left|upright 1.1|<center>Kirich Saint-Jean-Baptiste</center>]]
+|[[Datei:Illzach, temple protestant.jpg|mini|left|upright 0.7|<center>Proteschtàntische Kirich</center>]]
+|}
+
+== Sport ==
+Dr Fùssbàllclub vun Ìllzi isch dr [[Association sportive Illzach Modenheim|Sportverein Illzach-Modenheim]], wu 1932 gründt wor isch.
+
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+{{Commonscat|Illzach}}
+* [https://ville-illzach.fr/ Ville d' Illzach]
+
+== Referanza ==
+<references />
+
+{{Navigationsleiste Gemeinden im Kanton Illzach}}
+{{Normdaten}}
+
+[[Kategorie:Ort (Owerelsàss)]]

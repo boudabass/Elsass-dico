@@ -1,0 +1,51 @@
+{{DISPLAYTITLE:Cotchavon}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Courtavon
+| nomalsacien = Ottederf
+| alt moy = 450
+| alt mini = 417
+| alt maxi = 663
+| km² = 9.60
+| image = Courtavon, Ecole-mairie.jpg
+| description = Mairie un Schüel
+|}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Cotchavon''' ([[Franc-comtois|Patois]], [[Elsässisch|els.]] ''Ottederf'', [[Französische Sprache|frz.]] ''Courtavon'', [[Deutsche Sprache|dt.]] ''Ottendorf'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Haut-Rhin|Owerelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}.
+
+== Gschìcht ==
+Cotchavon ìsch zem erschte Mol gnannt worre ànne 1286 àls ''Corchaton'' (1345 ''Ottendorf'').
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Cotchavon ìsch {{Maires|FR|{{#Property:P374}}}}. Cotchavon ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Bevelkerungsentwìcklung ==
+{| class="wikitable" width=400
+|- align=center class="hintergrundfarbe5"
+|align=left | '''Johr''' || '''1962''' || '''1968''' || '''1975''' || '''1982''' || '''1990''' || '''1999''' || '''2006'''
+|- align=center
+|align=left|'''Inwohner'''<ref>[[Institut National de la Statistique et des Études Économiques|INSEE]]: ''Population et logements par commune depuis le recensement de 1962 (1961 pour les Dom) à 1999''</ref> || 298 || 301 || 292 || 274 || 290 || 326 || 359
+|}
+
+== Dialekt ==
+Dr [[Langues d'oïl|romànisch]] Dialekt vun Cotchavon ghert zem [[Franc-comtois]].
+
+{|
+|[[Datei:Courtavon, Eglise Saint-Jacques et Saint-Christophe.jpg|thumb|upright 0.8|Kirich Saint-Jacques et Saint-Christophe]]
+|}
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+* {{Commonscat|Courtavon}}
+* [https://web.archive.org/web/20071213194230/http://www.ccja-jura-alsacien.net/carte_ccja.php?nomCommune=Courtavon Cotchavon] bi dr CC du Jura Alsacien (fr)
+
+== Referanza ==
+<references/>
+
+{{Navigationsleiste Gemeinden im Kanton Altkirch}}
+
+{{Normdaten}}
+
+[[Kategorie:Ort (Owerelsàss)]]

@@ -1,0 +1,52 @@
+{{DISPLAYTITLE:Hìndse}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Hindisheim
+| nomalsacien = Hìndse
+| alt moy = 148–154
+| km² = 11.84
+|}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Hìndse''' ([[Französische Sprache|frz.]] ''Hindisheim'', [[Deutsche Sprache|dt.]] ''Hindisheim'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Bas-Rhin|Unterelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}.
+
+== Gschìcht ==
+Hìndse ìsch zem erschte Mol gnannt worre ànne 777.
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Hìndse ìsch {{Maires|FR|{{#Property:P374}}}}. Hìndse ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Bevelkerungsentwìcklung ==
+{| class="wikitable" width=400
+|- align=center class="hintergrundfarbe5"
+|align=left | '''Johr''' || '''1962''' || '''1968''' || '''1975''' || '''1982''' || '''1990''' || '''1999''' || '''2006'''
+|- align=center
+|align=left|'''Inwohner'''<ref>[[Institut National de la Statistique et des Études Économiques|INSEE]]: ''Population et logements par commune depuis le recensement de 1962 (1961 pour les Dom) à 1999''</ref> || 1063 || 1064 || 1068 || 1158 || 1204 || 1369 || 1363
+|}
+
+== Dialekt ==
+Dr [[Elsässisch|elsassisch]] Dialekt vun Hìndse ghert zem [[Oberrheinalemannisch|Owerrhinàlemànnisch]].
+
+== Böiwark ==
+* Kìrich St-Pierre et Paul (1888)
+* Chapelle de la Vierge Marie (15. Jh.)
+{|
+|[[Datei:Hindisheim, Église Saint-Pierre et Saint-Paul.jpg|miniatur|links|Kìrich St-Pierre et Paul]]
+|[[Datei:Hindisheim, Chapelle de la Vierge 2.jpg|miniatur|links|Chapelle de la Vierge]]
+|}
+
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+{{Commonscat}}
+* http://www.hindisheim.fr
+* [https://web.archive.org/web/20091002053940/http://www.cc-pays-erstein.fr/102 Hìndse] uf cc-pays-erstein.fr
+
+== Referanza ==
+<references />
+
+{{Navigationsleiste Gemeinden im Kanton Erstein}}
+{{Normdaten}}
+
+[[Kategorie:Ort (Unterelsass)]]

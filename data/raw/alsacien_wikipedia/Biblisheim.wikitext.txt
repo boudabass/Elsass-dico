@@ -1,0 +1,47 @@
+{{DISPLAYTITLE:Bìwelse}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Biblisheim
+| nomalsacien = Bìwelse
+| alt moy = 152–159
+| km² = 2.24
+| image = Biblisheim.JPG
+| description = Mairie
+|}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Bìwelse''' ([[Französische Sprache|frz.]] ''Biblisheim'', [[Deutsche Sprache|dt.]] ''Biblisheim'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Bas-Rhin|Unterelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}.
+
+== Geogràfi ==
+Bìwelse lijt ìm Norde vum [[Forêt de Haguenau]].
+
+== Gschìcht ==
+Bìwelse ìsch zem erschte Mol gnannt worre ànne 1310 àls ''Bibelies''. E ànder Dorf ìsch wàhrschiins ''Altbibelies'' gsin, wie ànne 773 unter em Nàme ''Bibursdorf'' (781: ''Biberesheimo marca'', 1446 ''Altbibelies'') gnannt worre ìsch.
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Bìwelse ìsch {{Maires|FR|{{#Property:P374}}}}. Bìwelse ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Bevelkerungsentwìcklung ==
+{| class="wikitable" width=400
+|- align=center class="hintergrundfarbe5"
+|align=left | '''Johr''' || '''1962''' || '''1968''' || '''1975''' || '''1982''' || '''1990''' || '''1999''' || '''2007'''
+|- align=center
+|align=left|'''Inwohner'''<ref>[[Institut National de la Statistique et des Études Économiques|INSEE]]: ''Population et logements par commune depuis le recensement de 1962 (1961 pour les Dom) à 1999''</ref> || 230 || 242 || 252 || 244 || 339 || 372 || 367
+|}
+
+== Dialekt ==
+Dr [[Elsässisch|elsassisch]] Dialekt vun Bìwelse ghert zem [[Oberrheinalemannisch|Owerrhinàlemànnisch]].
+
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+{{Commonscat}}
+
+== Referanza ==
+<references />
+
+{{Navigationsleiste Gemeinden im Kanton Reichshoffen}}
+{{Normdaten}}
+
+[[Kategorie:Ort (Unterelsass)]]

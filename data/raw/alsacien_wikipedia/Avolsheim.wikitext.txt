@@ -1,0 +1,60 @@
+{{DISPLAYTITLE:Àvelse}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Avolsheim
+| nomalsacien = Àvelse
+| alt moy = 164–362
+| km² = 1.83
+| image = Dompeter.JPG|
+| description = St. Peter (''Saint Pierre'')
+|}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Àvelse''' ([[Französische Sprache|frz.]] ''Avolsheim'', [[Deutsche Sprache|dt.]] ''Avolsheim'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Bas-Rhin|Unterelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}.
+
+== Geogràfi ==
+Àvelse lijt 22 Kilometer weschtlich vun [[Straßburg|Stroßburi]] àm Zammefluss vun [[Mossig]] un [[Bruche (Fluss)|Brìsch]]. Durich d Gmein geht d Departementsstroß D422 àls Deil vun dr [[Elsässer Weinstraße|Elsassische Winstroß]].
+
+D Nochbergmeine sìn [[Sulzbad|Sulz]], [[Wolxheim|Wolixe]] un [[Molsheim|Molse]].
+
+== Gschìcht ==
+Àvelse ìsch zem erschte Mol gnannt worre ànne 788 àls ''Hunzolfesheim'' (1051: ''Avelsheim'', 1350: ''Afelsheim'').
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Àvelse ìsch {{Maires|FR|{{#Property:P374}}}}. Àvelse ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Bevelkerungsentwìcklung ==
+{| class="wikitable" width=400
+|- align=center class="hintergrundfarbe5"
+|align=left | '''Johr''' || '''1962''' || '''1968''' || '''1975''' || '''1982''' || '''1990''' || '''1999''' || '''2006'''
+|- align=center
+|align=left|'''Inwohner'''<ref>[[Institut National de la Statistique et des Études Économiques|INSEE]]: ''Population et logements par commune depuis le recensement de 1962 (1961 pour les Dom) à 1999''</ref> || 478 || 487 || 513 || 513 || 567 || 658 || 746
+|}
+
+== Dialekt ==
+Dr [[Elsässisch|elsassisch]] Dialekt vun Àvelse ghert zem [[Oberrheinalemannisch|Owerrhinàlemànnisch]].
+
+== Böiwark ==
+*Kìrich Saint-Ulrich
+*Kìrich Saint-Materne
+*Kìrich Saint-Pierre oder (''Dompeter'')
+
+<gallery>
+Datei:Avolsheim eglise saint Ulrich.JPG|<center>St. Ulrich<br />(''Saint Ulrich'')</center>
+Datei:Avolsheim eglise saint Materne.JPG|<center>St. Maternus<br />(''Saint Materne'')</center>
+</gallery>
+
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+{{Commonscat}}
+* https://web.archive.org/web/20100407071336/http://www.mairie-avolsheim.fr/
+
+== Referanza ==
+<references />
+
+{{Navigationsleiste Gemeinden im Kanton Molsheim}}
+{{Normdaten}}
+
+[[Kategorie:Ort (Unterelsass)]]

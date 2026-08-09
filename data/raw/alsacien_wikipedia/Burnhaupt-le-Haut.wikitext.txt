@@ -1,0 +1,58 @@
+{{DISPLAYTITLE:Ewerburnhaipt}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Burnhaupt-le-Haut
+| nomalsacien = Ewerburnhaipt
+| alt moy = 309
+| alt mini = 290
+| alt maxi = 338
+| km² = 12.49
+|}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Ewerburnhaipt''' ({{Audio|Gsw-oberelsässisch-Ewerburnhàipt.ogg|Üüsschprooch loosa}}; [[Französische Sprache|frz.]] ''Burnhaupt-le-Haut'' {{Audio|Fr-Burnhaupt-le-Haut.ogg|loosa}}, [[Deutsche Sprache|dt.]] ''Oberburnhaupt'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Haut-Rhin|Owerelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}.
+
+== Gschìcht ==
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Ewerburnhaipt ìsch {{Maires|FR|{{#Property:P374}}}}. Ewerburnhaipt ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Bevelkerungsentwìcklung ==
+{|class="wikitable"
+!|Johr
+!|1962
+!|1968
+!|1975
+!|1982
+!|1990
+!|1999
+!|2006
+!|2007
+|-
+| Inwohner || 900 || 977 || 1084 || 1296 || 1426 || 1503 || 1599 || 1598
+|}
+
+== Wirtschàft ==
+Züe Ewerburnhaipt ghert de Zone Industrielle du Pont d'Aspach, wie verschìdene Gwerb àngsidelt sin:
+* Glàsbschìchtung (Architektürglàs)
+* Elektronikharsteller/Züelìferer
+* Automatisierungstechnik
+* Engineering/Software
+* Süpermärik
+
+== Dialekt ==
+Dr [[Elsässisch|elsassisch]] Dialekt vun Ewerburnhaipt ghert zem [[Oberrheinalemannisch|Owerrhinàlemànnisch]].
+
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+* {{Commonscat|Burnhaupt-le-Haut}}
+* https://web.archive.org/web/20180808153100/http://burnhaupt-le-haut.fr/ 
+
+== Referanza ==
+<references/>
+
+{{Navigationsleiste Gemeinden im Kanton Masmünster}}
+{{Normdaten}}
+
+[[Kategorie:Ort (Owerelsàss)]]

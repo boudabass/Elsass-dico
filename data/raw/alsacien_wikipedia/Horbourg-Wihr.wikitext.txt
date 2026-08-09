@@ -1,0 +1,51 @@
+{{DISPLAYTITLE:Horwrig-Wihr}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Horbourg-Wihr
+| nomalsacien = Horwrig-Wihr
+| alt moy = 182
+| alt mini = 182
+| alt maxi = 190
+| km² = 9.42
+|}}
+'''Horwrig-Wihr''' ([[Französische Sprache|frz.]] ''Horbourg-Wihr'', [[Deutsche Sprache |ditsch]] ''Horburg-Weier'') isch e [[Frankreich|franzeesche]] Gmein im [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}} ({{Kanton|FR|{{#Property:P374}}}}) ìm [[Département Haut-Rhin|Owerelsàss]] (Haut-Rhin). Dr Ort ghört dr {{Kommunalverband|FR|{{#Property:P374}}}} a.
+
+D'Gmein isch am 1. Jänner 1973 durch dr Zämmeschluss vu Horwrig un [[Wihr-en-Pleine|Wihr-uf-em-Land]] entstande. 
+
+==Geografi==
+[[Horburg|Horwrig]] lijt unmittelbar öschtlich vu Colmer am rächte [[Ill (Elsass)|Illufer]] an dr [[Grüne Straße|Griene Stross (Route Verte)]] vu dr [[Vogesen|Vogese]] in dr [[Schwarzwald]]. S'[[Straßendorf|Strossedorf]] [[Wihr-en-Pleine|Wihr]] schliesst öschtlich vu Horwrig an dr Stross uf [[Bischwihr]] a.
+
+==Gschicht==
+In dr römische Zit isch an dr Stell vu Howrig s'römisch Kastell [[Argentovaria]] gstande. Ab guet 1100 nooch Christus sin d'[[Herren zu Horburg|Herre zue Horwrig]] noochwiisbar, wo d'Gegend bis 1324 beherrscht hän. Vu dert a isch Horburg bis zue dr [[Französische Revolution|Grosse Revolution]] 1793 bis [[Württemberg|Wirdebarig]] gsin un het e Zentrum vu dr wirdebarigsche Länder im Elsass bildet. Horwrig isch dorum mit dr Infüehrung vun dr [[Reformation]] in Wirdebàrig 1535 evangelisch worre. Mit em Wexel vu dr Souveränität vum [[Heiliges Römisches Reich|Ditsche Riich]] ufs Keenigriich [[Frankreich|Frankriich]] um 1685 hän d'Wirdebàriger awer in ihrene jetz franzeesche Lande, anderscht wie in ihrene ditsche, die Katholizismus wiider miesse erläuwe.
+
+1789/93 isch no z'Horwrig die franzeesch Verwaltung ingfüehrt worre.
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Horwrig-Wihr ìsch {{Maires|FR|{{#Property:P374}}}}. Horwrig-Wihr ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+==Demografi==
+D Bevölkerig isch sit de 1960er Johr stark agwachse, vo 1962= 1654 Iiwohner in 1962 uf 5060 im Johr 1999.
+
+==Sähenswürdigkeite==
+Z'Wihr stoht e Kìrech us em 16. Johrhundert.
+== Galerii ==
+<gallery widths="160" heights="180" perrow="3" caption="D Chilene vo Horburg und Weiher">
+Datei:Horbourg, Eglise protestante.jpg|Di evangelisch Chile z Horburg
+Datei:Horbourg, Église Notre-Dame-de-l'Assomption.jpg|Di katholisch Chile z Horburg
+Datei:Wihr-en-Plaine, Église mixte Saint-Michel 1.jpg|St. Michel z Weiher
+</gallery>
+
+== Weblink ==
+* {{Commonscat|Horbourg-Wihr}}
+* [https://web.archive.org/web/20060424074915/http://www.ville-horbourg-wihr.fr/ Internetuftritt vu dr Gmein]
+* [https://web.archive.org/web/20090721114459/http://www.quid.fr/communes.html?mode=detail Horwrig-Wihr bi quid.fr]
+
+== Referanza ==
+<references/>
+
+{{Navigationsleiste Gemeinden im Kanton Colmar-2}}
+
+{{Normdaten}}
+
+[[Kategorie:Ort (Owerelsàss)]]

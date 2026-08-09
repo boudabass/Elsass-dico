@@ -1,0 +1,84 @@
+{{DISPLAYTITLE:Wagschaid}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Wegscheid
+| nomalsacien = Wagschaid
+| alt moy = 450
+| alt mini = 444
+| alt maxi = 1190
+| km² = 10.06
+|}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Wagschaid''' ([[Französische Sprache|frz.]] ''Wegscheid'', [[Deutsche Sprache|dt.]] ''Wegscheid'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Haut-Rhin|Owerelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}.
+
+== Gschìcht ==
+Wagschaid ìsch zem erschte Mol gnannt worre ìm 13. Jh.
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Wagschaid ìsch {{Maires|FR|{{#Property:P374}}}}. Wagschaid ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}. 
+
+===Lischt vun dr Maires zitter 1790===
+{| width=66%
+| valign=top width=33% align=left |
+* Nicolas SEILLER (1790-1794)
+* Jean RINGENBACH (1794-1796)
+* Joseph ILTIS (1796-1797)
+* Jean RINGENBACH (1797-1798)
+* Jacque KÖNIG (le jeune) (1798-1798)
+* Thiebaut RINGENBACH (1798-1799)
+* Jean RINGENBACH (1799-1813)
+* Jean COLLE (1813-1816)
+* Jean RINGENBACH (1816-1832)
+* Joseph ROSENBLEY (1832-1835)
+* Jean Jacques RINGENBACH (1835-1849)
+* Joseph ROSENBLÜH (1849-1851)
+* Jacques RINGENBACH (1851-1855)
+| valign=top width=33% align=left |
+* Michel AST (1855-1865)
+* Simon SEILLER (1865-1873)
+* Nicolas ERHART (1873-1876)
+* Eugène ARBEIT (1876-1896)
+* Joseph NAEGELLEN (1896-1903)
+* Eugène ROSENBLÜHE (1903-1908)
+* Ferdinand KÖNIG (1908-1914)
+* Auguste GASSER (père) (1914-1936)
+* Fernand WEISS (1936-1939)
+* Ephrème SCHEUBEL (1939-1953)
+* Maurice KOENIG (1953-1977)
+* Jean BEHRA (1977-1989)
+* Guy RICHARD (zitter 1989)
+|}
+
+== Bevelkerungsentwìcklung ==
+{| class="wikitable"
+|-class="hintergrundfarbe8"
+!Johr
+!1962
+!1968 
+!1975
+!1982
+!1990
+!1999
+!2006
+|- align=center
+| Inwohner || 248 || 286 || 286 || 282 || 299 || 304 || 334
+|}
+
+== Dialekt ==
+Dr [[Elsässisch|elsassisch]] Dialekt vun Wagschaid ghert zem [[Oberrheinalemannisch|Owerrhinàlemànnisch]].
+
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+* {{Commonscat|Wegscheid (Haut-Rhin)}}
+
+== Referanza ==
+<references/>
+
+{{Navigationsleiste Gemeinden im Kanton Masevaux}}
+
+{{Normdaten}}
+
+[[Kategorie:Ort (Owerelsàss)]]

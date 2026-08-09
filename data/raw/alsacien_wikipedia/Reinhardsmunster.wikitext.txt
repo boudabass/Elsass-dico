@@ -1,0 +1,57 @@
+{{DISPLAYTITLE:Neiderfel}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Reinhardsmunster
+| nomalsacien = Neiderfel
+| alt moy = 240–624
+| km² = 18.63
+| image = Fr Wuestenberg Pierre des druides.jpg
+| description =Druidestain
+|}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Neiderfel''', àui '''Neidorf''' oder '''Rainhardsmìnschter''' ([[Französische Sprache|frz.]] ''Reinhardsmunster'', [[Deutsche Sprache|dt.]] ''Reinhardsmünster'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Bas-Rhin|Unterelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}.
+
+== Gschìcht ==
+Neiderfel ìsch ànne 1616 grìndet worre vum Grof [[Johann Reinhard I. (Hanau-Lichtenberg)|Johann Reinhard I. vun Hanau]] àn dr Stell vum friejere Derfel ''Dillersmünster'', wie zem erschte Mol gnannt worre ìsch ànne 1120 àls ''Dillerescella'' (1300: ''Dillersmunster'') und ìm 16. Jh. ufgan worre ìsch.
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Neiderfel ìsch {{Maires|FR|{{#Property:P374}}}}. Neiderfel ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Bevelkerungsentwìcklung ==
+{| class="wikitable" width=400
+|- align=center class="hintergrundfarbe5"
+|align=left | '''Johr''' || '''1962''' || '''1968''' || '''1975''' || '''1982''' || '''1990''' || '''1999''' || '''2007'''
+|- align=center
+|align=left|'''Inwohner'''<ref>[[Institut National de la Statistique et des Études Économiques|INSEE]]: ''Population et logements par commune depuis le recensement de 1962 (1961 pour les Dom) à 1999''</ref> || 271 || 326 || 303 || 331 || 366 || 402 || 450
+|}
+
+== Dialekt ==
+Dr [[Elsässisch|elsassisch]] Dialekt vun Neiderfel ghert zem [[Oberrheinalemannisch|Owerrhinàlemànnisch]].
+
+== Kültür un Boiwark ==
+* Druidestain
+* Buri Grand Ochsenstein
+* Buri Petit Ochsenstein
+* Buri Wachelheim
+
+<gallery>
+Datei:Fr Grand Ochsenstein Courtyard South Wall exterior 2.jpg|<center>Grand Ochsenstein
+Datei:Fr Petit Ochsenstein rock 3.jpg|<center>Petit Ochsenstein
+Datei:Fr Wachelheim South side 1.jpg|<center>Wachelheim
+</gallery>
+
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+{{Commonscat|Reinhardsmunster}}
+
+== Referanza ==
+<references/>
+
+{{Navigationsleiste Gemeinden im Kanton Zabern}}
+
+{{Normdaten}}
+
+[[Kategorie:Ort (Unterelsass)]]

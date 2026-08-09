@@ -1,0 +1,52 @@
+{{DISPLAYTITLE:Herbse}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Herbsheim
+| nomalsacien = Herbse
+| alt moy = 155–160
+| km² = 8.60
+| image = Herbsheim SteBarbe02.jpg
+| description = Kìrich Sainte-Barbe àm Dorfplàtz
+|}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Herbse''' ([[Französische Sprache|frz.]] ''Herbsheim'', [[Deutsche Sprache|dt.]] ''Herbsheim'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Bas-Rhin|Unterelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}.
+
+== Geogràfi ==
+Herbse ìsch e Strossedorf àn dr Zembs weschtlich vum Rhin-Rhone-Kànàl.
+
+== Gschìcht ==
+Herbse ìsch zem erschte Mol gnannt worre ànne 1136.
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Herbse ìsch {{Maires|FR|{{#Property:P374}}}}. Herbse ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Bevelkerungsentwìcklung ==
+{| class="wikitable" width=400
+|- align=center class="hintergrundfarbe5"
+|align=left | '''Johr''' || '''1962''' || '''1968''' || '''1975''' || '''1982''' || '''1990''' || '''1999''' || '''2006'''
+|- align=center
+|align=left|'''Inwohner'''<ref>[[Institut National de la Statistique et des Études Économiques|INSEE]]: ''Population et logements par commune depuis le recensement de 1962 (1961 pour les Dom) à 1999''</ref> || 582 || 609 || 610 || 635 || 719 || 765 || 793
+|}
+
+== Dialekt ==
+Dr [[Elsässisch|elsassisch]] Dialekt vun Herbse ghert zem [[Oberrheinalemannisch|Owerrhinàlemànnisch]].
+
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Boiwark ==
+* Kìrich Sainte-Barbe
+
+== Weblink ==
+{{Commonscat}}
+* https://web.archive.org/web/20190126191123/http://www.herbsheim.fr/
+* [https://web.archive.org/web/20130905163455/http://cc-benfeld.fr/commune/herbsheim.htm Herbse] uf www.cc-benfeld.fr
+
+== Referanza ==
+<references />
+
+{{Navigationsleiste Gemeinden im Kanton Benfeld}}
+{{Normdaten}}
+
+[[Kategorie:Ort (Unterelsass)]]

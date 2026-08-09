@@ -1,0 +1,45 @@
+{{DISPLAYTITLE:Rohrwiller}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Rohrwiller
+| nomalsacien = Rohrwiller
+| alt moy = 122–127
+| km² = 2.95
+|}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Rohrwiller''' ([[Französische Sprache|frz.]] ''Rohrwiller'', [[Deutsche Sprache|dt.]] ''Rohrweiler'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Bas-Rhin|Unterelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}.
+
+== Geogràfi ==
+Bi Rohrwiller fließt d [[Zorn (Fluss)|Zorn]] ìn d [[Moder (Fluss)|Moder]].
+
+== Gschìcht ==
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Rohrwiller ìsch {{Maires|FR|{{#Property:P374}}}}. Rohrwiller ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Bevelkerungsentwìcklung ==
+{| class="wikitable" width=400
+|- align=center class="hintergrundfarbe5"
+|align=left | '''Johr''' || '''1962''' || '''1968''' || '''1975''' || '''1982''' || '''1990''' || '''1999''' || '''2004''' || '''2006'''
+|- align=center
+|align=left|'''Inwohner'''<ref>[[Institut National de la Statistique et des Études Économiques|INSEE]]: ''Population et logements par commune depuis le recensement de 1962 (1961 pour les Dom) à 1999''</ref> || 1040 || 1092 || 1140 || 1287 || 1441 || 1448 || 1663 || 1672
+|}
+
+== Dialekt ==
+Dr [[Elsässisch|elsassisch]] Dialekt vun Rohrwiller ghert zem [[Oberrheinalemannisch|Owerrhinàlemànnisch]].
+
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+{{Commonscat|Rohrwiller}}
+* http://www.rohrwiller.fr
+
+== Referanza ==
+<references/>
+
+{{Navigationsleiste Gemeinden im Kanton Bischweiler}}
+
+{{Normdaten}}
+
+[[Kategorie:Ort (Unterelsass)]]

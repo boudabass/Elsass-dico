@@ -1,0 +1,46 @@
+{{DISPLAYTITLE:Wìndstain}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Windstein
+| nomalsacien = Wìndstain
+| alt moy = 195–517
+| km² = 11.97
+|}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Wìndstain''' ([[Französische Sprache|frz.]] ''Windstein'', [[Deutsche Sprache|dt.]] ''Windstein'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Bas-Rhin|Unterelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}.
+
+== Gschìcht ==
+Z Wìndstain leie d Burge [[Burg Altwindstein|Àltwìndstain]], wie 1205 s erscht Mol gnannt worre ìsch, und [[Burg Neuwindstein|Neiwìndstain]], wie wàhrschins ànne 1339 böie worre ìsch.
+
+<gallery widths="200" heights="180" perrow="2">
+Datei:Altwindstein.jpg|D Burg Àltwìndstain um 1900
+Datei:Burg Neuwindstein 1.jpg|D Burg Neiwìndstain
+</gallery>
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Wìndstain ìsch {{Maires|FR|{{#Property:P374}}}}. Wìndstain ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Bevelkerungsentwìcklung ==
+{| class="wikitable" width=400
+|- align=center class="hintergrundfarbe5"
+|align=left | '''Johr''' || '''1962''' || '''1968''' || '''1975''' || '''1982''' || '''1990''' || '''1999''' || '''2007'''
+|- align=center
+|align=left|'''Inwohner'''<ref>[[Institut National de la Statistique et des Études Économiques|INSEE]]: ''Population et logements par commune depuis le recensement de 1962 (1961 pour les Dom) à 1999''</ref> || 66 || 191 || 201 || 185 || 166 || 174 || 161
+|}
+
+== Dialekt ==
+Dr [[Elsässisch|elsassisch]] Dialekt vun Wìndstain ghert zem [[Oberrheinalemannisch|Owerrhinàlemànnisch]].
+
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+* {{commonscat}}
+* {{Wikisource|Topographia Alsatiae: Winstein|Winstein in der Topographia Alsatiae (Matthäus Merian)}}
+
+== Referanza ==
+<references />
+
+{{Navigationsleiste Gemeinden im Kanton Reichshoffen}}
+{{Normdaten}}
+
+[[Kategorie:Ort (Unterelsass)]]

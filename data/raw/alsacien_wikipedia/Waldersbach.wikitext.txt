@@ -1,0 +1,53 @@
+{{DISPLAYTITLE:Wàlderschbàch}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Waldersbach
+| nomalsacien = Wàlderschbàch
+| alt moy = 464–925
+| km² = 3.37
+| image = Waldersbach 67.jpg
+| description = Wàlderschbàch
+|}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Wàlderschbàch''' ([[Lorrain|patois]] ''Ouarter'pai'', frz. ''Waldersbach'', [[Deutsche Sprache|dt.]] ''Waldersbach'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Bas-Rhin|Unterelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}.
+
+== Gschìcht ==
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+Wàlderschbàch ìsch àm 1. April 1974 mìt [[Belmont (Bas-Rhin)|Bémont]] und [[Bellefosse|Befoss]] züe dr Gmein ''Le Ban-de-la-Roche'' zammegschlosse worre. 1975 ìsch àui [[Fouday|Fouda]] derzüe kumme. Zitter em 1. Jänner 1992 sìn sa wìder salbstandige Gmeine.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Wàlderschbàch ìsch {{Maires|FR|{{#Property:P374}}}}. Wàlderschbàch ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Bevelkerungsentwìcklung ==
+{| class="wikitable" width=400
+|- align=center class="hintergrundfarbe5"
+|align=left | '''Johr''' || '''1962''' || '''1968''' || '''1975''' || '''1982''' || '''1990''' || '''1999''' || '''2007'''
+|- align=center
+|align=left|'''Inwohner'''<ref>[[Institut National de la Statistique et des Études Économiques|INSEE]]: ''Population et logements par commune depuis le recensement de 1962 (1961 pour les Dom) à 1999''</ref> || 152 || 155 || 131 || 120 || 123 || 139 || 137
+|}
+
+== Dialekt ==
+Dr [[Langues d'oïl|romànisch]] Dialekt vun Wàlderschbàch ghert zem [[Welche (Langue d'oïl)|Welche]] un domìt zem [[Lorrain]].
+
+<gallery widths="200" heights="180" perrow="2">
+Datei:Waldersbach-Mairie-Ecole.JPG|Maire und Schüel
+Datei:WaldersbachPresbytère.JPG|Bfàrrhüs
+</gallery>
+
+== Litt ==
+* [[Johann Friedrich Oberlin]], Bfàrr im Staindàl (Ban de la Roche), Erfinder vum Kìndergàrte, * 31. Öigüscht 1740 z Stroßburi, † 1. Juni 1826 z Wàlderschbàch. 
+
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+{{Commonscat}}
+* [http://www.musee-oberlin.com Müseum Oberlin]
+
+== Referanza ==
+<references />
+
+{{Navigationsleiste Gemeinden im Kanton Mutzig}}
+{{Normdaten}}
+
+[[Kategorie:Ort (Unterelsass)]]

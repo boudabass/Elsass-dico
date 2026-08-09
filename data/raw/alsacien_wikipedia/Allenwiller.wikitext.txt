@@ -1,0 +1,78 @@
+{{DISPLAYTITLE:Àllewiller}}
+{{Infobox Ortsteil einer Gemeinde in Frankreich
+|nomhameau=Àllewiller
+|commune=[[Sommerau (Bas-Rhin)|Sommerau]]
+|armoiries=Blason Allenwiller FR Bas-Rhin.svg
+|région=[[Grand Est]]
+|département=[[Bas-Rhin|Unterelsàss]]
+|arrondissement=[[Arrondissement Saverne|Arrondissement Zàwere]]
+|datefusion=1. Janner 2016
+|status=cd
+|insee=67004
+|cp=67310
+|longitude=7/22/35/O
+|latitude=48/39/21/N
+|alt moy= 
+|alt mini= 
+|alt maxi= 
+|km²= 
+|image=Mairie Allenwiller.JPG
+|image-desc=Mairie
+}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Àllewiller''' ([[Französische Sprache|frz.]] ''Allenwiller'', [[Deutsche Sprache|dt.]] ''Allenweiler'') ìsch bìs 2015 e [[Frankreich|frànzeesche]] Gmein ìm [[Département Bas-Rhin|Unterelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]) gsin. Sit em 1. Janner 2016 ghert sa züe dr neie Gmein [[Sommerau (Unterelsass)|Sommerau]].
+
+== Geogràfi ==
+D Nochberderfer sìn [[Salental|Sàledàl]] un [[Singrist|Sìnggrìscht]] ìm Norde, [[Romansweler|Rumedswiller]] ìm Sìdoschte un [[Birkenwald|Bìrikewàld]] ìm Weschte.
+
+== Gschìcht ==
+Àllewiller ìsch zem erschte Mol gnannt worre ìm 5. Jh. àls ''Alenevilla '' (13. Jh.:'' Alhinwilre'').
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+Dr letscht Maire vun Àllewiller ìsch dr Roger Muller gsin. 
+
+== Bevelkerungsentwìcklung ==
+
+{| align = "center" rules = "all" cellspacing = "0" cellpadding = "4" style = "border: 1px solid #999; border-right: 2px solid #999; border-bottom:2px solid #999; background: #f3fff3"
+| + style = "font-weight: bold; font-size: 1.1em; margin-bottom: 0.5em"| Entwicklung vun dr Inwohnerzàhl<ref>[http://cassini.ehess.fr/cassini/fr/html/fiche.php?select_resultat = 120 cassini.ehess.fr]</ref> 
+|-style = "background: #ddffdd"
+! 1793 !! 1800 !! 1806 !! 1821 !! 1831 !! 1836 !! 1841 !! 1846 !! 1851 !! 1856 !! 1861 !! 1866 
+|-
+| 632 || 458 || 445 || 458 || 487 || 496 || 507 || 483 || 467 || 433 || 424 || 465 
+|-style = "background: #ddffdd"
+! 1871 !! 1875 !! 1880 !! 1885 !! 1890 !! 1895 !! 1900 !! 1905 !! 1910 !! 1921 !! 1926 !! 1931 
+|-
+| 445 || 406 || 460 || 430 || 406 || 393 || 393 || 415 || 405 || 400 || 402 || 401 
+|-style = "background: #ddffdd"
+! 1936 !! 1946 !! 1954 !! 1962 !! 1968 !! 1975 !! 1982 !! 1990 !! 1999 !! 2006 !! 2008 !! 2012	 
+|-
+| 365 || 363 || 369 || 358 || 381 || 378 || 393 || 418 || 453 || 495 || 507 || 526 
+|-
+|}
+
+== Dialekt ==
+Dr [[Elsässisch|elsassisch]] Dialekt vun Àllewiller ghert zem [[Oberrheinalemannisch|Owerrhinàlemànnisch]].
+
+== Böiwark ==
+* Proteschtàntische Kirich mìt me Durm üs em 13. Jh.
+* Kàtholische Kirich Saint-Michel, neogotisch (1905-06)
+
+<gallery widths = "200" heights = "180" perrow = "2">
+Datei:Église protestante Allenwiller.JPG|Proteschtàntische Kirich
+Datei:Église_catholique_Allenwiller.JPG|Kàtholische Kirich
+</gallery>
+
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+{{commonscat|Allenwiller|Àllewiller}}
+
+== Referanza ==
+<references/>
+
+{{Normdaten}}
+
+[[Kategorie:Ort (Unterelsass)]]

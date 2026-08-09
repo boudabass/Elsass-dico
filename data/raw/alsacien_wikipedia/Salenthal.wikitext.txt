@@ -1,0 +1,59 @@
+{{DISPLAYTITLE:Sàledàl}}
+{{Infobox Ortsteil einer Gemeinde in Frankreich
+|nomhameau= Sàledàl
+|armoiries= Blason ville fr Salenthal (67).svg
+|commune= [[Sommerau (Bas-Rhin)|Sommerau]]
+|région= [[Grand Est]]
+|département= [[Bas-Rhin|Unterelsàss]]
+|arrondissement= [[Arrondissement Saverne|Zàwere]]
+|datefusion= 1. Janner 2016
+|status= cd
+|insee= 67431
+|cp= 67440
+|longitude= 07/22/13/O
+|latitude= 48/40/01/N
+|alt mini= 
+|alt maxi= 
+|km²= 
+|image = Mairie Salenthal.JPG
+|image-desc=Mairie
+}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Sàledàl''' ([[Französische Sprache|frz.]] ''Salenthal'', [[Deutsche Sprache|dt.]] ''Salental'') ìsch bìs 2015 e [[Frankreich|frànzeesche]] Gmein ìm [[Département Bas-Rhin|Unterelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]) gsin. Sit em 1. Janner 2016 ghert sa züe dr neie Gmein [[Sommerau (Unterelsass)|Sommerau]].
+
+== Gschìcht ==
+Sàledàl ìsch zem erschte Mol gnannt worre ànne 1120.
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+Dr letscht Maire vun Sàledàl ìsch dr Franck Hufschmitt gsin.
+
+== Bevelkerungsentwìcklung ==
+{| class = "wikitable" width = 400
+|- align = center class = "hintergrundfarbe5"
+| align = left | '''Johr''' || '''1962''' || '''1968''' || '''1975''' || '''1982''' || '''1990''' || '''1999''' || '''2007'''
+|- align = center
+| align = left|'''Inwohner'''<ref>[[Institut National de la Statistique et des Études Économiques|INSEE]]: ''Population et logements par commune depuis le recensement de 1962 (1961 pour les Dom) à 1999''</ref> || 113 || 123 || 123 || 121 || 140 || 165 || 214
+|}
+
+== Dialekt ==
+Dr [[Elsässisch|elsassisch]] Dialekt vun Sàledàl ghert zem [[Oberrheinalemannisch|Owerrhinàlemànnisch]].
+
+<gallery widths = "200" heights = "180" perrow = "2">
+Eglise Salenthal.JPG|Kirich Saint-Maurice
+Croix Salenthal.JPG|Kriz vun 1757
+</gallery>
+
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+{{Commonscat|Salenthal|Sàledàl}}
+
+== Referanza ==
+<references />
+
+{{Normdaten}}
+
+[[Kategorie:Ort (Unterelsass)]]

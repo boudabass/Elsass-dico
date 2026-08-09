@@ -1,0 +1,45 @@
+{{DISPLAYTITLE:Richewihr}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Riquewihr
+| nomalsacien = Richewihr
+| alt moy = 303
+| alt mini = 230
+| alt maxi = 936
+| km² = 17.04
+| image = Descending into Riquewihr through vineyards.jpg
+| description = Richewihr
+|}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Richewihr''' ([[Französische Sprache|frz.]] ''Riquewihr'', [[Deutsche Sprache|dt.]] ''Reichenweier'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Haut-Rhin|Owerelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}.
+
+== Gschìcht ==
+Richewihr ìsch zem erschte Mol gnannt worre ìm 9. Jh. àls ''Richovilla''.
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Richewihr ìsch {{Maires|FR|{{#Property:P374}}}}. Richewihr ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Dialekt ==
+Dr [[Elsässisch|elsassisch]] Dialekt vun Richewihr ghert zem [[Oberrheinalemannisch|Owerrhinàlemànnisch]].
+
+{|
+|[[Datei:Altstadt_Durchblick.jpg|miniatur|Blick durich s Stàdtdor in d Àltstàdt]]
+|[[Datei:Riquewihr-2.jpg|miniatur|Rue des Cordiers]]
+|}
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+{{Commonscat|Riquewihr|Richewihr}}
+{{Wikisource|Topographia Alsatiae:_Reichenweyer|Riquewihr in der Topographia Alsatiae (M. Merian)}}
+* http://www.ribeauville-riquewihr.com
+
+== Referanza ==
+<references/>
+
+{{Navigationsleiste Gemeinden im Kanton Markirch}}
+
+{{Normdaten}}
+
+[[Kategorie:Ort (Owerelsàss)]]

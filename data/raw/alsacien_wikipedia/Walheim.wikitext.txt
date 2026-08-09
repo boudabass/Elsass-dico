@@ -1,0 +1,68 @@
+{{DISPLAYTITLE:Waale}}
+{{Infobox Gemeinde in Deutschland schwäbisch
+| Wappen = DEU Walheim COA.svg
+| Breitengrad = 49/00/42/N
+| Längengrad = 09/09/10/E
+| Lageplan = Walheim im Landkreis Ludwigsburg.png
+| Bundesland = Baden-Württemberg
+| Regierungsbezirk = [[Regierungsbezirk Stuttgart|Stuegert]]
+| Landkreis = Ludwigsburg
+| Landkreisalem = Ludisburg
+| Höhe = 183
+| Fläche = 6.14
+| PLZ = 74399
+| Vorwahl = 07143
+| Kfz = LB
+| Gemeindeschlüssel = 08118074
+| Straße = Hauptstraße 68
+| Website = [http://www.walheim.de/ www.walheim.de]
+| Bürgermeister = Albrecht Dautel
+}}
+'''Waale''' (amtlich ''Walheim'') ischt a Gmoed em [[Landkreis Ludwigsburg|Landkroes Ludisburg]] en [[Baden-Württemberg|Bade-Wirttebärg]]. D Gmoed hot {{EWZ|DE-BW|{{#Property:P439}}}} Eiwohner (Stand: {{EWD|DE-BW}}).
+
+== Geografi ==
+Waale leit an dr Mendong vo dr [[Enz]] en dr [[Neckar|Necker]].
+
+Vo dr Gmarkong send 59,0% Landwirtschaftsfleche, 15,6 % Wald, 21,5 % Sidlongsfleche ond 3,9 % sonschtiche Fleche.<ref>Statistisches Bundesamt: Bodenfläche nach Art der tatsächlichen Nutzung - Stichtag 31.12. - regionale Tiefe: Gemeinden, Samt-/Verbandsgemeinden (bis 2011)</ref>
+
+== Gmoendsgliderong ==
+Zua Waale gheret koene weitere Ortsdoel.
+
+== Gschicht ==
+Waale ischt zom erschte Mol gnennt worda em Johr 1071.
+
+== Verwaltong ==
+Waale hot sich mit dr Stadt Beesge ond dr Gmoede Fraededaal, Gemmrige, Hesge, Lechge ond Mõndelse zom Gmoedverwaltongsverband ''Beesge'' zammagschlossa.
+
+Dr Schuldes vo Waale ischt dr Albrecht Dautel.
+
+=== Wahla ===
+Ergäbnis vo de Landdagswahla seid 2006:<ref>Statistisches Landesamt Baden-Württemberg: {{Webarchiv|url=https://www.statistik-bw.de/Wahlen/Landtag/ |wayback=20190707200830 |text=Landtagswahl |archiv-bot=2020-03-02 09:14:26 InternetArchiveBot }}</ref> 
+{| class="wikitable" width=350
+|- align=center class="hintergrundfarbe5"
+|align=left | '''Johr''' || '''CDU''' || '''Greane''' || '''SPD''' || '''FDP''' || '''Lenke'''<sup>1</sup> || '''AfD''' || '''Sonschtiche''' 
+|- align=center
+|align=left| '''2016''' || 26,8 % || 32,2 % || 12,1 % || 8,3 % || 2,2 % || 14,4 % || 4 %
+|- align=center
+|align=left| '''2011''' || 36,2 % || 24 % || 24,5 % || 5,6 % || 2,3 % || || 7,4 % 
+|- align=center
+|align=left| '''2006''' || 42,5 % || 10,2 % || 24,7 % || 11,4 % || 1,8 % || || 9,5 % 
+|}
+<sup>1</sup> 2006: WASG, seid 2011: Die Linke
+
+== Dialekt ==
+Dr Dialekt vo Waale ghert zom [[schwäbisch]]-[[Südfränkische Dialekte|sidfränkische]] Ibergangsbiet.
+
+== Weblink ==
+* {{Commonscat|Walheim}}
+* {{Wikisource|Beschreibung des Oberamts Besigheim/Kapitel B 19|Wahlheim in der Beschreibung des Oberamts Besigheim von 1853}}
+* [http://www.walheim.de/ www.walheim.de]
+
+== Fuaßnota ==
+<references/>
+
+{{Navigationsleiste Städte und Gemeinden im Landkreis Ludwigsburg}}
+
+{{Normdaten}}
+
+[[Kategorie:Ort (Landkroes Ludisburg)]]

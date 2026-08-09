@@ -1,0 +1,57 @@
+{{DISPLAYTITLE:Staisulz}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Steinsoultz
+| nomalsacien = Staisulz
+| alt moy = 390
+| alt mini = 353
+| alt maxi = 442
+| km² = 4.06
+|}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Staisulz''' ([[Französische Sprache|frz.]] ''Steinsoultz'', [[Deutsche Sprache|dt.]] ''Steinsulz'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Haut-Rhin|Owerelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}.
+
+== Geogràfi ==
+Staisulz lijt ìm [[Sundgau|Sundgöi]] ìwer em Dàl vum Gersbach, 20 Kilometer weschtlich vun [[Basel|Bàsel]]. Nochbergmeine vun Staisulz sìn [[Roppenzweiler|Ropperzwiller]] ìm Sìde, [[Waldighofen]] ìm Weschte un [[Muespach]] ìm Oschte. Zem Dorf ghere öi d Willer Fosse Richmans, Geissenstuemmler, Kahlhuette, In der Wanne, Schlangenmatten und Sonnenglanz 
+
+== Gschìcht ==
+Staiselz ìsch zem erschte Mol gnannt worre ànne 1302 àls ''Steinsulze'' (1325 ''Steinsulcz'', 1380 ''Steinsulz'', 1430 ''Steinzultz''). S Dorf hàt bìs 1324 züe dr [[Grafschaft Pfirt|Grofschàft Pfìrt]] ghert, no bìs 1648 züe [[Vorderösterreich|Vordereschtrich]]. Ìm [[Westfälischer Friede|Weschtfälische Frìde]] vun 1648 ìsch Staisulz züe Frànkrich kumme. Vun 1871 bìs 1918 hàt Staisulz wie s gànz Elsàss züe [[Deutsches Kaiserreich|Ditschlànd]] zem [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Staisulz ìsch {{Maires|FR|{{#Property:P374}}}}. Staisulz ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Bevelkerungsentwìcklung ==
+{| class="wikitable" width=400
+|- align=center class="hintergrundfarbe5"
+|align=left | '''Johr''' || '''1962''' || '''1968''' || '''1975''' || '''1982''' || '''1990''' || '''1999''' || '''2006''' || '''2007'''
+|- align=center
+|align=left|'''Inwohner'''<ref>[[Institut National de la Statistique et des Études Économiques|INSEE]]: ''Population et logements par commune depuis le recensement de 1962 (1961 pour les Dom) à 1999''</ref> || 481 || 489 || 490 || 523 || 606 || 625 || 728 || 743
+|}
+
+== Verkehr ==
+Vun 1915 bis 1960 hàt s z Staisulz e Bàhnhof gan àn dr Bàhnlinie [[Waldighofen|Wàldighoffe]]–[[Saint-Louis (Oberelsass)|Saint-Louis-la-Chaussée]].
+
+== Dialekt ==
+Dr [[Elsässisch|elsassisch]] Dialekt vun Staisulz ghert zem [[Hochalemannisch|Hochàlemànnisch]].
+
+== Boiwark ==
+* Kìrich Saint-Nicolas
+
+{|
+|[[Datei:Steinsoultz, Eglise Saint-Nicolas.jpg|thumb|left|upright 1.0|<center>Kìrich Saint-Nicolas</center>]]
+|}
+
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+{{Commonscat|Steinsoultz|Staisulz}}
+* http://www.steinsoultz.net
+
+== Referanza ==
+<references/>
+
+{{Navigationsleiste Gemeinden im Kanton Altkirch}}
+
+{{Normdaten}}
+
+[[Kategorie:Ort (Owerelsàss)]]

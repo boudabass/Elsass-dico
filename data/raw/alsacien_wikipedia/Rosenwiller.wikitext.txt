@@ -1,0 +1,50 @@
+{{DISPLAYTITLE:Rosewiller}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Rosenwiller
+| nomalsacien = Rosewiller
+| alt moy = 238–366
+| km² = 5.50
+| image = Rosenwiller 044.JPG
+| description = Maire
+|}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Rosewiller''' ([[Französische Sprache|frz.]] ''Rosenwiller'', [[Deutsche Sprache|dt.]] ''Rosenweiler'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Bas-Rhin|Unterelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}.
+
+== Gschìcht ==
+Rosewiller ìsch zem erschte Mol gnannt worre ànne 1364.
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Rosewiller ìsch {{Maires|FR|{{#Property:P374}}}}. Rosewiller ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Bevelkerungsentwìcklung ==
+{| class="wikitable" width=400
+|- align=center class="hintergrundfarbe5"
+|align=left | '''Johr''' || '''1881''' || '''1962''' || '''1968''' || '''1975''' || '''1982''' || '''1990''' || '''1999''' || '''2007'''
+|- align=center
+|align=left|'''Inwohner'''<ref>[[Institut National de la Statistique et des Études Économiques|INSEE]]: ''Population et logements par commune depuis le recensement de 1962 (1961 pour les Dom) à 1999''</ref> || 746 || 466 || 493 || 484 || 529 || 533 || 616 || 680
+|}
+
+== Dialekt ==
+Dr [[Elsässisch|elsassisch]] Dialekt vun Rosewiller ghert zem [[Oberrheinalemannisch|Owerrhinàlemànnisch]].
+
+<gallery widths="200" heights="180" perrow="2">
+Datei:Rosenwiller 057.JPG|Kirich Notre-Dame-de-l'Assomption
+Datei:Rosenwiller 048.JPG|Rue principale
+</gallery>
+
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+{{Commonscat|Rosenwiller}}
+
+== Referanza ==
+<references/>
+
+{{Navigationsleiste Gemeinden im Kanton Molsheim}}
+
+{{Normdaten}}
+
+[[Kategorie:Ort (Unterelsass)]]

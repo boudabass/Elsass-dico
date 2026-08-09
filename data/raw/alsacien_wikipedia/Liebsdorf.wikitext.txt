@@ -1,0 +1,47 @@
+{{DISPLAYTITLE:Liebsderf}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Liebsdorf
+| nomalsacien = Liebsderf
+| alt moy = 473
+| alt mini = 420
+| alt maxi = 683
+| km² = 4.22
+| image = Liebsdorf, Eglise Saint-Jean.jpg
+| description = Kirich Saint-Jean Liebsderf
+|}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Liebsderf''' ([[Französische Sprache|frz.]] ''Liebsdorf'', [[Deutsche Sprache|dt.]] ''Liebsdorf'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Haut-Rhin|Owerelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}.
+
+== Gschìcht ==
+Liebsderf ìsch zem erschte Mol gnannt worre ànne 1179 àls ''Lopestorff''.
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Liebsderf ìsch {{Maires|FR|{{#Property:P374}}}}. Liebsderf ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Bevelkerungsentwìcklung ==
+{| class="wikitable" width=400
+|- align=center class="hintergrundfarbe5"
+|align=left|'''Johr''' || '''1962''' || '''1968''' || '''1975''' || '''1982''' || '''1990''' || '''1999''' || '''2007'''
+|- align=center
+|align=left|'''Inwohner'''<ref>[[Institut National de la Statistique et des Études Économiques|INSEE]]: ''Population et logements par commune depuis le recensement de 1962 (1961 pour les Dom) à 1999''</ref> || 241 || 242 || 215 || 227 || 257 || 289 || 338
+|}
+
+== Dialekt ==
+Dr [[Elsässisch|elsassisch]] Dialekt vun Liebsderf ghert zem [[Hochalemannisch|Hochàlemànnisch]].
+
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+* {{Commonscat|Liebsdorf}}
+
+== Referanza ==
+<references/>
+
+{{Navigationsleiste Gemeinden im Kanton Altkirch}}
+
+{{Normdaten}}
+
+[[Kategorie:Ort (Owerelsàss)]]

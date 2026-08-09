@@ -1,0 +1,49 @@
+{{DISPLAYTITLE:Hatteschlàg}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Hettenschlag
+| nomalsacien = Hatteschlàg
+| alt moy = 197
+| alt mini = 194
+| alt maxi = 202
+| km² = 7.71
+|}}
+'''Hatteschlàg''' ([[IPA]]: [{{IPA|hæd̥əʃlaːg̊}}]; [[Französische Sprache|frz.]] ''Hettenschlag'') isch e [[Frankreich|französischi]] Gmeind im [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}} ({{Kanton|FR|{{#Property:P374}}}}) im [[Département Haut-Rhin|Owerelsàss]] (Haut-Rhin). S'Dorf ghört im Kommunalverband {{Kommunalverband|FR|{{#Property:P374}}}} a.
+
+==Geographi==
+Die klei Gmeind ligt am Schnittpunkt vu dr Strosse vu [[Sainte-Croix-en-Plaine|Heiligkriz]] im Weschte uf [[Weckolsheim|Weckolse]] im Oschte sowie vu [[Appenweiher|Appewihr]] im Norde uf [[Dessenheim|Dessene]] im Süde in dr Rhiebeni, guet 10 km südöschtlich vu [[Colmar|Colmer]] in dr [[Oberheinische Tiefebene|Owerrhinebene]] zwische [[Ill (Elsass)|Ill]] un [[Rhein|Rhin]].
+
+== Gschicht ==
+Urkundlich wird dr Ort s'erschtmol anno 792 als Besitz von dr Abtei z'Murbach underen Nam Hettanerloh erwähnt, wie e merowingische Fridhof bezigt, isch er aber schu vorher bsidelt gsi. Im Läuf vom 15. Johrhundert isch dr Ort offebar ufgäwe worde un isch späteschtens um die Zit vum [[Dreissigjähriger Krieg|Drissigjährige Krieg]] nimmi besidlet gsin. Gege End vom 18. Johrhundert isch an dr Stell von dr alde Ortschaft no e Neugründung erfolgt, wozüe de Wald hät mieße grodet werre, wu zwischezitlig do gwachse isch. Én der Métte vum 19. Johrhundert ésch d'Kérech mét em Name ''Eglise de la Présentation de la Vierge'' boie wore.
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Hatteschlàg ìsch {{Maires|FR|{{#Property:P374}}}}. Hatteschlàg ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+==Wirtschaft==
+Dr Ort isch stark landwirtschaftlich prägt. Es werre hauptsächlich Welschkorn (Mais), Getreide un Wii produziert, denewe git's Vihhaldung (Rinder, Schof, Säu, Hiehner).
+
+<gallery widths="200" heights="180" perrow="2">
+Datei:Hettenschlag, Eglise de la Présentation de la Vierge.jpg|Kirich
+</gallery>
+
+=== Bevelkerungsentwìcklung ===
+{| class="wikitable" width=400
+|- align=center class="hintergrundfarbe5"
+|align=left | '''Johr''' || '''1962''' || '''1968''' || '''1975''' || '''1982''' || '''1990''' || '''1999''' || '''2007'''
+|- align=center
+|align=left|'''Inwohner'''<ref>[[Institut National de la Statistique et des Études Économiques|INSEE]]: ''Population et logements par commune depuis le recensement de 1962 (1961 pour les Dom) à 1999''</ref> || 197 || 200 || 207 || 223 || 246 || 287 || 328
+|}
+
+== Weblink ==
+* {{Commonscat|Hettenschlag}}
+* [http://hubert.miehe.free.fr/communes/hettenschlag.htm Hatteschlàg uf em Uftritt vom Kanton Nej-Brisach]
+
+== Referanza ==
+<references/>
+
+{{Navigationsleiste Gemeinden im Kanton Ensisheim}}
+
+{{Normdaten}}
+
+[[Kategorie:Ort (Owerelsàss)]]

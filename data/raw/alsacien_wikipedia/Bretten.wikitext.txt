@@ -1,0 +1,83 @@
+{{DISPLAYTITLE:Brette}}
+{{Infobox Gemeinde in Deutschland
+| Art = Stadt
+| Wappen = Coat of Arms Bretten (de).svg
+| Breitengrad = 49/02/11/N
+| Längengrad = 08/42/22/E
+| Lageplan = Bretten im Landkreis Karlsruhe.png
+| Bundesland = Baden-Württemberg
+| Regierungsbezirk = Karlsruhe
+| Landkreis = Karlsruhe
+| Landkreisalem = Charlsrue
+| Höhe = 176
+| Fläche = 71.12
+| PLZ = 75015
+| PLZ-alt = 7518
+| Vorwahl = 07252 und 07258 (Bauerbach)
+| Kfz = KA
+| Gemeindeschlüssel = 08215007
+| Gliederung = Kernstadt und 9 Stadtteile
+| Straße = Untere Kirchgasse 9
+| Website = [http://www.bretten.de/ www.bretten.de]
+| Bürgermeister = [[Martin Wolff (Politiker)|Martin Wolff]]
+| Partei = unabhängig
+| Bürgermeistertitel = Oberbürgermeister
+}}
+[[Datei:Bretten-luftbild.jpg|mini|Luftbild vo West no Ost]]
+[[Datei:Bretten vom Burgwäldle 2014 05 04.jpg|miniatur|Blick uf Brette vom Burgwäldle]]
+[[Datei:BrettenMarktplatz.jpg|miniatur|Marktplatz]]
+'''Brette''' (amtlich: ''Bretten''; [[Südfränkische Dialekte|sidfränkisch]]: ''Bredde'') isch e [[Stadt|Schtadt]] im [[Kraichgau]], öppe 23 Kilometer nordöschtlich vo [[Karlsruhe|Karlsrue]] im [[Deutschland|dütsche]] [[Land (Deutschland)|Bundesland]] [[Baden-Württemberg|Bade-Württeberg]]. Nach [[Bruchsal|Brusel]] und [[Ettlingen|Ettlinge]] isch Brette die drittgrössti Schtadt im [[Landkreis Karlsruhe|Landkreis Karlrue]]. De bekanntesti Bettener isch de [[Philipp Melanchthon]], wo näbe em Luther d [[Reformation]] z [[Wittenberg|Wittebärg]] und wit drüber usse prägt het.
+
+== Geographii ==
+Brette ligt im Kraichgau uf de Wasserscheid zwüsche em Walzbach und em [[Saalbach (Rhein)|Saalbach]] im Südweschte bis zum [[Kraichbach]]tal im Nordoschte. 
+Nochbargmeinde und Städt vo Brette sin [[Knittlingen|Knittlinge]], [[Neulingen|Neulinge]], [[Königsbach-Stein|Königsbach-Stei]], [[Walzbachtal]], [[Gondelsheim|Gondelse]], [[Bruchsal|Brusel]], [[Kraichtal]] un [[Oberderdingen|Oberderdinge]].
+
+== Gmaigliderig ==
+Zue Bretten ghere d Stadtdail Bauerbach, Bretten, Büchig bei Bretten, Diedelsheim, Dürrenbüchig, Gölshausen, Neibsheim, Rinklingen, Ruit un Sprantal.
+
+== Gschicht ==
+Bretten isch zum erschte Mol gnännt wore anne 767 as ''Villa Breteheim'' im [[Lorscher Codex]].
+
+== Verwaltig ==
+Bretten het mit dr Gmai Gondelsheim e Verwaltigsgmaischaft veryybart.
+
+Dr Oberburgermaischter vu Bretten isch dr Martin Wolff.
+
+=== Wahle ===
+Ergebnis vu dr Landdagswahle syt 2006:<ref>Statistisches Landesamt Baden-Württemberg: {{Webarchiv|url=https://www.statistik-bw.de/Wahlen/Landtag/ |wayback=20190707200830 |text=Landtagswahl |archiv-bot=2020-03-02 10:07:11 InternetArchiveBot }}</ref> 
+{| class="wikitable" width=350
+|- align=center class="hintergrundfarbe5"
+|align=left | '''Johr''' || '''CDU''' || '''SPD''' || '''Grieni''' || '''FDP''' || '''Linki'''<sup>1</sup> || '''AfD''' || '''Sunschtigi''' 
+|- align=center
+|align=left| '''2016''' || 28,7 % || 11 % || 27,6 % || 7,3 % || 2,6 % || 19,2 % || 3,7 %
+|- align=center
+|align=left| '''2011''' || 42,2 % || 22 % || 22,3 % || 4,7 % || 2,5 % || || 6,3 % 
+|- align=center
+|align=left| '''2006''' || 46 % || 29,3 % || 8,8 % || 8,9 % || 3,2 % || || 3,7 % 
+|}
+<sup>1</sup> 2006: WASG, syt 2011: Die Linke
+
+== Dialäkt ==
+Dr Dialäkt vu Bretten ghert zum [[Südfränkische Dialekte|Sidfränkisch]]
+
+== Literatur ==
+* Stadt Bretten und Landesbildstelle Baden (Hrsg.): ''Große Kreisstadt – Melanchthonstadt Bretten.'' verlag regionalkultur, Ubstadt-Weiher 1997, ISBN 978-3-929366-42-6.
+* Dr. Alfons Schäfer, Stadtverwaltung Bretten (Hrsg.): ''Geschichte der Stadt Bretten von den Anfängen bis zur Zerstörung im Jahre 1689'', Bretten 1977.
+* Alfred Straub, Stadt Bretten (Hrsg.): ''Geschichte der Stadt Bretten in neuerer Zeit'', Bretten 1990, ISBN 3-928029-02-9
+* Peter Bahn (Hrsg.): ''Stadtführer Bretten. Kultur und Geschichte im südlichen Kraichgau.'' verlag regionalkultur, Ubstadt-Weiher 1993, ISBN 978-3-9802218-8-7.
+* Manfred Störzer: ''Wasser für Bretten. Geschichte und Technik.'' verlag regionalkultur, Ubstadt-Weiher 1994, ISBN 978-3-929366-05-1.
+* Peter Bahn (Hrsg.): ''„Als ich ein Kind war…“. Bretten 1497 – Alltag im Spätmittelalter.'' verlag regionalkultur, Ubstadt-Weiher 1997, ISBN 978-3-929366-43-3.
+* Erich Keyser (Hrsg.): ''Badisches Städtebuch''; Band IV 2. Teilband aus Deutsches Städtebuch. Handbuch städtischer Geschichte. Stuttgart 1959.
+* Benita Luckmann: ''Politik in einer deutschen Kleinstadt.'' Enke, Stuttgart 1970, ISBN 3-432-01618-2.
+
+== Weblink ==
+{{Commonscat|Bretten}}
+* [https://web.archive.org/web/20150625021103/http://www.bretten.de/ www.bretten.de]
+
+== Fueßnote ==
+<references/>
+
+{{Navigationsleiste Städte und Gemeinden im Landkreis Karlsruhe}}
+
+{{Normdaten}}
+[[Kategorie:Ort (Landkreis Karlsrue)]]

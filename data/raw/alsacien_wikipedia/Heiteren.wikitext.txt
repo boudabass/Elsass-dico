@@ -1,0 +1,49 @@
+{{DISPLAYTITLE:Haitre}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Heiteren
+| nomalsacien = Haitre
+| alt moy = 200
+| alt mini = 196
+| alt maxi = 209
+| km² = 22.4
+| image = Heiteren, Église Saint-Jacques-le-Majeur 1.jpg
+| description = Chilche Saint-Jacques
+|}}
+
+'''Haitre''' ([[IPA]]: [{{IPA|hai̯d̥rə}}]; [[Französische Sprache|frz.]] ''Heiteren'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Haut-Rhin|Owerelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}. S'Dorf, wu entlang von ere Wescht-Oscht-Ax lit, ghört im Kommunalverband {{Kommunalverband|FR|{{#Property:P374}}}} a.
+
+== Geographi ==
+Durch Heitere verlauft d'Verbindungsstross D 468 von [[Neuf-Brisach|Nej-Brisach]] uf Kembs, wo 1&nbsp;km nördlich vu Heitere no bis Nej-Brisach uf ere alde [[Römerstraße|Römrstrass]] ligt. Bi Heitere selber isch d'Römrstross inzwische e landwirtschaftliche Weg, wo Haitre am Weschtend vum Ort schnidet.
+
+Haitre ligt zwische dr alde Römrstross im Weschte un dr stillglegte Bahnlinie [[Volgelsheim|Volgelse]] - [[Bantzenheim|Bantzene]] im Oschte, D'Bahnlinie bestoht jetzt numme no als Industrigleis zum Kernkraftwerk [[Fessenheim|Fàssene]] in ihrem südliche Drittel.
+
+== Gschicht ==
+Haitre wird als ''Heiderheim'' 768 erschtmols urkundlich erwähnt. Im [[Dreißigjähriger Krieg|Drissigjährige Krieg]] hän schwedischi Söldner d'Bevölkerung massakriert.
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert. 1977 isch z´Haitre ä Hochsschpannungsmascht vun de Schtromleitung Fessene - Paris bsetzt worre. <ref>[https://www.mitwelt.org/mastbesetzung-heiteren-f-fessenheim]"Maschtbesetzung in Haitre" uf mitwelt.org</ref>
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Haitre ìsch {{Maires|FR|{{#Property:P374}}}}. Haitre ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Bevölkerung ==
+D'Inwohnerzahl isch zwische 1960 un 1990 um 550 Persone gschwankt, bis 1999 no awer uf fascht 800 Lit relativ stark agstige.
+
+== Wirtschaft ==
+Dr Ort isch landwirtschaftlich prägt. Abau vu [[Getreide|Frucht]] un Vihhaldung (Rinder, Säu) dominiere d'Produktion. Es git e grossi landwirtschaftlichi Gnosseschaft.
+
+== Söhn un Döchter vu dr Gmei ==
+Camille Alfred Pabst, 1828 z'Haitre uf d Wàlt ko un 1898 z'[[Paris]] gstorbe. Z'erscht isch er Anwalt z [[Colmar|Colmer]] gsin, später no Moler z Paris. Sin Werk "La veille du mariage" isch im [[Unterlindenmuseum]] z'Colmer usgstellt.
+
+== Weblink ==
+* {{Commonscat|Heiteren}}
+* [http://www.heiteren.fr/ Uftritt von dr Gmeind Heitere] (französisch)
+* [http://hubert.miehe.free.fr/communes/heiteren.htm Heitere uf em Uftritt vom Kanton Nej-Brisach] (französisch)
+
+== Referanza ==
+<references/>
+
+{{Navigationsleiste Gemeinden im Kanton Ensisheim}}
+
+{{Normdaten}}
+
+[[Kategorie:Ort (Owerelsàss)]]

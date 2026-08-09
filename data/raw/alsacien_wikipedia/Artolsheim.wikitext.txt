@@ -1,0 +1,59 @@
+{{DISPLAYTITLE:Àrtelse}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Artolsheim
+| nomalsacien = Àrtelse
+| alt moy = 168–174
+| km² = 11.25
+| image = Artolsheim 057.JPG
+| description = Ortsingàng
+|}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Àrtelse''' ([[Französische Sprache|frz.]] ''Artolsheim'', [[Deutsche Sprache|dt.]] ''Artolsheim'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Bas-Rhin|Unterelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}.
+
+== Geogràfi ==
+S Dorf lijt àn dr Départementsstroß D 468 eschtlich vum [[Rhein-Rhône-Kanal|Rhin-Rhône-Kànàl]].
+
+== Gschìcht ==
+Àrtelse ìsch zem erschte Mol gnannt worre ànne 817 àls ''Artolsvesheim''.
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Àrtelse ìsch {{Maires|FR|{{#Property:P374}}}}. Àrtelse ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Bevelkerungsentwìcklung ==
+{| class="wikitable" width=400
+|- align=center class="hintergrundfarbe5"
+|align=left | '''Johr''' || '''1962''' || '''1968''' || '''1975''' || '''1982''' || '''1990''' || '''1999''' || '''2005'''
+|- align=center
+|align=left|'''Inwohner'''<ref>[[Institut National de la Statistique et des Études Économiques|INSEE]]: ''Population et logements par commune depuis le recensement de 1962 (1961 pour les Dom) à 1999''</ref> || 694 || 705 || 630 || 649 || 643 || 728 || 848
+|}
+
+== Dialekt ==
+Dr [[Elsässisch|elsassisch]] Dialekt vun Àrtelse ghert zem [[Oberrheinalemannisch|Owerrhinàlemànnisch]].
+
+== Böiwark ==
+* Kàtholische Kìrich Saint Maurice (1850)
+* Kàpall vum Heilije Kriz
+
+<gallery>
+Datei:Artolsheim 068.JPG|Kàtholische Kìrich 
+Datei:Artolsheim 073.JPG|Kàpall vum Heilije Kriz
+Datei:Artolsheim 061.JPG|Mairie
+Datei:Artolsheim 071.JPG|Sprìtzehüs un Wàchthüs
+Datei:Artolsheim 066.JPG|Fàchwarkhüs
+</gallery>
+
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+{{Commonscat}}
+
+== Referanza ==
+<references />
+
+{{Navigationsleiste Gemeinden im Kanton Sélestat}}
+{{Normdaten}}
+
+[[Kategorie:Ort (Unterelsass)]]

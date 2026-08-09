@@ -1,0 +1,54 @@
+{{DISPLAYTITLE:Zallebarg}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Zellenberg
+| nomalsacien = Zallebarg
+| alt moy = 268
+| alt mini = 183
+| alt maxi = 374
+| km² = 4.96
+| image = Zellenberg 177.JPG
+| description = Zallebarg
+|}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Zallebarg''' ([[Französische Sprache|frz.]] ''Zellenberg'', [[Deutsche Sprache|dt.]] ''Zellenberg'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Haut-Rhin|Owerelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}.
+
+== Gschìcht ==
+Zallebarg ìsch zem erschte Mol gnannt worre ìm 9. Jh. àls ''Cellanberghe''.
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Zallebarg ìsch {{Maires|FR|{{#Property:P374}}}}. Zallebarg ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Bevelkerungsentwìcklung ==
+{|class=wikitable align=center width=360
+|- style="background:#E1FFE1;" align=center
+|align=left | '''Johr''' || 1962 || 1968 || 1975 || 1982 || 1990 || 1999 || 2005
+|- align=center
+| align=left | '''Inwohner'''<ref>[[Institut National de la Statistique et des Études Économiques|INSEE]]: ''Population et logements par commune depuis le recensement de 1962 (1961 pour les Dom) à 1999''</ref> || 304 || 311 || 327 || 354 || 343 || 391 || 397
+|}
+
+== Dialekt ==
+Dr [[Elsässisch|elsassisch]] Dialekt vun Zallebarg ghert zem [[Oberrheinalemannisch|Owerrhinàlemànnisch]].
+
+<gallery widths="200" heights="180" perrow="2">
+Datei:Zellenberg 144.JPG|S Àlt Bàckhüs
+Datei:Zellenberg 141.JPG|Kirch. St. Ulrich
+</gallery>
+
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+{{commonscat|Zellenberg|Zallebarg}}
+{{Wikisource|Topographia Alsatiae: Zellenberg|Zellenberg in der Topographia Alsatiae (M. Merian)}}
+* http://www.zellenberg.org
+
+== Referanza ==
+<references/>
+
+{{Navigationsleiste Gemeinden im Kanton Markirch}}
+
+{{Normdaten}}
+
+[[Kategorie:Ort (Owerelsàss)]]

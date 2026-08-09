@@ -1,0 +1,59 @@
+{{DISPLAYTITLE:Àdàmswiller}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Adamswiller
+| nomalsacien = Àdàmswiller
+| alt moy = 234–303
+| km² = 3.40
+| image = Adamswiller-aerien.jpg
+| description = Àdàmswiller
+|}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Àdàmswiller''', oder àui '''Willer''' ([[Französische Sprache|frz.]] ''Adamswiller'', [[Deutsche Sprache|dt.]] ''Adamsweiler'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Bas-Rhin|Unterelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}.
+
+== Geografie ==
+S Stroßedorf lijt àm Rànd vum [[Biosphärenreservat Pfälzerwald-Vosges du Nord|Nàtürpàrk Nordvogese]].
+
+== Gschìcht ==
+Àdàmswiller ìsch zem erschte Mol gnannt worre ànne 777 àls ''Adimartia villa''.
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Àdàmswiller ìsch {{Maires|FR|{{#Property:P374}}}}. Àdàmswiller ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Bevelkerungsentwìcklung ==
+
+{| align="center" rules="all" cellspacing="0" cellpadding="4" style="border: 1px solid #999; border-right: 2px solid #999; border-bottom:2px solid #999; background: #f3fff3"
+|+ style="font-weight: bold; font-size: 1.1em; margin-bottom: 0.5em"| Entwicklung vun dr Inwohnerzàhl<ref>[http://cassini.ehess.fr/cassini/fr/html/fiche.php?select_resultat=120 cassini.ehess.fr]</ref> 
+|-style="background: #ddffdd"
+! 1793 !! 1800 !! 1806 !! 1821 !! 1831 !! 1836 !! 1841 !! 1846 !! 1851 !! 1856 !! 1861 !! 1866 
+|-
+| 215 || 210 || 246 || 326 || 324 || 296 || 308 || 305 || 289 || 275 || 277 || 289 
+|-style="background: #ddffdd"
+! 1871 !! 1875 !! 1880 !! 1885 !! 1890 !! 1895 !! 1900 !! 1905 !! 1910 !! 1921 !! 1926 !! 1931 
+|-
+| 299 || 286 || 280 || 274 || 265 || 303 || 313 || 335 || 331 || 317 || 332 || 334 
+|-style="background: #ddffdd"
+! 1936 !! 1946 !! 1954 !! 1962 !! 1968 !! 1975 !! 1982 !! 1990 !! 1999 !! 2006 !! 2012 !!	 
+|-
+| 343 || 356 || 366 || 406 || 427 || 429 || 460 || 469 || 459 || 393 || 408 || 
+|-
+|}
+
+== Dialekt ==
+Dr [[Lothringisch (Rheinfränkisch)|lothringisch]] Dialekt vun Àdàmswiller ghert zem [[Rheinfränkisch|Rhinfrankisch]].
+
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+{{Commonscat|Adamswiller}}
+* [https://web.archive.org/web/20160226024212/http://www.cc-alsace-bossue.net/html/index.php?page=2&menu1=17&menu2=1&menu3=6&page_id=721 Àdàmswiller] bi dr CC Alsace Bossue
+
+== Referanza ==
+<references/>
+
+{{Navigationsleiste Gemeinden im Kanton Ingweiler}}
+{{Normdaten}}
+
+[[Kategorie:Ort (Unterelsass)]]

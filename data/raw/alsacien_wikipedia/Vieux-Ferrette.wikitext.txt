@@ -1,0 +1,47 @@
+{{DISPLAYTITLE:Àlt-Pfìrt}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Vieux-Ferrette
+| nomalsacien = Àlt-Pfìrt
+| alt moy = 419
+| alt mini = 419
+| alt maxi = 670
+| km² = 6,63
+|}}
+
+'''Àlt-Pfìrt''' ([[französische Sprache|frz.]] ''Vieux-Ferrette'', [[Deutsche Sprache|dt.]] ''Altpfirt'') isch e Gmeind im [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}} ({{Kanton|FR|{{#Property:P374}}}}) im [[Département Haut-Rhin|Owerelsàss]] (Haut-Rhin). Im Dorf hets vili erhalteni Fachwerkhüser.
+
+== Gschicht ==
+Im Johr 1124 isch s Schloss vo Àlt-Pfìrt s erschte Mol in ere Urkunde gnennt worde, s Dorf sälber erscht me wi hundert Johr schpöter, im 1269i. Immer wider sin Plünderige un Zerstörige vom Schloss un em Dorf belegt, so au im 1445 durch d [[Basel|Basler]] un im 1633, also wärend em [[Dreissigjähriger Krieg|Driisigjöhrige Chrieg]], vo de Schwede.
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vo Àlt-Pfìrt isch {{Maires|FR|{{#Property:P374}}}}. D Gmeind ghört zum Gmeindsverband {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Bevölkerigsentwicklig ==
+{| class="wikitable" width=400
+|- align=center class="hintergrundfarbe5"
+|align=left | '''Johr''' || '''1962''' || '''1968''' || '''1975''' || '''1982''' || '''1990''' || '''1999''' || '''2007'''
+|- align=center
+|align=left|'''Iiwohner''' || 416 || 428 || 426 || 461 || 525 || 526 || 561
+|}
+
+== Dialekt ==
+Dr [[Elsässisch|elsassisch]] Dialekt vun Àlt-Pfìrt ghert zem [[Hochalemannisch|Hochàlemànnisch]].
+
+{|
+|[[Datei:Vieux Ferrette 104.jpg|thumb|left|D Chile]]
+|[[Datei:Vieux Ferrette 102.jpg|thumb|Fachwerchhuuse]]
+|}
+
+== Weblink ==
+{{commonscat|Vieux-Ferrette|Àlt-Pfìrt}}
+
+== Referanza ==
+<references/>
+
+{{Navigationsleiste Gemeinden im Kanton Altkirch}}
+
+{{Normdaten}}
+
+[[Kategorie:Ort (Owerelsàss)]]

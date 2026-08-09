@@ -1,0 +1,62 @@
+{{DISPLAYTITLE:Bänem}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Beinheim
+| nomalsacien = Bänem
+|km² = 15.23
+| alt moy = 111–121
+| image = Beinheim FR.jpg
+| description = Bänem
+|}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Bänem''' ([[Französische Sprache|frz.]] ''Beinheim'', [[Deutsche Sprache|dt.]] ''Beinheim'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Bas-Rhin|Unterelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}.
+
+== Geogràfi ==
+Bänem lijt àm Rhin direkt àn dr Granz züe [[Deutschland|Ditschlànd]].
+
+== Gschìcht ==
+Bänem ìsch zem erschte Mol gnannt worre ànne 745 àls ''Badanandovilla'' (773: ''Bainenheim'', 884: ''Beininheim'').
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Bänem ìsch {{Maires|FR|{{#Property:P374}}}}. Bänem ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Bevelkerungsentwìcklung ==
+{| class="wikitable" width=400
+|- align=center class="hintergrundfarbe5"
+|align=left | '''Johr''' || '''1962''' || '''1968''' || '''1975''' || '''1982''' || '''1990''' || '''1999''' || '''2006'''
+|- align=center
+|align=left|'''Inwohner'''<ref>[[Institut National de la Statistique et des Études Économiques|INSEE]]: ''Population et logements par commune depuis le recensement de 1962 (1961 pour les Dom) à 1999''</ref> || 988 || 1059 || 1268 || 1457 || 1556 || 1790 || 1881
+|}
+
+== Dialekt ==
+Dr [[Elsässisch|elsassisch]] Dialekt vun Bänem ghert zem [[Oberrheinalemannisch|Owerrhinàlemànnisch]].
+
+== Böiwark ==
+* Kìrich ''Sainte-Croix'' (1760)
+* Kàpall ''Saint-Vit'' (1352)
+
+<gallery>
+Datei:Beinheim.jpg|Bänem um 1905
+Datei:Beinheim-Kirche Sainte-Croix-01c-gje.jpg|Kìrich Sainte-Croix
+Datei:Beinheim-Kapelle Sankt Vitus-08-gje.jpg|Kàpall Saint-Vit
+Datei:Beinheim-14b-Rue Principale 8-6-gje.jpg|Bänem
+Datei:BrueckeBeinheim.jpg|Rhinbruck bi Bänem
+</gallery>
+
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+{{Commonscat}}
+{{Wikisource|Topographia Sueviae (Schwaben): Beinheim|Beinheim in der Topographia Sueviae (Mathäus Merian) von 1656}}
+* http://www.beinheim.fr
+
+== Referanza ==
+<references />
+
+{{Navigationsleiste Gemeinden im Kanton Weissenburg}}
+
+{{Normdaten}}
+
+[[Kategorie:Ort (Unterelsass)]]

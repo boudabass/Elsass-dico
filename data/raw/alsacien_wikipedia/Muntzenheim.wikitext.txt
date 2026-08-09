@@ -1,0 +1,61 @@
+{{DISPLAYTITLE:Munze}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Muntzenheim
+| nomalsacien = Munze
+| alt moy = 185
+| alt mini = 181
+| alt maxi = 187
+| km² = 6.48
+|}}
+'''Munze''' ([[Französische Sprache|frz.]] ''Muntzenheim'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Haut-Rhin|Owerelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}. S Dorf isch Mitglid vum interkommunale Zweckverband {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Geographi ==
+S Dorf lijt in dr [[Oberrheinische Tiefebene|Owerrhineweni]] direkt südlich vum [[Canal de Colmar|Colmerer Kanal]] zwische [[Wickerschwihr]] im Weschte un [[Durrenentzen|Dìrrenànze]] im Südoschte. Nördlich vum Kanal verläuft d Umgehungsstross D111 vu Wickerschwihr uff [[Artzenheim|Aarze]] im Nordoschte. 2 km direkt nördlich vu Munze lijt [[Jebsheim|Iebse]]. Numme durch Gmeistrosse isch Munze mit [[Bischwihr]] un [[Fortschwihr]] im Südweschte sowie [[Urschenheim|Ürsche]] im Südoschte verbunde.
+
+D Gmei isch vu Felder umgäwe un het kei Wald uf dr Gmarkung.
+
+== Gschicht ==
+Munze wir zerscht Mol in ere Urkunde vu dr [[Abtei]] vu [[Münster im Elsass|Minschter]] vom 4. März 673 als „Monesensisheim“ erwähnt. 
+
+Im Hochmittelalter het dr Ort zue [[Horbourg|Horwrig (Horburg)]] ghört un isch 1324 no an [[Württemberg|Wirdebàrig]] gfalle. Mit dr Infüehrung vu dr [[Reformation]] 1535 in Wirdebàrig isch au Munze evangelisch worre. Am End vum 17. Johrhundert isch dr Ort no unter franzeeschi Souveränität kumme, aber trotzdem bis zue dr [[Französische Revolution|Grosse Revolution]] 1789 bi Wirdebàrig bliwe. Mit em Wechsel vum Ditsche Riich zue Frankriich hän d Wirdebariger awer wiider dr Katholizismus erläuwe miesse. D Bevölkerung isch trotzdem evangelisch bliwe.
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Munze ìsch {{Maires|FR|{{#Property:P374}}}}. Munze ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Bevölkerung ==
+Munze het anno 2006 knapp iwer 1000 Inwohner gha. Örtlichi Regionalsproch isch [[Elsässisch|Elsàsserditsch]].
+
+{|class="wikitable"
+!align=left|Johr
+!1962
+!1968 
+!1975
+!1982
+!1990
+!1999
+!2006
+|- align=center
+!align=left|Inwohner
+|366 || 411 || 527 || 844 || 860 || 912 || 1013
+|}
+
+<gallery>
+Datei:Muntzenheim 035.JPG|<center>Kiriche St. Urban</center>
+Datei:Muntzenheim 022.JPG|<center>Evangelisch-methodistische Kirich</center>
+</gallery>
+
+== Weblink ==
+{{Commonscat|Muntzenheim}}
+* [https://web.archive.org/web/20070709052823/http://www.quid.fr/communes.html?mode=detail&id=736&req=Mun&style=fiche Dateblatt zue Munze bi quid.fr]
+* [https://web.archive.org/web/20080107083151/http://www.cc-riedbrun.fr/ Munze uf dr Site vum Zweckverband Brüns Ried]
+
+== Referanza ==
+<references />
+
+{{Navigationsleiste Gemeinden im Kanton Colmar-2}}
+
+{{Normdaten}}
+
+[[Kategorie:Ort (Owerelsàss)]]

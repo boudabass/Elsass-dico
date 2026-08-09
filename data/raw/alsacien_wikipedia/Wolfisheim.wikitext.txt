@@ -1,0 +1,57 @@
+{{DISPLAYTITLE:Wolfze}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Wolfisheim
+| nomalsacien = Wolfze
+| alt moy = 141–172
+| km² = 5.57
+| image = Wolfisheim, Mairie.jpg
+| description = Mairie
+|}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Wolfze''' ([[Französische Sprache|frz.]] ''Wolfisheim'', [[Deutsche Sprache|dt.]] ''Wolfisheim'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Bas-Rhin|Unterelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}.
+
+== Geogràfi ==
+Wolfze lijt ìm Weschte vun [[Straßburg|Stroßburi]]. Nochbergmeine sìn [[Oberschäffolsheim|Schafelse]] ìm Weschte, [[Eckbolsheim|Eckelse]] ìm Oschte, [[Oberhausbergen|Ìwerhüsbarje]] ìm Norde und [[Holzheim (Unterelsass)|Holze]] ìm Sìde.
+
+== Gschìcht ==
+Wolfze ìsch zem erschte Mol gnannt worre ànne 768 àls ''Wolfrigesheim''.
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Wolfze ìsch {{Maires|FR|{{#Property:P374}}}}. Wolfze ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Bevelkerungsentwìcklung ==
+{| class="wikitable" width=400
+|- align=center class="hintergrundfarbe5"
+|align=left | '''Johr''' || '''1962''' || '''1968''' || '''1975''' || '''1982''' || '''1990''' || '''1999''' || '''2006''' || '''2010'''
+|- align=center
+|align=left|'''Inwohner'''<ref>[[Institut National de la Statistique et des Études Économiques|INSEE]]: ''Population et logements par commune depuis le recensement de 1962 (1961 pour les Dom) à 1999''</ref> || 1679 || 1780 || 2014 || 2135 || 2674 || 3832 || 3930 || 3998
+|}
+
+== Dialekt ==
+Dr [[Elsässisch|elsassisch]] Dialekt vun Wolfze ghert zem [[Oberrheinalemannisch|Owerrhinàlemànnisch]].
+
+{|
+|[[Datei:Synagogue de Wolfisheim.JPG|thumb|D Synàgog vun 1897]]
+|}
+
+== Litt ==
+*[[Georg Friedrich Strass]], (1701-1773), Goldschmìd und Juwelier vum [[Ludwig XV. (Frankreich)|Ludwig XV.]] 
+*[[Charles Adolphe Wurtz]], (1817-1884), Chemiker
+*[[Maxime Alexandre]], (1899-1976), sürreàlistischer Dìchter
+
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+{{Commonscat}}
+* https://web.archive.org/web/20191113065940/https://www.wolfisheim.fr/
+
+== Referanza ==
+<references />
+
+{{Navigationsleiste Gemeinden im Kanton Hönheim}}
+{{Normdaten}}
+
+[[Kategorie:Ort (Unterelsass)]]

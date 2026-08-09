@@ -1,0 +1,57 @@
+{{DISPLAYTITLE:Egsa}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Eguisheim
+| nomalsacien = Egsa
+| alt moy = 210
+| alt mini = 191
+| alt maxi = 764
+| km² = 14.13
+| image = Eguisheim chateau.JPG
+| description = Burig mit St.-Leo-Kapelle
+|}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Egsa''' ([[Französische Sprache|frz.]] ''Eguisheim'', [[Deutsche Sprache|dt.]] ''Egisheim'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Haut-Rhin|Owerelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}.
+
+== Gschìcht ==
+Egsa ìsch zem erschte Mol gnannt worre ànne 770 àls ''Aginesheim''. Es isch s Zentrum vo dr [[Grafschaft Egisheim|Groofschaft vo Egishäim]] worde, und d Herzög vom Elsass häi sich noch im benennt.
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Egsa ìsch {{Maires|FR|{{#Property:P374}}}}. Egsa ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Bevelkerungsentwìcklung ==
+{| class="wikitable" width=400
+|- align=center class="hintergrundfarbe5"
+|align=left | '''Johr''' || '''1962''' || '''1968''' || '''1975''' || '''1982''' || '''1990''' || '''1999''' || '''2007'''
+|- align=center
+|align=left|'''Inwohner'''<ref>[[Institut National de la Statistique et des Études Économiques|INSEE]]: ''Population et logements par commune depuis le recensement de 1962 (1961 pour les Dom) à 1999''</ref> || 1470 || 1519 || 1461 || 1438 || 1530 || 1549 || 1572
+|}
+
+== Dialekt ==
+Dr [[Elsässisch|elsassisch]] Dialekt vun Egsa ghert zem [[Oberrheinalemannisch|Owerrhinàlemànnisch]].
+
+{|
+|[[Datei:Timber_framing_and_flowers_in_Eguisheim_Alsace.jpg|thumb|left|upright=1.05|Blüeme un Fàchwarik z Egsa]]
+|[[Datei:Cadastreguisheim.jpg|thumb|Stàdtblàn vun Egsa]]
+|}
+{|
+|[[Datei:2007-06-09 Eguisheim 01.jpg|center|thumb|650px|Egsemer Stàdtkern]]
+|}
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+* {{commonscat|Eguisheim}}
+* {{Wikisource|Topographia Alsatiae: Egißheim|Egißheim in der Topographia Alsatiae (Matthäus Merian)}}
+* http://www.eguisheim.com
+* [http://www.ilotsacre.be/site/fr/infos/eguisheim.htm Regischter vun dr Frind vun Exe]
+
+== Referanza ==
+<references/>
+
+{{Navigationsleiste Gemeinden im Kanton Wintzenheim}}
+
+{{Normdaten}}
+
+[[Kategorie:Ort (Owerelsàss)]]

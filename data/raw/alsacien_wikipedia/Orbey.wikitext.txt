@@ -1,0 +1,57 @@
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Orbey
+| nomalsacien = Urwes
+| alt moy = 484
+| alt mini = 397
+| alt maxi = 1301
+| km² = 46.02
+| image = Orbey68.jpg
+| description = Orbey
+|}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Orbey''' ([[Elsässisch|els.]] ''Urwes'', [[Deutsche Sprache|dt.]] ''Urbeis'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Haut-Rhin|Owerelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}.
+
+== Gschìcht ==
+Orbey (vun germànisch *ur-bek „Bàch“) ìsch zem erschte Mol gnannt worre ànne 1049 àls ''Orbeiz'', 1080: ''Orbetz'', 1241: ''Urbeis'', 1318: ''Urbeisz'', 1421: ''vault d'Orbeis'', 1440: ''vaux de Urbeis'', 1580: ''Orbey''.
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Orbey ìsch {{Maires|FR|{{#Property:P374}}}}. Orbey ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Bevelkerungsentwìcklung ==
+{| class="wikitable" width=400
+|- align=center class="hintergrundfarbe5"
+|align=left | '''Johr''' || '''1962''' || '''1968''' || '''1975''' || '''1982''' || '''1990''' || '''1999''' || '''2006''' 
+|- align=center
+|align=left|'''Inwohner'''<ref>[[Institut National de la Statistique et des Études Économiques|INSEE]]: ''Population et logements par commune depuis le recensement de 1962 (1961 pour les Dom) à 1999''</ref> || 3236 || 3369 || 3114 || 3382 || 3548 || 3707
+|}
+
+== Dialekt ==
+Dr [[Langues d'oïl|romànisch]] Dialekt vun Orbey ghert zem [[Welche (Langue d'oïl)|Welche]] un domìt zem [[Lorrain]].
+
+<gallery widths="200" heights="180" perrow="2">
+Datei:Orbey 031.JPG|Ehmoli Kloschter Pairis
+Datei:Orbey 047.JPG|Kirch Saint-Urbain
+</gallery>
+<gallery widths="200" heights="180" perrow="2">
+Datei:Lacblanc pischdi 2005.jpg|Lac Blanc
+Datei:Lac noir alsace 4.jpg|Lac Noir
+</gallery>
+
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+{{commonscat}}
+* https://web.archive.org/web/20110824202858/http://www.orbey.fr/
+* [https://web.archive.org/web/20110120231624/http://www.linge1915.com/ Schlàchtfald ''Linge'' üs em Erschte Waltkriej mìt Gedankstätt]
+
+== Referanza ==
+<references/>
+
+{{Navigationsleiste Gemeinden im Kanton Markirch}}
+
+{{Normdaten}}
+
+[[Kategorie:Ort (Owerelsàss)]]

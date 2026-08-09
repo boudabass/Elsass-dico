@@ -1,0 +1,43 @@
+{{DISPLAYTITLE:Dunzne}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Duntzenheim
+| nomalsacien = Dunzne
+| alt moy = 172–253
+| km² = 6.21
+|}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Dunzne''' ([[Französische Sprache|frz.]] ''Duntzenheim'', [[Deutsche Sprache|dt.]] ''Dunzenheim'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Bas-Rhin|Unterelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}.
+
+== Gschìcht ==
+Dunzne ìsch zem erschte Mol gnannt worre ìm 9. Jh.
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Dunzne ìsch {{Maires|FR|{{#Property:P374}}}}. Dunzne ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Bevelkerungsentwìcklung ==
+{| class="wikitable" width=400
+|- align=center class="hintergrundfarbe5"
+|align=left | '''Johr''' || '''1962''' || '''1968''' || '''1975''' || '''1982''' || '''1990''' || '''1999''' || '''2006'''
+|- align=center
+|align=left|'''Inwohner'''<ref>[[Institut National de la Statistique et des Études Économiques|INSEE]]: ''Population et logements par commune depuis le recensement de 1962 (1961 pour les Dom) à 1999''</ref> || 450 || 455 || 436 || 472 || 511 || 544 || 587
+|}
+
+== Dialekt ==
+Dr [[Elsässisch|elsassisch]] Dialekt vun Dunzne ghert zem [[Oberrheinalemannisch|Owerrhinàlemànnisch]].
+
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+{{Commonscat|Duntzenheim}}
+* [http://www.mairie-duntzenheim.fr www.mairie-duntzenheim.fr]{{Toter Link|date=2017-09 |bot=InternetArchiveBot |url=http://www.mairie-duntzenheim.fr/}}
+
+== Referanza ==
+<references />
+
+{{Navigationsleiste Gemeinden im Kanton Buchsweiler}}
+{{Normdaten}}
+
+[[Kategorie:Ort (Unterelsass)]]

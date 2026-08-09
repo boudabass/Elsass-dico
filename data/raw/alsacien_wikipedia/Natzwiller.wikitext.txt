@@ -1,0 +1,56 @@
+{{DISPLAYTITLE:Nàswil}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Natzwiller
+| nomalsacien = Nàswil
+| alt moy = 379–1013
+| km² = 7.29
+| image = Town of Natzwiller.jpg
+| description = Nàswil
+|}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Nàswil''' ([[Französische Sprache|frz.]] ''Natzwiller'', [[Deutsche Sprache|dt.]] ''Natzweiler'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Bas-Rhin|Unterelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}.
+
+== Gschìcht ==
+Nàswil ìsch zem erschte Mol gnannt worre ànne 1667.
+
+Ìm [[Zweiter Weltkrieg|Zwete Waltkriej]] hàt s z Nàswil vum 1. Mai 1941 bis zem 23. November 1944 s [[KZ Natzweiler-Struthof|KZ Nàswil-Strüthof]] gan. 
+
+{|
+|[[Datei:Struthof portal.jpg|thumb|Ingàng zem KZ Nàswil-Strüthof]]
+|}
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Nàswil ìsch {{Maires|FR|{{#Property:P374}}}}. Nàswil ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Bevelkerungsentwìcklung ==
+{| class="wikitable" width=400
+|- align=center class="hintergrundfarbe5"
+|align=left | '''Johr''' || '''1962''' || '''1968''' || '''1975''' || '''1982''' || '''1990''' || '''1999''' || '''2006'''
+|- align=center
+|align=left|'''Inwohner'''<ref>[[Institut National de la Statistique et des Études Économiques|INSEE]]: ''Population et logements par commune depuis le recensement de 1962 (1961 pour les Dom) à 1999''</ref> || 763 || 776 || 702 || 658 || 634 || 624 || 599
+|}
+
+== Dialekt ==
+Dr [[Elsässisch|elsassisch]] Dialekt vun Nàswil ghert zem [[Oberrheinalemannisch|Owerrhinàlemànnisch]].
+
+<gallery widths="200" heights="180" perrow="2">
+Datei:Natzwiller-Mairie.jpg|Mairie
+Datei:Natzwiller-Eglise (1).jpg|Kirich Saint-Genès
+</gallery>
+
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+{{Commonscat|Natzwiller}}
+* https://web.archive.org/web/20160503030735/http://www.natzwiller.fr/ 
+* [https://web.archive.org/web/20160307124145/http://editions-hirle.com/ Raymond Couraud: ''Struthof-Natzweiler, un camp de la mort en France'']
+* [http://www.hautebruche.com/CARTE/fiche_commune.php?id=13 Nàswil] uf www.hautebruche.com
+
+== Referanza ==
+<references/>
+
+{{Navigationsleiste Gemeinden im Kanton Mutzig}}
+{{Normdaten}}
+
+[[Kategorie:Ort (Unterelsass)]]

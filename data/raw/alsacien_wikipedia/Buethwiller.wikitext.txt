@@ -1,0 +1,65 @@
+{{DISPLAYTITLE:Büethwiller}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Buethwiller
+| nomalsacien = Büethwiller
+| alt moy = 294
+| alt mini = 279
+| alt maxi = 317
+| km² = 3.84
+| image = Buethwiller, Ecole-mairie.jpg
+| description = Mairie un Schüel
+|}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Büethwiller''' ([[Französische Sprache|frz.]] ''Buethwiller'', [[Deutsche Sprache|dt.]] ''Bütweiler'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Haut-Rhin|Owerelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}.
+
+== Geogràfi ==
+Büethwiller lijt ìm [[Sundgau|Sundgoi]] àn dr [[Largue (Ill)|Làrg]], vier Kilometer nordeschtlich vun [[Dammerkirch|Dàmmerkìlch]], 17 Kilometer sìdweschtlich vun [[Sennheim|Sanne]] un 18 Kilometer sìdweschtlich vun [[Mülhausen (Elsass)|Mìlhüüse]], zwìsche dr Nochbergmeine [[Balschweiler|Bàlschwiller]] ìm Norde un [[Hagenbach (Oberelsass)|Hàgebàch]] ìm Sìde.
+
+== Gschìcht ==
+Büethwiller ìsch zem erschte Mol gnannt worre ànne 1343 àls ''Bütwyler'' (1420 ''Buotwiler'').
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Büethwiller ìsch {{Maires|FR|{{#Property:P374}}}}. Büethwiller ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Bevelkerungsentwìcklung ==
+{|class="wikitable"
+!|Johr
+!|1954
+!|1962
+!|1968
+!|1975
+!|1982
+!|1990
+!|1999
+!|2007
+|-
+| Inwohner || 202 || 174 || 184 || 201 || 218 || 199 || 224 || 277
+|}
+
+== Dialekt ==
+Dr [[Elsässisch|elsassisch]] Dialekt vun Büethwiller ghert zem [[Oberrheinalemannisch|Owerrhinàlemànnisch]].
+
+== Boiwark ==
+* Kìrech Saint-Étienne (1736)
+
+{|
+|[[Datei:Buethwiller, Eglise Saint-Étienne.jpg|thumb|<center>Kìrech Saint-Étienne]]
+|}
+
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+{{Commonscat|Buethwiller}}
+
+== Referanza ==
+<references/>
+
+{{Navigationsleiste Gemeinden im Kanton Masmünster}}
+
+{{SORTIERUNG:Butweiler}}
+{{Normdaten}}
+
+[[Kategorie:Ort (Owerelsàss)]]

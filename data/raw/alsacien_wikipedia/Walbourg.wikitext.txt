@@ -1,0 +1,59 @@
+{{DISPLAYTITLE:Wàlburi}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Walbourg
+| nomalsacien = Wàlburi
+| alt moy = 146–177
+| km² = 5.33
+| image = Walbourg - Eglise Sainte-Walburge -1.jpg
+| description = Kirich Sainte-Walburge
+|}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Wàlburi''' ([[Französische Sprache|frz.]] ''Walbourg'', [[Deutsche Sprache|dt.]] ''Walburg'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Bas-Rhin|Unterelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}.
+
+== Gschìcht ==
+Wàlburi ìsch entstànde um d Benediktineràbtei St. Walburg, wie ànne 1074 grìndet worre ìsch.
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Wàlburi ìsch {{Maires|FR|{{#Property:P374}}}}. Wàlburi ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Bevelkerungsentwìcklung ==
+{| class="wikitable" width=400
+|- align=center class="hintergrundfarbe5"
+|align=left | '''Johr''' || '''1962''' || '''1968''' || '''1975''' || '''1982''' || '''1990''' || '''1999''' || '''2006''' || '''2011''' || '''2016'''
+|- align=center
+|align=left|'''Inwohner'''<ref>[[Institut National de la Statistique et des Études Économiques|INSEE]]: ''Population et logements par commune depuis le recensement de 1962 (1961 pour les Dom) à 1999''</ref> || 531 || 539 || 561 || 622 || 707 || 786 || 792 || 804 || 912
+|}
+
+== Dialekt ==
+Dr [[Elsässisch|elsassisch]] Dialekt vun Wàlburi ghert zem [[Oberrheinalemannisch|Owerrhinàlemànnisch]].
+
+== Sahnswerdikaite ==
+D gotische Kìrisch St. Walburga ìsch àm And vum 11. Johrhundert grìndet worre.
+
+<gallery>
+Datei:Walbourg - Eglise Sainte-Walburge -1.jpg|Kìrisch St. Walburga
+Datei:Walbourg - Eglise Sainte-Walburge -2.jpg|Krizigungsfanschter (zitter 1461)
+</gallery>
+
+== Àndere Orte ==
+De Schüel "''Séminaire de Jeunes''" (Seminàr vun Wàlburi) ämpfàngt meh àss 800 Scheeler, vun 10 bis 19 Johre àlt.<ref>[http://www.seminairedejeunes.com/index.php?page=historique ''Historique du séminaire''] uf seminairedejeunes.com</ref> E TV-Berìcht uf [[Elsässisch|Elsassisch]] ìwwer de Schüelàfàng ìsch ànne 2006 gmàcht worre.<ref>[https://www.youtube.com/watch?v=nzG1wP1VZz0 ''Rund Um: Rentrée scolaire au séminaire de Jeunes de Walbourg''] uf youtube.com vun ''France 3 Grande Est'' vum 11. September 2006</ref>
+
+De [[Bahnhof|Bàhnhof]] vun Wàlburi versìchert àlltäglich e pààr Schträcke ìn Rìchtung [[Straßburg|Strossburi]] (mìt em Halt ìn [[Hagenau|Hàwenaa]]) odder ìn Rìchtung [[Weißenburg (Unterelsass)|Wisseburi]]. De Bàhnhof ìsch vìll greeser ìn dr Vergàngehait gewan,<ref>[http://reichshoffen.free.fr/Comple/WalburgGare.jpg ''Walbourg - La Gare''] uf reichshoffen.free.fr</ref> wänn Wàlburi e Dorf mìt vìll Verkehr gewan ìsch (dànk sìnni Scheeler vu de "''Séminaire de Jeunes''"). S ìsch sogàr e [[Restauration|Wirtschàft]] newe de [[Bahnhof|Gare]] gewan.
+
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+{{Commonscat|Walbourg|Wàlburi}}
+* {{Webarchiv | url=http://www.walbourg-hinterfeld.fr/ | wayback=20100619130109 | text=www.walbourg-hinterfeld.fr}}
+
+== Referanze ==
+<references />
+
+{{Navigationsleiste Gemeinden im Kanton Reichshoffen}}
+
+{{Normdaten}}
+
+[[Kategorie:Ort (Unterelsass)]]

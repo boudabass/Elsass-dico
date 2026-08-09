@@ -1,0 +1,56 @@
+{{DISPLAYTITLE:Algelse}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Algolsheim
+| nomalsacien = Algelse
+| alt moy = 195
+| alt mini = 190
+| alt maxi = 199
+| km² = 7.22
+| image = Algolsheim France Entree.jpg
+| description = Ortsingang vo Algelse
+}}
+'''Algelse''' ([[IPA]]: {{IPA|[ɑlg̊əlsə]}}; [[Französische Sprache|frz.]] ''Algolsheim'') isch e [[Frankreich|frànzeescha]] Gmein ìm [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}} ({{Kanton|FR|{{#Property:P374}}}}) im [[Département Haut-Rhin|Owerelsàss]] (Haut-Rhin).
+
+== Geografi ==
+Algelse befindet sich einigi Kilometer entfernt von [[Neuf-Brisach|Nej-Brisach]]. Wil es numm zwei Kilometer von dr Rhibruck uf Ditschland entfernt isch, wohne dort vile Ditsche, wo sich in dr ledschde Johre do wege dr nidrige Baulandpris niderglo han. Sell het zue em Anstig von der Inwohnerzahle gfüehrt. Durch dr Ort fliesst dr Thierlachgrawe (frz. ''petit ruisseau'').
+{|
+|[[Datei:Algolsheim, Temple protestant 1.jpg|thumb|Protestantische Kirich]]
+|}
+== Gschichte ==
+Algelse isch anno 1192 s'erschte Mol gschichtlich under em Nam ''Altolvesheim'' erwähnt.
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert. Im September 1939 isch di Bevölkerung uf Chaumont in [[Lot-et-Garonne]] evakuiert worde, von wo si im Sommer 1940 nooch dr französische Kapitulation zurückkehrt isch. Am 6. Februar 1945 isch di Gmeinde von dr Nazi-Herrschaft befreit worde, allerdings isch si debi stark zerstört worde.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Algelse ìsch {{Maires|FR|{{#Property:P374}}}}. Algelse ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Bevelkerungsentwìcklung ==
+{|class="wikitable"
+|-class="hintergrundfarbe5"
+!1962
+!1968
+!1975
+!1982
+!1990
+!1999
+!2004
+!2009
+|- align=center
+|309 || 312 || 404 || 495 || 671 || 982 || 1065 || 1072
+|}
+
+== Weblink ==
+{{Commonscat}}
+* [http://www.algolsheim.fr/ Uftritt von dr Gmeind Algelse]
+* [http://hubert.miehe.free.fr/communes/algolsheim.htm Algelse uf em Uftritt vom Kanton Nej-Brisach]
+
+== Referanza ==
+<references/>
+
+{{Navigationsleiste Gemeinden im Kanton Ensisheim}}
+
+{{Normdaten}}
+
+{{Übersetzungshinweis|de|Algolsheim|dütsch}}
+
+[[Kategorie:Ort (Owerelsàss)]]

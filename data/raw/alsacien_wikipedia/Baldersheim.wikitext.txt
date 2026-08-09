@@ -1,0 +1,49 @@
+{{DISPLAYTITLE:Bàldersche}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Baldersheim
+| nomalsacien = Bàldersche
+| alt moy = 228
+| alt mini = 225
+| alt maxi = 233
+| km² = 12.76
+| image = Baldersheim, Église Saint-Pierre et Saint-Paul 1.jpg
+| description = Kirich ''Saint-Pierre et Saint-Paul''
+|}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Bàldersche''' ([[Französische Sprache|frz.]] ''Baldersheim'', [[Deutsche Sprache|dt.]] ''Baldersheim'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Haut-Rhin|Owerelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}.
+
+== Gschìcht ==
+Bàldersche ìsch zem erschte Mol gnannt worre ànne 817 àls ''Balteresheim''.
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Bàldersche ìsch {{Maires|FR|{{#Property:P374}}}}. Bàldersche ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Bevelkerungsentwìcklung ==
+{| class="wikitable" width=400
+|- align=center class="hintergrundfarbe5"
+|align=left | '''Johr''' || '''1962''' || '''1968''' || '''1975''' || '''1982''' || '''1990''' || '''1999''' || '''2006'''
+|- align=center
+|align=left|'''Inwohner'''<ref>[[Institut National de la Statistique et des Études Économiques|INSEE]]: ''Population et logements par commune depuis le recensement de 1962 (1961 pour les Dom) à 1999''</ref> || 309 || 320 || 337 || 350 || 387 || 414 || 528
+|}
+
+== Dialekt ==
+Dr [[Elsässisch|elsassisch]] Dialekt vun Bàldersche ghert zem [[Oberrheinalemannisch|Owerrhinàlemànnisch]].
+
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+{{commonscat}}
+* http://www.baldersheim.fr
+* [https://web.archive.org/web/20070927213236/http://www.cdhf.net/fr/index.php?t=villages&d=villages&c=villages&f=show&p=&page=1&lieu=842&lieu2=baldersheim Baldersheim – vues du village]
+
+== Referanza ==
+<references/>
+
+{{Navigationsleiste Gemeinden im Kanton Rixheim}}
+
+{{Normdaten}}
+
+[[Kategorie:Ort (Owerelsàss)]]

@@ -1,0 +1,54 @@
+{{DISPLAYTITLE:Dìwelse}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Diebolsheim
+| nomalsacien = Dìwelse
+| alt moy = 160–165
+| km² = 7.03
+| image = Diebolsheim 026.JPG
+| description = Ortsingàng
+|}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Dìwelse''' ([[Französische Sprache|frz.]] ''Diebolsheim'', [[Deutsche Sprache|dt.]] ''Diebolsheim'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Bas-Rhin|Unterelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}.
+
+== Gschìcht ==
+Dìwelse ìsch zem erschte Mol gnannt worre ànne 803 àls ''Dubileshaim''.
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Dìwelse ìsch {{Maires|FR|{{#Property:P374}}}}. Dìwelse ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Bevelkerungsentwìcklung ==
+{| class="wikitable" width=400
+|- align=center class="hintergrundfarbe5"
+|align=left | '''Johr''' || '''1962''' || '''1968''' || '''1975''' || '''1982''' || '''1990''' || '''1999''' || '''2004'''
+|- align=center
+|align=left|'''Inwohner'''<ref>[[Institut National de la Statistique et des Études Économiques|INSEE]]: ''Population et logements par commune depuis le recensement de 1962 (1961 pour les Dom) à 1999''</ref> || 339 || 479 || 447 || 455 || 457 || 540 || 520
+|}
+
+== Dialekt ==
+Dr [[Elsässisch|elsassisch]] Dialekt vun Dìwelse ghert zem [[Oberrheinalemannisch|Owerrhinàlemànnisch]].
+
+<gallery widths="200" heights="180" perrow="2">
+Datei:Diebolsheim 031.JPG|Mairie
+Datei:Diebolsheim 034.JPG|Kàtholische Kirich
+</gallery>
+<gallery widths="200" heights="180" perrow="2">
+Datei:Diebolsheim 043.JPG|Bürehof üs em 18. Jh.
+Datei:Diebolsheim 029.JPG|Ortsmitte mit ''Hansel und Gretel'' uf re Rittele
+</gallery>
+
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+{{Commonscat}}
+
+== Referanza ==
+<references />
+
+{{Navigationsleiste Gemeinden im Kanton Marckolsheim}}
+
+{{Normdaten}}
+
+[[Kategorie:Ort (Unterelsass)]]

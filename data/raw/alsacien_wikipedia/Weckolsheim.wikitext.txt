@@ -1,0 +1,44 @@
+{{DISPLAYTITLE:Wàckelse}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Weckolsheim
+| nomalsacien = Wàckelse
+| alt moy = 200
+| alt mini = 194 
+| alt maxi = 201
+| km² = 6.93
+|}}
+'''Wàckelse''' ([[IPA]]: [{{IPA|ʋæg̊əlsə}}]; [[Französische Sprache|frz.]] ''Weckolsheim'') isch e [[Frankreich|frànzeesche]] Gmein ìm [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}} ({{Kanton|FR|{{#Property:P374}}}}) ìm [[Département Haut-Rhin|Owerelsàss]] (Haut-Rhin). S'klei Dorf ghört im Kommunalverband {{Kommunalverband|FR|{{#Property:P374}}}} a.
+
+== Geografi ==
+Dr klei Ort lijt in dr [[Oberrheinische Tiefebene|Owerrhinebene]] uf guet halbem Weg zwische [[Rhein|Rhi]] im Oschte un [[Ill (Elsass)|Ill]] im Weschte, knapp 2&nbsp;km südweschtlich von [[Neuf-Brisach|Nej-Brisach]]. 'Durch dr Ort verläuft dr nit schiffbar [[Vauban-Kanal]], wo z'[[Ensisheim|Ensise]] von dr Ill abzwigt, bis [[Oberhergheim|Owerherge]] no parallel zu dr Ill goht un no uf Nej-Brisach abzwigt.
+500 Meter öschtlich vu dr Ortschaft verlauft dr früeher fer d'Binne-Schiffahrt benutzt [[Canal du Rhône au Rhin|Rhone-Rhin-Kanal]], wo aber wege sinere enge Abmessunge hit numme fer kleini Freizitschifffahrt benutzt wird.
+
+== Gschicht ==
+D'Gründung von Wàckelse reicht in dr Merowingerzit, die erscht urkundlich Erwähnung isch im 8. Johrhundert als ''Achiltahaim'', ab em 13. Johrhundert wird dr Name ''Weckolsheim'' in verschidene Schribwiise in Dokumente benutzt.
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Wàckelse ìsch {{Maires|FR|{{#Property:P374}}}}. Wàckelse ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Wirtschaft un Infrastruktur==
+Dr Ort isch landwirtschaftlich dominiert, mit Schwerpunkt uffem Abau von [[Getreide|Fruucht]], hauptsächlich Welschkorn (Mais).
+
+Am Nordrand von dr Gmarkung verlauft mit dr N415 die guet usbaut Fernstross von [[Colmar|Colmer]] uf [[Breisach am Rhein|alt-Brisach]] in Ditschland, wo dert in dr B31 ihr Fortsetzung het.
+
+== Sähenswürdigkeite und örtliche Besunderheite ==
+Bi Wàckelse lijt e Gottsacker us dr Merowingerzit.
+
+== Weblink ==
+* {{Commonscat|Weckolsheim}}
+* [http://www.weckolsheim.fr/ Uftritt von dr Gmeind Wackelse] (französisch)
+* [http://hubert.miehe.free.fr/communes/weckolse.htm Wackelse uf em Uftritt vom Kanton Nej-Brisach] (französisch)
+
+== Referanza ==
+<references />
+
+{{Navigationsleiste Gemeinden im Kanton Ensisheim}}
+
+{{Normdaten}}
+
+[[Kategorie:Ort (Owerelsàss)]]

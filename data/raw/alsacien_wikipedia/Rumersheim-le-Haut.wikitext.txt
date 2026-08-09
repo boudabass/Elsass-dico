@@ -1,0 +1,56 @@
+{{DISPLAYTITLE:Rümersche}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Rumersheim-le-Haut
+| nomalsacien = Rümersche
+| alt moy = 215
+| alt mini = 210
+| alt maxi = 224
+| km² = 16.67
+|}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Rümersche''' ([[Französische Sprache|frz.]] ''Rumersheim-le-Haut'', [[Deutsche Sprache|dt.]] ''Rumersheim'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Haut-Rhin|Owerelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}.
+
+== Gschìcht ==
+Rümersche ìsch zem erschte Mol gnannt worre ànne 1303 àls ''Rumersheim''.
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Rümersche ìsch {{Maires|FR|{{#Property:P374}}}}. Rümersche ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Bevelkerungsentwìcklung ==
+{|class="wikitable"
+!class="hintergrundfarbe5"|Johr
+!class="hintergrundfarbe5"|1962
+!class="hintergrundfarbe5"|1968
+!class="hintergrundfarbe5"|1975
+!class="hintergrundfarbe5"|1982
+!class="hintergrundfarbe5"|1990
+!class="hintergrundfarbe5"|1999
+|-
+|'''Inwohner'''<ref>[[Institut National de la Statistique et des Études Économiques|INSEE]]: ''Population et logements par commune depuis le recensement de 1962 (1961 pour les Dom) à 1999''</ref> || 657 || 690 || 790 || 773 || 838 || 947
+|}
+
+== Dialekt ==
+Dr [[Elsässisch|elsassisch]] Dialekt vun Rümersche ghert zem [[Oberrheinalemannisch|Owerrhinàlemànnisch]].
+
+<gallery perrow="2" widths="200">
+Datei:Rumersheim-le-Haut, Eglise Saint-Gilles.jpg|Kirich Saint-Gilles
+Datei:Rumersheim-le-Haut, Château d’Eau.jpg|Wàsserdurm
+</gallery>
+
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+* {{Commonscat|Rumersheim-le-Haut}}
+* [https://web.archive.org/web/20090101073041/http://www.cc-essordurhin.fr/rumersheim_le_haut.htm Rümersche] bi dr CC Essor du Rhin (fr)
+* [http://site.voila.fr/rumersheimlehaut Privàta Website ìwer dr Ort] (fr)
+
+== Referanza ==
+<references/>
+
+{{Navigationsleiste Gemeinden im Kanton Ensisheim}}
+{{Normdaten}}
+
+[[Kategorie:Ort (Owerelsàss)]]

@@ -1,0 +1,63 @@
+{{DISPLAYTITLE:Màsmìnschter}}
+{{Infobox Ortsteil einer Gemeinde in Frankreich
+|nomhameau=Màsmìnschter
+|commune=[[Masevaux-Niederbruck]]
+|armoiries=Blason de la ville de Masevaux (68).svg
+|région=[[Grand Est]]
+|département=[[Département Haut-Rhin|Owerelsàss]]
+|arrondissement=[[Arrondissement Thann-Guebwiller|Dànn-Gawiller]]
+|datefusion=1. Janner 2016
+|status=cd
+|insee=68201
+|cp=68290
+|longitude=06/59/45/O
+|latitude=47/46/25/N
+|alt mini=395
+|alt maxi=1190
+|km²=23.21
+|image=Centre-ville de Masevaux.jpg
+|image-desc=Place Clémenceau
+}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Màsmìnschter''' ([[Französische Sprache|frz.]] ''Masevaux,'' [[Deutsche Sprache|dt.]] ''Masmünster'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}} ({{Kanton|FR|{{#Property:P374}}}}) ìm [[Département Haut-Rhin|Owerelsàss]] (Haut-Rhin) gsi.
+
+== Gschìcht ==
+Màsmìnschter ìsch zem erschte Mol gnannt worre ànne 780 àls ''cœnobium Masanwilare'' (828 ''vallis Masonis'').
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+Am 1. Januar 2016 hàt d Gmein mit [[Niederbruck|Niderbrucke]] zer Gmein [[Masevaux-Niederbruck]] fusioniert.
+
+== Verwàltung ==
+Dr letscht Maire vun Màsmìnschter ìsch dr Laurent Lerch gsi. Màsmìnschter hàt zem Kommünàlverbànd [[Communauté de communes de la Vallée de la Doller et du Soultzbach]] ghert. 
+
+== Bevelkerungsentwìcklung ==
+{| class = "wikitable"
+|-class = "hintergrundfarbe8"
+!Johr
+!1962
+!1968 
+!1975
+!1982
+!1990
+!1999
+!2006
+|- align = center
+| Inwohner || 3326 || 3385 || 3601 || 3328 || 3267 || 3329 || 3232
+|}
+
+== Dialekt ==
+Dr [[Elsässisch|elsassisch]] Dialekt vun Màsmìnschter ghert zem [[Oberrheinalemannisch|Owerrhinàlemànnisch]].
+
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+{{Commonscat|Masevaux}}
+{{Wikisource|Topographia Alsatiae:_Maßmünster|Masevaux in der Topographia Alsatiae (M. Merian)}}
+* [https://web.archive.org/web/20081113124601/http://www.cc-vallee-doller.fr/Pagesweb/Explorer/Sous%20rubriques/PageCommunes/Masevaux.htm Màsmìnschter] bi dr ''CC de la Vallée de la Doller et du Soultzbach'' (fr)
+
+{{DEFAULTSORT:Masmunster}}
+{{Normdaten}}
+
+[[Kategorie:Ort (Owerelsàss)]]

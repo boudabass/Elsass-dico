@@ -1,0 +1,65 @@
+{{DISPLAYTITLE:Sundhüse}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Sundhouse
+| nomalsacien = Sundhüse
+| alt moy = 162–170
+| km² = 15.69
+| image = Sundhouse 021.JPG
+| description = Sundhüse
+|}}
+'''Sundhüse''' ([[IPA]]: {{IPA|[ˈsʊnt.hyːsə]}}; amtl. ''Sundhouse'', [[Deutsche Sprache|dt.]] ''Sundhausen'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Bas-Rhin|Unterelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}.
+
+==Geographi==
+Sundhüse lit in dr [[Oberheinische Tiefebene|Rhinebeni]] am Weschtufer vum Rhin öschtlich von [[Sélestat|Schlettstadt]]. D'Gmein lejt uf ungfähr halwem Weg von [[Straßburg|Strossburj]] im Norde und [[Mulhouse|Milhüse]] im Süde. S Dorf bildet e Viereck mìt [[Nordhouse|Nààrds (Nordhausen)]], [[Osthouse|Ooscht (Osthausen)]] und [[Westhouse|Weschthüse (Westhausen)]].
+
+== Gschicht ==
+Sundhüse isch zum erschte Mol gnännt worre anne 723. Dr Ortsname leitet sich von dr Himmelsrichtung "Süd" ab. Sundhüse bildet mit dr Gmeinde [[Westhausen (Unterelsass)|Weschthüse (Westhausen)]], [[Nordhausen (Unterelsass)|Nààrds (Nordhausen)]] und [[Osthausen (Unterelsass)|Ooscht (Osthausen)]] e Viereck. Im Zentrum vom Viereck isch mit ''Hellelum'' (hit ''Ehl'') e antiks Heiligtum glege.
+
+E analogi Situation gits im Nordelsass mitt dr Dörfer [[Westhoffen|Weschhofe]], [[Osthoffen|Oschthofe]] un [[Sundhofen|Sundhoffe]] (s'Dorf Nordhofe isch verschwunde, wird aber in alte Dokumente noch erwähnt)
+
+Sundhüse isch d'Endstation vom ''Riedbahnel'' gsin, wo von 1909-44 im Dampfbetrib von Schlettstadt us gfahre isch.
+
+==Bevölkerung==
+S'Dorf het anno 2006 guet 1350 Inwohner gha. D'Inwohnerzahl isch demit sit 1999 ditlich gstige. 
+
+{| class="wikitable" width=400
+|- align=center class="hintergrundfarbe5"
+|align=left | '''Johr''' || '''1962''' || '''1968''' || '''1975''' || '''1982''' || '''1990''' || '''1999''' || '''2007'''
+|- align=center
+|align=left|'''Inwohner'''<ref>[[Institut National de la Statistique et des Études Économiques|INSEE]]: ''Population et logements par commune depuis le recensement de 1962 (1961 pour les Dom) à 1999''</ref> || 996 || 1006 || 1004 || 1069 || 1106 || 1155 || 1356
+|}
+
+== Dialekt ==
+Dr [[elsässisch]] Dialekt vuo Sundhüse ghört zem [[Oberrheinalemannisch|Oberrhiialemannisch]].
+
+==Denkmoler und Sähenswürdigkeite== 
+* Freiheitsbaum
+
+==örtlichi Feschte==
+* Beerfescht am 1. Mai-Wocheend
+* Firwerk um dr Fischweiher am Samschdig vorem 14. Jüli.
+* Bürefescht (mit Büredänz, dr Wahl vom scheenste Ross, Vorfüehrunge von landwirtschaftliche Tätigkeite ...)
+* Eplfäscht
+
+==mit dr Gmein verbundeni Lit==
+*Dr [[Jacques Gruber]] (1870-1936), Schriner und Glaskünschtler, un e Mitglid von dr Schuel von Nancy, besunders bekannt fer d'Kirichefenschter, isch z'Sundhüse uf d'Welt kumme un het dert bis 1877 gwohnt. Ein von sine beide Grossvädder isch z'Sundhüse emol Burjemeischter gsin.
+
+<gallery widths="200" heights="180" perrow="2">
+Datei:Sundhouse 037.JPG|Mairie
+Datei:Sundhouse 039.JPG|Kirich (1822)
+</gallery>
+
+== Weblink ==
+{{commonscat|Sundhouse}}
+* [http://www.sundhouse.fr Internetuftritt von dr Gmeind]
+
+== Referanza ==
+<references/>
+
+{{Übersetzungshinweis|1 = fr|2 = Sundhouse|3 = franzeesisch|4 =}}
+
+{{Navigationsleiste Gemeinden im Kanton Sélestat}}
+
+{{Normdaten}}
+
+[[Kategorie:Ort (Unterelsass)]]

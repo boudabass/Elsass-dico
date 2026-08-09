@@ -1,0 +1,45 @@
+{{DISPLAYTITLE:Klimbàch}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Climbach 
+| nomalsacien = Klimbàch
+| alt moy = 240–529
+| km² = 7.15
+| image = Road Climbach.JPG
+| description = Ortsüsgàng
+|}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Klimbàch''' ([[Französische Sprache|frz.]] ''Climbach '', [[Deutsche Sprache|dt.]] ''Klimbach'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Bas-Rhin|Unterelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}.
+
+== Geogràfi ==
+Klimbàch lijt weschtlich vun dr Stàdt [[Wissembourg|Waisseburch]], hìnter em Buckel ''Col du Pigeonnier'', àm Rànd vum Owere [[Mundatwald|Mundatwàld]] und eschtlich vum [[Lembach (Bas-Rhin)|Lämbacher]] Wàld.
+
+== Gschìcht ==
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Klimbàch ìsch {{Maires|FR|{{#Property:P374}}}}. Klimbàch ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Bevelkerungsentwìcklung ==
+{| class="wikitable" width=400
+|- align=center class="hintergrundfarbe5"
+|align=left | '''Johr''' || '''1962''' || '''1968''' || '''1975''' || '''1982''' || '''1990''' || '''1999''' || '''2007'''
+|- align=center
+|align=left|'''Inwohner'''<ref>[[Institut National de la Statistique et des Études Économiques|INSEE]]: ''Population et logements par commune depuis le recensement de 1962 (1961 pour les Dom) à 1999''</ref> || 443 || 458 || 459 || 514 || 480 || 516 || 515
+|}
+
+== Dialekt ==
+Dr [[Elsässisch|elsassisch]] Dialekt vun Klimbàch ghert zem [[Oberrheinalemannisch|Owerrhinàlemànnisch]].
+
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+{{Commonscat|Climbach}}
+
+== Referanza ==
+<references />
+
+{{Navigationsleiste Gemeinden im Kanton Weissenburg}}
+{{Normdaten}}
+
+[[Kategorie:Ort (Unterelsass)]]

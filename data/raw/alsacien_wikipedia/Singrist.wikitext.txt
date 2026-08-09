@@ -1,0 +1,54 @@
+{{DISPLAYTITLE:Sìnggrìscht}}
+{{Infobox Ortsteil einer Gemeinde in Frankreich
+|nomhameau= Sìnggrìscht
+|commune= [[Sommerau (Bas-Rhin)|Sommerau]]
+|armoiries= Blason Singrist 67.svg
+|région= [[Grand Est]]
+|département= [[Département Bas-Rhin|Unterelsàss]]
+|arrondissement= [[Arrondissement Saverne|Zàwere]]
+|datefusion= 1. Janner 2016
+|insee= 67469
+|cp= 67440
+|status= cd
+|longitude= 07/23/14/O
+|latitude= 48/40/13/N
+|alt mini= 
+|alt maxi= 
+|km²= 
+|image = Singrist, Église Saint-Remi.jpg
+|image-desc= Kirich
+}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Sìnggrìscht''', oder àui '''Sìnggerìscht''' ([[Französische Sprache|frz.]] ''Singrist'', [[Deutsche Sprache|dt.]] ''Singrist'') ìsch bìs 2015 e [[Frankreich|frànzeesche]] Gmein ìm [[Département Bas-Rhin|Unterelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]) gsin. Sit em 1. Janner 2016 ghert sa züe dr neie Gmein [[Sommerau (Unterelsass)|Sommerau]].
+
+== Gschìcht ==
+Sìnggrìscht ìsch zem erschte Mol gnannt worre ànne 1120.
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+D letscht Maire vun Sìnggrìscht ìsch ìsch d Béatrice Lorentz gsin.
+
+== Bevelkerungsentwìcklung ==
+{| class = "wikitable" width = 400
+|- align = center class = "hintergrundfarbe5"
+| align = left | '''Johr''' || '''1962''' || '''1968''' || '''1975''' || '''1982''' || '''1990''' || '''1999''' || '''2007'''
+|- align = center
+| align = left|'''Inwohner'''<ref>[[Institut National de la Statistique et des Études Économiques|INSEE]]: ''Population et logements par commune depuis le recensement de 1962 (1961 pour les Dom) à 1999''</ref> || 266 || 278 || 296 || 318 || 319 || 329 || 338
+|}
+
+== Dialekt ==
+Dr [[Elsässisch|elsassisch]] Dialekt vun Sìnggrìscht ghert zem [[Oberrheinalemannisch|Owerrhinàlemànnisch]].
+
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+{{Commonscat}}
+
+== Referanza ==
+<references />
+
+{{Normdaten}}
+
+[[Kategorie:Ort (Unterelsass)]]

@@ -1,0 +1,44 @@
+{{DISPLAYTITLE:Rìchtelse}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Richtolsheim
+| nomalsacien = Rìchtelse
+| alt moy = 168–172
+| km² = 3.63
+|}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Rìchtelse''' ([[Französische Sprache|frz.]] ''Richtolsheim'', [[Deutsche Sprache|dt.]] ''Richtolsheim'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Bas-Rhin|Unterelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}.
+
+== Gschìcht ==
+Rìchtelse ìsch zem erschte Mol gnannt worre ànne 1040.
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Rìchtelse ìsch {{Maires|FR|{{#Property:P374}}}}. Rìchtelse ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Bevelkerungsentwìcklung ==
+{| class="wikitable" width=400
+|- align=center class="hintergrundfarbe5"
+|align=left | '''Johr''' || '''1962''' || '''1968''' || '''1975''' || '''1982''' || '''1990''' || '''1999''' || '''2006'''
+|- align=center
+|align=left|'''Inwohner'''<ref>[[Institut National de la Statistique et des Études Économiques|INSEE]]: ''Population et logements par commune depuis le recensement de 1962 (1961 pour les Dom) à 1999''</ref> || 245 || 277 || 266 || 235 || 243 || 302 || 355
+|}
+
+== Dialekt ==
+Dr [[Elsässisch|elsassisch]] Dialekt vun Rìchtelse ghert zem [[Oberrheinalemannisch|Owerrhinàlemànnisch]].
+
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+{{commonscat}}
+* [http://www.culture.gouv.fr/public/mistral/memoire_fr?ACTION=CHERCHER&FIELD_1=INSEE&VALUE_1=67398 Rìchtelse ìn dr Base Mémoire des Ministère de la Culture]
+
+== Referanza ==
+<references/>
+
+{{Navigationsleiste Gemeinden im Kanton Sélestat}}
+
+{{Normdaten}}
+
+[[Kategorie:Ort (Unterelsass)]]

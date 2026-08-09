@@ -1,0 +1,46 @@
+{{DISPLAYTITLE:Frìdelse}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Friedolsheim
+| nomalsacien = Frìdelse
+| alt moy = 194–263
+| km² = 3.52
+|}}
+
+'''Frìdelse''' ([[IPA]]: {{IPA|[frɪːd̥əlsə]}}; [[Französische Sprache|frz.]] ''Friedolsheim'', [[Deutsche Sprache|dt.]] ''Friedolsheim'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Bas-Rhin|Unterelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}. Dr Ort lit weschtlich vu [[Straßburg|Strossburj]] und het numme knapp yber 200 Inwohner.
+
+==Bauwercher un Denkmoler==
+*Kilche vum Heilige Dionysus vu Paris (vu 1803)
+*Krüz (vu 1702)
+
+==Gschicht==
+S Dorf het scho in dr [[Antike]] exischdiert. Mä het vili gallo-romanischi Fünd gmacht, drunter Überräscht von erä römische Schdrooss us em zweite Johrhundert. Es wird zum erschdemol im Johr 770 schriftlig erwähnt, wil d Abtei vo Fulda dört Ländereie gha het. 826 het s Dorf ''Friedesheim'' gheisse und het zu de Grafschaftsdörfer ghört. As kaiserligs Dorf het s zu Kochersberg ghört und isch vom Bischoff vo [[Straßburg|Schdroossburg]] und em Kaiser zämme verwaltet worde. D Schdadt Schdroossburg het 1496 im Kaiser si Helfti kauft. 1803 isch Frìdelse ä sälbschdändigi Gmeind worde.
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Frìdelse ìsch {{Maires|FR|{{#Property:P374}}}}. Frìdelse ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Bevelkerungsentwìcklung ==
+{| class="wikitable" width=400
+|- align=center class="hintergrundfarbe5"
+|align=left | '''Johr''' || '''1962''' || '''1968''' || '''1975''' || '''1982''' || '''1990''' || '''1999''' || '''2005'''
+|- align=center
+|align=left|'''Inwohner'''<ref>[[Institut National de la Statistique et des Études Économiques|INSEE]]: ''Population et logements par commune depuis le recensement de 1962 (1961 pour les Dom) à 1999''</ref> || 146 || 175 || 170 || 181 || 192 || 211 || 231
+|}
+
+== Dialekt ==
+Dr [[Elsässisch|elsassisch]] Dialekt vun Frìdelse ghert zem [[Oberrheinalemannisch|Owerrhinàlemànnisch]].
+
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+{{Commonscat}}
+
+== Referanza ==
+<references />
+
+{{Navigationsleiste Gemeinden im Kanton Zabern}}
+{{Normdaten}}
+
+[[Kategorie:Ort (Unterelsass)]]

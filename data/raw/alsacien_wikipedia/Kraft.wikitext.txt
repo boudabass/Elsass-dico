@@ -1,0 +1,300 @@
+{{DISPLAYTITLE:Chraft}}
+{{Dieser Artikel|beschribt die füsikalischi Gröössi ''Chraft''. Für alli Bedütige dem Wort lueg [[Kraft (Begriffsklärung)]]}}
+{{Infobox Physikalische Größe
+|Name= Chraft
+|Größenart= 
+|Formelzeichen= <math>F</math>, <math>K</math>
+|Dim= 
+|AbgeleitetVon= 
+|SI= [[Newton (Einheit)|N]]&nbsp;= [[Kilogramm|kg]]·[[Meter|m]]·[[Sekunde|s]]<sup>−2</sup>
+|SI-Dimension= [[Masse (Physik)|M]]·[[Länge (Physik)|L]]·[[Zeit|T]]<sup>−2</sup>
+|cgs= 1&nbsp;[[dyn]] = 10<sup>−5</sup>&nbsp;N
+|cgs-Dimension= 
+|esE=
+|emE=
+|Planck=
+|Astro=
+|Anglo= 1&nbsp;[[Pound-force|lbf]] ≈ 4,448&nbsp;222&nbsp;N
+|Anglo-Dimension=
+|Anmerkungen= 
+|SieheAuch=
+}}
+
+'''Chraft''' isch e grundlegende Begriff in dr [[Physik|Füsik]]. In dr [[Klassische Physik|klassische Füsik]] verstoot mä drunder e Iiwirkig vo dusse, won e festgmachte [[Körper (Physik)|Körper]] cha verforme und e beweglige Körper cha [[Beschleunigung|beschlüünige]]. Chreft si zum Bischbil nöötig, zum [[Arbeit (Physik)|Aarbet]] z verrichde, wo d [[Energie|Energii]] vom ene Körper oder vom ene [[Physikalisches System|füsikalische Süstem]] veränderet. D Chraft isch e grichdeti [[physikalische Größe|füsikalischi Gröössi]], wo dur e [[Vektor]] cha daargstellt wärde. Chreft häi verschidnigi Ursache oder Wirkige, und bechömme iire Naame mängiisch von ene, wie d [[Reibungskraft|Riibigschraft]], d [[Fliehkraft|Zentrifugalchraft]] und d [[Gewichtskraft|Gwichtschraft]]. Mänggi Arte vo Chreft häi d Nääme vo Persone überchoo, wo wääsentlig an iirer Erforschig mitgschafft häi, wie d [[Coulombkraft|Coulombchraft]] oder d [[Lorentzkraft|Lorentzchraft]].
+
+D [[Internationales Einheitensystem|Äihäit, wo internazional verwändet wird]], isch s [[Newton (Einheit)|Newton]]. S [[Formelzeichen|Formlezäiche]] für d Chraft isch mäistens <math>F</math> (vo [[Latein|lat.]] ''fortitudo'')<ref>{{Literatur | Autor=Ludwig Bergmann, Clemens Schaefer, u.&nbsp;a.| Titel=Lehrbuch der Experimentalphysik, Bd. 1. Mechanik, Relativität, Wärme| Verlag=de Gruyter| Auflage=11| Jahr=1998 | ISBN=978-3110128703}}, Abschnitt 4.1 ''Masse und Kraft''.</ref> oder im Dütsche au <math>K</math> noch em erste Buechstaabe im Wort ''Kraft''.
+
+Dr Chraftbegriff goot uf e [[Isaac Newton]] zrugg, wo im 17.&nbsp;Joorhundert mit sine [[Newtonsche Gesetze|drei Gsetz]] d Grundlaage vo dr Mechanik gläit het und d Chraft as zitligi Änderig vom [[Impuls]] definiert het. Er het eso d Chraft as d Ursach für jedi Veränderig vom Bewegigszuestand vom ene Körper definiert. Er het au verstande, ass wenn äi Körper uf en andere e Chraft usüebt, vo däm andere Körper e [[Reaktionskraft|Reakzionschraft]] uf dr erst Körper usgoot, wo entgeegegsetzt gliich grooss isch.
+
+In dr [[Quantenphysik|Kwantefüsik]] wird dr Begriff Chraft au im ene überdräite Sinn verwändet, won er s gliiche bedütet wie Wäggselwirkig und nüt me mit em Begriff vom mechanische Chraftwektor z due het. Es git vier „fundamentali Wäggselwirkige“, wo au as [[Grundkräfte der Physik|Grundchreft vo dr Füsik]] bezäichnet wärde. Si sin d Ursach nit nume vo alle bekannte Erschiinigsforme vo de Chreft, sondern au vo allne Brozäss, wo in dr Füsik bekannt si. Äini vo de vier Grundchreft, d [[Gravitation|Grawitazioon]], wird in dr [[Allgemeine Relativitätstheorie|allgemäine Relatiwidäätstheorii]] dur d Chrümmig vo dr [[Raumzeit|Ruumzit]] beschribe. Die drei andere Grundchreft wärde im [[Standardmodell|Standardmodäll vo dr Däilifüsik]] drdur erkläärt, ass [[Eichboson|Äichbosone]] usduscht wärde, wo dorum hüfig au as „Chraftdäili“ bezäichnet wärde.
+
+== D Gschicht vom Wort und vom Begriff ==
+[[Datei:Aristoteles Louvre2.jpg|miniatur|rechts|Dr Aristoteles]]
+[[Datei:Galileo.arp.300pix.jpg|miniatur|Dr Galileo Galilei]]
+Dr Ursprung vom Wort „Chraft“ isch altgermanisch,<ref name="gd364">{{Literatur | Autor=Günther Drosdowski, Paul Grebe | Titel=Das Herkunftswörterbuch. Die Etymologie der deutschen Sprache. Bd. 7 | Verlag=Dudenverlag | Ort=Mannheim | Jahr=1963 | ISBN=978-3411009077|Seiten=364}}</ref> und ursprünglig isch drmit d Vorstellig vom Aaspanne vo Muskle gsi.<ref name="Pfeifer">Wolfgang Pfeifer (Leitung): ''Etymologisches Wörterbuch des Deutschen.''  Deutscher Taschenbuch Verlag, Münche 1995. ISBN 3-05-000626-9; 7. Uflaag 2004, ISBN 3-423-32511-9 (E digitali Fassig vo däm Wörterbuech het s im lexikalische Informazionssüsteem: [http://www.dwds.de/ www.dwds.de]).</ref> Im Dütsche bezäichnet „Chraft“ e körperligi oder gäistigi Vorussetzig, zum bestimmti Handlige chönne duurefüere ([[Muskelkraft|Muskel-]] beziejigswiis Gäisteschraft), in dr zwäite Bedütig&nbsp;– wemm mä d Däätigkäit sälber macht (»e Chraft usüebe«; »under dr Chraft zämmebräche«)&nbsp;– si d Alldäagsvorstellig vo Chraft und vom füsikalische Fachbegriff seer nooch zämme.
+
+Sit öbben em Ändi vom 18.&nbsp;Joorhundert wird Chraft au uf Mensche as »Drääger vo dr Chraft« bezoge (»Aarbetschreft«, »Leerchreft« usw.), im 20.&nbsp;Joorhundert au für Energii, wo maschinell in mechanischi Form umgwandlet wird (»Chraftwärk« usw.).<ref name="Pfeifer" />
+
+Vom griechische Wort für Chraft, δύναμις, chunnt d [[CGS-Einheit|CGS-Äihäit]] [[dyn]] und d [[Dynamik (Physik)|Dynamik]], wo d Leer vo dr Beweegig under em Iifluss vo Chreft bezäichnet. In dr füsikalische Fachsprooch isch Chraft (beziejigswiis ''force'') spöötistens im 17.&nbsp;Joorhundert mit em latiinische ''vis'' gliichgsetzt worde.<ref>''[[Philosophiae Naturalis Principia Mathematica]]'' (1687), dütschi Usgoob ''Mathematische Prinzipien der Naturlehre''. Übersetzt und erklärt vom Jacob Philip Wolfers, Oppenheim, Berlin 1872. (Unveränderete Noochdruck Minerva, 1992, ISBN 3-8102-0939-2).</ref>
+
+Dr [[Aristoteles]] und wien er sich Beweegig erkläärt het, isch zum e groosse Däil dra gschuld, ass ma in dr Füsik dr Begriff vo dr Chraft bis in d Rönessans iine ungnau und falsch brucht het.<ref>{{Literatur | Autor=Hans Peter Sang | Titel=Geschichte der Physik | Verlag=Klett | Ort=Stuttgart | Jahr=1999 | ISBN=3-12-770230-2 |Seiten=7}}</ref> Noch iim het jedi Beweegig en Ursach und das wer im hütige Sinn e Chraft. Wenn d Chraft ufhöört, hört d Beweegig uf. Die Chraft wirkt dur ummiddelbare Kontakt, si stoot in ere Beziejig zur Gschwindigkäit vom Körper, und die spöötere Aristoteles-Kommentatore häi das als e Broporzionalidäät dütet.<ref>{{Literatur | Autor=Karoly Simonyi | Titel=Kulturgeschichte der Physik | Verlag=Harri Deutsch, Thun | Ort=Frankfurt a. M. | Jahr=1995 | ISBN=3-8171-1379-X |Seiten=77}}</ref>
+
+Im Middelalter isch us dr aristotelische Leer d [[Impetustheorie|Impetustheorii]] entstande, won e Grubbe vo Beweegigsleere zämmefasst. Iire gmäinsam Kärn bildet d Idee von ere Chraft, wo sozusaage im Körper dinne isch, dr ''Impetus'', wo eme Körper vom ene »erste Beweeger« mitgee worde isch. Dä Impetus im Körper wird mit dr Zit chliiner, und das wird dur e Widerstand vom Medium, zum Bichbpil dr Luft, no versterkt. Au do hört jedi Beweegig automatisch uf, wenn dr Körper »kä Chraft me het«. Im Geegesatz zum Aristoteles het s do kä externe Beweeger brucht. Eso het mä dänggt, ass d Froog glööst sig, wien e Geegestand, wo in d Luft gheit wird, sich witer bewegt. D Broporzionalidäät vo dr Chraft im Körper und dr Gschwindigkäit het mä bhaltet.
+
+Au dr [[Galileo Galilei]] het no eso aristotelisch dänggt, isch aber scho ganz nooch zum [[Trägheitsgesetz|Drääghäitsgsetz]] choo.<ref>{{Literatur | Autor=Karoly Simonyi | Titel=Kulturgeschichte der Physik | Verlag=Harri Deutsch, Thun | Ort=Frankfurt a. M. | Jahr=1995 | ISBN=3-8171-1379-X|Seiten=209}}</ref> In däm Gsetz si d Verheltniss umkeert gsi, es het kä Chraft me brucht, für dass e Beweegig witergoot, sondern e Chraft isch nöötig gsi, zum e Beweegigszuestand z verändere. Erst wo dr [[Isaac Newton]] 1687 sini [[Bewegungsgesetze|Beweegigsgsetz]] veröffentligt het, isch d Grundlaag gläit gsi, für wie dr Begriff „Chraft“ hüte bruucht wird. Dr Newton sälber het dr Begriff allerdings nit im gliiche Sinn brucht, wie die spöötere Generazioone.<ref>{{Literatur | Autor=Karoly Simonyi | Titel=Kulturgeschichte der Physik | Verlag=Harri Deutsch, Thun | Ort=Frankfurt a. M. | Jahr=1995 | ISBN=3-8171-1379-X |Seiten=262}}</ref> Bis wit ins 19.&nbsp;Joorhundert iine häi d Füsiker s Wort Chraft au in Bedütige brucht, wo nit dur d Gsetz vom Newton deckt gsi si, bsundrigs au in dr Bedütig vo [[Energie|Energii]]. Bis sich dr modärni Energiibegriff uusebildet het, het mä zum Bischbil die kinetischi Energii as »lääbigi Chraft« (''[[vis viva]]'') bezäichnet, e Begriff wo dr [[Gottfried Wilhelm Leibniz]] brägt het und wo im nüünzääte Joorhundert dr [[Hermann von Helmholtz]] no verwändet het.
+
+== S Mässe vo Chreft ==
+[[Datei:Dinamometro.svg|rechts|miniatur|S Mässe von ere Chraft mit em [[Hookesches Gesetz|Gsetz vom Hooke]], doo in dr Form <math>F_p = D \cdot x</math>]]
+E Chraft cha über e Wääg-Zit-Mässig bestimmt wärde, wenn si e Beschlöinigung verursacht. Noch em [[Newtonsche Gesetze|zwäite Gsetz vom Newton]] gältet für Körper, wo d Masse&nbsp;''m'' von ene gliich blibt und wo konstant mit ere Beschlöinigung&nbsp;''a'' beschlöinigt wärde, dr Zämmehang <math>\vec F = m \vec a.</math> Dä Zämmehang cha mä au in dr abgläitete Äihäit Newton (<math>\mathrm{\, N =  kg\, \cdot \tfrac{m}{s^2}}</math>) gsee. In dr Braxis wird vilmol us eme bekannte (am beste [[Linearität|lineare]]) Zämmehang zwüsche dr wirkende Chraft und ere Gröössi, wo liicht cha gmässe wärde, uf d Chraft gschlosse. Bischbil doodrfür si d Verformig vom ene [[Elastizität (Physik)|elastische]] Material oder d Änderig vom elektrische Widerstand vom ene [[Dehnungsmessstreifen|Deenigsmässsträife]].
+
+E Chraft cha uf verschidnigi Arte dur d Verformig, wo si verursacht, bestimmt wärde. In dr Schuel und in e baar äifache Aawändige wärde Chreft mit sogenannte [[Federkraftmesser|Fääderechraftmässer]] über d Veränderig vo dr Lengi vo [[Feder (Technik)|Schruubefäädere]] gmässe. Für daas brucht mä s [[Hookesches Gesetz|Gsetz vom Hooke]], wo säit, ass gäigneti Fäädere sich broporzional zur Chraft, wo usgüebt wird, usdeene; es gältet <math>F = D\cdot\Delta l,</math> wo <math>\Delta l</math> d Veränderig vo dr Lengi vo dr Fäädere und <math>D</math> d [[Federkonstante|Fääderekonstante]] bezäichnet.<ref>In däm Zämmehang het s e Zit gee, wo mä nit d ''Masse'', sondern d ''Chraft'' as Grundgröössi brucht het und d Masse as „abgläiteti Gröössi“ bezäichnet het: Mä het denn as Grundgröössi d Chraftäihäit „1&nbsp;Kilopond“ brucht, statt dr Masseäihäit „1&nbsp;Kilogramm“, wo vorhär und au spööter wider üüblig gsi isch, und per Gsetz für die entsprächende Gwichtschreft Mässverfaare zum Äiche vorgschriibe.</ref>
+
+Mä cha au s [[Hebelgesetz|Heebelgsetz]] bruuche und eso en umbekannti Chraft mit ere bekannte Chraft vergliiche und bestimme, zum Bischbil dr Gwichtschraft vom ene Massestück. Im äifachste Fall wird e [[Waage|Woog]] verwändet, und was die aazäigt, cha mit Hilf vo dr bekannte [[Schwerebeschleunigung|Schweeribeschlöinigung]] <math>g</math> in die wirkendi Chraft umgrächnet wärde.
+
+Mit em [[Rasterkraftmikroskop|Rasterchraftmikroskop]] cha mä Chreft uf e chliini [[Cantilever (Mikroskop)|Blattfäädere]] bis öbbe 1&nbsp;pN noochwiise. Das cha mä bruche, für zum Ooberflechene undersueche.<ref>[http://www.wissenschaft-online.de/artikel/943661 Artikel über Grenzflächenphysik] uf: ''wissenschaft-online.de.''</ref> Chreft bis zu öbbe <math>5\cdot 10^{-24} \mathrm{\, N}</math> si mit Hilf vo äinzelne ultrachalte Magnesium-Ione in [[Paulfalle]] über d Sünchronisazioon mit eme extärne Radiosignal gmässe worde.<ref>S. Knünz, M. Herrmann, V. Batteiger, G. Saathoff, T. W. Hänsch, K. Vahala, Th. Udem: ''Injection locking of a trapped-ion phonon laser.'' In: ''Physical Review Letters.'' 105, 2010, 013004.</ref>
+
+== D Chraft as wektorielli Gröössi ==
+=== S Daarstelle vo Chreft ===
+[[Datei:Kragtraeger.svg|miniatur|hochkant=1.5|Chreft am ene Kragdrääger.]]
+Zum e Chraft beschriibe, muess mä iire Aagriffspunkt, iire Betrag (also iiri „Sterki“) und iiri Richdig aagee. Sonige Gröössene, wo dur e Zaalewärt, Äihäit und Richdig bestimmt wärde, säit mä wektorielli Gröössene, und mä cha sä as Pfiil im ene Koordinatesüsteem daarstelle. Im ene dreidimensionale kartesische [[Koordinatensystem|Koordinatesüsteem]] het e '''Chraftwektor''' drei Komponänte:
+:<math>\vec F = \begin{pmatrix}F_x \\ F_y \\ F_z\end{pmatrix}</math>
+
+* Zum zum Bischbil d [[Gewichtskraft|Gwichtschraft]] <math>\vec F_\mathrm G</math> z beschriibe, wo e Körper mit dr Masse <math>m</math> vo dr Ärde aazoge wird, cha mä e Koordinatesüsteem mit ere wertikale <math>z</math>-Aggse weele:
+:<math>\vec F_G = \begin{pmatrix}\ 0\ \\ \ 0\  \\ -m  g\end{pmatrix}</math>
+:Dr Körper wird (mit dr [[Erdbeschleunigung|Ärdbeschlöinigung]] <math>g</math>) abwärts beschlöinigt, und dorum isch d z-Komponänte negativ.
+
+D [[Deformation|Verformig]] vom ene Körper chunnt gnau gno nit dur en äinzelni Chraft zstand, sondern dass an verschiidene Aagriffspünkt underschidligi Chreft wirke. Eso git s mechanischi [[Spannung (Mechanik)|Spannige]] und die cha mä beschriibe, wemm mä d Chraft as e wektoriells [[Feld (Physik)|Fäld]] uffasst: In jedem Aagriffspunkt, wo mit em Ortswektor <math> \vec r</math> bezäichnet wird, cha im Brinzip en anderi Chraft <math>\vec F( \vec r)</math> wirke. Je nochdäm, wie die Chreft grichdet si, wird dr Körper usenanderzooge, zämmegstuucht oder verzert.
+
+=== S Superposizionsbrinzip ===
+[[Datei:Rownia.svg|miniatur|D Gwichtschraft <math>\vec{G}</math> usenandergnoo in d Komponänte <math>\vec{F_1}</math> (Hangabdriibschraft) und <math>\vec{F_2}</math> (Gegechraft zur Normalchraft <math>\vec{N}</math>)]]
+S [[Superposition (Physik)#Klassische Mechanik|Superposizionsbrinzip vo dr Mechanik]], wo dr Newton au as „[[lex Quarta]]“ bezäichnet het, säit: Wenn uf e Punkt (oder e [[Starrer Körper|starre Körper]]) meereri Chreft <math>\vec{F_1},\vec{F_2}, \ldots, \vec{F_n}</math> wirke, so addiere die sich wektoriell zun ere [[Resultierende Kraft|''resultierende Chraft'']] <math>\vec{F_{res}} = \vec{F_1} + \vec{F_2} + \ldots + \vec{F_n}.</math> Das häisst, <math>\vec{F_{res}}</math> macht s gliiche wie alli Chreft <math>\vec{F_1},\vec{F_2}, \ldots, \vec{F_n}</math> zämme.
+
+* Wenn zwäi Chreft <math>\vec{F_1}</math> und <math>\vec{F_2}</math> am gliiche Aagriffspunkt aagrife, gliich grooss si aber entgegegsetzt grichdet si, so isch die resultierendi Chraft gliich Null. Mä reedet denn au vom ene [[Kräftegleichgewicht|Gliichgwicht vo de Chreft]].
+* Wie Chreft, wo im gliiche Punkt aagrife, sich lön lo zämmesetze:<br />Wene zwäi Chreft mit de Beträg <math>F_1</math> und <math>F_2</math> in die gliichi Richdig wirke, so addiere sich die Beträg zum Betrag <math>F</math> vo dr Gsamtchraft, <math>F =  F_1 + F_2</math>.<br />Wenn zwäi Chreft mit de Beträg <math>F_1</math> und <math>F_2</math> in entgegegsetzti Richdig wirke, so isch dr Betrag <math>F</math> vo dr Gsamtchraft gliich em gröössere Chraftbetrag weniger dr chliineri. D Richdig vo dr Gsamtchraft isch die gliichi wie d Richdig vo dr gröössere Äinzelchraft, <math>F = |F_1 - F_2|</math>.<br />Wenn zwäi Chreft in unterschiidligi Richdig wirke, so bechunnt mä grafisch d Richdig und dr Betrag vo dr Resultierende dur e [[Kräfteparallelogramm<Chreftparallelogramm]] über. D Chreft <math>\vec{F_1}</math> und <math> \vec{F_2}</math> wärde zum ene Parallelogramm ergänzt, d Diagonale vom Parallelogramm entspricht dr resultierende Chraft. Die resultierendi Chraft vo meerere Chreft mit underschidlige Richdige cha grafisch mit eme [[Kräftepolygon|Chreftpolygon]] oder rächnerisch as Summe vo Wektore bestimmt wärde.
+* Wie Chreft usenandergnoo wärde:<br />Wääred sich bin ere horizontale Ebeni d Gwichtschraft <math>\vec{G}</math> und d [[Normalkraft|Normalchraft]] <math>\vec{N}</math> kompensiere, cha das im Fall vo dr [[Schiefe Ebene|schiefen Ebeni]] nit bassiere. D Normalchraft wirkt sänkrächt zur Ebeni ufwärts und wirkt also nid genau in dr entgegegsetzte Richdig vo dr Gwichtschraft. Zum uusefinde, wele Däil vo dr Gwichtschraft nit vo dr Normalchraft kompensiert wird und eso as [[Hangabtriebskraft|Hangabdriibschraft]] dr Körper uf dr schiefe Ebeni aabe beschlöinigt, cha mä d Gwichtschraft in zwäi Chreft iidäile. Äini zäigt in d Gegerichdig vo dr Normalchraft (und wird vo dere kompensiert, <math>\vec{F_2} = - \vec{N}</math>), die zwäiti in d Richdig vo dr Ebeni&nbsp;– das isch denn d Hangabdriibschraft <math>\vec{F_1}</math>. Über <math>\vec{F_1} = m \, \vec{a}</math> cha d Beschlöinigung <math>\vec{a}</math> vom Körper berächnet wärde.<br />E Chraft eso in zwäi Chreft iidäile isch immer denn richdig, wenn d Wektorsumme vo de Däilchreft gliich dr ursprünglige Chraft si, es muess also <math>\vec{F_1} + \vec{F_2} = \vec{G}</math> gälte.
+
+== Chraftäihäite ==
+Je noch em [[Einheitensystem|Äihäitesüsteem]] brucht mä än anderi Äihäit für d Chraft. Statt Äihäite wie [[Dyn]], [[Kilopond]], [[Pound-force]] oder [[Poundal]] wird im [[Internationales Einheitensystem|internazionale Äihäitesüsteem]] (SI) s Newton [{{IPA|ˈnjuːtn̩}}] verwändet. S Newton isch im Joor 1946 dur d Generalkomferänz für Määss und Gwicht im hütige Sinn festgläit worde as en Äihäit vo de Basisäihäite [[Kilogramm|Kilogramm (kg)]], [[Meter|Meter (m)]] und [[Sekunde|Sekunde (s)]]:
+:<math>1\, \mathrm{N} = 1\, \frac{\mathrm{kg}\cdot \mathrm{m}}{\mathrm{s}^2}</math>
+und 1948 isch si vo dr Komferänz noch em [[Isaac Newton]] benennt worde.<ref>{{Literatur| Herausgeber=International Bureau of Weights and Measures | Titel=The international system of units | Verlag=U.S. Dept. of Commerce, National Bureau of Standards | Seiten=17 | sprache=änglisch | Jahr=1977 | ISBN=0745649742 | Online={{Google Buch|BuchID=YvZNdSdeCnEC|Seite=17}}}}</ref>
+
+{| class="wikitable"
+|+ Chraftäihäite und Umrächnigsfaktore
+|-
+! style="width:10;%" |
+! style="width:18;%" | [[Newton (Einheit)|Newton]]
+! style="width:18;%" | [[Dyn]]
+! style="width:18;%" | [[Kilopond]]
+! style="width:18;%" | [[Pound-force]]
+! style="width:18;%" | [[Poundal]]
+|-
+!   1 N
+| ≡ 1&nbsp;kg·m/s²
+| = 10<sup>5</sup> dyn
+| ≈ 0,102 kp
+| ≈ 0,225&nbsp;lb<sub>''f''</sub>
+| ≈ 7,233 pdl
+|-
+!   1 dyn
+| = 10<sup>−5</sup> N
+| ≡ 1 g·cm/s²
+| = 1/980665 kp
+| ≈ 1/444822&nbsp;lb<sub>''f''</sub>
+| ≈ 1/13825,5 pdl
+|-
+!   1 kp
+| = 9,80665 N
+| = 980665 dyn
+| ≡ ''[[Erdbeschleunigung|g<sub>N</sub>]]'' · 1&nbsp;kg
+| ≈ 2,205&nbsp;lb<sub>''f''</sub>
+| ≈ 70,932 pdl
+|-
+!   1&nbsp;lb<sub>''f''</sub>
+| = 4,4482216152605 N
+| ≈ 444822 dyn
+| = 0,45359237 kp
+| ≡ ''g<sub>N</sub>'' · 1 [[Pfund|lb]]
+| ≈ 32,174 pdl
+|-
+!   1 pdl
+| = 0,138254954376 N
+| ≈ 13825,5 dyn
+| ≈ 0,0141 kp
+| ≈ 0,0311&nbsp;lb<sub>''f''</sub>
+| ≡ 1&nbsp;lb·[[Fuss (Einheit)|ft]]/s²
+|}
+
+== D Chraft in dr klassische Mechanik ==
+=== D Chraft in de Gsetz vom Newton ===
+{{Hauptartikel|Newtonsche Gesetze|titel1=D Gsetz vom Newton}}
+[[Datei:GodfreyKneller-IsaacNewton-1689.jpg|miniatur|rechts|Dr [[Sir Isaac Newton]]]]
+Dr Chraftbegriff vom Newton basiert uf däm Gedanke: Alli Iiwirkige uf e Körper, wo zun ere Änderig vo sim Beweegigszuestand füere, si Chreft. D Chraft beschribt kä Äigeschaft vom ene Körper, sondern wie intensiv d Wäggselwirkig vo zwäi Körper isch und iiri Richdig. Bin ere Beweegig wo kä Chraft wirkt bzw. wenn d Chreft im Gliichgwicht si, änderet sich dorum dr Beweegigszuestand vom ene Körper nit, sondern er bewegt sich witer in ere graade Linie  mit ere konstante Gschwindigkäit oder er bewegt sich au witer gar nid. Das isch dr Inhalt vom [[Newtonsche Gesetze#Erstes newtonsches Gesetz|Drääghäitsbrinzip]], wie s scho dr Galilei formuliert het.
+
+S [[Newtonsche Gesetze#Zweites newtonsches Gesetz|Akzionsbrinzip]] verbindet d Chraft <math>\vec{F}</math>, wo uf e freie Körper wirkt, mit dr Änderig vo däm sim [[Impuls (Mechanik)|Impuls]] <math>\vec{p}</math>: In jede [[infinitesimal]] churze Zitruum <math>\mathrm{d}t</math> änderet sich dr Impuls vom Körper um <math>\mathrm{d} \vec{p}</math> noch <math>\mathrm{d} \vec{p}= \vec{F}\mathrm{d}t.</math> Dr Impuls vom ene Körper isch s Brodukt vo sinere Masse <math>m</math> und dr Gschwindigkäit <math>\vec{v}</math>; es gilt <math> \vec{p}=m \vec{v}.</math> Wil d Masse vom Körper in de mäiste Fäll braktisch konstant blibt (Usnaame si zum Bischbil Rageete oder Körper mit relatiwistische Gschwindigkäite), schribt mä s zwäite Axiom vom Newton mäistens in dr Form <span style="white-space:nowrap;"><math>\vec{F} = m \tfrac{\mathrm{d} \vec{v}}{\mathrm{d}t} = m \vec{a}</math>,</span> wo <math>\vec{a}</math> für d [[Beschleunigung|Beschlöinigung]] vom Körper stoot.
+
+Us dr [[Impulserhaltung|Erhaltig vom Impuls]] chunnt au s [[Newtonsche Gesetze#Drittes newtonsches Gesetz|Reakzionsbrinzip]], wo säit, ass mit ere Chraft („actio“) vom Körper&nbsp;A uf w Körper&nbsp;B, also <math>\vec {F}_{A \to B}</math>, immer e gliich groossi Chraft, wo aber genau in die entgegegesetzti Richdig grichdet isch, (''„reactio“'') vom Körper&nbsp;B uf e Körper&nbsp;A verbunde isch: <math>\vec {F}_{A \to B} = -\vec {F}_{B \to A}.</math> D ''reactio'' isch doo nit nume en Art vo passivem Widerstand, sondern e Chraft, wo aktiv am Wäggselwirkigspartner aagrift. Mä muess sä vom Gliichgwicht vo de Chreft underschäide, wil d Aagriffspünkt vo <math>\vec {F}_{A \to B}</math> und <math>\vec {F}_{B \to A}</math> verschiide si, die bäide Chreft düen enander also nit kompensiere.
+
+Hützudags wurd mä s eender <math>\Delta \vec p \sim \vec F \cdot \Delta t</math> schriibe, so dass es em Newton sinere Absicht wurd entspräche. Wie dr Newton s Wort Chraft brucht het, isch nämlig nit immer äidütig. Chraft bin em sött mä mäistens as [[Kraftstoß|Chraftstoss]] <math>\vec F \cdot \Delta t</math> interpretiere, wo eme Kärper e zuesätzlige Impuls <math>\Delta \vec p</math> git.<ref>H. Schrecker: ''Der Weg zum physikalischen Kraftbegriff von Aristoteles bis Newton.'' In: ''Naturwissenschaften im Unterricht Physik/Chemie.'' 36, Nr.&nbsp;34, 1988, ([https://web.archive.org/web/20120120130720/http://www.leifiphysik.de/web_ph11/lesestoff/02_bewegung/bew.htm Kürzti Fassig im Webarchiv]).</ref>
+
+=== S Gliichgwicht vo de Chreft as Schlüsselbegriff vo dr Statik ===
+Wenn am ene Körper meereri Chreft <math>\vec F_i</math> aagrife, wo sich geegesitig ufheebe, d.&nbsp;h., wenn für d Wektorsumme vo de Chreft
+:<math>\sum{\vec F_i}=\vec 0</math>
+gältet, denn reedet mä vom ene Gliichgwicht vo de Chreft und dä Körper änderet si Beweegigszuestand nit. Bi de Chreft <math>\vec F_i</math> handlet es sich um die sogenannte „iibrägte“ Chreft, wo d Ursache von ene dur füsikalischi Gsetz vorgee wird, und au um d [[Zwangskraft|„Zwangschreft“]], wo as Stütz- und Haltchreft e Beschlöinigung vom Körper verhindere. D Studie vom Chreftgliichgwicht isch dr Inhalt vo dr [[Statik (Physik)|Statik]].
+
+Für dass mä in dr Statik oder allgemäiner in dr [[technische Mechanik]] Süsteem (z.&nbsp;B. [[Tragwerk (Bauwesen)|Draagwärk]]) cha berächne, duet mä Bindige zwüsche de Körper vom Süsteem und zwüschen em Süsteem und sinere Umwält, wo mä nume chliini Formändrige cha mache, as „starri Bindige“ idealisiere. Sonigi starri Bindige si mäistens Glänk zwüsche de Körper oder [[Lager (Statik)|Laager]]. Eso goot dr füsikalisch Charakter vo dene Bindige verlore, und die mechanischi Wäggselwirkig vo de Körper, wo dur die Bindige bedingt wird,  wird dur e Begriff vo de Zwangschreft repräsentiert. D Zwangschreft verrichte am Süsteem kä [[Arbeit (Physik)|Aarbet]], wil kä Beweegig von ene chunnt. Die iibrägte Chreft und d Zwangschreft erfülle zämme d [[Gleichgewicht (Physik)|Gliichgwichtsbedingige]], s Gliichgwicht vo de  Chreft, wo oobe erwäänt wird, und s [[Momentengleichgewicht|Gliichgwicht vo de Momänt]].
+* Bischbil für Zwangschreft: [[Normalkraft|Normalchraft]], [[Auflagerkraft|Uflaagerchraft]], [[Haftkraft|Haftchraft]]
+* Bischbil für iibrägti Chreft: Gwichtschraft, [[Reibung|Riibigschraft]], [[Zugkraft|Zuugchraft]], [[Federkraft|Fääderechraft]], e Chraft mit eme Verlauf wo vorgee isch.
+S Brinzip vo dr [[Virtuelle Arbeit|wirtuelle Aarbet]] säit, ass in dr Statik d Summe vo alle Chreft (Zwangschreft und Chreft vo usse) muess Null si. S [[d’Alembertsches Prinzip|Brinzip vom d'Alembert]] erwiteret das Brinzip uf Süsteem vo dr klassische [[Dynamik (Physik)|Dünamik]], wo Zwangschreft underworfe si und wird verwändet,  zum  Beweegigsgliichige ufzstelle.
+
+=== Wolumechreft und Oberflechichreft ===
+[[Datei:Freischneiden oberflächen und volumenkräfte.svg|mini|[[Freischneiden|Freischniide]]:<br/>1) E Körper wird vo dr Gravitazionschraft <math>F_g</math> aabe zoge. Die Chraft wirkt uf dr ganz Körper und isch e Wolumechraft. In dr horizontale Richdig isch dr Körper in Rue, die bäide Oberflechichreft <math>-F_o</math> und <math>F_o</math> hebe sich geegesitig uf.<br/>2) Dr Körper isch in Gedanke (sümmetrisch) in zwäi Undersüsteem iidäilt worde. D Wolumechraft, wo uf jedes Undersüsteem wirkt, halbiert sich. Wil au bäidi Undersüsteem in dr horizontale Richdig in Rue si, muess mä an dr Schnittflechi zuesätzligi Oberflechichräft iizäichne.]]
+In dr technische Mechanik underschäidet mä bi usdeente Körper zwüsche [[Volumenkraft|Wolumechreft]] und [[Oberflächenkraft|Oberflechichreft]]. Iiri Sterki und Richtig si nume wooldefiniert, wenn si uf e bestimmts Wolume bzw. e bestimmti Oberflechi bezoge wärde.
+
+Wemm mä e komplexes Broblem behandlet mit [[Mehrkörperproblem|meerere Körper]], wo mitenand (mechanisch) wäggselwirke, oder mit zämmegsetzte Körper (z.&nbsp;B. starre oder deformierbare Körper)&nbsp;– so schniidet mä s Undersüstem, wo äim intressiert, in Gedanke [[Freischneiden|vo sinere Umgääbig frei]]. Jetz duet mä de äinzelne Stück vo dr Oberflechi vom freigschnittnige Däilsüstem Chreft zueordne, wo an däm Blatz s übrige Süsteem uf s Däilsüsteem wirke. Mit ere gliich groosse Ooberflechichraft in dr entgegegsetzte Richdig wirkt denn au s freigschnittnige Däilsüsteem uf s übrige Süsteem. Dene Chreft säit mä Ooberflechichräft. Si ghöre zu de Kontaktchreft. Iiri Sterki und Richdig si abhängig von de Schnitt, wo vorhär festgläit worde si. En Ooberflechichraft macht also nume Sinn, wenn au d Ooberflechi bzw. d Schnittflechi, wo drzurghöört, aagee wird.
+
+Wolumechreft si Nitkontaktchreft. Wie zum Bischbil d Grawitazion oder dr Elektromagnetismus grife si am ganze Wolume aa, d.&nbsp;h. au im Innere vom ene freigschnittnige Körper. Au git mä iiri Sterki erst denn sinnvoll aa, wenn mä gliichzitig s freigschnittnige Wolume aagit, wo d Chraft druf wirkt. Wenn sich zum Bischbil e homogene Chlotz im ene homogene Schwerifäld (öbbe e chliine Chlotz in dr Nööchi vo dr Ooberflechi vo dr Ärde) befindet, denn wirkt d Wolumechraft <math>F_g</math> uf en. Wemm mä dä Chlotz in Gedanke in dr Middi verschniidet, so wirkt uf jede Däilchlotz nume no d Wolumechraft <math>F_g/2</math> (lueg d Abbildig nääbedraa aa). Usserdäm wirke uf die bäide Schnittflechene vo de Däilchlötz gliich starki Oberflechichreft, won eso grichdet si, ass si e [[Actio et reactio|Actio-Reactio-Chraftbaar]] bilde.
+
+=== Chreft mit nitmechanische Ursache ===
+Von e baar vo de Chreft, wo zur Zit vom Newton no als verschiide aagluegt worde si, wäiss mä hüte, ass si Usdrucksforme vo [[Elektromagnetismus|elektromagnetische Chreft]] im Innere vo dr Materie si. Die Chreft merkt mä
+* as [[elektromotorische Kraft|elektromagnetischi Chraft]], wo Elektrone dur e Läiter dribt,
+* in [[Fluid]] as [[Kompressibilität|Kompressibilidäät]] und [[Viskosität|Wiskosidäät]],
+* as [[Reibung|Riibig]] zwüsche de Oberfleche vo verschidnige Körper,
+* as Widerstand, wo e Körper ere Verformig entgegesetzt ([[Federkraft|Fääderechraft]], Kompressibilidäät, [[Schubmodul]]).
+
+=== Chraft und Determinismus ===
+[[Datei:Falling ball.jpg|rechts|miniatur|D Fallstrecki isch kwadratisch abhängig vo dr Fallzit: s~t². Mä gseet e Balle, wo [[Freier Fall|frei aabegheit]] im Liecht vo elf [[Stroboskop]]blitz, won en alli 0,05&nbsp;Sekunde belüüchtet häi. Wäared dr erste 0,05&nbsp;Sekunde fallt d Balle äi Lengiäihäit (doo öbbe 12&nbsp;mm): t=1 - s=1; in 0,10&nbsp;Sekunde vier Lengiäihäite): t=2 - s=4; in 0,15&nbsp;Sekunde denn nüün Lengiäihäite): t=3 - s=9 und so witer, bis er noch 0,50&nbsp;Sekunde hundert Lengiäihäite): t=10 - s=100 gfalle isch.]]
+Mit de [[Newtonsche Gesetze|Gsetz vom Newton]] cha mä us dr Usgangssituazion und de Chreft, wo wirke, vorussääge, wie sich e füsikalischs Süsteem entwigglet. Däs isch eso nit nume für äinzelni Versüech im Labor, sondern im Brinzip au für s Universum als Ganzes. Wäge däm het sich 18.&nbsp;Joorhundert e [[Laplacescher Dämon|deterministischs Wältbild]] entwigglet. Noch däm weere alli Eräigniss grundsätzlig im Vorus festgläit, au wemm mä d Rächnige, wo für e Vorussag nütig si, mäistens braktisch nid cha mache. Im 20.&nbsp;Joorhundert het sich denn uusegstellt, ass mä d Formle vo dr [[Klassische Physik|klassische Füsik]] uf dr Eebeni vo de [[Atom]] nit cha aawände. S deterministische Wältbild, wo vo de Formle cho isch, het mä dorum in sinere ursprünglige Form müesse verwärfe.<ref>Carl Hoefer: [http://plato.stanford.edu/entries/determinism-causal/#StaDetPhyThe ''Causal Determinism.''] Artikel in der [[Stanford Encyclopedia of Philosophy]] (änglisch).</ref>
+
+=== Dr Zämmehang zwüsche Chraft und Aarbet ===
+{{Hauptartikel|Arbeit (Physik)|titel1=Aarbet}}
+Wenn e Chraft wirkt, cha sich d [[Energie|Energii]] vom ene Körper verändere. E Bischbil isch d [[Spannenergie|Spanneregii]] bim [[Expander (Sport)|Expander]]. Dr Energii, wo überdräit wird, wenn dr Aagriffspunkt von ere Chraft um e gwüssi [[Trajektorie (Physik)|Wäägstrecki]] verschoobe wird, säit mä au Aarbet und git ere vilmol s Sümbol <math>W</math>.
+
+Wemm mä e bestimmti Aarbet mit ere chliinere Chraft will läiste, so cha mä das mit eme [[Kraftwandler|Chraftwandler]] mache. Bichbpil für Chraftwandler si [[Flaschenzug|Flaschezüüg]], [[Hebel (Physik)|Heebel]] oder [[Gangschaltung|Gangschaltige]]. Dr Wääg aber, wo d Chraft uf em usgüebt wird, wird lenger. Wemm mä zum Bischbil e Chraftwandler aawändet, wo nume e Viertel vo dr Chraft bruch, so isch das mindestens mit ere Vervierfachig vom Wääg verbunde. Die Konselwänz vom [[Energieerhaltungssatz|Energiierhaltigssatz]] isch in dr »[[Goldene Regel der Mechanik|Goldige Reegle vo dr Mechanik]]« beschriibe.
+
+Wenn d Chraft konstant isch und in dr Richdig vom ene graade Wääg mit dr Lengi <math>s</math> wirkt, denn wird d Aarbet, wo mä muess läiste dur d Beziejig
+:<math>W = F \, s</math>
+bestimmt. Wenn d Chraft im Winkel <math>\alpha</math> schreeg zur Strecki wirkt, cha mä d Aarbet dur
+:<math>W=\vec F \cdot \vec s = |\vec F| \, |\vec s|  \, \cos\alpha</math>
+usrächne. In dere Gliichig isch <math>\vec s</math> dr Wektor vom Startpunkt zum Ändpunkt vo dr Strecki. Kä Aarbet wird gläistet, wenn d Chraft mit em Wääg e [[Rechter Winkel|rächte Winkel]] bildet: Wemm mä e Gwicht in ere Eebeni dräit, wird mä zwar müed, aber d Last bechunnt nid mee Energii über.
+
+Ganz allgemäin isch d Aarbet, wo gläistet wird, s [[Kurvenintegral]] vo dr Chraft im Wääg nooch:
+:<math>W=\int_{\vec s_1}^{\vec s_2} \vec F(\vec s)\,\mathrm d \vec s</math>
+Doodrbi si <math>\vec s_1</math> und <math>\vec s_2</math> d [[Ortsvektor|Ortswektore]] vom Aafangs- und vom Ändpunkt vom Wääg.
+
+=== Konserwativi und dissipativi Chreft ===
+Wemm mä en Expander, wien er im Bischbil oobe nooche vorchunnt, uf äinere Site festmacht und s andere Ändi im Ruum bewegt, so ändere sich vo äim Punkt zum andere süstematisch d Richdig und d Gröössi vo dr Chraft. Wenn d Beweegige langsam si, sodass es käini Schwingige im Expander git und wemm mä die inneri [[Reibung|Riibig]] duet vernoochlässige, denn isch d Chraft äifach e Funkzioon vom Ort (e statischs [[Vektorfeld|Wektorfäld]]). Jedem Ort entspricht e bestimmte Spannigszuestand vom Expander. Es chunnt nit druf aa, uf welem Wääg s Ändi vom Expander an dä Ort cho isch. In sonige Fäll reedet mä von ere [[Konservative Kraft|konserwative Chraft]]. D Aarbet, wo gegen e konserwativi Chraft verrichdet wird, isch unabhängig vom Wääg, si hängt nume vom Aafangs- und vom Ändpunkt ab. Mä bechubbt also Aarbet wo mä gmacht het zrugg über, wemm mä&nbsp;– uf em gliiche oder uf eme andere Wääg&nbsp;– wider zum gliiche Usgangspunkt chunnt.
+
+Dr Wärt vom Wäägintegral von ere konserwative Chraft vom ene festen Bezugspunkt us häisst [[potentielle Energie|potenzielli Energii]] <math>W_{pot}\,</math>, mänggisch au churz ''Potenzial''. Vilmol isch s äifacher, wemm mä vo dr potenzielle Energii usgoot (im Bischbil oobe also vo dr Spannigsenergii, wo im Expander gspiicheret isch) zum d Chraft <math>\vec F</math> als iire negative [[Gradient (Mathematik)|Gradiänt]]
+:<math>\vec F(\vec r)= -\nabla W_{pot}(\vec r)</math>
+z bestimme, wil s Fäld vo dr potenzielle Energii nume e [[Skalarfeld|Skalarfäld]] isch.
+
+Es chunnt aber in braktische Fäll nie vor, ass d Aarbet, wo am ene Süsteem gläistet wird, ganz in potenzielli Energii umgsetzt wird. Es git immer Riibigschreft und d Aarbet, wo wäge dene gläistet wird,  wird in [[Wärme|Wermi]] umgsetzt. Mänggisch isch s aber genau die [[Dissipation|Dissipazioon]], wo mä will ([[Fallschirm]], [[Fitnessgerät|Fitnessgräät]], [[Motorbremse|Motorbrämsi]]).
+
+=== Chraft im Chraftfäld ===
+<!--
+{{Hauptartikel|Kraftfeld (Physik)|titel1=Chraftfäld}}
+-->
+Gegen e Expander muess e Schwechling gliich vil Chraft aawände wien e Schwergwichtler. Wemm mä aber e Stääge ufe goot, denn schafft mä gege si Gwichtschraft <math>F_G</math>, d. h. je schweerer dr Mensch umso mee muess er schaffe, und in ere Umlaufbaan um d Ärde wurde bäidi nääbenenander fliege. Wemm mä Beweegige in [[Kraftfeld (Physik)|Chraftfälder]] beschribt, wie doo im [[Erdschwerefeld|Schweerifäld vo dr Ärde]], isch s vilmol braktisch, wemm d Äigeschaft vom Körper, wo d Chraft zuen ere broporzional isch, uuserächnet. Dere Äigeschaft (z. b. d Masse <math>m</math> vom Sportler) säit mä allgemäin d [[Ladung (Physik)|Laadig]]. Mä wird sä loos, wemm mä s Wektorfeld vo dr Chraft dur d Laadig däilt. Em Resultat
+:<math>\frac{\vec F_G(\vec r)}{m} = \vec g(\vec r)</math>
+säit mä d [[Feldstärke|Fäldsterki]] und si beschribt s Chraftfäld unabhängig vo dr Laadig vom [[Kraftfeld (Physik)|Probkörper]]. Dr Fäldsterki ''g'' vom Schwerifäld säit mä au d Fallbeschlöinigung.
+
+S Skalarfäld vo dr potenzielle Energii, wo für konserwativi Chraftfälder existiert, däilt dur d Laadig git s [[Potential (Physik)|Potenzial]] vom Chraftfäld.
+
+=== Dr Zämmehang zwüsche dr Chraft und em Dräimomänt ===
+[[Datei:Hebel3.svg|rechts|miniatur|S [[Hebelgesetz|Heebelgsetz]]]]
+<!--
+{{Hauptartikel|Drehmoment|titel1=Dräimomänt}}
+-->
+S [[Drehmoment|Dräimomänt]] <math>\vec M</math> cha mä uffasse as d Chraft <math>\vec F</math>, wo e Dräijig bewirkt. Es isch s [[Kreuzprodukt|Chrüzbrodukt]] vom [[Kraftarm|Chraftarm]] und dr Chraft:
+:<math>\vec M =\vec r \times \vec F</math>
+Doo isch dr Chraftarm <math>\vec r</math> dr [[Ortsvektor|Ortwektor]] vom Dräipunkt zum Punkt, wo d Chraft aagrift (Aagriffspunkt). Das bedütet, ass je grösser dr Abstand zwüschen em Dräipunkt und em Aagriffspunkt isch, umso gröösser isch s Dräimomänt. Usserdäm macht nume sälli Komponänte vo dr Chraft bim Dräimomänt öbbis us, wo sänkrächt zur Strecki zwüschen em Dräipunkt und em Aagriffspunkt isch.
+
+Dräimomänt chömme under anderem vor, wenn d [[Drehzahl|Dräizaal]] vo Körper, wo chönne drüllt wärde, gröösser oder chliiner wird. Si spiile denn e Rolle, wo mä mit dere vo de Chreft bi dr [[Translationsbewegung|gradlinige Beweegig]] cha vergliiche. Analog zum [[Kräftegleichgewicht|Gliichgwicht vo de Chreft]] isch s ''[[Drehmomentengleichgewicht|Gliichgwicht vo de Dräimomänt]]'' e wichdige Spezialfall.
+
+=== Dr Zämmehang zwüsche dr Chraft und em Druck ===
+<!--
+{{Hauptartikel|Druck (Physik)|titel1=Druck}}
+-->
+Wenn e Chraft uf e [[Fläche (Mathematik)|Flechi]] wirkt, so isch dr Druck <math>p</math> wo entstoot gliich dr [[Vektor#Länge/Betrag eines Vektors|Gröössi (dr Lengi vom Wektor)]] vo dr Chraftkomponente <math>\vec {F}_{\perp}</math>, wo [[Orthogonalität|sänkrächt]] uf dere Flechi stoot,  pro [[Flächeninhalt|Flechiinhalt]] <math>A</math>:
+:<math>p = \tfrac {| \vec {F}_{\perp} |}{A}</math>
+Dr Druck isch en [[Intensive Größe|intensivi]] [[Zustandsgröße|Zuestandsgröössi]] vo [[Thermodynamisches System|thermodünamische Süsteem]] und au no e [[Linearität|lineari]] [[Feldgröße|Fäldgröössi]]. Das Konzept isch e Veräifachig vom allgemäine [[Spannungstensor|Spannigstensor]].
+
+D [[Spannung (Mechanik)|Druckspannig]] isch im Gegesatz zum Druck kä [[Skalar (Mathematik)|skalari]] Zuestandsgröössi.
+
+=== Drääghäitschreft bzw. Schiinchreft ===
+<!--
+{{Hauptartikel|Trägheitskraft|titel1=Drääghaitschraft}}
+-->
+Dr Underschiid zwüsche de Uffassige vo dr Chraft vom Aristoteles und vom Newton gseet mä au bi dr „Schiinchraft“, wo mä ere au Drääghäitschraft säit. Schiinchreft chömme nume in [[Beschleunigtes Bezugssystem|beschlöinigte Koordinatesüsteem]] vor und existiere nid, wemm mä sä vom ene [[Inertialsystem|Inerzialsüsteem]] us aaluegt. Mä cha sä aber mässe und iiri Wirkig isch real. D Bezäichnig chunnt drvo, ass e gäignete Beobachder usserhalb vom Süsteem sich d Uswirkige äifach mit em [[Trägheitsprinzip|Drääghäitsbrinzip]] cha erklääre ooni zuesätzligi Chreft.
+
+D Drääghäitschraft isch mit em [[d’Alembertsches Prinzip|Brinzip vom d’Alembert]] verbunde: Äifach gsäit füert s d Drääghäitschraft vom d'Alembert <math>\vec F_T = - m \, \vec a</math> ii und macht eso us em dünamische Broblem vom e Körper, wo sich bewegt, e statischs Broblem. In dr [[technische Mechanik]], wo s Brinzip mit vil Erfolg aagwändet wird, redet mä vom ene »[[Dynamisches Gleichgewicht (Technische Mechanik)|dünamische Gliichgwicht]]«. In mängge Fachbüecher wird im d'Alembert si Drääghäitschraft as Gegechraft im Sinn vom [[Actio und reactio|Wäggselwirkigsbrinzip]] bezäichnet,<ref>Hans J. Paus: ''Physik in Experimenten und Beispielen.'' S.&nbsp;33, {{Google Buch|BuchID=DJcRnjNVo0wC|Seite=33}}.</ref> anderi Fachbuechautore gseen do e Widerspruch zum Wäggselwirkigsbrinzip, wil s für sä kä Gegechraft git.<ref>{{Literatur|Titel=Technische Mechanik: Band&nbsp;3: Kinetik|Autor=Dietmar Gross, Werner Hauger, Jarg Schrader, Wolfgang A. Wall|Jahr=2008|Auflage=10.|Seiten=191|Verlag=Gabler Wissenschaftsverlage|Online={{Google Buch|BuchID=jfEwnhV9DlYC|Seite=191}}|Kommentar=„Wir schreiben nun F-ma=0 und fassen das negative Produkt aus der Masse m und der Beschleunigung a formal als eine Kraft auf, die wir […] D'alembertsche Trägheitskraft F<sub>T</sub> nennen: F<sub>T</sub>=-ma. Diese Kraft ist keine Kraft im Newtonschen Sinne, da zu ihr keine Gegenkraft existiert (sie verletzt das Axiom actio=reactio!); wir bezeichnen sie daher als Scheinkraft.“}}</ref><ref>{{Literatur |Titel=Mechatronische Systeme: Grundlagen|Autor=Rolf Isermann|Jahr=2004|Auflage=2.|Seiten=124|ISBN=3540323368|Verlag=Gabler Wissenschaftsverlage|Online={{Google Buch|BuchID=lPTGuumnKFcC|Seite=124}}}}</ref> D Bezäichnig Schiinchraft wird au drmit erklärt, ass d Drääghäitschraft kä ''wirkendi Chraft'' isch, wie sä dr Newton definiert.<ref>{{Literatur|Titel=Technische Mechanik Band 3: Kinematik und Kinetik|Autor=Bruno Assmann, Peter Selke|Jahr=2010|Auflage=15.|Seiten=246|ISBN=3486597515|Verlag=Oldenbourg Verlag|Online={{Google Buch|BuchID=w_bK8miERB0C|Seite=133}}|Kommentar=„Newton hat als erster versucht, die Physik systematisch aufzubauen. An den Anfang seines (…) Hauptwerkes (…) stellt er vier Definitionen: (…) Definition&nbsp;4: Eine wirkende Kraft ist das gegen einen Körper ausgeübte Bestreben, seinen Bewegungszustand zu ändern, entweder den der Ruhe oder den der gleichförmigen geradlinigen Bewegung.“}}</ref><ref>{{Literatur|Titel=Technische Mechanik Band&nbsp;3: Kinematik und Kinetik|Autor=Bruno Assmann, Peter Selke|Jahr=2010|Auflage=15.|Seiten=246|ISBN=3486597515|Verlag=Oldenbourg Verlag|Online={{Google Buch|BuchID=w_bK8miERB0C|Seite=246}}}}</ref>
+
+* Wenn en Auti dur e Chraft <math>\vec F</math> abbrämst wird (Extremfall: Frontalzämmestooss), so wirkt die Chraft nit diräkt uf e Schofföör. Noch em Drääghäitsbrinzip wird sich dr Schofföör also gliich schnäll gradus witer bewege, wääred s Auti langsamer wird. Es gitdenn aber [[Zwangskraft|Zwangschreft]], wo uf e Schofföör wirke dur Süsteem wie dr [[Sicherheitsgurt]] und d [[Airbag]] wo si Gschwindikäit verchliinere. So wien är s gseet, git s Drääghäitschraft, wo in dr Fartrichdig wirkt und iin in gege d Windschutzschiibe druckt.
+* Dr Sitz vom ene Chettikarussell wurd sich gradus beweege, wenn s kä Chraft öber d Chetti gäb, nume wäge dere [[Zentripetalkraft|Zentripetalchraft]], wo wo uf dr Middelpunkt vo dr Kräisbaan grichdet isch, git s e Kräisbeweegig. Öbber wo uf em Sässeli sitzt gspürt d [[Zentrifugalkraft|Zentrifugalchraft]]  as Drääghäitschraft.
+* Witeri Bischbil für Drääghäitschreft si
+** d [[Corioliskraft|Coriolischraft]]
+** d Massechreft im [[Hubkolbenmotor|Motorbau]]
+** d [[Gravitation|Grawitazioon]] in dr allgemäine Relatiwidäätstheorii
+
+== D Chraft in dr Relatiwidäätstheorii ==
+{{Hauptartikel|Spezielle Relativitätstheorie|Allgemeine Relativitätstheorie|titel1=Spezielli Relatiwidäätstheorii|titel2=Allgemäini Relatiwidäätstheorii}}
+Die ''spezielli'' Relatiwidäätstheorii wird anstatt vo de dünamische Gsetz vo dr klassische Mechanik aagwändet, wenn d Gschwindigkäite, wo vorchömme, gegenüber dr [[Lichtgeschwindigkeit|Liechtgschwindikäit]] nit chönne vernoochlässigt wärde. In dr spezielle Relatiwidäätstheorii muess dr Impuls zum [[Relativistischer Impuls|relativistische Impuls]] verallgemäineret wärde, d Chraft cha denn immer no us <math>\vec{F} = \tfrac{\mathrm d \vec{p}}{\mathrm d t}</math> berächnet wärde, aber dr Impuls isch nüme <math>\vec{p} = m \cdot \vec{v}</math>. Anstatt vo dr Beziejig »Chraft&nbsp;= Masse mol Beschlöinigung«, <math>\vec{F} = m \cdot \vec{a}</math> vom Newton, brucht mä d Gliichig <math>\vec F\,=\,\frac{\mathrm d}{\mathrm{d}t}\frac {m\cdot\vec v}{\sqrt{1-\frac{v^2}{c^2}}}.</math>
+
+D Chraft wird zur [[Vierervektor|Minkowskichraft]] („Viererchraft“) erwiteret, wo mä mäistens as <math>K^\mu</math> schribt und us em Viererimpuls berächnet über <math>K^\mu=\tfrac{\mathrm d p^\mu}{\mathrm d \tau} = \gamma \tfrac{\mathrm d p^\mu}{\mathrm d t}</math> mit dr [[Eigenzeit|Äigezit]] <math>\tau</math> und em [[Lorentzfaktor]] <math>\gamma=1/\sqrt{1-\frac{\mathrm v^2}{c^2}}.</math>
+
+Die Gliichig, d »[[Bewegungsgleichung|Beweegigsgliichig]] vo dr spezielle Relatiwidäätstheorii für e Viererimpuls«, beschribt beschlöinigti Beweegige im ene [[Inertialsystem|Inerzialsüsteem]]. Zwüsche <math>\vec F</math> und <math>\vec K</math> git s dr Zämmehang <math>\vec F =\sqrt{1-\frac{\vec v^2}{c^2}}\,\vec K,</math> wo <math>\vec K = (K^1,K^2,K^3)</math> dr ''rüümligi'' Däil vo dr Viererchraft <math>K^\mu</math> isch; dr ''zitlig'' Däil, wo nöi drzuechunnt, beschribt en Energiiänderig, genauer: <math>\tfrac{\mathrm d \tfrac{E}{c}} {\mathrm d \tau}</math> (lueg [[Viererimpuls]]), sodass mä au vom Chraft-Läistig-Viererwektor redet.
+
+Die ''allgemäini'' Relatiwidäätstheorii erwiteret s [[Newtonsches Gravitationsgesetz|Grawitazionsgsetz vom Newton]], won e Gränzfall von ere isch, nämlig wenn d Massedichte und d Gschwindigkäite chlii gnueg sin. Iiri Grundlage si maassgäblig vom [[Albert Einstein]] am Aafang vom 20.&nbsp;Joorhundert entwigglet worde, und si beschribt allgemäin d Wäggselwirkig zwüsche dr [[Materie (Physik)|Materie]], wo au [[Feld (Physik)|Fälder]] iischliesst, uf dr äinte Site und em [[Raum (Physik)|Ruum]] und dr [[Zeit|Zit]] uf dr andere.
+
+D [[Gravitation|Grawitazionschraft]] wird in dr allgemäine Relatiwidäätstheorii as geometrischi Äigeschaft vo dr krümmte [[4D|vierdimensionale]] [[Raumzeit|Ruumzit]] verstande: Energii, Impuls und Druck vo dr Materie beiiflusse d Geometrii vo dr Ruumzit, wo si din si. Dä Iifluss cha mä mit em Begriff vo dr »Ruumzitchrümmig« beschriibe. Die rüümlige und zitlige Koordinate wärde as gliichberächtigt betrachtet, und mä behandlet alli Ändrige nume no as e geometrischs Brobleem. D Materie, wo e Grawitazionschraft uf sä wirkt, bewegt sich in dr Ruumzit uf ere [[Geodäte]], also im naive Sinn »gradus«. Die [[Gerade|Graadi]] as Modäll für d Gradusbeweegig vom e freie Körper git s nume in nid krümmte (also grawitazionsfreie) Rüüm.
+
+Füsikalisch entspricht d Beweegig dr Geodäte nooch em [[Freier Fall|freie Fall]]. E groosse Däil vo dr [[Schwerkraft|Schwerchraft]] wird eso druf zrugggfüert, ass dr Ärdbode, wil d Atom,  wo d Ärde us ene bestoot, sich geegesitig abstoosse, relativ zum ene frei fallende Gegestand gege oobe beschlöinigt wird. Abgsee vo de [[Gezeitenkraft|Chreft vo de Gezite]] gspürt e Mensch uf em Ärdbode also fast die gliichi Chraft, wie wenn er in ere Rageete wurd stoo, wo gliichmässig beschlöinigt wird. D Chreft vo de Gezite, wo s in jedem Grawitazionsfäld git, chömme bim ene usdeente Objekt als Verformigschreft zum Vorschiin. Im Grawitazionsfäld vom ene chuugeleförmige Körper (wie dr Ärde) zien d Chreft vo de Gezite s Objekt in dr Fallrichdig in d Lengi und stuuche s sänkrächt zur Fallrichdig zämme. D Chreft vo de Gezite chömme diräkt vo dr Ruumzitchrümmig und si bsundrigs stark bi Objekt mit seer groosse Masse wie bi [[Schwarzes Loch|schwarze Löcher]].<ref>Norbert Dragon: [http://www.itp.uni-hannover.de/~dragon/stonehenge/relativ.pdf ''Geometrie der Relativitätstheorie.''] {{Webarchiv|text=Archivlink |url=http://www.itp.uni-hannover.de/~dragon/stonehenge/relativ.pdf |wayback=20090419091549}} Vorlesungsskript (PDF; 2,36&nbsp;MB), abgrüeft am 15.&nbsp;Juli 2014.</ref>
+
+== D Chraft in dr Kwantemechanik ==
+{{Hauptartikel|Quantenmechanik|titel1=Kwantemechanik}} 
+In Experimänt, wo chliinsti Däili wäggselwirke, bechunnt mä Resultat, wo im Widerspruch zur [[klassische Mechanik]] stöön. Es git Fenomen wo kwantisiert si, das häisst, si laufe nit kontinuierlig ab, sondern bassiere nume in bestimmte Porzione&nbsp;– de sogenannte »[[Quant|Kwante]]«. D Chreft wärde in dr Kwantemechanik wie in dr klassische Mechanik dur Chraftfälder beschriibe, si sin also nit kwantlet. Allerdings chönne aaziehendi Chreft e Kwantlig vo de möglige Energie vo de Däili zur Folg ha. So chönne wäge dr aaziende elektrische Chraft vom Atomkärn d Elektronen im [[Atom]] nume bestimmti Energie ha.
+
+Es git kwantemechanischi Effekt, wo wien e Chraft erschiine, wo mä aber nit uf d Wirkig vo äinere vo de Grundchreft cha zruggfüere. Zum Bischbil isch s [[Pauli-Prinzip]] d Ursach vo dr [[Austauschwechselwirkung|Usduschwäggselwirkug]], wo under anderem drzue biidräit, ass sich Atom wo nooch zämme si abstoosse.
+
+== D Chraft in de Kwantefäldtheorie ==
+{{Hauptartikel|Quantenfeldtheorie|Eichboson|Grundkräfte der Physik|titel1=Kwantefäldtheorii|titel2=Äichboson|titel3=Grundchreft vo dr Füsik}}
+
+=== Die zwäiti Kwantisierig füert zu »Chraftdäili« ===
+Vo 1927 aa het mä brobiert,  nit nume die ursprünglige Objekt vo dr Kwantemechanik, d Partikel, z kwantisiere sondern au [[Feld (Physik)|Fälder]] (z.&nbsp;B. s elektrische Fäld). Us däm si d [[Quantenfeldtheorie|Kwantefäldtheorie]] entstande; mä schwätzt au vo dr »zwäite Kwantisierig«. D Kwantisierig vo de Fälder wird au im Beriich vo dr [[Festkörperphysik|Festkörperfüsik]] und in andere [[Vielteilchentheorie|Vildäilitheorie]] aagwändet.
+
+In dr Kwantefäldtheorii wärde alli Chreft drufzrugggfüert, ass [[Virtuelles Teilchen|wirtuelli]] [[Boson]]e usduscht wärde. Die Wäggselwirkigsdäili zu jedere vo de vier Grundchreft si sozusage äinzelni »Chraftdäili«.
+
+Konkreti Kwantefäldtheorie si d [[Quantenelektrodynamik|Kwanteelektrodünamik]], wo [[Elektron]]e, [[Positron]]e und s [[Elektromagnetisches Feld|elektromagnetische Fäld]] beschribt, und d [[Quantenchromodynamik|Kwantechromodünamik]], wo die [[starke Kernkraft|starki Kärnchraft]] beschribt, also under anderem wie d [[Proton]]e und d [[Neutron]]e ufbaut sin. Usserdäm het mä die schwachi Kärnchraft mit dr Kwanteelektrodünamik zur Theorii vo dr [[Elektroschwache Wechselwirkung|elektroschwache Wäggselwirkig]] zämmegfüert. S elektroschwache Modäll bildet mit dr Kwantechromodünamik s sogenannte [[Standardmodell|Standardmodäll]] vo dr [[Elementarteilchenphysik|Elementardäilifüsik]]. Es behandlet alli bekannte Däili und cha die mäiste bekannte Vorgäng erkläre. S Schwerifäld (Gravitazion) isch aber nid din, es git no kä konsistänti Theorii vo dr [[Quantengravitation|Kwantegrawitazion]] und es feele no anderi Sache im Standardmodäll. Allerdings het mä z.&nbsp;B. s sogenannte [[Higgs-Mechanismus|Higgs-Däili]], wo in dr Theorii vo dr elektroschwache Wäggselwirkig d Masse vo de „schwache“ Äichbosone ''W<sup>+</sup>'', ''W<sup>−</sup>'' und ''Z'' erklärt, 2012 vermuetlig gfunde. Im Standardmodäll spiile d [[Eichboson|Äichbosone]] d Rolle vo Chraftdäili, wo Wäggselwirkige vermiddle. Wil Chreft dur Wäggselwirkigsdäili vermiddlet wärde, isch die Chraft kwantisiert.
+
+=== D Veräihäitligung vo de Grundchreft ===
+[[Datei:Coupling constants as function of energy (sketch).svg|mini|D Koppligskonstante α als Funkzion vo dr Energii E ('''s'''tarki, sch'''w'''achi, '''e'''lektro'''m'''agnetischi Wäggselwirkig, '''G'''ravitazion)]]
+In dr hütige Füsik wärde mäistens vier [[Grundkräfte der Physik|Grundchreft]] bzw. Wäggselwirkige underschiide. Wemm mä sä noch dr Gröössi vo dr [[Kopplungskonstante|Koppligskonszante]] sortiert, won e Mäss für die relativi Sterk i isch, so si das:
+* d [[Gravitation|Grawitazionschraft]]
+* die [[Schwache Wechselwirkung|Schwachi Kärnchraft]]
+* die [[Elektromagnetische Wechselwirkung|Elektromagnetischi Chraft]]
+* die [[Starke Wechselwirkung|Starki Kärnchraft]]
+
+Äins vo de Ziil vo dr Füsik isch s,  alli Grundchreft oder Wäggselwirkige in äim veräihäitligte Gsamtkonzept z beschriibe, in ere »[[Große vereinheitlichte Theorie|groosse veräihäitligte Theorii]]«, wie si in dr Dabälle daargstellt isch. Für daas nimmt mä aa, ass die Grundchreft zur Zit vom [[Urknall]] en äinzigi Chraft gsi si, wo sich denn in die äinzelne Chreft ufgspalte het, wo sich s Uniwersum abküelt het.
+
+{{Tabelle der Grundkräfte|HI=HI}}
+
+Mä het schon e baar Erfolg gha, zum Bischbil het mä die [[Elektrostatik|elektrostatischi Wäggselwirkig]] und die [[Magnetostatik|magnetischi Wäggselwirkig]] veräint, wo dur e [[Magnetismus]] und die »magnetische Chreft« beschriibe wärde und as [[Spezielle Relativitätstheorie#Lorentzkraft|relativistische Nääbeneffekt]] vo elektrische Ström erklärbar si. Es isch au scho glunge, die [[elektromagnetische Wechselwirkung|elektromagnetischi Wäggselwirkig]] und die schwachi Wäggselwirkig in dr Kwantefäldtheorii vo dr [[Elektroschwache Wechselwirkung|elektroschwache Wäggselwirkig]]  z beschriibe. Mä het dorum, so wie mä s hüte gseet, sträng gno nume drei verschidnigi Grundchreft, wo vonenander unabhängig si.
+
+== Litratuur ==
+* Wolfgang Nolting: ''Klassische Mechanik.'' In: ''Grundkurs Theoretische Physik.'' Bd.&nbsp;1, 8.&nbsp;Auflage. Springer, Berlin 2008, ISBN 978-3-540-34832-0.
+* Richard P. Feynman: ''Feynman-Vorlesungen über Physik.'' Oldenbourg, München/Wien 2007, ISBN 978-3-486-58444-8.
+* Paul A. Tipler: ''Physik.'' 3.&nbsp;korrigierter Nachdruck der 1.&nbsp;Auflage. 1994, Spektrum Akademischer Verlag, Heidelberg/Berlin, 2000, ISBN 3-86025-122-8.
+* Ludwig Bergmann, Clemens Schaefer: ''Mechanik&nbsp;– Akustik&nbsp;– Wärme.'' In: ''Lehrbuch der Experimentalphysik.'' Bd.&nbsp;1, 12.&nbsp;Auflage. Walter de Gruyter, Berlin 2008, ISBN 978-3-11-019311-4.
+
+== Weblingg ==
+* [https://web.archive.org/web/20160401080825/http://www.leifiphysik.de/themenbereiche/kraft-und-das-gesetz-von-hooke Kraftmessung mit Hilfe des Gesetzes von Hooke.] [[LEIFI]], auf Schülerniveau.
+* [https://web.archive.org/web/20150415033251/http://www.leifiphysik.de/themenbereiche/kraefteaddition-und-zerlegung Kraftaddition und -zerlegung.] LEIFI, auf Schülerniveau.
+* [http://www.lernstunde.de/thema/kraefte/grundwissen.htm Kräfte im Fach Physik für die Schule.] Auf Schülerniveau.
+* [http://www.zum.de/dwu/depotan/apme007.htm Flash-Animation zur Kräfteaddition.] dwu-Unterrichtsmaterialien, auf Schülerniveau.
+* Cornelis Harm Glimmerveen: [https://web.archive.org/web/20080504204404/http://dissertations.ub.rug.nl/faculties/fil/1992/c.h.glimmerveen/ ''The force of dialectics: on the logical and ontological structures concerning the concepts of force in Leibniz, Kant, and Hegel.''] Diss. Groningen 1992 (zum Kraftbegriff bei Leibniz, Kant und Hegel).
+
+== Fuessnoote ==
+<references />
+
+[[Kategorie:Mässgröössi]]
+[[Kategorie:Klassischi Mechanik]]

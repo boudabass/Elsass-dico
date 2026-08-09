@@ -1,0 +1,48 @@
+{{DISPLAYTITLE:Geerschte}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Gerstheim
+| nomalsacien = Geerschte
+| alt moy = 149–157
+| km² = 16.42
+|}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Geerschte''' ([[Französische Sprache|frz.]] ''Gerstheim'', [[Deutsche Sprache|dt.]] ''Gerstheim'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Bas-Rhin|Unterelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}.
+
+== Gschìcht ==
+Geerschte ìsch zem erschte Mol ànne 1050 gnannt worre.
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+1976 hàt d EDF (Electricite de France) in Geerschte e Atomkraftwerk baue welle. Durch e Bauplàtzbesetzung isch des AKW àber verhinderet worre. Uf em bsetzte Plàtz isch maischtens alemannisch gschwätzt worre.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Geerschte ìsch {{Maires|FR|{{#Property:P374}}}}. Geerschte ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Bevelkerungsentwìcklung ==
+{| class="wikitable" width=400
+|- align=center class="hintergrundfarbe5"
+|align=left | '''Johr''' || '''1962''' || '''1968''' || '''1975''' || '''1982''' || '''1990''' || '''1999''' || '''2006'''
+|- align=center
+|align=left|'''Inwohner'''<ref>[[Institut National de la Statistique et des Études Économiques|INSEE]]: ''Population et logements par commune depuis le recensement de 1962 (1961 pour les Dom) à 1999''</ref> || 1690 || 2057 || 2830 || 3008 || 2808 || 2785 || 2937
+|}
+
+== Dialekt ==
+Dr [[Elsässisch|elsassisch]] Dialekt vun Geerschte ghert zem [[Oberrheinalemannisch|Owerrhinàlemànnisch]].
+
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+{{Commonscat}}
+* http://www.gerstheim.fr
+* [https://web.archive.org/web/20010503051115/http://drisser.free.fr/pages/Gerstheim.htm Ìwer Geerschte]
+* [https://web.archive.org/web/20100615173252/http://www.cc-rhin.fr/intercommunalite/gerstheim.htm Geerschte] uf cc-rhin.fr
+* [https://www.mitwelt.org/gerstheim-frankreich-bauplatzbesetzung-akw.html 1977:  Bauplatzbsetzung gege´s AKW in Geerschde]
+
+== Referanza ==
+<references />
+
+{{Navigationsleiste Gemeinden im Kanton Erstein}}
+{{Normdaten}}
+
+[[Kategorie:Ort (Unterelsass)]]

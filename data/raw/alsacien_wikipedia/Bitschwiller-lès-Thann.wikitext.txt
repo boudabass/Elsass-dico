@@ -1,0 +1,60 @@
+{{DISPLAYTITLE:Bitschwiller}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Bitschwiller-lès-Thann
+| nomalsacien = Bitschwiller
+| alt moy = 360
+| alt mini = 344
+| alt maxi = 1183
+| km² = 12.64
+| image = Bitschwiller-lès-Thann, Mairie.jpg
+| description = Mairie
+|}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Bitschwiller''' ([[Französische Sprache|frz.]] ''Bitschwiller-lès-Thann'', [[Deutsche Sprache|dt.]] ''Bitschweiler'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Haut-Rhin|Owerelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}.
+
+== Gschìcht ==
+Bitschwiller ìsch zem erschte Mol gnannt worre ànne 1250 àls ''Butzswilre''.
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Bitschwiller ìsch {{Maires|FR|{{#Property:P374}}}}. Bitschwiller ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Bevelkerungsentwìcklung ==
+{| class="wikitable"
+|-class="hintergrundfarbe8"
+!Johr
+!1962
+!1968 
+!1975
+!1982
+!1990
+!1999
+!2006
+!2007
+|- align=center
+| Inwohner || 2109 || 2169 || 2117 || 1922 || 2052 || 2121 || 2149 || 2164
+|}
+
+== Dialekt ==
+Dr [[Elsässisch|elsassisch]] Dialekt vun Bitschwiller ghert zem [[Oberrheinalemannisch|Owerrhinàlemànnisch]].
+
+{|
+|[[Datei:Thanner Hubel.jpg|thumb|left|upright 1.4|Dr Dànner Hubel (1180 m)]]
+|[[Datei:Bitschwiller-lès-Thann, Eglise Saint Alphonse.jpg|thumb|left|upright 0.7|Katholischi Kirich Saint Alphonse]]
+|}
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+* {{Commonscat|Bitschwiller-lès-Thann}}
+* [http://www.bitschwiller-les-thann.fr/ www.bitschwiller-les-thann.fr]
+* [https://web.archive.org/web/20120123194513/http://www.ccpaysdethann.fr/spip/spip.php?article12&res=1680#Bitschwiller-lès-Thann Bitschwiller] uf ccpaysdethann.fr (fr)
+
+== Referanza ==
+<references/>
+
+{{Navigationsleiste Gemeinden im Kanton Sennheim}}
+{{Normdaten}}
+
+[[Kategorie:Ort (Owerelsàss)]]

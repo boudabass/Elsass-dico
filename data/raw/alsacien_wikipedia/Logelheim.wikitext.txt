@@ -1,0 +1,75 @@
+{{DISPLAYTITLE:Logele}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Logelheim
+| nomalsacien = Logele
+| alt moy = 195
+| alt mini = 193
+| alt maxi = 197
+| km² = 4.33
+|}}
+'''Logele''' ([[IPA]]: {{IPA|[loːg̊ələ]}}; amtl. ''Logelheim'', in alternativer elsässischer Schriwung vom [[Schwa]] ''Logala'') isch e französische Gmeind im [[Elsass]] mit ca. 600 Inwohner.
+
+== Geografi ==
+Der Ort lìt an der [[Ill (Elsass)|Ìll]] un ìsch umgää vu Gedreidefälder. Er gheert zum {{Kanton|FR|{{#Property:P374}}}} un dodermìt zum [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}; usserdäm ìsch Logele Mìtglììd vum interkommunale Zwäckverband {{Kommunalverband|FR|{{#Property:P374}}}}. S Dorf lìgt ca. 7 Kilomeeter sììdsììdèstlig vu [[Colmar|Kolmer]] un ìm Daal vu der Ìll.
+
+== Gschìcht ==
+E Graabstätte üss der frieie [[Bronzezeit|Bronzezitt]] losst druf schließe, ass doo schu voor der èrschte urkundlige Erwähnung Mänsche gläbt hän. Der Name ''Logele'' däucht ìm Johr 770 under der Form „Lageln“ zum èrschte Mool uf. Säll ìsch d Zit vum èrschte Hèrzog vum Èlsass, em Bonifatius Grandius. Es ìsch èbbene 1025 zum Bsìtz vu der Haabsburger Landgrafe wore. 1224 hat der Abt vu [[Ebersmünster|Eewersminschter]] alle sinne Rächt an Logele verlore; se sìn an d Kleester vu [[Masevaux]] un [[Sainte-Croix-en-Plaine|Heiligkritz]] ìwergange.
+
+1444 ìsch Logele vu de Armagnacs zersteert wore.
+
+Ìn der èrschte Hälfte vum 16. Johrhundert hat sìch Logele witterèntwìcklet; zu däre Zitt sìn oi d èrschte Deich an der Ìll aaglègt wore. 1563 ìsch der Ort zämme mìt em rästlige Leehe Hohlandsburg an der Rìtter Lazarus von Schwendi verkäuft wore.
+
+Zwìsche 1621 un 1640 hän verschììdene Iifäll zur Folg ghaa, ass Logele vu nèiem zersteert wore ìsch.
+
+Noo der [[Französische Revolution|Franzeesche Révolution]] ìsch der François Antoine Roth vum Gmeinderoot als Bìrgermeister gwählt wore. 1797 hat Logele 200 Hèktar vu sinnem Gebiet verlore. Säll ìsch under [[Hettenschlag|Hätteschlaag]] un [[Weckolsheim|Wèckelse]] ufdeilt wore.
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+Ìm Johr 1800 hat Logele 251 Iiwohner ghaa, ìm Johr 1850 sìn's schu 476 gsìì. Ìm Johr 1997, wuu's sìch em [[SIVOM Pays de Brisach]] aagschlosse hat, hän lutt ere Volkszällung 567 Litt derte gwohnt.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Logele ìsch {{Maires|FR|{{#Property:P374}}}}. Logele ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Bevölkerungsentwicklung ==
+{|class="wikitable"
+|1962
+|1968
+|1975
+|1982
+|1990
+|1999
+|2006
+|-
+|290 || 301 || 385 || 395 || 406 || 585 || 802
+|}
+
+== Wirtschaft ==
+Logele isch stark vu landwirtschaftliche Grossbetribe prägt. Dr Schwerpunkt ligt im Abau von [[Getreide|Fruucht]] un dr Säuhaltung.
+
+== Sehenswürdigkeite ==
+* alti Bürehöf, ein mit Dübeschlag
+* Kìrech St. Moritz mit aldem Kìrechturm
+<gallery>
+Datei:Logelheim, Eglise Saint-Maurice.jpg|Kìrech St. Moritz
+</gallery>
+
+== Verastaltunge ==
+* Keltefescht (ledschder Samschdig im Jüli) [http://lemoppethshow.free.fr/]
+* Kilwi/Kirmess (erschter Sunndig im September)
+* Kürbisfescht (Ende Oktober) [https://web.archive.org/web/20071121124030/http://www.lafetedupotiron.com/]
+
+== Weblink ==
+* {{Commonscat|Logelheim}}
+* [http://www.logelheim.fr/ Uftritt von dr Gmeind Logele] (französisch)
+* [http://hubert.miehe.free.fr/communes/logelheim.htm Logele uf em Uftritt vom Kanton Nej-Brisach] (französisch)
+* [http://lemoppethshow.free.fr Das keltefescht in Logelheim] (französisch)
+* [https://web.archive.org/web/20071121124030/http://www.lafetedupotiron.com/ Kürbisfescht in Logelheim] (französisch)
+
+== Referanza ==
+<references/>
+
+{{Navigationsleiste Gemeinden im Kanton Ensisheim}}
+
+{{Normdaten}}
+
+[[Kategorie:Ort (Owerelsàss)]]

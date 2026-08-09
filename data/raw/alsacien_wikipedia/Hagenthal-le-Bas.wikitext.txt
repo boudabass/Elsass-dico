@@ -1,0 +1,53 @@
+{{DISPLAYTITLE:Nìderhàgedàl}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Hagenthal-le-Bas
+| nomalsacien = Nìderhàgedàl
+| alt moy = 358
+| alt mini = 319
+| alt maxi = 481
+| km² = 6.20
+| image = Hagenthal-le-Bas, Mairie.jpg
+| description = Maire
+|}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Nìderhàgedàl''' oder '''Hàgedàl''' ([[Französische Sprache|frz.]] ''Hagenthal-le-Bas'', [[Deutsche Sprache|dt.]] ''Niederhagenthal'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Haut-Rhin|Owerelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}.
+
+== Gschìcht ==
+Nìderhàgedàl ìsch zem erschte Mol gnannt worre ànne 1105 àls ''Agona valle''.
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Nìderhàgedàl ìsch {{Maires|FR|{{#Property:P374}}}}. Nìderhàgedàl ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Bevelkerungsentwìcklung ==
+{| class="wikitable" width=400
+|- align=center class="hintergrundfarbe5"
+|align=left | '''Johr''' || '''1962''' || '''1968''' || '''1975''' || '''1982''' || '''1990''' || '''1999''' || '''2007'''
+|- align=center
+|align=left|'''Inwohner'''<ref>[[Institut National de la Statistique et des Études Économiques|INSEE]]: ''Population et logements par commune depuis le recensement de 1962 (1961 pour les Dom) à 1999''</ref> || 737 || 747 || 814 || 777 || 896 || 1001 || 1056
+|}
+
+== Dialekt ==
+Dr [[Elsässisch|elsassisch]] Dialekt vun Nìderhàgedàl ghert zem [[Hochalemannisch|Hochàlemànnisch]].
+
+{|
+|[[Datei:Hagenthal-le-Bas, Château.jpg|thumb|left|upright 0.9|<center>Schloss</center>]]
+|[[Datei:Hagenthal-le-Bas, Eglise Saint-Pierre et Saint-Paul 1.jpg|thumb|left|upright 0.9|<center>St. Peter un Paul</center>]]
+|}
+
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+{{commonscat|Hagenthal-le-Bas}}
+* [https://web.archive.org/web/20110220184029/http://www.portedusundgau.fr/historique_hagenthal_le_bas.htm Nìderhàgedàl]
+
+== Referanza ==
+<references/>
+
+{{Navigationsleiste Gemeinden im Kanton Saint-Louis}}
+
+{{Normdaten}}
+
+[[Kategorie:Ort (Owerelsàss)]]

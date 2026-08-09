@@ -1,0 +1,54 @@
+{{DISPLAYTITLE:Ewernahn}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Obernai
+| nomalsacien = Owernah/Ewernahn
+| alt moy = 156–572
+| km² = 25.78
+}}
+'''Ewernahn''' oder '''Owernah''' ([[IPA]]: {{IPA|[eʋərˈnaːn]}} oder {{IPA|[oʋərˈnaː]}}; frz.: ''Obernai,'' dt.: ''Oberehnheim'') ìsch e [[Frankreich|frànzeesche]] Schtàdt ìm [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}} ({{Kanton|FR|{{#Property:P374}}}}) im [[Département Bas-Rhin|Unterelsàss]] (Bas-Rhin). Sa steht ungefähr 25&nbsp;km Südwescht vun [[Straßburg|Strossburi]] un gràd am Füess vum [[Odilienberg|Odiliebari]]. S gebt 11.009 Inwohner, wu ''Zanefbieche'' (Zenfbäuche) dr Spitznàme esch. In Owernah löift dr Bàch ''Ehn''.
+
+== Dr Stàdt ihri Gschichte ==
+* Ersprenglich isch Owernah wàhrschins e keltischer un denn e remischer Kritzwaj gsi. 
+* E pààr Johrhundert später, wurd sie e Eijetum vun elsässer Herzeg un vum Odiliebarigloschter. Noch dr Sàge, isch d [[Odilia|Odilie]], d Schétzpatronne vun [[Elsass]], dert uf d Walt kumme.
+* 1242: dr nej Nàme vun dr Stàdt ''Oberehnheim'' erschint fer s erschte Mol (fer sich unterschiide vum Dorf ''[[Niederehnheim|Nìdernahn]]'', uf dt.: ''Niederehnheim'', uf frz.: ''Niedernai'').
+* 1283: mit Halfe vun Hohenstaufen, wurd Owernah e freije Reichstàdt. 
+* 1354: d [[Zehnstädtebund|Dekapolis]] wurd, mit 9 anderi elsässischi Schtädt, gegrendet.
+* 1517: Entstehung in Owernah un [[Rosheim]] vum zweite [[Bundschuh-Bewegung|Bundschuh]].
+* 1648: Dur dr Westfälische Frede, wurd Owernah ke freije Stàdt meh.
+* 1679: Àbböi vun dr Dékapolis, Owernah wurd vun Lüï XIV annexiert.
+
+D'Gmein het Pàrtnerschàfte zwésche [[Pully]] (Schwiiz) (siit 1986) un [[Gengenbach|Gengenbàch]] (Ditschland) (siit 1958 esch's d'äldschte diitsch-franzeesch Pàrtnerschàft) gschàfft.
+
+== Bevelkerungsentwìcklung ==
+{| class="wikitable" width=400
+|- align=center class="hintergrundfarbe5"
+| align=left | '''Johr''' || '''1962''' || '''1968''' || '''1975''' || '''1982''' || '''1990''' || '''1999''' || '''2007''' || '''2013'''
+|- align=center
+| align=left | '''Inwohner'''<ref>[[Institut National de la Statistique et des Études Économiques|INSEE]]: ''Population et logements par commune depuis le recensement de 1962 (1961 pour les Dom) à 1999''</ref> || 4.534 || 6.304 || 7.902 || 8.907 || 9.610 || 10.472 || 11.009 || 10.932
+|-
+|}
+
+== Dialekt ==
+Dr [[Elsässisch|elsassisch]] Dialekt vun Ewernahn ghert zem [[Oberrheinalemannisch|Owerrhinàlemànnisch]].
+
+== Bilder ==
+<gallery>
+St_Odilie.JPG|Àm Màrikplàtz: Ràthüüs un St.Odiliebrunne
+Kapelturm_Owernah.JPG|'s Kàpelturm
+Turm1.JPG|Turm nawe d'Kérich
+Synagogue_Owernah.JPG|d'Judeschüel
+Porte_Neher_Owernah.JPG|Turm nawe Judeschüel
+</gallery>
+
+== Weblink ==
+* {{Commonscat|Obernai}}
+* {{Wikisource|Topographia Alsatiae: Ehenheim|Obernai in der Topographia Alsatiae (M. Merian)}}
+* [http://www.obernai.fr d'offizielle Websyte]
+
+== Referanza ==
+<references/>
+
+{{Navigationsleiste Gemeinden im Kanton Obernai}}
+{{Normdaten}}
+
+[[Kategorie:Ort (Unterelsass)]]

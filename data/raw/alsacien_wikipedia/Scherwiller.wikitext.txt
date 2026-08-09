@@ -1,0 +1,51 @@
+{{DISPLAYTITLE:Scherwiller}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Scherwiller
+| nomalsacien = Scherwiller
+| alt moy = 168–532
+| km² = 18.08
+| image = Scherwiller 012.JPG
+| description = Kirich Saint-Pierre et Saint-Paul (1899)
+|}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Scherwiller''' ([[Französische Sprache|frz.]] ''Scherwiller'', [[Deutsche Sprache|dt.]] ''Scherweiler'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Bas-Rhin|Unterelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}.
+
+== Gschìcht ==
+Scherwiller ìsch zem erschte Mol gnannt worre ànne 817.
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Scherwiller ìsch {{Maires|FR|{{#Property:P374}}}}. Scherwiller ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Bevelkerungsentwìcklung ==
+{| class="wikitable" width=400
+|- align=center class="hintergrundfarbe5"
+|align=left | '''Johr''' || '''1962''' || '''1968''' || '''1975''' || '''1982''' || '''1990''' || '''1999''' || '''2007'''
+|- align=center
+|align=left|'''Inwohner'''<ref>[[Institut National de la Statistique et des Études Économiques|INSEE]]: ''Population et logements par commune depuis le recensement de 1962 (1961 pour les Dom) à 1999''</ref> || 2269 || 2300 || 2368 || 2382 || 2278 || 2614 || 3009
+|}
+
+== Dialekt ==
+Dr [[Elsässisch|elsassisch]] Dialekt vun Scherwiller ghert zem [[Oberrheinalemannisch|Owerrhinàlemànnisch]].
+
+<gallery widths="200" heights="180" perrow="2">
+Datei:Scherwiller 024.JPG|D Orteburig
+Datei:Scherwiller 019.JPG|Wàchhüs (18. Jh.)
+</gallery>
+
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+{{Commonscat|Scherwiller}}
+* http://www.scherwiller.fr
+
+== Referanza ==
+<references/>
+
+{{Navigationsleiste Gemeinden im Kanton Sélestat}}
+
+{{Normdaten}}
+
+[[Kategorie:Ort (Unterelsass)]]

@@ -1,0 +1,39 @@
+{{DISPLAYTITLE:Matzeràl}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Metzeral
+| nomalsacien = Matzeràl
+| alt moy = 481
+| alt mini = 456
+| alt maxi = 1345
+| km² = 30.43
+| image = Metzeral.jpg
+| description = Matzeràl
+|}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Matzeràl''' ([[Französische Sprache|frz.]] ''Metzeral'', [[Deutsche Sprache|dt.]] ''Metzeral'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Haut-Rhin|Owerelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}.
+
+== Gschìcht ==
+Matzeràl ìsch zem erschte Mol gnannt worre ànne 817 àls ''Mezerol''.
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Matzeràl ìsch {{Maires|FR|{{#Property:P374}}}}. Matzeràl ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Dialekt ==
+Dr [[Elsässisch|elsassisch]] Dialekt vun Matzeràl ghert zem [[Oberrheinalemannisch|Owerrhinàlemànnisch]].
+
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+* {{Commonscat|Metzeral}}
+
+== Referanza ==
+<references/>
+
+{{Navigationsleiste Gemeinden im Kanton Wintzenheim}}
+
+{{Normdaten}}
+
+[[Kategorie:Ort (Owerelsàss)]]

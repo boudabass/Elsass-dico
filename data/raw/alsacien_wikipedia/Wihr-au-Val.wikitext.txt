@@ -1,0 +1,58 @@
+{{DISPLAYTITLE:Wihr ìm Dàl}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Wihr-au-Val
+| nomalsacien = Wihr ìm Dàl
+| alt moy = 321
+| alt mini = 288
+| alt maxi = 960
+| km² = 12.54
+| image = Wihr-au-Val.JPG
+| description = Blick uf d Kirich z Wihr
+|}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Wihr ìm Dàl''' ([[Französische Sprache|frz.]] ''Wihr-au-Val'', [[Deutsche Sprache|dt.]] ''Weier im Thal'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Haut-Rhin|Owerelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}.
+
+== Gschìcht ==
+Wihr ìm Dàl ìsch zem erschte Mol gnannt worre ànne 896 àls ''Bonifacii villare'' (1120 ''Wilre'').
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Wihr ìm Dàl ìsch {{Maires|FR|{{#Property:P374}}}}. Wihr ìm Dàl ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Bevelkerungsentwìcklung ==
+{| class="wikitable" width=400
+|- align=center class="hintergrundfarbe5"
+|align=left | '''Johr''' || '''1790''' || '''1851''' || '''1856''' || '''1861''' || '''1866''' || '''1871''' || '''1890''' || '''1895''' 
+|- align=center
+|align=left|'''Inwohner'''<ref name="ReferenceA">[[Institut National de la Statistique et des Études Économiques|INSEE]]: ''Population et logements par commune depuis le recensement de 1962 (1961 pour les Dom) à 1999''</ref> || 747 || 1174 || 1106 || 1044 || 1008 || 1035 || 866 || 862 
+|- align=center class="hintergrundfarbe5"
+|align=left | '''Johr''' || '''1900''' || '''1905''' || '''1910''' || '''1916''' || '''1921''' || '''1926''' || '''1931''' || '''1936''' 
+|- align=center
+|align=left|'''Inwohner'''<ref name="ReferenceA"/> || 885 || 942 || 886 || 771 || 837 || 888 || 870 || 880 
+|- align=center class="hintergrundfarbe5"
+|align=left | '''Johr''' || '''1946''' || '''1954''' || '''1962''' || '''1968''' || '''1975''' || '''1982''' || '''1990''' || '''1999'''
+|- align=center
+|align=left|'''Inwohner'''<ref name="ReferenceA"/> || 788 || 959 || 1027 || 1036 || 1106 || 1051 || 1094 || 1232
+|}
+
+== Dialekt ==
+Dr [[Elsässisch|elsassisch]] Dialekt vun Wihr ìm Dàl ghert zem [[Oberrheinalemannisch|Owerrhinàlemànnisch]].
+
+{|
+|[[Datei:Wihr-au-Val1.JPG|thumb|left|Porte fortifiée]]
+|}
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+* {{Commonscat|Wihr-au-Val}}
+
+== Referanza ==
+<references/>
+
+{{Navigationsleiste Gemeinden im Kanton Wintzenheim}}
+
+{{Normdaten}}
+
+[[Kategorie:Ort (Owerelsàss)]]

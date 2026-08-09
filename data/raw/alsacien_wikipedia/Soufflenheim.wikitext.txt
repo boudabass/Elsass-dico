@@ -1,0 +1,57 @@
+{{DISPLAYTITLE:Süfflum}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Soufflenheim
+| nomalsacien = Süfflum
+| alt moy = 116–138
+| km² = 13.24
+| image = Soufflenheim-Vignes.jpg
+| description = Süfflum
+|}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Süfflum''' ([[Französische Sprache|frz.]] ''Soufflenheim'', [[Deutsche Sprache|dt.]] ''Sufflenheim'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Bas-Rhin|Unterelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}. Sa ìsch bekànnt fìr ìhra Hàfnerei un wìrd waje dam àui ''Cité des Potiers'' gnannt.
+
+== Gschìcht ==
+Süfflum ìsch zem erschte Mol gnannt worre ànne 1147 àls ''Suvelnheim''.
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Süfflum ìsch {{Maires|FR|{{#Property:P374}}}}. Süfflum ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Bevelkerungsentwìcklung ==
+{| class="wikitable" width=400
+|- align=center class="hintergrundfarbe5"
+|align=left | '''Johr''' || '''1962''' || '''1968''' || '''1975''' || '''1982''' || '''1990''' || '''1999''' || '''2006'''
+|- align=center
+|align=left|'''Inwohner'''<ref>[[Institut National de la Statistique et des Études Économiques|INSEE]]: ''Population et logements par commune depuis le recensement de 1962 (1961 pour les Dom) à 1999''</ref> || 3868 || 4027 || 4281 || 4462 || 4269 || 4400 || 4656
+|}
+
+== Dialekt ==
+Dr [[Elsässisch|elsassisch]] Dialekt vun Süfflum ghert zem [[Oberrheinalemannisch|Owerrhinàlemànnisch]].
+
+<gallery widths="200" heights="180" perrow="2">
+Datei:Soufflenheim_Michaelskirche.JPG|Michaelskirich (1825)
+Datei:Soufflenheim_Fachwerkhaus.JPG|Fàchwarikhüs in dr Grand Rue vun 1775
+</gallery>
+<gallery widths="200" heights="180" perrow="2">
+Datei:Soufflenheim_Töpferwappen.JPG|Wàppe vun dr Hàfnerzumft
+Datei:Soufflenheim_Töpferdekor.JPG|Dier-Keramikdekor
+</gallery>
+
+== Literàtür ==
+* Soufflenheim - Terre de Potiers Mémoire de vies, hrsg. vom Tourismusverband Soufflenheim 2006
+* Emile Decker, Olivier Haegel, Jean-Pierre Legendre, Jean Maire (Collectif): La Céramique de Soufflenheim, 150 ans de production en Alsace 1800-1950, Lieux Dits 2003, ISBN 2-914528-05-1
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+{{commonscat|Soufflenheim}}
+* http://www.mairie-soufflenheim.fr
+* [https://web.archive.org/web/20091006175540/http://www.confrerie.net/index.html Süflemer Hàfner-Confrérie]
+
+== Referanza ==
+<references/>
+
+{{Navigationsleiste Gemeinden im Kanton Bischweiler}}
+{{Normdaten}}
+
+[[Kategorie:Ort (Unterelsass)]]

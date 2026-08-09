@@ -1,0 +1,57 @@
+{{DISPLAYTITLE:Sant Üelri}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Saint-Ulrich
+| nomalsacien = Sant Üelri
+| alt moy = 339
+| alt mini = 322
+| alt maxi = 390
+| km² = 3.85
+| image = Saint-Ulrich, Mairie-école.jpg
+| description = Mairie- un Schüelgebei
+|}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Sant Üelri''' ([[Französische Sprache|frz.]] ''Saint-Ulrich'', [[Deutsche Sprache|dt.]] ''Sankt Ulrich'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Haut-Rhin|Owerelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}.
+
+== Geogràfi ==
+Sant Üelri lijt ìm [[Sundgau|Sundgöi]] ìm Dàl vun dr [[Largue (Ill)|Làrg]], drei Kilometer eschtlich vum Département [[Territoire de Belfort]] un 27 Kilometer weschtlich vun [[Basel|Bàsel]]. Nochbergmeine vun Sant Üelri sìn [[Altenach]] ìm Norde, [[Suarce]] ìm Sìdweschte, [[Mertzen]] un [[Strueth]] ìm Sìde, [[Fulleren (Haut-Rhin)|Fulleren]] ìm Oschte un [[Ballersdorf]] ìm Nordoschte.
+
+== Gschìcht ==
+Sant Üelri ìsch zem erschte Mol gnannt worre ànne 1105 àls ''Sanctus Oldarius''.
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Sant Üelri ìsch {{Maires|FR|{{#Property:P374}}}}. Sant Üelri ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Bevelkerungsentwìcklung ==
+{| class="wikitable" width=400
+|- align=center class="hintergrundfarbe5"
+|align=left | '''Johr''' || '''1962''' || '''1968''' || '''1975''' || '''1982''' || '''1990''' || '''1999''' || '''2007'''
+|- align=center
+|align=left|'''Inwohner'''<ref>[[Institut National de la Statistique et des Études Économiques|INSEE]]: ''Population et logements par commune depuis le recensement de 1962 (1961 pour les Dom) à 1999''</ref> || 218 || 219 || 219 || 222 || 262 || 279 || 306
+|}
+
+== Dialekt ==
+Dr [[Elsässisch|elsassisch]] Dialekt vun Sant Üelri ghert zem [[Oberrheinalemannisch|Owerrhinàlemànnisch]].
+
+== Boiwark ==
+* Kìrich Saint-Ulrich (Chor gotisch, 14. Jh.)
+
+{|
+|[[Datei:Saint-Ulrich, Église Saint-Ulrich 1.jpg|thumb|left|Kìrich Saint-Ulrich]]
+|}
+
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+{{commonscat|Saint-Ulrich|Sant Üelri}}
+* [http://www.culture.gouv.fr/public/mistral/memoire_fr?ACTION=CHERCHER&FIELD_1=INSEE&VALUE_1=68299 Saint-Ulrich in der Base Mémoire], Foto üs em [[Erster Weltkrieg|Erschte Waltkriej]] (1914-1918) (fr)
+
+== Referanza ==
+<references/>
+
+{{Navigationsleiste Gemeinden im Kanton Hirsingue}}
+{{Normdaten}}
+
+[[Kategorie:Ort (Owerelsàss)]]

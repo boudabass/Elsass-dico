@@ -1,0 +1,65 @@
+{{DISPLAYTITLE:Kienze}}
+{{Infobox Ortsteil einer Gemeinde in Frankreich
+|nomhameau=Kienze
+|commune=[[Kaysersberg Vignoble]]
+|armoiries=FR 68 Blason Kientzheim.svg
+|région=[[Grand Est]]
+|département=[[Département Haut-Rhin|Owerelsàss]]
+|arrondissement=[[Arrondissement Colmar-Ribeauvillé|Colmer-Ràppschwihr]]
+|datefusion=1. Janner 2016
+|status=cd
+|insee=68164
+|cp=68240
+|longitude=07/17/10/O
+|latitude=48/08/10/N
+|alt mini=220
+|alt maxi=662
+|km²=4.83
+|image = Kientzheim Chapelle Saints-Félix-et-Régule2.JPG
+|image-desc= Kapell St. Felix un Regula z Kienze
+|}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Kienze''' ([[Französische Sprache|frz.]] ''Kientzheim'', [[Deutsche Sprache|dt.]] ''Kienzheim'') ìsch a [[Frankreich|frànzeesche]] Gmein ìm [[Département Haut-Rhin|Owerelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]) gsin.
+
+D Gmein ghert hit züe [[Kaysersberg Vignoble]].
+
+== Gschìcht ==
+Kienze ìsch zem erschte Mol gnannt worre ànne 785 àls ''Coneshaim'' (1260 ''Coensheim'', 1407 ''Künsheim'').
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+Dr letscht Maire vun Kienze ìsch dr Joseph Fritsch gsi.
+
+== Bevelkerungsentwìcklung ==
+{| class = "wikitable" width = 400
+|- align = center class = "hintergrundfarbe5"
+| align = left | '''Johr''' || '''1962''' || '''1968''' || '''1975''' || '''1982''' || '''1990''' || '''1999''' || '''2005'''
+|- align = center
+| align = left|'''Inwohner'''<ref>[[Institut National de la Statistique et des Études Économiques|INSEE]]: ''Population et logements par commune depuis le recensement de 1962 (1961 pour les Dom) à 1999''</ref> || 850 || 896 || 864 || 811 || 933 || 827 || 779
+|}
+
+== Dialekt ==
+Dr [[Elsässisch|elsassisch]] Dialekt vun Kienze ghert zem [[Oberrheinalemannisch|Owerrhinàlemànnisch]].
+
+== Bilder ==
+{|
+| [[Datei:Kientzheim Château Schwendi.JPG|thumb|Schwendi-Schloss]]
+| [[Datei:Kientzheim Tour 04.JPG|thumb|d Stadtmuur vo Kienze]]
+|}
+
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+{{commonscat}}
+* [http://www.musee-du-vignoble-alsace.fr/de_kientzheim.php Elsasser Winmüseum mìt Ìnformàtione züe Kienze]
+* [https://web.archive.org/web/20101230054343/http://www.kaysersberg.com/de/gemeinde-kientzheim.htm Kienze] uf www.kaysersberg.com
+
+== Referanza ==
+<references />
+
+{{Normdaten}}
+
+[[Kategorie:Ort (Owerelsàss)]]
+[[Kategorie:Kaiserschbarig Vignoble]]

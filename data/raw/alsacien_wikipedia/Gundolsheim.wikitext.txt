@@ -1,0 +1,51 @@
+{{DISPLAYTITLE:Gungelse}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Gundolsheim
+| nomalsacien = Gungelse
+| alt moy = 215
+| alt mini = 206
+| alt maxi = 229
+| km² = 8.22
+|}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Gungelse''' ([[Französische Sprache|frz.]] ''Gundolsheim'', [[Deutsche Sprache|dt.]] ''Gundolsheim'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Haut-Rhin|Owerelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}.
+
+== Gschìcht ==
+Gungelse ìsch zem erschte Mol gnannt worre ànne 728 àls ''Cundolteshaim''.
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Gungelse ìsch {{Maires|FR|{{#Property:P374}}}}. Gungelse ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Bevelkerungsentwìcklung ==
+{|class="wikitable" width=350 
+|- align=center style="background:#E1FFE1;"
+|align=left | '''Johr''' || 1962 || 1968 || 1975 || 1982 || 1990 || 1999 || 2007
+|- align=center
+|align=left | '''Inwohner'''<ref>[[Institut National de la Statistique et des Études Économiques|INSEE]]: ''Population et logements par commune depuis le recensement de 1962 (1961 pour les Dom) à 1999''</ref> || 406 || 461 || 473 || 523 || 563 || 605 || 710
+|}
+
+== Dialekt ==
+Dr [[Elsässisch|elsassisch]] Dialekt vun Gungelse ghert zem [[Oberrheinalemannisch|Owerrhinàlemànnisch]].
+
+{|
+|[[Datei:Gundolsheimeglisesaintagathe.JPG|thumb|left|D St. Agathekirich]]
+|[[Datei:Gundolsheimmairie.jpg|thumb|left|Mairie]]
+|}
+
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+{{commonscat}}
+*[https://web.archive.org/web/20080509135431/http://www.vallee-noble.net/intercom/gundolsheim.htm Gungelse] bi dr CC de Vallée Noble (fr)
+
+== Referanza ==
+<references/>
+
+{{Navigationsleiste Gemeinden im Kanton Wintzenheim}}
+
+{{Normdaten}}
+
+[[Kategorie:Ort (Owerelsàss)]]

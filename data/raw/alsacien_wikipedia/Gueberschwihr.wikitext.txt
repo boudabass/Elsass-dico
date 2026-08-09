@@ -1,0 +1,51 @@
+{{DISPLAYTITLE:Gawerschwihr}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Gueberschwihr
+| nomalsacien = Gawerschwihr
+| alt moy = 260
+| alt mini = 197
+| alt maxi = 873
+| km² = 8.91
+| image = Gueberschwihr.jpg
+| description = Gawerschwihr
+}}
+'''Gawerschwihr''' ([[Französische Sprache|frz.]] ''Gueberschwihr'', [[Deutsche Sprache|dt.]] ''Geberschweier'') esch e [[Frankreich|franzeesche]] Gmein Gmein ìm [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}} ({{Kanton|FR|{{#Property:P374}}}}) ìm [[Département Haut-Rhin|Owerelsàss]] (Haut-Rhin). Sa hat 816 Inwohner.
+
+== Geographi ==
+Gawerschwihr lijt am Hang vun dr [[Vogesen|Vogese]] vu Räwe umgä an dr [[Elsässer Weinstraße|Elsàssische Winstross]]. Räwe un Win sen näbenem Tourismus dr Hoiptwirtschaftszwiig. In dr Lag ''Goldert'' wird [[Alsace Grand Cru|Grand Cru]]-Win anbäut.
+
+Dr Ort esch prägt durich e middelalderlichs Stadtbeld. S git Fachwerikhiser un Kopfsteipflaschter en ànge Gasse.
+
+== Gschìcht ==
+Gawerschwihr ìsch zem erschte Mol gnannt worre ànne 728 àls ''Waranangus qui dicitur villare Eberhardo'' (1191 ''Gabulwire'').
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Gawerschwihr ìsch {{Maires|FR|{{#Property:P374}}}}. Gawerschwihr ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Bevelkerungsentwìcklung ==
+{|class="wikitable" width=350 
+|- align=center style="background:#E1FFE1;"
+|align=left | '''Johr''' || 1962 || 1968 || 1975 || 1982 || 1990 || 1999 || 2007
+|- align=center
+|align=left | '''Inwohner'''<ref>[[Institut National de la Statistique et des Études Économiques|INSEE]]: ''Population et logements par commune depuis le recensement de 1962 (1961 pour les Dom) à 1999''</ref> || 796 || 840 || 779 || 727 || 703 || 816 || 836
+|}
+
+== Dialekt ==
+Dr [[Elsässisch|elsassisch]] Dialekt vun Gawerschwihr ghert zem [[Oberrheinalemannisch|Owerrhinàlemànnisch]].
+
+== Weblink ==
+{{Commonscat|Gueberschwihr|Gawerschwihr}}
+* [https://web.archive.org/web/20150228123305/http://www.alsace-passion.com/deut/Geberschweier-de-1.htm Bschriwung vum Dorf uf Ditsch]
+
+== Referanza ==
+<references/>
+
+{{Navigationsleiste Gemeinden im Kanton Wintzenheim}}
+
+{{Normdaten}}
+
+{{Normdaten}}
+
+[[Kategorie:Ort (Owerelsàss)]]

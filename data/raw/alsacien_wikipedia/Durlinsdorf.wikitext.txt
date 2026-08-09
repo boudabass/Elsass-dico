@@ -1,0 +1,54 @@
+{{DISPLAYTITLE:Dìlleschdorf}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Durlinsdorf
+| nomalsacien = Dìlleschdorf
+| alt moy = 465
+| alt mini = 420
+| alt maxi = 676
+| km² = 7.78
+| image = Durlinsdorf, Mairie-école.jpg
+| description = Mairie un Schüel
+|}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Dìlleschdorf''' ([[Französische Sprache|frz.]] ''Durlinsdorf'', [[Deutsche Sprache|dt.]] ''Durlinsdorf'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Haut-Rhin|Owerelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}.
+
+== Gschìcht ==
+Dìlleschdorf ìsch zem erschte Mol gnannt worre ànne 1144 àls ''Dürlensdorf''.
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Dìlleschdorf ìsch {{Maires|FR|{{#Property:P374}}}}. Dìlleschdorf ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Bevelkerungsentwìcklung ==
+{| class="wikitable" width=400
+|- align=center class="hintergrundfarbe5"
+|align=left | '''Johr''' || '''1962''' || '''1968''' || '''1975''' || '''1982''' || '''1990''' || '''1999''' || '''2007'''
+|- align=center
+|align=left|'''Inwohner'''<ref>[[Institut National de la Statistique et des Études Économiques|INSEE]]: ''Population et logements par commune depuis le recensement de 1962 (1961 pour les Dom) à 1999''</ref> || 411 || 437 || 431 || 440 || 462 || 493 || 477
+|}
+
+== Dialekt ==
+Dr [[Elsässisch|elsassisch]] Dialekt vun Dìlleschdorf ghert zem [[Hochalemannisch|Hochàlemànnisch]].
+
+{|
+|[[Datei:Durlinsdorf, Eglise Saint-Pierre 1.jpg|thumb|left|upright 1.2|Kirich St. Peter, Sìdsitte]]
+|[[Datei:Durlinsdorf, Eglise Saint-Pierre 2.jpg|thumb|left|upright 1.2|Kirich St. Peter, Sìdoschtsitte]]
+|}
+
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+* {{Commonscat|Durlinsdorf|Dìlleschdorf}}
+* https://web.archive.org/web/20110909021253/http://www.durlinsdorf.fr.st/
+* [https://web.archive.org/web/20071213193336/http://www.ccja-jura-alsacien.net/carte_ccja.php?nomCommune=Durlinsdorf Deerlersterf] uf ccja-jura-alsacien.net (fr)
+
+== Referanza ==
+<references/>
+
+{{Navigationsleiste Gemeinden im Kanton Altkirch}}
+
+{{Normdaten}}
+
+[[Kategorie:Ort (Owerelsàss)]]

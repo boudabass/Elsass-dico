@@ -1,0 +1,61 @@
+{{DISPLAYTITLE:Dìrmene}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Durmenach
+| nomalsacien = Dìrmene
+| alt moy = 367
+| alt mini = 360
+| alt maxi = 461
+| km² = 5.76
+|}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Dìrmene''' ([[Französische Sprache|frz.]] ''Durmenach'', [[Deutsche Sprache|dt.]] ''Dürmenach,'' [[jiddisch]] ''Dermenach'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Haut-Rhin|Owerelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}.
+
+== Gschìcht ==
+Dìrmene ìsch zem erschte Mol gnannt worre ànne 1188 àls ''Terminach''.
+
+Wel s Dorf friejer züe 75 % vun west[[jiddisch]]-sprochige Jude bewohnt gsin ìsch, hàt mer em «s Jerusalem vum Sundgöi» gsait. Dokumentiert findt me die Mundàrt under ànderem in Publikàtione vu dr [[Florence Guggenheim-Grünberg]].<ref>Florence Guggenheim-Grünberg: ''Surbtaler Jiddisch: Endingen und Lengnau. Anhang: Jiddische Sprachproben aus Elsaß und Baden.'' Bearbeitet von Florence Guggenheim-Grünberg. Huber, Frauenfeld 1966 (''Schweizer Dialekte in Text und Ton.'' In: ''Deutsche Schweiz,'' Heft 4), S.&nbsp;41&nbsp;f.; ''Jiddisch auf alemannischem Sprachgebiet. 56 Karten zur Sprach- und Sachgeographie.'' Juris, Zürich 1973 (''Beiträge zur Geschichte und Volkskunde der Juden in der Schweiz,'' Band 8).</ref>
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Dìrmene ìsch {{Maires|FR|{{#Property:P374}}}}. Dìrmene ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Bevelkerungsentwìcklung ==
+{|class="wikitable" 
+!class="hintergrundfarbe5"|Johr
+!class="hintergrundfarbe5"|1962
+!class="hintergrundfarbe5"|1968
+!class="hintergrundfarbe5"|1975
+!class="hintergrundfarbe5"|1982
+!class="hintergrundfarbe5"|1990
+!class="hintergrundfarbe5"|1999
+!class="hintergrundfarbe5"|2007
+|-
+|Inwohner || 838 || 875 || 870 || 894 || 853 || 883 || 915
+|}
+
+== Dialekt ==
+Dr [[Elsässisch|elsassisch]] Dialekt vun Dìrmene ghert zem [[Hochalemannisch|Hochàlemànnisch]].
+
+{|
+|[[Datei:Durmenach, Eglise Saint-Georges.jpg|mini|links|upright 0.6|<center>Kirich St. Georg</center>]]
+|}
+
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003.
+
+== Weblink ==
+* {{Commonscat|Durmenach}}
+* [http://www.webjournal.ch/article.php?article_id=1127 «Durmenach beispielhaft»] (webjournal.ch, 08.05.2009)
+* [http://www.webjournal.ch/article.php?article_id=1128 «Erinnern heisst Frieden sichern»] (webjournal.ch, 10.05.2009)
+* [http://www.webjournal.ch/article.php?article_id=1187 «Vorbild Durmenach»] (webjournal.ch, 10.11.2009)
+
+== Referanza ==
+<references/>
+
+{{Navigationsleiste Gemeinden im Kanton Altkirch}}
+
+{{DEFAULTSORT:Durmenach}}
+{{Normdaten}}
+
+[[Kategorie:Ort (Owerelsàss)]]

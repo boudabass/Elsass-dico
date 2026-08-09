@@ -1,0 +1,58 @@
+{{DISPLAYTITLE:Làndài}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Petit-Landau
+| nomalsacien = Làndài
+| alt moy = 228
+| alt mini = 223
+| alt maxi = 242
+| km² = 17.51
+| image = Petit-Landau, Mairie.jpg
+| description = Mairie
+|}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Làndài''' ([[Französische Sprache|frz.]] ''Petit-Landau'', [[Deutsche Sprache|dt.]] ''Kleinlandau'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Haut-Rhin|Owerelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}.
+
+== Gschìcht ==
+Làndài ìsch zem erschte Mol gnannt worre ànne 1303 àls ''Landouwa''.
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Làndài ìsch {{Maires|FR|{{#Property:P374}}}}. Làndài ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Bevelkerungsentwìcklung ==
+{|class="prettytable"
+!class="hintergrundfarbe5"|Johr
+!class="hintergrundfarbe5"|1962
+!class="hintergrundfarbe5"|1968
+!class="hintergrundfarbe5"|1975
+!class="hintergrundfarbe5"|1982
+!class="hintergrundfarbe5"|1990
+!class="hintergrundfarbe5"|1999
+!class="hintergrundfarbe5"|2005
+|- style="text-align:right"
+|'''Inwohner'''<ref>[[Institut National de la Statistique et des Études Économiques|INSEE]]: ''Population et logements par commune depuis le recensement de 1962 (1961 pour les Dom) à 1999''</ref> || 457 || 461 || 547 || 603 || 592 || 646 || 665
+|}
+
+== Dialekt ==
+Dr [[Elsässisch|elsassisch]] Dialekt vun Làndài ghert zem [[Hochalemannisch|Hochàlemànnisch]].
+
+{|
+|[[Datei:Petit-Landau, Eglise Saint-Martin.jpg|thumb|left|upright 0.6|<center>Kirich St. Martin</center>]]
+|[[Datei:Petit-Landau, Château d'Eau.jpg|thumb|left|upright 1.05|<center>Wàsserdurm</center>]]
+|}
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+* {{Commonscat|Petit-Landau}}
+*http://www.petit-landau.fr
+
+== Referanza ==
+<references/>
+
+{{Navigationsleiste Gemeinden im Kanton Rixheim}}
+
+{{Normdaten}}
+
+[[Kategorie:Ort (Owerelsàss)]]

@@ -1,0 +1,45 @@
+{{DISPLAYTITLE:Hàngebiete}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Hangenbieten
+| nomalsacien = Hàngebiete
+| alt moy = 147–209
+| km² = 4.11
+| image = HangenbietenAerienne1.JPG
+| description = Hàngebiete
+|}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Hàngebiete''', oder àui '''Biete''' ([[Französische Sprache|frz.]] ''Hangenbieten'', [[Deutsche Sprache|dt.]] ''Hangenbieten''), ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Bas-Rhin|Unterelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}.
+
+== Gschìcht ==
+Hàngebiete ìsch zem erschte Mol gnannt worre ànne 1256 àls ''Hangendebuthenheim''.
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Hàngebiete ìsch {{Maires|FR|{{#Property:P374}}}}. Hàngebiete ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Bevelkerungsentwìcklung ==
+{| class="wikitable" width=400
+|- align=center class="hintergrundfarbe5"
+|align=left | '''Johr''' || '''1962''' || '''1968''' || '''1975''' || '''1982''' || '''1990''' || '''1999''' || '''2007'''
+|- align=center
+|align=left|'''Inwohner'''<ref>[[Institut National de la Statistique et des Études Économiques|INSEE]]: ''Population et logements par commune depuis le recensement de 1962 (1961 pour les Dom) à 1999''</ref> || 790 || 859 || 949 || 1000 || 1149 || 1299 || 1479
+|}
+
+== Dialekt ==
+Dr [[Elsässisch|elsassisch]] Dialekt vun Hàngebiete ghert zem [[Oberrheinalemannisch|Owerrhinàlemànnisch]].
+
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+{{Commonscat}}
+*[https://web.archive.org/web/20110720212044/http://www.cc-leschateaux.fr/index.php?page=1&menu1=221&menu2=228&menu3=319&arbo_id=1&code_commune=221 Hàngebiete] uf dr CC Les Châteaux
+
+== Referanza ==
+<references />
+
+{{Navigationsleiste Gemeinden im Kanton Lingolsheim}}
+{{Normdaten}}
+
+[[Kategorie:Ort (Unterelsass)]]

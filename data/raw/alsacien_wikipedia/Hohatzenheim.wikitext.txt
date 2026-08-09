@@ -1,0 +1,55 @@
+{{DISPLAYTITLE:Àtzne}}
+{{Infobox Ortsteil einer Gemeinde in Frankreich
+|nomhameau=Àtzne
+|armoiries=Blason Hohatzenheim 67.svg
+|commune=[[Wingersheim les Quatre Bans]]
+|région=[[Grand Est]]
+|département=[[Département Bas-Rhin|Unterelsàss]]
+|arrondissement=[[Arrondissement Saverne|Zàwere]]
+|canton=[[Kanton Buchsweiler|Buxwiller]]
+|datefusion=1. Janner 2016
+|status=cd
+|insee=67207
+|cp=67170
+|longitude=07/36/54/O
+|latitude=48/42/57/N
+|alt mini=
+|alt maxi=
+|km²=
+|}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Àtzne''' ([[Französische Sprache|frz.]] ''Hohatzenheim'', [[Deutsche Sprache|dt.]] ''Hohatzenheim'') ìsch e ehmolige [[Frankreich|frànzeesche]] Gmein ìm [[Département Bas-Rhin|Unterelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). Zem 1. Janner 2016 ìsch sa mìt [[Gingsheim|Gìngse]], [[Mittelhausen (Unterelsass)|Mìttelhüse]] un [[Wingersheim|Wìngersche]] zur ''Commune nouvelle'' [[Wingersheim-les-Quatre-Bans]] füsioniert.
+
+== Gschìcht ==
+Àtzne ìsch zem erschte Mol gnannt worre ànne 786.
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+Dr letscht Maire vun Àtzne ìsch dr Jean-Marie Criqui gsin.
+
+== Bevelkerungsentwìcklung ==
+{| class = "wikitable" width = 400
+|- align = center class = "hintergrundfarbe5"
+| align = left | '''Johr''' || '''1962''' || '''1968''' || '''1975''' || '''1982''' || '''1990''' || '''1999''' || '''2007'''
+|- align = center
+| align = left|'''Inwohner'''<ref>[[Institut National de la Statistique et des Études Économiques|INSEE]]: ''Population et logements par commune depuis le recensement de 1962 (1961 pour les Dom) à 1999''</ref> || 164 || 164 || 163 || 180 || 188 || 231 || 212
+|}
+
+== Dialekt ==
+Dr [[Elsässisch|elsassisch]] Dialekt vun Àtzne ghert zem [[Oberrheinalemannisch|Owerrhinàlemànnisch]].
+
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+{{Commonscat}}
+* http://www.mairie-hohatzenheim.fr{{Toter Link|date = 2017-09 |bot = InternetArchiveBot |url = http://www.mairie-hohatzenheim.fr/}}
+* [http://www.hohatzenheim.info.eu Ìwer Àtzne]
+
+== Referanza ==
+<references />
+
+{{Normdaten}}
+
+[[Kategorie:Ort (Unterelsass)]]

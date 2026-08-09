@@ -1,0 +1,63 @@
+{{DISPLAYTITLE:Dìrrenànze}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Durrenentzen
+| nomalsacien = Dìrrenànze
+| alt moy = 187
+| alt mini = 180
+| alt maxi = 190
+| km² = 6.22
+|}}
+'''Dìrrenànze''' ([[IPA]]: {{IPA|[d̥ɪɾəˈnæntsə]}}; frazeessch ''Durrenentzen'', hochditsch ''Dürrenentzen'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Haut-Rhin|Owerelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}. S Dorf isch Mitglid im interkommunale Zweckverband {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+==Geographi==
+S'Dorf lijt in dr [[Oberrheinische Tiefebene|Owerrhineweni]], guet 10 km öschtlich vu [[Colmar|Colmer]] un 5 km weschtlich vum [[Rhein|Rhin]]. 
+
+Die durchschnittlich 187 m hoch Gmarkung wiist grad emol e Höheunterschid vu 10m uf un isch demit sehr flach. Im Norde vum Bann verläuft dr Colmer-Kanal, wo Colmer mit em Rhone-Rhin-Kanal uf dr Höchi vu [[Arzenheim|Arzene]] verbindet. Südlich devu bi [[Künheim|Kiene]] isch sälle Kanal durch e Stich mit em Rhin (Nej-Brisacher Kanal) verbunde. 
+
+Im Oschte vu dr Gmarkung befindet sich mit em nördlichschte Uslaifer vu dr [[Hardt]] e Laubholzwald. Dr greescht Deil vun dr Gmein isch awer Ackerland, u.&nbsp;a. mit Abau vun Welschkorn (Mais).
+
+==Gschicht==
+Dr Ort lijt öschtlich vu ere alde Reemerstross (''Heidesträssel'' gnennt) un us dr römische Zit sin einigi Fund bekannt, wo mer hit im gallo-römische Museum z'[[Biesheim|Biese]] aluege ka.
+
+Dìrrenànze wird erscht relativ spot um 1300 als ''Einsinsheim'' erwähnt, 1456 no als ''Dürren Enszheim'', wobi dr Namme uf e drucheni, wasserarmi Gegend aspilt.
+
+Dr Ort isch vum 15. Johrhundert bis zue dr franzeesche Revolution 1789 unter [[Württemberg|wirdebàrigscher]] Herrschaft gsin, trotz dr Zuegheerigkeit zue Frankrich scho ab em End vum 17. Johrhundert. Wil z'Wirdebàrig d' [[Reformation]] durchgfüehrt worre isch, isch au Dìrrenànze evangelisch worre. Au hit no iwerwigt im Ort die evangelisch Konfession gegeniwer dr katholische ditlich.
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Dìrrenànze ìsch {{Maires|FR|{{#Property:P374}}}}. Dìrrenànze ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+==Bevölkerung==
+S'Dorf het mittlerwili iwer 900 Inwohner, wobi d'Bevölkerung sit 1990 e starche Astig erfahre het. Örtlichi Regionalsproch isch [[Elsässisch|Elsàsserditsch]]. S'git äu numme e elsàsserditschi Bezeichnung fier d'Inwohner, nämlig ''Dìrrenànzemer'', e franzeesche isch nit bekannt.
+
+D'Bevölkerung het sich in dr 45 Johre zwische 1962 und 2006 fascht verdreifacht. An dr drei Dorfingäng sin in mehrere Phase Nejbaugebite usgwise worre, z'erscht im Zug vu dr Asidlung vu Industri in dr Region [[Biesheim|Biese]]-[[Kunheim|Küene]] (Aluminium, Papier un Kartonage), später no in Folg vu ere Stadtflucht us dr Region Colmer ins Umland.
+
+== Bevelkerungsentwìcklung ==
+{| class="wikitable" width=400
+|- align=center class="hintergrundfarbe5"
+|align=left | '''Johr''' || '''1962''' || '''1968''' || '''1975''' || '''1982''' || '''1990''' || '''1999''' || '''2007'''
+|- align=center
+|align=left|'''Inwohner'''<ref>[[Institut National de la Statistique et des Études Économiques|INSEE]]: ''Population et logements par commune depuis le recensement de 1962 (1961 pour les Dom) à 1999''</ref> || 327 || 342 || 427 || 567 || 584 || 689 || 892
+|}
+
+== Sehenswirdigkeite un Denkmoler ==
+E Bsunderheit isch die architektonisch nit bsunders Dorfkìrech insofern, wil noochdem Dìrrenànze bi witter wirdebàrigscher (un demit evangelischer) Hoheit unter franzeeschi (un demit katholischi) Oberhoheit kumme isch, d'Franzose 1687 agordnet hän, dass d'Kìrech e ''Simultaneum'' bildet un sither abwexelnd fier evangelische un katholischi Gottesdienschte gnutzt wird. Insgsamt hän guet 50 elsässischi Dörfer sonigi ''Simultankìreche''.<!--Quelle: http://de.wikipedia.org/wiki/Simultaneum -->
+
+{|
+|[[Datei:Durrenentzen, Église Saint-Blaise.jpg|thumb|left|upright 1.05|<center>Kirche St. Blasius</center>]]
+|}
+
+== Weblink ==
+* {{Commonscat|Durrenentzen}}
+* [https://web.archive.org/web/20071214223230/http://www.paysdebrisach.fr/sivom Internetuftritt vum Brisàcher Land]
+
+== Referanza ==
+<references/>
+
+{{Navigationsleiste Gemeinden im Kanton Ensisheim}}
+
+{{DEFAULTSORT:Durrenenzen}}
+{{Normdaten}}
+
+[[Kategorie:Ort (Owerelsàss)]]

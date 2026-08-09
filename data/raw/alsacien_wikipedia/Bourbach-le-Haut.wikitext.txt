@@ -1,0 +1,59 @@
+{{DISPLAYTITLE:Ìwerburbàch}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Bourbach-le-Haut
+| nomalsacien = Ìwerburbàch
+| alt moy = 562
+| alt mini = 439
+| alt maxi = 1183
+| km² = 6.86
+|}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Ìwerburbàch''' ([[Französische Sprache|frz.]] ''Bourbach-le-Haut'', [[Deutsche Sprache|dt.]] ''Oberburbach'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Haut-Rhin|Owerelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}.
+
+== Geogràfi ==
+S Derfel lijt ìm [[Regionaler Naturpark Ballons des Vosges|Regionale Natürpàrk Ballons des Vosges]] in dr [[Vogesen|Vogese]], an dr Bassstroß zum [[Col de Hundsruck]] zwische [[Masevaux|Masminschter]] un [[Bitschwiller-lès-Thann|Bitschwilleer]]. 
+
+== Gschicht ==
+Ìwerburbàch ìsch zem erschte Mol gnannt worre ànne 1568 àls ''Oberburbach''.
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Ìwerburbàch ìsch {{Maires|FR|{{#Property:P374}}}}. Ìwerburbàch ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Bevelkerungsentwìcklung ==
+{|class="wikitable"
+!|Johr
+!|1962
+!|1968 
+!|1975
+!|1982
+!|1990
+!|1999
+!|2007
+|- align=center
+| Inwohner || 150 || 183 || 187 || 231 || 257 || 324 || 424
+|}
+
+== Dialekt ==
+Dr [[Elsässisch|elsassisch]] Dialekt vun Ìwerburbàch ghert zem [[Oberrheinalemannisch|Owerrhinàlemànnisch]].
+
+<gallery widths="200" heights="180" perrow="1">
+Datei:Bourbach-le-Haut, Eglise Saint-Michel.jpg|Kirich Saint-Michel
+</gallery>
+
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+* {{Commonscat|Bourbach-le-Haut|Ìwerburbàch}}
+* [https://web.archive.org/web/20120123194513/http://www.ccpaysdethann.fr/spip/spip.php?article12&res=1680#bourbachlebas Ewerburbàch] bi dr ''Communauté de communes du Pays de Thann'' (fr)
+
+== Referanza ==
+<references/>
+
+{{Navigationsleiste Gemeinden im Kanton Sennheim}}
+
+{{Normdaten}}
+
+[[Kategorie:Ort (Owerelsàss)]]

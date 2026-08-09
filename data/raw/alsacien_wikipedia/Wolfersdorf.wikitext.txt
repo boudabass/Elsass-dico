@@ -1,0 +1,48 @@
+{{DISPLAYTITLE:Wolferschdorf}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Wolfersdorf
+| nomalsacien = Wolferschdorf
+| alt moy = 301
+| alt mini = 287
+| alt maxi = 348
+| km² = 3.66
+| image = Wolfersdorf, Mairie-école.jpg
+| description = <center>Mairie un Schüel
+|}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Wolferschdorf''' ([[Französische Sprache|frz.]] ''Wolfersdorf'', [[Deutsche Sprache|dt.]] ''Wolfersdorf'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Haut-Rhin|Owerelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}.
+
+== Geogràfi ==
+Wolferschdorf lijt ìn dr [[Burgundische Pforte|Burgundische Pfort]] zwìsche [[Altkirch|Àltkìrech]] un [[Belfort]]. Ìwer dr Bànn fiert dr [[Rhein-Rhône-Kanal|Rhin-Rhône-Kànàl]]. D Kanalbruck (Le Pont Canal) ìsch 1834 iwer d [[Largue (Ill)|Largue]] böie worre. Dr 35 Meter làng Kanaldröj steht uf vier Stìtzpfiler mit gmürte Beje. Nochbergmeine vun Wolferschdorf sìn [[Niedertraubach|Needertröibàch]] ìm Norde, [[Bütweiler|Büethwiller]] ìm Nordoschte, [[Gommersdorf|Gummerschdorf]] ìm Oschte, [[Dammerkirch|Dàmmerkìlch]] ìm Sìdoschte, [[Retzweiler|Ratzwìller]] ìm Sìdweschte un [[Elbach|Albàch]] ìm Weschte.
+
+== Gschìcht ==
+Wolferschdorf ìsch zem erschte Mol gnannt worre ànne 1299 àls ''Wolvesdorf'' (1394 ''Wulferstorff'').
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Wolferschdorf ìsch {{Maires|FR|{{#Property:P374}}}}. Wolferschdorf ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Dialekt ==
+Dr [[Elsässisch|elsassisch]] Dialekt vun Wolferschdorf ghert zem [[Oberrheinalemannisch|Owerrhinàlemànnisch]].
+
+<gallery widths="200" heights="180">
+Datei:Kanalbrücke Wolfersdorf.jpg|<center>Kànàlbruck
+Datei:Wolfersdorf, Ecluse.jpg|<center>Schließ vor dr Kànàlbruck
+Datei:Wolfersdorf, Port de plaisance.jpg|<center>dr Hàfe
+</gallery>
+
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+* {{commonscat|Wolfersdorf (Haut-Rhin)}}
+* [http://de.structurae.de/structures/data/photos.cfm?ID=s0002833 Foto vun dr Kànàlbruck]
+
+== Referanza ==
+<references/>
+
+{{Navigationsleiste Gemeinden im Kanton Dannemarie}}
+{{Normdaten}}
+
+[[Kategorie:Ort (Owerelsàss)]]

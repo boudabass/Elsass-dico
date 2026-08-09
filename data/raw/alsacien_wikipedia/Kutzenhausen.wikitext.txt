@@ -1,0 +1,94 @@
+{{DISPLAYTITLE:Kutzahausa}}
+{{Infobox Gemeinde in Deutschland schwäbisch
+| Wappen = Kutzenhausen Wappen.png
+| Breitengrad = 48/20//N
+| Längengrad = 10/42//E
+| Lageplan = Kutzenhausen in A.svg
+| Bundesland = Bayern
+| Regierungsbezirk = [[Schwaben (Bayern)|Schwoba]]
+| Landkreis = Augsburg
+| Landkreisalem = Augschburg
+| Höhe = 478
+| Fläche = 27.93
+| PLZ = 86500
+| Vorwahl = 08238 bzw. 08294
+| Kfz = A
+| Gemeindeschlüssel = 09772167
+| Straße = Schulstr. 10
+| Website = [http://www.kutzenhausen.de www.kutzenhausen.de]
+| Bürgermeister = Silvia Kugelmann
+| Bürgermeistertitel = Bürgermeisterin
+| Partei = Unabhängige Gesamtgemeinde
+}}
+'''Kutzahausa''' (amtlich ''Kutzenhausen'') ischt e Gmoed im [[Landkreis Augsburg|Landkroes Augschburg]] z [[Bayern]].
+
+== Geografi ==
+Kutzahausa leit rond 20 Kilometer weschtlich vo [[Augsburg|Augschburg]] em [[Naturpark Augsburg-Westliche Wälder|Naturpark Augschburg-Weschtliche Wälder]].
+
+Vo dr Gmarkong send 57,5&nbsp;% Landwirtschaftsfleche, 31,3&nbsp;% Wald, 10,1&nbsp;% Sidlongsfleche ond 1,1&nbsp;% sonschtige Fleche. Nochbergmoede send [[Horgau]] em Norda, [[Diedorf (Schwaben)|Diedorf]] em Nordoschta, [[Gessertshausen]] em Oschta ond Sidoschta, [[Fischach]] em Sida, [[Ustersbach]] em Sidweschta ond [[Dinkelscherben]] em Nordweschta;
+
+== Gmoendsgliderong ==
+Zua Kutzahausa gheret dr gleichnamig Hauptort, d Pfarrderfer Agawang ond Rommelsried, d Kirchderfer Buch ond Maingründel, s Dorf Unternefsried, d Weiler Boschhorn ond Katzenlohe ond d Brunnenmühle.
+
+== Gschicht ==
+Di heitich Gmoed isch zom 1. Mai 1978 entstande aus em Zammeschluss vo dr Gmoeda Kutzahausa, Agawang, Buch, Rommelsried ond Maingründel.
+
+== Eiwohner ==
+{| class="wikitable" width=350
+|- align=center class="hintergrundfarbe5"
+|align=left | '''Johr''' || '''1840''' || '''1871''' || '''1900''' || '''1925''' || '''1939'''
+|- align=center 
+|align=left|'''Eiwohner'''|| 158 || 161 || 267 || 390 || 554
+|- align=center class="hintergrundfarbe5" 
+|align=left | '''Johr''' || '''1950''' || '''1961''' || '''1970''' || '''1987''' || '''2011'''
+|- align=center
+|align=left|'''Eiwohner'''|| 1114 || 1311 || 1599 || 1838 || 2688
+|}
+Dr Ausländeraadoel isch 2011 bei 3,8&nbsp;% gleäge.
+
+== Religion ==
+74,5&nbsp;% vo dr Eiwohner send em Johr 1987 [[Römisch-katholische Kirche|remisch-katholisch]] gweä, 20,6&nbsp;% [[Protestantismus|evangelisch]].
+
+== Verwaltong ==
+Kutzahausa ghert zua koenere Verwaltongsgmoeschaft.
+
+Dr Birgermoeschter vo Kutzahausa ischt dr Silvia Kugelmann.
+
+=== Wahle ===
+Ergebnis vo dr Landdagswahle seit 1986: 
+{| class="wikitable" width=350
+|- align=center class="hintergrundfarbe5"
+|align=left | '''Johr''' || '''CSU''' || '''SPD''' || '''Freie Wähler''' || '''Griane''' || '''FDP''' || '''Sonschtige''' 
+|- align=center 
+|align=left|'''1986'''|| 64,4&nbsp;% || 24&nbsp;% || - || 5,8&nbsp;% || 2,9&nbsp;% || 2,9&nbsp;% 
+|- align=center
+|align=left|'''1990'''|| 60,1&nbsp;% || 21,9&nbsp;% || - || 5,4&nbsp;% || 5,7&nbsp;% || 6,9&nbsp;%
+|- align=center
+|align=left|'''1994'''|| 54,3&nbsp;% || 26,4&nbsp;% || - || 4,6&nbsp;% || 2,9&nbsp;% || 11,8&nbsp;%
+|- align=center
+|align=left|'''1998'''|| 53,1&nbsp;% || 28&nbsp;% || 6,3&nbsp;% || 2,7&nbsp;% || 1,7&nbsp;% || 8,2&nbsp;%
+|- align=center
+|align=left|'''2003'''|| 62,1&nbsp;% || 17,5&nbsp;% || 5,1&nbsp;% || 5,4&nbsp;% || 3,9&nbsp;% || 6&nbsp;%
+|- align=center
+|align=left|'''2008'''|| 45,3&nbsp;% || 18,5&nbsp;% || 11,5&nbsp;% || 5,5&nbsp;% || 8,6&nbsp;% || 10,6&nbsp;%
+|- align=center
+|align=left|'''2013'''|| 51,7&nbsp;% || 19,5&nbsp;% || 9,3&nbsp;% || 6,3&nbsp;% || 2,3&nbsp;% || 10,9&nbsp;% 
+|}
+
+== Dialäkt ==
+Dr Dialekt vo Kutzahausa ghert zom [[Schwäbisch]].
+
+== Weblink ==
+* {{Commonscat|Kutzenhausen}}
+* [https://web.archive.org/web/20160718085042/http://www.kutzenhausen.de/ www.kutzenhausen.de]
+* {{HdBG GKZ|9772167}}
+* {{LStDV GKZ|9772167}} (PDF; 1,23 MB)
+
+== Fuaßnota ==
+<references/>
+
+{{Navigationsleiste Städte und Gemeinden im Landkreis Augsburg}}
+
+{{Normdaten}}
+
+[[Kategorie:Ort (Landkroes Augschburg)]]

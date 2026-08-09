@@ -1,0 +1,60 @@
+{{DISPLAYTITLE:Dàssene}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Dessenheim|
+| nomalsacien = Dàssene
+| alt moy = 200
+| alt mini = 197
+| alt maxi = 207
+| km² = 19.16
+| image = Dessenheim, Mairie.jpg
+| description = Mairie
+|}}
+'''Dàssene''' ([[IPA]]: [{{IPA|d̥æsənə}}]; [[Französische Sprache|frz.]] ''Dessenheim'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Haut-Rhin|Owerelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}. S'Hüffedorf mit eweng meh wie 1000 Inwohner wird im Weschte von eme Wald flankiert un isch suscht von ere [[Landwirtschaft]]szone umgäbe. Es wird hauptsächlich Welschkorn (Mais) apflanzt. D'Hauptstross D2 goht uf [[Rustenhart|Ruschtehart]] un [[Weckolsheim|Wàckelse]]. Zwei Monument züge von dr Kämpf am End vom [[Zweiter Weltkrieg|Zweite Weltkrieg]].
+
+D'Gmeind ghört im Kommunalverband {{Kommunalverband|FR|{{#Property:P374}}}} a.
+
+== Géografi ==
+Dàssene légt uf rund 200 Méter éwer em Méerspiegel wèstlig vum [[Canal du Rhône au Rhin]]. Nochbergmàinde sén [[Wackolsheim|Wàckolse]] un [[Hettenschlag|Hàtteschlag]] ém Norde, [[Niederhergheim|Néderhèrge]] ([[Ensisheim (Kanton)|Kanton Ànze]]) ém Wèste, [[Rustenhart|Rèschehart]] ém Side un [[Heiteren|Hàitere]] ém Oste.
+
+== Gschécht ==
+Ém Hardtwald sén Grabhégel üs brotohisdorischer Zit gfunde wore, e wittere Grabstàtte stammt üs der spote [[Bronzezeit|Bronzezit]] un légt ém Wurmloeh. Der Ort wérd 737 als Bsétz vu der Abtèi vu Murbach zum èrschte Mol urkundlig erwàhnt; nàbe sàller Nànnig als ''Deoseshaim'' gét's noch àine vu 768 als ''Tessinhaim''. Ab 1648 hat Dàssene der [[Habsburger]] ghért.
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+Ém Johr 1978 ésch s Üsséh vum Wappe fèstglègt wore. Lénks sén d Mitra un der Stab vum Bischof Saint Léger z séh, ràchts d'Farwe vu der Éstricher (rot, wiss un noch emol rot).
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Dàssene ìsch {{Maires|FR|{{#Property:P374}}}}. Dàssene ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Wértschaft ==
+Én der Landwértschaft wàre vor allem Gedràide un Màis aboie. Zudèm gét's oi a baar Zuchtbedrieb.
+
+== Architèktur ==
+<gallery widths="200" heights="250" perrow="2">
+Datei:Vue_aerienne_du_monument_Marin_la_Meslee_de_Dessenheim.jpg|Luftufnahm vum 1946 baute Denkmol fer dr Marin la Meslée
+Datei:La_tombe_du_commandant_Marin_la_Méslée.JPG|Grab vum Kommandant Edmond Marin la Meslée (1912-1945), wo vu ere Flak am 5 Februar 1945 abgschosse worre isch
+</gallery>
+* D St.-Léger-Kérech oder Hardtkathédrale, wu 1871 am Blatz vu der alte Kérech boie wore ésch, ésch e Geboide ém nèi-romanogothische Stil.
+* Uf em Frédhof gét's e Martyrium üs em Johr 1851 un e Krizwàg.
+* e Grànzstài an der Grànze vum Gebiet vu der Habsburger
+* rénovierte alte Bürehiser
+* stèrnfèrmigs Dènkmal un Grab vum Kommandant Edmond Marin La Meslée (lüeg Bélder)
+
+<gallery widths="200" heights="250" perrow="2" caption="St.-Léger-Kérech">
+Datei:Dessenheim, Eglise Saint-Léger 1.jpg
+Datei:Dessenheim, Eglise Saint-Léger 2.jpg
+</gallery>
+
+== Weblink ==
+* {{Commonscat|Dessenheim}}
+* [https://web.archive.org/web/20071012051855/http://www.dessenheim.fr/ Uftritt von dr Gmeind Dàssene] (Französisch)
+* [https://web.archive.org/web/20061201232943/http://hubert.miehe.free.fr/communes/dessenheim.htm Dàssene uf em Uftritt vom Kanton Nej-Brisach]
+* [https://web.archive.org/web/20090920200020/http://www.quid.fr/communes.html?mode=detail Dàssene bi quid.fr]
+
+== Referanza ==
+<references/>
+
+{{Navigationsleiste Gemeinden im Kanton Ensisheim}}
+{{Normdaten}}
+
+[[Kategorie:Ort (Owerelsàss)]]

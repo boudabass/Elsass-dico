@@ -1,0 +1,53 @@
+{{DISPLAYTITLE:Wàhlbi}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Wahlbach
+| nomalsacien = Wàhlbi
+| alt moy = 330
+| alt mini = 314
+| alt maxi = 390
+| km² = 6.41
+| image = Wahlbach, Mairie.jpg
+| description = Mairie
+|}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Wàhlbi''' ([[Französische Sprache|frz.]] ''Wahlbach'', [[Deutsche Sprache|dt.]] ''Wahlbach'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Haut-Rhin|Owerelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}.
+
+== Gschìcht ==
+Wàhlbi ìsch zem erschte Mol gnannt worre ànne 1287 àls ''Walpach''.
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Wàhlbi ìsch {{Maires|FR|{{#Property:P374}}}}. Wàhlbi ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Bevelkerungsentwìcklung ==
+{| class="wikitable" width=400
+|- align=center class="hintergrundfarbe5"
+|align=left | '''Johr''' || '''1962''' || '''1968''' || '''1975''' || '''1982''' || '''1990''' || '''1999''' || '''2006'''
+|- align=center
+|align=left|'''Inwohner'''<ref>[[Institut National de la Statistique et des Études Économiques|INSEE]]: ''Population et logements par commune depuis le recensement de 1962 (1961 pour les Dom) à 1999''</ref> || 488 || 205 || 189 || 211 || 242 || 323 || 401
+|}
+
+== Dialekt ==
+Dr [[Elsässisch|elsassisch]] Dialekt vun Wàhlbi ghert zem [[Oberrheinalemannisch|Owerrhinàlemànnisch]].
+
+{|
+|[[Datei:Wahlbach, Eglise Saint-Maurice et Saint-Laurent.jpg|thumb|Kirich St. Moritz un St. Laurentius]]
+|}
+
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+* {{Commonscat|Wahlbach (Haut-Rhin)}}
+* [https://web.archive.org/web/20110228055220/http://www.pays-sierentz.fr/Wahlbach.html Wàhlbi] bi dr ''Communauté de communes du Pays de Sierentz''
+* [http://www.pays-de-sierentz.com/wahlbach.html Wàhlbi] uf pays-de-sierentz.com
+
+== Referanza ==
+<references/>
+
+{{Navigationsleiste Gemeinden im Kanton Brunstatt}}
+
+{{Normdaten}}
+
+[[Kategorie:Ort (Owerelsàss)]]

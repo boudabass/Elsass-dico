@@ -1,0 +1,65 @@
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Eteimbes
+| nomalsacien = Welschestaibach
+| alt moy = 369
+| alt mini = 340
+| alt maxi = 412
+| km² = 4.96
+| image = Eteimbes, Mairie.jpg
+| description = <center>Mairie
+|}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Eteimbes''' ([[Elsässisch|els.]] ''Welschestaibach'', [[Deutsche Sprache|dt.]] ''Welschensteinbach'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Haut-Rhin|Owerelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}.
+
+== Geogràfi ==
+Eteimbes elit ìm [[Sundgau|Sundgöi]] àm Steinbàch, 23 Kilometer sìdweschtlich vun [[Mülhausen (Elsass)|Mìlhüüse]]. 
+
+== Gschìcht ==
+Eteimbes ìsch zem erschte Mol gnannt worre ànne 1331 àls ''Steinbach'' (1779 ''Estaimbes'').
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Eteimbes ìsch {{Maires|FR|{{#Property:P374}}}}. Eteimbes ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Bevelkerungsentwìcklung ==
+{|class="wikitable"
+!|Johr
+!|1962
+!|1968
+!|1975
+!|1982
+!|1990
+!|1999
+!|2006
+!|2007
+|-
+| Inwohner || 82 || 105 || 123 || 148 || 232 || 280 || 303 || 306
+|}
+
+== Dialekt ==
+Dr [[Langues d'oïl|romànisch]] Dialekt vun Eteimbes ghert zem [[Franc-comtois]].
+
+== Böiwark ==
+* Kìrich St. Pantaleon (Glockedrum vun 1952)
+* Kàpall ''Sacré coeur de Jésus'' (1870)
+
+<gallery widths="200" heights="180">
+Datei:Eteimbes, Eglise Saint-Pantale.jpg|<center>Kìrich St. Pantaleon
+</gallery>
+
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+* {{Commonscat|Eteimbes}}
+* [https://web.archive.org/web/20091130135208/http://www.cc-porte-alsace.fr/territoire_intercom/eteimbes/eteimbes.htm Eteimbes] bi dr CC Porte d’Alsace (fr)
+
+== Referanza ==
+<references/>
+
+{{Navigationsleiste Gemeinden im Kanton Masmünster}}
+
+{{Normdaten}}
+
+[[Kategorie:Ort (Owerelsàss)]]

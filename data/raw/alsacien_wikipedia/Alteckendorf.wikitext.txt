@@ -1,0 +1,70 @@
+{{DISPLAYTITLE:Àltackedorf}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Alteckendorf
+| nomalsacien = Àltackedorf
+| alt moy = 167–265
+| km² = 5.72
+|}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Àltackedorf''' ([[Französische Sprache|frz.]] ''Alteckendorf'', [[Deutsche Sprache|dt.]] ''Alteckendorf'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Bas-Rhin|Unterelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}.
+
+== Geogràfi ==
+S Stroßedorf lijt ìn dr Nordvogese, umgan vun dr Biel ''Koppenberg'' (256 m. ì.M.), ''Englischberg'' (288&nbsp;m. ì.M.) un ''Schyrberg'' (250&nbsp;m. ì.M.).
+
+D Nochbergmeine sìn [[Ettendorf (Unterelsass)|Attedorf]] ìm Norde, [[Hüttendorf (Unterelsass)|Hìttedorf]] ìm Nordoschte, [[Minversheim|Mìnversche]] ìm Oschte, [[Mommenheim (Unterelsass)|Mummle]] ìm Sìdoschte, [[Hochfelden (Unterelsass)|Huffalde]] un [[Schwindratzheim|Schwìngelse]] ìm Sìde, [[Bossendorf|Bossedorf]] ìm Sìdweschte, [[Lixhausen|Lìxhüse]] ìm Weschte un [[Ringendorf|Rìngedorf]] ìm Nordweschte.
+
+== Gschìcht ==
+Àltackedorf ìsch entstànde ànne 1777 durich d Füsion vun dr Derfer Ackedorf (''Eckendorf'') ùn Àltdorf (''Altdorf'').
+
+Àltackedorf ìsch zem erschte Mol gnannt worre ànne 752 àls ''Mazonivilare'', unter em Nàme ''Altdorf'' erscht ànne 1331. Ackedorf ìsch zem erschte Mol gnannt worre ànne 744 àls ''Ecchenheim'' (764: ''Ecchenheimomarca'').
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Àltackedorf ìsch {{Maires|FR|{{#Property:P374}}}}. Àltackedorf ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Bevelkerungsentwìcklung ==
+{| align="center" rules="all" cellspacing="0" cellpadding="4" style="border: 1px solid #999; border-right: 2px solid #999; border-bottom:2px solid #999; background: #f3fff3"
+|+ style="font-weight: bold; font-size: 1.1em; margin-bottom: 0.5em"| Entwicklung vun dr Inwohnerzàhl 
+|-style="background: #ddffdd"
+! 1793 !! 1800 !! 1806 !! 1821 !! 1831 !! 1836 !! 1841 !! 1846 !! 1851 !! 1856 !! 1861 !! 1866 
+|-
+| 531 || 588 || 624 || 701 || 732 || 777 || 770 || 757 || 758 || 712 || 734 || 760 
+|-style="background: #ddffdd"
+! 1872 !! 1876 !! 1881 !! 1886 !! 1891 !! 1896 !! 1901 !! 1906 !! 1911 !! 1921 !! 1926 !! 1931 
+|-
+| 747 || 730 || 745 || 739 || 737 || 757 || 786 || 776 || 767 || 675 || 646 || 670 
+|-style="background: #ddffdd"
+! 1936 !! 1946 !! 1954 !! 1962 !! 1968 !! 1975 !! 1982 !! 1990 !! 1999 !! 2006 !! 2008 !! 2011	 
+|-
+| 653 || 637 || 603 || 619 || 618 || 648 || 661 || 705 || 746 || 739 || 737 || 787	 
+|-
+|}
+
+== Dialekt ==
+Dr [[Elsässisch|elsassisch]] Dialekt vun Àltackedorf ghert zem [[Oberrheinalemannisch|Owerrhinàlemànnisch]].
+
+==Kültür un Böiwark==
+* Lutherische Kìrich Saint Arbogast mìt me [[Fresko]] üs em 14.&nbsp;Jh.
+* Lutherische Kìrich Altdorf (18. Jh.)
+* Fresko üs em Johr 1776 àn dr ''Rue principale''
+
+<gallery widths="200" heights="180" perrow="2">
+Datei:Eckendorf 1950.jpg|D Kìrich Saint Arbogast ànne 1950
+Datei:Famille finitzer 1915.jpg|Àltackedorfer Fröiedràcht ànne 1915 
+</gallery>
+
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+{{commonscat| alteckendorf|Àltackedorf}}
+* http://www.mairie-alteckendorf.fr{{Toter Link|date=2017-09 |bot=InternetArchiveBot |url=http://www.mairie-alteckendorf.fr/}}
+
+== Referanza ==
+<references />
+
+{{Navigationsleiste Gemeinden im Kanton Buchsweiler}}
+{{Normdaten}}
+
+[[Kategorie:Ort (Unterelsass)]]

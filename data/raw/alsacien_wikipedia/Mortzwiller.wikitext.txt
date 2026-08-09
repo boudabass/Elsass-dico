@@ -1,0 +1,62 @@
+{{DISPLAYTITLE:Morzwiller}}
+{{Infobox Ortsteil einer Gemeinde in Frankreich
+|nomhameau=Morzwiller
+|commune=[[Le Haut Soultzbach]]
+|armoiries=Blason Mortzwiller 68.svg
+|région=[[Grand Est]]
+|département=[[Département Haut-Rhin|Owerelsàss]]
+|arrondissement=[[Arrondissement Thann-Guebwiller|Dànn-Gawiller]]
+|datefusion=1. Janner
+|status=cd
+|insee=68219
+|cp=68780
+|longitude=07/02/16/E
+|latitude=47/44/26/N
+|alt mini=340
+|alt maxi=421
+|km²=4.23
+|siteweb=
+|image=Mortzwiller, Mairie-école.jpg
+|image-desc=àlte Mairie un Schüel
+}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Morzwiller''' ([[Französische Sprache|frz.]] ''Mortzwiller'', [[Deutsche Sprache|dt.]] ''Morzweiler'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Haut-Rhin|Owerelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]) gsin.
+
+== Gschìcht ==
+Morzwiller ìsch zem erschte Mol gnannt worre ànne 1453 àls ''Mormaingny'' (1568 ''Moritzweiler''.
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+Zem 1. Janner 2016 hàt d Gmein mit [[Obersulzbach (Oberelsass)|Ewersulzbàch]] züe [[Le Haut Soultzbach]] füsioniert.
+
+== Verwàltung ==
+Dr letscht Maire vun Morzwiller bìs 2015 ìsch dr Christophe Beltzung gsin.
+
+== Bevelkerungsentwìcklung ==
+{| class = "wikitable"
+|-class = "hintergrundfarbe8"
+!Johr
+!1962
+!1968 
+!1975
+!1982
+!1990
+!1999
+!2007
+|- align = center
+| Inwohner || 92 || 126 || 134 || 170 || 194 || 252 || 310
+|}
+
+== Dialekt ==
+Dr [[Elsässisch|elsassisch]] Dialekt vun Morzwiller ghert zem [[Oberrheinalemannisch|Owerrhinàlemànnisch]].
+
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+* {{Commonscat|Mortzwiller}}
+* [https://web.archive.org/web/20081113125351/http://www.cc-vallee-doller.fr/Pagesweb/Explorer/Sous%20rubriques/PageCommunes/Mortzwiller.htm Morzwiller] bi dr ''CC de la Vallée de la Doller et du Soultzbach'' (fr)
+
+{{Normdaten}}
+
+[[Kategorie:Ort (Owerelsàss)]]

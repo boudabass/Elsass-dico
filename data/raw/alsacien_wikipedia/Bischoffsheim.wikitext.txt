@@ -1,0 +1,53 @@
+{{DISPLAYTITLE:Bìsche}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Bischoffsheim
+| nomalsacien = Bìsche
+| alt moy = 149–62
+| km² = 12.33
+| image = Bischoffsheim, Place Saint-Rémy.jpg
+| description = Place Saint-Rémy
+|}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Bìsche''' ([[Französische Sprache|frz.]] ''Bischoffsheim'', [[Deutsche Sprache|dt.]] ''Bischoffsheim'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Bas-Rhin|Unterelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}.
+
+== Geogràfi ==
+Bìsche lijt àm Rànd vun dr [[Vogesen|Vogese]]. Nochbergemeine sìn [[Griesheim bei Molsheim|Griese]], [[Innenheim|Ìnnle]] un [[Bläsheim|Blaase]] ìm Nordoschte, [[Hindisheim|Hìndse]] un [[Krautergersheim|Krüterrische]] ìm Sìdoschte, [[Oberehnheim|Ewernahn]] ìm Sìde, [[Börsch|Bersch]] ìm Weschte un [[Rosheim|Roose]] ìm Nordweschte.
+
+== Gschìcht ==
+Bìsche ìsch zem erschte Mol gnannt worre ànne 530.
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Bìsche ìsch {{Maires|FR|{{#Property:P374}}}}. Bìsche ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Bevelkerungsentwìcklung ==
+{| class="wikitable" width=400
+|- align=center class="hintergrundfarbe5"
+|align=left | '''Johr''' || '''1882''' || '''1962''' || '''1968''' || '''1975''' || '''1982''' || '''1990''' || '''1999''' || '''2007'''
+|- align=center
+|align=left|'''Inwohner'''<ref>[[Institut National de la Statistique et des Études Économiques|INSEE]]: ''Population et logements par commune depuis le recensement de 1962 (1961 pour les Dom) à 1999''</ref> || 1839 || 1477 || 1495 || 1819 || 2075 || 2176 || 2768 || 3141
+|}
+
+== Dialekt ==
+Dr [[Elsässisch|elsassisch]] Dialekt vun Bìsche ghert zem [[Oberrheinalemannisch|Owerrhinàlemànnisch]].
+
+<gallery perrow="3" caption="Kirich Sainte-Aurélie">
+Datei:Bischoffsheim, Église Sainte-Aurélie 01.jpg
+Datei:Bischoffsheim, Église Sainte-Aurélie 02.jpg
+Datei:Bischoffsheim, Église Sainte-Aurélie 03.jpg
+</gallery>
+
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+* http://www.mairie-bischoffsheim.fr
+
+== Referanza ==
+<references />
+
+{{Navigationsleiste Gemeinden im Kanton Molsheim}}
+{{Normdaten}}
+
+[[Kategorie:Ort (Unterelsass)]]

@@ -1,0 +1,53 @@
+{{Dieser Artikel|bschribt d Gmein Oltige ìm Owerelsass. Fìr d Schwizer Gmein, lüej [[Oltingen]]}}
+{{DISPLAYTITLE:Oltìnge}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Oltingue
+| nomalsacien = Oltìnge
+| alt moy = 401
+| alt mini = 387
+| alt maxi = 531
+| km² = 13.42
+| image = Oltingue, Mairie.jpg
+| description = Mairie
+|}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Oltìnge''' ([[Französische Sprache|frz.]] ''Oltingue'', [[Deutsche Sprache|dt.]] ''Oltingen'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Haut-Rhin|Owerelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}.
+
+== Gschìcht ==
+Oltìnge ìsch zem erschte Mol gnannt worre ànne 1141 àls ''Ooltingen''.
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Oltìnge ìsch {{Maires|FR|{{#Property:P374}}}}. Oltìnge ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Bevelkerungsentwìcklung ==
+{| class="wikitable" width=400
+|- align=center class="hintergrundfarbe5"
+|align=left | '''Johr''' || '''1962''' || '''1968''' || '''1975''' || '''1982''' || '''1990''' || '''1999''' || '''2006''' || '''2007'''
+|- align=center
+|align=left|'''Inwohner'''<ref>[[Institut National de la Statistique et des Études Économiques|INSEE]]: ''Population et logements par commune depuis le recensement de 1962 (1961 pour les Dom) à 1999''</ref> || 651 || 657 || 719 || 728 || 711 || 765 || 739 || 736
+|}
+
+== Dialekt ==
+Dr [[Elsässisch|elsassisch]] Dialekt vun Oltìnge ghert zem [[Hochalemannisch|Hochàlemànnisch]].
+
+{|
+|[[Datei:Oltingue St Martin des Champs.jpg|thumb|left|upright 1.2|<center>Kirich Saint-Martin-des-Champs</center>]]
+|[[Datei:Oltingue, Eglise Saint-Martin.jpg|thumb|left|upright 0.95|<center>Kirice Saint-Martin</center>]]
+|}
+
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+{{Commonscat|Oltingue|Oltìnge}}
+* [https://web.archive.org/web/20120315210114/http://www.mythische-orte.com/dn_martinskirchlein-oltingue/ Ìwer d Kirich St. Martin]
+
+== Referanza ==
+<references/>
+
+{{Navigationsleiste Gemeinden im Kanton Altkirch}}
+{{Normdaten}}
+
+[[Kategorie:Ort (Owerelsàss)]]

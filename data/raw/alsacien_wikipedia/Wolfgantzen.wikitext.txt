@@ -1,0 +1,53 @@
+{{DISPLAYTITLE:Wolfgàntze}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Wolfgantzen
+| nomalsacien = Wolfgàntze
+| alt moy = 193
+| alt mini = 191
+| alt maxi = 197
+| km² = 9.38
+| image = Wolfgantzen, Église Saint-Wolfgang.jpg
+| description = Kirich St. Wolfgang
+|}}
+'''Wolfgànze''' ([[IPA]]: {{IPA|[ˈʋolfg̊ɑntsə]}}; [[Französische Sprache|frz.]] ''Wolfgantzen'') isch e [[Frankreich|frànzeesche]] Gmein im [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}} ({{Kanton|FR|{{#Property:P374}}}}) im [[Département Haut-Rhin|Owerelsàss]] (Haut-Rhin).
+
+== Gschicht ==
+Dr Ort isch uf dr [[Wolfgang von Regensburg|heilig Wolfgang]] daift. Gege anno 1000 isch er as ''Wolfgangesheim'' erwähnt gsin. Dr hittig Namme isch us dr elsässisch-alemannischen Ussproch abgleitet. 
+
+Im Hochmittelalter isch Wolfgànze lang vu dr Grafe vu Egse beherrscht worde un im 13. un 14. Johrhundert no vu dr [[Habsburger]]. Im 15. Johrhundert isch dr Ort no an s'Hüs Württemberg gfalle. Sällewäg isch im Dorf no 1536 [[Reformation]] durchgfüehrt un s'Dorf protestantisch worre. Nooch eim Drissigjährige Krieg un dr Expansionspolitiuk vum Louis XIV sin die württembergischen Besitzunge 1685 im Elsass under franzeesischi Oberhoheit kumme, aber witter bi Württemberg bliiwe. Im Underschid zue dr Besitzunge im Heilige Römische Riich hän d'Württemberger dorum am Ort auch wiider dr katholisch Ritus erlaube müesse. 
+
+Die örtlich Kirch ussem 11. Johrhundert isch no vu 1685 bis zum Bau vu ere eigene katholische Kirch 1877 as [[Simultaneum]] gnutzt worde.
+
+Die württembergisch Herrschaft het mit der franzeesische Revolution geendet, wo mer z'Frankriich e Zentralstaat igefüehrt het un au dr Sonderstatus vum Elsass beendet het.
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Wolfgànze ìsch {{Maires|FR|{{#Property:P374}}}}. Wolfgànze ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Bevölkerung ==
+D'Inwohnerzahl, wo in dr 1960er noch zwischen 350 und 400 Persone gleje isch, het sich no zwische 1975 und 1982 von knapp iwer 400 uf iwer 800 verdopplet. Noch ere Stagnation in dr 1990er Johre isch d'Inwohnerzahl no bis 2005 uf iwer 1000 agwaxe. Örtlichi Regionalsproch isch [[Elsässisch|Elsàsserditsch]].
+
+Die unter Tabelle zeigt dr Verlauf vun dr Bevölkerungsentwicklung sit 1960. <br/>
+
+=== Bevölkerungsentwicklung ===
+{| class="wikitable" width=400
+|- align=center class="hintergrundfarbe5"
+|align=left | '''Jahr''' || '''1962''' || '''1968''' || '''1975''' || '''1982''' || '''1990''' || '''1999''' || '''2009'''
+|- align=center
+|align=left|'''Einwohner''' || 368 || 383 || 409 || 836 || 822 || 972 || 1048
+|}
+
+== Weblink ==
+* {{Commonscat|Wolfgantzen}}
+* [http://www.wolfgantzen.fr/ Uftritt von dr Gmeind Wolfgànze] (französisch)
+* [http://hubert.miehe.free.fr/communes/wolfgantzen.htm Wolfgànze uf em Uftritt vom Kanton Nej-Brisach] (französisch)
+
+== Referanza ==
+<references/>
+
+{{Navigationsleiste Gemeinden im Kanton Ensisheim}}
+
+{{Normdaten}}
+
+[[Kategorie:Ort (Owerelsàss)]]

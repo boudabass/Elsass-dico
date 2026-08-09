@@ -1,0 +1,54 @@
+{{DISPLAYTITLE:Oberraischbi}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Ranspach-le-Haut
+| nomalsacien = Oberraischbi
+| alt moy = 392
+| alt mini = 342
+| alt maxi = 445
+| km² = 4.39
+| image = Ranspach-le-Haut, Mairie.jpg
+| description = Maire
+|}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Oberraischbi''' oder '''Oberrauischbi''' ([[Französische Sprache|frz.]] ''Ranspach-le-Haut'', [[Deutsche Sprache|dt.]] ''Oberranspach'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Haut-Rhin|Owerelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}.
+
+== Geogràfi ==
+D Gmei lijt ìm Sìdoschte vum [[Sundgau|Sundgöi]], rund 13 Kilometer weschtlich vun [[Basel]].
+
+== Gschìcht ==
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Oberraischbi ìsch {{Maires|FR|{{#Property:P374}}}}. Oberraischbi ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Bevelkerungsentwìcklung ==
+{| class="wikitable" width=400
+|- align=center class="hintergrundfarbe5"
+|align=left | '''Johr''' || '''1962''' || '''1968''' || '''1975''' || '''1982''' || '''1990''' || '''1999''' || '''2006'''
+|- align=center
+|align=left|'''Inwohner'''<ref>[[Institut National de la Statistique et des Études Économiques|INSEE]]: ''Population et logements par commune depuis le recensement de 1962 (1961 pour les Dom) à 1999''</ref> || 309 || 320 || 337 || 350 || 387 || 414 || 528
+|}
+
+== Dialekt ==
+Dr [[Elsässisch|elsassisch]] Dialekt vun Oberraischbi ghert zem [[Hochalemannisch|Hochàlemànnisch]].
+
+<gallery widths="140" heights="180" perrow="3" caption="Kirche St. Stephanus in Ranspach-le-Haut">
+Datei:Ranspach-le-Haut, Eglise Saint-Etienne 2.jpg
+Datei:Ranspach-le-Haut, Eglise Saint-Etienne 3.jpg
+Datei:Ranspach-le-Haut, Eglise Saint-Etienne 1.jpg
+</gallery>
+
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+* {{Commonscat|Ranspach-le-Haut|Oberraischbi}}
+
+== Referanza ==
+<references/>
+
+{{Navigationsleiste Gemeinden im Kanton Saint-Louis}}
+
+{{Normdaten}}
+
+[[Kategorie:Ort (Owerelsàss)]]

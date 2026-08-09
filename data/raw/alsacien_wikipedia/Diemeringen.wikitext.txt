@@ -1,0 +1,45 @@
+{{DISPLAYTITLE:Dììmerìnge}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Diemeringen
+| nomalsacien = Dììmerìnge
+| alt moy = 222–329
+| km² = 8.81
+|}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Dììmerìnge''' ([[Französische Sprache|frz.]] ''Diemeringen'', [[Deutsche Sprache|dt.]] ''Diemeringen'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Bas-Rhin|Unterelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}.
+
+== Gschìcht ==
+Dììmerìnge ìsch zem erschte Mol gnannt worre ànne 1275.
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Dììmerìnge ìsch {{Maires|FR|{{#Property:P374}}}}. Dììmerìnge ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Bevelkerungsentwìcklung ==
+{| class="wikitable" width=400
+|- align=center class="hintergrundfarbe5"
+|align=left | '''Johr''' || '''1962''' || '''1968''' || '''1975''' || '''1982''' || '''1990''' || '''1999''' || '''2007'''
+|- align=center
+|align=left|'''Inwohner'''<ref>[[Institut National de la Statistique et des Études Économiques|INSEE]]: ''Population et logements par commune depuis le recensement de 1962 (1961 pour les Dom) à 1999''</ref> || 1133 || 1216 || 1294 || 1407 || 1542 || 1654 || 1640
+|}
+
+== Dialekt ==
+Dr [[Lothringisch (Rheinfränkisch)|lothringisch]] Dialekt vun Dììmerìnge ghert zem [[Rheinfränkisch|Rhinfrankisch]].
+
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+{{commonscat}}
+* https://web.archive.org/web/20110823225112/http://www.diemeringen.fr/
+* [http://www.cc-alsace-bossue.net/html/index.php?page=2&menu1=17&menu2=1&menu3=6&page_id=733 Dììmerìnge] uf cc-alsace-bossue.net
+ 
+== Referanza ==
+<references />
+
+{{Navigationsleiste Gemeinden im Kanton Ingweiler}}
+
+{{Normdaten}}
+
+[[Kategorie:Ort (Unterelsass)]]

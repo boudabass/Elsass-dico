@@ -1,0 +1,59 @@
+{{DISPLAYTITLE:Rüederbi}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Ruederbach
+| nomalsacien = Rüederbi
+| alt moy = 379
+| alt mini = 335
+| alt maxi = 424
+| km² = 4.46
+| image = Ruederbach, Mairie.jpg
+| description = Mairie
+|}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Rüederbi''' ([[Französische Sprache|frz.]] ''Ruederbach'', [[Deutsche Sprache|dt.]] ''Rüderbach'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Haut-Rhin|Owerelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}.
+
+== Geogràfi ==
+Rüederbi lijt ìm [[Sundgau|Sundgöi]] àm Rüederbàch, wie ìn [[Ill (Elsass)|Ill]] mìndet, 10 Kilometer sìdeschtlich vun [[Altkirch|Àltkìrech]] un 28 Kilometer weschtlich vun [[Basel|Bàsel]]. Nochbergmeine vun Rüederbi sìn [[Hirsingen|Hìrsinge]] ìm Norde, [[Henflingen|Haiflìnge]] ìm Nordoschte, [[Grenzingen|Granzìnge]] ìm Oschte, [[Feldbach (Oberelsass)|Falbi]] ìm Sìde, [[Bisel|Bìsel]] ìm Sìdweschte un [[Heimersdorf|Haimerschdorf]] ìm Weschte. Züe Rüederbi ghert öi no dr Ortsdeil ''Birkenhof''.
+
+== Gschìcht ==
+Rüederbi ìsch zem erschte Mol gnannt worre ànne 1303 àls ''Ruoderbach''.
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Rüederbi ìsch {{Maires|FR|{{#Property:P374}}}}. Rüederbi ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Bevelkerungsentwìcklung ==
+{| class="wikitable" width=400
+|- align=center class="hintergrundfarbe5"
+|align=left | '''Johr''' || '''1962''' || '''1968''' || '''1975''' || '''1982''' || '''1990''' || '''1999''' || '''2006''' || '''2007'''
+|- align=center
+|align=left|'''Inwohner'''<ref>[[Institut National de la Statistique et des Études Économiques|INSEE]]: ''Population et logements par commune depuis le recensement de 1962 (1961 pour les Dom) à 1999''</ref> || 258 || 275 || 271 || 245 || 270 || 280 || 322 || 328
+|}
+
+== Dialekt ==
+Dr [[Elsässisch|elsassisch]] Dialekt vun Rüederbi ghert zem [[Oberrheinalemannisch|Owerrhinàlemànnisch]].
+
+== Boiwark ==
+* Kìrich Saint-Sigismond (1851)
+* Mennonitetempel, Birkenhof
+{|
+|[[Datei:Ruederbach, Eglise Saint-Sigismond.jpg|thumb|left|upright 0.7|<center>Kìrich Saint-Sigismond</center>]]
+|[[Datei:Ruederbach, Église Évangélique Mennonite du Birkenhof.jpg|thumb|left|upright 1.28|<center>Mennonitetempel ìm Ortsdeil Birkenhof</center>]]
+|}
+
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+{{commonscat|Ruederbach}}
+
+== Referanza ==
+<references/>
+
+{{Navigationsleiste Gemeinden im Kanton Altkirch}}
+
+{{SORTIERUNG:Ruderbach}}
+{{Normdaten}}
+
+[[Kategorie:Ort (Owerelsàss)]]

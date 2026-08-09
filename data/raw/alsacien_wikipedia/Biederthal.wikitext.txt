@@ -1,0 +1,67 @@
+{{DISPLAYTITLE:Birdel}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Biederthal
+| nomalsacien = Birdel
+| alt moy = 405
+| alt mini = 375
+| alt maxi = 530
+| km² = 4.16
+| image = Biederthal, Mairie.jpg
+| description = Mairie
+|}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Birdel''' ([[Französische Sprache|frz.]] ''Biederthal'', [[Deutsche Sprache|dt.]] ''Biederthal'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Haut-Rhin|Owerelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}.
+
+== Geogràfi ==
+Birdel lijt ìm [[Sundgau|Sundgöi]] direkt àn dr Granz züe dr [[Schweiz|Schwiz]], 15 Kilometer sìdweschtlich vun [[Basel|Bàsel]]. Nochbergmeine vun Birdel sìn d Schwizer Gmeine [[Rodersdorf|Roderschdorf]] ìm Norde, [[Metzerlen-Mariastein|Metzerle]] ìm Oschte, [[Burg im Leimental|Burg im Leimedal]] ìm Sìde un d elsassische Gmeine un [[Wolschweiler|Wolschwiller]] ìm Sìdweschte un [[Oltingen (Oberelsass)|Oltige]] ìm Nordweschte.
+
+== Gschìcht ==
+Birdel ìsch zem erschte Mol gnannt worre ànne 1141 àls ''Biederdan'' (1144 ''Biederthanna'', 1168 ''Biedirtan'').
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Birdel ìsch {{Maires|FR|{{#Property:P374}}}}. Birdel ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Bevelkerungsentwìcklung ==
+{|class="wikitable"
+!|Johr
+!|1962
+!|1968
+!|1975
+!|1982
+!|1990
+!|1999
+!|2007
+|-
+| Inwohner || 221 || 228 || 221 || 209 || 232 || 308 || 348
+|}
+
+== Dialekt ==
+Dr [[Elsässisch|elsassisch]] Dialekt vun Birdel ghert zem [[Hochalemannisch|Hochàlemànnisch]].
+
+== Boiwark ==
+* Kìrich Saint-Michel
+
+{|
+|[[Datei:Biederthal, Église Saint-Michel 1.jpg|thumb|left|Kìrich Saint-Michel]]
+|}
+
+== Litt==
+* [[Solange Fernex]], Politikerin, Pazifischtin un Umweltschìtzerin
+
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+* {{Commonscat|Biederthal|Birdel}}
+* [https://web.archive.org/web/20110707010208/http://www.ccja-jura-alsacien.net/index.php?option=com_content&view=article&id=13&Itemid=62 Birdel] uf ccja-jura-alsacien.net (fr)
+
+== Referanza ==
+<references/>
+
+{{Navigationsleiste Gemeinden im Kanton Altkirch}}
+
+{{Normdaten}}
+
+[[Kategorie:Ort (Owerelsàss)]]

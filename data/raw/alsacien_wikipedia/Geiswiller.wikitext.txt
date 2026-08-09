@@ -1,0 +1,56 @@
+{{DISPLAYTITLE:Gäiswiller}}
+{{Infobox Ortsteil einer Gemeinde in Frankreich
+|nomhameau=Gäiswiller
+|commune=[[Geiswiller-Zœbersdorf]]
+|armoiries=FR 67 Blason Geiswiller.svg
+|région=[[Grand Est]]
+|département=[[Département Bas-Rhin|Unterelsàss]]
+|arrondissement=[[Arrondissement Saverne|Zàwere]]
+|datefusion=1. Janner 2018
+|status=cd
+|insee=67153
+|cp=67270
+|longitude=07/30/11/O
+|latitude=48/47/17/N
+|alt moy=214
+|alt mini=195
+|alt maxi=253
+|km²=3.20
+|image=Geiswiller.JPG
+|image-desc=Gäiswiller
+|1=}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Gäiswiller''' ([[Französische Sprache|frz.]] ''Geiswiller'', [[Deutsche Sprache|dt.]] ''Geisweiler'') ìsch bìs 2017 e [[Frankreich|frànzeesche]] Gmein ìm [[Département Bas-Rhin|Unterelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]) gsin. Sit em 1. Janner 2018 ghert sa züe dr neie Gmein [[Geisweiler-Zöbersdorf|Gäiswiller-Zäwerschdorf]].
+
+== Gschìcht ==
+Gäiswiller ìsch zem erschte Mol gnannt worre ànne 774.
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+Dr letscht Maire vun Gäiswiller ìsch dr Georges Beck gsin. 
+
+== Bevelkerungsentwìcklung ==
+{| class = "wikitable" width = 400
+|- align = center class = "hintergrundfarbe5"
+| align = left | '''Johr''' || '''1962''' || '''1968''' || '''1975''' || '''1982''' || '''1990''' || '''1999''' || '''2005'''
+|- align = center
+| align = left|'''Inwohner'''<ref>[[Institut National de la Statistique et des Études Économiques|INSEE]]: ''Population et logements par commune depuis le recensement de 1962 (1961 pour les Dom) à 1999''</ref> || 180 || 187 || 161 || 168 || 166 || 190 || 200
+|}
+
+== Dialekt ==
+Dr [[Elsässisch|elsassisch]] Dialekt vun Gäiswiller ghert zem [[Oberrheinalemannisch|Owerrhinàlemànnisch]].
+
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+{{Commonscat|Geiswiller|Gäiswiller}}
+* [http://www.mairie-geiswiller.fr www.mairie-geiswiller.fr]{{Toter Link|date = 2017-09 |bot = InternetArchiveBot |url = http://www.mairie-geiswiller.fr/}}
+
+== Referanza ==
+<references />
+
+{{Normdaten}}
+
+[[Kategorie:Ort (Unterelsass)]]

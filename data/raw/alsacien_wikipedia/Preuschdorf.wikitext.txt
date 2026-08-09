@@ -1,0 +1,50 @@
+{{DISPLAYTITLE:Prischdorf}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Preuschdorf
+| nomalsacien = Prischdorf
+| alt moy = 157–446
+| km² = 7.57
+| image = Preuschdorf 440.jpg
+| description = Prischdorf
+|}}
+
+'''Prischdorf''' ([[Französische Sprache|frz.]] ''Preuschdorf'', [[Deutsche Sprache|dt.]] ''Preuschdorf'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Bas-Rhin|Unterelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}.
+
+== D Lag ==
+Prischdorf ligt a de D 28 zwüsche [[Dieffenbach bei Wörth|Dieffebach]] un [[Merkweiler-Pechelbronn|Marikwiller-Bachelbrunn]]. S Dorfzentrum isch aber nördlich vo de Schtroos un het Schtrooseverbindige uf [[Lampertsloch|Làmpertschloch]] u [[Görsdorf|Mitschdorf]].
+S Dorf isch am Südweschthang vom Hochwald gläge, wo eigentlich no zum Pfälzerwald ghört, aber au als Nordvogese bezeichnet wird. 
+
+==Gschicht==
+Prischdorf isch zum erschte Mol gnännt worde anne 719.
+
+== Politik ==
+{{MairesTitel|FR|{{#Property:P374}}}} vo Prischdorf isch {{Maires|FR|{{#Property:P374}}}}. D Gmeind ghört zum Gmeindsverband {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Bevelkerungsentwìcklung ==
+{| class="wikitable" width=400
+|- align=center class="hintergrundfarbe5"
+|align=left | '''Johr''' || '''1962''' || '''1968''' || '''1975''' || '''1982''' || '''1990''' || '''1999''' || '''2007'''
+|- align=center
+|align=left|'''Inwohner'''<ref>[[Institut National de la Statistique et des Études Économiques|INSEE]]: ''Population et logements par commune depuis le recensement de 1962 (1961 pour les Dom) à 1999''</ref> || 786 || 810 || 864 || 882 || 875 || 869 || 960
+|}
+
+== Dialekt ==
+Dr [[elsässisch]] Dialekt vo Prischdorf ghört zum [[Oberrheinalemannisch|Oberrhiialemannisch]].
+
+== Galerii ==
+<gallery widths="180" heights="180" perrow="3">
+Datei:Preuschdorf 438.jpg
+Datei:Preuschdorf 439.jpg
+Datei:Preuschdorf 436.jpg
+</gallery>
+
+== Weblinks ==
+{{commonscat}}
+
+== Referanza ==
+<references/>
+
+{{Navigationsleiste Gemeinden im Kanton Reichshoffen}}
+{{Normdaten}}
+
+[[Kategorie:Ort (Unterelsass)]]

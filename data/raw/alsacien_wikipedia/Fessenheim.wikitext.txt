@@ -1,0 +1,69 @@
+{{DISPLAYTITLE:Fassene}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Fessenheim
+| nomalsacien = Fassene
+| image = Fessenheim, Mairie.jpg
+| alt moy = 205
+| alt mini = 201
+| alt maxi = 215
+| km² = 18.4
+}}
+'''Fassene''' ([[IPA]]: {{IPA|['fæsənə]}}, [[Französische Sprache|frz.]] und [[Deutsche Sprache|dt.]] ''Fessenheim'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Haut-Rhin|Owerelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}.
+
+Dr meischte Lit im Dreieckland (Nordweschtschwiiz, Südbade, Elsass) isch Fassene aber nur e Begriff wäg em dörtige Kärnkraftwärk, wo als bsunders unsicher gälte duet. 
+
+== Gschécht ==
+Fassene ìsch zem erschte Mol gnànnt worre anne 778 àls ''Fezinhaim''. 
+
+Der Ort hat frieier em Kloster vu [[Murbach|Mürbach]] ghért un ésch derno an d Habsburger éwergange. Er ésch awer schu én der [[Jungsteinzeit|Jungstàizit]] bsédelt gsé, wie Üssgrawunge bewise. Zudàm hat e Rémerstroß duregfiehrt, wu am „Hochstraßel“ noch Ràst dervu ébrig sén.
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+1953-56 ésch s Wasserkraftwàrk boie wore.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Fassene ìsch {{Maires|FR|{{#Property:P374}}}}. Fassene ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Bevelkerungsentwìcklung ==
+{|class="wikitable"
+!|Johr
+!|1962
+!|1968
+!|1975
+!|1982
+!|1990
+!|1999
+!|2007
+|-
+| '''Inwohner'''<ref>[[Institut National de la Statistique et des Études Économiques|INSEE]]: ''Population et logements par commune depuis le recensement de 1962 (1961 pour les Dom) à 1999''</ref> || 481 || 896 || 1653 || 2002 || 2000 || 2097 || 2250
+|}
+
+== Bauwercher ==
+* [[Staustufe]] am [[Rheinseitenkanal|Rhin-Site-Kanal]] (Grand Canal d'Alsace)
+* [[Alain-Foechterle-Erich-Dilger-Brücke|Alain-Foechterle-Erich-Dilger-Bruck]]: neji Rhinbruck uf [[Deutschland|Ditschland]] zum Autobahnaschluss 64b [[Hartheim (Breisgau)|Harde]], Eröffnung am 20. Mai 2006
+* [[Kernkraftwerk Fessenheim|Kernkraftwerk]] mit zwei [[Kerneaktor|Reaktorblöck]]
+
+== Gmeipartnerschafte ==
+Sit 1991 bestoht e Gmeipartnerschaft mit dr ditsche Nochbergmei [[Hartheim (Breisgau)|Harde]]
+
+== Wértschaft ==
+Én der Landwértschaft wàre vor allem Rénder un Soi zéchtet. Es wàre oi Wi un Gedràide aboie. Oi e Dàil vu der Fassener Wértschaft sén s Kàrn- un s Wasserkraftwàrk. S lètscht broduziert jéhrlig 970 Millione Kilowattstunde.
+
+== Dialekt ==
+Dr [[Elsässisch|elsassisch]] Dialekt vun Fassene ghert zem [[Oberrheinalemannisch|Owerrhinalemannisch]].
+
+== Weblink ==
+* {{Commonscat|Fessenheim}}
+* [https://web.archive.org/web/20070311195307/http://www.ign.fr/affiche_rubrique.asp?rbr_id=1087&CommuneId=64796 Fàssene im Site vum l'Institut Géographique National]
+* [http://www.fessenheim.org/centrale-nucleaire-information-cnpe.html Fessenheim: la centrale nucléaire et le risque.]
+* [https://www.mitwelt.org/akw-fessenheim-chronik-geschichte AKW Chronik]
+* [http://vorort.bund.net/suedlicher-oberrhein/fessenheim-ausstellung.html S Atomkraftwerk Fassene: E Gfohr fir d Region]
+
+== Referanza ==
+<references/>
+
+{{Navigationsleiste Gemeinden im Kanton Ensisheim}}
+
+{{Normdaten}}
+
+[[Kategorie:Ort (Owerelsàss)]]

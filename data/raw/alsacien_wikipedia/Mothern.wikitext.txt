@@ -1,0 +1,44 @@
+{{DISPLAYTITLE:Modere}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Mothern
+| nomalsacien = Modere
+| alt moy = 106–172
+| km² = 10.30
+|}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Modere''' ([[Französische Sprache|frz.]] ''Mothern'', [[Deutsche Sprache|dt.]] ''Mothern'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Bas-Rhin|Unterelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}.
+
+== Gschìcht ==
+Modere ìsch zem erschte Mol gnannt worre ànne 878 àls ''Matra''.
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Modere ìsch {{Maires|FR|{{#Property:P374}}}}. Modere ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Bevelkerungsentwìcklung ==
+{| class="wikitable" width=400
+|- align=center class="hintergrundfarbe5"
+|align=left | '''Johr''' || '''1962''' || '''1968''' || '''1975''' || '''1982''' || '''1990''' || '''1999''' || '''2006'''
+|- align=center
+|align=left|'''Inwohner'''<ref>[[Institut National de la Statistique et des Études Économiques|INSEE]]: ''Population et logements par commune depuis le recensement de 1962 (1961 pour les Dom) à 1999''</ref> || 1505 || 1521 || 1621 || 1610 || 1721 || 1933 || 2043
+|}
+
+== Dialekt ==
+Dr [[Südfränkische Dialekte|sìdfrankisch]] Dialekt vun Modere ghert zem [[Ostfränkisch|Oschtfrankisch]] (Nordowerditsch).
+
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+{{Commonscat}}
+* http://www.commune-mothern.eu
+* https://web.archive.org/web/20190124022348/http://www.mothern-tourisme.fr/
+
+== Referanza ==
+<references/>
+
+{{Navigationsleiste Gemeinden im Kanton Weissenburg}}
+{{Normdaten}}
+
+[[Kategorie:Ort (Unterelsass)]]

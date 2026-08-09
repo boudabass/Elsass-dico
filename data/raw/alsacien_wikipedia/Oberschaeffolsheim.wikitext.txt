@@ -1,0 +1,44 @@
+{{DISPLAYTITLE:Schafelse}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Oberschaeffolsheim
+| nomalsacien = Schafelse
+| alt moy = 142–181
+| km² = 9.3
+|}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Schafelse''' ([[Französische Sprache|frz.]] ''Oberschaeffolsheim'', [[Deutsche Sprache|dt.]] ''Oberschäffolsheim'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Bas-Rhin|Unterelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}.
+
+== Gschìcht ==
+Schafelse ìsch zem erschte Mol gnannt worre ànne 788.
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Schafelse ìsch {{Maires|FR|{{#Property:P374}}}}. Schafelse ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Bevelkerungsentwìcklung ==
+{| class="wikitable" width=400
+|- align=center class="hintergrundfarbe5"
+|align=left | '''Johr''' || '''1962''' || '''1968''' || '''1975''' || '''1982''' || '''1990''' || '''1999''' || '''2007'''
+|- align=center
+|align=left|'''Inwohner'''<ref>[[Institut National de la Statistique et des Études Économiques|INSEE]]: ''Population et logements par commune depuis le recensement de 1962 (1961 pour les Dom) à 1999''</ref> || 1121 || 1125 || 1047 || 1700 || 2037 || 2088 || 2132
+|}
+
+== Dialekt ==
+Dr [[Elsässisch|elsassisch]] Dialekt vun Schafelse ghert zem [[Oberrheinalemannisch|Owerrhinàlemànnisch]].
+
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+{{commonscat|Oberschaeffolsheim}}
+* [http://www.culture.gouv.fr/public/mistral/memoire_fr?ACTION=CHERCHER&FIELD_1=INSEE&VALUE_1=67350 Schafelse ìn dr Base Mémoire des Ministère de la Culture]
+
+== Referanza ==
+<references/>
+
+{{Navigationsleiste Gemeinden im Kanton Lingolsheim}}
+{{DEFAULTSORT:Oberschaffolsheim}}
+{{Normdaten}}
+
+[[Kategorie:Ort (Unterelsass)]]

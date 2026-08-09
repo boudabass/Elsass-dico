@@ -1,0 +1,64 @@
+{{DISPLAYTITLE:Bàlschwiller}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Balschwiller
+| nomalsacien = Bàlschwiller
+| alt moy = 281
+| alt mini = 273
+| alt maxi = 348
+| km² = 9.79
+| image = Balschwiller, Ecole-mairie.jpg
+| description = Mairie- un Schüelgebei
+|}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Bàlschwiller''' ([[Französische Sprache|frz.]] ''Balschwiller'', [[Deutsche Sprache|dt.]] ''Balschweiler'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Haut-Rhin|Owerelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}.
+
+== Geogràfi ==
+Bàlschwiller lijt ìm [[Sundgau|Sundgöi]] àn dr [[Largue (Ill)|Làrg]] un àm [[Rhein-Rhône-Kanal|Rhin-Rhône-Kànàl]], sachs Kilometer nerdlich vun [[Dannemarie (Haut-Rhin)|Dàmmerkìlch]].
+
+== Gschìcht ==
+Ìm Johr 1972 ìsch s Derfel Ìwerkìme (''Ueberkumen'') ingmeindet worre.
+
+Bàlschwiller ìsch zem erschte Mol gnannt worre ànne 728 àls ''Baltowiler'', Ìwerkìme ànne 1421 àls ''Übriken'' (1509 ''Überküm'').
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Bàlschwiller ìsch {{Maires|FR|{{#Property:P374}}}}. Bàlschwiller ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Bevelkerungsentwìcklung ==
+{|class="wikitable"
+!|Johr
+!|1962
+!|1968
+!|1975
+!|1982
+!|1990
+!|1999
+!|2007
+|-
+| Inwohner || 529 || 553 || 542 || 600 || 669 || 762 || 824
+|}
+
+== Dialekt ==
+Dr [[Elsässisch|elsassisch]] Dialekt vun Bàlschwiller ghert zem [[Oberrheinalemannisch|Owerrhinàlemànnisch]].
+
+<gallery widths="180" heights="150" perrow="3">
+Datei:Balschwiller, Eglise Saint-Morand.jpg|Kirch St. Morandus
+Datei:Balschwiller, Lavoir.jpg|Lavoir
+</gallery>
+
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+* {{commonscat|Balschwiller}}
+*[http://www.cc-porte-alsace.fr/territoire-intercommunal/balschwiller.htm Bàlschwiller] bi dr CCPA (fr)
+
+== Referanza ==
+<references/>
+
+{{Navigationsleiste Gemeinden im Kanton Masmünster}}
+
+{{Normdaten}}
+
+[[Kategorie:Ort (Owerelsàss)]]

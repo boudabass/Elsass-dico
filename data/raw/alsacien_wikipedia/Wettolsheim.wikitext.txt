@@ -1,0 +1,54 @@
+{{DISPLAYTITLE:Wattelse}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Wettolsheim
+| nomalsacien = Wattelse
+| alt moy = 217
+| alt mini = 188
+| alt maxi = 688
+| km² = 8.86
+| image = Wettolsheim 016.JPG
+| description = Wattelse
+|}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Wattelse''' ([[Französische Sprache|frz.]] ''Wettolsheim'', [[Deutsche Sprache|dt.]] ''Wettolsheim'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Haut-Rhin|Owerelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}.
+
+== Gschìcht ==
+Wattelse ìsch zem erschte Mol gnannt worre ànne 1222 àls ''Wetelsheim''.
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Wattelse ìsch {{Maires|FR|{{#Property:P374}}}}. Wattelse ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Bevelkerungsentwìcklung ==
+{| class="wikitable" width=400
+|- align=center class="hintergrundfarbe5"
+|align=left | '''Johr''' || '''1962''' || '''1968''' || '''1975''' || '''1982''' || '''1990''' || '''1999''' || '''2006'''
+|- align=center
+|align=left|'''Inwohner'''<ref>[[Institut National de la Statistique et des Études Économiques|INSEE]]: ''Population et logements par commune depuis le recensement de 1962 (1961 pour les Dom) à 1999''</ref> || 1296 || 1301 || 1558 || 1554 || 1616 || 1692 || 1705
+|}
+
+== Dialekt ==
+Dr [[Elsässisch|elsassisch]] Dialekt vun Wattelse ghert zem [[Oberrheinalemannisch|Owerrhinàlemànnisch]].
+
+<gallery widths="200" heights="160" perrow="3">
+Datei:Wettolsheim, Mairie.jpg|<center>Mairie
+Datei:Wettolsheim, Église Saint-Rémi.jpg |<center>Kìrich Saint-Rémi 
+Datei:Wettolsheim Hoehlenaltar.JPG|<center>Hehleàltàr (Grotte de Lourdes grandeur réelle)
+</gallery>
+
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+* {{Commonscat|Wettolsheim|Wattelse}}
+* https://web.archive.org/web/20190914092420/http://wettolsheim.fr/
+
+== Referanza ==
+<references/>
+
+{{Navigationsleiste Gemeinden im Kanton Wintzenheim}}
+
+{{Normdaten}}
+
+[[Kategorie:Ort (Owerelsàss)]]

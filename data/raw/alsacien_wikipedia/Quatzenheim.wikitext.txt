@@ -1,0 +1,45 @@
+{{DISPLAYTITLE:Zwàtzne}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Quatzenheim
+| nomalsacien = Zwàtzne
+| alt moy = 156–193
+| km² = 3.07
+|}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Zwàtzne''' ([[Französische Sprache|frz.]] ''Quatzenheim'', [[Deutsche Sprache|dt.]] ''Quatzenheim'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Bas-Rhin|Unterelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}.
+
+== Gschìcht ==
+Dr Nàmme ''Zwàtzne''/''Quatzenheim'' kunnt vun làtiinisch ''coactione(m)''.
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+Am 19. Februar 2019 hàt me rund 80 Greber mìt [[Svastika|Hokekriz]] verschmiert gfunde.<ref>{{Internetquelle|titel=Environ 80 sépultures d’un cimetière juif profanées à Quatzenheim, en Alsace|hrsg=[[Le Monde]]|sprache=fr |datum=19. Februar 2019| url=https://www.lemonde.fr/societe/article/2019/02/19/alsace-environ-80-sepultures-d-un-cimetiere-juif-profanees-a-quatzenheim_5425276_3224.html|zugriff=19. Februar 2019}}</ref> E [[Israel|israelischer]] Mìnìschter hàt zenjé d [[Frankreich|frànzeesche]] Jude zum Üswandra noch Israel ufgrieft.<ref>{{Internetquelle|titel=Israelischer Minister ruft Frankreichs Juden zur Emigration auf |url=https://www.tagesspiegel.de/politik/antisemitismus-israelischer-minister-ruft-frankreichs-juden-zur-emigration-auf/24015244.html|datum=19. Februar 2019|hrsg=Der Tagesspiegel|zugriff=19. Februar 2019}}</ref>
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Zwàtzne ìsch {{Maires|FR|{{#Property:P374}}}}. Zwàtzne ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Bevelkerungsentwìcklung ==
+{| class="wikitable" width=400
+|- align=center class="hintergrundfarbe5"
+|align=left | '''Johr''' || '''1962''' || '''1968''' || '''1975''' || '''1982''' || '''1990''' || '''1999''' || '''2007'''
+|- align=center
+|align=left|'''Inwohner'''<ref>[[Institut National de la Statistique et des Études Économiques|INSEE]]: ''Population et logements par commune depuis le recensement de 1962 (1961 pour les Dom) à 1999''</ref> || 450 || 467 || 499 || 540 || 557 || 710 || 775
+|}
+
+== Dialekt ==
+Dr [[Elsässisch|elsassisch]] Dialekt vun Zwàtzne ghert zem [[Oberrheinalemannisch|Owerrhinàlemànnisch]].
+
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+{{Commonscat}}
+
+== Referanza ==
+<references/>
+
+{{Navigationsleiste Gemeinden im Kanton Buchsweiler}}
+
+{{Normdaten}}
+
+[[Kategorie:Ort (Unterelsass)]]

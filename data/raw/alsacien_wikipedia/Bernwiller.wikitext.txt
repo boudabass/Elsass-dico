@@ -1,0 +1,70 @@
+{{DISPLAYTITLE:Barnwiller}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Bernwiller
+| nomalsacien = Barnwiller
+| alt moy = 285
+| alt mini = 277
+| alt maxi = 307
+| km² = 7.60
+|}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Barnwiller''' ([[Französische Sprache|frz.]] ''Bernwiller'', [[Deutsche Sprache|dt.]] ''Bernweiler'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Haut-Rhin|Owerelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}.
+
+== Geogràfi ==
+Barnwiller lijt ìm [[Sundgau|Sungöi]], rund zwelf Kilometer sìdweschtlich vum [[Mülhausen (Elsass)|Milhüüse]].
+
+== Gschìcht ==
+Barnwiller ìsch zem erschte Mol gnannt worre ànne 784 àls ''Barunwilare''. 
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+Àm [[1. Januar|1. Janner]] [[2016]] ìsch d Gmein [[Ammerzweiler|Àmmerzwiller]] derzüe kumma, dur a Fusion wo àm [[8. Oktober|8. Oktower]] [[2015]] gwählt worra ìsch<ref>[http://www.lalsace.fr/haut-rhin/2015/10/09/commune-nouvelle-ammertzwiller-et-bernwiller-se-disent-oui Commune nouvelle: Ammertzwiller et Bernwiller se disent « oui », ìn dr Zittung L'ALSACE, àm 09.10.2015(fr)]</ref>.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Barnwiller ìsch {{Maires|FR|{{#Property:P374}}}}. Barnwiller ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Bevelkerungsentwìcklung ==
+{|class="wikitable"
+!|Johr
+!|1962
+!|1968
+!|1975
+!|1982
+!|1990
+!|1999
+!|2007
+|-
+| Inwohner || 348 || 372 || 391 || 397 || 447 || 599 || 621
+|}
+
+== Dialekt ==
+Dr [[Elsässisch|elsassisch]] Dialekt vun Barnwiller ghert zem [[Oberrheinalemannisch|Owerrhinàlemànnisch]].
+
+== Böiwark==
+* Kìrich ''Saint-Jean'' (vun 1784, 1915 bumbàrdiert, 1928 wìder ufgeböit, 2004 renoviert).
+* Dankmol fìr dr ''Jean Jacques Henner'' (1911)
+
+{|
+|[[Datei:Bernwiller, Eglise Saint-Jean.jpg|thumb|left|upright 0.9|Kirich St. Johannes]]
+|}
+
+== Litt ==
+* [[Jean Jacques Henner]] (1829–1905), Moler
+* [[Louis Schittly]] (* 1938), Mìtgrìndr vun ''[[Ärzte ohne Grenzen|Médecins Sans Frontières]]''
+
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+* {{Commonscat|Bernwiller}}
+* [http://www.cc-porte-alsace.fr/territoire-intercommunal/bernwiller.htm Barnwiller] uf cc-porte-alsace.fr (fr)
+* [http://www.conseil-general.com/local/mairies-villes-communes/mairie-bernwiller-68210.htm Barnwiller] uf conseil-general.com (fr)
+
+== Referanza ==
+<references/>
+
+{{Navigationsleiste Gemeinden im Kanton Masmünster}}
+
+{{Normdaten}}
+
+[[Kategorie:Ort (Owerelsàss)]]

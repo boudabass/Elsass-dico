@@ -1,0 +1,57 @@
+{{DISPLAYTITLE:Bischwihr}}
+{{Dieser Artikel|bschribt d elsassisch Gmein Bischwihr; zue dr ditsche Gmein lüej [[Bischweier]]}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Bischwihr
+| nomalsacien = Bischwihr
+| alt moy = 185
+| alt mini = 182
+| alt maxi = 187
+| km² = 3.23
+|}}
+'''Bischwihr''' ([[IPA]]: {{IPA|[ˈb̥ɪʃʋiːr]}}) isch e [[Frankreich|frànzeesche]] Gmein ìm [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}} ({{Kanton|FR|{{#Property:P374}}}}) ìm [[Département Haut-Rhin|Owerelsàss]] (Haut-Rhin). S Dorf isch Mitglid im interkommunale Zweckverband {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Geographi ==
+S'Dorf lijt in dr [[Oberrheinische Tiefebene|Owerrhineweni]], 6 km öschtlich vun [[Colmar|Colmer]]. Noochberdörfer sin [[Holtzwihr|Holzwihr]] im Nordweschte, [[Wickerschwihr]], wo direkt nördlich lejt, numme e halwe Kilometer eweg, [[Muntzenheim|Munze]] 2 km öschtlich, [[Fortschwihr]] 1,5 km südöschtlich un [[Horbourg-Wihr|Wihr (uf em Land)]], 2 km südweschtlich.
+
+Unmittelbar öschtlich vum Ort verlauft s'Flüssel ''Blindi Rau'', wo d'Gmarkungsgrenze bildet. D'Hiser uf dr öschtliche Site vum Flüssel leje uf dr Gmarkung vun Fortschwihr.
+
+D'Umgäwung wird vorwigend fier dr [[Acker]]bäu gnutzt. D'Gmeind het kei Wald.
+
+== Gschicht ==
+Die erscht urkundlich Erwähnung stammt ussem 12. Johrhundert als ''Bischoveswilre'', dr Wiler vum Bischof. Dr Ort het domols zue dr Herrschaft vu [[Horbourg-Wihr|Horburg]] ghört un isch 1324 no unter [[Württemberg|Wirdebàrigschi]] Herrschaft kumme. Wo no anno 1535 in Wirdebàrig d'[[Reformation]] ingfüehrt worre isch, isch äu Bischwihr evangelisch worre.
+
+1687 isch dr wirdebàrigsch Besitz im Elsass ussem [[Heiliges Römisches Reich|Ditsche Riich]] usgschiide un unter franzeesche Oberhoheit kumme, awer bis zue dr [[Französische Revolution|franzeesche Revolution]] 1789 trotzdem unter wirdebàrigscher Hoheit bliwe. In Frankrich het awer dr Augschburger Religionsfriide nit golte, so dass 1687 dr Katholizismus im Dorf wiider erläubt worre isch. Sither isch dr Ort konfessionell gmischt.
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Bischwihr ìsch {{Maires|FR|{{#Property:P374}}}}. Bischwihr ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+==Bevölkerung==
+S'Dorf het anno 2006 1001 Inwohner gha. Örtlichi Regionalsproch isch [[Elsässisch|Elsàsserditsch]].
+
+{| class="wikitable" width=400
+|- align=center class="hintergrundfarbe5"
+|align=left | '''Johr''' || '''1962''' || '''1968''' || '''1975''' || '''1982''' || '''1990''' || '''1999''' || '''2007'''
+|- align=center
+|align=left|'''Inwohner'''<ref>[[Institut National de la Statistique et des Études Économiques|INSEE]]: ''Population et logements par commune depuis le recensement de 1962 (1961 pour les Dom) à 1999''</ref> || 320 || 357 || 396 || 565 || 611 || 816 || 939
+|}
+
+== Sähenswürdigkeite ==
+* katholischi St.Joseph-Kìrech vu 1852.
+* evangelischi Kìrech vu 1853
+Beidi Kìreche hän e eigene Fridhof.
+
+== Weblink ==
+* {{Commonscat|Bischwihr}}
+* [https://web.archive.org/web/20090721114459/http://www.quid.fr/communes.html?mode=detail Dateblatt zu Bischwihr bi quid.fr]
+* [https://web.archive.org/web/20080107083151/http://www.cc-riedbrun.fr/ Bischwihr uf dr Site vum Zweckverband Brüns Ried]
+
+== Referanza ==
+<references/>
+
+{{Navigationsleiste Gemeinden im Kanton Colmar-2}}
+
+{{Normdaten}}
+
+[[Kategorie:Ort (Owerelsàss)]]

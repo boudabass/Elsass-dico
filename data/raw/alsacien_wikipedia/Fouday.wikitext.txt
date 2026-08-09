@@ -1,0 +1,52 @@
+{{DISPLAYTITLE:Fouda}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Fouday
+| nomalsacien = Fouda
+| alt moy = 380–680
+| km² = 2.05
+| image = Fouday.jpg
+| description =Fouday
+|}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Fouda''' ([[Lorrain|Patois]], [[Französische Sprache|frz.]] '''Fouday''', [[Deutsche Sprache|dt.]] ''Urbach'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Bas-Rhin|Unterelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}.
+
+== Gschìcht ==
+Fouda ìsch zem erschte Mol gnannt worre ìm 14. Jh.
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+Ànne 1975 hàt sich Fouda àn d Gmein ''Le Ban-de-la-Roche'' àngschlosse, wie àm 1. April 1974 üs dr Gmeine [[Bellefosse|Befoss]], [[Waldersbach|Wàlderschbàch]] und [[Belmont (Bas-Rhin)|Bémont]] entstànde ìsch. Zitter em 1. Jänner 1992 sìn sa wìder salbstandige Gmeine.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Fouda ìsch {{Maires|FR|{{#Property:P374}}}}. Fouda ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Bevelkerungsentwìcklung ==
+{| class="wikitable" width=400
+|- align=center class="hintergrundfarbe5"
+|align=left | '''Johr''' || '''1962''' || '''1968''' || '''1975''' || '''1982''' || '''1990''' || '''1999''' || '''2006'''
+|- align=center
+|align=left|'''Inwohner'''<ref>[[Institut National de la Statistique et des Études Économiques|INSEE]]: ''Population et logements par commune depuis le recensement de 1962 (1961 pour les Dom) à 1999''</ref> || 230 || 233 || 222 || 253 || 277 || 303 || 340
+|}
+
+== Dialekt ==
+Dr [[Langues d'oïl|romànisch]] Dialekt vun Fouda ghert zem [[Welche (Langue d'oïl)|Welche]] un domìt zem [[Lorrain]].
+
+<gallery widths="200" heights="180" perrow="2">
+Datei:FoudayMairie.JPG|Maire
+Datei:Fouday-Cimetière.JPG|Frìdhof
+</gallery>
+
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+{{Commonscat}}
+* [http://www.hautebruche.com/CARTE/fiche_commune.php?id=9 Fouda] uf www.hautebruche.com
+
+== Referanza ==
+<references />
+
+{{Navigationsleiste Gemeinden im Kanton Mutzig}}
+{{Normdaten}}
+
+[[Kategorie:Ort (Unterelsass)]]

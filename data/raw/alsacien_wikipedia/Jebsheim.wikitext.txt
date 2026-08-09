@@ -1,0 +1,68 @@
+{{DISPLAYTITLE:Iebse}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Jebsheim
+| nomalsacien = Iebse
+| alt moy = 180
+| alt mini = 177
+| alt maxi = 186
+| km² = 14.85
+|}}
+'''Iebse''' ([[IPA]]: {{IPA|[ˈiə̯b̥sə]}}; amtl. ''Jebsheim'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Haut-Rhin|Owerelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}. Dr Ort ghört dr {{Kommunalverband|FR|{{#Property:P374}}}} a.
+
+== Gschicht ==
+Us dr Halstattzit im erschte vorchrischtliche Johrtausend stamme mehreri Grabhigel. Iebse lijt zuedem am Krizungspunkt vu fimf [[Römerstraße|Reemerstrosse]], wo scho in dr römische Zit e kleini Station existiert het. Us dr Merowingerzit stammt e Gräberfeld.
+
+Die erschtmolig urkundlich Erwähnung vu Iebse as ''Jebinesheim'' stammt awer erscht us dr Johre 891 bis 896. Dr Name vum Ort isch friener au ''Iebsheim'' gschribe worre un wird miteme [[Diphthong]] usgsproche. Dodurch dass [[I]] un [[J]] i dr Schrift friener nit unterschiede worre sin erklärt sich d Schriibig mit <j>.
+
+Im Mittelalter hän zwei Adelsfamilie am Ort residiert, sällewäg es zwei Schlösser gäwe het, awer äu zwei Kìreche (St. Martin un St. Ulrich) un zwei Mihlene. Im 14. Johrhundert isch dr Ort [[Württemberg|wirdebarigsch]] un wie ganz Wirdebárig no 1535 in dr [[Reformation]] evangelisch worre.
+
+Im [[Dreißigjähriger Krieg|Drissigjährige Krieg]] isch Iebse no schwer zerstört worre. In dr zweite Hälfti vum 17. Johrhundert het d'Oberhoheit vum Ditsche Riich uf Frankrich gwechselt, wobi dr Ort trotzdem bis zue dr [[Französische Revolution|Grosse Revolution]] 1789 bi Wirdebarig bliwe isch.
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+Im [[Zweiter Weltkrieg|Zweite Weltkrieg]] isch Iebse bim ditsche Agriff uf Frankrich im Summer 1940 vu dr ditsche Artilleri zerstört worre (d'Bevölkerung isch sinerzit nooch Aquitanie evakuiert gsi). Bi dr Befreiung vum 25. bis 30. Jänner 1945 het e verheerendi Schlacht zwische ditsche Truppe uf dr eine un amerikanisch-französische Verbände uf dr andere Site stattgfunde.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Iebse ìsch {{Maires|FR|{{#Property:P374}}}}. Iebse ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Bevölkerung ==
+Iebse het anno 2005 knapp iwer 1000 Inwohner gha. Örtlichi Regionalsproch isch [[Elsässisch|Elsàsserditsch]].
+
+{|class="wikitable" width=350
+|+Bevölkerungsentwicklung
+|-
+|-class="hintergrundfarbe5"
+|'''Johr'''
+!1962
+!1968
+!1975
+!1982
+!1990
+!1999
+!2006
+|- align=center
+|align=left|'''Inwohner'''<ref>[[Institut National de la Statistique et des Études Économiques|INSEE]]: ''Population et logements par commune depuis le recensement de 1962 (1961 pour les Dom) à 1999''</ref> || 692 || 740 || 917 || 871 || 918 || 1013 || 1081
+|-
+|}
+
+== Böiwark ==
+* Proteschtàntische Kìrich St. Martin
+* Monümant ''Croix du Moulin'' 
+<gallery widths="200" heights="150" perrow="2>
+Jebsheim, Eglise protestante Saint-Martin.jpg|Kìrich Saint-Martin
+Colmar Pocket monument.jpg|Croix du Moulin
+</gallery>
+
+== Weblink ==
+* {{Commonscat|Jebsheim}}
+* [https://web.archive.org/web/20031211111831/http://www.notrealsace.com/web/alsace/alsace_local/villages/jebsheim/corps.htm Gschicht vu Iebse bi notrealsace.com]
+* [https://web.archive.org/web/20090721114459/http://www.quid.fr/communes.html?mode=detail Iebse bi quid.fr]
+
+== Referanza ==
+<references/>
+
+{{Navigationsleiste Gemeinden im Kanton Colmar-2}}
+
+{{Normdaten}}
+
+[[Kategorie:Ort (Owerelsàss)]]

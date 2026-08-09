@@ -1,0 +1,51 @@
+{{DISPLAYTITLE:Pfàscht}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Pfastatt
+| nomalsacien = Pfàscht
+| alt moy = 244
+| alt mini = 238
+| alt maxi = 265
+| km² = 5.24
+| image = Pfastatt, Mairie.jpg
+| description = Mairie
+|}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Pfàscht''' ([[Französische Sprache|frz.]] ''Pfastatt'', [[Deutsche Sprache|dt.]] ''Pfastatt'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Haut-Rhin|Owerelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}.
+
+== Gschìcht ==
+Pfàscht ìsch zem erschte Mol gnannt worre ànne 790 àls ''locus Finstatinse''.
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Pfàscht ìsch {{Maires|FR|{{#Property:P374}}}}. Pfàscht ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Bevelkerungsentwìcklung ==
+{| class="wikitable" width=400
+|- align=center class="hintergrundfarbe5"
+|align=left | '''Johr''' || '''1962''' || '''1968''' || '''1975''' || '''1982''' || '''1990''' || '''1999''' || '''2007'''
+|- align=center
+|align=left|'''Inwohner'''<ref>[[Institut National de la Statistique et des Études Économiques|INSEE]]: ''Population et logements par commune depuis le recensement de 1962 (1961 pour les Dom) à 1999''</ref> || 5209 || 5986 || 6353 || 6247 || 8061 || 7946 || 8356
+|}
+
+== Dialekt ==
+Dr [[Elsässisch|elsassisch]] Dialekt vun Pfàscht ghert zem [[Oberrheinalemannisch|Owerrhinàlemànnisch]].
+
+{|
+|[[Datei:Pfastatt, Eglise Saint-Maurice.jpg|thumb|left|<center>St. Mauritius</center>]]
+|}
+
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+* {{Commonscat|Pfastatt}}
+* http://www.pfastatt.fr
+
+== Referanza ==
+<references/>
+
+{{Navigationsleiste Gemeinden im Kanton Kingersheim}}
+{{Normdaten}}
+
+[[Kategorie:Ort (Owerelsàss)]]

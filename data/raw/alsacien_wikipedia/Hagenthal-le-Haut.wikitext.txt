@@ -1,0 +1,51 @@
+{{DISPLAYTITLE:Oberhàgedàl}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Hagenthal-le-Haut
+| nomalsacien = Oberhàgedàl
+| alt moy = 376
+| alt mini = 360
+| alt maxi = 529
+| km² = 4.92
+| image = Hagenthal-le-Haut, Mairie.jpg
+| description = Maire
+|}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Oberhàgedàl''' ([[Französische Sprache|frz.]] ''Hagenthal-le-Haut'', [[Deutsche Sprache|dt.]] ''Oberhagenthal'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Haut-Rhin|Owerelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}.
+
+== Geogràfi ==
+D Gmei lijt àm Sìdoschtrànd vum [[Sundgau|Sundgöi]], in dr Neh züe dr [[Schweiz|Schwiz]], rund nin Kilometer sìdweschtlich vun [[Basel]]. Durich d Gmei fließt dr ''Chilchbàch'', wie àb Neederhàgethàl ''Lentzbàch'' un ìn dr Schwiz ''Lörzbach'' gnannt wurd.
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Oberhàgedàl ìsch {{Maires|FR|{{#Property:P374}}}}. Oberhàgedàl ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Bevölkerungsentwicklung ==
+{| class="wikitable" width=400
+|- align=center class="hintergrundfarbe5"
+|align=left | '''Jahr''' || '''1962''' || '''1968''' || '''1975''' || '''1982''' || '''1990''' || '''1999''' || '''2007'''
+|- align=center
+|align=left|'''Einwohner''' || 358 || 365 || 380 || 381 || 428 || 410 || 583
+|}
+
+== Dialekt ==
+Dr [[Elsässisch|elsassisch]] Dialekt vun Oberhàgedàl ghert zem [[Hochalemannisch|Hochàlemànnisch]].
+
+{|
+|[[Datei:Hagenthal-le-Haut, Chapelle Sainte-Catherine.jpg|thumb|left|Kapelle Sainte-Catherine]]
+|}
+
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+* {{Commonscat|Hagenthal-le-Haut|Oberhàgedàl}}
+
+== Referanza ==
+<references/>
+
+{{Navigationsleiste Gemeinden im Kanton Saint-Louis}}
+
+{{Normdaten}}
+
+[[Kategorie:Ort (Owerelsàss)]]

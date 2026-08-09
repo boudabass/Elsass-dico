@@ -1,0 +1,60 @@
+{{DISPLAYTITLE:Bàrtene}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Bartenheim
+| nomalsacien = Bàrtene
+| alt moy = 262
+| alt mini = 237
+| alt maxi = 311
+| km² = 12.86
+| image = Bartenheim, Mairie.jpg
+| description = Mairie
+|}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Bàrtene''' ([[Französische Sprache|frz.]] ''Bartenheim'', [[Deutsche Sprache|dt.]] ''Bartenheim'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Haut-Rhin|Owerelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}.
+
+== Gschìcht ==
+Bàrtene ìsch zem erschte Mol gnannt worre ànne 829 àls ''Bartenhaim'.
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Bàrtene ìsch {{Maires|FR|{{#Property:P374}}}}. Bàrtene ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Bevelkerungsentwìcklung ==
+{|class="wikitable"
+!|Johr
+!|1962
+!|1968
+!|1975
+!|1982
+!|1990
+!|1999
+!|2006
+|-
+| '''Inwohner'''<ref>[[Institut National de la Statistique et des Études Économiques|INSEE]]: ''Population et logements par commune depuis le recensement de 1962 (1961 pour les Dom) à 1999''</ref> || 1936 || 2014 || 2413 || 2452 || 2483 || 2913 || 3437
+|}
+
+== Dialekt ==
+Dr [[Elsässisch|elsassisch]] Dialekt vun Bàrtene ghert zem [[Hochalemannisch|Hochàlemànnisch]].
+
+{|
+|[[Datei:Bartenheim, Eglise Saint-Georges.jpg|thumb|left|Kirich Saint-Georges in Bartenheim]]
+|}
+
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+* {{Commonscat|Bartenheim}}
+* http://www.bartenheim.fr
+* [http://www.pays-de-sierentz.com/d_bartenheim.html Bàrtene] uf www.pays-de-sierentz.com
+* [https://web.archive.org/web/20120710231434/http://www.cc-3frontieres.fr/bartenheim.html Bàrtene] bi dr CC des Trois Frontières
+
+== Referanza ==
+<references/>
+
+{{Navigationsleiste Gemeinden im Kanton Brunstatt}}
+
+{{Normdaten}}
+
+[[Kategorie:Ort (Owerelsàss)]]

@@ -1,0 +1,65 @@
+{{DISPLAYTITLE:Sundhoffe}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Sundhoffen
+| nomalsacien = Sundhoffe
+| alt moy = 193
+| alt mini = 189
+| alt maxi = 194
+| km² = 12.75
+}}
+'''Sundhoffe''' ([[Französische Sprache|frz.]] ''Sundhoffen'', [[Deutsche Sprach|dt.]] ''Sundhofen'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Haut-Rhin|Owerelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}.
+
+== Geographi ==
+Dr Ort lijt guet 6&nbsp;km südeschtlich vu [[Colmar|Colmer]]. Während s'alt Dorf sit Johrhunderte uf dr Weschtsite vum Fluss [[Ill (Elsass)|Ill]] lejt, isch erscht nooch em [[Zweiter Weltkrieg|Zweite Weltkrieg]] e Nejbäugebit öschtlich vu dr Ill entstande.
+
+== Gschicht ==
+Dr Namme Sundhoffe leitet sich vu dr d'Bezeichnung ''Südhof'' ab. Dr Ort wird s'erscht Mol anno 768 as ''Suntor'' (896 ''Sundoua'') erwähnt. Bis 1324 het dr Ort dr Herre zue Horburg ghört, deno bis 1789 zue [[Württemberg|Wirdebàrig]]. Mit dr Infüehrung vu dr [[Reformation]] z'Wirdebàrig anno 1535 isch no dr Ort evangelisch worre. 1685 isch no d'Oberhoheit vum [[Heiliges Römisches Reich|Ditsche Riich]] uf s'Keenigrich Frankrich iwergange un die wirdebarigsch Herrschaft het miesse d'Katholizismus wiider erläuwe. Trotzdem sin d'Inwohner in dr grosse Mehrheit evangelisch bliwe. 1789 isch no die wirdebarigsch Herrschaft beendet und die französisch Zentralverwaltung ingfüehrt worre. Etwa um 1848 isch e feschti Bruck iwer d'Ill bäut worre.
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Sundhoffe ìsch {{Maires|FR|{{#Property:P374}}}}. Sundhoffe ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+=== Maires (Bürgemeischter) ===
+* Georges Kopp (Dez. 1918 - Dez. 1919)
+* Eugène Michel Haag (Dez. 1919 - Mai 1925)
+* Jean Zimmerlin (Mai 1925 - März 1926)
+* Matthias Schaeffer (März 1926 - 1941, abgsetzt nooch dr Annexion) 	
+* Emil Haag (1941 - Februar 1945, vu dr Nazis ingsetzt) 
+* Sigismond Kopp (Februar 1945 - Oktober 1945) 	
+* Charles Zäh (Oktober 1945 - Oktober 1947) 	
+* Eugène Schreck (Oktober 1947 - März 1965)	
+* Jean Sick (März 1965 - März 1989)	
+* Jean-Marc Schuller (sit März 1989)
+
+== Bevölkerung ==
+Sundhoffe het anno 1999 knapp iwer 1900 Inwohner gha. Örtlichi Regionalsproch isch [[Elsässisch|Elsàsserditsch]].
+
+Am Afang vum 19.&nbsp;Jahrhundert isch d'Inwohnerzahl zunächscht agstige, gege 1840 bis uf 1.278 Inwohner. No awer het dr Ort wiider Inwohner verlore un d'Zahl vu 1840 erscht wiider 1975 erreicht. D'Ursach vum Bevölkerungsschwund isch e Landflucht gsi. Sit 1970 het d'Inwohnerzahl wäge ere Stadtflucht ins Colmerer Umland no starch zuegnumme.
+
+Haupterwerbszwig am Ort isch frieher d'Landwirtschaft gsi, doch git's inzwische numme e baar Vollerwerbsbüre am Ort. Die meischte Lit schaffe uswärts.
+
+{| class="wikitable"
+|-
+!align=left | Johr || 1792 || 1845 || 1903 || 1962 || 1975 || 1990 || 1999 || 2006
+|- align=center
+! Inwohner 
+| 836 || 1250 || 933 || 812 || 1299 || 1756 || 1911 || 1939
+|-
+|}
+
+== Verkehr ==
+Sundhoffe lijt an dr Isebahnlinie [[Colmar|Colmer]]-[[Volgelsheim|Volgelse]]-[[Marckolsheim|Markelse]], wo hit zwische Colmer un Volgelse numme fier dr Güeterverkehr benutzt wird, während uf em rhinparallelen Abschnitt zwische Volgelse un Markelse an Wucheende au e Museumsisebahn mit Dampfbetrib verkehrt. Bis 1945 isch bi [[Breisach|Brisach]] e Bruck iwer dr Rhin gange un d'Strecki het in dr [[Breisacher Bahn|Brisacher Bahn]] bis uf [[Freiburg im Breisgau|Friburg im Brisgau]] ihr Fortsetzung gha.
+
+== Externa Site ==
+* {{Commonscat|Sundhoffen|Sundhoffe}}
+* [http://www.heitzler.com/sundhoffen/ (fr.) www.heitzler.com/sundhoffen/ (fr.)]
+
+== Referanza ==
+<references/>
+
+{{Navigationsleiste Gemeinden im Kanton Colmar-2}}
+
+{{Normdaten}}
+
+[[Kategorie:Ort (Owerelsàss)]]

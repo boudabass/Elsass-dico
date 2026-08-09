@@ -1,0 +1,63 @@
+{{DISPLAYTITLE:Boofze}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Boofzheim
+| nomalsacien = Boofze
+| alt moy = 155–161
+| km² = 11.94
+| image = Boofzheim 050.JPG
+| description = Boofze
+|}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Boofze''' ([[Französische Sprache|frz.]] ''Boofzheim'', [[Deutsche Sprache|dt.]] ''Boofzheim'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Bas-Rhin|Unterelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}.
+
+== Geogràfi ==
+Boofze lijt ìm Grosse Ried zwìsch em Rhin-Rhone-Kànàl un em [[Rhein|Rhin]] vis-à-vis vun [[Lahr/Schwarzwald|Lohr]].
+
+== Gschìcht ==
+Boofze ìsch zem erschte Mol gnannt worre ànne 1211.
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Boofze ìsch {{Maires|FR|{{#Property:P374}}}}. Boofze ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Bevelkerungsentwìcklung ==
+{| class="wikitable" width=400
+|- align=center class="hintergrundfarbe5"
+|align=left | '''Johr''' || '''1962''' || '''1968''' || '''1975''' || '''1982''' || '''1990''' || '''1999''' || '''2005'''
+|- align=center
+|align=left|'''Inwohner'''<ref>[[Institut National de la Statistique et des Études Économiques|INSEE]]: ''Population et logements par commune depuis le recensement de 1962 (1961 pour les Dom) à 1999''</ref> || 784 || 825 || 899 || 1052 || 1065 || 1030 || 1182
+|}
+
+== Dialekt ==
+Dr [[Elsässisch|elsassisch]] Dialekt vun Boofze ghert zem [[Oberrheinalemannisch|Owerrhinàlemànnisch]].
+
+== Boiwark ==
+* Kàtholische Kirich Saint-Étienne (1522)
+* Proteschtàntische Kirich (1854)
+
+<gallery>
+Datei:Boofzheim 052.JPG|Kàtholische Kirich
+Datei:Boofzheim 065.JPG|Proteschtàntische Kirich
+Datei:Boofzheim 057.JPG
+Datei:Boofzheim 059.JPG
+</gallery>
+
+== Pàrtnergmeind ==
+* [[Saint-Aubin-de-Cadelech]], Dordogne, Frànkrich (sit 1986)
+
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+{{Commonscat}}
+* [https://web.archive.org/web/20110828105142/http://www.boofzheim-fr.com/index.htm www.boofzheim-fr.com]
+
+== Referanza ==
+<references />
+
+{{Navigationsleiste Gemeinden im Kanton Benfeld}}
+
+{{Normdaten}}
+
+[[Kategorie:Ort (Unterelsass)]]

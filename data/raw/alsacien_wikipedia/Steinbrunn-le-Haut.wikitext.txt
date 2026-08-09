@@ -1,0 +1,56 @@
+{{DISPLAYTITLE:Oberstaibrunn}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Steinbrunn-le-Haut
+| nomalsacien = Oberstaibrunn
+| alt moy = 284
+| alt mini = 267
+| alt maxi = 404
+| km² = 9.21
+| image = Village de Steinbrunn.jpg
+| description = Oberstaibrunn vun Sìde har
+|}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Oberstaibrunn''' ([[Französische Sprache|frz.]] ''Steinbrunn-le-Haut'', [[Deutsche Sprache|dt.]] ''Obersteinbrunn'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Haut-Rhin|Owerelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}.
+
+== Geogràfi ==
+Oberstaibrunn lijt ìm [[Sundgau|Sundgöi]], rund zwelf Kilometer sìdlich vun [[Mülhausen|Milhüüse]].
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Oberstaibrunn ìsch {{Maires|FR|{{#Property:P374}}}}. Oberstaibrunn ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Bevelkerungsentwìcklung ==
+{| class="wikitable" width=400
+|- align=center class="hintergrundfarbe5"
+|align=left | '''Johr''' || '''1962''' || '''1968''' || '''1975''' || '''1982''' || '''1990''' || '''1999''' || '''2006'''
+|- align=center
+|align=left|'''Inwohner'''<ref>[[Institut National de la Statistique et des Études Économiques|INSEE]]: ''Population et logements par commune depuis le recensement de 1962 (1961 pour les Dom) à 1999''</ref> || 397 || 435 || 421 || 491 || 528 || 539 || 590
+|}
+
+== Dialekt ==
+Dr [[Elsässisch|elsassisch]] Dialekt vun Oberstaibrunn ghert zem [[Oberrheinalemannisch|Owerrhinàlemànnisch]].
+
+{|
+|[[Datei:Steinbrunn-le-Haut, Eglise Saint-Maurice.jpg|thumb|left|upright 0.7|St. Mauritius]]
+|[[Datei:Steinbrunn-le-Haut, Pierre tombale avec huit blasons.jpg|thumb|left|upright 0.6|Gràbblàtte mìt àcht Fàmilienwàppe uf em Frìdhof]]
+|}
+
+== wìchtiga Litt üss’m Dorf ==
+* dr kàthoolischa Bischoof [[Gérard Bannwarth]] (1908–1991) ìsch z’ Ìwwerschtaibrunn uff d’ Walt kumma.
+
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+* {{Commonscat|Steinbrunn-le-Haut}}
+* [https://web.archive.org/web/20110227030529/http://www.pays-sierentz.fr/Steinbrunn-le-Haut.html Oberstaibrunn] uf pays-sierentz.fr
+
+== Referanza ==
+<references/>
+
+{{Navigationsleiste Gemeinden im Kanton Brunstatt}}
+
+{{Normdaten}}
+
+[[Kategorie:Ort (Owerelsàss)]]

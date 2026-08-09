@@ -1,0 +1,63 @@
+{{DISPLAYTITLE:Aarze}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Artzenheim
+| nomalsacien = Aarze
+| alt moy = 182
+| alt mini = 177
+| alt maxi = 186
+| km² = 9.69
+}}
+'''Aarze''' ([[IPA]]: {{IPA|[ɑːrtsə]}}; [[Französische Sprache|frz.]] ''Artzenheim'') isch e [[Frankreich|frànzeesche]] Gmein ìm [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}} ({{Kanton|FR|{{#Property:P374}}}}) ìm [[Département Haut-Rhin|Owerelsàss]] (Haut-Rhin). S Dörfel isch Mitglid im interkommunale Zweckverband {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+Zwésche Arze un [[Grüssenheim|Grüsse]] sén Éwerràst vu rémischer Bsédlung gfunde wore. Zudàm gét's én Arze e mérowéngische Frédhof.
+
+S Wappe vu Arze zàigt e sélbrige Muschelschale uf rotem Héndergrund.
+
+== Geographi ==
+Aarze lijt in dr [[Oberrheinische Tiefebene|Rhinewene]] in dr Nächi vom Rhin, gegeniwer von dr Gmein [[Vogtsburg im Kaiserstuhl|Vogtsburg]] uf dr ditsche Sid, 17 km von [[Colmar|Colmer]] eweg.
+
+== Gschichte ==
+S'Dorf wird anno 670 in ere Schenkung vom Herzog Etichon an s'Kloschter Ebersminschter s'erscht Mol erwähnt. S'Kloschter het im Ort au Feudalrechte un d'Gerichtsbarkeit gha. 
+Aarzene isch im Hochmittelalter e Lehe von von dr Grafe von Wert worde, wo demit von dr Landgrafe vom Unterelsass belehnt worde sin. 1325 isch's Dorf no unter d'Herrschaft vom Bischtum Strossburg kumme, unter wellere es bis 1789 verbliwe isch.
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+Am Afang vom 2. Weltkrieg isch s'Dorf no im September 1939 evakuiert worre un d'Bevölkerung no noch dr französische Kapitulation im Herbscht 1940 zruckkehrt. Bi dr Befreiung von dr Nazi-Herrschaft im Friehjohr 1945 isch dr Ort no deilwiis zerstört worde.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vo Aarze isch {{Maires|FR|{{#Property:P374}}}}. D Gmeind ghört zum Gmeindsverband {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Bevölkerung ==
+S'Dorf het anno 2003 iwer 750 Inwohner gha, womit in dr Johre sit 1999, wo nimmi in dr Graphik unte dargstellt sin, e relativ starke Zuewax z'verzeichne gsin isch. Örtlichi Regionalsproch isch [[Elsässisch|Elsàsserditsch]].
+
+{| class="wikitable"
+|1962
+|1968
+|1975
+|1982
+|1990
+|1999
+|2006
+|-
+|423 || 448 || 485 || 557 || 607 || 618 || 755
+|}
+
+
+== Wértschaft un Énfrastruktur ==
+Arze ésch noch landwértschaftlig pràgt: es wàre haiptsàchlig Getràide aboie, Rénder un Soi zéchtet un Féschfang bedrébe.
+
+Es gét én Arze e Kéndergarte un e Primarschüele mét vier Klasse. Es gét kè Collège, d màiste Schieler géhn uf [[Marckolsheim|Markelse]].
+
+== Weblink ==
+* {{Commonscat|Artzenheim}}
+* [https://web.archive.org/web/20090920200020/http://www.quid.fr/communes.html?mode=detail Arze bi quid.fr]
+
+== Referanza ==
+<references/>
+
+{{Navigationsleiste Gemeinden im Kanton Ensisheim}}
+{{Übersetzungshinweis|de|Arzenheim|dütsch}}
+
+{{Normdaten}}
+
+[[Kategorie:Ort (Owerelsàss)]]

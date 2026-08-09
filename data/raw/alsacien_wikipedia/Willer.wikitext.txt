@@ -1,0 +1,53 @@
+{{DISPLAYTITLE:Willer}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Willer
+| nomalsacien = Willer
+| alt moy = 390
+| alt mini = 352
+| alt maxi = 438
+| km² = 6.21
+|}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Willer''' ([[Französische Sprache|frz.]] ''Willer'', [[Deutsche Sprache|dt.]] ''Weiler'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Haut-Rhin|Owerelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}.
+
+== Geogràfi ==
+D Nochbergmeinde vun Willer sìn [[Hausgauen|Hüsgaie]] un [[Hundsbach (Oberelsass)|Hundsbe]] ìm Norde, [[Franken (Oberelsass)|Frànke]] ìm Nordoschte, [[Steinsulz|Staiselz]] ìm Sìdoschte, [[Oberdorf (Oberelsass)|Oberdorf]] un [[Grenzingen|Granzìnge]] ìm Sìde, [[Henflingen|Haiflìnge]] ìm Sìdweschte un [[Bettendorf (Oberelsass)|Batterf]] ìm Weschte.
+
+== Gschìcht ==
+Willer ìsch zem erschte Mol gnannt worre ànne 1195 àls ''Wilare''.
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Willer ìsch {{Maires|FR|{{#Property:P374}}}}. Willer ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Bevelkerungsentwìcklung ==
+{| class="wikitable" width=420
+|- align=center class="hintergrundfarbe5"
+|align=left | '''Johr''' || '''1962''' || '''1968''' || '''1975''' || '''1982''' || '''1990''' || '''1999''' || '''2006'''
+|- align=center
+|align=left|'''Inwohner'''<ref>[[Institut National de la Statistique et des Études Économiques|INSEE]]: ''Population et logements par commune depuis le recensement de 1962 (1961 pour les Dom) à 1999''</ref> || 361 || 362 || 350 || 343 || 316 || 303 || 325
+|}
+
+== Dialekt ==
+Dr [[Elsässisch|elsassisch]] Dialekt vun Willer ghert zem [[Hochalemannisch|Hochàlemànnisch]].
+
+{|
+|[[Datei:Willer, Eglise Notre-Dame de l'Assomption.jpg|thumb|left|upright 0.85|Kirch Mariä Himmelfàhrt]]
+|}
+
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+{{commonscat|Willer}}
+* [http://www.annuaire-mairie.fr/mairie-willer.html Willer bi Communauté de communes de la Vallée de Hundsbach]
+
+== Referanza ==
+<references/>
+
+{{Navigationsleiste Gemeinden im Kanton Altkirch}}
+
+{{Normdaten}}
+
+[[Kategorie:Ort (Owerelsàss)]]

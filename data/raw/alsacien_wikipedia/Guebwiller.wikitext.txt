@@ -1,0 +1,67 @@
+{{DISPLAYTITLE:Gawiller}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Guebwiller
+| nomalsacien = Gawiller
+| alt moy = 292
+| alt mini = 254
+| alt maxi = 620
+| km² = 9.68
+| image = Guebwiller.jpg
+| description = Blick uf Gawiller
+|}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Gawiller''' ([[Französische Sprache|frz.]] ''Guebwiller'', [[Deutsche Sprache|dt.]] ''Gebweiler'') ìsch a [[Frankreich|frànzeescha]] Gmeind ìm [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}} ({{Kanton|FR|{{#Property:P374}}}}) (Haut-Rhin).
+
+== Gschìcht ==
+Gawiller ìsch zum erschta Mol gnannt wurra ànna 774 àls ''Gebunvillare''.
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vu Gawiller ìsch {{Maires|FR|{{#Property:P374}}}}. Gawiller gheert zum Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Bevälkerungsentwìcklung ==
+{|class="wikitable"
+!|'''Johr'''
+!|1793
+!|1856
+!|1905
+!|1962
+!|1968
+!|1975
+!|1982
+!|1990
+!|1999
+!|2006
+|- align=center
+| align=left | '''Iwohner''' || 3.005 || 8.971 || 13.313 || 10.568 || 10.840 || 11.072 || 10.689 || 10.942 || 11.525 || 11.609 
+|}
+
+== Dialekt ==
+Der [[Elsässisch|elsassisch]] Dialekt vu Gawiller gheert zum [[Oberrheinalemannisch|Owerrhinàlemànnisch]].
+
+<gallery widths="150" heights="150">
+Datei:Guebwiller-Notre-Dame.JPG|Klassizistischa Kìrich ''Notre-Dame''
+Datei:Guebwiller-Notre-Dame Inneres.jpg|Ìnnaànsìcht vu ''Notre-Dame''
+</gallery>
+<gallery widths="200" heights="150">
+Datei:Guebwiller-St Leger.JPG|Romànischa Kìrich ''Saint-Léger''
+Datei:2009 01 30-cimetière militaire Guebwiller2.jpg|Ditsch-frànzeescher Soldàtafrìdhof
+</gallery>
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblìnk ==
+* {{Commonscat|Guebwiller}}
+* {{Wikisource|Topographia Alsatiae:_Gebwil|Guebwiller in der Topographia Alsatiae (M. Merian)}}
+* [https://web.archive.org/web/20100818053810/http://www.ville-guebwiller.fr/ www.ville-guebwiller.fr]
+* [http://www.alsace-passion.com/deut/gebweiler-de-1.htm Gschìcht vu der Stàdt un meh]
+
+== Referanza ==
+<references/>
+
+{{Navigationsleiste Gemeinden im Kanton Gebweiler}}
+
+{{Normdaten}}
+
+[[Kategorie:Ort (Owerelsàss)]]

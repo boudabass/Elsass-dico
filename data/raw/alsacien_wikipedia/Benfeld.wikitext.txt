@@ -1,0 +1,62 @@
+{{DISPLAYTITLE:Banfald}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Benfeld
+| nomalsacien = Banfald
+| alt moy = 155–162
+| km² = 7.79
+| image = Benfeld.JPG
+| description = Banfald
+|}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Banfald''' ([[Französische Sprache|frz.]] ''Benfeld'', [[Deutsche Sprache|dt.]] ''Benfeld'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Bas-Rhin|Unterelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}.
+
+== Geogràfi ==
+Banfald lijt àn dr [[Ill (Elsass)|Ill]] ìm Nàtürschutzgebiet „[[Grand Ried]]“ uf re Heche zwìsche 155 un 162 m ìwer em Meeresspiejel.
+
+== Gschìcht ==
+Banfald ìsch zem erschte Mol gnannt worre ànne 763 àls ''Beneveldin''.
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Banfald ìsch {{Maires|FR|{{#Property:P374}}}}. Banfald ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Bevelkerungsentwìcklung ==
+{| class="wikitable" width=400
+|- align=center class="hintergrundfarbe5"
+|align=left | '''Johr''' || '''1962''' || '''1968''' || '''1975''' || '''1982''' || '''1990''' || '''1999''' || '''2007'''
+|- align=center
+|align=left|'''Inwohner'''<ref>[[Institut National de la Statistique et des Études Économiques|INSEE]]: ''Population et logements par commune depuis le recensement de 1962 (1961 pour les Dom) à 1999''</ref> || 3449 || 3441 || 3798 || 4451 || 4330 || 4878 || 5315
+|}
+
+== Dialekt ==
+Dr [[Elsässisch|elsassisch]] Dialekt vun Banfald ghert zem [[Oberrheinalemannisch|Owerrhinàlemànnisch]].
+
+== Böiwark ==
+* Rothüs (1531, Ühredurm vun 1619)
+* Kìrich Saint-Laurent (zem erschte Mol gnannt ànne 762, Chor [[Gotik|gotisch]], 1754 renoviert, Schìff 1840 umgeböit, [[Klassizismus|klàssizistisch]])
+* Bfàrrhüs (1734)
+
+<gallery>
+Datei:Benfeld StLaurent16.jpg|<center>Kìrich Saint-Laurent
+Datei:Benfeld 17.jpg|<center>Rothüs
+Datei:Benfeld 13.jpg|<center>Bfàrrhüs
+Datei:|<center>
+</gallery>
+
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+{{commonscat}}
+{{Wikisource|Topographia Alsatiae: Benfeldt|Benfeldt in der Topographia Alsatiae (Matthäus Merian)}}
+* http://www.benfeld.fr
+* [https://web.archive.org/web/20081118023333/http://www.cc-benfeld.fr/ZZZStagiaire/zSiteCommunes/affichage/index.php?commno=3 Banfald] uf www.cc-benfeld.fr
+
+== Referanza ==
+<references />
+
+{{Navigationsleiste Gemeinden im Kanton Benfeld}}
+{{Normdaten}}
+
+[[Kategorie:Ort (Unterelsass)]]

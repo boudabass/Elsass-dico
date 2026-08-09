@@ -1,0 +1,50 @@
+{{DISPLAYTITLE:Oderze}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Odratzheim
+| nomalsacien = Oderze
+| alt moy = 174–246
+| km² = 1.54
+| image = Eglise sainte marguerite Odratzheim.JPG
+| description = Oderze
+|}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Oderze''' ([[Französische Sprache|frz.]] ''Odratzheim'', [[Deutsche Sprache|dt.]] ''Odrazheim'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Bas-Rhin|Unterelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}.
+
+== Gschìcht ==
+Oderze ìsch zem erschte Mol gnannt worre ànne 884.
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Oderze ìsch {{Maires|FR|{{#Property:P374}}}}. Oderze ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Bevelkerungsentwìcklung ==
+{| class="wikitable" width=400
+|- align=center class="hintergrundfarbe5"
+|align=left | '''Johr''' || '''1962''' || '''1968''' || '''1975''' || '''1982''' || '''1990''' || '''1999''' || '''2005'''
+|- align=center
+|align=left|'''Inwohner'''<ref>[[Institut National de la Statistique et des Études Économiques|INSEE]]: ''Population et logements par commune depuis le recensement de 1962 (1961 pour les Dom) à 1999''</ref> || 247 || 284 || 291 || 334 || 347 || 399 || 445
+|}
+
+== Dialekt ==
+Dr [[Elsässisch|elsassisch]] Dialekt vun Oderze ghert zem [[Oberrheinalemannisch|Owerrhinàlemànnisch]].
+
+<gallery widths="200" heights="180" perrow="2">
+Datei:Chateau Odratzheim.JPG|Schloss Oderze
+Datei:Eglise sainte marguerite 2.JPG|Kirich Sainte Marguerite
+</gallery>
+
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+{{commonscat|Odratzheim}}
+* http://www.odratzheim.fr
+
+== Referanza ==
+<references/>
+
+{{Navigationsleiste Gemeinden im Kanton Molsheim}}
+{{Normdaten}}
+
+[[Kategorie:Ort (Unterelsass)]]

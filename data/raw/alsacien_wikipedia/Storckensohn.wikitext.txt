@@ -1,0 +1,55 @@
+{{DISPLAYTITLE:Storksoh}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Storckensohn
+| nomalsacien = Storksoh
+| alt moy = 490
+| alt mini = 470
+| alt maxi = 1220
+| km² = 5.10
+|}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Storksoh''' ([[Französische Sprache|frz.]] ''Storckensohn'', [[Deutsche Sprache|dt.]] ''Storkensohn'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Haut-Rhin|Owerelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}.
+
+== Gschìcht ==
+Storksoh ìsch zem erschte Mol gnannt worre ànne 1216 àls ''Storkisowe''.
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Storksoh ìsch {{Maires|FR|{{#Property:P374}}}}. Storksoh ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Bevelkerungsentwìcklung ==
+{|class="wikitable"
+!|Johr
+!|1962
+!|1968
+!|1975
+!|1982
+!|1990
+!|1999
+!|2007
+|-
+| '''Inwohner'''<ref>[[Institut National de la Statistique et des Études Économiques|INSEE]]: ''Population et logements par commune depuis le recensement de 1962 (1961 pour les Dom) à 1999''</ref> || 209 || 240 || 229 || 248 || 239 || 228 || 253
+|}
+
+== Dialekt ==
+Dr [[Elsässisch|elsassisch]] Dialekt vun Storksoh ghert zem [[Oberrheinalemannisch|Owerrhinàlemànnisch]].
+
+{|
+[[Datei:2008 11 23 Moulin de Storckensohn.JPG|thumb|Mìhl]]
+|}
+
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+* {{Commonscat|Storckensohn}}
+
+== Referanza ==
+<references/>
+
+{{Navigationsleiste Gemeinden im Kanton Sennheim}}
+
+{{Normdaten}}
+
+[[Kategorie:Ort (Owerelsàss)]]

@@ -1,0 +1,63 @@
+{{DISPLAYTITLE:Hüse}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Houssen
+| nomalsacien = Hüse
+| alt moy = 184
+| alt mini = 177
+| alt maxi = 190
+| km² = 6.7
+|}}
+'''Hüse''' ([[IPA]]: {{IPA|[hyːsə]}}; amtl. ''Houssen'', [[Deutsche Sprache|dt.]] ''Hausen'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Haut-Rhin|Owerelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}. Dr Ort ghört dr {{Kommunalverband|FR|{{#Property:P374}}}} a.
+
+== Geographi ==
+Hüse schliesst praktisch umittelbar nördlich ans [[Colmar|Colmerer]] Industrigebit a, wo deilwiis uf dr Hüsemer Gmarkung lijt un vu dem die eigetlich Ortschaft durch d’[[Autoroute A 35|Äutobahn A35]], wo dert in d'Nationalstross 83 mindet, un e kleine Baggersee trennt isch. Guet 1 km öschtlich vum Ort fliesst d’[[Ill (Elsass)|Ill]] und 2 km im Weschte d’[[Fecht (Fluss)|Fecht]].
+
+== Gschicht ==
+=== archäologischi Fund ===
+* Uf dr Gmarkung befindet sich e Grab us dr Bronzezit
+* E gallische Münzschatz isch gfunde worre
+* Funde üs dr reemische Zit
+* Friidhof us dr Merowingerzit
+
+=== gschriweni Gschicht ===
+Die erscht Erwähnung vu Hüse isch vu 1176 unterem Namme "Manus Husen" im Verzeichnis vu dr Güeter vu dr Abtei vu Pairis. Hüse isch ursprünglich eh Lehe vu dr kaiserliche Burg Pflixburg gsi. 1315 het no dr Kaiser Friedrich vu Habsburg d'Ortschaft an dr Heinrich vu Rappoltstein verpfändet. 1348 het no dr Kaiser Karl IV. dr Ort an d'Herre vu Landskron mit Inverständnis vum Heinrich vu Rappoltstein vergäwe, aber 1350 isch er no wiider an d'Rappoltsteiner zruckverpfändet worre, wo ihn no bis zue dr französische Revolution bsässe hän, ungachtet em Wechsel vu dr Oberherrschaft vum Ditsche Riich uf Frankriich im 17. Johrhundert. D'Rappoltsteiner hän in sällere Zit ihr Namme uf ''de Ribeaupierre'' franzeesisiert. D'Rappoltsteiner hän während ihrer Herrschaft no unterschidliche Adelsfamilie mit em Ort belehnt, vu Hüse, [[Andlau]] un [[Rust (Baden)|Ruescht]]. Dr Ort het kirchlich zum Bischtum Basel ghört.
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert. Hüse het bsunders im 2. Weltkrieg glitte, wil's am Nordzuegang vu Colmer lit. So isch dr Ort bi dr Befreiung vu Colmer im Jänner 1945 zue 60% zerstört worre.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Hüse ìsch {{Maires|FR|{{#Property:P374}}}}. Hüse ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Bevölkerung ==
+Hüse het anno 1962 knapp 1000 Inwohner gha, bis 2005 isch d'Bevölkerung no uf fascht 1800 Inwohner agstige. Örtlichi Regionalsproch isch [[Elsässisch|Elsàsserditsch]].
+
+{| class="wikitable" width=400
+|- align=center class="hintergrundfarbe5"
+|align=left | '''Johr''' || '''1962''' || '''1968''' || '''1975''' || '''1982''' || '''1990''' || '''1999''' || '''2007'''
+|- align=center
+|align=left|'''Inwohner'''<ref>[[Institut National de la Statistique et des Études Économiques|INSEE]]: ''Population et logements par commune depuis le recensement de 1962 (1961 pour les Dom) à 1999''</ref> || 987 || 1081 || 1094 || 1219 || 1348 || 1578 || 1652
+|}
+
+== Wirtschaft un Infrastruktur ==
+Sit 1990 isch e bedütendi wirtschaftliche Emtwicklung erfolgt mit dr Inrichtung vu dr Gwerbegebiete Buhfeld un Mariafeld mit Hotels, Schnellimbisse un Inkäufszentre (Hyper-Marché) un insgsamt fascht 1000 Arbeitsplätze.
+
+Uf dr Gmarkung lijt äu dr [[Flugplatz Colmar-Houssen|Flugplatz Colmer-Hüse]].
+
+Bim Baggersee lijt e Kiiswerk, usserdem git's e landwirtschaftlichi Gnosseschaft. Die landwirtschaftlich Produktion umfasst u.&nbsp;a. [[Wein|Räwe]], [[Getreide|Fruucht]], [[Rind|Rinder]] un [[Schwein|Säu]].
+
+== Sakralbaute ==
+* Kìrech St-Moritz vu 1868.
+* E Pietà in dr Kapelle vum Ortsdeil Rosekranz
+
+== Weblink ==
+* {{Commonscat|Houssen}}
+* [http://www.quid.fr/communes.html?id=658&mode=detail&style=fiche Hüse bi quid.fr]{{Toter Link|date=2017-09 |bot=InternetArchiveBot |url=http://www.quid.fr/communes.html?id=658&mode=detail&style=fiche}}
+* [https://web.archive.org/web/20070818215333/http://membres.lycos.fr/villedehoussen/ Uftritt vu dr Gmein bi Lycos.fr]
+
+== Referanza ==
+<references/>
+
+{{Navigationsleiste Gemeinden im Kanton Colmar-2}}
+
+{{Normdaten}}
+
+[[Kategorie:Ort (Owerelsàss)]]

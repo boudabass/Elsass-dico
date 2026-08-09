@@ -1,0 +1,51 @@
+{{DISPLAYTITLE:Gunderschoffe}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Gundershoffen
+| nomalsacien = Gunderschoffe
+| alt moy = 163–261
+| km² = 17.55
+| image = FR-67-Gundershoffen.JPG
+| description = Gunderschoffe
+|}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Gunderschoffe''' ([[Französische Sprache|frz.]] ''Gundershoffen'', [[Deutsche Sprache|dt.]] ''Gundershofen'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Bas-Rhin|Unterelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}.
+
+== Gschìcht ==
+Gunderschoffe ìsch zem erschte Mol gnannt worre ànne 1232 àls ''Guntershoven''.
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+Àm 1. September 1973 hàt sìch Gunderschoffe mìt Awerbàch (Eberbach-Wœrth) und Grisbàch zammegschlosse.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Gunderschoffe ìsch {{Maires|FR|{{#Property:P374}}}}. Gunderschoffe ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Bevelkerungsentwìcklung ==
+{| class="wikitable" width=400
+|- align=center class="hintergrundfarbe5"
+|align=left | '''Johr''' || '''1962''' || '''1968''' || '''1975''' || '''1982''' || '''1990''' || '''1999''' || '''2007'''
+|- align=center
+|align=left|'''Inwohner'''<ref>[[Institut National de la Statistique et des Études Économiques|INSEE]]: ''Population et logements par commune depuis le recensement de 1962 (1961 pour les Dom) à 1999''</ref> || 2253 || 2502 || 2738 || 3261 || 3377 || 3490 || 3458
+|}
+
+== Dialekt ==
+Dr [[Elsässisch|elsassisch]] Dialekt vun Gunderschoffe ghert zem [[Oberrheinalemannisch|Owerrhinàlemànnisch]].
+
+{|
+|[[Datei:Gundershoffen1898.jpg|thumb|265px|Gunderschoffe (1898)]]
+|}
+
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+{{Commonscat|Gundershoffen}}
+* [http://reichshoffen.free.fr/Comple/Gundershoffen.html Gunderschoffe]
+
+== Referanza ==
+<references />
+
+{{Navigationsleiste Gemeinden im Kanton Reichshoffen}}
+{{Normdaten}}
+
+[[Kategorie:Ort (Unterelsass)]]

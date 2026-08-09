@@ -1,0 +1,62 @@
+{{DISPLAYTITLE:Sìjelse}}
+{{Infobox Ortsteil einer Gemeinde in Frankreich
+|nomhameau=Sìjelse
+|commune=[[Kaysersberg Vignoble]]
+|armoiries=Blason de la ville de Sigolsheim (68).svg
+|région=[[Grand Est]]
+|département=[[Département Haut-Rhin|Owerelsàss]]
+|arrondissement=[[Arrondissement Colmar-Ribeauvillé|Colmer-Ràppschwihr]]
+|datefusion=1. Janner 2016
+|status=cd
+|insee=68310
+|cp=68240
+|longitude=07/18/04/O
+|latitude=48/08/04/N
+|alt mini=188
+|alt maxi=401
+|km²=5.80
+|image=Sigolsheim 011.JPG
+|image-desc=Kirich St. Peter un Paul
+}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Sìjelse''' ([[Französische Sprache|frz.]] ''Sigolsheim'', [[Deutsche Sprache|dt.]] ''Sigolsheim'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Haut-Rhin|Owerelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]) gsin.
+
+== Gschìcht ==
+Sìjelse ìsch zem erschte Mol gnannt worre ànne 680 àls ''villa Sigoltesein''. 
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+Zem 1. Janner 2016 isch d Gmeind mit [[Kaysersberg|Kaiserschbàrig]] un [[Kientzheim|Kienze]] zäe dr neie Gmeind [[Kaysersberg Vignoble]] füsuiniert wora.
+
+== Verwàltung ==
+Dr letscht Maire vun Sìjelse ìsch dr Thierry Speitel-Gotz gsin.
+
+== Bevelkerungsentwìcklung ==
+{| class = "wikitable" width = 400
+|- align = center class = "hintergrundfarbe5"
+| align = left | '''Johr''' || '''1904''' || '''1962''' || '''1968''' || '''1975''' || '''1982''' || '''1990''' || '''1999''' || '''2007'''
+|- align = center
+| align = left|'''Inwohner'''<ref>[[Institut National de la Statistique et des Études Économiques|INSEE]]: ''Population et logements par commune depuis le recensement de 1962 (1961 pour les Dom) à 1999''</ref> || 927 || 887 || 900 || 946 || 946 || 931 || 986 || 1201
+|}
+
+== Dialekt ==
+Dr [[Elsässisch|elsassisch]] Dialekt vun Sìjelse ghert zem [[Oberrheinalemannisch|Owerrhinàlemànnisch]].
+
+{|
+| [[Datei:Cimetiere militaire Sigolsheim VTdJ.JPG|thumb|left|Soldàtefrìdhof]]
+|}
+
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+* {{Commonscat}}
+* [https://web.archive.org/web/20100511100246/http://www.alsace-route-des-vins.com/NewVersion/index.cfm/fuseaction/Villages.ShowVillage/ID/53/Language/De.cfm Sìjelse] àn dr Elsasser Winstroß
+
+== Referanza ==
+<references />
+
+{{Normdaten}}
+
+[[Kategorie:Ort (Owerelsàss)]]
+[[Kategorie:Kaiserschbarig Vignoble]]

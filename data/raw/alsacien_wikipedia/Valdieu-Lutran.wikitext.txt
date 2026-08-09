@@ -1,0 +1,66 @@
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Valdieu-Lutran
+| nomalsacien = Grüene-Lüttre
+| alt moy = 355
+| alt mini = 321
+| alt maxi = 386
+| km² = 5.17
+| image = Valdieu-Lutran, Mairie et Foyer communal.jpg
+| description = <center>Mairie
+|}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Valdieu-Lutran''' ([[Deutsche Sprache|dt.]] ''Gottesthal-Luttern'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Haut-Rhin|Owerelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}.
+
+== Geogràfi ==
+Valdieu-Lutran lijt ìn dr [[Burgundische Pforte|Burgundische Pfort]] zwìsche [[Altkirch|Àltkìrech]] un [[Belfort]]. Ìwer dr Bànn fiert dr [[Rhein-Rhône-Kanal|Rhin-Rhône-Kànàl]]. Nochbergmeine vun Valdieu-Lutran sìn [[Elbach|Albàch]] ìm Nordoschte, [[Retzweiler|Ratzwìller]] ìm Oschte, [[Romagny (Haut-Rhin)|Romagny]] ìm Sìde, [[Magny (Haut-Rhin)|Magny]] ìm Sìdweschte, [[Montreux-Vieux]] ìm Weschte un [[Chavannes-sur-l'Étang]] ìm Nordweschte.
+
+== Gschìcht ==
+Valdieu-Lutran ìsch àm 1. Jänner 1973 entstànde durich d Fusion vun dr friejere Gmeine Valdieu (els. ''Grüene'' oder ''Grien'', [[Deutsche Sprache|dt.]] ''Gottestal'') un Lutran (els. ''Lüttre'', [[Deutsche Sprache|dt.]] ''Lüttern''). 
+
+Valdieu ìsch zem erschte Mol gnannt worre ànne 1320 àls ''abb. Vallis Dei'' (1394 ''Gruen'', 1421 ''Grůn'', 1562 ''Grun bey Getzthal'', 1576 ''Gotstal'', 1580 ''Vauldieu'') Lutran ànne 1249 àls ''Ludra'', 15. Jh. ''Luttram'', 1418 ''Lutran'', 1458 ''Lutter'').
+
+Vun 1871 bìs 1918 han d Derfer zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Valdieu-Lutran ìsch {{Maires|FR|{{#Property:P374}}}}. Valdieu-Lutran ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Bevelkerungsentwìcklung ==
+{| class="wikitable"
+!class="hintergrundfarbe9"|Johr
+!class="hintergrundfarbe9"|1962
+!class="hintergrundfarbe9"|1968
+!class="hintergrundfarbe9"|1975
+!class="hintergrundfarbe9"|1982
+!class="hintergrundfarbe9"|1990
+!class="hintergrundfarbe9"|1999
+!class="hintergrundfarbe9"|2006
+|-
+| Inwohner || 228 || 237 || 245 || 259 || 274 || 305 || 349
+|} 
+
+== Dialekt ==
+Dr [[Langues d'oïl|romànisch]] Dialekt vun Valdieu-Lutran ghert zem [[Franc-comtois]].
+
+== Böiwark ==
+* Kìrich St. Josef
+
+<gallery widths="200" heights="180">
+Datei:Valdieu-Lutran, Eglise Saint-Joseph.jpg|<center>Kìrich St. Josef
+Datei:Canal Rhin-Rhone Valdieu 2.JPG|<center>Rhin-Rhône-Kànàl
+</gallery>
+
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+{{commonscat}}
+* [http://www.cc-porte-alsace.fr/territoire-intercommunal/valdieu-lutran.htm Valdieu-Lutran] uf cc-porte-alsace.fr
+
+== Referanza ==
+<references/>
+
+{{Navigationsleiste Gemeinden im Kanton Dannemarie}}
+
+{{Normdaten}}
+
+[[Kategorie:Ort (Owerelsàss)]]

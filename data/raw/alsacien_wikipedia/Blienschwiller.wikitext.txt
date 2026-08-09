@@ -1,0 +1,53 @@
+{{DISPLAYTITLE:Bleschwiller}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Blienschwiller
+| nomalsacien = Bleschwiller
+| alt moy = 189–411
+| km² = 3.07
+| image = 08 Blienschwiller.jpg
+| description = Bleschwiller
+|}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Bleschwiller''' ([[Französische Sprache|frz.]] ''Blienschwiller'', [[Deutsche Sprache|dt.]] ''Blienschweiler'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Bas-Rhin|Unterelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}.
+
+== Gschìcht ==
+Bleschwiller ìsch zem erschte Mol gnannt worre ànne 823.
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Bleschwiller ìsch {{Maires|FR|{{#Property:P374}}}}. Bleschwiller ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Bevelkerungsentwìcklung ==
+{| class="wikitable" width=400
+|- align=center class="hintergrundfarbe5"
+|align=left | '''Johr''' || '''1962''' || '''1968''' || '''1975''' || '''1982''' || '''1990''' || '''1999''' || '''2009'''
+|- align=center
+|align=left|'''Inwohner'''<ref>[[Institut National de la Statistique et des Études Économiques|INSEE]]: ''Population et logements par commune depuis le recensement de 1962 (1961 pour les Dom) à 1999''</ref> || 344 || 365 || 350 || 304 || 292 || 288 || 330
+|}
+
+== Dialekt ==
+Dr [[Elsässisch|elsassisch]] Dialekt vun Bleschwiller ghert zem [[Oberrheinalemannisch|Owerrhinàlemànnisch]].
+
+<gallery widths="200" heights="180" perrow="2">
+Datei:Blienschwiller 028.JPG|Mairie
+Datei:Blienschwiller_029.JPG|Hüs üs em 17. Jh.
+</gallery>
+
+== Lit ==
+* [[Jean-Christophe Meyer]] (* 1978), Journalischt un Dichter
+
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+{{commonscat|Blienschwiller|Bleschwiller}}
+*http://www.blienschwiller.fr
+
+== Referanza ==
+<references />
+
+{{Navigationsleiste Gemeinden im Kanton Obernai}}
+{{Normdaten}}
+
+[[Kategorie:Ort (Unterelsass)]]

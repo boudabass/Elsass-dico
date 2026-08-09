@@ -1,0 +1,50 @@
+{{DISPLAYTITLE:Lüterburi}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Lauterbourg
+| nomalsacien = Lüterburi
+| alt moy = 104–129
+| km² = 11.25
+| image = LauterburgKirche.jpg
+| description = D Kirich vun Lüterburi
+|}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Lüterburi''' ([[Südfränkische Dialekte|sìdfrankisch]] ''Laudeburich'', [[Französische Sprache|frz.]] ''Lauterbourg'', [[Deutsche Sprache|dt.]] ''Lauterburg'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Bas-Rhin|Unterelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}. 
+
+== Geogràfi ==
+Lüterburi lijt án dr Granz zwìschem [[Elsass|Elsàss]] und dr [[Pfalz (Region)|Pfàlz]]. Uf dr àndere Sitte vun dr Lüter lijt dr [[Deutschland|ditsch]] Ort Neulauterburg, wie züe dr pfalzische Gmein Bärg ghert. àui d Granz züe [[Baden-Württemberg|Bàde-Wirttebari]] ìsch gànz ìn dr Neh àm [[Rhein|Rhin]] und uf [[Karlsruhe|Karlsrüe]] ìsch es àui nì witt.
+
+== Gschìcht ==
+Lüterburi ìsch zem erschte Mol gnannt worre ànne 1130.
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Lüterburi ìsch {{Maires|FR|{{#Property:P374}}}}. Lüterburi ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Bevelkerungsentwìcklung ==
+{| class="wikitable" width=400
+|- align=center class="hintergrundfarbe5"
+|align=left | '''Johr''' || '''1962''' || '''1968''' || '''1975''' || '''1982''' || '''1990''' || '''1999''' || '''2007'''
+|- align=center
+|align=left|'''Inwohner'''<ref>[[Institut National de la Statistique et des Études Économiques|INSEE]]: ''Population et logements par commune depuis le recensement de 1962 (1961 pour les Dom) à 1999''</ref> || 1795 || 2261 || 2442 || 2467 || 2372 || 2269 || 2216
+|}
+
+== Dialekt ==
+Dr [[Südfränkische Dialekte|sìdfrankisch]] Dialekt vun Lüterburi ghert zem [[Ostfränkisch|Oschtfrankisch]] (Nordowerditsch).
+
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+{{commonscat|Lauterbourg|Lüterburi}}
+* http://www.mairie-lauterbourg.fr
+* [http://ka.stadtwiki.net/Lauterburg Lüterburi ìm Kàrlsrüeher Stàdtwiki]
+
+== Referanza ==
+<references />
+
+{{Navigationsleiste Gemeinden im Kanton Weissenburg}}
+
+{{Normdaten}}
+
+[[Kategorie:Ort (Unterelsass)]]

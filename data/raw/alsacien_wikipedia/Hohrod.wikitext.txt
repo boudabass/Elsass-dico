@@ -1,0 +1,49 @@
+{{DISPLAYTITLE:Hohrod}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Hohrod
+| nomalsacien = Hohrod
+| alt moy = 481
+| alt mini = 391
+| alt maxi = 1040
+| km² = 5.49
+|}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Hohrod''' ([[Französische Sprache|frz.]] ''Hohrod'', [[Deutsche Sprache|dt.]] ''Hohrod'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Haut-Rhin|Owerelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}.
+
+== Gschìcht ==
+Hohrod ìsch zem erschte Mol gnannt worre ànne 1339 àls ''Hohenroden''. 
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert. Ìm [[Erster Weltkrieg|Erschte Waltkriej]] hàt s z Hohrod schwari Kampf gan. S gìt hìt a ditscher Soldàtefrìdhof.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Hohrod ìsch {{Maires|FR|{{#Property:P374}}}}. Hohrod ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Bevelkerungsentwìcklung ==
+{| class="wikitable" width=400
+|- align=center class="hintergrundfarbe5"
+|align=left | '''Johr''' || '''1962''' || '''1968''' || '''1975''' || '''1982''' || '''1990''' || '''1999''' || '''2007'''
+|- align=center
+|align=left|'''Inwohner'''<ref>[[Institut National de la Statistique et des Études Économiques|INSEE]]: ''Population et logements par commune depuis le recensement de 1962 (1961 pour les Dom) à 1999''</ref> || 282 || 284 || 305 || 318 || 293 || 320 || 343
+|}
+
+== Dialekt ==
+Dr [[Elsässisch|elsassisch]] Dialekt vun Hohrod ghert zem [[Oberrheinalemannisch|Owerrhinàlemànnisch]].
+
+{|
+|[[Datei:Cimetière allemand au Linge.jpg|thumb|left|Ditscher Soldàtefrìdhof.]]
+|}
+
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+* {{Commonscat|Hohrod}}
+
+== Referanza ==
+<references/>
+
+{{Navigationsleiste Gemeinden im Kanton Wintzenheim}}
+
+{{Normdaten}}
+
+[[Kategorie:Ort (Owerelsàss)]]

@@ -1,0 +1,61 @@
+{{DISPLAYTITLE:Haimerschdorf}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Heimersdorf
+| nomalsacien = Haimerschdorf
+| alt moy = 358
+| alt mini = 335
+| alt maxi = 416
+| km² = 7.59
+| image = Heimersdorf, Mairie.jpg
+| description = Mairie
+|}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Haimerschdorf''' ([[Franc-comtois|Patois]] ''Héméricoie'', [[Französische Sprache|frz.]] ''Heimersdorf'', [[Deutsche Sprache|dt.]] ''Heimersdorf'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Haut-Rhin|Owerelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}.
+
+== Geogràfi ==
+Haimerschdorf lijt ìm [[Sundgau|Sundgöi]], àcht Kilometer sìdlich vun [[Altkirch|Àltkìrech]]. Nochbergmeine vun Haimerschdorf sìn [[Hirsingen|Hìrsinge]] ìm Norde, [[Rüderbach|Rüederbi]] ìm Oschte, [[Bisel|Bìsel]] ìm Sìde un [[Largizen|Làrgìtze]] ìm Sìdweschte.
+
+== Gschìcht ==
+Haimerschdorf ìsch zem erschte Mol gnannt worre ànne 708 àls ''Heimersdorf''.
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Haimerschdorf ìsch {{Maires|FR|{{#Property:P374}}}}. Haimerschdorf ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Bevelkerungsentwìcklung ==
+{|class="wikitable"
+!|Johr
+!|1962
+!|1968
+!|1975
+!|1982
+!|1990
+!|1999
+!|2007
+|-
+| Inwohner || 431 || 463 || 463 || 477 || 573 || 627 || 652
+|}
+
+== Dialekt ==
+Dr [[Elsässisch|elsassisch]] Dialekt vun Haimerschdorf ghert zem [[Oberrheinalemannisch|Owerrhinàlemànnisch]].
+
+{|
+|[[Datei:Heimersdorf, Eglise Saint-Pierre, Saint-Paul 1.jpg|thumb|left|upright 1.3|St. Peter und Paul, Sìdsitte]]
+|[[Datei:Heimersdorf, Eglise Saint-Pierre, Saint-Paul 2.jpg|thumb|left|upright 0.7|St. Peter und Paul, Weschtsitte]]
+|}
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+{{Commonscat|Heimersdorf|Haimerschdorf}}
+* [http://www.cc-canton-hirsingue.com/les-communes/heimersdorf/ Haimerschdorf]{{Toter Link|date=2017-09 |bot=InternetArchiveBot |url=http://www.cc-canton-hirsingue.com/les-communes/heimersdorf/}} bi dr CC Canton Hirsingue
+
+== Referanza ==
+<references/>
+
+{{Navigationsleiste Gemeinden im Kanton Altkirch}}
+
+{{Normdaten}}
+
+[[Kategorie:Ort (Owerelsàss)]]

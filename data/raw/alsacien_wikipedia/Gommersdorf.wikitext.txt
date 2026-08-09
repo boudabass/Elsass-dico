@@ -1,0 +1,58 @@
+{{DISPLAYTITLE:Gummerschdorf}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Gommersdorf
+| nomalsacien = Gummerschdorf
+| alt moy = 305
+| alt mini = 287
+| alt maxi = 326
+| km² = 4.15
+| image = Gommersdorf, Mairie-école.jpg
+| description = Mairie un Schüel
+|}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Gummerschdorf''' ([[Französische Sprache|frz.]] ''Gommersdorf'', [[Deutsche Sprache|dt.]] ''Gommersdorf'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Haut-Rhin|Owerelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}.
+
+== Geogràfi ==
+Gummerschdorf lijt ìm [[Sundgau|Sundgöi]], zeh Kilometer weschtlich vun [[Altkirch|Àltkìrech]]. Dur dr Bànn verlöift dr [[Rhein-Rhône-Kanal|Rhin-Rhône-Kànàl]]. Nochbergmeine vun Gummerschdorf sìn [[Bütweiler|Büethwiller]] ìm Norde, [[Hagenbach (Oberelsass)|Hàgebàch]] ìm Oschte, [[Ballersdorf|Ballerschdorf]] ìm Sìdoschte [[Dammerkirch|Dàmmerkìlch]] ìm Sìde un [[Wolfersdorf|Wolferschdorf]] ìm Weschte.
+
+== Gschìcht ==
+Gummerschdorf ìsch zem erschte Mol gnannt worre ànne 1188 àls ''Gumirsdof'' (1317 ''Gummersdorf'').
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Gummerschdorf ìsch {{Maires|FR|{{#Property:P374}}}}. Gummerschdorf ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Bevelkerungsentwìcklung ==
+{| class="wikitable" width=400
+|- align=center class="hintergrundfarbe5"
+|align=left | '''Johr''' || '''1962''' || '''1968''' || '''1975''' || '''1982''' || '''1990''' || '''1999''' || '''2007'''
+|- align=center
+|align=left|'''Inwohner'''<ref>[[Institut National de la Statistique et des Études Économiques|INSEE]]: ''Population et logements par commune depuis le recensement de 1962 (1961 pour les Dom) à 1999''</ref> || 271 || 268 || 348 || 344 || 365 || 375 || 366
+|}
+
+== Dialekt ==
+Dr [[Elsässisch|elsassisch]] Dialekt vun Gummerschdorf ghert zem [[Oberrheinalemannisch|Owerrhinàlemànnisch]].
+
+== Böiwark ==
+* Kàpall Sainte-Marguerite (1772)
+
+<gallery widths="200" heights="160" perrow="2">
+Datei:Gommersdorf, Chapelle Sainte-Marguerite.jpg|Kàpall Sainte-Marguerite, Nordsitt
+Datei:Gommersdorf, Panneau de la chapelle Sainte-Marguerite.jpg|Kàpall Sainte-Marguerite, Dàfele
+</gallery>
+
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+{{commonscat}}
+
+== Referanza ==
+<references/>
+
+{{Navigationsleiste Gemeinden im Kanton Masmünster}}
+
+{{Normdaten}}
+
+[[Kategorie:Ort (Owerelsàss)]]

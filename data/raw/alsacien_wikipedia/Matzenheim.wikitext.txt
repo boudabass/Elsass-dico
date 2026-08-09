@@ -1,0 +1,69 @@
+{{DISPLAYTITLE:Màtzene}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Matzenheim
+| nomalsacien = Màtzene
+| alt moy = 153–159
+| km² = 7.14
+| image = Matzenheim, Mairie.jpg
+| description = Mairie
+|}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Màtzene''' ([[Französische Sprache|frz.]] ''Matzenheim'', [[Deutsche Sprache|dt.]] ''Matzenheim'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Bas-Rhin|Unterelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}.
+
+== Geogràfi ==
+Màthene lijt àn dr D 1083 weschtlich vun dr [[Ill (Elsass)|Ill]].
+
+== Gschìcht ==
+Màtzene ìsch zem erschte Mol gnannt worre ànne 734.
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Màtzene ìsch {{Maires|FR|{{#Property:P374}}}}. Màtzene ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Bevelkerungsentwìcklung ==
+{| align="center" rules="all" cellspacing="0" cellpadding="4" style="border: 1px solid #999; border-right: 2px solid #999; border-bottom:2px solid #999; background: #f3fff3"
+|+ style="font-weight: bold; font-size: 1.1em; margin-bottom: 0.5em"|Entwicklung vun de Bevelkerung<ref>[http://cassini.ehess.fr/cassini/fr/html/fiche.php?select_resultat=21589 cassini.ehess.fr]</ref> 
+|-style="background: #ddffdd"
+! 1793 !! 1800 !! 1806 !! 1821 !! 1831 !! 1836 !! 1841 !! 1846 !! 1851 !! 1856 !! 1861 !! 1866 
+|-
+| 608 || 512 || 636 || 703 || 758 || 759 || 775 || 701 || 725 || 727 || 720 || 705 
+|-style="background: #ddffdd"
+! 1871 !! 1875 !! 1880 !! 1885 !! 1890 !! 1895 !! 1900 !! 1905 !! 1910 !! 1921 !! 1926 !! 1931 
+|-
+| 767 || 730 || 879 || 952 || 978 || 964 || 968 || 964 || 948 || 971 || 984 || 994 
+|-style="background: #ddffdd"
+! 1936 !! 1946 !! 1954 !! 1962 !! 1968 !! 1975 !! 1982 !! 1990 !! 1999 !! 2006 !! 2012 !!	 
+|-
+| 965 || 902 || 1019 || 675 || 667 || 665 || 1027 || 1130 || 1133 || 1377 || 1416 || 
+|-
+|}
+
+== Dialekt ==
+Dr [[Elsässisch|elsassisch]] Dialekt vun Màtzene ghert zem [[Oberrheinalemannisch|Owerrhinàlemànnisch]].
+
+== Boiwark ==
+* Kìrich St. Sigismund
+* ''Château des comtes de Werde'', Schloss üs em 7. Jh.
+* ''Collège Saint-Joseph'' (19. Jh.)
+* ''Restaurant a la couronne''
+<gallery heights="160" perrow="1">
+Datei:Matzenheim ,Église Saint-Sigismond.jpg|<center>Kìrich St. Sigismund
+</gallery>
+
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+{{Commonscat}}
+{{Wikisource|Topographia Alsatiae: Matzenheim|Matzenheim in der Topographia Alsatiae (Matthäus Merian)}}
+* http://www.matzenheim.fr
+* [https://web.archive.org/web/20130905165942/http://cc-benfeld.fr/commune/matzenheim.htm Màtzene] uf www.cc-benfeld.fr
+
+== Referanza ==
+<references />
+
+{{Navigationsleiste Gemeinden im Kanton Benfeld}}
+{{Normdaten}}
+
+[[Kategorie:Ort (Unterelsass)]]

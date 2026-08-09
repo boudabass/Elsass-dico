@@ -1,0 +1,70 @@
+{{DISPLAYTITLE:Grüese}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Grussenheim
+| nomalsacien = Grüese
+| alt moy = 180
+| alt mini = 176
+| alt maxi = 185
+| km² = 7.53
+}}
+'''Grüese''' ([[Französische Sprache|frz.]] ''Grussenheim, [[Deutsche Sprache|dt.]] Grüssenheim'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Haut-Rhin|Owerelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}. S Dorf isch Mitglid im interkommunale Zweckverband {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+==Geographi==
+S'Dorf lijt in dr [[Oberrheinische Tiefebene|Owerrhineweni]], 12 km nordöschtlich vun [[Colmar|Colmer]] un 4 km südweschtlich vun [[Marckolsheim|Markelse]] an dr Nordgrenze vum Département [[Département Haut-Rhin|Haut-Rhin (Owerelsass)]] zwische [[Jebsheim|Jebse]] im Süde un [[Elsenheim|Else]] im Norde. Es git, siht mer vu landwirtschaftliche Wäge ab, kei Oscht-Wescht-Strosseverbindung.
+
+D'Umgäwung wird vorwigend fir dr [[Acker]]bäu gnutzt. Im Weschte vum Orts fliesst die ''Blind Rau'', 2 km öschtlich verlauft mit em ''Heidesträssel'' e alti [[Römerstraße|Reemerstross]].
+
+== Gschicht ==
+Us dr [[Eisenzeit|Iisezit]] sin mehreri Grabhüegel bekannt. Zwische Grüese un [[Artzenheim|Aarze]] isch uf dr weschtliche hittige Grüesemer Gmarkung e beditendi Station vu d hit Heidesträssel geheissene alte [[Römerstraße|Reemerstross]] gleje. Us dr Merowingerzit isch e Fridhof bekannt.
+
+E erschti urkundlichi Erwähnung datiert vu anno 726 als ''Grosinhaim''. S'Dorf isch um 770 unter d'Herrschaft vun dr Abtei vu Ebersmünschter kumme. Vu 1361 bis zur dr franzeesche Revolution anno 1789 isch dr Ort no unter dr Hoheit vu dr Familie vun Rathsamhausen gsin.
+
+Im 17. Johrhundert isch debi d'Owerhoheit vum [[Heiliges Römisches Reich|reemisch-ditsche Kaiserriich]] uf s'[[Frankreich|Keenigriich Frankriich]] iwergange.
+
+1871 isch dr Ort no wiider ditsch worde. Um 1900 isch e guets Drittel vun dr Iwohnerschaft vu [[Judentum|jüdischem]] Glauwe gsin.
+
+1919 isch Grüese no wiider an Frankriich zruckkumme. Noch dr ditsche Invasion in Frankriich 1940 sin d'Jude am Ort deportiert un vili deno äu ermordet worre. D'Befreiung vun dr Naziherrschaft isch am 29. Jänner 1945 erfolgt.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Grüese ìsch {{Maires|FR|{{#Property:P374}}}}. Grüese ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+===Wappe===
+S'Grüesemer Wappe leitet sich vu eme Gmeisiigel ab, wo scho 1666 s'erscht mol belegt gsin isch.
+
+==Bevölkerung==
+S'Dorf het anno 1999 768 Inwohner gha. Meh wie 80% vun dr erwerbstätige Bevölkerung schafft usserhalb vun dr Gmeind. Örtliche Regionalsproch isch [[Elsässisch|Elsàsserditsch]].
+
+{| class="wikitable" width=400
+|- align=center class="hintergrundfarbe5"
+|align=left | '''Johr''' || '''1962''' || '''1968''' || '''1975''' || '''1982''' || '''1990''' || '''1999''' || '''2007'''
+|- align=center
+|align=left|'''Inwohner'''<ref>[[Institut National de la Statistique et des Études Économiques|INSEE]]: ''Population et logements par commune depuis le recensement de 1962 (1961 pour les Dom) à 1999''</ref> || 591 || 618 || 638 || 628 || 714 || 768 || 847
+|}
+
+==Kultur- un Vereinsläwe==
+Dr ''Hafalamarik'' (''Hàfelemàrik'', frz. ''Le Marché aux pots'') wird sit 1850 alljohr am 1. Mai durchgfüehrt
+
+Grüese het verschideni Dorfvereine, drunter äu e [[Fußball|Fuessballclub]]. Uf dr Blinde Rau ka mer Kanu fahre, s'git dert äu e Kanuverleih.
+
+==Sähenswürdigkeite==
+Barockkìrech ussem 18. Johrhundert
+
+<gallery widths="200" heights="180" perrow="2">
+Datei:Grussenheim, Eglise de l'Exaltation de la Sainte-Croix.jpg|Kìrech
+</gallery>
+
+== Weblink ==
+* {{Commonscat|Grussenheim}}
+* [http://www.grussenheim.fr Internetuftritt vun dr Gmei]
+* [https://web.archive.org/web/20090721114459/http://www.quid.fr/communes.html?mode=detail Dateblatt zue Grüese bi quid.fr]
+* [https://web.archive.org/web/20080107083151/http://www.cc-riedbrun.fr/ Grüese uf dr Site vum Zweckverband Brüns Ried]
+
+== Referanza ==
+<references/>
+
+{{Navigationsleiste Gemeinden im Kanton Colmar-2}}
+
+{{DEFAULTSORT:Grussenheim}}
+{{Normdaten}}
+
+[[Kategorie:Ort (Owerelsàss)]]

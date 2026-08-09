@@ -1,0 +1,53 @@
+{{DISPLAYTITLE:Blohze}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Blotzheim
+| nomalsacien = Blohze
+| alt moy = 270
+| alt mini = 242
+| alt maxi = 323
+| km² = 14.60
+| image = Blotzheim, Mairie.jpg
+| description = Mairie
+|}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Blohze''' ([[Französische Sprache|frz.]] ''Blotzheim'', [[Deutsche Sprache|dt.]] ''Blotzheim'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Haut-Rhin|Owerelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}.
+
+== Gschìcht ==
+Blohze ìsch zem erschte Mol gnannt worre ànne 728 àls ''Flobestesheim''.
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Blohze ìsch {{Maires|FR|{{#Property:P374}}}}. Blohze ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Bevelkerungsentwìcklung ==
+{| class="wikitable" width=400
+|- align=center class="hintergrundfarbe5"
+|align=left | '''Johr''' || '''1962''' || '''1968''' || '''1975''' || '''1982''' || '''1990''' || '''1999''' || '''2007'''
+|- align=center
+|align=left|'''Inwohner'''<ref>[[Institut National de la Statistique et des Études Économiques|INSEE]]: ''Population et logements par commune depuis le recensement de 1962 (1961 pour les Dom) à 1999''</ref> || 1951 || 2110 || 2353 || 2340 || 3090 || 3564 || 3785
+|}
+
+== Dialekt ==
+Dr [[Elsässisch|elsassisch]] Dialekt vun Blohze ghert zem [[Hochalemannisch|Hochàlemànnisch]].
+
+{|
+|[[Datei:Blotzheim, Chapelle Notre-Dame du Chêne.jpg|thumb|left|upright 0.7|Notre-Dame du Chêne]]
+|[[Datei:Blotzheim, Hôtel de ville.jpg|thumb|left|upright 1.12|Àlti Mairie]]
+|}
+
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+* {{Commonscat|Blotzheim}}
+* [http://www.blotzheim.fr/ www.blotzheim.fr]
+* [https://web.archive.org/web/20111221015426/http://www.cc-3frontieres.fr/blotzheim.html Blohze] bi dr CC3F
+
+== Referanza ==
+<references/>
+
+{{Navigationsleiste Gemeinden im Kanton Saint-Louis}}
+{{Normdaten}}
+
+[[Kategorie:Ort (Owerelsàss)]]

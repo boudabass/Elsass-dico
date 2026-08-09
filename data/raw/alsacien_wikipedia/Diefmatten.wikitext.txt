@@ -1,0 +1,64 @@
+{{DISPLAYTITLE:Diefmàtte}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Dieffmatten
+| nomalsacien = Diefmàtte
+| alt moy = 300
+| alt mini = 297
+| alt maxi = 381
+| km² = 3.17
+| image = Diefmatten, Mairie-école 1.jpg
+| description = Mairie un Schüel
+|}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Diefmàtte''' ([[Französische Sprache|frz.]] ''Dieffmatten'', [[Deutsche Sprache|dt.]] ''Diefmatten'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Haut-Rhin|Owerelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}.
+
+== Geogràfi ==
+Diefmàtte lijt ìm [[Sundgau|Sundgöi]] im Dàl vum Sulzbàch, eme Zuefluss vun dr [[Largue (Ill)|Làrg]]. Nochbergmeine sìn [[Niedersulzbach (Oberelsass)|Needersulzbàch]] ìm Norde, [[Gildweiler|Gìldwiller]] ìm Oschte un Sìdoschte, [[Hecken (Oberelsass)|Hecke]] ìm Sìde, [[Sternenberg (Oberelsass)|Starnebarg]] ìm Sìdweschte un [[Bretten (Oberelsass)|Bratte]] ìm Weschte.
+
+== Gschìcht ==
+Diefmàtte ìsch zem erschte Mol gnannt worre ànne 1394 àls ''Tiefmatten''.
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Diefmàtte ìsch {{Maires|FR|{{#Property:P374}}}}. Diefmàtte ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Bevelkerungsentwìcklung ==
+
+{|class="wikitable"
+!class="hintergrundfarbe6"|Johr
+!class="hintergrundfarbe6"|1962
+!class="hintergrundfarbe6"|1968
+!class="hintergrundfarbe6"|1975
+!class="hintergrundfarbe6"|1982
+!class="hintergrundfarbe6"|1990
+!class="hintergrundfarbe6"|1999
+!class="hintergrundfarbe6"|2006
+|- align=center
+|'''Inwohner'''<ref>[[Institut National de la Statistique et des Études Économiques|INSEE]]: ''Population et logements par commune depuis le recensement de 1962 (1961 pour les Dom) à 1999''</ref> || 128 || 158 || 214 || 232 || 227 || 251 || 260
+|}
+
+== Dialekt ==
+Dr [[Elsässisch|elsassisch]] Dialekt vun Diefmàtte ghert zem [[Oberrheinalemannisch|Owerrhinàlemànnisch]].
+
+== Kültür un Böiwark ==
+* Kìrich Saint-Nicolas
+
+<gallery widths="200" heights="180">
+Datei:Diefmatten, Eglise Saint-Nicolas.jpg|<center>Kìrich Saint-Nicolas
+</gallery>
+
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+* {{Commonscat|Diefmatten}}
+
+== Referanza ==
+<references/>
+
+{{Navigationsleiste Gemeinden im Kanton Masmünster}}
+
+{{Normdaten}}
+
+[[Kategorie:Ort (Owerelsàss)]]

@@ -1,0 +1,49 @@
+{{DISPLAYTITLE:Orschwihr}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Orschwihr
+| nomalsacien = Orschwihr
+| alt moy = 268
+| alt mini = 225
+| alt maxi = 573
+| km² = 7.09
+| image = Orschwihr.JPG
+| description = Blick uf Orschwihr
+|}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Orschwihr''' ([[Französische Sprache|frz.]] ''Orschwihr'', [[Deutsche Sprache|dt.]] ''Orschweier'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}} ({{Kanton|FR|{{#Property:P374}}}}) (Haut-Rhin).
+
+== Gschìcht ==
+Orschwihr ìsch zem erschte Mol gnannt worre ànne 728 àls ''Otaleswiler''.
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Orschwihr ìsch {{Maires|FR|{{#Property:P374}}}}. Orschwihr ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Bevelkerungsentwìcklung ==
+{|class="wikitable" width=350 
+|- align=center style="background:#E1FFE1;"
+|align=left | '''Johr''' || 1962 || 1968 || 1975 || 1982 || 1990 || 1999 || 2007
+|- align=center
+|align=left | '''Inwohner'''<ref>[[Institut National de la Statistique et des Études Économiques|INSEE]]: ''Population et logements par commune depuis le recensement de 1962 (1961 pour les Dom) à 1999''</ref> || 768 || 780 || 817 || 812 || 849 || 920 || 979
+|}
+
+== Dialekt ==
+Dr [[Elsässisch|elsassisch]] Dialekt vun Orschwihr ghert zem [[Oberrheinalemannisch|Owerrhinàlemànnisch]].
+
+== Literàtür ==
+* Theobald Walther: ''Orschweier. Ein Beitrag zur Geschichte der Ortschaften in der ehemaligen Obermundat.'' Jahrbuch für Geschichte, Sprache und Literatur Elsass-Lothringens 22, Straßburg 1906, S. 37-61 ([http://www.archive.org/stream/jahrbuchfrgesch02clugoog#page/n51/mode/1up online]).
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+{{commonscat|Orschwihr}}
+* http://www.mairie-orschwihr.info
+
+== Referanza ==
+<references/>
+
+{{Navigationsleiste Gemeinden im Kanton Gebweiler}}
+
+{{Normdaten}}
+
+[[Kategorie:Ort (Owerelsàss)]]

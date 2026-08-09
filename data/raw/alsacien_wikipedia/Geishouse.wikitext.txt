@@ -1,0 +1,59 @@
+{{DISPLAYTITLE:Gaishüse}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Geishouse
+| nomalsacien = Gaishüse
+| alt moy = 703
+| alt mini = 510
+| alt maxi = 1422
+| km² = 7.28
+| image = Geishouse 2.JPG
+| description = Gaishüse
+|}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Gaishüse''' ([[Französische Sprache|frz.]] ''Geishouse'', [[Deutsche Sprache|dt.]] ''Geishausen'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Haut-Rhin|Owerelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}.
+
+== Geogràfi ==
+Gaishüse lijt àm Füeß vum [[Großer Belchen|Grand Ballon]], em hechschte Vogesegipfel im [[Regionaler Naturpark Ballons des Vosges|Regionale Natürpàrk Ballons des Vosges]] mit 1424 Meter.
+
+== Gschìcht ==
+Gaishüse ìsch zem erschte Mol gnannt worre ànne 1135 àls ''Geishusen'' 
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Gaishüse ìsch {{Maires|FR|{{#Property:P374}}}}. Gaishüse ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Bevelkerungsentwìcklung ==
+{|class="wikitable"
+!|Johr
+!|1962
+!|1968
+!|1975
+!|1982
+!|1990
+!|1999
+!|2005
+|-
+| '''Inwohner'''<ref>[[Institut National de la Statistique et des Études Économiques|INSEE]]: ''Population et logements par commune depuis le recensement de 1962 (1961 pour les Dom) à 1999''</ref> || 383 || 402 || 352 || 376 || 423 || 472 || 489
+|}
+
+== Dialekt ==
+Dr [[Elsässisch|elsassisch]] Dialekt vun Gaishüse ghert zem [[Oberrheinalemannisch|Owerrhinàlemànnisch]].
+
+<gallery widths="150" heights="180" perrow="2" caption="Kirich Saint-Sébastien">
+Datei:Geishouse, Eglise Saint-Sébastien1.jpg
+Datei:Geishouse, Eglise Saint-Sébastien2.jpg
+</gallery>
+
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+* {{Commonscat|Geishouse}}
+
+== Referanza ==
+<references/>
+
+{{Navigationsleiste Gemeinden im Kanton Sennheim}}
+
+{{Normdaten}}
+
+[[Kategorie:Ort (Owerelsàss)]]

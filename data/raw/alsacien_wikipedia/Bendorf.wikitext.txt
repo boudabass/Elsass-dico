@@ -1,0 +1,102 @@
+{{DISPLAYTITLE:Banderf}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Bendorf
+| nomalsacien = Banderf
+| alt moy = 540
+| alt mini = 479
+| alt maxi = 680
+| km² = 7.55
+|}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Banderf''' ([[Französische Sprache|frz.]] ''Bendorf'', [[Deutsche Sprache|dt.]] ''Bendorf'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Haut-Rhin|Owerelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}.
+
+== Geogràfi ==
+Banderf lijt im [[Sundgau|Sundgöi]]. Nochbergmeine sìn [[Durlinsdorf|Deerlersterf]], [[Pfirt|Pfìrt]], [[Mörnach|Merne]], [[Köstlach|Chäschli]], [[Alt-Pfirt|Àlt-Pfìrt]], [[Ligsdorf|Lìgschderf]] un [[Winkel (Oberelsass)|Wìnkel]].
+
+== Gschìcht ==
+Banderf ìsch zem erschte Mol gnannt worre ànne 1146 àls ''Buendorf'' (1148 ''Pennendorf'').
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Banderf ìsch {{Maires|FR|{{#Property:P374}}}}. Banderf ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}. 
+
+;Lischt vun dr Maires
+* Franciscus Conradus Bach (1684 - 1697)
+* Joannes Michael Bach (1754 - 1754)
+* Christianus Meister (1774 - 1782)
+* Christianus Meister (1782 - 1783)
+* François Antoine Bach (1788 - 1791)
+* Christian Meister (1791 - 1795)
+* Joseph Hirtzlin (1795 - 1796)
+* Christian Meister (1796 - 1797)
+* Jean Meister (1797 - 1797)
+* Antoine Bach (1797 - 1798)
+* NN Meister (1798 - 1798)
+* NN Bach (1798 - 1801)
+* Chrétien Meister (1801 - 1806)
+* Sébastien Bach (1806 - 1823)
+* Paul Meister (1823 - 1824)
+* Ferdinand Meister (1824 - 1831)
+* Laurent Meister (1831 - 1835)
+* Jean Bach (1835 - 1846)
+* Pierre Meister (1846 - 1848)
+* Sébastien Meister (1848 - 1854)
+* Xavier Vetter (1854 - 1855)
+* François-Xavier Bach (1855 - 1864)
+* Pierre Meister (1864 - 1873)
+* Sébastien Meister (1873 - 1916)
+* Laurent Meister (1916 - 1925)
+* Adolphe Dangel (1925 - 1941)
+* Camille Brissinger (1941 - 1945)
+* Adolphe Dangel (1944 - 1945)
+* Henri Antony (1945 - 1965)
+* Victor Juen (1965 - 1971)
+* Emile Ruetsch (1971 - 1976)
+* Pierre Dange (1976 - 1989)
+* Bernard Baysang (1989 - 2001)
+* Guy Stehlin (2001 - 2003)
+* Antoine Antony (syt 2003)
+
+== Bevelkerungsentwìcklung ==
+{|class="wikitable"
+!|Johr
+!|1962
+!|1968
+!|1975
+!|1982
+!|1990
+!|1999
+!|2007
+|-
+| Inwohner || 147 || 149 || 142 || 176 || 202 || 202 || 228
+|}
+
+== Dialekt ==
+Dr [[Elsässisch|elsassisch]] Dialekt vun Banderf ghert zem [[Hochalemannisch|Hochàlemànnisch]].
+
+== Boiwark ==
+* Kìrich Exaltation de la Sainte-Croix
+* ''Ferme du Schutzenwald'', e Bürehof vun 1554
+* ''Croix de la Peste'' (1624)
+
+{|
+|[[Datei:Bendorf, Eglise de l'Exaltation-de-la-Sainte-Croix 1.jpg|thumb|left|upright 0.7|<center>Kìrich, Weschtsitte</center>]]
+|[[Datei:Bendorf, Eglise de l'Exaltation-de-la-Sainte-Croix 2.jpg|thumb|left|upright 1.2|<center>Kìrich, Sìdsitte</center>]]
+|}
+
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+{{Commonscat|Bendorf (Haut-Rhin)|Banderf}}
+* [https://web.archive.org/web/20140911003757/http://ccja-jura-alsacien.net/index.php?option=com_content&view=article&id=11&Itemid=62 Banderf] uf ccja-jura-alsacien.net] (fr)
+
+== Referanza ==
+<references/>
+
+{{Navigationsleiste Gemeinden im Kanton Altkirch}}
+
+{{Normdaten}}
+
+[[Kategorie:Ort (Owerelsàss)]]

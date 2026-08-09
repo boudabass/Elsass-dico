@@ -1,0 +1,72 @@
+{{DISPLAYTITLE:Kaiserschbarig}}
+{{Infobox Ortsteil einer Gemeinde in Frankreich
+|nomhameau=Kaiserschbarig
+|commune=[[Kaysersberg Vignoble]]
+|armoiries=Blason de la ville de Kaysersberg (68).svg
+|région=[[Grand Est]]
+|département=[[Département Haut-Rhin|Owerelsàss]]
+|arrondissement=[[Arrondissement Colmar-Ribeauvillé|Colmer-Ràppschwihr]]
+|datefusion=1. Janner 2016
+|status=cd
+|insee=68162
+|cp=68240
+|longitude=07/15/39/E
+|latitude=48/08/21/N
+|alt mini=236
+|alt maxi=924
+|km²=24.82
+|siteweb=[http://www.ville-kaysersberg.fr www.ville-kaysersberg.fr]
+|image=Kaysersberg.jpg
+|image-desc=Kaiserschbarig
+|}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Kaiserschbarig''' ([[Französische Sprache|frz.]] ''Kaysersberg'', [[Deutsche Sprache|dt.]] ''Kaysersberg'', [[Lorrain|Patois]] ''Kèysprè'') isch bis zum End vun 2015 e [[Frankreich|frànzeesche]] Gmein ìm [[Département Haut-Rhin|Owerelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]) gsi. D Gmein het zem {{Kanton|FR|{{#Property:P374}}}} ìm [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}} ghert.
+
+== Gschìcht ==
+Kaiserschbarig ìsch zem erschte Mol gnannt worre ànne 1226 àls ''Kaisersperg''.
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+Uf de 1. Januar 2016 sind de ehmolige Gmeinde Kaiserschbarig, [[Kienzheim|Kienze]] un [[Sigolsheim|Sìjelse]] zer ''[[Commune nouvelle]]'' mit em Name [[Kaysersberg Vignoble]] zammeglegt wore.
+
+== Verwàltung ==
+Dr letscht Maire vun Kaiserschbarig isch dr Henri Stoll gsin. de {{Maires|FR|{{#Property:P374}}}}. Kaiserschbarig hàt zem Kommünàlverbànd [[Communauté de communes de la Vallée de Kaysersberg]] ghert.
+
+== Bevelkerungsentwìcklung ==
+{| class = "wikitable" width = 400
+|- align = center class = "hintergrundfarbe5"
+| align = left | '''Johr''' || '''1962''' || '''1968''' || '''1975''' || '''1982''' || '''1990''' || '''1999''' || '''2007'''
+|- align = center
+| align = left|'''Inwohner'''<ref>[[Institut National de la Statistique et des Études Économiques|INSEE]]: ''Population et logements par commune depuis le recensement de 1962 (1961 pour les Dom) à 1999''</ref> || 2821 || 2979 || 2942 || 2707 || 2755 || 2676 || 2720
+|}
+
+== Dialekt ==
+Dr [[Elsässisch|elsassisch]] Dialekt vun Kaiserschbarig ghert zem [[Oberrheinalemannisch|Owerrhinàlemànnisch]].
+
+== Bilder ==
+<gallery widths = "200" heights = "180" perrow = "2">
+Datei:Maison natale du Dr. Schweitzer-Kaysersberg (2).jpg|Geburtshüs vum [[Albert Schweitzer]]
+Datei:Kaysersberg 2008.jpg|Hiiser am Wissbàch
+</gallery>
+
+== Lit vun Kaiserschbarig ==
+* [[Albert Schweitzer]] (1875–1965), evangelischer Theolog, Missionsàrzt un Frìdesnobelbriisdrejer (1952)
+
+== Lüeg au ==
+* [[Johann Geiler von Kaysersberg|Johann Geiler vo Kaiserschbarig]]
+
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+{{Commonscat|Kaysersberg|Kaiserschbarig}}
+* {{Wikisource|Topographia Alsatiae: Kaysersberg|Kaysersberg in der Topographia Alsatiae (Mathäus Merian)}}
+* https://web.archive.org/web/20110121050502/http://www.ville-kaysersberg.fr/
+
+== Referanza ==
+<references />
+
+{{Normdaten}}
+
+[[Kategorie:Ort (Owerelsàss)]]
+[[Kategorie:Kaiserschbarig Vignoble]]

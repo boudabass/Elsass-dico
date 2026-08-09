@@ -1,0 +1,63 @@
+{{DISPLAYTITLE:Ìweràschbàch}}
+{{Infobox Ortsteil einer Gemeinde in Frankreich
+|nomhameau=Ìweràschbàch
+|commune=[[Aspach-Michelbach]]
+|armoiries=Blason de la ville d'Aspach-le-Haut (68).svg
+|région=[[Grand Est]]
+|département = [[Haut-Rhin|Owerelsàss]]
+|arrondissement=[[Arrondissement Thann-Guebwiller|Dànn-Gawiller]]
+|datefusion=1. Janner 2016
+|status=cd
+|insee=68012
+|cp=68700
+|longitude=07/07/57/E
+|latitude=47/46/31/N
+|alt mini=301
+|alt maxi=402
+|km²=8.68
+|image=Aspach-le-Haut, Église Saint-Barthélemy 1.jpg
+|image-desc=Kirich Saint-Barthélemy
+}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Ìweràschbàch''' ([[Französische Sprache|frz.]] ''Aspach-le-Haut'', [[Deutsche Sprache|dt.]] ''Oberaspach'') ìsch e ehmolige [[Frankreich|frànzeesche]] Gmein ìm [[Département Haut-Rhin|Owerelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]).
+
+== Geogràfi ==
+Ìweràschbàch lijt àn dr Departementsstroß D&nbsp;103 sechs Kilometer sìdeschtlich vun [[Thann|Dànn]].
+
+== Gschìcht ==
+Àschbàch ìsch zem erschte Mol gnannt worre ànne 1105 àls ''Aspa''. Ìweràschbàch un [[Niederaspach|Unteràschbàch]] fìndet mer zem erscht Mol in ere Urkund vun 1302 àls ''Aspach superior'' un ''Aspach inferior''. 
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+Àm [[1. Januar|1. Janner]] [[2016]] ìsch Ìweràschbàch mìt dr Gmein [[Michelbach (Oberelsass)|Mìchelbàch]] züe [[Aspach-Michelbach|Àschbàch-Mìchelbàch]] füsioniert worda.
+
+== Verwàltung ==
+Dr letscht Maire vun Ìweràschbàch ìsch bìs 2015 dr François Horny gsin. 
+
+== Bevelkerungsentwìcklung ==
+{|class = "wikitable"
+!|Johr
+!|1962
+!|1968
+!|1975
+!|1982
+!|1990
+!|1999
+!|2007
+|-
+| Inwohner || 513 || 562 || 561 || 592 || 871 || 1123 || 1420
+|}
+
+== Dialekt ==
+Dr [[Elsässisch|elsassisch]] Dialekt vun Ìweràschbàch ghert zem [[Oberrheinalemannisch|Owerrhinàlemànnisch]].
+
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+* {{Commonscat|Aspach-le-Haut|Ìweràschbàch}}
+* https://web.archive.org/web/20190616075609/http://aspach-le-haut.fr/
+
+{{Normdaten}}
+
+[[Kategorie:Ort (Owerelsàss)]]

@@ -1,0 +1,64 @@
+{{DISPLAYTITLE:Ratzwìller}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Retzwiller
+| nomalsacien = Ratzwìller
+| alt moy = 314
+| alt mini = 302
+| alt maxi = 392
+| km² = 4.10
+| image = Retzwiller, Mairie.jpg
+| description = Mairie
+|}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Ratzwìller''' ([[Französische Sprache|frz.]] ''Retzwiller'', [[Deutsche Sprache|dt.]] ''Retzweiler'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Haut-Rhin|Owerelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}.
+
+== Geogràfi ==
+Nochbergmeine vun Ratzwìller sìn [[Elbach|Albàch]] ìm Norde, [[Wolfersdorf|Wolferschdorf]] ìm Nordoschte, [[Dammerkirch|Dàmmerkìlch]] ìm Oschte, [[Manspach|Mànschbàch]] ìm Sìde, [[Romagny (Haut-Rhin)|Romagny]] ìm Sìdweschte un [[Valdieu-Lutran]] ìm Weschte.
+
+== Gschìcht ==
+Ratzwìller ìsch zem erschte Mol gnannt worre ànne 1184 àls ''Roewilre'' (1251 ''Ratierviller'', 1394 ''Reczwilr'').
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Ratzwìller ìsch {{Maires|FR|{{#Property:P374}}}}. Ratzwìller ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Bevelkerungsentwìcklung ==
+{|class="wikitable"
+!class="hintergrundfarbe5"|Johr
+!class="hintergrundfarbe5"|1962
+!class="hintergrundfarbe5"|1968
+!class="hintergrundfarbe5"|1975
+!class="hintergrundfarbe5"|1982
+!class="hintergrundfarbe5"|1990
+!class="hintergrundfarbe5"|1999
+|-
+|'''Inwohner'''<ref>[[Institut National de la Statistique et des Études Économiques|INSEE]]: ''Population et logements par commune depuis le recensement de 1962 (1961 pour les Dom) à 1999''</ref> || 607 || 655 || 512 || 538 || 538 || 583
+|}
+
+== Dialekt ==
+Dr [[Elsässisch|elsassisch]] Dialekt vun Ratzwìller ghert zem [[Oberrheinalemannisch|Owerrhinàlemànnisch]].
+
+== Böiwark ==
+* Kìrich Saint-Antoine
+
+<gallery>
+Datei:Retzwiller, Eglise Saint-Antoine 2.jpg|<center>Kìrich Saint-Antoine
+Datei:Retzwiller, Ecole.jpg|<center>Schüel
+</gallery>
+
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+{{Commonscat|Retzwiller}}
+* https://web.archive.org/web/20170604135533/http://retzwiller.com/
+
+== Referanza ==
+<references/>
+
+{{Navigationsleiste Gemeinden im Kanton Dannemarie}}
+
+{{Normdaten}}
+
+[[Kategorie:Ort (Owerelsàss)]]

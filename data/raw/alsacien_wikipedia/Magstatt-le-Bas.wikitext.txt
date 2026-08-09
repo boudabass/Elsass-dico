@@ -1,0 +1,55 @@
+{{DISPLAYTITLE:Màschgetz}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Magstatt-le-Bas
+| nomalsacien = Màschgetz
+| alt moy = 315
+| alt mini = 287
+| alt maxi = 395
+| km² = 3.35
+| image = Magstatt-le-Bas, Mairie.jpg
+| description = Mairie
+|}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Màschgetz''' ([[Französische Sprache|frz.]] ''Magstatt-le-Bas'', [[Deutsche Sprache|dt.]] ''Niedermagstatt'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Haut-Rhin|Owerelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}.
+
+== Gschìcht ==
+Màschgetz ìsch zem erschte Mol gnannt worre ànne 788 àls ''Magestet''.
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Màschgetz ìsch {{Maires|FR|{{#Property:P374}}}}. Màschgetz ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Bevelkerungsentwìcklung ==
+{| class="wikitable" width=400
+|- align=center class="hintergrundfarbe5"
+|align=left | '''Johr''' || '''1962''' || '''1968''' || '''1975''' || '''1982''' || '''1990''' || '''1999''' || '''2006'''
+|- align=center
+|align=left|'''Inwohner'''<ref>[[Institut National de la Statistique et des Études Économiques|INSEE]]: ''Population et logements par commune depuis le recensement de 1962 (1961 pour les Dom) à 1999''</ref> || 201 || 206 || 221 || 303 || 337 || 414 || 465
+|}
+
+== Dialekt ==
+Dr [[Elsässisch|elsassisch]] Dialekt vun Màschgetz ghert zem [[Hochalemannisch|Hochàlemànnisch]].
+
+{|
+|[[Datei:Magstatt-le-Bas, Eglise Saint-Michel.jpg|thumb|left|Kìrich St. Michael]]
+|}
+
+== Beriemti Maschgetzer ==
+* [[Delphine Wespiser]], Miss France 2011
+
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+* {{Commonscat|Magstatt-le-Bas}}
+* [https://web.archive.org/web/20100822032821/http://www.pays-sierentz.fr/Magstatt-le-Bas.html Needermàschgez] uf pays-sierentz.fr
+
+== Referanza ==
+<references/>
+
+{{Navigationsleiste Gemeinden im Kanton Brunstatt}}
+
+{{Normdaten}}
+
+[[Kategorie:Ort (Owerelsàss)]]

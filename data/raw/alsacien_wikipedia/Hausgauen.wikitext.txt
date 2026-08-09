@@ -1,0 +1,50 @@
+{{DISPLAYTITLE:Hüsgaie}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Hausgauen
+| nomalsacien = Hüsgaie
+| alt moy = 318
+| alt mini = 302
+| alt maxi = 407
+| km² = 5.79
+| image = Hausgauen, Mairie.jpg
+| description= Mairie z Hüsgaie
+|}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Hüsgaie''' oder '''Hüsgai''' ([[Französische Sprache|frz.]] ''Hausgauen'', [[Deutsche Sprache|dt.]] ''Hausgauen'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Haut-Rhin|Owerelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}.
+
+== Geogràfi ==
+Hüsgaie lijt ìm [[Sundgau|Sundgöi]] ìm Dàl vum [[Thalbach (Ill)|Thàlbàch]] zwìsche [[Altkirch|Àltkìrech]] un [[Basel]].
+
+== Gschìcht ==
+Hüsgaie ìsch zem erschte Mol gnannt worre ànne 1251 àls ''Huschowe'' (1264 ''Huscowe'', 13. Jh. ''Husgowe'', 1576 ''Husgaw'').
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Hüsgaie ìsch {{Maires|FR|{{#Property:P374}}}}. Hüsgaie ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Bevelkerungsentwìcklung ==
+{| class="wikitable" width=400
+|- align=center class="hintergrundfarbe5"
+|align=left | '''Johr''' || '''1962''' || '''1968''' || '''1975''' || '''1982''' || '''1990''' || '''1999''' || '''2006'''
+|- align=center
+|align=left|'''Inwohner'''<ref>[[Institut National de la Statistique et des Études Économiques|INSEE]]: ''Population et logements par commune depuis le recensement de 1962 (1961 pour les Dom) à 1999''</ref> || 263 || 269 || 285 || 326 || 351 || 381 || 441
+|}
+
+== Dialekt ==
+Dr [[Elsässisch|elsassisch]] Dialekt vun Hüsgaie ghert zem [[Oberrheinalemannisch|Owerrhinàlemànnisch]].
+
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+{{Commonscat}}
+
+== Referanza ==
+<references/>
+
+{{Navigationsleiste Gemeinden im Kanton Altkirch}}
+
+{{Normdaten}}
+
+[[Kategorie:Ort (Owerelsàss)]]

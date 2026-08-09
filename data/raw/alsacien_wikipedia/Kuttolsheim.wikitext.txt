@@ -1,0 +1,52 @@
+{{DISPLAYTITLE:Kìttelse}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Kuttolsheim
+| nomalsacien = Kìttelse
+| alt moy = 166–365
+| km² = 4.59
+|}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Kìttelse''' ([[Französische Sprache|frz.]] ''Kuttolsheim'', [[Deutsche Sprache|dt.]] ''Küttolsheim'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Bas-Rhin|Unterelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}.
+
+== Gschìcht ==
+Kìttelse ìsch zem erschte Mol gnannt worre ànne 758.
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Kìttelse ìsch {{Maires|FR|{{#Property:P374}}}}. Kìttelse ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Bevelkerungsentwìcklung ==
+{| class="wikitable" width=400
+|- align=center class="hintergrundfarbe5"
+|align=left | '''Johr''' || '''1962''' || '''1968''' || '''1975''' || '''1982''' || '''1990''' || '''1999''' || '''2007'''
+|- align=center
+|align=left|'''Inwohner'''<ref>[[Institut National de la Statistique et des Études Économiques|INSEE]]: ''Population et logements par commune depuis le recensement de 1962 (1961 pour les Dom) à 1999''</ref> || 390 || 413 || 452 || 479 || 599 || 631 || 645
+|}
+
+== Dialekt ==
+Dr [[Elsässisch|elsassisch]] Dialekt vun Kìttelse ghert zem [[Oberrheinalemannisch|Owerrhinàlemànnisch]].
+
+<gallery widths="200" heights="180" perrow="2">
+Datei:Kuttolsheim Saint Jacques.jpg|Kirich Saint-Jacques-le-majeur
+Datei:Kuttolsheim Rosschwemm.jpg|D Sainte-Barbe Kàpall und dr Schwawweelsee
+</gallery>
+
+== Litt ==
+* [[François-Xavier Riehl]] (* 1835 z Kìttelse; † 1886 z Chevilly-Larue), Bischof vum Apostolische Vikariat Senegambia (hite Erzbischtum Dakar)
+
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+{{Commonscat|Kuttolsheim}}
+* https://web.archive.org/web/20081201173320/http://kuttolsheim.com/
+
+== Referanza ==
+<references />
+
+{{Navigationsleiste Gemeinden im Kanton Buchsweiler}}
+{{DEFAULTSORT:Kuttolsheim}}
+{{Normdaten}}
+
+[[Kategorie:Ort (Unterelsass)]]

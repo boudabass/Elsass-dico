@@ -1,0 +1,49 @@
+{{DISPLAYTITLE:Làmpertschloch}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Lampertsloch
+| nomalsacien = Làmpertschloch
+| alt moy = 157–511
+| km² = 10.43
+| image = Lampertsloch 456.jpg
+| description = Fachwerkhüser im Dorf
+}}
+'''Làmpertschloch''' ([[Französische Sprache|frz.]] und [[Deutsche Sprache|dt.]] ''Lampertsloch'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Bas-Rhin|Unterelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}. Wi vili Dörfli im Elsass isch au Làmpertschloch prägt vo de vile Fachwerkhüser, wo noch erhalte sin. 
+
+== D Lag ==
+S Dorf Làmpertschloch ligt zwüsche [[Preuschdorf|Prischdorf]] un [[Lobsann|Lüsann]] an de D 77. Es isch am Südweschthang vom Hochwald gläge, wo eigentlich no zum Pfälzerwald ghört, aber au als Nordvogese bezeichnet wird. 
+
+== Politik ==
+{{MairesTitel|FR|{{#Property:P374}}}} vo Làmpertschloch isch {{Maires|FR|{{#Property:P374}}}}. Làmpertschloch ghört zum Kommunalverband {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Bevölkerigsentwicklig ==
+D Iiwohnerzahl schwankt sit de 60er Johr vom 20. Johrhundert zwüsche knapp 650 un guet 700 Lüt. 
+{| class="wikitable" width=400
+|- align=center class="hintergrundfarbe5"
+|align=left | '''Johr''' || '''1962''' || '''1968''' || '''1975''' || '''1982''' || '''1990''' || '''1999''' || '''2008'''
+|- align=center
+|align=left|'''Iiwohner''' || 657 || 675 || 703 || 701 || 680 || 644 || 708
+|}
+
+== Dialekt ==
+Dr [[elsässisch]] Dialekt vo Làmpertschloch ghört zum [[Oberrheinalemannisch|Oberrhiialemannisch]].
+
+== Galerii ==
+<gallery widths="200" heights="180" perrow="2">
+Datei:Lampertsloch 451.jpg|Rathus
+Datei:Lampertsloch 452.jpg|S alti Rathus
+</gallery>
+<gallery widths="200" heights="180" perrow="2">
+Datei:Lampertsloch 449.jpg|D Chile vo Làmpertschloch
+Datei:Lampertsloch 457.jpg|
+</gallery>
+
+== Weblink ==
+{{commonscat|Lampertsloch|Làmpertschloch}}
+
+== Referanza ==
+<references />
+
+{{Navigationsleiste Gemeinden im Kanton Reichshoffen}}
+{{Normdaten}}
+
+[[Kategorie:Ort (Unterelsass)]]

@@ -1,0 +1,51 @@
+{{DISPLAYTITLE:Feeslis}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Fislis
+| nomalsacien = Feeslis
+| alt moy = 386
+| alt mini = 377
+| alt maxi = 532
+| km² = 7.53
+| image = Fislis, Mairie.jpg
+| description = Mairie
+|}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Feeslis''' ([[Französische Sprache|frz.]] ''Fislis'', [[Deutsche Sprache|dt.]] ''Fislis'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Haut-Rhin|Owerelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}.
+
+== Gschìcht ==
+Feeslis ìsch zem erschte Mol gnannt worre ànne 1243 àls ''Visilis''.
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Feeslis ìsch {{Maires|FR|{{#Property:P374}}}}. Feeslis ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Bevelkerungsentwìcklung ==
+{| class="wikitable" width=400
+|- align=center class="hintergrundfarbe5"
+|align=left | '''Johr''' || '''1962''' || '''1968''' || '''1975''' || '''1982''' || '''1990''' || '''1999''' || '''2007'''
+|- align=center
+|align=left|'''Inwohner'''<ref>[[Institut National de la Statistique et des Études Économiques|INSEE]]: ''Population et logements par commune depuis le recensement de 1962 (1961 pour les Dom) à 1999''</ref> || 337 || 322 || 365 || 376 || 380 || 386 || 409
+|}
+
+== Dialekt ==
+Dr [[Elsässisch|elsassisch]] Dialekt vun Feeslis ghert zem [[Hochalemannisch|Hochàlemànnisch]].
+
+{|
+|[[Datei:Fislis, Eglise Saint-Léger.jpg|thumb|left|St. Leodegar Feeslis]]
+|}
+
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+* {{Commonscat|Fislis}}
+
+== Referanza ==
+<references/>
+
+{{Navigationsleiste Gemeinden im Kanton Altkirch}}
+
+{{Normdaten}}
+
+[[Kategorie:Ort (Owerelsàss)]]

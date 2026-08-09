@@ -1,0 +1,60 @@
+{{DISPLAYTITLE:Haiwiller}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Heiwiller
+| nomalsacien = Haiwiller 
+| alt moy = 306
+| alt mini = 300
+| alt maxi = 372
+| km² = 2.04
+| image = Heiwiller, Chapelle Saint-Wendelin.jpg
+| description = Kapelle St. Wendelin z Haiwiller
+|}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Haiwiller''' ([[Französische Sprache|frz.]] ''Heiwiller'', [[Deutsche Sprache|dt.]] ''Heiweiler'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Haut-Rhin|Owerelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}.
+
+== Geogràfi ==
+Haiwiller lijt ìm [[Sundgau|Sundgöi]], àcht Kilometer eschtlich vun [[Altkirch|Àltkìrech]] ìm Dàl vum ''Wàhlbàch''.
+
+== Gschìcht ==
+Haiwiller ìsch zem erschte Mol gnannt worre ànne 728 àls ''Heimonewillare, Heimonewiler'' (1144 ''Hemniewilre'', 1170 ''Heinwilre'').
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Haiwiller ìsch {{Maires|FR|{{#Property:P374}}}}. Haiwiller ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Bevelkerungsentwìcklung ==
+{|class="wikitable"
+!|Johr
+!|1962
+!|1968
+!|1975
+!|1982
+!|1990
+!|1999
+!|2007
+|-
+| Inwohner || 104 || 105 || 107 || 133 || 178 || 181 || 187
+|}
+
+== Dialekt ==
+Dr [[Elsässisch|elsassisch]] Dialekt vun Haiwiller ghert zem [[Oberrheinalemannisch|Owerrhinàlemànnisch]].
+
+{|
+|[[Datei:Heiwiller, Mairie.jpg|thumb|<center>Mairie]]
+|}
+
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+{{Commonscat|Heiwiller|Haiwiller}}
+
+== Referanza ==
+<references/>
+
+{{Navigationsleiste Gemeinden im Kanton Altkirch}}
+
+{{Normdaten}}
+
+[[Kategorie:Ort (Owerelsàss)]]

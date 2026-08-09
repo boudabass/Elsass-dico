@@ -1,0 +1,54 @@
+{{DISPLAYTITLE:Filgriese}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Pfulgriesheim
+| nomalsacien = Filgriese
+| alt moy = 147–177
+| km² = 4.81
+| image = Panneau Pfulgriesheim.JPG
+| description = Filgriese
+|}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Filgriese''' ([[Französische Sprache|frz.]] ''Pfulgriesheim'', [[Deutsche Sprache|dt.]] ''Pfülgriesheim'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Bas-Rhin|Unterelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}.
+
+== Gschìcht ==
+Filgriese ìsch zem erschte Mol gnannt worre ànne 1163 àls ''Vulncriegesheim''.
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Filgriese ìsch {{Maires|FR|{{#Property:P374}}}}. Filgriese ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Bevelkerungsentwìcklung ==
+{| class="wikitable" width=400
+|- align=center class="hintergrundfarbe5"
+|align=left | '''Johr''' || '''1962''' || '''1968''' || '''1975''' || '''1982''' || '''1990''' || '''1999''' || '''2007'''
+|- align=center
+|align=left|'''Inwohner'''<ref>[[Institut National de la Statistique et des Études Économiques|INSEE]]: ''Population et logements par commune depuis le recensement de 1962 (1961 pour les Dom) à 1999''</ref> || 352 || 389 || 866 || 995 || 1081 || 1171 || 1281
+|}
+
+== Dialekt ==
+Dr [[Elsässisch|elsassisch]] Dialekt vun Filgriese ghert zem [[Oberrheinalemannisch|Owerrhinàlemànnisch]].
+
+<gallery widths="200" heights="180" perrow="2">
+Datei:Mairie_Pfulgriesheim.JPG|Mairie
+Datei:Pfulgriesheim-église.JPG|Kirich Saint-Michel
+</gallery>
+
+== Litt ==
+* Dr Liedermàcher [[René Egles]] (* 1939 z Stroßburi) labt z Filgriese. 
+
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+{{Commonscat}}
+* https://web.archive.org/web/20150929154218/http://pfulgriesheim.info/
+
+== Referanza ==
+<references/>
+
+{{Navigationsleiste Gemeinden im Kanton Buchsweiler}}
+{{DEFAULTSORT:Pfulgriesheim}}
+{{Normdaten}}
+
+[[Kategorie:Ort (Unterelsass)]]

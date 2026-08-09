@@ -1,0 +1,63 @@
+{{DISPLAYTITLE:Àndlöi}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Andlau
+| nomalsacien = Àndlöi
+| alt moy = 205–795
+| km² = 23.69
+| image = Andlau depuis le Spesbourg.JPG
+| description = Àndlöi
+|}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Àndlöi''' ([[Französische Sprache|frz.]] ''Andlau'', [[Deutsche Sprache|dt.]] ''Andlau'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Bas-Rhin|Unterelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}.
+
+== Geogràfi ==
+Àndlöi lijt àm Füeß vun dr [[Vogesen|Vogese]] àm weschtliche Rànd vun dr [[Oberrheinebene|Owerrhinewene]]. Durech d Ortschàft fließt dr [[Andlau (Ill)|Àndlöi]].
+
+D Nochbergmeine sìn [[Barr|Bàrr]], [[Mittelbergheim|Mìttelbarige]], [[Eichhoffen|Äschhoffe]], [[Bernhardsweiler im Loch|Batschwiller]], [[Reichsfeld|Risfald]], [[Erlenbach (Unterelsass)|Erlebàch]] un [[Hohwald (Unterelsass)|Hoowàld]].
+
+== Gschìcht ==
+Àndlöi ìsch zem erschte Mol gnannt worre ìm 10. Johrhundert àls ''Andelaha''.
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Àndlöi ìsch {{Maires|FR|{{#Property:P374}}}}. Àndlöi ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Bevelkerungsentwìcklung ==
+{| class="wikitable" width=400
+|- align=center class="hintergrundfarbe5"
+|align=left | '''Johr''' || '''1962''' || '''1968''' || '''1975''' || '''1982''' || '''1990''' || '''1999''' || '''2008'''
+|- align=center
+|align=left|'''Inwohner'''<ref>[[Institut National de la Statistique et des Études Économiques|INSEE]]: ''Population et logements par commune depuis le recensement de 1962 (1961 pour les Dom) à 1999''</ref> || 1529 || 1584 || 1919 || 1744 || 1632 || 1654 || 1838
+|}
+
+== Dialekt ==
+Dr [[Elsässisch|elsassisch]] Dialekt vun Àndlöi ghert zem [[Oberrheinalemannisch|Owerrhinàlemànnisch]].
+
+== Böiwark ==
+* Ruine Hohandlau (''Château du Haut-Andlau'', 13. Jh.)
+* Spesburg (13. Jh.)
+* Àbteikirich Saint-Pierre (11./12. Jh.)
+* Kàpall Saint-André
+
+<gallery widths="200" heights="180" perrow="2">
+Datei:Andlau - église Saint-Pierre.jpg|Kirich Saint-Pierre
+Datei:Andlau 052.JPG|Kàpall Saint-André
+</gallery>
+
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+{{Commonscat}}
+{{Wikisource|Topographia Alsatiae: Andlou|Andlou in der Topographia Alsatiae (Matthäus Merian)}}
+* https://web.archive.org/web/20110115200032/http://www.andlau.fr/
+* [https://web.archive.org/web/20110320062239/http://www.burgenlexikon.eu/120.html Die Weinwirtschaft der Abtei Andlau im 16. Jahrhundert] (burgenlexikon.de)
+
+== Referanza ==
+<references />
+
+{{Navigationsleiste Gemeinden im Kanton Obernai}}
+{{Normdaten}}
+
+[[Kategorie:Ort (Unterelsass)]]

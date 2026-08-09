@@ -1,0 +1,58 @@
+{{DISPLAYTITLE:Àchene}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Achenheim
+| nomalsacien = Àchene
+| alt moy = 143–191
+| km² = 6.03
+|}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Àchene''' ([[Französische Sprache|frz.]] ''Achenheim'', [[Deutsche Sprache|dt.]] ''Achenheim'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Bas-Rhin|Unterelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}.
+
+== Geogràfi ==
+Àchene lijt uf 157 m Heche, niin km vun [[Straßburg|Stroßburi]].
+
+== Gschìcht ==
+Àchene ìsch zem erschte Mol gnannt worre ànne 735 àls ''Hachinheim'' (884: ''Hakinheim'', 910: ''Achenheim'').
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Àchene ìsch {{Maires|FR|{{#Property:P374}}}}. Àchene ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Bevelkerungsentwìcklung ==
+
+{| align="center" rules="all" cellspacing="0" cellpadding="4" style="border: 1px solid #999; border-right: 2px solid #999; border-bottom:2px solid #999; background: #f3fff3"
+|+ style="font-weight: bold; font-size: 1.1em; margin-bottom: 0.5em"| Entwicklung vun dr Inwohnerzàhl<ref>[http://cassini.ehess.fr/cassini/fr/html/fiche.php?select_resultat=87 cassini.ehess.fr]</ref> 
+|-style="background: #ddffdd"
+! 1793 !! 1800 !! 1806 !! 1821 !! 1831 !! 1836 !! 1841 !! 1846 !! 1851 !! 1856 !! 1861 !! 1866 
+|-
+| 665 || 541 || 541 || 633 || 824 || 875 || 842 || 891 || 884 || 846 || 797 || 824 
+|-style="background: #ddffdd"
+! 1871 !! 1875 !! 1880 !! 1885 !! 1890 !! 1895 !! 1900 !! 1905 !! 1910 !! 1921 !! 1926 !! 1931 
+|-
+| 803 || 829 || 870 || 925 || 974 || 986 || 964 || 921 || 886 || 857 || 921 || 968 
+|-style="background: #ddffdd"
+! 1936 !! 1946 !! 1954 !! 1962 !! 1968 !! 1975 !! 1982 !! 1990 !! 1999 !! 2006 !! 2012 !!	 
+|-
+| 975 || 878 || 1002 || 1131 || 1207 || 1535 || 1717 || 2072 || 2183 || 2224 || 2043 || 
+|-
+|}
+
+== Dialekt ==
+Dr [[Elsässisch|elsassisch]] Dialekt vun Àchene ghert zem [[Oberrheinalemannisch|Owerrhinàlemànnisch]].
+
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+{{Commonscat}}
+* https://web.archive.org/web/20160703152747/http://www.mairie-achenheim.fr/
+
+== Referanza ==
+<references/>
+
+{{Navigationsleiste Gemeinden im Kanton Lingolsheim}}
+
+{{Normdaten}}
+
+[[Kategorie:Ort (Unterelsass)]]

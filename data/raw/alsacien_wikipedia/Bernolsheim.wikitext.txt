@@ -1,0 +1,51 @@
+{{DISPLAYTITLE:Banze}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Bernolsheim
+| nomalsacien = Banze
+| alt moy = 147–191
+| km² = 3.39
+|}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Banze''' ([[Französische Sprache|frz.]] ''Bernolsheim'', [[Deutsche Sprache|dt.]] ''Bernolsheim'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Bas-Rhin|Unterelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}.
+
+== Geogràfi ==
+Banze lijt zeh Kilometer sìdweschtlich vun [[Hagenau|Hàwenàu]] un 20 Kilometer nerdlich vun [[Straßburg|Stroßburi]]. D Nochbergmeine sìn [[Wahlenheim|Wàhle]] ìm Norde, [[Rottelsheim|Rottelse]] ìm Oschte, [[Brumath|Bröömt]] ìm Sìdoschte un [[Krautweiler|Krütwiller]] ìm Sìde.
+
+== Gschìcht ==
+Banze ìsch zem erschte Mol gnannt worre ànne 921 àls ''Berneshaim''.
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Banze ìsch {{Maires|FR|{{#Property:P374}}}}. Banze ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Bevelkerungsentwìcklung ==
+{| class="wikitable" width=400
+|- align=center class="hintergrundfarbe5"
+|align=left | '''Johr''' || '''1962''' || '''1968''' || '''1975''' || '''1982''' || '''1990''' || '''1999''' || '''2007'''
+|- align=center
+|align=left|'''Inwohner'''<ref>[[Institut National de la Statistique et des Études Économiques|INSEE]]: ''Population et logements par commune depuis le recensement de 1962 (1961 pour les Dom) à 1999''</ref> || 253 || 272 || 298 || 338 || 436 || 510 || 548
+|}
+
+== Dialekt ==
+Dr [[Elsässisch|elsassisch]] Dialekt vun Banze ghert zem [[Oberrheinalemannisch|Owerrhinàlemànnisch]].
+
+== Böiwark ==
+* Kìrich ''Saint-Pancrace, Saint-Sébastien'' (1762) 
+* Kàpall (1876 geböit, 1913 reschtauriert)
+
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+* http://www.bernolsheim.fr
+* [http://bernolsheim.free.fr/ Privàte Websitte ìwer Banze]
+* [https://web.archive.org/web/20101204025237/http://www.patrimoine-de-france.org/oeuvres/richesses-1-27.html#ville Banze] uf patrimoine-de-france.org
+
+== Referanza ==
+<references />
+
+{{Navigationsleiste Gemeinden im Kanton Brumath}}
+{{Normdaten}}
+
+[[Kategorie:Ort (Unterelsass)]]

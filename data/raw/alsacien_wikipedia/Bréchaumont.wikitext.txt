@@ -1,0 +1,64 @@
+{{DISPLAYTITLE:Bruckedswiller}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Bréchaumont
+| nomalsacien = Bruckedswiller
+| alt moy = 353
+| alt mini = 307
+| alt maxi = 396
+| km² = 6.51
+| image = Bréchaumont, Mairie.jpg
+| description = <center>Mairie
+|}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Bruckedswiller''' ([[Französische Sprache|frz.]] ''Bréchaumont'', [[Deutsche Sprache|dt.]] ''Brückensweiler'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Haut-Rhin|Owerelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}.
+
+== Geogràfi ==
+Bruckedswiller lijt sìdweschtlich vun [[Mülhausen (Elsass)|Mìlhüüse]] àn dr Granz zem [[Territoire de Belfort]].
+
+== Gschìcht ==
+Bruckedswiller ìsch zem erschte Mol gnannt worre ànne 1460 àls ''Burkezwilr'' (1576 ''Bruckwil'', 1581 ''Bruckhardtzweiler'', 1625 ''Brechomont'').
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Bruckedswiller ìsch {{Maires|FR|{{#Property:P374}}}}. Bruckedswiller ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Bevelkerungsentwìcklung ==
+{|class="wikitable"
+!|Johr
+!|1962
+!|1968
+!|1975
+!|1982
+!|1990
+!|1999
+!|2006
+!|2007
+|-
+| Inwohner || 232 || 243 || 270 || 339 || 351 || 345 || 394 || 393
+|}
+
+== Dialekt ==
+Dr [[Elsässisch|elsassisch]] Dialekt vun Bruckedswiller ghert zem [[Oberrheinalemannisch|Owerrhinàlemànnisch]].
+
+== Boiwark ==
+* Kìrech Saint-Aloyse-de-Gonzague
+
+{|
+|[[Datei:Bréchaumont, Eglise Saint-Aloyse-de-Gonzague.jpg|thumb|<center>Kìrech Saint-Aloyse-de-Gonzague]]
+|}
+
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblinks ==
+{{Commonscat|Bréchaumont}}
+
+== Referanza ==
+<references/>
+
+{{Navigationsleiste Gemeinden im Kanton Masmünster}}
+{{DEFAULTSORT:Bruckensweiler}}
+{{Normdaten}}
+
+[[Kategorie:Ort (Owerelsàss)]]

@@ -1,0 +1,60 @@
+{{DISPLAYTITLE:Brunscht}}
+{{Infobox Ortsteil einer Gemeinde in Frankreich
+|nomhameau=Brunstatt
+|commune=[[Brunstatt-Didenheim]]
+|armoiries=Blason de la ville de Brunstatt (68).svg
+|région=[[Grand Est]]
+|département = [[Haut-Rhin|Owerelsàss]]
+|arrondissement=[[Arrondissement Mulhouse|Milhüüse]]
+|datefusion=1. Janner 2016
+|status=cd
+|insee=68056
+|cp=68350
+|longitude=07/19/22/E
+|latitude=47/43/24/N
+|alt mini=240
+|alt maxi=353
+|km²=9.66
+|siteweb=
+|}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Brunscht''' ([[Französische Sprache|frz.]] ''Brunstatt'', [[Deutsche Sprache|dt.]] ''Brunstatt'') ìsch e ehmolige [[Frankreich|frànzeesche]] Gmein ìm [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}} ({{Kanton|FR|{{#Property:P374}}}}) ìm [[Département Haut-Rhin|Owerelsàss]] (Haut-Rhin).
+
+== Gschìcht ==
+Brunscht ìsch zem erschte Mol gnannt worre ànne 708 àls ''Brunstat''. Àm [[1. Januar|1. Janner]] [[2016]] ìsch sa füsioniert worda mìt dr Gmein [[Didenheim|Dìdena]] züe [[Brunstatt-Didenheim]].
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+D letscht Maire vun Brunscht ìsch bìs 2015 d Bernadette Groff gsin. Brunscht ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Bevelkerungsentwìcklung ==
+{| class = "wikitable" width = 400
+|- align = center class = "hintergrundfarbe5"
+| align = left | '''Johr''' || '''1962''' || '''1968''' || '''1975''' || '''1982''' || '''1990''' || '''1999''' || '''2008'''
+|- align = center
+| align = left|'''Inwohner'''<ref>[[Institut National de la Statistique et des Études Économiques|INSEE]]: ''Population et logements par commune depuis le recensement de 1962 (1961 pour les Dom) à 1999''</ref> || 4024 || 4424 || 5047 || 4887 || 5160 || 5530 || 6164
+|}
+
+== Dialekt ==
+Dr [[Elsässisch|elsassisch]] Dialekt vun Brunscht ghert zem [[Oberrheinalemannisch|Owerrhinàlemànnisch]].
+
+<gallery>
+Datei:Brunstatt, Eglise Sainte-Odile.jpg|Kirich St. Odilia
+Datei:Brunstatt, Eglise Saint-Georges 1.jpg|Kirich St. Georg, Oschtsitte
+Datei:Brunstatt, Eglise Saint-Georges 2.jpg|Kirich St. Georg, Sìdsitte
+</gallery>
+
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+* {{Commonscat|Brunstatt}}
+* https://web.archive.org/web/20161023000721/http://www.mairie-brunstatt.fr/
+
+== Referanza ==
+<references />
+
+{{Normdaten}}
+
+[[Kategorie:Ort (Owerelsàss)]]

@@ -1,0 +1,65 @@
+{{DISPLAYTITLE:Mützig}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Mutzig
+| nomalsacien = Mützig
+| alt moy = 180–397
+| km² = 8.01
+| image = Mairie de Mutzig.jpg
+| description = Mairie
+|}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Mützig''' ([[IPA]]: {{IPA|[ˈmytsik]}}, frz. ''Mutzig'', [[Deutsche Sprache|dt.]] ''Mutzig'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Bas-Rhin|Unterelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}.
+
+==Geogràfii==
+Mützig lejt àn dr [[Bruche (Fluss)|Brìsch]], wie die üs dr [[Vogesen|Vogese]] ìn dr [[Oberrheinebene|Rhinewene]] kunnt. Nochbergmeine sìn [[Molsheim|Molse]], [[Dorlisheim|Dorelse]], [[Rosenwiller|Rosewiller]], [[Gresswiller|Grasswiller]], [[Dinsheim-sur-Bruche|Dìnse]], [[Dangolsheim|Dàngelse]] un [[Soultz-les-Bains|Sulz]].
+
+== Gschìcht ==
+Mützig ìsch zem erschte Mol gnannt worre ànne 913 àls ''Muzzeca'', 11. Jh.: ''Muziaca''. Ìm Johr 1308 ìsch s àn dr Bischof vun [[Straßburg|Stroßburi]] kumme. Druppe vun dr [[Armagnacs]] han d Stàdt ànne 1444 nìt kenne erowere, zeh Johr speter (1454) ìsch sa àwer durich dr Grof vun Zweibrücken ingnumme un zwei Johr speter wider vun dr Stroßburjer befreit worre.
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+S Städtel ìsch e wichti Militärstàndort. S gìt e Làjer ìn dr Stàdt un uff em Bari ìm Norde ìwwer dr Stàdt - un ém Weschte vun [[Molsheim|Molse]] ìsch s ''Fort de Mutzig'', e Feschte, wie de Ditsche vor em [[Erster Weltkrieg|Erscht Waltkriej]] geböit han, àls "Feste Kaiser Wilhelm II", fer züem s Brischdàl ze sichere un z bewàche.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Mützig ìsch {{Maires|FR|{{#Property:P374}}}}. Mützig ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Bevelkerungsentwìcklung ==
+{| class="wikitable" width=400
+|- align=center class="hintergrundfarbe5"
+|align=left | '''Johr''' || '''1962''' || '''1968''' || '''1975''' || '''1982''' || '''1990''' || '''1999''' || '''2006''' || '''2010''' || '''2011'''
+|- align=center
+|align=left|'''Inwohner'''<ref>[[Institut National de la Statistique et des Études Économiques|INSEE]]: ''Population et logements par commune depuis le recensement de 1962 (1961 pour les Dom) à 1999''</ref> || 3087 || 3703 || 3891 || 4174 || 4552 || 5584 || 5898 || 5664 || 5703
+|}
+
+== Dialekt ==
+Dr [[Elsässisch|elsassisch]] Dialekt vun Mützig ghert zem [[Oberrheinalemannisch|Owerrhinàlemànnisch]].
+
+<gallery widths="200" heights="180" perrow="2">
+Datei:Nouvelle exposition 2005-07-28 035.JPG|Stàdtdor
+Datei:Mut chateau rohan 05.jpg|Rohan-Schloss
+</gallery>
+
+== Wirtschàft ==
+Bekànnt worre ìsch Mützig vor àllem durich d ''Mützig-Bröierei'', wie 1810 vum Antoine Wagner grìndet worre ìsch. Wie d Bröierei vun eme Bierkonzern ìwernumme worre isch, ìsch sa ànne 1989 züegmàcht worre. Z [[Schiltigheim|Schìlige]] wìrd àwer witterscht noch e Bier gebröit unter em Nàmme ''Mützig''.
+
+== Litt ==
+* [[Louis François Antoine Arbogast]] (* 1759), frànzesischer Mathematiker
+* [[Antoine Alphonse Chassepot]] (1833–1905), frànzesischer Erfìnder (Wàffetechnik)
+* [[Joseph Ehrismann]] (1880–1937), Glàs- und Kunschtmoler
+
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+{{Commonscat|Mutzig}}
+{{Wikisource|Topographia_Alsatiae_(Elsass):_Mutzig|Mützig in der Topographia Alsatiae (M. Merian)}}
+* http://www.mairie-mutzig.fr
+*[https://web.archive.org/web/20081113190818/http://www.cc-molsheim-mutzig.fr/FR/communes/commune.php?PAGEID=478 Mutzig] bi dr CC de la Région de Molsheim-Mutzig
+
+== Referanza ==
+<references/>
+
+{{Navigationsleiste Gemeinden im Kanton Mutzig}}
+{{Normdaten}}
+
+[[Kategorie:Ort (Unterelsass)]]

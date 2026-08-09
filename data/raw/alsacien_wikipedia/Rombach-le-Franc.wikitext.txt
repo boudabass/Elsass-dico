@@ -1,0 +1,53 @@
+{{DISPLAYTITLE:Robé}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Rombach-le-Franc
+| nomalsacien = Robé
+| alt moy = 319
+| alt mini = 290
+| alt maxi = 850
+| km² = 17.87
+| image = Rombach-le-Franc 2.jpg
+| description = Rombach-le-Franc
+|}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Robé''' ([[Lorrain|Patois]], [[Französische Sprache|frz.]] ''Rombach-le-Franc'', [[Elsässisch|els.]] ''Rumbàch'', [[Deutsche Sprache|dt.]] ''Rumbach'', 1871-1919 ''Deutsch-Rumbach'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Haut-Rhin|Owerelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}.
+
+== Gschìcht ==
+Robé ìsch zem erschte Mol gnannt worre ànne 774 àls ''Rumbach'' (1222 ''Rumbeche'', 1594 ''l'Allemand-Rombach'').
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Robé ìsch {{Maires|FR|{{#Property:P374}}}}. Robé ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Bevelkerungsentwìcklung ==
+{| class="wikitable" width=400
+|- align=center class="hintergrundfarbe5"
+|align=left | '''Johr''' || '''1962''' || '''1968''' || '''1975''' || '''1982''' || '''1990''' || '''1999''' || '''2006''' 
+|- align=center
+|align=left|'''Inwohner'''<ref>[[Institut National de la Statistique et des Études Économiques|INSEE]]: ''Population et logements par commune depuis le recensement de 1962 (1961 pour les Dom) à 1999''</ref> || 1041 || 870 || 765 || 720 || 764 || 820 || 892
+|}
+
+== Dialekt ==
+Dr [[Langues d'oïl|romànisch]] Dialekt vun Robé ghert zem [[Welche (Langue d'oïl)|Welche]] un domìt zem [[Lorrain]].
+
+{|
+|[[Datei:Rombach-Le-Franc B 015.JPG|thumb|Kirich Sainte-Rosalie]]
+|[[Datei:Rombach-le-Franc 026.JPG|thumb|Mairie un Schüel]]
+|}
+
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+{{Commonscat}}
+* [https://web.archive.org/web/20100316090107/http://www.valdargent.com/ccva/rombach.htm Rombach-le-Franc] bi dr CC Val d'Argent
+
+== Referanza ==
+<references/>
+
+{{Navigationsleiste Gemeinden im Kanton Markirch}}
+
+{{Normdaten}}
+
+[[Kategorie:Ort (Owerelsàss)]]

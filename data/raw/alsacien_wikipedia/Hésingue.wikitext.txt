@@ -1,0 +1,53 @@
+{{DISPLAYTITLE:Häsige}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Hésingue
+| nomalsacien = Häsige
+| alt moy = 273
+| alt mini = 248
+| alt maxi = 343
+| km² = 9.14
+| image = Hésingue, Mairie.jpg
+| description = Mairie
+|}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Häsige''' ([[Französische Sprache|frz.]] ''Hésingue'', [[Deutsche Sprache|dt.]] ''Hesingen'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Haut-Rhin|Owerelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}.
+
+== Gschìcht ==
+Häsige ìsch zem erschte Mol gnannt worre ànne 835 àls ''Hassinga''.
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Häsige ìsch {{Maires|FR|{{#Property:P374}}}}. Häsige ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Bevelkerungsentwìcklung ==
+{| class="wikitable" width=400
+|- align=center class="hintergrundfarbe5"
+|align=left | '''Johr''' || '''1962''' || '''1968''' || '''1975''' || '''1982''' || '''1990''' || '''1999''' || '''2007'''
+|- align=center
+|align=left|'''Inwohner'''<ref>[[Institut National de la Statistique et des Études Économiques|INSEE]]: ''Population et logements par commune depuis le recensement de 1962 (1961 pour les Dom) à 1999''</ref> || 1438 || 1499 || 1657 || 1632 || 1713 || 1921 || 2370
+|}
+
+== Dialekt ==
+Dr [[Elsässisch|elsassisch]] Dialekt vun Häsige ghert zem [[Hochalemannisch|Hochàlemànnisch]].
+
+<gallery widths="180" heights="200" perrow="2">
+Datei:Hésingue, Eglise Saint-Laurent 1.jpg|<center>Kirich St. Laurentius, Oschtsitte</center>
+Datei:Hésingue, Eglise Saint-Laurent 2.jpg|<center>Kirich St. Laurentius, Weschtsitte</center>
+</gallery>
+
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+* {{Commonscat|Hésingue}}
+* http://www.ville-hesingue.fr
+
+== Referanza ==
+<references/>
+
+{{Navigationsleiste Gemeinden im Kanton Saint-Louis}}
+
+{{Normdaten}}
+
+[[Kategorie:Ort (Owerelsàss)]]

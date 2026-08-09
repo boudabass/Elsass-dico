@@ -1,0 +1,83 @@
+{{DISPLAYTITLE:Ropperzwiller}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Roppentzwiller
+| nomalsacien = Ropperzwiller
+| alt moy = 359
+| alt mini = 350
+| alt maxi = 446
+| km² = 4.15
+| image = Roppentzwiller, Mairie.jpg
+| description = Mairie
+|}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Ropperzwiller''' ([[Französische Sprache|frz.]] ''Roppentzwiller'', [[Deutsche Sprache|dt.]] ''Roppenzweiler'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Haut-Rhin|Owerelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}.
+
+== Gschìcht ==
+Ropperzwiller ìsch zem erschte Mol gnannt worre ànne 1290 àls ''Ropertzwilr'' (1394 ''Raprechtswilr'', 1479 ''Roppenschwiler'').
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Ropperzwiller ìsch {{Maires|FR|{{#Property:P374}}}}. Ropperzwiller ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+===Lischt vun dr Maires zitter 1790===
+{| width=66%
+| valign=top width=33% align=left |
+* Jean Bloch (1790 – 1791)
+* Antoine Schmitt (1791 - 1800)
+* Jean Greter (1800 - 1812)
+* Frédéric Schmitt (1812 - 1816)
+* Morand Schmitt (1816 - 1826)
+* Henri Wermelinger (1826 - 1830)
+* Pierre Brustlein (1830 - 1840)
+* Jean Wermelinger (1840 - 1847)
+* Jean d'Aloïse Schmitt (1847 - 1848)
+* Jean Wermelinger (1848 - 1855)
+* Jean d'Aloïse Schmitt (1855 - 1860)
+* Jean Wermelinger (1860 - 1861)
+* François-Joseph Wermelinger (1861 - 1872)
+| valign=top width=33% align=left |
+* Jean Schmitt (1872 - 1884)
+* François-Joseph Schmitt (1884 - 1900)
+* Henri Wermelinger (1900 - 1914)
+* Henri Seltensperger (1914 - 1919)
+* Jean-Baptiste Wentzel (1919 - 1939)
+* Paul Frey (1939 - 1940)
+* Jules Bloch (1940 - 1944)
+* Paul Frey (1945 - 1953)
+* Emile Demange (1953 - 1971)
+* René Steffan (1971 - 1983)
+* Patrick Kettela (1983 - 2001)
+* Emmanuel Kettela (2001 - 2008)
+* Jean-Claude Eggenspiller (sitt 2008)
+|}
+
+== Bevelkerungsentwìcklung ==
+{| class="wikitable" width=400
+|- align=center class="hintergrundfarbe5"
+|align=left | '''Johr''' || '''1962''' || '''1968''' || '''1975''' || '''1982''' || '''1990''' || '''1999''' || '''2006''' || '''2007'''
+|- align=center
+|align=left|'''Inwohner'''<ref>[[Institut National de la Statistique et des Études Économiques|INSEE]]: ''Population et logements par commune depuis le recensement de 1962 (1961 pour les Dom) à 1999''</ref> || 583 || 623 || 624 || 708 || 736 || 665 || 755 || 753
+|}
+
+== Dialekt ==
+Dr [[Elsässisch|elsassisch]] Dialekt vun Ropperzwiller ghert zem [[Hochalemannisch|Hochàlemànnisch]].
+
+{|
+|[[Datei:Roppentzwiller, Eglise Saint-Jean-Baptiste 2.jpg|thumb|left|upright 1.1|<center>Sìdsitte vun dr Kirich</center>]]
+|[[Datei:Roppentzwiller, Eglise Saint-Jean-Baptiste 1.jpg|thumb|left|upright 0.7|<center>Oschtsitte vun dr Kirich</center>]]
+|}
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+* {{Commonscat|Roppentzwiller|Ropperzwiller}}
+* http://www.roppentzwiller.fr
+
+== Referanza ==
+<references/>
+
+{{Navigationsleiste Gemeinden im Kanton Altkirch}}
+{{Normdaten}}
+
+[[Kategorie:Ort (Owerelsàss)]]

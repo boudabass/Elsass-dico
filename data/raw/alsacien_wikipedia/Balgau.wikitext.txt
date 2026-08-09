@@ -1,0 +1,59 @@
+{{DISPLAYTITLE:Balgäu}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Balgau
+| nomalsacien = Balgäu
+| alt moy = 200
+| alt mini = 198
+| alt maxi = 212
+| km² = 9.49
+|}}
+
+'''Balgäu''' oder '''Balgai''' ([[IPA]]: [{{IPA|b̥alg̊œi̯}}] oder [{{IPA|b̥alg̊ai̯}}]) isch e [[Frankreich|frànzeesche]] Gmein ìm [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}} ({{Kanton|FR|{{#Property:P374}}}}) ìm [[Département Haut-Rhin|Owerelsàss]] (Haut-Rhin).
+
+== Lag ==
+Balgai légt am [[Rheinseitenkanal|Rhisitekanal]] én der Néchi vu me Wald. Nochbergmàinde sén [[Heiteren|Hàitere]] ém Norde, [[Nambsheim|Nambse]] ém Oste, [[Blodelsheim|Blodelse]] ém Side un [[Hirtzfelden|Hértzfàlde]] un [[Rustenhart|Rèschehart]] ém Wèste.
+
+== Gschécht ==
+S àltist Zignis vu mànschliger Bsédlung ésch e alter Grabhégel üs der [[Eisenzeit|Isezit]]. Nét wit vu sàllem ésch e Stroß vu de [[Römer|Rémer]] verloffe. D èrschte urkundlige Erwàhnung erfolgt ém Johr 896 under em Name „Palgowa“ én-e-re Urkunde vum Kloster vu Ménschter. Ab sàllem Johr hat der Ort züe-ne-re Abtèi ghért. Der Name làitet séch vu-ne-re Adelsfamélie üs em 14. un 15. Johrhundert ab. 1281 hat der Kénig Rodolphe s Dèrfle eme Rétter gé, wil er em der Bris vu me Ross gschuldet hat.
+
+S'Dorf isch im [[Dreissigjähriger Krieg|Drissigjährig Krieg]] zerstört worre.
+
+1861 ésch d'Sankt-Nicholas-Kérech (Franzésch ''Eglise Saint-Nicolas'') boie wore. Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Balgai ìsch {{Maires|FR|{{#Property:P374}}}}. Balgai ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Wértschaft ==
+Balgai ésch noch landwértschaftlig bràgt: zu de wéchtigste Wértschaftszwig ghére der Aboi vu Gedràide, d Haltung vu Hiehner vor allem wàge de Àier un d'Zéchtig vu Soi un Rénder. Es gét oi e landwértschaftlige Gnosseschaft.
+
+== Bevelkerungsentwìcklung ==
+{|class="wikitable"
+!|1962
+!|1968
+!|1975
+!|1982
+!|1990
+!|1999
+!|2006
+|-
+| 408 || 421 || 486 || 543 || 629 || 708 || 818
+|}
+
+{|
+|[[Datei:Balgau, Église Saint-Nicolas 1.jpg|thumb|Katholische Kirih Saint-Nicolas vun 1861]]
+|}
+
+== Weblink ==
+* {{Commonscat|Balgau}}
+* [http://www.balgau.fr/ Uftritt von dr Gmeind Balgäu] (französisch)
+* [http://hubert.miehe.free.fr/communes/balgau.htm Balgäu uf em Uftritt vom Kanton Nej-Brisach]
+* [https://web.archive.org/web/20081209040718/http://www.quid.fr/communes.html?mode=detail&id=532&req=Bal&style=fiche Balgäu uf quid.fr]
+
+== Referanza ==
+<references/>
+
+{{Navigationsleiste Gemeinden im Kanton Ensisheim}}
+
+{{Normdaten}}
+
+[[Kategorie:Ort (Owerelsàss)]]

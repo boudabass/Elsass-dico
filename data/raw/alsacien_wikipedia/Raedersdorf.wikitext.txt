@@ -1,0 +1,54 @@
+{{DISPLAYTITLE:Raderschderf}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Raedersdorf
+| nomalsacien = Raderschderf
+| alt moy = 434
+| alt mini = 419
+| alt maxi = 784
+| km² = 7.39
+| image = Raedersdorf, Mairie.jpg
+| description = Mairie
+|}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Raderschderf''' ([[Französische Sprache|frz.]] ''Raedersdorf'', àlt aui ''Rascourt'', [[Deutsche Sprache|dt.]] ''Rädersdorf'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Haut-Rhin|Owerelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}.
+
+== Gschìcht ==
+Raderschderf ìsch zem erschte Mol gnannt worre ànne 1148 àls ''Raiscort'' (1179 ''Rascort'', 1234 ''Redirstorf'').
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Raderschderf ìsch {{Maires|FR|{{#Property:P374}}}}. Raderschderf ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Bevelkerungsentwìcklung ==
+{| class="wikitable" width=400
+|- align=center class="hintergrundfarbe5"
+|align=left | '''Johr''' || '''1962''' || '''1968''' || '''1975''' || '''1982''' || '''1990''' || '''1999''' || '''2007'''
+|- align=center
+|align=left|'''Inwohner'''<ref>[[Institut National de la Statistique et des Études Économiques|INSEE]]: ''Population et logements par commune depuis le recensement de 1962 (1961 pour les Dom) à 1999''</ref> || 396 || 409 || 420 || 441 || 491 || 505 || 501
+|}
+
+== Dialekt ==
+Dr [[Elsässisch|elsassisch]] Dialekt vun Raderschderf ghert zem [[Hochalemannisch|Hochàlemànnisch]].
+
+{|
+|[[Datei:Raedersdorf, Eglise Saint-Étienne.jpg|thumb|left|upright 1.0|<center>St. Stephanus</center>]]
+|[[Datei:Raedersdorf, Chapelle Mariabrunn.jpg|thumb|left|upright 0.95|<center>Kapelle Mariabrunn</center>]]
+|}
+
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+* {{Commonscat|Raedersdorf}}
+* [https://web.archive.org/web/20110707010717/http://www.ccja-jura-alsacien.net/index.php?option=com_content&view=article&id=30&Itemid=62 Raderschderf] uf ccja-jura-alsacien.net (fr)
+
+== Referanza ==
+<references/>
+
+{{Navigationsleiste Gemeinden im Kanton Altkirch}}
+
+{{DEFAULTSORT:Radersdorf}}
+{{Normdaten}}
+
+[[Kategorie:Ort (Owerelsàss)]]

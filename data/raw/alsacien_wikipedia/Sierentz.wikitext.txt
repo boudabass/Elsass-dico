@@ -1,0 +1,59 @@
+{{DISPLAYTITLE:Sierez}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Sierentz
+| nomalsacien = Sierez
+| alt moy = 256
+| alt mini = 244
+| alt maxi = 301
+| km² = 13.22
+| image = Sierentz, Mairie-école.jpg
+| description = Mairie un Schüel
+|}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Sierez''' ([[Französische Sprache|frz.]] ''Sierentz'', [[Deutsche Sprache|dt.]] ''Sierenz'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Haut-Rhin|Owerelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}.
+
+== Gschìcht ==
+Sierez ìsch zem erschte Mol gnannt worre ànne 835 àls ''Serencia''.
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Sierez ìsch {{Maires|FR|{{#Property:P374}}}}. Sierez ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Bevelkerungsentwìcklung ==
+{| class="wikitable"
+!class="hintergrundfarbe5"|Johr
+!class="hintergrundfarbe5"|1962
+!class="hintergrundfarbe5"|1968 
+!class="hintergrundfarbe5"|1975
+!class="hintergrundfarbe5"|1982 
+!class="hintergrundfarbe5"|1990 
+!class="hintergrundfarbe5"|1999
+!class="hintergrundfarbe5"|2006
+|-
+| '''Inwohner'''<ref>[[Institut National de la Statistique et des Études Économiques|INSEE]]: ''Population et logements par commune depuis le recensement de 1962 (1961 pour les Dom) à 1999''</ref> || 1530 || 1633 || 1711 || 1666 || 2106 || 2442 || 2647
+|}
+
+== Dialekt ==
+Dr [[Elsässisch|elsassisch]] Dialekt vun Sierez ghert zem [[Hochalemannisch|Hochàlemànnisch]].
+
+{|
+|[[Datei:Sierentz, Eglise Saint-Martin.jpg|thumb|left|upright 0.5|Kirich St. Martin]]
+|[[Datei:Sierentz, L'auberge Saint-Laurent.jpg|thumb|left|upright 1.2|Wìrtshüs Saint-Laurent]]
+|}
+
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+* {{Commonscat|Sierentz}}
+* http://www.mairie-sierentz.fr
+
+== Referanza ==
+<references/>
+
+{{Navigationsleiste Gemeinden im Kanton Brunstatt}}
+
+{{Normdaten}}
+
+[[Kategorie:Ort (Owerelsàss)]]

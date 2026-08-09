@@ -1,0 +1,55 @@
+{{DISPLAYTITLE:Dàgschdorf}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Tagsdorf
+| nomalsacien = Dàgschdorf
+| alt moy = 302
+| alt mini = 291
+| alt maxi = 388
+| km² = 2.50
+| image = Tagsdorf, Mairie.jpg
+| description = Mairie Dàgschdorf
+|}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Dàgschdorf''' ([[Französische Sprache|frz.]] ''Tagsdorf'', [[Deutsche Sprache|dt.]] ''Tagsdorf'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Haut-Rhin|Owerelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}.
+
+== Geogràfi ==
+Dàgschdorf lijt ìm [[Sundgau|Sundgöi]], fìmf Kilometer eschtlich vun [[Altkirch|Àltkìrech]] un 20 Kilometer sìdlich vun [[Mülhausen (Elsass)|Mìlhüüse]].
+
+== Gschìcht ==
+Dàgschdorf ìsch zem erschte Mol gnannt worre ìm 14. Jh. àls ''Tagstorff''.
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Dàgschdorf ìsch {{Maires|FR|{{#Property:P374}}}}. Dàgschdorf ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Bevelkerungsentwìcklung ==
+{| class="wikitable" width=400
+|- align=center class="hintergrundfarbe5"
+|align=left | '''Johr''' || '''1962''' || '''1968''' || '''1975''' || '''1982''' || '''1990''' || '''1999''' || '''2006'''
+|- align=center
+|align=left|'''Inwohner'''<ref>[[Institut National de la Statistique et des Études Économiques|INSEE]]: ''Population et logements par commune depuis le recensement de 1962 (1961 pour les Dom) à 1999''</ref> || 194 || 211 || 201 || 202 || 262 || 312 || 323
+|}
+
+== Dialekt ==
+Dr [[Elsässisch|elsassisch]] Dialekt vun Dàgschdorf ghert zem [[Oberrheinalemannisch|Owerrhinàlemànnisch]].
+
+<gallery widths="200" heights="180" perrow="2">
+Datei:Tagsdorf, Eglise Saint-Blaise 2.jpg|Kìrech St. Blasius
+Datei:Tagsdorf, Eglise Saint-Blaise 1.jpg|Kìrech St. Blasius
+</gallery>
+
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+{{commonscat|Tagsdorf}}
+
+== Referanza ==
+<references/>
+
+{{Navigationsleiste Gemeinden im Kanton Altkirch}}
+
+{{Normdaten}}
+
+[[Kategorie:Ort (Owerelsàss)]]

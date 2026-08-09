@@ -1,0 +1,63 @@
+{{DISPLAYTITLE:Ìllfert}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Illfurth
+| nomalsacien = Ìllfert
+| alt moy = 263
+| alt mini = 255
+| alt maxi = 391
+| km² = 9.16
+| image = Illfurth, Mairie.jpg
+| description = Mairie Ìllfert
+|}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Ìllfert''' ([[Französische Sprache|frz.]] ''Illfurth'', [[Deutsche Sprache|dt.]] ''Illfurth'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Haut-Rhin|Owerelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}.
+
+== Geogràfi ==
+Ìllfert lijt àm [[Rhein-Rhône-Kanal|Rhin-Rhône-Kànàl]] un àn dr [[Largue (Ill)|Làrg]] zwìsche [[Fröningen|Frehnige]] un [[Tagolsheim|Dàgelse]], 10 Kilometer sìdweschtlich vun [[Mülhausen (Elsass)|Mìlhüüse]]. 
+
+== Gschìcht ==
+Ìllfert ìsch zem erschte Mol gnannt worre ànne 1254 àls ''Illefurt''.
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun ìllfert ìsch {{Maires|FR|{{#Property:P374}}}}. Ìllfert ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Bevelkerungsentwìcklung ==
+{|class="wikitable"
+!|Johr
+!|1962
+!|1968
+!|1975
+!|1982
+!|1990
+!|1999
+!|2006
+!|2007
+|-
+| Inwohner || 1590 || 1671 || 1721 || 1692 || 1828 || 1959 || 2235 || 2282
+|}
+
+== Dialekt ==
+Dr [[Elsässisch|elsassisch]] Dialekt vun Ìllfert ghert zem [[Oberrheinalemannisch|Owerrhinàlemànnisch]].
+
+<gallery widths="210" heights="170" perrow="2">
+Datei:Illfurth, Eglise Saint-Martin.jpg|Kìrch St. Martin
+</gallery>
+
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+{{commonscat}}
+* [http://www.col-ill-illfurth.ac-strasbourg.fr/index.php?option=com_content&view=article&id=4&Itemid=4 Illfurth, localisation et histoire uf dr Site vum Collège de l’Ill] (fr)
+* [https://web.archive.org/web/20101102045159/http://www.cc-secteurdillfurth.fr/communes/illfurth.htm Ìllfert uf cc-secteurdillfurth.fr] (fr)
+
+== Referanza ==
+<references/>
+
+{{Navigationsleiste Gemeinden im Kanton Altkirch}}
+
+{{Normdaten}}
+
+[[Kategorie:Ort (Owerelsàss)]]

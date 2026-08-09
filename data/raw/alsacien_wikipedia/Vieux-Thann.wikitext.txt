@@ -1,0 +1,75 @@
+{{DISPLAYTITLE:Àlt-Dànn}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Vieux-Thann
+| nomalsacien = Àlt-Dànn
+| alt moy = 328
+| alt mini = 312
+| alt maxi = 642
+| km² = 5.11
+| image = Vieux-Thann, Hôtel de ville.jpg
+| description = Hôtel de ville
+|}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Àlt-Dànn''' ([[Französische Sprache|frz.]] ''Vieux-Thann'', [[Deutsche Sprache|dt.]] ''Alt-Thann'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Haut-Rhin|Owerelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}.
+
+== Geogràfi ==
+Àlt-Dànn lijt im Dàl vun dr [[Thur (Elsass)|Thur]] àm Füeß vun dr [[Vogesen|Vogese]]. D Gmein granzt direkt àn d Stàdt [[Thann|Dànn]] un ìsch rund 20 Kilometer witt ewaj vun [[Mülhausen (Elsass)|Milhüüse]] entfernt.
+
+== Gschìcht ==
+Àlt-Dànn ìsch zem erschte Mol gnannt worre ànne 991 àls ''Danne''.
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Àlt-Dànn ìsch {{Maires|FR|{{#Property:P374}}}}. Àlt-Dànn ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+; Maires zitter 1910
+* 1910-1920: Charles Zwingelstein 
+* 1920-1929: Joseph Henry Specht-Pienoz 
+* 1929-1945: André Fellmann 
+* 1945: Sylvestre Kippelen 
+* 1945-1953: Bernard Thierry-Mieg
+* 1953-1971: Marcel Kielwasser 
+* 1971-1992: Henri Burgunder 
+* 1992-2001: Jean-Pierre Meyer
+* 2001-2014: Pierre Muller
+* sit 2014: Daniel Neff
+
+== Bevelkerungsentwìcklung ==
+{| class="wikitable" width=400
+|- align=center class="hintergrundfarbe5"
+|align=left | '''Johr''' || '''1962''' || '''1968''' || '''1975''' || '''1982''' || '''1990''' || '''1999''' || '''2007'''
+|- align=center
+|align=left|'''Inwohner'''<ref>[[Institut National de la Statistique et des Études Économiques|INSEE]]: ''Population et logements par commune depuis le recensement de 1962 (1961 pour les Dom) à 1999''</ref> || 2939 || 3083 || 2889 || 2770 || 2864 || 2979 || 2894
+|}
+
+== Dialekt ==
+Dr [[Elsässisch|elsassisch]] Dialekt vun Àlt-Dànn ghert zem [[Oberrheinalemannisch|Owerrhinàlemànnisch]].
+
+== Böiwark ==
+* Kìrich Saint-Dominique (Schìff 14 Jh., Chor 15. Jh.)
+* Kirich Sainte-Odile
+
+{|
+|[[Datei:Vieux-Thann, Eglise Saint-Dominique.jpg|thumb|left|upright 0.9|Kirich Saint-Dominique]]
+|[[Datei:Vieux-Thann, Clocher de l'église Sainte-Odile.jpg|thumb|left|upright 0.85|Glockedurm vun dr Kirich Sainte-Odile]]
+|}
+
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+* {{Literatur|Sprache=fr|Autor=Ivan Kaemmerlen, Jocelyne Barczykowski|Titel=Vieux-Thann : son site et son histoire|Jahr=1991|Umfang=225|Verlag=Vieux-Thann Autrefois|Online={{Google Buch|BuchID=rnuTKAj1fbsC}}|Hrsg=Schtàdtverwàltung Àlt-Dànn}}
+* {{Literatur|Sprache=fr|Autor=Abbé Jules Gava|Titel=À l'ombre de l'église Notre-Dame de Vieux-Thann : le couvent de religieuses, 1289-1790|Online={{Google Buch|BuchID=NkJEGwAACAAJ}}|Umfang=63|Verlag=[[Alsatia-Verlag|Alsatia]]|Jahr=1955}}
+* {{Literatur|Sprache=fr|Autor=Alexandre Straub|Titel=L’église de Vieux-Thann|Online={{Google Buch|BuchID=jGE9AsHcUCQC}}|Umfang=20|Jahr=1875|Verlag=Schultz}}
+
+== Weblink ==
+* {{Commonscat|Vieux-Thann}}
+* [https://web.archive.org/web/20100603162840/http://www.vieuxthann.fr/joomthann/ Àlt-Dànn]
+* [https://web.archive.org/web/20120123194513/http://www.ccpaysdethann.fr/spip/spip.php?article12&res=1680#vieuxthann Àlt-Dànn] bi dr ''Communauté de communes du Pays de Thann''
+
+== Referanza ==
+<references/>
+
+{{Navigationsleiste Gemeinden im Kanton Sennheim}}
+{{Normdaten}}
+
+[[Kategorie:Ort (Owerelsàss)]]

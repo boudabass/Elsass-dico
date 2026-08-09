@@ -1,0 +1,49 @@
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Saint-Cosme
+| nomalsacien = Sàm Koschma
+| alt moy = 361
+| alt mini = 319
+| alt maxi = 391
+| km² = 2.71
+| image = Saint-Cosme, Mairie.jpg
+| description = <center>Mairie
+|}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Saint-Cosme''' ([[Elsässisch|els.]] ''Sàm Koschma'', [[Deutsche Sprache|dt.]] ''Sankt Kosman'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Haut-Rhin|Owerelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}.
+
+== Geogràfi ==
+Saint-Cosme lijt àn dr [[Burgundische Pforte|Burgundische Pfort]] àn dr Grenz zue dr Region [[Franche-Comté]]. Ìm Oschte vun dr Gmein fließt dr Tröibàch, wie ìn d [[Largue (Ill)|Làrg]] mìndet. Nochbergmeine vun Saint-Cosme sìn [[Bellemagny]] ìm Norde, [[Gevenatten|Gavenàtt]] ìm Oschte, [[Brückensweiler|Bruckedswiller]] ìm Sìde, [[Reppe]] ìm Sìdweschte un [[Vauthiermont]] ìm Weschte.
+
+== Gschìcht ==
+Saint-Cosme ìsch zem erschte Mol gnannt worre ìm 14. Jh.àls ''Engelsmarswiller'' (15. Jh. ''Gumpfharczwilr'', 1441 ''Rector in Engelmanswilr sancti Cosme'', 1576 ''S. Gosman'', 1579 ''S. Cosman'').
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Saint-Cosme ìsch {{Maires|FR|{{#Property:P374}}}}. Saint-Cosme ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Dialekt ==
+Dr [[Langues d'oïl|romànisch]] Dialekt vun Saint-Cosme ghert zem [[Franc-comtois]].
+
+== Böiwark ==
+* Kìrich Saint-Côme et Saint-Damien (Glockedurm 12.-14. Jh., Schìff 15. Jh.)
+
+<gallery widths="200" heights="160" perrow="2">
+Datei:Saint-Cosme, Eglise Saint-Côme et Saint-Damien 2.jpg|<center>Kìrich, Sìdoschtsitt
+Datei:Saint-Cosme, Eglise Saint-Côme et Saint-Damien 1.jpg|<center>Kìrich, Sìdweschtsitt
+</gallery>
+
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+{{Commonscat|Saint-Cosme}}
+
+== Referanza ==
+<references/>
+
+{{Navigationsleiste Gemeinden im Kanton Dannemarie}}
+
+{{Normdaten}}
+
+[[Kategorie:Ort (Owerelsàss)]]

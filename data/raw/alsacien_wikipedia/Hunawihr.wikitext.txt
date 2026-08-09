@@ -1,0 +1,54 @@
+{{DISPLAYTITLE:Hunewihr}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Hunawihr
+| nomalsacien = Hunewihr
+| alt moy = 263
+| alt mini = 228
+| alt maxi = 686
+| km² = 4.81
+| image = Hunawihr1P7.jpg
+| description = Hunewihr
+|}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Hunewihr''' ([[Französische Sprache|frz.]] ''Hunawihr'', [[Deutsche Sprache|dt.]] ''Hunaweier'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Haut-Rhin|Owerelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}.
+
+== Gschìcht ==
+Hunewihr ìsch zem erschte Mol gnannt worre ànne 1114 àls ''Hunniville''.
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Hunewihr ìsch {{Maires|FR|{{#Property:P374}}}}. Hunewihr ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Bevelkerungsentwìcklung ==
+{| class="wikitable" width=400
+|- align=center class="hintergrundfarbe5"
+|align=left | '''Johr''' || '''1962''' || '''1968''' || '''1975''' || '''1982''' || '''1990''' || '''1999''' || '''2006''' 
+|- align=center
+|align=left|'''Inwohner'''<ref>[[Institut National de la Statistique et des Études Économiques|INSEE]]: ''Population et logements par commune depuis le recensement de 1962 (1961 pour les Dom) à 1999''</ref> || 518 || 523 || 521 || 537 || 503 || 511 || 591
+|}
+
+== Dialekt ==
+Dr [[Elsässisch|elsassisch]] Dialekt vun Hunewihr ghert zem [[Oberrheinalemannisch|Owerrhinàlemànnisch]].
+
+<gallery widths=150>
+Datei:Hunawihr 042.JPG|Kirich ''Saint-Jacques''
+Datei:Hunawihr 065.JPG|Rothüs
+Datei:Hunawihr 044.JPG|Brunne z Hunewihr
+</gallery>
+
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+{{Commonscat|Hunawihr}}
+* [https://web.archive.org/web/20111030030547/http://www.alsace-route-des-vins.com/NewVersion/index.cfm/fuseaction/Villages.ShowVillage/ID/25/Language/de.cfm Hunewihr] uf www.alsace-route-des-vins.com
+
+== Referanza ==
+<references/>
+
+{{Navigationsleiste Gemeinden im Kanton Markirch}}
+
+{{Normdaten}}
+
+[[Kategorie:Ort (Owerelsàss)]]

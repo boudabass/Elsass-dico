@@ -1,0 +1,63 @@
+{{DISPLAYTITLE:Haiflìnge}}
+{{Infobox Ortsteil einer Gemeinde in Frankreich
+|nomhameau=Haiflìnge
+|armoiries=Blason de la ville d'Henflingen (68).svg
+|commune=[[Illtal]]
+|région=[[Grand Est]]
+|département=[[Département Haut-Rhin|Owerelsàss]]
+|arrondissement=[[Arrondissement Altkirch|Àltkirech]]
+|datefusion=1. Janner 2016
+|insee=68133
+|cp=68960
+|status=cd
+|longitude=07/17/19/O
+|latitude=47/34/27/N
+|alt mini=329
+|alt maxi=419
+|siteweb=
+|image=Henflingen, Mairie.jpg
+|image-desc=àlte Mairie
+}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Haiflìnge''' ([[Französische Sprache|frz.]] ''Henflingen'', [[Deutsche Sprache|dt.]] ''Henflingen'') ìsch e ehmolige [[Frankreich|frànzeesche]] Gmein ìm [[Département Haut-Rhin|Owerelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]).
+
+== Geogràfi ==
+Haiflìnge lijt àn dr owere [[Ill (Elsass)|Ill]] ìm [[Sundgau|Sundgöi]], àcht Kilometer sìdeschtlich vun [[Altkirch|Àltkìrech]] un 24 Kilometer weschtlich vun [[Basel|Bàsel]]. Nochbergmeine vun Haiflìnge sìn [[Rüderbach|Rüederbi]] un [[Bettendorf (Oberelsass)|Batterf]] ìm Weschte un Norde, [[Weiler (Oberelsass)|Willer]] ìm Nordoschte un [[Grenzingen|Granzìnge]] ìm Sìde.
+
+== Gschìcht ==
+Haiflìnge ìsch zem erschte Mol gnannt worre ànne 1421 àls ''Henflingen '' (1451 ''Hänflingen'', 1576 ''Hempfling'', 1793 ''Hemflingen'', 1801 ''Henfflingen'').
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+Àm [[1. Januar|1. Janner]] [[2016]] ìsch sa mìt dr Gmeine [[Grenzingen|Granzìnge]] un [[Oberdorf (Oberelsass)|Oberdorf]] züe [[Illtal|Ìlltàl]] füsioniert worda.
+
+== Verwàltung ==
+Dr letscht Maire vun Haiflìnge ìsch bìs 2015 dr Alain Schmitt gsin.
+
+== Bevelkerungsentwìcklung ==
+{|class = "wikitable"
+!|Johr
+!|1962
+!|1968
+!|1975
+!|1982
+!|1990
+!|1999
+!|2007
+|-
+| Inwohner || 106 || 116 || 121 || 130 || 135 || 173 || 190
+|}
+
+== Dialekt ==
+Dr [[Elsässisch|elsassisch]] Dialekt vun Haiflìnge ghert zem [[Hochalemannisch|Hochàlemànnisch]].
+
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+{{Commonscat|Henflingen}}
+* [http://www.cc-canton-hirsingue.com/les-communes/henflingen/ Haiflìnge]{{Toter Link|date = 2017-09 |bot = InternetArchiveBot |url = http://www.cc-canton-hirsingue.com/les-communes/henflingen/}} bi dr CC Canton Hirsingue
+
+{{Normdaten}}
+
+[[Kategorie:Ort (Owerelsàss)]]

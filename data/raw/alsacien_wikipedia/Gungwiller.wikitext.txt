@@ -1,0 +1,44 @@
+{{DISPLAYTITLE:Gungwiller}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Gungwiller
+| nomalsacien = Gungwiller
+| alt moy = 303–358
+| km² = 1.65
+|}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Gungwiller''' ([[Französische Sprache|frz.]] ''Gungwiller'', [[Deutsche Sprache|dt.]] ''Gungweiler'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Bas-Rhin|Unterelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}.
+
+== Gschìcht ==
+Gungwiller ìsch zem erschte Mol gnannt worre ànne 830.
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Gungwiller ìsch {{Maires|FR|{{#Property:P374}}}}. Gungwiller ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Bevelkerungsentwìcklung ==
+{| class="wikitable" width=400
+|- align=center class="hintergrundfarbe5"
+|align=left | '''Johr''' || '''1962''' || '''1968''' || '''1975''' || '''1982''' || '''1990''' || '''1999''' || '''2007'''
+|- align=center
+|align=left|'''Inwohner'''<ref>[[Institut National de la Statistique et des Études Économiques|INSEE]]: ''Population et logements par commune depuis le recensement de 1962 (1961 pour les Dom) à 1999''</ref> || 241 || 265 || 310 || 263 || 219 || 233 || 290
+|}
+
+== Dialekt ==
+Dr [[Lothringisch (Rheinfränkisch)|lothringisch]] Dialekt vun Gungwiller ghert zem [[Rheinfränkisch|Rhinfrankisch]].
+
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+{{Commonscat|Gungwiller}}
+* [https://web.archive.org/web/20160304082248/http://www.cc-alsace-bossue.net/html/index.php?page=2&menu1=17&menu2=1&menu3=6&page_id=739 Gungwiller] uf cc-alsace-bossue.net
+
+== Referanza ==
+<references />
+
+{{Navigationsleiste Gemeinden im Kanton Ingweiler}}
+
+{{Normdaten}}
+
+[[Kategorie:Ort (Unterelsass)]]

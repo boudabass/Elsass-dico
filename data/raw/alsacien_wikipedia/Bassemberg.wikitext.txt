@@ -1,0 +1,56 @@
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Bassemberg
+| nomalsacien = Bàssebari
+| alt moy = 275–616
+| km² = 1.78
+| image = Bassemberg_071.JPG
+| description = Bassemberg
+|}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Bassemberg''' ([[Elsässisch|els.]] ''Bàssebari'', [[Deutsche Sprache|dt.]] ''Bassenberg'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Bas-Rhin|Unterelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}.
+
+== Geogràfi ==
+Bassemberg lijt in dr [[Vogesen|Vogese]], rund zwei Kilometer nordeschtlich vun [[Villé]] àn dr Departementsstroß D&nbsp;39. Durich Bassemberg fließt dr Bach ''[[Giessen (Ill)|Giessen]]''.
+
+== Gschìcht ==
+Bassemberg ìsch zem erschte Mol gnannt worre ànne 1361 àls ''Bassenberg ''.
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Bassemberg ìsch {{Maires|FR|{{#Property:P374}}}}. Bassemberg ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Bevelkerungsentwìcklung ==
+{| class="wikitable" width=400
+|- align=center class="hintergrundfarbe5"
+|align=left | '''Johr''' || '''1962''' || '''1968''' || '''1975''' || '''1982''' || '''1990''' || '''1999''' || '''2006'''
+|- align=center
+|align=left|'''Inwohner'''<ref>[[Institut National de la Statistique et des Études Économiques|INSEE]]: ''Population et logements par commune depuis le recensement de 1962 (1961 pour les Dom) à 1999''</ref> || 213 || 216 || 197 || 187 || 234 || 232 || 264
+|}
+
+== Dialekt ==
+Dr [[Langues d'oïl|romànisch]] Dialekt vun Bassemberg ghert zem [[Welche (Langue d'oïl)|Welche]] un domìt zem [[Lorrain]].
+
+== Böiwark ==
+* Kìrich Saint-Quirin (1751)
+* Àlte Synàgog, ìm Oktower 2011 àbgebrannt
+
+<gallery>
+Datei:Bassemberg 042.JPG|<center>Kìrich Saint-Quirin
+Datei:Bassemberg 057.JPG|<center>Hàuiptstroß
+Datei:Bassemberg 066.JPG|<center>Le Giessen
+</gallery>
+
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+{{commonscat}}
+
+== Referanza ==
+<references />
+
+{{Navigationsleiste Gemeinden im Kanton Mutzig}}
+{{Normdaten}}
+
+[[Kategorie:Ort (Unterelsass)]]

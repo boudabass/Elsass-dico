@@ -1,0 +1,60 @@
+{{DISPLAYTITLE:Reinige}}
+{{Dieser Artikel|bhandlet d Gmein ìm Arrondissement Milhüüse. Wyteri Bedütige vo „Reiningen“ findsch [[Reiningen (Begriffsklärung)|doo]].}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Reiningue
+| nomalsacien = Reinige
+| alt moy = 264
+| alt mini = 255
+| alt maxi = 297
+| km² = 18.54
+| image = Reiningue, Eglise Saint-Romain 1.jpg
+| description = Kirich Saint Romain
+|}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Reinige''' ([[Französische Sprache|frz.]] ''Reiningue'', [[Deutsche Sprache|dt.]] ''Reiningen'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Haut-Rhin|Owerelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}.
+
+== Gschìcht ==
+Reinige ìsch zem erschte Mol gnannt worre ànne 837 àls ''Reiningen''.
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Reinige ìsch {{Maires|FR|{{#Property:P374}}}}. Reinige ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+==Bevelkerungsentwicklung ==
+{| class="wikitable" width=400
+|- align=center class="hintergrundfarbe5"
+|align=left | '''Johr''' || '''1962''' || '''1968''' || '''1975''' || '''1982''' || '''1990''' || '''1999''' || '''2006'''
+|- align=center
+|align=left|'''Inwohner'''<ref>[[Institut National de la Statistique et des Études Économiques|INSEE]]: ''Population et logements par commune depuis le recensement de 1962 (1961 pour les Dom) à 1999''</ref> || 1500 || 1536 || 1759 || 1701 || 1683 || 1630 || 1696
+|}
+
+== Dialekt ==
+Dr [[Elsässisch|elsassisch]] Dialekt vun Reinige ghert zem [[Oberrheinalemannisch|Owerrhinàlemànnisch]].
+
+== Sehenswerdigkeite ==
+* d [[Abtei Oelenberg|Abtei Eelabarg]] vum XI. Johrhundert
+* d Pfarrkirich Saint-Romain vum XVII. Johrhundert
+* d Kapelle Deckwiller us em Johr 1931
+
+<gallery>
+Datei:Abbaye-oelenberg-1.jpg|<center>Abtei Eelabarg</center>
+Datei:Chapelle Deckwiller Reiningue 2008.jpg|<center>Kapelle Deckwiller</center>
+Datei:Reiningue, Château d'Eau.jpg|<center>Wasserturm</center>
+</gallery>
+
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+{{Commonscat|Reiningue|Reinige}}
+* http://www.mairie-reiningue.fr
+
+== Referanza ==
+<references />
+
+{{Navigationsleiste Gemeinden im Kanton Kingersheim}}
+
+{{Normdaten}}
+
+[[Kategorie:Ort (Owerelsàss)]]

@@ -1,0 +1,67 @@
+{{DISPLAYTITLE:Ewersulzbàch}}
+{{Infobox Ortsteil einer Gemeinde in Frankreich
+|nomhameau=Ewersulzbàch
+|commune=[[Le Haut Soultzbach]]
+|armoiries=Blason de la ville de Soppe-le-Haut (68).svg
+|région=[[Grand Est]]
+|département=[[Département Haut-Rhin|Owerelsàss]]
+|arrondissement=[[Arrondissement Thann-Guebwiller|Dànn-Gawiller]]
+|datefusion=1. Janner
+|status=cd
+|insee=68314
+|cp=68780
+|latitude=47/43/55/N
+|longitude=07/03/39/O
+|alt mini=317
+|alt maxi=403
+|km²=7.37
+|siteweb=
+|image=Soppe-le-Haut, Mairie.jpg
+|image-desc=àlte Mairie
+}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Ewersulzbàch''' ([[Französische Sprache|frz.]] ''Soppe-le-Haut'', [[Deutsche Sprache|dt.]] ''Obersulzbach'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Haut-Rhin|Owerelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]) gsin.
+
+== Gschìcht ==
+Ewersulzbàch ìsch zem erschte Mol gnannt worre ànne 1105 àls ''Suspa'', 1185: ''Sulcebach'', 1302: ''Sulzebach Inferior''. 
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+Zem 1. Janner 2016 hàt d Gmein mit [[Morzweiler|Morzwiller]] züe [[Le Haut Soultzbach]] füsioniert.
+
+== Verwàltung ==
+Dr letscht Maire vun Morzwiller bìs 2015 ìsch dr Franck Dudt gsin.
+
+== Bevelkerungsentwìcklung ==
+{| class = "wikitable"
+|-class = "hintergrundfarbe8"
+!Johr
+!1962
+!1968 
+!1975
+!1982
+!1990
+!1999
+!2006
+|- align = center
+| Inwohner || 278 || 284 || 304 || 348 || 378 || 588 || 741
+|}
+
+== Dialekt ==
+Dr [[Elsässisch|elsassisch]] Dialekt vun Ewersulzbàch ghert zem [[Oberrheinalemannisch|Owerrhinàlemànnisch]].
+
+{|
+| [[Datei:Soppe-le-Haut, Eglise Sainte-Marguerite 1.jpg|thumb|left|upright 0.95|<center>Sainte-Marguerite, Sìdsite</center>]]
+| [[Datei:Soppe-le-Haut, Eglise Sainte-Marguerite 2.jpg|thumb|left|upright 1.2|<center>Sainte-Marguerite, Oschtsite</center>]]
+|}
+
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+* {{Commonscat|Soppe-le-Haut}}
+* [https://web.archive.org/web/20130902125207/http://www.vallee-doller.com/index.php?option = com_content&task = view&id = 43&Itemid = 69 Ewersulzbàch] bi dr CC Vallée de la Doller et du Soultzbach (fr)
+
+{{Normdaten}}
+
+[[Kategorie:Ort (Owerelsàss)]]

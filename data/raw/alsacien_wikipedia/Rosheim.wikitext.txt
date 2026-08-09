@@ -1,0 +1,70 @@
+{{DISPLAYTITLE:Roose}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Rosheim
+| nomalsacien = Roose
+| alt moy = 164–842
+| km² = 29.55
+| image = Rosheim, Hôtel de ville et puits.JPG
+| description = Rothüs
+|}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Roose''' ([[Französische Sprache|frz.]] ''Rosheim'', [[Deutsche Sprache|dt.]] ''Rosheim'') ìsch e [[Frankreich|frànzeesche]] Stàdt ìm [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}} ({{Kanton|FR|{{#Property:P374}}}}) im [[Département Bas-Rhin|Unterelsàss]] (Bas-Rhin).
+
+== Gschìcht ==
+Roose ìsch zem erschte Mol gnannt worre ànne 778 àls ''Rodasheim''. S Stàdtracht het d Gmein ànne 1262 bikumme, verbunde mìt em Racht, e Stàdtmüür ze böie. 1303 ìsch Roose Richsstàdt wore, ìm Johr 1354 hàt sa züe dr Stedt ghert, wie d [[Zehnstädtebund|Dekapolis]] grìndt han.
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Roose ìsch {{Maires|FR|{{#Property:P374}}}}. Roose ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Bevelkerungsentwìcklung ==
+{| class="wikitable" width=400
+|- align=center class="hintergrundfarbe5"
+|align=left | '''Johr''' || '''1962''' || '''1968''' || '''1975''' || '''1982''' || '''1990''' || '''1999''' || '''2007'''
+|- align=center
+|align=left|'''Inwohner'''<ref>[[Institut National de la Statistique et des Études Économiques|INSEE]]: ''Population et logements par commune depuis le recensement de 1962 (1961 pour les Dom) à 1999''</ref> || 3004 || 3291 || 3499 || 3766 || 4016 || 4548 || 4721
+|}
+
+== Dialekt ==
+Dr [[Elsässisch|elsassisch]] Dialekt vun Roose ghert zem [[Oberrheinalemannisch|Owerrhinàlemànnisch]].
+
+== Böiwark ==
+* Kìrich St. Peter und Paul (12. Jh., Orgele vum Andreas Silbermann, 1733)
+* Kìrich Saint-Étienne (Stefanskìrich) (18. Jh. Glockedurm üs em 12. Jh.)
+* Romànisch Wohnhüs ''Maison païenne'' („Heidehüs“) (12. Jh.)
+* Rothüs (18. Jahrhundert)
+* ''Puits à six seaux'' („Sachseimerbrunne“) (17. Jh.)
+* Vier Dordirm (13. un 14. Johrhundert)
+* Fàchwarkhiser (16. Jahrhundert)
+* Synàgog (neoromànisch, 1884)
+
+<gallery widths="200" heights="180" perrow="2">
+Datei:SaintPierreNord.jpg|Kìrich St. Peter und Paul (12. Jh.)
+Datei:Rosheim maison romane.jpg|S ''Heidehüs'' (12. Jh.)
+</gallery>
+
+== Pàrtnergmeine ==
+* [[Datei:Flag of Germany.svg|20px]] [[Kappelrodeck|Kabbl]], Ditschlànd
+
+== Litt ==
+* Heinrich Eggestein (ca. 1415–1488), Pionier vum Büechdruck
+* Jean-Marie Lehn (* 1939), Nobelpriis fìr Chemi 1987
+* Claude Vasconi (1940–2009), Architekt
+
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+* {{Commonscat|Rosheim}}
+* {{Wikisource|Topographia_Alsatiae_(Elsass):_Roßheim|Rosheim in der Topographia Alsatiae (M. Merian)}}
+* [https://web.archive.org/web/20090227070605/http://rosheim.com/home/fr/home/ www.rosheim.com]
+
+== Referanza ==
+<references/>
+
+{{Navigationsleiste Gemeinden im Kanton Molsheim}}
+
+{{Normdaten}}
+
+[[Kategorie:Ort (Unterelsass)]]

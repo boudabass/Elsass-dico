@@ -1,0 +1,48 @@
+{{DISPLAYTITLE:Barrwiller}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Berrwiller
+| nomalsacien = Barrwiller
+| alt moy = 259
+| alt mini = 244
+| alt maxi = 360
+| km² = 7.66
+| image = Berrwiller, Mairie.jpg
+| description = Mairie
+|}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Barrwiller''' ([[Französische Sprache|frz.]] ''Berrwiller'', [[Deutsche Sprache|dt.]] ''Berrweiler'') ìsch a [[Frankreich|frànzeescha]] Gmeind ìm [[Département Haut-Rhin|Owerelsàss]] ìn der [[Region (Frankreich)|Region]] [[Grand Est]] (bis 2015 Region [[Elsass|Elsàss]]). D Gmeinda gheert zum {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}.
+
+== Gschìcht ==
+Barrwiller ìsch zum erschta Mol gnannt wurra ànna 796 àls ''Baronewillare'' (1230 ''Berwilre'').
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vu Barrwiller ìsch {{Maires|FR|{{#Property:P374}}}}. Barrwiller gheert zum Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}} .
+
+== Bevälkerungsentwìcklung ==
+{| class="wikitable" width=400
+|- align=center class="hintergrundfarbe5"| Bevölkerungsentwicklung
+|align=left | '''Johr''' || '''1962''' || '''1968''' || '''1975''' || '''1982''' || '''1990''' || '''1999''' || '''2006'''
+|- align=center
+|align=left|'''Iwohner''' || 671 || 719 || 797 || 870 || 912 || 1058 || 1113 
+|}
+
+== Dialekt ==
+Der [[Elsässisch|elsassisch]] Dialekt vu Barrwiller gheert zum [[Oberrheinalemannisch|Owerrhinàlemànnisch]].
+
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblìnk ==
+* {{Commonscat|Berrwiller}}
+* [https://web.archive.org/web/20110425031135/http://www.tourisme-mulhouse.com/de/berrwiller.html Àbriss vu der Gschìcht vu Barrwiller]
+
+== Referanza ==
+<references/>
+
+{{Navigationsleiste Gemeinden im Kanton Wittenheim}}
+
+{{Normdaten}}
+
+[[Kategorie:Ort (Owerelsàss)]]

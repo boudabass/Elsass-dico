@@ -1,0 +1,60 @@
+{{DISPLAYTITLE:Ràppschwihr}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Ribeauvillé
+| nomalsacien = Ràppschwihr
+| alt moy = 252
+| alt mini = 188
+| alt maxi = 989
+| km² = 32.21
+| image = Ribeauville-centre-aerien.jpg
+| description = Ràppschwihr, Lufbìld
+|}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Ràppschwihr''' ([[Französische Sprache|frz.]] ''Ribeauvillé'', [[Deutsche Sprache|dt.]] ''Rappoltsweiler'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Haut-Rhin|Owerelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}.
+
+== Gschìcht ==
+Ràppschwihr ìsch zem erschte Mol gnannt worre ànne 759 àls ''Ratboldovilare''.
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Ràppschwihr ìsch {{Maires|FR|{{#Property:P374}}}}. Ràppschwihr ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Bevelkerungsentwìcklung ==
+{| class="wikitable" width=400
+|- align=center class="hintergrundfarbe5"
+|align=left | '''Johr''' || '''1962''' || '''1968''' || '''1975''' || '''1982''' || '''1990''' || '''1999''' || '''2006''' 
+|- align=center
+|align=left|'''Inwohner'''<ref>[[Institut National de la Statistique et des Études Économiques|INSEE]]: ''Population et logements par commune depuis le recensement de 1962 (1961 pour les Dom) à 1999''</ref> || 4314 || 4137 || 4282 || 4506 || 4774 || 4929 || 4973
+|}
+
+== Dialekt ==
+Dr [[Elsässisch|elsassisch]] Dialekt vun Ràppschwihr ghert zem [[Oberrheinalemannisch|Owerrhinàlemànnisch]].
+
+<gallery widths="200" heights="180" perrow="2">
+Datei:Fachwerkgasse1P7 Rappoltsweier.jpg|Fàchwarikgàss
+Datei:Ribeauvillé Burg.JPG|Àltstàdt
+</gallery><gallery widths="200" heights="180" perrow="2">
+Datei:Fortress St. Ulrich.jpg|Ulrichsburig
+Datei:Notre_Dame_de_Dusenbach.JPG|Wàllfàhrtskirich Düsebàch
+</gallery>
+
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+{{commonscat|Ribeauvillé|Ràppschwihr}}
+{{Wikisource|Topographia Alsatiae:_Rapoltzweyer|Ribeauvillé in der Topographia Alsatiae (M. Merian)}}
+* http://www.ribeauville.net
+* [https://web.archive.org/web/20110130104356/http://www.eisenburger.de/Reisen/frankreich/frankreich__elsass_-_ribeauvil/frankreich__elsass_-_ribeauvil.html Impressione üs Ràppschwihr]
+* [https://web.archive.org/web/20090417064359/http://www.ribeauville-riquewihr.com/client/index.php?idsite=1&lang=GE Informatione fir Tourischte]
+* [http://perso.orange.fr/capucins/frats/dusen_guide.htm Notre-Dame de Dusenbach]{{Toter Link|date=2017-10 |bot=InternetArchiveBot |url=http://perso.orange.fr/capucins/frats/dusen_guide.htm}}
+
+== Referanza ==
+<references/>
+
+{{Navigationsleiste Gemeinden im Kanton Markirch}}
+
+{{Normdaten}}
+
+[[Kategorie:Ort (Owerelsàss)]]

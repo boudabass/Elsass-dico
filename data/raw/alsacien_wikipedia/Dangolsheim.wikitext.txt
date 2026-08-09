@@ -1,0 +1,50 @@
+{{DISPLAYTITLE:Dàngelse}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Dangolsheim
+| nomalsacien = Dàngelse
+| alt moy = 172–384
+| km² = 4.47
+|}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Dàngelse''' ([[Französische Sprache|frz.]] ''Dangolsheim'', [[Deutsche Sprache|dt.]] ''Dangolsheim'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Bas-Rhin|Unterelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}.
+
+== Gschìcht ==
+Dàngelse ìsch zem erschte Mol gnannt worre ànne 758 àls ''Danckratzheim''.
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Dàngelse ìsch {{Maires|FR|{{#Property:P374}}}}. Dàngelse ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Bevelkerungsentwìcklung ==
+{| class="wikitable" width=400
+|- align=center class="hintergrundfarbe5"
+|align=left | '''Johr''' || '''1962''' || '''1968''' || '''1975''' || '''1982''' || '''1990''' || '''1999''' || '''2006'''
+|- align=center
+|align=left|'''Inwohner'''<ref>[[Institut National de la Statistique et des Études Économiques|INSEE]]: ''Population et logements par commune depuis le recensement de 1962 (1961 pour les Dom) à 1999''</ref> || 446 || 503 || 531 || 514 || 493 || 603 || 624
+|}
+
+== Dialekt ==
+Dr [[Elsässisch|elsassisch]] Dialekt vun Dàngelse ghert zem [[Oberrheinalemannisch|Owerrhinàlemànnisch]].
+
+<gallery widths="200" heights="180" perrow="2" caption="Kirich Saint-Pancrace">
+Datei:Dangolsheim, Eglise Saint-Pancrace 1.jpg
+Datei:Dangolsheim, Eglise Saint-Pancrace 2.jpg
+</gallery>
+
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+{{Commonscat}}
+* https://web.archive.org/web/20190803144622/http://dangolsheim.free.fr/
+* [https://web.archive.org/web/20081113015546/http://www.cc-porteduvignoble.fr/index.php?rub1=communes&rub2=communes_e&rubid=5977 Dàngelse] uf www.cc-porteduvignoble.fr
+
+== Referanza ==
+<references />
+
+{{Navigationsleiste Gemeinden im Kanton Molsheim}}
+
+{{Normdaten}}
+
+[[Kategorie:Ort (Unterelsass)]]

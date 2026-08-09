@@ -1,0 +1,55 @@
+{{DISPLAYTITLE:Hìttene}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Huttenheim
+| nomalsacien = Hìttene
+| alt moy = 156–162
+| km² = 12.55
+| image = Huttenheim-maison.jpg
+| description = Fàchwarikhüs z Hìttene 
+|}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Hìttene''' ([[Französische Sprache|frz.]] ''Huttenheim'', [[Deutsche Sprache|dt.]] ''Hüttenheim'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Bas-Rhin|Unterelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}.
+
+== Gegràfi ==
+Hìttene lijt sìdlich vun [[Benfeld|Banfald]] uf 160 m NN.
+
+== Gschìcht ==
+Hìttene ìsch zem erschte Mol gnannt worre ànne 770.
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Hìttene ìsch {{Maires|FR|{{#Property:P374}}}}. Hìttene ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Bevelkerungsentwìcklung ==
+{| class="wikitable" width=400
+|- align=center class="hintergrundfarbe5"
+|align=left | '''Johr''' || '''1962''' || '''1968''' || '''1975''' || '''1982''' || '''1990''' || '''1999''' || '''2004'''
+|- align=center
+|align=left|'''Inwohner'''<ref>[[Institut National de la Statistique et des Études Économiques|INSEE]]: ''Population et logements par commune depuis le recensement de 1962 (1961 pour les Dom) à 1999''</ref> || 1625 || 1893 || 2062 || 1974 || 1999 || 2094 || 2220
+|}
+
+== Dialekt ==
+Dr [[Elsässisch|elsassisch]] Dialekt vun Hìttene ghert zem [[Oberrheinalemannisch|Owerrhinàlemànnisch]].
+
+<gallery widths="200" heights="180" perrow="2">
+Datei:Huttenheim-église.jpg|<center>Kirich
+Datei:Huttenheim-chapelle.jpg|<center>Kàpall Notre-Dame du Grasweg (1420)
+</gallery>
+
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+{{Commonscat|Huttenheim|Hìttene}}
+* http://www.mairie-huttenheim.fr
+* [https://web.archive.org/web/20130905163152/http://cc-benfeld.fr/commune/huttenheim.htm Hìttene] uf www.cc-benfeld.fr
+
+== Referanza ==
+<references />
+
+{{Navigationsleiste Gemeinden im Kanton Benfeld}}
+{{DEFAULTSORT:Huttenheim}}
+{{Normdaten}}
+
+[[Kategorie:Ort (Unterelsass)]]

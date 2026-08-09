@@ -1,0 +1,50 @@
+{{DISPLAYTITLE:Bäredorf}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Baerendorf
+| nomalsacien = Bäredorf
+| alt moy = 237–332
+| km² = 7.53
+|}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Bäredorf''' ([[Französische Sprache|frz.]] ''Baerendorf'', [[Deutsche Sprache|dt.]] ''Bärendorf'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Bas-Rhin|Unterelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}.
+
+== Geogràfi ==
+Bäredorf lijt im [[Krummes Elsass|Krumme Elsàss]] àn dr Granz züe [[Lothringen|Lothringe]]. D Nochbergmeine sìn [[Postroff]] ìm Norde, [[Eschweiler (Unterelsass)|Eschwiller]] ìm Nordoschte, [[Hirschland|Hìrschlànd]] ìm Oschte, [[Rauweiler|Ruuwiller]] ìm Sìdoschte, [[Görlingen|Geerlinge]] ìm Sìde un [[Kirrberg (Unterelsass)|Kieberich]] ìm Weschte.
+
+== Gschìcht ==
+Bäredorf ìsch zem erschte Mol gnannt worre ànne 718 àls ''Berunivillare''. S Dorf hàt züe dr [[Grafschaft Saarwerden|Grofschàft Soorwerde]] ghert, speter züe dr [[Herrschaft Finstingen|Herrschàft Finschtinge]], zum [[Lothringen|Herzogtum Lothringe]] un züe dr [[Grafschaft Nassau-Saarbrücken|Grofschàft Nassau-Soorbrìcke]]. Ànne 1793 ìsch s züe Frànkrich kumme.
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Bäredorf ìsch {{Maires|FR|{{#Property:P374}}}}. Bäredorf ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Bevelkerungsentwìcklung ==
+{| class="wikitable" width=400
+|- align=center class="hintergrundfarbe5"
+|align=left | '''Johr''' || '''1962''' || '''1968''' || '''1975''' || '''1982''' || '''1990''' || '''1999''' || '''2008'''
+|- align=center
+|align=left|'''Inwohner'''<ref>[[Institut National de la Statistique et des Études Économiques|INSEE]]: ''Population et logements par commune depuis le recensement de 1962 (1961 pour les Dom) à 1999''</ref> || 310 || 318 || 313 || 294 || 295 || 305 || 302
+|}
+
+== Dialekt ==
+Dr [[Lothringisch (Rheinfränkisch)|lothringisch]] Dialekt vun Bäredorf ghert zem [[Rheinfränkisch|Rhinfrankisch]].
+
+== Böiwark ==
+* Kìrich Saint-Rémy
+* Kàpall
+
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+* [http://www.cc-alsace-bossue.net/html/index.php?page=2&menu1=17&menu2=1&menu3=6&page_id=724 Bäredorf] bi dr CC Alsace Bossue
+
+== Referanza ==
+<references />
+
+{{Navigationsleiste Gemeinden im Kanton Ingweiler}}
+{{DEFAULTSORT:Barendorfunterelsass}}
+{{Normdaten}}
+
+[[Kategorie:Ort (Unterelsass)]]

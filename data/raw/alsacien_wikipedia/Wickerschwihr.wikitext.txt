@@ -1,0 +1,53 @@
+{{DISPLAYTITLE:Wickerschwihr}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Wickerschwihr
+| nomalsacien = Wickerschwihr
+| alt moy = 180
+| alt mini = 180
+| alt maxi = 185
+| km² = 2.25
+|}}
+'''Wickerschwihr''' ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Haut-Rhin|Owerelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}.
+
+== Gschicht ==
+Schu d Hallstatt-Kultur hat z Wìckerschwihr gsììdelt, doodervuu ziigt e Armreif, wuu zwische 750 un 450 v. Chr. heergstèllt wore ìsch. Oi e Reemerstrooß ìsch durch s Dorf verloffe. D èrschte urkundlige Erwähnung kunnt uss em Johr 728 ''(Wichereswiler)'', wuu's der Graaf Eberhard der Abtèi Murbach gschänkt hat. Wìckerschwihr hat bis 1837 zu [[Holtzwihr]] gheert, der Bsìtzer hat awer ìm 11. Johrhundert gwèchselt, wuu d [[Habsburger|Haabsburger]] d Rächt draa bikumme hän. D Beede vum Dèrfle sìn fruchtbaar un hän frieier häuptsächlig religieese Organisatione gheert wie der Abtèi Marmoutier, em Klooster Sainte-Catherine etc.
+
+Nooch em Üsssterwe vu der Hastatt-Lììnie ìm Johr 1585 sìn d'Bareen vu Montjoie di nèie Bsìtzer vum Ort wore. Säller ìsch 1639 vu de Schweede an [[Colmar|Kolmer]] aagschlosse wore, gnäu wie oi Holtzwihr. Nooch der Abdrännung vu Holtzwihr ìm Johr 1837 hat's kìrchlig noch bis 1854 zur Pfarrèi Holtzwihr gheert, bis e aigene Kìrech boie wore ìsch.
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+Ìm [[Zweiter Weltkrieg|Zweite Wältkrieg]] ìsch Wìckerschwihr zu 50 Brozänt zersteert wore; ab em 16. Juni 1940, acht Dääg nooch der Évakuierung, sìn d Ditsche iigfalle. Am 27. Januar 1945 ìsch's wìder vu Kolmer unabhängig wore. Nooch em Krieg hat sìch d'Bevèlkerung häuptsächlig durch d Landwìrtschaft ìwer Wasser ghalte (Aaboi vu Hèrdèpfel, Sürkrüt un Zuckerrììwe), langsam hat awer oi e Èffnung hìì zu der Industri- un Dienschtleistungsbranche stattgfunde.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Wickerschwihr ìsch {{Maires|FR|{{#Property:P374}}}}. Wickerschwihr ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Bevölkerung ==
+Wickerschwihr het in dr 1960er Johre numme um 200 Inwohner gha. D'Inwohnerzahl het sich no bis 2005 uf meh wie 600 Lit verdreifacht. Örtlichi Regionalsproch isch [[Elsässisch|Elsàsserditsch]].
+
+{| class="wikitable" width=350
+|+Bevölkerungsentwicklung
+|-
+|- align=center class="hintergrundfarbe5"
+|align=left | '''Johr''' || '''1962''' || '''1968''' || '''1975''' || '''1982''' || '''1990''' || '''1999''' || '''2007'''
+|- align=center
+|align=left|'''Inwohner'''<ref>[[Institut National de la Statistique et des Études Économiques|INSEE]]: ''Population et logements par commune depuis le recensement de 1962 (1961 pour les Dom) à 1999''</ref> || 194 || 211 || 306 || 395 || 691 || 610 || 747
+|}
+
+== Architèktur ==
+D Saint-Jacques-le-Majeur-Kìrech ìsch 1853 fèrig gsìì. 1843 hat d Gmeind bschlosse ghaa, nooch ìhrer bolitische Unabhängigkeit oi d kìrchlige z erlange un hat zur Finanzierung vum Boi vu der Kìrech 4 Hèktare un 7 Are Wald verkäuft. Der [[Erster Weltkrieg|Èrscht Wältkrieg]] hat se unbeschadet ìwerstande, ìm Zweite Wältkrieg awer sìn Deile vum Glockedurm, s Dach vum Kìrecheschìff un d Sandsteistütze vum Glockedurm ìm Kìrcheschìff drìnne zersteert wore.
+
+== externi Site ==
+* {{Commonscat|Wickerschwihr}}
+* [https://web.archive.org/web/20090721114459/http://www.quid.fr/communes.html?mode=detail Dateblatt zue Wickerschwihr bi quid.fr]
+* [https://web.archive.org/web/20080107083151/http://www.cc-riedbrun.fr/ Wickerschwihr uf dr Site vum Zweckverband Brüns Ried]
+
+== Referanza ==
+<references/>
+
+{{Navigationsleiste Gemeinden im Kanton Colmar-2}}
+
+{{Übersetzungshinweis|1 = fr|2 = Wickerschwihr|3 = franzeesisch|4 = 46480741}}
+
+{{Normdaten}}
+
+[[Kategorie:Ort (Owerelsàss)]]

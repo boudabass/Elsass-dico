@@ -1,0 +1,49 @@
+{{DISPLAYTITLE:Stooswihr}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Stosswihr
+| nomalsacien = Stooswihr
+| alt moy = 458
+| alt mini = 417
+| alt maxi = 1363
+| km² = 26.40
+| image= Stosswihr-Eglise-Mairie.jpg
+| description= Kirich un Mairie 
+|}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Stooswihr''' ([[Französische Sprache|frz.]] ''Stosswihr'', [[Deutsche Sprache|dt.]] ''Stossweier'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Haut-Rhin|Owerelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}.
+
+== Gschìcht ==
+Stooswihr ìsch zem erschte Mol gnannt worre ànne 783 àls ''Stozzesuuillare'' (787 ''Stozzesuuilla'', 817 ''Scottenwilre'').
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Stooswihr ìsch {{Maires|FR|{{#Property:P374}}}}. Stooswihr ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Bevelkerungsentwìcklung ==
+{| class="wikitable" width=400
+|- align=center class="hintergrundfarbe5"
+|align=left | '''Johr''' || '''1962''' || '''1968''' || '''1975''' || '''1982''' || '''1990''' || '''1999''' || '''2007'''
+|- align=center
+|align=left|'''Inwohner'''<ref>[[Institut National de la Statistique et des Études Économiques|INSEE]]: ''Population et logements par commune depuis le recensement de 1962 (1961 pour les Dom) à 1999''</ref> || 1247 || 1312 || 1306 || 1264 || 1276 || 1305 || 1370
+|}
+
+== Dialekt ==
+Dr [[Elsässisch|elsassisch]] Dialekt vun Stooswihr ghert zem [[Oberrheinalemannisch|Owerrhinàlemànnisch]].
+
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+* {{Commonscat|Stosswihr}}
+* https://web.archive.org/web/20111114133944/http://commune.stosswihr.free.fr/
+* [http://www.parc-ballons-vosges.fr/ Parc Ballons des Vosges] (fr)
+
+== Referanza ==
+<references/>
+
+{{Navigationsleiste Gemeinden im Kanton Wintzenheim}}
+
+{{Normdaten}}
+
+[[Kategorie:Ort (Owerelsàss)]]

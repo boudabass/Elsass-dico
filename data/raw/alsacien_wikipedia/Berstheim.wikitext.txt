@@ -1,0 +1,45 @@
+{{DISPLAYTITLE:Barschem}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Berstheim
+| nomalsacien = Barschem
+| alt moy = 171–222
+| km² = 3.09
+|}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Barschem''' ([[Französische Sprache|frz.]] ''Berstheim'', [[Deutsche Sprache|dt.]] ''Berstheim'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Bas-Rhin|Unterelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}.
+
+== Geogràfi ==
+Barschem lijt zwìsch em [[Zorn (Fluss)|Zorndàl]] un em [[Moder (Fluss)|Moderdàl]] rund 25 Kilimeter nerdlich vun [[Straßburg|Stroßburi]]. D Nochbergmeine sìn [[Keffendorf]] ìm Norde, [[Schweighausen (Unterelsass)|Schwaighüse]] ìm Nordoschte, [[Wintershausen|Wìnterschhüse]] ìm Oschte, [[Batzendorf|Bàtzedorf]] ìm Sìdoschte, [[Hochstett|Heestett]] ìm Sìde, [[Wittersheim (Unterelsass)|Wìttersche]] ìm Sìdweschte un [[Hüttendorf (Unterelsass)|Hìttedorf]] ìm Nordweschte
+
+== Gschìcht ==
+Barschem ìsch zem erschte Mol gnannt worre ànne 798 àls ''Beroldashaim''.
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Barschem ìsch {{Maires|FR|{{#Property:P374}}}}. Barschem ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Bevelkerungsentwìcklung ==
+{| class="wikitable" width=400
+|- align=center class="hintergrundfarbe5"
+|align=left | '''Johr''' || '''1962''' || '''1968''' || '''1975''' || '''1982''' || '''1990''' || '''1999''' || '''2006'''
+|- align=center
+|align=left|'''Inwohner'''<ref>[[Institut National de la Statistique et des Études Économiques|INSEE]]: ''Population et logements par commune depuis le recensement de 1962 (1961 pour les Dom) à 1999''</ref> || 228 || 231 || 243 || 264 || 310 || 357 || 365
+|}
+
+== Dialekt ==
+Dr [[Elsässisch|elsassisch]] Dialekt vun Barschem ghert zem [[Oberrheinalemannisch|Owerrhinàlemànnisch]].
+
+== Böiwark ==
+* Kìrich ''Saint-Martin'', mìt Bìlder vun dr Carola Sorg vun 1859
+
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Referanza ==
+<references />
+
+{{Navigationsleiste Gemeinden im Kanton Haguenau}}
+{{Normdaten}}
+
+[[Kategorie:Ort (Unterelsass)]]

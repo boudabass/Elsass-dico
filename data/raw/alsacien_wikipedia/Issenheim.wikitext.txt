@@ -1,0 +1,54 @@
+{{DISPLAYTITLE:Ìsene}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Issenheim
+| nomalsacien = Ìsene
+| alt moy = 247
+| alt mini = 223
+| alt maxi = 268
+| km² = 8.18
+| image = Issenheim-France.JPG
+| description = Kirich St. André un d ''Lauch''
+|}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Ìsene''' ([[Französische Sprache|frz.]] ''Issenheim'', [[Deutsche Sprache|dt.]] ''Isenheim'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Haut-Rhin|Owerelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}.
+
+== Gschìcht ==
+Ìsene ìsch zem erschte Mol gnannt worre ànne 1135 àls ''Ysenheim''.
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Ìsene ìsch {{Maires|FR|{{#Property:P374}}}}. Ìsene ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Bevelkerungsentwìcklung ==
+{|class="wikitable"
+!|Johr
+!|1962 
+!|1968 
+!|1975 
+!|1982 
+!|1990 
+!|1999 
+!|2007
+|- 
+|'''Inwohner'''<ref>[[Institut National de la Statistique et des Études Économiques|INSEE]]: ''Population et logements par commune depuis le recensement de 1962 (1961 pour les Dom) à 1999''</ref> || 1780 || 1945 || 2237 || 2852 || 2836 || 3296 || 3462
+|}
+
+== Dialekt ==
+Dr [[Elsässisch|elsassisch]] Dialekt vun Ìsene ghert zem [[Oberrheinalemannisch|Owerrhinàlemànnisch]].
+
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+* {{Commonscat|Issenheim}}
+* [https://web.archive.org/web/20081227204334/http://www.issenheim.fr/ www.issenheim.fr]
+
+{{Navigationsleiste Gemeinden im Kanton Gebweiler}}
+
+== Referanza ==
+<references />
+
+{{Normdaten}}
+
+[[Kategorie:Ort (Owerelsàss)]]

@@ -1,0 +1,58 @@
+{{DISPLAYTITLE:Rieschbi}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Riespach
+| nomalsacien = Rieschbi
+| alt moy = 397
+| alt mini = 355
+| alt maxi = 455
+| km² = 7.57
+| image = Riespach, Mairie.jpg
+| description = Mairie Rieschbi
+|}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Rieschbi''' ([[Französische Sprache|frz.]] ''Riespach'', [[Deutsche Sprache|dt.]] ''Riespach'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Haut-Rhin|Owerelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}.
+
+== Geogràfi ==
+Rieschbi lijt ìm [[Sundgau|Sundgöi]] ìm Dàl vum ''Rieschbàch'', wie àls ''Geischbàch'' in d ower [[Ill (Elsass)|Ill]] mìndet, 13 Kilometer sìdeschtlich vun [[Altkirch|Àltkìrech]] un 25 Kilometer weschtlich vun [[Basel|Bàsel]]. Nochbergmeine vun Rieschbi sìn [[Grenzingen|Granzìnge]] ìm Norde, [[Oberdorf (Oberelsass)|Oberdorf]] ìm Nordoschte, [[Waldighofen|Wàldighoffe]] un [[Roppenzweiler|Roppezwiller]] ìm Oschte, [[Alt-Pfirt|Àlt-Pfìrt]] ìm Sìde, [[Köstlach|Chäschli]] un [[Hindlingen|Hìndlìnge]] ìm Sìdweschte un [[Feldbach (Oberelsass)|Falbi]] ìm Weschte.
+
+== Gschìcht ==
+Rieschbi ìsch zem erschte Mol gnannt worre ànne 1270 àls ''Rodensbach'' (1271 ''Rudenspach'', 1289 ''Ruedispach'', ''Riespach'').
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Rieschbi ìsch {{Maires|FR|{{#Property:P374}}}}. Rieschbi ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}. 
+
+=== Bevelkerungsentwìcklung ===
+{| class="wikitable" width=400
+|- align=center class="hintergrundfarbe5"
+|align=left | '''Johr''' || '''1962''' || '''1968''' || '''1975''' || '''1982''' || '''1990''' || '''1999''' || '''2007'''
+|- align=center
+|align=left|'''Inwohner'''<ref>[[Institut National de la Statistique et des Études Économiques|INSEE]]: ''Population et logements par commune depuis le recensement de 1962 (1961 pour les Dom) à 1999''</ref> || 543 || 582 || 548 || 587 || 608 || 672 || 700
+|}
+
+== Dialekt ==
+Dr [[Elsässisch|elsassisch]] Dialekt vun Rieschbi ghert zem [[Hochalemannisch|Hochàlemànnisch]].
+
+== Boiwark ==
+* Kìrich St. Michael
+
+{|
+|[[Datei:Riespach, Eglise Saint-Michel 2.jpg|thumb|left|upright 1.15|<center>St. Michael, Sìdsitte</center>]]
+|[[Datei:Riespach, Eglise Saint-Michel 1.jpg|thumb|left|upright 1.0|<center>St. Michael, Nordoschtsitte</center>]]
+|}
+
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+{{commonscat}}
+
+== Referanza ==
+<references/>
+
+{{Navigationsleiste Gemeinden im Kanton Altkirch}}
+
+{{Normdaten}}
+
+[[Kategorie:Ort (Owerelsàss)]]

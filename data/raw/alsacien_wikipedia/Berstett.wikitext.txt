@@ -1,0 +1,46 @@
+{{DISPLAYTITLE:Barstett}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Berstett
+| nomalsacien = Barstett
+| alt moy = 147–281
+| km² = 17.88
+|}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Barstett''' ([[Französische Sprache|frz.]] ''Berstett'', [[Deutsche Sprache|dt.]] ''Berstett'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Bas-Rhin|Unterelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}.
+
+== Geogràfi ==
+Barstett lijt ìm [[Kochersberg (Berg)|Kocherschbari]], re Làndschàft im Unterelsàss, rund 15&nbsp;km nordweschtlich vun [[Straßburg|Stroßburi]]. D Nochbergmeine sìn [[Pfettisheim|Pfetze]], [[Olwisheim|Olse]] un [[Eckwersheim|Eckbersche]].
+
+== Gschìcht ==
+D hiti Gmein ìsch entstànde ànne 1972 durich d Füsion vun dr Gmeine ''Berstett'', ''Gimbrett'', ''Ritwiller'' un ''Rümersche''. Barstett ìsch zem erschte Mol gnannt worre ànne 884 àls ''Bardestat''.
+
+Vun 1871 bìs 1918 han d Derfer zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Barstett ìsch {{Maires|FR|{{#Property:P374}}}}. Barstett ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Bevelkerungsentwìcklung ==
+{| class="wikitable" width=400
+|- align=center class="hintergrundfarbe5"
+|align=left | '''Johr''' || '''1962''' || '''1968''' || '''1975''' || '''1982''' || '''1990''' || '''1999''' || '''2006'''
+|- align=center
+|align=left|'''Inwohner'''<ref>[[Institut National de la Statistique et des Études Économiques|INSEE]]: ''Population et logements par commune depuis le recensement de 1962 (1961 pour les Dom) à 1999''</ref> || 1261 || 1265 || 1274 || 1527 || 1679 || 1919 || 2053
+|}
+
+== Dialekt ==
+Dr [[Elsässisch|elsassisch]] Dialekt vun Barstett ghert zem [[Oberrheinalemannisch|Owerrhinàlemànnisch]].
+
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+{{Wikisource|Topographia Alsatiae: Rumersheim|Rumersheim in der Topographia Alsatiae (Matthias Merian)}}
+* http://www.berstett.fr
+
+== Referanza ==
+<references />
+
+{{Navigationsleiste Gemeinden im Kanton Buchsweiler}}
+{{Normdaten}}
+
+[[Kategorie:Ort (Unterelsass)]]

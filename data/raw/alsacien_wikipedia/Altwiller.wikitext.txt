@@ -1,0 +1,61 @@
+{{DISPLAYTITLE:Àltwiller}}
+{{Infobox Gemeinde in Frankreich
+| nomcommune = Altwiller
+| nomalsacien = Àltwiller
+| alt moy = 215–266
+| km² = 16.22
+| image = Altwiller, Église protestante.jpg
+| description = Kirich Àltwiller
+|}}
+{{Dialekt|Elsässisch|Elsassisch|Elsassisch}}
+'''Àltwiller''' ([[Französische Sprache|frz.]] ''Altwiller'', [[Deutsche Sprache|dt.]] ''Altweiler'') ìsch e [[Frankreich|frànzeesche]] Gmein ìm [[Département Bas-Rhin|Unterelsàss]] ìn dr [[Region (Frankreich)|Region]] [[Grand Est]] (bìs 2015 Region [[Elsass|Elsàss]]). D Gmein ghert zem {{Kanton|FR|{{#Property:P374}}}} un zem [[Arrondissement]] {{Arrondissements|FR|{{#Property:P374}}}}.
+
+== Geogràfi ==
+Àltwiller löeit ìm Nordweschte vum Elsàss àn dr Granz zem Département [[Moselle]].
+
+== Gschìcht ==
+Àltwiller ìsch ìm 15. Jh. vun àllne Inwohner verlosse worre, 1559 sìn derno unter em Grof Adolf vun Nassau-Saarwerden Hugenotte àngsìdlet worre, wie üs dr [[Normandie]] un üs [[Lothringen|Lothringe]] gflìchtet sìn.
+
+Vun 1871 bìs 1918 hàt d Gmein zem ditsche [[Reichsland Elsaß-Lothringen|Richslànd Elsàss-Lothringe]] ghert.
+
+== Verwàltung ==
+{{MairesTitel|FR|{{#Property:P374}}}} vun Àltwiller ìsch {{Maires|FR|{{#Property:P374}}}}. Àltwiller ghert zem Kommünàlverbànd {{Kommunalverband|FR|{{#Property:P374}}}}.
+
+== Bevelkerungsentwìcklung ==
+{| align="center" rules="all" cellspacing="0" cellpadding="4" style="border: 1px solid #999; border-right: 2px solid #999; border-bottom:2px solid #999; background: #f3fff3"
+|+ style="font-weight: bold; font-size: 1.1em; margin-bottom: 0.5em"| Entwicklung vun dr Inwohnerzàhl<ref>[http://cassini.ehess.fr/cassini/fr/html/fiche.php?select_resultat=1598 cassini.ehess.fr]</ref> 
+|-style="background: #ddffdd"
+! 1793 !! 1800 !! 1806 !! 1821 !! 1831 !! 1836 !! 1841 !! 1846 !! 1851 !! 1856 !! 1861 !! 1866 
+|-
+| 603 || 698 || 792 || 777 || 796 || 821 || 844 || 795 || 809 || 752 || 756 || 773 
+|-style="background: #ddffdd"
+! 1871 !! 1875 !! 1880 !! 1885 !! 1890 !! 1895 !! 1900 !! 1905 !! 1910 !! 1921 !! 1926 !! 1931 
+|-
+| 782 || 775 || 753 || 728 || 767 || 751 || 712 || 661 || 657 || 641 || 659 || 529 
+|-style="background: #ddffdd"
+! 1936 !! 1946 !! 1954 !! 1962 !! 1968 !! 1975 !! 1982 !! 1990 !! 1999 !! 2006 !! 2012 !! 	 
+|-
+| 509 || 487 || 505 || 474 || 456 || 416 || 414 || 415 || 399 || 411 || 418 || 
+|-
+|}
+
+== Dialekt ==
+Dr [[Lothringisch (Rheinfränkisch)|lothringisch]] Dialekt vun Àltwiller ghert zem [[Rheinfränkisch|Rhinfrankisch]].
+
+== Böiwark ==
+* Proteschtàntische Kìrich (1723-24)
+
+== Literàtür ==
+* Michel Paul Urban: ''Lieux dits. Dictionnaire étymologique et historique des noms de lieux en Alsace.'' Édition du Rhin, Strasbourg 2003
+
+== Weblink ==
+{{Commonscat| altwiller|Àltwiller}}
+
+== Referanz ==
+<references />
+
+{{Navigationsleiste Gemeinden im Kanton Ingweiler}}
+
+{{Normdaten}}
+
+[[Kategorie:Ort (Unterelsass)]]

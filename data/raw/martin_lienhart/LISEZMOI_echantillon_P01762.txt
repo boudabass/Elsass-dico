@@ -1,0 +1,35 @@
+Échantillon de qualification — trou (a) comblé : TEXTE RÉEL d'une entrée du
+Wörterbuch der elsässischen Mundarten (Martin & Lienhart), servi par l'API
+Wörterbuchnetz, entrée « Straßburg ».
+
+SOURCE DE CETTE COPIE
+  URL API : https://api.woerterbuchnetz.de/dictionaries/ElsWB/articles/P01762/formid
+  Réponse HTTP 200, JSON brut, 64 jetons, capturée le 09/08/2026.
+  Le fichier elswb_P01762_strassburg.json est la copie verbatim de cette réponse.
+  Localisation dans l'ouvrage : Bd. 2, Sp. 86b, Z. 45 (bookref "2,86b,45",
+  champs book/page/col/line de chaque jeton).
+
+CE QUE MONTRENT LES JETONS
+  L'API rend l'entrée NON PAS en image, mais en TEXTE STRUCTURÉ : une suite de
+  jetons ordonnés par textid, chacun portant word (le texte), elementtype
+  (lemma, form, kopfinfos, bdtg, rs, wbref, linkstart/linkend…), typeset et
+  charposition. C'est exactement ce que l'interface web assemble via
+  renderArticle.js (Woerterbuecher/ElsWB/renderArticle.js) pour afficher
+  l'article. L'entrée est donc extractible en texte, y compris la distinction
+  des rôles (lemme, formes, lieu d'attestation rs, sens bdtg, renvois).
+
+TEXTE DE L'ENTRÉE (assemblage mécanique des jetons, ordre textid — pas de
+correction, pas de complétion ; les liens croisés PfWB/RhWB/Idiotikon sont des
+renvois inter-dictionnaires du portail) :
+
+  PfWB RhWB Straßburg  [ʿStrûspùrìk Dunzenh. Ingenh. U.; ʿStróspùri Str. Lohr]
+  die Stadt Straßburg, Landeshauptstadt. Gott S.! euphem. für Gott strof mich!
+  ‘Stroßburg’ Str. 1449 Brucker 227. — Idiotikon Schweiz. 4, 1578.
+
+  (lemmes renvoyés : PfWB 6,671,33 ; RhWB 8,792,34 — normword des jetons
+  linkstart. L'entrée Straßburg est essentiellement un article-renvoi.)
+
+OBSERVATION POUR LE RAPPORT
+  L'API d'entrée testée ici (article complet) est distincte de l'API ouverte
+  documentée (open-api) : le endpoint /articles/{formid}/formid est celui que
+  consomme l'interface web. Il rend le texte intégral de l'article.

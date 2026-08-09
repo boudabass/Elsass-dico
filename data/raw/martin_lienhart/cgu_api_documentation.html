@@ -1,0 +1,90 @@
+<h1 class="preface-header1">Datenschnittstelle</h1>
+
+<h2 class="preface-header2">Abfrage der verfügbaren Wörterbücher</h2>
+
+<div class="api-item">
+    <p class="api-item-query">@apidomain@/open-api/dictionaries</p>
+    
+    <p class="api-item-description">Liefert die Liste der über die Schnittstelle abfragbaren Wörterbuchsiglen.
+        <a class="api-item-test" target="api-test" href="@apidomain@/open-api/dictionaries">Test</a>
+    </p>
+    
+    <p class="api-item-queryresult">
+        „result_count“ gibt die Anzahl der unterschiedlichen Wörterbücher an. „query“ benennt die URL, die zu dieser Liste 
+        führt. „result_set“ enthält für jedes abfragbare Wörterbuch einen Eintrag mit der internen Wörterbuchnetz-Sigle („sigle“) 
+        und der URL für die API zu diesem Wörterbuch („path“).
+    </p>
+</div>
+
+<div class="api-item">
+    <p class="api-item-query">@apidomain@/open-api/dictionaries/{:wbsigle}</p>
+    
+    <p class="api-item-description">Liefert die Liste der Methoden, die für das Wörterbuch mit Sigle {wbsigle}
+        zur Verfügung stehen. Der Parameter {wbsigle} muss einen Wert aus der Liste der abfragbaren Wörterbuchsiglen erhalten.
+        <br/>Abfragebeispiel: <a class="api-item-test" target="api-test" href="@apidomain@/open-api/dictionaries/GWB">
+        Methoden zum Goethe-Wörterbuch (GWB)</a>
+    </p> 
+
+    <p class="api-item-queryresult">
+        „methodid“ benennt die Suchmethode, welche in „comment“ erläutert wird. Aktuell stehen die Volltext- und die Stichwortsuche 
+        über die API zur Verfügung. „path“ gibt die URL für die Methode angewendet auf das ausgewählte Wörterbuch an. Innerhalb der URL 
+        ist „:searchpattern“ mit dem gewünschten Suchmuster zu ersetzen.
+    </p>
+</div>
+
+<div class="api-item">
+    <p class="api-item-query">@apidomain@/open-api/dictionaries/{:wbsigle}/lemmata/{:searchpattern}</p>
+    
+    <p class="api-item-description">Liefert die Liste der Lemmata aus dem Wörterbuch mit Sigle {wbsigle},
+        die dem Suchmuster {searchpattern} entsprechen.
+        <br/>Abfragebeispiele: <a class="api-item-test" target="api-test" href="@apidomain@/open-api/dictionaries/GWB/lemmata/apfelbaum">
+        Lemma Apfelbaum aus dem Goethe-Wörterbuch (GWB)</a>,
+        <br/><a class="api-item-test" target="api-test" href="@apidomain@/open-api/dictionaries/GWB/lemmata/*apfel">
+            alle Lemmata aus dem Goethe-Wörterbuch (GWB), die auf apfel enden</a>
+    </p>
+    
+    <p class="api-item-queryresult">
+        Für jeden Suchtreffer werden die Wörterbuchnetzsigle des Wörterbuchs („sigle“), das Lemma („lemma“), die grammatische Angabe („gram“), 
+        die interne Wörterbuchnetz-ID des Wörterbuchartikels („wbnetzid“), die Referenz auf die Stelle im gedruckten Wörterbuch („bookref“) 
+        sowie der Link zum Wörterbuchartikel im Wörterbuchnetz („wbnetzlink“) aufgeführt.
+    </p>
+</div>
+
+<div class="api-item">
+    <p class="api-item-query">@apidomain@/open-api/dictionaries/{:wbsigle}/fulltext/{:searchpattern}</p>
+    
+    <p class="api-item-description">Liefert die Liste der Textstellen aus dem Wörterbuch mit Sigle {wbsigle},
+        die das Suchmuster {searchpattern} enthalten.
+        <br/>Abfragebeispiele: <a class="api-item-test" target="api-test" href="@apidomain@/open-api/dictionaries/GWB/fulltext/apfelbaum">
+        Stellen aus dem Goethe-Wörterbuch (GWB), in denen die Wortform apfelbaum vorkommt</a>,
+        <br/><a class="api-item-test" target="api-test" href="@apidomain@/open-api/dictionaries/GWB/fulltext/*apfel">
+            alle Stellen aus dem Goethe-Wörterbuch (GWB), die eine Wortform enthalten, die auf apfel endet</a>
+    </p>
+    
+    <p class="api-item-queryresult">
+        Für jeden Suchtreffer werden die Wörterbuchnetzsigle des Wörterbuchs („sigle“), das Lemma des Artikels, in welchem die Textstelle 
+        enthalten ist („lemma“), die grammatische Angabe zu diesem Lemma („gram“), die interne Wörterbuchnetz-ID 
+        des Wörterbuchartikels („wbnetzid“), die interne ID der gefundenen Textstelle („textid“), die genaue gefundene 
+        Wortform („match“) sowie der Link zum Wörterbuchartikel im Wörterbuchnetz („wbnetzlink“) und der Link zu einer 
+        KWIC-Liste („wbnetzkwiclink“) aufgeführt.
+    </p>    
+</div>
+
+<div class="api-item">
+    <p class="api-item-query">@apidomain@/open-api/dictionaries/{:wbsigle}/kwic/{:textid}</p>
+
+    <p class="api-item-description">Liefert die Liste mit den Wörtern aus dem Kontext der gesuchten Textstelle {textid}. 
+        Den Parameter {textid} liefert die Liste der gefundenen Textstellen einer Volltextsuche. 
+        <br/><a class="api-item-test" target="api-test" href="@apidomain@/open-api/dictionaries/GWB/kwic/1149122">
+            das Vorkommen der Wortform „apfelbaum“ im Artikel Apfel des Goethe-Wörterbuchs (GWB) in seinem Kontext mit den zehn voranstehenden 
+            und zehn nachfolgenden Wörtern</a>
+    </p>
+
+    <p class="api-item-queryresult">
+        Die Liste enthält einen Eintrag zu dem Wort, dessen textid als Parameter genannt ist, sowie die Einträge zu den 
+        zehn der Textstelle voranstehenden und den zehn folgenden Wörtern. Jeder Eintrag führt die Wörterbuchnetzsigle des 
+        Wörterbuchs („sigle“), die Wörterbuchnetz-ID des Wörterbuchartikels („wbnetzid“), die „textid“ der Textstelle sowie 
+        das Wort als genaue Zeichenkette („word“) auf. Zusätzlich ist über das Attribut „kwic_text“ die Textstelle als 
+        zusammenhängender String abrufbar.
+    </p>
+</div>

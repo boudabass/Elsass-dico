@@ -532,13 +532,13 @@
     {
       "cle": "villes_villages_br",
       "libelle": "Villes et villages du Bas-Rhin",
-      "statut": "extrait",
+      "statut": "vérifié",
       "type_terme": "toponyme",
       "url": "https://www.elsassisch.eu/culture.alsace.pagesperso-orange.archive/villes_villagesB.R.htm",
       "format_ligne": "<code postal> <nom français> <nom alsacien>",
       "region": "bas_rhin",
       "volumetrie_estimee": 596,
-      "notes": "Ordre des colonnes DIFFÉRENT du Haut-Rhin : code postal | nom français | nom alsacien. Comptage : 596 cellules de codes (dont 18 coquilles « O » pour « 0 », ex. 6731O, et un code à 4 chiffres : 6730), 573 noms français, 601 noms alsaciens — colonnes déséquilibrées, alignement par position à vérifier au parse. Le code postal 67xxx porte la région."
+      "notes": "Ordre des colonnes DIFFÉRENT du Haut-Rhin : code postal | nom français | nom alsacien. Comptage : 596 cellules de codes (dont 18 coquilles « O » pour « 0 », ex. 6731O, et un code à 4 chiffres : 6730), 573 noms français, 601 noms alsaciens — colonnes déséquilibrées, alignement par position à vérifier au parse. Le code postal 67xxx porte la région. Vérifié par ed-verificateur (t_94cad4ec, verdict CONFORME) : 558 attestations, 44 omissions documentées (32 cellule vide dont 2 code absent, 12 colonne française hors référentiel officiel avec officiel attendu), region bas_rhin uniforme (intitulé de page, GATE 2), coquilles O/0 verbatim 16/16 (17 caractères O, 675OO en porte 2). Constat d'inventaire : les totaux 573/601 de la fiche sont inversés (601 noms FRANÇAIS en colonne 18%, 573 noms ALSACIENS non vides en 19%) et 602 cellules de code observées (2 vides) ; 18 coquilles annoncées, 16 observées — constats non corrigés, portés au rapport."
     },
     {
       "cle": "prenoms",

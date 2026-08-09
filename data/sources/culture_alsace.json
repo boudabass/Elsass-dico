@@ -548,9 +548,9 @@
       "notes": "Ordre des colonnes DIFFÉRENT du Haut-Rhin : code postal | nom français | nom alsacien. Comptage : 602 cellules de codes (dont 2 vides), 16 coquilles « O » pour « 0 » (14 codes distincts ; 6727O ×2 ; 6731O ×2), 1 code à 4 chiffres : 6730 — colonnes déséquilibrées : 601 noms français (colonne 18%), 573 noms alsaciens non vides (colonne 19%), alignement par position à vérifier au parse. Le code postal 67xxx porte la région.",
       "verification": {
         "verdict": "CONFORME",
-        "carte": "t_94cad4ec",
+        "carte": "t_295da285",
         "echantillon": "30/30",
-        "graine": "20260811",
+        "graine": "20260809",
         "date": "2026-08-09"
       }
     },

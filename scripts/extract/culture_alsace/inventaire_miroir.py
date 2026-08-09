@@ -7,8 +7,8 @@ data/raw/culture_alsace/ à partir d'un répertoire de téléchargement.
 
 Rejouable : le même répertoire source doit produire le même JSON et les
 mêmes octets dans raw/. Aucune forme alsacienne n'est lue ni recopiée ici —
-seuls des comptages structurels (lignes « .- ») et les URL servent à
-documenter la fiche.
+seuls des comptages structurels (lignes « .- », cellules des tables
+villes/prénoms) et les URL servent à documenter la fiche.
 
 Usage:
     python3 scripts/extract/culture_alsace/inventaire_miroir.py <dir_downloads>
@@ -45,6 +45,70 @@ def count_entries(path: Path) -> int:
     return sum(1 for l in text_lines(path) if ".-" in l)
 
 
+def analyse_villes_br(path: Path) -> dict:
+    """Comptages structurels de la page Bas-Rhin (villes_villagesB.R.htm),
+    mêmes gabarit et découpage que le parseur villes_villages_br.py : 2
+    blocs de 3 colonnes (code postal | nom français | nom alsacien) séparés
+    par une cellule image. Ne lit aucune forme : ne renvoie que des
+    comptages — c'est LE compteur de la fiche pour cette rubrique."""
+    text = path.read_bytes().decode("latin1", errors="replace")
+    gabarit = ["8", "18", "19", "10", "8", "18", "19"]
+    cellules_code = 0
+    codes_vides = 0
+    coquilles_par_code: dict[str, int] = {}
+    codes_4: list[str] = []
+    noms_francais = 0   # colonne 18% (déclaration BR : nom français)
+    noms_alsaciens = 0  # colonne 19% (déclaration BR : nom alsacien)
+    for tmatch in re.finditer(r"<TABLE.*?</TABLE>", text,
+                              flags=re.S | re.I):
+        tds = list(re.finditer(
+            r'<TD\s+WIDTH="(\d+)%"[^>]*>(.*?)</TD>', tmatch.group(0),
+            flags=re.S | re.I))
+        if [m.group(1) for m in tds] != gabarit:
+            continue  # table hors gabarit : ignorée (comme le parseur)
+        for idxs in ((0, 1, 2), (4, 5, 6)):
+            cols = []
+            for ti in idxs:
+                inner = tds[ti].group(2)
+                cells = []
+                for p in re.split(r"(<BR\s*/?>)", inner, flags=re.I):
+                    if re.match(r"<BR\s*/?>", p, flags=re.I):
+                        continue
+                    cells.append(html.unescape(
+                        re.sub(r"<[^>]+>", "", p)).strip())
+                while cells and cells[-1] == "":
+                    cells.pop()
+                cols.append(cells)
+            n = max(len(c) for c in cols)
+            cellules_code += len(cols[0])
+            for i in range(n):
+                code = cols[0][i] if i < len(cols[0]) else ""
+                fr = cols[1][i] if i < len(cols[1]) else ""
+                als = cols[2][i] if i < len(cols[2]) else ""
+                if code == "":
+                    codes_vides += 1
+                if "O" in code:
+                    coquilles_par_code[code] = \
+                        coquilles_par_code.get(code, 0) + 1
+                if re.fullmatch(r"\d{4}", code):
+                    codes_4.append(code)
+                if fr != "":
+                    noms_francais += 1
+                if als != "":
+                    noms_alsaciens += 1
+    return {
+        "cellules_code": cellules_code,
+        "codes_vides": codes_vides,
+        "coquilles": sum(coquilles_par_code.values()),
+        "coquilles_distincts": len(coquilles_par_code),
+        "coquilles_multi": {c: n for c, n in coquilles_par_code.items()
+                            if n > 1},
+        "noms_francais": noms_francais,
+        "noms_alsaciens": noms_alsaciens,
+        "codes_4": sorted(codes_4),
+    }
+
+
 def main() -> int:
     if len(sys.argv) != 2:
         print(__doc__)
@@ -58,7 +122,10 @@ def main() -> int:
     RAW.mkdir(parents=True, exist_ok=True)
     copied = []
     for f in sorted(src.glob("*.htm")) + sorted(src.glob("index.html")):
-        shutil.copy2(f, RAW / f.name)
+        dst = RAW / f.name
+        if dst.exists() and dst.read_bytes() == f.read_bytes():
+            continue  # déjà en place, octets identiques (rejeu sur raw/)
+        shutil.copy2(f, dst)
         copied.append(f.name)
 
     # --- 2. rubriques du dictionnaire (une entrée par page) ---
@@ -66,8 +133,11 @@ def main() -> int:
     # page du miroir : lexique_a_d documente l'extraction antérieure au studio
     # (dossier Dictionnaire/, 7260 entrées A-D) — un fait d'historique, pas une
     # page. Les trois rubriques villes/prenoms sont remplacées par leur version
-    # inventoriée ci-dessous.
+    # inventoriée ci-dessous. Les statuts de cycle de vie (inventorié → extrait
+    # → vérifié → ingéré) appartiennent au studio : la régénération les
+    # préserve, elle ne les réinitialise pas.
     ancienne = json.loads(FICHE.read_text(encoding="utf-8"))["rubriques"]
+    statut_precedent = {r["cle"]: r["statut"] for r in ancienne}
     rubriques = [r for r in ancienne if r["cle"] == "lexique_a_d"]
     for L in LETTERS:
         for sens, suffix, lib in (
@@ -82,7 +152,8 @@ def main() -> int:
             rubriques.append({
                 "cle": f"dico_{sens}_{L}",
                 "libelle": f"Dictionnaire {lib} — lettre {L.upper()} ({name})",
-                "statut": "inventorié",
+                "statut": statut_precedent.get(f"dico_{sens}_{L}",
+                                               "inventorié"),
                 "type_terme": "mot, expression",
                 "url": BASE + name,
                 "format_ligne": (
@@ -100,7 +171,7 @@ def main() -> int:
     rubriques.append({
         "cle": "villes_villages_hr",
         "libelle": "Villes et villages du Haut-Rhin",
-        "statut": "inventorié",
+        "statut": statut_precedent.get("villes_villages_hr", "inventorié"),
         "type_terme": "toponyme",
         "url": BASE + "villes_villages.htm",
         "format_ligne": "<code postal> <nom alsacien> <nom français>",
@@ -112,26 +183,54 @@ def main() -> int:
                  "compte 2 cellules de moins : alignement par position à "
                  "vérifier au parse. Le code postal 68xxx porte la région.",
     })
+    br_path = src / "villes_villagesB.R.htm"
+    if not br_path.exists():
+        print("page manquante : villes_villagesB.R.htm")
+        return 1
+    br = analyse_villes_br(br_path)
+    multi = " ; ".join(f"{c} ×{n}" for c, n in
+                       sorted(br["coquilles_multi"].items()))
+    coq = "coquille" if br["coquilles"] == 1 else "coquilles"
+    if br["codes_4"]:
+        if len(br["codes_4"]) == 1:
+            code4 = f"1 code à 4 chiffres : {br['codes_4'][0]}"
+        else:
+            code4 = (f"{len(br['codes_4'])} codes à 4 chiffres : "
+                     f"{', '.join(br['codes_4'])}")
+    else:
+        code4 = "aucun code à 4 chiffres"
+    note_br = (
+        "Ordre des colonnes DIFFÉRENT du Haut-Rhin : code postal | "
+        "nom français | nom alsacien. Comptage : "
+        f"{br['cellules_code']} cellules de codes "
+        f"(dont {br['codes_vides']} vides), "
+        f"{br['coquilles']} {coq} « O » pour « 0 » "
+        f"({br['coquilles_distincts']} codes distincts"
+    )
+    if multi:
+        note_br += f" ; {multi}"
+    note_br += (
+        f"), {code4} — colonnes déséquilibrées : "
+        f"{br['noms_francais']} noms français (colonne 18%), "
+        f"{br['noms_alsaciens']} noms alsaciens non vides "
+        "(colonne 19%), alignement par position à vérifier au parse. "
+        "Le code postal 67xxx porte la région."
+    )
     rubriques.append({
         "cle": "villes_villages_br",
         "libelle": "Villes et villages du Bas-Rhin",
-        "statut": "inventorié",
+        "statut": statut_precedent.get("villes_villages_br", "inventorié"),
         "type_terme": "toponyme",
         "url": BASE + "villes_villagesB.R.htm",
         "format_ligne": "<code postal> <nom français> <nom alsacien>",
         "region": "bas_rhin",
-        "volumetrie_estimee": 596,
-        "notes": "Ordre des colonnes DIFFÉRENT du Haut-Rhin : code postal | "
-                 "nom français | nom alsacien. Comptage : 596 cellules de "
-                 "codes (dont 18 coquilles « O » pour « 0 », ex. 6731O, et un "
-                 "code à 4 chiffres : 6730), 573 noms français, 601 noms "
-                 "alsaciens — colonnes déséquilibrées, alignement par position "
-                 "à vérifier au parse. Le code postal 67xxx porte la région.",
+        "volumetrie_estimee": br["cellules_code"],
+        "notes": note_br,
     })
     rubriques.append({
         "cle": "prenoms",
         "libelle": "Prénoms alsaciens",
-        "statut": "inventorié",
+        "statut": statut_precedent.get("prenoms", "inventorié"),
         "type_terme": "prenom",
         "url": BASE + "prenomsalsaciens.htm",
         "format_ligne": "<prénom(s) alsacien(s) séparés par /> <prénom français>",

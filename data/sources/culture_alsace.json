@@ -527,7 +527,7 @@
       "format_ligne": "<code postal> <nom alsacien> <nom français>",
       "region": "haut_rhin",
       "volumetrie_estimee": 401,
-      "notes": "3 colonnes parallèles par bloc de lettre (ordre : code postal | nom alsacien | nom français). Inventaire : 401 codes, 399 noms alsaciens, 401 noms français (2 cellules alsaciennes vides). Vérifié par ed-verificateur (t_c1be5ce4, verdict CONFORME) : 397 attestations, 4 omissions documentées — 2 nom alsacien absent (Chavannes-sur l'Etang L103, Vieil-Armand L584), 2 colonne française hors référentiel officiel (68580 Schtrüet Eschie → Strueth, 68600 Owersààsa Owersààsa → Obersaasheim ; décision GATE inventaire, omises règle 3, jamais corrigées). Le code postal 68xxx porte la région."
+      "notes": "3 colonnes parallèles par bloc de lettre (ordre : code postal | nom alsacien | nom français). Comptage : 401 codes, 399 noms alsaciens, 401 noms français — la colonne alsacienne compte 2 cellules de moins : alignement par position à vérifier au parse. Le code postal 68xxx porte la région."
     },
     {
       "cle": "villes_villages_br",
@@ -537,8 +537,8 @@
       "url": "https://www.elsassisch.eu/culture.alsace.pagesperso-orange.archive/villes_villagesB.R.htm",
       "format_ligne": "<code postal> <nom français> <nom alsacien>",
       "region": "bas_rhin",
-      "volumetrie_estimee": 596,
-      "notes": "Ordre des colonnes DIFFÉRENT du Haut-Rhin : code postal | nom français | nom alsacien. Comptage : 596 cellules de codes (dont 18 coquilles « O » pour « 0 », ex. 6731O, et un code à 4 chiffres : 6730), 573 noms français, 601 noms alsaciens — colonnes déséquilibrées, alignement par position à vérifier au parse. Le code postal 67xxx porte la région. Vérifié par ed-verificateur (t_94cad4ec, verdict CONFORME) : 558 attestations, 44 omissions documentées (32 cellule vide dont 2 code absent, 12 colonne française hors référentiel officiel avec officiel attendu), region bas_rhin uniforme (intitulé de page, GATE 2), coquilles O/0 verbatim 16/16 (17 caractères O, 675OO en porte 2). Constat d'inventaire : les totaux 573/601 de la fiche sont inversés (601 noms FRANÇAIS en colonne 18%, 573 noms ALSACIENS non vides en 19%) et 602 cellules de code observées (2 vides) ; 18 coquilles annoncées, 16 observées — constats non corrigés, portés au rapport."
+      "volumetrie_estimee": 602,
+      "notes": "Ordre des colonnes DIFFÉRENT du Haut-Rhin : code postal | nom français | nom alsacien. Comptage : 602 cellules de codes (dont 2 vides), 16 coquilles « O » pour « 0 » (14 codes distincts ; 6727O ×2 ; 6731O ×2), 1 code à 4 chiffres : 6730 — colonnes déséquilibrées : 601 noms français (colonne 18%), 573 noms alsaciens non vides (colonne 19%), alignement par position à vérifier au parse. Le code postal 67xxx porte la région."
     },
     {
       "cle": "prenoms",
@@ -548,7 +548,7 @@
       "url": "https://www.elsassisch.eu/culture.alsace.pagesperso-orange.archive/prenomsalsaciens.htm",
       "format_ligne": "<prénom(s) alsacien(s) séparés par /> <prénom français>",
       "volumetrie_estimee": 136,
-      "notes": "Paires de colonnes (alsacien en gras | français) par bloc de lettre. 136 paires, 179 formes alsaciennes une fois les variantes « / » éclatées : chaque variante d'une même paire produira une attestation pour le même prénom français, avec la même graphie_origine. Vérifié par ed-verificateur (t_024274c8, verdict CONFORME) : 179 attestations, 0 écart (échantillon 30/30, graine 20260809), rejeu du parseur à l'identique (sha256 8992232b…), 0 omission ; 6 anomalies documentées non corrigées (5 variantes côté français copiées verbatim — Barbe / Barbara, Sylvain / Sylvestre, Gilles / Gilbert, Stéphane / Stéphanie, Théodore / Théophile ; 1 ligne de blanc retirée L266, cellule vide = séparateur) ; doublon légitime conservé (Eugène, Schennla) attesté 2 fois avec 2 graphie_origine distinctes (L262 et L299) — à trancher en arbitrage ; region absente (la page n'en porte aucune)."
+      "notes": "Paires de colonnes (alsacien en gras | français) par bloc de lettre. 136 paires, 179 formes alsaciennes une fois les variantes « / » éclatées : chaque variante d'une même paire produira une attestation pour le même prénom français, avec la même graphie_origine."
     }
   ],
   "inventaire_complet": true

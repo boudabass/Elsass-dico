@@ -301,6 +301,36 @@ non le dictionnaire. Pour les toponymes, la deuxième source la plus solide n'es
 peut-être pas un site : le circuit `/contributions` existe déjà, un contributeur
 = une source, et 954 communes à confirmer est un objet de campagne fini.
 
+## Campagne 1 réellement close (09/08/2026, chantier Odoo 730)
+
+La section ci-dessus décrivait le dépôt ; la base, elle, était restée en arrière.
+**Elle est maintenant à 1 132 attestations et 0 entrée**, vérifiées par comptage :
+954 toponymes (396 `Haut-Rhin`, 558 `Bas-Rhin`), 178 prénoms, `region` rempli sur
+954/954, `Bouxwiller` présent deux fois — y compris dans `/admin/arbitrage`.
+
+- **Le dépôt à jour ne prouve pas la base à jour.** Le fix `contexte` était
+  commité, vérifié et mergé, et n'avait jamais atteint Supabase : 953 toponymes
+  y restaient à `contexte` vide, et le `Bouxwiller` du Bas-Rhin, absorbé par la
+  clé UNIQUE à l'ingestion, manquait en silence. Rien ne relie le dépôt à la
+  base, et rien ne le signale. **Après tout correctif touchant un JSONL déjà
+  ingéré, le contrôle est un comptage en base, pas un `git log`.** C'est le
+  pendant exact de Coolify, qui redéploie l'app sans appliquer une migration.
+- La réparation a été une **purge SQL ciblée** (`type='toponyme' and
+  contexte=''`, 953 lignes, lancée à la main dans le SQL Editor) puis une
+  réingestion rubrique par rubrique. `--resync` ne pouvait rien : la correction
+  portait sur la clé d'unicité elle-même.
+- **Un JSONL se nomme d'après la clé de rubrique de la fiche source**, jamais
+  d'après la page — cf. la règle plus haut. La clé est en dur dans
+  `inventaire_miroir.py`, qui s'en sert pour reprendre `statut` et
+  `verification` à chaque régénération : renommer une clé dans la fiche seule
+  les perdrait au prochain passage du générateur. C'est le fichier qu'on
+  renomme, pas la clé.
+- **Point de départ de la campagne 2** : trois échantillons candidats sont déjà
+  déposés dans `data/raw/` par `ed-prospecteur` — `alsacien_wikipedia`,
+  `martin_lienhart`, `wiktionnaire_fr`. Le GATE est humain, le critère décisif
+  est l'**indépendance** : deux sources dont l'une recopie l'autre comptent pour
+  une seule.
+
 ## Règles de travail
 
 - Ne jamais inventer de traduction alsacienne, même pour un exemple ou un test.

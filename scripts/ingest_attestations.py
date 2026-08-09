@@ -12,7 +12,12 @@ Trois principes, qui expliquent la forme du script :
 2. **Simulation par défaut.** Sans --apply, le script ne fait que lire et
    rendre son rapport. Écrire en base est un acte explicite.
 3. **Idempotent.** Les contraintes UNIQUE des tables font le dédoublonnage
-   (resolution=ignore-duplicates). Relancer une ingestion n'ajoute rien.
+   (resolution=ignore-duplicates). Relancer une ingestion n'ajoute rien —
+   mais ne corrige rien non plus : une ligne déjà en base est laissée telle
+   quelle, même si le fichier a changé. Corriger un parseur après coup et
+   réingérer serait donc sans effet, en silence. C'est ce que --resync répare,
+   en réalignant les colonnes hors clé sur le fichier ; le JSONL fait foi, les
+   attestations sont des copies de source et ne s'éditent pas en base.
 4. **La base doit être à jour avant d'écrire.** Coolify redéploie l'app à
    chaque push mais n'applique aucune migration : supabase/migrations/ et la
    base divergent en silence, et rien ne le signale tant qu'on ne tente pas
@@ -29,6 +34,7 @@ Usage :
     python scripts/ingest_attestations.py                    # simulation, tout data/
     python scripts/ingest_attestations.py --apply            # ingestion réelle
     python scripts/ingest_attestations.py --source culture_alsace --apply
+    python scripts/ingest_attestations.py --source culture_alsace --apply --resync
 """
 
 from __future__ import annotations
@@ -225,16 +231,24 @@ class Supabase:
         r.raise_for_status()
         return r.json()
 
-    def inserer(self, table: str, lignes: list[dict], on_conflict: str) -> int:
-        """Insère par lots en ignorant les doublons. Renvoie le nombre de
-        lignes réellement créées (Prefer: return=representation)."""
+    def inserer(self, table: str, lignes: list[dict], on_conflict: str,
+                fusionner: bool = False) -> int:
+        """Insère par lots. Renvoie le nombre de lignes renvoyées par la base
+        (Prefer: return=representation).
+
+        Par défaut un doublon est ignoré : le nombre renvoyé est donc celui des
+        lignes réellement créées. En mode fusion, la ligne existante est mise à
+        jour sur les colonnes hors clé — le nombre renvoyé compte alors toutes
+        les lignes touchées, créées ou non.
+        """
+        resolution = "merge-duplicates" if fusionner else "ignore-duplicates"
         crees = 0
         for debut in range(0, len(lignes), TAILLE_LOT):
             lot = lignes[debut:debut + TAILLE_LOT]
             r = self.session.post(
                 f"{self.base}/{table}",
                 params={"on_conflict": on_conflict},
-                headers={"Prefer": "resolution=ignore-duplicates,return=representation"},
+                headers={"Prefer": f"resolution={resolution},return=representation"},
                 data=json.dumps(lot, ensure_ascii=False).encode("utf-8"),
                 timeout=120,
             )
@@ -323,7 +337,8 @@ def synchroniser_sources(sb: Supabase, appliquer: bool) -> dict[str, str]:
 # Traitements
 # ----------------------------------------------------------------------------
 
-def ingerer_attestations(sb, fichiers, sources, appliquer) -> tuple[int, int, list[str]]:
+def ingerer_attestations(sb, fichiers, sources, appliquer,
+                         resync: bool = False) -> tuple[int, int, list[str]]:
     total, crees, avertissements = 0, 0, []
 
     for chemin in fichiers:
@@ -352,10 +367,28 @@ def ingerer_attestations(sb, fichiers, sources, appliquer) -> tuple[int, int, li
         total += len(charge)
         print(f"  {chemin.name} : {len(charge)} lignes valides")
         if appliquer:
-            n = sb.inserer("attestations", charge,
-                           on_conflict="source_id,francais,alsacien,contexte")
+            a_ecrire = charge
+            if resync:
+                # ON CONFLICT DO UPDATE refuse deux fois la même clé dans un
+                # seul ordre SQL (21000), là où DO NOTHING l'absorbe. La base
+                # ne peut de toute façon en garder qu'une : on ne retient que
+                # la première, exactement ce que l'ingestion initiale a fait.
+                vus, a_ecrire = set(), []
+                for ligne in charge:
+                    cle = (ligne["source_id"], ligne["francais"],
+                           ligne["alsacien"], ligne["contexte"])
+                    if cle not in vus:
+                        vus.add(cle)
+                        a_ecrire.append(ligne)
+
+            n = sb.inserer("attestations", a_ecrire,
+                           on_conflict="source_id,francais,alsacien,contexte",
+                           fusionner=resync)
             crees += n
-            print(f"    -> {n} créées, {len(charge) - n} déjà présentes")
+            if resync:
+                print(f"    -> {n} lignes alignées sur le fichier")
+            else:
+                print(f"    -> {n} créées, {len(charge) - n} déjà présentes")
 
     return total, crees, avertissements
 
@@ -423,7 +456,14 @@ def main() -> int:
                          help="écrire réellement en base (sinon : simulation)")
     parseur.add_argument("--source", metavar="CODE",
                          help="ne traiter que les fichiers de cette source")
+    parseur.add_argument("--resync", action="store_true",
+                         help="réaligner les attestations déjà en base sur le "
+                              "fichier (corrige les colonnes hors clé)")
     args = parseur.parse_args()
+
+    if args.resync and not args.apply:
+        print("--resync écrit en base : le combiner avec --apply.", file=sys.stderr)
+        return 1
 
     motif = f"{args.source}__*.jsonl" if args.source else "*.jsonl"
     attestations = sorted((DATA / "attestations").glob(motif))
@@ -463,7 +503,8 @@ def main() -> int:
         print(f"  {len(sources)} source(s) connue(s)\n")
 
         print("Attestations :")
-        n_att, crees_att, avert = ingerer_attestations(sb, attestations, sources, args.apply)
+        n_att, crees_att, avert = ingerer_attestations(sb, attestations, sources,
+                                                       args.apply, args.resync)
         avertissements += avert
 
         print("\nPropositions ORTHAL :")

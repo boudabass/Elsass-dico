@@ -29,7 +29,12 @@ RÈGLES APPLIQUÉES (article 720 + contrat data/README.md)
 - francais : la tête <B>…</B> moins le séparateur final « .- » (ou sa
   coquille « . », « - », « ._ », « ,- », « /- », « ;- », « .-- », « ' »,
   « !- » — le séparateur est structurel, pas une graphie ; la graphie_origine
-  garde la tête entière telle qu'écrite).
+  garde la tête entière telle qu'écrite). Une balise interne parasite en fin
+  de tête (« </I> » au lieu du séparateur, ex. « reconnaissance de
+  dette.</I> ») est du marquage : retirée au rendu (balises retirées,
+  entités résolues), sans toucher à la ponctuation écrite par l'auteur — le
+  séparateur est alors structurellement absent (anomalie
+  separateur_tete_non_standard, jamais corrigé).
 - alsacien : le contenu <I>…</I> (ou, quand la balise d'ouverture manque,
   le texte jusqu'au dernier </I> de l'entrée), balises retirées, entités
   résolues. Copié verbatim, ponctuation comprise.
@@ -115,10 +120,21 @@ def clean(raw: str) -> str:
 
 
 def head_francais(tete_brute: str) -> str:
-    """Tête moins le séparateur structurel final (coquilles comprises)."""
-    t = html.unescape(tete_brute).strip()
-    t = RE_SEP.sub("", t).strip()
-    return t
+    """Tête moins le séparateur structurel final (coquilles comprises).
+
+    Copie du texte RENDU (balises retirées, entités résolues — règle du
+    module). Le retrait du séparateur se fait sur le BRUT, avant le rendu :
+    quand la tête porte une balise parasite en fin (« </I></B> » au lieu de
+    « </B> », coquille de l'auteur — ex. « reconnaissance de dette.</I> »),
+    la chaîne se termine par « > » et le motif du séparateur ne matche pas :
+    le séparateur est structurellement ABSENT (anomalie
+    separateur_tete_non_standard) et la ponctuation écrite par l'auteur est
+    conservée telle quelle — on retire la BALISE (du marquage, règle 1), on
+    ne corrige aucune forme. Pour les têtes normales (séparateur « .- » ou
+    sa coquille en fin de brut), le résultat est identique à l'ancien code.
+    """
+    t = RE_SEP.sub("", tete_brute.strip())
+    return clean(t)
 
 
 def split_contexte(zone: str):

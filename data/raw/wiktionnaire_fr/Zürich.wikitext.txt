@@ -1,0 +1,337 @@
+{{voir/zurich}}
+
+== {{langue|fr}} ==
+=== {{S|étymologie}} ===
+
+: Du nom {{étylp|de|fr|Zürich}} (aussi en {{étylp|gsw|fr|Zürich}}). Du {{étylp|la|de|Turicum}}. Dérivé lui-même du probable nom personnel en {{étylp|cel|fr|Tūros|type=nom}}<ref>Andres Kristol, ''Zürich ZH (Zürich)'' dans le ''Dictionnaire toponymique des communes suisses – Lexikon der schweizerischen Gemeindenamen – Dizionario toponomastico dei comuni svizzeri (DTS|LSG)'' Centre de dialectologie, Université de Neuchâtel, éditions Huber, Frauenfeld/Stuttgart/Wien 2005 {{ISBN|3-7193-1308-5}} et éditions Payot, Lausanne 2005 {{ISBN|2-601-03336-3}}.</ref>.
+
+=== {{S|nom propre|fr}} ===
+{{fr-inv|zy.ʁik|inv_titre=Nom propre}}
+'''Zürich''' {{pron|zy.ʁik|fr}}
+# {{localités|fr|du canton de Zurich}} {{variante de|Zurich|fr}}.
+#* {{exemple | lang=fr
+ | Le Dock Midfield est le nouveau terminal de l’aéroport de '''Zürich''' sur une surface de 15 000 m<sup>2</sup>.
+ | source=Jean Lemale, ''Les pompes à chaleur'', Dunod, 2014, page 185}}
+#* {{exemple | lang=fr
+ | C’était d’abord un certain Trede, employé du fisc à Stettin, qui fut « désestomaqué » par le D{{e|r}} Schuckhardt, puis une fileuse de '''Zürich''', Anne Landie, à qui le Dr Schlatter avait rendu le même office.
+ | source=''La Revue mondiale'', 1903, page 195}}
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=fr|Suisse ([[Lausanne]])|zy.ʁik|audio=LL-Q150 (fra)-Eihel-Zürich.wav}}
+
+[[Catégorie:ch prononcés /k/ en français]]
+=== {{S|références}} ===
+{{Références}}
+
+== {{langue|af}} ==
+=== {{S|étymologie}} ===
+: Du nom {{étyl|de|af|Zürich}}.
+
+=== {{S|nom propre|af}} ===
+'''Zürich''' {{pron||af}}
+# {{localités|af|du canton de Zurich}} [[Zurich#fr|Zurich]] (ville de [[Suisse]]).
+#* {{exemple|lang=af}}
+
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: Du nom {{étyl|de|gsw|Zürich}}.
+
+=== {{S|nom propre|gsw}} ===
+'''Zürich''' {{pron||gsw}}
+# {{localités|gsw|du canton de Zurich}} [[Zurich#fr|Zurich]] (ville de [[Suisse]]).
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+:Du {{étyl|la|de|Turicum}}.
+
+=== {{S|nom propre|de}} ===
+{{de-nom-propre|genre=n|gs=Zürich|gs2=Zürichs}}
+'''Zürich''' {{pron|ˈt͡sʏː.ʁɪç|de}} {{n}}, {{au singulier uniquement|de}}.
+# {{localités|fr|du canton de Zurich}} [[Zurich#fr|Zurich]] (Canton et ville de [[Suisse]]).
+#* {{exemple | lang=de | Die Stadt '''Zürich''' hat knapp 370.000 Einwohner. | sens=La ville de Zurich a près de 370 000 habitants.}}
+#* {{exemple | lang=de | Die Stadt '''Zürich''' liegt am der Züricher See. | sens=La ville de Zurich se trouve au bord du lac de Zurich.}}
+#* {{exemple|Pilotinnen und Piloten erklären den Reisenden auf Rollfeldern in Frankfurt, '''Zürich''' oder Wien, man müsse auf einen Slot, ein Zeitfenster für den Start, warten, weil der griechische Luftraum überlastet sei.|lang=de|sens=Sur les tarmacs de Francfort, Zurich ou Vienne, les pilotes expliquent aux voyageurs qu'il faut attendre un créneau horaire pour le décollage, car l’espace aérien grec est saturé.|source={{périodique|auteur=Gerd Höhler|titre=Wie Griechenland den Flugverkehr in Europa ausbremst|journal=RedaktionsNetzwerk Deutschland|date=8 août 2025|texte=https://www.rnd.de/reise/wie-griechenland-fuer-massive-flugverspaetungen-in-europa-sorgt-KORZWTHJORE27BMTDUWBSZII6Y.html}}}}
+#* {{exemple|Eine Passagierin führte sich während des Fluges dermaßen unpassend auf, dass der Flieger wieder nach '''Zürich''' zurückkehren musste.|lang=de|sens=Une passagère s’est comportée de manière tellement inappropriée pendant le vol que l’avion a dû retourner à Zurich.|source={{périodique|auteur=Markus Böhm|titre=Manspreading, Randale und umstrittene BH-Vorschriften im Flugzeug|journal=Der Standard|date=15 décembre 2023|texte=https://www.derstandard.at/story/3000000199024/manspreading-randale-und-umstrittene-bh-vorschriften-im-flugzeug}}}}
+
+==== {{S|notes}} ====
+En allemand, les villes n'ont pas de déterminant.
+Si toutefois il y a besoin d'une déclinaison, elles sont supposées du genre neutre.
+
+==== {{S|gentilés}} ====
+* [[Zürcher]], [[Zürcherin]] (dialecte suisse)
+* [[Züricher]], [[Züricherin]]
+
+==== {{S|dérivés}} ====
+* {{lien|Zürichsee|de}}
+
+==== {{S|hyperonymes}} ====
+* {{lien|Stadt|de}}
+* {{lien|Toponym|de}}
+* {{lien|Siedlung|de}}
+
+=== {{S|prononciation}} ===
+* {{écouter|Berlin (Allemagne)|ˈt͡syːʁɪç|lang=de|audio=De-Zürich2.ogg}}
+* {{écouter|Suisse|ˈt͡sʏrɪç|lang=de|audio=De-Zürich.ogg}}
+* {{écouter||ˈt͡sʏrɪç|lang=de|audio=LL-Q188 (deu)-Eihel-Zürich.wav}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=de}}
+
+=== {{S|références}} ===
+* {{R:DWDS|Zürich}}
+
+==== {{S|sources}} ====
+* {{Source-wikt|de|Zürich}}
+
+== {{langue|en}} ==
+=== {{S|étymologie}} ===
+: Du nom {{étyl|de|en|Zürich}}.
+
+=== {{S|nom propre|en}} ===
+'''Zürich''' {{pron||en}}
+# {{localités|en|du canton de Zurich}} [[Zurich#fr|Zurich]] (ville de [[Suisse]]).
+
+==== {{S|variantes orthographiques}} ====
+* [[Zurich]]
+
+=== {{S|voir aussi}} ===
+* {{WP|Zurich|Zürich|lang=en}}
+
+== {{langue|bs}} ==
+=== {{S|étymologie}} ===
+: Du nom {{étyl|de|bs|Zürich}}.
+
+=== {{S|nom propre|bs}} ===
+'''Zürich''' {{pron||bs}}
+# {{localités|bs|du canton de Zurich}} [[Zurich#Français|Zurich]] (ville de [[Suisse]]).
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=bs}}
+
+== {{langue|hr}} ==
+=== {{S|étymologie}} ===
+: Du nom {{étyl|de|hr|Zürich}}.
+
+=== {{S|nom propre|hr}} ===
+'''Zürich''' {{pron||hr}}
+# {{localités|hr|du canton de Zurich}} [[Zurich#fr|Zurich]] (ville de [[Suisse]]).
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=hr}}
+
+== {{langue|da}} ==
+=== {{S|étymologie}} ===
+: Du nom {{étyl|de|da|Zürich}}.
+
+=== {{S|nom propre|da}} ===
+'''Zürich''' {{pron||da}}
+# {{localités|da|du canton de Zurich}} [[Zurich#fr|Zurich]] (ville de [[Suisse]]).
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=da}}
+
+== {{langue|et}} ==
+=== {{S|étymologie}} ===
+: Du nom {{étyl|de|et|Zürich}}.
+
+=== {{S|nom propre|et}} ===
+'''Zürich''' {{pron||et}}
+# {{localités|et|du canton de Zurich}} [[Zurich#fr|Zurich]] (ville de [[Suisse]]).
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=et}}
+
+== {{langue|fi}} ==
+=== {{S|étymologie}} ===
+: Du nom {{étyl|de|fi|Zürich}}.
+
+=== {{S|nom propre|fi}} ===
+{{fi-décl|Zürich|Zürichin|Zürichia|Zürichissa|Zürichiin|Zürichista|Zürichilla|Zürichille|Zürichilta|Zürichina|Zürichiksi|Zürichitta}}
+'''Zürich''' {{pron|ˈtsyː.rix|fi}}
+# {{localités|fi|du canton de Zurich}} [[Zurich#fr|Zurich]] (ville de [[Suisse]]).
+#* {{exemple|lang=fi|Ennen sitä aion matkustaa Helenan kanssa '''Zürichiin'''.|source=Helena Petäistö, ''Aamiainen Cocon kanssa: Pariisissa, Strasbourgissa ja Lyonissa'', Kustannusosakeyhtiö Tammi Helsinki, page 9}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=fi}}
+
+== {{langue|gl}} ==
+=== {{S|étymologie}} ===
+: Du nom {{étyl|de|gl|Zürich}}.
+
+=== {{S|nom propre|gl}} ===
+'''Zürich''' {{pron||gl}}
+# {{localités|gl|du canton de Zurich}} [[Zurich#fr|Zurich]] (ville de [[Suisse]]).
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=gl}}
+
+== {{langue|hu}} ==
+=== {{S|étymologie}} ===
+: Du nom {{étyl|de|hu|Zürich}}.
+
+=== {{S|nom propre|hu}} ===
+'''Zürich''' {{pron||hu}}
+# {{localités|hu|du canton de Zurich}} [[Zurich#fr|Zurich]] (ville de [[Suisse]]).
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=hu}}
+
+== {{langue|io}} ==
+=== {{S|étymologie}} ===
+: Du nom {{étyl|de|io|Zürich}}.
+
+=== {{S|nom propre|io}} ===
+'''Zürich''' {{pron||io}}
+# {{localités|io|du canton de Zurich}} [[Zurich#fr|Zurich]] (ville de [[Suisse]]).
+
+== {{langue|id}} ==
+=== {{S|étymologie}} ===
+: Du nom {{étyl|de|id|Zürich}}.
+
+=== {{S|nom propre|id}} ===
+'''Zürich''' {{pron||id}}
+# {{localités|id|du canton de Zurich}} [[Zurich#fr|Zurich]] (ville de [[Suisse]]).
+#* {{exemple|lang=id}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=id}}
+
+== {{langue|is}} ==
+=== {{S|étymologie}} ===
+: Du nom {{étyl|de|is|Zürich}}.
+
+=== {{S|nom propre|is}} ===
+'''Zürich''' {{pron||is}}
+# {{localités|is|du canton de Zurich}} [[Zurich#fr|Zurich]] (ville de [[Suisse]]).
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=is}}
+
+== {{langue|lb}} ==
+=== {{S|étymologie}} ===
+: Du nom {{étyl|de|ms|Zürich}}.
+
+=== {{S|nom propre|lb}} ===
+'''Zürich''' {{pron||lb}}
+# {{localités|lb|de Suisse}} [[Zurich#fr|Zurich]] (ville de [[Suisse]]).
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=lb}}
+
+== {{langue|ms}} ==
+=== {{S|étymologie}} ===
+: Du nom {{étyl|de|ms|Zürich}}.
+
+=== {{S|nom propre|ms}} ===
+'''Zürich''' {{pron||ms}}
+# {{localités|ms|de Suisse}} [[Zurich#fr|Zurich]] (ville de [[Suisse]]).
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=ms}}
+
+== {{langue|nl}} ==
+=== {{S|étymologie}} ===
+: Du nom {{étyl|de|nl|Zürich}}.
+
+=== {{S|nom propre|nl}} ===
+'''Zürich''' {{pron||nl}}
+# {{localités|nl|du canton de Zurich}} [[Zurich#fr|Zurich]] (ville de [[Suisse]]).
+
+=== {{S|prononciation}} ===
+* {{écouter|||lang=nl|audio=Nl-Zürich.ogg}}
+
+=== {{S|voir aussi}} ===
+* {{WP|Zürich (stad)|Zürich|lang=nl}}
+
+== {{langue|no}} ==
+=== {{S|étymologie}} ===
+: Du nom {{étyl|de|no|Zürich}}.
+
+=== {{S|nom propre|no}} ===
+'''Zürich''' {{pron||no}}
+# {{localités|no|du canton de Zurich}} [[Zurich#fr|Zurich]] (ville de [[Suisse]]).
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=no}}
+
+== {{langue|nn}} ==
+=== {{S|étymologie}} ===
+: Du nom {{étyl|de|nn|Zürich}}.
+
+=== {{S|nom propre|nn}} ===
+'''Zürich''' {{pron||nn}}
+# {{localités|nn|du canton de Zurich}} [[Zurich#fr|Zurich]] (ville de [[Suisse]]).
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=nn}}
+
+== {{langue|ro}} ==
+=== {{S|étymologie}} ===
+: Du nom {{étyl|de|ro|Zürich}}.
+
+=== {{S|nom propre|ro}} ===
+'''Zürich''' {{pron||ro}}
+# {{localités|ro|du canton de Zurich}} [[Zurich#fr|Zurich]] (ville de [[Suisse]]).
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=ro}}
+
+== {{langue|sh}} ==
+=== {{S|étymologie}} ===
+: Du nom {{étyl|de|sh|Zürich}}.
+
+=== {{S|nom propre|sh}} ===
+'''Zürich''' {{pron||sh}}
+# {{localités|sh|du canton de Zurich}} [[Zurich#fr|Zurich]] (ville de [[Suisse]]).
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=sh}}
+
+== {{langue|sk}} ==
+=== {{S|étymologie}} ===
+: Du nom {{étyl|de|sk|Zürich}}.
+
+=== {{S|nom propre|sk}} ===
+'''Zürich''' {{pron||sk}}
+# {{localités|sk|du canton de Zurich}} [[Zurich#fr|Zurich]] (ville de [[Suisse]]).
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=sk}}
+
+== {{langue|sl}} ==
+=== {{S|étymologie}} ===
+: Du nom {{étyl|de|sl|Zürich}}.
+
+=== {{S|nom propre|sl}} ===
+'''Zürich''' {{pron||sl}}
+# {{localités|sl|du canton de Zurich}} [[Zurich#fr|Zurich]] (ville de [[Suisse]]).
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=sl}}
+
+== {{langue|sv}} ==
+=== {{S|étymologie}} ===
+: Du nom {{étyl|de|sv|Zürich}}.
+
+=== {{S|nom propre|sv}} ===
+'''Zürich''' {{pron||sv}}
+# {{localités|sv|du canton de Zurich}} [[Zurich#fr|Zurich]] (ville de [[Suisse]]).
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=sv}}
+
+== {{langue|tl}} ==
+=== {{S|étymologie}} ===
+: Du nom {{étyl|de|tl|Zürich}}.
+
+=== {{S|nom propre|tl}} ===
+'''Zürich''' {{pron||tl}}
+# {{localités|tl|du canton de Zurich}} [[Zurich#fr|Zurich]] (ville de [[Suisse]]).
+
+== {{langue|vi}} ==
+=== {{S|étymologie}} ===
+: Du nom {{étyl|de|vi|Zürich}}.
+
+=== {{S|nom propre|vi}} ===
+'''Zürich''' {{pron||vi}}
+# {{localités|vi|du canton de Zurich}} [[Zurich#fr|Zurich]] (ville de [[Suisse]]).

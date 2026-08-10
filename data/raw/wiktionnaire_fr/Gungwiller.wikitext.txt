@@ -1,0 +1,36 @@
+== {{langue|fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|fr}}
+
+=== {{S|nom propre|fr}} ===
+{{fr-inv||inv_titre=Nom propre}}
+'''Gungwiller''' {{pron||fr}}
+# {{localités|fr|du département du Bas-Rhin}} [[commune|Commune]] [[français]]e, située dans le département du [[Bas-Rhin]].
+
+==== {{S|gentilés}} ====
+* [[Gungwillerois]], [[Gungwilleroise]]
+* [[gungwillerois]], [[gungwilleroise]]
+
+==== {{S|traductions}} ====
+{{trad-début|Ville de France}}
+* {{T|gsw}} : {{trad|gsw|Gungwiller}}
+{{trad-fin}}
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=fr|France (Alsace)||audio=LL-Q150 (fra)-Le Commissaire-Gungwiller.wav}}
+* {{écouter|||lang=fr|audio=LL-Q150 (fra)-Marie-Louise (Le Commissaire)-Gungwiller.wav}}
+
+=== {{S|références}} ===
+* {{mercihabitants}}
+
+=== {{S|voir aussi}} ===
+* {{WP}}
+
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw}}
+
+=== {{S|nom propre|gsw}} ===
+'''Gungwiller''' {{pron||gsw}}
+# {{Alsace|gsw}} {{localités|gsw|du département du Bas-Rhin}} [[Gungwiller#fr|Gungwiller]], [[commune]] [[français]]e, située dans le département du [[Bas-Rhin]].
+#* {{exemple|lang=gsw}}

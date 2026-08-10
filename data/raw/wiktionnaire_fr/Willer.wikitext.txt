@@ -1,0 +1,21 @@
+== {{langue|fr}} ==
+=== {{S|étymologie}} ===
+: du latin [[villaris]], fermier de [[villa]]
+
+=== {{S|nom propre|fr}} ===
+{{fr-inv||inv_titre=Nom propre}}
+'''Willer''' {{pron||fr}}
+# {{localités|fr|du département du Haut-Rhin}} [[commune|Commune]] [[français]]e, située dans le département du [[Haut-Rhin]].
+
+=== {{S|prononciation}} ===
+* {{écouter|Mulhouse (France)||lang=fr|audio=LL-Q150 (fra)-Mathieu Kappler-Willer.wav}}
+* {{écouter|||lang=fr|audio=LL-Q150 (fra)-Marie-Louise (Le Commissaire)-Willer.wav}}
+
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw}}
+
+=== {{S|nom propre|gsw}} ===
+'''Willer''' {{pron||gsw}}
+# {{Alsace|gsw}} {{localités|gsw|du département du Bas-Rhin}} [[Villé#fr|Villé]], [[commune]] [[français]]e, située dans le département du [[Bas-Rhin]].
+#* {{exemple|lang=gsw}}

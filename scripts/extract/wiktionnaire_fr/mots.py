@@ -20,40 +20,60 @@ Dans la section gsw :
   - les lignes « * » sont des listes (synonymes, dérivés) — ignorées ;
   - en tête de définition, des templates de contexte ({{Alsace|gsw}},
     {{localités|...}}, {{Région mulhousienne|...}}, {{Wolschheim|...}},
-    {{éléments|...}}, {{métaux|...}}, {{gâteaux|...}}, {{lexique|...|gsw}})
-    rendent des parenthèses de contexte (ex. « (Alsace) (Géographie) ») :
-    elles alimentent le champ contexte.
+    {{capitales|...}}, {{éléments|...}}, {{métaux|...}}, {{gâteaux|...}},
+    {{lexique|...|gsw}}) rendent des parenthèses de contexte (ex.
+    « (Alsace) (Géographie) ») : elles alimentent le champ contexte.
 
-RÈGLES APPLIQUÉES (article 720 + spec carte t_1211f9ea)
+TYPE — DÉTECTION TOPONYME (correction t_ade43e0f, décision John 09/08/2026,
+article 725)
+-----------------------------------------------------------------------------
+Toute entrée désignant une commune ou une ville est « toponyme ». Les motifs
+de désignation sont constatés sur le rendu de la définition (liens résolus) :
+
+  - « commune française »            → commune (ex. « Epfig, commune
+                                       française, située dans le département
+                                       du Bas-Rhin. ») ;
+  - « ville de/d'/française/allemande/italienne/suisse »
+                                     → ville (ex. « Strasbourg (ville de
+                                       France). », « Hambourg, ville
+                                       d'Allemagne. ») ;
+  - « capitale de »                  → ville (ex. « Vienne (capitale de
+                                       l'Autriche). », « Le Caire (capitale
+                                       de l'Égypte). »).
+
+Toute autre définition reste « mot » (mots communs, éléments chimiques,
+régions — « Elsass (région française) » est une région, pas une commune ni
+une ville : type mot, inchangé).
+
+FRANCAIS — NOM NU POUR LES TOPONYMES (défaut 2 bloquant)
+---------------------------------------------------------
+Sur une ligne toponyme, francais porte le NOM NU de la commune/ville, extrait
+verbatim de la page (le nom est le texte affiché du premier lien wiki de la
+définition, jamais une traduction — règle 1) :
+
+  [[Epfig#fr|Epfig]], [[commune]] …          → francais « Epfig »
+  [[Strasbourg#Français|Strasbourg]] (ville…) → francais « Strasbourg »
+
+Le nom nu doit être suivi, dans le rendu, d'une virgule ou d'une parenthèse
+ouvrante (« Epfig, … », « Strasbourg (… »). Si ce n'est pas le cas, le nom
+n'est pas identifiable dans la phrase (cas Wìnkel : « Commune française,
+située dans le département du Haut-Rhin. ») : la ligne est OMISE (règle 3,
+un doute se signale) et listée dans le rapport.
+
+RÈGLES APPLIQUÉES (article 720 + spec carte t_ade43e0f)
 --------------------------------------------------------
 - alsacien : le lemme '''...''', copié verbatim.
-- francais : la définition rendue : liens wiki résolus en leur texte
-  affiché ([[cible|affiché]] → affiché, [[cible]] → cible), templates de
-  contexte retirés, ponctuation de la page conservée, copiée verbatim.
+- francais : pour un toponyme, le nom nu extrait ci-dessus ; pour un mot,
+  la définition rendue (liens résolus, templates de contexte retirés,
+  ponctuation de la page conservée, copiée verbatim).
 - graphie_origine : la section gsw ENTIÈRE (du == {{langue|gsw}} == au
-  titre de niveau 2 suivant, exclus), avant tout découpage. C'est elle qui
-  rend la vérification possible.
+  titre de niveau 2 suivant, exclus), avant tout découpage.
 - contexte : les libellés des parenthèses de contexte rendues, joints par
   « ; » dans l'ordre d'apparition, sinon « ».
-- type : « mot » par défaut, sauf reconnaissance d'un des deux patrons de
-  définition toponymique observés sur le pilote (fix GATE Claude Code
-  10/08/2026, cf. CLAUDE.md § Campagne 2) : « <Nom>, commune française,
-  située dans le département du Bas-Rhin/Haut-Rhin. » (Epfig, Handschuheim,
-  Kauffenheim) et « <Nom> (ville de France). » (Strasbourg, sans template de
-  contexte détectable — aucun autre signal disponible pour ce cas). Dans ces
-  deux cas : type devient « toponyme » et francais devient <Nom> seul (le nom
-  nu de la commune), sinon francais resterait une phrase entière et ne se
-  recouperait avec aucun toponyme d'aucune autre source (clé de jointure
-  cassée). Toute définition de commune qui ne correspond à AUCUN des deux
-  patrons reste « mot » avec sa phrase entière en francais — un doute ne se
-  comble pas (règle 3) : mieux vaut une entrée mal typée visible et corrigible
-  après coup par un futur patron qu'une extraction de nom inventée par une
-  regex trop permissive.
+- type : « toponyme » si la définition désigne une commune ou une ville
+  (motifs ci-dessus), sinon « mot ».
 - region : renseignée UNIQUEMENT si la définition porte littéralement un
-  département (« département du Bas-Rhin » → bas_rhin). Jamais déduite —
-  y compris pour les entrées toponymiques du patron « ville de France » : le
-  texte source ne nomme aucun département, donc region reste absente même
-  quand le département est connu par ailleurs.
+  département (« département du Bas-Rhin » → bas_rhin). Jamais déduite.
 - reference : https://fr.wiktionary.org/wiki/<Titre>#Alémanique — l'ancre
   « Alémanique » est le titre rendu de la section {{langue|gsw}} (constaté
   via l'API parse, prop=sections, le 09/08/2026).
@@ -75,7 +95,6 @@ RAW_DIR = REPO / "data" / "raw" / "wiktionnaire_fr"
 OUT = REPO / "data" / "attestations" / "wiktionnaire_fr__mots.jsonl"
 
 SOURCE_CODE = "wiktionnaire_fr"
-TYPE = "mot"
 
 # Ancre de la section {{langue|gsw}} : le titre rendu est « Alémanique »
 # (constaté via l'API parse, prop=sections, le 09/08/2026).
@@ -87,6 +106,7 @@ ANCRE_GSW = "Alémanique"
 CONTEXTES = {
     "Alsace": "Alsace",
     "localités": "Géographie",
+    "capitales": "Géographie",
     "Région mulhousienne": "Région mulhousienne",
     "Wolschheim": "Wolschheim",
     "éléments": "Chimie",
@@ -94,23 +114,24 @@ CONTEXTES = {
     "gâteaux": "Cuisine",
 }
 
+# Motifs de désignation commune/ville, constatés sur le rendu des définitions
+# (liens résolus) des pages du lot pilote élargi (t_ade43e0f, 10/08/2026).
+# « d' » accepte l'apostrophe courbe ’ (U+2019) du Wiktionnaire et l'apostrophe
+# droite ' (constatées toutes deux sur le brut : « ville d’Allemagne »,
+# « ville d'Italie »).
+RE_TOPONYME = re.compile(
+    r"commune française|"
+    r"ville (?:de|d['’]|française|allemande|italienne|suisse)|"
+    r"capitale de"
+)
+
 RE_TITRE_GSW = re.compile(r"^== \{\{langue\|gsw\}\} ==\n", re.M)
 RE_TITRE_NIVEAU2 = re.compile(r"\n== ")
 RE_LEMME = re.compile(r"'''([^']+)'''")
-RE_TEMPLATE_TETE = re.compile(r"^\{{\s*([^{}|]+?)\s*(?:\|([^{}]*?))?\}\}")
+RE_TEMPLATE_TETE = re.compile(r"^\{\{\s*([^{}|]+?)\s*(?:\|([^{}]*?))?\}\}")
 RE_LIEN = re.compile(r"\[\[([^\]|]+)(?:\|([^\]]*))?\]\]")
+RE_LIEN_TETE = re.compile(r"^\[\[([^\]|]+)(?:\|([^\]]*))?\]\]")
 RE_ESPACES = re.compile(r" {2,}")
-
-# Patrons de définition toponymique observés littéralement sur le pilote
-# (18 attestations, 09/08/2026) — jamais un motif deviné. Un troisième
-# patron pourrait apparaître dans les pages non encore vues du reste de la
-# Catégorie:alémanique ; tant qu'il n'est pas observé et ajouté ici, une
-# commune qui ne matche ni l'un ni l'autre reste « mot » (règle 3).
-RE_TOPONYME_COMMUNE = re.compile(
-    r"^([^,]+), commune française, située dans le département du "
-    r"(Bas-Rhin|Haut-Rhin)\.$"
-)
-RE_TOPONYME_VILLE = re.compile(r"^(.+) \(ville de France\)\.$")
 
 
 def sections_gsw(texte: str) -> list[str]:
@@ -148,71 +169,85 @@ def resoudre_liens(texte: str) -> str:
     return RE_LIEN.sub(repl, texte)
 
 
-def traiter_definition(
-    ligne: str,
-) -> tuple[str | None, list[str], str | None, str]:
-    """Retourne (francais, contextes, region, type_terme).
+def nom_nu(texte_wiki: str, rendu: str) -> str | None:
+    """Nom nu d'une ligne toponyme : texte affiché du premier lien wiki.
+
+    Retourne None si le nom n'est pas identifiable : pas de lien en tête,
+    ou le rendu ne commence pas par le nom suivi d'une virgule ou d'une
+    parenthèse ouvrante (cas Wìnkel — le nom n'est pas dans la phrase).
+    """
+    m = RE_LIEN_TETE.match(texte_wiki)
+    if not m:
+        return None
+    nom = m.group(2) if m.group(2) is not None else m.group(1).split("#", 1)[0]
+    if not nom:
+        return None
+    if not (rendu.startswith(nom + ",") or rendu.startswith(nom + " (")):
+        return None
+    return nom
+
+
+def traiter_definition(ligne: str) -> tuple[str | None, list[str], str | None, str, str | None]:
+    """Retourne (francais, contextes, region, type_att, code_doute).
 
     francais = None si la définition est douteuse (template de tête
-    inconnu ou template résiduel) : la ligne est alors OMISE.
+    inconnu, template résiduel, ou toponyme sans nom nu identifiable) :
+    la ligne est alors OMISE (règle 3) et code_doute porte la raison.
     region = "bas_rhin"/"haut_rhin" si la définition porte littéralement
     « département du Bas-Rhin » / « département du Haut-Rhin », sinon None.
-    type_terme = "toponyme" si la définition matche un des deux patrons
-    connus (auquel cas francais est réduit au nom nu de la commune),
-    sinon "mot".
+    type_att = "toponyme" si la définition désigne une commune ou une ville
+    (motifs RE_TOPONYME), sinon "mot".
     """
-    texte = ligne[2:]  # après « # »
+    texte_wiki = ligne[2:]  # après « # »
     contextes: list[str] = []
 
     # templates de contexte en tête de définition
     while True:
-        m = RE_TEMPLATE_TETE.match(texte)
+        m = RE_TEMPLATE_TETE.match(texte_wiki)
         if not m:
             break
-        nom, args = m.group(1), m.group(2) or ""
-        if nom == "lexique":
+        nom_tpl, args = m.group(1), m.group(2) or ""
+        if nom_tpl == "lexique":
             p1 = args.split("|")[0].strip() if args else ""
             if not p1:
-                return None, contextes, None, TYPE
+                return None, contextes, None, "mot", "template_tete_inconnu"
             lib = p1[0].upper() + p1[1:]
-        elif nom in CONTEXTES:
-            lib = CONTEXTES[nom]
+        elif nom_tpl in CONTEXTES:
+            lib = CONTEXTES[nom_tpl]
         else:
-            return None, contextes, None, TYPE  # template de tête inconnu → doute
+            return None, contextes, None, "mot", "template_tete_inconnu"
         contextes.append(lib)
-        texte = texte[m.end():].lstrip()
+        texte_wiki = texte_wiki[m.end():].lstrip()
 
-    # liens wiki → texte affiché
-    texte = resoudre_liens(texte)
+    # liens wiki → texte affiché (pour la détection et le rendu)
+    rendu = resoudre_liens(texte_wiki)
 
     # template résiduel (non résolu) → doute
-    if "{{" in texte or "}}" in texte:
-        return None, contextes, None, TYPE
+    if "{{" in rendu or "}}" in rendu:
+        return None, contextes, None, "mot", "template_residuel"
 
     # espaces multiples : artefacts du retrait des templates
-    texte = RE_ESPACES.sub(" ", texte).strip()
+    rendu = RE_ESPACES.sub(" ", rendu).strip()
 
-    if not texte:
-        return None, contextes, None, TYPE
+    if not rendu:
+        return None, contextes, None, "mot", "definition_vide"
+
+    # type : toponyme si la définition désigne une commune ou une ville
+    type_att = "toponyme" if RE_TOPONYME.search(rendu) else "mot"
 
     region = None
-    if "département du Bas-Rhin" in texte:
+    if "département du Bas-Rhin" in rendu:
         region = "bas_rhin"
-    elif "département du Haut-Rhin" in texte:
+    elif "département du Haut-Rhin" in rendu:
         region = "haut_rhin"
 
-    type_terme = TYPE
-    m_commune = RE_TOPONYME_COMMUNE.match(texte)
-    if m_commune:
-        type_terme = "toponyme"
-        texte = m_commune.group(1)
-    else:
-        m_ville = RE_TOPONYME_VILLE.match(texte)
-        if m_ville:
-            type_terme = "toponyme"
-            texte = m_ville.group(1)
+    if type_att == "toponyme":
+        nom = nom_nu(texte_wiki, rendu)
+        if nom is None:
+            return None, contextes, region, type_att, "toponyme_sans_nom_nu"
+        return nom, contextes, region, type_att, None
 
-    return texte, contextes, region, type_terme
+    return rendu, contextes, region, type_att, None
 
 
 def extraire() -> tuple[list[dict], list[dict]]:
@@ -243,11 +278,12 @@ def extraire() -> tuple[list[dict], list[dict]]:
             for ligne in section.split("\n"):
                 if not ligne.startswith("# "):
                     continue
-                francais, contextes, region, type_terme = traiter_definition(ligne)
+                francais, contextes, region, type_att, code_doute = \
+                    traiter_definition(ligne)
                 if francais is None:
                     anomalies.append({
                         "fichier": fichier.name,
-                        "type": "definition_douteuse",
+                        "type": code_doute or "definition_douteuse",
                         "detail": ligne[:120],
                     })
                     continue
@@ -256,7 +292,7 @@ def extraire() -> tuple[list[dict], list[dict]]:
                     "francais": francais,
                     "alsacien": lem,
                     "graphie_origine": section,
-                    "type": type_terme,
+                    "type": type_att,
                     "contexte": " ; ".join(contextes),
                 }
                 if region is not None:
@@ -281,6 +317,8 @@ def main() -> int:
 
     print(f"fichiers bruts lus : {len(list(RAW_DIR.glob('*.wikitext.txt')))}")
     print(f"attestations produites : {len(attestations)}")
+    toponymes = sum(1 for a in attestations if a["type"] == "toponyme")
+    print(f"  dont toponymes : {toponymes}, mots : {len(attestations) - toponymes}")
     if anomalies:
         print(f"\n--- ANOMALIES (lignes OMISES, règle 3) ---")
         for a in anomalies:

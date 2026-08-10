@@ -1,0 +1,85 @@
+== {{langue|fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|fr}}
+
+=== {{S|nom propre|fr|num=1}} ===
+{{fr-inv||inv_titre=Nom propre}}
+'''Weyer''' {{pron||fr}}
+# {{localités|fr|du département du Bas-Rhin}} [[commune|Commune]] [[français]]e, située dans le département du [[Bas-Rhin]].
+
+==== {{S|gentilés}} ====
+* [[Weyerois]]
+* [[Weyeroise]]
+* [[weyerois]]
+
+==== {{S|traductions}} ====
+{{trad-début|Ville de France}}
+* {{T|gsw}} : {{trad|gsw|Weyer}}
+{{trad-fin}}
+
+=== {{S|nom propre|fr|num=2}} ===
+{{fr-inv||inv_titre=Nom propre}}
+'''Weyer''' {{pron||fr}}
+# {{localités|fr|d’Allemagne}} [[commune|Commune]] d’[[Allemagne]], située dans la [[Rhénanie-Palatinat]].
+
+==== {{S|traductions}} ====
+{{trad-début|}}
+{{trad-fin}}
+
+=== {{S|nom propre|fr|num=3}} ===
+{{fr-inv||inv_titre=Nom propre}}
+'''Weyer''' {{pron||fr}}
+# {{localités|fr|du Luxembourg}} [[section|Section]] de la commune de [[Fischbach]] au [[Luxembourg]].
+
+==== {{S|traductions}} ====
+{{trad-début|}}
+* {{T|lb}} : {{trad-|lb|Weyer}}
+{{trad-fin}}
+
+=== {{S|prononciation}} ===
+* {{écouter|||lang=fr|audio=LL-Q150 (fra)-Marie-Louise (Le Commissaire)-Weyer.wav}}
+
+=== {{S|voir aussi}} ===
+* {{WP}}
+
+=== {{S|références}} ===
+* {{mercihabitants}}
+
+== {{langue|lb}} ==
+=== {{S|étymologie}} ===
+: {{date|lang=lb}} {{ébauche-étym|lb}}
+{{note noms de famille}}
+
+=== {{S|nom propre|lb}} ===
+{{lb-inv|vˈɑɪɐ|inv_titre=Nom propre}}
+'''Weyer''' {{pron|ˈvɑɪɐ|lb}}
+# {{localités|lb|du Luxembourg}} [[#fr|Weyer]].
+#* {{exemple|lang=lb}}
+
+=== {{S|nom de famille|lb}} ===
+{{lb-inv|ˈvɑɪɐ}}
+'''Weyer''' {{pron|ˈvɑɪɐ|lb}}
+# Nom de famille.
+#* {{exemple|lang=lb}}
+
+=== {{S|prononciation}} ===
+* {{écouter|Luxembourg|ˈvɑɪɐ|lang=lb|audio=Lb-Weyer.ogg}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=lb}}
+
+=== {{S|anagrammes}} ===
+{{voir anagrammes|lb}}
+
+=== {{S|références}} ===
+: {{R:LOD|sens=2}}
+* {{R:Luxemburger Familiennamenbuch}}
+
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw}}
+
+=== {{S|nom propre|gsw}} ===
+'''Weyer''' {{pron||gsw}}
+# {{Alsace|gsw}} {{localités|gsw|du département du Bas-Rhin}} [[Weyer#fr|Weyer]], [[commune]] [[français]]e, située dans le département du [[Bas-Rhin]].
+#* {{exemple|lang=gsw}}

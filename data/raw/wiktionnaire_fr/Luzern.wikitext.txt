@@ -1,0 +1,95 @@
+== {{langue|fr}} ==
+{{ébauche|fr}}
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|fr}}
+
+=== {{S|nom propre|fr}} ===
+{{fr-inv||inv_titre=Nom propre}}
+'''Luzern''' {{pron||fr}}
+# {{localités|fr|du canton de Lucerne}} [[commune|Commune]] du canton de [[Lucerne]] en [[Suisse]].
+
+==== {{S|synonymes}} ====
+* [[Lucerne]]
+
+==== {{S|traductions}} ====
+{{trad-début|}}
+{{trad-fin}}
+
+=== {{S|voir aussi}} ===
+* {{WP}}
+
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw}}
+
+=== {{S|nom propre|gsw}} ===
+'''Luzern''' {{pron||gsw}}
+# [[Lucerne#Français|Lucerne]] (ville de [[Suisse]]).
+
+[[Catégorie:Localités de Suisse en alémanique]]
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|de}}
+
+=== {{S|nom propre|de}} ===
+{{de-nom-propre|genre=n|gs=Luzerns}}
+'''Luzern''' {{pron|luˈt͡sɛʁn|de}} {{n}}
+# [[Lucerne#Français|Lucerne]], ville suisse du canton de [[Lucerne]].
+#* {{exemple | lang=de | '''Luzern''' ist die Hauptstadt des gleichnamigen Kantons Luzern.}}
+#* {{exemple|Eine Riesenschlange hat sich in der Schweizer Kleinstadt Kriens bei '''Luzern''' über den Bürgersteig geschlängelt. Die herbeigerufene Polizei konnte die rund eineinhalb Meter lange Woma Python einfangen, wie sie am Donnerstag berichtete.|lang=de|sens=Un serpent géant s’est serpenté sur le trottoir de la petite ville suisse de Kriens, près de Lucerne. La police, appelée sur place, a pu capturer le python de Ramsay d'environ un mètre et demi de long, comme elle l’a rapporté jeudi.|source={{périodique|auteur=(RND/dpa)|titre=Riesenschlange büxt aus Terrarium aus und schlängelt über Bürgersteig|journal=RedaktionsNetzwerk Deutschland|date=10 août 2023|texte=https://www.rnd.de/panorama/schweiz-riesenschlange-schlaengelt-ueber-buergersteig-in-kriens-VBZTUUXJEFIZBIL4ZEPMON6ZA4.html}}}}
+# [[Lucerne#Français|Lucerne]] canton suisse.
+
+==== {{S|dérivés}} ====
+* [[luzernisch]]
+
+=== {{S|prononciation}} ===
+* {{écouter|Berlin|luˈt͡sɛʁn|lang=de|audio=De-Luzern2.ogg}}
+* {{écouter|Suisse|luˈt͡sɛʁn|lang=de|audio=De-Luzern.ogg}}
+[[Catégorie:Localités de Suisse en allemand]]
+
+== {{langue|fi}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|fi}}
+
+=== {{S|nom propre|fi}} ===
+'''Luzern''' {{pron||fi}}
+# [[Lucerne#Français|Lucerne]] (ville de [[Suisse]]).
+[[Catégorie:Localités de Suisse en finnois]]
+
+== {{langue|lb}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|lb}}
+
+=== {{S|nom propre|lb}} ===
+'''Luzern''' {{pron||lb}}
+# [[Lucerne#Français|Lucerne]] (ville de [[Suisse]]).
+[[Catégorie:Localités de Suisse en luxembourgeois]]
+
+== {{langue|nl}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|nl}}
+
+=== {{S|nom propre|nl}} ===
+'''Luzern''' {{pron||nl}}
+# [[Lucerne#Français|Lucerne]] (ville de [[Suisse]]).
+[[Catégorie:Localités de Suisse en néerlandais]]
+
+== {{langue|no}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|no}}
+
+=== {{S|nom propre|no}} ===
+'''Luzern''' {{pron||no}}
+# [[Lucerne#Français|Lucerne]] (ville de [[Suisse]]).
+[[Catégorie:Localités de Suisse en norvégien]]
+
+== {{langue|sv}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|sv}}
+
+=== {{S|nom propre|sv}} ===
+'''Luzern''' {{pron||sv}}
+# [[Lucerne#Français|Lucerne]] (ville de [[Suisse]]).
+[[Catégorie:Localités de Suisse en suédois]]

@@ -1,0 +1,70 @@
+{{voir|gries}}
+== {{langue|fr}} ==
+=== {{S|étymologie}} ===
+: {{date|lang=fr}} S’appelait '''Grioz''' en {{date|lang=fr|924}}. Du {{étyl|goh|fr|mot=grioz|sens=gravier}}. (→ ''voir aussi l’allemand {{lien|griess|de}}'')
+
+=== {{S|nom propre|fr|num=1}} ===
+{{fr-inv|ɡʁis|inv_titre=Nom propre}}
+'''Gries''' {{pron|ɡʁis|fr}}
+# {{localités|fr|du département du Bas-Rhin}} [[commune|Commune]] [[français]]e, située dans le département du [[Bas-Rhin]].
+
+==== {{S|gentilés}} ====
+* [[Griesois]]
+* [[Griesoise]]
+* [[griesois]]
+
+==== {{S|traductions}} ====
+{{trad-début|Ville de France}}
+{{trad-fin}}
+
+=== {{S|nom propre|fr|num=2}} ===
+{{fr-inv|ɡʁis|inv_titre=Nom propre}}
+'''Gries''' {{pron|ɡʁis|fr}}
+# {{localités|fr|d’Allemagne}} [[commune|Commune]] d’[[Allemagne]], située dans la [[Rhénanie-Palatinat]].
+
+==== {{S|traductions}} ====
+{{trad-début}}
+* {{T|gsw}} : {{trad|gsw|Gries}}
+{{trad-fin}}
+
+=== {{S|prononciation}} ===
+* {{écouter|||lang=fr|audio=LL-Q150 (fra)-Marie-Louise (Le Commissaire)-Gries.wav}}
+
+=== {{S|anagrammes}} ===
+{{voir anagrammes|fr}}
+
+=== {{S|voir aussi}} ===
+* {{WP}}
+
+=== {{S|références}} ===
+* {{mercihabitants}}
+* {{R:DauzatRostaing|page=332}}
+
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw}}
+
+=== {{S|nom propre|gsw}} ===
+'''Gries''' {{pron||gsw}}
+# {{Alsace|gsw}} {{localités|gsw|du département du Bas-Rhin}} [[Gries#fr|Gries]], [[commune]] [[français]]e, située dans le département du [[Bas-Rhin]].
+#* {{exemple|lang=gsw}}
+
+== {{langue|lb}} ==
+=== {{S|étymologie}} ===
+: {{date|lang=lb}} {{ébauche-étym|lb}}
+{{note noms de famille}}
+
+=== {{S|nom de famille|lb}} ===
+{{lb-inv|gʀiːs}}
+'''Gries''' {{pron|gʀiːs|lb}}
+# Nom de famille.
+#* {{exemple|lang=lb}}
+
+=== {{S|prononciation}} ===
+{{ébauche-pron-audio|lb}}
+
+=== {{S|anagrammes}} ===
+{{voir anagrammes|lb}}
+
+=== {{S|références}} ===
+* {{R:Luxemburger Familiennamenbuch}}

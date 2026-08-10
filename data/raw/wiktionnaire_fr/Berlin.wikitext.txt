@@ -1,0 +1,658 @@
+{{voir/berlin}}
+
+== {{langue|fr}} ==
+=== {{S|étymologie}} ===
+: {{date|lang=fr}} De l’{{étylp|de|fr|mot=Berlin}}.
+
+=== {{S|nom propre|fr}} ===
+{{fr-rég|bɛʁ.lɛ̃}}
+[[Image:Deutschland Lage Berlins.svg|thumb|Land de '''Berlin'''.]]
+'''Berlin''' {{pron|bɛʁ.lɛ̃|fr}}
+# {{capitales|fr|pays=d’Allemagne}} [[capitale|Capitale]] de l’[[Allemagne]].
+#* {{exemple |lang=fr 
+|À '''Berlin''' ! à '''Berlin''' ! Maurice entendit ce cri hurlé par la foule grouillante des boulevards, pendant la nuit de fol enthousiasme, qui l’avait décidé à s’engager. 
+|source={{w|Émile Zola}}, ''{{w|La Débâcle}}'', 1892}}
+#* {{exemple|lang=fr|
+– À '''Berlin''' ! à '''Berlin''' ! criait toujours la voix sur un air Déroulède.
+|source={{w|Jacques Perret (écrivain)|Jacques Perret}}, ''Le Caporal épinglé'', Gallimard, 1947, page 80}}
+#* {{exemple |lang=fr 
+|À l’instant où von Greim transmet l’ordre de Hitler d’ouvrir une brèche dans les lignes russes avec l’aviation, le pavillon rouge des Soviets flotte sur les trois quarts de '''Berlin'''. 
+|source={{w|Georges Blond}}, ''L’Agonie de l’Allemagne 1944-1945'', Fayard, 1952, page 326 }}
+#* {{exemple |lang=fr 
+|Je compris alors que '''Berlin''' était une ville sans pareille, car on pouvait à travers ce paysage urbain déchiffrer tout le passé de notre temps, appréhender, comme dans des coupes géologiques, ses différentes strates —le '''Berlin''' impérial, le '''Berlin''' wilhelminien, le '''Berlin''' nazi, le '''Berlin''' allié, le '''Berlin''' rouge, communiste— qui coexistent, se conjuguent, se fondent en quelque chose d’unique pour l’Histoire du XXe siècle. 
+|source={{w|Claude Lanzmann}}, ''Le Lièvre de Patagonie'', chapitre X, Gallimard, 2009 }}
+#* {{exemple |lang=fr 
+|Le Kényan Eliud Kipchoge a amélioré son propre record du monde du marathon, dimanche, à '''Berlin'''. 
+|source=journal ''20 minutes'', édition Paris-IDF, 26 septembre 2022, page 15 }}
+#* {{exemple |lang=fr 
+|Sans parler des postulants plus « politiques », comme l’auteur des ''Versets sataniques'', menacé de mort, Salman Rushdie, ou la dissidente russe exilée à '''Berlin''', Ludmila Oulitskaïa. 
+|source=journal ''20 minutes'', édition Paris-IDF, 7 octobre 2022, page 10 }}
+# {{territoires|sous-cat=Länder|fr|d’Allemagne}} Un des seize [[Länder]] qui constituent la [[République fédérale d’Allemagne]].
+# {{par métonymie|fr}} Le [[gouvernement]] [[allemand]].
+#* {{exemple |lang=fr 
+|D’une même voix, Paris, '''Berlin''', Madrid et Rome ont également appelé à la « libération immédiate » des membres du gouvernement et du Parlement arrêtés. 
+|source=Radio-Canada, « Aung San Suu Kyi appelle à ne pas accepter le coup d’État au Myanmar », ''radio-canada.ca'', {{1er|février}} 2021 }}
+#* {{exemple |lang=fr 
+|Varsovie, '''Berlin''' et Stockholm vont chacun expulser un diplomate russe en poste dans leur pays, ont annoncé quasi simultanément les gouvernements des trois pays. 
+|source=AFP, « '''Berlin''', Varsovie et Stockholm répliquent à Moscou et expulsent des diplomates russes », ''radio-canada.ca'', 8 février 2021 }}
+
+==== {{S|notes}} ====
+: ''Berlin'' sera masculin ou féminin selon qu’il s’agit de l’ellipse de « le Land de Berlin » ou « la ville de Berlin », respectivement.
+
+==== {{S|gentilés}} ====
+* [[Berlinois]], [[Berlinoise]], [[berlinois]]
+
+==== {{S|synonymes}} ====
+* [[Berlingot]]
+
+==== {{S|dérivés}} ====
+{{(}}
+* [[Berlin-Est]]
+* [[Berlin-Ouest]]
+* [[berline]]
+* [[berliniser]]
+* [[berlinite]]
+* [[Berlinois]], [[Berlinoise]], [[berlinois]]
+* [[boule de Berlin]]
+* [[coussin berlinois]]
+* [[mur de Berlin]]
+* [[République de Berlin]]
+* [[vert de Berlin]]
+{{)}}
+
+==== {{S|traductions}} ====
+{{trad-début}}
+* {{T|af}} : {{trad+|af|Berlyn}}
+* {{T|sq}} : {{trad+|sq|Berlini}}
+* {{T|gsw}} : {{trad|gsw|Berlin}}
+* {{T|de}} : {{trad+|de|Berlin}}
+* {{T|am}} : {{trad-|am|በርሊን|tr=bärlin}}
+* {{T|en}} : {{trad+|en|Berlin}}
+* {{T|ar}} : {{trad-|ar|برلين}}
+* {{T|an}} : {{trad-|an|Berlín}}
+* {{T|hy}} : {{trad+|hy|Բեռլին|tr=Beṙlin}}
+* {{T|ast}} : {{trad+|ast|Berlín}}
+* {{T|ay}} : {{trad-|ay|Berlin}}
+* {{T|az}} : {{trad+|az|Berlin}}
+* {{T|nds}} : {{trad-|nds|Berlin}}
+* {{T|dsb}} : {{trad|dsb|Barliń}}
+* {{T|eu}} : {{trad+|eu|Berlin}}
+* {{T|bn}} : {{trad-|bn|বার্লিন|tr=barlin}}
+* {{T|be}} : {{trad-|be|Бэрлін|tr=Berlin}}
+* {{T|my}} : {{trad-|my|ဘာလင်|tr=bhalang}}
+* {{T|bs}} : {{trad-|bs|Berlin}}
+* {{T|bg}} : {{trad+|bg|Берлин|tr=Berlin}}
+* {{T|ca}} : {{trad+|ca|Berlín}}
+* {{T|zh}} : {{trad+|zh|柏林|tr=Bólín}}
+* {{T|ko}} : {{trad+|ko|베를린|tr=Bereullin}}
+* {{T|ht}} : {{trad|ht|Bèlen}}
+* {{T|hr}} : {{trad+|hr|Berlin}}
+* {{T|da}} : {{trad+|da|Berlin}}
+* {{T|myv}} : {{trad|myv|Берлин|tr=Berlin}}
+* {{T|es}} : {{trad+|es|Berlín}}
+* {{T|eo}} : {{trad+|eo|Berlino}}
+* {{T|et}} : {{trad+|et|Berliin}}
+* {{T|fo}} : {{trad-|fo|Berlin}}
+* {{T|fi}} : {{trad+|fi|Berliini}}
+* {{T|fy}} : {{trad-|fy|Berlyn}}
+* {{T|frr}} : {{trad|frr|Berlin}}
+* {{T|gd}} : {{trad-|gd|Berlin}}
+* {{T|ga}} : {{trad-|ga|Beirlín}}
+* {{T|gl}} : {{trad+|gl|Berlín}}
+* {{T|cy}} : {{trad+|cy|Berlin}}
+* {{T|ka}} : {{trad+|ka|ბერლინი|tr=Berlini}}
+* {{T|gn}} : {{trad-|gn|Berlin}}
+* {{T|hsb}} : {{trad-|hsb|Berlin}}
+* {{T|he}} : {{trad-|he|ברלין}}
+* {{T|hi}} : {{trad-|hi|बर्लिन|tr=barlin}}
+* {{T|hu}} : {{trad+|hu|Berlin}}
+* {{T|sah}} : {{trad|sah|Берлин|tr=Berlin}}
+* {{T|io}} : {{trad-|io|Berlin}}
+* {{T|id}} : {{trad-|id|Berlin}}
+* {{T|is}} : {{trad-|is|Berlín}}
+* {{T|it}} : {{trad+|it|Berlino}}
+* {{T|ja}} : {{trad+|ja|ベルリン|tr=Berurin}}
+* {{T|jv}} : {{trad-|jv|Berlin}}
+* {{T|csb}} : {{trad-|csb|Berlëno}}
+* {{T|kn}} : {{trad-|kn|ಬರ್ಲಿನ್|tr=barlin}}
+* {{T|kk}} : {{trad-|kk|Берлин|tr=Berlïn}}
+* {{T|ky}} : {{trad+|ky|Берлин|tr=Berlin}}
+* {{T|kv}} : {{trad|kv|Берлин|tr=Berlin}}
+* {{T|ku}} : {{trad+|ku|Berlîn}}
+* {{T|la}} : {{trad+|la|Berolinum}}
+* {{T|lv}} : {{trad+|lv|Berlīne}}
+* {{T|li}} : {{trad+|li|Berlien}}
+* {{T|lt}} : {{trad-|lt|Berlynas}}
+* {{T|lb}} : {{trad+|lb|Berlin}}
+* {{T|mk}} : {{trad+|mk|Берлин|tr=Berlin}}
+* {{T|ms}} : {{trad-|ms|Berlin}}
+* {{T|ml}} : {{trad-|ml|ബെർലിൻ|tr=berlin}}
+* {{T|mg}} : {{trad+|mg|Berlin}}
+* {{T|mt}} : {{trad-|mt|Berlin}}
+* {{T|gv}} : {{trad-|gv|Berleen}}
+* {{T|mi}} : {{trad-|mi|Pearīni}}
+* {{T|mr}} : {{trad-|mr|बर्लिन|tr=barlin}}
+* {{T|mn}} : {{trad-|mn|Берлин|tr=Berlin}}
+* {{T|na}} : {{trad-|na|Berlin}}
+* {{T|nl}} : {{trad+|nl|Berlijn}}
+* {{T|ne}} : {{trad-|ne|बर्लिन|tr=barlina}}
+* {{T|no}} : {{trad+|no|Berlin}}
+* {{T|nn}} : {{trad+|no|Berlin}}
+* {{T|oc}} : {{trad-|oc|Berlin}}
+* {{T|os}} : {{trad|os|Берлин|tr=Berlin}}
+* {{T|udm}} : {{trad|udm|Берлин|tr=Berlin}}
+* {{T|uz}} : {{trad-|uz|Berlin}}
+* {{T|pap}} : {{trad|pap|Berlin}}
+* {{T|pa}} : {{trad-|pa|ਬਰਲਿਨ|tr=barlin}}
+* {{T|fa}} : {{trad+|fa|برلین}}
+* {{T|pl}} : {{trad+|pl|Berlin}}
+* {{T|pt}} : {{trad+|pt|Berlim}}
+* {{T|qu}} : {{trad-|qu|Berlin}}
+* {{T|rm}} : {{trad-|rm|Berlin}}
+* {{T|ro}} : {{trad+|ro|Berlin}}
+* {{T|ru}} : {{trad+|ru|Берлин|tr=Berlin}}
+* {{T|sm}} : {{trad-|sm|Perelini}}
+* {{T|sc}} : {{trad-|sc|Berlinu}}
+* {{T|sr}} : {{trad+|sr|Берлин|tr=Berlin}}
+* {{T|sh}} : {{trad+|sh|Berlin}}
+* {{T|scn}} : {{trad-|scn|Birlinu}}
+* {{T|sk}} : {{trad+|sk|Berlín}}
+* {{T|sl}} : {{trad-|sl|Berlin}}
+* {{T|sv}} : {{trad+|sv|Berlin}}
+* {{T|sw}} : {{trad-|sw|Berlin}}
+* {{T|tg}} : {{trad+|tg|Берлин|tr=Berlin}}
+* {{T|tl}} : {{trad-|tl|Berlin}}
+* {{T|ta}} : {{trad-|ta|பெர்லின்}}
+* {{T|tt}} : {{trad-|tt|Берлин|tr=Berlin}}
+* {{T|cs}} : {{trad+|cs|Berlín}}
+* {{T|ce}} : {{trad|ce|Берлин|tr=Berlin}}
+* {{T|te}} : {{trad-|te|బెర్లిన్|tr=berlin}}
+* {{T|th}} : {{trad+|th|เบอร์ลิน}}
+* {{T|tr}} : {{trad+|tr|Berlin}}
+* {{T|tk}} : {{trad-|tk|Berlin}}
+* {{T|uk}} : {{trad+|uk|Берлін|tr=Berlin}}
+* {{T|vec}} : {{trad-|vec|Berlin}}
+* {{T|vi}} : {{trad-|vi|Berlin}}
+* {{T|prg}} : {{trad|prg|Berlīns}}
+* {{T|vor}} : {{trad|vor|Berliin}}
+* {{T|yi}} : {{trad-|yi|בערלין|tr=berlin}}
+{{trad-fin}}
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=fr|France|audio=LL-Q150 (fra)-Fhala.K-Berlin.wav}}
+* {{écouter|lang=fr|France (Paris)|audio=LL-Q150 (fra)-GrandCelinien-Berlin.wav}}
+* {{écouter|lang=fr|France (Vosges)||audio=LL-Q150 (fra)-Poslovitch-Berlin.wav}}
+* {{écouter|Vendée (France)||lang=fr|audio=LL-Q150 (fra)-Sartus85-Berlin.wav}}
+* {{écouter|Vosges (France)||lang=fr|audio=LL-Q150 (fra)-LoquaxFR-Berlin.wav}}
+
+=== {{S|anagrammes}} ===
+{{voir anagrammes|fr}}
+
+=== {{S|voir aussi}} ===
+* {{WP}}
+* {{Vikidia}}
+
+[[Catégorie:Toponymes dont l’origine est aquatique en français]]
+
+== {{langue|gsw}} ==
+=== {{S|nom propre|gsw}} ===
+'''Berlin''' {{pron||gsw}}
+# {{capitales|gsw|pays=d’Allemagne}} [[#fr|Berlin]] (ville allemande).
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: Du {{étylp|pox|de|tr=berl-, birl-|sens=[[marais]]}} avec le suffixe locatif ''[[-in]]'' et non de l’allemand {{lien|''Bär''|de|sens=[[ours]]}} qui est néanmoins, par homophonie plus que par étymologie, devenu le symbole de la ville et trône en bonne place sur son [[écu]].
+
+=== {{S|nom propre|de}} ===
+{{de-nom-propre|genre=n|gs=Berlin|gs2=Berlins}}
+'''Berlin''' {{pron|bɛʁ.ˈliːn|de}} {{n}}
+# {{capitales|de|pays=d’Allemagne}} [[#fr|Berlin]], capitale de l’[[Allemagne]].
+#* {{exemple | lang=de | '''Berlin''' liegt an der Spree und an der Havel. | sens=Berlin est située sur la Spree et la Havel.}}
+#* {{exemple|Nun ist ein Flugzeug (...) ein Transportmittel. Eines mit großer Reichweite allerdings. Weshalb es zwar auf einem Flug von '''Berlin''' nach Rom angehen mag, dass man den Passagieren ein Tütchen Erdnüsse anbietet nebst zwei Schlucken Cola oder Kaffee - und gut ist's. Aber auf Transatlantikrouten genügt ein bisschen Knabberzeug nicht.|lang=de|sens=Or, un avion (...) est un moyen de transport. Un moyen de transport à grande portée, certes. C'est pourquoi il peut être acceptable, sur un vol Berlin-Rome, d’offrir aux passagers un sachet de cacahuètes accompagné de deux gorgées de coca ou de café - et c'est bon. Mais sur les lignes transatlantiques, un peu de grignotage ne suffit pas.|source={{périodique|auteur=Stefan Fischer|titre=Flugreise: Nüsschen oder nix|journal=Süddeutsche Zeitung|date=7 mars 2024|texte=https://www.sueddeutsche.de/auto/flugzeug-lufthansa-mahlzeit-1.6424149}}}}
+#* {{exemple|Wie genau die Bewohner des Gazastreifens nach Madagaskar kommen, will Trump bei einer internationalen Konferenz festlegen. "Ich könnte mir vorstellen, dass wir sie in '''Berlin''' am Wannsee stattfinden lassen könnten."|lang=de|sens=Trump veut définir exactement comment les habitants de la bande de Gaza seront transportés à Madagascar lors d’une conférence internationale. « Je pourrais imaginer qu’elle se tienne à Berlin, au bord du Wannsee ».|source={{périodique|auteur=(pfg, ssi, dan)|titre=Endlösung der Palästinenserfrage: Trump will Bevölkerung von Gaza nach Madagaskar umsiedeln|journal=Der Postillon|date=5 février 2025|texte=https://www.der-postillon.com/2025/02/gaza-umsiedlung.html}}}}
+# {{territoires|sous-cat=Länder|fr|d’Allemagne}} Un des seize [[Länder]] qui constituent la [[République fédérale d’Allemagne]].
+#* {{exemple|Nun ist nicht zu bestreiten, dass das Land '''Berlin''' in der Zwickmühle ist. Ohne die Mietstundung hätte Hertha womöglich die Lizenz für die zweite Liga nicht erhalten, und das hätte unter Umständen bedeutet, dass '''Berlin'''s Olympiastadion seinen Hauptmieter verloren - und das Land ein noch größeres Problem gehabt hätte.|lang=de|sens=Il est quand-même indéniable que le Land de Berlin se trouve dans un dilemme. Sans le report de loyer, le Hertha n'aurait peut-être pas obtenu sa licence pour la deuxième division, ce qui aurait peut-être signifié que le stade olympique de Berlin aurait perdu son principal locataire - et que le Land aurait eu un problème encore plus grand.|source={{périodique|auteur=Javier Cáceres|titre=Sollnse halt Kuchen essen|journal=Süddeutsche Zeitung|date=29 juin 2023|texte=https://www.sueddeutsche.de/sport/hertha-bsc-stadionmiete-senat-stundung-kommentar-1.5980888}}}}
+#* {{exemple|Alle Jahre wieder gilt an Karfreitag ein Tanzverbot. (...) In Bayern und Baden-Württemberg ist die Auslegung des Verbotes besonders streng. In '''Berlin''', Bremen und Hamburg ist die Handhabung etwas lockerer.|lang=de|sens=Chaque année, il est interdit de danser le Vendredi saint. (...) En Bavière et dans le Bade-Wurtemberg, l'interprétation de l'interdiction est particulièrement stricte. A Berlin, Brême et Hambourg, l’application est plus souple.|source={{périodique|auteur=Greta Giuliana Spieker|titre=Tanzverbot an Karfreitag: Was wo gilt|journal=RedaktionsNetzwerk Deutschland|date=15 avril 2025|texte=https://www.rnd.de/politik/tanzverbot-an-karfreitag-was-wo-gilt-FJ6T2HDGWZGZXOTGNVV4EKJX3I.html}}}}
+
+==== {{S|synonymes}} ====
+{{(|}}
+* {{lien|Bundeshauptstadt|de}}
+* {{lien|Berlin-Cölln|de}}
+* {{lien|Spreeathen|de}}
+* {{lien|Spree-Athen|de}}
+* {{lien|Großberlin|de}}
+* {{lien|Groß-Berlin|de}}
+* {{lien|Land Berlin|de}}
+* {{lien|Berlin (West)|de}}
+* {{lien|West-Berlin|de}}
+* {{lien|Westberlin|de}}
+* {{lien|Berlin (Ost)|de}}
+* {{lien|Ost-Berlin|de}}
+* {{lien|Ostberlin|de}}
+* {{lien|Berlin, Hauptstadt der DDR|de}}
+{{)}}
+
+==== {{S|antonymes}} ====
+{{(|}}
+* {{lien|Baden-Württemberg|de}}
+* {{lien|Bayern|de}}
+* {{lien|Brandenburg|de}}
+* {{lien|Bremen|de}}
+* {{lien|Hamburg|de}}
+* {{lien|Hessen|de}}
+* {{lien|Mecklenburg-Vorpommern|de}}
+* {{lien|Niedersachsen|de}}
+* {{lien|Nordrhein-Westfalen|de}}
+* {{lien|Rheinland-Pfalz|de}}
+* {{lien|Saarland|de}}
+* {{lien|Sachsen|de}}
+* {{lien|Sachsen-Anhalt|de}}
+* {{lien|Schleswig-Holstein|de}}
+* {{lien|Schlesien|de}}
+* {{lien|Thüringen|de}}
+{{)}}
+
+==== {{S|gentilés}} ====
+* [[Berliner]], [[Berlinerin]], [[berlinisch]]
+
+==== {{S|hyperonymes}} ====
+{{(|}}
+* {{lien|Großstadt|de}}
+* {{lien|Metropole|de}}
+* {{lien|Landeshauptstadt|de}}
+* {{lien|Hauptstadt|de}}
+* {{lien|Hauptstadt|de}}
+* {{lien|Bundesland|de}}
+* {{lien|Stadtstaat|de}}
+* {{lien|Agglomeration|de}}
+* {{lien|Ballungsraum|de}}
+* {{lien|Ballungsgebiet|de}}
+* {{lien|Stadtregion|de}}
+{{)}}
+
+==== {{S|hyponymes}} ====
+{{(|}}
+* {{lien|Friedrichshain-Kreuzberg|de}}
+* {{lien|Lichtenberg|de}}
+* {{lien|Marzahn-Hellersdorf|de}}
+* {{lien|Mitte|de}}
+* {{lien|Neukölln|de}}
+* {{lien|Pankow|de}}
+* {{lien|Reinickendorf|de}}
+* {{lien|Spandau|de}}
+* {{lien|Steglitz-Zehlendorf|de}}
+* {{lien|Tempelhof-Schöneberg|de}}
+* {{lien|Treptow-Köpenick|de}}
+{{)}}
+
+==== {{S|dérivés}} ====
+{{(}}
+* {{lien|Berlin-Cölln|de}}
+* {{lien|Berlin-Krise|de}}
+* {{lien|Berlin-Ultimatum|de}}
+* {{lien|Berlinabkommen|de}}
+* {{lien|Berlinale|de}}
+* {{lien|Berline|de}}
+* {{lien|Berliner|de}}
+* {{lien|berliner|de}}
+* {{lien|Berliner Blau|de}}
+* {{lien|Berliner-Blau-Färbung|de}}
+* {{lien|Berliner-Blau-Reaktion|de}}
+* {{lien|Berliner Blockade|de}}
+* {{lien|Berliner Braun|de}}
+* {{lien|Berliner Eisen|de}}
+* {{lien|Berliner Frieden|de}}
+* {{lien|Berliner Kongress|de}}
+* {{lien|Berliner Luft|de}}
+* {{lien|Berliner Mauer|de}}
+* {{lien|Berliner Pfannkuchen|de}}
+* {{lien|Berliner Pflanze|de}}
+* {{lien|Berliner Rot|de}}
+* {{lien|Berliner Testament|de}}
+* {{lien|Berliner Vertrag|de}}
+* {{lien|Berliner Wanne|de}}
+* {{lien|Berliner Weiße|de}}
+* {{lien|Berlinerin|de}}
+* {{lien|berlinerisch|de}}
+* {{lien|berlinern|de}}
+* {{lien|berlinfern|de}}
+* {{lien|Berlinförderungsgesetz|de}}
+* {{lien|Berlinfrage|de}}
+* {{lien|Berlinhilfegesetz|de}}
+* {{lien|berlinisch|de}}
+* {{lien|Berlinisch|de}}
+* {{lien|Berlinklausel|de}}
+* {{lien|Berlinkrise|de}}
+* {{lien|berlinnah|de}}
+* {{lien|berlinweit|de}}
+* {{lien|Berlinzulage|de}}
+* {{lien|einen Koffer in Berlin haben|de}}
+* {{lien|Groß-Berlin|de}}
+* {{lien|Mount Berlin|de}}
+* {{lien|Ost-Berlin|de}}
+* {{lien|Ostberlin|de}}
+* {{lien|Rucksackberliner|de}}
+* {{lien|Viermächteabkommen über Berlin|de}}
+* {{lien|West-Berlin|de}}
+* {{lien|Westberlin|de}}
+{{)}}
+
+==== {{S|phrases}} ====
+* {{lien|einen Koffer in Berlin haben|de|dif=einen Koffer in ''Berlin'' haben}}
+
+=== {{S|prononciation}} ===
+* {{écouter|{{DE|nocat=1}}|bɛʁˈliːn|lang=de|audio=De-Berlin-2.ogg}}
+* {{écouter|Berlin (Allemagne)|bɛʁˈliːn|lang=de|audio=De-Berlin2.ogg}}
+* {{écouter||bɛʁˈliːn|lang=de|audio=De-Berlin.ogg}}
+* {{écouter|Munich (Allemagne)|bɛʁˈliːn|lang=de|audio=LL-Q188 (deu)-Ionenlaser-Berlin.wav}}
+* {{écouter|{{DE|nocat=1}}|bɛʁˈliːn|lang=de|audio=LL-Q188 (deu)-Natschoba-Berlin.wav}}
+* {{écouter|{{DE|nocat=1}}|bɛʁˈliːn|lang=de|audio=LL-Q188 (deu)-ENERGY ENCHANTED-Berlin.wav}}
+
+=== {{S|références}} ===
+* {{R:DWDS|Berlin}}
+* {{R:Duden|Berlin}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=de}}
+* {{VOY|lang=de}}
+
+[[Catégorie:Toponymes dont l’origine est aquatique en allemand]]
+
+== {{langue|en}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|en|mot=Berlin}}.
+
+=== {{S|nom propre|en}} ===
+'''Berlin''' {{pron|bɜː.ˈlɪn|en}}, {{pron|bɚ.ˈlɪn|en}} {{US|nocat=1}}; {{pron|bɜː.ˈlɪn|en}}, {{pron|bə.ˈlɪn|en}} {{UK|nocat=1}}
+# {{capitales|en|pays=d’Allemagne}} [[Berlin#fr|Berlin]] (ville et capitale de l'Allemagne).
+# {{territoires|sous-cat=Länder|en|d’Allemagne}} Le Land de Berlin.
+# {{par métonymie|en}} Le gouvernement allemand.
+
+==== {{S|méronymes}} ====
+* {{lien|East Berlin|en}}
+* {{lien|West Berlin|en}}
+
+=== {{S|prononciation}} ===
+* {{écouter|États-Unis|bɚ.ˈlɪn|lang=en|audio=}}
+* {{écouter|lang=en|Royaume-Uni (Sud de l'Angleterre)||audio=LL-Q1860 (eng)-Vealhurl-Berlin.wav}}
+* {{écouter||bɜː.ˈlɪn|lang=en|audio=}}
+* {{écouter|Connecticut (États-Unis)||lang=en|audio=LL-Q1860 (eng)-Grendelkhan-Berlin.wav}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=en}}
+
+[[Catégorie:Toponymes dont l’origine est aquatique en anglais]]
+
+== {{langue|az}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|az}}
+
+=== {{S|nom propre|az}} ===
+{{az-décl-nom|i|c}}
+'''Berlin''' {{pron||az}} {{az-forme possessive}}
+# {{capitales|az|pays=d’Allemagne}} [[Berlin#fr|Berlin]].
+
+== {{langue|nds}} ==
+=== {{S|nom propre|nds}} ===
+'''Berlin''' {{pron||nds}}
+# {{capitales|nds|pays=d’Allemagne}} [[Berlin#fr|Berlin]].
+
+== {{langue|bs}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|bs|mot=Berlin}}.
+
+=== {{S|nom propre|bs}} ===
+'''Berlin''' {{pron||bs}}
+# {{capitales|bs|pays=d’Allemagne}} [[Berlin#fr|Berlin]].
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=bs}}
+
+== {{langue|hr}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|hr|mot=Berlin}}.
+
+=== {{S|nom propre|hr}} ===
+'''Berlin''' {{pron||hr}}
+# {{capitales|hr|pays=d’Allemagne}} [[Berlin#fr|Berlin]].
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=hr}}
+
+== {{langue|da}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|da|mot=Berlin}}.
+
+=== {{S|nom propre|da}} ===
+'''Berlin''' {{pron||da}}
+# {{capitales|da|pays=d’Allemagne}} [[Berlin#fr|Berlin]] (ville allemande).
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=da}}
+
+== {{langue|fo}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|de|fo|mot=Berlin}}.
+
+=== {{S|nom propre|fo}} ===
+'''Berlin''' {{pron||fo}}
+# {{capitales|fo|pays=d’Allemagne}} [[Berlin#fr|Berlin]] (ville allemande).
+
+== {{langue|gd}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|gd|mot=Berlin}}.
+
+=== {{S|nom propre|gd}} ===
+'''Berlin''' {{pron||gd}}
+# {{capitales|gd|pays=d’Allemagne}} [[Berlin#fr|Berlin]] (ville allemande).
+
+== {{langue|cy}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|cy|mot=Berlin}}.
+
+=== {{S|nom propre|cy}} ===
+'''Berlin''' {{pron||cy}}
+# {{capitales|cy|pays=d’Allemagne}} [[Berlin#fr|Berlin]] (ville allemande).
+
+== {{langue|hu}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|hu|mot=Berlin}}.
+
+=== {{S|nom propre|hu}} ===
+'''Berlin''' {{pron||hu}}
+# {{capitales|hu|pays=d’Allemagne}} [[Berlin#fr|Berlin]] (ville allemande).
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=hu}}
+
+== {{langue|io}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|io|mot=Berlin}}.
+
+=== {{S|nom propre|io}} ===
+'''Berlin''' {{pron||io}}
+# {{capitales|io|pays=d’Allemagne}} [[Berlin#fr|Berlin]] (ville allemande).
+
+== {{langue|id}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|id|mot=Berlin}}.
+
+=== {{S|nom propre|id}} ===
+'''Berlin''' {{pron||id}}
+# {{capitales|id|pays=d’Allemagne}} [[Berlin#fr|Berlin]] (ville allemande).
+#* {{exemple|lang=id}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=id}}
+
+== {{langue|jv}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|jv|mot=Berlin}}.
+
+=== {{S|nom propre|jv}} ===
+'''Berlin''' {{pron||jv}}
+# {{capitales|jv|pays=d’Allemagne}} [[Berlin#fr|Berlin]] (ville allemande).
+
+== {{langue|lb}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|lb|Berlin}}.
+
+=== {{S|nom propre|lb}} ===
+{{lb-inv||inv_titre=Nom propre}}
+'''Berlin''' {{pron||lb}} {{n}}
+# {{capitales|lb|pays=d’Allemagne}} {{lien|Berlin|fr}}.
+#* {{exemple|lang=lb}}
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=lb|Luxembourg||niveau=bon|audio=LL-Q9051 (ltz)-Procrastineur49-Berlin.wav}}
+
+=== {{S|références}} ===
+: {{R:LOD}}
+
+== {{langue|ms}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|ms|mot=Berlin}}.
+
+=== {{S|nom propre|ms}} ===
+'''Berlin''' {{pron||ms}}
+# {{capitales|ms|pays=d’Allemagne}} [[Berlin#fr|Berlin]] (ville allemande).
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=ms}}
+
+== {{langue|mt}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|de|mt|mot=Berlin}}.
+
+=== {{S|nom propre|mt}} ===
+'''Berlin''' {{pron|bɛr.ˈliːn|mt}}
+# {{capitales|mt|pays=d’Allemagne}} [[Berlin#fr|Berlin]] (ville allemande).
+#* {{exemple|lang=mt}}
+
+== {{langue|no}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|no|mot=Berlin}}.
+
+=== {{S|nom propre|no}} ===
+'''Berlin''' {{pron||no}}
+# {{capitales|no|pays=d’Allemagne}} [[Berlin#fr|Berlin]] (ville allemande).
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=no}}
+
+== {{langue|nn}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|nn|mot=Berlin}}.
+
+=== {{S|nom propre|nn}} ===
+'''Berlin''' {{pron||nn}}
+# {{capitales|nn|pays=d’Allemagne}} [[Berlin#fr|Berlin]] (ville allemande).
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=nn}}
+
+== {{langue|oc}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|oc|mot=Berlin}}.
+
+=== {{S|nom propre|oc}} ===
+'''Berlin''' {{pron|beɾˈlin|oc}}
+# {{capitales|oc|pays=d’Allemagne}} [[Berlin#fr|Berlin]] (ville allemande).
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=oc}}
+
+=== {{S|références}} ===
+* {{R:Lo Congrès}}
+* {{R:Cantalausa}}
+* {{R:Laux-dict-oc-fr}}
+* {{R:Ubaud}}
+
+== {{langue|pl}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|pl|mot=Berlin}}.
+
+=== {{S|nom propre|pl}} ===
+'''Berlin''' {{pron||pl}}
+# {{capitales|pl|pays=d’Allemagne}} [[Berlin#fr|Berlin]] (ville allemande).
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=pl||audio=Pl-Berlin.ogg}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=pl}}
+
+== {{langue|ro}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|ro|mot=Berlin}}.
+
+=== {{S|nom propre|ro}} ===
+'''Berlin''' {{pron||ro}}
+# {{capitales|ro|pays=d’Allemagne}} [[Berlin#fr|Berlin]] (ville allemande).
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=ro}}
+
+== {{langue|sh}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|sh|mot=Berlin}}.
+
+=== {{S|nom propre|sh}} ===
+'''Berlin''' {{pron||sh}}
+# {{capitales|sh|pays=d’Allemagne}} [[Berlin#fr|Berlin]] (ville allemande).
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=sh}}
+
+== {{langue|sl}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|sl|mot=Berlin}}.
+
+=== {{S|nom propre|sl}} ===
+{{sl-décl-nmd|Berlin|pdp=oui}}
+'''Berlin''' {{pron||sl}} {{m|i}} {{s}}
+# {{capitales|sl|pays=d’Allemagne}} [[Berlin#fr|Berlin]] (ville allemande).
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=sh}}
+
+== {{langue|sv}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|sv|mot=Berlin}}.
+
+=== {{S|nom propre|sv}} ===
+'''Berlin''' {{pron||sv}}
+# {{capitales|sv|pays=d’Allemagne}} [[Berlin#fr|Berlin]] (ville allemande).
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=sv}}
+
+== {{langue|tl}} ==
+=== {{S|étymologie}} ===
+: De l’allemand ''[[#de|Berlin]]''.
+
+=== {{S|nom propre|tl}} ===
+'''Berlin''' {{pron||tl}}
+# {{capitales|tl|pays=d’Allemagne}} [[Berlin#fr|Berlin]] (ville allemande).
+
+== {{langue|tr}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|tr|mot=Berlin}}.
+
+=== {{S|nom propre|tr}} ===
+'''Berlin''' {{pron||tr}}
+# {{capitales|tr|pays=d’Allemagne}} [[Berlin#fr|Berlin]] (ville allemande).
+
+=== {{S|prononciation}} ===
+* {{écouter|Izmir (Turquie)||lang=tr|audio=LL-Q256 (tur)-ToprakM-Berlin.wav}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=tr}}
+
+== {{langue|vi}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|vi|mot=Berlin}}.
+
+=== {{S|nom propre|vi}} ===
+'''Berlin''' {{pron||vi}}
+# {{capitales|vi|pays=d’Allemagne}} [[Berlin#fr|Berlin]] (ville allemande).

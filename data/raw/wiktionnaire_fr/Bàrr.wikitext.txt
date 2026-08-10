@@ -1,0 +1,9 @@
+{{voir/barr}}
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw}}
+
+=== {{S|nom propre|gsw}} ===
+'''Bàrr''' {{pron||gsw}}
+# {{Alsace|gsw}} {{localités|gsw|du département du Bas-Rhin}} [[Barr#fr|Barr]], [[commune]] [[français]]e, située dans le département du [[Bas-Rhin]].
+#* {{exemple|lang=gsw}}

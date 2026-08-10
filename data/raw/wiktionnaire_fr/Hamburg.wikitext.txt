@@ -1,0 +1,313 @@
+== {{langue|af}} ==
+=== {{S|nom propre|af}} ===
+'''Hamburg''' {{pron||af}}
+# {{localités|af|d’Allemagne}} [[Hambourg]], ville d’Allemagne.
+#* {{exemple|lang=af}}
+# {{territoires|sous-cat=Länder|af|d’Allemagne}} Hambourg, [[Land]] allemand.
+#* {{exemple|lang=af}}
+
+[[Catégorie:Toponymes dont l’origine est une construction en afrikaans]]
+
+== {{langue|gsw}} ==
+=== {{S|nom propre|gsw}} ===
+'''Hamburg''' {{pron||gsw}}
+# {{localités|gsw|d’Allemagne}} [[Hambourg]], ville d’Allemagne.
+# {{territoires|sous-cat=Länder|gsw|d’Allemagne}} Hambourg, [[Land]] allemand.
+
+[[Catégorie:Toponymes dont l’origine est une construction en alémanique]]
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: Du nom de la forteresse {{lien|Hammaburg}}.
+
+=== {{S|nom propre|de}} ===
+{{de-nom-propre|genre=n|gs=Hamburg|gs2=Hamburgs}}
+'''Hamburg''' {{pron|ˈhambʊrk|de}} {{n}} {{au singulier uniquement|de}}.
+# {{localités|de|d’Allemagne}} [[Hambourg]], ville d’Allemagne.
+#* {{exemple|'''Hamburg''' ist die zweitgrößte Stadt in Deutschland.|lang=de|sens=Hambourg est la deuxième plus grande ville d’Allemagne.}}
+#* {{exemple|Mit einem Großaufgebot sichert die Polizei in '''Hamburg''' eine von Islamisten organisierte Demonstration ab. Auf Plakaten war unter anderem der Spruch „Kalifat ist die Lösung“ zu lesen.|lang=de|sens=La police de Hambourg a sécurisé une manifestation organisée par des islamistes avec un contingent nombreux. Sur des affiches, on pouvait, entre autres, lire le slogan « Le califat est la solution ».|source={{périodique|auteur=(RND/dpa)|titre=Ruf nach Gottesstaat bei Islamisten-Demo: Bundestagsfraktionen fordern hartes Vorgehen|journal=RedaktionsNetzwerk Deutschland|date=29 avril 2024|texte=https://www.rnd.de/politik/islamisten-demo-in-hamburg-kalifat-ist-die-loesung-darum-ging-es-SYDQW2JIZVJWHGSQGHKKWCZWOM.html}}}}
+# {{territoires|sous-cat=Länder|de|d’Allemagne}} [[Hambourg]], un des seize Länder de l’Allemagne.
+#* {{exemple|Alle Jahre wieder gilt an Karfreitag ein Tanzverbot. (...) In Bayern und Baden-Württemberg ist die Auslegung des Verbotes besonders streng. In Berlin, Bremen und '''Hamburg''' ist die Handhabung etwas lockerer.|lang=de|sens=Chaque année, il est interdit de danser le Vendredi saint. (...) En Bavière et dans le Bade-Wurtemberg, l'interprétation de l'interdiction est particulièrement stricte. A Berlin, Brême et Hambourg, l’application est plus souple.|source={{périodique|auteur=Greta Giuliana Spieker|titre=Tanzverbot an Karfreitag: Was wo gilt|journal=RedaktionsNetzwerk Deutschland|date=15 avril 2025|texte=https://www.rnd.de/politik/tanzverbot-an-karfreitag-was-wo-gilt-FJ6T2HDGWZGZXOTGNVV4EKJX3I.html}}}}
+
+==== {{S|notes}} ====
+: En allemand, les villes n’ont pas de déterminant. Si toutefois il y a besoin d’une déclinaison, elles sont supposées du genre neutre.
+
+==== {{S|gentilés}} ====
+* [[Hamburger]], [[Hamburgerin]], [[hamburgisch]]
+
+==== {{S|hyperonymes}} ====
+* {{lien|Großstadt|de}}
+* {{lien|Metropole|de}}
+* {{lien|Millionenstadt|de}}
+* {{lien|Ort|de}}
+* {{lien|Siedlung|de}}
+* {{lien|Stadt|de}}
+* {{lien|Stadtstaat|de}}
+
+==== {{S|hyponymes}} ====
+* {{lien|Altona|de}}
+* {{lien|Bergedorf|de}}
+* {{lien|Eimsbüttel|de}}
+* {{lien|Harburg|de}}
+* {{lien|Wandsbek|de}}
+
+==== {{S|dérivés}} ====
+{{(|}}
+* {{lien|Hamburger|de}}
+* {{lien|hamburgensisch|de}}
+* {{lien|hamburgern|de}}
+* {{lien|hamburgisch|de}}
+* {{lien|Hamburgisch|de}}
+{{)}}
+
+==== {{S|phrases}} ====
+* {{lien|Hamburg ist das Tor zur Welt, aber Bremen hat den Schlüssel dazu|de}}
+
+=== {{S|prononciation}} ===
+* {{pron|ˈhambʊrk|de}}
+* {{écouter||ˈhambʊʁk|lang=de|audio=GeoTrinity Hamburch.ogg}}
+* {{écouter|Berlin (Allemagne)|ˈhambʊɪ̯ç|lang=de|audio=De-Hamburg3.ogg}}
+* {{écouter|{{DE|nocat=1}}|ˈhambʊʁk|lang=de|audio=De-Hamburg.ogg}}
+* {{écouter|Berlin (Allemagne)|ˈhambʊʁk|lang=de|audio=De-Hamburg2.ogg}}
+* {{écouter|Munich (Allemagne)|ˈhambʊʁk|lang=de|audio=LL-Q188 (deu)-Ionenlaser-Hamburg.wav}}
+* {{écouter|{{DE|nocat=1}}|ˈhambʊʁk|lang=de|audio=LL-Q188 (deu)-ENERGY ENCHANTED-Hamburg.wav}}
+
+=== {{S|références}} ===
+* {{R:DWDS|Hamburg}}
+* {{R:Duden|Hamburg}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=de}}
+* {{VOY|lang=de}}
+
+[[Catégorie:Toponymes dont l’origine est une construction en allemand]]
+
+== {{langue|en}} ==
+=== {{S|étymologie}} ===
+De l’{{étylp|de|en|Hamburg}}.
+
+=== {{S|nom propre|en}} ===
+'''Hamburg''' {{pron||en}} {{germanisme|en}}
+# {{localités|en|d’Allemagne}} [[Hambourg]], ville d’Allemagne.
+# {{territoires|sous-cat=Länder|en|d’Allemagne}} Hambourg, [[Land]] allemand.
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=en}}
+
+[[Catégorie:Toponymes dont l’origine est une construction en anglais]]
+
+== {{langue|bs}} ==
+=== {{S|nom propre|bs}} ===
+'''Hamburg''' {{pron||bs}}
+# {{localités|bs|d’Allemagne}} [[Hambourg]], ville d’Allemagne.
+# {{territoires|sous-cat=Länder|bs|d’Allemagne}} Hambourg, [[Land]] allemand.
+
+== {{langue|ca}} ==
+=== {{S|étymologie}} ===
+De l’{{étylp|de|ca|Hamburg}}.
+
+=== {{S|nom propre|ca}} ===
+'''Hamburg''' {{pron||ca}}
+# {{localités|ca|d’Allemagne}} [[Hambourg]], ville d’Allemagne.
+# {{territoires|sous-cat=Länder|ca|d’Allemagne}} Hambourg, [[Land]] allemand.
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=ca}}
+
+[[Catégorie:Toponymes dont l’origine est une construction en catalan]]
+
+== {{langue|hr}} ==
+=== {{S|étymologie}} ===
+De l’{{étylp|de|hr|Hamburg}}.
+
+=== {{S|nom propre|hr}} ===
+'''Hamburg''' {{pron||hr}}
+# {{localités|hr|d’Allemagne}} [[Hambourg]], ville d’Allemagne.
+# {{territoires|sous-cat=Länder|hr|d’Allemagne}} Hambourg, [[Land]] allemand.
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=hr}}
+
+[[Catégorie:Toponymes dont l’origine est une construction en croate]]
+
+== {{langue|et}} ==
+=== {{S|étymologie}} ===
+De l’{{étylp|de|et|Hamburg}}.
+
+=== {{S|nom propre|et}} ===
+'''Hamburg''' {{pron||et}}
+# {{localités|et|d’Allemagne}} [[Hambourg]], ville d’Allemagne.
+# {{territoires|sous-cat=Länder|et|d’Allemagne}} Hambourg, [[Land]] allemand.
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=et}}
+
+[[Catégorie:Toponymes dont l’origine est une construction en estonien]]
+
+== {{langue|hu}} ==
+=== {{S|étymologie}} ===
+De l’{{étylp|de|hu|Hamburg}}.
+
+=== {{S|nom propre|hu}} ===
+'''Hamburg''' {{pron||hu}}
+# {{localités|hu|d’Allemagne}} [[Hambourg]], ville d’Allemagne.
+# {{territoires|sous-cat=Länder|hu|d’Allemagne}} Hambourg, [[Land]] allemand.
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=hu}}
+
+[[Catégorie:Toponymes dont l’origine est une construction en hongrois]]
+
+== {{langue|id}} ==
+=== {{S|étymologie}} ===
+De l’{{étylp|de|id|Hamburg}}.
+
+=== {{S|nom propre|id}} ===
+'''Hamburg''' {{pron||id}}
+# {{localités|id|d’Allemagne}} [[Hambourg]], ville d’Allemagne.
+#* {{exemple|lang=id}}
+# {{territoires|sous-cat=Länder|id|d’Allemagne}} Hambourg, [[Land]] allemand.
+#* {{exemple|lang=id}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=id}}
+
+[[Catégorie:Toponymes dont l’origine est une construction en indonésien]]
+
+== {{langue|ku}} ==
+=== {{S|étymologie}} ===
+De l’{{étylp|de|ku|Hamburg}}.
+
+=== {{S|nom propre|ku}} ===
+'''Hamburg''' {{pron||ku}}
+# {{localités|ku|d’Allemagne}} [[Hambourg]], ville d’Allemagne.
+# {{territoires|sous-cat=Länder|ku|d’Allemagne}} Hambourg, [[Land]] allemand.
+
+[[Catégorie:Toponymes dont l’origine est une construction en kurde]]
+== {{langue|nl}} ==
+=== {{S|étymologie}} ===
+De l’{{étylp|de|nl|Hamburg}}.
+
+=== {{S|nom propre|nl}} ===
+'''Hamburg''' {{pron||nl}}
+# {{localités|nl|d’Allemagne}} [[Hambourg]], ville d’Allemagne.
+# {{territoires|sous-cat=Länder|nl|d’Allemagne}} Hambourg, [[Land]] allemand.
+
+=== {{S|prononciation}} ===
+* {{écouter|||lang=nl|audio=Nl-Hamburg.ogg}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=nl}}
+
+[[Catégorie:Toponymes dont l’origine est une construction en néerlandais]]
+
+== {{langue|no}} ==
+=== {{S|étymologie}} ===
+De l’{{étylp|de|no|Hamburg}}.
+
+=== {{S|nom propre|no}} ===
+'''Hamburg''' {{pron||no}}
+# {{localités|no|d’Allemagne}} [[Hambourg]], ville d’Allemagne.
+# {{territoires|sous-cat=Länder|no|d’Allemagne}} Hambourg, [[Land]] allemand.
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=no}}
+
+[[Catégorie:Toponymes dont l’origine est une construction en norvégien]]
+
+== {{langue|nn}} ==
+=== {{S|étymologie}} ===
+De l’{{étylp|de|nn|Hamburg}}.
+
+=== {{S|nom propre|nn}} ===
+'''Hamburg''' {{pron||nn}}
+# {{localités|nn|d’Allemagne}} [[Hambourg]], ville d’Allemagne.
+# {{territoires|sous-cat=Länder|nn|d’Allemagne}} Hambourg, [[Land]] allemand.
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=nn}}
+
+== {{langue|pl}} ==
+=== {{S|étymologie}} ===
+De l’{{étylp|de|pl|Hamburg}}.
+
+=== {{S|nom propre|pl}} ===
+'''Hamburg''' {{pron||pl}}
+# {{localités|pl|d’Allemagne}} [[Hambourg]], ville d’Allemagne.
+# {{territoires|sous-cat=Länder|pl|d’Allemagne}} Hambourg, [[Land]] allemand.
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=pl||audio=Pl-Hamburg.ogg}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=pl}}
+
+[[Catégorie:Toponymes dont l’origine est une construction en polonais]]
+
+== {{langue|se}} ==
+=== {{S|étymologie}} ===
+De l’{{étylp|de|se|Hamburg}}.
+
+=== {{S|nom propre|se}} ===
+{{se-décl-sing|accgén=Hamburg|ill=Hamburgii|locsép=Hamburgas|com=Hamburgain|ess=|acc=Hamburga}}
+'''Hamburg''' {{phono|ˈhɑmburɡ|se}}
+# {{localités|se|d’Allemagne}} [[Hambourg]], ville d’Allemagne.
+#* {{exemple|Su dutkan lea ovdanbuktojuvvon ultrajiena máilmmikongreassas Londonis ja '''Hamburgas''', ja máŋgga foras Norggas.|source=[https://finnmarkssykehuset.no/sa/fagat-ja-dutkan/dutkan/doavttergradat/ingrid-petrikke-olsen ''finnmarkssykehuset.no'']
+|Son étude a été présentée au congrès mondial de l’ultrason à Londres et Hambourg et sur plusieurs forums en Norvège.|lang=se}}
+# {{territoires|sous-cat=Länder|se|d’Allemagne}} Hambourg, [[Land]] allemand.
+
+== {{langue|sk}} ==
+=== {{S|étymologie}} ===
+De l’{{étylp|de|sk|Hamburg}}.
+
+=== {{S|nom propre|sk}} ===
+'''Hamburg''' {{pron||sk}}
+# {{localités|sk|d’Allemagne}} [[Hambourg]], ville d’Allemagne.
+# {{territoires|sous-cat=Länder|sk|d’Allemagne}} Hambourg, [[Land]] allemand.
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=sk}}
+
+[[Catégorie:Toponymes dont l’origine est une construction en slovaque]]
+
+== {{langue|sl}} ==
+=== {{S|étymologie}} ===
+De l’{{étylp|de|sl|Hamburg}}.
+
+=== {{S|nom propre|sl}} ===
+'''Hamburg''' {{pron||sl}}
+# {{localités|sl|d’Allemagne}} [[Hambourg]], ville d’Allemagne.
+# {{territoires|sous-cat=Länder|sl|d’Allemagne}} Hambourg, [[Land]] allemand.
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=sl}}
+
+[[Catégorie:Toponymes dont l’origine est une construction en slovène]]
+
+== {{langue|sv}} ==
+=== {{S|étymologie}} ===
+De l’{{étylp|de|sv|Hamburg}}.
+
+=== {{S|nom propre|sv}} ===
+'''Hamburg''' {{pron||sv}}
+# {{localités|sv|d’Allemagne}} [[Hambourg]], ville d’Allemagne.
+# {{territoires|sous-cat=Länder|sv|d’Allemagne}} Hambourg, [[Land]] allemand.
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=sv}}
+
+[[Catégorie:Toponymes dont l’origine est une construction en suédois]]
+
+== {{langue|tr}} ==
+=== {{S|étymologie}} ===
+De l’{{étylp|de|tr|Hamburg}}.
+
+=== {{S|nom propre|tr}} ===
+'''Hamburg''' {{pron||tr}}
+# {{localités|tr|d’Allemagne}} [[Hambourg]], ville d’Allemagne.
+# {{territoires|sous-cat=Länder|tr|d’Allemagne}} Hambourg, [[Land]] allemand.
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=tr}}
+
+[[Catégorie:Toponymes dont l’origine est une construction en turc]]

@@ -1,0 +1,34 @@
+== {{langue|fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|fr}}
+
+=== {{S|nom propre|fr}} ===
+{{fr-inv||inv_titre=Nom propre}}
+'''Stundwiller''' {{pron||fr}}
+# {{localités|fr|du département du Bas-Rhin}} [[commune|Commune]] [[français]]e, située dans le département du [[Bas-Rhin]].
+
+==== {{S|gentilés}} ====
+* [[Stundwillerois]], [[Stundwilleroise]]
+* [[stundwillerois]], [[stundwilleroise]]
+
+==== {{S|traductions}} ====
+{{trad-début|Ville de France}}
+{{trad-fin}}
+
+=== {{S|prononciation}} ===
+* {{écouter|||lang=fr|audio=LL-Q150 (fra)-Marie-Louise (Le Commissaire)-Stundwiller.wav}}
+
+=== {{S|références}} ===
+* {{mercihabitants}}
+
+=== {{S|voir aussi}} ===
+* {{WP}}
+
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw}}
+
+=== {{S|nom propre|gsw}} ===
+'''Stundwiller''' {{pron||gsw}}
+# {{Alsace|gsw}} {{localités|gsw|du département du Bas-Rhin}} [[Stundwiller#fr|Stundwiller]], [[commune]] [[français]]e, située dans le département du [[Bas-Rhin]].
+#* {{exemple|lang=gsw}}

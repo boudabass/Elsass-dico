@@ -1,0 +1,35 @@
+== {{langue|fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|fr}}
+
+=== {{S|nom propre|fr}} ===
+{{fr-inv||inv_titre=Nom propre}}
+'''Wimmenau''' {{pron||fr}}
+# {{localités|fr|du département du Bas-Rhin}} [[commune|Commune]] [[français]]e, située dans le département du [[Bas-Rhin]].
+
+==== {{S|gentilés}} ====
+* [[Wimmenauvien]], [[Wimmenauvienne]]
+* [[wimmenauvien]], [[wimmenauvienne]]
+
+==== {{S|traductions}} ====
+{{trad-début|Ville de France}}
+* {{T|gsw}} : {{trad|gsw|Wimmenau}}
+{{trad-fin}}
+
+=== {{S|prononciation}} ===
+* {{écouter|||lang=fr|audio=LL-Q150 (fra)-Marie-Louise (Le Commissaire)-Wimmenau.wav}}
+
+=== {{S|références}} ===
+* {{mercihabitants}}
+
+=== {{S|voir aussi}} ===
+* {{WP}}
+
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw}}
+
+=== {{S|nom propre|gsw}} ===
+'''Wimmenau''' {{pron||gsw}}
+# {{Alsace|gsw}} {{localités|gsw|du département du Bas-Rhin}} [[Wimmenau#fr|Wimmenau]], [[commune]] [[français]]e, située dans le département du [[Bas-Rhin]].
+#* {{exemple|lang=gsw}}

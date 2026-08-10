@@ -1,0 +1,8 @@
+== {{langue|gsw}} ==
+{{ébauche|gsw}}
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw}}
+
+=== {{S|nom|gsw}} ===
+'''Zischtig''' {{pron||gsw}}
+# [[mardi#fr|Mardi]].

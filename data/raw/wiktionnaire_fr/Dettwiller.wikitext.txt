@@ -1,0 +1,43 @@
+== {{langue|fr}} ==
+=== {{S|étymologie}} ===
+''Article détaillé sur Wikipédia : [[w:Dettwiller#Toponymie|Dettwiller Toponymie]]''
+
+: L’origine du nom est toujours discutée et certains historiens pensent que le nom de Dettwiller est d’origine celtique. <br>
+: Une hypothèse propose un assemblage de l’anthroponyme germanique ''Detto'' et du latin ''villa'', ferme : ''la ferme de Detto''. <br>
+: Cependant, la signification la plus vraisemblable serait celle liant le nom du village à sa situation géographique : ''habitation sur la petite montagne''.
+
+=== {{S|nom propre|fr}} ===
+{{fr-inv|dɛt.vi.lɛʁ|inv_titre=Nom propre}}
+'''Dettwiller''' {{pron|dɛt.vi.lɛʁ|fr}}
+# {{localités|fr|du département du Bas-Rhin}} [[commune|Commune]] [[français]]e, située dans le département du [[Bas-Rhin]].
+
+==== {{S|gentilés}} ====
+* [[Dettwillerois]], [[Dettwilleroise]]
+* [[dettwillerois]], [[dettwilleroise]]
+
+==== {{S|traductions}} ====
+{{trad-début|Ville de France}}
+* {{T|gsw}} : {{trad|gsw|Dettwiller}}
+{{trad-fin}}
+
+=== {{S|prononciation}} ===
+* {{écouter|Mulhouse (France)||lang=fr|audio=LL-Q150 (fra)-Mathieu Kappler-Dettwiller.wav}}
+* {{écouter|Alsace (France)||lang=fr|audio=LL-Q150 (fra)-Le Commissaire-Dettwiller.wav}}
+* {{écouter|||lang=fr|audio=LL-Q150 (fra)-Marie-Louise (Le Commissaire)-Dettwiller.wav}}
+
+=== {{S|voir aussi}} ===
+* {{WP}}
+
+=== {{S|références}} ===
+* {{mercihabitants}}
+* Club Patrimoine, ''Dettwiller Rosenwiller : Bachknippe Gèscht un Hit - Tome 1'', Mémoire de vies, 2006 {{ISBN|2-84488-083-5}}
+* Jean-Luc {{pc|Flohic}}, ''Le patrimoine des communes du Bas-Rhin - tome 2'', Editions Flohic, 1999, p. 1104 {{ISBN|2-84234-055-8}}
+
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw}}
+
+=== {{S|nom propre|gsw}} ===
+'''Dettwiller''' {{pron||gsw}}
+# {{Alsace|gsw}} {{localités|gsw|du département du Bas-Rhin}} [[Dettwiller#fr|Dettwiller]], [[commune]] [[français]]e, située dans le département du [[Bas-Rhin]].
+#* {{exemple|lang=gsw}}

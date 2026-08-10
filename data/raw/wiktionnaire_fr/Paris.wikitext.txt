@@ -1,0 +1,891 @@
+{{voir/paris}}
+
+== {{langue|conv}} ==
+{{ébauche|conv}}
+
+=== {{S|étymologie}} ===
+: {{date|1753}} Du {{étyl|la|conv|mot=par|tr=|sens=égal}} en référence à l'aspect [[symétrique]] de la plante vue de dessus. {{réf|1}} {{réf|2}}
+
+=== {{S|nom|conv}} ===
+'''Paris'''
+[[File:Paris verticillata (Mount Shirouma).jpg|thumb|Feuilles et fleur de '''''Paris''' verticillata''.]]
+# {{lexique|botanique|conv}} [[genre|Genre]] de [[plante]]s herbacées de la [[famille]] des ''[[Melanthiaceae]]'' ([[Mélanthiacées]]).
+#* {{exemple|lang=conv}}
+
+===={{S|voir aussi}}====
+* {{WP|Paris (genre)}}
+* {{Wikispecies|Paris}}
+
+=== {{S|références}}===
+* {{RÉF|1}} Nikki Phipps, ''Paris Flower'', in ''Planting Flower Bulbs''.
+* {{RÉF|2}} Alexandre de Théis, ''Glossaire de botanique'', éd. Gabriel Dufour, 1810.
+
+== {{langue|fr}} ==
+=== {{S|étymologie}} ===
+: {{lien-ancre-étym|fr|nom propre}} {{date|1265|lang=fr}}{{R|TGF1}} Des noms {{étyl|la|fr}}s ''{{lien|Parision|la}}, {{lien|Parisio|la}}, {{lien|Parisius|la}}''{{R|TGF1}}. Ils sont possiblement les Abréviations des expressions latines ''{{lien|civitas Parisiorum|la}}'' ou ''{{lien|urbs Parisiorum|la}}'' (« [[cité]] des {{lien|Parisii|gaul}} » ou « cité des [[Parisien]]s »){{R|TGF1}}, nom officiel donné au IV{{e}} siècle en remplacement de ''[[Lutèce]]''{{R|TGF1}}, les ''{{lien|Parisii|la}}'' étant le nom des habitants [[celte]]s installé à l’[[Île de la Cité]]{{R|DauzatRostaing|page=519}}. Le nom ethnique « [[Parisii]] » est à comprendre comme « ceux du chaudron » d’après le {{étyl|gaul|fr|pario-|sens=chaudron}}, ce sens est à mettre en lumière de l’importance du {{w|Dagda#Attributs|chaudron}} dans les récits celtiques{{R|Delamarre2003}}.
+: {{lien-ancre-étym|fr|nom de famille}} {{date||lang=fr}} {{ébauche-étym|fr}}
+: {{lien-ancre-étym|fr|prénom}} {{date||lang=fr}} Personnage de la mythologie grecque. 
+
+=== {{S|nom propre|fr}} ===
+{{fr-inv|pa.ʁi|inv_titre=Nom propre}}
+[[Fichier:Ville de Paris logo.svg|vignette]]
+[[Image:Petite couronne.png|vignette|240px|Localisation de '''Paris''' (1).]]
+[[Image:Eiffelturm1.jpg|vignette|'''Paris''' : la tour Eiffel (1).]]
+[[Image:Paris-Position.svg|vignette|Localisation de '''Paris'''.]]
+'''Paris''' {{pron|pa.ʁi|fr}} {{mf ?|fr}}
+# {{départements|fr|de France}} [[capitale|Capitale]] de la [[France]], [[chef-lieu]] de la [[région]] [[Île-de-France]] et [[département]] français (75).
+#* {{exemple | lang=fr
+ | Rien ne se peut comparer à '''Paris'''.
+ | source={{w|Eustache Deschamps}}, ''Ballade''}}
+#* {{exemple | lang=fr
+ | En temps ordinaire, ces deux événements eussent fait à Carentan le même effet que produit à '''Paris''' un ''relâche'' à tous les théâtres.
+ | source=Honoré de Balzac, ''Le Réquisitionnaire'', 1831}}
+#* {{exemple | lang=fr
+ | je n’ose parler de '''Paris''', que j’habite depuis vingt ans. Le connaître est l’étude de toute la vie
+ | source={{w|Stendhal}}, ''{{ws|Mémoires d’un Touriste}}'', 1854}}
+#* {{exemple|lang=fr|Il faudrait que monsieur le Baron allât à '''Paris''', l’œil et le nombril du monde, le rendez-vous des beaux esprits et des vaillants, l’Eldorado et le Chanaan des Espagnols français et des Hébreux chrétiens, la terre bénite éclairée par les rayons du soleil de la cour.|source={{w|Théophile Gautier}}, ''{{w|Le capitaine Fracasse}}'', 1863}}
+#* {{exemple | lang=fr
+ | Au mois de janvier de cette année, me trouvant à '''Paris''' ''[…]'' je reçus de Maxime Du Camp l’invitation tout à fait inattendue d’assister à l’exécution de Troppmann.
+ | source={{w|Ivan Tourgueniev}}, ''L’Exécution de Troppmann'', avril 1870, traduction française d’{{w|Isaac Pavlovsky}}, publiée dans ses ''Souvenirs sur Tourguéneff'', Savine, 1887}}
+#* {{exemple | lang=fr
+ | Il voit '''Paris''', non comme un gouffre où l’on sombre et qui vous dévore, mais comme un rêve flamboyant, où l’or se gagne, s’enlève à larges pelletées, où le plaisir est sans fin.
+ | source={{w|Octave Mirbeau}}, ''{{ws|Le Tripot aux champs}}'', Le Journal, 27 septembre 1896}}
+#* {{exemple | lang=fr
+ | Thorsavn ''{{sic !}}'' possède un hôpital moderne que lui envieraient bien des arrondissements de '''Paris''' et un Sanatorium pour les tuberculeux.
+ | source={{w|Jean-Baptiste Charcot}}, ''Dans la mer du Groenland'', 1928}}
+#* {{exemple | lang=fr
+ | '''Paris''', c’est comme une maîtresse, il ne faut pas toujours être avec elle.
+ | source={{w|Félix Leclerc}}, ''Moi, mes souliers'', 1955, II, 3}}
+#* {{exemple|Pivot qui te tendait la main et qui t’invitait sur son plateau, c’était comme si '''Paris elle-même''' t’ouvrait les bras et t’embrassait sur le front. |source={{w|Richard Martineau}}, ''Une leçon de courage de Denise Bombardier'', Le Journal de Québec, 6 juillet 2023|lang=fr}}
+#* {{exemple | lang=fr
+ | La dette de '''Paris''' a atteint 8,2 milliards d'euros en 2023. Elle atteindra 8,8 milliards en 2024, 9,9 milliards en 2025. Elle n'était «que» de 4,18 milliards en 2014. Elle a donc déjà plus que doublé en moins de dix ans.
+ | source=Pour réduire sa dette, la mairie de Paris doit en finir avec les dépenses extravagantes», Catherine Lécuyer, Le Figaro, 14 mars 2024}}
+# {{par métonymie|fr}} [[gouvernement|Gouvernement]] [[français]].
+#* {{exemple | lang=fr
+ | D’une même voix, '''Paris''', Berlin, Madrid et Rome ont également appelé à la "libération immédiate" des membres du gouvernement et du Parlement arrêtés.
+ | source=Radio-Canada, ''Aung San Suu Kyi appelle à ne pas accepter le coup d’État au Myanmar'', radio-canada.ca, {{1er|février}} 2021}}
+#* {{exemple | lang=fr | '''Paris''' a trouvé un accord avec Berlin.}}
+#* {{exemple | lang=fr | '''Paris''' était réticent à cet accord.}}
+#* {{exemple | lang=fr
+ | Le coût de la dette de '''Paris''' est, depuis jeudi 26 septembre, supérieur à celui de la dette de Madrid. C’est le taux de remboursement à dix ans qui est concerné, soit la principale échéance de remboursement de notre dette publique. 
+ | source = {{lien web|titre=La France dépense désormais plus que l’Espagne pour rembourser sa dette|site=www.francetvinfo.fr|auteur=Emmanuel Cugny|en ligne le=27 septembre 2024|url=https://www.francetvinfo.fr/replay-radio/le-brief-eco/la-france-depense-desormais-plus-que-l-espagne-pour-rembourser-sa-dette_6778093.html}}}}
+# {{localités|fr|de Bolivie|du Canada|du Danemark|des États-Unis|du Gabon}} Nom de nombreuses autres localités du monde. — {{note}} ''La prononciation est dans ce cas {{phon|pa.ʁi|fr}}.''
+{{(}}
+* Ville (village ?) d’[[Afrique du Sud]], province du [[KwaZulu-Natal]].
+* Ville (village ?) d’Afrique du Sud, province du [[Limpopo]].
+* Ville de [[Bolivie]], département du [[Beni]].
+* Ville du [[Canada]], en [[Ontario]].
+* Ville du Canada, au [[Yukon]].
+* Ville (village ?) de la [[République du Congo]], région du [[Pool]].
+* Ville (village ?) de la République du Congo, région de la [[Sangha]].
+* Ville du [[Danemark]].
+* Villes des [[États-Unis]] :
+** en [[Arkansas]].
+** ancien nom de [[Loraine]] (1903–1912), secteur non constitué en municipalité, dans l’État de [[Californie]].
+** ancien nom de [[Beresford]], ville du [[Dakota du Sud]]
+** en [[Idaho]].
+** en [[Illinois]].
+** en [[Indiana]].
+** en [[Iowa]].
+** au [[Kentucky]].
+** dans le [[Maine]].
+** au [[Michigan]].
+** au [[Mississippi]].
+** au [[Missouri]].
+** dans l’[[État de New York]].
+** en [[Ohio]].
+** en [[Orégon]].
+** en [[Pennsylvanie]].
+** au [[Tennessee]].
+** au [[Texas]].
+** en [[Virginie]] (village).
+** au [[Wisconsin]] (comté de Grant).
+** au Wisconsin (comté de Kenosha).
+* Ville du [[Gabon]], au [[Moyen-Ogooué]].
+* Ville du Gabon, dans l’[[Ogooué-Lolo]].
+* Ville d’[[Haïti]], département du Nord.
+* Ville d’Haïti, département de la Grand’Anse.
+* Ville d’Haïti, département du Sud.
+* Ville (village ?) d’[[Indonésie]], Propinsi Jawa Barat.
+* Ville (village ?) d’Indonésie, Propinsi Jawa Timur.
+* Village abandonné des [[Kiribati]], sur l’île de [[Kiritimati]].
+* Ville du [[Mexique]], état du [[Chiapas]].
+* Ville du [[Panama]], province de [[Herrera]].
+* Ville (village ?) du [[Pérou]], département de [[Junín]].
+* Ville des [[Philippines]], province d’[[Antique]].
+* Ville des Philippines, province de [[Maguindanao]].
+* Ville de [[Porto Rico]].
+* Ville de [[Sao Tomé-et-Principe]].
+* Village de [[Suède]], comté de [[Stockholm]], commune de [[Norrtälje]].
+* Ville du [[Togo]].
+* Ville de [[Turquie]], [[Siirt İli]].
+* Ville d’[[Ukraine]], oblast d’[[Odessa]].
+* Ville (village ?) du [[Zimbabwe]].
+''Source : http://www.tageo.com/''
+{{)}}
+
+==== {{S|gentilés}} ====
+* [[Parigot]], [[Parigote]], [[parigot]] {{familier|nocat=1}}
+* [[Parisien]], [[Parisienne]], [[parisien]] (1)
+
+==== {{S|synonymes}} ====
+; ''Capitale de la France :''
+* [[Paname]]
+* [[Pantruche]]
+* [[Ripa]] {{verlan|nocat=1|m=1}}
+* [[Rispa]] {{verlan|nocat=1|m=1}}
+* [[Ville Lumière]]
+
+==== {{S|dérivés}} ====
+{{(}}
+* [[anti-parisien]]
+* [[attache parisienne]]
+* [[bleu de Paris]]
+* [[boue de Paris]]
+* [[circée de Paris]]
+* [[champignon de Paris]]
+* [[Commune de Paris]] {{info lex|histoire}}
+* [[fine fleur des pois de Paris]]
+* [[forsythia de Paris]]
+* [[français de Paris]]
+* [[Grand Paris]]
+* [[jambon de Paris]]
+* [[Le Touquet-Paris-Plage]]
+* [[merlan de Paris]]
+* [[mettre Paris en bouteille]]
+* [[Monsieur de Paris]], [[M. de Paris]]
+* [[Moscou-Paris]]
+* [[parigot]]
+* [[Paris-Bordeaux-Le Mans]]
+* [[Paris-Brest]], [[paris-brest]]
+* [[Paris-Brest-Paris]]
+* [[Paris des Amériques]] ([[Nouvelle-Orléans]], [[Louisiane]], États-Unis)
+* [[Paris des Plaines]] ([[Kansas City]], États-Unis)
+* [[Paris des Prairies]] ([[Saskatoon]], [[Saskatchewan]], Canada)
+* [[Paris du Moyen-Orient]] ([[Beyrouth]], [[Liban]])
+* [[Paris du Nord]] ([[Tromsø]], [[Norvège]])
+* [[Paris du Piedmont]] ([[Carrboro]], [[Caroline du Nord]], États-Unis)
+* [[Pariset]]
+* [[parisianiser]], [[parisianisant]], [[parisianisé]]
+* [[parisianisme]]
+* [[parisianite]]
+* [[parisien]], [[Parisien]]
+* [[parisine]], [[Parisine]]
+* [[Parisiot]]
+* [[parisis]]
+* [[parisophile]]
+* [[parisophobe]]
+* [[parisophobie]]
+* [[Paris-Plage]]
+* [[Petit Paris]] ([[Hanoï]], [[Viêt Nam]])
+* [[Petit Paris de l’Est]] ([[Bucarest]], [[Roumanie]])
+* [[premier-Paris]]
+* [[Tout-Paris]]
+* [[vert de Paris]]
+* [[Vieux Paris]]
+{{)}}
+
+==== {{S|phrases}} ====
+* [[avec des si on mettrait Paris en bouteille]]
+* [[Paris ne s’est pas fait en un jour]]
+
+==== {{S|méronymes}} ====
+* {{Catégorie|Quartiers de Paris en français}}
+* Localités phagocytées :
+** [[Auteuil]]
+** [[Batignolles]]
+** [[Belleville]]
+** [[Bercy]]
+** [[Charonne]]
+** [[Grenelle]]
+** [[Ménilmontant]]
+** [[Montmartre]]
+** [[Passy]]
+** [[Vaugirard]]
+** [[La Villette]]
+
+==== {{S|vocabulaire}} ====
+* [[PA]] ''code utilisé pour l’immatriculation des bateaux navigants sur les [[eaux intérieures]] de la région parisienne ([[Marne]], [[Seine]] etc))''
+
+==== {{S|traductions}} ====
+{{trad-début|Ville de France}}
+* {{T|af}} : {{trad+|af|Parys}}
+* {{T|sq}} : {{trad+|sq|Parisi}}
+* {{T|gsw}} : {{trad|gsw|Paris}} ou {{trad|gsw|Bàrisch}}
+* {{T|de}} : {{trad+|de|Paris}}
+* {{T|am}} : {{trad-|am|ፓሪስ|tr=paris}}
+* {{T|rcf}} : {{trad|rcf|Pari}}, {{trad|rcf|Pari}}
+* {{T|fro}} : {{trad|fro|Paris}}
+* {{T|en}} : {{trad+|en|Paris}}
+* {{T|ar}} : {{trad-|ar|باريس|tr=Bārys}}, {{trad-|ar|باريز}}
+* {{T|an}} : {{trad-|an|París}}
+* {{T|hy}} : {{trad-|hy|Փարիզ|tr=P'ariz}}
+* {{T|rup}} : {{trad-|rup|Parij}}
+* {{T|ast}} : {{trad+|ast|París}}
+* {{T|atj}} : {{trad|atj|Paris}}
+* {{T|ay}} : {{trad-|ay|Paris}}
+* {{T|az}} : {{trad+|az|Paris}}
+* {{T|nds}} : {{trad+|nds|Paris}}
+* {{T|nds-nl}} : {{trad|nds-nl|Paries}}
+* {{T|dsb}} : {{trad|dsb|Paris}}
+* {{T|eu}} : {{trad+|eu|Paris}}
+* {{T|bn}} : {{trad+|bn|প্যারিস|tr=piaris}}
+* {{T|be}} : {{trad-|be|Парыж|tr=Pariž}}
+* {{T|my}} : {{trad-|my|ပါရီ|tr=pari}}
+* {{T|br}} : {{trad+|br|Pariz}}
+* {{T|bg}} : {{trad+|bg|Париж|tr=Pariž}}
+* {{T|ca}} : {{trad+|ca|París}}
+* {{T|zh}} : {{trad+|zh|巴黎|tr=Bālí}}, {{trad-|zh|巴黎市|tr=Bālíshì}}
+* {{T|ko}} : {{trad+|ko|파리|tr=Pari}}
+* {{T|kw}} : {{trad-|kw|Paris}}
+* {{T|co}} : {{trad-|co|Parighji}}
+* {{T|ht}} : {{trad|ht|Pari}}
+* {{T|ht}} : {{trad|ht|Pari}}
+* {{T|hr}} : {{trad+|hr|Paris}}
+* {{T|gcf}} : {{trad|gcf|Pari}}
+* {{T|da}} : {{trad+|da|Paris}}
+* {{T|eml}} : {{trad|eml|Parì}}
+* {{T|myv}} : {{trad|myv|Париж|tr=Parij}}
+* {{T|es}} : {{trad+|es|París}}
+* {{T|eo}} : {{trad+|eo|Parizo}}
+* {{T|et}} : {{trad+|et|Pariis}}
+* {{T|ext}} : {{trad|ext|París}}
+* {{T|fo}} : {{trad-|fo|París}}
+* {{T|fi}} : {{trad+|fi|Pariisi}}
+* {{T|vls}} : {{trad|vls|Parys}}
+* {{T|frp}} : {{trad|frp|Paris}}
+* {{T|fy}} : {{trad-|fy|Parys}}
+* {{T|frr}} : {{trad|frr|Pariis}}
+* {{T|gd}} : {{trad-|gd|Paris}}
+* {{T|ga}} : {{trad-|ga|Páras}}
+* {{T|gl}} : {{trad+|gl|París}}
+* {{T|gallo}} : {{trad|gallo|Pariz}}
+* {{T|cy}} : {{trad-|cy|Paris}}
+* {{T|ka}} : {{trad+|ka|პარიზი|tr=Parizi}}
+* {{T|el}} : {{trad+|el|Παρίσι|tr=Parísi}}
+* {{T|gn}} : {{trad-|gn|Parĩ}}
+* {{T|ha}} : {{trad-|ha|Faris}}
+* {{T|hsb}} : {{trad-|hsb|Paris}}
+* {{T|haw}} : {{trad|haw|Palika}}
+* {{T|he}} : {{trad-|he|פריז|tr=Paryz}}
+* {{T|hi}} : {{trad-|hi|पेरिस|tr=Peris}}
+* {{T|hu}} : {{trad+|hu|Párizs}}
+* {{T|io}} : {{trad+|io|Paris}}
+* {{T|id}} : {{trad-|id|Paris}}
+* {{T|is}} : {{trad+|is|París}}
+* {{T|it}} : {{trad+|it|Parigi}}
+* {{T|ja}} : {{trad+|ja|パリ|tr=Pari}}
+* {{T|kbp}} : {{trad|kbp|Paarii}}
+* {{T|csb}} : {{trad-|csb|Pariz}}
+* {{T|kn}} : {{trad+|kn|ಪ್ಯಾರಿಸ್}}
+* {{T|kaa}} : {{trad|kaa|Parij}}
+* {{T|kk}} : {{trad-|kk|Париж|tr=Parïj}}
+* {{T|km}} : {{trad+|km|ប៉ារីស|tr=paariih}}
+* {{T|ky}} : {{trad-|ky|Париж|tr=Pariž}}
+* {{T|kv}} : {{trad|kv|Париж|tr=Parij}}
+* {{T|ku}} : {{trad+|ku|Parîs}}
+* {{T|ltg}} : {{trad|ltg|Pariža}}
+* {{T|la}} : {{trad+|la|Lutetia}}
+* {{T|lv}} : {{trad-|lv|Parīze}}
+* {{T|lij}} : {{trad|lij|Pariggi}}
+* {{T|li}} : {{trad-|li|Paries}}
+* {{T|ln}} : {{trad-|ln|Pari}}
+* {{T|lt}} : {{trad+|lt|Paryžius}}
+* {{T|lb}} : {{trad+|lb|Paräis}}
+* {{T|mk}} : {{trad+|mk|Париз|tr=Pariz}}
+* {{T|ms}} : {{trad-|ms|Paris}}
+* {{T|ml}} : {{trad-|ml|പാരിസ്|tr=pārisŭ}}
+* {{T|mt}} : {{trad-|mt|Pariġi}}
+* {{T|gv}} : {{trad-|gv|Paarys}}
+* {{T|mi}} : {{trad-|mi|Parī}}
+* {{T|mr}} : {{trad-|mr|पॅरिस|tr=peris}}
+* {{T|xmf}} : {{trad|xmf|პარიზი}}
+* {{T|nap}} : {{trad|nap|Parigge}}
+* {{T|na}} : {{trad-|na|Paris}}
+* {{T|nl}} : {{trad+|nl|Parijs}}
+* {{T|ne}} : {{trad-|ne|पेरिस|tr=perisa}}
+* {{T|no}} : {{trad+|no|Paris}}
+* {{T|nn}} : {{trad+|no|Paris}}
+* {{T|oc}} : {{trad+|oc|París}}
+* {{T|om}} : {{trad-|om|Paaris}}
+* {{T|os}} : {{trad|os|Париж|tr=Parij}}
+* {{T|udm}} : {{trad|udm|Париж|tr=Parij}}
+* {{T|uz}} : {{trad-|uz|Parij}}
+* {{T|pa}} : {{trad-|pa|ਪੈਰਿਸ|tr=paeris}}
+* {{T|fa}} : {{trad+|fa|پاریس|tr=Pâris}}
+* {{T|ff}} : {{trad|ff|Pari}}
+* {{T|pcd}} : {{trad|pcd|Péris}}, {{trad|pcd|Paris}}
+* {{T|poitevin-saintongeais}} : {{trad|poitevin-saintongeais|Paris}}
+* {{T|pl}} : {{trad+|pl|Paryż}}
+* {{T|pt}} : {{trad+|pt|Paris}}
+* {{T|qu}} : {{trad-|qu|Paris}}
+* {{T|ro}} : {{trad+|ro|Paris}}
+* {{T|ru}} : {{trad+|ru|Париж|tr=Parij}}
+* {{T|smn}} : {{trad|smn|Pariisi}}
+* {{T|se}} : {{trad|se|Paris}}
+* {{T|sm}} : {{trad-|sm|Parisi}}
+* {{T|sc}} : {{trad|sc|Parigi}}
+* {{T|sr}} : {{trad+|sr|Париз|R=Pariz}}
+* {{T|sh}} : {{trad+|sh|Pariz}}
+* {{T|scn}} : {{trad-|scn|Pariggi}}
+* {{T|sk}} : {{trad+|sk|Paríž}}
+* {{T|sl}} : {{trad+|sl|Pariz}}
+* {{T|so}} : {{trad-|so|Baariis}}
+* {{T|sv}} : {{trad+|sv|Paris}}
+* {{T|sw}} : {{trad-|sw|Paris}}
+* {{T|tg}} : {{trad-|tg|Париж|tr=Parij}}
+* {{T|tl}} : {{trad-|tl|Paris}}
+* {{T|ta}} : {{trad+|ta|பாரிஸ்}}
+* {{T|roa-tara}} : {{trad|roa-tara|Parigge}}
+* {{T|tt}} : {{trad+|tt|Париж|tr=Parij}}
+* {{T|cs}} : {{trad+|cs|Paříž}}
+* {{T|ce}} : {{trad|ce|Париж|tr=Parij}}
+* {{T|te}} : {{trad-|te|పారిస్}}
+* {{T|tet}} : {{trad|tet|París}}
+* {{T|th}} : {{trad+|th|ปารีส}}
+* {{T|tpi}} : {{trad-|tpi|París}}
+* {{T|to}} : {{trad|to|Palesi}}
+* {{T|tr}} : {{trad+|tr|Paris}}
+* {{T|tk}} : {{trad-|tk|Pariž}}
+* {{T|kcg}} : {{trad|kcg|Pari̱t}}
+* {{T|uk}} : {{trad-|uk|Париж|R=Paryj}}
+* {{T|vec}} : {{trad-|vec|Parixe}}
+* {{T|ang}} : {{trad-|ang|Paris}}
+* {{T|vi}} : {{trad+|vi|Paris}}
+* {{T|vro}} : {{trad|vro|Pariis}}
+* {{T|wa}} : {{trad+|wa|Paris}}
+* {{T|wo}} : {{trad-|wo|Pari}}
+* {{T|yi}} : {{trad-|yi|פּאַריז|tr=Pariz}}
+* {{T|yo}} : {{trad|yo|Parisi}}
+* {{T|zea}} : {{trad|zea|Paries}}
+{{trad-fin}}
+
+=== {{S|nom de famille|fr}} ===
+{{fr-inv|pa.ʁi}}
+'''Paris''' {{pron|pa.ʁi|fr}} {{mf}}
+# [[nom de famille|Nom de famille]] français.
+#* {{exemple | lang=fr
+ | Guy '''Paris''', maire de Sagy (Val-d’Oise), refuse de voir son boucher et son boulanger, écrasés par la hausse des prix de l’énergie ''(lire aussi p. 4)'', mettre la clé sous la porte.
+ | source=journal ''20 minutes'', édition Paris-IDF, 13 janvier 2023, page 2}}
+#* {{exemple | lang=fr
+ | Dans un communiqué, publié dimanche, les familles de Benjamin Brière, Cécile Kohler, Jacques '''Paris''' et Louis Arnaud, d’autres Français encore détenus dans le pays, se sont réjouies de cette décision.
+ | source=journal ''20 minutes'', édition Paris-IDF, 13 février 2023, page 6 (''réjouis'' corrigé en ''réjouies'')}}
+
+==== {{S|dérivés}} ====
+* [[parisite]] ''(carbonate dédié à {{w|J. J. Paris}})''
+
+==== {{S|traductions}} ====
+{{trad-début}}
+* {{T|rcf}} : {{trad|rcf|Pari}}
+{{trad-fin}}
+
+=== {{S|prénom|fr|genre=mf}} ===
+{{fr-inv|pa.ʁis}}
+'''Paris''' {{pron|pa.ʁis|fr}} {{mf}}
+# {{rare|fr}} [[prénom|Prénom]] féminin.
+#* {{exemple||source=|lien=|lang=fr}}
+# {{rare|fr}} Prénom masculin.
+#* {{exemple||source=|lien=|lang=fr}}
+
+==== {{S|notes}} ====
+: En France en 2016, près de 296 '''Paris''' au féminin et près de 270 '''Paris''' au masculin étaient portés{{R|MeilleursPrénoms|Base de données de l’{{w|INSEE}}, [http://www.meilleursprenoms.com/stats/prenoms_stat.php/Paris?sexe&#x3d;2 www.meilleursprenoms.com], 2016}}.
+
+==== {{S|variantes}} ====
+* [[Parice]]
+* [[Pariss]]
+* [[Parisse]]
+
+==== {{S|traductions}} ====
+{{trad-début}}
+* {{T|rcf}} : {{trad|rcf|Paris}}
+* {{T|kab}} : {{trad|kab|Paris}}
+{{trad-fin}}
+
+=== {{S|prononciation}} ===
+* {{écouter|France <!-- précisez svp la ville ou la région -->|pa.ʁi|audio=Paris1.ogg|lang=fr}}
+* {{écouter|France <!--précisez svp la ville ou la région -->|pa.ʁiç|audio=Fr-Paris.ogg|lang=fr}}
+* {{écouter||pɑ.ʁi|lang=fr|audio=Fr-Paris.oga}}
+* {{écouter|lang=fr|France (Paris)|audio=LL-Q150 (fra)-GrandCelinien-Paris.wav}}
+* {{écouter|lang=fr|France|audio=LL-Q150 (fra)-Fhala.K-Paris.wav}}
+* {{écouter|lang=fr|France (Saint-Maurice-de-Beynost)|audio=LL-Q150 (fra)-Benoît Prieur-Paris.wav}}
+* {{écouter|lang=fr|France (Lyon)|audio=LL-Q150 (fra)-WikiLucas00-Paris.wav}}
+* {{écouter|lang=fr|France (Yvelines)|audio=LL-Q150 (fra)-Jules78120-Paris.wav}}
+* {{écouter|lang=fr|France (Vosges)||audio=LL-Q150 (fra)-Poslovitch-Paris.wav}}
+* {{écouter|Strasbourg (France)||lang=fr|audio=LL-Q150 (fra)-Visiteuse Journée 2 - 26 (Madehub)-Paris.wav}}
+* {{écouter|Cesseras (France)||lang=fr|audio=LL-Q150 (fra)-Guilhelma-Paris.wav}}
+* {{écouter|Alsace (France)||lang=fr|audio=LL-Q150 (fra)-Le Commissaire-Paris.wav}}
+* {{écouter|Paris (France)||lang=fr|audio=LL-Q150 (fra)-Ash Crow-Paris.wav}}
+* {{écouter|France||lang=fr|audio=LL-Q150 (fra)-Lunagrouh-Paris.wav}}
+* {{écouter|Perpignan (France)|pa.ʁi|lang=fr|audio=LL-Q150 (fra)-Laszlo Cárdenas (Culex)-Paris.wav}}
+* {{écouter|Vendée (France)||lang=fr|audio=LL-Q150 (fra)-Sartus85-Paris.wav}}
+* {{écouter|Mulhouse (France)||lang=fr|audio=LL-Q150 (fra)-Mathieu Kappler-Paris.wav}}
+
+==== {{S|homophones|fr}} ====
+* [[pari]], [[paris]]
+* [[parie]], [[parient]], [[paries]] {{cf|parier}}
+
+=== {{S|anagrammes}} ===
+{{voir anagrammes|fr}}
+
+=== {{S|voir aussi}} ===
+* {{WP}}
+* {{WQ}}
+* {{VOY}}
+* {{Commons}}
+* {{Vikidia|AdQ=oui}}
+
+=== {{S|références}} ===
+==== {{S|sources}} ====
+{{Références}}
+
+==== {{S|bibliographie}} ====
+
+
+[[Catégorie:Capitales en français]]
+[[Catégorie:Chefs-lieux de département en français]]
+[[Catégorie:Chefs-lieux de région en français]]
+[[Catégorie:Préfectures de France en français]]
+[[Catégorie:Toponymes dont l’origine est un ethnonyme en français]]
+[[Catégorie:Toponymes dont l’origine est un ethnonyme en allemand]]
+[[Catégorie:Toponymes dont l’origine est un ethnonyme en anglais]]
+[[Catégorie:Toponymes dont l’origine est un ethnonyme en basque]]
+[[Catégorie:Toponymes dont l’origine est un ethnonyme en danois]]
+[[Catégorie:Toponymes dont l’origine est un ethnonyme en portugais]]
+[[Catégorie:Toponymes dont l’origine est un ethnonyme en bas allemand]]
+[[Catégorie:Toponymes dont l’origine est un ethnonyme en same du Nord]]
+[[Catégorie:Toponymes dont l’origine est un ethnonyme en malais]]
+[[Catégorie:Toponymes dont l’origine est un ethnonyme en norvégien]]
+[[Catégorie:Toponymes dont l’origine est un ethnonyme en cornique]]
+[[Catégorie:Toponymes dont l’origine est un ethnonyme en vietnamien]]
+[[Catégorie:Toponymes dont l’origine est un ethnonyme en turc]]
+[[Catégorie:Toponymes dont l’origine est un ethnonyme en vieil anglais]]
+[[Catégorie:Toponymes dont l’origine est un ethnonyme en tagalog]]
+[[Catégorie:Toponymes dont l’origine est un ethnonyme en ancien français]]
+[[Catégorie:Toponymes dont l’origine est un ethnonyme en azéri]]
+
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: {{date|lang=gsw}} Du français ''[[Paris#fr|Paris]]''.
+
+=== {{S|nom propre|gsw}} ===
+'''Paris''' {{pron||gsw}}
+# {{capitales|gsw|pays=de France}} [[Paris#fr|Paris]] (ville de [[France]]).
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: {{date|lang=de|887}}. Du français ''{{l|Paris|fr}}'', mot issu du nom du peuple gaulois des Parisii (au datif locatif pluriel : Parisiis), dont Paris (Lutecia des Parisii) était la capitale à l'époque gallo-romaine<ref>{{ouvrage|auteurs=Pierre-Henri {{pc|Billy}}|titre=Dictionnaire des noms de lieux de la France|éditeur=DNLF, éditions Errance|date=2011|isbn=978-2-87772-449-4|page=420}}</ref>.
+
+=== {{S|nom propre|de}} ===
+{{de-nom-propre|gs=Paris|gs2=Paris’|genre=n}}
+[[Fichier:Paris Montage 2017.png|vignette|die bekanntesten Orte von '''Paris''' - ''les lieux les plus connus de Paris'']]
+'''Paris''' {{pron|pa.ˈʁiːs|de}} {{n}} {{au singulier uniquement|de}}
+# {{capitales|de|pays=de France}} [[Paris#fr|Paris]] (ville de [[France]]).
+#* {{exemple|'''Paris''' ist die Hauptstadt von Frankreich.|sens=Paris est la capitale de la France|lang=de}}
+#* {{exemple|Klein, kleiner, noch kleiner - in '''Paris''' werden zahlreiche Ein-Zimmer-Wohnungen vermietet, die unvorstellbar und oft auch unzulässig winzig sind.|lang=de|sens=Petit, plus petit, encore plus petit - à Paris, on loue de nombreux appartements d’une pièce, d’une taille inimaginablement et souvent inadmissiblement minuscule.|source={{périodique|auteur=RND/dpa|titre=Nur 4,7 Quadratmeter: Paris geht gegen Vermietung von winziger Wohnung vor|journal=RedaktionsNetzwerk Deutschland|date=24 août 2022|texte=https://www.rnd.de/panorama/paris-mann-lebt-auf-nur-4-7-quadratmetern-stadt-geht-vermietung-vor-VBIFNKCXUN7Y2DV5GQSYZDCFYQ.html}}}}
+#* {{exemple|» (...) das erinnert mich daran, daß ich Sie um vierzehn Tage Urlaub bitten muß.«<br />»Um Hochzeit zu halten?«<br />»Einmal das, und dann, um nach '''Paris''' zu reisen.<br />»Schön, schön, nehmen Sie sich so viel Zeit, wie Sie wollen, Dantès; das Ausladen des Schiffes wird etwa sechs Wochen in Anspruch nehmen, und wir werden vor Ablauf eines Vierteljahres wohl kaum wieder in See gehen … In einem Vierteljahr müssen Sie aber da sein.|lang=de|sens=— (...) cela me rappelle que j’aurai un congé de quinze jours à vous demander.<br />— Pour vous marier ?<br />— D’abord ; puis pour aller à Paris.<br />— Bon, bon ! vous prendrez le temps que vous voudrez, Dantès ; le temps de décharger le bâtiment nous prendra bien six semaines, et nous ne nous remettrons guère en mer avant trois mois… Seulement, dans trois mois, il faudra que vous soyez là.|source={{ouvrage|auteur={{w|Alexandre Dumas}}|trad=(inconnu)|titre=Der Graf von Monte Christo|année=1955|éditeur=Rütten & Loening|lieu=Frankfurt|url=}}}}
+#* {{exemple|Irgendwie hatte man darauf gehofft, in '''Paris''' würden heuer modisch die Funken fliegen. Doch nun ist es amtlich: Das österreichische Team packt für seinen Auftritt an der Seine die Lederhosen ein.|lang=de|sens=On espérait un peu que la mode allait faire des étincelles à Paris cette année. Mais c'est désormais officiel : l’équipe autrichienne a décidé de mettre les pantalons en cuir dans ses valises pour sa présentation sur la Seine.|source={{périodique|auteur=Anne Feldkamp|titre=Das österreichische Olympiateam reist in Ziegenlederhosen nach Paris|journal=Der Standard|date=10 juillet 2024|texte=https://www.derstandard.at/story/3000000227791/das-oesterreichische-olympiateam-reist-in-ziegenlederhosen-nach-paris}}}}
+
+==== {{S|notes}} ====
+: En allemand, les villes n'ont pas de déterminant. Si toutefois il y a besoin d'une déclinaison, elles sont supposées du genre neutre.
+
+==== {{S|synonymes}} ====
+* {{lien|Stadt der Liebe|de|sens=ville de l'amour}}
+
+==== {{S|gentilés}} ====
+* [[Pariser]] (''parisien''), [[Pariserin]] (''parisienne'')
+
+==== {{S|hyperonymes}} ====
+{{(|}}
+* {{lien|Hauptstadt|de}}
+* {{lien|Großstadt|de}}
+* {{lien|Metropole|de}}
+* {{lien|Ballungsraum|de}}
+{{)}}
+
+==== {{S|hyponymes}} ====
+* {{lien|Paris quadrifolia|de}}
+
+==== {{S|dérivés}} ====
+* [[Pariser]] (''préservatif'') {{familier|nocat=1}}
+* [[pariserisch]] (''parisien''), (''parisienne''), (''de Paris'')
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=de}}
+* {{WQ|lang=de}}
+* {{VOY|lang=de}}
+
+=== {{S|prononciation}} ===
+* {{écouter|Berlin|paˈʁiːs|lang=de|audio=De-Paris.ogg}}
+* {{écouter|{{DE|nocat=1}}|paˈʁiːs|lang=de|audio=LL-Q188 (deu)-Natschoba-Paris.wav}}
+* {{écouter|Berlin|paˈʁiːs|lang=de|audio=De-Paris2.ogg}}
+
+=== {{S|références}} ===
+
+==== {{S|sources}} ====
+{{références}}
+* {{Source-wikt|de|Paris}}
+* {{Source-wp|lang=fr}}
+* {{R:Duden|Paris}}
+
+==== {{S|bibliographie}} ====
+* {{ouvrage|éditeur=Larousse|titre=Dictionnaire allemand/français – français/allemand|date=1958|page=623}}
+* {{ouvrage|titre=Harrap’s de poche – Bordas Dictionnaire allemand/français|éditeur=Harrap|date=1997|isbn=0-245-50308-0|page=220}}.
+
+{{Bonne entrée|allemand}}
+
+== {{langue|fro}} ==
+=== {{S|étymologie}} ===
+: (Nom propre 1) {{circa|1140}} Voir [[#fr|ci-dessus]].
+: (Nom propre 2) Voir le français moderne ''{{lien|Pâris|fr}}''.
+
+=== {{S|nom propre|fro|num=1}} ===
+'''Paris''' {{pron-recons||fro}}
+# {{capitales|fro|pays=de France}} [[Paris#fr|Paris]] (ville).
+#* {{exemple | lang=fro
+ | Droit a '''Paris''' vinrent sans plus targier
+ |
+ | source={{w|Adenet le Roi|Adenet le Roi}}, ''Les Enfances Ogier'', manuscrit [https://gallica.bnf.fr/ark:/12148/btv1b55003999w/f161.image 3142 de la Bibliothèque de l’Arsenal]. Fol. 75r.}}
+
+=== {{S|nom propre|fro|num=2}} ===
+'''Paris''' {{pron-recons||fro}}
+# {{personnalités|fro|mythologiques grecques}} [[Pâris#fr|Pâris]] (Troyen mythique).
+
+==== {{S|variantes}} ====
+* {{lien|Parys|fro}}
+
+== {{langue|en}} ==
+=== {{S|étymologie}} ===
+: ''([[#en-nom-pr|Nom propre]], [[#en-prénom-1|Prénom 1]])'' {{date|lang=en}} Du {{étyl|fr|en|mot=Paris}}.
+: ''([[#en-prénom-2|Prénom 2]])'' {{date|lang=en}} Du {{étyl|grc|en|mot=Πάρις|tr=Páris|sens=[[Pâris]]}}.
+
+=== {{S|nom propre|en}} ===
+'''Paris''' {{pron|ˈpæɹ.ɪs|en}}
+# {{capitales|en|pays=de France}} [[Paris#fr|Paris]] (ville de [[France]]).
+# Nom de nombreux autres villes et villages du monde.
+# {{par métonymie|en}} Le gouvernement français.
+
+==== {{S|gentilés}} ====
+* [[Parisian]]
+
+==== {{S|dérivés}} ====
+* [[Paris green]]
+* [[Parisian]]
+* [[Parisianism]]
+* [[Parisianist]]
+
+=== {{S|prénom|en|genre=mf|num=1}} ===
+'''Paris''' {{pron|ˈpæɹ.ɪs|en}}
+# Prénom féminin.
+
+=== {{S|prénom|en|genre=mf|num=2}} ===
+'''Paris''' {{pron|ˈpæɹ.ɪs|en}}
+# {{personnalités|en|mythologiques grecques}} [[Pâris]], un prince [[troyen]].
+# Prénom masculin.
+
+=== {{S|prononciation}} ===
+* {{écouter|Royaume-Uni|ˈpæɹ.ɪs|audio=En-Paris.ogg|lang=en}}
+* {{écouter|États-Unis (Californie)|ˈpɛəɹ.ɪs|audio=En-us-Paris.ogg|lang=en}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=en}}
+* {{WQ|lang=en}}
+* {{VOY|lang=en}}
+
+== {{langue|az}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|az}}
+
+=== {{S|nom propre|az}} ===
+{{az-décl-nom|i|c}}
+'''Paris''' {{pron||az}} {{az-forme possessive}}
+# {{capitales|az|pays=de France}} [[Paris#fr|Paris]] ([[capitale]] de la [[France]]).
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=az}}
+
+== {{langue|nds}} ==
+=== {{S|étymologie}} ===
+: {{date|lang=nds}} Du français ''[[Paris#fr|Paris]]''.
+
+=== {{S|nom propre|nds}} ===
+'''Paris''' {{pron||nds}}
+# {{capitales|nds|pays=de France}} [[Paris#fr|Paris]] (ville de [[France]]).
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=nds}}
+
+== {{langue|eu}} ==
+=== {{S|étymologie}} ===
+: {{date|lang=eu}} Du français ''[[Paris#fr|Paris]]''.
+
+=== {{S|nom propre|eu}} ===
+'''Paris''' {{pron||eu}}
+# {{capitales|eu|pays=de France}} [[Paris#fr|Paris]] (ville de [[France]]).
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=eu|Espagne (Saint-Sébastien)|audio=LL-Q8752 (eus)-Xabier Cañas-Paris.wav}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=eu}}
+
+== {{langue|kw}} ==
+=== {{S|étymologie}} ===
+: {{date|lang=kw}} Du français ''[[Paris#fr|Paris]]''.
+
+=== {{S|nom propre|kw}} ===
+'''Paris''' {{pron||kw}}
+# {{capitales|kw|pays=de France}} [[Paris#fr|Paris]] (ville de [[France]]).
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=kw}}
+
+== {{langue|kea}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|kea}}
+
+=== {{S|nom propre|kea}} ===
+'''Paris''' {{pron||kea}}
+# {{capitales|kea|pays=de France}} [[#fr|Paris]], capitale de la France.
+
+=== {{S|références}} ===
+* {{R:BrüserReisSantos|p=119}}
+
+== {{langue|hr}} ==
+=== {{S|étymologie}} ===
+: {{date|lang=hr}} Du français ''[[Paris#fr|Paris]]''.
+
+=== {{S|nom propre|hr}} ===
+'''Paris''' {{pron||hr}}
+# {{capitales|hr|pays=de France}} [[Paris#fr|Paris]] (ville de [[France]]).
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=hr}}
+
+== {{langue|da}} ==
+=== {{S|étymologie}} ===
+: {{date|lang=da}} Du français ''[[Paris#fr|Paris]]''.
+
+=== {{S|nom propre|da}} ===
+'''Paris''' {{pron||da}}
+# {{capitales|da|pays=de France}} [[Paris#fr|Paris]] (ville de [[France]]).
+
+==== {{S|gentilés}} ====
+* [[parisisk]]
+* [[pariser]]
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=da}}
+
+== {{langue|cy}} ==
+=== {{S|étymologie}} ===
+: {{date|lang=cy}} Du français ''[[Paris#fr|Paris]]''.
+
+=== {{S|nom propre|cy}} ===
+'''Paris''' {{pron||cy}}
+# {{capitales|cy|pays=de France}} [[Paris#fr|Paris]] (ville de [[France]]).
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=cy}}
+
+== {{langue|io}} ==
+=== {{S|étymologie}} ===
+: {{date|lang=io}} Du français ''[[Paris#fr|Paris]]''.
+
+=== {{S|nom propre|io}} ===
+'''Paris''' {{pron||io}}
+# {{capitales|io|pays=de France}} [[Paris#fr|Paris]] (ville de [[France]]).
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=io}}
+
+== {{langue|id}} ==
+=== {{S|étymologie}} ===
+: {{date|lang=id}} Du français ''[[Paris#fr|Paris]]''.
+
+=== {{S|nom propre|id}} ===
+'''Paris''' {{pron||id}}
+# {{capitales|id|pays=de France}} [[Paris#fr|Paris]] (ville de [[France]]).
+#* {{exemple|lang=id}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=id}}
+
+== {{langue|la}} ==
+=== {{S|étymologie}} ===
+: {{date|lang=la}} Du {{étyl|grc|la|mot=Πάρις|tr=Páris}}.
+
+=== {{S|nom propre|la}} ===
+{{la-tab-3i-mf|Paris|Parid|sing=oui}}
+'''Paris''' {{pron||la}} {{m}}
+# {{personnalités|la|mythologiques grecques}} [[Pâris]].
+# Nom de divers autres personnages antiques.
+
+=== {{S|voir aussi}} ===
+* {{WP|Paris (heros)|Paris (heros)|lang=la}}
+
+=== {{S|références}} ===
+* {{R:Gaffiot}}
+
+== {{langue|ms}} ==
+=== {{S|étymologie}} ===
+: {{date|lang=ms}} Du français ''[[Paris#fr|Paris]]''.
+
+=== {{S|nom propre|ms}} ===
+'''Paris''' {{pron||ms}}
+# {{capitales|ms|pays=de France}} [[Paris#fr|Paris]] (ville de [[France]]).
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=ms}}
+
+== {{langue|na}} ==
+=== {{S|étymologie}} ===
+: {{date|lang=na}} Du français ''[[Paris#fr|Paris]]''.
+
+=== {{S|nom propre|na}} ===
+'''Paris''' {{pron||na}}
+# {{capitales|na|pays=de France}} [[Paris#fr|Paris]] (ville de [[France]]).
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=na}}
+
+== {{langue|no}} ==
+=== {{S|étymologie}} ===
+: {{date|lang=no}} Du français ''[[Paris#fr|Paris]]''.
+
+=== {{S|nom propre|no}} ===
+'''Paris''' {{pron||no}}
+# {{capitales|no|pays=de France}} [[Paris#fr|Paris]] (ville de [[France]]).
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=no}}
+
+== {{langue|nn}} ==
+=== {{S|étymologie}} ===
+: {{date|lang=nn}} Du français ''[[Paris#fr|Paris]]''.
+
+=== {{S|nom propre|nn}} ===
+'''Paris''' {{pron||nn}}
+# {{capitales|nn|pays=de France}} [[Paris#fr|Paris]] (ville de [[France]]).
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=nn}}
+
+== {{langue|poitevin-saintongeais}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|poitevin-saintongeais}}
+
+=== {{S|nom propre|poitevin-saintongeais}} ===
+'''Paris''' {{pron||poitevin-saintongeais}} {{poit-saint-normalisé}}
+# {{capitales|poitevin-saintongeais|pays=de France}} [[Paris#fr|Paris]].
+
+=== {{S|références}} ===
+* {{R:Dicopoitsaint|Paris|consulté le=9 avril 2019}}
+
+== {{langue|pt}} ==
+=== {{S|étymologie}} ===
+: {{date|lang=pt}} Du français ''[[Paris#fr|Paris]]''.
+
+=== {{S|nom propre|pt}} ===
+'''Paris''' {{pron||pt}}
+# {{capitales|pt|pays=de France}} [[Paris#fr|Paris]] (ville de [[France]]).
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=pt}}
+* {{WQ|lang=pt}}
+* {{VOY|lang=pt}}
+
+== {{langue|ro}} ==
+=== {{S|étymologie}} ===
+: {{date|lang=ro}} Du français ''[[Paris#fr|Paris]]''.
+
+=== {{S|nom propre|ro}} ===
+'''Paris''' {{pron||ro}}
+# {{capitales|ro|pays=de France}} [[Paris#fr|Paris]] (ville de [[France]]).
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=ro|||audio=LL-Q7913 (ron)-Andreea Teodoraa-Paris.wav}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=ro}}
+* {{VOY|lang=ro}}
+
+== {{langue|se}} ==
+=== {{S|étymologie}} ===
+: {{date|lang=se}} Du français ''[[Paris#fr|Paris]]''.
+
+=== {{S|nom propre|se}} ===
+{{se-décl-sing|accgén=Parisa|ill=Parisii|locsép=Parisas|com=Parisain|ess=—}}
+'''Paris''' {{phono|ˈpɑris|se}}
+# {{capitales|se|pays=de France}} {{lien|Paris|dif=Paris}}.
+#* {{exemple | lang=se
+ | Fránkriikka ráđđehus bisseha dálkkádatvázzima. '''Parisas''' ii leat dán áigái lohpi stuorra joavkun čoagganit gávpogis.
+ | Le gouvernement français stoppe la marche pour le climat. À Paris, en ce moment, il n’est pas permis [il n’y a pas d’autorisation] à une foule importante de se rassembler dans la ville.
+ | source=[http://www.nrk.no/sapmi/frankriikka-ra__ehus-bisseha-dalkkadatvazzima-1.12661736 ''NRK Sápmi'']}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=se}}
+
+== {{langue|sv}} ==
+=== {{S|étymologie}} ===
+: {{date|lang=sv}} Du français ''[[Paris#fr|Paris]]''.
+
+=== {{S|nom propre|sv}} ===
+'''Paris''' {{pron||sv}}
+# {{capitales|sv|pays=de France}} [[Paris#fr|Paris]] (ville de [[France]]).
+
+=== {{S|prononciation}} ===
+* {{écouter|Kronoberg (Suède)||lang=sv|audio=LL-Q9027 (swe)-Christoffre-Paris (stad).wav}}
+* {{écouter|Kronoberg (Suède)||lang=sv|audio=LL-Q9027 (swe)-Christoffre-Paris (mytologi).wav}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=sv}}
+* {{WQ|lang=sv}}
+* {{VOY|lang=sv}}
+
+== {{langue|tl}} ==
+=== {{S|étymologie}} ===
+: {{date|lang=tl}} Du français ''[[Paris#fr|Paris]]''.
+
+=== {{S|nom propre|tl}} ===
+'''Paris''' {{pron||tl}}
+# {{capitales|tl|pays=de France}} [[Paris#fr|Paris]] (ville de [[France]]).
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=tl}}
+
+== {{langue|tr}} ==
+=== {{S|étymologie}} ===
+: {{date|lang=tr}} Du français ''[[Paris#fr|Paris]]''.
+
+=== {{S|nom propre|tr}} ===
+'''Paris''' {{pron||tr}}
+# {{capitales|tr|pays=de France}} [[Paris#fr|Paris]] (ville de [[France]]).
+
+=== {{S|prononciation}} ===
+* {{écouter|Izmir (Turquie)||lang=tr|audio=LL-Q256 (tur)-ToprakM-Paris.wav}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=tr}}
+
+== {{langue|ang}} ==
+=== {{S|étymologie}} ===
+: {{date|lang=ang}} {{ébauche-étym |ang}}
+
+=== {{S|nom propre|ang}} ===
+'''Paris''' {{pron-recons||ang}}
+# {{capitales|ang|pays=de France}} [[Paris#fr|Paris]].
+
+=== {{S|références}} ===
+* {{R:EOW|1=Paris}}
+
+== {{langue|vi}} ==
+=== {{S|étymologie}} ===
+: {{date|lang=vi}} Du français ''[[Paris#fr|Paris]]''.
+
+=== {{S|nom propre|vi}} ===
+'''Paris''' {{pron||vi}}
+# {{capitales|vi|pays=de France}} [[Paris#fr|Paris]] (ville de [[France]]).
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=vi}}
+* {{VOY|lang=vi}}

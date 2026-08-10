@@ -1,0 +1,198 @@
+{{voir|rom}}
+
+== {{langue|fr}} ==
+=== {{S|étymologie}} ===
+: {{cf|lang=fr|Roms}}
+: (Nom propre 1) Du {{étyl|gaulois|fr|Rotomagus}}.
+: (Nom propre 2) Du {{étyl|rom|fr|mot=rromany}}.
+
+=== {{S|nom|fr}} ===
+{{fr-rég|mf=oui|ʁɔm|titre=variante 1}}{{fr-inv|ʁɔm|titre=variante 2}}
+[[File:Sorokin-Spanish Romani people.jpg|thumb|''Spanish romani people'' (1853) par Y.Sorokin.]]
+'''Rom''' {{pron|ʁɔm|fr}} {{mf}}
+# Membre du peuple des [[Roms]].
+#* ''On répandit l’idée que les '''Roms''' n’étaient qu’un ramassis de feignants dont la feignantise détraquait le bon fonctionnement du monde libre. Pour faire bonne mesure, on ajouta qu’ils faisaient n’importe où, qu’ils mangeaient de la chair de hérisson, berk!, qu’ils se livraient à des danses lascives ''[…] {{source|Lydie Salvayre, ''La Méthode Mila'', Éditions du Seuil, 2005, page 146}}
+
+==== {{S|variantes orthographiques}} ====
+* [[Rrom]]
+
+==== {{S|notes}} ====
+: Certains dictionnaires et encyclopédies considèrent ''Rom'' comme un nom invariable{{réf|1}}{{réf|2}}{{réf|3}}. Certaines institutions officielles, comme le Conseil de l’Europe, recommandent un accord en nombre mais pas en genre du mot{{réf|4}}{{réf|5}} (variante qui semble être la plus courante{{réf|6}}).
+
+==== {{S|quasi-synonymes}} ====
+{{(}}
+* [[Bohémien]]
+* [[Cinto]], [[Sinto]]
+* [[Gitan]]
+* [[Manouche]]
+* [[romani]]
+* [[romanichel]]
+* [[Tsigane]], [[Tzigane]]
+{{)}}
+
+==== {{S|vocabulaire}} ====
+* [[gens du voyage]], [[Voyageur]]s
+
+==== {{S|traductions}} ====
+{{trad-début}}
+* {{T|de}} : {{trad+|de|Rom|m}}
+* {{T|en}} : {{trad+|en|Gypsy}}, {{trad+|en|Romani}} {{soutenu|nocat=1}}, {{trad+|en|Travellers}}
+* {{T|hr}} : {{trad+|hr|Rom}}
+* {{T|el}} : {{trad+|el|Ρομ}}, {{trad+|el|Ρομά}}
+* {{T|nl}} : {{trad+|nl|Rom}}
+{{trad-fin}}
+
+=== {{S|nom propre|fr|num=1}} ===
+{{fr-inv||inv_titre=Nom propre}}
+'''Rom''' {{pron||fr}}
+# {{localités|fr|du département des Deux-Sèvres}} [[commune|Commune]] [[français]]e, située dans le département des [[Deux-Sèvres]].
+
+==== {{S|traductions}} ====
+{{trad-début}}
+{{trad-fin}}
+
+=== {{S|nom propre|fr|num=2}} ===
+{{fr-inv||inv_titre=Nom propre}}
+'''Rom''' {{pron||fr}}
+# {{localités|fr|d’Allemagne}} [[commune|Commune]] d’[[Allemagne]], située dans le [[Mecklembourg-Poméranie-Occidentale]].
+
+==== {{S|traductions}} ====
+{{trad-début}}
+{{trad-fin}}
+
+=== {{S|prononciation}} ===
+==== {{S|homophones|fr}} ====
+* [[ROM]]
+* [[rom]], [[roms]] {{cf|rom}}
+
+=== {{S|anagrammes}} ===
+{{voir anagrammes|fr}}
+
+=== {{S|voir aussi}} ===
+* {{WP}}
+
+=== {{S|références}} ===
+* {{RÉF|1}} : {{R:Larousse.fr|rom/69746|rom}}. Adjectif invariable et nom invariable
+* {{RÉF|2}} : {{R:Mediadico}}.
+* {{RÉF|3}} : [http://www.universalis.fr/encyclopedie/rom/ Article « Rom »] sur l'encyclopédie Universalis
+* {{RÉF|4}} : [http://www.coe.int/t/dg3/romatravellers/Source/documents/GlossaryRoma.doc Glossaire du Conseil de l'Europe]
+* {{RÉF|5}} : [http://www.le-dictionnaire.com/definition.php?mot=rom rom] sur le-dictionnaire.com
+* {{RÉF|6}} : Au 21 septembre 2010, environ 819000 résultats sur Google pour « [http://www.google.fr/search?hl=fr&q=%22les%20Roms%22 Les Roms] » et 33200 résultats pour « [http://www.google.fr/search?hl=fr&q=%22les%20Rom%22 Les Rom] ».
+
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|gsw|mot=Roma}}.
+
+=== {{S|nom propre|gsw}} ===
+'''Rom''' {{pron||gsw}}
+# {{capitales|gsw}} [[Rome]] (ville d’Italie).
+
+=== {{S|prononciation}} ===
+* {{écouter|Mulhouse (France)||lang=gsw|audio=LL-Q131339 (gsw)-Mathieu Kappler-Rom.wav}}
+
+[[Catégorie:Localités d’Italie en alémanique]]
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: (''Nom propre'') du {{étylp|la|de|mot=Roma}}.
+: (''Nom commun'') du {{étyl|rom|de|mot=Řom}} qui signifie ''homme''.
+
+=== {{S|nom propre|de}} ===
+{{de-nom-propre|gs2=Rom}}
+'''Rom''' {{pron|ʁoːm|de}} {{n}}, {{au singulier uniquement|de}}.
+# {{capitales|de}} [[Rome#fr|Rome]] (ville d’Italie).
+#* {{exemple|'''Rom''' ist die Hauptstadt von Italien.|lang=de|sens=Rome est la capitale de l’Italie.}}
+#* {{exemple|Nach einer kurzen Pause fuhr der Pater leiser fort: „In der Goldenen Legende steht, dass Italien zur Zeit des Königs Humbert, in der Lombardei, von einer so schweren Pest heimgesucht wurde, dass es kaum genug Lebende gab, um die Toten zu begraben, und diese Pest wütete vor allem in '''Rom''' und in Pavia.“ ''[…]''|lang=de|sens=Après une courte pause, le père reprit, sur un ton plus bas : « On lit dans la Légende dorée qu’au temps du roi Humbert, en Lombardie, l’Italie fut ravagée d’une peste si violente qu’à peine les vivants suffisaient-ils à enterrer les morts et cette peste sévissait surtout à Rome et à Pavie. » ''[…]''|source={{ouvrage|auteur={{w|Albert Camus}}|trad=Uli Aumüller|titre=Die Pest|année=1997|éditeur=Rowohlt Verlag}}}}
+#* {{exemple|Ich muss eingeschlafen sein, denn als ich erwache, ist die Dokumentation über das antike '''Rom''', die ich mir angesehen habe, längst vorbei.|lang=de|sens=J’ai dû m’endormir car, quand je me réveille, le documentaire sur la Rome antique que je regardais est terminé depuis longtemps.|source={{ouvrage|auteur={{w|Melanie Raabe}}|trad=Céline Maurice|titre=Die Falle|année=2015|éditeur=btb Verlag|url=}}}}
+
+==== {{S|notes}} ====
+: En allemand, les villes n’ont pas de déterminant. Si toutefois il y a besoin d’une déclinaison, elles sont supposées du genre neutre.
+
+=== {{S|nom|de}} ===
+{{de-nom-m|gs2=Rom|npx=Roma|npx2=Rom}}
+'''Rom''' {{pron|ʁɔm|de}} ou {{pron|roːm|de}} {{m}}, {{équiv-pour|lang=de|une femme|Romni}}
+# {{lexique|ethnonymie|de}} [[Rom#fr|Rom]], membre d'un groupe ethnique probablement originaire du nord-ouest de l'Inde, qui vit aujourd'hui dans plusieurs pays européens et qui partage principalement une langue commune qui est le romani.
+#* {{exemple | lang=de
+ | Die '''Roma''' hatten dort übernachtet.
+ | Les Roms s'étaient arrêtés sur ce terrain pour y passer la nuit.}}
+
+==== {{S|synonymes}} ====
+* {{l|Zigeuner|de}} ''(souvent péjoratif)''
+
+=== {{S|prononciation}} ===
+* {{écouter|Berlin|ʁoːm|lang=de|audio=De-Rom.ogg}}
+
+==== {{S|sources}} ====
+* {{R:Duden|Rom}}
+* {{Source-wikt|de|Rom}}
+* {{R:DWDS|Rom}}
+
+==== {{S|bibliographie}} ====
+* Larousse, ''Dictionnaire allemand/français - français/allemand'', éd. 1958, p. 647
+* ''Harrap’s de poche – Bordas dictionnaire allemand/français'', éd. 1997, ISBN 0-245-50308-0, p. 242
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=de}}
+
+[[Catégorie:Localités d’Italie en allemand]]
+
+== {{langue|da}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|da|mot=Rom}}, dérivé du {{étylp|la|da|mot=Roma}}.
+
+=== {{S|nom propre|da}} ===
+'''Rom''' {{pron||da}}
+# {{capitales|da}} [[Rome]] (ville d’Italie).
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=da}}
+
+[[Catégorie:Localités d’Italie en danois]]
+
+== {{langue|ms}} ==
+=== {{S|étymologie}} ===
+: Du {{étylp|la|ms|mot=Roma}}.
+
+=== {{S|nom propre|ms}} ===
+'''Rom''' {{pron||ms}}
+# {{capitales|ms}} [[Rome]] (ville d’Italie).
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=ms}}
+
+[[Catégorie:Localités d’Italie en malais]]
+
+== {{langue|sv}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|sv|mot=Rom}}, dérivé du {{étylp|la|sv|mot=Roma}}.
+
+=== {{S|nom propre|sv}} ===
+'''Rom''' {{pron||sv}}
+# {{capitales|sv}} [[Rome]] (ville d’Italie).
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=sv}}
+
+[[Catégorie:Localités d’Italie en suédois]]
+
+== {{langue|cs}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|rom|cs|mot=rom|sens=homme, gens}}.
+
+=== {{S|nom propre|cs}} ===
+{{cs-décl-nom-ma-dur|rad=Rom}}
+'''Rom''' {{pron|rɔm|cs}} {{m|a}} {{équiv-pour|lang=cs|une femme|Romka}}
+# [[Rom#fr|Rom]].
+#* {{exemple | lang=cs
+ | Má stát pomáhat '''Romům'''? Ptejte se Nečasova poradce pro lidská práva.
+ | source=titre de Lidovky.cz}}
+
+==== {{S|quasi-synonymes}} ====
+* {{injurieux|nocat=1}} [[Cikán#cs|Cikán]], Tzigane
+
+==== {{S|apparentés}} ====
+* [[romský]], rom, romani
+* [[romština#cs|romština]], le romani, langue des Roms
+
+=== {{S|voir aussi}} ===
+* {{WP|Romové|lang=cs}}

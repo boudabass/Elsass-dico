@@ -1,0 +1,598 @@
+== {{langue|fr}} ==
+=== {{S|étymologie}} ===
+: Du {{étylp|proto-celtique|fr|Lousonna}}<ref>[https://www.lausanne.ch/portrait/carte-identite/histoire.html Histoire] de Lausanne, site officiel</ref>
+
+=== {{S|nom propre|fr}} ===
+{{fr-inv|lɔ.zan|inv_titre=Nom propre}}
+[[Fichier:CHE Lausanne Logo.svg|vignette]]
+'''Lausanne''' {{pron|lɔ.zan|fr}}
+# {{info lex|géographie}} [[district|District]] du [[canton]] de [[Vaud]] en [[Suisse]].
+# {{localités|fr|du canton de Vaud}} [[ville|Ville]], [[capitale]] et [[commune]] du canton de [[Vaud]] en [[Suisse]].
+#* {{exemple | lang=fr
+ | Depuis le mois de janvier, en effet, la bonne société de '''Lausanne''' se pressait dans les salons du poëte, qu'elle encourageait et récompensait par ses bravos, […].
+ | source={{w|Gustave Desnoiresterres}}, ''Voltaire et la société au XVIII{{e}} siècle'', {{5e|série}} : ''Voltaire aux Délices'', {{2e|éd.}}, Paris : chez Didier & Cie, 1875, p. 298}}
+
+==== {{S|gentilés}} ====
+* [[Lausannois]], [[Lausannoise]]
+* [[lausannois]], [[lausannoise]]
+
+==== {{S|vocabulaire}} ====
+* {{voir thésaurus|fr|Suisse}}
+
+==== {{S|traductions}} ====
+{{trad-début}}
+* {{T|af}} : {{trad-|af|Lausanne}}
+* {{T|gsw}} : {{trad|gsw|Lausanne}}
+* {{T|de}} : {{trad+|de|Lausanne}} (anciennement {{trad-|de|Losanen}})
+* {{T|nds}} : {{trad-|nds|Lausanne}}
+* {{T|en}} : {{trad+|en|Lausanne}}
+* {{T|bs}} : {{trad-|bs|Lausanne}}
+* {{T|br}} : {{trad-|br|Lausanne}}
+* {{T|bg}} : {{trad-|bg|Лозана|tr=Lozana}}
+* {{T|ca}} : {{trad-|ca|Lausana}}
+* {{T|ceb}} : {{trad|ceb|Lausanne}}
+* {{T|zh}} : {{trad+|zh|洛桑}}
+* {{T|hr}} : {{trad-|hr|Lausanne}}
+* {{T|da}} : {{trad-|da|Lausanne}}
+* {{T|es}} : {{trad+|es|Lausana}}
+* {{T|eo}} : {{trad-|eo|Laŭzano}}
+* {{T|et}} : {{trad-|et|Lausanne}}
+* {{T|fo}} : {{trad-|fo|Lausanne}}
+* {{T|fi}} : {{trad+|fi|Lausanne}}
+* {{T|fro}} : {{trad|fro|Losane}}
+* {{T|frp}} : {{trad|frp|Losena}}
+* {{T|frr}} : {{trad|frr|Lausanne}}
+* {{T|gd}} : {{trad-|gd|Lausanne}}
+* {{T|ga}} : {{trad-|ga|Lausanne}}
+* {{T|cy}} : {{trad-|cy|Lausanne}}
+* {{T|el}} : {{trad+|el|Λωζάνη}}
+* {{T|he}} : {{trad-|he|לוזאן}}
+* {{T|hu}} : {{trad+|hu|Lausanne}}
+* {{T|io}} : {{trad-|io|Lausanne}}
+* {{T|id}} : {{trad-|id|Lausanne}}
+* {{T|ie}} : {{trad-|ie|Lausanne}}
+* {{T|it}} : {{trad-|it|Losanna}}
+* {{T|ja}} : {{trad-|ja|ローザンヌ|tr=Rōzannu}}
+* {{T|avk}} : {{trad|avk|Lausanne}}
+* {{T|la}} : {{trad-|la|Lausanna}}
+* {{T|lv}} : {{trad-|lv|Lozanna}}
+* {{T|li}} : {{trad-|li|Lausanne}}
+* {{T|lt}} : {{trad-|lt|Lozana}}
+* {{T|lb}} : {{trad-|lb|Lausanne}}
+* {{T|ms}} : {{trad-|ms|Lausanne}}
+* {{T|nan}} : {{trad-|nan|Lausanne}}
+* {{T|nl}} : {{trad-|nl|Lausanne}}
+* {{T|no}} : {{trad-|no|Lausanne}}
+* {{T|pl}} : {{trad+|pl|Lozanna}}
+* {{T|pt}} : {{trad+|pt|Lausana}}
+* {{T|qu}} : {{trad-|qu|Lausanne}}
+* {{T|rm}} : {{trad-|rm|Losanna}}
+* {{T|ro}} : {{trad-|ro|Lausanne}}
+* {{T|ru}} : {{trad+|ru|Лозанна|tr=Lozanna}}
+* {{T|sr}} : {{trad-|sr|Лозана}}
+* {{T|fsl}} : {{wikisign}}
+* {{T|szl}} : {{trad|szl|Lausanne}}
+* {{T|sk}} : {{trad-|sk|Lausanne}}
+* {{T|sv}} : {{trad-|sv|Lausanne}}
+* {{T|sw}} : {{trad-|sw|Lausanne}}
+* {{T|cs}} : {{trad-|cs|Lausanne}}
+* {{T|th}} : {{trad-|th|โลซาน}}
+* {{T|tr}} : {{trad+|tr|Lozan}}
+* {{T|vi}} : {{trad-|vi|Lausanne}}
+* {{T|vo}} : {{trad-|vo|Lausanne}}
+* {{T|war}} : {{trad|war|Lausanne}}
+* {{T|yo}} : {{trad-|yo|Lausanne}}
+{{trad-fin}}
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=fr|Suisse ('''Lausanne''')|lɔ.zan|audio=LL-Q150 (fra)-Eihel-Lausanne.wav}}
+
+=== {{S|voir aussi}} ===
+* {{WP}}
+
+=== {{S|références}} ===
+{{Références}}
+
+[[Catégorie:Localités du canton de Vaud en français]]
+[[Catégorie:Districts de Suisse en français]]
+
+== {{langue|af}} ==
+=== {{S|étymologie}} ===
+: Emprunt au {{étylp|fr|af}}.
+
+=== {{S|nom propre|af}} ===
+'''Lausanne''' {{pron||af}}
+# {{localités|af|du canton de Vaud}} [[Lausanne#fr|Lausanne]] (ville de [[Suisse]]).
+#* {{exemple|lang=af}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=af}}
+
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: Emprunt au {{étylp|fr|gsw}}.
+
+=== {{S|nom propre|gsw}} ===
+'''Lausanne''' {{pron||gsw}}
+# {{localités|gsw|du canton de Vaud}} [[Lausanne#fr|Lausanne]] (ville de [[Suisse]]).
+#* {{exemple|lang=gsw}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=gsw}}
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: Emprunt au {{étylp|fr|de}}.
+
+=== {{S|nom propre|de}} ===
+'''Lausanne''' {{pron||de}}
+# {{localités|de|du canton de Vaud}} [[Lausanne#fr|Lausanne]] (ville de [[Suisse]]).
+#* {{exemple|lang=de}}
+
+==== {{S|synonymes}} ====
+* [[Losanen]] (ancien nom)
+
+=== {{S|prononciation}} ===
+
+* {{écouter|Allemagne (Berlin)|lang=de|audio=De-Lausanne.ogg}}
+* {{écouter|Suisse||niveau=bon|lang=de|audio=LL-Q188 (deu)-Beat Ruest-Lausanne.wav}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=de}}
+
+== {{langue|en}} ==
+=== {{S|étymologie}} ===
+: Emprunt au {{étylp|fr|en}}.
+
+=== {{S|nom propre|en}} ===
+'''Lausanne''' {{pron||en}}
+# {{localités|en|du canton de Vaud}} [[Lausanne#fr|Lausanne]] (ville de [[Suisse]]).
+#* {{exemple | lang=en
+ | I remained two days at '''Lausanne''', in this painful state of mind.
+ | 
+ | source={{w|Mary Shelley|Mary {{pc|W. Shelley}}}}, ''<span class="plainlinks">[https://books.google.co.uk/books?id=2Zc3AAAAYAAJ Frankenstein]</span>'', page 58, édition de 1869}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=en}}
+
+== {{langue|nds}} ==
+=== {{S|étymologie}} ===
+: Emprunt au {{étylp|fr|nds}}.
+
+=== {{S|nom propre|nds}} ===
+'''Lausanne''' {{pron||nds}}
+# {{localités|nds|du canton de Vaud}} [[Lausanne#fr|Lausanne]] (ville de [[Suisse]]).
+#* {{exemple|lang=nds}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=nds}}
+
+== {{langue|bs}} ==
+=== {{S|étymologie}} ===
+: Emprunt au {{étylp|fr|bs}}.
+
+=== {{S|nom propre|bs}} ===
+'''Lausanne''' {{pron||bs}}
+# {{localités|bs|du canton de Vaud}} [[Lausanne#fr|Lausanne]] (ville de [[Suisse]]).
+#* {{exemple|lang=bs}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=bs}}
+
+== {{langue|br}} ==
+=== {{S|étymologie}} ===
+: Emprunt au {{étylp|fr|br}}.
+
+=== {{S|nom propre|br}} ===
+'''Lausanne''' {{pron||br}}
+# {{localités|br|du canton de Vaud}} [[Lausanne#fr|Lausanne]] (ville de [[Suisse]]).
+#* {{exemple|lang=br}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=br}}
+
+== {{langue|ceb}} ==
+=== {{S|étymologie}} ===
+: Emprunt au {{étylp|fr|ceb}}.
+
+=== {{S|nom propre|ceb}} ===
+'''Lausanne''' {{pron||ceb}}
+# {{localités|ceb|du canton de Vaud}} [[Lausanne#fr|Lausanne]] (ville de [[Suisse]]).
+#* {{exemple|lang=ceb}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=ceb}}
+
+== {{langue|hr}} ==
+=== {{S|étymologie}} ===
+: Emprunt au {{étylp|fr|hr}}.
+
+=== {{S|nom propre|hr}} ===
+'''Lausanne''' {{pron||hr}}
+# {{localités|hr|du canton de Vaud}} [[Lausanne#fr|Lausanne]] (ville de [[Suisse]]).
+#* {{exemple|lang=hr}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=hr}}
+
+== {{langue|da}} ==
+=== {{S|étymologie}} ===
+: Emprunt au {{étylp|fr|da}}.
+
+=== {{S|nom propre|da}} ===
+'''Lausanne''' {{pron||da}}
+# {{localités|da|du canton de Vaud}} [[Lausanne#fr|Lausanne]] (ville de [[Suisse]]).
+#* {{exemple|lang=da}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=da}}
+
+== {{langue|et}} ==
+=== {{S|étymologie}} ===
+: Emprunt au {{étylp|fr|et}}.
+
+=== {{S|nom propre|et}} ===
+'''Lausanne''' {{pron||et}}
+# {{localités|et|du canton de Vaud}} [[Lausanne#fr|Lausanne]] (ville de [[Suisse]]).
+#* {{exemple|lang=et}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=et}}
+
+== {{langue|fo}} ==
+=== {{S|étymologie}} ===
+: Emprunt au {{étylp|fr|fo}}.
+
+=== {{S|nom propre|fo}} ===
+'''Lausanne''' {{pron||fo}}
+# {{localités|fo|du canton de Vaud}} [[Lausanne#fr|Lausanne]] (ville de [[Suisse]]).
+#* {{exemple|lang=fo}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=fo}}
+
+== {{langue|fi}} ==
+=== {{S|étymologie}} ===
+: Emprunt au {{étylp|fr|fi}}.
+
+=== {{S|nom propre|fi}} ===
+'''Lausanne''' {{pron||fi}}
+# {{localités|fi|du canton de Vaud}} [[Lausanne#fr|Lausanne]] (ville de [[Suisse]]).
+#* {{exemple|lang=fi}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=fi}}
+
+== {{langue|frr}} ==
+=== {{S|étymologie}} ===
+: Emprunt au {{étylp|fr|frr}}.
+
+=== {{S|nom propre|frr}} ===
+'''Lausanne''' {{pron||frr}}
+# {{localités|frr|du canton de Vaud}} [[Lausanne#fr|Lausanne]] (ville de [[Suisse]]).
+#* {{exemple|lang=frr}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=frr}}
+
+== {{langue|gd}} ==
+=== {{S|étymologie}} ===
+: Emprunt au {{étylp|fr|gd}}.
+
+=== {{S|nom propre|gd}} ===
+'''Lausanne''' {{pron||gd}}
+# {{localités|gd|du canton de Vaud}} [[Lausanne#fr|Lausanne]] (ville de [[Suisse]]).
+#* {{exemple|lang=gd}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=gd}}
+
+== {{langue|ga}} ==
+=== {{S|étymologie}} ===
+: Emprunt au {{étylp|fr|ga}}.
+
+=== {{S|nom propre|ga}} ===
+'''Lausanne''' {{pron||ga}}
+# {{localités|ga|du canton de Vaud}} [[Lausanne#fr|Lausanne]] (ville de [[Suisse]]).
+#* {{exemple|lang=ga}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=ga}}
+
+== {{langue|cy}} ==
+{{ébauche|cy}}
+=== {{S|étymologie}} ===
+: Emprunt au {{étylp|fr|cy}}.
+
+=== {{S|nom propre|cy}} ===
+'''Lausanne''' {{pron||cy}}
+# {{localités|cy|du canton de Vaud}} [[Lausanne#fr|Lausanne]] (ville de [[Suisse]]).
+#* {{exemple|lang=cy}}
+
+== {{langue|hu}} ==
+=== {{S|étymologie}} ===
+: Emprunt au {{étylp|fr|hu}}.
+
+=== {{S|nom propre|hu}} ===
+'''Lausanne''' {{pron||hu}}
+# {{localités|hu|du canton de Vaud}} [[Lausanne#fr|Lausanne]] (ville de [[Suisse]]).
+#* {{exemple|lang=hu}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=hu}}
+
+== {{langue|io}} ==
+=== {{S|étymologie}} ===
+: Emprunt au {{étylp|fr|io}}.
+
+=== {{S|nom propre|io}} ===
+'''Lausanne''' {{pron||io}}
+# {{localités|io|du canton de Vaud}} [[Lausanne#fr|Lausanne]] (ville de [[Suisse]]).
+#* {{exemple|lang=io}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=io}}
+
+== {{langue|id}} ==
+=== {{S|étymologie}} ===
+: Emprunt au {{étylp|fr|id}}.
+
+=== {{S|nom propre|id}} ===
+'''Lausanne''' {{pron||id}}
+# {{localités|id|du canton de Vaud}} [[Lausanne#fr|Lausanne]] (ville de [[Suisse]]).
+#* {{exemple|lang=id}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=id}}
+
+== {{langue|ie}} ==
+=== {{S|étymologie}} ===
+: Emprunt au {{étylp|fr|ie}}.
+
+=== {{S|nom propre|ie}} ===
+'''Lausanne''' {{pron||ie}}
+# {{localités|ie|du canton de Vaud}} [[Lausanne#fr|Lausanne]] (ville de [[Suisse]]).
+#* {{exemple|lang=ie}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=ie}}
+
+== {{langue|is}} ==
+=== {{S|étymologie}} ===
+: Emprunt au {{étylp|fr|is}}.
+
+=== {{S|nom propre|is}} ===
+'''Lausanne''' {{pron||is}}
+# {{localités|is|du canton de Vaud}} [[Lausanne#fr|Lausanne]] (ville de [[Suisse]]).
+#* {{exemple|lang=is}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=is}}
+
+== {{langue|avk}} ==
+=== {{S|étymologie}} ===
+: Emprunt au {{étylp|fr|avk}}.
+
+=== {{S|nom propre|avk}} ===
+'''Lausanne''' {{pron||avk}}
+# {{localités|avk|du canton de Vaud}} [[Lausanne#fr|Lausanne]] (ville de [[Suisse]]).
+#* {{exemple|lang=avk}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=avk}}
+
+== {{langue|li}} ==
+=== {{S|étymologie}} ===
+: Emprunt au {{étylp|fr|li}}.
+
+=== {{S|nom propre|li}} ===
+'''Lausanne''' {{pron||li}}
+# {{localités|li|du canton de Vaud}} [[Lausanne#fr|Lausanne]] (ville de [[Suisse]]).
+#* {{exemple|lang=li}}
+
+=== {{S|voir aussi}} ===
+* {{WP|Lausanne (stad)|lang=li}}
+
+== {{langue|lb}} ==
+=== {{S|étymologie}} ===
+: Emprunt du mot {{étylp|fr|lb}}.
+
+=== {{S|nom propre|lb}} ===
+'''Lausanne''' {{pron||lb}}
+# {{localités|lb|du canton de Vaud}} [[Lausanne#fr|Lausanne]] (ville de [[Suisse]]).
+#* {{exemple|lang=lb}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=lb}}
+
+== {{langue|ms}} ==
+=== {{S|étymologie}} ===
+: Emprunt au {{étylp|fr|ms}}.
+
+=== {{S|nom propre|ms}} ===
+'''Lausanne''' {{pron||ms}}
+# {{localités|ms|du canton de Vaud}} [[Lausanne#fr|Lausanne]] (ville de [[Suisse]]).
+#* {{exemple|lang=ms}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=ms}}
+
+== {{langue|nan}} ==
+=== {{S|étymologie}} ===
+: Emprunt au {{étylp|fr|nan}}.
+
+=== {{S|nom propre|nan}} ===
+'''Lausanne''' {{pron||nan}}
+# {{localités|nan|du canton de Vaud}} [[Lausanne#fr|Lausanne]] (ville de [[Suisse]]).
+#* {{exemple|lang=nan}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=nan}}
+
+== {{langue|nl}} ==
+=== {{S|étymologie}} ===
+: Emprunt au {{étylp|fr|nl}}.
+
+=== {{S|nom propre|nl}} ===
+'''Lausanne''' {{pron||nl}}
+# {{localités|nl|du canton de Vaud}} [[Lausanne#fr|Lausanne]] (ville de [[Suisse]]).
+#* {{exemple|lang=nl}}
+
+=== {{S|voir aussi}} ===
+* {{WP|Lausanne (stad)|lang=nl}}
+
+== {{langue|no}} ==
+=== {{S|étymologie}} ===
+: Emprunt au {{étylp|fr|no}}.
+
+=== {{S|nom propre|no}} ===
+'''Lausanne''' {{pron||no}}
+# {{localités|no|du canton de Vaud}} [[Lausanne#fr|Lausanne]] (ville de [[Suisse]]).
+#* {{exemple|lang=no}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=no}}
+
+== {{langue|qu}} ==
+=== {{S|étymologie}} ===
+: Emprunt au {{étylp|fr|qu}}.
+
+=== {{S|nom propre|qu}} ===
+'''Lausanne''' {{pron||qu}}
+# {{localités|qu|du canton de Vaud}} [[Lausanne#fr|Lausanne]] (ville de [[Suisse]]).
+#* {{exemple|lang=qu}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=qu}}
+
+== {{langue|ro}} ==
+=== {{S|étymologie}} ===
+: Emprunt au {{étylp|fr|ro}}.
+
+=== {{S|nom propre|ro}} ===
+'''Lausanne''' {{pron||ro}}
+# {{localités|ro|du canton de Vaud}} [[Lausanne#fr|Lausanne]] (ville de [[Suisse]]).
+#* {{exemple|lang=ro}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=ro}}
+
+== {{langue|sh}} ==
+=== {{S|étymologie}} ===
+: Emprunt au {{étylp|fr|sh}}.
+
+=== {{S|nom propre|sh}} ===
+'''Lausanne''' {{pron||sh}}
+# {{localités|fr|du canton de Vaud}} [[Lausanne#fr|Lausanne]] (ville de [[Suisse]]).
+#* {{exemple|lang=sh}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=sh}}
+
+== {{langue|szl}} ==
+=== {{S|étymologie}} ===
+: Emprunt au {{étylp|fr|szl}}.
+
+=== {{S|nom propre|szl}} ===
+'''Lausanne''' {{pron||szl}}
+# {{localités|szl|du canton de Vaud}} [[Lausanne#fr|Lausanne]] (ville de [[Suisse]]).
+#* {{exemple|lang=szl}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=szl}}
+
+== {{langue|sk}} ==
+=== {{S|étymologie}} ===
+: Emprunt au {{étylp|fr|sk}}.
+
+=== {{S|nom propre|sk}} ===
+'''Lausanne''' {{pron||sk}}
+# {{localités|sk|du canton de Vaud}} [[Lausanne#fr|Lausanne]] (ville de [[Suisse]]).
+#* {{exemple|lang=sk}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=sk}}
+
+== {{langue|sv}} ==
+=== {{S|étymologie}} ===
+: Emprunt au {{étylp|fr|sv}}.
+
+=== {{S|nom propre|sv}} ===
+'''Lausanne''' {{pron||sv}}
+# {{localités|sv|du canton de Vaud}} [[Lausanne#fr|Lausanne]] (ville de [[Suisse]]).
+#* {{exemple|lang=sv}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=sv}}
+
+== {{langue|sw}} ==
+=== {{S|étymologie}} ===
+: Emprunt au {{étylp|fr|sw}}.
+
+=== {{S|nom propre|sw}} ===
+'''Lausanne''' {{pron||sw}}
+# {{localités|sw|du canton de Vaud}} [[Lausanne#fr|Lausanne]] (ville de [[Suisse]]).
+#* {{exemple|lang=sw}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=sw}}
+
+== {{langue|cs}} ==
+=== {{S|étymologie}} ===
+: Emprunt au {{étylp|fr|cs}}.
+
+=== {{S|nom propre|cs}} ===
+'''Lausanne''' {{pron||cs}}
+# {{localités|cs|du canton de Vaud}} [[Lausanne#fr|Lausanne]] (ville de [[Suisse]]).
+#* {{exemple|lang=cs}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=cs}}
+
+== {{langue|vi}} ==
+=== {{S|étymologie}} ===
+: Emprunt au {{étylp|fr|vi}}.
+
+=== {{S|nom propre|vi}} ===
+'''Lausanne''' {{pron||vi}}
+# {{localités|vi|du canton de Vaud}} [[Lausanne#fr|Lausanne]] (ville de [[Suisse]]).
+#* {{exemple|lang=vi}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=vi}}
+
+== {{langue|vo}} ==
+=== {{S|étymologie}} ===
+: Emprunt au {{étylp|fr|vo}}.
+
+=== {{S|nom propre|vo}} ===
+'''Lausanne''' {{pron||vo}}
+# {{localités|vo|du canton de Vaud}} [[Lausanne#fr|Lausanne]] (ville de [[Suisse]]).
+#* {{exemple|lang=vo}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=vo}}
+
+== {{langue|war}} ==
+=== {{S|étymologie}} ===
+: Emprunt au {{étylp|fr|war}}.
+
+=== {{S|nom propre|war}} ===
+'''Lausanne''' {{pron||war}}
+# {{localités|war|du canton de Vaud}} [[Lausanne#fr|Lausanne]] (ville de [[Suisse]]).
+#* {{exemple|lang=war}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=war}}
+
+== {{langue|yo}} ==
+=== {{S|étymologie}} ===
+: Emprunt au {{étylp|fr|yo}}.
+
+=== {{S|nom propre|yo}} ===
+'''Lausanne''' {{pron||yo}}
+# {{localités|yo|du canton de Vaud}} [[Lausanne#fr|Lausanne]] (ville de [[Suisse]]).
+#* {{exemple|lang=yo}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=yo}}

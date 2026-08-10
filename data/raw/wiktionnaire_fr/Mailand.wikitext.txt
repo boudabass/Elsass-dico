@@ -1,0 +1,36 @@
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw}}
+
+=== {{S|nom propre|gsw}} ===
+'''Mailand''' {{pron||gsw}}
+# [[Milan#Français|Milan]] (ville italienne).
+
+[[Catégorie:Localités en alémanique]]
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+:De l’{{étylp|it|de|mot=Milano}}, issu du {{étylp|la|de|mot=Mediolanum}}.
+
+=== {{S|nom propre|de}} ===
+{{de-nom
+|ns= Mailand |np=
+|as= Mailand |ap=
+|gs= Mailands |gp=
+|ds= Mailand |dp=}}
+'''Mailand''' {{pron||de}}
+# [[Milan#Français|Milan]] (ville italienne).
+#* '''''Mailand''' ist Italiens zweitgrößte Stadt.'' : Milan est la deuxième ville d'Italie par la taille.
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=de}}
+
+[[Catégorie:Localités d’Italie en allemand]]
+
+== {{langue|lb}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|lb}}
+
+=== {{S|nom propre|lb}} ===
+'''Mailand''' {{pron||lb}}
+# {{localités|lb|d’Italie}} [[Milan#fr|Milan]] (ville italienne).

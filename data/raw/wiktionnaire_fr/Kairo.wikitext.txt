@@ -1,0 +1,140 @@
+{{voir|Kairó|Kaíró}}
+
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw}}
+
+=== {{S|nom propre|gsw}} ===
+'''Kairo''' {{pron||gsw}}
+# {{capitales|gsw|pays=d’Égypte}} [[Le Caire]] (capitale de l’Égypte).
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|de}}
+
+=== {{S|nom propre|de}} ===
+'''Kairo''' {{pron||de}}
+# {{capitales|de|pays=d’Égypte}} [[Le Caire]] (capitale de l’Égypte).
+
+== {{langue|hr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|hr}}
+
+=== {{S|nom propre|hr}} ===
+'''Kairo''' {{pron||hr}}
+# {{capitales|hr|pays=d’Égypte}} [[Le Caire]] (capitale de l’Égypte).
+
+== {{langue|da}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|da}}
+
+=== {{S|nom propre|da}} ===
+'''Kairo''' {{pron||da}}
+# {{capitales|da|pays=d’Égypte}} [[Le Caire]] (capitale de l’Égypte).
+
+== {{langue|eo}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|eo}}
+
+=== {{S|nom propre|eo}} ===
+{{eo-rég-sing|ka.ˈi.ro}}
+'''Kairo''' {{pron|ka.ˈi.ro|eo}}
+ {{pron||tr}}
+# {{capitales|eo|pays=d’Égypte}} [[Le Caire]] (capitale de l’Égypte).
+
+=== {{S|prononciation}} ===
+* {{écouter|||lang=eo|audio=LL-Q143 (epo)-Robin van der Vliet-Kairo.wav}}
+* {{écouter|lang=eo|France (Toulouse)|audio=LL-Q143 (epo)-Lepticed7-Kairo.wav}}
+
+== {{langue|et}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|et}}
+
+=== {{S|nom propre|et}} ===
+'''Kairo''' {{pron||et}}
+# {{capitales|et|pays=d’Égypte}} [[Le Caire]] (capitale de l’Égypte).
+
+== {{langue|fi}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|fi}}
+
+=== {{S|nom propre|fi}} ===
+'''Kairo''' {{pron|ˈkɑi.ro|fi}}
+# {{capitales|fi|pays=d’Égypte}} [[Le Caire]] (capitale de l’Égypte).
+#* '''''Kairossa'''.'' — Au Caire.
+#* '''''Kairon''' liepeillä.'' — Aux alentours du Caire.
+
+==== {{S|dérivés}} ====
+* (gentilé et adjectif) [[kairolainen]]
+
+== {{langue|io}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|io}}
+
+=== {{S|nom propre|io}} ===
+'''Kairo''' {{pron||io}}
+# {{capitales|io|pays=d’Égypte}} [[Le Caire]] (capitale de l’Égypte).
+
+== {{langue|id}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|id}}
+
+=== {{S|nom propre|id}} ===
+'''Kairo''' {{pron||id}}
+# {{capitales|id|pays=d’Égypte}} [[Le Caire]] (capitale de l’Égypte).
+#* {{exemple|lang=id}}
+
+== {{langue|jv}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|jv}}
+
+=== {{S|nom propre|jv}} ===
+'''Kairo''' {{pron||jv}}
+# {{capitales|jv|pays=d’Égypte}} [[Le Caire]] (capitale de l’Égypte).
+
+== {{langue|no}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|no}}
+
+=== {{S|nom propre|no}} ===
+'''Kairo''' {{pron||no}}
+# {{capitales|no|pays=d’Égypte}} [[Le Caire]] (capitale de l’Égypte).
+
+== {{langue|nn}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|nn}}
+
+=== {{S|nom propre|nn}} ===
+'''Kairo''' {{pron||nn}}
+# {{capitales|nn|pays=d’Égypte}} [[Le Caire]] (capitale de l’Égypte).
+
+== {{langue|sl}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|sl}}
+
+=== {{S|nom propre|sl}} ===
+{{sl-décl-nmd|Kairo|Kair|pdp=oui}}
+'''Kairo''' {{pron||sl}} {{m|i}} {{s}}
+# {{capitales|sl|pays=d’Égypte}} [[Le Caire]] (capitale de l’[[Égypte]]).
+
+== {{langue|sv}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|sv}}
+
+=== {{S|nom propre|sv}} ===
+'''Kairo''' {{pron||sv}}
+# {{capitales|sv|pays=d’Égypte}} [[Le Caire]] (capitale de l’Égypte).
+
+[[Catégorie:Toponymes dont l’origine est militaire en allemand]]
+[[Catégorie:Toponymes dont l’origine est militaire en croate]]
+[[Catégorie:Toponymes dont l’origine est militaire en danois]]
+[[Catégorie:Toponymes dont l’origine est militaire en estonien]]
+[[Catégorie:Toponymes dont l’origine est militaire en finnois]]
+[[Catégorie:Toponymes dont l’origine est militaire en indonésien]]
+[[Catégorie:Toponymes dont l’origine est militaire en javanais]]
+[[Catégorie:Toponymes dont l’origine est militaire en norvégien]]
+[[Catégorie:Toponymes dont l’origine est militaire en slovène]]
+[[Catégorie:Toponymes dont l’origine est militaire en suédois]]
+[[Catégorie:Toponymes dont l’origine est militaire en alémanique]]
+[[Catégorie:Toponymes dont l’origine est militaire en espéranto]]
+[[Catégorie:Toponymes dont l’origine est militaire en ido]]

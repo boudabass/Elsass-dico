@@ -1,0 +1,28 @@
+{{voir|Mulhausen}}
+== {{langue|gsw}} ==
+
+=== {{S|étymologie}} ===
+: {{composé de|Mühle|sens1=moulin|Haus|sens2=maison|lang=de|m=1}}.
+
+=== {{S|nom propre|gsw}} ===
+'''Mülhausen''' {{pron||gsw}}
+# {{localités|gsw|de France}} [[Mulhouse#Français|Mulhouse]] (ville française).
+
+==== {{S|synonymes}} ====
+* [[Milhüsa]] (en alémanique alsacien)
+* [[Milhüse]] (en alémanique alsacien)
+* [[Milhüüse]] (en alémanique alsacien)
+
+== {{langue|de}} ==
+
+=== {{S|étymologie}} ===
+: {{composé de|Mühle|sens1=moulin|Haus|sens2=maison|lang=de|m=1}} ; voir ''{{lien|Müllheim|de}}''.
+
+=== {{S|nom propre|de}} ===
+'''Mülhausen''' {{pron||de}}
+# {{localités|de|d’Alsace}} [[Mulhouse#Français|Mulhouse]] (ville française).
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=de}}
+{{clé de tri|mulhausen}}
+[[Catégorie:Toponymes dont l’origine est une construction en allemand]]

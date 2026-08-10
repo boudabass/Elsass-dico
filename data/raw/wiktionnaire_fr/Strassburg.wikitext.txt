@@ -1,0 +1,29 @@
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw}}
+
+=== {{S|nom propre|gsw}} ===
+'''Strassburg''' {{pron||gsw}}
+# [[Strasbourg#fr|Strasbourg]] (ville de [[France]]).
+
+==== {{S|synonymes}} ====
+* [[Strossburi]]
+* [[Schdroosburi]]
+
+== {{langue|de}} ==
+
+=== {{S|étymologie}} ===
+: {{composé de|Straße|sens1=rue, route|Burg|sens2=château|lang=de|m=1}}.
+
+=== {{S|nom propre|de}} ===
+'''Strassburg''' {{pron||de}} {{m}}
+# {{localités|de|d’Alsace}} {{lien|Strasbourg|fr}}, ville d’Alsace.
+
+==== {{S|variantes}} ====
+* [[Straßburg]]
+
+=== {{S|voir aussi}} ===
+* {{WP|Straßburg|lang=de}}
+[[Catégorie:Localités de France en alémanique]]
+[[Catégorie:Toponymes dont l’origine est une voie en allemand]]
+[[Catégorie:Toponymes dont l’origine est une construction en allemand]]

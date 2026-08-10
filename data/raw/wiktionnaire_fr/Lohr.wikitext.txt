@@ -1,0 +1,42 @@
+== {{langue|fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|fr}}
+
+=== {{S|nom propre|fr}} ===
+{{fr-inv||inv_titre=Nom propre}}
+'''Lohr''' {{pron||fr}}
+# {{localités|fr|du département du Bas-Rhin}} [[commune|Commune]] [[français]]e, située dans le département du [[Bas-Rhin]].
+# {{localités|fr|de France|nocat=oui}} Ancien nom de la commune française [[Lhor]].
+
+==== {{S|gentilés}} ====
+* [[Lohrois]], [[Lohroise]]
+* [[lohrois]], [[lohroise]]
+
+==== {{S|traductions}} ====
+{{trad-début|Ville de France}}
+* {{T|gsw}} : {{trad|gsw|Lohr}}
+{{trad-fin}}
+
+=== {{S|prononciation}} ===
+* {{écouter|||lang=fr|audio=LL-Q150 (fra)-Marie-Louise (Le Commissaire)-Lohr.wav}}
+
+=== {{S|anagrammes}} ===
+{{voir anagrammes|fr}}
+
+=== {{S|références}} ===
+* {{mercihabitants}}
+
+=== {{S|voir aussi}} ===
+* {{WP}}
+
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw}}
+
+=== {{S|nom propre|gsw}} ===
+'''Lohr''' {{pron||gsw}}
+# {{Alsace|gsw}} {{localités|gsw|du département du Bas-Rhin}} [[Lohr#fr|Lohr]], [[commune]] [[français]]e, située dans le département du [[Bas-Rhin]].
+#* {{exemple|lang=gsw}}
+
+
+[[Catégorie:Anciens noms des localités de France en français]]

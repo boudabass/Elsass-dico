@@ -1,0 +1,187 @@
+{{voir|wien}}
+
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw}}
+
+=== {{S|nom propre|gsw}} ===
+'''Wien''' {{pron||gsw}}
+# {{capitales|gsw|pays=d’Autriche}} [[Vienne#Français|Vienne]] ([[capitale]] de l’Autriche).
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: Du {{étylp|gaulois|de}}, soit dérivé de ''{{lien|Uindobona|gaulois}}'', « Blanche-Ville », soit d’une forme {{recons|lang-mot-vedette=de|uiduna|gaulois|sens=eau des bois}}.
+
+=== {{S|nom propre|de}} ===
+{{de-nom-propre|genre=n|gs=Wien|gs2=Wiens}}
+'''Wien''' {{pron|viːn|de}} {{n}}
+# {{capitales|de|pays=d’Autriche}} [[Vienne#fr|Vienne]] ([[capitale]] de l’Autriche).
+#* {{exemple|Nach der Landung in '''Wien''' fehlte dem Airbus „A320“ die komplette Nase. (...) Und auch wenn am Ende niemand verletzt wurde und die Maschine in '''Wien''' landen konnte, wirft der Vorfall ein paar unangenehme Fragen auf.|lang=de|sens=Après son atterrissage à Vienne, l'Airbus « A320 » manquait de tout son nez. (...) Et même si personne n’a finalement été blessé et que l’avion a pu atterrir à Vienne, l'incident soulève quelques questions désagréables.|source={{périodique|auteur=Jens Flottau et Theresa Palm|titre=Trotz Warnung durchs Hagelgewitter geflogen|journal=Süddeutsche Zeitung|date=13 juin 2024|texte=https://www.sueddeutsche.de/panorama/austrian-airlines-unwetter-hagel-airbus-320-zerstoert-lux.LuWkEc1vYLGSbAYEcYwKkY}}}}
+#* {{exemple|In '''Wien''' stehen im Sommer 2025 umfangreiche Bauarbeiten im öffentlichen Verkehr bevor. Die '''Wien'''er Linien und die ÖBB setzen gleichzeitig mehrere Infrastrukturprojekte um, die zu Sperren und Umleitungen bei U-Bahn, S-Bahn und Straßenbahnen führen.|lang=de|sens=D'importants travaux de construction dans les transports publics sont imminents à Vienne durant l’été 2025. Les Wiener Linien et les ÖBB mettent en œuvre simultanément plusieurs projets d'infrastructure qui entraînent des fermetures et des déviations du métro, des trains de banlieue et des tramways.|source={{périodique|auteur=(red)|titre=Sommer bringt Großbaustellen im „Öffi“-Netz|journal=ORF Wien|date=12 mai 2025|texte=https://wien.orf.at/stories/3304956/}}}}
+# {{lien|Vienne|fr|dif=Vienne}}, l'un des neuf {{lien|Länder|fr}} d'{{lien|Autriche|fr}}.
+#* {{exemple|Als Dienstgeberabgabe, umgangssprachlich auch U-Bahn-Steuer genannt, wird eine Steuer in '''Wien''' bezeichnet, die im Jahr 1970 zur Mitfinanzierung der U-Bahn vom '''Wien'''er Landtag beschlossen wurde und noch immer eingehoben wird.|lang=de|sens=La taxe à verser par les employeurs, appelée aussi familièrement contribution pour le métro, est un impôt à Vienne qui a été voté en 1970 par le Landtag viennois pour cofinancer le métro et qui est toujours perçu.|source={{périodique|auteur=|titre=Dienstgeberabgabe|journal=Rechteasy.at|date=22 février 2025|texte=https://www.rechteasy.at/wiki/dienstgeberabgabe/}}}}
+
+==== {{S|synonymes}} ====
+* {{lien|Wienfluss|de}}
+
+==== {{S|antonymes}} ====
+{{(}}
+* {{lien|Burgenland|de}}
+* {{lien|Kärnten|de}}
+* {{lien|Niederösterreich|de}}
+* {{lien|Oberösterreich|de}}
+* {{lien|Salzburg|de}}
+* {{lien|Steiermark|de}}
+* {{lien|Tirol|de}}
+* {{lien|Vorarlberg|de}}
+{{)}}
+
+==== {{S|hyperonymes}} ====
+{{(}}
+* {{lien|Millionenstadt|de}}
+* {{lien|Metropole|de}}
+* {{lien|Hauptstadt|de}}
+* {{lien|Stadt|de}}
+* {{lien|Bundesland|de}}
+{{)}}
+
+==== {{S|hyponymes}} ====
+* {{lien|Rote Wien|de}}, {{lien|Rotes Wien|de}}
+* {{lien|Nachkriegs-Wien|de}}
+
+==== {{S|gentilés}} ====
+* [[Wiener]], [[Wienerin]], [[wienerisch]]
+
+==== {{S|dérivés}} ====
+{{(|}}
+* {{lien|wienerisch|de}}
+* {{lien|wienweit|de}}
+* {{lien|wienern|de}}
+{{)}}
+{{(|}}
+* {{lien|Wienaufenthalt|de}}
+* {{lien|Wiener|de}}
+* {{lien|Wienerlied|de}}
+* {{lien|Wiener Neudorf|de}}
+* {{lien|Wiener Neustadt|de}}
+* {{lien|Wiener Partie|de}}
+* {{lien|Wienerwald|de}}
+* {{lien|Wiener Walzer|de}}
+* {{lien|Wiener Würstchen|de}}
+* {{lien|Wiener Schnitzel|de}}
+* {{lien|Wienerwurst|de}}
+* {{lien|Wienerisch|de}}
+{{)}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=de}}
+
+=== {{S|anagrammes}} ===
+{{voir anagrammes|de}}
+
+=== {{S|prononciation}} ===
+* {{écouter|Berlin (Allemagne)|viːn|lang=de|audio=De-Wien.ogg}}
+* {{écouter|Vienne (Autriche)|viːn|lang=de|audio=De-at-Wien.ogg}}
+
+=== {{S|références}} ===
+* {{R:Duden|Wien}}
+* {{R:Savignac2004|p=66}}
+* {{ouvrage|prénom1=Georges-Jean|nom1=Pinault|titre=Gaulois et celtique continental |passage=106}}
+
+[[Catégorie:Toponymes dont l’origine est une couleur en allemand]]
+
+== {{langue|nds}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|nds}}
+
+=== {{S|nom propre|nds}} ===
+'''Wien''' {{pron||nds}}
+# {{capitales|nds|pays=d’Autriche}} [[Vienne#Français|Vienne]] ([[capitale]] de l’Autriche).
+
+== {{langue|kw}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|kw}}
+
+=== {{S|nom propre|kw}} ===
+'''Wien''' {{pron||kw}}
+# {{capitales|kw|pays=d’Autriche}} [[Vienne#Français|Vienne]] ([[capitale]] de l’Autriche).
+
+== {{langue|da}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|da}}
+
+=== {{S|nom propre|da}} ===
+'''Wien''' {{pron||da}}
+# {{capitales|da|pays=d’Autriche}} [[Vienne#Français|Vienne]] ([[capitale]] de l’Autriche).
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=da}}
+
+== {{langue|fi}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|fi}}
+
+=== {{S|nom propre|fi}} ===
+'''Wien''' {{pron|ʋiːn(.i)|fi}}
+# {{capitales|fi|pays=d’Autriche}} [[Vienne#Français|Vienne]] ([[capitale]] de l’Autriche).
+
+=== {{S|prononciation}} ===
+==== {{S|homophones|fi}} ====
+* [[viini]]
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=fi}}
+
+== {{langue|cy}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|cy}}
+
+=== {{S|nom propre|cy}} ===
+'''Wien''' {{pron||cy}}
+# {{capitales|cy|pays=d’Autriche}} [[Vienne#Français|Vienne]] ([[capitale]] de l’Autriche).
+
+== {{langue|io}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|io}}
+
+=== {{S|nom propre|io}} ===
+'''Wien''' {{pron||io}}
+# {{capitales|io|pays=d’Autriche}} [[Vienne#Français|Vienne]] ([[capitale]] de l’Autriche).
+
+== {{langue|lb}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|lb}}
+
+=== {{S|nom propre|lb}} ===
+'''Wien''' {{pron||lb}}
+# {{capitales|lb|pays=d’Autriche}} [[Vienne#Français|Vienne]] ([[capitale]] de l’Autriche).
+
+== {{langue|no}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|no}}
+
+=== {{S|nom propre|no}} ===
+'''Wien''' {{pron||no}}
+# {{capitales|no|pays=d’Autriche}} [[Vienne#Français|Vienne]] ([[capitale]] de l’Autriche).
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=no}}
+
+== {{langue|sv}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|sv}}
+
+=== {{S|nom propre|sv}} ===
+'''Wien''' {{pron||sv}}
+# {{capitales|sv|pays=d’Autriche}} [[Vienne#Français|Vienne]] ([[capitale]] de l’Autriche).
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=sv}}
+
+== {{langue|vi}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|vi}}
+
+=== {{S|nom propre|vi}} ===
+'''Wien''' {{pron||vi}}
+# {{capitales|vi|pays=d’Autriche}} [[Vienne#Français|Vienne]] ([[capitale]] de l’Autriche).

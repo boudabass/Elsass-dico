@@ -1,0 +1,122 @@
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: Voir [[Ostern#de|ci-dessous]].
+
+=== {{S|nom propre|gsw}} ===
+'''Ostern''' {{pron||gsw}}
+# {{lexique|religion|gsw}} {{lien|Pâques|fr}}.
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: {{siècle|VIII}}. Du {{étyl|gmh|de|mot=osteren|dif=ōsteren}}, ''[[ōstern]]'',  ''[[ōster]]'', du {{étyl|gml|de|mot=osteren|dif=ōsteren}}, du {{étyl|goh|de|mot=ostarun|dif=ōstarūn}}, ''[[ōstrūn]]''. Apparenté au vieil anglais {{lien|''Ēastre, , Ēastron''|ang}}, ''[[Ēastro]]'', ''[[Ēastron]]'' et au néerlandais {{lien|''Easter''|nl}}<ref> {{source|Wolfgang {{pc|Pfeifer}}, ''Etymologisches Wörterbuch des Deutschen'', Éditions Deutscher Taschenbuch, 1997, ISBN-13: 978342-3325110 }} </ref>.
+
+: Du {{étyl|goh|de|Ostara}}, apparenté à ''{{lien|Osten|de}}'' (« est [lieu où le soleil se lève] »), ''{{lien|Easter|en}}'' en anglais. Utilisant des comparaisons de preuves linguistiques tirées du germanique continental, Jacob Grimm, au dix-neuvième siècle, a avancé l'existence d'une forme équivalente à ''Eostre'' au sein de croyances préchrétiennes des peuples germaniques dont il défini le nom par ''Ostara'' {{cf|Ishtar|Astarté|lang=fr}}.{{réf?|lang=de}}
+
+=== {{S|nom|de}} ===
+{{de-nom-n-indécl}}
+'''Ostern''' {{pron|ˈoːstɐn|de}} {{n}} {{indéclinable}}
+# {{lexique|christianisme|de}} [[Pâques#fr|Pâques]], fête chrétienne de la résurrection de Jésus-Christ.
+#* {{exemple|In einer Woche ist '''Ostern'''.|sens=Pâques est dans une semaine.|lang=de}}
+#* {{exemple|Zwischen '''Ostern''' und Pfingsten wird traditionell besonders viel Auto gefahren. Viele besuchen über die Feiertage ihre Familien oder fahren in den Urlaub.|lang=de|sens=Entre Pâques et la Pentecôte, on conduit traditionnellement beaucoup en voiture. Nombreux sont ceux qui rendent visite à leur famille ou partent en vacances pendant les fêtes.|source={{périodique|auteur=Anna-Lena Schlitt|titre=Tanken: Warum Benzin gerade so teuer ist|journal=Die Zeit|date=5 avril 2024|texte=https://www.zeit.de/wirtschaft/2024-04/tanken-sprit-preise-benzin-diesel-tankstelle-faq}}}}
+#* {{exemple|An '''Ostern''' geht es um das zentrale Ereignis des Christentum: den Tod und die Auferstehung Jesu. Die Ostertage zählen zu den sogenannten stillen Feiertagen, der Karfreitag zudem als Trauertag, stehen doch Sterben und Leiden Christi im Zentrum.|lang=de|sens=Pâques est l’événement central du christianisme : la mort et la résurrection de Jésus. Les fêtes de Pâques font partie des fêtes dites silencieuses, le Vendredi saint est en outre considéré comme un jour de deuil, puisque la mort et la souffrance du Christ sont au centre de l’événement.|source={{périodique|auteur=Greta Giuliana Spieker|titre=Tanzverbot an Karfreitag: Was wo gilt|journal=RedaktionsNetzwerk Deutschland|date=15 avril 2025|texte=https://www.rnd.de/politik/tanzverbot-an-karfreitag-was-wo-gilt-FJ6T2HDGWZGZXOTGNVV4EKJX3I.html}}}}
+
+==== {{S|notes}} ====
+: '''Ostern''' est généralement employé sans article. Le mot est généralement utilisé au singulier. Lorsque la forme plurielle de Pâques est utilisée, elle l'est généralement en combinaison avec un adjectif attributif, comme par exemple « Joyeuses Pâques ». Lorsqu'elle est associée à un article défini, la forme plurielle '''die Ostern''' est plus souvent régionale (Suisse et Autriche).
+
+==== {{S|synonymes}} ====
+* {{lien|Osterfest|de}}
+* {{lien|Ostertag|de}}
+
+==== {{S|antonymes}} ====
+* {{lien|Pfingsten|de}}
+* {{lien|Weihnachten|de}}
+
+==== {{S|dérivés}} ====
+{{(|&nbsp;}}
+* {{lien|Osterbaum|de|sens=arbre de Pâques}}
+* {{lien|Osterbeichte|de}}
+* [[Osterblume]] (''fleur de Pâques''), (''jonquille''), (''anémone'')
+* {{lien|Osterbrauch|de}}
+* {{lien|Osterbrunnen|de|sens=fontaine de Pâques}}
+* {{lien|Osterchoral|de}}
+* {{lien|Osterei|de|sens=œuf de Pâques}}
+* {{lien|Osterfeiertag|de}}
+* {{lien|Osterferien|de|sens=vacances de Pâques}}
+* {{lien|Osterfest|de|sens=fête de Pâques}}
+* {{lien|Osterfeuer|de|sens=feu de Pâques}}
+* {{lien|Osterfladen|de}}
+* {{lien|Ostergebräuche|de}}
+* {{lien|Ostergelächter|de}}
+* {{lien|Ostergeschäft|de}}
+* {{lien|Osterglocke|de|sens=jonquille}}
+* {{lien|Ostergruß|de}}
+* {{lien|Osterhammel|de}}
+* {{lien|Osterhase|de|sens=lapin de Pâques}}
+* {{lien|Osterinsel|de|sens=île de Pâques}}
+* {{lien|Osterkerze|de|sens=cierge de Pâques}}
+* {{lien|Osterkrapfen|de}}
+* {{lien|Osterküken|de}}
+* {{lien|Osterlamm|de|sens=agneau de Pâques}}
+* {{lien|österlich|sens=pascal(e) », « de Pâques}}
+* {{lien|Osterlilie|de}} ou {{lien|Oster-Lilie|sens= lys à longue fleur », « lys de Pâques}}
+* {{lien|Ostermarsch|de|sens=marche de Pâques pour la paix}}
+* {{lien|Ostermette|de}}
+* {{lien|Ostermonat|de|sens=mois de Pâques}}
+* {{lien|Ostermond|de|sens=avril}}
+* {{lien|Ostermontag|de|sens=lundi de Pâques}}
+* {{lien|Ostermorgen|de}}
+* {{lien|Osternacht|sens=nuit de Pâques », « veillée pascale}}
+* {{lien|Osternest|de}}
+* {{lien|Osterpredigt|de}}
+* {{lien|Ostersamstag|de|sens=samedi de Pâques}}
+* {{lien|Ostersonnabend|sens=samedi de Pâques », « samedi Saint}}
+* {{lien|Ostersonntag|de|sens=dimanche de Pâques}}
+* {{lien|Osterspaziergang|de|sens=promenade de Pâques}}
+* {{lien|Osterspiel|de}}
+* {{lien|Osterstriezel|de}}
+* {{lien|Ostertag|sens=jour de Pâques », « dimanche de Pâques}}
+* {{lien|Osterverkehr|de}}
+* {{lien|Osterwetter|sens=temps de Pâques », « météo de Pâques}}
+* {{lien|Osterwoche|de|sens=semaine sainte}}
+* {{lien|Osterzeit|sens=saison pascale », « temps pascal}}
+* {{lien|Osterzopf|de|sens=tresse de Pâques}}
+{{)}}
+
+==== {{S|vocabulaire}} ====
+* {{l|Karwoche|de}}, {{l|Charwoche|de}}
+* {{l|Stille Woche|de}}
+
+==== {{S|phrases}} ====
+* {{lien|frohe Ostern|de|sens=joyeuses Pâques}}
+* {{lien|fröhliche Ostern|de|sens=joyeuses Pâques}}
+* {{lien|wenn Ostern und Weihnachten auf einen Tag fallen|de}}
+* {{lien|zu Ostern|de|sens=à Pâques}}
+
+==== {{S|hyperonymes}} ====
+* {{lien|beweglich|de}}
+* {{lien|christlich|de}}
+* {{lien|Feiertag|de}}
+
+=== {{S|prononciation}} ===
+* {{écouter|Berlin (Allemagne)|ˈoːstɐn|lang=de|audio=De-Ostern.ogg}}
+* {{écouter|lang=de|Allemagne|ˈʔoːstɐn|audio=Ostern.ogg}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=de}}
+
+=== {{S|références}} ===
+{{Références}}
+
+==== {{S|sources}} ====
+* {{R:DWDS|Ostern}}
+* {{R:Duden|Ostern}} 
+* {{Source-wikt|de|Ostern}}
+
+==== {{S|bibliographie}} ====
+* Larousse - Dictionnaire allemand/français – français/allemand , éd. 1958, p 622.
+* Harrap’s  de poche – Bordas Dictionnaire allemand/français, éd. 1997, ISBN 0-245-50308-0, p 218. 
+
+=== {{S|anagrammes}} ===
+{{voir anagrammes|de}}
+
+[[Catégorie:Calendrier en allemand]]

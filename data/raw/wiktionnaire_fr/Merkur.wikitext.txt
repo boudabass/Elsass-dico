@@ -1,0 +1,97 @@
+{{voir|Merkúr}}
+== {{langue|gsw}} ==
+{{ébauche|gsw}}
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw}}
+
+=== {{S|nom propre|gsw}} ===
+'''Merkur''' {{pron||gsw}}
+# {{divinités|gsw|romaines}} [[Mercure]].
+#* {{exemple|lang=gsw}}
+
+=== {{S|prononciation}} ===
+{{ébauche-pron-audio|gsw}}
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: {{siècle|?|lang=de}} Du {{étyl|la|de|mot=Mercurius}}.
+
+=== {{S|nom propre|de}} ===
+{{de-nom
+|ns= Merkur |np=
+|as= Merkur |ap=
+|gs= Merkurs |gp=
+|ds= Merkur |dp=}}
+'''Merkur''' {{pron|mɛrˈkuːɐ̯, ˈmɛrkuɐ̯|de}} {{m}}
+# {{divinités|de|romaines}} [[Mercure]].
+#* {{exemple|lang=de}}
+
+==== {{S|synonymes}} ====
+* [[Mercurius]]
+
+==== {{S|hyperonymes}} ====
+* [[Gott]]
+
+=== {{S|nom propre|de|num=2}} ===
+'''Merkur''' {{pron|mɛrˈkuːɐ|de}} {{m}}
+# {{planètes|de}} [[Mercure]].
+#* {{exemple|lang=de}}
+
+==== {{S|hyperonymes}} ====
+* [[Planet]]
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=de|Allemagne|ˈmɛrkuɐ̯|audio=De-Merkur.ogg}}
+* {{écouter|lang=de|Allemagne (Berlin)|audio=LL-Q188 (deu)-Sebastian Wallroth-Merkur.wav}}
+
+=== {{S|voir}} ===
+* {{WP|lang=de}}
+
+== {{langue|lb}} ==
+=== {{S|étymologie}} ===
+: Du {{étylp|la|lb|Mercurius}}.
+
+=== {{S|nom propre|lb}} ===
+{{lb-inv|}}
+'''Merkur''' {{pron||lb}}
+# {{divinités|lb|romaines}} {{lien|Mercure|fr|nom-pr-1}}.
+#* {{exemple|lang=lb}}
+# {{planètes|lb}} {{lien|Mercure|fr|nom-pr-2}}.
+#* {{exemple|lang=lb}}
+
+==== {{S|vocabulaire}} ====
+{{tableau-planètes du Système solaire/lb}}
+
+=== {{S|références}} ===
+: {{R:LOD}}
+
+== {{langue|cs}} ==
+=== {{S|étymologie}} ===
+: {{siècle|?|lang=cs}} Du {{étyl|la|cs|mot=Mercurius}}.
+
+=== {{S|nom propre|cs}} ===
+{{cs-décl-nom-ma-dur|rad=Merkur|sing=oui}}
+'''Merkur''' {{pron|mɛrkʊr|cs}} {{m|a}}
+# {{divinités|cs|romaines}}  [[Mercure]].
+#* {{exemple | lang=cs
+ | '''Merkur''' je v římské mytologii bůh zdárného obchodu a posel bohů.
+ | {{trad-exe|cs}}}}
+
+=== {{S|nom propre|cs|num=2}} ===
+{{cs-décl-nom-mi-dur|rad=Merkur|sing=oui}}
+'''Merkur''' {{pron|mɛrkʊr|cs}} {{m|i}}
+#{{lexique|astronomie|cs}} [[Mercure]].
+#* {{exemple | lang=cs
+ | '''Merkur''' je Slunci nejbližší a současně i nejmenší planetou sluneční soustavy.
+ | {{trad-exe|cs}}}}
+
+==== {{S|apparentés}} ====
+* [[merkur#cs|merkur]]
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=cs||audio=Cs-Merkur.ogg}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=cs}}
+
+[[Catégorie:Planètes en tchèque]]

@@ -1,0 +1,139 @@
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw}}
+
+=== {{S|nom propre|gsw}} ===
+'''England''' {{pron||gsw}}
+# {{pays|gsw|d’Europe|pays=Angleterre|clé=*}} [[Angleterre]] (partie du [[Royaume-Uni]]).
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|de}}
+
+=== {{S|nom propre|de}} ===
+{{de-nom-propre|genre=n|gs=Englands}}
+'''England''' {{pron|ˈɛŋˌlant|de}}
+# {{pays|de|d’Europe|pays=Angleterre|clé=*}} [[Angleterre]] (partie du [[Royaume-Uni]]).
+#* {{exemple|Bei Fußball-Weltmeisterschaften gibt es seit der WM 1966 in '''England''' Maskottchen, bei Europameisterschaften zog man 1980 nach und bringt seither alle vier Jahre eine oder mehrere Figürchen, Fabelwesen oder Tiere zum Vorschein.|lang=de|sens=Lors des championnats du monde de football, il existe des mascottes depuis la Coupe du monde de 1966 en Angleterre. Les championnats d'Europe ont suivi en 1980 et depuis, tous les quatre ans, une ou plusieurs figurines, créatures mythiques ou animaux apparaissent.|source={{périodique|auteur=Michael Hausenblas|titre=EM-Maskottchen: Vom Gockel bis zur Lügennase|journal=Der Standard|date=8 juin 2024|texte=https://www.derstandard.at/story/3000000223028/em-maskottchen-vom-gockel-bis-zur-luegennase}}}}
+
+==== {{S|gentilés}} ====
+* [[Engländer]], [[Engländerin]], [[englisch]]
+
+==== {{S|dérivés}} ====
+{{(}}
+* [[England-Gletscher]]
+* [[Englandarmee]]
+* [[Englandfähre]]
+* [[Englandaufenthalt]]
+* [[Engländer]]
+* [[Engländerdenkmal]]
+* [[Engländerunglück]]
+* [[Englandkanone]]
+* [[Englandneworder]]
+* [[Englandreise]]
+* [[Englandspiel]]
+* [[englisch]]
+* [[Nachkriegsengland]]
+* [[Nordengland]]
+{{)}}
+
+=== {{S|prononciation}} ===
+* {{écouter|Berlin|ˈɛŋlant|lang=de|audio=De-England2.ogg}}
+* {{écouter|{{DE|nocat=1}}|ˈɛŋˌlant|lang=de|audio=De-England.ogg}}
+* {{écouter|{{DE|nocat=1}}|ˈɛŋˌlant|lang=de|audio=LL-Q188 (deu)-Natschoba-England.wav}}
+
+== {{langue|en}} ==
+=== {{S|étymologie}} ===
+: Du moyen anglais [[Engelond]], [[Englelond]], du vieil anglais [[Englaland|Engla land]] (« pays des Angles »).
+
+=== {{S|nom propre|en}} ===
+'''England''' {{pron||en}}
+# {{pays|en|d’Europe|pays=Angleterre|clé=*}} [[Angleterre]] (partie du [[Royaume-Uni]]).
+#* {{exemple | lang=en
+ | There was on one side Germany, with its silver monometallism, having to make up its bank reserves only with silver ; and on the other '''England''', with its bi-monometallism, at one time dependent for its reserves on the gold that might come in, at another time running over the Continent to purchase silver for transmission to India.
+ | source=Guilford Lindsey Molesworth, ''Silver and Gold: The Money of the World'', 1891, page 70}}
+#* {{exemple | lang=en
+ | Samuel Fuller was one of the band of Pilgrims that fled from '''England''' to Leyden, Holland, in 1609.
+ | source=Lucy Mary Kellogg, ''Mayflower Families Through Five Generations'', 1975, page 1}}
+
+==== {{S|apparentés}} ====
+* [[English]]
+
+=== {{S|prononciation}} ===
+{{ébauche-pron|en}}
+* {{écouter|lang=en|États-Unis <!-- précisez svp la ville ou la région -->||audio=En-us-England.ogg}}
+* {{écouter|{{UK|nocat=1}}||lang=en|audio=En-uk-England.ogg}}
+* {{écouter|Connecticut (États-Unis)||lang=en|audio=LL-Q1860 (eng)-Grendelkhan-England.wav}}
+
+=== {{S|voir aussi}} ===
+* {{WP|England|England|en}}
+* {{WP|Angleterre|titre=Angleterre}}
+
+[[Catégorie:Mots en anglais suffixés avec -land]]
+[[Catégorie:Toponymes dont l’origine est un ethnonyme en anglais]]
+[[Catégorie:Toponymes dont l’origine est un ethnonyme en allemand]]
+[[Catégorie:Toponymes dont l’origine est un ethnonyme en danois]]
+[[Catégorie:Toponymes dont l’origine est un ethnonyme en islandais]]
+[[Catégorie:Toponymes dont l’origine est un ethnonyme en norvégien]]
+[[Catégorie:Toponymes dont l’origine est un ethnonyme en suédois]]
+[[Catégorie:Toponymes dont l’origine est un ethnonyme en alémanique]]
+
+== {{langue|nds}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|nds}}
+
+=== {{S|nom propre|nds}} ===
+'''England''' {{pron||nds}}
+# {{pays|nds|d’Europe|pays=Angleterre|clé=*}} [[Angleterre]] (partie du [[Royaume-Uni]]).
+
+== {{langue|da}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|da}}
+
+=== {{S|nom propre|da}} ===
+'''England''' {{pron||da}}
+# {{pays|da|d’Europe|pays=Angleterre|clé=*}} [[Angleterre]] (partie du [[Royaume-Uni]]).
+
+== {{langue|is}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|is}}
+
+=== {{S|nom propre|is}} ===
+'''England''' {{pron||is}}
+# {{pays|is|d’Europe|pays=Angleterre|clé=*}} [[Angleterre]] (partie du [[Royaume-Uni]]).
+
+== {{langue|ms}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|ms}}
+
+=== {{S|nom propre|ms}} ===
+'''England''' {{pron||ms}}
+# {{pays|ms|d’Europe|pays=Angleterre|clé=*}} [[Angleterre]] (partie du [[Royaume-Uni]]).
+
+== {{langue|no}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|no}}
+
+=== {{S|nom propre|no}} ===
+'''England''' {{pron||no}}
+# {{pays|no|d’Europe|pays=Angleterre|clé=*}} [[Angleterre]] (partie du [[Royaume-Uni]]).
+
+== {{langue|nn}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|nn}}
+
+=== {{S|nom propre|nn}} ===
+'''England''' {{pron||nn}}
+# {{pays|nn|d’Europe|pays=Angleterre|clé=*}} [[Angleterre]] (partie du [[Royaume-Uni]]).
+
+== {{langue|sv}} ==
+=== {{S|étymologie}} ===
+{{ébauche-étym|sv}}
+
+=== {{S|nom propre|sv}} ===
+'''England''' {{pron||sv}}
+# {{pays|sv|d’Europe|pays=Angleterre|clé=*}} [[Angleterre]] (partie du [[Royaume-Uni]]).
+
+=== {{S|prononciation}} ===
+{{ébauche-pron|sv}}
+* {{écouter|lang=sv|Suède <!-- précisez svp la ville ou la région -->||audio=Sv-England.ogg}}

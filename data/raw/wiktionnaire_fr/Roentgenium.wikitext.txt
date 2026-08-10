@@ -1,0 +1,60 @@
+{{voir/roentgenium}}
+
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw}}
+
+=== {{S|nom|gsw}} ===
+'''Roentgenium''' {{pron||gsw}} {{genre|gsw}}
+# {{éléments|gsw}} {{métaux|gsw}} [[roentgenium#fr|Roentgenium]].
+{{clr}}
+==== {{S|vocabulaire}} ====
+{{tableau périodique/gsw}}
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: De ''[[Röntgen]]'', nom de famille de {{w|Wilhelm Röntgen}}, le découvreur des rayons X, avec la terminaison en ''-ium'' commune pour les éléments chimiques. Nom définitif pour cet élément entériné par l’IUPAC en novembre 2004.
+
+=== {{S|nom|de}} ===
+{{légende élément/de|Rg|Uuu}}
+'''Roentgenium''' {{pron|ʀœntˈɡeːni̯ʊm|de}} {{n}} ({{p}}: '''—''' /-/)
+# {{éléments|de}} {{métaux|de}} [[roentgenium#fr|Roentgenium]] (l’{{lien|élément chimique}} [[Rg#conv|Rg]]).
+#* {{exemple | lang=de | '''Roentgenium''' wurde 1994 erstmals hergestellt.}}
+
+==== {{S|variantes orthographiques}} ====
+* {{lien|Röntgenium|de}}
+* {{lien|Roentgénium}}
+
+==== {{S|synonymes}} ====
+* {{lien|Eka-Gold|de}}
+* {{lien|Unununium|de}} {{désuet|nocat=1}}
+{{clr}}
+==== {{S|vocabulaire}} ====
+* {{voir thésaurus|de|tableau périodique des éléments}}
+{{tableau périodique/de}}
+{{Liste|avant={{lien|Darmstadtium|de}} ou  {{lien|Eka-Platin|de}} {{désuet|nocat=1}} ou {{lien|Ununnilium|de}} {{désuet|nocat=1}}<br>([[Ds#conv|Ds]])|après={{lien|Copernicium|de}} ou {{lien|Eka-Quecksilber|de}} {{désuet|nocat=1}} ou {{lien|Ununbium|de}} {{désuet|nocat=1}}<br>([[Cn#conv|Cn]])|liste=[[Thésaurus:tableau périodique des éléments/allemand|Éléments chimiques en allemand]]}}
+
+=== {{S|prononciation}} ===
+* {{pron|ʀœntˈɡeːni̯ʊm|de}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=de}}
+
+== {{langue|lb}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|lb}}
+
+=== {{S|nom|lb}} ===
+{{lb-inv|ʀœntɡˈeːni̯um}}
+'''Roentgenium''' {{pron|ʀœntɡˈeːni̯um|lb}} {{m}}, {{au singulier uniquement|lb}}
+# {{éléments|lb}} {{métaux|lb}} [[roentgenium#fr|Roentgenium]].
+#* {{exemple|lang=lb}}
+{{clr}}
+==== {{S|vocabulaire}} ====
+{{tableau périodique/lb}}
+
+=== {{S|références}} ===
+: {{R:LOD}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=lb}}

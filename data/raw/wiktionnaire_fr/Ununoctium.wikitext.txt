@@ -1,0 +1,31 @@
+{{voir|ununoctium}}
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: Étymologie identique à celle du nom français.
+
+=== {{S|nom|gsw}} ===
+'''Ununoctium''' {{pron|u.nu.nok.tjɔm|gsw}} {{s}}
+# {{éléments|gsw}} [[oganesson#fr|Oganesson]], [[éka-radon]], [[ununoctium]].
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|de}}
+
+=== {{S|nom|de}} ===
+{{légende élément/de|Og|Uuo|nom UICPA=Oganesson}}
+'''Ununoctium''' {{pron|ˌuːnʔuːnˈʔɔktiʊm, ˌuːnʔuːnˈʔɔkʦiʊm|de}} {{n}}
+# {{éléments|de}} [[oganesson#fr|Oganesson]], [[éka-radon]], [[ununoctium]] (l’{{lien|élément chimique}} [[Og#conv|Og]])
+#* ''Über '''Ununoctium''' selbst existieren im Moment überhaupt keine experimentellen [[Befund]]e. {{source|{{WP|Ununoctium}}}}
+
+==== {{S|synonymes}} ====
+* {{lien|Eka-Radon|de}}
+* {{lien|Oganesson|de}} ''(nom UICPA)''
+
+==== {{S|vocabulaire}} ====
+{{Liste|avant={{lien|Tenness|de}} ou {{lien|Eka-Astat|de}} {{désuet|nocat}} ou {{lien|Ununseptium|de}} {{désuet|nocat}}<br>([[Ts]])|après={{lien|Ununennium|de}} ou {{lien|Eka-Francium|de}} {{désuet|nocat=1}}<br>([[Uue#conv|Uue]])|liste=[[Thésaurus:tableau périodique des éléments/allemand|Éléments chimiques en allemand]]}}
+
+=== {{S|prononciation}} ===
+* {{pron|ˌuːnʔuːnˈʔɔktiʊm|ˌuːnʔuːnˈʔɔkʦiʊm|de}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=de}}

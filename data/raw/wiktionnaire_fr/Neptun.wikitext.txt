@@ -1,0 +1,391 @@
+{{voir/neptun}}
+
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|gsw|mot=Neptunus}}
+
+=== {{S|nom propre|gsw}} ===
+'''Neptun''' {{m}} ({{p}}: '''-''' )
+# {{lexique|mythologie|gsw}} [[Neptune]].
+# {{lexique|astronomie|gsw}} [[Neptune]].
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|de|mot=Neptunus}}.
+
+=== {{S|nom propre|de}} ===
+[[Image:Neptune.jpg|thumb]]
+'''Neptun''' {{pron|nɛpˈtuːn, ˈnɛptuːn|de}} {{m}} {{s}}
+# {{divinités|de}} [[Neptune]].
+# {{lexique|astronomie|de}} [[Neptune]].
+#* {{exemple | lang=de | Die Oberfläche des '''Neptuns''' ist blau.}}
+
+==== {{S|synonymes}} ====
+* [[Poseidon]] (1)
+* [[Njörd]]
+
+==== {{S|hyperonymes}} ====
+* [[Planet]] (2)
+* [[Gasplanet]] (2)
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=de|Allemagne|nɛpˈtuːn, ˈnɛptuːn|audio=De-Neptun.ogg}}
+* {{écouter|lang=de|Allemagne (Berlin)|audio=LL-Q188 (deu)-Sebastian Wallroth-Neptun.wav}}
+
+[[Catégorie:Planètes en allemand]]
+
+== {{langue|az}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|az|Neptunus}}.
+
+=== {{S|nom propre|az}} ===
+{{az-décl-nom|u|c}}
+'''Neptun''' {{pron||az}} {{az-forme possessive}}
+# {{info lex|astronomie}} [[Neptune]] ([[planète]] du [[système solaire]]).
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=az}}
+
+[[Catégorie:Planètes en azéri]]
+
+== {{langue|nds}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|nds|mot=Neptunus}}
+
+=== {{S|nom propre|nds}} ===
+'''Neptun''' {{pron||nds}}
+# {{info lex|astronomie}} [[Neptune]] ([[planète]] du [[système solaire]]).
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=nds}}
+
+[[Catégorie:Planètes en bas allemand]]
+
+== {{langue|bar}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|bar|mot=Neptunus}}
+
+=== {{S|nom propre|bar}} ===
+'''Neptun''' {{pron||bar}}
+# {{info lex|astronomie}} [[Neptune]] ([[planète]] du [[système solaire]]).
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=bar}}
+
+[[Catégorie:Planètes en bavarois]]
+
+== {{langue|bs}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|bs|mot=Neptunus}}
+
+=== {{S|nom propre|bs}} ===
+'''Neptun''' {{pron||bs}}
+# {{info lex|astronomie}} [[Neptune]] ([[planète]] du [[système solaire]]).
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=bs}}
+
+[[Catégorie:Planètes en bosniaque]]
+
+== {{langue|hr}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|hr|mot=Neptunus}}
+
+=== {{S|nom propre|hr}} ===
+'''Neptun''' {{pron||hr}}
+# {{info lex|astronomie}} [[Neptune]] ([[planète]] du [[système solaire]]).
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=hr}}
+
+[[Catégorie:Planètes en croate]]
+
+== {{langue|da}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|da|mot=Neptunus}}
+
+=== {{S|nom propre|da}} ===
+'''Neptun''' {{pron||da}}
+# {{info lex|astronomie}} [[Neptune]] ([[planète]] du [[système solaire]]).
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=da}}
+
+[[Catégorie:Planètes en danois]]
+
+== {{langue|diq}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|diq|mot=Neptunus}}
+
+=== {{S|nom propre|diq}} ===
+'''Neptun''' {{pron||diq}}
+# {{info lex|astronomie}} [[Neptune]] ([[planète]] du [[système solaire]]).
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=diq}}
+
+[[Catégorie:Planètes en dimli (zazaki du Sud)]]
+
+== {{langue|fo}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|fo|mot=Neptunus}}
+
+=== {{S|nom propre|fo}} ===
+'''Neptun''' {{pron||fo}}
+# {{info lex|astronomie}} [[Neptune]] ([[planète]] du [[système solaire]]).
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=fo}}
+
+[[Catégorie:Planètes en féroïen]]
+
+== {{langue|stq}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|stq|mot=Neptunus}}
+
+=== {{S|nom propre|stq}} ===
+'''Neptun''' {{pron||stq}}
+# {{info lex|astronomie}} [[Neptune]] ([[planète]] du [[système solaire]]).
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=stq}}
+
+[[Catégorie:Planètes en frison saterlandais]]
+
+== {{langue|csb}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|csb|mot=Neptunus}}
+
+=== {{S|nom propre|csb}} ===
+'''Neptun''' {{pron||csb}}
+# {{info lex|astronomie}} [[Neptune]] ([[planète]] du [[système solaire]]).
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=cs||audio=Cs-Neptun.ogg}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=csb}}
+
+[[Catégorie:Planètes en kachoube]]
+
+== {{langue|jbo}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|jbo|mot=Neptunus}}
+
+=== {{S|nom propre|jbo}} ===
+'''Neptun''' {{pron||jbo}}
+# {{info lex|astronomie}} [[Neptune]] ([[planète]] du [[système solaire]]).
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=jbo}}
+
+[[Catégorie:Planètes en lojban]]
+
+== {{langue|lb}} ==
+=== {{S|étymologie}} ===
+: Du {{étylp|la|lb|Neptunus}}.
+
+=== {{S|nom propre|lb}} ===
+{{lb-inv|}}
+'''Neptun''' {{pron||lb}}
+# {{divinités|lb|romaines}} {{lien|Neptune|fr|nom-pr-1}}.
+#* {{exemple|lang=lb}}
+# {{planètes|lb}} {{lien|Neptune|fr|nom-pr-2}}.
+#* {{exemple|lang=lb}}
+
+==== {{S|vocabulaire}} ====
+{{tableau-planètes du Système solaire/lb}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=lb}}
+
+=== {{S|références}} ===
+: {{R:LOD}}
+
+== {{langue|ms}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|ms|mot=Neptunus}}
+
+=== {{S|nom propre|ms}} ===
+'''Neptun''' {{pron||ms}}
+# {{info lex|astronomie}} [[Neptune]] ([[planète]] du [[système solaire]]).
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=ms}}
+
+[[Catégorie:Planètes en malais]]
+
+== {{langue|no}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|no|mot=Neptunus}}
+
+=== {{S|nom propre|no}} ===
+'''Neptun''' {{pron||no}}
+# {{info lex|astronomie}} [[Neptune]] ([[planète]] du [[système solaire]]).
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=no}}
+
+[[Catégorie:Planètes en norvégien]]
+
+== {{langue|oc}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|oc|mot=Neptunus}}
+
+=== {{S|nom propre|oc|num=1}} ===
+'''Neptun''' {{pron|nepˈtyn|oc}} {{oc-norme classique}}
+# [[Neptune#fr-nom-pr-1|Neptune]] (divinité)
+
+=== {{S|nom propre|oc|num=2}} ===
+'''Neptun''' {{pron|nepˈtyn|oc}} {{oc-norme classique}}
+# {{info lex|astronomie}} [[Neptune#fr-nom-pr-2|Neptune]] ([[planète]] du [[système solaire]]).
+
+==== {{S|hyperonymes}} ====
+* {{lien|giganta de glaç|oc}}
+** {{lien|planeta|oc}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=oc}}
+
+=== {{S|références}} ===
+* {{R:Cantalausa}}
+
+[[Catégorie:Divinités romaines en occitan]]
+[[Catégorie:Planètes en occitan]]
+
+== {{langue|uz}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|uz|mot=Neptunus}}
+
+=== {{S|nom propre|uz}} ===
+'''Neptun''' {{pron||uz}}
+# {{info lex|astronomie}} [[Neptune]] ([[planète]] du [[système solaire]]).
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=uz}}
+
+[[Catégorie:Planètes en ouzbek]]
+
+== {{langue|pl}} ==
+=== {{S|étymologie}} ===
+: Du {{étylp|la|pl|mot=Neptunus}}
+
+=== {{S|nom propre|pl}} ===
+'''Neptun''' {{pron||pl}}
+# {{info lex|astronomie}} [[Neptune]] ([[planète]] du [[système solaire]]).
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=pl||audio=Pl-Neptun.ogg}}
+* {{écouter|Bytom (Pologne)||lang=pl|audio=LL-Q809 (pol)-Gower-Neptun.wav}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=pl}}
+
+[[Catégorie:Planètes en polonais]]
+
+== {{langue|rm}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|rm|mot=Neptunus}}
+
+=== {{S|nom propre|rm}} ===
+'''Neptun''' {{pron||rm}}
+# {{info lex|astronomie}} [[Neptune]] ([[planète]] du [[système solaire]]).
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=rm}}
+
+[[Catégorie:Planètes en romanche]]
+
+== {{langue|ro}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|ro|mot=Neptunus}}
+
+=== {{S|nom propre|ro}} ===
+'''Neptun''' {{pron||ro}}
+# {{info lex|astronomie}} [[Neptune]] ([[planète]] du [[système solaire]]).
+==== {{S|vocabulaire}} ====
+* {{voir thésaurus|ro|astronomie}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=ro}}
+
+[[Catégorie:Planètes en roumain]]
+
+== {{langue|sh}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|sh|mot=Neptunus}}
+
+=== {{S|nom propre|sh}} ===
+'''Neptun''' {{pron||sh}}
+# {{info lex|astronomie}} [[Neptune]] ([[planète]] du [[système solaire]]).
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=sh}}
+
+[[Catégorie:Planètes en serbo-croate]]
+
+== {{langue|sl}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|sl|mot=Neptunus}}
+
+=== {{S|nom propre|sl}} ===
+'''Neptun''' {{pron||sl}}
+# {{info lex|astronomie}} [[Neptune]] ([[planète]] du [[système solaire]]).
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=sl}}
+
+[[Catégorie:Planètes en slovène]]
+
+== {{langue|sw}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|sw|mot=Neptunus}}
+
+=== {{S|nom propre|sw}} ===
+'''Neptun''' {{pron||sw}}
+# {{info lex|astronomie}} [[Neptune]] ([[planète]] du [[système solaire]]).
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=sw}}
+
+[[Catégorie:Planètes en swahili]]
+
+== {{langue|cs}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|cs|mot=Neptunus}}.
+
+=== {{S|nom propre|cs|num=1}} ===
+{{cs-décl-nom-ma-dur|rad=Neptun|sing=oui}}
+'''Neptun''' {{pron||cs}} {{m|a}}
+# {{lexique|mythologie|cs}} [[Neptune]].
+#* {{exemple | lang=cs
+ | Římané ztotožnili Poseidóna s bohem '''Neptun'''em.
+ | {{trad-exe|cs}}}}
+
+=== {{S|nom propre|cs|num=2}} ===
+{{cs-décl-nom-mi-dur|rad=Neptun|sing=oui}}
+'''Neptun''' {{pron||cs}} {{m|i}}
+# {{lexique|astronomie|cs}} [[Neptune]].
+#* {{exemple | lang=cs
+ | Atmosféra '''Neptun'''u je složena převážně z vodíku a hélia s větším podílem vody, čpavku a metanu.
+ | {{trad-exe|cs}}}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=cs}}
+
+[[Catégorie:Planètes en tchèque]]
+
+== {{langue|tk}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|tk|mot=Neptunus}}
+
+=== {{S|nom propre|tk}} ===
+'''Neptun''' {{pron||tk}}
+# {{info lex|astronomie}} [[Neptune]] ([[planète]] du [[système solaire]]).
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=tk}}
+
+[[Catégorie:Planètes en turkmène]]
+[[Catégorie:Divinités romaines en alémanique]]
+[[Catégorie:Divinités romaines en tchèque]]

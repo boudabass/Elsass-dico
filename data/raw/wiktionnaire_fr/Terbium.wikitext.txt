@@ -1,0 +1,73 @@
+{{voir|terbium}}
+
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw}}
+
+=== {{S|nom|gsw}} ===
+'''Terbium''' {{pron||gsw}} {{genre|gsw}}
+# {{éléments|gsw}} {{métaux|gsw}} [[terbium#fr|Terbium]].
+{{clr}}
+==== {{S|vocabulaire}} ====
+{{tableau périodique/gsw}}
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: {{date|lang=de}} Du nom du village suédois d’''{{w|Ytterby}}'', où était extrait la gadolinite, minerai dans lequel du terbium a été identifié.
+
+=== {{S|nom|de}} ===
+{{légende élément/de|Tb}}
+[[Image:Terbium-2.jpg|thumb|'''Terbium'''.]]
+'''Terbium''' {{pron|ˈtɛʁbi̯ʊm|de}} {{n}} (pas de pluriel)
+# {{éléments|de}} {{métaux|de}} [[terbium#fr|Terbium]] (l’{{lien|élément chimique}} [[Tb#conv|Tb]]).
+#* {{exemple | lang=de
+ | '''Terbium''' ist ein silbergraues Metall.
+ | Le terbium est un métal gris-argenté.}}
+
+==== {{S|dérivés}} ====
+* {{lien|Terbium(III)-oxid|de}}
+* {{lien|Terbiumfluorid|de}}
+* {{lien|Terbiumverbindung|de}}
+{{clr}}
+==== {{S|vocabulaire}} ====
+* {{voir thésaurus|de|tableau périodique des éléments}}
+{{tableau périodique/de}}
+{{Liste|avant={{lien|Gadolinium|de}}<br>([[Gd#conv|Gd]])|après={{lien|Dysprosium|de}}<br>([[Dy#conv|Dy]])|liste=[[Thésaurus:tableau périodique des éléments/allemand|Éléments chimiques en allemand]]}}
+
+=== {{S|prononciation}} ===
+* {{pron|ˈtɛʁbi̯ʊm|de}}
+* {{écouter|lang=de|Allemagne (Berlin)|audio=LL-Q188 (deu)-Lucas Werkmeister-Terbium.wav}}
+* {{écouter|lang=de|Allemagne (Berlin)|audio=LL-Q188 (deu)-Sebastian Wallroth-Terbium.wav}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=de}}
+
+== {{langue|stq}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|stq}}
+
+=== {{S|nom|stq}} ===
+'''Terbium''' {{pron||stq}}
+# {{éléments|stq}} {{métaux|stq}} [[terbium#fr|Terbium]].
+
+=== {{S|voir aussi}} ===
+* {{WP|3=stq}}
+
+== {{langue|lb}} ==
+=== {{S|étymologie}} ===
+: Du nom du village suédois d’''{{w|Ytterby}}'', où était extrait la [[gadolinite]], minerai dans lequel du terbium a été identifié.
+
+=== {{S|nom|lb}} ===
+{{lb-inv|tˈɛʀbi̯um}}
+'''Terbium''' {{pron|tˈɛʀbi̯um|lb}} {{m}}, {{au singulier uniquement|lb}}
+# {{éléments|lb}} {{métaux|lb}} [[terbium#fr|Terbium]] (élément chimique et métal).
+#* {{exemple|lang=lb}}
+{{clr}}
+==== {{S|vocabulaire}} ====
+{{tableau périodique/lb}}
+
+=== {{S|références}} ===
+: {{R:LOD}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=lb}}

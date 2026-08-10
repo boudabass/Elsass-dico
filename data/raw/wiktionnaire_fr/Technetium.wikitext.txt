@@ -1,0 +1,81 @@
+{{voir/technetium}}
+
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw}}
+
+=== {{S|nom|gsw}} ===
+'''Technetium''' {{pron||gsw}} {{genre|gsw}}
+# {{éléments|gsw}} {{métaux|gsw}} [[technétium#fr|Technétium]].
+{{clr}}
+==== {{S|vocabulaire}} ====
+{{tableau périodique/gsw}}
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|de|mot=technetium}}.
+
+=== {{S|nom|de}} ===
+{{légende élément/de|Tc}}
+'''Technetium''' {{pron|tɛçˈneːʦɪ̯ʊm|de}} {{n}}
+# {{éléments|de}} {{métaux|de}} [[technétium#fr|Technétium]] (l’{{lien|élément chimique}} [[Tc#conv|Tc]]).
+#* {{exemple | lang=de | '''Technetium''' ist ein radioaktives Metall, das in der häufigen Pulverform mattgrau erscheint.}}
+
+==== {{S|synonymes}} ====
+* {{lien|Eka-Mangan|de}} {{archaïsme|nocat}}
+* {{lien|Ilmenium|de}} {{désuet|nocat}}
+* {{lien|Masurium|de}} {{désuet|nocat=1}}
+* {{lien|Nipponium|de}} {{désuet|nocat}}
+* {{lien|Pelopium|de}} {{désuet|nocat}}
+
+==== {{S|dérivés}} ====
+* [[Pertechnetiumsäure]]
+* [[Technetiumhalogenid]]
+* [[Technetiumheptoxid]]
+* [[Technetiumoxid]]
+{{clr}}
+==== {{S|vocabulaire}} ====
+* {{voir thésaurus|de|tableau périodique des éléments}}
+{{tableau périodique/de}}
+{{Liste|avant={{lien|Molybdän|de}}<br>([[Mo#conv|Mo]])|après={{lien|Ruthenium|de}}<br>([[Ru#conv|Ru]])|liste=[[Thésaurus:tableau périodique des éléments/allemand|Éléments chimiques en allemand]]}}
+
+=== {{S|prononciation}} ===
+* {{pron|tɛçˈneːʦɪ̯ʊm|de}}
+* {{écouter|lang=de|Allemagne (Berlin)|audio=LL-Q188 (deu)-Lucas Werkmeister-Technetium.wav}}
+* {{écouter|lang=de|Allemagne (Berlin)|audio=LL-Q188 (deu)-Sebastian Wallroth-Technetium.wav}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=de}}
+
+== {{langue|stq}} ==
+=== {{S|étymologie}} ===
+:Du {{étyl|la|stq|mot=technetium}}.
+
+=== {{S|nom|stq}} ===
+'''Technetium''' {{pron||stq}}
+# {{éléments|stq}} {{métaux|stq}} [[technétium|Technétium]].
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=stq}}
+
+== {{langue|lb}} ==
+=== {{S|étymologie}} ===
+: Du mot {{étyl|la|lb|mot=technetium}}.
+
+=== {{S|nom|lb}} ===
+{{lb-inv|tæknˈeːtsi̯um}}
+'''Technetium''' {{pron|tæknˈeːtsi̯um|lb}} {{m}}, {{au singulier uniquement|lb}}
+# {{éléments|lb}} {{métaux|lb}} [[technétium|Technétium]].
+#* {{exemple|lang=lb}}
+{{clr}}
+==== {{S|vocabulaire}} ====
+{{tableau périodique/lb}}
+
+=== {{S|prononciation}} ===
+* {{écouter|Angers (France)||niveau=bon|lang=lb|audio=LL-Q9051 (ltz)-Procrastineur49-Technetium.wav}}
+
+=== {{S|références}} ===
+: {{R:LOD}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=lb}}

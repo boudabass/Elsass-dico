@@ -1,0 +1,349 @@
+{{voir/pisa}}
+
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|it|gsw|mot=Pisa}}.
+
+=== {{S|nom propre|gsw}} ===
+'''Pisa'''
+# {{localités|gsw|d’Italie}} {{lien|Pise|fr}}.
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|it|de|mot=Pisa}}.
+
+=== {{S|nom propre|de}} ===
+'''Pisa'''
+# {{localités|de|d’Italie}} {{lien|Pise|fr}}.
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=de}}
+
+== {{langue|en}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|it|en|mot=Pisa}}.
+
+=== {{S|nom propre|en}} ===
+'''Pisa'''
+# {{localités|en|d’Italie}} {{lien|Pise|fr}}.
+
+==== {{S|dérivés}} ====
+* [[Pisan]]
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=en}}
+
+== {{langue|nds}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|it|nds|mot=Pisa}}.
+
+=== {{S|nom propre|nds}} ===
+'''Pisa'''
+# {{localités|nds|d’Italie}} {{lien|Pise|fr}}.
+
+== {{langue|ca}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|it|ca|mot=Pisa}}.
+
+=== {{S|nom propre|ca}} ===
+'''Pisa'''
+# {{localités|ca|d’Italie}} {{lien|Pise|fr}}.
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=ca}}
+
+== {{langue|co}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|it|co|mot=Pisa}}.
+
+=== {{S|nom propre|co}} ===
+'''Pisa'''
+# {{localités|co|d’Italie}} {{lien|Pise|fr}}.
+
+== {{langue|da}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|it|da|mot=Pisa}}.
+
+=== {{S|nom propre|da}} ===
+'''Pisa'''
+# {{localités|da|d’Italie}} {{lien|Pise|fr}}.
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=da}}
+
+== {{langue|es}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|it|es|mot=Pisa}}.
+
+=== {{S|nom propre|es}} ===
+'''Pisa''' {{pron||es}}
+# {{localités|es|d’Italie}} {{lien|Pise|fr}}.
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=es}}
+
+== {{langue|et}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|it|et|mot=Pisa}}.
+
+=== {{S|nom propre|et}} ===
+'''Pisa'''
+# {{localités|et|d’Italie}} {{lien|Pise|fr}}.
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=et}}
+
+== {{langue|fi}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|it|fi|mot=Pisa}}.
+
+=== {{S|nom propre|fi}} ===
+'''Pisa'''
+# {{localités|fi|d’Italie}} {{lien|Pise|fr}}.
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=fi}}
+
+== {{langue|gl}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|it|gl|mot=Pisa}}.
+
+=== {{S|nom propre|gl}} ===
+'''Pisa'''
+# {{localités|gl|d’Italie}} {{lien|Pise|fr}}.
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=gl}}
+
+== {{langue|hu}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|it|hu|mot=Pisa}}.
+
+=== {{S|nom propre|hu}} ===
+'''Pisa''' {{pron||hu}}
+# {{localités|hu|d’Italie}} {{lien|Pise|fr}}.
+
+=== {{S|voir aussi}} ===
+* {{WP|Pisa (település)|Pisa|lang=hu}}
+
+== {{langue|id}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|it|id|mot=Pisa}}.
+
+=== {{S|nom propre|id}} ===
+'''Pisa''' {{pron||id}}
+# {{localités|id|d’Italie}} {{lien|Pise|fr}}.
+#* {{exemple|lang=id}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=id}}
+
+== {{langue|it}} ==
+=== {{S|étymologie}} ===
+: Du {{étylp|la|it|mot=Pisae}}.
+
+=== {{S|nom propre|it}} ===
+'''Pisa''' {{pron|ˈpi.za|it}} {{f}}
+# {{localités|it|de Toscane}} {{lien|Pise|fr}}, commune et ville de la région de Toscane en Italie, célèbre pour sa tour penchée. 
+# {{provinces|it|d’Italie}} {{lien|Pise|fr}}, province autour de cette ville.
+#*{{exemple|lang=it}}
+
+==== {{S|gentilés}} ====
+* {{lien|pisana|it}}
+* {{lien|pisano|it}}
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=it||audio=It-Pisa.ogg}}
+
+=== {{S|anagrammes}} ===
+{{voir anagrammes|it}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=it|Pisa (disambigua)}}
+* {{WQ|lang=it}}
+* {{WS|lang=it|Categoria:Pisa}}
+* {{VOY|lang=it}}
+* {{Vikidia|lang=it|AdQ=1}}
+
+=== {{S|références}} ===
+* {{R:Olivetti}}
+* {{R:SDAS}}
+
+== {{langue|la}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|grc|la|mot=Πῖσα|tr=Pîsa}}.
+
+=== {{S|nom propre|la}} ===
+{{la-tab-1f|Pis}}
+'''Pisa''' {{pron||la}} {{f}}
+# {{localités|la|de Grèce}} Ville d’{{lien|Élide|fr}}, non loin d’{{lien|Olympie|fr}}.
+#* {{exemple|lang=la}}
+
+==== {{S|variantes}} ====
+* {{lien|Pisae|la}}
+
+==== {{S|gentilés}} ====
+* {{lien|Pisaeus|la}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=la}}
+
+=== {{S|références}} ===
+* {{R:Gaffiot}}
+* {{R:L&S}}
+
+== {{langue|lb}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|it|lb|mot=Pisa}}.
+
+=== {{S|nom propre|lb}} ===
+'''Pisa'''
+# {{localités|lb|d’Italie}} {{lien|Pise|fr}}.
+
+== {{langue|lij-mc}} ==
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|lij-mc}}
+
+=== {{S|nom propre|lij-mc}} ===
+'''Pisa''' {{pron||lij-mc}}
+# {{localités|lij-mc|d’Italie}} [[Pise]] ([[commune]] d’[[Italie]]).
+#* {{exemple
+|lang=lij-mc
+|Gh’a fau basti̍ ün 1868 ün clastru, sci’u mudelu d’u Campu Santu de '''Pisa''', dapressu i prugeti d’Euge̍niu Viollet-leDuc.
+|Elle y fit bâtir en 1868 un cloître, sur le modèle du Campo Santo de Pise, dont les plans sont attribués à Eugène Viollet-le-Duc.
+|source={{périodique |auteurs=Comité national des traditions monégasques |titre=U Pa̍ire Nostru ün lenga Munegasca sci’u Munte d’i Aurivei a Gerusale̍m |journal=Üntra nui |date=2012-03-24 |pages=1 |texte=http://www.traditions-monaco.com/wp-content/uploads/2018/01/Chronique%202012-03-24-19.pdf#page=1 |consulté le=2022-05-13 }}
+}}
+
+== {{langue|nl}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|it|nl|mot=Pisa}}.
+
+=== {{S|nom propre|nl}} ===
+'''Pisa'''
+# {{localités|nl|d’Italie}} {{lien|Pise|fr}}.
+
+=== {{S|voir aussi}} ===
+* {{WP|Pisa (stad)|Pisa|lang=nl}}
+
+== {{langue|no}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|it|no|mot=Pisa}}.
+
+=== {{S|nom propre|no}} ===
+'''Pisa'''
+# {{localités|no|d’Italie}} {{lien|Pise|fr}}.
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=no}}
+
+== {{langue|nn}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|no|nn|mot=Pisa}}.
+
+=== {{S|nom propre|nn}} ===
+'''Pisa'''
+# {{localités|nn|d’Italie}} {{lien|Pise|fr}}.
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=nn}}
+
+== {{langue|pt}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|it|pt|mot=Pisa}}.
+
+=== {{S|nom propre|pt}} ===
+'''Pisa''' {{pron|pˈi.zɐ|pt}}
+# {{localités|pt|d’Italie}} {{lien|Pise|fr}}.
+
+=== {{S|anagrammes}} ===
+{{voir anagrammes|pt}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=pt}}
+
+== {{langue|ro}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|it|ro|mot=Pisa}}.
+
+=== {{S|nom propre|ro}} ===
+'''Pisa'''
+# {{localités|ro|d’Italie}} {{lien|Pise|fr}}.
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=ro}}
+
+== {{langue|scn}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|it|scn|mot=Pisa}}.
+
+=== {{S|nom propre|scn}} ===
+'''Pisa'''
+# {{localités|scn|d’Italie}} {{lien|Pise|fr}}.
+
+=== {{S|prononciation}} ===
+* {{écouter|Gela (Italie)||lang=scn|audio=LL-Q33973 (scn)-XANA000-Pisa.wav}}
+
+== {{langue|sk}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|it|sk|mot=Pisa}}.
+
+=== {{S|nom propre|sk}} ===
+'''Pisa'''
+# {{localités|sk|d’Italie}} {{lien|Pise|fr}}.
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=sk}}
+
+== {{langue|sl}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|it|sl|mot=Pisa}}.
+
+=== {{S|nom propre|sl}} ===
+'''Pisa'''
+# {{localités|sl|d’Italie}} {{lien|Pise|fr}}.
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=sl}}
+
+== {{langue|sv}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|it|sv|mot=Pisa}}.
+
+=== {{S|nom propre|sv}} ===
+'''Pisa'''
+# {{localités|sv|d’Italie}} {{lien|Pise|fr}}.
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=sv}}
+
+== {{langue|cs}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|it|cs|mot=Pisa}}.
+
+=== {{S|nom propre|cs}} ===
+{{cs-décl-nom-f-sa|rad=Pis|sing=oui}}
+'''Pisa''' {{pron||cs}} {{f}} {{s}}
+# {{localités|cs|d’Italie}} {{lien|Pise|fr}}.
+#* {{exemple | lang=cs | šikmá věž v '''Pise'''.}}
+
+==== {{S|gentilés}} ====
+* {{lien|Pisan|cs}}, {{lien|Pisanka|cs}}
+* {{lien|pisánský|cs}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=cs}}
+
+=== {{S|références}} ===
+* {{R:ÚJČ}}
+
+== {{langue|tr}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|it|tr|mot=Pisa}}.
+
+=== {{S|nom propre|tr}} ===
+'''Pisa'''
+# {{localités|tr|d’Italie}} {{lien|Pise|fr}}.
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=tr}}

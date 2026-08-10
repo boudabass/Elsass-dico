@@ -1,0 +1,630 @@
+== {{langue|af}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étylp|nl|af|mot=Madagaskar}}.
+
+=== {{S|nom propre|af}} ===
+'''Madagaskar''' {{pron||af}}
+# {{pays|af|d’Afrique}} {{lien|Madagascar|fr}}.
+#* {{exemple|lang=af}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=af}}
+[[Catégorie:Îles en afrikaans]]
+
+== {{langue|gsw}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étylp|fr|pl|mot=Madagascar}}.
+
+=== {{S|nom propre|gsw}} ===
+'''Madagaskar''' {{pron||gsw}}
+# {{pays|gsw}} {{lien|Madagascar|fr}}.
+#* {{exemple|lang=gsw}}
+[[Catégorie:Îles en alémanique]]
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: Du {{étylp|fr|de|mot=Madagascar}}.
+
+=== {{S|nom propre|de}} ===
+{{de-nom-propre|genre=n|gs=Madagaskar|gs2=Madagaskars}}
+'''Madagaskar''' {{pron|madaˈɡaskaʁ|de}} {{m}}
+# {{pays|de|d’Afrique}} {{lien|Madagascar|fr}}.
+#* {{exemple|lang=de}}
+#* {{exemple|Anlässlich des Staatsbesuchs von Benjamin Netanjahu in Washington hat Donald Trump heute seinen Plan für eine Endlösung der Palästinenserfrage präsentiert. Nach historischem Vorbild sollen alle aktuellen Bewohner des Gazastreifens nach '''Madagaskar''' umgesiedelt werden.|lang=de|sens=A l’occasion de la visite d'Etat de Benjamin Netanyahu à Washington, Donald Trump a présenté aujourd'hui son plan pour une solution finale à la question palestinienne. Selon le modèle historique, tous les habitants actuels de la bande de Gaza devraient être déplacés à Madagascar.|source={{périodique|auteur=(pfg, ssi, dan)|titre=Endlösung der Palästinenserfrage: Trump will Bevölkerung von Gaza nach Madagaskar umsiedeln|journal=Der Postillon|date=5 février 2025|texte=https://www.der-postillon.com/2025/02/gaza-umsiedlung.html}}}}
+
+==== {{S|synonymes}} ====
+* {{lien|Republik Madagaskar|de}}
+* {{lien|Demokratische Republik Madagaskar|de}}
+
+==== {{S|hyperonymes}} ====
+* {{lien|Inselstaat|de}}
+* {{lien|Staat|de}}
+
+==== {{S|hyponymes}} ====
+{{(|}}
+* {{lien|Nordmadagaskar|de}}
+* {{lien|Ostmadagaskar|de}}
+* {{lien|Südmadagaskar|de}}
+* {{lien|Westmadagaskar|de}}
+* {{lien|Zentralmadagaskar|de}}
+{{)}}
+
+==== {{S|gentilés}} ====
+* {{lien|Madagasse|de}}, {{lien|Madagassin|de}}
+* {{lien|madagassisch|de}}
+
+==== {{S|dérivés}} ====
+{{(}}
+* {{lien|Madagaskar-Aufstand|de}}
+* {{lien|Madagaskar-Bergmaus|de}}
+* {{lien|Madagaskar-Bulldoggfledermaus|de}}
+* {{lien|Madagaskar-Buntfrosch|de}}
+* {{lien|Madagaskar-Bussard|de}}
+* {{lien|Madagaskar-Fauchschabe|de}}
+* {{lien|Madagaskar-Fledermausblume|de}}
+* {{lien|Madagaskar-Flughund|de}}
+* {{lien|Madagaskar-Fruchttaube|de}}
+* {{lien|Madagaskar-Gans|de}}
+* {{lien|Madagaskar-Grassänger|de}}
+* {{lien|Madagaskar-Großfußmaus|de}}
+* {{lien|Madagaskar-Großkopfgecko|de}}
+* {{lien|Madagaskar-Grüntaube|de}}
+* {{lien|Madagaskar-Hechtling|de}}
+* {{lien|Madagaskar-Hundskopfboa|de}}
+* {{lien|Madagaskar-Immergrün|de}}
+* {{lien|Madagaskar-Kauz|de}}
+* {{lien|Madagaskar-Kiebitz|de}}
+* {{lien|Madagaskar-Kronenadler|de}}
+* {{lien|Madagaskar-Kurzschwanzratte|de}}
+* {{lien|Madagaskar-Mantis|de}}
+* {{lien|Madagaskar-Moorente|de}}
+* {{lien|Madagaskar-Nachtschwalbe|de}}
+* {{lien|Madagaskar-Ohreule|de}}
+* {{lien|Madagaskar-Palmenflughund|de}}
+* {{lien|Madagaskar-Paradiesschnäpper|de}}
+* {{lien|Madagaskar-Ratte|de}}
+* {{lien|Madagaskar-Ringel-Schildechse|de}}
+* {{lien|Madagaskar-Sandleguan|de}}
+* {{lien|Madagaskar-Schlangenhabicht|de}}
+* {{lien|Madagaskar-Schwarzkehlchen|de}}
+* {{lien|Madagaskar-Sonnenuntergangs-Motte|de}}
+* {{lien|Madagaskar-Stachelschwanzleguan|de}}
+* {{lien|Madagaskar-Strauß|de}}
+* {{lien|Madagaskar-Taggecko|de}}
+* {{lien|Madagaskar-Turteltaube|de}}
+* {{lien|Madagaskar-Waldohreule|de}}
+* {{lien|Madagaskar-Weißschwanzratte|de}}
+* {{lien|Madagaskar-Wiedehopf|de}}
+* {{lien|Madagaskar-Zwergohreule|de}}
+* {{lien|Madagaskar-Zwergtaucher|de}}
+* {{lien|Madagaskarboa|de}}
+* {{lien|Madagaskarente|de}}
+* {{lien|Madagaskarfalke|de}}
+* {{lien|Madagaskarfrosch|de}}
+* {{lien|Madagaskarpalme|de}}
+* {{lien|Madagaskarsperber|de}}
+* {{lien|Madagaskarzwergfischer|de}}
+* {{lien|Marmorierte Madagaskar-Mantis|de}}
+* {{lien|Nördliche Madagaskarboa|de}}
+{{)}}
+
+=== {{S|prononciation}} ===
+* {{écouter|Berlin|ˌmadaˈɡaskaʁ|lang=de|audio=De-Madagaskar.ogg}}
+
+=== {{S|références}} ===
+* {{R:Duden|Madagaskar}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=de}}
+
+[[Catégorie:Îles en allemand]]
+
+== {{langue|nds}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étyl|de|nds|mot=Madagaskar}}.
+
+=== {{S|nom propre|nds}} ===
+'''Madagaskar''' {{pron||nds}}
+# {{pays|nds|d’Afrique}} {{lien|Madagascar|fr}}.
+#* {{exemple|lang=nds}}
+
+[[Catégorie:Îles en bas allemand]]
+
+== {{langue|nds-nl}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étylp|nl|nds-nl|mot=Madagaskar}}.
+
+=== {{S|nom propre|nds-nl}} ===
+'''Madagaskar''' {{pron||nds-nl}}
+# {{pays|nds-nl}} {{lien|Madagascar|fr}}.
+#* {{exemple|lang=nds-nl}}
+[[Catégorie:Îles en bas-saxon néerlandais]]
+
+== {{langue|eu}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étylp|fr|eu|mot=Madagascar}}.
+
+=== {{S|nom propre|eu}} ===
+'''Madagaskar''' {{pron||eu}}
+# {{pays|eu|d’Afrique}} {{lien|Madagascar|fr}}.
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=eu}}
+[[Catégorie:Îles en basque]]
+
+== {{langue|bcl}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étylp|fr|bcl|mot=Madagascar}}.
+
+=== {{S|nom propre|bcl}} ===
+'''Madagaskar''' {{pron||bcl}}
+# {{pays|bcl}} {{lien|Madagascar|fr}}.
+#* {{exemple|lang=bcl}}
+[[Catégorie:Îles en bikol central]]
+
+== {{langue|bs}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étylp|fr|bs|mot=Madagascar}}.
+
+=== {{S|nom propre|bs}} ===
+'''Madagaskar''' {{pron||bs}}
+# {{pays|bs|d’Afrique}} {{lien|Madagascar|fr}}.
+#* {{exemple|lang=bs}}
+[[Catégorie:Îles en bosniaque]]
+
+== {{langue|br}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étylp|fr|br|mot=Madagascar}}.
+
+=== {{S|nom propre|br}} ===
+'''Madagaskar''' {{pron||br}}
+# {{pays|br}} {{lien|Madagascar|fr}}.
+#* {{exemple|lang=br}}
+
+=== {{S|prononciation}} ===
+* {{écouter|Bretagne (France)||niveau=moyen|lang=br|audio=LL-Q12107 (bre)-Gourig0-Madagaskar.wav}}
+[[Catégorie:Îles en breton]]
+
+== {{langue|kw}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étylp|fr|kw|mot=Madagascar}}.
+
+=== {{S|nom propre|kw}} ===
+'''Madagaskar''' {{pron||kw}}
+# {{pays|kw}} {{lien|Madagascar|fr}}.
+#* {{exemple|lang=kw}}
+[[Catégorie:Îles en cornique]]
+
+== {{langue|ht}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étylp|fr|ht|mot=Madagascar}}.
+
+=== {{S|nom propre|ht}} ===
+'''Madagaskar''' {{pron||ht}}
+# {{pays|ht}} {{lien|Madagascar|fr}}.
+#* {{exemple|lang=ht}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=ht}}
+
+[[Catégorie:Îles en créole haïtien]]
+
+== {{langue|mfe}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étyl|fr|mfe|Madagascar}}.
+
+=== {{S|nom propre|mfe}} ===
+'''Madagaskar''' {{pron||mfe}}
+# {{pays|mfe}} [[Madagascar]].
+#* {{exemple | lang=mfe
+ | Parmi, ena Alain Bentolila, li mem ki nn resi ekrir enn liv lor linflyans kapital ki Lafrik ek '''Madagaskar''' finn zwe dan kreasyon langaz kreol.
+ | source=Emmanuel {{pc|Richon}}, ''[https://kiltir.com/francais/b0027/download/langaz-kreol-langaz-marron.pdf Langaz kreol, langaz maron, Etimolozi, “lang-baz”, de konsep kolonyal]'', pages totales 195, page 130}}
+
+[[Catégorie:Îles en créole mauricien]]
+
+== {{langue|hr}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étylp|fr|hr|mot=Madagascar}}.
+
+=== {{S|nom propre|hr}} ===
+'''Madagaskar''' {{pron||hr}}
+# {{pays|hr|d’Afrique}} {{lien|Madagascar|fr}}.
+#* {{exemple|lang=hr}}
+[[Catégorie:Îles en croate]]
+
+== {{langue|da}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étylp|fr|da|mot=Madagascar}}.
+
+=== {{S|nom propre|da}} ===
+'''Madagaskar''' {{pron||da}}
+# {{pays|da|d’Afrique}} {{lien|Madagascar|fr}}.
+#* {{exemple|lang=da}}
+[[Catégorie:Îles en danois]]
+
+== {{langue|diq}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étylp|fr|dig|mot=Madagascar}}.
+
+=== {{S|nom propre|diq}} ===
+'''Madagaskar''' {{pron||diq}}
+# {{pays|dig}} {{lien|Madagascar|fr}}.
+#* {{exemple|lang=diq}}
+[[Catégorie:Îles en dimli (zazaki du Sud)]]
+
+== {{langue|et}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étylp|fr|et|mot=Madagascar}}.
+
+=== {{S|nom propre|et}} ===
+'''Madagaskar''' {{pron||et}}
+# {{pays|et|d’Afrique}} {{lien|Madagascar|fr}}.
+#* {{exemple|lang=et}}
+[[Catégorie:Îles en estonien]]
+
+== {{langue|fi}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étylp|fr|fi|mot=Madagascar}}.
+
+=== {{S|nom propre|fi}} ===
+'''Madagaskar''' {{pron|ˈmɑdɑɡɑskɑr|fi}}
+# {{pays|fi|d’Afrique}} {{lien|Madagascar|fr}}.
+#* {{exemple|lang=fi}}
+
+==== {{S|dérivés}} ====
+* {{lien|madagaskarinsilkkihaikara|fi}} — aigrette dimorphe
+
+[[Catégorie:Îles en finnois]]
+
+== {{langue|fy}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étyl|nl|fy|mot=Madagaskar}}.
+
+=== {{S|nom propre|fy}} ===
+'''Madagaskar''' {{pron||fy}}
+# {{pays|fy}} {{lien|Madagascar|fr}}.
+#* {{exemple|lang=fy}}
+[[Catégorie:Îles en frison]]
+
+== {{langue|io}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étylp|fr|io|mot=Madagascar}}.
+
+=== {{S|nom propre|io}} ===
+'''Madagaskar''' {{pron||io}}
+# {{pays|io}} {{lien|Madagascar|fr}}.
+#* {{exemple|lang=io}}
+[[Catégorie:Îles en ido]]
+
+== {{langue|id}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étylp|fr|id|mot=Madagascar}}.
+
+=== {{S|nom propre|id}} ===
+'''Madagaskar''' {{pron||id}}
+# {{pays|id|d’Afrique}} {{lien|Madagascar|fr}}.
+#* {{exemple|lang=id}}
+[[Catégorie:Îles en indonésien]]
+
+== {{langue|is}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étylp|fr|is|mot=Madagascar}}.
+
+=== {{S|nom propre|is}} ===
+'''Madagaskar''' {{pron||is}}
+# {{pays|is|d’Afrique}} {{lien|Madagascar|fr}}.
+#* {{exemple|lang=is}}
+[[Catégorie:Îles en islandais]]
+
+== {{langue|jv}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étylp|fr|jv|mot=Madagascar}}.
+
+=== {{S|nom propre|jv}} ===
+'''Madagaskar''' {{pron||jv}}
+# {{pays|jv}} {{lien|Madagascar|fr}}.
+#* {{exemple|lang=jv}}
+[[Catégorie:Îles en javanais]]
+
+== {{langue|ku}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étylp|fr|ku|mot=Madagascar}}.
+
+=== {{S|nom propre|ku}} ===
+'''Madagaskar''' {{pron||ku}}
+# {{pays|ku}} {{lien|Madagascar|fr}}.
+#* {{exemple|lang=ku}}
+[[Catégorie:Îles en kurde]]
+
+== {{langue|lb}} ==
+=== {{S|étymologie}} ===
+: Du {{étylp|fr|lb|Madagascar}}.
+
+=== {{S|nom propre|lb}} ===
+{{lb-inv|mɑdɑɡˈɑskaːʀ|inv_titre=Nom propre}}
+'''Madagaskar''' {{pron|mɑdɑɡˈɑskaːʀ|lb}} {{n}}
+# {{îles|lb|d’Afrique}} {{lien|Madagascar|fr}}.
+#* {{exemple|lang=lb}}
+# {{pays|lb|d’Afrique|pays=Madagascar|clé=*}} {{lien|Madagascar|fr}}.
+#* {{exemple|lang=lb}}
+
+==== {{S|gentilés}} ====
+* {{lien|Madagass|lb}}, {{lien|Madagassin|lb}}
+* {{lien|madagassesch|lb}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=lb}}
+
+=== {{S|références}} ===
+: {{R:LOD}}
+
+== {{langue|ms}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étylp|fr|ms|mot=Madagascar}}.
+
+=== {{S|nom propre|ms}} ===
+'''Madagaskar''' {{pron||ms}}
+# {{pays|ms|d’Afrique}} {{lien|Madagascar|fr}}.
+#* {{exemple|lang=ms}}
+[[Catégorie:Îles en malais]]
+
+== {{langue|nl}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étylp|fr|nl|mot=Madagascar}}.
+
+=== {{S|nom propre|nl}} ===
+'''Madagaskar''' {{pron||nl}}
+# {{pays|nl|d’Afrique}} {{lien|Madagascar|fr}}.
+#* {{exemple|lang=nl}}
+[[Catégorie:Îles en néerlandais]]
+
+=== {{S|prononciation}} ===
+* {{écouter|||lang=nl|audio=Nl-Madagaskar.ogg}}
+
+== {{langue|no}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étylp|fr|no|mot=Madagascar}}.
+
+=== {{S|nom propre|no}} ===
+'''Madagaskar''' {{pron||no}}
+# {{pays|no|d’Afrique}} {{lien|Madagascar|fr}}.
+#* {{exemple|lang=no}}
+[[Catégorie:Îles en norvégien]]
+
+== {{langue|nn}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étyl|no|nn|mot=Madagaskar}}.
+
+=== {{S|nom propre|nn}} ===
+'''Madagaskar''' {{pron||nn}}
+# {{pays|nn|d’Afrique}} {{lien|Madagascar|fr}}.
+#* {{exemple|lang=nn}}
+[[Catégorie:Îles en norvégien (nynorsk)]]
+
+== {{langue|nov}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étylp|fr|nov|mot=Madagascar}}.
+
+=== {{S|nom propre|nov}} ===
+'''Madagaskar''' {{pron||nov}}
+# {{pays|nov}} {{lien|Madagascar|fr}}.
+#* {{exemple|lang=nov}}
+[[Catégorie:Îles en novial]]
+
+== {{langue|uz}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étylp|fr|uz|mot=Madagascar}}.
+
+=== {{S|nom propre|uz}} ===
+'''Madagaskar''' {{pron||uz}}
+# {{pays|uz}} {{lien|Madagascar|fr}}.
+#* {{exemple|lang=uz}}
+[[Catégorie:Îles en ouzbek]]
+
+== {{langue|pl}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étylp|fr|pl|mot=Madagascar}}.
+
+=== {{S|nom propre|pl}} ===
+{{pl-décl-nom-autre|rad=Madagaskar|sing=oui|ns=|vs=ze|as=|gs=u|ds=owi|ls=ze|is=em}}
+'''Madagaskar''' {{pron|madaˈɡaskar|pl}} {{m|i}}
+# {{pays|pl|d’Afrique}} {{lien|Madagascar|fr}}.
+#* {{exemple | lang=pl | Malgaski jest językiem urzędowym '''Madagaskaru'''.}}
+
+==== {{S|gentilés}} ====
+* {{lien|Madagaskarczyk|pl}}, {{lien|Madagaskarka|pl}}
+* {{lien|madagaskarski|pl}}
+* {{lien|malgaski|pl|sens=malgache}}
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=pl|Pologne|madaˈɡaskar|audio=Pl-Madagaskar.ogg}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=pl}}
+[[Catégorie:Îles en polonais]]
+
+== {{langue|qu}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étylp|fr|qu|mot=Madagascar}}.
+
+=== {{S|nom propre|qu}} ===
+'''Madagaskar''' {{pron||qu}}
+# {{pays|qu}} {{lien|Madagascar|fr}}.
+#* {{exemple|lang=qu}}
+[[Catégorie:Îles en quechua]]
+
+== {{langue|se}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étylp|fr|se|mot=Madagascar}}.
+
+=== {{S|nom propre|se}} ===
+'''Madagaskar''' {{pron||se}}
+# {{pays|se}} {{lien|Madagascar|fr}}.
+#* {{exemple|lang=se}}
+[[Catégorie:Îles en same du Nord]]
+
+== {{langue|sh}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étylp|fr|sh|mot=Madagascar}}.
+
+=== {{S|nom propre|sh}} ===
+'''Madagaskar''' {{pron||sh}} {{m}}
+# {{pays|sh|d’Afrique}} {{lien|Madagascar|fr}}.
+#* {{exemple|lang=sh}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=sh}}
+[[Catégorie:Îles en serbo-croate]]
+
+== {{langue|szl}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étylp|fr|szl|mot=Madagascar}}.
+
+=== {{S|nom propre|szl}} ===
+'''Madagaskar''' {{pron||szl}}
+# {{pays|szl}} {{lien|Madagascar|fr}}.
+#* {{exemple|lang=szl}}
+[[Catégorie:Îles en silésien]]
+
+== {{langue|sk}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étylp|fr|sk|mot=Madagascar}}.
+
+=== {{S|nom propre|sk}} ===
+'''Madagaskar''' {{pron||sk}} {{m|i}}
+# {{pays|sk|d’Afrique}} {{lien|Madagascar|fr}}.
+#* {{exemple|lang=sk}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=sk}}
+[[Catégorie:Îles en slovaque]]
+
+== {{langue|sl}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étylp|fr|sl|mot=Madagascar}}.
+
+=== {{S|nom propre|sl}} ===
+'''Madagaskar''' {{pron||sl}} {{m}}
+# {{pays|sl|d’Afrique}} {{lien|Madagascar|fr}}.
+#* {{exemple|lang=sl}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=sl}}
+[[Catégorie:Îles en slovène]]
+
+== {{langue|sv}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étylp|fr|sv|mot=Madagascar}}.
+
+=== {{S|nom propre|sv}} ===
+'''Madagaskar''' {{pron||sv}}
+# {{pays|sv|d’Afrique}} {{lien|Madagascar|fr}}.
+#* {{exemple|lang=sv}}
+
+=== {{S|prononciation}} ===
+* {{écouter|Suède||lang=sv|audio=LL-Q9027 (swe)-Moonhouse-Madagaskar.wav}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=sv}}
+[[Catégorie:Îles en suédois]]
+
+== {{langue|tl}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étylp|fr|tl|mot=Madagascar}}.
+
+=== {{S|nom propre|tl}} ===
+'''Madagaskar''' {{pron||tl}}
+# {{pays|tl}} {{lien|Madagascar|fr}}.
+#* {{exemple|lang=tl}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=tl}}
+[[Catégorie:Îles en tagalog]]
+
+== {{langue|crh}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étylp|fr|crh|mot=Madagascar}}.
+
+=== {{S|nom propre|crh}} ===
+'''Madagaskar''' {{pron||crh}}
+# {{pays|crh}} {{lien|Madagascar|fr}}.
+#* {{exemple|lang=crh}}
+[[Catégorie:Îles en tatar de Crimée]]
+
+== {{langue|cs}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étyl|fr|cs|mot=Madagascar}}.
+
+=== {{S|nom propre|cs}} ===
+{{cs-décl-nom-mi-dur|sing=oui}}
+'''Madagaskar''' {{pron||cs}} {{m|i}}
+# {{pays|cs|d’Afrique}} {{lien|Madagascar|fr}}.
+#* {{exemple | lang=cs
+ | První obyvatelé '''Madagaskaru''' se na '''Madagaskar''' přeplavili na dvojitých kánoích přes Indii a východní Afriku z Indonésie asi před 2000 lety.
+ | source=Wikipedie}}
+
+==== {{S|gentilés}} ====
+* [[Madagaskařan#cs|Madagaskařan]], {{lien|Madagaskarec|cs}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=cs}}
+
+=== {{S|références}} ===
+* {{R:ÚJČ}}
+[[Catégorie:Îles en tchèque]]
+
+== {{langue|tr}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étylp|fr|tr|mot=Madagascar}}.
+
+=== {{S|nom propre|tr}} ===
+'''Madagaskar''' {{pron||tr}}
+# {{pays|tr|d’Afrique}} {{lien|Madagascar|fr}}.
+#* {{exemple|lang=tr}}
+
+=== {{S|prononciation}} ===
+* {{écouter|Izmir (Turquie)||lang=tr|audio=LL-Q256 (tur)-ToprakM-Madagaskar.wav}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=tr}}
+[[Catégorie:Îles en turc]]

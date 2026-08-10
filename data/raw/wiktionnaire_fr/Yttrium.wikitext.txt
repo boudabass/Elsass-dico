@@ -1,0 +1,69 @@
+{{voir|yttrium}}
+
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw}}
+
+=== {{S|nom|gsw}} ===
+'''Yttrium''' {{pron||gsw}} {{genre|gsw}}
+# {{éléments|gsw}} {{métaux|gsw}} [[yttrium#fr|Yttrium]].
+{{clr}}
+==== {{S|vocabulaire}} ====
+{{tableau périodique/gsw}}
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|de}}
+
+=== {{S|nom|de}} ===
+{{légende élément/de|Y}}
+[[Image:Yttrium_sublimed_dendritic_and_1cm3_cube.jpg|thumb|'''Yttrium'''.]]
+'''Yttrium''' {{pron|ˈʏtʀiʊm|de}} {{n}} ({{p}}: '''—''' )
+# {{éléments|de}} {{métaux|de}} [[yttrium#fr|Yttrium]] (l’{{lien|élément chimique}} [[Y#conv|Y]]).
+#* {{exemple | lang=de | '''Yttrium''' ist ein silbern glänzendes Metall.}}
+
+==== {{S|dérivés}} ====
+{{(|&nbsp;}}
+* {{lien|Yttrium-Aluminium-Granat|de}}
+* {{lien|Yttriumbromid|de}}
+* {{lien|Yttriumchlorid|de}}
+* {{lien|Yttrium-Eisen-Granat|de}}
+* {{lien|Yttriumfluorid|de}}
+* {{lien|Yttriumhydrid|de}}
+* {{lien|Yttriumiodid|de}}
+* {{lien|Yttriumoxid|de}}
+* {{lien|Yttriumsulfid|de}}
+* {{lien|Yttriumverbindung|de}}
+{{)}}
+{{clr}}
+==== {{S|vocabulaire}} ====
+* {{voir thésaurus|de|tableau périodique des éléments}}
+{{tableau périodique/de}}
+{{Liste|avant={{lien|Strontium|de}}<br>([[Sr#conv|Sr]])|après={{lien|Zirconium|de}} ou {{lien|Zirkonium|de}}<br>([[Zr#conv|Zr]])|liste=[[Thésaurus:tableau périodique des éléments/allemand|Éléments chimiques en allemand]]}}
+
+=== {{S|prononciation}} ===
+* {{pron|ˈʏtʀiʊm|de}}
+* {{écouter|lang=de|Allemagne (Berlin)|audio=LL-Q188 (deu)-Lucas Werkmeister-Yttrium.wav}}
+* {{écouter|lang=de|Allemagne (Berlin)|audio=LL-Q188 (deu)-Sebastian Wallroth-Yttrium.wav}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=de}}
+
+== {{langue|lb}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|lb}}
+
+=== {{S|nom|lb}} ===
+{{lb-inv|ˈitʀium}}
+'''Yttrium''' {{pron|ˈitʀium|lb}} {{m}}, {{au singulier uniquement|lb}}
+# {{éléments|lb}} {{métaux|lb}} [[yttrium#fr|Yttrium]].
+#* {{exemple|lang=lb}}
+{{clr}}
+==== {{S|vocabulaire}} ====
+{{tableau périodique/lb}}
+
+=== {{S|références}} ===
+: {{R:LOD}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=lb}}

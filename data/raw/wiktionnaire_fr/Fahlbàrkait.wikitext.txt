@@ -1,0 +1,10 @@
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: {{composé de|fahlbàr|sens1=faillible|-kait|lang=gsw|m=1}}. Cognat avec l'allemand ''{{lien|Fehlbarkeit|de}}''.
+
+=== {{S|nom|gsw}} ===
+'''Fahlbàrkait''' {{pron||gsw}} {{f}}
+# {{Région mulhousienne|gsw}} [[faillibilité#fr|Faillibilité]].
+
+=== {{S|antonymes}} ===
+* {{lien|Unfahlbàrkait|gsw}} — infaillibilité

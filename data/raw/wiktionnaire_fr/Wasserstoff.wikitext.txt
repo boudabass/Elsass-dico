@@ -1,0 +1,116 @@
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw}}
+
+=== {{S|nom|gsw}} ===
+'''Wasserstoff''' {{pron||gsw}}
+# {{éléments|gsw}} [[hydrogène|Hydrogène]].
+#* {{exemple|lang=gsw}}
+{{clr}}
+
+==== {{S|vocabulaire}} ====
+{{tableau périodique/gsw}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=gsw}}
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: {{composé de|Wasser|sens1=eau|Stoff|sens2=matière|lang=de|m=1}}, création qui remonte à la fin du {{siècle2|XVIII}} siècle.<ref>{{R:DWDS|Wasserstoff}}</ref>.
+
+=== {{S|nom|de}} ===
+{{de-nom-m-s-e|gs2=Wasserstoffes|ds2=Wasserstoffe}}
+{{légende élément/de|H}}
+'''Wasserstoff''' {{pron|ˈvasɐˌʃtɔf|de}} {{m}}
+# {{éléments|de}} {{lien|hydrogène|fr|dif=Hydrogène}}, l’élément.
+#* {{exemple|Seit den 1950er Jahren wird die Kernfusion erforscht, also jenes Prinzip zur Energiegewinnung, das der Sonne nachempfunden ist. Atomkerne von '''Wasserstoff''' und Helium verschmelzen und geben dabei ungeheure Mengen von Energie ab.|lang=de|sens=Depuis les années 1950, on étudie la fusion nucléaire, c’est-à-dire le principe de production d’énergie qui s’inspire du soleil. Les noyaux atomiques d’hydrogène et d’hélium fusionnent et libèrent ainsi d’énormes quantités d’énergie.|source={{périodique|auteur=Nick Reimer|titre=Fantastisch, aber nutzlos|journal=taz|date=10 janvier 2025|texte=https://taz.de/Union-will-Fusionsreaktor-fuer-Strom/!6061561/}}}}
+# {{lexique|chimie|de}} {{lien|hydrogène|fr|dif=Hydrogène}}, le gaz.
+#* {{exemple | lang=de | So  wird der '''Wasserstoff''' gewonnen, den das Brennstoffauto so dringend braucht. | sens=C'est ainsi que l'on obtient l'hydrogène, dont la voiture à pile à combustible a un besoin si urgent. | source=François {{pc|Vuille}}, ''Herausforderungen der Schweizer Energiewende: Verstehen, um zu wählen…'', Éditions Presse polytechniques et universitaires romandes, 2015, p. 92}}
+#* {{exemple|(Der Chemieprofessor) ließ '''Wasserstoff''' aus einem Röhrchen strömen, hielt eine Flamme an die Mündung, und mit einem Jauchzen schoß das Feuer auf. Ein halbes Gramm, sagte er, zwölf Zentimeter hoch die Flamme. Wann immer einen die Dinge erschreckten, sei es eine gute Idee, sie zu messen.|lang=de|sens=Il laissait de l’hydrogène s’échapper d’une éprouvette, approchait une bougie allumée du bord et le feu jaillissait avec un cri joyeux. Un demi-gramme, disait-il, et la flamme atteignait douze centimètres. Dès lors que l’on avait peur d’une chose, il était judicieux de la mesurer.|source={{ouvrage|auteur={{w|Daniel Kehlmann}}|titre=Die Vermessung der Welt|année=2005|éditeur=Rohwolt}}}}
+#* {{exemple|Daher gelangen (die unverdaulichen Oligosaccharide) in den Dickdarm und werden dort bakteriell zu Kohlendioxid, Methan und '''Wasserstoff''' gespalten, was sich in Form von Blähungen äußern kann.|lang=de|sens=C’est pourquoi (les oligosaccharides indigestes) arrivent dans le gros intestin où ils sont décomposés par les bactéries en dioxyde de carbone, méthane et hydrogène, ce qui peut se manifester sous forme de flatulences.|source={{périodique|auteur=Emilia Matschulla|titre=Lassen Sie die Hülsen fallen|journal=Süddeutsche Zeitung Magazin|date=27 septembre 2023|texte=https://sz-magazin.sueddeutsche.de/essen-und-trinken/huelsenfruechte-gesund-blaehungen-vermeiden-rezepte-zubereitung-92993}}}}
+#* {{exemple|Mit Millionenaufwand wurden in einigen Regionen Deutschlands teure '''Wasserstoff'''züge beschafft. Doch immer wieder müssen Fahrten und Verbindungen gestrichen werden, weil die Technik streikt oder '''Wasserstoff''' fehlt.|lang=de|sens=Dans certaines régions d'Allemagne, des trains à hydrogène coûteux ont été achetés à coups de millions. Pourtant, des trajets et des liaisons doivent régulièrement être annulés en raison de pannes de la technique ou d’un manque d'hydrogène.|source={{périodique|auteur=Thomas Eckert|titre=Sind Wasserstoffzüge ein millionenteurer Flop?|journal=Tagesschau|date=26 avril 2025|texte=https://www.tagesschau.de/wirtschaft/energie/wasserstoff-zuege-probleme-100.html}}}}
+
+==== {{S|synonymes}} ====
+* {{lien|Hydrogen|de}}
+* {{lien|Hydrogenium|de}}
+
+==== {{S|hyperonymes}} ====
+* {{lien|Element|de}}
+* {{lien|Gas|de}}
+
+==== {{S|hyponymes}} ====
+{{(|}}
+* {{lien|Antiwasserstoff|de}}
+* {{lien|Flüssigwasserstoff|de}}
+* {{lien|Solarwasserstoff|de}}
+* {{lien|Arsenwasserstoff|de}}
+* {{lien|Bromwasserstoff|de}}
+* {{lien|Chlorwasserstoff|de}}
+* {{lien|Fluorwasserstoff|de}}
+* {{lien|Halogenwasserstoff|de}}
+* {{lien|Iodwasserstoff|de}}
+* {{lien|Jodwasserstoff|de}}
+* {{lien|Kohlenwasserstoff|de}}
+* {{lien|Mineralölkohlenwasserstoff|de}}
+* {{lien|Methylwasserstoff|de}}
+* {{lien|Phosphorwasserstoff|de}}
+* {{lien|Schwefelwasserstoff|de}}
+* {{lien|Siliziumwasserstoff|de}}
+* {{lien|Zyanwasserstoff|de}}
+* {{lien|Chlorfluorkohlenwasserstoff|de}}
+* {{lien|Chlorkohlenwasserstoff|de}}
+* {{lien|Fluorchlorkohlenwasserstoff|de}}
+* {{lien|Fluorkohlenwasserstoff|de}}
+* {{lien|Halogenkohlenwasserstoff|de}}
+* {{lien|Kohlewasserstoff|de}}
+* {{lien|Protium|de}}
+{{)}}
+
+==== {{S|dérivés}} ====
+{{(|&nbsp;}}
+* {{lien|Wasserstoffantrieb|de}}
+* {{lien|Wasserstoffatom|de}}
+* {{lien|Wasserstoffauto|de}}
+* {{lien|wasserstoffbetrieben|de}}
+* {{lien|wasserstoffblond|de}}
+* {{lien|Wasserstoffblondine|de}}
+* {{lien|Wasserstoffbombe|de}}
+* {{lien|Wasserstoffbrücke|de}}
+* {{lien|Wasserstofferzeugung|de}}
+* {{lien|Wasserstoffexplosion|de}}
+* {{lien|Wasserstoffgas|de}}
+* {{lien|wasserstoffgetrieben|de}}
+* {{lien|Wasserstoffion|de}}
+* {{lien|Wasserstoffisotop|de}}
+* {{lien|Wasserstoffkern|de}}
+* {{lien|Wasserstoffmolekül|de}}
+* {{lien|Wasserstoffperoxid|de}}
+* {{lien|Wasserstoffperoxyd|de}}
+* {{lien|Wasserstoffsuperoxid|de}}
+* {{lien|Wasserstoffsuperoxyd|de}}
+* {{lien|Wasserstofftank|de}}
+* {{lien|Wasserstofftechnik|de}}
+* {{lien|Wasserstofftechnologie|de}}
+* {{lien|Wasserstoffwirtschaft|de}}
+* {{lien|Wasserstoffwolke|de}}
+{{)}}
+
+==== {{S|vocabulaire}} ====
+* {{voir thésaurus|de|tableau périodique des éléments}}
+{{tableau périodique/de}}
+{{Liste|après={{lien|Helium|de}}<br>([[He#conv|He]])|liste=[[Thésaurus:tableau périodique des éléments/allemand|Éléments chimiques en allemand]]}}
+
+=== {{S|prononciation}} ===
+* {{écouter|Vienne (Autriche)|ˈvasɐˌʃtɔf|lang=de|audio=De-at-Wasserstoff.ogg}}
+* {{écouter|Berlin (Allemagne)|ˈvasɐˌʃtɔf|lang=de|audio=De-Wasserstoff.ogg}}
+* {{écouter|{{DE|nocat=1}}|ˈvasɐˌʃtɔf|lang=de|audio=LL-Q188 (deu)-Lucas Werkmeister-Wasserstoff.wav}}
+* {{écouter|Berlin (Allemagne)|ˈvasɐˌʃtɔf|lang=de|audio=LL-Q188 (deu)-Sebastian Wallroth-Wasserstoff.wav}}
+
+=== {{S|références}} ===
+{{Références}}
+* {{R:Duden|Wasserstoff}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=de}}
+
+{{Bonne entrée|allemand}}

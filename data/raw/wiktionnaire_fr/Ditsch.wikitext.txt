@@ -1,0 +1,31 @@
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: Déformation du mot allemand [[deutsch]].
+
+=== {{S|nom propre|gsw}} ===
+'''Ditsch'''
+# [[Allemagne]] (pays européen).
+
+==== {{S|synonymes}} ====
+* [[Dütschland]]
+* [[Dytschland]]
+* [[Düütschland]]
+
+[[Catégorie:Pays en alémanique]]
+
+== {{langue|lb}} ==
+=== {{S|étymologie}} ===
+: {{date|lang=lb}} {{ébauche-étym|lb}}
+{{note noms de famille}}
+
+=== {{S|nom de famille|lb}} ===
+{{lb-inv|ditʃ}}
+'''Ditsch''' {{pron|ditʃ|lb}}
+# Nom de famille.
+#* {{exemple|lang=lb}}
+
+=== {{S|prononciation}} ===
+{{ébauche-pron-audio|lb}}
+
+=== {{S|références}} ===
+* {{R:Luxemburger Familiennamenbuch}}

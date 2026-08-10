@@ -1,0 +1,20 @@
+== {{langue|gsw}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étyl|de|gsw|mot=Volksrepublik China}}.
+
+=== {{S|nom propre|gsw}} ===
+'''Volksrepublik China'''
+# {{pays|gsw|clé=China}} [[République populaire de Chine]] (pays d’[[Asie]]).
+
+== {{langue|de}} ==
+
+=== {{S|étymologie}} ===
+: {{composé de|m=1|Volksrepublik|China|lang=de}}.
+
+=== {{S|nom propre|de}} ===
+{{de-nom-propre|genre=f}}
+'''Volksrepublik China''' {{pron||de}} {{f}}
+# {{pays|de|d’Asie|clé=China}} [[République populaire de Chine]] (pays d’[[Asie]]).
+
+[[Catégorie:Chine en allemand|*]]

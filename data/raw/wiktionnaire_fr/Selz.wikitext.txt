@@ -1,0 +1,46 @@
+== {{langue|fr}} ==
+{{ébauche|fr}}
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|fr}}
+
+=== {{S|nom propre|fr}} ===
+{{fr-inv||inv_titre=Nom propre}}
+'''Selz''' {{pron||fr}}
+# {{localités|fr|du Luxembourg}} [[section|Section]] de la commune de [[Tandel]] au [[Luxembourg]].
+
+==== {{S|traductions}} ====
+{{trad-début|}}
+* {{T|de}} : {{trad-|lb|Seltz}}
+* {{T|lb}} : {{trad-|lb|Selz}}
+{{trad-fin}}
+
+=== {{S|prononciation}} ===
+* {{écouter|||lang=fr|audio=LL-Q150 (fra)-Marie-Louise (Le Commissaire)-Selz.wav}}
+
+=== {{S|voir aussi}} ===
+* {{WP|Seltz (Luxembourg)|Selz}}
+
+== {{langue|lb}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|lb}}
+
+=== {{S|nom propre|lb}} ===
+{{lb-inv|zælts|inv_titre=Nom propre}}
+'''Selz''' {{pron|zælts|lb}}
+# {{localités|lb|du Luxembourg}} [[Selz#fr|Selz]].
+
+=== {{S|prononciation}} ===
+* {{écouter|Luxembourg|zælts|lang=lb|audio=Lb-Selz.ogg}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=lb}}
+
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw}}
+
+=== {{S|nom propre|gsw}} ===
+'''Seltz''' {{pron||gsw}}
+# {{Alsace|gsw}} {{localités|gsw|du département du Bas-Rhin}} [[Selz#fr|Selz]], [[commune]] [[français]]e, située dans le département du [[Bas-Rhin]].
+#* {{exemple|lang=gsw}}

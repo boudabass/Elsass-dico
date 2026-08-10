@@ -1,0 +1,15 @@
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: {{date|lang=gsw}} {{ébauche-étym|gsw}}
+
+=== {{S|nom|gsw}} ===
+[[Fichier:Moderne Schubkarre.jpg|vignette|A '''Schàlkàrrich''' ùff'm bode. (''Une brouette sur le sol'')]]
+'''Schàlkàrrich''' {{pron|ʃɞl.kɞ.xiʃ|gsw}}
+# {{Pays de Saverne|gsw}} [[brouette|Brouette]].
+#* {{exemple|lang=gsw}}
+
+=== {{S|références}} ===
+{{R:Alsadico}}
+
+=== {{S|prononciation}} ===
+{{ébauche-pron-audio|gsw}}

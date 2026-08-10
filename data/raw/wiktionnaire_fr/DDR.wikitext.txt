@@ -1,0 +1,198 @@
+{{voir/ddr}}
+
+== {{langue|conv}} ==
+=== {{S|étymologie}} ===
+: {{info lex|automobile}} {{date|1974}} De l’{{étyl|de|conv|Deutsche Demokratische Republik|sens=République démocratique allemande}} ».
+
+=== {{S|symbole|conv}} ===
+'''DDR''' {{invar}}
+# {{désuet|conv}} [[République démocratique allemande]] (norme {{w|ISO 3166-1}} alpha-3) en vigueur 1974–1990, absorbé par [[DEU]].
+# {{lexique|automobile|conv}} [[signe|Signe]] [[distinctif]] en [[trafic]] [[international]] des [[véhicule]]s [[automobile]]s [[immatriculé]]s en '''Allemagne de l’Est''', prescrit dans le [[cadre]] de la ''Convention sur la circulation routière de Genève'' de 1949 et de la ''Convention sur la signalisation routière de Vienne'' de 1968.
+
+=== {{S|références}} ===
+* Andreas {{pc|Herzfeld}}, [http://www.dr-herzfeld.de/kennzeichengeschichte/country.htm ''Country Identification Codes''], 26 août 2016
+
+== {{langue|fr}} ==
+=== {{S|étymologie}} ===
+:{{laé|fr|nom|1}} {{sigle|fr}} Initiales de ''dispositif différentiel à courant résiduel''.
+:{{laé|fr|nom|2}} {{sigle|fr}} De l'{{étyl|en|fr|DDR}}, sigle de ''Double Data Rate'' (« débit à double donnée »).
+:{{laé|fr|nom|3}} Initiales de ''{{lien|dispositif de dispersion radiologique|fr|nom}}''.
+
+=== {{S|nom|fr|num=1}} ===
+{{fr-inv|de.de.ɛʁ}}
+'''DDR''' {{m}}, {{sigle|fr}}
+# {{composants électriques|fr}} Dispositif différentiel à courant résiduel.
+
+==== {{S|traductions}} ====
+{{trad-début}}
+{{trad-fin}}
+
+=== {{S|nom|fr|num=2}} ===
+{{fr-inv|de.de.ɛʁ}}
+'''DDR''' {{m}}, {{sigle|fr}}
+# {{lexique|architecture des ordinateurs|fr}} Technologie qui transfère les données à la fois sur le front montant et sur le front descendant du [[signal d’horloge]].
+# {{lexique|architecture des ordinateurs|fr}} {{par extension}} [[RAM]] DDR.
+
+==== {{S|synonymes}} ====
+* [[DDRAM]] (2)
+
+==== {{S|apparentés}} ====
+* [[QDR]]
+* [[SDR]]
+
+==== {{S|dérivés}} ====
+* [[DDR1]]
+* [[DDR2]]
+* [[DDR3]]
+* [[DDR4]]
+
+==== {{S|traductions}} ====
+{{trad-début}}
+{{trad-fin}}
+
+=== {{S|nom|fr|num=3}} ===
+{{fr-inv|de.de.ɛʁ}}
+'''DDR''' {{f}}, {{sigle|fr}}
+# {{lexique|armement|nucléaire|fr}} {{lien|bombe radiologique|fr|nom|dif=Bombe radiologique}}, {{lien|bombe sale|fr|nom}}.
+
+==== {{S|traductions}} ====
+{{trad-début}}
+{{trad-fin}}
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=fr|France (Toulouse)||audio=LL-Q150 (fra)-Lepticed7-DDR.wav}}
+
+=== {{S|anagrammes}} ===
+{{voir anagrammes|fr}}
+
+=== {{S|voir aussi}} ===
+*{{WP}}
+
+== {{langue|af}} ==
+=== {{S|étymologie}} ===
+: {{sigle|af}} Sigle de ''[[Duitse Demokratiese Republiek]]''.
+
+=== {{S|nom propre|af}} ===
+'''DDR'''
+# [[RDA]] ([[République démocratique allemande]]).
+
+[[Catégorie:Pays en afrikaans]]
+[[Catégorie:Allemagne en afrikaans]]
+
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: {{sigle|gsw}} Sigle de ''[[Dütschi Demokratischi Republik]].
+
+=== {{S|nom propre|gsw}} ===
+'''DDR'''
+# [[RDA]] ([[République démocratique allemande]]).
+
+[[Catégorie:Pays en alémanique]]
+[[Catégorie:Allemagne en alémanique]]
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: {{sigle|de}} Sigle de ''[[Deutsche Demokratische Republik]]''.
+
+=== {{S|nom propre|de}} ===
+{{de-nom-propre|genre=f}}
+[[Fichier:Freilandmuseum Behrungen 5.jpg|vignette|une borne-frontière est-allemande avec l’inscription '''DDR''' gravé sur son côté occidental.]]
+'''DDR''' {{pron|ˌdeːdeːˈʔɛʁ|de}} {{sigle|de}} {{f}}
+# {{lexique|histoire|de}} {{RDA|de}} [[RDA]] ([[République démocratique allemande]]).
+#* ''Hauptstadt der '''DDR'''.'' — Capitale de la RDA.
+#* {{exemple|Heidelore Rutz wurde in der '''DDR''' inhaftiert, weil sie für ihre Ausreise demonstrierte. Die BRD kaufte sie frei.|lang=de|sens=Heidelore Rutz a été emprisonnée en RDA parce qu'elle manifestait pour quitter le pays. La RFA l'a libérée.|source={{périodique|auteur=Waltraud Schwab|titre=Klopfen wie ein Weltmeister|journal=taz|date=26 septembre 2022|texte=https://taz.de/Der-Hausbesuch/!5875496/}}}}
+
+=== {{S|prononciation}} ===
+* {{écouter|Berlin|ˌdeːdeːˈʔɛʁ|lang=de|audio=De-DDR.ogg}}
+
+[[Catégorie:Anciennes divisions géographiques en allemand]]
+[[Catégorie:Allemagne en allemand]]
+
+== {{langue|nds}} ==
+=== {{S|étymologie}} ===
+: {{sigle|nds}} Sigle de ''[[Düütsche Demokraatsche Republiek]]''.
+
+=== {{S|nom propre|nds}} ===
+'''DDR'''
+# [[RDA]] ([[République démocratique allemande]]).
+
+[[Catégorie:Pays en bas allemand]]
+[[Catégorie:Allemagne en bas allemand]]
+
+== {{langue|da}} ==
+=== {{S|étymologie}} ===
+: Emprunt à l’allemand.
+
+=== {{S|nom propre|da}} ===
+'''DDR'''
+# [[RDA]] ([[République démocratique allemande]]).
+
+[[Catégorie:Pays en danois]]
+[[Catégorie:Allemagne en danois]]
+
+== {{langue|fi}} ==
+=== {{S|étymologie}} ===
+: {{sigle|fi}} Sigle de ''[[Deutsche Demokratische Republik]]''.
+
+=== {{S|nom propre|fi}} ===
+'''DDR''' {{pron|ˈdeː.deː.ær|fi}}
+# [[RDA]] ([[République démocratique allemande]]).
+
+==== {{S|synonymes}} ====
+* [[Itä-Saksa]]
+
+[[Catégorie:Pays en finnois]]
+[[Catégorie:Allemagne en finnois]]
+
+== {{langue|nl}} ==
+=== {{S|étymologie}} ===
+: {{sigle|nl}} Sigle de ''[[Duitse Democratische Republiek]]''.
+
+=== {{S|nom propre|nl}} ===
+'''DDR'''
+# [[RDA]] ([[République démocratique allemande]]).
+
+[[Catégorie:Pays en néerlandais]]
+[[Catégorie:Allemagne en néerlandais]]
+
+== {{langue|no}} ==
+=== {{S|étymologie}} ===
+: Emprunt à l’allemand.
+
+=== {{S|nom propre|no}} ===
+'''DDR'''
+# [[RDA]] ([[République démocratique allemande]]).
+
+[[Catégorie:Pays en norvégien]]
+[[Catégorie:Allemagne en norvégien]]
+
+== {{langue|nn}} ==
+=== {{S|étymologie}} ===
+: Emprunt à l’allemand.
+
+=== {{S|nom propre|nn}} ===
+'''DDR'''
+# [[RDA]] ([[République démocratique allemande]]).
+
+[[Catégorie:Pays en norvégien (nynorsk)]]
+[[Catégorie:Allemagne en norvégien (nynorsk)]]
+
+== {{langue|scn}} ==
+=== {{S|lettre|scn}} ===
+{{lettre|pron=ɖɖ|lang=scn}}
+'''DDR''' {{pron|ɖɖ|scn}}
+# Cinquième [[lettre]] de l’[[alphabet]] sicilien.
+
+=== {{S|prononciation}} ===
+* {{écouter|Gela (Italie)||lang=scn|audio=LL-Q33973 (scn)-XANA000-DDR.wav}}
+
+== {{langue|sv}} ==
+=== {{S|étymologie}} ===
+: Emprunt à l’allemand.
+
+=== {{S|nom propre|sv}} ===
+'''DDR'''
+# [[RDA]] ([[République démocratique allemande]]).
+
+[[Catégorie:Pays en suédois]]
+[[Catégorie:Allemagne en suédois]]

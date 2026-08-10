@@ -1,0 +1,454 @@
+{{voir|Lèsóthò}}
+== {{langue|fr}} ==
+
+=== {{S|étymologie}} ===
+: Du peuple {{w|Basotho}} dont le propre nom signifie « [[noir]] de [[peau]] ».
+
+=== {{S|nom propre|fr}} ===
+[[Image:Lesotho (orthographic projection).svg|thumb|Localisation du '''Lesotho'''.]]
+'''Lesotho''' {{pron|le.su.tu|fr}}{{réfnéc|lang=fr}}, {{pron|le.zo.to|fr}} {{m}}
+# {{pays|fr|d’Afrique|pays=Lesotho|clé=*}} [[État]] [[africain]] enclavé en [[Afrique du Sud]], dont la capitale est [[Maseru]].
+#* {{exemple | lang=fr
+ | Le classement permet aussi de désigner le "pays le moins heureux de la planète" : l'Afghanistan, avec une note de 2,52, devant le Zimbabwe, le Rwanda, le Botswana et le '''Lesotho'''.
+ | source=AFP, ''La Finlande en tête du classement des pays les plus heureux du monde'', radio-canada.ca, 19 mars 2021}}
+
+==== {{S|variantes orthographiques}} ====
+* [[Lésotho]]
+
+==== {{S|abréviations}} ====
+* [[LSO]] (norme {{w|ISO 3166-1}} alpha-3)
+
+==== {{S|synonymes}} ====
+* [[Basoutoland]] ou [[Basutoland]] ''(ancien nom)''
+* [[Royaume du Lésotho]]
+
+==== {{S|gentilés}} ====
+* [[Lesothan]], [[Lesothane]], [[lesothan]]{{R|BO106}}
+* [[Lésothan]], [[Lésothane]], [[lésothan]] {{rare|nocat=1}}
+* [[Lesothien]], [[Lesothienne]], [[lesothien]]{{R|BO106}}
+* [[Lésothien]], [[Lésothienne]], [[lésothien]] {{rare|nocat=1}}
+* [[Sotho]], [[sotho]]
+
+==== {{S|traductions}} ====
+{{trad-début|Pays d’Afrique}}
+* {{T|af}} : {{trad+|af|Lesotho}}
+* {{T|sq}} : {{trad+|sq|Lesoto}}
+* {{T|gsw}} : {{trad|gsw|Lesotho}}
+* {{T|de}} : {{trad+|de|Lesotho}}
+* {{T|am}} : {{trad-|am|ሌሶቶ|R=lēsoto}}
+* {{T|en}} : {{trad+|en|Lesotho}}
+* {{T|ar}} : {{trad-|ar|ليسوتو}}
+* {{T|arz}} : {{trad|arz|ليسوتو}}
+* {{T|an}} : {{trad-|an|Lesoto}}
+* {{T|hy}} : {{trad+|hy|Լեսոթո|tr=Lesot’vo}}
+* {{T|ast}} : {{trad+|ast|Lesothu}}
+* {{T|az}} : {{trad+|az|Lesoto}}
+* {{T|bm}} : {{trad-|bm|lesoto}}
+* {{T|nds}} : {{trad+|nds|Lesotho}}
+* {{T|eu}} : {{trad-|eu|Lesotho}}
+* {{T|bn}} : {{trad+|bn|লেসোথো|R=Lēsōthō}}
+* {{T|be}} : {{trad-|be|Лясота|tr=Liasota}}
+* {{T|be-tarask}} : {{trad|be-tarask|Лесота|R=Lesota}}
+* {{T|bs}} : {{trad-|bs|Lesoto}}
+* {{T|br}} : {{trad-|br|Lesotho}}
+* {{T|bg}} : {{trad-|bg|Лесото|tr=Lesoto}}
+* {{T|ca}} : {{trad+|ca|Lesotho}}
+* {{T|ceb}} : {{trad|ceb|Lesotho}}
+* {{T|zh}} : {{trad+|zh|莱索托|R=Láisuǒtuō}}
+* {{T|ko}} : {{trad+|ko|레소토|tr=lesoto}}
+* {{T|kw}} : {{trad-|kw|Lesotho}}
+* {{T|ht}} : {{trad|ht|Lezoto}}
+* {{T|hr}} : {{trad+|hr|Lesoto}}
+* {{T|da}} : {{trad-|da|Lesotho}}
+* {{T|diq}} : {{trad-|diq|Lesotho}}
+* {{T|dv}} : {{trad+|dv|ލެސޯތޯ}}
+* {{T|es}} : {{trad+|es|Lesoto}}
+* {{T|eo}} : {{trad+|eo|Lesoto}}
+* {{T|et}} : {{trad+|et|Lesotho}}
+* {{T|fi}} : {{trad+|fi|Lesotho}}
+* {{T|frp}} : {{trad|frp|Lesothô}}
+* {{T|fy}} : {{trad+|fy|Lesoto}}
+* {{T|stq}} : {{trad|stq|Lesoto}}
+* {{T|gd}} : {{trad-|gd|Leasoto}}
+* {{T|ga}} : {{trad-|ga|Leosóta}}
+* {{T|gl}} : {{trad+|gl|Lesoto}}
+* {{T|cy}} : {{trad-|cy|Lesotho}}
+* {{T|ka}} : {{trad-|ka|ლესოთო|tr=lesot’o}}
+* {{T|el}} : {{trad-|el|Λεσότο|R=Lesóto}}, {{trad+|el|Λεσόθο|R=Lesótho}}
+* {{T|hak}} : {{trad|hak|Lòi-sò-thok}}
+* {{T|he}} : {{trad-|he|לסוטו}}
+* {{T|hi}} : {{trad+|hi|लेसोथो|R=lēsōthō}}
+* {{T|hu}} : {{trad+|hu|Lesotho}}
+* {{T|sah}} : {{trad|sah|Лесото|R=Lesoto}}
+* {{T|io}} : {{trad+|io|Lesoto}}
+* {{T|ilo}} : {{trad|ilo|Lesoto}}
+* {{T|id}} : {{trad+|id|Lesotho}}
+* {{T|ie}} : {{trad-|ie|Lesotho}}
+* {{T|is}} : {{trad+|is|Lesótó}}
+* {{T|it}} : {{trad+|it|Lesotho}}
+* {{T|ja}} : {{trad+|ja|レソト|tr=resoto}}
+* {{T|jv}} : {{trad-|jv|Lesotho}}
+* {{T|kn}} : {{trad+|kn|ಲೆಸೊಥೊ|R=Lesotho}}
+* {{T|pam}} : {{trad|pam|Lesotho}}
+* {{T|kk}} : {{trad+|kk|Лесото|tr=Lesoto}}
+* {{T|avk}} : {{trad|avk|Lesotoa}}
+* {{T|ku}} : {{trad+|ku|Lesoto}}
+* {{T|la}} : {{trad-|la|Lesothum}}
+* {{T|lv}} : {{trad-|lv|Lesoto}}
+* {{T|lij}} : {{trad|lij|Lesòthò}}
+* {{T|ln}} : {{trad-|ln|Lesoto}}
+* {{T|lt}} : {{trad+|lt|Lesotas}}
+* {{T|lmo}} : {{trad-|lmo|Lesotho}}
+* {{T|lb}} : {{trad-|lb|Lesotho}}
+* {{T|mk}} : {{trad-|mk|Лесото|tr=Lesoto}}
+* {{T|ms}} : {{trad+|ms|Lesotho}}
+* {{T|ml}} : {{trad-|ml|ലെസോത്തോ|R=lesēāttēā}}
+* {{T|mt}} : {{trad-|mt|Lesoto}}
+* {{T|bpy}} : {{trad|bpy|লেসাথো}}
+* {{T|gv}} : {{trad-|gv|Lesoto}}
+* {{T|nan}} : {{trad-|nan|Lesotho}}
+* {{T|nl}} : {{trad+|nl|Lesotho}}
+* {{T|no}} : {{trad+|no|Lesotho}}
+* {{T|nn}} : {{trad+|no|Lesotho}}
+* {{T|nov}} : {{trad|nov|Lesutu}}
+* {{T|oc}} : {{trad-|oc|Lesotho}}, {{trad-|oc|Lesoto}}
+* {{T|os}} : {{trad|os|Лесото|R=Lesoto}}
+* {{T|ug}} : {{trad-|ug|لېسوتو}}, {{trad-|ug|Lésoto}}
+* {{T|ur}} : {{trad-|ur|لیسوتھو}}
+* {{T|uz}} : {{trad+|uz|Lesoto}}
+* {{T|ps}} : {{trad-|ps|لېسوتو}}
+* {{T|fa}} : {{trad-|fa|لسوتو}}
+* {{T|pms}} : {{trad|pms|Lesotho}}
+* {{T|pl}} : {{trad+|pl|Lesotho}}
+* {{T|pt}} : {{trad+|pt|Lesoto}}
+* {{T|qu}} : {{trad-|qu|Suthusuyu}}
+* {{T|ro}} : {{trad+|ro|Lesotho}}
+* {{T|ru}} : {{trad+|ru|Лесото|tr=Lesoto}}
+* {{T|se}} : {{trad|se|Lesotho}}
+* {{T|sgs}} : {{trad|sgs|Lesuots}}
+* {{T|sa}} : {{trad-|sa|लेसोथो}}
+* {{T|sco}} : {{trad|sco|Lesotho}}
+* {{T|sr}} : {{trad+|sr|Лесото|R=Lesoto}}
+* {{T|sh}} : {{trad+|sh|Lesoto}}
+* {{T|scn}} : {{trad-|scn|Lesothu}}
+* {{T|sk}} : {{trad-|sk|Lesotho}}
+* {{T|sl}} : {{trad+|sl|Lesoto}}
+* {{T|st}} : {{trad+|st|Lesotho}}
+* {{T|sv}} : {{trad+|sv|Lesotho}}
+* {{T|sw}} : {{trad+|sw|Lesotho}}
+* {{T|ss}} : {{trad-|ss|ÉLusûtfu}}
+* {{T|tg}} : {{trad-|tg|Лесото|R=Lesoto}}
+* {{T|tl}} : {{trad+|tl|Lesotho}}
+* {{T|ta}} : {{trad-|ta|லெசோத்தோ|R=Lecōttō}}
+* {{T|crh}} : {{trad|crh|Lesoto}}
+* {{T|cs}} : {{trad+|cs|Lesotho}}
+* {{T|cv}} : {{trad|cv|Лесото|R=Lesoto}}
+* {{T|th}} : {{trad-|th|ประเทศเลโซโท|R=Pra theṣ̄ le so tho}}
+* {{T|tok}} : {{trad|tok|ma Lesoto}}
+* {{T|tr}} : {{trad+|tr|Lesoto}}
+* {{T|uk}} : {{trad+|uk|Лесото|R=Lesoto}}
+* {{T|ve}} : {{trad|ve|Li-Sotho}}
+* {{T|vec}} : {{trad-|vec|Lesotho}}
+* {{T|vi}} : {{trad-|vi|Lesotho}}
+* {{T|vo}} : {{trad-|vo|Sutuvän}}
+* {{T|wo}} : {{trad-|wo|Lesoto}}
+* {{T|yo}} : {{trad-|yo|Lèsóthò}}
+* {{T|zea}} : {{trad|zea|Lesotho}}
+{{trad-fin}}
+
+=== {{S|prononciation}} ===
+* {{pron|le.su.tu|fr}}{{réfnéc|lang=fr}}
+* {{pron|le.zo.to|fr}}
+** {{écouter||le.zo.to|lang=fr|audio=Fr-Lesotho.oga}}
+** {{écouter||le.zo.to|lang=fr|audio=LL-Q150 (fra)-Jules78120-Lesotho.wav}}
+** {{écouter|Perpignan (France)|le.zo.to|lang=fr|audio=LL-Q150 (fra)-Aloïs Cárdenas (Culex)-Lesotho.wav}}
+
+=== {{S|voir aussi}} ===
+* {{WP}}
+
+=== {{S|références}} ===
+<references>
+{{R|BO106}}
+</references>
+
+== {{langue|af}} ==
+=== {{S|nom propre|af}} ===
+'''Lesotho''' {{pron||af}}
+# {{pays|af|d’Afrique|pays=Lesotho|clé=*}} [[#fr|Lesotho]] (pays d’Afrique).
+#* {{exemple|lang=af}}
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=af|Afrique du Sud (Johannesbourg)|audio=LL-Q14196 (afr)-Oesjaar-Lesotho.wav}}
+
+== {{langue|gsw}} ==
+=== {{S|nom propre|gsw}} ===
+'''Lesotho''' {{pron||gsw}}
+# {{pays|gsw|d’Afrique|pays=Lesotho|clé=*}} [[#fr|Lesotho]] (pays d’Afrique).
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=gsw}}
+
+== {{langue|de}} ==
+=== {{S|nom propre|de}} ===
+'''Lesotho''' {{pron||de}}
+# {{pays|de|d’Afrique|pays=Lesotho|clé=*}} [[#fr|Lesotho]] (pays d’Afrique).
+
+== {{langue|en}} ==
+=== {{S|nom propre|en}} ===
+'''Lesotho''' {{pron||en}}
+# {{pays|en|d’Afrique|pays=Lesotho|clé=*}} [[#fr|Lesotho]] (pays d’Afrique).
+
+==== {{S|gentilés}} ====
+* [[Lesothan]]
+* [[Sotho]]
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=en|Royaume-Uni (Sud de l'Angleterre)||audio=LL-Q1860 (eng)-Vealhurl-Lesotho.wav}}
+* {{écouter|Londres (Royaume-Uni)||lang=en|audio=LL-Q1860 (eng)-Soundguys-Lesotho.wav}}
+
+== {{langue|nds}} ==
+=== {{S|nom propre|nds}} ===
+'''Lesotho''' {{pron||nds}}
+# {{pays|nds|d’Afrique|pays=Lesotho|clé=*}} [[#fr|Lesotho]] (pays d’Afrique).
+
+== {{langue|eu}} ==
+=== {{S|nom propre|eu}} ===
+'''Lesotho''' {{pron||eu}}
+# {{pays|eu|d’Afrique|pays=Lesotho|clé=*}} [[#fr|Lesotho]] (pays d’Afrique).
+
+== {{langue|br}} ==
+=== {{S|nom propre|br}} ===
+'''Lesotho''' {{pron||br}}
+# {{pays|br|d’Afrique|pays=Lesotho|clé=*}} [[#fr|Lesotho]] (pays d’Afrique).
+
+== {{langue|ca}} ==
+=== {{S|nom propre|ca}} ===
+'''Lesotho''' {{pron||ca}}
+# {{pays|ca|d’Afrique|pays=Lesotho|clé=*}} [[#fr|Lesotho]] (pays d’Afrique).
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=ca|Espagne (Villarreal)||audio=LL-Q7026 (cat)-Millars-Lesotho.wav}}
+
+== {{langue|ceb}} ==
+=== {{S|nom propre|ceb}} ===
+'''Lesotho''' {{pron||ceb}}
+# {{pays|ceb|d’Afrique|pays=Lesotho|clé=*}} [[#fr|Lesotho]] (pays d’Afrique).
+
+== {{langue|kw}} ==
+=== {{S|nom propre|kw}} ===
+'''Lesotho''' {{pron||kw}}
+# {{pays|kw|d’Afrique|pays=Lesotho|clé=*}} [[#fr|Lesotho]] (pays d’Afrique).
+
+== {{langue|da}} ==
+=== {{S|nom propre|da}} ===
+'''Lesotho''' {{pron||da}}
+# {{pays|da|d’Afrique|pays=Lesotho|clé=*}} [[#fr|Lesotho]] (pays d’Afrique).
+
+== {{langue|diq}} ==
+=== {{S|nom propre|diq}} ===
+'''Lesotho''' {{pron||diq}}
+# {{pays|diq|d’Afrique|pays=Lesotho|clé=*}} [[#fr|Lesotho]] (pays d’Afrique).
+
+== {{langue|et}} ==
+=== {{S|nom propre|et}} ===
+'''Lesotho''' {{pron||et}}
+# {{pays|et|d’Afrique|pays=Lesotho|clé=*}} [[#fr|Lesotho]] (pays d’Afrique).
+
+== {{langue|fi}} ==
+=== {{S|nom propre|fi}} ===
+'''Lesotho''' {{pron|ˈlesotho|fi}}
+# {{pays|fi|d’Afrique|pays=Lesotho|clé=*}} [[#fr|Lesotho]] (pays d’Afrique).
+#* {{exemple|lang=fi}}
+
+==== {{S|dérivés}} ====
+* {{lien|lesotholainen|fi}} — Lésothien, Lésothienne
+
+== {{langue|cy}} ==
+=== {{S|nom propre|cy}} ===
+'''Lesotho''' {{pron||cy}}
+# {{pays|cy|d’Afrique|pays=Lesotho|clé=*}} [[#fr|Lesotho]] (pays d’Afrique).
+
+== {{langue|hu}} ==
+=== {{S|nom propre|hu}} ===
+'''Lesotho''' {{pron||hu}}
+# {{pays|hu|d’Afrique|pays=Lesotho|clé=*}} [[#fr|Lesotho]] (pays d’Afrique).
+
+== {{langue|id}} ==
+=== {{S|nom propre|id}} ===
+'''Lesotho''' {{pron||id}}
+# {{pays|id|d’Afrique|pays=Lesotho|clé=*}} [[#fr|Lesotho]] (pays d’Afrique).
+#* {{exemple|lang=id}}
+
+== {{langue|ie}} ==
+=== {{S|nom propre|ie}} ===
+'''Lesotho''' {{pron||ie}}
+# {{pays|ie|d’Afrique|pays=Lesotho|clé=*}} [[#fr|Lesotho]] (pays d’Afrique).
+
+== {{langue|it}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|it}}
+
+=== {{S|nom propre|it}} ===
+{{it-inv|le.ˈsɔ.to}}
+'''Lesotho''' {{pron|le.ˈsɔ.to|it}} {{m}}
+# {{pays|it|d’Afrique|pays=Lesotho|clé=*}} [[#fr|Lesotho]] (pays d’Afrique).
+
+==== {{S|variantes orthographiques}} ====
+* [[Lesoto#it|Lesoto]]
+
+==== {{S|gentilés}} ====
+* [[lesothiano#it|lesothiano]], [[lesothiana#it|lesothiana]]
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=it}}
+* [[Annexe:Pays et leurs gentilés en italien]]
+
+== {{langue|jv}} ==
+=== {{S|nom propre|jv}} ===
+'''Lesotho''' {{pron||jv}}
+# {{pays|jv|d’Afrique|pays=Lesotho|clé=*}} [[#fr|Lesotho]] (pays d’Afrique).
+
+== {{langue|pam}} ==
+=== {{S|nom propre|pam}} ===
+'''Lesotho''' {{pron||pam}}
+# {{pays|pam|d’Afrique|pays=Lesotho|clé=*}} [[#fr|Lesotho]] (pays d’Afrique).
+
+== {{langue|lmo}} ==
+=== {{S|nom propre|lmo}} ===
+'''Lesotho''' {{pron||lmo}}
+# {{pays|lmo|d’Afrique|pays=Lesotho|clé=*}} [[#fr|Lesotho]] (pays d’Afrique).
+
+== {{langue|lb}} ==
+=== {{S|étymologie}} ===
+: Du {{étylp|st|lb|Lesotho}}.
+
+=== {{S|nom propre|lb}} ===
+{{lb-inv|leːzˈoːtoː|inv_titre=Nom propre}}
+'''Lesotho''' {{pron|leːzˈoːtoː|lb}} {{mn ?|lb}}
+# {{pays|lb|d’Afrique|pays=Lesotho|clé=*}} {{lien|Lesotho|fr}} (pays d’Afrique).
+#* {{exemple|lang=lb}}
+
+==== {{S|gentilés}} ====
+* {{lien|Lesother|lb}}, {{lien|Lesotherin|lb}}
+* {{lien|lesothesch|lb}}
+
+=== {{S|voir aussi}} ===
+{{liste projets|lb|Q1013}}
+
+=== {{S|références}} ===
+: {{R:LOD}}
+
+== {{langue|ms}} ==
+=== {{S|nom propre|ms}} ===
+'''Lesotho''' {{pron||ms}}
+# {{pays|ms|d’Afrique|pays=Lesotho|clé=*}} [[#fr|Lesotho]] (pays d’Afrique).
+
+== {{langue|nan}} ==
+=== {{S|nom propre|nan}} ===
+'''Lesotho''' {{pron||nan}}
+# {{pays|nan|d’Afrique|pays=Lesotho|clé=*}} [[#fr|Lesotho]] (pays d’Afrique).
+
+== {{langue|nl}} ==
+=== {{S|nom propre|nl}} ===
+'''Lesotho''' {{pron||nl}}
+# {{pays|nl|d’Afrique|pays=Lesotho|clé=*}} [[#fr|Lesotho]] (pays d’Afrique).
+
+=== {{S|prononciation}} ===
+* {{écouter|||lang=nl|audio=Nl-Lesotho.ogg}}
+
+== {{langue|no}} ==
+=== {{S|nom propre|no}} ===
+'''Lesotho''' {{pron||no}}
+# {{pays|no|d’Afrique|pays=Lesotho|clé=*}} [[#fr|Lesotho]] (pays d’Afrique).
+
+== {{langue|nn}} ==
+=== {{S|nom propre|nn}} ===
+'''Lesotho''' {{pron||nn}}
+# {{pays|nn|d’Afrique|pays=Lesotho|clé=*}} [[#fr|Lesotho]] (pays d’Afrique).
+
+== {{langue|oc}} ==
+=== {{S|nom|oc}} ===
+'''Lesotho''' {{pron||oc}}
+# {{pays|oc|d’Afrique|pays=Lesotho|clé=*}} [[#fr|Lesotho]] (pays d’Afrique).
+
+== {{langue|pms}} ==
+=== {{S|nom propre|pms}} ===
+'''Lesotho''' {{pron||pms}}
+# {{pays|pms|d’Afrique|pays=Lesotho|clé=*}} [[#fr|Lesotho]] (pays d’Afrique).
+
+== {{langue|pl}} ==
+=== {{S|nom propre|pl}} ===
+'''Lesotho''' {{pron||pl}}
+# {{pays|pl|d’Afrique|pays=Lesotho|clé=*}} [[#fr|Lesotho]] (pays d’Afrique).
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=pl|Pologne (Varsovie)||audio=LL-Q809 (pol)-Olaf-Lesotho.wav}}
+
+== {{langue|ro}} ==
+=== {{S|nom propre|ro}} ===
+'''Lesotho''' {{pron||ro}}
+# {{pays|ro|d’Afrique|pays=Lesotho|clé=*}} [[#fr|Lesotho]] (pays d’Afrique).
+
+=== {{S|prononciation}} ===
+* {{écouter|Iași (Roumanie)||lang=ro|audio=LL-Q7913 (ron)-KlaudiuMihaila-Lesotho.wav}}
+
+== {{langue|se}} ==
+=== {{S|nom propre|se}} ===
+{{se-décl-sing|accgén=Lesotho|ill=Lesothoi|locsép=Lesothos|com=Lesothoin|ess=}}
+'''Lesotho''' {{phono|ˈlesotho|se}}
+# {{pays|se|d’Afrique|pays=Lesotho|clé=*}} {{lien|Lesotho|fr}} (pays d’Afrique).
+#* {{exemple|Ráddjehusat gustojit dáid riikkaide: Mátta-Afrihká, Namibia, Zimbabwe, Botswana, Mosambik, '''Lesotho''', Eswatini ja Malawi.|source=[https://www.regjeringen.no/se/aktuelt/regjeringen-innforer-flere-tiltak-for-a-begrense-spredning-av-ny-virusvariant-til-norge/id2889911/ ''regjeringen.no'']
+|Les restrictions concernent ces pays : l’Afrique du Sud, la Namibie, la Zambie, le Zimbawe, le Botwana, le Mozambique, le Lesotho, l’eSwatini  et le Malawi.|lang=se}}
+
+=== {{S|nom|se|flexion}} ===
+'''Lesotho''' {{phono|ˈlesotho|se}}
+# ''Génitif singulier de'' {{lien|Lesotho|se}}.
+# ''Accusatif singulier de'' {{lien|Lesotho|se}}.
+
+== {{langue|sk}} ==
+=== {{S|nom propre|sk}} ===
+'''Lesotho''' {{pron||sk}}
+# {{pays|sk|d’Afrique|pays=Lesotho|clé=*}} [[#fr|Lesotho]] (pays d’Afrique).
+
+== {{langue|st}} ==
+=== {{S|nom propre|st}} ===
+'''Lesotho''' {{pron||st}}
+# {{pays|st|d’Afrique|pays=Lesotho|clé=*}} [[#fr|Lesotho]] (pays d’Afrique).
+
+== {{langue|sv}} ==
+=== {{S|nom propre|sv}} ===
+'''Lesotho''' {{pron||sv}}
+# {{pays|sv|d’Afrique|pays=Lesotho|clé=*}} [[#fr|Lesotho]] (pays d’Afrique).
+
+=== {{S|prononciation}} ===
+* {{écouter|Suède||lang=sv|audio=LL-Q9027 (swe)-Moonhouse-Lesotho.wav}}
+
+== {{langue|sw}} ==
+=== {{S|nom propre|sw}} ===
+'''Lesotho''' {{pron||sw}}
+# {{pays|sw|d’Afrique|pays=Lesotho|clé=*}} [[#fr|Lesotho]] (pays d’Afrique).
+
+== {{langue|tl}} ==
+=== {{S|nom propre|tl}} ===
+'''Lesotho''' {{pron||tl}}
+# {{pays|tl|d’Afrique|pays=Lesotho|clé=*}} [[#fr|Lesotho]] (pays d’Afrique).
+
+== {{langue|cs}} ==
+=== {{S|nom propre|cs}} ===
+'''Lesotho''' {{pron||cs}}
+# {{pays|cs|d’Afrique|pays=Lesotho|clé=*}} [[#fr|Lesotho]] (pays d’Afrique).
+
+== {{langue|vec}} ==
+=== {{S|nom propre|vec}} ===
+'''Lesotho''' {{pron||vec}}
+# {{pays|vec|d’Afrique|pays=Lesotho|clé=*}} [[#fr|Lesotho]] (pays d’Afrique).
+
+== {{langue|vi}} ==
+=== {{S|nom propre|vi}} ===
+'''Lesotho''' {{pron||vi}}
+# {{pays|vi|d’Afrique|pays=Lesotho|clé=*}} [[#fr|Lesotho]] (pays d’Afrique).
+
+== {{langue|zea}} ==
+=== {{S|nom propre|zea}} ===
+'''Lesotho''' {{pron||zea}}
+# {{pays|zea|d’Afrique|pays=Lesotho|clé=*}} [[#fr|Lesotho]] (pays d’Afrique).

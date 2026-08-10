@@ -1,0 +1,594 @@
+{{voir/montreal}}
+
+== {{langue|fr}} ==
+=== {{S|étymologie}} ===
+: ''(1575)'' Par {{univerbation|fr}} de {{composé de|lang=fro|mont|réal|sens2=royal}}. Le [[mont Royal]] est la colline qui domine l’[[île de Montréal]] et qui fut baptisée par {{w|Jacques Cartier}} en 1532. La plus ancienne attestation de l’orthographe '''''Montréal''''' date de 1575 par {{w|François de Belleforest}}.
+
+=== {{S|nom propre|fr}} ===
+{{fr-inv|mɔ̃.ʁe.al|inv_titre=Nom propre}}
+[[Image:VuedeMontreal.jpg|vignette|Centre-ville de '''Montréal''' (Québec).]]
+'''Montréal''' {{pron|mɔ̃.ʁe.al|fr}} {{mf ?|fr}} {{s}}
+# {{localités|nocat|du Québec}} [[métropole|Métropole]] de la [[province]] de [[Québec]].
+#* {{exemple | lang=fr
+ | Je reviendrai à '''Montréal'''<br/>Dans un grand Boeing bleu de mer ;<br/>J’ai besoin de revoir l’hiver<br/>Et ses aurores boréales.
+ | source=''Je reviendrai à Montréal'', chanson de {{w|Robert Charlebois}}, paroles de {{w|Daniel Thibon}}, 1976}}
+#* {{exemple | lang=fr
+ | Demain matin, '''Montréal''' m’attend
+ | source={{w|Michel Tremblay}}, {{w|François Dompierre}}, titre de chanson}}
+#* {{exemple | lang=fr
+ | J’ai eu pas mal de clients avec le gaz qui a remonté à '''Montréal''' les gens vont tinquer aujourd’hui, et toi?
+ | source=Audrey Huard, ''Avec un grand A'', 2016, page 66}}
+# {{localités|fr|du département de l’Ardèche}} [[commune|Commune]] [[français]]e, située dans le département de l’[[Ardèche]].
+# {{localités|fr|du département de l’Aude}} [[commune|Commune]] [[français]]e, située dans le département de l’[[Aude]].
+#* {{exemple|1654, ''Septembre 1{{er}}''. Acte (La Rose, notaire et secrétaire du Chapitre cathédral, et Farabosc, notaire et secrétaire du Chapitre collégial) portant fixation des bornes divisoires du décimaire d’Alzonne, dans le décimaire de '''Montréal'''. |source={{w|Jacques-Alphonse Mahul}}, ''Cartulaire et archives des communes de l'ancien diocèse et de l'arrondissement administratif de Carcassonne'', tome 3, Paris : chez V. Didron & chez Dumoulin, 1857, p. 334|lang=fr}}
+#* {{exemple | lang=fr
+ | En 1240, ce jeune vicomte Raymond de Trincavel, dernier des vicomtes de Béziers, […] s’empare, sans se heurter à une sérieuse résistance, des châteaux de '''Montréal''', des villes de Montolieu, de Saissac, de Limoux, d’Azillan, de Laurens et se présente devant Carcassonne.
+ | source={{w|Eugène Viollet-le-Duc}}, ''{{ws|La Cité de Carcassonne/éd. 1888/Histoire|La Cité de Carcassonne}}'', 1888}}
+# {{localités|fr|du département du Gers}} [[commune|Commune]] [[français]]e, située dans le département du [[Gers]].
+# {{localités|fr|du département de l’Yonne}} [[commune|Commune]] [[français]]e, située dans le département de l’[[Yonne]].
+# {{localités|fr|de France|nocat=oui}} Ancien nom de la commune française [[Montréal-la-Cluse]].
+# Forme courte de [[Montréal-les-Sources]].
+
+==== {{S|variantes orthographiques}} ====
+* '''Moréal''' ''(Transcription phonétique de la prononciation populaire)'' ''(Rare à l’écrit)''
+** ''— Vous faire photographier, et où ça?<br>— À '''Moréal'''.'' {{source|{{w|Rodolphe {{smcp|Girard}}}}, ''{{w|Marie Calumet}}'', Montréal, 1904, ch. XVI}}
+
+==== {{S|synonymes}} ====
+''Métropole québécoise :''
+* [[ville aux cent clochers]] (ou aux mille clochers)
+
+==== {{S|gentilés}} ====
+{{(|Métropole québécoise, communes de l’Ain, l’Ardèche, de l’Aude, de la Drôme, du Gers, de l’Yonne}}
+* [[Montréalais]], [[Montréalaise]], [[montréalais]]
+* [[Montréaliste]], [[montréaliste]]
+{{)}}
+
+==== {{S|dérivés}} ====
+{{(}}
+* [[Canadien de Montréal]]
+* [[couronne de Montréal]]
+* [[couronne nord de Montréal]]
+* [[Montréal-Est]]
+* [[Montréal-Ouest]]
+* [[montréalisation]]
+* [[montréaliser]]
+* [[montréalocentrisme]]
+* [[montréalophobe]]
+* [[montréalophobie]]
+* [[remontréaliser]]
+{{)}}
+
+==== {{S|vocabulaire}} ====
+* [[450]]
+* [[couronne nord]]
+* [[mont Royal]]
+* [[Rive-Sud]]
+{{(|Villes limitrophes}}
+* [[Anjou]], [[Ville d'Anjou]]
+* [[Dorval]]
+* [[Laval]]
+* [[Longueuil]]
+* [[Mont-Royal]]
+* [[Outremont]]
+* [[Verdun]]
+* [[Westmount]]
+{{)}}
+
+==== {{S|méronymes}} ====
+{{(|Arrondissements de Montréal}}
+* [[Ahuntsic-Cartierville]]
+* [[Anjou]]
+* [[Côte-des-Neiges–Notre-Dame-de-Grâce]]
+* [[Lachine]]
+* [[LaSalle]]
+* [[Plateau]], [[Plateau-Mont-Royal]], [[Le Plateau]], [[Le Plateau-Mont-Royal]]
+* [[Le Sud-Ouest]]
+* [[L'Île-Bizard–Saint-Geneviève]]
+* [[Mercier–Hochelaga-Maisonneuve]]
+* [[Montréal-Nord]]
+* [[Outremont]]
+* [[Pierrefonds-Roxboro]]
+* [[Rivière-des-Prairies–Pointe-aux-Trembles]]
+* [[Rosemont–La Petite-Patrie]]
+* [[Saint-Laurent]], [[Saint-Lau]]
+* [[Saint-Léonard]]
+* [[Verdun]]
+* [[Ville-Marie]]
+* [[Villeray–Saint-Michel–Parc-Extension]]
+{{)}}
+{{(|Quartiers de Montréal}}
+* [[Ahuntsic]]
+* [[Cartierville]]
+* [[Côte-des-Neiges]]
+* [[Hochelaga]], [[Hochelag]]
+* [[La Petite-Patrie]], [[Petite-Patrie]]
+* [[Mile End]]
+* [[Montréal-Sud]]
+* [[Notre-Dame-de-Grâce]], [[NDG]]
+* [[Rivière-des-Prairies]]
+* [[Rosemont]]
+* [[Saint-Henri]]
+* [[Parc-Extension]]
+* [[Pointe-aux-Trembles]]
+* [[Vieux-Montréal]]
+* [[Villeray]]
+{{)}}
+
+==== {{S|holonymes}} ====
+''Métropole québécoise :''
+* [[île de Montréal]]
+** [[grand Montréal]]
+*** [[Québec]]
+**** [[Canada]]
+***** [[Amérique du Nord]]
+
+==== {{S|traductions}} ====
+{{trad-début|Métropole québécoise}}
+* {{T|abe}} : {{trad|abe|Molian}}
+* {{T|af}} : {{trad+|af|Montreal}}
+* {{T|sq}} : {{trad-|sq|Montreali}}
+* {{T|gsw}} : {{trad|gsw|Montréal}}
+* {{T|de}} : {{trad+|de|Montreal}}
+* {{T|en}} : {{trad+|en|Montreal}}, {{trad+|en|Montréal}}
+* {{T|ar}} : {{trad-|ar|مونتريال|R=Muntrial}}
+* {{T|an}} : {{trad-|an|Mon Reyal}}, {{trad-|an|Mont-reyal}}
+* {{T|hy}} : {{trad-|hy|Մոնրեալ|tr=Monreal}}
+* {{T|ast}} : {{trad-|ast|Montreal}}
+* {{T|atj}} : {{trad|atj|Moriak}}
+* {{T|az}} : {{trad-|az|Monreal}}
+* {{T|ba}} : {{trad|ba|Монреаль|tr=Monreal’}}
+* {{T|eu}} : {{trad-|eu|Montreal}}
+* {{T|be}} : {{trad-|be|Горад Манрэаль|tr=Horad Manreaĺ}}
+* {{T|bcl}} : {{trad|bcl|Montreal}}
+* {{T|bs}} : {{trad-|bs|Montreal}}
+* {{T|br}} : {{trad-|br|Montreal}}
+* {{T|bg}} : {{trad-|bg|Монреал|tr=Monreal}}
+* {{T|yue}} : {{trad|yue|滿地可}}
+* {{T|ca}} : {{trad-|ca|Mont-real}}
+* {{T|ceb}} : {{trad|ceb|Montréal}}
+* {{T|cbk-zam}} : {{trad|cbk-zam|Monteal}}
+* {{T|zh}} : {{trad+|zh|蒙特利尔|R=Méngtèlì’ěr|tradi=蒙特利爾}}, {{familier|nocat=1}} {{trad+|zh|蒙城|R=Méngchéng|}}{{réf|1}}
+* {{T|ko}} : {{trad+|ko|몬트리올|tr=monteuliol}}
+* {{T|kw}} : {{trad-|kw|Montreal}}
+* {{T|ht}} : {{trad|ht|Monreyal}}
+* {{T|cr}} : {{trad|cr|ᒧᓄᑐᐁᐊ}}
+* {{T|hr}} : {{trad-|hr|Montréal}}
+* {{T|da}} : {{trad-|da|Montreal}}
+* {{T|es}} : {{trad+|es|Montreal}}
+* {{T|eo}} : {{trad-|eo|Montrealo}}
+* {{T|et}} : {{trad+|et|Montréal}}
+* {{T|fo}} : {{trad-|fo|Montreal}}
+* {{T|fi}} : {{trad+|fi|Montreal}}
+* {{T|fy}} : {{trad-|fy|Montreal}}
+* {{T|fry}} : {{trad|fry|Montreal}}
+* {{T|gd}} : {{trad-|gd|Montreal}}
+* {{T|ga}} : {{trad-|ga|Montréal}}
+* {{T|gl}} : {{trad-|gl|Montreal}}
+* {{T|cy}} : {{trad-|cy|Montreal}}
+* {{T|ka}} : {{trad-|ka|მონრეალი|tr=monreali}}
+* {{T|el}} : {{trad+|el|Μόντρεαλ|R=Móntreal}}
+* {{T|gn}} : {{trad-|gn|Montreal}}
+* {{T|ha}} : {{trad-|ha|Montréal}}
+* {{T|he}} : {{trad-|he|מונטריאול}}
+* {{T|hi}} : {{trad-|hi|मॉन्ट्रियल|R=montriyal}}
+* {{T|hu}} : {{trad+|hu|Montreal}}
+* {{T|sah}} : {{trad|sah|Монреал|tr=Monreal’}}
+* {{T|io}} : {{trad-|io|Montréal}}
+* {{T|id}} : {{trad-|id|Montreal}}
+* {{T|iu}} : {{trad-|iu|ᒧᕆᐊᓪ|R=manrial}}
+* {{T|is}} : {{trad-|is|Montréal}}
+* {{T|it}} : {{trad-|it|Montréal}}
+* {{T|ja}} : {{trad-|ja|モントリオール|tr=Montoriōru}}
+* {{T|kab}} : {{trad|kab|Montreal}}
+* {{T|kl}} : {{trad-|kl|Montréal}}
+* {{T|kk}} : {{trad-|kk|Монреаль|tr=Monreal’}}
+* {{T|ky}} : {{trad-|ky|Монреаль|tr=Monreal’}}
+* {{T|la}} : {{trad-|la|Mons Regius}} (lié à Mont Royal), {{trad-|la|Marianopolis}} (lié à Ville-Marie)
+* {{T|lv}} : {{trad-|lv|Monreāla}}
+* {{T|ln}} : {{trad-|ln|Montréal}}
+* {{T|lt}} : {{trad-|lt|Monrealis}}
+* {{T|lmo}} : {{trad|lmo|Montreal}}
+* {{T|lb}} : {{trad-|lb|Montréal}}
+* {{T|mk}} : {{trad-|mk|Монтреал|tr=Montreal}}
+* {{T|ms}} : {{trad-|ms|Montreal}}
+* {{T|mr}} : {{trad-|mr|मंट्रियाल|R=Maṇṭriyāla}}
+* {{T|nan}} : {{trad|nan|Montréal}}
+* {{T|moh}} : {{trad|moh|Tiohtià:ke}}, {{trad|moh|Teionihtiohtiá:kon}} {{trad|moh|Kawénote Teionhtiá:kon}}
+* {{T|nap}} : {{trad|nap|Mundreale}}
+* {{T|nl}} : {{trad-|nl|Montréal}}
+* {{T|no}} : {{trad-|no|Montréal}}
+* {{T|nn}} : {{trad-|no|Montreal}}
+* {{T|oc}} : {{trad-|oc|Montreal}}
+* {{T|os}} : {{trad|os|Монреаль}}
+* {{T|ug}} : {{trad-|ug|Montréal}}, {{trad-|ug|مونترېئال}}
+* {{T|pap}} : {{trad|pap|Montreal}}
+* {{T|pa}} : {{trad-|pa|ਮੋਨਟਰਿਆਲ|R=Mōnaṭari’āla}}
+* {{T|fa}} : {{trad-|fa|مونتریال}}
+* {{T|pl}} : {{trad+|pl|Montreal}}
+* {{T|pt}} : {{trad-|pt|Montreal}}
+* {{T|qu}} : {{trad-|qu|Montreal}}
+* {{T|ro}} : {{trad-|ro|Montréal}}
+* {{T|ru}} : {{trad+|ru|Монреаль|tr=Monreal’}}
+* {{T|sgs}} : {{trad|sgs|Muonrealės}}
+* {{T|sc}} : {{trad|sc|Montreal}}
+* {{T|sr}} : {{trad-|sr|Монтреал|R=Montreal}}
+* {{T|sh}} : {{trad+|sh|Montreal}}
+* {{T|scn}} : {{trad-|scn|Montréal}}, {{trad-|scn|Muntriali}}
+* {{T|szl}} : {{trad|szl|Montreal}}
+* {{T|sk}} : {{trad-|sk|Montreal}}
+* {{T|sl}} : {{trad-|sl|Montréal}}
+* {{T|so}} : {{trad-|so|Montreal}}
+* {{T|nso}} : {{trad|nso|Montréal}}
+* {{T|sv}} : {{trad+|sv|Montréal}}
+* {{T|sw}} : {{trad-|sw|Montreal}}
+* {{T|tg}} : {{trad-|tg|Монреал|tr=Monreal}}
+* {{T|tl}} : {{trad-|tl|Montréal}}
+* {{T|ta}} : {{trad-|ta|மாண்ட்ரீல்|R=Māṇṭrīl}}
+* {{T|tt}} : {{trad-|tt|Монреаль|tr=Monreal’}}
+* {{T|cs}} : {{trad+|cs|Montreal}}
+* {{T|ce}} : {{trad|ce|Монреаль|tr=Monreal’}}
+* {{T|th}} : {{trad-|th|มอนทรีออล|R=mornótreeon}}
+* {{T|tr}} : {{trad-|tr|Montreal}}
+* {{T|uk}} : {{trad-|uk|Монреаль|R=Monreal’}}
+* {{T|vi}} : {{trad-|vi|Montréal}}
+* {{T|vo}} : {{trad-|vo|Montréal}}
+* {{T|war}} : {{trad|war|Montreal}}
+* {{T|yi}} : {{trad-|yi|מאנטרעאל}}
+{{trad-fin}}
+
+{{trad-début|Commune de l’Ardèche}}
+* {{T|de}} : {{trad+|de|Montréal}}
+* {{T|en}} : {{trad+|en|Montréal}}
+* {{T|ceb}} : {{trad|ceb|Montréal}}
+* {{T|es}} : {{trad+|es|Montréal}}
+* {{T|fi}} : {{trad+|fi|Montréal}}
+* {{T|it}} : {{trad-|it|Montréal}}
+* {{T|nl}} : {{trad-|nl|Montréal}}
+* {{T|pl}} : {{trad+|pl|Montréal}}
+* {{T|pt}} : {{trad-|pt|Montréal}}
+* {{T|vi}} : {{trad-|vi|Montréal}}
+* {{T|vo}} : {{trad-|vo|Montréal}}
+{{trad-fin}}
+
+{{trad-début|Commune de l’Aude}}
+* {{T|en}} : {{trad+|en|Montréal}}
+* {{T|ca}} : {{trad-|ca|Montréal}}
+* {{T|ceb}} : {{trad|ceb|Montréal}}
+* {{T|es}} : {{trad+|es|Montréal}}
+* {{T|fi}} : {{trad+|fi|Montréal}}
+* {{T|is}} : {{trad-|is|Montréal}}
+* {{T|la}} : {{trad-|la|Mons Regalis}}
+* {{T|nl}} : {{trad-|nl|Montréal}}
+* {{T|pl}} : {{trad+|pl|Montréal}}
+* {{T|pt}} : {{trad-|pt|Montréal}}
+* {{T|vi}} : {{trad-|vi|Montréal}}
+* {{T|vo}} : {{trad-|vo|Montréal}}
+{{trad-fin}}
+
+{{trad-début|Commune du Gers}}
+* {{T|de}} : {{trad+|de|Montréal}}
+* {{T|en}} : {{trad+|en|Montréal}}
+* {{T|ceb}} : {{trad|ceb|Montréal}}
+* {{T|es}} : {{trad-|es|Montréal-du-Gers}}
+* {{T|fi}} : {{trad+|fi|Montréal}}
+* {{T|it}} : {{trad-|it|Montréal}}
+* {{T|nl}} : {{trad-|nl|Montréal}}
+* {{T|pl}} : {{trad+|pl|Montréal}}
+* {{T|pt}} : {{trad-|pt|Montréal}}
+* {{T|vo}} : {{trad-|vo|Montréal}}
+{{trad-fin}}
+
+{{trad-début|Commune de l’Yonne}}
+* {{T|af}} : {{trad+|af|Montréal}}
+* {{T|en}} : {{trad+|en|Montréal}}
+* {{T|ceb}} : {{trad|ceb|Montréal}}
+* {{T|es}} : {{trad+|es|Montréal}}
+* {{T|fi}} : {{trad+|fi|Montréal}}
+* {{T|it}} : {{trad-|it|Montréal}}
+* {{T|nl}} : {{trad-|nl|Montréal}}
+* {{T|pl}} : {{trad+|pl|Montréal}}
+* {{T|pt}} : {{trad-|pt|Montréal}}
+* {{T|vi}} : {{trad-|vi|Montréal}}
+* {{T|vo}} : {{trad-|vo|Montréal}}
+{{trad-fin}}
+
+=== {{S|prononciation}} ===
+* {{pron|mɔ̃.ʁe.al|fr}}
+* {{écouter|lang=fr|France (Paris)|mɔ̃.ʁe.al|audio=Fr-Montréal.ogg}}
+* {{écouter|lang=fr|Québec|mɔ̃.ʁe.al|audio=Qc-Montréal.ogg}}
+* {{CA|nocat=1}} {{pron|mõ.ʁjal, mɔ.ʁe.al, mɔ.ʁjal|fr}}
+* {{écouter|lang=fr|Canada (Chicoutimi)|audio=LL-Q150 (fra)-Simon Villeneuve-Montréal.wav}}
+* {{écouter|lang=fr|Canada (Montréal)|audio=LL-Q150 (fra)-Marie D Martel-Montréal.wav}}
+* {{écouter|lang=fr|Canada (Laurentides)|audio=LL-Q150 (fra)-Benoit Rochon-Montréal.wav}}
+* {{écouter|lang=fr|France (Toulouse)|audio=LL-Q150 (fra)-Lepticed7-Montréal.wav}}
+* {{écouter|lang=fr|Suisse (canton du Valais)|audio=LL-Q150 (fra)-DSwissK-Montréal.wav}}
+* {{écouter|lang=fr|France (Vosges)||audio=LL-Q150 (fra)-Poslovitch-Montréal.wav}}
+* {{écouter|lang=fr|France (Hérault)||audio=LL-Q150 (fra)-T. Le Berre-Montréal.wav}}
+* {{écouter|lang=fr|||audio=LL-Q150 (fra)-ClasseNoes-Montréal.wav}}
+* {{écouter|lang=fr|France (Canet)||audio=LL-Q150 (fra)-Ives (Guilhelma)-Montréal.wav}}
+* {{écouter|Rawdon (Canada)||lang=fr|audio=LL-Q150 (fra)-Idéalités-Montréal.wav}}
+* {{écouter|Vendée (France)||lang=fr|audio=LL-Q150 (fra)-Sartus85-Montréal.wav}}
+* {{écouter|Mulhouse (France)||lang=fr|audio=LL-Q150 (fra)-Mathieu Kappler-Montréal.wav}}
+
+=== {{S|anagrammes}} ===
+{{voir anagrammes|fr}}
+
+=== {{S|voir aussi}} ===
+* {{WP}}
+* {{Le Dico des Ados}}
+
+=== {{S|références}} ===
+* {{mercihabitants}}
+* {{RÉF|1}} [https://web.archive.org/web/20100906231006/http://www.sinoquebec.com/bbs/forumdisplay.php?f=11 Exemple d’utilisation du nom familier de Montréal en chinois], ici dans un forum de discussion.
+
+[[Catégorie:Anciens noms des localités de France en français]]
+[[Catégorie:Régions du Québec en français]]
+
+{{Bonne entrée|français}}
+
+== {{langue|af}} ==
+=== {{S|étymologie}} ===
+: Emprunt au {{étyl|fr|af}}.
+
+=== {{S|nom propre|af}} ===
+'''Montréal''' {{pron||af}}
+# {{localités|af|de France}} [[Montréal#fr|Montréal]] (en France, dans l’[[Yonne]]).
+#* {{exemple|lang=af}}
+
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: Emprunt au français.
+
+=== {{S|nom propre|gsw}} ===
+'''Montréal''' {{pron||gsw}}
+# {{localités|gsw|du Québec}} [[Montréal#fr|Montréal]] (au [[Québec]]).
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: Emprunt au français.
+
+=== {{S|nom propre|de}} ===
+'''Montréal''' {{pron||de}}
+# {{localités|de|de France}} [[Montréal#fr|Montréal]] (en [[Ardèche]]).
+# {{localités|de|de France}} [[Montréal#fr|Montréal]] (dans le [[Gers]]).
+
+== {{langue|en}} ==
+=== {{S|étymologie}} ===
+: Emprunt au français.
+
+=== {{S|nom propre|en}} ===
+'''Montréal''' {{pron||en}}
+# {{localités|en|de France}} [[Montréal#fr|Montréal]] (en France, en [[Ardèche]]).
+# {{localités|en|de France}} [[Montréal#fr|Montréal]] (en France, dans l’[[Aude]]).
+# {{localités|en|de France}} [[Montréal#fr|Montréal]] (en France, dans le [[Gers]]).
+# {{localités|en|de France}} [[Montréal#fr|Montréal]] (en France, dans l’[[Yonne]]).
+# {{variante orthographique de|Montreal|en}}.
+
+== {{langue|ca}} ==
+=== {{S|étymologie}} ===
+: Emprunt au français.
+:du latin mōnte regāle, 'muntanya del Rei'
+
+=== {{S|nom propre|ca}} ===
+'''Montréal''' {{pron||ca}}
+# {{localités|ca|de France}} [[Montréal#fr|Montréal]] (en France, dans l’[[Aude]]).
+# Linage existant à Corbera, Castelló ou Fatarella.
+# Plante de la famille ''Dictamnus fraxinella''.
+
+== {{langue|ceb}} ==
+=== {{S|étymologie}} ===
+: Emprunt au français.
+
+=== {{S|nom propre|ceb}} ===
+'''Montréal''' {{pron||ceb}}
+# {{localités|ceb|du Québec}} [[Montréal#fr|Montréal]] (au [[Québec]]).
+# {{localités|ceb|de France}} [[Montréal#fr|Montréal]] (en France, en [[Ardèche]]).
+# {{localités|ceb|de France}} [[Montréal#fr|Montréal]] (en France, dans l’[[Aude]]).
+# {{localités|ceb|de France}} [[Montréal#fr|Montréal]] (en France, dans le [[Gers]]).
+# {{localités|ceb|de France}} [[Montréal#fr|Montréal]] (en France, dans l’[[Yonne]]).
+
+== {{langue|hr}} ==
+=== {{S|étymologie}} ===
+: Emprunt au français.
+
+=== {{S|nom propre|hr}} ===
+'''Montréal''' {{pron||hr}}
+# {{localités|hr|du Québec}} [[Montréal#fr|Montréal]] (au [[Québec]]).
+
+== {{langue|es}} ==
+=== {{S|étymologie}} ===
+: Emprunt au français.
+
+=== {{S|nom propre|es}} ===
+'''Montréal''' {{pron||es}}
+# {{localités|es|de France}} [[Montréal#fr|Montréal]] (en France, en [[Ardèche]]).
+# {{localités|es|de France}} [[Montréal#fr|Montréal]] (en France, dans l’[[Aude]]).
+# {{localités|es|de France}} [[Montréal#fr|Montréal]] (en France, dans l’[[Yonne]]).
+
+== {{langue|et}} ==
+=== {{S|étymologie}} ===
+: Emprunt au français.
+
+=== {{S|nom propre|et}} ===
+'''Montréal''' {{pron||et}}
+# {{localités|et|du Québec}} [[Montréal#fr|Montréal]] (au [[Québec]]).
+
+== {{langue|fi}} ==
+=== {{S|étymologie}} ===
+: Emprunt au français.
+
+=== {{S|nom propre|fi}} ===
+'''Montréal''' {{pron||fi}}
+# {{localités|fi|de France}} [[Montréal#fr|Montréal]] (en France, en [[Ardèche]]).
+# {{localités|fi|de France}} [[Montréal#fr|Montréal]] (en France, dans l’[[Aude]]).
+# {{localités|fi|de France}} [[Montréal#fr|Montréal]] (en France, dans le [[Gers]]).
+# {{localités|fi|de France}} [[Montréal#fr|Montréal]] (en France, dans l’[[Yonne]]).
+
+== {{langue|io}} ==
+=== {{S|étymologie}} ===
+: Emprunt au français.
+
+=== {{S|nom propre|io}} ===
+'''Montréal''' {{pron||io}}
+# {{localités|io|du Québec}} [[Montréal#fr|Montréal]] (au [[Québec]]).
+
+== {{langue|is}} ==
+=== {{S|étymologie}} ===
+: Emprunt au français.
+
+=== {{S|nom propre|is}} ===
+'''Montréal''' {{pron||is}}
+# {{localités|is|du Québec}} [[Montréal#fr|Montréal]] (au [[Québec]]).
+# {{localités|is|de France}} [[Montréal#fr|Montréal]] (en France, dans l’[[Aude]]).
+
+== {{langue|it}} ==
+=== {{S|étymologie}} ===
+: Emprunt au français.
+
+=== {{S|nom propre|it}} ===
+'''Montréal''' {{pron||it}}
+# {{localités|it|du Québec}} [[Montréal#fr|Montréal]] (au [[Québec]]).
+# {{localités|it|de France}} [[Montréal#fr|Montréal]] (en France, en [[Ardèche]]).
+# {{localités|it|de France}} [[Montréal#fr|Montréal]] (en France, dans le [[Gers]]).
+# {{localités|it|de France}} [[Montréal#fr|Montréal]] (en France, dans l’[[Yonne]]).
+
+=== {{S|anagrammes}} ===
+{{voir anagrammes|it}}
+
+== {{langue|ln}} ==
+=== {{S|étymologie}} ===
+: Emprunt au français.
+
+=== {{S|nom propre|ln}} ===
+'''Montréal''' {{pron||ln}}
+# {{localités|ln|du Québec}} [[Montréal#fr|Montréal]] (au [[Québec]]).
+
+== {{langue|lb}} ==
+=== {{S|étymologie}} ===
+: Emprunt au français.
+
+=== {{S|nom propre|lb}} ===
+'''Montréal''' {{pron||lb}}
+# {{localités|lb|du Québec}} [[Montréal#fr|Montréal]] (au [[Québec]]).
+
+== {{langue|nan}} ==
+=== {{S|étymologie}} ===
+: Emprunt au français.
+
+=== {{S|nom propre|nan}} ===
+'''Montréal''' {{pron||nan}}
+# {{localités|nan|du Québec}} [[Montréal#fr|Montréal]] (au [[Québec]]).
+
+== {{langue|nl}} ==
+=== {{S|étymologie}} ===
+: Emprunt au français.
+
+=== {{S|nom propre|nl}} ===
+'''Montréal''' {{pron||nl}}
+# {{localités|nl|du Québec}} [[Montréal#fr|Montréal]] (au [[Québec]]).
+# {{localités|nl|de France}} [[Montréal#fr|Montréal]] (en France, en [[Ardèche]]).
+# {{localités|nl|de France}} [[Montréal#fr|Montréal]] (en France, dans l’[[Aude]]).
+# {{localités|nl|de France}} [[Montréal#fr|Montréal]] (en France, dans le [[Gers]]).
+# {{localités|nl|de France}} [[Montréal#fr|Montréal]] (en France, dans l’[[Yonne]]).
+
+== {{langue|no}} ==
+=== {{S|étymologie}} ===
+: Emprunt au français.
+
+=== {{S|nom propre|no}} ===
+'''Montréal''' {{pron||no}}
+# {{localités|no|du Québec}} [[Montréal#fr|Montréal]] (au [[Québec]]).
+
+== {{langue|ug}} ==
+=== {{S|étymologie}} ===
+: Emprunt au français.
+
+=== {{S|nom propre|ug}} ===
+'''Montréal''' {{pron||ug}}
+# {{localités|ug|du Québec}} [[Montréal#fr|Montréal]] (au [[Québec]]).
+
+== {{langue|pl}} ==
+=== {{S|étymologie}} ===
+: Emprunt au français.
+
+=== {{S|nom propre|pl}} ===
+'''Montréal''' {{pron||pl}}
+# {{localités|pl|de France}} [[Montréal#fr|Montréal]] (en France, en [[Ardèche]]).
+# {{localités|pl|de France}} [[Montréal#fr|Montréal]] (en France, dans l’[[Aude]]).
+# {{localités|pl|de France}} [[Montréal#fr|Montréal]] (en France, dans le [[Gers]]).
+# {{localités|pl|de France}} [[Montréal#fr|Montréal]] (en France, dans l’[[Yonne]]).
+
+== {{langue|pt}} ==
+=== {{S|étymologie}} ===
+: Emprunt au français.
+
+=== {{S|nom propre|pt}} ===
+'''Montréal''' {{pron||pt}}
+# {{localités|pt|de France}} [[Montréal#fr|Montréal]] (en France, en [[Ardèche]]).
+# {{localités|pt|de France}} [[Montréal#fr|Montréal]] (en France, dans l’[[Aude]]).
+# {{localités|pt|de France}} [[Montréal#fr|Montréal]] (en France, dans le [[Gers]]).
+# {{localités|pt|de France}} [[Montréal#fr|Montréal]] (en France, dans l’[[Yonne]]).
+
+== {{langue|ro}} ==
+=== {{S|étymologie}} ===
+: Emprunt au français.
+
+=== {{S|nom propre|ro}} ===
+'''Montréal''' {{pron||ro}}
+# {{localités|ro|du Québec}} [[Montréal#fr|Montréal]] (au [[Québec]]).
+
+== {{langue|scn}} ==
+=== {{S|étymologie}} ===
+: Emprunt au français.
+
+=== {{S|nom propre|scn}} ===
+'''Montréal''' {{pron||scn}}
+# {{localités|scn|du Québec}} [[Montréal#fr|Montréal]] (au [[Québec]]).
+
+=== {{S|prononciation}} ===
+* {{écouter|Gela (Italie)||lang=scn|audio=LL-Q33973 (scn)-XANA000-Montréal.wav}}
+
+== {{langue|sl}} ==
+=== {{S|étymologie}} ===
+: Emprunt au français.
+
+=== {{S|nom propre|sl}} ===
+'''Montréal''' {{pron||sl}}
+# {{localités|sl|du Québec}} [[Montréal#fr|Montréal]] (au [[Québec]]).
+
+== {{langue|sv}} ==
+=== {{S|étymologie}} ===
+: Emprunt au français.
+
+=== {{S|nom propre|sv}} ===
+'''Montréal''' {{pron||sv}}
+# {{localités|sv|du Québec}} [[Montréal#fr|Montréal]] (au [[Québec]]).
+
+== {{langue|tl}} ==
+=== {{S|étymologie}} ===
+: Emprunt au français.
+
+=== {{S|nom propre|tl}} ===
+'''Montréal''' {{pron||tl}}
+# {{localités|tl|du Québec}} [[Montréal#fr|Montréal]] (au [[Québec]]).
+
+== {{langue|vi}} ==
+=== {{S|étymologie}} ===
+: Emprunt au français.
+
+=== {{S|nom propre|vi}} ===
+'''Montréal''' {{pron||vi}}
+# {{localités|vi|du Québec}} [[Montréal#fr|Montréal]] (au [[Québec]]).
+# {{localités|vi|de France}} [[Montréal#fr|Montréal]] (en France, en [[Ardèche]]).
+# {{localités|vi|de France}} [[Montréal#fr|Montréal]] (en France, dans l’[[Aude]]).
+# {{localités|vi|de France}} [[Montréal#fr|Montréal]] (en France, dans l’[[Yonne]]).
+
+== {{langue|vo}} ==
+=== {{S|étymologie}} ===
+: Emprunt au français.
+
+=== {{S|nom propre|vo}} ===
+'''Montréal''' {{pron||vo}}
+# [[Montréal#fr|Montréal]] (au [[Québec]]).
+# {{localités|vo|de France}} [[Montréal#fr|Montréal]] (en France, en [[Ardèche]]).
+# {{localités|vo|de France}} [[Montréal#fr|Montréal]] (en France, dans le [[Gers]]).

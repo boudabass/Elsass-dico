@@ -1,0 +1,12 @@
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|en|gsw|mot=Cheshire}}.
+
+=== {{S|nom|gsw}} ===
+'''Cheshire-Chääs''' {{pron||gsw}}
+# [[chester#fr|Chester]] (fromage anglais).
+
+==== {{S|synonymes}} ====
+* [[Chester]]
+
+[[Catégorie:Fromages en alémanique]]

@@ -1,0 +1,10 @@
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw}}
+
+=== {{S|nom|gsw}} ===
+'''Schwäfel''' {{pron||gsw}}
+# {{éléments|gsw}} [[soufre|Soufre]].
+{{clr}}
+==== {{S|vocabulaire}} ====
+{{tableau périodique/gsw}}

@@ -1,0 +1,8 @@
+== {{langue|gsw}} ==
+{{ébauche|gsw}}
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw}}
+
+=== {{S|interjection|gsw}} ===
+'''buschur''' {{pron|bʊˈʃʊʁ|gsw}}
+# [[bonjour|Bonjour]]

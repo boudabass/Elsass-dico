@@ -1,0 +1,53 @@
+{{voir/berkelium}}
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|de|gsw|mot=Berkelium}}.
+
+=== {{S|nom|gsw}} ===
+'''Berkelium''' {{pron||gsw}} {{genre|gsw}}
+# {{éléments|gsw}} {{métaux|gsw}} [[berkélium#fr|Berkélium]].
+#*{{exemple|lang=gsw}}
+
+==== {{S|vocabulaire}} ====
+{{tableau périodique/gsw}}
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|en|de|mot=berkelium}}.
+
+=== {{S|nom|de}} ===
+{{légende élément/de|Bk}}
+[[Image:Berkelium_metal.jpg|thumb|'''Berkelium'''.]]
+'''Berkelium''' {{pron|bɛʁˈkeːli̯ʊm|de}} {{n}} ({{p}}: '''—''' )
+# {{éléments|de}} {{métaux|de}} [[berkélium#fr|Berkélium]].
+#* {{exemple|lang=de|'''Berkelium''' ist ein künstliches Element.}}
+
+=== {{S|prononciation}} ===
+* {{pron|bɛʁˈkeːli̯ʊm|de}}
+* {{écouter|lang=de|Allemagne (Berlin)|audio=LL-Q188 (deu)-Lucas Werkmeister-Berkelium.wav}}
+* {{écouter|lang=de|Allemagne (Berlin)|audio=LL-Q188 (deu)-Sebastian Wallroth-Berkelium.wav}}
+
+=== {{S|voir aussi}} ===
+{{tableau périodique/de}}
+* {{voir thésaurus|de|tableau périodique des éléments}}
+* {{WP|lang=de}}
+
+== {{langue|lb}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|de|lb|mot=Berkelium}}.
+
+=== {{S|nom|lb}} ===
+{{lb-inv|bɛʀkˈeːli̯um}}
+'''Berkelium''' {{pron|bɛʀkˈeːli̯um|lb}} {{m}}, {{au singulier uniquement|lb}}
+# {{éléments|lb}} {{métaux|lb}} [[berkélium#fr|Berkélium]].
+#* {{exemple|lang=lb}}
+
+=== {{S|prononciation}} ===
+* {{écouter|Angers (France)||niveau=bon|lang=lb|audio=LL-Q9051 (ltz)-Procrastineur49-Berkelium.wav}}
+
+=== {{S|voir aussi}} ===
+{{tableau périodique/lb}}
+* {{WP|lang=lb}}
+
+=== {{S|références}} ===
+* {{R:LOD}}

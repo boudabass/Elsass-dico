@@ -1,0 +1,55 @@
+{{voir/nobelium}}
+
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw}}
+
+=== {{S|nom|gsw}} ===
+'''Nobelium''' {{pron||gsw}} {{genre|gsw}}
+# {{éléments|gsw}} {{métaux|gsw}} [[nobélium#fr|Nobélium]].
+{{clr}}
+==== {{S|vocabulaire}} ====
+{{tableau périodique/gsw}}
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: D’après le chimiste {{w|Alfred ''Nobel''}}.
+
+=== {{S|nom|de}} ===
+{{légende élément/de|No|Unb}}
+'''Nobelium''' {{pron|noˈbeːli̯ʊm|de}} {{n}} ({{p}}: '''—''' )
+# {{éléments|de}} {{métaux|de}} [[nobélium#fr|Nobélium]] (l’{{lien|élément chimique}} [[No#conv|No]]).
+
+==== {{S|synonymes}} ====
+* {{lien|Unnilbium|de}} {{désuet|nocat=1}}
+{{clr}}
+==== {{S|vocabulaire}} ====
+* {{voir thésaurus|de|tableau périodique des éléments}}
+{{tableau périodique/de}}
+{{Liste|avant={{lien|Mendelevium|de}} ou {{lien|Unnilunium|de}} {{désuet|nocat=1}}<br>([[Md#conv|Md]])|après={{lien|Lawrencium|de}} ou {{lien|Unniltrium|de}} {{désuet|nocat=&}}<br>([[Lr#conv|Lr]])|liste=[[Thésaurus:tableau périodique des éléments/allemand|Éléments chimiques en allemand]]}}
+
+=== {{S|prononciation}} ===
+* {{pron|noˈbeːli̯ʊm|de}}
+* {{écouter|lang=de|Allemagne (Berlin)|audio=LL-Q188 (deu)-Lucas Werkmeister-Nobelium.wav}}
+* {{écouter|lang=de|Allemagne (Berlin)|audio=LL-Q188 (deu)-Sebastian Wallroth-Nobelium.wav}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=de}}
+== {{langue|lb}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|lb}}
+
+=== {{S|nom|lb}} ===
+{{lb-inv|nobˈeːli̯um}}
+'''Nobelium''' {{pron|nobˈeːli̯um|lb}} {{m}}, {{au singulier uniquement|lb}}
+# {{éléments|lb}} {{métaux|lb}} [[nobélium#fr|Nobélium]].
+#* {{exemple|lang=lb}}
+{{clr}}
+==== {{S|vocabulaire}} ====
+{{tableau périodique/lb}}
+
+=== {{S|références}} ===
+: {{R:LOD}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=lb}}

@@ -1,0 +1,92 @@
+{{voir/natrium}}
+
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw}}
+
+=== {{S|nom|gsw}} ===
+'''Natrium''' {{pron||gsw}}
+# {{éléments|gsw}} {{métaux|gsw}} [[sodium|Sodium]].
+{{clr}}
+==== {{S|vocabulaire}} ====
+{{tableau périodique/gsw}}
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+{{cf|natron|lang=fr}}.
+
+=== {{S|nom|de}} ===
+{{légende élément/de|Na}}
+[[Image:Na,11.jpg|thumb|'''Natrium'''.]]
+'''Natrium''' {{pron|ˈnaːtʀiʊm|de}} {{n}}
+# {{éléments|de}} {{métaux|de}} [[sodium#fr|Sodium]] (l’{{lien|élément chimique}} [[Na#conv|Na]]).
+
+==== {{S|synonymes}} ====
+* {{lien|Sodium|de}}
+
+==== {{S|dérivés}} ====
+{{(}}
+* [[Dinatriumtrioxyd]]
+* [[Natrium-Kalium-Pumpe]]
+* [[Natriumamid]]
+* [[Natriumborhydrid]]
+* [[Natriumbromid]]
+* [[Natriumcarbonat]]
+* [[Natriumchlorid]]
+* [[Natriumchlorid-Struktur]]
+* [[Natriumcyanid]]
+* [[Natriumfluorid]]
+* [[Natriumhydrid]]
+* [[Natriumhydrogensulfat]]
+* [[Natriumhydroxid]]
+* [[Natriumiodid]]
+* [[Natriumkarbonat]]
+* [[Natriumlöffel]]
+* [[Natriummineral]]
+* [[Natriumnitrat]]
+* [[Natriumoxid]]
+* [[Natriumperoxid]]
+* [[Natriumsalz]]
+* [[Natriumspiegel]]
+* [[Natriumsulfat]]
+* [[Natriumthiosulfat]]
+* [[Natriumtrioxid]]
+* [[Natriumverbindung]]
+{{)}}
+{{clr}}
+==== {{S|vocabulaire}} ====
+* {{voir thésaurus|de|tableau périodique des éléments}}
+{{tableau périodique/de}}
+{{Liste|avant={{lien|Neon|de}}<br>([[Ne#conv|Ne]])|après={{lien|Magnesium|de}}<br>([[Mg#conv|Mg]])|liste=[[Thésaurus:tableau périodique des éléments/allemand|Éléments chimiques en allemand]]}}
+
+=== {{S|prononciation}} ===
+* {{pron|ˈnaːtʀiʊm|de}}
+* {{écouter|lang=de|Berlin|ˈnaːtʀiʊm|audio=De-Natrium.ogg}}
+* {{écouter|lang=de|Allemagne (Berlin)|audio=LL-Q188 (deu)-Lucas Werkmeister-Natrium.wav}}
+* {{écouter|lang=de|Allemagne (Berlin)|audio=LL-Q188 (deu)-Sebastian Wallroth-Natrium.wav}}
+* {{écouter|lang=de|{{AT|nocat=1}}|audio=De-at-Natrium.ogg}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=de}}
+
+== {{langue|lb}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|lb}}
+
+=== {{S|nom|lb}} ===
+{{lb-inv|nˈaːtʀium}}
+'''Natrium''' {{pron|nˈaːtʀium|lb}} {{m}}, {{au singulier uniquement|lb}}
+# {{éléments|lb}} {{métaux|lb}} [[sodium#fr|Sodium]].
+#* {{exemple|lang=lb}}
+{{clr}}
+==== {{S|vocabulaire}} ====
+{{tableau périodique/lb}}
+
+=== {{S|prononciation}} ===
+* {{écouter|Angers (France)||niveau=bon|lang=lb|audio=LL-Q9051 (ltz)-Procrastineur49-Natrium.wav}}
+
+=== {{S|références}} ===
+: {{R:LOD}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=lb}}

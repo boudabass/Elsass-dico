@@ -1,0 +1,17 @@
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw}}
+
+=== {{S|nom propre|gsw}} ===
+'''Themse''' {{pron||gsw}}
+# [[Tamise]] (fleuve anglais).
+[[Catégorie:Cours d’eau en alémanique]]
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: Du {{étylp|la|de|Tamesis}}.
+
+=== {{S|nom propre|de}} ===
+'''Themse''' {{pron||de}}
+# [[Tamise]] (fleuve anglais).
+[[Catégorie:Cours d’eau en allemand]]

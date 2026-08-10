@@ -1,0 +1,444 @@
+{{voir/tirana}}
+
+== {{langue|fr}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|sq|fr|mot=Tirana}}.
+
+=== {{S|nom propre|fr}} ===
+'''Tirana''' {{pron|ti.ʁa.na|fr}} {{f}} {{s}} {{invar}}
+# {{capitales|fr|pays=d’Albanie}} Capitale de l’[[Albanie]].
+#* {{exemple |lang=fr |Les Djègues occupent toute l’Albanie rouge et septentrionale, qui s’étend de Skadar ({{lien|Scutari|fr}}) jusqu’à Prisren, et d’[[Elbasan#fr|Elbassan]] jusqu’aux sources de la Boïana. Les Djègues mahométans sont groupés autour du visir de Skadar, le long de la Boïana, et sur la côte, à Antivari, Dulcigno, Croïa, Alessio, '''Tirana''', Durazzo, d’où ils s’étendent dans l’intérieur des terres jusque vers Scoumbi et le lac d’Ocrida.
+|source=« {{ws|Le Monde gréco-slave/03|Le Monde gréco-slave}} », dans ''Revue des deux mondes'', 1848 }}
+#* {{exemple |lang=fr
+|Tandis qu’à Salonique et à Constantinople, le Comité U. et P. proclamait qu’il n’y avait plus, dans l’Empire, ni Turcs, ni Bulgares, ni Arméniens, ni Albanais, ni musulmans, ni chrétiens, mais seulement des citoyens ottomans, fidèles au Sultan et à la Constitution, libres et égaux en droits, à '''Tirana''' et à Elbassan, des réunions nationalistes proclamaient que l’albanais devait être la langue officielle de l’Albanie, réclamaient l’ouverture d’écoles albanaises et distribuaient des livres en langue albanaise imprimés à Sofia.
+|source=« {{ws|La Question albanaise}} » dans ''Revue des deux mondes'', 1909 }}
+
+==== {{S|gentilés}} ====
+* [[Tiranais]], [[Tiranaise]], [[tiranais]]{{R|BO106}}
+* [[Tiraniote]], [[tiraniote]]
+
+==== {{S|traductions}} ====
+{{trad-début}}
+* {{T|sq}} : {{trad|sq|Tirana}}
+* {{T|gsw}} : {{trad|gsw|Tirana}}
+* {{T|de}} : {{trad|de|Tirana}}
+* {{T|am}} : {{trad-|am|ቲራና}}
+* {{T|en}} : {{trad|en|Tirana}}
+* {{T|ar}} : {{trad-|ar|تِيرَانَا|tr=Tīrānā}}
+* {{T|rup}} : {{trad|rup|Tirana}}
+* {{T|ast}} : {{trad+|ast|Tirana}}
+* {{T|az}} : {{trad|az|Tirana}}
+* {{T|eu}} : {{trad|eu|Tirana}}
+* {{T|bs}} : {{trad|bs|Tirana}}
+* {{T|bg}} : {{trad-|bg|Тирана|tr=Tirana}}
+* {{T|ca}} : {{trad|ca|Tirana}}
+* {{T|zh}} : {{trad+|zh|地拉那|tr=Dìlānà}}
+* {{T|ko}} : {{trad-|ko|티라나|tr=Tirana}}
+* {{T|hr}} : {{trad|hr|Tirana}}
+* {{T|da}} : {{trad|da|Tirana}}
+* {{T|es}} : {{trad|es|Tirana}}
+* {{T|eo}} : {{trad+|eo|Tirano}}
+* {{T|et}} : {{trad|et|Tirana}}
+* {{T|fi}} : {{trad|fi|Tirana}}
+* {{T|frp}} : {{trad|frp|Tirana}}
+* {{T|gl}} : {{trad|gl|Tirana}}
+* {{T|ka}} : {{trad+|ka|ტირანა|tr=tirana}}
+* {{T|el}} : {{trad+|el|Τίρανα|tr=Tírana}}
+* {{T|he}} : {{trad-|he|טירנה}}
+* {{T|hu}} : {{trad|hu|Tirana}}
+* {{T|io}} : {{trad-|io|Tirane}}
+* {{T|id}} : {{trad|id|Tirana}}
+* {{T|it}} : {{trad+|it|Tirana}}
+* {{T|ja}} : {{trad+|ja|ティラナ|tr=Tirana}}
+* {{T|lv}} : {{trad-|lv|Tirāna}}
+* {{T|lt}} : {{trad|lt|Tirana}}
+* {{T|mk}} : {{trad+|mk|Тирана|tr=Tirana}}
+* {{T|mg}} : {{trad|mg|Tirana}}
+* {{T|nl}} : {{trad|nl|Tirana}}
+* {{T|no}} : {{trad|no|Tirana}}
+* {{T|nn}} : {{trad|nn|Tirana}}
+* {{T|nov}} : {{trad|nov|Tirana}}
+* {{T|oc}} : {{trad|oc|Tirana}}
+* {{T|uz}} : {{trad|uz|Tirana}}
+* {{T|fa}} : {{trad-|fa|تیرانا}}
+* {{T|pms}} : {{trad|pms|Tiran-a}}
+* {{T|pl}} : {{trad|pl|Tirana}}
+* {{T|pt}} : {{trad|pt|Tirana}}
+* {{T|qu}} : {{trad|qu|Tirana}}
+* {{T|ro}} : {{trad|ro|Tirana}}
+* {{T|ru}} : {{trad+|ru|Тирана|tr=Tirana}}
+* {{T|sgs}} : {{trad|sgs|Tėrana}}
+* {{T|sat}} : {{trad|sat|ᱛᱤᱨᱟᱱᱟ|tr=Tirana}}
+* {{T|sr}} : {{trad-|sr|Тирана}}
+* {{T|sh}} : {{trad|sh|Tirana}}
+* {{T|sk}} : {{trad|sk|Tirana}}
+* {{T|sl}} : {{trad|sl|Tirana}}
+* {{T|sv}} : {{trad|sv|Tirana}}
+* {{T|sw}} : {{trad|sw|Tirana}}
+* {{T|tg}} : {{trad-|tg|Тирана}}
+* {{T|cs}} : {{trad|cs|Tirana}}
+* {{T|tr}} : {{trad-|tr|Tiran}}
+* {{T|vo}} : {{trad|vo|Tirana}}
+{{trad-fin}}
+
+=== {{S|prononciation}} ===
+* {{écouter|canton du Valais (Suisse)||lang=fr|audio=LL-Q150 (fra)-DSwissK-Tirana.wav}}
+
+=== {{S|anagrammes}} ===
+{{voir anagrammes|fr}}
+
+=== {{S|voir aussi}} ===
+* {{WP}}
+
+=== {{S|références}} ===
+{{Références}}
+
+== {{langue|sq}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|sq}}
+
+=== {{S|nom propre|sq}} ===
+'''Tirana''' {{pron|ti.ˈɾa.na|sq}}
+# {{capitales|sq|pays=d’Albanie}} {{lien|Tirana|fr}} : nominatif singulier défini de {{lien|Tiranë|sq}}.
+#* {{exemple|lang=sq|'''Tirana''' është kryeqyteti i Republikës së Shqipërisë.|'''Tirana''' est la capitale de la république d'Albanie.}}
+'''Note''' : comme la plupart des noms propres, le nom ''Tirana'' est toujours défini. Cependant, la forme ''{{lien|Tiranë|sq}}'' existe car le suffixe défini est régulièrement supprimé après certaines prépositions gouvernant l'[[accusatif]].
+
+==== {{S|variantes}} ====
+* [[Tirônë]] (guègue de Tirana)
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=sq}}
+
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|gsw|mot=Tirana}}.
+
+=== {{S|nom propre|gsw}} ===
+'''Tirana''' {{pron||gsw}}
+# {{capitales|gsw|pays=d’Albanie}} {{lien|Tirana|fr}}.
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|sq|de|mot=Tirana}}.
+
+=== {{S|nom propre|de}} ===
+'''Tirana''' {{pron||de}}
+# {{capitales|de|pays=d’Albanie}} {{lien|Tirana|fr}}.
+
+=== {{S|prononciation}} ===
+* {{écouter|||lang=de|audio=LL-Q188 (deu)-Djknusper-Tirana.wav}}
+
+== {{langue|en}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|sq|en|mot=Tirana}}.
+
+=== {{S|nom propre|en}} ===
+'''Tirana''' {{pron||en}}
+# {{capitales|en|pays=d’Albanie}} {{lien|Tirana|fr}}.
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=en|{{US|nocat=1}}|audio=En-us-Tirana.ogg}}
+
+== {{langue|rup}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|sq|rup|mot=Tirana}}.
+
+=== {{S|nom propre|rup}} ===
+'''Tirana''' {{pron||rup}}
+# {{capitales|rup|pays=d’Albanie}} {{lien|Tirana|fr}}.
+
+== {{langue|az}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|sq|az|Tirana}}.
+
+=== {{S|nom propre|az}} ===
+{{az-décl-nom|a}}
+'''Tirana''' {{pron||az}} {{az-forme possessive}}
+# {{capitales|az|pays=d’Albanie}} {{lien|Tirana|fr}}.
+
+== {{langue|eu}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|sq|eu|mot=Tirana}}.
+
+=== {{S|nom propre|eu}} ===
+'''Tirana''' {{pron||eu}}
+# {{capitales|eu|pays=d’Albanie}} {{lien|Tirana|fr}}.
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=eu|Espagne (Saint-Sébastien)|audio=LL-Q8752 (eus)-Xabier Cañas-Tirana.wav}}
+
+== {{langue|bs}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|sq|bs|mot=Tirana}}.
+
+=== {{S|nom propre|bs}} ===
+'''Tirana''' {{pron||bs}}
+# {{capitales|bs|pays=d’Albanie}} {{lien|Tirana|fr}}.
+
+== {{langue|ca}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|sq|ca|mot=Tirana}}.
+
+=== {{S|nom propre|ca}} ===
+'''Tirana''' {{pron||ca}}
+# {{capitales|ca|pays=d’Albanie}} {{lien|Tirana|fr}}.
+
+== {{langue|hr}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|sq|hr|mot=Tirana}}.
+
+=== {{S|nom propre|hr}} ===
+'''Tirana''' {{pron||hr}}
+# {{capitales|hr|pays=d’Albanie}} {{lien|Tirana|fr}}.
+
+== {{langue|da}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|sq|da|mot=Tirana}}.
+
+=== {{S|nom propre|da}} ===
+'''Tirana''' {{pron||da}}
+# {{capitales|da|pays=d’Albanie}} {{lien|Tirana|fr}}.
+
+== {{langue|es}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|sq|es|mot=Tirana}}.
+
+=== {{S|nom propre|es}} ===
+'''Tirana''' {{pron||es}}
+# {{capitales|es|pays=d’Albanie}} {{lien|Tirana|fr}}.
+
+== {{langue|et}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|sq|et|mot=Tirana}}.
+
+=== {{S|nom propre|et}} ===
+'''Tirana''' {{pron||et}}
+# {{capitales|et|pays=d’Albanie}} {{lien|Tirana|fr}}.
+
+== {{langue|fi}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|sq|fi|mot=Tirana}}.
+
+=== {{S|nom propre|fi}} ===
+'''Tirana''' {{pron||fi}}
+# {{capitales|fi|pays=d’Albanie}} {{lien|Tirana|fr}}.
+
+== {{langue|frp}} ==
+=== {{S|étymologie}} ===
+: Du {{étylp|fr|frp|mot=Tirana}}.
+
+=== {{S|nom propre|frp}} ===
+'''Tirana''' {{pron||frp}}
+# {{capitales|frp|pays=d’Albanie}} {{lien|Tirana|fr}}.
+
+== {{langue|hu}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|sq|hu|mot=Tirana}}.
+
+=== {{S|nom propre|hu}} ===
+'''Tirana''' {{pron||hu}}
+# {{capitales|hu|pays=d’Albanie}} {{lien|Tirana|fr}}.
+
+== {{langue|id}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|sq|id|mot=Tirana}}.
+
+=== {{S|nom propre|id}} ===
+'''Tirana''' {{pron||id}}
+# {{capitales|id|pays=d’Albanie}} {{lien|Tirana|fr}}.
+#* {{exemple|lang=id}}
+
+== {{langue|it}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|sq|it|mot=Tirana}}.
+
+=== {{S|nom propre|it}} ===
+'''Tirana''' {{pron||it}}
+# {{capitales|it|pays=d’Albanie}} {{lien|Tirana|fr}}.
+
+=== {{S|anagrammes}} ===
+{{voir anagrammes|it}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=it}}
+* {{VOY|lang=it}}
+
+== {{langue|lt}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|sq|lt|mot=Tirana}}.
+
+=== {{S|nom propre|lt}} ===
+'''Tirana''' {{pron||lt}}
+# {{capitales|lt|pays=d’Albanie}} {{lien|Tirana|fr}}.
+
+== {{langue|mg}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|sq|mg|mot=Tirana}}.
+
+=== {{S|nom propre|mg}} ===
+'''Tirana''' {{pron|tiɾanạ|mg}}
+# {{capitales|mg|pays=d’Albanie}} {{lien|Tirana|fr}}.
+
+== {{langue|nl}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|sq|nl|mot=Tirana}}.
+
+=== {{S|nom propre|nl}} ===
+'''Tirana''' {{pron||nl}}
+# {{capitales|nl|pays=d’Albanie}} {{lien|Tirana|fr}}.
+
+=== {{S|prononciation}} ===
+* {{écouter|||lang=nl|audio=Nl-Tirana.ogg}}
+
+== {{langue|no}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|sq|no|mot=Tirana}}.
+
+=== {{S|nom propre|no}} ===
+'''Tirana''' {{pron||no}}
+# {{capitales|no|pays=d’Albanie}} {{lien|Tirana|fr}}.
+
+== {{langue|nn}} ==
+=== {{S|étymologie}} ===
+: Du {{étylp|no|nn|mot=Tirana}}.
+
+=== {{S|nom propre|nn}} ===
+'''Tirana''' {{pron||nn}}
+# {{capitales|nn|pays=d’Albanie}} {{lien|Tirana|fr}}.
+
+== {{langue|nov}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|sq|nov|mot=Tirana}}.
+
+=== {{S|nom propre|nov}} ===
+'''Tirana''' {{pron||nov}}
+# {{capitales|nov|pays=d’Albanie}} {{lien|Tirana|fr}}.
+
+== {{langue|oc}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|sq|oc|mot=Tirana}}.
+
+=== {{S|nom propre|oc}} ===
+'''Tirana''' {{pron||oc}}
+# {{capitales|oc|pays=d’Albanie}} {{lien|Tirana|fr}}.
+
+== {{langue|uz}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|sq|uz|mot=Tirana}}.
+
+=== {{S|nom propre|uz}} ===
+'''Tirana''' {{pron||uz}}
+# {{capitales|uz|pays=d’Albanie}} {{lien|Tirana|fr}}.
+
+== {{langue|pl}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|sq|pl|mot=Tirana}}.
+
+=== {{S|nom propre|pl}} ===
+{{pl-décl-nom-f|rad=Tira||n|sing=oui}}
+'''Tirana''' {{pron|tʲiˈrãna|pl}} {{f}}
+# {{capitales|pl|pays=d’Albanie}} {{lien|Tirana|fr}}.
+#* {{exemple||lang=pl}}
+
+==== {{S|gentilés}} ====
+* {{lien|tirańczyk|pl}}, {{lien|tiranka|pl}}, {{lien|tirański|pl}}
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=pl||audio=Pl-Tirana.ogg}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=pl}}
+
+=== {{S|références}} ===
+* {{Source-wikt|pl|Tirana}}
+
+== {{langue|pt}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|sq|pt|mot=Tirana}}.
+
+=== {{S|nom propre|pt}} ===
+'''Tirana''' {{pron||pt}}
+# {{capitales|pt|pays=d’Albanie}} {{lien|Tirana|fr}}.
+
+== {{langue|qu}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|es|qu|mot=Tirana}}.
+
+=== {{S|nom propre|qu}} ===
+'''Tirana''' {{pron||qu}}
+# {{capitales|qu|pays=d’Albanie}} {{lien|Tirana|fr}}.
+
+== {{langue|ro}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|sq|ro|mot=Tirana}}.
+
+=== {{S|nom propre|ro}} ===
+'''Tirana''' {{pron||ro}}
+# {{capitales|ro|pays=d’Albanie}} {{lien|Tirana|fr}}.
+
+== {{langue|sh}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|sq|sh|mot=Tirana}}.
+
+=== {{S|nom propre|sh}} ===
+'''Tirana''' {{pron||sh}}
+# {{capitales|sh|pays=d’Albanie}} {{lien|Tirana|fr}}.
+
+== {{langue|sk}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|sq|sk|mot=Tirana}}.
+
+=== {{S|nom propre|sk}} ===
+'''Tirana''' {{pron||sk}}
+# {{capitales|sk|pays=d’Albanie}} {{lien|Tirana|fr}}.
+
+== {{langue|sl}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|sq|sl|mot=Tirana}}.
+
+=== {{S|nom propre|sl}} ===
+'''Tirana''' {{pron||sl}}
+# {{capitales|sl|pays=d’Albanie}} {{lien|Tirana|fr}}.
+
+== {{langue|sv}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|sq|sv|mot=Tirana}}.
+
+=== {{S|nom propre|sv}} ===
+'''Tirana''' {{pron||sv}}
+# {{capitales|sv|pays=d’Albanie}} {{lien|Tirana|fr}}.
+
+== {{langue|sw}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|sq|sw|mot=Tirana}}.
+
+=== {{S|nom propre|sw}} ===
+'''Tirana''' {{pron||sw}}
+# {{capitales|sw|pays=d’Albanie}} {{lien|Tirana|fr}}.
+
+== {{langue|cs}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|sq|cs|mot=Tirana}}.
+
+=== {{S|nom propre|cs}} ===
+{{cs-décl-nom-f-a|rad=Tiran|sing=oui}}
+'''Tirana''' {{pron||cs}} {{f}}
+# {{capitales|cs|pays=d’Albanie}} {{lien|Tirana|fr}}.
+#* {{exemple|lang=cs}}
+
+==== {{S|gentilés}} ====
+* {{lien|tiranský|cs}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=cs}}
+
+=== {{S|références}} ===
+* {{R:ÚJČ}}
+
+== {{langue|vo}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|sq|vo|mot=Tirana}}.
+
+=== {{S|nom propre|vo}} ===
+'''Tirana''' {{pron||vo}}
+# {{capitales|vo|pays=d’Albanie}} {{lien|Tirana|fr}}.

@@ -1,0 +1,263 @@
+{{voir/albanie}}
+
+== {{langue|fr}} ==
+=== {{S|étymologie}} ===
+: ''([[#fr-nom-pr-1|Nom propre 1]])'' {{date|1512}} Du {{étylp|la|fr|mot=Albania}}.
+: ''([[#fr-nom-pr-2|Nom propre 2]])'' Du {{étylp|la|fr|mot=Albania|dif=Albānia}}.
+
+=== {{S|nom propre|fr|num=1}} ===
+{{fr-inv|al.ba.ni}}
+[[Image:LocationAlbania.svg|right|thumb|200px|Localisation de l’'''Albanie'''.]]
+'''Albanie''' {{pron|al.ba.ni|fr}} {{f}}
+# {{pays|fr|d’Europe}} [[pays|Pays]] de l’[[ouest]] de la [[péninsule]] des [[Balkans]], au [[sud-est]] de l’[[Europe]], bordé au [[nord]] par le [[Monténégro]] et la [[Serbie]], à l’[[est]] par la [[Macédoine du Nord]], au [[sud-est]] par la [[Grèce]], et à l’[[ouest]] par la [[mer Ionienne]] et la [[mer Adriatique]].
+#* {{exemple|En quelques années, l’'''Albanie''' est devenue un eldorado pour les architectes du monde entier.|source=Isabelle Regnier, « Tirana, nouvel eldorado pour architectes internationaux », {{w|''Le Monde''}}, 2 mai 2025, page 24|lang=fr}}
+#* {{exemple | lang=fr
+ | En novembre 2019, plus de 50 personnes ont été tuées en '''Albanie''' dans un puissant séisme qui a également fait des milliers de sans-abri.
+ | source=AFP, {{lien web|titre=La terre tremble de nouveau en Croatie, |site=radio-canada.ca |url=https://ici.radio-canada.ca/nouvelle/1760035/tremblement-terre-seisme-croatie-secousses|date=30 décembre 2020}}}}
+#* {{exemple | lang=fr
+ | L’'''Albanie''' comprend une partie de la Macédoine, l’Illyrie et l’Épire.
+ | source={{w|Alphonse de Lamartine}}, ''Note neuvième, Œuvres complètes de Lamartine''}}
+
+==== {{S|abréviations}} ====
+* [[ALB]] (norme {{w|ISO 3166-1}} alpha-3)
+* [[Alb.]]&thinsp;<ref>{{w|Office québécois de la langue française}}, ''Banque de dépannage linguistique : Index thématique : Les noms propres : Noms géographiques et gentilés : Noms de pays et gentilés : [https://web.archive.org/web/20200920142444/http://bdl.oqlf.gouv.qc.ca/bdl/gabarit_bdl.asp?Th=2&t1=&id=2752 Abréviations des noms de pays commençant par A]''</ref>
+
+==== {{S|gentilés}} ====
+* [[Albanais]], [[Albanaise]], [[albanais]]
+
+==== {{S|synonymes}} ====
+* [[Albanie des Balkans]] (rare, pour la distinguer de l’[[Albanie du Caucase]])
+* [[pays des aigles]], calque de l’albanais ''[[Shqipëria]]''
+
+==== {{S|dérivés}} ====
+{{(}}
+* [[albano-]]
+* [[albanophile]]
+* [[albanophilie]]
+* [[albanophobe]]
+* [[albanophobie]]
+* [[albanophone]]
+{{)}}
+
+==== {{S|traductions}} ====
+{{trad-début|Pays des Balkans}}
+* {{T|af}} : {{trad+|af|Albanië}}
+* {{T|sq}} : {{trad+|sq|Shqipëria}}
+* {{T|gsw}} : {{trad|gsw|Albanie}}
+* {{T|de}} : {{trad+|de|Albanien}}
+* {{T|am}} : {{trad-|am|አልባኒያ|tr=al’bāniyā}}
+* {{T|en}} : {{trad+|en|Albania}}
+* {{T|ang}} : {{trad-|ang|Albania}}
+* {{T|ar}} : {{trad+|ar|ألبانيا|tr=albania}}
+* {{T|an}} : {{trad-|an|Albania}}
+* {{T|hy}} : {{trad+|hy|Ալբանիա|tr=albania}}
+* {{T|rup}} : {{trad|rup|Albanii}}
+* {{T|ast}} : {{trad+|ast|Albania}}
+* {{T|az}} : {{trad+|az|Albaniya}}, {{trad-|az|Albani}}
+* {{T|bm}} : {{trad|bm|Alibani}}, {{trad|bm|Áliban}}
+* {{T|nds}} : {{trad+|nds|Albanien}}
+* {{T|nds-nl}} : {{trad|nds-nl|Albaonië}}
+* {{T|eu}} : {{trad+|eu|Albania}}
+* {{T|bn}} : {{trad-|bn|আলবেনিয়া|tr=albeniya}}
+* {{T|be}} : {{trad-|be|Альбанія|tr=albania}}
+* {{T|bs}} : {{trad+|bs|Albanija}}
+* {{T|br}} : {{trad+|br|Albania|f}}
+* {{T|bg}} : {{trad+|bg|Албания|tr=albania}}
+* {{T|ca}} : {{trad+|ca|Albània}}
+* {{T|chr}} : {{trad-|chr|ᎠᎸᏇᏂᏯ|tr=alvqueniya}}
+* {{T|zh}} : {{trad+|zh|阿尔巴尼亚|R=A’ěrbāníyà|tradi=阿爾巴尼亞}}
+* {{T|ko}} : {{trad+|ko|알바니아|tr=albania}}
+* {{T|kw}} : {{trad-|kw|Albani}}
+* {{T|co}} : {{trad+|co|Albania}}
+* {{T|ht}} : {{trad|ht|Albani}}
+* {{T|hr}} : {{trad+|hr|Albanija}}
+* {{T|da}} : {{trad+|da|Albanien}}
+* {{T|es}} : {{trad+|es|Albania}}
+* {{T|eo}} : {{trad-|eo|Albanio}}
+* {{T|et}} : {{trad+|et|Albaania}}
+* {{T|fo}} : {{trad+|fo|Albania}}
+* {{T|fi}} : {{trad+|fi|Albania}}
+* {{T|vls}} : {{trad|vls|Albanië}}
+* {{T|ksh}} : {{trad|ksh|Albanien}}
+* {{T|frp}} : {{trad|frp|Albanie}}
+* {{T|fur}} : {{trad|fur|Albanie}}
+* {{T|fy}} : {{trad+|fy|Albaanje}}
+* {{T|gd}} : {{trad-|gd|Albàinia}}
+* {{T|ga}} : {{trad-|ga|Albáin|dif=An Albáin}}
+* {{T|gl}} : {{trad+|gl|Albania}}
+* {{T|gallo}} : {{trad|gallo|Albanie}}
+* {{T|cy}} : {{trad+|cy|Albania}}
+* {{T|ka}} : {{trad+|ka|ალბანეთი|tr=albaneti}}
+* {{T|el}} : {{trad+|el|Αλβανία|tr=albania}}
+* {{T|he}} : {{trad+|he|אלבניה}}
+* {{T|hi}} : {{trad+|hi|अल्बानिया|tr=əlbanija}}
+* {{T|hu}} : {{trad+|hu|Albánia}}
+* {{T|io}} : {{trad+|io|Albania}}
+* {{T|id}} : {{trad+|id|Albania}}
+* {{T|ia}} : {{trad-|ia|Albania}}
+* {{T|is}} : {{trad+|is|Albanía}}
+* {{T|it}} : {{trad+|it|Albania}}
+* {{T|ja}} : {{trad+|ja|アルバニア|tr=arɯbania}}
+* {{T|csb}} : {{trad-|csb|Albańskô}}
+* {{T|kn}} : {{trad-|kn|ಅಲ್ಬೇನಿಯ|tr=Albēniya}}
+* {{T|kk}} : {{trad-|kk|Албания|tr=Albaniya}}
+* {{T|avk}} : {{trad|avk|Skiperia}}, {{trad|avk|Albana}}
+* {{T|ku}} : {{trad+|ku|Elbanya}}
+* {{T|la}} : {{trad+|la|Albania}}
+* {{T|lv}} : {{trad+|lv|Albānija}}
+* {{T|li}} : {{trad+|li|Albanië}}
+* {{T|ln}} : {{trad-|ln|Albania}}
+* {{T|lt}} : {{trad+|lt|Albanija}}
+* {{T|lb}} : {{trad+|lb|Albanien}}
+* {{T|mk}} : {{trad+|mk|Албанија|tr=albanija}}
+* {{T|ms}} : {{trad-|ms|Albania}}
+* {{T|ml}} : {{trad-|ml|അൽബേനിയ|tr=Albēniya}}
+* {{T|mg}} : {{trad+|mg|Albania}}
+* {{T|mt}} : {{trad-|mt|Albanija}}
+* {{T|gv}} : {{trad-|gv|Albaan}}, {{trad-|gv|Albane}}
+* {{T|mi}} : {{trad-|mi|Arapeinia}}
+* {{T|nan}} : {{trad|nan|Shqipëria}}
+* {{T|na}} : {{trad-|na|Albainia}}
+* {{T|nl}} : {{trad+|nl|Albanië}}
+* {{T|normand}} : {{trad|normand|Albannie}}
+* {{T|no}} : {{trad+|no|Albania}}
+* {{T|nn}} : {{trad+|no|Albania}}
+* {{T|oc}} : {{trad-|oc|Albania}}
+* {{T|os}} : {{trad|os|Албани}}
+* {{T|udm}} : {{trad|udm|Албания}}
+* {{T|ug}} : {{trad+|ug|ئالبانىيە}}, {{trad-|ug|Albaniye}}, {{trad-|ug|Албанийə}}
+* {{T|ps}} : {{trad-|ps|البانيا|tr=albania}}
+* {{T|pdc}} : {{trad|pdc|Albaani}}
+* {{T|fa}} : {{trad+|fa|آلبانی|tr=alban}}
+* {{T|poitevin-saintongeais}} : {{trad|poitevin-saintongeais|Albanie}}
+* {{T|pl}} : {{trad+|pl|Albania|f}}
+* {{T|pt}} : {{trad+|pt|Albânia}}
+* {{T|qu}} : {{trad-|qu|Albaniya}}
+* {{T|rm}} : {{trad|rm|Albania}}
+* {{T|rom}} : {{trad|rom|Shkiperiya}}
+* {{T|ro}} : {{trad+|ro|Albania}}
+* {{T|ru}} : {{trad+|ru|Албания|tr=albania}}
+* {{T|se}} : {{trad|se|Albánia}}
+* {{T|sa}} : {{trad-|sa|अल्बानिया|tr=əlbanija}}
+* {{T|sco}} : {{trad|sco|Albainie}}
+* {{T|sr}} : {{trad+|sr|Албанија|tr=albania}}
+* {{T|sh}} : {{trad+|sh|Albanija}}
+* {{T|scn}} : {{trad-|scn|Albania}}
+* {{T|sk}} : {{trad+|sk|Albánsko}}
+* {{T|sl}} : {{trad+|sl|Albanija}}
+* {{T|dsb}} : {{trad+|dsb|Albańska|f}}
+* {{T|hsb}} : {{trad+|hsb|Albanska|f}}
+* {{T|sv}} : {{trad+|sv|Albanien}}
+* {{T|sw}} : {{trad-|sw|Albania}}
+* {{T|tl}} : {{trad+|tl|Albanya}}
+* {{T|ta}} : {{trad-|ta|அல்பேனியா|tr=albeniya}}
+* {{T|cs}} : {{trad+|cs|Albánie}}
+* {{T|cv}} : {{trad|cv|Албани|tr=albani}}
+* {{T|te}} : {{trad+|te|అల్బేనియా|tr=Albēniyā}}
+* {{T|tet}} : {{trad|tet|Albánia}}
+* {{T|th}} : {{trad+|th|ประเทศแอลเบเนีย|tr=pratet-albania}}
+* {{T|tr}} : {{trad+|tr|Arnavutluk}}
+* {{T|uk}} : {{trad+|uk|Албанія|tr=albania}}
+* {{T|vi}} : {{trad-|vi|An-ba-ni}}
+* {{T|cu}} : {{trad|cu|Алванїꙗ}}, {{trad|cu|Алвані́ꙗ}}
+* {{T|vro}} : {{trad|vro|Albaania}}
+* {{T|wa}} : {{trad-|wa|Albaneye}}
+* {{T|war}} : {{trad|war|Albania}}
+* {{T|wo}} : {{trad-|wo|Albaani}}
+* {{T|xet}} : {{trad|xet|Xibira}}
+{{trad-fin}}
+
+=== {{S|nom propre|fr|num=2}} ===
+{{fr-inv|al.ba.ni}}
+[[Image:Aghuank.jpg|right|thumb|200px|Localisation de l’'''Albanie''' caucasienne (jusqu’en 387 ap. J.-C.).]]
+'''Albanie''' {{pron|al.ba.ni|fr}} {{f}}
+# {{anciennes divisions|fr}} ''Synonyme de'' [[Albanie caucasienne]], [[royaume]] [[antique]] couvrant le [[territoire]] [[actuel]] de la république d’[[Azerbaïdjan]], de la [[Géorgie]] et le sud du [[Daghestan]].
+#* {{exemple | lang=fr
+ | L’éloignement géographique de l’'''Albanie''' par rapport aux Empires romano-byzantin et iranien des dynasties parthe et sassanide, sa position stratégique –&nbsp;l’existence de voies de passage à travers le Caucase et Derbent que pouvaient emprunter des guerriers nomades&nbsp;– ont créé des conditions favorables à la sauvegarde de la souveraineté de l’État, à l’indépendance politique du pays entre le {{siècle2|I}} et le {{siècle2|VIII}} siècle.
+ | source=Farida Mamedova, « Le problème de l’ethnos albano-caucasien (sur la base des recherches de Ju. V. Bromlej sur la théorie de l’ethnos) », ''Cahiers du monde russe et soviétique'', numéro 31-2-3, 1990, page 385}}
+
+==== {{S|synonymes}} ====
+* [[Aghbanie]]
+* [[Aghouanie]]
+* [[Albanie du Caucase]]
+
+=== {{S|prononciation}} ===
+* {{pron|al.ba.ni|fr}}
+** {{écouter|France (Lyon)|al.ba.ni|audio=Fr-Albanie.ogg|titre=Albanie|lang=fr}}
+** {{écouter|France (Île-de-France)|al.ba.ni|audio=Fr-Paris--Albany.ogg|titre=Albanie|lang=fr}}
+* {{écouter||al.ba.ni|lang=fr|audio=LL-Q150 (fra)-Jules78120-Albanie.wav}}
+* {{écouter|lang=fr|France (Paris)|audio=LL-Q150 (fra)-GrandCelinien-Albanie.wav}}
+* {{écouter|lang=fr|France (Occitanie)|audio=LL-Q150 (fra)-Arthur Crbz-Albanie.wav}}
+* {{écouter|lang=fr|France||audio=LL-Q150 (fra)-Mecanautes-Albanie.wav}}
+* {{écouter|canton du Valais (Suisse)||lang=fr|audio=LL-Q150 (fra)-LuneMarine (DSwissK)-Albanie.wav}}
+* {{écouter|Perpignan (France)|al.ba.ni|lang=fr|audio=LL-Q150 (fra)-Laszlo Cárdenas (Culex)-Albanie.wav}}
+* {{écouter|Vosges (France)||lang=fr|audio=LL-Q150 (fra)-Poslovitch-Albanie.wav}}
+* {{écouter|Haute-Loire (France)||lang=fr|audio=LL-Q150 (fra)-Sayoxime-Albanie.wav}}
+
+==== {{S|homophones|fr}} ====
+* [[Albany]]
+
+=== {{S|anagrammes}} ===
+{{voir anagrammes|fr}}
+
+=== {{S|voir aussi}} ===
+* {{WP}}
+* {{Vikidia}}
+* {{WP|Aghbanie}}
+
+=== {{S|références}} ===
+<references />
+
+[[Catégorie:Albanie en français|*]]
+
+== {{langue|gsw}} ==
+=== {{S|nom propre|gsw}} ===
+'''Albanie'''
+# {{pays|gsw}} [[Albanie#fr|Albanie]] (pays européen).
+
+== {{langue|frp}} ==
+=== {{S|nom propre|frp}} ===
+'''Albanie'''
+# {{pays|frp}} [[Albanie#fr|Albanie]] (pays européen).
+
+== {{langue|fur}} ==
+=== {{S|nom propre|fur}} ===
+'''Albanie'''
+# {{pays|fur}} [[Albanie#fr|Albanie]] (pays européen).
+
+== {{langue|gallo}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gallo}}
+
+=== {{S|nom propre|gallo}} ===
+{{gallo-inv}}
+'''Albanie''' {{pron||gallo}} {{gallo-graphie|ABCD}}
+# {{pays|gallo}} [[Albanie#fr|Albanie]].
+
+==== {{S|gentilés}} ====
+* {{lien|Albanéz|gallo}}, {{lien|Albanéze|gallo}}
+* {{lien|albanéz|gallo}}, {{lien|albanéze|gallo}}
+
+=== {{S|références}} ===
+* {{R:PMatao|p=80}}
+
+== {{langue|lb}} ==
+=== {{S|nom propre|lb|flexion}} ===
+{{lb-inv-en|s=Albanien|pron=ɑlbˈaːniən|inv_titre=Nom propre}}
+'''Albanie''' {{pron|ɑlbˈaːniə|lb}} {{n}}
+# ''Forme faible de'' {{lien|Albanien|lb}}.
+#* {{exemple|lang=lb}}
+
+==== {{S|notes}} ====
+* {{lb-n-|np=oui}}
+
+== {{langue|poitevin-saintongeais}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|poitevin-saintongeais}}
+
+=== {{S|nom propre|poitevin-saintongeais}} ===
+'''Albanie''' {{m}} {{poit-saint-normalisé}}
+# {{pays|poitevin-saintongeais}} {{lien|Albanie|fr}}.
+
+=== {{S|références}} ===
+* {{R:Dicopoitsaint|Albanie|consulté le=9 avril 2019}}

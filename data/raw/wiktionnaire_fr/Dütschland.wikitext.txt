@@ -1,0 +1,26 @@
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: Déformation du mot allemand [[Deutschland]].
+
+=== {{S|nom propre|gsw}} ===
+'''Dütschland'''
+# [[Allemagne]] (pays européen).
+
+==== {{S|synonymes}} ====
+* [[Dytschland]]
+* [[Düütschland]]
+* [[Ditsch]]
+
+[[Catégorie:Pays en alémanique]]
+
+== {{langue|ksh}} ==
+=== {{S|étymologie}} ===
+: Déformation du mot {{étylp|de|ksh|Deutschland}}.
+
+=== {{S|nom propre|ksh}} ===
+'''Dütschland''' {{pron||ksh}}
+# {{pays|ksh}} [[Allemagne]].
+=== {{S|références}} ===
+* {{WP|lang=ksh}}
+[[Catégorie:Europe en francique ripuaire]]
+{{clé de tri|dutschland}}

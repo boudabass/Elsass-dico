@@ -1,0 +1,121 @@
+== {{langue|fr}} ==
+=== {{S|étymologie}} ===
+:Du {{étyl|la|fr|Ticinus}}.
+
+=== {{S|nom propre|fr|num=1}} ===
+'''Tessin''' {{pron||fr}} {{m}}
+# {{cours d’eau|fr|d’Italie}} Affluent du [[Pô]].
+# Canton du sud de la [[Suisse]].
+#* {{exemple | lang=fr
+ | L’aire des dialectes lombards a pour cœur l’ancien duché de Milan, fondé au {{siècle2|XIV}} siècle. Elle inclut, à l’est, Bergame et Brescia (vénitiennes du {{siècle2|XV}} au {{siècle2|XVIII}} siècle), au nord, le '''Tessin''' (conquis par les Suisses au début du {{siècle2|XVI}} siècle), à l’ouest, Novare (rattachée au Piémont au {{siècle2|XVIII}} siècle).
+ | source=Jean Sellier, ''Histoire des langues et des peuples qui les parlent'', 2020, La Découverte, page 338}}
+#* {{exemple|lang=fr|De sa gaieté, il ressortit que le '''Tessin''' était le plus bel endroit du monde, qu’un mètre dix de neige était tombé en vingt-quatre heures, qu’on aurait du mal à basculer sur l’Engadine et qu’un virus pulmonaire se répandait dans la vallée, d’origine probablement chinoise et dont ici, en altitude, on n’avait rien à craindre.|source={{w|Sylvain Tesson}}, ''Blanc'', Gallimard, 2022, page 148}}
+
+==== {{S|gentilés}} ====
+* [[Tessinois]]
+* [[tessinois]]
+
+==== {{S|traductions}} ====
+{{trad-début|Rivière}}
+* {{T|de}} : {{trad+|de|Tessin}}
+* {{T|en}} : {{trad+|en|Ticino}}
+* {{T|bg}} : {{trad-|bg|Тичино|tr=Tičino}}
+* {{T|ca}} : {{trad-|ca|Ticino}}
+* {{T|es}} : {{trad-|es|Tesino}}
+* {{T|eo}} : {{trad-|eo|Tiĉino}}
+* {{T|et}} : {{trad-|et|Ticino}}
+* {{T|he}} : {{trad-|he|טיצ'ינו}}
+* {{T|hu}} : {{trad-|hu|Ticino}}
+* {{T|it}} : {{trad+|it|Ticino}}
+* {{T|la}} : {{trad-|la|Ticinus}}
+* {{T|lmo}} : {{trad|lmo|Tisin}}
+* {{T|nl}} : {{trad-|nl|Ticino}}
+* {{T|no}} : {{trad-|no|Ticino}}
+* {{T|pt}} : {{trad-|pt|Ticino}}
+* {{T|scn}} : {{trad-|scn|Ticinu}}
+* {{T|sl}} : {{trad-|sl|Ticino}}
+{{trad-fin}}
+
+{{trad-début|Canton suisse}}
+* {{T|gsw}} : '''Tessin'''
+* {{T|de}} : '''Tessin'''
+* {{T|en}} : {{trad+|en|Ticino}}
+* {{T|an}} : {{trad-|an|Tesino}}
+* {{T|eu}} : {{trad-|eu|Ticino}}
+* {{T|bg}} : {{trad-|bg|Тичино|tr=Tičino}}
+* {{T|ca}} : {{trad-|ca|Ticino}}
+* {{T|zh}} : {{trad-|zh|提契諾州}}
+* {{T|es}} : {{trad-|es|Tesino}}
+* {{T|eo}} : {{trad-|eo|Tiĉino}}
+* {{T|fi}} : {{trad-|fi|Ticino}}
+* {{T|frp}} : '''Tessin'''
+* {{T|id}} : {{trad-|id|Ticino}}
+* {{T|it}} : {{trad+|it|Ticino}}
+* {{T|ja}} : {{trad-|ja|ティチーノ州}}
+* {{T|la}} : {{trad-|la|Ticinum}}
+* {{T|nl}} : {{trad-|nl|Ticino}}
+* {{T|no}} : {{trad-|no|Ticino}}
+* {{T|pl}} : {{trad+|pl|Tessyn}}
+* {{T|pt}} : {{trad-|pt|Ticino}}
+* {{T|rm}} : '''Tessin'''
+* {{T|ro}} : {{trad-|ro|Ticino}}
+* {{T|ru}} : {{trad-|ru|Тичино|tr=Tičino}}
+* {{T|scn}} : {{trad-|scn|Ticinu}}
+* {{T|sv}} : {{trad-|sv|Ticino}}
+* {{T|cs}} : {{trad-|cs|Ticino}}
+* {{T|tr}} : {{trad-|tr|Tikino}}
+{{trad-fin}}
+
+=== {{S|nom propre|fr|num=2}} ===
+{{fr-inv||inv_titre=Nom propre}}
+'''Tessin''' {{pron||fr}}
+# {{localités|fr|d’Allemagne}} [[ville|Ville]] et [[commune]] d’[[Allemagne]], située dans le [[Mecklembourg-Poméranie-Occidentale]].
+
+==== {{S|traductions}} ====
+{{trad-début|}}
+{{trad-fin}}
+
+=== {{S|prononciation}} ===
+* {{écouter|Somain (France)||lang=fr|audio=LL-Q150 (fra)-Jérémy-Günther-Heinz Jähnick-Tessin.wav}}
+
+=== {{S|anagrammes}} ===
+{{voir anagrammes|fr}}
+
+=== {{S|voir aussi}} ===
+* {{WP}}
+
+[[Catégorie:Cantons de Suisse en français]]
+[[Catégorie:Cours d’eau d’Italie en français]]
+
+== {{langue|gsw}} ==
+=== {{S|nom propre|gsw}} ===
+'''Tessin'''
+# [[Tessin#Français|Tessin]] (affluent du [[Pô]]).
+# [[Tessin#Français|Tessin]] (canton suisse).
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|de}}
+
+=== {{S|nom propre|de}} ===
+{{de-nom-propre|genre=n|gs=Tessins}}
+'''Tessin''' {{pron|tɛˈsiːn|de}}
+# [[Tessin#Français|Tessin]] (affluent du [[Pô]]).
+# [[Tessin#Français|Tessin]] (canton suisse).
+#* {{exemple|Im Güterverkehr findet eine erkennbare Verlagerung von der Strasse auf die Schiene statt. Erstmals ist neben dem Transitverkehr auch ein deutliches Wachstum im regionalen Schienengüterverkehr zwischen dem '''Tessin''' und der Deutschschweiz festzustellen.|lang=de|sens=Dans le transport de marchandises, on constate un transfert modal de la route vers le rail. Pour la première fois, la hausse constatée ne s’applique pas qu’au trafic de transit, mais concerne aussi en grande partie le transport marchandises ferroviaire régional de marchandises entre le Tessin et la Suisse alémanique.|source={{périodique|auteur=|titre=Gotthard-Basistunnel bewirkt deutliches Wachstum der Passagierzahlen bei der Bahn|journal=Bundesamt für Verkehr|date=16 janvier 2024|texte=https://www.bav.admin.ch/bav/de/home/publikationen/medienmitteilungen.msg-id-99703.html}}}}
+
+==== {{S|gentilés}} ====
+* [[Tessiner]]
+
+=== {{S|prononciation}} ===
+* {{écouter|Suisse|tɛˈsiːn|lang=de|audio=De-Tessin.ogg}}
+
+== {{langue|frp}} ==
+=== {{S|nom propre|frp}} ===
+'''Tessin'''
+# [[Tessin#Français|Tessin]] (canton suisse).
+
+== {{langue|rm}} ==
+=== {{S|nom propre|rm}} ===
+'''Tessin'''
+# [[Tessin#Français|Tessin]] (canton suisse).

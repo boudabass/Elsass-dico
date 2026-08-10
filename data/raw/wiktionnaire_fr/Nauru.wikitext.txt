@@ -1,0 +1,673 @@
+{{voir/nauru}}
+
+== {{langue|fr}} ==
+
+=== {{S|étymologie}} ===
+: {{date|lang=fr}} Possiblement du nauruan ''Anáoero'', « je vais à la plage »{{R|West|Barbara A. West, ''Nauruans: nationality'', Encyclopedia of the Peoples of Asia and Oceania, Infobase Publishing, 2010, pp. 578–580, {{ISBN|9781438119137}}}}.
+
+=== {{S|nom propre|fr}} ===
+{{fr-inv|na.u.ʁu|pron2=no.ʁu|pron3=no.ʁy}}
+[[File:Nauru on the globe %28Polynesia centered%29.svg|thumb|Localisation de '''Nauru'''.]]
+[[File:Aerial view of Nauru.jpg|thumb|L’île de '''Nauru'''.]]
+'''Nauru''' {{pron|na.u.ʁu|fr}} ''ou'' {{pron|no.ʁu|fr}} ''ou'' {{pron|no.ʁy|fr}} {{m}}
+# {{îles|fr|d’Océanie}} Île du [[Pacifique]] occidental, en [[Micronésie]], au sud de l’[[équateur]].
+#* {{exemple |lang=fr}}
+# {{pays|fr|d’Océanie}} État d’[[Océanie]], dont le territoire est constitué de l'île ci-dessus. Sa capitale est [[Yaren]].
+#* {{exemple |Ce paradis, c’est l’île de '''Nauru''' (prononcer naourou), un tout petit point de 8,2 milles carrés, perdu dans l’immensité bleue du Pacifique. |source=''Sélection du Reader’s Digest'', volume 46, 1970 |lang=fr}}
+
+==== {{S|abréviations}} ====
+* [[NRU]] (norme {{w|ISO 3166-1}} alpha-3)
+
+==== {{S|synonymes}} ====
+; ''Île'' :
+* [[Naourou]] {{rare|nocat=1}}
+* [[île Pleasant]] (1798–)
+* île [[Nawodo]] (~1888–)
+* île [[Onawero]] (~1888–)
+; ''État'' :
+* [[République de Nauru]] ''(1968–)''
+
+==== {{S|gentilés}} ====
+* [[Nauruan]], [[Nauruane]], [[nauruan]]{{R|JourOffi|''{{w|Arrêté français du 4 novembre 1993 relatif à la terminologie des noms d’États et de capitales}}'', ''Journal officiel'', 25 janvier 1994}}{{R|BO106}}
+{{Clr}}
+==== {{S|traductions}} ====
+{{trad-début|État du Pacifique}}
+* {{T|af}} : {{trad-|af|Nauru}}
+* {{T|sq}} : {{trad-|sq|Naurua}}
+* {{T|gsw}} : {{trad|gsw|Nauru}}
+* {{T|de}} : {{trad+|de|Nauru}}
+* {{T|nds}} : {{trad-|nds|Nauru}}
+* {{T|en}} : {{trad+|en|Nauru}}
+* {{T|ar}} : {{trad-|ar|ناورو}}
+* {{T|arz}} : {{trad|arz|ناورو}}
+* {{T|an}} : {{trad-|an|Nauru}}
+* {{T|hy}} : {{trad-|hy|Նաուրու|tr=Naowrow}}
+* {{T|rup}} : {{trad|rup|Nauru}}
+* {{T|ast}} : {{trad+|ast|Nauru}}
+* {{T|eu}} : {{trad-|eu|Nauru}}
+* {{T|bn}} : {{trad+|bn|নাউরু|R=Nauru}}
+* {{T|be}} : {{trad-|be|Науру|tr=Nauru}}
+* {{T|be-tarask}} : {{trad|be-tarask|Науру|R=Nauru}}
+* {{T|bs}} : {{trad-|bs|Nauru}}
+* {{T|bg}} : {{trad-|bg|Науру|tr=Nauru}}
+* {{T|yue}} : {{trad-|yue|瑙魯}}
+* {{T|ca}} : {{trad+|ca|Nauru}}
+* {{T|ceb}} : {{trad|ceb|Nauru}}
+* {{T|zh}} : {{trad+|zh|瑙鲁|R=Nǎolǔ|tradi=瑙魯}}, {{trad+|zh|诺鲁|tradi=諾魯|tr=Nuòlǔ}} ''(Taïwan)''
+* {{T|ko}} : {{trad+|ko|나우루|tr=Nauru}}
+* {{T|kw}} : {{trad-|kw|Nauru}}
+* {{T|ht}} : {{trad|ht|Naorou}}
+* {{T|hr}} : {{trad+|hr|Nauru}}
+* {{T|da}} : {{trad+|da|Nauru}}
+* {{T|diq}} : {{trad-|diq|Nauru}}
+* {{T|dv}} : {{trad-|dv|ނައުރޫ}}
+* {{T|es}} : {{trad+|es|Nauru}}
+* {{T|eo}} : {{trad+|eo|Nauro}}
+* {{T|et}} : {{trad+|et|Nauru}}
+* {{T|fi}} : {{trad+|fi|Nauru}}
+* {{T|ksh}} : {{trad|ksh|Nauru}}
+* {{T|frp}} : {{trad|frp|Naouru}}
+* {{T|fy}} : {{trad-|fy|Naurû}}
+* {{T|gd}} : {{trad-|gd|Nauru}}
+* {{T|ga}} : {{trad-|ga|Nárú}}
+* {{T|gl}} : {{trad+|gl|Nauru}}
+* {{T|cy}} : {{trad-|cy|Nauru}}
+* {{T|ka}} : {{trad+|ka|ნაურუ|tr=Nauru}}
+* {{T|el}} : {{trad+|el|Ναουρού|R=Naouroú}}
+* {{T|he}} : {{trad-|he|נאורו}}
+* {{T|hi}} : {{trad+|hi|नाउरु|R=Nāuru}}
+* {{T|hu}} : {{trad+|hu|Nauru}}
+* {{T|io}} : {{trad+|io|Nauru}}
+* {{T|id}} : {{trad+|id|Nauru}}
+* {{T|ia}} : {{trad-|ia|Nauru}}
+* {{T|is}} : {{trad+|is|Nárú}}
+* {{T|it}} : {{trad+|it|Nauru}}
+* {{T|ja}} : {{trad+|ja|ナウル|tr=Nauru}}
+* {{T|jv}} : {{trad-|jv|Nauru}}
+* {{T|pam}} : {{trad|pam|Nauru}}
+* {{T|kk}} : {{trad+|kk|Науру}}
+* {{T|avk}} : {{trad|avk|Naurua}}
+* {{T|ku}} : {{trad+|ku|Naûrû}}
+* {{T|la}} : {{trad-|la|Nauruna Insula}}, {{trad-|la|Naurum}}
+* {{T|lv}} : {{trad-|lv|Nauru}}
+* {{T|lij}} : {{trad|lij|Nauru}}
+* {{T|li}} : {{trad-|li|Naoeroe}}
+* {{T|lt}} : {{trad+|lt|Nauru}}
+* {{T|lb}} : {{trad-|lb|Nauru}}
+* {{T|mk}} : {{trad-|mk|Науру|tr=Nauru}}
+* {{T|ms}} : {{trad-|ms|Nauru}}
+* {{T|ml}} : {{trad-|ml|നൗറു}}
+* {{T|bpy}} : {{trad|bpy|নাউরু|R=Nauru}}
+* {{T|gv}} : {{trad-|gv|Naaroo}}
+* {{T|mi}} : {{trad-|mi|Nauru}}
+* {{T|mr}} : {{trad-|mr|नौरू|R=Naurū}}
+* {{T|nan}} : {{trad-|nan|Nauru}}
+* {{T|nch}} : {{trad|nch|Nauru}}
+* {{T|na}} : {{trad+|na|Naoero}}
+* {{T|nl}} : {{trad+|nl|Nauru}}
+* {{T|new}} : {{trad|new|नाउरु|R=Nāuru}}
+* {{T|no}} : {{trad-|no|Nauru}}
+* {{T|nn}} : {{trad-|no|Nauru}}
+* {{T|oc}} : {{trad-|oc|Nauru}}
+* {{T|os}} : {{trad|os|Науру|R=Nauru}}
+* {{T|ug}} : {{trad-|ug|Nawru}}
+* {{T|ur}} : {{trad-|ur|ناورو}}
+* {{T|uz}} : {{trad+|uz|Nauru}}
+* {{T|ps}} : {{trad-|ps|ناورو}}
+* {{T|fa}} : {{trad-|fa|نائورو}}
+* {{T|pms}} : {{trad|pms|Nauru}}
+* {{T|pl}} : {{trad+|pl|Nauru}}
+* {{T|pt}} : {{trad+|pt|Nauru}}
+* {{T|qu}} : {{trad-|qu|Nawru}}
+* {{T|rm}} : {{trad-|rm|Nauru}}
+* {{T|ro}} : {{trad+|ro|Nauru}}
+* {{T|ru}} : {{trad+|ru|Науру|tr=Nauru}}
+* {{T|se}} : {{trad|se|Nauru}}
+* {{T|sm}} : {{trad-|sm|Nauru}}
+* {{T|sgs}} : {{trad|sgs|Nauru}}
+* {{T|sa}} : {{trad-|sa|नौरु|R=Nauru}}
+* {{T|sr}} : {{trad-|sr|Науру|R=Nauru}}
+* {{T|sh}} : {{trad+|sh|Nauru}}
+* {{T|scn}} : {{trad-|scn|Nauru}}
+* {{T|sk}} : {{trad-|sk|Nauru}}
+* {{T|sl}} : {{trad+|sl|Nauru}}
+* {{T|sv}} : {{trad+|sv|Nauru}}
+* {{T|sw}} : {{trad+|sw|Nauru}}
+* {{T|tg}} : {{trad-|tg|Науру|R=Nauru}}
+* {{T|tl}} : {{trad-|tl|Nauru}}
+* {{T|ta}} : {{trad-|ta|நவூரு|R=Navūru}}
+* {{T|crh}} : {{trad|crh|Nauru}}
+* {{T|cs}} : {{trad+|cs|Nauru}}
+* {{T|th}} : {{trad-|th|สาธารณรัฐนาอูรู}}
+* {{T|tpi}} : {{trad-|tpi|Nauru}}
+* {{T|tr}} : {{trad+|tr|Nauru}}
+* {{T|uk}} : {{trad+|uk|Науру|R=Nauru}}
+* {{T|vi}} : {{trad+|vi|Nauru}}
+* {{T|vo}} : {{trad-|vo|Naureän}}
+* {{T|war}} : {{trad|war|Nauru}}
+* {{T|wo}} : {{trad-|wo|Nauru}}
+{{trad-fin}}
+
+=== {{S|prononciation}} ===
+* {{pron|na.u.ʁu|fr}}
+* {{pron|no.ʁy|fr}}{{R|Lerond|Alain Lerond, ''Dictionnaire de la prononciation'', Larousse, 1980, page 541}}
+** {{écouter|lang=fr|France (Occitanie)|no.ʁu|audio=LL-Q150 (fra)-Arthur Crbz-Nauru.wav}}
+* {{pron|no.ʁu|fr}}{{R|Lerond}}
+* {{écouter|lang=fr|France||audio=LL-Q150 (fra)-Mecanautes-Nauru.wav}}
+
+=== {{S|voir aussi}} ===
+* {{WP}}
+
+=== {{S|références}} ===
+{{Références}}
+
+[[Catégorie:Nauru en français|*]]
+
+== {{langue|af}} ==
+=== {{S|nom propre|af}} ===
+'''Nauru''' {{pron||af}}
+# {{pays|af}} [[#fr|Nauru]] (pays d’[[Océanie]]).
+#* {{exemple|lang=af}}
+# {{îles|af}} [[#fr|Nauru]] (île d’Océanie).
+#* {{exemple|lang=af}}
+
+== {{langue|gsw}} ==
+=== {{S|nom propre|gsw}} ===
+'''Nauru''' {{pron||gsw}}
+# {{pays|gsw}} [[#fr|Nauru]] (pays d’[[Océanie]]).
+# {{îles|gsw}} [[#fr|Nauru]] (île d’Océanie).
+
+== {{langue|de}} ==
+=== {{S|nom propre|de}} ===
+{{de-nom
+|ns= Nauru |np=
+|as= Nauru |ap=
+|gs= Naurus |gp=
+|ds= Nauru |dp=}}
+'''Nauru''' {{pron||de}}
+# {{pays|de|d’Océanie}} [[#fr|Nauru]] (pays d’[[Océanie]]).
+# {{îles|de|d’Océanie}} [[#fr|Nauru]] (île d’Océanie).
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=de|Allemagne|audio=De-Nauru fcm.ogg}}
+* {{écouter|||lang=de|audio=LL-Q188 (deu)-Djknusper-Nauru.wav}}
+
+==== {{S|synonymes}} ====
+* [[Naoero]]
+* [[Pleasant Island]]
+
+==== {{S|dérivés}} ====
+* [[Nauruerin]]
+* [[nauruisch]]
+* [[Nauruer]]
+
+==== {{S|hyperonymes}} ====
+* [[Land]]
+* [[Pazifischer Ozean]]
+* [[Pazifik]]
+* [[Insel]]
+* [[Ozeanien]]
+* [[Staat]]
+
+==== {{S|hyponymes}} ====
+* [[Distrikt]]
+* [[Ostnauru]]
+* [[Westnauru]]
+* [[Nordnauru]]
+* [[Administrative Gliederung Naurus]]
+* [[Zentralnauru]]
+* [[Südnauru]]
+
+== {{langue|nds}} ==
+=== {{S|nom propre|nds}} ===
+'''Nauru''' {{pron||nds}}
+# {{pays|nds}} [[#fr|Nauru]] (pays d’[[Océanie]]).
+# {{îles|nds}} [[#fr|Nauru]] (île d’Océanie).
+
+== {{langue|en}} ==
+=== {{S|nom propre|en}} ===
+'''Nauru''' {{pron|nɑ.ˈu.ɹu|en}} {{US|nocat=1}}, {{pron|nɑː.ˈuː.ɹuː|en}} {{UK|nocat=1}}
+# {{pays|en|d’Océanie}} [[#fr|Nauru]] (pays d’[[Océanie]]).
+# {{îles|en|d’Océanie}} [[#fr|Nauru]] (île d’Océanie).
+
+==== {{S|dérivés}} ====
+* {{lien|Nauruan|en}}
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=en|États-Unis <!-- précisez svp la ville ou la région -->|nɑ.ˈu.ɹu|audio=En-us-Nauru.ogg}}
+* {{écouter|Londres (Royaume-Uni)||lang=en|audio=LL-Q1860 (eng)-Soundguys-Nauru.wav}}
+* {{écouter|Milwaukee (États-Unis)||lang=en|audio=LL-Q1860 (eng)-Flame, not lame-Nauru.wav}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=en}}
+
+== {{langue|an}} ==
+=== {{S|nom propre|an}} ===
+'''Nauru''' {{pron||an}}
+# {{pays|an}} [[#fr|Nauru]] (pays d’[[Océanie]]).
+# {{îles|an}} [[#fr|Nauru]] (île d’Océanie).
+
+== {{langue|rup}} ==
+=== {{S|nom propre|rup}} ===
+'''Nauru''' {{pron||rup}}
+# {{pays|rup}} [[#fr|Nauru]] (pays d’[[Océanie]]).
+# {{îles|rup}} [[#fr|Nauru]] (île d’Océanie).
+
+== {{langue|ast}} ==
+=== {{S|nom propre|ast}} ===
+'''Nauru''' {{pron||ast}}
+# {{pays|ast}} [[#fr|Nauru]] (pays d’[[Océanie]]).
+# {{îles|ast}} [[#fr|Nauru]] (île d’Océanie).
+
+== {{langue|eu}} ==
+=== {{S|nom propre|eu}} ===
+'''Nauru''' {{pron||eu}}
+# {{pays|eu|d’Océanie}} [[#fr|Nauru]] (pays d’[[Océanie]]).
+# {{îles|eu|d’Océanie}} [[#fr|Nauru]] (île d’Océanie).
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=eu}}
+
+== {{langue|bs}} ==
+=== {{S|nom propre|bs}} ===
+'''Nauru''' {{pron||bs}}
+# {{pays|bs}} [[#fr|Nauru]] (pays d’[[Océanie]]).
+# {{îles|bs}} [[#fr|Nauru]] (île d’Océanie).
+
+== {{langue|ca}} ==
+=== {{S|nom propre|ca}} ===
+'''Nauru''' {{pron||ca}}
+# {{pays|ca|d’Océanie}} [[#fr|Nauru]] (pays d’[[Océanie]]).
+# {{îles|ca|d’Océanie}} [[#fr|Nauru]] (île d’Océanie).
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=ca|Espagne (Villarreal)||audio=LL-Q7026 (cat)-Millars-Nauru.wav}}
+
+== {{langue|ceb}} ==
+=== {{S|nom propre|ceb}} ===
+'''Nauru''' {{pron||ceb}}
+# {{pays|ceb}} [[#fr|Nauru]] (pays d’[[Océanie]]).
+# {{îles|ceb}} [[#fr|Nauru]] (île d’Océanie).
+
+== {{langue|kw}} ==
+=== {{S|nom propre|kw}} ===
+'''Nauru''' {{pron||kw}}
+# {{pays|kw}} [[#fr|Nauru]] (pays d’[[Océanie]]).
+# {{îles|kw}} [[#fr|Nauru]] (île d’Océanie).
+
+== {{langue|hr}} ==
+=== {{S|nom propre|hr}} ===
+'''Nauru''' {{pron||hr}}
+# {{pays|hr|d’Océanie}} [[#fr|Nauru]] (pays d’[[Océanie]]).
+# {{îles|hr|d’Océanie}} [[#fr|Nauru]] (île d’Océanie).
+
+== {{langue|da}} ==
+=== {{S|nom propre|da}} ===
+'''Nauru''' {{pron||da}}
+# {{pays|da|d’Océanie}} [[#fr|Nauru]] (pays d’[[Océanie]]).
+# {{îles|da|d’Océanie}} [[#fr|Nauru]] (île d’Océanie).
+
+== {{langue|diq}} ==
+=== {{S|nom propre|diq}} ===
+'''Nauru''' {{pron||diq}}
+# {{pays|diq}} [[#fr|Nauru]] (pays d’[[Océanie]]).
+# {{îles|diq}} [[#fr|Nauru]] (île d’Océanie).
+
+== {{langue|es}} ==
+=== {{S|nom propre|es}} ===
+'''Nauru''' {{pron||es}}
+# {{pays|es|d’Océanie}} [[#fr|Nauru]] (pays d’[[Océanie]]).
+# {{îles|es|d’Océanie}} [[#fr|Nauru]] (île d’Océanie).
+
+=== {{S|prononciation}} ===
+* {{écouter|Villarreal (Espagne)||lang=es|audio=LL-Q1321 (spa)-Millars-Nauru.wav}}
+* {{écouter|Espagne||lang=es|audio=LL-Q1321 (spa)-Rodelar-Nauru.wav}}
+
+== {{langue|et}} ==
+=== {{S|nom propre|et}} ===
+'''Nauru''' {{pron||et}}
+# {{pays|et|d’Océanie}} [[#fr|Nauru]] (pays d’[[Océanie]]).
+# {{îles|et|d’Océanie}} [[#fr|Nauru]] (île d’Océanie).
+
+== {{langue|fi}} ==
+=== {{S|nom propre|fi}} ===
+'''Nauru''' {{pron||fi}}
+# {{pays|fi|d’Océanie}} [[#fr|Nauru]] (pays d’[[Océanie]]).
+# {{îles|fi|d’Océanie}} [[#fr|Nauru]] (île d’Océanie).
+
+== {{langue|ksh}} ==
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|ksh}}
+=== {{S|nom propre|ksh}} ===
+
+'''Nauru''' {{pron||ksh}}
+# {{pays|ksh}} [[#fr|Nauru]] (pays d’[[Océanie]]).
+# {{îles|ksh}} [[#fr|Nauru]] (île d’Océanie).
+
+=== {{S|références}} ===
+* {{WP|lang=ksh}}
+[[Catégorie:Europe en francique ripuaire]]
+
+== {{langue|gd}} ==
+=== {{S|nom propre|gd}} ===
+'''Nauru''' {{pron||gd}}
+# {{pays|gd}} [[#fr|Nauru]] (pays d’[[Océanie]]).
+# {{îles|gd}} [[#fr|Nauru]] (île d’Océanie).
+
+== {{langue|gl}} ==
+=== {{S|nom propre|gl}} ===
+'''Nauru''' {{pron||gl}}
+# {{pays|gl|d’Océanie}} [[#fr|Nauru]] (pays d’[[Océanie]]).
+# {{îles|gl|d’Océanie}} [[#fr|Nauru]] (île d’Océanie).
+
+== {{langue|cy}} ==
+=== {{S|nom propre|cy}} ===
+'''Nauru''' {{pron||cy}}
+# {{pays|cy}} [[#fr|Nauru]] (pays d’[[Océanie]]).
+# {{îles|cy}} [[#fr|Nauru]] (île d’Océanie).
+
+== {{langue|hu}} ==
+=== {{S|nom propre|hu}} ===
+'''Nauru''' {{pron||hu}}
+# {{pays|hu|d’Océanie}} [[#fr|Nauru]] (pays d’[[Océanie]]).
+# {{îles|hu|d’Océanie}} [[#fr|Nauru]] (île d’Océanie).
+
+== {{langue|io}} ==
+=== {{S|nom propre|io}} ===
+'''Nauru''' {{pron||io}}
+# {{pays|io}} [[#fr|Nauru]] (pays d’[[Océanie]]).
+# {{îles|io}} [[#fr|Nauru]] (île d’Océanie).
+
+== {{langue|id}} ==
+=== {{S|nom propre|id}} ===
+'''Nauru''' {{pron||id}}
+# {{pays|id|d’Océanie}} [[#fr|Nauru]] (pays d’[[Océanie]]).
+#* {{exemple|lang=id}}
+# {{îles|id|d’Océanie}} [[#fr|Nauru]] (île d’Océanie).
+#* {{exemple|lang=id}}
+
+== {{langue|ia}} ==
+=== {{S|nom propre|ia}} ===
+'''Nauru''' {{pron||ia}}
+# {{pays|ia}} [[#fr|Nauru]] (pays d’[[Océanie]]).
+# {{îles|ia}} [[#fr|Nauru]] (île d’Océanie).
+
+== {{langue|it}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|it}}
+
+=== {{S|nom propre|it}} ===
+{{it-inv|na.ˈu.ru}}
+'''Nauru''' {{pron|na.ˈu.ru|it}} {{m}}
+# {{pays|it|d’Océanie}} [[#fr|Nauru]] (pays d’[[Océanie]]).
+# {{îles|it|d’Océanie}} [[#fr|Nauru]] (île d’Océanie).
+
+==== {{S|gentilés}} ====
+* [[nauruano#it|nauruano]], [[nauruana#it|nauruana]]
+
+=== {{S|anagrammes}} ===
+{{voir anagrammes|it}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=it}}
+* {{VOY|lang=it}}
+* [[Annexe:Pays et leurs gentilés en italien]]
+
+== {{langue|jv}} ==
+=== {{S|nom propre|jv}} ===
+'''Nauru''' {{pron||jv}}
+# {{pays|jv}} [[#fr|Nauru]] (pays d’[[Océanie]]).
+# {{îles|jv}} [[#fr|Nauru]] (île d’Océanie).
+
+== {{langue|pam}} ==
+=== {{S|nom propre|pam}} ===
+'''Nauru''' {{pron||pam}}
+# {{pays|pam}} [[#fr|Nauru]] (pays d’[[Océanie]]).
+# {{îles|pam}} [[#fr|Nauru]] (île d’Océanie).
+<!--
+
+== {{langue|ks}} ==
+=== {{S|nom propre|ks}} ===
+'''Nauru''' {{pron||ks}}
+# {{pays|ks}} [[#fr|Nauru]] (pays d’[[Océanie]]).
+# {{îles|ks}} [[#fr|Nauru]] (île d’Océanie).
+-->
+
+== {{langue|lv}} ==
+=== {{S|nom propre|lv}} ===
+'''Nauru''' {{pron||lv}}
+# {{pays|lv|d’Océanie}} [[#fr|Nauru]] (pays d’[[Océanie]]).
+# {{îles|lv|d’Océanie}} [[#fr|Nauru]] (île d’Océanie).
+
+== {{langue|lij}} ==
+=== {{S|nom propre|lij}} ===
+'''Nauru''' {{pron||lij}}
+# {{pays|lij}} [[#fr|Nauru]] (pays d’[[Océanie]]).
+# {{îles|lij}} [[#fr|Nauru]] (île d’Océanie).
+
+== {{langue|lt}} ==
+=== {{S|nom propre|lt}} ===
+'''Nauru''' {{pron||lt}}
+# {{pays|lt|d’Océanie}} [[#fr|Nauru]] (pays d’[[Océanie]]).
+# {{îles|lt|d’Océanie}} [[#fr|Nauru]] (île d’Océanie).
+
+== {{langue|lb}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|lb}}
+
+=== {{S|nom propre|lb}} ===
+{{lb-inv|nɑʊʀˈuː}}
+'''Nauru''' {{pron|nɑʊʀˈuː|lb}} {{n}}
+# {{îles|lb|d’Océanie}} {{lien|Nauru|fr}}.
+#* {{exemple|lang=lb}}
+# {{pays|lb|d’Océanie}} {{lien|Nauru|fr}}.
+#* {{exemple|lang=lb}}
+
+==== {{S|gentilés}} ====
+* {{lien|Nauruer|lb}}, {{lien|Nauruerin|lb}}
+* {{lien|nauruesch|lb}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=lb}}
+
+=== {{S|références}} ===
+: {{R:LOD}}
+
+== {{langue|ms}} ==
+=== {{S|nom propre|ms}} ===
+'''Nauru''' {{pron||ms}}
+# {{pays|ms|d’Océanie}} [[#fr|Nauru]] (pays d’[[Océanie]]).
+# {{îles|ms|d’Océanie}} [[#fr|Nauru]] (île d’Océanie).
+
+== {{langue|mi}} ==
+=== {{S|nom propre|mi}} ===
+'''Nauru''' {{pron||mi}}
+# {{pays|mi}} [[#fr|Nauru]] (pays d’[[Océanie]]).
+# {{îles|mi}} [[#fr|Nauru]] (île d’Océanie).
+
+== {{langue|nan}} ==
+=== {{S|nom propre|nan}} ===
+'''Nauru''' {{pron||nan}}
+# {{pays|nan}} [[#fr|Nauru]] (pays d’[[Océanie]]).
+# {{îles|nan}} [[#fr|Nauru]] (île d’Océanie).
+
+== {{langue|nl}} ==
+=== {{S|nom propre|nl}} ===
+'''Nauru''' {{pron||nl}}
+# {{pays|nl|d’Océanie}} [[#fr|Nauru]] (pays d’[[Océanie]]).
+# {{îles|nl|d’Océanie}} [[#fr|Nauru]] (île d’Océanie).
+
+=== {{S|prononciation}} ===
+* {{écouter|||lang=nl|audio=Nl-Nauru.ogg}}
+
+== {{langue|no}} ==
+=== {{S|nom propre|no}} ===
+'''Nauru''' {{pron||no}}
+# {{pays|no|d’Océanie}} [[#fr|Nauru]] (pays d’[[Océanie]]).
+# {{îles|no|d’Océanie}} [[#fr|Nauru]] (île d’Océanie).
+
+== {{langue|nn}} ==
+=== {{S|nom propre|nn}} ===
+'''Nauru''' {{pron||nn}}
+# {{pays|nn}} [[#fr|Nauru]] (pays d’[[Océanie]]).
+# {{îles|nn}} [[#fr|Nauru]] (île d’Océanie).
+
+== {{langue|oc}} ==
+=== {{S|nom propre|oc}} ===
+'''Nauru''' {{pron||oc}}
+# {{pays|oc}} [[#fr|Nauru]] (pays d’[[Océanie]]).
+# {{îles|oc}} [[#fr|Nauru]] (île d’Océanie).
+
+== {{langue|uz}} ==
+=== {{S|nom propre|uz}} ===
+'''Nauru''' {{pron||uz}}
+# {{pays|uz}} [[#fr|Nauru]] (pays d’[[Océanie]]).
+# {{îles|uz}} [[#fr|Nauru]] (île d’Océanie).
+
+== {{langue|pms}} ==
+=== {{S|nom propre|pms}} ===
+'''Nauru''' {{pron||pms}}
+# {{pays|pms}} [[#fr|Nauru]] (pays d’[[Océanie]]).
+# {{îles|pms}} [[#fr|Nauru]] (île d’Océanie).
+
+== {{langue|pl}} ==
+=== {{S|nom propre|pl}} ===
+'''Nauru''' {{pron||pl}}
+# {{pays|pl|d’Océanie}} [[#fr|Nauru]] (pays d’[[Océanie]]).
+# {{îles|pl|d’Océanie}} [[#fr|Nauru]] (île d’Océanie).
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=pl|Pologne (Varsovie)||audio=LL-Q809 (pol)-Poemat-Nauru.wav}}
+
+== {{langue|pt}} ==
+=== {{S|nom propre|pt}} ===
+'''Nauru''' {{pron||pt}}
+# {{pays|pt|d’Océanie}} [[#fr|Nauru]] (pays d’[[Océanie]]).
+# {{îles|pt|d’Océanie}} [[#fr|Nauru]] (île d’Océanie).
+
+== {{langue|rm}} ==
+=== {{S|nom propre|rm}} ===
+'''Nauru''' {{pron||rm}}
+# {{pays|rm}} [[#fr|Nauru]] (pays d’[[Océanie]]).
+# {{îles|rm}} [[#fr|Nauru]] (île d’Océanie).
+
+== {{langue|ro}} ==
+=== {{S|nom propre|ro}} ===
+'''Nauru''' {{pron||ro}}
+# {{pays|ro|d’Océanie}} [[#fr|Nauru]] (pays d’[[Océanie]]).
+# {{îles|ro|d’Océanie}} [[#fr|Nauru]] (île d’Océanie).
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=ro|||audio=LL-Q7913 (ron)-KlaudiuMihaila-Nauru.wav}}
+
+== {{langue|se}} ==
+=== {{S|nom propre|se}} ===
+'''Nauru''' {{phono||se}}
+# {{pays|se}} [[#fr|Nauru]] (pays d’[[Océanie]]).
+# {{îles|se}} [[#fr|Nauru]] (île d’Océanie).
+
+== {{langue|sm}} ==
+=== {{S|nom propre|sm}} ===
+'''Nauru''' {{pron||sm}}
+# {{pays|sm}} [[#fr|Nauru]] (pays d’[[Océanie]]).
+# {{îles|sm}} [[#fr|Nauru]] (île d’Océanie).
+
+== {{langue|sgs}} ==
+=== {{S|nom propre|sgs}} ===
+'''Nauru''' {{pron||sgs}}
+# {{pays|sgs}} [[#fr|Nauru]] (pays d’[[Océanie]]).
+# {{îles|sgs}} [[#fr|Nauru]] (île d’Océanie).
+
+== {{langue|sh}} ==
+=== {{S|nom propre|sh}} ===
+'''Nauru''' {{pron||sh}}
+# {{pays|sh}} [[#fr|Nauru]] (pays d’[[Océanie]]).
+# {{îles|sh}} [[#fr|Nauru]] (île d’Océanie).
+
+== {{langue|scn}} ==
+=== {{S|nom propre|scn}} ===
+'''Nauru''' {{pron||scn}}
+# {{pays|scn}} [[#fr|Nauru]] (pays d’[[Océanie]]).
+# {{îles|scn}} [[#fr|Nauru]] (île d’Océanie).
+
+=== {{S|prononciation}} ===
+* {{écouter|Gela (Italie)||lang=scn|audio=LL-Q33973 (scn)-XANA000-Nauru.wav}}
+
+== {{langue|sk}} ==
+=== {{S|nom propre|sk}} ===
+'''Nauru''' {{pron||sk}}
+# {{pays|sk|d’Océanie}} [[#fr|Nauru]] (pays d’[[Océanie]]).
+# {{îles|sk|d’Océanie}} [[#fr|Nauru]] (île d’Océanie).
+
+== {{langue|sl}} ==
+=== {{S|nom propre|sl}} ===
+'''Nauru''' {{pron||sl}}
+# {{pays|sl|d’Océanie}} [[#fr|Nauru]] (pays d’[[Océanie]]).
+# {{îles|sl|d’Océanie}} [[#fr|Nauru]] (île d’Océanie).
+
+== {{langue|sv}} ==
+=== {{S|nom propre|sv}} ===
+'''Nauru''' {{pron||sv}}
+# {{pays|sv|d’Océanie}} [[#fr|Nauru]] (pays d’[[Océanie]]).
+# {{îles|sv|d’Océanie}} [[#fr|Nauru]] (île d’Océanie).
+
+=== {{S|prononciation}} ===
+* {{écouter|Suède||lang=sv|audio=LL-Q9027 (swe)-Moonhouse-Nauru.wav}}
+
+== {{langue|sw}} ==
+=== {{S|nom propre|sw}} ===
+'''Nauru''' {{pron||sw}}
+# {{pays|sw}} [[#fr|Nauru]] (pays d’[[Océanie]]).
+# {{îles|sw}} [[#fr|Nauru]] (île d’Océanie).
+
+== {{langue|tl}} ==
+=== {{S|nom propre|tl}} ===
+'''Nauru''' {{pron||tl}}
+# {{pays|tl}} [[#fr|Nauru]] (pays d’[[Océanie]]).
+# {{îles|tl}} [[#fr|Nauru]] (île d’Océanie).
+
+== {{langue|crh}} ==
+=== {{S|nom propre|crh}} ===
+'''Nauru''' {{pron||crh}}
+# {{pays|crh}} [[#fr|Nauru]] (pays d’[[Océanie]]).
+# {{îles|crh}} [[#fr|Nauru]] (île d’Océanie).
+
+== {{langue|cs}} ==
+=== {{S|nom propre|cs}} ===
+'''Nauru''' {{pron||cs}}
+# {{pays|cs|d’Océanie}} [[#fr|Nauru]] (pays d’[[Océanie]]).
+# {{îles|cs|d’Océanie}} [[#fr|Nauru]] (île d’Océanie).
+
+== {{langue|tpi}} ==
+=== {{S|nom propre|tpi}} ===
+'''Nauru''' {{pron||tpi}}
+# {{pays|tpi}} [[#fr|Nauru]] (pays d’[[Océanie]]).
+# {{îles|tpi}} [[#fr|Nauru]] (île d’Océanie).
+
+== {{langue|tr}} ==
+=== {{S|nom propre|tr}} ===
+'''Nauru''' {{pron||tr}}
+# {{pays|tr|d’Océanie}} [[#fr|Nauru]] (pays d’[[Océanie]]).
+# {{îles|tr|d’Océanie}} [[#fr|Nauru]] (île d’Océanie).
+
+=== {{S|prononciation}} ===
+* {{écouter|Izmir (Turquie)||lang=tr|audio=LL-Q256 (tur)-ToprakM-Nauru.wav}}
+
+== {{langue|vi}} ==
+=== {{S|nom propre|vi}} ===
+'''Nauru''' {{pron||vi}}
+# {{pays|vi}} [[#fr|Nauru]] (pays d’[[Océanie]]).
+# {{îles|vi}} [[#fr|Nauru]] (île d’Océanie).
+
+== {{langue|war}} ==
+=== {{S|nom propre|war}} ===
+'''Nauru''' {{pron||war}}
+# {{pays|war}} [[#fr|Nauru]] (pays d’[[Océanie]]).
+# {{îles|war}} [[#fr|Nauru]] (île d’Océanie).
+
+== {{langue|wo}} ==
+=== {{S|nom propre|wo}} ===
+'''Nauru''' {{pron||wo}}
+# {{pays|wo}} [[#fr|Nauru]] (pays d’[[Océanie]]).
+# {{îles|wo}} [[#fr|Nauru]] (île d’Océanie).

@@ -1,0 +1,56 @@
+{{voir|livermorium}}
+
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw}}
+
+=== {{S|nom|gsw}} ===
+'''Livermorium''' {{pron||gsw}} {{genre|gsw}}
+# {{éléments|gsw}} [[livermorium#fr|Livermorium]].
+{{clr}}
+==== {{S|vocabulaire}} ====
+{{tableau périodique/gsw}}
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|de}}
+
+=== {{S|nom|de}} ===
+{{légende élément/de|Lv|Uuh}}
+'''Livermorium''' {{pron||de}} {{n}}
+# {{éléments|de}} [[livermorium#fr|Livermorium]] (l’{{lien|élément chimique}} [[Lv#conv|Lv]]).
+
+==== {{S|synonymes}} ====
+* {{lien|Eka-Polonium|de}}
+* {{lien|Ununhexium|de}}
+{{clr}}
+==== {{S|vocabulaire}} ====
+* {{voir thésaurus|de|tableau périodique des éléments}}
+{{tableau périodique/de}}
+{{Liste|avant={{lien|Moscovium|de}} ou {{lien|Ununpentium|de}} {{désuet|nocat}} ou {{lien|Eka-Bismut|de}} {{désuet|nocat}}<br>([[Mc]])|après={{lien|Tenness|de}} ou {{lien|Ununseptium|de}} {{désuet|nocat}} ou {{lien|Eka-Astat|de}} {{désuet|nocat}}<br>([[Ts#conv|Ts]])|liste=[[Thésaurus:tableau périodique des éléments/allemand|Éléments chimiques en allemand]]}}
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=de|Allemagne (Berlin)|audio=LL-Q188 (deu)-Lucas Werkmeister-Livermorium.wav}}
+* {{écouter|lang=de|Allemagne (Berlin)|audio=LL-Q188 (deu)-Sebastian Wallroth-Livermorium.wav}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=de}}
+
+== {{langue|lb}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|lb}}
+
+=== {{S|nom|lb}} ===
+{{lb-inv|lˈivɐʀmoːʀium}}
+'''Livermorium''' {{pron|lˈivɐʀmoːʀium|lb}} {{m}}, {{au singulier uniquement|lb}}
+# {{éléments|lb}} [[livermorium#fr|Livermorium]].
+#* {{exemple|lang=lb}}
+{{clr}}
+==== {{S|vocabulaire}} ====
+{{tableau périodique/lb}}
+
+=== {{S|références}} ===
+: {{R:LOD}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=lb}}

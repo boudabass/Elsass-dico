@@ -1,0 +1,572 @@
+{{voir/sierra leone}}
+
+== {{langue|fr}} ==
+
+=== {{S|étymologie}} ===
+: {{date|lang=fr}} De l’{{étyl|es|fr|Sierra Leona|sens=montagne lionne}}, du {{étyl|pt|fr|Serra Leona}}, selon le nom donné en 1462 par l’explorateur portugais {{w|Pedro de Sintra}}.
+
+=== {{S|nom propre|fr}} ===
+[[Image:Sierra Leone (orthographic projection).svg|thumb|Localisation de la '''Sierra Leone'''.]]
+'''Sierra Leone''' {{pron|sjɛ.ʁa le.ɔn|fr}} {{f}}
+# {{pays|fr|d’Afrique}} Pays d’[[Afrique]], situé entre la [[Guinée]] (au nord) et le [[Liberia]] (au sud-est), bordé au sud-ouest par l’[[océan Atlantique]]. Sa capitale est [[Freetown]].
+#* {{exemple | lang=fr
+ | Plus bas encore dans l'échelle de la véracité toponymique est le nom de la République de '''Sierra Leone'''. Naturellement, le nom de cet État situé entre la Guinée et le Libéria suggère la présence de lions dans la montagne. Sauf quelques hauts reliefs à l'est, le pays est plat et les lions de la savane africaine en sont bien loin. On a attribué aux lions des sons qui avaient une autre cause. On a vu, dans le chapitre intitulé « Le chant de la Terre », que les bruits de la nature sont à l'origine de maints toponymes.
+ | source={{w|Henri Dorion}}, ''Ce que cache le nom des lieux'', éditions Multimonde, 2022, p. 219.}}
+#* {{exemple|Au moins 91 personnes ont été tuées et plus de 100 autres blessées vendredi dans l'explosion d'un camion-citerne dans la capitale de la '''Sierra Leone''' à la suite d'une collision, ont annoncé la morgue et les autorités.|source=Reuters, ''Sierra Leone : au moins 91 morts dans l’explosion d’un camion-citerne au Sierra Leone'', ici.radio-canada.ca, 6 novembre 2021|lang=fr}}
+
+==== {{S|variantes orthographiques}} ====
+* [[Sierra-Leone]]
+
+==== {{S|notes}} ====
+: Autrefois, ''Sierra Leone'' était fréquemment employé au masculin, mais cet usage tend à disparaître. Dans la diplomatie, seule la forme féminine est acceptée.
+
+==== {{S|abréviations}} ====
+* [[SLE]] (norme {{w|ISO 3166-1}} alpha-3)
+
+==== {{S|gentilés}} ====
+* [[Sierra-Léonais]], [[Sierra-Léonaise]], [[sierra-léonais]]
+* [[Sierraléonais]], [[Sierraléonaise]], [[sierraléonais]]
+* [[Sierra-Léonien]], [[Sierra-Léonienne]], [[sierra-léonien]]
+
+==== {{S|synonymes}} ====
+* [[Guinée anglaise]] {{info lex|histoire}}
+
+==== {{S|traductions}} ====
+{{trad-début|Pays d’Afrique}}
+* {{T|af}} : {{trad-|af|Sierra Leone}}
+* {{T|sq}} : {{trad+|sq|Siera Leone}}
+* {{T|gsw}} : {{trad|gsw|Sierra Leone}}
+* {{T|de}} : {{trad+|de|Sierra Leone}}
+* {{T|am}} : {{trad-|am|ሴየራ ሌዎን}}
+* {{T|en}} : {{trad+|en|Sierra Leone}}
+* {{T|ar}} : {{trad-|ar|سيراليون}}
+* {{T|arz}} : {{trad|arz|سييراليون}}
+* {{T|an}} : {{trad-|an|Sierra Leone}}
+* {{T|hy}} : {{trad-|hy|Սիերա Լիոնե|tr=Siera Lione}}
+* {{T|ast}} : {{trad+|ast|Sierra Lleona}}
+* {{T|az}} : {{trad-|az|Syerra-Leone}}
+* {{T|bm}} : {{trad|bm|Sera Leon}}
+* {{T|nds}} : {{trad+|nds|Sierra Leone}}
+* {{T|eu}} : {{trad-|eu|Sierra Leona}}
+* {{T|bn}} : {{trad-|bn|সিয়েরা লিওন}}
+* {{T|be}} : {{trad-|be|Сьера-Леонэ|tr=Sʹera-Leonè}}
+* {{T|be-tarask}} : {{trad|be-tarask|Сьера-Леонэ}}
+* {{T|bs}} : {{trad-|bs|Sijera Leone}}
+* {{T|br}} : {{trad-|br|Sierra Leone}}
+* {{T|bg}} : {{trad-|bg|Сиера Леоне|tr=Siera Leone}}
+* {{T|ca}} : {{trad+|ca|Sierra Leone}}
+* {{T|ceb}} : {{trad|ceb|Sierra Leone}}
+* {{T|zh}} : {{trad+|zh|塞拉利昂|R=Sàilālì’áng}}
+* {{T|ko}} : {{trad+|ko|시에라리온|tr=sierarion}}
+* {{T|kw}} : {{trad-|kw|Sierra Leon}}
+* {{T|ht}} : {{trad|ht|Syera Leòn}}
+* {{T|hr}} : {{trad+|hr|Sijera Leone}}
+* {{T|da}} : {{trad+|da|Sierra Leone}}
+* {{T|diq}} : {{trad|diq|Sierra Leone}}
+* {{T|es}} : {{trad+|es|Sierra Leona}}
+* {{T|eo}} : {{trad-|eo|Sieraleono}}
+* {{T|et}} : {{trad+|et|Sierra Leone}}
+* {{T|ee}} : {{trad|ee|Sierra Leone}}
+* {{T|fi}} : {{trad+|fi|Sierra Leone}}
+* {{T|frp}} : {{trad|frp|Siérra Leone}}
+* {{T|fy}} : {{trad-|fy|Sierra Leöane}}
+* {{T|gd}} : {{trad-|gd|Siarra Leòmhann}}
+* {{T|ga}} : {{trad-|ga|Siarra Leon}}
+* {{T|gl}} : {{trad+|gl|Serra Leoa}}
+* {{T|cy}} : {{trad-|cy|Sierra Leone}}
+* {{T|ka}} : {{trad-|ka|სიერა-ლეონე|tr=siera-leone}}
+* {{T|el}} : {{trad+|el|Σιέρα Λεόνε}}
+* {{T|he}} : {{trad-|he|סיירה לאונה}}
+* {{T|hi}} : {{trad+|hi|सिएरा लियोन}}
+* {{T|hu}} : {{trad+|hu|Sierra Leone}}
+* {{T|sah}} : {{trad|sah|Сьерра Леоне}}
+* {{T|io}} : {{trad+|io|Sierra Leone}}
+* {{T|id}} : {{trad+|id|Sierra Leone}}
+* {{T|ie}} : {{trad-|ie|Sierra Leone}}
+* {{T|is}} : {{trad+|is|Síerra Leóne}}
+* {{T|it}} : {{trad+|it|Sierra Leone}}
+* {{T|ja}} : {{trad-|ja|シエラレオネ|tr=shierareone}}
+* {{T|jv}} : {{trad-|jv|Sierra Leone}}
+* {{T|kn}} : {{trad-|kn|ಸಿಯೆರ್ರಾ ಲಿಯೋನ್}}
+* {{T|pam}} : {{trad|pam|Sierra Leone}}
+* {{T|kk}} : {{trad-|kk|Сиерра-Леоне}}
+* {{T|avk}} : {{trad|avk|Sierraleona}}
+* {{T|ku}} : {{trad-|ku|Sierra Leone}}
+* {{T|la}} : {{trad-|la|Mons Leoninus}}
+* {{T|lv}} : {{trad+|lv|Sjerraleone}}
+* {{T|lij}} : {{trad|lij|Sierra Lion}}
+* {{T|ln}} : {{trad-|ln|Sierra Leone}}
+* {{T|lt}} : {{trad+|lt|Siera Leonė}}
+* {{T|lmo}} : {{trad|lmo|Sierra Leone}}
+* {{T|lb}} : {{trad-|lb|Sierra Leone}}
+* {{T|mk}} : {{trad-|mk|Сиера Леоне|tr=Siera Leone}}
+* {{T|ms}} : {{trad-|ms|Sierra Leone}}
+* {{T|ml}} : {{trad-|ml|സീറാ ലിയോണ്‍}}
+* {{T|bpy}} : {{trad|bpy|সিয়েরা লিওন}}
+* {{T|gv}} : {{trad-|gv|Sierra Leone}}
+* {{T|mr}} : {{trad-|mr|सियेरा लिओन}}
+* {{T|nan}} : {{trad|nan|Sierra Leone}}
+* {{T|mn}} : {{trad-|mn|Сьерра-Леоне}}
+* {{T|nch}} : {{trad-|nch|Sierra Leona}}
+* {{T|nl}} : {{trad+|nl|Sierra Leone}}
+* {{T|no}} : {{trad+|no|Sierra Leone}}
+* {{T|nn}} : {{trad+|no|Sierra Leone}}
+* {{T|nov}} : {{trad|nov|Siera Leone}}
+* {{T|oc}} : {{trad+|oc|Sierra Leone}}
+* {{T|os}} : {{trad|os|Сьеррæ-Леоне}}
+* {{T|ug}} : {{trad-|ug|Sérraléon}}, {{trad-|ug|سېررالېئون}}
+* {{T|uz}} : {{trad-|uz|Siyerra Leon}}
+* {{T|ps}} : {{trad-|ps|سېراليون}}
+* {{T|fa}} : {{trad-|fa|سیرالئون}}
+* {{T|ff}} : {{trad|ff|Sarliyon}}
+* {{T|pms}} : {{trad|pms|Sierra Leone}}
+* {{T|pl}} : {{trad+|pl|Sierra Leone}}
+* {{T|pt}} : {{trad+|pt|Serra Leoa}}
+* {{T|qu}} : {{trad-|qu|Liyun Urqu}}
+* {{T|ro}} : {{trad-|ro|Sierra Leone}}
+* {{T|ru}} : {{trad+|ru|Сьерра-Леоне|tr=Sʹerra-Leone}}
+* {{T|se}} : {{trad|se|Sierra Leone}}
+* {{T|sgs}} : {{trad|sgs|Sėira Leuonė}}
+* {{T|sa}} : {{trad-|sa|सियारा-लियोन}}
+* {{T|sc}} : {{trad|sc|Sierra Leone}}
+* {{T|sr}} : {{trad-|sr|Сијера Леоне}}
+* {{T|sh}} : {{trad+|sh|Sijera Leone}}
+* {{T|scn}} : {{trad-|scn|Serra Liuni}}
+* {{T|szl}} : {{trad|szl|Sierra Leone}}
+* {{T|sk}} : {{trad-|sk|Sierra Leone}}
+* {{T|sl}} : {{trad+|sl|Sierra Leone}}
+* {{T|su}} : {{trad-|su|Sierra Leone}}
+* {{T|sv}} : {{trad+|sv|Sierra Leone}}
+* {{T|sw}} : {{trad-|sw|Sierra Leone}}
+* {{T|tg}} : {{trad-|tg|Сиерра Леоне}}
+* {{T|tl}} : {{trad+|tl|Sierra Leone}}
+* {{T|ta}} : {{trad-|ta|சியேரா லியோனி}}
+* {{T|crh}} : {{trad|crh|Syerra Leone}}
+* {{T|cs}} : {{trad+|cs|Sierra Leone}}
+* {{T|th}} : {{trad+|th|ประเทศเซียร์ราลีโอน}}
+* {{T|tpi}} : {{trad-|tpi|Sierra leone}}
+* {{T|tok}} : {{trad|tok|ma Sijelalijon}}
+* {{T|ts}} : {{trad-|ts|Siyera Liyona}}
+* {{T|tr}} : {{trad+|tr|Sierra Leone}}
+* {{T|uk}} : {{trad+|uk|Сьєрра-Леоне}}, {{trad-|uk|С’єрра-Леоне}}
+* {{T|vec}} : {{trad-|vec|Siera Leon}}
+* {{T|vi}} : {{trad-|vi|Sierra Leone}}
+* {{T|vo}} : {{trad-|vo|Sieraleonän}}
+* {{T|war}} : {{trad|war|Sierra Leone}}
+* {{T|wo}} : {{trad-|wo|Siraa Leyoon}}
+* {{T|yo}} : {{trad|yo|Siẹrra Léònè}}
+{{trad-fin}}
+
+=== {{S|prononciation}} ===
+* {{écouter||sjɛ.ʁa le.ɔn|lang=fr|audio=Fr-Sierra Leone.ogg}}
+* {{écouter|lang=fr|France (Paris)|audio=LL-Q150 (fra)-GrandCelinien-Sierra Leone.wav}}
+
+=== {{S|anagrammes}} ===
+{{voir anagrammes|fr}}
+
+=== {{S|voir aussi}} ===
+* {{WP}}
+
+[[Catégorie:Sierra Leone en français|*]]
+
+== {{langue|af}} ==
+=== {{S|nom propre|af}} ===
+'''Sierra Leone''' {{pron||af}}
+# {{info lex|géographie}} [[#fr|Sierra Leone]] (pays d’[[Afrique]]).
+#* {{exemple|lang=af}}
+
+[[Catégorie:Pays d’Afrique en afrikaans]]
+
+== {{langue|gsw}} ==
+=== {{S|nom propre|gsw}} ===
+'''Sierra Leone''' {{pron||gsw}}
+# {{info lex|géographie}} [[#fr|Sierra Leone]] (pays d’[[Afrique]]).
+
+[[Catégorie:Pays en alémanique]]
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|de}}
+
+=== {{S|nom propre|de}} ===
+{{de-nom-propre|genre=n|gs=Sierra Leones}}
+'''Sierra Leone''' {{pron|ˌzi̯ɛ.ra.le.ˈoː.nə|de}}
+# {{info lex|géographie}} [[#fr|Sierra Leone]] (pays d’[[Afrique]]).
+#* {{exemple|Ausländische In­ves­to­ren haben '''Sierra Leone'''s Kleinbauern mit Pachtverträgen über Jahrzehnte Land abgeluchst. Neue Gesetze sollen das nun verhindern.|lang=de|sens=Pendant des décennies, des investisseurs étrangers ont soutiré des terres aux petits paysans sierra-léonais par le biais de contrats de location. De nouvelles lois doivent désormais empêcher cela.|source={{périodique|auteur=Katrin Gänsler|titre=Besetzte Heimat|journal=taz|date=24 juin 2023|texte=https://taz.de/Landgrabbing-in-Sierra-Leone/!5939131/}}}}
+
+=== {{S|prononciation}} ===
+* {{écouter|Berlin|siˌɛʁa leˈoːnə|lang=de|audio=De-Sierra Leone.ogg}}
+
+[[Catégorie:Pays d’Afrique en allemand]]
+
+== {{langue|nds}} ==
+=== {{S|nom propre|nds}} ===
+'''Sierra Leone''' {{pron||nds}}
+# {{info lex|géographie}} [[#fr|Sierra Leone]] (pays d’[[Afrique]]).
+
+[[Catégorie:Pays en bas allemand]]
+
+== {{langue|en}} ==
+=== {{S|nom propre|en}} ===
+'''Sierra Leone''' {{pron||en}}
+# {{info lex|géographie}} [[#fr|Sierra Leone]] (pays d’[[Afrique]]).
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=en|{{US|nocat=1}}|audio=En-us-Sierra Leone.ogg}}
+* {{écouter|Londres (Royaume-Uni)||lang=en|audio=LL-Q1860 (eng)-Soundguys-Sierra Leone.wav}}
+
+[[Catégorie:Pays d’Afrique en anglais]]
+
+== {{langue|an}} ==
+=== {{S|nom propre|an}} ===
+'''Sierra Leone''' {{pron||an}}
+# {{info lex|géographie}} [[#fr|Sierra Leone]] (pays d’[[Afrique]]).
+
+[[Catégorie:Pays en aragonais]]
+
+== {{langue|br}} ==
+=== {{S|nom propre|br}} ===
+'''Sierra Leone''' {{pron||br}}
+# {{info lex|géographie}} [[#fr|Sierra Leone]] (pays d’[[Afrique]]).
+
+[[Catégorie:Pays en breton]]
+
+== {{langue|ca}} ==
+=== {{S|nom propre|ca}} ===
+'''Sierra Leone''' {{pron||ca}}
+# {{info lex|géographie}} [[#fr|Sierra Leone]] (pays d’[[Afrique]]).
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=ca|Espagne (Villarreal)||audio=LL-Q7026 (cat)-Millars-Sierra Leone.wav}}
+
+[[Catégorie:Pays d’Afrique en catalan]]
+
+== {{langue|ceb}} ==
+=== {{S|nom propre|ceb}} ===
+'''Sierra Leone''' {{pron||ceb}}
+# {{info lex|géographie}} [[#fr|Sierra Leone]] (pays d’[[Afrique]]).
+
+[[Catégorie:Pays en cebuano]]
+
+== {{langue|da}} ==
+=== {{S|nom propre|da}} ===
+'''Sierra Leone''' {{pron||da}}
+# {{info lex|géographie}} [[#fr|Sierra Leone]](pays d’[[Afrique]]).
+
+[[Catégorie:Pays d’Afrique en danois]]
+
+== {{langue|diq}} ==
+=== {{S|nom propre|diq}} ===
+'''Sierra Leone''' {{pron||diq}}
+# [[#fr|Sierra Leone]] (pays d’[[Afrique]]).
+
+[[Catégorie:Pays en dimli (zazaki du Sud)]]
+
+== {{langue|et}} ==
+=== {{S|nom propre|et}} ===
+'''Sierra Leone''' {{pron||et}}
+# {{info lex|géographie}} [[#fr|Sierra Leone]] (pays d’[[Afrique]]).
+
+[[Catégorie:Pays d’Afrique en estonien]]
+
+== {{langue|ee}} ==
+=== {{S|nom propre|ee}} ===
+'''Sierra Leone''' {{pron||ee}}
+# {{info lex|géographie}} [[#fr|Sierra Leone]] (pays d’[[Afrique]]).
+
+[[Catégorie:Pays en éwé]]
+
+== {{langue|fi}} ==
+=== {{S|nom propre|fi}} ===
+'''Sierra Leone''' {{pron||fi}}
+# {{info lex|géographie}} [[#fr|Sierra Leone]] (pays d’[[Afrique]]).
+
+[[Catégorie:Pays d’Afrique en finnois]]
+
+== {{langue|cy}} ==
+=== {{S|nom propre|cy}} ===
+'''Sierra Leone''' {{pron||cy}}
+# {{info lex|géographie}} [[#fr|Sierra Leone]] (pays d’[[Afrique]]).
+
+[[Catégorie:Pays d’Afrique en gallois]]
+
+== {{langue|hu}} ==
+=== {{S|nom propre|hu}} ===
+'''Sierra Leone''' {{pron||hu}}
+# {{info lex|géographie}} [[#fr|Sierra Leone]] (pays d’[[Afrique]]).
+
+[[Catégorie:Pays d’Afrique en hongrois]]
+
+== {{langue|io}} ==
+=== {{S|nom propre|io}} ===
+'''Sierra Leone''' {{pron||io}}
+# {{info lex|géographie}} [[#fr|Sierra Leone]] (pays d’[[Afrique]]).
+
+[[Catégorie:Pays en ido]]
+
+== {{langue|id}} ==
+=== {{S|nom propre|id}} ===
+'''Sierra Leone''' {{pron||id}}
+# {{info lex|géographie}} [[#fr|Sierra Leone]] (pays d’[[Afrique]]).
+#* {{exemple|lang=id}}
+
+[[Catégorie:Pays d’Afrique en indonésien]]
+
+== {{langue|ie}} ==
+=== {{S|nom propre|ie}} ===
+'''Sierra Leone''' {{pron||ie}}
+# {{info lex|géographie}} [[#fr|Sierra Leone]] (pays d’[[Afrique]]).
+
+[[Catégorie:Pays en interlingue]]
+
+== {{langue|it}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|es|it|mot=Sierra Leona}}, dérivé du portugais ''[[Serra Leoa]]'', composé de ''[[serra#pt|serra]]'' (« chaîne de montagnes ») et de ''[[leoa#pt|leoa]]'' (« lionne »), nom donné par un navigateur portugais trouvant une ressemblance entre les montagnes et une lionne.
+
+=== {{S|nom propre|it}} ===
+{{it-inv|ˈsjɛr.ra le.ˈo.ne}}
+'''Sierra Leone''' {{pron|ˈsjɛr.ra le.ˈo.ne|it}} {{f}}
+# {{info lex|géographie}} [[#fr|Sierra Leone]] (pays d’[[Afrique]]).
+
+==== {{S|gentilés}} ====
+* [[sierraleonese#it|sierraleonese]]
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=it}}
+* [[Annexe:Pays et leurs gentilés en italien]]
+
+[[Catégorie:Pays d’Afrique en italien]]
+
+== {{langue|jv}} ==
+=== {{S|nom propre|jv}} ===
+'''Sierra Leone''' {{pron||jv}}
+# {{info lex|géographie}} [[#fr|Sierra Leone]] (pays d’[[Afrique]]).
+
+[[Catégorie:Pays en javanais]]
+
+== {{langue|pam}} ==
+=== {{S|nom propre|pam}} ===
+'''Sierra Leone''' {{pron||pam}}
+# {{info lex|géographie}} [[#fr|Sierra Leone]] (pays d’[[Afrique]]).
+
+[[Catégorie:Pays en kapampangan]]
+
+== {{langue|ku}} ==
+=== {{S|nom propre|ku}} ===
+'''Sierra Leone''' {{pron||ku}}
+# {{info lex|géographie}} [[#fr|Sierra Leone]] (pays d’[[Afrique]]).
+
+[[Catégorie:Pays en kurde]]
+
+== {{langue|ln}} ==
+=== {{S|nom propre|ln}} ===
+'''Sierra Leone''' {{pron||ln}}
+# {{info lex|géographie}} [[#fr|Sierra Leone]] (pays d’[[Afrique]]).
+
+[[Catégorie:Pays en lingala]]
+
+== {{langue|lmo}} ==
+=== {{S|nom propre|lmo}} ===
+'''Sierra Leone''' {{pron||lmo}}
+# {{info lex|géographie}} [[#fr|Sierra Leone]] (pays d’[[Afrique]]).
+
+[[Catégorie:Pays en lombard]]
+
+== {{langue|lb}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|lb}}
+
+=== {{S|nom propre|lb}} ===
+{{lb-inv|si̯ˈɛʀaːleˈoːneː|inv_titre=Nom propre}}
+'''Sierra Leone''' {{pron|si̯ˈɛʀaːleˈoːneː|lb}} {{mn ?|lb}}
+# {{pays|lb|d’Afrique|pays=Sierra Leone|clé=*}} {{lien|Sierra Leone|fr}}.
+#* {{exemple|lang=lb}}
+
+==== {{S|gentilés}} ====
+* {{lien|Sierra-Leoner|lb}}, {{lien|Sierra-Leonerin|lb}}
+* {{lien|sierra-leonesch|lb}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=lb}}
+
+=== {{S|références}} ===
+: {{R:LOD|entrée=SIERRALEONE}}
+
+== {{langue|ms}} ==
+=== {{S|nom propre|ms}} ===
+'''Sierra Leone''' {{pron||ms}}
+# {{info lex|géographie}} [[#fr|Sierra Leone]] (pays d’[[Afrique]]).
+
+[[Catégorie:Pays d’Afrique en malais]]
+
+== {{langue|gv}} ==
+=== {{S|nom propre|gv}} ===
+'''Sierra Leone''' {{pron||gv}}
+# {{info lex|géographie}} [[#fr|Sierra Leone]] (pays d’[[Afrique]]).
+
+[[Catégorie:Pays en mannois]]
+
+== {{langue|nan}} ==
+=== {{S|nom propre|nan}} ===
+'''Sierra Leone''' {{pron||nan}}
+# {{info lex|géographie}} [[#fr|Sierra Leone]] (pays d’[[Afrique]]).
+
+[[Catégorie:Pays en minnan]]
+
+== {{langue|nl}} ==
+=== {{S|nom propre|nl}} ===
+'''Sierra Leone''' {{pron||nl}}
+# {{info lex|géographie}} [[#fr|Sierra Leone]] (pays d’[[Afrique]]).
+
+[[Catégorie:Pays d’Afrique en néerlandais]]
+
+=== {{S|prononciation}} ===
+* {{écouter|||lang=nl|audio=Nl-Sierra Leone.ogg}}
+
+== {{langue|no}} ==
+=== {{S|nom propre|no}} ===
+'''Sierra Leone''' {{pron||no}}
+# {{info lex|géographie}} [[#fr|Sierra Leone]] (pays d’[[Afrique]]).
+
+[[Catégorie:Pays d’Afrique en norvégien]]
+
+== {{langue|nn}} ==
+=== {{S|nom propre|nn}} ===
+'''Sierra Leone''' {{pron||nn}}
+# {{info lex|géographie}} [[#fr|Sierra Leone]] (pays d’[[Afrique]]).
+
+[[Catégorie:Pays d’Afrique en norvégien (nynorsk)]]
+
+== {{langue|oc}} ==
+=== {{S|nom propre|oc}} ===
+'''Sierra Leone''' {{pron||oc}} {{oc-norme classique}}
+# {{info lex|géographie}} [[#fr|Sierra Leone]] (pays d’[[Afrique]]).
+
+=== {{S|références}} ===
+* {{R:Ubaud}}
+
+[[Catégorie:Pays en occitan]]
+
+== {{langue|pms}} ==
+=== {{S|nom propre|pms}} ===
+'''Sierra Leone''' {{pron||pms}}
+# {{info lex|géographie}} [[#fr|Sierra Leone]] (pays d’[[Afrique]]).
+
+[[Catégorie:Pays en piémontais]]
+
+== {{langue|pl}} ==
+=== {{S|nom propre|pl}} ===
+'''Sierra Leone''' {{pron||pl}}
+# {{info lex|géographie}} [[#fr|Sierra Leone]] (pays d’[[Afrique]]).
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=pl||audio=Pl-Sierra Leone.ogg}}
+
+[[Catégorie:Pays d’Afrique en polonais]]
+
+== {{langue|ro}} ==
+=== {{S|nom propre|ro}} ===
+'''Sierra Leone''' {{pron||ro}}
+# {{info lex|géographie}} [[#fr|Sierra Leone]] (pays d’[[Afrique]]).
+
+=== {{S|prononciation}} ===
+* {{écouter|Iași (Roumanie)||lang=ro|audio=LL-Q7913 (ron)-KlaudiuMihaila-Sierra Leone.wav}}
+
+[[Catégorie:Pays d’Afrique en roumain]]
+
+== {{langue|se}} ==
+=== {{S|nom propre|se}} ===
+'''Sierra Leone''' {{phono||se}}
+# {{info lex|géographie}} [[#fr|Sierra Leone]] (pays d’[[Afrique]]).
+
+[[Catégorie:Pays en same du Nord]]
+
+== {{langue|sc}} ==
+=== {{S|nom propre|sc}} ===
+'''Sierra Leone''' {{pron||sc}}
+# {{info lex|géographie}} [[#fr|Sierra Leone]] (pays d’[[Afrique]]).
+
+[[Catégorie:Pays en sarde]]
+
+== {{langue|szl}} ==
+=== {{S|nom propre|szl}} ===
+'''Sierra Leone''' {{pron||szl}}
+# {{info lex|géographie}} [[#fr|Sierra Leone]] (pays d’[[Afrique]]).
+
+[[Catégorie:Pays en silésien]]
+
+== {{langue|sk}} ==
+=== {{S|nom propre|sk}} ===
+'''Sierra Leone''' {{pron||sk}}
+# {{info lex|géographie}} [[#fr|Sierra Leone]] (pays d’[[Afrique]]).
+
+[[Catégorie:Pays d’Afrique en slovaque]]
+
+== {{langue|sl}} ==
+=== {{S|nom propre|sl}} ===
+'''Sierra Leone''' {{pron||sl}}
+# {{info lex|géographie}} [[#fr|Sierra Leone]] (pays d’[[Afrique]]).
+
+[[Catégorie:Pays d’Afrique en slovène]]
+
+== {{langue|su}} ==
+=== {{S|nom propre|su}} ===
+'''Sierra Leone''' {{pron||su}}
+# {{info lex|géographie}} [[#fr|Sierra Leone]] (pays d’[[Afrique]]).
+
+[[Catégorie:Pays en soundanais]]
+
+== {{langue|sv}} ==
+=== {{S|nom propre|sv}} ===
+'''Sierra Leone''' {{pron||sv}}
+# {{info lex|géographie}} [[#fr|Sierra Leone]] (pays d’[[Afrique]]).
+
+=== {{S|prononciation}} ===
+* {{écouter|Suède||lang=sv|audio=LL-Q9027 (swe)-Moonhouse-Sierra Leone.wav}}
+
+[[Catégorie:Pays d’Afrique en suédois]]
+
+== {{langue|sw}} ==
+=== {{S|nom propre|sw}} ===
+'''Sierra Leone''' {{pron||sw}}
+# {{info lex|géographie}} [[#fr|Sierra Leone]] (pays d’[[Afrique]]).
+
+[[Catégorie:Pays en swahili]]
+
+== {{langue|tl}} ==
+=== {{S|nom propre|tl}} ===
+'''Sierra Leone''' {{pron||tl}}
+# {{info lex|géographie}} [[#fr|Sierra Leone]] (pays d’[[Afrique]]).
+
+[[Catégorie:Pays en tagalog]]
+
+== {{langue|cs}} ==
+=== {{S|nom propre|cs}} ===
+'''Sierra Leone''' {{pron||cs}}
+# {{info lex|géographie}} [[#fr|Sierra Leone]] (pays d’[[Afrique]]).
+
+[[Catégorie:Pays d’Afrique en tchèque]]
+
+== {{langue|tr}} ==
+=== {{S|nom propre|tr}} ===
+'''Sierra Leone''' {{pron||tr}}
+# {{info lex|géographie}} [[#fr|Sierra Leone]] (pays d’[[Afrique]]).
+
+=== {{S|prononciation}} ===
+* {{écouter|Izmir (Turquie)||lang=tr|audio=LL-Q256 (tur)-ToprakM-Sierra Leone.wav}}
+
+[[Catégorie:Pays d’Afrique en turc]]
+
+== {{langue|vi}} ==
+=== {{S|nom propre|vi}} ===
+'''Sierra Leone''' {{pron||vi}}
+# {{info lex|géographie}} [[#fr|Sierra Leone]] (pays d’[[Afrique]]).
+
+[[Catégorie:Pays d’Afrique en vietnamien]]
+
+== {{langue|war}} ==
+=== {{S|nom propre|war}} ===
+'''Sierra Leone''' {{pron||war}}
+# {{info lex|géographie}} [[#fr|Sierra Leone]] (pays d’[[Afrique]]).
+
+[[Catégorie:Pays en waray (Philippines)]]

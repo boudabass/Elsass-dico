@@ -1,0 +1,408 @@
+{{voir|Satürn}}
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|gsw|mot=Saturnus}}.
+
+=== {{S|nom propre|gsw}} ===
+'''Saturn''' {{pron||gsw}}
+# {{planètes|gsw}} [[Saturne]].
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|de}}
+
+=== {{S|nom propre|de}} ===
+'''Saturn''' {{pron|za.ˈtʊrn|de}} {{m}} ({{p}}: '''-''' )
+# {{planètes|de}} [[Saturne]].
+#* {{exemple | lang=de | Der '''Saturn''' ist bekannt für sein ausgeprägtes Ringsystem.}}
+
+==== {{S|synonymes}} ====
+* [[Ringplanet]]
+
+==== {{S|dérivés}} ====
+* [[Saturnring]]
+
+==== {{S|hyperonymes}} ====
+* [[Planet]]
+* [[Gasplanet]]
+
+=== {{S|prononciation}} ===
+* {{pron|zaˈtʊrn|de}}
+** {{écouter|lang=de|Allemagne|zaˈtʊrn|audio=De-Saturn.ogg}}
+** {{écouter|lang=de|Allemagne (Berlin)|zaˈtʊrn|audio=LL-Q188 (deu)-Sebastian Wallroth-Saturn.wav}}
+** {{écouter|lang=de|Allemagne (Berlin)|zaˈtʊrn|audio=De-Saturn2.ogg}}
+
+== {{langue|en}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|en|Saturnus}}.
+
+=== {{S|nom propre|en}} ===
+'''Saturn''' {{pron|ˈsæt.ɚn|en}} {{États-Unis|nocat=1}}, {{pron|ˈsæt.ən|en}} {{Royaume-Uni|nocat=1}}
+# {{divinités|en|romaines}} [[Saturne#fr-nom-pr-1|Saturne]].
+# {{planètes|en}} [[Saturne#fr-nom-pr-2|Saturne]].
+
+==== {{S|dérivés}} ====
+* {{lien|Saturday|en}}
+* {{lien|Saturnine|en}}
+
+==== {{S|hyperonymes}} ====
+* {{lien|planet|en}}
+
+==== {{S|vocabulaire}} ====
+{{Liste|avant=[[Jupiter]]|suiv.de=d’|après=[[Uranus]]|liste=[[:Catégorie:Lexique en anglais de l’astronomie|Planètes principales]]}}
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=en|États-Unis <!-- précisez svp la ville ou la région -->|ˈsæt.ɚn|audio=En-us-Saturn.ogg}}
+* {{écouter|Aurora (États-Unis)||lang=en|audio=LL-Q1860 (eng)-Samuel Muldoon (Muldoonsamuel55)-Saturn.wav}}
+
+== {{langue|az}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|az|mot=Saturnus}}.
+
+=== {{S|nom propre|az}} ===
+{{az-décl-nom|u|c}}
+'''Saturn''' {{pron||az}} {{az-forme possessive}}
+# {{planètes|az}} [[Saturne]].
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=az}}
+
+== {{langue|nds}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|nds|mot=Saturnus}}.
+
+=== {{S|nom propre|nds}} ===
+'''Saturn''' {{pron||nds}}
+# {{planètes|nds}} [[Saturne]].
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=nds}}
+
+== {{langue|bar}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|bar|mot=Saturnus}}.
+
+=== {{S|nom propre|bar}} ===
+'''Saturn''' {{pron||bar}}
+# {{planètes|bar}} [[Saturne]].
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=bar}}
+
+== {{langue|bs}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|bs|mot=Saturnus}}.
+
+=== {{S|nom propre|bs}} ===
+'''Saturn''' {{pron||bs}}
+# {{planètes|bs}} [[Saturne]].
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=bs}}
+
+== {{langue|ca}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|ca|mot=Saturnus}}.
+
+=== {{S|nom propre|ca}} ===
+'''Saturn''' {{pron||ca}}
+# {{planètes|ca}} [[Saturne]].
+
+=== {{S|prononciation}} ===
+* {{écouter|Barcelone (Espagne)||lang=ca|audio=LL-Q7026 (cat)-Marvives-Saturn.wav}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=ca}}
+
+== {{langue|hr}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|hr|mot=Saturnus}}.
+
+=== {{S|nom propre|hr}} ===
+'''Saturn''' {{pron||hr}}
+# {{planètes|hr}} [[Saturne]].
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=hr}}
+
+== {{langue|da}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|da|mot=Saturnus}}.
+
+=== {{S|nom propre|da}} ===
+'''Saturn''' {{pron||da}}
+# {{planètes|da}} [[Saturne]].
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=da}}
+
+== {{langue|et}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|et|mot=Saturnus}}.
+
+=== {{S|nom propre|et}} ===
+'''Saturn''' {{pron||et}}
+# {{planètes|et}} [[Saturne]].
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=et}}
+
+== {{langue|fo}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|fo|mot=Saturnus}}.
+
+=== {{S|nom propre|fo}} ===
+'''Saturn''' {{pron||fo}}
+# {{info lex|astronomie}} [[Saturne]].
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=fo}}
+
+[[Catégorie:Planètes en féroïen]]
+
+== {{langue|stq}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|stq|mot=Saturnus}}.
+
+=== {{S|nom propre|stq}} ===
+'''Saturn''' {{pron||stq}}
+# {{planètes|stq}} [[Saturne]].
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=stq}}
+
+== {{langue|pam}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|pam|mot=Saturnus}}.
+
+=== {{S|nom propre|pam}} ===
+'''Saturn''' {{pron||pam}}
+# {{planètes|pam}} [[Saturne]].
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=pam}}
+
+== {{langue|jbo}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|jbo|mot=Saturnus}}.
+
+=== {{S|nom propre|jbo}} ===
+'''Saturn''' {{pron||jbo}}
+# {{planètes|jbo}} [[Saturne]].
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=jbo}}
+
+== {{langue|lb}} ==
+=== {{S|étymologie}} ===
+: Du {{étylp|la|lb|Saturnus}}.
+
+=== {{S|nom propre|lb}} ===
+{{lb-inv|zˈaːtuʀn}}
+'''Saturn''' {{pron|zˈaːtuʀn|lb}}
+# {{divinités|lb|romaines}} {{lien|Saturne|fr|nom-pr-1}}.
+#* {{exemple|lang=lb}}
+# {{planètes|lb}} {{lien|Saturne|fr|nom-pr-2}}.
+#* {{exemple|lang=lb}}
+
+==== {{S|vocabulaire}} ====
+{{tableau-planètes du Système solaire/lb}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=lb}}
+
+=== {{S|références}} ===
+: {{R:LOD}}
+
+== {{langue|no}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|no|mot=Saturnus}}.
+
+=== {{S|nom propre|no}} ===
+'''Saturn''' {{pron||no}}
+# {{planètes|no}} [[Saturne]].
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=no}}
+
+== {{langue|oc}} ==
+=== {{S|étymologie}} ===
+: ''([[#oc-nom-pr-1|Nom propre 1]])''  {{info lex|mythologie}} Du {{étyl|la|oc|mot=Saturnus}}, [[divinité]] [[romaine]] correspondant à {{w|Cronos}} chez les [[Grecs]].
+: ''([[#oc-nom-pr-2|Nom propre 2]])'' {{info lex|astronomie}} Du nom du [[dieu]].
+
+=== {{S|nom propre|oc|num=1}} ===
+'''Saturn''' {{pron|saˈtyɾn|oc}}
+# {{divinités|oc|romaines}} [[Saturne#fr-nom-pr-1|Saturne]].
+
+=== {{S|nom propre|oc|num=2}} ===
+'''Saturn''' {{pron|saˈtyɾn|oc}}
+# {{planètes|oc}} [[Saturne#fr-nom-pr-2|Saturne]].
+
+==== {{S|hyperonymes}} ====
+* {{lien|giganta gasosa|oc}}
+** {{lien|planeta|oc}}
+
+==== {{S|vocabulaire}} ====
+{{Liste|avant=[[Jupitèr#oc-nom-pr-2|Jupitèr]]|suiv.de=d’|après=[[Uranus#oc-nom-pr-2|Uranus]]|liste=[[:Catégorie:Lexique en occitan de l’astronomie|Planètes principales]]}}
+
+== {{langue|uz}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|uz|mot=Saturnus}}.
+
+=== {{S|nom propre|uz}} ===
+'''Saturn''' {{pron||uz}}
+# {{planètes|uz}} [[Saturne]].
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=uz}}
+
+== {{langue|pms}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|pms|mot=Saturnus}}.
+
+=== {{S|nom propre|pms}} ===
+'''Saturn''' {{pron||pms}}
+# {{planètes|pms}} [[Saturne]].
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=pms}}
+
+== {{langue|pl}} ==
+=== {{S|étymologie}} ===
+: Du {{étylp|la|pl|mot=Saturnus}}.
+
+=== {{S|nom propre|pl}} ===
+'''Saturn''' {{pron||pl}}
+# {{planètes|pl}} [[Saturne]].
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=pl||audio=Pl-Saturn.ogg}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=pl}}
+
+== {{langue|rm}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|rm|mot=Saturnus}}.
+
+=== {{S|nom propre|rm}} ===
+'''Saturn''' {{pron||rm}}
+# {{planètes|rm}} [[Saturne]].
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=rm}}
+
+== {{langue|ro}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|ro|mot=Saturnus}}.
+
+=== {{S|nom propre|ro}} ===
+'''Saturn''' {{pron||ro}}
+# {{planètes|ro}} [[Saturne]].
+==== {{S|vocabulaire}} ====
+* {{voir thésaurus|ro|astronomie}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=ro}}
+
+== {{langue|sh}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|sh|mot=Saturnus}}.
+
+=== {{S|nom propre|sh}} ===
+'''Saturn''' {{pron||sh}}
+# {{planètes|sh}} [[Saturne]].
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=sh}}
+
+== {{langue|szl}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|szl|mot=Saturnus}}.
+
+=== {{S|nom propre|szl}} ===
+'''Saturn''' {{pron||szl}}
+# {{planètes|szl}} [[Saturne]].
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=szl}}
+
+== {{langue|sk}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|sk|mot=Saturnus}}.
+
+=== {{S|nom propre|sk|num=1}} ===
+{{sk-décl-nom-ma|sing=oui}}
+'''Saturn''' {{pron|ˈsa.turn|sk}} {{m|a}}
+# {{divinités|sk|romaines}} [[Saturne]].
+
+=== {{S|nom propre|sk|num=2}} ===
+{{sk-décl-nom-mi-dur|sing=oui}}
+'''Saturn''' {{pron|ˈsa.turn|sk}} {{m|i}}
+# {{planètes|sk}} [[Saturne]].
+#* {{exemple | lang=sk
+ | '''Saturn''' je [[známy]] [[najmohutnejší|najmohutnejšou]] [[sústava|sústavou]] [[prstenec|prstencov]] zo všetkých planét [[slnečná sústava|slnečnej sústavy]].
+ | Saturne est connue pour son système d’anneaux, le plus imposant de toutes les planètes du système solaire.
+ | source=Wikipédia, [[:w:sk:Saturn|Saturn]]}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=sk}}
+
+== {{langue|sl}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|sl|mot=Saturnus}}.
+
+=== {{S|nom propre|sl}} ===
+'''Saturn''' {{pron||sl}}
+# {{planètes|sl}} [[Saturne]].
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=sl}}
+
+== {{langue|cs}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|cs|mot=Saturnus}}.
+
+=== {{S|nom propre|cs|num=1}} ===
+{{cs-décl-nom-ma-dur|rad=Saturn|sing=oui}}
+'''Saturn''' {{pron|ˈsa.turn|cs}} {{m|a}}
+# {{divinités|cs|romaines}} [[Saturne]].
+#* {{exemple | lang=cs
+ | Ačkoli římský bůh '''Saturn''' byl sloučen s [[Kronos|Kronem]], měli Římané Saturna raději než Řekové Krona.
+ | {{trad-exe|cs}}}}
+
+=== {{S|nom propre|cs|num=2}} ===
+{{cs-décl-nom-mi-dur|rad=Saturn|sing=oui}}
+'''Saturn''' {{pron|ˈsa.turn|cs}} {{m|i}}
+# {{planètes|cs}} [[Saturne]].
+#* {{exemple | lang=cs
+ | '''Saturn''' je šestá, po Jupiteru druhá největší planeta sluneční soustavy.
+ | Saturne est la sixième, et après Jupiter la deuxième plus grande planète du système solaire.}}
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=cs||audio=Cs-Saturn.ogg}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=cs}}
+
+== {{langue|vo}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|vo|mot=Saturnus}}.
+
+=== {{S|nom propre|vo}} ===
+'''Saturn''' {{pron||vo}}
+# {{planètes|vo}} [[Saturne]].
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=vo}}
+
+== {{langue|vro}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|vro|mot=Saturnus}}.
+
+=== {{S|nom propre|vro}} ===
+'''Saturn''' {{pron||vro}}
+# {{planètes|vro}} [[Saturne]].
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=vro}}

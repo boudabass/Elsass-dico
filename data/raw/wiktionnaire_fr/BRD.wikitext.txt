@@ -1,0 +1,64 @@
+{{voir|brd}}
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: {{sigle|gsw}} Sigle de ''{{lien|Bundesrepublik Ditschlånd|gsw}}''.
+
+=== {{S|nom propre|gsw}} ===
+'''BRD'''
+# [[RFA]], [[République fédérale d’Allemagne]].
+
+[[Catégorie:Pays en alémanique]]
+[[Catégorie:Allemagne en alémanique]]
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: {{sigle|de}} Sigle de ''{{lien|Bundesrepublik Deutschland|de}}''.
+
+=== {{S|nom propre|de}} ===
+{{de-nom-f-sing}}
+'''BRD''' {{pron|ˌbeːʔɛʁˈdeː|de}} {{f}}
+# [[RFA]], [[République fédérale d’Allemagne]].
+#* ''Ich wohne in der '''BRD'''.'' — J’habite en RFA.
+#* {{exemple|Heidelore Rutz wurde in der DDR inhaftiert, weil sie für ihre Ausreise demonstrierte. Die '''BRD''' kaufte sie frei.|lang=de|sens=Heidelore Rutz a été emprisonnée en RDA parce qu'elle manifestait pour quitter le pays. La RFA l'a libérée.|source={{périodique|auteur=Waltraud Schwab|titre=Klopfen wie ein Weltmeister|journal=taz|date=26 septembre 2022|texte=https://taz.de/Der-Hausbesuch/!5875496/}}}}
+
+==== {{S|dérivés}} ====
+* {{lien|BRDigung|de}}
+
+=== {{S|prononciation}} ===
+* {{écouter|Berlin|ˌbeːʔɛʁˈdeː|lang=de|audio=De-BRD.ogg}}
+
+[[Catégorie:Pays d’Europe en allemand]]
+[[Catégorie:Allemagne en allemand|*]]
+
+== {{langue|li}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|li}}
+
+=== {{S|nom propre|li}} ===
+'''BRD'''
+# [[RFA]], [[République fédérale d’Allemagne]].
+
+[[Catégorie:Pays en limbourgeois]]
+
+== {{langue|lb}} ==
+=== {{S|étymologie}} ===
+: {{sigle|lb}} Sigle de ''{{lien|Bundesrepublik Däitschland|lb}}''.
+
+=== {{S|nom propre|lb}} ===
+'''BRD'''
+# [[RFA]], [[République fédérale d’Allemagne]].
+
+[[Catégorie:Pays en luxembourgeois]]
+[[Catégorie:Allemagne en luxembourgeois]]
+
+== {{langue|nl}} ==
+=== {{S|étymologie}} ===
+: {{sigle|nl}} Sigle de ''{{lien|Bondsrepubliek Duitsland|nl}}''.
+
+=== {{S|nom propre|nl}} ===
+'''BRD''' {{pron||nl}}
+# [[RFA]], [[République fédérale d’Allemagne]].
+#* {{exemple|lang=nl}}
+
+[[Catégorie:Pays d’Europe en néerlandais]]
+[[Catégorie:Allemagne en néerlandais|*]]

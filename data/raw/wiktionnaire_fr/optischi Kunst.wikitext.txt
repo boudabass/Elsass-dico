@@ -1,0 +1,7 @@
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+''(1964)'' Traduction de l'{{étyl|en|gsw|mot=optical art}}, {{composé de|lang=gsw|optischi|Kunst}}.
+
+=== {{S|nom|gsw}} ===
+'''optischi Kunst''' {{pron||gsw}}
+# {{lexique|peinture|gsw}} [[op art#fr|Op art]]

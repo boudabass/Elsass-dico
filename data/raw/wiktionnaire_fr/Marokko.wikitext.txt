@@ -1,0 +1,222 @@
+{{voir|Marokkó}}
+
+== {{langue|af}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|af}}
+
+=== {{S|nom propre|af}} ===
+'''Marokko''' {{pron||af}}
+# [[Maroc#fr|Maroc]] (pays d’Afrique).
+#* {{exemple|lang=af}}
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=af|Afrique du Sud (Johannesbourg)|audio=LL-Q14196 (afr)-Oesjaar-Marokko.wav}}
+
+[[Catégorie:Pays d’Afrique en afrikaans]]
+
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw}}
+
+=== {{S|nom propre|gsw}} ===
+'''Marokko''' {{pron||gsw}}
+# [[Maroc#fr|Maroc]] (pays d’Afrique).
+
+[[Catégorie:Pays en alémanique]]
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|de}}
+
+=== {{S|nom propre|de}} ===
+{{de-nom-propre|genre=n|gs=Marokko|gs2=Marokkos}}
+'''Marokko''' {{pron|ˌmaˈʁɔko|de}} {{n}}
+# [[Maroc#fr|Maroc]] (pays d’Afrique).
+#* {{exemple|In '''Marokko''' werden Touristen, die diesen Tieren die Schnauze streicheln möchten, häufig mehrere Finger abgebissen. »Ich habe der Dame gesagt, sie soll aufpassen!« klagt dann der heuchlerische Kameltreiber. »Kamel nicht gut …« Die Finger sind trotzdem ab und tatsächlich verschluckt.|lang=de|sens=Fréquemment, au Maroc, les touristes tentant de caresser le museau de l’animal se font arracher plusieurs doigts. « J'avais dit à la dame faire attention… se lamente alors hypocritement le chamelier. Chameau pas gentil… » ; il n'empêche que les doigts sont bel et bien dévorés.|source={{ouvrage|auteur={{w|Michel Houellebecq}}|trad=Hinrich Schmidt-Henkel|titre=Lanzarote|année=2000|éditeur=DuMont Buchverlag|lieu=Köln|url=}}}}
+#* {{exemple|In seinem Privatleben sah es kaum besser aus. Er war eigentlich mit einer Marokkanerin verheiratet, aber seine Frau und er lebten seit fünf Jahren getrennt. Sie war nach '''Marokko''' zurückgegangen und hatte die beiden Kinder mitgenommen; er hatte sie seitdem nicht wiedergesehen.|lang=de|sens=Sur le plan personnel, ça n’allait guère mieux. Il avait épousé une Marocaine, mais sa femme et lui étaient séparés depuis cinq ans. Elle était repartie au Maroc en emmenant leurs deux enfants ; il ne les avait jamais revus.|source={{ouvrage|auteur={{w|Michel Houellebecq}}|trad=Hinrich Schmidt-Henkel|titre=Lanzarote|année=2000|éditeur=DuMont Buchverlag|lieu=Köln|url=}}}}
+
+==== {{S|synonymes}} ====
+* {{lien|Königreich Marokko|de}}
+
+==== {{S|hyperonymes}} ====
+* {{lien|Staat|de}}
+* {{lien|Land|de}}
+
+==== {{S|dérivés}} ====
+* {{lien|Marokkaner|de}}
+* {{lien|Marokkanerin|de}}
+* {{lien|marokkanisch|de}}
+
+=== {{S|prononciation}} ===
+* {{écouter|Berlin (Allemagne)|maˈʁɔko|lang=de|audio=De-Marokko.ogg}}
+* {{écouter|{{DE|nocat=1}}|ˌmaˈʁɔko|lang=de|audio=LL-Q188 (deu)-Natschoba-Marokko.wav}}
+
+=== {{S|références}} ===
+* {{R:DWDS|Marokko}}
+* {{R:Duden|Marokko}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=de}}
+
+[[Catégorie:Pays d’Afrique en allemand]]
+[[Catégorie:Maroc en allemand|*]]
+
+== {{langue|nds}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|nds}}
+
+=== {{S|nom propre|nds}} ===
+'''Marokko''' {{pron||nds}}
+# [[Maroc#fr|Maroc]] (pays d’Afrique).
+
+[[Catégorie:Pays d’Afrique en bas allemand]]
+
+== {{langue|da}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|da}}
+
+=== {{S|nom propre|da}} ===
+'''Marokko''' {{pron||da}}
+# [[Maroc#fr|Maroc]] (pays d’Afrique).
+
+[[Catégorie:Pays d’Afrique en danois]]
+[[Catégorie:Maroc en danois|*]]
+
+== {{langue|fo}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|fo}}
+
+=== {{S|nom propre|fo}} ===
+'''Marokko''' {{pron||fo}}
+# [[Maroc#fr|Maroc]] (pays d’Afrique).
+
+[[Catégorie:Pays en féroïen]]
+
+== {{langue|fi}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|fi}}
+
+=== {{S|nom propre|fi}} ===
+'''Marokko''' {{pron||fi}}
+# [[Maroc#fr|Maroc]] (pays d’Afrique).
+
+[[Catégorie:Pays d’Afrique en finnois]]
+[[Catégorie:Maroc en finnois|*]]
+
+== {{langue|fy}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|fy}}
+
+=== {{S|nom propre|fy}} ===
+'''Marokko''' {{pron||fy}}
+# [[Maroc#fr|Maroc]] (pays d’Afrique).
+
+[[Catégorie:Pays en frison]]
+
+== {{langue|hsb}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|hsb}}
+
+=== {{S|nom propre|hsb}} ===
+'''Marokko''' {{pron||hsb}}
+# [[Maroc#fr|Maroc]] (pays d’Afrique).
+
+[[Catégorie:Pays en haut-sorabe]]
+
+== {{langue|li}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|li}}
+
+=== {{S|nom propre|li}} ===
+'''Marokko''' {{pron||li}}
+# [[Maroc#fr|Maroc]] (pays d’Afrique).
+
+[[Catégorie:Pays en limbourgeois]]
+
+== {{langue|lb}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|lb}}
+
+=== {{S|nom propre|lb}} ===
+{{lb-inv|mɑʀˈokoː|inv_titre=Nom propre}}
+'''Marokko''' {{pron|mɑʀˈokoː|lb}} {{n}}
+# {{pays|lb|d’Afrique|pays=Maroc|clé=*}} {{lien|Maroc|fr}}.
+#* {{exemple|lang=lb}}
+
+==== {{S|synonymes}} ====
+* {{lien|Maroc|lb}}
+
+==== {{S|gentilés}} ====
+* {{lien|Marokkaner|lb|sens=Marocain}}, {{lien|Marokkanerin|lb|sens=Marocaine}}
+* {{lien|marokkanesch|lb|sens=marocain}}
+
+=== {{S|prononciation}} ===
+* {{écouter|Luxembourg||lang=lb|audio=Lb-Marokko.ogg}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=lb}}
+
+=== {{S|références}} ===
+: {{R:LOD}}
+
+== {{langue|nl}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|nl}}
+
+=== {{S|nom propre|nl}} ===
+'''Marokko''' {{pron||nl}}
+# [[Maroc#fr|Maroc]] (pays d’Afrique).
+
+[[Catégorie:Pays d’Afrique en néerlandais]]
+[[Catégorie:Maroc en néerlandais|*]]
+
+=== {{S|prononciation}} ===
+* {{écouter|||lang=nl|audio=Nl-Marokko.ogg}}
+
+== {{langue|no}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|no}}
+
+=== {{S|nom propre|no}} ===
+'''Marokko''' {{pron||no}}
+# [[Maroc#fr|Maroc]] (pays d’Afrique).
+
+[[Catégorie:Pays d’Afrique en norvégien]]
+[[Catégorie:Maroc en norvégien|*]]
+
+== {{langue|nn}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|nn}}
+
+=== {{S|nom propre|nn}} ===
+'''Marokko''' {{pron||nn}}
+# [[Maroc#fr|Maroc]] (pays d’Afrique).
+
+[[Catégorie:Pays d’Afrique en norvégien (nynorsk)]]
+
+== {{langue|se}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|se}}
+
+=== {{S|nom propre|se}} ===
+'''Marokko''' {{pron||se}}
+# [[Maroc#fr|Maroc]] (pays d’Afrique).
+
+[[Catégorie:Pays en same du Nord]]
+
+== {{langue|zea}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|zea}}
+
+=== {{S|nom propre|zea}} ===
+'''Marokko''' {{pron||zea}}
+# [[Maroc#fr|Maroc]] (pays d’Afrique).
+
+[[Catégorie:Pays en zélandais]]
+[[Catégorie:Toponymes dont l’origine est religieuse en allemand]]
+[[Catégorie:Toponymes dont l’origine est religieuse en danois]]
+[[Catégorie:Toponymes dont l’origine est religieuse en finnois]]
+[[Catégorie:Toponymes dont l’origine est religieuse en néerlandais]]
+[[Catégorie:Toponymes dont l’origine est religieuse en norvégien]]
+[[Catégorie:Toponymes dont l’origine est religieuse en zélandais]]
+[[Catégorie:Toponymes dont l’origine est religieuse en same du Nord]]

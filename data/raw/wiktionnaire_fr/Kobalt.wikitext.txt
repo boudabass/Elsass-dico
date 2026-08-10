@@ -1,0 +1,69 @@
+{{voir|kobalt}}
+
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw}}
+
+=== {{S|nom|gsw}} ===
+'''Kobalt''' {{pron||gsw}}
+# {{éléments|gsw}} {{métaux|gsw}} [[cobalt|Cobalt]].
+{{clr}}
+==== {{S|vocabulaire}} ====
+{{tableau périodique/gsw}}
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: De ''{{lien|Kobold|de}}'', lutin malicieux qui aurait dérobé l’[[argent]] pour le remplacer par ce minerai jugé alors inutilisable.
+
+=== {{S|nom|de}} ===
+{{légende élément/de|Co}}
+[[Image:Cobalt-sample.jpg|thumb|'''Kobalt'''.]]
+'''Kobalt''' {{pron|ˈkoːbalt|de}} {{n}}
+# {{éléments|de}} {{métaux|de}} [[cobalt#fr|Cobalt]] (l’{{lien|élément chimique}} [[Co#conv|Co]]).
+#* {{exemple|Chinesische Firmen dominieren sowohl den kongolesischen Bergbau als auch die weltweite Versorgung mit '''Kobalt''', ohne die es keine globale Energiewende geben kann.|lang=de|sens=Les entreprises chinoises dominent à la fois l’exploitation minière congolaise et l’approvisionnement mondial en cobalt, sans lequel il ne peut y avoir de transition énergétique mondiale.|source={{périodique|auteur=François Misser|titre=Wie China die DR Kongo ausbeutet|journal=taz|date=24 mai 2023|texte=https://taz.de/China-Besuch-von-Kongos-Praesident/!5933434/}}}}
+
+==== {{S|variantes orthographiques}} ====
+* {{lien|Cobalt|de}}
+
+==== {{S|dérivés}} ====
+{{(|&nbsp;}}
+* {{lien|Erdkobalt|de}}
+* {{lien|kobaltblau|de}}
+* {{lien|Kobaltblüte|de}}
+* {{lien|Kobaltbombe|de}}
+* {{lien|Kobaltglanz|de}}
+* {{lien|Kobaltkanone|de}}
+* {{lien|Speiskobalt|de}}
+{{)}}
+{{clr}}
+==== {{S|vocabulaire}} ====
+{{tableau périodique/de}}
+{{Liste|avant={{lien|Eisen|de}}<br>([[Fe#conv|Fe]])|après={{lien|Nickel|de}}<br>([[Ni#conv|Ni]])|liste=[[Thésaurus:tableau périodique des éléments/allemand|Éléments chimiques en allemand]]}}
+
+=== {{S|prononciation}} ===
+* {{écouter|Berlin|ˈkoːbalt|lang=de|audio=De-Kobalt.ogg}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=de}}
+
+== {{langue|lb}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|lb}}
+
+=== {{S|nom|lb}} ===
+{{lb-inv|kˈoːbɑlt}}
+'''Kobalt''' {{pron|kˈoːbɑlt|lb}} {{m}}, {{au singulier uniquement|lb}}
+# {{éléments|lb}} {{métaux|lb}} [[cobalt#fr|Cobalt]].
+#* {{exemple|lang=lb}}
+{{clr}}
+==== {{S|vocabulaire}} ====
+{{tableau périodique/lb}}
+
+=== {{S|prononciation}} ===
+* {{écouter|Angers (France)||niveau=bon|lang=lb|audio=LL-Q9051 (ltz)-Procrastineur49-Kobalt.wav}}
+
+=== {{S|références}} ===
+: {{R:LOD}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=lb}}

@@ -1,0 +1,59 @@
+{{voir|dysprosium}}
+
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw}}
+
+=== {{S|nom|gsw}} ===
+'''Dysprosium''' {{pron||gsw}} {{genre|gsw}}
+# {{éléments|gsw}} {{métaux|gsw}} [[dysprosium#fr|Dysprosium]].
+{{clr}}
+==== {{S|vocabulaire}} ====
+{{tableau périodique/gsw}}
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|de}}
+
+=== {{S|nom|de}} ===
+{{légende élément/de|Dy}}
+[[Image:Dysprosium.jpg|thumb|'''Dysprosium'''.]]
+'''Dysprosium''' {{pron|dʏsˈpʀoːzi̯ʊm|de}} {{n}} ({{p}}: '''—''' )
+# {{éléments|de}} {{métaux|de}} [[dysprosium#fr|Dysprosium]] (l’{{lien|élément chimique}} [[Dy#conv|Dy]]).
+#* {{exemple | lang=de | '''Dysprosium''' ist sehr unedel und daher sehr reaktionsfähig.}}
+
+==== {{S|dérivés}} ====
+* {{lien|Dysprosiumoxid|de}}
+{{clr}}
+==== {{S|vocabulaire}} ====
+* {{voir thésaurus|de|tableau périodique des éléments}}
+{{tableau périodique/de}}
+{{Liste|avant={{lien|Terbium|de}}<br>([[Tb#conv|Tb]])|après={{lien|Holmium|de}}<br>([[Ho#conv|Ho]])|liste=[[Thésaurus:tableau périodique des éléments/allemand|Éléments chimiques en allemand]]}}
+
+=== {{S|prononciation}} ===
+* {{pron|dʏsˈpʀoːzi̯ʊm|de}}
+* {{écouter||dʏsˈpʀoːzi̯ʊm|lang=de|audio=De-Dysprosium.ogg}}
+* {{écouter|lang=de|Allemagne (Berlin)|audio=LL-Q188 (deu)-Lucas Werkmeister-Dysprosium.wav}}
+* {{écouter|lang=de|Allemagne (Berlin)|audio=LL-Q188 (deu)-Sebastian Wallroth-Dysprosium.wav}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=de}}
+
+== {{langue|lb}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|lb}}
+
+=== {{S|nom|lb}} ===
+{{lb-inv|dispʀˈoːzi̯um}}
+'''Dysprosium''' {{pron|dispʀˈoːzi̯um|lb}} {{m}}, {{au singulier uniquement|lb}}
+# {{éléments|lb}} {{métaux|lb}} [[dysprosium#fr|Dysprosium]].
+#* {{exemple|lang=lb}}
+{{clr}}
+==== {{S|vocabulaire}} ====
+{{tableau périodique/lb}}
+
+=== {{S|références}} ===
+: {{R:LOD}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=lb}}

@@ -1,0 +1,28 @@
+== {{langue|fr}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|gsw|fr|Wotan}}.
+
+=== {{S|nom propre|fr}} ===
+'''Wotan''' {{pron||fr}}
+# {{divinités|fr|nordiques}} Le [[dieu]] [[nordique]] [[Odin]].
+#* {{exemple | lang=fr
+ | J’aperçus Moïse. Il était coiffé un peu à la manière de Walt Whitman et ressemblait à un magnifique personnage de théâtre. S’appuyant sur son long bâton, il avançait, tel '''Wotan''', l’air fougueux et sombre, conduisant son peuple à travers le désert.
+ | source={{w|Herman Hesse}}, ''Le Loup des steppes'', 1927, réédition Le Livre de Poche, page 235}}
+#* {{exemple|lang=fr|Et soudain un corbeau se posa sur la route, puis un autre, et nous décidâmes que c'étaient Hugin et Mumin, les deux corbeaux que '''Wotan''' envoie du Walhalla pour lui rapporter des nouvelles de la terre ; un coup terrible ébranla l'atmosphère : Hugin et Mumin n'étaient plus.|source={{w|Alexandre Vialatte}}, ''Fred et Bérénice'', Le Rocher, 2007, pages 100-101}}
+
+==== {{S|traductions}} ====
+{{trad-début}}
+{{trad-fin}}
+
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|indo-européen commun|gsw}} {{recons|lang-mot-vedette=gsw|wat|sens=inspiré par dieu}}{{réf}}, dont sont issus le {{la}} {{l|''vates''|la|sens=devin}}, l’{{étyl|en|gsw|mot=wood|sens=fou}}, le {{nl}} {{l|''woede''|nl|sens=fureur, colère}}, l’{{de}} {{l|''Wut''|de|sens=fureur}}, le {{ga}} {{l|''fáith''|ga|sens=poète}}.
+
+=== {{S|nom propre|gsw}} ===
+'''Wotan''' {{pron||gsw}}
+# {{divinités|gsw|nordiques}} Le dieu nordique {{lien|Odin|fr}}.
+
+=== {{S|références}} ===
+* {{RÉF}} {{lien brisé|consulté le=2013-07-02|url=http://www.ieed.nl/cgi-bin/response.cgi?flags=eygtnrl&single=1&basename=/data/ie/pokorny&text_recno=2086&root=leiden|titre=Pokorny ''*wat''}}
+
+[[Catégorie:Divinités germaniques en français]]

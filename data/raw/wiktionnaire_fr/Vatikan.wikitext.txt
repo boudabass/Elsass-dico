@@ -1,0 +1,178 @@
+{{voir/vatikan}}
+
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+:Du {{étyl|la|gsw|mot=Vaticanus}}.
+
+=== {{S|nom propre|gsw}} ===
+'''Vatikan''' {{pron||gsw}}
+# [[Vatican#Français|Vatican]] (État de la Cité du).
+
+[[Catégorie:Pays en alémanique]]
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+:Du {{étyl|la|de|mot=Vaticanus}}.
+
+=== {{S|nom propre|de}} ===
+{{de-nom|genre=m|ns=Vatikan|gs=Vatikan|ds=Vatikan|as=Vatikan|sing=oui}}
+'''Vatikan''' {{pron|vatiˈkaːn|de}} {{m}}
+# [[Vatican#Français|Vatican]] (État de la Cité du).
+#* {{exemple|Kurz nach seiner Rückkehr von der Beerdigung von Papst Franziskus hat Präsident Donald Trump angekündigt, dass er den '''Vatikan''' als 51. Bundesstaat der USA haben möchte.|lang=de|sens=Peu après son retour des funérailles du pape François, le président Donald Trump a annoncé qu'il souhaitait que le Vatican devienne le 51e État des États-Unis.|source={{périodique|auteur=dan, ssi|titre=Beeindruckt nach Besuch im Petersdom: Trump will Vatikan als 51. Bundesstaat|journal=Der Postillon|date=28 avril 2025|texte=https://www.der-postillon.com/2025/04/vatikan-usa.html}}}}
+
+==== {{S|synonymes}} ====
+* {{lien|Heiliger Stuhl|de}}
+* {{lien|Apostolischer Stuhl|de}}
+* {{lien|Vatikanstadt|de}}
+* {{lien|Vatikanstaat|de}}
+
+==== {{S|hyperonymes}} ====
+* {{lien|Residenz|de}}
+* {{lien|Regierung|de}}
+* {{lien|Kleinstaat|de}}
+* {{lien|Staat|de}}
+
+==== {{S|dérivés}} ====
+{{(|}}
+* {{lien|vatikanisch|de}}
+* {{lien|Vatikanstaat|de}}
+* {{lien|Vatikanstadt|de}}
+* {{lien|Vatikanum|de}}
+{{)}}
+
+=== {{S|prononciation}} ===
+* {{écouter|Berlin (Allemagne)|vatiˈkaːn|lang=de|audio=De-Vatikan.ogg}}
+
+=== {{S|références}} ===
+* {{R:DWDS|Vatikan}}
+* {{R:Duden|Vatikan}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=de}}
+
+[[Catégorie:Pays d’Europe en allemand]]
+
+== {{langue|bs}} ==
+=== {{S|étymologie}} ===
+:Du {{étyl|la|bs|mot=Vaticanus}}.
+
+=== {{S|nom propre|bs}} ===
+'''Vatikan''' {{pron||bs}}
+# [[Vatican#Français|Vatican]] (État de la Cité du).
+
+[[Catégorie:Pays d’Europe en bosniaque]]
+
+== {{langue|br}} ==
+=== {{S|étymologie}} ===
+:Du {{étyl|la|br|mot=Vaticanus}}.
+
+=== {{S|nom propre|br}} ===
+'''Vatikan''' {{pron||br}}
+# [[Vatican#Français|Vatican]] (État de la Cité du).
+
+[[Catégorie:Pays d’Europe en breton]]
+
+== {{langue|kw}} ==
+=== {{S|étymologie}} ===
+:Du {{étyl|la|kw|mot=Vaticanus}}.
+
+=== {{S|nom propre|kw}} ===
+'''Vatikan''' {{pron||kw}}
+# [[Vatican#Français|Vatican]] (État de la Cité du).
+
+[[Catégorie:Pays en cornique]]
+
+== {{langue|hr}} ==
+=== {{S|étymologie}} ===
+:Du {{étyl|la|hr|mot=Vaticanus}}.
+
+=== {{S|nom propre|hr}} ===
+'''Vatikan''' {{pron||hr}}
+# [[Vatican#Français|Vatican]] (État de la Cité du).
+
+[[Catégorie:Pays d’Europe en croate]]
+
+== {{langue|et}} ==
+=== {{S|étymologie}} ===
+:Du {{étyl|la|et|mot=Vaticanus}}.
+
+=== {{S|nom propre|et}} ===
+'''Vatikan''' {{pron||et}}
+# [[Vatican#Français|Vatican]] (État de la Cité du).
+
+[[Catégorie:Pays d’Europe en estonien]]
+
+== {{langue|ksh}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym |ksh}} 
+
+=== {{S|nom propre|ksh}} ===
+'''Vatikan''' {{pron||ksh}}
+# {{pays|ksh}} [[Vatican]], État de la Cité du Vatican.
+
+=== {{S|références}} ===
+* {{WP|lang=ksh}}
+[[Catégorie:Europe en francique ripuaire]]
+
+== {{langue|id}} ==
+=== {{S|étymologie}} ===
+:Du {{étyl|la|id|mot=Vaticanus}}.
+
+=== {{S|nom propre|id}} ===
+'''Vatikan''' {{pron||id}}
+# [[Vatican#Français|Vatican]] (État de la Cité du).
+#* {{exemple|lang=id}}
+
+[[Catégorie:Pays d’Europe en indonésien]]
+
+== {{langue|lb}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|lb|Vaticanus}}.
+
+=== {{S|nom propre|lb}} ===
+{{lb-inv||inv_titre=Nom propre}}
+'''Vatikan''' {{pron||lb}} {{m}}
+# {{pays|lb|d’Europe|pays=Vatican|clé=*}} {{lien|Vatican|fr}}.
+#* {{exemple|lang=lb}}
+
+==== {{S|dérivés}} ====
+* {{lien|Vatikanstad|lb|sens=Cité du Vatican}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=lb}}
+
+=== {{S|références}} ===
+: {{R:LOD}}
+
+== {{langue|sh}} ==
+=== {{S|étymologie}} ===
+:Du {{étyl|la|sh|mot=Vaticanus}}.
+
+=== {{S|nom propre|sh}} ===
+'''Vatikan''' {{pron||sh}}
+# [[Vatican#Français|Vatican]] (État de la Cité du).
+
+[[Catégorie:Pays d’Europe en serbo-croate]]
+
+== {{langue|sl}} ==
+=== {{S|étymologie}} ===
+:Du {{étyl|la|sl|mot=Vaticanus}}.
+
+=== {{S|nom propre|sl}} ===
+'''Vatikan''' {{pron||sl}}
+# [[Vatican#Français|Vatican]] (État de la Cité du).
+
+[[Catégorie:Pays d’Europe en slovène]]
+
+== {{langue|tr}} ==
+=== {{S|étymologie}} ===
+:Du {{étyl|la|tr|mot=Vaticanus}}.
+
+=== {{S|nom propre|tr}} ===
+'''Vatikan''' {{pron||tr}}
+# [[Vatican#Français|Vatican]] (État de la Cité du).
+
+=== {{S|prononciation}} ===
+* {{écouter|Izmir (Turquie)||lang=tr|audio=LL-Q256 (tur)-ToprakM-Vatikan.wav}}
+
+[[Catégorie:Pays d’Europe en turc]]

@@ -1,0 +1,46 @@
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+:De l’{{étyl|de|gsw|Krakau}}.
+
+=== {{S|nom propre|gsw}} ===
+'''Krakau'''
+# {{lien|Cracovie|fr}}.
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+:Du {{étyl|pl|de|Kraków}}.
+
+=== {{S|nom propre|de}} ===
+{{de-nom-propre|pns=ˈkraːkaʊ̯}}
+'''Krakau'''
+# {{lien|Cracovie|fr}}.
+
+==== {{S|dérivés}} ====
+* [[Krakauer]]
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=de}}
+
+[[Catégorie:Localités de Pologne en allemand]]
+
+== {{langue|nds}} ==
+=== {{S|étymologie}} ===
+:De l’{{étyl|de|nds|Krakau}}.
+
+=== {{S|nom propre|nds}} ===
+'''Krakau'''
+# {{lien|Cracovie|fr}}.
+
+== {{langue|nl}} ==
+=== {{S|étymologie}} ===
+:De l’{{étyl|de|nl|Krakau}}.
+
+=== {{S|nom propre|nl}} ===
+'''Krakau''' {{n}}
+# {{lien|Cracovie|fr}}.
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=nl|audio=nl-Krakau.ogg}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=nl}}

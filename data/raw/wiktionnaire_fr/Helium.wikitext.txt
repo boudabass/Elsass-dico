@@ -1,0 +1,117 @@
+{{voir/helium}}
+
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw}}
+
+=== {{S|nom|gsw}} ===
+'''Helium''' {{pron||gsw}}
+# {{éléments|gsw}} [[hélium|Hélium]].
+{{clr}}
+==== {{S|vocabulaire}} ====
+{{tableau périodique/gsw}}
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|en|de|helium}}, emprunt qui remonte à la fin du {{siècle2|XIX}} siècle.<ref>{{R:DWDS|Helium}}</ref>
+
+=== {{S|nom|de}} ===
+{{de-nom|genre=n|ns= Helium |np=|as= Helium |ap=|gs= Heliums |gp=|ds= Helium |dp=|sing=oui}}
+{{légende élément/de|He}}
+[[Image:He,2.jpg|thumb|'''Helium'''.]]
+'''Helium''' {{pron|ˈheːliʊm|de}} {{n}} {{au singulier uniquement|de}}
+# {{éléments|de}} [[hélium#fr|Hélium]] (l’{{lien|élément chimique}} [[He#conv|He]]).
+#* {{exemple | lang=de | Da '''Helium''' etwa fünf mal leichter als Luft ist, dient es als Füllgas für Ballone.|Comme l’hélium est environ cinq fois plus léger que l’air, il sert de gaz de gonflage pour les ballons.}}
+#* {{exemple|Seit den 1950er Jahren wird die Kernfusion erforscht, also jenes Prinzip zur Energiegewinnung, das der Sonne nachempfunden ist. Atomkerne von Wasserstoff und '''Helium''' verschmelzen und geben dabei ungeheure Mengen von Energie ab.|lang=de|sens=Depuis les années 1950, on étudie la fusion nucléaire, c’est-à-dire le principe de production d’énergie qui s’inspire du soleil. Les noyaux atomiques d’hydrogène et d’hélium fusionnent et libèrent ainsi d’énormes quantités d'énergie.|source={{périodique|auteur=Nick Reimer|titre=Fantastisch, aber nutzlos|journal=taz|date=10 janvier 2025|texte=https://taz.de/Union-will-Fusionsreaktor-fuer-Strom/!6061561/}}}}
+
+==== {{S|antonymes}} ====
+* {{lien|Antihelium|de}}
+
+==== {{S|hyperonymes}} ====
+* {{lien|Edelgas|de}}
+
+==== {{S|dérivés}} ====
+{{(|}}
+* {{lien|Heliumanteil|de}}
+* {{lien|Heliumatom|de}}
+* {{lien|Heliumaustritt|de}}
+* {{lien|Heliumballon|de}}
+* {{lien|Heliumbehälter|de}}
+* {{lien|Heliumbestand|de}}
+* {{lien|Heliumbrennen|de}}
+* {{lien|Heliumeintritt|de}}
+* {{lien|Heliumflasche|de}}
+* {{lien|Heliumförderanlage|de}}
+* {{lien|Heliumgas|de}}
+* {{lien|Heliumhydrid|de}}
+* {{lien|Heliumkern|de}}
+* {{lien|Heliumkonzentration|de}}
+* {{lien|Heliumlieferant|de}}
+* {{lien|Heliumprobe|de}}
+* {{lien|Heliumproduktion|de}}
+* {{lien|Heliumverbrauch|de}}
+* {{lien|Heliumverlust|de}}
+* {{lien|Orthohelium|de}}
+* {{lien|Parahelium|de}}
+* {{lien|Reinsthelium|de}}
+{{)}}
+
+==== {{S|vocabulaire}} ====
+* {{voir thésaurus|de|tableau périodique des éléments}}
+{{tableau périodique/de}}
+{{Liste|avant={{lien|Wasserstoff|de}} ou {{lien|Hydrogen|de}} ou {{lien|Hydrogenium|de}}<br>([[H#conv|H]])|après={{lien|Lithium|de}}<br>([[Li#conv|Li]])|liste=[[Thésaurus:tableau périodique des éléments/allemand|Éléments chimiques en allemand]]}}
+
+=== {{S|prononciation}} ===
+* {{écouter|Vienne|ˈheːli̯ʊm|lang=de|audio=De-at-Helium.ogg}}
+* {{écouter|Berlin|ˈheːli̯ʊm|lang=de|audio=De-Helium.ogg}}
+* {{écouter|{{DE|nocat=1}}|ˈheːli̯ʊm|lang=de|audio=LL-Q188 (deu)-Lucas Werkmeister-Helium.wav}}
+* {{écouter|Berlin|ˈheːli̯ʊm|lang=de|audio=LL-Q188 (deu)-Sebastian Wallroth-Helium.wav}}
+
+=== {{S|références}} ===
+{{Références}}
+* {{R:Duden|Helium}}
+
+=== {{S|voir aussi}} ===
+* {{w|lang=de}}
+
+{{Bonne entrée|allemand}}
+
+== {{langue|en}} ==
+=== {{S|étymologie}} ===
+: {{date|lang=en|1912}} {{ébauche-étym|en}}
+
+=== {{S|nom propre|en}} ===
+'''Helium''' {{pron||en}}
+# {{littéraire|en}} [[Hélium]], puissante cité-état de [[Barsoom]], la [[Mars]] fictive d’{{w|Edgar Rice Burroughs}}.
+#* {{exemple | lang=en
+ | There is much which I have left out; much which I have not dared to tell; but you will find the story of his second search for Dejah Thoris, Princess of '''Helium''', even more remarkable than was his first manuscript which I gave to an unbelieving world a short time since and through which we followed the fighting Virginian across dead sea bottoms under the moons of Mars.
+ | Il y a beaucoup de choses que j’ai laissées de côté, beaucoup de choses que je n’ai pas osé raconter, mais vous trouverez l’histoire de sa deuxième recherche de Déjah Thoris, princesse d’Hélium, encore plus remarquable que ne l’était son premier manuscrit que j’ai remis à un monde incrédule peu de temps auparavant et grâce auquel nous avons suivi le Virginien combatif à travers des fonds de mers asséchées sous les lunes de Mars.
+ | source=Edgar Rice Burroughs, ''The Gods of Mars'', Avant-propos, 1913}}
+
+==== {{S|gentilés}} ====
+* [[Heliumite]]
+
+==== {{S|dérivés}} ====
+* [[Heliumetic]]
+
+== {{langue|lb}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|lb}}
+
+=== {{S|nom|lb}} ===
+{{lb-inv|hˈeːli̯um}}
+'''Helium''' {{pron|hˈeːli̯um|lb}} {{m}}, {{au singulier uniquement|lb}}
+# {{éléments|lb}} [[hélium#fr|Hélium]].
+#* {{exemple|lang=lb}}
+{{clr}}
+==== {{S|vocabulaire}} ====
+{{tableau périodique/lb}}
+
+=== {{S|prononciation}} ===
+* {{écouter|Angers (France)||niveau=bon|lang=lb|audio=LL-Q9051 (ltz)-Procrastineur49-Helium.wav}}
+
+=== {{S|références}} ===
+: {{R:LOD}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=lb}}

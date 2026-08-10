@@ -1,0 +1,202 @@
+{{voir|Belgrád}}
+
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|de|gsw|mot=Belgrad}}.
+
+=== {{S|nom propre|gsw}} ===
+'''Belgrad''' {{pron||gsw}}
+# {{capitales|gsw|pays=de Serbie}} {{lien|Belgrade|fr}}, capitale de la Serbie.
+#* {{exemple|lang=gsw}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=gsw}}
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: Du {{étylp|sr|de|mot=Београд|tr=Beograd}}.
+
+=== {{S|nom propre|de}} ===
+'''Belgrad''' {{pron||de}}
+# {{capitales|de|pays=de Serbie}} {{lien|Belgrade|fr}}, capitale de la Serbie.
+#* {{exemple|lang=de}}
+
+==== {{S|gentilés}} ====
+* {{lien|Belgrader|de}}, {{lien|Belgraderin|de}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=de}}
+
+[[Catégorie:Toponymes dont l’origine est une couleur en allemand]]
+[[Catégorie:Toponymes dont l’origine est une construction en allemand]]
+
+== {{langue|nds}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|de|nds|mot=Belgrad}}.
+
+=== {{S|nom propre|nds}} ===
+'''Belgrad''' {{pron||nds}}
+# {{capitales|nds|pays=de Serbie}} {{lien|Belgrade|fr}}, capitale de la Serbie.
+#* {{exemple|lang=nds}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=nds}}
+
+== {{langue|ca}} ==
+=== {{S|étymologie}} ===
+: Du {{étylp|sr|ca|mot=Београд|tr=Beograd}}.
+
+=== {{S|nom propre|ca}} ===
+'''Belgrad''' {{pron||ca}} {{m}}
+# {{capitales|ca|pays=de Serbie}} {{lien|Belgrade|fr}}, capitale de la Serbie.
+#* {{exemple|lang=ca}}
+
+=== {{S|prononciation}} ===
+* {{écouter|Barcelone (Espagne)||lang=ca|audio=LL-Q7026 (cat)-Marvives-Belgrad.wav}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=ca}}
+
+[[Catégorie:Toponymes dont l’origine est une couleur en catalan]]
+[[Catégorie:Toponymes dont l’origine est une construction en catalan]]
+
+== {{langue|et}} ==
+=== {{S|étymologie}} ===
+: Du {{étylp|sr|et|mot=Београд|tr=Beograd}}.
+
+=== {{S|nom propre|et}} ===
+'''Belgrad''' {{pron||et}}
+# {{capitales|et|pays=de Serbie}} {{lien|Belgrade|fr}}, capitale de la Serbie.
+#* {{exemple|lang=et}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=et}}
+
+[[Catégorie:Toponymes dont l’origine est une couleur en estonien]]
+[[Catégorie:Toponymes dont l’origine est une construction en estonien]]
+
+== {{langue|fi}} ==
+=== {{S|étymologie}} ===
+: Du {{étylp|sr|fi|mot=Београд|tr=Beograd}}.
+
+=== {{S|nom propre|fi}} ===
+'''Belgrad''' {{pron||fi}}
+# {{capitales|fi|pays=de Serbie}} {{lien|Belgrade|fr}}, capitale de la Serbie.
+#* {{exemple|lang=fi}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=fi}}
+
+[[Catégorie:Toponymes dont l’origine est une couleur en finnois]]
+[[Catégorie:Toponymes dont l’origine est une construction en finnois]]
+
+== {{langue|is}} ==
+=== {{S|étymologie}} ===
+: Du {{étylp|sr|is|mot=Београд|tr=Beograd}}.
+
+=== {{S|nom propre|is}} ===
+'''Belgrad''' {{pron||is}}
+# {{capitales|is|pays=de Serbie}} {{lien|Belgrade|fr}}, capitale de la Serbie.
+#* {{exemple|lang=is}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=is}}
+
+== {{langue|mt}} ==
+=== {{S|étymologie}} ===
+: Du {{étylp|sr|mt|mot=Београд|tr=Beograd}}.
+
+=== {{S|nom propre|mt}} ===
+'''Belgrad''' {{pron|bɛl.ˈɡrɐːd|mt}}
+# {{capitales|mt|pays=de Serbie}} {{lien|Belgrade|fr}}, capitale de la Serbie.
+#* {{exemple|lang=mt}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=mt}}
+
+== {{langue|oc}} ==
+=== {{S|étymologie}} ===
+: Du {{étylp|sr|oc|mot=Београд|tr=Beograd}}.
+
+=== {{S|nom propre|oc}} ===
+'''Belgrad''' {{pron|belˈɣɾad|oc}} {{m}}
+# {{capitales|oc|pays=de Serbie}} {{lien|Belgrade|fr}}, capitale de la Serbie.
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=oc|Belgrad}}
+
+== {{langue|pl}} ==
+=== {{S|étymologie}} ===
+: Du {{étylp|sr|pl|mot=Београд|tr=Beograd}} apparenté au polonais {{lien|''Białogard''|pl}}.
+
+=== {{S|nom propre|pl}} ===
+'''Belgrad''' {{pron|bɛlɡrat|pl}} {{m|i}}
+# {{capitales|pl|pays=de Serbie}} {{lien|Belgrade|fr}}, capitale de la Serbie.
+#* {{exemple | lang=pl | W drugiej połowie XX wieku '''Belgrad''' był stolicą Jugosławii.}}
+
+==== {{S|gentilés}} ====
+* {{lien|belgradczyk|pl}}, {{lien|belgradka|pl}}, {{lien|belgradzki|pl}}
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=pl|Pologne|bɛlɡrat|audio=Pl-Belgrad.ogg}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=pl}}
+
+=== {{S|références}} ===
+* {{Source-wikt|pl|Belgrad}}
+{{Références}}
+
+[[Catégorie:Toponymes dont l’origine est une couleur en polonais]]
+[[Catégorie:Toponymes dont l’origine est une construction en polonais]]
+
+== {{langue|ro}} ==
+=== {{S|étymologie}} ===
+: Du {{étylp|sr|ro|mot=Београд|tr=Beograd}}.
+
+=== {{S|nom propre|ro}} ===
+'''Belgrad''' {{pron||ro}}
+# {{capitales|ro|pays=de Serbie}} {{lien|Belgrade|fr}}, capitale de la Serbie.
+#* {{exemple|lang=ro}}
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=ro|Roumanie (Iași)||audio=LL-Q7913 (ron)-KlaudiuMihaila-Belgrad.wav}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=ro}}
+
+[[Catégorie:Toponymes dont l’origine est une couleur en roumain]]
+[[Catégorie:Toponymes dont l’origine est une construction en roumain]]
+
+== {{langue|sv}} ==
+=== {{S|étymologie}} ===
+: Du {{étylp|sr|sv|mot=Београд|tr=Beograd}}.
+
+=== {{S|nom propre|sv}} ===
+'''Belgrad''' {{pron||sv}}
+# {{capitales|sv|pays=de Serbie}} {{lien|Belgrade|fr}}, capitale de la Serbie.
+#* {{exemple|lang=sv}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=sv}}
+
+[[Catégorie:Toponymes dont l’origine est une couleur en suédois]]
+[[Catégorie:Toponymes dont l’origine est une construction en suédois]]
+
+== {{langue|tr}} ==
+=== {{S|étymologie}} ===
+: Du {{étylp|sr|tr|mot=Београд|tr=Beograd}}.
+
+=== {{S|nom propre|tr}} ===
+'''Belgrad''' {{pron||tr}}
+# {{capitales|tr|pays=de Serbie}} {{lien|Belgrade|fr}}, capitale de la Serbie.
+#* {{exemple|lang=tr}}
+
+=== {{S|prononciation}} ===
+* {{écouter|Izmir (Turquie)||lang=tr|audio=LL-Q256 (tur)-ToprakM-Belgrad.wav}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=tr}}
+
+[[Catégorie:Toponymes dont l’origine est une couleur en turc]]
+[[Catégorie:Toponymes dont l’origine est une construction en turc]]

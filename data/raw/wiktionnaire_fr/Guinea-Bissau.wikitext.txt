@@ -1,0 +1,352 @@
+{{voir/guinea-bissau}}
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw}}
+
+=== {{S|nom propre|gsw}} ===
+'''Guinea-Bissau''' {{pron||gsw}}
+# [[Guinée-Bissau#fr|Guinée-Bissau]] (pays d’[[Afrique]]).
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=gsw}}
+[[Catégorie:Pays en alémanique]]
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|de}}
+
+=== {{S|nom propre|de}} ===
+'''Guinea-Bissau''' {{pron||de}}
+# [[Guinée-Bissau#fr|Guinée-Bissau]] (pays d’[[Afrique]]).
+[[Catégorie:Pays d’Afrique en allemand]]
+
+== {{langue|en}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|en}}
+
+=== {{S|nom propre|en}} ===
+'''Guinea-Bissau''' {{pron||en}}
+# [[Guinée-Bissau#fr|Guinée-Bissau]] (pays d’[[Afrique]]).
+
+=== {{S|prononciation}} ===
+* {{écouter|Londres (Royaume-Uni)||lang=en|audio=LL-Q1860 (eng)-Soundguys-Guinea-Bissau.wav}}
+[[Catégorie:Pays d’Afrique en anglais]]
+
+== {{langue|an}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|an}}
+
+=== {{S|nom propre|an}} ===
+'''Guinea-Bissau''' {{pron||an}}
+# [[Guinée-Bissau#fr|Guinée-Bissau]] (pays d’[[Afrique]]).
+[[Catégorie:Pays en aragonais]]
+
+== {{langue|nds}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|nds}}
+
+=== {{S|nom propre|nds}} ===
+'''Guinea-Bissau''' {{pron||nds}}
+# [[Guinée-Bissau#fr|Guinée-Bissau]] (pays d’[[Afrique]]).
+[[Catégorie:Pays d’Afrique en bas allemand]]
+
+== {{langue|ceb}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|ceb}}
+
+=== {{S|nom propre|ceb}} ===
+'''Guinea-Bissau''' {{pron||ceb}}
+# [[Guinée-Bissau#fr|Guinée-Bissau]] (pays d’[[Afrique]]).
+[[Catégorie:Pays en cebuano]]
+
+== {{langue|co}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|co}}
+
+=== {{S|nom propre|co}} ===
+'''Guinea-Bissau''' {{pron||co}}
+# [[Guinée-Bissau#fr|Guinée-Bissau]] (pays d’[[Afrique]]).
+[[Catégorie:Pays en corse]]
+
+== {{langue|da}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|da}}
+
+=== {{S|nom propre|da}} ===
+'''Guinea-Bissau''' {{pron||da}}
+# [[Guinée-Bissau#fr|Guinée-Bissau]] (pays d’[[Afrique]]).
+[[Catégorie:Pays d’Afrique en danois]]
+
+== {{langue|es}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|es}}
+
+=== {{S|nom propre|es}} ===
+'''Guinea-Bissau''' {{pron||es}}
+# [[Guinée-Bissau#fr|Guinée-Bissau]] (pays d’[[Afrique]]).
+[[Catégorie:Pays d’Afrique en espagnol]]
+
+== {{langue|et}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|et}}
+
+=== {{S|nom propre|et}} ===
+'''Guinea-Bissau''' {{pron||et}}
+# [[Guinée-Bissau#fr|Guinée-Bissau]] (pays d’[[Afrique]]).
+[[Catégorie:Pays d’Afrique en estonien]]
+
+== {{langue|fo}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|fo}}
+
+=== {{S|nom propre|fo}} ===
+'''Guinea-Bissau''' {{pron||fo}}
+# [[Guinée-Bissau#fr|Guinée-Bissau]] (pays d’[[Afrique]]).
+[[Catégorie:Pays en féroïen]]
+
+== {{langue|fi}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|fi}}
+
+=== {{S|nom propre|fi}} ===
+'''Guinea-Bissau''' {{pron|ˈɡuineɑˌbisːɑu|fi}}
+# [[Guinée-Bissau#fr|Guinée-Bissau]] (pays d’[[Afrique]]).
+#* {{exemple|lang=fi}}
+
+==== {{S|dérivés}} ====
+* {{lien|guineabissaulainen|fi}} — Bissau-Guinéen, Bissau-Guinéenne
+
+[[Catégorie:Pays d’Afrique en finnois]]
+
+== {{langue|stq}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|stq}}
+
+=== {{S|nom propre|stq}} ===
+'''Guinea-Bissau''' {{pron||stq}}
+# [[Guinée-Bissau#fr|Guinée-Bissau]] (pays d’[[Afrique]]).
+[[Catégorie:Pays en frison saterlandais]]
+
+== {{langue|id}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|id}}
+
+=== {{S|nom propre|id}} ===
+'''Guinea-Bissau''' {{pron||id}}
+# [[Guinée-Bissau#fr|Guinée-Bissau]] (pays d’[[Afrique]]).
+#* {{exemple|lang=id}}
+[[Catégorie:Pays d’Afrique en indonésien]]
+
+== {{langue|ia}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|ia}}
+
+=== {{S|nom propre|ia}} ===
+'''Guinea-Bissau''' {{pron||ia}}
+# [[Guinée-Bissau#fr|Guinée-Bissau]] (pays d’[[Afrique]]).
+[[Catégorie:Pays en interlingua]]
+
+== {{langue|ie}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|ie}}
+
+=== {{S|nom propre|ie}} ===
+'''Guinea-Bissau''' {{pron||ie}}
+# [[Guinée-Bissau#fr|Guinée-Bissau]] (pays d’[[Afrique]]).
+[[Catégorie:Pays en interlingue]]
+
+== {{langue|it}} ==
+=== {{S|étymologie}} ===
+: Dérivé de [[Guinea#it|Guinea]] avec adjonction du nom de la capitale [[Bissau]].
+
+=== {{S|nom propre|it}} ===
+'''Guinea-Bissau''' {{pron|ɡwiˈ.nɛa bis.ˈsau|it}} {{f}}
+# [[Guinée-Bissau#fr|Guinée-Bissau]] (pays d’[[Afrique]]).
+
+==== {{S|gentilés}} ====
+* [[guineense#it|guineense]]
+
+=== {{S|voir aussi}} ===
+*{{WP|lang=it}}
+*[[Annexe:Pays et leurs gentilés en italien]]
+
+[[Catégorie:Pays d’Afrique en italien]]
+
+== {{langue|jv}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|jv}}
+
+=== {{S|nom propre|jv}} ===
+'''Guinea-Bissau''' {{pron||jv}}
+# [[Guinée-Bissau#fr|Guinée-Bissau]] (pays d’[[Afrique]]).
+[[Catégorie:Pays en javanais]]
+
+== {{langue|pam}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|pam}}
+
+=== {{S|nom propre|pam}} ===
+'''Guinea-Bissau''' {{pron||pam}}
+# [[Guinée-Bissau#fr|Guinée-Bissau]] (pays d’[[Afrique]]).
+[[Catégorie:Pays en kapampangan]]
+
+== {{langue|lmo}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|lmo}}
+
+=== {{S|nom propre|lmo}} ===
+'''Guinea-Bissau''' {{pron||lmo}}
+# [[Guinée-Bissau#fr|Guinée-Bissau]] (pays d’[[Afrique]]).
+[[Catégorie:Pays en lombard]]
+
+== {{langue|lb}} ==
+=== {{S|étymologie}} ===
+: Mot {{composé de|lang=lb|Guinea|Bissau}}.
+
+=== {{S|nom propre|lb}} ===
+{{lb-inv|ɡinˈeːaːbisˈɑʊ|inv_titre=Nom propre}}
+'''Guinea-Bissau''' {{pron|ɡinˈeːaːbisˈɑʊ|lb}} {{n}}
+# {{pays|lb|d’Afrique|pays=Guinée-Bissau|clé=*}} {{lien|Guinée-Bissau|fr}}.
+#* {{exemple|lang=lb}}
+
+==== {{S|gentilés}} ====
+* {{lien|Guinea-Bissauer|lb}}, {{lien|Guinea-Bissauerin|lb}}
+* {{lien|guinea-bissauesch|lb}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=lb}}
+
+=== {{S|références}} ===
+: {{R:LOD}}
+
+== {{langue|ms}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|ms}}
+
+=== {{S|nom propre|ms}} ===
+'''Guinea-Bissau''' {{pron||ms}}
+# [[Guinée-Bissau#fr|Guinée-Bissau]] (pays d’[[Afrique]]).
+[[Catégorie:Pays d’Afrique en malais]]
+
+== {{langue|na}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|na}}
+
+=== {{S|nom propre|na}} ===
+'''Guinea-Bissau''' {{pron||na}}
+# [[Guinée-Bissau#fr|Guinée-Bissau]] (pays d’[[Afrique]]).
+[[Catégorie:Pays en nauruan]]
+
+== {{langue|no}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|no}}
+
+=== {{S|nom propre|no}} ===
+'''Guinea-Bissau''' {{pron||no}}
+# [[Guinée-Bissau#fr|Guinée-Bissau]] (pays d’[[Afrique]]).
+[[Catégorie:Pays d’Afrique en norvégien]]
+
+== {{langue|nn}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|nn}}
+
+=== {{S|nom propre|nn}} ===
+'''Guinea-Bissau''' {{pron||nn}}
+# [[Guinée-Bissau#fr|Guinée-Bissau]] (pays d’[[Afrique]]).
+[[Catégorie:Pays d’Afrique en norvégien (nynorsk)]]
+
+== {{langue|pms}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|pms}}
+
+=== {{S|nom propre|pms}} ===
+'''Guinea-Bissau''' {{pron||pms}}
+# [[Guinée-Bissau#fr|Guinée-Bissau]] (pays d’[[Afrique]]).
+[[Catégorie:Pays en piémontais]]
+
+== {{langue|se}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|se}}
+
+=== {{S|nom propre|se}} ===
+{{se-décl-sing|accgén=Guinea-Bissau |ill=Guinea-Bissauii|locsép=Guinea-Bissaus|com=Guinea-Bissauin|ess=}}
+'''Guinea-Bissau''' {{phono|ˈɡujneæ̯bisːɑu|se}}
+# {{lien|Guinée-Bissau|fr}} (pays d’{{lien|Afrique}}).
+#* {{exemple|'''Guinea-Bissau''' dahjege '''Guinea-Bissau''' dásseváldi lea riika Afrihkás. Riikka oaivegávpot lea Bissau.|source={{WP|Guinea-Bissau|lang=se}}
+|La Guinée-Bissau ou république de Guinée Bissau est un pays d'Afrique. La capitale en est Bissau.|lang=se}}
+
+=== {{S|nom|se|flexion}} ===
+'''Guinea-Bissau''' {{phono|ˈɡujneæ̯bisːɑu|se}}
+# ''Génitif singulier de'' {{lien|Guinea-Bissau|se}}.
+# ''Accusatif singulier de ''{{lien|Guinea-Bissau|se}}.
+
+[[Catégorie:Pays en same du Nord]]
+
+== {{langue|sc}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|sc}}
+
+=== {{S|nom propre|sc}} ===
+'''Guinea-Bissau''' {{pron||sc}}
+# [[Guinée-Bissau#fr|Guinée-Bissau]] (pays d’[[Afrique]]).
+[[Catégorie:Pays en sarde]]
+
+== {{langue|sk}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|sk}}
+
+=== {{S|nom propre|sk}} ===
+'''Guinea-Bissau''' {{pron||sk}}
+# [[Guinée-Bissau#fr|Guinée-Bissau]] (pays d’[[Afrique]]).
+[[Catégorie:Pays d’Afrique en slovaque]]
+
+== {{langue|sv}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|sv}}
+
+=== {{S|nom propre|sv}} ===
+'''Guinea-Bissau''' {{pron||sv}}
+# [[Guinée-Bissau#fr|Guinée-Bissau]] (pays d’[[Afrique]]).
+
+=== {{S|prononciation}} ===
+* {{écouter|Suède||lang=sv|audio=LL-Q9027 (swe)-Moonhouse-Guinea-Bissau.wav}}
+[[Catégorie:Pays d’Afrique en suédois]]
+
+== {{langue|tl}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|tl}}
+
+=== {{S|nom propre|tl}} ===
+'''Guinea-Bissau''' {{pron||tl}}
+# [[Guinée-Bissau#fr|Guinée-Bissau]] (pays d’[[Afrique]]).
+[[Catégorie:Pays en tagalog]]
+
+== {{langue|cs}} ==
+=== {{S|étymologie}} ===
+: De ''[[Guinea#cs|Guinea]]'' et ''[[Bissau]]'', le nom de la capitale a été ajouté pour éviter les confusions avec la République de Guinée.
+
+=== {{S|nom propre|cs}} ===
+'''Guinea-Bissau''' {{pron||cs}} {{f}}
+# [[Guinée-Bissau]].
+#* {{exemple|lang=cs}}
+[[Catégorie:Pays d’Afrique en tchèque]]
+
+== {{langue|vec}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|vec}}
+
+=== {{S|nom propre|vec}} ===
+'''Guinea-Bissau''' {{pron||vec}}
+# [[Guinée-Bissau#fr|Guinée-Bissau]] (pays d’[[Afrique]]).
+[[Catégorie:Pays en vénitien]]
+
+== {{langue|yo}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|yo}}
+
+=== {{S|nom propre|yo}} ===
+'''Guinea-Bissau''' {{pron||yo}}
+# [[Guinée-Bissau#fr|Guinée-Bissau]] (pays d’[[Afrique]]).
+[[Catégorie:Pays en yoruba]]
+
+{{clé de tri|guinea bissau}}

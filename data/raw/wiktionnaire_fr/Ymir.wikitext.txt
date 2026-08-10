@@ -1,0 +1,334 @@
+{{voir|Ýmir}}
+
+== {{langue|fr}} ==
+
+=== {{S|étymologie}} ===
+: {{laé|fr|nom-pr|1}} {{info lex|mythologie}} De l’{{étylp|is|fr|mot=Ýmir}}.
+: {{laé|fr|nom-pr|2}}  {{info lex|astronomie}} ''(2003)'' Du nom du géant.
+
+=== {{S|nom propre|fr|num=1}} ===
+'''Ymir''' {{pron|i.miʁ|fr}} {{m}}
+# {{lexique|mythologie nordique|fr}} [[géant|Géant]] [[primordial]], du [[cadavre]] duquel la [[Terre]] est [[issue]]. Il est né de la rencontre des [[glaçon]]s de {{w|Niflheim}} et des rayons de {{w|Muspellheim}}. Il est le père des {{w|jötnar}}, les [[géant]]s en [[lutte]] avec les [[dieu]]x.
+
+===={{S|apparentés}}====
+*[[ymer]]
+
+=== {{S|nom propre|fr|num=2}} ===
+'''Ymir''' {{pron|i.miʁ|fr}} {{m}} {{s}}
+# [[satellite|Satellite]] [[naturel]] de la [[planète]] [[Saturne]].
+<!--- ordre alphabétique --->
+{{ListeFin|avant=[[Titan]]|liste=[[Annexe:Système solaire en français|Satellites naturels de Saturne]]}}
+
+==== {{S|synonymes}} ====
+* [[S/2000 S 1]]
+* [[Saturne XIX]]
+
+==== {{S|hyperonymes}} ====
+* [[lune]]
+
+==== {{S|holonymes}} ====
+* [[Saturne]]
+
+==== {{S|traductions}} ====
+{{trad-début|Lune de Saturne}}
+* {{T|af}} : {{trad-|af|Ymir}}
+* {{T|de}} : {{trad+|de|Ymir}}
+* {{T|en}} : {{trad+|en|Ymir}}
+* {{T|ast}} : {{trad-|ast|Ymir}}
+* {{T|nds}} : {{trad-|nds|Ymir}}
+* {{T|eu}} : {{trad-|eu|Imir}}
+* {{T|bs}} : {{trad-|bs|Imir}}
+* {{T|br}} : {{trad-|br|Ymir}}
+* {{T|bg}} : {{trad-|bg|Имир|tr=Imir}}
+* {{T|ca}} : {{trad-|ca|Imir}}
+* {{T|zh}} : {{trad-|zh|土星十九|R=Tǔxīng shíjiǔ}}
+* {{T|ko}} : {{trad-|ko|이미르|tr=Imileu}}
+* {{T|hr}} : {{trad-|hr|Ymir}}
+* {{T|da}} : {{trad-|da|Ymer}}
+* {{T|es}} : {{trad-|es|Ymir}}
+* {{T|eo}} : {{trad-|eo|Imiro}}
+* {{T|fi}} : {{trad+|fi|Ymir}}
+* {{T|gl}} : {{trad+|gl|Ymir}}
+* {{T|el}} : {{trad-|el|Υμίρ|R=Ymír}}
+* {{T|he}} : {{trad-|he|יימיר}}
+* {{T|is}} : {{trad+|is|Ýmir}}
+* {{T|it}} : {{trad-|it|Ymir}}
+* {{T|ja}} : {{trad-|ja|ユミル|tr=Yumiru}}
+* {{T|la}} : {{trad-|la|Ymir}}
+* {{T|lt}} : {{trad-|lt|Imiras}}
+* {{T|nl}} : {{trad-|nl|Ymir}}
+* {{T|no}} : {{trad-|no|Ymir}}
+* {{T|nn}} : {{trad-|no|Ymir}}
+* {{T|pl}} : {{trad-|pl|Imir}}
+* {{T|pt}} : {{trad-|pt|Ymir}}
+* {{T|ro}} : {{trad-|ro|Ymir}}
+* {{T|ru}} : {{trad-|ru|Имир|tr=Imir}}
+* {{T|sh}} : {{trad-|sh|Ymir}}
+* {{T|sk}} : {{trad-|sk|Ymir}}
+* {{T|sl}} : {{trad-|sl|Imir}}
+* {{T|sv}} : {{trad-|sv|Ymir}}
+* {{T|cs}} : {{trad-|cs|Ymir}}
+* {{T|tr}} : {{trad-|tr|Ymir}}
+* {{T|uk}} : {{trad-|uk|Імір|R=Imir}}
+* {{T|vi}} : {{trad-|vi|Ymir}}
+{{trad-fin}}
+
+=== {{S|voir aussi}} ===
+* {{WP|Ymir|titre=Ymir (le géant)}}
+* {{WP|Ymir (lune)|titre=Ymir (la lune)}}
+
+[[Catégorie:Divinités nordiques en français]]
+[[Catégorie:Satellites en français]]
+
+=== {{S|références}} ===
+* Inspiré du ''Dictionnaire encyclopédique Quillet'', Paris, 1934.
+
+== {{langue|af}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étylp|is|af|mot=Ýmir}}.
+
+=== {{S|nom propre|af}} ===
+'''Ymir''' {{pron||af}}
+# {{satellites|af}} [[Ymir#fr|Ymir]] (satellite naturel de Saturne).
+#* {{exemple|lang=af}}
+
+== {{langue|gsw}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étylp|is|gsw|mot=Ýmir}}.
+
+=== {{S|nom propre|gsw}} ===
+'''Ymir''' {{pron||gsw}}
+# {{lexique|mythologie|gsw}} [[Ymir#fr|Ymir]] (géant de la mythologie nordique).
+# {{satellites|gsw}} [[Ymir#fr|Ymir]] (satellite naturel de Saturne).
+
+== {{langue|de}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étylp|is|de|mot=Ýmir}}.
+
+=== {{S|nom propre|de}} ===
+'''Ymir''' {{pron||de}}
+# {{lexique|mythologie|de}} [[Ymir#fr|Ymir]] (géant de la mythologie nordique).
+# {{satellites|de}} [[Ymir#fr|Ymir]] (satellite naturel de Saturne).
+
+== {{langue|en}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étylp|is|en|mot=Ýmir}}.
+
+=== {{S|nom propre|en}} ===
+'''Ymir''' {{pron||en}}
+# {{lexique|mythologie|en}} [[Ymir#fr|Ymir]] (géant de la mythologie nordique).
+# {{satellites|en}} [[Ymir#fr|Ymir]] (satellite naturel de Saturne).
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=en}}
+
+== {{langue|ast}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étylp|is|ast|mot=Ýmir}}.
+
+=== {{S|nom propre|ast}} ===
+'''Ymir''' {{pron||ast}}
+# {{satellites|ast}} [[Ymir#fr|Ymir]] (satellite naturel de Saturne).
+
+== {{langue|nds}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étylp|is|nds|mot=Ýmir}}.
+
+=== {{S|nom propre|nds}} ===
+'''Ymir''' {{pron||nds}}
+# {{satellites|nds}} [[Ymir#fr|Ymir]] (satellite naturel de Saturne).
+
+== {{langue|br}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étylp|is|br|mot=Ýmir}}.
+
+=== {{S|nom propre|br}} ===
+'''Ymir''' {{pron||br}}
+# {{satellites|br}} [[Ymir#fr|Ymir]] (satellite naturel de Saturne).
+
+== {{langue|hr}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étylp|is|hr|mot=Ýmir}}.
+
+=== {{S|nom propre|hr}} ===
+'''Ymir''' {{pron||hr}}
+# {{satellites|hr}} [[Ymir#fr|Ymir]] (satellite naturel de Saturne).
+
+== {{langue|es}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étylp|is|es|mot=Ýmir}}.
+
+=== {{S|nom propre|es}} ===
+'''Ymir''' {{pron||es}}
+# {{lexique|mythologie|es}} [[Ymir#fr|Ymir]] (géant de la mythologie nordique).
+# {{satellites|es}} [[Ymir#fr|Ymir]] (satellite naturel de Saturne).
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=es}}
+
+== {{langue|fi}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étylp|is|fi|mot=Ýmir}}.
+
+=== {{S|nom propre|fi}} ===
+'''Ymir''' {{pron||fi}}
+# {{lexique|mythologie|fi}} [[Ymir#fr|Ymir]] (géant de la mythologie nordique).
+# {{satellites|fi}} [[Ymir#fr|Ymir]] (satellite naturel de Saturne).
+
+== {{langue|gl}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étyl|es|gl|mot=Ýmir}}.
+
+=== {{S|nom propre|gl}} ===
+'''Ymir''' {{pron||gl}}
+# {{lexique|mythologie|gl}} [[Ymir#fr|Ymir]] (géant de la mythologie nordique).
+# {{satellites|gl}} [[Ymir#fr|Ymir]] (satellite naturel de Saturne).
+
+== {{langue|is}} ==
+
+=== {{S|étymologie}} ===
+: Variante de ''{{lien|Ýmir|is}}''.
+
+=== {{S|prénom|is|genre=m}} ===
+{{is-décl-prénom|a=Ymi|d=Ymi|g=Ymis}}
+'''Ymir''' {{pron||is}} {{m}}
+# Prénom masculin.
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=is}}
+
+== {{langue|it}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étylp|is|it|mot=Ýmir}}.
+
+=== {{S|nom propre|it}} ===
+'''Ymir''' {{pron||it}}
+# {{lexique|mythologie|it}} [[Ymir#fr|Ymir]] (géant de la mythologie nordique).
+# {{satellites|it}} [[Ymir#fr|Ymir]] (satellite naturel de Saturne).
+
+== {{langue|la}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étylp|is|la|mot=Ýmir}}.
+
+=== {{S|nom propre|la}} ===
+'''Ymir''' {{pron||la}}
+# {{satellites|la}} [[Ymir#fr|Ymir]] (satellite naturel de Saturne).
+
+== {{langue|nl}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étylp|is|nl|mot=Ýmir}}.
+
+=== {{S|nom propre|nl}} ===
+'''Ymir''' {{pron||nl}}
+# {{lexique|mythologie|nl}} [[Ymir#fr|Ymir]] (géant de la mythologie nordique).
+# {{satellites|nl}} [[Ymir#fr|Ymir]] (satellite naturel de Saturne).
+
+== {{langue|no}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étyl|non|no}} qui donne l’islandais ''{{lien|Ýmir|is}}''.
+
+=== {{S|nom propre|no}} ===
+'''Ymir''' {{pron||no}}
+# {{satellites|no}} [[Ymir#fr|Ymir]] (satellite naturel de Saturne).
+
+== {{langue|nn}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étyl|no|nn|mot=Ýmir}}.
+
+=== {{S|nom propre|nn}} ===
+'''Ymir''' {{pron||nn}}
+# {{satellites|nn}} [[Ymir#fr|Ymir]] (satellite naturel de Saturne).
+
+== {{langue|pt}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étylp|is|pt|mot=Ýmir}}.
+
+=== {{S|nom propre|pt}} ===
+'''Ymir''' {{pron||pt}}
+# {{lexique|mythologie|pt}} [[Ymir#fr|Ymir]] (géant de la mythologie nordique).
+# {{satellites|pt}} [[Ymir#fr|Ymir]] (satellite naturel de Saturne).
+
+== {{langue|ro}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étylp|is|ro|mot=Ýmir}}.
+
+=== {{S|nom propre|ro}} ===
+'''Ymir''' {{pron||ro}}
+# {{satellites|ro}} [[Ymir#fr|Ymir]] (satellite naturel de Saturne).
+
+== {{langue|sh}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étylp|is|sh|mot=Ýmir}}.
+
+=== {{S|nom propre|sh}} ===
+'''Ymir''' {{pron||sh}}
+# {{lexique|mythologie|sh}} [[Ymir#fr|Ymir]] (géant de la mythologie nordique).
+# {{satellites|sh}} [[Ymir#fr|Ymir]] (satellite naturel de Saturne).
+
+== {{langue|sk}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étylp|is|sk|mot=Ýmir}}.
+
+=== {{S|nom propre|sk}} ===
+'''Ymir''' {{pron||sk}}
+# {{satellites|sk}} [[Ymir#fr|Ymir]] (satellite naturel de Saturne).
+
+== {{langue|sv}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étyl|is|sv|mot=Ýmir}}, apparenté à ''{{lien|Ymer|sv}}''.
+
+=== {{S|nom propre|sv}} ===
+'''Ymir''' {{pron||sv}}
+# {{satellites|sv}} [[Ymir#fr|Ymir]] (satellite naturel de Saturne).
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=sv}}
+
+== {{langue|cs}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étylp|is|cs|mot=Ýmir}}.
+
+=== {{S|nom propre|cs}} ===
+'''Ymir''' {{pron||cs}}
+# {{lexique|mythologie|cs}} [[Ymir#fr|Ymir]] (géant de la mythologie nordique).
+# {{satellites|cs}} [[Ymir#fr|Ymir]] (satellite naturel de Saturne).
+
+== {{langue|tr}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étylp|is|tr|mot=Ýmir}}.
+
+=== {{S|nom propre|tr}} ===
+'''Ymir''' {{pron||tr}}
+# {{satellites|tr}} [[Ymir#fr|Ymir]] (satellite naturel de Saturne).
+
+== {{langue|vi}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étylp|is|vi|mot=Ýmir}}.
+
+=== {{S|nom propre|vi}} ===
+'''Ymir''' {{pron||vi}}
+# {{satellites|vi}} [[Ymir#fr|Ymir]] (satellite naturel de Saturne).

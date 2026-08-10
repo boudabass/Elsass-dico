@@ -1,0 +1,61 @@
+{{voir|Moldàwien}}
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw}}
+
+=== {{S|nom propre|gsw}} ===
+'''Moldawien''' {{pron||gsw}}
+# [[Moldavie]] (pays d’[[Europe]]).
+
+[[Catégorie:Pays en alémanique]]
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|de}}
+
+=== {{S|nom propre|de}} ===
+'''Moldawien''' {{pron||de}}
+# [[Moldavie]] (pays d’[[Europe]]).
+
+=== {{S|prononciation}} ===
+* {{écouter|||lang=de|audio=De-Moldawien.ogg}}
+
+
+[[Catégorie:Pays d’Europe en allemand]]
+
+== {{langue|nds}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|nds}}
+
+=== {{S|nom propre|nds}} ===
+'''Moldawien''' {{pron||nds}}
+# [[Moldavie]] (pays d’[[Europe]]).
+
+[[Catégorie:Pays d’Europe en bas allemand]]
+
+== {{langue|lb}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|lb}}
+
+=== {{S|nom propre|lb}} ===
+{{lb-inv-en|pron=moldˈaːviən|inv_titre=Nom propre}}
+'''Moldawien''' {{pron|moldˈaːviən|lb}} {{n}}
+# {{pays|lb|d’Europe|pays=Moldavie|clé=*}} {{lien|Moldavie|fr}} (pays d’[[Europe]]).
+#* {{exemple|lang=lb}}
+
+==== {{S|notes}} ====
+* {{lb-n|np=oui}}
+
+==== {{S|gentilés}} ====
+* {{lien|Moldawier|lb}}, {{lien|Moldawierin|lb}}
+* {{lien|moldawesch|lb}}
+
+==== {{S|synonymes}} ====
+* {{lien|Republik Moldau|lb}}
+
+=== {{S|prononciation}} ===
+* {{pron|moldˈaːviən|lb}}
+* {{écouter|lang=lb|Luxembourg (Diekirch)|moldˈaːviən|audio=LL-Q9051 (ltz)-Robby-Moldawien.wav}}
+
+=== {{S|références}} ===
+: {{R:LOD}}

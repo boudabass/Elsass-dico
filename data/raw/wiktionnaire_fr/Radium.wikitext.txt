@@ -1,0 +1,68 @@
+{{voir/radium}}
+
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw}}
+
+=== {{S|nom|gsw}} ===
+'''Radium''' {{pron||gsw}}
+# {{éléments|gsw}} {{métaux|gsw}} [[radium|Radium]].
+{{clr}}
+==== {{S|vocabulaire}} ====
+{{tableau périodique/gsw}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=gsw}}
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: De {{lien|''Radius''|de}}{{R|Duden|Radium}} ou du {{étyl|fr|de|mot=radium}}.
+
+=== {{S|nom|de}} ===
+{{légende élément/de|Ra}}
+'''Radium''' {{pron|ʀaːdi̯ʊm|de}} {{n}} {{au singulier uniquement|de}}
+# {{éléments|de}} {{métaux|de}} [[radium#fr|Radium]].
+#* {{exemple|lang=de}}
+
+==== {{S|dérivés}} ====
+* {{lien|Radiumbehandlung|de}}
+* {{lien|Radiumbestrahlung|de}}
+* {{lien|Radiumemanation|de}}
+* {{lien|Radiumstrahlen|de}}
+* {{lien|Radiumtherapie|de}}
+* {{lien|radiumhaltig|de}}
+{{clr}}
+
+==== {{S|vocabulaire}} ====
+* {{voir thésaurus|de|tableau périodique des éléments}}
+{{tableau périodique/de}}
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=de|Autriche|ʀaːdi̯ʊm|audio=De-at-Radium.ogg}}
+* {{écouter|lang=de|Allemagne (Berlin)|ʀaːdi̯ʊm|audio=LL-Q188 (deu)-Lucas Werkmeister-Radium.wav}}
+* {{écouter|lang=de|Allemagne (Berlin)|ʀaːdi̯ʊm|audio=LL-Q188 (deu)-Sebastian Wallroth-Radium.wav}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=de}}
+
+=== {{S|références}} ===
+{{Références}}
+
+== {{langue|lb}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|lb}}
+
+=== {{S|nom|lb}} ===
+{{lb-inv|ʀˈaːdi̯um}}
+'''Radium''' {{pron|ʀˈaːdi̯um|lb}} {{m}}, {{au singulier uniquement|lb}}
+# {{éléments|lb}} {{métaux|lb}} [[radium#fr|Radium]].
+#* {{exemple|lang=lb}}
+{{clr}}
+==== {{S|vocabulaire}} ====
+{{tableau périodique/lb}}
+
+=== {{S|références}} ===
+: {{R:LOD}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=lb}}

@@ -1,0 +1,72 @@
+{{voir|actinium}}
+
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw}}
+
+=== {{S|nom|gsw}} ===
+'''Actinium''' {{pron||gsw}} {{genre|gsw}}
+# {{éléments|gsw}} {{métaux|gsw}} [[actinium#fr|Actinium]].
+{{clr}}
+==== {{S|vocabulaire}} ====
+{{tableau périodique/gsw}}
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|de}}
+
+=== {{S|nom|de}} ===
+{{de-nom-n-sing}}
+{{légende élément/de|Ac|Em}}
+'''Actinium''' {{pron|akˈtiːni̯ʊm|de}} {{n}} {{au singulier uniquement|de}}
+# {{éléments|de}} {{métaux|de}} [[actinium#fr|Actinium]] (l’{{lien|élément chimique}} [[Ac#conv|Ac]]).
+
+==== {{S|synonymes}} ====
+* {{lien|Emanium|de}}
+
+==== {{S|dérivés}} ====
+* {{lien|Actinid|de}} {{désuet|nocat=1}}
+* {{lien|Actinoid|de}}
+* {{lien|Protoactinium|de}}, {{lien|Protactinium|de}}
+* {{lien|Radioactinium|de}}
+{{clr}}
+==== {{S|vocabulaire}} ====
+* {{voir thésaurus|de|tableau périodique des éléments}}
+{{tableau périodique/de}}
+{{Liste|avant={{lien|Radium|de}}<br>([[Ra#conv|Ra]])|après={{lien|Thorium|de}}<br>([[Th#conv|Th]])|liste=[[Thésaurus:tableau périodique des éléments/allemand|Éléments chimiques en allemand]]}}
+
+==== {{S|prononciation}} ====
+* {{pron|akˈtiːni̯ʊm|de}}
+* {{écouter||akˈtiːni̯ʊm|lang=de|audio=De-Actinium.ogg}}
+* {{écouter|lang=de|Allemagne (Berlin)|audio=LL-Q188 (deu)-Lucas Werkmeister-Actinium.wav}}
+* {{écouter|lang=de|Allemagne (Berlin)|audio=LL-Q188 (deu)-Sebastian Wallroth-Actinium.wav}}
+
+=== {{S|voir aussi}} ===
+* {{Vikidia|lang=de}}
+* {{WP|lang=de}}
+
+== {{langue|lb}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|lb}}
+
+=== {{S|nom|lb}} ===
+{{lb-inv|ɑktˈiːni̯um}}
+'''Actinium''' {{pron|ɑktˈiːni̯um|lb}} {{m}}, {{au singulier uniquement|lb}}
+# {{éléments|lb}} {{métaux|lb}} [[actinium#fr|Actinium]].
+#* {{exemple|lang=lb}}
+
+==== {{S|variantes orthographiques}} ====
+* {{lien|Aktinium|lb}}
+{{clr}}
+
+==== {{S|vocabulaire}} ====
+{{tableau périodique/lb}}
+
+=== {{S|prononciation}} ===
+* {{écouter|Angers (France)||niveau=bon|lang=lb|audio=LL-Q9051 (ltz)-Procrastineur49-Actinium.wav}}
+
+=== {{S|références}} ===
+: {{R:LOD}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=lb}}

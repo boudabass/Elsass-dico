@@ -1,0 +1,23 @@
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: Issu de la {{contraction|gsw|de=Gott grüez-i|nolien=oui}}.
+
+=== {{S|interjection|gsw}} ===
+'''grüezi''' {{pron|ˈɡ̊ryə̯t͡sɪ|gsw}}
+# {{Suisse|gsw}} [[bonjour|Bonjour]].
+
+==== {{S|synonymes}} ====
+* [[grüessech]]
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|gsw|de|grüezi}}, lui-même issu de la {{contraction|gsw|de=Gott grüez-i|nolien=oui}}
+
+=== {{S|interjection|de}} ===
+'''grüezi''' {{pron|ˈɡ̊ryə̯t͡sɪ|de}}
+# {{Suisse|de}} [[bonjour|Bonjour]].
+
+==== {{S|synonymes}} ====
+* [[grüessech]]
+* [[guten Tag]]
+* [[grüß Gott]]

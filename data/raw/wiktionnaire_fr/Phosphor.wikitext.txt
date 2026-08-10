@@ -1,0 +1,67 @@
+{{voir|phosphor}}
+
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw}}
+
+=== {{S|nom|gsw}} ===
+'''Phosphor''' {{pron||gsw}}
+# {{éléments|gsw}} [[phosphore|Phosphore]].
+{{clr}}
+==== {{S|vocabulaire}} ====
+{{tableau périodique/gsw}}
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|de}}
+
+=== {{S|nom|de}} ===
+{{légende élément/de|P}}
+[[Image:PhosphComby.jpg|thumb|'''Phosphor'''.]]
+'''Phosphor''' {{pron|ˈfɔsfoːɐ̯|de}}
+# {{éléments|de}} [[phosphore#fr|Phosphore]] (l’{{lien|élément chimique}} [[P#conv|P]]).
+#* {{exemple|Stickstoff- und '''Phosphor'''überschüsse aus der Landwirtschaft (..) werden in Seen und Meere ausgewaschen. Dort führen sie zu einer Überdüngung.|lang=de|sens=Les apports d’azote et de phosphore provenant de l’agriculture (..) parviennent dans les lacs et les océans et y provoquent une surfertilisation.|source={{ouvrage|auteur=Schweizerischer Bundesrat|titre=Umwelt Schweiz 2018|année=2018|éditeur=|url=https://www.bafu.admin.ch/dam/bafu/de/dokumente/allgemein/uz-umwelt-zustand/umwelt-schweiz-2018.pdf.download.pdf/Umweltbericht2018_D.pdf}}}}
+#* {{exemple|In den ersten Monaten geht dieser Zustand oft mit Appetitmangel und häufigem Erbrechen einher (…, der Organismus) wird ärmer an '''Phosphor''', Kalzium und Eisen, wobei vor allem der Eisenmangel in der Folge schwer auszugleichen ist.|lang=de|sens=Elle s’accompagne souvent dans les premiers mois d’un manque d’appétit et de vomissements (…, l’organisme) s’appauvrit en phosphore, en calcium, en fer, ce dernier déficit étant par la suite difficile à combler. |source={{ouvrage|auteur={{w|Simone de Beauvoir}}|trad=Uli Aumüller et Grete Osterwald |titre=Das andere Geschlecht|année=1992|éditeur=Rowohlt Verlag }}}}
+
+==== {{S|dérivés}} ====
+* {{lien|Phosphoreszenz|de}}
+* {{lien|phosphorig|de}}
+* {{lien|Phosphorsäure|de}}
+* {{lien|Phosphortrophierung|de}}
+* {{lien|Phosphorvergiftung|de}}
+{{clr}}
+==== {{S|vocabulaire}} ====
+* {{voir thésaurus|de|tableau périodique des éléments}}
+{{tableau périodique/de}}
+{{Liste|avant={{lien|Silicium|de}} ou {{lien|Silizium|de}}<br>([[Si#conv|Si]])|après={{lien|Schwefel|de}} ou {{lien|Sulfur|de}}<br>([[S#conv|S]])|liste=[[Thésaurus:tableau périodique des éléments/allemand|Éléments chimiques en allemand]]}}
+
+=== {{S|prononciation}} ===
+* {{écouter|Berlin|ˈfɔsfoːɐ̯|lang=de|audio=De-Phosphor.ogg}}
+* {{écouter|Vienne|ˈfɔsfoːɐ̯|lang=de|audio=De-at-Phosphor.ogg}}
+* {{écouter|{{DE|nocat=1}}|ˈfɔsfoːɐ̯|lang=de|audio=LL-Q188 (deu)-Lucas Werkmeister-Phosphor.wav}}
+* {{écouter|Berlin|ˈfɔsfoːɐ̯|lang=de|audio=LL-Q188 (deu)-Sebastian Wallroth-Phosphor.wav}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=de}}
+
+== {{langue|lb}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|lb}}
+
+=== {{S|nom|lb}} ===
+{{lb-inv|fˈosfoːʀ}}
+'''Phosphor''' {{pron|fˈosfoːʀ|lb}} {{m}}, {{au singulier uniquement|lb}}
+# {{éléments|lb}} [[phosphore#fr|Phosphore]].
+#* {{exemple|lang=lb}}
+{{clr}}
+==== {{S|vocabulaire}} ====
+{{tableau périodique/lb}}
+
+=== {{S|prononciation}} ===
+* {{écouter|Angers (France)||niveau=bon|lang=lb|audio=LL-Q9051 (ltz)-Procrastineur49-Phosphor.wav}}
+
+=== {{S|références}} ===
+: {{R:LOD}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=lb}}

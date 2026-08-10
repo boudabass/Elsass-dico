@@ -1,0 +1,40 @@
+{{voir|Russland|Rússland}}
+
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: {{composé de|Rüss|Lànd|sens=pays des Russes|lang=gsw|m=1}}. Cognat avec l'allemand ''{{lien|Russland|de}}''.
+
+=== {{S|nom propre|gsw}} ===
+'''Rüsslànd''' {{phon|'rʏslɒn(d̥)|gsw}},  {{phon|'ʁʏslɒn(d̥)|gsw}}
+# {{Alsace|gsw}} {{lexique|géographie|gsw}} [[Russie#fr|Russie]].
+#* {{exemple | lang=gsw
+ | '''Rüsslànd''' ìsch s' greeschta Lànd uff dr Walt.
+ | La Russie est le plus grand pays du monde.}}
+#* {{exemple | lang=gsw
+ | De Nicolas Sarkozy het bhäupt, ìnere Interview mìt Le Figaro, àss d’Ükrain e Bìndeglìed zwìschenem Weschte un '''Rüsslànd''' bliwe muess [...].
+ | Dans une interview donnée au ''Figaro'', Nicolas Sarkozy a affirmé que l'Ukraine devait rester un pont entre l'Occident et la Russie [...].
+ |Jean-Christophe Meyer, [https://c.lalsace.fr/encadres/2023/08/18/kleni-musik ''Klëni Müsik''], [[w:L'Alsace|L'Alsace]], 18 août 2023}}
+#* {{exemple | lang=gsw
+ | Unseri Benzin un Diesel Prisse senn wedder heescher komme, waije '''Rüsslànd''', ùn im Nàh-Oschte senn die Bedingunge nemm so rechtig.
+ | Les prix de notre essence et de notre diesel ont encore augmenté à cause de la Russie, tandis que la situation a empiré au Moyen-Orient.
+ |Pierre Nuss, Jonathan Wahl, [https://www.francebleu.fr/emissions/actualites-rhenanes-sur-le-net/elsass/comparez-les-prix-des-carburants-entre-france-et-allemagne ''Comparez les prix des carburants entre France et Allemagne''], Actualités rhénanes sur le net, ''[[w:France Bleu Elsass|France Bleu Elsass]]'', 7 juin 2022}}
+#* {{exemple | lang=gsw
+ | Der Sitt [...] zeigt wàs esch gsenn, un fehrt ùns àm Gedachtniss von àlli die jungi die ehr Lawe gann hàn, ehri Unschuldigkeit, àm Front met '''Rüsslànd''' [...].
+ | Le site nous montre ce qu'il s'est passé, et nous amène à nous rappeler tous ces jeunes homme qui ont donné leur vie, leur innocence sur le front contre la Russie.
+ |Pierre Nuss, [https://www.francebleu.fr/emissions/l-alsace-vue-par-le-net/elsass/http-www-malgre-nous-eu ''Malgré-Nous : le site sur les alsaciens incorporés de force dans l'armée allemande''], L'Alsace vue sur le net, ''[[w:France Bleu Elsass|France Bleu Elsass]]'', 8 mai 2017}}
+
+==== {{S|dérivés}} ====
+* {{lien|Wiissrüsslànd|gsw}} — Biélorussie
+
+==== {{S|apparentés}} ====
+* {{lien|Rüss|gsw}} — Russe
+* {{lien|rüssisch|gsw}} — russe
+
+==== {{S|notes}} ====
+Forme en [[bas-alémanique]] d'Alsace.
+
+==== {{S|variantes dialectales}} ====
+* {{lien|Russland|gsw}}
+
+=== {{S|références}} ===
+* {{Ouvrage|langue=fr|prénom=André |nom=Nisslé|titre=D’ Lehrschtuwa: Dictionnaire français-alsacien / Wärterbüach elsassisch franzesch|éditeur=Association Culture et Patrimoine d’Alsace|ISBN=978-2-36702-058-7|page=|para=|année=2015}}.

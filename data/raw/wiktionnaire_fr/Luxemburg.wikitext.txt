@@ -1,0 +1,293 @@
+== {{langue|af}} ==
+=== {{S|étymologie}} ===
+: Du {{étylp|nl|af|mot=Luxemburg}}.
+
+=== {{S|nom propre|af}} ===
+'''Luxemburg''' {{pron||af}}
+# {{pays|af|d’Europe}} Grand-Duché du {{lien|Luxembourg|fr}}.
+#* {{exemple|lang=af}}
+# [[Luxembourg#Français|Luxembourg]] (capitale du Grand-Duché du Luxembourg).
+#* {{exemple|lang=af}}
+# Province de [[Luxembourg#Français|Luxembourg]] (province de [[Belgique]]).
+#* {{exemple|lang=af}}
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=af|Afrique du Sud (Johannesbourg)|audio=LL-Q14196 (afr)-Oesjaar-Luxemburg.wav}}
+
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|gsw|mot=Luxemburg}}.
+
+=== {{S|nom propre|gsw}} ===
+'''Luxemburg''' {{pron||gsw}}
+# {{pays|gsw|d’Europe}} Grand-Duché du {{lien|Luxembourg|fr}}.
+#* {{exemple|lang=gsw}}
+# [[Luxembourg#Français|Luxembourg]] (capitale du Grand-Duché du Luxembourg).
+# Province de [[Luxembourg#Français|Luxembourg]] (province de [[Belgique]]).
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: {{composé de|lützel|sens1=petit|Burg|sens2=bourg, forteresse|lang=de|m=1}} ; comparer au {{lb}} {{lien|''Lëtzebuerg''|lb}}.
+
+=== {{S|nom propre|de}} ===
+{{de-nom-propre|gs2=Luxemburg}}
+[[Fichier:Luxembourg in European Union (special marker) (-rivers -mini map).svg|vignette|'''Luxemburg''' - Grand-duché du Luxembourg]]
+'''Luxemburg''' {{pron|ˈlʊksəmˌbʊrk|de}} {{n}} {{au singulier uniquement|de}}
+# {{pays|de|d’Europe}} Grand-Duché du {{lien|Luxembourg|fr}}.
+#* {{exemple|In '''Luxemburg''' können 99% der Bevölkerung mindestens eine Fremdsprache.|sens=Au Luxembourg, 99% de la population connaît au moins une langue étrangère.|lang=de}}
+#* {{exemple|»Sie haben so einen leichten Akzent … Ich nehme an, Sie sind Belgier?«<br />»Nicht ganz.« Jetzt zeigte er ein überraschendes, fast kindliches Lächeln. »Ich bin in '''Luxemburg''' geboren. (...)«|lang=de|sens=« Vous avez un léger accent… J'ai supposé que vous étiez belge.<br />— Pas tout à fait. » Il eut cette fois un sourire surprenant, presque enfantin. « Je suis né au Luxembourg. (...) »|source={{ouvrage|auteur={{w|Michel Houellebecq}}|trad=Hinrich Schmidt-Henkel|titre=Lanzarote|année=2000|éditeur=DuMont Buchverlag|lieu=Köln|url=}}}}
+# {{localités|de|du Luxembourg}} [[Luxembourg#Français|Luxembourg]] (capitale du Grand-Duché du Luxembourg).
+#* {{exemple|lang=de}}
+# {{provinces|de|de Belgique}} Province de [[Luxembourg#Français|Luxembourg]] (province de [[Belgique]]).
+#* {{exemple|lang=de}}
+
+==== {{S|notes}} ====
+: En allemand, les pays n’ont généralement pas de déterminant.
+Si toutefois il y a besoin d'une déclinaison, ils sont supposés du genre neutre.
+: En allemand, les villes n'ont pas de déterminant.
+Si toutefois il y a besoin d'une déclinaison, elles sont supposées du genre neutre.
+
+==== {{S|synonymes}} ====
+* {{lien|Großherzogtum Luxemburg|de|sens=Grand-Duché de Luxembourg}}
+
+==== {{S|gentilés}} ====
+* [[luxemburger]] (''luxembourgeois(e)'')
+* [[luxemburgisch]] (''luxembourgeois(e)'')
+* [[Luxemburger]] (''Luxembourgeois''), [[Luxemburgerin]] (''Luxembourgeoise'')
+* [[Luxemburgisch]], [[Luxemburgische]] (''langue luxembourgeoise'')
+
+==== {{S|dérivés}} ====
+* {{lien|Luxemburgisch|de}}
+* {{lien|luxemburgisch|de}}
+* {{lien|Luxemburger|de}}, {{lien|Luxemburgerin|de}}
+
+=== {{S|prononciation}} ===
+* {{pron|ˈlʊksəmˌbʊrk|de}}
+* {{écouter|Berlin (Allemagne)|ˈlʊksm̩ˌbʊʁk|lang=de|audio=De-Luxemburg.ogg}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=de}}
+
+=== {{S|références}} ===
+{{Références}}
+==== {{S|sources}} ====
+* {{R:DWDS|Luxemburg}}
+* {{R:Duden|Luxemburg}}
+* {{Source-wikt|de|Luxemburg}}
+
+==== {{S|bibliographie}} ====
+* Harrap’s de poche – Bordas Dictionnaire allemand/français, éd. 1997, ISBN 0-245-50308-0, p 192. 
+
+[[Catégorie:Luxembourg en allemand]]
+[[Catégorie:Capitales en allemand]]
+[[Catégorie:Localités du Luxembourg en allemand]]
+
+== {{langue|rup}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|rup|mot=Luxemburg}}.
+
+=== {{S|nom propre|rup}} ===
+'''Luxemburg''' {{pron||rup}}
+# {{pays|rup|d’Europe}} Grand-Duché du {{lien|Luxembourg|fr}}.
+#* {{exemple|lang=rup}}
+# [[Luxembourg#Français|Luxembourg]] (capitale du Grand-Duché du Luxembourg).
+# Province de [[Luxembourg#Français|Luxembourg]] (province de [[Belgique]]).
+
+== {{langue|nds-nl}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|nds-nl|mot=Luxemburg}}.
+
+=== {{S|nom propre|nds-nl}} ===
+'''Luxemburg''' {{pron||nds-nl}}
+# {{pays|nds-nl|d’Europe}} Grand-Duché du {{lien|Luxembourg|fr}}.
+#* {{exemple|lang=nds-nl}}
+# [[Luxembourg#Français|Luxembourg]] (capitale du Grand-Duché du Luxembourg).
+# Province de [[Luxembourg#Français|Luxembourg]] (province de [[Belgique]]).
+
+== {{langue|ca}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|ca|mot=Luxemburg}}.
+
+=== {{S|nom propre|ca}} ===
+'''Luxemburg''' {{pron||ca}}
+# {{pays|ca|d’Europe}} Grand-Duché du {{lien|Luxembourg|fr}}.
+#* {{exemple|lang=ca}}
+# [[Luxembourg#Français|Luxembourg]] (capitale du Grand-Duché du Luxembourg).
+# Province de [[Luxembourg#Français|Luxembourg]] (province de [[Belgique]]).
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=ca|Espagne (Villarreal)||audio=LL-Q7026 (cat)-Millars-Luxemburg.wav}}
+
+== {{langue|fi}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|fi|mot=Luxemburg}}.
+
+=== {{S|nom propre|fi}} ===
+'''Luxemburg''' {{pron||fi}}
+# {{pays|fi|d’Europe}} Grand-Duché du {{lien|Luxembourg|fr}}.
+#* {{exemple|lang=fi}}
+# [[Luxembourg#Français|Luxembourg]] (capitale du Grand-Duché du Luxembourg).
+# Province de [[Luxembourg#Français|Luxembourg]] (province de [[Belgique]]).
+
+== {{langue|ksh}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|ksh|mot=Luxemburg}}.
+
+=== {{S|nom propre|ksh}} ===
+'''Luxemburg''' {{pron||ksh}}
+# {{pays|ksh|d’Europe}} Grand-Duché du {{lien|Luxembourg|fr}}.
+#* {{exemple|lang=ksh}}
+
+=== {{S|références}} ===
+* {{WP|lang=ksh}}
+
+== {{langue|hu}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|hu|mot=Luxemburg}}.
+
+=== {{S|nom propre|hu}} ===
+'''Luxemburg''' {{pron||hu}}
+# {{pays|hu|d’Europe}} Grand-Duché du {{lien|Luxembourg|fr}}.
+#* {{exemple|lang=hu}}
+# [[Luxembourg#Français|Luxembourg]] (capitale du Grand-Duché du Luxembourg).
+# Province de [[Luxembourg#Français|Luxembourg]] (province de [[Belgique]]).
+
+== {{langue|io}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|io|mot=Luxemburg}}.
+
+=== {{S|nom propre|io}} ===
+'''Luxemburg''' {{pron||io}}
+# {{pays|io|d’Europe}} Grand-Duché du {{lien|Luxembourg|fr}}.
+#* {{exemple|lang=io}}
+# [[Luxembourg#Français|Luxembourg]] (capitale du Grand-Duché du Luxembourg).
+# Province de [[Luxembourg#Français|Luxembourg]] (province de [[Belgique]]).
+
+== {{langue|id}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|id|mot=Luxemburg}}.
+
+=== {{S|nom propre|id}} ===
+'''Luxemburg''' {{pron||id}}
+# {{pays|id|d’Europe}} Grand-Duché du {{lien|Luxembourg|fr}}.
+#* {{exemple|lang=id}}
+# [[Luxembourg#Français|Luxembourg]] (capitale du Grand-Duché du Luxembourg).
+#* {{exemple|lang=id}}
+# Province de [[Luxembourg#Français|Luxembourg]] (province de [[Belgique]]).
+#* {{exemple|lang=id}}
+
+== {{langue|ia}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|ia|mot=Luxemburg}}.
+
+=== {{S|nom propre|ia}} ===
+'''Luxemburg''' {{pron||ia}}
+# {{pays|ia|d’Europe}} Grand-Duché du {{lien|Luxembourg|fr}}.
+#* {{exemple|lang=ia}}
+# [[Luxembourg#Français|Luxembourg]] (capitale du Grand-Duché du Luxembourg).
+# Province de [[Luxembourg#Français|Luxembourg]] (province de [[Belgique]]).
+
+== {{langue|li}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|li|mot=Luxemburg}}.
+
+=== {{S|nom propre|li}} ===
+'''Luxemburg''' {{pron||li}}
+# {{pays|li|d’Europe}} Grand-Duché du {{lien|Luxembourg|fr}}.
+#* {{exemple|lang=li}}
+# [[Luxembourg#Français|Luxembourg]] (capitale du Grand-Duché du Luxembourg).
+# Province de [[Luxembourg#Français|Luxembourg]] (province de [[Belgique]]).
+
+== {{langue|nl}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|nl|mot=Luxemburg}}.
+
+=== {{S|nom propre|nl}} ===
+'''Luxemburg''' {{pron|lʏk.sǝm.bʏɾɣ|nl}}
+# {{pays|nl|d’Europe}} Grand-Duché du {{lien|Luxembourg|fr}}.
+#* {{exemple|lang=nl}}
+# {{localités|nl|du Luxembourg}} [[Luxembourg#Français|Luxembourg]] (capitale du Grand-Duché du Luxembourg).
+# Province de [[Luxembourg#Français|Luxembourg]] (province de [[Belgique]]).
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=nl||audio=Nl-Luxemburg.ogg}}
+
+[[Catégorie:Luxembourg en néerlandais| ]]
+[[Catégorie:Provinces de Belgique en néerlandais]]
+
+== {{langue|rm}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|rm|mot=Luxemburg}}.
+
+=== {{S|nom propre|rm}} ===
+'''Luxemburg''' {{pron||rm}}
+# {{pays|rm|d’Europe}} Grand-Duché du {{lien|Luxembourg|fr}}.
+#* {{exemple|lang=rm}}
+# [[Luxembourg#Français|Luxembourg]] (capitale du Grand-Duché du Luxembourg).
+# Province de [[Luxembourg#Français|Luxembourg]] (province de [[Belgique]]).
+
+== {{langue|ro}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|ro|mot=Luxemburg}}.
+
+=== {{S|nom propre|ro}} ===
+'''Luxemburg''' {{pron||ro}}
+# {{pays|ro|d’Europe}} Grand-Duché du {{lien|Luxembourg|fr}}.
+#* {{exemple|lang=ro}}
+# [[Luxembourg#Français|Luxembourg]] (capitale du Grand-Duché du Luxembourg).
+# Province de [[Luxembourg#Français|Luxembourg]] (province de [[Belgique]]).
+
+=== {{S|prononciation}} ===
+* {{écouter|Iași (Roumanie)||lang=ro|audio=LL-Q7913 (ron)-KlaudiuMihaila-Luxemburg.wav}}
+
+== {{langue|sk}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|sk|mot=Luxemburg}}.
+
+=== {{S|nom propre|sk}} ===
+'''Luxemburg''' {{pron||sk}}
+# {{capitales|sk|d’Europe}} {{lien|Luxembourg|fr}}, capitale du Grand-Duché du Luxembourg.
+#* {{exemple|lang=sk}}
+
+==== {{S|apparentés}} ====
+* {{lien|Luxembursko|sk|sens=Grand-Duché du Luxembourg}}
+
+=== {{S|voir aussi}} ===
+* {{WP|Luxemburg (mesto)|lang=sk}}
+[[Catégorie:Toponymes dont l’origine est une construction en slovaque]]
+
+== {{langue|sv}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|sv|mot=Luxemburg}}.
+
+=== {{S|nom propre|sv}} ===
+'''Luxemburg''' {{pron||sv}}
+# {{pays|sv|d’Europe}} Grand-Duché du {{lien|Luxembourg|fr}}.
+#* {{exemple|lang=sv}}
+# [[Luxembourg#Français|Luxembourg]] (capitale du Grand-Duché du Luxembourg).
+# Province de [[Luxembourg#Français|Luxembourg]] (province de [[Belgique]]).
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=sv}}
+
+[[Catégorie:Capitales en afrikaans]]
+[[Catégorie:Capitales en alémanique]]
+[[Catégorie:Capitales en aroumain]]
+[[Catégorie:Capitales en catalan]]
+[[Catégorie:Capitales en finnois]]
+[[Catégorie:Capitales en hongrois]]
+[[Catégorie:Capitales en ido]]
+[[Catégorie:Capitales en indonésien]]
+[[Catégorie:Capitales en interlingua]]
+[[Catégorie:Capitales en néerlandais]]
+[[Catégorie:Capitales en romanche]]
+[[Catégorie:Capitales en roumain]]
+[[Catégorie:Capitales en suédois]]
+[[Catégorie:Toponymes dont l’origine est une construction en allemand]]
+[[Catégorie:Toponymes dont l’origine est une construction en néerlandais]]
+[[Catégorie:Toponymes dont l’origine est une construction en catalan]]
+[[Catégorie:Toponymes dont l’origine est une construction en hongrois]]
+[[Catégorie:Toponymes dont l’origine est une construction en finnois]]
+[[Catégorie:Toponymes dont l’origine est une construction en roumain]]
+[[Catégorie:Toponymes dont l’origine est une construction en suédois]]
+[[Catégorie:Toponymes dont l’origine est une construction en afrikaans]]

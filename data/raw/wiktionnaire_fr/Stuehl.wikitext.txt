@@ -1,0 +1,8 @@
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw}}
+
+=== {{S|nom|gsw}} ===
+'''Stuehl''' {{pron||gsw}}
+# {{Wolschheim|gsw}} [[chaise#fr|Chaise]].
+#* {{exemple|lang=gsw}}

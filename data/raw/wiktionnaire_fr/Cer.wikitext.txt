@@ -1,0 +1,78 @@
+{{voir/cer}}
+
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw}}
+
+=== {{S|nom|gsw}} ===
+'''Cer''' {{pron||gsw}} {{genre|gsw}}
+# {{éléments|gsw}} {{métaux|gsw}} [[cérium#fr|Cérium]].
+{{clr}}
+==== {{S|vocabulaire}} ====
+{{tableau périodique/gsw}}
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: {{date|1803}}
+: {{dénominal|de|de=Ceres|lang=de|m=1}}, du nom de la planète naine [[Cérès]].
+
+=== {{S|nom|de}} ===
+{{de-nom-n|sing=oui}}
+{{légende élément/de|Ce}}
+[[Image:CE2k2g.jpg|thumb|'''Cer'''.]]
+'''Cer''' {{pron|tseːɐ̯|de}} {{n}} {{au singulier uniquement|de}}
+# {{éléments|de}} {{métaux|de}} [[cérium#fr|Cérium]] (l’{{lien|élément chimique}} [[Ce#conv|Ce]]).
+#* {{exemple | lang=de
+ | '''Cer''' ist ein silbrigweiß glänzendes Metall und das reaktivste Element der Lanthanoide.
+ | Le cérium est un métal blanc argenté brillant et l’élément le plus réactif des lanthanides.}}
+
+==== {{S|variantes orthographiques}} ====
+* [[Zer]]
+
+==== {{S|synonymes}} ====
+* [[Cerium]]
+
+==== {{S|dérivés}} ====
+* [[Ceroxide]]
+{{clr}}
+==== {{S|vocabulaire}} ====
+* {{voir thésaurus|de|tableau périodique des éléments}}
+{{tableau périodique/de}}
+{{Liste|avant={{lien|Lanthan|de}}<br>([[La#conv|La]])|après={{lien|Praseodym|de}}<br>([[Pr#conv|Pr]])|liste=[[Thésaurus:tableau périodique des éléments/allemand|Éléments chimiques en allemand]]}}
+
+=== {{S|prononciation}} ===
+* {{pron|tseːɐ̯|de}}
+* {{écouter||tseːɐ̯|lang=de|audio=De-Cer.ogg}}
+* {{écouter|lang=de|Allemagne (Berlin)|audio=LL-Q188 (deu)-Lucas Werkmeister-Cer.wav}}
+* {{écouter|lang=de|Allemagne (Berlin)|audio=LL-Q188 (deu)-Sebastian Wallroth-Cer.wav}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=de}}
+
+== {{langue|lb}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|lb}}
+
+=== {{S|nom|lb}} ===
+{{lb-inv|tsɛːʀ}}
+'''Cer''' {{pron|tsɛːʀ|lb}} {{m}}, {{au singulier uniquement|lb}}
+# {{éléments|lb}} {{métaux|lb}} [[cérium#fr|Cérium]].
+#* {{exemple|lang=lb}}
+{{clr}}
+==== {{S|vocabulaire}} ====
+{{tableau périodique/lb}}
+
+=== {{S|références}} ===
+: {{R:LOD}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=lb}}
+
+== {{langue|sl}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|sl}}
+
+=== {{S|nom de famille|sl}} ===
+{{sl-décl-nmd|Cer|ani=oui}}
+'''Cer''' {{pron||sl}}
+# [[nom de famille|Nom de famille]] [[slovène]].

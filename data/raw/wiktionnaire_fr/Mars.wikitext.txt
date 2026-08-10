@@ -1,0 +1,795 @@
+{{voir/mars}}
+== {{langue|fr}} ==
+=== {{S|étymologie}} ===
+: (''[[#fr-nom-pr-1|Nom propre 1]]'') {{circa|1150}} Du {{étylp|la|fr|Mars}}, issu lui-même de l'{{étyl|osc|fr|𐌌𐌀𐌌𐌄𐌓𐌔}}.
+: (''[[#fr-nom-pr-2|Nom propre 2]]'') Du nom du dieu.
+: (''[[#fr-nom-pr-4|Nom propre 4]]'') Marque déposée par {{w|Mars Incorporated}}.
+
+=== {{S|nom propre|fr|num=1}} ===
+[[Fichier:Lyon 6e - Musée d'art contemporain - Les nombreuses vies et morts de Louise Brunet - Statue du dieu Mars de Coligny 01.jpg|vignette|150px|Statue du dieu '''Mars''' de Coligny (1)]]
+'''Mars''' {{pron|maʁs|fr}} {{m}} {{au singulier uniquement|fr}}
+# {{divinités|fr|romaines}} [[dieu|Dieu]] [[romain]] de la [[guerre]].
+#* {{exemple | lang=fr
+ | '''Mars''', identifié avec le dieu grec Ares, l'a été aussi avec le dieu gaulois ''Toutatis''; Minerve, confondue avec la déesse grecque Athêna, l'a été aussi avec la déesse gauloise ''Belisama'', etc.
+ | source={{w|Henri d'Arbois de Jubainville}}, ''Les druides et les dieux celtiques à forme d'animaux'', Paris : chez H. Champion, 1906, page 66}}
+#* ''Ceux à qui la chaleur ne bout plus dans les veines,<br>En vain dans les combats ont des soins diligents<br>'''Mars''' est comme l’amour ; ses travaux et ses peines<br>Veulent de jeunes gens.'' {{source|MALH., II, 12}}
+# {{poétique|fr}} [[guerrier|Guerrier]].
+#* {{exemple | lang=fr
+ | Ce jeune '''Mars''' qu’on loue a su jadis te plaire.
+ | source=Corneille, ''Cid'', IV, 2}}
+#* {{exemple|lang=fr|Le jour, le dernier du mois, où l’intendance militaire annonça sa bonne visite au capitaine, à fin de vérification de comptes, l’enfant de '''Mars''' qui, je le répète, était un brave, s’en alla prendre un air de balade sur les bords allongés du canal, dont la ville est traversée '''d’outre en outre''' comme une poitrine par un sabre.|source={{w|Émile Bergerat}}, ''{{w|Contes de Caliban}}'', ''À deux de jeu'', 1909}}
+# {{poétique|fr}} Le [[fer]].
+#* {{exemple | lang=fr | Teinture de '''Mars'''.}}
+#* {{exemple | lang=fr | Safran de '''Mars'''.}}
+
+==== {{S|dérivés}} ====
+* [[travaux de Mars]] (la guerre)
+* [[métier de Mars]] (la guerre)
+
+==== {{S|apparentés}} ====
+* {{lien|champ de Mars|fr}}
+* [[Mars Mullo]]
+* [[martial]]
+* [[Martin]]
+* [[Saint-Mars]]
+
+==== {{S|synonymes}} ====
+* [[Arès]] ''(Mythologie grecque)''
+; Fer
+* [[♂]] ''(Alchimie)''
+
+=== {{S|nom propre|fr|num=2}} ===
+[[Image:Mars Hubble.jpg|thumb|La planète '''Mars'''. (2)]]
+'''Mars''' {{pron|maʁs|fr}} {{mf ?|fr}}
+# {{info lex|astronomie}} Quatrième [[planète]] du [[système]] [[solaire]] par ordre croissant de distance au Soleil, située entre la [[Terre]] et [[Jupiter]].
+#* {{exemple|lang=fr|
+Il se sentait très seul, il était triste ; les blocs lui fichaient le cafard, il me disait que bientôt le monde serait tout comme ça, et que les hommes qui avaient quelque chose dans le ventre n’auraient plus qu’à tous foutre le camp sur la planète '''Mars'''.
+|source={{w|Christiane Rochefort}}, ''{{w|Les Petits Enfants du siècle}}'', Grasset, 1961, réédition Le Livre de Poche, page 39}}
+#* {{exemple|lang=fr|Donc, nous ne pourrions rien imaginer de comparable à l’homme dans tout le système solaire, s’il ne s’y trouvait point la planète '''Mars''' qui, malheureusement pour elle, présente quelque ressemblance avec la terre. Elle a de l’air, mais en petite quantité, de l’eau ; elle a peut-être de quoi faire, hélas ! des animaux comme nous.|source={{w|Anatole France}}, ''{{w|Le Mannequin d’osier}}'', Calmann Lévy, 1897, réédition Bibliothèque de la Pléiade, 1987, page 973}}
+#* {{exemple | lang=fr
+ | À l’origine la vie sur '''Mars''' avait été difficile. La nature s’était montrée insouciante et « l’homme » s’était développé de bonne heure.
+ | source={{w|Benjamin De Casseres}}, ''Arcvad le terrible'', traduction de {{w|Émile Armand}}, dans ''Les Réfractaires'', {{n°|1}}, janvier 1914}}
+#* {{exemple | lang=fr
+ | Phobos, la plus grosse des deux lunes de '''Mars''', a la forme d’un patatoïde et mesure environ 28 km × 23 km × 20 km. Elle est dominée par le cratère Stickney […].
+ | source=Neil Comins, ''À la découverte de l’Univers : Les bases de l’astronomie et de l’astrophysique'', De Boeck Supérieur, 2016, page 184}}
+#* {{exemple | lang=fr
+ | La station lunaire sera formée de modules de recherche scientifique et de modules habitables. Quatre astronautes pourront y vivre pendant tout au plus trois mois à la fois. […]. Gateway permettra de former les astronautes à de longues missions en préparation à des voyages vers '''Mars'''.
+ | source=Radio-Canada, ''Un Canadien s'envolera vers la Lune'', radio-canada.ca, 16 décembre 2020}}
+#* {{exemple|lang=fr|493 millions de kilomètres<br> Al-Amal, la sonde de 1350 kg, de la taille d’un 4x4, aura mis sept mois pour parcourir les 493 millions de kilomètres jusqu’à '''Mars''', […].|source=AFP, ''La sonde Hope des Émirats s'approche de Mars'', radio-canada.ca, 7 février 2021}}
+#* {{exemple | lang=fr
+ | '''Mars''' n’a rien de curieux que je sache ; ses jours sont de plus d’une demi-heure plus longs que les nôtres, et ses années valent deux de nos années, à un mois et demi près.
+ | source=FONTEN., Mondes, {{4e|soir}}}}
+## {{lexique|astrologie|fr}} :
+##* {{exemple|Clairement, au vu de la position de '''Mars''' et de la Lune aujourd’hui, si vous faites du sport, vous allez vous claquer quelque chose bêtement. Et vous ne pourrez vous en prendre qu’à vous-même ! 
+|source=''Sports : 5 excuses pour ne pas aller au sport aujourd’hui'', sur ''{{W|Le Gorafi}}'', legorafi.fr, 2 juillet 2026
+|lien=https://www.legorafi.fr/2026/07/02/5-excuses-pour-ne-pas-aller-au-sport-aujourdhui/
+|lang=fr}}
+
+==== {{S|abréviations}} ====
+* [[♂]]
+
+==== {{S|notes}} ====
+: Le [[genre]] féminin provient de l’[[ellipse]] de ''planète '''Mars'''''.
+
+==== {{S|gentilés}} ====
+* {{lien|Martien|fr}}, {{lien|Martienne|fr}}, {{lien|martien|fr}}
+* {{lien|Marsien|fr}}, {{lien|Marsienne|fr}}, {{lien|marsien|en}}
+
+==== {{S|synonymes}} ====
+* [[planète de la guerre]]
+* [[planète rouge]]
+
+==== {{S|dérivés}} ====
+* [[amarsir]]
+* [[amarsissage]]
+* [[jaune de Mars]]
+* [[martionaute]], [[marsionaute]]
+* [[Martien]], [[Marsien]]
+* [[Martienne]], [[Marsienne]]
+* [[martien]], [[marsien]]
+
+==== {{S|hyperonymes}} ====
+* [[planète intérieure]]
+* [[planète supérieure]]
+* [[planète tellurique]]
+
+==== {{S|méronymes}} ====
+* [[Déimos]] ([[Mars II]])
+* [[Phobos]] ([[Mars I]])
+
+==== {{S|vocabulaire}} ====
+* {{Thésaurus|fr|Mars (planète)}}
+* {{voir thésaurus|fr|astrologie|généalogie|ciel}}
+{{tableau-planètes du Système solaire/fr}}
+
+==== {{S|traductions}} ====
+{{trad-début}}
+* {{T|af}} : {{trad-|af|Mars}}
+* {{T|sq}} : {{trad+|sq|Marsi}}
+* {{T|gsw}} : {{trad|gsw|Mars}}
+* {{T|de}} : {{trad+|de|Mars|m}}
+* {{T|en}} : {{trad+|en|Mars}}
+* {{T|ar}} : {{trad-|ar|مريخ}}, {{trad-|ar|مُرِّيخ}}
+* {{T|hy}} : {{trad+|hy|Մարս|tr=Mars}}
+* {{T|ast}} : {{trad+|ast|Marte}}
+* {{T|nds}} : {{trad-|nds|Mars}}
+* {{T|eu}} : {{trad+|eu|Martitz}}
+* {{T|bs}} : {{trad-|bs|Mars}}
+* {{T|br}} : {{trad+|br|Meurzh}}
+* {{T|bg}} : {{trad-|bg|Марс|tr=}}
+* {{T|yue}} : {{trad-|yue|火星}}
+* {{T|ca}} : {{trad+|ca|Mart}}
+* {{T|zh}} : {{trad+|zh|火星|R=Huǒxīng}}
+* {{T|ko}} : {{trad+|ko|화성|tr=Hwaseong}}
+* {{T|kw}} : {{trad-|kw|Meurth}}
+* {{T|co}} : {{trad-|co|Marte}}
+* {{T|hr}} : {{trad+|hr|Mars}}
+* {{T|da}} : {{trad+|da|Mars}}
+* {{T|es}} : {{trad+|es|Marte|m}}
+* {{T|eo}} : {{trad+|eo|Marso}}
+* {{T|et}} : {{trad+|et|Marss}}
+* {{T|fo}} : {{trad-|fo|Mars}}
+* {{T|fi}} : {{trad+|fi|Mars}}
+* {{T|frp}} : {{trad|frp|Mârs}}
+* {{T|ga}} : {{trad+|ga|Mars}}
+* {{T|gl}} : {{trad+|gl|Marte}}
+* {{T|cy}} : {{trad+|cy|Mawrth}}
+* {{T|ka}} : {{trad-|ka|მარსი|tr=Marsi}}
+* {{T|el}} : {{trad+|el|Άρης|R=Áris}}
+* {{T|gu}} : {{trad-|gu|મંગળ|R=Maṅgaḷa}}
+* {{T|he}} : {{trad+|he|מאדים}}
+* {{T|hu}} : {{trad+|hu|Mars}}
+* {{T|io}} : {{trad+|io|Marso}}
+* {{T|ilo}} : {{trad|ilo|Mars}}
+* {{T|id}} : {{trad+|id|Mars}}
+* {{T|ia}} : {{trad-|ia|Marte}}
+* {{T|is}} : {{trad+|is|Mars}}
+* {{T|it}} : {{trad+|it|Marte|m}}
+* {{T|ja}} : {{trad+|ja|火星|tr=Kasei}}
+* {{T|jv}} : {{trad-|jv|Mars}}
+* {{T|kn}} : {{trad+|kn|ಮಂಗಳ|R=Maṅgaḷa}}
+* {{T|pam}} : {{trad|pam|Mars}}
+* {{T|kk}} : {{trad-|kk|Аңырақай|tr=Añıraqay}}
+* {{T|avk}} : {{trad|avk|Raporuz}}
+* {{T|ku}} : {{trad+|ku|Behram}}
+* {{T|la}} : {{trad+|la|Mars}}, {{trad-|la|Pyrois}}
+* {{T|lv}} : {{trad-|lv|Marss}}
+* {{T|li}} : {{trad+|li|Mars}}
+* {{T|lt}} : {{trad+|lt|Marsas}}
+* {{T|lb}} : {{trad-|lb|Mars}}
+* {{T|mk}} : {{trad-|mk|Марс|tr=Mars}}
+* {{T|ms}} : {{trad+|ms|Marikh}}
+* {{T|mt}} : {{trad-|mt|Marte}}
+* {{T|nan}} : {{trad+|nan|Hoé-chheⁿ}}
+* {{T|nl}} : {{trad+|nl|Mars}}
+* {{T|ne}} : {{trad-|ne|मंगलग्रह|R=Maṅgalagraha}}
+* {{T|normand}} : {{trad|normand|Mars}}
+* {{T|no}} : {{trad+|no|Mars}}
+* {{T|nn}} : {{trad+|no|Mars}}
+* {{T|oc}} : {{trad+|oc|Mart}}, {{trad+|oc|Mars}}
+* {{T|os}} : {{trad|os|Марс}}
+* {{T|ug}} : {{trad-|ug|Mars}}
+* {{T|uz}} : {{trad-|uz|Mars}}
+* {{T|fa}} : {{trad+|fa|بهرام}}, {{trad+|fa|مریخ}}
+* {{T|pl}} : {{trad+|pl|Mars}}
+* {{T|pt}} : {{trad+|pt|Marte}}
+* {{T|qu}} : {{trad-|qu|Awqakuq}}
+* {{T|ro}} : {{trad+|ro|Marte}}
+* {{T|ru}} : {{trad+|ru|Марс|tr=Mars}}
+* {{T|sco}} : {{trad|sco|Maurs}}
+* {{T|sr}} : {{trad-|sr|Марс|R=Mars}}
+* {{T|sh}} : {{trad+|sh|Mars}}
+* {{T|scn}} : {{trad-|scn|Marti}}
+* {{T|sk}} : {{trad-|sk|Mars}}
+* {{T|sl}} : {{trad+|sl|Mars}}
+* {{T|sv}} : {{trad+|sv|Mars}}
+* {{T|sw}} : {{trad-|sw|Meriki}}
+* {{T|tl}} : {{trad-|tl|Marte}}
+* {{T|ta}} : {{trad+|ta|செவ்வாய்|R=Cevvāy}}
+* {{T|cs}} : {{trad+|cs|Mars}}
+* {{T|th}} : {{trad+|th|ดาวอังคาร|R=Dāw xạngkhār}}
+* {{T|tr}} : {{trad+|tr|Mars}}, {{trad+|tr|Merih}}
+* {{T|uk}} : {{trad-|uk|Марс|R=Mars}}
+* {{T|vi}} : {{trad+|vi|Sao Hỏa}}
+* {{T|wa}} : {{trad+|wa|Måss}}
+* {{T|yi}} : {{trad-|yi|מארס}}
+{{trad-fin}}
+
+=== {{S|nom propre|fr|num=3}} ===
+{{fr-inv|maʁs|inv_titre=Nom propre}}
+'''Mars''' {{pron|maʁs|fr}}
+# {{localités|fr|du département de l’Ardèche}} [[commune|Commune]] [[français]]e, située dans le département de l’[[Ardèche]].
+# {{localités|fr|du département du Gard}} [[commune|Commune]] [[français]]e, située dans le département du [[Gard]] intégrée à la commune de [[Bréau-Mars]] en janvier 2019.
+# {{localités|fr|du département de la Loire}} [[commune|Commune]] [[français]]e, située dans le département de la [[Loire]].
+
+==== {{S|traductions}} ====
+{{trad-début}}
+* {{T|avk}} : {{trad|avk|Mars}}
+{{trad-fin}}
+
+=== {{S|nom propre|fr|num=4}} ===
+{{fr-inv|maʁs}}
+[[Fichier:Mars bar bitten.jpg|vignette|Une barre '''Mars''' entamée.]]
+'''Mars''' {{pron|maʁs|fr}} {{m}} ''(''{{f}} ''au Québec)''
+# Marque commerciale d’une [[barre]] [[chocolatée]].
+#* {{exemple | lang=fr
+ | C’est à la découverte d’un emballage de '''Mars''' bien calé au fond d’un nid que les biologistes ont compris que leur travail prenait une tout autre dimension, devenant pour ainsi dire une véritable fouille archéologique au travers les vestiges de plusieurs décennies de déchets. Car sur l’étui en plastique de la barre chocolatée se trouvaient plusieurs éléments prouvant qu’il était vieux d’une trentaine d’années : un copyright de 1991, un logo de la Fédération internationale de football association (FIFA) de 1993, et une publicité pour la Coupe du monde de football de 1994, dont l’entreprise '''Mars''' était l’un des sponsors officiels.
+ | source = Les vestiges de trente ans de pollution plastique retrouvés dans les nids des foulques d’Amsterdam, Sylvie Burnouf, Le Monde, avril 2025}}
+
+==== {{S|dérivés}} ====
+* [[cent balles et un Mars]]
+* [[Mars frit]]
+
+=== {{S|nom de famille|fr}} ===
+{{fr-inv|maʁs|inv_titre=Nom de famille}}
+'''Mars''' {{pron|maʁs|fr}} {{mf}}
+# Nom de famille.
+#* {{exemple | lang=fr
+ | Le podcast est à l’image de son animateur, Alexandre '''Mars''' : posé.
+ | source=journal ''20 minutes'', édition Paris-IDF, 27 septembre 2023, page 14}}
+
+=== {{S|prénom|fr|genre=m}} ===
+'''Mars''' {{pron|maʁs|fr}} {{m}}
+# {{rare|fr}} Prénom masculin.
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=fr|France|maʁ̥s|audio=Fr-Mars.ogg}}
+* {{écouter||maʁ̥s|lang=fr|audio=LL-Q150 (fra)-Xenophôn-Mars.wav}}
+* {{écouter||maʁ̥s|lang=fr|audio=LL-Q150 (fra)-GrandCelinien-Mars.wav}}
+* {{écouter|lang=fr|France (Paris)|maʁ̥s|audio=LL-Q150 (fra)-Exilexi-Mars.wav}}
+* {{écouter|lang=fr|France (Toulouse)|maʁ̥s|audio=LL-Q150 (fra)-Lepticed7-Mars.wav}}
+* {{écouter|lang=fr|France (Vosges)|maʁ̥s|audio=LL-Q150 (fra)-Poslovitch-Mars.wav}}
+* {{écouter|lang=fr|Suisse (canton du Valais)|maʁ̥s|audio=LL-Q150 (fra)-DSwissK-Mars.wav}}
+* {{écouter|lang=fr|France|maʁ̥s|audio=LL-Q150 (fra)-Mecanautes-Mars.wav}}
+* {{écouter|Rawdon (Canada)|mæʁ̥s|lang=fr|audio=LL-Q150 (fra)-Idéalités-Mars.wav}}
+* {{écouter|Vendée (France)||lang=fr|audio=LL-Q150 (fra)-Sartus85-Mars.wav}}
+
+==== {{S|homophones|fr}} ====
+* {{lien|mars|fr}}
+
+=== {{S|anagrammes}} ===
+{{voir anagrammes|fr}}
+
+=== {{S|voir aussi}} ===
+* {{WP}}
+* {{Le Dico des Ados}}
+
+=== {{S|références}} ===
+* {{R:Littré}}
+
+[[Catégorie:Marques déposées]]
+[[Catégorie:Planètes en français]]
+[[Catégorie:Éponymes en français]]
+
+== {{langue|af}} ==
+=== {{S|étymologie}} ===
+:Du {{étyl|la|af|Mars}}.
+
+=== {{S|nom propre|af}} ===
+'''Mars''' {{pron||af}}
+# Planète [[#fr-nom-pr-2|Mars]].
+#* {{exemple|lang=af}}
+
+[[Catégorie:Planètes en afrikaans]]
+
+== {{langue|sq}} ==
+=== {{S|étymologie}} ===
+:Du {{étyl|la|sq|Mars}}.
+
+=== {{S|nom propre|sq}} ===
+'''Mars''' {{pron||sq}}
+# Planète [[#fr-nom-pr-2|Mars]].
+
+[[Catégorie:Planètes en albanais]]
+
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+:Du {{étyl|la|gsw|Mars}}.
+
+=== {{S|nom propre|gsw}} ===
+'''Mars''' {{pron||gsw}}
+# Planète [[#fr-nom-pr-2|Mars]].
+# {{info lex|mythologie}} Dieu [[#fr|Mars]].
+
+[[Catégorie:Planètes en alémanique]]
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|de|Mars}}.
+
+=== {{S|nom propre|de}} ===
+{{de-nom-propre|genre=m|gs=Mars|gs2=Mars’}}
+'''Mars''' {{pron|mars|de}} {{m}} {{s}}
+# {{divinités|de}} Dieu [[#fr|Mars]].
+#* {{exemple | lang=de
+ | '''Mars''' ist Sohn von Jupiter und Juno.
+ | Mars est le fils de Jupiter et de Junon.}}
+# Planète [[#fr-nom-pr-2|Mars]].
+
+==== {{S|synonymes}} ====
+* (1) [[Ares]]
+* (2) [[Roter Planet]]
+
+==== {{S|dérivés}} ====
+* [[März]]
+* [[Marsmensch]]
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=de|Allemagne||audio=De-Mars.ogg}}
+* {{écouter|lang=de|Allemagne (Berlin)|audio=LL-Q188 (deu)-Sebastian Wallroth-Mars.wav}}
+
+[[Catégorie:Planètes en allemand]]
+
+== {{langue|fro}} ==
+=== {{S|étymologie}} ===
+: Emprunt au {{étyl|la|fro|Mars}}.
+
+=== {{S|nom propre|fro}} ===
+{{fro-accord-mf|ss=Mars|rs=Mars}}
+'''Mars''' {{pron-recons||fro}} {{m}}
+# [[Mars#fr|Mars]] (dieu).
+
+== {{langue|en}} ==
+=== {{S|étymologie}} ===
+:Du {{étyl|la|en|Mars}}.
+
+=== {{S|nom propre|en}} ===
+'''Mars''' {{pron||en}}
+# Planète [[#fr-nom-pr-2|Mars]].
+{{Liste|avant=[[Earth]]|après=[[Jupiter]]|liste=[[:Catégorie:Lexique en anglais de l’astronomie|Planètes principales]]}}
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=en|États-Unis||audio=En-us-Mars.ogg}}
+* {{écouter|Londres (Royaume-Uni)||lang=en|audio=}}
+* {{écouter|Texas (États-Unis)||lang=en|audio=LL-Q1860 (eng)-Wodencafe-Mars.wav}}
+* {{écouter|États-Unis||niveau=bon|lang=en|audio=LL-Q1860 (eng)-PinkberryMoloko-Mars.wav}}
+* {{écouter|||lang=en|audio=LL-Q1860 (eng)-Boredcookie-Mars.wav}}
+* {{écouter|New York (États-Unis)||lang=en|audio=LL-Q1860 (eng)-Assorted-Interests-Mars.wav}}
+
+[[Catégorie:Planètes en anglais]]
+[[Catégorie:Divinités romaines en anglais]]
+
+== {{langue|nds}} ==
+=== {{S|étymologie}} ===
+:Du {{étyl|la|nds|Mars}}.
+
+=== {{S|nom propre|nds}} ===
+'''Mars''' {{pron||nds}}
+# Planète [[#fr-nom-pr-2|Mars]].
+
+[[Catégorie:Planètes en bas allemand]]
+
+== {{langue|bs}} ==
+=== {{S|étymologie}} ===
+:Du {{étyl|la|bs|Mars}}.
+
+=== {{S|nom propre|bs}} ===
+'''Mars''' {{pron||bs}}
+# Planète [[#fr-nom-pr-2|Mars]].
+
+[[Catégorie:Planètes en bosniaque]]
+
+== {{langue|hr}} ==
+=== {{S|étymologie}} ===
+:Du {{étyl|la|hr|Mars}}.
+
+=== {{S|nom propre|hr}} ===
+'''Mars''' {{pron||hr}}
+# Planète [[#fr-nom-pr-2|Mars]].
+
+[[Catégorie:Planètes en croate]]
+
+== {{langue|da}} ==
+=== {{S|étymologie}} ===
+:Du {{étyl|la|da|Mars}}.
+
+=== {{S|nom propre|da}} ===
+'''Mars''' {{pron||da}}
+# Planète [[#fr-nom-pr-2|Mars]].
+
+[[Catégorie:Planètes en danois]]
+
+== {{langue|ee}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|ee|Martius}}.
+
+=== {{S|nom|ee}} ===
+'''Mars''' {{pron|ˈmɑːs|ee}}
+# Mois de [[mars#fr|Mars]].
+{{Liste|avant=[[Dzodze]]|après=[[Afɔfiɛ]]|liste=[[:Catégorie:Mois de l’année en éwé|Mois de l’année en éwé]]}}
+
+==== {{S|synonymes}} ====
+* [[Tedoxe]]
+
+[[Catégorie:Mois de l’année en éwé]]
+
+== {{langue|fi}} ==
+=== {{S|étymologie}} ===
+:Du {{étyl|la|fi|Mars}}.
+
+=== {{S|nom propre|fi}} ===
+'''Mars''' {{pron|ˈmɑrs|fi}}
+# Dieu [[#fr-nom-pr-1|Mars]].
+# Planète [[#fr-nom-pr-2|Mars]].
+
+==== {{S|synonymes}} ====
+* [[punainen]] [[planeetta]]
+
+==== {{S|dérivés}} ====
+* [[marsilainen]]
+
+[[Catégorie:Planètes en finnois]]
+
+== {{langue|fo}} ==
+=== {{S|étymologie}} ===
+:Du {{étyl|la|fo|Mars}}.
+
+=== {{S|nom propre|fo}} ===
+'''Mars''' {{pron||fo}}
+# Planète [[#fr-nom-pr-2|Mars]].
+
+[[Catégorie:Planètes en féroïen]]
+
+== {{langue|ga}} ==
+=== {{S|étymologie}} ===
+:Du {{étyl|la|ga|Mars}}.
+
+=== {{S|nom propre|ga}} ===
+'''Mars''' {{pron||ga}}
+# Planète [[#fr-nom-pr-2|Mars]].
+
+[[Catégorie:Planètes en gaélique irlandais]]
+
+== {{langue|hu}} ==
+=== {{S|étymologie}} ===
+:Du {{étyl|la|hu|Mars}}.
+
+=== {{S|nom propre|hu}} ===
+'''Mars''' {{pron||hu}}
+# Planète [[#fr-nom-pr-2|Mars]].
+
+[[Catégorie:Planètes en hongrois]]
+
+== {{langue|ilo}} ==
+=== {{S|étymologie}} ===
+:Du {{étyl|la|ilo|Mars}}.
+
+=== {{S|nom propre|ilo}} ===
+'''Mars''' {{pron||ilo}}
+# Planète [[#fr-nom-pr-2|Mars]].
+
+[[Catégorie:Planètes en ilocano]]
+
+== {{langue|id}} ==
+=== {{S|étymologie}} ===
+:Du {{étyl|la|id|Mars}}.
+
+=== {{S|nom propre|id}} ===
+'''Mars''' {{pron||id}}
+# Planète [[#fr-nom-pr-2|Mars]].
+#* {{exemple|lang=id}}
+
+[[Catégorie:Planètes en indonésien]]
+
+== {{langue|is}} ==
+=== {{S|étymologie}} ===
+:Du {{étyl|la|is|Mars}}.
+
+=== {{S|nom propre|is}} ===
+'''Mars''' {{pron||is}}
+# Planète [[#fr-nom-pr-2|Mars]].
+
+=== {{S|prénom|is|genre=m}} ===
+{{is-décl-prénom|d=Marsi}}
+'''Mars''' {{pron||is}} {{m}}
+# Prénom masculin.
+
+=== {{S|prénom|is|flexion}} ===
+'''Mars''' {{pron||is}} {{m}}
+# ''Génitif de'' [[Mar#is|Mar]].
+
+[[Catégorie:Planètes en islandais]]
+
+== {{langue|jv}} ==
+=== {{S|étymologie}} ===
+:Du {{étyl|la|jv|Mars}}.
+
+=== {{S|nom propre|jv}} ===
+'''Mars''' {{pron||jv}}
+# Planète [[#fr-nom-pr-2|Mars]].
+
+[[Catégorie:Planètes en javanais]]
+
+== {{langue|pam}} ==
+=== {{S|étymologie}} ===
+:Du {{étyl|la|pam|Mars}}.
+
+=== {{S|nom propre|pam}} ===
+'''Mars''' {{pron||pam}}
+# Planète [[#fr-nom-pr-2|Mars]].
+
+[[Catégorie:Planètes en kapampangan]]
+
+== {{langue|la}} ==
+=== {{S|étymologie}} ===
+: Le ''Dictionnaire étymologique latin'' explique :
+:: Faisait archaïquement ''[[Mavors]]'', ''Mars'' est une vieille divinité italique, il présidait aux occupations des champs comme aux travaux de la terre. De là ses surnoms de ''[[rusticus#la|Rusticus]]'' ; les frères Arvales, qui, comme leur nom l’indique, étaient préposés à un culte champêtre, invoquent ''Mars'' dans leurs litanies ; Caton commande de lui offrir des sacrifices pour qu'il veille sur la conservation des bœufs. Lorsque la mythologie grecque fut introduite à Rome, on identifia Arès avec Mars, ce qui en a fait un dieu exclusivement guerrier. Le nom {{étyl|osc|la}} de Mars était ''{{lien|𐌌𐌀𐌌𐌄𐌓𐌔|osc}}'' (''mamers''), il est probable que ''Mavors, Mamers'' et l’étrusque ''[[Maris]]'' sont des variantes du même mot.
+:Selon Lewis & Short{{R|L&S}}, le radical du mot est {{recons|lang-mot-vedette=la|mar-}} («&nbsp;briller&nbsp;»), le sens serait alors «&nbsp;Dieu de lumière&nbsp;».
+
+=== {{S|nom propre|la}} ===
+{{la-tab-3i-mf|Mars|Mart|sing=oui}}
+'''Mars''' {{m}}
+# {{lexique|religion|la}} [[#fr|Mars]], dieu agricole quand les Romains étaient paysans puis de la [[guerre]] quand ils furent guerriers.
+#* {{exemple | lang=la
+ | '''Mars''' pater, te precor quaesoque uti sies volens propitius mihi domo familiaeque nostrae, quoius re ergo agrum terram fundumque meum [[suovetaurilia]] circumagi iussi, uti tu morbos visos invisosque, viduertatem vastitudinemque, calamitates intemperiasque prohibessis defendas averruncesque; utique tu fruges, frumenta, vineta virgultaque grandire beneque evenire siris, pastores pecuaque salva servassis duisque bonam salutem valetudinemque mihi domo familiaeque nostrae; harumce rerum ergo, fundi terrae agrique mei lustrandi lustrique faciendi ergo, sicuti dixi, macte hisce suovitaurilibus lactentibus inmolandis esto; '''Mars''' pater, eiusdem rei ergo macte hisce suovitaurilibus lactentibus esto.
+ | Mars notre père, je te conjure d’être propice à moi, à ma maison et à mes gens ; c’est dans cette intention que j’ai fait promener une triple victime autour de mes champs, de mes terres et de mes biens, afin que tu en écartes, éloignes et détournes les maladies visibles et invisibles, la stérilité, la dévastation, les calamités et les intempéries : afin que tu fasses grandir et prospérer mes fruits, mes grains, mes vignes et mes arbres : afin que tu conserves la vigueur à mes bergers et à mes troupeaux, et que tu accordes santé et prospérité à moi, à ma maison et à mes gens. Aussi, pour purifier mes champs, mes terres et mes biens, et pour faire un sacrifice expiatoire, daigne agréer ces trois victimes à la mamelle que je vais immoler. Mars notre père, agréez dans ce but ces trois jeunes victimes.''}}
+# Planète [[#fr-nom-pr-2|Mars]].
+#* {{exemple | lang=la
+ | Jovis stellae proximum inferiorem orbem tenet ''{{lien|πυρόεις|grc}}'', quae stella '''Martis''' appellatur
+ | source=Cicéron. N. D. 2, 20, 53}}
+
+==== {{S|variantes}} ====
+* {{lien|Mavors|la}}
+
+==== {{S|synonymes}} ====
+* {{lien|Pyrois|la}}, {{lien|Pyroeis|la}}
+
+==== {{S|dérivés}} ====
+{{(}}
+* {{lien|Martialis|la|sens=de Mars}}
+* {{lien|Martianus|la|sens=Martien}}
+* {{lien|Martiaticus|la|sens=militaire}}
+* {{lien|Marticola|la}}, {{lien|Marticultor|la|sens=adorateur de Mars}}
+* {{lien|Martigena|la|sens=enfant de Mars}}
+* {{lien|Martius|la|sens=de Mars}}
+{{)}}
+
+=== {{S|nom|la}} ===
+'''Mars''' {{m}}
+# [[guerre|Guerre]], combat, bataille.
+
+=== {{S|voir aussi}} ===
+*{{WP|lang=la}}
+
+=== {{S|références}} ===
+{{Références}}
+* {{R:Gaffiot}}
+
+[[Catégorie:Planètes en latin]]
+
+== {{langue|li}} ==
+=== {{S|étymologie}} ===
+:Du {{étyl|la|li|Mars}}.
+
+=== {{S|nom propre|li}} ===
+'''Mars''' {{pron||li}}
+# Planète [[#fr-nom-pr-2|Mars]].
+
+[[Catégorie:Planètes en limbourgeois]]
+
+== {{langue|lb}} ==
+=== {{S|étymologie}} ===
+: Du {{étylp|la|lb|Mars}}.
+
+=== {{S|nom propre|lb}} ===
+{{lb-inv|}}
+'''Mars''' {{pron||lb}}
+# {{divinités|lb|romaines}} {{lien|Mars|fr|nom-pr-1}}.
+#* {{exemple|lang=lb}}
+# {{planètes|lb}} {{lien|Mars|fr|nom-pr-2}}.
+#* {{exemple|lang=lb}}
+
+==== {{S|vocabulaire}} ====
+{{tableau-planètes du Système solaire/lb}}
+
+=== {{S|références}} ===
+: {{R:LOD}}
+
+== {{langue|normand}} ==
+=== {{S|étymologie}} ===
+:Du {{étyl|fr|normand|Mars}}.
+
+=== {{S|nom propre|normand}} ===
+'''Mars''' {{pron||normand}}
+# {{lexique|astronomie|normand}} Planète [[#fr-nom-pr-2|Mars]].
+
+=== {{S|références}} ===
+* {{R:VJA}}
+[[Catégorie:Planètes en normand]]
+
+== {{langue|nb}} ==
+=== {{S|étymologie}} ===
+:Du {{étyl|la|nb|Mars}}.
+
+=== {{S|nom propre|nb}} ===
+'''Mars''' {{pron||nb}}
+# Planète [[#fr-nom-pr-2|Mars]].
+
+[[Catégorie:Planètes en norvégien (bokmål)]]
+
+== {{langue|nn}} ==
+=== {{S|étymologie}} ===
+:Du {{étyl|la|nn|Mars}}.
+
+=== {{S|nom propre|nn}} ===
+'''Mars''' {{pron||nn}}
+# Planète [[#fr-nom-pr-2|Mars]].
+
+[[Catégorie:Planètes en norvégien (nynorsk)]]
+
+== {{langue|nl}} ==
+=== {{S|étymologie}} ===
+:Du {{étyl|la|nl|Mars}}.
+
+=== {{S|nom propre|nl}} ===
+'''Mars''' {{pron||nl}}
+# Planète [[#fr-nom-pr-2|Mars]].
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=nl|Pays-Bas||audio=Nl-Mars.ogg}}
+
+[[Catégorie:Planètes en néerlandais]]
+
+== {{langue|oc}} ==
+=== {{S|étymologie}} ===
+: (''[[#oc-nom-pr-1|Nom propre 1]]'') Du {{étyl|la|oc|Mars}}, issu lui-même de l'{{étyl|osc|oc|𐌌𐌀𐌌𐌄𐌓𐌔}}.
+: (''[[#oc-nom-pr-2|Nom propre 2]]'') Du nom du dieu.
+
+=== {{S|nom propre|oc|num=1}} ===
+'''Mars''' {{pron|ˈmaɾs|oc}}
+# {{lexique|mythologie|oc}} [[Mars#fr-nom-pr-1|Mars]] (dieu).
+
+==== {{S|synonymes}} ====
+# [[Mart#oc-nom-pr-1|Mart]]
+
+=== {{S|nom propre|oc|num=2}} ===
+'''Mars''' {{pron|ˈmaɾs|oc}}
+# {{lexique|astronomie|oc}} [[Mars#fr-nom-pr-2|Mars]] (planète).
+
+==== {{S|synonymes}} ====
+# [[Mart#oc-nom-pr-2|Mart]]
+
+==== {{S|hyperonymes}} ====
+* {{lien|planeta tellurica|oc}}
+** {{lien|planeta|oc}}
+
+==== {{S|vocabulaire}} ====
+{{Liste|avant=[[Tèrra#oc|la Tèrra]]|suiv.de|après=[[Jupitèr#oc-nom-pr-2|Jupitèr]]|liste=[[:Catégorie:Lexique en occitan de l’astronomie|Planètes principales]]}}
+
+[[Catégorie:Planètes en occitan]]
+[[Catégorie:Divinités romaines en occitan]]
+
+== {{langue|ug}} ==
+=== {{S|étymologie}} ===
+:Du {{étyl|la|ug|Mars}}.
+
+=== {{S|nom propre|ug}} ===
+'''Mars''' {{pron||ug}}
+# Planète [[#fr-nom-pr-2|Mars]].
+
+[[Catégorie:Planètes en ouïghour]]
+
+== {{langue|uz}} ==
+=== {{S|étymologie}} ===
+:Du {{étyl|la|uz|Mars}}.
+
+=== {{S|nom propre|uz}} ===
+'''Mars''' {{pron||uz}}
+# Planète [[#fr-nom-pr-2|Mars]].
+
+[[Catégorie:Planètes en ouzbek]]
+
+== {{langue|pl}} ==
+=== {{S|étymologie}} ===
+:Du {{étylp|la|pl|Mars}}.
+
+=== {{S|nom propre|pl}} ===
+'''Mars''' {{pron||pl}}
+# Planète [[#fr-nom-pr-2|Mars]].
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=pl||audio=Pl-Mars.ogg}}
+* {{écouter|Bytom (Pologne)||lang=pl|audio=LL-Q809 (pol)-Gower-Mars.wav}}
+
+[[Catégorie:Planètes en polonais]]
+
+== {{langue|sh}} ==
+=== {{S|étymologie}} ===
+:Du {{étyl|la|sh|Mars}}.
+
+=== {{S|nom propre|sh}} ===
+'''Mars''' {{pron||sh}}
+# Planète [[#fr-nom-pr-2|Mars]].
+
+[[Catégorie:Planètes en serbo-croate]]
+
+== {{langue|sk}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|sk|Mars}}.
+
+=== {{S|nom propre|sk|num=1}} ===
+{{sk-décl-nom-ma|sing=oui|gs2=u}}
+'''Mars''' {{pron|mars|sk}} {{m|a}}
+# Dieu [[#fr-nom-pr-1|Mars]].
+
+=== {{S|nom propre|sk|num=2}} ===
+{{sk-décl-nom-mi-dur|sing=oui}}
+'''Mars''' {{pron|mars|sk}} {{m|i}}
+# Planète [[#fr-nom-pr-2|Mars]].
+
+==== {{S|dérivés}} ====
+* [[Marťan]], [[Marťanka]]
+* [[marťanský]]
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=sk}}
+
+[[Catégorie:Planètes en slovaque]]
+
+== {{langue|sl}} ==
+=== {{S|étymologie}} ===
+:Du {{étyl|la|sl|Mars}}.
+
+=== {{S|nom propre|sl}} ===
+'''Mars''' {{pron||sl}}
+# Planète [[#fr-nom-pr-2|Mars]].
+
+[[Catégorie:Planètes en slovène]]
+
+== {{langue|sv}} ==
+=== {{S|étymologie}} ===
+:Du {{étyl|la|sv|Mars}}.
+
+=== {{S|nom propre|sv}} ===
+'''Mars''' {{pron||sv}}
+# {{lexique|religion|sv}} [[Mars#fr|Mars]].
+# Planète [[#fr-nom-pr-2|Mars]].
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=sv|Suède||audio=LL-Q9027 (swe)-Moonhouse-Mars.wav}}
+
+[[Catégorie:Planètes en suédois]]
+
+== {{langue|cs}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|cs|Mars}}.
+
+=== {{S|nom propre|cs|num=1}} ===
+{{cs-décl-nom-autre|rad=Mar|sing=oui|ns=s|gs=ta|ds=tu|as=ta|vs=te|ls=tu|is=tem}}
+'''Mars''' {{pron||cs}} {{m|a}}
+# {{lexique|mythologie|cs}} Dieu [[#fr-nom-pr-1|Mars]].
+#* {{exemple | lang=cs
+ | Hlavní svátek boha '''Marta''' byl na jaře, kdy se probouzí příroda ze zimního spánku.
+ | }}
+
+==== {{S|dérivés}} ====
+* [[Martův#la|Martův]], de Mars, martial
+
+=== {{S|nom propre|cs|num=2}} ===
+{{cs-décl-nom-mi-dur|rad=Mars|sing=oui}}
+'''Mars''' {{pron||cs}} {{m|i}}
+# Planète [[#fr-nom-pr-2|Mars]].
+#* {{exemple | lang=cs
+ | V současné době jsou na oběžné dráze kolem '''Marsu''' tři funkční sondy (Mars Odyssey, Mars Express a Mars Reconnaissance Orbiter).
+ | }}
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=cs||audio=Cs-Mars.ogg}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=cs}}
+
+[[Catégorie:Planètes en tchèque]]
+
+== {{langue|tr}} ==
+=== {{S|étymologie}} ===
+:Du {{étyl|la|tr|Mars}}.
+
+=== {{S|nom propre|tr}} ===
+'''Mars''' {{pron||tr}}
+# Planète [[#fr-nom-pr-2|Mars]].
+
+==== {{S|synonymes}} ====
+* [[Merih]]
+
+[[Catégorie:Planètes en turc]]

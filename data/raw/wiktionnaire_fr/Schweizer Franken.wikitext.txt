@@ -1,0 +1,28 @@
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw}}
+
+=== {{S|nom|gsw}} ===
+'''Schweizer Franken''' {{pron||gsw}}
+# [[franc suisse|Franc suisse]] (monnaie).
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: {{composé de|Schweizer|sens1=Suisse|Franken|sens2=franc|lang=de|m=1}}.
+
+=== {{S|nom|de}} ===
+{{de-nom-m-en}}
+'''Schweizer Franken''' {{pron|ˈʃvaɪ̯t͡sɐ ˈfʁaŋkn̩|de}} {{m}}
+# {{lexique|numismatique|de}} [[franc suisse|Franc suisse]] (monnaie).
+#* {{exemple | lang=de
+ | Die Schweiz verwendet nicht den Euro, sondern immer den '''Schweizer Franken'''.
+ | La Suisse n'utilise pas l'euro , mais toujours le franc suisse.}}
+
+==== {{S|variantes orthographiques}} ====
+* [[Schweizerfranken]]
+
+==== {{S|abréviations}} ====
+* [[CHF]]
+* [[sfr]]
+* [[sFr.]]
+* [[SFr.]]

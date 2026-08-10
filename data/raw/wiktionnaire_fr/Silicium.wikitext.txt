@@ -1,0 +1,70 @@
+{{voir|silicium}}
+
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw}}
+
+=== {{S|nom|gsw}} ===
+'''Silicium''' {{pron||gsw}}
+# {{éléments|gsw}} [[silicium|Silicium]].
+{{clr}}
+==== {{S|vocabulaire}} ====
+{{tableau périodique/gsw}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=gsw}}
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: Voir ''[[silicium]]''.
+
+=== {{S|nom|de}} ===
+{{de-nom-n|sing=1}}
+{{légende élément/de|Si}}
+[[Image:SiliconCroda.jpg|thumb|alt=Une pièce de silicium pur.|''Ein {{l|Stück|de}} {{l|rein|de|dif=reines}} '''Silicium'''.'' – Une [[pièce]] de [[silicium]] [[pur]].]]
+'''Silicium''' {{pron|ziˈliːt͡si̯ʊm|de}} {{n}} {{au singulier uniquement|lang=de}}
+# {{éléments|de}} [[silicium#fr|Silicium]] : l’{{lien|élément chimique}} [[Si#conv|Si]].
+#* {{exemple | lang=de
+| Die physikalischen Eigenschaften amorphen '''Siliciums''', die von kristallinem '''Silicium''' verschieden sind, beeinflussen die Solarzelleneigenschaften. Manche Eigenschaften sind auch noch nicht vollständig verstanden.
+| Les propriétés physiques du silicium amorphe, différentes de celles du silicium cristallin, influencent les propriétés des cellules solaires. Certaines de ces propriétés ne sont pas encore complètement comprises.
+|source={{w|Solarzelle|lang=de}}}}
+
+==== {{S|variantes orthographiques}} ====
+* {{lien|Silizium|de}}
+
+==== {{S|dérivés}} ====
+* {{l|amorphes Silicium|sens=[[silicium amorphe]]}}
+* {{l|gestrecktes Silicium|sens=[[silicium étiré]]}}
+* {{l|Siliciumcarbid|de|sens=[[carbure de silicium]]}}
+* {{l|Siliciumkristall|de|sens=[[cristal]] de [[silicium]]}}
+* {{l|Siliciumnitrid|de|sens=[[nitrure de silicium]]}}
+* {{l|Siliciumoxid|de|sens=[[oxyde de silicium]]}}
+** {{l|Siliciumdioxid|de|sens=[[dioxyde de silicium]]}}
+** {{l|Siliciummonoxid|de|sens=[[monoxyde de silicium]]}}
+{{clr}}
+
+==== {{S|vocabulaire}} ====
+* {{voir thésaurus|de|tableau périodique des éléments}}
+{{tableau périodique/de}}
+{{Liste|avant={{lien|Magnesium|de}}<br>([[Mg#conv|Mg]])|après={{lien|Phosphor|de}}<br>([[P#conv|P]])|liste=[[Thésaurus:tableau périodique des éléments/allemand|Éléments chimiques en allemand]]}}
+
+==== {{S|hyperonymes}} ====
+* {{l|chemisches Element|de|sens=[[élément chimique]]}}
+* {{l|Halbleiter|de|sens=[[semiconducteur]]}}
+
+==== {{S|holonymes}} ====
+* {{l|Periodensystem|de|sens=[[tableau périodique]]}}
+* {{l|Periodensystem der Elemente|de|sens=[[tableau périodique des éléments]]}}
+
+=== {{S|prononciation}} ===
+* {{pron|ziˈliːʦi̯ʊm|de}}
+* {{écouter|Allemagne (Berlin)|ziˈliːt͡si̯ʊm|de|audio=LL-Q188 (deu)-Lucas Werkmeister-Silicium.wav}}
+* {{écouter|Allemagne (Berlin)|ziˈliːt͡si̯ʊm|de|audio=LL-Q188 (deu)-Sebastian Wallroth-Silicium.wav}}
+* {{écouter|Allemagne (Berlin)|ziˈliːt͡si̯ʊm|de|audio=De-Silicium.ogg}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=de}}
+
+=== {{S|références}} ===
+* {{R:DWDS|Silicium}}
+* {{R:Duden|Silizium|Silicium}}

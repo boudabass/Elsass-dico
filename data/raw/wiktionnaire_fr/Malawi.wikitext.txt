@@ -1,0 +1,523 @@
+{{voir/malawi}}
+
+== {{langue|fr}} ==
+
+=== {{S|étymologie}} ===
+: {{date|lang=fr}} Signifierait « langues de feu » ou « eau enflammée » dans la langue indigène des habitants de ce pays. Cela fait référence aux reflets du soleil sur le lac du même nom.
+
+=== {{S|nom propre|fr}} ===
+{{fr-inv|ma.la.wi}}
+[[Image:Malawi (orthographic projection).svg|thumb|Localisation du '''Malawi'''.]]
+'''Malawi''' {{pron|ma.la.wi|fr}} {{m}}
+# {{pays|fr|d’Afrique}} État situé en [[Afrique]] centrale-sud-tropicale, entre le [[Mozambique]], la [[Zambie]] et la [[Tanzanie]]. Sa capitale est [[Lilongwe]].
+#* {{exemple|lang=fr
+| Après avoir envisagé pendant quelques temps de m’enfuir dans ce qui s’appelait encore le Nyasaland, aujourd’hui le '''Malawi''', ou en Chine, et de consacrer ma vie à évangéliser les païens, je décidai d’éviter le désagrément d’allonger la liste des martyrs. 
+| source={{w|André Brink}},  ''Mes bifurcations : Mémoires'', Traduit par {{w|Bernard Turle}}, Actes Sud, 2010}}
+
+==== {{S|variantes orthographiques}} ====
+* [[Malaŵi]] {{rare|nocat=1}}
+
+==== {{S|abréviations}} ====
+* [[MWI]] (norme {{w|ISO 3166-1}} alpha-3)
+
+==== {{S|gentilés}} ====
+* [[Malawien]], [[Malawienne]], [[malawien]]{{réf}}
+* [[Malawite]], [[malawite]]{{réf|2}} ''(''{{mf}}'')''
+
+==== {{S|vocabulaire}} ====
+* [[Nyasaland]], [[Nyassaland]] ''(ancienne dénomination)''
+
+==== {{S|traductions}} ====
+{{trad-début|Pays d’Afrique}}
+* {{T|af}} : {{trad+|af|Malawi}}
+* {{T|sq}} : {{trad+|sq|Malevia}}
+* {{T|gsw}} : {{trad|gsw|Malawi}}
+* {{T|de}} : {{trad+|de|Malawi}}
+* {{T|am}} : {{trad-|am|ማላዊ}}
+* {{T|en}} : {{trad+|en|Malawi}}
+* {{T|ar}} : {{trad-|ar|ملاوي}}
+* {{T|arz}} : {{trad|arz|مالاوى}}
+* {{T|an}} : {{trad-|an|Malaui}}
+* {{T|hy}} : {{trad-|hy|Մալավի|tr=Malavi}}
+* {{T|ast}} : {{trad+|ast|Malaui}}, {{trad+|ast|Malawi}}
+* {{T|az}} : {{trad+|az|Malavi}}
+* {{T|bm}} : {{trad|bm|Malawi}}
+* {{T|nds}} : {{trad+|nds|Malawi}}
+* {{T|eu}} : {{trad-|eu|Malawi}}
+* {{T|bn}} : {{trad+|bn|মালাউই|R=Malaui}}
+* {{T|be}} : {{trad-|be|Малаві|tr=Malavi}}
+* {{T|be-tarask}} : {{trad|be-tarask|Малаві|R=Malavi}}
+* {{T|bs}} : {{trad-|bs|Malavi}}
+* {{T|br}} : {{trad+|br|Malawi}}
+* {{T|bg}} : {{trad-|bg|Малави|tr=Malavi}}
+* {{T|ca}} : {{trad+|ca|Malawi}}
+* {{T|ceb}} : {{trad|ceb|Malawi}}
+* {{T|zh}} : {{trad+|zh|马拉维|R=Mǎlāwéi|tradi=馬拉維}}
+* {{T|ko}} : {{trad+|ko|말라위|tr=Mallawi}}
+* {{T|kw}} : {{trad-|kw|Malawi}}
+* {{T|ht}} : {{trad|ht|Malawi}}
+* {{T|hr}} : {{trad+|hr|Malavi}}
+* {{T|da}} : {{trad-|da|Malawi}}
+* {{T|diq}} : {{trad|diq|Malawi}}
+* {{T|dv}} : {{trad-|dv|މަލާވީ}}
+* {{T|es}} : {{trad+|es|Malaui}}
+* {{T|eo}} : {{trad+|eo|Malavio}}
+* {{T|et}} : {{trad+|et|Malawi}}
+* {{T|fo}} : {{trad-|fo|Malavi}}
+* {{T|fi}} : {{trad+|fi|Malawi}}
+* {{T|frp}} : {{trad|frp|Malavi}}
+* {{T|fy}} : {{trad-|fy|Malawy}}
+* {{T|stq}} : {{trad|stq|Malawi}}
+* {{T|gd}} : {{trad-|gd|Malabhaidh}}
+* {{T|ga}} : {{trad-|ga|Mhaláiv}}
+* {{T|gl}} : {{trad+|gl|Malaui}}
+* {{T|cy}} : {{trad-|cy|Malawi}}
+* {{T|ka}} : {{trad-|ka|მალავი|tr=Malavi}}
+* {{T|el}} : {{trad+|el|Μαλάουι|R=Maláoui}}
+* {{T|hak}} : {{trad|hak|Mâ-là-vî}}
+* {{T|he}} : {{trad-|he|מלאווי}}
+* {{T|hi}} : {{trad+|hi|मलावी|R=Malāvī}}
+* {{T|hu}} : {{trad+|hu|Malawi}}
+* {{T|sah}} : {{trad|sah|Малауи|R=Malaui}}
+* {{T|io}} : {{trad+|io|Malawi}}
+* {{T|id}} : {{trad+|id|Malawi}}
+* {{T|ie}} : {{trad-|ie|Malawi}}
+* {{T|is}} : {{trad+|is|Malaví}}
+* {{T|it}} : {{trad+|it|Malawi}}
+* {{T|ja}} : {{trad+|ja|マラウイ|tr=Maraui}}
+* {{T|jv}} : {{trad-|jv|Malawi}}
+* {{T|pam}} : {{trad|pam|Malawi}}
+* {{T|ks}} : {{trad+|ks|مَلاوی|R=Malāvī}}, {{trad-|ks|मलावी|R=Malāvī}}
+* {{T|kk}} : {{trad+|kk|Малави|tr=Malavi}}
+* {{T|avk}} : {{trad|avk|Malawia}}
+* {{T|ku}} : {{trad+|ku|Malavî}}
+* {{T|la}} : {{trad-|la|Malavium}}
+* {{T|lv}} : {{trad-|lv|Malāvija}}
+* {{T|lij}} : {{trad|lij|Malawi}}
+* {{T|li}} : {{trad+|li|Malawi}}
+* {{T|ln}} : {{trad-|ln|Malawi}}
+* {{T|lt}} : {{trad+|lt|Malavis}}
+* {{T|lmo}} : {{trad|lmo|Malawi}}
+* {{T|lb}} : {{trad-|lb|Malawi}}
+* {{T|mk}} : {{trad-|mk|Малави|tr=Malavi}}
+* {{T|ms}} : {{trad-|ms|Malawi}}
+* {{T|ml}} : {{trad-|ml|മലാവി}}
+* {{T|bpy}} : {{trad|bpy|মালাবি|R=Malabi}}
+* {{T|gv}} : {{trad-|gv|Malawi}}
+* {{T|mr}} : {{trad-|mr|मलावी|R=Malāvī}}
+* {{T|nan}} : {{trad|nan|Malaŵi}}
+* {{T|nch}} : {{trad|nch|Malawi}}
+* {{T|nl}} : {{trad+|nl|Malawi}}
+* {{T|no}} : {{trad+|no|Malawi}}
+* {{T|nn}} : {{trad+|no|Malawi}}
+* {{T|nov}} : {{trad|nov|Malawi}}
+* {{T|ny}} : {{trad|ny|Malaŵi}}
+* {{T|oc}} : {{trad+|oc|Malawi}}
+* {{T|ug}} : {{trad-|ug|Malawi}}, {{trad-|ug|مالاۋى}}
+* {{T|ur}} : {{trad-|ur|ملاوی}}
+* {{T|uz}} : {{trad+|uz|Malavi}}
+* {{T|ps}} : {{trad-|ps|ملاوي}}
+* {{T|fa}} : {{trad-|fa|مالاوی}}
+* {{T|pms}} : {{trad|pms|Malawi}}
+* {{T|pl}} : {{trad+|pl|Malawi}}
+* {{T|pt}} : {{trad+|pt|Malawi}}
+* {{T|qu}} : {{trad-|qu|Malawi}}
+* {{T|ro}} : {{trad+|ro|Malawi}}
+* {{T|ru}} : {{trad+|ru|Малави|tr=Malavi}}
+* {{T|se}} : {{trad|se|Malawi}}
+* {{T|sgs}} : {{trad|sgs|Malavės}}
+* {{T|sa}} : {{trad-|sa|मलावी|R=Malāvī}}
+* {{T|sc}} : {{trad|sc|Malawi}}
+* {{T|sr}} : {{trad-|sr|Малави|R=Malavi}}
+* {{T|sh}} : {{trad+|sh|Malavi}}
+* {{T|scn}} : {{trad-|scn|Malaui}}
+* {{T|szl}} : {{trad|szl|Malawi}}
+* {{T|sk}} : {{trad-|sk|Malawi}}
+* {{T|sl}} : {{trad+|sl|Malavi}}
+* {{T|so}} : {{trad-|so|Malaawi}}
+* {{T|sv}} : {{trad+|sv|Malawi}}
+* {{T|sw}} : {{trad+|sw|Malawi}}
+* {{T|tg}} : {{trad-|tg|Малави|R=Malavi}}
+* {{T|tl}} : {{trad+|tl|Malawi}}
+* {{T|ta}} : {{trad-|ta|மலாவி}}
+* {{T|crh}} : {{trad|crh|Malavi}}
+* {{T|cs}} : {{trad+|cs|Malawi}}
+* {{T|th}} : {{trad-|th|ประเทศมาลาวี}}
+* {{T|ti}} : {{trad-|ti|ማላዊ}}
+* {{T|tok}} : {{trad|tok|ma Malawi}}
+* {{T|tum}} : {{trad|tum|Malawi}}
+* {{T|tr}} : {{trad+|tr|Malavi}}
+* {{T|uk}} : {{trad+|uk|Малаві|R=Malavi}}
+* {{T|vec}} : {{trad-|vec|Malawi}}
+* {{T|vi}} : {{trad+|vi|Malawi}}
+* {{T|vo}} : {{trad-|vo|Malaviyän}}
+* {{T|war}} : {{trad|war|Malawi}}
+* {{T|wo}} : {{trad-|wo|Malawi}}
+* {{T|yo}} : {{trad|yo|Màláwì}}
+{{trad-fin}}
+
+=== {{S|prononciation}} ===
+* {{écouter||ma.la.wi|lang=fr|audio=Fr-Malawi.ogg}}
+* {{écouter||ma.la.wi|lang=fr|audio=LL-Q150 (fra)-Jules78120-Malawi.wav}}
+* {{écouter|lang=fr|France (Paris)|audio=LL-Q150 (fra)-GrandCelinien-Malawi.wav}}
+* {{écouter|lang=fr|France (Occitanie)|audio=LL-Q150 (fra)-Arthur Crbz-Malawi.wav}}
+* {{écouter|lang=fr|France||audio=LL-Q150 (fra)-Mecanautes-Malawi.wav}}
+
+=== {{S|voir aussi}} ===
+* {{WP}}
+
+=== {{S|références}} ===
+* {{RÉF}} : Forme recommandée. ''{{w|Arrêté français du 4 novembre 1993 relatif à la terminologie des noms d’États et de capitales}}'', ''Journal officiel'', 25 janvier 1994
+* {{RÉF|2}} : Forme recommandée. {{R:BO106}}
+
+[[Catégorie:Malawi en français|*]]
+
+== {{langue|af}} ==
+=== {{S|nom propre|af}} ===
+'''Malawi''' {{pron||af}}
+# {{pays|af|d’Afrique}} [[#fr|Malawi]] (pays africain).
+#* {{exemple|lang=af}}
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=af|Afrique du Sud (Johannesbourg)|audio=LL-Q14196 (afr)-Oesjaar-Malawi.wav}}
+
+== {{langue|gsw}} ==
+=== {{S|nom propre|gsw}} ===
+'''Malawi''' {{pron||gsw}}
+# {{pays|gsw}} [[#fr|Malawi]] (pays africain).
+
+== {{langue|de}} ==
+=== {{S|nom propre|de}} ===
+{{de-nom
+|ns= Malawi |np=
+|as= Malawi |ap=
+|gs= Malawis |gp=
+|ds= Malawi |dp=}}
+'''Malawi''' {{pron||de}}
+# {{pays|de|d’Afrique}} [[#fr|Malawi]] (pays africain).
+
+==== {{S|gentilés}} ====
+* [[Malawier]], [[Malawierin]]
+* [[malawisch]]
+
+== {{langue|en}} ==
+=== {{S|nom propre|en}} ===
+'''Malawi''' {{pron||en}}
+# {{pays|en|d’Afrique}} [[#fr|Malawi]] (pays africain).
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=en|Royaume-Uni (Sud de l'Angleterre)||audio=LL-Q1860 (eng)-Vealhurl-Malawi.wav}}
+* {{écouter|Londres (Royaume-Uni)||lang=en|audio=}}
+* {{écouter|Texas (États-Unis)||lang=en|audio=LL-Q1860 (eng)-Wodencafe-Malawi.wav}}
+* {{écouter|Londres (Royaume-Uni)||lang=en|audio=LL-Q1860 (eng)-Soundguys-Malawi.wav}}
+* {{écouter|États-Unis||niveau=bon|lang=en|audio=LL-Q1860 (eng)-PinkberryMoloko-Malawi.wav}}
+* {{écouter|||lang=en|audio=LL-Q1860 (eng)-Boredcookie-Malawi.wav}}
+* {{écouter|New York (États-Unis)||lang=en|audio=LL-Q1860 (eng)-Assorted-Interests-Malawi.wav}}
+
+== {{langue|bm}} ==
+=== {{S|nom propre|bm}} ===
+'''Malawi''' {{pron||bm}}
+# {{pays|bm}} [[#fr|Malawi]] (pays africain).
+
+== {{langue|nds}} ==
+=== {{S|nom propre|nds}} ===
+'''Malawi''' {{pron||nds}}
+# {{pays|nds}} [[#fr|Malawi]] (pays africain).
+
+== {{langue|eu}} ==
+=== {{S|nom propre|eu}} ===
+'''Malawi''' {{pron||eu}}
+# {{pays|eu|d’Afrique}} [[#fr|Malawi]] (pays africain).
+
+== {{langue|br}} ==
+=== {{S|nom propre|br}} ===
+'''Malawi''' {{pron||br}}
+# {{pays|br}} [[#fr|Malawi]] (pays africain).
+
+== {{langue|ca}} ==
+=== {{S|nom propre|ca}} ===
+'''Malawi''' {{pron||ca}}
+# {{pays|ca|d’Afrique}} [[#fr|Malawi]] (pays africain).
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=ca|Espagne (Villarreal)||audio=LL-Q7026 (cat)-Millars-Malawi.wav}}
+
+== {{langue|ceb}} ==
+=== {{S|nom propre|ceb}} ===
+'''Malawi''' {{pron||ceb}}
+# {{pays|ceb}} [[#fr|Malawi]] (pays africain).
+
+== {{langue|kw}} ==
+=== {{S|nom propre|kw}} ===
+'''Malawi''' {{pron||kw}}
+# {{pays|kw}} [[#fr|Malawi]] (pays africain).
+
+== {{langue|ht}} ==
+=== {{S|nom propre|ht}} ===
+'''Malawi''' {{pron||ht}}
+# {{pays|ht}} [[#fr|Malawi]] (pays africain).
+
+== {{langue|da}} ==
+=== {{S|nom propre|da}} ===
+'''Malawi''' {{pron||da}}
+# {{pays|da|d’Afrique}} [[#fr|Malawi]] (pays africain).
+
+== {{langue|diq}} ==
+=== {{S|nom propre|diq}} ===
+'''Malawi''' {{pron||diq}}
+# {{pays|diq}} [[#fr|Malawi]] (pays africain).
+
+== {{langue|et}} ==
+=== {{S|nom propre|et}} ===
+'''Malawi''' {{pron||et}}
+# {{pays|et|d’Afrique}} [[#fr|Malawi]] (pays africain).
+
+== {{langue|fi}} ==
+=== {{S|nom propre|fi}} ===
+'''Malawi''' {{pron||fi}}
+# {{pays|fi|d’Afrique}} [[#fr|Malawi]] (pays africain).
+
+== {{langue|stq}} ==
+=== {{S|nom propre|stq}} ===
+'''Malawi''' {{pron||stq}}
+# {{pays|stq}} [[#fr|Malawi]] (pays africain).
+
+== {{langue|cy}} ==
+=== {{S|nom propre|cy}} ===
+'''Malawi''' {{pron||cy}}
+# {{pays|cy|d’Afrique}} [[#fr|Malawi]] (pays africain).
+
+== {{langue|hu}} ==
+=== {{S|nom propre|hu}} ===
+'''Malawi''' {{pron||hu}}
+# {{pays|hu|d’Afrique}} [[#fr|Malawi]] (pays africain).
+
+== {{langue|io}} ==
+=== {{S|nom propre|io}} ===
+'''Malawi''' {{pron||io}}
+# {{pays|io}} [[#fr|Malawi]] (pays africain).
+
+== {{langue|id}} ==
+=== {{S|nom propre|id}} ===
+'''Malawi''' {{pron||id}}
+# {{pays|id|d’Afrique}} [[#fr|Malawi]] (pays africain).
+#* {{exemple|lang=id}}
+
+== {{langue|ie}} ==
+=== {{S|nom propre|ie}} ===
+'''Malawi''' {{pron||ie}}
+# {{pays|ie}} [[#fr|Malawi]] (pays africain).
+
+== {{langue|it}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|it}}
+
+=== {{S|nom propre|it}} ===
+{{it-inv|ma.ˈla.wi}}
+'''Malawi''' {{pron|ma.ˈla.wi|it}} {{m}}
+# {{pays|it|d’Afrique}} [[#fr|Malawi]] (pays africain).
+
+==== {{S|gentilés}} ====
+* [[malawiano#it|malawiano]], [[malawiana#it|malawiana]]
+
+==== {{S|vocabulaire}} ====
+* [[Nyasaland#it|Nyasaland]]
+
+=== {{S|anagrammes}} ===
+{{voir anagrammes|it}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=it}}
+* [[Annexe:Pays et leurs gentilés en italien]]ma.la.ˈwja.n
+
+== {{langue|jv}} ==
+=== {{S|nom propre|jv}} ===
+'''Malawi''' {{pron||jv}}
+# {{pays|jv}} [[#fr|Malawi]] (pays africain).
+
+== {{langue|pam}} ==
+=== {{S|nom propre|pam}} ===
+'''Malawi''' {{pron||pam}}
+# {{pays|pam}} [[#fr|Malawi]] (pays africain).
+
+== {{langue|lij}} ==
+=== {{S|nom propre|lij}} ===
+'''Malawi''' {{pron||lij}}
+# {{pays|lij}} [[#fr|Malawi]] (pays africain).
+
+== {{langue|li}} ==
+=== {{S|nom propre|li}} ===
+'''Malawi''' {{pron||li}}
+# {{pays|li}} [[#fr|Malawi]] (pays africain).
+
+== {{langue|ln}} ==
+=== {{S|nom propre|ln}} ===
+'''Malawi''' {{pron||ln}}
+# {{pays|ln}} [[#fr|Malawi]] (pays africain).
+
+== {{langue|lmo}} ==
+=== {{S|nom propre|lmo}} ===
+'''Malawi''' {{pron||lmo}}
+# {{pays|lmo}} [[#fr|Malawi]] (pays africain).
+
+== {{langue|lb}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|lb}}
+
+=== {{S|nom propre|lb}} ===
+{{lb-inv|mɑlˈaːviː|inv_titre=Nom propre}}
+'''Malawi''' {{pron|mɑlˈaːviː|lb}} {{mn ?|lb}}
+# {{pays|lb|d’Afrique|pays=Malawi|clé=*}} {{lien|Malawi|fr}}.
+#* {{exemple|lang=lb}}
+
+==== {{S|gentilés}} ====
+* {{lien|Malawier|lb}}, {{lien|Malawierin|lb}}
+* {{lien|malawesch|lb}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=lb}}
+
+=== {{S|références}} ===
+: {{R:LOD}}
+
+== {{langue|ms}} ==
+=== {{S|nom propre|ms}} ===
+'''Malawi''' {{pron||ms}}
+# {{pays|ms|d’Afrique}} [[#fr|Malawi]] (pays africain).
+
+== {{langue|gv}} ==
+=== {{S|nom propre|gv}} ===
+'''Malawi''' {{pron||gv}}
+# {{pays|gv}} [[#fr|Malawi]] (pays africain).
+
+== {{langue|nl}} ==
+=== {{S|nom propre|nl}} ===
+'''Malawi''' {{pron||nl}}
+# {{pays|nl|d’Afrique}} [[#fr|Malawi]] (pays africain).
+
+=== {{S|prononciation}} ===
+* {{écouter|||lang=nl|audio=Nl-Malawi.ogg}}
+
+== {{langue|no}} ==
+=== {{S|nom propre|no}} ===
+'''Malawi''' {{pron||no}}
+# {{pays|no|d’Afrique}} [[#fr|Malawi]] (pays africain).
+
+== {{langue|nn}} ==
+=== {{S|nom propre|nn}} ===
+'''Malawi''' {{pron||nn}}
+# {{pays|nn|d’Afrique}} [[#fr|Malawi]] (pays africain).
+
+== {{langue|nov}} ==
+=== {{S|nom propre|nov}} ===
+'''Malawi''' {{pron||nov}}
+# {{pays|nov}} [[#fr|Malawi]] (pays africain).
+
+== {{langue|oc}} ==
+=== {{S|nom propre|oc}} ===
+'''Malawi''' {{pron||oc}}
+# {{pays|oc}} [[#fr|Malawi]] (pays africain).
+
+== {{langue|ug}} ==
+=== {{S|nom propre|ug}} ===
+'''Malawi''' {{pron||ug}}
+# {{pays|ug}} [[#fr|Malawi]] (pays africain).
+
+== {{langue|pms}} ==
+=== {{S|nom propre|pms}} ===
+'''Malawi''' {{pron||pms}}
+# {{pays|pms}} [[#fr|Malawi]] (pays africain).
+
+== {{langue|pl}} ==
+=== {{S|nom propre|pl}} ===
+'''Malawi''' {{pron||pl}}
+# {{pays|pl|d’Afrique}} [[#fr|Malawi]] (pays africain).
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=pl||audio=Pl-Malawi.ogg}}
+
+== {{langue|pt}} ==
+=== {{S|nom propre|pt}} ===
+'''Malawi''' {{pron||pt}}
+# {{pays|pt|d’Afrique}} [[#fr|Malawi]] (pays africain).
+
+== {{langue|qu}} ==
+=== {{S|nom propre|qu}} ===
+'''Malawi''' {{pron||qu}}
+# {{pays|qu}} [[#fr|Malawi]] (pays africain).
+
+== {{langue|ro}} ==
+=== {{S|nom propre|ro}} ===
+'''Malawi''' {{pron||ro}}
+# {{pays|ro|d’Afrique}} [[#fr|Malawi]] (pays africain).
+
+=== {{S|prononciation}} ===
+* {{écouter|Iași (Roumanie)||lang=ro|audio=LL-Q7913 (ron)-KlaudiuMihaila-Malawi.wav}}
+
+== {{langue|se}} ==
+=== {{S|nom propre|se}} ===
+'''Malawi''' {{phono||se}}
+# {{pays|se}} [[#fr|Malawi]] (pays africain).
+
+== {{langue|sc}} ==
+=== {{S|nom propre|sc}} ===
+'''Malawi''' {{pron||sc}}
+# {{pays|sc}} [[#fr|Malawi]] (pays africain).
+
+== {{langue|szl}} ==
+=== {{S|nom propre|szl}} ===
+'''Malawi''' {{pron||szl}}
+# {{pays|szl}} [[#fr|Malawi]] (pays africain).
+
+== {{langue|sk}} ==
+=== {{S|nom propre|sk}} ===
+'''Malawi''' {{pron||sk}}
+# {{pays|sk|d’Afrique}} [[#fr|Malawi]] (pays africain).
+
+== {{langue|sv}} ==
+=== {{S|nom propre|sv}} ===
+'''Malawi''' {{pron||sv}}
+# {{pays|sv|d’Afrique}} [[#fr|Malawi]] (pays africain).
+
+=== {{S|prononciation}} ===
+* {{écouter|Suède||lang=sv|audio=LL-Q9027 (swe)-Moonhouse-Malawi.wav}}
+
+== {{langue|sw}} ==
+=== {{S|nom propre|sw}} ===
+'''Malawi''' {{pron||sw}}
+# {{pays|sw}} [[#fr|Malawi]] (pays africain).
+
+== {{langue|tl}} ==
+=== {{S|nom propre|tl}} ===
+'''Malawi''' {{pron||tl}}
+# {{pays|tl}} [[#fr|Malawi]] (pays africain).
+
+== {{langue|cs}} ==
+=== {{S|nom propre|cs}} ===
+'''Malawi''' {{pron||cs}}
+# {{pays|cs|d’Afrique}} [[#fr|Malawi]] (pays africain).
+
+== {{langue|tum}} ==
+=== {{S|nom propre|tum}} ===
+'''Malawi''' {{pron||tum}}
+# {{pays|tum}} [[#fr|Malawi]] (pays africain).
+
+== {{langue|vec}} ==
+=== {{S|nom propre|vec}} ===
+'''Malawi''' {{pron||vec}}
+# {{pays|vec}} [[#fr|Malawi]] (pays africain).
+
+== {{langue|vi}} ==
+=== {{S|nom propre|vi}} ===
+'''Malawi''' {{pron||vi}}
+# {{pays|vi|d’Afrique}} [[#fr|Malawi]] (pays africain).
+
+== {{langue|war}} ==
+=== {{S|nom propre|war}} ===
+'''Malawi''' {{pron||war}}
+# {{pays|war}} [[#fr|Malawi]] (pays africain).
+
+== {{langue|wo}} ==
+=== {{S|nom propre|wo}} ===
+'''Malawi''' {{pron||wo}}
+# {{pays|wo}} [[#fr|Malawi]] (pays africain).

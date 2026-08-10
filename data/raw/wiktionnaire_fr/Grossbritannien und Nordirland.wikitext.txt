@@ -1,0 +1,12 @@
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: Formé à partir de [[Grossbritannien]] ([[Grande-Bretagne]]) et [[Nordirland]] ([[Irlande du Nord]]).
+
+=== {{S|nom propre|gsw}} ===
+'''Grossbritannien und Nordirland''' {{pron||gsw}}
+# [[Royaume-Uni de Grande-Bretagne et d’Irlande du Nord]].
+
+
+{{clé de tri}}
+
+[[Catégorie:Pays en alémanique]]

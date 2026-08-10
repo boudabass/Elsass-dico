@@ -1,0 +1,817 @@
+{{voir/ghana}}
+
+== {{langue|fr}} ==
+
+=== {{S|étymologie}} ===
+: {{term|Empire africain subsaharien}} {{date|lang=fr}} Étymologie obscure :
+:# Apparenté à {{lien|''Guinée''|fr}} selon l’''Encyclopædia Britannica'' (voir citation [[Ghana#en|ci-dessous]]) ;
+:# Pourrait être dérivé du {{étyl|man|fr|mot=gana}} ou ''[[kana]]''<ref name="fage 2002" /> et signifie « roi guerrier » ;
+: {{term|République africaine}} {{date|lang=fr|1957}} De l’{{étylp|en|fr|mot=Ghana}}, dérivé du précédent.
+
+=== {{S|nom propre|fr}} ===
+[[Image:Ghana empire map.png|thumb|Étendue maximale de l’empire du '''Ghana''', ou de Wagadou, entre les {{siècle2|IX}} et {{siècle2|XII}} siècles.]]
+[[Image:LocationGhana.svg|thumb|Localisation de la république du '''Ghana''']]
+'''Ghana''' {{pron|ɡa.na|fr}} {{m}} {{s}}
+# {{lexique|histoire|fr}} Empire africain subsaharien.
+#*{{exemple|lang=fr|Entres les Villes, que l’Arabe de Nubie décrit dans les Negres, il fait un grand état de '''Ghana''' (c’est Cano) & dit que cette Ville est double, & sur les deux côtez d’une Mer douce, c’est à dire d’un Lac.|source={{w|Nicolas Sanson (cartographe)|Nicolas Sanson}}, ''L’Afrique en plusieurs cartes'', 1683, p. 54}}
+#*{{exemple|lang=fr|MARASA, (Géogr.) ville d’Afrique en {{lien|Nigritie|fr}}, dans le royaume de {{lien|Cassena|fr}} ou de '''Ghana''', entre une rivière qui vient de Canum, & les frontières du royaume de Zeg-zeg, selon M. de Lisle.|source=« {{ws|L’Encyclopédie/1re édition/MARASA|Marasa}} », dans ''L’Encyclopédie'', 1751}}
+#*{{exemple|lang=fr|Cet empire de '''Ghana''' était un grand État soudanien, situé sur l’emplacement actuel de Tombouctou et des provinces voisines, c’est-à-dire vers le grand coude septentrional du Niger, à la lisière du Sahara. Ce fut le premier État que rencontrèrent les Berbers, lorsqu’ils eurent franchi les solitudes du grand désert. L’existence de cet empire nous est signalée historiquement à partir du quatrième siècle de notre ère, par un ouvrage de Ahmed Baba, historien indigène de Tombouctou, qui vivait dans le seizième siècle.|source={{w|Louis Faidherbe}}, ''{{ws|Voyage de MM. Mage et Quintin dans l’intérieur de l’Afrique ; nouvelles du Soudan ; progrès des Pouls|Voyage de MM. Mage et Quintin dans l’intérieur de l’Afrique}}'', 1866}}
+#*{{exemple|lang=fr|Au moment de son apogée, vers la moitié du {{siècle2|XI}} siècle, cet empire du '''Ghana''' était bien connu en Europe, où son or arrivait grâce aux caravanes transsahariennes.|source=Patrick Puy-Denis, ''Le Ghana'', 1994}}
+# {{pays|fr|d’Afrique}} Pays d’[[Afrique]], situé entre la [[Côte d’Ivoire]], le [[Burkina Faso]] et le [[Togo]]. Sa capitale est [[Accra]].
+#* {{exemple | lang=fr
+ | M. Benoit, chef de cabinet auprès de M. Abelin, ministre de la Coopération, entra alors en contact avec moi, et me demanda de rejoindre le DC 4 à Accra : il souhaitait que j’accomplisse moi-même cette mission en tant que pilote et chef de mission, et me demanda de prendre l’avion de ligne d’U.T.A. qui partait pour Accra le mercredi 9 juillet 1975; je lui fis alors savoir que je n’avais pas de visa pour le '''Ghana''', sur quoi il me répondit qu’il faisait immédiatement le nécessaire à ce sujet.
+ | source=Jean Bothorel, ''Le pharaon'', 2014}}
+
+==== {{S|abréviations}} ====
+* [[GHA]] (norme {{w|ISO 3166-1}} alpha-3)
+
+==== {{S|synonymes}} ====
+; ''Pays moderne'' :
+* [[République du Ghana]] ''(nom officiel)''
+* [[Côte-de-l’Or]] ''(ancien nom)''
+; ''Ancien empire'' :
+* [[Wagadou]]
+
+==== {{S|gentilés}} ====
+* [[Ghanéen]], [[Ghanéenne]], [[ghanéen]]{{réf}}{{réf|2}}
+
+==== {{S|traductions}} ====
+{{trad-début|Pays d’Afrique}}
+* {{T|af}} : {{trad-|af|Ghana}}
+* {{T|ak}} : {{trad-|ak|Ghana}}
+* {{T|sq}} : {{trad+|sq|Gana}}
+* {{T|gsw}} : {{trad|gsw|Ghana}}
+* {{T|de}} : {{trad+|de|Ghana}}
+* {{T|am}} : {{trad-|am|ጋና}}
+* {{T|en}} : {{trad+|en|Ghana}}
+* {{T|ar}} : {{trad-|ar|غانا}}
+* {{T|an}} : {{trad-|an|Ghana}}
+* {{T|hy}} : {{trad-|hy|Գհանա|tr=Ghana}}
+* {{T|ast}} : {{trad+|ast|Ghana}}
+* {{T|az}} : {{trad+|az|Qana}}
+* {{T|bm}} : {{trad-|bm|Gana}}
+* {{T|nds}} : {{trad+|nds|Ghana}}
+* {{T|kk}} : {{trad+|kk|Гана}}
+* {{T|dsb}} : {{trad|dsb|Ghana}}
+* {{T|eu}} : {{trad-|eu|Ghana}}
+* {{T|bn}} : {{trad+|bn|ঘানা|R=Ghana}}
+* {{T|be}} : {{trad-|be|Гана|tr=Hana}}
+* {{T|be-tarask}} : {{trad|be-tarask|Ґана|R=Gana}}
+* {{T|bs}} : {{trad-|bs|Gana}}
+* {{T|br}} : {{trad-|br|Ghana}}
+* {{T|bg}} : {{trad-|bg|Гана|tr=Gana}}
+* {{T|yue}} : {{trad-|yue|加納}}
+* {{T|ca}} : {{trad+|ca|Ghana}}
+* {{T|ceb}} : {{trad|ceb|Ghana}}
+* {{T|zh}} : {{trad+|zh|加纳|R=Jiānà|tradi=加納}}, {{trad-|zh|迦纳|R=Jiānà|tradi=迦納}}
+* {{T|ko}} : {{trad+|ko|가나|tr=Gana}}
+* {{T|kw}} : {{trad-|kw|Ghana}}
+* {{T|ht}} : {{trad|ht|Gana}}
+* {{T|hr}} : {{trad+|hr|Gana}}
+* {{T|da}} : {{trad+|da|Ghana}}
+* {{T|diq}} : {{trad-|diq|Gana}}
+* {{T|dv}} : {{trad-|dv|ގާނާ}}
+* {{T|es}} : {{trad+|es|Ghana}}
+* {{T|eo}} : {{trad+|eo|Ganao}}
+* {{T|et}} : {{trad+|et|Ghana}}
+* {{T|ee}} : {{trad|ee|Gana}}
+* {{T|fi}} : {{trad+|fi|Ghana}}
+* {{T|frp}} : {{trad|frp|Gana}}
+* {{T|fy}} : {{trad-|fy|Gana}}
+* {{T|stq}} : {{trad|stq|Ghana}}
+* {{T|gd}} : {{trad-|gd|Gàna}}
+* {{T|ga}} : {{trad-|ga|Gána}}
+* {{T|gl}} : {{trad+|gl|Gana}}
+* {{T|cy}} : {{trad-|cy|Ghana}}
+* {{T|ka}} : {{trad+|ka|განა|tr=Gana}}
+* {{T|el}} : {{trad+|el|Γκάνα|R=Gána}}
+* {{T|hsb}} : {{trad-|hsb|Ghana}}
+* {{T|he}} : {{trad-|he|גאנה}}
+* {{T|hi}} : {{trad+|hi|घाना|R=Ghānā}}
+* {{T|hu}} : {{trad+|hu|Ghána}}
+* {{T|sah}} : {{trad|sah|Гана|R=Gana}}
+* {{T|io}} : {{trad+|io|Ghana}}
+* {{T|ig}} : {{trad|ig|Ghana}}
+* {{T|ilo}} : {{trad|ilo|Ghana}}
+* {{T|id}} : {{trad+|id|Ghana}}
+* {{T|ia}} : {{trad-|ia|Ghana}}
+* {{T|ie}} : {{trad-|ie|Ghana}}
+* {{T|is}} : {{trad+|is|Gana}}
+* {{T|it}} : {{trad+|it|Ghana}}
+* {{T|ja}} : {{trad+|ja|ガーナ|tr=Gāna}}
+* {{T|jv}} : {{trad-|jv|Ghana}}
+* {{T|kn}} : {{trad-|kn|ಘಾನಾ}}
+* {{T|pam}} : {{trad|pam|Ghana}}
+* {{T|kk}} : {{trad+|kk|Гана|tr=Gana}}
+* {{T|avk}} : {{trad|avk|Gana}}
+* {{T|ku}} : {{trad+|ku|Gana}}
+* {{T|la}} : {{trad-|la|Ghana}}
+* {{T|lv}} : {{trad+|lv|Gana}}
+* {{T|lij}} : {{trad|lij|Ghana}}
+* {{T|li}} : {{trad+|li|Ghana}}
+* {{T|ln}} : {{trad-|ln|Ghana}}
+* {{T|lt}} : {{trad+|lt|Gana}}
+* {{T|lb}} : {{trad-|lb|Ghana}}
+* {{T|mk}} : {{trad+|mk|Гана|tr=Gana}}
+* {{T|ms}} : {{trad-|ms|Ghana}}
+* {{T|ml}} : {{trad-|ml|ഘാന}}
+* {{T|bpy}} : {{trad|bpy|ঘানা|R=Ghana}}
+* {{T|gv}} : {{trad-|gv|Ganey|dif=yn Ghaney}}
+* {{T|mr}} : {{trad-|mr|घाना|R=Ghānā}}
+* {{T|nan}} : {{trad-|nan|Ghana}}
+* {{T|mn}} : {{trad+|mn|Гана|R=Gana}}
+* {{T|nch}} : {{trad|nch|Ghana}}
+* {{T|na}} : {{trad-|na|Ghana}}
+* {{T|nl}} : {{trad+|nl|Ghana}}
+* {{T|no}} : {{trad+|no|Ghana}}
+* {{T|nn}} : {{trad+|no|Ghana}}
+* {{T|nov}} : {{trad|nov|Gana}}
+* {{T|oc}} : {{trad-|oc|Gana}}, {{trad+|oc|Ghana}}
+* {{T|os}} : {{trad|os|Ганæ|R=Ganæ}}
+* {{T|ug}} : {{trad-|ug|گانا}}
+* {{T|ur}} : {{trad-|ur|گھانا}}
+* {{T|uz}} : {{trad-|uz|Gʻana}}
+* {{T|ps}} : {{trad-|ps|ګانا}}
+* {{T|pap}} : {{trad|pap|Ghana}}
+* {{T|pdc}} : {{trad|pdc|Ghana}}
+* {{T|fa}} : {{trad+|fa|غنا}}
+* {{T|ff}} : {{trad|ff|Gana}}
+* {{T|pms}} : {{trad|pms|Ghana}}
+* {{T|pl}} : {{trad+|pl|Ghana}}
+* {{T|pt}} : {{trad+|pt|Gana}}
+* {{T|qu}} : {{trad-|qu|Gana}}
+* {{T|rm}} : {{trad-|rm|Ghana}}
+* {{T|ro}} : {{trad+|ro|Ghana}}
+* {{T|ru}} : {{trad+|ru|Гана|tr=Gana}}
+* {{T|se}} : {{trad|se|Ghana}}
+* {{T|sgs}} : {{trad|sgs|Gana}}
+* {{T|sa}} : {{trad-|sa|घाना|R=Ghānā}}
+* {{T|sc}} : {{trad-|sc|Ghana}}
+* {{T|sr}} : {{trad-|sr|Гана|R=Gana}}
+* {{T|sh}} : {{trad+|sh|Gana}}
+* {{T|scn}} : {{trad-|scn|Gana}}
+* {{T|szl}} : {{trad|szl|Ghana}}
+* {{T|sk}} : {{trad-|sk|Ghana}}
+* {{T|sl}} : {{trad+|sl|Gana}}
+* {{T|sv}} : {{trad+|sv|Ghana}}
+* {{T|sw}} : {{trad+|sw|Ghana}}
+* {{T|tg}} : {{trad-|tg|Гана|R=Gana}}
+* {{T|tl}} : {{trad+|tl|Ghana}}
+* {{T|ta}} : {{trad+|ta|கானா}}
+* {{T|crh}} : {{trad|crh|Ğana}}
+* {{T|cs}} : {{trad+|cs|Ghana}}
+* {{T|cv}} : {{trad|cv|Гана|R=Gana}}
+* {{T|te}} : {{trad+|te|ఘనా}}
+* {{T|tet}} : {{trad|tet|Gana}}
+* {{T|th}} : {{trad+|th|ประเทศกานา}}
+* {{T|bo}} : {{trad-|bo|ཀ་ན}}
+* {{T|tok}} : {{trad|tok|ma Kana}}
+* {{T|tum}} : {{trad|tum|Ghana}}
+* {{T|tr}} : {{trad+|tr|Gana}}
+* {{T|tk}} : {{trad-|tk|Ghana}}
+* {{T|tw}} : {{trad-|tw|Ghana}}
+* {{T|uk}} : {{trad+|uk|Гана|R=Hana}}
+* {{T|vec}} : {{trad-|vec|Ghana}}
+* {{T|vi}} : {{trad-|vi|Ghana}}
+* {{T|vo}} : {{trad-|vo|Ganän}}
+* {{T|vro}} : {{trad|vro|Ghana}}
+* {{T|wa}} : {{trad-|wa|Gana}}
+* {{T|war}} : {{trad|war|Ghana}}
+* {{T|wo}} : {{trad-|wo|Gana}}
+* {{T|yo}} : {{trad-|yo|Ghánà}}, {{trad|yo|Gánà}}
+{{trad-fin}}
+
+=== {{S|prononciation}} ===
+* {{écouter||ɡa.na|lang=fr|audio=Fr-Ghana.oga}}
+* {{écouter||ɡa.na|lang=fr|audio=LL-Q150 (fra)-Jules78120-Ghana.wav}}
+* {{écouter|lang=fr|France (Paris)|audio=LL-Q150 (fra)-GrandCelinien-Ghana.wav}}
+
+=== {{S|anagrammes}} ===
+{{voir anagrammes|fr}}
+
+=== {{S|voir aussi}} ===
+* {{WP}}
+* {{Vikidia}}
+
+=== {{S|références}} ===
+* {{RÉF}} ''{{w|Arrêté français du 4 novembre 1993 relatif à la terminologie des noms d’États et de capitales}}'', ''Journal officiel'', 25 janvier 1994
+* {{RÉF|2}} {{R:BO106}}
+<references>
+<ref name="fage 2002">
+J. D. {{pc|Fage}} et William {{pc|Tordoff}}, ''A History of Africa'', Routledge, 2002, {{ISBN|0415252482}}, p. 56
+</ref>
+</references>
+[[Catégorie:Ghana en français|*]]
+
+== {{langue|af}} ==
+=== {{S|nom propre|af}} ===
+'''Ghana''' {{pron||af}}
+# {{pays|af|d’Afrique}} République du {{lien|Ghana|fr}}.
+#* {{exemple|lang=af}}
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=af|Afrique du Sud (Johannesbourg)|audio=LL-Q14196 (afr)-Oesjaar-Ghana.wav}}
+
+[[Catégorie:Ghana en afrikaans|*]]
+
+== {{langue|ak}} ==
+=== {{S|nom propre|ak}} ===
+'''Ghana''' {{pron||ak}}
+# {{pays|ak}} République du {{lien|Ghana|fr}}.
+
+[[Catégorie:Ghana en akan|*]]
+
+== {{langue|gsw}} ==
+=== {{S|nom propre|gsw}} ===
+'''Ghana''' {{pron||gsw}}
+# {{pays|gsw}} République du {{lien|Ghana|fr}}.
+
+[[Catégorie:Ghana en alémanique|*]]
+
+== {{langue|de}} ==
+
+=== {{S|étymologie}} ===
+: {{date|lang=de|1957}} De l’{{étylp|en|de|mot=Ghana}}.
+
+=== {{S|nom propre|de}} ===
+{{de-nom-propre|genre=n|gs=Ghanas}}
+'''Ghana''' {{pron|ˈɡaːna|de}} {{n}}
+# {{pays|de|d’Afrique}} République du {{lien|Ghana|fr}}.
+#* {{exemple|Zollbeamte am Münchner Flughafen haben im Koffer einer Reisenden aus '''Ghana''' zwei gebratene Antilopen gefunden. Nach Angaben der Frau würden die Tiere als Delikatesse gelten, teilte das Hauptzollamt München am Dienstag mit.|lang=de|sens=Les douaniers de l'aéroport de Munich ont trouvé deux antilopes rôties dans la valise d'une voyageuse en provenance du Ghana. Selon les indications de la femme, les animaux sont considérés comme un mets délicat, a indiqué mardi le bureau de douane principal de Munich.|source={{périodique|auteur=SZ/dpa/vewo/gal|titre=Zoll findet gebratene Antilopen in Gepäck|journal=Süddeutsche Zeitung|date=11 octobre 2022|texte=https://www.sueddeutsche.de/muenchen/muenchen-flughafen-zoll-antilopen-1.5672593}}}}
+
+=== {{S|prononciation}} ===
+* {{écouter|Berlin|ˈɡaːna|lang=de|audio=De-Ghana.ogg}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=de}}
+[[Catégorie:Ghana en allemand|*]]
+
+== {{langue|nds}} ==
+=== {{S|nom propre|nds}} ===
+'''Ghana''' {{pron||nds}}
+# {{pays|nds}} République du {{lien|Ghana|fr}}.
+
+[[Catégorie:Ghana en bas allemand|*]]
+
+== {{langue|en}} ==
+
+=== {{S|étymologie}} ===
+: {{term|empire du Ghana}} {{date|lang=en}} {{ébauche-étym|en}}
+: {{term|République du Ghana}} {{date|lang=en|1957}} Du nom du précédent empire africain, non situé sur le territoire de la république nouvellement formée et auparavant appelée {{lien|''Gold Coast''|en}} par les colonisateurs anglais.
+
+=== {{S|nom propre|en}} ===
+'''Ghana''' {{pron|ɡɑnə|en}}
+# {{lexique|histoire|en}} Empire du Ghana.
+#*{{exemple|lang=en|{{lien|Guinea|en}} may, however, be derived from '''Ghana''' (or Ghanata) the name of the oldest known state in the western Sudan. '''Ghana''' dates, according to some authorities, from the 3rd century A.D. From the 7th to the 12th century it was a powerful empire, its dominions extending, apparently, from the Atlantic to the Niger bend. At one time Jenné was included within its borders. '''Ghana''' was finally conquered by the Mandingo kings of Melle in the 13th century. Its capital, also called Ghana, was west of the Niger, and is generally placed some 200 m. west of Jenné. In this district L. Desplagnes discovered in 1907 numerous remains of a once extensive city, which he identified as those of Ghana. The ruins lie 25 m. W. of the Niger, on both banks of a marigot, and are about 40 m. N. by E. of Kulikoro (see ''La Géographie'', xvi. 329). By some writers Ghana city is, however, identified with Walata, which town is mentioned by Arab historians as the capital of Ghanata. The identification of Ghana city with Jenné is not justified, though Idrisi seems to be describing Jenné when writing of “Ghana the Great.”|source=« {{ws|1911 Encyclopædia Britannica/Guinea (Africa)|Guinea|lang=en}} » dans ''Encyclopædia Britannica'', 1911}}
+# {{pays|en|d’Afrique}} République du {{lien|Ghana|fr}}.[[File:Coat of arms of Ghana.svg|vignette]]
+#*{{exemple|lang=en|The Security Council,<br>Having considered the application of '''Ghana''' for membership in the United Nations,<br>Recommends to the General Assembly that '''Ghana''' be admitted to membership in the United Nations.|source=''{{ws|United Nations Security Council Resolution 124|lang=en}}'', 7 mars 1957}}
+
+==== {{S|gentilés}} ====
+* {{lien|Ghanan|en}}, {{lien|Ghanaian|en}}
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=en|États-Unis|ɡɑnə|audio=En-us-Ghana.ogg}}
+* {{écouter|Londres (Royaume-Uni)||lang=en|audio=}}
+* {{écouter|Texas (États-Unis)||lang=en|audio=LL-Q1860 (eng)-Wodencafe-Ghana.wav}}
+* {{écouter|Londres (Royaume-Uni)||lang=en|audio=LL-Q1860 (eng)-Soundguys-Ghana.wav}}
+* {{écouter|Khammam (Inde)||niveau=bon|lang=en|audio=LL-Q1860 (eng)-Pavani916-Ghana.wav}}
+* {{écouter|||lang=en|audio=LL-Q1860 (eng)-Boredcookie-Ghana.wav}}
+* {{écouter|New York (États-Unis)||lang=en|audio=LL-Q1860 (eng)-Assorted-Interests-Ghana.wav}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=en}}
+* {{WS|lang=fr}}
+[[Catégorie:Ghana en anglais|*]]
+
+== {{langue|an}} ==
+=== {{S|nom propre|an}} ===
+'''Ghana''' {{pron||an}}
+# {{pays|an}} République du {{lien|Ghana|fr}}.
+
+[[Catégorie:Ghana en aragonais|*]]
+
+== {{langue|ast}} ==
+=== {{S|nom propre|ast}} ===
+'''Ghana''' {{pron||ast}}
+# {{pays|ast}} République du {{lien|Ghana|fr}}.
+
+=== {{S|prononciation}} ===
+* {{écouter|Uviéu (Espagne)||lang=ast|audio=LL-Q29507 (ast)-Limotecariu-Ghana.wav}}
+
+[[Catégorie:Ghana en asturien|*]]
+
+== {{langue|eu}} ==
+=== {{S|nom propre|eu}} ===
+'''Ghana''' {{pron||eu}}
+# {{pays|eu|d’Afrique}} République du {{lien|Ghana|fr}}.
+
+[[Catégorie:Ghana en basque|*]]
+
+== {{langue|br}} ==
+=== {{S|nom propre|br}} ===
+'''Ghana''' {{pron||br}}
+# {{pays|br}} République du {{lien|Ghana|fr}}.
+
+[[Catégorie:Ghana en breton|*]]
+
+== {{langue|ca}} ==
+=== {{S|nom propre|ca}} ===
+'''Ghana''' {{pron||ca}}
+# {{pays|ca|d’Afrique}} République du {{lien|Ghana|fr}}.
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=ca|Espagne (Villarreal)||audio=LL-Q7026 (cat)-Millars-Ghana.wav}}
+
+[[Catégorie:Ghana en catalan|*]]
+
+== {{langue|ceb}} ==
+=== {{S|nom propre|ceb}} ===
+'''Ghana''' {{pron||ceb}}
+# {{pays|ceb}} République du {{lien|Ghana|fr}}.
+
+[[Catégorie:Ghana en cebuano|*]]
+
+== {{langue|kw}} ==
+=== {{S|nom propre|kw}} ===
+'''Ghana''' {{pron||kw}}
+# {{pays|kw}} République du {{lien|Ghana|fr}}.
+
+[[Catégorie:Ghana en cornique|*]]
+
+== {{langue|da}} ==
+=== {{S|nom propre|da}} ===
+'''Ghana''' {{pron||da}}
+# {{pays|da|d’Afrique}} République du {{lien|Ghana|fr}}.
+
+[[Catégorie:Ghana en danois|*]]
+
+== {{langue|es}} ==
+
+=== {{S|étymologie}} ===
+: {{date|lang=es|1957}} De l’{{étylp|en|es|mot=Ghana}}.
+
+=== {{S|nom propre|es}} ===
+'''Ghana''' {{pron||es}}
+# {{pays|es|d’Afrique}} République du {{lien|Ghana|fr}}.
+
+=== {{S|prononciation}} ===
+* {{écouter|Espagne||lang=es|audio=LL-Q1321 (spa)-Rodelar-Ghana.wav}}
+
+[[Catégorie:Ghana en espagnol|*]]
+
+== {{langue|et}} ==
+=== {{S|nom propre|et}} ===
+'''Ghana''' {{pron||et}}
+# {{pays|et|d’Afrique}} République du {{lien|Ghana|fr}}.
+
+[[Catégorie:Ghana en estonien|*]]
+
+== {{langue|fi}} ==
+=== {{S|nom propre|fi}} ===
+{{fi-décl|Ghana|Ghanan|Ghanaa|Ghanassa|Ghanaan|Ghanasta|Ghanalla|Ghanalle|Ghanalta|Ghanana|Ghanaksi|Ghanatta}}
+'''Ghana''' {{pron|ˈɡɑː.nɑ|fi}}
+# {{pays|fi|d’Afrique}} République du {{lien|Ghana|fr}}.
+
+==== {{S|dérivés}} ====
+* [[ghanalainen]]
+
+[[Catégorie:Ghana en finnois|*]]
+
+== {{langue|stq}} ==
+=== {{S|nom propre|stq}} ===
+'''Ghana''' {{pron||stq}}
+# {{pays|stq}} République du {{lien|Ghana|fr}}.
+
+[[Catégorie:Ghana en frison saterlandais|*]]
+
+== {{langue|cy}} ==
+
+=== {{S|étymologie}} ===
+: {{date|lang=cy|1957}} De l’{{étylp|en|cy|mot=Ghana}}.
+
+=== {{S|nom propre|cy}} ===
+'''Ghana''' {{pron||cy}}
+# {{pays|cy|d’Afrique}} République du {{lien|Ghana|fr}}.
+
+[[Catégorie:Ghana en gallois|*]]
+
+== {{langue|io}} ==
+=== {{S|nom propre|io}} ===
+'''Ghana''' {{pron||io}}
+# {{pays|io}} République du {{lien|Ghana|fr}}.
+
+[[Catégorie:Ghana en ido|*]]
+
+== {{langue|ig}} ==
+=== {{S|nom propre|ig}} ===
+'''Ghana''' {{pron||ig}}
+# {{pays|ig}} République du {{lien|Ghana|fr}}.
+
+[[Catégorie:Ghana en igbo|*]]
+
+== {{langue|ilo}} ==
+=== {{S|nom propre|ilo}} ===
+'''Ghana''' {{pron||ilo}}
+# {{pays|ilo}} République du {{lien|Ghana|fr}}.
+
+[[Catégorie:Ghana en ilocano|*]]
+
+== {{langue|id}} ==
+
+=== {{S|étymologie}} ===
+: {{date|lang=id|1957}} De l’{{étylp|en|id|mot=Ghana}}.
+
+=== {{S|nom propre|id}} ===
+'''Ghana''' {{pron||id}}
+# {{pays|id|d’Afrique}} République du {{lien|Ghana|fr}}.
+#* {{exemple|lang=id}}
+
+[[Catégorie:Ghana en indonésien|*]]
+
+== {{langue|ia}} ==
+=== {{S|nom propre|ia}} ===
+'''Ghana''' {{pron||ia}}
+# {{pays|ia}} République du {{lien|Ghana|fr}}.
+
+[[Catégorie:Ghana en interlingua|*]]
+
+== {{langue|ie}} ==
+=== {{S|nom propre|ie}} ===
+'''Ghana''' {{pron||ie}}
+# {{pays|ie}} République du {{lien|Ghana|fr}}.
+
+[[Catégorie:Ghana en interlingue|*]]
+
+== {{langue|it}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étylp|en|it|mot=Ghana}}.
+
+=== {{S|nom propre|it}} ===
+{{it-inv|ˈɡa:.na}}
+'''Ghana''' {{pron|ˈɡa:.na|it}} {{m}}
+# {{pays|it|d’Afrique}} République du {{lien|Ghana|fr}}.
+
+==== {{S|variantes}} ====
+* {{lien|Gana|it}}
+
+==== {{S|gentilés}} ====
+* {{lien|ghanaese|it}}
+* {{lien|ghanese|it}}
+
+=== {{S|anagrammes}} ===
+{{voir anagrammes|it}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=it}}
+* {{WQ|lang=it}}
+* {{VOY|lang=it}}
+* [[Annexe:Pays et leurs gentilés en italien]]
+[[Catégorie:Ghana en italien|*]]
+
+== {{langue|jv}} ==
+=== {{S|nom propre|jv}} ===
+'''Ghana''' {{pron||jv}}
+# {{pays|jv}} République du {{lien|Ghana|fr}}.
+
+[[Catégorie:Ghana en javanais|*]]
+
+== {{langue|pam}} ==
+=== {{S|nom propre|pam}} ===
+'''Ghana''' {{pron||pam}}
+# {{pays|pam}} République du {{lien|Ghana|fr}}.
+
+[[Catégorie:Ghana en kapampangan|*]]
+
+== {{langue|la}} ==
+=== {{S|nom propre|la}} ===
+'''Ghana''' {{pron||la}}
+# {{pays|la}} République du {{lien|Ghana|fr}}.
+
+[[Catégorie:Ghana en latin|*]]
+
+== {{langue|lij}} ==
+=== {{S|nom propre|lij}} ===
+'''Ghana''' {{pron||lij}}
+# {{pays|lij}} République du {{lien|Ghana|fr}}.
+
+[[Catégorie:Ghana en ligure|*]]
+
+== {{langue|li}} ==
+=== {{S|nom propre|li}} ===
+'''Ghana''' {{pron||li}}
+# {{pays|li}} République du {{lien|Ghana|fr}}.
+
+[[Catégorie:Ghana en limbourgeois|*]]
+
+== {{langue|ln}} ==
+=== {{S|nom propre|ln}} ===
+'''Ghana''' {{pron||ln}}
+# {{pays|ln}} République du {{lien|Ghana|fr}}.
+
+[[Catégorie:Ghana en lingala|*]]
+
+== {{langue|lb}} ==
+=== {{S|étymologie}} ===
+: De l'{{étylp|en|lb|Ghana}}.
+
+=== {{S|nom propre|lb}} ===
+{{lb-inv|ɡˈaːnaː|inv_titre=Nom propre}}
+'''Ghana''' {{pron|ɡˈaːnaː|lb}} {{mn ?|lb}}
+# {{pays|lb|d’Afrique|pays=Ghana|clé=*}} {{lien|Ghana|fr}}.
+#* {{exemple|lang=lb}}
+
+==== {{S|gentilés}} ====
+* {{lien|Ghanaer|lb|sens=Ghanéen}}, {{lien|Ghanaerin|lb|sens=Ghanéenne}}
+* {{lien|ghanaesch|lb|sens=ghanéen, ghanéenne}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=lb}}
+
+=== {{S|références}} ===
+: {{R:LOD}}
+
+== {{langue|ms}} ==
+=== {{S|nom propre|ms}} ===
+'''Ghana''' {{pron||ms}}
+# {{pays|ms|d’Afrique}} République du {{lien|Ghana|fr}}.
+
+[[Catégorie:Ghana en malais|*]]
+
+== {{langue|nan}} ==
+=== {{S|nom propre|nan}} ===
+'''Ghana''' {{pron||nan}}
+# {{pays|nan}} République du {{lien|Ghana|fr}}.
+
+[[Catégorie:Ghana en minnan|*]]
+
+== {{langue|na}} ==
+=== {{S|nom propre|na}} ===
+'''Ghana''' {{pron||na}}
+# {{pays|na}} République du {{lien|Ghana|fr}}.
+
+[[Catégorie:Ghana en nauruan|*]]
+
+== {{langue|nl}} ==
+
+=== {{S|étymologie}} ===
+: {{date|lang=nl|1957}} De l’{{étylp|en|nl|mot=Ghana}}.
+
+=== {{S|nom propre|nl}} ===
+'''Ghana''' {{pron||nl}}
+# {{pays|nl|d’Afrique}} République du {{lien|Ghana|fr}}.
+
+[[Catégorie:Ghana en néerlandais|*]]
+=== {{S|prononciation}} ===
+* {{écouter|||lang=nl|audio=Nl-Ghana.ogg}}
+
+== {{langue|no}} ==
+
+=== {{S|étymologie}} ===
+: {{date|lang=no|1957}} De l’{{étylp|en|no|mot=Ghana}}.
+
+=== {{S|nom propre|no}} ===
+'''Ghana''' {{pron||no}}
+# {{pays|no|d’Afrique}} République du {{lien|Ghana|fr}}.
+
+[[Catégorie:Ghana en norvégien|*]]
+
+== {{langue|nn}} ==
+=== {{S|nom propre|nn}} ===
+'''Ghana''' {{pron||nn}}
+# {{pays|nn|d’Afrique}} République du {{lien|Ghana|fr}}.
+
+[[Catégorie:Ghana en norvégien (nynorsk)|*]]
+
+== {{langue|oc}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étylp|fr|oc|mot=Ghana}}.
+
+=== {{S|nom propre|oc}} ===
+'''Gana''' {{phon|ˈga.no|oc}} {{oc-norme classique}} {{m}}
+# {{pays|oc}} République du {{lien|Ghana|fr}}.
+
+==== {{S|variantes}} ====
+* {{lien|Gana|oc}}
+
+==== {{S|gentilés}} ====
+* [[ghanés]], [[ghanesa]]
+
+=== {{S|références}} ===
+* {{R:Ubaud}}
+[[Catégorie:Ghana en occitan|*]]
+
+== {{langue|pap}} ==
+=== {{S|nom propre|pap}} ===
+'''Ghana''' {{pron||pap}}
+# {{pays|pap}} République du {{lien|Ghana|fr}}.
+
+[[Catégorie:Ghana en papiamento|*]]
+
+== {{langue|pdc}} ==
+=== {{S|nom propre|pdc}} ===
+'''Ghana''' {{pron||pdc}} {{genre|pdc}}
+# {{pays|pdc}} [[#fr|Ghana]].
+
+[[Catégorie:Ghana en pennsilfaanisch|*]]
+
+== {{langue|pms}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étylp|it|de|mot=Ghana}}.
+
+=== {{S|nom propre|pms}} ===
+'''Ghana''' {{pron||pms}}
+# {{pays|pms}} République du {{lien|Ghana|fr}}.
+
+[[Catégorie:Ghana en piémontais|*]]
+
+== {{langue|pl}} ==
+
+=== {{S|étymologie}} ===
+: {{date|lang=pl|1957}} De l’{{étylp|en|pl|mot=Ghana}}.
+
+=== {{S|nom propre|pl}} ===
+{{pl-décl-nom-f|Gha|n|sing=oui}}
+'''Ghana''' {{pron|ɡãna|pl}} {{f}}
+# {{pays|pl|d’Afrique}} République du {{lien|Ghana|fr}}.
+#*{{exemple|lang=pl|Głównym produktem eksportowym '''Ghany''' jest ziarno kakaowca.}}
+
+==== {{S|gentilés}} ====
+* {{lien|Ghańczyk|pl}}, {{lien|Ghanka|pl}}
+* {{lien|ghański|pl}}
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=pl|Pologne (Varsovie)|ɡãna|audio=LL-Q809 (pol)-Olaf-Ghana.wav}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=pl}}
+
+=== {{S|références}} ===
+* {{Source-wikt|pl|Ghana}}
+{{Références}}
+[[Catégorie:Ghana en polonais|*]]
+
+== {{langue|rm}} ==
+=== {{S|nom propre|rm}} ===
+'''Ghana''' {{pron||rm}}
+# {{pays|rm}} République du {{lien|Ghana|fr}}.
+
+[[Catégorie:Ghana en romanche|*]]
+
+== {{langue|ro}} ==
+=== {{S|nom propre|ro}} ===
+'''Ghana''' {{pron||ro}}
+# {{pays|ro|d’Afrique}} République du {{lien|Ghana|fr}}.
+
+=== {{S|prononciation}} ===
+* {{écouter|Iași (Roumanie)||lang=ro|audio=LL-Q7913 (ron)-KlaudiuMihaila-Ghana.wav}}
+
+[[Catégorie:Ghana en roumain|*]]
+
+== {{langue|se}} ==
+=== {{S|nom propre|se}} ===
+'''Ghana''' {{phono||se}}
+# {{pays|se}} République du {{lien|Ghana|fr}}.
+
+[[Catégorie:Ghana en same du Nord|*]]
+
+== {{langue|sc}} ==
+=== {{S|nom propre|sc}} ===
+'''Ghana''' {{pron||sc}}
+# {{pays|sc}} République du {{lien|Ghana|fr}}.
+
+[[Catégorie:Ghana en sarde|*]]
+
+== {{langue|szl}} ==
+=== {{S|nom propre|szl}} ===
+'''Ghana''' {{pron||szl}}
+# {{pays|szl}} République du {{lien|Ghana|fr}}.
+
+[[Catégorie:Ghana en silésien|*]]
+
+== {{langue|sk}} ==
+=== {{S|nom propre|sk}} ===
+{{sk-décl-nom-f-a-dur|rad=Ghan|sing=oui}}
+'''Ghana''' {{pron||sk}} {{f}}
+# {{pays|sk|d’Afrique}} République du {{lien|Ghana|fr}}.
+
+==== {{S|gentilés}} ====
+* [[Ghančan]], [[Ghančanka]]
+* [[ghanský]]
+
+[[Catégorie:Ghana en slovaque|*]]
+
+== {{langue|dsb}} ==
+=== {{S|nom propre|dsb}} ===
+'''Ghana''' {{pron||dsb}}
+# {{pays|dsb}} République du {{lien|Ghana|fr}}.
+
+[[Catégorie:Ghana en bas-sorabe|*]]
+
+== {{langue|hsb}} ==
+=== {{S|nom propre|hsb}} ===
+'''Ghana''' {{pron||hsb}}
+# {{pays|hsb}} République du {{lien|Ghana|fr}}.
+
+[[Catégorie:Ghana en haut-sorabe|*]]
+
+== {{langue|sv}} ==
+=== {{S|nom propre|sv}} ===
+'''Ghana''' {{pron||sv}}
+# {{pays|sv|d’Afrique}} République du {{lien|Ghana|fr}}.
+
+=== {{S|prononciation}} ===
+* {{écouter|Suède||lang=sv|audio=LL-Q9027 (swe)-Moonhouse-Ghana.wav}}
+
+[[Catégorie:Ghana en suédois|*]]
+
+== {{langue|sw}} ==
+=== {{S|nom propre|sw}} ===
+'''Ghana''' {{pron||sw}}
+# {{pays|sw}} République du {{lien|Ghana|fr}}.
+
+[[Catégorie:Ghana en swahili|*]]
+
+== {{langue|tl}} ==
+=== {{S|nom propre|tl}} ===
+'''Ghana''' {{pron||tl}}
+# {{pays|tl}} République du {{lien|Ghana|fr}}.
+
+[[Catégorie:Ghana en tagalog|*]]
+
+== {{langue|cs}} ==
+
+=== {{S|étymologie}} ===
+: {{date|lang=cs|1957}} De l’{{étyl|en|cs|mot=Ghana}}.
+
+=== {{S|nom propre|cs}} ===
+{{cs-décl-nom-f-a|rad=Ghan|sing=oui}}
+'''Ghana''' {{pron|gɦana|cs}} {{f}}
+# {{pays|cs|d’Afrique}} République du {{lien|Ghana|fr}}.
+#*{{exemple|lang=cs}}
+
+==== {{S|gentilés}} ====
+* {{lien|Ghaňan|cs}}, {{lien|Ghaňanka|cs}}
+* {{lien|ghanský|cs}}
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=cs|Tchéquie|gɦana|audio=Cs-Ghana.ogg}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=cs}}
+
+=== {{S|références}} ===
+* {{R:ÚJČ}}
+{{Références}}
+[[Catégorie:Ghana en tchèque|*]]
+
+== {{langue|tum}} ==
+=== {{S|nom propre|tum}} ===
+'''Ghana''' {{pron||tum}}
+# {{pays|tum}} République du {{lien|Ghana|fr}}.
+
+[[Catégorie:Ghana en tumbuka|*]]
+
+== {{langue|tk}} ==
+=== {{S|nom propre|tk}} ===
+'''Ghana''' {{pron||tk}}
+# {{pays|tk}} République du {{lien|Ghana|fr}}.
+
+[[Catégorie:Ghana en turkmène|*]]
+
+== {{langue|tw}} ==
+=== {{S|nom propre|tw}} ===
+'''Ghana''' {{pron||tw}}
+# {{pays|tw}} République du {{lien|Ghana|fr}}.
+
+[[Catégorie:Ghana en twi|*]]
+
+== {{langue|vec}} ==
+=== {{S|nom propre|vec}} ===
+'''Ghana''' {{pron||vec}}
+# {{pays|vec}} République du {{lien|Ghana|fr}}.
+
+[[Catégorie:Ghana en vénitien|*]]
+
+== {{langue|vi}} ==
+=== {{S|nom propre|vi}} ===
+'''Ghana''' {{pron||vi}}
+# {{pays|vi|d’Afrique}} République du {{lien|Ghana|fr}}.
+
+[[Catégorie:Ghana en vietnamien|*]]
+
+== {{langue|vro}} ==
+=== {{S|nom propre|vro}} ===
+'''Ghana''' {{pron||vro}}
+# {{pays|vro}} République du {{lien|Ghana|fr}}.
+
+[[Catégorie:Ghana en võro|*]]
+
+== {{langue|war}} ==
+=== {{S|nom propre|war}} ===
+'''Ghana''' {{pron||war}}
+# {{pays|war}} République du {{lien|Ghana|fr}}.
+
+[[Catégorie:Ghana en waray (Philippines)|*]]

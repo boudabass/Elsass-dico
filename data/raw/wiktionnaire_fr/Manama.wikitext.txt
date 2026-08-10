@@ -1,0 +1,288 @@
+{{voir/manama}}
+
+== {{langue|fr}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|ar|fr|mot=المنامة|tr=Manama}}.
+
+=== {{S|nom propre|fr}} ===
+{{fr-inv|ma.na.ma}}
+'''Manama''' {{pron|ma.na.ma|fr}} {{f}}
+# {{capitales|fr|pays=de Bahreïn}} Capitale de [[Bahreïn]].
+#* {{exemple |lang=fr 
+|Le souq reste le cœur historique de '''Manama'''. Au XIX{{e}} siècle, '''Manama''' n’est en réalité qu’un ensemble de pauvres villages de pêcheurs. Ce n’est seulement qu’à la fin du XIX{{e}} siècle que '''Manama''' devient à proprement parler une ville </i>[…]<i> 
+|source=''{{w|Petit Futé}} Bahrein 2018'' }}
+
+==== {{S|gentilés}} ====
+* [[Manaméen]], [[Manaméenne]], [[manaméen]]{{réf}}{{réf|2}}
+
+==== {{S|traductions}} ====
+{{trad-début}}
+* {{T|gsw}} : '''Manama'''
+* {{T|de}} : '''Manama'''
+* {{T|am}} : {{trad-|am|ማናማ}}
+* {{T|en}} : '''Manama'''
+* {{T|ar}} : {{trad-|ar|المنامة}}
+* {{T|hy}} : {{trad-|hy|Մանամա|tr=Manama}}
+* {{T|ast}} : {{trad+|ast|Manama}}
+* {{T|bn}} : {{trad-|bn|মানামা}}
+* {{T|be}} : {{trad-|be|Манама|tr=Manama}}
+* {{T|bs}} : '''Manama'''
+* {{T|bg}} : {{trad-|bg|Манама|tr=Manama}}
+* {{T|ca}} : {{trad-|ca|Al-Manama}}
+* {{T|zh}} : {{trad-|zh|麦纳麦}}
+* {{T|ko}} : {{trad-|ko|마나마|tr=manama}}
+* {{T|hr}} : '''Manama'''
+* {{T|da}} : '''Manama'''
+* {{T|es}} : '''Manama'''
+* {{T|eo}} : {{trad+|eo|Manamo}}
+* {{T|et}} : {{trad-|et|Al-Manāmah}}
+* {{T|fi}} : '''Manama'''
+* {{T|frp}} : '''Manama'''
+* {{T|fy}} : '''Manama'''
+* {{T|gl}} : {{trad+|gl|Manama}}
+* {{T|he}} : {{trad-|he|מנאמה}}
+* {{T|io}} : {{trad-|io|Al Manamah}}
+* {{T|id}} : {{trad-|id|Al-Manamah}}
+* {{T|it}} : '''Manama'''
+* {{T|ja}} : {{trad-|ja|マナーマ|tr=manāma}}
+* {{T|la}} : '''Manama'''
+* {{T|lt}} : {{trad-|lt|Menama}}
+* {{T|ms}} : '''Manama'''
+* {{T|nl}} : {{trad-|nl|Manamah}}
+* {{T|no}} : '''Manama'''
+* {{T|nn}} : '''Manama'''
+* {{T|nov}} : '''Manama'''
+* {{T|os}} : {{trad|os|Манамæ}}
+* {{T|pms}} : '''Manama'''
+* {{T|pl}} : '''Manama'''
+* {{T|pt}} : '''Manama'''
+* {{T|ro}} : '''Manama'''
+* {{T|ru}} : {{trad+|ru|Манама|tr=Manama}}
+* {{T|sr}} : {{trad-|sr|Манама}}
+* {{T|sh}} : '''Manama'''
+* {{T|scn}} : '''Manama'''
+* {{T|sk}} : {{trad+|sk|Manáma}}
+* {{T|sv}} : '''Manama'''
+* {{T|sw}} : '''Manama'''
+* {{T|tg}} : {{trad-|tg|Манама}}
+* {{T|cs}} : {{trad+|cs|Manáma}}
+* {{T|tr}} : '''Manama'''
+* {{T|uk}} : {{trad-|uk|Манама}}
+* {{T|vo}} : {{trad-|vo|Mänamä}}
+{{trad-fin}}
+
+=== {{S|références}} ===
+* {{RÉF}} Forme recommandée. ''{{w|Arrêté français du 4 novembre 1993 relatif à la terminologie des noms d’États et de capitales}}'', ''Journal officiel'', 25 janvier 1994
+* {{RÉF|2}} Forme recommandée. {{R:BO106}}
+
+=== {{S|voir aussi}} ===
+* {{WP}}
+
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|ar|gsw|mot=المنامة|tr=Manama}}.
+
+=== {{S|nom propre|gsw}} ===
+'''Manama''' {{pron||gsw}}
+# {{capitales|gsw|pays=de Bahreïn}} [[#Français|Manama]] (capitale de [[Bahreïn]]).
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|ar|de|mot=المنامة|tr=Manama}}.
+
+=== {{S|nom propre|de}} ===
+'''Manama''' {{pron||de}}
+# {{capitales|de|pays=de Bahreïn}} [[#Français|Manama]] (capitale de [[Bahreïn]]).
+
+== {{langue|en}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|ar|en|mot=المنامة|tr=Manama}}.
+
+=== {{S|nom propre|en}} ===
+'''Manama''' {{pron||en}}
+# {{capitales|en|pays=de Bahreïn}} [[#Français|Manama]] (capitale de [[Bahreïn]]).
+
+=== {{S|prononciation}} ===
+* {{écouter|Sud de l'Angleterre (Royaume-Uni)||lang=en|audio=LL-Q1860 (eng)-Vealhurl-Manama.wav}}
+
+== {{langue|bs}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|ar|bs|mot=المنامة|tr=Manama}}.
+
+=== {{S|nom propre|bs}} ===
+'''Manama''' {{pron||bs}}
+# {{capitales|bs|pays=de Bahreïn}} [[#Français|Manama]] (capitale de [[Bahreïn]]).
+
+== {{langue|hr}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|ar|hr|mot=المنامة|tr=Manama}}.
+
+=== {{S|nom propre|hr}} ===
+'''Manama''' {{pron||hr}}
+# {{capitales|hr|pays=de Bahreïn}} [[#Français|Manama]] (capitale de [[Bahreïn]]).
+
+== {{langue|da}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|ar|da|mot=المنامة|tr=Manama}}.
+
+=== {{S|nom propre|da}} ===
+'''Manama''' {{pron||da}}
+# {{capitales|da|pays=de Bahreïn}} [[#Français|Manama]] (capitale de [[Bahreïn]]).
+
+== {{langue|es}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|ar|es|mot=المنامة|tr=Manama}}.
+
+=== {{S|nom propre|es}} ===
+'''Manama''' {{pron||es}}
+# {{capitales|es|pays=de Bahreïn}} [[#Français|Manama]] (capitale de [[Bahreïn]]).
+
+== {{langue|fi}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|ar|fi|mot=المنامة|tr=Manama}}.
+
+=== {{S|nom propre|fi}} ===
+'''Manama''' {{pron||fi}}
+# {{capitales|fi|pays=de Bahreïn}} [[#Français|Manama]] (capitale de [[Bahreïn]]).
+
+== {{langue|frp}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|ar|frp|mot=المنامة|tr=Manama}}.
+
+=== {{S|nom propre|frp}} ===
+'''Manama''' {{pron||frp}}
+# {{capitales|frp|pays=de Bahreïn}} [[#Français|Manama]] (capitale de [[Bahreïn]]).
+
+== {{langue|fy}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|ar|fy|mot=المنامة|tr=Manama}}.
+
+=== {{S|nom propre|fy}} ===
+'''Manama''' {{pron||fy}}
+# {{capitales|fy|pays=de Bahreïn}} [[#Français|Manama]] (capitale de [[Bahreïn]]).
+
+== {{langue|it}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|ar|it|mot=المنامة|tr=Manama}}.
+
+=== {{S|nom propre|it}} ===
+'''Manama''' {{pron|ma.ˈna.ma|it}}
+# {{capitales|it|pays=de Bahreïn}} [[#Français|Manama]] (capitale de [[Bahreïn]]).
+
+== {{langue|la}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|ar|la|mot=المنامة|tr=Manama}}.
+
+=== {{S|nom propre|la}} ===
+'''Manama''' {{pron||la}}
+# {{capitales|la|pays=de Bahreïn}} [[#Français|Manama]] (capitale de [[Bahreïn]]).
+
+== {{langue|ms}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|ar|ms|mot=المنامة|tr=Manama}}.
+
+=== {{S|nom propre|ms}} ===
+'''Manama''' {{pron||ms}}
+# {{capitales|ms|pays=de Bahreïn}} [[#Français|Manama]] (capitale de [[Bahreïn]]).
+
+== {{langue|no}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|ar|no|mot=المنامة|tr=Manama}}.
+
+=== {{S|nom propre|no}} ===
+'''Manama''' {{pron||no}}
+# {{capitales|no|pays=de Bahreïn}} [[#Français|Manama]] (capitale de [[Bahreïn]]).
+
+== {{langue|nn}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|ar|nn|mot=المنامة|tr=Manama}}.
+
+=== {{S|nom propre|nn}} ===
+'''Manama''' {{pron||nn}}
+# {{capitales|nn|pays=de Bahreïn}} [[#Français|Manama]] (capitale de [[Bahreïn]]).
+
+== {{langue|nov}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|ar|nov|mot=المنامة|tr=Manama}}.
+
+=== {{S|nom propre|nov}} ===
+'''Manama''' {{pron||nov}}
+# {{capitales|nov|pays=de Bahreïn}} [[#Français|Manama]] (capitale de [[Bahreïn]]).
+
+== {{langue|pms}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|ar|pms|mot=المنامة|tr=Manama}}.
+
+=== {{S|nom propre|pms}} ===
+'''Manama''' {{pron||pms}}
+# {{capitales|pms|pays=de Bahreïn}} [[#Français|Manama]] (capitale de [[Bahreïn]]).
+
+== {{langue|pl}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|ar|pl|mot=المنامة|tr=Manama}}.
+
+=== {{S|nom propre|pl}} ===
+'''Manama''' {{pron||pl}}
+# {{capitales|pl|pays=de Bahreïn}} [[#Français|Manama]] (capitale de [[Bahreïn]]).
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=pl||audio=Pl-Manama.ogg}}
+
+== {{langue|pt}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|ar|pt|mot=المنامة|tr=Manama}}.
+
+=== {{S|nom propre|pt}} ===
+'''Manama''' {{pron||pt}}
+# {{capitales|pt|pays=de Bahreïn}} [[#Français|Manama]] (capitale de [[Bahreïn]]).
+
+== {{langue|ro}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|ar|ro|mot=المنامة|tr=Manama}}.
+
+=== {{S|nom propre|ro}} ===
+'''Manama''' {{pron||ro}}
+# {{capitales|ro|pays=de Bahreïn}} [[#Français|Manama]] (capitale de [[Bahreïn]]).
+
+== {{langue|sh}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|ar|sh|mot=المنامة|tr=Manama}}.
+
+=== {{S|nom propre|sh}} ===
+'''Manama''' {{pron||sh}}
+# {{capitales|sh|pays=de Bahreïn}} [[#Français|Manama]] (capitale de [[Bahreïn]]).
+
+== {{langue|scn}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|ar|scn|mot=المنامة|tr=Manama}}.
+
+=== {{S|nom propre|scn}} ===
+'''Manama''' {{pron||scn}}
+# {{capitales|scn|pays=de Bahreïn}} [[#Français|Manama]] (capitale de [[Bahreïn]]).
+
+=== {{S|prononciation}} ===
+* {{écouter|Gela (Italie)||lang=scn|audio=LL-Q33973 (scn)-XANA000-Manama.wav}}
+
+== {{langue|sv}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|ar|sv|mot=المنامة|tr=Manama}}.
+
+=== {{S|nom propre|sv}} ===
+'''Manama''' {{pron||sv}}
+# {{capitales|sv|pays=de Bahreïn}} [[#Français|Manama]] (capitale de [[Bahreïn]]).
+
+== {{langue|sw}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|ar|sw|mot=المنامة|tr=Manama}}.
+
+=== {{S|nom propre|sw}} ===
+'''Manama''' {{pron||sw}}
+# {{capitales|sw|pays=de Bahreïn}} [[#Français|Manama]] (capitale de [[Bahreïn]]).
+
+== {{langue|tr}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|ar|tr|mot=المنامة|tr=Manama}}.
+
+=== {{S|nom propre|tr}} ===
+'''Manama''' {{pron||tr}}
+# {{capitales|tr|pays=de Bahreïn}} [[#Français|Manama]] (capitale de [[Bahreïn]]).

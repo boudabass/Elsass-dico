@@ -1,0 +1,12 @@
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw}}
+
+=== {{S|nom propre|gsw}} ===
+'''Vereinigte Staata fa Amerika'''
+# [[États-Unis d’Amérique]].
+
+
+{{clé de tri}}
+
+[[Catégorie:Pays en alémanique]]

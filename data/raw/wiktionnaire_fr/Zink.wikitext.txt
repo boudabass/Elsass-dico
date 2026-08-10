@@ -1,0 +1,113 @@
+{{voir|zink}}
+
+== {{langue|fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|fr}}
+
+=== {{S|nom de famille|fr}} ===
+'''Zink''' {{pron||fr}} {{mf}}
+# Nom de famille.
+#* {{exemple | lang=fr}}
+
+=== {{S|voir aussi}} ===
+* {{WP}}
+
+=== {{S|références}} ===
+* {{Géopatro}}
+
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw}}
+
+=== {{S|nom|gsw}} ===
+'''Zink''' {{pron||gsw}}
+# {{éléments|gsw}} {{métaux|gsw}} [[zinc|Zinc]].
+{{clr}}
+
+==== {{S|vocabulaire}} ====
+{{tableau périodique/gsw}}
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: D’origine inconnue. Probablement de ''{{lien|Zinke|de}}'' (« pointe »).
+
+=== {{S|nom|de|num=1}} ===
+{{de-nom-n-sing|gs2=Zinkes}}
+{{légende élément/de|Zn}}
+[[Image:Zinc-sample.jpg|thumb|'''Zink'''.]]
+'''Zink''' {{pron|t͡sɪŋk|de}} {{n}} {{au singulier uniquement|de}} {{indénombrable|de}}
+# {{éléments|de}} {{métaux|de}} [[zinc#fr|Zinc]].
+#* {{exemple|In Kichererbsen sind außerdem viele wichtige Nährstoffe enthalten. Die Vitamine B1 und B2 sind in der Kichererbse genauso zu finden wie Mangan, Folsäure, Kalium, Magnesium und Kalzium - dazu noch '''Zink''', Kupfer und Eisen.|lang=de|sens=Les pois chiches contiennent également de nombreux nutriments importants. On peut trouver les vitamines B1 et B2 dans le pois chiche ainsi que du manganèse, de l’acide folique, du potassium, du magnésium et du calcium, ainsi que du zinc, du cuivre et du fer.|source={{périodique|auteur=Christiane Stauss|titre=Kichererbsen: Halten den Darm gesund, machen satt und schlank|journal=ARD1 Gesund|date=11 juillet 2025|texte=https://www.ndr.de/ratgeber/gesundheit/Kichererbsen-Halten-den-Darm-gesund-machen-satt-und-schlank,kichererbsen126.html}}}}
+#* {{exemple|Bei Windpocken werden meistens nur die Symptome behandelt. (...) Lotionen, Gele oder Puder werden oft eingesetzt, um den Juckreiz zu lindern und die Bläschen auszutrocknen. Diese Mittel enthalten in der Regel '''Zink''', Gerbstoffe, Menthol oder Polidocanol.|lang=de|sens=Dans le cas de la varicelle, seuls les symptômes sont généralement traités. (...) Des lotions, des gels ou des poudres sont souvent utilisés pour soulager les démangeaisons et assécher les vésicules. Ces produits contiennent généralement du zinc, des tanins, du menthol ou du polidocanol.|source={{périodique|auteur=|titre=Windpocken|journal=gesund.bund.de|date=2 mai 2024|texte=https://gesund.bund.de/windpocken}}}}
+
+==== {{S|hyperonymes}} ====
+* {{lien|chemisches Element|de}}
+* {{lien|Metall|de}}
+
+==== {{S|dérivés}} ====
+{{(|&nbsp;}}
+* {{lien|Elektrolysezink|de}}
+* {{lien|Feinzink|de}}
+* {{lien|Feuerverzinken|de}}
+* {{lien|feuerverzinkt|de}}
+* {{lien|Rohzink|de}}
+* {{lien|Titanzink|de}}
+* {{lien|verzinken|de}}
+* {{lien|Verzinkung|de}}
+* {{lien|Zinkblech|de}}
+* {{lien|Zinkblende|de}}
+* {{lien|Zinkchlorid|de}}
+* {{lien|Zinkdruck|de}}
+* {{lien|Zinkdruckguss|de}}
+* {{lien|zinken|de}}
+* {{lien|Zinkerz|de}}
+* {{lien|zinkhaltig|de}}
+* {{lien|Zinkhütte|de}}
+* {{lien|Zinkit|de}}
+* {{lien|Zinklegierung|de}}
+* {{lien|Zinkleimverband|de}}
+* {{lien|Zinkmangel|de}}
+* {{lien|Zinkmine|de}}
+* {{lien|Zinko|de}}
+* {{lien|Zinkographie|de}}
+* {{lien|Zinkoxid|de}}
+* {{lien|Zinkpest|de}}
+* {{lien|Zinkplatte|de}}
+* {{lien|Zinkpräparat|de}}
+* {{lien|Zinkpulver|de}}
+* {{lien|Zinksalbe|de}}
+* {{lien|Zinksalz|de}}
+* {{lien|Zinksarg|de}}
+* {{lien|Zinkschicht|de}}
+* {{lien|Zinkspat|de}}
+* {{lien|Zinkstaub|de}}
+* {{lien|Zinksulfid|de}}
+* {{lien|Zinksulfat|de}}
+* {{lien|Zinkverbindung|de}}
+* {{lien|Zinkvergiftung|de}}
+* {{lien|Zinkwanne|de}}
+* {{lien|Zinkweiß|de}}
+{{)}}
+{{clr}}
+
+==== {{S|vocabulaire}} ====
+{{tableau périodique/de}}
+{{Liste|avant={{lien|Kupfer|de}}<br>([[Cu#conv|Cu]])|après={{lien|Gallium|de}}<br>([[Ga#conv|Ga]])|liste=[[Thésaurus:tableau périodique des éléments/allemand|Éléments chimiques en allemand]]}}
+
+=== {{S|nom|de|num=2}} ===
+{{de-nom-m-s-en|gs2=Zinkes}}
+'''Zink''' {{pron|t͡sɪŋk|de}} {{m}}
+# {{instruments|nl}} [[cornet à bouquin#fr|Cornet à bouquin]].
+#* {{exemple|lang=de}}
+
+=== {{S|prononciation}} ===
+* {{écouter|Vienne (Autriche)|t͡sɪŋk|lang=de|audio=De-at-Zink.ogg}}
+* {{écouter|Berlin (Allemagne)|t͡sɪŋk|lang=de|audio=De-Zink.ogg}}
+* {{écouter|{{DE|nocat=1}}|t͡sɪŋk|lang=de|audio=LL-Q188 (deu)-Lucas Werkmeister-Zink.wav}}
+* {{écouter|Berlin (Allemagne)|t͡sɪŋk|lang=de|audio=LL-Q188 (deu)-Sebastian Wallroth-Zink.wav}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=de}}
+
+=== {{S|références}} ===
+* {{R:Duden|Zink_Metall_Element}}

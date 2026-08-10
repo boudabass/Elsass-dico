@@ -1,0 +1,173 @@
+{{voir/esperanto}}
+
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|eo|gsw|mot=Esperanto}}.
+
+=== {{S|nom|gsw}} ===
+'''Esperanto''' {{pron||gsw}}
+# [[espéranto|Espéranto]] (langue).
+#* {{exemple|lang=gsw}}
+=== {{S|voir aussi}} ===
+
+* {{WP|lang=gsw}}
+
+[[Catégorie:Langues en alémanique]]
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|eo|de|mot=Esperanto}}.
+
+=== {{S|nom|de}} ===
+'''Esperanto''' {{pron|ˌɛs.pə.ˈʀan.toː|de}} {{n}}
+# {{langues|de}} [[espéranto|Espéranto]].
+#* {{exemple|lang=de}}
+=== {{S|prononciation}} ===
+* {{écouter|lang=de|Allemagne <!-- précisez svp la ville ou la région -->||audio=De-Esperanto.ogg}}
+
+== {{langue|en}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|eo|en|Esperanto}}.
+
+=== {{S|nom propre|en}} ===
+'''Esperanto''' {{pron|ˌɛs.pə.ˈɹæn.toʊ|en}} ''ou'' {{pron|ˌɛs.pə.ˈɹɑn.toʊ|en}} {{US|nocat=1}}, {{pron|ˌɛs.pə.ˈɹɑːn.təʊ|en}} ''ou'' {{pron|ˌɛs.pə.ˈɹæn.təʊ|en}} {{UK|nocat=1}}
+# {{langues|en}} {{indénombrable|en}} [[espéranto|Espéranto]].
+#* {{exemple|lang=en}}
+=== {{S|prononciation}} ===
+* {{écouter|États-Unis|ˌɛs.pə.ˈɹɑn.toʊ|lang=en|audio=En-us-Esperanto.ogg}}
+* {{écouter|Bedford (Royaume-Uni)||lang=en|audio=LL-Q1860 (eng)-Frzzl-Esperanto.wav}}
+
+=== {{S|anagrammes}} ===
+{{voir anagrammes|en}}
+
+=== {{S|voir aussi}} ===
+
+* {{WP|lang=en}}
+
+== {{langue|nds}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|eo|nds|mot=Esperanto}}.
+
+=== {{S|nom|nds}} ===
+'''Esperanto''' {{pron||nds}}
+# [[espéranto|Espéranto]] (langue).
+#* {{exemple|lang=nds}}
+=== {{S|voir aussi}} ===
+
+* {{WP|lang=nds}}
+
+[[Catégorie:Langues en bas allemand]]
+
+== {{langue|bar}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|eo|bar|mot=Esperanto}}.
+
+=== {{S|nom|bar}} ===
+'''Esperanto''' {{pron||bar}}
+# [[espéranto|Espéranto]] (langue).
+#* {{exemple|lang=bar}}
+=== {{S|voir aussi}} ===
+
+* {{WP|lang=bar}}
+
+[[Catégorie:Langues en bavarois]]
+
+== {{langue|eo}} ==
+=== {{S|étymologie}} ===
+: De {{lien|''esperanto''|eo|sens=celui qui espère}}, <!--
+-->{{eo-étym|Esperant/|-o}}.
+: Le ''Fundamento'', le premier livre expliquant la grammaire de l’espéranto, a été publié en 1883 par {{w|Ludwik Lejzer Zamenhof|L. L. Zamenhof}}, le créateur de cette langue, sous le pseudonyme {{Lang|eo|''Doktoro Esperanto''|sens=docteur qui espère}}.
+: Le nom initial de la langue était ''{{lien|lingvo|eo}} {{lien|internacia|eo}}'' (« la langue internationale ») mais est vite devenu ''{{Lang|eo|Esperanto}}'' pour ses utilisateurs.
+
+=== {{S|nom|eo}} ===
+{{eo-flexions|sing=1|es.pe.ˈran.to}}
+'''Esperanto''' {{pron|es.pe.ˈran.to|eo}}
+# [[espéranto|Espéranto]].
+#* {{exemple|lang=eo}}
+
+==== {{S|synonymes}} ====
+* {{lien|internacia lingvo|eo}}
+
+==== {{S|apparentés}} ====
+{{liste dérivés racine|eo|esper}}
+
+=== {{S|prononciation}} ===
+* {{écouter||es.pe.ˈran.to|lang=eo|audio=Eo-Esperanto.ogg}}
+* {{écouter|lang=eo|Colombie (Cali)|audio=LL-Q143 (epo)-Remux-Esperanto.wav}}
+* {{écouter|lang=eo|Pays-Bas (partie continentale) (Wijchen)|audio=LL-Q143 (epo)-Robin van der Vliet-Esperanto.wav}}
+* {{écouter|lang=eo|France (Toulouse)|audio=LL-Q143 (epo)-Lepticed7-Esperanto.wav}}
+
+=== {{S|voir aussi}} ===
+
+* {{WP|Esperanto|lang=eo}}
+
+=== {{S|références}} ===
+==== {{S|bibliographie}} ====
+* {{R:PV}}
+* {{R:PIV}}
+* {{R:Retavort|rac=espera}}
+* {{R:AkadUniVort|oar="Esperant"|AkV1=1089|cat=F|ald2=7}}
+* {{R:AkadUniVort|rac1="-o"}}
+
+== {{langue|ksh}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|eo|ksh|Esperanto}}.
+
+=== {{S|nom|ksh}} ===
+'''Esperanto''' {{pron||ksh}}
+# {{langues|ksh}} [[espéranto|Espéranto]].
+#* {{exemple|lang=ksh}}
+=== {{S|voir aussi}} ===
+
+* {{WP|lang=ksh}}
+
+== {{langue|li}} ==
+=== {{S|étymologie}} ===
+: Voir étymologie dans l’article [[Esperanto#eo|'''Esperanto''']].
+
+=== {{S|nom|li}} ===
+'''Esperanto''' {{pron||li}}
+# [[espéranto|Espéranto]] (langue).
+#* {{exemple|lang=li}}
+=== {{S|voir aussi}} ===
+
+* {{WP|lang=li}}
+
+[[Catégorie:Langues en limbourgeois]]
+
+== {{langue|nl}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|eo|nl|mot=Esperanto}}.
+
+=== {{S|nom|nl}} ===
+'''Esperanto''' {{pron||nl}}
+# {{lexique|linguistique|nl}} [[espéranto|Espéranto]].
+#* {{exemple|lang=nl}}
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=nl|Pays-Bas <!-- précisez svp la ville ou la région -->||audio=nl-Esperanto.ogg}}
+* {{écouter|lang=nl|Pays-Bas (partie continentale) (Wijchen)|audio=LL-Q7411 (nld)-Robin van der Vliet-Esperanto.wav}}
+
+== {{langue|tr}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|eo|tr|mot=Esperanto}}.
+
+=== {{S|nom|tr}} ===
+'''Esperanto''' {{pron||tr}}
+#{{info lex|linguistique}} [[espéranto#fr|Espéranto]].
+#* {{exemple|lang=tr}}
+
+=== {{S|prononciation}} ===
+* {{écouter|||lang=tr|audio=LL-Q256 (tur)-UmutDevrim08-Esperanto.wav}}
+
+=== {{S|voir aussi}} ===
+
+* {{WP|lang=tr}}
+
+
+[[Catégorie:Langues en alémanique]]
+[[Catégorie:Langues en turc]]
+[[Catégorie:Langues en allemand]]
+[[Catégorie:Langues en anglais]]
+[[Catégorie:Langues en espéranto]]
+[[Catégorie:Langues en néerlandais]]

@@ -1,0 +1,884 @@
+{{voir/portugal}}
+
+== {{langue|fr}} ==
+=== {{S|étymologie}} ===
+: Du {{étylp|pt|fr|mot=Portugal}}.
+: Au {{siècle2|V}} siècle, le Portugal était nommé ''Terra Portucallis'' (de ''Portus Calle''). Ce nom désigne deux villes à l’embouchure du [[Douro]] : ''Portus'' (l’actuelle de [[Porto]]) et ''Cale'' (l’actuelle de [[Vila Nova de Gaia]]).
+: Dans Froissart, le Portugal est toujours appelé ''Portingal''. De ''Portingallia'', par contraction pour ''Portus in Gallia'', d’où l’on a fait aussi ''{{lien|Portugallia|la}}'', par une autre contraction.
+: Une autre hypothèse dit que ''Portugal'' viendrait d’un mot arabe "Bortoqal" qui signifie "orange". {{réfnec|lang=fr|En grec, "portocali" appuyé sur la dernière syllabe est : la couleur orange, et appuyé sur l'avant-dernière syllabe : l'orange-fruit. Ceci est un contre-sens et un anachronisme, la raison pour laquelle on l'orange s'appelle ainsi c'est que ce sont les portugais qui ont apporté l'orange d'Asie vers d'autres peuples qui ont nommé le fruite d'après les portugais. Le Portugal existait depuis plusieurs siècles.}}
+
+=== {{S|nom propre|fr}} ===
+{{fr-inv|pɔʁ.ty.ɡal}}
+[[Image:Portugal (orthographic projection).svg|thumb|Localisation du '''Portugal'''.]]
+'''Portugal''' {{pron|pɔʁ.ty.ɡal|fr}} {{m}}
+# {{pays|fr|d’Europe|pays=Portugal|clé=*}} Pays d’[[Europe]], situé dans l’ouest de la [[péninsule ibérique]], bordé au [[nord]] et à l’[[est]] par l’[[Espagne]], et au [[sud]] et à l’[[ouest]] par l’[[océan Atlantique Nord]], et dont la capitale est [[Lisbonne]].
+#* {{exemple | lang=fr
+ | On divise le '''Portugal''' en six parties ; savoir, le royaume des Algarves ; les provinces entre Duero-Minho, Béïra, l’Alentéjo, Tra-los Montes, l’Estramadoure portugaise : outre cela le royaume de '''Portugal''' a des possessions considérables dans l’Amérique, comme le Brésil, dans l’Afrique & dans l’Asie.
+ | source=« {{ws|L’Encyclopédie/1re édition/PORTUGAL|Portugal}} » dans ''L’Encyclopédie'', 1751}}
+#* ''— Puis-je parler à Sa Majesté des affaires du '''Portugal''' ? dit-il.<br
+/>— D’Espagne, par conséquent, dit Louis ; le '''Portugal''' est une province d’Espagne.'' {{source|{{w|Alfred de Vigny}}, ''{{w|Cinq-Mars (roman)|Cinq-Mars}}'', {{ws|Cinq-Mars/XXIV|chapitre XXIV}}, 1826}}
+#* {{exemple|lang=fr|
+Le lendemain on nous annonça que nous n’allions pas à Paris comme nous comptions, mais bien en '''Portugal'''.
+|source={{w|Jean-Roch Coignet}}, « ''Les cahiers du capitaine Coignet (1799-1815)'' », Hachette, 1899, page 126}}
+#* {{exemple | lang=fr
+ | Les bulbilles de certaines plantes sont des agents de dissémination très efficaces. Ainsi, le '''Portugal''' est véritablement infesté par la propagation envahissante d’''Oxalis cernua'', plante sud-africaine importée.
+ | source={{w|Henri Gaussen}}, ''Géographie des Plantes'', Armand Colin, 1933, page 19}}
+
+==== {{S|abréviations}} ====
+* [[PRT]] (norme {{w|ISO 3166-1}} alpha-3)
+
+==== {{S|synonymes}} ====
+* {{term|dans un contexte antique}} {{lien|Lusitanie|fr}}
+* {{term|moderne}} [[Royaume du Portugal]] ''(1139–1580, 1660–1910)''
+* {{term|moderne}} [[République portugaise]] ''(nom officiel, 1910-)''
+
+==== {{S|gentilés}} ====
+* [[Portugais]], [[Portugaise]], [[portugais]]
+
+==== {{S|dérivés}} ====
+{{(}}
+* [[angélique du Portugal]]
+* [[chêne du Portugal]]
+* [[chien de garenne du Portugal]]
+* [[cyprès du Portugal]]
+* [[eau de Portugal]]
+* [[laurier du Portugal]]
+{{)}}
+
+==== {{S|apparentés}} ====
+{{(}}
+* [[portugais]]
+* [[Portugais]]
+* [[Portugaise]]
+* [[portugal]]
+{{)}}
+
+==== {{S|vocabulaire}} ====
+* {{voir thésaurus|fr|radio|Union européenne|châtaigne}}
+
+==== {{S|méronymes}} ====
+{{cf|:Catégorie:Régions du Portugal en français}}
+
+==== {{S|traductions}} ====
+{{trad-début|Pays d’Europe}}
+* {{T|af}} : {{trad-|af|Portugal}}
+* {{T|sq}} : {{trad+|sq|Portugalia}}
+* {{T|gsw}} : {{trad|gsw|Portugal}}
+* {{T|de}} : {{trad+|de|Portugal}}
+* {{T|nds}} : {{trad+|nds|Portugal}}
+* {{T|am}} : {{trad-|am|ፖርቱጋል}}
+* {{T|en}} : {{trad+|en|Portugal}}
+* {{T|ar}} : {{trad-|ar|البرتغال}}, {{trad-|ar|برتغال}}
+* {{T|arz}} : {{trad|arz|البرتغال}}
+* {{T|ary}} : {{trad|ary|برطقيز|tr=bartkiz}}, {{trad|ary|برتغال|tr=bortoghal}}
+* {{T|an}} : {{trad-|an|Portugal}}
+* {{T|arc}} : {{trad|arc|ܦܘܪܛܘܓܠ}}
+* {{T|hy}} : {{trad+|hy|Պորտուգալիա|tr=Portowgalia}}
+* {{T|rup}} : {{trad|rup|Portogallia}}
+* {{T|ast}} : {{trad+|ast|Portugal}}
+* {{T|az}} : {{trad+|az|Portuqaliya}}
+* {{T|eu}} : {{trad+|eu|Portugal}}
+* {{T|rcf}} : {{trad|rcf|Portigal}}
+* {{T|nds-nl}} : {{trad+|nds|Portugal}}
+* {{T|dsb}} : {{trad|dsb|Portugalska}}
+* {{T|bar}} : {{trad|bar|Portugal}}
+* {{T|bn}} : {{trad+|bn|পর্তুগাল|R=Portugal}}
+* {{T|be}} : {{trad-|be|Партугалія|tr=Partuhalija}}
+* {{T|be-tarask}} : {{trad|be-tarask|Партуґалія|R=Partugalija}}
+* {{T|bs}} : {{trad-|bs|Portugal}}
+* {{T|br}} : {{trad+|br|Portugal}}, {{trad-|br|Bro-Bortugal|f}}
+* {{T|bg}} : {{trad+|bg|Португалия|tr=Portugalija}}
+* {{T|yue}} : {{trad-|yue|葡萄牙}}
+* {{T|ca}} : {{trad+|ca|Portugal}}
+* {{T|ceb}} : {{trad|ceb|Portugal}}
+* {{T|cbk-zam}} : {{trad|cbk-zam|Portugal}}
+* {{T|zh}} : {{trad+|zh|葡萄牙|R=Pútáoyá}}
+* {{T|ko}} : {{trad+|ko|포르투갈|tr=Poreutugal}}
+* {{T|kw}} : {{trad-|kw|Portyngal}}
+* {{T|co}} : {{trad-|co|Portugallu}}
+* {{T|ht}} : {{trad|ht|Pòtigal}}
+* {{T|hr}} : {{trad+|hr|Portugal}}
+* {{T|da}} : {{trad+|da|Portugal}}
+* {{T|diq}} : {{trad+|diq|Portekiz}}
+* {{T|dv}} : {{trad-|dv|ޕޯޗުގަލް}}
+* {{T|dz}} : {{trad-|dz|པོར་ཅུ་གལ་}}
+* {{T|es}} : {{trad+|es|Portugal}}
+* {{T|eo}} : {{trad-|eo|Portugalio}}, {{trad-|eo|Portugalujo}}
+* {{T|et}} : {{trad+|et|Portugal}}
+* {{T|ext}} : {{trad|ext|Purtugal}}
+* {{T|ee}} : {{trad|ee|Portugal}}
+* {{T|fo}} : {{trad-|fo|Portugal}}
+* {{T|fi}} : {{trad+|fi|Portugali}}
+* {{T|fc}} : {{trad|fc|Poutrugâ}}
+* {{T|frp}} : {{trad|frp|Portugal}}
+* {{T|fur}} : {{trad|fur|Portugal}}
+* {{T|fy}} : {{trad-|fy|Portegal}}
+* {{T|stq}} : {{trad|stq|Portugal}}
+* {{T|frr}} : {{trad|frr|Portugal}}
+* {{T|gd}} : {{trad-|gd|Portagail}}
+* {{T|ga}} : {{trad+|ga|Portaingéil}}
+* {{T|gl}} : {{trad+|gl|Portugal}}
+* {{T|cy}} : {{trad+|cy|Portiwgal}}
+* {{T|ka}} : {{trad+|ka|პორტუგალია|tr=Portugalia}}
+* {{T|got}} : {{trad|got|𐍀𐌰𐌿𐍂𐍄𐌿𐌲𐌰𐌻𐌾𐌰|R=Paúrtuǥalja}}
+* {{T|el}} : {{trad+|el|Πορτογαλία|R=Portogalía}}
+* {{T|gn}} : {{trad-|gn|Poytuga}}
+* {{T|hak}} : {{trad|hak|Phù-thò-â}}
+* {{T|hsb}} : {{trad-|hsb|Portugalska}}
+* {{T|haw}} : {{trad|haw|Potugala}}
+* {{T|he}} : {{trad+|he|פורטוגל}}
+* {{T|hi}} : {{trad+|hi|पुर्तगाल|R=Purtagāl}}
+* {{T|hif}} : {{trad-|hif|Portugal}}
+* {{T|hu}} : {{trad+|hu|Portugália}}
+* {{T|sah}} : {{trad|sah|Португалия|R=Portugalija}}
+* {{T|io}} : {{trad+|io|Portugal}}
+* {{T|ilo}} : {{trad|ilo|Portugal}}
+* {{T|id}} : {{trad+|id|Portugal}}
+* {{T|ia}} : {{trad+|ia|Portugal}}
+* {{T|ie}} : {{trad-|ie|Portugal}}
+* {{T|is}} : {{trad+|is|Portúgal}}
+* {{T|it}} : {{trad+|it|Portogallo}}
+* {{T|ja}} : {{trad+|ja|ポルトガル|tr=Porutogaru}}
+* {{T|jv}} : {{trad-|jv|Portugal}}
+* {{T|lad}} : {{trad|lad|Portugal}}
+* {{T|kab}} : {{trad|kab|Portugal}}
+* {{T|csb}} : {{trad-|csb|Pòrtugalskô}}
+* {{T|kl}} : {{trad-|kl|Portugali}}
+* {{T|kn}} : {{trad+|kn|ಪೋರ್ಚುಗಲ್|R=Pōrcugal}}
+* {{T|pam}} : {{trad|pam|Portugal}}
+* {{T|ks}} : {{trad-|ks|پُرتٕگال|R=Purtügāl}}, {{trad-|ks|पुर्तॖगाल|R=Purtügāl}}
+* {{T|kk}} : {{trad+|kk|Португалия|R=Portugalija}}
+* {{T|kv}} : {{trad|kv|Португалия|R=Portugalija}}
+* {{T|avk}} : {{trad|avk|Portugala}}
+* {{T|ku}} : {{trad-|ku|Portûgal}}, {{trad+|ku|Portekîz}}
+* {{T|la}} : {{trad+|la|Lusitania}}, {{trad+|la|Portugallia}}
+* {{T|lv}} : {{trad+|lv|Portugāle}}
+* {{T|lij}} : {{trad|lij|Pòrtogallo}}
+* {{T|li}} : {{trad+|li|Portugal}}
+* {{T|ln}} : {{trad-|ln|Pulutugal}}
+* {{T|lt}} : {{trad+|lt|Portugalija}}
+* {{T|jbo}} : {{trad-|jbo|potygu'e}}
+* {{T|lmo}} : {{trad-|lmo|Portogal}}
+* {{T|lb}} : {{trad+|lb|Portugal}}
+* {{T|mk}} : {{trad+|mk|Португалија|tr=Portugalija}}
+* {{T|ms}} : {{trad+|ms|Portugal}}
+* {{T|ml}} : {{trad-|ml|പോര്‍ച്ചുഗല്‍}}, {{trad-|ml|പോർച്ചുഗൽ|tr=Pēārccugal}}
+* {{T|mg}} : {{trad-|mg|Pôrtogaly}}
+* {{T|mt}} : {{trad-|mt|Portugall}}
+* {{T|bpy}} : {{trad|bpy|পর্তুগাল}}
+* {{T|gv}} : {{trad-|gv|Portiugal|dif=yn Phortiugal}}
+* {{T|mi}} : {{trad-|mi|Potukara}}
+* {{T|mr}} : {{trad-|mr|पोर्तुगाल|R=Portugāl}}
+* {{T|mzn}} : {{trad|mzn|پورتەخال}}
+* {{T|nan}} : {{trad-|nan|Phû-tô-gâ}}
+* {{T|mwl}} : {{trad|mwl|Pertual}}
+* {{T|mn}} : {{trad-|mn|Португал|R=Portugal}}
+* {{T|nci}} : {{trad|nci|Portugal}}
+* {{T|nap}} : {{trad|nap|Purtuallo}}
+* {{T|nl}} : {{trad+|nl|Portugal}}
+* {{T|ne}} : {{trad-|ne|पोर्चुगल|R=Porcugal}}
+* {{T|normand}} : {{trad|normand|Portûnga}}
+* {{T|no}} : {{trad+|no|Portugal}}
+* {{T|nn}} : {{trad+|no|Portugal}}
+* {{T|nov}} : {{trad|nov|Portugal}}
+* {{T|oc}} : {{trad+|oc|Portugal}}
+* {{T|os}} : {{trad|os|Португали|R=Portugali}}
+* {{T|udm}} : {{trad|udm|Португалия|R=Portugalija}}
+* {{T|ug}} : {{trad-|ug|Portugaliye}}
+* {{T|ur}} : {{trad-|ur|پرتگال}}
+* {{T|uz}} : {{trad+|uz|Portugaliya}}
+* {{T|ps}} : {{trad-|ps|پرتګال}}
+* {{T|fa}} : {{trad+|fa|پرتغال}}
+* {{T|pms}} : {{trad|pms|Portugal}}
+* {{T|pih}} : {{trad|pih|Porchugal}}
+* {{T|poitevin-saintongeais}} : {{trad|poitevin-saintongeais|Portugàu}}
+* {{T|pl}} : {{trad+|pl|Portugalia}}
+* {{T|pnt}} : {{trad|pnt|Πορτογαλία|R=Portogalía}}
+* {{T|pt}} : {{trad+|pt|Portugal}}
+* {{T|qu}} : {{trad-|qu|Purtugal}}
+* {{T|rm}} : {{trad-|rm|Portugal}}
+* {{T|ro}} : {{trad+|ro|Portugalia}}
+* {{T|ru}} : {{trad+|ru|Португалия|tr=Portugalija}}
+* {{T|rsk}} : {{trad|rsk|Портуґалия|tr=Portugalija}}
+* {{T|se}} : {{trad|se|Portugála}}
+* {{T|sm}} : {{trad-|sm|Portugal}}
+* {{T|sgs}} : {{trad|sgs|Puortogalėjė}}
+* {{T|sa}} : {{trad-|sa|पुर्तगाल|R=Purtagāla}}
+* {{T|sc}} : {{trad-|sc|Portugallu}}
+* {{T|sr}} : {{trad-|sr|Португал|R=Portugal}}, {{trad+|sr|Португалија|R=Portugalija}}
+* {{T|sh}} : {{trad+|sh|Portugal}}
+* {{T|scn}} : {{trad-|scn|Purtugallu}}
+* {{T|szl}} : {{trad|szl|Portugalijo}}
+* {{T|sk}} : {{trad+|sk|Portugalsko}}
+* {{T|sl}} : {{trad+|sl|Portugalska}}
+* {{T|sv}} : {{trad+|sv|Portugal}}
+* {{T|sw}} : {{trad+|sw|Ureno}}
+* {{T|tg}} : {{trad+|tg|Португалия|R=Portugalija}}
+* {{T|tl}} : {{trad-|tl|Portugal}}
+* {{T|ty}} : {{trad|ty|Pōtītī}}
+* {{T|ta}} : {{trad+|ta|போர்த்துகல்}}
+* {{T|roa-tara}} : {{trad|roa-tara|Purtugalle}}
+* {{T|crh}} : {{trad|crh|Portugaliya}}
+* {{T|tt}} : {{trad-|tt|Португал|R=Portugal}}
+* {{T|cs}} : {{trad+|cs|Portugalsko}}
+* {{T|ce}} : {{trad|ce|Португали|R=Portugali}}
+* {{T|cv}} : {{trad|cv|Португали|R=Portugali}}
+* {{T|te}} : {{trad+|te|పోర్చుగల్|R=Pōrcugal}}
+* {{T|tet}} : {{trad|tet|Portugál}}
+* {{T|th}} : {{trad+|th|ประเทศโปรตุเกส}}, {{trad-|th|สาธารณรัฐโปรตุเกส}}
+* {{T|bo}} : {{trad-|bo|ཕུ་ཐོ་ཡ།}}
+* {{T|tpi}} : {{trad-|tpi|Posugol}}
+* {{T|tourangeau}} : {{trad|tourangeau|Pourtingau}}
+* {{T|ts}} : {{trad-|ts|Phochugali}}
+* {{T|tr}} : {{trad+|tr|Portekiz}}
+* {{T|uk}} : {{trad+|uk|Португалія|R=Portuhalija}}
+* {{T|vec}} : {{trad-|vec|Portogało}}
+* {{T|vi}} : {{trad+|vi|Bồ Đào Nha}}
+* {{T|rmy}} : {{trad|rmy|Portugaliya}}
+* {{T|volapük classique}} : {{trad|volapük classique|Bodugän}}
+* {{T|vo}} : {{trad+|vo|Portugän}}
+* {{T|vro}} : {{trad|vro|Portugal}}
+* {{T|wa}} : {{trad+|wa|Portugal}}
+* {{T|war}} : {{trad|war|Portugal}}
+* {{T|wo}} : {{trad+|wo|Portugaal}}
+* {{T|wuu}} : {{trad|wuu|葡萄牙}}
+* {{T|yi}} : {{trad-|yi|פּאָרטוגאַל}}
+* {{T|yo}} : {{trad-|yo|Portugal}}
+* {{T|zu}} : {{trad-|zu|iPhothugali}}
+{{trad-fin}}
+
+=== {{S|nom de famille|fr}} ===
+{{fr-inv|pɔʁ.ty.ɡal|inv_titre=Nom de famille}}
+'''Portugal''' {{pron|pɔʁ.ty.ɡal|fr}}
+# Nom de famille.
+#* {{exemple|lang=fr}}
+
+==== {{S|traductions}} ====
+{{trad-début}}
+{{trad-fin}}
+
+=== {{S|prononciation}} ===
+* {{écouter|France|pɔʁ.ty.ɡal|lang=fr}}
+* {{écouter|Québec|pɔʁ.t͡sʏ.ɡal|lang=fr}}
+* {{écouter||pɔʁ.ty.ɡal|lang=fr|audio=LL-Q150 (fra)-0x010C-Portugal.wav}}
+
+* {{écouter||pɔʁ.ty.ɡal|lang=fr|audio=LL-Q150 (fra)-Jules78120-Portugal.wav}}
+* {{écouter|lang=fr|France (Paris)|audio=LL-Q150 (fra)-GrandCelinien-Portugal.wav}}
+* {{écouter|lang=fr|France|audio=LL-Q150 (fra)-Fhala.K-Portugal.wav}}
+* {{écouter|lang=fr|France (Occitanie)|audio=LL-Q150 (fra)-Arthur Crbz-Portugal.wav}}
+* {{écouter|lang=fr|France (Toulouse)||audio=LL-Q150 (fra)-Lepticed7-Portugal.wav}}
+* {{écouter|lang=fr|France||audio=LL-Q150 (fra)-Mecanautes-Portugal.wav}}
+* {{écouter|Cornimont (France)||lang=fr|audio=LL-Q150 (fra)-Poslovitch-Portugal.wav}}
+* {{écouter|Perpignan (France)|pɔʁ.ty.ɡal|lang=fr|audio=LL-Q150 (fra)-Laszlo Cárdenas (Culex)-Portugal.wav}}
+* {{écouter|Vendée (France)||lang=fr|audio=LL-Q150 (fra)-Sartus85-Portugal.wav}}
+
+=== {{S|voir aussi}} ===
+* {{WP}}
+* {{Le Dico des Ados}}
+* {{Vikidia|AdQ=oui}}
+* {{WS}}
+* {{WP|Homme malade de l’Europe}}
+
+=== {{S|références}} ===
+* {{R:Ménage 1750}}
+
+== {{langue|af}} ==
+=== {{S|étymologie}} ===
+: Du {{étylp|pt|af|mot=Portugal}}.
+
+=== {{S|nom propre|af}} ===
+'''Portugal''' {{pron||af}}
+# {{pays|af|d’Europe|pays=Portugal|clé=*}} {{lien|Portugal|fr}}.
+#* {{exemple|lang=af}}
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=af|Afrique du Sud (Johannesbourg)|audio=LL-Q14196 (afr)-Oesjaar-Portugal.wav}}
+
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: Du {{étylp|pt|gsw|mot=Portugal}}.
+
+=== {{S|nom propre|gsw}} ===
+'''Portugal''' {{pron||gsw}}
+# {{pays|gsw|d’Europe|pays=Portugal|clé=*}} {{lien|Portugal|fr}}.
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: Du {{étylp|pt|de|mot=Portugal}}.
+
+=== {{S|nom propre|de}} ===
+{{de-nom-propre|genre=n|gs=Portugals|gs2=Portugal}}
+'''Portugal''' {{pron|ˈpɔʁtuɡal|de}} {{n}} {{au singulier uniquement|de}}
+# {{pays|de|d’Europe|pays=Portugal|clé=*}} {{lien|Portugal|fr}}.
+#* {{exemple|Von '''Portugal''' sind viele Entdeckerreisen ausgegangen.|lang=de|sens=Beaucoup de voyages d’explorateurs sont partis du Portugal.}}
+#* {{exemple|In '''Portugal''', am Südwestzipfel Europas, entwickelte sich die Seefahrt sehr schnell und machte aus den Portugiesen eine Nation der Entdecker und Eroberer.|lang=de|sens=Au Portugal, à la pointe sud-ouest de l'Europe, la navigation s'est développée très rapidement, faisant des Portugais une nation d'explorateurs et de conquérants.}}
+
+==== {{S|notes}} ====
+: En allemand, les pays n’ont généralement pas de déterminant. Si toutefois il y a besoin d’une déclinaison, ils sont supposés du genre neutre.
+
+==== {{S|gentilés}} ====
+* [[Portugiese]] (''Portugais''), [[Portugiesin]] (''Portugaise''), [[portugiesisch]] (''portugais(e)'')
+
+==== {{S|dérivés}} ====
+* [[Portugalöl]]
+* [[Portugieser]] (''cépage portugieser'')
+
+=== {{S|prononciation}} ===
+* {{écouter|Berlin|ˈpɔʁtuɡal|lang=de|audio=De-Portugal.ogg}}
+
+=== {{S|références}} ===
+{{Références}}
+
+==== {{S|sources}} ====
+* {{R:DWDS|Portugal}}
+* {{R:Duden|Portugal}}
+* {{Source-wikt|de|Portugal}}
+
+==== {{S|bibliographie}} ====
+* Larousse - Dictionnaire allemand/français – français/allemand, éd. 1958, p. 630
+* Harrap’s de poche – Bordas Dictionnaire allemand/français, éd. 1997, ISBN 0-245-50308-0, p. 227
+
+[[Catégorie:Toponymes dont l’origine est une construction en allemand]]
+
+== {{langue|en}} ==
+=== {{S|étymologie}} ===
+: Du {{étylp|pt|en|mot=Portugal}}.
+
+=== {{S|nom propre|en}} ===
+'''Portugal''' {{pron|ˈpɔɹ.tʃə.ɡəl|en}} {{US|nocat=1}}, {{pron|ˈpɔː.tjə.ɡəl|en}} {{UK|nocat=1}}
+# {{pays|en|d’Europe|pays=Portugal|clé=*}} {{lien|Portugal|fr}}.
+
+==== {{S|gentilés}} ====
+* {{lien|Portuguese|en}}
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=en|États-Unis|ˈpɔɹ.tʃə.ɡəl|audio=En-us-Portugal.ogg}}
+* {{écouter|Londres (Royaume-Uni)||lang=en|audio=}}
+* {{écouter|Texas (États-Unis)||lang=en|audio=LL-Q1860 (eng)-Wodencafe-Portugal.wav}}
+* {{écouter|Londres (Royaume-Uni)||lang=en|audio=LL-Q1860 (eng)-Soundguys-Portugal.wav}}
+* {{écouter|États-Unis||niveau=bon|lang=en|audio=LL-Q1860 (eng)-PinkberryMoloko-Portugal.wav}}
+* {{écouter|||lang=en|audio=LL-Q1860 (eng)-Saikrishna gangula-Portugal.wav}}
+* {{écouter|||lang=en|audio=LL-Q1860 (eng)-Boredcookie-Portugal.wav}}
+* {{écouter|New York (États-Unis)||lang=en|audio=LL-Q1860 (eng)-Assorted-Interests-Portugal.wav}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=en}}
+
+== {{langue|an}} ==
+=== {{S|étymologie}} ===
+: Du {{étylp|pt|an|mot=Portugal}}.
+
+=== {{S|nom propre|an}} ===
+'''Portugal''' {{pron||an}}
+# {{pays|an|d’Europe|pays=Portugal|clé=*}} {{lien|Portugal|fr}}.
+
+== {{langue|ast}} ==
+=== {{S|étymologie}} ===
+: Du {{étylp|pt|ast|mot=Portugal}}.
+
+=== {{S|nom propre|ast}} ===
+'''Portugal''' {{pron|poɾ.tu.ˈɣal|ast}}
+# {{pays|ast|d’Europe|pays=Portugal|clé=*}} {{lien|Portugal|fr}}.
+
+==== {{S|dérivés}} ====
+* [[portugués]]
+
+== {{langue|nds}} ==
+=== {{S|étymologie}} ===
+: Du {{étylp|pt|nds|mot=Portugal}}.
+
+=== {{S|nom propre|nds}} ===
+'''Portugal''' {{pron||nds}}
+# {{pays|nds|d’Europe|pays=Portugal|clé=*}} {{lien|Portugal|fr}}.
+
+== {{langue|nds-nl}} ==
+=== {{S|étymologie}} ===
+: Du {{étylp|pt|nhn|mot=Portugal}}.
+
+=== {{S|nom propre|nds-nl}} ===
+'''Portugal''' {{pron||nds-nl}}
+# {{pays|nds-nl|d’Europe|pays=Portugal|clé=*}} {{lien|Portugal|fr}}.
+
+== {{langue|eu}} ==
+=== {{S|étymologie}} ===
+: Du {{étylp|pt|eu|mot=Portugal}}.
+
+=== {{S|nom propre|eu}} ===
+'''Portugal''' {{pron||eu}}
+# {{pays|eu|d’Europe|pays=Portugal|clé=*}} {{lien|Portugal|fr}}.
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=eu|Espagne (Saint-Sébastien)|audio=LL-Q8752 (eus)-Xabier Cañas-Portugal.wav}}
+
+== {{langue|bar}} ==
+=== {{S|étymologie}} ===
+: Du {{étylp|pt|bar|mot=Portugal}}.
+
+=== {{S|nom propre|bar}} ===
+'''Portugal''' {{pron||bar}}
+# {{pays|bar|d’Europe|pays=Portugal|clé=*}} {{lien|Portugal|fr}}.
+
+== {{langue|bs}} ==
+=== {{S|étymologie}} ===
+: Du {{étylp|pt|bs|mot=Portugal}}.
+
+=== {{S|nom propre|bs}} ===
+'''Portugal''' {{pron||bs}}
+# {{pays|bs|d’Europe|pays=Portugal|clé=*}} {{lien|Portugal|fr}}.
+
+== {{langue|br}} ==
+=== {{S|étymologie}} ===
+: Du {{étylp|pt|br|mot=Portugal}}.
+
+=== {{S|nom propre|br}} ===
+'''Portugal''' {{pron|pɔr.ˈtyː.ɡal|br}}
+# {{pays|br|d’Europe|pays=Portugal|clé=*}} {{lien|Portugal|fr}}.
+
+==== {{S|synonymes}} ====
+* [[Bro-Bortugal]]
+
+==== {{S|gentilés}} ====
+{{(}}
+* [[Portugalad]] ({{p}} : [[Portugaliz]])
+* [[Portugaladez]] ({{p}} : [[Portugaladezed]])
+* [[portugalat]]
+* [[portugalek]]
+{{)}}
+
+==== {{S|dérivés}} ====
+* [[portugaleg]]
+* [[portugaleger]]
+* [[portugalegerez]]
+
+== {{langue|ca}} ==
+=== {{S|étymologie}} ===
+: Du {{étylp|pt|ca|mot=Portugal}}.
+
+=== {{S|nom propre|ca}} ===
+'''Portugal''' {{pron||ca}}
+# {{pays|ca|d’Europe|pays=Portugal|clé=*}} {{lien|Portugal|fr}}.
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=ca|Espagne (Villarreal)||audio=LL-Q7026 (cat)-Millars-Portugal.wav}}
+
+== {{langue|ceb}} ==
+=== {{S|étymologie}} ===
+: Du {{étylp|pt|ceb|mot=Portugal}}.
+
+=== {{S|nom propre|ceb}} ===
+'''Portugal''' {{pron||ceb}}
+# {{pays|ceb|d’Europe|pays=Portugal|clé=*}} {{lien|Portugal|fr}}.
+
+== {{langue|cbk-zam}} ==
+=== {{S|nom propre|cbk-zam}} ===
+'''Portugal''' {{pron||cbk-zam}}
+# {{pays|cbk-zam|d’Europe|pays=Portugal|clé=*}} {{lien|Portugal|fr}}.
+
+== {{langue|hr}} ==
+=== {{S|étymologie}} ===
+: Du {{étylp|pt|hr|mot=Portugal}}.
+
+=== {{S|nom propre|hr}} ===
+'''Portugal''' {{pron||hr}}
+# {{pays|hr|d’Europe|pays=Portugal|clé=*}} {{lien|Portugal|fr}}.
+
+== {{langue|da}} ==
+=== {{S|étymologie}} ===
+: Du {{étylp|pt|da|mot=Portugal}}.
+
+=== {{S|nom propre|da}} ===
+'''Portugal''' {{pron||da}}
+# {{pays|da|d’Europe|pays=Portugal|clé=*}} {{lien|Portugal|fr}}.
+
+== {{langue|es}} ==
+=== {{S|étymologie}} ===
+: Du {{étylp|pt|es|mot=Portugal}}.
+
+=== {{S|nom propre|es}} ===
+'''Portugal''' {{pron|poɾ.tu.ˈɡal|es}} {{m}} {{s}}
+# {{pays|es|d’Europe|pays=Portugal|clé=*}} {{lien|Portugal|fr}}.
+
+==== {{S|gentilés}} ====
+* {{lien|portugués|es}}
+
+=== {{S|prononciation}} ===
+* {{écouter|Espagne||lang=es|audio=LL-Q1321 (spa)-Rodelar-Portugal.wav}}
+* {{écouter|Lima (Pérou)||lang=es|audio=LL-Q1321 (spa)-Rodrigo5260-Portugal.wav}}
+
+== {{langue|et}} ==
+=== {{S|étymologie}} ===
+: Du {{étylp|pt|et|mot=Portugal}}.
+
+=== {{S|nom propre|et}} ===
+'''Portugal''' {{pron||et}}
+# {{pays|et|d’Europe|pays=Portugal|clé=*}} {{lien|Portugal|fr}}.
+
+== {{langue|ee}} ==
+=== {{S|étymologie}} ===
+: Du {{étylp|pt|ee|mot=Portugal}}.
+
+=== {{S|nom propre|ee}} ===
+'''Portugal''' {{pron||ee}}
+# {{pays|ee|d’Europe|pays=Portugal|clé=*}} {{lien|Portugal|fr}}.
+
+== {{langue|fo}} ==
+=== {{S|étymologie}} ===
+: Du {{étylp|pt|fo|mot=Portugal}}.
+
+=== {{S|nom propre|fo}} ===
+'''Portugal''' {{pron||fo}}
+# {{pays|fo|d’Europe|pays=Portugal|clé=*}} {{lien|Portugal|fr}}.
+
+== {{langue|frp}} ==
+=== {{S|étymologie}} ===
+: Du {{étylp|pt|frp|mot=Portugal}}.
+
+=== {{S|nom propre|frp}} ===
+'''Portugal''' {{pron||frp}}
+# {{pays|frp|d’Europe|pays=Portugal|clé=*}} {{lien|Portugal|fr}}.
+
+== {{langue|fur}} ==
+=== {{S|étymologie}} ===
+: Du {{étylp|pt|fur|mot=Portugal}}.
+
+=== {{S|nom propre|fur}} ===
+'''Portugal''' {{pron||fur}}
+# {{pays|fur|d’Europe|pays=Portugal|clé=*}} {{lien|Portugal|fr}}.
+
+== {{langue|stq}} ==
+=== {{S|étymologie}} ===
+: Du {{étylp|pt|stq|mot=Portugal}}.
+
+=== {{S|nom propre|stq}} ===
+'''Portugal''' {{pron||stq}}
+# {{pays|stq|d’Europe|pays=Portugal|clé=*}} {{lien|Portugal|fr}}.
+
+== {{langue|gl}} ==
+=== {{S|étymologie}} ===
+: Du {{étylp|pt|gl|mot=Portugal}}.
+
+=== {{S|nom propre|gl}} ===
+'''Portugal''' {{pron||gl}}
+# {{pays|gl|d’Europe|pays=Portugal|clé=*}} {{lien|Portugal|fr}}.
+
+=== {{S|prononciation}} ===
+* {{écouter|||lang=gl|audio=LL-Q9307 (glg)-Xosé-Portugal.wav}}
+
+== {{langue|hif}} ==
+=== {{S|étymologie}} ===
+: Du {{étylp|pt|hif|mot=Portugal}}.
+
+=== {{S|nom propre|hif}} ===
+'''Portugal''' {{pron||hif}}
+# {{pays|hif|d’Europe|pays=Portugal|clé=*}} {{lien|Portugal|fr}}.
+
+== {{langue|io}} ==
+=== {{S|étymologie}} ===
+: Du {{étylp|pt|io|mot=Portugal}}.
+
+=== {{S|nom propre|io}} ===
+'''Portugal''' {{pron||io}}
+# {{pays|io|d’Europe|pays=Portugal|clé=*}} {{lien|Portugal|fr}}.
+
+== {{langue|ilo}} ==
+=== {{S|étymologie}} ===
+: Du {{étylp|pt|ilo|mot=Portugal}}.
+
+=== {{S|nom propre|ilo}} ===
+'''Portugal''' {{pron||ilo}}
+# {{pays|ilo|d’Europe|pays=Portugal|clé=*}} {{lien|Portugal|fr}}.
+
+== {{langue|id}} ==
+=== {{S|étymologie}} ===
+: Du {{étylp|pt|id|mot=Portugal}}.
+
+=== {{S|nom propre|id}} ===
+'''Portugal''' {{pron||id}}
+# {{pays|id|d’Europe|pays=Portugal|clé=*}} {{lien|Portugal|fr}}.
+#* {{exemple|lang=id}}
+
+== {{langue|ia}} ==
+=== {{S|étymologie}} ===
+: Du {{étylp|pt|ia|mot=Portugal}}.
+
+=== {{S|nom propre|ia}} ===
+'''Portugal''' {{pron||ia}}
+# {{pays|ia|d’Europe|pays=Portugal|clé=*}} {{lien|Portugal|fr}}.
+
+== {{langue|ie}} ==
+=== {{S|étymologie}} ===
+: Du {{étylp|pt|ie|mot=Portugal}}.
+
+=== {{S|nom propre|ie}} ===
+'''Portugal''' {{pron||ie}}
+# {{pays|ie|d’Europe|pays=Portugal|clé=*}} {{lien|Portugal|fr}}.
+
+== {{langue|jv}} ==
+=== {{S|étymologie}} ===
+: Du {{étylp|pt|jv|mot=Portugal}}.
+
+=== {{S|nom propre|jv}} ===
+'''Portugal''' {{pron||jv}}
+# {{pays|jv|d’Europe|pays=Portugal|clé=*}} {{lien|Portugal|fr}}.
+
+== {{langue|lad}} ==
+=== {{S|étymologie}} ===
+: Du {{étylp|pt|lad|mot=Portugal}}.
+
+=== {{S|nom propre|lad}} ===
+'''Portugal''' {{pron||lad}}
+# {{pays|lad|d’Europe|pays=Portugal|clé=*}} {{lien|Portugal|fr}}.
+
+== {{langue|kab}} ==
+=== {{S|étymologie}} ===
+: Du {{étylp|pt|kab|mot=Portugal}}.
+
+=== {{S|nom propre|kab}} ===
+'''Portugal''' {{pron||kab}}
+# {{pays|kab|d’Europe|pays=Portugal|clé=*}} {{lien|Portugal|fr}}.
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=kab|Émirats arabes unis (Dubaï)||audio=LL-Q35853 (kab)-Zakaria Mimouni-Portugal.wav}}
+
+== {{langue|pam}} ==
+=== {{S|étymologie}} ===
+: Du {{étylp|pt|pam|mot=Portugal}}.
+
+=== {{S|nom propre|pam}} ===
+'''Portugal''' {{pron||pam}}
+# {{pays|pam|d’Europe|pays=Portugal|clé=*}} {{lien|Portugal|fr}}.
+
+== {{langue|li}} ==
+=== {{S|étymologie}} ===
+: Du {{étylp|pt|li|mot=Portugal}}.
+
+=== {{S|nom propre|li}} ===
+'''Portugal''' {{pron||li}}
+# {{pays|li|d’Europe|pays=Portugal|clé=*}} {{lien|Portugal|fr}}.
+
+== {{langue|lb}} ==
+=== {{S|étymologie}} ===
+: Du {{étylp|pt|lb|Portugal}}.
+
+=== {{S|nom propre|lb}} ===
+{{lb-inv|pˈɔʀtuɡɑl|inv_titre=Nom propre}}
+'''Portugal''' {{pron|pˈɔʀtuɡɑl|lb}} {{n}}
+# {{pays|lb|d’Europe|pays=Portugal|clé=*}} {{lien|Portugal|fr}}.
+#* {{exemple|lang=lb}}
+
+==== {{S|gentilés}} ====
+* {{lien|Portugis|lb|sens=Portugais}}, {{lien|Portugisin|sens=Portugaise}}
+* {{lien|portugisesch|sens=portugais, portugaise}}
+
+=== {{S|prononciation}} ===
+* {{pron|pˈɔʀtuɡɑl|lb}}
+* {{écouter|lang=lb|Luxembourg|pˈɔʀtuɡɑl|audio=Lb-Portugal.ogg}}
+
+=== {{S|références}} ===
+: {{R:LOD}}
+
+== {{langue|ms}} ==
+=== {{S|étymologie}} ===
+: Du {{étylp|pt|ms|mot=Portugal}}.
+
+=== {{S|nom propre|ms}} ===
+'''Portugal''' {{pron||ms}}
+# {{pays|ms|d’Europe|pays=Portugal|clé=*}} {{lien|Portugal|fr}}.
+
+== {{langue|nhn}} ==
+=== {{S|étymologie}} ===
+:De l’{{étyl|es|nhn|Portugal}}.
+
+=== {{S|nom propre|nhn}} ===
+'''Portugal''' {{pron||nhn}}
+# {{pays|nhn|d’Europe|pays=Portugal|clé=*}} '''Portugal''' (pays européen).
+
+== {{langue|nci}} ==
+=== {{S|étymologie}} ===
+: Du {{étylp|pt|nci|mot=Portugal}}.
+
+=== {{S|nom propre|nci}} ===
+'''Portugal''' {{pron||nci}}
+# {{pays|nci|d’Europe|pays=Portugal|clé=*}} {{lien|Portugal|fr}}.
+
+== {{langue|nch}} ==
+=== {{S|étymologie}} ===
+:De l’{{étyl|es|nch|Portugal}}.
+
+=== {{S|nom propre|nch}} ===
+'''Portugal''' {{pron||nch}}
+# {{pays|nch|d’Europe|pays=Portugal|clé=*}} '''Portugal''' (pays européen).
+
+== {{langue|nl}} ==
+=== {{S|étymologie}} ===
+: Du {{étylp|pt|nl|mot=Portugal}}.
+
+=== {{S|nom propre|nl}} ===
+'''Portugal''' {{pron||nl}}
+# {{pays|nl|d’Europe|pays=Portugal|clé=*}} {{lien|Portugal|fr}}.
+
+=== {{S|prononciation}} ===
+* {{écouter|||lang=nl|audio=Nl-Portugal.ogg}}
+* {{écouter|lang=nl|Pays-Bas (partie continentale) (Wijchen)|audio=LL-Q7411 (nld)-Robin van der Vliet-Portugal.wav}}
+
+== {{langue|no}} ==
+=== {{S|étymologie}} ===
+: Du {{étylp|pt|no|mot=Portugal}}.
+
+=== {{S|nom propre|no}} ===
+'''Portugal''' {{pron||no}}
+# {{pays|no|d’Europe|pays=Portugal|clé=*}} {{lien|Portugal|fr}}.
+
+== {{langue|nn}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|no|nn|mot=Portugal}}.
+
+=== {{S|nom propre|nn}} ===
+'''Portugal''' {{pron||nn}}
+# {{pays|nn|d’Europe|pays=Portugal|clé=*}} {{lien|Portugal|fr}}.
+
+== {{langue|nov}} ==
+=== {{S|étymologie}} ===
+: Du {{étylp|pt|nov|mot=Portugal}}.
+
+=== {{S|nom propre|nov}} ===
+'''Portugal''' {{pron||nov}}
+# {{pays|nov|d’Europe|pays=Portugal|clé=*}} {{lien|Portugal|fr}}.
+
+== {{langue|oc}} ==
+=== {{S|étymologie}} ===
+: Du {{étylp|pt|oc|mot=Portugal}}.
+
+=== {{S|nom propre|oc}} ===
+'''Portugal''' {{pron|puɾ.ty.ˈɣal|oc}} {{oc-norme classique}}
+# {{pays|oc|d’Europe|pays=Portugal|clé=*}} {{lien|Portugal|fr}}.
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=oc|Portugal}}
+
+=== {{S|références}} ===
+* {{R:Cantalausa}}
+
+[[Catégorie:Toponymes dont l’origine est une construction en occitan]]
+
+== {{langue|pms}} ==
+=== {{S|étymologie}} ===
+: Du {{étylp|pt|pms|mot=Portugal}}.
+
+=== {{S|nom propre|pms}} ===
+'''Portugal''' {{pron||pms}}
+# {{pays|pms|d’Europe|pays=Portugal|clé=*}} {{lien|Portugal|fr}}.
+
+== {{langue|pt}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|pt|mot=portus|dif=Portus}} et ''{{lien|Cale|la}}'', ville à l’embouchure du [[Douro]].
+
+=== {{S|nom propre|pt}} ===
+{{pt-inv}}
+'''Portugal''' {{pron|poɾ.tu.gˈaɫ|pt}} (Lisbonne) {{pron|poɾ.tu.gˈaw|pt}} (São Paulo) {{m}} {{s}}
+# {{pays|pt|d’Europe|pays=Portugal|clé=*}} {{lien|Portugal|fr}}.
+#* {{exemple|O presidente brasileiro, Lula da Silva, salientou esta quarta-feira o "momento excecional" das relações diplomáticas entre Brasil e '''Portugal''', ironizando que, "daqui a pouco", o número de brasileiros em '''Portugal''' "será maior do que o da população portuguesa".|lang=pt|sens=Le président brésilien Lula da Silva a souligné mercredi le "moment exceptionnel" des relations diplomatiques entre le Brésil et le Portugal, ironisant sur le fait que "dans peu de temps", le nombre de Brésiliens au Portugal "sera plus grand que la population portugaise".|source={{périodique|auteur=Lusa/DN|titre=Lula ironiza que em breve número de brasileiros em Portugal será maior que população portuguesa|journal=Diário de Notícias|date=19 juillet 2023|texte=https://www.dn.pt/internacional/lula-ironiza-que-em-breve-numero-de-brasileiros-em-portugal-sera-maior-que-populacao-portuguesa-16716813.html}}}}
+#* {{exemple|Era, além disso, uma boa base naval, pois, apesar de conhecerem a existência da baía de Guanabara, os portugueses só ligaram importância a seu valor estratégico, quando a insistência dos franceses em estabelecer-se nela tornou-se perigosa para '''Portugal'''.|lang=pt|sens=De plus, c'était une bonne base navale car, bien qu'ils connaissaient l’existence de la baie de Guanabara, les Portugais n'en ont reconnu la valeur stratégique que lorsque l'insistance des Français à s'y établir est devenue dangereuse pour le Portugal.|source={{ouvrage|auteur=Carlos Delgado de Carvalho|titre=História da Cidade do Rio de Janeiro|année=1990|éditeur=Biblioteca Carioca|lieu=Rio de Janeiro|url=}}}}
+#* {{exemple|O meu guia, que é um homem loquaz e grande conhecedor desta região e desta gente, duma margem e outra do rio, assegurou-me que o meu hospedeiro não só herdou as sesmarias que a Coroa de '''Portugal''' concedeu ao seu avô, no início do povoamento desta província, como também se apossou pela força de algumas léguas de campo pertencentes a outros estancieiros vizinhos, que pôs em fuga, sob ameaças.|lang=pt|sens=Mon guide, un homme volubile et grand connaisseur de cette région et de ses habitants, d’une rive à l’autre du fleuve, m'a assuré que mon hôte avait non seulement hérité des concessions que la Couronne du Portugal avait accordées à son grand-père, au début de la colonisation de cette province, mais qu'il s’était également emparé de force de quelques lieues de terres appartenant à d'autres éleveurs voisins, qu'il avait mis en fuite sous la menace.|source={{ouvrage|auteur={{w|Erico Verissimo}}|titre=Incidente em Antares|année=2005|éditeur=editora schwarcz ltda.|lieu=São Paulo|url=}}}}
+
+==== {{S|gentilés}} ====
+* {{lien|português|pt}}
+
+=== {{S|prononciation}} ===
+* {{écouter|Portugal|poɾ.tu.gˈaɫ|lang=pt|audio=LL-Q5146 (por)-Gaygarin-Portugal.wav}}
+* {{écouter|Portugal|poɾ.tu.gˈaɫ|lang=pt|audio=LL-Q5146 (por)-Alchimista-Portugal.wav}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=pt}}
+
+[[Catégorie:Toponymes dont l’origine est une construction en portugais]]
+
+== {{langue|rm}} ==
+=== {{S|étymologie}} ===
+: Du {{étylp|pt|rm|mot=Portugal}}.
+
+=== {{S|nom propre|rm}} ===
+'''Portugal''' {{pron||rm}}
+# {{pays|rm|d’Europe|pays=Portugal|clé=*}} {{lien|Portugal|fr}}.
+
+== {{langue|sm}} ==
+=== {{S|étymologie}} ===
+: Du {{étylp|pt|sm|mot=Portugal}}.
+
+=== {{S|nom propre|sm}} ===
+'''Portugal''' {{pron||sm}}
+# {{pays|sm|d’Europe|pays=Portugal|clé=*}} {{lien|Portugal|fr}}.
+
+== {{langue|sh}} ==
+=== {{S|étymologie}} ===
+: Du {{étylp|pt|sh|mot=Portugal}}.
+
+=== {{S|nom propre|sh}} ===
+'''Portugal''' {{pron||sh}}
+# {{pays|sh|d’Europe|pays=Portugal|clé=*}} {{lien|Portugal|fr}}.
+
+== {{langue|sv}} ==
+=== {{S|étymologie}} ===
+: Du {{étylp|pt|sv|mot=Portugal}}.
+
+=== {{S|nom propre|sv}} ===
+'''Portugal''' {{pron||sv}}
+# {{pays|sv|d’Europe|pays=Portugal|clé=*}} {{lien|Portugal|fr}}.
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=sv|Suède||audio=Sv-Portugal.ogg}}
+* {{écouter|Suède||lang=sv|audio=LL-Q9027 (swe)-Moonhouse-Portugal.wav}}
+
+== {{langue|tl}} ==
+=== {{S|étymologie}} ===
+: Du {{étylp|pt|tl|mot=Portugal}}.
+
+=== {{S|nom propre|tl}} ===
+'''Portugal''' {{pron||tl}}
+# {{pays|tl|d’Europe|pays=Portugal|clé=*}} {{lien|Portugal|fr}}.
+
+== {{langue|vro}} ==
+=== {{S|étymologie}} ===
+: Du {{étylp|pt|vro|mot=Portugal}}.
+
+=== {{S|nom propre|vro}} ===
+'''Portugal''' {{pron||vro}}
+# {{pays|vro|d’Europe|pays=Portugal|clé=*}} {{lien|Portugal|fr}}.
+
+== {{langue|wa}} ==
+=== {{S|étymologie}} ===
+: Du {{étylp|pt|wa|mot=Portugal}}.
+
+=== {{S|nom propre|wa}} ===
+'''Portugal''' {{pron||wa}}
+# {{pays|wa|d’Europe|pays=Portugal|clé=*}} {{lien|Portugal|fr}}.
+
+== {{langue|war}} ==
+=== {{S|étymologie}} ===
+: Du {{étylp|pt|war|mot=Portugal}}.
+
+=== {{S|nom propre|war}} ===
+'''Portugal''' {{pron||war}}
+# {{pays|war|d’Europe|pays=Portugal|clé=*}} {{lien|Portugal|fr}}.
+
+== {{langue|yo}} ==
+=== {{S|étymologie}} ===
+: Du {{étylp|pt|yo|mot=Portugal}}.
+
+=== {{S|nom propre|yo}} ===
+'''Portugal''' {{pron||yo}}
+# {{pays|yo|d’Europe|pays=Portugal|clé=*}} {{lien|Portugal|fr}}.
+
+[[Catégorie:Toponymes dont l’origine est une construction en français]]
+[[Catégorie:Toponymes dont l’origine est une construction en anglais]]
+[[Catégorie:Toponymes dont l’origine est une construction en espagnol]]
+
+[[Catégorie:Toponymes dont l’origine est une construction en basque]]
+[[Catégorie:Toponymes dont l’origine est une construction en estonien]]
+[[Catégorie:Toponymes dont l’origine est une construction en catalan]]
+[[Catégorie:Toponymes dont l’origine est une construction en galicien]]
+[[Catégorie:Toponymes dont l’origine est une construction en suédois]]
+[[Catégorie:Toponymes dont l’origine est une construction en yoruba]]
+[[Catégorie:Toponymes dont l’origine est une construction en danois]]
+[[Catégorie:Toponymes dont l’origine est une construction en bosniaque]]
+[[Catégorie:Pays d’Europe en bavarois]]

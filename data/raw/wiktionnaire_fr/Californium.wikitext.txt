@@ -1,0 +1,58 @@
+{{voir|californium}}
+
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw}}
+
+=== {{S|nom|gsw}} ===
+'''Californium''' {{pron||gsw}} {{genre|gsw}}
+# {{éléments|gsw}} {{métaux|gsw}} [[californium#fr|Californium]].
+{{clr}}
+==== {{S|vocabulaire}} ====
+{{tableau périodique/gsw}}
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|en|de|mot=californium}}.
+
+=== {{S|nom|de}} ===
+{{légende élément/de|Cf}}
+[[Image:Californium.jpg|thumb|'''Californium'''.]]
+'''Californium''' {{pron|kaliˈfɔʁni̯ʊm|de}} {{n}} ({{p}}: '''—''' )
+# {{éléments|de}} {{métaux|de}} [[californium#fr|Californium]].
+#*{{exemple|lang=de}}
+
+==== {{S|variantes}} ====
+* {{lien|Kalifornium|de}} {{rare|nocat=1}}
+
+==== {{S|vocabulaire}} ====
+* {{voir thésaurus|de|tableau périodique des éléments}}
+{{tableau périodique/de}}
+
+=== {{S|prononciation}} ===
+* {{pron|kaliˈfɔʁni̯ʊm|de}}
+* {{écouter|lang=de|Allemagne (Berlin)|audio=LL-Q188 (deu)-Lucas Werkmeister-Californium.wav}}
+* {{écouter|lang=de|Allemagne (Berlin)|audio=LL-Q188 (deu)-Sebastian Wallroth-Californium.wav}}
+* {{écouter|lang=de|Allemagne (Munich)||audio=LL-Q188 (deu)-Michael Schoenitzer (MichaelSchoenitzer)-Californium.wav}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=de}}
+
+== {{langue|lb}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|lb}}
+
+=== {{S|nom|lb}} ===
+{{lb-inv|kɑlifˈɔʀni̯um}}
+'''Californium''' {{pron|kɑlifˈɔʀni̯um|lb}} {{m}}, {{au singulier uniquement|lb}}
+# {{éléments|lb}} {{métaux|lb}} [[californium#fr|Californium]].
+#* {{exemple|lang=lb}}
+{{clr}}
+==== {{S|vocabulaire}} ====
+{{tableau périodique/lb}}
+
+=== {{S|références}} ===
+: {{R:LOD}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=lb}}

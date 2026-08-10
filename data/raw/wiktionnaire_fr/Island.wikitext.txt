@@ -1,0 +1,265 @@
+{{voir/island}}
+
+== {{langue|fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|fr}}
+
+=== {{S|nom propre|fr}} ===
+{{fr-inv||inv_titre=Nom propre}}
+[[File:Island-FR-89-panneau d'agglomération-01.jpg|thumb|160px|Panneau d'agglomération]]
+'''Island''' {{pron||fr}}
+# {{localités|fr|du département de l’Yonne}} [[commune|Commune]] [[français]]e, située dans le département de l’[[Yonne]].
+#* {{exemple | lang=fr
+ | Aujourd'hui, le notaire chez qui nous avons mis Brazey en vente nous téléphone que le petit château d’'''Island''' est à vendre pour quatre-vingts millions anciens. De là, je pourrai retourner en pèlerinage à pied à Vézelay.
+ | source={{w|Jules Roy}}, ''Les Années cavalières: Journal 2 : 1966-1985'', Albin Michel, 1999}}
+
+==== {{S|holonymes}} ====
+* [[Bourgogne]]
+* [[Yonne]]
+
+==== {{S|traductions}} ====
+{{trad-début}}
+{{trad-fin}}
+
+=== {{S|anagrammes}} ===
+{{voir anagrammes|fr}}
+
+=== {{S|voir aussi}} ===
+* {{WP}}
+
+== {{langue|gsw}} ==
+
+=== {{S|étymologie}} ===
+: {{cf|lang=gsw|Islande}}.
+
+=== {{S|nom propre|gsw}} ===
+'''Island''' {{pron||gsw}}
+# [[Islande#fr|Islande]] (île de l’[[Atlantique]] et pays d’[[Europe]]).
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=gsw}}
+[[Catégorie:Îles en alémanique]]
+[[Catégorie:Pays en alémanique]]
+
+== {{langue|de}} ==
+
+=== {{S|étymologie}} ===
+: {{cf|lang=de|Islande}}.
+
+=== {{S|nom propre|de}} ===
+'''Island''' {{pron||de}}
+# [[Islande#fr|Islande]] (île de l’[[Atlantique]] et pays d’[[Europe]]).
+[[Catégorie:Îles d’Europe en allemand]]
+[[Catégorie:Pays d’Europe en allemand]]
+[[Catégorie:Islande en allemand|*]]
+
+== {{langue|bs}} ==
+
+=== {{S|étymologie}} ===
+: {{cf|lang=bs|Islande}}.
+
+=== {{S|nom propre|bs}} ===
+'''Island''' {{pron||bs}}
+# [[Islande#fr|Islande]] (île de l’[[Atlantique]] et pays d’[[Europe]]).
+[[Catégorie:Îles en bosniaque]]
+[[Catégorie:Pays d’Europe en bosniaque]]
+
+== {{langue|br}} ==
+=== {{S|étymologie}} ===
+: {{cf|lang=br|Islande}}.
+
+=== {{S|nom propre|br}} ===
+'''Island''' {{pron|ˈiz.lãn(t)|br}} {{f}}
+# {{îles|br|d’Europe}} {{pays|br|d’Europe}} [[Islande#fr|Islande]] (île de l’[[Atlantique]] et pays d’[[Europe#Nom propre 1|Europe]]).
+#* {{exemple | lang=br
+ | En ur ''saga'' all, e kaver resisadurioù war badelezh ar verdeadenn eus '''Island''' da Amerika : […].
+ | Dans une autre ''saga'' on trouve des précisions sur la durée du voYage par mer d’Islande en Amérique : […].
+ | source={{w|Gabriel Cherel|Gab Cherel}}, ''Ar Verdeadurezh vrezhon ha kelt'', in ''{{w|Al Liamm}}'', {{numéro|134}}, mai-juin 1969, page 204}}
+
+==== {{S|gentilés}} ====
+{{(}}
+* [[Islandad]] ({{p}} : [[Islandiz]])
+* [[Islandadez]] ({{p}} : [[Islandadezed]])
+* {{lien|islandat|br}}
+* {{lien|islandek|br}}
+{{)}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=br}}
+
+=== {{S|références}} ===
+* {{R:Hemon|p=398b}}
+* {{R:Ménard|p=1458b}}
+
+== {{langue|kw}} ==
+
+=== {{S|étymologie}} ===
+: {{cf|lang=kw|Islande}}.
+
+=== {{S|nom propre|kw}} ===
+'''Island''' {{pron||kw}}
+# [[Islande#fr|Islande]] (île de l’[[Atlantique]] et pays d’[[Europe]]).
+[[Catégorie:Îles en cornique]]
+[[Catégorie:Pays en cornique]]
+
+== {{langue|hr}} ==
+
+=== {{S|étymologie}} ===
+: {{cf|lang=hr|Islande}}.
+
+=== {{S|nom propre|hr}} ===
+'''Island''' {{pron||hr}}
+# [[Islande#fr|Islande]] (île de l’[[Atlantique]] et pays d’[[Europe]]).
+[[Catégorie:Îles en croate]]
+[[Catégorie:Pays d’Europe en croate]]
+[[Catégorie:Islande en croate|*]]
+
+== {{langue|da}} ==
+
+=== {{S|étymologie}} ===
+: {{cf|lang=da|Islande}}.
+
+=== {{S|nom propre|da}} ===
+'''Island''' {{pron||da}}
+# [[Islande#fr|Islande]] (île de l’[[Atlantique]] et pays d’[[Europe]]).
+[[Catégorie:Îles d’Europe en danois]]
+[[Catégorie:Pays d’Europe en danois]]
+[[Catégorie:Islande en danois]]
+
+== {{langue|et}} ==
+
+=== {{S|étymologie}} ===
+: {{cf|lang=et|Islande}}.
+
+=== {{S|nom propre|et}} ===
+'''Island''' {{pron||et}}
+# [[Islande#fr|Islande]] (île de l’[[Atlantique]] et pays d’[[Europe]]).
+[[Catégorie:Îles en estonien]]
+[[Catégorie:Pays d’Europe en estonien]]
+[[Catégorie:Islande en estonien|*]]
+
+== {{langue|ie}} ==
+
+=== {{S|étymologie}} ===
+: {{cf|lang=ie|Islande}}.
+
+=== {{S|nom propre|ie}} ===
+'''Island''' {{pron||ie}}
+# [[Islande#fr|Islande]] (île de l’[[Atlantique]] et pays d’[[Europe]]).
+[[Catégorie:Îles en interlingue]]
+[[Catégorie:Pays en interlingue]]
+
+== {{langue|lb}} ==
+=== {{S|étymologie}} ===
+: {{cf|lang=lb|Islande}}.
+
+=== {{S|nom propre|lb}} ===
+{{lb-inv|ˈislɑnt}}
+'''Island''' {{pron|ˈislɑnt|lb}} {{n}}
+# {{îles|lb|d’Europe}} {{lien|Islande|fr}}.
+#* {{exemple|lang=lb}}
+# {{pays|lb|d’Europe|pays=Islande|clé=*}} {{lien|Islande|fr}}.
+#* {{exemple|lang=lb}}
+
+==== {{S|gentilés}} ====
+* {{lien|Islänner|lb|sens=Islandais}}, {{lien|Islännerin|lb|sens=Islandaise}}
+* {{lien|islännesch|lb|sens=islandais, islandaise}}
+
+=== {{S|références}} ===
+: {{R:LOD}}
+
+== {{langue|no}} ==
+
+=== {{S|étymologie}} ===
+: {{cf|lang=no|Islande}}.
+
+=== {{S|nom propre|no}} ===
+'''Island''' {{pron||no}}
+# [[Islande#fr|Islande]] (île de l’[[Atlantique]] et pays d’[[Europe]]).
+[[Catégorie:Îles d’Europe en norvégien]]
+[[Catégorie:Pays d’Europe en norvégien]]
+[[Catégorie:Islande en norvégien|*]]
+
+== {{langue|nn}} ==
+
+=== {{S|étymologie}} ===
+: {{cf|lang=nn|Islande}}.
+
+=== {{S|nom propre|nn}} ===
+'''Island''' {{pron||nn}}
+# [[Islande#fr|Islande]] (île de l’[[Atlantique]] et pays d’[[Europe]]).
+[[Catégorie:Îles d’Europe en norvégien (nynorsk)]]
+[[Catégorie:Pays d’Europe en norvégien (nynorsk)]]
+[[Catégorie:Islande en norvégien (nynorsk)|*]]
+
+== {{langue|sh}} ==
+
+=== {{S|étymologie}} ===
+: {{cf|lang=sh|Islande}}.
+
+=== {{S|nom propre|sh}} ===
+'''Island''' {{pron||sh}}
+# [[Islande#fr|Islande]] (île de l’[[Atlantique]] et pays d’[[Europe]]).
+[[Catégorie:Îles en serbo-croate]]
+[[Catégorie:Pays d’Europe en serbo-croate]]
+
+== {{langue|sk}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étyl|is|sk|mot=Ísland|sens=terre de glace}}.
+
+=== {{S|nom propre|sk}} ===
+{{sk-décl-nom-mi-dur|rad=Island|gs=u|sing=oui}}
+'''Island''' {{pron|ˈɪs.lant|sk}} {{m|i}}
+# [[Islande]] (pays).
+# [[Islande]] (île).
+
+==== {{S|apparentés}} ====
+* [[Islanďan]], [[Islanďanka]]
+* [[islandčina]]
+* [[islandsky]]
+* [[islandský]]
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=sk}}
+[[Catégorie:Îles en slovaque]]
+[[Catégorie:Pays d’Europe en slovaque]]
+[[Catégorie:Islande en slovaque|*]]
+
+== {{langue|sv}} ==
+
+=== {{S|étymologie}} ===
+: {{cf|lang=sv|Islande}}.
+
+=== {{S|nom propre|sv}} ===
+'''Island''' {{pron||sv}}
+# [[Islande#fr|Islande]] (île de l’[[Atlantique]] et pays d’[[Europe]]).
+[[Catégorie:Îles d’Europe en suédois]]
+[[Catégorie:Pays d’Europe en suédois]]
+[[Catégorie:Islande en suédois|*]]
+
+== {{langue|cs}} ==
+
+=== {{S|étymologie}} ===
+: {{cf|lang=cs|Islande}}.
+
+=== {{S|nom propre|cs}} ===
+'''Island''' {{pron||cs}}
+# [[Islande#fr|Islande]] (île de l’[[Atlantique]] et pays d’[[Europe]]).
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=cs||audio=Cs-Island.ogg}}
+[[Catégorie:Îles d’Europe en tchèque]]
+[[Catégorie:Pays d’Europe en tchèque]]
+[[Catégorie:Islande en tchèque|*]]
+
+== {{langue|vro}} ==
+
+=== {{S|étymologie}} ===
+: {{cf|lang=vro|Islande}}.
+
+=== {{S|nom propre|vro}} ===
+'''Island''' {{pron||vro}}
+# [[Islande#fr|Islande]] (île de l’[[Atlantique]] et pays d’[[Europe]]).
+[[Catégorie:Îles en võro]]
+[[Catégorie:Pays en võro]]

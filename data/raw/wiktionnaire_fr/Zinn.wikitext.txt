@@ -1,0 +1,113 @@
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw}}
+
+=== {{S|nom|gsw}} ===
+'''Zinn''' {{pron||gsw}}
+# {{éléments|gsw}} {{métaux|gsw}} [[étain|Étain]].
+{{clr}}
+==== {{S|vocabulaire}} ====
+{{tableau périodique/gsw}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=gsw}}
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: {{siècle|VIII}}. Du {{étyl|goh|de|mot=zin, zein}}, du {{étyl|gmh|de|mot=zin, cin}}, du {{étyl|gml|de|mot=tin, ten}}, du {{étyl|gem|de|mot=*tina-, *taina-}},du {{étyl|gmh|de|mot=zein}}, du {{étyl|got|de|mot=tains}}. À rapprocher du moyen-haut néerlandais [[''tin, ten'']] et du vieil-anglais [[''tin'']].<ref> {{source|Wolfgang {{pc|Pfeifer}}, ''Etymologische Wörterbuch des Deutschen'', Éditions Deutscher Taschenbuch, 1997}} </ref> 
+
+=== {{S|nom|de}} ===
+{{de-nom-n|gs2= Zinnes|ds2=Zinne|sing=oui}}
+{{légende élément/de|Sn}}
+[[Image:Tin-2.jpg|thumb|'''Zinn''' – De l’[[étain]].]]
+'''Zinn''' {{pron|t͡sɪn|de}} {{n}} {{au singulier uniquement|de}}
+# {{éléments|de}} {{métaux|de}} [[étain#fr|Étain]] (l’{{lien|élément chimique}} [[Sn#conv|Sn]]).
+#* {{exemple|Die Jäger haben sich mit den Regeln arrangiert, wenngleich auch sie Streuung und Durchschlagskraft der neuen Geschosse, zumeist sind sie aus Stahl, aber auch aus schädlichem Kupfer oder '''Zinn''', bemängeln.|lang=de|sens=Les chasseurs se sont accommodés des règles, même s’ils critiquent eux aussi la dispersion et la force de pénétration des nouveaux projectiles, pour la plupart en acier, mais aussi en cuivre ou en étain, des matériaux nocifs.|source={{périodique|auteur=Markus Völker|titre=Ächtung von Bleimunition: Bummbumm mit Plumbum|journal=taz|date=16 février 2024|texte=https://taz.de/Aechtung-von-Bleimunition/!5990191/}}}}
+# [[vaisselle|Vaisselle]] en étain.
+#* {{exemple|lang=de}}
+
+==== {{S|synonymes}} ====
+* [[Stannum]]
+
+==== {{S|dérivés}} ====
+{{(|Substantifs en ''-zinn''}}
+* {{l|Bankazinn|de|sens=[[étain]] de [[Bangka]]}}
+* {{l|Hatrzinn|de}}
+* {{l|Lötzinn|de|sens=[[brasure à l’étain]]}} – ''(couramment « soudure »)''
+* {{l|Tafelzinn|de}} 
+* {{l|verzinnen|de|sens=[[étamer]]}}
+* {{l|Verzinnung|de|sens=[[étamage]]}}
+{{)}}
+{{(|Autres substantifs|sens=[[mine]] d’[[étain]]}}
+* {{l|Zinnabbau|de|sens=[[extraction]] d’[[étain]]}}
+* {{l|Zinnasche|de|sens=[[dioxyde d’étain]]}}
+* {{l|Zinnbecher|de|sens=[[gobelet]] en [[étain]]}}* {{l|Zinnbergwerk|de}} 
+* {{l|Zinnblech|de|sens=[[tôle]] en [[étain]]}}
+* {{l|Zinnblüten|de|sens=[[dioxyde d’étain]]}}
+* {{l|Zinndioxid|de|sens=[[dioxyde d’étain]]}}
+* {{l|Zinnerz|de|sens=[[minerai]] d’[[étain]]}}
+* {{l|Zinnfigur|de|sens=[[figurine]] en [[étain]]}}
+* {{l|Zinnfolie|de|sens=[[feuille]] d'[[étain]]}}
+* {{l|Zinngehalt|de|sens=[[teneur]] en [[étain]]}}
+* {{l|Zinngeschirr|de|sens=[[vaisselle]] en [[étain]]}}
+* {{l|Zinngeschrei|de|sens=[[cri de l’étain]] », « [[pleur de l’étain]]}}
+* {{l|Zinngießer|de|sens=[[étainier]] », « [[fondeur]] d’[[étain]]}}
+* {{l|Zinngießerei|de|sens=[[fonderie]] d’[[étain]]}}
+* {{l|Zinnglasur|de|sens=[[glaçure]] à l’[[étain]]}} 
+* {{l|Zinngras|de|sens=[[prêle des champs]]}}
+* {{l|Zinnguss|de}} 
+* {{l|Zinnhütte|de|sens=[[fonderie]] d’[[étain]]}}
+* {{l|Zinnie|de|sens=[[zinnia]]}}
+* {{l|Zinnkraut|de|sens=[[prêle des champs]]}}
+* {{l|Zinnkrug|de|sens=[[cruche]] en [[étain]] », « [[chope]] en [[étain]]}}
+* {{l|Zinnlegierung|de|sens=[[alliage]] d’[[étain]]}}
+* {{l|Zinnleuchter|de|sens=[[chandelier]] en [[étain]]}}
+* {{l|Zinnlöffel|de|sens=[[cuillère]] en [[étain]]}}
+* {{l|Zinnlot|de|sens=[[brasure à l’étain]]}}
+* {{l|Zinnoxid|de}}, {{l|Zinnoxyd|de|sens=[[oxyde d’étain]]}}
+* {{l|Zinnpest|de|sens=[[peste de l'étain]]}}
+* {{l|Zinnsarg|de|sens=[[cercueil]] en [[étain]]}}
+* {{l|Zinnschale|de|sens=[[coupe]] en [[étain]]}}
+* {{l|Zinnschüssel|de|sens=[[bol]] en [[étain]] », « [[saladier]] en [[étain]]}}
+* {{l|Zinnsäureanhydrid|de|sens=[[dioxyde d’étain]]}}
+* {{l|Zinnseife|de}} 
+* {{l|Zinnsoldat|de|sens=[[soldat]] en [[étain]]}}
+* {{l|Zinnstein|de|sens=[[cassitérite]]}}
+* {{l|Zinnteller|de|sens=[[assiette]] en [[étain]]}}
+* {{l|Zinnvorkommen|de|sens=[[gisement]] d’[[étain]]}}
+* {{l|Zinnwald|de}} (toponyme)
+* {{l|Zinnwald-Georgenfeld|de}} (toponyme)
+* {{l|Zinnweiß|de|sens=[[dioxyde d’étain]]}}
+{{)}}
+{{(|Autres dérivés}}
+* {{l|zinnhaltig|de|sens=[[contenir|contenant]] de l’[[étain]]}} 
+* {{l|zinnen|de}}, {{l|zinnern|de|sens=en [[étain]]}}
+{{)}}
+{{clr}}
+==== {{S|vocabulaire}} ====
+* {{voir thésaurus|de|tableau périodique des éléments}}
+{{tableau périodique/de}}
+{{Liste|avant={{lien|Indium|de}}<br>([[In#conv|In]])|après={{lien|Antimon|de}}<br>([[Sb#conv|Sb]])|liste=[[Thésaurus:tableau périodique des éléments/allemand|Éléments chimiques en allemand]]}}
+
+=== {{S|prononciation}} ===
+* {{pron|t͡sɪn|de}}
+* {{écouter|Vienne|t͡sɪn|lang=de|audio=De-at-Zinn.ogg}}
+* {{écouter|Berlin|t͡sɪn|lang=de|audio=De-Zinn.ogg}}
+* {{écouter|{{DE|nocat=1}}|t͡sɪn|lang=de|audio=LL-Q188 (deu)-Lucas Werkmeister-Zinn.wav}}
+* {{écouter|Berlin|t͡sɪn|lang=de|audio=LL-Q188 (deu)-Sebastian Wallroth-Zinn.wav}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=de}}
+
+=== {{S|références}} ===
+<references />
+
+==== {{S|sources}} ====
+* {{R:DWDS|Zinn}}
+* {{R:Duden|Zinn}} 
+* ''Duden'' : [http://www.duden.de/rechtschreibung/Sand Sand]
+* {{Source-wikt|de|Zinn}}
+
+==== {{S|bibliographie}} ====
+* Larousse - Dictionnaire allemand/français – français/allemand , éd. 1958, p 776.
+* Harrap’s  de poche – Bordas Dictionnaire allemand/français, éd. 1997, ISBN 0-245-50308-0, p 350.

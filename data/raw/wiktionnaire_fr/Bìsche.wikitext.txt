@@ -1,0 +1,13 @@
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw}}
+
+=== {{S|nom propre|gsw}} ===
+'''Bìsche''' {{pron||gsw}}
+# {{Alsace|gsw}} {{localités|gsw|du département du Bas-Rhin}} [[Bischheim#fr|Bischheim]], [[commune]] [[français]]e, située dans le département du [[Bas-Rhin]].
+#* {{exemple|lang=gsw}}
+# {{Alsace|gsw}} {{localités|gsw|du département du Bas-Rhin}} [[Bischoffsheim#fr|Bischoffsheim]], [[commune]] [[français]]e, située dans le département du [[Bas-Rhin]].
+#* {{exemple|lang=gsw}}
+
+==== {{S|notes}} ====
+* Pour faire la distinction entre les deux '''''Bísche''''', on précise en utilisant '''''Bísche''' am Bàri'' pour Bischoffsheim.

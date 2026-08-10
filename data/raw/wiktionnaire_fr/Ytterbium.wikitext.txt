@@ -1,0 +1,59 @@
+{{voir|ytterbium}}
+
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw}}
+
+=== {{S|nom|gsw}} ===
+'''Ytterbium''' {{pron||gsw}} {{genre|gsw}}
+# {{éléments|gsw}} {{métaux|gsw}} [[ytterbium#fr|Ytterbium]].
+{{clr}}
+==== {{S|vocabulaire}} ====
+{{tableau périodique/gsw}}
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|de}}
+
+=== {{S|nom|de}} ===
+{{légende élément/de|Yb}}
+[[Image:Ytterbium-3.jpg|thumb|'''Ytterbium'''.]]
+'''Ytterbium''' {{pron|ʏˈtɛʁbi̯ʊm|de}} {{n}} ({{p}}: '''—''' )
+# {{éléments|de}} {{métaux|de}} [[ytterbium#fr|Ytterbium]] (l’{{lien|élément chimique}} [[Yb#conv|Yb]]).
+#* {{exemple | lang=de | '''Ytterbium''' ist ein silberweiß glänzendes Metall.}}
+
+==== {{S|dérivés}} ====
+* {{lien|Ytterbiumverbindung|de}}
+{{clr}}
+==== {{S|vocabulaire}} ====
+* {{voir thésaurus|de|tableau périodique des éléments}}
+{{tableau périodique/de}}
+{{Liste|avant={{lien|Thulium|de}}<br>([[Tm#conv|Tm]])|après={{lien|Lutetium|de}} ou {{lien|Cassiopeium|de}}<br>([[Lu#conv|Lu]])|liste=[[Thésaurus:tableau périodique des éléments/allemand|Éléments chimiques en allemand]]}}
+
+=== {{S|prononciation}} ===
+* {{pron|ʏˈtɛʁbi̯ʊm|de}}
+* {{écouter||ʏˈtɛʁbi̯ʊm|lang=de|audio=De-Ytterbium.ogg}}
+* {{écouter|lang=de|Allemagne (Berlin)|audio=LL-Q188 (deu)-Lucas Werkmeister-Ytterbium.wav}}
+* {{écouter|lang=de|Allemagne (Berlin)|audio=LL-Q188 (deu)-Sebastian Wallroth-Ytterbium.wav}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=de}}
+
+== {{langue|lb}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|lb}}
+
+=== {{S|nom|lb}} ===
+{{lb-inv|itˈɛʀbi̯um}}
+'''Ytterbium''' {{pron|itˈɛʀbi̯um|lb}} {{m}}, {{au singulier uniquement|lb}}
+# {{éléments|lb}} {{métaux|lb}} [[ytterbium#fr|Ytterbium]].
+#* {{exemple|lang=lb}}
+{{clr}}
+==== {{S|vocabulaire}} ====
+{{tableau périodique/lb}}
+
+=== {{S|références}} ===
+: {{R:LOD}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=lb}}

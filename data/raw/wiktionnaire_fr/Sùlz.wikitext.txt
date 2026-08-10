@@ -1,0 +1,13 @@
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw}}
+
+=== {{S|nom propre|gsw}} ===
+'''Sùlz''' {{pron||gsw}}
+# {{Alsace|gsw}} {{localités|gsw|du département du Bas-Rhin}} [[Soultz-sous-Forêts#fr|Soultz-sous-Forêts]], [[commune]] [[français]]e, située dans le département du [[Bas-Rhin]].
+#* {{exemple|lang=gsw}}
+# {{Alsace|gsw}} {{localités|gsw|du département du Bas-Rhin}} [[Soultz-les-Bains#fr|Soultz-les-Bains]], [[commune]] [[français]]e, située dans le département du [[Bas-Rhin]].
+#* {{exemple|lang=gsw}}
+
+==== {{S|notes}} ====
+* Pour différencier Soultz-les-Bains de Soultz-sous-Forêts, on peut utiliser '''''Sùlz''' ùnterem Wàld'' pour Soultz-sous-Forêts.

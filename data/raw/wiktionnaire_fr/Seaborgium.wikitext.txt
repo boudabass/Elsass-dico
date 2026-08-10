@@ -1,0 +1,65 @@
+{{voir|seaborgium}}
+
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw}}
+
+=== {{S|nom|gsw}} ===
+'''Seaborgium''' {{pron||gsw}} {{genre|gsw}}
+# {{éléments|gsw}} {{métaux|gsw}} [[seaborgium#fr|Seaborgium]].
+{{clr}}
+==== {{S|vocabulaire}} ====
+{{tableau périodique/gsw}}
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|de}}
+
+=== {{S|nom|de}} ===
+{{légende élément/de|Sg|Unh}}
+'''Seaborgium''' {{pron|siːˈbɔːɡi̯ʊm|de}} {{n}}
+# {{éléments|de}} {{métaux|de}} [[seaborgium#fr|Seaborgium]] (l’{{lien|élément chimique}} [[Sg#conv|Sg]]).
+
+==== {{S|synonymes}} ====
+* {{lien|Eka-Wolfram|de}}
+* {{lien|Unnilhexium|de}} {{désuet|nocat=1}}
+{{clr}}
+==== {{S|vocabulaire}} ====
+* {{voir thésaurus|de|tableau périodique des éléments}}
+{{tableau périodique/de}}
+{{Liste|avant={{lien|Dubnium|de}} ou {{lien|Nielsborhium|de}} {{désuet|nocat=1}} ou {{lien|Eka-Tantal|de}} {{désuet|nocat=1}} ou {{lien|Unnilpentium|de}} {{désuet|nocat=1}}<br>([[Db#conv|Db]])|après={{lien|Bohrium|de}} ou {{lien|Eka-Rhenium|de}} {{désuet|nocat=1}} ou {{lien|Unnilseptium|de}} {{désuet|nocat=1}}<br>([[Bh#conv|Bh]])|liste=[[Thésaurus:tableau périodique des éléments/allemand|Éléments chimiques en allemand]]}}
+
+=== {{S|prononciation}} ===
+* {{pron|siːˈbɔːɡi̯ʊm|de}}
+* {{écouter|lang=de|Allemagne (Berlin)|audio=LL-Q188 (deu)-Lucas Werkmeister-Seaborgium.wav}}
+* {{écouter|lang=de|Allemagne (Berlin)|audio=LL-Q188 (deu)-Sebastian Wallroth-Seaborgium.wav}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=de}}
+
+== {{langue|stq}} ==
+=== {{S|nom|stq}} ===
+'''Seaborgium''' {{pron||stq}}
+# {{éléments|stq}} {{métaux|stq}} [[seaborgium#fr|Seaborgium]].
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=stq}}
+
+== {{langue|lb}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|lb}}
+
+=== {{S|nom|lb}} ===
+{{lb-inv|sibˈoʀɡi̯um}}
+'''Seaborgium''' {{pron|sibˈoʀɡi̯um|lb}} {{m}}, {{au singulier uniquement|lb}}
+# {{éléments|lb}} {{métaux|lb}} [[seaborgium#fr|Seaborgium]].
+#* {{exemple|lang=lb}}
+{{clr}}
+==== {{S|vocabulaire}} ====
+{{tableau périodique/lb}}
+
+=== {{S|références}} ===
+: {{R:LOD}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=lb}}

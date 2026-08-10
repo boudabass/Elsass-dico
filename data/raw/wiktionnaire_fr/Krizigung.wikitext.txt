@@ -1,0 +1,41 @@
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: Cognat avec l'allemand ''{{lien|Kreuzigung|de}}''.
+
+=== {{S|nom|gsw}} ===
+'''Krizigung''' {{phon||gsw}} {{f}}
+# {{lexique|christianisme|gsw}} [[crucifixion#fr|Crucifixion]].
+#* {{exemple | lang=gsw
+ | ’s wird einer zweimol gebore, isch bi der '''Krizigung''' Christi gsi, chalt Ise und heiß Waffen sin si Tod
+ | source={{Ouvrage|auteur=Fridrich {{smcp|Pfaff}}|titre=Volkskunde Im Breisgau|année=2012|url=https://books.google.fr/books?id=5ncPAwAAQBAJ&pg=PA72&lpg=PA72&dq=%22Krizigung%22&source=bl&ots=RgCcKgyeBD&sig=ACfU3U2lXrvzIpQ5REXgVSqbmWHIZvh2jg&hl=fr&sa=X&ved=2ahUKEwjA-p6D0NzhAhUDy4UKHc1TA2MQ6AEwCnoECAQQAQ|passage=72|isbn=5877422790}}}}
+#* {{exemple | lang=gsw
+ | Si littet hite (...) am Frittig am 11 Uhr zum Gedenke an d '''Krizigung''' vum Christus (...).
+ | Elle [la plus vieille cloche du monastère] sonne désormais [...] le vendredi à 11 heures en mémoire de la crucifixion du Christ [...].
+ | source={{Lien web |url=https://als.wikipedia.org/wiki/Freiburger_Münster#Glocke |titre=Friburger Minschter|site=Wikipédia en alémanique}}, section « ''Glocke'' » (consulté le 19 avril 2019)}}
+
+=== {{S|notes}} ===
+* Forme utilisée en alémanique [[badois#fr|badois]].
+
+=== {{S|prononciation}} ===
+* {{écouter|Mulhouse (France)||lang=gsw|audio=LL-Q131339 (gsw)-Mathieu Kappler-Krizigung.wav}}
+
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: Cognat avec l'allemand ''{{lien|Kreuzigung|de}}''.
+
+=== {{S|nom|gsw-fr}} ===
+'''Krizigung''' {{phon||gsw-fr}} {{f}}
+# {{lexique|christianisme|gsw-fr}} [[crucifixion#fr|Crucifixion]].
+
+==== {{S|variantes orthographiques}} ====
+* {{lien|Kritzigung|gsw-fr}}
+
+==== {{S|apparentés}} ====
+* {{lien|kriziga|gsw-fr}}, {{lien|kritziga|gsw-fr}}, {{lien|krizige|gsw-fr}}, {{lien|kritzige|gsw-fr}} — crucifier
+* {{lien|Krüzifix|gsw-fr}} — crucifix
+
+=== {{S|notes}} ===
+* Forme utilisée en bas alémanique du sud, parlé en [[Haute-Alsace#fr|Haute-Alsace]].
+
+=== {{S|références}} ===
+* {{Ouvrage |auteur=André Nisslé|titre=Dictionnaire français-alsacien|chap=[https://www.elsassisch.eu/culture.alsace.pagesperso-orange.archive/page_cf.htm C] |para=crucifixion}}

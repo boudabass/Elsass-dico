@@ -1,0 +1,192 @@
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|de|gsw|Köln}}.
+
+=== {{S|nom propre|gsw}} ===
+'''Köln''' {{pron||gsw}}
+# {{localités|gsw|d’Allemagne}} {{lien|Cologne|fr}}.
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|de|Colonia}}, ou [[Colonia Claudia Ara Agrippinensium]], passé notamment par la forme ''{{lien|Cöln|de}}'' aujourd’hui désuète.<ref>{{ouvrage|auteur=Hugo Kastner|titre=Von Aachen bis Zypern. Geografische Namen und ihre Herkunft|année=2007|éditeur=Humboldt|lieu=Baden-Baden|ISBN=978-3-89994-124-1|passage=166}}</ref>
+
+=== {{S|nom propre|de}} ===
+{{de-nom-propre|genre=n|gs=Köln|gs2=Kölns}}
+[[Fichier:Kranhäuser Cologne, April 2018 -01.jpg|vignette|Blick über den Rhein auf '''Köln''' - ''vue sur le Rhin et Cologne'']]
+'''Köln''' {{pron|ˈkœln|de}} {{n}}
+# {{localités|de|d’Allemagne}} [[Cologne#fr|Cologne]] (ville allemande).
+#* {{exemple | lang=de | '''Köln''' ist eine am Rhein gebaute Metropole. | sens=Cologne est une métropole bâtie sur le Rhin.}}
+#* {{exemple|Intellektuell rauflustig und kenntnisreich: Carlo Masala wurde 1968 in '''Köln''' geboren und ist Professor für Internationale Politik an der Universität der Bundeswehr in München.|lang=de|sens=Il est bien informé et aime se battre sur le plan intellectuel: Carlo Masala, né en 1968 à Cologne, est professeur de politique internationale à l'Université de la Bundeswehr à Munich.|source={{périodique|auteur=Cathrin Kahlweit|titre=Europa und der Ukraine-Krieg:Schon wieder Bequemlichkeit in den Köpfen und Amtsstuben|journal=Süddeutsche Zeitung|date=15 octobre 2023|texte=https://www.sueddeutsche.de/kultur/carlo-masala-bedingt-abwehrbereit-rezension-ukrainekrieg-zeitenwende-1.6260373}}}}
+#* {{exemple|Erst tranken sie die Gaststätten von München leer, dann die Kneipen von '''Köln''', schließlich die Bars von Stuttgart: Schottlands Fußballer sind raus, aber ihren Fans gebührt ewiger Dank, weil sie die gute Stimmung ins Land brachten.|lang=de|sens=Ils ont d'abord vidé les restaurants de Munich, puis les troquets de Cologne et enfin les bars de Stuttgart : les footballeurs écossais sont éliminés, mais leurs supporters méritent une reconnaissance éternelle car ils ont apporté la bonne ambiance dans le pays.|source={{périodique|auteur=Holger Gertz|titre=Abschied der Lieblingsgäste|journal=Süddeutsche Zeitung|date=24 juin 2024|texte=https://www.sueddeutsche.de/sport/fussball-em-schottland-fans-stimmung-lux.NP9toRedUsNW2GZgccE23W}}}}
+#* {{exemple|1986 wurde der frühere Amateurfußballer Profitrainer in '''Köln''', fortan sprach man über ihn. Daum machte auf Esoterik. Einmal klebte er 40.000 D-Mark an die Kabinentür, die Höhe der Siegprämie, um seine Mannschaft zu motivieren.|lang=de|sens=En 1986, l’ancien footballeur amateur devint entraîneur de l’équipe professionnelle à Cologne, et dès lors, on parla de lui. Daum s’est mis à l’ésotérisme. Un jour, il a collé 40.000 marks sur la porte de la cabine, le montant de la prime de victoire, pour motiver son équipe.|source={{périodique|auteur=Oliver Fritsch|titre=Ein Guru, aber auch ein Revolutionär|journal=Die Zeit|date=25 août 2024|texte=https://www.zeit.de/sport/2024-08/tod-christoph-daum-fussballtrainer-karriere-krebserkrankung/komplettansicht}}}}
+#* {{exemple|Es muss alles seine Ordnung haben: Weil das Erzbistum '''Köln''' auch nach mehrmaliger Aufforderung keine Baugenehmigung für den '''Köln'''er Dom vorweisen konnte, muss der mutmaßliche Schwarzbau nun abgerissen werden. Die Abbrucharbeiten begannen heute Morgen. (...) Die Kosten für den Abriss hat die katholische Kirche zu tragen.|lang=de|sens=Tout doit être en ordre : Comme l’archevêché de Cologne n’a pas pu présenter de permis de construire pour la cathédrale de Cologne, même après plusieurs demandes, la construction présumée illégale doit maintenant être démolie. Les travaux de démolition ont commencé ce matin. (...) Les coûts de la démolition sont à la charge de l'Eglise catholique.|source={{périodique|auteur=(pfg, ssi, dan)|titre=Keine Baugenehmigung auffindbar: Amt ordnet Abriss von Kölner Dom an|journal=Der Postillon|date=10 juin 2024|texte=https://www.der-postillon.com/2024/06/baugenehmigung-dom.html}}}}
+
+==== {{S|notes}} ====
+: En allemand, les villes n’ont pas de déterminant.
+: Si toutefois il y a besoin d’une déclinaison, elles sont supposées du genre neutre.
+
+==== {{S|gentilés}} ====
+* [[Kölner]]
+* [[Kölnerin]]
+* [[kölnisch]]
+
+==== {{S|hyperonymes}} ====
+{{(|}}
+* {{lien|Domstadt|de}}
+* {{lien|Römerstadt|de}}
+* {{lien|Gemeinde|de}}
+* {{lien|Großstadt|de}}
+* {{lien|Metropole|de}}
+* {{lien|Millionenstadt|de}}
+* {{lien|Ort|de}}
+* {{lien|Ortschaft|de}}
+* {{lien|Siedlung|de}}
+* {{lien|Stadt|de}}
+{{)}}
+
+==== {{S|hyponymes}} ====
+{{(|distrits}}
+* {{lien|Chorweiler|de}}
+* {{lien|Ehrenfeld|de}}
+* {{lien|Innenstadt|de}}
+* {{lien|Kalk|de}}
+* {{lien|Lindenthal|de}}
+* {{lien|Mülheim|de}}
+* {{lien|Nippes|de}}
+* {{lien|Porz|de}}
+* {{lien|Rodenkirchen|de}}
+{{)}}
+
+==== {{S|dérivés}} ====
+{{(}}
+* {{lien|Kölnisch|de}}
+* {{lien|Kölnisch Wasser|de}}
+* {{lien|Kölnischwasser|de}}
+* {{lien|Kölsch|de}}
+{{)}}
+
+=== {{S|prononciation}} ===
+* {{écouter|Berlin (Allemagne)|kœln|lang=de|audio=De-Köln3.ogg}}
+* {{écouter|{{DE|nocat=1}}|kœln|lang=de|audio=De-Köln-2.ogg}}
+* {{écouter|{{DE|nocat=1}}|kœln|lang=de|audio=De-Köln.ogg}}
+* {{écouter|{{DE|nocat=1}}|kœln|lang=de|audio=LL-Q188 (deu)-Natschoba-Köln.wav}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=de}}
+
+==== {{S|sources}} ====
+{{Références}}
+* {{R:Duden|Köln}}
+* {{Source-wikt|de|Köln}}
+
+==== {{S|bibliographie}} ====
+* Larousse, ''Dictionnaire allemand/français - français/allemand'', éd. 1958, p. 172
+* ''Harrap’s de poche – Bordas dictionnaire allemand/français'', éd. 1997, ISBN 0-245-50308-0, p. 566
+
+{{Bonne entrée|allemand}}
+
+== {{langue|az}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|de|az|Köln}}.
+
+=== {{S|nom propre|az}} ===
+{{az-décl-nom|ö|c}}
+'''Köln''' {{pron|cøln|az}} {{az-forme possessive}}
+# {{localités|az|d’Allemagne}} [[Cologne#fr|Cologne]].
+
+== {{langue|da}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|de|da|Köln}}.
+
+=== {{S|nom propre|da|clé=koln}} ===
+'''Köln''' {{pron||da}}
+# {{localités|da|d’Allemagne}} {{lien|Cologne|fr}}.
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=da}}
+
+== {{langue|et}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|de|et|Köln}}.
+
+=== {{S|nom propre|et}} ===
+'''Köln''' {{pron||et}}
+# {{localités|et|d’Allemagne}} {{lien|Cologne|fr}}.
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=et}}
+
+== {{langue|fi}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|de|fi|Köln}}.
+
+=== {{S|nom propre|fi|clé=kz⿕⿕⿕ln}} ===
+'''Köln''' {{pron||fi}}
+# {{localités|fi|d’Allemagne}} {{lien|Cologne|fr}}.
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=fi}}
+
+== {{langue|hu}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|de|hu|Köln}}.
+
+=== {{S|nom propre|hu}} ===
+'''Köln''' {{pron||hu}}
+# {{localités|hu|d’Allemagne}} {{lien|Cologne|fr}}.
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=hu}}
+
+== {{langue|id}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|de|id|Köln}}.
+
+=== {{S|nom propre|id}} ===
+'''Köln''' {{pron||id}}
+# {{localités|id|d’Allemagne}} {{lien|Cologne|fr}}.
+#* {{exemple|lang=id}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=id}}
+
+== {{langue|ku}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|de|ku|Köln}}.
+
+=== {{S|nom propre|ku}} ===
+'''Köln''' {{pron||ku}}
+# {{localités|ku|d’Allemagne}} {{lien|Cologne|fr}}.
+
+== {{langue|no}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|de|no|Köln}}.
+
+=== {{S|nom propre|no|clé=koln}} ===
+'''Köln''' {{pron||no}}
+# {{localités|no|d’Allemagne}} {{lien|Cologne|fr}}.
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=no}}
+
+== {{langue|sv}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|de|sv|Köln}}.
+
+=== {{S|nom propre|sv|clé=kz⿕⿕⿕ln}} ===
+'''Köln''' {{pron||sv}}
+# {{localités|sv|d’Allemagne}} {{lien|Cologne|fr}}.
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=sv}}
+
+== {{langue|tr}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|de|tr|Köln}}.
+
+=== {{S|nom propre|tr}} ===
+'''Köln''' {{pron||tr}}
+# {{localités|tr|d’Allemagne}} {{lien|Cologne|fr}}.
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=tr}}

@@ -1,0 +1,58 @@
+{{voir/flerovium}}
+
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw}}
+
+=== {{S|nom|gsw}} ===
+'''Flerovium''' {{pron||gsw}} {{genre|gsw}}
+# {{éléments|gsw}} [[flérovium#fr|Flérovium]].
+{{clr}}
+==== {{S|vocabulaire}} ====
+{{tableau périodique/gsw}}
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|de}}
+
+=== {{S|nom|de}} ===
+{{légende élément/de|Fl|Uuq}}
+'''Flerovium''' {{pron|fleˈʀoːviʊm|de}} {{n}}
+# {{éléments|de}} [[flérovium#fr|Flérovium]] (l’{{lien|élément chimique}} [[Fl#conv|Fl]]).
+
+==== {{S|synonymes}} ====
+* {{lien|Eka-Blei|de}}
+* {{lien|Ununquadium|de}} {{désuet|nocat=1}}
+{{clr}}
+==== {{S|vocabulaire}} ====
+* {{voir thésaurus|de|tableau périodique des éléments}}
+{{tableau périodique/de}}
+{{Liste|avant={{lien|Nihonium|de}} ou {{lien|Ununtrium|de}} {{désuet|nocat=1}} ou {{lien|Eka-Thallium|de}} {{désuet|nocat=1}}<br>([[Nh]])|après={{lien|Moscovium|de}} ou {{lien|Ununpentium|de}} {{désuet|nocat=1}} ou {{lien|Eka-Bismut|de}} {{désuet|nocat=1}}<br>([[Mc]])|liste=[[Thésaurus:tableau périodique des éléments/allemand|Éléments chimiques en allemand]]}}
+
+=== {{S|prononciation}} ===
+* {{pron|fleˈʀoːviʊm|de}}
+* {{écouter||fleˈʀoːviʊm|lang=de|audio=De-Flerovium.ogg}}
+* {{écouter|lang=de|Allemagne (Berlin)|audio=LL-Q188 (deu)-Lucas Werkmeister-Flerovium.wav}}
+* {{écouter|lang=de|Allemagne (Berlin)|audio=LL-Q188 (deu)-Sebastian Wallroth-Flerovium.wav}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=de}}
+
+== {{langue|lb}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|lb}}
+
+=== {{S|nom|lb}} ===
+{{lb-inv|flɛʀˈoːvi̯um}}
+'''Flerovium''' {{pron|flɛʀˈoːvi̯um|lb}} {{m}}, {{au singulier uniquement|lb}}
+# {{éléments|lb}} [[flérovium#fr|Flérovium]].
+#* {{exemple|lang=lb}}
+{{clr}}
+==== {{S|vocabulaire}} ====
+{{tableau périodique/lb}}
+
+=== {{S|références}} ===
+: {{R:LOD}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=lb}}

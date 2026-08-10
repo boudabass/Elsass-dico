@@ -1,0 +1,571 @@
+{{voir/kamerun}}
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: {{cf|lang=gsw|Cameroun}}.
+
+=== {{S|nom propre|gsw}} ===
+'''Kamerun''' {{pron||gsw}}
+# {{pays|gsw|d’Afrique}} [[Cameroun]] (pays d’[[Afrique]]).
+#* {{exemple|lang=gsw}}
+
+=== {{S|prononciation}} ===
+{{ébauche-pron-audio|gsw}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=gsw}}
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: {{cf|lang=de|Cameroun}}.
+
+=== {{S|nom propre|de}} ===
+{{de-nom
+|ns= Kamerun |np=
+|as= Kamerun |ap=
+|gs= Kameruns |gp=
+|ds= Kamerun |dp=}}
+'''Kamerun''' {{pron|ˈka.mə.ruːn|de}}
+# {{pays|de|d’Afrique}} [[Cameroun]] (pays d’[[Afrique]]).
+#* {{exemple|lang=de}}
+
+==== {{S|dérivés}} ====
+* [[Kamerunerin]]
+* [[kamerunisch]]
+* [[Kameruner]]
+
+=== {{S|prononciation}} ===
+{{ébauche-pron-audio|de}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=de}}
+
+== {{langue|az}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|ru|az|Камерун}}.
+
+=== {{S|nom propre|az}} ===
+{{az-décl-nom|u|c}}
+'''Kamerun''' {{pron|cɑ.me.ˈrun|az}} {{az-forme possessive}}
+# {{pays|az|d’Afrique}} [[Cameroun]] (pays d’[[Afrique]]).
+#* {{exemple|lang=az}}
+
+==== {{S|gentilés}} ====
+* [[kamerunlu]]
+
+=== {{S|prononciation}} ===
+{{ébauche-pron-audio|az}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=az}}
+
+== {{langue|bm}} ==
+=== {{S|étymologie}} ===
+: {{cf|lang=bm|Cameroun}}.
+
+=== {{S|nom propre|bm}} ===
+'''Kamerun''' {{pron||bm}}
+# {{pays|bm|d’Afrique}} [[Cameroun]] (pays d’[[Afrique]]).
+#* {{exemple|lang=bm}}
+
+==== {{S|dérivés}} ====
+* {{l|Kamerun ka Fasojamana|bm|sens=République du Cameroun}}
+
+==== {{S|méronymes}} ====
+* {{l|Yaoundé|bm}}
+
+==== {{S|vocabulaire}} ====
+{{(}}
+* {{l|Cad|bm}}
+* {{l|Gabon|bm}}
+* {{l|Kongo|bm}}
+* {{l|Nijeria|bm}}
+{{)}}
+
+=== {{S|prononciation}} ===
+{{ébauche-pron-audio|bm}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=bm}}
+
+== {{langue|eu}} ==
+=== {{S|étymologie}} ===
+: {{cf|lang=eu|Cameroun}}.
+
+=== {{S|nom propre|eu}} ===
+'''Kamerun''' {{pron||eu}}
+# {{pays|eu|d’Afrique}} [[Cameroun]] (pays d’[[Afrique]]).
+#* {{exemple|lang=eu}}
+
+=== {{S|prononciation}} ===
+{{ébauche-pron-audio|eu}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=eu}}
+
+== {{langue|nds}} ==
+=== {{S|étymologie}} ===
+: {{cf|lang=nds|Cameroun}}.
+
+=== {{S|nom propre|nds}} ===
+'''Kamerun''' {{pron||nds}}
+# {{pays|nds|d’Afrique}} [[Cameroun]] (pays d’[[Afrique]]).
+#* {{exemple|lang=nds}}
+
+=== {{S|prononciation}} ===
+{{ébauche-pron-audio|nds}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=nds}}
+
+== {{langue|bs}} ==
+=== {{S|étymologie}} ===
+: {{cf|lang=bs|Cameroun}}.
+
+=== {{S|nom propre|bs}} ===
+'''Kamerun''' {{pron||bs}}
+# {{pays|bs|d’Afrique}} [[Cameroun]] (pays d’[[Afrique]]).
+#* {{exemple|lang=bs}}
+
+=== {{S|prononciation}} ===
+{{ébauche-pron-audio|bs}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=bs}}
+
+== {{langue|hr}} ==
+=== {{S|étymologie}} ===
+: {{cf|lang=hr|Cameroun}}.
+
+=== {{S|nom propre|hr}} ===
+'''Kamerun''' {{pron||hr}}
+# {{pays|hr|d’Afrique}} [[Cameroun]] (pays d’[[Afrique]]).
+#* {{exemple|lang=hr}}
+
+=== {{S|prononciation}} ===
+{{ébauche-pron-audio|hr}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=hr}}
+
+== {{langue|diq}} ==
+=== {{S|étymologie}} ===
+: {{cf|lang=diq|Cameroun}}.
+
+=== {{S|nom propre|diq}} ===
+'''Kamerun''' {{pron||diq}}
+# {{pays|diq|d’Afrique}} [[Cameroun]] (pays d’[[Afrique]]).
+#* {{exemple|lang=diq}}
+
+=== {{S|prononciation}} ===
+{{ébauche-pron-audio|diq}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=diq}}
+
+== {{langue|et}} ==
+=== {{S|étymologie}} ===
+: {{cf|lang=et|Cameroun}}.
+
+=== {{S|nom propre|et}} ===
+'''Kamerun''' {{pron||et}}
+# {{pays|et|d’Afrique}} [[Cameroun]] (pays d’[[Afrique]]).
+#* {{exemple|lang=et}}
+
+=== {{S|prononciation}} ===
+{{ébauche-pron-audio|et}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=et}}
+
+== {{langue|fi}} ==
+=== {{S|étymologie}} ===
+: {{cf|lang=fi|Cameroun}}.
+
+=== {{S|nom propre|fi}} ===
+'''Kamerun''' {{pron|ˈkɑmerun|fi}}
+# {{pays|fi|d’Afrique}} [[Cameroun]] (pays d’[[Afrique]]).
+#* {{exemple|lang=fi}}
+
+==== {{S|dérivés}} ====
+* {{lien|kamerunilainen|fi}} — Camerounais, Camerounaise
+
+=== {{S|prononciation}} ===
+{{ébauche-pron-audio|fi}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=fi}}
+
+== {{langue|stq}} ==
+=== {{S|étymologie}} ===
+: {{cf|lang=stq|Cameroun}}.
+
+=== {{S|nom propre|stq}} ===
+'''Kamerun''' {{pron||stq}}
+# {{pays|stq|d’Afrique}} [[Cameroun]] (pays d’[[Afrique]]).
+#* {{exemple|lang=stq}}
+
+==== {{S|holonymes}} ====
+* {{l|Afrikoa|stq|sens=Afrique}}
+
+=== {{S|prononciation}} ===
+{{ébauche-pron-audio|stq}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=stq}}
+
+== {{langue|hu}} ==
+=== {{S|étymologie}} ===
+: {{cf|lang=hu|Cameroun}}.
+
+=== {{S|nom propre|hu}} ===
+'''Kamerun''' {{pron||hu}}
+# {{pays|hu|d’Afrique}} [[Cameroun]] (pays d’[[Afrique]]).
+#* {{exemple|lang=hu}}
+
+=== {{S|prononciation}} ===
+{{ébauche-pron-audio|hu}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=hu}}
+
+== {{langue|io}} ==
+=== {{S|étymologie}} ===
+: {{cf|lang=io|Cameroun}}.
+
+=== {{S|nom propre|io}} ===
+'''Kamerun''' {{pron||io}}
+# {{pays|io|d’Afrique}} [[Cameroun]] (pays d’[[Afrique]]).
+#* {{exemple|lang=io}}
+
+=== {{S|prononciation}} ===
+{{ébauche-pron-audio|io}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=io}}
+
+== {{langue|ilo}} ==
+=== {{S|étymologie}} ===
+: {{cf|lang=ilo|Cameroun}}.
+
+=== {{S|nom propre|ilo}} ===
+'''Kamerun''' {{pron||ilo}}
+# {{pays|ilo|d’Afrique}} [[Cameroun]] (pays d’[[Afrique]]).
+#* {{exemple|lang=ilo}}
+
+=== {{S|prononciation}} ===
+{{ébauche-pron-audio|ilo}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=ilo}}
+
+== {{langue|id}} ==
+=== {{S|étymologie}} ===
+: {{cf|lang=id|Cameroun}}.
+
+=== {{S|nom propre|id}} ===
+'''Kamerun''' {{pron||id}}
+# {{pays|id|d’Afrique}} [[Cameroun]] (pays d’[[Afrique]]).
+#* {{exemple|lang=id}}
+
+=== {{S|prononciation}} ===
+{{ébauche-pron-audio|id}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=id}}
+
+== {{langue|jv}} ==
+=== {{S|étymologie}} ===
+: {{cf|lang=jv|Cameroun}}.
+
+=== {{S|nom propre|jv}} ===
+'''Kamerun''' {{pron||jv}}
+# {{pays|jv|d’Afrique}} [[Cameroun]] (pays d’[[Afrique]]).
+#* {{exemple|lang=jv}}
+
+==== {{S|holonymes}} ====
+* {{l|Afrika|jv|sens=Afrique}}
+
+=== {{S|prononciation}} ===
+{{ébauche-pron-audio|jv}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=jv}}
+
+== {{langue|ln}} ==
+=== {{S|étymologie}} ===
+: {{cf|lang=ln|Cameroun}}.
+
+=== {{S|nom propre|ln}} ===
+'''Kamerun''' {{pron||ln}}
+# {{pays|ln|d’Afrique}} [[Cameroun]] (pays d’[[Afrique]]).
+#* {{exemple|lang=ln}}
+
+=== {{S|prononciation}} ===
+{{ébauche-pron-audio|ln}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=ln}}
+
+== {{langue|lb}} ==
+=== {{S|étymologie}} ===
+: {{cf|lang=lb|Cameroun}}.
+
+=== {{S|nom propre|lb}} ===
+{{lb-inv|kˈɑmeʀun|inv_titre=Nom propre}}
+'''Kamerun''' {{pron|kˈɑmeʀun|lb}} {{m}}
+# {{pays|lb|d’Afrique|pays=Cameroun|clé=*}} {{lien|Cameroun|fr}}.
+#* {{exemple|lang=lb}}
+
+==== {{S|gentilés}} ====
+* {{lien|Kameruner|lb|sens=Camerounais}}, {{lien|Kamerunerin|lb|sens=Camerounaise}}
+* {{lien|kamerunesch|lb|sens=camerounais, camerounaise}}
+
+=== {{S|prononciation}} ===
+{{ébauche-pron-audio|lb}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=lb}}
+
+=== {{S|références}} ===
+: {{R:LOD}}
+
+== {{langue|no}} ==
+=== {{S|étymologie}} ===
+: {{cf|lang=no|Cameroun}}.
+
+=== {{S|nom propre|no}} ===
+'''Kamerun''' {{pron||no}}
+# {{pays|no|d’Afrique}} [[Cameroun]] (pays d’[[Afrique]]).
+#* {{exemple|lang=no}}
+
+==== {{S|dérivés}} ====
+* {{l|Republikken Kamerun|no}}
+
+=== {{S|prononciation}} ===
+{{ébauche-pron-audio|no}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=no}}
+
+== {{langue|nn}} ==
+=== {{S|étymologie}} ===
+: {{cf|lang=nn|Cameroun}}.
+
+=== {{S|nom propre|nn}} ===
+'''Kamerun''' {{pron||nn}}
+# {{pays|nn|d’Afrique}} [[Cameroun]] (pays d’[[Afrique]]).
+#* {{exemple|lang=nn}}
+
+=== {{S|prononciation}} ===
+{{ébauche-pron-audio|nn}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=nn}}
+
+== {{langue|nov}} ==
+=== {{S|étymologie}} ===
+: {{cf|lang=nov|Cameroun}}.
+
+=== {{S|nom propre|nov}} ===
+'''Kamerun''' {{pron||nov}}
+# {{pays|nov|d’Afrique}} [[Cameroun]] (pays d’[[Afrique]]).
+#* {{exemple|lang=nov}}
+
+==== {{S|holonymes}} ====
+* {{l|Afrika|nov|sens=Afrique}}
+
+=== {{S|prononciation}} ===
+{{ébauche-pron-audio|nov}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=nov}}
+
+== {{langue|uz}} ==
+=== {{S|étymologie}} ===
+: {{cf|lang=uz|Cameroun}}.
+
+=== {{S|nom propre|uz}} ===
+'''Kamerun''' {{pron||uz}}
+# {{pays|uz|d’Afrique}} [[Cameroun]] (pays d’[[Afrique]]).
+#* {{exemple|lang=uz}}
+
+=== {{S|prononciation}} ===
+{{ébauche-pron-audio|uz}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=uz}}
+
+== {{langue|pl}} ==
+=== {{S|étymologie}} ===
+: {{cf|lang=pl|Cameroun}}.
+
+=== {{S|nom propre|pl}} ===
+'''Kamerun''' {{pron||pl}}
+# {{pays|pl|d’Afrique}} [[Cameroun]] (pays d’[[Afrique]]).
+#* {{exemple|lang=pl}}
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=pl||audio=Pl-Kamerun.ogg}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=pl}}
+
+== {{langue|se}} ==
+=== {{S|étymologie}} ===
+: {{cf|lang=se|Cameroun}}.
+
+=== {{S|nom propre|se}} ===
+'''Kamerun''' {{phono||se}}
+# {{pays|se|d’Afrique}} [[Cameroun]] (pays d’[[Afrique]]).
+#* {{exemple|lang=se}}
+
+=== {{S|prononciation}} ===
+{{ébauche-pron-audio|se}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=se}}
+
+== {{langue|sh}} ==
+=== {{S|étymologie}} ===
+: {{cf|lang=sh|Cameroun}}.
+
+=== {{S|nom propre|sh}} ===
+'''Kamerun''' {{pron||sh}}
+# {{pays|sh|d’Afrique}} [[Cameroun]] (pays d’[[Afrique]]).
+#* {{exemple|lang=sh}}
+
+=== {{S|prononciation}} ===
+{{ébauche-pron-audio|sh}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=sh}}
+
+== {{langue|sk}} ==
+=== {{S|étymologie}} ===
+: {{cf|lang=sk|Cameroun}}.
+
+=== {{S|nom propre|sk}} ===
+'''Kamerun''' {{pron||sk}}
+# {{pays|sk|d’Afrique}} [[Cameroun]] (pays d’[[Afrique]]).
+#* {{exemple|lang=sk}}
+
+=== {{S|prononciation}} ===
+{{ébauche-pron-audio|sk}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=sk}}
+
+== {{langue|sl}} ==
+=== {{S|étymologie}} ===
+: {{cf|lang=sl|Cameroun}}.
+
+=== {{S|nom propre|sl}} ===
+{{sl-décl-nmd|Kamerun|pdp=oui}}
+'''Kamerun''' {{pron||sl}} {{m|i}} {{s}}
+# {{pays|sl|d’Afrique}} [[Cameroun]] (pays d’[[Afrique]]).
+#* {{exemple|lang=sl}}
+
+==== {{S|dérivés}} ====
+* {{l|Republika Kamerun|sl}}
+
+=== {{S|prononciation}} ===
+{{ébauche-pron-audio|sl}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=sl}}
+
+== {{langue|sv}} ==
+=== {{S|étymologie}} ===
+: {{cf|lang=sv|Cameroun}}.
+
+=== {{S|nom propre|sv}} ===
+'''Kamerun''' {{pron||sv}}
+# {{pays|sv|d’Afrique}} [[Cameroun]] (pays d’[[Afrique]]).
+#* {{exemple|lang=sv}}
+
+=== {{S|prononciation}} ===
+* {{écouter|Suède||lang=sv|audio=LL-Q9027 (swe)-Moonhouse-Kamerun.wav}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=sv}}
+
+== {{langue|sw}} ==
+=== {{S|étymologie}} ===
+: {{cf|lang=sw|Cameroun}}.
+
+=== {{S|nom propre|sw}} ===
+'''Kamerun''' {{pron||sw}}
+# {{pays|sw|d’Afrique}} [[Cameroun]] (pays d’[[Afrique]]).
+#* {{exemple|lang=sw}}
+
+==== {{S|holonymes}} ====
+* {{l|Afrika|sw|sens=Afrique}}
+
+=== {{S|prononciation}} ===
+{{ébauche-pron-audio|sw}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=sw}}
+
+== {{langue|crh}} ==
+=== {{S|étymologie}} ===
+: {{cf|lang=crh|Cameroun}}.
+
+=== {{S|nom propre|crh}} ===
+'''Kamerun''' {{pron||crh}}
+# {{pays|crh|d’Afrique}} [[Cameroun]] (pays d’[[Afrique]]).
+#* {{exemple|lang=crh}}
+
+=== {{S|prononciation}} ===
+{{ébauche-pron-audio|crh}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=crh}}
+
+== {{langue|cs}} ==
+=== {{S|étymologie}} ===
+: {{cf|lang=cs|Cameroun}}.
+
+=== {{S|nom propre|cs}} ===
+'''Kamerun''' {{pron||cs}}
+# {{pays|cs|d’Afrique}} [[Cameroun]] (pays d’[[Afrique]]).
+#* {{exemple|lang=cs}}
+
+=== {{S|prononciation}} ===
+{{ébauche-pron-audio|cs}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=cs}}
+
+== {{langue|tr}} ==
+=== {{S|étymologie}} ===
+: {{cf|lang=tr|Cameroun}}.
+
+=== {{S|nom propre|tr}} ===
+'''Kamerun''' {{pron||tr}}
+# {{pays|tr|d’Afrique}} [[Cameroun]] (pays d’[[Afrique]]).
+#* {{exemple|lang=tr}}
+
+=== {{S|prononciation}} ===
+* {{écouter|Izmir (Turquie)||lang=tr|audio=LL-Q256 (tur)-ToprakM-Kamerun.wav}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=tr}}
+
+== {{langue|wo}} ==
+=== {{S|étymologie}} ===
+: {{cf|lang=wo|Cameroun}}.
+
+=== {{S|nom propre|wo}} ===
+'''Kamerun''' {{pron||wo}}
+# {{pays|wo|d’Afrique}} [[Cameroun]] (pays d’[[Afrique]]).
+#* {{exemple|lang=wo}}
+
+==== {{S|dérivés}} ====
+* {{l|Réewum Kamerun|wo|sens=République du Cameroun}}
+
+=== {{S|prononciation}} ===
+{{ébauche-pron-audio|wo}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=wo}}

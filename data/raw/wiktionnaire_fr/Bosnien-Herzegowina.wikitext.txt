@@ -1,0 +1,52 @@
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: Transcription du mot d’origine ''[[Bosna i Hercegovina]]''.
+
+=== {{S|nom propre|gsw}} ===
+'''Bosnien-Herzegowina'''
+# [[Bosnie-Herzégovine]] (pays d’[[Europe]]).
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: Transcription du mot d’origine ''[[Bosna i Hercegovina]]''.
+
+[[Catégorie:Pays en alémanique]]
+
+=== {{S|nom propre|de}} ===
+'''Bosnien-Herzegowina'''
+# [[Bosnie-Herzégovine]] (pays d’[[Europe]]).
+
+==== {{S|synonymes}} ====
+* {{lien|Bosnien und Herzegowina|de}}
+
+[[Catégorie:Pays d’Europe en allemand]]
+[[Catégorie:Bosnie-Herzégovine en allemand|*]]
+
+== {{langue|nds}} ==
+=== {{S|étymologie}} ===
+: Transcription du mot d’origine ''[[Bosna i Hercegovina]]''.
+
+=== {{S|nom propre|nds}} ===
+'''Bosnien-Herzegowina'''
+# [[Bosnie-Herzégovine]] (pays d’[[Europe]]).
+
+[[Catégorie:Pays d’Europe en bas allemand]]
+
+== {{langue|lb}} ==
+=== {{S|étymologie}} ===
+: Mot {{composé de|lang=lb|Bosnien|Herzegowina}}.
+
+=== {{S|nom propre|lb}} ===
+{{lb-inv|bˈozniən hɛʀtseɡˈovinaː|inv_titre=Nom propre}}
+'''Bosnien-Herzegowina''' {{pron|bˈozniən hɛʀtseɡˈovinaː|lb}} {{n}}
+# {{pays|lb|d’Europe|pays=Bosnie-Herzégovine|clé=*}} {{lien|Bosnie-Herzégovine|fr}}.
+#* {{exemple|lang=lb}}
+
+==== {{S|gentilés}} ====
+* {{lien|Bosnier|lb|sens=Bosnien}}, {{lien|Bosnierin|lb|sens=Bosnienne}}
+* {{lien|bosnesch|lb|sens=bosnien, bosnienne}}
+
+=== {{S|références}} ===
+: {{R:LOD|entrée=BOSNIENHERZEGOWINA}}
+
+{{clé de tri|Bosnien Herzegowina}}

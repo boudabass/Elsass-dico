@@ -1,0 +1,473 @@
+{{voir/ruanda}}
+== {{langue|fr}} ==
+
+=== {{S|nom propre|fr}} ===
+'''Ruanda''' {{pron|ʁwɑ̃.da|fr}}
+# {{term|avant 1970}} {{variante ortho de|Rwanda|fr}}.
+#* {{exemple|lang=fr}}
+
+==== {{S|gentilés}} ====
+* [[Ruandais]], [[Ruandaise]]
+* [[ruandais]]
+
+==== {{S|dérivés}} ====
+* [[Ruanda-Urundi]]
+=== {{S|anagrammes}} ===
+{{voir anagrammes|fr}}
+
+[[Catégorie:Pays d’Afrique en français]]
+
+== {{langue|sq}} ==
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|sq}}
+
+=== {{S|nom propre|sq}} ===
+'''Ruanda''' {{pron||sq}}
+# [[Rwanda]] (pays d’[[Afrique]]).
+
+[[Catégorie:Pays d’Afrique en albanais]]
+
+== {{langue|gsw}} ==
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw}}
+
+=== {{S|nom propre|gsw}} ===
+'''Ruanda''' {{pron||gsw}}
+# [[Rwanda]] (pays d’[[Afrique]]).
+
+[[Catégorie:Pays en alémanique]]
+
+== {{langue|de}} ==
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|de}}
+
+=== {{S|nom propre|de}} ===
+'''Ruanda''' {{pron||de}}
+# [[Rwanda]] (pays d’[[Afrique]]).
+
+[[Catégorie:Pays d’Afrique en allemand]]
+
+== {{langue|az}} ==
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|az}}
+
+=== {{S|nom propre|az}} ===
+'''Ruanda''' {{pron||az}}
+# [[Rwanda]] (pays d’[[Afrique]]).
+
+[[Catégorie:Pays d’Afrique en azéri]]
+
+== {{langue|nds}} ==
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|nds}}
+
+=== {{S|nom propre|nds}} ===
+'''Ruanda''' {{pron||nds}}
+# [[Rwanda]] (pays d’[[Afrique]]).
+
+[[Catégorie:Pays d’Afrique en bas allemand]]
+
+== {{langue|an}} ==
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|an}}
+
+=== {{S|nom propre|an}} ===
+'''Ruanda''' {{pron||an}}
+# [[Rwanda]] (pays d’[[Afrique]]).
+
+[[Catégorie:Pays en aragonais]]
+
+== {{langue|ast}} ==
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|ast}}
+
+=== {{S|nom propre|ast}} ===
+'''Ruanda''' {{pron||ast}}
+# [[Rwanda]] (pays d’[[Afrique]]).
+
+[[Catégorie:Pays en asturien]]
+
+== {{langue|eu}} ==
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|eu}}
+
+=== {{S|nom propre|eu}} ===
+'''Ruanda''' {{pron||eu}}
+# [[Rwanda]] (pays d’[[Afrique]]).
+
+[[Catégorie:Pays d’Afrique en basque]]
+
+== {{langue|bs}} ==
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|bs}}
+
+=== {{S|nom propre|bs}} ===
+'''Ruanda''' {{pron||bs}}
+# [[Rwanda]] (pays d’[[Afrique]]).
+
+[[Catégorie:Pays d’Afrique en bosniaque]]
+
+== {{langue|hr}} ==
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|hr}}
+
+=== {{S|nom propre|hr}} ===
+'''Ruanda''' {{pron||hr}}
+# [[Rwanda]] (pays d’[[Afrique]]).
+
+[[Catégorie:Pays d’Afrique en croate]]
+
+== {{langue|es}} ==
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|es}}
+
+=== {{S|nom propre|es}} ===
+'''Ruanda''' {{pron||es}}
+# [[Rwanda]] (pays d’[[Afrique]]).
+
+=== {{S|prononciation}} ===
+* {{écouter|Espagne||lang=es|audio=LL-Q1321 (spa)-Rodelar-Ruanda.wav}}
+
+[[Catégorie:Pays d’Afrique en espagnol]]
+
+== {{langue|et}} ==
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|et}}
+
+=== {{S|nom propre|et}} ===
+'''Ruanda''' {{pron||et}}
+# [[Rwanda]] (pays d’[[Afrique]]).
+
+[[Catégorie:Pays d’Afrique en estonien]]
+
+== {{langue|fo}} ==
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|fo}}
+
+=== {{S|nom propre|fo}} ===
+'''Ruanda''' {{pron||fo}}
+# [[Rwanda]] (pays d’[[Afrique]]).
+
+[[Catégorie:Pays en féroïen]]
+
+== {{langue|fi}} ==
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|fi}}
+
+=== {{S|nom propre|fi}} ===
+'''Ruanda''' {{pron|ˈruɑndɑ|fi}}
+# [[Rwanda]] (pays d’[[Afrique]]).
+#* {{exemple|lang=fi}}
+
+==== {{S|dérivés}} ====
+* {{lien|ruandalainen|fi}} — Rouandais, Rouandaise, Rwandais, Rwandaise
+
+[[Catégorie:Pays d’Afrique en finnois]]
+
+== {{langue|gd}} ==
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gd}}
+
+=== {{S|nom propre|gd}} ===
+'''Ruanda''' {{pron||gd}}
+# [[Rwanda]] (pays d’[[Afrique]]).
+
+[[Catégorie:Pays en gaélique écossais]]
+
+== {{langue|ga}} ==
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|ga}}
+
+=== {{S|nom propre|ga}} ===
+'''Ruanda''' {{pron||ga}}
+# [[Rwanda]] (pays d’[[Afrique]]).
+
+[[Catégorie:Pays en gaélique irlandais]]
+
+== {{langue|gl}} ==
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gl}}
+
+=== {{S|nom propre|gl}} ===
+'''Ruanda''' {{pron||gl}}
+# [[Rwanda]] (pays d’[[Afrique]]).
+
+[[Catégorie:Pays d’Afrique en galicien]]
+
+== {{langue|hu}} ==
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|hu}}
+
+=== {{S|nom propre|hu}} ===
+'''Ruanda''' {{pron||hu}}
+# [[Rwanda]] (pays d’[[Afrique]]).
+
+[[Catégorie:Pays d’Afrique en hongrois]]
+
+== {{langue|io}} ==
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|io}}
+
+=== {{S|nom propre|io}} ===
+'''Ruanda''' {{pron||io}}
+# [[Rwanda]] (pays d’[[Afrique]]).
+
+[[Catégorie:Pays en ido]]
+
+== {{langue|ia}} ==
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|ia}}
+
+=== {{S|nom propre|ia}} ===
+'''Ruanda''' {{pron||ia}}
+# [[Rwanda]] (pays d’[[Afrique]]).
+
+[[Catégorie:Pays en interlingua]]
+
+== {{langue|it}} ==
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|it}}
+
+=== {{S|nom propre|it}} ===
+{{it-inv|ru.ˈan.da}}
+'''Ruanda''' {{pron|ru.ˈan.da|it}} {{m}}
+# [[Rwanda]] (pays d’[[Afrique]]).
+
+==== {{S|gentilés}} ====
+* [[ruandese#it|ruandese]]
+
+=== {{S|anagrammes}} ===
+{{voir anagrammes|it}}
+
+=== {{S|voir aussi}} ===
+* {{Annexe|Pays et leurs gentilés en italien}}
+* {{WP|lang=it|Ruanda (disambigua)}}
+* {{WQ|lang=it}}
+* {{VOY|lang=it}}
+
+[[Catégorie:Pays d’Afrique en italien]]
+
+== {{langue|la}} ==
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|la}}
+
+=== {{S|nom propre|la}} ===
+'''Ruanda''' {{pron||la}}
+# [[Rwanda]] (pays d’[[Afrique]]).
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=la}}
+
+[[Catégorie:Pays d’Afrique en latin]]
+
+== {{langue|lv}} ==
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|lv}}
+
+=== {{S|nom propre|lv}} ===
+{{lv-tab-4|Ruand|sing=oui}}
+'''Ruanda''' {{pron||lv}}
+# [[Rwanda]] (pays d’[[Afrique]]).
+
+[[Catégorie:Pays d’Afrique en letton]]
+
+== {{langue|lij}} ==
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|lij}}
+
+=== {{S|nom propre|lij}} ===
+'''Ruanda''' {{pron||lij}}
+# [[Rwanda]] (pays d’[[Afrique]]).
+
+[[Catégorie:Pays en ligure]]
+
+== {{langue|lt}} ==
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|lt}}
+
+=== {{S|nom propre|lt}} ===
+{{lt-décl-nom-propre-f-a|Ruand}}
+'''Ruanda''' {{pron||lt}}
+# [[Rwanda]] (pays d’[[Afrique]]).
+
+[[Catégorie:Pays d’Afrique en lituanien]]
+
+== {{langue|lmo}} ==
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|lmo}}
+
+=== {{S|nom propre|lmo}} ===
+'''Ruanda''' {{pron||lmo}}
+# [[Rwanda]] (pays d’[[Afrique]]).
+
+[[Catégorie:Pays en lombard]]
+
+== {{langue|lb}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|lb}}
+
+=== {{S|nom propre|lb}} ===
+{{lb-inv|ʀuˈɑndaː|inv_titre=Nom propre}}
+'''Ruanda''' {{pron|ʀuˈɑndaː|lb}} {{mn ?|lb}}
+# {{pays|lb|d’Afrique|pays=Rwanda|clé=*}} {{lien|Rwanda|fr}}.
+#* {{exemple|lang=lb}}
+
+==== {{S|gentilés}} ====
+* {{lien|Ruander|lb}}, {{lien|Ruanderin|lb}}
+* {{lien|ruandesch|lb}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=lb}}
+
+=== {{S|références}} ===
+: {{R:LOD}}
+
+== {{langue|uz}} ==
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|uz}}
+
+=== {{S|nom propre|uz}} ===
+'''Ruanda''' {{pron||uz}}
+# [[Rwanda]] (pays d’[[Afrique]]).
+
+[[Catégorie:Pays en ouzbek]]
+
+== {{langue|pms}} ==
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|pms}}
+
+=== {{S|nom propre|pms}} ===
+'''Ruanda''' {{pron||pms}}
+# [[Rwanda]] (pays d’[[Afrique]]).
+
+[[Catégorie:Pays en piémontais]]
+
+== {{langue|pt}} ==
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|pt}}
+
+=== {{S|nom propre|pt}} ===
+'''Ruanda''' {{pron||pt}}
+# [[Rwanda]] (pays d’[[Afrique]]).
+
+[[Catégorie:Pays d’Afrique en portugais]]
+
+== {{langue|ro}} ==
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|ro}}
+
+=== {{S|nom propre|ro}} ===
+'''Ruanda''' {{pron||ro}}
+# [[Rwanda]] (pays d’[[Afrique]]).
+
+[[Catégorie:Pays d’Afrique en roumain]]
+
+== {{langue|sgs}} ==
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|sgs}}
+
+=== {{S|nom propre|sgs}} ===
+'''Ruanda''' {{pron||sgs}}
+# [[Rwanda]] (pays d’[[Afrique]]).
+
+[[Catégorie:Pays en samogitien]]
+
+== {{langue|sc}} ==
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|sc}}
+
+=== {{S|nom propre|sc}} ===
+'''Ruanda''' {{pron||sc}}
+# [[Rwanda]] (pays d’[[Afrique]]).
+
+[[Catégorie:Pays en sarde]]
+
+== {{langue|sh}} ==
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|sh}}
+
+=== {{S|nom propre|sh}} ===
+'''Ruanda''' {{pron||sh}}
+# [[Rwanda]] (pays d’[[Afrique]]).
+
+[[Catégorie:Pays d’Afrique en serbo-croate]]
+
+== {{langue|sl}} ==
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|sl}}
+
+=== {{S|nom propre|sl}} ===
+'''Ruanda''' {{pron||sl}}
+# [[Rwanda]] (pays d’[[Afrique]]).
+
+[[Catégorie:Pays d’Afrique en slovène]]
+
+== {{langue|crh}} ==
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|crh}}
+
+=== {{S|nom propre|crh}} ===
+'''Ruanda''' {{pron||crh}}
+# [[Rwanda]] (pays d’[[Afrique]]).
+
+[[Catégorie:Pays en tatar de Crimée]]
+
+== {{langue|tr}} ==
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|tr}}
+
+=== {{S|nom propre|tr}} ===
+'''Ruanda''' {{pron||tr}}
+# [[Rwanda]] (pays d’[[Afrique]]).
+
+=== {{S|prononciation}} ===
+* {{écouter|Izmir (Turquie)||lang=tr|audio=LL-Q256 (tur)-ToprakM-Ruanda.wav}}
+
+[[Catégorie:Pays d’Afrique en turc]]
+
+== {{langue|vec}} ==
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|vec}}
+
+=== {{S|nom propre|vec}} ===
+'''Ruanda''' {{pron||vec}}
+# [[Rwanda]] (pays d’[[Afrique]]).
+
+[[Catégorie:Pays en vénitien]]

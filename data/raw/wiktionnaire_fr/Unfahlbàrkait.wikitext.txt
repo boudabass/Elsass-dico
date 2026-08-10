@@ -1,0 +1,14 @@
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: {{composé de|unfahlbàr|sens1=infaillible|-kait|lang=gsw|m=1}}. Cognat avec l'allemand ''{{lien|Unfehlbarkeit|de}}''.
+
+=== {{S|nom|gsw}} ===
+'''Unfahlbàrkait''' {{pron||gsw}} {{f}}
+# {{Région mulhousienne|gsw}} [[infaillibilité#fr|Infaillibilité]].
+# {{Région mulhousienne|gsw}} {{en particulier}} {{lexique|catholicisme|gsw}} {{lexique|théologie|gsw}} Infaillibilité du [[pape#fr|pape]].
+#* {{exemple | lang=gsw
+ | D’ pàpschtliga '''Unfahlbàrkait''' ìsch a Lehrsàtz vu dr reemisch-kàthoolischa Kìrìch.
+ | L'infaillibilité pontificale est un dogme de l'Église catholique romaine.}}
+
+=== {{S|antonymes}} ===
+* {{lien|Fahlbàrkait|gsw}} — faillibilité

@@ -1,0 +1,93 @@
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw}}
+
+=== {{S|nom propre|gsw}} ===
+'''Serbien''' {{pron||gsw}}
+# [[Serbie]] (pays d’[[Europe]]).
+
+[[Catégorie:Pays en alémanique]]
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|de}}
+
+=== {{S|nom propre|de}} ===
+{{de-nom-propre|genre=n|gs=Serbiens}}
+'''Serbien''' {{pron|ˈzɛr.bjən|de}} {{n}}
+# [[Serbie]] (pays d’[[Europe]]).
+#* {{exemple|Am 9. Oktober 1904 wird Petar Karajordjevic als Peter I. zum König von '''Serbien''' gekrönt.|lang=de|sens=Le 9 octobre 1904, Petar Karajordjevic est couronné roi de Serbie sous le nom de Pierre Ier.|source={{périodique|auteur=Jan von Flocken|titre=Das schaurige Ende eines Königspaares|journal=Welt|date=08 janvier 2008|texte=https://www.welt.de/kultur/history/article1526243/Das-schaurige-Ende-eines-Koenigspaares.html}}}}
+
+==== {{S|dérivés}} ====
+* [[Republik Serbien]]
+* [[Serbien und Montenegro]]
+
+=== {{S|prononciation}} ===
+* {{écouter|Berlin|ˈzɛʁbi̯ən|lang=de|audio=De-Serbien.ogg}}
+
+[[Catégorie:Pays d’Europe en allemand]]
+[[Catégorie:Serbie en allemand|*]]
+
+== {{langue|nds}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|nds}}
+
+=== {{S|nom propre|nds}} ===
+'''Serbien''' {{pron||nds}}
+# [[Serbie]] (pays d’[[Europe]]).
+
+[[Catégorie:Pays d’Europe en bas allemand]]
+
+== {{langue|bar}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|bar}}
+
+=== {{S|nom propre|bar}} ===
+'''Serbien''' {{pron||bar}}
+# [[Serbie]] (pays d’[[Europe]]).
+
+[[Catégorie:Pays d’Europe en bavarois]]
+
+== {{langue|da}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|da}}
+
+=== {{S|nom propre|da}} ===
+'''Serbien''' {{pron||da}}
+# [[Serbie]] (pays d’[[Europe]]).
+
+[[Catégorie:Pays d’Europe en danois]]
+[[Catégorie:Serbie en danois|*]]
+
+== {{langue|lb}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|lb|mot=Serbia}}.
+
+=== {{S|nom propre|lb}} ===
+{{lb-inv|zˈɛʀbiən|inv_titre=Nom propre}}
+'''Serbien''' {{pron|zˈɛʀbiən|lb}} {{n}}
+# {{pays|lb|d’Europe}} [[Serbie]].
+#* {{exemple|lang=lb}}
+
+==== {{S|notes}} ====
+* {{lb-n}}
+
+==== {{S|gentilés}} ====
+* {{lien|Serb|lb|sens=Serbe}} au masculin, {{lien|Serbin|lb|sens=Serbe}} au féminin, {{lien|serbesch|lb|sens=serbe}}
+
+=== {{S|prononciation}} ===
+* {{écouter|Luxembourg||lang=lb|audio=Lb-Serbien.ogg}}
+
+=== {{S|références}} ===
+: {{R:LOD}}
+
+== {{langue|sv}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|sv}}
+
+=== {{S|nom propre|sv}} ===
+'''Serbien''' {{pron||sv}}
+# [[Serbie]] (pays d’[[Europe]]).
+
+[[Catégorie:Pays d’Europe en suédois]]
+[[Catégorie:Serbie en suédois|*]]

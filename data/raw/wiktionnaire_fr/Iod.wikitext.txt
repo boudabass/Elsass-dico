@@ -1,0 +1,62 @@
+{{voir|iod}}
+
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw}}
+
+=== {{S|nom|gsw}} ===
+'''Iod''' {{pron||gsw}} {{genre|gsw}}
+# {{éléments|gsw}} [[iode#fr|Iode]].
+{{clr}}
+==== {{S|vocabulaire}} ====
+{{tableau périodique/gsw}}
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|de}}
+
+=== {{S|nom|de}} ===
+{{de-nom-n|sing=1
+|gs2=Iodes
+|ds2=Iode}}
+{{légende élément/de|I}}
+[[Image:IodoAtomico.JPG|thumb|'''Iod''' in Lösung. (Iode en solution.]]
+'''Iod''' {{pron|ˈi̯oːt|de}} {{n}} ({{p}}: '''-''' )
+# {{éléments|de}} ''(nomenclature [[UICPA]])'' [[iode#fr|Iode]] (l’{{lien|élément chimique}} [[I#conv|I]]).
+
+==== {{S|variantes orthographiques}} ====
+* {{lien|Jod|de}}
+
+==== {{S|dérivés}} ====
+{{(|&nbsp;}}
+* {{lien|Iodat|de}}
+* {{lien|Iodazid|de}}
+* {{lien|Iodbromid|de}}
+* {{lien|Iodchlorid|de}}
+* {{lien|Iodfluorid|de}}
+* {{lien|Iodid|de}}
+* {{lien|Iodit|de}}
+* {{lien|Iodmangel|de}}
+* {{lien|Iodnitrid|de}}
+* {{lien|Iodsäure|de}}
+* {{lien|Iodstickstoff|de}}
+* {{lien|Iodunverträglichkeit|de}}
+* {{lien|Iodwasserstoff|de}}
+* {{lien|Iodwasserstoffsäure|de}}
+{{)}}
+{{clr}}
+==== {{S|vocabulaire}} ====
+* {{voir thésaurus|de|tableau périodique des éléments}}
+{{tableau périodique/de}}
+{{Liste|avant={{lien|Tellur|de}}<br>([[Te#conv|Te]])|après={{lien|Xenon|de}}<br>([[Xe#conv|Xe]])|liste=[[Thésaurus:tableau périodique des éléments/allemand|Éléments chimiques en allemand]]}}
+
+=== {{S|prononciation}} ===
+* {{pron|i̯oːt|de}}
+* {{écouter|lang=de|Allemagne (Berlin)|audio=LL-Q188 (deu)-Lucas Werkmeister-Iod.wav}}
+* {{écouter|lang=de|Allemagne (Berlin)|audio=LL-Q188 (deu)-Sebastian Wallroth-Iod.wav}}
+
+=== {{S|anagrammes}} ===
+{{voir anagrammes|de}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=de}}

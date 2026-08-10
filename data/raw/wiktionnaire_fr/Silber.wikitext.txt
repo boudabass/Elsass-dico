@@ -1,0 +1,181 @@
+== {{langue|fr}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|de|fr|mot=Silber}}.
+
+=== {{S|nom de famille|fr}} ===
+'''Silber''' {{pron||fr}} {{mf}}
+# Nom de famille.
+#* {{exemple|lang=fr|{{w|Antoine '''Silber'''}}.}}
+
+==== {{S|variantes}} ====
+* {{lien|Zilber|fr}}
+
+==== {{S|apparentés}} ====
+* {{lien|Silbermann|fr}}
+
+==== {{S|traductions}} ====
+{{trad-début}}
+{{trad-fin}}
+
+=== {{S|anagrammes}} ===
+{{voir anagrammes|fr}}
+
+=== {{S|voir aussi}} ===
+* {{WP}}
+
+=== {{S|références}} ===
+* {{Géopatro}}
+[[Catégorie:Noms de famille allemands en français]]
+
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|de|alémanique|nocat=1|Silber}}.
+
+=== {{S|nom|gsw}} ===
+'''Silber''' {{pron||gsw}}
+# {{éléments|gsw}} {{métaux|gsw}} [[argent#fr|Argent]].
+#* {{exemple|lang=gsw}}
+
+=== {{S|voir aussi}} ===
+{{tableau périodique/gsw}}
+* {{WP|lang=gsw}}
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: {{siècle|VIII|lang=de}} Du {{étyl|goh|de|mot=silbar}} via le {{étyl|gmh|de|silber}}. Apparenté, dans les langues germaniques, au {{étyl|nl|de|nocat=1|zilver}}, à l’{{étyl|en|de|nocat=1|silver}}, au {{étyl|sv|de|nocat=1|silver}}, au {{étyl|da|de|nocat=1|sølv}}, au {{étyl|no|de|nocat=1|sølv}} / {{étyl|nn|de|nocat=1|sylv}}, au {{étyl|fo|de|nocat=1|silvur}} et à l’{{étyl|is|de|nocat=1|silfur}} ; apparentement aussi avec les langues slaves, p. ex. le {{étyl|ru|de|nocat=1|серебро}} et le {{étyl|cs|de|nocat=1|stříbro}}, ainsi que les langues [[balte]]s, le {{étyl|lt|de|nocat=1|sidabras}} et le {{étyl|lv|de|nocat=1|sudrabs}}{{R|DWDS|Silber}}.
+
+=== {{S|nom|de}} ===
+{{de-nom-n|sing=1}}
+{{légende élément/de|Ag|num=1}}
+[[Image:Silver_crystal.jpg|thumb|alt=Un cristal d’argent (sens 1).|''Ein {{l|Kristall|de}} aus '''Silber''' (1).'' – Un cristal d’argent.]]
+[[Image:American_Silver_Eagle,_obverse,_2004.png|thumb|alt=Une pièce en argent (sens 1 / 2a).|''Ein '''Silber''' (2a) / Eine {{l|Münze|de}} aus '''Silber''' (1).'' – Une [[pièce de monnaie]] en [[argent]] (2a / 1).]]
+[[Image:CoA Austria.svg|thumb|alt=De gueules à la fasce d’argent : le blanc est appelé « argent » (4) en héraldique.|''Ein {{l|silbern|de|dif=silberner}} {{l|Balken|de}} auf {{l|rot|de|dif=rotem}} {{l| Grund |de}}: {{l|Weiß|de}} wird in der {{l|Heraldik|de}} als “'''Silber'''” (4) {{l|bezeichnen|de|dif=bezeichnet}}.'' – De [[gueules]] à la [[fasce]] d’[[argent]] : le [[blanc]] est [[appeler|appelé]] « [[argent]] » (4) en [[héraldique]].]]
+'''Silber''' {{pron|ˈzɪlbɐ|de}} {{n}} {{au singulier uniquement|lang=de}}
+# {{éléments|de}} {{métaux|de}} [[argent#fr|Argent]].
+#* {{exemple|lang=de|'''Silber''' war bereits in urgeschichtlichen Zeiten bekannt.|L’argent était déjà connu à l'époque préhistorique}}
+# {{par métonymie|de}} Objet ou collection d’[[objet]]s en [[argent]].
+# [[argenterie#fr|Argenterie]].
+#* {{exemple | lang=de | tête=##*|Unser '''Silber''' stammt aus meiner Großmutter.|Notre argenterie vient de ma grand-mère.}}
+# {{par métonymie|de}} {{lexique|sport|de}} [[médaille d’argent#fr|Médaille d’argent]], seconde place.
+#* {{exemple|lang=de|Mit einer kräftigen Endspurt holte sie das '''Silber'''.|Avec un puissant sprint final, elle a remporté l’argent.}}
+# {{lexique|héraldique|de}} Argent, désignation du blanc.
+#* {{exemple|lang=de|Gold und '''Silber''' werden in der Heraldik als Metalle bezeichnet.|L’or et l’argent sont appelés métaux en héraldique.|source={{w|Tingierung|lang=de}}}}
+
+==== {{S|synonymes}} ====
+* {{lien|Argentum|de}} ''(1)''
+* {{lien|Silbermedaille|de|sens=médaille d’argent}}
+
+==== {{S|antonymes}} ====
+{{(|Autres métaux de la [[préhistoire]] / l’[[antiquité]]|1}}
+* {{l|Bronze|sens=[[bronze]]}}
+* {{l|Eisen|de|sens=[[fer]]}}
+* {{l|Gold|de|sens=[[or]]}}
+* {{l|Kupfer|de|sens=[[cuivre]]}}
+{{)}}
+
+==== {{S|dérivés}} ====
+{{(|Substantifs en ''-silber''}}
+* {{l|Hacksilber|de|sens=[[argent]] au [[poids]]}}
+* {{l|Quecksilber|de|sens=[[vif-argent]] », « [[mercure]]}}
+{{)}}
+{{(|Autres substantifs}}
+* {{l|Silberader|de|sens=[[filon]] d’[[argent]]}}
+* {{l|Silberarbeit|de}}
+* {{l|Silberauflage|de}}
+* {{l|Silberbarren|de|sens=[[barre]] d’[[argent]]}}
+* {{l|Silberbergwerk|de|sens=[[mine]] d’[[argent]]}}
+* {{l|Silberbesteck|de|sens=[[argenterie]]}}
+* {{l|Silberblech|de}}
+* {{l|Silberblick|de|sens=[[léger]] [[strabisme]]}}
+* {{l|Silberborte|de}}
+* {{l|Silberbraut|de}}
+* {{l|Silberbräutigam|de}}
+* {{l|Silberbrokat|de}}
+* {{l|Silberbronze|de}}
+* {{l|Silberdistel|de}}
+* {{l|Silberdraht|de|sens=[[fil]] en [[argent]]}}
+* {{l|Silbererz|de|sens=[[minerai]] d’[[argent]]}}
+* {{l|Silberfaden|de|sens=[[fil d’argent]]}}
+* {{l|Silberfisch|de}}, {{l|Silberfischchen|de|sens=[[poisson d’argent]]}}
+* {{l|Silberfuchs|de|sens=[[renard argenté]]}}
+* {{l|Silbergehalt|de|sens=[[teneur]] en [[argent]]}}
+* {{l|Silbergeld|de|sens=[[monnaie]] en [[argent]]}}
+* {{l|Silbergeschirr|de|sens=[[argenterie]]}}
+* {{l|Silberglanz|de|sens=[[reflet]] [[argent]]}}
+* {{l|Silberhaar|de|sens=[[cheveux]] [[argenté]]s}}
+* {{l|Silberhochzeit|de|sens=[[noces d’argent]]}}
+* {{l|Silberkette|de|sens=[[collier]] d’[[argent]]}}
+* {{l|Silberkordel|de}}
+* {{l|Silberlachs|de|sens=[[saumon argenté]] », « [[saumon coho]]}}
+* {{l|Silberlegierung|de|sens=[[alliage]] d’[[argent]]}}
+* {{l|Silberleuchter|de}}
+* {{l|Silberlöffel|de|sens=[[cuillère]] en [[argent]]}}
+* {{l|Silberlot|de|sens=[[brasure à l’argent]]}}
+* {{l|Silberlöwe|de|sens=[[puma]] », « [[cougar]]}}
+* {{l|Silbermedaille|de|sens=[[médaille]] en [[argent]]}}
+* {{l|Silbermine|de|sens=[[mine]] d’[[argent]]}}
+* {{l|Silbermöwe|de|sens=[[goéland argenté]]}}
+* {{l|Silbermünze|de|sens=[[pièce]] en [[argent]]}}
+* {{l|Silberpapier|de}}
+* {{l|Silberpappel|de}}
+* {{l|Silberplatte|de}}
+* {{l|Silberputzmittel|de|sens=[[produit]] de [[nettoyage]] pour l’[[argent]]}}
+* {{l|Silberreiher|de}}
+* {{l|Silberschicht|de|sens=[[couche]] d’[[argent]]}}
+* {{l|Silberschmied|de|sens=[[orfèvre]]}} – ''(spécialisé sur l’[[argent]])''
+* {{l|Silberschmuck|de|sens=[[bijouterie]] en [[argent]]}}
+* {{l|Silbersträhne|de}}
+* {{l|Silberstreif|de}}
+* {{l|Silberstreifen|de}}
+* {{l|Silbertablett|de}}
+* {{l|Silbertanne|de|sens=[[sapin blanc]] », « [[sapin]]}}
+* {{l|Silberwährung|de|sens=[[étalon-argent]]}}
+* {{l|Silberwert|de}}
+* {{l|Silberzeug|de}}
+* {{l|Silberzwiebel|de|sens=[[oignon blanc]]}}
+{{)}}
+{{(|Autres dérivés}}
+* {{l|silberbestickt|de|sens=brodé en argent}}
+* {{l|silberfarben|de}}, {{l|silberfarbig|de|sens=[[argenté]] », « [[couleur]] [[argent]]}}
+* {{l|silberglänzend|de|sens=au [[reflet]] [[argenté]]}}
+* {{l|silbergrau|de|sens=[[gris]] [[argent]]}}
+* {{l|silberhaarig|de|sens=aux [[cheveux]] [[argenté]]s}}
+* {{l|silberhaltig|de|sens=[[contenant]] de l’[[argent]]}}
+* {{l|silberhell|de|sens=[[clair]] comme l’[[argent]]}}
+* {{l|silberig|de}}, {{l|silbrig|de|sens=[[argenté]]}}
+* {{l|silbern|de|sens=en [[argent]] », « [[argenté]]}}
+* {{l|silberweiß|de|sens=[[blanc]] [[argent]]}}
+* {{l|versilbern|de|sens=[[argenter]] », ''figuré'' – « [[monnayer]]}}
+* {{l|versilbert|de|sens=[[argenté]]}}
+{{)}}
+==== {{S|vocabulaire}} ====
+* {{voir thésaurus|de|couleur}}
+
+=== {{S|nom de famille|de}} ===
+'''Silber''' {{pron|zɪlbɐ|de}} {{mf}}
+# {{lien|Silber|fr}}.
+#* {{exemple|lang=de|{{w|Philipp '''Silber'''|lang=de}}.|pas-trad=oui}}
+
+==== {{S|dérivés}} ====
+* {{lien|Silbermann|de}}
+
+==== {{S|vocabulaire}} ====
+{{tableau périodique/de}}
+{{Liste|avant={{lien|Palladium|de}}<br>([[Pd#conv|Pd]])|après={{lien|Cadmium|de}} ou {{lien|Kadmium|de}}<br>([[Cd#conv|Cd]])|liste=[[Thésaurus:tableau périodique des éléments/allemand|Éléments chimiques en allemand]]}}
+
+=== {{S|prononciation}} ===
+* {{pron|ˈzɪlbɐ|de}}
+* {{écouter|{{AT|nocat=1}}|ˈsɪlbɛʁ|de|audio=De-at-Silber.ogg}}
+* {{écouter|Allemagne (Berlin)|zɪlbɐ|de|audio=LL-Q188 (deu)-Lucas Werkmeister-Silber.wav}}
+* {{écouter|Allemagne (Berlin)|zɪlbɐ|de|audio=LL-Q188 (deu)-Sebastian Wallroth-Silber.wav}}
+
+=== {{S|voir aussi}} ===
+* {{WP|Silber (Begriffsklärung)|lang=de}}
+
+=== {{S|références}} ===
+==== {{S|sources}} ====
+{{références}}
+==== {{S|bibliographie}} ====
+* {{R:DWb|Silber|id=S28467}}
+* {{R:Duden|Silber}}
+[[Catégorie:Couleurs en allemand]]

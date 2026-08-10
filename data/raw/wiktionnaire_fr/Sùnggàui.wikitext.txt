@@ -1,0 +1,7 @@
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: De l’alémanique. Il signifie « comté du sud » (de ''Sùng''/''Sùnd'' ou ''Süd'', « sud », et ''Gàui'', « comté »).
+
+=== {{S|nom propre|gsw}} ===
+'''Sùnggàui''' {{pron|z̈uŋ.ɡ̈ɔj|gsw}}, {{pron|z̈ʊŋ.ɡ̈ɑj|gsw}} (accentué)
+# {{lexique|géographie|gsw}} [[Sundgau]] ; région du sud de l’Alsace.

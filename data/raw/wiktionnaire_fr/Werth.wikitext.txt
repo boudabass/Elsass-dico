@@ -1,0 +1,39 @@
+{{voir|werth}}
+
+== {{langue|de}} ==
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|de}}
+
+=== {{S|nom propre|de}} ===
+'''Werth''' {{pron|veːɐ̯t|de}} {{m}}
+# {{localités|de|d’Allemagne}} Quartier d’{{lien|Isselburg|fr}}, en Allemagne.
+#* {{exemple | lang=de | Die {{w|Burg '''Werth'''|lang=de}} ist eine abgegangene Wasserburg in '''Werth''', einem Ortsteil der nordrhein-westfälischen Stadt Isselburg, nahe der Grenze zu den Niederlanden.}}
+
+==== {{S|dérivés}} ====
+* {{lien|Niederwerth|de}}
+* {{lien|Oberwerth|de}}
+
+=== {{S|nom de famille|de}} ===
+'''Werth''' {{pron|veːɐ̯t|de}} {{m}}
+# Nom de famille.
+#* {{exemple | lang=de | {{w|Johann von '''Werth'''|lang=de}}.}}
+#* {{exemple | lang=de | {{w|Joseph '''Werth'''}}.}}
+
+=== {{S|nom|de}} ===
+{{de-nom-m-s-e|veːɐ̯t|gs2=Werthes}}
+'''Werth''' {{pron|veːɐ̯t|de}} {{m}}
+# {{désuet|de}} {{variante de|Wert|de}}.
+#* {{exemple|lang=de}}
+
+=== {{S|voir aussi}} ===
+* {{WP|Werth (Isselburg)|lang=de}}
+
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw}}
+
+=== {{S|nom propre|gsw}} ===
+'''Werth''' {{pron||gsw}}
+# {{Alsace|gsw}} {{localités|gsw|du département du Bas-Rhin}} [[Wœrth#fr|Wœrth]], [[commune]] [[français]]e, située dans le département du [[Bas-Rhin]].
+#* {{exemple|lang=gsw}}

@@ -1,0 +1,36 @@
+== {{langue|adj}} ==
+=== {{S|étymologie}} ===
+: {{date|lang=adj}} {{ébauche-étym|adj}}
+
+=== {{S|nom|adj}} ===
+'''ãn''' {{pron||adj}}
+# (Anatomie, Dentisterie) Petit organe composé d’émail, de dentine et d’une pulpe, enchâssés dans la mâchoire, qui sert à inciser, à déchirer, à mâcher les aliments et à mordre.
+#* {{exemple|lang=adj}}
+
+=== {{S|prononciation}} ===
+{{ébauche-pron-audio|adj}}
+
+[[Catégorie:adioukrou de Côte d’Ivoire]]
+{{voir/an}}
+
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw}}
+
+=== {{S|adjectif|gsw}} ===
+'''ãn''' {{pron||gsw}}
+# [[allumé|Allumé]].
+
+==== {{S|variantes orthographiques}} ====
+* [[àn]]
+* [[uf]]
+
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|adjectif|gsw-fr}} ===
+'''ãn''' {{pron||gsw-fr}}
+# [[allumé|Allumé]].
+
+{{clé de tri|an}}

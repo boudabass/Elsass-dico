@@ -1,0 +1,21 @@
+== {{langue|gsw}} ==
+{{ébauche|gsw}}
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw}}
+
+=== {{S|nom|gsw}} ===
+'''Giehd''' {{pron||gsw}}
+# [[détente|Détente]], [[calme]].
+
+== {{langue|swg}} ==
+{{ébauche|swg}}
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|swg}}
+
+=== {{S|nom|swg}} ===
+'''Giehd''' {{pron||swg}}
+# [[détente|Détente]], [[calme]].
+
+{{clé de tri}}

@@ -1,0 +1,417 @@
+{{voir/reunion}}
+== {{langue|fr}} ==
+=== {{S|étymologie}} ===
+: Par décret du 23 Mars 1793, en pleine [[Révolution française]], la [[Convention nationale]] a décidé d’abandonner l’ancien nom d’[[île Bourbon]] (qui faisait référence à la famille royale, les ''[[Bourbon]]'') pour le changer en '''île de la Réunion'''. Ce choix a sans doute été fait pour commémorer la [[réunion]] de la foule parisienne avec la [[garde nationale]] lors de la prise des [[Tuileries]], le 10 Août 1792.
+
+=== {{S|nom propre|fr}} ===
+{{fr-inv|ʁe.y.njɔ̃}}
+[[Image:France on the globe (Reunion special) (Madagascar centered).svg|thumb|Localisation de la '''Réunion'''.]]
+[[Image:Reunion 21.12S 55.51E.jpg|thumb|La '''Réunion'''.]]
+[[File:Piton de la Fournaise 1981 eruption.JPG|thumb|Piton de la Fournaise ('''Réunion''') : éruption (1981).]]
+'''Réunion''' {{pron|ʁe.y.njɔ̃|fr}} {{f}}
+# {{îles|fr|de France}} [[île|Île]] de l’[[océan Indien]], à l’est de [[Madagascar]] et à l’ouest de [[Maurice]].
+# {{départements|fr|de France|d’outre-mer}} {{régions|fr|de France}} La [[région]] ou le [[département]] d’[[outre-mer]] [[français]] constitué(e)(s) par cette île.
+#* {{exemple | lang=fr | La '''Réunion''' est un département français.}}
+
+==== {{S|abréviations}} ====
+* [[REU]] (norme {{w|ISO 3166-1}} alpha-3)
+
+==== {{S|synonymes}} ====
+* {{term|Ancien nom}} [[île Mascarègne]] (1642–1649)
+* {{term|Ancien nom}} [[île Bourbon]] (1649–1793)
+* [[La Réunion]]
+
+==== {{S|gentilés}} ====
+* [[Réunionnais]], [[Réunionnaise]], [[réunionnais]]
+
+==== {{S|dérivés}} ====
+{{(}}
+* [[bihoreau de la Réunion]]
+* [[busard de la Réunion]]
+* [[foudi de la Réunion]]
+* [[ibis de la Réunion]]
+* [[mascarin de la Réunion]]
+* [[ouette de la Réunion]]
+* [[pigeon de la Réunion]]
+* [[point chaud de la Réunion]]
+* [[solitaire de la Réunion]]
+* [[tadaride de la Réunion]]
+* [[talève de la Réunion]]
+* [[tarier de la Réunion]]
+* [[traquet de la Réunion]]
+* [[zostérops de la Réunion]]
+{{)}}
+
+==== {{S|traductions}} ====
+{{trad-début|Département français}}
+* {{T|af}} : {{trad-|af|Réunion}}
+* {{T|gsw}} : {{trad|gsw|Réunion}}
+* {{T|de}} : {{trad+|de|Réunion}}
+* {{T|en}} : {{trad+|en|Réunion}}
+* {{T|ar}} : {{trad-|ar|ريونيون}}
+* {{T|an}} : {{trad-|an|Reunión}}
+* {{T|rup}} : {{trad|rup|Réunion}}
+* {{T|ast}} : {{trad-|ast|Reunión}}
+* {{T|nds}} : {{trad-|nds|Réunion}}
+* {{T|eu}} : {{trad-|eu|Réunion}}
+* {{T|bar}} : {{trad|bar|Réunion}}
+* {{T|bs}} : {{trad-|bs|Reunion}}
+* {{T|br}} : {{trad-|br|Reunion}}
+* {{T|bg}} : {{trad-|bg|Реюнион|tr=Rejunion}}
+* {{T|yue}} : {{trad-|yue|留尼旺}}
+* {{T|ca}} : {{trad-|ca|Reunió}}
+* {{T|ceb}} : {{trad|ceb|Réunion}}
+* {{T|zh}} : {{trad+|zh|留尼汪|R=liúníwāng}}
+* {{T|ko}} : {{trad-|ko|레위니옹|tr=Rewiniong}}
+* {{T|kw}} : {{trad-|kw|Réunion}}
+* {{T|mfe}} : {{trad|mfe|Larenyon}}
+* {{T|rcf}} : {{trad|rcf|Rényon}}
+* {{T|hr}} : {{trad+|hr|Réunion}}
+* {{T|da}} : {{trad-|da|Réunion}}
+* {{T|dv}} : {{trad-|dv|ރިޔޫނިއަން}}
+* {{T|es}} : {{trad+|es|Reunión}}
+* {{T|eo}} : {{trad-|eo|Reunio}}
+* {{T|et}} : {{trad-|et|Réunion}}
+* {{T|fi}} : {{trad+|fi|Réunion}}
+* {{T|frp}} : {{trad|frp|Rèunion}}
+* {{T|gd}} : {{trad-|gd|Réunion}}
+* {{T|gl}} : {{trad+|gl|Reunión}}
+* {{T|cy}} : {{trad-|cy|Réunion}}
+* {{T|ka}} : {{trad-|ka|რეუნიონი|tr=Reunioni}}
+* {{T|el}} : {{trad+|el|Ρεϋνιόν|R=Reynión}}
+* {{T|he}} : {{trad-|he|ראוניון}}
+* {{T|hi}} : {{trad+|hi|रेयूनियों|R=Reyūniyoṃ}}
+* {{T|hu}} : {{trad+|hu|Réunion}}
+* {{T|io}} : {{trad+|io|Réunion}}
+* {{T|id}} : {{trad-|id|Réunion}}
+* {{T|ia}} : {{trad-|ia|Réunion}}
+* {{T|is}} : {{trad-|is|Réunion}}
+* {{T|it}} : {{trad-|it|Riunione}}
+* {{T|ja}} : {{trad-|ja|レユニオン|tr=Reyunion}}
+* {{T|jv}} : {{trad-|jv|Reunion}}
+* {{T|ku}} : {{trad-|ku|Réunion}}
+* {{T|la}} : {{trad-|la|Reunio}}
+* {{T|lv}} : {{trad-|lv|Reinjona}}
+* {{T|lij}} : {{trad|lij|Réunion}}
+* {{T|lt}} : {{trad+|lt|Reunionas}}
+* {{T|lb}} : {{trad-|lb|Réunion}}
+* {{T|mk}} : {{trad-|mk|Реинион|tr=Reinion}}
+* {{T|bpy}} : {{trad|bpy|রিইউনিয়ন}}
+* {{T|mr}} : {{trad-|mr|रेयूनियों|R=Reyūniyoṃ}}
+* {{T|nan}} : {{trad-|nan|Réunion}}
+* {{T|nl}} : {{trad+|nl|Réunion}}
+* {{T|no}} : {{trad-|no|Réunion}}
+* {{T|nn}} : {{trad-|no|Réunion}}
+* {{T|nov}} : {{trad|nov|Reunion}}
+* {{T|oc}} : {{trad+|oc|Reünion}}
+* {{T|ur}} : {{trad-|ur|غے یونیوں}}
+* {{T|fa}} : {{trad-|fa|رئونیون}}
+* {{T|pcd}} : {{trad|pcd|Réunion}}
+* {{T|pih}} : {{trad|pih|Réunion}}
+* {{T|pl}} : {{trad+|pl|Reunion}}
+* {{T|pt}} : {{trad+|pt|Reunião}}
+* {{T|qu}} : {{trad-|qu|Riyunyun}}
+* {{T|ro}} : {{trad-|ro|Réunion}}
+* {{T|ru}} : {{trad+|ru|Реюньон|tr=reyunion}}
+* {{T|se}} : {{trad|se|Reuion}}
+* {{T|sr}} : {{trad-|sr|Реинион|R=Reunion}}
+* {{T|sh}} : {{trad-|sh|Reunion}}
+* {{T|scn}} : {{trad-|scn|Riunioni}}
+* {{T|sk}} : {{trad-|sk|Réunion}}
+* {{T|sl}} : {{trad-|sl|Reunion}}
+* {{T|sv}} : {{trad-|sv|Réunion}}
+* {{T|sw}} : {{trad-|sw|Réunion}}
+* {{T|tl}} : {{trad-|tl|Réunion}}
+* {{T|ta}} : {{trad-|ta|ரீயூனியன்}}
+* {{T|cs}} : {{trad+|cs|Réunion}}
+* {{T|th}} : {{trad-|th|เรอูนียง}}
+* {{T|tr}} : {{trad+|tr|Reunion}}
+* {{T|uk}} : {{trad-|uk|Реюньйон|R=Rejun’jon}}, {{trad-|uk|Реюніон|R=Rejunion}}
+* {{T|vec}} : {{trad-|vec|Réunion}}
+* {{T|vi}} : {{trad-|vi|Réunion}}
+* {{T|wa}} : {{trad-|wa|Reyunion}}
+* {{T|war}} : {{trad|war|Réunion}}
+* {{T|wo}} : {{trad-|wo|Reiñõo}}
+* {{T|wuu}} : {{trad|wuu|莱尤尼拥岛}}
+{{trad-fin}}
+
+==== {{S|holonymes}} ====
+* [[France]]
+
+==== {{S|méronymes}} ====
+{{(}}
+* [[Saint-Denis]]
+** [[Saint-Benoît]]
+** [[Saint-Pierre]]
+{{)}}
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=fr|France (Paris)|ʁe.y.njɔ̃|audio=Fr-Paris--Réunion.ogg}}
+* {{écouter|||lang=fr|audio=Fr-Réunion.ogg}}
+* {{écouter|lang=fr|France (Saint-Maurice-de-Beynost)|audio=LL-Q150 (fra)-Benoît Prieur-Réunion.wav}}
+* {{écouter|lang=fr|France (Lyon)|audio=LL-Q150 (fra)-WikiLucas00-Réunion.wav}}
+* {{écouter|Cesseras (France)||lang=fr|audio=LL-Q150 (fra)-Guilhelma-Réunion.wav}}
+* {{écouter|Cornimont (France)||lang=fr|audio=LL-Q150 (fra)-Poslovitch-Réunion.wav}}
+* {{écouter|Alsace (France)||lang=fr|audio=LL-Q150 (fra)-Le Commissaire-Réunion.wav}}
+* {{écouter|France||lang=fr|audio=LL-Q150 (fra)-Lunagrouh-Réunion.wav}}
+
+=== {{S|anagrammes}} ===
+{{voir anagrammes|fr}}
+
+=== {{S|voir aussi}} ===
+* {{WP|La Réunion}}
+
+== {{langue|af}} ==
+=== {{S|nom propre|af}} ===
+'''Réunion''' {{pron||af}}
+# {{départements|af|de France}} [[Réunion#fr|Réunion]] (département français d’[[outre-mer]]).
+#* {{exemple|lang=af}}
+# {{îles|af}} Réunion (l’île).
+#* {{exemple|lang=af}}
+
+== {{langue|gsw}} ==
+=== {{S|nom propre|gsw}} ===
+'''Réunion''' {{pron||gsw}}
+# {{départements|gsw|de France}} [[Réunion#fr|Réunion]] (département français d’[[outre-mer]]).
+# {{îles|gsw}} Réunion (l’île).
+
+== {{langue|de}} ==
+=== {{S|nom propre|de}} ===
+{{de-nom
+|ns= Réunion |np=
+|as= Réunion |ap=
+|gs= Réunions |gp=
+|ds= Réunion |dp=}}
+'''Réunion''' {{pron||de}}
+# {{départements|de|de France}} [[Réunion#fr|Réunion]] (département français d’[[outre-mer]]).
+# {{îles|de}} Réunion (l’île).
+
+== {{langue|en}} ==
+=== {{S|nom propre|en}} ===
+'''Réunion''' {{pron||en}}
+# {{départements|en|de France}} [[Réunion#fr|Réunion]] (département français d’[[outre-mer]]).
+# {{îles|en|de France}} Réunion (l’île).
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=en|Royaume-Uni (Sud de l'Angleterre)||audio=LL-Q1860 (eng)-Vealhurl-Réunion.wav}}
+
+== {{langue|rup}} ==
+=== {{S|nom propre|rup}} ===
+'''Réunion''' {{pron||rup}}
+# {{départements|rup|de France}} [[Réunion#fr|Réunion]] (département français d’[[outre-mer]]).
+# {{îles|rup}} Réunion (l’île).
+
+== {{langue|eu}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|fr|eu|mot=Réunion}}.
+
+=== {{S|nom propre|eu}} ===
+'''Réunion''' {{pron||eu}}
+# {{départements|eu|de France}} {{régions|eu|de France}} '''Réunion''' (région et département d’outre-mer de France).
+# {{îles|eu}} Réunion (l’île).
+
+== {{langue|nds}} ==
+=== {{S|nom propre|nds}} ===
+'''Réunion''' {{pron||nds}}
+# {{départements|nds|de France}} [[Réunion#fr|Réunion]] (département français d’[[outre-mer]]).
+# {{îles|nds}} Réunion (l’île).
+
+== {{langue|bar}} ==
+=== {{S|nom propre|bar}} ===
+'''Réunion''' {{pron||bar}}
+# {{départements|bar|de France}} [[Réunion#fr|Réunion]] (département français d’[[outre-mer]]).
+# {{îles|bar}} Réunion (l’île).
+
+== {{langue|ceb}} ==
+=== {{S|nom propre|ceb}} ===
+'''Réunion''' {{pron||ceb}}
+# {{départements|ceb|de France}} [[Réunion#fr|Réunion]] (département français d’[[outre-mer]]).
+# {{îles|ceb}} Réunion (l’île).
+
+== {{langue|kw}} ==
+=== {{S|nom propre|kw}} ===
+'''Réunion''' {{pron||kw}}
+# {{départements|kw|de France}} [[Réunion#fr|Réunion]] (département français d’[[outre-mer]]).
+# {{îles|kw}} Réunion (l’île).
+
+== {{langue|hr}} ==
+=== {{S|nom propre|hr}} ===
+'''Réunion''' {{pron||hr}}
+# {{départements|hr|de France}} [[Réunion#fr|Réunion]] (département français d’[[outre-mer]]).
+# {{îles|hr}} Réunion (l’île).
+
+== {{langue|da}} ==
+=== {{S|nom propre|da}} ===
+'''Réunion''' {{pron||da}}
+# {{départements|da|de France}} [[Réunion#fr|Réunion]] (département français d’[[outre-mer]]).
+# {{îles|da}} Réunion (l’île).
+
+== {{langue|et}} ==
+=== {{S|nom propre|et}} ===
+'''Réunion''' {{pron||et}}
+# {{départements|et|de France}} [[Réunion#fr|Réunion]] (département français d’[[outre-mer]]).
+# {{îles|et}} Réunion (l’île).
+
+== {{langue|fi}} ==
+=== {{S|nom propre|fi}} ===
+'''Réunion''' {{pron||fi}}
+# {{départements|fi|de France}} [[Réunion#fr|Réunion]] (département français d’[[outre-mer]]).
+# {{îles|fi}} Réunion (l’île).
+
+== {{langue|gd}} ==
+=== {{S|nom propre|gd}} ===
+'''Réunion''' {{pron||gd}}
+# {{départements|gd|de France}} [[Réunion#fr|Réunion]] (département français d’[[outre-mer]]).
+# {{îles|gd}} Réunion (l’île).
+
+== {{langue|cy}} ==
+=== {{S|nom propre|cy}} ===
+'''Réunion''' {{pron||cy}}
+# {{départements|cy|de France}} [[Réunion#fr|Réunion]] (département français d’[[outre-mer]]).
+# {{îles|cy}} Réunion (l’île).
+
+== {{langue|hu}} ==
+=== {{S|nom propre|hu}} ===
+'''Réunion''' {{pron||hu}}
+# {{départements|hu|de France}} [[Réunion#fr|Réunion]] (département français d’[[outre-mer]]).
+# {{îles|hu}} Réunion (l’île).
+
+== {{langue|io}} ==
+=== {{S|nom propre|io}} ===
+'''Réunion''' {{pron||io}}
+# {{départements|io|de France}} [[Réunion#fr|Réunion]] (département français d’[[outre-mer]]).
+# {{îles|io}} Réunion (l’île).
+
+== {{langue|id}} ==
+=== {{S|nom propre|id}} ===
+'''Réunion''' {{pron||id}}
+# {{départements|id|de France}} [[Réunion#fr|Réunion]] (département français d’[[outre-mer]]).
+#* {{exemple|lang=id}}
+# {{îles|id}} Réunion (l’île).
+#* {{exemple|lang=id}}
+
+== {{langue|ia}} ==
+=== {{S|nom propre|ia}} ===
+'''Réunion''' {{pron||ia}}
+# {{départements|ia|de France}} [[Réunion#fr|Réunion]] (département français d’[[outre-mer]]).
+# {{îles|ia}} Réunion (l’île).
+
+== {{langue|is}} ==
+=== {{S|nom propre|is}} ===
+'''Réunion''' {{pron||is}}
+# {{départements|is|de France}} [[Réunion#fr|Réunion]] (département français d’[[outre-mer]]).
+# {{îles|is}} Réunion (l’île).
+
+== {{langue|ku}} ==
+=== {{S|nom propre|ku}} ===
+'''Réunion''' {{pron||ku}}
+# {{départements|ku|de France}} [[Réunion#fr|Réunion]] (département français d’[[outre-mer]]).
+# {{îles|ku}} Réunion (l’île).
+
+== {{langue|lij}} ==
+=== {{S|nom propre|lij}} ===
+'''Réunion''' {{pron||lij}}
+# {{départements|lij|de France}} [[Réunion#fr|Réunion]] (département français d’[[outre-mer]]).
+# {{îles|lij}} Réunion (l’île).
+
+== {{langue|lb}} ==
+=== {{S|nom propre|lb}} ===
+'''Réunion''' {{pron||lb}}
+# {{départements|lb|de France}} [[Réunion#fr|Réunion]] (département français d’[[outre-mer]]).
+# {{îles|lb}} Réunion (l’île).
+
+== {{langue|nan}} ==
+=== {{S|nom propre|nan}} ===
+'''Réunion''' {{pron||nan}}
+# {{départements|nan|de France}} [[Réunion#fr|Réunion]] (département français d’[[outre-mer]]).
+# {{îles|nan}} Réunion (l’île).
+
+== {{langue|nl}} ==
+=== {{S|nom propre|nl}} ===
+'''Réunion''' {{pron||nl}}
+# {{départements|nl|de France}} [[Réunion#fr|Réunion]] (département français d’[[outre-mer]]).
+# {{îles|nl}} Réunion (l’île).
+
+=== {{S|prononciation}} ===
+* {{écouter|||lang=nl|audio=Nl-Réunion.ogg}}
+
+== {{langue|no}} ==
+=== {{S|nom propre|no}} ===
+'''Réunion''' {{pron||no}}
+# {{départements|no|de France}} [[Réunion#fr|Réunion]] (département français d’[[outre-mer]]).
+# {{îles|no}} Réunion (l’île).
+
+== {{langue|nn}} ==
+=== {{S|nom propre|nn}} ===
+'''Réunion''' {{pron||nn}}
+# {{départements|nn|de France}} [[Réunion#fr|Réunion]] (département français d’[[outre-mer]]).
+# {{îles|nn}} Réunion (l’île).
+
+== {{langue|pih}} ==
+=== {{S|nom propre|pih}} ===
+'''Réunion''' {{pron||pih}}
+# {{départements|pih|de France}} [[Réunion#fr|Réunion]] (département français d’[[outre-mer]]).
+# {{îles|pih}} Réunion (l’île).
+
+==== {{S|synonymes}} ====
+* {{term|sens {{n°|2}}}} {{lien|Réunion Ailen|pih}}
+
+=== {{S|voir aussi}} ===
+* {{WP|Réunion Ailen|lang=pih}}
+
+== {{langue|ro}} ==
+=== {{S|nom propre|ro}} ===
+'''Réunion''' {{pron||ro}}
+# {{départements|ro|de France}} [[Réunion#fr|Réunion]] (département français d’[[outre-mer]]).
+# {{îles|ro}} Réunion (l’île).
+
+=== {{S|prononciation}} ===
+* {{écouter|Iași (Roumanie)||lang=ro|audio=LL-Q7913 (ron)-KlaudiuMihaila-Réunion.wav}}
+
+== {{langue|sk}} ==
+=== {{S|nom propre|sk}} ===
+'''Réunion''' {{pron||sk}}
+# {{départements|sk|de France}} [[Réunion#fr|Réunion]] (département français d’[[outre-mer]]).
+# {{îles|sk}} Réunion (l’île).
+
+== {{langue|sv}} ==
+=== {{S|nom propre|sv}} ===
+'''Réunion''' {{pron||sv}}
+# {{départements|sv|de France}} [[Réunion#fr|Réunion]] (département français d’[[outre-mer]]).
+# {{îles|sv}} Réunion (l’île).
+
+== {{langue|sw}} ==
+=== {{S|nom propre|sw}} ===
+'''Réunion''' {{pron||sw}}
+# {{départements|sw|de France}} [[Réunion#fr|Réunion]] (département français d’[[outre-mer]]).
+# {{îles|sw}} Réunion (l’île).
+
+== {{langue|tl}} ==
+=== {{S|nom propre|tl}} ===
+'''Réunion''' {{pron||tl}}
+# {{départements|tl|de France}} [[Réunion#fr|Réunion]] (département français d’[[outre-mer]]).
+# {{îles|tl}} Réunion (l’île).
+
+== {{langue|cs}} ==
+=== {{S|nom propre|cs}} ===
+'''Réunion''' {{pron||cs}}
+# {{départements|cs|de France}} [[Réunion#fr|Réunion]] (département français d’[[outre-mer]]).
+# {{îles|cs}} Réunion (l’île).
+
+== {{langue|vec}} ==
+=== {{S|nom propre|vec}} ===
+'''Réunion''' {{pron||vec}}
+# {{départements|vec|de France}} [[Réunion#fr|Réunion]] (département français d’[[outre-mer]]).
+# {{îles|vec}} Réunion (l’île).
+
+== {{langue|vi}} ==
+=== {{S|nom propre|vi}} ===
+'''Réunion''' {{pron||vi}}
+# {{départements|vi|de France}} [[Réunion#fr|Réunion]] (département français d’[[outre-mer]]).
+# {{îles|vi}} Réunion (l’île).
+
+== {{langue|war}} ==
+=== {{S|nom propre|war}} ===
+'''Réunion''' {{pron||war}}
+# {{départements|war|de France}} [[Réunion#fr|Réunion]] (département français d’[[outre-mer]]).
+# {{îles|war}} Réunion (l’île).

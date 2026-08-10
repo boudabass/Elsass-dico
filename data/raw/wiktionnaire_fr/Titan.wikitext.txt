@@ -1,0 +1,515 @@
+{{voir/titan}}
+== {{langue|fr}} ==
+=== {{S|étymologie}} ===
+: {{info lex|mythologie}} Du {{étylp|la|fr|Titan}}, issu du {{étylp|grc|fr|Τιτάν|Titán}}
+: {{info lex|astronomie}} {{date|1847}} En [[référence]] aux [[Titans]], [[frères]] de [[Cronos]], le [[Saturne]] des [[Grecs]].
+
+=== {{S|nom propre|fr|num=1}} ===
+{{fr-rég|ti.tɑ̃}} 
+[[Fichier:Gustave Doré - Dante Alighieri - Inferno - Plate 65 (Canto XXXI - The Titans).jpg|vignette|250px|Les '''Titans''' enchaînés dans le [[Tartare]]]]
+'''Titan''' {{pron|ti.tɑ̃|fr}} {{m}}
+# {{divinités|fr|gréco-latines}} [[divinité|Divinité]] [[primordiale]] [[géante]] qui a précédé les [[dieux]] de l’[[Olympe]].
+#* {{exemple|[...] Dantan, l’artiste chaud et à l’active intelligence, escalada le ciel comme un nouveau '''Titan''', pénétra de vive force dans le conseil des Dieux, alla saisir madame Sculpture qui se prélassait pompeusement entre Minerve et Jupiter, et malgré les efforts du blond Apollon et du troupeau des Muses éplorées, l’entraîna avec lui sur la terre.|lang=fr|source=L. Couailhac, ''Pitié pour elle'', vol. 1, Société typographique belge, Bruxelles, 1837, page 170}}
+#* {{exemple | lang=fr | Les '''Titans''' et leurs sœurs, les Titanides, sont les enfants d’Ouranos et de Gaïa, au nombre de six (ou sept, dans la tradition orphique) : Coéos, Crios, Cronos, Hypérion, Japet, Océan (et Phorcys).}}
+
+==== {{S|hyponymes}} ====
+* [[Atlas]]
+* [[Coéos]]
+* [[Crios]]
+* [[Cronos]]
+* [[Épiméthée]]
+* [[Hypérion]]
+* [[Japet]]
+* [[Océan]]
+* [[Phorcys]]
+* [[Prométhée]]
+
+==== {{S|dérivés}} ====
+* [[pénis de Titan]]
+* [[phallus de titan]]
+* [[titanesque]]
+* [[Titanesse]]
+* [[Titanide]]
+* [[titanisme]]
+* [[travail de Titan]]
+
+=== {{S|nom propre|fr|num=2}} ===
+[[Image:Two Halves of Titan.png|thumb|'''Titan'''.]]
+'''Titan''' {{pron|ti.tɑ̃|fr}} {{m}} {{s}}
+# {{satellites|fr}} [[satellite|Satellite]] [[naturel]] de la [[planète]] [[Saturne]], le plus [[important]] et le premier découvert.
+#* {{exemple | lang=fr | La sonde Huygens s’est posée sur '''Titan''' le 14 janvier 2005.}}
+
+==== {{S|synonymes}} ====
+* [[Saturne VI]]
+
+==== {{S|traductions}} ====
+{{trad-début}}
+* {{T|af}} : {{trad-|af|Titan}}
+* {{T|gsw}} : {{trad|gsw|Titan}}
+* {{T|de}} : {{trad+|de|Titan}}
+* {{T|en}} : {{trad+|en|Titan}}
+* {{T|ast}} : {{trad-|ast|Titán}}
+* {{T|nds}} : {{trad-|nds|Titan}}
+* {{T|eu}} : {{trad+|eu|Titan}}
+* {{T|bs}} : {{trad-|bs|Titan}}
+* {{T|br}} : {{trad-|br|Titan}}
+* {{T|bg}} : {{trad-|bg|Титан|tr=Titan}}
+* {{T|ca}} : {{trad-|ca|Tità}}
+* {{T|zh}} : {{trad-|zh|土星六|R=Tǔxīnglìu}}, {{trad-|zh|土卫六|R=Tǔwèiliù|tradi=土衛六}}
+* {{T|ko}} : {{trad+|ko|티탄|tr=Titan}}
+* {{T|co}} : {{trad-|co|Titanu}}
+* {{T|rcf}} : {{trad|rcf|Titan}}
+* {{T|hr}} : {{trad-|hr|Titan}}
+* {{T|da}} : {{trad+|da|Titan}}
+* {{T|es}} : {{trad+|es|Titán}}
+* {{T|eo}} : {{trad-|eo|Titano}}
+* {{T|et}} : {{trad+|et|Titan}}
+* {{T|fi}} : {{trad+|fi|Titan}}
+* {{T|frp}} : {{trad|frp|Titan}}
+* {{T|gl}} : {{trad+|gl|Titán}}
+* {{T|cy}} : {{trad-|cy|Titan}}
+* {{T|el}} : {{trad+|el|Τιτάνας|R=Titánas}}
+* {{T|grc}} : {{trad|grc|Τιτάν|m|tr=Titán}}
+* {{T|he}} : {{trad-|he|טיטאן}}
+* {{T|hu}} : {{trad+|hu|Titán}}
+* {{T|io}} : {{trad+|io|Titano}}
+* {{T|id}} : {{trad-|id|Titan}}
+* {{T|ia}} : {{trad-|ia|Titan}}
+* {{T|is}} : {{trad-|is|Títan}}
+* {{T|it}} : {{trad+|it|Titano}}
+* {{T|ja}} : {{trad+|ja|タイタン|tr=Taitan}}
+* {{T|la}} : {{trad+|la|Titan}}
+* {{T|lv}} : {{trad-|lv|Titāns}}
+* {{T|lt}} : {{trad-|lt|Titanas}}
+* {{T|lb}} : {{trad-|lb|Titan}}
+* {{T|nl}} : {{trad+|nl|Titan}}
+* {{T|no}} : {{trad-|no|Titan}}
+* {{T|nn}} : {{trad-|no|Titan}}
+* {{T|fa}} : {{trad+|fa|تیتان|R=}}
+* {{T|pl}} : {{trad+|pl|Tytan}}
+* {{T|pt}} : {{trad+|pt|Titã}}
+* {{T|ro}} : {{trad-|ro|Titan}}
+* {{T|ru}} : {{trad+|ru|Титан|tr=Titan}}
+* {{T|sr}} : {{trad-|sr|Титан|R=Titan}}
+* {{T|scn}} : {{trad-|scn|Titanu}}
+* {{T|sk}} : {{trad-|sk|Titan}}
+* {{T|sl}} : {{trad+|sl|Titan}}
+* {{T|sv}} : {{trad+|sv|Titan}}
+* {{T|cs}} : {{trad+|cs|Titan}}
+* {{T|tr}} : {{trad-|tr|Titan}}
+* {{T|uk}} : {{trad-|uk|Титан|R=Tytan}}
+* {{T|vi}} : {{trad-|vi|Titan}}
+{{trad-fin}}
+
+==== {{S|hyperonymes}} ====
+; {{info lex|astronomie}} :
+* [[lune]]
+
+==== {{S|holonymes}} ====
+; {{info lex|astronomie}} :
+* [[Saturne]]
+
+=== {{S|prononciation}} ===
+* {{pron-rimes|ti.tɑ̃|fr}}
+* {{écouter|canton du Valais (Suisse)|ti.tɑ̃|lang=fr|audio=LL-Q150 (fra)-DSwissK-Titan.wav}}
+
+=== {{S|anagrammes}} ===
+{{voir anagrammes|fr}}
+
+=== {{S|voir aussi}} ===
+* {{WP|Titan (mythologie grecque)|titre=Titan (la créature mythologique)}}
+* {{WP|Titan (lune)|titre=Titan (la lune)}}
+<!--- ordre alphabétique --->
+{{Liste|avant=[[Thrymr]]|suiv.de=d’|après=[[Ymir]]|liste=[[Annexe:Système solaire en français|Satellites naturels de Saturne]]}}
+
+== {{langue|af}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|af|Titan}}.
+
+=== {{S|nom propre|af}} ===
+'''Titan''' {{pron||af}}
+# {{info lex|astronomie}} [[Titan#fr|Titan]].
+#* {{exemple|lang=af}}
+
+[[Catégorie:Satellites en afrikaans]]
+
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw}}
+
+=== {{S|nom propre|gsw}} ===
+'''Titan''' {{pron||gsw}}
+# {{satellites|gsw}} [[Titan#fr|Titan]], lune de [[Saturne]].
+
+=== {{S|nom|gsw}} ===
+'''Titan''' {{pron||gsw}}
+# {{éléments|gsw}} {{métaux|gsw}} [[titane|Titane]].
+{{clr}}
+==== {{S|vocabulaire}} ====
+{{tableau périodique/gsw}}
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: {{laé|de|nom|1}} {{date|1795}} Du nom ci-dessous, attribué à l’[[élément chimique]] par {{w|Martin Heinrich Klaproth}}{{R|DWDS|Titan}}.
+: {{laé|de|nom|2}} {{siècle|XVI|lang=de}} Du {{étyl|la|de|Titanus|dif=Titānus}}{{R|DWDS|Titan}}.
+
+=== {{S|nom|de|num=1}} ===
+{{de-nom-n-sing}}
+{{légende élément/de|Ti}}
+[[Image:Titan-crystal_bar.JPG|thumb|'''Titan'''.]]
+'''Titan''' {{pron|tiˈtaːn|de}} {{n}} {{au singulier uniquement|de}}
+# {{éléments|de}} {{métaux|de}} [[titane#fr|Titane]], [[métal]] et [[élément chimique]] [[Ti#conv|Ti]].
+{{clr}}
+==== {{S|vocabulaire}} ====
+{{tableau périodique/de}}
+{{Liste|avant={{lien|Scandium|de}}<br>([[Ti#conv|Ti]])|après={{lien|Vanadium|de}} ou {{lien|Vanadin|de}}<br>([[V#conv|V]])|liste=[[Thésaurus:tableau périodique des éléments/allemand|Éléments chimiques en allemand]]}}
+
+=== {{S|nom|de|num=2}} ===
+{{de-nom-m-faible-en|ns2=Titane}}
+'''Titan''' {{pron|tiˈtaːn|de}} {{m}}
+# {{créatures|de|mythologiques}} [[titan|Titan]], [[géant]] de l’[[antiquité]].
+
+==== {{S|variantes}} ====
+* {{l|Titane|de}}
+
+=== {{S|nom propre|de}} ===
+{{de-nom-propre|genre=m|gs=Titan|gs2=Titans}}
+'''Titan''' {{pron|tiˈtaːn|de}} {{m}}
+# {{satellites|de}} [[Titan#fr|Titan]], lune de [[Saturne]].
+
+==== {{S|hyperonymes}} ====
+* {{l|Himmelskörper|de|sens=[[corps céleste]]}}
+* {{l|Mond|de|sens=[[lune]]}}
+
+=== {{S|prononciation}} ===
+* {{pron|tiˈtaːn|de}}
+* {{écouter|Allemagne (Berlin)|tiˈtaːn|lang=de|audio=De-Titan.oga}}
+* {{écouter|Allemagne (Berlin)|tiˈtaːn|lang=de|audio=LL-Q188 (deu)-Lucas Werkmeister-Titan.wav}}
+* {{écouter|Allemagne (Berlin)|tiˈtaːn|lang=de|audio=LL-Q188 (deu)-Sebastian Wallroth-Titan.wav}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=de}}
+
+=== {{S|références}} ===
+{{références}}
+* {{R:Duden|Titan_Metall|Titan}} – ''(métal)''
+* {{R:Duden|Titan_Gigant|Titan}} – ''(géant)''
+* {{R:DWb|Titan}}
+
+== {{langue|en}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|en|Titan}}, lui-même du {{étyl|grc|en|Τιτάν|tr=Titán}}.
+
+=== {{S|nom propre|en}} ===
+'''Titan''' {{pron||en}}
+# {{info lex|astronomie}} [[Titan#fr|Titan]].
+# {{lexique|mythologie grecque|en}} Autre nom de [[Hélios]], personnification du [[soleil]].
+
+=== {{S|nom|en}} ===
+{{en-nom-rég|ˈtaɪtən}}
+'''Titan''' {{pron||en}}
+# {{lexique|mythologie grecque|en}} [[titan#fr|Titan]].
+#* {{exemple | lang=en
+ | The striving, straining one, or '''{{pc|titan}}''', is the title we reserve for Kronos, his eleven siblings and (much of) their progeny. Ouranos meant it as an insult, but somehow the name has resounded through the ages with a ring of grandeur. No one, to this very day, would be insulted to be called a '''Titan'''.
+ | source={{Citation/Stephen Fry/Mythos/2018|23}}}}
+
+==== {{S|dérivés}} ====
+* {{lien|Titaness|en}}
+
+==== {{S|variantes orthographiques}} ====
+* {{lien|titan|en}}
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=en|{{US|nocat=1}}|audio=En-us-Titan.ogg}}
+
+[[Catégorie:Satellites en anglais]]
+
+== {{langue|nds}} ==
+=== {{S|nom propre|nds}} ===
+'''Titan''' {{pron||nds}}
+# {{info lex|astronomie}} [[Titan#fr|Titan]].
+
+[[Catégorie:Satellites en bas allemand]]
+
+== {{langue|eu}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|eu|Titan}}.
+
+=== {{S|nom propre|eu}} ===
+'''Titan''' {{pron||eu}}
+# {{info lex|astronomie}} [[Titan#fr|Titan]].
+
+[[Catégorie:Satellites en basque]]
+
+== {{langue|bs}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|bs|Titan}}.
+
+=== {{S|nom propre|bs}} ===
+'''Titan''' {{pron||bs}}
+# {{info lex|astronomie}} [[Titan#fr|Titan]].
+
+[[Catégorie:Satellites en bosniaque]]
+
+== {{langue|br}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|br|Titan}}.
+
+=== {{S|nom propre|br}} ===
+'''Titan''' {{pron||br}}
+# {{info lex|astronomie}} [[Titan#fr|Titan]].
+
+[[Catégorie:Satellites en breton]]
+
+== {{langue|hr}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|hr|Titan}}.
+
+=== {{S|nom propre|hr}} ===
+'''Titan''' {{pron||hr}}
+# {{info lex|astronomie}} [[Titan#fr|Titan]].
+
+[[Catégorie:Satellites en croate]]
+
+== {{langue|da}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|da|Titan}}.
+
+=== {{S|nom propre|da}} ===
+'''Titan''' {{pron||da}}
+# {{info lex|astronomie}} [[Titan#fr|Titan]].
+
+[[Catégorie:Satellites en danois]]
+
+== {{langue|et}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|et|Titan}}.
+
+=== {{S|nom propre|et}} ===
+'''Titan''' {{pron||et}}
+# {{info lex|astronomie}} [[Titan#fr|Titan]].
+
+[[Catégorie:Satellites en estonien]]
+
+== {{langue|fi}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|fi|Titan}}.
+
+=== {{S|nom propre|fi}} ===
+'''Titan''' {{pron||fi}}
+# {{info lex|astronomie}} [[Titan#fr|Titan]].
+
+[[Catégorie:Satellites en finnois]]
+
+== {{langue|frp}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|frp|Titan}}.
+
+=== {{S|nom propre|frp}} ===
+'''Titan''' {{pron||frp}}
+# {{info lex|astronomie}} [[Titan#fr|Titan]].
+
+[[Catégorie:Satellites en francoprovençal]]
+
+== {{langue|cy}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|cy|Titan}}.
+
+=== {{S|nom propre|cy}} ===
+'''Titan''' {{pron||cy}}
+# {{info lex|astronomie}} [[Titan#fr|Titan]].
+
+[[Catégorie:Satellites en gallois]]
+
+== {{langue|id}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|id|Titan}}.
+
+=== {{S|nom propre|id}} ===
+'''Titan''' {{pron||id}}
+# {{info lex|astronomie}} [[Titan#fr|Titan]].
+#* {{exemple|lang=id}}
+
+[[Catégorie:Satellites en indonésien]]
+
+== {{langue|ia}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|ia|Titan}}.
+
+=== {{S|nom propre|ia}} ===
+'''Titan''' {{pron||ia}}
+# {{info lex|astronomie}} [[Titan#fr|Titan]].
+
+[[Catégorie:Satellites en interlingua]]
+
+== {{langue|la}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|grc|la|Τιτάν|Titán}}.
+
+=== {{S|nom propre|la}} ===
+{{la-tab-3i-mf|Titan|Titan}}
+'''Titan''' {{pron||la}} {{m}}
+# {{lexique|mythologie|la}} [[Titan#fr|Titan]].
+# {{info lex|astronomie}} [[Titan#fr|Titan]].
+
+==== {{S|dérivés}} ====
+* [[Titania#la|Titania]]
+* [[Titanis#la|Titanis]]
+* [[Titanius#la|Titanius]]
+
+==== {{S|dérivés autres langues}} ====
+* {{L|en}} : [[Titan#en|Titan]]
+* {{L|fr}} : [[Titan#fr|Titan]]
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=la}}
+
+=== {{S|références}} ===
+* {{R:Gaffiot}}
+
+[[Catégorie:Satellites en latin]]
+
+== {{langue|lb}} ==
+=== {{S|étymologie}} ===
+: {{lien-ancre-étym|lb|nom-pr}} {{lien-ancre-étym|lb|nom|1}} Du {{étyl|la|lb|Titan}}.
+: {{lien-ancre-étym|lb|nom|2}} {{ébauche-étym|lb}}.
+
+=== {{S|nom propre|lb}} ===
+{{lb-inv|titˈaːn}}
+'''Titan''' {{pron|titˈaːn|lb}}
+# {{satellites|lb}} {{lien|Titan|fr|nom-pr-2}}, lune de [[Saturne]].
+#* {{exemple|lang=lb}}
+
+=== {{S|nom|lb|num=1}} ===
+{{lb-nom|s=Titan|p=Titanen|p2=Titane|ps=titˈaːn|pp=ˈtitˈaːnən|pp2=ˈtitˈaːnə}}
+'''Titan''' {{pron|titˈaːn|lb}} {{m}}
+# {{divinités|lb|gréco-latines}} {{lien|Titan|fr|nom-pr-1}}, divinité primordiale.
+#* {{exemple|lang=lb}}
+
+=== {{S|nom|lb|num=2}} ===
+{{lb-inv|titˈaːn}}
+'''Titan''' {{pron|titˈaːn|lb}} {{m}}, {{au singulier uniquement|lb}}
+# {{éléments|lb}} {{métaux|lb}} [[titane#fr|Titane]].
+#* {{exemple|lang=lb}}
+{{clr}}
+==== {{S|vocabulaire}} ====
+{{tableau périodique/lb}}
+
+=== {{S|prononciation}} ===
+* {{écouter|Luxembourg||niveau=bon|lang=lb|audio=LL-Q9051 (ltz)-Procrastineur49-Titan.wav}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=lb}}
+
+=== {{S|références}} ===
+: {{R:LOD|sens=1}} (dieu de la mythologie)
+: {{R:LOD|sens=2}} (élément chimique et métal)
+
+== {{langue|nl}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|nl|Titan}}.
+
+=== {{S|nom propre|nl}} ===
+'''Titan''' {{pron||nl}}
+# {{info lex|astronomie}} [[Titan#fr|Titan]].
+
+[[Catégorie:Satellites en néerlandais]]
+
+== {{langue|no}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|no|Titan}}.
+
+=== {{S|nom propre|no}} ===
+'''Titan''' {{pron||no}}
+# {{info lex|astronomie}} [[Titan#fr|Titan]].
+
+[[Catégorie:Satellites en norvégien]]
+
+== {{langue|nn}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|no|nn|Titan}}.
+
+=== {{S|nom propre|nn}} ===
+'''Titan''' {{pron||nn}}
+# {{info lex|astronomie}} [[Titan#fr|Titan]].
+
+[[Catégorie:Satellites en norvégien (nynorsk)]]
+
+== {{langue|ro}} ==
+=== {{S|nom propre|ro}} ===
+'''Titan''' {{pron||ro}}
+# {{info lex|astronomie}} [[Titan#fr|Titan]].
+==== {{S|vocabulaire}} ====
+* {{voir thésaurus|ro|astronomie}}
+[[Catégorie:Satellites en roumain]]
+
+== {{langue|sk}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|sk|Titan}}.
+
+=== {{S|nom propre|sk}} ===
+'''Titan''' {{pron||sk}}
+# {{info lex|astronomie}} [[Titan#fr|Titan]].
+
+[[Catégorie:Satellites en slovaque]]
+
+== {{langue|sl}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|sl|Titan}}.
+
+=== {{S|nom propre|sl}} ===
+'''Titan''' {{pron||sl}}
+# {{info lex|astronomie}} [[Titan#fr|Titan]].
+
+[[Catégorie:Satellites en slovène]]
+
+== {{langue|sv}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|sv|Titan}}.
+
+=== {{S|nom propre|sv}} ===
+'''Titan''' {{pron||sv}}
+# {{info lex|astronomie}} [[Titan#fr|Titan]].
+
+[[Catégorie:Satellites en suédois]]
+
+== {{langue|cs}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|cs|Titan}}.
+
+=== {{S|nom propre|cs}} ===
+{{cs-décl-nom-mi-dur|sing=1}}
+'''Titan''' {{pron||cs}} {{m|i}}
+# {{info lex|astronomie}} [[Titan#fr|Titan]].
+
+==== {{S|apparentés}} ====
+* {{lien|titan|cs}}
+* {{lien|Titán|cs}}
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=cs||audio=Cs-Titan.ogg}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=cs}}
+
+=== {{S|références}} ===
+* {{R:ÚJČ}}
+
+[[Catégorie:Satellites en tchèque]]
+
+== {{langue|tr}} ==
+=== {{S|nom propre|tr}} ===
+'''Titan''' {{pron||tr}}
+# {{info lex|astronomie}} [[Titan#fr|Titan]].
+
+[[Catégorie:Satellites en turc]]
+
+== {{langue|vi}} ==
+=== {{S|nom propre|vi}} ===
+'''Titan''' {{pron||vi}}
+# {{info lex|astronomie}} [[Titan#fr|Titan]].
+
+[[Catégorie:Satellites en vietnamien]]
+[[Catégorie:Divinités grecques en anglais]]
+[[Catégorie:Divinités grecques en allemand]]
+[[Catégorie:Divinités grecques en latin]]

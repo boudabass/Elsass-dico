@@ -1,0 +1,51 @@
+{{voir|curium}}
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: {{date|lang=gsw}} De l’{{étyl|de|gsw|mot=Curium}}.
+
+=== {{S|nom|gsw}} ===
+'''Curium''' {{pron||gsw}} {{genre|gsw}}
+# {{éléments|gsw}} {{métaux|gsw}} [[curium#fr|Curium]].
+
+==== {{S|vocabulaire}} ====
+{{tableau périodique/gsw}}
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: {{date|lang=de}} De l’{{étyl|en|de|mot=curium}}.
+
+=== {{S|nom|de}} ===
+{{légende élément/de|Cm}}
+'''Curium''' {{pron|ˈkuːʀi̯ʊm|de}} {{n}} ({{p}}: '''—''' /-/)
+# {{éléments|de}} {{métaux|de}} [[curium#fr|Curium]].
+#* {{exemple|lang=de|'''Curium''' kommt in der Natur nicht vor.}}
+
+=== {{S|prononciation}} ===
+* {{pron|ˈkuːʀi̯ʊm|de}}
+* {{écouter|lang=de|Allemagne (Berlin)|audio=LL-Q188 (deu)-Lucas Werkmeister-Curium.wav}}
+* {{écouter|lang=de|Allemagne (Berlin)|audio=LL-Q188 (deu)-Sebastian Wallroth-Curium.wav}}
+* {{écouter|lang=de|Allemagne (Munich)||audio=LL-Q188 (deu)-Michael Schoenitzer (MichaelSchoenitzer)-Curium.wav}}
+
+=== {{S|voir aussi}} ===
+{{tableau périodique/de}}
+* {{WP|lang=de}}
+
+== {{langue|lb}} ==
+=== {{S|étymologie}} ===
+: {{date|lang=lb}} De l’{{étyl|de|lb|mot=Curium}}.
+
+=== {{S|nom|lb}} ===
+{{lb-inv|kˈuːʀi̯um}}
+'''Curium''' {{pron|kˈuːʀi̯um|lb}} {{m}}, {{au singulier uniquement|lb}}
+# {{éléments|lb}} {{métaux|lb}} [[curium#fr|Curium]].
+#* {{exemple|lang=lb}}
+
+=== {{S|prononciation}} ===
+* {{écouter|Angers (France)||niveau=bon|lang=lb|audio=LL-Q9051 (ltz)-Procrastineur49-Curium.wav}}
+
+=== {{S|voir aussi}} ===
+{{tableau périodique/lb}}
+* {{WP|lang=lb}}
+
+=== {{S|références}} ===
+* {{R:LOD}}

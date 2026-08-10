@@ -1,0 +1,586 @@
+{{voir/laos}}
+== {{langue|fr}} ==
+
+=== {{S|étymologie}} ===
+: Probablement de ''[[#fr-flex-nom|Laos]]'', pluriel de ''[[Lao]]'', lui-même issu du {{étyl|lo|fr|ລາວ|Lāo|[[Lao]]}}.
+
+=== {{S|nom propre|fr}} ===
+{{fr-inv|la.ɔs}}
+[[Image:Location Laos ASEAN.svg|thumb|Localisation du '''Laos'''.]]
+'''Laos''' {{pron|la.ɔs|fr}} {{m}}
+# {{pays|fr|d’Asie}} Pays enclavé d’[[Asie du Sud-Est]], enclavé entre la [[Birmanie]], la [[Thaïlande]], le [[Cambodge]], le [[Viêt Nam]] et la [[Chine]]. Sa capitale est [[Vientiane]].
+#* {{exemple | lang=fr
+ | Ce fut auſſi ce qui rendit curieux un Ambaſſadeur du Roy de '''Laos''' qui ſe trouvoit alors à la Cour de Tunquin, de s’informer de cette Loy, & d’en prendre des inſtructions particulieres par la converſation meſme qu’il prattiqua avecque les noſtres ; en laquelle il fut tellement gaigné qu’il leur fit offre de les conduire à ſon retour au Royaume de '''Laos'''.
+ | source=Alexandre de Rhodes, [//books.google.fr/books?id=40xDAAAAcAAJ&pg=PA281&dq=Laos&hl=fr&sa=X#v=onepage&q=Laos&f=false ''Histoire du Royaume de Tunquin, et des grandes progrez que la prédication de l’évangile y a faits en la converſion des Infidelles : Depuis l’Année 1627 jusques à l’Année 1646''], traduit par Henri Albi, 1651, page 281}}
+
+==== {{S|abréviations}} ====
+* [[LAO]] (norme {{w|ISO 3166-1}} alpha-3)
+
+==== {{S|synonymes}} ====
+* [[République démocratique populaire lao]] ''(nom officiel)''
+
+==== {{S|gentilés}} ====
+* [[Lao]], [[lao]] ''(''{{mf}}'')''
+* [[Laotien]], [[Laotienne]], [[laotien]]
+
+==== {{S|vocabulaire}} ====
+* {{voir thésaurus|fr|tigre}}
+
+==== {{S|traductions}} ====
+{{trad-début}}
+* {{T|af}} : {{trad-|af|Laos}}
+* {{T|sq}} : {{trad+|sq|Laosi}}
+* {{T|gsw}} : {{trad|gsw|Laos}}
+* {{T|de}} : {{trad+|de|Laos}}
+* {{T|am}} : {{trad-|am|ላዎስ}}
+* {{T|en}} : {{trad+|en|Laos}}
+* {{T|ar}} : {{trad-|ar|لاوس}}
+* {{T|arz}} : {{trad|arz|لاوس}}
+* {{T|an}} : {{trad-|an|Laos}}
+* {{T|hy}} : {{trad-|hy|Լաոս|tr=Laos}}
+* {{T|ast}} : {{trad+|ast|Laos}}
+* {{T|az}} : {{trad+|az|Laos}}
+* {{T|nds}} : {{trad-|nds|Laos}}
+* {{T|dsb}} : {{trad|dsb|Laos}}
+* {{T|eu}} : {{trad-|eu|Laos}}
+* {{T|bn}} : {{trad-|bn|লাওস}}
+* {{T|be}} : {{trad-|be|Лаос|tr=Laos}}
+* {{T|be-tarask}} : {{trad|be-tarask|Лаос}}
+* {{T|bs}} : {{trad-|bs|Laos}}
+* {{T|br}} : {{trad-|br|Laos}}
+* {{T|bg}} : {{trad+|bg|Лаос|tr=Laos}}
+* {{T|yue}} : {{trad|yue|寮國}}
+* {{T|ca}} : {{trad+|ca|Laos}}
+* {{T|ceb}} : {{trad|ceb|Laos}}
+* {{T|zh}} : {{trad+|zh|老挝|tr=Lǎowō|tradi=老撾}}, {{trad+|zh|寮国|tradi=寮國|tr=Liáoguó}}
+* {{T|ko}} : {{trad+|ko|라오스|tr=Raoseu}}
+* {{T|kw}} : {{trad-|kw|Pow Lao}}
+* {{T|ht}} : {{trad|ht|Laos}}
+* {{T|hr}} : {{trad+|hr|Laos}}
+* {{T|da}} : {{trad-|da|Laos}}
+* {{T|diq}} : {{trad|diq|Laos}}
+* {{T|es}} : {{trad+|es|Laos}}
+* {{T|eo}} : {{trad+|eo|Laoso}}
+* {{T|et}} : {{trad+|et|Laos}}
+* {{T|fi}} : {{trad+|fi|Laos}}
+* {{T|frp}} : {{trad|frp|Laos}}
+* {{T|fy}} : {{trad+|fy|Laos}}
+* {{T|gd}} : {{trad-|gd|Làthos}}
+* {{T|ga}} : {{trad-|ga|Laos}}
+* {{T|gl}} : {{trad+|gl|Laos}}
+* {{T|cy}} : {{trad-|cy|Laos}}
+* {{T|gan}} : {{trad|gan|老撾}}
+* {{T|ka}} : {{trad+|ka|ლაოსი|tr=laosi}}
+* {{T|el}} : {{trad+|el|Λάος}}
+* {{T|hak}} : {{trad|hak|Liàu-koet}}
+* {{T|hsb}} : {{trad-|hsb|Laos}}
+* {{T|haw}} : {{trad|haw|Laosa}}
+* {{T|he}} : {{trad-|he|לאוס}}
+* {{T|hi}} : {{trad+|hi|लाओस}}
+* {{T|hu}} : {{trad+|hu|Laosz}}
+* {{T|sah}} : {{trad|sah|Лаос}}
+* {{T|io}} : {{trad+|io|Laos}}
+* {{T|ilo}} : {{trad|ilo|Laos}}
+* {{T|id}} : {{trad+|id|Laos}}
+* {{T|ie}} : {{trad-|ie|Laos}}
+* {{T|is}} : {{trad+|is|Laos}}
+* {{T|it}} : {{trad+|it|Laos}}
+* {{T|ja}} : {{trad+|ja|ラオス|tr=Raosu}}
+* {{T|jv}} : {{trad-|jv|Laos}}
+* {{T|csb}} : {{trad-|csb|Laòs}}
+* {{T|kn}} : {{trad+|kn|ಲಾವೋಸ್}}
+* {{T|pam}} : {{trad|pam|Laos}}
+* {{T|ks}} : {{trad-|ks|لاوس}},  {{trad-|ks|लाओस}}
+* {{T|kk}} : {{trad-|kk|Лаос}}
+* {{T|km}} : {{trad+|km|ឡាវ}}
+* {{T|kv}} : {{trad|kv|Лаос}}
+* {{T|avk}} : {{trad|avk|Laoa}}
+* {{T|ku}} : {{trad+|ku|Laos}}
+* {{T|lo}} : {{trad-|lo|ປະເທດລາວ|tr=Pathētlāo}}, {{trad-|lo|ເມືອງລາວ|tr=Mư̄anglāo}}
+* {{T|la}} : {{trad-|la|Laotia}}, {{trad-|la|Laonia}}
+* {{T|lv}} : {{trad+|lv|Laosa}}
+* {{T|lij}} : {{trad|lij|Laòs}}
+* {{T|li}} : {{trad+|li|Laos}}
+* {{T|ln}} : {{trad-|ln|Laos}}
+* {{T|lt}} : {{trad+|lt|Laosas}}
+* {{T|lmo}} : {{trad|lmo|Laos}}
+* {{T|lb}} : {{trad-|lb|Laos}}
+* {{T|mk}} : {{trad+|mk|Лаос|tr=Laos}}
+* {{T|ms}} : {{trad+|ms|Laos}}
+* {{T|ml}} : {{trad-|ml|ലാവോസ്|tr=lāvōs}}
+* {{T|mt}} : {{trad+|mt|Laos}}
+* {{T|bpy}} : {{trad|bpy|লাওস}}
+* {{T|gv}} : {{trad-|gv|Yn Laos}}
+* {{T|mr}} : {{trad-|mr|लाओस}}
+* {{T|nan}} : {{trad-|nan|Lao-kok}}
+* {{T|nch}} : {{trad-|nch|Laos}}
+* {{T|nap}} : {{trad|nap|Laos}}
+* {{T|nl}} : {{trad+|nl|Laos}}
+* {{T|new}} : {{trad|new|लाओस}}
+* {{T|no}} : {{trad+|no|Laos}}
+* {{T|nn}} : {{trad+|no|Laos}}
+* {{T|nov}} : {{trad|nov|Laos}}
+* {{T|oc}} : {{trad-|oc|Laòs}}
+* {{T|os}} : {{trad|os|Лаос}}
+* {{T|udm}} : {{trad|udm|Лаос}}
+* {{T|ug}} : {{trad-|ug|لائوس}}
+* {{T|ur}} : {{trad-|ur|لاؤس}}
+* {{T|ps}} : {{trad-|ps|لاووس}}
+* {{T|fa}} : {{trad+|fa|لائوس}}
+* {{T|pms}} : {{trad|pms|Làos}}
+* {{T|pl}} : {{trad+|pl|Laos}}
+* {{T|pt}} : {{trad+|pt|Laos}}
+* {{T|qu}} : {{trad-|qu|Lawus}}
+* {{T|ro}} : {{trad+|ro|Laos}}
+* {{T|ru}} : {{trad+|ru|Лаос|tr=Laos}}
+* {{T|se}} : {{trad|se|Laos}}
+* {{T|sgs}} : {{trad|sgs|Lauosos}}
+* {{T|sa}} : {{trad-|sa|लाओस}}
+* {{T|sr}} : {{trad-|sr|Лаос}}
+* {{T|sh}} : {{trad-|sh|Laos}}
+* {{T|scn}} : {{trad-|scn|Laos}}
+* {{T|szl}} : {{trad|szl|Laos}}
+* {{T|sk}} : {{trad+|sk|Laos}}
+* {{T|sl}} : {{trad+|sl|Laos}}
+* {{T|su}} : {{trad-|su|Laos}}
+* {{T|sv}} : {{trad+|sv|Laos}}
+* {{T|sw}} : {{trad-|sw|Laos}}
+* {{T|tg}} : {{trad+|tg|Лаос}}
+* {{T|tl}} : {{trad+|tl|Laos}}
+* {{T|ta}} : {{trad-|ta|லாவோஸ்|R=lāvōs}}
+* {{T|crh}} : {{trad|crh|Laos}}
+* {{T|cs}} : {{trad+|cs|Laos}}
+* {{T|cv}} : {{trad|cv|Лаос}}
+* {{T|te}} : {{trad+|te|లావోస్}}
+* {{T|th}} : {{trad+|th|ประเทศลาว}}, {{trad+|th|ลาว}}
+* {{T|bo}} : {{trad|bo|ལ་འོ་གོ}}
+* {{T|tr}} : {{trad+|tr|Laos}}
+* {{T|tk}} : {{trad-|tk|Laos}}
+* {{T|uk}} : {{trad+|uk|Лаос}}
+* {{T|vi}} : {{trad+|vi|Lào}}
+* {{T|vo}} : {{trad+|vo|Laosän}}
+* {{T|war}} : {{trad|war|Laos}}
+* {{T|wo}} : {{trad-|wo|Réewum Lawos}}
+* {{T|wuu}} : {{trad|wuu|老挝}}
+{{trad-fin}}
+
+=== {{S|nom|fr|flexion}} ===
+{{fr-rég|la.o|s=Lao|mf=1}}
+'''Laos''' {{pron|la.o|fr}} {{mf}}
+# ''Pluriel de'' [[Lao]].
+
+=== {{S|prononciation}} ===
+* Pour le nom commun :
+** {{écouter||la.ɔs|lang=fr|audio=LL-Q150 (fra)-Jules78120-Laos.wav}}
+** {{écouter|lang=fr|France (Paris)|audio=LL-Q150 (fra)-GrandCelinien-Laos.wav}}
+* {{écouter|lang=fr|France||audio=LL-Q150 (fra)-Mecanautes-Laos.wav}}
+
+=== {{S|anagrammes}} ===
+{{voir anagrammes|fr}}
+
+=== {{S|voir aussi}} ===
+* {{WP}}
+
+[[Catégorie:Homographes non homophones en français]]
+[[Catégorie:Laos en français|*]]
+
+== {{langue|af}} ==
+=== {{S|nom propre|af}} ===
+'''Laos''' {{pron||af}}
+# {{pays|af|d’Asie}} [[#fr|Laos]] (pays d’Asie).
+#* {{exemple|lang=af}}
+
+== {{langue|gsw}} ==
+=== {{S|nom propre|gsw}} ===
+'''Laos''' {{pron||gsw}}
+# {{pays|gsw}} [[#fr|Laos]] (pays d’Asie).
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|de}}
+
+=== {{S|nom propre|de}} ===
+{{de-nom-propre|genre=n}}
+'''Laos''' {{pron|ˈlaːɔs|de}}
+# {{pays|de|d’Asie}} [[#fr|Laos]] (pays d’Asie).
+#* {{exemple|In den letzten beiden Aprilwochen war es in Thailand, '''Laos''', Indien und Bangladesch ungewöhnlich heiß. In allen Ländern wurden neue Temperaturrekorde aufgestellt.|lang=de|sens=Au cours des deux dernières semaines d'avril, la Thaïlande, le Laos, l'Inde et le Bangladesh ont connu des températures inhabituelles. Dans tous les pays, de nouveaux records de température ont été battus.|source={{périodique|auteur=Christian Mihatsch|titre=54 Grad sind tödlich|journal=taz|date=17 mai 2023|texte=https://taz.de/Ungewoehnliche-hohe-Temperaturen-in-Asien/!5935350/}}}}
+
+=== {{S|prononciation}} ===
+* {{écouter|Berlin|ˈlaːɔs|lang=de|audio=De-Laos.ogg}}
+
+== {{langue|en}} ==
+=== {{S|nom propre|en}} ===
+'''Laos''' {{pron|ˈlaʊs|en}}
+# {{pays|en|d’Asie}} [[#fr|Laos]] (pays d’Asie).
+
+==== {{S|gentilés}} ====
+* {{lien|Lao|en}}
+* {{lien|Laotian|en}}
+
+=== {{S|nom|en|flexion}} ===
+{{en-nom-rég|ˈlaʊ|sing=Lao}}
+'''Laos''' {{pron|ˈlaʊz|en}}
+# ''Pluriel de'' {{lien|Lao|en}}.
+
+=== {{S|prononciation}} ===
+''Pays'' :
+* {{écouter|lang=en|États-Unis|ˈlaʊs|audio=En-us-Laos.ogg}}
+* {{écouter|Londres (Royaume-Uni)||lang=en|audio=LL-Q1860 (eng)-Soundguys-Laos.wav}}
+
+==== {{S|homophones|en}} ====
+* {{lien|louse|en}}
+
+[[Catégorie:Ethnonymes d’Asie en anglais]]
+[[Catégorie:Homographes non homophones en anglais]]
+
+== {{langue|an}} ==
+=== {{S|nom propre|an}} ===
+'''Laos''' {{pron||an}}
+# {{pays|an|d’Asie}} [[#fr|Laos]] (pays d’Asie).
+
+== {{langue|ast}} ==
+=== {{S|nom propre|ast}} ===
+'''Laos''' {{pron||ast}}
+# {{pays|ast|d’Asie}} [[#fr|Laos]] (pays d’Asie).
+
+=== {{S|prononciation}} ===
+* {{écouter|Uviéu (Espagne)||lang=ast|audio=LL-Q29507 (ast)-Limotecariu-Laos.wav}}
+
+== {{langue|az}} ==
+=== {{S|nom propre|az}} ===
+'''Laos''' {{pron||az}}
+# {{pays|az|d’Asie}} [[#fr|Laos]] (pays d’Asie).
+
+== {{langue|nds}} ==
+=== {{S|nom propre|nds}} ===
+'''Laos''' {{pron||nds}}
+# {{pays|nds|d’Asie}} [[#fr|Laos]] (pays d’Asie).
+
+== {{langue|dsb}} ==
+=== {{S|nom propre|dsb}} ===
+'''Laos''' {{pron||dsb}}
+# {{pays|dsb}} [[#fr|Laos]] (pays d’Asie).
+
+== {{langue|eu}} ==
+=== {{S|nom propre|eu}} ===
+'''Laos''' {{pron||eu}}
+# {{pays|eu|d’Asie}} [[#fr|Laos]] (pays d’Asie).
+
+== {{langue|bs}} ==
+=== {{S|nom propre|bs}} ===
+'''Laos''' {{pron||bs}}
+# {{pays|bs|d’Asie}} [[#fr|Laos]] (pays d’Asie).
+
+== {{langue|br}} ==
+=== {{S|nom propre|br}} ===
+'''Laos''' {{pron||br}}
+# {{pays|br|d’Asie}} [[#fr|Laos]] (pays d’Asie).
+
+== {{langue|ca}} ==
+=== {{S|nom propre|ca}} ===
+'''Laos''' {{pron||ca}}
+# {{pays|ca|d’Asie}} [[#fr|Laos]] (pays d’Asie).
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=ca|Espagne (Villarreal)||audio=LL-Q7026 (cat)-Millars-Laos.wav}}
+
+== {{langue|ceb}} ==
+=== {{S|nom propre|ceb}} ===
+'''Laos''' {{pron||ceb}}
+# {{pays|ceb}} [[#fr|Laos]] (pays d’Asie).
+
+== {{langue|ht}} ==
+=== {{S|nom propre|ht}} ===
+'''Laos''' {{pron|la.os|ht}}
+# {{pays|ht|d’Asie}} [[#fr|Laos]] (pays d’Asie).
+#* {{exemple|lang=ht}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=ht}}
+
+== {{langue|hr}} ==
+=== {{S|nom propre|hr}} ===
+'''Laos''' {{pron||hr}}
+# {{pays|hr|d’Asie}} [[#fr|Laos]] (pays d’Asie).
+
+== {{langue|da}} ==
+=== {{S|nom propre|da}} ===
+'''Laos''' {{pron||da}}
+# {{pays|da|d’Asie}} [[#fr|Laos]] (pays d’Asie).
+
+== {{langue|diq}} ==
+=== {{S|nom propre|diq}} ===
+'''Laos''' {{pron||diq}}
+# {{pays|diq}} [[#fr|Laos]] (pays d’Asie).
+
+== {{langue|es}} ==
+=== {{S|nom propre|es}} ===
+'''Laos''' {{pron||es}}
+# {{pays|es|d’Asie}} [[#fr|Laos]] (pays d’Asie).
+
+=== {{S|prononciation}} ===
+* {{écouter|Espagne||lang=es|audio=LL-Q1321 (spa)-Rodelar-Laos.wav}}
+* {{écouter|Lima (Pérou)||lang=es|audio=LL-Q1321 (spa)-Rodrigo5260-Laos.wav}}
+
+== {{langue|et}} ==
+=== {{S|nom propre|et}} ===
+'''Laos''' {{pron||et}}
+# {{pays|et|d’Asie}} [[#fr|Laos]] (pays d’Asie).
+
+== {{langue|fi}} ==
+=== {{S|nom propre|fi}} ===
+'''Laos''' {{pron|ˈlɑos|fi}}
+# {{pays|fi|d’Asie}} [[#fr|Laos]] (pays d’Asie).
+#* {{exemple|lang=fi}}
+
+==== {{S|dérivés}} ====
+* {{lien|laosilainen|fi}} — Laotien, Laotienne
+
+== {{langue|frp}} ==
+=== {{S|nom propre|frp}} ===
+'''Laos''' {{pron||frp}}
+# {{pays|frp}} [[#fr|Laos]] (pays d’Asie).
+
+== {{langue|fy}} ==
+=== {{S|nom propre|fy}} ===
+'''Laos''' {{pron||fy}}
+# {{pays|fy|d’Asie}} [[#fr|Laos]] (pays d’Asie).
+
+== {{langue|ga}} ==
+=== {{S|nom propre|ga}} ===
+'''Laos''' {{pron||ga}}
+# {{pays|ga}} [[#fr|Laos]] (pays d’Asie).
+
+== {{langue|gl}} ==
+=== {{S|nom propre|gl}} ===
+'''Laos''' {{pron||gl}}
+# {{pays|gl|d’Asie}} [[#fr|Laos]] (pays d’Asie).
+
+== {{langue|cy}} ==
+=== {{S|nom propre|cy}} ===
+'''Laos''' {{pron||cy}}
+# {{pays|cy|d’Asie}} [[#fr|Laos]] (pays d’Asie).
+
+== {{langue|hsb}} ==
+=== {{S|nom propre|hsb}} ===
+'''Laos''' {{pron||hsb}}
+# {{pays|hsb}} [[#fr|Laos]] (pays d’Asie).
+
+== {{langue|io}} ==
+=== {{S|nom propre|io}} ===
+'''Laos''' {{pron||io}}
+# {{pays|io|d’Asie}} [[#fr|Laos]] (pays d’Asie).
+
+== {{langue|ilo}} ==
+=== {{S|nom propre|ilo}} ===
+'''Laos''' {{pron||ilo}}
+# {{pays|ilo}} [[#fr|Laos]] (pays d’Asie).
+
+== {{langue|id}} ==
+=== {{S|nom propre|id}} ===
+'''Laos''' {{pron||id}}
+# {{pays|id|d’Asie}} [[#fr|Laos]] (pays d’Asie).
+#* {{exemple|lang=id}}
+
+== {{langue|ie}} ==
+=== {{S|nom propre|ie}} ===
+'''Laos''' {{pron||ie}}
+# {{pays|ie}} [[#fr|Laos]] (pays d’Asie).
+
+== {{langue|is}} ==
+=== {{S|nom propre|is}} ===
+'''Laos''' {{pron||is}}
+# {{pays|is|d’Asie}} [[#fr|Laos]] (pays d’Asie).
+
+== {{langue|it}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|it}}
+
+=== {{S|nom propre|it}} ===
+'''Laos''' {{pron|ˈla.os|it}} {{m}}
+# {{pays|it|d’Asie}} [[#fr|Laos]] (pays d’Asie).
+
+==== {{S|gentilés}} ====
+* [[lao#it|lao]]
+* [[laotiano#it|laotiano]], [[laotiana#it|laotiana]]
+
+=== {{S|anagrammes}} ===
+{{voir anagrammes|it}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=it}}
+* [[Annexe:Pays et leurs gentilés en italien]]
+
+== {{langue|jv}} ==
+=== {{S|nom propre|jv}} ===
+'''Laos''' {{pron||jv}}
+# {{pays|jv}} [[#fr|Laos]] (pays d’Asie).
+
+== {{langue|pam}} ==
+=== {{S|nom propre|pam}} ===
+'''Laos''' {{pron||pam}}
+# {{pays|pam}} [[#fr|Laos]] (pays d’Asie).
+
+== {{langue|ku}} ==
+=== {{S|nom propre|ku}} ===
+'''Laos''' {{pron||ku}}
+# {{pays|ku|d’Asie}} [[#fr|Laos]] (pays d’Asie).
+
+== {{langue|li}} ==
+=== {{S|nom propre|li}} ===
+'''Laos''' {{pron||li}}
+# {{pays|li}} [[#fr|Laos]] (pays d’Asie).
+
+== {{langue|ln}} ==
+=== {{S|nom propre|ln}} ===
+'''Laos''' {{pron||ln}}
+# {{pays|ln}} [[#fr|Laos]] (pays d’Asie).
+
+== {{langue|lmo}} ==
+=== {{S|nom propre|lmo}} ===
+'''Laos''' {{pron||lmo}}
+# {{pays|lmo}} [[#fr|Laos]] (pays d’Asie).
+
+== {{langue|lb}} ==
+=== {{S|nom propre|lb}} ===
+'''Laos''' {{pron||lb}}
+# {{pays|lb|d’Asie}} [[#fr|Laos]] (pays d’Asie).
+
+== {{langue|ms}} ==
+=== {{S|nom propre|ms}} ===
+'''Laos''' {{pron||ms}}
+# {{pays|ms|d’Asie}} [[#fr|Laos]] (pays d’Asie).
+
+== {{langue|nap}} ==
+=== {{S|nom propre|nap}} ===
+'''Laos''' {{pron||nap}}
+# {{pays|nap}} [[#fr|Laos]] (pays d’Asie).
+
+== {{langue|nl}} ==
+=== {{S|nom propre|nl}} ===
+'''Laos''' {{pron||nl}}
+# {{pays|nl|d’Asie}} [[#fr|Laos]] (pays d’Asie).
+
+=== {{S|prononciation}} ===
+* {{écouter|||lang=nl|audio=Nl-Laos.ogg}}
+
+== {{langue|no}} ==
+=== {{S|nom propre|no}} ===
+'''Laos''' {{pron||no}}
+# {{pays|no|d’Asie}} [[#fr|Laos]] (pays d’Asie).
+
+== {{langue|nn}} ==
+=== {{S|nom propre|nn}} ===
+'''Laos''' {{pron||nn}}
+# {{pays|nn|d’Asie}} [[#fr|Laos]] (pays d’Asie).
+
+== {{langue|nov}} ==
+=== {{S|nom propre|nov}} ===
+'''Laos''' {{pron||nov}}
+# {{pays|nov}} [[#fr|Laos]] (pays d’Asie).
+
+== {{langue|pl}} ==
+=== {{S|nom propre|pl}} ===
+'''Laos''' {{pron||pl}}
+# {{pays|pl|d’Asie}} [[#fr|Laos]] (pays d’Asie).
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=pl||audio=Pl-Laos.ogg}}
+
+== {{langue|pt}} ==
+=== {{S|nom propre|pt}} ===
+'''Laos''' {{pron||pt}}
+# {{pays|pt|d’Asie}} [[#fr|Laos]] (pays d’Asie).
+
+== {{langue|ro}} ==
+=== {{S|nom propre|ro}} ===
+'''Laos''' {{pron||ro}}
+# {{pays|ro|d’Asie}} [[#fr|Laos]] (pays d’Asie).
+
+=== {{S|prononciation}} ===
+* {{écouter|Iași (Roumanie)||lang=ro|audio=LL-Q7913 (ron)-KlaudiuMihaila-Laos.wav}}
+
+== {{langue|se}} ==
+=== {{S|nom propre|se}} ===
+'''Laos''' {{phono||se}}
+# {{pays|se|d’Asie}} [[#fr|Laos]] (pays d’Asie).
+
+== {{langue|sh}} ==
+=== {{S|nom propre|sh}} ===
+'''Laos''' {{pron||sh}}
+# {{pays|sh|d’Asie}} [[#fr|Laos]] (pays d’Asie).
+
+== {{langue|scn}} ==
+=== {{S|nom propre|scn}} ===
+'''Laos''' {{pron||scn}}
+# {{pays|scn|d’Asie}} [[#fr|Laos]] (pays d’Asie).
+
+=== {{S|prononciation}} ===
+* {{écouter|Gela (Italie)||lang=scn|audio=LL-Q33973 (scn)-XANA000-Laos.wav}}
+
+== {{langue|szl}} ==
+=== {{S|nom propre|szl}} ===
+'''Laos''' {{pron||szl}}
+# {{pays|szl}} [[#fr|Laos]] (pays d’Asie).
+
+== {{langue|sk}} ==
+=== {{S|nom propre|sk}} ===
+'''Laos''' {{pron||sk}}
+# {{pays|sk|d’Asie}} [[#fr|Laos]] (pays d’Asie).
+
+== {{langue|sl}} ==
+=== {{S|nom propre|sl}} ===
+{{sl-décl-nmd|Laos|pdp=oui}}
+'''Laos''' {{pron||sl}} {{m|i}} {{s}}
+# {{pays|sl|d’Asie}} [[#fr|Laos]] (pays d’[[Asie]]).
+
+== {{langue|su}} ==
+=== {{S|nom propre|su}} ===
+'''Laos''' {{pron||su}}
+# {{pays|su}} [[#fr|Laos]] (pays d’Asie).
+
+== {{langue|sv}} ==
+=== {{S|nom propre|sv}} ===
+'''Laos''' {{pron||sv}}
+# {{pays|sv|d’Asie}} [[#fr|Laos]] (pays d’Asie).
+
+=== {{S|prononciation}} ===
+* {{écouter|Suède||lang=sv|audio=LL-Q9027 (swe)-Moonhouse-Laos.wav}}
+
+== {{langue|sw}} ==
+=== {{S|nom propre|sw}} ===
+'''Laos''' {{pron||sw}}
+# {{pays|sw|d’Asie}} [[#fr|Laos]] (pays d’Asie).
+
+== {{langue|tl}} ==
+=== {{S|nom propre|tl}} ===
+'''Laos''' {{pron||tl}}
+# {{pays|tl|d’Asie}} [[#fr|Laos]] (pays d’Asie).
+
+== {{langue|crh}} ==
+=== {{S|nom propre|crh}} ===
+'''Laos''' {{pron||crh}}
+# {{pays|crh}} [[#fr|Laos]] (pays d’Asie).
+
+== {{langue|cs}} ==
+=== {{S|nom propre|cs}} ===
+'''Laos''' {{pron||cs}}
+# {{pays|cs|d’Asie}} [[#fr|Laos]] (pays d’Asie).
+
+== {{langue|tr}} ==
+=== {{S|nom propre|tr}} ===
+'''Laos''' {{pron||tr}}
+# {{pays|tr|d’Asie}} [[#fr|Laos]] (pays d’Asie).
+
+=== {{S|prononciation}} ===
+* {{écouter|Izmir (Turquie)||lang=tr|audio=LL-Q256 (tur)-ToprakM-Laos.wav}}
+
+== {{langue|tk}} ==
+=== {{S|nom propre|tk}} ===
+'''Laos''' {{pron||tk}}
+# {{pays|tk}} [[#fr|Laos]] (pays d’Asie).
+
+== {{langue|war}} ==
+=== {{S|nom propre|war}} ===
+'''Laos''' {{pron||war}}
+# {{pays|war}} [[#fr|Laos]] (pays d’Asie).

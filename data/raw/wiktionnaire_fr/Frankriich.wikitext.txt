@@ -1,0 +1,8 @@
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw}}
+
+=== {{S|nom propre|gsw}} ===
+'''Frankriich'''
+# [[France]] (pays d’Europe).
+[[Catégorie:Pays en alémanique]]

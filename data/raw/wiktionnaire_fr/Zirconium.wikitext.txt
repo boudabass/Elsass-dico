@@ -1,0 +1,42 @@
+{{voir|zirconium}}
+
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw}}
+
+=== {{S|nom|gsw}} ===
+'''Zirconium''' {{pron||gsw}} {{genre|gsw}}
+# {{éléments|gsw}} {{métaux|gsw}} [[zirconium#fr|Zirconium]].
+{{clr}}
+==== {{S|vocabulaire}} ====
+{{tableau périodique/gsw}}
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|de}}
+
+=== {{S|nom|de}} ===
+{{légende élément/de|Zr|Cb}}
+[[Image:Zirconium_crystal_bar_and_1cm3_cube.jpg|thumb|'''Zirconium'''.]]
+'''Zirconium''' {{pron|t͡sɪʁˈkoːnɪ̯ʊm|de}} {{n}} ({{p}}: '''—''' )
+# {{éléments|de}} {{métaux|de}} [[zirconium#fr|Zirconium]] (l’{{lien|élément chimique}} [[Zr#conv|Zr]]).
+
+==== {{S|variantes}} ====
+* {{lien|Zirkonium|de}}
+
+==== {{S|dérivés}} ====
+* {{lien|Zirkonoxid|de}}
+* {{lien|Zirkoniumverbindung|de}}
+{{clr}}
+==== {{S|vocabulaire}} ====
+* {{voir thésaurus|de|tableau périodique des éléments}}
+{{tableau périodique/de}}
+{{Liste|avant={{lien|Yttrium|de}}<br>([[Y#conv|Y]])|après={{lien|Niob|de}} ou {{lien|Columbium|de}} {{désuet|nocat=1}}<br>([[Nb#conv|Nb]])|liste=[[Thésaurus:tableau périodique des éléments/allemand|Éléments chimiques en allemand]]}}
+
+=== {{S|prononciation}} ===
+* {{pron|t͡sɪʁˈkoːnɪ̯ʊm|de}}
+* {{écouter|lang=de|Allemagne (Berlin)|audio=LL-Q188 (deu)-Lucas Werkmeister-Zirconium.wav}}
+* {{écouter|lang=de|Allemagne (Berlin)|audio=LL-Q188 (deu)-Sebastian Wallroth-Zirconium.wav}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=de}}

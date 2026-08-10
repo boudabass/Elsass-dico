@@ -1,0 +1,528 @@
+{{voir/guinea}}
+
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw}}
+
+=== {{S|nom propre|gsw}} ===
+'''Guinea''' {{pron||gsw}}
+# [[Guinée#fr|Guinée]] (pays d’[[Afrique]]).
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=gsw}}
+[[Catégorie:Pays en alémanique]]
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|de}}
+
+=== {{S|nom propre|de}} ===
+{{de-nom-propre|genre=n|gs=Guinea|gs2=Guineas}}
+'''Guinea''' {{pron|ɡiˈneːa|de}}, {{pron|ˈɡɪnɪ|de}}, {{pron|ˈɡɪni|de}}
+# [[Guinée#fr|Guinée]] (pays d’[[Afrique]]).
+#* {{exemple|Wir unterhielten uns über das schallende »Nein«, mit dem '''Guinea''' gerade per Volksentscheid den Vorschlag de Gaulles abgeschmettert hatte, die Länder Französisch-Westafrikas als autonome Republiken innerhalb der »Communauté française« zu versammeln.|lang=de|sens=Nous commentions le retentissant « non » que la Guinée Conakry venait de répondre par référendum à la proposition de De Gaulle de rassembler les pays de l’AOF dans une communauté française.|source={{ouvrage|auteur={{w|Mohamed Mbougar Sarr}}|trad=Holger Fock et Sabine Müller|titre=Die geheimste Erinnerung der Menschen|année=2022|éditeur=Carl Hanser Verlag|lieu=München|url=}}}}
+
+==== {{S|synonymes}} ====
+* {{lien|Republik Guinea|de}}
+* {{lien|Revolutionäre Volksrepublik Guinea|de}}
+
+==== {{S|hyperonymes}} ====
+* {{lien|Staat|de}}
+
+==== {{S|dérivés}} ====
+{{(|}}
+* {{lien|Äquatorialguinea|de}}
+* {{lien|Guinea-Bissau|de}}
+* {{lien|Guineer|de}}
+* {{lien|Guineerin|de}}
+* {{lien|guineisch|de}}
+* {{lien|Neuguinea|de}}
+{{)}}
+
+=== {{S|prononciation}} ===
+* {{écouter|Berlin (Allemagne)|ɡiˈneːa|lang=de|audio=De-Guinea2.ogg}}
+* {{écouter|Berlin (Allemagne)|ɡiˈneːa|lang=de|audio=De-Guinea.ogg}}
+
+=== {{S|références}} ===
+* {{R:DWDS|Guinea}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=de}}
+
+[[Catégorie:Pays d’Afrique en allemand]]
+
+== {{langue|en}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|en}}
+
+=== {{S|nom propre|en}} ===
+'''Guinea''' {{pron|ˈɡɪn.i|en}}
+# {{pays|en|d’Afrique}} [[Guinée#fr|Guinée]] (pays d’[[Afrique]]).
+# {{péjoratif|en}} {{argot|en}} {{États-Unis|en}} Personne d’origine [[italienne]].
+
+==== {{S|dérivés}} ====
+* {{lien|Equatorial Guinea|en}}
+* {{lien|French Guinea|en}}
+* {{lien|guinea|en}}
+* {{lien|Guinea-Bissau|en}}
+* {{lien|guineafowl|en}}
+* {{lien|guinea pig|en}}
+* {{lien|Guinean|en}}
+* {{lien|Guinean franc|en}}
+* {{lien|New Guinea|en}}
+* {{lien|Portuguese Guinea|en}}
+* {{lien|Spanish Guinea|en}}
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=en|{{US|nocat=1}}|audio=En-us-Guinea.ogg}}
+* {{écouter|Londres (Royaume-Uni)||lang=en|audio=LL-Q1860 (eng)-Soundguys-Guinea.wav}}
+
+=== {{S|références}} ===
+* {{R:Newman2014|p=120}}
+
+== {{langue|an}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|an}}
+
+=== {{S|nom propre|an}} ===
+'''Guinea''' {{pron||an}}
+# [[Guinée#fr|Guinée]] (pays d’[[Afrique]]).
+[[Catégorie:Pays en aragonais]]
+
+== {{langue|ast}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|ast}}
+
+=== {{S|nom propre|ast}} ===
+'''Guinea''' {{pron||ast}}
+# [[Guinée#fr|Guinée]] (pays d’[[Afrique]]).
+
+=== {{S|prononciation}} ===
+* {{écouter|Uviéu (Espagne)||lang=ast|audio=LL-Q29507 (ast)-Limotecariu-Guinea.wav}}
+[[Catégorie:Pays en asturien]]
+
+== {{langue|nds}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|nds}}
+
+=== {{S|nom propre|nds}} ===
+'''Guinea''' {{pron||nds}}
+# [[Guinée#fr|Guinée]] (pays d’[[Afrique]]).
+
+[[Catégorie:Pays d’Afrique en bas allemand]]
+
+== {{langue|ca}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|ca}}
+
+=== {{S|nom propre|ca}} ===
+'''Guinea''' {{pron||ca}}
+# [[Guinée#fr|Guinée]] (pays d’[[Afrique]]).
+[[Catégorie:Pays d’Afrique en catalan]]
+
+== {{langue|ceb}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|ceb}}
+
+=== {{S|nom propre|ceb}} ===
+'''Guinea''' {{pron||ceb}}
+# [[Guinée#fr|Guinée]] (pays d’[[Afrique]]).
+[[Catégorie:Pays en cebuano]]
+
+== {{langue|da}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|da}}
+
+=== {{S|nom propre|da}} ===
+'''Guinea''' {{pron||da}}
+# [[Guinée#fr|Guinée]] (pays d’[[Afrique]]).
+[[Catégorie:Pays d’Afrique en danois]]
+
+== {{langue|es}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|es}}
+
+=== {{S|nom propre|es}} ===
+'''Guinea''' {{pron||es}}
+# [[Guinée#fr|Guinée]] (pays d’[[Afrique]]).
+
+=== {{S|prononciation}} ===
+* {{écouter|Espagne||lang=es|audio=LL-Q1321 (spa)-Rodelar-Guinea.wav}}
+* {{écouter|||niveau=bon|lang=es|audio=LL-Q1321 (spa)-Mentxuwiki-Guinea.wav}}
+[[Catégorie:Pays d’Afrique en espagnol]]
+
+== {{langue|et}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|et}}
+
+=== {{S|nom propre|et}} ===
+'''Guinea''' {{pron||et}}
+# [[Guinée#fr|Guinée]] (pays d’[[Afrique]]).
+[[Catégorie:Pays d’Afrique en estonien]]
+
+== {{langue|fi}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|fi}}
+
+=== {{S|nom propre|fi}} ===
+'''Guinea''' {{pron|ˈɡineɑ|fi}}
+# [[Guinée#fr|Guinée]] (pays d’[[Afrique]]).
+#* {{exemple|lang=fi}}
+
+==== {{S|dérivés}} ====
+* {{lien|guinealainen|fi}} — Guinéen, Guinéenne
+* {{lien|guineanlepinkäinen|fi}} — gonolek de Barbarie
+
+[[Catégorie:Pays d’Afrique en finnois]]
+
+== {{langue|stq}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|stq}}
+
+=== {{S|nom propre|stq}} ===
+'''Guinea''' {{pron||stq}}
+# [[Guinée#fr|Guinée]] (pays d’[[Afrique]]).
+[[Catégorie:Pays en frison saterlandais]]
+
+== {{langue|gl}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gl}}
+
+=== {{S|nom propre|gl}} ===
+'''Guinea''' {{pron||gl}}
+# [[Guinée#fr|Guinée]] (pays d’[[Afrique]]).
+[[Catégorie:Pays d’Afrique en galicien]]
+
+== {{langue|hu}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|hu}}
+
+=== {{S|nom propre|hu}} ===
+'''Guinea''' {{pron||hu}}
+# [[Guinée#fr|Guinée]] (pays d’[[Afrique]]).
+[[Catégorie:Pays d’Afrique en hongrois]]
+
+== {{langue|io}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|io}}
+
+=== {{S|nom propre|io}} ===
+'''Guinea''' {{pron||io}}
+# [[Guinée#fr|Guinée]] (pays d’[[Afrique]]).
+[[Catégorie:Pays en ido]]
+
+== {{langue|id}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|id}}
+
+=== {{S|nom propre|id}} ===
+'''Guinea''' {{pron||id}}
+# [[Guinée#fr|Guinée]] (pays d’[[Afrique]]).
+#* {{exemple|lang=id}}
+[[Catégorie:Pays d’Afrique en indonésien]]
+
+== {{langue|ia}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|ia}}
+
+=== {{S|nom propre|ia}} ===
+'''Guinea''' {{pron||ia}}
+# [[Guinée#fr|Guinée]] (pays d’[[Afrique]]).
+[[Catégorie:Pays en interlingua]]
+
+== {{langue|ie}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|ie}}
+
+=== {{S|nom propre|ie}} ===
+'''Guinea''' {{pron||ie}}
+# [[Guinée#fr|Guinée]] (pays d’[[Afrique]]).
+[[Catégorie:Pays en interlingue]]
+
+== {{langue|it}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|it}}
+
+=== {{S|nom propre|it}} ===
+{{it-inv|ɡwiˈ.nɛ:.a}}
+'''Guinea''' {{pron|ɡwiˈ.nɛ:.a|it}} {{f}}
+# [[Guinée#fr|Guinée]] (pays d’[[Afrique]]).
+
+==== {{S|gentilés}} ====
+* [[guineano#it|guineano]], [[guineana#it|guineana]]
+
+==== {{S|dérivés}} ====
+* [[Guinea-Bissau#it|Guinea-Bissau]]
+* [[Guinea Equatoriale#it|Guinea Equatoriale]]
+* [[Papua Nuova Guinea#it|Papua Nuova Guinea]]
+
+=== {{S|anagrammes}} ===
+{{voir anagrammes|it}}
+
+=== {{S|voir aussi}} ===
+*{{WP|lang=it}}
+*[[Annexe:Pays et leurs gentilés en italien]]
+
+[[Catégorie:Pays d’Afrique en italien]]
+
+== {{langue|jv}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|jv}}
+
+=== {{S|nom propre|jv}} ===
+'''Guinea''' {{pron||jv}}
+# [[Guinée#fr|Guinée]] (pays d’[[Afrique]]).
+[[Catégorie:Pays en javanais]]
+
+== {{langue|pam}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|pam}}
+
+=== {{S|nom propre|pam}} ===
+'''Guinea''' {{pron||pam}}
+# [[Guinée#fr|Guinée]] (pays d’[[Afrique]]).
+[[Catégorie:Pays en kapampangan]]
+
+== {{langue|avk}} ==
+=== {{S|étymologie}} ===
+: Du {{étylp|fr|avk|Guinée}}.
+
+=== {{S|nom propre|avk}} ===
+'''Guinea''' {{pron|guiˈnɛa|guiˈnea|avk}}
+# {{pays|avk|d’Afrique}} [[Guinée]].
+#* {{exemple|lang=avk}}
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=avk|France|guiˈnɛa|audio=guinea.wav}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=avk}}
+
+=== {{S|références}} ===
+* {{R:avk-continents-pays}}
+
+== {{langue|la}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|la}}
+
+=== {{S|nom propre|la}} ===
+'''Guinea''' {{pron||la}}
+# [[Guinée#fr|Guinée]] (pays d’[[Afrique]]).
+
+==== {{S|dérivés}} ====
+* [[Nova Guinea]]
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=la}}
+
+[[Catégorie:Pays d’Afrique en latin]]
+
+== {{langue|lij}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|lij}}
+
+=== {{S|nom propre|lij}} ===
+'''Guinea''' {{pron||lij}}
+# [[Guinée#fr|Guinée]] (pays d’[[Afrique]]).
+[[Catégorie:Pays en ligure]]
+
+== {{langue|lmo}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|lmo}}
+
+=== {{S|nom propre|lmo}} ===
+'''Guinea''' {{pron||lmo}}
+# [[Guinée#fr|Guinée]] (pays d’[[Afrique]]).
+[[Catégorie:Pays en lombard]]
+
+== {{langue|lb}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|lb}}
+
+=== {{S|nom propre|lb}} ===
+{{lb-inv|ɡinˈeːaː|inv_titre=Nom propre}}
+'''Guinea''' {{pron|ɡinˈeːaː|lb}} {{n}}
+# {{pays|lb|d’Afrique|pays=Guinée|clé=*}} {{lien|Guinée|fr}}.
+#* {{exemple|lang=lb}}
+
+==== {{S|gentilés}} ====
+* {{lien|Guineeër|lb|sens=Guinéen}}, {{lien|Guineeërin|lb|sens=Guinéenne}}
+* {{lien|guineeësch|lb|sens=guinéen, guinéenne}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=lb}}
+
+=== {{S|références}} ===
+: {{R:LOD}}
+
+== {{langue|ms}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|ms}}
+
+=== {{S|nom propre|ms}} ===
+'''Guinea''' {{pron||ms}}
+# [[Guinée#fr|Guinée]] (pays d’[[Afrique]]).
+[[Catégorie:Pays d’Afrique en malais]]
+
+== {{langue|gv}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|en|gv|Guinea}}.
+
+=== {{S|nom propre|gv}} ===
+'''Guinea''' {{pron||gv}}
+# {{pays|gv}} [[Guinée#fr|Guinée]].
+#* {{exemple | lang=gv | Yn '''Ghuinea'''.}}
+#* {{exemple | lang=gv | Pobblaght ny '''Guinea'''.}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=gv|Yn Ghuinea}}
+
+== {{langue|na}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|na}}
+
+=== {{S|nom propre|na}} ===
+'''Guinea''' {{pron||na}}
+# [[Guinée#fr|Guinée]] (pays d’[[Afrique]]).
+[[Catégorie:Pays en nauruan]]
+
+== {{langue|no}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|no}}
+
+=== {{S|nom propre|no}} ===
+'''Guinea''' {{pron||no}}
+# [[Guinée#fr|Guinée]] (pays d’[[Afrique]]).
+[[Catégorie:Pays d’Afrique en norvégien]]
+
+== {{langue|nn}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|nn}}
+
+=== {{S|nom propre|nn}} ===
+'''Guinea''' {{pron||nn}}
+# [[Guinée#fr|Guinée]] (pays d’[[Afrique]]).
+[[Catégorie:Pays d’Afrique en norvégien (nynorsk)]]
+
+== {{langue|pms}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|pms}}
+
+=== {{S|nom propre|pms}} ===
+'''Guinea''' {{pron||pms}}
+# [[Guinée#fr|Guinée]] (pays d’[[Afrique]]).
+[[Catégorie:Pays en piémontais]]
+
+== {{langue|se}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|se}}
+
+=== {{S|nom propre|se}} ===
+{{se-décl-sing|accgén=Guinea|ill=Guineai|locsép=Guineas|com=Guineain|ess=}}
+'''Guinea''' {{phono|ˈɡujneæ̯|se}}
+# {{lien|Guinée|fr}} (pays d’{{lien|Afrique|fr}}).
+#* {{exemple|'''Guinea'''; '''Guinea''' dásseváldi|source=[http://assets.ctfassets.net/kkxfrpcp7iyu/74Xa6Pgchm9ytqEHXE15eU/8fea07369f945aa42c93b54c0711e96d/Beavdegirji_01.12.2014_godkjent_protokoll_uten_underskifter.pdf ''assets.ctfassets.net'']
+|Guinée ; République de Guinée|lang=se}}
+
+==== {{S|dérivés}} ====
+* {{lien|Guinea-Bissau|se}} — Guinée-Bissau
+* {{lien|Ny Guinea|se}} — Nouvelle Guinée
+
+=== {{S|nom propre|se|flexion}} ===
+'''Guinea''' {{phono|ˈɡujneæ̯|se}}
+# ''Génitif singulier de'' {{lien|Guinea|se}}.
+# ''Accusatif singulier de ''{{lien|Guinea|se}}.
+
+[[Catégorie:Pays en same du Nord]]
+
+== {{langue|sm}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|sm}}
+
+=== {{S|nom propre|sm}} ===
+'''Guinea''' {{pron||sm}}
+# [[Guinée#fr|Guinée]] (pays d’[[Afrique]]).
+[[Catégorie:Pays en samoan]]
+
+== {{langue|sc}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|sc}}
+
+=== {{S|nom propre|sc}} ===
+'''Guinea''' {{pron||sc}}
+# [[Guinée#fr|Guinée]] (pays d’[[Afrique]]).
+[[Catégorie:Pays en sarde]]
+
+== {{langue|sk}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|sk}}
+
+=== {{S|nom propre|sk}} ===
+'''Guinea''' {{pron||sk}}
+# [[Guinée#fr|Guinée]] (pays d’[[Afrique]]).
+[[Catégorie:Pays d’Afrique en slovaque]]
+
+== {{langue|sv}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|sv}}
+
+=== {{S|nom propre|sv}} ===
+'''Guinea''' {{pron||sv}}
+# [[Guinée#fr|Guinée]] (pays d’[[Afrique]]).
+
+=== {{S|prononciation}} ===
+* {{écouter|Suède||lang=sv|audio=LL-Q9027 (swe)-Moonhouse-Guinea.wav}}
+[[Catégorie:Pays d’Afrique en suédois]]
+
+== {{langue|sw}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|sw}}
+
+=== {{S|nom propre|sw}} ===
+'''Guinea''' {{pron||sw}}
+# [[Guinée#fr|Guinée]] (pays d’[[Afrique]]).
+[[Catégorie:Pays en swahili]]
+
+== {{langue|tl}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|tl}}
+
+=== {{S|nom propre|tl}} ===
+'''Guinea''' {{pron||tl}}
+# [[Guinée#fr|Guinée]] (pays d’[[Afrique]]).
+[[Catégorie:Pays en tagalog]]
+
+== {{langue|cs}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|cs|mot=Guinea}}.
+
+=== {{S|nom propre|cs}} ===
+{{cs-décl-nom-autre|rad=Guine|sing=oui| ns = a|gs = je|ds = ji| as = u|vs = o| ls = ji|is =ou}}
+'''Guinea''' {{pron||cs}} {{f}}
+# [[Guinée#fr|Guinée]].
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=cs||audio=Cs-Guinea.ogg}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=cs}}
+
+[[Catégorie:Pays d’Afrique en tchèque]]
+
+== {{langue|vec}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|vec}}
+
+=== {{S|nom propre|vec}} ===
+'''Guinea''' {{pron||vec}}
+# [[Guinée#fr|Guinée]] (pays d’[[Afrique]]).
+[[Catégorie:Pays en vénitien]]
+
+== {{langue|yo}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|yo}}
+
+=== {{S|nom propre|yo}} ===
+'''Guinea''' {{pron||yo}}
+# [[Guinée#fr|Guinée]] (pays d’[[Afrique]]).
+[[Catégorie:Pays en yoruba]]

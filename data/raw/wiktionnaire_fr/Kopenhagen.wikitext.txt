@@ -1,0 +1,338 @@
+{{voir|Kopénhagén}}
+
+== {{langue|ace}} ==
+=== {{S|étymologie}} ===
+: Calque du {{calque|nl|ace|Kopenhagen}}.
+
+=== {{S|nom propre|ace}} ===
+'''Kopenhagen''' {{pron||ace}}
+# {{capitales|ace|pays=du Danemark}} [[Copenhague#fr|Copenhague]].
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=ace}}
+
+== {{langue|af}} ==
+=== {{S|étymologie}} ===
+: Calque du {{calque|nl|af|Kopenhagen}}.
+
+=== {{S|nom propre|af}} ===
+'''Kopenhagen''' {{pron||af}}
+# {{capitales|af|pays=du Danemark}} [[Copenhague#fr|Copenhague]].
+#* {{exemple|lang=af}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=af}}
+
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: Calque de l’{{calque|de|gsw|Kopenhagen}}.
+
+=== {{S|nom propre|gsw}} ===
+'''Kopenhagen''' {{pron||gsw}}
+# {{capitales|gsw|pays=du Danemark}} [[Copenhague#fr|Copenhague]].
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=gsw}}
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: Du {{étylp|da|de|København}}.
+
+=== {{S|nom propre|de}} ===
+'''Kopenhagen''' {{pron|ˌkopm̩ˈhaːɡŋ̍|de}}
+# {{capitales|de|pays=du Danemark}} [[Copenhague#fr|Copenhague]].
+
+=== {{S|prononciation}} ===
+* {{écouter|||lang=de|audio=De-Kopenhagen.ogg}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=de}}
+* {{VOY|lang=de}}
+
+[[Catégorie:Toponymes dont l’origine est une activité économique en allemand]]
+[[Catégorie:Toponymes dont l’origine est une construction en allemand]]
+[[Catégorie:Toponymes dont l’origine est maritime en allemand]]
+
+== {{langue|az}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|de|az|Kopenhagen}}.
+
+=== {{S|nom propre|az}} ===
+{{az-décl-nom|e|c}}
+'''Kopenhagen''' {{pron||az}} {{az-forme possessive}}
+# {{capitales|az|pays=du Danemark}} [[Copenhague#fr|Copenhague]].
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=az}}
+
+== {{langue|nds}} ==
+=== {{S|étymologie}} ===
+: Calque de l’{{calque|de|nds|Kopenhagen}}.
+
+=== {{S|nom propre|nds}} ===
+'''Kopenhagen''' {{pron||nds}}
+# {{capitales|nds|pays=du Danemark}} [[Copenhague#fr|Copenhague]].
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=nds}}
+
+== {{langue|dsb}} ==
+=== {{S|étymologie}} ===
+: Calque de l’{{calque|de|dsb|Kopenhagen}}.
+
+=== {{S|nom propre|dsb}} ===
+'''Kopenhagen''' {{pron||dsb}}
+# {{capitales|dsb|pays=du Danemark}} [[Copenhague#fr|Copenhague]].
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=dsb}}
+
+== {{langue|br}} ==
+=== {{S|étymologie}} ===
+: Calque de l’{{calque|de|br|Kopenhagen}}.
+
+=== {{S|nom propre|br}} ===
+{{br-forme-mut|Kopenhagen|forme=Nom propre}}
+'''Kopenhagen''' {{pron||br}} {{f}}
+# {{capitales|br|pays=du Danemark}} [[Copenhague#fr|Copenhague]] ([[capitale#Nom commun|capitale]] du [[Danemark#Nom propre|Danemark]]).
+#* {{exemple | lang=br
+ | Degemeret e voemp e '''Kopenhagen''' a galon frank hag evel breudeur.
+ | Nous fûmes accueillis à Copenhague de bon cœur et comme des frères.
+ | source={{Citation/Jarl Priel/Va zammig buhez/1954|156}}}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=br}}
+
+=== {{S|références}} ===
+* {{R:Ménard|p=1461b}}
+
+== {{langue|bs}} ==
+=== {{S|étymologie}} ===
+: Calque de l’{{calque|de|bs|Kopenhagen}}.
+
+=== {{S|nom propre|bs}} ===
+'''Kopenhagen''' {{pron||bs}}
+# {{capitales|bs|pays=du Danemark}} [[Copenhague#fr|Copenhague]].
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=bs}}
+
+[[Catégorie:Toponymes dont l’origine est une activité économique en bosniaque]]
+[[Catégorie:Toponymes dont l’origine est une construction en bosniaque]]
+[[Catégorie:Toponymes dont l’origine est maritime en bosniaque]]
+
+== {{langue|hr}} ==
+=== {{S|étymologie}} ===
+: Calque de l’{{calque|de|hr|Kopenhagen}}.
+
+=== {{S|nom propre|hr}} ===
+'''Kopenhagen''' {{pron||hr}}
+# {{capitales|hr|pays=du Danemark}} [[Copenhague#fr|Copenhague]].
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=hr}}
+
+[[Catégorie:Toponymes dont l’origine est une activité économique en croate]]
+[[Catégorie:Toponymes dont l’origine est une construction en croate]]
+[[Catégorie:Toponymes dont l’origine est maritime en croate]]
+
+== {{langue|vls}} ==
+=== {{S|étymologie}} ===
+: Calque de l’{{calque|de|vls|Kopenhagen}}.
+
+=== {{S|nom propre|vls}} ===
+'''Kopenhagen''' {{pron||vls}}
+# {{capitales|vls|pays=du Danemark}} [[Copenhague#fr|Copenhague]].
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=vls}}
+
+== {{langue|fy}} ==
+=== {{S|étymologie}} ===
+: Calque de l’{{calque|de|fy|Kopenhagen}}.
+
+=== {{S|nom propre|fy}} ===
+'''Kopenhagen''' {{pron||fy}}
+# {{capitales|fy|pays=du Danemark}} [[Copenhague#fr|Copenhague]].
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=fy}}
+
+== {{langue|stq}} ==
+=== {{S|étymologie}} ===
+: Calque de l’{{calque|de|stq|Kopenhagen}}.
+
+=== {{S|nom propre|stq}} ===
+'''Kopenhagen''' {{pron||stq}}
+# {{capitales|stq|pays=du Danemark}} [[Copenhague#fr|Copenhague]].
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=stq}}
+
+== {{langue|gag}} ==
+=== {{S|étymologie}} ===
+: Calque de l’{{calque|de|gag|Kopenhagen}}.
+
+=== {{S|nom propre|gag}} ===
+'''Kopenhagen''' {{pron||gag}}
+# {{capitales|gag|pays=du Danemark}} [[Copenhague#fr|Copenhague]].
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=gag}}
+
+== {{langue|hsb}} ==
+=== {{S|étymologie}} ===
+: Calque de l’{{calque|de|hsb|Kopenhagen}}.
+
+=== {{S|nom propre|hsb}} ===
+'''Kopenhagen''' {{pron||hsb}}
+# {{capitales|hsb|pays=du Danemark}} [[Copenhague#fr|Copenhague]].
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=hsb}}
+
+== {{langue|id}} ==
+=== {{S|étymologie}} ===
+: Calque du {{calque|nl|id|Kopenhagen}}.
+
+=== {{S|nom propre|id}} ===
+'''Kopenhagen''' {{pron||id}}
+# {{capitales|id|pays=du Danemark}} [[Copenhague#fr|Copenhague]].
+#* {{exemple|lang=id}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=id}}
+
+[[Catégorie:Toponymes dont l’origine est une activité économique en indonésien]]
+[[Catégorie:Toponymes dont l’origine est une construction en indonésien]]
+[[Catégorie:Toponymes dont l’origine est maritime en indonésien]]
+
+== {{langue|jv}} ==
+=== {{S|étymologie}} ===
+: Calque du {{calque|nl|jv|Kopenhagen}}.
+
+=== {{S|nom propre|jv}} ===
+'''Kopenhagen''' {{pron||jv}}
+# {{capitales|jv|pays=du Danemark}} [[Copenhague#fr|Copenhague]].
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=jv}}
+
+== {{langue|kab}} ==
+=== {{S|étymologie}} ===
+: Calque de l’{{calque|de|kab|Kopenhagen}}.
+
+=== {{S|nom propre|kab}} ===
+'''Kopenhagen''' {{pron||kab}}
+# {{capitales|kab|pays=du Danemark}} [[Copenhague#fr|Copenhague]].
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=kab}}
+
+== {{langue|lb}} ==
+=== {{S|étymologie}} ===
+: Calque de l’{{calque|de|lb|Kopenhagen}}.
+
+=== {{S|nom propre|lb}} ===
+'''Kopenhagen''' {{pron||lb}}
+# {{capitales|lb|pays=du Danemark}} [[Copenhague#fr|Copenhague]].
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=lb}}
+
+== {{langue|ms}} ==
+=== {{S|étymologie}} ===
+: Calque du {{calque|nl|ms|Kopenhagen}}.
+
+=== {{S|nom propre|ms}} ===
+'''Kopenhagen''' {{pron||ms}}
+# {{capitales|ms|pays=du Danemark}} [[Copenhague#fr|Copenhague]].
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=ms}}
+
+[[Catégorie:Toponymes dont l’origine est une activité économique en malais]]
+[[Catégorie:Toponymes dont l’origine est une construction en malais]]
+[[Catégorie:Toponymes dont l’origine est maritime en malais]]
+
+== {{langue|nl}} ==
+=== {{S|étymologie}} ===
+: Calque de l’{{calque|de|nl|Kopenhagen}}.
+
+=== {{S|nom propre|nl}} ===
+'''Kopenhagen''' {{pron||nl}}
+# {{capitales|nl|pays=du Danemark}} [[Copenhague#fr|Copenhague]].
+
+=== {{S|prononciation}} ===
+* {{écouter|||lang=nl|audio=Nl-Kopenhagen.ogg}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=nl}}
+* {{VOY|lang=nl}}
+
+[[Catégorie:Toponymes dont l’origine est une activité économique en néerlandais]]
+[[Catégorie:Toponymes dont l’origine est une construction en néerlandais]]
+[[Catégorie:Toponymes dont l’origine est maritime en néerlandais]]
+
+== {{langue|pap}} ==
+=== {{S|étymologie}} ===
+: Calque du {{calque|nl|pap|Kopenhagen}}.
+
+=== {{S|nom propre|pap}} ===
+'''Kopenhagen''' {{pron||pap}}
+# {{capitales|pap|pays=du Danemark}} [[Copenhague#fr|Copenhague]].
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=pap}}
+
+== {{langue|sh}} ==
+=== {{S|étymologie}} ===
+: Calque de l'{{calque|de|sh|Kopenhagen}}.
+
+=== {{S|nom propre|sh}} ===
+'''Kopenhagen''' {{pron||sh}}
+# {{capitales|sh|pays=du Danemark}} [[Copenhague#fr|Copenhague]].
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=sh}}
+
+[[Catégorie:Toponymes dont l’origine est une activité économique en serbo-croate]]
+[[Catégorie:Toponymes dont l’origine est une construction en serbo-croate]]
+[[Catégorie:Toponymes dont l’origine est maritime en serbo-croate]]
+
+== {{langue|sl}} ==
+=== {{S|étymologie}} ===
+: Calque de l’{{calque|de|sl|Kopenhagen}}.
+
+=== {{S|nom propre|sl}} ===
+'''Kopenhagen''' {{pron||sl}}
+# {{capitales|sl|pays=du Danemark}} [[Copenhague#fr|Copenhague]].
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=sl}}
+
+[[Catégorie:Toponymes dont l’origine est une activité économique en slovène]]
+[[Catégorie:Toponymes dont l’origine est une construction en slovène]]
+[[Catégorie:Toponymes dont l’origine est maritime en slovène]]
+
+== {{langue|sw}} ==
+=== {{S|étymologie}} ===
+: Calque de l’{{calque|de|sw|Kopenhagen}}.
+
+=== {{S|nom propre|sw}} ===
+'''Kopenhagen''' {{pron||sw}}
+# {{capitales|sw|pays=du Danemark}} [[Copenhague#fr|Copenhague]].
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=sw}}
+
+== {{langue|vep}} ==
+=== {{S|étymologie}} ===
+: Calque de l’{{calque|de|vep|Kopenhagen}}.
+
+=== {{S|nom propre|vep}} ===
+'''Kopenhagen''' {{pron||vep}}
+# {{capitales|vep|pays=du Danemark}} [[Copenhague#fr|Copenhague]].
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=vep}}

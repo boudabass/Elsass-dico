@@ -1,0 +1,103 @@
+{{voir/chrom}}
+
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw}}
+
+=== {{S|nom|gsw}} ===
+'''Chrom''' {{pron||gsw}}
+# {{éléments|gsw}} {{métaux|gsw}} [[chrome|Chrome]].
+{{clr}}
+==== {{S|vocabulaire}} ====
+{{tableau périodique/gsw}}
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: {{siècle|XIX|lang=de}} Du {{étyl|fr|de|chrome}} – [[#Références|cf. DWDS ci-dessous]].
+
+=== {{S|nom|de}} ===
+{{de-nom-n-s-e||ns=Chrom|sing=1}}
+[[Image:Chromium_crystals_and_1cm3_cube.jpg|thumb|'''Chrom'''.]]
+'''Chrom''' {{pron|kroːm|de}} {{n}} {{au singulier uniquement|de}}
+# {{éléments|de}} {{métaux|de}} [[chrome#fr|Chrome]] : l’[[élément chimique]] dont le symbole est [[Cr#conv|Cr]].
+#* {{exemple
+|'''Chrom''' als Legierungselement verleiht dem Stahl Beständigkeit gegen Korrosion, indem es die Bildung einer passiven Oxidschicht befördert.
+|Le chrome en tant qu’élément d’alliage confère à l’acier une résistance à la corrosion, en favorisant la formation d’une couche passive d’oxyde.
+|lang=de}}
+
+==== {{S|dérivés}} ====
+{{(|Substantifs}}
+* {{lien|Chromat|de|sens=[[chromate]]}}
+* {{lien|Chromatierung|de}}, {{l|Chromatieren|sens=[[chromatage]]}}
+* {{lien|Chromatik|de|sens=[[chromatique]]}}
+* {{lien|Chrombeize|de}}
+* {{lien|Chromchlorid|de|sens=[[chlorure de chrome]]}}
+* {{lien|Chromdioxid|de|sens=[[dioxyde de chrome]]}}
+* {{lien|Chromeisenerz|de}}
+* {{lien|Chromeisenstein|de}}
+* {{lien|Chromerz|de|sens=[[minerai]] de [[chrome]]}}
+* {{lien|Chromgelb|de|sens=[[jaune de chrome]]}}
+* {{lien|Chromgrün|de|sens=[[vert de chrome]]}}
+* {{lien|Chromit|de|sens=[[chromite]]}}
+* {{lien|Chromkarbid|de|sens=[[carbure]] de [[chrome]]}}
+* {{lien|Chromleder|de}}
+* {{lien|Chromnickelstahl|de|sens=[[acier au chrome-nickel]]}}
+* {{lien|Chrompflegemittel|de}}
+* {{lien|Chromrot|de|sens=[[rouge de chrome]]}}
+* {{lien|Chromschicht|de|sens=[[couche]] de [[chrome]]}}
+* {{lien|Chromschwefelsäure|de}}
+* {{lien|Chromstahl|de|sens=[[acier au chrome]]}}
+* {{lien|Chromsäure|de|sens=[[acide chromique]]}}
+* {{lien|Chromteil|de}}
+* {{lien|Chromverbindung|de|sens=[[composé]] de [[chrome]]}}
+* {{lien|Chromylchlorid|de}}
+* {{lien|Dichromat|de|sens=[[dichromate]]}}
+{{)}}
+{{(|Autres dérivés}}
+* {{lien|chromatieren|sens=[[chromater]]}}
+* {{lien|chromatisch|de|sens=[[chromatique]]}}
+* {{lien|chromblitzend|de}}
+* {{lien|chromieren|de|sens=[[chromiser]]}}
+* {{lien|chromsauer|de}}
+* {{lien|verchromen|de|sens=[[chromer]]}}
+{{)}}
+{{clr}}
+==== {{S|vocabulaire}} ====
+* {{voir thésaurus|de|tableau périodique des éléments}}
+{{tableau périodique/de}}
+{{Liste|avant={{lien|Vanadium|de}} ou {{lien|Vanadin|de}}<br>([[V#conv|V]])|après={{lien|Mangan|de}}<br>([[Mn#conv|Mn]])|liste=[[Thésaurus:tableau périodique des éléments/allemand|Éléments chimiques en allemand]]}}
+
+=== {{S|prononciation}} ===
+* {{pron|kroːm|de}}
+* {{écouter|Allemagne (Berlin)|kʁoːm|de|audio=De-Chrom2.ogg}}
+* {{écouter|Allemagne (Berlin)|kʁoːm|de|audio=LL-Q188 (deu)-Lucas Werkmeister-Chrom.wav}}
+* {{écouter|Allemagne (Berlin)|kʁoːm|de|audio=LL-Q188 (deu)-Sebastian Wallroth-Chrom.wav}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=de}}
+
+=== {{S|références}} ===
+* {{R:DWDS|Chrom}}
+* {{R:Duden|Chrom}}
+
+== {{langue|lb}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|lb}}
+
+=== {{S|nom|lb}} ===
+{{lb-inv|kʀoːm}}
+'''Chrom''' {{pron|kʀoːm|lb}} {{m}}, {{au singulier uniquement|lb}}
+# {{éléments|lb}} {{métaux|lb}} [[chrome#fr|Chrome]].
+#* {{exemple|lang=lb}}
+{{clr}}
+==== {{S|vocabulaire}} ====
+{{tableau périodique/lb}}
+
+=== {{S|prononciation}} ===
+* {{écouter|Angers (France)||niveau=bon|lang=lb|audio=LL-Q9051 (ltz)-Procrastineur49-Chrom.wav}}
+
+=== {{S|références}} ===
+: {{R:LOD}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=lb}}

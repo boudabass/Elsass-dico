@@ -1,0 +1,98 @@
+{{voir/radon}}
+
+== {{langue|fr}} ==
+
+=== {{S|étymologie}} ===
+: Issu de l’[[anthroponyme]] germanique ''Raddo''<ref>{{w|René Lepelley}}, ''Dictionnaire étymologique des noms de communes de Normandie'', Condé-sur-Noireau, Éd. Charles Corlet, 1996</ref>.
+
+=== {{S|nom propre|fr}} ===
+'''Radon''' {{pron|ʁa.dɔ̃|fr}}
+# {{localités|fr|du département de l’Orne}} Ancienne commune du département de l’Orne, intégrée à la commune d’[[Écouves]] en janvier 2016.
+
+==== {{S|gentilés}} ====
+* [[Radonnais]], [[Radonnaise]]
+* [[radonnais]]
+
+==== {{S|traductions}} ====
+{{trad-début}}
+{{trad-fin}}
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=fr|France (Île-de-France)|ʁa.dɔ̃|audio=Fr-Paris--Radon.ogg}}
+
+=== {{S|anagrammes}} ===
+{{voir anagrammes|fr}}
+
+=== {{S|voir aussi}} ===
+* {{WP|Radon (Orne)}}
+
+=== {{S|références}} ===
+{{Références}}
+
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw}}
+
+=== {{S|nom|gsw}} ===
+'''Radon''' {{pron||gsw}} {{genre|gsw}}
+# {{éléments|gsw}} [[radon#fr|Radon]].
+{{clr}}
+==== {{S|vocabulaire}} ====
+{{tableau périodique/gsw}}
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: {{date|lang=de}} {{composé de|Radium|-on|lang=de|m=1}}{{R|Duden|Radon}}.
+
+=== {{S|nom|de}} ===
+{{légende élément/de|Rn|Em|Ro|RaEm|ThEm|AcEm|Nt|Tn|An}}
+'''Radon''' {{pron|ˈʀaːdɔn|de}} ou {{pron|ʀaˈdoːn|de}} {{n}}
+# {{éléments|de}} [[radon#fr|Radon]].
+
+==== {{S|synonymes}} ====
+* {{lien|Radiumemanation|de}} {{désuet|nocat=1}}
+==== {{S|dérivés}} ====
+* {{lien|Radonbelastung|de}}
+* {{lien|Radonexposition|de}}
+* {{lien|Radonfluorid|de}}
+* {{lien|Radonkonzentration|de}}
+{{clr}}
+==== {{S|vocabulaire}} ====
+* {{voir thésaurus|de|tableau périodique des éléments}}
+{{tableau périodique/de}}
+{{Liste|avant={{lien|Astat|de}} ou {{lien|Astatin|de}} {{rare|nocat=1}}<br>([[At#conv|At]])|après={{lien|Francium|de}}<br>([[Fr#conv|Fr]])|liste=[[Thésaurus:tableau périodique des éléments/allemand|Éléments chimiques en allemand]]}}
+
+=== {{S|prononciation}} ===
+* {{pron|ʀaːdɔn|de}}
+* {{pron|ʀaˈdoːn|de}}
+* {{écouter|lang=de|{{AT|nocat=1}}|audio=De-at-Radon.ogg}}
+* {{écouter|lang=de|Allemagne (Berlin)|audio=LL-Q188 (deu)-Lucas Werkmeister-Radon.wav}}
+* {{écouter|lang=de|Allemagne (Berlin)|audio=LL-Q188 (deu)-Sebastian Wallroth-Radon.wav}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=de}}
+
+=== {{S|références}} ===
+{{Références}}
+
+== {{langue|lb}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|lb}}
+
+=== {{S|nom|lb}} ===
+{{lb-inv|ʀˈaːdon}}
+'''Radon''' {{pron|ʀˈaːdon|lb}} {{m}}, {{au singulier uniquement|lb}}
+# {{éléments|lb}} [[radon#fr|Radon]].
+#* {{exemple|lang=lb}}
+{{clr}}
+==== {{S|vocabulaire}} ====
+{{tableau périodique/lb}}
+
+=== {{S|prononciation}} ===
+* {{écouter|Angers (France)||niveau=bon|lang=lb|audio=LL-Q9051 (ltz)-Procrastineur49-Radon.wav}}
+
+=== {{S|références}} ===
+: {{R:LOD}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=lb}}

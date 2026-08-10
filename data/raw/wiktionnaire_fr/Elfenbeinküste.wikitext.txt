@@ -1,0 +1,30 @@
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw}}
+
+=== {{S|nom propre|gsw}} ===
+'''Elfenbeinküste''' {{pron||gsw}}
+# {{pays|gsw}} [[Côte d’Ivoire#fr|Côte d’Ivoire]] (pays africain).
+
+[[Catégorie:Toponymes dont l’origine est maritime en alémanique]]
+[[Catégorie:Toponymes dont l’origine est une matière en alémanique]]
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|de}}
+
+=== {{S|nom propre|de}} ===
+'''Elfenbeinküste''' {{pron|ˈɛlfn̩baɪ̯nˌkʏst|de}} {{f}}
+# {{pays|de|d’Afrique}} [[Côte d’Ivoire#fr|Côte d’Ivoire]] (pays africain).
+#* {{exemple | lang=de
+ | Er kommt aus der '''Elfenbeinküste.'''
+ | Il vient de Côte d’Ivoire.}}
+#* {{exemple|Seitdem lebt Compaoré im Nachbarland '''Elfenbeinküste''' im Exil und hat die ivorische Staatsbürgerschaft angenommen.|lang=de|sens=Depuis, Compaoré vit en exil en Côte d'Ivoire voisine et a adopté la nationalité ivoirienne.|source={{périodique|auteur=Katrin Gänsler|titre=Lebenslang für Expräsident|journal=taz|date=7 avril 2022|texte=https://taz.de/Urteil-in-Burkina-Faso/!5848066/}}}}
+
+=== {{S|prononciation}} ===
+* {{écouter|Berlin|ˈɛlfn̩baɪ̯nˌkʏstə|lang=de|audio=De-Elfenbeinküste.ogg}}
+
+{{clé de tri|elfenbeinkuste}}
+
+[[Catégorie:Toponymes dont l’origine est maritime en allemand]]
+[[Catégorie:Toponymes dont l’origine est une matière en allemand]]

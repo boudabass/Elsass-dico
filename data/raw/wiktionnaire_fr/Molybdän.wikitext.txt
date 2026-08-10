@@ -1,0 +1,62 @@
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw}}
+
+=== {{S|nom|gsw}} ===
+'''Molybdän''' {{pron||gsw}} {{genre|gsw}}
+# {{éléments|gsw}} {{métaux|gsw}} [[molybdène#fr|Molybdène]].
+{{clr}}
+==== {{S|vocabulaire}} ====
+{{tableau périodique/gsw}}
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|de}}
+
+=== {{S|nom|de}} ===
+{{légende élément/de|Mo}}
+[[Image:Molybdenum_crystaline_fragment_and_1cm3_cube.jpg|thumb|'''Molybdän'''.]]
+'''Molybdän''' {{pron|molʏpˈdɛːn|de}} {{n}}
+# {{éléments|de}} {{métaux|de}} [[molybdène#fr|Molybdène]] (l’{{lien|élément chimique}} [[Mo#conv|Mo]]).
+
+==== {{S|dérivés}} ====
+{{(|}}
+* {{lien|Molybdän(VI)-oxid|de}}
+* {{lien|Molybdändisulfid|de}}
+* {{lien|Molybdänit|de}}
+* {{lien|Molybdänglanz|de}}
+* {{lien|Molybdänsäure|de}}
+* {{lien|Molybdat|de}}
+{{)}}
+{{clr}}
+==== {{S|vocabulaire}} ====
+* {{voir thésaurus|de|tableau périodique des éléments}}
+{{tableau périodique/de}}
+{{Liste|avant={{lien|Niob|de}} ou {{lien|Columbium|de}} {{désuet|nocat=1}}<br>([[Nb#conv|Nb]])|après={{lien|Technetium|de}} ou {{lien|Eka-Mangan|de}} {{désuet|nocat=1}} ou {{lien|Masurium|de}} {{désuet|nocat=1}}<br>([[Tc#conv|Tc]])|liste=[[Thésaurus:tableau périodique des éléments/allemand|Éléments chimiques en allemand]]}}
+
+=== {{S|prononciation}} ===
+* {{pron|molʏpˈdɛːn|de}}
+* {{écouter|lang=de|Allemagne (Berlin)|audio=LL-Q188 (deu)-Lucas Werkmeister-Molybdän.wav}}
+* {{écouter|lang=de|Allemagne (Berlin)|audio=LL-Q188 (deu)-Sebastian Wallroth-Molybdän.wav}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=de}}
+
+== {{langue|lb}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|lb}}
+
+=== {{S|nom|lb}} ===
+{{lb-inv|molibdˈɛːn}}
+'''Molybdän''' {{pron|molibdˈɛːn|lb}} {{m}}, {{au singulier uniquement|lb}}
+# {{éléments|lb}} {{métaux|lb}} [[molybdène#fr|Molybdène]].
+#* {{exemple|lang=lb}}
+{{clr}}
+==== {{S|vocabulaire}} ====
+{{tableau périodique/lb}}
+
+=== {{S|références}} ===
+: {{R:LOD}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=lb}}

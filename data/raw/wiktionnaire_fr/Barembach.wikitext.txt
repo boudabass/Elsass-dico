@@ -1,0 +1,38 @@
+== {{langue|fr}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|fr|mot=Barembach}}.
+
+=== {{S|nom propre|fr}} ===
+'''Barembach''' {{pron||fr}}
+# {{localités|fr|du département du Bas-Rhin}} Commune du [[Bas-Rhin]], en {{lien|Alsace|fr}}.
+
+==== {{S|gentilés}} ====
+* [[Barembachois]], [[Barembachoise]]
+* [[barembachois]]
+
+=== {{S|prononciation}} ===
+* {{écouter|||lang=fr|audio=LL-Q150 (fra)-Marie-Louise (Le Commissaire)-Barembach.wav}}
+
+=== {{S|références}} ===
+* {{mercihabitants}}
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: {{composé de|Bär|Bach|lang=de|m=1}}.
+
+=== {{S|nom propre|de}} ===
+'''Barembach''' {{pron||de}} {{n}}
+# {{localités|de|d’Alsace}} {{lien|Barembach|fr}}.
+#* {{exemple|lang=de}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=de}} 
+
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw}}
+
+=== {{S|nom propre|gsw}} ===
+'''Barembach''' {{pron||gsw}}
+# {{Alsace|gsw}} {{localités|gsw|du département du Bas-Rhin}} [[Barembach#fr|Barembach]], [[commune]] [[français]]e, située dans le département du [[Bas-Rhin]].
+#* {{exemple|lang=gsw}}

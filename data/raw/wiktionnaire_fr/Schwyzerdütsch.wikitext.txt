@@ -1,0 +1,9 @@
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: De ''[[Schwyzer]]'', « suisse » et ''[[Dütsch]]'', « allemand » ([[cognat]] de l’allemand ''[[Deutsch]]'').
+
+=== {{S|nom|gsw}} ===
+'''Schwyzerdütsch''' {{pron||gsw}} {{n}}
+# {{lexique|linguistique|gsw}} [[suisse allemand|Suisse allemand]] ou [[suisse alémanique]], une des variétés de la langue [[alémanique]] (qui comprend aussi l’[[alsacien]] et le haut-allemand alémanique).
+
+{{clé de tri|schwyzerdutsch}}

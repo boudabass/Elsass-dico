@@ -1,0 +1,47 @@
+{{voir|cadmium}}
+
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw}}
+
+=== {{S|nom|gsw}} ===
+'''Cadmium''' {{pron||gsw}} {{genre|gsw}}
+# {{éléments|gsw}} {{métaux|gsw}} [[cadmium#fr|Cadmium]].
+{{clr}}
+==== {{S|vocabulaire}} ====
+{{tableau périodique/gsw}}
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: {{date|lang=de}} Du {{étyl|la|de|mot=cadmia|sens=calamine}}.
+
+=== {{S|nom|de}} ===
+{{légende élément/de|Cd}}
+[[Image:Cadmium-crystal_bar.jpg|thumb|'''Cadmium'''.]]
+'''Cadmium''' {{pron|ˈkatmiʊm|de}} {{n}} ({{p}}: '''—''' )
+# {{éléments|de}} {{métaux|de}} [[cadmium#fr|Cadmium]].
+#* {{exemple | lang=de | '''Cadmium''' und seine löslichen Verbindungen sind hochgiftig und vermutlich krebserregend.}}
+
+==== {{S|variantes orthographiques}} ====
+* {{lien|Kadmium|de}}
+
+==== {{S|dérivés}} ====
+* {{lien|Cadmiumoxid|de}}
+* {{lien|Cadmiumselenid|de}}
+* {{lien|Cadmiumsulfid|de}}
+* {{lien|Cadmiumtellurid|de}}
+* {{lien|Nickel-Cadmium-Akkumulator|de}}
+{{clr}}
+==== {{S|vocabulaire}} ====
+* {{voir thésaurus|de|tableau périodique des éléments}}
+{{tableau périodique/de}}
+{{Liste|avant={{lien|Silber|de}}<br>([[Ag#conv|Ag]])|après={{lien|Indium|de}}<br>([[In#conv|In]])|liste=[[Thésaurus:tableau périodique des éléments/allemand|Éléments chimiques en allemand]]}}
+
+=== {{S|prononciation}} ===
+* {{écouter|allemand|ˈkatmiʊm|lang=de|audio=De-Cadmium.ogg}}
+* {{écouter|lang=de|Allemagne (Berlin)|audio=LL-Q188 (deu)-Lucas Werkmeister-Cadmium.wav}}
+* {{écouter|lang=de|Allemagne (Berlin)|audio=LL-Q188 (deu)-Sebastian Wallroth-Cadmium.wav}}
+* {{écouter|lang=de|Allemagne (Munich)||audio=LL-Q188 (deu)-Michael Schoenitzer (MichaelSchoenitzer)-Cadmium.wav}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=de}}

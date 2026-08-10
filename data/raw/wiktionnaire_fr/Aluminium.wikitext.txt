@@ -1,0 +1,133 @@
+{{voir/aluminium}}
+
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw}}
+
+=== {{S|nom|gsw}} ===
+'''Aluminium''' {{pron||gsw}}
+# {{éléments|gsw}} {{métaux|gsw}} [[aluminium|Aluminium]].
+{{clr}}
+==== {{S|vocabulaire}} ====
+{{tableau périodique/gsw}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=gsw}}
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: De l'{{étyl|en|de|aluminium}}.
+
+=== {{S|nom|de}} ===
+{{de-nom-n-sing}}
+{{légende élément/de|Al}}
+[[Image:Aluminium-4.jpg|thumb|'''Aluminium'''.]]
+'''Aluminium''' {{pron|aluˈmiːni̯ʊm|de}} {{n}} ({{p}}: '''-''' )
+# {{éléments|de}} {{métaux|de}} [[aluminium#fr|Aluminium]] ({{lien|élément chimique}} [[Al#conv|Al]]).
+
+==== {{S|dérivés}} ====
+{{(}}
+* {{lien|aluminieren|de}}
+* {{lien|aluminiumbeschichtet|de}}
+* {{lien|aluminiumfarbig|de}}
+* {{lien|aluminiumhaltig|de}}
+* {{lien|Aluminiumader|de}}
+* {{lien|Aluminiumalkoholat|de}}
+* {{lien|Aluminiumaufnahme|de}}
+* {{lien|Aluminiumauftragung|de}}
+* {{lien|Aluminiumbehälter|de}}
+* {{lien|Aluminiumblech|de}}
+* {{lien|Aluminiumbromid|de}}
+* {{lien|Aluminiumbronze|de}}
+* {{lien|Aluminiumchlorid|de}}
+* {{lien|Aluminiumclofibrat|de}}
+* {{lien|Aluminiumdiacetat|de}}
+* {{lien|Aluminiumerzeugung|de}}
+* {{lien|Aluminiumfarbe|de}}
+* {{lien|Aluminiumfelge|de}}
+* {{lien|Aluminiumförderung|de}}
+* {{lien|Aluminiumfolie|de}} (''papier aluminium'')
+* {{lien|Aluminiumgeschirr|de}}
+* {{lien|Aluminiumgießerei|de}}
+* {{lien|Aluminiumgleichwert|de}}
+* {{lien|Aluminiumgriff|de}}
+* {{lien|Aluminiumguss|de}}
+* {{lien|Aluminiumheizkörper|de}}
+* {{lien|Aluminiumherstellung|de}}
+* {{lien|Aluminiumhütte|de}}
+* {{lien|Aluminiumhydroxid|de}}
+* {{lien|Aluminiumindustrie|de}}
+* {{lien|Aluminiumisotop|de}}
+* {{lien|Aluminiumkabel|de}}
+* [[Aluminiumkoffer]]
+* [[Aluminiumkolben]]
+* {{lien|Aluminiumkondensator|de}}
+* {{lien|Aluminiumkonzentration|de}}
+* {{lien|Aluminiumlegierung|de}}
+* [[Aluminiumleiter]] (''échelle en aluminium'')
+* {{lien|Aluminiumlochblech|de}}
+* [[Aluminiumlöffel]] (''cuillère en aluminium'')
+* {{lien|Aluminiummarkt|de}}
+* {{lien|Aluminiummasse|de}}
+* {{lien|Aluminiumnitrid|de}}
+* {{lien|Aluminiumoxid|de}}
+* {{lien|Aluminiumoxynitrid|de}}
+* {{lien|Aluminiumpaste|de}}
+* {{lien|Aluminiumpreis|de}}
+* [[Aluminiumprofil]]
+* {{lien|Aluminiumpulver|de}}
+* {{lien|Aluminiumrahmen|de}}
+* {{lien|Aluminiumrohr|de}}
+* {{lien|Aluminiumsalz|de}}
+* {{lien|Aluminiumschaum|de}}
+* {{lien|Aluminiumschicht|de}}
+* {{lien|Aluminiumstange|de}}
+* {{lien|Aluminiumstaub|de}}
+* {{lien|Aluminiumsulfat|de}}
+* {{lien|Aluminiumtopf|de}}
+* {{lien|Aluminiumverbindung|de}}
+* {{lien|Aluminiumverkleidung|de}}
+* [[Aluminiumverpackung]]
+* {{lien|Aluminiumwerkstoff|de}}
+* [[Blattaluminium]]
+* [[Ferroaluminium]]
+{{)}}
+{{clr}}
+==== {{S|vocabulaire}} ====
+* {{voir thésaurus|de|tableau périodique des éléments}}
+{{tableau périodique/de}}
+{{Liste|avant={{lien|Magnesium|de}}<br>([[Mg#conv|Mg]])|après={{lien|Silicium|de}} ou {{lien|Silizium|de}}<br>([[Si#conv|Si]])|liste=[[Thésaurus:tableau périodique des éléments/allemand|Éléments chimiques en allemand]]}}
+
+=== {{S|prononciation}} ===
+* {{pron|aluˈmiːni̯ʊm|de}}
+* {{écouter|lang=de||audio=De-Aluminium.ogg}}
+* {{écouter|lang=de|Allemagne (Berlin)|audio=LL-Q188 (deu)-Lucas Werkmeister-Aluminium.wav}}
+* {{écouter|lang=de|Allemagne (Berlin)|audio=LL-Q188 (deu)-Sebastian Wallroth-Aluminium.wav}}
+* {{écouter|lang=de|Allemagne (Munich)||audio=LL-Q188 (deu)-Michael Schoenitzer (MichaelSchoenitzer)-Aluminium.wav}}
+* {{écouter|lang=de|Allemagne (Berlin)|aluˈmiːni̯ʊm|audio=De-Aluminium2.ogg}}
+* {{écouter|lang=de|{{AT|nocat=1}}|audio=De-at-Aluminium.ogg}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=en}}
+
+== {{langue|lb}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|lb}}
+
+=== {{S|nom|lb}} ===
+{{lb-inv|ɑlumˈini̯um}}
+'''Aluminium''' {{pron|ɑlumˈini̯um|lb}} {{m}}, {{au singulier uniquement|lb}}
+# {{éléments|lb}} {{métaux|lb}} [[aluminium#fr|Aluminium]].
+#* {{exemple|lang=lb}}
+{{clr}}
+==== {{S|vocabulaire}} ====
+{{tableau périodique/lb}}
+
+=== {{S|prononciation}} ===
+* {{écouter|Angers (France)||niveau=bon|lang=lb|audio=LL-Q9051 (ltz)-Procrastineur49-Aluminium.wav}}
+
+=== {{S|références}} ===
+: {{R:LOD}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=lb}}

@@ -1,0 +1,91 @@
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+:Du {{étyl|la|gsw}} [[Bulgaria]].
+
+=== {{S|nom propre|gsw}} ===
+'''Bulgarien'''
+# [[Bulgarie]] (pays d’[[Europe]]).
+
+[[Catégorie:Pays en alémanique]]
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+:Du {{étyl|la|de}} [[Bulgaria]].
+
+=== {{S|nom propre|de}} ===
+{{de-nom-propre|genre=n}}
+'''Bulgarien''' ({{p}} : - )
+# [[Bulgarie]] (pays d’[[Europe]]).
+
+==== {{S|dérivés}} ====
+* [[bulgarisch]]
+* [[Bulgarin]]
+* [[Bulgare]]
+
+==== {{S|hyperonymes}} ====
+* [[Südosteuropa]]
+* [[Land]]
+* [[Staat]]
+* [[Balkan]]
+
+=== {{S|prononciation}} ===
+* {{pron|bʊl.ˈɡaː.riən|de}}
+* {{écouter|lang=de|Allemagne|bʊlˈɡaːriən|audio=De-Bulgarien.ogg}}
+
+[[Catégorie:Pays d’Europe en allemand]]
+[[Catégorie:Bulgarie en allemand|*]]
+
+== {{langue|nds}} ==
+=== {{S|étymologie}} ===
+:Du {{étyl|la|nds}} [[Bulgaria]].
+
+=== {{S|nom propre|nds}} ===
+'''Bulgarien'''
+# [[Bulgarie]] (pays d’[[Europe]]).
+
+[[Catégorie:Pays d’Europe en bas allemand]]
+
+== {{langue|da}} ==
+=== {{S|étymologie}} ===
+:Du {{étyl|la|da}} [[Bulgaria]].
+
+=== {{S|nom propre|da}} ===
+'''Bulgarien'''
+# [[Bulgarie]] (pays d’[[Europe]]).
+
+[[Catégorie:Pays d’Europe en danois]]
+[[Catégorie:Bulgarie en danois|*]]
+
+== {{langue|lb}} ==
+=== {{S|étymologie}} ===
+: Du {{étylp|la|lb|Bulgaria}}.
+
+=== {{S|nom propre|lb}} ===
+{{lb-inv-en|pron=bulɡˈaːʀiən|inv_titre=Nom propre}}
+'''Bulgarien''' {{pron|bulɡˈaːʀiən|lb}} {{n}}
+# {{pays|lb|d’Europe|pays=Bulgarie|clé=*}} {{lien|Bulgarie|fr}}.
+#* {{exemple|lang=lb}}
+
+==== {{S|notes}} ====
+* {{lb-n|np=oui}}
+
+==== {{S|gentilés}} ====
+* {{lien|Bulgar|lb}}, {{lien|Bulgarin|lb}}
+* {{lien|bulgaresch|lb}}
+
+=== {{S|références}} ===
+: {{R:LOD}}
+
+== {{langue|sv}} ==
+=== {{S|étymologie}} ===
+:Du {{étyl|la|sv}} [[Bulgaria]].
+
+=== {{S|nom propre|sv}} ===
+'''Bulgarien'''
+# [[Bulgarie]] (pays d’[[Europe]]).
+
+=== {{S|prononciation}} ===
+* {{écouter|Suède||lang=sv|audio=LL-Q9027 (swe)-Moonhouse-Bulgarien.wav}}
+
+[[Catégorie:Pays d’Europe en suédois]]
+[[Catégorie:Bulgarie en suédois|*]]

@@ -1,0 +1,8 @@
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw}}
+
+=== {{S|nom|gsw}} ===
+'''Wìnckel''' {{pron||gsw}}
+# {{Wolschheim|gsw}} {{lexique|géométrie|gsw}} [[angle#fr|Angle]].
+#* {{exemple|lang=gsw}}

@@ -1,0 +1,218 @@
+{{voir/nix}}
+== {{langue|fr}} ==
+=== {{S|étymologie}} ===
+: {{info lex|astronomie}} ''(2006)'' Du nom de la [[déesse]] [[grecque]] de la [[nuit|Nuit]], ''[[Nyx]]''.<!--- Je sais, la citation IAUC 8723 attribue le nom à une divinité "égyptienne", mais cela semble relever de la pure invention (x n'est même pas une lettre utilisée en égyptien) --->
+
+=== {{S|nom propre|fr}} ===
+{{fr-inv|niks}}
+'''Nix''' {{pron|niks|fr}} {{f}}
+# [[satellite|Satellite]] [[naturel]] de la [[planète]] [[naine]] [[Pluton]].
+
+==== {{S|synonymes}} ====
+* [[Pluton II]]
+* [[S/2005 P 2]] {{désuet|nocat=1}}
+
+==== {{S|traductions}} ====
+{{trad-début}}
+* {{T|af}} : {{trad-|af|Nix}}
+* {{T|gsw}} : {{trad|gsw|Nix}}
+* {{T|de}} : {{trad+|de|Nix}}
+* {{T|en}} : {{trad+|en|Nix}}
+* {{T|nds}} : {{trad-|nds|Nix}}
+* {{T|bs}} : {{trad-|bs|Nikta}}
+* {{T|br}} : {{trad-|br|Nix}}
+* {{T|bg}} : {{trad-|bg|Никта|tr=Nikta}}
+* {{T|ca}} : {{trad-|ca|Nix}}
+* {{T|zh}} : {{trad-|zh|冥卫二|R=Míng wèi èr|tradi=冥衛二}}
+* {{T|ko}} : {{trad-|ko|닉스|tr=Nigseu}}
+* {{T|co}} : {{trad-|co|Nix}}
+* {{T|hr}} : {{trad-|hr|Nikta}}
+* {{T|da}} : {{trad-|da|Nix}}
+* {{T|es}} : {{trad-|es|Nix}}
+* {{T|eo}} : {{trad-|eo|Nikso}}
+* {{T|et}} : {{trad-|et|Nix}}
+* {{T|fi}} : {{trad-|fi|Nix}}
+* {{T|cy}} : {{trad-|cy|Nix}}
+* {{T|el}} : {{trad-|el|Νύχτα|R=Níkhta}}
+* {{T|he}} : {{trad-|he|ניקס}}
+* {{T|hu}} : {{trad-|hu|Nix}}
+* {{T|is}} : {{trad-|is|Nix}}
+* {{T|it}} : {{trad-|it|Notte}}
+* {{T|ja}} : {{trad-|ja|ニクス|tr=Nikusu}}
+* {{T|la}} : {{trad+|la|Nix}}
+* {{T|lv}} : {{trad-|lv|Nikte}}
+* {{T|lt}} : {{trad-|lt|Niktė}}
+* {{T|nl}} : {{trad-|nl|Nix}}
+* {{T|no}} : {{trad-|no|Nix}}
+* {{T|nn}} : {{trad-|no|Nix}}
+* {{T|pl}} : {{trad+|pl|Nix}}
+* {{T|pt}} : {{trad-|pt|Nix}}
+* {{T|ro}} : {{trad-|ro|Nix}}
+* {{T|ru}} : {{trad+|ru|Никс|tr=Niks}}, {{trad-|ru|Никта|tr=Nikta}}
+* {{T|sk}} : {{trad-|sk|Nix}}
+* {{T|sl}} : {{trad-|sl|Niks}}
+* {{T|sv}} : {{trad-|sv|Nix}}
+* {{T|cs}} : {{trad-|cs|Nix}}
+* {{T|tr}} : {{trad-|tr|Nix}}
+* {{T|uk}} : {{trad-|uk|Нікта|R=Nikta}}
+* {{T|vi}} : {{trad-|vi|Nix}}
+{{trad-fin}}
+
+==== {{S|hyperonymes}} ====
+: {{info lex|astronomie}} :
+* [[lune]]
+
+==== {{S|holonymes}} ====
+: {{info lex|astronomie}} :
+* [[Pluton]]
+
+=== {{S|voir aussi}} ===
+* {{WP|Nix (lune)|titre=Nix}}
+
+<!--- ordre alphabétique --->
+{{Liste|avant=[[Kerbéros]]|liste=[[Annexe:Système solaire en français|Satellites naturels de Pluton]]|après=[[Styx]]}}
+
+[[Catégorie:Satellites en français]]
+
+== {{langue|af}} ==
+=== {{S|nom propre|af}} ===
+'''Nix''' {{pron||af}}
+# {{satellites|af}} [[Nix#fr|Nix]], satellite naturel de la planète naine Pluton.
+#* {{exemple|lang=af}}
+
+== {{langue|gsw}} ==
+=== {{S|nom propre|gsw}} ===
+'''Nix''' {{pron||gsw}}
+# {{satellites|gsw}} [[Nix#fr|Nix]], satellite naturel de la planète naine Pluton.
+
+== {{langue|de}} ==
+=== {{S|nom propre|de}} ===
+'''Nix''' {{pron||de}}
+# {{satellites|de}} [[Nix#fr|Nix]], satellite naturel de la planète naine Pluton.
+
+== {{langue|en}} ==
+=== {{S|nom propre|en}} ===
+'''Nix''' {{pron||en}}
+# {{satellites|en}} [[Nix#fr|Nix]], satellite naturel de la planète naine Pluton.
+
+=== {{S|prononciation}} ===
+* {{écouter|Caroline du Nord (États-Unis)||lang=en|audio=LL-Q1860 (eng)-Naomi Persephone Amethyst (NaomiAmethyst)-Nix.wav}}
+
+== {{langue|nds}} ==
+=== {{S|nom propre|nds}} ===
+'''Nix''' {{pron||nds}}
+# {{satellites|nds}} [[Nix#fr|Nix]], satellite naturel de la planète naine Pluton.
+
+== {{langue|br}} ==
+=== {{S|nom propre|br}} ===
+'''Nix''' {{pron||br}}
+# {{satellites|br}} [[Nix#fr|Nix]], satellite naturel de la planète naine Pluton.
+
+== {{langue|ca}} ==
+=== {{S|nom propre|ca}} ===
+'''Nix''' {{pron||ca}}
+# {{satellites|ca}} [[Nix#fr|Nix]], satellite naturel de la planète naine Pluton.
+
+== {{langue|co}} ==
+=== {{S|nom propre|co}} ===
+'''Nix''' {{pron||co}}
+# {{satellites|co}} [[Nix#fr|Nix]], satellite naturel de la planète naine Pluton.
+
+== {{langue|da}} ==
+=== {{S|nom propre|da}} ===
+'''Nix''' {{pron||da}}
+# {{satellites|da}} [[Nix#fr|Nix]], satellite naturel de la planète naine Pluton.
+
+== {{langue|es}} ==
+=== {{S|nom propre|es}} ===
+'''Nix''' {{pron||es}}
+# {{satellites|es}} [[Nix#fr|Nix]], satellite naturel de la planète naine Pluton.
+
+== {{langue|et}} ==
+=== {{S|nom propre|et}} ===
+'''Nix''' {{pron||et}}
+# {{satellites|et}} [[Nix#fr|Nix]], satellite naturel de la planète naine Pluton.
+
+== {{langue|fi}} ==
+=== {{S|nom propre|fi}} ===
+'''Nix''' {{pron||fi}}
+# {{satellites|fi}} [[Nix#fr|Nix]], satellite naturel de la planète naine Pluton.
+
+== {{langue|cy}} ==
+=== {{S|nom propre|cy}} ===
+'''Nix''' {{pron||cy}}
+# {{satellites|cy}} [[Nix#fr|Nix]], satellite naturel de la planète naine Pluton.
+
+== {{langue|hu}} ==
+=== {{S|nom propre|hu}} ===
+'''Nix''' {{pron||hu}}
+# {{satellites|hu}} [[Nix#fr|Nix]], satellite naturel de la planète naine Pluton.
+
+== {{langue|is}} ==
+=== {{S|nom propre|is}} ===
+'''Nix''' {{pron||is}}
+# {{satellites|is}} [[Nix#fr|Nix]], satellite naturel de la planète naine Pluton.
+
+== {{langue|la}} ==
+=== {{S|nom propre|la}} ===
+'''Nix''' {{pron||la}}
+# {{satellites|la}} [[Nix#fr|Nix]], satellite naturel de la planète naine Pluton.
+
+== {{langue|nl}} ==
+=== {{S|nom propre|nl}} ===
+'''Nix''' {{pron||nl}}
+# {{satellites|nl}} [[Nix#fr|Nix]], satellite naturel de la planète naine Pluton.
+# Nom de famille.
+
+== {{langue|no}} ==
+=== {{S|nom propre|no}} ===
+'''Nix''' {{pron||no}}
+# {{satellites|no}} [[Nix#fr|Nix]], satellite naturel de la planète naine Pluton.
+
+== {{langue|nn}} ==
+=== {{S|nom propre|nn}} ===
+'''Nix''' {{pron||nn}}
+# {{satellites|nn}} [[Nix#fr|Nix]], satellite naturel de la planète naine Pluton.
+
+== {{langue|pl}} ==
+=== {{S|nom propre|pl}} ===
+'''Nix''' {{pron||pl}}
+# {{satellites|pl}} [[Nix#fr|Nix]], satellite naturel de la planète naine Pluton.
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=pl|Pologne (Varsovie)||audio=LL-Q809 (pol)-Olaf-Nix.wav}}
+
+== {{langue|pt}} ==
+=== {{S|nom propre|pt}} ===
+'''Nix''' {{pron||pt}}
+# {{satellites|pt}} [[Nix#fr|Nix]], satellite naturel de la planète naine Pluton.
+
+== {{langue|ro}} ==
+=== {{S|nom propre|ro}} ===
+'''Nix''' {{pron||ro}}
+# {{satellites|ro}} [[Nix#fr|Nix]], satellite naturel de la planète naine Pluton.
+
+== {{langue|sk}} ==
+=== {{S|nom propre|sk}} ===
+'''Nix''' {{pron||sk}}
+# {{satellites|sk}} [[Nix#fr|Nix]], satellite naturel de la planète naine Pluton.
+
+== {{langue|sv}} ==
+=== {{S|nom propre|sv}} ===
+'''Nix''' {{pron||sv}}
+# {{satellites|sv}} [[Nix#fr|Nix]], satellite naturel de la planète naine Pluton.
+
+== {{langue|cs}} ==
+=== {{S|nom propre|cs}} ===
+'''Nix''' {{pron||cs}}
+# {{satellites|cs}} [[Nix#fr|Nix]], satellite naturel de la planète naine Pluton.
+
+== {{langue|tr}} ==
+=== {{S|nom propre|tr}} ===
+'''Nix''' {{pron||tr}}
+# {{satellites|tr}} [[Nix#fr|Nix]], satellite naturel de la planète naine Pluton.
+
+== {{langue|vi}} ==
+=== {{S|nom propre|vi}} ===
+'''Nix''' {{pron||vi}}
+# {{satellites|vi}} [[Nix#fr|Nix]], satellite naturel de la planète naine Pluton.

@@ -1,0 +1,60 @@
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|gsw|mot=Schottland}}.
+
+=== {{S|nom propre|gsw}} ===
+'''Schottland''' {{pron||gsw}}
+# {{pays|gsw|d’Europe}} {{lien|Écosse|fr}}.
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: {{composé de|lang=de|Schotte|Land|sens=pays des Écossais|m=1}}.
+
+=== {{S|nom propre|de}} ===
+{{de-nom-propre|genre=n|gs=Schottland|gs2=Schottlands}}
+'''Schottland''' {{pron|ˈʃɔtlant|de}} {{n}}
+# {{pays|de|d’Europe}} {{lien|Écosse|fr}}.
+#* {{exemple|'''Schottland'''s Regierungschefin Nicola Sturgeon will ihre Landsleute im Oktober 2023 – sofern das Gericht grünes Licht gibt – erneut abstimmen lassen, ob ihr Landesteil unabhängig vom Vereinigten Königreich werden soll oder nicht.|lang=de|sens=La cheffe du gouvernement écossais, Nicola Sturgeon, a l'intention de faire revoter ses compatriotes en octobre 2023 - si le tribunal donne son feu vert - pour savoir si leur région doit ou non devenir indépendante du Royaume-Uni.|source={{périodique|auteur=sbo, mhe|titre=Schottland will um jeden Preis über Unabhängigkeit abstimmen lassen|journal=Der Standard|date=23 novembre 2022|texte=https://www.derstandard.at/story/2000141078689/schottland-will-um-jeden-preis-ueber-unabhaengigkeit-abstimmen-lassen}}}}
+#* {{exemple|Am Freitag wird sie angepfiffen, die Fussball-Europameisterschaft in Deutschland. Im Münchner Stadion, wo sonst der FC Bayern seine Gegner empfängt, mit dem Eröffnungsspiel der Gastgeber gegen '''Schottland'''.|lang=de|sens=Le coup d'envoi du championnat d'Europe de football en Allemagne sera donné vendredi. Dans le stade de Munich, où le FC Bayern accueille habituellement ses adversaires, avec le match d’ouverture des hôtes contre l'Écosse.|source={{périodique|auteur=Stefan Osterhaus|titre=Deutschland veranstaltet die Fussball-Euro – und den Einwohnern ist die Nationalmannschaft so fremd wie nie|journal=Neue Zürcher Zeitung|date=11 juin 2024|texte=https://www.nzz.ch/meinung/fussball-em-nie-war-den-deutschen-ihre-nationalelf-fremder-ld.1834013}}}}
+#* {{exemple|Der dänische Unternehmer ist zudem Großgrundbesitzer. Allerdings nicht in Dänemark. Povlsen ist der größte private Grundbesitzer im Vereinigten Königreich – ihm gehört mehr als ein Prozent des gesamten Grundbesitzes in '''Schottland'''. Auch hat er ein großes Reservat in den rumänischen Karpaten, dessen Zweck der Schutz von Wölfen, Bären und Luchsen ist.|lang=de|sens=L'entrepreneur danois est également un grand propriétaire terrien. Mais pas au Danemark. Povlsen est le plus grand propriétaire foncier privé du Royaume-Uni - il possède plus d’un pour cent de toutes les terres en Écosse. Il possède également une grande réserve dans les Carpates roumaines, dont le but est de protéger les loups, les ours et les lynx.|source={{périodique|auteur=Victoria Niemsch|titre=Jeder hat schon seine Kleidung getragen, aber kaum jemand kennt sein Gesicht – das ist der reichste Mensch aus Dänemark|journal=Business Insider|date=1 mai 2025|texte=https://www.businessinsider.de/wirtschaft/das-ist-der-reichste-mensch-aus-daenemark-bestimmt-kennt-ihr-ihn}}}}
+
+==== {{S|dérivés}} ====
+* {{lien|schottisch|de}}
+* {{lien|Schotte|de}}
+* {{lien|Schottin|de}}
+* {{lien|schottländisch|de}}
+* {{lien|Schottlandreise|de}}
+* {{lien|Schottlandtourist|de}}
+* {{lien|Schottlandurlaub|de}}
+
+=== {{S|prononciation}} ===
+* {{écouter|Berlin (Allemagne)|ˈʃɔtˌlant|lang=de|audio=De-Schottland.ogg}}
+
+=== {{S|références}} ===
+* {{R:DWDS|Schottland}}
+* {{R:Duden|Schottland}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=de}}
+
+[[Catégorie:Écosse en allemand|*]]
+
+== {{langue|lb}} ==
+=== {{S|étymologie}} ===
+: Mot {{composé de|lang=lb|Schott|Land|sens=pays des Écossais}}.
+
+=== {{S|nom propre|lb}} ===
+{{lb-inv||inv_titre=Nom propre}}
+'''Schottland''' {{pron||lb}} {{n}}
+# {{pays|lb|d’Europe|pays=Écosse|clé=*}} {{lien|Écosse|fr}}.
+#* {{exemple|lang=lb}}
+
+==== {{S|gentilés}} ====
+* {{lien|Schott|lb|sens=Écossais}}, {{lien|Schottin|lb|sens=Écossaise}}
+* {{lien|schottesch|lb|sens=écossais, écossaise}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=lb}}
+
+=== {{S|références}} ===
+: {{R:LOD}}

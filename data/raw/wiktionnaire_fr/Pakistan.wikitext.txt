@@ -1,0 +1,876 @@
+{{voir/pakistan}}
+
+== {{langue|fr}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étyl|ur|fr|پاکستان|pákstán|sens=pays des purs}}, de {{lien|پاک|ur|tr=pak|sens=pur, sacré, chaste, immaculé}}. C’est la création de {{w|Choudhary Rahmat Ali}} qui, en 1933, dans ''Now or Never (Maintenant ou jamais)'', créé le mot, et dont certaines théories évoquent l’[[acronyme]] de ''[[Punjab|'''P'''unjab]]'', ''[[Afghania|'''A'''fghania]]'', ''[[Kashmir|'''K'''ashmir]]'', ''[[Sindh|'''S'''indh]]'' et ''[[Balochistan|Balochis'''tan''']]''. Le ''i'' est postérieur et [[euphonique]], destiné à faciliter la prononciation en anglais (mais peut aussi se réfère à la capitale, ''[[Islamabad|'''I'''slamabad]]).
+
+=== {{S|nom propre|fr}} ===
+[[Image:Pakistan (orthographic projection).svg|thumb|Localisation du '''Pakistan'''.]]
+'''Pakistan''' {{pron|pa.kis.tɑ̃|fr}} {{m}}
+# {{pays|fr|d’Asie}} Pays asiatique entouré par l’[[Iran]], l’[[Afghanistan]], la [[Chine]], l’[[Inde]] et la [[mer d’Oman]], dont la capitale est [[Islamabad]].
+#* {{exemple | lang=fr
+ | En 1947, l'Empire des Indes a été divisé pour donner naissance, à la suite d'une partition sanglante, à deux États, l'Inde et le '''Pakistan''', celui-ci rassemblant deux territoires situés de part et d'autre de l'Inde. La partie orientale s'est détachée du '''Pakistan''' occidental en 1971, en créant le Bangladesh.
+ | source={{w|Henri Dorion}}, ''Ce que cache le nom des lieux'', éditions Multimonde, 2022, p. 195.}}
+#* {{exemple | lang=fr
+ | Seuls les passagers des avions en provenance de l’ouest sont soumis au flytoxage. Les avions venant d’Extrême-Orient ne sont jamais désinfectés. Le '''Pakistan''' ne craint que les miasmes occidentaux.
+ | source={{w|Roger Vailland}}, ''Boroboudour, voyage à Bali, Java et autres îles'', Éditions Corrêa, 1951, Éditions Du Sonneur, 2008}}
+#* {{exemple | lang=fr
+ | C’est désormais au '''Pakistan''', ou en Iran, que la fréquentation des sites de téléchargement de films X est le plus assidue. Qui sait quelles bombes mentales s’allument dans les nuits solitaires de Kaboul ou de Karachi ?
+ | source=Hervé {{pc|Juvin}}, ''Le Gouvernement du désir'', Éditions Gallimard, 2016}}
+
+==== {{S|abréviations}} ====
+* [[PAK]] (norme {{w|ISO 3166-1}} alpha-3)
+
+==== {{S|gentilés}} ====
+* [[Pakistanais]], [[Pakistanaise]], [[pakistanais]]
+
+==== {{S|dérivés}} ====
+{{(}}
+* [[Afpak]]
+* [[Pakistan occidental]]
+* [[Pakistan oriental]]
+* [[pakistaniser]]
+{{)}}
+
+==== {{S|vocabulaire}} ====
+* {{voir thésaurus|fr|lapis lazuli|topaze|émeraude}}
+* [[Inde]]
+* [[Bangladesh]]
+
+==== {{S|traductions}} ====
+{{trad-début|Pays d’Asie}}
+* {{T|af}} : {{trad-|af|Pakistan}}
+* {{T|sq}} : {{trad+|sq|Pakistani}}
+* {{T|gsw}} : {{trad|gsw|Pakistan}}
+* {{T|de}} : {{trad+|de|Pakistan}}
+* {{T|am}} : {{trad-|am|ፓኪስታን}}
+* {{T|en}} : {{trad+|en|Pakistan}}
+* {{T|ar}} : {{trad+|ar|باكستان}}
+* {{T|arz}} : {{trad|arz|باكيستان}}
+* {{T|an}} : {{trad-|an|Pakistán}}
+* {{T|arc}} : {{trad|arc|ܦܩܝܣܛܢ}}
+* {{T|hy}} : {{trad-|hy|Պակիստան|tr=Pakistan}}
+* {{T|as}} : {{trad-|as|পাকিস্তান}}
+* {{T|ast}} : {{trad+|ast|Paquistán}}
+* {{T|az}} : {{trad+|az|Pakistan}}
+* {{T|ba}} : {{trad|ba|Пакистан}}
+* {{T|nds}} : {{trad-|nds|Pakistan}}
+* {{T|rcf}} : {{trad|rcf|Pakistan}}
+* {{T|dsb}} : {{trad|dsb|Pakistan}}
+* {{T|eu}} : {{trad-|eu|Pakistan}}
+* {{T|bn}} : {{trad+|bn|পাকিস্তান}}
+* {{T|be}} : {{trad-|be|Пакістан|tr=Pakìstan}}
+* {{T|be-tarask}} : {{trad|be-tarask|Пакістан}}
+* {{T|bs}} : {{trad-|bs|Pakistan}}
+* {{T|br}} : {{trad+|br|Pakistan}}
+* {{T|bg}} : {{trad+|bg|Пакистан|tr=Pakistan}}
+* {{T|yue}} : {{trad-|yue|巴基斯坦}}
+* {{T|ca}} : {{trad+|ca|Pakistan}}
+* {{T|ceb}} : {{trad|ceb|Pakistan}}
+* {{T|cbk-zam}} : {{trad|cbk-zam|Pakistan}}
+* {{T|zh}} : {{trad+|zh|巴基斯坦|tr=Bājīsītǎn}}
+* {{T|ko}} : {{trad+|ko|파키스탄|tr=Pakiseutan}}
+* {{T|kw}} : {{trad-|kw|Pakistan}}
+* {{T|ht}} : {{trad|ht|Pakistan}}
+* {{T|hr}} : {{trad+|hr|Pakistan}}
+* {{T|da}} : {{trad+|da|Pakistan}}
+* {{T|diq}} : {{trad+|diq|Pakıstan}}
+* {{T|dv}} : {{trad-|dv|ޕާކިސްތާން}}
+* {{T|es}} : {{trad+|es|Pakistán}}
+* {{T|eo}} : {{trad+|eo|Pakistano}}
+* {{T|et}} : {{trad+|et|Pakistan}}
+* {{T|fi}} : {{trad+|fi|Pakistan}}
+* {{T|frp}} : {{trad|frp|Paquistan}}
+* {{T|fy}} : {{trad+|fy|Pakistan}}
+* {{T|gd}} : {{trad-|gd|Pacastan}}, {{trad-|gd|Pagastàn}}
+* {{T|ga}} : {{trad-|ga|Pacastáin}}
+* {{T|gl}} : {{trad+|gl|Paquistán}}
+* {{T|gallo}} : {{trad|gallo|Paqhistan}}
+* {{T|cy}} : {{trad-|cy|Pakistan}}
+* {{T|ka}} : {{trad+|ka|პაკისტანი|tr=pakistani}}
+* {{T|el}} : {{trad+|el|Πακιστάν}}
+* {{T|gn}} : {{trad-|gn|Pakistán}}
+* {{T|gu}} : {{trad-|gu|પાકિસ્તાન}}
+* {{T|hak}} : {{trad|hak|Pâ-kî-sṳ̂-thán}}
+* {{T|ha}} : {{trad-|ha|Pakistan}}
+* {{T|hsb}} : {{trad-|hsb|Pakistan}}
+* {{T|haw}} : {{trad|haw|Pakitana}}
+* {{T|he}} : {{trad-|he|פקיסטן}}
+* {{T|hi}} : {{trad+|hi|पाकिस्तान}}
+* {{T|hif}} : {{trad-|hif|Pakistan}}
+* {{T|hu}} : {{trad+|hu|Pakisztán}}
+* {{T|sah}} : {{trad|sah|Пакистан}}
+* {{T|io}} : {{trad+|io|Pakistan}}
+* {{T|ilo}} : {{trad|ilo|Pakistan}}
+* {{T|id}} : {{trad+|id|Pakistan}}
+* {{T|ia}} : {{trad-|ia|Pakistan}}
+* {{T|ie}} : {{trad-|ie|Pakistan}}
+* {{T|iu}} : {{trad-|iu|ᐸᑭᔅᑕᓐ|R=pakistan}}
+* {{T|is}} : {{trad+|is|Pakistan}}
+* {{T|it}} : {{trad+|it|Pakistan}}, {{trad-|it|Pachistan}}
+* {{T|ja}} : {{trad+|ja|パキスタン|tr=Pakisutan}}
+* {{T|jv}} : {{trad-|jv|Pakistan}}
+* {{T|kab}} : {{trad|kab|Pakistan}}
+* {{T|csb}} : {{trad-|csb|Pakistan}}
+* {{T|kl}} : {{trad-|kl|Pakistan}}
+* {{T|kn}} : {{trad-|kn|ಪಾಕಿಸ್ತಾನ}}
+* {{T|pam}} : {{trad|pam|Pakistan}}
+* {{T|ks}} : {{trad-|ks|پٲکِستان}}
+* {{T|kk}} : {{trad+|kk|Пәкістан}}
+* {{T|kv}} : {{trad|kv|Пакистан}}
+* {{T|avk}} : {{trad|avk|Pakistana}}
+* {{T|ku}} : {{trad+|ku|Pakistan}}
+* {{T|la}} : {{trad+|la|Pakistania}}
+* {{T|lv}} : {{trad+|lv|Pakistāna}}
+* {{T|lij}} : {{trad|lij|Pakistan}}
+* {{T|li}} : {{trad+|li|Pakistan}}
+* {{T|ln}} : {{trad-|ln|Pakistáni}}
+* {{T|lt}} : {{trad+|lt|Pakistanas}}
+* {{T|jbo}} : {{trad-|jbo|kisygu'e}}
+* {{T|lmo}} : {{trad-|lmo|Pakistan}}
+* {{T|lb}} : {{trad-|lb|Pakistan}}
+* {{T|mk}} : {{trad+|mk|Пакистан|tr=Pakistan}}
+* {{T|ms}} : {{trad+|ms|Pakistan}}
+* {{T|ml}} : {{trad-|ml|പാകിസ്താന്‍}}
+* {{T|mt}} : {{trad-|mt|Pakistan}}
+* {{T|bpy}} : {{trad|bpy|পাকিস্তান}}
+* {{T|gv}} : {{trad-|gv|yn Phakistaan}}
+* {{T|mr}} : {{trad-|mr|पाकिस्तान}}
+* {{T|nan}} : {{trad-|nan|Pakistan}}
+* {{T|mn}} : {{trad+|mn|Пакистан}}
+* {{T|nl}} : {{trad+|nl|Pakistan}}
+* {{T|no}} : {{trad+|no|Pakistan}}
+* {{T|nn}} : {{trad+|no|Pakistan}}
+* {{T|nov}} : {{trad|nov|Pakistan}}
+* {{T|oc}} : {{trad+|oc|Paquistan}}
+* {{T|or}} : {{trad-|or|ପାକିସ୍ତାନ}}
+* {{T|os}} : {{trad|os|Пакистан}}
+* {{T|udm}} : {{trad|udm|Пакистан}}
+* {{T|ug}} : {{trad-|ug|پاكىستان}}
+* {{T|ur}} : {{trad+|ur|پاکستان}}
+* {{T|uz}} : {{trad+|uz|Pokiston}}
+* {{T|ps}} : {{trad+|ps|پاکستان}}
+* {{T|pap}} : {{trad|pap|Pakistan}}
+* {{T|pa}} : {{trad-|pa|ਪਾਕਿਸਤਾਨ}}
+* {{T|fa}} : {{trad+|fa|پاکستان}}
+* {{T|pms}} : {{trad|pms|Pakistan}}
+* {{T|pl}} : {{trad+|pl|Pakistan}}
+* {{T|pt}} : {{trad+|pt|Paquistão}}
+* {{T|qu}} : {{trad-|qu|Pakistan}}
+* {{T|ro}} : {{trad+|ro|Pakistan}}
+* {{T|ru}} : {{trad+|ru|Пакистан|tr=Pakistan}}
+* {{T|se}} : {{trad|se|Pakistan}}
+* {{T|sgs}} : {{trad|sgs|Pakėstans}}
+* {{T|sa}} : {{trad-|sa|पाकिस्तान}}
+* {{T|sco}} : {{trad|sco|Pakistan}}
+* {{T|sr}} : {{trad-|sr|Пакистан}}
+* {{T|sh}} : {{trad+|sh|Pakistan}}
+* {{T|scn}} : {{trad-|scn|Pakistan}}
+* {{T|szl}} : {{trad|szl|Pakistan}}
+* {{T|sk}} : {{trad+|sk|Pakistan}}
+* {{T|sl}} : {{trad+|sl|Pakistan}}
+* {{T|su}} : {{trad-|su|Pakistan}}
+* {{T|sv}} : {{trad+|sv|Pakistan}}
+* {{T|sw}} : {{trad+|sw|Pakistan}}
+* {{T|tg}} : {{trad+|tg|Покистон}}
+* {{T|tl}} : {{trad-|tl|Pakistan}}
+* {{T|ta}} : {{trad-|ta|பாக்கித்தான்}}, {{trad-|ta|பாகிஸ்தான்}}
+* {{T|crh}} : {{trad|crh|Pakistan}}
+* {{T|cs}} : {{trad+|cs|Pákistán}}
+* {{T|cv}} : {{trad|cv|Пакистан}}
+* {{T|te}} : {{trad+|te|పాకిస్తాన్}}
+* {{T|th}} : {{trad-|th|ประเทศปากีสถาน}}
+* {{T|bo}} : {{trad-|bo|པ་ཀི་སི་ཐའན}}
+* {{T|tr}} : {{trad+|tr|Pakistan}}
+* {{T|tk}} : {{trad-|tk|Päkistan}}
+* {{T|uk}} : {{trad+|uk|Пакистан}}
+* {{T|vi}} : {{trad+|vi|Pakistan}}, {{trad-|vi|Pa-ki-stan}}
+* {{T|rmy}} : {{trad|rmy|Pakistan}}
+* {{T|vo}} : {{trad-|vo|Pakistän}}
+* {{T|wa}} : {{trad-|wa|Pakistan}}
+* {{T|war}} : {{trad|war|Pakistan}}
+* {{T|wo}} : {{trad-|wo|Pakistaan}}
+* {{T|wuu}} : {{trad|wuu|巴基斯坦}}
+* {{T|yi}} : {{trad-|yi|פאקיסטאן}}
+* {{T|yo}} : {{trad-|yo|Pakistan}}
+{{trad-fin}}
+
+=== {{S|prononciation}} ===
+* {{écouter||pa.kis.tɑ̃|lang=fr|audio=LL-Q150 (fra)-Jules78120-Pakistan.wav}}
+* {{écouter|lang=fr|France (Paris)|audio=LL-Q150 (fra)-GrandCelinien-Pakistan.wav}}
+* {{écouter|lang=fr|France (Occitanie)|audio=LL-Q150 (fra)-Arthur Crbz-Pakistan.wav}}
+* {{écouter|lang=fr|France||audio=LL-Q150 (fra)-Mecanautes-Pakistan.wav}}
+
+=== {{S|voir aussi}} ===
+* {{WP}}
+[[Catégorie:Pakistan en français|*]]
+[[Catégorie:Mots en français suffixés avec -istan]]
+
+== {{langue|af}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étylp|ur|af|پاکستان|pákstán}}.
+
+=== {{S|nom propre|af}} ===
+'''Pakistan''' {{pron||af}}
+# {{pays|af|d’Asie}} {{lien|Pakistan|fr}}.
+#* {{exemple|lang=af}}
+
+== {{langue|gsw}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étylp|ur|gsw|پاکستان|pákstán}}.
+
+=== {{S|nom propre|gsw}} ===
+'''Pakistan''' {{pron||gsw}}
+# {{pays|gsw}} {{lien|Pakistan|fr}}.
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|ur|de|پاکستان|pákstán}}.
+
+=== {{S|nom propre|de}} ===
+{{de-nom-propre|genre=n|gs2=Pakistans}}
+'''Pakistan''' {{pron|ˈpaː.kɪs.tan|de}}
+# {{pays|de|d’Asie}} {{lien|Pakistan|fr}}.
+#* {{exemple|In den USA, Großbritannien und '''Pakistan''' wurden in Solaranlagen benötigte Wechselrichter von Deye deaktiviert – wohl aufgrund juristischer Streitigkeiten.|lang=de|sens=Aux États-Unis, en Grande-Bretagne et au Pakistan, des onduleurs Deye nécessaires dans des installations solaires ont été désactivés, probablement en raison de litiges juridiques.|source={{périodique|auteur=Günter Born|titre=Deye-Wechselrichter in einigen Ländern abgeschaltet|journal=Golem.de|date=27 novembre 2024|texte=https://www.golem.de/news/chinesischer-hersteller-deye-wechselrichter-in-einigen-laendern-abgeschaltet-2411-191191.html}}}}
+
+==== {{S|synonymes}} ====
+* {{lien|Islamische Republik Pakistan|de}}
+
+==== {{S|hyperonymes}} ====
+* {{lien|asiatisch|de}}
+* {{lien|Land|de}}
+
+==== {{S|dérivés}} ====
+* [[Pakistaner]]
+* [[Pakistani]]
+* [[pakistanisch]]
+
+=== {{S|prononciation}} ===
+* {{écouter|Berlin|ˈpaːkɪstaːn|lang=de|audio=De-Pakistan.ogg}}
+
+=== {{S|anagrammes}} ===
+{{voir anagrammes|de}}
+
+[[Catégorie:Pakistan en allemand|*]]
+
+== {{langue|en}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étylp|ur|en|پاکستان|pákstán}}.
+
+=== {{S|nom propre|en}} ===
+'''Pakistan''' {{pron||en}}
+# {{pays|en|d’Asie}} {{lien|Pakistan|fr}}.
+
+==== {{S|dérivés}} ====
+* [[Paki]]
+* [[Pakistani]]
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=en|{{US|nocat=1}}|audio=En-us-Pakistan.ogg}}
+* {{écouter|Londres (Royaume-Uni)||lang=en|audio=}}
+* {{écouter|Texas (États-Unis)||lang=en|audio=LL-Q1860 (eng)-Wodencafe-Pakistan.wav}}
+* {{écouter|Londres (Royaume-Uni)||lang=en|audio=LL-Q1860 (eng)-Soundguys-Pakistan.wav}}
+* {{écouter|Vijayawada (Inde)||niveau=bon|lang=en|audio=LL-Q1860 (eng)-Baswameenakshi-Pakistan.wav}}
+* {{écouter|||lang=en|audio=LL-Q1860 (eng)-Saikrishna gangula-Pakistan.wav}}
+* {{écouter|||lang=en|audio=LL-Q1860 (eng)-Boredcookie-Pakistan.wav}}
+* {{écouter|New York (États-Unis)||lang=en|audio=LL-Q1860 (eng)-Assorted-Interests-Pakistan.wav}}
+
+[[Catégorie:Pakistan en anglais|*]]
+
+== {{langue|az}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étylp|ur|az|پاکستان|pákstán}}.
+
+=== {{S|nom propre|az}} ===
+{{az-décl-nom|a|c}}
+'''Pakistan''' {{pron|pɑ.cis.ˈtɑn|az}} {{az-forme possessive}}
+# {{pays|az|d’Asie}} {{lien|Pakistan|fr}}.
+
+==== {{S|gentilés}} ====
+* [[pakistanlı]]
+
+== {{langue|nds}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étylp|ur|nds|پاکستان|pákstán}}.
+
+=== {{S|nom propre|nds}} ===
+'''Pakistan''' {{pron||nds}}
+# {{pays|nds}} {{lien|Pakistan|fr}}.
+
+== {{langue|dsb}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étylp|ur|dsb|پاکستان|pákstán}}.
+
+=== {{S|nom propre|dsb}} ===
+'''Pakistan''' {{pron||dsb}}
+# {{pays|dsb}} {{lien|Pakistan|fr}}.
+
+== {{langue|eu}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étylp|ur|eu|پاکستان|pákstán}}.
+
+=== {{S|nom propre|eu}} ===
+'''Pakistan''' {{pron||eu}}
+# {{pays|eu|d’Asie}} {{lien|Pakistan|fr}}.
+
+[[Catégorie:Pakistan en basque|*]]
+
+== {{langue|bs}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étylp|ur|bs|پاکستان|pákstán}}.
+
+=== {{S|nom propre|bs}} ===
+'''Pakistan''' {{pron||bs}}
+# {{pays|bs|d’Asie}} {{lien|Pakistan|fr}}.
+
+[[Catégorie:Pakistan en bosniaque|*]]
+
+== {{langue|br}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étylp|fr|br|mot=Pakistan}}.
+
+=== {{S|nom propre|br}} ===
+{{br-nom-pr|Pakistan}}
+'''Pakistan''' {{pron|pa.ˈkis.tãn|br}} {{m}}
+# {{pays|br|d’Asie}} {{lien|Pakistan|fr}}.
+#* {{exemple | lang=br
+ | Bloaz goude, e varve Gandhi, lazhet gant un Hindouad eus an tu Dehou n’ en doa ket meizet e wanded evit an Islam ; Gandhi evit gwir a oa savet a-du gant savidigezh '''Pakistan'''.
+ | Un an plus tard, Gandhi mourait, tué par par un Hindou de Droite qui n’avait pas compris sa faiblesse pour l’Islam ; Gandhi en fait s’était prononcé en faveur de la création du Pakistan.
+ | source=abEnnez, ''Gandhi'', in ''{{w|Al Liamm}}'', n{{e|o}} 118, septambre-ostobre 1966, page 343}}
+#* {{exemple | lang=br
+ | E miz Mae ecʼh en em gavjont e Bro-'''Bakistan'''.
+ | En mai ils se retrouvèrent au Pakistan.
+ | source={{w|Goulcʼhan Kervella|Goulcʼhan Kervella}}, ''Ar pagan spontus sirkus'', in ''{{w|Ya !}}'', n{{e|o}} 863-864, 24 décembre 2021, page 9}}
+
+==== {{S|gentilés}} ====
+* [[Pakistanad]], [[Pakistanadez]]
+* [[pakistanat]]
+
+== {{langue|ca}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étylp|ur|ca|پاکستان|pákstán}}.
+
+=== {{S|nom propre|ca}} ===
+'''Pakistan''' {{pron||ca}}
+# {{pays|ca|d’Asie}} {{lien|Pakistan|fr}}.
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=ca|Espagne (Villarreal)||audio=LL-Q7026 (cat)-Millars-Pakistan.wav}}
+
+[[Catégorie:Pakistan en catalan|*]]
+
+== {{langue|ceb}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étylp|ur|ceb|پاکستان|pákstán}}.
+
+=== {{S|nom propre|ceb}} ===
+'''Pakistan''' {{pron||ceb}}
+# {{pays|ceb}} {{lien|Pakistan|fr}}.
+
+== {{langue|cbk-zam}} ==
+=== {{S|nom propre|cbk-zam}} ===
+'''Pakistan''' {{pron||cbk-zam}}
+# {{pays|cbk-zam}} {{lien|Pakistan|fr}}.
+
+== {{langue|kw}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étylp|en|kw|mot=Pakistan}}.
+
+=== {{S|nom propre|kw}} ===
+'''Pakistan''' {{pron||kw}}
+# {{pays|kw}} {{lien|Pakistan|fr}}.
+
+== {{langue|ht}} ==
+=== {{S|nom propre|ht}} ===
+'''Pakistan''' {{pron||ht}}
+# {{pays|ht|d’Asie}} {{lien|Pakistan|fr}}.
+#* {{exemple|lang=ht}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=ht}}
+
+== {{langue|hr}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étylp|ur|hr|پاکستان|pákstán}}.
+
+=== {{S|nom propre|hr}} ===
+'''Pakistan''' {{pron||hr}}
+# {{pays|hr|d’Asie}} {{lien|Pakistan|fr}}.
+
+== {{langue|da}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étylp|ur|da|پاکستان|pákstán}}.
+
+=== {{S|nom propre|da}} ===
+'''Pakistan''' {{pron||da}}
+# {{pays|da|d’Asie}} {{lien|Pakistan|fr}}.
+
+[[Catégorie:Pakistan en danois|*]]
+
+== {{langue|et}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étylp|ur|et|پاکستان|pákstán}}.
+
+=== {{S|nom propre|et}} ===
+'''Pakistan''' {{pron||et}}
+# {{pays|et|d’Asie}} {{lien|Pakistan|fr}}.
+
+[[Catégorie:Pakistan en estonien|*]]
+
+== {{langue|fi}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étylp|ur|fi|پاکستان|pákstán}}.
+
+=== {{S|nom propre|fi}} ===
+'''Pakistan''' {{pron||fi}}
+# {{pays|fi|d’Asie}} {{lien|Pakistan|fr}}.
+#* {{exemple|lang=fi}}
+
+==== {{S|dérivés}} ====
+* {{lien|pakistanilainen|fi}} — Pakistanais, Pkistanaise
+* {{lien|pakistanintikka|fi}} — pic de Sind
+
+[[Catégorie:Pakistan en finnois|*]]
+
+== {{langue|fy}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étylp|ur|fy|پاکستان|pákstán}}.
+
+=== {{S|nom propre|fy}} ===
+'''Pakistan''' {{pron||fy}}
+# {{pays|fy|d’Asie}} {{lien|Pakistan|fr}}.
+
+== {{langue|cy}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étylp|en|cy|mot=Pakistan}}.
+
+=== {{S|nom propre|cy}} ===
+'''Pakistan''' {{pron||cy}}
+# {{pays|cy|d’Asie}} {{lien|Pakistan|fr}}.
+
+== {{langue|ha}} ==
+=== {{S|nom propre|ha}} ===
+'''Pakistan''' {{pron||ha}}
+# {{pays|ha}} {{lien|Pakistan|fr}}.
+
+== {{langue|hsb}} ==
+=== {{S|nom propre|hsb}} ===
+'''Pakistan''' {{pron||hsb}}
+# {{pays|hsb}} {{lien|Pakistan|fr}}.
+
+== {{langue|hif}} ==
+=== {{S|nom propre|hif}} ===
+'''Pakistan''' {{pron||hif}}
+# {{pays|hif}} {{lien|Pakistan|fr}}.
+
+== {{langue|io}} ==
+=== {{S|nom propre|io}} ===
+'''Pakistan''' {{pron||io}}
+# {{pays|io|d’Asie}} {{lien|Pakistan|fr}}.
+
+== {{langue|ilo}} ==
+=== {{S|nom propre|ilo}} ===
+'''Pakistan''' {{pron||ilo}}
+# {{pays|ilo}} {{lien|Pakistan|fr}}.
+
+== {{langue|id}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étylp|ur|id|پاکستان|pákstán}}.
+
+=== {{S|nom propre|id}} ===
+'''Pakistan''' {{pron||id}}
+# {{pays|id|d’Asie}} {{lien|Pakistan|fr}}.
+#* {{exemple|lang=id}}
+
+[[Catégorie:Pakistan en indonésien|*]]
+
+== {{langue|ia}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étylp|ur|ia|پاکستان|pákstán}}.
+
+=== {{S|nom propre|ia}} ===
+'''Pakistan''' {{pron||ia}}
+# {{pays|ia|d’Asie}} {{lien|Pakistan|fr}}.
+
+== {{langue|ie}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étylp|ur|ie|پاکستان|pákstán}}.
+
+=== {{S|nom propre|ie}} ===
+'''Pakistan''' {{pron||ie}}
+# {{pays|ie}} {{lien|Pakistan|fr}}.
+
+== {{langue|is}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étylp|ur|is|پاکستان|pákstán}}.
+
+=== {{S|nom propre|is}} ===
+'''Pakistan''' {{pron||is}}
+# {{pays|is|d’Asie}} {{lien|Pakistan|fr}}.
+
+[[Catégorie:Pakistan en islandais|*]]
+
+== {{langue|it}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étylp|ur|it|پاکستان|pákstán}}.
+
+=== {{S|nom propre|it}} ===
+'''Pakistan''' {{pron|pa.ki.ˈstan|it}} {{m}}
+# {{pays|it|d’Asie}} {{lien|Pakistan|fr}}.
+
+==== {{S|variantes}} ====
+* [[Pachistan#it|Pachistan]]
+
+==== {{S|gentilés}} ====
+* [[pakistano#it|pakistano]], [[pakistana#it|pakistana]]
+
+=== {{S|voir aussi}} ===
+* {{Annexe|Pays et leurs gentilés en italien}}
+* {{WP|lang=it}}
+* {{WQ|lang=it}}
+* {{VOY|lang=it}}
+* {{Vikidia|lang=it}}
+
+[[Catégorie:Pakistan en italien|*]]
+
+== {{langue|jv}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étylp|ur|jv|پاکستان|pákstán}}.
+
+=== {{S|nom propre|jv}} ===
+'''Pakistan''' {{pron||jv}}
+# {{pays|jv}} {{lien|Pakistan|fr}}.
+
+== {{langue|kab}} ==
+=== {{S|nom propre|kab}} ===
+'''Pakistan''' {{pron||kab}}
+# {{pays|kab}} {{lien|Pakistan|fr}}.
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=kab|Émirats arabes unis (Dubaï)||audio=LL-Q35853 (kab)-Zakaria Mimouni-Pakistan.wav}}
+
+== {{langue|csb}} ==
+=== {{S|nom propre|csb}} ===
+'''Pakistan''' {{pron||csb}}
+# {{pays|csb}} {{lien|Pakistan|fr}}.
+
+== {{langue|kl}} ==
+=== {{S|nom propre|kl}} ===
+'''Pakistan''' {{pron||kl}}
+# {{pays|kl}} {{lien|Pakistan|fr}}.
+
+== {{langue|pam}} ==
+=== {{S|nom propre|pam}} ===
+'''Pakistan''' {{pron||pam}}
+# {{pays|pam}} {{lien|Pakistan|fr}}.
+
+== {{langue|ku}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étylp|ur|ku|پاکستان|pákstán}}.
+
+=== {{S|nom propre|ku}} ===
+'''Pakistan''' {{pron||ku}}
+# {{pays|ku|d’Asie}} {{lien|Pakistan|fr}}.
+
+== {{langue|lij}} ==
+=== {{S|nom propre|lij}} ===
+'''Pakistan''' {{pron||lij}}
+# {{pays|lij}} {{lien|Pakistan|fr}}.
+
+== {{langue|li}} ==
+=== {{S|nom propre|li}} ===
+'''Pakistan''' {{pron||li}}
+# {{pays|li}} {{lien|Pakistan|fr}}.
+
+== {{langue|lmo}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étylp|it|lmo|mot=Pakistan}}.
+
+=== {{S|nom propre|lmo}} ===
+'''Pakistan''' {{pron||lmo}}
+# {{pays|lmo}} {{lien|Pakistan|fr}}.
+
+== {{langue|lb}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|ur|lb|پاکستان|pákstán}}.
+
+=== {{S|nom propre|lb}} ===
+{{lb-inv|pˈɑkistaːn|inv_titre=Nom propre}}
+'''Pakistan''' {{pron|pˈɑkistaːn|lb}} {{mn ?|lb}}
+# {{pays|lb|d’Asie|pays=Pakistan|clé=*}} {{lien|Pakistan|fr}}.
+#* {{exemple|lang=lb}}
+
+==== {{S|gentilés}} ====
+* {{lien|Pakistaner|lb|sens=Pakistanais}}, {{lien|Pakistanerin|lb|sens=Pakistanaise}}
+* {{lien|pakistanesch|lb|sens=pakistanais, pakistanaise}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=lb}}
+
+=== {{S|références}} ===
+: {{R:LOD}}
+
+== {{langue|ms}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étylp|ur|ms|پاکستان|pákstán}}.
+
+=== {{S|nom propre|ms}} ===
+'''Pakistan''' {{pron||ms}}
+# {{pays|ms|d’Asie}} {{lien|Pakistan|fr}}.
+
+== {{langue|mt}} ==
+=== {{S|nom propre|mt}} ===
+'''Pakistan''' {{pron||mt}}
+# {{pays|mt}} {{lien|Pakistan|fr}}.
+
+== {{langue|nan}} ==
+=== {{S|nom propre|nan}} ===
+'''Pakistan''' {{pron||nan}}
+# {{pays|nan}} {{lien|Pakistan|fr}}.
+
+== {{langue|nl}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étylp|ur|nl|پاکستان|pákstán}}.
+
+=== {{S|nom propre|nl}} ===
+'''Pakistan''' {{pron||nl}}
+# {{pays|nl|d’Asie}} {{lien|Pakistan|fr}}.
+
+=== {{S|prononciation}} ===
+* {{écouter|||lang=nl|audio=Nl-Pakistan.ogg}}
+
+[[Catégorie:Pakistan en néerlandais|*]]
+
+== {{langue|no}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étylp|ur|no|پاکستان|pákstán}}.
+
+=== {{S|nom propre|no}} ===
+'''Pakistan''' {{pron||no}}
+# {{pays|no|d’Asie}} {{lien|Pakistan|fr}}.
+
+[[Catégorie:Pakistan en norvégien|*]]
+
+== {{langue|nn}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étylp|no|nn|mot=Pakistan}}.
+
+=== {{S|nom propre|nn}} ===
+'''Pakistan''' {{pron||nn}}
+# {{pays|nn|d’Asie}} {{lien|Pakistan|fr}}.
+
+== {{langue|nov}} ==
+=== {{S|nom propre|nov}} ===
+'''Pakistan''' {{pron||nov}}
+# {{pays|nov}} {{lien|Pakistan|fr}}.
+
+== {{langue|pap}} ==
+=== {{S|nom propre|pap}} ===
+'''Pakistan''' {{pron||pap}}
+# {{pays|pap}} {{lien|Pakistan|fr}}.
+
+== {{langue|pms}} ==
+=== {{S|nom propre|pms}} ===
+'''Pakistan''' {{pron||pms}}
+# {{pays|pms}} {{lien|Pakistan|fr}}.
+
+== {{langue|pl}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étylp|ur|pl|پاکستان|pákstán}}.
+
+=== {{S|nom propre|pl}} ===
+{{pl-décl-nom-mi-dur|Pakistan|sing=oui|vs-ie=oui|gs-u=oui|ls-ie=oui}}
+'''Pakistan''' {{pron||pl}}
+# {{pays|pl|d’Asie}} {{lien|Pakistan|fr}}.
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=pl||audio=Pl-Pakistan.ogg}}
+
+[[Catégorie:Pakistan en polonais|*]]
+
+== {{langue|qu}} ==
+=== {{S|nom propre|qu}} ===
+'''Pakistan''' {{pron||qu}}
+# {{pays|qu}} {{lien|Pakistan|fr}}.
+
+== {{langue|ro}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étylp|ur|ro|پاکستان|pákstán}}.
+
+=== {{S|nom propre|ro}} ===
+'''Pakistan''' {{pron||ro}}
+{{ro-nom-tab|ns=Pakistan|as=Pakistanul|dns=Pakistan|ds=Pakistanului|vs=Pakistanule}}
+# {{pays|ro|d’Asie}} {{lien|Pakistan|fr}}.
+
+==== {{S|gentilés}} ====
+* [[pakistanez]], [[pakistaneză]]
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=ro|||audio=LL-Q7913 (ron)-KlaudiuMihaila-Pakistan.wav}}
+
+[[Catégorie:Pakistan en roumain|*]]
+
+== {{langue|se}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étylp|ur|se|پاکستان|pákstán}}.
+
+=== {{S|nom propre|se}} ===
+'''Pakistan''' {{pron||se}}
+# {{pays|se|d’Asie}} {{lien|Pakistan|fr}}.
+
+== {{langue|sh}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étylp|ur|sh|پاکستان|pákstán}}.
+
+=== {{S|nom propre|sh}} ===
+'''Pakistan''' {{pron||sh}}
+# {{pays|sh|d’Asie}} {{lien|Pakistan|fr}}.
+
+== {{langue|scn}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étylp|it|scn|mot=Pakistan}}.
+
+=== {{S|nom propre|scn}} ===
+'''Pakistan''' {{pron||scn}}
+# {{pays|scn|d’Asie}} {{lien|Pakistan|fr}}.
+
+=== {{S|prononciation}} ===
+* {{écouter|Gela (Italie)||lang=scn|audio=LL-Q33973 (scn)-XANA000-Pakistan.wav}}
+
+== {{langue|szl}} ==
+=== {{S|nom propre|szl}} ===
+'''Pakistan''' {{pron||szl}}
+# {{pays|szl}} {{lien|Pakistan|fr}}.
+
+== {{langue|sk}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étylp|ur|sk|پاکستان|pákstán}}.
+
+=== {{S|nom propre|sk}} ===
+'''Pakistan''' {{pron||sk}}
+# {{pays|sk|d’Asie}} {{lien|Pakistan|fr}}.
+
+== {{langue|sl}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étylp|ur|sl|پاکستان|pákstán}}.
+
+=== {{S|nom propre|sl}} ===
+'''Pakistan''' {{pron||sl}}
+# {{pays|sl|d’Asie}} {{lien|Pakistan|fr}}.
+
+== {{langue|su}} ==
+=== {{S|nom propre|su}} ===
+'''Pakistan''' {{pron||su}}
+# {{pays|su}} {{lien|Pakistan|fr}}.
+
+== {{langue|sv}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étylp|ur|sv|پاکستان|pákstán}}.
+
+=== {{S|nom propre|sv}} ===
+'''Pakistan''' {{pron||sv}}
+# {{pays|sv|d’Asie}} {{lien|Pakistan|fr}}.
+
+=== {{S|prononciation}} ===
+* {{écouter|Suède||lang=sv|audio=LL-Q9027 (swe)-Moonhouse-Pakistan.wav}}
+
+[[Catégorie:Pakistan en suédois|*]]
+
+== {{langue|sw}} ==
+=== {{S|nom propre|sw}} ===
+'''Pakistan''' {{pron||sw}}
+# {{pays|sw|d’Asie}} {{lien|Pakistan|fr}}.
+
+== {{langue|tl}} ==
+=== {{S|nom propre|tl}} ===
+'''Pakistan''' {{pron||tl}}
+# {{pays|tl|d’Asie}} {{lien|Pakistan|fr}}.
+
+== {{langue|crh}} ==
+=== {{S|nom propre|crh}} ===
+'''Pakistan''' {{pron||crh}}
+# {{pays|crh}} {{lien|Pakistan|fr}}.
+
+== {{langue|tr}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étylp|ur|tr|پاکستان|pákstán}}.
+
+=== {{S|nom propre|tr}} ===
+'''Pakistan''' {{pron||tr}}
+# {{pays|tr|d’Asie}} {{lien|Pakistan|fr}}.
+
+=== {{S|prononciation}} ===
+* {{écouter|Izmir (Turquie)||lang=tr|audio=LL-Q256 (tur)-ToprakM-Pakistan.wav}}
+
+[[Catégorie:Pakistan en turc|*]]
+
+== {{langue|vi}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étylp|ur|vi|پاکستان|pákstán}}.
+
+=== {{S|nom propre|vi}} ===
+'''Pakistan''' {{pron||vi}}
+# {{pays|vi|d’Asie}} {{lien|Pakistan|fr}}.
+
+[[Catégorie:Pakistan en vietnamien|*]]
+
+== {{langue|rmy}} ==
+=== {{S|nom propre|rmy}} ===
+'''Pakistan''' {{pron||rmy}}
+# {{pays|rmy}} {{lien|Pakistan|fr}}.
+
+== {{langue|wa}} ==
+=== {{S|nom propre|wa}} ===
+'''Pakistan''' {{pron||wa}}
+# {{pays|wa}} {{lien|Pakistan|fr}}.
+
+== {{langue|war}} ==
+=== {{S|nom propre|war}} ===
+'''Pakistan''' {{pron||war}}
+# {{pays|war}} {{lien|Pakistan|fr}}.
+
+== {{langue|yo}} ==
+=== {{S|nom propre|yo}} ===
+'''Pakistan''' {{pron||yo}}
+# {{pays|yo}} {{lien|Pakistan|fr}}.

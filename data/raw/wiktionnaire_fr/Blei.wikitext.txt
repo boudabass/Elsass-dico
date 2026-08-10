@@ -1,0 +1,105 @@
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|de|gsw|mot=Blei}}.
+
+=== {{S|nom|gsw}} ===
+'''Blei''' {{pron||gsw}} {{n}}
+# {{éléments|gsw}} {{métaux|gsw}} [[plomb#fr|Plomb]].
+#* {{exemple|lang=gsw}}
+
+==== {{S|vocabulaire}} ====
+{{tableau périodique/gsw}}
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: {{laé|de|nom|1}} Du {{étyl|gmh|de|mot=bli}}, apparenté à {{lien|''Bläi''|}} en luxembourgeois, {{lien|''bly''|da}} en danois, norvégien et suédois ; plus avant, à {{lien|''blau''|de|sens=bleu}} : « métal bleuté »{{R|Duden|Blei_Schwermetall}}.
+: {{laé|de|nom|2}} Du {{étyl|dum|de|mot=bloie}}{{R|Duden|Blei_Brachse}}, avec le sens de « poisson blanc, brillant », apparenté au précédent, à l’ancien français {{lien|''bloi''|fro|sens=blond}}.
+
+=== {{S|nom|de|num=1}} ===
+{{de-nom-n-s-e|gs2=Bleies}}
+{{légende élément/de|Pb}}
+[[Image:Lead_electrolytic_and_1cm3_cube.jpg|thumb|'''Blei'''.]]
+'''Blei''' {{pron|blaɪ̯|de}} {{n}} 
+# {{éléments|de}} {{métaux|de}} [[plomb#fr|Plomb]].
+#* {{exemple|Der Neutrinodetektor des Italienischen Instituts für Nuklearphysik enthält zum Beispiel '''Blei''', das aus einem römischen Wrack geborgen wurde.|lang=de|sens=Le détecteur de neutrinos de l’Institut italien de physique nucléaire contient par exemple du plomb récupéré dans une épave romaine.|source={{périodique|auteur=Bert Eder|titre=China birgt wertvollen Stahl aus Schiffen, die vor ersten Atomtests sanken|journal=Der Standard|date=31 mai 2023|texte=https://www.derstandard.at/story/3000000172431/china-birgt-unverstrahlten-stahl-aus-schiffswracks-aus-dem-zweiten-weltkrieg-briten-empoert}}}}
+#* {{exemple|Sportschützen benutzen gern '''Blei'''munition, weil sie damit präzise treffen. Da die EU gegen '''Blei''' vorgeht, ist die Sorge auf den Schießplätzen groß.|lang=de|sens=Les tireurs sportifs aiment utiliser des munitions au plomb parce qu’elles leur permettent de tirer avec précision. L’UE ayant pris des mesures contre le plomb, l’inquiétude est grande dans les champs de tir.|source={{périodique|auteur=Markus Völker|titre=Ächtung von Bleimunition: Bummbumm mit Plumbum|journal=taz|date=16 février 2024|texte=https://taz.de/Aechtung-von-Bleimunition/!5990191/}}}}
+# Plomb, projectile de petit calibre.
+#* {{exemple|lang=de}}
+
+==== {{S|dérivés}} ====
+{{(|&nbsp;}}
+* {{lien|Bleiacetat|de}}
+* {{lien|Bleiasche|de}}
+* {{lien|bleiern|de}}
+* {{lien|bleifarben|de}}
+* {{lien|bleifarbig|de}}
+* {{lien|Bleifassung|de}}
+* {{lien|Bleifigur|de}}
+* {{lien|bleifrei|de}}
+* {{lien|Bleifuß|de}}
+* {{lien|Bleigehalt|de}}
+* {{lien|Bleiglanz|de}}
+* {{lien|Bleiguss|de}}
+* {{lien|bleihaltig|de}}
+* {{lien|Bleikammer|de}}
+* {{lien|Bleikristall|de}}
+* {{lien|Bleikugel|de}}
+* {{lien|Bleilegierung|de}}
+* {{lien|Bleioxid|de}}
+* {{lien|Bleirohr|de}}
+* {{lien|Bleisatz|de}}
+* {{lien|Bleischürze|de}}
+* {{lien|bleischwer|de}}
+* {{lien|Bleisoldat|de}}
+* {{lien|Bleistift|de}}
+* {{lien|Bleivergiftung|de}}
+* {{lien|Bleizucker|de}}
+* {{lien|Eka-Blei|de}}
+* {{lien|Hartblei|de}}
+{{)}}
+
+=== {{S|nom|de|num=2}} ===
+[[File:Braxen, Iduns kokbok.jpg|thumb]]
+'''Blei''' {{pron|blaɪ̯|de}} {{n}} 
+# {{poissons|de}} [[brème#fr|Brème]].
+#* {{exemple|lang=de}}
+
+==== {{S|synonymes}} ====
+* {{lien|Brachse|de}}, {{lien|Brasse|de}}
+
+==== {{S|vocabulaire}} ====
+* {{voir thésaurus|de|tableau périodique des éléments}}
+{{tableau périodique/de}}
+
+=== {{S|prononciation}} ===
+* {{écouter|Vienne|blaɪ̯|lang=de|audio=De-at-Blei.ogg}}
+* {{écouter|Berlin|blaɪ̯|lang=de|audio=De-Blei.ogg}}
+* {{écouter|Allemagne|blaɪ̯|lang=de|audio=LL-Q188 (deu)-Lucas Werkmeister-Blei.wav}}
+* {{écouter|Berlin|blaɪ̯|lang=de|audio=LL-Q188 (deu)-Sebastian Wallroth-Blei.wav}}
+* {{écouter|Munich|blaɪ̯|lang=de|audio=LL-Q188 (deu)-Michael Schoenitzer (MichaelSchoenitzer)-Blei.wav}}
+
+=== {{S|anagrammes}} ===
+{{voir anagrammes|de}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=de}}
+
+=== {{S|références}} ===
+* {{Source-wikt|de|Blei}}
+{{Références}}
+
+== {{langue|lb}} ==
+=== {{S|étymologie}} ===
+: {{date|lang=lb}} {{ébauche-étym|lb}}
+
+=== {{S|nom de famille|lb}} ===
+{{lb-inv|blɑɪ}}
+'''Blei''' {{pron|blɑɪ|lb}}
+# Nom de famille.
+#* {{exemple|lang=lb}}
+
+=== {{S|prononciation}} ===
+{{ébauche-pron-audio|lb}}
+
+=== {{S|références}} ===
+* {{R:Luxemburger Familiennamenbuch}}

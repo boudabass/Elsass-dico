@@ -1,0 +1,335 @@
+{{voir/wales}}
+
+== {{langue|fr}} ==
+{{ébauche|fr}}
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|fr}}
+
+=== {{S|nom propre|fr}} ===
+{{fr-inv||inv_titre=Nom propre}}
+'''Wales''' {{pron||fr}}
+# {{localités|fr|d’Angleterre}} [[paroisse civile|Paroisse civile]] d’[[Angleterre]] située dans le district de [[Rotherham]].
+
+==== {{S|traductions}} ====
+{{trad-début|}}
+* {{T|en}} : {{trad+|en|Wales}}
+{{trad-fin}}
+
+=== {{S|anagrammes}} ===
+{{voir anagrammes|fr}}
+
+=== {{S|voir aussi}} ===
+* {{WP}}
+
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw}}
+
+=== {{S|nom propre|gsw}} ===
+'''Wales''' {{pron||gsw}}
+# [[Pays de Galles]] (une des nations composant le Royaume-Uni).
+
+[[Catégorie:Pays en alémanique]]
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|de}}
+
+=== {{S|nom propre|de}} ===
+{{de-nom-propre|genre=n|gs=Wales|gs2=Wales'}}
+'''Wales''' {{pron|veɪlz|veːls|ˈvaːləs|de}}
+# {{pays|d’Europe|de}} {{Royaume-Uni|de}}[[Pays de Galles]] : une des [[nation]]s composant le [[Royaume-Uni]].
+
+=== {{S|nom|de|flexion}} ===
+{{de-nom-m-s-e|dse=opt|gse=opt|ns=Wal}}
+'''Wales''' {{pron|veɪlz|de}}, {{pron|veːls|de}}, {{pron|ˈvaːləs|de}} {{m}}
+# ''Génitif singulier de'' {{lien|Wal|de}}.
+
+==== {{S|variantes}} ====
+* {{lien|Wales|de}}
+
+=== {{S|prononciation}} ===
+* {{écouter|Berlin|veɪlz|lang=de|audio=De-Wales2.ogg}}
+* {{écouter|Berlin|veɪlz|lang=de|audio=De-Wales.ogg}}
+* {{écouter|Berlin|veɪlz|lang=de|audio=LL-Q188 (deu)-Sebastian Wallroth-Wales.wav}}
+
+== {{langue|fro}} ==
+
+=== {{S|nom propre|fro}} ===
+'''Wales''' {{pron-recons||fro}}
+# {{variante de|Gales|fro}}
+
+[[Catégorie:Pays en ancien français]]
+
+== {{langue|en}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|en}}
+
+=== {{S|nom propre|en}} ===
+'''Wales''' {{pron||en}}
+# [[Pays de Galles]] (une des nations composant le Royaume-Uni).
+# {{localités|en|d’Angleterre}} [[paroisse civile|Paroisse civile]] d’[[Angleterre]] située dans le district de [[Rotherham]].
+
+==== {{S|notes}} ====
+Dans la première acception (Pays de Galles), Wales peut être accompagné de pronoms et d’adjectifs de genre féminin, comme c’est le cas pour un grand nombre de pays :
+* ''After all these years, I am forever grateful to him for helping foster my deep and abiding love for Wales, her people and her culture.'' {{source|1={{w|Charles de Galles|Charles, prince de Galles}}, [http://www.noblesseetroyautes.com/le-prince-charles-rend-homage-a-son-professeur-gallois/ communiqué après l'annonce du décès d'Edward Millward], survenu le 27 avril 2020, communiqué reproduit sur le blog ''Noblesse & Royautés''. {{w|en|Edward Millward}} fut le professeur de gallois du prince de Galles, en 1969, avant son investiture.}}
+
+==== {{S|dérivés}} ====
+* [[Welsh]]
+
+=== {{S|prononciation}} ===
+{{ébauche-pron|en}}
+* {{écouter|lang=en|États-Unis <!-- précisez svp la ville ou la région -->||audio=En-us-Wales.ogg}}
+* {{écouter|lang=en|Royaume-Uni (Londres)||audio=LL-Q1860 (eng)-Back ache-Wales.wav}}
+
+[[Catégorie:Pays d’Europe en anglais]]
+[[Catégorie:Pays de Galles en anglais|*]]
+
+== {{langue|rup}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|rup}}
+
+=== {{S|nom propre|rup}} ===
+'''Wales''' {{pron||rup}}
+# [[Pays de Galles]] (une des nations composant le Royaume-Uni).
+
+[[Catégorie:Pays en aroumain]]
+
+== {{langue|nds}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|nds}}
+
+=== {{S|nom propre|nds}} ===
+'''Wales''' {{pron||nds}}
+# [[Pays de Galles]] (une des nations composant le Royaume-Uni).
+
+[[Catégorie:Pays en bas allemand]]
+
+== {{langue|hr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|hr}}
+
+=== {{S|nom propre|hr}} ===
+'''Wales''' {{pron||hr}}
+# [[Pays de Galles]] (une des nations composant le Royaume-Uni).
+
+[[Catégorie:Pays d’Europe en croate]]
+[[Catégorie:Royaume-Uni en croate|*]]
+
+== {{langue|da}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|da}}
+
+=== {{S|nom propre|da}} ===
+'''Wales''' {{pron||da}}
+# [[Pays de Galles]] (une des nations composant le Royaume-Uni).
+
+[[Catégorie:Pays d’Europe en danois]]
+[[Catégorie:Royaume-Uni en danois|*]]
+
+== {{langue|et}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|et}}
+
+=== {{S|nom propre|et}} ===
+'''Wales''' {{pron||et}}
+# [[Pays de Galles]] (une des nations composant le Royaume-Uni).
+
+[[Catégorie:Pays d’Europe en estonien]]
+[[Catégorie:Royaume-Uni en estonien|*]]
+
+== {{langue|fi}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|fi}}
+
+=== {{S|nom propre|fi}} ===
+'''Wales''' {{pron||fi}}
+# [[Pays de Galles]] (une des nations composant le Royaume-Uni).
+
+[[Catégorie:Pays d’Europe en finnois]]
+[[Catégorie:Royaume-Uni en finnois|*]]
+
+== {{langue|fy}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|fy}}
+
+=== {{S|nom propre|fy}} ===
+'''Wales''' {{pron||fy}}
+# [[Pays de Galles]] (une des nations composant le Royaume-Uni).
+
+[[Catégorie:Pays d’Europe en frison]]
+
+== {{langue|hu}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|hu}}
+
+=== {{S|nom propre|hu}} ===
+'''Wales''' {{pron||hu}}
+# [[Pays de Galles]] (une des nations composant le Royaume-Uni).
+
+[[Catégorie:Pays d’Europe en hongrois]]
+[[Catégorie:Royaume-Uni en hongrois|*]]
+
+== {{langue|id}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|id}}
+
+=== {{S|nom propre|id}} ===
+'''Wales''' {{pron||id}}
+# [[Pays de Galles]] (une des nations composant le Royaume-Uni).
+#* {{exemple|lang=id}}
+
+[[Catégorie:Pays d’Europe en indonésien]]
+[[Catégorie:Royaume-Uni en indonésien|*]]
+
+== {{langue|is}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|is}}
+
+=== {{S|nom propre|is}} ===
+'''Wales''' {{pron||is}}
+# [[Pays de Galles]] (une des nations composant le Royaume-Uni).
+
+[[Catégorie:Pays d’Europe en islandais]]
+[[Catégorie:Royaume-Uni en islandais|*]]
+
+== {{langue|ku}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|ku}}
+
+=== {{S|nom propre|ku}} ===
+'''Wales''' {{pron||ku}}
+# [[Pays de Galles]] (une des nations composant le Royaume-Uni).
+
+[[Catégorie:Pays en kurde]]
+[[Catégorie:Royaume-Uni en kurde|*]]
+
+== {{langue|ms}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|ms}}
+
+=== {{S|nom propre|ms}} ===
+'''Wales'''
+# [[Pays de Galles]] (une des nations composant le Royaume-Uni).
+
+[[Catégorie:Pays d’Europe en malais]]
+[[Catégorie:Royaume-Uni en malais|*]]
+
+== {{langue|nl}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|nl}}
+
+=== {{S|nom propre|nl}} ===
+'''Wales''' {{pron||nl}}
+# [[Pays de Galles]] (une des nations composant le Royaume-Uni).
+
+=== {{S|prononciation}} ===
+* {{écouter|||lang=nl|audio=Nl-Wales.ogg}}
+
+[[Catégorie:Pays d’Europe en néerlandais]]
+[[Catégorie:Royaume-Uni en néerlandais|*]]
+
+== {{langue|no}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|no}}
+
+=== {{S|nom propre|no}} ===
+'''Wales''' {{pron||no}}
+# [[Pays de Galles]] (une des nations composant le Royaume-Uni).
+
+[[Catégorie:Pays d’Europe en norvégien]]
+[[Catégorie:Royaume-Uni en norvégien|*]]
+
+== {{langue|nn}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|nn}}
+
+=== {{S|nom propre|nn}} ===
+'''Wales''' {{pron||nn}}
+# [[Pays de Galles]] (une des nations composant le Royaume-Uni).
+
+[[Catégorie:Pays d’Europe en norvégien (nynorsk)]]
+[[Catégorie:Royaume-Uni en norvégien (nynorsk)|*]]
+
+== {{langue|sk}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|sk}}
+
+=== {{S|nom propre|sk}} ===
+'''Wales''' {{pron||sk}}
+# [[Pays de Galles]] (une des nations composant le Royaume-Uni).
+
+[[Catégorie:Pays d’Europe en slovaque]]
+[[Catégorie:Royaume-Uni en slovaque|*]]
+
+== {{langue|sl}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|sl}}
+
+=== {{S|nom propre|sl}} ===
+'''Wales''' {{pron||sl}}
+# [[Pays de Galles]] (une des nations composant le Royaume-Uni).
+
+[[Catégorie:Pays d’Europe en slovène]]
+[[Catégorie:Royaume-Uni en slovène|*]]
+
+== {{langue|sv}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|sv}}
+
+=== {{S|nom propre|sv}} ===
+'''Wales''' {{pron||sv}}
+# [[Pays de Galles]] (une des nations composant le Royaume-Uni).
+
+=== {{S|prononciation}} ===
+* {{écouter|Suède||lang=sv|audio=LL-Q9027 (swe)-Moonhouse-Wales.wav}}
+
+[[Catégorie:Pays d’Europe en suédois]]
+[[Catégorie:Royaume-Uni en suédois|*]]
+
+== {{langue|cs}} ==
+=== {{S|étymologie}} ===
+:De l'{{étyl|en|cs|mot=Wales}}.
+
+=== {{S|nom propre|cs}} ===
+'''Wales''' {{pron||cs}}
+# [[Pays de Galles]].
+#* {{indéclinable|cs}} ''[[knížectví]] '''Wales'''.''
+#*:principauté de Galles.
+#* {{exemple | lang=cs
+ | ([[masculin]] [[inanimé]]) Princ z '''Wales'''u.
+ | prince de Galles.}}
+
+==== {{S|gentilés}} ====
+* [[Velšan]], Gallois
+* [[velšský]], gallois
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=cs}}
+
+=== {{S|prononciation}} ===
+{{ébauche-pron|cs}}
+* {{écouter|lang=cs|République tchèque <!-- précisez svp la ville ou la région -->||audio=Cs-Wales.ogg}}
+
+[[Catégorie:Pays d’Europe en tchèque]]
+[[Catégorie:Royaume-Uni en tchèque|*]]
+[[Catégorie:Toponymes dont l’origine est un ethnonyme en anglais]]
+[[Catégorie:Toponymes dont l’origine est un ethnonyme en français]]
+[[Catégorie:Toponymes dont l’origine est un ethnonyme en allemand]]
+[[Catégorie:Toponymes dont l’origine est un ethnonyme en ancien français]]
+[[Catégorie:Toponymes dont l’origine est un ethnonyme en islandais]]
+[[Catégorie:Toponymes dont l’origine est un ethnonyme en estonien]]
+[[Catégorie:Toponymes dont l’origine est un ethnonyme en hongrois]]
+[[Catégorie:Toponymes dont l’origine est un ethnonyme en néerlandais]]
+[[Catégorie:Toponymes dont l’origine est un ethnonyme en norvégien]]
+[[Catégorie:Toponymes dont l’origine est un ethnonyme en tchèque]]
+[[Catégorie:Toponymes dont l’origine est un ethnonyme en slovaque]]
+[[Catégorie:Toponymes dont l’origine est un ethnonyme en slovène]]
+[[Catégorie:Toponymes dont l’origine est un ethnonyme en danois]]
+[[Catégorie:Toponymes dont l’origine est un ethnonyme en suédois]]
+[[Catégorie:Toponymes dont l’origine est un ethnonyme en indonésien]]
+[[Catégorie:Toponymes dont l’origine est un ethnonyme en malais]]
+[[Catégorie:Toponymes dont l’origine est un ethnonyme en alémanique]]
+[[Catégorie:Toponymes dont l’origine est un ethnonyme en croate]]
+[[Catégorie:Toponymes dont l’origine est un ethnonyme en bas allemand]]

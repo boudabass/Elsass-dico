@@ -1,0 +1,10 @@
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw}}
+
+=== {{S|nom propre|gsw}} ===
+'''Wissrusslond'''
+# [[Biélorussie]] (pays d’[[Europe]]).
+
+
+[[Catégorie:Pays en alémanique]]

@@ -1,0 +1,55 @@
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: Cf. [[#de|l’entrée en allemand ci-dessous]].
+
+=== {{S|nom|gsw}} ===
+'''Quecksilber''' {{pron||gsw}} {{genre|gsw}}
+# {{éléments|gsw}} {{métaux|gsw}} [[mercure#fr|Mercure]].
+{{clr}}
+==== {{S|vocabulaire}} ====
+{{tableau périodique/gsw}}
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: {{siècle|VIII|IX|lang=de}} [[calque#fr-linguistique|Calque]] du {{étyl|la|de|argentum vivum|dif=argentum vīvum|sens=[[vif-argent]] », « [[mercure]]}}, via le {{étyl|goh|de|quecsilbar|dif=quecsilbar, quecsilabar, quechsilper}}, puis le {{étyl|gmh|de|quecsilber|dif=quecsilver, kecsilber}} ; en allemand moderne, les composants donnent {{l|''quick''|de}} / {{l|''keck''|de}} et {{l|''Silber''|de}}, ce dernier étant intégré à l’identique{{R|DWDS|Quecksilber}}{{R|DWb|Quecksilber}}{{R|Duden|Quecksilber}}. Comparer à l’{{étyl|gsw|de|nocat=1|Quecksilber}}, au {{étyl|lb|de|nocat=1|Quecksëlwer}}, au {{étyl|nl|de|nocat=1|kwikzilver}}, à l’{{étyl|en|de|nocat=1|quicksilver}}, au {{étyl|sv|de|nocat=1|kvicksilver}}, à l’{{étyl|is|de|nocat=1|kvikasilfur}}, au {{étyl|nl|da|nocat=1|kviksølv}} et au {{étyl|no|de|nocat=1|kvikksølv}}.
+
+=== {{S|nom|de}} ===
+{{de-nom-n-sing}}
+{{légende élément/de|Hg}}
+[[Image:HgKviks%C3%B8lv.JPG|thumb|'''Quecksilber'''.]]
+'''Quecksilber''' {{pron|ˈkvɛkˌzɪlbɐ|de}} {{n}} {{au singulier uniquement|de}}
+# {{éléments|de}} {{métaux|de}} [[mercure#fr|Mercure]] (élément chimique de symbole [[Hg#conv|Hg]]), {{lien|vif-argent}}.
+#* {{exemple|Verlassene Schiffe sind auch ein Problem für die Umwelt. Irgendwann rosten die Geisterschiffe durch und sinken. Öl, Treibstoff, aber auch Giftstoffe wie Asbest, '''Quecksilber''' und Farben gelangen in den Ozean.|lang=de|sens=Les navires abandonnés sont également un problème pour l’environnement. Un jour ou l’autre, les navires fantômes sont perforés par la rouille et coulent. Le pétrole, le carburant, mais aussi des substances toxiques comme l’amiante, le mercure et les peintures se retrouvent dans l’océan.|source={{périodique|auteur=Edith Dietrich|titre=Gefangen auf dem Geisterschiff|journal=Tagesschau/MDR|date=12 août 2023|texte=https://www.tagesschau.de/wirtschaft/unternehmen/seefahrt-geisterschiff-100.html}}}}
+
+==== {{S|synonymes}} ====
+* {{lien|Hydrargyrum|de}} {{désuet|nocat=1}}
+
+==== {{S|dérivés}} ====
+{{(}}
+* {{lien|Eka-Quecksilber|de}}
+* {{lien|Quecksilberdampflampe|de}}
+* {{lien|quecksilberig|de}}
+* {{lien|Quecksilberbarometer|de}}
+* {{lien|Quecksilbermanometer|de}}
+* {{lien|Quecksilbersäule|de}}
+* {{lien|Quecksilberschalter|de}}
+* {{lien|Quecksilberthermometer|de}}
+* {{lien|Quecksilbervergiftung|de}}
+* {{lien|quecksilbrig|de}}
+{{)}}
+{{clr}}
+==== {{S|vocabulaire}} ====
+* {{voir thésaurus|de|tableau périodique des éléments}}
+{{tableau périodique/de}}
+{{Liste|avant={{lien|Gold|de}}<br>([[Au#conv|Au]])|après={{lien|Thallium|de}}<br>([[Tl#conv|Tl]])|liste=[[Thésaurus:tableau périodique des éléments/allemand|Éléments chimiques en allemand]]}}
+
+=== {{S|prononciation}} ===
+* {{écouter|Berlin|ˈkvɛkˌzɪlbɐ|lang=de|audio=De-Quecksilber.ogg}}
+* {{écouter|{{DE|nocat=1}}|ˈkvɛkˌzɪlbɐ|lang=de|audio=LL-Q188 (deu)-Lucas Werkmeister-Quecksilber.wav}}
+* {{écouter|Berlin|ˈkvɛkˌzɪlbɐ|lang=de|audio=LL-Q188 (deu)-Sebastian Wallroth-Quecksilber.wav}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=de}}
+
+=== {{S|références}} ===
+{{références}}

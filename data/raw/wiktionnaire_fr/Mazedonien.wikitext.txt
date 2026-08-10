@@ -1,0 +1,24 @@
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw}}
+
+=== {{S|nom propre|gsw}} ===
+'''Mazedonien''' {{pron||gsw}}
+# [[Macédoine]] (pays européen).
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|de}}
+
+=== {{S|nom propre|de}} ===
+{{de-nom
+|ns= Mazedonien |np=
+|as= Mazedonien |ap=
+|gs= Mazedoniens |gp=
+|ds= Mazedonien |dp=}}
+'''Mazedonien''' {{pron||de}}
+# [[Macédoine]] (pays européen).
+
+
+[[Catégorie:Pays en alémanique]]
+[[Catégorie:Pays en allemand]]

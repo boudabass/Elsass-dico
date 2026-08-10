@@ -1,0 +1,593 @@
+{{voir/hades}}
+== {{langue|af}} ==
+=== {{S|étymologie}} ===
+: {{siècle|?|lang=af}} Du {{étyl|grc|af|ᾍδης|Háidēs}}.
+
+=== {{S|nom propre|af}} ===
+'''Hades''' {{pron||af}} {{m}}
+# {{divinités|af|grecques}} {{lexique|mort|af}} [[Hadès]], dieu grec de la mort et roi des Enfers qui portent son nom.
+#* {{exemple|lang=af}}
+# {{lexique|mythologie grecque|mort|af}} [[Hadès]].
+#* {{exemple|lang=af}}
+
+=== {{S|prononciation}} ===
+{{ébauche-pron-audio|af}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=af}}
+
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: {{siècle|?|lang=gsw}} Du {{étyl|grc|gsw|ᾍδης|Háidēs}}.
+
+=== {{S|nom propre|gsw}} ===
+'''Hades''' {{pron||gsw}} {{m}}
+# {{divinités|gsw|grecques}} {{lexique|mort|gsw}} [[Hadès]], dieu grec de la mort et roi des Enfers qui portent son nom.
+#* {{exemple|lang=gsw}}
+# {{lexique|mythologie grecque|mort|gsw}} [[Hadès]].
+#* {{exemple|lang=gsw}}
+
+=== {{S|prononciation}} ===
+{{ébauche-pron-audio|gsw}}
+
+=== {{S|voir}} ===
+* {{WP|lang=gsw}}
+
+== {{langue|an}} ==
+=== {{S|étymologie}} ===
+: {{siècle|?|lang=an}} Du {{étyl|grc|an|ᾍδης|Háidēs}}.
+
+=== {{S|nom propre|an}} ===
+'''Hades''' {{pron||an}} {{m}}
+# {{divinités|an|grecques}} {{lexique|mort|an}} [[Hadès]], dieu grec de la mort et roi des Enfers qui portent son nom.
+#* {{exemple|lang=an}}
+# {{lexique|mythologie grecque|mort|an}} [[Hadès]].
+#* {{exemple|lang=an}}
+
+=== {{S|prononciation}} ===
+{{ébauche-pron-audio|an}}
+
+=== {{S|voir}} ===
+* {{WP|lang=an}}
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: {{siècle|?|lang=de}} Du {{étyl|grc|de|ᾍδης|Háidēs}}.
+
+=== {{S|nom propre|de}} ===
+{{de-nom|genre=m|ns= Hades|np=|as= Hades|ap=|gs= Hades’|gp=|ds= Hades|dp=}}
+'''Hades''' {{pron|ˈhaːdɛs|de}} {{m}}
+# {{divinités|de|grecques}} [[Hadès#Français|Hadès]], dieu de la mort et des Enfers de la mythologie grecque.
+#* {{exemple | lang=de | '''Hades''' ist ein [[Bruder]] des Zeus.|sens=Hadès est le frère de Zeus.}}
+# {{lexique|mythologie grecque|mort|de}} [[Hadès#Français|Hadès]], Enfers de la mythologique grecque.
+#* {{exemple|lang=de}}
+
+=== {{S|prononciation}} ===
+* {{écouter||ˈhaːdɛs|lang=de|audio=De-Hades.ogg}}
+
+=== {{S|voir aussi}} ===
+* {{Vikidia|lang=de}}
+* {{WP|lang=de}}
+
+== {{langue|en}} ==
+=== {{S|étymologie}} ===
+: {{siècle|?|lang=en}} Du {{étyl|grc|en|ᾍδης|Háidēs}}.
+
+=== {{S|nom propre|en}} ===
+'''Hades''' {{pron|ˈheɪdiːz|en}} {{m}}
+# {{divinités|en|grecques}} {{lexique|mort|en}} [[Hadès]], dieu grec de la mort et roi des Enfers qui portent son nom.
+#* {{exemple|lang=en|'''Hades''' had tried to kill me three times so far, with the Fury, the Minotaur and the hellhound.|source={{w|Rick Riordan}}, ''{{w|Le Voleur de foudre|Percy Jackson and the Lightning Thief}}'', {{w|Penguin_Books#Puffin|Puffin Books}}, 2009, page 144.|Jusqu'à présent Hadès avait essayé de me tuer trois fois : avec la Furie, le Minotaure et le Chien des Enfers.}}
+# {{lexique|mythologie grecque|mort|en}} [[Hadès]], Enfers grecs.
+#* {{exemple|lang=en}}
+
+=== {{S|prononciation}} ===
+* {{écouter|Milwaukee (États-Unis)||lang=en|audio=LL-Q1860 (eng)-Flame, not lame-Hades.wav}}
+
+=== {{S|voir aussi}} ===
+* {{Vikidia|lang=en}}
+* {{WP|lang=en}}
+
+== {{langue|ast}} ==
+=== {{S|étymologie}} ===
+: {{siècle|?|lang=ast}} Du {{étyl|grc|ast|ᾍδης|Háidēs}}.
+
+=== {{S|nom propre|ast}} ===
+'''Hades''' {{pron||ast}} {{m}}
+# {{divinités|ast|grecques}} {{lexique|mort|ast}} [[Hadès]], dieu grec de la mort et roi des Enfers qui portent son nom.
+#* {{exemple|lang=ast}}
+# {{lexique|mythologie grecque|mort|ast}} [[Hadès]].
+#* {{exemple|lang=ast}}
+
+=== {{S|prononciation}} ===
+{{ébauche-pron-audio|ast}}
+
+=== {{S|voir}} ===
+* {{WP|lang=ast}}
+
+== {{langue|nds}} ==
+=== {{S|étymologie}} ===
+: {{siècle|?|lang=nds}}  Du {{étyl|grc|nds|ᾍδης|Háidēs}}.
+
+=== {{S|nom propre|nds}} ===
+'''Hades''' {{pron||nds}} {{m}}
+# {{divinités|nds|grecques}} {{lexique|mort|nds}} [[Hadès]], dieu grec de la mort et roi des Enfers qui portent son nom.
+#* {{exemple|lang=nds}}
+# {{lexique|mythologie grecque|mort|nds}} [[Hadès]].
+#* {{exemple|lang=nds}}
+
+=== {{S|prononciation}} ===
+{{ébauche-pron-audio|nds}}
+
+=== {{S|voir}} ===
+* {{WP|lang=nds}}
+
+== {{langue|eu}} ==
+=== {{S|étymologie}} ===
+: {{siècle|?|lang=eu}} Du {{étyl|grc|eu|ᾍδης|Háidēs}}.
+
+=== {{S|nom propre|eu}} ===
+'''Hades''' {{pron||eu}} {{m}}
+# {{divinités|eu|grecques}} {{lexique|mort|eu}} [[Hadès]], dieu grec de la mort et roi des Enfers qui portent son nom.
+#* {{exemple|lang=eu}}
+# {{lexique|mythologie grecque|mort|eu}} [[Hadès]].
+#* {{exemple|lang=eu}}
+
+=== {{S|prononciation}} ===
+{{ébauche-pron-audio|eu}}
+
+=== {{S|voir}} ===
+* {{WP|lang=eu}}
+
+== {{langue|bar}} ==
+=== {{S|étymologie}} ===
+: {{siècle|?|lang=bar}} Du {{étyl|grc|bar|ᾍδης|Háidēs}}.
+
+=== {{S|nom propre|bar}} ===
+'''Hades''' {{pron||bar}} {{m}}
+# {{divinités|bar|grecques}} {{lexique|mort|bar}} [[Hadès]], dieu grec de la mort et roi des Enfers qui portent son nom.
+#* {{exemple|lang=bar}}
+# {{lexique|mythologie grecque|mort|bar}} [[Hadès]].
+#* {{exemple|lang=bar}}
+
+=== {{S|prononciation}} ===
+{{ébauche-pron-audio|bar}}
+
+=== {{S|voir}} ===
+* {{WP|lang=bar}}
+
+== {{langue|ca}} ==
+=== {{S|étymologie}} ===
+: {{siècle|?|lang=ca}} Du {{étyl|grc|ca|ᾍδης|Háidēs}}.
+=== {{S|nom propre|ca}} ===
+'''Hades''' {{pron||ca}} {{m}}
+# {{divinités|ca|grecques}} {{lexique|mort|ca}} [[Hadès]], dieu grec de la mort et roi des Enfers qui portent son nom.
+#* {{exemple|lang=ca}}
+# {{lexique|mythologie grecque|mort|ca}} [[Hadès]].
+#* {{exemple|lang=ca}}
+
+=== {{S|prononciation}} ===
+{{ébauche-pron-audio|ca}}
+
+=== {{S|voir aussi}} ===
+* {{Vikidia|lang=ca}}
+* {{WP|lang=ca}}
+
+== {{langue|da}} ==
+=== {{S|étymologie}} ===
+: {{siècle|?|lang=da}} {{étyl|grc|da|ᾍδης|Háidēs}}.
+=== {{S|nom propre|da}} ===
+'''Hades''' {{pron||da}} {{m}}
+# {{divinités|da|grecques}} {{lexique|mort|da}} [[Hadès]], dieu grec de la mort et roi des Enfers qui portent son nom.
+#* {{exemple|lang=da}}
+# {{lexique|mythologie grecque|mort|da}} [[Hadès]].
+#* {{exemple|lang=da}}
+
+=== {{S|prononciation}} ===
+{{ébauche-pron-audio|da}}
+
+=== {{S|voir}} ===
+* {{WP|lang=da}}
+
+== {{langue|diq}} ==
+=== {{S|étymologie}} ===
+: {{siècle|?|lang=diq}} Du {{étyl|grc|diq|ᾍδης|Háidēs}}.
+
+=== {{S|nom propre|diq}} ===
+'''Hades''' {{pron||diq}} {{m}}
+# {{divinités|diq|grecques}} {{lexique|mort|diq}} [[Hadès]], dieu grec de la mort et roi des Enfers qui portent son nom.
+#* {{exemple|lang=diq}}
+# {{lexique|mythologie grecque|mort|diq}} [[Hadès]].
+#* {{exemple|lang=dig}}
+
+=== {{S|prononciation}} ===
+{{ébauche-pron-audio|diq}}
+
+=== {{S|voir}} ===
+* {{WP|lang=diq}}
+
+== {{langue|es}} ==
+=== {{S|étymologie}} ===
+: {{siècle|?|lang=es}} Du {{étyl|grc|es|ᾍδης|Háidēs}}.
+
+=== {{S|nom propre|es}} ===
+'''Hades''' {{pron||es}} {{m}}
+# {{divinités|es|grecques}} {{lexique|mort|es}} [[Hadès]], dieu grec de la mort et roi des Enfers qui portent son nom.
+#* {{exemple|lang=es}}
+# {{lexique|mythologie grecque|mort|es}} [[Hadès]].
+#* {{exemple|lang=es}}
+
+=== {{S|prononciation}} ===
+{{ébauche-pron-audio|es}}
+
+=== {{S|voir aussi}} ===
+* {{Vikidia|lang=es}}
+* {{WP|lang=es}}
+
+== {{langue|et}} ==
+=== {{S|étymologie}} ===
+: {{siècle|?|lang=et}} Du {{étyl|grc|et|ᾍδης|Háidēs}}.
+
+=== {{S|nom propre|et}} ===
+'''Hades''' {{pron||et}} {{m}}
+# {{divinités|et|grecques}} {{lexique|mort|et}} [[Hadès]], dieu grec de la mort et roi des Enfers qui portent son nom.
+#* {{exemple|lang=et}}
+# {{lexique|mythologie grecque|mort|et}} [[Hadès]].
+#* {{exemple|lang=et}}
+
+=== {{S|prononciation}} ===
+{{ébauche-pron-audio|et}}
+
+=== {{S|voir}} ===
+* {{WP|lang=et}}
+
+== {{langue|gd}} ==
+=== {{S|étymologie}} ===
+: {{siècle|?|lang=gd}} Du {{étyl|grc|gd|ᾍδης|Háidēs}}.
+
+=== {{S|nom propre|gd}} ===
+'''Hades''' {{pron||gd}} {{m}}
+# {{divinités|gd|grecques}} {{lexique|mort|gd}} [[Hadès]], dieu grec de la mort et roi des Enfers qui portent son nom.
+#* {{exemple|lang=gd}}
+# {{lexique|mythologie grecque|mort|gd}} [[Hadès]].
+#* {{exemple|lang=gd}}
+
+=== {{S|prononciation}} ===
+{{ébauche-pron-audio|gd}}
+
+== {{langue|gl}} ==
+=== {{S|étymologie}} ===
+: {{siècle|?|lang=gl}} Du {{étyl|grc|gl|ᾍδης|Háidēs}}.
+
+=== {{S|nom propre|gl}} ===
+'''Hades''' {{pron||gl}} {{m}}
+# {{divinités|gl|grecques}} {{lexique|mort|gl}} [[Hadès]], dieu grec de la mort et roi des Enfers qui portent son nom.
+#* {{exemple|lang=gl}}
+# {{lexique|mythologie grecque|mort|gl}} [[Hadès]].
+#* {{exemple|lang=gl}}
+
+=== {{S|voir}} ===
+* {{WP|lang=gl}}
+
+=== {{S|prononciation}} ===
+{{ébauche-pron-audio|gl}}
+
+== {{langue|cy}} ==
+=== {{S|étymologie}} ===
+: {{siècle|?|lang=cy}} Du {{étyl|grc|cy|ᾍδης|Háidēs}}.
+
+=== {{S|nom propre|cy}} ===
+'''Hades''' {{pron||cy}} {{m}}
+# {{divinités|cy|grecques}} {{lexique|mort|cy}} [[Hadès]], dieu grec de la mort et roi des Enfers qui portent son nom.
+#* {{exemple|lang=cy}}
+# {{lexique|mythologie grecque|mort|cy}} [[Hadès]].
+#* {{exemple|lang=cy}}
+
+=== {{S|prononciation}} ===
+{{ébauche-pron-audio|cy}}
+
+=== {{S|voir}} ===
+* {{WP|lang=cy}}
+
+== {{langue|id}} ==
+=== {{S|étymologie}} ===
+: {{siècle|?|lang=id}} Du {{étyl|grc|id|ᾍδης|Háidēs}}.
+
+=== {{S|nom propre|id}} ===
+'''Hades''' {{pron||id}} {{m}}
+# {{divinités|id|grecques}} {{lexique|mort|id}} [[Hadès]], dieu grec de la mort et roi des Enfers qui portent son nom.
+#* {{exemple|lang=id}}
+# {{lexique|mythologie grecque|mort|id}} [[Hadès]].
+#* {{exemple|lang=id}}
+
+=== {{S|prononciation}} ===
+{{ébauche-pron-audio|id}}
+
+=== {{S|voir}} ===
+* {{WP|lang=id}}
+
+== {{langue|is}} ==
+=== {{S|étymologie}} ===
+: {{siècle|?|lang=is}} Du {{étyl|grc|is|ᾍδης|Háidēs}}.
+
+=== {{S|nom propre|is}} ===
+'''Hades''' {{pron||is}} {{m}}
+# {{divinités|is|grecques}} {{lexique|mort|is}} [[Hadès]], dieu grec de la mort et roi des Enfers qui portent son nom.
+#* {{exemple|lang=is}}
+# {{lexique|mythologie grecque|mort|is}} [[Hadès]].
+#* {{exemple|lang=is}}
+
+=== {{S|voir}} ===
+* {{WP|lang=is}}
+
+=== {{S|prononciation}} ===
+{{ébauche-pron-audio|is}}
+
+== {{langue|jv}} ==
+=== {{S|étymologie}} ===
+: {{siècle|?|lang=jv}} Du {{étyl|grc|jv|ᾍδης|Háidēs}}.
+
+=== {{S|nom propre|jv}} ===
+'''Hades''' {{pron||jv}} {{m}}
+# {{divinités|jv|grecques}} {{lexique|mort|jv}} [[Hadès]], dieu grec de la mort et roi des Enfers qui portent son nom.
+#* {{exemple|lang=jv}}
+# {{lexique|mythologie grecque|mort|jv}} [[Hadès]].
+#* {{exemple|lang=jv}}
+
+=== {{S|prononciation}} ===
+{{ébauche-pron-audio|jv}}
+
+=== {{S|voir}} ===
+* {{WP|lang=jv}}
+
+== {{langue|la}} ==
+=== {{S|étymologie}} ===
+: {{siècle|?|lang=la}} Du {{étyl|grc|la|ᾍδης|Háidēs}}.
+
+=== {{S|nom propre|la}} ===
+'''Hades''' {{pron||la}} {{m}}
+# {{divinités|la|grecques}} {{lexique|mort|la}} [[Hadès]], dieu grec de la mort et roi des Enfers qui portent son nom.
+#* {{exemple|lang=la}}
+# {{lexique|mythologie grecque|mort|la}} [[Hadès]].
+#* {{exemple|lang=la}}
+
+=== {{S|prononciation}} ===
+{{ébauche-pron-audio|la}}
+
+=== {{S|voir}} ===
+* {{WP|lang=la}}
+
+== {{langue|lb}} ==
+=== {{S|étymologie}} ===
+: {{siècle|?|lang=lb}} Du {{étyl|grc|lb|ᾍδης|Háidēs}}.
+
+=== {{S|nom propre|lb}} ===
+'''Hades''' {{pron||lb}} {{m}}
+# {{divinités|lb|grecques}} {{lexique|mort|lb}} [[Hadès]], dieu grec de la mort et roi des Enfers qui portent son nom.
+#* {{exemple|lang=lb}}
+# {{lexique|mythologie grecque|mort|lb}} [[Hadès]].
+#* {{exemple|lang=lb}}
+
+=== {{S|prononciation}} ===
+{{ébauche-pron-audio|lb}}
+
+=== {{S|voir}} ===
+* {{WP|lang=lb}}
+
+== {{langue|ms}} ==
+=== {{S|étymologie}} ===
+: {{siècle|?|lang=ms}} Du {{étyl|grc|ms|ᾍδης|Háidēs}}.
+
+=== {{S|nom propre|ms}} ===
+'''Hades''' {{pron||ms}} {{m}}
+# {{divinités|ms|grecques}} {{lexique|mort|ms}} [[Hadès]], dieu grec de la mort et roi des Enfers qui portent son nom.
+#* {{exemple|lang=ms}}
+# {{lexique|mythologie grecque|mort|ms}} [[Hadès]].
+#* {{exemple|lang=ms}}
+
+=== {{S|prononciation}} ===
+{{ébauche-pron-audio|ms}}
+
+=== {{S|voir}} ===
+* {{WP|lang=ms}}
+
+== {{langue|nl}} ==
+=== {{S|étymologie}} ===
+: {{siècle|?|lang=nl}} Du {{étyl|grc|nl|ᾍδης|Háidēs}}.
+
+=== {{S|nom propre|nl}} ===
+'''Hades''' {{pron||nl}} {{m}}
+# {{divinités|nl|grecques}} {{lexique|mort|nl}} [[Hadès]], dieu grec de la mort et roi des Enfers qui portent son nom.
+#* {{exemple|lang=nl}}
+# {{lexique|mythologie grecque|mort|nl}} [[Hadès]].
+#* {{exemple|lang=nl}}
+
+=== {{S|prononciation}} ===
+{{ébauche-pron-audio|nl}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=nl}}
+
+== {{langue|no}} ==
+=== {{S|étymologie}} ===
+: {{siècle|?|lang=no}} Du {{étyl|grc|no|ᾍδης|Háidēs}}.
+
+=== {{S|nom propre|no}} ===
+'''Hades''' {{pron||no}} {{m}}
+# {{divinités|no|grecques}} {{lexique|mort|no}} [[Hadès]], dieu grec de la mort et roi des Enfers qui portent son nom.
+#* {{exemple|lang=no}}
+# {{lexique|mythologie grecque|mort|no}} [[Hadès]].
+#* {{exemple|lang=no}}
+
+=== {{S|prononciation}} ===
+{{ébauche-pron-audio|no}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=no}}
+
+== {{langue|nn}} ==
+=== {{S|étymologie}} ===
+: {{siècle|?|lang=nn}} Du {{étyl|grc|nn|ᾍδης|Háidēs}}.
+
+=== {{S|nom propre|nn}} ===
+'''Hades''' {{pron||nn}} {{m}}
+# {{divinités|nn|grecques}} {{lexique|mort|nn}} [[Hadès]], dieu grec de la mort et roi des Enfers qui portent son nom.
+#* {{exemple|lang=nn}}
+# {{lexique|mythologie grecque|mort|nn}} [[Hadès]].
+#* {{exemple|lang=nn}}
+
+=== {{S|prononciation}} ===
+{{ébauche-pron-audio|nn}}
+
+=== {{S|voir}} ===
+* {{WP|lang=nn}}
+
+== {{langue|pl}} ==
+=== {{S|étymologie}} ===
+: {{siècle|?|lang=pl}} Du {{étyl|grc|pl|ᾍδης|Háidēs}}.
+=== {{S|nom propre|pl}} ===
+'''Hades''' {{pron||pl}} {{m}}
+# {{divinités|pl|grecques}} {{lexique|mort|pl}} [[Hadès]], dieu grec de la mort et roi des Enfers qui portent son nom.
+#* {{exemple|lang=pl}}
+# {{lexique|mythologie grecque|mort|pl}} [[Hadès]].
+#* {{exemple|lang=pl}}
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=pl|Pologne (Varsovie)||audio=LL-Q809 (pol)-Olaf-Hades.wav}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=pl}}
+
+== {{langue|pt}} ==
+=== {{S|étymologie}} ===
+: {{siècle|?|lang=pt}} Du {{étyl|grc|pt|ᾍδης|Háidēs}}.
+=== {{S|nom propre|pt}} ===
+'''Hades''' {{pron||pt}} {{m}}
+# {{divinités|pt|grecques}} {{lexique|mort|pt}} [[Hadès]], dieu grec de la mort et roi des Enfers qui portent son nom.
+#* {{exemple|lang=pt}}
+# {{lexique|mythologie grecque|mort|pt}} [[Hadès]].
+#* {{exemple|lang=pt}}
+
+=== {{S|prononciation}} ===
+{{ébauche-pron-audio|pt}}
+
+=== {{S|voir}} ===
+* {{WP|lang=pt}}
+
+== {{langue|ro}} ==
+=== {{S|étymologie}} ===
+: {{siècle|?|lang=ro}} Du {{étyl|grc|ro|ᾍδης|Háidēs}}.
+
+=== {{S|nom propre|ro}} ===
+'''Hades''' {{pron||ro}} {{m}}
+# {{divinités|ro|grecques}} {{lexique|mort|ro}} [[Hadès]], dieu grec de la mort et roi des Enfers qui portent son nom.
+#* {{exemple|lang=ro}}
+# {{lexique|mythologie grecque|mort|ro}} [[Hadès]].
+#* {{exemple|lang=ro}}
+
+=== {{S|prononciation}} ===
+{{ébauche-pron-audio|ro}}
+
+=== {{S|voir}} ===
+* {{WP|lang=ro}}
+
+== {{langue|sv}} ==
+=== {{S|étymologie}} ===
+: {{siècle|?|lang=sv}} Du {{étyl|grc|sv|ᾍδης|Háidēs}}.
+
+=== {{S|nom propre|sv}} ===
+'''Hades''' {{pron||sv}} {{m}}
+# {{divinités|sv|grecques}} {{lexique|mort|sv}} [[Hadès]], dieu grec de la mort et roi des Enfers qui portent son nom.
+#* {{exemple|lang=sv}}
+# {{lexique|mythologie grecque|mort|sv}} [[Hadès]].
+#* {{exemple|lang=sv}}
+
+=== {{S|prononciation}} ===
+{{ébauche-pron-audio|sv}}
+
+=== {{S|voir}} ===
+* {{WP|lang=sv}}
+
+== {{langue|tl}} ==
+=== {{S|étymologie}} ===
+: {{siècle|?|lang=tl}} Du {{étyl|grc|tl|ᾍδης|Háidēs}}.
+
+=== {{S|nom propre|tl}} ===
+'''Hades''' {{pron||tl}} {{m}}
+# {{divinités|tl|grecques}} {{lexique|mort|tl}} [[Hadès]], dieu grec de la mort et roi des Enfers qui portent son nom.
+#* {{exemple|lang=tl}}
+# {{lexique|mythologie grecque|mort|tl}} [[Hadès]].
+#* {{exemple|lang=tl}}
+
+=== {{S|prononciation}} ===
+{{ébauche-pron-audio|tl}}
+
+=== {{S|voir}} ===
+* {{WP|lang=tl}}
+
+== {{langue|tr}} ==
+=== {{S|étymologie}} ===
+: {{siècle|?|lang=tr}} Du {{étyl|grc|tr|ᾍδης|Háidēs}}.
+
+=== {{S|nom propre|tr}} ===
+'''Hades''' {{pron||tr}} {{m}}
+# {{divinités|tr|grecques}} {{lexique|mort|tr}} [[Hadès]], dieu grec de la mort et roi des Enfers qui portent son nom.
+#* {{exemple|lang=tr}}
+# {{lexique|mythologie grecque|mort|tr}} [[Hadès]].
+#* {{exemple|lang=tr}}
+
+=== {{S|prononciation}} ===
+{{ébauche-pron-audio|tr}}
+
+=== {{S|voir}} ===
+* {{WP|lang=tr}}
+
+== {{langue|vi}} ==
+=== {{S|étymologie}} ===
+: {{siècle|?|lang=vi}} Du {{étyl|grc|vi|ᾍδης|Háidēs}}.
+
+=== {{S|nom propre|vi}} ===
+'''Hades''' {{pron||vi}} {{m}}
+# {{divinités|vi|grecques}} {{lexique|mort|vi}} [[Hadès]], dieu grec de la mort et roi des Enfers qui portent son nom.
+#* {{exemple|lang=vi}}
+# {{lexique|mythologie grecque|mort|vi}} [[Hadès]].
+#* {{exemple|lang=vi}}
+
+=== {{S|prononciation}} ===
+{{ébauche-pron-audio|vi}}
+
+=== {{S|voir}} ===
+* {{WP|lang=vi}}
+
+== {{langue|war}} ==
+=== {{S|étymologie}} ===
+: {{siècle|?|lang=war}} Du {{étyl|grc|war|ᾍδης|Háidēs}}.
+
+=== {{S|nom propre|war}} ===
+'''Hades''' {{pron||war}} {{m}}
+# {{divinités|war|grecques}} {{lexique|mort|war}} [[Hadès]], dieu grec de la mort et roi des Enfers qui portent son nom.
+#* {{exemple|lang=war}}
+# {{lexique|mythologie grecque|mort|war}} [[Hadès]].
+#* {{exemple|lang=war}}
+
+=== {{S|prononciation}} ===
+{{ébauche-pron-audio|war}}
+
+=== {{S|voir}} ===
+* {{WP|lang=war}}
+
+== {{langue|vro}} ==
+=== {{S|étymologie}} ===
+: {{siècle|?|lang=vro}} Du {{étyl|grc|vro|ᾍδης|Háidēs}}.
+
+=== {{S|nom propre|vro}} ===
+'''Hades''' {{pron||vro}} {{m}}
+# {{divinités|vro|grecques}} {{lexique|mort|vro}} [[Hadès]], dieu grec de la mort et roi des Enfers qui portent son nom.
+#* {{exemple|lang=vro}}
+# {{lexique|mythologie grecque|mort|vro}} [[Hadès]].
+#* {{exemple|lang=vro}}
+
+=== {{S|prononciation}} ===
+{{ébauche-pron-audio|vro}}
+
+=== {{S|voir}} ===
+* {{WP|lang=vro}}

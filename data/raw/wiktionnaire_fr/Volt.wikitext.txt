@@ -1,0 +1,43 @@
+{{voir|volt|vòlt}}
+== {{langue|gsw}} ==
+=== {{S|nom|gsw}} ===
+'''Volt''' {{pron||gsw}}
+# {{info lex|métrologie}} [[volt#fr|Volt]].
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=gsw}}
+[[Catégorie:Unités de mesure en alémanique]]
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: {{date|1897}} En l’honneur du [[scientifique]] {{w|Alessandro Volta}}{{R|DWDS|Volt}}{{R|Duden|Volt}}.
+
+=== {{S|nom|de}} ===
+{{de-nom-n|gse=opt|npx=Volt}}
+'''Volt''' {{pron|vɔlt|de}} {{n}}
+# {{unités|de}} {{lexique|électricité|de}} [[volt|Volt]].
+#* {{exemple | lang=de
+| Diese Lampe benötigt ein Leuchtmittel von 220 '''Volt'''.
+| Cette lampe nécessite une ampoule de 220 volts.}}
+
+==== {{S|vocabulaire}} ====
+{{Liste
+|avant=[[Dezivolt#de|Dezivolt]]
+|après=[[Dekavolt#de|Dekavolt]]
+|liste=Unité de mesure de force électromotrice (tension électrique)<br>du Système international (SI)
+}}
+* {{l|Ampere|de|sens=[[ampère]]}} – ''(unité de courant)''
+* {{l|Spannung|de|sens=[[tension]]}} – ''(grandeur physique)''
+
+==== {{S|hyperonymes}} ====
+* {{l|Einheit|de|sens=[[unité]]}}
+
+=== {{S|prononciation}} ===
+* {{écouter|Allemagne (Berlin)|vɔlt|de|audio=De-Volt.ogg}}
+
+=== {{S|voir}} ===
+* {{WP|lang=de}}
+
+=== {{S|références}} ===
+{{références}}
+* {{R:DWb|Volt}}

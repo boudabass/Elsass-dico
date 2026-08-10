@@ -1,0 +1,67 @@
+{{voir|rutherfordium}}
+
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw}}
+
+=== {{S|nom|gsw}} ===
+'''Rutherfordium''' {{pron||gsw}} {{genre|gsw}}
+# {{éléments|gsw}} {{métaux|gsw}} [[rutherfordium#fr|Rutherfordium]].
+{{clr}}
+==== {{S|vocabulaire}} ====
+{{tableau périodique/gsw}}
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|de}}
+
+=== {{S|nom|de}} ===
+{{légende élément/de|Rf|Ku|Unq}}
+'''Rutherfordium''' {{pron|ʀaðɐˈfɔʁdi̯ʊm|de}} {{n}}
+# {{éléments|de}} {{métaux|de}} [[rutherfordium#fr|Rutherfordium]] (l’{{lien|élément chimique}} [[Rf#conv|Rf]]).
+
+==== {{S|synonymes}} ====
+* {{lien|Unnilquadium|de}} {{désuet|nocat=1}}
+{{clr}}
+==== {{S|vocabulaire}} ====
+{{tableau périodique/de}}
+{{Liste|avant={{lien|Lawrencium|de}} ou {{lien|Unniltrium|de}} {{désuet|nocat=1}}<br>([[Lr#conv|Lr]])|après={{lien|Dubnium|de}} ou {{lien|Nielsborhium|de}} {{désuet|nocat=1}} ou {{lien|Eka-Tantal|de}} {{désuet|nocat=1}} ou {{lien|Unniltrium|de}} {{désuet|nocat=1}}<br>([[Db#conv|Db]])|liste=[[Thésaurus:tableau périodique des éléments/allemand|Éléments chimiques en allemand]]}}
+
+=== {{S|prononciation}} ===
+* {{pron|ʀaðɐˈfɔʁdi̯ʊm|de}}
+* {{écouter||ʀaðɐˈfɔʁdi̯ʊm|lang=de|audio=De-Rutherfordium.ogg}}
+* {{écouter|lang=de|Allemagne (Berlin)|audio=LL-Q188 (deu)-Lucas Werkmeister-Rutherfordium.wav}}
+* {{écouter|lang=de|Allemagne (Berlin)|audio=LL-Q188 (deu)-Sebastian Wallroth-Rutherfordium.wav}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=de}}
+
+== {{langue|stq}} ==
+=== {{S|nom|stq}} ===
+'''Rutherfordium''' {{pron||stq}}
+# {{éléments|stq}} {{métaux|stq}} [[rutherfordium#fr|Rutherfordium]].
+
+=== {{S|voir aussi}} ===
+* {{WP|3=stq}}
+
+== {{langue|lb}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|lb}}
+
+=== {{S|nom|lb}} ===
+{{lb-inv|ʀɑðɐfˈɔʀdi̯um}}
+'''Rutherfordium''' {{pron|ʀɑðɐfˈɔʀdi̯um|lb}} {{m}}, {{au singulier uniquement|lb}}
+# {{éléments|lb}} {{métaux|lb}} [[rutherfordium#fr|Rutherfordium]].
+#* {{exemple|lang=lb}}
+{{clr}}
+==== {{S|vocabulaire}} ====
+{{tableau périodique/lb}}
+
+=== {{S|prononciation}} ===
+* {{écouter|Luxembourg||niveau=bon|lang=lb|audio=LL-Q9051 (ltz)-Procrastineur49-Rutherfordium.wav}}
+
+=== {{S|références}} ===
+: {{R:LOD}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=lb}}

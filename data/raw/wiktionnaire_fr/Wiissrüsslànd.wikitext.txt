@@ -1,0 +1,21 @@
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: {{composé de|wiiss|Rüsslànd|sens=Russie blanche|lang=gsw|m=1}}. Cognat avec l'allemand ''{{lien|Weißrussland|de}}''.
+
+=== {{S|nom propre|gsw}} ===
+'''Wiissrüsslànd''' {{phon|'viːsˌrʏslɒn(d̥)|gsw}},  {{phon|'viːsˌʁʏslɒn(d̥)|gsw}}
+# {{Alsace|gsw}} {{lexique|géographie|gsw}} [[Biélorussie#fr|Biélorussie]], [[Russie blanche#fr|Russie blanche]].
+#* {{exemple | lang=gsw
+ | '''Wiissrüsslànd''' ìsch a Lànd ìn Oschtöiropà.
+ | La Biélorussie est un pays d'Europe de l'Est.}}
+
+==== {{S|apparentés}} ====
+* {{lien|wiissrüssisch|gsw}} — biélorusse
+
+==== {{S|notes}} ====
+Forme en [[bas-alémanique]] d'Alsace.
+
+==== {{S|variantes dialectales}} ====
+* {{lien|Wiissrussland|gsw}}
+* {{lien|Wyssrussland|gsw}}
+* {{lien|Wissrusslond|gsw}}

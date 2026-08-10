@@ -1,0 +1,832 @@
+{{voir/jupiter}}
+
+== {{langue|fr}} ==
+=== {{S|étymologie}} ===
+: {{date|lang=fr|vers 1100}} {{laé|fr|nom-pr|1}} {{info lex|mythologie}} Du {{étylp|la|fr|Juppiter}} ou ''{{lien|Jupiter|la}}'', le père du ciel et [[roi]] des [[dieux]] de la [[mythologie]] [[romaine]].
+: {{laé|fr|nom-pr|2}} {{info lex|astronomie}} Du nom du dieu.
+
+=== {{S|nom propre|fr|num=1}} ===
+[[Fichier:Jupiter J1a.jpg|thumb|Statue de '''Jupiter'''.]]
+'''Jupiter''' {{pron|ʒy.pi.tɛʁ|fr}} {{m}}
+# {{divinités|fr|romaines}} Roi des dieux et des [[hommes]] dans la mythologie romaine, [[équivalent]] du dieu [[grec]] [[Zeus]].
+#* {{exemple | lang=fr
+ | Je conseille à Charon de doubler son droit de péage, à Pluton de faire la guerre contre '''Jupiter''' pour être le premier des dieux, attendu que '''Jupiter''' gouverne mal les hommes, et que l’empire des morts est plus étendu que celui des vivants.
+ | source={{w|François de Salignac de La Mothe-Fénelon}}, ''{{ws|Dialogues des morts}}'', 1712, chapitre 20, 1712, Paris : chez Eugène Belin, 1876, page 91}}
+#* {{exemple | lang=fr
+ | Il est bien probable que ce scélérat de Lycaon que dans son propre palais '''Jupiter''' prit la peine de changer en loup, fut un des premiers et sera toujours le plus célèbre des loups-garous anciens et modernes.
+ | source={{w|Louis Du Bois}}, ''Recherches archéologiques, historiques, biographiques et littéraires sur la Normandie'', Paris : Dumoulin, 1843, page 297}}
+#* {{exemple | lang=fr
+ | […]; Dantan, l'artiste chaud et à l'active intelligence, escalada le ciel comme un nouveau Titan, pénétra de vive force dans le conseil des Dieux, alla saisir madame Sculpture qui se prélassait pompeusement entre Minerve et '''Jupiter''', et malgré les efforts du blond Apollon et du troupeau des Muses éplorées, l'entraîna avec lui sur la terre.
+ | source=L. Couailhac, ''Pitié pour elle'', Bruxelles : Société typographique belge, 1837, volume 1, page 170}}
+#* {{exemple | lang=fr
+ | Pline le déclare expressément, et le plus ancien culte de '''Jupiter''' dans le Latium, celui du mont Cœlius, avait lieu dans une forêt de chênes : c'était un autre Dodone.
+ | source=Ernest Bosc, L. Bonnemère, ''Histoire des Gaulois sous Vercingétorix'', Librairie de Firmin-Didot, Paris, 1882}}
+# {{lexique|musique|fr}} Surnom de la symphonie {{n°|41}} de Mozart, {{lien|KV|fr|nom}} 551.
+#* {{exemple |Aujourd’hui, Christian Merlin, Piotr Kaminski et Jean-Charles Hoffelé concentreront leurs écoutes auprès des six versions proposées par Thiery Beauvert de la dernière symphonie de Mozart, {{n°}}41 en Ut Majeur KV 551 surnommée “'''Jupiter'''” pour n’en élire qu’une… |source={{lien web |url=https://www.radiofrance.fr/francemusique/podcasts/la-tribune-des-critiques-de-disques/la-jupiter-de-mozart-5560457 |titre=La Jupiter de Mozart |site=France Musique |date=2013-10-20 |consulté le=2024-11-19}} |lang=fr}}
+# {{par analogie|fr}} {{par dérision|fr}} [[surnom#fr|Surnom]] d’{{w|Emmanuel Macron}}.
+#*{{exemple|lang=fr|« On attendait '''Jupiter''', on a eu Néron. Cet homme élu et réélu pour faire face à l’extrême droite enchaîne les reprises du discours de l’extrême droite », a taclé le premier secrétaire du PS Olivier Faure.|source=Philippe Rioux, [https://www.ladepeche.fr/2024/06/20/elections-legislatives-changer-de-sexe-en-mairie-tolle-apres-les-propos-demmanuel-macron-12027867.php Élections législatives. "Changer de sexe en mairie" : tollé après les propos d’Emmanuel Macron], ''{{w|La Dépêche}}'', 20 juin 2024 }}
+
+==== {{S|synonymes}} ====
+* [[Cænéus]]
+* [[Jupin]]
+: {{info lex|astronomie}} :
+* [[♃]]
+
+==== {{S|dérivés}} ====
+{{(}}
+* [[barbe de Jupiter]]
+* [[de la cuisse de Jupiter]]
+* [[haleine de Jupiter]]
+* [[jupitérien]]
+* [[n’être pas sorti de la cuisse de Jupiter]] ''(être comme tout le monde)''
+* [[oiseau de Jupiter]] ''(aigle)''
+* [[par Jupiter]]
+* [[se croire sorti de la cuisse de Jupiter]]
+* [[trait de Jupiter]]
+{{)}}
+
+==== {{S|hyponymes}} ====
+* [[Jupiter Caelestis]]
+* [[Jupiter Capitolin]]
+* [[Jupiter Farreus]]
+* [[Jupiter Férétrien]], [[Jupiter Feretrius]]
+* [[Jupiter Fulgurator]]
+* [[Jupiter Latarius]]
+* [[Jupiter Latiaris]]
+* [[Jupiter Libertas]]
+* [[Jupiter Lucetius]]
+* [[Jupiter Optimus Maximus]]
+* [[Jupiter Pluvius]]
+* [[Jupiter Stator]]
+* [[Jupiter Summanus]]
+* [[Jupiter Terminus]], [[Jupiter Terminalus]]
+* [[Jupiter Tonnant]], [[Jupiter Tonans]]
+* [[Jupiter Victor]]
+
+==== {{S|apparentés}} ====
+* [[jovien]]
+
+==== {{S|vocabulaire}} ====
+* {{voir thésaurus|fr|astrologie|ciel}}
+* [[Fétiaux]]
+* [[flamine]]
+* [[Zeus]] {{info lex|mythologie grecque}}
+
+==== {{S|traductions}} ====
+{{trad-début|Roi des dieux et des hommes dans la mythologie romaine}}
+* {{T|af}} : {{trad+|af|Jupiter}}
+* {{T|gsw}} : {{trad|gsw|Jupiter|m}}
+* {{T|de}} : {{trad+|de|Jupiter|m}}
+* {{T|nds}} : {{trad-|nds|Jupiter}}
+* {{T|en}} : {{trad+|en|Jupiter}}, {{trad+|en|Jove}}
+* {{T|an}} : {{trad-|an|Chupiter}}
+* {{T|az}} : {{trad+|az|Yupiter}}
+* {{T|eu}} : {{trad+|eu|Jupiter}}
+* {{T|bs}} : {{trad-|bs|Jupiter}}
+* {{T|bg}} : {{trad-|bg|Юпитер|tr=Yupiter}}
+* {{T|ca}} : {{trad-|ca|Júpiter}}
+* {{T|zh}} : {{trad+|zh|朱庇特|tr=Zhūbìtè}}
+* {{T|ko}} : {{trad+|ko|유피테르|tr=Yupitereu}}
+* {{T|kw}} : {{trad-|kw|Yow}}
+* {{T|hr}} : {{trad+|hr|Jupiter}}
+* {{T|da}} : {{trad+|da|Jupiter}}
+* {{T|es}} : {{trad+|es|Júpiter}}
+* {{T|eo}} : {{trad+|eo|Jupitero}}
+* {{T|et}} : {{trad+|et|Jupiter}}
+* {{T|fi}} : {{trad-|fi|Juppiter}}
+* {{T|gl}} : {{trad+|gl|Xúpiter}}
+* {{T|ka}} : {{trad-|ka|იუპიტერი|tr=Iupiteri}}
+* {{T|el}} : {{trad-|el|Γιούπιτερ|R=Yúpiter}}
+* {{T|he}} : {{trad-|he|יופיטר}}
+* {{T|hi}} : {{trad-|hi|जुपिटर|R=Jupiṭara}}
+* {{T|io}} : {{trad+|io|Jupitero}}
+* {{T|ia}} : {{trad-|ia|Jupiter}}
+* {{T|it}} : {{trad+|it|Giove|m}}
+* {{T|ja}} : {{trad+|ja|ユピテル|tr=Yupiteru}}
+* {{T|la}} : {{trad+|la|Iuppiter|m}}
+* {{T|lij}} : {{trad|lij|Giove}}
+* {{T|lt}} : {{trad+|lt|Jupiteris}}
+* {{T|lb}} : {{trad-|lb|Jupiter}}
+* {{T|mk}} : {{trad-|mk|Јупитер|tr=Jupiter}}
+* {{T|mt}} : {{trad-|mt|Ġove}}
+* {{T|mr}} : {{trad-|mr|ज्युपिटर|R=Jyupiṭara}}
+* {{T|mn}} : {{trad-|mn|Юпитер|R=Yupityer}}
+* {{T|nl}} : {{trad+|nl|Jupiter}}
+* {{T|no}} : {{trad+|no|Jupiter}}
+* {{T|nn}} : {{trad+|no|Jupiter}}
+* {{T|oc}} : {{trad+|oc|Jupitèr}}, {{trad-|oc|Jous}}
+* {{T|pl}} : {{trad+|pl|Jowisz}}
+* {{T|pt}} : {{trad+|pt|Júpiter}}
+* {{T|ro}} : {{trad+|ro|Jupiter}}
+* {{T|ru}} : {{trad+|ru|Юпитер|tr=Yupiter|m}}
+* {{T|nds-nl}} : {{trad|nds-nl|Jupiter}}
+* {{T|sr}} : {{trad-|sr|Јупитер|R=Jupiter}}
+* {{T|scn}} : {{trad-|scn|Giovi}}
+* {{T|sk}} : {{trad-|sk|Jupiter}}
+* {{T|sl}} : {{trad+|sl|Jupiter}}
+* {{T|sv}} : {{trad+|sv|Jupiter}}
+* {{T|sw}} : {{trad-|sw|Jupiter}}
+* {{T|cs}} : {{trad+|cs|Jupiter}}
+* {{T|tr}} : {{trad+|tr|Jüpiter}}
+* {{T|uk}} : {{trad+|uk|Юпітер|R=Yupiter}}
+* {{T|vec}} : {{trad-|vec|Zxobe|m}}
+* {{T|vi}} : {{trad-|vi|thần Giu-pi-te}}
+{{trad-fin}}
+
+[[Catégorie:Surnoms de personnalités politiques en français]]
+
+=== {{S|nom propre|fr|num=2}} ===
+[[Image:Jupiter.jpg|thumb|La planète '''Jupiter''' (1).]]
+'''Jupiter''' {{pron|ʒy.pi.tɛʁ|fr}} {{mf ?|fr}} {{s}}
+# {{info lex|astronomie}} [[cinquième|Cinquième]] [[planète]] du [[système solaire]] par [[ordre]] [[croissant]] de [[distance]] au [[Soleil]], [[géante]] [[gazeuse]] [[remarquable]] par sa [[masse]], la plus [[imposante]] parmi les planètes.
+#* {{exemple | lang=fr
+ | '''Jupiter''' possède quatre gros satellites découverts par Galilée au début du {{siècle2|XVII}} siècle : Io, Europe, Ganymède et Callisto, appelés satellites galiléens.
+ | source=Thérèse Encrenaz & al., ''Le Système solaire'', EDP Sciences, 2003, page 32}}
+#* {{exemple | lang=fr
+ | Stellariser '''Jupiter''' ! Vous auriez toute la lumière que vous voudriez, du coup !
+ | source=site biocoop-balaruc.fr}}
+
+==== {{S|notes}} ====
+: Le genre féminin provient de l’ellipse de ''planète '''Jupiter'''''.
+
+==== {{S|gentilés}} ====
+* {{lien|Jupitérien|fr}}, {{lien|Jupitérienne|fr}}, {{lien|jupitérien|fr}}, {{lien|jupitérienne|fr}}
+* {{lien|Jovien|fr}}, {{lien|Jovienne|fr}}, {{lien|jovien|fr}}, {{lien|jovienne|fr}}
+
+==== {{S|dérivés}} ====
+* [[Jupiter chaud]]
+* [[Jupiter froid]]
+* [[jupitérien]]
+* [[masse de Jupiter]]
+
+==== {{S|vocabulaire}} ====
+* [[🪐]]
+* {{lien|anneau planétaire|fr|nom}}
+{{tableau-planètes du Système solaire/fr}}
+
+==== {{S|traductions}} ====
+{{trad-début|Planète}}
+* {{T|af}} : {{trad+|af|Jupiter}}
+* {{T|sq}} : {{trad-|sq|Jupiteri}}
+* {{T|gsw}} : {{trad|gsw|Jupiter}}
+* {{T|de}} : {{trad+|de|Jupiter|m}}
+* {{T|nds}} : {{trad-|nds|Jupiter}}
+* {{T|en}} : {{trad+|en|Jupiter}}
+* {{T|ar}} : {{trad-|ar|مشتري}}
+* {{T|an}} : {{trad-|an|Chupiter}}
+* {{T|hy}} : {{trad+|hy|Յուպիտեր|tr=Yupiter}}
+* {{T|ast}} : {{trad-|ast|Xúpiter}}
+* {{T|az}} : {{trad+|az|Yupiter}}
+* {{T|eu}} : {{trad+|eu|Jupiter}}
+* {{T|bn}} : {{trad-|bn|জুপিটার|R=Jupiṭāra}}
+* {{T|be}} : {{trad-|be|Юпітэр|tr=Jupiter}}
+* {{T|be-tarask}} : {{trad|be-tarask|Юпітэр}}
+* {{T|my}} : {{trad+|my|ကြာသပတေးဂြိုဟ်|R=kyaarsapatayy gyaoh}}
+* {{T|bs}} : {{trad-|bs|Jupiter}}
+* {{T|br}} : {{trad+|br|Yaou}}
+* {{T|bg}} : {{trad-|bg|Юпитер|tr=Yupiter}}
+* {{T|yue}} : {{trad-|yue|木星}}
+* {{T|ca}} : {{trad-|ca|Júpiter}}
+* {{T|zh}} : {{trad+|zh|木星|R=Mùxīng}}
+* {{T|ko}} : {{trad+|ko|목성|tr=Mokseong}}
+* {{T|kw}} : {{trad-|kw|Yow}}
+* {{T|co}} : {{trad-|co|Ghjove}}
+* {{T|ht}} : {{trad|ht|Jipitè}}
+* {{T|hr}} : {{trad+|hr|Jupiter}}
+* {{T|da}} : {{trad+|da|Jupiter}}
+* {{T|es}} : {{trad+|es|Júpiter}}
+* {{T|eo}} : {{trad+|eo|Jupitero}}
+* {{T|et}} : {{trad+|et|Jupiter}}
+* {{T|fo}} : {{trad-|fo|Jupiter}}
+* {{T|fi}} : {{trad+|fi|Jupiter}}
+* {{T|ksh}} : {{trad|ksh|Juppitter}}
+* {{T|frp}} : {{trad|frp|Jupitèr}}
+* {{T|fy}} : {{trad-|fy|Jupiter}}
+* {{T|stq}} : {{trad|stq|Jupiter}}
+* {{T|gd}} : {{trad-|gd|Bliogh}}
+* {{T|ga}} : {{trad-|ga|Iúpatar}}
+* {{T|gl}} : {{trad+|gl|Xúpiter}}
+* {{T|cy}} : {{trad+|cy|Iau}}
+* {{T|gan}} : {{trad|gan|木星}}
+* {{T|ka}} : {{trad-|ka|იუპიტერი|tr=Iupiteri}}
+* {{T|el}} : {{trad+|el|Δίας|R=Dhías}}
+* {{T|gu}} : {{trad-|gu|ગુરુ|R=Guru}}
+* {{T|haw}} : {{trad|haw|Ka‘āwela}}
+* {{T|he}} : {{trad+|he|צדק}}
+* {{T|hi}} : {{trad+|hi|बृहस्पति|R=Br̥haspati}}
+* {{T|hu}} : {{trad+|hu|Jupiter}}
+* {{T|sah}} : {{trad|sah|Юпитер}}
+* {{T|io}} : {{trad+|io|Jupitero}}
+* {{T|ilo}} : {{trad|ilo|Jupiter}}
+* {{T|id}} : {{trad-|id|Yupiter}}
+* {{T|ia}} : {{trad-|ia|Jupiter}}
+* {{T|is}} : {{trad+|is|Júpíter}}
+* {{T|it}} : {{trad+|it|Giove}}
+* {{T|ja}} : {{trad+|ja|木星|tr=Mokusei}}
+* {{T|jv}} : {{trad-|jv|Jupiter}}
+* {{T|csb}} : {{trad-|csb|Jupiter}}
+* {{T|pam}} : {{trad|pam|Jupiter}}
+* {{T|kk}} : {{trad-|kk|Есекқырған|R=Esekqırğan}}
+* {{T|avk}} : {{trad|avk|Almuz}}
+* {{T|ku}} : {{trad+|ku|Berçîs}}
+* {{T|la}} : {{trad+|la|Iuppiter}}
+* {{T|lv}} : {{trad-|lv|Jupiters}}
+* {{T|lij}} : {{trad|lij|Giòve}}
+* {{T|li}} : {{trad+|li|Jupiter}}
+* {{T|lt}} : {{trad+|lt|Jupiteris}}
+* {{T|jbo}} : {{trad-|jbo|Jupiter}}
+* {{T|lb}} : {{trad-|lb|Jupiter}}
+* {{T|mk}} : {{trad-|mk|Јупитер|tr=Jupiter}}
+* {{T|ms}} : {{trad+|ms|Musytari}}
+* {{T|ml}} : {{trad+|ml|വ്യാഴം|R=Vyāḻaṁ}}
+* {{T|mt}} : {{trad-|mt|Ġove}}
+* {{T|gv}} : {{trad-|gv|Jupiter}}
+* {{T|mr}} : {{trad-|mr|गुरू ग्रह|R=Gurū graha}}
+* {{T|nan}} : {{trad+|nan|Bo̍k-chheⁿ}}
+* {{T|mdf}} : {{trad|mdf|Юпитерь}}
+* {{T|mn}} : {{trad-|mn|Бархасбадь|R=Barkhasbadi}}
+* {{T|nl}} : {{trad+|nl|Jupiter}}
+* {{T|ne}} : {{trad-|ne|बृहस्पतिग्रह|R=Br̥haspatigraha}}
+* {{T|nog}} : {{trad|nog|Каракус}}
+* {{T|normand}} : {{trad|normand|Jupiter}}
+* {{T|no}} : {{trad+|no|Jupiter}}
+* {{T|nn}} : {{trad+|no|Jupiter}}
+* {{T|nov}} : {{trad|nov|Jupitere}}
+* {{T|oc}} : {{trad+|oc|Jupitèr}}
+* {{T|ug}} : {{trad-|ug|يۇپىتېر}}, {{trad-|ug|Yupitér}}
+* {{T|ur}} : {{trad-|ur|مشتری}}
+* {{T|uz}} : {{trad-|uz|Yupiter}}
+* {{T|pa}} : {{trad-|pa|ਬ੍ਰਹਿਸਪਤ|R=Brahisapata}}
+* {{T|fa}} : {{trad+|fa|مشتری}}
+* {{T|pl}} : {{trad+|pl|Jowisz}}
+* {{T|pt}} : {{trad+|pt|Júpiter}}
+* {{T|qu}} : {{trad-|qu|Pirwa}}
+* {{T|rm}} : {{trad-|rm|Jupiter}}
+* {{T|ro}} : {{trad+|ro|Jupiter}}
+* {{T|ru}} : {{trad+|ru|Юпитер|tr=Yupiter}}
+* {{T|se}} : {{trad|se|Jupiter}}
+* {{T|sgs}} : {{trad|sgs|Jopėteris}}
+* {{T|sr}} : {{trad-|sr|Јупитер}}
+* {{T|sh}} : {{trad+|sh|Jupiter}}
+* {{T|scn}} : {{trad-|scn|Giovi}}
+* {{T|szl}} : {{trad|szl|Jowiš}}
+* {{T|sd}} : {{trad-|sd|وِسپَتُ}}
+* {{T|sk}} : {{trad-|sk|Jupiter}}
+* {{T|sl}} : {{trad+|sl|Jupiter}}
+* {{T|su}} : {{trad-|su|Jupiter}}
+* {{T|sv}} : {{trad+|sv|Jupiter}}
+* {{T|sw}} : {{trad+|sw|Mshtarii}}
+* {{T|tg}} : {{trad+|tg|Муштарӣ|R=Muştarī}}
+* {{T|tl}} : {{trad-|tl|Hupiter}}
+* {{T|ta}} : {{trad+|ta|வியாழன்|R=Viyāḻaṉ}}
+* {{T|cs}} : {{trad+|cs|Jupiter}}
+* {{T|cv}} : {{trad|cv|Юпитер}}
+* {{T|te}} : {{trad+|te|గురుడు|R=Guruḍu}}
+* {{T|th}} : {{trad+|th|ดาวพฤหัสบดี|R=Dāw phvh̄ạs̄bdī}}
+* {{T|tr}} : {{trad+|tr|Jüpiter}}
+* {{T|uk}} : {{trad+|uk|Юпітер|R=Yupiter}}
+* {{T|vec}} : {{trad-|vec|Zxobe|m}}
+* {{T|vi}} : {{trad+|vi|Sao Mộc|tradi=𣋀木}}, {{trad-|vi|Mộc tinh|tradi=木星}}
+* {{T|vro}} : {{trad|vro|Jupiter}}
+* {{T|yi}} : {{trad-|yi|יופטער}}
+{{trad-fin}}
+
+==== {{S|hyperonymes}} ====
+* [[planète]]
+** [[planète extérieure]]
+** [[planète supérieure]]
+** [[géante gazeuse]]
+
+==== {{S|vocabulaire}} ====
+{{(|Satellites naturels de Jupiter}}
+* [[Adrastée]]
+* [[Aitné]]
+* [[Amalthée]]
+* [[Ananké]]
+* [[Aoédé]]
+* [[Arché]]
+* [[Autonoé]]
+* [[Calé]]
+* [[Callichore]]
+* [[Callirrhoé]]
+* [[Callisto]]
+* [[Calycé]]
+* [[Carmé]]
+* [[Carpo]]
+* [[Chaldèné]]
+* [[Coré]]
+* [[Cyllèné]]
+* [[Dia]]
+* [[Élara]]
+* [[Érinomé]]
+* [[Euanthé]]
+* [[Eukéladé]]
+* [[Euporie]]
+* [[Europe]]
+* [[Eurydomé]]
+* [[Ganymède]]
+* [[Harpalycé]]
+* [[Hégémone]]
+* [[Hélicé]]
+* [[Hermippé]]
+* [[Hersé]]
+* [[Himalia]]
+* [[Io]]
+* [[Isonoé]]
+* [[Jocaste]]
+* [[Jupiter LI]]
+* [[Jupiter LII]]
+* [[Jupiter LIII]]
+* [[Jupiter LIV]]
+* [[Jupiter LV]]
+* [[Jupiter LVI]]
+* [[Jupiter LVII]]
+* [[Jupiter LVIII]]
+* [[Jupiter LIX]]
+* [[Jupiter LX]]
+* [[Jupiter LXI]]
+* [[Jupiter LXII]]
+* [[Jupiter LXIII]]
+* [[Jupiter LXIV]]
+* [[Jupiter LXV]]
+* [[Jupiter LXVI]]
+* [[Jupiter LXVII]]
+* [[Jupiter LXVIII]]
+* [[Jupiter LXIX]]
+* [[Jupiter LXX]]
+* [[Jupiter LXXI]]
+* [[Jupiter LXXII]]
+* [[Léda]]
+* [[Lysithéa]]
+* [[Mégaclité]]
+* [[Métis]]
+* [[Mnémé]]
+* [[Orthosie]]
+* [[Pasiphaé]]
+* [[Pasithée]]
+* [[Praxidiké]]
+* [[Sinopé]]
+* [[Spondé]]
+* [[Taygèté]]
+* [[Telxinoé]]
+* [[Thébé]]
+* [[Thémisto]]
+* [[Thyoné]]
+* [[Valétudo]]
+{{)}}
+* [[jovial]]
+
+=== {{S|nom|fr}} ===
+{{fr-rég|ʒy.pi.tɛʁ}}
+'''Jupiter''' {{pron|ʒy.pi.tɛʁ|fr}} {{mf ?|fr}}
+# [[exoplanète|Exoplanète]] de taille [[similaire]] à [[Jupiter#fr-nom-pr-2|Jupiter]].
+#* {{exemple | lang=fr | Des '''Jupiters''' chauds.}}
+
+==== {{S|notes}} ====
+: Le genre féminin provient de l’ellipse de ''planète '''Jupiter'''''.
+
+=== {{S|nom de famille|fr}} ===
+'''Jupiter''' {{pron|ʒy.pi.tɛʁ|fr}}
+# Nom de famille.
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=fr|France <!--(région ?)-->|ʒy.pi.tɛʁ|audio=Fr-Jupiter.ogg}}
+* {{écouter||ʒy.pi.tɛʁ|lang=fr|audio=LL-Q150 (fra)-Xenophôn-Jupiter.wav}}
+* {{écouter|lang=fr|France (Paris)|audio=LL-Q150 (fra)-GrandCelinien-Jupiter.wav}}
+* {{écouter|lang=fr|France (Toulouse)|audio=LL-Q150 (fra)-Lepticed7-Jupiter.wav}}
+* {{écouter|lang=fr|Suisse (canton du Valais)||audio=LL-Q150 (fra)-DSwissK-Jupiter.wav}}
+* {{écouter|lang=fr|Suisse (canton du Valais)||audio=LL-Q150 (fra)-Anonyme569 (ClasseNoes)-Jupiter.wav}}
+* {{écouter|Cornimont (France)||lang=fr|audio=LL-Q150 (fra)-Poslovitch-Jupiter.wav}}
+* {{écouter|Vendée (France)||lang=fr|audio=LL-Q150 (fra)-Sartus85-Jupiter.wav}}
+
+=== {{S|voir aussi}} ===
+* {{Annexe|Système solaire en français|Le système solaire}}
+* {{WP}}
+* {{Le Dico des Ados}}
+* {{Géopatro}}
+* {{Nomdefamille.eu}}
+* {{Familienaam}}
+[[Catégorie:Mots en français issus de la mythologie gréco-romaine]]
+[[Catégorie:Planètes en français]]
+[[Catégorie:Éponymes en français]]
+
+== {{langue|af}} ==
+=== {{S|nom propre|af}} ===
+'''Jupiter''' {{pron||af}}
+# {{info lex|astronomie}} [[#fr|Jupiter]] (planète du système solaire).
+#* {{exemple|lang=af}}
+
+[[Catégorie:Planètes en afrikaans]]
+
+== {{langue|gsw}} ==
+=== {{S|nom propre|gsw}} ===
+'''Jupiter''' {{pron||gsw}}
+# {{info lex|astronomie}} [[Jupiter#fr|Jupiter]] (planète du système solaire).
+# {{info lex|mythologie}} [[Jupiter#fr|Jupiter]] (roi des dieux).
+
+[[Catégorie:Planètes en alémanique]]
+
+== {{langue|de}} ==
+=== {{S|nom propre|de}} ===
+{{de-nom-propre|genre=m}}
+'''Jupiter''' {{pron|ˈjuːpitɐ|de}}
+# {{info lex|astronomie}} [[Jupiter#fr|Jupiter]] (planète du système solaire).
+#* {{exemple | lang=de
+ | '''Jupiter''' ist ein Gasplanet.
+ | Jupiter est une planète gazeuse.}}
+# {{divinités|de}} [[Jupiter#fr|Jupiter]] (roi des dieux).
+
+==== {{S|dérivés}} ====
+* [[heißer Jupiter#de|heißer Jupiter]]
+* [[Jupiterlampe#de|Jupiterlampe]]
+* [[Jupitermond#de|Jupitermond]]
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=de||ˈjuːpitɐ|audio=De-Jupiter.ogg}}
+* {{écouter|lang=de|Allemagne (Berlin)|audio=LL-Q188 (deu)-Sebastian Wallroth-Jupiter.wav}}
+
+[[Catégorie:Planètes en allemand]]
+
+== {{langue|fro}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|fro|Jupiter}}.
+
+=== {{S|nom propre|fro}} ===
+'''Jupiter''' {{pron-recons||fro}} {{m}}
+# {{lexique|mythologie|fro}} [[Jupiter#fr|Jupiter]].
+
+== {{langue|pro}} ==
+{{ébauche|pro}}
+=== {{S|étymologie}} ===
+: Du {{étyl|la|pro|Jupiter}}.
+
+=== {{S|nom propre|pro}} ===
+'''Jupiter''' {{m}}
+# {{lexique|astronomie|pro}} [[Jupiter#fr|Jupiter]].
+
+=== {{S|références}} ===
+* {{R:Raynouard}}
+
+== {{langue|en}} ==
+=== {{S|nom propre|en}} ===
+'''Jupiter'''
+# {{info lex|mythologie}} [[Jupiter#fr-nom-pr-1|Jupiter]] (roi des dieux).
+# {{info lex|astronomie}} [[Jupiter#fr-nom-pr-2|Jupiter]] (planète du système solaire).
+{{Liste|avant=[[Mars]]|après=[[Saturn]]|liste=[[:Catégorie:Lexique en anglais de l’astronomie|Planètes principales]]}}
+
+==== {{S|dérivés}} ====
+* [[Jupiter mass#en|Jupiter mass]]
+* [[hot Jupiter#en|hot Jupiter]]
+* [[Jupiter-like]]
+
+=== {{S|prononciation}} ===
+* {{pron|ˈdʒu.pɪ.tɚ|en}} {{US|nocat=1}}
+* {{pron|ˈdʒuː.pɪ.tə|en}} {{UK|nocat=1}}
+* {{écouter|lang=en|États-Unis <!-- précisez svp la ville ou la région -->|ˈdʒu.pɪ.tɚ|audio=En-us-Jupiter.ogg}}
+
+[[Catégorie:Divinités romaines en anglais]]
+[[Catégorie:Planètes en anglais]]
+
+== {{langue|eu}} ==
+=== {{S|nom propre|eu}} ===
+'''Jupiter''' {{pron||eu}}
+# {{info lex|astronomie}} [[Jupiter#fr|Jupiter]] (planète du système solaire).
+# {{lexique|mythologie|eu}} [[Jupiter#fr|Jupiter]] (roi des dieux).
+
+[[Catégorie:Planètes en basque]]
+
+== {{langue|nds}} ==
+=== {{S|nom propre|nds}} ===
+'''Jupiter''' {{pron||nds}}
+# {{info lex|astronomie}} [[Jupiter#fr|Jupiter]] (planète du système solaire).
+# {{lexique|mythologie|nds}} [[Jupiter#fr|Jupiter]] (roi des dieux).
+
+[[Catégorie:Planètes en bas allemand]]
+
+== {{langue|nds-nl}} ==
+=== {{S|nom propre|nds-nl}} ===
+'''Jupiter''' {{pron||nds-nl}}
+# {{lexique|mythologie|nds-nl}} [[Jupiter#fr|Jupiter]] (roi des dieux).
+
+== {{langue|bs}} ==
+=== {{S|nom propre|bs}} ===
+'''Jupiter''' {{pron||bs}}
+# {{info lex|astronomie}} [[Jupiter#fr|Jupiter]] (planète du système solaire).
+# {{lexique|mythologie|bs}} [[Jupiter#fr|Jupiter]] (roi des dieux).
+
+[[Catégorie:Planètes en bosniaque]]
+
+== {{langue|hr}} ==
+=== {{S|nom propre|hr}} ===
+'''Jupiter''' {{pron||hr}}
+# {{info lex|astronomie}} [[Jupiter#fr|Jupiter]] (planète du système solaire).
+# {{lexique|mythologie|hr}} [[Jupiter#fr|Jupiter]] (roi des dieux).
+
+[[Catégorie:Planètes en croate]]
+
+== {{langue|da}} ==
+=== {{S|nom propre|da}} ===
+'''Jupiter''' {{pron||da}}
+# {{info lex|astronomie}} [[Jupiter#fr|Jupiter]] (planète du système solaire).
+# {{lexique|mythologie|da}} [[Jupiter#fr|Jupiter]] (roi des dieux).
+
+[[Catégorie:Planètes en danois]]
+
+== {{langue|et}} ==
+=== {{S|nom propre|et}} ===
+'''Jupiter''' {{pron||et}}
+# {{info lex|astronomie}} [[Jupiter#fr|Jupiter]] (planète du système solaire).
+# {{lexique|mythologie|et}} [[Jupiter#fr|Jupiter]] (roi des dieux).
+
+[[Catégorie:Planètes en estonien]]
+
+== {{langue|fo}} ==
+=== {{S|nom propre|fo}} ===
+'''Jupiter''' {{pron||fo}}
+# {{info lex|astronomie}} [[Jupiter#fr|Jupiter]] (planète du système solaire).
+
+[[Catégorie:Planètes en féroïen]]
+
+== {{langue|fi}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|fi}}
+
+=== {{S|nom propre|fi}} ===
+'''Jupiter''' {{pron|ˈju.pi.ter(.i)|fi}}
+# {{lexique|religion|fi}} [[Jupiter#fr|Jupiter]] (dieu).
+# {{info lex|astronomie}} [[Jupiter#fr|Jupiter]] (planète).
+
+[[Catégorie:Planètes en finnois]]
+
+== {{langue|fy}} ==
+=== {{S|nom propre|fy}} ===
+'''Jupiter''' {{pron||fy}}
+# {{info lex|astronomie}} [[Jupiter#fr|Jupiter]] (planète du système solaire).
+
+[[Catégorie:Planètes en frison]]
+
+== {{langue|stq}} ==
+=== {{S|nom propre|stq}} ===
+'''Jupiter''' {{pron||stq}}
+# {{info lex|astronomie}} [[Jupiter#fr|Jupiter]] (planète du système solaire).
+
+[[Catégorie:Planètes en frison saterlandais]]
+
+== {{langue|hu}} ==
+=== {{S|nom propre|hu}} ===
+'''Jupiter''' {{pron||hu}}
+# {{info lex|astronomie}} [[Jupiter#fr|Jupiter]] (planète du système solaire).
+
+[[Catégorie:Planètes en hongrois]]
+
+== {{langue|ilo}} ==
+=== {{S|nom propre|ilo}} ===
+'''Jupiter''' {{pron||ilo}}
+# {{info lex|astronomie}} [[Jupiter#fr|Jupiter]] (planète du système solaire).
+
+[[Catégorie:Planètes en ilocano]]
+
+== {{langue|ia}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|ia|mot=Jupiter}} ou {{étyl|la|ia|mot=Juppiter}}.
+
+=== {{S|nom propre|ia}} ===
+'''Jupiter''' {{pron|ju.ˈpi.ter|ju.ˈpi.tə|ia}}
+# {{info lex|astronomie}} [[Jupiter#fr|Jupiter]] (planète du système solaire).
+# {{lexique|mythologie|ia}} [[Jupiter#fr|Jupiter]] (roi des dieux).
+
+==== {{S|hyperonymes}} ====
+* [[planeta]]
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=ia}}
+
+[[Catégorie:Planètes en interlingua]]
+
+== {{langue|jv}} ==
+=== {{S|nom propre|jv}} ===
+'''Jupiter''' {{pron||jv}}
+# {{info lex|astronomie}} [[Jupiter#fr|Jupiter]] (planète du système solaire).
+
+[[Catégorie:Planètes en javanais]]
+
+== {{langue|csb}} ==
+=== {{S|nom propre|csb}} ===
+'''Jupiter''' {{pron||csb}}
+# {{info lex|astronomie}} [[Jupiter#fr|Jupiter]] (planète du système solaire).
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=csb||audio=Cs-Jupiter.ogg}}
+
+[[Catégorie:Planètes en kachoube]]
+
+== {{langue|pam}} ==
+=== {{S|nom propre|pam}} ===
+'''Jupiter''' {{pron||pam}}
+# {{info lex|astronomie}} [[Jupiter#fr|Jupiter]] (planète du système solaire).
+
+[[Catégorie:Planètes en kapampangan]]
+
+== {{langue|la}} ==
+=== {{S|étymologie}} ===
+: {{cf|Juppiter|lang=la}}. {{supplétion|lang=la|mot=1|Jovem|Jovis}}.
+
+=== {{S|nom propre|la}} ===
+{{la-tab-3i-mf|Jūpĭtĕr|Jŏv|Jupiter|Jov|sing=oui}}
+'''Jūpiter''' {{m}} {{s}}
+# {{variante de|Juppiter|lang=la}}.
+
+=== {{S|prononciation}} ===
+* {{pron|ˈi̯uː.pi.ter|la}}, {{phon|ˈi̯uːpɪt̪ɛr|la}} {{term|classique}}
+* {{pron|ˈju.pi.ter|la}}, {{phon|ˈjuːpit̪ɛr|la}} {{term|ecclésiastique}}
+
+== {{langue|li}} ==
+=== {{S|nom propre|li}} ===
+'''Jupiter''' {{pron||li}}
+# {{info lex|astronomie}} [[Jupiter#fr|Jupiter]] (planète du système solaire).
+
+[[Catégorie:Planètes en limbourgeois]]
+
+== {{langue|jbo}} ==
+=== {{S|nom propre|jbo}} ===
+'''Jupiter''' {{pron||jbo}}
+# {{info lex|astronomie}} [[Jupiter#fr|Jupiter]] (planète du système solaire).
+
+[[Catégorie:Planètes en lojban]]
+
+== {{langue|lb}} ==
+=== {{S|étymologie}} ===
+: Du {{étylp|la|lb|Jupiter}}.
+
+=== {{S|nom propre|lb}} ===
+{{lb-inv}}
+'''Jupiter''' {{pron||lb}}
+# {{divinités|lb|romaines}} {{lien|Jupiter|fr|nom-pr-1}}.
+#* {{exemple|lang=lb}}
+# {{planètes|lb}} {{lien|Jupiter|fr|nom-pr-2}}.
+#* {{exemple|lang=lb}}
+
+==== {{S|vocabulaire}} ====
+{{tableau-planètes du Système solaire/lb}}
+
+=== {{S|références}} ===
+: {{R:LOD}}
+
+== {{langue|gv}} ==
+=== {{S|nom propre|gv}} ===
+'''Jupiter''' {{pron||gv}}
+# {{info lex|astronomie}} [[Jupiter#fr|Jupiter]] (planète du système solaire).
+
+[[Catégorie:Planètes en mannois]]
+
+== {{langue|nl}} ==
+=== {{S|nom propre|nl}} ===
+'''Jupiter''' {{pron||nl}}
+# {{info lex|astronomie}} [[Jupiter#fr|Jupiter]] (planète du système solaire).
+# {{lexique|mythologie|nl}} [[Jupiter#fr|Jupiter]] (roi des dieux).
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=nl|Pays-Bas <!-- précisez svp la ville ou la région -->||audio=Nl-Jupiter.ogg}}
+[[Catégorie:Planètes en néerlandais]]
+
+== {{langue|normand}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|normand}}
+
+=== {{S|nom propre|normand}} ===
+'''Jupiter''' {{pron||normand}}
+# {{lexique|astronomie|normand}} [[Jupiter#fr|Jupiter]] (planète du système solaire).
+
+=== {{S|références}} ===
+* {{R:VJA}}
+
+[[Catégorie:Planètes en normand]]
+
+== {{langue|nb}} ==
+=== {{S|nom propre|nb}} ===
+'''Jupiter''' {{pron||nb}}
+# {{info lex|astronomie}} [[Jupiter#fr|Jupiter]] (planète du système solaire).
+# {{lexique|mythologie|nb}} [[Jupiter#fr|Jupiter]] (roi des dieux).
+
+[[Catégorie:Planètes en norvégien (bokmål)]]
+
+== {{langue|nn}} ==
+=== {{S|nom propre|nn}} ===
+'''Jupiter''' {{pron||nn}}
+# {{info lex|astronomie}} [[Jupiter#fr|Jupiter]] (planète du système solaire).
+# {{lexique|mythologie|nn}} [[Jupiter#fr|Jupiter]] (roi des dieux).
+
+[[Catégorie:Planètes en norvégien (nynorsk)]]
+
+== {{langue|rm}} ==
+=== {{S|nom propre|rm}} ===
+'''Jupiter''' {{pron||rm}}
+# {{info lex|astronomie}} [[Jupiter#fr|Jupiter]] (planète du système solaire).
+
+[[Catégorie:Planètes en romanche]]
+
+== {{langue|ro}} ==
+=== {{S|nom propre|ro}} ===
+'''Jupiter''' {{pron||ro}}
+# {{info lex|astronomie}} [[Jupiter#fr|Jupiter]] (planète du système solaire).
+# {{lexique|mythologie|ro}} [[Jupiter#fr|Jupiter]] (roi des dieux).
+
+==== {{S|vocabulaire}} ====
+* {{voir thésaurus|ro|astronomie}}
+[[Catégorie:Planètes en roumain]]
+
+== {{langue|se}} ==
+=== {{S|nom propre|se}} ===
+'''Jupiter''' {{pron||se}}
+# {{info lex|astronomie}} [[Jupiter#fr|Jupiter]] (planète du système solaire).
+
+[[Catégorie:Planètes en same du Nord]]
+
+== {{langue|sh}} ==
+=== {{S|nom propre|sh}} ===
+'''Jupiter''' {{pron||sh}}
+# {{info lex|astronomie}} [[Jupiter#fr|Jupiter]] (planète du système solaire).
+
+[[Catégorie:Planètes en serbo-croate]]
+
+== {{langue|sk}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|sk|mot=Jupiter}}.
+
+=== {{S|nom propre|sk|num=1}} ===
+{{sk-décl-nom-ma|sing=oui}}
+'''Jupiter''' {{pron|ˈju.pɪ.tɛr|sk}} {{m|a}}
+# {{lexique|mythologie|sk}} [[Jupiter#fr|Jupiter]] (dieu romain).
+
+=== {{S|nom propre|sk|num=2}} ===
+{{sk-décl-nom-mi-mou|sing=oui}}
+'''Jupiter''' {{pron|ˈju.pɪ.tɛr|sk}} {{m|i}}
+# {{info lex|astronomie}} [[Jupiter#fr|Jupiter]] (planète).
+#* {{exemple | lang=sk
+ | '''Jupiter''' je na [[obloha|oblohe]] dobre [[viditeľný]] [[voľným okom]] a preto bol [[známy]] ľuďom už v [[starovek]]u.
+ | Jupiter est bien visible à l’œil nu dans le ciel, et pour cette raison elle était déjà connue des hommes pendant l’Antiquité.
+ | source=Wikipédia, [[:w:sk:Jupiter|Jupiter]]}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=sk}}
+
+[[Catégorie:Planètes en slovaque]]
+
+== {{langue|sl}} ==
+=== {{S|nom propre|sl}} ===
+'''Jupiter''' {{pron||sl}}
+# {{info lex|astronomie}} [[Jupiter#fr|Jupiter]] (planète du système solaire).
+# {{lexique|mythologie|sl}} [[Jupiter#fr|Jupiter]] (roi des dieux).
+
+[[Catégorie:Planètes en slovène]]
+
+== {{langue|su}} ==
+=== {{S|nom propre|su}} ===
+'''Jupiter''' {{pron||su}}
+# {{info lex|astronomie}} [[Jupiter#fr|Jupiter]] (planète du système solaire).
+
+[[Catégorie:Planètes en soundanais]]
+
+== {{langue|sv}} ==
+=== {{S|nom propre|sv}} ===
+'''Jupiter''' {{pron||sv}}
+# {{info lex|astronomie}} [[Jupiter#fr|Jupiter]] (planète du système solaire).
+# {{lexique|mythologie|sv}} [[Jupiter#fr|Jupiter]] (roi des dieux).
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=sv|Suède||audio=LL-Q9027 (swe)-Moonhouse-Jupiter.wav}}
+
+[[Catégorie:Planètes en suédois]]
+
+== {{langue|sw}} ==
+=== {{S|nom propre|sw}} ===
+'''Jupiter''' {{pron||sw}}
+# {{lexique|mythologie|sw}} [[Jupiter#fr|Jupiter]] (roi des dieux).
+
+== {{langue|cs}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|cs|Jupiter}}. Il est à noter que la déclinaison mêle le radical latin et les désinences du masculin animé tchèque. {{supplétion|lang=cs|mot=1|Jova|Jovovi}}.
+
+=== {{S|nom propre|cs|num=1}} ===
+{{cs-décl-nom-autre|rad=J|sing=oui|ns=upiter|gs=ova |ds=ovovi |as=ova |vs=ove |ls=ovovi |is=ovem}}
+'''Jupiter''' {{pron||cs}} {{m|a}}
+# {{lexique|mythologie|cs}} [[Jupiter#fr|Jupiter]].
+#* {{exemple | lang=cs | Jupiter (latinsky Iuppiter; v češtině nepravidelné skloňování Jupiter, Jova, Jovovi, Jova, Jove, Jovovi, Jovem) je římská obdoba řeckého boha Dia.}}
+
+=== {{S|nom propre|cs|num=2}} ===
+{{cs-décl-nom-mi-dur|rad=Jupiter|sing=oui}}
+'''Jupiter''' {{pron||cs}} {{m|i}}
+# {{info lex|astronomie}} Planète [[Jupiter#fr|Jupiter]].
+#* {{exemple | lang=cs | '''Jupiter''' je největší planeta sluneční soustavy, v pořadí pátá od [[Slunce]].}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=cs}}
+
+[[Catégorie:Planètes en tchèque]]
+
+== {{langue|vro}} ==
+=== {{S|nom propre|vro}} ===
+'''Jupiter''' {{pron||vro}}
+# {{info lex|astronomie}} [[Jupiter#fr|Jupiter]] (planète du système solaire).
+
+[[Catégorie:Planètes en võro]]

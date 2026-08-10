@@ -1,0 +1,14 @@
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: Dérivé de l’allemand [[Österreich]].
+
+=== {{S|nom propre|gsw}} ===
+'''Öschtriich'''
+# [[Autriche]], pays d’[[Europe]].
+[[Catégorie:Pays en alémanique]]
+
+==== {{S|synonymes}} ====
+* [[Ööschtriich]]
+* [[Eeschdtriich]]
+
+{{clé de tri|Oschtriich}}

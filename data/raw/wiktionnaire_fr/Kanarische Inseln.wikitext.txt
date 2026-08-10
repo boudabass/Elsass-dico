@@ -1,0 +1,26 @@
+== {{langue|gsw}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|gsw|mot=Kanarische Inseln}}.
+
+=== {{S|nom propre|gsw}} ===
+'''Kanarische Inseln''' {{pron||gsw}}
+# {{îles|gsw}} Archipel des {{lien|Canaries|fr}}.
+
+== {{langue|de}} ==
+
+=== {{S|étymologie}} ===
+: {{composé de|m=1|kanarisch|Insel|lang=de}}.
+
+=== {{S|nom propre|de}} ===
+{{de-nom
+|ns= |np= Kanarischem Inseln
+|as= |ap= Kanarische Inseln
+|gs= |gp= Kanarischen Inseln
+|ds= |dp= Kanarische Inseln}}
+'''Kanarische Inseln''' {{p}}
+# {{îles|de|d’Espagne}} Archipel des {{lien|Canaries|fr}}.
+
+[[Catégorie:Régions d’Espagne en allemand]]
+[[Catégorie:Toponymes dont l’origine est un animal en allemand]]
+[[Catégorie:Toponymes dont l’origine est un animal en alémanique]]

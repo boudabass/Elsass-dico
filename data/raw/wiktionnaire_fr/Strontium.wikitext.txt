@@ -1,0 +1,62 @@
+{{voir|strontium}}
+
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw}}
+
+=== {{S|nom|gsw}} ===
+'''Strontium''' {{pron||gsw}} {{genre|gsw}}
+# {{éléments|gsw}} {{métaux|gsw}} [[strontium#fr|Strontium]].
+{{clr}}
+==== {{S|vocabulaire}} ====
+{{tableau périodique/gsw}}
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|de}}
+
+=== {{S|nom|de}} ===
+{{légende élément/de|Sr}}
+[[Image:Strontium_destilled_crystals.jpg|thumb|'''Strontium'''.]]
+'''Strontium''' {{pron|ˈʃtʀɔnˌʦi̯ʊm|de}} ou {{pron|ˈstʀɔnʦi̯ʊm|de}} {{n}}
+# {{éléments|de}} {{métaux|de}} [[strontium#fr|Strontium]] (l’{{lien|élément chimique}} [[Sr#conv|Sr]]).
+
+==== {{S|dérivés}} ====
+* {{lien|Strontiumcarbonat|de}}
+* {{lien|Strontiumchlorid|de}}
+* {{lien|Strontiumhydroxid|de}}
+* {{lien|Strontiumion|de}}
+* {{lien|Strontiumsulfat|de}}
+{{clr}}
+==== {{S|vocabulaire}} ====
+* {{voir thésaurus|de|tableau périodique des éléments}}
+{{tableau périodique/de}}
+{{Liste|avant={{lien|Rubidium|de}}<br>([[Rb#conv|Rb]])|après={{lien|Yttrium|de}}<br>([[Y#conv|Y]])|liste=[[Thésaurus:tableau périodique des éléments/allemand|Éléments chimiques en allemand]]}}
+
+==== {{S|prononciation}} ====
+* {{pron|ˈʃtʀɔnˌʦi̯ʊm|de}}
+* {{pron|ˈstʀɔnʦi̯ʊm|de}}
+* {{écouter|lang=de|Allemagne (Berlin)|audio=LL-Q188 (deu)-Lucas Werkmeister-Strontium.wav}}
+* {{écouter|lang=de|Allemagne (Berlin)|audio=LL-Q188 (deu)-Sebastian Wallroth-Strontium.wav}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=de}}
+
+== {{langue|lb}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|lb}}
+
+=== {{S|nom|lb}} ===
+{{lb-inv|ʃtʀˈontsi̯um}}
+'''Strontium''' {{pron|ʃtʀˈontsi̯um|lb}} {{m}}, {{au singulier uniquement|lb}}
+# {{éléments|lb}} {{métaux|lb}} [[strontium#fr|Strontium]].
+#* {{exemple|lang=lb}}
+{{clr}}
+==== {{S|vocabulaire}} ====
+{{tableau périodique/lb}}
+
+=== {{S|références}} ===
+: {{R:LOD}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=lb}}

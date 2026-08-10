@@ -1,0 +1,854 @@
+{{voir|jersey}}
+== {{langue|fr}} ==
+=== {{S|étymologie}} ===
+: {{date|lang=fr}} De l’{{étylp|en|fr|Jersey}}.
+
+=== {{S|nom propre|fr}} ===
+[[Image:Location of Jersey.png|thumb|Localisation de '''Jersey'''.]]
+'''Jersey''' {{pron|ʒɛʁ.zɛ|fr}} {{f}}
+# {{îles|fr|Anglo-Normandes}} [[île|Île]] de la [[Manche]], la plus [[grande]] des [[îles Anglo-Normandes]].
+#* {{exemple | lang=fr
+ | Au nord, j’entrevoyais '''Jersey''', cette île toujours anglaise à la honte de nos gouvernemens, où se conservent encore les antiques coutumes de France et notre vieille langue d’oil.
+ | source={{w|Jean Louis Armand de Quatrefages de Bréau}}, ''[[s:Souvenirs d’un Naturaliste/01|L’Archipel de Chausey, souvenirs d’un Naturaliste]]'', ''{{w|Revue des Deux Mondes}}'', tome 30, 1842}}
+#* {{exemple | lang=fr
+ | Saluant un apaisement de la situation, le Royaume-Uni a rappelé jeudi ses deux patrouilleurs après le départ des dizaines de bateaux de pêche français qui s’étaient massés à '''Jersey''', au cœur d’une dispute post-Brexit entre Paris et Londres sur l’accès aux eaux poissonneuses de l’île anglo-normande.
+ | source=AFP, « '''Jersey''': Londres rappelle ses patrouilleurs après une démonstration de force des pêcheurs français », ''{{w|Le Journal de Montréal}}'', 6 mai 2021}}
+# {{pays|fr|d’Europe}} ''[[bailliage|Bailliage]] de '''Jersey''''' : [[dépendance|Dépendance]] de la [[Couronne]] [[britannique]] constituée principalement de cette île.
+
+==== {{S|notes}} ====
+: Comme les autres îles Anglo-Normandes, Jersey n’appartient ni au [[Royaume-Uni]], ni à l’[[Union européenne]] mais relève directement de la propriété du souverain britannique, qui y règne en tant que [[duc]] de [[Normandie]]. Néanmoins, son code de subdivision {{w|ISO_3166-2:GB#Divisions_de_1er_niveau|ISO 3166-2}} est '''[[JSY]]'''.
+
+==== {{S|abréviations}} ====
+* [[JEY]] (norme {{w|ISO 3166-1}} alpha-3)
+
+==== {{S|gentilés}} ====
+* [[Jersiais]], [[Jersiaise]], [[jersiais]]
+
+==== {{S|dérivés}} ====
+{{(}}
+* [[États de Jersey]]
+* [[jersey]]
+* [[jersiaise française]]
+* [[New Jersey]]
+* [[race de Jersey]]
+* [[race jersiaise]]
+{{)}}
+
+==== {{S|traductions}} ====
+{{trad-début}}
+* {{T|ace}} : {{trad|ace|Jersey}}
+* {{T|af}} : {{trad-|af|Jersey}}
+* {{T|sq}} : {{trad-|sq|Jersey}}
+* {{T|gsw}} : {{trad|gsw|Jersey}}
+* {{T|de}} : {{trad+|de|Jersey}}
+* {{T|en}} : {{trad+|en|Jersey}}
+* {{T|ar}} : {{trad-|ar|بيليفية جيرزي}}
+* {{T|an}} : {{trad-|an|Jèrri}}
+* {{T|ast}} : {{trad-|ast|Jersey}}
+* {{T|az}} : {{trad-|az|Cersi}}
+* {{T|eu}} : {{trad-|eu|Jersey}}
+* {{T|be}} : {{trad-|be|Джэрсі|tr=Džèrsì}}
+* {{T|be-tarask}} : {{trad|be-tarask|Джэрсі}}
+* {{T|bs}} : {{trad-|bs|Jersey}}
+* {{T|br}} : {{trad-|br|Jerzenez}}
+* {{T|bg}} : {{trad-|bg|Джърси|tr=Dž″rsi}}
+* {{T|ca}} : {{trad+|ca|Jersey}}
+* {{T|zh}} : {{trad-|zh|泽西岛|R=Zéxīdǎo|tradi=澤西島}}
+* {{T|ko}} : {{trad-|ko|저지 섬|tr=jeoji seom}}
+* {{T|kw}} : {{trad-|kw|Jersi}}
+* {{T|hr}} : {{trad-|hr|Jersey}}
+* {{T|da}} : {{trad-|da|Jersey}}
+* {{T|dv}} : {{trad-|dv|ޖާސޭ}}
+* {{T|es}} : {{trad+|es|Jersey}}
+* {{T|eo}} : {{trad-|eo|Ĵersejo}}
+* {{T|et}} : {{trad-|et|Jersey}}
+* {{T|fi}} : {{trad+|fi|Jersey}}
+* {{T|frp}} : {{trad|frp|Jèrseyi}}
+* {{T|gd}} : {{trad-|gd|Jersey}}
+* {{T|gl}} : {{trad-|gl|Jersey}}
+* {{T|cy}} : {{trad-|cy|Jersey}}
+* {{T|ka}} : {{trad-|ka|ჯერსი|tr=ǰersi}}
+* {{T|el}} : {{trad-|el|Τζέρσεϊ}}
+* {{T|he}} : {{trad-|he|ג'רזי}}
+* {{T|hu}} : {{trad+|hu|Jersey}}
+* {{T|io}} : {{trad+|io|Jersey}}
+* {{T|id}} : {{trad-|id|Jersey}}
+* {{T|is}} : {{trad-|is|Jersey}}
+* {{T|it}} : {{trad-|it|Jersey}}
+* {{T|ja}} : {{trad+|ja|ジャージー|tr=jājī}}
+* {{T|jv}} : {{trad-|jv|Jersey}}
+* {{T|kk}} : {{trad-|kk|Джерси}}
+* {{T|la}} : {{trad-|la|Caesarea insula}}
+* {{T|lv}} : {{trad-|lv|Džērsija}}
+* {{T|lij}} : {{trad|lij|Jersey}}
+* {{T|li}} : {{trad-|li|Jersey}}
+* {{T|lt}} : {{trad-|lt|Džersis}}
+* {{T|ms}} : {{trad-|ms|Jersey}}
+* {{T|bpy}} : {{trad|bpy|জার্সি}}
+* {{T|gv}} : {{trad-|gv|Jersee}}
+* {{T|mr}} : {{trad-|mr|जर्सी}}
+* {{T|nan}} : {{trad|nan|Jersey}}
+* {{T|nl}} : {{trad+|nl|Jersey}}
+* {{T|normand}} : {{trad|normand|Jèrri}}
+* {{T|no}} : {{trad-|no|Jersey}}
+* {{T|nn}} : {{trad-|no|Jersey}}
+* {{T|nov}} : {{trad|nov|Jersey}}
+* {{T|oc}} : {{trad-|oc|Jersey}}
+* {{T|os}} : {{trad|os|Джерси}}
+* {{T|ur}} : {{trad-|ur|جرزی}}
+* {{T|fa}} : {{trad+|fa|جرسی}}
+* {{T|pl}} : {{trad+|pl|Jersey}}
+* {{T|pt}} : {{trad+|pt|Jersey}}
+* {{T|ro}} : {{trad-|ro|Jersey}}
+* {{T|ru}} : {{trad+|ru|Джерси|tr=Džersi}}
+* {{T|sr}} : {{trad-|sr|Џерзи}}
+* {{T|sh}} : {{trad-|sh|Jersey}}
+* {{T|sk}} : {{trad-|sk|Jersey}}
+* {{T|sl}} : {{trad-|sl|Jersey}}
+* {{T|sv}} : {{trad+|sv|Jersey}}
+* {{T|sw}} : {{trad-|sw|Jersey}}
+* {{T|ta}} : {{trad-|ta|யேர்சி}}
+* {{T|tt}} : {{trad-|tt|Җерси}}
+* {{T|cs}} : {{trad+|cs|Jersey}}
+* {{T|te}} : {{trad+|te|జెర్సీ}}
+* {{T|th}} : {{trad-|th|เจอร์ซีย์}}
+* {{T|tr}} : {{trad-|tr|Jersey}}
+* {{T|uk}} : {{trad-|uk|Джерсі}}
+* {{T|vi}} : {{trad-|vi|Jersey}}
+* {{T|war}} : {{trad|war|Jersey}}
+* {{T|wuu}} : {{trad|wuu|杰塞岛}}
+* {{T|yo}} : {{trad|yo|Jersey}}
+{{trad-fin}}
+
+==== {{S|holonymes}} ====
+* [[îles Britanniques]] ''(Attention : Les Anglais font la distinction entre l’archipel complet (''British Isles'') et l’archipel à l’exclusion de la République d’Irlande (''British Islands''))''
+** [[îles Anglo-Normandes]]
+
+==== {{S|méronymes}} ====
+: ''Bailliage de Jersey'' :
+* île de Jersey
+* récifs des [[Dirouilles]]
+* récifs des [[Écréhou]]
+* récifs des [[Minquiers]]
+* récifs des [[Pierres de Lecq]]
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=fr|France (Paris)|audio=LL-Q150 (fra)-GrandCelinien-Jersey.wav}}
+* {{écouter|Vendée (France)||lang=fr|audio=LL-Q150 (fra)-Sartus85-Jersey.wav}}
+* {{écouter|Haute-Loire (France)||lang=fr|audio=LL-Q150 (fra)-Sayoxime-Jersey.wav}}
+
+=== {{S|voir aussi}} ===
+* {{WP}}
+
+== {{langue|ace}} ==
+
+=== {{S|étymologie}} ===
+:De l’{{étyl|en|ace|Jersey}}.
+
+=== {{S|nom propre|ace}} ===
+'''Jersey''' {{pron||ace}}
+# [[Jersey#fr|Jersey]] (île de la [[Manche]]).
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=ace}}
+
+[[Catégorie:Îles en achinais]]
+[[Catégorie:Pays en achinais]]
+
+== {{langue|af}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|en|af|Jersey}}.
+
+=== {{S|nom propre|af}} ===
+'''Jersey''' {{pron||af}}
+# [[Jersey#fr|Jersey]] (île de la [[Manche]]).
+#* {{exemple|lang=af}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=af}}
+
+[[Catégorie:Îles en afrikaans]]
+[[Catégorie:Pays d’Europe en afrikaans]]
+
+== {{langue|sq}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|en|sq|Jersey}}.
+
+=== {{S|nom propre|sq}} ===
+'''Jersey''' {{pron||sq}}
+# [[Jersey#fr|Jersey]] (île de la [[Manche]]).
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=sq}}
+
+[[Catégorie:Îles en albanais]]
+[[Catégorie:Pays d’Europe en albanais]]
+
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: Emprunt du nom {{étyl|en|gsw}}.
+
+=== {{S|nom propre|gsw}} ===
+'''Jersey''' {{pron||gsw}}
+# [[Jersey#fr|Jersey]] (île de la [[Manche]]).
+
+=== {{S|voir aussi}} ===
+* {{w|Jersey|lang=als}} sur Wikipédia (en alémanique) [[Image:Wikipedia-logo.svg|20px|Article sur Wikipédia|link=w:als:Jersey]]
+
+[[Catégorie:Îles en alémanique]]
+[[Catégorie:Pays en alémanique]]
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|en|de|Jersey}}.
+
+=== {{S|nom|de}} ===
+{{de-nom|genre=m|ns= Jersey |np= Jerseys|as= Jersey |ap= Jerseys|gs= Jerseys |gp= Jerseys|ds= Jersey |dp= Jerseys}}
+'''Fleece''' {{pron|ˈd͡ʒøːɐzi, ˈd͡ʒœrzi|de}} {{m}}
+# {{lexique|textile|de}} [[jersey|Jersey]].
+# {{vêtements|de}} [[jersey|Jersey]].
+
+=== {{S|nom propre|de}} ===
+{{de-nom|ns= Jersey |np=|as= Jersey |ap=|gs= Jerseys |gp=|ds= Jersey |dp=}}
+'''Jersey''' {{pron|d͡ʒøːɐzi|de}}
+# [[Jersey#fr|Jersey]] (île de la [[Manche]]).
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=de}}
+
+[[Catégorie:Îles d’Europe en allemand]]
+[[Catégorie:Pays d’Europe en allemand]]
+
+== {{langue|en}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|non|en}} {{composé de|Geirs|ey|lang=non|sens=île de [[Geir]]}}.
+
+=== {{S|nom propre|en}} ===
+'''Jersey''' {{pron||en}}
+# [[Jersey#fr|Jersey]].
+
+=== {{S|nom|en}} ===
+{{en-nom-rég}}
+'''Jersey''' {{pron||en}}
+# [[Jersey#fr|Jersey]] (île de la [[Manche]]).
+
+==== {{S|dérivés}} ====
+* [[New Jersey]]
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=en}}
+
+[[Catégorie:Îles d’Europe en anglais]]
+[[Catégorie:Pays d’Europe en anglais]]
+
+== {{langue|ast}} ==
+=== {{S|étymologie}} ===
+: Emprunt du nom {{étyl|en|ast}}.
+
+=== {{S|nom propre|ast}} ===
+'''Jersey''' {{pron||ast}}
+# [[Jersey#fr|Jersey]] (île de la [[Manche]]).
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=ast}}
+
+[[Catégorie:Îles en asturien]]
+[[Catégorie:Pays en asturien]]
+
+== {{langue|eu}} ==
+=== {{S|étymologie}} ===
+: Emprunt du nom {{étyl|en|eu}}.
+
+=== {{S|nom propre|eu}} ===
+'''Jersey''' {{pron||eu}}
+# [[Jersey#fr|Jersey]] (île de la [[Manche]]).
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=eu}}
+
+[[Catégorie:Îles d’Europe en basque]]
+[[Catégorie:Pays d’Europe en basque]]
+
+== {{langue|bs}} ==
+=== {{S|étymologie}} ===
+: Emprunt du nom {{étyl|en|bs}}.
+
+=== {{S|nom propre|bs}} ===
+'''Jersey''' {{pron||bs}}
+# [[Jersey#fr|Jersey]] (île de la [[Manche]]).
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=bs}}
+
+[[Catégorie:Îles en bosniaque]]
+[[Catégorie:Pays en bosniaque]]
+
+== {{langue|ca}} ==
+=== {{S|étymologie}} ===
+: Emprunt du nom {{étyl|en|ca}}.
+
+=== {{S|nom propre|ca}} ===
+'''Jersey''' {{pron||ca}}
+# [[Jersey#fr|Jersey]] (île de la [[Manche]]).
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=ca}}
+
+[[Catégorie:Îles d’Europe en catalan]]
+[[Catégorie:Pays d’Europe en catalan]]
+
+== {{langue|hr}} ==
+=== {{S|étymologie}} ===
+: Emprunt du nom {{étyl|en|hr}}.
+
+=== {{S|nom propre|hr}} ===
+'''Jersey''' {{pron||hr}}
+# [[Jersey#fr|Jersey]] (île de la [[Manche]]).
+
+=== {{S|voir aussi}} ===
+* {{WP|Jersey (otok)|Jersey|hr}}
+
+[[Catégorie:Îles en croate]]
+[[Catégorie:Pays d’Europe en croate]]
+
+== {{langue|da}} ==
+=== {{S|étymologie}} ===
+: Emprunt du nom {{étyl|en|da}}.
+
+=== {{S|nom propre|da}} ===
+'''Jersey''' {{pron||da}}
+# [[Jersey#fr|Jersey]] (île de la [[Manche]]).
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=da}}
+
+[[Catégorie:Îles d’Europe en danois]]
+[[Catégorie:Pays d’Europe en danois]]
+
+== {{langue|es}} ==
+=== {{S|étymologie}} ===
+: Emprunt du nom {{étyl|en|es}}.
+
+=== {{S|nom propre|es}} ===
+'''Jersey''' {{pron||es}}
+# [[Jersey#fr|Jersey]] (île de la [[Manche]]).
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=es}}
+
+[[Catégorie:Îles d’Europe en espagnol]]
+[[Catégorie:Pays d’Europe en espagnol]]
+
+== {{langue|et}} ==
+=== {{S|étymologie}} ===
+: Emprunt du nom {{étyl|en|et}}.
+
+=== {{S|nom propre|et}} ===
+'''Jersey''' {{pron||et}}
+# [[Jersey#fr|Jersey]] (île de la [[Manche]]).
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=et}}
+
+[[Catégorie:Îles d’Europe en estonien]]
+[[Catégorie:Pays d’Europe en estonien]]
+
+== {{langue|fi}} ==
+=== {{S|étymologie}} ===
+: Emprunt du nom {{étyl|en|fi}}.
+
+=== {{S|nom propre|fi}} ===
+'''Jersey''' {{pron||fi}}
+# [[Jersey#fr|Jersey]] (île de la [[Manche]]).
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=fi}}
+
+[[Catégorie:Îles d’Europe en finnois]]
+[[Catégorie:Pays d’Europe en finnois]]
+
+== {{langue|gd}} ==
+=== {{S|étymologie}} ===
+: Emprunt du nom {{étyl|en|gd}}.
+
+=== {{S|nom propre|gd}} ===
+'''Jersey''' {{pron||gd}}
+# [[Jersey#fr|Jersey]] (île de la [[Manche]]).
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=gd}}
+
+[[Catégorie:Îles en gaélique écossais]]
+[[Catégorie:Pays en gaélique écossais]]
+
+== {{langue|gl}} ==
+=== {{S|étymologie}} ===
+: Emprunt du nom {{étyl|en|gl}}.
+
+=== {{S|nom propre|gl}} ===
+'''Jersey''' {{pron||gl}}
+# [[Jersey#fr|Jersey]] (île de la [[Manche]]).
+
+=== {{S|voir aussi}} ===
+* {{WP|Illa de Jersey|Jersey|gl}}
+
+[[Catégorie:Îles d’Europe en galicien]]
+[[Catégorie:Pays d’Europe en galicien]]
+
+== {{langue|cy}} ==
+=== {{S|étymologie}} ===
+: Emprunt du nom {{étyl|en|cy}}.
+
+=== {{S|nom propre|cy}} ===
+'''Jersey''' {{pron||cy}}
+# [[Jersey#fr|Jersey]] (île de la [[Manche]]).
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=cy}}
+
+[[Catégorie:Îles en gallois]]
+[[Catégorie:Pays en gallois]]
+
+== {{langue|hu}} ==
+=== {{S|étymologie}} ===
+: Emprunt du nom {{étyl|en|hu}}.
+
+=== {{S|nom propre|hu}} ===
+'''Jersey''' {{pron||hu}}
+# [[Jersey#fr|Jersey]] (île de la [[Manche]]).
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=hu}}
+
+[[Catégorie:Îles en hongrois]]
+[[Catégorie:Pays d’Europe en hongrois]]
+
+== {{langue|io}} ==
+=== {{S|étymologie}} ===
+: Emprunt du nom {{étyl|en|io}}.
+
+=== {{S|nom propre|io}} ===
+'''Jersey''' {{pron||io}}
+# [[Jersey#fr|Jersey]] (île de la [[Manche]]).
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=io}}
+
+[[Catégorie:Îles en ido]]
+[[Catégorie:Pays en ido]]
+
+== {{langue|id}} ==
+=== {{S|étymologie}} ===
+: Emprunt du nom {{étyl|en|id}}.
+
+=== {{S|nom propre|id}} ===
+'''Jersey''' {{pron||id}}
+# [[Jersey#fr|Jersey]] (île de la [[Manche]]).
+#* {{exemple|lang=id}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=id}}
+
+[[Catégorie:Îles d’Europe en indonésien]]
+[[Catégorie:Pays d’Europe en indonésien]]
+
+== {{langue|is}} ==
+=== {{S|étymologie}} ===
+: Emprunt du nom {{étyl|en|is}}.
+
+=== {{S|nom propre|is}} ===
+'''Jersey''' {{pron||is}}
+# [[Jersey#fr|Jersey]] (île de la [[Manche]]).
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=is}}
+
+[[Catégorie:Îles en islandais]]
+[[Catégorie:Pays en islandais]]
+
+== {{langue|it}} ==
+=== {{S|étymologie}} ===
+: Emprunt du nom {{étyl|en|it}}.
+
+=== {{S|nom propre|it}} ===
+'''Jersey''' {{pron||it}}
+# [[Jersey#fr|Jersey]] (île de la [[Manche]]).
+
+=== {{S|voir aussi}} ===
+* {{WP|Isola di Jersey|Jersey|it}}
+
+[[Catégorie:Îles d’Europe en italien]]
+[[Catégorie:Pays d’Europe en italien]]
+
+== {{langue|jv}} ==
+=== {{S|étymologie}} ===
+: Emprunt du nom {{étyl|en|jv}}.
+
+=== {{S|nom propre|jv}} ===
+'''Jersey''' {{pron||jv}}
+# [[Jersey#fr|Jersey]] (île de la [[Manche]]).
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=jv}}
+
+[[Catégorie:Îles en javanais]]
+[[Catégorie:Pays en javanais]]
+
+== {{langue|lij}} ==
+=== {{S|étymologie}} ===
+: Emprunt du nom {{étyl|en|lij}}.
+
+=== {{S|nom propre|lij}} ===
+'''Jersey''' {{pron||lij}}
+# [[Jersey#fr|Jersey]] (île de la [[Manche]]).
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=lij}}
+
+[[Catégorie:Îles en ligure]]
+[[Catégorie:Pays en ligure]]
+
+== {{langue|li}} ==
+=== {{S|étymologie}} ===
+: Emprunt du nom {{étyl|en|li}}.
+
+=== {{S|nom propre|li}} ===
+'''Jersey''' {{pron||li}}
+# [[Jersey#fr|Jersey]] (île de la [[Manche]]).
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=li}}
+
+[[Catégorie:Îles en limbourgeois]]
+[[Catégorie:Pays en limbourgeois]]
+
+== {{langue|ms}} ==
+=== {{S|étymologie}} ===
+: Emprunt du nom {{étyl|en|ms}}.
+
+=== {{S|nom propre|ms}} ===
+'''Jersey''' {{pron||ms}}
+# [[Jersey#fr|Jersey]] (île de la [[Manche]]).
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=ms}}
+
+[[Catégorie:Îles en malais]]
+[[Catégorie:Pays d’Europe en malais]]
+
+== {{langue|nan}} ==
+=== {{S|étymologie}} ===
+: Emprunt du nom {{étyl|en|nan}}.
+
+=== {{S|nom propre|nan}} ===
+'''Jersey''' {{pron||nan}}
+# [[Jersey#fr|Jersey]] (île de la [[Manche]]).
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=nan}}
+
+[[Catégorie:Îles en minnan]]
+[[Catégorie:Pays en minnan]]
+
+== {{langue|nl}} ==
+=== {{S|étymologie}} ===
+: Emprunt du nom {{étyl|en|nl}}.
+
+=== {{S|nom propre|nl}} ===
+'''Jersey''' {{pron||nl}}
+# [[Jersey#fr|Jersey]] (île de la [[Manche]]).
+
+=== {{S|voir aussi}} ===
+* {{WP|Jersey (eiland)|Jersey|nl}}
+
+[[Catégorie:Îles en néerlandais]]
+[[Catégorie:Pays d’Europe en néerlandais]]
+
+== {{langue|no}} ==
+=== {{S|étymologie}} ===
+: Emprunt du nom {{étyl|en|no}}.
+
+=== {{S|nom propre|no}} ===
+'''Jersey''' {{pron||no}}
+# [[Jersey#fr|Jersey]] (île de la [[Manche]]).
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=no}}
+
+[[Catégorie:Îles d’Europe en norvégien]]
+[[Catégorie:Pays d’Europe en norvégien]]
+
+== {{langue|nn}} ==
+=== {{S|étymologie}} ===
+: Emprunt du nom {{étyl|en|nn}}.
+
+=== {{S|nom propre|nn}} ===
+'''Jersey''' {{pron||nn}}
+# [[Jersey#fr|Jersey]] (île de la [[Manche]]).
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=nn}}
+
+[[Catégorie:Îles en norvégien (nynorsk)]]
+[[Catégorie:Pays en norvégien (nynorsk)]]
+
+== {{langue|nov}} ==
+=== {{S|étymologie}} ===
+: Emprunt du nom {{étyl|en|nov}}.
+
+=== {{S|nom propre|nov}} ===
+'''Jersey''' {{pron||nov}}
+# [[Jersey#fr|Jersey]] (île de la [[Manche]]).
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=nov}}
+
+[[Catégorie:Îles en novial]]
+[[Catégorie:Pays en novial]]
+
+== {{langue|oc}} ==
+=== {{S|étymologie}} ===
+: Emprunt du nom {{étyl|en|oc}}.
+
+=== {{S|nom propre|oc}} ===
+'''Jersey''' {{pron||oc}}
+# [[Jersey#fr|Jersey]] (île de la [[Manche]]).
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=oc}}
+
+[[Catégorie:Îles en occitan]]
+[[Catégorie:Pays en occitan]]
+
+== {{langue|pl}} ==
+=== {{S|étymologie}} ===
+: Emprunt du nom {{étyl|en|pl}}.
+
+=== {{S|nom propre|pl}} ===
+'''Jersey''' {{pron||pl}}
+# [[Jersey#fr|Jersey]] (île de la [[Manche]]).
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=pl|Pologne (Varsovie)||audio=LL-Q809 (pol)-Poemat-Jersey.wav}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=pl}}
+
+[[Catégorie:Îles d’Europe en polonais]]
+[[Catégorie:Pays d’Europe en polonais]]
+
+== {{langue|pt}} ==
+=== {{S|étymologie}} ===
+: Emprunt du nom {{étyl|en|pt}}.
+
+=== {{S|nom propre|pt}} ===
+'''Jersey''' {{pron||pt}}
+# [[Jersey#fr|Jersey]] (île de la [[Manche]]).
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=pt}}
+
+[[Catégorie:Îles d’Europe en portugais]]
+[[Catégorie:Pays d’Europe en portugais]]
+
+== {{langue|ro}} ==
+=== {{S|étymologie}} ===
+: Emprunt du nom {{étyl|en|ro}}.
+
+=== {{S|nom propre|ro}} ===
+'''Jersey''' {{pron||ro}}
+# [[Jersey#fr|Jersey]] (île de la [[Manche]]).
+
+=== {{S|voir aussi}} ===
+* {{WP|Insula Jersey|Jersey|ro}}
+
+[[Catégorie:Îles d’Europe en roumain]]
+[[Catégorie:Pays d’Europe en roumain]]
+
+== {{langue|sh}} ==
+=== {{S|étymologie}} ===
+: Emprunt du nom {{étyl|en|sh}}.
+
+=== {{S|nom propre|sh}} ===
+'''Jersey''' {{pron||sh}}
+# [[Jersey#fr|Jersey]] (île de la [[Manche]]).
+
+=== {{S|voir aussi}} ===
+* {{WP|Jersey (otok)|Jersey|sh}}
+
+[[Catégorie:Îles en serbo-croate]]
+[[Catégorie:Pays d’Europe en serbo-croate]]
+
+== {{langue|sk}} ==
+=== {{S|étymologie}} ===
+: Emprunt du nom {{étyl|en|sk}}.
+
+=== {{S|nom propre|sk}} ===
+'''Jersey''' {{pron||sk}}
+# [[Jersey#fr|Jersey]] (île de la [[Manche]]).
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=sk}}
+
+[[Catégorie:Îles en slovaque]]
+[[Catégorie:Pays d’Europe en slovaque]]
+
+== {{langue|sl}} ==
+=== {{S|étymologie}} ===
+: Emprunt du nom {{étyl|en|sl}}.
+
+=== {{S|nom propre|sl}} ===
+{{sl-décl-nmm|Jersey|pdp=oui}}
+'''Jersey''' {{pron||sl}}
+# [[Jersey#fr|Jersey]] (île de la [[Manche]]).
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=sl}}
+
+[[Catégorie:Îles en slovène]]
+[[Catégorie:Pays d’Europe en slovène]]
+
+== {{langue|sv}} ==
+=== {{S|étymologie}} ===
+: Emprunt du nom {{étyl|en|sv}}.
+
+=== {{S|nom propre|sv}} ===
+'''Jersey''' {{pron||sv}}
+# [[Jersey#fr|Jersey]] (île de la [[Manche]]).
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=sv}}
+
+[[Catégorie:Îles d’Europe en suédois]]
+[[Catégorie:Pays d’Europe en suédois]]
+
+== {{langue|sw}} ==
+=== {{S|étymologie}} ===
+: Emprunt du nom {{étyl|en|sw}}.
+
+=== {{S|nom propre|sw}} ===
+'''Jersey''' {{pron||sw}}
+# [[Jersey#fr|Jersey]] (île de la [[Manche]]).
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=sw}}
+
+[[Catégorie:Îles en swahili]]
+[[Catégorie:Pays en swahili]]
+
+== {{langue|cs}} ==
+=== {{S|étymologie}} ===
+: Emprunt du nom {{étyl|en|cs}}.
+
+=== {{S|nom propre|cs}} ===
+'''Jersey''' {{pron||cs}}
+# [[Jersey#fr|Jersey]] (île de la [[Manche]]).
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=cs}}
+
+[[Catégorie:Îles d’Europe en tchèque]]
+[[Catégorie:Pays d’Europe en tchèque]]
+
+== {{langue|tr}} ==
+=== {{S|étymologie}} ===
+: Emprunt du nom {{étyl|en|tr}}.
+
+=== {{S|nom propre|tr}} ===
+'''Jersey''' {{pron||tr}}
+# [[Jersey#fr|Jersey]] (île de la [[Manche]]).
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=tr}}
+
+[[Catégorie:Îles d’Europe en turc]]
+[[Catégorie:Pays d’Europe en turc]]
+
+== {{langue|vi}} ==
+=== {{S|étymologie}} ===
+: Emprunt du nom {{étyl|en|vi}}.
+
+=== {{S|nom propre|vi}} ===
+'''Jersey''' {{pron||vi}}
+# [[Jersey#fr|Jersey]] (île de la [[Manche]]).
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=vi}}
+
+[[Catégorie:Îles en vietnamien]]
+[[Catégorie:Pays d’Europe en vietnamien]]
+
+== {{langue|war}} ==
+=== {{S|étymologie}} ===
+: Emprunt du nom {{étyl|en|war}}.
+
+=== {{S|nom propre|war}} ===
+'''Jersey''' {{pron||war}}
+# [[Jersey#fr|Jersey]] (île de la [[Manche]]).
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=war}}
+
+[[Catégorie:Îles en waray (Philippines)]]
+[[Catégorie:Pays en waray (Philippines)]]
+
+== {{langue|yo}} ==
+=== {{S|étymologie}} ===
+: Emprunt du nom {{étyl|en|yo}}.
+
+=== {{S|nom propre|yo}} ===
+'''Jersey''' {{pron||yo}}
+# [[Jersey#fr|Jersey]] (île de la [[Manche]]).
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=yo}}
+
+[[Catégorie:Îles en yoruba]]
+[[Catégorie:Pays en yoruba]]
+[[Catégorie:Toponymes dont l’origine est maritime en français]]
+[[Catégorie:Toponymes dont l’origine est maritime en achinais]]
+[[Catégorie:Toponymes dont l’origine est maritime en afrikaans]]
+[[Catégorie:Toponymes dont l’origine est maritime en albanais]]
+[[Catégorie:Toponymes dont l’origine est maritime en alémanique]]
+[[Catégorie:Toponymes dont l’origine est maritime en allemand]]
+[[Catégorie:Toponymes dont l’origine est maritime en anglais]]
+[[Catégorie:Toponymes dont l’origine est maritime en asturien]]
+[[Catégorie:Toponymes dont l’origine est maritime en basque]]
+[[Catégorie:Toponymes dont l’origine est maritime en bosniaque]]
+[[Catégorie:Toponymes dont l’origine est maritime en catalan]]
+[[Catégorie:Toponymes dont l’origine est maritime en croate]]
+[[Catégorie:Toponymes dont l’origine est maritime en danois]]
+[[Catégorie:Toponymes dont l’origine est maritime en espagnol]]
+[[Catégorie:Toponymes dont l’origine est maritime en estonien]]
+[[Catégorie:Toponymes dont l’origine est maritime en finnois]]
+[[Catégorie:Toponymes dont l’origine est maritime en gaélique écossais]]
+[[Catégorie:Toponymes dont l’origine est maritime en galicien]]
+[[Catégorie:Toponymes dont l’origine est maritime en gallois]]
+[[Catégorie:Toponymes dont l’origine est maritime en hongrois]]
+[[Catégorie:Toponymes dont l’origine est maritime en ido]]
+[[Catégorie:Toponymes dont l’origine est maritime en indonésien]]
+[[Catégorie:Toponymes dont l’origine est maritime en islandais]]
+[[Catégorie:Toponymes dont l’origine est maritime en italien]]
+[[Catégorie:Toponymes dont l’origine est maritime en javanais]]
+[[Catégorie:Toponymes dont l’origine est maritime en ligure]]
+[[Catégorie:Toponymes dont l’origine est maritime en limbourgeois]]
+[[Catégorie:Toponymes dont l’origine est maritime en malais]]
+[[Catégorie:Toponymes dont l’origine est maritime en minnan]]
+[[Catégorie:Toponymes dont l’origine est maritime en néerlandais]]
+[[Catégorie:Toponymes dont l’origine est maritime en norvégien]]
+[[Catégorie:Toponymes dont l’origine est maritime en norvégien (nynorsk)]]
+[[Catégorie:Toponymes dont l’origine est maritime en novial]]
+[[Catégorie:Toponymes dont l’origine est maritime en occitan]]
+[[Catégorie:Toponymes dont l’origine est maritime en polonais]]
+[[Catégorie:Toponymes dont l’origine est maritime en portugais]]
+[[Catégorie:Toponymes dont l’origine est maritime en roumain]]
+[[Catégorie:Toponymes dont l’origine est maritime en serbo-croate]]
+[[Catégorie:Toponymes dont l’origine est maritime en slovaque]]
+[[Catégorie:Toponymes dont l’origine est maritime en slovène]]
+[[Catégorie:Toponymes dont l’origine est maritime en suédois]]
+[[Catégorie:Toponymes dont l’origine est maritime en swahili]]
+[[Catégorie:Toponymes dont l’origine est maritime en tchèque]]
+[[Catégorie:Toponymes dont l’origine est maritime en turc]]
+[[Catégorie:Toponymes dont l’origine est maritime en vietnamien]]
+[[Catégorie:Toponymes dont l’origine est maritime en waray (Philippines)]]
+[[Catégorie:Toponymes dont l’origine est maritime en yoruba]]

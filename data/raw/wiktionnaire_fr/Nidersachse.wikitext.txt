@@ -1,0 +1,13 @@
+== {{langue|gsw}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|gsw|mot=Nidersachse}}.
+
+=== {{S|nom propre|gsw}} ===
+'''Nidersachse''' {{pron||gsw}}
+# {{lien|Basse-Saxe|fr}}.
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=gsw}}
+
+[[Catégorie:Toponymes dont l’origine est un ethnonyme en alémanique]]

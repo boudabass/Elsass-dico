@@ -1,0 +1,158 @@
+{{voir|pascal}}
+
+== {{langue|fr}} ==
+=== {{S|étymologie}} ===
+: {{laé|fr|prénom}} De l’adjectif {{lien|''pascal''|fr}}.
+: {{laé|fr|nom-fam}} Du prénom<ref>{{Geneanet}}</ref>.
+: {{laé|fr|nom}} et {{laé|fr|nom-pr}} Du [[nom de famille]] du [[polymathe]] français {{w|Blaise Pascal}}.
+
+=== {{S|prénom|fr|genre=m}} ===
+{{fr-inv|pas.kal}}
+'''Pascal''' {{pron|pas.kal|fr}} {{m}} {{équiv-pour|lang=fr|une femme|Pascale}}
+# Prénom masculin.
+#* {{exemple|lang=fr|Contrairement aux idées reçues, ce ne sont pas les profs « cools » qui sont les plus marquants : « les élèves apprécient les enseignants exigeants, mais qui reconnaissent aussi les efforts », indique '''Pascal''' Hostachy.|source=journal ''20 minutes'', 23 novembre 2018, page 11}}
+
+==== {{S|dérivés}} ====
+{{(}}
+* [[Jean-Pascal]]
+* [[Pascale]] ''(prénom féminin)''
+* [[Pascalin]] ''(prénom masculin)''
+* [[Pascaline]] ''(prénom féminin)''
+* [[Pasquale]] ''(prénom féminin)''
+* [[Yves-Pascal]]
+{{)}}
+
+=== {{S|nom de famille|fr}} ===
+{{fr-inv|pas.kal|mf=oui}}
+'''Pascal''' {{pron|pas.kal|fr}} {{mf}}
+# [[nom de famille|Nom de famille]].
+#* {{exemple|lang=fr|{{w|Blaise '''Pascal'''}}.}}
+#* {{exemple|lang=fr|'''Pascal''' nous dit qu’au point de vue des faits, le Bien et le Mal sont une question de « latitude ». En effet, tel acte humain s’appelle crime, ici, bonne action, là-bas, et réciproquement.|source={{w|Auguste de Villiers de L’Isle-Adam}}, ''[[s:Les Demoiselles de Bienfilâtre|Les Demoiselles de Bienfilâtre]]'', dans les ''Contes cruels'', Calmann Lévy, 1893, page 1}}
+#* {{exemple|lang=fr|Comme dit André, je suis entré en '''Pascal'''. Je ne me force pas pour lire '''Pascal''' ; surtout les « notes » de l’édition ''Brunschvicg'', que m’a donnée André. Tout ce qui touche à Port-Royal me touche.|source={{w|François Mauriac}}, ''{{w|Un adolescent d’autrefois}}'', Flammarion, 1969, page 9}}
+#* {{exemple|lang=fr|Pedro '''Pascal''', l’acteur le plus bankable du moment, et Bella Ramsey seront de nouveau de la partie.|source=journal ''20 minutes'', édition Paris-IDF, 13 mars 2023, page 10}}
+
+==== {{S|dérivés}} ====
+* [[pari de Pascal]]
+* [[pascaline]]
+* [[pascal#nom-1|pascal]] ''(et ses dérivés)''
+* [[limaçon de Pascal]]
+* [[triangle de Pascal]]
+
+=== {{S|nom|fr}} ===
+{{fr-rég|pas.kal}}
+[[Fichier:France 500 francs 1987-a.jpg|vignette|Un '''''Pascal''''']]
+'''Pascal''' {{pron|pas.kal|fr}} {{m}}
+# {{monnaies|fr}} {{vieilli|fr}} {{variante de|pascal|fr}}.
+#* {{exemple|lang=fr}}
+
+==== {{S|vocabulaire}} ====
+* [[Hugo]]
+
+=== {{S|nom propre|fr}} ===
+{{fr-inv|pas.kal|inv_titre={{m}} {{s}}}}
+'''Pascal''' {{pron|pas.kal|fr}} {{m}} {{s}}
+# {{lexique|informatique|fr}} [[langage|Langage]] de [[programmation]] adapté au traitement d’[[application]]s scientifiques.
+# Ancien nom de la commune de [[Salah Bey]] dans la [[wilaya]] de [[Sétif]] en [[Algérie]].
+
+==== {{S|traductions}} ====
+{{trad-début|langage de programmation}}
+* {{T|de}} : {{trad|de|Pascal}}
+* {{T|en}} : {{trad|en|Pascal}}
+* {{T|it}} : {{trad|it|Pascal}}
+{{trad-fin}}
+
+==== {{S|vocabulaire}} ====
+* {{voir thésaurus|fr|ordinateur|développement informatique}}
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=fr|France (Saint-Maurice-de-Beynost)|audio=LL-Q150 (fra)-Benoît Prieur-Pascal.wav}}
+* {{écouter|lang=fr|France (Toulouse)||audio=LL-Q150 (fra)-Lepticed7-Pascal.wav}}
+* {{écouter|Vendée (France)||lang=fr|audio=LL-Q150 (fra)-Sartus85-Pascal.wav}}
+
+=== {{S|anagrammes}} ===
+{{voir anagrammes|fr}}
+
+=== {{S|voir aussi}} ===
+* {{WP|Pascal (langage)}}
+
+=== {{S|références}} ===
+* {{Géopatro}}
+* {{Familienaam}}
+* {{Nomdefamille.eu}}
+{{Références}}
+[[Catégorie:Langages informatiques en français]]
+[[Catégorie:Éponymes en français]]
+
+== {{langue|gsw}} ==
+=== {{S|nom|gsw}} ===
+'''Pascal''' {{pron||gsw}}
+# {{lexique|métrologie|gsw}} [[pascal#fr-nom|Pascal]].
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=gsw}}
+[[Catégorie:Unités de mesure en alémanique]]
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: {{laé|de|nom}} Du {{étyl|fr|de|mot=pascal}}
+: {{laé|de|nom propre}} {{date|1970|lang=de}} Du {{étyl|fr|de|mot=Pascal}}, nommé en l’honneur de {{w|Blaise Pascal}} par {{w|Niklaus Wirth}}, également créateur du {{lien|Modula|de}} et de l’{{lien|Oberon|de}}.
+
+=== {{S|nom|de}} ===
+'''Pascal''' {{pron||de}} {{n}}, {{sp}}
+# {{unités|de|de pression}} {{lexique|physique|de}} [[pascal#fr|Pascal]].
+#*{{exemple|lang=de}}
+
+=== {{S|nom propre|de}} ===
+'''Pascal''' {{pron||de}} {{n}}
+# {{lexique|informatique|de}} {{lien|Pascal|fr}}.
+#*{{exemple|lang=de}}
+
+=== {{S|voir aussi}} ===
+{{Liste|avant=[[Dezipascal#de|Dezipascal]]|après=[[Dekapascal#de|Dekapascal]]|liste=Unité de mesure de pression<br>du Système international (SI)}}
+* {{WP|lang=de}}
+
+== {{langue|en}} ==
+=== {{S|étymologie}} ===
+: {{date|lang=en}} De l’{{étylp|de|it|mot=Pascal}} ; apparenté à {{lien|''Paschal''|en}}.
+
+=== {{S|nom propre|en}} ===
+'''Pascal''' {{pron||en}}
+# {{lexique|informatique|en}} {{lien|Pascal|fr}}, langage de programmation adapté au traitement d'application scientifiques.
+#*{{exemple|lang=en|}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=en}}
+
+== {{langue|it}} ==
+=== {{S|étymologie}} ===
+: {{laé|it|nom de famille}} Variante de {{lien|''Pasquale''|it}}.
+: {{laé|it|nom propre}} De l’{{étylp|de|it|mot=Pascal}}.
+
+=== {{S|nom de famille|it}} ===
+'''Pascal''' {{pron|pas.ˈkal|it}}
+# Nom de famille.
+#*{{exemple|lang=it|"Una delle poche cose, anzi forse la sola ch’io sapessi di certo era questa: che mi chiamavo Mattia '''Pascal'''.|Une des rares choses, peut-être même la seule dont je fusse bien certain, était celle-ci : je m'appelais Mathias Pascal.|source={{w|Luigi Pirandello}}, ''Il Fu Mattia Pascal'', 1904}}
+#* {{exemple|lang=it|{{w|Alberto '''Pascal'''|lang=it}}.|pas-trad=oui}}
+#* {{exemple|lang=it|{{w|Angelo '''Pascal'''|lang=it}}.|pas-trad=oui}}
+#* {{exemple|lang=it|{{w|Ernesto '''Pascal'''|lang=it}}.|pas-trad=oui}}
+
+=== {{S|nom propre|it}} ===
+{{it-inv||inv_titre={{m}} {{s}}}}
+'''Pascal''' {{pron||it}} {{m}} {{s}}
+# {{lexique|informatique|it}} [[#fr|Pascal]], langage de programmation adapté au traitement d'application scientifiques.
+#* {{exemple|lang=it}}
+
+=== {{S|prononciation}} ===
+* {{écouter|Monopoli (Italie)||lang=it|audio=LL-Q652 (ita)-XANA000-Pascal.wav}}
+
+=== {{S|anagrammes}} ===
+{{voir anagrammes|it}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=it}}
+* {{WB|lang=it|AdQ=oui}}
+* {{WV|lang=it}}
+
+=== {{S|références}} ===
+* http://www.gens.labo.net/it/cognomi/genera.html?cognome=PASCAL&t=cognomi
+* http://www.cognomix.it/mappe-dei-cognomi-italiani.php?ricCognome=Pascal&ricDove=1&x=0&y=0

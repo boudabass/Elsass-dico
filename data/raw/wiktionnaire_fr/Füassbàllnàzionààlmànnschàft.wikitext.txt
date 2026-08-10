@@ -1,0 +1,19 @@
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: {{composé de|Füassbàll|Nàzionààlmànnschàft|lang=gsw|m=1}}. Cognat avec l'allemand ''{{lien|Fußballnationalmannschaft|de}}''.
+
+=== {{S|nom propre|gsw}} ===
+'''Füassbàllnàzionààlmànnschàft''' {{phon|ˌfʏˑəsb̥ɒlnɒt͡sjoˈnɒːlmɒnʃɒft|gsw}} (pluriel : ''{{lien|Füassbàllnàzionààlmànnschàfta|gsw}}'')
+# {{Région mulhousienne|gsw}} {{lexique|sport|gsw}} [[équipe#fr|Équipe]] [[national#fr|nationale]] de [[football#fr|football]].
+#* {{exemple | lang=gsw
+ | Bis 2014 hàt d’ diitscha '''Füassbàllnàzionààlmànnschàft''' viarmol d’ Waltmaischterschàft g’wunna.
+ | Jusqu’en 2014, l'équipe nationale d'Allemagne de football a remporté quatre fois la Coupe du monde.}}
+
+==== {{S|hyperonymes}} ====
+* {{lien|Nàzionààlmànnschàft|gsw}} — équipe nationale
+* {{lien|Füassbàllmànnschàft|gsw}} — équipe de football
+
+==== {{S|variantes dialectales}} ====
+* {{lien|Füessbàllnàzionààlmànnschàft|gsw}}
+* {{lien|Füessbàllnàzionàlmànnschàft|gsw}}
+* {{lien|Füassbàllnàzionàlmànnschàft|gsw}}

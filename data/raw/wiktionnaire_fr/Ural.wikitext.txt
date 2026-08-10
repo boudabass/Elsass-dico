@@ -1,0 +1,196 @@
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|ru|gsw|mot=Урал|tr=Oural|sens=Oural}}.
+
+=== {{S|nom propre|gsw}} ===
+'''Ural''' {{pron||gsw}}
+# [[Oural#fr|Oural]] (chaîne de montagnes).
+
+[[Catégorie:Chaînes de montagnes en alémanique]]
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|ru|de|mot=Урал|tr=Oural|sens=Oural}}.
+
+=== {{S|nom propre|de}} ===
+{{de-nom-m-sing}}
+'''Ural''' {{pron|uˈʀaːl|de}} {{m}} {{au singulier uniquement|de}}
+# [[Oural#fr|Oural]] (chaîne de montagnes).
+# [[Oural#fr|Oural]] (fleuve).
+
+=== {{S|prononciation}} ===
+* {{écouter||uˈʀaːl|lang=de|audio=De-Ural.ogg}}
+
+[[Catégorie:Chaînes de montagnes en allemand]]
+[[Catégorie:Cours d’eau en allemand]]
+
+== {{langue|en}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|ru|en|mot=Урал|tr=Oural|sens=Oural}}.
+
+=== {{S|nom propre|en}} ===
+'''Ural''' {{pron||en}}
+# [[Oural#fr|Oural]] (fleuve).
+
+=== {{S|prononciation}} ===
+* {{écouter|Sud de l'Angleterre (Royaume-Uni)||lang=en|audio=LL-Q1860 (eng)-Vealhurl-Ural.wav}}
+
+[[Catégorie:Cours d’eau en anglais]]
+
+== {{langue|az}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|ru|az|mot=Урал|tr=Oural|sens=Oural}}.
+
+=== {{S|nom propre|az}} ===
+{{az-décl-nom|a|c}}
+'''Ural''' {{pron||az}} {{az-forme possessive}}
+# [[Oural#fr|Oural]] (chaîne de montagnes).
+
+[[Catégorie:Chaînes de montagnes en azéri]]
+
+== {{langue|dsb}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|ru|dsb|mot=Урал|tr=Oural|sens=Oural}}.
+
+=== {{S|nom propre|dsb}} ===
+'''Ural''' {{pron||dsb}}
+# [[Oural#fr|Oural]] (chaîne de montagnes).
+
+[[Catégorie:Chaînes de montagnes en bas-sorabe]]
+
+== {{langue|bs}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|ru|bs|mot=Урал|tr=Oural|sens=Oural}}.
+
+=== {{S|nom propre|bs}} ===
+'''Ural''' {{pron||bs}}
+# [[Oural#fr|Oural]] (chaîne de montagnes).
+
+[[Catégorie:Chaînes de montagnes en bosniaque]]
+
+== {{langue|hr}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|ru|hr|mot=Урал|tr=Oural|sens=Oural}}.
+
+=== {{S|nom propre|hr}} ===
+'''Ural''' {{pron||hr}}
+# [[Oural#fr|Oural]] (chaîne de montagnes).
+
+[[Catégorie:Chaînes de montagnes en croate]]
+
+== {{langue|es}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|ru|es|mot=Урал|tr=Oural|sens=Oural}}.
+
+=== {{S|nom propre|es}} ===
+'''Ural''' {{pron||es}}
+# [[Oural#fr|Oural]] (fleuve).
+
+[[Catégorie:Cours d’eau en espagnol]]
+
+== {{langue|hsb}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|ru|hsb|mot=Урал|tr=Oural|sens=Oural}}.
+
+=== {{S|nom propre|hsb}} ===
+'''Ural''' {{pron||hsb}}
+# [[Oural#fr|Oural]] (chaîne de montagnes).
+
+[[Catégorie:Chaînes de montagnes en haut-sorabe]]
+
+== {{langue|ia}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|ru|ia|mot=Урал|tr=Oural|sens=Oural}}.
+
+=== {{S|nom propre|ia}} ===
+'''Ural''' {{pron||ia}}
+# [[Oural#fr|Oural]] (chaîne de montagnes).
+
+[[Catégorie:Chaînes de montagnes en interlingua]]
+
+== {{langue|it}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|ru|it|mot=Урал|tr=Oural|sens=Oural}}.
+
+=== {{S|nom propre|it}} ===
+'''Ural''' {{pron||it}}
+# {{cours d’eau|it}} [[Oural#fr|Oural]], fleuve de Russie et du Kazakhstan.
+
+=== {{S|anagrammes}} ===
+{{voir anagrammes|it}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=it|Ural (disambigua)}}
+* {{Vikidia|lang=it}}
+
+== {{langue|pl}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|ru|pl|mot=Урал|tr=Oural|sens=Oural}}.
+
+=== {{S|nom propre|pl}} ===
+'''Ural''' {{pron||pl}}
+# [[Oural#fr|Oural]] (fleuve).
+
+[[Catégorie:Cours d’eau en polonais]]
+
+=== {{S|prononciation}} ===
+* {{écouter|||lang=pl|audio=Pl-Ural.ogg}}
+
+== {{langue|pt}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|ru|pt|mot=Урал|tr=Oural|sens=Oural}}.
+
+=== {{S|nom propre|pt}} ===
+'''Ural''' {{pron||pt}}
+# [[Oural#fr|Oural]] (fleuve).
+
+[[Catégorie:Cours d’eau en portugais]]
+
+== {{langue|ro}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|ru|ro|mot=Урал|tr=Oural|sens=Oural}}.
+
+=== {{S|nom propre|ro}} ===
+'''Ural''' {{pron||ro}}
+# [[Oural#fr|Oural]] (chaîne de montagnes).
+
+[[Catégorie:Chaînes de montagnes en roumain]]
+
+== {{langue|sv}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|ru|sv|mot=Урал|tr=Oural|sens=Oural}}.
+
+=== {{S|nom propre|sv}} ===
+'''Ural''' {{pron||sv}}
+# [[Oural#fr|Oural]] (fleuve).
+
+[[Catégorie:Cours d’eau en suédois]]
+
+== {{langue|cs}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|ru|cs|mot=Урал|tr=Oural|sens=Oural}}.
+
+=== {{S|nom propre|cs}} ===
+{{cs-décl-nom-mi-dur|rad=Ural|sing=oui}}
+'''Ural''' {{pron||cs}} {{m|i}}
+# [[Oural]] (chaînes de montagnes).
+#* {{exemple | lang=cs
+ | Ačkoliv hranice [[Asie]] nejsou přesně určitelné, všeobecně se jako hranice udává '''Ural''' na západě, dále řeka [[Emba]], pobřeží [[Kaspické moře|Kaspického moře]], severní předhůří [[Kavkaz]]u, [[Azovské moře]], [[Černé moře]], úžina [[Bospor]], [[Marmarské moře]] a úžina [[Dardanely]].
+ | {{trad-exe|cs}}}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=cs}}
+
+[[Catégorie:Chaînes de montagnes en tchèque]]
+
+== {{langue|tr}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|ru|tr|mot=Урал|tr=Oural|sens=Oural}}.
+
+=== {{S|nom propre|tr}} ===
+'''Ural''' {{pron||tr}}
+# [[Oural#fr|Oural]] (chaîne de montagnes).
+# [[Oural#fr|Oural]] (fleuve).
+
+[[Catégorie:Chaînes de montagnes en turc]]
+[[Catégorie:Cours d’eau en turc]]

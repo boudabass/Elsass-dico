@@ -1,0 +1,13 @@
+{{voir|müüs|muus}}
+
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: du germanique *''[[mūs-]]'' ''(id.)''
+
+=== {{S|nom|gsw}} ===
+'''Muus''' {{n}} ({{p}} [[Müüs]])
+# [[petit|Petite]] [[souris]]
+# {{par extension}} [[céréale#fr|Céréale]], [[muesli]], [[musli]]
+
+==== {{S|variantes orthographiques}} ====
+* [[Mues]]

@@ -1,0 +1,486 @@
+{{voir/uranus}}
+
+== {{langue|fr}} ==
+=== {{S|étymologie}} ===
+: {{info lex|mythologie}} Du {{étylp|la|fr|Uranus}}, lui-même issu du {{étylp|grc|fr|Οὐρανός|Ouranós|[[Ouranos]]}}.
+: {{info lex|astronomie}} {{date|1781}} Du nom du dieu.
+
+=== {{S|nom propre|fr|num=1}} ===
+'''Uranus''' {{pron|y.ʁa.nys|fr}} {{m}}
+# {{info lex|mythologie romaine}} Dieu du ciel, fils d’[[Éther]] (le [[ciel|Ciel]] supérieur) et d’[[Héméra]] (le [[jour|Jour]]) ou de [[Gaïa]] (la [[Terre]]), selon les auteurs. Il est le père entre autres d’[[Ops]], [[Océan]] et d’autres [[Titans]] (dont Saturne), mais aussi des [[Furies]] vengeresses, des [[nymphe]]s des [[frêne]]s, des [[Géants]] et de la déesse [[Vénus]].
+#* {{exemple|lang=fr}}
+
+==== {{S|synonymes}} ====
+;{{term|dieu}}
+* [[Cœlus]], [[Ouranos]]
+
+=== {{S|nom propre|fr|num=2}} ===
+[[File:STScI-01GWQDPJTF1MY8ZGN4WBMWMACJ.png|thumb|'''Uranus''' vue par le télescope spatial {{W|James-Webb}} le 6 février 2023.]]
+'''Uranus''' {{pron|y.ʁa.nys|fr}} {{m}} ''ou'' {{f}}
+# {{lexique|astronomie|fr}} [[septième|Septième]] [[planète]] [[principale]] du [[système solaire]], de [[type]] [[géante glacée]].
+#* {{exemple | lang=fr
+ | En fait, Herschel n’a pas été le premier à observer '''Uranus'''; cette planète avait déjà été répertoriée en tant qu’étoile par d'autres astronomes.
+ | source=Barry Williams (traduit par Claude Lafleur), ''L'astrologie confrontée aux progrès de l'astronomie'', dans ''{{w|Le Québec sceptique}}'', {{n°|24}}, p. 41, décembre 1992}}
+#* {{exemple | lang=fr | '''Uranus''' a été découverte le 13 mars 1781 par William Herschel.}}
+#* {{exemple | lang=fr | '''Uranus''' est entourée d’un système d’anneaux très étroits.}}
+
+==== {{S|notes}} ====
+: Le mot est parfois féminin par ellipse de ''[[planète]] '''Uranus'''''.
+
+==== {{S|gentilés}} ====
+* {{lien|Uranien|fr}}, {{lien|Uranienne|fr}}, {{lien|uranien|fr}}
+
+==== {{S|synonymes}} ====
+;{{term|astronomie}}
+* [[⛢]], [[♅]]
+* [[Herschel]] {{archaïsme|nocat=1}}
+
+==== {{S|apparentés}} ====
+{{(|colonnes=2}}
+* [[cisuranien]]
+* [[transuranien]]
+* [[urane]]
+* [[uranie]]
+* [[uranien]]
+* [[uranienne]]
+* [[uranifère]]
+* [[uranisme]]
+* [[uranium]]
+{{)}}
+
+==== {{S|vocabulaire}} ====
+* {{voir thésaurus|fr|astrologie|ciel}}
+* [[🪐]]
+* {{lien|anneau planétaire|fr|nom}}
+{{tableau-planètes du Système solaire/fr}}
+
+==== {{S|traductions}} ====
+{{trad-début|Dieu gréco-romain}}
+* {{T|en}} : {{trad+|en|Caelus}}, {{trad-|en|Coelus}}
+* {{T|ca}} : {{trad-|ca|Urà}}
+* {{T|hr}} : {{trad+|hr|Uran}}, {{trad+|hr|Uranus}}
+* {{T|da}} : {{trad+|da|Uranus}}
+* {{T|es}} : {{trad-|es|Caelus|m}}, {{trad-|es|Caelo|m}}, {{trad-|es|Coelus|m}}, {{trad+|es|Urano|m}}, {{trad-|es|Ouranos|m}}
+* {{T|el}} : {{trad+|el|Ουρανός|m|tr=Uranós}}
+* {{T|grc}} : {{trad|grc|Οὐρανός|m|tr=Ouranós}}, {{trad|grc|Ὄρανος|m|tr=Óranos}}, {{trad|grc|Ὠρανός|m|tr=Ōranós}}
+* {{T|ja}} : {{trad+|ja|ウラヌス|tr=Uranusu}}, {{trad-|ja|カエルス|tr=Kaerusu}}, {{trad-|ja|コエルス|tr=Koerusu}}
+* {{T|lb}} : {{trad-|lb|Uranus}}
+* {{T|oc}} : {{trad+|oc|Uranus}}
+* {{T|pl}} : {{trad-|pl|Coelus}}
+{{trad-fin}}
+
+{{trad-début|Planète}}
+* {{T|af}} : {{trad-|af|Uranus}}
+* {{T|sq}} : {{trad-|sq|Urani}}
+* {{T|gsw}} : {{trad|gsw|Uranus}}
+* {{T|de}} : {{trad+|de|Uranus}}
+* {{T|am}} : {{trad-|am|ኡራኑስ}}
+* {{T|en}} : {{trad+|en|Uranus}}
+* {{T|ar}} : {{trad-|ar|أورانوس|R='uwranus}}
+* {{T|hy}} : {{trad-|hy|Ուրան|tr=Uran}}
+* {{T|ast}} : {{trad-|ast|Uranu}}
+* {{T|az}} : {{trad+|az|Uran}}
+* {{T|eu}} : {{trad+|eu|Urano}}
+* {{T|bs}} : {{trad-|bs|Uran}}
+* {{T|br}} : {{trad+|br|Ouran|m}}
+* {{T|bg}} : {{trad-|bg|Уран|tr=Uran}}
+* {{T|yue}} : {{trad-|yue|天王星}}
+* {{T|ca}} : {{trad-|ca|Urà}}
+* {{T|zh}} : {{trad+|zh|天王星|tr=Tiānwángxīng}}
+* {{T|ko}} : {{trad+|ko|천왕성|tr=Cheonwangseong|tradi=天王星}}
+* {{T|kw}} : {{trad-|kw|Ouran}}
+* {{T|co}} : {{trad-|co|Uranu}}
+* {{T|ht}} : {{trad|ht|Iranis}}
+* {{T|hr}} : {{trad+|hr|Uran}}
+* {{T|da}} : {{trad+|da|Uranus}}
+* {{T|es}} : {{trad+|es|Urano}}
+* {{T|eo}} : {{trad+|eo|Urano}}
+* {{T|et}} : {{trad+|et|Uraan}}
+* {{T|fo}} : {{trad-|fo|Uranus}}
+* {{T|fi}} : {{trad+|fi|Uranus}}
+* {{T|ksh}} : {{trad|ksh|Urranuß}}
+* {{T|frp}} : {{trad|frp|Urano}}
+* {{T|gd}} : {{trad-|gd|Urànus}}
+* {{T|ga}} : {{trad-|ga|Úránas}}
+* {{T|gl}} : {{trad+|gl|Urano}}
+* {{T|cy}} : {{trad+|cy|Wranws}}
+* {{T|ka}} : {{trad-|ka|ურანი|tr=Urani}}
+* {{T|el}} : {{trad+|el|Ουρανός|tr=Uranós}}
+* {{T|gu}} : {{trad-|gu|યુરેનસ|R=Yurēnasa}}
+* {{T|he}} : {{trad+|he|אורנוס}}
+* {{T|hu}} : {{trad+|hu|Uránusz}}
+* {{T|io}} : {{trad+|io|Urano}}
+* {{T|id}} : {{trad-|id|Uranus}}
+* {{T|ia}} : {{trad-|ia|Urano}}
+* {{T|is}} : {{trad+|is|Úranus}}
+* {{T|it}} : {{trad+|it|Urano}}
+* {{T|ja}} : {{trad+|ja|天王星|tr=Tennōsei}}
+* {{T|jv}} : {{trad-|jv|Uranus}}
+* {{T|kn}} : {{trad-|kn|ಯುರೇನಸ್|R=Yurēnas}}
+* {{T|pam}} : {{trad|pam|Uranus}}
+* {{T|avk}} : {{trad|avk|Intuz}}
+* {{T|ku}} : {{trad+|ku|Ûranûs}}
+* {{T|la}} : {{trad+|la|Uranus}}
+* {{T|lv}} : {{trad-|lv|Urāns}}
+* {{T|lt}} : {{trad+|lt|Uranas}}
+* {{T|lb}} : {{trad-|lb|Uranus}}
+* {{T|mk}} : {{trad-|mk|Уран|tr=Uran}}
+* {{T|ms}} : {{trad+|ms|Uranus}}
+* {{T|ml}} : {{trad-|ml|യുറാനസ്|R=Yuṟānas}}
+* {{T|nl}} : {{trad+|nl|Uranus}}
+* {{T|ne}} : {{trad-|ne|युरेनस|R=Yurēnasa}}
+* {{T|normand}} : {{trad|normand|Uranus}}
+* {{T|no}} : {{trad+|no|Uranus}}
+* {{T|nn}} : {{trad+|no|Uranus}}
+* {{T|oc}} : {{trad+|oc|Uranus}}
+* {{T|ug}} : {{trad-|ug|ئۇران}}
+* {{T|fa}} : {{trad+|fa|اورانوس}}
+* {{T|pl}} : {{trad+|pl|Uran}}
+* {{T|pt}} : {{trad+|pt|Urano}}
+* {{T|qu}} : {{trad-|qu|Uranu}}
+* {{T|ro}} : {{trad+|ro|Uranus}}
+* {{T|ru}} : {{trad+|ru|Уран|tr=Uran}}
+* {{T|sr}} : {{trad+|sr|Уран|R=Uran}}
+* {{T|sh}} : {{trad+|sh|Uran}}
+* {{T|scn}} : {{trad-|scn|Uranu}}
+* {{T|sk}} : {{trad-|sk|Urán}}
+* {{T|sl}} : {{trad+|sl|Uran}}
+* {{T|sv}} : {{trad+|sv|Uranus}}
+* {{T|sw}} : {{trad+|sw|Uranus}}, {{trad+|sw|Zohali}}
+* {{T|ta}} : {{trad-|ta|யுரேனஸ்|R=Yurēṉas}}
+* {{T|cs}} : {{trad+|cs|Uran}}
+* {{T|th}} : {{trad+|th|ดาวยูเรนัส|R=daao-yoo-ray-nát}}
+* {{T|tr}} : {{trad+|tr|Uranüs}}
+* {{T|uk}} : {{trad-|uk|Уран|R=Uran}}
+* {{T|vi}} : {{trad+|vi|Sao Thiên Vương|tradi=𣋀天王}}
+{{trad-fin}}
+
+==== {{S|hyperonymes}} ====
+* [[planète]]
+** [[planète extérieure]]
+** [[planète supérieure]]
+** [[géante gazeuse]]
+
+==== {{S|méronymes}} ====
+{{(|Satellites naturels d’Uranus}}
+* [[Ariel]]
+* [[Bélinda]]
+* [[Bianca]]
+* [[Caliban]]
+* [[Cordélia]]
+* [[Cressida]]
+* [[Cupidon]]
+* [[Desdémone]]
+* [[Ferdinand]]
+* [[Francisco]]
+* [[Juliette]]
+* [[Mab]]
+* [[Marguerite]]
+* [[Miranda]]
+* [[Obéron]]
+* [[Ophélie]]
+* [[Perdita]]
+* [[Portia]]
+* [[Prospéro]]
+* [[Puck]]
+* [[Rosalinde]]
+* [[Sétébos]]
+* [[Stéphano]]
+* [[Sycorax]]
+* [[Titania]]
+* [[Trinculo]]
+* [[Umbriel]]
+{{)}}
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=fr|France|y.ʁa.nys|audio=Fr-Uranus.ogg}}
+* {{écouter||y.ʁa.nys|lang=fr|audio=LL-Q150 (fra)-Xenophôn-Uranus.wav}}
+* {{écouter|lang=fr|France (Toulouse)|audio=LL-Q150 (fra)-Lepticed7-Uranus.wav}}
+* {{écouter|lang=fr|France (Vosges)||audio=LL-Q150 (fra)-Poslovitch-Uranus.wav}}
+* {{écouter|Vosges (France)||lang=fr|audio=LL-Q150 (fra)-LoquaxFR-Uranus.wav}}
+* {{écouter|Vendée (France)||lang=fr|audio=LL-Q150 (fra)-Sartus85-Uranus.wav}}
+
+=== {{S|anagrammes}} ===
+{{voir anagrammes|fr}}
+
+=== {{S|voir aussi}} ===
+* {{WP}}
+* {{WP|Uranus (planète)|AdQ=1}}
+* {{Vikidia}}
+* {{Le Dico des Ados}}
+[[Catégorie:Divinités romaines en français]]
+[[Catégorie:Planètes en français]]
+[[Catégorie:Éponymes en français]]
+
+== {{langue|af}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|af|Uranus}}.
+
+=== {{S|nom|af}} ===
+'''Uranus''' {{pron||af}}
+# {{lexique|astronomie|af}} [[Uranus#fr|Uranus]].
+#* {{exemple|lang=af}}
+
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|gsw|Uranus}}.
+
+=== {{S|nom propre|gsw}} ===
+'''Uranus''' {{pron||gsw}}
+# {{lexique|astronomie|gsw}} [[Uranus#fr|Uranus]].
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|de|Uranus}}.
+
+=== {{S|nom|de}} ===
+'''Uranus''' {{pron|ˈʔuːranʊs|de}} {{m}} {{nombre|de}}
+# {{lexique|astronomie|de}} [[Uranus#fr|Uranus]].
+#* {{exemple | lang=de | Der '''Uranus''' besitzt eine Achsenneigung um beinahe 90°.}}
+# {{divinités|de}} [[Uranus#fr|Uranus]].
+
+==== {{S|dérivés}} ====
+* [[Uran]]
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=de|Allemagne|ˈʔuːranʊs|audio=De-Uranus.ogg}}
+* {{écouter|lang=de|Allemagne (Berlin)|audio=LL-Q188 (deu)-Sebastian Wallroth-Uranus.wav}}
+
+[[Catégorie:Planètes en allemand]]
+
+== {{langue|en}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|en|Uranus}}.
+
+=== {{S|nom propre|en}} ===
+'''Uranus''' {{pron|ˈjʊɹ.ə.nəs|en}}
+# {{lexique|mythologie grecque|en}} [[Ouranos]].
+# {{info lex|astronomie}} [[Uranus#fr-nom-pr-2|Uranus]].
+
+=== {{S|prononciation}} ===
+* {{pron|ˈjʊɹ.ə.nəs|en}}
+* {{pron|ju.ˈɹeɪ.nəs|en}} {{désuet|nocat=1}}
+** {{écouter|États-Unis|ju.ˈɹeɪ.nəs|lang=en|audio=En-us-Uranus.ogg}}
+
+==== {{S|notes}} ====
+: Aujourd’hui, on évite la prononciation traditionnelle {{pron|ju.ˈɹeɪ.nəs|en}} à cause de sa paronymie avec {{Lang|en|''{{lien|your|en}} {{lien|anus|en}}''|sens=ton anus}}.
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=en|Uranus (disambiguation)}}
+* {{WP|lang=en|AdQ=1}}
+
+{{Liste|avant=[[Saturn]]|après=[[Neptune]]|liste=[[:Catégorie:Lexique en anglais de l’astronomie|Planètes principales]]}}
+[[Catégorie:Planètes en anglais]]
+
+== {{langue|da}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|da|Uranus}}.
+
+=== {{S|nom propre|da}} ===
+'''Uranus''' {{pron||da}}
+# {{lexique|astronomie|da}} [[Uranus#fr|Uranus]].
+
+== {{langue|fo}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|fo|Uranus}}.
+
+=== {{S|nom propre|fo}} ===
+'''Uranus''' {{pron||fo}}
+# {{lexique|astronomie|fo}} [[Uranus#fr|Uranus]].
+
+== {{langue|fi}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|fi|Uranus}}.
+
+=== {{S|nom propre|fi}} ===
+'''Uranus''' {{pron|ˈu.rɑ.nus|fi}}
+# {{info lex|astronomie}} [[Uranus#fr|Uranus]].
+
+=== {{S|voir aussi}} ===
+* [[Uranos]] (dieu)
+
+[[Catégorie:Planètes en finnois]]
+
+== {{langue|id}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|id|Uranus}}.
+
+=== {{S|nom propre|id}} ===
+'''Uranus''' {{pron||id}}
+# {{lexique|astronomie|id}} [[Uranus#fr|Uranus]].
+#* {{exemple|lang=id}}
+
+== {{langue|jv}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|jv|Uranus}}.
+
+=== {{S|nom propre|jv}} ===
+'''Uranus''' {{pron||jv}}
+# {{lexique|astronomie|jv}} [[Uranus#fr|Uranus]].
+
+== {{langue|pam}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|pam|Uranus}}.
+
+=== {{S|nom propre|pam}} ===
+'''Uranus''' {{pron||pam}}
+# {{lexique|astronomie|pam}} [[Uranus#fr|Uranus]].
+
+== {{langue|la}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|grc|la|Οὐρανός|Ouranós|{{lien|Ouranos|fr}}}}.
+
+=== {{S|nom propre|la}} ===
+{{la-tab-2m|Uran|sing=oui}}
+'''Uranus''' {{pron|ˈuː.ra.nus|la}} {{term|classique}}, {{pron|ˈu.ra.nus|la}} {{term|ecclésiastique}} {{m}}
+# {{lexique|mythologie romaine|la}} {{lien|Uranus|fr}} (dieu).
+#* {{exemple|lang=la}}
+# {{lexique|astronomie|la}} {{lien|Uranus|fr}} (planète).
+#* {{exemple|lang=la}}
+
+==== {{S|apparentés}} ====
+* {{lien|Urania|la}}
+* {{lien|Uranopolis|la}}
+* {{lien|uranos|la}}
+
+==== {{S|apparentés}} ====
+* {{tableau-planètes du Système solaire/la}}
+
+=== {{S|prononciation}} ===
+*{{pron|ˈuː.ra.nus|la}} {{term|classique}}
+*{{pron|ˈu.ra.nus|la}} {{term|ecclésiastique}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=la}}
+
+=== {{S|références}} ===
+* {{R:Gaffiot}}
+
+== {{langue|lb}} ==
+=== {{S|étymologie}} ===
+: Du {{étylp|la|lb|Uranus}}.
+
+=== {{S|nom propre|lb}} ===
+{{lb-inv|}}
+'''Uranus''' {{pron||lb}}
+# {{divinités|lb|romaines}} {{lien|Uranus|fr|nom-pr-1}}.
+#* {{exemple|lang=lb}}
+# {{planètes|lb}} {{lien|Uranus|fr|nom-pr-2}}.
+#* {{exemple|lang=lb}}
+
+==== {{S|vocabulaire}} ====
+{{tableau-planètes du Système solaire/lb}}
+
+=== {{S|références}} ===
+: {{R:LOD}}
+
+== {{langue|ms}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|ms|Uranus}}.
+
+=== {{S|nom propre|ms}} ===
+'''Uranus''' {{pron||ms}}
+# {{lexique|astronomie|ms}} [[Uranus#fr|Uranus]].
+
+== {{langue|nl}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|nl|Uranus}}.
+
+=== {{S|nom propre|nl}} ===
+'''Uranus''' {{pron||nl}}
+# {{lexique|astronomie|nl}} [[Uranus#fr|Uranus]].
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=nl|Pays-Bas||audio=Nl-Uranus.ogg}}
+
+== {{langue|normand}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|normand|Uranus}}.
+
+=== {{S|nom propre|normand}} ===
+'''Uranus''' {{pron||normand}}
+# {{lexique|astronomie|normand}} [[Uranus#fr|Uranus]].
+
+=== {{S|références}} ===
+* {{R:VJA}}
+
+== {{langue|no}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|no|Uranus}}.
+
+=== {{S|nom propre|no}} ===
+'''Uranus''' {{pron||no}}
+# {{lexique|astronomie|no}} [[Uranus#fr|Uranus]].
+
+== {{langue|nn}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|nn|Uranus}}.
+
+=== {{S|nom propre|nn}} ===
+'''Uranus''' {{pron||nn}}
+# {{lexique|astronomie|nn}} [[Uranus#fr|Uranus]].
+
+== {{langue|oc}} ==
+=== {{S|étymologie}} ===
+: ''([[#oc-nom-pr-1|Nom propre 1]])'' {{info lex|mythologie}} Du {{étyl|la|oc|Uranus}}, lui-même issu du {{étyl|grc|oc|Οὐρανός|Ouranós|[[Ouranos]]}}.
+: ''([[#oc-nom-pr-2|Nom propre 2]])'' {{info lex|astronomie}} ''(1781)'' Du nom du dieu.
+
+=== {{S|nom propre|oc|num=1}} ===
+'''Uranus''' {{pron|yˈɾanys|oc}}
+# {{lexique|mythologie|oc}} [[Uranus#fr|Uranus]].
+
+==== {{S|synonymes}} ====
+# [[Uran]]
+# [[Uranos]]
+
+=== {{S|nom propre|oc|num=2}} ===
+[[fichier:Uranus symbol (bold).svg|thumb|50px|Symbole d'Uranus]]
+'''Uranus''' {{pron|yˈɾanus|oc}}
+# {{lexique|astronomie|oc}} [[Uranus#fr|Uranus]].
+
+==== {{S|hyperonymes}} ====
+* {{lien|giganta de glaç|oc}}
+** {{lien|planeta|oc}}
+
+==== {{S|vocabulaire}} ====
+{{Liste|avant=[[Saturn#oc-nom-pr-2|Saturn]]|suiv.de=|après=- |liste=[[:Catégorie:Lexique en occitan de l’astronomie|Planètes principales]]}}
+
+=== {{S|voir aussi}} ===
+* {{WP|Uranus (planeta)|lang=oc|AdQ=1}}
+
+[[Catégorie:Divinités romaines en occitan]]
+[[Catégorie:Planètes en occitan]]
+
+== {{langue|ro}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|ro|Uranus}}.
+
+=== {{S|nom propre|ro}} ===
+'''Uranus''' {{pron||ro}}
+# {{lexique|astronomie|ro}} [[Uranus#fr|Uranus]].
+==== {{S|vocabulaire}} ====
+* {{voir thésaurus|ro|astronomie}}
+
+== {{langue|sv}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|sv|Uranus}}.
+
+=== {{S|nom propre|sv}} ===
+'''Uranus''' {{pron||sv}}
+# {{info lex|astronomie}} [[Uranus#fr|Uranus]].
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=sv|Suède||audio=LL-Q9027 (swe)-Moonhouse-Uranus.wav}}
+
+[[Catégorie:Planètes en suédois]]
+[[Catégorie:Divinités romaines en latin]]
+[[Catégorie:Divinités romaines en anglais]]
+[[Catégorie:Divinités romaines en allemand]]
+
+== {{langue|sw}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|sw|Uranus}}.
+
+=== {{S|nom propre|sw}} ===
+'''Uranus''' {{pron||sw}}
+# {{lexique|astronomie|sw}} [[Uranus#fr|Uranus]].

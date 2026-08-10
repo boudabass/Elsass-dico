@@ -1,0 +1,196 @@
+== {{langue|fr}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|fr|mot=Bayern}}.
+
+=== {{S|nom propre|fr}} ===
+'''Bayern''' {{pron|ba.jɛʁn|fr}} {{m}} {{s}}
+# {{sportifs|fr}} Équipe sportive de {{lien|Munich|fr}}.
+#* {{exemple | lang=fr | Laurent Koscielny, qui ne possède plus qu'un an de contrat avec Arsenal, intéresse le '''Bayern'''.}}
+
+==== {{S|traductions}} ====
+{{trad-début}}
+{{trad-fin}}
+
+=== {{S|prononciation}} ===
+* {{écouter|France (Lyon)||lang=fr|audio=LL-Q150 (fra)-WikiLucas00-Bayern.wav}}
+* {{écouter|Somain (France)||lang=fr|audio=LL-Q150 (fra)-Jérémy-Günther-Heinz Jähnick-Bayern.wav}}
+
+=== {{S|anagrammes}} ===
+{{voir anagrammes|fr}}
+
+=== {{S|voir aussi}} ===
+* {{WP|Bayern Munich}}
+
+== {{langue|sq}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|sq|mot=Bayern}}.
+
+=== {{S|nom propre|sq}} ===
+'''Bayern''' {{pron||sq}}
+# {{territoires|sous-cat=Länder|sq|d’Allemagne}} {{lien|Bavière|fr}}.
+
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|gsw|mot=Bayern}}.
+
+=== {{S|nom propre|gsw}} ===
+'''Bayern''' {{pron||gsw}}
+# {{territoires|sous-cat=Länder|gsw|d’Allemagne}} {{lien|Bavière|fr}}.
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: Voir ''{{lien|Bayer|de}}''.
+
+=== {{S|nom propre|de}} ===
+{{de-nom-propre|genre=n|gs=Bayern|gs2=Bayerns}}
+'''Bayern''' {{pron|ˈba.jɛrn, ˈbaiɐn|de}} {{n}}
+# {{territoires|sous-cat=Länder|sq|d’Allemagne}} {{lien|Bavière|fr}}, un des seize [[Länder]] d’[[Allemagne]].
+#* {{exemple | lang=de | Ludwig I., König von '''Bayern'''. | sens=Louis I{{er}}, roi de Bavière.}}
+#* {{exemple|Mit dem Neun-Euro-Ticket lässt sich '''Bayern''' abseits von überlaufenen Attraktionen erkunden.|lang=de|sens=Le billet à neuf euros permet d’explorer la Bavière à l’écart des attractions bondées.|source={{périodique|auteur=Jasinta Then|titre=Memmingen, Stadt der Freiheitsrechte|journal=Süddeutsche Zeitung|date=18 août 2022|texte=https://www.sueddeutsche.de/bayern/bayern-ausfluege-9-euro-ticket-memmingen-kultur-1.5640771}}}}
+#* {{exemple|Alle Jahre wieder gilt an Karfreitag ein Tanzverbot. (...) In '''Bayern''' und Baden-Württemberg ist die Auslegung des Verbotes besonders streng. In Berlin, Bremen und Hamburg ist die Handhabung etwas lockerer.|lang=de|sens=Chaque année, il est interdit de danser le Vendredi saint. (...) En Bavière et dans le Bade-Wurtemberg, l'interprétation de l'interdiction est particulièrement stricte. A Berlin, Brême et Hambourg, l’application est plus souple.|source={{périodique|auteur=Greta Giuliana Spieker|titre=Tanzverbot an Karfreitag: Was wo gilt|journal=RedaktionsNetzwerk Deutschland|date=15 avril 2025|texte=https://www.rnd.de/politik/tanzverbot-an-karfreitag-was-wo-gilt-FJ6T2HDGWZGZXOTGNVV4EKJX3I.html}}}}
+
+==== {{S|synonymes}} ====
+* {{lien|Bayerland|de}}
+* {{lien|Freistaat|de}}
+
+==== {{S|hyperonymes}} ====
+* {{lien|Bundesland|de}}
+
+==== {{S|dérivés}} ====
+{{(|}}
+* {{lien|Bayer|de}}
+* {{lien|Bayerin|de}}
+* {{lien|bayerisch|de}}
+* {{lien|bayrisch|de}}
+* {{lien|Spieler|de}}
+{{)}}
+
+=== {{S|nom|de|flexion}} ===
+{{de-nom-m-n|ns=Bayer}}
+'''Bayern''' {{pron|ˈbaɪ̯ɐn|de}} {{m}}
+# ''Accusatif pluriel de'' {{lien|Bayer|de}}.
+# ''Accusatif singulier de'' {{lien|Bayer|de}}.
+# ''Datif pluriel de'' {{lien|Bayer|de}}.
+# ''Datif singulier de'' {{lien|Bayer|de}}.
+# ''Génitif pluriel de'' {{lien|Bayer|de}}.
+# ''Génitif singulier de'' {{lien|Bayer|de}}.
+# ''Nominatif pluriel de'' {{lien|Bayer|de}}.
+
+=== {{S|prononciation}} ===
+* {{écouter|{{DE|nocat=1}}|ˈbaɪ̯ɐn|lang=de|audio=Bar-Bayern.oga ‎}}
+* {{écouter|Berlin (Allemagne)|ˈbaɪ̯ɐn|lang=de|audio=De-Bayern.ogg}}
+* {{écouter|{{DE|nocat=1}}|ˈbaɪ̯ɐn|lang=de|audio=LL-Q188 (deu)-Natschoba-Bayern.wav}}
+* {{écouter|{{DE|nocat=1}}|ˈbaɪ̯ɐn|lang=de|audio=Bar-Bayern.oga }}
+
+=== {{S|références}} ===
+* {{R:DWDS|Bayern}}
+* {{R:Duden|Bayern}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=de}}
+
+== {{langue|nds}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|nds|mot=Bayern}}.
+
+=== {{S|nom propre|nds}} ===
+'''Bayern''' {{pron||nds}}
+# {{territoires|sous-cat=Länder|nds|d’Allemagne}} {{lien|Bavière|fr}}.
+
+== {{langue|nds-nl}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|nds-nl|mot=Bayern}}.
+
+=== {{S|nom propre|nds-nl}} ===
+'''Bayern''' {{pron||nds-nl}}
+# {{territoires|sous-cat=Länder|nds-nl|d’Allemagne}} {{lien|Bavière|fr}}.
+
+== {{langue|da}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|da|mot=Bayern}}.
+
+=== {{S|nom propre|da}} ===
+'''Bayern''' {{pron||da}}
+# {{territoires|sous-cat=Länder|da|d’Allemagne}} {{lien|Bavière|fr}}.
+
+== {{langue|id}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|id|mot=Bayern}}.
+
+=== {{S|nom propre|id}} ===
+'''Bayern''' {{pron||id}}
+# {{territoires|sous-cat=Länder|id|d’Allemagne}} {{lien|Bavière|fr}}.
+#* {{exemple|lang=id}}
+
+== {{langue|jv}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|jv|mot=Bayern}}.
+
+=== {{S|nom propre|jv}} ===
+'''Bayern''' {{pron||jv}}
+# {{territoires|sous-cat=Länder|jv|d’Allemagne}} {{lien|Bavière|fr}}.
+
+== {{langue|lb}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|lb|mot=Bayern}}.
+
+=== {{S|nom propre|lb}} ===
+'''Bayern''' {{pron||lb}}
+# {{territoires|sous-cat=Länder|lb|d’Allemagne}} {{lien|Bavière|fr}}.
+
+== {{langue|no}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|no|mot=Bayern}}.
+
+=== {{S|nom propre|no}} ===
+'''Bayern''' {{pron||no}}
+# {{territoires|sous-cat=Länder|no|d’Allemagne}} {{lien|Bavière|fr}}.
+
+== {{langue|nn}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|nn|mot=Bayern}}.
+
+=== {{S|nom propre|nn}} ===
+'''Bayern''' {{pron||nn}}
+# {{territoires|sous-cat=Länder|nn|d’Allemagne}} {{lien|Bavière|fr}}.
+
+== {{langue|sv}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|sv|mot=Bayern}}.
+
+=== {{S|nom propre|sv}} ===
+'''Bayern''' {{pron||sv}}
+# {{territoires|sous-cat=Länder|sv|d’Allemagne}} {{lien|Bavière|fr}}.
+
+== {{langue|cs}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|cs|mot=Bayern}}.
+
+=== {{S|nom propre|cs}} ===
+{{cs-décl-nom-mi-dur|sing=oui}}
+'''Bayern''' {{pron|bajɛrn|cs}} {{m|i}}
+# {{sportifs|cs}} {{lien|Bayern|fr}}, club sportif de {{lien|Munich|fr}}.
+#* {{exemple | lang=cs
+ | Ve finále Ligy mistrů 2010 zvítězil Inter Milán nad '''Bayernem''' 2:0.
+ | {{trad-exe|cs}}}}
+
+==== {{S|apparentés}} ====
+* {{lien|Bavorsko|cs}}
+
+=== {{S|voir aussi}} ===
+* {{WP|FC Bayern Mnichov|lang=cs}}
+
+== {{langue|vi}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|vi|mot=Bayern}}.
+
+=== {{S|nom propre|vi}} ===
+'''Bayern''' {{pron||vi}}
+# {{territoires|sous-cat=Länder|vi|d’Allemagne}} {{lien|Bavière|fr}}.
+
+[[Catégorie:Toponymes dont l’origine est un ethnonyme en allemand]]
+[[Catégorie:Toponymes dont l’origine est un ethnonyme en bas allemand]]
+[[Catégorie:Toponymes dont l’origine est un ethnonyme en albanais]]
+[[Catégorie:Toponymes dont l’origine est un ethnonyme en danois]]
+[[Catégorie:Toponymes dont l’origine est un ethnonyme en suédois]]
+[[Catégorie:Toponymes dont l’origine est un ethnonyme en tchèque]]

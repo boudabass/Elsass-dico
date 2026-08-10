@@ -1,0 +1,70 @@
+{{voir|lithium}}
+
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw}}
+
+=== {{S|nom|gsw}} ===
+'''Lithium''' {{pron||gsw}}
+# {{éléments|gsw}} {{métaux|gsw}} [[lithium|Lithium]].
+{{clr}}
+==== {{S|vocabulaire}} ====
+{{tableau périodique/gsw}}
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|de}}
+
+=== {{S|nom|de}} ===
+{{de-nom|genre=n
+|ns= Lithium |np=
+|as= Lithium |ap=
+|gs= Lithiums |gp=
+|ds= Lithium |dp=}}
+{{légende élément/de|Li}}
+[[Image:Li,3.jpg|thumb|'''Lithium'''.]]
+'''Lithium''' {{n}} ({{p}} '''-''' )
+# {{éléments|de}} {{métaux|de}} [[lithium#fr|Lithium]] (l’{{lien|élément chimique}} [[Li#conv|Li]]).
+#* {{exemple | lang=de | '''Lithium''' ist ein sehr reaktionsfreudiges Alkalimetall.}}
+
+==== {{S|dérivés}} ====
+* [[Lithiumbatterie]] (1)
+* [[Lithiumhydroxid]] (1)
+
+==== {{S|vocabulaire}} ====
+* {{voir thésaurus|de|tableau périodique des éléments}}
+{{tableau périodique/de}}
+{{Liste|avant={{lien|Helium|de}}<br>([[He#conv|He]])|après={{lien|Beryllium|de}}<br>([[Be#conv|Be]])|liste=[[Thésaurus:tableau périodique des éléments/allemand|Éléments chimiques en allemand]]}}
+
+=== {{S|prononciation}} ===
+* {{pron|ˈliːti̯ʊm|de}}
+* {{pron|ˈliːʦi̯ʊm|de}}
+* {{écouter|lang=de|{{AT|nocat=1}}|audio=De-at-Lithium.ogg}}
+* {{écouter||ˈliːti̯ʊm|lang=de|audio=De-Lithium.ogg}}
+* {{écouter|lang=de|Allemagne (Berlin)|audio=LL-Q188 (deu)-Lucas Werkmeister-Lithium.wav}}
+* {{écouter|lang=de|Allemagne (Berlin)|audio=LL-Q188 (deu)-Sebastian Wallroth-Lithium.wav}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=de}}
+
+== {{langue|lb}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|lb}}
+
+=== {{S|nom|lb}} ===
+{{lb-inv|lˈiːtsi̯um}}
+'''Lithium''' {{pron|lˈiːtsi̯um|lb}} {{m}}, {{au singulier uniquement|lb}}
+# {{éléments|lb}} {{métaux|lb}} [[lithium#fr|Lithium]].
+#* {{exemple|lang=lb}}
+{{clr}}
+==== {{S|vocabulaire}} ====
+{{tableau périodique/lb}}
+
+=== {{S|prononciation}} ===
+* {{écouter|Angers (France)||niveau=bon|lang=lb|audio=LL-Q9051 (ltz)-Procrastineur49-Lithium.wav}}
+
+=== {{S|références}} ===
+: {{R:LOD}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=lb}}

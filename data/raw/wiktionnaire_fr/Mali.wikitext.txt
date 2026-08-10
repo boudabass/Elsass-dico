@@ -1,0 +1,857 @@
+{{voir/mali}}
+
+== {{langue|fr}} ==
+
+=== {{S|étymologie}} ===
+: L’origine du nom ''Mali'' n’est pas claire. ''Mali'' viendrait du nom de l’un de ses animaux emblématiques, l’hippopotame, qui se traduit par ''{{lien|mali|bm}}'' en [[bambara]], en [[mandingue]] et en [[dioula]].
+
+=== {{S|nom propre|fr}} ===
+'''Mali''' {{pron|ma.li|fr}} {{m}}
+[[image:MALI empire map.PNG|thumb|L’Empire du '''Mali'''. (1)]]
+[[Image:Mali (orthographic projection).svg|thumb|Localisation du '''Mali''' (2).]]
+# {{lexique|histoire|fr}} [[empire|Empire]] [[africain]], dont les [[frontière]]s ont beaucoup varié, ayant existé du début du XII{{e}} [[siècle]] jusqu’au [[milieu]] du XVI{{e}}.
+# {{pays|fr|d’Afrique}} Pays d’[[Afrique]] ayant des frontières communes avec la [[Mauritanie]] et l’[[Algérie]] au nord, avec le [[Niger]] à l’est et nord-est, avec le [[Burkina Faso]] et la [[Côte d’Ivoire]] au sud, avec la [[Guinée]] au sud-ouest et avec le [[Sénégal]] à l’ouest, et dont la [[capitale]] est [[Bamako]].
+#* {{exemple | lang=fr
+ | Entreprendre une méharée au '''Mali''', c’est s’immerger complètement dans le monde du désert, des espaces sans fin, des bivouacs étoilés, des feux de camp et des théières fumantes.
+ | source=Éric {{pc|Milet}}, '''''Mali''' : Magie d’un fleuve aux confins du désert'', Éditions Olizane, 2007, page 144}}
+#* {{exemple | lang=fr
+ | Dans l’autre rencontre du groupe E, le '''Mali''' a dominé l’Afrique du Sud (2-0), avec un but de l’Auxerrois Sinayoko.
+ | source=journal ''20 minutes'', édition Paris-IDF, 17 janvier 2024, page 14}}
+
+==== {{S|abréviations}} ====
+* [[MLI]] (norme {{w|ISO 3166-1}} alpha-3)
+
+==== {{S|gentilés}} ====
+* [[Malien]], [[Malienne]], [[malien]]
+
+==== {{S|synonymes}} ====
+; ''Empire africain'' :
+* [[Empire du Mali]]
+; ''Pays d’Afrique'' :
+* [[Haut-Sénégal-Niger]] ''(1895–1920)''
+* [[Soudan français]] ''(1920–1958)''
+* [[République soudanaise]] ''(1958–1960)''
+* [[Fédération du Mali]] ''(1959–1960)''
+* [[République du Mali]] (Nom officiel courant)
+
+==== {{S|dérivés}} ====
+* [[cobra du Mali]]
+
+==== {{S|traductions}} ====
+{{trad-début|Empire africain}}
+* {{T|en}} : {{trad-|en|Mali Empire}}, {{trad-|en|Mandingo Empire}}, {{trad-|en|Manden Kurufa}}
+* {{T|ar}} : {{trad-|ar|إمبراطورية مالي|R=ʼMbrāţwryh Māly}}
+* {{T|zh}} : {{trad-|zh|马里帝国|R=Mǎlǐ dìguó|tradi=馬里帝國}}
+* {{T|es}} : {{trad-|es|Imperio de Malí}}
+* {{T|it}} : {{trad-|it|Impero del Mali}}, {{trad-|it|Impero del Manden}}
+* {{T|avk}} : {{trad|avk|Malia gindaxo}}
+* {{T|ru}} : {{trad-|ru|Империя Мали|tr=Imperiya Mali}}
+* {{T|yo}} : {{trad-|yo|Mali}}
+{{trad-fin}}
+
+{{trad-début|Pays d’Afrique}}
+* {{T|af}} : {{trad-|af|Mali}}
+* {{T|sq}} : {{trad+|sq|Mali}}
+* {{T|gsw}} : {{trad|gsw|Mali}}
+* {{T|de}} : {{trad+|de|Mali}}
+* {{T|nds}} : {{trad+|nds|Mali}}
+* {{T|am}} : {{trad-|am|ማሊ}}
+* {{T|en}} : {{trad+|en|Mali}}
+* {{T|ar}} : {{trad-|ar|مالي}}
+* {{T|arz}} : {{trad|arz|مالى}}
+* {{T|an}} : {{trad-|an|Mali}}
+* {{T|arc}} : {{trad|arc|ܡܠܝ}}
+* {{T|hy}} : {{trad-|hy|Մալի|tr=Mali}}
+* {{T|ast}} : {{trad+|ast|Malí}}
+* {{T|az}} : {{trad+|az|Mali}}
+* {{T|bm}} : {{trad-|bm|Mali}}
+* {{T|eu}} : {{trad-|eu|Mali}}
+* {{T|bn}} : {{trad+|bn|মালি|R=Mali}}
+* {{T|be}} : {{trad-|be|Малі|tr=Mali}}
+* {{T|be-tarask}} : {{trad|be-tarask|Малі|R=Mali}}
+* {{T|bs}} : {{trad-|bs|Mali}}
+* {{T|br}} : {{trad+|br|Mali}}
+* {{T|bg}} : {{trad-|bg|Мали|tr=Mali}}
+* {{T|yue}} : {{trad-|yue|馬里}}
+* {{T|ca}} : {{trad+|ca|Mali}}
+* {{T|ceb}} : {{trad|ceb|Mali}}
+* {{T|zh}} : {{trad+|zh|马里|R=Mǎlǐ|tradi=馬里}}
+* {{T|ko}} : {{trad+|ko|말리|tr=Malli}}
+* {{T|kw}} : {{trad-|kw|Mali}}
+* {{T|ht}} : {{trad|ht|Mali}}
+* {{T|hr}} : {{trad+|hr|Mali}}
+* {{T|da}} : {{trad+|da|Mali}}
+* {{T|diq}} : {{trad-|diq|Mali}}
+* {{T|dv}} : {{trad+|dv|މާލީ}}
+* {{T|es}} : {{trad+|es|Malí}}
+* {{T|eo}} : {{trad+|eo|Malio}}
+* {{T|et}} : {{trad+|et|Mali}}
+* {{T|ee}} : {{trad|ee|Mali}}
+* {{T|fi}} : {{trad+|fi|Mali}}
+* {{T|frp}} : {{trad|frp|Mali}}
+* {{T|fy}} : {{trad-|fy|Maly}}
+* {{T|stq}} : {{trad|stq|Mali}}
+* {{T|gd}} : {{trad-|gd|Màili}}
+* {{T|ga}} : {{trad-|ga|Mailí}}
+* {{T|gl}} : {{trad+|gl|Malí}}
+* {{T|cy}} : {{trad-|cy|Mali}}
+* {{T|ka}} : {{trad+|ka|მალი|tr=Mali}}
+* {{T|el}} : {{trad+|el|Μάλι|R=Máli}}
+* {{T|ha}} : {{trad+|ha|Mali}}
+* {{T|he}} : {{trad-|he|מאלי}}
+* {{T|hi}} : {{trad+|hi|माली|R=Mālī}}
+* {{T|hif}} : {{trad-|hif|Mali}}
+* {{T|hu}} : {{trad+|hu|Mali}}
+* {{T|sah}} : {{trad|sah|Мали|R=Mali}}
+* {{T|io}} : {{trad+|io|Mali}}
+* {{T|ilo}} : {{trad|ilo|Mali}}
+* {{T|id}} : {{trad+|id|Mali}}
+* {{T|ie}} : {{trad-|ie|Mali}}
+* {{T|is}} : {{trad+|is|Malí}}
+* {{T|it}} : {{trad+|it|Mali}}
+* {{T|ja}} : {{trad+|ja|マリ|tr=Mari}}
+* {{T|jv}} : {{trad-|jv|Mali}}
+* {{T|kab}} : {{trad|kab|Mali}}
+* {{T|pam}} : {{trad|pam|Mali}}
+* {{T|ks}} : {{trad-|ks|مالی|R=Mālī}}
+* {{T|kk}} : {{trad+|kk|Мали|R=Mali}}
+* {{T|avk}} : {{trad|avk|Malia}}
+* {{T|ku}} : {{trad+|ku|Malî}}
+* {{T|la}} : {{trad-|la|Malium}}
+* {{T|lv}} : {{trad+|lv|Mali}}
+* {{T|lij}} : {{trad|lij|Mali}}
+* {{T|li}} : {{trad+|li|Mali}}
+* {{T|ln}} : {{trad-|ln|Mali}}
+* {{T|lt}} : {{trad+|lt|Malis}}
+* {{T|lmo}} : {{trad-|lmo|Mali}}
+* {{T|lb}} : {{trad+|lb|Mali}}
+* {{T|mk}} : {{trad+|mk|Мали|tr=Mali}}
+* {{T|ms}} : {{trad+|ms|Mali}}
+* {{T|ml}} : {{trad+|ml|മാലി}}
+* {{T|bpy}} : {{trad|bpy|মালি|R=Mali}}
+* {{T|gv}} : {{trad-|gv|Malee}}
+* {{T|mr}} : {{trad-|mr|माली|R=Mālī}}
+* {{T|nan}} : {{trad-|nan|Mali}}
+* {{T|nch}} : {{trad|nch|Mali}}
+* {{T|nl}} : {{trad+|nl|Mali}}
+* {{T|new}} : {{trad|new|माली|R=Mālī}}
+* {{T|no}} : {{trad+|no|Mali}}
+* {{T|nn}} : {{trad+|no|Mali}}
+* {{T|nov}} : {{trad|nov|Mali}}
+* {{T|oc}} : {{trad+|oc|Mali}}
+* {{T|os}} : {{trad|os|Мали|R=Mali}}
+* {{T|ug}} : {{trad-|ug|Mali}}
+* {{T|ur}} : {{trad-|ur|مالی}}
+* {{T|uz}} : {{trad+|uz|Mali}}
+* {{T|ps}} : {{trad-|ps|مالي}}
+* {{T|fa}} : {{trad+|fa|مالی}}
+* {{T|ff}} : {{trad|ff|Maali}}
+* {{T|pms}} : {{trad|pms|Mali}}
+* {{T|pl}} : {{trad+|pl|Mali}}
+* {{T|pt}} : {{trad+|pt|Mali}}
+* {{T|qu}} : {{trad-|qu|Mali}}
+* {{T|ro}} : {{trad+|ro|Mali}}
+* {{T|ru}} : {{trad+|ru|Мали|tr=Mali}}
+* {{T|se}} : {{trad|se|Mali}}
+* {{T|sgs}} : {{trad|sgs|Malis}}
+* {{T|sa}} : {{trad+|sa|माली|R=Mālī}}
+* {{T|sc}} : {{trad-|sc|Malì}}
+* {{T|sr}} : {{trad-|sr|Мали|R=Mali}}
+* {{T|sh}} : {{trad+|sh|Mali}}
+* {{T|scn}} : {{trad-|scn|Mali}}
+* {{T|szl}} : {{trad|szl|Mali}}
+* {{T|sk}} : {{trad-|sk|Mali}}
+* {{T|sl}} : {{trad+|sl|Mali}}
+* {{T|dsb}} : {{trad|dsb|Mali}}
+* {{T|hsb}} : {{trad-|hsb|Mali}}
+* {{T|sv}} : {{trad+|sv|Mali}}
+* {{T|sw}} : {{trad+|sw|Mali}}
+* {{T|tg}} : {{trad+|tg|Малӣ|R=Malī}}
+* {{T|tl}} : {{trad+|tl|Mali}}
+* {{T|ta}} : {{trad+|ta|மாலி}}
+* {{T|crh}} : {{trad|crh|Mali}}
+* {{T|cs}} : {{trad+|cs|Mali}}
+* {{T|cv}} : {{trad|cv|Мали|R=Mali}}
+* {{T|th}} : {{trad-|th|ประเทศมาลี}}
+* {{T|ti}} : {{trad-|ti|ማሊ}}
+* {{T|tok}} : {{trad|tok|ma Mali}}
+* {{T|tr}} : {{trad+|tr|Mali}}
+* {{T|tk}} : {{trad-|tk|Mali}}
+* {{T|uk}} : {{trad+|uk|Малі|R=Mali}}
+* {{T|vec}} : {{trad-|vec|Małì}}
+* {{T|vi}} : {{trad-|vi|Mali}}
+* {{T|vo}} : {{trad-|vo|Maliyän}}
+* {{T|war}} : {{trad|war|Mali}}
+* {{T|wo}} : {{trad-|wo|Mali}}
+* {{T|wuu}} : {{trad|wuu|马里}}
+* {{T|yo}} : {{trad-|yo|Málì}}
+{{trad-fin}}
+
+=== {{S|prononciation}} ===
+* {{écouter||ma.li|lang=fr|audio=Fr-Mali.ogg}}
+* {{écouter||ma.li|lang=fr|audio=LL-Q150 (fra)-Jules78120-Mali.wav}}
+* {{écouter|lang=fr|France (Paris)|audio=LL-Q150 (fra)-GrandCelinien-Mali.wav}}
+* {{écouter|lang=fr|France (Occitanie)|audio=LL-Q150 (fra)-Arthur Crbz-Mali.wav}}
+* {{écouter|lang=fr|France (Paris)|audio=LL-Q150 (fra)-LurKin-Mali.wav}}
+* {{écouter|lang=fr|France||audio=LL-Q150 (fra)-Mecanautes-Mali.wav}}
+* {{écouter|Bordeaux (France)||lang=fr|audio=LL-Q150 (fra)-Yug-Mali.wav}}
+* {{écouter|Vosges (France)||lang=fr|audio=LL-Q150 (fra)-Poslovitch-Mali.wav}}
+
+=== {{S|anagrammes}} ===
+{{voir anagrammes|fr}}
+
+=== {{S|voir aussi}} ===
+* {{WP|Empire du Mali}}
+* {{WP}}
+
+[[Catégorie:Mali en français|*]]
+
+== {{langue|af}} ==
+=== {{S|nom propre|af}} ===
+'''Mali''' {{pron||af}}
+# [[#fr|Mali]] (pays africain).
+#* {{exemple|lang=af}}
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=af|Afrique du Sud (Johannesbourg)|audio=LL-Q14196 (afr)-Oesjaar-Mali.wav}}
+
+[[Catégorie:Pays d’Afrique en afrikaans]]
+
+== {{langue|sq}} ==
+=== {{S|nom propre|sq}} ===
+'''Mali''' {{pron||sq}}
+# [[#fr|Mali]] (pays africain).
+
+[[Catégorie:Pays d’Afrique en albanais]]
+
+== {{langue|gsw}} ==
+=== {{S|nom propre|gsw}} ===
+'''Mali''' {{pron||gsw}}
+# [[#fr|Mali]] (pays africain).
+
+[[Catégorie:Pays en alémanique]]
+
+== {{langue|de}} ==
+=== {{S|nom propre|de}} ===
+{{de-nom
+|ns= Mali |np=
+|as= Mali |ap=
+|gs= Malis |gp=
+|ds= Mali |dp=}}
+'''Mali''' {{pron||de}}
+# [[#fr|Mali]] (pays africain).
+
+==== {{S|gentilés}} ====
+* [[Malier]]
+* [[Malierin]]
+* [[malisch]]
+
+=== {{S|nom|de|flexion}} ===
+
+# Pluriel latinisé de ''[[Malus]]''
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=de||audio=De-Mali.ogg}}
+
+[[Catégorie:Pays d’Afrique en allemand]]
+
+== {{langue|en}} ==
+=== {{S|nom propre|en}} ===
+'''Mali''' {{pron||en}}
+# [[#fr|Mali]] (pays africain).
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=en|{{US|nocat=1}}|audio=En-us-Mali.ogg}}
+
+[[image:LocationMali.svg|thumb|Republic of '''Mali'''.]]
+{{rimes|en|ɑːli}}
+* {{écouter|Londres (Royaume-Uni)||lang=en|audio=LL-Q1860 (eng)-Soundguys-Mali.wav}}
+* {{écouter|Khammam (Inde)||niveau=bon|lang=en|audio=LL-Q1860 (eng)-Pavani916-Mali.wav}}
+
+==== {{S|synonymes}} ====
+* [[Republic of Mali]]
+
+==== {{S|dérivés}} ====
+* [[Malian]]
+
+=== {{S|anagrammes}} ===
+* [[alim]]
+* [[Liam]]
+* [[Lima]]
+* [[mail]]
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=en}}
+
+[[Catégorie:Pays d’Afrique en anglais]]
+[[Catégorie:Mali en anglais|*]]
+
+== {{langue|an}} ==
+=== {{S|nom propre|an}} ===
+'''Mali''' {{pron||an}}
+# [[#fr|Mali]] (pays africain).
+
+[[Catégorie:Pays en aragonais]]
+
+== {{langue|az}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|az}}
+
+=== {{S|nom propre|az}} ===
+{{az-décl-nom|i}}
+'''Mali''' {{pron||az}} {{formes-possessives|az}}
+# [[#fr|Mali]] (pays africain).
+
+[[Catégorie:Pays d’Afrique en azéri]]
+
+== {{langue|bm}} ==
+=== {{S|étymologie}} ===
+: ''Mali'' est le nom donné à l’[[hippopotame]] en langue [[bambara]]. L’hippopotame étant le [[totem]] des [[Bambaras]] du fait que la mère de l’empereur dans la mythologie [[malien]]ne s’était transformée en cet animal. Il est interdit aux Maliens de consommer la chair de cet animal.
+
+=== {{S|nom propre|bm}} ===
+'''Mali''' {{pron||bm}}
+# [[#fr|Mali]] (pays africain).
+
+[[Catégorie:Pays en bambara]]
+
+== {{langue|nds}} ==
+=== {{S|nom propre|nds}} ===
+'''Mali''' {{pron||nds}}
+# [[#fr|Mali]] (pays africain).
+
+[[Catégorie:Pays d’Afrique en bas allemand]]
+
+== {{langue|dsb}} ==
+=== {{S|nom propre|dsb}} ===
+'''Mali''' {{pron||dsb}}
+# [[#fr|Mali]] (pays africain).
+
+[[Catégorie:Pays en bas-sorabe]]
+
+== {{langue|eu}} ==
+=== {{S|nom propre|eu}} ===
+'''Mali''' {{pron||eu}}
+# [[#fr|Mali]] (pays africain).
+
+[[Catégorie:Pays d’Afrique en basque]]
+
+== {{langue|bs}} ==
+=== {{S|nom propre|bs}} ===
+'''Mali''' {{pron||bs}}
+# [[#fr|Mali]] (pays africain).
+
+[[Catégorie:Pays d’Afrique en bosniaque]]
+[[Catégorie:Mali en bosniaque|*]]
+
+== {{langue|br}} ==
+=== {{S|nom propre|br}} ===
+'''Mali''' {{pron||br}}
+# [[#fr|Mali]] (pays africain).
+
+[[Catégorie:Pays en breton]]
+
+== {{langue|ca}} ==
+=== {{S|nom propre|ca}} ===
+'''Mali''' {{pron||ca}}
+# [[#fr|Mali]] (pays africain).
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=ca|Espagne (Villarreal)||audio=LL-Q7026 (cat)-Millars-Mali.wav}}
+
+[[Catégorie:Pays d’Afrique en catalan]]
+
+== {{langue|ceb}} ==
+=== {{S|nom propre|ceb}} ===
+'''Mali''' {{pron||ceb}}
+# [[#fr|Mali]] (pays africain).
+
+[[Catégorie:Pays en cebuano]]
+
+== {{langue|kw}} ==
+=== {{S|nom propre|kw}} ===
+'''Mali''' {{pron||kw}}
+# [[#fr|Mali]] (pays africain).
+
+[[Catégorie:Pays en cornique]]
+
+== {{langue|ht}} ==
+=== {{S|nom propre|ht}} ===
+'''Mali''' {{pron||ht}}
+# [[#fr|Mali]] (pays africain).
+
+[[Catégorie:Pays en créole haïtien]]
+
+== {{langue|hr}} ==
+=== {{S|nom propre|hr}} ===
+'''Mali''' {{pron||hr}}
+# [[#fr|Mali]] (pays africain).
+
+[[Catégorie:Pays d’Afrique en croate]]
+
+== {{langue|da}} ==
+=== {{S|nom propre|da}} ===
+'''Mali''' {{pron||da}}
+# [[#fr|Mali]] (pays africain).
+
+[[Catégorie:Pays d’Afrique en danois]]
+
+== {{langue|diq}} ==
+=== {{S|nom propre|diq}} ===
+'''Mali''' {{pron||diq}}
+# [[#fr|Mali]] (pays africain).
+
+[[Catégorie:Pays en dimli (zazaki du Sud)]]
+
+== {{langue|et}} ==
+=== {{S|nom propre|et}} ===
+'''Mali''' {{pron||et}}
+# [[#fr|Mali]] (pays africain).
+
+[[Catégorie:Pays d’Afrique en estonien]]
+[[Catégorie:Mali en estonien|*]]
+
+== {{langue|ee}} ==
+=== {{S|nom propre|ee}} ===
+'''Mali''' {{pron||ee}}
+# [[#fr|Mali]] (pays africain).
+
+[[Catégorie:Pays en éwé]]
+
+== {{langue|fi}} ==
+=== {{S|nom propre|fi}} ===
+'''Mali''' {{pron||fi}}
+# [[#fr|Mali]] (pays africain).
+
+[[Catégorie:Pays d’Afrique en finnois]]
+
+== {{langue|frp}} ==
+=== {{S|nom propre|frp}} ===
+'''Mali''' {{pron||frp}}
+# [[#fr|Mali]] (pays africain).
+
+[[Catégorie:Pays en francoprovençal]]
+
+== {{langue|stq}} ==
+=== {{S|nom propre|stq}} ===
+'''Mali''' {{pron||stq}}
+# [[#fr|Mali]] (pays africain).
+
+[[Catégorie:Pays en frison saterlandais]]
+
+== {{langue|cy}} ==
+=== {{S|nom propre|cy}} ===
+'''Mali''' {{pron||cy}}
+# [[#fr|Mali]] (pays africain).
+
+[[Catégorie:Pays d’Afrique en gallois]]
+
+== {{langue|ha}} ==
+=== {{S|nom propre|ha}} ===
+'''Mali''' {{pron||ha}}
+# [[#fr|Mali]] (pays africain).
+
+[[Catégorie:Pays en haoussa]]
+
+== {{langue|hsb}} ==
+=== {{S|nom propre|hsb}} ===
+'''Mali''' {{pron||hsb}}
+# [[#fr|Mali]] (pays africain).
+
+[[Catégorie:Pays en haut-sorabe]]
+
+== {{langue|hif}} ==
+=== {{S|nom propre|hif}} ===
+'''Mali''' {{pron||hif}}
+# [[#fr|Mali]] (pays africain).
+
+[[Catégorie:Pays en hindi des Fidji]]
+
+== {{langue|hu}} ==
+=== {{S|nom propre|hu}} ===
+'''Mali''' {{pron||hu}}
+# [[#fr|Mali]] (pays africain).
+
+[[Catégorie:Pays d’Afrique en hongrois]]
+
+== {{langue|io}} ==
+=== {{S|nom propre|io}} ===
+'''Mali''' {{pron||io}}
+# [[#fr|Mali]] (pays africain).
+
+[[Catégorie:Pays en ido]]
+
+== {{langue|ilo}} ==
+=== {{S|nom propre|ilo}} ===
+'''Mali''' {{pron||ilo}}
+# [[#fr|Mali]] (pays africain).
+
+[[Catégorie:Pays en ilocano]]
+
+== {{langue|id}} ==
+=== {{S|nom propre|id}} ===
+'''Mali''' {{pron||id}}
+# [[#fr|Mali]] (pays africain).
+#* {{exemple|lang=id}}
+
+[[Catégorie:Pays d’Afrique en indonésien]]
+[[Catégorie:Mali en indonésien|*]]
+
+== {{langue|ie}} ==
+=== {{S|nom propre|ie}} ===
+'''Mali''' {{pron||ie}}
+# [[#fr|Mali]] (pays africain).
+
+[[Catégorie:Pays en interlingue]]
+
+== {{langue|it}} ==
+=== {{S|nom propre|it}} ===
+{{it-inv|ˈma.li}}
+'''Mali''' {{pron|ˈma.li|it}} {{m}}
+# {{pays|it|d’Afrique}} [[#fr|Mali]], pays d’Afrique ayant des frontières communes avec la Mauritanie et l’Algérie au nord, avec le Niger à l’est et nord-est, avec le Burkina Faso et la Côte d’Ivoire au sud, avec la Guinée au sud-ouest et avec le Sénégal à l’ouest, et dont la capitale est Bamako. 
+#* {{exemple|lang=it}}
+
+==== {{S|gentilés}} ====
+* {{lien|maliana|it}}
+* {{lien|maliano|it}}
+
+=== {{S|anagrammes}} ===
+{{voir anagrammes|it}}
+
+=== {{S|voir aussi}} ===
+* {{Annexe|Pays et leurs gentilés en italien}}
+* {{WP|lang=it|Mali (disambigua)}}
+* {{VOY|lang=it}}
+* {{Vikidia|lang=it}}
+
+=== {{S|prononciation}} ===
+{{ébauche-pron-audio|it}}
+
+=== {{S|références}} ===
+==== {{S|bibliographie}} ====
+* {{R:SDAS}}
+
+[[Catégorie:Mali en italien|*]]
+
+== {{langue|jv}} ==
+=== {{S|nom propre|jv}} ===
+'''Mali''' {{pron||jv}}
+# [[#fr|Mali]] (pays africain).
+
+[[Catégorie:Pays en javanais]]
+
+== {{langue|kab}} ==
+=== {{S|nom propre|kab}} ===
+'''Mali''' {{pron||kab}}
+# [[#fr|Mali]] (pays africain).
+
+[[Catégorie:Pays en kabyle]]
+
+== {{langue|pam}} ==
+=== {{S|nom propre|pam}} ===
+'''Mali''' {{pron||pam}}
+# [[#fr|Mali]] (pays africain).
+
+[[Catégorie:Pays en kapampangan]]
+
+== {{langue|lv}} ==
+=== {{S|nom propre|lv}} ===
+'''Mali''' {{pron||lv}}
+# [[#fr|Mali]] (pays africain).
+
+[[Catégorie:Pays d’Afrique en letton]]
+
+== {{langue|lij}} ==
+=== {{S|nom propre|lij}} ===
+'''Mali''' {{pron||lij}}
+# [[#fr|Mali]] (pays africain).
+
+[[Catégorie:Pays en ligure]]
+
+== {{langue|li}} ==
+=== {{S|nom propre|li}} ===
+'''Mali''' {{pron||li}}
+# [[#fr|Mali]] (pays africain).
+
+[[Catégorie:Pays en limbourgeois]]
+
+== {{langue|ln}} ==
+=== {{S|nom propre|ln}} ===
+'''Mali''' {{pron||ln}}
+# [[#fr|Mali]] (pays africain).
+
+[[Catégorie:Pays en lingala]]
+
+== {{langue|lmo}} ==
+=== {{S|nom propre|lmo}} ===
+'''Mali''' {{pron||lmo}}
+# [[#fr|Mali]] (pays africain).
+
+[[Catégorie:Pays en lombard]]
+
+== {{langue|lb}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|lb}}
+
+=== {{S|nom propre|lb}} ===
+{{lb-inv|mˈaːliː|inv_titre=Nom propre}}
+'''Mali''' {{pron|mˈaːliː|lb}} {{mn ?|lb}}
+# {{pays|lb|d’Afrique|pays=Mali|clé=*}} {{lien|Mali|fr}}.
+#* {{exemple|lang=lb}}
+
+==== {{S|gentilés}} ====
+* {{lien|Malier|lb|sens=Malien}}, {{lien|Malierin|lb|sens=Malienne}}
+* {{lien|malesch|lb|sens=malien, malienne}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=lb}}
+
+=== {{S|références}} ===
+: {{R:LOD}}
+
+== {{langue|ms}} ==
+=== {{S|nom propre|ms}} ===
+'''Mali''' {{pron||ms}}
+# [[#fr|Mali]] (pays africain).
+
+[[Catégorie:Pays d’Afrique en malais]]
+
+== {{langue|nan}} ==
+=== {{S|nom propre|nan}} ===
+'''Mali''' {{pron||nan}}
+# [[#fr|Mali]] (pays africain).
+
+[[Catégorie:Pays en minnan]]
+
+== {{langue|mos}} ==
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|mos}}
+
+=== {{S|nom propre|mos}} ===
+'''Mali''' {{pron||mos}}
+# {{pays|mos}} [[Mali#fr|Mali]].
+#* {{exemple|lang=mos}}
+
+=== {{S|références}} ===
+* {{ouvrage|titre=Nin-buiid vɩɩɩm manegr bidze (bidze sɩtoayɛ̃) 2020 Yʋʋmd laloa de fĩnanse|date=2019|url=https://dgb.gov.bf/edocman/Budget%20citoyen_2020_MOORE%20montage%20kb_opt.pdf}}
+
+== {{langue|nl}} ==
+
+=== {{S|étymologie}} ===
+
+: {{ébauche-étym|nl}}
+=== {{S|nom propre|nl}} ===
+'''Mali''' {{pron||nl}}
+# {{pays|nl|d’Afrique}} [[#fr|Mali]] (pays africain).
+#* {{exemple|lang=nl|Belgische militairen hebben de gevolgen van de klimaatverandering al kunnnen ondervinden in operatietonelen zoals Tsjaad, Somalië, '''Mali''' en de Centraal-Afrikaanse Republiek waar een steeds droger klimaat de ontwrichting van lokale gemenschappen in de hand werkt.|source=Pieter-Jan Parrein, « Klimaatimpact op Defensie », ''Belgisch Militair Tijdschrift / Revue militaire belge'', juin 2014, page 121}}
+
+=== {{S|prononciation}} ===
+* {{écouter|||lang=nl|audio=Nl-Mali.ogg}}
+
+== {{langue|no}} ==
+=== {{S|nom propre|no}} ===
+'''Mali''' {{pron||no}}
+# [[#fr|Mali]] (pays africain).
+
+[[Catégorie:Pays d’Afrique en norvégien]]
+
+== {{langue|nn}} ==
+=== {{S|nom propre|nn}} ===
+'''Mali''' {{pron||nn}}
+# [[#fr|Mali]] (pays africain).
+
+[[Catégorie:Pays d’Afrique en norvégien (nynorsk)]]
+
+== {{langue|nov}} ==
+=== {{S|nom propre|nov}} ===
+'''Mali''' {{pron||nov}}
+# [[#fr|Mali]] (pays africain).
+
+[[Catégorie:Pays en novial]]
+
+== {{langue|oc}} ==
+=== {{S|nom propre|oc}} ===
+'''Mali''' {{pron|ˈmali|oc}} {{m}}
+# [[#fr|Mali]] (pays africain).
+
+==== {{S|gentilés}} ====
+*[[malian]], [[maliana]]
+[[Catégorie:Pays en occitan]]
+
+== {{langue|ug}} ==
+=== {{S|nom propre|ug}} ===
+'''Mali''' {{pron||ug}}
+# [[#fr|Mali]] (pays africain).
+
+[[Catégorie:Pays en ouïghour]]
+
+== {{langue|uz}} ==
+=== {{S|nom propre|uz}} ===
+'''Mali''' {{pron||uz}}
+# [[#fr|Mali]] (pays africain).
+
+[[Catégorie:Pays en ouzbek]]
+
+== {{langue|pms}} ==
+=== {{S|nom propre|pms}} ===
+'''Mali''' {{pron||pms}}
+# [[#fr|Mali]] (pays africain).
+
+[[Catégorie:Pays en piémontais]]
+
+== {{langue|pl}} ==
+=== {{S|nom propre|pl}} ===
+'''Mali''' {{pron||pl}}
+# [[#fr|Mali]] (pays africain).
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=pl||audio=Pl-Mali.ogg}}
+
+[[Catégorie:Pays d’Afrique en polonais]]
+
+== {{langue|pt}} ==
+=== {{S|nom propre|pt}} ===
+'''Mali''' {{pron||pt}}
+# [[#fr|Mali]] (pays africain).
+
+[[Catégorie:Pays d’Afrique en portugais]]
+[[Catégorie:Mali en portugais|*]]
+
+== {{langue|qu}} ==
+=== {{S|nom propre|qu}} ===
+'''Mali''' {{pron||qu}}
+# [[#fr|Mali]] (pays africain).
+
+[[Catégorie:Pays en quechua]]
+
+== {{langue|ro}} ==
+=== {{S|nom propre|ro}} ===
+'''Mali''' {{pron||ro}}
+# [[#fr|Mali]] (pays africain).
+
+=== {{S|prononciation}} ===
+* {{écouter|Iași (Roumanie)||lang=ro|audio=LL-Q7913 (ron)-KlaudiuMihaila-Mali.wav}}
+
+[[Catégorie:Pays d’Afrique en roumain]]
+
+== {{langue|se}} ==
+=== {{S|nom propre|se}} ===
+'''Mali''' {{pron||se}}
+# [[#fr|Mali]] (pays africain).
+
+[[Catégorie:Pays en same du Nord]]
+
+== {{langue|sh}} ==
+=== {{S|nom propre|sh}} ===
+'''Mali''' {{pron||sh}}
+# [[#fr|Mali]] (pays africain).
+
+[[Catégorie:Pays d’Afrique en serbo-croate]]
+
+== {{langue|scn}} ==
+=== {{S|nom propre|scn}} ===
+'''Mali''' {{pron||scn}}
+# [[#fr|Mali]] (pays africain).
+
+=== {{S|prononciation}} ===
+* {{écouter|Gela (Italie)||lang=scn|audio=LL-Q33973 (scn)-XANA000-Mali.wav}}
+
+[[Catégorie:Pays en sicilien]]
+
+== {{langue|szl}} ==
+=== {{S|nom propre|szl}} ===
+'''Mali''' {{pron||szl}}
+# [[#fr|Mali]] (pays africain).
+
+[[Catégorie:Pays en silésien]]
+
+== {{langue|sk}} ==
+=== {{S|nom propre|sk}} ===
+'''Mali''' {{pron||sk}}
+# [[#fr|Mali]] (pays africain).
+
+[[Catégorie:Pays d’Afrique en slovaque]]
+
+== {{langue|sl}} ==
+=== {{S|nom propre|sl}} ===
+'''Mali''' {{pron||sl}}
+# [[#fr|Mali]] (pays africain).
+
+[[Catégorie:Pays d’Afrique en slovène]]
+
+== {{langue|sv}} ==
+=== {{S|nom propre|sv}} ===
+'''Mali''' {{pron||sv}}
+# [[#fr|Mali]] (pays africain).
+
+=== {{S|prononciation}} ===
+* {{écouter|Suède||lang=sv|audio=LL-Q9027 (swe)-Moonhouse-Mali.wav}}
+
+[[Catégorie:Pays d’Afrique en suédois]]
+
+== {{langue|sw}} ==
+=== {{S|nom propre|sw}} ===
+'''Mali''' {{pron||sw}}
+# [[#fr|Mali]] (pays africain).
+
+[[Catégorie:Pays en swahili]]
+
+== {{langue|tl}} ==
+=== {{S|nom propre|tl}} ===
+'''Mali''' {{pron||tl}}
+# [[#fr|Mali]] (pays africain).
+
+[[Catégorie:Pays en tagalog]]
+
+== {{langue|crh}} ==
+=== {{S|nom propre|crh}} ===
+'''Mali''' {{pron||crh}}
+# [[#fr|Mali]] (pays africain).
+
+[[Catégorie:Pays en tatar de Crimée]]
+
+== {{langue|cs}} ==
+=== {{S|nom propre|cs}} ===
+'''Mali''' {{pron||cs}}
+# [[#fr|Mali]] (pays africain).
+
+[[Catégorie:Pays d’Afrique en tchèque]]
+
+== {{langue|tr}} ==
+=== {{S|nom propre|tr}} ===
+'''Mali''' {{pron||tr}}
+# [[#fr|Mali]] (pays africain).
+
+=== {{S|prononciation}} ===
+* {{écouter|Izmir (Turquie)||lang=tr|audio=LL-Q256 (tur)-ToprakM-Mali.wav}}
+
+[[Catégorie:Pays d’Afrique en turc]]
+[[Catégorie:Mali en turc|*]]
+
+== {{langue|tk}} ==
+=== {{S|nom propre|tk}} ===
+'''Mali''' {{pron||tk}}
+# [[#fr|Mali]] (pays africain).
+
+[[Catégorie:Pays en turkmène]]
+
+== {{langue|vi}} ==
+=== {{S|nom propre|vi}} ===
+'''Mali''' {{pron||vi}}
+# [[#fr|Mali]] (pays africain).
+
+[[Catégorie:Pays d’Afrique en vietnamien]]
+
+== {{langue|war}} ==
+=== {{S|nom propre|war}} ===
+'''Mali''' {{pron||war}}
+# [[#fr|Mali]] (pays africain).
+
+[[Catégorie:Pays en waray (Philippines)]]
+
+== {{langue|wo}} ==
+=== {{S|nom propre|wo}} ===
+'''Mali''' {{pron||wo}}
+# [[#fr|Mali]] (pays africain).
+
+[[Catégorie:Pays en wolof]]

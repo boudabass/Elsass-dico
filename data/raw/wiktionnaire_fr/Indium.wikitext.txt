@@ -1,0 +1,80 @@
+{{voir|indium}}
+
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw}}
+
+=== {{S|nom|gsw}} ===
+'''Indium''' {{pron||gsw}} {{genre|gsw}}
+# {{éléments|gsw}} {{métaux|gsw}} [[indium#fr|Indium]].
+{{clr}}
+==== {{S|vocabulaire}} ====
+{{tableau périodique/gsw}}
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: {{date|1864}}{{R|etymonline|indium}} Mot forgé par {{w|Ferdinand Reich}} et son assistant {{w|Hieronimus Theodor Richter}}, d’après le {{étyl|la|de|mot=Indicum|sens=indigo}}{{R|TLFi|indium}} à cause de la couleur caractéristique d’une des raies bleues brillantes de ce métal dans l’analyse spectrale.
+
+=== {{S|nom|de}} ===
+{{légende élément/de|In}}
+[[Image:IndiumMetalUSGOV.jpg|thumb|'''Indium'''.]]
+'''Indium''' {{pron|ˈɪndi̯ʊm|de}} {{n}} ({{p}}: '''—''' )
+# {{éléments|de}} {{métaux|de}} [[indium#fr|Indium]].
+#* {{exemple | lang=de | '''Indium''' ist ein silbrigweißes, duktiles Metall.}}
+
+==== {{S|dérivés}} ====
+{{(|&nbsp;}}
+* {{lien|Indium(III)-oxid|de}} 
+* {{lien|Indiumarsenid|de}}
+* {{lien|Indiumdichtung|de}}
+* {{lien|Indiumdraht|de}}
+* {{lien|Indiumphosphid|de}}
+* {{lien|Indiumtrichlorid|de}}
+* {{lien|Indiumverbindung|de}}
+* {{lien|Indiumzinnoxid|de}}
+{{)}}
+
+==== {{S|apparentés}} ====
+* {{lien|Indigo|de}}
+
+==== {{S|dérivés autres langues}} ====
+* {{L|fr}} : {{lien|indium|fr}}
+
+==== {{S|vocabulaire}} ====
+* {{voir thésaurus|de|tableau périodique des éléments}}
+
+=== {{S|prononciation}} ===
+* {{pron|ˈɪndi̯ʊm|de}}
+* {{écouter|lang=de|Autriche|audio=De-at-Indium.ogg}}
+* {{écouter|lang=de|Allemagne (Berlin)|audio=LL-Q188 (deu)-Lucas Werkmeister-Indium.wav}}
+* {{écouter|lang=de|Allemagne (Berlin)|audio=LL-Q188 (deu)-Sebastian Wallroth-Indium.wav}}
+
+=== {{S|voir aussi}} ===
+{{tableau périodique/de}}
+* {{WP|lang=de}}
+
+=== {{S|références}} ===
+* {{R:Duden|Indium}}
+{{Références}}
+
+== {{langue|lb}} ==
+=== {{S|étymologie}} ===
+: Du mot {{étyl|de|lb|mot=Indium}}.
+
+=== {{S|nom|lb}} ===
+{{lb-inv|ˈindi̯um}}
+'''Indium''' {{pron|ˈindi̯um|lb}} {{m}}, {{au singulier uniquement|lb}}
+# {{éléments|lb}} {{métaux|lb}} [[indium#fr|Indium]].
+#* {{exemple|lang=lb}}
+{{clr}}
+==== {{S|vocabulaire}} ====
+{{tableau périodique/lb}}
+
+=== {{S|prononciation}} ===
+* {{écouter|Angers (France)||niveau=bon|lang=lb|audio=LL-Q9051 (ltz)-Procrastineur49-Indium.wav}}
+
+=== {{S|références}} ===
+: {{R:LOD}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=lb}}

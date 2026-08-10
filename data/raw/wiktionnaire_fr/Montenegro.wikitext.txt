@@ -1,0 +1,569 @@
+{{voir/montenegro}}
+
+== {{langue|af}} ==
+=== {{S|étymologie}} ===
+: {{date|lang=af}} Du vénitien ''[[Montenegro#vec|Montenegro]]'' (« [[montagne]] [[noir]]e »).
+
+=== {{S|nom propre|af}} ===
+'''Montenegro''' {{pron||af}}
+# {{pays|af|d’Europe}} [[Monténégro]] (pays d’[[Europe]]).
+#* {{exemple|lang=af}}
+
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: {{date|lang=gsw}} Du vénitien ''[[Montenegro#vec|Montenegro]]'' (« [[montagne]] [[noir]]e »).
+
+=== {{S|nom propre|gsw}} ===
+'''Montenegro''' {{pron||gsw}}
+# {{pays|gsw|d’Europe}} [[Monténégro]] (pays d’[[Europe]]).
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: {{date|lang=de}} Du vénitien ''[[Montenegro#vec|Montenegro]]'' (« [[montagne]] [[noir]]e »).
+
+=== {{S|nom propre|de}} ===
+'''Montenegro''' {{pron||de}}
+# {{pays|de|d’Europe}} [[Monténégro]] (pays d’[[Europe]]).
+
+[[Catégorie:Monténégro en allemand|*]]
+[[Catégorie:Toponymes dont l’origine est une montagne en allemand]]
+[[Catégorie:Toponymes dont l’origine est une couleur en allemand]]
+
+== {{langue|nds}} ==
+=== {{S|étymologie}} ===
+: {{date|lang=nds}} Du vénitien ''[[Montenegro#vec|Montenegro]]'' (« [[montagne]] [[noir]]e »).
+
+=== {{S|nom propre|nds}} ===
+'''Montenegro''' {{pron||nds}}
+# {{pays|nds|d’Europe}} [[Monténégro]] (pays d’[[Europe]]).
+
+== {{langue|en}} ==
+=== {{S|étymologie}} ===
+: {{date|lang=en}} Du vénitien ''[[Montenegro#vec|Montenegro]]'' (« [[montagne]] [[noir]]e »).
+
+=== {{S|nom propre|en}} ===
+'''Montenegro''' {{pron||en}}
+# {{pays|en|d’Europe}} [[Monténégro]] (pays d’[[Europe]]).
+
+==== {{S|dérivés}} ====
+* [[Montenegrin]]
+
+==== {{S|composés}} ====
+* {{lien|Porto Montenegro|en}}
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=en|États-Unis||audio=En-us-Montenegro.ogg}}
+* {{écouter|Londres (Royaume-Uni)||lang=en|audio=LL-Q1860 (eng)-Soundguys-Montenegro.wav}}
+
+[[Catégorie:Monténégro en anglais|*]]
+[[Catégorie:Toponymes dont l’origine est une montagne en anglais]]
+[[Catégorie:Toponymes dont l’origine est une couleur en anglais]]
+
+== {{langue|an}} ==
+=== {{S|étymologie}} ===
+: {{date|lang=an}} Du vénitien ''[[Montenegro#vec|Montenegro]]'' (« [[montagne]] [[noir]]e »).
+
+=== {{S|nom propre|an}} ===
+'''Montenegro''' {{pron||an}}
+# {{pays|an|d’Europe}} [[Monténégro]] (pays d’[[Europe]]).
+
+== {{langue|eu}} ==
+=== {{S|étymologie}} ===
+: {{date|lang=eu}} Du vénitien ''[[Montenegro#vec|Montenegro]]'' (« [[montagne]] [[noir]]e »).
+
+=== {{S|nom propre|eu}} ===
+'''Montenegro''' {{pron||eu}}
+# {{pays|eu|d’Europe}} [[Monténégro]] (pays d’[[Europe]]).
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=eu|Espagne (Saint-Sébastien)|audio=LL-Q8752 (eus)-Xabier Cañas-Montenegro.wav}}
+
+[[Catégorie:Monténégro en basque|*]]
+[[Catégorie:Toponymes dont l’origine est une montagne en basque]]
+[[Catégorie:Toponymes dont l’origine est une couleur en basque]]
+
+== {{langue|bar}} ==
+=== {{S|étymologie}} ===
+: {{date|lang=bar}} Du vénitien ''[[Montenegro#vec|Montenegro]]'' (« [[montagne]] [[noir]]e »).
+
+=== {{S|nom propre|bar}} ===
+'''Montenegro''' {{pron||bar}}
+# {{pays|bar}} [[Monténégro]] (pays d’[[Europe]]).
+
+== {{langue|br}} ==
+=== {{S|étymologie}} ===
+: {{date|lang=br}} Du {{étyl|vec|br|mot=Montenegro|sens={{lien|montagne|fr|nom}} [[noir#Adjectif|noire]]}}.
+
+=== {{S|nom propre|br}} ===
+{{br-forme-mut|Montenegro|forme=Nom propre}}
+'''Montenegro''' {{pron|mɔ̃n.tẽ.ˈne.ɡro|br}}
+# {{pays|br|d’Europe}} [[Monténégro]] ([[pays#Nom commun 1|pays]] d’[[Europe#Nom propre 2|Europe]], dans les [[Balkans occidentaux]]).
+#* {{exemple | lang=br
+ | Gant he zitl priñsez, goude dimeziñ da v-Michel Petrovitch-Njegosh, ur priñs harluet eus '''Montenegro''' (e Yougoslavia gwechall) ?
+ | Avec son titre de princesse, après avoir épousé {{w|Mihailo Petrović-Njegoš}}, un prince éxilé du Monténégro (en Yougoslavie autrefois) ?
+ | source={{w|Stéphanie Stoll}}, ''Geneviève Prigent, sitoianez ha priñsez'', in ''Côtes d’Armor MAGAZINE'', {{numéro|131}}, mai 2014, page 10}}
+
+==== {{S|gentilés}} ====
+* {{lien|Montenegrad|br}} ({{p}} : {{lien|Montenegriz|br}})
+* {{lien|Montenegradez|br}} ({{p}} : {{lien|Montenegradezed|br}})
+* {{lien|montenegrat|br}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=br}}
+
+=== {{S|références}} ===
+* {{R:Ménard|p=1459a}}
+
+[[Catégorie:Monténégro en breton|*]]
+
+== {{langue|ca}} ==
+=== {{S|étymologie}} ===
+: {{date|lang=ca}} Du vénitien ''[[Montenegro#vec|Montenegro]]'' (« [[montagne]] [[noir]]e »).
+
+=== {{S|nom propre|ca}} ===
+'''Montenegro''' {{pron||ca}}
+# {{pays|ca|d’Europe}} [[Monténégro]] (pays d’[[Europe]]).
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=ca|Espagne (Villarreal)||audio=LL-Q7026 (cat)-Millars-Montenegro.wav}}
+
+[[Catégorie:Monténégro en catalan|*]]
+[[Catégorie:Toponymes dont l’origine est une montagne en catalan]]
+[[Catégorie:Toponymes dont l’origine est une couleur en catalan]]
+
+== {{langue|ceb}} ==
+=== {{S|étymologie}} ===
+: {{date|lang=ceb}} Du vénitien ''[[Montenegro#vec|Montenegro]]'' (« [[montagne]] [[noir]]e »).
+
+=== {{S|nom propre|ceb}} ===
+'''Montenegro''' {{pron||ceb}}
+# {{pays|ceb}} [[Monténégro]] (pays d’[[Europe]]).
+
+== {{langue|kw}} ==
+=== {{S|étymologie}} ===
+: {{date|lang=kw}} Du vénitien ''[[Montenegro#vec|Montenegro]]'' (« [[montagne]] [[noir]]e »).
+
+=== {{S|nom propre|kw}} ===
+'''Montenegro''' {{pron||kw}}
+# {{pays|kw|d’Europe}} [[Monténégro]] (pays d’[[Europe]]).
+
+== {{langue|da}} ==
+=== {{S|étymologie}} ===
+: {{date|lang=da}} Du vénitien ''[[Montenegro#vec|Montenegro]]'' (« [[montagne]] [[noir]]e »).
+
+=== {{S|nom propre|da}} ===
+'''Montenegro''' {{pron||da}}
+# {{pays|da|d’Europe}} [[Monténégro]] (pays d’[[Europe]]).
+
+[[Catégorie:Monténégro en danois|*]]
+[[Catégorie:Toponymes dont l’origine est une montagne en danois]]
+[[Catégorie:Toponymes dont l’origine est une couleur en danois]]
+
+== {{langue|diq}} ==
+=== {{S|étymologie}} ===
+: {{date|lang=diq}} Du vénitien ''[[Montenegro#vec|Montenegro]]'' (« [[montagne]] [[noir]]e »).
+
+=== {{S|nom propre|diq}} ===
+'''Montenegro''' {{pron||diq}}
+# {{pays|diq}} [[Monténégro]] (pays d’[[Europe]]).
+
+== {{langue|es}} ==
+=== {{S|étymologie}} ===
+: {{date|lang=es}} Du vénitien ''[[Montenegro#vec|Montenegro]]'' (« [[montagne]] [[noir]]e »).
+
+=== {{S|nom propre|es}} ===
+'''Montenegro''' {{pron||es}}
+# {{pays|es|d’Europe}} [[Monténégro]] (pays d’[[Europe]]).
+
+==== {{S|gentilés}} ====
+* [[montenegrino#es|montenegrino]]
+
+=== {{S|prononciation}} ===
+* {{écouter|Espagne||lang=es|audio=LL-Q1321 (spa)-Rodelar-Montenegro.wav}}
+
+[[Catégorie:Monténégro en espagnol|*]]
+[[Catégorie:Toponymes dont l’origine est une montagne en espagnol]]
+[[Catégorie:Toponymes dont l’origine est une couleur en espagnol]]
+
+== {{langue|eo}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|vec|eo|mot=Montenegro}}, via les autres langues européennes.
+
+=== {{S|nom propre|eo}} ===
+{{eo-rég-sing|mon.te.ˈne.ɡro|dir+=1}}
+'''Montenegro''' {{pron|mon.te.ˈne.ɡro|eo}} {{eo-motrac|réf=Land|dér=1}}
+# {{pays|eo|d’Europe}} [[Monténégro]].
+
+==== {{S|dérivés}} ====
+* [[montenegra]]
+* [[montenegranino]]
+* [[montenegrano]]
+
+=== {{S|prononciation}} ===
+* {{écouter||mon.te.ˈne.ɡro|lang=eo|audio=Eo-Montenegro.ogg}}
+* {{écouter|lang=eo|Pays-Bas (partie continentale) (Wijchen)|audio=LL-Q143 (epo)-Robin van der Vliet-Montenegro.wav}}
+* {{écouter|lang=eo|France (Toulouse)||audio=LL-Q143 (epo)-Lepticed7-Montenegro.wav}}
+
+[[Catégorie:Monténégro en espéranto|*]]
+[[Catégorie:Racines en espéranto]]
+
+== {{langue|et}} ==
+=== {{S|étymologie}} ===
+: {{date|lang=et}} Du vénitien ''[[Montenegro#vec|Montenegro]]'' (« [[montagne]] [[noir]]e »).
+
+=== {{S|nom propre|et}} ===
+'''Montenegro''' {{pron||et}}
+# {{pays|et|d’Europe}} [[Monténégro]] (pays d’[[Europe]]).
+
+[[Catégorie:Monténégro en estonien|*]]
+[[Catégorie:Toponymes dont l’origine est une montagne en estonien]]
+[[Catégorie:Toponymes dont l’origine est une couleur en estonien]]
+
+== {{langue|ee}} ==
+=== {{S|étymologie}} ===
+: {{date|lang=ee}} Du vénitien ''[[Montenegro#vec|Montenegro]]'' (« [[montagne]] [[noir]]e »).
+
+=== {{S|nom propre|ee}} ===
+'''Montenegro''' {{pron||ee}}
+# {{pays|ee|d’Europe}} [[Monténégro]] (pays d’[[Europe]]).
+
+== {{langue|fo}} ==
+=== {{S|étymologie}} ===
+: {{date|lang=fo}} Du vénitien ''[[Montenegro#vec|Montenegro]]'' (« [[montagne]] [[noir]]e »).
+
+=== {{S|nom propre|fo}} ===
+'''Montenegro''' {{pron||fo}}
+# {{pays|fo|d’Europe}} [[Monténégro]] (pays d’[[Europe]]).
+
+== {{langue|fi}} ==
+=== {{S|étymologie}} ===
+: {{date|lang=fi}} Du vénitien ''[[Montenegro#vec|Montenegro]]'' (« [[montagne]] [[noir]]e »).
+
+=== {{S|nom propre|fi}} ===
+'''Montenegro''' {{pron||fi}}
+# {{pays|fi|d’Europe}} [[Monténégro]] (pays d’[[Europe]]).
+
+[[Catégorie:Monténégro en finnois|*]]
+[[Catégorie:Toponymes dont l’origine est une montagne en finnois]]
+[[Catégorie:Toponymes dont l’origine est une couleur en finnois]]
+
+== {{langue|fy}} ==
+=== {{S|étymologie}} ===
+: {{date|lang=fy}} Du vénitien ''[[Montenegro#vec|Montenegro]]'' (« [[montagne]] [[noir]]e »).
+
+=== {{S|nom propre|fy}} ===
+'''Montenegro''' {{pron||fy}}
+# {{pays|fy|d’Europe}} [[Monténégro]] (pays d’[[Europe]]).
+
+== {{langue|gl}} ==
+=== {{S|étymologie}} ===
+: {{date|lang=gl}} Du vénitien ''[[Montenegro#vec|Montenegro]]'' (« [[montagne]] [[noir]]e »).
+
+=== {{S|nom propre|gl}} ===
+'''Montenegro''' {{pron||gl}}
+# {{pays|gl|d’Europe}} [[Monténégro]] (pays d’[[Europe]]).
+
+[[Catégorie:Toponymes dont l’origine est une montagne en galicien]]
+[[Catégorie:Toponymes dont l’origine est une couleur en galicien]]
+
+== {{langue|cy}} ==
+=== {{S|étymologie}} ===
+: {{date|lang=cy}} Du vénitien ''[[Montenegro#vec|Montenegro]]'' (« [[montagne]] [[noir]]e »).
+
+=== {{S|nom propre|cy}} ===
+'''Montenegro''' {{pron||cy}}
+# {{pays|cy|d’Europe}} [[Monténégro]] (pays d’[[Europe]]).
+
+[[Catégorie:Monténégro en gallois|*]]
+
+== {{langue|io}} ==
+=== {{S|étymologie}} ===
+: {{date|lang=io}} Du vénitien ''[[Montenegro#vec|Montenegro]]'' (« [[montagne]] [[noir]]e »).
+
+=== {{S|nom propre|io}} ===
+'''Montenegro''' {{pron||io}}
+# {{pays|io|d’Europe}} [[Monténégro]] (pays d’[[Europe]]).
+
+== {{langue|ilo}} ==
+=== {{S|étymologie}} ===
+: {{date|lang=ilo}} Du vénitien ''[[Montenegro#vec|Montenegro]]'' (« [[montagne]] [[noir]]e »).
+
+=== {{S|nom propre|ilo}} ===
+'''Montenegro''' {{pron||ilo}}
+# {{pays|ilo}} [[Monténégro]] (pays d’[[Europe]]).
+
+== {{langue|id}} ==
+=== {{S|étymologie}} ===
+: {{date|lang=id}} Du vénitien ''[[Montenegro#vec|Montenegro]]'' (« [[montagne]] [[noir]]e »).
+
+=== {{S|nom propre|id}} ===
+'''Montenegro''' {{pron||id}}
+# {{pays|id|d’Europe}} [[Monténégro]] (pays d’[[Europe]]).
+#* {{exemple|lang=id}}
+
+[[Catégorie:Monténégro en indonésien|*]]
+
+== {{langue|ia}} ==
+=== {{S|étymologie}} ===
+: {{date|lang=ia}} Du vénitien ''[[Montenegro#vec|Montenegro]]'' (« [[montagne]] [[noir]]e »).
+
+=== {{S|nom propre|ia}} ===
+'''Montenegro''' {{pron||ia}}
+# {{pays|ia|d’Europe}} [[Monténégro]] (pays d’[[Europe]]).
+
+== {{langue|ie}} ==
+=== {{S|étymologie}} ===
+: {{date|lang=ie}} Du vénitien ''[[Montenegro#vec|Montenegro]]'' (« [[montagne]] [[noir]]e »).
+
+=== {{S|nom propre|ie}} ===
+'''Montenegro''' {{pron||ie}}
+# {{pays|ie}} [[Monténégro]] (pays d’[[Europe]]).
+
+== {{langue|it}} ==
+=== {{S|étymologie}} ===
+: {{date|lang=it}} Du vénitien ''[[Montenegro#vec|Montenegro]]'' (« [[montagne]] [[noir]]e »).
+
+=== {{S|nom propre|it}} ===
+'''Montenegro''' {{pron|mon.te.ˈnɛ.ɡro|it}} {{m}}
+# {{pays|it|d’Europe}} [[Monténégro]], pays d’[[Europe]].
+
+==== {{S|gentilés}} ====
+* [[montenegrino#it|montenegrino]]
+
+=== {{S|voir aussi}} ===
+* {{Annexe|Pays et leurs gentilés en italien}}
+* {{WP|lang=it}}
+* {{WQ|lang=it}}
+* {{VOY|lang=it}}
+
+[[Catégorie:Monténégro en italien|*]]
+[[Catégorie:Toponymes dont l’origine est une montagne en italien]]
+[[Catégorie:Toponymes dont l’origine est une couleur en italien]]
+
+== {{langue|ku}} ==
+=== {{S|étymologie}} ===
+: {{date|lang=ku}} Du vénitien ''[[Montenegro#vec|Montenegro]]'' (« [[montagne]] [[noir]]e »).
+
+=== {{S|nom propre|ku}} ===
+'''Montenegro''' {{pron||ku}}
+# {{pays|ku|d’Europe}} [[Monténégro]] (pays d’[[Europe]]).
+
+== {{langue|li}} ==
+=== {{S|étymologie}} ===
+: {{date|lang=li}} Du vénitien ''[[Montenegro#vec|Montenegro]]'' (« [[montagne]] [[noir]]e »).
+
+=== {{S|nom propre|li}} ===
+'''Montenegro''' {{pron||li}}
+# {{pays|li}} [[Monténégro]] (pays d’[[Europe]]).
+
+== {{langue|ln}} ==
+=== {{S|étymologie}} ===
+: {{date|lang=ln}} Du vénitien ''[[Montenegro#vec|Montenegro]]'' (« [[montagne]] [[noir]]e »).
+
+=== {{S|nom propre|ln}} ===
+'''Montenegro''' {{pron||ln}}
+# {{pays|ln}} [[Monténégro]] (pays d’[[Europe]]).
+
+== {{langue|lb}} ==
+=== {{S|étymologie}} ===
+: {{date|lang=lb}} Du vénitien ''[[Montenegro#vec|Montenegro]]'' (« [[montagne]] [[noir]]e »).
+
+=== {{S|nom propre|lb}} ===
+'''Montenegro''' {{pron||lb}}
+# {{pays|lb|d’Europe}} [[Monténégro]] (pays d’[[Europe]]).
+
+== {{langue|ms}} ==
+=== {{S|étymologie}} ===
+: {{date|lang=ms}} Du vénitien ''[[Montenegro#vec|Montenegro]]'' (« [[montagne]] [[noir]]e »).
+
+=== {{S|nom propre|ms}} ===
+'''Montenegro''' {{pron||ms}}
+# {{pays|ms|d’Europe}} [[Monténégro]] (pays d’[[Europe]]).
+
+== {{langue|gv}} ==
+=== {{S|étymologie}} ===
+: {{date|lang=gv}} Du vénitien ''[[Montenegro#vec|Montenegro]]'' (« [[montagne]] [[noir]]e »).
+
+=== {{S|nom propre|gv}} ===
+'''Montenegro''' {{pron||gv}}
+# {{pays|gv|d’Europe}} [[Monténégro]] (pays d’[[Europe]]).
+
+== {{langue|mwl}} ==
+=== {{S|étymologie}} ===
+: {{date|lang=mwl}} Du vénitien ''[[Montenegro#vec|Montenegro]]'' (« [[montagne]] [[noir]]e »).
+
+=== {{S|nom propre|mwl}} ===
+'''Montenegro''' {{pron||mwl}}
+# {{pays|mwl|d’Europe}} [[Monténégro#fr|Monténégro]] (pays d’[[Europe]]).
+
+=== {{S|voir aussi}} ===
+* {{WP|Montenegro|lang=mwl}}
+
+[[Catégorie:Pays en mirandais]]
+
+== {{langue|nap}} ==
+=== {{S|étymologie}} ===
+: {{date|lang=nap}} Du vénitien ''[[Montenegro#vec|Montenegro]]'' (« [[montagne]] [[noir]]e »).
+
+=== {{S|nom propre|nap}} ===
+'''Montenegro''' {{pron||nap}}
+# {{pays|nap}} [[Monténégro]] (pays d’[[Europe]]).
+
+== {{langue|nl}} ==
+=== {{S|étymologie}} ===
+: {{date|lang=nl}} Du vénitien ''[[Montenegro#vec|Montenegro]]'' (« [[montagne]] [[noir]]e »).
+
+=== {{S|nom propre|nl}} ===
+'''Montenegro''' {{pron||nl}}
+# {{pays|nl|d’Europe}} [[Monténégro]] (pays d’[[Europe]]).
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=nl||audio=Nl-Montenegro.ogg}}
+
+[[Catégorie:Monténégro en néerlandais|*]]
+[[Catégorie:Toponymes dont l’origine est une montagne en néerlandais]]
+[[Catégorie:Toponymes dont l’origine est une couleur en néerlandais]]
+
+== {{langue|no}} ==
+=== {{S|étymologie}} ===
+: {{date|lang=no}} Du vénitien ''[[Montenegro#vec|Montenegro]]'' (« [[montagne]] [[noir]]e »).
+
+=== {{S|nom propre|no}} ===
+'''Montenegro''' {{pron||no}}
+# {{pays|no|d’Europe}} [[Monténégro]] (pays d’[[Europe]]).
+
+[[Catégorie:Monténégro en norvégien|*]]
+[[Catégorie:Toponymes dont l’origine est une montagne en norvégien]]
+[[Catégorie:Toponymes dont l’origine est une couleur en norvégien]]
+
+== {{langue|nn}} ==
+=== {{S|étymologie}} ===
+: {{date|lang=nn}} Du vénitien ''[[Montenegro#vec|Montenegro]]'' (« [[montagne]] [[noir]]e »).
+
+=== {{S|nom propre|nn}} ===
+'''Montenegro''' {{pron||nn}}
+# {{pays|nn|d’Europe}} [[Monténégro]] (pays d’[[Europe]]).
+
+== {{langue|nov}} ==
+=== {{S|étymologie}} ===
+: {{date|lang=nov}} Du vénitien ''[[Montenegro#vec|Montenegro]]'' (« [[montagne]] [[noir]]e »).
+
+=== {{S|nom propre|nov}} ===
+'''Montenegro''' {{pron||nov}}
+# {{pays|nov|d’Europe}} [[Monténégro]] (pays d’[[Europe]]).
+
+== {{langue|oc}} ==
+=== {{S|étymologie}} ===
+: {{date|lang=oc}} Du vénitien ''[[Montenegro#vec|Montenegro]]'' (« [[montagne]] [[noir]]e »).
+
+=== {{S|nom propre|oc}} ===
+'''Montenegro''' {{phon|munteˈneɣɾu|oc}} {{m}}
+# {{pays|oc|d’Europe}} [[Monténégro]] (pays d’[[Europe]]).
+
+==== {{S|gentilés}} ====
+*[[montenegrin]], [[montenegrina]]
+
+[[Catégorie:Toponymes dont l’origine est une montagne en occitan]]
+[[Catégorie:Toponymes dont l’origine est une couleur en occitan]]
+
+== {{langue|pt}} ==
+=== {{S|étymologie}} ===
+: {{date|lang=pt}} Du vénitien ''[[Montenegro#vec|Montenegro]]'' (« [[montagne]] [[noir]]e »).
+
+=== {{S|nom propre|pt}} ===
+'''Montenegro''' {{pron||pt}}
+# {{pays|pt|d’Europe}} [[Monténégro]] (pays d’[[Europe]]).
+
+[[Catégorie:Monténégro en portugais|*]]
+[[Catégorie:Toponymes dont l’origine est une montagne en portugais]]
+[[Catégorie:Toponymes dont l’origine est une couleur en portugais]]
+
+== {{langue|se}} ==
+=== {{S|étymologie}} ===
+: {{date|lang=se}} Du vénitien ''[[Montenegro#vec|Montenegro]]'' (« [[montagne]] [[noir]]e »).
+
+=== {{S|nom propre|se}} ===
+'''Montenegro''' {{phono||se}}
+# {{pays|se|d’Europe}} [[Monténégro]] (pays d’[[Europe]]).
+
+== {{langue|nds-nl}} ==
+=== {{S|étymologie}} ===
+: {{date|lang=nds-nl}} Du vénitien ''[[Montenegro#vec|Montenegro]]'' (« [[montagne]] [[noir]]e »).
+
+=== {{S|nom propre|nds-nl}} ===
+'''Montenegro''' {{pron||nds-nl}}
+# {{pays|nds-nl}} [[Monténégro]] (pays d’[[Europe]]).
+
+== {{langue|sv}} ==
+=== {{S|étymologie}} ===
+: {{date|lang=sv}} Du vénitien ''[[Montenegro#vec|Montenegro]]'' (« [[montagne]] [[noir]]e »).
+
+=== {{S|nom propre|sv}} ===
+'''Montenegro''' {{pron||sv}}
+# {{pays|sv|d’Europe}} [[Monténégro]] (pays d’[[Europe]]).
+
+=== {{S|prononciation}} ===
+* {{écouter|Suède||lang=sv|audio=LL-Q9027 (swe)-Moonhouse-Montenegro.wav}}
+
+[[Catégorie:Monténégro en suédois|*]]
+[[Catégorie:Toponymes dont l’origine est une montagne en suédois]]
+[[Catégorie:Toponymes dont l’origine est une couleur en suédois]]
+
+== {{langue|sw}} ==
+=== {{S|étymologie}} ===
+: {{date|lang=sw}} Du vénitien ''[[Montenegro#vec|Montenegro]]'' (« [[montagne]] [[noir]]e »).
+
+=== {{S|nom propre|sw}} ===
+'''Montenegro''' {{pron||sw}}
+# {{pays|sw|d’Europe}} [[Monténégro]] (pays d’[[Europe]]).
+
+== {{langue|tl}} ==
+=== {{S|étymologie}} ===
+: {{date|lang=tl}} Du vénitien ''[[Montenegro#vec|Montenegro]]'' (« [[montagne]] [[noir]]e »).
+
+=== {{S|nom propre|tl}} ===
+'''Montenegro''' {{pron||tl}}
+# {{pays|tl|d’Europe}} [[Monténégro]] (pays d’[[Europe]]).
+
+== {{langue|crh}} ==
+=== {{S|étymologie}} ===
+: {{date|lang=crh}} Du vénitien ''[[Montenegro#vec|Montenegro]]'' (« [[montagne]] [[noir]]e »).
+
+=== {{S|nom propre|crh}} ===
+'''Montenegro''' {{pron||crh}}
+# {{pays|crh}} [[Monténégro]] (pays d’[[Europe]]).
+
+== {{langue|vec}} ==
+=== {{S|étymologie}} ===
+: De [[monte#vec|monte]], « montagne » et de [[negro]], « noir ».
+
+=== {{S|nom propre|vec}} ===
+'''Montenegro''' {{pron||vec}}
+# {{pays|vec|d’Europe}} [[Monténégro]] (pays d’[[Europe]]).
+[[Catégorie:Toponymes dont l’origine est une montagne en vénitien]]
+[[Catégorie:Toponymes dont l’origine est une couleur en vénitien]]
+[[Catégorie:Pays d’Europe en bavarois]]
+
+== {{langue|vi}} ==
+=== {{S|étymologie}} ===
+: {{date|lang=vi}} Du vénitien ''[[Montenegro#vec|Montenegro]]'' (« [[montagne]] [[noir]]e »).
+
+=== {{S|nom propre|vi}} ===
+'''Montenegro''' {{pron||vi}}
+# {{pays|vi|d’Europe}} [[Monténégro]] (pays d’[[Europe]]).
+
+== {{langue|war}} ==
+=== {{S|étymologie}} ===
+: {{date|lang=war}} Du vénitien ''[[Montenegro#vec|Montenegro]]'' (« [[montagne]] [[noir]]e »).
+
+=== {{S|nom propre|war}} ===
+'''Montenegro''' {{pron||war}}
+# {{pays|war}} [[Monténégro]] (pays d’[[Europe]]).
+
+== {{langue|wo}} ==
+=== {{S|étymologie}} ===
+: {{date|lang=wo}} Du vénitien ''[[Montenegro#vec|Montenegro]]'' (« [[montagne]] [[noir]]e »).
+
+=== {{S|nom propre|wo}} ===
+'''Montenegro''' {{pron||wo}}
+# {{pays|wo}} [[Monténégro]] (pays d’[[Europe]]).

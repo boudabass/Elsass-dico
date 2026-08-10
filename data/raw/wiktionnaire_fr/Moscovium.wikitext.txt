@@ -1,0 +1,67 @@
+{{voir|moscovium}}
+
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw}}
+
+=== {{S|nom|gsw}} ===
+'''Moscovium''' {{pron||gsw}} {{genre|gsw}}
+# {{éléments|gsw}} [[moscovium#fr|Moscovium]].
+{{clr}}
+
+==== {{S|vocabulaire}} ====
+{{tableau périodique/gsw}}
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|de}}
+
+=== {{S|nom|de}} ===
+{{légende élément/de|Mc}}
+'''Moscovium''' {{pron|mɔsˈkoːvi̯ʊm|de}} {{genre|de}}
+# {{éléments|de}} [[moscovium#fr|Moscovium]].
+{{clr}}
+
+==== {{S|synonymes}} ====
+* {{lien|Ununpentium|de}}
+* {{lien|Eka-Bismut|de}}
+
+==== {{S|hyperonymes}} ====
+* {{lien|chemisches Element|de}}
+* {{lien|Transactinoid|de}}
+* {{lien|Transuran|de}}
+
+==== {{S|vocabulaire}} ====
+* {{voir thésaurus|de|tableau périodique des éléments}}
+{{tableau périodique/de}}
+{{Liste|avant={{lien|Flerovium|de}}<br 
+/>([[Fl]])|après={{lien|Livermorium|de}}<br>([[Lv]])|liste=[[Thésaurus:tableau périodique des éléments/allemand|Éléments chimiques en allemand]]}}
+
+=== {{S|prononciation}} ===
+* {{écouter|Berlin (Allemagne)|mɔsˈkoːvi̯ʊm|lang=de|audio=De-Moscovium.ogg}}
+
+=== {{S|références}} ===
+* {{R:DWDS|Moscovium}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=de}}
+
+== {{langue|lb}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|lb}}
+
+=== {{S|nom|lb}} ===
+{{lb-inv|moskˈoːvi̯um}}
+'''Moscovium''' {{pron|moskˈoːvi̯um|lb}} {{m}}, {{au singulier uniquement|lb}}
+# {{éléments|lb}} [[moscovium#fr|Moscovium]].
+#* {{exemple|lang=lb}}
+{{clr}}
+
+==== {{S|vocabulaire}} ====
+{{tableau périodique/lb}}
+
+=== {{S|références}} ===
+: {{R:LOD}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=lb}}

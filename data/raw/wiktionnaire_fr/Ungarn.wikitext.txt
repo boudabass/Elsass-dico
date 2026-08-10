@@ -1,0 +1,121 @@
+== {{langue|gsw}} ==
+{{ébauche|gsw}}
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw}}
+
+=== {{S|nom propre|gsw}} ===
+'''Ungarn'''
+# [[Hongrie]] (pays européen).
+
+[[Catégorie:Pays en alémanique]]
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|de}}
+
+=== {{S|nom propre|de}} ===
+{{de-nom-propre|genre=n|gs=Ungarns}}
+'''Ungarn''' {{pron|ˈʊŋɡaʁn|de}} {{n}}
+# [[Hongrie]] (pays européen).
+#* {{exemple|Ich komme aus '''Ungarn'''.|lang=de|sens=Je viens de Hongrie.}}
+#* {{exemple|Von Giuliani stammt auch der Spruch, er sei eher Jude als George Soros, dabei ist Giuliani katholischer Enkel italienischer Einwanderer. Soros dagegen hatte in '''Ungarn''' den Holocaust überlebt.|lang=de|sens=Giuliani est également à l’origine de la remarque qu'il était juif plutôt que George Soros, alors que Giuliani est un petit-fils catholique d'immigrés italiens. Soros, quant à lui, avait survécu à l'Holocauste en Hongrie.|source={{périodique|auteur=Peter Burghardt|titre=Vom geachteten Bürgermeister zum Strippenzieher Trumps|journal=Süddeutsche Zeitung|date=19 décembre 2023|texte=https://www.sueddeutsche.de/politik/rudy-giuliani-new-york-trump-gericht-1.6321712}}}}
+
+=== {{S|nom|de|flexion}} ===
+{{de-nom-m-n|ns=Ungar}}
+'''Ungarn''' {{pron|ˈʊŋɡaʁn|de}} {{m}}
+# ''Accusatif pluriel de'' [[Ungar#de|Ungar]].
+# ''Accusatif singulier de'' [[Ungar#de|Ungar]].
+# ''Datif pluriel de'' [[Ungar#de|Ungar]].
+# ''Datif singulier de'' [[Ungar#de|Ungar]].
+# ''Génitif pluriel de'' [[Ungar#de|Ungar]].
+# ''Génitif singulier de'' [[Ungar#de|Ungar]].
+# ''Nominatif pluriel de'' [[Ungar#de|Ungar]].
+
+=== {{S|prononciation}} ===
+* {{pron|ˈʊŋɡaʁn|de}}
+* {{écouter|Berlin|ˈʊŋɡaʁn|lang=de|audio=De-Ungarn.ogg}}
+
+[[Catégorie:Pays d’Europe en allemand]]
+[[Catégorie:Hongrie en allemand|*]]
+
+== {{langue|nds}} ==
+{{ébauche|nds}}
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|nds}}
+
+=== {{S|nom propre|nds}} ===
+'''Ungarn'''
+# [[Hongrie]] (pays européen).
+
+[[Catégorie:Pays d’Europe en bas allemand]]
+
+== {{langue|da}} ==
+{{ébauche|da}}
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|da}}
+
+=== {{S|nom propre|da}} ===
+'''Ungarn'''
+# [[Hongrie]] (pays européen).
+
+[[Catégorie:Pays d’Europe en danois]]
+
+== {{langue|fo}} ==
+{{ébauche|fo}}
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|fo}}
+
+=== {{S|nom propre|fo}} ===
+'''Ungarn'''
+# [[Hongrie]] (pays européen).
+
+[[Catégorie:Pays d’Europe en féroïen]]
+
+== {{langue|lb}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|lb}}
+
+=== {{S|nom propre|lb}} ===
+{{lb-inv|ˈunɡɑʀn|inv_titre=Nom propre}}
+'''Ungarn''' {{pron|ˈunɡɑʀn|lb}} {{n}}
+# {{pays|lb|d’Europe|pays=Hongrie|clé=*}} {{lien|Hongrie|fr}}.
+#* {{exemple|lang=lb}}
+
+==== {{S|gentilés}} ====
+* {{lien|Ungar|lb|sens=Hongrois}}, {{lien|Ungarin|lb|sens=Hongroise}}
+* {{lien|ungaresch|lb|sens=hongrois, hongroise}}
+
+=== {{S|prononciation}} ===
+* {{pron|ˈunɡɑʀn|lb}}
+* {{écouter|lang=lb|Luxembourg|ˈunɡɑʀn|audio=Lb-Ungarn.ogg}}
+
+=== {{S|références}} ===
+: {{R:LOD}}
+
+== {{langue|no}} ==
+{{ébauche|no}}
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|no}}
+
+=== {{S|nom propre|no}} ===
+'''Ungarn'''
+# [[Hongrie]] (pays européen).
+
+[[Catégorie:Pays d’Europe en norvégien]]
+
+== {{langue|nn}} ==
+{{ébauche|nn}}
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|nn}}
+
+=== {{S|nom propre|nn}} ===
+'''Ungarn'''
+# [[Hongrie]] (pays européen).
+
+[[Catégorie:Pays d’Europe en norvégien (nynorsk)]]

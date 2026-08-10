@@ -1,0 +1,22 @@
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw}}
+
+=== {{S|nom propre|gsw}} ===
+'''Vatikanstadt''' {{pron||gsw}}
+# [[Cité du Vatican]] (pays européen).
+
+[[Catégorie:Pays en alémanique]]
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|de}}
+
+=== {{S|nom propre|de}} ===
+'''Vatikanstadt''' {{pron||de}}
+# [[Cité du Vatican]] (pays européen).
+
+
+{{clé de tri}}
+
+[[Catégorie:Pays d’Europe en allemand]]

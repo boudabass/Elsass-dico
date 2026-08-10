@@ -1,0 +1,18 @@
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: Cognat avec l'allemand ''{{lien|griechisch|de}}''.
+
+=== {{S|adjectif|gsw}} ===
+'''griachisch''' {{phon|'ɡ̊r̥iˑəχiʃ|gsw}} ou {{phon|'ɡ̊ʁiˑəχiʃ|gsw}}
+# {{Région mulhousienne|gsw}} [[Grec#fr|Grec]].
+#* {{exemple | lang=gsw
+ | d’ '''griachischa''' Schprooch
+ | la langue grecque}}
+
+==== {{S|apparentés}} ====
+* {{lien|Griach|gsw}} — Grec
+* {{lien|Griachalànd|gsw}} — Grèce
+* {{lien|àltgriachisch|gsw}} — grec ancien
+
+==== {{S|variantes dialectales}} ====
+* {{lien|griechisch|gsw}}

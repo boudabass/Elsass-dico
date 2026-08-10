@@ -1,0 +1,38 @@
+{{voir|jiddisch}}
+
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw}}
+
+=== {{S|nom|gsw}} ===
+'''Jiddisch''' {{pron||gsw}}
+# {{langues|gsw}} {{lexique|judaïsme|gsw}} [[yiddish|Yiddish]].
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: {{substantivation de|jiddisch|type=adjectif|lang=de|sens=[[yiddisch]] » / « [[yiddish]] » / « [[yidiche]]|m=1}}.
+
+=== {{S|nom|de}} ===
+{{de-nom-langue}}
+'''Jiddisch''' {{pron|ˈjɪdɪʃ|de}} {{n}} {{au singulier uniquement|de}}
+# {{langues|de}} {{lexique|judaïsme|de}} [[yiddish|Yiddish]] / [[yiddisch]] / [[yidiche]] (langue). 
+#* {{exemple | lang=de
+ | Zu Beginn des 20. Jahrhunderts sprachen zwölf Millionen aschkenasischen Juden in Mitteleuropa '''Jiddisch'''.
+ | Au début du XX{{e}} siècle, douze millions de Juifs ashkénazes d’Europe centrale parlaient le yiddish.}}
+
+==== {{S|apparentés}} ====
+* {{l|jiddisch|de|sens=[[yidiche]] » / « [[yiddisch]] » / « [[yiddish]]}} – ''(relatif à cette langue / culture)''
+
+==== {{S|holonymes}} ====
+* {{l|Germanisch|de|sens=[[germanique]]}} – ''(origine principale)''
+
+=== {{S|prononciation}} ===
+* {{écouter|Allemagne (Münster)|ˈjɪdɪʃ|de|audio=De-Jiddisch.ogg}}
+* {{écouter|Allemagne (Berlin)|ˈjɪdɪʃ|de|audio=De-Jiddisch2.ogg}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=de}}
+
+=== {{S|références}} ===
+* {{R:DWDS|Jiddisch}}
+* {{R:Duden|Jiddisch}}

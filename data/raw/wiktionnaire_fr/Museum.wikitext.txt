@@ -1,0 +1,115 @@
+{{voir/museum}}
+
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|gsw|mot=Museum}}, lui-même issu du {{étyl|grc|gsw|Μουσεῖον|Mouseîon}}.
+
+=== {{S|nom|gsw}} ===
+'''Museum''' {{pron||gsw}}
+# {{lexique|muséologie|gsw}} [[musée|Musée]].
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|de|mot=Museum}}, lui-même issu du {{étyl|grc|de|Μουσεῖον|Mouseîon}}.{{R|DWDS|Museum}}
+
+=== {{S|nom|de}} ===
+{{de-nom-n|npx=Museen}}
+'''Museum''' {{pron|muˈzeːʊm|de}} {{n}}
+# {{lexique|muséologie|de}} [[musée|Musée]].
+#* {{exemple | lang=de | Ein Besuch des '''Museums''' lohnt sich immer.}}
+
+==== {{S|synonymes}} ====
+* [[Kunsthalle]]
+* [[Galerie]]
+
+==== {{S|dérivés}} ====
+{{(}}
+* [[Architekturmuseum]]
+* [[Automuseum]]
+* [[Bauernhofmuseum]] (''musée agricole'')
+* [[Bergbaumuseum]]
+* [[Bergmuseum]]
+* [[Dorfmuseum]] (''musée de village'')
+* [[Erlebnismuseum]] 
+* [[Freilandmuseum]] (''musée en plein air'')
+* [[Freilichtmuseum]] (''musée en plein air'')
+* [[Freiluftmuseum]] (''musée en plein air'')
+* [[Gebirgsmuseum]]
+* [[Grenzmuseum]]
+* [[Jagdmuseum]] (''musée de la chasse'')
+* [[Heimatmuseum]]
+* [[jüdisches Museum]]
+* [[Karikaturmuseum]] (''musée des caricatures'')
+* [[Kartenmuseum]]
+* [[Kindermuseum]]
+* [[Kunstmuseum]] (''musée d'art'')
+* [[Meeresmuseum]] (''musée maritime'')
+* [[Motorradmuseum]] (''musée de la moto'')
+* [[museal]] (''muséal(e)'')
+* [[Museologe]]
+* [[Museologie]] (''muséologie'')
+* [[Museumdorf]] (''village-musée'')
+* [[Museumsaufseher]], [[Museumsaufseherin]]
+* [[Museumsbau]]
+* [[Museumsbund]]
+* [[Museumsdiener]], [[Museumsdienerin]]
+* [[Museumsdirektor]] (''directeur de musée''), [[Museumsdirektorin]] (''directrice de musée'')
+* [[Museumsführer]], [[Museumsführerin]]
+* [[Museumskatalog]]
+* [[Museumskunde]]
+* [[museumsreif]]
+* [[Museumsschiff]] (''navire-musée'')
+* [[Museumsstück]]
+* [[Museumswärter]], [[Museumswärterin]]
+* [[Nationalmuseum]] (''musée national'')
+* [[Naturkundemuseum]]
+* [[Oldtimermuseum]] (''musée des voitures anciennes'')
+* [[Puppenmuseum]] (''musée de poupées'')
+* [[Stadtmuseum]] (''musée communal'')
+* [[Technikmuseum]] (''musée des techniques'')
+* [[Töpfermuseum]] (''musée de la poterie'')
+* [[Urgeschichtemuseum]]
+* [[Webmuseum]]
+* [[Zweiradmuseum]] (''musée du deux-roues'')
+{{)}}
+
+==== {{S|phrases}} ====
+* [[hinten Lyzeum, vorne Museum]]
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=de|Berlin|muˈzeːʊm|audio=De-Museum2.ogg}}
+* {{écouter|lang=de|{{DE|nocat=1}}|muˈzeːʊm|audio=De-Museum.ogg}}
+* {{écouter|{{AT|nocat=1}}|muˈzeːʊm|lang=de|audio=De-at-Museum.ogg}}
+
+[[Catégorie:Édifices en allemand]]
+
+== {{langue|bar}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|bar|mot=Museum}}, lui-même issu du {{étyl|grc|bar|Μουσεῖον|Mouseîon}}.
+
+=== {{S|nom|bar}} ===
+'''Museum''' {{pron||bar}}
+# {{lexique|muséologie|bar}} [[musée|Musée]].
+
+== {{langue|la}} ==
+=== {{S|étymologie}} ===
+:Du {{étyl|grc|la|mot=Μουσεῖον|tr=Mouseíon}}.
+
+=== {{S|nom|la}} ===
+{{la-tab-2n|Muse}}
+'''Mūsēum''' {{pron||la}} {{n}}
+# [[lieu|Lieu]] consacré aux [[Muse]]s, à l’art : [[musée]], [[galerie]], [[académie]], [[salle d’étude]], etc.
+#* {{exemple|lang=la}}
+#*:
+
+==== {{S|variantes}} ====
+* [[Musaeum#la|Musaeum]], [[Musium#la|Mūsīum]]
+
+==== {{S|apparentés}} ====
+* [[Musa#la|Musa]]
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=la}}
+
+=== {{S|références}} ===
+* {{R:Gaffiot}}

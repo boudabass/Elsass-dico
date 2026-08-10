@@ -1,0 +1,85 @@
+== {{langue|gsw}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|gsw|mot=Schwaben}}.
+
+=== {{S|nom propre|gsw}} ===
+'''Schwaben''' {{pron||gsw}}
+# {{régions|gsw|d’Allemagne}} {{lien|Souabe|fr}}.
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: De ''{{lien|Schwabe|de}}''.
+
+=== {{S|nom propre|de}} ===
+{{de-nom-propre|genre=n|gs=Schwabens}}
+'''Schwaben''' {{pron|ʃvaːbn̩|de}}
+# {{régions|de|d’Allemagne}} {{lien|Souabe|fr}}.
+#* {{exemple|Im weiteren Tagesverlauf zieht der Regen (...) ostwärts, von Unterfranken bis nach '''Schwaben''' können demnach Schauer und örtliche Gewitter aufziehen.|lang=de|sens=En cours de journée, la pluie (...) se déplacera vers l’est, de la Basse-Franconie à la Souabe, des averses et des orages locaux pourront donc éclater.|source={{périodique|auteur=(SZ/dpa)|titre=Heftige Unwetter über Bayern - Stromausfall in Augsburg|journal=Süddeutsche Zeitung|date=27 mai 2024|texte=https://www.sueddeutsche.de/bayern/bayern-unwetter-warnung-gewitter-hagel-sturzflut-1.7422256}}}}
+
+==== {{S|gentilés}} ====
+* {{lien|Schwabe|de}}
+* {{lien|schwäbisch|de}}
+
+==== {{S|dérivés}} ====
+* {{lien|Neu-Schwaben-land|de}}
+
+==== {{S|hyperonymes}} ====
+* {{lien|Landschaft|de}}
+
+=== {{S|nom|de|flexion}} ===
+{{de-nom-m-n|ns=Schwabe}}
+'''Schwaben''' {{pron|ˈʃvaːbn̩|de}} {{m}}
+# ''Accusatif pluriel de'' {{lien|Schwabe|de}}.
+# ''Accusatif singulier de'' {{lien|Schwabe|de}}.
+# ''Datif pluriel de'' {{lien|Schwabe|de}}.
+# ''Datif singulier de'' {{lien|Schwabe|de}}.
+# ''Génitif pluriel de'' {{lien|Schwabe|de}}.
+# ''Génitif singulier de'' {{lien|Schwabe|de}}.
+# ''Nominatif pluriel de'' {{lien|Schwabe|de}}.
+
+=== {{S|prononciation}} ===
+* {{écouter|Berlin (Allemagne)|ˈʃvaːbn̩|lang=de|audio=De-Schwaben.ogg}}
+
+=== {{S|références}} ===
+* {{R:DWDS|Schwaben}}
+* {{R:Duden|Schwaben}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=de}}
+
+== {{langue|da}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|da|mot=Schwaben}}.
+
+=== {{S|nom propre|da}} ===
+'''Schwaben''' {{pron||da}}
+# {{régions|da|d’Allemagne}} {{lien|Souabe|fr}}.
+
+== {{langue|fi}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|fi|mot=Schwaben}}.
+
+=== {{S|nom propre|fi}} ===
+'''Schwaben''' {{pron||fi}}
+# {{régions|fi|d’Allemagne}} {{lien|Souabe|fr}}.
+
+== {{langue|no}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|no|mot=Schwaben}}.
+
+=== {{S|nom propre|no}} ===
+'''Schwaben''' {{pron||no}}
+# {{régions|no|d’Allemagne}} {{lien|Souabe|fr}}.
+
+== {{langue|sv}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|sv|mot=Schwaben}}.
+
+=== {{S|nom propre|sv}} ===
+'''Schwaben''' {{pron||sv}}
+# {{régions|sv|d’Allemagne}} {{lien|Souabe|fr}}.

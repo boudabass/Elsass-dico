@@ -1,0 +1,83 @@
+{{voir/magnesium}}
+
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw}}
+
+=== {{S|nom|gsw}} ===
+'''Magnesium''' {{pron||gsw}}
+# {{éléments|gsw}} {{métaux|gsw}} [[magnésium|Magnésium]].
+{{clr}}
+
+==== {{S|vocabulaire}} ====
+{{tableau périodique/gsw}}
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|de}}
+
+=== {{S|nom|de}} ===
+{{de-nom-n-s-e|sing=oui}}
+{{légende élément/de|Mg}}
+[[Image:Magnesium_crystals.jpg|thumb|'''Magnesium'''.]]
+'''Magnesium''' {{pron|maɡˈneːzi̯ʊm|de}} {{n}}
+# {{éléments|de}} {{métaux|de}} [[magnésium#fr|Magnésium]] ({{lien|élément chimique}} [[Mg#conv|Mg]]).
+{{clr}}
+#* {{exemple|In Kichererbsen sind außerdem viele wichtige Nährstoffe enthalten. Die Vitamine B1 und B2 sind in der Kichererbse genauso zu finden wie Mangan, Folsäure, Kalium, '''Magnesium''' und Kalzium - dazu noch Zink, Kupfer und Eisen.|lang=de|sens=Les pois chiches contiennent également de nombreux nutriments importants. On peut trouver les vitamines B1 et B2 dans le pois chiche ainsi que du manganèse, de l’acide folique, du potassium, du magnésium et du calcium, ainsi que du zinc, du cuivre et du fer.|source={{périodique|auteur=Christiane Stauss|titre=Kichererbsen: Halten den Darm gesund, machen satt und schlank|journal=ARD1 Gesund|date=11 juillet 2025|texte=https://www.ndr.de/ratgeber/gesundheit/Kichererbsen-Halten-den-Darm-gesund-machen-satt-und-schlank,kichererbsen126.html}}}}
+
+==== {{S|dérivés}} ====
+{{(|}}
+* {{lien|Magnesiumchlorid|de}}
+* {{lien|Magnesiumfackel|de}}
+* {{lien|Magnesiumlegierung|de}}
+* {{lien|Magnesiumlicht|de}}
+* {{lien|Magnesiumoxid|de}}
+* {{lien|Magnesiumsulfat|de}}
+* {{lien|Magnesiumverbindung|de}}
+{{)}}
+
+==== {{S|vocabulaire}} ====
+* {{voir thésaurus|de|tableau périodique des éléments}}
+{{tableau périodique/de}}
+{{Liste|avant={{lien|Natrium|de}} ou {{lien|Sodium|de}}<br>([[Na#conv|Na]])|après={{lien|Aluminium|de}}<br>([[Al#conv|Al]])|liste=[[Thésaurus:tableau périodique des éléments/allemand|Éléments chimiques en allemand]]}}
+
+==== {{S|hyperonymes}} ====
+* {{lien|Erdalkalimetall|de}}
+* {{lien|chemisches Element|de}}
+
+=== {{S|prononciation}} ===
+* {{pron|maɡˈneːzi̯ʊm|de}}
+* {{écouter|Berlin (Allemagne)|maˈɡneːzi̯ʊm|lang=de|audio=De-Magnesium.ogg}}
+* {{écouter|Vienne (Autriche)|maˈɡneːzi̯ʊm|lang=de|audio=De-at-Magnesium.ogg}}
+* {{écouter|{{DE|nocat=1}}|maˈɡneːzi̯ʊm|lang=de|audio=LL-Q188 (deu)-Lucas Werkmeister-Magnesium.wav}}
+* {{écouter|Berlin (Allemagne)|maˈɡneːzi̯ʊm|lang=de|audio=LL-Q188 (deu)-Sebastian Wallroth-Magnesium.wav}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=de}}
+
+=== {{S|références}} ===
+* {{R:DWDS|Magnesium}}
+* {{R:Duden|Magnesium}}
+
+== {{langue|lb}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|lb}}
+
+=== {{S|nom|lb}} ===
+{{lb-inv|mɑɡnˈeːzi̯um}}
+'''Magnesium''' {{pron|mɑɡnˈeːzi̯um|lb}} {{m}}, {{au singulier uniquement|lb}}
+# {{éléments|lb}} {{métaux|lb}} [[magnésium#fr|Magnésium]].
+#* {{exemple|lang=lb}}
+{{clr}}
+
+==== {{S|vocabulaire}} ====
+{{tableau périodique/lb}}
+
+=== {{S|prononciation}} ===
+* {{écouter|Angers (France)||niveau=bon|lang=lb|audio=LL-Q9051 (ltz)-Procrastineur49-Magnesium.wav}}
+
+=== {{S|références}} ===
+: {{R:LOD}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=lb}}

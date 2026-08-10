@@ -1,0 +1,34 @@
+{{voir/manati}}
+
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw}}
+
+=== {{S|nom|gsw}} ===
+'''Manati''' {{pron||gsw}}
+# [[lamantin|Lamantin]] (animal aquatique).
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|de}}
+
+=== {{S|nom|de}} ===
+'''Manati''' {{pron||de}} {{m}}
+# {{animaux|de}} [[lamantin|Lamantin]] (animal aquatique).
+
+==== {{S|synonymes}} ====
+* [[Rundschwanzseekuh]]
+
+==== {{S|dérivés}} ====
+* [[Karibik-Manati]]
+
+=== {{S|prononciation}} ===
+* {{écouter|Brême (Allemagne)||lang=de|audio=LL-Q188 (deu)-Lucy Fermented-Manati.wav}}
+
+== {{langue|lb}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|lb}}
+
+=== {{S|nom|lb}} ===
+'''Manati''' {{pron||lb}}
+# [[lamantin|Lamantin]] (animal aquatique).

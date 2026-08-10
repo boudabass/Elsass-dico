@@ -1,0 +1,49 @@
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw}}
+
+=== {{S|nom|gsw}} ===
+'''Wismut''' {{pron||gsw}} {{genre|gsw}}
+# {{éléments|gsw}} {{métaux|gsw}} [[bismuth#fr|Bismuth]].
+{{clr}}
+==== {{S|vocabulaire}} ====
+{{tableau périodique/gsw}}
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: {{siècle|XV|lang=de}} Étymologie incertaine, anciennement dérivé à partir du la première [[mine]] de [[bismuth]] (St. Georgen in der Wiesen dans les [[monts Métallifères]]) et de {{l|''muten''|de}}, dans le sens de « demander un permis d’extraction » ; selon les travaux modernes, plus probablement dérivé de l’arabe {{étyl|ar|de|إِثْمِد|tr=ithmid|sens=[[antimoine]]}}{{R|DWDS|Wismut}}{{R|DWb|Wismut}}.
+
+=== {{S|nom|de}} ===
+{{de-nom-n-sing|genre=nm|gse=opt|dse=opt}}
+{{légende élément/de|Bi|nom UICPA=Bismut}}
+'''Wismut''' {{pron|ˈvɪsmuːt|de}} {{n}} {{au singulier uniquement|de}}
+# {{éléments|de}} {{métaux|de}} [[bismuth#fr|Bismuth]] (l’{{lien|élément chimique}} [[Bi#conv|Bi]]).
+#* {{exemple | lang=de
+| '''Wismut''' findet Verwendung als Legierungsbestandtteil niedrigschmelzender Legierungen, beispielsweise für das Woodsche Metall, das bereits bei 70 °C schmilzt.
+| Le bismuth entre dans la composition d’alliages à bas point de fusion, par exemple le métal de Wood, qui fond à 70 °C déjà.}}
+
+==== {{S|variantes}} ====
+* {{lien|Bismut|de}} ''(nom scientifique standard en allemand)''
+* {{lien|Bismutum|de}}
+* {{lien|Wismuth|de}} {{désuet|nocat=1}}
+
+==== {{S|vocabulaire}} ====
+{{(|Alliages}}
+* {{l|Blei-Bismut-Eutektikum|de|sens=[[eutectique plomb-bismuth]]}}
+* {{l|Fieldsches Metall|de|sens=[[métal de Field]]}}
+* {{l|Woodsches Metall|de}}, {{l|Woodmetall|de|sens=[[métal de Wood]]}}
+{{)}}
+
+{{tableau périodique/de}}
+{{Liste|avant={{lien|Blei|de}}<br>([[Pb#conv|Pb]])|après={{lien|Polonium|de}}<br>([[Po#conv|Po]])|liste=[[Thésaurus:tableau périodique des éléments/allemand|Éléments chimiques en allemand]]}}
+
+=== {{S|prononciation}} ===
+* {{pron|ˈvɪsmuːt|de}}
+
+=== {{S|voir aussi}} ===
+* {{WP|Bismut|lang=de}}
+
+=== {{S|références}} ===
+{{références}}
+* {{R:Duden|Wismut}}
+* {{Source-wikt|de|Wismut}}

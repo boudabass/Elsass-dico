@@ -1,0 +1,27 @@
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw}}
+
+=== {{S|nom|gsw}} ===
+'''Erster Weltkrieg''' {{pron||gsw}} 
+# {{lexique|histoire|gsw}} [[Première Guerre mondiale|Première Guerre mondiale]].
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: {{composé de|lang=de|m=1|erste|Weltkrieg}}.
+
+=== {{S|nom propre|de}} ===
+{{de-nom|genre=m|sing=oui
+|ns= Erste Weltkrieg
+|as= Ersten Weltkrieg
+|gs= Ersten Weltkriegs |gs2= Ersten Weltkrieges 
+|ds= Ersten Weltkrieg |ds2= Ersten Weltkriege}}
+'''Erster Weltkrieg''' {{m}} {{de-déclinaison adjectivale}}
+# {{lexique|histoire|de}} [[Première Guerre mondiale]].
+#* {{exemple | lang=de | Der '''Erste Weltkrieg''' begann am 28. Juli 1914 mit der Kriegserklärung Österreich-Ungarns an Serbien.}}
+
+==== {{S|hyperonymes}} ====
+* [[Krieg]] (1)
+
+=== {{S|prononciation}} ===
+* {{écouter|||lang=de|audio=De-Erster Weltkrieg.ogg}}

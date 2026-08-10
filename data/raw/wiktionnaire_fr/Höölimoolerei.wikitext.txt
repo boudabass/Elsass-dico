@@ -1,0 +1,10 @@
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: {{composé de|m=1|lang=gsw|Hööl|Moolerei}}.
+
+=== {{S|nom|gsw}} ===
+'''Höölimoolerei''' {{pron||gsw}}
+# {{lexique|archéologie|art|gsw}} [[art pariétal#fr|Art pariétal]].
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=gsw}}

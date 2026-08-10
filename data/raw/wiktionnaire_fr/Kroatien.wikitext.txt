@@ -1,0 +1,106 @@
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: Dérivé du mot croate [[Hrvatska]].
+
+=== {{S|nom propre|gsw}} ===
+'''Kroatien'''
+# [[Croatie]] (pays d’[[Europe]]).
+
+[[Catégorie:Pays en alémanique]]
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: Dérivé du mot croate [[Hrvatska]].
+
+=== {{S|nom propre|de}} ===
+{{de-nom-propre|genre=n|gs=Kroatiens}}
+'''Kroatien''' {{pron|kʁoˈaːt͡si̯ən|de}}
+# [[Croatie]] (pays d’[[Europe]]).
+#* {{exemple|Wenn wir nach '''Kroatien''' mit dem Auto fahren, dann müssen wir uns am Steuer gegenseitig abwechseln.|lang=de|sens=Quand nous allons en Croatie en voiture, nous devons nous relayer au volant.}}
+
+==== {{S|dérivés}} ====
+* [[Kroatin]]
+* [[Kroate]]
+* [[kroatisch]]
+
+==== {{S|hyperonymes}} ====
+* [[Balkan]]
+* [[Staat]]
+* [[Land]]
+
+=== {{S|prononciation}} ===
+* {{écouter|Berlin|kʁoˈaːt͡si̯ən|lang=de|audio=De-Kroatien.ogg}}
+
+[[Catégorie:Pays d’Europe en allemand]]
+[[Catégorie:Croatie en allemand|*]]
+
+== {{langue|nds}} ==
+=== {{S|étymologie}} ===
+: Dérivé du mot croate [[Hrvatska]].
+
+=== {{S|nom propre|nds}} ===
+'''Kroatien'''
+# [[Croatie]] (pays d’[[Europe]]).
+
+[[Catégorie:Pays d’Europe en bas allemand]]
+
+== {{langue|da}} ==
+=== {{S|étymologie}} ===
+: Dérivé du mot croate [[Hrvatska]].
+
+=== {{S|nom propre|da}} ===
+'''Kroatien'''
+# [[Croatie]] (pays d’[[Europe]]).
+
+[[Catégorie:Pays d’Europe en danois]]
+[[Catégorie:Croatie en danois|*]]
+
+== {{langue|lb}} ==
+=== {{S|étymologie}} ===
+: Du {{étylp|latin médiéval|lb|Croatia}}.
+
+=== {{S|nom propre|lb}} ===
+{{lb-inv-en|pron=kʀoˈaːtsiən|inv_titre=Nom propre}}
+'''Kroatien''' {{pron|kʀoˈaːtsiən|lb}} {{n}}
+# {{pays|lb|d’Europe|pays=Croatie}} {{lien|Croatie|fr}}.
+#* {{exemple|lang=lb
+ | Ma dem Dario Maric, deen a Kroatie gebuer ass an an der BGL-Ligue fir Déifferdeng, Gréiwemaacher a Péiteng um Terrain stoung no, wäert '''Kroatien''' awer alles dofir ginn, den Turnéier op der 3.
+ | Selon moi, Dario Maric, qui est né en Croatie et qui a joué en BGL Ligue pour Differdange, Grevenmacher et Pétange, donnera tout pour la Croatie afin de terminer le tournoi à la {{3e}} place.
+ | lien = https://www.rtl.lu/sport/news/senn-an-onsenn-vun-der-klenger-finall-em-plaz-3-2005942
+ | source = Franky Hippert, « Sënn an Onsënn vun der klenger Finall ëm Plaz 3 », RTL, 17 décembre 2022.}}
+
+==== {{S|notes}} ====
+* {{lb-n|np=oui}}
+
+==== {{S|gentilés}} ====
+* {{lien|Kroat|lb}}, {{lien|Kroatin|lb}}
+* {{lien|kroatesch|lb}}
+
+=== {{S|voir aussi}} ===
+{{liste projets|lb|Q224}}
+
+=== {{S|références}} ===
+: {{R:LOD}}
+
+== {{langue|sv}} ==
+=== {{S|étymologie}} ===
+: Dérivé du mot croate [[Hrvatska]].
+
+=== {{S|nom propre|sv}} ===
+'''Kroatien'''
+# [[Croatie]] (pays d’[[Europe]]).
+
+==== {{S|dérivés}} ====
+* [[kroatiska]]
+
+=== {{S|prononciation}} ===
+* {{écouter|Suède||lang=sv|audio=LL-Q9027 (swe)-Moonhouse-Kroatien.wav}}
+
+[[Catégorie:Pays d’Europe en suédois]]
+[[Catégorie:Croatie en suédois|*]]
+[[Catégorie:Toponymes dont l’origine est un ethnonyme en allemand]]
+[[Catégorie:Toponymes dont l’origine est un ethnonyme en bas allemand]]
+[[Catégorie:Toponymes dont l’origine est un ethnonyme en alémanique]]
+[[Catégorie:Toponymes dont l’origine est un ethnonyme en danois]]
+[[Catégorie:Toponymes dont l’origine est un ethnonyme en luxembourgeois]]
+[[Catégorie:Toponymes dont l’origine est un ethnonyme en suédois]]

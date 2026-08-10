@@ -1,0 +1,42 @@
+== {{langue|gsw}} ==
+{{ébauche|gsw}}
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw}}
+
+=== {{S|nom|gsw}} ===
+'''Moskauer''' {{pron||gsw}}
+# {{gentilés|gsw|de Russie}} [[Moscovite#fr|Moscovite]], habitant de Moscou.
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|de}}
+
+=== {{S|adjectif|de}} ===
+{{de-adj|comparable=non|déclinable=non}}
+'''Moskauer''' {{pron|ˈmɔskaʊ̯ɐ|de}} {{invar}} (utilisé uniquement comme épithète, sans prédicat)
+# [[moscovite#fr|Moscovite]] (relatif à la ville de [[Moscou]] en [[Russie]]). 
+#* {{exemple | lang=de
+ |Die '''Moskauer''' Straßen sind eigentlich immer verstopft.
+ | Les rues moscovites sont en fait toujours bouchées.}}
+
+==== {{S|synonymes}} ====
+* {{lien|moskowitisch|de}} {{vieilli|nocat}}
+
+=== {{S|nom|de}} ===
+{{de-nom-m-er}}
+'''Moskauer''' {{pron|ˈmɔskaʊ̯ɐ|de}} {{m}} {{équiv-pour|lang=de|une femme|Moskauerin}}
+# {{gentilés|de|de Russie}} [[Moscovite#fr|Moscovite]], habitant de Moscou.
+#* {{exemple | lang=de
+ |Er ist gebürtiger '''Moskauer'''.
+ | Il est Moscovite de naissance.}}
+#* {{exemple | lang=de
+ |Die '''Moskauer''' feierten auf jeden Fall ihre Siege.
+ | Les Moscovites ont dans tous les cas célébré leurs victoires. 
+| source = Theo Sommer, ''1945. Die Biographie eines Jahres'', Rowohlt, Reinbek, 2005, ISBN 3-498-06382-0, page 20.}}
+
+==== {{S|synonymes}} ====
+* {{lien|Moskowiter|de}} {{vieilli|nocat}}
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=de|Berlin|ˈmɔskaʊ̯ɐ|audio=De-Moskauer.ogg}}

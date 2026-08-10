@@ -1,0 +1,50 @@
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw}}
+
+=== {{S|nom propre|gsw}} ===
+'''Makedonien''' {{pron||gsw}}
+# [[Macédoine]] (royaume antique).
+# [[Macédoine]] (pays).
+# [[Macédoine]] (région de Grèce).
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|de}}
+
+=== {{S|nom propre|de}} ===
+'''Makedonien''' {{pron||de}}
+# [[Macédoine]] (royaume antique).
+# [[Macédoine]] (région de Grèce).
+
+== {{langue|nds}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|nds}}
+
+=== {{S|nom propre|nds}} ===
+'''Makedonien''' {{pron||nds}}
+# [[Macédoine]] (pays).
+# [[Macédoine]] (région de Grèce).
+
+== {{langue|da}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|da}}
+
+=== {{S|nom propre|da}} ===
+'''Makedonien''' {{pron||da}}
+# [[Macédoine]] (pays).
+# [[Macédoine]] (région de Grèce).
+
+== {{langue|sv}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|sv}}
+
+=== {{S|nom propre|sv}} ===
+'''Makedonien''' {{pron||sv}}
+# [[Macédoine]] (pays).
+# [[Macédoine]] (région de Grèce).
+
+[[Catégorie:Pays en allemand]]
+[[Catégorie:Pays en bas allemand]]
+[[Catégorie:Pays en danois]]
+[[Catégorie:Pays en suédois]]

@@ -1,0 +1,62 @@
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw}}
+
+=== {{S|nom propre|gsw}} ===
+'''Slowakei'''
+# [[Slovaquie]] (pays européen).
+
+=== {{S|prononciation}} ===
+{{ébauche-pron|gsw}}
+
+[[Catégorie:Pays en alémanique]]
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|de}}
+
+=== {{S|nom propre|de}} ===
+'''Slowakei''' {{pron|ˌsloːvaˑˈkaɪ̯|de}} {{f}}
+# [[Slovaquie]].
+#* {{exemple | lang=de | Wir machen Urlaub in der '''Slowakei.'''}}
+
+=== {{S|prononciation}} ===
+* {{pron|ˌsloːvaˑˈkaɪ̯|de}}
+* {{écouter||ˌsloːvaˑˈkaɪ̯|lang=de|audio=De-Slowakei.ogg}}
+
+
+[[Catégorie:Pays d’Europe en allemand]]
+[[Catégorie:Slovaquie en allemand|*]]
+
+== {{langue|nds}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|nds}}
+
+=== {{S|nom propre|nds}} ===
+'''Slowakei''' {{pron||nds}}
+# [[Slovaquie]] (pays européen).
+
+=== {{S|prononciation}} ===
+{{ébauche-pron|nds}}
+
+[[Catégorie:Pays d’Europe en bas allemand]]
+
+== {{langue|lb}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|lb}}
+
+=== {{S|nom propre|lb}} ===
+{{lb-inv|slovɑkˈɑɪ|inv_titre=Nom propre}}
+'''Slowakei''' {{pron|slovɑkˈɑɪ|lb}} {{f}}
+# {{pays|lb|d’Europe|pays=Slovaquie}} {{lien|Slovaquie|fr}} (pays européen).
+#* {{exemple|lang=lb}}
+
+==== {{S|gentilés}} ====
+* {{lien|Slowak|lb}}, {{lien|Slowakin|lb}}
+* {{lien|slowakesch|lb}}
+
+=== {{S|prononciation}} ===
+{{ébauche-pron|lb}}
+
+=== {{S|références}} ===
+: {{R:LOD}}

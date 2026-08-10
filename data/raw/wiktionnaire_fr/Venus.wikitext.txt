@@ -1,0 +1,501 @@
+{{voir/venus}}
+
+== {{langue|af}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|af|mot=Venus}}.
+
+=== {{S|nom propre|af}} ===
+'''Venus''' {{pron||af}}
+# {{info lex|astronomie}} [[Vénus]].
+#* {{exemple|lang=af}}
+
+[[Catégorie:Planètes en afrikaans]]
+
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|gsw|mot=Venus}}.
+
+=== {{S|nom propre|gsw}} ===
+'''Venus''' {{pron||gsw}}
+# {{info lex|astronomie}} [[Vénus]].
+
+[[Catégorie:Planètes en alémanique]]
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|de|Venus}}.
+
+=== {{S|nom propre|de}} ===
+{{de-nom-propre|genre=f|gs=Venus|gs2=Venus’}}
+'''Venus''' {{pron|ˈveː.nʊs|de}} {{f}}
+# {{divinités|de}} [[Vénus#fr-nom-pr-1|Vénus]].
+# {{info lex|astronomie}} [[Vénus#fr-nom-pr-2|Vénus]].
+#* {{exemple|Mit Beginn der Dämmerung werden die Farben intensiver – Gold-, Orange- und Rosétöne vermischt mit dem tiefen Blau der Nacht. Gleichzeitig steigen die '''Venus''' und der Mond höher in den Himmel auf.|lang=de|sens=Au crépuscule, les couleurs s’intensifient : des nuances dorées, orangées et rosées se mêlent au bleu profond de la nuit. Dans le même temps, Vénus et la Lune s’élèvent dans le ciel.|source={{ouvrage|auteur={{w|Hervé Le Tellier}}|trad=Romy Ritte et Jürgen Ritte|titre=Die Anomalie|année=2021|éditeur=Rowohlt Verlag|lieu=Hamburg|url=}}}}
+#* {{exemple | lang=de | Die Venus wird auch Morgen- bzw. Abendstern genannt.}}
+# {{lexique|art|de}} Vénus.
+
+==== {{S|synonymes}} ====
+''Mythologie'' :
+* {{lien|Aphrodite|de}}
+''Astronomie'' :
+* {{lien|Morgenstern|de}}
+* {{lien|Abendstern|de}}
+
+==== {{S|dérivés}} ====
+''Astronomie'' :
+* {{lien|Venusdurchgang|de}}
+* {{lien|Venushügel|de}}
+* {{lien|Venusbahn|de}}
+* {{lien|Venustransit|de}}
+''Arts'' :
+* {{lien|Venus von Milo|de}}
+
+==== {{S|hyperonymes}} ====
+''Astronomie'' :
+* {{lien|Planet|de}}
+
+=== {{S|prononciation}} ===
+* {{écouter|Berlin (Allemagne)|ˈveːnʊs|lang=de|audio=LL-Q188 (deu)-Sebastian Wallroth-Venus.wav}}
+* {{écouter|Berlin (Allemagne)|ˈveːnʊs|lang=de|audio=De-Venus2.ogg}}
+* {{écouter|Pays-Bas|ˈveːnʊs|lang=de|audio=De-Venus.ogg}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=de}}
+
+=== {{S|références}} ===
+* {{R:DWDS|Venus}}
+
+[[Catégorie:Planètes en allemand]]
+
+== {{langue|en}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|en|mot=Venus}}.
+
+=== {{S|nom propre|en}} ===
+[[Fichier:Venus with the Apple J1.jpg|thumb|'''Venus''' with the Apple (1).]]
+'''Venus''' {{pron||en}}
+# {{info lex|mythologie}} {{lien|Vénus|fr|nom-pr-1}}.
+# {{info lex|astronomie}} {{lien|Vénus|fr|nom-pr-2}}.
+{{Liste|avant=[[Mercury]]|après=[[Earth]]|liste=[[:Catégorie:Lexique en anglais de l’astronomie|Planètes principales]]}}
+
+==== {{S|dérivés}} ====
+* {{lien|Venusian|en}}
+
+==== {{S|vocabulaire}} ====
+* {{lien|Cytherean|en}}
+
+=== {{S|prononciation}} ===
+*{{pron|ˈvi.nəs|en}} {{US|nocat=1}}
+*{{pron|ˈviː.nəs|en}} {{UK|nocat=1}}
+* {{écouter|lang=en|États-Unis||audio=En-us-Venus.ogg}}
+
+==== {{S|paronymes}} ====
+* {{lien|Venice|en}}
+
+[[Catégorie:Planètes en anglais]]
+[[Catégorie:Divinités romaines en anglais]]
+
+== {{langue|an}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|an|mot=Venus}}.
+
+=== {{S|nom propre|an}} ===
+'''Venus''' {{pron||an}}
+# {{info lex|astronomie}} [[Vénus]].
+
+[[Catégorie:Planètes en aragonais]]
+
+== {{langue|ast}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|ast|mot=Venus}}.
+
+=== {{S|nom propre|ast}} ===
+'''Venus''' {{pron||ast}}
+# {{info lex|astronomie}} [[Vénus]].
+
+[[Catégorie:Planètes en asturien]]
+
+== {{langue|map-bms}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|map-bms|mot=Venus}}.
+
+=== {{S|nom propre|map-bms}} ===
+'''Venus''' {{pron||map-bms}}
+# {{info lex|astronomie}} [[Vénus]].
+
+[[Catégorie:Planètes en banyumasan]]
+
+== {{langue|nds}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|nds|mot=Venus}}.
+
+=== {{S|nom propre|nds}} ===
+'''Venus''' {{pron||nds}}
+# {{info lex|astronomie}} [[Vénus]].
+
+[[Catégorie:Planètes en bas allemand]]
+
+== {{langue|bar}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|bar|mot=Venus}}.
+
+=== {{S|nom propre|bar}} ===
+'''Venus''' {{pron||bar}}
+# {{info lex|astronomie}} [[Vénus]].
+
+[[Catégorie:Planètes en bavarois]]
+
+== {{langue|bcl}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|bcl|mot=Venus}}.
+
+=== {{S|nom propre|bcl}} ===
+'''Venus''' {{pron||bcl}}
+# {{info lex|astronomie}} [[Vénus]].
+
+[[Catégorie:Planètes en bikol central]]
+
+== {{langue|ca}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|ca|mot=Venus}}.
+
+=== {{S|nom propre|ca}} ===
+'''Venus''' {{pron||ca}}
+# {{info lex|astronomie}} [[Vénus]].
+
+=== {{S|prononciation}} ===
+* {{écouter|Barcelone (Espagne)||lang=ca|audio=LL-Q7026 (cat)-Marvives-Venus.wav}}
+
+[[Catégorie:Planètes en catalan]]
+
+== {{langue|da}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|da|mot=Venus}}.
+
+=== {{S|nom propre|da}} ===
+'''Venus''' {{pron||da}}
+# {{info lex|astronomie}} [[Vénus]].
+
+[[Catégorie:Planètes en danois]]
+
+== {{langue|diq}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|diq|mot=Venus}}.
+
+=== {{S|nom propre|diq}} ===
+'''Venus''' {{pron||diq}}
+# {{info lex|astronomie}} [[Vénus]].
+
+[[Catégorie:Planètes en dimli (zazaki du Sud)]]
+
+== {{langue|es}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|es|mot=Venus}}.
+
+=== {{S|nom propre|es}} ===
+'''Venus''' {{pron||es}}
+# {{info lex|astronomie}} [[Vénus]].
+
+[[Catégorie:Planètes en espagnol]]
+
+== {{langue|fo}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|fo|mot=Venus}}.
+
+=== {{S|nom propre|fo}} ===
+'''Venus''' {{pron||fo}}
+# {{info lex|astronomie}} [[Vénus]].
+
+[[Catégorie:Planètes en féroïen]]
+
+== {{langue|fi}} ==
+{{ébauche|fi}}
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|fi}}
+
+=== {{S|nom propre|fi}} ===
+'''Venus''' {{pron|ˈʋe(ː).nus|fi}}
+# {{info lex|astronomie}} {{lexique|religion|fi}} [[Vénus]].
+
+[[Catégorie:Planètes en finnois]]
+
+== {{langue|stq}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|stq|mot=Venus}}.
+
+=== {{S|nom propre|stq}} ===
+'''Venus''' {{pron||stq}}
+# {{info lex|astronomie}} [[Vénus]].
+
+[[Catégorie:Planètes en frison saterlandais]]
+
+== {{langue|gl}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|gl|mot=Venus}}.
+
+=== {{S|nom propre|gl}} ===
+'''Venus''' {{pron||gl}}
+# {{info lex|astronomie}} [[Vénus]].
+
+[[Catégorie:Planètes en galicien]]
+
+== {{langue|ilo}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|ilo|mot=Venus}}.
+
+=== {{S|nom propre|ilo}} ===
+'''Venus''' {{pron||ilo}}
+# {{info lex|astronomie}} [[Vénus]].
+
+[[Catégorie:Planètes en ilocano]]
+
+== {{langue|id}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|id|mot=Venus}}.
+
+=== {{S|nom propre|id}} ===
+'''Venus''' {{pron||id}}
+# {{info lex|astronomie}} [[Vénus]].
+#* {{exemple|lang=id}}
+
+[[Catégorie:Planètes en indonésien]]
+
+== {{langue|ia}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|ia|mot=Venus}}.
+
+=== {{S|nom propre|ia}} ===
+'''Venus''' {{pron|ˈve.nus|ia}}
+# {{lexique|astronomie|ia}} [[Vénus]].
+# {{lexique|mythologie romaine|ia}} [[Vénus#fr|Vénus]]; [[déesse|Déesse]] [[romaine]] de l’[[amour]] et de la [[beauté]], [[équivalente]] à la [[grecque]] [[Aphrodite]].
+
+==== {{S|synonymes}} ====
+* [[Venere]]
+
+==== {{S|hyperonymes}} ====
+* [[planeta]]
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=ia}}
+
+[[Catégorie:Planètes en interlingua]]
+
+== {{langue|ie}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|ie|mot=Venus}}.
+
+=== {{S|nom propre|ie}} ===
+'''Venus''' {{pron||ie}}
+# {{info lex|astronomie}} [[Vénus]].
+
+[[Catégorie:Planètes en interlingue]]
+
+== {{langue|is}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|is}}
+
+=== {{S|prénom|is}} ===
+{{is-décl-prénom|g=Venusar}}
+'''Venus''' {{pron||is}} {{f}}
+# [[prénom|Prénom]] [[féminin]] [[islandais]].
+
+[[Catégorie:Prénoms féminins en islandais]]
+
+== {{langue|jv}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|jv|mot=Venus}}.
+
+=== {{S|nom propre|jv}} ===
+'''Venus''' {{pron||jv}}
+# {{info lex|astronomie}} [[Vénus]].
+
+[[Catégorie:Planètes en javanais]]
+
+== {{langue|pam}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|pam|mot=Venus}}.
+
+=== {{S|nom propre|pam}} ===
+'''Venus''' {{pron||pam}}
+# {{info lex|astronomie}} [[Vénus]].
+
+[[Catégorie:Planètes en kapampangan]]
+
+== {{langue|rw}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|rw|mot=Venus}}.
+
+=== {{S|nom propre|rw}} ===
+'''Venus''' {{pron||rw}}
+# {{info lex|astronomie}} [[Vénus]].
+
+[[Catégorie:Planètes en kinyarwanda]]
+
+== {{langue|la}} ==
+=== {{S|étymologie}} ===
+: {{antonomase|fr|la|de=venus|m=1}}, de {{lien|''venor''|la|sens=chasser}} ({{cf|Diane}}, déesse de la chasse).
+
+=== {{S|nom propre|la}} ===
+{{la-tab-3i-mf|Venus|Vener}}
+[[Fichier:Venus Arles.jpg|thumb]]
+'''Venus''' {{pron||la}} {{f}}
+# {{lexique|religion|la}} [[Vénus]], [[déesse]] de l’[[amour]], de la [[séduction]], de la [[beauté]].
+#*{{exemple|lang=la|quo ex genere [[Cupido|Cupidinis]] et [[voluptas#la|Voluptatis]] et [[Lubentina]]e [[Venus|Veneris]] vocabula consecrata sunt.|source=Cicéron, ''{{ws|De natura deorum/Liber II|lang=la|De natura deorum}}'', II, 61}}
+#* {{au pluriel}} {{exemple|lang=la|[[lugeo#la|lugete]], o '''Veneres''' [[Cupidines]][[-que#la|que]].|source=Catulle, ''{{ws|Carmina (Catullus)/3|lang=la|Chants}}''|pleurez, Vénus et Amours !}}
+
+==== {{S|dérivés autres langues}} ====
+* {{L|en}} : {{lien|Venus|en}}
+* {{L|es}} : {{lien|Venus|es}}
+* {{L|fr}} : {{lien|Vénus|fr}}
+* {{L|el}} : {{lien|Βένους|el}}
+
+=== {{S|nom|la}} ===
+{{la-tab-3i-mf|Venus|Vener}}
+# {{absolument}} [[amour|Amour]], être aimé.
+#*{{exemple|lang=la|mea '''Venus'''.|source=Virgile|mon amour, ma beauté.}}
+# {{info lex|astronomie}} Planète Vénus.
+
+==== {{S|dérivés autres langues}} ====
+* {{L|en}} : {{lien|Venus|en}}
+* {{L|es}} : {{lien|Venus|es}}
+* {{L|fr}} : {{lien|Vénus|fr}}
+* {{L|el}} : {{lien|Βένους|el}}
+
+=== {{S|prononciation}} ===
+*{{pron|ˈu̯e.nus|la}}, {{phon|ˈu̯ɛnʊs̠|la}} {{term|classique}}
+*{{pron|ˈve.nus|la}}, {{phon|ˈvɛːnus|la}} {{term|ecclésiastique}}
+
+=== {{S|références}} ===
+* {{R:Gaffiot}}
+* {{R:L&S}}
+
+[[Catégorie:Planètes en latin]]
+
+== {{langue|li}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|li|mot=Venus}}.
+
+=== {{S|nom propre|li}} ===
+'''Venus''' {{pron||li}}
+# {{info lex|astronomie}} [[Vénus]].
+
+[[Catégorie:Planètes en limbourgeois]]
+
+== {{langue|jbo}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|jbo|mot=Venus}}.
+
+=== {{S|nom propre|jbo}} ===
+'''Venus''' {{pron||jbo}}
+# {{info lex|astronomie}} [[Vénus]].
+
+[[Catégorie:Planètes en lojban]]
+
+== {{langue|lb}} ==
+=== {{S|étymologie}} ===
+: Du {{étylp|la|lb|Venus}}.
+
+=== {{S|nom propre|lb}} ===
+{{lb-inv|}}
+'''Venus''' {{pron||lb}}
+# {{divinités|lb|romaines}} {{lien|Vénus|fr|nom-pr-1}}.
+#* {{exemple|lang=lb}}
+# {{planètes|lb}} {{lien|Vénus|fr|nom-pr-2}}.
+#* {{exemple|lang=lb}}
+
+==== {{S|vocabulaire}} ====
+{{tableau-planètes du Système solaire/lb}}
+
+=== {{S|références}} ===
+: {{R:LOD}}
+
+== {{langue|mg}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|mg|mot=Venus}}.
+
+=== {{S|nom propre|mg}} ===
+'''Venus''' {{pron|venus|mg}}
+# {{info lex|astronomie}} [[Vénus]].
+
+[[Catégorie:Planètes en malgache]]
+
+== {{langue|nl}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|nl|mot=Venus}}.
+
+=== {{S|nom propre|nl}} ===
+'''Venus''' {{pron||nl}}
+# {{info lex|astronomie}} [[Vénus]].
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=nl||audio=Nl-Venus.ogg}}
+
+[[Catégorie:Planètes en néerlandais]]
+
+== {{langue|no}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|no|mot=Venus}}.
+
+=== {{S|nom propre|no}} ===
+'''Venus''' {{pron||no}}
+# {{info lex|astronomie}} [[Vénus]].
+
+[[Catégorie:Planètes en norvégien]]
+
+== {{langue|nov}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|nov|mot=Venus}}.
+
+=== {{S|nom propre|nov}} ===
+'''Venus''' {{pron||nov}}
+# {{info lex|astronomie}} [[Vénus]].
+
+[[Catégorie:Planètes en novial]]
+
+== {{langue|rm}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|rm|mot=Venus}}.
+
+=== {{S|nom propre|rm}} ===
+'''Venus''' {{pron||rm}}
+# {{info lex|astronomie}} [[Vénus]].
+
+[[Catégorie:Planètes en romanche]]
+
+== {{langue|ro}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|ro|mot=Venus}}.
+
+=== {{S|nom propre|ro}} ===
+'''Venus''' {{pron||ro}}
+# {{info lex|astronomie}} [[Vénus]].
+==== {{S|vocabulaire}} ====
+* {{voir thésaurus|ro|astronomie}}
+[[Catégorie:Planètes en roumain]]
+
+== {{langue|se}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|se|mot=Venus}}.
+
+=== {{S|nom propre|se}} ===
+'''Venus''' {{phono||se}}
+# {{info lex|astronomie}} [[Vénus]].
+
+[[Catégorie:Planètes en same du Nord]]
+
+== {{langue|sv}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|sv|mot=Venus}}.
+
+=== {{S|nom propre|sv}} ===
+'''Venus''' {{pron||sv}}
+# {{lexique|religion|sv}} [[Vénus]].
+# {{info lex|astronomie}} [[Vénus]].
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=sv|Suède||audio=LL-Q9027 (swe)-Moonhouse-Venus.wav}}
+
+[[Catégorie:Planètes en suédois]]
+[[Catégorie:Divinités romaines en suédois]]
+[[Catégorie:Divinités romaines en latin]]

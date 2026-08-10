@@ -1,0 +1,91 @@
+{{voir|eurasien}}
+
+== {{langue|fr}} ==
+=== {{S|étymologie}} ===
+: {{date|lang=fr}} {{ébauche-étym|fr}}
+
+=== {{S|nom|fr}} ===
+{{fr-rég|ø.ʁa.zjɛ̃}}
+'''Eurasien''' {{pron|ø.ʁa.zjɛ̃|fr}} {{m}} {{équiv-pour|une femme|Eurasienne|lang=fr}}
+# {{info lex|géographie}} [[habitant|Habitant]] de l’[[Eurasie]].
+# {{info lex|géographie}} Personne d’origine [[européen]]ne et [[asiatique]]. 
+
+==== {{S|notes}} ====
+: {{note-gentilé|fr}}
+
+==== {{S|traductions}} ====
+{{trad-début}}
+* {{T|en}} : {{trad+|en|Eurasian}}
+* {{T|es}} : {{trad-|es|euroasiático}} ; {{trad-|es|eurasiático}}
+* {{T|eo}} : {{trad-|eo|eŭraziano}}
+{{trad-fin}}
+
+=== {{S|prononciation}} ===
+* {{pron|ø.ʁa.zjɛ̃|fr}}
+** {{écouter|lang=fr|Belgique (Brabant wallon)|øʁazjɛ̃|audio=fr-BE-BW--Eurasien.ogg}}
+
+=== {{S|anagrammes}} ===
+{{voir anagrammes|fr}}
+
+== {{langue|gsw}} ==
+{{ébauche|gsw}}
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw}}
+
+=== {{S|nom propre|gsw}} ===
+'''Eurasien''' {{pron||gsw}}
+# {{info lex|géographie}} [[Eurasie]] (masse continentale).
+
+=== {{S|prononciation}} ===
+: {{ébauche-pron|gsw}}
+
+[[Catégorie:Continents en alémanique]]
+
+== {{langue|de}} ==
+{{ébauche|de}}
+=== {{S|étymologie}} ===
+: {{ébauche-étym|de}}
+
+=== {{S|nom propre|de}} ===
+'''Eurasien''' {{pron||de}}
+# {{info lex|géographie}} [[Eurasie]] (masse continentale).
+
+=== {{S|prononciation}} ===
+* {{écouter|||lang=de|audio=De-Eurasien.ogg}}
+
+[[Catégorie:Continents en allemand]]
+
+== {{langue|nds}} ==
+{{ébauche|nds}}
+=== {{S|étymologie}} ===
+: {{ébauche-étym|nds}}
+
+=== {{S|nom propre|nds}} ===
+'''Eurasien''' {{pron||nds}}
+# {{info lex|géographie}} [[Eurasie]] (masse continentale).
+
+[[Catégorie:Continents en bas allemand]]
+
+== {{langue|da}} ==
+{{ébauche|da}}
+=== {{S|étymologie}} ===
+: {{ébauche-étym|da}}
+
+=== {{S|nom propre|da}} ===
+'''Eurasien''' {{pron||da}}
+# {{info lex|géographie}} [[Eurasie]] (masse continentale).
+
+[[Catégorie:Continents en danois]]
+
+== {{langue|sv}} ==
+{{ébauche|sv}}
+=== {{S|étymologie}} ===
+: {{ébauche-étym|sv}}
+
+=== {{S|nom propre|sv}} ===
+'''Eurasien''' {{pron||sv}}
+# {{info lex|géographie}} [[Eurasie]] (masse continentale).
+
+[[Catégorie:Continents en suédois]]
+
+[[Catégorie:Mots-valises désignant des ethnies hybrides en français]]

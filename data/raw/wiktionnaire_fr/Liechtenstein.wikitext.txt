@@ -1,0 +1,890 @@
+== {{langue|fr}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|fr|mot=Liechtenstein}}.
+
+=== {{S|nom propre|fr}} ===
+[[Image:Liechtenstein on the globe (Europe centered).svg|thumb|Localisation du '''Liechtenstein'''.]]
+'''Liechtenstein''' {{pron|liʃ.tən.ʃtajn|liʃ.tən.stajn|fr}} {{m}}
+# {{pays|fr|d’Europe}} Petit [[État]] d’[[Europe]] centrale situé entre la [[Suisse]] et l’[[Autriche]], dont la capitale est [[Vaduz]].
+#* {{exemple | lang=fr
+ | Si l’on exclut le '''Liechtenstein''', niché au cœur des Alpes et où 36 % des habitants pratiquent le ski, c’est son voisin, la Suisse, qui compte la plus grande part de skieurs parmi sa population : 35 % selon l’étude annuelle sur le tourisme de montagne, de Laurent Vanat, consultant spécialiste du secteur.
+ | source=journal ''20 minutes'', édition Paris-IDF, 8 décembre 2023, page 23}}
+
+==== {{S|abréviations}} ====
+* [[LIE]] (norme {{w|ISO 3166-1}} alpha-3)
+
+==== {{S|gentilés}} ====
+* [[Liechtensteinois]], [[Liechtensteinoise]], [[liechtensteinois]]
+
+==== {{S|paronymes}} ====
+* [[Lichtenstein]]
+
+==== {{S|vocabulaire}} ====
+* {{voir thésaurus|fr|Union européenne}}
+
+==== {{S|traductions}} ====
+{{trad-début|Pays d’Europe}}
+* {{T|af}} : {{trad-|af|Liechtenstein}}
+* {{T|sq}} : {{trad+|sq|Lihtenshtajni}}
+* {{T|gsw}} : {{trad|gsw|Liechtenstein}}
+* {{T|de}} : {{trad+|de|Liechtenstein}}
+* {{T|am}} : {{trad-|am|ሊክተንስታይን}}
+* {{T|en}} : {{trad+|en|Liechtenstein}}
+* {{T|ar}} : {{trad-|ar|ليختنشتاين|R={{transliterator|ar|ليختنشتاين}}}}
+* {{T|arz}} : {{trad|arz|ليختنشتاين|R={{transliterator|ar|ليختنشتاين}}}}
+* {{T|an}} : {{trad-|an|Liechtenstein}}
+* {{T|arc}} : {{trad|arc|ܠܝܟܛܢܫܛܝܢ}}
+* {{T|hy}} : {{trad-|hy|Լիխտենշտեյն|tr=Lixtenšteyn}}
+* {{T|ast}} : {{trad+|ast|Liechtenstein}}
+* {{T|az}} : {{trad+|az|Lixtenşteyn}}
+* {{T|nds}} : {{trad+|nds|Liechtensteen}}
+* {{T|nds-nl}} : {{trad|nds-nl|Liechtenstein}}
+* {{T|dsb}} : {{trad|dsb|Liechtensteinska}}
+* {{T|eu}} : {{trad+|eu|Liechtenstein}}
+* {{T|bar}} : {{trad|bar|Liachtnstâ}}
+* {{T|bn}} : {{trad-|bn|লিশ্‌টেনশ্‌টাইন}}
+* {{T|be}} : {{trad-|be|Ліхтэнштэйн|tr=Lichtenštejn}}
+* {{T|be-tarask}} : {{trad|be-tarask|Ліхтэнштэйн|R=Lichtenštejn}}
+* {{T|bs}} : {{trad-|bs|Lihtenštajn}}
+* {{T|br}} : {{trad-|br|Liechtenstein}}
+* {{T|bg}} : {{trad-|bg|Лихтенщайн|tr=Lihtenštajn}}
+* {{T|yue}} : {{trad-|yue|列支敦士登}}
+* {{T|ca}} : {{trad+|ca|Liechtenstein}}
+* {{T|ceb}} : {{trad|ceb|Liechtenstein}}
+* {{T|zh}} : {{trad+|zh|列支敦士登|R=Lièzhīdūnshìdēng}}, {{trad+|zh|列支敦斯登|R=Lièzhīdūnsīdēng}} ''(Taïwan)''
+* {{T|si}} : {{trad-|si|ලීච්ටන්ස්ටෙයින්}}
+* {{T|ko}} : {{trad+|ko|리히텐슈타인|tr=Rihitensyutain}}
+* {{T|kw}} : {{trad-|kw|Liechtenstein}}
+* {{T|ht}} : {{trad|ht|Lichtènstayn}}, {{trad|ht|Lichtennchtayn}}
+* {{T|hr}} : {{trad+|hr|Lihtenštajn}}
+* {{T|da}} : {{trad+|da|Liechtenstein}}
+* {{T|diq}} : {{trad-|diq|Liechtenstein}}
+* {{T|dv}} : {{trad-|dv|ލީޝްތެންސްޓީން}}
+* {{T|es}} : {{trad+|es|Liechtenstein}}
+* {{T|eo}} : {{trad+|eo|Liĥtenŝtejno}}
+* {{T|et}} : {{trad+|et|Liechtenstein}}
+* {{T|ee}} : {{trad|ee|Liechtenstein}}
+* {{T|fi}} : {{trad+|fi|Liechtenstein}}
+* {{T|ksh}} : {{trad|ksh|Lichteschtein}}
+* {{T|frp}} : {{trad|frp|Liechtenstein}}
+* {{T|fur}} : {{trad|fur|Liechtenstein}}
+* {{T|fy}} : {{trad-|fy|Lychtenstein}}
+* {{T|gd}} : {{trad-|gd|Liechtenstein}}
+* {{T|ga}} : {{trad-|ga|Lichtinstéin}}
+* {{T|gl}} : {{trad+|gl|Liechtenstein}}
+* {{T|cy}} : {{trad-|cy|Liechtenstein}}
+* {{T|ka}} : {{trad+|ka|ლიხტენშტაინი|tr=Lixt’enšt’aini}}
+* {{T|el}} : {{trad+|el|Λιχτενστάιν|R=Likhtenstáin}}
+* {{T|hak}} : {{trad|hak|Lie̍t-kî-tûn-sṳ-tên}}
+* {{T|hsb}} : {{trad-|hsb|Liechtenstein}}
+* {{T|haw}} : {{trad|haw|Likenekaina}}
+* {{T|he}} : {{trad+|he|ליכטנשטיין}}
+* {{T|hi}} : {{trad-|hi|लीख़्टेनश्टाइन|R=Līxṭanśṭāin}}
+* {{T|hu}} : {{trad+|hu|Liechtenstein}}
+* {{T|sah}} : {{trad|sah|Лихтенштайн|R=Lixtenštajn}}
+* {{T|io}} : {{trad+|io|Liechtenstein}}
+* {{T|id}} : {{trad+|id|Liechtenstein}}
+* {{T|ia}} : {{trad-|ia|Liechtenstein}}
+* {{T|ie}} : {{trad-|ie|Liechtenstein}}
+* {{T|is}} : {{trad+|is|Liechtenstein}}
+* {{T|it}} : {{trad+|it|Liechtenstein}}
+* {{T|ja}} : {{trad+|ja|リヒテンシュタイン|tr=Rihitenshutain}}
+* {{T|csb}} : {{trad+|csb|Liechtenstein}}
+* {{T|kl}} : {{trad-|kl|Liechtensteini}}
+* {{T|xal}} : {{trad|xal|Лихтенштейн|R=Lixtenštejn}}
+* {{T|kn}} : {{trad-|kn|ಲೀಚ್ಟೆನ್ಸ್ಟೀನ್|tr=Līcṭensṭīn}}
+* {{T|pam}} : {{trad|pam|Liechtenstein}}
+* {{T|kk}} : {{trad+|kk|Лихтенштейн|R=Lïxtenşteyn}}
+* {{T|kv}} : {{trad|kv|Лихтенштейн|R=Lixtenštejn}}
+* {{T|avk}} : {{trad|avk|Liectensteina}}
+* {{T|ku}} : {{trad-|ku|Liechtenstein}}
+* {{T|la}} : {{trad-|la|Lichtenstenum}}
+* {{T|lv}} : {{trad+|lv|Lihtenšteina}}
+* {{T|lij}} : {{trad|lij|Liechtenstein}}
+* {{T|li}} : {{trad-|li|Liechtenstein}}
+* {{T|ln}} : {{trad-|ln|Liechtenstein}}
+* {{T|lt}} : {{trad+|lt|Lichtenšteinas}}
+* {{T|jbo}} : {{trad-|jbo|camrokygu’e}}
+* {{T|lmo}} : {{trad-|lmo|Liechtenstein}}
+* {{T|lb}} : {{trad+|lb|Liechtenstein}}
+* {{T|mk}} : {{trad-|mk|Лихтенштајн|tr=Lihtenštajn}}
+* {{T|ms}} : {{trad+|ms|Liechtenstein}}
+* {{T|ml}} : {{trad-|ml|ലിക്റ്റൻ‌സ്റ്റൈൻ|R=Likṟṟan‌sṟṟain}}
+* {{T|bpy}} : {{trad|bpy|লিষ্টেনষ্টাইন}}
+* {{T|gv}} : {{trad-|gv|Liechtenstein}}
+* {{T|mr}} : {{trad-|mr|लिश्टनस्टाइन|R=Liśṭansṭāin}}
+* {{T|mwl}} : {{trad|mwl|Lhistenstaine}}
+* {{T|mdf}} : {{trad|mdf|Лихтенштайн|R=Lixtenštajn}}
+* {{T|nch}} : {{trad|nch|Liechtenstein}}
+* {{T|na}} : {{trad-|na|Liechtenstein}}
+* {{T|nl}} : {{trad+|nl|Liechtenstein}}
+* {{T|ne}} : {{trad-|ne|लीश्टेनस्टाईन|R=Līśṭansṭāīn}}
+* {{T|no}} : {{trad+|no|Liechtenstein}}
+* {{T|nn}} : {{trad+|no|Liechtenstein}}
+* {{T|nov}} : {{trad|nov|Liechtenstein}}
+* {{T|oc}} : {{trad+|oc|Liechtenstein}}
+* {{T|os}} : {{trad|os|Лихтенштейн|R=Lixtenštejn}}
+* {{T|udm}} : {{trad|udm|Лихтенштейн|R=Lixtenštejn}}
+* {{T|ug}} : {{trad-|ug|Lixténshtéyn}}
+* {{T|ur}} : {{trad-|ur|لیختینستائن}}
+* {{T|uz}} : {{trad+|uz|Lixtenshteyn}}
+* {{T|ps}} : {{trad-|ps|لېختېنستاين}}
+* {{T|pdc}} : {{trad|pdc|Liechtenstein}}
+* {{T|fa}} : {{trad-|fa|لیختن‌اشتاین}}
+* {{T|pms}} : {{trad|pms|Liechtenstein}}
+* {{T|pih}} : {{trad|pih|Liktenstiin}}
+* {{T|pl}} : {{trad+|pl|Liechtenstein}}
+* {{T|pnt}} : {{trad|pnt|Λιχτενστάιν|R=Lichtenstáin}}
+* {{T|pt}} : {{trad+|pt|Liechtenstein}}
+* {{T|qu}} : {{trad-|qu|Liechtenstein}}
+* {{T|rm}} : {{trad-|rm|Liechtenstein}}
+* {{T|ro}} : {{trad+|ro|Liechtenstein}}
+* {{T|ru}} : {{trad+|ru|Лихтенштейн|tr=Lihtenštejn}}
+* {{T|se}} : {{trad|se|Liechtenstein}}
+* {{T|sgs}} : {{trad|sgs|Lichtenštėins}}
+* {{T|sa}} : {{trad-|sa|लिक्टनस्टैन|R=Likṭanastaina}}
+* {{T|sco}} : {{trad|sco|Liechtenstein}}
+* {{T|sr}} : {{trad+|sr|Лихтенштајн|R=Lihtenštajn}}
+* {{T|sh}} : {{trad+|sh|Lihtenštajn|tradi=Лихтенштајн}}
+* {{T|scn}} : {{trad+|scn|Liechtenstein}}
+* {{T|szl}} : {{trad|szl|Liechtenstein}}
+* {{T|sk}} : {{trad+|sk|Lichtenštajnsko}}
+* {{T|sl}} : {{trad-|sl|Lihtenštajn}}
+* {{T|sv}} : {{trad+|sv|Liechtenstein}}
+* {{T|sw}} : {{trad+|sw|Liechtenstein}}
+* {{T|tg}} : {{trad-|tg|Лихтенштейн|R=Lixtenštejn}}
+* {{T|tl}} : {{trad-|tl|Liechtenstein}}
+* {{T|ta}} : {{trad-|ta|லீக்டன்ஸ்டைன்}}
+* {{T|crh}} : {{trad|crh|Lihtenşteyn}}
+* {{T|cs}} : {{trad+|cs|Lichtenštejnsko}}
+* {{T|ce}} : {{trad|ce|Лихтенштейн|R=Lixtenštejn}}
+* {{T|cv}} : {{trad|cv|Лихтенштейн|R=Lixtenštejn}}
+* {{T|te}} : {{trad+|te|లైచెన్‌స్టెయిన్|tr=Laicen‌sṭeyin}}
+* {{T|tet}} : {{trad|tet|Listenstaina}}
+* {{T|th}} : {{trad-|th|ประเทศลิกเตนสไตน์}}
+* {{T|tr}} : {{trad+|tr|Lihtenştayn}}
+* {{T|tk}} : {{trad-|tk|Lihtenşteýn}}
+* {{T|uk}} : {{trad+|uk|Ліхтенштейн|R=Lichtenštejn}}
+* {{T|vec}} : {{trad-|vec|Liechtenstein}}
+* {{T|vi}} : {{trad-|vi|Liechtenstein}}
+* {{T|vo}} : {{trad+|vo|Ligtänstän}}
+* {{T|vro}} : {{trad|vro|Liechtenstein}}
+* {{T|war}} : {{trad|war|Lestenstin}}
+* {{T|wo}} : {{trad-|wo|Liechtenstein}}
+* {{T|wuu}} : {{trad|wuu|列支敦士登}}
+* {{T|yi}} : {{trad-|yi|ליכטנשטיין}}
+{{trad-fin}}
+
+=== {{S|prononciation}} ===
+* {{pron|liʃ.tən.ʃtajn|fr}}
+** {{écouter|lang=fr|France (Paris)|liʃ.tən.ʃtajn|audio=LL-Q150 (fra)-GrandCelinien-Liechtenstein.wav}}
+** {{écouter|lang=fr|France (Occitanie)|liʃ.tən.ʃtajn|audio=LL-Q150 (fra)-Arthur Crbz-Liechtenstein.wav}}
+** {{écouter|lang=fr|France|lɪʃ.tən.ʃtajn|audio=LL-Q150 (fra)-Mecanautes-Liechtenstein.wav}}
+** {{écouter|canton du Valais (Suisse)|lɪʃ.tən.ʃtɑjnə̆|lang=fr|audio=LL-Q150 (fra)-DSwissK-Liechtenstein.wav}}
+* {{pron|liʃ.tən.stajn|fr}}
+** {{écouter||liʃ.tən.stajn|lang=fr|audio=LL-Q150 (fra)-Jules78120-Liechtenstein.wav}}
+** {{écouter|Perpignan (France)|liʃ.tən.stajn|lang=fr|audio=LL-Q150 (fra)-Laszlo Cárdenas (Culex)-Liechtenstein.wav}}
+* {{écouter|Vosges (France)||lang=fr|audio=LL-Q150 (fra)-Poslovitch-Liechtenstein.wav}}
+* {{écouter|Haute-Loire (France)||lang=fr|audio=LL-Q150 (fra)-Sayoxime-Liechtenstein.wav}}
+
+==== {{S|homophones|fr}} ====
+* [[Lichtenstein]]
+
+=== {{S|voir aussi}} ===
+* {{WP}}
+
+== {{langue|af}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|nl|af|mot=Liechtenstein}}.
+
+=== {{S|nom propre|af}} ===
+'''Liechtenstein''' {{pron||af}}
+# {{pays|af|d’Europe}} {{lien|Liechtenstein|fr}}.
+#* {{exemple|lang=af}}
+
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|gsw|mot=Liechtenstein}}.
+
+=== {{S|nom propre|gsw}} ===
+'''Liechtenstein''' {{pron||gsw}}
+# {{pays|gsw}} {{lien|Liechtenstein|fr}}.
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: {{composé de|Licht|Stein|lang=de|m=1}}, doublet de ''{{lien|Lichtenstein|de}}''.
+
+=== {{S|nom propre|de}} ===
+{{de-nom|ns= Liechtenstein |np=|as= Liechtenstein |ap=|gs= Liechtensteins |gp=|ds= Liechtenstein |dp=}}
+'''Liechtenstein''' {{pron||de}}
+# {{pays|de|d’Europe}} {{lien|Liechtenstein|fr}}.
+#* {{exemple|So ist es oft, wenn man den Geschäften von Michael Schäff, 56, nachspürt: Man landet vor Briefkästen. Nicht selten in der Schweiz oder in '''Liechtenstein''' (...), wo Beamte deutscher Steuerbehörden nicht so einfach vorbeischauen.|lang=de|sens=C'est souvent ce qui se passe quand on traque les affaires de Michael Schäff, 56 ans : on finit devant des boîtes aux lettres. Il n'est pas rare qu'elles se trouvent en Suisse ou au Liechtenstein (...), où les fonctionnaires des autorités fiscales allemandes ne passent pas facilement.|source={{périodique|auteur=Uwe Ritzer|titre=Der Mann, der zum Wasser-Milliardär wurde|journal=Süddeutsche Zeitung|date=4 août 2023|texte=https://www.sueddeutsche.de/projekte/artikel/wirtschaft/wasser-mineralwasserhersteller-michael-schaeff-e694470/}}}}
+
+==== {{S|gentilés}} ====
+* [[Liechtensteiner]], [[Liechtensteinerin]]
+
+=== {{S|prononciation}} ===
+* {{écouter|{{DE|nocat=1}}|ˈlɪçtn̩ˌʃtaɪ̯n|lang=de|audio=De-Liechtenstein.ogg}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=de}}
+
+== {{langue|en}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|en|mot=Liechtenstein}}.
+
+=== {{S|nom propre|en}} ===
+'''Liechtenstein''' {{pron||en}}
+# {{pays|en|d’Europe}} {{lien|Liechtenstein|fr}}.
+
+==== {{S|gentilés}} ====
+* {{lien|Liechtensteiner|en}}
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=en|États-Unis||audio=En-us-Liechtenstein.ogg}}
+* {{écouter|Londres (Royaume-Uni)||lang=en|audio=LL-Q1860 (eng)-Soundguys-Liechtenstein.wav}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=en}}
+
+== {{langue|an}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|an|mot=Liechtenstein}}.
+
+=== {{S|nom propre|an}} ===
+'''Liechtenstein''' {{pron||an}}
+# {{pays|an|d’Europe}} {{lien|Liechtenstein|fr}}.
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=an}}
+
+== {{langue|ast}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|ast|mot=Liechtenstein}}.
+
+=== {{S|nom propre|ast}} ===
+'''Liechtenstein''' {{pron||ast}}
+# {{pays|ast|d’Europe}} {{lien|Liechtenstein|fr}}.
+
+=== {{S|prononciation}} ===
+* {{écouter|Uviéu (Espagne)||lang=ast|audio=LL-Q29507 (ast)-Limotecariu-Liechtenstein.wav}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=ast}}
+
+== {{langue|eu}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|eu|mot=Liechtenstein}}.
+
+=== {{S|nom propre|eu}} ===
+'''Liechtenstein''' {{pron||eu}}
+# {{pays|eu|d’Europe}} {{lien|Liechtenstein|fr}}.
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=eu|Espagne (Saint-Sébastien)|audio=LL-Q8752 (eus)-Xabier Cañas-Liechtenstein.wav}}
+
+== {{langue|br}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|br|mot=Liechtenstein}}.
+
+=== {{S|nom propre|br}} ===
+'''Liechtenstein''' {{pron||br}}
+# {{pays|br|d’Europe}} {{lien|Liechtenstein|fr}}.
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=br}}
+
+== {{langue|ca}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|ca|mot=Liechtenstein}}.
+
+=== {{S|nom propre|ca}} ===
+'''Liechtenstein''' {{pron||ca}}
+# {{pays|ca|d’Europe}} {{lien|Liechtenstein|fr}}.
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=ca|Espagne (Villarreal)||audio=LL-Q7026 (cat)-Millars-Liechtenstein.wav}}
+
+== {{langue|ceb}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|ceb|mot=Liechtenstein}}.
+
+=== {{S|nom propre|ceb}} ===
+'''Liechtenstein''' {{pron||ceb}}
+# {{pays|ceb}} {{lien|Liechtenstein|fr}}.
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=ceb}}
+
+== {{langue|kw}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|kw|mot=Liechtenstein}}.
+
+=== {{S|nom propre|kw}} ===
+'''Liechtenstein''' {{pron||kw}}
+# {{pays|kw}} {{lien|Liechtenstein|fr}}.
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=kw}}
+
+== {{langue|da}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|da|mot=Liechtenstein}}.
+
+=== {{S|nom propre|da}} ===
+'''Liechtenstein''' {{pron||da}}
+# {{pays|da|d’Europe}} {{lien|Liechtenstein|fr}}.
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=da}}
+
+== {{langue|diq}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|diq|mot=Liechtenstein}}.
+
+=== {{S|nom propre|diq}} ===
+'''Liechtenstein''' {{pron||diq}}
+# {{pays|diq}} {{lien|Liechtenstein|fr}}.
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=diq}}
+
+== {{langue|es}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|es|mot=Liechtenstein}}.
+
+=== {{S|nom propre|es}} ===
+'''Liechtenstein''' {{pron||es}}
+# {{pays|es|d’Europe}} {{lien|Liechtenstein|fr}}.
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=es}}
+
+== {{langue|et}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|et|mot=Liechtenstein}}.
+
+=== {{S|nom propre|et}} ===
+'''Liechtenstein''' {{pron||et}}
+# {{pays|et|d’Europe}} {{lien|Liechtenstein|fr}}.
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=et}}
+
+== {{langue|ee}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|ee|mot=Liechtenstein}}.
+
+=== {{S|nom propre|ee}} ===
+'''Liechtenstein''' {{pron||ee}}
+# {{pays|ee}} {{lien|Liechtenstein|fr}}.
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=ee}}
+
+== {{langue|fi}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|fi|mot=Liechtenstein}}.
+
+=== {{S|nom propre|fi}} ===
+'''Liechtenstein''' {{pron||fi}}
+# {{pays|fi|d’Europe}} {{lien|Liechtenstein|fr}}.
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=fi}}
+
+== {{langue|frp}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|fr|frp|mot=Liechtenstein}}.
+
+=== {{S|nom propre|frp}} ===
+'''Liechtenstein''' {{pron||frp}}
+# {{pays|frp}} {{lien|Liechtenstein|fr}}.
+
+== {{langue|fur}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|fur|mot=Liechtenstein}}.
+
+=== {{S|nom propre|fur}} ===
+'''Liechtenstein''' {{pron||fur}}
+# {{pays|fur}} {{lien|Liechtenstein|fr}}.
+
+== {{langue|gd}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|gd|mot=Liechtenstein}}.
+
+=== {{S|nom propre|gd}} ===
+'''Liechtenstein''' {{pron||gd}}
+# {{pays|gd}} {{lien|Liechtenstein|fr}}.
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=gd}}
+
+== {{langue|gl}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|gl|mot=Liechtenstein}}.
+
+=== {{S|nom propre|gl}} ===
+'''Liechtenstein''' {{pron||gl}}
+# {{pays|gl|d’Europe}} {{lien|Liechtenstein|fr}}.
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=gl}}
+
+=== {{S|prononciation}} ===
+* {{écouter|||lang=gl|audio=Gl-Liechtenstein.ogg}}
+
+== {{langue|cy}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|cy|mot=Liechtenstein}}.
+
+=== {{S|nom propre|cy}} ===
+'''Liechtenstein''' {{pron||cy}}
+# {{pays|cy|d’Europe}} {{lien|Liechtenstein|fr}}.
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=cy}}
+
+== {{langue|hu}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|hu|mot=Liechtenstein}}.
+
+=== {{S|nom propre|hu}} ===
+'''Liechtenstein''' {{pron||hu}}
+# {{pays|hu|d’Europe}} {{lien|Liechtenstein|fr}}.
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=hu}}
+
+== {{langue|io}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|io|mot=Liechtenstein}}.
+
+=== {{S|nom propre|io}} ===
+'''Liechtenstein''' {{pron||io}}
+# {{pays|io|d’Europe}} {{lien|Liechtenstein|fr}}.
+
+== {{langue|id}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|id|mot=Liechtenstein}}.
+
+=== {{S|nom propre|id}} ===
+'''Liechtenstein''' {{pron||id}}
+# {{pays|id|d’Europe}} {{lien|Liechtenstein|fr}}.
+#* {{exemple|lang=id}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=id}}
+
+== {{langue|ia}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|ia|mot=Liechtenstein}}.
+
+=== {{S|nom propre|ia}} ===
+'''Liechtenstein''' {{pron||ia}}
+# {{pays|ia}} {{lien|Liechtenstein|fr}}.
+
+== {{langue|ie}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|ie|mot=Liechtenstein}}.
+
+=== {{S|nom propre|ie}} ===
+'''Liechtenstein''' {{pron||ie}}
+# {{pays|ie}} {{lien|Liechtenstein|fr}}.
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=ie}}
+
+== {{langue|is}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|is|mot=Liechtenstein}}.
+
+=== {{S|nom propre|is}} ===
+'''Liechtenstein''' {{pron||is}}
+# {{pays|is|d’Europe}} {{lien|Liechtenstein|fr}}.
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=is}}
+
+== {{langue|it}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|it|mot=Liechtenstein}}.
+
+=== {{S|nom propre|it}} ===
+'''Liechtenstein''' {{pron||it}} {{m}}
+# {{pays|it|d’Europe}} {{lien|Liechtenstein|fr}}.
+
+==== {{S|gentilés}} ====
+* {{lien|liechtensteinese|it}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=it}}
+* {{WP|lang=it|Liechtenstein (disambigua)}}
+* {{VOY|lang=it}}
+* [[Annexe:Pays et leurs gentilés en italien]]
+
+== {{langue|csb}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|csb|mot=Liechtenstein}}.
+
+=== {{S|nom propre|csb}} ===
+'''Liechtenstein''' {{pron||csb}}
+# {{pays|csb}} {{lien|Liechtenstein|fr}}.
+
+== {{langue|pam}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|pam|mot=Liechtenstein}}.
+
+=== {{S|nom propre|pam}} ===
+'''Liechtenstein''' {{pron||pam}}
+# {{pays|pam}} {{lien|Liechtenstein|fr}}.
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=pam}}
+
+== {{langue|ku}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|ku|mot=Liechtenstein}}.
+
+=== {{S|nom propre|ku}} ===
+'''Liechtenstein''' {{pron||ku}}
+# {{pays|ku|d’Europe}} {{lien|Liechtenstein|fr}}.
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=ku}}
+
+== {{langue|lij}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|lij|mot=Liechtenstein}}.
+
+=== {{S|nom propre|lij}} ===
+'''Liechtenstein''' {{pron||lij}}
+# {{pays|lij}} {{lien|Liechtenstein|fr}}.
+
+== {{langue|li}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|li|mot=Liechtenstein}}.
+
+=== {{S|nom propre|li}} ===
+'''Liechtenstein''' {{pron||li}}
+# {{pays|li}} {{lien|Liechtenstein|fr}}.
+
+== {{langue|ln}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|ln|mot=Liechtenstein}}.
+
+=== {{S|nom propre|ln}} ===
+'''Liechtenstein''' {{pron||ln}}
+# {{pays|ln}} {{lien|Liechtenstein|fr}}.
+
+== {{langue|lmo}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|lmo|mot=Liechtenstein}}.
+
+=== {{S|nom propre|lmo}} ===
+'''Liechtenstein''' {{pron||lmo}}
+# {{pays|lmo}} {{lien|Liechtenstein|fr}}.
+
+== {{langue|lb}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|lb|Liechtenstein}}.
+
+=== {{S|nom propre|lb}} ===
+{{lb-inv|lˈiɕtənstɑɪn|inv_titre=Nom propre}}
+'''Liechtenstein''' {{pron|lˈiɕtənstɑɪn|lb}} {{n}}
+# {{pays|lb|d’Europe|pays=Liechtenstein|clé=*}} {{lien|Liechtenstein|fr}}.
+#* {{exemple|lang=lb}}
+
+==== {{S|gentilés}} ====
+* {{lien|Liechtensteiner|lb|sens=Liechtensteinois}}, {{lien|Liechtensteinerin|lb|sens=Liechtensteinoise}}
+* {{lien|liechtensteinesch|lb|sens=liechtensteinois, liechtensteinoise}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=lb}}
+
+=== {{S|références}} ===
+: {{R:LOD}}
+
+== {{langue|ms}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|ms|mot=Liechtenstein}}.
+
+=== {{S|nom propre|ms}} ===
+'''Liechtenstein''' {{pron||ms}}
+# {{pays|ms|d’Europe}} {{lien|Liechtenstein|fr}}.
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=ms}}
+
+== {{langue|gv}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|gv|mot=Liechtenstein}}.
+
+=== {{S|nom propre|gv}} ===
+'''Liechtenstein''' {{pron||gv}}
+# {{pays|gv}} {{lien|Liechtenstein|fr}}.
+
+== {{langue|nan}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|nan|mot=Liechtenstein}}.
+
+=== {{S|nom propre|nan}} ===
+'''Liechtenstein''' {{pron||nan}}
+# {{pays|nan}} {{lien|Liechtenstein|fr}}.
+
+== {{langue|na}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|na|mot=Liechtenstein}}.
+
+=== {{S|nom propre|na}} ===
+'''Liechtenstein''' {{pron||na}}
+# {{pays|na|d’Europe}} {{lien|Liechtenstein|fr}}.
+
+== {{langue|nl}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|nl|mot=Liechtenstein}}.
+
+=== {{S|nom propre|nl}} ===
+'''Liechtenstein''' {{pron||nl}}
+# {{pays|nl|d’Europe}} {{lien|Liechtenstein|fr}}.
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=nl}}
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=nl|Pays-Bas|audio=Nl-Liechtenstein.ogg}}
+
+== {{langue|no}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|no|mot=Liechtenstein}}.
+
+=== {{S|nom propre|no}} ===
+'''Liechtenstein''' {{pron||no}}
+# {{pays|no|d’Europe}} {{lien|Liechtenstein|fr}}.
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=no}}
+
+== {{langue|nn}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|no|nn|mot=Liechtenstein}}.
+
+=== {{S|nom propre|nn}} ===
+'''Liechtenstein''' {{pron||nn}}
+# {{pays|nn|d’Europe}} {{lien|Liechtenstein|fr}}.
+
+== {{langue|nov}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|nov|mot=Liechtenstein}}.
+
+=== {{S|nom propre|nov}} ===
+'''Liechtenstein''' {{pron||nov}}
+# {{pays|nov}} {{lien|Liechtenstein|fr}}.
+
+== {{langue|oc}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|fr|oc|mot=Liechtenstein}}.
+
+=== {{S|nom propre|oc}} ===
+'''Liechtenstein''' {{pron||oc}}
+# {{pays|oc|d’Europe}} {{lien|Liechtenstein|fr}}.
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=oc}}
+
+== {{langue|pdc}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|pdc|mot=Liechtenstein}}.
+
+=== {{S|nom propre|pdc}} ===
+'''Liechtenstein''' {{pron||pdc}} {{genre|pdc}}
+# {{pays|pdc}} [[#fr|Liechtenstein]].
+
+== {{langue|pms}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|pms|mot=Liechtenstein}}.
+
+=== {{S|nom propre|pms}} ===
+'''Liechtenstein''' {{pron||pms}}
+# {{pays|pms}} {{lien|Liechtenstein|fr}}.
+
+== {{langue|pl}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|pl|mot=Liechtenstein}}.
+
+=== {{S|nom propre|pl}} ===
+'''Liechtenstein''' {{pron||pl}}
+# {{pays|pl|d’Europe}} {{lien|Liechtenstein|fr}}.
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=pl}}
+
+=== {{S|prononciation}} ===
+* {{écouter|||lang=pl|audio=Pl-Liechtenstein.ogg}}
+
+== {{langue|pt}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|pt|mot=Liechtenstein}}.
+
+=== {{S|nom propre|pt}} ===
+'''Liechtenstein''' {{pron||pt}}
+# {{pays|pt|d’Europe}} {{lien|Liechtenstein|fr}}.
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=pt}}
+
+== {{langue|qu}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|qu|mot=Liechtenstein}}.
+
+=== {{S|nom propre|qu}} ===
+'''Liechtenstein''' {{pron||qu}}
+# {{pays|qu}} {{lien|Liechtenstein|fr}}.
+
+== {{langue|rm}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|rm|mot=Liechtenstein}}.
+
+=== {{S|nom propre|rm}} ===
+'''Liechtenstein''' {{pron||rm}}
+# {{pays|rm}} {{lien|Liechtenstein|fr}}.
+
+== {{langue|ro}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|ro|mot=Liechtenstein}}.
+
+=== {{S|nom propre|ro}} ===
+'''Liechtenstein''' {{pron||ro}}
+# {{pays|ro|d’Europe}} {{lien|Liechtenstein|fr}}.
+
+=== {{S|prononciation}} ===
+* {{écouter|Iași (Roumanie)||lang=ro|audio=LL-Q7913 (ron)-KlaudiuMihaila-Liechtenstein.wav}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=ro}}
+
+== {{langue|se}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|se|mot=Liechtenstein}}.
+
+=== {{S|nom propre|se}} ===
+'''Liechtenstein''' {{pron||se}}
+# {{pays|se}} {{lien|Liechtenstein|fr}}.
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=se}}
+
+== {{langue|nds-nl}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|nds-nl|mot=Liechtenstein}}.
+
+=== {{S|nom propre|nds-nl}} ===
+'''Liechtenstein''' {{pron||nds-nl}}
+# {{pays|nds-nl}} {{lien|Liechtenstein|fr}}.
+
+== {{langue|scn}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|it|scn|mot=Liechtenstein}}.
+
+=== {{S|nom propre|scn}} ===
+'''Liechtenstein''' {{pron||scn}}
+# {{pays|scn|d’Europe}} {{lien|Liechtenstein|fr}}.
+
+=== {{S|prononciation}} ===
+* {{écouter|Gela (Italie)||lang=scn|audio=LL-Q33973 (scn)-XANA000-Liechtenstein.wav}}
+
+== {{langue|szl}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|szl|mot=Liechtenstein}}.
+
+=== {{S|nom propre|szl}} ===
+'''Liechtenstein''' {{pron||szl}}
+# {{pays|szl}} {{lien|Liechtenstein|fr}}.
+
+=== {{S|prononciation}} ===
+* {{écouter|||lang=szl|audio=LL-Q30319 (szl)-Vxern-Liechtenstein.wav}}
+
+== {{langue|hsb}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|hsb|mot=Liechtenstein}}.
+
+=== {{S|nom propre|hsb}} ===
+'''Liechtenstein''' {{pron||hsb}}
+# {{pays|hsb}} {{lien|Liechtenstein|fr}}.
+
+== {{langue|sv}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|sv|mot=Liechtenstein}}.
+
+=== {{S|nom propre|sv}} ===
+'''Liechtenstein''' {{pron||sv}}
+# {{pays|sv|d’Europe}} {{lien|Liechtenstein|fr}}.
+
+=== {{S|prononciation}} ===
+* {{écouter|Suède||lang=sv|audio=LL-Q9027 (swe)-Moonhouse-Liechtenstein.wav}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=sv}}
+
+== {{langue|sw}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|sw|mot=Liechtenstein}}.
+
+=== {{S|nom propre|sw}} ===
+'''Liechtenstein''' {{pron||sw}}
+# {{pays|sw|d’Europe}} {{lien|Liechtenstein|fr}}.
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=sw}}
+
+== {{langue|tl}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|tl|mot=Liechtenstein}}.
+
+=== {{S|nom propre|tl}} ===
+'''Liechtenstein''' {{pron||tl}}
+# {{pays|tl|d’Europe}} {{lien|Liechtenstein|fr}}.
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=tl}}
+
+== {{langue|vec}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|it|vec|mot=Liechtenstein}}.
+
+=== {{S|nom propre|vec}} ===
+'''Liechtenstein''' {{pron||vec}}
+# {{pays|vec}} {{lien|Liechtenstein|fr}}.
+
+== {{langue|vi}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|vi|mot=Liechtenstein}}.
+
+=== {{S|nom propre|vi}} ===
+'''Liechtenstein''' {{pron||vi}}
+# {{pays|vi|d’Europe}} {{lien|Liechtenstein|fr}}.
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=vi}}
+
+== {{langue|vro}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|vro|mot=Liechtenstein}}.
+
+=== {{S|nom propre|vro}} ===
+'''Liechtenstein''' {{pron||vro}}
+# {{pays|vro}} {{lien|Liechtenstein|fr}}.
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=vro}}
+
+== {{langue|wo}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|wo|mot=Liechtenstein}}.
+
+=== {{S|nom propre|wo}} ===
+'''Liechtenstein''' {{pron||wo}}
+# {{pays|wo}} {{lien|Liechtenstein|fr}}.
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=wo}}

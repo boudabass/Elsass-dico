@@ -1,0 +1,69 @@
+{{voir/germanium}}
+
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw}}
+
+=== {{S|nom|gsw}} ===
+'''Germanium''' {{pron||gsw}}
+# {{éléments|gsw}} [[germanium|Germanium]].
+{{clr}}
+==== {{S|vocabulaire}} ====
+{{tableau périodique/gsw}}
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|de|mot=Germania|sens=Germanie}} et ''{{lien|-ium|la}}''. Le découvreur de cet élément, l’allemand {{w|Clemens Winkler}}, l’a nommé ainsi car il pensait que le [[gallium]], avait été nommé ainsi par rapport à la nationalité de son découvreur, le français {{w|Paul-Émile Lecoq de Boisbaudran}}.
+
+=== {{S|nom|de}} ===
+{{légende élément/de|Ge}}
+[[Image:Germanium.jpg|thumb|'''Germanium'''.]]
+'''Germanium''' {{pron|ɡɛʁˈmaːni̯ʊm|de}} {{n}}
+# {{éléments|de}} [[germanium#fr|Germanium]].
+#* {{exemple|Laut Schätzungen produziert das Reich der Mitte über 90 Prozent des weltweiten Galliums, bei '''Germanium''' dürften es nahezu 80 Prozent sein. |lang=de|sens=Selon les estimations, la Chine produit plus de 90 pour cent du gallium mondial, et probablement près de 80 pour cent du germanium.|source={{périodique|auteur=Fabian Kretschmer|titre=China holt im Techkrieg zum Gegenschlag aus|journal=RedaktionsNetzwerk Deutschland|date=8 juillet 2023|texte=https://www.rnd.de/politik/china-holt-im-tech-krieg-zum-gegenschlag-aus-X443PCZAFZDZPGSZYD4FDHGDIE.html}}}}
+
+==== {{S|dérivés}} ====
+{{(|&nbsp;}}
+* {{lien|Germanat|de}}
+* {{lien|Germaniumhydrid|de}}
+* {{lien|Germaniumdiode|de}}
+* {{lien|Germaniumtetrachlorid|de}}
+* {{lien|Germaniumtransistor|de}}
+* {{lien|Germaniumverbindung|de}}
+* {{lien|Monogerman|de}}
+{{)}}
+{{clr}}
+==== {{S|vocabulaire}} ====
+* {{voir thésaurus|de|tableau périodique des éléments}}
+{{tableau périodique/de}}
+{{Liste|avant={{lien|Gallium|de}}<br>([[Ga#conv|Ga]])|après={{lien|Arsen|de}}<br>([[As#conv|As]])|liste=[[Thésaurus:tableau périodique des éléments/allemand|Éléments chimiques en allemand]]}}
+
+=== {{S|prononciation}} ===
+* {{écouter|Berlin|ɡɛʁˈmaːni̯ʊm|lang=de|audio=De-Germanium.ogg}}
+* {{écouter|{{DE|nocat=1}}|ɡɛʁˈmaːni̯ʊm|lang=de|audio=LL-Q188 (deu)-Lucas Werkmeister-Germanium.wav}}
+* {{écouter|Berlin|ɡɛʁˈmaːni̯ʊm|lang=de|audio=LL-Q188 (deu)-Sebastian Wallroth-Germanium.wav}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=de}}
+
+== {{langue|lb}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|lb}}
+
+=== {{S|nom|lb}} ===
+{{lb-inv|gɛʀmˈaːni̯um}}
+'''Germanium''' {{pron|gɛʀmˈaːni̯um|lb}} {{m}}, {{au singulier uniquement|lb}}
+# {{éléments|lb}} [[germanium#fr|Germanium]].
+#* {{exemple|lang=lb}}
+{{clr}}
+==== {{S|vocabulaire}} ====
+{{tableau périodique/lb}}
+
+=== {{S|prononciation}} ===
+* {{écouter|Angers (France)||niveau=bon|lang=lb|audio=LL-Q9051 (ltz)-Procrastineur49-Germanium.wav}}
+
+=== {{S|références}} ===
+: {{R:LOD}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=lb}}

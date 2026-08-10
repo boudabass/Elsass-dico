@@ -1,0 +1,19 @@
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: Calque de l'{{calque|de|gsw|Staffelei||chevalet}}.
+
+=== {{S|nom|gsw}} ===
+'''Staffelei''' {{f}}
+# {{lexique|peinture|gsw}} [[chevalet|Chevalet]].
+
+[[Catégorie:Lexique en alémanique de la peinture]]
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: {{date|lang=de|XVIIe siècle}} {{composé de|m=1|lang=de|Staffel|-ei}}.
+
+=== {{S|nom|de}} ===
+'''Staffelei''' {{pron|ʃtafəˈlaɪ̯|de}} {{f}}
+# {{lexique|peinture|de}} [[chevalet|Chevalet]].
+
+[[Catégorie:Lexique en allemand de la peinture]]

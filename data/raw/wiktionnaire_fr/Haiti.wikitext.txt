@@ -1,0 +1,965 @@
+{{voir/haiti}}
+
+== {{langue|sq}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|sq}}
+
+=== {{S|nom propre|sq}} ===
+'''Haiti''' {{pron||sq}}
+# [[Haïti]] (pays des [[Antilles]]).
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=sq}}
+
+[[Catégorie:Îles en albanais]]
+[[Catégorie:Pays d’Amérique centrale en albanais]]
+
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw}}
+
+=== {{S|nom propre|gsw}} ===
+'''Haiti''' {{pron||gsw}}
+# [[Haïti]] (pays des [[Antilles]]).
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=gsw}}
+
+[[Catégorie:Îles en alémanique]]
+[[Catégorie:Pays en alémanique]]
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|de}}
+
+=== {{S|nom propre|de}} ===
+'''Haiti''' {{pron||de}}
+# [[Haïti]] (pays des [[Antilles]]).
+
+=== {{S|prononciation}} ===
+* {{écouter|||lang=de|audio=De-Haiti.ogg}}
+
+=== {{S|voir aussi}} ===
+* {{Vikidia|lang=de}}
+* {{WP|lang=de}}
+
+[[Catégorie:Îles en allemand]]
+[[Catégorie:Pays d’Amérique centrale en allemand]]
+
+== {{langue|en}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|en}}
+
+=== {{S|nom propre|en}} ===
+'''Haiti''' {{pron|ˈheɪ.ti|en}}
+# [[Haïti]] (pays des [[Antilles]]).
+
+==== {{S|variantes orthographiques}} ====
+* [[Hayti]] {{archaïsme|nocat=1}}
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=en|{{US|nocat=1}}|audio=En-us-Haiti.ogg}}
+* {{pron|ˈheɪ.ti|en}}
+* {{pron|ˈhaɪ.ti|en}} {{rare|nocat=1}}
+* {{écouter|Londres (Royaume-Uni)||lang=en|audio=LL-Q1860 (eng)-Soundguys-Haiti.wav}}
+
+=== {{S|voir aussi}} ===
+* {{Vikidia|lang=en}}
+* {{WP|lang=en}}
+
+[[Catégorie:Îles en anglais]]
+[[Catégorie:Pays d’Amérique centrale en anglais]]
+
+== {{langue|rup}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|rup}}
+
+=== {{S|nom propre|rup}} ===
+'''Haiti''' {{pron||rup}}
+# [[Haïti]] (pays des [[Antilles]]).
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=rup}}
+
+[[Catégorie:Îles en aroumain]]
+[[Catégorie:Pays en aroumain]]
+
+== {{langue|az}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|az}}
+
+=== {{S|nom propre|az}} ===
+{{az-décl-nom|i}}
+'''Haiti''' {{pron||az}} {{az-forme possessive}}
+# [[Haïti]] (pays des [[Antilles]]).
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=az}}
+
+[[Catégorie:Îles en azéri]]
+[[Catégorie:Pays en azéri]]
+
+== {{langue|eu}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|eu}}
+
+=== {{S|nom propre|eu}} ===
+'''Haiti''' {{pron||eu}}
+# [[Haïti]] (pays des [[Antilles]]).
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=eu|Espagne (Saint-Sébastien)|audio=LL-Q8752 (eus)-Xabier Cañas-Haiti.wav}}
+
+=== {{S|voir aussi}} ===
+* {{Vikidia|lang=eu}}
+* {{WP|lang=eu}}
+
+[[Catégorie:Îles en basque]]
+[[Catégorie:Pays d’Amérique centrale en basque]]
+
+== {{langue|nds}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|nds}}
+
+=== {{S|nom propre|nds}} ===
+'''Haiti''' {{pron||nds}}
+# [[Haïti]] (pays des [[Antilles]]).
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=nds}}
+
+[[Catégorie:Îles en bas allemand]]
+[[Catégorie:Pays en bas allemand]]
+
+== {{langue|nds-nl}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|nds-nl}}
+
+=== {{S|nom propre|nds-nl}} ===
+'''Haiti''' {{pron||nds-nl}}
+# [[Haïti]] (pays des [[Antilles]]).
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=nds-nl}}
+
+[[Catégorie:Îles en bas-saxon néerlandais]]
+[[Catégorie:Pays en bas-saxon néerlandais]]
+
+== {{langue|dsb}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|dsb}}
+
+=== {{S|nom propre|dsb}} ===
+'''Haiti''' {{pron||dsb}}
+# [[Haïti]] (pays des [[Antilles]]).
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=dsb}}
+
+[[Catégorie:Îles en bas-sorabe]]
+[[Catégorie:Pays en bas-sorabe]]
+
+== {{langue|bcl}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|bcl}}
+
+=== {{S|nom propre|bcl}} ===
+'''Haiti''' {{pron||bcl}}
+# [[Haïti]] (pays des [[Antilles]]).
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=bcl}}
+
+[[Catégorie:Îles en bikol central]]
+[[Catégorie:Pays en bikol central]]
+
+== {{langue|bs}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|bs}}
+
+=== {{S|nom propre|bs}} ===
+'''Haiti''' {{pron||bs}}
+# [[Haïti]] (pays des [[Antilles]]).
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=bs}}
+
+[[Catégorie:Îles en bosniaque]]
+[[Catégorie:Pays d’Amérique centrale en bosniaque]]
+
+== {{langue|br}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|br}}
+
+=== {{S|nom propre|br}} ===
+'''Haiti''' {{pron||br}}
+# [[Haïti]] (pays des [[Antilles]]).
+
+=== {{S|voir aussi}} ===
+* {{WP|Republik Haiti|Haiti|br}}
+
+[[Catégorie:Îles en breton]]
+[[Catégorie:Pays en breton]]
+
+== {{langue|ceb}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|ceb}}
+
+=== {{S|nom propre|ceb}} ===
+'''Haiti''' {{pron||ceb}}
+# [[Haïti]] (pays des [[Antilles]]).
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=ceb}}
+
+[[Catégorie:Îles en cebuano]]
+[[Catégorie:Pays en cebuano]]
+
+== {{langue|hr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|hr}}
+
+=== {{S|nom propre|hr}} ===
+'''Haiti''' {{pron||hr}}
+# [[Haïti]] (pays des [[Antilles]]).
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=hr}}
+
+[[Catégorie:Îles en croate]]
+[[Catégorie:Pays d’Amérique centrale en croate]]
+
+== {{langue|da}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|da}}
+
+=== {{S|nom propre|da}} ===
+'''Haiti''' {{pron||da}}
+# [[Haïti]] (pays des [[Antilles]]).
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=da}}
+
+[[Catégorie:Îles en danois]]
+[[Catégorie:Pays d’Amérique centrale en danois]]
+
+== {{langue|diq}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|diq}}
+
+=== {{S|nom propre|diq}} ===
+'''Haiti''' {{pron||diq}}
+# [[Haïti]] (pays des [[Antilles]]).
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=diq}}
+
+[[Catégorie:Îles en dimli (zazaki du Sud)]]
+[[Catégorie:Pays en dimli (zazaki du Sud)]]
+
+== {{langue|et}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|et}}
+
+=== {{S|nom propre|et}} ===
+'''Haiti''' {{pron||et}}
+# [[Haïti]] (pays des [[Antilles]]).
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=et}}
+
+[[Catégorie:Îles en estonien]]
+[[Catégorie:Pays d’Amérique centrale en estonien]]
+
+== {{langue|ee}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|ee}}
+
+=== {{S|nom propre|ee}} ===
+'''Haiti''' {{pron||ee}}
+# [[Haïti]] (pays des [[Antilles]]).
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=ee}}
+
+[[Catégorie:Îles en éwé]]
+[[Catégorie:Pays en éwé]]
+
+== {{langue|fi}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|fi}}
+
+=== {{S|nom propre|fi}} ===
+'''Haiti''' {{pron||fi}}
+# [[Haïti]] (pays des [[Antilles]]).
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=fi}}
+
+[[Catégorie:Îles en finnois]]
+[[Catégorie:Pays d’Amérique centrale en finnois]]
+
+== {{langue|gd}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gd}}
+
+=== {{S|nom propre|gd}} ===
+'''Haiti''' {{pron||gd}}
+# [[Haïti]] (pays des [[Antilles]]).
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=gd}}
+
+[[Catégorie:Îles en gaélique écossais]]
+[[Catégorie:Pays en gaélique écossais]]
+
+== {{langue|cy}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|cy}}
+
+=== {{S|nom propre|cy}} ===
+'''Haiti''' {{pron||cy}}
+# [[Haïti]] (pays des [[Antilles]]).
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=cy}}
+
+[[Catégorie:Îles en gallois]]
+[[Catégorie:Pays en gallois]]
+
+== {{langue|hsb}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|hsb}}
+
+=== {{S|nom propre|hsb}} ===
+'''Haiti''' {{pron||hsb}}
+# [[Haïti]] (pays des [[Antilles]]).
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=hsb}}
+
+[[Catégorie:Îles en haut-sorabe]]
+[[Catégorie:Pays en haut-sorabe]]
+
+== {{langue|hif}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|hif}}
+
+=== {{S|nom propre|hif}} ===
+'''Haiti''' {{pron||hif}}
+# [[Haïti]] (pays des [[Antilles]]).
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=hif}}
+
+[[Catégorie:Îles en hindi des Fidji]]
+[[Catégorie:Pays en hindi des Fidji]]
+
+== {{langue|hu}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|hu}}
+
+=== {{S|nom propre|hu}} ===
+'''Haiti''' {{pron||hu}}
+# [[Haïti]] (pays des [[Antilles]]).
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=hu}}
+
+[[Catégorie:Îles en hongrois]]
+[[Catégorie:Pays d’Amérique centrale en hongrois]]
+
+== {{langue|io}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|io}}
+
+=== {{S|nom propre|io}} ===
+'''Haiti''' {{pron||io}}
+# [[Haïti]] (pays des [[Antilles]]).
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=io}}
+
+[[Catégorie:Îles en ido]]
+[[Catégorie:Pays en ido]]
+
+== {{langue|ilo}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|ilo}}
+
+=== {{S|nom propre|ilo}} ===
+'''Haiti''' {{pron||ilo}}
+# [[Haïti]] (pays des [[Antilles]]).
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=ilo}}
+
+[[Catégorie:Îles en ilocano]]
+[[Catégorie:Pays en ilocano]]
+
+== {{langue|id}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|id}}
+
+=== {{S|nom propre|id}} ===
+'''Haiti''' {{pron||id}}
+# [[Haïti]] (pays des [[Antilles]]).
+#* {{exemple|lang=id}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=id}}
+
+[[Catégorie:Îles en indonésien]]
+[[Catégorie:Pays d’Amérique centrale en indonésien]]
+
+== {{langue|ia}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|ia}}
+
+=== {{S|nom propre|ia}} ===
+'''Haiti''' {{pron||ia}}
+# [[Haïti]] (pays des [[Antilles]]).
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=ia}}
+
+[[Catégorie:Îles en interlingua]]
+[[Catégorie:Pays en interlingua]]
+
+== {{langue|it}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|it}}
+
+=== {{S|nom propre|it}} ===
+{{it-inv|a.ˈi.ti}}
+'''Haiti''' {{pron|a.ˈi.ti|it}} {{f}}
+# [[Haïti]] (pays des [[Antilles]]).
+
+==== {{S|gentilés}} ====
+* [[haitiano#it|haitiano]], [[haitiana#it|haitiana]]
+
+==== {{S|vocabulaire}} ====
+* [[Hispaniola#it|Hispaniola]]
+* [[Repubblica Dominicana#it|Repubblica Dominicana]]
+
+=== {{S|voir aussi}} ===
+* {{Vikidia|lang=it}}
+*{{WP|lang=it}}
+*[[Annexe:Pays et leurs gentilés en italien]]
+
+[[Catégorie:Îles en italien]]
+[[Catégorie:Pays d’Amérique centrale en italien]]
+
+== {{langue|jv}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|jv}}
+
+=== {{S|nom propre|jv}} ===
+'''Haiti''' {{pron||jv}}
+# [[Haïti]] (pays des [[Antilles]]).
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=jv}}
+
+[[Catégorie:Îles en javanais]]
+[[Catégorie:Pays en javanais]]
+
+== {{langue|pam}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|pam}}
+
+=== {{S|nom propre|pam}} ===
+'''Haiti''' {{pron||pam}}
+# [[Haïti]] (pays des [[Antilles]]).
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=pam}}
+
+[[Catégorie:Îles en kapampangan]]
+[[Catégorie:Pays en kapampangan]]
+
+== {{langue|lv}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|lv}}
+
+=== {{S|nom propre|lv}} ===
+'''Haiti''' {{pron||lv}}
+# [[Haïti]] (pays des [[Antilles]]).
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=lv}}
+
+[[Catégorie:Îles en letton]]
+[[Catégorie:Pays d’Amérique centrale en letton]]
+
+== {{langue|lij}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|lij}}
+
+=== {{S|nom propre|lij}} ===
+'''Haiti''' {{pron||lij}}
+# [[Haïti]] (pays des [[Antilles]]).
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=lij}}
+
+[[Catégorie:Îles en ligure]]
+[[Catégorie:Pays en ligure]]
+
+== {{langue|lmo}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|lmo}}
+
+=== {{S|nom propre|lmo}} ===
+'''Haiti''' {{pron||lmo}}
+# [[Haïti]] (pays des [[Antilles]]).
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=lmo}}
+
+[[Catégorie:Îles en lombard]]
+[[Catégorie:Pays en lombard]]
+
+== {{langue|lb}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|lb}}
+
+=== {{S|nom propre|lb}} ===
+{{lb-inv|hɑˈitiː}}
+'''Haiti''' {{pron|hɑˈitiː|lb}} {{n}}
+# {{pays|lb|d’Amérique centrale}} [[Haïti]] (pays des [[Antilles]]).
+#* {{exemple|lang=lb}}
+
+==== {{S|gentilés}} ====
+* {{lien|Haitianer|lb}}, {{lien|Haitianerin|lb}}
+* {{lien|haitianesch|lb}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=lb}}
+
+=== {{S|références}} ===
+: {{R:LOD}}
+
+== {{langue|ms}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|ms}}
+
+=== {{S|nom propre|ms}} ===
+'''Haiti''' {{pron||ms}}
+# [[Haïti]] (pays des [[Antilles]]).
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=ms}}
+
+[[Catégorie:Îles en malais]]
+[[Catégorie:Pays d’Amérique centrale en malais]]
+
+== {{langue|mg}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|mg}}
+
+=== {{S|nom propre|mg}} ===
+'''Haiti''' {{pron|ʔaiti|mg}}
+# [[Haïti]] (pays des [[Antilles]]).
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=mg}}
+
+[[Catégorie:Îles en malgache]]
+[[Catégorie:Pays en malgache]]
+
+== {{langue|gv}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gv}}
+
+=== {{S|nom propre|gv}} ===
+'''Haiti''' {{pron||gv}}
+# [[Haïti]] (pays des [[Antilles]]).
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=gv}}
+
+[[Catégorie:Îles en mannois]]
+[[Catégorie:Pays en mannois]]
+
+== {{langue|nan}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|nan}}
+
+=== {{S|nom propre|nan}} ===
+'''Haiti''' {{pron||nan}}
+# [[Haïti]] (pays des [[Antilles]]).
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=nan}}
+
+[[Catégorie:Îles en minnan]]
+[[Catégorie:Pays en minnan]]
+
+== {{langue|na}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|na}}
+
+=== {{S|nom propre|na}} ===
+'''Haiti''' {{pron||na}}
+# [[Haïti]] (pays des [[Antilles]]).
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=na}}
+
+[[Catégorie:Îles en nauruan]]
+[[Catégorie:Pays en nauruan]]
+
+== {{langue|no}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|no}}
+
+=== {{S|nom propre|no}} ===
+'''Haiti''' {{pron||no}}
+# [[Haïti]] (pays des [[Antilles]]).
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=no}}
+
+[[Catégorie:Îles en norvégien]]
+[[Catégorie:Pays d’Amérique centrale en norvégien]]
+
+== {{langue|nn}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|nn}}
+
+=== {{S|nom propre|nn}} ===
+'''Haiti''' {{pron||nn}}
+# [[Haïti]] (pays des [[Antilles]]).
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=nn}}
+
+[[Catégorie:Îles en norvégien (nynorsk)]]
+[[Catégorie:Pays d’Amérique centrale en norvégien (nynorsk)]]
+
+== {{langue|nov}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|nov}}
+
+=== {{S|nom propre|nov}} ===
+'''Haiti''' {{pron||nov}}
+# [[Haïti]] (pays des [[Antilles]]).
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=nov}}
+
+[[Catégorie:Îles en novial]]
+[[Catégorie:Pays en novial]]
+
+== {{langue|pap}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|pap}}
+
+=== {{S|nom propre|pap}} ===
+'''Haiti''' {{pron||pap}}
+# [[Haïti]] (pays des [[Antilles]]).
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=pap}}
+
+[[Catégorie:Îles en papiamento]]
+[[Catégorie:Pays en papiamento]]
+
+== {{langue|pms}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|pms}}
+
+=== {{S|nom propre|pms}} ===
+'''Haiti''' {{pron||pms}}
+# [[Haïti]] (pays des [[Antilles]]).
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=pms}}
+
+[[Catégorie:Îles en piémontais]]
+[[Catégorie:Pays en piémontais]]
+
+== {{langue|pih}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|en|pih}}.
+
+=== {{S|nom propre|pih}} ===
+'''Haiti''' {{pron||pih}}
+# {{pays|pih}} [[Haïti]] (pays des [[Antilles]]).
+# {{îles|pih}} [[île|Île]] de [[Haïti]].
+=== {{S|voir aussi}} ===
+* {{WP|lang=pih}}
+
+== {{langue|pl}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|pl}}
+
+=== {{S|nom propre|pl}} ===
+'''Haiti''' {{pron||pl}}
+# [[Haïti]] (pays des [[Antilles]]).
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=pl||audio=Pl-Haiti.ogg}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=pl}}
+
+[[Catégorie:Îles en polonais]]
+[[Catégorie:Pays d’Amérique centrale en polonais]]
+
+== {{langue|pt}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|pt}}
+
+=== {{S|nom propre|pt}} ===
+'''Haiti''' {{pron||pt}}
+# [[Haïti]] (pays des [[Antilles]]).
+
+=== {{S|voir aussi}} ===
+* {{Vikidia|lang=pt}}
+* {{WP|lang=pt}}
+
+[[Catégorie:Îles en portugais]]
+[[Catégorie:Pays d’Amérique centrale en portugais]]
+
+== {{langue|ro}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|ro}}
+
+=== {{S|nom propre|ro}} ===
+'''Haiti''' {{pron||ro}}
+# [[Haïti]] (pays des [[Antilles]]).
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=ro|||audio=LL-Q7913 (ron)-KlaudiuMihaila-Haiti.wav}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=ro}}
+
+[[Catégorie:Îles en roumain]]
+[[Catégorie:Pays d’Amérique centrale en roumain]]
+
+== {{langue|se}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|se}}
+
+=== {{S|nom propre|se}} ===
+'''Haiti''' {{phono||se}}
+# [[Haïti]] (pays des [[Antilles]]).
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=se}}
+
+[[Catégorie:Îles en same du Nord]]
+[[Catégorie:Pays en same du Nord]]
+
+== {{langue|sh}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|sh}}
+
+=== {{S|nom propre|sh}} ===
+'''Haiti''' {{pron||sh}}
+# [[Haïti]] (pays des [[Antilles]]).
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=sh}}
+
+[[Catégorie:Îles en serbo-croate]]
+[[Catégorie:Pays d’Amérique centrale en serbo-croate]]
+
+== {{langue|sk}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|sk}}
+
+=== {{S|nom propre|sk}} ===
+'''Haiti''' {{pron||sk}}
+# [[Haïti]] (pays des [[Antilles]]).
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=sk}}
+
+[[Catégorie:Îles en slovaque]]
+[[Catégorie:Pays d’Amérique centrale en slovaque]]
+
+== {{langue|sl}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|sl}}
+
+=== {{S|nom propre|sl}} ===
+{{sl-décl-nmm|Haiti|pdp=oui}}
+'''Haiti''' {{pron||sl}} {{m|i}} {{s}}
+# [[Haïti]] (pays des [[Antilles]]).
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=sl}}
+
+[[Catégorie:Îles en slovène]]
+[[Catégorie:Pays d’Amérique centrale en slovène]]
+
+== {{langue|sv}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|sv}}
+
+=== {{S|nom propre|sv}} ===
+'''Haiti''' {{pron||sv}}
+# [[Haïti]] (pays des [[Antilles]]).
+
+=== {{S|prononciation}} ===
+* {{écouter|Suède||lang=sv|audio=LL-Q9027 (swe)-Moonhouse-Haiti.wav}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=sv}}
+
+[[Catégorie:Îles en suédois]]
+[[Catégorie:Pays d’Amérique centrale en suédois]]
+
+== {{langue|sw}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|sw}}
+
+=== {{S|nom propre|sw}} ===
+'''Haiti''' {{pron||sw}}
+# [[Haïti]] (pays des [[Antilles]]).
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=sw}}
+
+[[Catégorie:Îles en swahili]]
+[[Catégorie:Pays en swahili]]
+
+== {{langue|crh}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|crh}}
+
+=== {{S|nom propre|crh}} ===
+'''Haiti''' {{pron||crh}}
+# [[Haïti]] (pays des [[Antilles]]).
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=crh}}
+
+[[Catégorie:Îles en tatar de Crimée]]
+[[Catégorie:Pays en tatar de Crimée]]
+
+== {{langue|tt}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|tt}}
+
+=== {{S|nom propre|tt}} ===
+'''Haiti''' {{pron||tt}}
+# [[Haïti]] (pays des [[Antilles]]).
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=tt}}
+
+[[Catégorie:Îles en tatare]]
+[[Catégorie:Pays en tatare]]
+
+== {{langue|cs}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|fr|cs|mot=Haïti}}.
+
+=== {{S|nom propre|cs}} ===
+'''Haiti''' {{pron|ha.i.ti|cs}} {{indéc|cs}} {{n}}
+# [[Haïti]].
+
+==== {{S|gentilés}} ====
+* [[Haiťan#cs|Haiťan]]([[Haiťanka#cs|ka]]), Haïtien(ne)
+* [[haitský#cs|haitský]], haïtien
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=cs}}
+
+=== {{S|références}} ===
+*{{R:ÚJČ}}
+
+[[Catégorie:Îles en tchèque]]
+[[Catégorie:Pays d’Amérique centrale en tchèque]]
+
+== {{langue|tr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|tr}}
+
+=== {{S|nom propre|tr}} ===
+'''Haiti''' {{pron||tr}}
+# [[Haïti]] (pays des [[Antilles]]).
+
+=== {{S|prononciation}} ===
+* {{écouter|Izmir (Turquie)||lang=tr|audio=LL-Q256 (tur)-ToprakM-Haiti.wav}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=tr}}
+
+[[Catégorie:Îles en turc]]
+[[Catégorie:Pays d’Amérique centrale en turc]]
+
+== {{langue|vec}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|vec}}
+
+=== {{S|nom propre|vec}} ===
+'''Haiti''' {{pron||vec}}
+# [[Haïti]] (pays des [[Antilles]]).
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=vec}}
+
+[[Catégorie:Îles en vénitien]]
+[[Catégorie:Pays en vénitien]]
+
+== {{langue|vi}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|vi}}
+
+=== {{S|nom propre|vi}} ===
+'''Haiti''' {{pron||vi}}
+# [[Haïti]] (pays des [[Antilles]]).
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=vi}}
+
+[[Catégorie:Îles en vietnamien]]
+[[Catégorie:Pays en vietnamien]]
+
+== {{langue|vro}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|vro}}
+
+=== {{S|nom propre|vro}} ===
+'''Haiti''' {{pron||vro}}
+# [[Haïti]] (pays des [[Antilles]]).
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=vro}}
+
+[[Catégorie:Îles en võro]]
+[[Catégorie:Pays en võro]]
+
+== {{langue|war}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|war}}
+
+=== {{S|nom propre|war}} ===
+'''Haiti''' {{pron||war}}
+# [[Haïti]] (pays des [[Antilles]]).
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=war}}
+
+[[Catégorie:Îles en waray (Philippines)]]
+[[Catégorie:Pays en waray (Philippines)]]
+[[Catégorie:Toponymes dont l’origine est une montagne en allemand]]
+[[Catégorie:Toponymes dont l’origine est une montagne en anglais]]
+[[Catégorie:Toponymes dont l’origine est une montagne en basque]]
+[[Catégorie:Toponymes dont l’origine est une montagne en breton]]
+[[Catégorie:Toponymes dont l’origine est une montagne en gallois]]
+[[Catégorie:Toponymes dont l’origine est une montagne en danois]]
+[[Catégorie:Toponymes dont l’origine est une montagne en portugais]]
+[[Catégorie:Toponymes dont l’origine est maritime en allemand]]
+[[Catégorie:Toponymes dont l’origine est maritime en anglais]]
+[[Catégorie:Toponymes dont l’origine est maritime en breton]]
+[[Catégorie:Toponymes dont l’origine est maritime en italien]]
+[[Catégorie:Toponymes dont l’origine est maritime en portugais]]
+[[Catégorie:Toponymes dont l’origine est maritime en danois]]
+[[Catégorie:Toponymes dont l’origine est maritime en gallois]]

@@ -1,0 +1,1011 @@
+{{voir/wikipedia}}
+
+== {{langue|af}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|en|af|Wikipedia}}.
+
+=== {{S|nom propre|af}} ===
+'''Wikipedia''' {{pron||af}}
+# [[Wikipédia]].
+#* {{exemple|lang=af}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=af}}
+
+== {{langue|ak}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|en|ak|Wikipedia}}.
+
+=== {{S|nom propre|ak}} ===
+'''Wikipedia''' {{pron||ak}}
+# [[Wikipédia]].
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=ak}}
+
+== {{langue|sq}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|en|sq|Wikipedia}}.
+
+=== {{S|nom propre|sq}} ===
+'''Wikipedia''' {{pron||sq}}
+# [[Wikipédia]].
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=sq}}
+* {{WB|lang=sq}}
+
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|en|gsw|Wikipedia}}.
+
+=== {{S|nom propre|gsw}} ===
+'''Wikipedia''' {{pron||gsw}}
+# [[Wikipédia]].
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=gsw}}
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|en|de|Wikipedia}}.
+
+=== {{S|nom propre|de}} ===
+{{de-nom-f-s}}
+'''Wikipedia''' {{pron|ˌvi.ki.ˈpeː.diː.aː|de}} {{f}}
+# [[Wikipédia]].
+#* {{exemple | lang=de | Die '''Wikipedia''' ist die für mich interessanteste Entdeckung im Internet.}}
+
+=== {{S|prononciation}} ===
+* {{écouter||ˌvi.ki.ˈpeː.diː.aː|lang=de|audio=De-Wikipedia.ogg}}
+* {{écouter|Berlin|ˌvɪkiˈpeːdi̯a|lang=de|audio=De-Wikipedia2.ogg}}
+* {{écouter|Pays-Bas (Royaume des Pays-Bas)||lang=de|audio=LL-Q188 (deu)-Ziko-Wikipedia.wav}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=de}}
+* {{R:Duden|Wikipedia}}
+
+== {{langue|en}} ==
+=== {{S|étymologie}} ===
+: Il s’agit d’un {{mot-valise|en}} anglais obtenu à partir de ''{{lien|wiki|en}}'' et de {{lien|''encyclopedia''|en|sens=[[encyclopédie]]}}.
+
+=== {{S|nom propre|en}} ===
+'''Wikipedia''' {{pron|ˌwɪk.i.ˈpi.di.ə|en}} {{US|nocat=1}}, {{pron|ˌwi.ki.ˈpiː.dɪə|en}} {{UK|nocat=1}}
+# [[Wikipédia]].
+
+=== {{S|verbe|en}} ===
+{{en-conj-rég|inf.pron=ˌwɪk.i.ˈpi.di.ə}}
+'''Wikipedia''' {{pron|ˌwɪk.i.ˈpi.di.ə|en}} {{US|nocat=1}}, {{pron|ˌwi.ki.ˈpiː.dɪə|en}} {{UK|nocat=1}} {{t|en}}
+# Rechercher de l’information dans [[Wikipédia]]. [[wikipédier|Wikipédier]].
+#* {{exemple | lang=en | I '''Wikipediaed''' the article on science and learned about the scientific method.}}
+# {{rare|en}} Ajouter de l’information à [[Wikipédia]], éditer un article.
+#* {{exemple | lang=en | I am going to '''Wikipedia''' the article on my favorite actor.}}
+
+==== {{S|variantes orthographiques}} ====
+* {{lien|wikipedia|en|verb}}
+
+==== {{S|dérivés}} ====
+* {{lien|Wokepedia|en}} {{péjoratif|nocat=1}}
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=en|Royaume-Uni|ˌwi.ki.ˈpiː.dɪə|audio=En-uk-Wikipedia.ogg}}
+* {{écouter|lang=en|États-Unis <!-- précisez svp la ville ou la région -->|ˌwɪk.i.ˈpi.di.ə|audio=En-us-Wikipedia.ogg}}
+* {{écouter|lang=en|Royaume-Uni (Londres)||audio=LL-Q1860 (eng)-Back ache-Wikipedia.wav}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=en}}
+* {{WQ|lang=en}}
+* {{WV|lang=en}}
+* {{WB|lang=en|Wikimedia/Wikipedia}}
+
+== {{langue|rup}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|en|rup|Wikipedia}}.
+
+=== {{S|nom propre|rup}} ===
+'''Wikipedia''' {{pron||rup}}
+# [[Wikipédia]].
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=rup}}
+
+== {{langue|map-bms}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|en|map-bms|Wikipedia}}.
+
+=== {{S|nom propre|map-bms}} ===
+'''Wikipedia''' {{pron||map-bms}}
+# [[Wikipédia]].
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=map-bms}}
+
+== {{langue|nds}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|en|nds|Wikipedia}}.
+
+=== {{S|nom propre|nds}} ===
+'''Wikipedia''' {{pron||nds}}
+# [[Wikipédia]].
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=nds}}
+
+== {{langue|eu}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|en|eu|Wikipedia}}.
+
+=== {{S|nom propre|eu}} ===
+'''Wikipedia''' {{pron||eu}}
+# [[Wikipédia]].
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=eu}}
+
+== {{langue|bar}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|en|bar|Wikipedia}}.
+
+=== {{S|nom propre|bar}} ===
+'''Wikipedia''' {{pron||bar}}
+# [[Wikipédia]].
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=bar}}
+
+== {{langue|bi}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|en|bi|Wikipedia}}.
+
+=== {{S|nom propre|bi}} ===
+'''Wikipedia''' {{pron||bi}}
+# [[Wikipédia]].
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=bi}}
+
+== {{langue|bs}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|en|bs|Wikipedia}}.
+
+=== {{S|nom propre|bs}} ===
+'''Wikipedia''' {{pron||bs}}
+# [[Wikipédia]].
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=bs}}
+
+== {{langue|br}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|en|br|Wikipedia}}.
+
+=== {{S|nom propre|br}} ===
+'''Wikipedia''' {{pron|wi.ki.pe.ˈdiː.a|br}}
+# [[Wikipédia]].
+#* {{exemple | lang=br
+ | Ouzhpenn '''Wikipedia''' ez eus bet boulcʼhet raktresoù kar all abaoe gant ar Wikimedia Foundation, ar Wikimammenn, ul levraoueg testennoù aet en domani foran hag ar Wikeriadur, ur geriadur digor.
+ | En plus de Wikipédia, la Wikimedia Foundation a lancé d’autres projets apparentés depuis, la Wikisource, une bibliothèque de textes tombés dans le domaine public, et le Wiktionnaire, un dictionnaire libre.
+ | source=Yves-Marie Derbré, ''Kresk Wikipedia e brezhoneg'', in ''{{w|Ya !}}'', {{numéro|473}}, 4 juillet 2014, page 3}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=br}}
+
+== {{langue|bug}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|en|bug|Wikipedia}}.
+
+=== {{S|nom propre|bug}} ===
+'''Wikipedia''' {{pron||bug}}
+# [[Wikipédia]].
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=bug}}
+
+== {{langue|cbk-zam}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|en|cbk-zam|Wikipedia}}.
+
+=== {{S|nom propre|cbk-zam}} ===
+'''Wikipedia''' {{pron||cbk-zam}}
+# [[Wikipédia]].
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=cbk-zam}}
+
+== {{langue|chy}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|en|chy|Wikipedia}}.
+
+=== {{S|nom propre|chy}} ===
+'''Wikipedia''' {{pron||chy}}
+# [[Wikipédia]].
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=chy}}
+
+== {{langue|co}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|en|co|Wikipedia}}.
+
+=== {{S|nom propre|co}} ===
+'''Wikipedia''' {{pron||co}}
+# [[Wikipédia]].
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=co}}
+
+== {{langue|da}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|en|da|Wikipedia}}.
+
+=== {{S|nom propre|da}} ===
+'''Wikipedia''' {{pron||da}}
+# [[Wikipédia]].
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=da}}
+* {{WQ|lang=da}}
+* {{WB|lang=da}}
+
+== {{langue|es}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|en|es|Wikipedia}}.
+
+=== {{S|nom propre|es}} ===
+'''Wikipedia''' {{phon|wikiˈpeðja|es}} {{f}} {{pluriel ?|es}}
+# [[Wikipédia]].
+#* {{exemple | lang=es
+ | Miguel Blesa acusa al juez que le encarceló de «beber» de la '''Wikipedia''' en sus autos
+ | source=[http://www.lavozdegalicia.es/noticia/espana/2013/05/29/miguel-blesa-acusa-juez-encarcelo-beber-wikipedia-autos/00031369835148058878668.htm lavozdegalicia.es - EFE, 29/05/2013]}}
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=es||audio=Es-Wikipedia.ogg}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=es}}
+* {{WQ|lang=es}}
+
+== {{langue|fo}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|en|fo|Wikipedia}}.
+
+=== {{S|nom propre|fo}} ===
+'''Wikipedia''' {{pron||fo}}
+# [[Wikipédia]].
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=fo}}
+
+== {{langue|fi}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|en|fi|Wikipedia}}.
+
+=== {{S|nom propre|fi}} ===
+'''Wikipedia''' {{pron||fi}}
+# [[Wikipédia]].
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=fi}}
+* {{WQ|lang=fi}}
+
+== {{langue|vls}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|en|vls|Wikipedia}}.
+
+=== {{S|nom propre|vls}} ===
+'''Wikipedia''' {{pron||vls}}
+# [[Wikipédia]].
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=vls}}
+
+== {{langue|fy}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|en|fy|Wikipedia}}.
+
+=== {{S|nom propre|fy}} ===
+'''Wikipedia''' {{pron||fy}}
+# [[Wikipédia]].
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=fy}}
+
+== {{langue|stq}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|en|stq|Wikipedia}}.
+
+=== {{S|nom propre|stq}} ===
+'''Wikipedia''' {{pron||stq}}
+# [[Wikipédia]].
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=stq}}
+
+== {{langue|frr}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|en|frr|Wikipedia}}.
+
+=== {{S|nom propre|frr}} ===
+'''Wikipedia''' {{pron||frr}}
+# [[Wikipédia]].
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=frr||audio=Fr-Wikipedia.ogg}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=frr}}
+
+== {{langue|gl}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|en|gl|Wikipedia}}.
+
+=== {{S|nom propre|gl}} ===
+'''Wikipedia''' {{pron||gl}}
+# [[Wikipédia]].
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=gl}}
+
+== {{langue|cy}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|en|cy|Wikipedia}}.
+
+=== {{S|nom propre|cy}} ===
+'''Wikipedia''' {{pron||cy}}
+# [[Wikipédia]].
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=cy}}
+
+== {{langue|kl}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|en|kl|Wikipedia}}.
+
+=== {{S|nom propre|kl}} ===
+'''Wikipedia''' {{pron||kl}}
+# [[Wikipédia]].
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=kl}}
+
+== {{langue|id}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|en|id|Wikipedia}}.
+
+=== {{S|nom propre|id}} ===
+'''Wikipedia''' {{pron||id}}
+# [[Wikipédia]].
+#* {{exemple|lang=id}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=id}}
+
+== {{langue|ig}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|en|ig|Wikipedia}}.
+
+=== {{S|nom propre|ig}} ===
+'''Wikipedia''' {{pron||ig}}
+# [[Wikipédia]].
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=ig}}
+
+== {{langue|ilo}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|en|ilo|Wikipedia}}.
+
+=== {{S|nom propre|ilo}} ===
+'''Wikipedia''' {{pron||ilo}}
+# [[Wikipédia]].
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=ilo}}
+
+== {{langue|ia}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|en|ia|Wikipedia}}.
+
+=== {{S|nom propre|ia}} ===
+'''Wikipedia''' {{pron||ia}}
+# [[Wikipédia]].
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=ia}}
+
+== {{langue|ie}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|en|ie|Wikipedia}}.
+
+=== {{S|nom propre|ie}} ===
+'''Wikipedia''' {{pron||ie}}
+# [[Wikipédia]].
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=ie}}
+
+== {{langue|is}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|en|is|Wikipedia}}.
+
+=== {{S|nom propre|is}} ===
+'''Wikipedia''' {{pron||is}}
+# [[Wikipédia]].
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=is}}
+
+== {{langue|it}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|en|it|Wikipedia}}.
+
+=== {{S|nom propre|it}} ===
+{{it-flexion|vi.ki.pe.ˈdi:.}}
+'''Wikipedia''' {{pron|vi.ki.pe.ˈdi:.a|it}} ou {{pron|vi.ki.ˈpe:.dja|it}} {{f}}
+# [[Wikipédia]].
+
+==== {{S|dérivés}} ====
+* {{lien|wikipediabile|it|sens=wikipédiable}}
+* {{lien|wikipediana|it|sens=wikipédienne}}
+* {{lien|wikipediano|it|sens=wikipédien}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=it|Wikipedia (disambigua)}}
+* {{WQ|lang=it}}
+
+== {{langue|jv}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|en|jv|Wikipedia}}.
+
+=== {{S|nom propre|jv}} ===
+'''Wikipedia''' {{pron||jv}}
+# [[Wikipédia]].
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=jv}}
+
+== {{langue|pam}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|en|pam|Wikipedia}}.
+
+=== {{S|nom propre|pam}} ===
+'''Wikipedia''' {{pron||pam}}
+# [[Wikipédia]].
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=pam}}
+
+== {{langue|kaa}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|en|kaa|Wikipedia}}.
+
+=== {{S|nom propre|kaa}} ===
+'''Wikipedia''' {{pron||kaa}}
+# [[Wikipédia]].
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=kaa}}
+
+== {{langue|lld}} ==
+{{ébauche|lld}}
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|lld}}
+
+=== {{S|nom propre|lld}} ===
+'''Wikipedia''' {{pron||lld}}
+# [[Wikipédia#fr|Wikipédia]].
+#* {{exemple|lang=lld}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=lld}}
+
+== {{langue|lij}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|en|lij|Wikipedia}}.
+
+=== {{S|nom propre|lij}} ===
+'''Wikipedia''' {{pron||lij}}
+# [[Wikipédia]].
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=lij}}
+
+== {{langue|li}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|en|li|Wikipedia}}.
+
+=== {{S|nom propre|li}} ===
+'''Wikipedia''' {{pron||li}}
+# [[Wikipédia]].
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=li}}
+
+== {{langue|lmo}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|en|lmo|Wikipedia}}.
+
+=== {{S|nom propre|lmo}} ===
+'''Wikipedia''' {{pron||lmo}}
+# [[Wikipédia]].
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=lmo}}
+
+== {{langue|lb}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|en|lb|Wikipedia}}.
+
+=== {{S|nom propre|lb}} ===
+'''Wikipedia''' {{pron||lb}}
+# [[Wikipédia]].
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=lb}}
+
+== {{langue|ms}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|en|ms|Wikipedia}}.
+
+=== {{S|nom propre|ms}} ===
+'''Wikipedia''' {{pron||ms}}
+# [[Wikipédia]].
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=ms}}
+
+== {{langue|mg}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|en|mg|Wikipedia}}.
+
+=== {{S|nom propre|mg}} ===
+'''Wikipedia''' {{pron|wikipediạ|mg}}
+# [[Wikipédia]].
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=mg}}
+
+== {{langue|gv}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|en|gv|Wikipedia}}.
+
+=== {{S|nom propre|gv}} ===
+'''Wikipedia''' {{pron||gv}}
+# [[Wikipédia]].
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=gv}}
+
+== {{langue|mi}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|en|mi|Wikipedia}}.
+
+=== {{S|nom propre|mi}} ===
+'''Wikipedia''' {{pron||mi}}
+# [[Wikipédia]].
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=mi}}
+
+== {{langue|cdo}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|en|cdo|Wikipedia}}.
+
+=== {{S|nom propre|cdo}} ===
+'''Wikipedia''' {{pron||cdo}}
+# [[Wikipédia]].
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=cdo}}
+
+== {{langue|nan}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|en|nan|Wikipedia}}.
+
+=== {{S|nom propre|nan}} ===
+'''Wikipedia''' {{pron||nan}}
+# [[Wikipédia]].
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=nan}}
+
+== {{langue|nap}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|en|nap|Wikipedia}}.
+
+=== {{S|nom propre|nap}} ===
+'''Wikipedia''' {{pron||nap}}
+# [[Wikipédia]].
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=nap}}
+
+== {{langue|nl}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|en|nl|Wikipedia}}.
+
+=== {{S|nom propre|nl}} ===
+'''Wikipedia''' {{pron||nl}}
+# [[Wikipédia]].
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=nl||audio=Nl-Wikipedia.ogg}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=nl}}
+* {{WQ|lang=nl}}
+
+== {{langue|no}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|en|no|Wikipedia}}.
+
+=== {{S|nom propre|no}} ===
+'''Wikipedia''' {{pron||no}}
+# [[Wikipédia]].
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=no}}
+
+== {{langue|nn}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|en|nn|Wikipedia}}.
+
+=== {{S|nom propre|nn}} ===
+'''Wikipedia''' {{pron||nn}}
+# [[Wikipédia]].
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=nn}}
+
+== {{langue|pfl}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|en|pfl|Wikipedia}}.
+
+=== {{S|nom propre|pfl}} ===
+'''Wikipedia''' {{pron||pfl}}
+# [[Wikipédia]].
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=pfl}}
+
+== {{langue|pag}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|en|pag|Wikipedia}}.
+
+=== {{S|nom propre|pag}} ===
+'''Wikipedia''' {{pron||pag}}
+# [[Wikipédia]].
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=pag}}
+
+== {{langue|pap}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|en|pap|Wikipedia}}.
+
+=== {{S|nom propre|pap}} ===
+'''Wikipedia''' {{pron||pap}}
+# [[Wikipédia]].
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=pap}}
+
+== {{langue|pms}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|en|pms|Wikipedia}}.
+
+=== {{S|nom propre|pms}} ===
+'''Wikipedia''' {{pron||pms}}
+# [[Wikipédia]].
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=pms}}
+
+== {{langue|pl}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|en|pl|Wikipedia}}.
+
+=== {{S|nom propre|pl}} ===
+'''Wikipedia''' {{pron|vi.ki.pɛd.ja|pl}} {{f}}
+# [[Wikipédia]].
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=pl|Pologne|audio=Pl-Wikipedia.ogg}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=pl}}
+* {{WQ|lang=pl}}
+
+== {{langue|ro}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|en|ro|Wikipedia}}.
+
+=== {{S|nom propre|ro}} ===
+'''Wikipedia''' {{pron||ro}}
+# [[Wikipédia]].
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=ro}}
+* {{WQ|lang=ro}}
+
+== {{langue|se}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|en|se|Wikipedia}}.
+
+=== {{S|nom propre|se}} ===
+'''Wikipedia''' {{phono||se}}
+# [[Wikipédia]].
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=se}}
+
+== {{langue|sm}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|en|sm|Wikipedia}}.
+
+=== {{S|nom propre|sm}} ===
+'''Wikipedia''' {{pron||sm}}
+# [[Wikipédia]].
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=sm}}
+
+== {{langue|sc}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|en|sc|Wikipedia}}.
+
+=== {{S|nom propre|sc}} ===
+'''Wikipedia''' {{pron||sc}}
+# [[Wikipédia]].
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=sc}}
+
+== {{langue|sh}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|en|sh|Wikipedia}}.
+
+=== {{S|nom propre|sh}} ===
+'''Wikipedia''' {{pron||sh}}
+# [[Wikipédia]].
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=sh}}
+
+== {{langue|scn}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|en|scn|Wikipedia}}.
+
+=== {{S|nom propre|scn}} ===
+'''Wikipedia''' {{pron||scn}}
+# [[Wikipédia]].
+
+=== {{S|prononciation}} ===
+* {{écouter|Gela (Italie)||lang=scn|audio=LL-Q33973 (scn)-XANA000-Wikipedia.wav}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=scn}}
+
+== {{langue|so}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|en|so|Wikipedia}}.
+
+=== {{S|nom propre|so}} ===
+'''Wikipedia''' {{pron||so}}
+# [[Wikipédia]].
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=so}}
+
+== {{langue|nso}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|en|nso|Wikipedia}}.
+
+=== {{S|nom propre|nso}} ===
+'''Wikipedia''' {{pron||nso}}
+# [[Wikipédia]].
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=nso}}
+
+== {{langue|srn}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|en|srn|Wikipedia}}.
+
+=== {{S|nom propre|srn}} ===
+'''Wikipedia''' {{pron||srn}}
+# [[Wikipédia]].
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=srn}}
+
+== {{langue|sv}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|en|sv|Wikipedia}}.
+
+=== {{S|nom propre|sv}} ===
+'''Wikipedia''' {{pron||sv}}
+# [[Wikipédia]].
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=sv}}
+* {{WQ|lang=sv}}
+
+== {{langue|sw}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|en|sw|Wikipedia}}.
+
+=== {{S|nom propre|sw}} ===
+'''Wikipedia''' {{pron||sw}}
+# [[Wikipédia]].
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=sw}}
+
+== {{langue|ss}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|en|ss|Wikipedia}}.
+
+=== {{S|nom propre|ss}} ===
+'''Wikipedia''' {{pron||ss}}
+# [[Wikipédia]].
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=ss}}
+
+== {{langue|tl}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|en|tl|Wikipedia}}.
+
+=== {{S|nom propre|tl}} ===
+'''Wikipedia''' {{pron||tl}}
+# [[Wikipédia]].
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=tl}}
+
+== {{langue|tt}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|en|tt|Wikipedia}}.
+
+=== {{S|nom propre|tt}} ===
+'''Wikipedia''' {{pron||tt}}
+# [[Wikipédia]].
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=tt}}
+
+== {{langue|tpi}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|en|tpi|Wikipedia}}.
+
+=== {{S|nom propre|tpi}} ===
+'''Wikipedia''' {{pron||tpi}}
+# [[Wikipédia]].
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=tpi}}
+
+== {{langue|tn}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|en|tn|Wikipedia}}.
+
+=== {{S|nom propre|tn}} ===
+'''Wikipedia''' {{pron||tn}}
+# [[Wikipédia]].
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=tn}}
+
+== {{langue|tw}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|en|tw|Wikipedia}}.
+
+=== {{S|nom propre|tw}} ===
+'''Wikipedia''' {{pron||tw}}
+# [[Wikipédia]].
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=tw}}
+
+== {{langue|ve}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|en|ve|Wikipedia}}.
+
+=== {{S|nom propre|ve}} ===
+'''Wikipedia''' {{pron||ve}}
+# [[Wikipédia]].
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=ve}}
+
+== {{langue|vec}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|en|vec|Wikipedia}}.
+
+=== {{S|nom propre|vec}} ===
+'''Wikipedia''' {{pron||vec}}
+# [[Wikipédia]].
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=vec}}
+
+== {{langue|vi}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|en|vi|Wikipedia}}.
+
+=== {{S|nom propre|vi}} ===
+'''Wikipedia''' {{pron||vi}}
+# [[Wikipédia]].
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=vi}}
+* {{WQ|lang=vi}}
+* {{WB|lang=vi|Wikimedia/Wikipedia}}
+
+== {{langue|wa}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|en|wa|Wikipedia}}.
+
+=== {{S|nom propre|wa}} ===
+'''Wikipedia''' {{pron||wa}}
+# [[Wikipédia]].
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=wa}}
+
+== {{langue|war}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|en|war|Wikipedia}}.
+
+=== {{S|nom propre|war}} ===
+'''Wikipedia''' {{pron||war}}
+# [[Wikipédia]].
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=war}}
+
+== {{langue|wo}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|en|wo|Wikipedia}}.
+
+=== {{S|nom propre|wo}} ===
+'''Wikipedia''' {{pron||wo}}
+# [[Wikipédia]].
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=wo}}
+
+== {{langue|yo}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|en|yo|Wikipedia}}.
+
+=== {{S|nom propre|yo}} ===
+'''Wikipedia''' {{pron||yo}}
+# [[Wikipédia]].
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=yo}}
+
+== {{langue|zea}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|en|zea|Wikipedia}}.
+
+=== {{S|nom propre|zea}} ===
+'''Wikipedia''' {{pron||zea}}
+# [[Wikipédia]].
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=zea}}
+
+== {{langue|zu}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|en|zu|Wikipedia}}.
+
+=== {{S|nom propre|zu}} ===
+'''Wikipedia''' {{pron||zu}}
+# [[Wikipédia]].
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=zu}}

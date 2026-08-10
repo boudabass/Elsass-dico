@@ -1,0 +1,27 @@
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw}}
+
+=== {{S|nom propre|gsw}} ===
+'''Neuseeland''' {{pron||gsw}}
+# [[Nouvelle-Zélande]] (pays d’[[Océanie]]).
+
+[[Catégorie:Pays en alémanique]]
+[[Catégorie:Toponymes dont l’origine est maritime en alémanique]]
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|de}}
+
+=== {{S|nom propre|de}} ===
+'''Neuseeland''' {{pron|nɔɪ̯ˈzeːlant|de}} {{n}}
+# [[Nouvelle-Zélande]] (pays d’[[Océanie]]).
+#* {{exemple | lang=de | '''Neuseeland''' ist berühmt für seine faszinierende Vogelwelt.}}
+
+=== {{S|prononciation}} ===
+* {{écouter||nɔɪ̯ˈzeːlant|lang=de|audio=De-Neuseeland.ogg}}
+
+
+[[Catégorie:Pays d’Océanie en allemand]]
+[[Catégorie:Toponymes dont l’origine est maritime en allemand]]
+[[Catégorie:Nouvelle-Zélande en allemand|*]]

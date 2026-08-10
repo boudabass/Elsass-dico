@@ -1,0 +1,9 @@
+== {{langue|gsw}} ==
+{{ébauche|gsw}}
+
+=== {{S|étymologie}} ===
+: Mot composé de ''[[Elsässer#gsw|Elsässer]]'' (« de l’[[Alsace]] ») et ''[[Ditsch#gsw|Ditsch]]'' (« Allemand »).
+
+=== {{S|nom|gsw}} ===
+'''Elsässerditsch''' {{pron||gsw}}
+# [[alsacien#fr|Alsacien]] (langue).

@@ -1,0 +1,10 @@
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw}}
+
+=== {{S|nom propre|gsw}} ===
+'''Republik Nordmazedonie''' {{pron||gsw}}
+# {{pays|gsw}} [[République de Macédoine du Nord]].
+
+==== {{S|synonymes}} ====
+* {{WP|lang=gsw}}

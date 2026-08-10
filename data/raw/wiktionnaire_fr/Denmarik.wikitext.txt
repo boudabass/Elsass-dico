@@ -1,0 +1,13 @@
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: Dérivé du mot danois ''[[Danmark]]''.
+
+=== {{S|nom propre|gsw}} ===
+'''Denmarik'''
+# [[Danemark]] (pays d’[[Europe]]).
+
+==== {{S|synonymes}} ====
+* [[Dänemark]]
+
+
+[[Catégorie:Pays en alémanique]]

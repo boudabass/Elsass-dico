@@ -1,0 +1,13 @@
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw}}
+
+=== {{S|nom propre|gsw}} ===
+'''Wickersche''' {{pron||gsw}}
+# {{Alsace|gsw}} {{localités|gsw|du département du Bas-Rhin}} [[Breuschwickersheim#fr|Breuschwickersheim]], [[commune]] [[français]]e, située dans le département du [[Bas-Rhin]].
+#* {{exemple|lang=gsw}}
+# {{Alsace|gsw}} {{localités|gsw|du département du Bas-Rhin}} [[Wickersheim-Wilshausen#fr|Wickersheim-Wilshausen]], [[commune]] [[français]]e, située dans le département du [[Bas-Rhin]].
+#* {{exemple|lang=gsw}}
+
+==== {{S|notes}} ====
+* Pour éviter la confusion, lorsqu'il faut distinguer ''Breuschwickersheim'' de ''Wickersheim-Wilshausen'', on utilise ''Breusch'''wickersche''''' pour parler du premier.

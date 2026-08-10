@@ -1,0 +1,611 @@
+{{voir|Afghánistán}}
+
+== {{langue|fr}} ==
+
+=== {{S|étymologie}} ===
+: {{date|lang=fr}} Du {{étylp|fa|fr|افغانستان|afğânestân}} ou du {{étylp|ps|fr|افغانستان|afǧānestãn|Afghanistan}} {{cf|Afghan|afghani|-stan|lang=fr}}.
+
+=== {{S|nom propre|fr}} ===
+[[Image:LocationAfghanistan.png|right|thumb|200px|Localisation de l’'''Afghanistan'''.]]
+'''Afghanistan''' {{pron|af.ɡa.ni.stɑ̃|fr}} {{m}}
+# {{pays|fr|d’Asie}} Pays d’[[Asie]] centrale, entouré de l’[[Iran]] à l’[[ouest]], du [[Pakistan]] au [[sud]], de la [[Chine]] à l’[[est]], du [[Tadjikistan]], de l’[[Ouzbékistan]] et du [[Turkménistan]] au [[nord]]. Sa capitale est [[Kaboul]].
+#* {{exemple | lang=fr
+ | On sait combien l’ethnologie de l’'''Afghanistan''' est complexe. Dans un récent travail, le Dr H. W. Bellew a essayé de déterminer l’import de la race grecque dans la population afghane. <br>En étudiant les Barakis du Caboul, M. Bellew constate que leurs traditions les distinguent nettement des Pathans, des Turcs et des Mogols; leur langue aussi constitue un dialecte particulier.
+ | source=''Revue des questions scientifiques'', vol. 31-32, Société scientifique de Bruxelles, 1892, page 647}}
+#* {{exemple|lang=fr|Au-delà du paysage d’astre mort, son regard intérieur découvrait des vallées enchantées, des villes tumultueuses, de brûlants déserts, des steppes immenses. Et c’était l’'''Afghanistan'''. Il en connaissait toutes les provinces et les pistes et les sentes. Il avait cheminé le long de toutes ses frontières : la persane et la russe, la tibétaine et l’hindoue.|source={{w|Joseph Kessel}}, ''{{w|Les Cavaliers (roman)|Les Cavaliers}}'', Gallimard, 1967}}
+# {{lexique|politique|fr}} [[État]] qui a pour nom officiel [[République islamique d’Afghanistan]].
+#* {{exemple | lang=fr
+ | Ce fut le 2 novembre 1841 que la révolte générale éclata dans la capitale de l’'''Afghanistan'''.
+ | source=John Lemoinne,''Journal d’un prisonnier en '''Afghanistan''''', Revue des Deux Mondes, tome 1, 1843}}
+#* {{exemple | lang=fr
+ | Un traité a été conclu au mois de mars 1905, entre l’Angleterre et l’'''Afghanistan''', traité qui continue l’œuvre que la politique britannique poursuit en ce pays depuis près d’un siècle, œuvre de « défense de l’Inde » dont la formule a été amplifiée, mais non point inventée en ces dernières années.
+ | source=Rouire, ''Les Anglais et l’'''Afghanistan''' – Le dernier traité anglo-afghan'', Revue des Deux mondes, tome 32, 1906}}
+#* {{exemple | lang=fr
+ | Tu sais combien de piges il m’a pris, le casse-pipe ? Cinq. Cinq longues années de chiennerie. '''Afghanistan''' de mes couilles ! Montagnes de mes couilles ! Putain de guerre…
+ | source=Dmitri Bortnikov, ''Le Syndrome de Fritz'', traduit du russe par Julie Bouvard, Les Éditions Noir sur Blanc, 2012}}
+
+==== {{S|abréviations}} ====
+* [[AFG]] (norme {{w|ISO 3166-1}} alpha-3)
+* [[Afgh.]]&thinsp;<ref>{{w|Office québécois de la langue française}}, ''Banque de dépannage linguistique : Index thématique : Les noms propres : Noms géographiques et gentilés : Noms de pays et gentilés : [https://web.archive.org/web/20200920142444/http://bdl.oqlf.gouv.qc.ca/bdl/gabarit_bdl.asp?Th=2&t1=&id=2752 Abréviations des noms de pays commençant par A]''</ref>
+
+==== {{S|gentilés}} ====
+* [[Afghan]], [[Afghane]], [[afghan]]
+
+==== {{S|synonymes}} ====
+{{(|État}}
+* [[cimetière des empires]] ''(surnom)''
+* [[Kaboul]] {{par métonymie|nocat=1}}
+* [[pays des Cavaliers]]
+* [[République islamique d’Afghanistan]]
+* [[RIA]] {{term|sigle}}
+* [[tombeau des empires]] ''(surnom)''
+{{)}}
+
+==== {{S|dérivés}} ====
+{{(}}
+* [[anti-afghan]]
+* [[Afghan]], [[afghan]]
+* [[afghaniser]]
+* [[afghano-]]
+* [[afghanophile]]
+* [[afghanophilie]]
+* [[afghanophobe]]
+* [[afghanophobie]]
+* [[Afpak]]
+* [[pro-afghan]]
+{{)}}
+
+==== {{S|hyperonymes}} ====
+{{(}}
+* [[Asie]]
+**[[Asie centrale]]
+*** '''Afghanistan'''
+* [[État]], [[nation]], [[pays]]
+** [[république]]
+*** [[république islamique]]
+**** '''Afghanistan'''
+{{)}}
+
+==== {{S|hyponymes}} ====
+{{(|[[province]]}}
+* [[Badakhchan]]
+* [[Bâdghîs]]
+* [[Baghlân]] (autrefois [[Kataghan]])
+* [[Balkh]]
+* [[Bamiyan]], [[Bâmiyân]]
+* [[Deykandi]]
+* [[Djôzdjân]]
+* [[Farâh]]
+* [[Fâryâb]]
+* [[Ghazni]]
+* [[Ghôr]]
+* [[Helmand]]
+* [[Hérât]], [[Herat]]
+* [[Kaboul]]
+* [[Kandahar]]
+* [[Kâpîssâ]]
+* [[Khôst]]
+* [[Kounar]]
+* [[Kondôz]]
+* [[Laghmân]]
+* [[Lôgar]]
+* [[Nangarhâr]]
+* [[Nimrôz]]
+* [[Nourestân]]
+* [[Orozgân]]
+* [[Paktîkâ]]
+* [[Paktiyâ]]
+* [[Pandjchir]]
+* [[Parwân]]
+* [[Samangân]]
+* [[Sar-é Pol]]
+* [[Takhâr]]
+* [[Wardak]]
+* [[Zâbol]]
+'''[[district]]'''
+* [[Bagrami]]
+* [[Istalif]]
+'''[[ville]]'''
+* [[Maïmana]]
+* [[Mazar-Y-Cherif]]
+{{)}}
+
+==== {{S|vocabulaire}} ====
+* {{voir thésaurus|fr|lapis lazuli|émeraude}}
+* [[Kaboul]]
+* [[Kandahar]]
+* [[shalwar kameez]]
+* [[taliban]]
+
+==== {{S|traductions}} ====
+{{trad-début|Pays d’Asie centrale}}
+* {{T|af}} : {{trad+|af|Afghanistan}}
+* {{T|sq}} : {{trad+|sq|Afganistani}}
+* {{T|gsw}} : {{trad|gsw|Afghanistan}}
+* {{T|de}} : {{trad+|de|Afghanistan}}
+* {{T|nds}} : {{trad+|nds|Afghanistan}}
+* {{T|am}} : {{trad-|am|አፍጋኒስታን}}
+* {{T|en}} : {{trad+|en|Afghanistan}}
+* {{T|ar}} : {{trad+|ar|أفغانستان}}
+* {{T|an}} : {{trad-|an|Afganistán}}
+* {{T|hy}} : {{trad+|hy|Աֆղանստան|tr=Afġanstan}}
+* {{T|ast}} : {{trad+|ast|Afganistán}}
+* {{T|az}} : {{trad+|az|Əfqanıstan}}
+* {{T|bm}} : {{trad-|bm|Afiganisitan}}, {{trad-|bm|Áfugan}}, {{trad-|bm|Afuganisitan}}
+* {{T|eu}} : {{trad+|eu|Afganistan}}
+* {{T|bs}} : {{trad-|bs|Afganistan}}
+* {{T|br}} : {{trad-|br|Afghanistan}}
+* {{T|bg}} : {{trad+|bg|Афганистан|tr=Afganistan}}
+* {{T|ca}} : {{trad+|ca|Afganistan}}
+* {{T|zh}} : {{trad+|zh|阿富汗|tr=Afùhàn}}
+* {{T|ko}} : {{trad+|ko|아프가니스탄|tr=Apeuganiseutan}}
+* {{T|ht}} : {{trad|ht|Afganistan}}
+* {{T|hr}} : {{trad+|hr|Afganistan}}
+* {{T|da}} : {{trad+|da|Afghanistan}}
+* {{T|es}} : {{trad+|es|Afganistán}}
+* {{T|eo}} : {{trad-|eo|Afganio}}, {{trad-|eo|Afganujo}}, {{trad-|eo|Afganlando}}, {{trad-|eo|Afganistano}}
+* {{T|et}} : {{trad+|et|Afganistan}}
+* {{T|fi}} : {{trad+|fi|Afganistan}}
+* {{T|fur}} : {{trad|fur|Afghanistan}}
+* {{T|fy}} : {{trad+|fy|Afganistan}}
+* {{T|gd}} : {{trad-|gd|Afghanistan}}
+* {{T|gl}} : {{trad+|gl|Afganistán}}
+* {{T|cy}} : {{trad+|cy|Afghanistan}}
+* {{T|ka}} : {{trad+|ka|ავღანეთი|tr=avḡanet̕i}}
+* {{T|el}} : {{trad+|el|Αφγανιστάν}}
+* {{T|gu}} : {{trad-|gu|અફઘાનિસ્તાન}}
+* {{T|he}} : {{trad+|he|אפגניסטן}}
+* {{T|hi}} : {{trad+|hi|अफगानिस्तान}}
+* {{T|hu}} : {{trad+|hu|Afganisztán}}
+* {{T|io}} : {{trad+|io|Afganistan}}
+* {{T|id}} : {{trad+|id|Afganistan}}
+* {{T|ia}} : {{trad+|ia|Afghanistan}}
+* {{T|is}} : {{trad+|is|Afganistan}}
+* {{T|it}} : {{trad+|it|Afghanistan}}
+* {{T|ja}} : {{trad+|ja|アフガニスタン|tr=Afuganisutan}}, {{trad+|ja|アフガン|tr=Afugan}}
+* {{T|kbd}} : {{trad|kbd|Афганистэн|R=Afganistèn}}
+* {{T|kk}} : {{trad+|kk|Ауғанстан|R=Auġanstan}}
+* {{T|ki}} : {{trad|ki|Afganistan}}
+* {{T|avk}} : {{trad|avk|Afganistana}}, {{trad|avk|Afgana}}
+* {{T|ku}} : {{trad+|ku|Afganistan}}
+* {{T|ku}} : {{trad+|ku|Efxanistan|f}}
+* {{T|la}} : {{trad-|la|Afgania}}
+* {{T|lv}} : {{trad+|lv|Afganistāna}}
+* {{T|li}} : {{trad+|li|Afganistan}}
+* {{T|lfn}} : {{trad|lfn|Afganistan}}
+* {{T|lt}} : {{trad+|lt|Afganistanas}}
+* {{T|lb}} : {{trad+|lb|Afghanistan}}
+* {{T|mk}} : {{trad+|mk|Авганистан|tr=Avganistan}}
+* {{T|ms}} : {{trad+|ms|Afghanistan}}
+* {{T|ml}} : {{trad-|ml|അഫ്ഗാനിസ്ഥാന്‍}}
+* {{T|gv}} : {{trad-|gv|Afghanistaan}}
+* {{T|na}} : {{trad-|na|Afganistan}}
+* {{T|nl}} : {{trad+|nl|Afghanistan}}
+* {{T|no}} : {{trad+|no|Afghanistan}}
+* {{T|nn}} : {{trad+|no|Afghanistan}}
+* {{T|os}} : {{trad|os|Афгъанистан}}
+* {{T|udm}} : {{trad|udm|Афганистан}}
+* {{T|ps}} : {{trad+|ps|افغانستان}}
+* {{T|pandunia}} : {{trad|pandunia|Afgania}}
+* {{T|fa}} : {{trad+|fa|افغانستان}}
+* {{T|pl}} : {{trad+|pl|Afganistan|m}}
+* {{T|pt}} : {{trad+|pt|Afeganistão}}
+* {{T|ro}} : {{trad+|ro|Afganistan}}
+* {{T|ru}} : {{trad+|ru|Афганистан|tr=Afganistan}}
+* {{T|se}} : {{trad|se|Afganistána}}
+* {{T|sa}} : {{trad-|sa|अफगानस्थान}}
+* {{T|sco}} : {{trad|sco|Afghanistan}}
+* {{T|sr}} : {{trad-|sr|Авганистан}}
+* {{T|scn}} : {{trad-|scn|Afganistàn}}
+* {{T|sk}} : {{trad+|sk|Afganistan}}
+* {{T|sl}} : {{trad+|sl|Afganistan}}
+* {{T|dsb}} : {{trad|dsb|Afghanistan|m}}
+* {{T|hsb}} : {{trad-|hsb|Afganiska|f}}
+* {{T|sv}} : {{trad+|sv|Afghanistan}}
+* {{T|tg}} : {{trad+|tg|Афғонистон}}
+* {{T|tl}} : {{trad-|tl|Afghanistan}}
+* {{T|ta}} : {{trad-|ta|ஆப்கானிஸ்தான்}}
+* {{T|cs}} : {{trad+|cs|Afghánistán}}
+* {{T|th}} : {{trad+|th|ประเทศอัฟกานิสถาน}}
+* {{T|tr}} : {{trad+|tr|Afganistan}}
+* {{T|uk}} : {{trad+|uk|Афганістан}}
+* {{T|vi}} : {{trad+|vi|Afghanistan}}, {{trad-|vi|Áp-ga-ni-xtan}}
+* {{T|vo}} : {{trad+|vo|Lafganistän}}
+{{trad-fin}}
+
+=== {{S|prononciation}} ===
+* {{écouter|France (Lyon)|af.ɡa.ni.stɑ̃|audio=Fr-Afghanistan.ogg|titre=Afghanistan|lang=fr}}
+* {{écouter||af.ɡa.ni.stɑ̃|lang=fr|audio=LL-Q150 (fra)-Jules78120-Afghanistan.wav}}
+* {{écouter|lang=fr|France (Paris)|audio=LL-Q150 (fra)-GrandCelinien-Afghanistan.wav}}
+* {{écouter|lang=fr|France (Occitanie)|audio=LL-Q150 (fra)-Arthur Crbz-Afghanistan.wav}}
+* {{écouter|lang=fr|France (Vosges)||audio=LL-Q150 (fra)-LoquaxFR-Afghanistan.wav}}
+* {{écouter|lang=fr|France||audio=LL-Q150 (fra)-Mecanautes-Afghanistan.wav}}
+* {{écouter|Vosges (France)||lang=fr|audio=LL-Q150 (fra)-Poslovitch-Afghanistan.wav}}
+
+=== {{S|anagrammes}} ===
+{{voir anagrammes|fr}}
+
+=== {{S|voir aussi}} ===
+* {{WP}}
+* {{Vikidia}}
+
+=== {{S|références}} ===
+<references />
+
+[[Catégorie:Afghanistan en français|*]]
+[[Catégorie:Mots en français suffixés avec -istan]]
+
+== {{langue|af}} ==
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|af}}
+
+=== {{S|nom propre|af}} ===
+'''Afghanistan''' {{pron||af}}
+# [[Afghanistan#fr|Afghanistan]] (pays asiatique).
+#* {{exemple|lang=af}}
+
+=== {{S|voir aussi}} ===
+*{{WP|Afghanistan|Afghanistan|af}}
+
+[[Catégorie:Pays d’Asie en afrikaans]]
+
+== {{langue|gsw}} ==
+{{ébauche|gsw}}
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw}}
+
+=== {{S|nom propre|gsw}} ===
+'''Afghanistan'''
+# [[Afghanistan#fr|Afghanistan]] (pays asiatique).
+
+[[Catégorie:Pays en alémanique]]
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|de}}
+
+=== {{S|nom propre|de}} ===
+{{de-nom-propre|genre=n|gs=Afghanistans}}
+'''Afghanistan''' {{pron|afˈɡaːnɪstaːn|de}}, ''toponyme''
+# [[Afghanistan#fr|Afghanistan]] (pays asiatique).
+#* {{exemple|Moskaus militärisches Desaster in '''Afghanistan''' etwa führte bekanntlich zu nichts Geringerem als dem Zerfall der Sowjetunion – und zum Aufstieg von Michail Gorbatschow.|lang=de|sens=Comme on le sait, le désastre militaire de Moscou en Afghanistan a conduit à rien de moins que la désintégration de l’Union soviétique et à l’ascension de Mikhaïl Gorbatchev.|source={{périodique|auteur=Matthias Koch|titre=Putin, der Versager|journal=RedaktionsNetzwerk Deutschland|date=12 septembre 2022|texte=https://www.rnd.de/politik/ukraine-krieg-russlands-militaer-gibt-peinliches-bild-ab-RHSZTFGNARFXDKGXF43DA6MSYY.html}}}}
+#* {{exemple|Victor Lenzen hat viele Jahre als Auslandskorrespondent gearbeitet, war im Nahen Osten, in '''Afghanistan''', in Washington, in London, schließlich in Asien.|lang=de|sens=Victor Lenzen a travaillé comme correspondant à l’étranger pendant de nombreuses années, il est allé au Proche-Orient, en Afghanistan, à Washington, à Londres, et enfin en Asie.|source={{ouvrage|auteur={{w|Melanie Raabe}}|trad=Céline Maurice|titre=Die Falle|année=2015|éditeur=btb Verlag|url=}}}}
+
+==== {{S|apparentés}} ====
+* [[afghanisch]]
+* [[Afghanin]]
+* [[Afghane]]
+* [[Afghani]]
+
+==== {{S|hyperonymes}} ====
+* [[Land]]
+* [[Staat]]
+
+==== {{S|holonymes}} ====
+* [[Vorderasien]]
+
+=== {{S|prononciation}} ===
+* {{écouter|{{DE|nocat=1}}|afˈɡaːnɪstaːn|lang=de|audio=De-Afghanistan.ogg}}
+* {{écouter|Berlin|afˈɡaːnɪstaːn|lang=de|audio=De-Afghanistan2.ogg}}
+
+=== {{S|voir aussi}} ===
+*{{WP|lang=de}}
+
+[[Catégorie:Pays d’Asie en allemand]]
+
+== {{langue|en}} ==
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|en}}
+
+=== {{S|nom propre|en}} ===
+'''Afghanistan'''
+# [[Afghanistan#fr|Afghanistan]] (pays asiatique).
+
+==== {{S|apparentés}} ====
+* [[Afghan]]
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=en|{{US|nocat=1}}|audio=En-us-Afghanistan.ogg}}
+* {{écouter|Londres (Royaume-Uni)||lang=en|audio=LL-Q1860 (eng)-Soundguys-Afghanistan.wav}}
+* {{écouter|||niveau=bon|lang=en|audio=LL-Q1860 (eng)-Jishnu12684-Afghanistan.wav}}
+* {{écouter|Khammam (Inde)||niveau=bon|lang=en|audio=LL-Q1860 (eng)-Pavani916-Afghanistan.wav}}
+
+=== {{S|voir aussi}} ===
+*{{WP|lang=en}}
+
+[[Catégorie:Pays d’Asie en anglais]]
+[[Catégorie:Afghanistan en anglais|*]]
+
+== {{langue|nds}} ==
+{{ébauche|nds}}
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|nds}}
+
+=== {{S|nom propre|nds}} ===
+'''Afghanistan'''
+# [[Afghanistan#fr|Afghanistan]] (pays asiatique).
+
+=== {{S|voir aussi}} ===
+*{{WP|lang=nds}}
+
+[[Catégorie:Pays d’Asie en bas allemand]]
+
+== {{langue|da}} ==
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|da}}
+
+=== {{S|nom propre|da}} ===
+'''Afghanistan''' {{pron||da}}
+# {{pays|da|d’Asie}} [[Afghanistan#fr|Afghanistan]] (pays asiatique).
+#* {{exemple | lang=da
+ | Mens forhandlere fra USA, Rusland, '''Afghanistan''', Taleban og flere andre sidder i fredsforhandlinger i Qatars hovedstad, Doha, om situationen i '''Afghanistan''' lider den afghanske regering imidlertid endnu et nederlag.
+ | source=« [https://politiken.dk/udland/art8322635/Vi-har-erobret-Kandahar.-Mujahedinerne-er-n%C3%A5et-til-Martyrpladsen Taleban tromler hen over Afghanistan: Vi har erobret Kandahar. Mujahedinerne er nået til Martyrpladsen] », ''Politiken'', 13 août 2021}}
+
+==== {{S|gentilés}} ====
+* {{lien|afghaner|da}}
+* {{lien|afghansk|da}}
+
+=== {{S|voir aussi}} ===
+*{{WP|lang=da}}
+[[Catégorie:Afghanistan en danois|*]]
+
+== {{langue|fur}} ==
+{{ébauche|fur}}
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|fur}}
+
+=== {{S|nom propre|fur}} ===
+'''Afghanistan'''
+# [[Afghanistan#fr|Afghanistan]] (pays asiatique).
+
+=== {{S|voir aussi}} ===
+*{{WP|lang=fur}}
+
+[[Catégorie:Pays en frioulan]]
+
+== {{langue|cy}} ==
+{{ébauche|cy}}
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|cy}}
+
+=== {{S|nom propre|cy}} ===
+'''Afghanistan'''
+# [[Afghanistan#fr|Afghanistan]] (pays asiatique).
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=cy}}
+
+[[Catégorie:Pays d’Asie en gallois]]
+
+== {{langue|gd}} ==
+{{ébauche|gd}}
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gd}}
+
+=== {{S|nom propre|gd}} ===
+'''Afghanistan'''
+# [[Afghanistan#fr|Afghanistan]] (pays asiatique).
+
+=== {{S|voir aussi}} ===
+*{{WP|lang=gd}}
+
+[[Catégorie:Pays en gaélique écossais]]
+
+== {{langue|ia}} ==
+{{ébauche|ia}}
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|ia}}
+
+=== {{S|nom propre|ia}} ===
+'''Afghanistan'''
+# [[Afghanistan#fr|Afghanistan]] (pays asiatique).
+
+=== {{S|voir aussi}} ===
+*{{WP|lang=ia}}
+
+[[Catégorie:Pays d’Asie en interlingua]]
+
+== {{langue|it}} ==
+=== {{S|étymologie}} ===
+: Transcription du pachto [[افغانستان]] ''afǧânistân'' littéralement « Terre des Afghans » , composé de [[افغان]] ''afǧân'' et de [[ستان]] ''stan''.
+
+=== {{S|nom propre|it}} ===
+'''Afghanistan''' {{pron|af.ˈɡa.ni.stan|it}} ou {{pron|af.ɡa.ni.ˈstan|it}} {{m}}
+# [[Afghanistan#fr|Afghanistan]] (pays asiatique).
+
+==== {{S|variantes}} ====
+* [[Afganistan#it|Afganistan]]
+
+==== {{S|synonymes}} ====
+* [[Repubblica Islamica dell’Afghanistan#it|Repubblica Islamica dell’Afghanistan]] ''(Nom officiel)''
+
+==== {{S|gentilés}} ====
+* [[afghano#it|afghano]], [[afghana#it|afghana]]
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=it|Italie <!-- précisez svp la ville ou la région -->||audio=It-Afghanistan.ogg}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=it}}
+* {{WQ|lang=it}}
+* {{VOY|lang=it}}
+*[[Annexe:Pays et leurs gentilés en italien]]
+
+[[Catégorie:Pays d’Asie en italien]]
+
+== {{langue|lb}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|lb}}
+
+=== {{S|nom propre|lb}} ===
+{{lb-inv|ɑfɡˈaːnistaːn|inv_titre=Nom propre}}
+'''Afghanistan''' {{pron|ɑfɡˈaːnistaːn|lb}} {{mn ?|lb}}
+# {{pays|lb|d’Asie|pays=Afghanistan|clé=*Afghanistan}} {{lien|Afghanistan|fr}}.
+#* {{exemple|lang=lb}}
+
+==== {{S|gentilés}} ====
+* {{lien|Afghan|lb|sens=Afghan}}, {{lien|Afghanin|lb|sens=Afghane}}
+* {{lien|afghanesch|lb|sens=afghan, afghane}}
+
+=== {{S|prononciation}} ===
+{{ébauche-pron-audio|lb}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=lb}}
+
+=== {{S|références}} ===
+: {{R:LOD}}
+
+== {{langue|ms}} ==
+{{ébauche|ms}}
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|ms}}
+
+=== {{S|nom propre|ms}} ===
+'''Afghanistan'''
+# [[Afghanistan#fr|Afghanistan]] (pays asiatique).
+
+=== {{S|voir aussi}} ===
+*{{WP|lang=ms}}
+
+[[Catégorie:Pays d’Asie en malais]]
+
+== {{langue|normand}} ==
+=== {{S|étymologie}} ===
+: Dérivé du {{étyl|fr|normand|Afghanistan}}.
+
+=== {{S|nom propre|normand}} ===
+'''Afghanistan''' {{pron||normand}}
+# {{pays|normand}} [[Afghanistan#fr|Afghanistan]].
+
+=== {{S|références}} ===
+* {{R:SJ}}
+
+== {{langue|no}} ==
+{{ébauche|no}}
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|no}}
+
+=== {{S|nom propre|no}} ===
+'''Afghanistan'''
+# [[Afghanistan#fr|Afghanistan]] (pays asiatique).
+
+=== {{S|prononciation}} ===
+* {{écouter|Oslo (Norvège)||lang=no|audio=LL-Q9043 (nor)-Teodor605-Afghanistan.wav}}
+
+=== {{S|voir aussi}} ===
+*{{WP|lang=no}}
+
+[[Catégorie:Pays d’Asie en norvégien]]
+
+== {{langue|nn}} ==
+{{ébauche|nn}}
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|nn}}
+
+=== {{S|nom propre|nn}} ===
+'''Afghanistan'''
+# [[Afghanistan#fr|Afghanistan]] (pays asiatique).
+
+=== {{S|voir aussi}} ===
+*{{WP|lang=nn}}
+
+[[Catégorie:Pays d’Asie en norvégien (nynorsk)]]
+
+== {{langue|nl}} ==
+{{ébauche|nl}}
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|nl}}
+
+=== {{S|nom propre|nl}} ===
+'''Afghanistan''' {{pron|ɑfˈxaːniˌstɑn|nl}} {{n}}
+# {{pays|nl|d’Asie}} [[Afghanistan#fr|Afghanistan]] (pays asiatique).
+#* {{exemple|lang=nl|De door de Verenigde Naties (VN) gemandateerde troepenmacht die na de val de taliban in december 2001 werd opgericht, speelt een sleutelrol in de internationale steun aan '''Afghanistan'''.|La présence de troupes mandatées par les Nations unies (ONU), créée après la chute des talibans en décembre 2001, joue un rôle clé dans le soutien international à l'Afghanistan. |source=Jan Moortgaat, « Begeleiding en advies in Noord-Afghanistan: een positieve evolutie voor de Landcomponent », ''Belgisch Militair Tijdschrift / Revue militaire belge'', juin 2014, pages 23 et 24}}
+
+==== {{S|gentilés}} ====
+* {{lien|Afghaan|nl}}
+* {{lien|Afghaans|nl}}
+* {{lien|Afghaanse|nl}}
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=nl||audio=Nl-Afghanistan.ogg}}
+
+=== {{S|voir aussi}} ===
+*{{WP|lang=nl}}
+
+== {{langue|sco}} ==
+=== {{S|étymologie}} ===
+: Du {{étylp|fa|sco|افغانستان}}, du {{étylp|ps|sco|افغانستان|Afghanistan}}, peut-être via l'intermédiaire de l'{{étylp|en|sco|Afghanistan}}.
+
+=== {{S|nom propre|sco}} ===
+'''Afghanistan''' {{pron||sco}}
+# {{pays|sco}} [[Afghanistan#fr|Afghanistan]] (pays d'Asie).
+
+==== {{S|gentilés}} ====
+* {{lien|Afghan|sco}}
+==== {{S|synonymes}} ====
+
+* {{lien|Islamic State o Afghanistan|sco}}
+=== {{S|références}} ===
+* {{R:WarldNames|p=4}}
+
+== {{langue|sv}} ==
+{{ébauche|sv}}
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|sv}}
+
+=== {{S|nom propre|sv}} ===
+'''Afghanistan'''
+# [[Afghanistan#fr|Afghanistan]] (pays asiatique).
+
+=== {{S|prononciation}} ===
+* {{écouter|Suède||lang=sv|audio=LL-Q9027 (swe)-Moonhouse-Afghanistan.wav}}
+
+=== {{S|voir aussi}} ===
+*{{WP|lang=sv}}
+
+[[Catégorie:Pays d’Asie en suédois]]
+
+== {{langue|tl}} ==
+{{ébauche|tl}}
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|tl}}
+
+=== {{S|nom propre|tl}} ===
+'''Afghanistan'''
+# [[Afghanistan#fr|Afghanistan]] (pays asiatique).
+
+=== {{S|voir aussi}} ===
+*{{WP|lang=tl}}
+
+[[Catégorie:Pays d’Asie en tagalog]]
+
+== {{langue|vi}} ==
+{{ébauche|vi}}
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|vi}}
+
+=== {{S|nom propre|vi}} ===
+'''Afghanistan'''
+# [[Afghanistan#fr|Afghanistan]] (pays asiatique).
+
+=== {{S|voir aussi}} ===
+*{{WP|lang=vi}}
+
+[[Catégorie:Pays d’Asie en vietnamien]]

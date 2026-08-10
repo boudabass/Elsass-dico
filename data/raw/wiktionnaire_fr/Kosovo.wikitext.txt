@@ -1,0 +1,1043 @@
+{{voir|Kosóvó}}
+
+== {{langue|fr}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étylp|sh|fr|mot=Kosovo}}.
+
+=== {{S|nom propre|fr}} ===
+'''Kosovo''' {{pron|ko.so.vo|fr}} {{m}}
+[[File:Europe-Republic of Kosovo.svg|thumb|Localisation du '''Kosovo'''.]]
+# {{régions|fr|de Serbie}} Vaste plaine constituant la partie orientale de la province du Kosovo telle qu’on la connaît actuellement.
+#* {{exemple|lang=fr  |
+Marko Kraliévitch, homme rocher, était l’image virile de la force ; les veuves de '''Kosovo''' enlacées et pleurant leurs morts me chuchotaient que le deuil est encore une forme de volupté.
+ |source={{w|Marguerite Yourcenar}}, ''Quoi ? L'Éternité'', 1988, Le Livre de Poche, page 268}}
+#* {{exemple | lang=fr
+ | En 2000, je suis allé au '''Kosovo''' et j'ai revêtu une de ces cuirasses des démineurs. C'est lourd, ça pèse trente-cinq kilos.
+ | source=Pascal Convert, ''Raymond Aubrac. Résister, reconstruire, transmettre'', Éditions du Seuil, 2011}}
+# {{pays|fr|d’Europe}} [[territoire|Territoire]] au [[statut]] [[contesté]] ([[pays]] [[indépendant]] ou [[région autonome]] [[serbe]]) situé en [[Europe du Sud]] dans les [[Balkans]] et en [[ex-Yougoslavie]].
+#* {{exemple | lang=fr
+ | La présidente du '''Kosovo''', Vjosa Osmani, a assuré qu’elle était « prête à envisager » ces élections.
+ | source=journal ''20 minutes'', édition Paris-IDF, 2 juin 2023, page 6}}
+
+==== {{S|abréviations}} ====
+* [[XK]] ''(ISO 3166-1 (alpha-2) temporaire ''de facto'')''
+
+==== {{S|variantes}} ====
+* [[Kosovo-et-Métochie]] ''(nom officiel du point de vue serbe)''
+* [[Kossovo]]
+
+==== {{S|gentilés}} ====
+* [[Kosovar]], [[Kosovare]]{{R|BO106}}{{réf|2}}
+* [[kosovar]]
+* [[Kossovien]], [[Kossovienne]]{{R|BO106}}{{réf|2}}
+* [[kossovien]]
+* [[Kosovien]], [[Kosovienne]] {{rare|nocat}}
+* [[kosovien]] {{rare|nocat}}
+
+==== {{S|vocabulaire}} ====
+* {{voir thésaurus|fr|Union européenne}}
+
+==== {{S|traductions}} ====
+{{trad-début|région d’Europe}}
+* {{T|af}} : {{trad-|af|Kosovo}}
+* {{T|sq}} : {{trad+|sq|Kosova}}
+* {{T|gsw}} : {{trad|gsw|Kosovo}}
+* {{T|de}} : {{trad+|de|Kosovo}}
+* {{T|en}} : {{trad+|en|Kosovo}}, {{trad+|en|Kosova}}, {{trad+|en|Kosov@}}
+* {{T|ar}} : {{trad-|ar|قوصوة|f|tr=qūṣawah|dif=قُوصَوَةُ}}
+* {{T|an}} : {{trad-|an|Kosovo}}
+* {{T|rup}} : {{trad|rup|Cosova}}
+* {{T|ast}} : {{trad-|ast|Kosovo}}, {{trad+|ast|Kosovu}}
+* {{T|az}} : {{trad+|az|Kosovo}}
+* {{T|nds}} : {{trad-|nds|Kosovo}}
+* {{T|ro}} : {{trad-|ro|Косово}}
+* {{T|dsb}} : {{trad|dsb|Kosowo}}
+* {{T|eu}} : {{trad+|eu|Kosovo}}
+* {{T|bar}} : {{trad|bar|Kosovo}}
+* {{T|bn}} : {{trad+|bn|কসোভো}}
+* {{T|be}} : {{trad-|be|Косава|tr=Kosava}}
+* {{T|be-tarask}} : {{trad|be-tarask|Косава}}
+* {{T|bs}} : {{trad-|bs|Kosovo}}
+* {{T|br}} : {{trad-|br|Kosovo}}
+* {{T|bg}} : {{trad-|bg|Косово|tr=Kosovo}}
+* {{T|yue}} : {{trad-|yue|科索沃}}
+* {{T|ca}} : {{trad+|ca|Kosovo}}
+* {{T|ceb}} : {{trad|ceb|Kosovo}}
+* {{T|zh}} : {{trad+|zh|科索沃|tr=Kēsuǒwò}}
+* {{T|ko}} : {{trad+|ko|코소보|tr=Kosobo}}
+* {{T|kw}} : {{trad-|kw|Kosova}}
+* {{T|hr}} : {{trad+|hr|Kosovo}}
+* {{T|da}} : {{trad-|da|Kosovo}}
+* {{T|diq}} : {{trad-|diq|Kosova}}
+* {{T|es}} : {{trad+|es|Kosovo}}
+* {{T|eo}} : {{trad+|eo|Kosovo}}
+* {{T|et}} : {{trad+|et|Kosovo}}
+* {{T|fo}} : {{trad-|fo|Kosovo}}
+* {{T|fi}} : {{trad+|fi|Kosovo}}
+* {{T|ksh}} : {{trad|ksh|Kosovo}}
+* {{T|frp}} : {{trad|frp|Kosovo}}
+* {{T|fy}} : {{trad-|fy|Kosovo}}
+* {{T|ga}} : {{trad-|ga|Cosaiv}}
+* {{T|gl}} : {{trad+|gl|Kosovo}}
+* {{T|cy}} : {{trad-|cy|Kosovo}}
+* {{T|gan}} : {{trad|gan|科索沃}}
+* {{T|ka}} : {{trad+|ka|კოსოვო|tr=kosovo}}
+* {{T|el}} : {{trad+|el|Κοσσυφοπέδιο}}
+* {{T|gn}} : {{trad-|gn|Kosovo}}
+* {{T|hsb}} : {{trad-|hsb|Kosovo}}
+* {{T|he}} : {{trad+|he|קוסובו}}
+* {{T|hi}} : {{trad+|hi|कोसोवो}}
+* {{T|hu}} : {{trad+|hu|Koszovó}}
+* {{T|sah}} : {{trad|sah|Косова}}
+* {{T|io}} : {{trad-|io|Kosovo}}
+* {{T|id}} : {{trad-|id|Kosovo}}
+* {{T|ie}} : {{trad-|ie|Kosovo}}
+* {{T|is}} : {{trad-|is|Kosóvó}}
+* {{T|it}} : {{trad-|it|Kosovo}}
+* {{T|ja}} : {{trad+|ja|コソボ|tr=Kosobo}}
+* {{T|jv}} : {{trad-|jv|Kosovo}}
+* {{T|lad}} : {{trad|lad|Kosovo}}
+* {{T|kn}} : {{trad-|kn|ಕೊಸೊವೊ}}
+* {{T|kk}} : {{trad+|kk|Косово}}
+* {{T|kv}} : {{trad|kv|Косово}}
+* {{T|avk}} : {{trad|avk|Kosovoa}}
+* {{T|ku}} : {{trad+|ku|Kosovo}}
+* {{T|la}} : {{trad-|la|Ager Merulensis}}
+* {{T|lv}} : {{trad-|lv|Kosova}}
+* {{T|li}} : {{trad+|li|Kosovo}}
+* {{T|lt}} : {{trad+|lt|Kosovas}}
+* {{T|lb}} : {{trad+|lb|Kosovo}}
+* {{T|mk}} : {{trad-|mk|Косово|tr=Kosovo}}
+* {{T|ms}} : {{trad-|ms|Kosovo}}
+* {{T|mt}} : {{trad+|mt|Kosovo}}
+* {{T|gv}} : {{trad-|gv|Kosovo}}
+* {{T|nan}} : {{trad-|nan|Kosovo}}
+* {{T|mwl}} : {{trad|mwl|Kosobo}}
+* {{T|nch}} : {{trad|nch|Kosovo}}
+* {{T|nl}} : {{trad+|nl|Kosovo}}
+* {{T|normand}} : {{trad|normand|Kosovo}}
+* {{T|no}} : {{trad+|no|Kosovo}}
+* {{T|nn}} : {{trad+|no|Kosovo}}
+* {{T|nov}} : {{trad|nov|Kosovo}}
+* {{T|oc}} : {{trad-|oc|Kosova}}
+* {{T|os}} : {{trad|os|Косово}}
+* {{T|ur}} : {{trad-|ur|کوسووہ}}
+* {{T|uz}} : {{trad-|uz|Kosovo}}
+* {{T|fa}} : {{trad-|fa|کوزوو}}
+* {{T|pms}} : {{trad|pms|Kosovo}}
+* {{T|pl}} : {{trad+|pl|Kosowo}}
+* {{T|pt}} : {{trad+|pt|Kosovo}}
+* {{T|qu}} : {{trad-|qu|Kusuwu}}
+* {{T|ro}} : {{trad-|ro|Kosovo}}
+* {{T|ru}} : {{trad+|ru|Косово|tr=Kosovo}}
+* {{T|sgs}} : {{trad|sgs|Kuosuovs}}
+* {{T|sco}} : {{trad|sco|Kosovo}}
+* {{T|sr}} : {{trad-|sr|Косово и Метохија}}
+* {{T|sh}} : {{trad+|sh|Kosovo}}
+* {{T|scn}} : {{trad-|scn|Kòssuvu}}
+* {{T|sk}} : {{trad-|sk|Kosovo}}
+* {{T|sl}} : {{trad-|sl|Kosovo}}
+* {{T|sv}} : {{trad+|sv|Kosovo}}
+* {{T|sw}} : {{trad-|sw|Kosovo}}
+* {{T|tl}} : {{trad-|tl|Kosovo}}
+* {{T|ta}} : {{trad-|ta|கொசோவோ}}
+* {{T|crh}} : {{trad|crh|Kosovo}}
+* {{T|cs}} : {{trad+|cs|Kosovo}}
+* {{T|cv}} : {{trad|cv|Косово}}
+* {{T|th}} : {{trad+|th|คอซอวอ}}
+* {{T|tr}} : {{trad+|tr|Kosova}}
+* {{T|ota}} : {{trad|ota|قوصوه}}
+* {{T|uk}} : {{trad-|uk|Косово}}
+* {{T|vec}} : {{trad-|vec|Kosovo}}
+* {{T|vi}} : {{trad-|vi|Kosovo}}
+* {{T|wuu}} : {{trad|wuu|科索沃}}
+* {{T|zea}} : {{trad|zea|Kosovo}}
+{{trad-fin}}
+
+=== {{S|prononciation}} ===
+* {{écouter|France|ko.so.vo|lang=fr}}
+* {{écouter|Québec|kɔ.sɔ.vo|lang=fr}}
+* {{écouter|lang=fr|France (Paris)|audio=LL-Q150 (fra)-GrandCelinien-Kosovo.wav}}
+* {{écouter|lang=fr|France (Occitanie)|audio=LL-Q150 (fra)-Arthur Crbz-Kosovo.wav}}
+* {{écouter|lang=fr|France (Toulouse)|audio=LL-Q150 (fra)-Lepticed7-Kosovo.wav}}
+* {{écouter|Perpignan (France)|ko.so.vo|lang=fr|audio=LL-Q150 (fra)-Laszlo Cárdenas (Culex)-Kosovo.wav}}
+* {{écouter|Haute-Loire (France)||lang=fr|audio=LL-Q150 (fra)-Sayoxime-Kosovo.wav}}
+
+=== {{S|voir aussi}} ===
+* {{WP}}
+
+=== {{S|références}} ===
+{{Références}}
+* {{RÉF|2}} [https://web.archive.org/web/20130131135147/http://www.toponymiefrancophone.org/divfranco/Bougainville/Liste_generale.aspx?nom=liste_pays Division francophone du Groupe d’experts des Nations Unies pour les noms géographiques (GENUNG)]
+
+== {{langue|af}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étylp|sh|af|mot=Kosovo}}.
+
+=== {{S|nom propre|af}} ===
+'''Kosovo''' {{pron||af}}
+# {{pays|af}} {{lien|Kosovo|fr}}.
+#* {{exemple|lang=af}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=af}}
+
+== {{langue|gsw}} ==
+
+=== {{S|nom propre|gsw}} ===
+'''Kosovo''' {{pron||gsw}}
+# {{pays|gsw}} {{lien|Kosovo|fr}}.
+#* {{exemple|lang=gsw}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=gsw}}
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: Du {{étylp|sh|de|mot=Kosovo}}.
+
+=== {{S|nom propre|de}} ===
+{{de-nom|genre=m|ns=Kosovo|gs=Kosovos|ds=KosovoKosovo|sing=oui}}
+'''Kosovo''' {{pron|kɔsovo|de}} {{m}}{{n}}
+# {{pays|de}} {{lien|Kosovo|fr}}.
+#* {{exemple|Am 17. Februar 2008 beschloss das kosovarische Parlament die Ausrufung der Republik '''Kosovo''' als unabhängigen Staat.|lang=de|sens=Le 17 février 2008, le Parlement kosovar a décidé de proclamer la République du Kosovo comme un Etat indépendant.}}
+#* {{exemple|Realpolitisch scheint der Prozess der Verhandlungen (Serbiens) mit dem '''Kosovo''' im Mai 2023 de facto tot zu sein. Die letzte Verhandlungsrunde in Brüssel Mitte Mai verlief ohne jegliche Ergebnisse.|lang=de|sens=Sur le plan de la realpolitik, le processus de négociations (de la Serbie) avec le Kosovo en mai 2023 semble de facto mort. Le dernier cycle de négociations à Bruxelles à la mi-mai s’est déroulé sans aucun résultat.|source={{périodique|auteur=Vedran Džihić|titre=Showdown in Serbien?|journal=Der Standard|date=19 mai 2023|texte=https://www.derstandard.at/story/2000146545539/showdown-in-serbien}}}}
+
+==== {{S|gentilés}} ====
+* {{lien|Kosovare|de}}, {{lien|Kosovarin|de}}
+* {{lien|kosovarisch|de}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=de}}
+
+=== {{S|prononciation}} ===
+* {{écouter|Berlin|ˈkɔsovo|lang=de|audio=De-Kosovo.ogg}}
+
+== {{langue|en}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étylp|sh|en|mot=Kosovo}}.
+
+=== {{S|nom propre|en}} ===
+'''Kosovo''' {{pron||en}}
+# {{pays|en|d’Europe}} {{lien|Kosovo|fr}}.
+#* {{exemple | lang=en
+ | On 17 February 2008 '''Kosovo''' unilaterally declared '''Kosovo''''s independence and subsequently adopted the Constitution of Republic of '''Kosovo''', which came into effect on 15 June 2008.
+ | source={{WP|History of Kosovo}}}}
+
+==== {{S|gentilés}} ====
+* {{lien|Kosovan|en}}
+* {{lien|Kosovar|en}}
+
+==== {{S|variantes}} ====
+* {{lien|Kosova|en}}
+* {{lien|Kosov@|en}}
+* {{lien|Kossovo|en}}
+
+==== {{S|quasi-synonymes}} ====
+* {{lien|Kosovo and Metohija|en}}
+
+==== {{S|vocabulaire}} ====
+* {{thématique|pays d’Europe|en}}
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=en|Royaume-Uni (Sud de l'Angleterre)||audio=LL-Q1860 (eng)-Vealhurl-Kosovo.wav}}
+* {{écouter|Londres (Royaume-Uni)||lang=en|audio=LL-Q1860 (eng)-Soundguys-Kosovo.wav}}
+
+== {{langue|an}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étylp|sh|an|mot=Kosovo}}.
+
+=== {{S|nom propre|an}} ===
+'''Kosovo''' {{pron||an}}
+# {{pays|an}} {{lien|Kosovo|fr}}.
+#* {{exemple|lang=an}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=an}}
+
+== {{langue|ast}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étylp|sh|ast|mot=Kosovo}}.
+
+=== {{S|nom propre|ast}} ===
+'''Kosovo''' {{pron||ast}}
+# {{pays|ast}} {{lien|Kosovo|fr}}.
+#* {{exemple|lang=ast}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=ast}}
+
+== {{langue|az}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étylp|sh|az|mot=Kosovo}}.
+
+=== {{S|nom propre|az}} ===
+{{az-décl-nom|o}}
+'''Kosovo''' {{pron||az}} {{az-forme possessive}}
+# {{pays|az}} {{lien|Kosovo|fr}}.
+#* {{exemple|lang=az}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=az}}
+
+== {{langue|nds}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étylp|sh|nds|mot=Kosovo}}.
+
+=== {{S|nom propre|nds}} ===
+'''Kosovo''' {{pron||nds}}
+# {{pays|nds}} {{lien|Kosovo|fr}}.
+#* {{exemple|lang=nds}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=nds}}
+
+== {{langue|eu}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étylp|sh|eu|mot=Kosovo}}.
+
+=== {{S|nom propre|eu}} ===
+'''Kosovo''' {{pron||eu}}
+# {{pays|eu}} {{lien|Kosovo|fr}}.
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=eu|Espagne (Saint-Sébastien)|audio=LL-Q8752 (eus)-Xabier Cañas-Kosovo.wav}}
+
+== {{langue|bar}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étylp|sh|bar|mot=Kosovo}}.
+
+=== {{S|nom propre|bar}} ===
+'''Kosovo''' {{pron||bar}}
+# {{pays|bar}} {{lien|Kosovo|fr}}.
+#* {{exemple|lang=bar}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=bar}}
+
+== {{langue|bs}} ==
+
+=== {{S|étymologie}} ===
+: Apparenté à {{lien|Косово|sr|tr=Kosovo}} en serbe.
+
+=== {{S|nom propre|bs}} ===
+'''Kosovo''' {{pron||bs}} {{n}}
+# {{pays|bs}} {{lien|Kosovo|fr}}.
+#* {{exemple|lang=bs}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=bs}}
+
+== {{langue|br}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étylp|sh|br|mot=Kosovo}}.
+
+=== {{S|nom propre|br}} ===
+{{br-nom-pr|Kosovo}}
+'''Kosovo''' {{pron|ko.ˈsoː.vo|br}}
+# {{pays|br}} {{lien|Kosovo|fr}}.
+#* {{exemple | lang=br
+ | Ar memes tra evit ar pezh a oa gwechall kevredad Yougoslavia, lecʼh ma zo bremañ n’ouzon ket pet broad : Serbia, Kroatia, Slovenia, Bosnia-Herzegovina, Montenegro, '''Kosovo''', Makedonia an Norzh…
+ | Même chose pour ce qui était autrefois la fédération de Yougoslavie, où il y a maintenant je ne sais combien de nations : la Serbie, la Croatie, la Slovénie, la Bosnie-Herzégovine, le Monténégro, le Kosovo, la Macédoine du Nord…
+ | source=Yann-Bêr Kemener, ''Kampionad ar stadoù pe hini ar broadoù ?'', in ''{{w|Ya !}}'', {{numéro|842}}, 30 juillet 2021, page 10}}
+
+==== {{S|gentilés}} ====
+* {{lien|Kosovar|br}}, {{lien|Kosovarez|br}}
+* {{lien|kosovar|br}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=br}}
+
+== {{langue|ca}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étylp|sh|ca|mot=Kosovo}}.
+
+=== {{S|nom propre|ca}} ===
+'''Kosovo''' {{pron||ca}} {{m}}
+# {{pays|ca}} {{lien|Kosovo|fr}}.
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=ca|Espagne (Villarreal)||audio=LL-Q7026 (cat)-Millars-Kosovo.wav}}
+
+== {{langue|ceb}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étylp|sh|ceb|mot=Kosovo}}.
+
+=== {{S|nom propre|ceb}} ===
+'''Kosovo''' {{pron||ceb}}
+# {{pays|ceb}} {{lien|Kosovo|fr}}.
+#* {{exemple|lang=ceb}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=ceb}}
+
+== {{langue|hr}} ==
+
+=== {{S|étymologie}} ===
+: Voir le {{sh}} {{lien|''Kosovo''|sh}}.
+
+=== {{S|nom propre|hr}} ===
+'''Kosovo''' {{pron||hr}}
+# {{pays|hr}} {{lien|Kosovo|fr}}.
+#* {{exemple|lang=hr}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=hr}}
+
+== {{langue|da}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étylp|sh|da|mot=Kosovo}}.
+
+=== {{S|nom propre|da}} ===
+'''Kosovo''' {{pron||da}}
+# {{pays|da}} {{lien|Kosovo|fr}}.
+#* {{exemple|lang=da}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=da}}
+
+== {{langue|es}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étylp|sh|es|mot=Kosovo}}.
+
+=== {{S|nom propre|es}} ===
+'''Kosovo''' {{pron||es}}
+# {{pays|es}} {{lien|Kosovo|fr}}.
+#* {{exemple | lang=es | La declaración de independencia del '''Kosovo''' fue un acto acontecido el 17 de febrero de 2008.}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=es}}
+
+== {{langue|eo}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étylp|sh|eo|mot=Kosovo}}.
+
+=== {{S|nom propre|eo}} ===
+{{eo-rég-sing|ko.ˈso.vo|dir+=1}}
+'''Kosovo''' {{pron|ko.ˈso.vo|eo}}
+# {{pays|eo}} {{lien|Kosovo|fr}}.
+
+=== {{S|prononciation}} ===
+* {{écouter||ko.ˈso.vo|lang=eo|audio=Eo-Kosovo.ogg}}
+* {{écouter|lang=eo|France (Toulouse)|audio=LL-Q143 (epo)-Lepticed7-Kosovo.wav}}
+
+== {{langue|et}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étylp|sh|et|mot=Kosovo}}.
+
+=== {{S|nom propre|et}} ===
+'''Kosovo''' {{pron||et}}
+# {{pays|et}} {{lien|Kosovo|fr}}.
+#* {{exemple|lang=et}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=et}}
+
+== {{langue|fo}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étylp|sh|fo|mot=Kosovo}}.
+
+=== {{S|nom propre|fo}} ===
+'''Kosovo''' {{pron||fo}}
+# {{pays|fo}} {{lien|Kosovo|fr}}.
+#* {{exemple|lang=fo}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=fo}}
+
+== {{langue|fi}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étylp|sh|fi|mot=Kosovo}}.
+
+=== {{S|nom propre|fi}} ===
+'''Kosovo''' {{pron||fi}}
+# {{pays|fi}} {{lien|Kosovo|fr}}.
+#* {{exemple|lang=fi}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=fi}}
+
+== {{langue|ksh}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étylp|sh|ksh|mot=Kosovo}}.
+
+=== {{S|nom propre|ksh}} ===
+'''Kosovo''' {{pron||ksh}}
+# {{pays|ksh}} {{lien|Kosovo|fr}}.
+
+=== {{S|références}} ===
+* {{WP|lang=ksh}}
+
+== {{langue|frp}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étylp|sh|frp|mot=Kosovo}}.
+
+=== {{S|nom propre|frp}} ===
+'''Kosovo''' {{pron||frp}}
+# {{pays|frp}} {{lien|Kosovo|fr}}.
+#* {{exemple|lang=frp}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=frp}}
+
+== {{langue|fy}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étylp|sh|fy|mot=Kosovo}}.
+
+=== {{S|nom propre|fy}} ===
+'''Kosovo''' {{pron||fy}}
+# {{pays|fy}} {{lien|Kosovo|fr}}.
+#* {{exemple|lang=fy}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=fy}}
+
+== {{langue|gl}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étylp|sh|gl|mot=Kosovo}}.
+
+=== {{S|nom propre|gl}} ===
+'''Kosovo''' {{pron||gl}}
+# {{pays|gl}} {{lien|Kosovo|fr}}.
+#* {{exemple|lang=gl}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=gl}}
+
+== {{langue|cy}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étylp|sh|cy|mot=Kosovo}}.
+
+=== {{S|nom propre|cy}} ===
+'''Kosovo''' {{pron||cy}}
+# {{pays|cy}} {{lien|Kosovo|fr}}.
+#* {{exemple|lang=cy}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=cy}}
+
+== {{langue|gn}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étylp|sh|gn|mot=Kosovo}}.
+
+=== {{S|nom propre|gn}} ===
+'''Kosovo''' {{pron||gn}}
+# {{pays|gn}} {{lien|Kosovo|fr}}.
+#* {{exemple|lang=gn}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=gn}}
+
+== {{langue|hsb}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étylp|sh|hsb|mot=Kosovo}}.
+
+=== {{S|nom propre|hsb}} ===
+'''Kosovo''' {{pron||hsb}}
+# {{pays|hsb}} {{lien|Kosovo|fr}}.
+#* {{exemple|lang=hsb}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=hsb}}
+
+== {{langue|io}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étylp|sh|io|mot=Kosovo}}.
+
+=== {{S|nom propre|io}} ===
+'''Kosovo''' {{pron||io}}
+# {{pays|io}} {{lien|Kosovo|fr}}.
+#* {{exemple|lang=io}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=io}}
+
+== {{langue|id}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étylp|sh|id|mot=Kosovo}}.
+
+=== {{S|nom propre|id}} ===
+'''Kosovo''' {{pron||id}}
+# {{pays|id}} {{lien|Kosovo|fr}}.
+#* {{exemple|lang=id}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=id}}
+
+== {{langue|ie}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étylp|sh|ie|mot=Kosovo}}.
+
+=== {{S|nom propre|ie}} ===
+'''Kosovo''' {{pron||ie}}
+# {{pays|ie}} {{lien|Kosovo|fr}}.
+#* {{exemple|lang=ie}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=ie}}
+
+== {{langue|it}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étylp|sh|it|mot=Kosovo}}.
+
+=== {{S|nom propre|it}} ===
+'''Kosovo''' {{pron|ˈkɔ.so.vo|it}} {{m}}
+# {{pays|it}} {{lien|Kosovo|fr}}.
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=it|Kosovo (disambigua)}}
+* {{WQ|lang=it}}
+* {{VOY|lang=it}}
+* {{Vikidia|lang=it}}
+
+== {{langue|jv}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étylp|sh|jv|mot=Kosovo}}.
+
+=== {{S|nom propre|jv}} ===
+'''Kosovo''' {{pron||jv}}
+# {{pays|jv}} {{lien|Kosovo|fr}}.
+#* {{exemple|lang=jv}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=jv}}
+
+== {{langue|lad}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étylp|sh|lad|mot=Kosovo}}.
+
+=== {{S|nom propre|lad}} ===
+'''Kosovo''' {{pron||lad}}
+# {{pays|lad}} {{lien|Kosovo|fr}}.
+#* {{exemple|lang=lad}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=lad}}
+
+== {{langue|ku}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étylp|sh|ku|mot=Kosovo}}.
+
+=== {{S|nom propre|ku}} ===
+'''Kosovo''' {{pron||ku}}
+# {{pays|ku}} {{lien|Kosovo|fr}}.
+#* {{exemple|lang=ku}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=ku}}
+
+== {{langue|li}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étylp|sh|li|mot=Kosovo}}.
+
+=== {{S|nom propre|li}} ===
+'''Kosovo''' {{pron||li}}
+# {{pays|li}} {{lien|Kosovo|fr}}.
+#* {{exemple|lang=li}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=li}}
+
+== {{langue|lb}} ==
+=== {{S|étymologie}} ===
+: Du {{étylp|sh|lb|Kosovo}}.
+
+=== {{S|nom propre|lb}} ===
+{{lb-inv|kˈosovoː|inv_titre=Nom propre}}
+'''Kosovo''' {{pron|kˈosovoː|lb}} {{m}}
+# {{pays|lb|d’Europe|pays=Kosovo|clé=*}} {{lien|Kosovo|fr}}.
+#* {{exemple|lang=lb}}
+
+==== {{S|gentilés}} ====
+* {{lien|Kosovar|lb|sens=Kosovar}}, {{lien|Kosovarin|lb|sens=Kosovare}}
+* {{lien|kosovaresch|lb|sens=kosovar, kosovare}}
+
+=== {{S|prononciation}} ===
+* {{pron|kˈosovoː|lb}}
+* {{écouter|lang=lb|Luxembourg|kˈosovoː|audio=Lb-Kosovo.ogg}}
+* {{écouter|lang=lb|Luxembourg (Diekirch)|kˈosovoː|audio=LL-Q9051 (ltz)-Robby-Kosovo.wav}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=lb}}
+
+=== {{S|références}} ===
+: {{R:LOD}}
+
+== {{langue|ms}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étylp|sh|ms|mot=Kosovo}}.
+
+=== {{S|nom propre|ms}} ===
+'''Kosovo''' {{pron||ms}}
+# {{pays|ms}} {{lien|Kosovo|fr}}.
+#* {{exemple|lang=ms}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=ms}}
+
+== {{langue|mt}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étylp|sh|mt|mot=Kosovo}}.
+
+=== {{S|nom propre|mt}} ===
+'''Kosovo''' {{pron||mt}}
+# {{pays|mt}} {{lien|Kosovo|fr}}.
+#* {{exemple|lang=mt}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=mt}}
+
+== {{langue|gv}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étylp|sh|gv|mot=Kosovo}}.
+
+=== {{S|nom propre|gv}} ===
+'''Kosovo''' {{pron||gv}}
+# {{pays|gv}} {{lien|Kosovo|fr}}.
+#* {{exemple|lang=gv}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=gv}}
+
+== {{langue|nan}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étylp|sh|nan|mot=Kosovo}}.
+
+=== {{S|nom propre|nan}} ===
+'''Kosovo''' {{pron||nan}}
+# {{pays|nan}} {{lien|Kosovo|fr}}.
+#* {{exemple|lang=nan}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=nan}}
+
+== {{langue|nl}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étylp|sh|nl|mot=Kosovo}}.
+
+=== {{S|nom propre|nl}} ===
+'''Kosovo''' {{pron||nl}}
+# {{pays|nl}} {{lien|Kosovo|fr}}.
+#* {{exemple|lang=nl}}
+
+=== {{S|prononciation}} ===
+* {{écouter|||lang=nl|audio=Nl-Kosovo.ogg}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=nl}}
+
+== {{langue|normand}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étylp|fr|normand|mot=Kosovo}}.
+
+=== {{S|nom propre|normand}} ===
+'''Kosovo''' {{pron||normand}} {{m}}
+# {{pays|normand}} [[Kosovo#fr|Kosovo]].
+
+=== {{S|références}} ===
+* {{lien web|url=http://members.societe-jersiaise.org/geraint/jerriais.html|titre=Les Pays d'l'Ûrope en Jèrriais|site=Société jersiaise}}
+
+== {{langue|no}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étylp|sh|no|mot=Kosovo}}.
+
+=== {{S|nom propre|no}} ===
+'''Kosovo''' {{pron||no}}
+# {{pays|no}} {{lien|Kosovo|fr}}.
+#* {{exemple|lang=no}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=no}}
+
+== {{langue|nn}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étyl|no|nn|mot=Kosovo}}.
+
+=== {{S|nom propre|nn}} ===
+'''Kosovo''' {{pron||nn}}
+# {{pays|nn}} {{lien|Kosovo|fr}}.
+#* {{exemple|lang=nn}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=nn}}
+
+== {{langue|nov}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étylp|sh|nov|mot=Kosovo}}.
+
+=== {{S|nom propre|nov}} ===
+'''Kosovo''' {{pron||nov}}
+# {{pays|nov}} {{lien|Kosovo|fr}}.
+#* {{exemple|lang=nov}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=nov}}
+
+== {{langue|oc}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étylp|sh|oc|mot=Kosovo}}.
+
+=== {{S|nom propre|oc}} ===
+'''Kosovo''' {{pron||oc}} {{oc-norme classique}}
+# {{pays|oc}} {{lien|Kosovo|fr}}.
+
+==== {{S|variantes}} ====
+* {{lien|Kosova|oc}}
+
+==== {{S|gentilés}} ====
+* [[kosovar]], [[kosovara]]
+
+=== {{S|références}} ===
+* {{R:Ubaud}}
+
+== {{langue|uz}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étylp|sh|uz|mot=Kosovo}}.
+
+=== {{S|nom propre|uz}} ===
+'''Kosovo''' {{pron||uz}}
+# {{pays|uz}} {{lien|Kosovo|fr}}.
+#* {{exemple|lang=uz}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=uz}}
+
+== {{langue|pms}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étylp|sh|pms|mot=Kosovo}}.
+
+=== {{S|nom propre|pms}} ===
+'''Kosovo''' {{pron||pms}}
+# {{pays|pms}} {{lien|Kosovo|fr}}.
+#* {{exemple|lang=pms}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=pms}}
+
+== {{langue|pt}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étylp|sh|pt|mot=Kosovo}}.
+
+=== {{S|nom propre|pt}} ===
+'''Kosovo''' {{pron||pt}} {{m}}
+# {{pays|pt}} {{lien|Kosovo|fr}}.
+#* {{exemple|lang=pt}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=pt}}
+
+== {{langue|ro}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étylp|sh|ro|mot=Kosovo}}.
+
+=== {{S|nom propre|ro}} ===
+'''Kosovo''' {{pron||ro}}
+# {{pays|ro}} {{lien|Kosovo|fr}}.
+#* {{exemple|lang=ro}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=ro}}
+
+== {{langue|sh}} ==
+
+=== {{S|étymologie}} ===
+: Voir {{lien|Косово|sr|tr=Kosovo}} en serbe.
+
+=== {{S|nom propre|sh}} ===
+'''Kosovo''', {{lien|Косово|sr}} {{pron|kôsoʋo|sh}} {{n}}
+# {{pays|pl}} {{lien|Kosovo|fr}}.
+#* {{exemple | lang=sh | Od 17. februara 2008. godine, kada je parlament '''Kosova''' unilateralno doneo odluku o proglašenju nezavisnosti od Srbije.}}
+
+==== {{S|gentilés}} ====
+* {{lien|kosovski|sh}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=sh}}
+
+== {{langue|sk}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étylp|sh|sk|mot=Kosovo}}.
+
+=== {{S|nom propre|sk}} ===
+'''Kosovo''' {{pron||sk}}
+# {{pays|sk}} {{lien|Kosovo|fr}}.
+#* {{exemple|lang=sk}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=sk}}
+
+== {{langue|sl}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étylp|sh|sl|mot=Kosovo}}.
+
+=== {{S|nom|sl}} ===
+{{sl-décl-nn|Kosov|pdp=oui}}
+'''Kosovo''' {{pron||sl}} {{n}}
+# {{pays|sl}} {{lien|Kosovo|fr}}.
+#* {{exemple|lang=sl}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=sl}}
+
+== {{langue|sv}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étylp|sh|sv|mot=Kosovo}}.
+
+=== {{S|nom propre|sv}} ===
+'''Kosovo''' {{pron||sv}}
+# {{pays|sv}} {{lien|Kosovo|fr}}.
+#* {{exemple|lang=sv}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=sv}}
+
+== {{langue|sw}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étylp|sh|sw|mot=Kosovo}}.
+
+=== {{S|nom propre|sw}} ===
+'''Kosovo''' {{pron||sw}}
+# {{pays|sw}} {{lien|Kosovo|fr}}.
+#* {{exemple|lang=sw}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=sw}}
+
+== {{langue|tl}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étylp|sh|tl|mot=Kosovo}}.
+
+=== {{S|nom propre|tl}} ===
+'''Kosovo''' {{pron||tl}}
+# {{pays|tl}} {{lien|Kosovo|fr}}.
+#* {{exemple|lang=tl}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=tl}}
+
+== {{langue|crh}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étylp|sh|crh|mot=Kosovo}}.
+
+=== {{S|nom propre|crh}} ===
+'''Kosovo''' {{pron||crh}}
+# {{pays|crh}} {{lien|Kosovo|fr}}.
+#* {{exemple|lang=crh}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=crh}}
+
+== {{langue|cs}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étylp|sr|cs|mot=Косово|tr=Kosovo}}.
+
+=== {{S|nom propre|cs}} ===
+{{cs-décl-nom-n-o|rad=Kosov|sing=oui}}
+'''Kosovo''' {{pron||cs}} {{n}}
+# {{pays|cs}} {{lien|Kosovo|fr}}.
+#*''Nezávislost '''Kosova''','' l'indépendance du Kosovo.
+
+==== {{S|gentilés}} ====
+* {{lien|Kosovan|cs}}, {{lien|Kosovanka|cs}}
+* {{lien|kosovský|cs}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=cs}}
+
+=== {{S|références}} ===
+* {{R:ÚJČ}}
+
+== {{langue|vec}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étylp|sh|vec|mot=Kosovo}}.
+
+=== {{S|nom propre|vec}} ===
+'''Kosovo''' {{pron||vec}}
+# {{pays|vec}} {{lien|Kosovo|fr}}.
+#* {{exemple|lang=vec}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=vec}}
+
+== {{langue|vi}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étylp|sh|vi|mot=Kosovo}}.
+
+=== {{S|nom propre|vi}} ===
+'''Kosovo''' {{pron||vi}}
+# {{pays|vi}} {{lien|Kosovo|fr}}.
+#* {{exemple|lang=vi}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=vi}}
+
+== {{langue|zea}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étylp|sh|zea|mot=Kosovo}}.
+
+=== {{S|nom propre|zea}} ===
+'''Kosovo''' {{pron||zea}}
+# {{pays|zea}} {{lien|Kosovo|fr}}.
+#* {{exemple|lang=zea}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=zea}}
+
+[[Catégorie:Pays d’Europe en bavarois]]

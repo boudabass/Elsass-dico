@@ -1,0 +1,35 @@
+{{voir|francium}}
+
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw}}
+
+=== {{S|nom|gsw}} ===
+'''Francium''' {{pron||gsw}} {{genre|gsw}}
+# {{éléments|gsw}} {{métaux|gsw}} [[francium#fr|Francium]].
+{{clr}}
+==== {{S|vocabulaire}} ====
+{{tableau périodique/gsw}}
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|de}}
+
+=== {{S|nom|de}} ===
+{{légende élément/de|Fr}}
+'''Francium''' {{pron|ˈfʀanʦi̯ʊm|de}} {{n}}
+# {{éléments|de}} {{métaux|de}} [[francium#fr|Francium]] (l’{{lien|élément chimique}} [[Fr#conv|Fr]]).
+{{clr}}
+==== {{S|vocabulaire}} ====
+* {{voir thésaurus|de|tableau périodique des éléments}}
+{{tableau périodique/de}}
+{{Liste|avant={{lien|Radon|de}}<br>([[Rn#conv|Rn]])|après={{lien|Radium|de}}<br>([[Ra#conv|Ra]])|liste=[[Thésaurus:tableau périodique des éléments/allemand|Éléments chimiques en allemand]]}}
+
+=== {{S|prononciation}} ===
+* {{pron|ˈfʀanʦi̯ʊm|de}}
+* {{écouter||ˈfʀanʦi̯ʊm|lang=de|audio=De-Francium.ogg}}
+* {{écouter|lang=de|Allemagne (Berlin)|audio=LL-Q188 (deu)-Lucas Werkmeister-Francium.wav}}
+* {{écouter|lang=de|Allemagne (Berlin)|audio=LL-Q188 (deu)-Sebastian Wallroth-Francium.wav}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=de}}

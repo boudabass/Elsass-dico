@@ -1,0 +1,952 @@
+{{voir/wasser}}
+
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw}}
+
+=== {{S|nom|gsw}} ===
+'''Wasser'''
+# [[eau#fr|Eau]].
+
+[[Catégorie:Boissons en alémanique]]
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+:{{siècle|VIII}}. Des {{étyl|gem|de|mot=*watr-}}, du {{étyl|got|de|mot=watō}}, du {{étyl|goh|de|mot=wazzar}}, du {{étyl|gmh|de|mot=wazzer}}, du {{étyl|nds|de|mot=Water}}, du {{étyl|ofs|de|mot=weter}}, du {{étyl|osx|de|mot=watar}}, du  {{étyl|gml|de|mot=wāter}}, du {{étyl|non|de|mot=vatn}}. À rapprocher de l’anglais ''[[water#en|water]]'', du néerlandais  ''[[water#nl|water]]'', du suédois ''[[waten]]''.<ref> {{source|Wolfgang Pfeifer, ''Etymologische Wörterbuch des Deutschen'', Éditions Deutscher Taschenbuch, 1997, ISBN-13: 978342-3325110 }} </ref>
+
+=== {{S|nom|de}} ===
+{{de-nom-n-er|np2=Wässer}}
+'''Wasser''' {{pron|ˈvasɐ|de}} {{n}}
+# {{indénombrable|de}} [[eau|Eau]] : [[liquide]] dont le [[constituant]] [[principal]] est le [[corps composé]] de même nom (sens 2).
+#* {{exemple | lang=de | Ich trinke '''Wasser'''. | sens=Je bois de l’eau.}}
+#* {{exemple|Und im Netz fragen Nutzer auf Facebook: „Wer ist eigentlich dafür verantwortlich, dass wir von einem Land mit fruchtbarem Boden und frischem '''Wasser''' zum Anbau von Eukalyptus für die Herstellung von Toilettenpapier übergegangen sind?“|lang=de|sens=Et sur internet, des internautes demandent sur Facebook : "Qui est responsable du fait que nous soyons passés d’une terre aux sols fertiles et à l’eau fraîche à la culture d'eucalyptus pour la fabrication de papier toilette ?"|source={{périodique|auteur=Christoph Gurk|titre=Wenn nur noch Salzwasser aus der Leitung kommt|journal=Süddeutsche Zeitung|date=29 juin 2023|texte=https://www.sueddeutsche.de/projekte/artikel/politik/uruguay-wassermangel-montevideo-klimawandel-e650745/}}}}
+#* {{exemple|Für die Königsberger Klopse nach Omas Art das Brötchen in '''Wasser''' einweichen, ausdrücken und in einer großen Schüssel mit Hackfleisch, fein gewürfelten Zwiebeln, Eiern, Salz, Pfeffer und Senf zu einer Masse vermengen.|lang=de|sens=Pour les boulettes de Königsberg à la mode de grand-mère, faire tremper le petit pain dans de l’eau, l’essorer et le mélanger dans un grand saladier avec la viande hachée, les oignons coupés en petits dés, les œufs, le sel, le poivre et la moutarde pour former une masse.|source={{périodique|auteur=Oma Emma|titre=Königsberger Klopse – Omas Rezept im Original|journal=Omas Rezepte|date=12 octobre 2023|texte=https://omasrezepte.de/koenigsberger-klopse-omas-rezept/}}}}
+# {{lexique|chimie|de}} {{indénombrable|de}} [[eau|Eau]] : [[corps composé]] de formule chimique nominale {{fchim|H|2|O}}.
+#* {{exemple
+|Reines '''Wasser''' unterliegt einer sogenannten Autoprotolyse (auch Autodissoziation). Hierbei entstehen Oxoniumionen ({{fchim|H|3|O<sup>+</sup>}}) und Hydroxidionen ({{fchim|OH<sup>-</sup>}}).
+|L’eau pure subit une dite autoprotolyse (également appelée autodissociation), qui produit des ions oxonium ({{fchim|H|3|O<sup>+</sup>}}) et hydroxyde ({{fchim|OH<sup>-</sup>}}).
+|source={{w|Protolyse|lang=de}}
+|lang=de}}
+#* {{exemple
+|Die vergleichsweise hohe spezifische Wärmekapazität von '''Wasser''' findet ihre Anwendung zum Beispiel bei Wärmespeichern von Heizungen.
+|La capacité calorifique comparativement élevée de l’eau trouve son application par exemple dans les accumulateurs de chaleur des chauffages.
+|source={{w|Eigenschaften des Wassers|lang=de}}
+|lang=de}}
+# {{lexique|hydrologie|de}} [[eau|Eau]] (sens 1 ou 2) d’une [[provenance]] [[donné]]e.
+#* {{exemple
+|Achten Sie darauf, dass die verschiedenen '''Wässer''' die gleiche Temperatur haben: Ideal sind etwa 12 Grad.
+|Assurez-vous que les différentes eaux ont la même température : idéalement environ 12 degrés.
+|source={{w|Eigenschaften des Wassers|lang=de}}
+|source={{lien web
+ |auteur=Sandra Campana / Anke Scherer
+ |titre=Mineralwasser oder Hahnenwasser: Welche unterschiedlichen Wasserarten gibt es?
+ |site={{w|KPT (Krankenversicherung)|KPT|lang=de}}
+ |date=21 mai 2024
+ |url=https://www.kpt.ch/de/magazin/wasserarten}}
+|lang=de}}
+# {{lien|cours d'eau|fr|dif=Cours d'eau}} et l’eau qu'il contient.
+#* {{exemple|Überall sahen sie Krokodile: Die Tiere schwammen im '''Wasser''' wie Baumstämme, dösten am Ufer und rissen die Mäuler auf, über ihre Rücken trippelten kleine Reiher.|lang=de|sens=Partout, ils voyaient des crocodiles qui flottaient sur l’eau comme des troncs d’arbres, somnolaient sur la rive et ouvraient grande leur gueule ; de petits hérons trottinaient à même leur dos.|source={{ouvrage|auteur={{w|Daniel Kehlmann}}|titre=Die Vermessung der Welt|année=2005|éditeur=Rohwolt|lieu=Hamburg|url=}}}}
+# {{lien|boisson|fr|dif=Boisson}} {{lien|alcoolique|fr}}.
+# Tout autre {{lien|liquide|fr}} {{lien|artificiel|fr}} {{lien|extrait|fr}} d’une substance par {{lien|distillation|fr}}, {{lien|décoction|fr}}, ou {{lien|expression|fr}}, ou {{lien|composé|fr}} de {{lien|différent|fr}}es substances.
+# {{lexique|physiologie|de}} {{lien|eau|fr|dif=Eau}}, {{lien|fluide|fr}}, {{lien|sérosité|fr}}s qui se trouvent ou qui se forment dans le {{lien|corps|fr}} de l’{{lien|être humain|fr}} ou de l’{{lien|animal|fr}}.
+
+==== {{S|abréviations}} ====
+* {{l|Wa|de}}
+* {{l|Wa.|de}}
+
+==== {{S|diminutifs}} ====
+* {{l|Wässerchen|de}}
+* {{l|Wässerlein|de}}
+
+==== {{S|synonymes}} ====
+* {{l|Dihydrogenmonoxid|de|sens=[[monoxyde de dihydrogène]]}} – ''(2, par plaisanterie)''
+* {{l|Dihydrogenether|de|sens=[[éther]] de [[dihydrogène]]}} – ''(2, par plaisanterie)''
+* {{l|Gewässer|de}} – ''(3)''
+* {{l|H₂O|de}} – ''(2, à l’[[autoprotolyse]] près)''
+* {{l|Hydrogenhydroxid|de|sens=[[hydroxyde d’hydrogène]]}} – ''(2, par plaisanterie)''
+* {{l|Hydroxylsäure|de|sens=[[acide oxhydrique]]}} – ''(2, par plaisanterie)''
+* {{l|Oxidan|de|sens=[[oxydane]]}} – ''(2, systématique ou aussi plaisanterie)''
+
+==== {{S|antonymes}} ====
+* {{l|Feuer|de}}
+
+==== {{S|hyperonymes}} ====
+* {{lien|Flüssigkeit|de}}
+* {{lien|Landschaft|de}}
+* {{lien|Flüssigkeit|de}}
+* {{lien|Lösung|de}}
+* {{lien|Emulsion|de}}
+* {{lien|Schnaps|de}}
+* {{lien|Spirituose|de}}
+* {{lien|alkoholisch|de}}
+* {{lien|Reinheitsmaß|de}}
+
+==== {{S|hyponymes}} ====
+{{(|}}
+* {{l|Abwaschwasser|de|sens=[[eau de vaisselle]]}}
+* {{l|Abwasser|de|sens=[[eaux usées]]}}
+* {{l|Achterwasser|de}} (toponyme)
+* {{l|Alpenwasser|de|sens=[[eau]] des [[Alpes]]}}
+* {{l|Altwasser|de|sens=[[bras mort]]}}
+* {{lien|Ammerwasser|de}}
+* {{lien|Aquarienwasser|de}}
+* {{lien|Aufwaschwasser|de}}
+* {{lien|Ausgusswasser|de}}
+* {{lien|Bachwasser|de}}
+* {{l|Badewasser|de|sens=[[eau]] du [[bain]]}}
+* {{l|Ballastwasser|de|sens=[[eau]] de [[ballast]]}}
+* {{l|Bergwasser|de|sens=[[eau]] d’[[infiltration]] de [[montagne]]}}
+* {{lien|Betriebswasser|de}}
+* {{l|Bewässerung|de|sens=[[arrosage]] », « [[irrigation]]}}
+* {{lien|Bewässerungssystem|de}}
+* {{lien|Bewässerungswasser|de}}
+* {{l|Bilgewasser|de}}, {{l|Bilgenwasser|de|sens=[[eau]] de [[cale]]}}
+* {{lien|Bitzelwasser|de}}
+* {{lien|Blubberwasser|de}}
+* {{lien|Blumenwasser|de}}
+* {{lien|Blutwasser|de}}
+* {{lien|Bodenwasser|de}}
+* {{lien|Bölkwasser|de}}
+* {{lien|Borwasser|de}}
+* {{l|Brackwasser|de|sens=[[eau saumâtre]]}}
+* {{l|Brauchwasser|de|sens=[[eau]] [[industriel]]le}}
+* {{lien|Brauwasser|de}}
+* {{lien|Brühwasser|de}}
+* {{l|Brunnenwasser|de|sens=[[eau]] de [[fontaine]] », « [[eau]] du [[puits]]}}
+* {{lien|Chlorwasser|de}}
+* {{lien|Dreckwasser|de}}
+* {{lien|Druckwasser|de}}
+* {{lien|Duschwasser|de}}
+* {{lien|Eierwasser|de}}
+* {{lien|Eigenwasser|de}}
+* {{lien|Einweichwasser|de}}
+* {{lien|Eisenwasser|de}}
+* {{l|Eiswasser|de|sens=[[eau]] [[glacée]]}}
+* {{l|Essigwasser|de|sens=[[eau]] [[vinaigré]]e}}
+* {{l|Fahrwasser|de|sens=[[chenal]] », « [[voie navigable]] », « [[passe]]}}
+* {{l|Fernwasser|de|sens=[[eau courante]] », « [[eau du robinet]]}}
+* {{lien|Fischwasser|de}}
+* {{lien|Flachwasser|de}}
+* {{l|Fleckenwasser|de|sens=[[détachant]]}}
+* {{l|Fließwasser|de|sens=[[eau courante]]}}
+* {{l|Flusswasser|de|sens=[[eau]] de [[rivière]]}}
+* {{l|Flutwasser|de|sens=[[eau]]x d’[[inondation]] », « [[eau]] de [[crue]]}}
+* {{l|Freiwasser|de|sens=[[eau libre]]}}
+* {{lien|Fremdwasser|de}}
+* {{l|Frischwasser|de|sens=[[eau douce]] », « [[eau potable]]}}
+* {{l|Gebirgswasser|de|sens=[[eau]] de [[montagne]]}}
+* {{lien|Gießwasser|de}}
+* {{lien|Giftwasser|de}}
+* {{l|Gletscherwasser|de|sens=[[eau de fonte]]}}
+* {{l|Goldwasser|de|sens=[[eau]] [[doré]]e}} – ''(liqueur)''
+* {{l|Grauwasser|de|sens=[[eaux usées]] », « [[eaux grises]]}}
+* {{l|Grubenwasser|de|sens=[[eau]] de [[mine]]}}
+* {{l|Grundwasser|de|sens=[[eau]] [[souterrain]]e}}
+* {{lien|Gurgelwasser|de}}
+* {{l|Gurkenwasser|de|sens=[[eau]] du [[concombre]] », « [[eau]] aux [[concombre]]s}}
+* {{l|Hafenwasser|de|sens=[[eau]] du [[port]]}}
+* {{l|Hahnenwasser|de|sens=[[eau du robinet]]}} – ''(Suisse et Allemagne du sud)''
+* {{l|Haushaltswasser|de|sens=[[eau courante]]}}
+* {{l|Heilwasser|de|sens=[[eau]] [[curatif|curative]] », « [[eau]] [[médicinal]]e}}
+* {{l|Heißwasser|de|sens=[[eau bouillante]]}}
+* {{lien|Heizwasser|de}}
+* {{lien|Heizungswasser|de}}
+* {{l|Hirnwasser|de|sens=[[liquide cérébrospinal]] », « [[liquide céphalo-rachidien]]}}
+* {{l|Hochwasser|de|sens=[[inondation]] », « [[marée haute]]}}
+* {{l|Industriewasser|de|sens=[[eau]] [[industrielle]]}}
+* {{l|Kaffeewasser|de|sens=[[eau]] pour le [[café]]}}
+* {{l|Kalkwasser|de|sens=[[eau calcaire]]}}
+* {{l|Kaltwasser|de|sens=[[eau froide]]}}
+* {{lien|Kammerwasser|de}}
+* {{lien|Kanalwasser|de}}
+* {{lien|Kartoffelwasser|de}}
+* {{lien|Keeswasser|de}}
+* {{l|Kielwasser|de|sens=[[sillage]]}}
+* {{lien|Klarwasser|de}}
+* {{lien|Klärwasser|de}}
+* {{lien|Kleinwasser|de}}
+* {{lien|Kloßwasser|de}}
+* {{l|Kochwasser|de|sens=[[eau de cuisson]]}}
+* {{l|Kondenswasser|de|sens=[[eau de condensation]]}}
+* {{l|Königswasser|de|sens=[[eau régale]]}}
+* {{lien|Kopfwasser|de}}
+* {{lien|Krabbelwasser|de}}
+* {{lien|Kribbelwasser|de}}
+* {{l|Kristallwasser|de|sens=[[eau de cristallisation]]}}
+* {{l|Kühlwasser|de|sens=[[eau de refroidissement]]}}
+* {{lien|Kupferwasser|de}}
+* {{lien|Leichtwasser|de}}
+* {{l|Leitungswasser|de|sens=[[eau du robinet]]}}
+* {{l|Löschwasser|de|sens=[[eau d’extinction]]}}
+* {{l|Lötwasser|de|sens=[[eau]] à [[braser]]}}
+* {{l|Meerwasser|de|sens=[[eau de mer]]}}
+* {{l|Mineralwasser|de|sens=[[eau minérale]]}}
+* {{lien|Mischwasser|de}}
+* {{lien|Mittelwasser|de}}
+* {{l|Niederschlagswasser|de|sens=[[eau]] de [[précipitation]] [[atmosphérique]] », « [[eau de pluie]]}}
+* {{lien|Niederwasser|de}}
+* {{l|Niedrigwasser|de|sens=[[basse mer]] », « [[marée basse]] », « [[étiage]]}}
+* {{lien|Normalwasser|de}}
+* {{lien|Nutzwasser|de}}
+* {{l|Oberflächenwasser|de|sens=[[eau de surface]] », « [[eau superficielle]]}}
+* {{l|Oberwasser|de|sens=[[eau]] d’[[amont]]}}
+* {{l|Osterwasser|de|sens=[[eau de Pâques]]}}
+* {{l|Ozeanwasser|de|sens=[[eau]] [[océanique]]}}
+* {{l|Porenwasser|de|sens=[[eau interstitielle]]}}
+* {{l|Prickelwasser|de|sens=[[eau pétillante]]}}
+* {{l|Prozesswasser|de|sens=[[eau]] de [[procédé]]}}
+* {{l|Putzwasser|de|sens=[[eau de lavage]]}}
+* {{l|Quellwasser|de|sens=[[eau de source]]}}
+* {{l|Rasierwasser|de|sens=[[après-rasage]]}}
+* {{l|Reaktorwasser|de|sens=[[eau]] de [[réacteur]]}}
+* {{l|Regenwasser|de|sens=[[eau de pluie]] », « [[eau pluviale]]}}
+* {{l|Reinigungswasser|de|sens=[[eau]] de [[nettoyage]]}}
+* {{l|Reinwasser|de|sens=[[eau]] [[pur]]e}}
+* {{l|Restwasser|de|sens=[[eau]] [[résiduel]]le}}
+* {{lien|Rieselwasser|de}}
+* {{lien|Rohwasser|de}}
+* {{l|Rosenwasser|de|sens=[[eau de rose]] », « [[hydrolat]] de [[rose]]}}
+* {{lien|Rülpswasser|de}}
+* {{l|Salzwasser|de|sens=[[eau salée]] », « [[eau de mer]]}}
+* {{lien|Sauerwasser|de}}
+* {{l|Scheidewasser|de|sens=[[acide nitrique]] », « [[eau forte]]}}
+* {{lien|Schichtenwasser|de}}
+* {{lien|Schlabberwasser|de}}
+* {{l|Schmelzwasser|de|sens=[[eau de fonte]]}}
+* {{l|Schmutzwasser|de|sens=[[eau]] [[sale]] », « [[eaux usées]]}}
+* {{lien|Schneewasser|de}}
+* {{lien|Schraubenwasser|de}}
+* {{lien|Schwerwasser|de}}
+* {{lien|Schwitzwasser|de}}
+* {{l|Seewasser|de|sens=[[eau de mer]] », « [[eau]] de [[lac]] », « [[eau]] du [[lac]]}}
+* {{lien|Seifenwasser|de}}
+* {{lien|Seihwasser|de}}
+* {{l|Selterswasser|de|sens=[[eau de Seltz]]}}
+* {{lien|Sickerwasser|de}}
+* {{lien|Siedewasser|de}}
+* {{lien|Skiwasser|de}}
+* {{l|Sodawasser|de|sens=[[eau minérale]] [[gazeux|gazeuse]] », « [[eau gazeuse]]}}
+* {{lien|Solwasser|de}}
+* {{lien|Speisewasser|de}}
+* {{lien|Sperrwasser|de}}
+* {{l|Spritzwasser|de|sens=[[éclaboussures]] », « [[embrun]]}}
+* {{l|Sprudelwasser|de|sens=[[eau pétillante]] », « [[eau gazeuse]]}}
+* {{lien|Sprühwasser|de}}
+* {{l|Spülwasser|de|sens=[[eau de rinçage]]}}
+* {{lien|Stagnationswasser|de}}
+* {{lien|Standwasser|de}}
+* {{lien|Stauwasser|de}}
+* {{lien|Stillwasser|de}}
+* {{lien|Sumpfwasser|de}}
+* {{l|Süßwasser|de|sens=[[eau douce]]}}
+* {{l|Tafelwasser|de|sens=[[eau de table]]}}
+* {{lien|Talsperrenwasser|de}}
+* {{l|Taufwasser|de|sens=[[eau baptismale]]}}
+* {{lien|Tauwasser|de}}
+* {{lien|Teewasser|de}}
+* {{lien|Teichwasser|de}}
+* {{l|Thermalwasser|de|sens=[[eau thermale]]}}
+* {{l|Thymianwasser|de|sens=[[hydrolat]] de [[thym]]}}
+* {{lien|Tiefwasser|de}}
+* {{lien|Tiefenwasser|de}}
+* {{l|Trinkwasser|de|sens=[[eau de boisson]] », « [[eau potable]]}}
+* {{lien|Uferwasser|de}}
+* {{l|Unterwasser|de|sens=[[eau]] d’[[aval]]}}
+* {{lien|Vitaminwasser|de}}
+* {{l|Warmwasser|de|sens=[[eau chaude]]}}
+* {{l|Waschwasser|de|sens=[[eau de lavage]]}}
+* {{lien|Weißwasser|de}}
+* {{lien|Wischwasser|de}}
+* {{lien|Zahnwasser|de}}
+* {{lien|Zisternenwasser|de}}
+{{)}}
+{{(|}}
+* {{lien|Atlantikwasser|de}}
+* {{l|Bodenseewasser|de|sens=[[eau]] du [[lac de Constance]]}}
+* {{l|Donauwasser|de|sens=[[eau]] du [[Danube]]}}
+* {{l|Elbewasser|de}}, {{l|Eblwasser|de|sens=[[eau]] de l’[[Elbe]]}}
+* {{lien|Euphratwasser|de}}
+* {{lien|Jordanwasser|de}}
+* {{lien|Lourdeswasser|de}}
+* {{lien|Mainwasser|de}}
+* {{l|Mittelmeerwasser|de|sens=[[eau]] de la [[Méditerranée]]}}
+* {{l|Moselwasser|de|sens=[[eau]] de la [[Moselle]]}}
+* {{lien|Neckarwasser|de}}
+* {{lien|Nilwasser|de}}
+* {{lien|Nordseewasser|de}}
+* {{lien|Oderwasser|de}}
+* {{lien|Ostseewasser|de}}
+* {{l|Rheinwasser|de|sens=[[eau]] du [[Rhin]]}}
+* {{lien|Spreewasser|de}}
+{{)}}
+{{(|}}
+* {{lien|Binnenwasser|de}}
+* {{lien|Fluss|de}}
+* {{lien|Bach|de}}
+* {{lien|Strom|de}}
+* {{lien|Teich|de}}
+* {{lien|Weiher|de}}
+* {{lien|See|de}}
+* {{lien|Lagune|de}}
+* {{lien|Meer|de}}
+{{)}}
+{{(|}}
+* {{l|Alaunwasser|de|sens=[[eau]] d’[[alun]]}}
+* {{lien|Ammoniakwasser|de}}
+* {{lien|Ätzwasser|de}}
+* {{lien|Augenwasser|de}}
+* {{l|Birkenwasser|de|sens=[[eau]] de [[bouleau]]}}
+* {{lien|Bitterwasser|de}}
+* {{lien|Fruchtsaftwasser|de}}
+* {{l|Fruchtwasser|de|sens=[[liquide amniotique]]}}
+* {{lien|Gaswasser|de}}
+* {{l|Gesichtswasser|de|sens=[[lotion]] pour le [[visage]]}}
+* {{l|Haarwasser|de|sens=[[lotion capillaire]]}}
+* {{l|Hirnwasser|de|sens=[[liquide cérébrospinal]] », « [[liquide céphalo-rachidien]]}}
+* {{lien|Karbolwasser|de}}
+* {{l|Kölnischwasser|de|sens=[[eau de Cologne]]}}
+* {{lien|Laugenwasser|de}}
+* {{lien|Lavendelwasser|de}}
+* {{lien|Magenwasser|de}}
+* {{l|Mundwasser|de|sens=[[lotion]] pour [[bain de bouche]]}}
+* {{lien|Nasenwasser|de}}
+* {{lien|Toilettenwasser|de}}
+* {{lien|Tränenwasser|de}}
+{{)}}
+{{(|}}
+* {{l|Alsterwasser|de|sens=[[panaché]]}}
+* {{lien|Birnenwasser|de}}
+* {{lien|Dirndlbrand|de}}
+* {{lien|Diplomatenwasser|de}}
+* {{l|Feuerwasser|de|sens=[[eau de feu]]}}
+* {{l|Kirschwasser|de|sens=[[kirsch]] », « [[eau-de-vie]] de [[cerise]]}}
+* {{lien|Lebenswasser|de}}
+* {{lien|Obstwasser|de}}
+* {{lien|Slivovitz|de}}
+* {{lien|Wodka|de}}
+* {{lien|Zielwasser|de}}
+* {{l|Zwetschgenwasser|de|sens=[[eau-de-vie]] de [[quetsch]]}}
+{{)}}
+{{(|}}
+* {{lien|Quasselwasser|de}}
+* {{lien|Schwarzwasser|de}}
+* {{l|Weihwasser|de|sens=[[eau bénite]]}}
+* {{l|Wildwasser|de|sens=[[torrent]]}}
+* {{lien|Wunderwasser|de}}
+* {{lien|Wundwasser|de}}
+* {{l|Zitronenwasser|de|sens=[[eau citronnée]]}}
+* {{l|Zuckerwasser|de|sens=[[eau sucrée]]}}
+{{)}}
+
+==== {{S|dérivés}} ====
+{{(|Substantifs et toponymes en ''-wasser''}}
+* {{l|Ammerwasser|de}}
+* {{l|Ätzwasser|de}} 
+* {{l|Aufwaschwasser|de}} 
+* {{l|Augenwasser|de}}
+* {{l|Betriebswasser|de}}
+* {{l|Binnenwasser|de}} 
+* {{l|Bitterwasser|de}} 
+* {{l|Bitzelwasser|de}} 
+* {{l|Blubberwasser|de}} 
+* {{l|Blutwasser|de}} 
+* {{l|Bodenwasser|de}}
+* {{l|Bölkwasser|de}} 
+* {{l|Borwasser|de}}
+* {{l|Brauwasser|de}} 
+* {{l|Chlorwasser|de}}
+* {{l|Diplomatenwasser|de}}
+* {{l|Dirndlbrand|de}}
+* {{l|Druckwasser|de}}
+* {{l|Duftwasser|de|sens=[[eau]] [[parfumé]]e », « [[eau de toilette]]}}
+* {{l|Eierwasser|de}} 
+* {{l|Eigenwasser|de}}
+* {{l|Felsquellwasser|de|sens=[[eau de roche]]}}
+* {{l|Fischwasser|de}}
+* {{l|Flachwasser|de}}
+* {{l|Fremdwasser|de}}
+* {{l|Fruchtsaftwasser|de}}
+* {{l|Gas- und Wasser-Installateur|de}}
+* {{l|Gewässer|de|sens=[[eaux]]}}
+* {{l|Heizungswasser|de}}
+* {{l|Jordanwasser|de}}
+* {{l|Kammerwasser|de}}
+* {{l|Kanalwasser|de}}
+* {{l|Kartoffelwasser|de}} 
+* {{l|Klärwasser|de}}
+* {{l|Kopfwasser|de}} 
+* {{l|Kupferwasser|de}} 
+* {{l|Lebenswasser|de}}
+* {{l|Leichtwasser|de}}
+* {{l|Magenwasser|de}}
+* {{l|Mischwasser|de}}
+* {{l|Mittelwasser|de}} 
+* {{l|Nasenwasser|de}}
+* {{l|Nutzwasser|de}}
+* {{l|Reinigungswasser|de}}
+* {{l|Reinwasser|de}}
+* {{l|Restwasser|de}}
+* {{l|Rieselwasser|de}} 
+* {{l|Rohwasser|de}}
+* {{l|Schiwasser|de}} 
+* {{l|Schneewasser|de}}
+* {{l|Schraubenwasser|de}}
+* {{l|Schwarzwasser|de}}
+* {{l|Schwerwasser|de}}
+* {{l|Schwitzwasser|de}}
+* {{l|Seifenwasser|de}}
+* {{l|Seihwasser|de}}
+* {{l|Sickerwasser|de}}
+* {{l|Siedewasser|de}} 
+* {{l|Skiwasser|de}} 
+* {{l|Sperrwasser|de}}
+* {{l|Sprühwasser|de}} 
+* {{l|Stillwasser|de}}
+* {{l|Sumpfwasser|de}}
+* {{l|Talsperrenwasser|de}}
+* {{l|Tauwasser|de}}
+* {{l|Teewasser|de}}
+* {{l|Teichwasser|de}}
+* {{l|Tiefenwasser|de}}
+* {{l|Tischwasser|de}}
+* {{l|Tränenwasser|de}}
+* {{l|Tunnelwasser|de|sens=[[eau de tunnel]]}}
+* {{l|Uferwasser|de}}
+* {{l|Unterwasserarchäologe|de}} 
+* {{l|Unterwasserarchäologie|de}} 
+* {{l|Unterwasseraufnahme|de}} 
+* {{l|Unterwasserball|de}} 
+* {{l|Unterwasserboot|de}} 
+* {{l|Unterwassereis|de}} 
+* {{l|Unterwasserfahrzeug|de}} 
+* {{l|Unterwasserfotografie|de}} 
+* {{l|Unterwassergeschoss|de}} 
+* {{l|Unterwassergymnastik|de}} 
+* {{l|Unterwasserjagd|de}} 
+* {{l|Unterwasserjäger|de}}
+* {{l|Unterwasserkabel|de}} 
+* {{l|Unterwasserkamera|de}} 
+* {{l|Unterwasserkraftwerk|de}} 
+* {{l|Unterwassermassage|de}} 
+* {{l|Unterwasserphotographie|de}} 
+* {{l|Unterwasserrelief|de}} 
+* {{l|Unterwasserschwimmen|de}} 
+* {{l|Unterwasserstation|de}} 
+* {{l|Unterwasserstreitkraft|de}} 
+* {{l|Unterwasservulkan|de}} 
+* {{l|Unterwasserwelt|de}} 
+* {{l|Wunderwasser|de}}
+* {{l|Wundwasser|de}}
+* {{l|Zielwasser|de}}
+* {{l|Zwetschenwasser|de}} 
+* {{l|Zwetschkenwasser|de}} 
+{{)}}
+{{(|Autres substantifs}}
+* {{l|Wasserabfluss|de}}
+* {{l|Wasserabgabe|de}}
+* {{l|Wasserablass|de}}
+* {{l|Wasserableitung|de}}
+* {{l|Wasserabort|de}}
+* {{l|Wasserabschlag|de}}
+* {{l|Wasserabweiser|de}}
+* {{l|Wasserader|de|sens=[[cours d’eau souterrain]] », « [[veine d’eau souterraine]]}}
+* {{l|Wasserampfer|de}}
+* {{l|Wasseramsel|de|sens=[[cincle plongeur]]}}
+* {{l|Wasseranlage|de}}
+* {{l|Wasseranschluss|de|sens=[[prise d’eau]]}}
+* {{l|Wasserärmel|de|sens=[[manches aquatiques]]}}
+* {{l|Wasserarmut|de|sens=[[aridité]]}}
+* {{l|Wasseraufbereitung|de|sens=[[traitement de l’eau]]}}
+* {{l|Wasseraufnahme|de}}
+* {{l|Wasseraustritt|de}}
+* {{l|Wasserbad|de|sens=[[bain-marie]]}}
+* {{l|Wasserbakterie|de}} 
+* {{l|Wasserball|de|sens=[[water-polo]] », « [[ballon de plage]]}}
+* {{l|Wasserbassin|de}} 
+* {{l|Wasserbau|de|sens=[[ingénierie hydraulique]]}}
+* {{l|Wasserbauch|de}} 
+* {{l|Wasserbaukunst|de}}
+* {{l|Wasserbaumeister|de}}
+* {{l|Wasserbaumtechniker|de}}
+* {{l|Wasserbecken|de|sens=[[bassin d’eau]]}}
+* {{l|Wasserbedarf|de|sens=[[besoin en eau]]}}
+* {{l|Wasserbehälter|de|sens=[[réservoir d’eau]]}}
+* {{l|Wasserbehandlung|de}} 
+* {{l|Wasserbehörde|de}} 
+* {{l|Wasserbereithaltung|de}}
+* {{l|Wasserbereitstellung|de}}
+* {{l|wasserbeschädigt|de}}
+* {{l|Wasserbeschaffenheit|de}}
+* {{l|Wasserbetrieb|de}} 
+* {{l|Wasserbett|de|sens=[[matelas à eau]]}}
+* {{l|Wasserbewohner|de}}
+* {{l|Wasserblase|de}}
+* {{l|Wasserblattern|de}}
+* {{l|Wasserblei|de}}
+* {{l|Wasserblume|de}}
+* {{l|Wasserblüte|de}} 
+* {{l|Wasserbombe|de|sens=[[bombe à eau]] », « [[grenade anti sous-marine]]}}
+* {{l|Wasserborn|de|sens=[[source]]}}
+* {{l|Wasserbottich|de}} 
+* {{l|Wasserbrei|de}}
+* {{l|Wasserbrotwurzel|de}}
+* {{l|Wasserbruch|de|sens=[[hydrocèle]]}}
+* {{l|Wasserbüffel|de|sens=[[buffle d’Asie]] », « [[buffle domestique]]}}
+* {{l|Wasserburg|de}} 
+* {{l|Wasserbütte|de}} 
+* {{l|Wasserchemie|de}} 
+* {{l|Wässerchen|de|sens=[[eau de parfum]]}}
+* {{l|Wasserdamm|de}}
+* {{l|Wasserdampf|de|sens=[[vapeur d’eau]]}}
+* {{l|Wasserdargebot|de}}
+* {{l|Wasserdichte|de}}
+* {{l|Wasserdichtigkeit|de}}
+* {{l|Wasserdost|de}}
+* {{l|Wasserdruck|de|sens=[[pression hydraulique]]}}
+* {{l|Wasserdrucklehre|de}}
+* {{l|Wasserdunst|de}}
+* {{l|Wasserdurchtritt|de}}
+* {{l|Wassereidechse|de}}
+* {{l|Wassereimer|de|sens=[[seau à eau]]}}
+* {{l|Wassereinbruch|de|sens=[[infiltration d’eau]]}}
+* {{l|Wassereis|de|sens=[[sorbet]] », « [[glace à l’eau]]}}
+* {{l|Wasserelektrolyse|de|sens=[[électrolyse de l’eau]]}}
+* {{l|Wasserentnahme|de|sens=[[prélèvement d’eau]]}}
+* {{l|Wasserentzug|de}}
+* {{l|Wassererschließung|de}}
+* {{l|Wasserfahrt|de|sens=[[promenade sur l’eau]] », « [[déplacement sur l’eau]]}}
+* {{l|Wasserfall|de|sens=[[chute d'eau]] », « [[cascade]]}}
+* {{l|Wasserfarbe|de|sens=[[peinture à l’eau]]}}
+* {{l|Wasserfarn|de}} 
+* {{l|Wasserfass|de|sens=[[baril d’eau]]}}
+* {{l|Wasserfassung|de}}
+* {{l|Wasserfeder|de}} 
+* {{l|Wasserfernleitung|de}}
+* {{l|Wasserfilm|de}}
+* {{l|Wasserfilter|de}}
+* {{l|Wasserfläche|de|sens=[[nappe d’eau]]}}
+* {{l|Wasserflasche|de|sens=[[bouteille d’eau]]}}
+* {{l|Wasserfleck|de|sens=[[tache d'humidité]]}}
+* {{l|Wasserflecken|de}} 
+* {{l|Wasserfloh|de|sens=[[daphnie]] », « [[puce d’eau]]}}
+* {{l|Wasserflugschiff|de|sens=[[hydravion]]}}
+* {{l|Wasserflughafen|de}} 
+* {{l|Wasserflugzeug|de|sens=[[hydravion]]}}
+* {{l|Wasserflut|de|sens=[[inondation]]}}
+* {{l|Wasserfontäne|de|sens=[[jet d’eau]]}}
+* {{l|Wasserförderung|de}}
+* {{l|Wasserfreund|de|sens=[[scarabée d’eau]] », « [[Hydrophilidae]]}}
+* {{l|Wasserfrosch|de}}
+* {{l|Wasserfüllung|de}}
+* {{l|Wasserfurche|de}} 
+* {{l|Wassergas|de}} 
+* {{l|Wassergeburt|de|sens=[[accouchement dans l’eau]]}}
+* {{l|Wassergefäss|de}}
+* {{l|Wassergeflügel|de}}
+* {{l|Wassergehalt|de|sens=[[teneur en eau]]}}
+* {{l|Wassergeist|de|sens=[[esprit de l’eau]] », « [[esprit des eaux]]}}
+* {{l|Wassergesetz|de}}
+* {{l|Wassergewächs|de|sens=[[plante aquatique]]}}
+* {{l|Wassergewinnung|de}}
+* {{l|Wasserglas|de|sens=[[verre à eau]] », « [[verre liquide]]}}
+* {{l|Wassergott|de}}
+* {{l|Wassergraben|de|sens=[[rigole]] », « [[douve]] », « [[rivière]]}}
+* {{l|Wassergrube|de|sens=[[citerne d’eau]]}}
+* {{l|Wassergrundstück|de}} 
+* {{l|Wasserguss|de|sens=[[ondée]] », « [[douche en jet]]}}
+* {{l|Wassergymnastik|de}} 
+* {{l|Wasserhahn|de|sens=[[robinet d’eau]]}}
+* {{l|Wasserhandel|de}}
+* {{l|Wasserharnruhr|de}}
+* {{l|Wasserhärte|de}}
+* {{l|Wasserhaushalt|de|sens=[[régime]] des [[eau]]x », « [[bilan]] [[hygrique]]}}
+* {{l|Wasserhaut|de|sens=[[amnios]] », « [[pellicule]] d’[[eau]]}}
+* {{l|Wasserheilkunde|de|sens=[[hydrothérapie]]}}
+* {{l|Wasserhöhe|de}} 
+* {{l|Wasserhose|de|sens=[[trombe]]}}
+* {{l|Wasserhuhn|de|sens=[[poule d’eau]]}}
+* {{l|Wasserhülle|de}} 
+* {{l|Wasserhydrant|de}}
+* {{l|Wasserhygiene|de}}
+* {{l|Wasserinsekt|de}} 
+* {{l|Wasserjungfer|de|sens=[[libellule]]}}
+* {{l|Wasserkäfer|de|sens=[[scarabée d’eau]] », « [[Hydrophilidae]]}}
+* {{l|Wasserkalk|de|sens=[[chaux hydraulique]]}}
+* {{l|Wasserkammer|de}}
+* {{l|Wasserkanister|de}} 
+* {{l|Wasserkanne|de|sens=[[broc]]}}
+* {{l|Wasserkanone|de}} 
+* {{l|Wasserkante|de}} 
+* {{l|Wasserkaraffe|de}} 
+* {{l|Wasserkarte|de}}
+* {{l|Wasserkasten|de|sens=[[réservoir]]}}
+* {{l|Wasserkauf|de}}
+* {{l|Wasserkeil|de}}
+* {{l|Wasserkelch|de}} 
+* {{l|Wasserkessel|de|sens=[[bouilloire]]}}
+* {{l|Wasserklosett|de|sens=[[toilettes]] », « [[latrines]]}}
+* {{l|Wasserknappheit|de|sens=[[aridité]]}}
+* {{l|Wasserkobold|de}} 
+* {{l|Wasserkocher|de|sens=[[bouilloire électrique]]}}
+* {{l|Wasserkopf|de|sens=[[hydrocéphalie]]}}
+* {{l|Wasserkraft|de|sens=[[énergie hydraulique]]}}
+* {{l|Wasserkreislauf|de|sens=[[cours d’eau]]}}
+* {{l|Wasserkresse|de|sens=[[cresson de fontaine]]}}
+* {{l|Wasserkrug|de|sens=[[pichet à eau]]}}
+* {{l|Wasserkühlung|de|sens=[[refroidissement par eau]]}}
+* {{l|Wasserkunst|de|sens=[[jet d’eau]]}}
+* {{l|Wasserkur|de|sens=[[cure hydrothérapique]]}}
+* {{l|Wasserlache|de|sens=[[flaque d’eau]]}}
+* {{l|Wasserlandschaft|de}} 
+* {{l|Wasserlandung|de|sens=[[amerrissage]]}}
+* {{l|Wasserlauf|de|sens=[[cours d’eau]]}}
+* {{l|Wasserleiche|de|sens=[[cadavre]] de [[noyé]]}}
+* {{l|Wasserleitung|de|sens=[[aqueduc]] », « [[conduite d’eau]]}}
+* {{l|Wasserlichtorgel|de}} 
+* {{l|Wasserlilie|de}}
+* {{l|Wasserlinie|de|sens=[[ligne de flottaison]]}}
+* {{l|Wasserlinse|de}}
+* {{l|Wasserloch|de|sens=[[trou d’eau]] », « [[mare d’eau]]}}
+* {{l|Wasserabfluss|de}}
+* {{l|Wassermalerei|de|sens=[[peinture à l’eau]]}}
+* {{l|Wassermanagement|de|sens=[[gestion de l’eau]]}}
+* {{l|Wassermangel|de|sens=[[pénurie d’eau]] », « [[aridité]]}}
+* {{l|Wassermann|de|sens=[[constellation du Verseau]] », « [[Verseau]] », « [[porteur d'eau]]}}
+* {{l|Wassermaschine|de|sens=[[machine hydraulique]]}}
+* {{l|Wassermasse|de|sens=[[masse d’eau]]}}
+* {{l|Wassermelone|de|sens=[[pastèque]]}}
+* {{l|Wassermenge|de|sens=[[quantité d’eau]]}}
+* {{l|Wassermolch|de|sens=[[triton]]}}
+* {{l|Wassermolekül|de|sens=[[molécule d’eau]]}}
+* {{l|Wassermotorrad|de|sens=[[jet ski]] », « [[véhicule nautique à moteur]] », « [[motomarine]]}}
+* {{l|Wassermühle|de|sens=[[moulin à eau]]}}
+* {{l|Wassermusik|de|sens=[[musique de l’eau]]}}
+* {{l|Wassernase|de|sens=[[jet d’eau]]}} – ''(menuiserie)''
+* {{l|Wassernetz|de|sens=[[hydrodictyon]]}}
+* {{l|Wassernixe|de|sens=[[nixe]] », « [[ondine]]}}
+* {{l|Wassernot|de|sens=[[manque d’eau]]}}
+* {{l|Wassernutzung|de}}
+* {{l|Wassernymphe|de|sens=[[nymphe des eaux]]}}
+* {{l|Wasseroberfläche|de|sens=[[surface de l’eau]]}}
+* {{l|Wasserökologie|de}}
+* {{l|Wasserorgel|de}} 
+* {{l|Wasserpalme|de|sens=[[papyrus]]}}
+* {{l|Wasserpegel|de|sens=[[niveau de l’eau]]}}
+* {{l|Wasserperle|de|sens=[[perle d’eau]], [[gouttelette d’eau]]}}
+* {{l|Wasserpest|de|sens=[[élodée]] », « [[peste d’eau]]}}
+* {{l|Wasserpfahl|de|sens=[[pilotis]]}}
+* {{l|Wasserpfeffer|de|sens=[[renouée poivre d’eau]]}}
+* {{l|Wasserpfeife|de|sens=[[narghilé]] », « [[narguilé]]}}
+* {{l|Wasserpflanze|de|sens=[[plante aquatique]]}}
+* {{l|Wasserpfütze|de|sens=[[flaque]]}}
+* {{l|Wasserpilz|de|sens=[[hyphomycète]]}}
+* {{l|Wasserpistole|de|sens=[[pistolet à eau]]}}
+* {{l|Wasserpolizei|de}} 
+* {{l|Wasserpolnisch|de|sens=[[dialecte]] [[Schlesisch]]}} 
+* {{l|Wasserpreis|de|sens=[[prix de l’eau]] », « [[cours de l’eau]]}}
+* {{l|Wasserprimel|de}}
+* {{l|Wasserprobe|de|sens=[[échantillon d’eau]]}}
+* {{l|Wasserpumpe|de|sens=[[pompe à eau]]}}
+* {{l|Wasserqualität|de|sens=[[qualité de l’eau]]}}
+* {{l|Wasserquelle|de|sens=[[source]]}}
+* {{l|Wasserquirl|de|sens=[[hydrilla verticillata]]}}
+* {{l|Wasserrad|de|sens=[[roue hydraulique]] », « [[roue à aubes]]}}
+* {{l|Wasserrakete|de|sens=[[fusée à eau]] », « [[fusée hydropneumatique]]}}
+* {{l|Wasserralle|de|sens=[[râle d’eau]]}}
+* {{l|Wasserrand|de|sens=[[bord de l’eau]] », « [[tache d’eau]]}}
+* {{l|Wasserratte|de|sens=[[rat d’eau]]}}
+* {{l|Wasserrecht|de|sens=[[droit de l’eau]]}}
+* {{l|Wasserreichtum|de}} 
+* {{l|Wasserreinigung|de}}
+* {{l|Wasserreis|de}}
+* {{l|Wasserreserve|de|sens=[[réserve d’eau]]}}
+* {{l|Wasserreservoir|de|sens=[[réservoir d’eau]]}}
+* {{l|Wasserressource|de|sens=[[ressource en eau]]}}
+* {{l|Wasserretter|de}} 
+* {{l|Wasserrettung|de}} 
+* {{l|Wasserrettungsdienst|de}} 
+* {{l|Wasserrinne|de}} 
+* {{l|Wasserrohr|de|sens=[[tuyau d’eau]] », « [[canalisation d’eau]]}}
+* {{l|Wasserrohrleitung|de}}
+* {{l|Wasserrose|de|sens=[[nénuphar]] », « [[nymphéa]]}}
+* {{l|Wasserrückstand|de}} 
+* {{l|Wasserrutschbahn|de}} 
+* {{l|Wasserrutsche|de}} 
+* {{l|Wassersack|de|sens=[[sac à eau]]}}
+* {{l|Wassersäule|de|sens=[[colonne d’eau]] », « [[mètre d’eau]] », « [[mH2O]]}}
+* {{l|Wasserschaden|de|sens=[[dégât des eaux]]}}
+* {{l|Wasserschaff|de}} 
+* {{l|Wasserschale|de|sens=[[fontaine de jardin]]}}
+* {{l|Wasserscheide|de|sens=[[ligne de partage des eaux]]}}
+* {{l|Wasserscheu|de|sens=[[aquaphobie]] », « [[hydrophobie]]}}
+* {{l|Wasserschi|de|sens=[[ski nautique]]}}
+* {{l|Wasserschicht|de|sens=[[couche d’eau]] », « [[strate d’eau]]}}
+* {{l|Wasserschlange|de|sens=[[serpent d’eau]]}}
+* {{l|Wasserschlauch|de|sens=[[tuyau d'arrosage]] », « [[utriculaire]]}}
+* {{l|Wasserschloss|de|sens=[[château entouré de douves]] », « [[chambre d’équilibre]] », « [[soupape de pression]] », « [[château d’eau]]}}
+* {{l|Wasserschnepfe|de|sens=[[bécassine]]}}
+* {{l|Wasserschöpfer|de}}
+* {{l|Wasserschraube|de|sens=[[vallisnérie spiralée]]}}
+* {{l|Wasserschutz|de|sens=[[protection de l’eau]] », « [[protection contre l’eau]] », « [[police fluviale]]}}
+* {{l|Wasserschutzpolizei|de|sens=[[police fluviale]] », « [[police du port]] », « [[police maritime]]}}
+* {{l|Wasserschwall|de|sens=[[acoustique sous-marine]]}}
+* {{l|Wasserschwein|de|sens=[[hydrochère]] », « [[cochon d’eau]] », « [[capybara]]}}
+* {{l|Wasserseite|de|sens=[[eau du côté réservoir]] », « [[eau de retenue]]}}
+* {{l|Wassersicherstellung|de}}
+* {{l|Wasserski|de|sens=[[ski nautique]] », « [[ski pour le ski nautique]]}}
+* {{l|Wassersnot|de}} 
+* {{l|Wasserspeicher|de|sens=[[réservoir d’eau]]}}
+* {{l|Wasserspeicherung|de}}
+* {{l|Wasserspeier|de|sens=[[gargouille]]}}
+* {{l|Wasserspender|de|sens=[[fontaine d’eau fraîche]] », « [[distributeur d’eau]]}}
+* {{l|Wasserspiegel|de|sens=[[surface de l’eau]] », « [[miroir d’eau]]}}
+* {{l|Wasserspiel|de|sens=[[jeux d’eau]]}}
+* {{l|Wassersport|de|sens=[[sport nautique]] », « [[sport aquatique]]}}
+* {{l|Wasserspringen|de|sens=[[plongeon]]}}
+* {{l|Wasserspringer|de|sens=[[plongeur]]}}
+* {{l|Wasserspülung|de|sens=[[chasse d’eau]]}}
+* {{l|Wasserspur|de|sens=[[sillage]]}}
+* {{l|Wasserstand|de|sens=[[niveau de l’eau]]}}
+* {{l|Wasserstau|de}} 
+* {{l|Wasserstaub|de|sens=[[embruns]]}}
+* {{l|Wasserstein|de|sens=[[tartre]] », « [[dépôt calcaire]]}}
+* {{l|Wasserstelle|de|sens=[[point d’eau]]}}
+* {{l|Wasserstiefel|de}}
+* {{l|Wasserstoff|de|sens=[[hydrogène]]}}
+* {{l|Wasserstrahl|de|sens=[[jet d’eau]]}}
+* {{l|Wasserstraße|de|sens=[[voie navigable]]}}
+* {{l|Wasserstrom|de}}
+* {{l|Wasserstrudel|de|sens=[[tourbillon d’eau'', (''vortex d’eau]]}}
+* {{l|Wassersucht|de|sens=[[hydropisie]]}}
+* {{l|Wassersuppe|de|sens=[[soupe claire]]}}
+* {{l|Wassertablette|de}} 
+* {{l|Wassertank|de|sens=[[réservoir d’eau]]}}
+* {{l|Wassertarif|de|sens=[[tarif de l’eau]]}}
+* {{l|Wassertechnik|de}}
+* {{l|Wassertemperatur|de|sens=[[température de l’eau]]}}
+* {{l|Wassertiefe|de|sens=[[profondeur d’eau]]}}
+* {{l|Wassertier|de|sens=[[animal aquatique]]}}
+* {{l|Wassertonne|de|sens=[[fût d’eau]]}}
+* {{l|Wassertopf|de|sens=[[pot à eau]]}}
+* {{l|Wasserträger|de|sens=[[porteur d’eau]]}}
+* {{l|Wassertransport|de|sens=[[transport d’eau]]}}
+* {{l|Wassertrog|de}} 
+* {{l|Wassertropfen|de|sens=[[goutte d’eau]]}}
+* {{l|Wassertümpel|de}} 
+* {{l|Wasserturbine|de|sens=[[turbine hydraulique]]}}
+* {{l|Wasserturm|de|sens=[[château d’eau]]}}
+* {{l|Wasseruhr|de|sens=[[clepsydre]] », « [[compteur à eau]]}}
+* {{l|Wasserung|de|sens=[[amerrissage]]}}
+* {{l|Wässerung|de|sens=[[arrosage]] », « [[lavage]]}}
+* {{l|Wasseruntersuchung|de}}
+* {{l|Wasserventiel|de}}
+* {{l|Wasserverbindungsweg|de}}
+* {{l|Wasserverbrauch|de|sens=[[consommation d’eau]]}}
+* {{l|Wasserverdrängung|de}}
+* {{l|Wasserverdrängung|de}} 
+* {{l|Wasserverkauf|de|sens=[[vente]] d’[[eau]]}}
+* {{l|Wasserverkäufer|de|sens=[[vendeur]] d’[[eau]]}}
+* {{l|Wasserverkehr|de|sens=[[trafic fluvial]] », « [[trafic maritime]]}}
+* {{l|Wasserverlust|de|sens=[[perte d’eau]]}}
+* {{l|Wasserverschmutzer|de|sens=[[pollueur d’eau]]}}
+* {{l|Wasserverschmutzung|de|sens=[[pollution des eaux]]}}
+* {{l|Wasserversorgung|de|sens=[[approvisionement en eau]]}}
+* {{l|Wasserverteilung|de}}
+* {{l|Wasserverwendung|de}}
+* {{l|Wasservogel|de|sens=[[oiseau aquatique]]}}
+* {{l|Wasservolumen|de|sens=[[volume d’eau]]}}
+* {{l|Wasservorkommen|de}}
+* {{l|Wasservorrat|de|sens=[[réserve d’eau]]}}
+* {{l|Wasserwaage|de|sens=[[niveau à bulle]]}}
+* {{l|Wasserwagen|de|sens=[[camion-citerne]]}}
+* {{l|Wasserwanderer|de|sens=[[randonneur aquatique]]}}
+* {{l|Wasserwandern|de}} 
+* {{l|Wasserwanderung|de|sens=[[randonnée aquatique]]}}
+* {{l|Wasserwärme|de}} 
+* {{l|Wasserweg|de|sens=[[voie navigable]]}}
+* {{l|Wasserweihe|de}}
+* {{l|Wasserwelle|de|sens=[[mise en plis]]}}
+* {{l|Wasserwerfer|de|sens=[[canon à eau]]}}
+* {{l|Wasserwerk|de|sens=[[centre de distribution des eaux]]}}
+* {{l|Wasserwesen|de|sens=[[créature aquatique]]}}
+* {{l|Wasserwild|de|sens=[[gibier d’eau]]}}
+* {{l|Wasserwirtschaft|de}}
+* {{l|Wasserwissenschaft|de}}
+* {{l|Wasserwüste|de|sens=[[désert d’eau]]}}
+* {{l|Wasserzähler|de|sens=[[compteur d’eau]]}}
+* {{l|Wasserzapfstelle|de}}
+* {{l|Wasserzeichen|de|sens=[[filigrane]]}}
+* {{l|Wasserzober|de}} 
+* {{l|Wasserzufuhr|de}} 
+{{)}}
+{{(|Adjectifs}}
+* {{l|wasserabstoßend|de}}, {{l|wasserabweisend|de|sens=[[déperlant]]}}
+* {{l|wasserarm|de|sens=[[aride]]}}
+* {{l|wasserartig|de}}
+* {{l|wasserbindend|de}}
+* {{l|wasserblau|de}}
+* {{l|wasserblütig|de}}
+* {{l|wasserdicht|de|sens=[[étanche]] », « [[imperméable]]}}
+* {{l|wasserdurchlässig|de|sens=[[perméable à l’eau]]}}
+* {{l|wasserentziehend|de}}
+* {{l|wasserfest|de|sens=[[imperméable]] », « [[étanche]] », « [[lavable]] », « [[lessivable]]}}
+* {{l|wasserfleckig|de|sens=[[piqué d’humidité]]}}
+* {{l|wasserfrei|de|sens=[[anhydre]]}}
+* {{l|wasserführend|de}} 
+* {{l|wassergebunden|de}}
+* {{l|wassergekühlt|de|sens=[[refroidi par l’eau]]}}
+* {{l|wassergetrieben|de}}
+* {{l|wasserhaltig|de|sens=[[aqueux, aqueuse]]}}
+* {{l|wasserhell|de}} 
+* {{l|wässerig|de}}, {{l|wässrig|de|sens=[[clairet, clairette]] », « [[aqueux, aqueuse]]}}
+* {{l|wasserklar|de}} 
+* {{l|wasserlebend|de}} 
+* {{l|wasserlöslich|de|sens=[[soluble]] dans l’[[eau]] », « [[hydrosoluble]]}}
+* {{l|wasserrechtlich|de}}
+* {{l|wasserreich|de|sens=[[riche en eau]]}}
+* {{l|wasserscheu|de|sens=[[aquaphobe]] », « [[hydrophobe]] », « [[qui]] a [[peur]] de l’[[eau]]}}
+* {{l|wasserspeiend|de}} 
+* {{l|wassersüchtig|de|sens=[[hydropique]]}}
+* {{l|wasserundurchlässig|de|sens=[[imperméable]] », « [[étanche]]}}
+* {{l|wasserwirtschaftlich|de}}
+* {{l|wässrig|de|sens=[[aqueux]] », « [[aqueuse]]}}
+{{)}}
+{{(|Verbes}}
+* {{l|bewässern|de|sens=[[arroser]] », « [[irriguer]]}}
+* {{l|entwässern|de|sens=[[drainer]]}}
+* {{l|verwässern|de|sens=[[diluer]] », « [[étendre]]}}
+* {{l|wassern|de|sens=[[amerrir]]}}
+* {{l|wässern|de|sens=[[arroser]] », « [[tremper]] », « [[baigner]]}}
+{{)}}
+
+==== {{S|vocabulaire}} ====
+* {{l|Dampf|de|sens=[[vapeur]]}} – ''(forme gazeuse)''
+** {{l|Wasserdampf|de|sens=[[vapeur d’eau]]}} – ''(forme gazeuse, précisément de l’eau)''
+* {{l|Eis|de|sens=[[glace]]}} – ''(forme solide)''
+
+==== {{S|phrases}} ====
+{{(|Propositions complètes}}
+* {{l|Blut ist dicker als Wasser|de}}
+* {{l|jemandem steht das Wasser bis Oberkante Unterlippe|de}}
+* {{l|jemandem steht das Wasser bis zum Hals|de}}
+* {{l|jemandem steht das Wasser bis zum Halse|de}}
+* {{l|Wasser hat keine Balken|de}}
+* {{l|stille Wasser gründen tief|de}}
+* {{l|stille Wasser sind tief|de}} 
+{{)}}
+{{(|Locutions nominales}}
+* {{l|ein stilles Wasser|de}}
+* {{l|Schlag ins Wasser|de|sens=[[coup d’épée dans l’eau]]}}
+* {{l|Sprung ins kalte Wasser|de}}
+* {{l|Wasser auf jmds. Mühle|de}}
+* {{l|Wasser auf jmds. Mühlen|de}}
+{{)}}
+{{(|Locutions verbales}}
+* {{l|das Wasser nicht reichen|de|sens=[[ne pas arriver à la cheville]] », « ne pas [[soutenir]] la [[comparaison]]}}
+* {{l|das Wasser reichen können|de}}
+* {{l|mit allen Wassern gewaschen sein|de|sens=[[avoir plus d’un tour dans son sac]]}}
+* {{l|nahe am Wasser gebaut haben|de}}
+* {{l|nahe am Wasser gebaut sein|de}}
+* {{l|nicht das Wasser reichen können|de|sens=[[ne pas arriver à la cheville]]}}
+* {{l|Wasser in den Wein gießen|de|sens=[[modérer]] les [[attente]]s}}
+* {{l|zu Wasser werden|de|sens=[[partir en fumée]]}} – ''(au figuré : [[disparaître]])''
+{{)}}
+{{(|Locutions adjectivales}}
+* {{l|fit wie ein Fisch im Wasser|de}}
+* {{l|gesund wie ein Fisch im Wasser|de}}
+* {{l|munter wie ein Fisch im Wasser|de}}
+{{)}}
+
+=== {{S|prononciation}} ===
+* {{écouter|Haut-Palatinat (Allemagne)|ˈvasɐ|lang=de|audio=BY-Wasser.ogg}}
+* {{écouter|{{DE|nocat=1}}|ˈvasɐ|lang=de|audio=De-Wasser2.ogg}}
+* {{écouter|Bade-Wurtemberg (Allemagne)|ˈvasɐ|lang=de|audio=De-Wasser.ogg}}
+* {{écouter|Haut-Palatinat (Allemagne)|ˈvasɐ|lang=de|audio=DE-Wasser.ogg}}
+* {{écouter|{{DE|nocat=1}}|ˈvasɐ|lang=de|audio=LL-Q188 (deu)-Lucas Werkmeister-Wasser.wav}}
+* {{écouter|Berlin (Allemagne)|ˈvasɐ|lang=de|audio=LL-Q188 (deu)-Sebastian Wallroth-Wasser.wav}}
+* {{écouter|France (Vosges)|ˈvasɐ|lang=de|audio=LL-Q188 (deu)-Poslovitch-Wasser.wav}}
+* {{écouter|Hamburg (Allemagne)|ˈvasɐ|lang=de|audio=LL-Q188 (deu)-CamelCaseNick-Wasser.wav}}
+* {{écouter|Berlin (Allemagne)|ˈvasɐ|lang=de|audio=De-Wasser3.ogg}}
+* {{écouter|Munich (Allemagne)|ˈvasɐ|lang=de|audio=LL-Q188 (deu)-Ionenlaser-Wasser.wav}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=de}}
+
+=== {{S|références}} ===
+<references />
+
+==== {{S|sources}} ====
+* {{R:DWDS|Wasser}}
+* {{R:Duden|Waser}} 
+* {{Source-wikt|de|Wasser}}
+
+==== {{S|bibliographie}} ====
+* Larousse - Dictionnaire allemand/français – français/allemand , édition 1958, page 758.
+* Harrap’s  de poche – Bordas Dictionnaire allemand/français, édition 1997, ISBN 0-245-50308-0, page 336.
+
+=== {{S|anagrammes}} ===
+{{voir anagrammes|de}}
+
+== {{langue|ksh}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|ksh}}
+
+=== {{S|nom|ksh}} ===
+'''Wasser''' {{pron||ksh}}
+# [[eau#fr|Eau]].
+
+=== {{S|voir aussi}} ===
+* {{WP|3=ksh}}
+
+== {{langue|sxu}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|sxu}}
+
+=== {{S|nom|sxu}} ===
+'''Wasser''' {{phon|ˈv̥ɑz̥ɔˁ|sxu}}
+# [[eau#fr|Eau]].
+
+== {{langue|hrx}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|de|hrx|mot=Wasser|sens=[[eau]]}}, issu des {{étyl|gem|de|mot=wazzer}}, issu du {{étyl|goh|gem|mot=wazzar}}, lui-même issu du germanique occidental {{recons|lang-mot-vedette=hrx|watar}}, issu du {{étyl|proto-germanique|goh}} {{recons|lang-mot-vedette=hrx|watōr}}, finalement issu du {{étyl|indo-européen commun|proto-germanique}} {{recons|lang-mot-vedette=hrx|wédōr}}.
+
+=== {{S|nom|hrx}} ===
+{{hrx-nom|n.s=Wasser|n.pl=Wassre}}
+'''Wasser''' {{pron|ˈva.sɐ|hrx}} {{n}}
+# [[eau#fr|Eau]].
+
+==== {{S|variantes orthographiques}} ====
+* {{lien|waser|hrx}}
+
+=== {{S|références}} ===
+* {{R:Boll2021|p=171|vue=188}}
+
+== {{langue|pdc}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|pdc}}
+
+=== {{S|nom|pdc}} ===
+'''Wasser''' {{pron||pdc}} {{n}}
+# [[eau#fr|Eau]].
+
+=== {{S|voir aussi}} ===
+* {{WP|3=pdc}}
+
+[[Catégorie:Boissons en pennsilfaanisch]]
+[[Catégorie:Lexique en allemand de l’eau|*]]
+[[Catégorie:Lexique en francique ripuaire de l’eau|*]]
+[[Catégorie:Lexique en alémanique de l’eau|*]]
+[[Catégorie:Lexique en haut-saxon de l’eau|*]]
+[[Catégorie:Lexique en hunsrik de l’eau|*]]
+[[Catégorie:Lexique en walser de l’eau|*]]
+
+== {{langue|wae}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|wae}}
+
+=== {{S|nom|wae}} ===
+'''Wasser''' {{pron||wae}}
+# [[eau#fr|Eau]].
+
+=== {{S|références}} ===
+* Rita Kuonen, ''Wallisertiitsch Wort für Wort'', [http://books.google.fr/books?id=bJSoEHIWTSUC&pg=PA109#v=onepage&q&f=false page 109], 2011

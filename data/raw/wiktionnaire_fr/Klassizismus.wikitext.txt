@@ -1,0 +1,15 @@
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: {{composé de|m=1|lang=gsw|klassisch|-ismus}}.
+
+=== {{S|nom|gsw}} ===
+'''Klassizismus''' {{pron||gsw}}
+# {{lexique|art|littérature|gsw}} [[néo-classicisme|Néo-classicisme]].
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: {{composé de|m=1|lang=de|klassisch|-ismus}}.
+
+=== {{S|nom|de}} ===
+'''Klassizismus''' {{pron|klasiˈʦɪsmʊs|de}}
+# {{lexique|art|littérature|de}} [[néo-classicisme|Néo-classicisme]].

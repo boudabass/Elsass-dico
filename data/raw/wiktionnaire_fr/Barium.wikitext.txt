@@ -1,0 +1,98 @@
+{{voir/barium}}
+
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw}}
+
+=== {{S|nom|gsw}} ===
+'''Barium''' {{pron||gsw}} {{genre|gsw}}
+# {{éléments|gsw}} {{métaux|gsw}} [[baryum#fr|Baryum]].
+{{clr}}
+==== {{S|vocabulaire}} ====
+{{tableau périodique/gsw}}
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|de}}
+
+=== {{S|nom|de}} ===
+{{légende élément/de|Ba}}
+[[Image:Barium_unter_Argon_Schutzgas_Atmosph%C3%A4re.jpg|thumb|'''Barium'''.]]
+'''Barium''' {{pron|ˈbaːʀi̯ʊm|de}} {{n}}
+# {{éléments|de}} {{métaux|de}} [[baryum#fr|Baryum]] (l’{{lien|élément chimique}} [[Ba#conv|Ba]]).
+
+==== {{S|dérivés}} ====
+{{(|&nbsp;}}
+* {{lien|Bariumacetat|de}}
+* {{lien|Bariumbromat|de}}
+* {{lien|Bariumbromid|de}}
+* {{lien|Bariumcarbonat|de}}
+* {{lien|Bariumchlorat|de}}
+* {{lien|Bariumfluorid|de}}
+* {{lien|Bariumhydroxid|de}}
+* {{lien|Bariumnitrat|de}}
+* {{lien|Bariumoxid|de}}
+* {{lien|Bariumperoxid|de}}
+* {{lien|Bariumsulfat|de}}
+* {{lien|Bariumverbindung|de}}
+{{)}}
+{{clr}}
+==== {{S|vocabulaire}} ====
+* {{voir thésaurus|de|tableau périodique des éléments}}
+{{tableau périodique/de}}
+{{Liste|avant={{lien|Caesium|de}} ou {{lien|Cäsium|de}} ou {{lien|Zäsium|de}}<br>([[Cs#conv|Cs]])|après={{lien|Lanthan|de}}<br>([[La#conv|La]])|liste=[[Thésaurus:tableau périodique des éléments/allemand|Éléments chimiques en allemand]]}}
+
+=== {{S|prononciation}} ===
+* {{pron|ˈbaːʀi̯ʊm|de}}
+* {{écouter|lang=de|{{AT|nocat=1}}|audio=De-at-Barium.ogg}}
+* {{écouter||ˈbaːʀi̯ʊm|lang=de|audio=De-Barium.ogg}}
+* {{écouter|lang=de|Allemagne (Berlin)|audio=LL-Q188 (deu)-Lucas Werkmeister-Barium.wav}}
+* {{écouter|lang=de|Allemagne (Berlin)|audio=LL-Q188 (deu)-Sebastian Wallroth-Barium.wav}}
+* {{écouter|lang=de|Allemagne (Munich)||audio=LL-Q188 (deu)-Michael Schoenitzer (MichaelSchoenitzer)-Barium.wav}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=de}}
+
+== {{langue|la}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|grc|la|mot=Βάριον|tr=Bárion}}.
+
+=== {{S|nom propre|la}} ===
+{{la-tab-2n|Bari|sing=oui}}
+'''Barium''' {{pron||la}} {{n}}
+# {{localités|la|d’Italie}} {{lien|Bari|fr}}.
+#* {{exemple | lang=la
+ | Brundisio conterminus Poediculorum ager. novem adulescentes totidemque virgines ab Illyris XII populos genuere. Poediculorum oppida Rudiae, Gnatia, '''Barium''', amnes Iapyx a Daedali filio rege, a quo et Iapygia Acra, Pactius, Aufidus ex Hirpinis montibus Canusium praefluens.
+ | source={{w|Pline l’Ancien}}, ''{{ws|Naturalis Historia/Liber III|Naturalis Historia|lang=la}}''}}
+
+==== {{S|gentilés}} ====
+* {{lien|Barinus|la}}
+
+=== {{S|voir aussi}} ===
+* {{WP|Barium (Italia)|lang=la}}
+
+=== {{S|références}} ===
+* {{R:Gaffiot}}
+* {{R:L&S}}
+
+== {{langue|lb}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|lb}}
+
+=== {{S|nom|lb}} ===
+{{lb-inv|bˈaːʀi̯um}}
+'''Barium''' {{pron|bˈaːʀi̯um|lb}} {{m}}, {{au singulier uniquement|lb}}
+# {{éléments|lb}} {{métaux|lb}} [[baryum#fr|Baryum]].
+#* {{exemple|lang=lb}}
+{{clr}}
+==== {{S|vocabulaire}} ====
+{{tableau périodique/lb}}
+
+=== {{S|prononciation}} ===
+* {{écouter|Angers (France)||niveau=bon|lang=lb|audio=LL-Q9051 (ltz)-Procrastineur49-Barium.wav}}
+
+=== {{S|références}} ===
+: {{R:LOD}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=lb}}

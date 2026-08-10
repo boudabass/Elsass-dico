@@ -1,0 +1,112 @@
+== {{langue|fr}} ==
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|fr}}
+
+=== {{S|nom propre|fr}} ===
+'''Kiew''' {{pron|kjɛv|fr}} ou {{pron|kjɛf|fr}} {{f}}
+[[Fichier:Киев. Дом Городецкого. Почтовая открытка №103.jpg|vignette|Carte postale (datée de 1910) bilingue (russe et français) : « [[Кіевъ]]. » et « '''Kiew.''' ». ]] 
+# {{localités|fr|de l’oblast de Kiev}} {{désuet|fr}} {{variante de|Kiev}} (ville d’[[Ukraine]]).
+#*  {{exemple|lang=fr|À peine avaient-ils eu douze ans, qu’on les envoya au séminaire de '''Kiew''', car tous les seigneurs de ce temps-là croyaient nécessaire de donner à leurs enfants une éducation promptement oubliée.|source={{w|Nicolas Gogol}}, ''{{w|Tarass Boulba}}'', chapitre 3, traduit du russe par {{w|Louis Viardot}}, Paris, Hachette, 1882, page 22. Lire dans Wikisource : [[s:Tarass Boulba/3]] pour le chapitre 2 et [[s:Page:Gogol - Tarass Boulba, Hachette, 1882.djvu/35]] pour la page 22.}}
+#* {{exemple|lang=fr
+|Le télégraphe nous signale comme ayant été très brillantes les fêtes organisées à '''Kiew''' en l’honneur des souverains russes à l'occasion de l’inauguration de l’église de St-Vladimir et du monument de l’empereur Nicolas {{nombre romain|1}}{{er}}.
+|source={{périodique |titre=Lettre de St Pétersbourg |date=1896-09-14 |journal=L’Indépendance luxembourgeoise |url=https://viewer.eluxemburgensia.lu/ark:70795/znfn5n/pages/1/articles/DTL56 |no=258 |pages=1 }}
+}}
+#*  {{exemple|lang=fr
+|<small>[Mardi, 21 juillet 1914.]</small> <br> A trois heures, le Président reçoit les délégués des colonies françaises de Saint-Pétersbourg et de toute la Russie. Il en est venu de Moscou, de Kharkow, d’Odessa, de '''Kiew''', de Rostow, de Tiflis. |source={{w|Maurice Paléologue}}, premier article (« Le voyage de M. Poincaré ») de la série « La Russie des Tsars pendant la Grande Guerre » in ''la {{w|Revue des Deux Mondes}}'', parution du 15 janvier 1921, page 237. Lire dans Wikisource :  [[s:La Russie des Tsars pendant la Grande Guerre/01]] et  [[s:Page:Revue des Deux Mondes - 1921 - tome 61.djvu/241]] pour la page 237. }}
+#* {{exemple|J’ai quitté '''Kiew '''le 11 mars 1839 ; le soleil était resplendissant, le ciel d’un bleu d’azur, et pourtant les glaces n’étaient pas encore fondues. Après avoir franchi le Dniéper, les chevaux de mon traîneau s’élancèrent à toute vitesse sur la route d’Orel… C’était le commencement de mon triste voyage.
+|source=Mme Ève Félinska, ''{{Wikisource|De Kiev à Bérésov, souvenirs d’une exilée en Sibérie/01|Première livraison}}'', Traduction par Mme Olympe Chodzko, Librairie Hachette et Cie, 1862, pages 209-224
+|lang=fr}}
+
+=== {{S|anagrammes}} ===
+{{voir anagrammes|fr}}
+
+=== {{S|voir}} ===
+* {{WP|Kiev}}
+
+[[Catégorie:Capitales en français]]
+
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: {{siècle|lang=gsw}} {{ébauche-étym|gsw}}
+
+=== {{S|nom propre|gsw}} ===
+'''Kiew''' {{pron|ˈkiːɛf|gsw}}
+# {{localités|gsw|de l’oblast de Kiev}} [[Kiev#fr|Kiev]] (capitale de l’[[Ukraine#fr|Ukraine]]).
+
+=== {{S|voir}} ===
+* {{WP|lang=gsw}}
+
+[[Catégorie:Capitales en alémanique]]
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: {{date|lang=de}} D’origine inconnue{{R|wikt-de-01|{{source-wikt|de|3=9081317}}}}
+
+=== {{S|nom propre|de}} ===
+{{de-nom
+|genre=n
+|ns= Kiew |pns=ˈkiːɛf |np=
+|as= Kiew |pas=ˈkiːɛf |ap=
+|gs= Kiew |pgs=ˈkiːɛf |gp=
+|gs2= Kiews |pgs2=ˈkiːɛfs |gp2=
+|ds= Kiew |pds=ˈkiːɛf |dp=}}
+[[Image:Хрещатик 1899.jpg|thumb]]
+'''Kiew''' {{pron|ˈkiːɛf|de}} {{n}}, {{au singulier uniquement|de}}
+# {{localités|de|de l’oblast de Kiev}} [[Kiev#fr|Kiev]] (capitale de l’[[Ukraine#fr|Ukraine]]).
+#* {{exemple|Auf der Flucht vor dem Krieg kamen Hunderttausende Polen nach '''Kiew''' und machten '''Kiew''' für ein paar Jahre zu einer lebendigen polnischen Stadt.|source={{ouvrage|prénom=Katja|nom=Petrowskaja|nolien=1|titre=Vielleicht Esther|lieu=Berlin|éditeur={{w|Suhrkamp}}|année=2014|passage=97|isbn=9783518424049}}|lang=de|sens=Fuyant la guerre, des centaines de milliers de Polonais sont arrivés à Kiev et ont fait de Kiev une ville polonaise vivante pendant quelques années.}}
+#* {{exemple|'''Kiew''' liegt am Don.|lang=de|sens=Kiev est située sur le Don.}}
+# {{par métonymie|de}} [[gouvernement|Gouvernement]] [[ukrainien]].
+#* {{exemple|Wenn sich Söldner und reguläre Truppen beschossen hätten, wäre dies vor allem '''Kiew''' und seinen westlichen Verbündeten zugutegekommen, erklärte Putin. Deren Hoffnung, dass sich Russland selbst zerfleischen werde, habe sich aber nicht erfüllt.|lang=de|sens=Si les mercenaires et les troupes régulières se tiraient dessus, cela aurait surtout profité à Kiev et à ses alliés occidentaux, a expliqué Poutine. Mais l’espoir que la Russie s’étripe elle-même ne s’est pas réalisé.|source={{périodique|auteur=(RND/dpa)|titre=Putin nach Revolte: Westen wollte, dass sich Russland selbst zerfleischt|journal=RedaktionsNetzwerk Deutschland|date=27 juin 2023|texte=https://www.rnd.de/politik/putin-nach-wagner-putsch-westen-wollte-dass-sich-russland-selbst-zerfleischt-EXKM2RBLAZPVJE5QEWQ22JDL2Y.html}}}}
+
+==== {{S|variantes}} ====
+* [[Kyjiw#de|Kyjiw]]{{R|wikt-de-01}}
+
+==== {{S|dérivés}} ====
+* [[Kiewisch#de|Kiewisch]]
+* [[Kiewer#de|Kiewer]]
+* [[Kiewerin#de|Kiewerin]]
+
+=== {{S|prononciation}} ===
+* {{écouter|Allemagne (Berlin)|lang=de|pron=ˈkiːɛf|audio=De-Kiew.ogg}}
+* {{écouter|Vienne|ˈkiːɛf|lang=de|audio=De-at-Kiew.ogg}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=de}}
+
+==== {{S|sources}} ====
+{{Références}}
+
+[[Catégorie:Capitales en allemand]]
+
+== {{langue|nds}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|nds}}
+
+=== {{S|nom propre|nds}} ===
+'''Kiew''' {{pron||nds}}
+# {{localités|nds|de l’oblast de Kiev}} [[Kiev#fr|Kiev]] (capitale de l’[[Ukraine#fr|Ukraine]]).
+
+=== {{S|voir}} ===
+* {{WP|lang=nds}}
+
+[[Catégorie:Capitales en bas allemand]]
+
+== {{langue|lb}} ==
+=== {{S|étymologie}} ===
+: {{siècle|lang=lb}} Du {{étylp|ru|lb|mot=Киев|tr=Kijev}}.
+
+=== {{S|nom propre|lb}} ===
+'''Kiew''' {{pron||lb}}
+# {{localités|lb|de l’oblast de Kiev}} [[Kiev#fr|Kiev]] (capitale de l’[[Ukraine#fr|Ukraine]]).
+
+==== {{S|synonymes}} ====
+* [[Kyjiw#lb|Kyjiw]]
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=lb|{{AT|nocat=1}}|audio=De-at-Kiew.ogg}}
+
+=== {{S|voir}} ===
+* {{WP|lang=lb}}
+
+[[Catégorie:Capitales en luxembourgeois]]

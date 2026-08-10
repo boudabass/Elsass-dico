@@ -1,0 +1,140 @@
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: Emploi du nom allemand.
+
+=== {{S|nom propre|gsw}} ===
+'''Konstanz''' {{pron||gsw}}
+# {{localités|gsw|d’Allemagne}} [[Constance]] (ville d’[[Allemagne]]).
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: (1 nom) {{siècle|lang=de|XIX}}, du {{étyl|la|de|mot=cōnstantia}}.
+: (2 ville) {{date|lang=de|525}}, du {{étyl|la|de|mot=Constantius}}, empereur romain qui a donné son nom à la ville.
+
+=== {{S|nom|de}} ===
+{{de-nom-f-sing}}
+'''Konstanz''' {{pron|kɔnˈstant͡s|de}} {{f}}, {{au singulier uniquement|de}}
+# [[constance#fr|Constance]], [[persévérance]].
+#* {{exemple | lang=de
+ | Linné glaubte an die '''Konstanz''' der Arten.
+ | Linné croyait en la constance de l’espèce.}}
+
+==== {{S|synonymes}} ====
+* [[Gleichförmigkeit]]
+* [[Gleichmaß]]
+* [[Gleichmäßigkeit]]
+* [[Unveränderlichkeit]]
+* [[Permanenz]]
+* [[Stabilität]]
+
+==== {{S|antonymes}} ====
+* [[Dynamik]]
+* [[Evolution]]
+* [[Inkonstanz]]
+* [[Veränderlichkeit]]
+
+=== {{S|nom propre|de}} ===
+{{de-nom|sing=oui|as=Konstanz|gs=Konstanz'|ds=Konstanz}}
+'''Konstanz''' {{pron|ˈkɔnstant͡s|de}} {{n}}, {{au singulier uniquement|de}}
+# {{localités|de|d’Allemagne}} [[Constance]] (ville d’[[Allemagne]]).
+#* {{exemple | lang=de
+ | Der See bei '''Konstanz''' heißt der Bodensee.
+ | Le lac près de Constance se nomme le lac de Constance.}}
+#* {{exemple | lang=de
+ | '''Kontanz'''? Ich kenne es.
+ | Constance ? Je connais.}}
+
+==== {{S|notes}} ====
+: En allemand, les villes n’ont pas de déterminant. Si toutefois il y a besoin d’une déclinaison, elles sont supposées du genre neutre.
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=de|Allemagne (Francfort-sur-le-Main)|audio=LL-Q188 (deu)-Frank C. Müller-Konstanz.wav}}
+
+== {{langue|en}} ==
+=== {{S|étymologie}} ===
+: Emploi du nom allemand.
+
+=== {{S|nom propre|en}} ===
+'''Konstanz''' {{pron||en}}
+# {{localités|en|d’Allemagne}} [[Constance]] (ville d’[[Allemagne]]).
+
+== {{langue|hr}} ==
+=== {{S|étymologie}} ===
+: Emploi du nom allemand.
+
+=== {{S|nom propre|hr}} ===
+'''Konstanz''' {{pron||hr}}
+# {{localités|hr|d’Allemagne}} [[Constance]] (ville d’[[Allemagne]]).
+
+== {{langue|da}} ==
+=== {{S|étymologie}} ===
+: Emploi du nom allemand.
+
+=== {{S|nom propre|da}} ===
+'''Konstanz''' {{pron||da}}
+# {{localités|da|d’Allemagne}} [[Constance]] (ville d’[[Allemagne]]).
+
+== {{langue|et}} ==
+=== {{S|étymologie}} ===
+: Emploi du nom allemand.
+
+=== {{S|nom propre|et}} ===
+'''Konstanz''' {{pron||et}}
+# {{localités|et|d’Allemagne}} [[Constance]] (ville d’[[Allemagne]]).
+
+== {{langue|fi}} ==
+=== {{S|étymologie}} ===
+: Emploi du nom allemand.
+
+=== {{S|nom propre|fi}} ===
+'''Konstanz''' {{pron||fi}}
+# {{localités|fi|d’Allemagne}} [[Constance]] (ville d’[[Allemagne]]).
+
+== {{langue|id}} ==
+=== {{S|étymologie}} ===
+: Emploi du nom allemand.
+
+=== {{S|nom propre|id}} ===
+'''Konstanz''' {{pron||id}}
+# {{localités|id|d’Allemagne}} [[Constance]] (ville d’[[Allemagne]]).
+#* {{exemple|lang=id}}
+
+== {{langue|nl}} ==
+=== {{S|étymologie}} ===
+: Emploi du nom allemand.
+
+=== {{S|nom propre|nl}} ===
+'''Konstanz''' {{pron||nl}}
+# {{localités|nl|d’Allemagne}} [[Constance]] (ville d’[[Allemagne]]).
+
+== {{langue|ro}} ==
+=== {{S|étymologie}} ===
+: Emploi du nom allemand.
+
+=== {{S|nom propre|ro}} ===
+'''Konstanz''' {{pron||ro}}
+# {{localités|ro|d’Allemagne}} [[Constance]] (ville d’[[Allemagne]]).
+
+== {{langue|sv}} ==
+=== {{S|étymologie}} ===
+: Emploi du nom allemand.
+
+=== {{S|nom propre|sv}} ===
+'''Konstanz''' {{pron||sv}}
+# {{localités|sv|d’Allemagne}} [[Constance]] (ville d’[[Allemagne]]).
+
+== {{langue|tr}} ==
+=== {{S|étymologie}} ===
+: Emploi du nom allemand.
+
+=== {{S|nom propre|tr}} ===
+'''Konstanz''' {{pron||tr}}
+# {{localités|tr|d’Allemagne}} [[Constance]] (ville d’[[Allemagne]]).
+
+== {{langue|vo}} ==
+=== {{S|étymologie}} ===
+: Emploi du nom allemand.
+
+=== {{S|nom propre|vo}} ===
+'''Konstanz''' {{pron||vo}}
+# {{localités|vo|d’Allemagne}} [[Constance]] (ville d’[[Allemagne]]).

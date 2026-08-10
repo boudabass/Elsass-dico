@@ -1,0 +1,85 @@
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw}}
+
+=== {{S|nom propre|gsw}} ===
+'''Rumänien'''
+# [[Roumanie]] (pays européen).
+
+[[Catégorie:Pays en alémanique]]
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|de}}
+
+=== {{S|nom propre|de}} ===
+{{de-nom
+|ns= Rumänien |np=
+|as= Rumänien |ap=
+|gs= Rumäniens |gp=
+|ds= Rumänien |dp=}}
+'''Rumänien''' {{pron||de}} {{n}}
+# [[Roumanie]] (pays européen).
+
+==== {{S|dérivés}} ====
+* [[Rumäne]] (1)
+* [[rumänisch]] (1)
+
+==== {{S|hyperonymes}} ====
+* [[Balkanstaat]] (1)
+* [[Land]] (1)
+* [[Staat]] (1)
+
+=== {{S|prononciation}} ===
+* {{écouter|||lang=de|audio=De-Rumänien.ogg}}
+
+
+[[Catégorie:Pays d’Europe en allemand]]
+[[Catégorie:Roumanie en allemand|*]]
+
+== {{langue|nds}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|nds}}
+
+=== {{S|nom propre|nds}} ===
+'''Rumänien'''
+# [[Roumanie]] (pays européen).
+
+[[Catégorie:Pays d’Europe en bas allemand]]
+
+== {{langue|lb}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|lb}}
+
+=== {{S|nom propre|lb}} ===
+{{lb-inv|ʀumˈɛːniən|inv_titre=Nom propre}}
+'''Rumänien''' {{pron|ʀumˈɛːniən|lb}} {{n}}
+# {{pays|lb|d’Europe|pays=Roumanie|clé=*}} {{lien|Roumanie|fr}}.
+#* {{exemple|lang=lb}}
+
+==== {{S|notes}} ====
+* {{lb-n|np=oui}}
+
+==== {{S|gentilés}} ====
+* {{lien|Rumän|lb|sens=Roumain}}, {{lien|Rumänin|lb|sens=Roumaine}}
+* {{lien|rumänesch|lb|sens=roumain, roumaine}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=lb}}
+
+=== {{S|références}} ===
+: {{R:LOD}}
+
+== {{langue|sv}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|sv}}
+
+=== {{S|nom propre|sv|clé=rumz€€nien}} ===
+'''Rumänien'''
+# [[Roumanie]] (pays européen).
+
+=== {{S|prononciation}} ===
+* {{écouter|Suède||lang=sv|audio=LL-Q9027 (swe)-Moonhouse-Rumänien.wav}}
+
+[[Catégorie:Pays d’Europe en suédois]]
+[[Catégorie:Roumanie en suédois|*]]

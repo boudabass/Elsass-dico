@@ -1,0 +1,60 @@
+{{voir/samarium}}
+
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw}}
+
+=== {{S|nom|gsw}} ===
+'''Samarium''' {{pron||gsw}} {{genre|gsw}}
+# {{éléments|gsw}} {{métaux|gsw}} [[samarium#fr|Samarium]].
+{{clr}}
+==== {{S|vocabulaire}} ====
+{{tableau périodique/gsw}}
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|de}}
+
+=== {{S|nom|de}} ===
+{{légende élément/de|Sm}}
+[[Image:Samarium_1.jpg|thumb|'''Samarium''' in Ampulle unter Argongas.]]
+'''Samarium''' {{pron|zaˈmaːʀi̯ʊm|de}} {{n}} ({{p}}: '''—''' )
+# {{éléments|de}} {{métaux|de}} [[samarium#fr|Samarium]] (l’{{lien|élément chimique}} [[Sm#conv|Sm]]).
+#* {{exemple | lang=de | '''Samarium''' ist ein silbrigweißes Metall.}}
+
+==== {{S|dérivés}} ====
+* {{lien|Samarium(II)-iodid|de}}
+* {{lien|Samariumoxid|de}}
+* {{lien|Samariumverbindung|de}}
+{{clr}}
+==== {{S|vocabulaire}} ====
+* {{voir thésaurus|de|tableau périodique des éléments}}
+{{tableau périodique/de}}
+{{Liste|avant={{lien|Promethium|de}}<br>([[Pm#conv|Pm]])|après={{lien|Europium|de}}<br>([[Eu#conv|Eu]])|liste=[[Thésaurus:tableau périodique des éléments/allemand|Éléments chimiques en allemand]]}}
+
+=== {{S|prononciation}} ===
+* {{pron|zaˈmaːʀi̯ʊm|de}}
+* {{écouter|lang=de|Allemagne (Berlin)|audio=LL-Q188 (deu)-Lucas Werkmeister-Samarium.wav}}
+* {{écouter|lang=de|Allemagne (Berlin)|audio=LL-Q188 (deu)-Sebastian Wallroth-Samarium.wav}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=de}}
+
+== {{langue|lb}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|lb}}
+
+=== {{S|nom|lb}} ===
+{{lb-inv|zˈɑmaːʀium}}
+'''Samarium''' {{pron|zˈɑmaːʀium|lb}} {{m}}, {{au singulier uniquement|lb}}
+# {{éléments|lb}} {{métaux|lb}} [[samarium#fr|Samarium]].
+#* {{exemple|lang=lb}}
+{{clr}}
+==== {{S|vocabulaire}} ====
+{{tableau périodique/lb}}
+
+=== {{S|références}} ===
+: {{R:LOD}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=lb}}

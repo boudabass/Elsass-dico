@@ -1,0 +1,37 @@
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: Transcription du mot azéri [[Azərbaycan]].
+
+=== {{S|nom propre|gsw}} ===
+'''Aserbaidschan'''
+# [[Azerbaïdjan]], pays du [[Caucase]].
+
+[[Catégorie:Pays en alémanique]]
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: Transcription du mot azéri [[Azərbaycan]].
+
+=== {{S|nom propre|de}} ===
+{{de-nom-propre|genre=n|gs=Aserbaidschans}}
+'''Aserbaidschan''' {{pron|ˌazɛʁbaɪ̯ˈd͡ʒaːn|de}}
+# [[Azerbaïdjan]], pays du [[Caucase]].
+#* {{exemple|Die Aserbaidschaner sprechen eine Turksprache und bevölkern nicht nur das heutige '''Aserbaidschan''', sondern auch den Nordwesten des Iran.|lang=de|sens=Les Azerbaïdjanais parlent une langue turque et peuplent non seulement l’actuel Azerbaïdjan, mais aussi le nord-ouest de l’Iran.}}
+#* {{exemple|Der Konflikt um das völkerrechtlich zu '''Aserbaidschan''' gehörende Gebiet reicht über Jahrzehnte zurück. Er eskalierte mit dem Zusammenbruch der Sowjetunion und einem ersten Krieg, der bis zum Jahr 1994 andauerte.|lang=de|sens=Le conflit autour de ce territoire, qui appartient à l'Azerbaïdjan en vertu du droit international, remonte à plusieurs décennies. Il s’est aggravé avec l’effondrement de l'Union soviétique et une première guerre qui a duré jusqu'en 1994.|source={{périodique|auteur=Anna-Theresa Bachmann|titre=Kuren neben dem Krieg|journal=taz|date=24 janvier 2023|texte=https://taz.de/Konflikt-um-Bergkarabach/!5907715/}}}}
+
+=== {{S|prononciation}} ===
+* {{écouter|{{DE|nocat=1}}|ˌazɛʁbaɪ̯ˈd͡ʒaːn|lang=de|audio=De-Aserbaidschan.ogg}}
+* {{écouter|Berlin|ˌazɛʁbaɪ̯ˈd͡ʒaːn|lang=de|audio=De-Aserbaidschan2.ogg}}
+
+[[Catégorie:Pays d’Asie en allemand]]
+[[Catégorie:Azerbaïdjan en allemand|*]]
+
+== {{langue|nds}} ==
+=== {{S|étymologie}} ===
+: Transcription du mot azéri [[Azərbaycan]].
+
+=== {{S|nom propre|nds}} ===
+'''Aserbaidschan'''
+# [[Azerbaïdjan]], pays du [[Caucase]].
+
+[[Catégorie:Pays en bas allemand]]

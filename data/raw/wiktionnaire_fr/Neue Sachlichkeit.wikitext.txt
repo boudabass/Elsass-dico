@@ -1,0 +1,39 @@
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+''(1925)'' Calque de l'{{étyl|de|gsw|mot=Neue Sachlichkeit}}, {{composé de|lang=gsw|neue|Sachlichkeit}}.
+
+=== {{S|nom|gsw}} ===
+'''Neue Sachlichkeit''' {{pron||gsw}}
+# {{lexique|art|gsw}} [[nouvelle objectivité#fr|Nouvelle objectivité]]
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+''(1925)'' {{composé de|m=1|lang=de|neue|Sachlichkeit}}.
+
+=== {{S|nom|de}} ===
+'''Neue Sachlichkeit''' {{pron||de}}
+# {{lexique|art|de}} [[nouvelle objectivité#fr|Nouvelle objectivité]]
+
+== {{langue|da}} ==
+=== {{S|étymologie}} ===
+''(1925)'' Calque de l'{{étyl|de|da|mot=Neue Sachlichkeit}}, {{composé de|lang=da|neue|Sachlichkeit}}.
+
+=== {{S|nom propre|da}} ===
+'''Neue Sachlichkeit''' {{pron||da}}
+# {{lexique|art|da}} [[nouvelle objectivité#fr|Nouvelle objectivité]]
+
+== {{langue|ga}} ==
+=== {{S|étymologie}} ===
+''(1925)'' Calque de l'{{étyl|de|ga|mot=Neue Sachlichkeit}}, {{composé de|lang=ga|neue|Sachlichkeit}}.
+
+=== {{S|nom propre|ga}} ===
+'''Neue Sachlichkeit''' {{pron||ga}}
+# {{lexique|art|ga}} [[nouvelle objectivité#fr|Nouvelle objectivité]]
+
+== {{langue|no}} ==
+=== {{S|étymologie}} ===
+''(1925)'' Calque de l'{{étyl|de|no|mot=Neue Sachlichkeit}}, {{composé de|lang=no|neue|Sachlichkeit}}.
+
+=== {{S|nom propre|no}} ===
+'''Neue Sachlichkeit''' {{pron||no}}
+# {{lexique|art|no}} [[nouvelle objectivité#fr|Nouvelle objectivité]]

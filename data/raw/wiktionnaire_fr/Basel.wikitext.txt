@@ -1,0 +1,191 @@
+{{voir|basel}}
+
+== {{langue|gsw}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|gsw|mot=Basel}}.
+
+=== {{S|nom propre|gsw}} ===
+'''Basel''' {{pron||gsw}}
+# {{localités|gsw|de Suisse}} {{lien|Bâle|fr}}, en Suisse.
+
+== {{langue|de}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étyl|la|de|mot=Basilea}}.
+
+=== {{S|nom propre|de}} ===
+{{de-nom-propre|genre=n}}
+'''Basel''' {{pron|baːzl̩|de}} {{n}}
+# {{localités|de|de Suisse}} {{lien|Bâle|fr}}, en Suisse.
+
+==== {{S|gentilés}} ====
+* {{lien|Basler|de}}/{{lien|Baseler|de}}, {{lien|Baslerin|de}}/{{lien|Baselerin|de}}
+
+=== {{S|prononciation}} ===
+* {{écouter||baːzl̩|lang=de|audio=De-Basel.ogg}}
+
+=== {{S|anagrammes}} ===
+* [[Blase]]
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=de}}
+
+== {{langue|en}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|en|mot=Basel}}.
+
+=== {{S|nom propre|en}} ===
+'''Basel''' {{pron|ˈbɑːzəl|en}}
+# {{localités|en|de Suisse}} {{lien|Bâle|fr}}, en Suisse.
+
+==== {{S|synonymes}} ====
+* [[Basle]]
+
+=== {{S|prononciation}} ===
+* {{écouter|Sud de l'Angleterre (Royaume-Uni)||lang=en|audio=LL-Q1860 (eng)-Vealhurl-Basel.wav}}
+
+=== {{S|anagrammes}} ===
+* [[sable]]
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=en}}
+
+== {{langue|bs}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|bs|mot=Basel}}.
+
+=== {{S|nom propre|bs}} ===
+'''Basel''' {{pron||bs}}
+# {{localités|bs|de Suisse}} {{lien|Bâle|fr}}, en Suisse.
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=bs}}
+
+== {{langue|da}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|da|mot=Basel}}.
+
+=== {{S|nom propre|da}} ===
+'''Basel''' {{pron||da}}
+# {{localités|da|de Suisse}} {{lien|Bâle|fr}}, en Suisse.
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=da}}
+
+== {{langue|fi}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|fi|mot=Basel}}.
+
+=== {{S|nom propre|fi}} ===
+'''Basel''' {{pron||fi}}
+# {{localités|fi|de Suisse}} {{lien|Bâle|fr}}, en Suisse.
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=fi}}
+
+== {{langue|id}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|id|mot=Basel}}.
+
+=== {{S|nom propre|id}} ===
+'''Basel''' {{pron||id}}
+# {{localités|id|de Suisse}} {{lien|Bâle|fr}}, en Suisse.
+#* {{exemple|lang=id}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=id}}
+
+== {{langue|lb}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|lb|Basel}}.
+
+=== {{S|nom propre|lb}} ===
+{{lb-inv|bˈaːzəl}}
+'''Basel''' {{pron|bˈaːzəl|lb}}
+# {{localités|lb|de Suisse}} {{lien|Bâle|fr}}, en Suisse.
+#* {{exemple|lang=lb}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=lb}}
+
+=== {{S|références}} ===
+: {{R:LOD}}
+
+== {{langue|no}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|no|mot=Basel}}.
+
+=== {{S|nom propre|no}} ===
+'''Basel''' {{pron||no}}
+# {{localités|no|de Suisse}} {{lien|Bâle|fr}}, en Suisse.
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=no}}
+
+== {{langue|nn}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étyl|no|nn|mot=Basel}}.
+
+=== {{S|nom propre|nn}} ===
+'''Basel''' {{pron||nn}}
+# {{localités|nn|de Suisse}} {{lien|Bâle|fr}}, en Suisse.
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=nn}}
+
+== {{langue|ro}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|ro|mot=Basel}}.
+
+=== {{S|nom propre|ro}} ===
+'''Basel''' {{pron||ro}}
+# {{localités|ro|de Suisse}} {{lien|Bâle|fr}}, en Suisse.
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=ro}}
+
+== {{langue|sl}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|sl|mot=Basel}}.
+
+=== {{S|nom propre|sl}} ===
+{{sl-décl-nmd|Basel|pdp=oui}}
+'''Basel''' {{pron||sl}} {{m|i}} {{s}}
+# {{localités|sl|de Suisse}} {{lien|Bâle|fr}}, en Suisse.
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=sl}}
+
+== {{langue|sv}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|sv|mot=Basel}}.
+
+=== {{S|nom propre|sv}} ===
+'''Basel''' {{pron||sv}}
+# {{localités|sv|de Suisse}} {{lien|Bâle|fr}}, en Suisse.
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=sv}}
+
+== {{langue|tr}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|tr|mot=Basel}}.
+
+=== {{S|nom propre|tr}} ===
+'''Basel''' {{pron||tr}}
+# {{localités|tr|de Suisse}} {{lien|Bâle|fr}}, en Suisse.
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=tr}}

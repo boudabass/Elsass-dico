@@ -1,0 +1,59 @@
+== {{langue|gsw}} ==
+{{ébauche|gsw}}
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw}}
+
+=== {{S|nom propre|gsw}} ===
+'''Slowenien'''
+# [[Slovénie]] (pays d’Europe).
+
+[[Catégorie:Pays en alémanique]]
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|de}}
+
+=== {{S|nom propre|de}} ===
+{{de-nom-propre|genre=n|gs=Sloweniens}}
+'''Slowenien''' {{pron|sloˈveːni̯ən|de}} {{n}}
+# [[Slovénie]] (pays d’Europe).
+#* {{exemple|Der rechtspopulistische Regierungschef Janez Janša hat bei der Parlamentswahl in '''Slowenien''' eine schwere Niederlage erlitten.|lang=de|sens=Le chef du gouvernement populiste de droite Janez Janša a subi une lourde défaite lors des élections législatives en Slovénie.|source={{périodique|auteur=|titre=Rechtspopulist Janša abgewählt|journal=taz|date=25 avril 2022|texte=https://taz.de/Wahlen-in-Slowenien/!5850148/}}}}
+
+=== {{S|prononciation}} ===
+* {{écouter|{{DE|nocat=1}}|sloˈveːni̯ən|lang=de|audio=De-Slowenien.ogg}}
+
+[[Catégorie:Pays d’Europe en allemand]]
+[[Catégorie:Slovénie en allemand|*]]
+
+== {{langue|nds}} ==
+{{ébauche|nds}}
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|nds}}
+
+=== {{S|nom propre|nds}} ===
+'''Slowenien'''
+# [[Slovénie]] (pays d’Europe).
+
+[[Catégorie:Pays d’Europe en bas allemand]]
+
+== {{langue|lb}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|lb}}
+
+=== {{S|nom propre|lb}} ===
+{{lb-inv-en|pron=slovˈeːniən|inv_titre=Nom propre}}
+'''Slowenien''' {{pron|slovˈeːniən|lb}} {{n}}
+# {{pays|lb|d’Europe|pays=Slovénie}} {{lien|Slovénie|fr}} (pays d’Europe).
+#* {{exemple|lang=lb}}
+
+==== {{S|notes}} ====
+* {{lb-n|np=oui}}
+
+==== {{S|gentilés}} ====
+* {{lien|Sloween|lb}}, {{lien|Sloweenin|lb}}
+* {{lien|sloweenesch|lb}}
+
+=== {{S|références}} ===
+: {{R:LOD}}

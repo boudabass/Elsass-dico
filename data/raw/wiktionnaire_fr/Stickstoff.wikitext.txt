@@ -1,0 +1,58 @@
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw}}
+
+=== {{S|nom|gsw}} ===
+'''Stickstoff''' {{pron||gsw}}
+# {{éléments|gsw}} [[azote|Azote]].
+{{clr}}
+==== {{S|vocabulaire}} ====
+{{tableau périodique/gsw}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=gsw}}
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|de}}
+
+=== {{S|nom|de}} ===
+{{de-nom-m-s-e|sing=oui|gs2=Stickstoffes|ds2=Stickstoffe}}
+{{légende élément/de|N|num=1}}
+[[Image:Liquid_nitrogen_dsc04496.jpg|thumb|Flüssiger '''Stickstoff''' (-196 °C). (2)]]
+'''Stickstoff''' {{pron|ˈʃtɪkʃtɔf|de}} {{m}}
+# {{éléments|de}} [[azote#fr|Azote]] (élément chimique) (l’{{lien|élément chimique}} [[N#conv|N]]).
+# {{lexique|chimie|de}} [[diazote#fr|Diazote]] ([[azote]] à l’état moléculaire).
+#* {{exemple|'''Stickstoff'''- und Phosphorüberschüsse aus der Landwirtschaft (..) werden in Seen und Meere ausgewaschen. Dort führen sie zu einer Überdüngung.|lang=de|sens=Les apports d’azote et de phosphore provenant de l’agriculture (..) parviennent dans les lacs et les océans et y provoquent une surfertilisation.|source={{ouvrage|auteur=Schweizerischer Bundesrat|titre=Umwelt Schweiz 2018|année=2018|éditeur=|url=https://www.bafu.admin.ch/dam/bafu/de/dokumente/allgemein/uz-umwelt-zustand/umwelt-schweiz-2018.pdf.download.pdf/Umweltbericht2018_D.pdf}}}}
+#* {{exemple|Die Atmosphäre setzt sich hauptsächlich aus '''Stickstoff''' (78,1 %), Sauerstoff (20,9 %) und Argon (0,93 %) zusammen.|lang=de|sens=L’atmosphère se compose principalement d’azote (78,1 %), d’oxygène (20,9 %) et d’argon (0,93 %).|source={{périodique|auteur=|titre=Aufbau und Zusammensetzung der Atmosphäre|journal=Hamburger Bildungsserver|date= mai |texte=https://bildungsserver.hamburg.de/atmosphaere-und-treibhauseffekt/2068640/atmosphaere-aufbau-artikel/}}}}
+#* {{exemple|Hülsenfrüchte sind bereits gut für das Klima, bevor sie auf dem Teller liegen. Die Pflanzen können '''Stickstoff''' binden, da ihre Wurzeln eine Symbiose mit Bakterien eingehen, die den '''Stickstoff''' aus der Luft sammeln.|lang=de|sens=Les légumineuses sont déjà bonnes pour le climat avant même d'être dans l’assiette. Elles peuvent fixer l’azote, car leurs racines forment une symbiose avec des bactéries qui collectent l’azote de l’air.|source={{périodique|auteur=Emilia Matschulla|titre=Lassen Sie die Hülsen fallen|journal=Süddeutsche Zeitung Magazin|date=27 septembre 2023|texte=https://sz-magazin.sueddeutsche.de/essen-und-trinken/huelsenfruechte-gesund-blaehungen-vermeiden-rezepte-zubereitung-92993}}}}
+
+==== {{S|synonymes}} ====
+; (Sens 1)
+* {{lien|Nitrogen|de}}
+* {{lien|Nitrogenium|de}}
+; (Sens 2)
+* {{lien|Distickstoff|de}}
+
+==== {{S|dérivés}} ====
+{{(|&nbsp;}}
+* {{lien|Distickstoff|de}}
+* {{lien|Stickstoffgehalt|de}}
+* {{lien|stickstoffhaltig|de}}
+* {{lien|Stickstoffkreislauf|de}}
+* {{lien|Stickstoffverbindung|de}}
+* {{lien|Stickstoffzyklus|de}}
+{{)}}
+
+==== {{S|vocabulaire}} ====
+* {{voir thésaurus|de|tableau périodique des éléments}}
+{{tableau périodique/de}}
+{{Liste|avant={{lien|Kohlenstoff|de}} ou {{lien|Carbon|de}}<br>([[C#conv|C]])|après={{lien|Sauerstoff|de}} ou {{lien|Oxygenium|de}}<br>([[O#conv|O]])|liste=[[Thésaurus:tableau périodique des éléments/allemand|Éléments chimiques en allemand]]}}
+
+=== {{S|prononciation}} ===
+* {{écouter|Berlin|ˈʃtɪkˌʃtɔf|lang=de|audio=De-Stickstoff.ogg}}
+* {{écouter|{{DE|nocat=1}}|ˈʃtɪkˌʃtɔf|lang=de|audio=LL-Q188 (deu)-Lucas Werkmeister-Stickstoff.wav}}
+* {{écouter|Berlin|ˈʃtɪkˌʃtɔf|lang=de|audio=LL-Q188 (deu)-Sebastian Wallroth-Stickstoff.wav}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=de}}

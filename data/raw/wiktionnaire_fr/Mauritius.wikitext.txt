@@ -1,0 +1,492 @@
+== {{langue|af}} ==
+
+=== {{S|étymologie}} ===
+: {{date|lang=af}} Du {{étyl|la|af|mot=Mauritius}}.
+
+=== {{S|nom propre|af}} ===
+'''Mauritius''' {{pron||af}}
+# {{pays|af|d’Afrique}} [[Maurice#fr|Maurice]] (île de l’[[océan Indien]]).
+#* {{exemple|lang=af}}
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=af|Afrique du Sud (Johannesbourg)|audio=LL-Q14196 (afr)-Oesjaar-Mauritius.wav}}
+
+[[Catégorie:Îles en afrikaans]]
+
+== {{langue|sq}} ==
+
+=== {{S|étymologie}} ===
+: {{date|lang=sq}} Du {{étyl|la|sq|mot=Mauritius}}.
+
+=== {{S|nom propre|sq}} ===
+'''Mauritius''' {{pron||sq}}
+# {{pays|sq|d’Afrique}} [[Maurice#fr|Maurice]] (île de l’[[océan Indien]]).
+
+[[Catégorie:Îles en albanais]]
+
+== {{langue|gsw}} ==
+
+=== {{S|étymologie}} ===
+: {{date|lang=gsw}} Du {{étyl|la|gsw|mot=Mauritius}}.
+
+=== {{S|nom propre|gsw}} ===
+'''Mauritius''' {{pron||gsw}}
+# {{pays|gsw}} [[Maurice#fr|Maurice]] (île de l’[[océan Indien]]).
+
+[[Catégorie:Îles en alémanique]]
+
+== {{langue|de}} ==
+
+=== {{S|étymologie}} ===
+: {{date|lang=de}} Du {{étyl|la|de|mot=Mauritius}}.
+
+=== {{S|nom propre|de}} ===
+'''Mauritius''' {{pron||de}}
+# {{pays|de|d’Afrique}} [[Maurice#fr|Maurice]] (île de l’[[océan Indien]]).
+
+[[Catégorie:Îles en allemand]]
+
+== {{langue|nds}} ==
+
+=== {{S|étymologie}} ===
+: {{date|lang=nds}} Du {{étyl|la|nds|mot=Mauritius}}.
+
+=== {{S|nom propre|nds}} ===
+'''Mauritius''' {{pron||nds}}
+# {{pays|nds}} [[Maurice#fr|Maurice]] (île de l’[[océan Indien]]).
+
+[[Catégorie:Îles en bas allemand]]
+
+== {{langue|en}} ==
+
+=== {{S|étymologie}} ===
+: {{date|lang=en}} Du {{étyl|la|en|mot=Mauritius}}.
+
+=== {{S|nom propre|en}} ===
+'''Mauritius''' {{pron|məˈɹɪʃəs|en}}
+# {{pays|en|d’Afrique}} [[Maurice#fr|Maurice]] (île de l’[[océan Indien]]).
+
+==== {{S|dérivés}} ====
+* {{lien|Republic of Mauritius|en}}
+
+=== {{S|prononciation}} ===
+* {{écouter|Mauritius|məˈɹɪʃəs|lang=en|audio=En-us-Mauritius.ogg}}
+* {{écouter|Londres (Royaume-Uni)||lang=en|audio=LL-Q1860 (eng)-Soundguys-Mauritius.wav}}
+
+[[Catégorie:Îles en anglais]]
+
+== {{langue|ceb}} ==
+
+=== {{S|étymologie}} ===
+: {{date|lang=ceb}} Du {{étyl|la|ceb|mot=Mauritius}}.
+
+=== {{S|nom propre|ceb}} ===
+'''Mauritius''' {{pron||ceb}}
+# {{pays|ceb}} [[Maurice#fr|Maurice]].
+# [[Maurice]] (île de l’[[océan Indien]]).
+
+==== {{S|variantes}} ====
+* [[Maurisyo#ceb|Maurisyo]]
+
+==== {{S|notes}} ====
+: Le cebuano, par manque de standardisation, peut utiliser concurremment les noms anglais des pays et des noms adaptés de l’espagnol.
+
+[[Catégorie:Îles en cebuano]]
+
+== {{langue|da}} ==
+
+=== {{S|étymologie}} ===
+: {{date|lang=da}} Du {{étyl|la|da|mot=Mauritius}}.
+
+=== {{S|nom propre|da}} ===
+'''Mauritius''' {{pron||da}}
+# {{pays|da|d’Afrique}} [[Maurice#fr|Maurice]].
+# [[Maurice]] (île de l’[[océan Indien]]).
+
+[[Catégorie:Îles en danois]]
+
+== {{langue|et}} ==
+
+=== {{S|étymologie}} ===
+: {{date|lang=et}} Du {{étyl|la|et|mot=Mauritius}}.
+
+=== {{S|nom propre|et}} ===
+'''Mauritius''' {{pron||et}}
+# {{pays|et|d’Afrique}} [[Maurice#fr|Maurice]].
+# [[Maurice]] (île de l’[[océan Indien]]).
+
+[[Catégorie:Îles en estonien]]
+
+== {{langue|fi}} ==
+
+=== {{S|étymologie}} ===
+: {{date|lang=fi}} Du {{étyl|la|fi|mot=Mauritius}}.
+
+=== {{S|nom propre|fi}} ===
+'''Mauritius''' {{pron||fi}}
+# {{pays|fi|d’Afrique}} [[Maurice#fr|Maurice]].
+# [[Maurice]] (île de l’[[océan Indien]]).
+
+==== {{S|dérivés}} ====
+* {{lien|mauritiuksenharmaakaija|fi}} — ''Psittacula bensoni''
+* {{lien|mauritiuksenviistäjä|fi}} — pétrel de Trindade
+
+[[Catégorie:Îles en finnois]]
+
+== {{langue|stq}} ==
+
+=== {{S|étymologie}} ===
+: {{date|lang=stq}} Du {{étyl|la|stq|mot=Mauritius}}.
+
+=== {{S|nom propre|stq}} ===
+'''Mauritius''' {{pron||stq}}
+# {{pays|stq}} [[Maurice#fr|Maurice]].
+# [[Maurice]] (île de l’[[océan Indien]]).
+
+[[Catégorie:Îles en frison saterlandais]]
+
+== {{langue|cy}} ==
+
+=== {{S|étymologie}} ===
+: {{date|lang=cy}} Du {{étyl|la|cy|mot=Mauritius}}.
+
+=== {{S|nom propre|cy}} ===
+'''Mauritius''' {{pron||cy}}
+# {{pays|cy}} [[Maurice#fr|Maurice]].
+# [[Maurice]] (île de l’[[océan Indien]]).
+
+[[Catégorie:Îles en gallois]]
+
+== {{langue|hu}} ==
+
+=== {{S|étymologie}} ===
+: {{date|lang=hu}} Du {{étyl|la|hu|mot=Mauritius}}.
+
+=== {{S|nom propre|hu}} ===
+'''Mauritius''' {{pron||hu}}
+# {{pays|hu|d’Afrique}} [[Maurice#fr|Maurice]] (île de l’[[océan Indien]]).
+
+[[Catégorie:Îles en hongrois]]
+
+== {{langue|id}} ==
+
+=== {{S|étymologie}} ===
+: {{date|lang=id}} Du {{étyl|la|id|mot=Mauritius}}.
+
+=== {{S|nom propre|id}} ===
+'''Mauritius''' {{pron||id}}
+# {{pays|id|d’Afrique}} [[Maurice#fr|Maurice]] (île de l’[[océan Indien]]).
+#* {{exemple|lang=id}}
+
+[[Catégorie:Îles en indonésien]]
+
+== {{langue|it}} ==
+
+=== {{S|étymologie}} ===
+: {{date|lang=it}} Du {{étyl|la|it|mot=Mauritius}}.
+
+=== {{S|nom propre|it}} ===
+{{it-inv|maw.ˈrit.t͡sjus}}
+'''Mauritius''' {{pron|maw.ˈrit.t͡sjus|it}} {{f}} {{p}}
+# {{pays|it|d’Afrique}} [[Maurice#fr|Maurice]], ellipse de {{lien|Repubblica di Mauritius|it|sens=République de Maurice}}.
+# {{îles|it}} [[Maurice#fr|Maurice]], ellipse de {{lien|isola Mauritius|it|sens=île Maurice}}.
+#* {{exemple|lang=it}}
+
+==== {{S|synonymes}} ====
+* {{lien|Maurizio|it}}
+
+==== {{S|gentilés}} ====
+* [[mauriziano#it|mauriziano]], [[mauriziana#it|mauriziana]]
+
+=== {{S|voir aussi}} ===
+* {{Annexe|Pays et leurs gentilés en italien}}
+* {{WP|lang=it}}
+* {{WQ|lang=it}}
+* {{VOY|lang=it}}
+
+=== {{S|références}} ===
+* {{R:SDAS}}
+
+== {{langue|jv}} ==
+
+=== {{S|étymologie}} ===
+: {{date|lang=jv}} Du {{étyl|la|jv|mot=Mauritius}}.
+
+=== {{S|nom propre|jv}} ===
+'''Mauritius''' {{pron||jv}}
+# {{pays|jv}} [[Maurice#fr|Maurice]].
+# [[Maurice]] (île de l’[[océan Indien]]).
+
+[[Catégorie:Îles en javanais]]
+
+== {{langue|pam}} ==
+
+=== {{S|étymologie}} ===
+: {{date|lang=pam}} Du {{étyl|la|pam|mot=Mauritius}}.
+
+=== {{S|nom propre|pam}} ===
+'''Mauritius''' {{pron||pam}}
+# {{pays|pam}} [[Maurice#fr|Maurice]].
+# [[Maurice]] (île de l’[[océan Indien]]).
+
+[[Catégorie:Îles en kapampangan]]
+
+== {{langue|ku}} ==
+
+=== {{S|étymologie}} ===
+: {{date|lang=ku}} Du {{étyl|la|ku|mot=Mauritius}}.
+
+=== {{S|nom propre|ku}} ===
+'''Mauritius''' {{pron||ku}}
+# {{pays|ku}} [[Maurice#fr|Maurice]].
+# [[Maurice]] (île de l’[[océan Indien]]).
+
+[[Catégorie:Îles en kurde]]
+
+== {{langue|la}} ==
+
+=== {{S|prénom|la|genre=m}} ===
+{{la-tab-2m|Mauriti}}
+'''Mauritius''' {{pron||la}}
+# {{variante de|Mauricius|la}}.
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=la}}
+
+== {{langue|lij}} ==
+
+=== {{S|étymologie}} ===
+: {{date|lang=lij}} Du {{étyl|la|lij|mot=Mauritius}}.
+
+=== {{S|nom propre|lij}} ===
+'''Mauritius''' {{pron||lij}}
+# {{pays|lij}} [[Maurice#fr|Maurice]].
+# [[Maurice]] (île de l’[[océan Indien]]).
+
+[[Catégorie:Îles en ligure]]
+
+== {{langue|lb}} ==
+=== {{S|étymologie}} ===
+: Du {{étylp|la|lb|Mauricius}}.
+
+=== {{S|nom propre|lb}} ===
+{{lb-inv|mɑʊʀˈiːtsi̯us|inv_titre=Nom propre}}
+'''Mauritius''' {{pron|mɑʊʀˈiːtsi̯us|lb}} {{n}}
+# {{îles|lb|d’Afrique}} {{lien|Maurice|fr|nom-pr-1}}.
+#* {{exemple|lang=lb}}
+# {{pays|lb|d’Afrique|pays=Maurice|clé=*}} {{lien|Maurice|fr|nom-pr-1}}.
+#* {{exemple|lang=lb}}
+
+==== {{S|gentilés}} ====
+* {{lien|Mauritier|lb|sens=Mauricien}}, {{lien|Mauritierin|lb|sens=Mauricienne}}
+* {{lien|mauritesch|lb|sens=mauricien, mauricienne}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=lb}}
+
+=== {{S|références}} ===
+: {{R:LOD}}
+
+== {{langue|ms}} ==
+
+=== {{S|étymologie}} ===
+: {{date|lang=ms}} Du {{étyl|la|ms|mot=Mauritius}}.
+
+=== {{S|nom propre|ms}} ===
+'''Mauritius''' {{pron||ms}}
+# {{pays|ms|d’Afrique}} [[Maurice#fr|Maurice]] (île de l’[[océan Indien]]).
+
+[[Catégorie:Îles en malais]]
+
+== {{langue|nan}} ==
+
+=== {{S|étymologie}} ===
+: {{date|lang=nan}} Du {{étyl|la|nan|mot=Mauricius}}.
+
+=== {{S|nom propre|nan}} ===
+'''Mauritius''' {{pron||nan}}
+# {{pays|nan}} [[Maurice#fr|Maurice]] (île de l’[[océan Indien]]).
+
+[[Catégorie:Îles en minnan]]
+
+== {{langue|nl}} ==
+
+=== {{S|étymologie}} ===
+: {{date|lang=nl}} Du {{étyl|la|nl|mot=Mauritius}}.
+
+=== {{S|nom propre|nl}} ===
+'''Mauritius''' {{pron||nl}}
+# {{pays|nl|d’Afrique}} [[Maurice#fr|Maurice]] (île de l’[[océan Indien]]).
+
+[[Catégorie:Îles en néerlandais]]
+=== {{S|prononciation}} ===
+* {{écouter|||lang=nl|audio=Nl-Mauritius.ogg}}
+
+== {{langue|no}} ==
+
+=== {{S|étymologie}} ===
+: {{date|lang=no}} Du {{étyl|la|no|mot=Mauritius}}.
+
+=== {{S|nom propre|no}} ===
+'''Mauritius''' {{pron||no}}
+# {{pays|no|d’Afrique}} [[Maurice#fr|Maurice]] (île de l’[[océan Indien]]).
+
+[[Catégorie:Îles en norvégien]]
+
+== {{langue|nn}} ==
+
+=== {{S|étymologie}} ===
+: {{date|lang=nn}} Du {{étyl|la|lb|mot=Mauritius}}.
+
+=== {{S|nom propre|nn}} ===
+'''Mauritius''' {{pron||nn}}
+# {{pays|nn|d’Afrique}} [[Maurice#fr|Maurice]] (île de l’[[océan Indien]]).
+
+[[Catégorie:Îles en norvégien (nynorsk)]]
+
+== {{langue|nov}} ==
+
+=== {{S|étymologie}} ===
+: {{date|lang=nov}} Du {{étyl|la|lb|mot=Mauritius}}.
+
+=== {{S|nom propre|nov}} ===
+'''Mauritius''' {{pron||nov}}
+# {{pays|nov}} [[Maurice#fr|Maurice]] (île de l’[[océan Indien]]).
+
+[[Catégorie:Îles en novial]]
+
+== {{langue|pms}} ==
+
+=== {{S|étymologie}} ===
+: {{date|lang=pms}} Du {{étyl|la|lb|mot=Mauritius}}.
+
+=== {{S|nom propre|pms}} ===
+'''Mauritius''' {{pron||pms}}
+# {{pays|pms}} [[Maurice#fr|Maurice]] (île de l’[[océan Indien]]).
+
+[[Catégorie:Îles en piémontais]]
+
+== {{langue|pl}} ==
+
+=== {{S|étymologie}} ===
+: {{date|lang=pl}} Du {{étyl|la|lb|mot=Mauritius}}.
+
+=== {{S|nom propre|pl}} ===
+'''Mauritius''' {{pron||pl}}
+# {{pays|pl|d’Afrique}} [[Maurice#fr|Maurice]] (île de l’[[océan Indien]]).
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=pl||audio=Pl-Mauritius.ogg}}
+
+[[Catégorie:Îles en polonais]]
+
+== {{langue|se}} ==
+
+=== {{S|étymologie}} ===
+: {{date|lang=se}} Du {{étyl|la|lb|mot=Mauritius}}.
+
+=== {{S|nom propre|se}} ===
+'''Mauritius''' {{phono||se}}
+# {{pays|se}} [[Maurice#fr|Maurice]] (île de l’[[océan Indien]]).
+
+[[Catégorie:Îles en same du Nord]]
+
+== {{langue|scn}} ==
+
+=== {{S|étymologie}} ===
+: {{date|lang=scn}} Du {{étyl|la|lb|mot=Mauritius}}.
+
+=== {{S|nom propre|scn}} ===
+'''Mauritius''' {{pron||scn}}
+# {{pays|scn}} [[Maurice#fr|Maurice]] (île de l’[[océan Indien]]).
+
+=== {{S|prononciation}} ===
+* {{écouter|Gela (Italie)||lang=scn|audio=LL-Q33973 (scn)-XANA000-Mauritius.wav}}
+
+[[Catégorie:Îles en sicilien]]
+
+== {{langue|sl}} ==
+
+=== {{S|étymologie}} ===
+: {{date|lang=sl}} Du {{étyl|la|lb|mot=Mauritius}}.
+
+=== {{S|nom propre|sl}} ===
+'''Mauritius''' {{pron||sl}}
+# {{pays|sl|d’Afrique}} [[Maurice#fr|Maurice]] (île de l’[[océan Indien]]).
+
+[[Catégorie:Îles en slovène]]
+
+== {{langue|sv}} ==
+
+=== {{S|étymologie}} ===
+: {{date|lang=sv}} Du {{étyl|la|sv|mot=Mauritius}}.
+
+=== {{S|nom propre|sv}} ===
+'''Mauritius''' {{pron||sv}}
+# {{pays|sv|d’Afrique}} [[Maurice#fr|Maurice]] (île de l’[[océan Indien]]).
+
+=== {{S|prononciation}} ===
+* {{écouter|Suède||lang=sv|audio=LL-Q9027 (swe)-Moonhouse-Mauritius.wav}}
+
+[[Catégorie:Îles en suédois]]
+
+== {{langue|tl}} ==
+
+=== {{S|étymologie}} ===
+: {{date|lang=tl}} Du {{étyl|la|tl|mot=Mauritius}}.
+
+=== {{S|nom propre|tl}} ===
+'''Mauritius''' {{pron||tl}}
+# {{pays|tl}} [[Maurice#fr|Maurice]] (île de l’[[océan Indien]]).
+
+==== {{S|variantes}} ====
+* [[Maurisyo#tl|Maurisyo]]
+
+==== {{S|notes}} ====
+: Le tagalog, par manque de standardisation, peut utiliser concurremment les noms anglais des pays et des noms adaptés de l’espagnol.
+
+[[Catégorie:Îles en tagalog]]
+
+== {{langue|crh}} ==
+
+=== {{S|étymologie}} ===
+: {{date|lang=crh}} Du {{étyl|la|crh|mot=Mauritius}}.
+
+=== {{S|nom propre|crh}} ===
+'''Mauritius''' {{pron||crh}}
+# {{pays|crh}} [[Maurice#fr|Maurice]] (île de l’[[océan Indien]]).
+
+[[Catégorie:Îles en tatar de Crimée]]
+
+== {{langue|tr}} ==
+
+=== {{S|étymologie}} ===
+: {{date|lang=tr}} Du {{étyl|la|tr|mot=Mauritius}}.
+
+=== {{S|nom propre|tr}} ===
+'''Mauritius''' {{pron||tr}}
+# {{pays|tr|d’Afrique}} [[Maurice#fr|Maurice]] (île de l’[[océan Indien]]).
+
+[[Catégorie:Îles en turc]]
+
+== {{langue|vec}} ==
+
+=== {{S|étymologie}} ===
+: {{date|lang=vec}} Du {{étyl|la|vec|mot=Mauritius}}.
+
+=== {{S|nom propre|vec}} ===
+'''Mauritius''' {{pron||vec}}
+# {{pays|vec}} [[Maurice#fr|Maurice]] (île de l’[[océan Indien]]).
+
+[[Catégorie:Îles en vénitien]]
+
+== {{langue|vi}} ==
+
+=== {{S|étymologie}} ===
+: {{date|lang=vi}} Du {{étyl|la|vi|mot=Mauritius}}.
+
+=== {{S|nom propre|vi}} ===
+'''Mauritius''' {{pron||vi}}
+# {{pays|vi|d’Afrique}} [[Maurice#fr|Maurice]] (île de l’[[océan Indien]]).
+
+[[Catégorie:Îles en vietnamien]]

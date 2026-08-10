@@ -1,0 +1,68 @@
+{{voir|nihonium|nihónium}}
+
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw}}
+
+=== {{S|nom|gsw}} ===
+'''Nihonium''' {{pron||gsw}} {{genre|gsw}}
+# {{éléments|gsw}} [[nihonium#fr|Nihonium]].
+{{clr}}
+
+==== {{S|vocabulaire}} ====
+{{tableau périodique/gsw}}
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|de}}
+
+=== {{S|nom|de}} ===
+{{légende élément/de|Nh}}
+'''Nihonium''' {{pron|niˈhoːni̯ʊm|de}} {{n}}
+# {{éléments|de}} [[nihonium#fr|Nihonium]].
+#* {{exemple|lang=de}}
+{{clr}}
+
+==== {{S|synonymes}} ====
+* {{lien|Ununtrium|de}}
+* {{lien|Eka-Thallium|de}}
+
+==== {{S|hyperonymes}} ====
+* {{lien|chemisches Element|de}}
+* {{lien|Transactinoid|de}}
+* {{lien|Transuran|de}}
+
+==== {{S|vocabulaire}} ====
+* {{voir thésaurus|de|tableau périodique des éléments}}
+{{tableau périodique/de}}
+{{Liste|avant={{lien|Copernicium|de}}<br 
+/>([[Cn]])|après={{lien|Flerovium|de}}<br>([[Fl]])|liste=[[Thésaurus:tableau périodique des éléments/allemand|Éléments chimiques en allemand]]}}
+
+=== {{S|prononciation}} ===
+* {{écouter|Berlin (Allemagne)|niˈhoːni̯ʊm|lang=de|audio=De-Nihonium.ogg}}
+
+=== {{S|références}} ===
+* {{R:DWDS|Nihonium}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=de}}
+
+== {{langue|lb}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|lb}}
+
+=== {{S|nom|lb}} ===
+{{lb-inv|}}
+'''Nihonium''' {{pron||lb}} {{m}}, {{au singulier uniquement|lb}}
+# {{éléments|lb}} [[nihonium#fr|Nihonium]].
+#* {{exemple|lang=lb}}
+{{clr}}
+
+==== {{S|vocabulaire}} ====
+{{tableau périodique/lb}}
+
+=== {{S|références}} ===
+: {{R:LOD}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=lb}}

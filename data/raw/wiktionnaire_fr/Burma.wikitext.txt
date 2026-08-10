@@ -1,0 +1,323 @@
+{{voir/burma}}
+
+== {{langue|fr}} ==
+=== {{S|étymologie}} ===
+: {{date|lang=fr}} {{ébauche-étym|fr}}
+
+=== {{S|nom de famille|fr}} ===
+'''Burma''' {{pron|byʁ.ma|fr}}
+# Nom de famille d’un célèbre héros des romans de {{w|Léo Malet}} (de son nom complet Nestor Burma).
+
+==== {{S|traductions}} ====
+{{trad-début}}
+{{trad-fin}}
+
+=== {{S|anagrammes}} ===
+{{voir anagrammes|fr}}
+
+=== {{S|voir aussi}} ===
+* {{WP}}
+
+[[Catégorie:Héros en français]]
+
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw}}
+
+=== {{S|nom propre|gsw}} ===
+'''Burma''' {{pron||gsw}}
+# [[Birmanie]] (pays asiatique).
+
+[[Catégorie:Pays en alémanique]]
+
+== {{langue|en}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|my|en|ဗမာ|bamā}}, variante de {{lien|မြန်မာ|my|tr=mranma|sens=Birman}}.
+
+=== {{S|nom propre|en}} ===
+'''Burma''' {{pron|bɜː(r).mə|en}}
+# [[Myanmar]] (pays d’[[Asie]]).
+
+==== {{S|variantes orthographiques}} ====
+* {{lien|Burmah|en}} {{désuet|nocat=1}}
+
+==== {{S|synonymes}} ====
+* {{lien|Birma|en}} {{désuet|nocat=1}}
+* {{lien|Birmah|en}} {{désuet|nocat=1}}
+* {{lien|Myanmar|en}}
+
+==== {{S|dérivés}} ====
+* {{lien|Burman|en}} {{désuet|nocat=1}}
+* {{lien|Burmese|en}}
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=en|{{US|nocat=1}}|audio=En-us-Burma.ogg}}
+* {{écouter|Londres (Royaume-Uni)||lang=en|audio=LL-Q1860 (eng)-Soundguys-Burma.wav}}
+
+[[Catégorie:Pays d’Asie en anglais]]
+
+== {{langue|bs}} ==
+=== {{S|étymologie}} ===
+:{{ébauche-étym|bs}}
+
+=== {{S|nom propre|bs}} ===
+'''Burma''' {{pron||bs}}
+# [[Birmanie]] (pays asiatique).
+
+[[Catégorie:Pays d’Asie en bosniaque]]
+
+== {{langue|hr}} ==
+=== {{S|étymologie}} ===
+:{{ébauche-étym|hr}}
+
+=== {{S|nom propre|hr}} ===
+'''Burma''' {{pron||hr}}
+# [[Birmanie]] (pays asiatique).
+
+[[Catégorie:Pays d’Asie en croate]]
+
+== {{langue|da}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|da}}
+
+=== {{S|nom propre|da}} ===
+'''Burma''' {{pron||da}}
+# [[Myanmar]] (pays d’[[Asie]]).
+
+[[Catégorie:Pays d’Asie en danois]]
+
+== {{langue|fo}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|fo}}
+
+=== {{S|nom propre|fo}} ===
+'''Burma''' {{pron||fo}}
+# [[Myanmar]] (pays d’[[Asie]]).
+
+[[Catégorie:Pays en féroïen]]
+
+== {{langue|fi}} ==
+=== {{S|étymologie}} ===
+:{{ébauche-étym|fi}}
+
+=== {{S|nom propre|fi}} ===
+'''Burma''' {{pron|ˈburmɑ|fi}}
+# [[Birmanie]] (pays asiatique).
+#* {{exemple|lang=fi}}
+
+==== {{S|dérivés}} ====
+* {{lien|burmalainen|fi}} — Birman, Birmane
+* {{lien|burmantähtikilpikonna|fi}} — tortue étoilée de Birmanie
+
+[[Catégorie:Pays d’Asie en finnois]]
+
+== {{langue|gd}} ==
+=== {{S|étymologie}} ===
+:{{ébauche-étym|gd}}
+
+=== {{S|nom propre|gd}} ===
+'''Burma''' {{pron||gd}}
+# [[Birmanie]] (pays asiatique).
+
+[[Catégorie:Pays en gaélique écossais]]
+
+== {{langue|cy}} ==
+=== {{S|étymologie}} ===
+:{{ébauche-étym|cy}}
+
+=== {{S|nom propre|cy}} ===
+'''Burma''' {{pron||cy}}
+# [[Birmanie]] (pays asiatique).
+
+==== {{S|synonymes}} ====
+* [[Byrma]]
+
+[[Catégorie:Pays d’Asie en gallois]]
+
+== {{langue|hsb}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|hsb}}
+
+=== {{S|nom propre|hsb}} ===
+'''Burma''' {{pron||hsb}}
+# [[Myanmar]] (pays d’[[Asie]]).
+
+[[Catégorie:Pays en haut-sorabe]]
+
+== {{langue|hu}} ==
+=== {{S|étymologie}} ===
+:{{ébauche-étym|hu}}
+
+=== {{S|nom propre|hu}} ===
+'''Burma''' {{pron||hu}}
+# [[Birmanie]] (pays asiatique).
+
+[[Catégorie:Pays d’Asie en hongrois]]
+
+== {{langue|io}} ==
+=== {{S|étymologie}} ===
+:{{ébauche-étym|io}}
+
+=== {{S|nom propre|io}} ===
+'''Burma''' {{pron||io}}
+# [[Birmanie]] (pays asiatique).
+
+[[Catégorie:Pays d’Asie en ido]]
+
+== {{langue|id}} ==
+=== {{S|étymologie}} ===
+:{{ébauche-étym|id}}
+
+=== {{S|nom propre|id}} ===
+'''Burma''' {{pron||id}}
+# [[Birmanie]] (pays asiatique).
+#* {{exemple|lang=id}}
+
+[[Catégorie:Pays d’Asie en indonésien]]
+
+== {{langue|avk}} ==
+=== {{S|étymologie}} ===
+: De l’{{en}}, du {{bs}}, du {{hr}}, du {{da}}, du {{fo}}, du {{fi}}, du {{gd}}, du {{cy}}, du {{hsb}}, de l’{{id}}, du {{li}}, du {{ms}}, du {{no}}, du {{ro}}, du {{se}}, du {{sh}}, du {{scn}}, du {{sl}}, du {{sv}}, du {{tl}} '''''Burma'''''.
+
+=== {{S|nom propre|avk}} ===
+'''Burma''' {{pron|ˈburma|avk}}
+# {{pays|avk|d’Asie}} [[Birmanie]], [[Myanmar]].
+#* {{exemple|lang=avk}}
+==== {{S|synonymes}} ====
+* [[Myanma#avk|Myanma]]
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=avk|France|'burma|audio=burma.wav}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=avk}}
+
+=== {{S|références}} ===
+* {{R:avk-continents-pays}}
+
+== {{langue|li}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|li}}
+
+=== {{S|nom propre|li}} ===
+'''Burma''' {{pron||li}}
+# [[Myanmar]] (pays d’[[Asie]]).
+
+[[Catégorie:Pays en limbourgeois]]
+
+== {{langue|ms}} ==
+=== {{S|étymologie}} ===
+:{{ébauche-étym|ms}}
+
+=== {{S|nom propre|ms}} ===
+'''Burma''' {{pron||ms}}
+# [[Birmanie]] (pays asiatique).
+
+[[Catégorie:Pays d’Asie en malais]]
+
+== {{langue|no}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|no}}
+
+=== {{S|nom propre|no}} ===
+'''Burma''' {{pron||no}}
+# [[Myanmar]] (pays d’[[Asie]]).
+
+[[Catégorie:Pays d’Asie en norvégien]]
+
+== {{langue|nn}} ==
+=== {{S|étymologie}} ===
+:{{ébauche-étym|nn}}
+
+=== {{S|nom propre|nn}} ===
+'''Burma''' {{pron||nn}}
+# [[Birmanie]] (pays asiatique).
+
+[[Catégorie:Pays d’Asie en norvégien (nynorsk)]]
+
+== {{langue|ro}} ==
+=== {{S|étymologie}} ===
+:{{ébauche-étym|ro}}
+
+=== {{S|nom propre|ro}} ===
+'''Burma''' {{pron||ro}}
+# [[Birmanie]] (pays asiatique).
+
+[[Catégorie:Pays d’Asie en roumain]]
+
+== {{langue|se}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|se}}
+
+=== {{S|nom propre|se}} ===
+'''Burma''' {{pron||se}}
+# [[Myanmar]] (pays d’[[Asie]]).
+
+[[Catégorie:Pays d’Asie en same du Nord]]
+
+== {{langue|sh}} ==
+=== {{S|étymologie}} ===
+:{{ébauche-étym|sh}}
+
+=== {{S|nom propre|sh}} ===
+'''Burma''' {{pron||sh}}
+# [[Birmanie]] (pays asiatique).
+
+[[Catégorie:Pays d’Asie en serbo-croate]]
+
+== {{langue|scn}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|scn}}
+
+=== {{S|nom propre|scn}} ===
+'''Burma''' {{pron||scn}}
+# [[Myanmar]] (pays d’[[Asie]]).
+
+=== {{S|prononciation}} ===
+* {{écouter|Gela (Italie)||lang=scn|audio=LL-Q33973 (scn)-XANA000-Burma.wav}}
+
+[[Catégorie:Pays d’Asie en sicilien]]
+
+== {{langue|sl}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|sl}}
+
+=== {{S|nom propre|sl}} ===
+{{sl-décl-nf|Burm|pdp=oui}}
+'''Burma''' {{pron||sl}} {{f}} {{s}}
+# [[Birmanie]] (pays asiatique).
+
+[[Catégorie:Pays d’Asie en slovène]]
+
+== {{langue|sv}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|sv}}
+
+=== {{S|nom propre|sv}} ===
+'''Burma''' {{pron||sv}}
+# [[Myanmar]] (pays d’[[Asie]]).
+
+[[Catégorie:Pays d’Asie en suédois]]
+
+== {{langue|tl}} ==
+=== {{S|étymologie}} ===
+:{{ébauche-étym|tl}}
+
+=== {{S|nom propre|tl}} ===
+'''Burma''' {{pron||tl}}
+# [[Birmanie]] (pays asiatique).
+
+[[Catégorie:Pays d’Asie en tagalog]]
+
+== {{langue|tr}} ==
+=== {{S|étymologie}} ===
+:{{ébauche-étym|tr}}
+
+=== {{S|nom propre|tr}} ===
+'''Burma''' {{pron||tr}}
+# [[Birmanie]] (pays asiatique).
+
+==== {{S|synonymes}} ====
+* {{lien|Birmanya|tr}}
+
+[[Catégorie:Pays d’Asie en turc]]

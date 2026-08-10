@@ -1,0 +1,88 @@
+== {{langue|fr}} ==
+{{ébauche|fr}}
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|fr}}
+
+=== {{S|nom propre|fr}} ===
+{{fr-inv||inv_titre=Nom propre}}
+'''Alpen''' {{pron||fr}}
+# {{localités|fr|d’Allemagne}} [[commune|Commune]] d’[[Allemagne]], située dans la [[Rhénanie-du-Nord-Westphalie]].
+
+==== {{S|traductions}} ====
+{{trad-début|}}
+
+{{trad-fin}}
+
+=== {{S|anagrammes}} ===
+{{voir anagrammes|fr}}
+
+=== {{S|voir aussi}} ===
+* {{WP}}
+
+== {{langue|gsw}} ==
+{{ébauche|gsw}}
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw}}
+
+=== {{S|nom propre|gsw}} ===
+'''Alpen'''
+# [[Alpes]] (chaîne de montagnes).
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|de|mot=Alpes|sens=Alpēs}}.
+
+=== {{S|nom propre|de}} ===
+{{de-nom-propre-pluriel-n}}
+'''Alpen''' {{pron|ˈalpn̩|de}} {{au pluriel uniquement|de}}
+# [[Alpes]] (chaîne de montagnes).
+#* {{exemple|Seit fast einem Jahrhundert besuchen Bergsteiger das Rifugio Casati, ein vierstöckiges Gebäude in den italienischen '''Alpen''' in 3269 Metern Höhe.|lang=de|sens=Depuis près d’un siècle, les alpinistes visitent le Rifugio Casati, un bâtiment de quatre étages situé dans les Alpes italiennes à 3269 mètres d'altitude.|source={{périodique|auteur=Alessio Perrone|titre=Tauender Permafrost in den Alpen lässt Berghütten bröckeln|journal=Spektrum der Wissenschaft|date=8 mai 2023|texte=https://www.spektrum.de/news/tauender-permafrost-in-den-alpen-erhoeht-einsturzgefahr-von-berghuetten/2136006}}}}
+
+=== {{S|prononciation}} ===
+* {{écouter|Berlin|ˈalpn̩|lang=de|audio=De-Alpen.ogg}}
+
+[[Catégorie:Chaînes de montagnes en allemand]]
+[[Catégorie:Toponymes dont l’origine est une couleur en allemand]]
+
+== {{langue|lb}} ==
+=== {{S|étymologie}} ===
+: Du {{étylp|la|lb|Alpes}}.
+
+=== {{S|nom propre|lb}} ===
+{{lb-inv-en|pron=ˈɑlpən|inv_titre=Nom propre}}
+'''Alpen''' {{pron|ˈɑlpən|lb}} {{au pluriel uniquement|lb}}
+# {{montagnes|lb|d’Europe}} {{lien|Alpes|fr}}.
+#* {{exemple|lang=lb}}
+
+==== {{S|notes}} ====
+* {{lb-n|np=oui}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=lb}}
+
+=== {{S|références}} ===
+: {{R:LOD}}
+
+[[Catégorie:Toponymes dont l’origine est une couleur en luxembourgeois]]
+
+== {{langue|nl}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|nl}}
+
+=== {{S|nom propre|nl}} ===
+{{nl-nom|n.pl=Alpen}}
+[[Fichier:Alps 2007-03-13 10.10UTC 1px-250m.jpg|vignette|Satellietbeeld boven de '''Alpen'''.]]
+'''Alpen''' {{pron||nl}} {{f}}/{{m}}
+# {{montagnes|nl}} Les [[Alpes]].
+#* {{exemple|lang=nl}}
+
+==== {{S|apparentés}} ====
+* {{lien|alpien|nl}}
+* {{lien|Alpijns|nl}}
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=nl||audio=Nl-Alpen.ogg}}
+
+[[Catégorie:Toponymes dont l’origine est une couleur en néerlandais]]

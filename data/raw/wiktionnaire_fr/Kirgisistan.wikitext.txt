@@ -1,0 +1,63 @@
+== {{langue|gsw}} ==
+{{ébauche|gsw}}
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw}}
+
+=== {{S|nom propre|gsw}} ===
+'''Kirgisistan'''
+# [[Kirghizistan#Français|Kirghizistan]] (pays d'Asie).
+
+== {{langue|de}} ==
+{{ébauche|de}}
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|de}}
+
+=== {{S|nom propre|de}} ===
+'''Kirgisistan'''
+# [[Kirghizistan#Français|Kirghizistan]] (pays d'Asie).
+
+=== {{S|prononciation}} ===
+* {{écouter|||lang=de|audio=De-Kirgisistan.ogg}}
+
+[[Catégorie:Pays d’Asie en allemand]]
+[[Catégorie:Kirghizistan en allemand|*]]
+
+== {{langue|da}} ==
+{{ébauche|da}}
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|da}}
+
+=== {{S|nom propre|da}} ===
+'''Kirgisistan'''
+# [[Kirghizistan#Français|Kirghizistan]] (pays d'Asie).
+
+[[Catégorie:Pays d’Asie en danois]]
+[[Catégorie:Kirghizistan en danois|*]]
+
+== {{langue|no}} ==
+{{ébauche|no}}
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|no}}
+
+=== {{S|nom propre|no}} ===
+'''Kirgisistan'''
+# [[Kirghizistan#Français|Kirghizistan]] (pays d'Asie).
+
+[[Catégorie:Pays d’Asie en norvégien]]
+[[Catégorie:Kirghizistan en norvégien|*]]
+
+== {{langue|nn}} ==
+{{ébauche|nn}}
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|nn}}
+
+=== {{S|nom propre|nn}} ===
+'''Kirgisistan'''
+# [[Kirghizistan#Français|Kirghizistan]] (pays d'Asie).
+
+[[Catégorie:Pays d’Asie en norvégien (nynorsk)]]

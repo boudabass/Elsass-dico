@@ -1,0 +1,718 @@
+{{voir/kanada}}
+
+== {{langue|af}} ==
+=== {{S|étymologie}} ===
+: Du {{étylp|lre|af|mot=canada}} ou ''{{lien|kanata|lre}}'' (« [[village]], [[établissement]] »).
+
+=== {{S|nom propre|af}} ===
+'''Kanada''' {{pron||af}}
+# {{pays|af}} [[Canada]] (pays d’[[Amérique du Nord]]).
+#* {{exemple|lang=af}}
+#* {{exemple | lang=af
+ | Nunavut is die mees noordelike streek van '''Kanada''', en ’n groot deel daarvan bestaan uit eilande.
+ | source=Toast Coetzer, « Tuis op die rand van die wêreld », ''Weg!'', {{1er|février}} 2021, page 46}}
+
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: {{cf|lang=gsw|Canada}}.
+
+=== {{S|nom propre|gsw}} ===
+'''Kanada''' {{pron||gsw}}
+# [[Canada]] (pays d’[[Amérique du Nord]]).
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=gsw}}
+
+[[Catégorie:Pays en alémanique]]
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: {{cf|lang=de|Canada}}.
+
+=== {{S|nom propre|de}} ===
+{{de-nom-propre|genre=n|gs=Kanada|gs2=Kanadas}}
+'''Kanada''' {{pron|ˈkanada|de}} {{n}}
+# [[Canada]] (pays d’[[Amérique du Nord]]).
+#* {{exemple | lang=de | Der Winter in '''Kanada''' ist äußerst hart.|sens=L'hiver au Canada est extrêmement rude.}}
+#* {{exemple|"Ich habe noch nie so ein reiches Land gesehen", erklärte Trump. "Überall stehen Paläste. Gold. Marmor. Sie schwelgen in Luxus da drüben. Der Vatikan ist viel schöner als Grönland oder '''Kanada''' oder der Gazastreifen. Er sollte Teil der USA werden. Das wäre für alle Seiten das Beste."|lang=de|sens=« Je n’ai jamais vu un pays aussi riche », a déclaré Trump. "Il y a des palais partout. De l’or. Du marbre. Ils se vautrent dans le luxe là-bas. Le Vatican est bien plus beau que le Groenland, le Canada ou la bande de Gaza. Il devrait faire partie des Etats-Unis. Ce serait mieux pour tout le monde".|source={{périodique|auteur=dan, ssi|titre=Beeindruckt nach Besuch im Petersdom: Trump will Vatikan als 51. Bundesstaat|journal=Der Postillon|date=28 avril 2025|texte=https://www.der-postillon.com/2025/04/vatikan-usa.html}}}}
+
+==== {{S|dérivés}} ====
+{{(|}}
+* {{lien|entkanadisieren|de}}
+* {{lien|Entkanadisierung|de}}
+* {{lien|Kanadabalsam|de}}
+* {{lien|Kanadadeutsche|de}}
+* {{lien|Kanada-Deutsche|de}}
+* {{lien|Kanadadeutscher|de}}
+* {{lien|Kanada-Deutscher|de}}
+* {{lien|Kanadagans|de}}
+* {{lien|Kanadakunde|de}}
+* {{lien|Kanadakundler|de}}
+* {{lien|Kanadakundlerin|de}}
+* {{lien|Kanadareise|de}}
+* {{lien|kanadaspezifisch|de}}
+* {{lien|Kanadastudien|de}}
+* {{lien|Kanada-Studien|de}}
+* {{lien|Kanadier|de}}
+* {{lien|Kanadierin|de}}
+* {{lien|kanadisch|de}}
+* {{lien|kanadisieren|de}}
+* {{lien|Kanadisierung|de}}
+* {{lien|Kanadist|de}}
+* {{lien|Kanadistin|de}}
+* {{lien|Kanadistik|de}}
+* {{lien|kanadistisch|de}}
+* {{lien|Mittelkanada|de}}
+* {{lien|Niederkanada|de}}
+* {{lien|Nordkanada|de}}
+* {{lien|Oberkanada|de}}
+* {{lien|Ostkanada|de}}
+* {{lien|Südkanada|de}}
+* {{lien|Westkanada|de}}
+* {{lien|Zentralkanada|de}}
+{{)}}
+
+=== {{S|prononciation}} ===
+* {{écouter|Berlin (Allemagne)|ˈkanada|lang=de|audio=De-Kanada2.ogg}}
+* {{écouter|{{DE|nocat=1}}|ˈkanada|lang=de|audio=De-Kanada.ogg}}
+
+==== {{S|homophones|de}} ====
+* [[ka na da]]
+
+=== {{S|références}} ===
+* {{R:DWDS|Kanada}}
+* {{R:Duden|Kanada}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=de}}
+
+[[Catégorie:Pays en allemand]]
+[[Catégorie:Canada en allemand|*]]
+
+== {{langue|az}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|ru|az|Канада}}.
+
+=== {{S|nom propre|az}} ===
+{{az-décl-nom|a}}
+'''Kanada''' {{pron|cɑ.ˈnɑ.dɑ|az}} {{az-forme possessive}}
+# [[Canada]] (pays d’[[Amérique du Nord]]).
+
+==== {{S|gentilés}} ====
+* [[kanadalı]]
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=az}}
+
+[[Catégorie:Pays en azéri]]
+
+== {{langue|bm}} ==
+=== {{S|étymologie}} ===
+: {{cf|lang=bm|Canada}}.
+
+=== {{S|nom propre|bm}} ===
+'''Kanada''' {{pron||bm}}
+# [[Canada]] (pays d’[[Amérique du Nord]]).
+
+[[Catégorie:Pays en bambara]]
+
+== {{langue|nds}} ==
+=== {{S|étymologie}} ===
+: {{cf|lang=nds|Canada}}.
+
+=== {{S|nom propre|nds}} ===
+'''Kanada''' {{pron||nds}}
+# [[Canada]] (pays d’[[Amérique du Nord]]).
+
+[[Catégorie:Pays en bas allemand]]
+
+== {{langue|dsb}} ==
+=== {{S|étymologie}} ===
+: {{cf|lang=dsb|Canada}}.
+
+=== {{S|nom propre|dsb}} ===
+'''Kanada''' {{pron||dsb}}
+# [[Canada]] (pays d’[[Amérique du Nord]]).
+
+[[Catégorie:Pays en bas-sorabe]]
+
+== {{langue|eu}} ==
+=== {{S|étymologie}} ===
+: {{cf|lang=eu|Canada}}.
+
+=== {{S|nom propre|eu}} ===
+'''Kanada''' {{pron||eu}}
+# [[Canada]] (pays d’[[Amérique du Nord]]).
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=eu|Espagne (Saint-Sébastien)|audio=LL-Q8752 (eus)-Xabier Cañas-Kanada.wav}}
+
+[[Catégorie:Pays en basque]]
+
+== {{langue|bar}} ==
+=== {{S|étymologie}} ===
+: {{cf|lang=bar|Canada}}.
+
+=== {{S|nom propre|bar}} ===
+'''Kanada''' {{pron||bar}}
+# [[Canada]] (pays d’[[Amérique du Nord]]).
+
+[[Catégorie:Pays en bavarois]]
+
+== {{langue|bi}} ==
+=== {{S|étymologie}} ===
+: {{cf|lang=bi|Canada}}.
+
+=== {{S|nom propre|bi}} ===
+'''Kanada''' {{pron||bi}}
+# [[Canada]] (pays d’[[Amérique du Nord]]).
+
+[[Catégorie:Pays en bichlamar]]
+
+== {{langue|bs}} ==
+=== {{S|étymologie}} ===
+: {{cf|lang=bs|Canada}}.
+
+=== {{S|nom propre|bs}} ===
+'''Kanada''' {{pron||bs}}
+# [[Canada]] (pays d’[[Amérique du Nord]]).
+
+[[Catégorie:Pays en bosniaque]]
+
+== {{langue|br}} ==
+=== {{S|étymologie}} ===
+: {{cf|lang=br|Canada}}.
+
+=== {{S|nom propre|br}} ===
+'''Kanada''' {{pron|kã.ˈnɑː.da|br}} {{m}}
+# [[Canada#Nom propre 1|Canada]] (pays d’[[Amérique du Nord]]).
+#* {{exemple | lang=br
+ | Fransez Le Tonturier Donroë [...] a yeas d’ar '''Cʼhanada''' ez vihanik, nebeut amzer goude ar brezel 1870-1871.
+ | François Le Tonturier Donroë [...] parti enfant au Canada, peu après la guerre de 1870-1871.
+ | source=F. L. T. Donroë, ''Eur Breizad er Cʼhanada'', traduit par {{w|François Vallée (linguiste)|François Vallée}}, Gwalarn, Brest, 1933, page 7}}
+#* {{exemple | lang=br
+ | « N’eus nemet cʼhwecʼh miz ’ zo emaon er '''Cʼhanada'''. Eus Pariz e teuan ».
+ | « Il n’y a que six mois que je suis au Canada. Je viens de Paris ».
+ | source={{w|Jakez Konan}}, ''Lannevern e kañv ha danevelloù all'', {{w|Al Liamm}}, 1980, page 156}}
+#* {{exemple | lang=br
+ | E '''Kanada''', ez-ofisiel, n’eus nemet ur proviñs divyezhek, an Nevez-Brunswick, da lavaret eo douar an Akadi.
+ | Il n’y a officiellement qu’une province bilingue au Canada, le Nouveau-Brunswick, c'est-à-dire le territoire de l’Acadie.
+ | source=Fabien Lécuyer, ''Kanada : An divyezhegezh o vont àr-raok'' in ''{{w|Ya !}}'', {{numéro|557}}, 12 février 2016, page 2}}
+#* {{exemple | lang=br
+ | E Bro-'''Ganada''' eo bet dalcʼhet seizhvet kib mell-droad ar bed deus tu ar maouezed.
+ | La septième coupe du monde de football féminin s’est tenue au Canada.
+ | source=KA, ''Pa zeu war-wel Mercʼhed ar vell ront'' in ''{{w|Ya !}}'', {{numéro|527}}, 17 juillet 2017, page 5}}
+
+==== {{S|dérivés}} ====
+{{(}}
+* {{lien|bedig Kanada|br}}
+* {{lien|garan Kanada|br}}
+* {{lien|garreli-Kanada|br}}
+* {{lien|pokerig-Kanada|br}}
+* {{lien|skilgog-Kanada|br}}
+{{)}}
+
+==== {{S|gentilés}} ====
+* [[Kanadian]] ({{p}} : [[Kanadianed]])
+* [[kanadian]]
+* [[Kanadianez]] ({{p}} : [[Kanadianezed]])
+
+=== {{S|prononciation}} ===
+* {{écouter|Bretagne (France)||niveau=moyen|lang=br|audio=LL-Q12107 (bre)-Gourig0-Kanada.wav}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=br}}
+
+[[Catégorie:Pays en breton]]
+
+== {{langue|kw}} ==
+=== {{S|étymologie}} ===
+: {{cf|lang=kw|Canada}}.
+
+=== {{S|nom propre|kw}} ===
+'''Kanada''' {{pron||kw}}
+# [[Canada]] (pays d’[[Amérique du Nord]]).
+
+[[Catégorie:Pays en cornique]]
+
+== {{langue|ht}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|fr|ht|Canada}}.
+
+=== {{S|nom propre|ht}} ===
+'''Kanada''' {{pron|ka.na.da|ht}}
+# {{pays|ht}} [[Canada]].
+
+[[Catégorie:Pays en créole haïtien]]
+
+== {{langue|hr}} ==
+=== {{S|étymologie}} ===
+: {{cf|lang=hr|Canada}}.
+
+=== {{S|nom propre|hr}} ===
+'''Kanada''' {{pron||hr}}
+# [[Canada]] (pays d’[[Amérique du Nord]]).
+
+[[Catégorie:Pays en croate]]
+
+== {{langue|diq}} ==
+=== {{S|étymologie}} ===
+: {{cf|lang=diq|Canada}}.
+
+=== {{S|nom propre|diq}} ===
+'''Kanada''' {{pron||diq}}
+# [[Canada]] (pays d’[[Amérique du Nord]]).
+
+[[Catégorie:Pays en dimli (zazaki du Sud)]]
+
+== {{langue|et}} ==
+=== {{S|étymologie}} ===
+: {{cf|lang=et|Canada}}.
+
+=== {{S|nom propre|et}} ===
+'''Kanada''' {{pron||et}}
+# [[Canada]] (pays d’[[Amérique du Nord]]).
+
+[[Catégorie:Pays en estonien]]
+
+== {{langue|fo}} ==
+=== {{S|étymologie}} ===
+: {{cf|lang=fo|Canada}}.
+
+=== {{S|nom propre|fo}} ===
+'''Kanada''' {{pron||fo}}
+# [[Canada]] (pays d’[[Amérique du Nord]]).
+
+[[Catégorie:Pays en féroïen]]
+
+== {{langue|ee}} ==
+=== {{S|nom propre|ee}} ===
+'''Kanada''' {{pron||ee}}
+# {{pays|ee}} [[Canada#fr|Canada]] (pays d’[[Amérique du Nord]]).
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=ee}}
+
+[[Catégorie:Canada en éwé|*]]
+
+== {{langue|fi}} ==
+=== {{S|étymologie}} ===
+: {{cf|lang=fi|Canada}}.
+
+=== {{S|nom propre|fi}} ===
+'''Kanada''' {{pron|ˈkɑnɑdɑ|fi}}
+# {{lien|Canada|fr}} (pays d’[[Amérique du Nord]]).
+
+==== {{S|dérivés}} ====
+* {{lien|kanadanhanhi|fi}} — bernache du Canada
+* {{lien|kanadanluppo|fi}} — ''Bryoria fremontii''
+* {{lien|kanadanpyy|fi}} — tétras du Canada
+* {{lien|kanadansirri|fi}} — bécasseau semipalmé
+
+[[Catégorie:Pays en finnois]]
+
+== {{langue|fy}} ==
+=== {{S|étymologie}} ===
+: {{cf|lang=fy|Canada}}.
+
+=== {{S|nom propre|fy}} ===
+'''Kanada''' {{pron||fy}}
+# [[Canada]] (pays d’[[Amérique du Nord]]).
+
+[[Catégorie:Pays en frison]]
+
+== {{langue|stq}} ==
+=== {{S|étymologie}} ===
+: {{cf|lang=stq|Canada}}.
+
+=== {{S|nom propre|stq}} ===
+'''Kanada''' {{pron||stq}}
+# [[Canada]] (pays d’[[Amérique du Nord]]).
+
+[[Catégorie:Pays en frison saterlandais]]
+
+== {{langue|hsb}} ==
+=== {{S|étymologie}} ===
+: {{cf|lang=hsb|Canada}}.
+
+=== {{S|nom propre|hsb}} ===
+'''Kanada''' {{pron||hsb}}
+# [[Canada]] (pays d’[[Amérique du Nord]]).
+
+[[Catégorie:Pays en haut-sorabe]]
+
+== {{langue|hu}} ==
+=== {{S|étymologie}} ===
+: {{cf|lang=hu|Canada}}.
+
+=== {{S|nom propre|hu}} ===
+'''Kanada''' {{pron||hu}}
+# [[Canada]] (pays d’[[Amérique du Nord]]).
+
+[[Catégorie:Pays en hongrois]]
+
+== {{langue|io}} ==
+=== {{S|étymologie}} ===
+: {{cf|lang=io|Canada}}.
+
+=== {{S|nom propre|io}} ===
+'''Kanada''' {{pron||io}}
+# [[Canada]] (pays d’[[Amérique du Nord]]).
+
+[[Catégorie:Pays en ido]]
+
+== {{langue|id}} ==
+=== {{S|étymologie}} ===
+: {{cf|lang=id|Canada}}.
+
+=== {{S|nom propre|id}} ===
+'''Kanada''' {{pron||id}}
+# [[Canada]] (pays d’[[Amérique du Nord]]).
+#* {{exemple|lang=id}}
+
+[[Catégorie:Pays en indonésien]]
+
+== {{langue|is}} ==
+=== {{S|étymologie}} ===
+: {{cf|lang=is|Canada}}.
+
+=== {{S|nom propre|is}} ===
+'''Kanada''' {{pron||is}}
+# [[Canada]] (pays d’[[Amérique du Nord]]).
+
+[[Catégorie:Pays en islandais]]
+
+== {{langue|jv}} ==
+=== {{S|étymologie}} ===
+: {{cf|lang=jv|Canada}}.
+
+=== {{S|nom propre|jv}} ===
+'''Kanada''' {{pron||jv}}
+# [[Canada]] (pays d’[[Amérique du Nord]]).
+
+[[Catégorie:Pays en javanais]]
+
+== {{langue|csb}} ==
+=== {{S|étymologie}} ===
+: {{cf|lang=csb|Canada}}.
+
+=== {{S|nom propre|csb}} ===
+'''Kanada''' {{pron||csb}}
+# [[Canada]] (pays d’[[Amérique du Nord]]).
+
+[[Catégorie:Pays en kachoube]]
+
+== {{langue|avk}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|en|avk|Canada}}.
+
+=== {{S|nom propre|avk}} ===
+'''Kanada''' {{pron|kaˈnada|avk}}
+# {{pays|avk|d’Amérique du Nord}} [[#fr|Canada]].
+#* {{exemple|lang=avk}}
+
+==== {{S|synonymes}} ====
+* [[Canada#avk|Canada]]
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=avk|France|ka'nada|audio=kanada.wav}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=avk}}
+
+=== {{S|références}} ===
+* {{R:avk-continents-pays}}
+
+== {{langue|ku}} ==
+=== {{S|étymologie}} ===
+: {{cf|lang=ku|Canada}}.
+
+=== {{S|nom propre|ku}} ===
+'''Kanada''' {{pron||ku}}
+# [[Canada]] (pays d’[[Amérique du Nord]]).
+
+[[Catégorie:Pays en kurde]]
+
+== {{langue|lt}} ==
+=== {{S|étymologie}} ===
+: {{cf|lang=lt|Canada}}.
+
+=== {{S|nom propre|lt}} ===
+{{lt-décl-nom-propre-f-a|Kanad}}
+'''Kanada''' {{pron||lt}}
+# [[Canada]] (pays d’[[Amérique du Nord]]).
+
+[[Catégorie:Pays en lituanien]]
+
+== {{langue|lb}} ==
+=== {{S|étymologie}} ===
+: {{cf|lang=lb|Canada}}.
+
+=== {{S|nom propre|lb}} ===
+{{lb-inv|kˈɑnaːdaː|inv_titre=Nom propre}}
+'''Kanada''' {{pron|kˈɑnaːdaː|lb}} {{n}}
+# {{pays|lb|dAmerique du Nord|pays=Canada|clé=*}} {{lien|Canada|fr}}.
+#* {{exemple|lang=lb}}
+
+==== {{S|gentilés}} ====
+* {{lien|Kanadier|lb|sens=Canadien}}, {{lien|Kanadierin|lb|sens=Canadienne}}
+* {{lien|kanadesch|lb|sens=canadien, canadienne}}
+
+=== {{S|prononciation}} ===
+* {{pron|kˈɑnaːdaː|lb}}
+* {{écouter|Luxembourg|kˈɑnaːdaː|lang=lb|audio=Lb-Kanada.ogg}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=lb}}
+
+=== {{S|références}} ===
+: {{R:LOD}}
+
+== {{langue|ms}} ==
+=== {{S|étymologie}} ===
+: {{cf|lang=ms|Canada}}.
+
+=== {{S|nom propre|ms}} ===
+'''Kanada''' {{pron||ms}}
+# [[Canada]] (pays d’[[Amérique du Nord]]).
+
+[[Catégorie:Pays en malais]]
+
+== {{langue|mg}} ==
+=== {{S|étymologie}} ===
+: {{cf|lang=mg|Canada}}.
+
+=== {{S|nom propre|mg}} ===
+'''Kanada''' {{pron|kanadạ|mg}}
+# [[Canada]] (pays d’[[Amérique du Nord]]).
+
+[[Catégorie:Pays en malgache]]
+
+== {{langue|nov}} ==
+=== {{S|étymologie}} ===
+: {{cf|lang=nov|Canada}}.
+
+=== {{S|nom propre|nov}} ===
+'''Kanada''' {{pron||nov}}
+# [[Canada]] (pays d’[[Amérique du Nord]]).
+
+[[Catégorie:Pays en novial]]
+
+== {{langue|ug}} ==
+=== {{S|étymologie}} ===
+: {{cf|lang=ug|Canada}}.
+
+=== {{S|nom propre|ug}} ===
+'''Kanada''' {{pron||ug}}
+# [[Canada]] (pays d’[[Amérique du Nord]]).
+
+[[Catégorie:Pays en ouïghour]]
+
+== {{langue|uz}} ==
+=== {{S|étymologie}} ===
+: {{cf|lang=uz|Canada}}.
+
+=== {{S|nom propre|uz}} ===
+'''Kanada''' {{pron||uz}}
+# [[Canada]] (pays d’[[Amérique du Nord]]).
+
+[[Catégorie:Pays en ouzbek]]
+
+== {{langue|pl}} ==
+=== {{S|étymologie}} ===
+: {{cf|lang=pl|Canada}}.
+
+=== {{S|nom propre|pl}} ===
+'''Kanada''' {{pron||pl}}
+# [[Canada]] (pays d’[[Amérique du Nord]]).
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=pl||audio=Pl-Kanada.ogg}}
+
+[[Catégorie:Pays en polonais]]
+
+== {{langue|qu}} ==
+=== {{S|étymologie}} ===
+: {{cf|lang=qu|Canada}}.
+
+=== {{S|nom propre|qu}} ===
+'''Kanada''' {{pron||qu}}
+# [[Canada]] (pays d’[[Amérique du Nord]]).
+
+[[Catégorie:Pays en quechua]]
+
+== {{langue|sgs}} ==
+=== {{S|étymologie}} ===
+: {{cf|lang=sgs|Canada}}.
+
+=== {{S|nom propre|sgs}} ===
+'''Kanada''' {{pron||sgs}}
+# [[Canada]] (pays d’[[Amérique du Nord]]).
+
+[[Catégorie:Pays en samogitien]]
+
+== {{langue|sh}} ==
+=== {{S|étymologie}} ===
+: {{cf|lang=sh|Canada}}.
+
+=== {{S|nom propre|sh}} ===
+'''Kanada''' {{pron||sh}}
+# [[Canada]] (pays d’[[Amérique du Nord]]).
+
+[[Catégorie:Pays en serbo-croate]]
+
+== {{langue|szl}} ==
+=== {{S|étymologie}} ===
+: {{cf|lang=szl|Canada}}.
+
+=== {{S|nom propre|szl}} ===
+'''Kanada''' {{pron||szl}}
+# [[Canada]] (pays d’[[Amérique du Nord]]).
+
+[[Catégorie:Pays en silésien]]
+
+== {{langue|sk}} ==
+=== {{S|étymologie}} ===
+: {{cf|lang=sk|Canada}}.
+
+=== {{S|nom propre|sk}} ===
+{{sk-décl-nom-f-a-dur|rad=Kanad|sing=oui}}
+'''Kanada''' {{pron|ˈka.na.da|sk}} {{f}}
+# [[Canada]] (pays d’[[Amérique du Nord]]).
+
+==== {{S|gentilés}} ====
+* [[Kanaďan]], [[Kanaďanka]]
+* [[kanadský]]
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=sk}}
+
+[[Catégorie:Pays en slovaque]]
+
+== {{langue|sl}} ==
+=== {{S|étymologie}} ===
+: {{cf|lang=sl|Canada}}.
+
+=== {{S|nom propre|sl}} ===
+{{sl-décl-nf|Kanad|pdp=oui}}
+'''Kanada''' {{pron||sl}} {{f}} {{s}}
+# [[Canada]] (pays d’[[Amérique du Nord]]).
+
+[[Catégorie:Pays en slovène]]
+
+== {{langue|sv}} ==
+=== {{S|étymologie}} ===
+: {{cf|lang=sv|Canada}}.
+
+=== {{S|nom propre|sv}} ===
+'''Kanada''' {{pron||sv}}
+# [[Canada]] (pays d’[[Amérique du Nord]]).
+
+=== {{S|prononciation}} ===
+* {{écouter|Suède||lang=sv|audio=LL-Q9027 (swe)-Moonhouse-Kanada.wav}}
+
+[[Catégorie:Pays en suédois]]
+
+== {{langue|sw}} ==
+=== {{S|étymologie}} ===
+: {{cf|lang=sw|Canada}}.
+
+=== {{S|nom propre|sw}} ===
+'''Kanada''' {{pron||sw}}
+# [[Canada]] (pays d’[[Amérique du Nord]]).
+
+[[Catégorie:Pays en swahili]]
+
+== {{langue|tl}} ==
+=== {{S|étymologie}} ===
+: {{cf|lang=tl|Canada}}.
+
+=== {{S|nom propre|tl}} ===
+'''Kanada''' {{pron||tl}}
+# [[Canada]] (pays d’[[Amérique du Nord]]).
+
+[[Catégorie:Pays en tagalog]]
+
+== {{langue|crh}} ==
+=== {{S|étymologie}} ===
+: {{cf|lang=crh|Canada}}.
+
+=== {{S|nom propre|crh}} ===
+'''Kanada''' {{pron||crh}}
+# [[Canada]] (pays d’[[Amérique du Nord]]).
+
+[[Catégorie:Pays en tatar de Crimée]]
+
+== {{langue|cs}} ==
+=== {{S|étymologie}} ===
+: Voir ''{{lien|Canada|fr}}'', apparenté à ''{{lien|kanada|cs}}''.
+
+=== {{S|nom propre|cs}} ===
+{{cs-décl-nom-f-a|rad=Kanad|sing=oui}}
+'''Kanada''' {{pron||cs}}
+# {{pays|cs}} {{lien|Canada|fr}}.
+#* {{exemple | lang=cs | olympijské hry v '''Kanadě'''.}}
+
+==== {{S|gentilés}} ====
+* {{lien|Kanaďan|cs}}, {{lien|Kanaďanka|cs}}
+* {{lien|kanadský|cs}}
+* {{lien|kanadsky|cs}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=cs}}
+
+=== {{S|références}} ===
+* {{R:ÚJČ}}
+
+== {{langue|tpi}} ==
+=== {{S|étymologie}} ===
+: {{cf|lang=tpi|Canada}}.
+
+=== {{S|nom propre|tpi}} ===
+'''Kanada''' {{pron||tpi}}
+# [[Canada]] (pays d’[[Amérique du Nord]]).
+
+[[Catégorie:Pays en tok pisin]]
+
+== {{langue|tr}} ==
+=== {{S|étymologie}} ===
+: {{cf|lang=tr|Canada}}.
+
+=== {{S|nom propre|tr}} ===
+'''Kanada''' {{pron||tr}} (''accusatif'' '''Kanada’yı''')
+# [[Canada]] (pays d’[[Amérique du Nord]]).
+
+=== {{S|prononciation}} ===
+* {{écouter|Izmir (Turquie)||lang=tr|audio=LL-Q256 (tur)-ToprakM-Kanada.wav}}
+
+[[Catégorie:Pays en turc]]
+
+== {{langue|rmy}} ==
+=== {{S|étymologie}} ===
+: {{cf|lang=rmy|Canada}}.
+
+=== {{S|nom propre|rmy}} ===
+'''Kanada''' {{pron||rmy}}
+# [[Canada]] (pays d’[[Amérique du Nord]]).
+
+[[Catégorie:Pays en vlax]]
+
+== {{langue|vro}} ==
+=== {{S|étymologie}} ===
+: {{cf|lang=vro|Canada}}.
+
+=== {{S|nom propre|vro}} ===
+'''Kanada''' {{pron||vro}}
+# [[Canada]] (pays d’[[Amérique du Nord]]).
+
+[[Catégorie:Pays en võro]]
+
+== {{langue|war}} ==
+=== {{S|étymologie}} ===
+: {{cf|lang=war|Canada}}.
+
+=== {{S|nom propre|war}} ===
+'''Kanada''' {{pron||war}}
+# [[Canada]] (pays d’[[Amérique du Nord]]).
+
+[[Catégorie:Pays en waray (Philippines)]]

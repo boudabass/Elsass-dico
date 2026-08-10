@@ -1,0 +1,70 @@
+{{voir/plutonium}}
+
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw}}
+
+=== {{S|nom|gsw}} ===
+'''Plutonium''' {{pron||gsw}}
+# {{éléments|gsw}} {{métaux|gsw}} [[plutonium|Plutonium]].
+{{clr}}
+==== {{S|vocabulaire}} ====
+{{tableau périodique/gsw}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=gsw}}
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: {{siècle|XX|lang=de}} De l’{{étyl|en|de|plutonium}}{{R|Duden|Plutonium}}, en rapport avec ''[[Pluton]]''.
+
+=== {{S|nom|de}} ===
+{{de-nom-n-sing}}
+{{légende élément/de|Pu}}
+[[Image:Plutonium3.jpg|thumb|'''Plutonium'''.]]
+'''Plutonium''' {{pron|pluˈtoːni̯ʊm|de}} {{n}} {{au singulier uniquement|de}}
+# {{éléments|de}} {{métaux|de}} [[plutonium#fr|Plutonium]] (l’{{lien|élément chimique}} [[Pu#conv|Pu]]).
+#* {{exemple|'''Plutonium''' ist giftig und radioaktiv.|lang=de|sens=Le plutonium est toxique et radioactif.}}
+#* {{exemple|Inzwischen ist das Abkommen aber leider das Papier nicht mehr wert, auf dem es steht. Seit Monaten gibt es für die von den USA unter Joe Biden gewünschten Wiederaufnahme keinen Fortschritt mehr, während der Iran munter '''Plutonium''' anreichert.|lang=de|sens=Mais entre-temps, l’accord ne vaut malheureusement plus le papier sur lequel il est écrit. Depuis des mois, la reprise souhaitée par les États-Unis sous Joe Biden n’a pas progressé, alors que l’Iran enrichit allègrement du plutonium.|source={{périodique|auteur=Eva Quadbeck|titre=Die nächste Lebenslüge des Westens|journal=RedaktionsNetzwerk Deutschland|date=19 octobre 2022|texte=https://www.rnd.de/politik/iran-die-naechste-lebensluege-des-westens-ZQ32TVNGZJGHDEGX3PX2CGDMCE.html}}}}
+
+==== {{S|dérivés}} ====
+* {{lien|Plutoniumbombe|de}}
+* {{lien|Plutoniumborid|de}}
+* {{lien|Plutoniumdioxid|de}}
+* {{lien|Plutoniumverbindung|de}}
+{{clr}}
+==== {{S|vocabulaire}} ====
+* {{voir thésaurus|de|tableau périodique des éléments}}
+{{tableau périodique/de}}
+{{Liste|avant={{lien|Neptunium|de}}<br>([[Np#conv|Np]])|après={{lien|Americium|de}}<br>([[Am#conv|Am]])|liste=[[Thésaurus:tableau périodique des éléments/allemand|Éléments chimiques en allemand]]}}
+
+=== {{S|prononciation}} ===
+* {{écouter|Berlin|pluˈtoːni̯ʊm|lang=de|audio=De-Plutonium.ogg}}
+* {{écouter|{{DE|nocat=1}}|pluˈtoːni̯ʊm|lang=de|audio=LL-Q188 (deu)-Lucas Werkmeister-Plutonium.wav}}
+* {{écouter|Berlin|pluˈtoːni̯ʊm|lang=de|audio=LL-Q188 (deu)-Sebastian Wallroth-Plutonium.wav}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=de}}
+
+=== {{S|références}} ===
+{{références}}
+* {{R:DWDS|Plutonium}}
+
+== {{langue|lb}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|lb}}
+
+=== {{S|nom|lb}} ===
+{{lb-inv|plˈutoːni̯um}}
+'''Plutonium''' {{pron|plˈutoːni̯um|lb}} {{m}}, {{au singulier uniquement|lb}}
+# {{éléments|lb}} {{métaux|lb}} [[plutonium#fr|Plutonium]].
+#* {{exemple|lang=lb}}
+{{clr}}
+==== {{S|vocabulaire}} ====
+{{tableau périodique/lb}}
+
+=== {{S|références}} ===
+: {{R:LOD}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=lb}}

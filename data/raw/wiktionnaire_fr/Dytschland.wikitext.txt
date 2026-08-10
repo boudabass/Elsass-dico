@@ -1,0 +1,15 @@
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: Déformation du mot allemand [[Deutschland]].
+
+=== {{S|nom propre|gsw}} ===
+'''Dytschland'''
+# [[Allemagne]] (pays européen).
+
+==== {{S|synonymes}} ====
+* [[Dütschland]]
+* [[Düütschland]]
+* [[Ditsch]]
+
+
+[[Catégorie:Pays en alémanique]]

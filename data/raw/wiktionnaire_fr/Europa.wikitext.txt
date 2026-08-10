@@ -1,0 +1,628 @@
+{{voir/europa}}
+
+== {{langue|fr}} ==
+=== {{S|étymologie}} ===
+: {{info lex|astronautique}} {{date|1962}} Du {{étylp|la|fr|Europa}}, issu du {{étylp|grc|fr|Εὐρώπη|Eurṓpē}}.
+: {{info lex|géographie}} {{date|1825}} Le cartographe anglais William Owen lui donna le nom du navire britannique qui la découvrit en 1774.
+: {{term|Philatélie}} {{date|1956}}
+
+=== {{S|nom propre|fr}} ===
+'''Europa''' {{pron|ø.ʁɔ.pa|fr}} {{f}}
+[[Fichier:Vue aerienne europa.jpg|vignette|Vue aérienne de l’île '''Europa''' (2)]]
+[[Fichier:Stamps of Lithuania, 2004-11.jpg|vignette|Timbre lithuanien de la série '''Europa''' de 2004. (3)|150px]]
+# {{lexique|astronautique|fr}} Nom du [[premier]] [[projet]] [[européen]] de [[lanceur]] [[spatial]], [[abandonné]] au [[profit]] d’''[[Ariane]]'' en 1972.
+#* {{exemple | lang=fr | Le premier lancement d’une fusée '''''Europa''''' eut lieu en juin 1964.}}
+# {{îles|fr|de France}} Nom d’une petite [[île]] française inhabitée parmi les [[Îles Éparses de l’océan Indien]] (dans le canal du [[Mozambique]]), administrée au sein des [[Terres australes et antarctiques françaises]].
+# {{lexique|philatélie|fr}} Nom donné à une collection de timbres ayant pour thème principal l’Europe et dont une série est émise chaque année par les postes européennes avec un thème secondaire commun à tous les pays européens émetteurs.
+#* {{exemple | lang=fr | Depuis leur première émission en 1956, les timbres '''Europa''' ont constitué un symbole de la volonté européenne d’intégration.}}
+
+==== {{S|hyponymes}} ====
+: {{info lex|astronautique}} :
+* [[Europa 1]]
+* [[Europa 2]]
+* [[Europa 3]]
+
+==== {{S|vocabulaire}} ====
+* {{voir thésaurus|fr|timbre}}
+
+==== {{S|traductions}} ====
+{{trad-début}}
+{{trad-fin}}
+
+=== {{S|prononciation}} ===
+* {{écouter|Somain (France)||lang=fr|audio=LL-Q150 (fra)-Jérémy-Günther-Heinz Jähnick-Europa.wav}}
+* {{écouter|Céret (France)|ø.ʁɔ.pa|lang=fr|audio=LL-Q150 (fra)-Fabricio Cardenas (Culex)-Europa.wav}}
+
+=== {{S|anagrammes}} ===
+{{voir anagrammes|fr}}
+
+=== {{S|voir aussi}} ===
+* {{WP|Île Europa}}
+
+== {{langue|af}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|af|mot=Europa}}.
+
+=== {{S|nom propre|af}} ===
+'''Europa''' {{pron||af}}
+# {{continents|af}} [[Europe]] (continent).
+#* {{exemple|lang=af}}
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=af|Afrique du Sud (Johannesbourg)|audio=LL-Q14196 (afr)-Oesjaar-Europa.wav}}
+
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|gsw|mot=Europa}}.
+
+=== {{S|nom propre|gsw}} ===
+'''Europa''' {{pron||gsw}}
+# {{continents|gsw}} [[Europe]] (continent).
+# {{satellites|gsw}} [[Europe]] (satellite de Jupiter).
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: {{date|lang=de}} Du {{étylp|la|de|mot=Europa}}.
+
+=== {{S|nom propre|de|num=1}} ===
+{{de-nom-propre|genre=n|sing=oui|gs2=Europa}}
+[[Fichier:LocationEurope.png|vignette|L''''Europe'''.]]
+'''Europa''' {{pron|ɔɪ̯.ˈroː.pa|de}} {{n}}, déclinable ou {{indéclinable|de}}, {{au singulier uniquement|de}}.
+# {{continents|de}} [[Europe#fr|Europe]] (continent).
+#* {{exemple | lang=de | Die Grenze '''Europas''' zu Asien wird im Osten durch den Ural begrenzt. | sens=La frontière de l'Europe avec l'Asie est délimitée à l'Est par l'Oural.}}
+#* {{exemple|Alexander von Humboldt war in ganz '''Europa''' berühmt wegen einer Expedition in die Tropen, die er fünfundzwanzig Jahre zuvor unternommen hatte.|lang=de|sens=Alexander von Humboldt était célèbre dans l’Europe entière grâce à une expédition dans les tropiques qu’il avait faite vingt-cinq ans plus tôt.|source={{ouvrage|auteur={{w|Daniel Kehlmann}}|titre=Die Vermessung der Welt|année=2005|éditeur=Rohwolt|url=}}}}
+#* {{exemple|Zehn, fünfzehn Jahre noch – die Knabenjahre Balzacs – und die machtgierigen Hände umspannen halb '''Europa''', während seine ehrgeizigen Träume mit Adlersflügeln schon ausgreifen über die ganze Welt von Orient zu Okzident.|lang=de|sens=Pendant dix ans, pendant quinze ans encore — ce sont les années d’enfance de Balzac — les mains avides de pouvoir de l’Empereur embrassent la moitié de l’Europe, tandis que ses rêves ambitieux, semblables au vol de l’aigle, s’éploient déjà sur l’univers entier, de l’Orient jusqu’à l’Occident.|source={{ouvrage|auteur={{w|Stefan Zweig}}|trad=Henri Bloch et Alzir Hella|titre=Drei Meister - Balzac. Dickens. Dostojewski|année=1999|éditeur=Fischer Taschenbuch|lieu=Frankfurt am Main|url=}}}}
+# {{info lex|politique}} {{familier|de}} [[Union européenne#fr|Union européenne]]. 
+#* {{exemple | lang=de | Das Vereinigte Königreich hat im Jahr 2020 '''Europa''' verlassen. | sens=Le Royaume-Uni a quitté l'Europe en 2020.}}
+#* {{exemple|"Falls Wladimir Putin geglaubt hat, er könnte die ukrainische Nation mit Gewalt von ihrem Weg nach '''Europa''' abbringen, dann hat er – mit all seinen Panzern, seinen Drohnen und Raketenwerfern – nichts als das Gegenteil bewirkt", sagte Scholz und erntete Beifall.|lang=de|sens="Si Vladimir Poutine pensait pouvoir détourner par la force la nation ukrainienne de son chemin vers l'Europe, il n'a - avec tous ses chars, ses drones et ses lance-roquettes - rien fait d'autre que le contraire", a déclaré Scholz, qui a été applaudi.|source={{périodique|auteur=Zeit Online, dpa, edd|titre=Scholz würdigt bei Karlspreis-Verleihung Freiheitswillen der Ukraine|journal=Die Zeit|date=14 mai 2023|texte=https://www.zeit.de/politik/2023-05/karlspreis-wolodymyr-selenskyj-livestream}}}}
+#* {{exemple|Das katholisch geprägte Polen hat eines der strengsten Abtreibungsgesetze in '''Europa'''.|lang=de|sens=La Pologne, pays à dominante catholique, a l'une des lois sur l’avortement les plus strictes d'Europe.|source={{périodique|auteur=(APA)|titre=Unterhaus in Polen lehnte Lockerung des strengen Abtreibungsrechts ab|journal=Der Standard|date=13 juillet 2024|texte=https://www.derstandard.at/story/3000000228275/unterhaus-in-polen-lehnte-lockerung-des-strengen-abtreibungsrechts-ab}}}}
+
+==== {{S|notes}} ====
+: En allemand, les continents n’ont généralement pas de déterminant. Si toutefois il y a besoin d'une déclinaison, ils sont supposés du genre neutre.
+
+==== {{S|synonymes}} ====
+; ''Continent :''
+* {{lien|Alte Welt|de}}
+; ''Union européenne :''
+* {{lien|Europäische Union|de}}
+
+==== {{S|antonymes}} ====
+{{(|}}
+* {{lien|Asien|de}}
+* {{lien|Amerika|de}}
+* {{lien|Afrika|de}}
+* {{lien|Australien|de}}
+* {{lien|Antarktika|de}}
+{{)}}
+
+==== {{S|hyperonymes}} ====
+{{(|}}
+* {{lien|Eurasien|de}}
+* {{lien|Erdteil|de}}
+* {{lien|Kontinent|de}}
+* {{lien|Norderteil|de}}
+* {{lien|Ostfeste|de}}
+* {{lien|Alte Welt|de}}
+{{)}}
+
+==== {{S|vocabulaire}} ====
+* {{lien|Abendland|de}}
+* {{lien|Okzident|de}}
+
+==== {{S|gentilés}} ====
+* [[Europäer]], [[Europäerin]], [[europäisch]]
+
+==== {{S|dérivés}} ====
+{{(}}
+* {{lien|Europaabgeordneter|de}} ou {{lien|Europaabgeordnete|de}}
+* {{lien|Europabrücke|de}}
+* {{lien|Europacup|de}}
+* {{lien|Europäer|de}} ou {{lien|Europäerin|de}}
+* {{lien|Europaflagge|de}}
+* {{lien|Europagedanke|de}}
+* {{lien|europäid|de}}
+* {{lien|europäisch|de}}
+* {{lien|europäisieren|de}}
+* {{lien|Europakarte|de}}
+* {{lien|Europameister|de}}
+* {{lien|europamüde|de}}
+* {{lien|Europaparlament|de}}
+* {{lien|Europapolitik|de}}
+* {{lien|Europapokal|de}}
+* {{lien|Europarat|de}}
+* {{lien|Europarecht|de}}
+* {{lien|Europareise|de}}
+* {{lien|Europarekord|de}}
+* {{lien|Europaschule|de}}
+* {{lien|Europaskeptiker|de}} ou {{lien|Europaskeptikerin|de}}
+* {{lien|Europastraße|de}}
+* {{lien|Europatournee|de}}
+* {{lien|Europatrip|de}}
+* {{lien|Europaunion|de}}
+* {{lien|europaweit|de}}
+* {{lien|europid|de}}
+* {{lien|Europium|de}}
+* {{lien|europoid|de}}
+* {{lien|Euroscheck|de}}
+* {{lien|eurosibirisch|de}}
+* {{lien|Kontinentaleuropa|de}}
+* {{lien|Meseuropa|de}}
+* {{lien|Mesoeuropa|de}}
+* {{lien|Mitteleuropa|de}}
+* {{lien|Mittelosteuropa|de}}
+* {{lien|Nordeuropa|de}}
+* {{lien|Nordosteuropa|de}}
+* {{lien|Nordwesteuropa|de}}
+* {{lien|Osteuropa|de}}
+* {{lien|Paleuropa|de}}
+* {{lien|Paneuropa|de}}
+* {{lien|Südeuropa|de}}
+* {{lien|Südosteuropa|de}}
+* {{lien|Südwesteuropa|de}}
+* {{lien|Westeuropa|de}}
+* {{lien|Zentraleuropa|de}}
+{{)}}
+
+=== {{S|nom propre|de|num=2}} ===
+{{de-nom-propre|genre=f}}
+[[Fichier:Europa-moon.jpg|vignette|Le satellite '''Europe'''.]]
+'''Europa''' {{pron|ɔɪ̯.ˈroː.pa|de}} {{f}}, {{au singulier uniquement|de}}.
+# {{personnalités|de|mythologiques}} [[Europe#fr|Europe]] (princesse phénicienne aimée de Zeus).
+#* {{exemple|lang=de}}
+# {{satellites|de}} [[Europe#fr|Europe]] (satellite de Jupiter).
+#* {{exemple | lang=de
+ | '''Europa''' ist der viertgrößte Satellit des Jupiter.
+ | Europe est le quatrième plus gros satellite de Jupiter.}}
+
+=== {{S|prononciation}} ===
+* {{écouter|Vienne|ɔɪ̯ˈʁoːpa|lang=de|audio=De-at-Europa.ogg}}
+* {{écouter|Berlin|ɔɪ̯ˈʁoːpa|lang=de|audio=De-Europa.ogg}}
+* {{écouter|{{DE|nocat=1}}|ɔɪ̯ˈʁoːpa|lang=de|audio=LL-Q188 (deu)-Natschoba-Europa.wav}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=fr|Europe}}
+* {{WP|lang=fr|Europe fille d'Agénor}}
+* {{WP|lang=fr|Europe (lune)}}
+
+=== {{S|références}} ===
+<references />
+* {{Source-wikt|de|Europa}}
+
+== {{langue|en}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|en|mot=Europa}}.
+
+=== {{S|nom propre|en}} ===
+'''Europa''' {{pron||en}}
+# {{personnalités|en|mythologiques}} [[Europe]] (princesse aimée de Zeus).
+# {{satellites|en}} [[Europe]] (satellite de Jupiter).
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=en|Royaume Uni<!-- précisez svp la ville ou la région -->||audio=En-Europa.ogg}}
+
+=== {{S|voir aussi}} ===
+* {{WP|Europa_(mythology)|Europa (mythologie, princesse aimée de Zeus)|en}}
+* {{WP|Europa_(moon)|Europa (satellite de Jupiter)|en}}
+* {{WP|Europa|Europa (tous les autres sens)|en}}
+
+== {{langue|an}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|an|mot=Europa}}.
+
+=== {{S|nom propre|an}} ===
+'''Europa''' {{pron||an}} {{f}}
+# {{continents|an}} [[Europe]] (continent).
+
+== {{langue|ast}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|ast|mot=Europa}}.
+
+=== {{S|nom propre|ast}} ===
+'''Europa''' {{pron||ast}}
+# {{continents|ast}} [[Europe]] (continent).
+
+== {{langue|ay}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|ay|mot=Europa}}.
+
+=== {{S|nom propre|ay}} ===
+'''Europa''' {{pron||ay}}
+# {{continents|ay}} [[Europe]] (continent).
+
+== {{langue|nds}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|nds|mot=Europa}}.
+
+=== {{S|nom propre|nds}} ===
+'''Europa''' {{pron||nds}}
+# {{continents|nds}} [[Europe]] (continent).
+
+== {{langue|eu}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|eu|mot=Europa}}.
+
+=== {{S|nom propre|eu}} ===
+'''Europa''' {{pron||eu}}
+# {{continents|eu}} [[Europe]] (continent).
+
+== {{langue|br}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|br|mot=Europa}}.
+
+=== {{S|nom propre|br}} ===
+'''Europa''' {{pron|ø.ˈrɔ.pːa|br}} {{f}}
+# {{continents|br}} [[Europe#Nom propre 1|Europe]].
+#* {{exemple | lang=br
+ | Bez’ ez eus bet diou relijion vras o deus bet da bal ha da vennad gwellaat an dud, lakaat an eeunded, al lealded, ar peocʼh hag ar gengarantez da ren etrezo, diou relijion a zo bet damantus d’ar re wan, d’ar re zizifenn, ar Gristeniez en '''Europa''' hag ar Vouddhaadegez en Azia.
+ | Il y a eu deux grandes religions qui ont eu pour but et pour résolution de rendre les gens meilleurs, de faire régner la droiture, la loyauté, la paix et l’amour mutuel parmi eux, deux religions qui ont été soucieuses des faibles, des sans défense, le christianisme en Europe et le Bouddhisme en Asie.
+ | source={{w|Meven Mordiern}}, ''Gant louez an Doueed'' in ''{{w|Gwalarn}}'', {{numéro|115-116}}, 1938, pages 83-84}}
+
+==== {{S|gentilés}} ====
+{{(}}
+* [[Europad]] ({{p}} : [[Europiz]])
+* [[Europadez]] ({{p}} : [[Europadezed]])
+* {{lien|europat|br}}
+* [[European]] ({{p}} : [[Europeaned]])
+* [[Europeanez]] ({{p}} : [[Europeanezed]])
+* {{lien|european|br}}
+{{)}}
+
+==== {{S|synonymes}} ====
+* [[an Europ]]
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=br|Europa (kevandir)|Europa}}
+
+=== {{S|références}} ===
+* {{R:Vallée|p=279b|entrée=Europad, (an) Europ}}
+* {{R:Hemon|p=266a}}
+* {{R:Ménard|p=1457b}}
+
+== {{langue|ca}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|ca|mot=Europa}}.
+
+=== {{S|nom propre|ca}} ===
+'''Europa''' {{pron||ca}} {{f}}
+# {{personnalités|ca|mythologiques}} [[Europe]] (princesse aimée de Zeus).
+# {{continents|ca}} [[Europe]] (continent).
+# {{satellites|ca}} [[Europe]] (satellite de Jupiter).
+
+=== {{S|prononciation}} ===
+* [[catalan oriental|Catalan oriental]] {{pron|əw.ˈɾo.pə|ca}}
+* [[catalan occidental|Catalan occidental]] {{pron|ew.ˈɾo.pa|ca}}
+* {{écouter|El Prat de Llobregat (Espagne)||lang=ca|audio=LL-Q7026 (cat)-Unjoanqualsevol-Europa.wav}}
+
+== {{langue|kw}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|kw|mot=Europa}}.
+
+=== {{S|nom propre|kw}} ===
+'''Europa''' {{pron||kw}}
+# {{continents|kw}} [[Europe]] (continent).
+
+== {{langue|co}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|co|mot=Europa}}.
+
+=== {{S|nom propre|co}} ===
+'''Europa''' {{pron||co}}
+# {{continents|co}} [[Europe]] (continent).
+
+== {{langue|hr}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|hr|mot=Europa}}.
+
+=== {{S|nom propre|hr}} ===
+'''Europa''' {{pron||hr}}
+# {{continents|hr}} [[Europe]] (continent).
+# {{satellites|hr}} [[Europe]] (satellite de Jupiter).
+
+== {{langue|da}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|it|mot=Europa}}.
+
+=== {{S|nom propre|da}} ===
+'''Europa''' {{pron||da}}
+# {{personnalités|da|mythologiques}} [[Europe]] (princesse aimée de Zeus).
+# {{continents|da}} [[Europe]] (continent).
+# {{satellites|da}} [[Europe]] (satellite de Jupiter).
+
+== {{langue|es}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|es|mot=Europa}}.
+
+=== {{S|nom propre|es}} ===
+'''Europa''' {{pron||es}} {{f}}
+# {{personnalités|es|mythologiques}} [[Europe]] (princesse aimée de Zeus).
+# {{continents|es}} [[Europe]] (continent).
+# {{satellites|es}} [[Europe]] (satellite de Jupiter).
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=es}}
+
+== {{langue|fi}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|fi|mot=Europa}}.
+
+=== {{S|nom propre|fi}} ===
+'''Europa''' {{pron||fi}}
+# {{personnalités|fi|mythologiques}} [[Europe]] (princesse aimée de Zeus).
+# {{satellites|fi}} [[Europe]] (satellite de Jupiter).
+
+==== {{S|apparentés}} ====
+* {{lien|Eurooppa|fi}}
+
+== {{langue|gl}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|gl|mot=Europa}}.
+
+=== {{S|nom propre|gl}} ===
+'''Europa''' {{pron||gl}}
+# {{continents|gl}} [[Europe]] (continent).
+# {{satellites|gl}} [[Europe]] (satellite de Jupiter).
+
+=== {{S|prononciation}} ===
+* {{écouter|||lang=gl|audio=Gl-Europa.ogg}}
+
+== {{langue|gn}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|gn|mot=Europa}}.
+
+=== {{S|nom propre|gn}} ===
+'''Europa''' {{pron||gn}}
+# {{continents|gn}} [[Europe]] (continent).
+
+== {{langue|ia}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|ia|mot=Europa}}.
+
+=== {{S|nom propre|ia}} ===
+'''Europa''' {{pron||ia}}
+# {{personnalités|ia|mythologiques}} [[Europe]] (princesse aimée de Zeus).
+# {{continents|ia}} [[Europe]] (continent).
+
+== {{langue|it}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|it|mot=Europa}}.
+
+=== {{S|nom propre|it}} ===
+'''Europa''' {{pron|ew.ˈrɔ.pa|it}} {{f}}
+# {{personnalités|is|mythologiques}} {{lien|Europe}} (princesse aimée de Zeus).
+# {{continents|it}} {{lien|Europe}} (continent).
+# {{satellites|it}} {{lien|Europe}} (satellite de Jupiter).
+
+==== {{S|dérivés}} ====
+{{(}}
+* {{lien|Consiglio d’Europa|it|sens=Conseil de l’Europe}}
+* {{lien|Europa centrale|it|sens=Europe centrale}}
+* {{lien|Europa meridionale|it|sens=Europe du Sud}}
+* {{lien|Europa occidentale|it|sens=Europe de l’Ouest}}
+* {{lien|Europa orientale|it|sens=Europe de l’Est}}
+* {{lien|Europa settentrionale|it|sens=Europe du Nord}}
+* {{lien|siluro d’Europa|it|sens=silure glane}}
+* {{lien|Stati Uniti d’Europa|it|sens=États-Unis d’Europe}}
+{{)}}
+
+=== {{S|prononciation}} ===
+* {{écouter|Italie||lang=it|audio=LL-Q652 (ita)-LangPao-Europa.wav}}
+* {{écouter|Monopoli (Italie)||lang=it|audio=LL-Q652 (ita)-XANA000-Europa.wav}}
+* {{écouter|Italie||lang=it|audio=LL-Q652 (ita)-Ciampix-Europa.wav}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=it|Europa (disambigua)}}
+* {{WQ|lang=it}}
+* {{VOY|lang=it}}
+* {{Vikidia|lang=it|Europa (disambigua)}}
+
+=== {{S|références}} ===
+* {{R:Olivetti}}
+* {{R:SDAS}}
+
+== {{langue|avk}} ==
+=== {{S|étymologie}} ===
+: Du {{étylp|la|avk|mot=Europa}}.
+
+=== {{S|nom propre|avk}} ===
+'''Europa''' {{pron|ɛuˈrɔpa|euˈropa|ɛuˈropa|euˈrɔpa|avk}}
+# {{continents|avk}} [[Europe]].
+#* {{exemple | lang=avk
+ | Dotaxe va milkaf nilt diskir, i va '''tel''' ke Franca is tel ke '''Europa'''.
+ | source=[https://youtu.be/eUCMr9ReyIo?list=PLwgDqDH7vmpTqraYZXZ3xtpwFl61-L0Vg&t=158 vidéo], Luce Vergneaux, ''Worara Va Saint-Ybars Wida'', 2021 |lang=avk |sens=La mairie porte des drapeaux semblables : celui de la France et celui de l’Europe.}}
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=avk|France|ɛu'ropa|audio=Europa.wav}}
+
+=== {{S|références}} ===
+* {{R:avk-continents-pays}}
+
+== {{langue|la}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|grc|la|Εὐρώπη|Eurốpê}}.
+
+=== {{S|nom propre|la}} ===
+{{la-tab-1f|Europ|sing=oui}}
+'''Europa''' {{pron||la}} {{f}}
+# {{personnalités|la|mythologiques}} [[Europe]] (princesse aimée de Zeus), Europe (fille de Tityus, mère d’Euphémus, [[Argonaute]]).
+# {{continents|la}} [[Europe]] (partie du monde).
+#* {{exemple | lang=la
+ | Terrarum orbis universus in tres dividitur partes, '''Europam''', Asiam, Africam.
+ | Le globe entier de la Terre est divisé en trois parties, l’Europe, l’Asie, et l’Afrique. {{source|{{ws|Histoire naturelle - Livre III|traduction}}}}
+ | source={{w|Pline}}, ''{{ws|lang=la|Naturalis Historia/Liber III|Naturalis Historia}}, III, 3}}
+# {{satellites|la}} [[Europe]] (satellite de Jupiter).
+
+==== {{S|dérivés}} ====
+* [[Europaeus]], [[Europensis]]
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=la}}
+
+=== {{S|références}} ===
+* {{R:Gaffiot}}
+
+== {{langue|li}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|li|mot=Europa}}.
+
+=== {{S|nom propre|li}} ===
+'''Europa''' {{pron||li}}
+# {{continents|li}} [[Europe]] (continent).
+
+== {{langue|lt}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|lt|mot=Europa}}.
+
+=== {{S|nom propre|lt}} ===
+'''Europa''' {{pron||lt}} {{f}}, {{au singulier uniquement|lt}}
+# {{continents|lt}} [[Europe]] (continent).
+# {{personnalités|lt|mythologiques}} [[Europe]] (princesse aimée de Zeus).
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=lt}}
+
+== {{langue|lb}} ==
+=== {{S|étymologie}} ===
+: Du {{étylp|la|lb|Europa}}.
+
+=== {{S|nom propre|lb}} ===
+{{lb-inv|ɔɪʀˈoːpaː|inv_titre=Nom propre}}
+'''Europa''' {{pron|ɔɪʀˈoːpaː|lb}} {{n}}
+# {{personnalités|lb|mythologiques}} [[Europe]] (princesse aimée de Zeus).
+#* {{exemple|lang=lb}}
+# {{continents|lb}} [[Europe]] (continent).
+#* {{exemple|lang=lb}}
+# {{familier|lb}} {{lexique|politique|lb}} {{en particulier}} [[Communauté économique européenne]], puis [[Union européenne]].
+#* {{exemple|lang=lb}}
+
+==== {{S|gentilés}} ====
+* {{lien|Europäer|lb|sens=Européen}}, {{lien|Europäerin|lb|sens=Européenne}}
+* {{lien|europäesch|lb|sens=européen, européenne}}
+
+=== {{S|prononciation}} ===
+* {{pron|ɔɪʀˈoːpaː|lb}}
+* {{écouter|lang=lb|Luxembourg|ɔɪʀˈoːpaː|audio=Lb-Europa.ogg}}
+
+=== {{S|références}} ===
+: {{R:LOD}}
+
+== {{langue|nl}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|nl|mot=Europa}}.
+
+=== {{S|nom propre|nl}} ===
+'''Europa''' {{pron||nl}}
+# {{personnalités|nl|mythologiques}} [[Europe]] (princesse aimée de Zeus).
+# {{continents|nl}} [[Europe]] (continent).
+# {{satellites|nl}} [[Europe]] (satellite de Jupiter).
+
+=== {{S|prononciation}} ===
+* {{écouter|||lang=nl|audio=Nl-Europa.ogg}}
+* {{écouter|lang=nl|Pays-Bas (partie continentale) (Wijchen)|audio=LL-Q7411 (nld)-Robin van der Vliet-Europa.wav}}
+
+== {{langue|no}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|no|mot=Europa}}.
+
+=== {{S|nom propre|no}} ===
+'''Europa''' {{pron||no}}
+# {{continents|no}} [[Europe]] (continent).
+# {{satellites|no}} [[Europe]] (satellite de Jupiter).
+
+== {{langue|nn}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|no|nn|mot=Europa}}.
+
+=== {{S|nom propre|nn}} ===
+'''Europa''' {{pron||nn}}
+# {{continents|nn}} [[Europe]] (continent).
+# {{satellites|nn}} [[Europe]] (satellite de Jupiter).
+
+== {{langue|pl}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|pl|mot=Europa}}.
+
+=== {{S|nom propre|pl}} ===
+{{pl-décl-nom-f|Euro|p}}
+'''Europa''' {{pron|ɛwˈrɔpa|pl}} {{f}}
+# {{personnalités|pl|mythologiques}} {{lien|Europe|fr}}, princesse aimée de Zeus.
+#* {{exemple|Zeus pod postacią byka uprowadził '''Europę''' na Kretę.|lang=pl}}
+# {{continents|pl}} Europe, continent européen.
+#* {{exemple|Nie wszystkie państwa w '''Europie''' należą do Unii Europejskiej.|lang=pl}}
+# {{satellites|pl}} Europe, satellite de Jupiter.
+#* {{exemple|'''Europa''' porusza się w obszarze między orbitami Marsa i Jowisza, czyli w pasie głównym planetoid.|lang=pl}}
+
+==== {{S|gentilés}} ====
+* {{lien|Europejczyk|pl}}, {{lien|Europejka|pl|sens=Européen(ne)}}, {{lien|europejski|pl|sens=européen}}
+
+==== {{S|dérivés}} ====
+* {{lien|europeista|pl}}
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=pl|Pologne|ɛwˈrɔpa|audio=Pl-Europa.ogg}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=pl}}
+
+=== {{S|références}} ===
+* {{Source-wikt|pl|Europa}}
+{{Références}}
+
+== {{langue|pt}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|pt|mot=Europa}}.
+
+=== {{S|nom propre|pt}} ===
+{{pt-accord-mf|s=Europa|p=Europas}}
+'''Europa''' {{pron|ew.ɾˈɔ.pɐ|pt}} (Lisbonne) {{pron|ew.ɾˈɔ.pə|pt}} (São Paulo) {{f}}
+# {{personnalités|pt|mythologiques}} [[Europe]] (princesse aimée de Zeus).
+# {{continents|pt}} [[Europe]] (continent).
+#* {{exemple|O mais recente calendário para as obras ferroviárias indica novos atrasos em investimentos classificados como prioritários para "projetar Portugal na '''Europa'''".|lang=pt|sens=Le dernier calendrier des travaux ferroviaires indique de nouveaux retards dans les investissements considérés comme prioritaires pour "projeter le Portugal en Europe".|source={{périodique|auteur=(Dinheiro Vivo)|titre=Cascais vai esperar quase 10 anos para se ligar à Gare do Oriente|journal=Diário de Notícias|date=9 décembre 2023|texte=https://www.dn.pt/dinheiro/cascais-vai-esperar-quase-10-anos-para-se-ligar-a-gare-do-oriente-17473417.html}}}}
+#* {{exemple|A '''Europa''' e a África, portanto, influenciavam decisivamente a vida do carioca, de um modo geral, e, em particular, o seu carnaval. Portugal, por exemplo, contribuiu com o entrudo, uma das formas mais duradouras e mais combatidas de cair na folia.|lang=pt|sens=L'Europe et l'Afrique exerçaient donc une influence décisive sur la vie des Cariocas en général, et sur leur carnaval en particulier. Le Portugal, par exemple, a apporté l'« entrudo », l'une des formes les plus durables et les plus controversées de célébration festive.|source={{ouvrage|auteur=Sérgio Cabral|titre=As escolas de samba do Rio de Janeiro|année=2011|éditeur=Lazuli Editora|lieu=São Paulo|url=}}}}
+# {{satellites|pt}} [[Europe]] (satellite de Jupiter).
+# L’[[Union européenne]].
+#* {{exemple|"A '''Europa''' se posicionou como pioneira, compreendendo a importância de seu papel como formadora de padrões. Acredito que este seja um dia histórico", afirmou o comissário europeu para o mercado interno, Thierry Breton.|lang=pt|sens="L'Europe s’est positionnée en tant que pionnière et a pris conscience de l'importance de son rôle de normalisateur. Je crois que c'est un jour historique", a déclaré le commissaire européen chargé du marché intérieur, Thierry Breton.|source={{périodique|auteur=(Deutsche Welle)|titre=UE sela acordo "histórico" para regular inteligência artificial|journal=IstoÉ|date=9 décembre 2023|texte=https://istoe.com.br/ue-sela-acordo-historico-para-regular-inteligencia-artificial/}}}}
+#* {{exemple|A Espanha duplicou sua capacidade renovável desde 2019, isolando sua economia da alta de 55% nos preços do gás causada pela guerra com o Irã. O país registra hoje uma das tarifas elétricas mais baixas da '''Europa'''.|lang=pt|sens=L'Espagne a doublé sa capacité en énergies renouvelables depuis 2019, protégeant ainsi son économie de la hausse de 55 % des prix du gaz provoquée par la guerre avec l'Iran. Le pays affiche aujourd'hui l'un des tarifs d'électricité les plus bas d'Europe.|source={{périodique|auteur=JR Vital|titre=Espanha derruba preços de energia com avanço renovável|journal=Diário Carioca|date=14 mars 2026|texte=https://diariocarioca.com/2026/03/14/mundo/espanha-derruba-precos-de-energia-com-avanco-renovavel/}}}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=pt}}
+
+== {{langue|ro}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|ro|mot=Europa}}.
+
+=== {{S|nom propre|ro}} ===
+'''Europa''' {{pron|e.uˈro.pa|ro}}
+# {{personnalités|ro|mythologiques}} [[Europe]] (princesse aimée de Zeus).
+# {{continents|ro}} [[Europe]] (continent).
+# {{satellites|ro}} [[Europe]] (satellite de Jupiter).
+==== {{S|vocabulaire}} ====
+* {{voir thésaurus|ro|astronomie}}
+
+== {{langue|sc}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|sc|mot=Europa}}.
+
+=== {{S|nom propre|sc}} ===
+'''Europa''' {{pron||sc}}
+# {{continents|sc}} [[Europe]] (continent).
+
+== {{langue|scn}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|scn|Europa}}.
+
+=== {{S|nom propre|scn}} ===
+'''Europa''' {{pron|euˈɾɔpa|scn}}
+# {{continents|scn}} [[Europe]] (continent).
+
+=== {{S|prononciation}} ===
+* {{écouter|Gela (Italie)||lang=scn|audio=LL-Q33973 (scn)-XANA000-Europa.wav}}
+
+== {{langue|sv}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|sv|Europa}}.
+
+=== {{S|nom propre|sv}} ===
+'''Europa''' {{pron||sv}}
+# {{personnalités|sv|mythologiques}} [[Europe]] (princesse aimée de Zeus).
+# {{continents|sv}} [[Europe]] (continent).
+# {{satellites|sv}} [[Europe]] (satellite de Jupiter).

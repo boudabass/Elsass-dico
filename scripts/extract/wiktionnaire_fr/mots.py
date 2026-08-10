@@ -33,17 +33,39 @@ de désignation sont constatés sur le rendu de la définition (liens résolus) 
   - « commune française »            → commune (ex. « Epfig, commune
                                        française, située dans le département
                                        du Bas-Rhin. ») ;
-  - « ville de/d'/française/allemande/italienne/suisse »
+  - « ville de/d'/du/française/allemande/italienne/suisse »
                                      → ville (ex. « Strasbourg (ville de
                                        France). », « Hambourg, ville
-                                       d'Allemagne. ») ;
-  - « capitale de »                  → ville (ex. « Vienne (capitale de
-                                       l'Autriche). », « Le Caire (capitale
-                                       de l'Égypte). »).
+                                       d'Allemagne. », « Aarau, ville du
+                                       canton d'Argovie ») ;
+  - « capitale de/du »               → ville (ex. « Vienne (capitale de
+                                       l'Autriche). », « Luxembourg
+                                       (capitale du Grand-Duché du
+                                       Luxembourg). »).
+
+ROBUSTESSE généralisation (carte t_a804e6a2, 10/08/2026) : la détection est
+INSENSIBLE À LA CASSE (le rendu peut commencer la phrase par « Commune
+française… », « Ville du… » — ex. Wìnkel, Aarau) et accepte l'élision « du »
+de « de+le » (ex. « capitale du Grand-Duché »). Ce sont les DEUX patrons
+connus, pas un patron nouveau : un patron nouveau (chef-lieu, municipalité,
+commune suisse…) serait SIGNALÉ dans le rapport de carte, jamais ajouté ici.
 
 Toute autre définition reste « mot » (mots communs, éléments chimiques,
 régions — « Elsass (région française) » est une région, pas une commune ni
 une ville : type mot, inchangé).
+
+LEMME AVEC APOSTROPHE (carte t_a804e6a2, 10/08/2026) : le lemme peut porter
+une apostrophe droite ASCII (ex. « D'Wàlick », « D'Wànzenöi » — communes de
+La Walck et La Wantzenau). RE_LEMME accepte l'apostrophe à l'intérieur du
+gras, sans la confondre avec le « ''' » fermant (ni avec l'italique-gras
+« '''''…''''' » des étymologies).
+
+ÉTYMOLOGIE ≠ SENS (carte t_a804e6a2, 10/08/2026) : la sous-section
+« === {{S|étymologie}} === » décrit l'origine du mot, pas ses sens. Les
+lignes « # » qui s'y trouvent (page Wìnkel — celle que le pilote avait
+écartée « à traiter au GATE ») ne sont pas des définitions : elles sont
+omises (règle 3), pas extraites comme des sens. Constaté sur le brut,
+jamais déduit.
 
 FRANCAIS — NOM NU POUR LES TOPONYMES (défaut 2 bloquant)
 ---------------------------------------------------------
@@ -121,13 +143,14 @@ CONTEXTES = {
 # « ville d'Italie »).
 RE_TOPONYME = re.compile(
     r"commune française|"
-    r"ville (?:de|d['’]|française|allemande|italienne|suisse)|"
-    r"capitale de"
-)
+    r"ville (?:de|d['’]|du|française|allemande|italienne|suisse)|"
+    r"capitale (?:de|du)",
+    re.IGNORECASE)
 
 RE_TITRE_GSW = re.compile(r"^== \{\{langue\|gsw\}\} ==\n", re.M)
 RE_TITRE_NIVEAU2 = re.compile(r"\n== ")
-RE_LEMME = re.compile(r"'''([^']+)'''")
+RE_SOUS_SECTION = re.compile(r"^===\s*\{\{S\|([^}]+)\}\}\s*===$")
+RE_LEMME = re.compile(r"'''([^'](?:[^']|'(?!''))*)'''")
 RE_TEMPLATE_TETE = re.compile(r"^\{\{\s*([^{}|]+?)\s*(?:\|([^{}]*?))?\}\}")
 RE_LIEN = re.compile(r"\[\[([^\]|]+)(?:\|([^\]]*))?\]\]")
 RE_LIEN_TETE = re.compile(r"^\[\[([^\]|]+)(?:\|([^\]]*))?\]\]")
@@ -250,6 +273,25 @@ def traiter_definition(ligne: str) -> tuple[str | None, list[str], str | None, s
     return rendu, contextes, region, type_att, None
 
 
+def zones_etymologie(section: str) -> set[int]:
+    """Indices des lignes situées sous « === {{S|étymologie}} === ».
+
+    La sous-section étymologie décrit l'origine du mot, pas ses sens :
+    ses lignes « # » (rares — page Wìnkel, généralisation t_a804e6a2) ne
+    sont pas des définitions. Constaté sur le brut, jamais déduit.
+    """
+    indices: set[int] = set()
+    dans_etymo = False
+    for i, ligne in enumerate(section.split("\n")):
+        m = RE_SOUS_SECTION.match(ligne)
+        if m:
+            dans_etymo = "étymologie" in m.group(1).lower()
+            continue
+        if dans_etymo:
+            indices.add(i)
+    return indices
+
+
 def extraire() -> tuple[list[dict], list[dict]]:
     """Retourne (attestations, anomalies)."""
     attestations: list[dict] = []
@@ -275,7 +317,11 @@ def extraire() -> tuple[list[dict], list[dict]]:
                 })
                 continue
 
-            for ligne in section.split("\n"):
+            etymologie = zones_etymologie(section)
+            for i, ligne in enumerate(section.split("\n")):
+                if i in etymologie:
+                    # étymologie ≠ sens : jamais une définition
+                    continue
                 if not ligne.startswith("# "):
                     continue
                 francais, contextes, region, type_att, code_doute = \

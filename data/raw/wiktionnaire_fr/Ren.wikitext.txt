@@ -1,0 +1,91 @@
+{{voir/ren}}
+
+== {{langue|fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|fr}}
+
+=== {{S|nom de famille|fr}} ===
+'''Ren''' {{pron||fr}} {{mf}}
+# Nom de famille.
+#* {{exemple | lang=fr
+ | Kylo '''Ren''' est un adolescent en pleine rébellion qui cherche à être un badasse "trop dark" alors que c’est un boutonneux pathétique.
+ | source=site www.senscritique.com (ici un personnage de fiction)}}
+
+=== {{S|anagrammes}} ===
+{{voir anagrammes|fr}}
+
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|de|gsw|mot=Ren}}.
+
+=== {{S|nom|gsw}} ===
+'''Ren''' {{pron||gsw}}
+# {{lien|renne|dif=Renne}}.
+
+=== {{S|références}} ===
+* {{WP|Hirsche|lang=gsw}}
+
+[[Catégorie:Mammifères en alémanique]]
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|sv|de|mot=ren}}.
+
+=== {{S|nom|de}} ===
+{{de-nom|genre=n|ns=Ren |np=Rene |np2=Rens |pns=ʀeːn |pnp=ˈʀeːnə |pnp2=ʀeːns|as=Ren |ap=Rene |ap2=Rens|gs=Rens |gs2=Renes |gp=Rene |gp2=Rens|ds=Ren |ds2=Rene |dp=Renen |dp2=Rens}}
+'''Ren''' {{phon|ʀeːn|de}} {{n}}
+# {{mammifères|de}} [[renne#fr|Renne]].
+
+==== {{S|synonymes}} ====
+* [[Rentier]]
+
+==== {{S|dérivés}} ====
+* [[Renbulle]]
+* [[Renkalb]]
+* [[Renkuh]]
+
+=== {{S|références}} ===
+* {{Source-wikt|de|Ren|3207147}}
+
+== {{langue|oc}} ==
+=== {{S|étymologie}} ===
+: Lointainement apparenté à {{lien|''rzeka''|oc|sens=rivière}}, de l’{{étyl|de|oc|mot=Rhein}}, la graphie ancienne faisait ''Ryn'', de là la variante {{lien|''ryński''|oc}} de {{lien|''reński''|oc|sens=rhénan}}.
+
+=== {{S|nom propre|oc}} ===
+'''Ren''' {{pron|ren|oc}} {{m|i}}
+# {{cours d’eau|oc|d’Europe}} {{lien|Rhin|fr}}
+
+=== {{S|références}} ===
+* {{R:Ubaud}}
+[[Catégorie:Cours d’eau de Suisse en occitan]]
+[[Catégorie:Cours d’eau de France en occitan]]
+[[Catégorie:Cours d’eau d’Allemagne en occitan]]
+[[Catégorie:Cervidés en allemand]]
+[[Catégorie:Cervidés en alémanique]]
+
+== {{langue|pl}} ==
+=== {{S|étymologie}} ===
+: Lointainement apparenté à {{lien|''rzeka''|pl|sens=rivière}}, de l’{{étyl|de|pl|mot=Rhein}}, la graphie ancienne faisait ''Ryn'', de là la variante {{lien|''ryński''|pl}} de {{lien|''reński''|pl|sens=rhénan}}{{R|SEJP|Ren}}.
+
+=== {{S|nom propre|pl}} ===
+'''Ren''' {{pron|rɛ̃n|pl}} {{m|i}}
+# {{cours d’eau|pl|d’Europe}} {{lien|Rhin|fr}}.
+#* {{exemple|lang=pl}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=pl}}
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=pl|Pologne|rɛ̃n|audio=Pl-Ren.ogg}}
+
+=== {{S|références}} ===
+* {{Source-wikt|pl|Ren}}
+{{Références}}
+
+== {{langue|sl}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|de|sl|mot=Rhein}}.
+
+=== {{S|nom propre|sl}} ===
+'''Ren''' {{pron||sl}}
+# {{cours d’eau|sl|d’Europe}} {{lien|Rhin|fr}}.

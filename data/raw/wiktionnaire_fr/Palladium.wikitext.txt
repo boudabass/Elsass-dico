@@ -1,0 +1,115 @@
+{{voir/palladium}}
+
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw}}
+
+=== {{S|nom|gsw}} ===
+'''Palladium''' {{pron||gsw}} {{genre|gsw}}
+# {{éléments|gsw}} {{métaux|gsw}} [[palladium#fr|Palladium]].
+{{clr}}
+==== {{S|vocabulaire}} ====
+{{tableau périodique/gsw}}
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|de|Palladium}} {{cf|palladium}}.
+
+=== {{S|nom|de}} ===
+{{de-nom-n-um-en}}
+'''Palladium''' {{pron|paˈlaːdi̯ʊm|de}} {{n}}
+{{légende élément/de|Pd}}
+[[Image:Palladium.jpg|thumb|'''Palladium'''.]]
+# {{éléments|de}} {{métaux|de}} {{au singulier|de}} [[palladium#fr|Palladium]] (l’{{lien|élément chimique}} [[Pd#conv|Pd]]).
+#* {{exemple | lang=de
+| Feinverteilt ist '''Palladium''' ein exzellenter Katalysator.
+| Le palladium finement distribué est un excellent catalyseur.}}
+# {{didactique|de}} [[objet|Objet]] [[sacré]] et[[précieux]], [[joyau]], [[symbole]] [[emblématique]] auquel on attribue souvent des vertus protectrices, [[palladium]].
+
+==== {{S|quasi-synonymes}} ====
+{{(|Objet précieux|2}}
+* {{lien|Hort|de}}
+* {{lien|Kleinod|de}}
+* {{lien|Schutzbild|de}}
+* {{lien|Schutzschild|de}} ''(figuré)''
+{{)}}
+
+==== {{S|dérivés}} ====
+{{(|&nbsp;}}
+* {{lien|Palladium(II)-chlorid|de}}
+* {{lien|Palladium(II)-nitrat|de}}
+* {{lien|Palladium(II)-oxid|de}}
+* {{lien|Palladium(II)-sulfid|de}}
+* {{lien|Palladoarsenid|de}}
+* {{lien|Palladobismutoarsenid|de}}
+* {{lien|Plumbopalladinit|de}}
+* {{lien|Stannopalladinit|de}}
+* {{lien|Stibiopalladinit|de}}
+{{)}}
+{{clr}}
+==== {{S|vocabulaire}} ====
+* {{voir thésaurus|de|tableau périodique des éléments}}
+{{tableau périodique/de}}
+{{Liste|avant={{lien|Rhodium|de}}<br>([[Rh#conv|Rh]])|après={{lien|Silber|de}}<br>([[Ag#conv|Ag]])|liste=[[Thésaurus:tableau périodique des éléments/allemand|Éléments chimiques en allemand]]}}
+
+=== {{S|prononciation}} ===
+* {{pron|paˈlaːdi̯ʊm|de}}
+* {{écouter|lang=de|{{AT|nocat=1}}|audio=De-at-Palladium.ogg}}
+* {{écouter|lang=de|Allemagne (Berlin)|audio=LL-Q188 (deu)-Lucas Werkmeister-Palladium.wav}}
+* {{écouter|lang=de|Allemagne (Berlin)|audio=LL-Q188 (deu)-Sebastian Wallroth-Palladium.wav}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=de}}
+
+=== {{S|références}} ===
+* {{R:DWDS|Palladium}}
+* {{R:Duden|Palladium_Edelmetall|Palladium}}
+* {{R:Duden|Palladium_Kultbild|Palladium}}
+* {{Source-wikt|de|Palladium}}
+
+== {{langue|la}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|grc|la|mot=Παλλάδιον|tr=Palládion}}.
+: Le nom scientifique moderne du métal est donné en 1803, par {{w|William Hyde Wollaston}} en référence à l’astéroïde Pallas découvert un an plus tôt.
+
+=== {{S|nom|la}} ===
+{{la-tab-2n|Palladi|sing=oui}}
+'''Palladium''' {{pron||la}} {{n}}
+# [[statue|Statue]] de [[Pallas]].
+#* {{exemple|lang=la}}
+# {{term|latin scientifique}} {{éléments|la}} {{métaux|la}} [[palladium#fr|Palladium]].
+
+==== {{S|apparentés}} ====
+* {{lien|Palladius|la}}
+* {{lien|Palladianus|la}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=la}}
+
+=== {{S|références}} ===
+* {{R:Gaffiot}}
+
+== {{langue|lb}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|lb}}
+
+=== {{S|nom|lb}} ===
+{{lb-inv|pˈɑlaːdi̯um}}
+'''Palladium''' {{pron|pˈɑlaːdi̯um|lb}} {{m}}, {{au singulier uniquement|lb}}
+# {{éléments|lb}} {{métaux|lb}} [[palladium#fr|Palladium]].
+#* {{exemple|lang=lb}}
+{{clr}}
+==== {{S|vocabulaire}} ====
+{{tableau périodique/lb}}
+
+=== {{S|prononciation}} ===
+* {{écouter|Angers (France)||niveau=bon|lang=lb|audio=LL-Q9051 (ltz)-Procrastineur49-Palladium.wav}}
+
+=== {{S|références}} ===
+: {{R:LOD}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=lb}}
+
+[[Catégorie:Lexique en latin de la religion]]
+[[Catégorie:Lexique en latin de l’art]]

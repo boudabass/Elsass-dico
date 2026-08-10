@@ -1,0 +1,611 @@
+{{voir|myanmar}}
+== {{langue|fr}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|my|fr|မြန်မာ|Myanmâ}}. La junte qui dirige le pays, afin de marquer le changement, a réussi à imposer le nom ''Myanmar'' dans les langues étrangères (c’est le nom employé par l’[[ONU]]). Le nom du pays en birman n’a pas été changé.
+
+=== {{S|nom propre|fr}} ===
+[[Image:Myanmar in its region.svg|thumb|Localisation du '''Myanmar''' (rouge).]]
+'''Myanmar''' {{pron|mjan.maʁ|fr}} {{m}} {{s}}
+# {{pays|fr|d’Asie}} Pays d’[[Asie du Sud-Est]] ayant une frontière commune avec l’[[Inde]], le [[Bangladesh]], le [[Laos]], la [[Chine]] et la [[Thaïlande]].
+#* {{exemple | lang=fr
+ | La dirigeante du '''Myanmar''', Aung San Suu Kyi, dont l’arrestation a été annoncée lundi par les militaires, a exhorté la population à « ne pas accepter » le coup d’État.
+ | source=Radio-Canada, ''Aung San Suu Kyi appelle à ne pas accepter le coup d’État au Myanmar'', radio-canada.ca, {{1er|février}} 2021}}
+#*{{exemple|lang=fr|Mais ces chiffres visiblement à la baisse sont trompeurs : seuls trois pays, la Chine, l’Inde, le '''Myanmar''' (ex-Birmanie) ont enregistré une diminution du taux de détection.|source=Jean Vitaux, « Chapitre V. La lèpre dans le monde aujourd’hui ». Histoire de la lèpre, Presses Universitaires de France, 2020.  pages 77-81. CAIRN.INFO, shs.cairn.info/histoire-de-la-lepre--9782715401815-page-77?lang=fr.}}
+==== {{S|synonymes}} ====
+* [[Birmanie]] ''(dénomination officielle en France ; l’opposition démocratique préfère également l’emploi de ce nom)''
+* [[Union de Birmanie]]
+* [[Union du Myanmar]]
+
+==== {{S|traductions}} ====
+{{trad-début}}
+* {{T|af}} : {{trad+|af|Mianmar}}
+* {{T|sq}} : {{trad-|sq|Birmania}}
+* {{T|gsw}} : {{trad|gsw|Myanmar}}
+* {{T|de}} : {{trad+|de|Myanmar}}
+* {{T|en}} : {{trad+|en|Burma}}, {{trad+|en|Myanmar}}
+* {{T|ar}} : {{trad-|ar|بورما|R=burmā}}, {{trad-|ar|ميانمار|R=myanmār}}
+* {{T|an}} : {{trad-|an|Myanmar}}
+* {{T|hy}} : {{trad-|hy|Մյանմար|tr=Myanmar}}
+* {{T|ast}} : {{trad+|ast|Myanmar}}
+* {{T|az}} : {{trad+|az|Myanma}}
+* {{T|map-bms}} : {{trad|map-bms|Myanmar}}
+* {{T|nds}} : {{trad-|nds|Myanmar}}
+* {{T|eu}} : {{trad-|eu|Myanmar}}, {{trad-|eu|Birmania}}
+* {{T|bn}} : {{trad+|bn|মায়ানমার}}
+* {{T|be}} : {{trad-|be|М’янма|tr=Mjanma}}
+* {{T|be-tarask}} : {{trad|be-tarask|М’янма|R=Mjanma}}
+* {{T|my}} : {{trad+|my|မြန်မာ|tr=Myanmâ}}, {{trad-|my|မြန်မာပြည်}}, {{trad-|my|ပြည်ထောင်စုမြန်မာနိုင်ငံတော်}}
+* {{T|bs}} : {{trad-|bs|Mijanmar}}
+* {{T|br}} : {{trad-|br|Myanmar}}
+* {{T|bg}} : {{trad-|bg|Мианмар|tr=Mianmar}}
+* {{T|yue}} : {{trad-|yue|緬甸}}
+* {{T|ca}} : {{trad+|ca|Myanmar}}, {{trad+|ca|Birmània}}
+* {{T|ceb}} : {{trad|ceb|Myanmar}}
+* {{T|zh}} : {{trad+|zh|缅甸|R=Miǎndiàn|tradi=緬甸}}
+* {{T|ko}} : {{trad+|ko|미얀마|tr=Miyanma}}
+* {{T|kw}} : {{trad-|kw|Byrmani}}
+* {{T|ht}} : {{trad|ht|Bimani}}
+* {{T|hr}} : {{trad+|hr|Mjanma}}, {{trad+|hr|Mianmar}}
+* {{T|da}} : {{trad-|da|Myanmar}}
+* {{T|diq}} : {{trad-|diq|Myanmar}}
+* {{T|dv}} : {{trad-|dv|ބަރުމާ}}
+* {{T|dz}} : {{trad-|dz|མེ་མར་}}
+* {{T|es}} : {{trad+|es|Birmania}}, {{trad+|es|Myanmar}}
+* {{T|eo}} : {{trad+|eo|Birmo}}, {{trad-|eo|Mjanmao}}
+* {{T|et}} : {{trad+|et|Birma}}, {{trad+|et|Myanmar}}
+* {{T|fo}} : {{trad-|fo|Burma}}
+* {{T|fi}} : {{trad+|fi|Myanmar}}
+* {{T|ksh}} : {{trad|ksh|Müjanmaar}}
+* {{T|frp}} : {{trad|frp|Birmanie}}
+* {{T|fy}} : {{trad-|fy|Birma}}
+* {{T|gd}} : {{trad-|gd|Mianmar}}
+* {{T|ga}} : {{trad-|ga|Maenmar}}
+* {{T|gl}} : {{trad+|gl|Myanmar}}
+* {{T|cy}} : {{trad-|cy|Myanmar}}
+* {{T|gan}} : {{trad|gan|緬甸}}
+* {{T|ka}} : {{trad+|ka|მიანმარი|tr=mianmari}}
+* {{T|el}} : {{trad-|el|Μυανμάρ|R=Mianmár}}, {{trad+|el|Μιανμάρ|R=Mianmár}}
+* {{T|hak}} : {{trad|hak|Mién-thien}}
+* {{T|hsb}} : {{trad-|hsb|Burma}}
+* {{T|haw}} : {{trad|haw|Puruma}}
+* {{T|he}} : {{trad-|he|מיאנמר}}
+* {{T|hi}} : {{trad+|hi|म्यान्मार}}
+* {{T|hif}} : {{trad-|hif|Myanmar}}
+* {{T|mww}} : {{trad|mww|Pha mab}}
+* {{T|hu}} : {{trad+|hu|Mianmar}}
+* {{T|sah}} : {{trad|sah|Мьянмар}}
+* {{T|io}} : {{trad+|io|Myanmar}}
+* {{T|ilo}} : {{trad|ilo|Myanmar}}
+* {{T|id}} : {{trad+|id|Myanmar}}
+* {{T|ia}} : {{trad-|ia|Myanmar}}
+* {{T|ie}} : {{trad-|ie|Myanmar}}
+* {{T|is}} : {{trad+|is|Mjanmar}}
+* {{T|it}} : {{trad+|it|Birmania}}, {{trad+|it|Myanmar}}
+* {{T|ja}} : {{trad+|ja|ミャンマー|tr=Myanmā}}
+* {{T|jv}} : {{trad-|jv|Myanmar}}
+* {{T|csb}} : {{trad-|csb|Myanmar}}
+* {{T|pam}} : {{trad|pam|Myanmar}}
+* {{T|ks}} : {{trad-|ks|بَرما}}, {{trad-|ks|مَیانمار}}, {{trad-|ks|बर्मा}}, {{trad-|ks|मयान्मार}}
+* {{T|kk}} : {{trad-|kk|Мианма|R=Mianma}}
+* {{T|km}} : {{trad+|km|មីយ៉ាន់ម៉ា}}
+* {{T|ky}} : {{trad+|ky|Мьянма|tr=}}
+* {{T|kv}} : {{trad|kv|Мьянма}}
+* {{T|avk}} : {{trad|avk|Myanma}}
+* {{T|ku}} : {{trad+|ku|Myanmar}}
+* {{T|la}} : {{trad-|la|Birmania}}
+* {{T|lv}} : {{trad+|lv|Mjanma}}
+* {{T|lij}} : {{trad|lij|Myanmar}}
+* {{T|li}} : {{trad+|li|Burma}}, {{trad-|li|Börma}}
+* {{T|lt}} : {{trad+|lt|Mianmaras}}
+* {{T|lmo}} : {{trad-|lmo|Myanmar}}
+* {{T|lb}} : {{trad-|lb|Myanmar}}
+* {{T|mk}} : {{trad-|mk|Мјанмар|tr=Mjanmar}}, {{trad-|mk|Мијанмар|tr=Mijanmar}}
+* {{T|ms}} : {{trad+|ms|Myanmar}}
+* {{T|ml}} : {{trad-|ml|മ്യാന്‍‌മാര്‍}}
+* {{T|bpy}} : {{trad|bpy|মায়ানমার}}
+* {{T|gv}} : {{trad-|gv|Myanmar}}
+* {{T|mr}} : {{trad-|mr|म्यानमार}}
+* {{T|nan}} : {{trad-|nan|Myanma}}, {{trad-|nan|Biān-tián}}
+* {{T|mn}} : {{trad+|mn|Мьянмар|R=Miyanmar}}
+* {{T|nch}} : {{trad|nch|Myanmar}}
+* {{T|nl}} : {{trad+|nl|Myanmar}}
+* {{T|ne}} : {{trad-|ne|म्यानमार}}
+* {{T|no}} : {{trad+|no|Myanmar}}
+* {{T|nn}} : {{trad+|no|Myanmar}}
+* {{T|nov}} : {{trad|nov|Myanmar}}
+* {{T|oc}} : {{trad-|oc|Birmania}}
+* {{T|os}} : {{trad|os|Мьянмæ}}
+* {{T|udm}} : {{trad|udm|Мьянма}}
+* {{T|ug}} : {{trad-|ug|بىرما}}
+* {{T|ur}} : {{trad-|ur|میانمار}}
+* {{T|uz}} : {{trad+|uz|Birma}}
+* {{T|ps}} : {{trad-|ps|ماينامار}}
+* {{T|fa}} : {{trad-|fa|میانمار}}
+* {{T|pms}} : {{trad|pms|Myanmar}}
+* {{T|pl}} : {{trad+|pl|Mjanma}}
+* {{T|pt}} : {{trad+|pt|Myanmar}}
+* {{T|qu}} : {{trad-|qu|Myanmar}}
+* {{T|ro}} : {{trad+|ro|Birmania}}, {{trad+|ro|Myanmar}}
+* {{T|ru}} : {{trad+|ru|Мьянма|tr=M’ânma}}
+* {{T|se}} : {{trad|se|Burma}}
+* {{T|sgs}} : {{trad|sgs|Mianmars}}
+* {{T|sa}} : {{trad-|sa|म्यन्मार}}
+* {{T|sr}} : {{trad-|sr|Мјанмар|R=Mjanmar}}, {{trad-|sr|Мијанмар|R=Mijanmar}}
+* {{T|sh}} : {{trad-|sh|Mianmar}}
+* {{T|scn}} : {{trad-|scn|Myanmar}}, {{trad-|scn|Burma}}
+* {{T|szl}} : {{trad|szl|Birma}}
+* {{T|sk}} : {{trad-|sk|Mjanmarsko}}
+* {{T|sl}} : {{trad+|sl|Mjanmar}}
+* {{T|su}} : {{trad-|su|Myanmar}}
+* {{T|sv}} : {{trad+|sv|Myanmar}}, {{trad+|sv|Burma}}
+* {{T|sw}} : {{trad-|sw|Myanmar}}
+* {{T|tg}} : {{trad-|tg|Мянма|R=Mjanma}}
+* {{T|tl}} : {{trad-|tl|Myanmar}}
+* {{T|ta}} : {{trad+|ta|மியான்மார்}}
+* {{T|crh}} : {{trad|crh|Myanmar}}
+* {{T|cs}} : {{trad+|cs|Myanmar}}
+* {{T|cv}} : {{trad|cv|Мьянма}}
+* {{T|te}} : {{trad+|te|మయన్మార్}}
+* {{T|tet}} : {{trad|tet|Birmánia}}
+* {{T|th}} : {{trad+|th|ประเทศพม่า}}
+* {{T|bo}} : {{trad-|bo|འབར་མ}}
+* {{T|tr}} : {{trad+|tr|Myanmar}}
+* {{T|tk}} : {{trad-|tk|Mýanma}}
+* {{T|uk}} : {{trad+|uk|М’янма|R=Mjianma}}
+* {{T|vec}} : {{trad-|vec|Birmania}}
+* {{T|vi}} : {{trad-|vi|Myanma}}
+* {{T|vo}} : {{trad-|vo|Mianmarän}}
+* {{T|war}} : {{trad|war|Myanmar}}
+* {{T|wo}} : {{trad-|wo|Miyanmaar}}
+* {{T|wuu}} : {{trad|wuu|缅甸}}
+* {{T|zea}} : {{trad|zea|Myanmar}}
+{{trad-fin}}
+
+{{cf|lang=fr|Birmanie}}
+
+=== {{S|prononciation}} ===
+* {{écouter||mjan.maʁ|lang=fr|audio=LL-Q150 (fra)-Jules78120-Myanmar.wav}}
+
+=== {{S|voir aussi}} ===
+* {{WP}}
+
+[[Catégorie:Birmanie en français|*]]
+
+== {{langue|gsw}} ==
+=== {{S|nom propre|gsw}} ===
+'''Myanmar''' {{pron||gsw}}
+# [[Myanmar#fr|Myanmar]] (pays d’[[Asie]]).
+
+[[Catégorie:Pays en alémanique]]
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|de}}
+
+=== {{S|nom propre|de}} ===
+{{de-nom-propre|genre=n|gs=Myanmars}}
+'''Myanmar''' {{pron||de}}
+# [[Myanmar#fr|Myanmar]] (pays d’[[Asie]]).
+#* {{exemple | lang=de
+ | Theo, wir fahren nach '''Myanmar'''!
+ | Théo, nous partons au Myanmar !}}
+#* {{exemple|Ausläufer des Zyklons "Mocha" haben die Westküste '''Myanmar'''s erreicht und dabei erste Verwüstungen angerichtet.|lang=de|sens=Des prolongements du cyclone "Mocha" ont atteint la côte ouest du Myanmar et causé la première dévastation.|source={{périodique|auteur=ZEIT ONLINE, dpa, AFP, heo|titre=Zyklon trifft in Myanmar auf Land|journal=Die Zeit|date=14 mai 2023|texte=https://www.zeit.de/gesellschaft/zeitgeschehen/2023-05/zyklon-mocha-myanmar-bangladesch}}}}
+
+==== {{S|synonymes}} ====
+* [[Birma]]
+
+=== {{S|prononciation}} ===
+* {{écouter|Berlin|mianˈmaːɐ̯|lang=de|audio=De-Myanmar.ogg}}
+
+[[Catégorie:Pays d’Asie en allemand]]
+
+== {{langue|nds}} ==
+=== {{S|nom propre|nds}} ===
+'''Myanmar''' {{pron||nds}}
+# [[Myanmar#fr|Myanmar]] (pays d’[[Asie]]).
+
+[[Catégorie:Pays en bas allemand]]
+
+== {{langue|en}} ==
+=== {{S|nom propre|en}} ===
+'''Myanmar''' {{pron||en}}
+# [[Myanmar#fr|Myanmar]] (pays d’[[Asie]]).
+
+==== {{S|synonymes}} ====
+* [[Burma]]
+
+==== {{S|apparentés}} ====
+* {{lien|Burmese|en}}
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=en|{{US|nocat=1}}|audio=En-us-Myanmar.ogg}}
+* {{écouter|Londres (Royaume-Uni)||lang=en|audio=LL-Q1860 (eng)-Soundguys-Myanmar.wav}}
+* {{écouter|Khammam (Inde)||niveau=bon|lang=en|audio=LL-Q1860 (eng)-Pavani916-Myanmar.wav}}
+
+[[Catégorie:Pays d’Asie en anglais]]
+
+== {{langue|an}} ==
+=== {{S|nom propre|an}} ===
+'''Myanmar''' {{pron||an}}
+# [[Myanmar#fr|Myanmar]] (pays d’[[Asie]]).
+
+[[Catégorie:Pays d’Asie en aragonais]]
+
+== {{langue|ast}} ==
+
+=== {{S|nom propre|ast}} ===
+'''Myanmar''' {{pron||ast}}
+# [[Myanmar#fr|Myanmar]] (pays d’[[Asie]]).
+
+=== {{S|prononciation}} ===
+* {{écouter|Uviéu (Espagne)||lang=ast|audio=LL-Q29507 (ast)-Limotecariu-Myanmar.wav}}
+
+[[Catégorie:Pays d’Asie en asturien]]
+
+== {{langue|map-bms}} ==
+=== {{S|nom propre|map-bms}} ===
+'''Myanmar''' {{pron||map-bms}}
+# [[Myanmar#fr|Myanmar]] (pays d’[[Asie]]).
+
+[[Catégorie:Pays en banyumasan]]
+
+== {{langue|eu}} ==
+=== {{S|nom propre|eu}} ===
+'''Myanmar''' {{pron||eu}}
+# [[Myanmar#fr|Myanmar]] (pays d’[[Asie]]).
+
+[[Catégorie:Pays d’Asie en basque]]
+
+== {{langue|br}} ==
+=== {{S|nom propre|br}} ===
+'''Myanmar''' {{pron||br}}
+# [[Myanmar#fr|Myanmar]] (pays d’[[Asie]]).
+
+[[Catégorie:Pays d’Asie en breton]]
+
+== {{langue|ca}} ==
+=== {{S|nom propre|ca}} ===
+'''Myanmar''' {{pron||ca}}
+# [[Myanmar#fr|Myanmar]] (pays d’[[Asie]]).
+
+[[Catégorie:Pays d’Asie en catalan]]
+
+== {{langue|da}} ==
+=== {{S|nom propre|da}} ===
+'''Myanmar''' {{pron||da}}
+# [[Myanmar#fr|Myanmar]] (pays d’[[Asie]]).
+
+[[Catégorie:Pays d’Asie en danois]]
+
+== {{langue|ceb}} ==
+=== {{S|nom propre|ceb}} ===
+'''Myanmar''' {{pron||ceb}}
+# [[Myanmar#fr|Myanmar]] (pays d’[[Asie]]).
+
+[[Catégorie:Pays en cebuano]]
+
+== {{langue|diq}} ==
+=== {{S|nom propre|diq}} ===
+'''Myanmar''' {{pron||diq}}
+# [[Myanmar#fr|Myanmar]] (pays d’[[Asie]]).
+
+[[Catégorie:Pays en dimli (zazaki du Sud)]]
+
+== {{langue|es}} ==
+=== {{S|nom propre|es}} ===
+'''Myanmar''' {{pron||es}}
+# [[Myanmar#fr|Myanmar]] (pays d’[[Asie]]).
+
+=== {{S|prononciation}} ===
+* {{écouter|Espagne||lang=es|audio=LL-Q1321 (spa)-Rodelar-Myanmar.wav}}
+
+[[Catégorie:Pays d’Asie en espagnol]]
+
+== {{langue|et}} ==
+=== {{S|nom propre|et}} ===
+'''Myanmar''' {{pron||et}}
+# [[Myanmar#fr|Myanmar]] (pays d’[[Asie]]).
+
+[[Catégorie:Pays d’Asie en estonien]]
+
+== {{langue|fi}} ==
+=== {{S|nom propre|fi}} ===
+'''Myanmar''' {{pron||fi}}
+# [[Myanmar#fr|Myanmar]] (pays d’[[Asie]]).
+
+[[Catégorie:Pays d’Asie en finnois]]
+
+== {{langue|gl}} ==
+=== {{S|nom propre|gl}} ===
+'''Myanmar''' {{pron||gl}}
+# [[Myanmar#fr|Myanmar]] (pays d’[[Asie]]).
+
+[[Catégorie:Pays d’Asie en galicien]]
+
+== {{langue|cy}} ==
+=== {{S|nom propre|cy}} ===
+'''Myanmar''' {{pron||cy}}
+# [[Myanmar#fr|Myanmar]] (pays d’[[Asie]]).
+
+[[Catégorie:Pays d’Asie en gallois]]
+
+== {{langue|hif}} ==
+=== {{S|nom propre|hif}} ===
+'''Myanmar''' {{pron||hif}}
+# [[Myanmar#fr|Myanmar]] (pays d’[[Asie]]).
+
+[[Catégorie:Pays en hindi des Fidji]]
+
+== {{langue|io}} ==
+=== {{S|nom propre|io}} ===
+'''Myanmar''' {{pron||io}}
+# [[Myanmar#fr|Myanmar]] (pays d’[[Asie]]).
+
+[[Catégorie:Pays d’Asie en ido]]
+
+== {{langue|ilo}} ==
+=== {{S|nom propre|ilo}} ===
+'''Myanmar''' {{pron||ilo}}
+# [[Myanmar#fr|Myanmar]] (pays d’[[Asie]]).
+
+[[Catégorie:Pays en ilocano]]
+
+== {{langue|id}} ==
+=== {{S|nom propre|id}} ===
+'''Myanmar''' {{pron||id}}
+# [[Myanmar#fr|Myanmar]] (pays d’[[Asie]]).
+#* {{exemple|lang=id}}
+
+[[Catégorie:Pays d’Asie en indonésien]]
+
+== {{langue|ia}} ==
+=== {{S|nom propre|ia}} ===
+'''Myanmar''' {{pron||ia}}
+# [[Myanmar#fr|Myanmar]] (pays d’[[Asie]]).
+
+[[Catégorie:Pays en interlingua]]
+
+== {{langue|ie}} ==
+=== {{S|nom propre|ie}} ===
+'''Myanmar''' {{pron||ie}}
+# [[Myanmar#fr|Myanmar]] (pays d’[[Asie]]).
+
+[[Catégorie:Pays en interlingue]]
+
+== {{langue|it}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|it}}
+
+=== {{S|nom propre|it}} ===
+{{it-inv|mjan.ˈmar|inv_titre=Nom propre}}
+'''Myanmar''' {{pron|mjan.ˈmar|it}} {{invariable}}
+# {{pays|it|d’Asie}} [[Myanmar#fr|Myanmar]].
+#* {{exemple|lang=it}}
+
+== {{langue|jv}} ==
+=== {{S|nom propre|jv}} ===
+'''Myanmar''' {{pron||jv}}
+# [[Myanmar#fr|Myanmar]] (pays d’[[Asie]]).
+
+[[Catégorie:Pays en javanais]]
+
+== {{langue|csb}} ==
+=== {{S|nom propre|csb}} ===
+'''Myanmar''' {{pron||csb}}
+# [[Myanmar#fr|Myanmar]] (pays d’[[Asie]]).
+
+[[Catégorie:Pays en kachoube]]
+
+== {{langue|pam}} ==
+=== {{S|nom propre|pam}} ===
+'''Myanmar''' {{pron||pam}}
+# [[Myanmar#fr|Myanmar]] (pays d’[[Asie]]).
+
+[[Catégorie:Pays en kapampangan]]
+
+== {{langue|ku}} ==
+=== {{S|nom propre|ku}} ===
+'''Myanmar''' {{pron||ku}}
+# [[Myanmar#fr|Myanmar]] (pays d’[[Asie]]).
+
+[[Catégorie:Pays d’Asie en kurde]]
+
+== {{langue|lij}} ==
+=== {{S|nom propre|lij}} ===
+'''Myanmar''' {{pron||lij}}
+# [[Myanmar#fr|Myanmar]] (pays d’[[Asie]]).
+
+[[Catégorie:Pays en ligure]]
+
+== {{langue|lmo}} ==
+=== {{S|nom propre|lmo}} ===
+'''Myanmar''' {{pron||lmo}}
+# [[Myanmar#fr|Myanmar]] (pays d’[[Asie]]).
+
+[[Catégorie:Pays en lombard]]
+
+== {{langue|lb}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|lb}}
+
+=== {{S|nom propre|lb}} ===
+{{lb-inv|miɑnmˈaːʀ|inv_titre=Nom propre}}
+'''Myanmar''' {{pron|miɑnmˈaːʀ|lb}} {{m}}
+# {{pays|lb|d’Asie|pays=Birmanie|clé=*}} {{lien|Myanmar|fr}}.
+#* {{exemple|lang=lb}}
+
+==== {{S|gentilés}} ====
+* {{lien|Myanmar|lb|sens=Birman}}, {{lien|Myanmarin|lb|sens=Birmane}}
+* {{lien|myanmaresch|lb|sens=birman, birmane}}
+
+=== {{S|nom|lb}} ===
+{{lb-nom-er|ps=miɑnmˈaːʀ}}
+'''Myanmar''' {{pron|miɑnmˈaːʀ|lb}} {{m}}
+# {{gentilés|lb|d’Asie}} [[Birman]].
+#* {{exemple|lang=lb}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=lb}}
+
+=== {{S|références}} ===
+: {{R:LOD|sens=1}} (nom commun)
+: {{R:LOD|sens=2}} (nom propre)
+
+== {{langue|ms}} ==
+=== {{S|nom propre|ms}} ===
+'''Myanmar''' {{pron||ms}}
+# [[Myanmar#fr|Myanmar]] (pays d’[[Asie]]).
+
+[[Catégorie:Pays d’Asie en malais]]
+
+== {{langue|gv}} ==
+=== {{S|nom propre|gv}} ===
+'''Myanmar''' {{pron||gv}}
+# [[Myanmar#fr|Myanmar]] (pays d’[[Asie]]).
+#* {{exemple | lang=gv | Pobblaght Unnaneys '''Vyanmar'''.}}
+
+==== {{S|synonymes}} ====
+* {{lien|Burmey|gv}} {{vieilli|nocat=1}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=gv}}
+[[Catégorie:Pays en mannois]]
+
+== {{langue|nl}} ==
+=== {{S|nom propre|nl}} ===
+'''Myanmar''' {{pron||nl}}
+# [[Myanmar#fr|Myanmar]] (pays d’[[Asie]]).
+
+[[Catégorie:Pays d’Asie en néerlandais]]
+
+=== {{S|prononciation}} ===
+* {{écouter|||lang=nl|audio=Nl-Myanmar.ogg}}
+
+
+== {{langue|no}} ==
+=== {{S|nom propre|no}} ===
+'''Myanmar''' {{pron||no}}
+# [[Myanmar#fr|Myanmar]] (pays d’[[Asie]]).
+
+[[Catégorie:Pays d’Asie en norvégien]]
+
+== {{langue|nn}} ==
+=== {{S|nom propre|nn}} ===
+'''Myanmar''' {{pron||nn}}
+# [[Myanmar#fr|Myanmar]] (pays d’[[Asie]]).
+
+[[Catégorie:Pays d’Asie en norvégien (nynorsk)]]
+
+== {{langue|nov}} ==
+=== {{S|nom propre|nov}} ===
+'''Myanmar''' {{pron||nov}}
+# [[Myanmar#fr|Myanmar]] (pays d’[[Asie]]).
+
+[[Catégorie:Pays en novial]]
+
+== {{langue|pms}} ==
+=== {{S|nom propre|pms}} ===
+'''Myanmar''' {{pron||pms}}
+# [[Myanmar#fr|Myanmar]] (pays d’[[Asie]]).
+
+[[Catégorie:Pays en piémontais]]
+
+== {{langue|pt}} ==
+=== {{S|nom propre|pt}} ===
+'''Myanmar''' {{pron||pt}}
+# [[Myanmar#fr|Myanmar]] (pays d’[[Asie]]).
+
+[[Catégorie:Pays d’Asie en portugais]]
+
+== {{langue|qu}} ==
+=== {{S|nom propre|qu}} ===
+'''Myanmar''' {{pron||qu}}
+# [[Myanmar#fr|Myanmar]] (pays d’[[Asie]]).
+
+[[Catégorie:Pays en quechua]]
+
+== {{langue|ro}} ==
+=== {{S|nom propre|ro}} ===
+'''Myanmar''' {{pron||ro}}
+# [[Myanmar#fr|Myanmar]] (pays d’[[Asie]]).
+
+=== {{S|prononciation}} ===
+* {{écouter|Iași (Roumanie)||lang=ro|audio=LL-Q7913 (ron)-KlaudiuMihaila-Myanmar.wav}}
+
+[[Catégorie:Pays d’Asie en roumain]]
+
+== {{langue|scn}} ==
+=== {{S|nom propre|scn}} ===
+'''Myanmar''' {{pron||scn}}
+# [[Myanmar#fr|Myanmar]] (pays d’[[Asie]]).
+
+=== {{S|prononciation}} ===
+* {{écouter|Gela (Italie)||lang=scn|audio=LL-Q33973 (scn)-XANA000-Myanmar.wav}}
+
+[[Catégorie:Pays en sicilien]]
+
+== {{langue|su}} ==
+=== {{S|nom propre|su}} ===
+'''Myanmar''' {{pron||su}}
+# [[Myanmar#fr|Myanmar]] (pays d’[[Asie]]).
+
+[[Catégorie:Pays en soundanais]]
+
+== {{langue|sv}} ==
+=== {{S|nom propre|sv}} ===
+'''Myanmar''' {{pron||sv}}
+# [[Myanmar#fr|Myanmar]] (pays d’[[Asie]]).
+
+=== {{S|prononciation}} ===
+* {{écouter|Suède||lang=sv|audio=LL-Q9027 (swe)-Moonhouse-Myanmar.wav}}
+
+[[Catégorie:Pays d’Asie en suédois]]
+
+== {{langue|sw}} ==
+=== {{S|nom propre|sw}} ===
+'''Myanmar''' {{pron||sw}}
+# [[Myanmar#fr|Myanmar]] (pays d’[[Asie]]).
+
+[[Catégorie:Pays en swahili]]
+
+== {{langue|tl}} ==
+=== {{S|nom propre|tl}} ===
+'''Myanmar''' {{pron||tl}}
+# [[Myanmar#fr|Myanmar]] (pays d’[[Asie]]).
+
+[[Catégorie:Pays d’Asie en tagalog]]
+
+== {{langue|crh}} ==
+=== {{S|nom propre|crh}} ===
+'''Myanmar''' {{pron||crh}}
+# [[Myanmar#fr|Myanmar]] (pays d’[[Asie]]).
+
+[[Catégorie:Pays en tatar de Crimée]]
+
+== {{langue|cs}} ==
+=== {{S|nom propre|cs}} ===
+'''Myanmar''' {{pron||cs}}
+# [[Myanmar#fr|Myanmar]] (pays d’[[Asie]]).
+
+[[Catégorie:Pays d’Asie en tchèque]]
+
+== {{langue|tr}} ==
+=== {{S|nom propre|tr}} ===
+'''Myanmar''' {{pron||tr}}
+# [[Myanmar#fr|Myanmar]] (pays d’[[Asie]]).
+
+[[Catégorie:Pays d’Asie en turc]]
+
+== {{langue|war}} ==
+=== {{S|nom propre|war}} ===
+'''Myanmar''' {{pron||war}}
+# [[Myanmar#fr|Myanmar]] (pays d’[[Asie]]).
+
+[[Catégorie:Pays en waray (Philippines)]]
+
+== {{langue|zea}} ==
+=== {{S|nom propre|zea}} ===
+'''Myanmar''' {{pron||zea}}
+# [[Myanmar#fr|Myanmar]] (pays d’[[Asie]]).
+
+[[Catégorie:Pays en zélandais]]

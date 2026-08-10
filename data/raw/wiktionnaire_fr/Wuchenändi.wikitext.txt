@@ -1,0 +1,9 @@
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: Variante de l'allemand ''[[Wochenende]]''.
+
+=== {{S|nom|gsw}} ===
+'''Wuchenändi''' {{pron|voxɛnɛndi|gsw}} {{n}} (pluriel : ''[[Wuchenändine]]'')
+#[[fin de semaine]], [[reposailles]], [[week-end]].
+#* {{exemple | lang=gsw | „Wohere geisch du das '''Wuchenändi'''?“}}
+#** Où vas-tu cette fin de semaine ?

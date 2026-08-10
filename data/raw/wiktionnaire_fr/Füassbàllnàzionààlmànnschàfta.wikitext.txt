@@ -1,0 +1,4 @@
+== {{langue|gsw}} ==
+=== {{S|nom propre|gsw|flexion}} ===
+'''Füassbàllnàzionààlmànnschàfta''' {{phon|ˌfʏˑəsb̥ɒlnɒt͡sjoˈnɒːlmɒnʃɒftə|gsw}}
+# {{Région mulhousienne|gsw}} ''Pluriel de'' {{lien|Füassbàllnàzionààlmànnschàft|gsw}}.

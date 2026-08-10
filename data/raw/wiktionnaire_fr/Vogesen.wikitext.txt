@@ -1,0 +1,23 @@
+== {{langue|gsw}} ==
+{{ébauche|gsw}}
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw}}
+
+=== {{S|nom propre|gsw}} ===
+'''Vogesen'''
+# [[Vosges#Français|Vosges]] (massif montagneux).
+
+== {{langue|de}} ==
+{{ébauche|de}}
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|de}}
+
+=== {{S|nom propre|de}} ===
+'''Vogesen'''
+# [[Vosges#Français|Vosges]] (massif montagneux).
+
+
+=== {{S|prononciation}} ===
+* {{écouter|||lang=de|audio=De-Vogesen.ogg}}

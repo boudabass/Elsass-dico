@@ -1,0 +1,8 @@
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw}}
+
+=== {{S|nom|gsw}} ===
+'''Kàschte''' {{pron||gsw}}
+# {{Pays de Saverne|gsw}} [[armoire#fr|Armoire]].
+#* {{exemple|lang=gsw}}

@@ -1,0 +1,304 @@
+{{voir|bremen}}
+
+== {{langue|sq}} ==
+=== {{S|étymologie}} ===
+: Utilisation du nom allemand de la ville.
+
+=== {{S|nom propre|sq}} ===
+'''Bremen''' {{pron||sq}}
+# {{localités|sq|d’Allemagne}} [[Brême]], ville allemande.
+# {{territoires|sous-cat=Länder|sq|d’Allemagne}} Brême, [[Land]] allemand.
+
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: Utilisation du nom allemand de la ville.
+
+=== {{S|nom propre|gsw}} ===
+'''Bremen''' {{pron||gsw}}
+# {{localités|gsw|d’Allemagne}} [[Brême]], ville allemande.
+# {{territoires|sous-cat=Länder|gsw|d’Allemagne}} Brême, [[Land]] allemand.
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: ''(937)'' De ''[[bremun]]'', locatif pluriel de ''[[brem]]'' du vieil haut allemand tardif, signifiant « sur la rive ».
+
+=== {{S|nom propre|de}} ===
+{{de-nom-propre|genre=n|gs=Bremen|gs2=Bremens}}
+'''Bremen''' {{pron|ˈbʁeːmən|de}}, {{pron|bʁeːm̩|de}}
+# {{localités|de|d’Allemagne}} [[Brême]] (ville allemande).
+#* {{exemple | lang=de | Die Hansestadt '''Bremen''' liegt an der Weser. | sens=La ville hanséatique de Brême se situe au bord de la Weser.''}}
+# {{territoires|sous-cat=Länder|de|d’Allemagne}} [[Brême]], un des seize [[Länder]] d’Allemagne.
+#* {{exemple|Alle Jahre wieder gilt an Karfreitag ein Tanzverbot. (...) Rechtlich gesehen ist das Verbot Ländersache. Mit 84 Stunden gilt es in Rheinland-Pfalz am längsten, in '''Bremen''' hingegen nur 15 Stunden.|lang=de|sens=Chaque année, il est interdit de danser le Vendredi saint. (...) D'un point de vue juridique, l'interdiction est décrétée par les Länder. C'est en Rhénanie-Palatinat qu’elle s’applique le plus longtemps, avec 84 heures, contre 15 heures seulement à Brême.|source={{périodique|auteur=Greta Giuliana Spieker|titre=Tanzverbot an Karfreitag: Was wo gilt|journal=RedaktionsNetzwerk Deutschland|date=15 avril 2025|texte=https://www.rnd.de/politik/tanzverbot-an-karfreitag-was-wo-gilt-FJ6T2HDGWZGZXOTGNVV4EKJX3I.html}}}}
+
+==== {{S|hyperonymes}} ====
+{{(|}}
+* {{lien|Großstadt|de}}
+* {{lien|Metropole|de}}
+* {{lien|Ort|de}}
+* {{lien|Ortschaft|de}}
+* {{lien|Siedlung|de}}
+* {{lien|Stadt|de}}
+* {{lien|Hafenstadt|de}}
+* {{lien|Hansestadt|de}}
+* {{lien|Hauptstadt|de}}
+{{)}}
+
+==== {{S|dérivés}} ====
+{{(|}}
+* {{lien|Bremer|de}}
+* {{lien|Bremerin|de}}
+* {{lien|bremerisch|de}}
+* {{lien|bremisch|de}}
+* {{lien|Bremensia|de}}
+* {{lien|Bremensien|de}}
+* {{lien|Bremerhaven|de}}
+{{)}}
+
+==== {{S|phrases}} ====
+* {{lien|Hamburg ist das Tor zur Welt, aber Bremen hat den Schlüssel dazu|de}}
+
+==== {{S|gentilés}} ====
+* [[Bremer]], [[Bremerin]], [[bremisch]]
+
+=== {{S|nom|de|flexion}} ===
+{{de-nom-f-n|ns=Breme}}
+'''Bremen''' {{pron|ˈbʁeːmən|de}} {{f}}
+# ''Accusatif pluriel de'' {{lien|Breme|de}}.
+# ''Datif pluriel de'' {{lien|Breme|de}}.
+# ''Génitif pluriel de'' {{lien|Breme|de}}.
+# ''Nominatif pluriel de'' {{lien|Breme|de}}.
+
+=== {{S|prononciation}} ===
+* {{écouter|Berlin (Allemagne)|ˈbʁeːmən|lang=de|audio=De-Bremen2.ogg}}
+* {{écouter|{{DE|nocat=1}}|ˈbʁeːmən|lang=de|audio=De-Bremen.ogg}}
+* {{écouter|Munich (Allemagne)|ˈbʁeːmən|lang=de|audio=LL-Q188 (deu)-Ionenlaser-Bremen.wav}}
+
+=== {{S|références}} ===
+* {{R:DWDS|Bremen}}
+* {{R:Duden|Bremen}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=de}}
+
+== {{langue|en}} ==
+=== {{S|étymologie}} ===
+: Utilisation du nom allemand de la ville.
+
+=== {{S|nom propre|en}} ===
+'''Bremen''' {{pron||en}}
+# {{localités|en|d’Allemagne}} [[Brême]], ville allemande.
+# {{territoires|sous-cat=Länder|en|d’Allemagne}} Brême, [[Land]] allemand.
+
+=== {{S|prononciation}} ===
+* {{écouter|Sud de l'Angleterre (Royaume-Uni)||lang=en|audio=LL-Q1860 (eng)-Vealhurl-Bremen.wav}}
+
+== {{langue|eu}} ==
+=== {{S|étymologie}} ===
+: Utilisation du nom allemand de la ville.
+
+=== {{S|nom propre|eu}} ===
+'''Bremen''' {{pron||eu}}
+# {{localités|eu|d’Allemagne}} [[Brême]], ville allemande.
+# {{territoires|sous-cat=Länder|eu|d’Allemagne}} Brême, [[Land]] allemand.
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=eu|Espagne (Saint-Sébastien)|audio=LL-Q8752 (eus)-Xabier Cañas-Bremen.wav}}
+
+== {{langue|nds}} ==
+=== {{S|étymologie}} ===
+: Utilisation du nom allemand de la ville.
+
+=== {{S|nom propre|nds}} ===
+'''Bremen''' {{pron||nds}}
+# {{localités|nds|d’Allemagne}} [[Brême]], ville allemande.
+# {{territoires|sous-cat=Länder|nds|d’Allemagne}} Brême, [[Land]] allemand.
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=nds||audio=De-Bremen.ogg}}
+
+== {{langue|ca}} ==
+=== {{S|étymologie}} ===
+: Utilisation du nom allemand de la ville.
+
+=== {{S|nom propre|ca}} ===
+'''Bremen''' {{pron||ca}}
+# {{localités|ca|d’Allemagne}} [[Brême]], ville allemande.
+# {{territoires|sous-cat=Länder|ca|d’Allemagne}} Brême, [[Land]] allemand.
+
+== {{langue|hr}} ==
+=== {{S|étymologie}} ===
+: Utilisation du nom allemand de la ville.
+
+=== {{S|nom propre|hr}} ===
+'''Bremen''' {{pron||hr}}
+# {{localités|hr|d’Allemagne}} [[Brême]], ville allemande.
+# {{territoires|sous-cat=Länder|hr|d’Allemagne}} Brême, [[Land]] allemand.
+
+== {{langue|da}} ==
+=== {{S|étymologie}} ===
+: Utilisation du nom allemand de la ville.
+
+=== {{S|nom propre|da}} ===
+'''Bremen''' {{pron||da}}
+# {{localités|da|d’Allemagne}} [[Brême]], ville allemande.
+# {{territoires|sous-cat=Länder|da|d’Allemagne}} Brême, [[Land]] allemand.
+
+== {{langue|es}} ==
+=== {{S|étymologie}} ===
+: Utilisation du nom allemand de la ville.
+
+=== {{S|nom propre|es}} ===
+'''Bremen''' {{pron||es}}
+# {{localités|es|d’Allemagne}} [[Brême]], ville allemande.
+# {{territoires|sous-cat=Länder|es|d’Allemagne}} Brême, [[Land]] allemand.
+
+== {{langue|et}} ==
+=== {{S|étymologie}} ===
+: Utilisation du nom allemand de la ville.
+
+=== {{S|nom propre|et}} ===
+'''Bremen''' {{pron||et}}
+# {{localités|et|d’Allemagne}} [[Brême]], ville allemande.
+# {{territoires|sous-cat=Länder|et|d’Allemagne}} Brême, [[Land]] allemand.
+
+== {{langue|fi}} ==
+=== {{S|étymologie}} ===
+: Utilisation du nom allemand de la ville.
+
+=== {{S|nom propre|fi}} ===
+'''Bremen''' {{pron||fi}}
+# {{localités|fi|d’Allemagne}} [[Brême]], ville allemande.
+# {{territoires|sous-cat=Länder|fi|d’Allemagne}} Brême, [[Land]] allemand.
+
+== {{langue|id}} ==
+=== {{S|étymologie}} ===
+: Utilisation du nom allemand de la ville.
+
+=== {{S|nom propre|id}} ===
+'''Bremen''' {{pron||id}}
+# {{localités|id|d’Allemagne}} [[Brême]], ville allemande.
+#* {{exemple|lang=id}}
+# {{territoires|sous-cat=Länder|id|d’Allemagne}} Brême, [[Land]] allemand.
+#* {{exemple|lang=id}}
+
+== {{langue|is}} ==
+=== {{S|étymologie}} ===
+: Utilisation du nom allemand de la ville.
+
+=== {{S|nom propre|is}} ===
+'''Bremen''' {{pron||is}}
+# {{localités|is|d’Allemagne}} [[Brême]], ville allemande.
+# {{territoires|sous-cat=Länder|is|d’Allemagne}} Brême, [[Land]] allemand.
+
+== {{langue|jv}} ==
+=== {{S|étymologie}} ===
+: Utilisation du nom allemand de la ville.
+
+=== {{S|nom propre|jv}} ===
+'''Bremen''' {{pron||jv}}
+# {{localités|jv|d’Allemagne}} [[Brême]], ville allemande.
+# {{territoires|sous-cat=Länder|jv|d’Allemagne}} Brême, [[Land]] allemand.
+
+== {{langue|nl}} ==
+=== {{S|étymologie}} ===
+: Utilisation du nom allemand de la ville.
+
+=== {{S|nom propre|nl}} ===
+'''Bremen''' {{pron||nl}}
+# {{localités|nl|d’Allemagne}} [[Brême]], ville allemande.
+#* {{exemple|lang=nl}}
+# {{territoires|sous-cat=Länder|nl|d’Allemagne}} Brême, [[Land]] allemand.
+#* {{exemple|lang=nl}}
+
+=== {{S|prononciation}} ===
+* {{écouter|||lang=nl|audio=Nl-Bremen.ogg}}
+
+== {{langue|no}} ==
+=== {{S|étymologie}} ===
+: Utilisation du nom allemand de la ville.
+
+=== {{S|nom propre|no}} ===
+'''Bremen''' {{pron||no}}
+# {{localités|no|d’Allemagne}} [[Brême]], ville allemande.
+# {{territoires|sous-cat=Länder|no|d’Allemagne}} Brême, [[Land]] allemand.
+
+== {{langue|pt}} ==
+=== {{S|étymologie}} ===
+: Utilisation du nom allemand de la ville.
+
+=== {{S|nom propre|pt}} ===
+'''Bremen''' {{pron||pt}}
+# {{localités|pt|d’Allemagne}} [[Brême]], ville allemande.
+# {{territoires|sous-cat=Länder|pt|d’Allemagne}} Brême, [[Land]] allemand.
+
+== {{langue|ro}} ==
+=== {{S|étymologie}} ===
+: Utilisation du nom allemand de la ville.
+
+=== {{S|nom propre|ro}} ===
+'''Bremen''' {{pron||ro}}
+# {{localités|ro|d’Allemagne}} [[Brême]], ville allemande.
+# {{territoires|sous-cat=Länder|ro|d’Allemagne}} Brême, [[Land]] allemand.
+
+== {{langue|sh}} ==
+=== {{S|étymologie}} ===
+: Utilisation du nom allemand de la ville.
+
+=== {{S|nom propre|sh}} ===
+'''Bremen''' {{pron||sh}}
+# {{localités|sh|d’Allemagne}} [[Brême]], ville allemande.
+# {{territoires|sous-cat=Länder|sh|d’Allemagne}} Brême, [[Land]] allemand.
+
+== {{langue|sl}} ==
+=== {{S|étymologie}} ===
+: Utilisation du nom allemand de la ville.
+
+=== {{S|nom propre|sl}} ===
+'''Bremen''' {{pron||sl}}
+# {{localités|sl|d’Allemagne}} [[Brême]], ville allemande.
+# {{territoires|sous-cat=Länder|sl|d’Allemagne}} Brême, [[Land]] allemand.
+
+== {{langue|sv}} ==
+=== {{S|étymologie}} ===
+: Utilisation du nom allemand de la ville.
+
+=== {{S|nom propre|sv}} ===
+'''Bremen''' {{pron||sv}}
+# {{localités|sv|d’Allemagne}} [[Brême]], ville allemande.
+# {{territoires|sous-cat=Länder|sv|d’Allemagne}} Brême, [[Land]] allemand.
+
+== {{langue|sw}} ==
+=== {{S|étymologie}} ===
+: Utilisation du nom allemand de la ville.
+
+=== {{S|nom propre|sw}} ===
+'''Bremen''' {{pron||sw}}
+# {{localités|sw|d’Allemagne}} [[Brême]], ville allemande.
+# {{territoires|sous-cat=Länder|sw|d’Allemagne}} Brême, [[Land]] allemand.
+
+== {{langue|tr}} ==
+=== {{S|étymologie}} ===
+: Utilisation du nom allemand de la ville.
+
+=== {{S|nom propre|tr}} ===
+'''Bremen''' {{pron||tr}}
+# {{localités|tr|d’Allemagne}} [[Brême]], ville allemande.
+# {{territoires|sous-cat=Länder|tr|d’Allemagne}} Brême, [[Land]] allemand.
+
+== {{langue|vi}} ==
+=== {{S|étymologie}} ===
+: Utilisation du nom allemand de la ville.
+
+=== {{S|nom propre|vi}} ===
+'''Bremen''' {{pron||vi}}
+# {{localités|vi|d’Allemagne}} [[Brême]], ville allemande.
+# {{territoires|sous-cat=Länder|vi|d’Allemagne}} Brême, [[Land]] allemand.
+
+== {{langue|vo}} ==
+=== {{S|étymologie}} ===
+: Utilisation du nom allemand de la ville.
+
+=== {{S|nom propre|vo}} ===
+'''Bremen''' {{pron||vo}}
+# {{localités|vo|d’Allemagne}} [[Brême]], ville allemande.
+# {{territoires|sous-cat=Länder|vo|d’Allemagne}} Brême, [[Land]] allemand.

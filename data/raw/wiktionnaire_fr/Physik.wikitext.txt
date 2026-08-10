@@ -1,0 +1,78 @@
+{{voir|physik}}
+
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw}}
+
+=== {{S|nom|gsw}} ===
+'''Physik''' {{pron||gsw}}
+# [[physique|Physique]].
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=gsw}}
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+:{{composé de|physisch|sens1=physique|-ik|m=1|lang=de}}.
+
+=== {{S|nom|de}} ===
+{{de-nom|genre=f
+|ns= Physik |np=
+|as= Physik |ap=
+|gs= Physik |gp=
+|ds= Physik |dp=
+}}
+'''Physik''' {{pron|fy.ˈziːk|de}} {{f}}
+# {{info lex|sciences}} [[physique|Physique]].
+#* {{exemple|Vor rund 13,5 Milliarden Jahren entstanden Materie, Energie, Raum und Zeit in einem Ereignis namens Urknall. Die Geschichte dieser grundlegenden Eigenschaften unseres Universums nennen wir '''Physik'''.|lang=de|sens=Il y a environ 13,5 milliards d’années, la matière, l’énergie, le temps et l’espace apparaissaient à l’occasion du Big Bang. L’histoire de ces traits fondamentaux de notre univers est ce qu’on appelle la physique.|source={{ouvrage|auteur={{w|Yuval Noah Harari}}|trad=Jürgen Neubauer|titre=Eine kurze Geschichte der Menschheit|année=2013|éditeur=Deutsche Verlags-Anstalt|url=}}}}
+#* {{exemple|Der Nobelpreis für '''Physik''' geht in diesem Jahr in die USA: Für den Nachweis, dass es keinen CO2-Fußabdruck gibt und die Klimakrise eine riesige Abzocke ist, wird US-Präsident Donald Trump mit der renommierten Auszeichnung geehrt.|lang=de|sens=Le prix Nobel de physique revient cette année aux États-Unis : le président américain Donald Trump se voit décerner cette prestigieuse distinction pour avoir prouvé que l’empreinte carbone n'existe pas et que la crise climatique est une vaste arnaque.|source={{périodique|auteur=(dpo)|titre=+++ Eilmeldung +++ Physik-Nobelpreis geht an Donald Trump|journal=Der Postillon|date=7 octobre 2025|texte=https://www.der-postillon.com/2025/10/physik-nobelpreis-trump.html}}}}
+
+==== {{S|hyperonymes}} ====
+* {{lien|Naturwissenschaft|de}}
+* {{lien|Unterrichtsfach|de}}
+
+==== {{S|hyponymes}} ====
+{{(|}}
+* {{lien|Astrophysik|de}}
+* {{lien|Atmosphärenphysik|de}}
+* {{lien|Atomphysik|de}}
+* {{lien|Elementarteilchenphysik|de}}
+* {{lien|Experimentalphysik|de}}
+* {{lien|Festkörperphysik|de}}
+* {{lien|Geophysik|de}}
+* {{lien|Hochenergiephysik|de}}
+* {{lien|Hyperphysik|de}}
+* {{lien|Kernphysik|de}}
+* {{lien|Laborphysik|de}}
+* {{lien|Laserphysik|de}}
+* {{lien|Metaphysik|de}}
+* {{lien|Quantenphysik|de}}
+* {{lien|Textilphysik|de}}
+{{)}}
+
+==== {{S|dérivés}} ====
+{{(|}}
+* {{lien|physikalisch|de}}
+* {{lien|Physiker|de}}
+* {{lien|Physikbuch|de}}
+* {{lien|Physikstudium|de}}
+* {{lien|Physikarbeit|de}}
+* {{lien|Physikhausaufgabe|de}}
+* {{lien|Physiklehrer|de}}
+* {{lien|Physikprofessor|de}}
+* {{lien|Physikunterricht|de}}
+{{)}}
+
+=== {{S|prononciation}} ===
+* {{écouter|Berlin (Allemagne)|fyˈziːk|lang=de|audio=De-Physik2.ogg}}
+* {{écouter|{{DE|nocat=1}}|fyˈziːk|lang=de|audio=De-Physik.ogg}}
+* {{écouter|Suisse|fyˈziːk|lang=de|audio=LL-Q188 (deu)-Beat Ruest-Physik.wav}}
+
+=== {{S|références}} ===
+* {{R:DWDS|Physik}}
+* {{R:Duden|Physik}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=de}}
+
+[[Catégorie:Noms de sciences en allemand]]

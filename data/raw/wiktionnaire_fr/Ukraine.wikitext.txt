@@ -1,0 +1,280 @@
+{{voir/ukraine}}
+
+== {{langue|fr}} ==
+=== {{S|étymologie}} ===
+: {{siècle|XVII|lang=fr}}<ref name="Moreri1683" /> De l’{{étylp|uk|fr|Україна|Ukrajina}}{{R|orthodidacte|''[https://dictionnaire.orthodidacte.com/article/etymologie-ukraine Étymologie du mot Ukraine]'', orthodidacte.com}} ou du {{étylp|ru|fr|Украина|Ukraina}}{{R|orthodidacte}}, issus du slave par composition du préfixe {{lien|у|ru|tr=u|sens=dans, chez, près de, à l’intérieur}} et de {{lien|край|ru|tr=kraj}}, racine slave signifiant « bord, limite », et par extension « région, contrée, province »{{R|orthodidacte}}.
+
+=== {{S|nom propre|fr}} ===
+{{fr-rég|y.kʁɛn}}
+[[Image:Ukraine on the globe (Europe centered).svg|vignette|200px|Localisation de l’'''Ukraine''']]
+[[Image:LocationUkraine.svg|vignette|200px|Situation de l’'''Ukraine''']]
+[[Fichier:Flag_of_Ukraine.svg|vignette|droite|200px|Le drapeau de l’'''Ukraine''']]
+'''Ukraine''' {{pron|y.kʁɛn|fr}} {{f}}
+# {{pays|fr|d’Europe}} Pays d’[[Europe]], entouré par la [[mer Noire]] au sud, la [[Russie]] à l’est, la [[Biélorussie]] au nord-ouest, la [[Pologne]] à l’ouest-nord-ouest, la [[Slovaquie]], la [[Hongrie]] et la [[Roumanie]] à l’ouest et la [[Moldavie]] au sud-ouest. Sa capitale est [[Kyiv]].
+#* {{exemple|lang=fr|Il termina son petit exposé en m’apprenant la récente formation, en '''Ukraine''', sous les auspices de l’Angleterre et de la France, de légions tchécoslovaques, destinées à seconder les efforts de l’Entente et à lutter contre les bolchevicks.|source={{w|Pierre Benoit}}, ''{{w|Le Soleil de minuit (roman)|Le Soleil de minuit}}'', Albin Michel, 1930, réédition Le Livre de Poche, page 113}}
+#* {{exemple|Après une révolution qui n’a pas tenu ses promesses en 2014 et le redécoupage de ses frontières, l’'''Ukraine''' est à un tournant de son histoire.|source=Christine Dugoin-Clément, Mathieu Boulègue, ''L’Ukraine : entre déchirements et recompositions'', 2015|lang=fr}}
+#* {{exemple | lang=fr | Poignée de main entre Recep Tayyip Erdogan et Volodymyr Zelensky, le 18 août à Lviv ('''Ukraine'''). | source=journal ''Sud-Ouest'', édition ''Charente-Maritime / Charente'', 20 août 2022, page 4}}
+#* {{exemple|lang=fr|Je n’ai plus ni bonheur ni liberté<br>Une seule espérance m’est restée :<br>Revenir un jour dans ma belle '''Ukraine''',<br>Revoir une fois ma terre lointaine,<br>Contempler encore le Dniepr si bleu<br>— Y vivre ou mourir importe bien peu —,<br>Revoir une fois les tertres, les plaines,<br>Et brûler au feu des pensées anciennes…<br>|source={{w|Lessia Oukraïnka}}, « L’Espérance », traduit de l’ukrainien par Henri Abril, Loutsk, 1880}}
+
+==== {{S|abréviations}} ====
+* [[UKR]] (norme {{w|ISO 3166-1}} alpha-3)
+
+==== {{S|variantes}} ====
+* [[Ukraïne]] {{rare|nocat=1}}
+
+==== {{S|gentilés}} ====
+* [[Ukrainien]], [[Ukrainienne]], [[ukrainien]]
+
+==== {{S|synonymes}} ====
+* [[Petite Russie]] {{désuet|nocat=1}}
+
+==== {{S|dérivés}} ====
+{{(}}
+* [[ukrainisant]] {{rare|nocat=1}}
+* [[ukrainisation]]
+** [[désukrainisation]]
+* [[ukrainiser]]
+* [[ukrainiste]] {{rare|nocat=1}}
+* [[ukrainistique]] {{rare|nocat=1}}
+* [[ukrainophile]]
+* [[ukrainophilie]]
+* [[ukrainophobie]]
+* [[ukrainophobe]]
+* [[ukronazi]], [[Ukronazi]]
+* [[ukronazisme]]
+{{)}}
+
+==== {{S|holonymes}} ====
+* [[Europe]]
+
+==== {{S|méronymes}} ====
+{{(}}
+* [[Dniepr]]
+* [[Dniepropetrovsk]] ou [[Dnipropetrovsk]] ''(Archaïque)''
+* [[Dnipro]]
+* [[Galicie]]
+** [[Lviv]]
+* [[Kyiv]], [[Kiev]]
+* [[Loutsk]]
+{{)}}
+
+==== {{S|vocabulaire}} ====
+* {{voir thésaurus|fr|Union européenne}}
+* [[Hetmanat]]
+
+==== {{S|traductions}} ====
+{{trad-début|Pays d’Europe}}
+* {{T|ady}} : {{trad|ady|Украинэ}}
+* {{T|af}} : {{trad+|af|Oekraïne}}
+* {{T|sq}} : {{trad+|sq|Ukraina}}
+* {{T|gsw}} : {{trad|gsw|Ukraine}}
+* {{T|de}} : {{trad+|de|Ukraine}}
+* {{T|am}} : {{trad-|am|ዩክሬን}}
+* {{T|en}} : {{trad+|en|Ukraine}}
+* {{T|ar}} : {{trad-|ar|أكرانيا|f|tr=ʾukrāniyā|dif=أُكْرَانِيَا}}
+* {{T|an}} : {{trad-|an|Ucraína}}
+* {{T|hy}} : {{trad-|hy|Ուկրաինա|tr=Owkraina}}
+* {{T|rup}} : {{trad|rup|Ucrainii}}
+* {{T|ast}} : {{trad+|ast|Ucrania}}, {{trad+|ast|Ucraína}}
+* {{T|nds}} : {{trad-|nds|Ukraine}}
+* {{T|eu}} : {{trad+|eu|Ukraina}}
+* {{T|be}} : {{trad-|be|Украіна|tr=Ukraina}}
+* {{T|bs}} : {{trad-|bs|Ukrajina}}
+* {{T|br}} : {{trad+|br|Ukraina}}
+* {{T|bg}} : {{trad+|bg|Украйна|tr=Ukrayna}}
+* {{T|ca}} : {{trad+|ca|Ucraïna}}
+* {{T|chr}} : {{trad-|chr|ᏳᎬᎳᎢᏅ|tr=yugvlainv}}
+* {{T|zh}} : {{trad+|zh|乌克兰|tr=Wūkèlán|tradi=烏克蘭}}
+* {{T|ko}} : {{trad+|ko|우크라이나|tr=Ukeuraina}}
+* {{T|co}} : {{trad-|co|Ucraina|f}}
+* {{T|hr}} : {{trad+|hr|Ukrajina}}
+* {{T|da}} : {{trad+|da|Ukraine}}
+* {{T|es}} : {{trad+|es|Ucrania}}
+* {{T|eo}} : {{trad-|eo|Ukrainio}}, {{trad+|eo|Ukrainujo}}
+* {{T|et}} : {{trad+|et|Ukraina}}
+* {{T|fo}} : {{trad-|fo|Ukraina}}
+* {{T|fi}} : {{trad+|fi|Ukraina}}
+* {{T|fy}} : {{trad-|fy|Oekraïne}}
+* {{T|gd}} : {{trad-|gd|Ucràin}}
+* {{T|ga}} : {{trad-|ga|Úcráin}}
+* {{T|gl}} : {{trad+|gl|Ucraína}}
+* {{T|gallo}} : {{trad|gallo|Ukraenn}}
+* {{T|cy}} : {{trad-|cy|Wcráin}}
+* {{T|ka}} : {{trad-|ka|უკრაინა|tr=ukraina}}
+* {{T|el}} : {{trad+|el|Ουκρανία|R=Oukranía}}
+* {{T|he}} : {{trad-|he|אוקראינה}}
+* {{T|hi}} : {{trad+|hi|युक्रेन|R=Yukren}}
+* {{T|hu}} : {{trad+|hu|Ukrajna}}
+* {{T|io}} : {{trad+|io|Ukraina}}
+* {{T|id}} : {{trad+|id|Ukraina}}
+* {{T|ia}} : {{trad+|ia|Ukraina}}
+* {{T|is}} : {{trad+|is|Úkraína}}
+* {{T|it}} : {{trad+|it|Ucraina}}
+* {{T|ja}} : {{trad+|ja|ウクライナ|tr=Ukuraina}}
+* {{T|kn}} : {{trad-|kn|ಯುಕ್ರೇನ್|tr=Yukrēn}}
+* {{T|kk}} : {{trad+|kk|Украина|R=Ukraïna}}
+* {{T|avk}} : {{trad|avk|Ukraina}}
+* {{T|ku}} : {{trad+|ku|Ukrayna}}
+* {{T|la}} : {{trad-|la|Ucraina}}
+* {{T|lv}} : {{trad+|lv|Ukraina}}
+* {{T|li}} : {{trad-|li|Oekraïne}}
+* {{T|lt}} : {{trad+|lt|Ukraina}}
+* {{T|lb}} : {{trad+|lb|Ukrain}}
+* {{T|mk}} : {{trad+|mk|Украина|tr=Ukraina}}
+* {{T|ms}} : {{trad-|ms|Ukraine}}
+* {{T|ml}} : {{trad-|ml|ഉക്രൈൻ|tr=Ukrain}}
+* {{T|na}} : {{trad-|na|Ukraine}}
+* {{T|nl}} : {{trad+|nl|Oekraïne}}
+* {{T|no}} : {{trad+|no|Ukraina}}
+* {{T|nn}} : {{trad+|no|Ukraina}}
+* {{T|oc}} : {{trad+|oc|Ucraïna}}
+* {{T|os}} : {{trad|os|Украинæ|R=Ukrainæ}}
+* {{T|ur}} : {{trad-|ur|یوکرائن}}
+* {{T|fa}} : {{trad-|fa|اوکراین}}
+* {{T|pl}} : {{trad+|pl|Ukraina}}
+* {{T|pt}} : {{trad+|pt|Ucrânia}}
+* {{T|qu}} : {{trad-|qu|Ukranya}}
+* {{T|ro}} : {{trad+|ro|Ucraina}}, {{trad+|ro|Украина|R=Ukraina}}
+* {{T|ru}} : {{trad+|ru|Украина|tr=Ukraina}}
+* {{T|rue}} : {{trad|rue|Україна}}
+* {{T|se}} : {{trad|se|Ukraina}}
+* {{T|sr}} : {{trad+|sr|Украјина|R=Ukrajina}}
+* {{T|sh}} : {{trad+|sh|Ukrajina}}
+* {{T|sk}} : {{trad+|sk|Ukrajina}}
+* {{T|sl}} : {{trad+|sl|Ukrajina}}
+* {{T|sv}} : {{trad+|sv|Ukraina}}
+* {{T|tl}} : {{trad-|tl|Ukraine}}
+* {{T|cs}} : {{trad+|cs|Ukrajina}}
+* {{T|cv}} : {{trad|cv|Украина|R=Ukraina}}
+* {{T|te}} : {{trad+|te|ఉక్రెయిన్|tr=Ukreyin}}
+* {{T|th}} : {{trad+|th|ประเทศยูเครน}}
+* {{T|tr}} : {{trad+|tr|Ukrayna}}
+* {{T|uk}} : {{trad+|uk|Україна|R=Ukrajina}}
+* {{T|vi}} : {{trad-|vi|Ukraina}}, {{trad-|vi|U-crai-na}}
+* {{T|vro}} : {{trad|vro|Ukraina}}
+* {{T|wa}} : {{trad+|wa|Oucrinne}}
+* {{T|wo}} : {{trad-|wo|Ukreen}}
+* {{T|yi}} : {{trad-|yi|אוקריינע}}
+{{trad-fin}}
+
+=== {{S|prononciation}} ===
+* {{pron-rimes|y.kʁɛn|fr}}
+* {{écouter|lang=fr|Belgique (Brabant) : l’Ukraine|lyˈkʁɛːn|audio=Fr-l'Ukraine-fr Be.ogg}}
+* {{écouter|Yvelines (France)|y.kʁɛn|lang=fr|audio=LL-Q150 (fra)-Jules78120-Ukraine.wav}}
+* {{écouter|lang=fr|France (Paris)|y.kʁɛn|audio=LL-Q150 (fra)-GrandCelinien-Ukraine.wav}}
+* {{écouter|lang=fr|Suisse (canton du Valais)|y.kʁɛn|audio=LL-Q150 (fra)-DSwissK-Ukraine.wav}}
+* {{écouter|lang=fr|France (Vosges)|y.kʁɛn|audio=LL-Q150 (fra)-Poslovitch-Ukraine.wav}}
+* {{écouter|lang=fr|France (Vosges)|y.kʁɛn|audio=LL-Q150 (fra)-LoquaxFR-Ukraine.wav}}
+* {{écouter|Perpignan (France)|y.kʁɛn|lang=fr|audio=LL-Q150 (fra)-Laszlo Cárdenas (Culex)-Ukraine.wav}}
+* {{écouter|Haute-Loire (France)||lang=fr|audio=LL-Q150 (fra)-Sayoxime-Ukraine.wav}}
+
+=== {{S|voir aussi}} ===
+* {{WP}}
+* {{Vikidia}}
+* {{Le Dico des Ados}}
+* {{WQ}}
+
+=== {{S|références}} ===
+<references>
+<ref name="Moreri1683">Louys Moreri, ''Le Grand Dictionnaire historique ou Le Mélange curieux de l’histoire sacrée et profane'', tome 2, partie 2, Jean Girin et Barthelemy Riviere, Lyon, 1683, s.v. ''Ukraine'', page 1246 ([http://gallica.bnf.fr/ark:/12148/bpt6k5712657f lire en ligne])</ref>
+</references>
+
+{{Bonne entrée|français|lien=Wiktionnaire:Évaluation/février 2025#Ukraine}}
+
+[[Catégorie:Ukraine en français|*]]
+
+== {{langue|gsw}} ==
+=== {{S|nom propre|gsw}} ===
+'''Ukraine''' {{pron||gsw}}
+# {{pays|gsw}} [[Ukraine#Français|Ukraine]] (pays d’Europe).
+
+[[Catégorie:Ukraine en alémanique|*]]
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|de}}
+
+=== {{S|nom propre|de}} ===
+{{de-nom-propre|genre=f}}
+'''Ukraine''' {{pron|ˌukʁaˈiːnə|de}} {{f}}
+# {{pays|de|d’Europe}} [[Ukraine#Français|Ukraine]] (pays d’Europe).
+#* {{exemple|Der 24. Februar 2022 wird als Zäsur in die Geschichte eingehen. An diesem Tag gingen die ersten russischen Bomben auf die ukrainische Hauptstadt Kyjiw und andere Orte in der '''Ukraine''' nieder.|lang=de|sens=Le 24 février 2022 restera dans l’histoire comme un tournant. Ce jour-là, les premières bombes russes sont tombées sur la capitale ukrainienne, Kyiv, et sur d’autres lieux en Ukraine.|source={{périodique|auteur=Barbara Oertel|titre=Zwischen Hass und Hoffnung|journal=taz|date=24 août 2022|texte=https://taz.de/Sechs-Monate-Krieg-in-der-Ukraine/!5873455/}}}}
+
+=== {{S|prononciation}} ===
+* {{écouter|Berlin|ˌukʁaˈiːnə|lang=de|audio=DE-Ukraine.ogg}}
+* {{écouter||ˌukʁaˈiːnə|lang=de|audio=LL-Q188 (deu)-Mathieu Kappler-Ukraine.wav}}
+
+[[Catégorie:Ukraine en allemand|*]]
+
+== {{langue|nds}} ==
+=== {{S|nom propre|nds}} ===
+'''Ukraine''' {{pron||nds}}
+# {{pays|nds}} [[Ukraine#Français|Ukraine]] (pays d’Europe).
+
+[[Catégorie:Ukraine en bas allemand|*]]
+
+== {{langue|en}} ==
+=== {{S|étymologie}} ===
+: {{date|années 1670|lang=en}} Du {{étyl|ru|en|Украина|dif=Украи́на}}{{R|etymonline}} ou {{étyl|pl|en|Ukraina}}{{R|etymonline}}, du {{étyl|orv|en|украина|sens=frontière, zone frontalière}}{{R|etymonline}} composé de {{étyl|orv|en|оу|sens=à côté, à}}{{R|etymonline}} + {{étyl|orv|en|краи|sens=terre, bord}}{{R|etymonline}} et de {{lien|-ина|orv}}.
+
+=== {{S|nom propre|en}} ===
+[[File:Europe-Ukraine (disputed territory).svg|thumb|redresse|'''Ukraine''' (1) in Europe.<br>(L’Ukraine en Europe)]]
+'''Ukraine''' {{pron|ju.ˈkɹeɪn|en}} {{US|nocat=1}}, {{pron|juː.ˈkɹeɪn|en}} {{UK|nocat=1}}
+# {{pays|en|d’Europe}} [[Ukraine#fr|Ukraine]] (pays d’Europe).
+#* {{exemple | lang=en
+ | Jews are the most urbanized group in the '''Ukraine''' with 98.3 percent living in the cities according to the 1970 census.
+ | source=Stephen Rapawy, ''Linguistic Shift Among Ukrainians in the Ukraine Since Stalin'', 1977}}
+#* {{exemple | lang=en
+ | March 1996 marked the first five-year anniversary of land reform in '''Ukraine'''.
+ | source=Csaba Csaki et Zvi Lerman, ''Land Reform in Ukraine: The First Five Years'', 1997}}
+# {{URSS|en}} {{date|1919–1991}} [[RSS d’Ukraine]].
+#* {{exemple|lang=en}}
+
+==== {{S|notes}} ====
+: L’utilisation de l’article défini ''[[the]]'' (« ''the'' Ukraine ») depuis l’indépendance de l’Ukraine est critiquée par certain·es comme pouvant faire sous-entendre que l’Ukraine serait une partie de la Russie{{R|BBC|https://web.archive.org/web/20251005235323/https://www.bbc.com/news/magazine-18233844}}{{R|TIME|https://time.com/12597/the-ukraine-or-ukraine/}}.
+
+==== {{S|synonymes}} ====
+* {{lien|Little Russia|en}} ''(Histoire)''
+* {{lien|Ukrainian SSR|en}} ''(Histoire)'' {{date|1919–1991}}
+
+==== {{S|gentilés}} ====
+* {{lien|Ukrainian|en}}
+
+==== {{S|vocabulaire}} ====
+* {{thématique|pays d’Europe|Républiques socialistes soviétiques|en}}
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=en|États-Unis|ju.ˈkɹeɪn|audio=En-us-Ukraine.ogg}}
+* {{écouter|Londres (Royaume-Uni)||lang=en|audio=LL-Q1860 (eng)-Soundguys-Ukraine.wav}}
+
+=== {{S|références}} ===
+{{références}}
+[[Catégorie:Ukraine en anglais|*]]
+
+== {{langue|da}} ==
+=== {{S|nom propre|da}} ===
+'''Ukraine''' {{pron||da}}
+# {{pays|da|d’Europe}} [[Ukraine#Français|Ukraine]] (pays d’Europe).
+
+[[Catégorie:Ukraine en danois|*]]
+
+== {{langue|ms}} ==
+=== {{S|nom propre|ms}} ===
+'''Ukraine''' {{pron||ms}}
+# {{pays|ms|d’Europe}} [[Ukraine#Français|Ukraine]] (pays d’Europe).
+
+[[Catégorie:Ukraine en malais|*]]
+
+== {{langue|na}} ==
+=== {{S|nom propre|na}} ===
+'''Ukraine''' {{pron||na}}
+# {{pays|na|d’Europe}} [[Ukraine#Français|Ukraine]] (pays d’Europe).
+
+[[Catégorie:Ukraine en nauruan|*]]
+
+== {{langue|tl}} ==
+=== {{S|nom propre|tl}} ===
+'''Ukraine''' {{pron||tl}}
+# {{pays|tl|d’Europe}} [[Ukraine#Français|Ukraine]] (pays d’Europe).
+
+[[Catégorie:Ukraine en tagalog|*]]

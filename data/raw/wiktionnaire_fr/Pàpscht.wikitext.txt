@@ -1,0 +1,29 @@
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw}}
+
+=== {{S|nom|gsw}} ===
+'''Pàpscht''' {{phon|pɒb̥ʃt|gsw}} {{m}}
+# {{Alsace|gsw}} {{lexique|catholicisme|gsw}} [[pape#fr|Pape]].
+#* {{exemple|lang=gsw}}
+#* {{exemple | lang=gsw
+ | Un doch „D Glàuibiga han a nàtirlig un ìwernàtirlig Racht uf seelsorgischa Betrèiung ìn ìhrer Müattersproch “, hàt scho vor Johra dr '''Pàpscht''' Pius XI. (1857-1939) verkìnda.
+ |Et pourtant, « les croyants ont un droit naturel et surnaturel à l'accompagnement spirituel dans leur langue maternelle », annonçait déjà le pape Pie XI bien des années auparavant.
+ | source = Yves Bisch, [https://c.lalsace.fr/actualite/2023/04/14/sprochwunder « Schprochwunder »], ''[[:w:L'Alsace|L'Alsace]]'', 14 avril 2023}}
+#* {{exemple | lang=gsw
+ | Er esch d'r letscht wie von em'e Àrzbischoff Heilig gsproche worre n'esch, derno ìsch's d'r '''Pàpscht''' ùn nùmme d'r '''Pàpscht''' wie dìss màche kànn.
+ |Il est le dernier à avoir été canonisé par un archevêque ; c'est au pape, et à lui seul, que revient ensuite ce droit.
+ | source = Pierre Nuss, [https://www.francebleu.fr/vie-quotidienne/famille-enfants/aujourd-hui-9-avril-nous-fetons-les-gauthier-1586415760 « Aujourd'hui 9 avril, nous fêtons les Gauthier»], [[:w:France Bleu Elsass|France Bleu Elsass]], 9 avril 2020}}
+#* {{exemple | lang=gsw
+ | De Fuhlrad, e Beroter vom Pépin le Bref, esch zem '''Pàpscht''' met'ere Fröij gscheckt worre.
+ |Fuhlrad, un conseiller de Pépin le Bref, a été envoyé auprès du pape pour lui poser une question.
+ | source = Marie-Thérèse Fischer, [https://www.francebleu.fr/emissions/l-histoire-qui-fait-l-alsace-par-marie-therese-fischer/histoire-de-l-alsace-en-alsacien-de-l-alsace-des-francs-au-saint-empire-romain-germanique « Histoire de l'Alsace en alsacien : de l'Alsace des Francs au Saint-Empire Romain Germanique »], [[:w:France Bleu Elsass|France Bleu Elsass]], 5 novembre 2014}}
+
+==== {{S|variantes dialectales}} ====
+* {{lien|Pàbscht|gsw}}
+
+==== {{S|dérivés}} ====
+* {{lien|pàpschtlig|gsw}} — pontifical
+
+=== {{S|références}} ===
+* {{Ouvrage|langue=fr|prénom=André |nom=Nisslé|titre=D’ Lehrschtuwa: Dictionnaire français-alsacien / Wärterbüach elsassisch franzesch|éditeur=Association Culture et Patrimoine d’Alsace|ISBN=978-2-36702-058-7|page=|para=|année=2015}}.

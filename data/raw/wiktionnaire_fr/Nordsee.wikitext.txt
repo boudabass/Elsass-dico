@@ -1,0 +1,82 @@
+== {{langue|gsw}} ==
+
+=== {{S|étymologie}} ===
+: {{composé de|Nord|sens1=|See|sens2=mer|lang=de|m=1}}.
+
+=== {{S|nom propre|gsw}} ===
+'''Nordsee''' {{pron||gsw}}
+# [[mer du Nord#fr|Mer du Nord]].
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: {{composé de|Nord|sens1=nord|See|sens2=mer|lang=de|m=1}}. Apparenté au néerlandais ''[[Noordzee]]''.<ref> {{source|Wolfgang {{pc|Pfeifer}}, ''Etymologisches Wörterbuch des Deutschen'', Éditions Deutscher Taschenbuch, 1997, ISBN-13: 978342-3325110 }} </ref> 
+
+=== {{S|nom propre|de}} ===
+{{de-nom-propre|genre=f}}
+[[Fichier:North Sea map-de.png|vignette|'''Nordsee''' - mer du Nord]]
+'''Nordsee''' {{pron|ˈnɔʁtˌz̥eː|de}} {{f}}, {{au singulier uniquement|de}}
+# {{mers|de}} [[mer du Nord#fr|Mer du Nord]], (mer épicontinentale de l'océan Atlantique, située au nord-ouest de l'Europe).
+#* {{exemple|Die '''Nordsee''' ist bei Sturm sehr rauh.|sens=La mer du Nord est très agitée en cas de tempête.|lang=de}}
+#* {{exemple|Vor 8200 Jahren schob sich eine Monsterwelle durch die '''Nordsee''' und flutete Landflächen. Nun zeigt eine Simulation, wie stark die Flutwellen die schottische Küste getroffen haben.|lang=de|sens=Il y a 8200 ans, une vague monstre a traversé la mer du Nord et inondé des terres. Aujourd'hui, une simulation montre à quel point les raz-de-marée ont touché la côte écossaise.|source={{périodique|auteur=Karin Schlott|titre=Steinzeit-Tsunami verwüstete Schottlands Küste|journal=Spektrum der Wissenschaft|date=4 juin 2021|texte=https://www.spektrum.de/news/katastrophe-steinzeit-tsunami-verwuestete-schottlands-kueste/1881643}}}}
+
+==== {{S|synonymes}} ====
+* [[Blanker Hans]]
+
+==== {{S|hyperonymes}} ====
+* [[Toponym]] (''toponyme'')
+* [[Eigenname]] (''nom propre'')
+* [[Name]] (''nom'')
+* [[Atlantik]] (''Atlantique'')
+* [[Wasseroberfläche]] (''surface de l'eau'')
+* [[Meer]] (''mer'')
+* [[Erde]] (''terre'')
+* [[Erdoberfläche]] (''surface de la terre'')
+* [[Sprache]] (''langue'')
+
+==== {{S|hyponymes}} ====
+* [[Schleswig-Holsteinisches Wattenmeer]] (''mer des Wadden du Schleswig-Holstein'')
+* [[Ärmelkanal]] (''mer de la Manche'')
+* [[Doggerbank]] (''Dogger Bank'')
+* [[Niedersächsisches Wattenmeer]] (''mer des Wadden de Basse-Saxe'')
+* [[Skagerak]] (''Skagerrak'')
+* [[Deutsche Bucht]] (''baie Allemande'')
+
+==== {{S|dérivés}} ====
+{{(|&nbsp;}}
+* [[Nordseebad]] (''station balnéaire de la mer du Nord'')
+* [[Nordseedeich]] (''digue de la mer du Nord'')
+* [[Nordseefischer]] (''pêcheur de la mer du Nord'')
+* [[Nordseeflotte]] (''flotte de la mer du Nord'')
+* [[Nordseegarnele]] (''crevette grise'')
+* [[Nordseegas]] (''gaz de la mer du Nord'')
+* [[Nordseehafen]] (''port de la mer du Nord'')
+* [[Nordseeheilbad]] (''station balnéaire de la mer du Nord'')
+* [[Nordseeinsel]] (''île de la mer du Nord'')
+* [[Nordseekanal]] (''canal de la mer du Nord'')
+* [[Nordseekrabbe]] (''crevette de la mer du Nord'')
+* [[Nordseeküste]] (''côte de la mer du Nord'')
+* [[Nordseeluft]] (''air de la mer du Nord'')
+* [[Nordseeöl]] ('pétrole de la mer du Nord'')
+* [[Nordseesehnsucht]] (''nostalgie de la mer du Nord'')
+* [[Nordseesorte]] (''espèce de la mer du Nord'')
+* [[Nordseestrand]] (''plage de la mer du Nord'')
+* [[Nordseewasser]] (''eau de la mer du Nord'')
+* [[Nordseewelle]] (''vague de la mer du Nord'')
+{{)}}
+
+=== {{S|prononciation}} ===
+* {{écouter|Vienne|ˈnɔʁtˌz̥eː|lang=de|audio=De-at-Nordsee.ogg}}
+* {{écouter|Berlin|ˈnɔʁtˌz̥eː|lang=de|audio=De-Nordsee.ogg}}
+
+=== {{S|références}} ===
+<references />
+
+==== {{S|sources}} ====
+* {{R:DWDS|Nordsee}}
+* {{R:Duden|Nordsee}} 
+* {{Source-wikt|de|Nordsee}}
+==== {{S|bibliographie}} ====
+* Larousse - Dctionnaire allemand/français – français/allemand , éd. 1958, p 617.
+* Harrap’s  de poche – Bordas Dictionnaire allemand/français, éd. 1997, ISBN 0-245-50308-0, p 213. 
+
+[[Catégorie:Mers en allemand]]

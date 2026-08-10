@@ -1,0 +1,64 @@
+{{voir|gallium}}
+
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw}}
+
+=== {{S|nom|gsw}} ===
+'''Gallium''' {{pron||gsw}}
+# {{éléments|gsw}} {{métaux|gsw}} [[gallium|Gallium]].
+{{clr}}
+==== {{S|vocabulaire}} ====
+{{tableau périodique/gsw}}
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|fr|de|gallium}}.
+
+=== {{S|nom|de}} ===
+{{légende élément/de|Ga}}
+[[Image:Gallium_crystals.jpg|thumb|'''Gallium'''.]]
+'''Gallium''' {{pron|ˈɡalɪ̯ʊm|de}} {{n}}
+# {{éléments|de}} {{métaux|de}} [[gallium#fr|Gallium]] (l’{{lien|élément chimique}} [[Ga#conv|Ga]]).
+#* {{exemple|Laut Schätzungen produziert das Reich der Mitte über 90 Prozent des weltweiten '''Gallium'''s, bei Germanium dürften es nahezu 80 Prozent sein. |lang=de|sens=Selon les estimations, la Chine produit plus de 90 pour cent du gallium mondial, et probablement près de 80 pour cent du germanium.|source={{périodique|auteur=Fabian Kretschmer|titre=China holt im Techkrieg zum Gegenschlag aus|journal=RedaktionsNetzwerk Deutschland|date=8 juillet 2023|texte=https://www.rnd.de/politik/china-holt-im-tech-krieg-zum-gegenschlag-aus-X443PCZAFZDZPGSZYD4FDHGDIE.html}}}}
+
+==== {{S|dérivés}} ====
+* {{lien|Galliumarsenid|de}}
+* {{lien|Galliumnitrid|de}}
+* {{lien|Galliumverbindung|de}}
+{{clr}}
+==== {{S|vocabulaire}} ====
+* {{voir thésaurus|de|tableau périodique des éléments}}
+{{tableau périodique/de}}
+{{Liste|avant={{lien|Zink|de}}<br>([[zn#conv|Zn]])|après={{lien|Germanium|de}}<br>([[Ge#conv|Ge]])|liste=[[Thésaurus:tableau périodique des éléments/allemand|Éléments chimiques en allemand]]}}
+
+=== {{S|prononciation}} ===
+* {{écouter|Vienne|ˈɡali̯ʊm|lang=de|audio=De-at-Gallium.ogg}}
+* {{écouter|Berlin|ˈɡali̯ʊm|lang=de|audio=De-Gallium.ogg}}
+* {{écouter|{{DE|nocat=1}}|ˈɡali̯ʊm|lang=de|audio=LL-Q188 (deu)-Lucas Werkmeister-Gallium.wav}}
+* {{écouter|Berlin|ˈɡali̯ʊm|lang=de|audio=LL-Q188 (deu)-Sebastian Wallroth-Gallium.wav}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=de}}
+
+== {{langue|lb}} ==
+=== {{S|étymologie}} ===
+: Du mot {{étyl|fr|lb|gallium}}.
+
+=== {{S|nom|lb}} ===
+{{lb-inv|ɡˈɑli̯um}}
+'''Gallium''' {{pron|ɡˈɑli̯um|lb}} {{m}}, {{au singulier uniquement|lb}}
+# {{éléments|lb}} {{métaux|lb}} [[gallium#fr|Gallium]].
+#* {{exemple|lang=lb}}
+{{clr}}
+==== {{S|vocabulaire}} ====
+{{tableau périodique/lb}}
+
+=== {{S|prononciation}} ===
+* {{écouter|Angers (France)||niveau=bon|lang=lb|audio=LL-Q9051 (ltz)-Procrastineur49-Gallium.wav}}
+
+=== {{S|références}} ===
+: {{R:LOD}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=lb}}

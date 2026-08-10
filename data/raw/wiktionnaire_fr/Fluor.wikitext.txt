@@ -1,0 +1,97 @@
+{{voir/fluor}}
+
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw}}
+
+=== {{S|nom|gsw}} ===
+'''Fluor''' {{pron||gsw}}
+# {{éléments|gsw}} [[fluor|Fluor]].
+{{clr}}
+==== {{S|vocabulaire}} ====
+{{tableau périodique/gsw}}
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: {{laé|de|nom|1}} Du latin scientifique ''Fluor vaginalis''.
+: {{laé|de|nom|2}} Du français ''[[fluor#fr|fluor]]''.
+
+=== {{S|nom|de|num=1}} ===
+{{de-nom-m-sing}}
+'''Fluor''' {{pron|ˈfluːoːɐ̯|de}} {{m}} {{au singulier uniquement|de}}
+# {{maladies|de}} [[leucorrhée#fr|Leucorrhée]].
+
+==== {{S|synonymes}} ====
+; (sens 1)
+* {{lien|Fluor albus|de}}
+* {{lien|Fluor vaginalis|de}}
+* {{lien|Leukorrhoe|de}}
+* {{lien|Weißfluss|de}}
+
+=== {{S|nom|de|num=2}} ===
+{{de-nom-n-sing}}
+{{légende élément/de|F|num=2}}
+[[Image:Liquid_fluorine_tighter_crop.jpg|thumb|Flüssiges '''Fluor'''.]]
+'''Fluor''' {{n}} {{pron|ˈfluːoːɐ̯|de}} {{au singulier uniquement|de}}
+# {{éléments|de}} [[fluor#fr|Fluor]] (l’{{lien|élément chimique}} [[F#conv|F]]).
+
+==== {{S|dérivés}} ====
+{{(}}
+* {{l|Biofluoreszenz|de}}
+* {{l|Fluorchlorkohlenwasserstoff|de}}
+* {{l|Fluorochrome|de}}
+* {{l|Fluorescein|de}}
+* {{l|Fluoreszenzfarbstoffe|de}}
+* {{l|Fluoreszenz|de}}
+* {{l|fluoreszieren|de}}
+* {{l|Fluoreszierung|de}}
+* {{l|Fluorid|de}}
+* {{l|fluorieren|de}}
+* {{l|Fluorit|de}}
+* {{l|fluorogen|de}}
+* {{l|Fluorometer|de}}
+* {{l|Fluorometrie|de}}
+* {{l|Fluorophor|de}}
+* {{l|Fluorose|de}}
+* {{l|Fluorosilikat|de}}
+* {{l|Fluortest|de}}
+* {{l|Fluorverbindung|de}}
+* {{l|Fluorvergiftung|de}}
+* {{l|Fluorwasserstoff|de}}
+* {{l|Grün fluoreszierendes Protein|de}}
+{{)}}
+
+==== {{S|vocabulaire}} ====
+{{tableau périodique/de}}
+{{Liste|avant={{lien|Sauerstoff|de}} ou {{lien|Oxygenium|de}}<br>([[O#conv|O]])|après={{lien|Neon|de}}<br>([[Ne#conv|Ne]])|liste=[[Thésaurus:tableau périodique des éléments/allemand|Éléments chimiques en allemand]]}}
+
+=== {{S|prononciation}} ===
+* {{pron|ˈfluːoːɐ̯|de}}
+* {{écouter||ˈfluːoːɐ̯|lang=de|audio=De-Fluor.ogg}}
+* {{écouter|lang=de|Allemagne (Berlin)|ˈfluːoːɐ̯|audio=LL-Q188 (deu)-Lucas Werkmeister-Fluor.wav}}
+* {{écouter|lang=de|Allemagne (Berlin)|ˈfluːoːɐ̯|audio=LL-Q188 (deu)-Sebastian Wallroth-Fluor.wav}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=de}}
+
+== {{langue|lb}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|lb}}
+ 
+=== {{S|nom|lb}} ===
+{{lb-inv|flˈuːɔːʀ}}
+'''Fluor''' {{pron|flˈuːɔːʀ|lb}} {{m}}, {{au singulier uniquement|lb}}
+# {{éléments|lb}} [[#fr|Fluor]].
+#* {{exemple|lang=lb}}
+{{clr}}
+==== {{S|vocabulaire}} ====
+{{tableau périodique/lb}}
+
+=== {{S|prononciation}} ===
+* {{écouter|Angers (France)||niveau=bon|lang=lb|audio=LL-Q9051 (ltz)-Procrastineur49-Fluor.wav}}
+
+=== {{S|références}} ===
+: {{R:LOD}}
+
+=== {{S|voir}} ===
+* {{WP|lang=lb}}

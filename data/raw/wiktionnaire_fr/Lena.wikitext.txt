@@ -1,0 +1,273 @@
+{{voir/lena}}
+
+== {{langue|fr}} ==
+=== {{S|étymologie}} ===
+: {{lien-ancre-étym|fr|nom-pr|1}} De l’{{étylp|es|fr|mot=Lena}}.
+: {{lien-ancre-étym|fr|nom-pr|2}} Du {{étylp|ru|fr|mot=Лена}}.
+: {{lien-ancre-étym|fr|prénom}} Graphie anglais de ''[[Léna]]'', diminutif par apocope de ''[[Héléna]]'' ; aussi diminutif de noms en langues germaniques comme ''[[Helena]]'', ''[[Magdalena]]'' ou de noms en langues slaves comme ''[[Magdalena]]'', ''[[Yelena]]''.
+
+=== {{S|nom propre|fr|num=1}} ===
+{{fr-inv|le.na|inv_titre=Nom propre}}
+'''Lena''' {{pron|le.na|fr}}
+# {{localités|fr|d’Espagne}} [[commune|Commune]] d’[[Espagne]], située dans la province et Communauté autonome des [[Asturies]].
+#* {{exemple|lang=fr
+ | C’est dans les alentours de Pola de Lena, aux Asturies, qu’il faudra aller visiter l’église Santa Cristina de '''Lena''', un joyau de l’art préroman du IX{{e}} siècle, classée au patrimoine de l’Unesco en 1985 et dont le style est proche de celui de Santa María del Naranco, près d’Oviedo.
+ | source = {{ouvrage |auteurs=Dominique Auzias, Jean-Pual Labourdette |titre=Routes culturelles Espagne |année=2016 |éditeur=Petit Futé}}
+}}
+
+==== {{S|traductions}} ====
+{{trad-début}}
+* {{T|ast}} : {{trad-|ast|Ḷḷena}}
+* {{T|es}} : {{trad+|es|Lena}}
+* {{T|it}} : {{trad+|it|Lena}}
+{{trad-fin}}
+
+=== {{S|nom propre|fr|num=2}} ===
+'''Lena''' {{pron|le.na|fr}} {{f}} {{s}}, {{invariable}}
+# {{cours d’eau|fr|de Russie}} {{variante de|Léna|fr}}.
+#* {{exemple|lang=fr
+ | Le PNCL longe une partie du fleuve '''Lena''' et de son affluent la Buotama.
+ | source = {{ouvrage |titre=Parc naturel des colonnes de la Lena |collection=Candidature au Patrimoin mondial Évaluation technique de l’UICN, no. 1299 |auteur=Fédération de Russie |année=2012 |url=https://whc.unesco.org/document/152287 }}
+}}
+
+=== {{S|prénom|fr|genre=f}} ===
+'''Lena''' {{pron|le.na|fr}} {{f}}
+# Prénom féminin aux origines diverses dont principalement un diminutif de nom terminant avec ''lena'' ; équivalent ou variante de ''[[Léna]]''.
+#* {{exemple|lang=fr |Cette fresque, au cœur du parc du quartier Solomyansky à Kiev, est l’œuvre de Vitaliy Gideone et '''Lena''' Noyma.|source=journal ''20 minutes'', édition Paris-IDF, 7 avril 2023, page 7}}
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=fr|France (Île-de-France)|le.na|audio=Fr-Paris--Lena.ogg}}
+
+=== {{S|anagrammes}} ===
+{{voir anagrammes|fr}}
+
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: Du {{étylp|ru|gsw|mot=Лена|tr=Lena}}.
+
+=== {{S|nom propre|gsw}} ===
+'''Lena''' {{pron||gsw}}
+# {{cours d’eau|gsw|de Russie}} {{lien|Léna|fr}}.
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: Du {{étylp|ru|de|mot=Лена|tr=Lena}}.
+
+=== {{S|nom propre|de}} ===
+'''Lena''' {{pron||de}}
+# {{cours d’eau|de|de Russie}} {{lien|Léna|fr}}.
+
+=== {{S|prononciation}} ===
+* {{écouter|{{AT|nocat=1}}||lang=de|audio=De-at Lena.ogg}}
+
+== {{langue|en}} ==
+=== {{S|étymologie}} ===
+: Du {{étylp|ru|en|mot=Лена|tr=Lena}}.
+
+=== {{S|nom propre|en}} ===
+'''Lena''' {{pron||en}}
+# {{cours d’eau|en|de Russie}} {{lien|Léna|fr}}.
+
+== {{langue|ast}} ==
+=== {{S|étymologie}} ===
+: Du {{étylp|ru|ast|mot=Лена|tr=Lena}}.
+
+=== {{S|nom propre|ast}} ===
+'''Lena''' {{pron||ast}} {{f}}
+# {{cours d’eau|ast|de Russie}} {{lien|Léna|fr}}.
+
+== {{langue|br}} ==
+=== {{S|étymologie}} ===
+: {{aphérèse|br|m=1}} de {{lien|''Elena''|br}}.
+
+=== {{S|prénom|br|genre=f}} ===
+'''Lena''' {{pron|ˈlẽː.na|br}} {{f}}
+# Prénom féminin.
+#* {{exemple | lang=br
+ | Per Roparz eo a oa o paouez mont e-biou dezho kazel-ha-kazel gant '''Lena''' Fichou hag o kuzulikat dezhi e pleg he skouarn komzoù a lakae ar gwad da sevel un netra d’ he divjod re zisliv.
+ | C’est Per Roparz qui venait de passer devant elles, bras dessus, bras dessous avec Lena Fichou et lui chuchotant à l’oreille des paroles qui faisaient un rien monter le sang à ses joues trop pâles.
+ |source={{w|Fañch Elies}}, ''Ar Gousper'', in ''{{w|Al Liamm}}'', {{numéro|54}}, janvier-février 1956, page 11}}
+#* {{exemple | lang=br
+ | '''Lena''' a zeue he moerebed d’ ober war he zro, stad enne gant koantiz ar placʼh.
+ | Les tantes de Lena venaient s’occuper d’elle, fières de la beauté de la fille.
+ |source=Iona, ''Al Liamm ene'', in ''{{w|Al Liamm}}'', {{numéro|152}}, mai-juin 1972, page 193}}
+#* ''{{w|Lena Louarn|'''Lena''' Louarn}}''
+
+==== {{S|diminutifs}} ====
+* {{lien|Lenaig|br}}
+
+=== {{S|anagrammes}} ===
+{{voir anagrammes|br}}
+
+== {{langue|ca}} ==
+=== {{S|étymologie}} ===
+: Du {{étylp|ru|ca|mot=Лена|tr=Lena}}.
+
+=== {{S|nom propre|ca}} ===
+'''Lena''' {{pron||ca}} {{m}}
+# {{cours d’eau|ca|de Russie}} {{lien|Léna|fr}}.
+
+== {{langue|es}} ==
+=== {{S|étymologie}} ===
+: {{term|localité espagnole}} De l’{{étylp|ast|es|mot=Ḷḷena}}.
+: {{term|fleuve russe}} Du {{étylp|ru|es|mot=Лена|tr=Lena}}.
+
+=== {{S|nom propre|es|num=1}} ===
+'''Lena''' {{pron||es}} {{f}}
+# {{localités|es|d’Espagne}} {{lien|Lena|fr}}.
+#* {{exemple|lang=es}}
+
+=== {{S|nom propre|es|num=2}} ===
+'''Lena''' {{pron||es}} {{m}}
+# {{cours d’eau|es|de Russie}} {{lien|Léna|fr}}.
+#* {{exemple|lang=es}}
+
+=== {{S|voir aussi}} ===
+* {{WP|Lena (Asturias)|lang=es}}
+* {{WP|Río Lena|lang=es}}
+
+== {{langue|fi}} ==
+=== {{S|étymologie}} ===
+: Du {{étylp|ru|fi|mot=Лена|tr=Lena}}.
+
+=== {{S|nom propre|fi}} ===
+'''Lena''' {{pron||fi}}
+# {{cours d’eau|fi|de Russie}} {{lien|Léna|fr}}.
+
+== {{langue|gl}} ==
+=== {{S|étymologie}} ===
+: Du {{étylp|ru|gl|mot=Лена|tr=Lena}}.
+
+=== {{S|nom propre|gl}} ===
+'''Lena''' {{pron||gl}} {{m}}
+# {{cours d’eau|gl|de Russie}} {{lien|Léna|fr}}.
+
+== {{langue|is}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|is}}
+
+=== {{S|prénom|is|genre=f}} ===
+{{is-décl-prénom|a=Lenu|d=Lenu|g=Lenu}}
+'''Lena''' {{pron||is}} {{f}}
+# Prénom féminin.
+
+== {{langue|it}} ==
+=== {{S|étymologie}} ===
+: (cours d’eau russe) Du {{étylp|ru|it|mot=Лена|tr=Lena}}.
+: (localité espagnole) De l’{{étylp|es|fr|mot=Lena}}.
+
+=== {{S|nom propre|it}} ===
+'''Lena''' {{pron||it}}
+# {{cours d’eau|it|de Russie}} {{lien|Léna|fr}}.
+# {{localités|es|d’Espagne}} {{lien|Lena|fr}}, commune d’Espagne, située dans la province et Communauté autonome des Asturies.
+
+=== {{S|anagrammes}} ===
+{{voir anagrammes|it}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=it}}
+
+== {{langue|lt}} ==
+=== {{S|étymologie}} ===
+: Du {{étylp|ru|lt|mot=Лена|tr=Lena}}.
+
+=== {{S|nom propre|lt}} ===
+'''Lena''' {{pron||lt}}
+# {{cours d’eau|lt|de Russie}} {{lien|Léna|fr}}.
+
+== {{langue|nl}} ==
+=== {{S|étymologie}} ===
+: Du {{étylp|ru|nl|mot=Лена|tr=Lena}}.
+
+=== {{S|nom propre|nl}} ===
+'''Lena''' {{pron||nl}}
+# {{cours d’eau|nl|de Russie}} {{lien|Léna|fr}}.
+
+=== {{S|prononciation}} ===
+* {{écouter|||lang=nl|audio=Nl-Lena.ogg}}
+
+== {{langue|no}} ==
+=== {{S|étymologie}} ===
+: Du {{étylp|ru|no|mot=Лена|tr=Lena}}.
+
+=== {{S|nom propre|no}} ===
+'''Lena''' {{pron||no}}
+# {{cours d’eau|no|de Russie}} {{lien|Léna|fr}}.
+
+== {{langue|pl}} ==
+=== {{S|étymologie}} ===
+: Du {{étylp|ru|pl|mot=Лена|tr=Lena}}.
+
+=== {{S|nom propre|pl}} ===
+'''Lena''' {{pron||pl}}
+# {{cours d’eau|pl|de Russie}} {{lien|Léna|fr}}.
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=pl||audio=Pl-Lena.ogg}}
+
+== {{langue|pt}} ==
+=== {{S|étymologie}} ===
+: Du {{étylp|ru|pt|mot=Лена|tr=Lena}}.
+
+=== {{S|nom propre|pt}} ===
+'''Lena''' {{pron||pt}} {{m}}
+# {{cours d’eau|pt|de Russie}} {{lien|Léna|fr}}.
+
+== {{langue|ro}} ==
+=== {{S|étymologie}} ===
+: Du {{étylp|ru|ro|mot=Лена|tr=Lena}}.
+
+=== {{S|nom propre|ro}} ===
+'''Lena''' {{pron||ro}}
+# {{cours d’eau|ro|de Russie}} {{lien|Léna|fr}}.
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=ro|Roumanie (Iași)||audio=LL-Q7913 (ron)-KlaudiuMihaila-Lena.wav}}
+
+== {{langue|sl}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|sl}}
+: {{term|fleuve sibérien}} Du {{étylp|ru|sl|mot=Лена|tr=Lena}}.
+
+=== {{S|prénom|sl|genre=f}} ===
+{{sl-décl-nf|Len}}
+'''Lena''' {{pron||sl}} {{f}}
+# Prénom féminin.
+
+=== {{S|nom propre|sl}} ===
+{{sl-décl-nf|Len|pdp=oui}}
+# {{cours d’eau|sl|de Russie}} {{lien|Léna|fr}}.
+
+=== {{S|voir aussi}} ===
+* {{WP|Lena (ime)|Lena|sl}} (prénom)
+* {{WP|3=sl}} (fleuve)
+
+== {{langue|sv}} ==
+=== {{S|étymologie}} ===
+: Du {{étylp|ru|sv|mot=Лена|tr=Lena}}.
+
+=== {{S|nom propre|sv}} ===
+'''Lena''' {{pron||sv}}
+# {{cours d’eau|sv|de Russie}} {{lien|Léna|fr}}.
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=sv|Suède||audio=LL-Q9027 (swe)-Moonhouse-Lena.wav}}
+
+== {{langue|cs}} ==
+=== {{S|étymologie}} ===
+: Du {{étylp|ru|cs|mot=Лена|tr=Lena}}.
+
+=== {{S|nom propre|cs}} ===
+{{cs-décl-nom-f-a|rad=Len|sing=oui}}
+'''Lena''' {{pron||cs}} {{f}}
+# {{cours d’eau|cs|de Russie}} {{lien|Léna|fr}}.
+#* {{exemple | lang=cs | Poprvé se [[Rusové]] k '''Leně''' dostali roku 1623, byla to skupina asi 40 kozáků.}}
+
+=== {{S|prononciation}} ===
+{{ébauche-pron-audio|cs}}
+
+==== {{S|paronymes}} ====
+* [[léna#cs|léna]]
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=cs}}

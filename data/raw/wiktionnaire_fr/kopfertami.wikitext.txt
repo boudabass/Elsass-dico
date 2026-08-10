@@ -1,0 +1,28 @@
+== {{langue|fr}} ==
+{{ébauche|fr}}
+
+=== {{S|étymologie}} ===
+: {{date|lang=fr}} Emprunt à l’{{étyl|gsw|fr|mot=kopfertami|sens=putain}}
+
+=== {{S|interjection|fr}} ===
+'''kopfertami''' {{pron||fr}}
+# {{Alsace|fr}} {{Suisse|fr}} {{vulgaire|fr}} [[juron|Juron]], de même sens que [[putain]].
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=fr|France (Vosges)||audio=LL-Q150 (fra)-LoquaxFR-kopfertami.wav}}
+* {{écouter|Somain (France)||lang=fr|audio=LL-Q150 (fra)-Jérémy-Günther-Heinz Jähnick-kopfertami.wav}}
+
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: {{date|lang=gsw}} Variante alémanique de ''[[gottverdammt]] (mich)''. La forme orthographique '''''kopfertami''''' est le résultat de plusieurs phénomènes phonologiques spécifiques :
+:* [[w:Voisement#Dévoisement|Dévoisement]] des consonnes occlusives initiales, ({{pron|g|gsw}} > {{pron|g̥|gsw}}),
+:* [[w:Assimilation (phonétique)|Assimilation régressive]] du point d’articulation dans les [[w:Consonne affriquée|consonnes affriquées]] ({{pron|t͡f|gsw}} > {{pron|p͡f|gsw}}).
+
+==={{S|interjection|gsw}} ===
+'''kopfertami''' {{pron|g̥ɔp͡fərtæmi|gsw}}
+# {{Suisse|gsw}} {{familier|gsw}} Littéralement ''Que Dieu me damne !'', l’expression est un [[juron]] dont le sens se rapproche de [[putain]], [[bordel]], [[bordel de merde]], [[merde]], [[tabarnak]], [[ostie]],... {{R|Idiotikon}}.
+
+=== {{S|références}} ===
+<references>
+{{R|Idiotikon|2=''Schweizer Idiotikon'', Bd. XII, p. 1791/2, [https://digital.idiotikon.ch/idtkn/id12.htm#!page/121791/mode/1up ''lien vers l'article'']}}
+</references>

@@ -1,0 +1,54 @@
+== {{langue|fr}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|fr|mot=Aarau}}.
+
+=== {{S|nom propre|fr}} ===
+[[Fichier:Aarau rathaus.jpg|vignette|Hôtel de ville d’'''Aarau'''. (1)]]
+'''Aarau''' {{pron|ɑ.ʁo|fr}}{{R|LarousseXIXe}}
+# {{localités|fr|du canton d’Argovie}} Ville du canton d’[[Argovie]] en [[Suisse]].
+#* {{exemple | lang=fr
+ | Les Taignonnes se sont imposées 3-0 samedi à '''Aarau''' pour s’offrir une 8e victoire en autant de matches de Ligue B cette saison.
+ | source=site www.rfj.ch, 4 novembre 2023}}
+# District autour de cette ville.
+#* {{exemple|lang=fr}}
+
+==== {{S|traductions}} ====
+{{trad-début|}}
+* {{T|uk}} : {{trad+|uk|Аарау|n}}, {{trad-|uk|Арау|n}}
+{{trad-fin}}
+
+=== {{S|voir aussi}} ===
+* {{WP}}
+
+=== {{S|références}} ===
+{{Références}}
+
+[[Catégorie:Districts de Suisse en français]]
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: {{composé de|Aare|Aue|lang=de|m=1}}.
+
+=== {{S|nom propre|de}} ===
+'''Aarau''' {{pron||de}} {{n}}
+# {{localités|de|du canton d’Argovie}} Ville du canton d’[[Argovie]] en [[Suisse]].
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=de}}
+
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw}}
+
+=== {{S|nom propre|gsw}} ===
+'''Aarau''' {{pron||gsw}}
+# {{localités|gsw|du canton d’Argovie}} Ville du canton d’[[Argovie]] en [[Suisse]].
+
+== {{langue|sl}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|sl|mot=Aarau}}.
+
+=== {{S|nom propre|sl}} ===
+{{sl-décl-nmd|Aarau|pdp=oui}}
+'''Aarau''' {{pron||sl}} {{m|i}} {{s}}
+# {{localités|sl|du canton d’Argovie}} Ville du canton d’[[Argovie]] en [[Suisse]].

@@ -1,0 +1,67 @@
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+:Du {{étyl|el|gsw|Κύπρος}}.
+
+=== {{S|nom propre|gsw}} ===
+'''Zypern'''
+# [[Chypre]] (pays d’[[Europe]]).
+
+[[Catégorie:Pays en alémanique]]
+[[Catégorie:Îles en alémanique]]
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+:Du {{étyl|el|de|mot=Κύπρος|tr=Kípros|sens=Chypre}}.
+
+=== {{S|nom propre|de}} ===
+{{de-nom-propre|genre=n|gs=Zyperns}}
+'''Zypern''' {{pron|ˈʦyːpɐn|de}} {{n}}
+# [[Chypre]] (pays d’[[Europe]]).
+#* {{exemple|Wer 2,5 Millionen Euro in '''Zypern''' investierte, bekam einen Pass – und damit Zugang zur EU.|lang=de|sens=Celui qui investissait 2,5 millions d’euros à Chypre obtenait un passeport - et donc l’accès à l’UE.|source={{périodique|auteur=Gerd Höhler|titre=„Goldene Pässe“ in Zypern: Regierung zieht weitere Einbürgerungen zurück|journal=RedaktionsNetzwerk Deutschland|date=5 septembre 2022|texte=https://www.rnd.de/politik/goldene-paesse-in-zypern-eu-einbuergerungen-nachtraeglich-gestoppt-DVOXDFYH35GVNEOQSVI65P2EOA.html}}}}
+
+==== {{S|dérivés}} ====
+* [[zyprisch]]
+* [[zypriotisch]]
+
+=== {{S|prononciation}} ===
+* {{écouter|{{DE|nocat=1}}|ˈt͡syːpɐn|lang=de|audio=De-Zypern.ogg}}
+* {{écouter|Vienne|ˈt͡syːpɐn|lang=de|audio=De-at-Zypern.ogg}}
+
+[[Catégorie:Pays d’Europe en allemand]]
+[[Catégorie:Îles en allemand]]
+
+== {{langue|nds}} ==
+=== {{S|étymologie}} ===
+:Du {{étyl|el|nds}} [[Κύπρος]].
+
+=== {{S|nom propre|nds}} ===
+'''Zypern'''
+# [[Chypre]] (pays d’[[Europe]]).
+
+[[Catégorie:Pays d’Europe en bas allemand]]
+[[Catégorie:Îles en bas allemand]]
+
+== {{langue|lb}} ==
+=== {{S|étymologie}} ===
+: Du {{étylp|el|lb|Κύπρος|tr=Kípros}}.
+
+=== {{S|nom propre|lb}} ===
+{{lb-inv|tsˈipɐn}}
+'''Zypern''' {{pron|tsˈipɐn|lb}} {{n}}
+# {{îles|lb|d’Europe}} {{lien|Chypre|fr}}.
+#* {{exemple|lang=lb}}
+# {{pays|lb|d’Europe}} {{lien|Chypre|fr}}.
+#* {{exemple|lang=lb}}
+
+==== {{S|gentilés}} ====
+* {{lien|Zypriot|lb}}, {{lien|Zypriotin|lb}}
+* {{lien|zypriotesch|lb}}
+
+=== {{S|prononciation}} ===
+* {{écouter|Luxembourg|tsˈipɐn|lang=lb|audio=Lb-Zypern.ogg}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=lb}}
+
+=== {{S|références}} ===
+: {{R:LOD}}

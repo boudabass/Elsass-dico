@@ -1,0 +1,72 @@
+{{voir|osmium}}
+
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw}}
+
+=== {{S|nom|gsw}} ===
+'''Osmium''' {{pron||gsw}} {{genre|gsw}}
+# {{éléments|gsw}} {{métaux|gsw}} [[osmium#fr|Osmium]].
+{{clr}}
+==== {{S|vocabulaire}} ====
+{{tableau périodique/gsw}}
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: {{date|lang=de}} De l’{{étyl|en|de|osmium}}.
+
+=== {{S|nom|de}} ===
+{{légende élément/de|Os}}
+[[Image:Osmium_1-crop.jpg|thumb|'''Osmium'''.]]
+'''Osmium''' {{pron|ˈɔsmiʊm|de}} {{n}}
+# {{éléments|de}} {{métaux|de}} [[osmium#fr|Osmium]] (élément chimique et métal).
+
+==== {{S|dérivés}} ====
+* {{lien|Eka-Osmium|de}}
+* {{lien|Osmiumdioxid|de}}
+* {{lien|Osmiumhexafluorid|de}}
+* {{lien|Osmiumtetroxid|de}}
+* {{lien|Osmiumtrioxid|de}}
+{{clr}}
+==== {{S|vocabulaire}} ====
+* {{voir thésaurus|de|tableau périodique des éléments}}
+{{tableau périodique/de}}
+{{Liste|avant={{lien|Rhenium|de}} ou {{lien|Dwi-Mangan|de}}<br>([[Re#conv|Re]])|après={{lien|Iridium|de}}<br>([[Ir#conv|Ir]])|liste=[[Thésaurus:tableau périodique des éléments/allemand|Éléments chimiques en allemand]]}}
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=de|Allemagne (Berlin)|audio=LL-Q188 (deu)-Lucas Werkmeister-Osmium.wav}}
+* {{écouter|lang=de|Allemagne (Berlin)|audio=LL-Q188 (deu)-Sebastian Wallroth-Osmium.wav}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=de}}
+
+== {{langue|stq}} ==
+=== {{S|nom propre|stq}} ===
+'''Osmium''' {{pron||stq}}
+# {{éléments|stq}} {{métaux|stq}} [[osmium#fr|Osmium]] (élément chimique et métal).
+
+=== {{S|voir aussi}} ===
+* {{WP|3=stq}}
+
+== {{langue|lb}} ==
+=== {{S|étymologie}} ===
+: {{date|lang=lb}} De l’{{étyl|en|lb|osmium}}.
+
+=== {{S|nom|lb}} ===
+{{lb-inv|ˈosmi̯um}}
+[[Image:Osmium_1-crop.jpg|thumb|'''Osmium'''.]]
+'''Osmium''' {{pron|ˈosmi̯um|lb}} {{m}}, {{au singulier uniquement|lb}}
+# {{éléments|lb}} {{métaux|lb}} [[osmium#fr|Osmium]] (élément chimique et métal).
+{{clr}}
+==== {{S|vocabulaire}} ====
+{{tableau périodique/lb}}
+{{Liste|avant={{lien|Rhenium|lb}} ou {{lien|Dwi-Mangan|lb}}<br>([[Re#conv|Re]])|après={{lien|Iridium|lb}}<br>([[Ir#conv|Ir]])|liste=Éléments chimiques en luxembourgeois}}
+
+=== {{S|prononciation}} ===
+* {{écouter|Luxembourg||niveau=bon|lang=lb|audio=LL-Q9051 (ltz)-Procrastineur49-Osmium.wav}}
+
+=== {{S|références}} ===
+: {{R:LOD}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=lb}}

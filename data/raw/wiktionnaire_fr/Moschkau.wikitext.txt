@@ -1,0 +1,20 @@
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: Cognat avec l’allemand ''{{lien|Moskau|de}}''.
+
+=== {{S|nom propre|gsw}} ===
+'''Moschkau''' {{phon||gsw}}
+# {{capitales|gsw|pays=de Russie}} [[Moscou#fr|Moscou]] (capitale de la Russie).
+#* {{exemple |lang=gsw 
+|Z '''Moschkau''' lääbed öppe 13 Millioone Iiwoohner. 
+|À Moscou vivent quelque 13 millions d’habitants. }}
+
+==== {{S|variantes dialectales}} ====
+* {{lien|Moskau|gsw}}
+* {{lien|Moschkàui|gsw}}
+
+==== {{S|dérivés}} ====
+* {{lien|Moschkauer|gsw}} — Moscovite, moscovite
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=gsw|Moskau|Moschkau}}

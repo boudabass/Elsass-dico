@@ -1,0 +1,59 @@
+{{voir|thallium}}
+
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw}}
+
+=== {{S|nom|gsw}} ===
+'''Thallium''' {{pron||gsw}} {{genre|gsw}}
+# {{éléments|gsw}} {{métaux|gsw}} [[thallium#fr|Thallium]].
+{{clr}}
+==== {{S|vocabulaire}} ====
+{{tableau périodique/gsw}}
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|de}}
+
+=== {{S|nom|de}} ===
+{{légende élément/de|Tl}}
+[[Image:Thallium_pieces_in_ampoule.jpg|thumb|'''Thallium''' wird wegen seiner Luftempfindlichkeit unter Argon aufbewahrt.]]
+'''Thallium''' {{pron|ˈtali̯ʊm|de}} {{n}} ({{p}}: '''—''' )
+# {{éléments|de}} {{métaux|de}} [[thallium#fr|Thallium]] (l’{{lien|élément chimique}} [[Tl#conv|Tl]]).
+#* {{exemple | lang=de | '''Thallium''' ist ein weiches, graues, äußerst giftiges Metall.}}
+
+==== {{S|dérivés}} ====
+* {{lien|Eka-Thallium|de}}
+* {{lien|Thalliumvergiftung|de}}
+{{clr}}
+==== {{S|vocabulaire}} ====
+* {{voir thésaurus|de|tableau périodique des éléments}}
+{{tableau périodique/de}}
+{{Liste|avant={{lien|Quecksilber|de}} ou {{lien|Hydrargyrum|de}} {{désuet|nocat=1}}<br>([[Hg#conv|Hg]])|après={{lien|Blei|de}}<br>([[Pb#conv|Pb]])|liste=[[Thésaurus:tableau périodique des éléments/allemand|Éléments chimiques en allemand]]}}
+
+=== {{S|prononciation}} ===
+* {{pron|ˈtali̯ʊm|de}}
+* {{écouter|lang=de|Allemagne (Berlin)|audio=LL-Q188 (deu)-Lucas Werkmeister-Thallium.wav}}
+* {{écouter|lang=de|Allemagne (Berlin)|audio=LL-Q188 (deu)-Sebastian Wallroth-Thallium.wav}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=de}}
+
+== {{langue|lb}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|lb}}
+
+=== {{S|nom|lb}} ===
+{{lb-inv|tˈɑli̯um}}
+'''Thallium''' {{pron|tˈɑli̯um|lb}} {{m}}, {{au singulier uniquement|lb}}
+# {{éléments|lb}} {{métaux|lb}} [[thallium#fr|Thallium]].
+#* {{exemple|lang=lb}}
+{{clr}}
+==== {{S|vocabulaire}} ====
+{{tableau périodique/lb}}
+
+=== {{S|références}} ===
+: {{R:LOD}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=lb}}

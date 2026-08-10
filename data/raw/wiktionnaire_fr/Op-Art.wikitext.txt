@@ -1,0 +1,21 @@
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+''(1964)'' Calque de l’{{étyl|en|gsw|mot=op art}}, {{composé de|lang=gsw|optical|art}}.
+
+=== {{S|nom|gsw}} ===
+'''Op-Art''' {{pron||gsw}}
+# {{anglicisme|gsw}} {{lexique|peinture|gsw}} [[op art#fr|Op art]]
+
+==== {{S|synonymes}} ====
+* [[optischi Kunst]]
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+''(1964)'' Calque de l’{{étyl|en|de|mot=op art}}, {{composé de|lang=de|optical|art}}.
+
+=== {{S|nom|de}} ===
+'''Op-Art''' {{pron||de}}
+# {{anglicisme|de}} {{lexique|peinture|de}} [[op art#fr|Op art]]
+
+==== {{S|synonymes}} ====
+* [[optische Kunst]]

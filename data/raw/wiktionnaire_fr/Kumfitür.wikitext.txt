@@ -1,0 +1,18 @@
+== {{langue|gsw}} ==
+{{ébauche|gsw}}
+=== {{S|étymologie}} ===
+: Du {{étyl|fr|gsw|confiture}}.
+
+=== {{S|nom|gsw}} ===
+'''Kumfitür''' {{pron||gsw}}
+# [[confiture|Confiture]].
+
+== {{langue|gsw-fr}} ==
+{{ébauche|gsw-fr}}
+=== {{S|étymologie}} ===
+: Du {{étyl|fr|gsw-fr|confiture}}.
+
+=== {{S|nom|gsw-fr}} ===
+'''Kumfitür''' {{pron||gsw-fr}}
+# [[confiture|Confiture]].
+{{clé de tri|kumfitur}}

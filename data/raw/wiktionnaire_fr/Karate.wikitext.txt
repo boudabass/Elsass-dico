@@ -1,0 +1,34 @@
+{{voir/karate}}
+
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|ja|gsw|mot=空手|tr=karate|sens=[[main]] [[vide]] », c’est à dire, « sans arme}}, kanji composé de [[空#ja|空]], ''kara'' (« vide, ciel ») et [[手#ja|手]], ''te'' (« main »).
+
+=== {{S|nom|gsw}} ===
+'''Karate''' {{pron||gsw}}
+# [[karaté#fr|Karaté]].
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|ja|de|mot=空手|tr=karate|sens=[[main]] [[vide]] », c’est à dire, « sans arme}}, kanji composé de [[空#ja|空]], ''kara'' (« vide, ciel ») et [[手#ja|手]], ''te'' (« main »).
+
+=== {{S|nom|de}} ===
+'''Karate''' {{pron|kaˈraːtə, kaˈʀɑːdə|de}} {{n}} ({{p}} '''---''')
+# [[karaté#fr|Karaté]].
+#* {{exemple | lang=de | Der Leitspruch der Japan '''Karate''' Association lautet: „Nicht der Sieg noch die Niederlage im Kampf stehen beim '''Karate''' im Vordergrund.“}}
+
+==== {{S|synonymes}} ====
+* [[Karatedō]]
+
+==== {{S|antonymes}} ====
+* [[Kendō]]
+
+==== {{S|dérivés}} ====
+* [[Karatekämpfer]]
+* [[Training|Karatetraining]]
+
+==== {{S|hyperonymes}} ====
+* [[Selbstverteidigung]]
+* [[Kampfkunst]]
+* [[Wegkunst]]
+* [[Sport]]

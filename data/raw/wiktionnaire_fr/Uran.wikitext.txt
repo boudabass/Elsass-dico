@@ -1,0 +1,154 @@
+{{voir/uran}}
+
+== {{langue|fr}} ==
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|fr}}
+
+=== {{S|nom|fr}} ===
+{{fr-rég|y.ʁɑ̃}}
+'''Uran''' {{pron|y.ʁɑ̃|fr}} {{m}} {{équiv-pour|une femme|Urane|lang=fr}} 
+# Habitant de [[Nully]], commune située dans le département de la [[Haute-Marne]].
+
+==== {{S|notes}} ====
+: {{note-gentilé|fr}}
+
+==== {{S|traductions}} ====
+{{trad-début}}
+{{trad-fin}}
+
+=== {{S|anagrammes}} ===
+{{voir anagrammes|fr}}
+
+=== {{S|références}} ===
+* {{mercihabitants}}
+
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw}}
+
+=== {{S|nom|gsw}} ===
+'''Uran''' {{pron||gsw}}
+# {{éléments|gsw}} {{métaux|gsw}} [[uranium|Uranium]].
+{{clr}}
+==== {{S|vocabulaire}} ====
+{{tableau périodique/gsw}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=gsw}}
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|de}}
+
+=== {{S|nom|de}} ===
+{{légende élément/de|U}}
+[[Image:HEUraniumC.jpg|thumb|'''Uran'''.]]
+'''Uran''' {{pron|uˈraːn|de}} {{n}} {{au singulier uniquement|de}}
+# {{éléments|de}} {{métaux|de}} [[uranium#fr|Uranium]] (l’{{lien|élément chimique}} [[U#conv|U]]).
+#* {{exemple | lang=de | Sie wollte damit verhindern, dass in dem Hafen 450 Tonnen abgereichertes '''Uran''' auf einen Frachter verladen werden.}}
+
+==== {{S|dérivés}} ====
+{{(|}}
+* {{lien|Transurane|de}}
+* {{lien|Uran(III)-bromid|de}}
+* {{lien|Uran(III)-chlorid|de}}
+* {{lien|Uran(III)-fluorid|de}}
+* {{lien|Uran(III)-iodid|de}}
+* {{lien|Uran(IV)-chlorid|de}}
+* {{lien|Uran(IV)-fluorid|de}}
+* {{lien|Uran(V)-fluorid|de}}
+* {{lien|Uran-Anreicherung|de}}
+* {{lien|Urananreicherung|de}}
+* {{lien|Uran-Aufbereitung|de}}
+* {{lien|Uranaufbereitung|de}}
+* {{lien|Uranbrenner|de}}
+* {{lien|Uranchemie|de}}
+* {{lien|Urandioxid|de}}
+* {{lien|Uranglimmer|de}}
+* {{lien|Uraninit|de}}
+* {{lien|Uran-Konversion|de}}
+* {{lien|Urankonversion|de}}
+* {{lien|Uranmaschine|de}}
+* {{lien|Uran-Munition|de}}
+* {{lien|Uranmunition|de}}
+* {{lien|Uranocen|de}}
+* {{lien|Uranpecherz|de}}
+* {{lien|Uran-Spaltung|de}}
+* {{lien|Uranspaltung|de}}
+* {{lien|Uran-Transport|de}}
+* {{lien|Urantransport|de}}
+* {{lien|Urantrioxid|de}}
+* {{lien|Uran-Umwandlung|de}}
+* {{lien|Uranumwandlung|de}}
+* {{lien|Uranverbindung|de}}
+* {{lien|Uranverein|de}}
+* {{lien|Uranvorkommen|de}}
+{{)}}
+{{clr}}
+==== {{S|vocabulaire}} ====
+* {{voir thésaurus|de|tableau périodique des éléments}}
+{{tableau périodique/de}}
+{{Liste|avant={{lien|Protactinium|de}}<br>([[Pa#conv|Pa]])|après={{lien|Neptunium|de}}<br>([[Np#conv|Np]])|liste=[[Thésaurus:tableau périodique des éléments/allemand|Éléments chimiques en allemand]]}}
+
+=== {{S|prononciation}} ===
+* {{pron|uˈraːn|de}}
+* {{écouter|lang=de|Allemagne (Berlin)|audio=LL-Q188 (deu)-Lucas Werkmeister-Uran.wav}}
+* {{écouter|lang=de|Allemagne (Berlin)|audio=LL-Q188 (deu)-Sebastian Wallroth-Uran.wav}}
+* {{écouter|lang=de|Berlin|uˈraːn|audio=De-Uran.ogg}}
+* {{écouter|lang=de|{{AT|nocat=1}}|audio=De-at-Uran.ogg}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=de}}
+
+== {{langue|cs}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étyl|la|cs|mot=Uranus}}.
+
+=== {{S|nom propre|cs|num=1}} ===
+{{cs-décl-nom-ma-dur|rad=Uran|sing=oui}}
+'''Uran''' {{pron||cs}} {{m|a}}
+# {{lexique|mythologie|cs}} {{variante de|Uranos|cs}}, divinité grecque.
+#* {{exemple | lang=cs
+ | '''Uran''' se zlobí.
+ | {{trad-exe|cs}}}}
+
+==== {{S|apparentés}} ====
+* [[uran#cs|uran]], uranium
+
+=== {{S|nom propre|cs|num=2}} ===
+{{cs-décl-nom-mi-dur|rad=Uran|sing=oui}}
+'''Uran''' {{pron||cs}} {{m|i}}
+# {{lexique|astronomie|cs}} La planète [[Uranus]].
+#* {{exemple | lang=cs
+ | '''Uran''' je sedmá planeta od Slunce, třetí největší a čtvrtá nejhmotnější planeta ve sluneční soustavě.
+ | {{trad-exe|cs}}}}
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=cs||audio=Cs-Uran.ogg}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=cs}}
+
+== {{langue|lb}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|lb}}
+
+=== {{S|nom|lb}} ===
+{{lb-inv|uʀˈaːn}}
+'''Uran''' {{pron|uʀˈaːn|lb}} {{m}}, {{au singulier uniquement|lb}}
+# {{éléments|lb}} {{métaux|lb}} [[uranium#fr|Uranium]].
+#* {{exemple|lang=lb}}
+{{clr}}
+==== {{S|vocabulaire}} ====
+{{tableau périodique/lb}}
+
+=== {{S|prononciation}} ===
+* {{écouter|Angers (France)||niveau=bon|lang=lb|audio=LL-Q9051 (ltz)-Procrastineur49-Uran.wav}}
+
+=== {{S|références}} ===
+: {{R:LOD}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=lb}}

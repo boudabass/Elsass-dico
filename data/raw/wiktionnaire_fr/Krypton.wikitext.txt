@@ -1,0 +1,147 @@
+{{voir/krypton}}
+
+== {{langue|fr}} ==
+=== {{S|étymologie}} ===
+: {{date|lang=fr}} De l’{{étyl|en|fr|Krypton}}.
+
+=== {{S|nom|fr}} ===
+'''Krypton''' {{pron|kʁip.tɔ̃|fr}} {{f}} {{nombre|fr}}
+# {{lexique|bande dessinée|fr}} [[planète|Planète]] natale de [[Superman]] (Kal-El).
+#* {{exemple|lang=fr|Cependant, on peut se demander s’il est bien raisonnable que les muscles de Superman, arrivé bébé sur Terre, aient gardé la mémoire de ce qu’ils auraient été si l’Homme d’Acier était resté sur '''Krypton'''.|source=Roland Lehoucq et Jean-Sébastien Steyer, [https://www.pourlascience.fr/sd/science-societe/superman-est-il-une-super-fourmi-8062.php Superman est-il une super-fourmi ?], ''Pour la Science'', 21 août 2014}}
+
+==== {{S|gentilés}} ====
+* [[Kryptonien]], [[Kryptonienne]], [[kryptonien]]
+
+==== {{S|dérivés}} ====
+* [[kryptonite]]
+
+==== {{S|traductions}} ====
+{{trad-début|Planète natale de Superman}}
+* {{T|de}} : {{trad+|de|Krypton|m}}
+* {{T|en}} : {{trad+|en|Krypton}}
+{{trad-fin}}
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=fr|France (Toulouse)|audio=LL-Q150 (fra)-Lepticed7-Krypton.wav}}
+
+=== {{S|voir aussi}} ===
+* {{WP|Krypton (comics)}}
+
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw}}
+
+=== {{S|nom|gsw}} ===
+'''Krypton''' {{pron||gsw}}
+# {{éléments|gsw}} [[krypton|Krypton]].
+{{clr}}
+==== {{S|vocabulaire}} ====
+{{tableau périodique/gsw}}
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|de}}
+
+=== {{S|nom|de}} ===
+{{légende élément/de|Kr}}
+[[Image:Krypton_discharge_tube.jpg|thumb|'''Krypton'''-Gasentladungslampe.]]
+'''Krypton''' {{pron|ˈkʀʏptɔn|de}} ou {{pron|kʀʏpˈtoːn|de}} {{n}}
+# {{éléments|de}} [[krypton#fr|Krypton]] (l’{{lien|élément chimique}} [[Kr#conv|Kr]]).
+
+==== {{S|synonymes}} ====
+* [[Kryptongas]]
+
+==== {{S|dérivés}} ====
+{{(|&nbsp;}}
+* {{lien|Flüssigkrypton|de}}
+* {{lien|Krypton-85|de}}
+* {{lien|kryptonähnlich|de}}
+* {{lien|Kryptonatmosphäre|de}}
+* {{lien|Kryptonatom|de}}
+* {{lien|Kryptonbeladung|de}}
+* {{lien|Kryptonbirne|de}}
+* {{lien|Kryptondetektor|de}}
+* {{lien|Kryptondifluorid|de}}
+* {{lien|Kryptondruck|de}}
+* {{lien|Kryptoneis|de}}
+* {{lien|Kryptonflasche|de}}
+* {{lien|Kryptonfluss|de}}
+* {{lien|Kryptonfreisetzung|de}}
+* {{lien|Kryptonfüllung|de}}
+* {{lien|Kryptongas|de}}
+* {{lien|kryptonhaltig|de}}
+* {{lien|Kryptonisotop|de}}
+* {{lien|Kryptonit|de}}
+* {{lien|Kryptonkern|de}}
+* {{lien|Kryptonkonzentration|de}}
+* {{lien|Kryptonkristall|de}}
+* {{lien|Kryptonlampe|de}}
+* {{lien|Kryptonlicht|de}}
+* {{lien|Kryptonquelle|de}}
+* {{lien|Kryptonröhre|de}}
+* {{lien|Kryptonspektrum|de}}
+* {{lien|Kryptonstrahl|de}}
+* {{lien|Kryptonstrahlung|de}}
+* {{lien|Kryptonstrom|de}}
+* {{lien|Kryptonverbindung|de}}
+* {{lien|Kryptonverlust|de}}
+* {{lien|Kryptonversuch|de}}
+* {{lien|Kryptonwolke|de}}
+* {{lien|Kryptonzerfall|de}}
+* {{lien|Radiokrypton|de}}
+* {{lien|Reinkrypton|de}}
+* {{lien|Rohkrypton|de}}
+{{)}}
+{{clr}}
+==== {{S|vocabulaire}} ====
+* {{voir thésaurus|de|tableau périodique des éléments}}
+{{tableau périodique/de}}
+{{Liste|avant={{lien|Brom|de}}<br>([[Br#conv|Br]])|après={{lien|Rubidium|de}}<br>([[Rb#conv|Rb]])|liste=[[Thésaurus:tableau périodique des éléments/allemand|Éléments chimiques en allemand]]}}
+
+=== {{S|prononciation}} ===
+* {{pron|ˈkʀʏptɔn|de}}
+* {{pron|kʀʏpˈtoːn|de}}
+* {{écouter|lang=de|{{AT|nocat=1}}|audio=De-at-Krypton.ogg}}
+* {{écouter|lang=de|Allemagne (Berlin)|audio=LL-Q188 (deu)-Lucas Werkmeister-Krypton.wav}}
+* {{écouter|lang=de|Allemagne (Berlin)|audio=LL-Q188 (deu)-Sebastian Wallroth-Krypton.wav}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=de}}
+
+== {{langue|en}} ==
+{{ébauche|en}}
+=== {{S|étymologie}} ===
+: {{date|lang=en|juin 1938}} Introduit très tôt dans la [[bande dessinée]] de {{w|Jerry Siegel}} et {{w|Joe Shuster}}. Le nom de la planète fictive est inspiré de l’[[élément chimique]] {{lien|krypton|en}}.
+
+=== {{S|nom|en}} ===
+'''Krypton''' {{pron||en}}
+# {{lexique|bande dessinée|en}} [[Krypton#fr|Krypton]].
+#* {{exemple|lang=en}}
+
+==== {{S|dérivés}} ====
+* {{lien|kryptonite|en}}
+
+=== {{S|voir aussi}} ===
+* {{WP|Krypton (comics)|lang=en}}
+
+== {{langue|lb}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|lb}}
+
+=== {{S|nom|lb}} ===
+{{lb-inv|kʀˈipton}}
+'''Krypton''' {{pron|kʀˈipton|lb}} {{m}}, {{au singulier uniquement|lb}}
+# {{éléments|lb}} [[krypton#fr|Krypton]].
+#* {{exemple|lang=lb}}
+{{clr}}
+==== {{S|vocabulaire}} ====
+{{tableau périodique/lb}}
+
+=== {{S|prononciation}} ===
+* {{écouter|Angers (France)||niveau=bon|lang=lb|audio=LL-Q9051 (ltz)-Procrastineur49-Krypton.wav}}
+
+=== {{S|références}} ===
+: {{R:LOD}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=lb}}

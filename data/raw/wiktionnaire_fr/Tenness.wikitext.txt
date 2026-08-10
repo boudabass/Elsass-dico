@@ -1,0 +1,30 @@
+{{voir|tenness}}
+
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw}}
+
+=== {{S|nom|gsw}} ===
+'''Tenness''' {{pron||gsw}} {{genre|gsw}}
+# {{éléments|gsw}} [[tennesse#fr|Tennesse]].
+{{clr}}
+==== {{S|vocabulaire}} ====
+{{tableau périodique/gsw}}
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|de}}
+
+=== {{S|nom|de}} ===
+{{légende élément/de|Ts|Uus}}
+'''Tenness''' {{pron||de}} {{n}}
+# {{éléments|de}} [[tennesse#fr|Tennesse]] (l’{{lien|élément chimique}} [[Ts#conv|Ts]]).
+{{clr}}
+==== {{S|vocabulaire}} ====
+* {{voir thésaurus|de|tableau périodique des éléments}}
+{{tableau périodique/de}}
+{{Liste|avant={{lien|Livermorium|de}}<br 
+/>([[Lv]])|après={{lien|Oganesson|de}}<br>([[Og]])|liste=[[Thésaurus:tableau périodique des éléments/allemand|Éléments chimiques en allemand]]}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=de}}

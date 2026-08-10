@@ -1,0 +1,227 @@
+{{voir|lugano}}
+
+== {{langue|fr}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|it|fr|mot=Lugano}}.
+
+=== {{S|nom propre|fr}} ===
+'''Lugano''' {{pron|ly.ga.no|fr}}
+# {{localités|fr|du canton du Tessin}} Ville du canton du [[Tessin]] en [[Suisse]].
+#* {{exemple|Le premier ministre ukrainien Denys Chmygal et le président du Parlement, Rouslan Stefantchouk, sont arrivés à '''Lugano''' dès dimanche.|source=AFP, ''Ukraine: Kyïv tente de ralentir l’armée russe, conférence sur la reconstruction en Suisse'', Le Journal de Québec, 4 juillet 2022|lang=fr}}
+# {{districts|fr|de Suisse}} District autour de cette ville.
+#* {{exemple|lang=fr}}
+
+==== {{S|gentilés}} ====
+* [[Luganais]]
+* [[luganais]]
+
+==== {{S|vocabulaire}} ====
+* {{voir thésaurus|fr|Suisse}}
+
+==== {{S|traductions}} ====
+{{trad-début}}
+* {{T|gsw}} : {{trad|gsw|Lugano}}
+* {{T|de}} : {{trad-|de|Lugano}}
+* {{T|en}} : {{trad+|en|Lugano}}
+* {{T|ar}} : {{trad-|ar|لوغانو}}
+* {{T|eu}} : {{trad-|eu|Lugano}}
+* {{T|bg}} : {{trad-|bg|Лугано|tr=Lugano}}
+* {{T|da}} : {{trad-|da|Lugano}}
+* {{T|es}} : {{trad-|es|Lugano}}
+* {{T|eo}} : {{trad-|eo|Lugano}}
+* {{T|fi}} : {{trad-|fi|Lugano}}
+* {{T|he}} : {{trad-|he|לוגאנו}}
+* {{T|it}} : {{trad+|it|Lugano}}
+* {{T|la}} : {{trad-|la|Luganum}}
+* {{T|nl}} : {{trad-|nl|Lugano}}
+* {{T|pl}} : {{trad+|pl|Lugano}}
+* {{T|pt}} : {{trad-|pt|Lugano}}
+* {{T|ro}} : {{trad-|ro|Lugano}}
+* {{T|ru}} : {{trad-|ru|Лугано|tr=Lugano}}
+* {{T|sr}} : {{trad-|sr|Лугано|tr=Lugano}}
+* {{T|sv}} : {{trad-|sv|Lugano}}
+* {{T|cs}} : {{trad-|cs|Lugano}}
+{{trad-fin}}
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=fr|Suisse ([[Lausanne]])|ly.ɡa.n̪o|audio=LL-Q150 (fra)-Eihel-Lugano.wav}}
+
+=== {{S|anagrammes}} ===
+{{voir anagrammes|fr}}
+
+=== {{S|voir aussi}} ===
+* {{WP}}
+
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|it|gsw|mot=Lugano}}.
+
+=== {{S|nom propre|gsw}} ===
+'''Lugano''' {{pron||gsw}}
+# {{localités|gsw|du canton du Tessin}} {{lien|Lugano|fr}}.
+#* {{exemple|lang=gsw}}
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|it|de|mot=Lugano}}.
+
+=== {{S|nom propre|de}} ===
+{{de-nom-propre|genre=n|gs=Lugano|gs2=Luganos}}
+'''Lugano''' {{pron|luˈɡaːno|de}}
+# {{localités|de|du canton du Tessin}} {{lien|Lugano|fr}}.
+#* {{exemple|Haci Mirza verbüßt gegenwärtig im Gefängnis La Stampa bei '''Lugano''' eine Haftstrafe von siebzehn Jahren. Außer ihm sitzen die türkischen Fahrer und seine Komplizen von der italienischen Mafia ein.|lang=de|sens=Haci Mirza purge actuellement une peine de dix-sept ans au pénitencier La Stampa près de Lugano. Sont incarcérés avec lui les convoyeurs turcs et ses complices de la mafia italienne.|source={{ouvrage|auteur={{w|Jean Ziegler}}|trad=Friedrich Griese et Thorsten Schmidt|titre=Die Schweiz wäscht weisser|année=1990|éditeur=Piper|lieu=München et Zürich|url=}}}}
+
+=== {{S|références}} ===
+* {{R:Duden|Lugano}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=de}}
+
+== {{langue|en}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|it|en|mot=Lugano}}.
+
+=== {{S|nom propre|en}} ===
+'''Lugano''' {{pron||en}}
+# {{localités|en|du canton du Tessin}} {{lien|Lugano|fr}}.
+#* {{exemple|lang=en}}
+
+== {{langue|eu}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|it|eu|mot=Lugano}}.
+
+=== {{S|nom propre|eu}} ===
+'''Lugano''' {{pron||eu}}
+# {{localités|eu|du canton du Tessin}} {{lien|Lugano|fr}}.
+#* {{exemple|lang=eu}}
+
+== {{langue|da}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|it|da|mot=Lugano}}.
+
+=== {{S|nom propre|da}} ===
+'''Lugano''' {{pron||da}}
+# {{localités|da|du canton du Tessin}} {{lien|Lugano|fr}}.
+#* {{exemple|lang=da}}
+
+== {{langue|es}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|it|es|mot=Lugano}}.
+
+=== {{S|nom propre|es}} ===
+'''Lugano''' {{pron||es}}
+# {{localités|es|du canton du Tessin}} {{lien|Lugano|fr}}.
+#* {{exemple|lang=es}}
+
+== {{langue|eo}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|it|eo|mot=Lugano}}.
+
+=== {{S|nom propre|eo}} ===
+{{eo-rég-sing|lu.ˈɡa.no|dir+=1}}
+'''Lugano''' {{pron|lu.ˈɡa.no|eo}}
+# {{localités|eo|du canton du Tessin}} {{lien|Lugano|fr}}.
+#* {{exemple|lang=eo}}
+
+=== {{S|voir aussi}} ===
+* {{WP|Lugano|lang=eo}}
+
+=== {{S|références}} ===
+* {{R:PIV}}
+* {{R:Retavort|pas=1}} <!-- |rac=lugan -->
+* {{R:AkadLand|rac=v}}
+
+== {{langue|fi}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|it|fi|mot=Lugano}}.
+
+=== {{S|nom propre|fi}} ===
+'''Lugano''' {{pron||fi}}
+# {{localités|fi|du canton du Tessin}} {{lien|Lugano|fr}}.
+#* {{exemple|lang=fi}}
+
+== {{langue|it}} ==
+=== {{S|étymologie}} ===
+: Étymologie obscure<ref>{{WP|Lugano|lang=it}}</ref> :
+:# Du même étymon celtique que {{lien|''Lugdunum''|la|sens=Lyon}} ;
+:# Du {{étyl|la|it|mot=lucus|sens=bois}}, apparenté à {{lien|''Lugo''|it}} et avec le même suffixe que le suivant ;
+:# Avec {{lien|dissimilation|fr}} des deux {{pron|a|it}}, {{composé de|lago|-ano|lang=it|sens=lieu sur le lac}}, la ville est située sur le {{w|lac de Lugano}}. Comparer avec {{lien|''lugana''|it|sens=vin des côtes du [[lac]] de Garde}}.
+
+=== {{S|nom propre|it}} ===
+[[File:CHE Lugano COA.svg|vignette]]
+'''Lugano''' {{pron|lu.ˈga:.no|it}}
+# {{localités|it|du canton du Tessin}} {{lien|Lugano|fr}}.
+#* {{exemple|lang=it|Il {{w|lago di '''Lugano'''|lang=it}}.|Le {{w|lac de Lugano}}.}}
+
+=== {{S|anagrammes}} ===
+{{voir anagrammes|it}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=it|Lugano (disambigua)}}
+* {{WQ|lang=it}}
+* {{VOY|lang=it}}
+* {{Vikidia|lang=it}}
+
+=== {{S|références}} ===
+{{Références}}
+
+== {{langue|nl}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|it|nl|mot=Lugano}}.
+
+=== {{S|nom propre|nl}} ===
+'''Lugano''' {{pron||nl}}
+# {{localités|nl|du canton du Tessin}} {{lien|Lugano|fr}}.
+#* {{exemple|lang=nl}}
+
+== {{langue|pl}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|it|pl|mot=Lugano}}.
+
+=== {{S|nom propre|pl}} ===
+'''Lugano''' {{pron||pl}}
+# {{localités|pl|du canton du Tessin}} {{lien|Lugano|fr}}.
+#* {{exemple|lang=pl}}
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=pl|Pologne (Varsovie)||audio=LL-Q809 (pol)-Olaf-Lugano.wav}}
+
+== {{langue|pt}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|it|pt|mot=Lugano}}.
+
+=== {{S|nom propre|pt}} ===
+'''Lugano''' {{pron||pt}}
+# {{localités|pt|du canton du Tessin}} {{lien|Lugano|fr}}.
+#* {{exemple|lang=pt}}
+
+== {{langue|ro}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|it|ro|mot=Lugano}}.
+
+=== {{S|nom propre|ro}} ===
+'''Lugano''' {{pron||ro}}
+# {{localités|ro|du canton du Tessin}} {{lien|Lugano|fr}}.
+#* {{exemple|lang=ro}}
+
+== {{langue|sv}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|it|sv|mot=Lugano}}.
+
+=== {{S|nom propre|sv}} ===
+'''Lugano''' {{pron||sv}}
+# {{localités|sv|du canton du Tessin}} {{lien|Lugano|fr}}.
+#* {{exemple|lang=sv}}
+
+== {{langue|cs}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|it|cs|mot=Lugano}}.
+
+=== {{S|nom propre|cs}} ===
+{{cs-décl-nom-n-o|rad=Lugan|sing=oui}}
+'''Lugano''' {{pron||cs}} {{n}}
+# {{localités|cs|du canton du Tessin}} {{lien|Lugano|fr}}.
+#*{{exemple|Ivo Pogorelich chorvatský pianista, žije v '''Luganu'''.|lang=cs}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=cs}}

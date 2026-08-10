@@ -1,0 +1,855 @@
+{{voir/srilanka}}
+
+== {{langue|fr}} ==
+
+=== {{S|étymologie}} ===
+: {{date|lang=fr|1972}} Du {{étylp|si|fr|mot=ශ්‍රී ලංකා|tr=Śrī Lankā|sens=Sainte Île}}.
+
+=== {{S|nom propre|fr}} ===
+[[Image:Sri Lanka (orthographic projection).svg|thumb|Localisation du '''Sri Lanka'''.]]
+'''Sri Lanka''' {{pron|ʃʁi lɑ̃.ka|sʁi lɑ̃.ka|fr}} {{m}}
+# {{pays|fr|d’Asie}} {{îles|fr|d’Asie}} Pays et île d’[[Asie]] situés au sud de l’[[Inde]]. Sa capitale est [[Sri Jayawardenapura-Kotte]] ([[Kotte]]), banlieue de [[Colombo]].
+
+==== {{S|abréviations}} ====
+* [[LKA]] (norme {{w|ISO 3166-1}} alpha-3)
+
+==== {{S|synonymes}} ====
+* [[Ceylan]] {{vieilli|nocat=1}}
+* [[République démocratique socialiste du Sri Lanka]]
+* [[Serendib]], [[Serendip]] {{vieilli|nocat=1}}
+* [[Taprobane]] {{désuet|nocat=1}}
+
+==== {{S|gentilés}} ====
+* [[Cingalais]], [[Cingalaise]], [[cingalais]]
+* [[Singhalais]], [[Singhalaise]], [[singhalais]]
+* [[Sri-Lankais]], [[Sri-Lankaise]], [[sri-lankais]]
+* [[Srilankais]], [[Srilankaise]], [[srilankais]]
+
+==== {{S|méronymes}} ====
+* [[Colombo]]
+* [[Sri Jayawardenapura-Kotte]]
+
+==== {{S|dérivés}} ====
+* [[éléphant du Sri Lanka]]
+
+==== {{S|vocabulaire}} ====
+* {{voir thésaurus|fr|thé|topaze}}
+
+==== {{S|traductions}} ====
+{{trad-début|Pays d’Asie}}
+* {{T|af}} : {{trad-|af|Sri Lanka}}
+* {{T|sq}} : {{trad-|sq|Sri Lanka}}, {{trad-|sq|Shiri Lanka}}
+* {{T|gsw}} : {{trad|gsw|Sri Lanka}}
+* {{T|de}} : {{trad+|de|Sri Lanka}}
+* {{T|am}} : {{trad-|am|ሽሪ ላንካ}}
+* {{T|en}} : {{trad+|en|Sri Lanka}}
+* {{T|ar}} : {{trad-|ar|سريلانكا}}
+* {{T|arz}} : {{trad|arz|سريلانكا}}
+* {{T|an}} : {{trad-|an|Sri Lanka}}
+* {{T|hy}} : {{trad-|hy|Շրի Լանկա|tr=Šri Lanka}}
+* {{T|ast}} : {{trad+|ast|Sri Lanka}}
+* {{T|az}} : {{trad+|az|Şri-Lanka}}
+* {{T|nds}} : {{trad-|nds|Sri Lanka}}
+* {{T|eu}} : {{trad-|eu|Sri Lanka}}
+* {{T|bn}} : {{trad+|bn|শ্রীলঙ্কা}}
+* {{T|be}} : {{trad-|be|Шры Лянка|tr=Šry Lânka}}
+* {{T|be-tarask}} : {{trad|be-tarask|Шры Ланка}}
+* {{T|bs}} : {{trad-|bs|Šri Lanka}}
+* {{T|br}} : {{trad-|br|Sri Lanka}}
+* {{T|bg}} : {{trad+|bg|Шри Ланка|tr=Šri Lanka}}
+* {{T|ca}} : {{trad+|ca|Sri Lanka}}
+* {{T|ceb}} : {{trad|ceb|Sri Lanka}}
+* {{T|zh}} : {{trad+|zh|斯里兰卡|tradi=斯里蘭卡|tr=Sīlĭlánkǎ}}
+* {{T|si}} : {{trad-|si|ශ්‍රී ලංකා|tr=Śrī Lankā}}, {{trad+|si|ශ්‍රී ලංකාව|tr=Śrī Lankāva}}
+* {{T|ko}} : {{trad+|ko|스리랑카|tr=Seurirangka}}
+* {{T|kw}} : {{trad-|kw|Shri Lanka}}
+* {{T|ht}} : {{trad|ht|Srilanka}}
+* {{T|hr}} : {{trad+|hr|Šri Lanka}}
+* {{T|da}} : {{trad-|da|Sri Lanka}}
+* {{T|diq}} : {{trad-|diq|Sri Lanka}}
+* {{T|dv}} : {{trad-|dv|އޮޅުދޫކަރަ}}, {{trad-|dv|ސިރީ ލަންކާ}}
+* {{T|dz}} : {{trad-|dz|ཤྲཱྀ་ལངཀ་}}
+* {{T|es}} : {{trad+|es|Sri Lanka}}
+* {{T|eo}} : {{trad-|eo|Sri-Lanko}}
+* {{T|et}} : {{trad+|et|Sri Lanka}}
+* {{T|fi}} : {{trad+|fi|Sri Lanka}}
+* {{T|frp}} : {{trad|frp|Sri Lanka}}
+* {{T|fy}} : {{trad-|fy|Sry Lanka}}
+* {{T|gd}} : {{trad-|gd|Sri Lanca}}
+* {{T|ga}} : {{trad-|ga|Srí Lanca}}
+* {{T|gl}} : {{trad+|gl|Sri Lanka}}
+* {{T|cy}} : {{trad-|cy|Sri Lanka}}
+* {{T|ka}} : {{trad+|ka|შრი-ლანკა|tr=šri-lanka}}
+* {{T|el}} : {{trad+|el|Σρι Λάνκα}}
+* {{T|grc}} [[Ταπροβάνη]]
+* {{T|gu}} : {{trad-|gu|શ્રીલંકા}}
+* {{T|hak}} : {{trad|hak|Sṳ̂-lî-làn-khà}}
+* {{T|hsb}} : {{trad-|hsb|Šri Lanka}}
+* {{T|haw}} : {{trad|haw|Sililanaka}}
+* {{T|he}} : {{trad+|he|סרי לנקה}}
+* {{T|hi}} : {{trad+|hi|श्रीलंका}}
+* {{T|hif}} : {{trad-|hif|Sri Lanka}}
+* {{T|hu}} : {{trad+|hu|Srí Lanka}}
+* {{T|sah}} : {{trad|sah|Сри Ланка}}
+* {{T|io}} : {{trad+|io|Sri Lanka}}
+* {{T|ilo}} : {{trad|ilo|Sri Lanka}}
+* {{T|id}} : {{trad+|id|Sri Lanka}}
+* {{T|ia}} : {{trad-|ia|Sri Lanka}}
+* {{T|ie}} : {{trad-|ie|Sri Lanka}}
+* {{T|is}} : {{trad+|is|Srí Lanka}}
+* {{T|it}} : {{trad+|it|Sri Lanka}}
+* {{T|ja}} : {{trad+|ja|スリランカ|tr=Suriranka}}
+* {{T|jv}} : {{trad-|jv|Sri Lanka}}
+* {{T|csb}} : {{trad-|csb|Sri Lanka}}
+* {{T|kn}} : {{trad-|kn|ಶ್ರೀಲ೦ಕಾ}}
+* {{T|pam}} : {{trad|pam|Sri Lanka}}
+* {{T|ks}} : {{trad-|ks|سری لَنٛکا}} , {{trad-|ks|स्रीलंका}}
+* {{T|kk}} : {{trad+|kk|Шри-Ланка}}
+* {{T|kv}} : {{trad|kv|Шри-Ланка}}
+* {{T|avk}} : {{trad|avk|Srilanka}}
+* {{T|ku}} : {{trad+|ku|Srî Lanka}}
+* {{T|la}} : {{trad-|la|Taprobane}}, {{trad-|la|Sri Lanca}}
+* {{T|lv}} : {{trad+|lv|Šrilanka}}
+* {{T|lij}} : {{trad|lij|Sri Lanka}}
+* {{T|li}} : {{trad+|li|Sri Lanka}}
+* {{T|ln}} : {{trad-|ln|Sri Lanka}}
+* {{T|lt}} : {{trad+|lt|Šri Lanka}}
+* {{T|lmo}} : {{trad-|lmo|Sri Lanka}}
+* {{T|lb}} : {{trad-|lb|Sri Lanka}}
+* {{T|mk}} : {{trad+|mk|Шри Ланка|tr=Šri Lanka}}
+* {{T|ms}} : {{trad+|ms|Sri Lanka}}
+* {{T|ml}} : {{trad-|ml|ശ്രീലങ്ക}}
+* {{T|bpy}} : {{trad|bpy|শ্রীলঙ্কা}}
+* {{T|gv}} : {{trad-|gv|Sri Lanka}}
+* {{T|mr}} : {{trad-|mr|श्रीलंका}}
+* {{T|nan}} : {{trad-|nan|Sri Lanka}}
+* {{T|nch}} : {{trad|nch|Sri Lanka}}
+* {{T|nl}} : {{trad+|nl|Sri Lanka}}
+* {{T|no}} : {{trad+|no|Sri Lanka}}
+* {{T|nn}} : {{trad+|no|Sri Lanka}}
+* {{T|nov}} : {{trad|nov|Sri Lanka}}
+* {{T|oc}} : {{trad-|oc|Sri Lanka}}
+* {{T|os}} : {{trad|os|Шри-Ланка}}
+* {{T|udm}} : {{trad|udm|Шри-Ланка}}
+* {{T|ug}} : {{trad-|ug|سرىلانكا}}, {{trad-|ug|سرى لانكا}}
+* {{T|ur}} : {{trad-|ur|سری لنکا}}
+* {{T|uz}} : {{trad-|uz|Shri Lanka}}
+* {{T|ps}} : {{trad-|ps|سريلانکا}}
+* {{T|fa}} : {{trad-|fa|سری لانکا}}
+* {{T|pms}} : {{trad|pms|Sri Lanka}}
+* {{T|pl}} : {{trad+|pl|Sri Lanka}}
+* {{T|pt}} : {{trad+|pt|Sri Lanka}}
+* {{T|qu}} : {{trad-|qu|Sri Lanka}}
+* {{T|ro}} : {{trad+|ro|Sri Lanka}}, {{trad-|ro|Сри Ланка}}
+* {{T|ru}} : {{trad+|ru|Шри-Ланка|tr=Šri-Lanka}}
+* {{T|se}} : {{trad|se|Sri Lanka}}
+* {{T|sm}} : {{trad-|sm|Sri Lanka}}
+* {{T|sgs}} : {{trad|sgs|Šri Lanka}}
+* {{T|sa}} : {{trad-|sa|श्रीलङ्का}}
+* {{T|sr}} : {{trad-|sr|Шри Ланка}}
+* {{T|sh}} : {{trad+|sh|Šri Lanka}}
+* {{T|scn}} : {{trad-|scn|Sri Lanka}}
+* {{T|szl}} : {{trad|szl|Sri Lanka}}
+* {{T|sk}} : {{trad-|sk|Srí Lanka}}
+* {{T|sl}} : {{trad+|sl|Šrilanka}}
+* {{T|so}} : {{trad-|so|Siri Laanka}}
+* {{T|su}} : {{trad-|su|Sri Langka}}
+* {{T|sv}} : {{trad+|sv|Sri Lanka}}
+* {{T|sw}} : {{trad+|sw|Sri Lanka}}
+* {{T|tg}} : {{trad+|tg|Шри-Ланка}}
+* {{T|tl}} : {{trad-|tl|Sri Lanka}}
+* {{T|ta}} : {{trad+|ta|இலங்கை|R=ilaṅkai}}
+* {{T|crh}} : {{trad|crh|Şri Lanka}}
+* {{T|cs}} : {{trad+|cs|Šrí Lanka}}
+* {{T|cv}} : {{trad|cv|Шри-Ланка}}
+* {{T|te}} : {{trad+|te|శ్రీలంక}}
+* {{T|th}} : {{trad+|th|ประเทศศรีลังกา}}
+* {{T|bo}} : {{trad-|bo|སེང་ག་གླིང་}}
+* {{T|tr}} : {{trad+|tr|Sri Lanka}}
+* {{T|uk}} : {{trad+|uk|Шрі-Ланка}}
+* {{T|vi}} : {{trad-|vi|Sri Lanka}}, {{trad-|vi|Sri Lan-ka}}
+* {{T|vo}} : {{trad-|vo|Sri-Lankän}}
+* {{T|war}} : {{trad|war|Sri Lanka}}
+* {{T|wo}} : {{trad-|wo|Siri Laanka}}
+* {{T|wuu}} : {{trad|wuu|斯里兰卡}}
+* {{T|yo}} : {{trad-|yo|Sri Lanka}}
+{{trad-fin}}
+
+=== {{S|prononciation}} ===
+* {{pron|ʃʁi lɑ̃.ka|fr}} {{EU|nocat=1}}
+* {{pron|sʁi lɑ̃.ka|fr}} {{EU|nocat=1}}
+* {{pron|sʁi laŋ.ka|fr}} {{CA|nocat=1}}
+* {{écouter||ʃʁi lɑ̃.ka|lang=fr|audio=LL-Q150 (fra)-Jules78120-Sri Lanka.wav}}
+* {{écouter|lang=fr|France (Paris)|audio=LL-Q150 (fra)-GrandCelinien-Sri Lanka.wav}}
+
+=== {{S|voir aussi}} ===
+* {{WP}}
+
+[[Catégorie:Sri Lanka en français|*]]
+
+== {{langue|af}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étylp|si|af|ශ්‍රී ලංකා|tr=Śrī Lankā}}.
+
+=== {{S|nom propre|af}} ===
+'''Sri Lanka''' {{pron||af}}
+# {{îles|af}} [[#fr|Sri Lanka]] (île d’[[Asie]]).
+#* {{exemple|lang=af}}
+# {{pays|af|d’Asie}} [[#fr|Sri Lanka]] (pays d’[[Asie]]).
+#* {{exemple|lang=af}}
+
+== {{langue|sq}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étylp|si|sq|ශ්‍රී ලංකා|tr=Śrī Lankā}}.
+
+=== {{S|nom propre|sq}} ===
+'''Sri Lanka''' {{pron||sq}}
+# {{îles|sq}} [[#fr|Sri Lanka]] (île d’[[Asie]]).
+# {{pays|sq|d’Asie}} [[#fr|Sri Lanka]] (pays d’[[Asie]]).
+
+== {{langue|gsw}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|gsw|mot=Sri Lanka}}.
+
+=== {{S|nom propre|gsw}} ===
+'''Sri Lanka''' {{pron||gsw}}
+# {{îles|gsw}} [[#fr|Sri Lanka]] (île d’[[Asie]]).
+# {{pays|gsw}} [[#fr|Sri Lanka]] (pays d’[[Asie]]).
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: Du {{étylp|si|de|ශ්‍රී ලංකා|tr=Śrī Lankā}}.
+
+=== {{S|nom propre|de}} ===
+{{de-nom-propre|genre=n|gs=Sri Lanka|gs2=Sri Lankas}}
+'''Sri Lanka''' {{pron|sʁiː ˈlaŋka|de}}
+# {{pays|de|d’Asie}} {{îles|de}} {{lien|Sri Lanka|fr}}.
+#* {{exemple|Povlsen und seine Ehefrau Anne Holch Povlsen erlebten im Jahr 2019 einen schlimmen persönlichen Schicksalsschlag. Wie unter anderem die BBC berichtete, verloren die Eltern drei ihrer vier Kinder bei einem Terroranschlag in '''Sri Lanka'''.|lang=de|sens=Povlsen et son épouse Anne Holch Povlsen ont vécu un terrible coup du sort personnel en 2019. Comme l’a notamment rapporté la BBC, les parents ont perdu trois de leurs quatre enfants dans une attaque terroriste au Sri Lanka.|source={{périodique|auteur=Victoria Niemsch|titre=Jeder hat schon seine Kleidung getragen, aber kaum jemand kennt sein Gesicht – das ist der reichste Mensch aus Dänemark|journal=Business Insider|date=1 mai 2025|texte=https://www.businessinsider.de/wirtschaft/das-ist-der-reichste-mensch-aus-daenemark-bestimmt-kennt-ihr-ihn}}}}
+#* {{exemple|Was er auf der zerschlissenen Rückbank des Dreirads sucht, was er dort manchmal findet, das ist die Zeit, als er zwanzig war, in '''Sri Lanka''', er war dort mit dieser herrlich Verrückten gewesen, deren Vornamen ihm auf Anhieb nicht einfällt, diesem Mädchen aus Neapel mit den schweren Brüsten und dem blendenden Lächeln, Giulia? Ja, genau, Giulia, das hätte er beinahe vergessen.|lang=de|sens=Ce qu’il va chercher, ce qu’il retrouve parfois, sur la banquette arrière défoncée du tricycle, ce sont ses vingt ans au Sri Lanka, il y était avec cette fille de Naples joliment cinglée dont le prénom ne lui revient pas sur-le-champ, avec ses seins lourds et son sourire éblouissant, Giulia ? oui, c’est ça, Giulia, il a failli ne pas s’en souvenir.|source={{ouvrage|auteur={{w|Hervé Le Tellier}}|trad=Romy Ritte et Jürgen Ritte|titre=Die Anomalie|année=2021|éditeur=Rowohlt Verlag|lieu=Hamburg|url=}}}}
+
+==== {{S|synonymes}} ====
+{{(|}}
+* {{lien|Demokratische Sozialistische Republik Sri Lanka|de}}
+* {{lien|Ceylon|de}}
+{{)}}
+
+==== {{S|hyperonymes}} ====
+* {{lien|Inselstaat|de}}
+* {{lien|Staat|de}}
+* {{lien|Insel|de}}
+
+==== {{S|dérivés}} ====
+* {{lien|Sri-Lanker|de}}
+* {{lien|Sri-Lankerin|de}}
+* {{lien|sri-lankisch|de}}
+
+=== {{S|prononciation}} ===
+* {{écouter|Berlin (Allemagne)|sʁiː ˈlaŋka|lang=de|audio=De-Sri Lanka.ogg}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=de}}
+
+== {{langue|en}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étylp|si|en|mot=ශ්‍රී ලංකා|tr=Śrī Lankā}}.
+
+=== {{S|nom propre|en}} ===
+'''Sri Lanka''' {{pron|sɹiː ˈlæŋ.kə|en}} ou {{pron|sɹiː ˈlɑːŋ.kə|ʃɹiː ˈlɑːŋ.kə|en}}
+# {{pays|en|d’Asie}} {{îles|en|d’Asie}} {{lien|Sri Lanka|fr}}.
+
+==== {{S|synonymes}} ====
+* {{lien|Ceylon|en}}
+
+==== {{S|gentilés}} ====
+* {{lien|Sri Lankan|en}}
+
+=== {{S|prononciation}} ===
+* {{écouter|États-Unis (Californie)|ʃɹiː ˈlɑːŋ.kə|audio=En-us-Sri Lanka.ogg|lang=en}}
+* {{écouter|Londres (Royaume-Uni)||lang=en|audio=LL-Q1860 (eng)-Soundguys-Sri Lanka.wav}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=en}}
+
+[[Catégorie:Sri Lanka en anglais|*]]
+
+== {{langue|an}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étylp|es|an|mot=Sri Lanka}}.
+
+=== {{S|nom propre|an}} ===
+'''Sri Lanka''' {{pron||an}}
+# {{pays|an|d’Asie}} {{lien|Sri Lanka|fr}}.
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=an}}
+
+== {{langue|ast}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étylp|es|ast|mot=Sri Lanka}}.
+
+=== {{S|nom propre|ast}} ===
+'''Sri Lanka''' {{pron||ast}}
+# {{pays|ast|d’Asie}} {{lien|Sri Lanka|fr}}.
+
+== {{langue|eu}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étylp|es|eu|mot=Sri Lanka}} ou du {{étylp|fr|eu|mot=Sri Lanka}}.
+
+=== {{S|nom propre|eu}} ===
+'''Sri Lanka''' {{pron||eu}}
+# {{pays|eu|d’Asie}} {{lien|Sri Lanka|fr}}.
+
+== {{langue|nds}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|nds|mot=Sri Lanka}}.
+
+=== {{S|nom propre|nds}} ===
+'''Sri Lanka''' {{pron||nds}}
+# {{pays|nds}} {{lien|Sri Lanka|fr}}.
+
+== {{langue|br}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étylp|fr|br|mot=Sri Lanka}}.
+
+=== {{S|nom propre|br}} ===
+'''Sri Lanka''' {{pron||br}}
+# {{pays|br|d’Asie}} {{lien|Sri Lanka|fr}}.
+
+== {{langue|ca}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étylp|es|ca|mot=Sri Lanka}}.
+
+=== {{S|nom propre|ca}} ===
+'''Sri Lanka''' {{pron||ca}}
+# {{pays|ca|d’Asie}} {{lien|Sri Lanka|fr}}.
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=ca|Espagne (Villarreal)||audio=LL-Q7026 (cat)-Millars-Sri Lanka.wav}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=ca}}
+
+== {{langue|ceb}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étylp|si|ceb|mot=ශ්‍රී ලංකා|tr=Śrī Lankā}}.
+
+=== {{S|nom propre|ceb}} ===
+'''Sri Lanka''' {{pron||ceb}}
+# {{pays|ceb}} {{lien|Sri Lanka|fr}}.
+
+== {{langue|da}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étylp|si|da|mot=ශ්‍රී ලංකා|tr=Śrī Lankā}}.
+
+=== {{S|nom propre|da}} ===
+'''Sri Lanka''' {{pron||da}}
+# {{pays|da|d’Asie}} {{lien|Sri Lanka|fr}}.
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=da}}
+
+== {{langue|diq}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étylp|si|diq|mot=ශ්‍රී ලංකා|tr=Śrī Lankā}}.
+
+=== {{S|nom propre|diq}} ===
+'''Sri Lanka''' {{pron||diq}}
+# {{îles|diq}} [[#fr|Sri Lanka]] (île d’[[Asie]]).
+# {{pays|diq}} [[#fr|Sri Lanka]] (pays d’[[Asie]]).
+
+== {{langue|es}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étyl|si|es|ශ්‍රී ලංකා|tr=Śrī Lankā}}.
+
+=== {{S|nom propre|es}} ===
+'''Sri Lanka''' {{pron|ˈsɾi ˈlaŋ.ka|es}}
+# {{pays|es|d’Asie}} {{îles|es|d’Asie}} {{lien|Sri Lanka|fr}}.
+
+==== {{S|synonymes}} ====
+* {{lien|Ceilán|es}}
+
+==== {{S|gentilés}} ====
+* {{lien|cingalés|es}}, {{lien|ceilanés|es}}
+
+=== {{S|prononciation}} ===
+* {{écouter|Villarreal (Espagne)||lang=es|audio=LL-Q1321 (spa)-Millars-Sri Lanka.wav}}
+* {{écouter|Espagne||lang=es|audio=LL-Q1321 (spa)-Rodelar-Sri Lanka.wav}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=es}}
+
+[[Catégorie:Sri Lanka en espagnol|*]]
+
+== {{langue|et}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étylp|si|et|mot=ශ්‍රී ලංකා|tr=Śrī Lankā}}.
+
+=== {{S|nom propre|et}} ===
+'''Sri Lanka''' {{pron||et}}
+# {{pays|et|d’Asie}} {{lien|Sri Lanka|fr}}.
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=et}}
+
+== {{langue|fi}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étylp|si|fi|mot=ශ්‍රී ලංකා|tr=Śrī Lankā}}.
+
+=== {{S|nom propre|fi}} ===
+'''Sri Lanka''' {{pron||fi}}
+# {{pays|fi|d’Asie}} {{lien|Sri Lanka|fr}}.
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=fi}}
+
+== {{langue|frp}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étylp|fr|frp|mot=Sri Lanka}}.
+
+=== {{S|nom propre|frp}} ===
+'''Sri Lanka''' {{pron||frp}}
+# {{pays|frp}} {{lien|Sri Lanka|fr}}.
+
+== {{langue|gl}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étylp|es|gl|mot=Sri Lanka}}.
+
+=== {{S|nom propre|gl}} ===
+'''Sri Lanka''' {{pron||gl}}
+# {{pays|gl|d’Asie}} {{lien|Sri Lanka|fr}}.
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=gl}}
+
+== {{langue|cy}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étylp|en|cy|mot=Sri Lanka}}.
+
+=== {{S|nom propre|cy}} ===
+'''Sri Lanka''' {{pron||cy}}
+# {{pays|cy|d’Asie}} {{lien|Sri Lanka|fr}}.
+
+== {{langue|hif}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étylp|si|hif|mot=ශ්‍රී ලංකා|tr=Śrī Lankā}}.
+
+=== {{S|nom propre|hif}} ===
+'''Sri Lanka''' {{pron||hif}}
+# {{îles|hif}} [[#fr|Sri Lanka]] (île d’[[Asie]]).
+# {{pays|hif}} [[#fr|Sri Lanka]] (pays d’[[Asie]]).
+
+== {{langue|io}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étylp|si|io|mot=ශ්‍රී ලංකා|tr=Śrī Lankā}}.
+
+=== {{S|nom propre|io}} ===
+'''Sri Lanka''' {{pron||io}}
+# {{pays|io|d’Asie}} {{lien|Sri Lanka|fr}}.
+
+== {{langue|ilo}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étylp|si|ilo|mot=ශ්‍රී ලංකා|tr=Śrī Lankā}}.
+
+=== {{S|nom propre|ilo}} ===
+'''Sri Lanka''' {{pron||ilo}}
+# {{pays|ilo}} {{lien|Sri Lanka|fr}}.
+
+== {{langue|id}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étylp|si|id|mot=ශ්‍රී ලංකා|tr=Śrī Lankā}}.
+
+=== {{S|nom propre|id}} ===
+'''Sri Lanka''' {{pron||id}}
+# {{pays|id|d’Asie}} {{lien|Sri Lanka|fr}}.
+#* {{exemple|lang=id}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=id}}
+
+== {{langue|ia}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étylp|si|ia|mot=ශ්‍රී ලංකා|tr=Śrī Lankā}}.
+
+=== {{S|nom propre|ia}} ===
+'''Sri Lanka''' {{pron||ia}}
+# {{îles|ia}} [[#fr|Sri Lanka]] (île d’[[Asie]]).
+# {{pays|ia|d’Asie}} [[#fr|Sri Lanka]] (pays d’[[Asie]]).
+
+== {{langue|ie}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étylp|si|ie|mot=ශ්‍රී ලංකා|tr=Śrī Lankā}}.
+
+=== {{S|nom propre|ie}} ===
+'''Sri Lanka''' {{pron||ie}}
+# {{îles|ie}} [[#fr|Sri Lanka]] (île d’[[Asie]]).
+# {{pays|ie}} [[#fr|Sri Lanka]] (pays d’[[Asie]]).
+
+== {{langue|it}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étylp|si|it|ශ්‍රී ලංකා|tr=Śrī Lankā}}.
+
+=== {{S|nom propre|it}} ===
+{{it-inv|zri.ˈlan.ka}}
+'''Sri Lanka''' {{pron|zri.ˈlan.ka|it}} {{m}}
+# {{pays|it|d’Asie}} {{îles|it|d’Asie}} {{lien|Sri Lanka|fr}}.
+
+==== {{S|gentilés}} ====
+* [[singalese#it|singalese]]
+* [[srilankese#it|srilankese]]
+
+=== {{S|voir aussi}} ===
+* {{Annexe|Pays et leurs gentilés en italien}}
+* {{WP|lang=it}}
+* {{WQ|lang=it}}
+* {{VOY|lang=it}}
+* {{Vikidia|lang=it}}
+
+[[Catégorie:Sri Lanka en italien|*]]
+
+== {{langue|jv}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étylp|si|jv|mot=ශ්‍රී ලංකා|tr=Śrī Lankā}}.
+
+=== {{S|nom propre|jv}} ===
+'''Sri Lanka''' {{pron||jv}}
+# {{îles|jv}} [[#fr|Sri Lanka]] (île d’[[Asie]]).
+# {{pays|jv}} [[#fr|Sri Lanka]] (pays d’[[Asie]]).
+
+== {{langue|csb}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étylp|si|csb|mot=ශ්‍රී ලංකා|tr=Śrī Lankā}}.
+
+=== {{S|nom propre|csb}} ===
+'''Sri Lanka''' {{pron||csb}}
+# {{îles|csb}} [[#fr|Sri Lanka]] (île d’[[Asie]]).
+# {{pays|csb}} [[#fr|Sri Lanka]] (pays d’[[Asie]]).
+
+== {{langue|pam}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étylp|si|pam|mot=ශ්‍රී ලංකා|tr=Śrī Lankā}}.
+
+=== {{S|nom propre|pam}} ===
+'''Sri Lanka''' {{pron||pam}}
+# {{îles|pam}} [[#fr|Sri Lanka]] (île d’[[Asie]]).
+# {{pays|pam}} [[#fr|Sri Lanka]] (pays d’[[Asie]]).
+
+== {{langue|lij}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étylp|si|lij|mot=ශ්‍රී ලංකා|tr=Śrī Lankā}}.
+
+=== {{S|nom propre|lij}} ===
+'''Sri Lanka''' {{pron||lij}}
+# {{îles|lij}} [[#fr|Sri Lanka]] (île d’[[Asie]]).
+# {{pays|lij}} [[#fr|Sri Lanka]] (pays d’[[Asie]]).
+
+== {{langue|li}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étyl|it|li|mot=Sri Lanka}}.
+
+=== {{S|nom propre|li}} ===
+'''Sri Lanka''' {{pron||li}}
+# {{îles|li}} [[#fr|Sri Lanka]] (île d’[[Asie]]).
+# {{pays|li}} [[#fr|Sri Lanka]] (pays d’[[Asie]]).
+
+== {{langue|ln}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étylp|si|ln|mot=ශ්‍රී ලංකා|tr=Śrī Lankā}}.
+
+=== {{S|nom propre|ln}} ===
+'''Sri Lanka''' {{pron||ln}}
+# {{îles|ln}} [[#fr|Sri Lanka]] (île d’[[Asie]]).
+# {{pays|ln}} [[#fr|Sri Lanka]] (pays d’[[Asie]]).
+
+== {{langue|lmo}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étyl|it|lmo|mot=Sri Lanka}}.
+
+=== {{S|nom propre|lmo}} ===
+'''Sri Lanka''' {{pron||lmo}}
+# {{îles|lmo}} [[#fr|Sri Lanka]] (île d’[[Asie]]).
+# {{pays|lmo}} [[#fr|Sri Lanka]] (pays d’[[Asie]]).
+
+== {{langue|lb}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|lb}}
+
+=== {{S|nom propre|lb}} ===
+{{lb-inv|sʀˈilˈɑŋkaː}}
+'''Sri Lanka''' {{pron|sʀˈilˈɑŋkaː|lb}} {{n}}
+# {{îles|lb|d’Asie}} {{lien|Sri Lanka|fr}}.
+#* {{exemple|lang=lb}}
+# {{pays|lb|d’Asie}} {{lien|Sri Lanka|fr}}.
+#* {{exemple|lang=lb}}
+
+==== {{S|gentilés}} ====
+* {{lien|Sri-Lanker|lb}}, {{lien|Sri-Lankerin|lb}}
+* {{lien|sri-lankesch|lb}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=lb}}
+
+=== {{S|références}} ===
+: {{R:LOD|entrée=SRILANKA}}
+
+== {{langue|ms}} ==
+
+=== {{S|nom propre|ms}} ===
+'''Sri Lanka''' {{pron||ms}}
+# {{îles|ms}} [[#fr|Sri Lanka]] (île d’[[Asie]]).
+# {{pays|ms|d’Asie}} [[#fr|Sri Lanka]] (pays d’[[Asie]]).
+
+== {{langue|gv}} ==
+
+=== {{S|nom propre|gv}} ===
+'''Sri Lanka''' {{pron||gv}}
+# {{îles|gv}} [[#fr|Sri Lanka]] (île d’[[Asie]]).
+# {{pays|gv}} [[#fr|Sri Lanka]] (pays d’[[Asie]]).
+
+== {{langue|nan}} ==
+
+=== {{S|nom propre|nan}} ===
+'''Sri Lanka''' {{pron||nan}}
+# {{îles|nan}} [[#fr|Sri Lanka]] (île d’[[Asie]]).
+# {{pays|nan}} [[#fr|Sri Lanka]] (pays d’[[Asie]]).
+
+== {{langue|nl}} ==
+
+=== {{S|nom propre|nl}} ===
+'''Sri Lanka''' {{pron||nl}}
+# {{îles|nl}} [[#fr|Sri Lanka]] (île d’[[Asie]]).
+# {{pays|nl|d’Asie}} [[#fr|Sri Lanka]] (pays d’[[Asie]]).
+
+=== {{S|prononciation}} ===
+* {{écouter|||lang=nl|audio=Nl-Sri Lanka.ogg}}
+
+== {{langue|nb}} ==
+
+=== {{S|nom propre|nb}} ===
+'''Sri Lanka''' {{pron||nb}}
+# {{îles|nb}} [[#fr|Sri Lanka]] (île d’[[Asie]]).
+# {{pays|nb|d’Asie}} [[#fr|Sri Lanka]] (pays d’[[Asie]]).
+
+== {{langue|nn}} ==
+
+=== {{S|nom propre|nn}} ===
+'''Sri Lanka''' {{pron||nn}}
+# {{îles|nn}} [[#fr|Sri Lanka]] (île d’[[Asie]]).
+# {{pays|nn|d’Asie}} [[#fr|Sri Lanka]] (pays d’[[Asie]]).
+
+== {{langue|nov}} ==
+
+=== {{S|nom propre|nov}} ===
+'''Sri Lanka''' {{pron||nov}}
+# {{îles|nov}} [[#fr|Sri Lanka]] (île d’[[Asie]]).
+# {{pays|nov}} [[#fr|Sri Lanka]] (pays d’[[Asie]]).
+
+== {{langue|oc}} ==
+
+=== {{S|nom propre|oc}} ===
+'''Sri Lanka''' {{pron||oc}}
+# {{îles|oc}} [[#fr|Sri Lanka]] (île d’[[Asie]]).
+# {{pays|oc|d’Asie}} [[#fr|Sri Lanka]] (pays d’[[Asie]]).
+
+==== {{S|synonymes}} ====
+* [[Ceilan]]
+
+== {{langue|pms}} ==
+
+=== {{S|nom propre|pms}} ===
+'''Sri Lanka''' {{pron||pms}}
+# {{îles|pms}} [[#fr|Sri Lanka]] (île d’[[Asie]]).
+# {{pays|pms}} [[#fr|Sri Lanka]] (pays d’[[Asie]]).
+
+== {{langue|pl}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étylp|si|pl|mot=ශ්‍රී ලංකා|tr=Śrī Lankā}}.
+
+=== {{S|nom propre|pl}} ===
+{{pl-décl-nom-f|Sri Lan|k|sing=oui}}
+'''Sri Lanka''' {{pron|srʲi ˈlãnka|pl}} {{f}}
+# {{pays|pl|d’Asie}} {{îles|pl}} {{lien|Sri Lanka|fr}}.
+#*{{exemple|lang=pl|'''Sri Lanka''' jest jednym z największych eksporterów herbaty na świecie.}}
+
+==== {{S|gentilés}} ====
+* {{lien|lankijski|pl}}
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=pl||audio=Pl-Sri Lanka.ogg}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=pl}}
+
+=== {{S|références}} ===
+* {{Source-wikt|pl|Sri Lanka}}
+{{Références}}
+
+== {{langue|pt}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étylp|si|pt|mot=ශ්‍රී ලංකා|tr=Śrī Lankā}}.
+
+=== {{S|nom propre|pt}} ===
+'''Sri Lanka''' {{pron||pt}}
+# {{pays|pt|d’Asie}} {{îles|pt}} {{lien|Sri Lanka|fr}}.
+#*{{exemple|lang=pt|República Democrática Socialista do Sri Lanka.}}
+
+==== {{S|synonymes}} ====
+* {{lien|Ceilão|pt}}
+
+==== {{S|gentilés}} ====
+* {{lien|srilankês|pt}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=pt}}
+
+== {{langue|qu}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étylp|si|qu|mot=ශ්‍රී ලංකා|tr=Śrī Lankā}}.
+
+=== {{S|nom propre|qu}} ===
+'''Sri Lanka''' {{pron||qu}}
+# {{pays|qu}} {{lien|Sri Lanka|fr}}.
+#*{{exemple|lang=qu|'''Sri Lanka''' nisqaqa [[Asya]]man kapuq wat'am, [[Indya]]p uralan antinpi, mama llaqtapas.}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=qu}}
+
+== {{langue|ro}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étylp|si|ro|mot=ශ්‍රී ලංකා|tr=Śrī Lankā}}.
+
+=== {{S|nom propre|ro}} ===
+'''Sri Lanka''' {{pron||ro}}
+# {{pays|ro|d’Asie}} {{îles|ro}} {{lien|Sri Lanka|fr}}.
+#*{{exemple|lang=ro|'''Sri Lanka''' este o țară insulară asiatică, situată în sudul Asiei, în Oceanul Indian.}}
+
+=== {{S|écriture}} ===
+* [[Сри Ланка#ro|Сри Ланка]]
+
+=== {{S|prononciation}} ===
+* {{écouter|Iași (Roumanie)||lang=ro|audio=LL-Q7913 (ron)-KlaudiuMihaila-Sri Lanka.wav}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=ro}}
+
+== {{langue|se}} ==
+
+=== {{S|nom propre|se}} ===
+'''Sri Lanka''' {{pron||se}}
+# {{îles|se}} [[#fr|Sri Lanka]] (île d’[[Asie]]).
+# {{pays|se|d’Asie}} [[#fr|Sri Lanka]] (pays d’[[Asie]]).
+
+== {{langue|sm}} ==
+
+=== {{S|nom propre|sm}} ===
+'''Sri Lanka''' {{pron||sm}}
+# {{îles|sm}} [[#fr|Sri Lanka]] (île d’[[Asie]]).
+# {{pays|sm}} [[#fr|Sri Lanka]] (pays d’[[Asie]]).
+
+== {{langue|scn}} ==
+
+=== {{S|nom propre|scn}} ===
+'''Sri Lanka''' {{pron||scn}}
+# {{îles|scn}} [[#fr|Sri Lanka]] (île d’[[Asie]]).
+# {{pays|scn|d’Asie}} [[#fr|Sri Lanka]] (pays d’[[Asie]]).
+
+=== {{S|prononciation}} ===
+* {{écouter|Gela (Italie)||lang=scn|audio=LL-Q33973 (scn)-XANA000-Sri Lanka.wav}}
+
+== {{langue|szl}} ==
+
+=== {{S|nom propre|szl}} ===
+'''Sri Lanka''' {{pron||szl}}
+# {{îles|szl}} [[#fr|Sri Lanka]] (île d’[[Asie]]).
+# {{pays|szl}} [[#fr|Sri Lanka]] (pays d’[[Asie]]).
+
+== {{langue|sv}} ==
+
+=== {{S|nom propre|sv}} ===
+'''Sri Lanka''' {{pron||sv}}
+# {{îles|sv}} [[#fr|Sri Lanka]] (île d’[[Asie]]).
+# {{pays|sv|d’Asie}} [[#fr|Sri Lanka]] (pays d’[[Asie]]).
+
+=== {{S|prononciation}} ===
+* {{écouter|Suède||lang=sv|audio=LL-Q9027 (swe)-Moonhouse-Sri Lanka.wav}}
+
+== {{langue|sw}} ==
+
+=== {{S|nom propre|sw}} ===
+'''Sri Lanka''' {{pron||sw}}
+# {{îles|sw}} [[#fr|Sri Lanka]] (île d’[[Asie]]).
+# {{pays|sw|d’Asie}} [[#fr|Sri Lanka]] (pays d’[[Asie]]).
+
+== {{langue|tl}} ==
+
+=== {{S|nom propre|tl}} ===
+'''Sri Lanka''' {{pron||tl}}
+# {{îles|tl}} [[#fr|Sri Lanka]] (île d’[[Asie]]).
+# {{pays|tl|d’Asie}} [[#fr|Sri Lanka]] (pays d’[[Asie]]).
+
+== {{langue|tr}} ==
+
+=== {{S|nom propre|tr}} ===
+'''Sri Lanka''' {{pron||tr}}
+# {{îles|tr}} [[#fr|Sri Lanka]] (île d’[[Asie]]).
+# {{pays|tr|d’Asie}} [[#fr|Sri Lanka]] (pays d’[[Asie]]).
+
+=== {{S|prononciation}} ===
+* {{écouter|Izmir (Turquie)||lang=tr|audio=LL-Q256 (tur)-ToprakM-Sri Lanka.wav}}
+
+== {{langue|vi}} ==
+
+=== {{S|nom propre|vi}} ===
+'''Sri Lanka''' {{pron||vi}}
+# {{îles|vi}} [[#fr|Sri Lanka]] (île d’[[Asie]]).
+# {{pays|vi|d’Asie}} [[#fr|Sri Lanka]] (pays d’[[Asie]]).
+
+== {{langue|war}} ==
+
+=== {{S|nom propre|war}} ===
+'''Sri Lanka''' {{pron||war}}
+# {{îles|war}} [[#fr|Sri Lanka]] (île d’[[Asie]]).
+# {{pays|war}} [[#fr|Sri Lanka]] (pays d’[[Asie]]).
+
+== {{langue|yo}} ==
+
+=== {{S|nom propre|yo}} ===
+'''Sri Lanka''' {{pron||yo}}
+# {{îles|yo}} [[#fr|Sri Lanka]] (île d’[[Asie]]).
+# {{pays|yo}} [[#fr|Sri Lanka]] (pays d’[[Asie]]).

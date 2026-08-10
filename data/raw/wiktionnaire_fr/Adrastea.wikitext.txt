@@ -1,0 +1,272 @@
+== {{langue|af}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étylp|la|af|mot=Adrastea}}.
+
+=== {{S|nom propre|af}} ===
+'''Adrastea''' {{pron||af}}
+# {{lexique|astronomie|af}} [[Adrastée]].
+#* {{exemple|lang=af}}
+
+== {{langue|gsw}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étylp|la|gsw|mot=Adrastea}}.
+
+=== {{S|nom propre|gsw}} ===
+'''Adrastea''' {{pron||gsw}}
+# {{lexique|astronomie|gsw}} [[Adrastée]].
+
+== {{langue|de}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étylp|la|de|mot=Adrastea}}.
+
+=== {{S|nom propre|de}} ===
+'''Adrastea''' {{pron||de}}
+# {{lexique|astronomie|de}} [[Adrastée]].
+
+== {{langue|en}} ==
+
+=== {{S|étymologie}} ===
+: {{siècle|lang=en|?}} Du {{étylp|la|en|mot=Adrastea}}.
+
+=== {{S|nom propre|en}} ===
+'''Adrastea''' {{pron||en}}
+# {{nymphes|en}} [[Adrastée]].
+#* {{exemple|lang=en}}
+# {{lexique|astronomie|en}} Adrastée.
+#* {{exemple|lang=en}}
+
+== {{langue|ast}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étylp|la|ast|mot=Adrastea}}.
+
+=== {{S|nom propre|ast}} ===
+'''Adrastea''' {{pron||ast}}
+# {{lexique|astronomie|ast}} [[Adrastée]].
+
+== {{langue|nds}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étylp|la|nds|mot=Adrastea}}.
+
+=== {{S|nom propre|nds}} ===
+'''Adrastea''' {{pron||nds}}
+# {{lexique|astronomie|nds}} [[Adrastée]].
+
+== {{langue|br}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étylp|la|br|mot=Adrastea}}.
+
+=== {{S|nom propre|br}} ===
+'''Adrastea''' {{pron||br}}
+# {{lexique|astronomie|br}} [[Adrastée]].
+
+== {{langue|ca}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étylp|la|ca|mot=Adrastea}}.
+
+=== {{S|nom propre|ca}} ===
+'''Adrastea''' {{pron||ca}}
+# {{lexique|astronomie|ca}} [[Adrastée]].
+
+== {{langue|co}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étylp|la|co|mot=Adrastea}}.
+
+=== {{S|nom propre|co}} ===
+'''Adrastea''' {{pron||co}}
+# {{lexique|astronomie|co}} [[Adrastée]].
+
+== {{langue|da}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étylp|la|da|mot=Adrastea}}.
+
+=== {{S|nom propre|da}} ===
+'''Adrastea''' {{pron||da}}
+# {{lexique|astronomie|da}} [[Adrastée]].
+
+== {{langue|es}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étylp|la|es|mot=Adrastea}}.
+
+=== {{S|nom propre|es}} ===
+'''Adrastea''' {{pron||es}}
+# {{lexique|astronomie|es}} [[Adrastée]].
+
+== {{langue|et}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étylp|la|et|mot=Adrastea}}.
+
+=== {{S|nom propre|et}} ===
+'''Adrastea''' {{pron||et}}
+# {{lexique|astronomie|et}} [[Adrastée]].
+
+== {{langue|fi}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étylp|la|fi|mot=Adrastea}}.
+
+=== {{S|nom propre|fi}} ===
+'''Adrastea''' {{pron||fi}}
+# {{lexique|astronomie|fi}} [[Adrastée]].
+
+== {{langue|gl}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étylp|la|gl|mot=Adrastea}}.
+
+=== {{S|nom propre|gl}} ===
+'''Adrastea''' {{pron||gl}}
+# {{lexique|astronomie|gl}} [[Adrastée]].
+
+== {{langue|it}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étylp|la|it|mot=Adrastea}}.
+
+=== {{S|nom propre|it}} ===
+'''Adrastea''' {{pron||it}}
+# {{lexique|astronomie|it}} [[Adrastée]].
+
+== {{langue|is}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étylp|la|is|mot=Adrastea}}.
+
+=== {{S|nom propre|is}} ===
+'''Adrastea''' {{pron||is}}
+# {{lexique|astronomie|is}} [[Adrastée]].
+
+== {{langue|la}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étylp|grc|la|mot=Ἀδράστεια|tr=Adrásteia}}.
+
+=== {{S|nom propre|la}} ===
+{{la-tab-1f|Adraste|sing=oui}}
+'''Adrastea''' {{pron||la}} {{f}} {{s}}
+# {{lexique|mythologie|la}} {{lien|Adrastée|fr}}.
+# {{lexique|astronomie|la}} Adrastée.
+
+==== {{S|apparentés}} ====
+* {{lien|Adrastus|la}}
+
+=== {{S|voir aussi}} ===
+* {{WP|Adrastea (discretiva)|lang=la}}
+
+=== {{S|références}} ===
+* {{R:Gaffiot}}
+* {{R:L&S}}
+
+== {{langue|nan}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étylp|la|nan|mot=Adrastea}}.
+
+=== {{S|nom propre|nan}} ===
+'''Adrastea''' {{pron||nan}}
+# {{lexique|astronomie|nan}} [[Adrastée]].
+
+== {{langue|nl}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étylp|la|nl|mot=Adrastea}}.
+
+=== {{S|nom propre|nl}} ===
+'''Adrastea''' {{pron||nl}}
+# {{lexique|astronomie|nl}} [[Adrastée]].
+#* {{exemple|lang=nl}}
+
+== {{langue|nb}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étylp|la|nb|mot=Adrastea}}.
+
+=== {{S|nom propre|nb}} ===
+'''Adrastea''' {{pron||nb}}
+# {{lexique|astronomie|nb}} [[Adrastée]].
+
+== {{langue|nn}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étylp|la|nn|mot=Adrastea}}.
+
+=== {{S|nom propre|nn}} ===
+'''Adrastea''' {{pron||nn}}
+# {{lexique|astronomie|nn}} [[Adrastée]].
+
+== {{langue|pl}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étylp|la|pl|mot=Adrastea}}.
+
+=== {{S|nom propre|pl}} ===
+{{pl-décl-nom-autre|sing=oui|rad=Adraste|ns=a|vs=o|as=ę|gs=i|ls=i|ds=i|is=ą}}
+'''Adrastea''' {{pron||pl}}
+# {{lexique|astronomie|pl}} [[Adrastée]].
+
+=== {{S|prononciation}} ===
+* {{écouter|Pologne||lang=pl|audio=LL-Q809 (pol)-Jest Spoczko-Adrastea.wav}}
+
+== {{langue|ro}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étylp|la|ro|mot=Adrastea}}.
+
+=== {{S|nom propre|ro}} ===
+'''Adrastea''' {{pron||ro}}
+# {{lexique|astronomie|ro}} [[Adrastée]].
+
+== {{langue|sk}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étylp|la|sk|mot=Adrastea}}.
+
+=== {{S|nom propre|sk}} ===
+'''Adrastea''' {{pron||sk}}
+# {{lexique|astronomie|sk}} [[Adrastée]].
+
+== {{langue|sv}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étylp|la|sv|mot=Adrastea}}.
+
+=== {{S|nom propre|sv}} ===
+'''Adrastea''' {{pron||sv}}
+# {{lexique|astronomie|sv}} [[Adrastée]].
+
+== {{langue|tl}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étylp|la|tl|mot=Adrastea}}.
+
+=== {{S|nom propre|tl}} ===
+'''Adrastea''' {{pron||tl}}
+# {{lexique|astronomie|tl}} [[Adrastée]].
+
+== {{langue|cs}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étylp|la|cs|mot=Adrastea}}.
+
+=== {{S|nom propre|cs}} ===
+'''Adrastea''' {{pron||cs}}
+# {{lexique|astronomie|cs}} [[Adrastée]].
+
+== {{langue|vi}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étylp|la|vi|mot=Adrastea}}.
+
+=== {{S|nom propre|vi}} ===
+'''Adrastea''' {{pron||vi}}
+# {{lexique|astronomie|vi}} [[Adrastée]].

@@ -1,0 +1,21 @@
+{{voir|Schwane|Schwäne}}
+
+== {{langue|de}} ==
+=== {{S|nom|de|flexion}} ===
+{{de-nom-m-s-e|gse=opt|dse=opt|np=Schwäne|npx2=Schwanen|ns=Schwan}}
+'''Schwäne''' {{pron|ˈʃvɛːnə|de}} {{m}}
+# ''Nominatif pluriel de'' {{lien|Schwan|de}}.
+# ''Accusatif pluriel de'' {{lien|Schwan|de}}.
+# ''Génitif pluriel de'' {{lien|Schwan|de}}.
+
+=== {{S|prononciation}} ===
+* {{écouter|Berlin|ˈʃvɛːnə|lang=de|audio=De-Schwäne.ogg}}
+
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw}}
+
+=== {{S|nom propre|gsw}} ===
+'''Schwäne''' {{pron||gsw}}
+# {{Alsace|gsw}} {{localités|gsw|du département du Bas-Rhin}} [[Schwenheim#fr|Schwenheim]], [[commune]] [[français]]e, située dans le département du [[Bas-Rhin]].
+#* {{exemple|lang=gsw}}

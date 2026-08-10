@@ -1,0 +1,1110 @@
+{{voir/malta}}
+
+== {{langue|fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|fr}}
+
+=== {{S|nom de famille|fr}} ===
+'''Malta''' {{pron||fr}} {{mf}}
+# Nom de famille.
+#* {{exemple | lang=fr
+ | Et si l’animation connaissait un nouvel âge d’or ? La question était sur toutes les lèvres après la victoire de ''Linda veut du poulet !'', de Chiara '''Malta''' et Sébastien Laudenbach au festival d’Annecy.
+ | source=journal ''20 minutes'', édition Paris-IDF, 19 juin 2023, page 13}}
+
+==== {{S|traductions}} ====
+{{trad-début}}
+{{trad-fin}}
+
+=== {{S|anagrammes}} ===
+{{voir anagrammes|fr}}
+
+== {{langue|af}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|af|mot=Malta}}.
+
+=== {{S|nom propre|af}} ===
+'''Malta''' {{pron||af}}
+# {{îles|af}} [[Malte]] (en Méditerranée).
+#* {{exemple|lang=af}}
+
+[[Catégorie:Pays d’Europe en afrikaans]]
+
+== {{langue|sq}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|sq|mot=Malta}}.
+
+=== {{S|nom propre|sq}} ===
+'''Malta''' {{pron||sq}}
+# {{îles|sq}} [[Malte]] (en Méditerranée).
+
+[[Catégorie:Pays d’Europe en albanais]]
+
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|gsw|mot=Malta}}.
+
+=== {{S|nom propre|gsw}} ===
+'''Malta''' {{pron||gsw}}
+# {{îles|gsw}} [[Malte]] (en Méditerranée).
+
+[[Catégorie:Pays en alémanique]]
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: Du {{étylp|la|de|mot=Malta}}.
+
+=== {{S|nom propre|de}} ===
+{{de-nom|ns= Malta |np=|as= Malta |ap=|gs= Maltas |gp=|ds= Malta |dp=}}
+'''Malta''' {{pron||de}}
+# {{îles|de|d’Europe}} [[Malte]] (en Méditerranée).
+
+[[Catégorie:Pays d’Europe en allemand]]
+
+== {{langue|en}} ==
+=== {{S|étymologie}} ===
+: Du {{étylp|la|en|mot=Malta}}.
+
+=== {{S|nom propre|en}} ===
+'''Malta''' {{pron||en}}
+# {{îles|en|d’Europe}} [[Malte]] (en Méditerranée).
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=en|États-Unis||audio=En-us-Malta.ogg}}
+* {{écouter|Londres (Royaume-Uni)||lang=en|audio=LL-Q1860 (eng)-Soundguys-Malta.wav}}
+* {{écouter|Khammam (Inde)||niveau=bon|lang=en|audio=LL-Q1860 (eng)-Pavani916-Malta.wav}}
+
+=== {{S|anagrammes}} ===
+* [[tamal]]
+* [[Talma]]
+
+[[Catégorie:Pays d’Europe en anglais]]
+
+== {{langue|an}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|an|mot=Malta}}.
+
+=== {{S|nom propre|an}} ===
+'''Malta''' {{pron||an}}
+# {{îles|an}} [[Malte]] (en Méditerranée).
+
+[[Catégorie:Pays en aragonais]]
+
+== {{langue|rup}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|rup|mot=Malta}}.
+
+=== {{S|nom propre|rup}} ===
+'''Malta''' {{pron||rup}}
+# {{îles|rup}} [[Malte]] (en Méditerranée).
+
+[[Catégorie:Pays en aroumain]]
+
+== {{langue|ast}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|ast|mot=Malta}}.
+
+=== {{S|nom propre|ast}} ===
+'''Malta''' {{pron||ast}}
+# {{îles|ast}} [[Malte]] (en Méditerranée).
+
+=== {{S|prononciation}} ===
+* {{écouter|Uviéu (Espagne)||lang=ast|audio=LL-Q29507 (ast)-Limotecariu-Malta.wav}}
+
+[[Catégorie:Pays en asturien]]
+
+== {{langue|az}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|az|mot=Malta}}.
+
+=== {{S|nom propre|az}} ===
+{{az-décl-nom|a}}
+'''Malta''' {{pron|ˈmɑl.tɑ|az}} {{az-forme possessive}}
+# {{îles|az}} {[[Malte]] (en Méditerranée).
+
+==== {{S|gentilés}} ====
+* [[maltalı]]
+
+==== {{S|dérivés}} ====
+* [[Malta dili]]
+
+[[Catégorie:Pays d’Europe en azéri]]
+
+== {{langue|eu}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|eu|mot=Malta}}.
+
+=== {{S|nom propre|eu}} ===
+'''Malta''' {{pron||eu}}
+# {{îles|eu}} [[Malte]] (en Méditerranée).
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=eu|Espagne (Saint-Sébastien)|audio=LL-Q8752 (eus)-Xabier Cañas-Malta.wav}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=eu}}
+
+[[Catégorie:Pays d’Europe en basque]]
+
+== {{langue|nds}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|nds|mot=Malta}}.
+
+=== {{S|nom propre|nds}} ===
+'''Malta''' {{pron||nds}}
+# {{îles|nds}} [[Malte]] (en Méditerranée).
+
+[[Catégorie:Pays en bas allemand]]
+
+== {{langue|nds-nl}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|nds|mot=Malta}}.
+
+=== {{S|nom propre|nds-nl}} ===
+'''Malta''' {{pron||nds-nl}}
+# {{îles|nds-nl}} [[Malte]] (en Méditerranée).
+
+[[Catégorie:Pays en bas-saxon néerlandais]]
+
+== {{langue|dsb}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|dsb|mot=Malta}}.
+
+=== {{S|nom propre|dsb}} ===
+'''Malta''' {{pron||dsb}}
+# {{îles|dsb}} [[Malte]] (en Méditerranée).
+
+[[Catégorie:Pays en bas-sorabe]]
+
+== {{langue|bar}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|bar|mot=Malta}}.
+
+=== {{S|nom propre|bar}} ===
+'''Malta''' {{pron||bar}}
+# {{îles|bar}} [[Malte]] (en Méditerranée).
+
+[[Catégorie:Pays en bavarois]]
+
+== {{langue|bs}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|bs|mot=Malta}}.
+
+=== {{S|nom propre|bs}} ===
+'''Malta''' {{pron||bs}}
+# {{îles|bs}} [[Malte]] (en Méditerranée).
+
+[[Catégorie:Pays d’Europe en bosniaque]]
+
+== {{langue|br}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|br|mot=Malta}}.
+
+=== {{S|nom propre|br}} ===
+{{br-forme-mut|Malta|forme=Nom propre}}
+'''Malta''' {{pron|ˈmal.ta|br}}
+# {{îles|br|d’Europe}} {{pays|br|d’Europe}} [[Malte#Nom propre|Malte]] (en Méditerranée).
+
+==== {{S|gentilés}} ====
+* [[Maltad]] ({{p}} : [[Maltiz]])
+* [[Maltadez]] ({{p}} : [[Maltadezed]])
+* {{lien|maltat|br}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=br}}
+
+=== {{S|références}} ===
+* {{R:Hemon|p=544a}}
+* {{R:Ménard|p=1458b}}
+
+== {{langue|ca}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|ca|mot=Malta}}.
+
+=== {{S|nom propre|ca}} ===
+'''Malta''' {{pron||ca}}
+# {{îles|ca|d’Europe}} [[Malte]] (en Méditerranée).
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=ca|Espagne (Villarreal)||audio=LL-Q7026 (cat)-Millars-Malta.wav}}
+
+[[Catégorie:Pays d’Europe en catalan]]
+
+== {{langue|ceb}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|ceb|mot=Malta}}.
+
+=== {{S|nom propre|ceb}} ===
+'''Malta''' {{pron||ceb}}
+# {{îles|ceb}} [[Malte]] (en Méditerranée).
+
+[[Catégorie:Pays en cebuano]]
+
+== {{langue|kw}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|kw|mot=Malta}}.
+
+=== {{S|nom propre|kw}} ===
+'''Malta''' {{pron||kw}}
+# {{îles|kw}} [[Malte]] (en Méditerranée).
+
+[[Catégorie:Pays en cornique]]
+
+== {{langue|co}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|co|mot=Malta}}.
+
+=== {{S|nom propre|co}} ===
+'''Malta''' {{pron||co}}
+# {{îles|co}} [[Malte]] (en Méditerranée).
+
+[[Catégorie:Pays en corse]]
+
+== {{langue|hr}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|hr|mot=Malta}}.
+
+=== {{S|nom propre|hr}} ===
+'''Malta''' {{pron||hr}}
+# {{îles|hr}} [[Malte]] (en Méditerranée).
+
+[[Catégorie:Pays d’Europe en croate]]
+
+== {{langue|da}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|da|mot=Malta}}.
+
+=== {{S|nom propre|da}} ===
+'''Malta''' {{pron||da}}
+# {{îles|da|d’Europe}} [[Malte]] (en Méditerranée).
+
+[[Catégorie:Pays d’Europe en danois]]
+
+== {{langue|diq}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|diq|mot=Malta}}.
+
+=== {{S|nom propre|diq}} ===
+'''Malta''' {{pron||diq}}
+# {{îles|diq}} [[Malte]] (en Méditerranée).
+
+[[Catégorie:Pays en dimli (zazaki du Sud)]]
+
+== {{langue|es}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|es|mot=Malta}}.
+
+=== {{S|nom propre|es}} ===
+'''Malta''' {{pron||es}} {{f}} {{s}}
+# {{îles|es|d’Europe}} [[Malte]] (en Méditerranée).
+
+==== {{S|gentilés}} ====
+* {{lien|maltés|es}}
+
+=== {{S|prononciation}} ===
+* {{écouter|Villarreal (Espagne)||lang=es|audio=LL-Q1321 (spa)-Millars-Malta.wav}}
+* {{écouter|Espagne||lang=es|audio=LL-Q1321 (spa)-Rodelar-Malta.wav}}
+
+[[Catégorie:Pays d’Europe en espagnol]]
+
+== {{langue|et}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|et|mot=Malta}}.
+
+=== {{S|nom propre|et}} ===
+'''Malta''' {{pron||et}}
+# {{îles|et}} [[Malte]] (en Méditerranée).
+
+[[Catégorie:Pays d’Europe en estonien]]
+
+== {{langue|ee}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|ee|mot=Malta}}.
+
+=== {{S|nom propre|ee}} ===
+'''Malta''' {{pron||ee}}
+# {{îles|ee}} [[Malte]] (en Méditerranée).
+
+[[Catégorie:Pays en éwé]]
+
+== {{langue|fi}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|fi|mot=Malta}}.
+
+=== {{S|nom propre|fi}} ===
+'''Malta''' {{pron|ˈmɑltɑ|fi}}
+# {{îles|fi|d’Europe}} [[Malte]] (en Méditerranée).
+#* {{exemple|lang=fi}}
+
+==== {{S|dérivés}} ====
+* {{lien|maltanristi|fi}} — croix de Malte
+
+[[Catégorie:Pays d’Europe en finnois]]
+
+== {{langue|frp}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|frp|mot=Malta}}.
+
+=== {{S|nom propre|frp}} ===
+'''Malta''' {{pron||frp}}
+# {{îles|frp}} [[Malte]] (en Méditerranée).
+
+[[Catégorie:Pays en francoprovençal]]
+
+== {{langue|fy}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|fy|mot=Malta}}.
+
+=== {{S|nom propre|fy}} ===
+'''Malta''' {{pron||fy}}
+# {{îles|fy}} [[Malte]] (en Méditerranée).
+
+[[Catégorie:Pays en frison]]
+
+== {{langue|stq}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|stq|mot=Malta}}.
+
+=== {{S|nom propre|stq}} ===
+'''Malta''' {{pron||stq}}
+# {{îles|stq}} [[Malte]] (en Méditerranée).
+
+[[Catégorie:Pays en frison saterlandais]]
+
+== {{langue|gd}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|gd|mot=Malta}}.
+
+=== {{S|nom propre|gd}} ===
+'''Malta''' {{pron||gd}}
+# {{îles|gd}} [[Malte]] (en Méditerranée).
+
+[[Catégorie:Pays d’Europe en gaélique écossais]]
+
+== {{langue|gl}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|gl|mot=Malta}}.
+
+=== {{S|nom propre|gl}} ===
+'''Malta''' {{pron||gl}}
+# {{îles|gl}} [[Malte]] (en Méditerranée).
+
+=== {{S|prononciation}} ===
+* {{écouter|||lang=gl|audio=Gl-Malta.ogg}}
+
+[[Catégorie:Pays d’Europe en galicien]]
+
+== {{langue|cy}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|cy|mot=Malta}}.
+
+=== {{S|nom propre|cy}} ===
+'''Malta''' {{pron||cy}}
+# {{îles|cy}} [[Malte]] (en Méditerranée).
+
+[[Catégorie:Pays d’Europe en gallois]]
+
+== {{langue|gn}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|gn|mot=Malta}}.
+
+=== {{S|nom propre|gn}} ===
+'''Malta''' {{pron||gn}}
+# {{îles|gn}} [[Malte]] (en Méditerranée).
+
+[[Catégorie:Pays en guarani]]
+
+== {{langue|hsb}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|hsb|mot=Malta}}.
+
+=== {{S|nom propre|hsb}} ===
+'''Malta''' {{pron||hsb}}
+# {{îles|hsb}} [[Malte]] (en Méditerranée).
+
+[[Catégorie:Pays en haut-sorabe]]
+
+== {{langue|io}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|io|mot=Malta}}.
+
+=== {{S|nom propre|io}} ===
+'''Malta''' {{pron||io}}
+# {{îles|io}} [[Malte]] (en Méditerranée).
+
+[[Catégorie:Pays en ido]]
+
+== {{langue|ilo}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|ilo|mot=Malta}}.
+
+=== {{S|nom propre|ilo}} ===
+'''Malta''' {{pron||ilo}}
+# {{îles|ilo}} [[Malte]] (en Méditerranée).
+
+[[Catégorie:Pays en ilocano]]
+
+== {{langue|id}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|id|mot=Malta}}.
+
+=== {{S|nom propre|id}} ===
+'''Malta''' {{pron||id}}
+# {{îles|id}} [[Malte]] (en Méditerranée).
+#* {{exemple|lang=id}}
+
+[[Catégorie:Pays d’Europe en indonésien]]
+
+== {{langue|ia}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|ia|mot=Malta}}.
+
+=== {{S|nom propre|ia}} ===
+'''Malta''' {{pron||ia}}
+# {{îles|ia}} [[Malte]] (en Méditerranée).
+
+[[Catégorie:Pays en interlingua]]
+
+== {{langue|ie}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|ie|mot=Malta}}.
+
+=== {{S|nom propre|ie}} ===
+'''Malta''' {{pron||ie}}
+# {{îles|ie}} [[Malte]] (en Méditerranée).
+
+[[Catégorie:Pays en interlingue]]
+
+== {{langue|is}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|is|mot=Malta}}.
+
+=== {{S|nom propre|is}} ===
+'''Malta''' {{pron||is}}
+# {{îles|is}} [[Malte]] (en Méditerranée).
+
+[[Catégorie:Pays d’Europe en islandais]]
+
+== {{langue|it}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|it|mot=Malta}}.
+
+=== {{S|nom propre|it}} ===
+'''Malta''' {{pron|ˈmal.ta|it}} {{f}}
+# {{pays|it|d’Europe}} [[Malte#fr|Malte]], pays européen.
+# {{îles|it|d’Europe}} [[Malte]], principale île de l’[[archipel]] de Malte.
+
+==== {{S|gentilés}} ====
+* [[maltese#it|maltese]]
+
+=== {{S|voir aussi}} ===
+* {{Annexe|Pays et leurs gentilés en italien}}
+* {{WP|lang=it|Malta (disambigua)}}
+* {{WQ|lang=it}}
+* {{VOY|lang=it|Malta (disambigua)}}
+* {{Vikidia|lang=it|Malta (disambigua)}}
+
+== {{langue|jv}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|jv|mot=Malta}}.
+
+=== {{S|nom propre|jv}} ===
+'''Malta''' {{pron||jv}}
+# {{îles|jv}} [[Malte]] (en Méditerranée).
+
+[[Catégorie:Pays en javanais]]
+
+== {{langue|csb}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|csb|mot=Malta}}.
+
+=== {{S|nom propre|csb}} ===
+'''Malta''' {{pron||csb}}
+# {{îles|csb}} [[Malte]] (en Méditerranée).
+
+[[Catégorie:Pays en kachoube]]
+
+== {{langue|pam}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|pam|mot=Malta}}.
+
+=== {{S|nom propre|pam}} ===
+'''Malta''' {{pron||pam}}
+# {{îles|pam}} [[Malte]] (en Méditerranée).
+
+[[Catégorie:Pays en kapampangan]]
+
+== {{langue|avk}} ==
+=== {{S|étymologie}} ===
+: Du {{étylp|mt|avk|Malta}}.
+
+=== {{S|nom propre|avk}} ===
+'''Malta''' {{pron|ˈmalta|avk}}
+# {{pays|avk|d’Europe}} [[Malte]] (en Méditerranée).
+#* {{exemple|lang=avk}}
+
+==== {{S|dérivés}} ====
+* [[Maltava#avk|Maltava]]
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=avk|France|ˈmalta|audio=malta.wav}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=avk}}
+
+=== {{S|références}} ===
+* {{R:avk-continents-pays}}
+
+== {{langue|ku}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|ku|mot=Malta}}.
+
+=== {{S|nom propre|ku}} ===
+'''Malta''' {{pron||ku}}
+# {{îles|ku}} [[Malte]] (en Méditerranée).
+
+[[Catégorie:Pays en kurde]]
+
+== {{langue|la}} ==
+=== {{S|nom propre|la}} ===
+{{la-tab-1f|Malt|sing=oui}}
+'''Malta''' {{pron||la}} {{f}}
+# {{îles|la}} {{variante de|Melita|la}}.
+
+== {{langue|lv}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|lv|mot=Malta}}.
+
+=== {{S|nom propre|lv}} ===
+{{lv-tab-4|Malt|sing=oui}}
+'''Malta''' {{pron||lv}}
+# {{îles|lv}} [[Malte]] (en Méditerranée).
+# {{info lex|géographie}} [[rivière#fr|Rivière]] lettonne qui se déverse dans le [[bassin du Daugava]].
+#* {{exemple|lang=lv}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=lv}}
+* {{WP|Malta (upe)|lang=lv}}
+
+[[Catégorie:Pays d’Europe en letton]]
+[[Catégorie:Cours d’eau de Lettonie en letton]]
+
+== {{langue|lij}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|lij|mot=Malta}}.
+
+=== {{S|nom propre|lij}} ===
+'''Malta''' {{pron||lij}}
+# {{îles|lij}} [[Malte]] (en Méditerranée).
+
+[[Catégorie:Pays en ligure]]
+
+== {{langue|li}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|li|mot=Malta}}.
+
+=== {{S|nom propre|li}} ===
+'''Malta''' {{pron||li}}
+# {{îles|li}} [[Malte]] (en Méditerranée).
+
+[[Catégorie:Pays en limbourgeois]]
+
+== {{langue|ln}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|ln|mot=Malta}}.
+
+=== {{S|nom propre|ln}} ===
+'''Malta''' {{pron||ln}}
+# {{îles|ln}} [[Malte]] (en Méditerranée).
+
+[[Catégorie:Pays en lingala]]
+
+== {{langue|lt}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|lt|mot=Malta}}.
+
+=== {{S|nom propre|lt}} ===
+{{lt-décl-nom-propre-f-a|Malt}}
+'''Malta''' {{pron||lt}}
+# {{îles|lt}} [[Malte]] (en Méditerranée).
+
+[[Catégorie:Pays d’Europe en lituanien]]
+
+== {{langue|jbo}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|jbo|mot=Malta}}.
+
+=== {{S|nom propre|jbo}} ===
+'''Malta''' {{pron||jbo}}
+# {{îles|jbo}} [[Malte]] (en Méditerranée).
+
+[[Catégorie:Pays en lojban]]
+
+== {{langue|lmo}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|lmo|mot=Malta}}.
+
+=== {{S|nom propre|lmo}} ===
+'''Malta''' {{pron||lmo}}
+# {{îles|lmo}} [[Malte]] (en Méditerranée).
+
+[[Catégorie:Pays en lombard]]
+
+== {{langue|lb}} ==
+=== {{S|étymologie}} ===
+: Du {{étylp|la|lb|Malta}}.
+
+=== {{S|nom propre|lb}} ===
+{{lb-inv|mˈɑltaː}}
+'''Malta''' {{pron|mˈɑltaː|lb}} {{n}}
+# {{îles|lb|d’Europe}} {{lien|Malte|fr}}.
+#* {{exemple|lang=lb}}
+# {{pays|lb|d’Europe}} {{lien|Malte|fr}}.
+#* {{exemple|lang=lb}}
+
+==== {{S|gentilés}} ====
+* {{lien|Malteeser|lb}}, {{lien|Malteeserin|lb}}
+* {{lien|malteesesch|lb}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=lb}}
+
+=== {{S|références}} ===
+: {{R:LOD}}
+
+== {{langue|ms}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|ms|mot=Malta}}.
+
+=== {{S|nom propre|ms}} ===
+'''Malta''' {{pron||ms}}
+# {{îles|ms}} [[Malte]] (en Méditerranée).
+
+[[Catégorie:Pays d’Europe en malais]]
+
+== {{langue|mg}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|mg|mot=Malta}}.
+
+=== {{S|nom propre|mg}} ===
+'''Malta''' {{pron||mg}}
+# {{îles|mg}} [[Malte]] (en Méditerranée).
+
+[[Catégorie:Pays en malgache]]
+
+== {{langue|mt}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|mt|Malta}}.
+
+=== {{S|nom propre|mt}} ===
+'''Malta''' {{pron||mt}}
+# {{îles|mt}} [[Malte]] (en Méditerranée).
+
+[[Catégorie:Pays en maltais]]
+
+== {{langue|gv}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|gv|Malta}}.
+
+=== {{S|nom propre|gv}} ===
+'''Malta''' {{pron||gv}}
+# {{pays|gv}} [[Malte]] (en Méditerranée).
+#* {{exemple | lang=gv | Yn '''Valta'''.}}
+#* {{exemple | lang=gv | Pobblaght ny '''Malta'''.}}
+
+=== {{S|voir aussi}} ===
+* {{WP|Yn Valta|lang=gv}}
+
+[[Catégorie:Îles en mannois]]
+
+== {{langue|nan}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|nan|mot=Malta}}.
+
+=== {{S|nom propre|nan}} ===
+'''Malta''' {{pron||nan}}
+# {{îles|nan}} [[Malte]] (en Méditerranée).
+
+[[Catégorie:Pays en minnan]]
+
+== {{langue|lij-mc}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|lij-mc|mot=Malta}}.
+
+=== {{S|nom propre|lij-mc}} ===
+'''Malta''' {{pron||lij-mc}}
+# {{îles|lij-mc|d’Europe}} [[Malte]] (en Méditerranée).
+
+[[Catégorie:Pays en monégasque]]
+
+== {{langue|nl}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|nl|mot=Malta}}.
+
+=== {{S|nom propre|nl}} ===
+'''Malta''' {{pron|ˈmal.ta|nl}}
+# {{îles|nl}} [[Malte]] (en Méditerranée).
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=nl|Pays-Bas|'mal.ta|audio=Nl-Malta.ogg}}
+
+[[Catégorie:Pays d’Europe en néerlandais]]
+
+== {{langue|no}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|no|mot=Malta}}.
+
+=== {{S|nom propre|no}} ===
+'''Malta''' {{pron||no}}
+# {{îles|no|d’Europe}} [[Malte]] (en Méditerranée).
+
+[[Catégorie:Pays d’Europe en norvégien]]
+
+== {{langue|nn}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|no|nn|mot=Malta}}.
+
+=== {{S|nom propre|nn}} ===
+'''Malta''' {{pron||nn}}
+# {{îles|nn|d’Europe}} [[Malte]] (en Méditerranée).
+
+[[Catégorie:Pays d’Europe en norvégien (nynorsk)]]
+
+== {{langue|nov}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|nov|mot=Malta}}.
+
+=== {{S|nom propre|nov}} ===
+'''Malta''' {{pron||nov}}
+# {{îles|nov}} [[Malte]] (en Méditerranée).
+
+[[Catégorie:Pays en novial]]
+
+== {{langue|oc}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|oc|Melita}}.
+
+=== {{S|nom propre|oc}} ===
+'''Malta''' {{pron|ˈmalto|oc}}
+# {{îles|oc}} [[Malte]] (en Méditerranée).
+
+==== {{S|gentilés}} ====
+* [[maltés]], [[maltesa]]
+
+[[Catégorie:Pays en occitan]]
+
+== {{langue|ug}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|ug|mot=Malta}}.
+
+=== {{S|nom propre|ug}} ===
+'''Malta''' {{pron||ug}}
+# {{îles|ug}} [[Malte]] (en Méditerranée).
+
+[[Catégorie:Pays en ouïghour]]
+
+== {{langue|uz}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|uz|mot=Malta}}.
+
+=== {{S|nom propre|uz}} ===
+'''Malta''' {{pron||uz}}
+# {{îles|uz}} [[Malte]] (en Méditerranée).
+
+[[Catégorie:Pays en ouzbek]]
+
+== {{langue|pms}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|pms|mot=Malta}}.
+
+=== {{S|nom propre|pms}} ===
+'''Malta''' {{pron||pms}}
+# {{îles|pms}} [[Malte]] (en Méditerranée).
+
+[[Catégorie:Pays en piémontais]]
+
+== {{langue|pl}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|pl|mot=Malta}}.
+
+=== {{S|nom propre|pl}} ===
+'''Malta''' {{pron||pl}}
+# {{îles|pl}} [[Malte]] (en Méditerranée).
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=pl||audio=Pl-Malta.ogg}}
+
+[[Catégorie:Pays d’Europe en polonais]]
+
+== {{langue|pt}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|pt|mot=Malta}}.
+
+=== {{S|nom propre|pt}} ===
+{{pt-inv}}
+'''Malta''' {{pron|mˈaɫ.tɐ|pt}} (Lisbonne) {{pron|mˈaw.tə|pt}} (São Paulo)
+# {{îles|pt}} [[Malte]] (en Méditerranée).
+
+=== {{S|prononciation}} ===
+* Lisbonne : {{pron|mˈaɫ.tɐ|pt}} (langue standard), {{pron|mˈaɫ.tɐ|pt}} (langage familier)
+* São Paulo : {{pron|mˈaw.tə|pt}} (langue standard), {{pron|mˈaɽ.tə|pt}} (langage familier)
+* Rio de Janeiro : {{pron|mˈaw.tɐ|pt}} (langue standard), {{pron|mˈaw.tɐ|pt}} (langage familier)
+* Maputo : {{pron|mˈaɫ.tɐ|pt}} (langue standard), {{pron|mˈaɫ.θɐ|pt}} (langage familier)
+* Luanda : {{pron|mˈaɾ.tɐ|pt}}
+* Dili : {{pron|mˈaɫ.tə|pt}}
+
+=== {{S|anagrammes}} ===
+{{voir anagrammes|pt}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=pt}}
+
+=== {{S|références}} ===
+* {{R:DicionárioFonético|malta|id=19630}}
+
+[[Catégorie:Pays d’Europe en portugais]]
+
+== {{langue|qu}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|qu|mot=Malta}}.
+
+=== {{S|nom propre|qu}} ===
+'''Malta''' {{pron||qu}}
+# {{îles|qu}} [[Malte]] (en Méditerranée).
+
+[[Catégorie:Pays en quechua]]
+
+== {{langue|rm}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|rm|mot=Malta}}.
+
+=== {{S|nom propre|rm}} ===
+'''Malta''' {{pron||rm}}
+# {{îles|rm}} [[Malte]] (en Méditerranée).
+
+[[Catégorie:Pays en romanche]]
+
+== {{langue|ro}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|ro|mot=Malta}}.
+
+=== {{S|nom propre|ro}} ===
+'''Malta''' {{pron|ˈmal.ta|ro}}
+# {{îles|ro|d’Europe}} [[Malte]] (en Méditerranée).
+
+=== {{S|prononciation}} ===
+* {{écouter|Iași (Roumanie)||lang=ro|audio=LL-Q7913 (ron)-KlaudiuMihaila-Malta.wav}}
+
+[[Catégorie:Pays d’Europe en roumain]]
+
+== {{langue|sgs}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|sgs|mot=Malta}}.
+
+=== {{S|nom propre|sgs}} ===
+'''Malta''' {{pron||sgs}}
+# {{îles|sgs}} [[Malte]] (en Méditerranée).
+
+[[Catégorie:Pays en samogitien]]
+
+== {{langue|sh}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|sh|mot=Malta}}.
+
+=== {{S|nom propre|sh}} ===
+'''Malta''' {{pron||sh}}
+# {{îles|sh}} [[Malte]] (en Méditerranée).
+
+[[Catégorie:Pays d’Europe en serbo-croate]]
+
+== {{langue|scn}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|scn|mot=Malta}}.
+
+=== {{S|nom propre|scn}} ===
+'''Malta''' {{pron||scn}}
+# {{îles|scn}} [[Malte]] (en Méditerranée).
+
+=== {{S|prononciation}} ===
+* {{écouter|Gela (Italie)||lang=scn|audio=LL-Q33973 (scn)-XANA000-Malta.wav}}
+
+[[Catégorie:Pays en sicilien]]
+
+== {{langue|szl}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|szl|mot=Malta}}.
+
+=== {{S|nom propre|szl}} ===
+'''Malta''' {{pron||szl}}
+# {{îles|szl}} [[Malte]] (en Méditerranée).
+
+[[Catégorie:Pays en silésien]]
+
+== {{langue|sk}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|sk|mot=Malta}}.
+
+=== {{S|nom propre|sk}} ===
+'''Malta''' {{pron||sk}} {{f}}
+# {{îles|sk}} [[Malte]] (en Méditerranée).
+
+[[Catégorie:Pays d’Europe en slovaque]]
+
+== {{langue|sl}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|sl|mot=Malta}}.
+
+=== {{S|nom propre|sl}} ===
+'''Malta''' {{pron||sl}} {{f}} {{s}}
+# {{îles|sl}} [[Malte]] (en Méditerranée).
+
+[[Catégorie:Pays d’Europe en slovène]]
+
+== {{langue|so}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|so|mot=Malta}}.
+
+=== {{S|nom propre|so}} ===
+'''Malta''' {{pron||so}}
+# {{îles|so}} [[Malte]] (en Méditerranée).
+
+[[Catégorie:Pays en somali]]
+
+== {{langue|sv}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|sv|mot=Malta}}.
+
+=== {{S|nom propre|sv}} ===
+'''Malta''' {{pron||sv}}
+# {{îles|sv|d’Europe}} [[Malte]] (en Méditerranée).
+
+=== {{S|prononciation}} ===
+* {{écouter|Suède||lang=sv|audio=LL-Q9027 (swe)-Moonhouse-Malta.wav}}
+
+[[Catégorie:Pays d’Europe en suédois]]
+
+== {{langue|sw}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|sw|mot=Malta}}.
+
+=== {{S|nom propre|sw}} ===
+'''Malta''' {{pron||sw}}
+# {{îles|sw}} [[Malte]] (en Méditerranée).
+
+[[Catégorie:Pays en swahili]]
+
+== {{langue|tl}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|tl|mot=Malta}}.
+
+=== {{S|nom propre|tl}} ===
+'''Malta''' {{pron||tl}}
+# {{îles|tl}} [[Malte]] (en Méditerranée).
+
+[[Catégorie:Pays en tagalog]]
+
+== {{langue|crh}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|crh|mot=Malta}}.
+
+=== {{S|nom propre|crh}} ===
+'''Malta''' {{pron||crh}}
+# {{îles|crh}} [[Malte]] (en Méditerranée).
+
+[[Catégorie:Pays en tatar de Crimée]]
+
+== {{langue|cs}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|cs|mot=Malta}}.
+
+=== {{S|nom propre|cs}} ===
+{{cs-décl-nom-f-a|rad=Malt|sing=oui}}
+'''Malta''' {{pron||cs}} {{f}}
+# {{îles|cs|d’Europe}} [[Malte]] (en Méditerranée).
+#* {{exemple | lang=cs
+ | Vojáci podle krátkých příspěvků na internetu dezertují. Několik vojáků bylo ale také údajně upáleno, protože odmítli střílet do lidí. Na '''Maltě''' pak také přistály dvě libyjské stíhačky; dezerce pilotů by potvrzovala neověřené zprávy, že Kaddáfí nařídil bombardování civilistů.
+ | {{trad-exe|cs}}
+ | source=[http://www.novinky.cz/zahranicni/svet/225842-kaddafi-mel-naridit-bombardovani-civilistu-a-prchnout-ze-zeme.html Kaddáfí měl nařídit bombardování civilistů a prchnout ze země]}}
+
+==== {{S|dérivés}} ====
+* [[maltský#cs|maltský]]
+* [[maltština#cs|maltština]]
+
+=== {{S|prononciation}} ===
+==== {{S|homophones|cs}} ====
+* [[malta#cs|malta]]
+
+[[Catégorie:Pays d’Europe en tchèque]]
+
+== {{langue|tet}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|tet|mot=Malta}}.
+
+=== {{S|nom propre|tet}} ===
+'''Malta''' {{pron||tet}}
+# {{îles|tet}} [[Malte]] (en Méditerranée).
+
+[[Catégorie:Pays en tétoum]]
+
+== {{langue|tr}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|tr|mot=Malta}}.
+
+=== {{S|nom propre|tr}} ===
+'''Malta''' {{pron||tr}}
+# {{îles|tr}} [[Malte]] (en Méditerranée).
+
+=== {{S|prononciation}} ===
+* {{écouter|Izmir (Turquie)||lang=tr|audio=LL-Q256 (tur)-ToprakM-Malta.wav}}
+
+[[Catégorie:Pays d’Europe en turc]]
+
+== {{langue|vec}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|vec|mot=Malta}}.
+
+=== {{S|nom propre|vec}} ===
+'''Malta''' {{pron||vec}}
+# {{îles|vec}} [[Malte]] (en Méditerranée).
+
+[[Catégorie:Pays en vénitien]]
+
+== {{langue|vi}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|vi|mot=Malta}}.
+
+=== {{S|nom propre|vi}} ===
+'''Malta''' {{pron||vi}}
+# {{îles|vi}} [[Malte]] (en Méditerranée).
+
+[[Catégorie:Pays d’Europe en vietnamien]]
+
+== {{langue|rmy}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|rmy|mot=Malta}}.
+
+=== {{S|nom propre|rmy}} ===
+'''Malta''' {{pron||rmy}}
+# {{îles|rmy}} [[Malte]] (en Méditerranée).
+
+[[Catégorie:Pays en vlax]]
+
+== {{langue|vro}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|vro|mot=Malta}}.
+
+=== {{S|nom propre|vro}} ===
+'''Malta''' {{pron||vro}}
+# {{îles|vro}} [[Malte]] (en Méditerranée).
+
+[[Catégorie:Pays en võro]]
+[[Catégorie:Îles en võro]]
+
+== {{langue|war}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|war|mot=Malta}}.
+
+=== {{S|nom propre|war}} ===
+'''Malta''' {{pron||war}}
+# {{îles|war}} [[Malte]] (en Méditerranée).
+
+[[Catégorie:Pays en waray (Philippines)]]

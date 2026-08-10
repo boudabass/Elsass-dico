@@ -1,0 +1,55 @@
+== {{langue|fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|fr}}
+
+=== {{S|nom de famille|fr}} ===
+'''Eck''' {{pron||fr}} {{mf}}
+# Nom de famille.
+#* {{exemple | lang=fr
+ | Pour abolir les fonctions du foie, trois procédés généraux sont applicables, qui ont pour but de « déshépatiser » les animaux : {{numéro|1}} Extirper le foie ; {{numéro|2}} Détruire les cellules hépatiques par des corps chimiques ; {{numéro|3}} Détourner le sang de la veine porte vers la veine cave inférieure (fistule porto-cave d’'''Eck''').
+ | source=''La Lancette française'', 1896, page 695}}
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|de}}
+
+=== {{S|nom|de}} ===
+{{de-nom-n-s-e|gse=opt|dse=opt|npx2=Ecken|cat2=n-s-en}}
+'''Eck''' {{pron|ɛk|de}} {{n}}
+# {{Autriche|de}} {{term|Sud de l'Allemagne}} {{variante de|Ecke|lang=de|sens=[[coin]] », « [[angle]] », « [[sommet]] de [[polygone]]}}.
+#* {{exemple|Mittlerweile gibt es die Croques in allerhand Abwandlungen: vegetarisch natürlich und auch vegan, normand mit Camembert und norvégien mit Räucherlachs, in der Luxusvariante mit Kaviar und bei hippen Bio-Lokalen mit Brot vom Bäcker ums '''Eck''' und 24 Monate gereiftem Comté.|lang=de|sens=Entre-temps, les croques se déclinent en toutes sortes de variantes : végétariennes bien sûr, mais aussi végétaliennes, normandes avec du camembert et norvégiennes avec du saumon fumé, dans la variante de luxe avec du caviar et, dans les restaurants bio branchés, avec du pain du boulanger du coin et du comté affiné pendant 24 mois.|source={{périodique|auteur=Verena C. Mayer|titre=Knusper, knusper, Toastchen|journal=taz|date=26 janvier 2024|texte=https://taz.de/Frankreichs-Schinken-Kaese-Toast/!5985448/}}}}
+
+==== {{S|variantes}} ====
+* {{l|Ecke|de}}
+
+==== {{S|dérivés}} ====
+* {{l|Hauseck|de|sens=[[angle]] de [[mur]]}}
+
+=== {{S|prononciation}} ===
+* {{écouter|Berlin|ɛk|lang=de|audio=De-Eck.ogg}}
+
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw}}
+
+=== {{S|nom|gsw}} ===
+'''Schlessel''' {{pron||gsw}}
+# {{Wolschheim|gsw}} [[coin#fr|Coin]].
+#* {{exemple|lang=gsw}}
+
+== {{langue|lb}} ==
+=== {{S|étymologie}} ===
+: {{date|lang=lb}} {{ébauche-étym|lb}}
+{{note noms de famille}}
+
+=== {{S|nom de famille|lb}} ===
+{{lb-inv|æk}}
+'''Eck''' {{pron|æk|lb}}
+# Nom de famille.
+#* {{exemple|lang=lb}}
+
+=== {{S|prononciation}} ===
+{{ébauche-pron-audio|lb}}
+
+=== {{S|références}} ===
+* {{R:Luxemburger Familiennamenbuch}}

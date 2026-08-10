@@ -1,0 +1,34 @@
+{{voir|St Helena}}
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw}}
+
+=== {{S|nom propre|gsw}} ===
+'''St. Helena''' {{pron||gsw}}
+# [[Sainte-Hélène]] (île de l’[[océan Atlantique]]).
+
+[[Catégorie:Pays en alémanique]]
+[[Catégorie:Îles en alémanique]]
+
+== {{langue|bar}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|bar}}
+
+=== {{S|nom propre|bar}} ===
+'''St. Helena''' {{pron||bar}}
+# [[Sainte-Hélène]] (île de l’[[océan Atlantique]]).
+
+[[Catégorie:Pays en bavarois]]
+[[Catégorie:Îles en bavarois]]
+
+== {{langue|ksh}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|ksh}}
+
+=== {{S|nom propre|ksh}} ===
+'''St. Helena''' {{pron||ksh}}
+# [[Sainte-Hélène]] (île de l’[[océan Atlantique]]).
+
+{{clé de tri|st elena}}
+[[Catégorie:Pays en francique ripuaire]]
+[[Catégorie:Îles en francique ripuaire]]

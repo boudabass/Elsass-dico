@@ -1,0 +1,56 @@
+{{voir/darmstadtium}}
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|de|gsw|mot=Darmstadtium}}.
+
+=== {{S|nom|gsw}} ===
+'''Darmstadtium''' {{pron||gsw}} {{n}}
+# {{éléments|gsw}} {{métaux|gsw}} [[darmstadtium#fr|Darmstadtium]].
+#* {{exemple|lang=gsw}}
+
+==== {{S|vocabulaire}} ====
+{{tableau périodique/gsw}}
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: {{date|2003|lang=de}} {{composé de|Darmstadt|-ium|lang=de|m=1}}{{R|DWDS|Darmstadtium}}.
+
+=== {{S|nom|de}} ===
+{{légende élément/de|Ds|Uun}}
+'''Darmstadtium''' {{pron|daʁmˈʃtatiʊm|de}} {{n}}
+# {{éléments|de}} {{métaux|de}} [[darmstadtium#fr|Darmstadtium]].
+#* {{exemple|lang=de|'''Darmstadtium''' wurde 1994 erstmals hergestellt.}}
+#* {{exemple|lang=de|Ein in Darmstadt entdecktes chemisches Element ist nun endgültig auf den Namen »'''Darmstadtium'''« getauft worden.|Un élément chimique découvert à Darmstadt a été officiellement nommé ''darmstadtium''.|source=''Süddeutsche Zeitung'', 26 aout 2003}}
+
+==== {{S|synonymes}} ====
+* {{lien|Eka-Platin|de}}
+* {{lien|Ununnilium|de}} {{désuet|nocat=1}}
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=de|allemand|daʁmˈʃtatiʊm|audio=LL-Q188 (deu)-Lucas Werkmeister-Darmstadtium.wav}}
+* {{écouter|lang=de|allemand|daʁmˈʃtatiʊm|audio=LL-Q188 (deu)-Sebastian Wallroth-Darmstadtium.wav}}
+
+=== {{S|voir aussi}} ===
+{{tableau périodique/de}}
+* {{WP|lang=de}}
+
+=== {{S|références}} ===
+* {{R:Duden|Darmstadtium}}
+{{Références}}
+
+== {{langue|lb}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|de|lb|mot=Darmstadtium}}.
+
+=== {{S|nom|lb}} ===
+{{lb-inv|daːʀmʃtˈɑti̯um}}
+'''Darmstadtium''' {{pron|daːʀmʃtˈɑti̯um|lb}} {{m}}, {{au singulier uniquement|lb}}
+# {{éléments|lb}} {{métaux|lb}} [[darmstadtium|Darmstadtium]].
+#* {{exemple|lang=lb}}
+
+=== {{S|voir aussi}} ===
+{{tableau périodique/lb}}
+* {{WP|lang=lb}}
+
+=== {{S|références}} ===
+* {{R:LOD}}

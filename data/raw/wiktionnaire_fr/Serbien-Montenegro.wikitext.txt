@@ -1,0 +1,16 @@
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw}}
+
+=== {{S|nom propre|gsw}} ===
+'''Serbien-Montenegro'''
+# [[Serbie-et-Monténégro]], ancien pays fédéral éphémère des [[Balkans]], qui était issu de la scission de l’ancienne fédération de [[Yougoslavie]] et associait la république de [[Serbie]] à celle du [[Monténégro]], avant que ces deux républiques ne deviennent elles-même chacune indépendantes.
+
+==== {{S|apparentés}} ====
+* [[Serbien]]
+* [[Montenegro]]
+
+=== {{S|prononciation}} ===
+: {{ébauche-pron|gsw}}
+
+{{clé de tri|Serbien Montenegro}}

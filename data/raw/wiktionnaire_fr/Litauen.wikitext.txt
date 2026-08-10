@@ -1,0 +1,114 @@
+== {{langue|gsw}} ==
+{{ébauche|gsw}}
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw}}
+
+=== {{S|nom propre|gsw}} ===
+'''Litauen'''
+# [[Lituanie]] (pays d’Europe orientale).
+
+[[Catégorie:Pays en alémanique]]
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|de}}
+
+=== {{S|nom propre|de}} ===
+{{de-nom-propre|genre=n|gs=Litauens}}
+'''Litauen''' {{pron|ˈlɪtaʊ̯ən|de}} {{n}}
+# [[Lituanie]] (pays d’Europe orientale).
+#* {{exemple|Seit Beginn des Angriffkriegs am 24. Februar 2022 haben sich die Beziehungen zwischen Russland und den drei baltischen Staaten Estland, Lettland und '''Litauen''' stetig verschlechtert.|lang=de|sens=Depuis le début de la guerre d'agression le 24 février 2022, les relations entre la Russie et les trois États baltes, l'Estonie, la Lettonie et la Lituanie, se sont détériorées sans cesse.|source={{périodique|auteur=Barbara Oertel|titre=Spannungen unter Nachbarn|journal=taz|date=24 janvier 2023|texte=https://taz.de/Estland-und-Russlands-Krieg/!5911307/}}}}
+
+=== {{S|prononciation}} ===
+* {{écouter|Berlin|ˈlɪtaʊ̯ən|lang=de|audio=De-Litauen.ogg}}
+
+[[Catégorie:Pays d’Europe en allemand]]
+[[Catégorie:Lituanie en allemand|*]]
+
+== {{langue|nds}} ==
+{{ébauche|nds}}
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|nds}}
+
+=== {{S|nom propre|nds}} ===
+'''Litauen'''
+# [[Lituanie]] (pays d’Europe orientale).
+
+[[Catégorie:Pays d’Europe en bas allemand]]
+
+== {{langue|da}} ==
+{{ébauche|da}}
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|da}}
+
+=== {{S|nom propre|da}} ===
+'''Litauen'''
+# [[Lituanie]] (pays d’Europe orientale).
+
+[[Catégorie:Pays d’Europe en danois]]
+[[Catégorie:Lituanie en danois|*]]
+	
+== {{langue|lb}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|lb}}
+
+=== {{S|nom propre|lb}} ===
+{{lb-inv-en|pron=lˈitɑʊən|inv_titre=Nom propre}}
+'''Litauen''' {{pron|lˈitɑʊən|lb}} {{n}}
+# {{pays|lb|d’Europe|pays=Lituanie|clé=*}} {{lien|Lituanie|fr}}.
+#* {{exemple|lang=lb}}
+
+==== {{S|notes}} ====
+* {{lb-n|np=oui}}
+
+==== {{S|gentilés}} ====
+* {{lien|Litauer|lb|sens=Lituanien}}, {{lien|Litauerin|lb|sens=Lituanienne}}
+* {{lien|litauesch|lb|sens=lituanien, lituanienne}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=lb}}
+
+=== {{S|références}} ===
+: {{R:LOD}}
+
+== {{langue|no}} ==
+{{ébauche|no}}
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|no}}
+
+=== {{S|nom propre|no}} ===
+'''Litauen'''
+# [[Lituanie]] (pays d’Europe orientale).
+
+[[Catégorie:Pays d’Europe en norvégien]]
+[[Catégorie:Lituanie en norvégien|*]]
+
+== {{langue|nn}} ==
+{{ébauche|nn}}
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|nn}}
+
+=== {{S|nom propre|nn}} ===
+'''Litauen'''
+# [[Lituanie]] (pays d’Europe orientale).
+
+[[Catégorie:Pays d’Europe en norvégien (nynorsk)]]
+[[Catégorie:Lituanie en norvégien (nynorsk)|*]]
+
+== {{langue|sv}} ==
+{{ébauche|sv}}
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|sv}}
+
+=== {{S|nom propre|sv}} ===
+'''Litauen'''
+# [[Lituanie]] (pays d’Europe orientale).
+
+[[Catégorie:Pays d’Europe en suédois]]
+[[Catégorie:Lituanie en suédois|*]]

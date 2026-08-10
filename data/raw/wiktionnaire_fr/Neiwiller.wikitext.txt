@@ -1,0 +1,17 @@
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw}}
+
+=== {{S|nom propre|gsw}} ===
+'''Neiwiller''' {{pron||gsw}}
+# {{Alsace|gsw}} {{localités|gsw|du département du Bas-Rhin}} [[Neuwiller-lès-Saverne#fr|Neuwiller-lès-Saverne]], [[commune]] [[français]]e, située dans le département du [[Bas-Rhin]].
+#* {{exemple|lang=gsw}}
+
+== {{langue|it}} ==
+=== {{S|étymologie}} ===
+: {{date|lang=it}} {{ébauche-étym|it}}
+
+=== {{S|nom de famille|it}} ===
+'''Neiwiller''' {{pron||it}} {{mf}}
+# Nom de famille.
+#* {{exemple|lang=it}}

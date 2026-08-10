@@ -1,0 +1,170 @@
+{{voir|hesse}}
+
+== {{langue|fr}} ==
+=== {{S|étymologie}} ===
+: {{term|pays allemand}} De l’{{étylp|de|fr|Hessen}}.
+: {{term|commune mosellane}} Du {{étyl|frk|fr|Hess}}, apparenté à ''{{lien|hêtre|fr}}''.
+
+=== {{S|nom propre|fr|num=1}} ===
+{{fr-inv|ɛs|préfpron={{h aspiré}}|inv_titre=Nom propre}}
+[[Fichier:Deutschland Lage von Hessen.svg|vignette|150 px|Localisation du Land de '''Hesse''' au sein de l’Allemagne.]]
+'''Hesse''' {{h aspiré}}{{pron|ɛs|fr}} {{f}}
+# {{territoires|sous-cat=Länder|fr|d’Allemagne}} Un des seize [[Länder]] d’[[Allemagne]]. Sa capitale est [[Wiesbaden]].
+#* {{exemple | lang=fr | Il habite en '''Hesse'''.}}
+#* {{exemple | lang=fr | Il visite la '''Hesse'''.}}
+
+==== {{S|synonymes}} ====
+* [[Grande-Hesse]] ''(Nom porté par le futur Land en 1945)''
+
+==== {{S|gentilés}} ====
+* {{lien|Hessien|fr}}, {{lien|Hessienne|fr}}, {{lien|hessien|fr}}
+* [[Hessois]], [[Hessoise]], [[hessois]]
+
+==== {{S|dérivés}} ====
+{{(}}
+* [[boulant de Hesse]] ''(Race de pigeon)''
+* [[Grande-Hesse]]
+* [[Hesse-Cassel]]
+* [[Hesse-Darmstadt]]
+* [[Hesse-Hombourg]]
+* [[mouche de Hesse]]
+
+{{)}}
+
+==== {{S|traductions}} ====
+{{trad-début}}
+* {{T|de}} : {{trad+|de|Hessen}}
+* {{T|en}} : {{trad+|en|Hesse}}
+* {{T|bg}} : {{trad-|bg|Хесен|tr=Hesen}}
+* {{T|ca}} : {{trad+|ca|Hessen}}
+* {{T|hr}} : {{trad-|hr|Hessen}}
+* {{T|da}} : {{trad-|da|Hessen}}
+* {{T|es}} : {{trad+|es|Hesse}}
+* {{T|eo}} : {{trad-|eo|Hesujo}}
+* {{T|et}} : {{trad-|et|Hessen}}
+* {{T|fi}} : {{trad+|fi|Hessen}}
+* {{T|gl}} : {{trad+|gl|Hessen}}
+* {{T|el}} : {{trad-|el|Έσση|tr=Éssi}}
+* {{T|hu}} : {{trad+|hu|Hessen}}
+* {{T|it}} : {{trad+|it|Assia}}
+* {{T|lv}} : {{trad-|lv|Hesene}}
+* {{T|lt}} : {{trad-|lt|Hesenas}}
+* {{T|nl}} : {{trad-|nl|Hessen}}
+* {{T|no}} : {{trad+|no|Hessen}}
+* {{T|pl}} : {{trad+|pl|Hesja}}
+* {{T|pt}} : {{trad-|pt|Hesse}}
+* {{T|ro}} : {{trad-|ro|Hessa}}
+* {{T|ru}} : {{trad+|ru|Гессен|tr=Gessen}}
+* {{T|sr}} : {{trad-|sr|Хесен}}
+* {{T|sk}} : {{trad+|sk|Hesensko}}
+* {{T|sl}} : {{trad-|sl|Hessen}}
+* {{T|sv}} : {{trad+|sv|Hessen}}
+* {{T|cs}} : {{trad+|cs|Hesensko}}
+* {{T|tr}} : {{trad-|tr|Hessen}}
+* {{T|uk}} : {{trad-|uk|Гессен}}
+{{trad-fin}}
+
+=== {{S|nom propre|fr|num=2}} ===
+{{fr-inv|es|préfpron={{h aspiré}}|inv_titre=Nom propre}}
+'''Hesse''' {{h aspiré}}{{pron|es|fr}}
+# {{localités|fr|du département de la Moselle}} [[commune|Commune]] [[français|française]], située dans le département de la [[Moselle]].
+#* {{exemple | lang=fr | L’abbaye bénédictine de '''Hesse''' fut fondée au début du {{siècle2|X}} siècle par Hugues IV de Nordgau, comte d’Eguisheim, et comte de Dabo.}}
+
+==== {{S|gentilés}} ====
+* [[Hessois]], [[Hessoise]], [[hessois]]
+
+=== {{S|prononciation}} ===
+* {{écouter|||lang=fr|audio=LL-Q150 (fra)-Marie-Louise (Le Commissaire)-Hesse.wav}}
+
+=== {{S|références}} ===
+* {{mercihabitants}}
+
+=== {{S|voir aussi}} ===
+* {{WP}}
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: Apparenté à ''{{lien|Chatte|de}}'', peuple germain, voir le latin ''{{lien|Chatti|la}}''.
+
+=== {{S|nom|de}} ===
+{{de-nom-m-n|ˈhɛsə}}
+'''Hesse''' {{pron|ˈhɛsə|de}} {{m}} {{équiv-pour|une femme|Hessin|lang=de}}
+# {{lien|Hessien|fr}}, habitant de la Hesse.
+#* {{exemple | lang=de
+ | Goethe war ein '''Hesse,''' in Frankfurt am Main geboren.
+ | source=Reza {{smcp|Madjederey}}, '"Bin ich schon integriert? Oder zu viel?", AT Edition, Berlin 2011}}
+
+==== {{S|notes}} ====
+: {{note-gentilé|de|d’Allemagne}}
+
+==== {{S|dérivés}} ====
+* {{lien|Hessen|de}}
+
+=== {{S|prononciation}} ===
+* {{pron|ˈhɛsə|de}}<ref>adapté par: Krech, Eva-Maria; Stock, Eberhard; Hirschfeld, Ursula; Anders, Lutz Christian; ''Deutsches Aussprachewörterbuch'', Walter de Gruyter, Berlin, New York, 2009, page 581</ref>
+* {{écouter|lang=de|Allemagne (Berlin)|ˈhɛsə|audio=De-Hesse.ogg}}
+
+=== {{S|références}} ===
+{{références}}
+
+== {{langue|en}} ==
+=== {{S|étymologie}} ===
+: Du {{étylp|fr|en|Hesse}}.
+
+=== {{S|nom propre|en}} ===
+'''Hesse''' {{pron|ˈhɛs|en}}
+# {{territoires|sous-cat=Länder|en|d’Allemagne}} {{lien|Hesse|fr}}, un des Länder d’Allemagne.
+
+==== {{S|gentilés}} ====
+* [[Hessian]]
+
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw}}
+
+=== {{S|nom propre|gsw}} ===
+'''Hesse''' {{pron||gsw}}
+# {{Alsace|gsw}} {{localités|gsw|du département du Bas-Rhin}} [[Hessenheim#fr|Hessenheim]], [[commune]] [[français]]e, située dans le département du [[Bas-Rhin]].
+#* {{exemple|lang=gsw}}
+
+== {{langue|es}} ==
+=== {{S|étymologie}} ===
+: Du {{étylp|fr|es|Hesse}}.
+
+=== {{S|nom propre|es}} ===
+'''Hesse''' {{pron||es}}
+# {{territoires|sous-cat=Länder|es|d’Allemagne}} {{lien|Hesse|fr}}, un des Länder d’Allemagne.
+
+== {{langue|lb}} ==
+=== {{S|étymologie}} ===
+: {{date|lang=lb}} {{ébauche-étym|lb}}
+{{note noms de famille}}
+
+=== {{S|nom de famille|lb}} ===
+{{lb-inv|hæs}}
+'''Hesse''' {{pron|hæs|lb}}
+# Nom de famille.
+#* {{exemple|lang=lb}}
+
+=== {{S|prononciation}} ===
+{{ébauche-pron-audio|lb}}
+
+=== {{S|anagrammes}} ===
+{{voir anagrammes|lb}}
+
+=== {{S|références}} ===
+* {{R:Luxemburger Familiennamenbuch}}
+
+== {{langue|pt}} ==
+=== {{S|étymologie}} ===
+: Du {{étylp|fr|pt|Hesse}}.
+
+=== {{S|nom propre|pt}} ===
+'''Hesse''' {{pron||pt}}
+# {{territoires|sous-cat=Länder|pt|d’Allemagne}} {{lien|Hesse|fr}}, un des Länder d’Allemagne.
+
+[[Catégorie:Toponymes dont l’origine est un ethnonyme en français]]
+[[Catégorie:Toponymes dont l’origine est un ethnonyme en anglais]]
+[[Catégorie:Toponymes dont l’origine est un ethnonyme en espagnol]]
+[[Catégorie:Toponymes dont l’origine est un ethnonyme en portugais]]
+[[Catégorie:Toponymes dont l’origine est un ethnonyme en alémanique]]

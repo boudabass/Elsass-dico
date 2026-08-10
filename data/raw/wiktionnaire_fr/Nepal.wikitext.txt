@@ -1,0 +1,751 @@
+{{voir/nepal}}
+
+== {{langue|af}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étylp|ne|af|mot=नेपाल|tr=Nepāl}}.
+
+=== {{S|nom propre|af}} ===
+'''Nepal''' {{pron||af}}
+# {{pays|af|d’Asie}} {{lien|Népal|fr}}, pays himalayen.
+#* {{exemple|lang=af}}
+
+== {{langue|gsw}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étylp|ne|gsw|mot=नेपाल|tr=Nepāl}}.
+
+=== {{S|nom propre|gsw}} ===
+'''Nepal''' {{pron||gsw}}
+# {{pays|gsw}} {{lien|Népal|fr}}, pays himalayen.
+
+== {{langue|de}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étylp|ne|de|mot=नेपाल|tr=Nepāl}}.
+
+=== {{S|nom propre|de}} ===
+'''Nepal''' {{pron||de}}
+# {{pays|de|d’Asie}} {{lien|Népal|fr}}, pays himalayen.
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=de|{{AT|nocat=1}}|audio=De-at-Nepal.ogg}}
+
+[[Catégorie:Népal en allemand|*]]
+
+== {{langue|en}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étylp|ne|en|mot=नेपाल|tr=Nepāl}}.
+
+=== {{S|nom propre|en}} ===
+'''Nepal''' {{pron|nə.ˈpɔl|en}} {{US|nocat=1}}, {{pron|nɪ.ˈpɔːl|en}} {{UK|nocat=1}}
+# {{pays|en|d’Asie}} {{lien|Népal|fr}}, pays himalayen.
+
+==== {{S|dérivés}} ====
+* {{lien|Nepalese|en}}
+* {{lien|Nepali|en}}
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=en|États-Unis|nə.ˈpɔl|audio=En-us-Nepal.ogg}}
+* {{écouter|Londres (Royaume-Uni)||lang=en|audio=}}
+* {{écouter|Texas (États-Unis)||lang=en|audio=LL-Q1860 (eng)-Wodencafe-Nepal.wav}}
+* {{écouter|Londres (Royaume-Uni)||lang=en|audio=LL-Q1860 (eng)-Soundguys-Nepal.wav}}
+* {{écouter|Milwaukee (États-Unis)||lang=en|audio=LL-Q1860 (eng)-Flame, not lame-Nepal.wav}}
+* {{écouter|||lang=en|audio=LL-Q1860 (eng)-Nikolavinci-Nepal.wav}}
+* {{écouter|Vijayawada (Inde)||niveau=bon|lang=en|audio=LL-Q1860 (eng)-Baswameenakshi-Nepal.wav}}
+* {{écouter|||lang=en|audio=LL-Q1860 (eng)-Saikrishna gangula-Nepal.wav}}
+* {{écouter|||lang=en|audio=LL-Q1860 (eng)-Boredcookie-Nepal.wav}}
+* {{écouter|New York (États-Unis)||lang=en|audio=LL-Q1860 (eng)-Assorted-Interests-Nepal.wav}}
+
+=== {{S|anagrammes}} ===
+* {{lien|panel|en}}
+* {{lien|plane|en}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=en}}
+
+== {{langue|an}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étylp|ne|an|mot=नेपाल|tr=Nepāl}}.
+
+=== {{S|nom propre|an}} ===
+'''Nepal''' {{pron||an}}
+# {{pays|an|d’Asie}} {{lien|Népal|fr}}, pays himalayen.
+
+== {{langue|ast}} ==
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|ast}}
+
+=== {{S|nom propre|ast}} ===
+'''Nepal''' {{pron||ast}}
+# {{pays|ast|d’Asie}} {{lien|Népal|fr}}, pays himalayen.
+
+== {{langue|az}} ==
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|az}}
+
+=== {{S|nom propre|az}} ===
+{{az-décl-nom|a|c}}
+'''Nepal''' {{pron|ne.ˈpɑl|az}} {{az-forme possessive}}
+# {{pays|az|d’Asie}} {{lien|Népal|fr}}, pays himalayen.
+
+==== {{S|gentilés}} ====
+* [[nepallı]]
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=az}}
+
+== {{langue|nds}} ==
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|nds}}
+
+=== {{S|nom propre|nds}} ===
+'''Nepal''' {{pron||nds}}
+# {{pays|nds|d’Asie}} {{lien|Népal|fr}}, pays himalayen.
+
+== {{langue|eu}} ==
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|eu}}
+
+=== {{S|nom propre|eu}} ===
+'''Nepal''' {{pron||eu}}
+# {{pays|eu|d’Asie}} {{lien|Népal|fr}}, pays himalayen.
+
+== {{langue|bs}} ==
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|bs}}
+
+=== {{S|nom propre|bs}} ===
+'''Nepal''' {{pron||bs}}
+# {{pays|bs|d’Asie}} {{lien|Népal|fr}}, pays himalayen.
+
+== {{langue|br}} ==
+
+=== {{S|étymologie}} ===
+: ''(Attesté en 1935)'' Du {{étyl|ne|br|mot=नेपाल|tr=Nepāl}}.
+
+=== {{S|nom propre|br}} ===
+'''Nepal''' {{pron|ˈne.pːal|br}}
+# {{pays|br|d’Asie}} {{lien|Népal|fr}}, pays himalayen.
+#* {{exemple | lang=br
+ | Pa skôas gant bro-Indez ar walenn a gastiz eus an argadadegou muzulmat, pa voe diskaret manatiou Nalanda, Vikramasila, Uddandapouri, tangwallet al levraouegou anezo, lazadeget pe argaset o menecʼh, an Tibed eo, a-gevret gant an '''Nepal''' en e gichen, a rôas minicʼhi d'an diweza dismantradou eus sevenadurez vouddhaek an Indez.
+ | Lorsque le fléau des invasions musulmanes frappa l’Inde, lorsque les monastères de Nalanda, Vikramasila, Uddandapuri furent détruits, leurs bibliothèques brûlées, leurs moines massacrés ou expulsés, c’est le Tibet, avec le Népal à son côté, qui donnèrent refuge aux derniers fragments de la culture bouddhique de l’Inde.
+ | source={{w|Meven Mordiern}}, ''Prederiadennou diwar-benn ar Yezou hag ar Brezoneg'', in ''{{w|Gwalarn}}'', n{{e|o}} 84, novembre 1935, page 61}}
+#* {{exemple | lang=br
+ | Hippied o tistreiñ eus an '''Nepal''', « lamaed » nevez, o kanañ kantikoù d’ un doue indouat bennak.
+ | Des hippies revenant du Népal, de nouveaux « lamas », chantant des cantiques à un quelconque dieu hindou.
+ | source=Erwan Kervella, ''Un dro-vale'', in ''{{w|Al Liamm}}'', n{{e|o}} 144, janvier-février 1971, page 37}}
+
+==== {{S|gentilés}} ====
+* [[Nepalad]], [[Nepaladez]]
+* [[nepalat]]
+
+==== {{S|dérivés}} ====
+{{(}}
+* [[Nepalad]]
+* [[Nepaladez]]
+* [[nepalat]]
+* [[nepaleg]]
+* [[nepalek]]
+{{)}}
+
+=== {{S|anagrammes}} ===
+* {{lien|lapen|br}}
+* {{lien|palen|br}}
+* {{lien|plaen|br}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=br}}
+
+=== {{S|références}} ===
+* {{R:Ménard|p=1459a}}
+
+== {{langue|ca}} ==
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|ca}}
+
+=== {{S|nom propre|ca}} ===
+'''Nepal''' {{pron||ca}}
+# {{pays|ca|d’Asie}} {{lien|Népal|fr}}, pays himalayen.
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=ca|Espagne (Villarreal)||audio=LL-Q7026 (cat)-Millars-Nepal.wav}}
+
+== {{langue|ceb}} ==
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|ceb}}
+
+=== {{S|nom propre|ceb}} ===
+'''Nepal''' {{pron||ceb}}
+# {{pays|ceb}} {{lien|Népal|fr}}, pays himalayen.
+
+== {{langue|kw}} ==
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|kw}}
+
+=== {{S|nom propre|kw}} ===
+'''Nepal''' {{pron||kw}}
+# {{pays|kw}} {{lien|Népal|fr}}, pays himalayen.
+
+== {{langue|ht}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étyl|fr|ht|Népal}}.
+
+=== {{S|nom propre|ht}} ===
+'''Nepal''' {{pron||ht}}
+# {{pays|ht|d’Asie}} {{lien|Népal|fr}}, pays himalayen.
+#* {{exemple|lang=ht}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=ht}}
+
+== {{langue|hr}} ==
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|hr}}
+
+=== {{S|nom propre|hr}} ===
+'''Nepal''' {{pron||hr}}
+# {{pays|hr|d’Asie}} {{lien|Népal|fr}}, pays himalayen.
+
+== {{langue|da}} ==
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|da}}
+
+=== {{S|nom propre|da}} ===
+'''Nepal''' {{pron||da}}
+# {{pays|da|d’Asie}} {{lien|Népal|fr}}, pays himalayen.
+
+== {{langue|diq}} ==
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|diq}}
+
+=== {{S|nom propre|diq}} ===
+'''Nepal''' {{pron||diq}}
+# {{pays|diq}} {{lien|Népal|fr}}, pays himalayen.
+
+== {{langue|es}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étylp|ne|es|mot=नेपाल|tr=Nepāl}}.
+
+=== {{S|nom propre|es}} ===
+'''Nepal''' {{pron||es}}
+# {{pays|es|d’Asie}} {{lien|Népal|fr}}, pays himalayen.
+
+==== {{S|gentilés}} ====
+* {{lien|nepalés|es}}
+
+=== {{S|prononciation}} ===
+* {{écouter|Espagne||lang=es|audio=LL-Q1321 (spa)-Rodelar-Nepal.wav}}
+
+== {{langue|et}} ==
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|et}}
+
+=== {{S|nom propre|et}} ===
+'''Nepal''' {{pron||et}}
+# {{pays|et|d’Asie}} {{lien|Népal|fr}}, pays himalayen.
+
+== {{langue|fo}} ==
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|fo}}
+
+=== {{S|nom propre|fo}} ===
+'''Nepal''' {{pron||fo}}
+# {{pays|fo}} {{lien|Népal|fr}}, pays himalayen.
+
+== {{langue|fi}} ==
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|fi}}
+
+=== {{S|nom propre|fi}} ===
+'''Nepal''' {{pron||fi}}
+# {{pays|fi|d’Asie}} {{lien|Népal|fr}}, pays himalayen.
+#* {{exemple|lang=fi}}
+
+==== {{S|dérivés}} ====
+* {{lien|nepalilainen|fi}} — Népalais, Népalaise
+
+== {{langue|fy}} ==
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|fy}}
+
+=== {{S|nom propre|fy}} ===
+'''Nepal''' {{pron||fy}}
+# {{pays|fy|d’Asie}} {{lien|Népal|fr}}, pays himalayen.
+
+== {{langue|gl}} ==
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gl}}
+
+=== {{S|nom propre|gl}} ===
+'''Nepal''' {{pron||gl}}
+# {{pays|gl|d’Asie}} {{lien|Népal|fr}}, pays himalayen.
+
+== {{langue|cy}} ==
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|cy}}
+
+=== {{S|nom propre|cy}} ===
+'''Nepal''' {{pron||cy}}
+# {{pays|cy|d’Asie}} {{lien|Népal|fr}}, pays himalayen.
+
+== {{langue|lg}} ==
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|lg}}
+
+=== {{S|nom propre|lg}} ===
+'''Nepal''' {{pron||lg}}
+# {{pays|lg}} {{lien|Népal|fr}}, pays himalayen.
+
+== {{langue|hsb}} ==
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|hsb}}
+
+=== {{S|nom propre|hsb}} ===
+'''Nepal''' {{pron||hsb}}
+# {{pays|hsb}} {{lien|Népal|fr}}, pays himalayen.
+
+== {{langue|io}} ==
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|io}}
+
+=== {{S|nom propre|io}} ===
+'''Nepal''' {{pron||io}}
+# {{pays|io|d’Asie}} {{lien|Népal|fr}}, pays himalayen.
+
+== {{langue|ilo}} ==
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|ilo}}
+
+=== {{S|nom propre|ilo}} ===
+'''Nepal''' {{pron||ilo}}
+# {{pays|ilo}} {{lien|Népal|fr}}, pays himalayen.
+
+== {{langue|id}} ==
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|id}}
+
+=== {{S|nom propre|id}} ===
+'''Nepal''' {{pron||id}}
+# {{pays|id|d’Asie}} {{lien|Népal|fr}}, pays himalayen.
+#* {{exemple|lang=id}}
+
+== {{langue|ie}} ==
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|ie}}
+
+=== {{S|nom propre|ie}} ===
+'''Nepal''' {{pron||ie}}
+# {{pays|ie|d’Asie}} {{lien|Népal|fr}}, pays himalayen.
+
+== {{langue|is}} ==
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|is}}
+
+=== {{S|nom propre|is}} ===
+'''Nepal''' {{pron||is}}
+# {{pays|is|d’Asie}} {{lien|Népal|fr}}, pays himalayen.
+
+== {{langue|it}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étylp|ne|it|mot=नेपाल|tr=Nepāl}}.
+
+=== {{S|nom propre|it}} ===
+'''Nepal''' {{pron|ne.ˈpal|it}} {{m}}
+# {{pays|it|d’Asie}} {{lien|Népal|fr}}, pays d’Asie, entouré par la Chine et l’Inde, et dont la capitale est Katmandou.
+#* {{exemple|lang=it}}
+
+==== {{S|gentilés}} ====
+* {{lien|nepalese|it}}
+
+=== {{S|anagrammes}} ===
+{{voir anagrammes|it}}
+
+=== {{S|voir aussi}} ===
+* {{Annexe|Pays et leurs gentilés en italien}}
+* {{WP|lang=it}}
+* {{WQ|lang=it}}
+* {{VOY|lang=it}}
+* {{Vikidia|lang=it}}
+
+=== {{S|références}} ===
+* {{R:SDAS}}
+
+== {{langue|jv}} ==
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|jv}}
+
+=== {{S|nom propre|jv}} ===
+'''Nepal''' {{pron||jv}}
+# {{pays|jv}} {{lien|Népal|fr}}, pays himalayen.
+
+== {{langue|csb}} ==
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|csb}}
+
+=== {{S|nom propre|csb}} ===
+'''Nepal''' {{pron||csb}}
+# {{pays|csb}} {{lien|Népal|fr}}, pays himalayen.
+
+== {{langue|kl}} ==
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|kl}}
+
+=== {{S|nom propre|kl}} ===
+'''Nepal''' {{pron||kl}}
+# {{pays|kl}} {{lien|Népal|fr}}, pays himalayen.
+
+== {{langue|pam}} ==
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|pam}}
+
+=== {{S|nom propre|pam}} ===
+'''Nepal''' {{pron||pam}}
+# {{pays|pam}} {{lien|Népal|fr}}, pays himalayen.
+
+== {{langue|ku}} ==
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|ku}}
+
+=== {{S|nom propre|ku}} ===
+'''Nepal''' {{pron||ku}}
+# {{pays|ku|d’Asie}} {{lien|Népal|fr}}, pays himalayen.
+
+== {{langue|lij}} ==
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|lij}}
+
+=== {{S|nom propre|lij}} ===
+'''Nepal''' {{pron||lij}}
+# {{pays|lij}} {{lien|Népal|fr}}, pays himalayen.
+
+== {{langue|li}} ==
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|li}}
+
+=== {{S|nom propre|li}} ===
+'''Nepal''' {{pron||li}}
+# {{pays|li}} {{lien|Népal|fr}}, pays himalayen.
+
+== {{langue|jbo}} ==
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|jbo}}
+
+=== {{S|nom propre|jbo}} ===
+'''Nepal''' {{pron||jbo}}
+# {{pays|jbo}} {{lien|Népal|fr}}, pays himalayen.
+
+== {{langue|lmo}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étylp|it|lmo|mot=Nepal}}.
+
+=== {{S|nom propre|lmo}} ===
+'''Nepal''' {{pron||lmo}}
+# {{pays|lmo}} {{lien|Népal|fr}}, pays himalayen.
+
+== {{langue|lb}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|lb|mot=Nepal}}.
+
+=== {{S|nom propre|lb}} ===
+'''Nepal''' {{pron||lb}}
+# {{pays|lb|d’Asie}} {{lien|Népal|fr}}, pays himalayen.
+
+== {{langue|ms}} ==
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|ms}}
+
+=== {{S|nom propre|ms}} ===
+'''Nepal''' {{pron||ms}}
+# {{pays|ms|d’Asie}} {{lien|Népal|fr}}, pays himalayen.
+
+== {{langue|nan}} ==
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|nan}}
+
+=== {{S|nom propre|nan}} ===
+'''Nepal''' {{pron||nan}}
+# {{pays|nan}} {{lien|Népal|fr}}, pays himalayen.
+
+== {{langue|nl}} ==
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|nl}}
+
+=== {{S|nom propre|nl}} ===
+'''Nepal''' {{pron||nl}}
+# {{pays|nl|d’Asie}} {{lien|Népal|fr}}, pays himalayen.
+
+=== {{S|prononciation}} ===
+* {{écouter|||lang=nl|audio=Nl-Nepal.ogg}}
+
+== {{langue|no}} ==
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|no}}
+
+=== {{S|nom propre|no}} ===
+'''Nepal''' {{pron||no}}
+# {{pays|no|d’Asie}} {{lien|Népal|fr}}, pays himalayen.
+
+== {{langue|nn}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étyl|no|nn|mot=Nepal}}.
+
+=== {{S|nom propre|nn}} ===
+'''Nepal''' {{pron||nn}}
+# {{pays|nn|d’Asie}} {{lien|Népal|fr}}, pays himalayen.
+
+== {{langue|nov}} ==
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|nov}}
+
+=== {{S|nom propre|nov}} ===
+'''Nepal''' {{pron||nov}}
+# {{pays|nov}} {{lien|Népal|fr}}, pays himalayen.
+
+== {{langue|oc}} ==
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|oc}}
+
+=== {{S|nom propre|oc}} ===
+'''Nepal''' {{pron|neˈpal|oc}}
+# {{pays|oc|d’Asie}} {{lien|Népal|fr}}, pays himalayen.
+
+==== {{S|variantes dialectales}} ====
+* [[Nepau]] {{oc provençal|nocat=1}}
+
+==== {{S|gentilés}} ====
+* [[nepalés]], [[nepalesa]]
+
+== {{langue|uz}} ==
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|uz}}
+
+=== {{S|nom propre|uz}} ===
+'''Nepal''' {{pron||uz}}
+# {{pays|uz}} {{lien|Népal|fr}}, pays himalayen.
+
+== {{langue|pap}} ==
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|pap}}
+
+=== {{S|nom propre|pap}} ===
+'''Nepal''' {{pron||pap}}
+# {{pays|pap}} {{lien|Népal|fr}}, pays himalayen.
+
+== {{langue|pms}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étylp|it|pms|mot=Nepal}}.
+
+=== {{S|nom propre|pms}} ===
+'''Nepal''' {{pron||pms}}
+# {{pays|pms}} {{lien|Népal|fr}}, pays himalayen.
+
+== {{langue|pl}} ==
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|pl}}
+
+=== {{S|nom propre|pl}} ===
+'''Nepal''' {{pron||pl}}
+# {{pays|pl|d’Asie}} {{lien|Népal|fr}}, pays himalayen.
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=pl||audio=Pl-Nepal.ogg}}
+
+== {{langue|pt}} ==
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|pt}}
+
+=== {{S|nom propre|pt}} ===
+'''Nepal''' {{pron||pt}}
+# {{pays|pt|d’Asie}} {{lien|Népal|fr}}, pays himalayen.
+
+== {{langue|ro}} ==
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|ro}}
+
+=== {{S|nom propre|ro}} ===
+'''Nepal''' {{pron||ro}}
+# {{pays|ro|d’Asie}} {{lien|Népal|fr}}, pays himalayen.
+
+=== {{S|prononciation}} ===
+* {{écouter|Iași (Roumanie)||lang=ro|audio=LL-Q7913 (ron)-KlaudiuMihaila-Nepal.wav}}
+
+[[Catégorie:Pays en roumain]]
+
+== {{langue|se}} ==
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|se}}
+
+=== {{S|nom propre|se}} ===
+'''Nepal''' {{pron||se}}
+# {{pays|se|d’Asie}} {{lien|Népal|fr}}, pays himalayen.
+
+== {{langue|sh}} ==
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|sh}}
+
+=== {{S|nom propre|sh}} ===
+'''Nepal''' {{pron||sh}}
+# {{pays|sh|d’Asie}} {{lien|Népal|fr}}, pays himalayen.
+
+== {{langue|scn}} ==
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|scn}}
+
+=== {{S|nom propre|scn}} ===
+'''Nepal''' {{pron||scn}}
+# {{pays|scn|d’Asie}} {{lien|Népal|fr}}, pays himalayen.
+
+=== {{S|prononciation}} ===
+* {{écouter|Gela (Italie)||lang=scn|audio=LL-Q33973 (scn)-XANA000-Nepal.wav}}
+
+== {{langue|szl}} ==
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|szl}}
+
+=== {{S|nom propre|szl}} ===
+'''Nepal''' {{pron||szl}}
+# {{pays|szl}} {{lien|Népal|fr}}, pays himalayen.
+
+== {{langue|sl}} ==
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|sl}}
+
+=== {{S|nom propre|sl}} ===
+'''Nepal''' {{pron||sl}}
+# {{pays|sl|d’Asie}} {{lien|Népal|fr}}, pays himalayen.
+
+== {{langue|su}} ==
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|su}}
+
+=== {{S|nom propre|su}} ===
+'''Nepal''' {{pron||su}}
+# {{pays|su}} {{lien|Népal|fr}}, pays himalayen.
+
+== {{langue|sv}} ==
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|sv}}
+
+=== {{S|nom propre|sv}} ===
+'''Nepal''' {{pron||sv}}
+# {{pays|sv|d’Asie}} {{lien|Népal|fr}}, pays himalayen.
+
+=== {{S|prononciation}} ===
+* {{écouter|Suède||lang=sv|audio=LL-Q9027 (swe)-Moonhouse-Nepal.wav}}
+
+== {{langue|sw}} ==
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|sw}}
+
+=== {{S|nom propre|sw}} ===
+'''Nepal''' {{pron||sw}}
+# {{pays|sw|d’Asie}} {{lien|Népal|fr}}, pays himalayen.
+
+== {{langue|tl}} ==
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|tl}}
+
+=== {{S|nom propre|tl}} ===
+'''Nepal''' {{pron||tl}}
+# {{pays|tl|d’Asie}} {{lien|Népal|fr}}, pays himalayen.
+
+== {{langue|crh}} ==
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|crh}}
+
+=== {{S|nom propre|crh}} ===
+'''Nepal''' {{pron||crh}}
+# {{pays|crh}} {{lien|Népal|fr}}, pays himalayen.
+
+== {{langue|tr}} ==
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|tr}}
+
+=== {{S|nom propre|tr}} ===
+'''Nepal''' {{pron||tr}}
+# {{pays|tr|d’Asie}} {{lien|Népal|fr}}, pays himalayen.
+
+=== {{S|prononciation}} ===
+* {{écouter|Izmir (Turquie)||lang=tr|audio=LL-Q256 (tur)-ToprakM-Nepal.wav}}
+
+== {{langue|vi}} ==
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|vi}}
+
+=== {{S|nom propre|vi}} ===
+'''Nepal''' {{pron||vi}}
+# {{pays|vi|d’Asie}} {{lien|Népal|fr}}, pays himalayen.
+
+== {{langue|war}} ==
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|war}}
+
+=== {{S|nom propre|war}} ===
+'''Nepal''' {{pron||war}}
+# {{pays|war}} {{lien|Népal|fr}}, pays himalayen.

@@ -1,0 +1,8 @@
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw}}
+
+=== {{S|nom|gsw}} ===
+'''Schlessel''' {{pron||gsw}}
+# {{Wolschheim|gsw}} {{lexique|serrurerie|gsw}} [[clé#fr|Clé]].
+#* {{exemple|lang=gsw}}

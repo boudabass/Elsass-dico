@@ -1,0 +1,15 @@
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|goh|gsw|reigaro}}, issu du {{étyl|proto-germanique|gsw|mot=}} {{recons|lang-mot-vedette=gsw|[[Reconstruction:proto-germanique/*hraigrô|hraigrô]]}} (« un [[oiseau]] »), issu de l’{{étyl|indo-européen commun|gsw|mot=}} {{recons|lang-mot-vedette=gsw|[[Reconstruction:indo-européen commun/*(s)kreig-|(s)kreig-]]}}, {{recons|lang-mot-vedette=gsw|[[Reconstruction:indo-européen commun/*(s)kreik-|(s)kreik-]]}} (« une sorte d'oiseau »).
+
+=== {{S|nom|gsw}} ===
+'''Raiher''' {{pron||gsw}} {{m}}
+# {{oiseaux|gsw}} [[héron|Héron]].
+
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|goh|gsw-fr|reigaro}}, issu du {{étyl|proto-germanique|gsw-fr|mot=}} {{recons|lang-mot-vedette=gsw-fr|[[Reconstruction:proto-germanique/*hraigrô|hraigrô]]}} (« un [[oiseau]] »), issu de l’{{étyl|indo-européen commun|gsw-fr|mot=}} {{recons|lang-mot-vedette=gsw-fr|[[Reconstruction:indo-européen commun/*(s)kreig-|(s)kreig-]]}}, {{recons|lang-mot-vedette=gsw-fr|[[Reconstruction:indo-européen commun/*(s)kreik-|(s)kreik-]]}} (« une sorte d'oiseau »).
+
+=== {{S|nom|gsw-fr}} ===
+'''Raiher''' {{pron||gsw-fr}} {{m}}
+# {{oiseaux|gsw-fr}} [[héron|Héron]].

@@ -1,0 +1,70 @@
+{{voir/oganesson}}
+
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw}}
+
+=== {{S|nom|gsw}} ===
+'''Oganesson''' {{pron||gsw}} {{genre|gsw}}
+# {{éléments|gsw}} [[oganesson#fr|Oganesson]].
+{{clr}}
+
+==== {{S|vocabulaire}} ====
+{{tableau périodique/gsw}}
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|de}}
+
+=== {{S|nom|de}} ===
+{{légende élément/de|Og}}
+'''Oganesson''' {{pron|oɡaˈnɛsɔn|de}}
+# {{éléments|de}} [[oganesson#fr|Oganesson]].
+{{clr}}
+
+==== {{S|synonymes}} ====
+* {{lien|Ununoctium|de}}
+* {{lien|Eka-Radon|de}}
+
+==== {{S|hyperonymes}} ====
+{{(|}}
+* {{lien|Transactinoid|de}}
+* {{lien|Transuran|de}}
+* {{lien|chemisches Element|de}}
+* {{lien|Stoff|de}}
+{{)}}
+
+==== {{S|vocabulaire}} ====
+* {{voir thésaurus|de|tableau périodique des éléments}}
+{{tableau périodique/de}}
+{{Liste|avant={{lien|Tenness|de}}<br 
+/>([[Ts]])|liste=[[Thésaurus:tableau périodique des éléments/allemand|Éléments chimiques en allemand]]}}
+
+=== {{S|prononciation}} ===
+* {{écouter|Berlin (Allemagne)|oɡaˈnɛsɔn|lang=de|audio=De-Oganesson.ogg}}
+
+=== {{S|références}} ===
+* {{R:DWDS|Oganesson}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=de}}
+
+== {{langue|lb}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|lb}}
+
+=== {{S|nom|lb}} ===
+{{lb-inv|ogɑnˈæson}}
+'''Oganesson''' {{pron|ogɑnˈæson|lb}} {{m}}, {{au singulier uniquement|lb}}
+# {{éléments|lb}} [[oganesson#fr|Oganesson]].
+#* {{exemple|lang=lb}}
+{{clr}}
+
+==== {{S|vocabulaire}} ====
+{{tableau périodique/lb}}
+
+=== {{S|références}} ===
+: {{R:LOD}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=lb}}

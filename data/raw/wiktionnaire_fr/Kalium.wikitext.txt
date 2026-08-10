@@ -1,0 +1,80 @@
+{{voir/kalium}}
+
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw}}
+
+=== {{S|nom|gsw}} ===
+'''Kalium''' {{pron||gsw}}
+# {{éléments|gsw}} {{métaux|gsw}} [[potassium|Potassium]].
+{{clr}}
+
+==== {{S|vocabulaire}} ====
+{{tableau périodique/gsw}}
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: Mot crée en 1796 par {{w|Martin Heinrich Klaproth}} à partir de {{lien|Alkali|de}}.<ref>{{R:DWDS|Kalium}}</ref>
+
+=== {{S|nom|de}} ===
+{{de-nom-n-s-e|sing=oui}}
+{{légende élément/de|K}}
+[[Image:Potassium-2.jpg|thumb|'''Potassium'''.]]
+'''Kalium''' {{pron|ˈkaːlɪ̯ʊm|de}} {{n}}
+# {{éléments|de}} {{métaux|de}} [[potassium#fr|Potassium]] (l’{{lien|élément chimique}} [[K#conv|K]]).
+#* {{exemple|Kaffee enthält neben Koffein eine Vielzahl von gesunden Inhaltsstoffen, darunter Mineralstoffe wie '''Kalium''' sowie Aromastoffe, die für den Geschmack verantwortlich sind.|lang=de|sens=Outre la caféine, le café contient une multitude de composants sains, notamment des minéraux tels que le potassium, ainsi que des arômes qui lui confèrent son goût.|source={{périodique|auteur=Dagmar Lüdke-Bonnet|titre=Ist Kaffee gesund? Oder schädlich?|journal=ARD1 Gesund|date=17 septembre 2025|texte=https://www.ndr.de/ratgeber/gesundheit/ist-kaffee-gesund-oder-schaedlich,kaffee-278.html}}}}
+#* {{exemple|'''Kalium''' ist maßgeblich für die Reizleitung im Nervensystem und für die Steuerung der Kontraktion von Muskelzellen verantwortlich. Außerdem ist '''Kalium''' an der Regulation des pH-Wertes und des Blutdrucks beteiligt.|lang=de|sens=Le potassium joue un rôle déterminant dans la conduction nerveuse et dans le contrôle de la contraction des cellules musculaires. Il participe également à la régulation du pH et de la pression artérielle.|source={{périodique|auteur=|titre=Gesunder Apfel: Wenig Kalorien und wertvolle Inhaltsstoffe|journal=ARD1 Gesund|date=20 septembre 2022|texte=https://www.ndr.de/ratgeber/gesundheit/Aepfel-Obst-mit-gesunden-Inhaltsstoffen-und-wenig-Kalorien,apfel502.html}}}}
+#* {{exemple|In Kichererbsen sind außerdem viele wichtige Nährstoffe enthalten. Die Vitamine B1 und B2 sind in der Kichererbse genauso zu finden wie Mangan, Folsäure, '''Kalium''', Magnesium und Kalzium - dazu noch Zink, Kupfer und Eisen.|lang=de|sens=Les pois chiches contiennent également de nombreux nutriments importants. On peut trouver les vitamines B1 et B2 dans le pois chiche ainsi que du manganèse, de l’acide folique, du potassium, du magnésium et du calcium, ainsi que du zinc, du cuivre et du fer.|source={{périodique|auteur=Christiane Stauss|titre=Kichererbsen: Halten den Darm gesund, machen satt und schlank|journal=ARD1 Gesund|date=11 juillet 2025|texte=https://www.ndr.de/ratgeber/gesundheit/Kichererbsen-Halten-den-Darm-gesund-machen-satt-und-schlank,kichererbsen126.html}}}}
+
+==== {{S|dérivés}} ====
+* {{lien|Kaliumisotop|de}}
+* {{lien|Kaliumverbindung}}
+{{clr}}
+
+==== {{S|vocabulaire}} ====
+* {{voir thésaurus|de|tableau périodique des éléments}}
+{{tableau périodique/de}}
+{{Liste|avant={{lien|Argon|de}}<br>([[Ar#conv|Ar]])|après={{lien|Calcium|de}} ou {{lien|Kalzium|de}}<br>([[Ca#conv|Ca]])|liste=[[Thésaurus:tableau périodique des éléments/allemand|Éléments chimiques en allemand]]}}
+
+==== {{S|hyperonymes}} ====
+* {{lien|Alkalimetall|de}}
+* {{lien|Metall|de}}
+* {{lien|Element|de}}
+
+=== {{S|prononciation}} ===
+* {{pron|ˈkaːlɪ̯ʊm|de}}
+* {{écouter|Berlin (Allemagne)|ˈkaːli̯ʊm|lang=de|audio=De-Kalium.ogg}}
+* {{écouter|Vienne (Autriche)|ˈkaːli̯ʊm|lang=de|audio=De-at-Kalium.ogg}}
+* {{écouter|{{DE|nocat=1}}|ˈkaːli̯ʊm|lang=de|audio=LL-Q188 (deu)-Lucas Werkmeister-Kalium.wav}}
+* {{écouter|Berlin (Allemagne)|ˈkaːli̯ʊm|lang=de|audio=LL-Q188 (deu)-Sebastian Wallroth-Kalium.wav}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=de}}
+
+=== {{S|références}} ===
+{{Références}}
+* {{R:DWDS|Kalium}}
+* {{R:Duden|Kalium}}
+
+== {{langue|lb}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|lb}}
+
+=== {{S|nom|lb}} ===
+{{lb-inv|kˈaːli̯um}}
+'''Kalium''' {{pron|kˈaːli̯um|lb}} {{m}}, {{au singulier uniquement|lb}}
+# {{éléments|lb}} {{métaux|lb}} [[potassium#fr|Potassium]].
+#* {{exemple|lang=lb}}
+{{clr}}
+
+==== {{S|vocabulaire}} ====
+{{tableau périodique/lb}}
+
+=== {{S|prononciation}} ===
+* {{écouter|Angers (France)||niveau=bon|lang=lb|audio=LL-Q9051 (ltz)-Procrastineur49-Kalium.wav}}
+
+=== {{S|références}} ===
+: {{R:LOD}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=lb}}

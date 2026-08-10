@@ -1,0 +1,27 @@
+{{voir|Zahne|zahne|Zähne|zähne}}
+
+== {{langue|de}} ==
+=== {{S|nom|de|flexion}} ===
+{{de-nom-m-s-e|gse=opt|dse=opt|ns=Zahn|np=Zähne}}
+'''Zähne''' {{pron|ˈt͡sɛːnə|de}}
+# ''Nominatif pluriel de'' {{lien|Zahn|de}}.
+# ''Accusatif pluriel de'' {{lien|Zahn|de}}.
+# ''Génitif pluriel de'' {{lien|Zahn|de}}.
+
+=== {{S|prononciation}} ===
+* {{écouter|{{DE|nocat=1}}|ˈt͡sɛːnə|lang=de|audio=De-Zähne.ogg}}
+* {{écouter|Berlin|ˈt͡sɛːnə|lang=de|audio=LL-Q188 (deu)-Sebastian Wallroth-Zähne.wav}}
+* {{écouter|{{DE|nocat=1}}|ˈt͡sɛːnə|lang=de|audio=LL-Q188 (deu)-Natschoba-Zähne.wav}}
+* {{écouter|lang=de|Allemagne (Berlin)|ˈt͡sɛːnə|audio=De-Zähne2.ogg}}
+
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw}}
+
+=== {{S|nom propre|gsw}} ===
+'''Zähne''' {{pron||gsw}}
+# {{Alsace|gsw}} {{localités|gsw|du département du Bas-Rhin}} [[Zeinheim#fr|Zeinheim]], [[commune]] [[français]]e, située dans le département du [[Bas-Rhin]].
+#* {{exemple|lang=gsw}}
+
+
+{{clé de tri|zahne}}

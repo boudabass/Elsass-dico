@@ -1,0 +1,180 @@
+{{voir/aegir}}
+
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: Emprunt du nom {{étyl|en|gsw}} du satellite.
+
+=== {{S|nom propre|gsw}} ===
+'''Aegir''' {{pron||gsw}}
+# {{lexique|astronomie|gsw}} [[Ægir]] (satellite naturel de Saturne).
+
+=== {{S|voir aussi}} ===
+* {{WP|Aegir (Mond)|Aegir|gsw}}
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: Emprunt du nom {{étyl|en|de}} du satellite.
+
+=== {{S|nom propre|de}} ===
+'''Aegir''' {{pron||de}}
+# {{lexique|astronomie|de}} [[Ægir]] (satellite naturel de Saturne).
+
+=== {{S|voir aussi}} ===
+* {{WP|Aegir (Mond)|Aegir|de}}
+
+== {{langue|en}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|non|en|mot=Ægir}}, nom du dieu nordique.
+
+=== {{S|nom propre|en}} ===
+'''Aegir''' {{pron||en}}
+# {{lexique|astronomie|en}} [[Ægir]] (satellite naturel de Saturne).
+
+=== {{S|voir aussi}} ===
+* {{WP|Aegir (moon)|Aegir|en}}
+
+== {{langue|ca}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|non|ca|mot=Ægir}}.
+
+=== {{S|nom propre|ca}} ===
+'''Aegir''' {{pron||ca}}
+# {{lexique|mythologie|ca}} [[Ægir]] (dieu de la mer).
+
+=== {{S|voir aussi}} ===
+* {{WP|3=ca}}
+
+== {{langue|hr}} ==
+=== {{S|étymologie}} ===
+: Emprunt du nom {{étyl|en|hr}} du satellite.
+
+=== {{S|nom propre|hr}} ===
+'''Aegir''' {{pron||hr}}
+# {{lexique|astronomie|hr}} [[Ægir]] (satellite naturel de Saturne).
+
+=== {{S|voir aussi}} ===
+* {{WP|Aegir (mjesec)|Aegir|hr}}
+
+== {{langue|es}} ==
+=== {{S|étymologie}} ===
+: Emprunt du nom {{étyl|en|es}} du satellite.
+
+=== {{S|nom propre|es}} ===
+'''Aegir''' {{pron||es}}
+# {{lexique|astronomie|es}} [[Ægir]] (satellite naturel de Saturne).
+
+=== {{S|voir aussi}} ===
+* {{WP|Aegir (satélite)|Aegir|es}}
+
+== {{langue|gl}} ==
+=== {{S|étymologie}} ===
+: Emprunt du nom {{étyl|en|gl}} du satellite.
+
+=== {{S|nom propre|gl}} ===
+'''Aegir''' {{pron||gl}}
+# {{lexique|astronomie|gl}} [[Ægir]] (satellite naturel de Saturne).
+
+=== {{S|voir aussi}} ===
+* {{WP|Aegir (lúa)|Aegir|gl}}
+
+== {{langue|ms}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|non|ms|mot=Ægir}}.
+
+=== {{S|nom propre|ms}} ===
+'''Aegir''' {{pron||ms}}
+# {{lexique|mythologie|ms}} [[Ægir]] (dieu de la mer).
+
+=== {{S|voir aussi}} ===
+* {{WP|3=ms}}
+
+== {{langue|nl}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|non|nl|mot=Ægir}}.
+
+=== {{S|nom propre|nl}} ===
+'''Aegir''' {{pron||nl}}
+# {{lexique|mythologie|nl}} [[Ægir]] (dieu de la mer).
+#* {{exemple|lang=nl}}
+
+=== {{S|voir aussi}} ===
+* {{WP|Aegir (mythologie)|Aegir|nl}}
+
+== {{langue|pl}} ==
+=== {{S|étymologie}} ===
+: Emprunt du nom {{étyl|en|pl}} du satellite.
+
+=== {{S|nom propre|pl}} ===
+{{pl-décl-nom-autre|sing=oui|rad=Aegir|ns=|vs=ze|as=a|gs=a|ls=ze|ds=owi|is=em}}
+'''Aegir''' {{pron||pl}}
+# {{lexique|astronomie|pl}} [[Ægir]] (satellite naturel de Saturne).
+
+=== {{S|voir aussi}} ===
+* {{WP|Aegir (księżyc)|Aegir|pl}}
+
+== {{langue|pt}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|non|pt|mot=Ægir}}.
+
+=== {{S|nom propre|pt}} ===
+'''Aegir''' {{pron||pt}}
+# {{lexique|mythologie|pt}} [[Ægir]] (dieu de la mer).
+
+=== {{S|voir aussi}} ===
+* {{WP|3=pt}}
+
+== {{langue|ro}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|non|ro|mot=Ægir}}.
+
+=== {{S|nom propre|ro}} ===
+'''Aegir''' {{pron||ro}}
+# {{lexique|mythologie|ro}} [[Ægir]] (dieu de la mer).
+
+=== {{S|voir aussi}} ===
+* {{WP|3=ro}}
+
+== {{langue|sh}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|non|sh|mot=Ægir}}.
+
+=== {{S|nom propre|sh}} ===
+'''Aegir''' {{pron||sh}}
+# {{lexique|mythologie|sh}} [[Ægir]] (dieu de la mer).
+
+=== {{S|voir aussi}} ===
+* {{WP|3=sh}}
+
+== {{langue|sk}} ==
+=== {{S|étymologie}} ===
+: Emprunt du nom {{étyl|en|sk}} du satellite.
+
+=== {{S|nom propre|sk}} ===
+'''Aegir''' {{pron||sk}}
+# {{lexique|astronomie|sk}} [[Ægir]] (satellite naturel de Saturne).
+
+=== {{S|voir aussi}} ===
+* {{WP|Aegir (mesiac)|Aegir|sk}}
+
+== {{langue|sl}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|non|sl|mot=Ægir}}.
+
+=== {{S|nom propre|sl}} ===
+{{sl-décl-nmd|Aegir|ani=oui|pdp=oui}}
+'''Aegir''' {{pron||sl}} {{m|a}} {{s}}
+# {{lexique|mythologie|sl}} [[Ægir]] (dieu de la mer).
+
+==== {{S|variantes orthographiques}} ====
+* [[Ægir#sl|Ægir]]
+
+== {{langue|cs}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|non|cs|mot=Ægir}}.
+
+=== {{S|nom propre|cs}} ===
+'''Aegir''' {{pron||cs}}
+# {{lexique|mythologie|cs}} [[Ægir]] (dieu de la mer).
+
+=== {{S|voir aussi}} ===
+* {{WP|3=cs}}

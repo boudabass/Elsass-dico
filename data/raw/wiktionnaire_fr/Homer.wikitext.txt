@@ -1,0 +1,146 @@
+{{voir/homer}}
+
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw}}
+
+=== {{S|nom propre|gsw}} ===
+'''Homer''' {{pron||gsw}}
+# [[Homère]] (poète grec).
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|de}}
+
+=== {{S|nom propre|de}} ===
+'''Homer''' {{pron||de}}
+# [[Homère]] (poète grec).
+
+==== {{S|dérivés}} ====
+* [[homerisch]]
+* [[nichthomerisch]]
+
+=== {{S|prononciation}} ===
+* {{écouter|Pays-Bas (Royaume des Pays-Bas)||lang=de|audio=LL-Q188 (deu)-Ziko-Homer.wav}}
+
+== {{langue|en}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|en}}
+
+=== {{S|nom propre|en}} ===
+'''Homer''' {{pron|ˈhəʊ.mə(ɹ)|en}} {{UK|nocat=1}} {{pron|ˈhoʊ.mɚ|en}} {{US|nocat=1}}
+
+# [[Homère]] (poète grec).
+
+==== {{S|dérivés}} ====
+* [[Homeric]]
+
+=== {{S|prononciation}} ===
+* {{écouter|Sud de l'Angleterre (Royaume-Uni)||lang=en|audio=LL-Q1860 (eng)-Vealhurl-Homer.wav}}
+
+== {{langue|bs}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|bs}}
+
+=== {{S|nom propre|bs}} ===
+'''Homer''' {{pron||bs}}
+# [[Homère]] (poète grec).
+
+== {{langue|ca}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|ca}}
+
+=== {{S|nom propre|ca}} ===
+'''Homer''' {{pron||ca}}
+# [[Homère]] (poète grec).
+
+== {{langue|hr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|hr}}
+
+=== {{S|nom propre|hr}} ===
+'''Homer''' {{pron||hr}}
+# [[Homère]] (poète grec).
+
+== {{langue|da}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|da}}
+
+=== {{S|nom propre|da}} ===
+'''Homer''' {{pron||da}}
+# [[Homère]] (poète grec).
+
+== {{langue|ms}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|ms}}
+
+=== {{S|nom propre|ms}} ===
+'''Homer''' {{pron||ms}}
+# [[Homère]] (poète grec).
+
+== {{langue|no}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|no}}
+
+=== {{S|nom propre|no}} ===
+'''Homer''' {{pron||no}}
+# [[Homère]] (poète grec).
+
+== {{langue|nn}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|nn}}
+
+=== {{S|nom propre|nn}} ===
+'''Homer''' {{pron||nn}}
+# [[Homère]] (poète grec).
+
+== {{langue|pl}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|pl}}
+
+=== {{S|nom propre|pl}} ===
+'''Homer''' {{pron||pl}}
+# [[Homère]] (poète grec).
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=pl|Pologne (Varsovie)||audio=LL-Q809 (pol)-Poemat-Homer.wav}}
+
+== {{langue|ro}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|ro}}
+
+=== {{S|nom propre|ro}} ===
+'''Homer''' {{pron||ro}}
+# [[Homère]] (poète grec).
+
+== {{langue|sh}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|sh}}
+
+=== {{S|nom propre|sh}} ===
+'''Homer''' {{pron||sh}}
+# [[Homère]] (poète grec).
+
+== {{langue|sl}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|sl}}
+
+=== {{S|nom propre|sl}} ===
+'''Homer''' {{pron||sl}}
+# [[Homère]] (poète grec).
+
+== {{langue|tl}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|tl}}
+
+=== {{S|nom propre|tl}} ===
+'''Homer''' {{pron||tl}}
+# [[Homère]] (poète grec).
+
+== {{langue|vi}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|vi}}
+
+=== {{S|nom propre|vi}} ===
+'''Homer''' {{pron||vi}}
+# [[Homère]] (poète grec).

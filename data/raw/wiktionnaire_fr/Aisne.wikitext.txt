@@ -1,0 +1,450 @@
+{{voir|aisné|aisne}}
+
+== {{langue|fr}} ==
+=== {{S|étymologie}} ===
+: Du {{étylp|la|fr|Axona}}, du {{étylp|gaulois|fr|Axona}}, ''{{lien|Αξόνα|gaulois}}'', d’une forme {{recons|lang-mot-vedette=fr|Apsona}} / {{recons|lang-mot-vedette=fr|Absona}}<ref>{{R:Delamarre2003|p=30}}</ref>. {{cf|Essonne|lang=fr}}.
+
+=== {{S|nom propre|fr}} ===
+{{fr-inv|ɛn|inv_titre=Masculin singulier invariable}}
+[[Image:Aisne-Position.svg|vignette|Localisation du département de l’'''Aisne''' (2).]]
+[[Fichier:Soissons.jpg|vignette|L’'''Aisne''' à Soissons (1).]]
+[[Fichier:Marly-Gomont (Aisne) plaque la mendicité est interdite.JPG|vignette|« La mendicité est interdite dans le département de l’'''Aisne'''. » (2)]]
+'''Aisne''' {{pron|ɛn|fr}} {{m}} {{s}}
+# {{cours d’eau|fr|de France}} [[rivière|Rivière]] du nord de la [[France]], affluent de l’[[Oise]].
+#* {{exemple | lang=fr
+ | La Dormoise (rive gauche; 17 kilomètres, dont 2 dans le département), qui a sa source à Tahure (Marne), sert de limite aux Ardennes sur un parcours de près de 3 kilomètres, et se jette dans l’'''Aisne''' à 1 kilomètre au nord de Condé-lès-Autry.
+ | source={{w|Adolphe-Laurent Joanne}}, ''Géographie du département des Ardennes'', Hachette, 1884, page 10}}
+#* {{exemple | lang=fr
+ | Les plus belles prairies naturelles du département sont celles de la vallée de l’'''Aisne''' ; elles se distinguent par leur magnifique verdure […].
+ | source={{Citation/Edmond Nivoit/Notions élémentaires sur l’industrie dans le département des Ardennes/1869|100}}}}
+#* {{exemple | lang=fr
+ | Le gros du corps d’armée, formé en deux colonnes, franchissait l’'''Aisne''' à Semuy (34{{e}} division) et à Voncq (33{{e}} division), puis prenait une formation d'attente dans la région de Chuffilly.
+ | source=Barthélemy-Edmond Palat, ''La grande guerre sur le front occidental'', Paris : Librairie Chapelot, 1920, vol.5, page 305}}
+#* {{exemple|lang=fr| Le ''ruisseau des Barres'' naît à Sévigny-Waleppe sur la craie marneuse et aboutit à l’'''Aisne''' en aval de Balham. Il coule aussi sur la craie. |source=A. Quillatre, « ''La Champagne ardennaise'' », dans le '' Bulletin de la Société d'histoire naturelle des Ardennes'', 62{{e}} année, tome 44 (1954), Mézières : Imprimerie A. Savreux, 1955, p. 22}}
+# {{cours d’eau|nocat}} Petite [[rivière]] française du [[département]] de la [[Mayenne]], [[affluent]] de la [[Mayenne#Sens_rivière|Mayenne]].
+# {{cours d’eau|fr|de Belgique}} [[rivière|Rivière]] de [[Belgique]], [[affluent]] de l’[[Ourthe]].
+# {{départements|fr|de France}} [[département|Département]] [[français]] de la [[région administrative]] des [[Hauts-de-France]], auquel est attribué le numéro [[02]].
+#* {{exemple | lang=fr
+ | Des spécialistes, comme Philippe Duchaufour ou Marcel Jamagne, qui a contribué à l'élaboration de la carte des sols de l’'''Aisne''', notent que cette dégradation peut aussi avoir des origines anthropiques.
+ | source=Jérôme Buridant, ''Espaces forestiers et industrie verrière, XVII{{e}}-XIX{{e}} siècle'', L'Harmattan, 2005, page 262}}
+#* {{exemple | lang=fr
+ | Un exemple : le département de l’'''Aisne''' analyse très précisément dix bourgs-centres de ce département.
+ | source=Michel Duvigneau, ''Art, culture et territoires ruraux'', 2002, page 149}}
+#* {{exemple | lang=fr
+ | Peut-être que certains se sont précipités, car le compte n’y est pas, prévient Julien Dive, député LR de l’'''Aisne'''.
+ | source=journal ''20 minutes'', édition Paris-IDF, 3 février 2023, page 5}}
+
+==== {{S|gentilés}} ====
+* [[Axonais]], [[Axonaise]], [[axonais]]
+
+==== {{S|vocabulaire}} ====
+* [[Mayenne#Sens_rivière|Mayenne]] (2)
+* [[Oise]] (1)
+* [[Ourthe]] (3)
+ 
+==== {{S|méronymes}} ====
+; Département : pays traditionnels, régions naturelles 
+* [[Laonnois]]
+* [[Orxois]]
+* [[Soissonnais]]
+* [[Thiérache]]
+* [[Vermandois]]
+
+==== {{S|traductions}} ====
+{{trad-début|Département français}}
+* {{T|af}} : {{trad-|af|Aisne}}
+* {{T|gsw}} : {{trad|gsw|Aisne}}
+* {{T|de}} : {{trad+|de|Aisne}}
+* {{T|en}} : {{trad+|en|Aisne}}
+* {{T|ar}} : {{trad-|ar|أيسن}}
+* {{T|an}} : {{trad-|an|Aisne}}
+* {{T|nds}} : {{trad-|nds|Aisne}}
+* {{T|eu}} : {{trad-|eu|Aisne}}
+* {{T|be}} : {{trad-|be|Эна|tr=Èna}}
+* {{T|br}} : {{trad-|br|Aisne}}
+* {{T|ca}} : {{trad-|ca|Aisne}}
+* {{T|ceb}} : {{trad|ceb|Aisne}}
+* {{T|zh}} : {{trad-|zh|埃纳省}}
+* {{T|da}} : {{trad+|da|Aisne}}
+* {{T|es}} : {{trad-|es|Aisne}}
+* {{T|eo}} : {{trad-|eo|Aisne}}
+* {{T|fi}} : {{trad-|fi|Aisne}}
+* {{T|frp}} : {{trad|frp|Èsne}}
+* {{T|gl}} : {{trad-|gl|Aisne}}
+* {{T|cy}} : {{trad-|cy|Aisne}}
+* {{T|id}} : {{trad-|id|Aisne}}
+* {{T|it}} : {{trad+|it|Aisne}}
+* {{T|ja}} : {{trad-|ja|エーヌ県}}
+* {{T|jv}} : {{trad-|jv|Aisne}}
+* {{T|lad}} : {{trad|lad|Aisne}}
+* {{T|pam}} : {{trad|pam|Aisne}}
+* {{T|la}} : {{trad-|la|Axona}}
+* {{T|lt}} : {{trad-|lt|Esnas}}
+* {{T|lb}} : {{trad-|lb|Aisne}}
+* {{T|nan}} : {{trad-|nan|Aisne}}
+* {{T|nl}} : {{trad-|nl|Aisne}}
+* {{T|no}} : {{trad-|no|Aisne}}
+* {{T|nn}} : {{trad-|no|Aisne}}
+* {{T|oc}} : {{trad-|oc|Aisne}}
+* {{T|pcd}} : {{trad|pcd|Ainne}}
+* {{T|pl}} : {{trad+|pl|Aisne}}
+* {{T|pt}} : {{trad-|pt|Aisne}}
+* {{T|ro}} : {{trad-|ro|Aisne}}
+* {{T|ru}} : {{trad+|ru|Эна|tr=Èna}}
+* {{T|sr}} : {{trad-|sr|Ен}}
+* {{T|sk}} : {{trad-|sk|Aisne}}
+* {{T|sl}} : {{trad-|sl|Aisne}}
+* {{T|sv}} : {{trad-|sv|Aisne}}
+* {{T|tg}} : {{trad-|tg|Эна}}
+* {{T|cs}} : {{trad-|cs|Aisne}}
+* {{T|cv}} : {{trad|cv|Эна}}
+* {{T|tr}} : {{trad-|tr|Aisne}}
+* {{T|uk}} : {{trad-|uk|Ена}}
+* {{T|vi}} : {{trad-|vi|Aisne}}
+* {{T|vo}} : {{trad-|vo|Aisne}}
+* {{T|war}} : {{trad|war|Aisne}}
+{{trad-fin}}
+
+{{trad-début|Rivière française}}
+* {{T|de}} : {{trad+|de|Aisne}}
+* {{T|en}} : {{trad+|en|Aisne}}
+* {{T|ar}} : {{trad-|ar|نهر آيسن}}
+* {{T|eu}} : {{trad-|eu|Aisne}}
+* {{T|br}} : {{trad-|br|Aisne}}
+* {{T|zh}} : {{trad-|zh|埃纳河}}
+* {{T|hr}} : {{trad-|hr|Aisne}}
+* {{T|da}} : {{trad+|da|Aisne}}
+* {{T|es}} : {{trad-|es|Aisne}}
+* {{T|et}} : {{trad+|et|Aisne}}
+* {{T|fi}} : {{trad-|fi|Aisne}}
+* {{T|ga}} : {{trad-|ga|Aisne}}
+* {{T|hu}} : {{trad-|hu|Aisne}}
+* {{T|it}} : {{trad+|it|Aisne}}
+* {{T|ja}} : {{trad-|ja|エーヌ川}}
+* {{T|la}} : {{trad-|la|Axona}}
+* {{T|nl}} : {{trad-|nl|Aisne}}
+* {{T|nn}} : {{trad-|no|Aisne}}
+* {{T|oc}} : {{trad-|oc|Aisne}}
+* {{T|pcd}} : {{trad|pcd|Ainne}}
+* {{T|pl}} : {{trad+|pl|Aisne}}
+* {{T|pt}} : {{trad-|pt|Aisne}}
+* {{T|ro}} : {{trad-|ro|Aisne}}
+* {{T|ru}} : {{trad+|ru|Эна|tr=Èna}}
+* {{T|sl}} : {{trad-|sl|Aisne}}
+* {{T|sv}} : {{trad-|sv|Aisne}}
+{{trad-fin}}
+
+{{trad-début|Rivière belge}}
+* {{T|ca}} : {{trad-|ca|Aisne}}
+* {{T|nl}} : {{trad-|nl|Aisne}}
+{{trad-fin}}
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=fr|France (Paris)|ɛn|audio=Fr-Paris--Aisne.ogg}}
+* {{écouter|lang=fr|France (Paris)|l‿ɛn|audio=Fr-Paris--Aisne (l’).ogg}}
+* {{écouter|lang=fr|France (Paris)|audio=LL-Q150 (fra)-GrandCelinien-Aisne.wav}}
+* {{écouter|lang=fr|France (Lyon)|audio=LL-Q150 (fra)-WikiLucas00-Aisne.wav}}
+* {{écouter|Cesseras (France)||lang=fr|audio=LL-Q150 (fra)-Guilhelma-Aisne.wav}}
+* {{écouter|Cornimont (France)||lang=fr|audio=LL-Q150 (fra)-Poslovitch-Aisne.wav}}
+* {{écouter|Alsace (France)||lang=fr|audio=LL-Q150 (fra)-Le Commissaire-Aisne.wav}}
+* {{écouter|France||lang=fr|audio=LL-Q150 (fra)-Lunagrouh-Aisne.wav}}
+* {{écouter|Somain (France)||lang=fr|audio=LL-Q150 (fra)-Jérémy-Günther-Heinz Jähnick-Aisne.wav}}
+
+==== {{S|homophones|fr}} ====
+* [[aine]], [[aines]]
+* [[haine]], [[haines]]
+* [[N]], [[n]]
+
+==== {{S|paronymes}} ====
+{{(}}
+* [[1]]
+* [[haim]], [[haims]]
+* [[hain]], [[hains]]
+* [[hein]]
+* [[un]], [[uns]]
+{{)}}
+
+=== {{S|anagrammes}} ===
+{{voir anagrammes|fr}}
+
+=== {{S|voir aussi}} ===
+* {{Vikidia}}
+* {{WP|Aisne (département)|titre=Aisne (département)}}
+* {{WP|Aisne (rivière française)|titre=Aisne (rivière du département de l’Aisne)}}
+* {{WP|Aisne (Mayenne)|titre=Aisne (rivière du département de la Mayenne)}}
+* {{WP|Aisne (rivière belge)|titre=Aisne (rivière de Belgique)}}
+
+[[Catégorie:Noms propres utilisés dans l’onomastique gauloise]]
+[[Catégorie:Cours d’eau du département des Ardennes en français]]
+[[Catégorie:Toponymes dont l’origine est un cours d’eau en français]]
+[[Catégorie:Toponymes dont l’origine est un cours d’eau en allemand]]
+[[Catégorie:Toponymes dont l’origine est un cours d’eau en anglais]]
+[[Catégorie:Toponymes dont l’origine est un cours d’eau en espagnol]]
+[[Catégorie:Toponymes dont l’origine est un cours d’eau en italien]]
+[[Catégorie:Toponymes dont l’origine est un cours d’eau en basque]]
+[[Catégorie:Toponymes dont l’origine est un cours d’eau en portugais]]
+[[Catégorie:Toponymes dont l’origine est un cours d’eau en occitan]]
+[[Catégorie:Toponymes dont l’origine est un cours d’eau en catalan]]
+[[Catégorie:Toponymes dont l’origine est un cours d’eau en breton]]
+[[Catégorie:Toponymes dont l’origine est un cours d’eau en finnois]]
+[[Catégorie:Toponymes dont l’origine est un cours d’eau en polonais]]
+[[Catégorie:Toponymes dont l’origine est un cours d’eau en néerlandais]]
+[[Catégorie:Toponymes dont l’origine est un cours d’eau en gallois]]
+[[Catégorie:Toponymes dont l’origine est un cours d’eau en hongrois]]
+[[Catégorie:Toponymes dont l’origine est un cours d’eau en roumain]]
+== {{langue|af}} ==
+=== {{S|nom propre|af}} ===
+'''Aisne''' {{pron||af}}
+# {{départements|af|de France}} [[#fr|Aisne]] (département français).
+#* {{exemple|lang=af}}
+
+== {{langue|gsw}} ==
+=== {{S|nom propre|gsw}} ===
+'''Aisne''' {{pron||gsw}}
+# {{départements|gsw|de France}} [[Aisne#fr|Aisne]] (département français).
+
+== {{langue|de}} ==
+=== {{S|nom propre|de}} ===
+'''Aisne''' {{pron||de}}
+# {{départements|de|de France}} [[Aisne#fr|Aisne]] (département français).
+# {{cours d’eau|de|de France}} [[Aisne#fr|Aisne]] (rivière française).
+# {{cours d’eau|de|de Belgique}} [[Aisne#fr|Aisne]] (rivière belge).
+
+== {{langue|en}} ==
+=== {{S|nom propre|en}} ===
+'''Aisne''' {{pron||en}}
+# {{départements|en|de France}} [[Aisne#fr|Aisne]] (département français).
+# {{cours d’eau|en|de France}} [[Aisne#fr|Aisne]] (rivière française).
+# {{cours d’eau|en|de Belgique}} [[Aisne#fr|Aisne]] (rivière belge).
+
+== {{langue|an}} ==
+=== {{S|nom propre|an}} ===
+'''Aisne''' {{pron||an}}
+# {{départements|an|de France}} [[Aisne#fr|Aisne]] (département français).
+
+== {{langue|nds}} ==
+=== {{S|nom propre|nds}} ===
+'''Aisne''' {{pron||nds}}
+# {{départements|nds|de France}} [[Aisne#fr|Aisne]] (département français).
+
+== {{langue|eu}} ==
+=== {{S|nom propre|eu}} ===
+'''Aisne''' {{pron||eu}}
+# {{départements|eu|de France}} [[Aisne#fr|Aisne]] (département français).
+# {{cours d’eau|eu|de France}} [[Aisne#fr|Aisne]] (rivière française).
+# {{cours d’eau|eu|de Belgique}} [[Aisne#fr|Aisne]] (rivière belge).
+
+== {{langue|br}} ==
+=== {{S|nom propre|br}} ===
+'''Aisne''' {{pron||br}}
+# {{départements|br|de France}} [[Aisne#fr|Aisne]] (département français).
+# {{cours d’eau|br|de France}} [[Aisne#fr|Aisne]] (rivière française).
+# {{cours d’eau|br|de Belgique}} [[Aisne#fr|Aisne]] (rivière belge).
+
+== {{langue|ca}} ==
+=== {{S|nom propre|ca}} ===
+'''Aisne''' {{pron||ca}}
+# {{départements|ca|de France}} [[Aisne#fr|Aisne]] (département français).
+# {{cours d’eau|ca|de France}} [[Aisne#fr|Aisne]] (rivière française).
+# {{cours d’eau|ca|de Belgique}} [[Aisne#fr|Aisne]] (rivière belge).
+
+== {{langue|ceb}} ==
+=== {{S|nom propre|ceb}} ===
+'''Aisne''' {{pron||ceb}}
+# {{départements|ceb|de France}} [[Aisne#fr|Aisne]] (département français).
+
+== {{langue|hr}} ==
+=== {{S|nom propre|hr}} ===
+'''Aisne''' {{pron||hr}}
+# {{départements|hr|de France}} [[Aisne#fr|Aisne]] (département français).
+# {{cours d’eau|hr|de France}} [[Aisne#fr|Aisne]] (rivière française).
+# {{cours d’eau|hr|de Belgique}} [[Aisne#fr|Aisne]] (rivière belge).
+
+== {{langue|da}} ==
+=== {{S|nom propre|da}} ===
+'''Aisne''' {{pron||da}}
+# {{départements|da|de France}} [[Aisne#fr|Aisne]] (département français).
+# {{cours d’eau|da|de France}} [[Aisne#fr|Aisne]] (rivière française).
+# {{cours d’eau|da|de Belgique}} [[Aisne#fr|Aisne]] (rivière belge).
+
+== {{langue|es}} ==
+=== {{S|nom propre|es}} ===
+'''Aisne''' {{pron||es}}
+# {{départements|es|de France}} [[Aisne#fr|Aisne]] (département français).
+# {{cours d’eau|es|de France}} [[Aisne#fr|Aisne]] (rivière française).
+# {{cours d’eau|es|de Belgique}} [[Aisne#fr|Aisne]] (rivière belge).
+
+== {{langue|et}} ==
+=== {{S|nom propre|et}} ===
+'''Aisne''' {{pron||et}}
+# {{départements|et|de France}} [[Aisne#fr|Aisne]] (département français).
+# {{cours d’eau|et|de France}} [[Aisne#fr|Aisne]] (rivière française).
+# {{cours d’eau|et|de Belgique}} [[Aisne#fr|Aisne]] (rivière belge).
+
+== {{langue|fi}} ==
+=== {{S|nom propre|fi}} ===
+'''Aisne''' {{pron||fi}}
+# {{départements|fi|de France}} [[Aisne#fr|Aisne]] (département français).
+# {{cours d’eau|fi|de France}} [[Aisne#fr|Aisne]] (rivière française).
+# {{cours d’eau|fi|de Belgique}} [[Aisne#fr|Aisne]] (rivière belge).
+
+== {{langue|ga}} ==
+=== {{S|nom propre|ga}} ===
+'''Aisne''' {{pron||ga}}
+# {{départements|ga|de France}} [[Aisne#fr|Aisne]] (département français).
+# {{cours d’eau|ga|de France}} [[Aisne#fr|Aisne]] (rivière française).
+# {{cours d’eau|ga|de Belgique}} [[Aisne#fr|Aisne]] (rivière belge).
+
+== {{langue|gl}} ==
+=== {{S|nom propre|gl}} ===
+'''Aisne''' {{pron||gl}}
+# {{départements|gl|de France}} [[Aisne#fr|Aisne]] (département français).
+
+== {{langue|cy}} ==
+=== {{S|nom propre|cy}} ===
+'''Aisne''' {{pron||cy}}
+# {{départements|cy|de France}} [[Aisne#fr|Aisne]] (département français).
+
+== {{langue|hu}} ==
+=== {{S|nom propre|hu}} ===
+'''Aisne''' {{pron||hu}}
+# {{départements|hu|de France}} [[Aisne#fr|Aisne]] (département français).
+# {{cours d’eau|hu|de France}} [[Aisne#fr|Aisne]] (rivière française).
+# {{cours d’eau|hu|de Belgique}} [[Aisne#fr|Aisne]] (rivière belge).
+
+== {{langue|id}} ==
+=== {{S|nom propre|id}} ===
+'''Aisne''' {{pron||id}}
+# {{départements|id|de France}} [[Aisne#fr|Aisne]] (département français).
+#* {{exemple|lang=id}}
+
+== {{langue|it}} ==
+=== {{S|nom propre|it}} ===
+'''Aisne''' {{pron||it}}
+# {{départements|it|de France}} [[Aisne#fr|Aisne]] (département français).
+# {{cours d’eau|it|de France}} [[Aisne#fr|Aisne]] (rivière française).
+# {{cours d’eau|it|de Belgique}} [[Aisne#fr|Aisne]] (rivière belge).
+
+=== {{S|anagrammes}} ===
+{{voir anagrammes|it}}
+
+== {{langue|jv}} ==
+=== {{S|nom propre|jv}} ===
+'''Aisne''' {{pron||jv}}
+# {{départements|jv|de France}} [[Aisne#fr|Aisne]] (département français).
+
+== {{langue|lad}} ==
+=== {{S|nom propre|lad}} ===
+'''Aisne''' {{pron||lad}}
+# {{départements|lad|de France}} [[Aisne#fr|Aisne]] (département français).
+
+== {{langue|pam}} ==
+=== {{S|nom propre|pam}} ===
+'''Aisne''' {{pron||pam}}
+# {{départements|pam|de France}} [[Aisne#fr|Aisne]] (département français).
+
+== {{langue|lb}} ==
+=== {{S|nom propre|lb}} ===
+'''Aisne''' {{pron||lb}}
+# {{départements|lb|de France}} [[Aisne#fr|Aisne]] (département français).
+
+== {{langue|nan}} ==
+=== {{S|nom propre|nan}} ===
+'''Aisne''' {{pron||nan}}
+# {{départements|nan|de France}} [[Aisne#fr|Aisne]] (département français).
+
+== {{langue|nl}} ==
+=== {{S|nom propre|nl}} ===
+'''Aisne''' {{pron||nl}}
+# {{départements|nl|de France}} [[Aisne#fr|Aisne]] (département français).
+#* {{exemple|lang=nl}}
+# {{cours d’eau|nl|de France}} [[Aisne#fr|Aisne]] (rivière française).
+#* {{exemple|lang=nl}}
+# {{cours d’eau|nl|de Belgique}} [[Aisne#fr|Aisne]] (rivière belge).
+#* {{exemple|lang=nl}}
+
+== {{langue|nb}} ==
+=== {{S|nom propre|nb}} ===
+'''Aisne''' {{pron||nb}}
+# {{départements|nb|de France}} [[Aisne#fr|Aisne]] (département français).
+# {{cours d’eau|nb|de France}} [[Aisne#fr|Aisne]] (rivière française).
+# {{cours d’eau|nb|de Belgique}} [[Aisne#fr|Aisne]] (rivière belge).
+
+== {{langue|nn}} ==
+=== {{S|nom propre|nn}} ===
+'''Aisne''' {{pron||nn}}
+# {{départements|nn|de France}} [[Aisne#fr|Aisne]] (département français).
+# {{cours d’eau|nn|de France}} [[Aisne#fr|Aisne]] (rivière française).
+# {{cours d’eau|nn|de Belgique}} [[Aisne#fr|Aisne]] (rivière belge).
+
+== {{langue|oc}} ==
+=== {{S|nom propre|oc}} ===
+'''Aisne''' {{pron||oc}}
+# {{départements|oc|de France}} [[Aisne#fr|Aisne]] (département français).
+# {{cours d’eau|oc|de France}} [[Aisne#fr|Aisne]] (rivière française).
+# {{cours d’eau|oc|de Belgique}} [[Aisne#fr|Aisne]] (rivière belge).
+
+== {{langue|pl}} ==
+=== {{S|nom propre|pl}} ===
+'''Aisne''' {{pron||pl}}
+# {{départements|pl|de France}} [[Aisne#fr|Aisne]] (département français).
+# {{cours d’eau|pl|de France}} [[Aisne#fr|Aisne]] (rivière française).
+# {{cours d’eau|pl|de Belgique}} [[Aisne#fr|Aisne]] (rivière belge).
+
+== {{langue|pt}} ==
+=== {{S|nom propre|pt}} ===
+'''Aisne''' {{pron||pt}}
+# {{départements|pt|de France}} [[Aisne#fr|Aisne]] (département français).
+# {{cours d’eau|pt|de France}} [[Aisne#fr|Aisne]] (rivière française).
+# {{cours d’eau|pt|de Belgique}} [[Aisne#fr|Aisne]] (rivière belge).
+
+== {{langue|ro}} ==
+=== {{S|nom propre|ro}} ===
+'''Aisne''' {{pron||ro}}
+# {{départements|ro|de France}} [[Aisne#fr|Aisne]] (département français).
+# {{cours d’eau|ro|de France}} [[Aisne#fr|Aisne]] (rivière française).
+# {{cours d’eau|ro|de Belgique}} [[Aisne#fr|Aisne]] (rivière belge).
+
+== {{langue|sk}} ==
+=== {{S|nom propre|sk}} ===
+'''Aisne''' {{pron||sk}}
+# {{départements|sk|de France}} [[Aisne#fr|Aisne]] (département français).
+
+== {{langue|sl}} ==
+=== {{S|nom propre|sl}} ===
+'''Aisne''' {{pron||sl}}
+# {{départements|sl|de France}} [[Aisne#fr|Aisne]] (département français).
+# {{cours d’eau|sl|de France}} [[Aisne#fr|Aisne]] (rivière française).
+# {{cours d’eau|sl|de Belgique}} [[Aisne#fr|Aisne]] (rivière belge).
+
+== {{langue|sv}} ==
+=== {{S|nom propre|sv}} ===
+'''Aisne''' {{pron||sv}}
+# {{départements|sv|de France}} [[Aisne#fr|Aisne]] (département français).
+# {{cours d’eau|sv|de France}} [[Aisne#fr|Aisne]] (rivière française).
+# {{cours d’eau|sv|de Belgique}} [[Aisne#fr|Aisne]] (rivière belge).
+
+== {{langue|cs}} ==
+=== {{S|nom propre|cs}} ===
+'''Aisne''' {{pron||cs}}
+# {{départements|cs|de France}} [[Aisne#fr|Aisne]] (département français).
+
+== {{langue|tr}} ==
+=== {{S|nom propre|tr}} ===
+'''Aisne''' {{pron||tr}}
+# {{départements|tr|de France}} [[Aisne#fr|Aisne]] (département français).
+
+== {{langue|vi}} ==
+=== {{S|nom propre|vi}} ===
+'''Aisne''' {{pron||vi}}
+# {{départements|vi|de France}} [[Aisne#fr|Aisne]] (département français).
+
+== {{langue|vo}} ==
+=== {{S|nom propre|vo}} ===
+'''Aisne''' {{pron||vo}}
+# {{départements|vo|de France}} [[Aisne#fr|Aisne]] (département français).
+
+== {{langue|war}} ==
+=== {{S|nom propre|war}} ===
+'''Aisne''' {{pron||war}}
+# {{départements|war|de France}} [[Aisne#fr|Aisne]] (département français).

@@ -1,0 +1,599 @@
+{{voir/monaco}}
+
+== {{langue|fr}} ==
+=== {{S|étymologie}} ===
+: Via le {{étyl|la|fr|mot=Monoecus}}{{R|Gaffiot|Monoecus}}, du {{étyl|grc|fr|mot=Μόνοικος|tr=Monoikos}}. Le sens de ce nom est inconnu. {{w|Albert Dauzat}} indique une particule {{recons|lang-mot-vedette=fr|mon-}} d’origine pré-celtique, peut-être ligure —ce pourrait être alors le nom de la tribu habitant le rocher à l’époque—, avec attraction du {{étyl|grc|fr|mot=οἶκος|tr=oïkos|sens=maison}} pour la finale, qui n’était vraisemblablement pas celle-ci à l’origine, mais proche. Du latin le mot subit une nouvelle attraction vers le mot ''{{lien|monachus|la}}'' (« moine ») suite à l’installation d’un monastère. Le nom de ''Portus Monacho'' est attesté en {{date|lang=fr|1078}}, il perdra son ''[[h]]'' ensuite.
+: (''Nom commun'') {{ébauche-étym|fr}}
+
+=== {{S|nom propre|fr}} ===
+{{fr-inv|mɔ.na.ko}}
+[[Image:Monaco on the globe (Europe centered).svg|thumb|Localisation de '''Monaco'''.]]
+[[Image:Location_Monaco_Europe.png|thumb|Localisation de '''Monaco''' (''agrandissement'')]]
+'''Monaco''' {{pron|mɔ.na.ko|fr}} {{m}}
+# {{pays|fr|d’Europe}} Pays de 2,02 km², situé au bord de la [[Méditerranée]], enclavé dans le territoire de la [[France]] et proche de l’[[Italie]].
+#* {{exemple | lang=fr
+ | Le nouveau directeur des services judiciaires de '''Monaco''', un certain Laurent Anselmi, une sorte de ministre de la Justice du prince, fait les gros yeux.
+ | source={{w|Jérôme Canard}}, « Vite dit ! », ''{{w|Le Canard Enchaîné}}'', 14 février 2018, page 8}}
+# [[ville|Ville]] constituant ce pays.
+
+==== {{S|abréviations}} ====
+* [[MCO]] (norme {{w|ISO 3166-1}} alpha-3)
+
+==== {{S|synonymes}} ====
+* [[Le Rocher]]
+* [[Mourgues]] {{désuet|nocat=1}}
+* [[principauté de Monaco]], [[Principauté de Monaco]]
+
+==== {{S|gentilés}} ====
+* [[Monacois]], [[Monacoise]], [[monacois]] {{vieilli|nocat}}
+* [[Monégasque]], [[monégasque]] ''({{mf}})''
+
+==== {{S|dérivés}} ====
+* [[monaco]]
+* [[Monaco du Nord]] ([[Granville]])
+
+==== {{S|hyponymes}} ====
+* La Condamine
+* Monaco-Ville
+* [[Monte-Carlo]]
+
+==== {{S|traductions}} ====
+{{trad-début|Principauté}}
+* {{T|af}} : {{trad-|af|Monaco}}
+* {{T|sq}} : {{trad+|sq|Monako}}
+* {{T|gsw}} : {{trad|gsw|Monaco}}
+* {{T|de}} : {{trad+|de|Monaco}}
+* {{T|am}} : {{trad-|am|ሞናኮ}}
+* {{T|en}} : {{trad+|en|Monaco}}
+* {{T|ar}} : {{trad-|ar|موناكو}}
+* {{T|arz}} : {{trad|arz|موناكو}}
+* {{T|an}} : {{trad-|an|Mónegue}}
+* {{T|arc}} : {{trad|arc|ܡܘܢܟܘ}}
+* {{T|hy}} : {{trad-|hy|Մոնակո|tr=Monako}}
+* {{T|ast}} : {{trad+|ast|Mónaco}}, {{trad+|ast|Mónacu}}
+* {{T|az}} : {{trad+|az|Monako}}
+* {{T|nds}} : {{trad+|nds|Monaco}}
+* {{T|nds-nl}} : {{trad|nds-nl|Monaco}}
+* {{T|dsb}} : {{trad|dsb|Monaco}}
+* {{T|eu}} : {{trad+|eu|Monako}}
+* {{T|bar}} : {{trad|bar|Monaco}}
+* {{T|be}} : {{trad-|be|Манака|tr=Manaka}}
+* {{T|be-tarask}} : {{trad|be-tarask|Манака}}
+* {{T|bs}} : {{trad-|bs|Monako}}
+* {{T|br}} : {{trad-|br|Monaco}}
+* {{T|bg}} : {{trad+|bg|Монако|tr=Monako}}
+* {{T|yue}} : {{trad-|yue|摩納哥}}
+* {{T|ca}} : {{trad+|ca|Mònaco}}
+* {{T|ceb}} : {{trad|ceb|Monaco}}
+* {{T|zh}} : {{trad+|zh|摩纳哥|tradi=摩納哥|tr=Mónàgē}}
+* {{T|ko}} : {{trad+|ko|모나코|tr=Monako}}
+* {{T|kw}} : {{trad-|kw|Monako}}
+* {{T|co}} : {{trad-|co|Monacu|m}}
+* {{T|ht}} : {{trad|ht|Monako}}
+* {{T|hr}} : {{trad+|hr|Monako}}
+* {{T|da}} : {{trad+|da|Monaco}}
+* {{T|diq}} : {{trad-|diq|Monako}}
+* {{T|dv}} : {{trad-|dv|މޮނާކޯ}}
+* {{T|es}} : {{trad+|es|Mónaco}}
+* {{T|eo}} : {{trad+|eo|Monako}}
+* {{T|et}} : {{trad+|et|Monaco}}
+* {{T|ee}} : {{trad|ee|Monaco}}
+* {{T|fo}} : {{trad-|fo|Monako}}
+* {{T|fi}} : {{trad+|fi|Monaco}}
+* {{T|fc}} : {{trad|fc|Mounaico}}
+* {{T|ksh}} : {{trad|ksh|Monakko}}
+* {{T|frp}} : {{trad|frp|Monacô}}
+* {{T|fy}} : {{trad-|fy|Monako}}
+* {{T|gd}} : {{trad-|gd|Monaco}}
+* {{T|ga}} : {{trad-|ga|Monacó}}
+* {{T|gl}} : {{trad+|gl|Mónaco}}
+* {{T|cy}} : {{trad+|cy|Monaco}}
+* {{T|ka}} : {{trad+|ka|მონაკო|tr=monako}}
+* {{T|el}} : {{trad+|el|Μονακό}}
+* {{T|hak}} : {{trad|hak|Mô-na̍p-kô}}
+* {{T|hsb}} : {{trad-|hsb|Monaco}}
+* {{T|haw}} : {{trad|haw|Monako}}
+* {{T|he}} : {{trad-|he|מונאקו}}
+* {{T|hi}} : {{trad-|hi|मोनैको}}
+* {{T|hu}} : {{trad+|hu|Monaco}}
+* {{T|sah}} : {{trad|sah|Монако}}
+* {{T|io}} : {{trad+|io|Monako}}
+* {{T|ilo}} : {{trad|ilo|Monaco}}
+* {{T|id}} : {{trad+|id|Monako}}
+* {{T|ia}} : {{trad-|ia|Monaco}}
+* {{T|ie}} : {{trad-|ie|Mónaco}}
+* {{T|is}} : {{trad+|is|Mónakó}}
+* {{T|it}} : {{trad+|it|Monaco}}
+* {{T|ja}} : {{trad+|ja|モナコ|tr=Monako}}
+* {{T|jv}} : {{trad-|jv|Monako}}
+* {{T|lad}} : {{trad|lad|Monako}}
+* {{T|kn}} : {{trad+|kn|ಮೊನಾಕೊ|R=Monāko}}
+* {{T|pam}} : {{trad|pam|Monaco}}
+* {{T|ks}} : {{trad-|ks|موناکو}}, {{trad-|ks|मोनाको}}
+* {{T|kk}} : {{trad+|kk|Монако}}
+* {{T|kv}} : {{trad|kv|Монако}}
+* {{T|avk}} : {{trad|avk|Monakoa}}
+* {{T|ku}} : {{trad-|ku|Monako}}
+* {{T|la}} : {{trad-|la|Monoecus}}
+* {{T|lv}} : {{trad+|lv|Monako}}
+* {{T|lij}} : {{trad|lij|Monego}}, {{trad|lij-mc|Múnegu}}
+* {{T|lij-mc}} : {{trad|lij-mc|Mu̍negu}}
+* {{T|li}} : {{trad-|li|Monaco}}
+* {{T|ln}} : {{trad-|ln|Monakó}}
+* {{T|lt}} : {{trad+|lt|Monakas}}
+* {{T|lb}} : {{trad+|lb|Monaco}}
+* {{T|mk}} : {{trad+|mk|Монако|tr=Monako}}
+* {{T|ms}} : {{trad+|ms|Monaco}}
+* {{T|ml}} : {{trad-|ml|മൊണാക്കോ|R=Meāṇākkēā}}
+* {{T|mt}} : {{trad-|mt|Monako}}
+* {{T|bpy}} : {{trad|bpy|মোনাকো}}
+* {{T|gv}} : {{trad-|gv|Monaco}}
+* {{T|mr}} : {{trad-|mr|मोनॅको}}
+* {{T|nan}} : {{trad-|nan|Monaco}}
+* {{T|lij-MC}} : {{trad|lij-MC|Mu̍negu}}
+* {{T|nch}} : {{trad|nch|Mónaco}}
+* {{T|na}} : {{trad-|na|Monaco}}
+* {{T|nl}} : {{trad+|nl|Monaco}}
+* {{T|ne}} : {{trad-|ne|मोनाको}}
+* {{T|no}} : {{trad+|no|Monaco}}
+* {{T|nn}} : {{trad+|no|Monaco}}
+* {{T|nov}} : {{trad|nov|Monako}}
+* {{T|oc}} : {{trad+|oc|Mónegue}}, {{trad+|oc|Monegue}}
+* {{T|os}} : {{trad|os|Монако}}
+* {{T|udm}} : {{trad|udm|Монако}}
+* {{T|ug}} : {{trad-|ug|Monako}}, {{trad-|ug|موناكو}}
+* {{T|ur}} : {{trad-|ur|مناکو}}
+* {{T|uz}} : {{trad+|uz|Monako}}
+* {{T|ps}} : {{trad-|ps|موناکو}}
+* {{T|fa}} : {{trad+|fa|موناکو}}
+* {{T|pms}} : {{trad|pms|Mònaco}}
+* {{T|pih}} : {{trad|pih|Monako}}
+* {{T|pl}} : {{trad+|pl|Monako}}
+* {{T|pt}} : {{trad+|pt|Mónaco}}
+* {{T|qu}} : {{trad-|qu|Munaku}}
+* {{T|ro}} : {{trad+|ro|Monaco}}
+* {{T|ru}} : {{trad+|ru|Монако|tr=Monako}}
+* {{T|se}} : {{trad|se|Monaco}}
+* {{T|sgs}} : {{trad|sgs|Muonaks}}
+* {{T|sa}} : {{trad-|sa|मोनाको}}
+* {{T|sr}} : {{trad+|sr|Монако}}
+* {{T|sh}} : {{trad+|sh|Monako}}
+* {{T|scn}} : {{trad-|scn|Mònacu}}
+* {{T|szl}} : {{trad|szl|Můnako}}
+* {{T|sk}} : {{trad+|sk|Monako}}
+* {{T|sl}} : {{trad+|sl|Monako}}
+* {{T|sv}} : {{trad+|sv|Monaco}}
+* {{T|sw}} : {{trad-|sw|Monako}}
+* {{T|tg}} : {{trad-|tg|Монако}}
+* {{T|tl}} : {{trad-|tl|Monaco}}
+* {{T|ta}} : {{trad-|ta|மொனாக்கோ|R=monākkō}}
+* {{T|crh}} : {{trad|crh|Monako}}
+* {{T|cs}} : {{trad+|cs|Monako}}
+* {{T|ce}} : {{trad|ce|Монако}}
+* {{T|cv}} : {{trad|cv|Монако}}
+* {{T|te}} : {{trad+|te|మొనాకో|tr=Monākō}}
+* {{T|th}} : {{trad-|th|ประเทศโมนาโก}}
+* {{T|tr}} : {{trad+|tr|Monako}}
+* {{T|uk}} : {{trad+|uk|Монако}}
+* {{T|vec}} : {{trad-|vec|Mònaco}}
+* {{T|vi}} : {{trad-|vi|Monaco}}
+* {{T|vo}} : {{trad+|vo|Monakän}}
+* {{T|vro}} : {{trad|vro|Monaco}}
+* {{T|war}} : {{trad|war|Monaco}}
+* {{T|wo}} : {{trad-|wo|Monaako}}
+{{trad-fin}}
+
+=== {{S|nom de famille|fr}} ===
+{{fr-inv|mɔ.na.ko|inv_titre=Nom de famille}}
+'''Monaco''' {{pron|mɔ.na.ko|fr}}
+# Nom de famille.
+
+==== {{S|traductions}} ====
+{{trad-début}}
+{{trad-fin}}
+
+=== {{S|nom|fr}} ===
+{{fr-rég|mɔ.na.ko}}
+'''Monaco''' {{pron|mɔ.na.ko|fr}} {{mf}}
+# [[habitant|Habitant]] de la [[ville]] de [[Moulainville]], dans le [[département]] de la [[Meuse]], en [[France]]<ref>{{périodique|lang=fr|auteur=M. D.|titre=La rue principale rebaptisée rue de Monaco|consulté le=2022-05-03|URL=https://www.estrepublicain.fr/edition-de-verdun/2018/06/13/la-rue-principale-rebaptisee-rue-de-monaco|date=2018-06-13|journal={{w|Est républicain}}}}</ref>.
+
+==== {{S|notes}} ====
+: {{note-gentilé|fr}}
+
+==== {{S|traductions}} ====
+{{trad-début}}
+{{trad-fin}}
+
+=== {{S|prononciation}} ===
+* {{écouter||mɔ.na.ko|lang=fr|audio=LL-Q150 (fra)-Jules78120-Monaco.wav}}
+* {{écouter|lang=fr|France (Paris)|audio=LL-Q150 (fra)-GrandCelinien-Monaco.wav}}
+* {{écouter|Perpignan (France)|mɔ.na.ko|lang=fr|audio=LL-Q150 (fra)-Laszlo Cárdenas (Culex)-Monaco.wav}}
+* {{écouter|Vendée (France)||lang=fr|audio=LL-Q150 (fra)-Sartus85-Monaco.wav}}
+* {{écouter|Haute-Loire (France)||lang=fr|audio=LL-Q150 (fra)-Sayoxime-Monaco.wav}}
+
+==== {{S|homophones|fr}} ====
+* [[monacaux]]
+
+=== {{S|anagrammes}} ===
+{{voir anagrammes|fr}}
+
+=== {{S|voir aussi}} ===
+* {{WP}}
+
+=== {{S|références}} ===
+* {{R:DauzatRostaing|page=462}}
+* {{mercihabitants}}
+* {{Géopatro}}
+{{Références}}
+
+== {{langue|af}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étylp|fr|af|mot=Monaco}}.
+
+=== {{S|nom propre|af}} ===
+'''Monaco''' {{pron||af}}
+# {{pays|af|d’Europe}} {{lien|Monaco|fr}}.
+#* {{exemple|lang=af}}
+
+== {{langue|gsw}} ==
+
+=== {{S|nom propre|gsw}} ===
+'''Monaco''' {{pron||gsw}}
+# {{pays|gsw}} {{lien|Monaco|fr}}.
+
+== {{langue|de}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étylp|fr|de|mot=Monaco}}.
+
+=== {{S|nom propre|de}} ===
+'''Monaco''' {{pron||de}}
+# {{pays|de|d’Europe}} {{lien|Monaco|fr}}.
+
+== {{langue|en}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étylp|fr|en|mot=Monaco}}.
+
+=== {{S|nom propre|en}} ===
+'''Monaco''' {{pron||en}}
+# {{pays|en|d’Europe}} {{lien|Monaco|fr}}.
+
+==== {{S|dérivés}} ====
+* [[Monegasque]]
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=en|États-Unis||audio=En-us-Monaco.ogg}}
+* {{écouter|Londres (Royaume-Uni)||lang=en|audio=LL-Q1860 (eng)-Soundguys-Monaco.wav}}
+
+== {{langue|nds}} ==
+
+=== {{S|nom propre|nds}} ===
+'''Monaco''' {{pron||nds}}
+# {{pays|nds}} {{lien|Monaco|fr}}.
+
+== {{langue|nds-nl}} ==
+
+=== {{S|nom propre|nds-nl}} ===
+'''Monaco''' {{pron||nds-nl}}
+# {{pays|nds-nl}} {{lien|Monaco|fr}}.
+
+== {{langue|dsb}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étylp|fr|dsb|mot=Monaco}}.
+
+=== {{S|nom propre|dsb}} ===
+'''Monaco''' {{pron||dsb}}
+# {{pays|dsb}} {{lien|Monaco|fr}}.
+
+== {{langue|bar}} ==
+
+=== {{S|nom propre|bar}} ===
+'''Monaco''' {{pron||bar}}
+# {{pays|bar}} {{lien|Monaco|fr}}.
+
+== {{langue|ceb}} ==
+
+=== {{S|nom propre|ceb}} ===
+'''Monaco''' {{pron||ceb}}
+# {{pays|ceb}} {{lien|Monaco|fr}}.
+
+==== {{S|variantes}} ====
+* {{lien|Monako|ceb}}
+
+== {{langue|da}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étylp|fr|da|mot=Monaco}}.
+
+=== {{S|nom propre|da}} ===
+'''Monaco''' {{pron||da}}
+# {{pays|da|d’Europe}} {{lien|Monaco|fr}}.
+
+== {{langue|et}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étylp|fr|et|mot=Monaco}}.
+
+=== {{S|nom propre|et}} ===
+'''Monaco''' {{pron||et}}
+# {{pays|et|d’Europe}} {{lien|Monaco|fr}}.
+
+== {{langue|ee}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étylp|fr|ee|mot=Monaco}}.
+
+=== {{S|nom propre|ee}} ===
+'''Monaco''' {{pron||ee}}
+# {{pays|ee}} {{lien|Monaco|fr}}.
+
+== {{langue|fi}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étylp|fr|fi|mot=Monaco}}.
+
+=== {{S|nom propre|fi}} ===
+'''Monaco''' {{pron||fi}}
+# {{pays|fi|d’Europe}} {{lien|Monaco|fr}}.
+
+== {{langue|ksh}} ==
+=== {{S|étymologie}} ===
+: Du {{étylp|fr|ksh|Monaco}}.
+
+=== {{S|nom propre|ksh}} ===
+'''Monaco''' {{pron||ksh}}
+# {{pays|ksh}} [[Monaco#fr|Monaco]].
+
+=== {{S|références}} ===
+* {{WP|lang=ksh}}
+[[Catégorie:Europe en francique ripuaire]]
+
+== {{langue|gd}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étylp|fr|gd|mot=Monaco}}.
+
+=== {{S|nom propre|gd}} ===
+'''Monaco''' {{pron||gd}}
+# {{pays|gd}} {{lien|Monaco|fr}}.
+
+== {{langue|cy}} ==
+
+=== {{S|nom propre|cy}} ===
+'''Monaco''' {{pron||cy}}
+# {{pays|cy|d’Europe}} {{lien|Monaco|fr}}.
+
+== {{langue|hsb}} ==
+
+=== {{S|nom propre|hsb}} ===
+'''Monaco''' {{pron||hsb}}
+# {{pays|hsb}} {{lien|Monaco|fr}}.
+
+== {{langue|hu}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étylp|fr|hu|mot=Monaco}}.
+
+=== {{S|nom propre|hu}} ===
+'''Monaco''' {{pron||hu}}
+# {{pays|hu|d’Europe}} {{lien|Monaco|fr}}.
+
+== {{langue|ilo}} ==
+
+=== {{S|nom propre|ilo}} ===
+'''Monaco''' {{pron||ilo}}
+# {{pays|ilo}} {{lien|Monaco|fr}}.
+
+== {{langue|ia}} ==
+
+=== {{S|nom propre|ia}} ===
+'''Monaco''' {{pron||ia}}
+# {{pays|ia}} {{lien|Monaco|fr}}.
+
+== {{langue|it}} ==
+
+=== {{S|étymologie}} ===
+: ''(Nom propre 1)'' Du {{étyl|la|it|mot=Monoecus}}.
+: ''(Nom propre 2)'' Ellipse de ''{{lien|Monaco di Baviera|it}}''.
+
+=== {{S|nom propre|it|num=1}} ===
+'''Monaco''' {{pron|ˈmɔ.na.ko|it}} {{m}}
+# {{pays|it|d’Europe}} {{lien|Monaco|fr}}, ville et principauté.
+
+==== {{S|gentilés}} ====
+* [[monegasco#it|monegasco]]
+
+=== {{S|nom propre|it|num=2}} ===
+'''Monaco''' {{pron|ˈmɔ.na.ko|it}} {{f}}
+# {{localités|it|d’Allemagne}} {{lien|Munich|fr}}, capitale de la Bavière.
+
+==== {{S|gentilés}} ====
+* {{lien|monacense|it}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=it}}
+* {{WQ|lang=it}}
+* {{VOY|lang=it}}
+* {{Vikidia|lang=it}}
+
+=== {{S|références}} ===
+* {{R:SDAS}}
+
+[[Catégorie:Mots proparoxytons en italien]]
+
+== {{langue|pam}} ==
+
+=== {{S|nom propre|pam}} ===
+'''Monaco''' {{pron||pam}}
+# {{pays|pam}} {{lien|Monaco|fr}}.
+
+== {{langue|li}} ==
+
+=== {{S|nom propre|li}} ===
+'''Monaco''' {{pron||li}}
+# {{pays|li}} {{lien|Monaco|fr}}.
+
+== {{langue|ln}} ==
+
+=== {{S|nom propre|ln}} ===
+'''Monaco''' {{pron||ln}}
+# {{pays|ln}} {{lien|Monaco|fr}}.
+
+== {{langue|lb}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|lb}}
+
+=== {{S|nom propre|lb}} ===
+{{lb-inv|monˈɑkoː|inv_titre=Nom propre}}
+'''Monaco''' {{pron|monˈɑkoː|lb}} {{n}}
+# {{pays|lb|d’Europe|pays=Monaco|clé=*}} {{lien|Monaco|fr}}.
+#* {{exemple|lang=lb}}
+# {{capitales|lb}} {{lien|Monaco|fr}}, ville et capitale de la principauté.
+#* {{exemple|lang=lb}}
+
+==== {{S|gentilés}} ====
+* {{lien|Monegass|lb}}, {{lien|Monegassin|lb}}
+* {{lien|monegassesch|lb}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=lb}}
+
+=== {{S|références}} ===
+: {{R:LOD}}
+
+== {{langue|ms}} ==
+
+=== {{S|nom propre|ms}} ===
+'''Monaco''' {{pron||ms}}
+# {{pays|ms|d’Europe}} {{lien|Monaco|fr}}.
+
+== {{langue|gv}} ==
+
+=== {{S|nom propre|gv}} ===
+'''Monaco''' {{pron||gv}}
+# {{pays|gv}} {{lien|Monaco|fr}}.
+
+== {{langue|nan}} ==
+
+=== {{S|nom propre|nan}} ===
+'''Monaco''' {{pron||nan}}
+# {{pays|nan}} {{lien|Monaco|fr}}.
+
+== {{langue|na}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étylp|fr|na|mot=Monaco}}.
+
+=== {{S|nom propre|na}} ===
+'''Monaco''' {{pron||na}}
+# {{pays|na|d’Europe}} {{lien|Monaco|fr}}.
+
+== {{langue|nl}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étylp|fr|nl|mot=Monaco}}.
+
+=== {{S|nom propre|nl}} ===
+'''Monaco''' {{pron||nl}}
+# {{pays|nl|d’Europe}} {{lien|Monaco|fr}}.
+
+=== {{S|prononciation}} ===
+* {{écouter|||lang=nl|audio=Nl-Monaco.ogg}}
+
+== {{langue|no}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étylp|fr|no|mot=Monaco}}.
+
+=== {{S|nom propre|no}} ===
+'''Monaco''' {{pron||no}}
+# {{pays|no|d’Europe}} {{lien|Monaco|fr}}.
+
+== {{langue|nn}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étyl|no|nn|mot=Monaco}}.
+
+=== {{S|nom propre|nn}} ===
+'''Monaco''' {{pron||nn}}
+# {{pays|nn|d’Europe}} {{lien|Monaco|fr}}.
+
+== {{langue|ro}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étylp|fr|ro|mot=Monaco}}.
+
+=== {{S|nom propre|ro}} ===
+'''Monaco''' {{pron|mo.na.co|ro}} {{invar|ro}}
+# {{pays|ro|d’Europe}} {{lien|Monaco|fr}}.
+
+==== {{S|synonymes}} ====
+* [[Principatul Monaco]] (« Principauté de Monaco »)
+
+==== {{S|apparentés}} ====
+* [[monegasc#ro|monegasc]] (« monégasque »)
+
+=== {{S|prononciation}} ===
+* {{écouter|Iași (Roumanie)||lang=ro|audio=LL-Q7913 (ron)-KlaudiuMihaila-Monaco.wav}}
+[[Catégorie:Europe en roumain]]
+[[Catégorie:Pays d’Europe en bavarois]]
+
+== {{langue|se}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étylp|fr|se|mot=Monaco}}.
+
+=== {{S|nom propre|se}} ===
+'''Monaco''' {{pron||se}}
+# {{pays|se|d’Europe}} {{lien|Monaco|fr}}.
+
+== {{langue|sv}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étylp|fr|sv|mot=Monaco}}.
+
+=== {{S|nom propre|sv}} ===
+'''Monaco''' {{pron||sv}}
+# {{pays|sv|d’Europe}} {{lien|Monaco|fr}}.
+
+== {{langue|tl}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étylp|fr|tl|mot=Monaco}}.
+
+=== {{S|nom propre|tl}} ===
+'''Monaco''' {{pron||tl}}
+# {{pays|tl|d’Europe}} {{lien|Monaco|fr}}.
+
+==== {{S|variantes}} ====
+* {{lien|Monako|tl}}
+
+== {{langue|vi}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étylp|fr|vi|mot=Monaco}}.
+
+=== {{S|nom propre|vi}} ===
+'''Monaco''' {{pron||vi}}
+# {{pays|vi|d’Europe}} {{lien|Monaco|fr}}.
+
+== {{langue|vro}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étylp|fr|vro|mot=Monaco}}.
+
+=== {{S|nom propre|vro}} ===
+'''Monaco''' {{pron||vro}}
+# {{pays|vro}} {{lien|Monaco|fr}}.
+
+== {{langue|war}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étylp|fr|war|mot=Monaco}}.
+
+=== {{S|nom propre|war}} ===
+'''Monaco''' {{pron||war}}
+# {{pays|war}} {{lien|Monaco|fr}}.

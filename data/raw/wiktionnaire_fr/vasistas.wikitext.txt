@@ -1,0 +1,86 @@
+== {{langue|fr}} ==
+=== {{S|étymologie}} ===
+: {{siècle|XVIII}} De l’{{étyl|de|fr}} ''[[was]] [[ist]] [[das]]'' (« qu’est-ce que c'est ? »), question exprimée via une sorte de [[guichet]] par des Allemands à leurs visiteurs français avant de leur ouvrir la porte.
+
+: La première forme connue de cet emprunt est « [[wass-ist-dass]] » (1776), d’après ''Le Robert, Dictionnaire historique de la langue française'', 1992. La première apparition du mot « vasistas » dans un dictionnaire remonte à la {{5e|édition}} en 1798 du ''Dictionnaire de l'Académie française''.
+
+=== {{S|nom|fr}} ===
+{{fr-inv|va.zis.tas|inv_titre=Invariable}}
+'''vasistas''' {{pron|va.zis.tas|fr}} {{m}}
+# {{lexique|menuiserie|fr}} [[ouverture|Ouverture]] aménagée dans une [[fenêtre]] ou dans une [[porte]], à hauteur d’[[yeux]].
+#* {{exemple | lang=fr
+ | Jim manœuvra le cordon d’un '''vasistas''', mais l’ouverture donnait sur la loge de Gaby Million où la vedette avait laissé ses chiens. Les bêtes se mirent à aboyer.
+ | source={{Citation/Francis Carco/L’Homme de minuit/1938}}}}
+# {{lexique|architecture|menuiserie|fr}} [[petit|Petit]] [[châssis]] à un [[vantail]] [[vitré]], pratiqué dans la partie haute d’un [[mur]], pour [[donner]] de l’[[air]] ou de la [[lumière]].
+# {{lexique|architecture|menuiserie|fr}} {{courant|fr}} [[fenêtre|Fenêtre]] de [[toit]] en pente ([[tabatière]]).
+#* {{exemple | lang=fr
+ | Sengle n'avait jamais pu rouvrir les yeux avant le froid des premières heures matinales, chu du '''vasistas''' de sa haute fenêtre.
+ | source=Alfred Jarry, ''Les Jours et les Nuits''}}
+#* {{exemple | lang=fr
+ | Ce dernier, bien que spécialisé dans le travail manuel, avait gambergé très vite sachant qu’Alvaro ne plaisantait jamais quand il sortait son soufflant, et qu’un macchabée, même coincé dans un '''vasistas''', ça ne cause plus bezef…
+ | source=Jean-Luc Blanchet, ''Marée blanche en Atlantique'', Geste éditions, 2010, chapitre 7}}
+# {{argot|fr}} {{p}} [[yeux|Yeux]].
+#* {{exemple | lang=fr
+ | L’interpellé déglutit, reglutit, désestomaque et finit par bredouiller en me plantant un regard de 240 volts dans les '''vasistas''' : — Mais naturellement…
+ | source=San-Antonio, ''Baise-ball à La Baule''}}
+#* {{exemple | lang=fr
+ | On virgule une fusée éclairante pour informer les Kuwiens de notre présence, bien les alerter, écarquiller à fond les châsses, qu'ils se bloquent les '''vasistas''', les brave noir-pioches, n'en ratent pas une miette.
+ | source=[[w:San-Antonio (série)|San-Antonio]], ''{{w|Béru-Béru}}'', Éditions Fleuve noir, 1970, III, 1}}
+
+==== {{S|synonymes}} ====
+; Ouverture dans une fenêtre ou porte à hauteur d’yeux
+* [[guichet]]
+; Châssis de toit
+* [[tabatière]]
+* [[lucarne]]
+* [[vélux]]
+; Yeux
+{{cf|oeil}}
+
+==== {{S|vocabulaire}} ====
+* {{voir thésaurus|fr|fenêtre}}
+: ''Vantail dans la partie haute d’un mur ou d’une porte :'' [[claire-voie]], [[imposte]]
+
+==== {{S|traductions}} ====
+{{trad-début|Ouverture dans une fenêtre ou porte à hauteur d'yeux}}
+* {{T|de}} : {{trad-|de|Oberlichtfenster|n}}, {{trad-|de|Guckfenster}}
+* {{T|es}} : {{trad-|es|mirilla|f}}
+* {{T|ru}} : {{trad+|ru|форточка|f|tr=fórtočka|dif=фо́рточка}}
+{{trad-fin}}
+{{trad-début|Vantail dans la partie haute d’un mur}}
+* {{T|de}} : {{trad-|de|Kämpferfenster}}
+* {{T|en}} : {{trad+|en|transom window}}
+* {{T|es}} : {{trad+|es|claraboya|f}}, {{trad+|es|tragaluz|m}}
+*{{T|ru}} : {{trad+|ru|форточка|R=fórtochka|f}}
+{{trad-fin}}
+{{trad-début|Châssis de toit}}
+* {{T|es}} : {{trad+|es|lucero|m}}
+{{trad-fin}}
+
+===== {{S|traductions à trier}} =====
+{{trad-début}}
+* {{T|eo|trier}} : {{trad-|eo|aerumilo}}
+{{trad-fin}}
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=fr|France (Vosges)||audio=LL-Q150 (fra)-LoquaxFR-vasistas.wav}}
+* {{écouter|Somain (France)||lang=fr|audio=LL-Q150 (fra)-Jérémy-Günther-Heinz Jähnick-vasistas.wav}}
+* {{écouter|Céret (France)|va.zis.tas|lang=fr|audio=LL-Q150 (fra)-Fabricio Cardenas (Culex)-vasistas.wav}}
+
+=== {{S|voir aussi}} ===
+* {{WP}}
+
+=== {{S|références}} ===
+*{{Import:DAF8}}
+* Jean de Vigan, ''Le petit Dicobat'', éd. Arcature, Paris, 2003.
+
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|de|gsw}} ''[[was]] [[ist]] [[das]]'' ( « qu’est-ce que c'est ? » ).
+
+=== {{S|interjection|gsw}} ===
+'''vasistas'''
+# Qu’est-ce que c’est.
+
+[[Catégorie:Vie domestique en français]]
+[[Catégorie:-s prononcés /s/ en français]]

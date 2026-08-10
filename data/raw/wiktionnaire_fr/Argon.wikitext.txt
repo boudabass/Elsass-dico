@@ -1,0 +1,110 @@
+{{voir/argon}}
+
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw}}
+
+=== {{S|nom|gsw}} ===
+'''Argon''' {{pron||gsw}}
+# {{éléments|gsw}} [[argon|Argon]].
+{{clr}}
+==== {{S|vocabulaire}} ====
+{{tableau périodique/gsw}}
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: {{siècle|Fin XIX|lang=de}} Du {{étyl|grc|de}} via l’{{étyl|en|de}} {{cf|argon}}.
+
+=== {{S|nom|de}} ===
+{{de-nom-n-sing}}
+{{légende élément/de|Ar}}
+[[Image:Argon_discharge_tube.jpg|thumb|'''Argon''' Gasentladungsröhren.]]
+'''Argon''' {{pron|ˈaʁɡɔn|de}} {{n}}
+# {{éléments|de}} [[argon#fr|Argon]] (l’{{lien|élément chimique}} [[Ar#conv|Ar]]).
+#* {{exemple|Die Atmosphäre setzt sich hauptsächlich aus Stickstoff (78,1 %), Sauerstoff (20,9 %) und '''Argon''' (0,93 %) zusammen.|lang=de|sens=L’atmosphère se compose principalement d’azote (78,1 %), d’oxygène (20,9 %) et d’argon (0,93 %).|source={{périodique|auteur=|titre=Aufbau und Zusammensetzung der Atmosphäre|journal=Hamburger Bildungsserver|date=mai |texte=https://bildungsserver.hamburg.de/themenschwerpunkte/klimawandel-und-klimafolgen/klimawandel/atmosphaere-und-treibhauseffekt/atmosphaere-aufbau-artikel-746196}}}}
+
+==== {{S|dérivés}} ====
+{{(|&nbsp;}}
+* {{lien|Argonatom|de}}
+* {{lien|Argonbirne|de}}
+* {{lien|Argonchlorid|de}}
+* {{lien|Argondruck|de}}
+* {{lien|Argondruckregler|de}}
+* {{lien|Argoneis|de}}
+* {{lien|Argonflasche|de}}
+* {{lien|Argonfluorid|de}}
+* {{lien|Argonfreisetzung|de}}
+* {{lien|argonhaltig|de}}
+* {{lien|Argonionen|de}}
+* {{lien|Argonkühlung|de}}
+* {{lien|Argonlaser|de}}
+* {{lien|Argonplasma|de}}
+* {{lien|Argonstrom|de}}
+* {{lien|Argonverbindung|de}}
+* {{lien|Argonverflüssigung|de}}
+* {{lien|Argonzufuhr|de}}
+* {{lien|Flüssigargon|de}}
+* {{lien|Reinargon|de}}
+* {{lien|Reinstargon|de}}
+* {{lien|Rohargon|de}}
+{{)}}
+{{clr}}
+==== {{S|vocabulaire}} ====
+* {{voir thésaurus|de|tableau périodique des éléments}}
+{{tableau périodique/de}}
+{{Liste|avant={{lien|Chlor|de}}<br>([[Cl#conv|Cl]])|après={{lien|Kalium|de}}<br>([[K#conv|K]])|liste=[[Thésaurus:tableau périodique des éléments/allemand|Éléments chimiques en allemand]]}}
+
+=== {{S|prononciation}} ===
+* {{écouter|Berlin|ˈaʁɡɔn|lang=de|audio=De-Argon.ogg}}
+* {{écouter|Vienne|ˈaʁɡɔn|lang=de|audio=De-at-Argon.ogg}}
+* {{écouter|{{DE|nocat=1}}|ˈaʁɡɔn|lang=de|audio=LL-Q188 (deu)-Lucas Werkmeister-Argon.wav}}
+* {{écouter|Berlin|ˈaʁɡɔn|lang=de|audio=LL-Q188 (deu)-Sebastian Wallroth-Argon.wav}}
+* {{écouter|{{DE|nocat=1}}|ˈaʁɡɔn|lang=de|audio=LL-Q188 (deu)-Michael Schoenitzer (MichaelSchoenitzer)-Argon.wav}}
+* {{écouter|Pays-Bas (Royaume des Pays-Bas)||lang=de|audio=LL-Q188 (deu)-Ziko-Argon.wav}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=de}}
+
+=== {{S|références}} ===
+* {{R:DWDS|Argon}}
+* {{R:Duden|Argon}}
+
+== {{langue|lb}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|lb}}
+
+=== {{S|nom|lb}} ===
+{{lb-inv|ˈɑʀɡon}}
+'''Argon''' {{pron|ˈɑʀɡon|lb}} {{m}}, {{au singulier uniquement|lb}}
+# {{éléments|lb}} [[argon#fr|Argon]].
+#* {{exemple|lang=lb}}
+{{clr}}
+==== {{S|vocabulaire}} ====
+{{tableau périodique/lb}}
+
+=== {{S|prononciation}} ===
+* {{écouter|Angers (France)||niveau=bon|lang=lb|audio=LL-Q9051 (ltz)-Procrastineur49-Argon.wav}}
+
+=== {{S|références}} ===
+: {{R:LOD}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=lb}}
+
+== {{langue|oc}} ==
+{{ébauche|oc}}
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|oc}}.
+
+=== {{S|nom propre|oc}} ===
+'''Argon''' {{pron|aɾˈɣu|oc}} {{oc-norme classique}}
+# [[Aragon]], commune du département de l’[[Aude]].
+
+==== Toponymie ====
+Les attestations anciennes sont : Locus de Arago en 1203; Castrum de Aragone en 1287; De Arragone en 1319; Arago en 1340-1341; Aragon en 1731; Argou (dans la graphie de l'abbé Antoine Savartés).
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=oc|Argon (Aude)}}
+
+[[Catégorie:Localités du département de l’Aude en occitan]]

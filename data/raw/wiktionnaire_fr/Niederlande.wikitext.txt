@@ -1,0 +1,62 @@
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw}}
+Cette région a fait partie lors du partage de l'empire de Charlemagne à sa succession de la Lotharingie. À l'apogée de l'État bourguignon à la fin de la période médiévale, la partie nord des possessions ducales, dans ce qui est actuellement le territoire belge et néerlandais, est appelé « États de par-deçà » ou « Pays-Bas » pour les distinguer des « États de par-delà » (Bourgogne proprement dite et Franche-Comté). Là est l'origine du terme de la région historique des Pays-Bas, terme qui sera donné au cours des siècles et sous différentes formes et à plusieurs pays sur ce territoire.
+
+=== {{S|nom propre|gsw}} ===
+'''Niederlande'''
+# [[Pays-Bas]] (pays européen).
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: {{composé de|nieder|sens1=bas|Land|sens2=pays|lang=de|m=1}}.
+Cette région a fait partie lors du partage de l'empire de Charlemagne à sa succession de la Lotharingie.
+À l'apogée de l'État bourguignon à la fin de la période médiévale, la partie nord des possessions ducales, dans ce qui est actuellement le territoire belge et néerlandais, est appelé « États de par-deçà » ou « Pays-Bas » pour les distinguer des « États de par-delà » (Bourgogne proprement dite et Franche-Comté). Là est l'origine du terme de la région historique des Pays-Bas, terme qui sera donné au cours des siècles et sous différentes formes et à plusieurs pays sur ce territoire. {{réf?|lang=de}}
+
+=== {{S|nom propre|de}} ===
+{{de-nom-propre-pluriel}}
+'''Niederlande''' {{pron|ˈniːdɐˌlandə|de}} {{p}}, {{au pluriel uniquement|de}}
+# {{info lex|toponymie}} [[Pays-Bas]] (pays européen).
+#* {{exemple|Holland ist eigentlich nur der Name einer Region in den '''Niederlande'''n, wird aber auch im Land selbst als Synonym akzeptiert.|sens=La Hollande n'est en fait le nom que d'une région des Pays-Bas, mais elle est acceptée comme synonyme du pays lui-même.|lang=de}}
+[[Fichier:EU-Netherlands.svg|vignette|'''die Niederlande''' - Les Pays-Bas]] 
+#* {{exemple|Konkret klagen die deutschen Konzerne RWE und Uniper gegen die '''Niederlande''', weil das Land bis 2030 aus der Kohleverstromung aussteigen will und den Eigentümern der Kohlekraftwerke dafür keine Entschädigung zahlt (...)|lang=de|sens=Concrètement, les groupes allemands RWE et Uniper portent plainte contre les Pays-Bas parce que le pays veut abandonner la production d'électricité à partir du charbon d'ici 2030 et ne verse pas d'indemnités aux propriétaires des centrales à charbon pour cette décision.|source={{périodique|auteur=Christian Rath|titre=Energiefirmen droht Niederlage|journal=taz|date=18 mai 2023|texte=https://taz.de/Private-Schiedsgerichte-vor-Gericht/!5932058/}}}}
+#* {{exemple|Washington hat in den letzten Jahren nicht nur chinesische Unternehmen von kritischer US-Technologie abgeschnitten, sondern zuletzt auch die Verbündeten in Japan und den '''Niederlande'''n dazu gebracht, bei einzelnen Sanktionen für die Produktion von Halbleitern ebenfalls mitzuziehen.|lang=de|sens=Ces dernières années, Washington n'a pas seulement coupé les entreprises chinoises de l’accès aux technologies américaines critiques, mais a aussi récemment incité ses alliés japonais et néerlandais à jouer le jeu sur certaines sanctions concernant la production de semi-conducteurs.|source={{périodique|auteur=Fabian Kretschmer|titre=China holt im Techkrieg zum Gegenschlag aus|journal=RedaktionsNetzwerk Deutschland|date=8 juillet 2023|texte=https://www.rnd.de/politik/china-holt-im-tech-krieg-zum-gegenschlag-aus-X443PCZAFZDZPGSZYD4FDHGDIE.html}}}}
+
+==== {{S|notes}} ====
+En allemand, les pays n’ont généralement pas de déterminant. Néanmoins quelques rares pays font exception comme les Pays-Bas : '''die Niederlande'''.
+
+==== {{S|synonymes}} ====
+* [[Holland]] (''Hollande'')
+* [[Königreich der Niederlande]] (''royaume des Pays-Bas'')
+
+==== {{S|gentilés}} ====
+* [[niederländisch]] (''néerlandais(e)'')
+* [[Niederländer]] (''Néerlandais''), [[Niederländerin]] (''néerlandaise'')
+
+==== {{S|dérivés}} ====
+* [[Niederländisch]] (''langue néerlandaise'')
+* [[Niederlandist]]
+
+==== {{S|hyperonymes}} ====
+* [[Königreich]] (''royaume'')
+* [[Europa]] (''Europe'')
+* [[Land]] (''Pays'')
+* [[Staat]] (''état'')
+
+=== {{S|prononciation}} ===
+* {{écouter|{{DE|nocat=1}}|ˈniːdɐˌlandə|lang=de|audio=De-Niederlande.ogg}}
+
+=== {{S|références}} ===
+{{Références}}
+
+==== {{S|sources}} ====
+* {{R:DWDS|Niederlande}}
+* {{R:Duden|Niederlande}}
+* {{Source-wikt|de|Niederlande}}
+==== {{S|bibliographie}} ====
+* Larousse - Dctionnaire allemand/français – français/allemand , éd. 1958, p 616.
+* Harrap’s de poche – Bordas Dictionnaire allemand/français, éd. 1997, ISBN 0-245-50308-0, p 213. 
+
+[[Catégorie:Pays d’Europe en allemand]]
+[[Catégorie:Pays-Bas en allemand|*]]
+[[Catégorie:Toponymes dont l’origine est un paysage en allemand]]

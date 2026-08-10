@@ -1,0 +1,62 @@
+{{voir|scandium}}
+
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw}}
+
+=== {{S|nom|gsw}} ===
+'''Scandium''' {{pron||gsw}}
+# {{éléments|gsw}} {{métaux|gsw}} [[scandium|Scandium]].
+{{clr}}
+==== {{S|vocabulaire}} ====
+{{tableau périodique/gsw}}
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|de}}
+
+=== {{S|nom|de}} ===
+{{légende élément/de|Sc}}
+[[Image:Scandium_sublimed_dendritic_and_1cm3_cube.jpg|thumb|'''Scandium'''.]]
+'''Scandium''' {{pron|ˈskandi̯ʊm|de}} {{n}} ({{p}}: '''—''' )
+# {{éléments|de}} {{métaux|de}} [[scandium#fr|Scandium]] (l’{{lien|élément chimique}} [[Sc#conv|Sc]]).
+#* {{exemple | lang=de | '''Scandium''' gehört zu den seltenen Elementen.}}
+
+==== {{S|dérivés}} ====
+* {{lien|Scandiumchlorid|de}}
+* {{lien|Scandiumfluorid|de}}
+* {{lien|Scandiumgruppe|de}}
+* {{lien|Scandiumiodid|de}}
+* {{lien|Scandiumoxid|de}}
+{{clr}}
+==== {{S|vocabulaire}} ====
+* {{voir thésaurus|de|tableau périodique des éléments}}
+{{tableau périodique/de}}
+{{Liste|avant={{lien|Calcium|de}} ou {{lien|Kalzium|de}}<br>([[Ca#conv|Ca]])|après={{lien|Titan|de}}<br>([[Ti#conv|Ti]])|liste=[[Thésaurus:tableau périodique des éléments/allemand|Éléments chimiques en allemand]]}}
+
+=== {{S|prononciation}} ===
+* {{pron|ˈskandi̯ʊm|de}}
+* {{écouter|lang=de|Allemagne (Berlin)|audio=LL-Q188 (deu)-Lucas Werkmeister-Scandium.wav}}
+* {{écouter|lang=de|Allemagne (Berlin)|audio=LL-Q188 (deu)-Sebastian Wallroth-Scandium.wav}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=de}}
+
+== {{langue|lb}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|lb}}
+
+=== {{S|nom|lb}} ===
+{{lb-inv|skˈɑndi̯um}}
+'''Scandium''' {{pron|skˈɑndi̯um|lb}} {{m}}, {{au singulier uniquement|lb}}
+# {{éléments|lb}} {{métaux|lb}} [[scandium#fr|Scandium]].
+#* {{exemple|lang=lb}}
+{{clr}}
+==== {{S|vocabulaire}} ====
+{{tableau périodique/lb}}
+
+=== {{S|références}} ===
+: {{R:LOD}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=lb}}

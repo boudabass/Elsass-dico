@@ -1,0 +1,7 @@
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+{{ébauche-étym|gsw}}
+
+=== {{S|nom|gsw}} ===
+'''E frehliches Wihnaacht un gleckliches nejohr''' {{pron||gsw}}
+# [[joyeux Noël et bonne année|Joyeux Noël et bonne année]].

@@ -1,0 +1,43 @@
+{{voir/armenie}}
+
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: {{date|lang=gsw}} Transcription du mot ''[[Armenia]]''.
+
+=== {{S|nom propre|gsw}} ===
+'''Armenie''' {{pron||gsw}}
+# [[Arménie]] (pays du [[Caucase]]).
+
+[[Catégorie:Pays en alémanique]]
+
+== {{langue|fro}} ==
+=== {{S|étymologie}} ===
+: {{siècle|lang=fro|XII}} Du {{étyl|la|fro|Armenia}}.
+
+=== {{S|nom propre|fro}} ===
+'''Armenie''' {{pron-recons||fro}}
+# [[Arménie]] (pays du [[Caucase]]).
+
+[[Catégorie:Pays en ancien français]]
+
+== {{langue|gallo}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gallo}}
+
+=== {{S|nom propre|gallo}} ===
+{{gallo-inv}}
+'''Armenie''' {{pron||gallo}} {{f}} {{gallo-graphie|ABCD}}
+# {{pays|gallo}} [[Arménie]].
+
+=== {{S|références}} ===
+* {{R:PMatao|p=92}}
+
+== {{langue|lb}} ==
+=== {{S|nom propre|lb|flexion}} ===
+{{lb-inv-en|s=Armenien|pron=ɑʀmˈeːniən|inv_titre=Nom propre}}
+'''Armenie''' {{pron|ɑʀmˈeːniə|lb}} {{n}}
+# ''Forme faible de'' {{lien|Armenien|lb}}.
+#* {{exemple|lang=lb}}
+
+==== {{S|notes}} ====
+* {{lb-n-|np=oui}}

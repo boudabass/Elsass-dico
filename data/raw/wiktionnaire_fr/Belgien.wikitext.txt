@@ -1,0 +1,130 @@
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+:Du {{étyl|la|gsw}} [[Belgia]].
+
+=== {{S|nom propre|gsw}} ===
+'''Belgien'''
+# [[Belgique]], pays d'Europe.
+
+[[Catégorie:Pays en alémanique]]
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+:{{date|lang=de|1830}} du {{étylp|la|de|mot=Belgia}}.
+
+=== {{S|nom propre|de}} ===
+{{de-nom-propre|genre=n|gs=Belgien|gs2=Belgiens}}
+[[Fichier:EU-Belgium.svg|vignette|Situation de la '''Belgique''' en Europe.]]
+'''Belgien''' {{pron|ˈbɛlɡi̯ən|de}} {{n}}, {{au singulier uniquement|de}}.
+# {{info lex|toponymie}} [[Belgique#fr|Belgique]], royaume d'Europe de l'ouest.
+#* {{exemple | lang=de | Über '''Belgien''' weiß ich eigentlich fast gar nichts.|sens=En réalité, je ne sais pas grand chose sur la Belgique.}}
+#* {{exemple | lang=de | Brüssel ist die Hauptstadt von '''Belgien'''. | sens=Bruxelles est la capitale de la Belgique.}}
+#* {{exemple|Der Skandal kam Ende Dezember, kurz vor Weihnachten. In '''Belgien''' war wieder ein pädophiles Netzwerk aufgeflogen; diesmal waren Mitglieder der Azraëlisten darin verwickelt. Pädophile, eine Sekte, das bevorstehende Weihnachtsfest: die ideale Mischung für ein großes Medientamtam.|lang=de|sens=Le scandale éclata fin décembre, quelques jours avant Noël. Un nouveau réseau pédophile venait d'être découvert en Belgique ; cette fois, l’affaire mettait en cause les adeptes de l’église raélienne. Des pédophiles, une secte, l’approche de la période des fêtes : tout était réuni pour une couverture médiatique de grande ampleur.|source={{ouvrage|auteur={{w|Michel Houellebecq}}|trad=Hinrich Schmidt-Henkel|titre=Lanzarote|année=2000|éditeur=DuMont Buchverlag|lieu=Köln|url=}}}}
+
+==== {{S|hyponymes}} ====
+{{(|}}
+* {{lien|Nordbelgien|de}}
+* {{lien|Ostbelgien|de}}
+* {{lien|Südbelgien|de}}
+* {{lien|Westbelgien|de}}
+{{)}}
+
+==== {{S|notes}} ====
+* En allemand, les pays n’ont généralement pas de déterminant.
+* Si toutefois il y a besoin d'une déclinaison, ils sont supposés du genre neutre.
+
+==== {{S|abréviations}} ====
+* [[B#conv|B]]
+* [[BE#conv|BE]]
+* [[BEL]]
+
+==== {{S|synonymes}} ====
+* {{lien|Königreich Belgien|de}}
+
+==== {{S|gentilés}} ====
+* [[Belgier]], [[Belgierin]]
+* [[belgisch]]
+
+==== {{S|dérivés}} ====
+* {{lien|Benelux|de}}
+
+==== {{S|hyperonymes}} ====
+* {{lien|Königreich|de}}
+* {{lien|Europa|de}}
+* {{lien|Land|de}}
+* {{lien|Staat|de}}
+
+=== {{S|prononciation}} ===
+* {{écouter|Berlin (Allemagne)|ˈbɛlɡi̯ən|lang=de|audio=De-Belgien2.ogg}}
+* {{écouter|{{DE|nocat=1}}|ˈbɛlɡi̯ən|lang=de|audio=De-Belgien.ogg}}
+* {{écouter|{{DE|nocat=1}}|ˈbɛlɡi̯ən|lang=de|audio=LL-Q188 (deu)-Natschoba-Belgien.wav}}
+
+==== {{S|sources}} ====
+* {{R:Duden|Belgien}}
+* {{R:DWDS|Belgien}}
+* {{Source-wikt|de|Abiturient}}
+
+==== {{S|bibliographie}} ====
+* Larousse - Dictionnaire allemand/français – français/allemand , éd. 1958, p 406.
+* Harrap’s – Bordas Dictionnaire allemand/français, éd. 1997, p 47.
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=de}}
+
+=== {{S|anagrammes}} ===
+{{voir anagrammes|de}}
+
+[[Catégorie:Pays d’Europe en allemand]]
+[[Catégorie:Belgique en allemand|*]]
+
+== {{langue|nds}} ==
+=== {{S|étymologie}} ===
+:Du {{étyl|la|nds}} [[Belgia]].
+
+=== {{S|nom propre|nds}} ===
+'''Belgien'''
+# [[Belgique]], pays d'Europe.
+
+[[Catégorie:Belgique en bas allemand|*]]
+[[Catégorie:Pays d’Europe en bas allemand]]
+
+== {{langue|da}} ==
+=== {{S|étymologie}} ===
+:Du {{étyl|la|da}} [[Belgia]].
+
+=== {{S|nom propre|da}} ===
+'''Belgien'''
+# [[Belgique]], pays d'Europe.
+
+[[Catégorie:Belgique en danois|*]]
+[[Catégorie:Pays d’Europe en danois]]
+
+== {{langue|ksh}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym |ksh}}
+
+=== {{S|nom propre|ksh}} ===
+'''Belgien''' {{pron||ksh}}
+# {{pays|ksh}} [[Belgique]].
+#* {{exemple | lang=ksh
+ | Em Meddelallder wooh Kölle noh Bewonner de jrüüßte Shtadd en Europa.
+ | source={{WP|Kölle|lang=ksh}}}}
+
+=== {{S|références}} ===
+* {{WP|lang=ksh}}
+
+[[Catégorie:Europe en francique ripuaire]]
+
+== {{langue|sv}} ==
+=== {{S|étymologie}} ===
+:Du {{étyl|la|sv}} [[Belgia]].
+
+=== {{S|nom propre|sv}} ===
+'''Belgien'''
+# [[Belgique]], pays d'Europe.
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=sv|Suède <!-- précisez svp la ville ou la région -->||audio=Sv-Belgien.ogg}}
+
+[[Catégorie:Pays d’Europe en suédois]]
+[[Catégorie:Belgique en suédois|*]]

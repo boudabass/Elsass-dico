@@ -1,0 +1,19 @@
+== {{langue|gsw}} ==
+{{ébauche|gsw}}
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw}}
+
+=== {{S|nom|gsw}} ===
+'''Kugelhùpf''' {{pron|ɡ̈uɡ̈l̩.hub̤͡f|gsw}}, {{pron|ɡ̈uɡ̈l̩.hʊb̤͡f|gsw}} (accentué)
+# [[kougelhopf#fr|Kougelhopf]].
+#* {{exemple|lang=gsw}}
+
+==== {{S|vocabulaire}} ====
+{{thématique|gâteaux|gsw}}
+
+==== {{S|dérivés autres langues}} ====
+* {{L|fr}} : {{lien|kougelhopf|fr}}
+
+=== {{S|prononciation}} ===
+{{ébauche-pron-audio|gsw}}

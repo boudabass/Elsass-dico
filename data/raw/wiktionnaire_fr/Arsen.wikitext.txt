@@ -1,0 +1,68 @@
+{{voir|arsen}}
+
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw}}
+
+=== {{S|nom|gsw}} ===
+'''Arsen''' {{pron||gsw}}
+# {{éléments|gsw}} [[arsenic|Arsenic]].
+{{clr}}
+==== {{S|vocabulaire}} ====
+{{tableau périodique/gsw}}
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|de}}
+
+=== {{S|nom|de}} ===
+{{de-nom-n|sing=oui}}
+{{légende élément/de|As}}
+[[Image:Arsen_1a.jpg|thumb|'''Arsenic'''. (1)]]
+'''Arsen''' {{pron|aʁˈzeːn|de}} {{n}}
+# {{éléments|de}} [[arsenic#fr|Arsenic]] (l’{{lien|élément chimique}} [[As#conv|As]]).
+#* {{exemple|Carl Wilhelm Scheele entdeckt also durch seine Experimente mit '''Arsen''' und Kupfer ein wirtschaftlich vielversprechendes Produkt. Aber auf die Idee, es zu vermarkten kommt er nicht.|lang=de|sens=Carl Wilhelm Scheele découvre donc, grâce à ses expériences avec l’arsenic et le cuivre, un produit économiquement prometteur. Mais l’idée de le commercialiser ne lui vient pas.|source={{périodique|auteur=Vera Pache|titre=Eine giftige Farbe erobert die Welt|journal=Deutschlandfunk Nova|date=20 avril 2018|texte=https://www.deutschlandfunknova.de/beitrag/geschichte-farben-scheeles-gruen-und-schweinfurter-gruen}}}}
+
+==== {{S|dérivés}} ====
+* {{lien|Arsenid|de}}
+* {{lien|Arsenpolymer|de}}
+* {{lien|Arsentrioxid|de}}, {{lien|Arsen(III)-oxid|de}}
+* {{lien|Arsenverbindung|de}}
+{{clr}}
+==== {{S|vocabulaire}} ====
+* {{voir thésaurus|de|tableau périodique des éléments}}
+{{tableau périodique/de}}
+{{Liste|avant={{lien|Germanium|de}}<br>([[Ge#conv|Ge]])|après={{lien|Selen|de}}<br>([[Se#conv|Se]])|liste=[[Thésaurus:tableau périodique des éléments/allemand|Éléments chimiques en allemand]]}}
+
+=== {{S|prononciation}} ===
+* {{pron|aʁˈzeːn|de}}
+* {{écouter|Vienne|aʁˈzeːn|lang=de|audio=De-at-Arsen.ogg}}
+* {{écouter|Berlin|aʁˈzeːn|lang=de|audio=De-Arsen.ogg}}
+* {{écouter|{{DE|nocat=1}}|aʁˈzeːn|lang=de|audio=LL-Q188 (deu)-Lucas Werkmeister-Arsen.wav}}
+* {{écouter|Berlin|aʁˈzeːn|lang=de|audio=LL-Q188 (deu)-Sebastian Wallroth-Arsen.wav}}
+* {{écouter||aʁˈzeːn|lang=de|audio=LL-Q188 (deu)-Michael Schoenitzer (MichaelSchoenitzer)-Arsen.wav}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=de}}
+
+== {{langue|lb}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|lb}}
+
+=== {{S|nom|lb}} ===
+{{lb-inv|ɑʀzˈeːn}}
+'''Arsen''' {{pron|ɑʀzˈeːn|lb}} {{m}}, {{au singulier uniquement|lb}}
+# {{éléments|lb}} [[arsenic#fr|Arsenic]].
+#* {{exemple|lang=lb}}
+{{clr}}
+==== {{S|vocabulaire}} ====
+{{tableau périodique/lb}}
+
+=== {{S|prononciation}} ===
+* {{écouter|Angers (France)||niveau=bon|lang=lb|audio=LL-Q9051 (ltz)-Procrastineur49-Arsen.wav}}
+
+=== {{S|références}} ===
+: {{R:LOD}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=lb}}

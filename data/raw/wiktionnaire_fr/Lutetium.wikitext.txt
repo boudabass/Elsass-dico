@@ -1,0 +1,65 @@
+{{voir/lutetium}}
+
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw}}
+
+=== {{S|nom|gsw}} ===
+'''Lutetium''' {{pron||gsw}} {{genre|gsw}}
+# {{éléments|gsw}} {{métaux|gsw}} [[lutécium#fr|Lutécium]].
+{{clr}}
+==== {{S|vocabulaire}} ====
+{{tableau périodique/gsw}}
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|de}} ''[[Lutetia]]'', ancien nom de [[Paris]].
+
+=== {{S|nom|de}} ===
+{{légende élément/de|Lu|Cp}}
+[[Image:Lutetium_sublimed_dendritic_and_1cm3_cube.jpg|thumb|'''Lutetium'''.]]
+'''Lutetium''' {{pron|luˈteːtsi̯ʊm|de}} {{n}} ({{p}}: '''—''' )
+# {{éléments|de}} {{métaux|de}} ''(nomenclature [[UICPA]])'' [[lutécium#fr|Lutécium]] (l’{{lien|élément chimique}} [[Lu#conv|Lu]]).
+#* {{exemple | lang=de | '''Lutetium''' kommt in der Natur nur in Verbindungen vor.}}
+
+==== {{S|synonymes}} ====
+* {{lien|Cassiopeium|de}} {{désuet|nocat=1}}
+
+==== {{S|dérivés}} ====
+* {{lien|Lutetium(III)-fluorid|de}}
+* {{lien|Lutetium(III)-oxid|de}}
+* {{lien|Lutetiumoxyorthosilicat|de}}
+* {{lien|Lutetiumtantalat|de}}
+* {{lien|Lutetiumverbindung|de}}
+{{clr}}
+==== {{S|vocabulaire}} ====
+* {{voir thésaurus|de|tableau périodique des éléments}}
+{{tableau périodique/de}}
+{{Liste|avant={{lien|Ytterbium|de}}<br>([[Yb#conv|Yb]])|après={{lien|Hafnium|de}}<br>([[Hf#conv|Hf]])|liste=[[Thésaurus:tableau périodique des éléments/allemand|Éléments chimiques en allemand]]}}
+
+=== {{S|prononciation}} ===
+* {{pron|luˈteːtsi̯ʊm|de}}
+* {{écouter|lang=de|Allemagne (Berlin)|audio=LL-Q188 (deu)-Lucas Werkmeister-Lutetium.wav}}
+* {{écouter|lang=de|Allemagne (Berlin)|audio=LL-Q188 (deu)-Sebastian Wallroth-Lutetium.wav}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=de}}
+
+== {{langue|lb}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|lb}}
+
+=== {{S|nom|lb}} ===
+{{lb-inv|lutˈeːtsi̯um}}
+'''Lutetium''' {{pron|lutˈeːtsi̯um|lb}} {{m}}, {{au singulier uniquement|lb}}
+# {{éléments|lb}} {{métaux|lb}} [[lutécium#fr|Lutécium]].
+#* {{exemple|lang=lb}}
+{{clr}}
+==== {{S|vocabulaire}} ====
+{{tableau périodique/lb}}
+
+=== {{S|références}} ===
+: {{R:LOD}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=lb}}

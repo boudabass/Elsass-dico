@@ -1,0 +1,74 @@
+{{voir/meter}}
+
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|fr|gsw|mot=mètre}}.
+
+=== {{S|nom|gsw}} ===
+'''Meter''' {{pron||gsw}}
+# {{info lex|métrologie}} [[mètre|Mètre]].
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=gsw}}
+[[Catégorie:Unités de mesure en alémanique]]
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|fr|de|mot=mètre}}. <ref>{{R:DWDS|Meter}}</ref>
+
+=== {{S|nom|de}} ===
+{{de-nom-m-er|ˈmetɐ}}
+[[Fichier:Mètre étalon (36, rue de Vaugirard, Paris).jpg|vignette|genau ein '''Meter''' - ''exactement un mètre'']]
+'''Meter''' {{pron|ˈmeːtɐ|de}} {{m}} ou (rarement) {{n}}
+# {{unités|de|de longueur}} [[mètre|Mètre]], [[unité de mesure]].
+#* {{exemple|Die Siegerin des Marathons hat sich total verausgabt. Wenige '''Meter''' nach der Ziellinie ist sie zusammengebrochen.|lang=de|sens=La vainqueuse du marathon s’est totalement épuisée. Quelques mètres après la ligne d’arrivée, elle s’est effondrée.}}
+#* {{exemple|Kalt, nass und zugig ist es auf dem Gerüst am Südturm des Domes St. Peter in Regensburg. Bis in den Spätherbst hinein sind die Steinmetze der Dombauhütte in bis zu 75 '''Meter'''n Höhe mit Ausbesserungen an der Kathedrale beschäftigt.|lang=de|sens=Il fait froid, humide et il y a des courants d'air sur l’échafaudage de la tour sud de la cathédrale Saint-Pierre de Ratisbonne. Jusqu’à la fin de l’automne, les tailleurs de pierre de l’atelier de construction de la cathédrale sont occupés à des réparations sur la cathédrale, jusqu’à 75 mètres de hauteur.|source={{périodique|auteur=(SZ/DPA/kaa)|titre=Regensburg: Die immerwährende Baustelle|journal=Süddeutsche Zeitung|date=1 décembre 2023|texte=https://www.sueddeutsche.de/bayern/regensburg-dombauhuette-jubilaeum-100-jahre-1.6312709}}}}
+#* {{exemple|Der US-amerikanische Yellowstone-Nationalpark ist bekannt für seine Geysire, insbesondere Old Faithful. Dieser speit alle 90 Minuten eine etwa 40 '''Meter''' hohe Wassersäule in den Himmel.|lang=de|sens=Le parc national américain de Yellowstone est connu pour ses geysers, notamment Old Faithful. Toutes les 90 minutes, il projette dans le ciel une colonne d’eau d’environ 40 mètres de haut.|source={{périodique|auteur=Marlene Erhart|titre=Hydrothermale Explosion schlägt Besucher im Yellowstone-Nationalpark in die Flucht|journal=Der Standard|date=24 juillet 2024|texte=https://www.derstandard.at/story/3000000229662/hydrothermale-explosion-schlaegt-besucher-im-yellowstone-nationalpark-in-die-flucht}}}}
+#* {{exemple|Der zweite Wettkampftag der Deutschen Meisterschaften in Berlin hat begonnen und bereits im ersten Wettkampf bewies Melvin Imoudu seine starke Form über 100 '''Meter''' Brust.|lang=de|sens=La deuxième journée de compétition des championnats d'Allemagne à Berlin a commencé et dès la première épreuve, Melvin Imoudu a démontré sa grande forme sur 100 mètres brasse.|source={{périodique|auteur=Jule Radeck|titre=100 Meter Brust | Imoudu schwimmt als Schnellster ins Finale|journal=SWIM.de|date=26 avril 2024|texte=https://swim.de/aktuell/100-meter-brust-imoudu-schwimmt-als-schnellster-ins-finale/}}}}
+#* {{exemple|Der Sūryayā Tower ist eines der ehrgeizigsten Projekte, die das Büro Vannier & Edelman an Land gezogen hat, eine Demonstration von Know-how und Ästhetik: ein achtzig '''Meter''' hohes Gebäude aus Glas und Bambus, das an den strategischen Punkten durch lange Stahlstreben verstärkt wird.|lang=de|sens=La Sūryayā Tower est un des plus ambitieux projets remportés par le cabinet Vannier & Edelman, une démonstration de savoir-faire et d’esthétique : un building de verre et de bambou de quatre-vingts mètres, renforcé aux points stratégiques par de longues lignes d’acier.|source={{ouvrage|auteur={{w|Hervé Le Tellier}}|trad=Romy Ritte et Jürgen Ritte|titre=Die Anomalie|année=2021|éditeur=Rowohlt Verlag|lieu=Hamburg|url=}}}}
+
+==== {{S|notes}} ====
+* '''Unité de mesure, genre'''. Bien que la forme neutre soit parfois usitée, le masculin est dominant dans le langage courant, et désormais aussi la norme officielle (cf. {{W|Meter#Sprachgebrauch|article Wikipédia|lang=de}}).
+* '''Instruments de mesure, genre'''. Comme en français, il existe aussi un suffixe {{lien|-meter|de|sens=[[-mètre]]}} pour former des noms désignant des [[instrument de mesure|instruments de mesure]]. Contrairement à l’unité, ces noms sont alors de genre neutre.
+
+==== {{S|dérivés}} ====
+{{(}}
+* {{lien|Elfmeter|de}}
+* {{lien|Hodometer|de}}
+* {{lien|Kubikmeter|de}}
+{{)}}
+
+==== {{S|phrases}} ====
+* {{lien|am laufenden Meter|de}}
+
+==== {{S|hyperonymes}} ====
+* {{lien|Längeneinheit|de}}
+
+==== {{S|hyponymes}} ====
+* {{lien|Höhenmeter|de}}
+* {{lien|Urmeter|de}}
+
+==== {{S|holonymes}} ====
+* {{lien|Myriameter|de}}
+** {{lien|Kilometer|de}}
+*** {{lien|Hektometer|de}}
+**** {{lien|Dekameter|de}}
+
+==== {{S|méronymes}} ====
+* {{lien|Zentimeter|de}}
+** {{lien|Millimeter|de}}
+*** {{lien|Mikrometer|de}}
+**** {{lien|Nanometer|de}}
+
+=== {{S|prononciation}} ===
+* {{écouter|Vienne (Autriche)|ˈmeːtɐ|lang=de|audio=De-at-Meter.ogg}}
+* {{écouter|Berlin (Allemagne)|ˈmeːtɐ|lang=de|audio=De-Meter.ogg}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=de}}
+
+=== {{S|références}} ===
+{{Références}}
+* {{R:Duden|Meter}}
+
+{{Bonne entrée|allemand}}

@@ -1,0 +1,19 @@
+{{voir|Winkel}}
+
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+# Du vieil haut allemand ''[[winkil]]'', du proto-germanique ''[[*winkilaz]]'' (''angle'', ''coin''), du proto-indo-européen ''[[*weng-]]'' (''arquer'', ''tordre'', ''courber'', ''fléchir'', ''incurver'', ''plier'', ''ployer''). Comparez l’allemand ''[[Winkel]]'', le danois ''[[winkel]]'', le vieil anglais ''[[wincel]]''.
+# ''(Commune du Haut-Rhin, France)'' {{date|lang=gsw}} {{refnec|lang=fr|Probablement du {{étyl|la|fr}} ''[[vinum#la|vini]] [[cella#la|cellae]]'' (« caves à vin »), du nom des caves à vin ''Vini Cellae'' que le couvent de [[Lucelle]] avait implantées dans le village. Le nom de Winchelein apparait en 1146. Une étymologie plus en adéquation avec la graphie actuelle est '''''Wìnkel''''', directement tirée du mot alsacien et dont une définition est « coin, recoin ou région isolée ou circonscrite par des limites naturelles ».}}
+
+=== {{S|nom|gsw}} ===
+'''Wìnkel''' {{pron|veŋɡ̈l̩|gsw}}, {{pron|vɪŋɡ̈l̩|gsw}} (accentué) {{m}}
+# Angle, angle droit.
+#* {{exemple | lang=gsw
+ | Ìm '''Wìnkel''' sì.
+ | Être à angle droit.}}
+# Triangle, équerre.
+# Coin, recoin, région isolée ou circonscrite par des limites naturelles.
+
+=== {{S|nom propre|gsw}} ===
+'''Wìnkel''' {{pron|veŋɡ̈l̩|gsw}}, {{pron|vɪŋɡ̈l̩|gsw}} (accentué)
+# {{localités|gsw|de France}} [[commune|Commune]] [[français]]e, située dans le département du [[Haut-Rhin]].

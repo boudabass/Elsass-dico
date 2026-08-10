@@ -1,0 +1,115 @@
+{{voir|Rússland|Rüsslànd}}
+
+== {{langue|gsw}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étyl|de|gsw|mot=Russland}}.
+
+=== {{S|nom propre|gsw}} ===
+'''Russland'''
+# {{pays|gsw}} {{lien|Russie|fr}}.
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: {{composé de|Russe|Land|sens=pays des Russes|lang=de|m=1}}.
+
+=== {{S|nom propre|de}} ===
+{{de-nom-n|sing=oui|rʊs.lant}}
+'''Russland''' {{pron|rʊs.lant|de}} {{n}}
+# {{pays|de|d’Asie|d’Europe}} {{lien|Russie|fr}}.
+#* {{exemple|Die Hauptstadt '''Russland'''s ist Moskau.|lang=de|sens=La capitale de la Russie est Moscou.}}
+#* {{exemple|Der polnische Ministerpräsident Mateusz Morawiecki sagte: "Wolodymyr Selenskyj ist im internationalen Vergleich die herausragendste Führungspersönlichkeit des 21. Jahrhunderts." Ohne seinen heldenhaften Einsatz würde die EU nun eine sehr lange Grenze mit '''Russland''' teilen.|lang=de|sens=Le Premier ministre polonais Mateusz Morawiecki a déclaré : "Volodymyr Selenskyj est, en comparaison internationale, le leader le plus remarquable du 21e siècle". Sans son engagement héroïque, l'UE partagerait désormais une très longue frontière avec la Russie.|source={{périodique|auteur=Zeit Online, dpa, edd|titre=Scholz würdigt bei Karlspreis-Verleihung Freiheitswillen der Ukraine|journal=Die Zeit|date=14 mai 2023|texte=https://www.zeit.de/politik/2023-05/karlspreis-wolodymyr-selenskyj-livestream}}}}
+#* {{exemple|Der Ex-US-Präsident (Trump) dementiert Berichte des britischen Geheimdienstes, wonach er an Orgien mit Prostituierten in '''Russland''' teilgenommen habe.|lang=de|sens=L'ex-président américain dément les informations des services secrets britanniques selon lesquelles il aurait participé à des orgies avec des prostituées en Russie.|source={{périodique|auteur=(SZ/dpa/gut/skp)|titre=Donald Trump scheitert mit Klage wegen Sex-Party-Dossiers|journal=taz Süddeutsche Zeitung RedaktionsNetzwerk Deutschland|date=1 février 2024|texte=https://www.sueddeutsche.de/politik/trump-klage-sex-partys-russland-london-britischer-geheimdienst-1.6342716}}}}
+# {{par extension|de}} [[Union des républiques socialistes soviétiques]].
+#* {{exemple|Kann es ein, dass die USA einem Staat trotz harter politischer Konflikte mit dessen Regierung einen auf den Schutz unschuldiger Zivilisten zielenden Tipp geben? Nach der Logik Putins ist das unmöglich. So etwas wie eine über alle politischen Streitigkeiten erhabene Menschlichkeit gibt es nicht im Denken dieses Machthabers. Da tickt Putin wie die Tschekisten, Lenins geheime Sondertruppen zur Ausschaltung Oppositioneller, die ab dem Jahr 1917 in '''Russland''' ihr Unwesen trieben.|lang=de|sens=Est-il possible que les Etats-Unis donnent une astuce à un Etat visant à protéger des civils innocents, malgré des conflits politiques durs avec son gouvernement ? Selon la logique de Poutine, c'est impossible. Il n'y a rien de tel qu'une humanité au-dessus de toutes les querelles politiques dans la pensée de ce dirigeant. Poutine fonctionne comme les tchékistes, les troupes spéciales secrètes de Lénine chargées d'éliminer les opposants, qui ont sévi en Russie à partir de 1917.|source={{périodique|auteur=Matthias Koch|titre=Putins scheinheilige Suche nach dem Sündenbock|journal=RedaktionsNetzwerk Deutschland|date=23 mars 2024|texte=https://www.rnd.de/politik/terror-in-moskau-putins-scheinheilige-suche-nach-dem-suendenbock-VZ4BKXRPV5EUNFOM6WFPTHKLIU.html}}}}
+
+==== {{S|variantes}} ====
+* {{lien|Rußland|de}}
+
+==== {{S|dérivés}} ====
+* {{lien|Russländer|de}}
+* {{lien|russländisch|de}}
+
+==== {{S|apparentés}} ====
+* {{lien|russisch|de}}
+
+==== {{S|hyperonymes}} ====
+* [[Europa]]
+* [[Staat]]
+* [[Asien]]
+
+==== {{S|vocabulaire}} ====
+* {{term|avant 1991}} {{lien|Union der Sozialistischen Sowjetrepubliken|de}}
+
+=== {{S|prononciation}} ===
+* {{écouter|Berlin|ˈʁʊslant|lang=de|audio=De-Russland2.ogg}}
+* {{écouter||ˈʁʊslant|lang=de|audio=De-Russland.ogg}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=de}}
+
+[[Catégorie:Russie en allemand|*]]
+
+== {{langue|nds}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étyl|de|nds|mot=Russland}}.
+
+=== {{S|nom propre|nds}} ===
+'''Russland''' {{pron||nds}}
+# {{pays|nds|d’Asie|d’Europe}} {{lien|Russie|fr}}.
+
+== {{langue|fo}} ==
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|fo}}
+
+=== {{S|nom propre|fo}} ===
+'''Russland'''
+# {{pays|fo|d’Asie|d’Europe}} {{lien|Russie|fr}}.
+
+== {{langue|lb}} ==
+=== {{S|étymologie}} ===
+: Mot {{composé de|lang=lb|Russ|Land|sens1=Russe|sens2=pays|sens=pays des Russes}}.
+
+=== {{S|nom propre|lb}} ===
+{{lb-inv|ʀˈuslɑnt|inv_titre=Nom propre}}
+'''Russland''' {{pron|ʀˈuslɑnt|lb}} {{n}}
+# {{pays|lb|d’Asie|d’Europe|pays=Russie|clé=*}} {{lien|Russie|fr}}.
+#* {{exemple|lang=lb}}
+
+==== {{S|gentilés}} ====
+* {{lien|Russ|lb|sens=Russe}} au masculin, {{lien|Russin|lb|sens=Russe}} au féminin
+* {{lien|russesch|lb|sens=russe}}
+
+=== {{S|prononciation}} ===
+* {{pron|ʀˈuslɑnt|lb}}
+* {{écouter|Luxembourg|ʀˈuslɑnt|lang=lb|audio=Lb-Russland.ogg}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=lb}}
+
+=== {{S|références}} ===
+: {{R:LOD}}
+
+== {{langue|no}} ==
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|no}}
+
+=== {{S|nom propre|no}} ===
+'''Russland'''
+# {{pays|no|d’Asie|d’Europe}} {{lien|Russie|fr}}.
+
+[[Catégorie:Russie en norvégien|*]]
+
+== {{langue|nn}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étyl|no|nn|mot=Russland}}.
+
+=== {{S|nom propre|nn}} ===
+'''Russland'''
+# {{pays|nn|d’Asie|d’Europe}} {{lien|Russie|fr}}.
+
+[[Catégorie:Russie en norvégien (nynorsk)|*]]

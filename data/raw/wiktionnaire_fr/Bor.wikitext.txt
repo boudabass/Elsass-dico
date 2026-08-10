@@ -1,0 +1,113 @@
+{{voir/bor}}
+== {{langue|fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|fr}}
+
+=== {{S|nom propre|fr}} ===
+{{fr-inv|bɔʁ}}
+'''Bor''' {{pron|bɔʁ|fr}} {{m}}
+# {{divinités|fr|nordiques}} Dieu des temps anciens dans la mythologie nordique, fils de [[Búri]] et père d’[[Odin]].
+
+==== {{S|variantes orthographiques}} ====
+* [[Börr]]
+
+==== {{S|variantes}} ====
+* [[Bur]]
+
+==== {{S|synonymes}} ====
+* [[Mannus]]
+
+==== {{S|traductions}} ====
+{{trad-début}}
+{{trad-fin}}
+
+=== {{S|nom de famille|fr}} ===
+{{fr-inv|bɔʁ|inv_titre=Nom de famille}}
+'''Bor''' {{pron|bɔʁ|fr}}
+# Nom de famille.
+#* {{exemple|lang=fr}}
+
+=== {{S|anagrammes}} ===
+{{voir anagrammes|fr}}
+
+=== {{S|voir aussi}} ===
+*{{WP}}
+
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw}}
+
+=== {{S|nom|gsw}} ===
+'''Bor''' {{pron||gsw}}
+# {{éléments|gsw}} [[bore|Bore]].
+{{clr}}
+==== {{S|vocabulaire}} ====
+{{tableau périodique/gsw}}
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|de}}
+
+=== {{S|nom|de}} ===
+{{légende élément/de|B}}
+'''Bor''' {{pron|boɐ̯|de}} {{n}} {{s}}
+# {{éléments|de}} [[bore#fr|Bore]] (l’{{lien|élément chimique}} [[B#conv|B]]).
+
+==== {{S|dérivés}} ====
+* {{lien|Borsäure|de}}
+* {{lien|Borwasser|de}}
+* {{lien|Perborat|de}}
+
+==== {{S|vocabulaire}} ====
+* {{voir thésaurus|de|tableau périodique des éléments}}
+{{tableau périodique/de}}
+{{Liste|avant={{lien|Beryllium|de}}<br>([[Be#conv|Be]])|après={{lien|Kohlenstoff|de}} ou {{lien|Carbon|de}}<br>([[C#conv|C]])|liste=[[Thésaurus:tableau périodique des éléments/allemand|Éléments chimiques en allemand]]}}
+
+=== {{S|prononciation}} ===
+* {{pron|boːɐ̯|de}}
+* {{écouter|lang=de|{{AT|nocat=1}}|audio=De-at-Bor.ogg}}
+* {{écouter||boɐ̯|lang=de|audio=De-Bor.ogg}}
+* {{écouter|lang=de|Allemagne (Berlin)|audio=LL-Q188 (deu)-Lucas Werkmeister-Bor.wav}}
+* {{écouter|lang=de|Allemagne (Berlin)|audio=LL-Q188 (deu)-Sebastian Wallroth-Bor.wav}}
+* {{écouter|lang=de|Allemagne (Munich)||audio=LL-Q188 (deu)-Michael Schoenitzer (MichaelSchoenitzer)-Bor.wav}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=de}}
+
+== {{langue|lb}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|lb}}
+
+=== {{S|nom|lb}} ===
+{{lb-inv|boːʀ}}
+'''Bor''' {{pron|boːʀ|lb}} {{m}}, {{au singulier uniquement|lb}}
+# {{éléments|lb}} [[bore#fr|Bore]].
+#* {{exemple|lang=lb}}
+{{clr}}
+==== {{S|vocabulaire}} ====
+{{tableau périodique/lb}}
+
+=== {{S|références}} ===
+: {{R:LOD}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=lb}}
+
+== {{langue|sl}} ==
+=== {{S|étymologie}} ===
+: Diminutif de ''[[Boris#sl|Boris]]''.
+
+=== {{S|nom de famille|sl}} ===
+{{sl-décl-nmm|Bor|ani=oui}}
+'''Bor''' {{pron||sl}}
+# [[nom de famille|Nom de famille]] [[slovène]].
+
+=== {{S|prénom|sl|genre=m}} ===
+{{sl-décl-nmd|Bor|ani=oui}}
+'''Bor''' {{pron||sl}} {{m|a}}
+# [[prénom|Prénom]] [[masculin]] slovène, diminutif de [[Boris#sl|Boris]].
+
+=== {{S|prénom|sl|flexion}} ===
+'''Bor''' {{pron||sl}} {{f}}
+# ''Génitif duel de'' [[Bora#sl|Bora]].
+# ''Génitif pluriel de'' Bora.

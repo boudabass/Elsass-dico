@@ -1,0 +1,115 @@
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: Nom du canton [[Schwyz]] généralisé pour toute la Suisse (sens 1).
+: Paysages montagneux qui évoquent une association avec la Suisse (sens 2).
+
+=== {{S|nom propre|de}} ===
+{{de-nom-f-en|ns=Schweiz}}
+[[Image:LocationSwitzerland.png|thumb|Lage der '''Schweiz''' in Europa - localisation de la Suisse en Europe]]
+'''Schweiz''' {{pron|ʃvaɪ̯t͡s|de}} {{f}}
+# {{au singulier}} {{lexique|toponymie|de}} [[Suisse]], pays d’Europe.
+#* {{exemple | lang=de | Die Hauptstadt der '''Schweiz''' ist Bern. | sens=Berne est la capitale de la Suisse.''}}
+#* {{exemple|Russland wirft der '''Schweiz''' vor, ihre Neutralität verloren zu haben, indem sie aufgrund des Ukraine-Kriegs den westlichen Sanktionen angeschlossen hat.|lang=de|sens=La Russie reproche à la Suisse d’avoir perdu sa neutralité en adhérant aux sanctions occidentales en raison de la guerre en Ukraine.|source={{périodique|auteur=|titre=Putin trifft Erdoğan und Raisi: Diesmal spielt die Musik in Teheran|journal=Der Standard|date=19 juillet 2022|texte=https://www.derstandard.at/story/2000137593640/putin-trifft-erdogan-und-raisi-diesmal-spielt-die-musik-in}}}}
+#* {{exemple|Sowohl im Binnen- als auch im Import- und Exportverkehr wird rund ein Viertel der gesamten Gütertransportleistung auf der Schiene bewältigt. Damit ist die Bahn für die Versorgung innerhalb der '''Schweiz''' und für den Austausch mit dem Ausland von grosser Bedeutung.|lang=de|sens=Environ un quart des prestations globales de transport des marchandises en import-export et en trafic intérieur emprunte le rail. Ainsi, le rail revêt une grande importance pour l’approvisionnement interne à la Suisse et pour les échanges avec l’étranger.|source={{périodique|auteur=|titre=Rahmenbedingungen für einen starken Export-, Import- und Binnengüterverkehr|journal=Bundesamt für Verkehr|date=19 février 2024|texte=https://www.bav.admin.ch/bav/de/home/verkehrsmittel/eisenbahn/gueterverkehr/schienengueterverkehr-in-der-flaeche.html}}}}
+#* {{exemple|«Und lebt in der '''Schweiz'''?»<br />«Er besitzt die Klinik Sonnenstein auf dem Zürichberg», antwortete der Arzt. (....)  Eines der teuersten Spitäler der '''Schweiz'''», fügte er leise hinzu.<br />«Nur für Reiche?»<br />«Nur für Schwerreiche.|lang=de|sens=— Et qui vit en Suisse ?<br />— Il est propriétaire de la clinique Sonnenstein, sur le Zurichberg. (...) C’est un des établissements les plus chers de toute la Suisse, ajouta le vieux docteur dans un souffle.<br />— Pour riches exclusivement ?<br />— Exclusivement pour les très grosses fortunes.|source={{ouvrage|auteur={{w|Friedrich Dürrenmatt}}|trad=Armel Guerne|titre=Der Verdacht|année=1961|éditeur=Verlagsanstalt Benziger & Co. AG.|lieu=Zürich|url=}}}}
+#* {{exemple|Gesegnet mit Landschaften von atemberaubender Schönheit, hat die '''Schweiz''' mein Bild von der Welt, von den Menschen und von der Geschichte zutiefst geprägt. Als Brutstätte des Verbrechens stellt sie mich vor ein Rätsel.|lang=de|sens=Terre aux paysages stupéfiants de beauté, la Suisse a profondément façonné ma vision du monde, des hommes et de l’histoire. En tant que foyer du crime, elle constitue pour moi une énigme.|source={{ouvrage|auteur={{w|Jean Ziegler}}|trad=Friedrich Griese et Thorsten Schmidt|titre=Die Schweiz wäscht weisser|année=1990|éditeur=Piper|lieu=München et Zürich|url=}}}}
+# Partie de noms de régions avec du paysage montagneux.
+#* {{exemple|Die Sächsische '''Schweiz''' ist für ihre erstaunlichen Felsformationen bekannt.|lang=de|sens=La Suisse saxonne est connue pour ses étonnantes formations rocheuses.}}
+
+==== {{S|synonymes}} ====
+* {{lien|Helvetia|de}}
+* {{lien|Schweizerische Eidgenossenschaft|de}}
+
+==== {{S|hyperonymes}} ====
+* {{lien|Staat|de}}
+
+==== {{S|hyponymes}} ====
+{{(|}}
+* {{lien|Deutschschweiz|de}}
+* {{lien|Innerschweiz|de}}
+* {{lien|Nordwestschweiz|de}}
+* {{lien|Ostschweiz|de}}
+* {{lien|Südostschweiz|de}}
+* {{lien|Westschweiz|de}}
+* {{lien|Zentralschweiz|de}}
+{{)}}
+{{(|}}
+* {{lien|Böhmische Schweiz|de}}
+* {{lien|Fränkische Schweiz|de}}
+* {{lien|Mecklenburgische Schweiz|de}}
+* {{lien|Sächsische Schweiz|de}}
+{{)}}
+
+==== {{S|dérivés}} ====
+{{(}}
+* {{lien|Deutschschweizer|de}} ou {{lien|Deutschschweizerin|de}}
+* {{lien|Innerschweizer|de}} ou {{lien|Innerschweizerin|de}}
+* {{lien|Nordwestschweizer|de}} ou {{lien|Nordwestschweizerin|de}}
+* {{lien|Ostschweizer|de}} ou {{lien|Ostschweizerin|de}}
+* {{lien|Schweizer|de}} ou {{lien|Schweizerin|de}}
+* {{lien|Schweizergarde|de}}
+* {{lien|schweizerisch|de}}
+* {{lien|Schweizerpsalm|de}}
+* {{lien|Schweizerkreuz|de}}
+* {{lien|Schweizreise|de}}
+* {{lien|schweizweit|de}}
+* {{lien|Südostschweizer|de}} ou {{lien|Südostschweizerin|de}}
+* {{lien|Westschweizer|de}} ou {{lien|Westschweizerin|de}}
+* {{lien|Zentralschweizer|de}} ou {{lien|Zentralschweizerin|de}}
+{{)}}
+
+=== {{S|prononciation}} ===
+* {{écouter|{{DE|nocat=1}}|ʃvaɪ̯t͡s|lang=de|audio=De-Schweiz.ogg}}
+* {{écouter|Vienne (Autriche)|ʃvaɪ̯t͡s|lang=de|audio=De-at-Schweiz.ogg}}
+* {{écouter|{{DE|nocat=1}}|ʃvaɪ̯t͡s|lang=de|audio=LL-Q188 (deu)-Natschoba-Schweiz.wav}}
+* {{écouter|Berlin (Allemagne)|ʃvaɪ̯t͡s|lang=de|audio=De-Schweiz2.ogg}}
+* {{écouter|Remiremont (France)|ʃvaɪ̯t͡s|lang=de|audio=LL-Q188 (deu)-Mathieu Kappler-Schweiz.wav}}
+
+=== {{S|références}} ===
+* {{R:DWDS|Schweiz}}
+* {{R:Duden|Schweiz}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=de}}
+
+{{Bonne entrée|allemand}}
+
+[[Catégorie:Pays d’Europe en allemand]]
+[[Catégorie:Suisse en allemand|*]]
+
+== {{langue|gsw}} ==
+{{ébauche|gsw}}
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw}}
+
+=== {{S|nom propre|gsw}} ===
+'''Schweiz''' {{pron||gsw}}
+# [[Suisse]], pays d’Europe.
+
+[[Catégorie:Pays en alémanique]]
+
+== {{langue|da}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|da}}
+
+=== {{S|nom propre|da}} ===
+'''Schweiz''' {{pron||da}}
+# [[Suisse]], pays d’Europe.
+
+[[Catégorie:Pays d’Europe en danois]]
+[[Catégorie:Suisse en danois|*]]
+
+== {{langue|sv}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|sv}}
+
+=== {{S|nom propre|sv}} ===
+'''Schweiz''' {{pron||sv}}
+# [[Suisse]], pays d’Europe.
+
+=== {{S|prononciation}} ===
+* {{écouter|Suède||lang=sv|audio=LL-Q9027 (swe)-Moonhouse-Schweiz.wav}}
+
+[[Catégorie:Pays d’Europe en suédois]]
+[[Catégorie:Suisse en suédois|*]]

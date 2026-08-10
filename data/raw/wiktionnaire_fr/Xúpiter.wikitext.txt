@@ -1,0 +1,10 @@
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw}}
+
+=== {{S|nom propre|gsw}} ===
+'''Xúpiter'''
+# [[Jupiter]].
+
+
+{{clé de tri|Xupiter}}

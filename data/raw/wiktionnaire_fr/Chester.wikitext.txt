@@ -1,0 +1,81 @@
+{{voir|chester|-chester}}
+== {{langue|fr}} ==
+=== {{S|étymologie}} ===
+: {{date|lang=fr}} De l’{{étylp|en|fr|Chester}}, dérivé du {{étylp|la|fr|mot=castrum}}.
+
+=== {{S|nom propre|fr}} ===
+'''Chester''' {{pron|ʃɛs.tɛʁ|fr}} {{m}}
+# {{localités|fr|d’Angleterre}} [[ville|Ville]] d’[[Angleterre]] située dans le district du [[Cheshire East]], et chef-lieu du comté historique du [[Cheshire]].
+# {{localités|fr|de Nouvelle-Écosse}} Ville du comté de Lunenburg, dans la province de [[Nouvelle-Écosse]], au [[Canada]].
+# {{localités|fr|des États-Unis}} Nom de plusieurs localités [[étasunien]]nes en [[Arkansas]], en [[Californie]], en [[Caroline du Sud]], en [[Géorgie]], en [[Pennsylvanie]], dans le [[Connecticut]], l'[[Illinois]], l'[[Iowa]], le [[Maine]], le [[Maryland]], le [[Montana]], le [[Nebraska]], le [[Massachusetts]], le [[Montana]], le [[New Hampshire]], le [[New Jersey]], le [[Vermont]].
+
+==== {{S|apparentés}} ====
+* [[Chestertown]]
+* [[Chesterville]]
+* [[Sainte-Hélène-de-Chester]]
+
+==== {{S|traductions}} ====
+{{trad-début}}
+* {{T|en}} : {{trad+|en|Chester}}
+* {{T|zh}} : {{trad-|zh|切斯特|tr=Qièsītè}}
+* {{T|ko}} : {{trad-|ko|체스터|tr=Cheseuteo}}
+* {{T|cy}} : {{trad-|cy|Caer}}
+* {{T|ja}} : {{trad-|ja|チェスター|tr=Chesutā}}
+* {{T|la}} : {{trad+|la|Deva}}
+* {{T|gv}} : {{trad-|gv|Shaayr|dif=yn Çhaayr}}
+{{trad-fin}}
+
+=== {{S|anagrammes}} ===
+{{voir anagrammes|fr}}
+
+=== {{S|voir aussi}} ===
+* {{WP}}
+* {{Vikidia}}
+
+[[Catégorie:Toponymes dont l’origine est une construction en français]]
+
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|en|gsw|mot=Chester}}.
+
+=== {{S|nom|gsw}} ===
+'''Chester''' {{pron||gsw}}
+# {{fromages|gsw}} [[chester#fr|Chester]] (fromage anglais).
+
+==== {{S|synonymes}} ====
+* [[Cheshire-Chääs]]
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|en|de|mot=Chester}}.
+
+=== {{S|nom|de}} ===
+'''Chester''' {{pron||de}}
+# {{fromages|de}} [[chester#fr|Chester]] (fromage anglais).
+
+==== {{S|synonymes}} ====
+* [[Cheshire]]
+* [[Chesterkäse]]
+
+== {{langue|en}} ==
+=== {{S|étymologie}} ===
+: Du {{étylp|la|en|mot=castra|sens=fortin}} {{cf|Castres|lang=fr}}. Doublet de ''[[Caistor]]''.
+
+=== {{S|nom propre|en}} ===
+'''Chester''' {{pron|ˈtʃɛs.tə|ˈtʃɛs.tə˞|en}}
+# {{localités|en|d’Angleterre}} [[ville|Ville]] d’[[Angleterre]] située dans le district du [[Cheshire East]].
+# {{localités|en|de Nouvelle-Écosse}} Ville du comté de Lunenburg, dans la province de [[Nouvelle-Écosse]], au [[Canada]].
+# {{localités|en|des États-Unis}} Nom de plusieurs localités [[étasunien]]nes en [[Arkansas]], en [[Californie]], en [[Caroline du Sud]], en [[Géorgie]], en [[Pennsylvanie]], dans le [[Connecticut]], l'[[Illinois]], l'[[Iowa]], le [[Maine]], le [[Maryland]], le [[Montana]], le [[Nebraska]], le [[Massachusetts]], le [[Montana]], le [[New Hampshire]], le [[New Jersey]], le [[Vermont]].
+
+==== {{S|gentilés}} ====
+* {{lien|Cestrian|cs}}
+
+=== {{S|prononciation}} ===
+* {{écouter|{{AU|nocat=1}}||lang=en|audio=En-au-Chester.ogg}}
+* {{écouter|lang=en|États-Unis (New Jersey)||audio=LL-Q1860 (eng)-Simplificationalizer-Chester.wav}}
+* {{écouter|lang=en|audio=En-Chester.oga}}
+* {{écouter|Royaume-Uni||lang=en|audio=LL-Q1860 (eng)-BigDom-Chester.wav}}
+=== {{S|voir aussi}} ===
+* {{WP|lang=en}}
+
+[[Catégorie:Toponymes dont l’origine est une construction en anglais]]

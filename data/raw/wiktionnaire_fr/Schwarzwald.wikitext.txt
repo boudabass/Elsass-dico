@@ -1,0 +1,134 @@
+== {{langue|gsw}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|gsw|mot=Schwarzwald}}.
+
+=== {{S|nom propre|gsw}} ===
+'''Schwarzwald''' {{pron||gsw}}
+# {{régions|gsw|d’Allemagne}} {{lien|Forêt-Noire|fr}}.
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: {{composé de|schwarz|sens1=noir|Wald|sens2=forêt|lang=de|m=1}}.
+
+=== {{S|nom propre|de}} ===
+{{de-nom-propre|genre=m|gs2=Schwarzwaldes}}
+'''Schwarzwald''' {{pron|ˈʃvaʁt͡svalt|de}} {{m}} {{au singulier uniquement|de}}
+# {{régions|de|d’Allemagne}} [[Forêt-Noire#fr|Forêt-Noire]], (massif montagneux situé dans le Sud-Ouest de l'Allemagne).
+#* {{exemple|Der '''Schwarzwald''' ist geprägt von jahrhundertealten Traditionen.|sens=La Forêt-Noire est caractérisée par des traditions séculaires.|lang=de}}
+#* {{exemple|Der '''Schwarzwald''' ist schön. Kennen Sie ihn?|sens=La Forêt-Noire est belle. La connaissez-vous ?|lang=de}}
+
+==== {{S|gentilés}} ====
+* [[Schwarzwälder]], [[Schwarzwälderin]]
+==== {{S|dérivés}} ====
+{{(}}
+* [[Hochschwarzwald]]
+* [[Schwarzwald-Baar-Kreis]] 
+* [[Schwarzwaldbahn]]
+* [[Schwarzwaldbahn]] 
+* [[Schwarzwälder]]
+* [[Schwarzwälderisch]]
+* [[Schwarzwäldertorte]] {{Suisse|nocat=1}}
+* [[Schwarzwaldhaus]] 
+* [[Schwarzwaldhochstraße]] 
+* [[Schwarzwaldklinik]] 
+* [[Schwarzwaldmädel]] 
+{{)}}
+==== {{S|hyperonymes}} ====
+* [[Gebirge]] (''montagne'')
+* [[Mittelgebirge]] (''moyenne montagne'')
+=== {{S|prononciation}} ===
+* {{écouter|lang=de||ˈʃvaʁt͡svalt|audio=De-Schwarzwald.ogg}}
+
+=== {{S|références}} ===
+<references />
+==== {{S|sources}} ====
+* {{R:Duden|Schwarzwald}}
+* {{Source-wikt|de|Schwarzwald}}
+==== {{S|bibliographie}} ====
+* Larousse - Dctionnaire allemand/français – français/allemand , éd. 1958, p 670.
+* Harrap’s de poche – Bordas Dictionnaire allemand/français, éd. 1997, ISBN 0-245-50308-0, p 259. 
+=== {{S|voir aussi}} ===
+* {{WP|lang=de}}
+
+[[Catégorie:Toponymes dont l’origine est une couleur en allemand]]
+[[Catégorie:Toponymes dont l’origine est un arbre en allemand]]
+
+== {{langue|hr}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|hr|mot=Schwarzwald}}.
+
+=== {{S|nom propre|hr}} ===
+'''Schwarzwald''' {{pron||hr}}
+# {{régions|hr|d’Allemagne}} {{lien|Forêt-Noire|fr}}.
+
+== {{langue|da}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|da|mot=Schwarzwald}}.
+
+=== {{S|nom propre|da}} ===
+'''Schwarzwald''' {{pron||da}}
+# {{régions|da|d’Allemagne}} {{lien|Forêt-Noire|fr}}.
+
+== {{langue|et}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|et|mot=Schwarzwald}}.
+
+=== {{S|nom propre|et}} ===
+'''Schwarzwald''' {{pron||et}}
+# {{régions|et|d’Allemagne}} {{lien|Forêt-Noire|fr}}.
+
+== {{langue|fi}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|fi|mot=Schwarzwald}}.
+
+=== {{S|nom propre|fi}} ===
+'''Schwarzwald''' {{pron||fi}}
+# {{régions|fi|d’Allemagne}} {{lien|Forêt-Noire|fr}}.
+
+== {{langue|pl}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|pl|mot=Schwarzwald}}.
+
+=== {{S|nom propre|pl}} ===
+'''Schwarzwald''' {{pron||pl}}
+# {{régions|pl|d’Allemagne}} {{lien|Forêt-Noire|fr}}.
+
+== {{langue|sk}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|sk|mot=Schwarzwald}}.
+
+=== {{S|nom propre|sk}} ===
+'''Schwarzwald''' {{pron||sk}}
+# {{régions|sk|d’Allemagne}} {{lien|Forêt-Noire|fr}}.
+
+== {{langue|sv}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|sv|mot=Schwarzwald}}.
+
+=== {{S|nom propre|sv}} ===
+'''Schwarzwald''' {{pron||sv}}
+# {{régions|sv|d’Allemagne}} {{lien|Forêt-Noire|fr}}.
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=sv}}
+
+== {{langue|cs}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|cs|mot=Schwarzwald}}.
+
+=== {{S|nom propre|cs}} ===
+{{cs-décl-nom-mi-dur|sing=oui}}
+'''Schwarzwald''' {{pron||cs}} {{m|i}}
+# {{régions|cs|d’Allemagne}} {{lien|Forêt-Noire|fr}}.
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=cs}}

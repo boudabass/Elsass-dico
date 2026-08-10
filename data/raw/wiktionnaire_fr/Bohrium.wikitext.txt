@@ -1,0 +1,61 @@
+{{voir|bohrium}}
+
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw}}
+
+=== {{S|nom|gsw}} ===
+'''Bohrium''' {{pron||gsw}} {{genre|gsw}}
+# {{éléments|gsw}} {{métaux|gsw}} [[bohrium#fr|Bohrium]].
+{{clr}}
+==== {{S|vocabulaire}} ====
+{{tableau périodique/gsw}}
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|de}}
+
+=== {{S|nom|de}} ===
+{{légende élément/de|Bh|Ns|Uns}}
+'''Bohrium''' {{pron|ˈboːʀi̯ʊm|de}} {{n}} ({{p}} : —)
+# {{éléments|de}} {{métaux|de}} [[bohrium#fr|Bohrium]] (l’{{lien|élément chimique}} [[Bh#conv|Bh]]).
+#* {{exemple | lang=de
+ | '''Bohrium''' wurde 1977 entdeckt.
+ | Le bohrium a été découvert en 1977.}}
+
+==== {{S|synonymes}} ====
+* {{lien|Eka-Rhenium|de}}
+* {{lien|Unnilseptium|de}} {{désuet|nocat=1}}
+{{clr}}
+==== {{S|vocabulaire}} ====
+* {{voir thésaurus|de|tableau périodique des éléments}}
+{{tableau périodique/de}}
+{{Liste|avant={{lien|Seaborgium|de}} ou {{lien|Eka-Wolfram|de}} {{désuet|nocat=1}} ou {{lien|Unnilhexium|de}} {{désuet|nocat=1}}<br>([[Sg#conv|Sg]])|après={{lien|Hassium|de}} ou {{lien|Eka-Osmium|de}} {{désuet|nocat=1}} ou {{lien|Unniloctium|de}} {{désuet|nocat=1}}<br>([[Hs#conv|Hs]])|liste=[[Thésaurus:tableau périodique des éléments/allemand|Éléments chimiques en allemand]]}}
+
+=== {{S|prononciation}} ===
+* {{pron|ˈboːʀi̯ʊm|de}}
+* {{écouter||ˈboːʀi̯ʊm|lang=de|audio=De-Bohrium.ogg}}
+* {{écouter|lang=de|Allemagne (Berlin)|audio=LL-Q188 (deu)-Lucas Werkmeister-Bohrium.wav}}
+* {{écouter|lang=de|Allemagne (Berlin)|audio=LL-Q188 (deu)-Sebastian Wallroth-Bohrium.wav}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=de}}
+
+== {{langue|lb}} ==
+=== {{S|étymologie}} ===
+: {{cf|}} {{lien|bohrium}} en français.
+
+=== {{S|nom|lb}} ===
+{{lb-inv|bˈoːʀi̯um}}
+'''Bohrium''' {{pron|bˈoːʀi̯um|lb}} {{m}}, {{au singulier uniquement|lb}}
+# {{éléments|lb}} {{métaux|lb}} [[bohrium|Bohrium]].
+#* {{exemple|lang=lb}}
+{{clr}}
+==== {{S|vocabulaire}} ====
+{{tableau périodique/lb}}
+
+=== {{S|références}} ===
+: {{R:LOD}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=lb}}

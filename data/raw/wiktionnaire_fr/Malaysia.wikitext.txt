@@ -1,0 +1,493 @@
+== {{langue|fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|fr}}
+
+=== {{S|nom propre|fr}} ===
+'''Malaysia''' {{pron|ma.lɛ.zja|fr}} {{f}}
+# {{pays|fr|d’Asie}} [[pays|Pays]] [[asiatique]] composé de la péninsule située au sud de la Thaïlande (parfois appelée [[Malaisie]]) et de la majeure partie du Nord de l’île de Bornéo, {{cf|lang=fr|Malaisie}}.
+#* {{exemple | lang=fr
+ | À cet égard, plusieurs États d’Asie du Sud-Est dont la '''Malaysia''', font figure d’élève modèle en matière de développement socioéconomique.
+ | source=Jean-François {{pc|Bissonnette}}, « Développement et palmier à huile : les enjeux de la gestion des territoires coutumiers ibans du Sarawak, Malaysia », ''Vertigo'', volume 8, numéro 3, décembre 2008}}
+#* {{exemple | lang=fr
+ | La « séparation » de Singapour ne serait donc pas intelligible si l’on ne rappelait au préalable les raisons qui l’avaient amené à chercher à se faire accepter dans la Fédération de Malaisie (ce qui avait été réalisé en septembre 1963 avec la création de la '''Malaysia''') et sans dégager les « règles du jeu » en vigueur dans la société politique où il avait fait ainsi son entrée.
+ | source=Pierre {{pc|Fistié}}, « La rupture entre Singapour et la Malaysia », ''Revue française de science politique'', volume 17, numéro 2, 1967, page 237}}
+#* {{exemple | lang=fr
+ | Le conflit entre la '''Malaysia''' et l’Indonésie s’est récemment aggravé.
+ | source=Philippe {{pc|Devillers}}, « Le conflit entre la Malaysia et l’Indonésie », ''Politique étrangère'', volume 29, numéro 5-6, 1964, page 553}}
+
+==== {{S|notes}} ====
+:Dans le langage courant le terme ''[[Malaisie]]'' est utilisé pour désigner le pays. Certains auteurs préfèrent faire la distinction entre ''Malaysia'', désignant le pays, et ''Malaisie'', désignant une partie du territoire du pays<ref name="Beaulieu2008"/>.
+
+==== {{S|gentilés}} ====
+* [[Malaysien]], [[malaysien]]
+
+==== {{S|traductions}} ====
+{{trad-début}}
+* {{T|it}} : {{trad-|it|Malaysia|f}}
+* {{T|lb}} : {{trad-|lb|Malaysia}}
+{{trad-fin}}
+
+=== {{S|références}} ===
+<references>
+<ref name="Beaulieu2008">Isabelle {{pc|Beaulieu}}, ''L’état rentier: le cas de la Malaysia'', Presses de l’Université d’Ottawa, 2008, page 5</ref>
+</references>
+
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw}}
+
+=== {{S|nom propre|gsw}} ===
+'''Malaysia''' {{pron||gsw}}
+# [[Malaisie#fr|Malaisie]] (pays asiatique).
+
+[[Catégorie:Pays en alémanique]]
+[[Catégorie:Îles en alémanique]]
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|de}}
+
+=== {{S|nom propre|de}} ===
+'''Malaysia''' {{pron||de}}
+# [[Malaisie#fr|Malaisie]] (pays asiatique).
+
+[[Catégorie:Pays d’Asie en allemand]]
+[[Catégorie:Îles en allemand]]
+[[Catégorie:Malaisie en allemand|*]]
+
+== {{langue|en}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|en}}
+
+=== {{S|nom propre|en}} ===
+'''Malaysia''' {{pron||en}}
+# [[Malaisie#fr|Malaisie]] (pays asiatique).
+
+==== {{S|gentilés}} ====
+* [[Malaysian]]
+
+==== {{S|apparentés}} ====
+* {{lien|Malay|en}}
+* {{lien|Malaya|en}}
+* {{lien|Malayan|en}}
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=en|{{US|nocat=1}}|audio=En-us-Malaysia.ogg}}
+* {{écouter|Londres (Royaume-Uni)||lang=en|audio=LL-Q1860 (eng)-Soundguys-Malaysia.wav}}
+* {{écouter|Khammam (Inde)||niveau=bon|lang=en|audio=LL-Q1860 (eng)-Pavani916-Malaysia.wav}}
+
+[[Catégorie:Pays d’Asie en anglais]]
+[[Catégorie:Îles d’Asie en anglais]]
+[[Catégorie:Malaisie en anglais|*]]
+
+== {{langue|map-bms}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|map-bms}}
+
+=== {{S|nom propre|map-bms}} ===
+'''Malaysia''' {{pron||map-bms}}
+# [[Malaisie#fr|Malaisie]] (pays asiatique).
+
+[[Catégorie:Pays en banyumasan]]
+[[Catégorie:Îles en banyumasan]]
+
+== {{langue|eu}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|eu}}
+
+=== {{S|nom propre|eu}} ===
+'''Malaysia''' {{pron||eu}}
+# [[Malaisie#fr|Malaisie]] (pays asiatique).
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=eu}}
+
+[[Catégorie:Pays d’Asie en basque]]
+[[Catégorie:Îles en basque]]
+
+== {{langue|nds}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|nds}}
+
+=== {{S|nom propre|nds}} ===
+'''Malaysia''' {{pron||nds}}
+# [[Malaisie#fr|Malaisie]] (pays asiatique).
+
+[[Catégorie:Pays d’Asie en bas allemand]]
+[[Catégorie:Îles en bas allemand]]
+
+== {{langue|br}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|br}}
+
+=== {{S|nom propre|br}} ===
+'''Malaysia''' {{pron||br}}
+# [[Malaisie#fr|Malaisie]] (pays asiatique).
+
+[[Catégorie:Pays d’Asie en breton]]
+[[Catégorie:Îles en breton]]
+
+== {{langue|bug}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|bug}}
+
+=== {{S|nom propre|bug}} ===
+'''Malaysia''' {{pron||bug}}
+# [[Malaisie#fr|Malaisie]] (pays asiatique).
+
+[[Catégorie:Pays en bugis]]
+[[Catégorie:Îles en bugis]]
+
+== {{langue|ceb}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|ceb}}
+
+=== {{S|nom propre|ceb}} ===
+'''Malaysia''' {{pron||ceb}}
+# [[Malaisie#fr|Malaisie]] (pays asiatique).
+
+[[Catégorie:Pays en cebuano]]
+[[Catégorie:Îles en cebuano]]
+
+== {{langue|da}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|da}}
+
+=== {{S|nom propre|da}} ===
+'''Malaysia''' {{pron||da}}
+# [[Malaisie#fr|Malaisie]] (pays asiatique).
+
+[[Catégorie:Pays d’Asie en danois]]
+[[Catégorie:Îles en danois]]
+[[Catégorie:Malaisie en danois|*]]
+
+== {{langue|gd}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gd}}
+
+=== {{S|nom propre|gd}} ===
+'''Malaysia''' {{pron||gd}}
+# [[Malaisie#fr|Malaisie]] (pays asiatique).
+
+[[Catégorie:Pays en gaélique écossais]]
+[[Catégorie:Îles en gaélique écossais]]
+
+== {{langue|cy}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|cy}}
+
+=== {{S|nom propre|cy}} ===
+'''Malaysia''' {{pron||cy}}
+# [[Malaisie#fr|Malaisie]] (pays asiatique).
+
+[[Catégorie:Pays d’Asie en gallois]]
+[[Catégorie:Îles en gallois]]
+
+== {{langue|ilo}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|ilo}}
+
+=== {{S|nom propre|ilo}} ===
+'''Malaysia''' {{pron||ilo}}
+# [[Malaisie#fr|Malaisie]] (pays asiatique).
+
+[[Catégorie:Pays d’Asie en ilocano]]
+[[Catégorie:Îles en ilocano]]
+
+== {{langue|id}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|id}}
+
+=== {{S|nom propre|id}} ===
+'''Malaysia''' {{pron||id}}
+# [[Malaisie#fr|Malaisie]] (pays asiatique).
+#* {{exemple|lang=id}}
+
+[[Catégorie:Pays d’Asie en indonésien]]
+[[Catégorie:Îles en indonésien]]
+[[Catégorie:Malaisie en indonésien|*]]
+
+== {{langue|ia}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|ia}}
+
+=== {{S|nom propre|ia}} ===
+'''Malaysia''' {{pron||ia}}
+# [[Malaisie#fr|Malaisie]] (pays asiatique).
+
+[[Catégorie:Pays d’Asie en interlingua]]
+[[Catégorie:Îles en interlingua]]
+
+== {{langue|ie}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|ie}}
+
+=== {{S|nom propre|ie}} ===
+'''Malaysia''' {{pron||ie}}
+# [[Malaisie#fr|Malaisie]] (pays asiatique).
+
+[[Catégorie:Pays en interlingue]]
+[[Catégorie:Îles en interlingue]]
+
+== {{langue|it}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|it}}
+
+=== {{S|nom propre|it}} ===
+'''Malaysia''' {{pron||it}} {{f}}
+# {{pays|it|d’Asie}} [[Malaisie#fr|Malaisie]] (pays asiatique).
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=it}}
+* {{WQ|lang=it}}
+* {{VOY|lang=it}}
+* {{Vikidia|lang=it}}
+[[Catégorie:Îles en italien]]
+[[Catégorie:Malaisie en italien|*]]
+
+== {{langue|jv}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|jv}}
+
+=== {{S|nom propre|jv}} ===
+'''Malaysia''' {{pron||jv}}
+# [[Malaisie#fr|Malaisie]] (pays asiatique).
+
+[[Catégorie:Pays en javanais]]
+[[Catégorie:Îles en javanais]]
+
+== {{langue|pam}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|pam}}
+
+=== {{S|nom propre|pam}} ===
+'''Malaysia''' {{pron||pam}}
+# [[Malaisie#fr|Malaisie]] (pays asiatique).
+
+[[Catégorie:Pays en kapampangan]]
+[[Catégorie:Îles en kapampangan]]
+
+== {{langue|avk}} ==
+=== {{S|étymologie}} ===
+: Du {{étylp|ms|avk|mot=Malaysia}}.
+
+=== {{S|nom propre|avk}} ===
+'''Malaysia''' {{pron|malajˈsia|avk}}
+# {{pays|avk|d’Asie}} [[Malaisie]].
+#* {{exemple|lang=avk}}
+==== {{S|dérivés}} ====
+* [[Malaysiava#avk|Malaysiava]]
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=avk|France|malajˈsia|audio=Malaysia.wav}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=avk}}
+
+=== {{S|références}} ===
+* {{R:avk-continents-pays}}
+
+== {{langue|lij}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|lij}}
+
+=== {{S|nom propre|lij}} ===
+'''Malaysia''' {{pron||lij}}
+# [[Malaisie#fr|Malaisie]] (pays asiatique).
+
+[[Catégorie:Pays en ligure]]
+[[Catégorie:Îles en ligure]]
+
+== {{langue|lmo}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|lmo}}
+
+=== {{S|nom propre|lmo}} ===
+'''Malaysia''' {{pron||lmo}}
+# [[Malaisie#fr|Malaisie]] (pays asiatique).
+
+[[Catégorie:Pays en lombard]]
+[[Catégorie:Îles en lombard]]
+
+== {{langue|lb}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|lb}}
+
+=== {{S|nom propre|lb}} ===
+{{lb-inv|mɑlˈɑɪzi̯aː|inv_titre=Nom propre}}
+'''Malaysia''' {{pron|mɑlˈɑɪzi̯aː|lb}} {{n}}
+# {{îles|lb|d’Asie}} {{lien|Malaisie|fr}}.
+#* {{exemple|lang=lb}}
+# {{pays|lb|d’Asie}} {{lien|Malaisie|fr}}.
+#* {{exemple|lang=lb}}
+
+==== {{S|gentilés}} ====
+* {{lien|Malaysier|lb}}, {{lien|Malaysierin|lb}}
+* {{lien|malaysesch|lb}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=lb}}
+
+=== {{S|références}} ===
+: {{R:LOD}}
+
+== {{langue|ms}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|ms}}
+
+=== {{S|nom propre|ms}} ===
+'''Malaysia''' {{pron||ms}}
+# [[Malaisie#fr|Malaisie]] (pays asiatique).
+
+[[Catégorie:Pays d’Asie en malais]]
+[[Catégorie:Îles en malais]]
+[[Catégorie:Malaisie en malais|*]]
+
+== {{langue|gv}} ==
+=== {{S|nom propre|gv}} ===
+'''Malaysia''' {{pron||gv}}
+# {{pays|gv}} [[Malaisie#fr|Malaisie]] (pays asiatique).
+#* {{exemple | lang=gv | Yn '''Valaysia'''.}}
+#* {{exemple | lang=gv | Ringgit ny '''Malaysia'''.}}
+
+=== {{S|voir aussi}} ===
+* {{WP|Yn Valaysia|lang=gv}}
+
+== {{langue|no}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|no}}
+
+=== {{S|nom propre|no}} ===
+'''Malaysia''' {{pron||no}}
+# [[Malaisie#fr|Malaisie]] (pays asiatique).
+
+[[Catégorie:Pays d’Asie en norvégien]]
+[[Catégorie:Îles en norvégien]]
+[[Catégorie:Malaisie en norvégien|*]]
+
+== {{langue|nn}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|nn}}
+
+=== {{S|nom propre|nn}} ===
+'''Malaysia''' {{pron||nn}}
+# [[Malaisie#fr|Malaisie]] (pays asiatique).
+
+[[Catégorie:Pays d’Asie en norvégien (nynorsk)]]
+[[Catégorie:Îles en norvégien (nynorsk)]]
+
+== {{langue|nov}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|nov}}
+
+=== {{S|nom propre|nov}} ===
+'''Malaysia''' {{pron||nov}}
+# [[Malaisie#fr|Malaisie]] (pays asiatique).
+
+[[Catégorie:Pays d’Asie en novial]]
+[[Catégorie:Îles en novial]]
+
+== {{langue|pms}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|pms}}
+
+=== {{S|nom propre|pms}} ===
+'''Malaysia''' {{pron||pms}}
+# [[Malaisie#fr|Malaisie]] (pays asiatique).
+
+[[Catégorie:Pays en piémontais]]
+[[Catégorie:Îles en piémontais]]
+
+== {{langue|ro}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|ro}}
+
+=== {{S|nom propre|ro}} ===
+'''Malaysia''' {{pron||ro}}
+# [[Malaisie#fr|Malaisie]] (pays asiatique).
+
+[[Catégorie:Pays d’Asie en roumain]]
+[[Catégorie:Îles en roumain]]
+[[Catégorie:Malaisie en roumain|*]]
+
+== {{langue|hsb}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|hsb}}
+
+=== {{S|nom propre|hsb}} ===
+'''Malaysia''' {{pron||hsb}}
+# [[Malaisie#fr|Malaisie]] (pays asiatique).
+
+[[Catégorie:Pays en haut-sorabe]]
+[[Catégorie:Îles en haut-sorabe]]
+
+== {{langue|su}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|su}}
+
+=== {{S|nom propre|su}} ===
+'''Malaysia''' {{pron||su}}
+# [[Malaisie#fr|Malaisie]] (pays asiatique).
+
+[[Catégorie:Pays en soundanais]]
+[[Catégorie:Îles en soundanais]]
+
+== {{langue|sv}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|sv}}
+
+=== {{S|nom propre|sv}} ===
+'''Malaysia''' {{pron||sv}}
+# [[Malaisie#fr|Malaisie]] (pays asiatique).
+
+=== {{S|prononciation}} ===
+* {{écouter|Suède||lang=sv|audio=LL-Q9027 (swe)-Moonhouse-Malaysia.wav}}
+
+[[Catégorie:Pays d’Asie en suédois]]
+[[Catégorie:Îles en suédois]]
+[[Catégorie:Malaisie en suédois|*]]
+
+== {{langue|sw}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|sw}}
+
+=== {{S|nom propre|sw}} ===
+'''Malaysia''' {{pron||sw}}
+# [[Malaisie#fr|Malaisie]] (pays asiatique).
+
+[[Catégorie:Pays d’Asie en swahili]]
+[[Catégorie:Îles en swahili]]
+
+== {{langue|tl}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|tl}}
+
+=== {{S|nom propre|tl}} ===
+'''Malaysia''' {{pron||tl}}
+# [[Malaisie#fr|Malaisie]] (pays asiatique).
+
+[[Catégorie:Pays d’Asie en tagalog]]
+[[Catégorie:Îles en tagalog]]
+
+== {{langue|vi}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|vi}}
+
+=== {{S|nom propre|vi}} ===
+'''Malaysia''' {{pron||vi}}
+# [[Malaisie#fr|Malaisie]] (pays asiatique).
+
+[[Catégorie:Pays d’Asie en vietnamien]]
+[[Catégorie:Îles en vietnamien]]
+[[Catégorie:Malaisie en vietnamien|*]]
+
+== {{langue|war}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|war}}
+
+=== {{S|nom propre|war}} ===
+'''Malaysia''' {{pron||war}}
+# [[Malaisie#fr|Malaisie]] (pays asiatique).
+
+[[Catégorie:Pays en waray (Philippines)]]
+[[Catégorie:Îles en waray (Philippines)]]

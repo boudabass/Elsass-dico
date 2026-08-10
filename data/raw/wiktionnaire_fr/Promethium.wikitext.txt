@@ -1,0 +1,60 @@
+{{voir/promethium}}
+
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw}}
+
+=== {{S|nom|gsw}} ===
+'''Promethium''' {{pron||gsw}} {{genre|gsw}}
+# {{éléments|gsw}} {{métaux|gsw}} [[prométhéum#fr|Prométhéum]].
+{{clr}}
+==== {{S|vocabulaire}} ====
+{{tableau périodique/gsw}}
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|de}}
+
+=== {{S|nom|de}} ===
+{{légende élément/de|Pm}}
+'''Promethium''' {{pron|pʀoˈmeːti̯ʊm|de}} {{n}}
+# {{éléments|de}} {{métaux|de}} [[prométhéum#fr|Prométhéum]] (l’{{lien|élément chimique}} [[Pm#conv|Pm]]).
+#* {{exemple | lang=de | '''Promethium''' ist das zweite radioaktive Element des Periodensystems.}}
+
+==== {{S|dérivés}} ====
+* {{lien|Promethium(III)-bromid|de}}
+* {{lien|Promethium(III)-chlorid|de}}
+* {{lien|Promethium(III)-fluorid|de}}
+* {{lien|Promethium(III)-oxid|de}}
+{{clr}}
+==== {{S|vocabulaire}} ====
+* {{voir thésaurus|de|tableau périodique des éléments}}
+{{tableau périodique/de}}
+{{Liste|avant={{lien|Neodym|de}} ou {{lien|Neodymium|de}} {{désuet|nocat=1}}<br>([[Nd#conv|Nd]])|après={{lien|Samarium|de}}<br>([[Sm#conv|Sm]])|liste=[[Thésaurus:tableau périodique des éléments/allemand|Éléments chimiques en allemand]]}}
+
+=== {{S|prononciation}} ===
+* {{pron|pʀoˈmeːti̯ʊm|de}}
+* {{écouter|lang=de|Allemagne (Berlin)|audio=LL-Q188 (deu)-Lucas Werkmeister-Promethium.wav}}
+* {{écouter|lang=de|Allemagne (Berlin)|audio=LL-Q188 (deu)-Sebastian Wallroth-Promethium.wav}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=de}}
+
+== {{langue|lb}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|lb}}
+
+=== {{S|nom|lb}} ===
+{{lb-inv|pʀomˈeːti̯um}}
+'''Promethium''' {{pron|pʀomˈeːti̯um|lb}} {{m}}, {{au singulier uniquement|lb}}
+# {{éléments|lb}} {{métaux|lb}} [[prométhéum#fr|Prométhéum]].
+#* {{exemple|lang=lb}}
+{{clr}}
+==== {{S|vocabulaire}} ====
+{{tableau périodique/lb}}
+
+=== {{S|références}} ===
+: {{R:LOD}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=lb}}

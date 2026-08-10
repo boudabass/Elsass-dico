@@ -1,0 +1,360 @@
+{{voir/japan}}
+
+== {{langue|af}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|nl|af|Japan}}, du {{étyl|pt|af|Japão}}, du {{étyl|ms|af|Jepang}}, du {{étyl|ja|af|日本|tr=Nippon}}.
+
+=== {{S|nom propre|af}} ===
+'''Japan''' {{pron||af}}
+# {{pays|af|d’Asie}} {{lien|Japon|fr}}.
+#* {{exemple|lang=af}}
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=af|Afrique du Sud (Johannesbourg)|audio=LL-Q14196 (afr)-Oesjaar-Japan.wav}}
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|pt|de|Japão}}, du {{étyl|ms|de|Jepang}}, du {{étyl|ja|de|日本|tr=Nippon}}.
+
+=== {{S|nom propre|de}} ===
+{{de-nom-propre|genre=n|gs=Japans}}
+'''Japan''' {{pron|ˈjaː.pan|de}}
+# {{pays|de|d’Asie}} {{lien|Japon|fr}}.
+#* {{exemple|Tokio ist die Hauptstadt '''Japan'''s.|lang=de|sens=Tokyo est la capitale du Japon.}}
+#* {{exemple|Washington hat in den letzten Jahren nicht nur chinesische Unternehmen von kritischer US-Technologie abgeschnitten, sondern zuletzt auch die Verbündeten in '''Japan''' und den Niederlanden dazu gebracht, bei einzelnen Sanktionen für die Produktion von Halbleitern ebenfalls mitzuziehen.|lang=de|sens=Ces dernières années, Washington n'a pas seulement coupé les entreprises chinoises de l’accès aux technologies américaines critiques, mais a aussi récemment incité ses alliés japonais et néerlandais à jouer le jeu sur certaines sanctions concernant la production de semi-conducteurs.|source={{périodique|auteur=Fabian Kretschmer|titre=China holt im Techkrieg zum Gegenschlag aus|journal=RedaktionsNetzwerk Deutschland|date=8 juillet 2023|texte=https://www.rnd.de/politik/china-holt-im-tech-krieg-zum-gegenschlag-aus-X443PCZAFZDZPGSZYD4FDHGDIE.html}}}}
+#* {{exemple|'''Japan''' hat nach einem ersten Fehlschlag erfolgreich seine neue Trägerrakete H3 gestartet. Die Rakete hob am Samstag vom Weltraumbahnhof Tanegashima im Südwesten des fernöstlichen Inselreichs mit einer Satellitenattrappe sowie zwei winzigen Satelliten an Bord ab.|lang=de|sens=Après un premier échec, le Japon a lancé avec succès son nouveau lanceur H3. La fusée a décollé samedi du centre spatial de Tanegashima, dans le sud-ouest de l’archipel d'Extrême-Orient, avec à son bord un satellite factice et deux minuscules satellites.|source={{périodique|auteur=(APA)|titre=Japans neue Trägerrakete H3 erfolgreich gestartet|journal=Der Standard|date=17 février 2024|texte=https://www.derstandard.at/story/3000000207914/japans-neue-traegerrakete-h3-erfolgreich-gestartet}}}}
+#* {{exemple|In '''Japan''' werden an vielen Schulen kostenlose Damenbinden verteilt. Jetzt fordert eine Abgeordnete, dass sie auch in öffentlichen WCs ausliegen müssten.|lang=de|sens=Au Japon, des serviettes hygiéniques sont distribuées gratuitement dans de nombreuses écoles. Aujourd'hui, une députée demande qu’elles soient également disponibles dans les toilettes publiques.|source={{périodique|auteur=Thomas Hahn|titre=Tumult ums stille Örtchen|journal=Süddeutsche Zeitung|date=3 avril 2025|texte=https://www.sueddeutsche.de/panorama/japan-menstruationsarmut-toilette-li.3229752}}}}
+
+==== {{S|synonymes}} ====
+* {{lien|Nippon|de}}
+* {{lien|Nihon|de}}
+* {{lien|Land der aufgehenden Sonne|de}}
+
+==== {{S|gentilés}} ====
+* [[Japaner]], [[Japanerin]]
+* [[japanisch]]
+
+==== {{S|dérivés}} ====
+{{(}}
+* {{lien|Japanalk|de}}
+* {{lien|Japanmakak|de}}
+* {{lien|Japanpapier|de}}
+* {{lien|Japanimation|de}}
+* {{lien|Japanime|de}}
+* {{lien|Japanisierung|de}}
+* {{lien|Japanologie|de}}
+* {{lien|japanisch|de}}
+* {{lien|Japanisch|de}}
+* {{lien|Japanischer Seelöwe|de}}
+* {{lien|Japanisches Meer|de}}
+* {{lien|Japaner|de}} ou {{lien|Japanerin|de}}
+* {{lien|Nordjapan|de}}
+* {{lien|Südjapan|de}}
+* {{lien|Zentraljapan|de}}
+{{)}}
+
+==== {{S|hyperonymes}} ====
+* {{lien|Land|de}}
+* {{lien|Staat|de}}
+
+=== {{S|prononciation}} ===
+* {{écouter|{{DE|nocat=1}}|ˈjaːpan|lang=de|audio=De-Japan.ogg}}
+* {{écouter|Berlin (Allemagne)|ˈjaːpan|lang=de|audio=De-Japan2.ogg}}
+
+=== {{S|références}} ===
+* {{R:DWDS|Japan}}
+* {{R:Duden|Japan}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=de}}
+
+[[Catégorie:Japon en allemand|*]]
+
+== {{langue|en}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|pt|en|Japão}}, du {{étyl|ms|en|Jepang}}, du {{étyl|ja|en|日本|tr=Nippon}}.
+
+=== {{S|nom propre|en}} ===
+[[Image:Japan (orthographic projection).svg|thumb|{{Lang|en|Location of '''Japan'''.}}]]
+'''Japan''' {{pron|dʒə.ˈpæn|en}}
+# {{pays|en|d’Asie}} {{lien|Japon|fr}}.
+#* {{lang|en|''It is the main island of one of the three largest archipelagos in the world – with Honshu in '''Japan''' and the South Island of New Zealand.''}} {{source|1=Robert Tombs, ''The English and their History'', Penguin Books, 2014, page 7}}
+# {{lexique|sport|en}} {{term|collectif}} {{au pluriel}} Équipe nationale japonaise.
+#* {{exemple | lang=en
+ | The tournament has been top drawer — one of the most exciting World Cups, if not the most exciting ever — and '''Japan''' are putting on an amazing event.
+ | source=Matt Dawson, « {{Lang|en|Japan deserve their history-making moment}} », ''BBC'', 13 octobre 2019}}
+
+==== {{S|abréviations}} ====
+* {{lien|Jap.|en}} {{vieilli|nocat=1}}
+* {{lien|Jpn.|en}}
+
+==== {{S|gentilés}} ====
+* {{lien|Japanese|en}}
+
+==== {{S|synonymes}} ====
+* {{lien|State of Japan|en}}
+
+==== {{S|dérivés}} ====
+{{(}}
+* {{lien|Empire of Japan|en}}
+* {{lien|japan|en}}
+* {{lien|Japanization|en}}
+* {{lien|Japanize|en}}
+* {{lien|Japanology|en}}
+* {{lien|Japanophile|en}}
+* {{lien|Japanophilia|en}}
+* {{lien|Sea of Japan|en}}
+{{)}}
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=en|États-Unis|dʒə.ˈpæn|audio=En-us-Japan.ogg}}
+* {{écouter|lang=en|Royaume-Uni (Londres)||audio=LL-Q1860 (eng)-Back ache-Japan.wav}}
+* {{écouter|Connecticut (États-Unis)||lang=en|audio=LL-Q1860 (eng)-Grendelkhan-Japan.wav}}
+* {{écouter|Londres (Royaume-Uni)||lang=en|audio=LL-Q1860 (eng)-Soundguys-Japan.wav}}
+* {{écouter|Khammam (Inde)||niveau=bon|lang=en|audio=LL-Q1860 (eng)-Pavani916-Japan.wav}}
+
+[[Catégorie:Japon en anglais|*]]
+
+== {{langue|nds}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|de|nds|Japan}}, du {{étyl|pt|nds|Japão}}, du {{étyl|ms|nds|Jepang}}, du {{étyl|ja|nds|日本|tr=Nippon}}.
+
+=== {{S|nom propre|nds}} ===
+'''Japan''' {{pron||nds}}
+# {{pays|nds|d’Asie}} {{lien|Japon|fr}}.
+
+== {{langue|nds-nl}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|nds|nds-nl|Japan}}, du {{étyl|pt|nds-nl|Japão}}, du {{étyl|ms|nds-nl|Jepang}}, du {{étyl|ja|nds-nl|日本|tr=Nippon}}.
+
+=== {{S|nom propre|nds-nl}} ===
+'''Japan''' {{pron||nds-nl}}
+# {{pays|nds-nl}} {{lien|Japon|fr}}.
+
+== {{langue|bar}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|de|bar|Japan}}, du {{étyl|pt|bar|Japão}}, du {{étyl|ms|bar|Jepang}}, du {{étyl|ja|bar|日本|tr=Nippon}}.
+
+=== {{S|nom propre|bar}} ===
+'''Japan''' {{pron||bar}}
+# {{pays|bar}} {{lien|Japon|fr}}.
+
+== {{langue|bs}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|de|bs|Japan}}, du {{étyl|pt|bs|Japão}}, du {{étyl|ms|bs|Jepang}}, du {{étyl|ja|bs|日本|tr=Nippon}}.
+
+=== {{S|nom propre|bs}} ===
+'''Japan''' {{pron||bs}}
+# {{pays|bs|d’Asie}} {{lien|Japon|fr}}.
+
+== {{langue|br}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|fr|br|Japon}}, emprunté au {{étyl|pt|br|Japão}}, provenant du {{étyl|zh|br}} {{lien|日本|zh}} («&nbsp;[Pays] du Soleil {{lien|Levant|fr}}, pays de l’{{lien|Orient|fr}}&nbsp;») prononcé ''zeppen'' en cantonnais. Le chinois provient lui-même du {{étyl|ja|br|日本|Nippon}}.
+
+=== {{S|nom propre|br}} ===
+'''Japan''' {{pron|ˈʒa.pːãn|br}} {{f}}
+# {{pays|br|d’Asie}} {{lien|Japon|fr}} ([[pays#Nom commun 1|pays]] d’[[Asie de l’Est#Nom propre|Asie de l’Est]]).
+
+==== {{S|gentilés}} ====
+* {{lien|Japanad|br}} ({{p}} : {{lien|Japaniz|br}})
+* {{lien|Japanadez|br}} ({{p}} : {{lien|Japanadezed|br}})
+* {{lien|japanat|br}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=br}}
+
+=== {{S|références}} ===
+* {{R:Vallée|p=404b|entrée=(ar) Japan, Bro-Japan f.}}
+* {{R:Hemon|p=404a}}
+* {{R:Ménard|p=1458b}}
+
+== {{langue|ch}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|en|ch|Japan}}, du {{étyl|pt|ch|Japão}}, du {{étyl|ms|ch|Jepang}}, du {{étyl|ja|ch|日本|tr=Nippon}}.
+
+=== {{S|nom propre|ch}} ===
+'''Japan''' {{pron||ch}}
+# {{pays|ch}} {{lien|Japon|fr}}.
+
+== {{langue|hr}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|de|hr|Japan}}, du {{étyl|pt|hr|Japão}}, du {{étyl|ms|hr|Jepang}}, du {{étyl|ja|hr|日本|tr=Nippon}}.
+
+=== {{S|nom propre|hr}} ===
+'''Japan''' {{pron||hr}}
+# {{pays|hr|d’Asie}} {{lien|Japon|fr}}.
+
+== {{langue|da}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|de|da|Japan}}, du {{étyl|pt|da|Japão}}, du {{étyl|ms|da|Jepang}}, du {{étyl|ja|da|日本|tr=Nippon}}.
+
+=== {{S|nom propre|da}} ===
+'''Japan''' {{pron||da}}
+# {{pays|da|d’Asie}} {{lien|Japon|fr}}.
+
+[[Catégorie:Japon en danois|*]]
+
+== {{langue|fy}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|nl|fy|Japan}}, du {{étyl|pt|fy|Japão}}, du {{étyl|ms|fy|Jepang}}, du {{étyl|ja|fy|日本|tr=Nippon}}.
+
+=== {{S|nom propre|fy}} ===
+'''Japan''' {{pron||fy}}
+# {{pays|fy|d’Asie}} {{lien|Japon|fr}}.
+
+== {{langue|cy}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|en|cy|Japan}}, du {{étyl|pt|cy|Japão}}, du {{étyl|ms|cy|Jepang}}, du {{étyl|ja|cy|日本|tr=Nippon}}.
+
+=== {{S|nom propre|cy}} ===
+'''Japan''' {{pron||cy}}
+# {{pays|cy|d’Asie}} {{lien|Japon|fr}}.
+
+== {{langue|io}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|pt|io|Japão}}, du {{étyl|ms|io|Jepang}}, du {{étyl|ja|io|日本|tr=Nippon}}.
+
+=== {{S|nom propre|io}} ===
+'''Japan''' {{pron||io}}
+# {{pays|io|d’Asie}} {{lien|Japon|fr}}.
+
+== {{langue|is}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|pt|is|Japão}}, du {{étyl|ms|is|Jepang}}, du {{étyl|ja|is|日本|tr=Nippon}}.
+
+=== {{S|nom propre|is}} ===
+'''Japan''' {{pron||is}}
+# {{pays|is|d’Asie}} {{lien|Japon|fr}}.
+
+[[Catégorie:Japon en islandais|*]]
+
+== {{langue|pam}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|pam}}
+
+=== {{S|nom propre|pam}} ===
+'''Japan''' {{pron||pam}}
+# {{pays|pam}} {{lien|Japon|fr}}.
+
+== {{langue|li}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|de|li|Japan}}, du {{étyl|pt|li|Japão}}, du {{étyl|ms|li|Jepang}}, du {{étyl|ja|li|日本|tr=Nippon}}.
+
+=== {{S|nom propre|li}} ===
+'''Japan''' {{pron||li}}
+# {{pays|li}} {{lien|Japon|fr}}.
+
+== {{langue|lb}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|de|lb|Japan}}, du {{étyl|pt|lb|Japão}}, du {{étyl|ms|lb|Jepang}}, du {{étyl|ja|lb|日本|tr=Nippon}}.
+
+=== {{S|nom propre|lb}} ===
+{{lb-inv|jˈaːpaːn|inv_titre=Nom propre}}
+'''Japan''' {{pron|jˈaːpaːn|lb}} {{n}}
+# {{pays|lb|d’Asie}} {{lien|Japon|fr}}.
+#* {{exemple|lang=lb}}
+
+==== {{S|gentilés}} ====
+* {{lien|Japaner|lb|sens=Japonais}}, {{lien|Japanerin|lb|sens=Japonaise}}, {{lien|japanesch|lb|sens=japonais, japonaise}}
+
+=== {{S|prononciation}} ===
+* {{écouter|Luxembourg||lang=lb|audio=Lb-Japan.ogg}}
+
+=== {{S|références}} ===
+: {{R:LOD}}
+
+== {{langue|mh}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|de|mh|Japan}}, du {{étyl|pt|mh|Japão}}, du {{étyl|ms|mh|Jepang}}, du {{étyl|ja|mh|日本|tr=Nippon}}.
+
+=== {{S|nom propre|mh}} ===
+'''Japan''' {{pron||mh}}
+# {{désuet|mh}} {{pays|mh}} ''Ancienne orthographe de'' {{lien|Jepaan|mh}} ; {{lien|Japon|fr}}.
+
+== {{langue|no}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|de|no|Japan}}, du {{étyl|pt|no|Japão}}, du {{étyl|ms|no|Jepang}}, du {{étyl|ja|no|日本|tr=Nippon}}.
+
+=== {{S|nom propre|no}} ===
+'''Japan''' {{pron||no}}
+# {{pays|no|d’Asie}} {{lien|Japon|fr}}.
+
+[[Catégorie:Japon en norvégien|*]]
+
+== {{langue|nn}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|no|nn|Japan}}, du {{étyl|pt|nn|Japão}}, du {{étyl|ms|nn|Jepang}}, du {{étyl|ja|nn|日本|tr=Nippon}}.
+
+=== {{S|nom propre|nn}} ===
+'''Japan''' {{pron||nn}}
+# {{pays|nn|d’Asie}} {{lien|Japon|fr}}.
+
+== {{langue|nov}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|de|nov|Japan}}, du {{étyl|pt|nov|Japão}}, du {{étyl|ms|nov|Jepang}}, du {{étyl|ja|nov|日本|tr=Nippon}}.
+
+=== {{S|nom propre|nov}} ===
+'''Japan''' {{pron||nov}}
+# {{pays|nov}} {{lien|Japon|fr}}.
+
+== {{langue|nl}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|pt|nl|Japão}}, du {{étyl|ms|nl|Jepang}}, du {{étyl|ja|nl|日本|tr=Nippon}}.
+
+=== {{S|nom propre|nl}} ===
+'''Japan''' {{pron|ja.pɑn|nl}}
+# {{pays|nl|d’Asie}} {{lien|Japon|fr}}.
+
+=== {{S|prononciation}} ===
+* {{écouter||ja.pɑn|lang=nl|audio=Nl-Japan.ogg}}
+
+[[Catégorie:Japon en néerlandais|*]]
+
+== {{langue|se}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|se}}
+
+=== {{S|nom propre|se}} ===
+{{se-décl-sing|accgén=Japana|ill=Japanii|locsép=Japanis|com=Japaniin|ess=—}}
+'''Japan''' {{phono|ˈjɑpɑn|se}}
+# {{lien|Japon}}.
+#* {{exemple | lang=se
+ | '''Japana''' Fukushima atomfápmorusttegis lea dáhpáhuvvan ođđa bávkkeheapmi ja fápmorusttegis loktana vilges suovva, muitala '''Japana''' riikkaradio NHK.
+ | Dans la centrale nucléaire japonaise de Fukushima s’est produit une nouvelle explosion et de la fumée blanche s’élève de la centrale, relate la radio nationale japonaise NHK.
+ | source=[https://yle.fi/uutiset/osasto/sapmi/fukushimas_bavkkehii_fas/6625443 ''yle.fi'']}}
+
+==== {{S|dérivés}} ====
+* {{lien|japánagoaktil|se}} — caille du Japon
+* {{lien|japánaguorga|se}} — grue du Japon
+
+== {{langue|sh}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|de|sh|Japan}}, du {{étyl|pt|sh|Japão}}, du {{étyl|ms|sh|Jepang}}, du {{étyl|ja|sh|日本|tr=Nippon}}.
+
+=== {{S|nom propre|sh}} ===
+'''Japan''' {{pron||sh}}
+# {{pays|sh|d’Asie}} {{lien|Japon|fr}}.
+
+[[Catégorie:Japon en serbo-croate|*]]
+
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|de|gsw|Japan}}, du {{étyl|pt|gsw|Japão}}, du {{étyl|ms|gsw|Jepang}}, du {{étyl|ja|gsw|日本|tr=Nippon}}.
+
+=== {{S|nom propre|gsw}} ===
+'''Japan''' {{pron||gsw}}
+# {{pays|gsw}} {{lien|Japon|fr}}.
+
+== {{langue|sv}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|de|sv|Japan}}, du {{étyl|pt|sv|Japão}}, du {{étyl|ms|sv|Jepang}}, du {{étyl|ja|sv|日本|tr=Nippon}}.
+
+=== {{S|nom propre|sv}} ===
+'''Japan''' {{pron||sv}}
+# {{pays|sv|d’Asie}} {{lien|Japon|fr}}.
+
+=== {{S|prononciation}} ===
+* {{écouter|||lang=sv|audio=Sv-Japan.ogg}}
+* {{écouter|Suède||lang=sv|audio=LL-Q9027 (swe)-Moonhouse-Japan.wav}}
+
+[[Catégorie:Japon en suédois|*]]

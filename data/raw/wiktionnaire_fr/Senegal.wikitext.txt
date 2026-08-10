@@ -1,0 +1,787 @@
+{{voir/senegal}}
+
+== {{langue|af}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|af}}
+
+=== {{S|nom propre|af}} ===
+'''Senegal''' {{pron||af}}
+# {{pays|af|d’Afrique}} {{lien|Sénégal}} (pays d’[[Afrique]]).
+#* {{exemple|lang=af}}
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=af|Afrique du Sud (Johannesbourg)|audio=LL-Q14196 (afr)-Oesjaar-Senegal.wav}}
+
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw}}
+
+=== {{S|nom propre|gsw}} ===
+'''Senegal''' {{pron||gsw}}
+# {{lien|Sénégal}} (pays d’[[Afrique]]).
+
+[[Catégorie:Pays en alémanique]]
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|de}}
+
+=== {{S|nom propre|de}} ===
+'''Senegal''' {{pron||de}}
+# {{lien|Sénégal}} (pays d’[[Afrique]]).
+
+[[Catégorie:Pays d’Afrique en allemand]]
+
+=== {{S|prononciation}} ===
+* {{écouter|||lang=de|audio=De-Senegal.ogg}}
+
+== {{langue|en}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|en}}
+
+=== {{S|nom propre|en}} ===
+'''Senegal''' {{pron||en}}
+# {{lien|Sénégal}} (pays d’[[Afrique]]).
+
+==== {{S|dérivés}} ====
+* [[Senegalese]]
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=en|{{US|nocat=1}}|audio=En-us-Senegal.ogg}}
+* {{écouter|Londres (Royaume-Uni)||lang=en|audio=LL-Q1860 (eng)-Soundguys-Senegal.wav}}
+
+[[Catégorie:Pays d’Afrique en anglais]]
+
+== {{langue|an}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|an}}
+
+=== {{S|nom propre|an}} ===
+'''Senegal''' {{pron||an}}
+# {{lien|Sénégal}} (pays d’[[Afrique]]).
+
+[[Catégorie:Pays en aragonais]]
+
+== {{langue|ast}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|ast}}
+
+=== {{S|nom propre|ast}} ===
+'''Senegal''' {{pron||ast}}
+# {{lien|Sénégal}} (pays d’[[Afrique]]).
+
+[[Catégorie:Pays en asturien]]
+
+== {{langue|bm}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|bm}}
+
+=== {{S|nom propre|bm}} ===
+'''Senegal''' {{pron||bm}}
+# {{lien|Sénégal}} (pays d’[[Afrique]]).
+
+[[Catégorie:Pays en bambara]]
+
+== {{langue|nds}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|nds}}
+
+=== {{S|nom propre|nds}} ===
+'''Senegal''' {{pron||nds}}
+# {{lien|Sénégal}} (pays d’[[Afrique]]).
+
+[[Catégorie:Pays d’Afrique en bas allemand]]
+
+== {{langue|dsb}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|dsb}}
+
+=== {{S|nom propre|dsb}} ===
+'''Senegal''' {{pron||dsb}}
+# {{lien|Sénégal}} (pays d’[[Afrique]]).
+
+[[Catégorie:Pays en bas-sorabe]]
+
+== {{langue|eu}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|eu}}
+
+=== {{S|nom propre|eu}} ===
+'''Senegal''' {{pron||eu}}
+# {{lien|Sénégal}} (pays d’[[Afrique]]).
+
+[[Catégorie:Pays d’Afrique en basque]]
+
+== {{langue|bs}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|bs}}
+
+=== {{S|nom propre|bs}} ===
+'''Senegal''' {{pron||bs}}
+# {{lien|Sénégal}} (pays d’[[Afrique]]).
+
+[[Catégorie:Pays d’Afrique en bosniaque]]
+
+== {{langue|br}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|br}}
+
+=== {{S|nom propre|br}} ===
+'''Senegal''' {{pron|sẽ.ˈneː.ɡal|br}}
+# {{pays|br}} [[Sénégal#fr|Sénégal]], pays africain.
+
+==== {{S|gentilés}} ====
+* [[Senegalad]] ({{p}} : [[Senegaliz]])
+* [[Senegaladez]] ({{p}} : [[Senegaladezed]])
+* {{lien|senegalat|br}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=br}}
+
+=== {{S|références}} ===
+* {{R:Ménard|p=1459b}}
+
+== {{langue|ca}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|ca}}
+
+=== {{S|nom propre|ca}} ===
+'''Senegal''' {{pron||ca}}
+# {{lien|Sénégal}} (pays d’[[Afrique]]).
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=ca|Espagne (Villarreal)||audio=LL-Q7026 (cat)-Millars-Senegal.wav}}
+
+[[Catégorie:Pays d’Afrique en catalan]]
+
+== {{langue|ceb}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|ceb}}
+
+=== {{S|nom propre|ceb}} ===
+'''Senegal''' {{pron||ceb}}
+# {{lien|Sénégal}} (pays d’[[Afrique]]).
+
+[[Catégorie:Pays en cebuano]]
+
+== {{langue|kw}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|kw}}
+
+=== {{S|nom propre|kw}} ===
+'''Senegal''' {{pron||kw}}
+# {{lien|Sénégal}} (pays d’[[Afrique]]).
+
+[[Catégorie:Pays en cornique]]
+
+== {{langue|ht}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|ht}}
+
+=== {{S|nom propre|ht}} ===
+'''Senegal''' {{pron|se.ne.gal|ht}}
+# {{pays|ht}} {{lien|Sénégal}} (pays d’[[Afrique]]).
+#* {{exemple|lang=ht}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=ht}}
+
+== {{langue|hr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|hr}}
+
+=== {{S|nom propre|hr}} ===
+'''Senegal''' {{pron||hr}}
+# {{lien|Sénégal}} (pays d’[[Afrique]]).
+
+[[Catégorie:Pays d’Afrique en croate]]
+
+== {{langue|da}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|da}}
+
+=== {{S|nom propre|da}} ===
+'''Senegal''' {{pron||da}}
+# {{lien|Sénégal}} (pays d’[[Afrique]]).
+
+[[Catégorie:Pays d’Afrique en danois]]
+
+== {{langue|diq}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|diq}}
+
+=== {{S|nom propre|diq}} ===
+'''Senegal''' {{pron||diq}}
+# {{lien|Sénégal}} (pays d’[[Afrique]]).
+
+[[Catégorie:Pays en dimli (zazaki du Sud)]]
+
+== {{langue|es}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|es}}
+
+=== {{S|nom propre|es}} ===
+'''Senegal''' {{pron||es}}
+# {{lien|Sénégal}} (pays d’[[Afrique]]).
+
+=== {{S|prononciation}} ===
+* {{écouter|Espagne||lang=es|audio=LL-Q1321 (spa)-Rodelar-Senegal.wav}}
+
+[[Catégorie:Pays d’Afrique en espagnol]]
+
+== {{langue|et}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|et}}
+
+=== {{S|nom propre|et}} ===
+'''Senegal''' {{pron||et}}
+# {{lien|Sénégal}} (pays d’[[Afrique]]).
+
+[[Catégorie:Pays d’Afrique en estonien]]
+
+== {{langue|ee}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|ee}}
+
+=== {{S|nom propre|ee}} ===
+'''Senegal''' {{pron||ee}}
+# {{lien|Sénégal}} (pays d’[[Afrique]]).
+
+[[Catégorie:Pays en éwé]]
+
+== {{langue|fi}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|fi}}
+
+=== {{S|nom propre|fi}} ===
+'''Senegal''' {{pron|ˈseneɡɑl|fi}}
+# {{lien|Sénégal}} (pays d’[[Afrique]]).
+#* {{exemple|lang=fi}}
+
+==== {{S|dérivés}} ====
+* {{lien|senegalinkaija|fi}} — perroquet youyou
+* {{lien|senegalintöpösieppo|fi}} — pririt du Sénégal
+* {{lien|senegalilainen|fi}} — Sénégalais, Sénégalaise
+
+[[Catégorie:Pays d’Afrique en finnois]]
+
+== {{langue|fy}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|fy}}
+
+=== {{S|nom propre|fy}} ===
+'''Senegal''' {{pron||fy}}
+# {{lien|Sénégal}} (pays d’[[Afrique]]).
+
+[[Catégorie:Pays en frison]]
+
+== {{langue|gl}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gl}}
+
+=== {{S|nom propre|gl}} ===
+'''Senegal''' {{pron||gl}}
+# {{lien|Sénégal}} (pays d’[[Afrique]]).
+
+[[Catégorie:Pays d’Afrique en galicien]]
+
+== {{langue|ha}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|ha}}
+
+=== {{S|nom propre|ha}} ===
+'''Senegal''' {{pron||ha}}
+# {{lien|Sénégal}} (pays d’[[Afrique]]).
+
+[[Catégorie:Pays en haoussa]]
+
+== {{langue|hif}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|hif}}
+
+=== {{S|nom propre|hif}} ===
+'''Senegal''' {{pron||hif}}
+# {{lien|Sénégal}} (pays d’[[Afrique]]).
+
+[[Catégorie:Pays en hindi des Fidji]]
+
+== {{langue|io}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|io}}
+
+=== {{S|nom propre|io}} ===
+'''Senegal''' {{pron||io}}
+# {{lien|Sénégal}} (pays d’[[Afrique]]).
+
+[[Catégorie:Pays en ido]]
+
+== {{langue|ilo}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|ilo}}
+
+=== {{S|nom propre|ilo}} ===
+'''Senegal''' {{pron||ilo}}
+# {{lien|Sénégal}} (pays d’[[Afrique]]).
+
+[[Catégorie:Pays en ilocano]]
+
+== {{langue|id}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|id}}
+
+=== {{S|nom propre|id}} ===
+'''Senegal''' {{pron||id}}
+# {{lien|Sénégal}} (pays d’[[Afrique]]).
+#* {{exemple|lang=id}}
+
+[[Catégorie:Pays d’Afrique en indonésien]]
+
+== {{langue|ie}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|ie}}
+
+=== {{S|nom propre|ie}} ===
+'''Senegal''' {{pron||ie}}
+# {{lien|Sénégal}} (pays d’[[Afrique]]).
+
+[[Catégorie:Pays en interlingue]]
+
+== {{langue|is}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|is}}
+
+=== {{S|nom propre|is}} ===
+'''Senegal''' {{pron||is}}
+# {{lien|Sénégal}} (pays d’[[Afrique]]).
+
+[[Catégorie:Pays d’Afrique en islandais]]
+
+== {{langue|it}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|it}}
+
+=== {{S|nom propre|it}} ===
+'''Senegal''' {{pron|ˈsɛ.ne.gal|it}}
+# {{pays|it|d’Afrique}} {{lien|Sénégal}}, pays d’Afrique, bordé par l’océan Atlantique à l’ouest, la Mauritanie au nord-est, le Mali à l’est, la Guinée au sud-est et la Guinée-Bissau au sud. Sa capitale est Dakar. 
+#* {{exemple|lang=it}}
+
+=== {{S|anagrammes}} ===
+{{voir anagrammes|it}}
+
+=== {{S|voir aussi}} ===
+* {{Annexe|Pays et leurs gentilés en italien}}
+* {{WP|lang=it}}
+* {{WQ|lang=it}}
+* {{VOY|lang=it}}
+* {{Vikidia|lang=it}}
+
+=== {{S|références}} ===
+* {{R:SDAS}}
+
+== {{langue|jv}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|jv}}
+
+=== {{S|nom propre|jv}} ===
+'''Senegal''' {{pron||jv}}
+# {{lien|Sénégal}} (pays d’[[Afrique]]).
+
+[[Catégorie:Pays en javanais]]
+
+== {{langue|pam}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|pam}}
+
+=== {{S|nom propre|pam}} ===
+'''Senegal''' {{pron||pam}}
+# {{lien|Sénégal}} (pays d’[[Afrique]]).
+
+[[Catégorie:Pays en kapampangan]]
+
+== {{langue|ku}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|ku}}
+
+=== {{S|nom propre|ku}} ===
+'''Senegal''' {{pron||ku}}
+# {{lien|Sénégal}} (pays d’[[Afrique]]).
+
+[[Catégorie:Pays en kurde]]
+
+== {{langue|lij}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|lij}}
+
+=== {{S|nom propre|lij}} ===
+'''Senegal''' {{pron||lij}}
+# {{lien|Sénégal}} (pays d’[[Afrique]]).
+
+[[Catégorie:Pays en ligure]]
+
+== {{langue|li}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|li}}
+
+=== {{S|nom propre|li}} ===
+'''Senegal''' {{pron||li}}
+# {{lien|Sénégal}} (pays d’[[Afrique]]).
+
+[[Catégorie:Pays en limbourgeois]]
+
+== {{langue|lmo}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|lmo}}
+
+=== {{S|nom propre|lmo}} ===
+'''Senegal''' {{pron||lmo}}
+# {{lien|Sénégal}} (pays d’[[Afrique]]).
+
+[[Catégorie:Pays en lombard]]
+
+== {{langue|lb}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|lb}}
+
+=== {{S|nom propre|lb}} ===
+{{lb-inv|zˈeːneɡɑl|inv_titre=Nom propre}}
+'''Senegal''' {{pron|zˈeːneɡɑl|lb}} {{m}}
+# {{pays|lb|d’Afrique|pays=Sénégal|clé=*}} {{lien|Sénégal|fr}}.
+#* {{exemple|lang=lb}}
+
+==== {{S|gentilés}} ====
+* {{lien|Senegalees|lb|sens=Sénégalais}}, {{lien|Senegaleesin|lb|sens=Sénégalaise}}
+* {{lien|senegaleesesch|lb|sens=sénégalais, sénégalaise}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=lb}}
+
+=== {{S|références}} ===
+: {{R:LOD}}
+
+== {{langue|ms}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|ms}}
+
+=== {{S|nom propre|ms}} ===
+'''Senegal''' {{pron||ms}}
+# {{lien|Sénégal}} (pays d’[[Afrique]]).
+
+[[Catégorie:Pays d’Afrique en malais]]
+
+== {{langue|nan}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|nan}}
+
+=== {{S|nom propre|nan}} ===
+'''Senegal''' {{pron||nan}}
+# {{lien|Sénégal}} (pays d’[[Afrique]]).
+
+[[Catégorie:Pays en minnan]]
+
+== {{langue|nap}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|nap}}
+
+=== {{S|nom propre|nap}} ===
+'''Senegal''' {{pron||nap}}
+# {{lien|Sénégal}} (pays d’[[Afrique]]).
+
+[[Catégorie:Pays en napolitain]]
+
+== {{langue|nl}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|nl}}
+
+=== {{S|nom propre|nl}} ===
+'''Senegal''' {{pron||nl}}
+# {{lien|Sénégal}} (pays d’[[Afrique]]).
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=nl|Pays-Bas|audio=Nl-Senegal.ogg}}
+
+[[Catégorie:Pays d’Afrique en néerlandais]]
+
+== {{langue|no}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|no}}
+
+=== {{S|nom propre|no}} ===
+'''Senegal''' {{pron||no}}
+# {{lien|Sénégal}} (pays d’[[Afrique]]).
+
+[[Catégorie:Pays d’Afrique en norvégien]]
+
+== {{langue|nn}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|nn}}
+
+=== {{S|nom propre|nn}} ===
+'''Senegal''' {{pron||nn}}
+# {{lien|Sénégal}} (pays d’[[Afrique]]).
+
+[[Catégorie:Pays d’Afrique en norvégien (nynorsk)]]
+
+== {{langue|nov}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|nov}}
+
+=== {{S|nom propre|nov}} ===
+'''Senegal''' {{pron||nov}}
+# {{lien|Sénégal}} (pays d’[[Afrique]]).
+
+[[Catégorie:Pays en novial]]
+
+== {{langue|oc}} ==
+=== {{S|étymologie}} ===
+: D'origina incertaine, {{cf|lang=oc|Sénégal}}.
+
+=== {{S|nom propre|oc}} ===
+'''Senegal''' {{phon|seneˈɣal|lang=oc}} {{oc-norme classique}}
+# {{lien|Sénégal}} (pays d’[[Afrique]]).
+
+==== {{S|gentilés}} ====
+* [[senegalés]], [[senegalesa]]
+
+=== {{S|références}} ===
+* {{R:Cantalausa}}
+
+[[Catégorie:Pays en occitan]]
+
+== {{langue|uz}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|uz}}
+
+=== {{S|nom propre|uz}} ===
+'''Senegal''' {{pron||uz}}
+# {{lien|Sénégal}} (pays d’[[Afrique]]).
+
+[[Catégorie:Pays en ouzbek]]
+
+== {{langue|ff}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|ff}}
+
+=== {{S|nom propre|ff}} ===
+'''Senegal''' {{pron||ff}}
+# {{pays|ff}} {{lien|Sénégal}} (pays d’[[Afrique]]).
+
+=== {{S|références}} ===
+* {{R:Diallo2015|p=231}}
+
+== {{langue|pms}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|pms}}
+
+=== {{S|nom propre|pms}} ===
+'''Senegal''' {{pron||pms}}
+# {{lien|Sénégal}} (pays d’[[Afrique]]).
+
+[[Catégorie:Pays en piémontais]]
+
+== {{langue|pl}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|pl}}
+
+=== {{S|nom propre|pl}} ===
+'''Senegal''' {{pron||pl}}
+# {{lien|Sénégal}} (pays d’[[Afrique]]).
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=pl||audio=Pl-Senegal.ogg}}
+
+[[Catégorie:Pays d’Afrique en polonais]]
+
+== {{langue|pt}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|pt}}
+
+=== {{S|nom propre|pt}} ===
+'''Senegal''' {{pron||pt}}
+# {{lien|Sénégal}} (pays d’[[Afrique]]).
+
+[[Catégorie:Pays d’Afrique en portugais]]
+
+== {{langue|ro}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|ro}}
+
+=== {{S|nom propre|ro}} ===
+'''Senegal''' {{pron||ro}}
+# {{lien|Sénégal}} (pays d’[[Afrique]]).
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=ro|||audio=LL-Q7913 (ron)-KlaudiuMihaila-Senegal.wav}}
+
+[[Catégorie:Pays d’Afrique en roumain]]
+
+== {{langue|se}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|se}}
+
+=== {{S|nom propre|se}} ===
+'''Senegal''' {{pron||se}}
+# {{lien|Sénégal}} (pays d’[[Afrique]]).
+
+==== {{S|dérivés}} ====
+* {{lien|senegalgiehka|se}} — coucal du Sénégal
+
+[[Catégorie:Pays en same du Nord]]
+
+== {{langue|sh}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|sh}}
+
+=== {{S|nom propre|sh}} ===
+'''Senegal''' {{pron||sh}}
+# {{lien|Sénégal}} (pays d’[[Afrique]]).
+
+[[Catégorie:Pays d’Afrique en serbo-croate]]
+
+== {{langue|scn}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|scn}}
+
+=== {{S|nom propre|scn}} ===
+'''Senegal''' {{pron||scn}}
+# {{lien|Sénégal}} (pays d’[[Afrique]]).
+
+=== {{S|prononciation}} ===
+* {{écouter|Gela (Italie)||lang=scn|audio=LL-Q33973 (scn)-XANA000-Senegal.wav}}
+
+[[Catégorie:Pays en sicilien]]
+
+== {{langue|sk}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|sk}}
+
+=== {{S|nom propre|sk}} ===
+'''Senegal''' {{pron||sk}}
+# {{lien|Sénégal}} (pays d’[[Afrique]]).
+
+[[Catégorie:Pays d’Afrique en slovaque]]
+
+== {{langue|sl}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|sl}}
+
+=== {{S|nom propre|sl}} ===
+'''Senegal''' {{pron||sl}}
+# {{lien|Sénégal}} (pays d’[[Afrique]]).
+
+[[Catégorie:Pays d’Afrique en slovène]]
+
+== {{langue|sv}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|sv}}
+
+=== {{S|nom propre|sv}} ===
+'''Senegal''' {{pron||sv}}
+# {{lien|Sénégal}} (pays d’[[Afrique]]).
+
+=== {{S|prononciation}} ===
+* {{écouter|Suède||lang=sv|audio=LL-Q9027 (swe)-Moonhouse-Senegal.wav}}
+
+[[Catégorie:Pays d’Afrique en suédois]]
+
+== {{langue|sw}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|sw}}
+
+=== {{S|nom propre|sw}} ===
+'''Senegal''' {{pron||sw}}
+# {{lien|Sénégal}} (pays d’[[Afrique]]).
+
+[[Catégorie:Pays en swahili]]
+
+== {{langue|tl}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|tl}}
+
+=== {{S|nom propre|tl}} ===
+'''Senegal''' {{pron||tl}}
+# {{lien|Sénégal}} (pays d’[[Afrique]]).
+
+[[Catégorie:Pays en tagalog]]
+
+== {{langue|crh}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|crh}}
+
+=== {{S|nom propre|crh}} ===
+'''Senegal''' {{pron||crh}}
+# {{lien|Sénégal}} (pays d’[[Afrique]]).
+
+[[Catégorie:Pays en tatar de Crimée]]
+
+== {{langue|cs}} ==
+=== {{S|étymologie}} ===
+: Obscure {{cf|Sénégal|lang=fr}}.
+
+=== {{S|nom propre|cs}} ===
+{{cs-décl-nom-mi-dur|sing=oui}}
+'''Senegal''' {{pron||cs}} {{m|i}}
+# [[Sénégal]], fleuve et pays d’Afrique.
+
+==== {{S|gentilés}} ====
+* [[Senegalec#cs|Senegalec]], [[Senegalka#cs|Senegalka]]
+* [[senegalský#cs|senegalský]]
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=cs}}
+
+=== {{S|références}} ===
+* {{R:ÚJČ}}
+[[Catégorie:Pays d’Afrique en tchèque]]
+
+== {{langue|tpi}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|tpi}}
+
+=== {{S|nom propre|tpi}} ===
+'''Senegal''' {{pron||tpi}}
+# {{lien|Sénégal}} (pays d’[[Afrique]]).
+
+[[Catégorie:Pays en tok pisin]]
+
+== {{langue|tr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|tr}}
+
+=== {{S|nom propre|tr}} ===
+'''Senegal''' {{pron||tr}}
+# {{lien|Sénégal}} (pays d’[[Afrique]]).
+
+=== {{S|prononciation}} ===
+* {{écouter|Izmir (Turquie)||lang=tr|audio=LL-Q256 (tur)-ToprakM-Senegal.wav}}
+
+[[Catégorie:Pays d’Afrique en turc]]
+
+== {{langue|vec}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|vec}}
+
+=== {{S|nom propre|vec}} ===
+'''Senegal''' {{pron||vec}}
+# {{lien|Sénégal}} (pays d’[[Afrique]]).
+
+[[Catégorie:Pays en vénitien]]
+
+== {{langue|wa}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|wa}}
+
+=== {{S|nom propre|wa}} ===
+'''Senegal''' {{pron||wa}}
+# {{lien|Sénégal}} (pays d’[[Afrique]]).
+
+[[Catégorie:Pays en wallon]]
+
+== {{langue|war}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|war}}
+
+=== {{S|nom propre|war}} ===
+'''Senegal''' {{pron||war}}
+# {{lien|Sénégal}} (pays d’[[Afrique]]).
+
+[[Catégorie:Pays en waray (Philippines)]]

@@ -1,0 +1,62 @@
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw}}
+
+=== {{S|nom propre|gsw}} ===
+'''Schweden''' {{pron||gsw}}
+# [[Suède]] (pays d'Europe).
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|de}}
+
+=== {{S|nom propre|de}} ===
+{{de-nom-propre|genre=n|gs2=Schweden}}
+'''Schweden''' {{pron|ˈʃveːdn̩|de}} {{n}} {{au singulier uniquement|de}}
+# {{pays|de|d’Europe}} [[Suède]] (pays d'Europe).
+#* {{exemple|Im Norden '''Schwedens''' leben viele Rentiere.|sens=De nombreux rennes vivent dans le nord de la Suède.|lang=de}}
+[[Fichier:Sweden in European Union (-rivers -mini map).svg|vignette|'''Schweden''' - Suède]]  
+
+==== {{S|synonymes}} ====
+* [[Königreich Schweden]] (''royaume de Suède'')
+
+==== {{S|gentilés}} ====
+* [[Schwede]] (''Suédois''), [[Schwedin]] (''Suédoise'')
+
+==== {{S|dérivés}} ====
+* [[Schwedenbombe]]
+* [[Schwedenplatte]]
+* [[Schwedenpunsch]] (''Glögg'')
+* [[Schwedenrätsel]] (''mots fléchés'')
+* [[schwedisch]] (''suédois(e)'')
+
+==== {{S|hyperonymes}} ====
+* [[Europa]] (''Europe'')
+* [[Staat]] (''état'')
+
+=== {{S|nom|de|flexion}} ===
+{{de-nom-m-n|ns=Schwede}}
+'''Schweden''' {{pron|ˈʃveːdn̩|de}} {{m}}
+# ''Accusatif pluriel de'' {{lien|Schwede|de}}.
+# ''Accusatif singulier de'' {{lien|Schwede|de}}.
+# ''Datif pluriel de'' {{lien|Schwede|de}}.
+# ''Datif singulier de'' {{lien|Schwede|de}}.
+# ''Génitif pluriel de'' {{lien|Schwede|de}}.
+# ''Génitif singulier de'' {{lien|Schwede|de}}.
+# ''Nominatif pluriel de'' {{lien|Schwede|de}}.
+
+=== {{S|prononciation}} ===
+* {{écouter|{{DE|nocat=1}}|ˈʃveːdn̩|lang=de|audio=De-Schweden.ogg}}
+
+=== {{S|références}} ===
+{{Références}}
+
+==== {{S|sources}} ====
+* {{R:DWDS|Schweden}}
+* {{R:Duden|Schweden}} 
+* {{Source-wikt|de|Schweden}}
+==== {{S|bibliographie}} ====
+* Larousse - Dctionnaire allemand/français – français/allemand , éd. 1958, p 670.
+* Harrap’s  de poche – Bordas Dictionnaire allemand/français, éd. 1997, ISBN 0-245-50308-0, p 259.
+
+[[Catégorie:Suède en allemand|*]]

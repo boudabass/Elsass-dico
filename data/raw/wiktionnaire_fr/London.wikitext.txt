@@ -1,0 +1,508 @@
+== {{langue|fr}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|en|fr|mot=London}}.
+
+=== {{S|nom de famille|fr}} ===
+{{fr-inv|lɔn.dɔn|inv_titre=Nom de famille}}
+'''London''' {{pron|lɔn.dɔn|fr}} {{mf}}
+# Nom de famille.
+#* {{exemple | lang=fr
+ | En 1907, Jack '''London''' s’embarque avec Charmian, sa femme, vers les mers du Sud.
+ | source=''France Mutuelle Magazine'', {{n°|176}}, avril-mai-juin 2023, page 16}}
+
+=== {{S|nom propre|fr}} ===
+'''London''' {{pron|lɔn.dɔn|fr}}
+# {{localités|fr|de l’Ontario}} Ville d’[[Ontario]] au [[Canada]].
+# {{îles|fr|du Chili}} Île située au sud du [[Chili]] à l’ouest de la {{w|grande île de la Terre de Feu}}. Note : L’île Cook (Chili) à côte de l’île Londonderry est aussi parfois nommée île '''London'''.
+
+=== {{S|prénom|fr|genre=mf}} ===
+'''London''' {{pron|lɔn.dɔn|fr}} {{mf}}
+# Prénom épicène.
+#* {{exemple | lang=fr
+ | '''London''' Breed, une des rares femmes à la tête d’une grande ville aux États-Unis, a été élue en 2018 sur la promesse de lutter contre la crise du logement à San Francisco, qui compte 7000 sans-abri pour une population de 800 000 habitants.
+ | source={{périodique|prénom1=Corine|nom1=Lesnes|titre='''London''' Breed, maire de San Francisco : « Distanciation physique, masques : notre nouvelle normalité »|journal=Le Monde|date=15 juin 2020|url=https://www.lemonde.fr/smart-cities/article/2020/06/15/london-breed-maire-de-san-francisco-distanciation-physique-masques-notre-nouvelle-normalite_6042850_4811534.html}}}}
+#* {{exemple | lang=fr
+ | '''London''' Perrantes a dû s’éloigner de ses proches, mais c’est pour mieux vivre sa passion.
+ | source={{périodique|titre='''London''' Perrantes : un chef d’orchestre au Limoges CSP|journal=France3 Nouvelle Aquitaine, France TV|date=19 septembre 2018|url=https://france3-regions.francetvinfo.fr/nouvelle-aquitaine/haute-vienne/limoges/london-perrantes-chef-orchestre-au-limoges-csp-1543830.html}}}}
+
+==== {{S|composés}} ====
+* [[London-Eliot]]
+* [[London-Marie]]
+* [[London-Pryce]]
+
+==== {{S|traductions}} ====
+{{trad-début|ville en Ontario, Canada}}
+* {{T|en}} : {{trad+|en|London}}
+* {{T|ar}} : {{trad+|ar|لندن|tr=Lundun}}
+* {{T|el}} : {{trad+|el|Λόντον|tr=Lónton}}
+* {{T|ja}} : {{trad+|ja|ロンドン|tr=Rondon}}
+{{trad-fin}}
+
+=== {{S|voir aussi}} ===
+* {{WP}}
+* {{WP|London (Ontario)}}
+
+[[Catégorie:on prononcés /ɔn/ en français]]
+
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|en|gsw|mot=London}}.
+
+=== {{S|nom propre|gsw}} ===
+'''London''' {{pron||gsw}}
+# {{capitales|gsw|pays=du Royaume-Uni}} {{lien|Londres|fr}}.
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=gsw}}
+
+[[Catégorie:Localités d’Angleterre en alémanique]]
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|en|de|mot=London}}.
+
+=== {{S|nom propre|de}} ===
+{{de-nom-propre|genre=n|gs=London|gs2=Londons}}
+'''London''' {{pron|ˈlɔndɔn|de}}
+# {{capitales|de|pays=du Royaume-Uni}} {{lien|Londres|fr}}.
+#* {{exemple|Eine der ersten Fluglinien über den Atlantik führte von '''London''' nach New York.|lang=de|sens=L’une des premières lignes aériennes à traverser l’Atlantique reliait Londres à New York.}}
+#* {{exemple|Victor Lenzen hat viele Jahre als Auslandskorrespondent gearbeitet, war im Nahen Osten, in Afghanistan, in Washington, in '''London''', schließlich in Asien.|lang=de|sens=Victor Lenzen a travaillé comme correspondant à l’étranger pendant de nombreuses années, il est allé au Proche-Orient, en Afghanistan, à Washington, à Londres, et enfin en Asie.|source={{ouvrage|auteur={{w|Melanie Raabe}}|trad=Céline Maurice|titre=Die Falle|année=2015|éditeur=btb Verlag}}}}
+#* {{exemple|Der Brite Christopher Nolan hat mit seiner Film-Biografie ''Oppenheimer'' bei der Verleihung der britischen Bafta-Filmpreise abgeräumt. </i>[…]<i> Der Film über den Erfinder der Atombombe ist in '''London''' insgesamt sieben Mal ausgezeichnet worden.|lang=de|sens=Le Britannique Christopher Nolan a été octroyé de nombreux prix lors de la remise des prix britanniques du film Bafta avec son film biographique ''Oppenheimer''. […] Le film sur l’inventeur de la bombe atomique a été récompensé sept fois au total à Londres.|source={{périodique|auteur=(ZEIT ONLINE, AFP, dpa, mcr, jj)|titre=„Oppenheimer“ räumt bei britischen Filmpreisen ab|journal=Die Zeit|date=18 février 2024|texte=https://www.zeit.de/kultur/film/2024-02/oppenheimer-christopher-nolan-bafta-filmpreise}}}}
+#* {{exemple|Der ausgebrannte Grenfell Tower im Westen '''London'''s, in dem bei einem verheerenden Brand 72 Menschen ums Leben kamen, soll zurückgebaut werden.|lang=de|sens=La Grenfell Tower incendiée à l’ouest de Londres, dans laquelle 72 personnes ont perdu la vie dans un incendie dévastateur, sera déconstruite.|source={{périodique|auteur=|titre=Grenfell Tower soll abgerissen werden|journal=Süddeutsche Zeitung|date=7 février 2025|texte=https://www.sueddeutsche.de/panorama/grenfell-tower-abgerissen-ruine-london-brand-2017-li.3198141}}}}
+# {{localités|de|de l’Ontario}} Ville d’{{lien|Ontario|fr}} au {{lien|Canada|fr}}.
+
+==== {{S|hyperonymes}} ====
+{{(|}}
+* {{lien|Hauptstadt|de}}
+* {{lien|Großstadt|de}}
+* {{lien|Metropole|de}}
+* {{lien|Ballungsraum|de}}
+{{)}}
+
+==== {{S|dérivés}} ====
+* {{lien|Londoner|de}}
+* {{lien|Londonerin|de}}
+
+=== {{S|références}} ===
+* {{R:Duden|London}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=de}}
+
+=== {{S|prononciation}} ===
+* {{écouter|Berlin|ˈlɔndɔn|lang=de|audio=De-London.ogg}}
+
+{{Bonne entrée|allemand}}
+
+[[Catégorie:Localités d’Angleterre en allemand]]
+
+== {{langue|en}} ==
+=== {{S|étymologie}} ===
+: {{siècle|?|lang=en}} Du {{étyl|la|en|Londinium}}.
+
+=== {{S|nom propre|en}} ===
+'''London''' {{pron|ˈlʌn.dən|en}}
+# {{capitales|en|pays=du Royaume-Uni}} {{lien|Londres|fr}}.
+#* {{exemple|lang=en|'''London''' Bridge is falling down,<br/>Falling down, falling down.<br/>'''London''' Bridge is falling down,<br/>My fair lady.|source=''{{w|lang=en|London Bridge is Falling Down}}'', 1744|sens=Le pont de Londres va s’écrouler,<br/>s’écrouler, s’écrouler.<br/>Le pont de Londres va s’écrouler,<br/>ma belle lady.}}
+#* {{exemple|lang=en|Lady Lucas quieted her fears a little by starting the idea of his being gone to '''London''' only to get a large party for the ball; and a report soon followed that Mr. Bingley was to bring twelve ladies and seven gentlemen with him to the assembly.|source={{w|Jane Austen}}, {{WS|lang=en|''Pride and Prejudice''}}, Vol. 1, {{ws|Pride and Prejudice (1817)/Chapter 3|chapitre 3|lang=en}}, 3<sup>e</sup> éd., T. Egerton, Whitehall, Londres, 1817, pages 11-12|sens=}}
+# {{par métonymie|en}} Le [[gouvernement]] [[britannique]].
+#* {{exemple|lang=en}}
+# {{localités|en|de l’Ontario}} London, ville de l’[[Ontario]] au [[Canada]]. 
+#* {{exemple|lang=en}}
+
+==== {{S|gentilés}} ====
+* {{lien|Londoner|en}}
+* {{lien|Londonian|en}}
+
+==== {{S|dérivés}} ====
+{{(}}
+* {{lien|City of London|en}}
+* {{lien|East London|en}}
+* {{lien|Greater London|en}}
+* {{lien|Londonderry|en}}
+* {{lien|Londongrad|en}}
+* {{lien|Londonistan|en}}
+{{)}}
+
+==== {{S|synonymes}} ====
+* {{péjoratif|nocat=1}} {{lien|Singapore-on-Thames|en}}
+
+==== {{S|holonymes}} ====
+* {{lien|England|en}}
+
+==== {{S|méronymes}} ====
+* {{lien|10 Downing Street|en}}
+
+=== {{S|prénom|en|genre=mf}} ===
+'''London''' {{pron|ˈlʌn.dən|en}}
+# Prénom principalement féminin mais parfois masculin.
+
+=== {{S|nom de famille|en}} ===
+{{en-nom-rég|ˈlʌn.dən}}
+'''London''' {{pron|ˈlʌn.dən|en}}
+# Nom de famille.
+#* {{exemple | lang=en | {{w|Jack '''London'''}}.}}
+
+=== {{S|prononciation}} ===
+* {{pron|ˈlʌn.dən|en}}
+** {{écouter|lang=en|Royaume Uni|ˈlʌn.dən|audio=En-uk-London.ogg}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=en}}
+
+=== {{S|références}} ===
+* [https://web.archive.org/web/20121216134802/http://www.nyc.gov/html/doh/html/vs/vs-baby-names.shtml ''Most Popular Baby Names in New York City: 2010''], Ville de New York, 2012
+
+[[Catégorie:Localités d’Angleterre en anglais]]
+
+== {{langue|az}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|en|az|mot=London}}.
+
+=== {{S|nom propre|az}} ===
+{{az-décl-nom|o|c}}
+'''London''' {{pron||az}} {{az-forme possessive}}
+# {{capitales|az|pays=du Royaume-Uni}} {{lien|Londres|fr}}.
+
+=== {{S|prononciation}} ===
+* {{écouter|Bakou (Azerbaïdjan)||niveau=débutant|lang=az|audio=LL-Q9292 (aze)-Zardabi Bakuvi-London.wav}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=az}}
+
+[[Catégorie:Localités d’Angleterre en azéri]]
+
+== {{langue|nds}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|en|nds|mot=London}}.
+
+=== {{S|nom propre|nds}} ===
+'''London''' {{pron||nds}}
+# {{capitales|nds|pays=du Royaume-Uni}} {{lien|Londres|fr}}.
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=nds}}
+
+[[Catégorie:Localités d’Angleterre en bas allemand]]
+
+== {{langue|bs}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|en|bs|mot=London}}.
+
+=== {{S|nom propre|bs}} ===
+'''London''' {{pron||bs}}
+# {{capitales|bs|pays=du Royaume-Uni}} {{lien|Londres|fr}}.
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=bs}}
+
+[[Catégorie:Localités d’Angleterre en bosniaque]]
+
+== {{langue|hr}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|en|hr|mot=London}}.
+
+=== {{S|nom propre|hr}} ===
+'''London''' {{pron||hr}}
+# {{capitales|hr|pays=du Royaume-Uni}} {{lien|Londres|fr}}.
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=hr}}
+
+[[Catégorie:Localités d’Angleterre en croate]]
+
+== {{langue|da}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|en|da|mot=London}}.
+
+=== {{S|nom propre|da}} ===
+'''London''' {{pron||da}}
+# {{capitales|da|pays=du Royaume-Uni}} {{lien|Londres|fr}}.
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=da}}
+
+[[Catégorie:Localités d’Angleterre en danois]]
+
+== {{langue|et}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|en|et|mot=London}}.
+
+=== {{S|nom propre|et}} ===
+'''London''' {{pron||et}}
+# {{capitales|et|pays=du Royaume-Uni}} {{lien|Londres|fr}}.
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=et}}
+
+[[Catégorie:Localités d’Angleterre en estonien]]
+
+== {{langue|hu}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|en|hu|mot=London}}.
+
+=== {{S|nom propre|hu}} ===
+'''London''' {{pron||hu}}
+# {{capitales|hu|pays=du Royaume-Uni}} {{lien|Londres|fr}}.
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=hu}}
+
+[[Catégorie:Localités d’Angleterre en hongrois]]
+
+== {{langue|io}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|en|io|mot=London}}.
+
+=== {{S|nom propre|io}} ===
+'''London''' {{pron||io}}
+# {{capitales|io|pays=du Royaume-Uni}} {{lien|Londres|fr}}.
+
+[[Catégorie:Localités d’Angleterre en ido]]
+
+== {{langue|id}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|en|id|mot=London}}.
+
+=== {{S|nom propre|id}} ===
+'''London''' {{pron||id}}
+# {{capitales|id|pays=du Royaume-Uni}} {{lien|Londres|fr}}.
+#* {{exemple|lang=id}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=id}}
+
+[[Catégorie:Localités d’Angleterre en indonésien]]
+
+== {{langue|ia}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|en|ia|mot=London}}.
+
+=== {{S|nom propre|ia}} ===
+'''London''' {{pron||ia}}
+# {{capitales|ia|pays=du Royaume-Uni}} {{lien|Londres|fr}}.
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=ia}}
+
+== {{langue|is}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|en|is|mot=London}}.
+
+=== {{S|nom propre|is}} ===
+'''London''' {{pron||is}}
+# {{capitales|is|pays=du Royaume-Uni}} {{lien|Londres|fr}}.
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=is}}
+
+[[Catégorie:Localités d’Angleterre en islandais]]
+
+== {{langue|ku}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|en|ku|mot=London}}.
+
+=== {{S|nom propre|ku}} ===
+'''London''' {{pron||ku}}
+# {{capitales|ku|pays=du Royaume-Uni}} {{lien|Londres|fr}}.
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=ku}}
+
+[[Catégorie:Localités d’Angleterre en kurde]]
+
+== {{langue|lb}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|en|lb|London}}.
+
+=== {{S|nom propre|lb}} ===
+{{lb-inv||inv_titre=Nom propre}}
+'''London''' {{pron||lb}} {{n}}
+# {{capitales|lb|pays=du Royaume-Uni}} {{lien|Londres|fr}}.
+#* {{exemple|lang=lb}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=lb}}
+
+=== {{S|références}} ===
+: {{R:LOD}}
+
+[[Catégorie:Localités d’Angleterre en luxembourgeois]]
+
+== {{langue|ms}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|en|ms|mot=London}}.
+
+=== {{S|nom propre|ms}} ===
+'''London''' {{pron||ms}}
+# {{capitales|ms|pays=du Royaume-Uni}} {{lien|Londres|fr}}.
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=ms}}
+
+[[Catégorie:Localités d’Angleterre en malais]]
+
+== {{langue|nan}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|en|nan|mot=London}}.
+
+=== {{S|nom propre|nan}} ===
+'''London''' {{pron||nan}}
+# {{capitales|nan|pays=du Royaume-Uni}} {{lien|Londres|fr}}.
+
+[[Catégorie:Localités d’Angleterre en minnan]]
+
+== {{langue|no}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|en|no|mot=London}}.
+
+=== {{S|nom propre|no}} ===
+'''London''' {{pron||no}}
+# {{capitales|no|pays=du Royaume-Uni}} {{lien|Londres|fr}}.
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=no}}
+
+[[Catégorie:Localités d’Angleterre en norvégien]]
+
+== {{langue|nn}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|no|nn|mot=London}}.
+
+=== {{S|nom propre|nn}} ===
+'''London''' {{pron||nn}}
+# {{capitales|nn|pays=du Royaume-Uni}} {{lien|Londres|fr}}.
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=nn}}
+
+[[Catégorie:Localités d’Angleterre en norvégien (nynorsk)]]
+
+== {{langue|nov}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|en|nov|mot=London}}.
+
+=== {{S|nom propre|nov}} ===
+'''London''' {{pron||nov}}
+# {{capitales|nov|pays=du Royaume-Uni}} {{lien|Londres|fr}}.
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=nov}}
+
+== {{langue|uz}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|en|uz|mot=London}}.
+
+=== {{S|nom propre|uz}} ===
+'''London''' {{pron||uz}}
+# {{capitales|uz|pays=du Royaume-Uni}} {{lien|Londres|fr}}.
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=uz}}
+
+[[Catégorie:Localités d’Angleterre en ouzbek]]
+
+== {{langue|se}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|en|se|mot=London}}.
+
+=== {{S|nom propre|se}} ===
+{{se-décl-sing|accgén=London|ill=Londonii|locsép=Londonis|com=Londoniin|ess=|acc=Londona}}
+'''London''' {{pron||se}}
+# {{capitales|se|pays=du Royaume-Uni}} {{lien|Londres|fr}}.
+#* {{exemple|Su dutkan lea ovdanbuktojuvvon ultrajiena máilmmikongreassas '''Londonis''' ja Hamburgas, ja máŋgga foras Norggas.|source=[https://finnmarkssykehuset.no/sa/fagat-ja-dutkan/dutkan/doavttergradat/ingrid-petrikke-olsen ''finnmarkssykehuset.no'']
+|Son étude a été présentée au congrès mondial de l’ultrason à Londres et Hambourg et sur plusieurs forums en Norvège.|lang=se}}
+
+=== {{S|nom propre|se|flexion}} ===
+'''London''' {{pron|ˈlondon|se}}
+# ''Génitif singulier de'' {{lien|London|se}}.
+# ''Accusatif singulier de ''{{lien|London|se}}.
+
+== {{langue|sh}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|en|sh|mot=London}}.
+
+=== {{S|nom propre|sh}} ===
+'''London''' {{pron||sh}}
+# {{capitales|sh|pays=du Royaume-Uni}} {{lien|Londres|fr}}.
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=sh}}
+
+[[Catégorie:Localités d’Angleterre en serbo-croate]]
+
+== {{langue|sl}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|en|sl|mot=London}}.
+
+=== {{S|nom propre|sl}} ===
+{{sl-décl-nmd|London|pdp=oui}}
+'''London''' {{pron||sl}} {{m|i}} {{s}}
+# {{capitales|sl|pays=du Royaume-Uni}} {{lien|Londres|fr}}.
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=sl}}
+
+[[Catégorie:Localités d’Angleterre en slovène]]
+
+== {{langue|sv}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|en|sv|mot=London}}.
+
+=== {{S|nom propre|sv}} ===
+'''London''' {{pron||sv}}
+# {{capitales|sv|pays=du Royaume-Uni}} {{lien|Londres|fr}}.
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=sv}}
+
+[[Catégorie:Localités d’Angleterre en suédois]]
+
+== {{langue|sw}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|en|sw|mot=London}}.
+
+=== {{S|nom propre|sw}} ===
+'''London''' {{pron||sw}}
+# {{capitales|sw|pays=du Royaume-Uni}} {{lien|Londres|fr}}.
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=sw}}
+
+[[Catégorie:Localités d’Angleterre en swahili]]
+
+== {{langue|tt}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|en|tt|mot=London}}.
+
+=== {{S|nom propre|tt}} ===
+'''London''' {{pron||tt}}
+# {{capitales|tt|pays=du Royaume-Uni}} {{lien|Londres|fr}}.
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=tt}}
+
+[[Catégorie:Localités d’Angleterre en tatare]]
+[[Catégorie:Toponymes dont l’origine est un paysage en anglais]]
+
+== {{langue|vo}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|en|vo|mot=London}}.
+
+=== {{S|nom propre|vo}} ===
+'''London''' {{pron||vo}}
+# {{capitales|vo|pays=du Royaume-Uni}} {{lien|Londres|fr}}.
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=vo}}
+
+== {{langue|vro}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|en|vro|mot=London}}.
+
+=== {{S|nom propre|vro}} ===
+'''London''' {{pron||vro}}
+# {{capitales|vro|pays=du Royaume-Uni}} {{lien|Londres|fr}}.
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=vro}}

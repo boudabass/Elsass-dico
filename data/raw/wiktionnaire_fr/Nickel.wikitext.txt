@@ -1,0 +1,73 @@
+{{voir|nickel}}
+
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw}}
+
+=== {{S|nom|gsw}} ===
+'''Nickel''' {{pron||gsw}}
+# {{éléments|gsw}} {{métaux|gsw}} [[nickel|Nickel]].
+{{clr}}
+==== {{S|vocabulaire}} ====
+{{tableau périodique/gsw}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=gsw}}
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: {{term|diablotin}} De ''{{lien|Nikolaus|de}}'', sobriquet du Diable.
+: {{term|nickel}} {{date|1751}} De ''{{lien|Kupfernickel|de}}'' (« cuivre de Nickel ») : les mineurs allemands appelaient ainsi le minerai apparemment de cuivre mais qui refusait d’en donner.
+
+=== {{S|nom|de|num=1}} ===
+'''Nickel''' {{pron|nɪkl̩|de}} {{m}}
+# [[diablotin#fr|Diablotin]], enfant effronté et malveillant.
+#* {{exemple|lang=de}}
+# {{monnaies|de}} Ancienne pièce de dix {{lien|pfennig|fr}}.
+#* {{exemple | lang=de | Hast du mal 'nen '''Nickel'''?}}
+
+=== {{S|nom|de|num=2}} ===
+{{légende élément/de|Ni}}
+[[Image:Nickel_chunk.jpg|thumb|'''Nickel'''.]]
+'''Nickel''' {{pron|nɪkl̩|de}} {{n}}
+# {{éléments|de}} {{métaux|de}} [[nickel#fr|Nickel]].
+
+==== {{S|dérivés}} ====
+* {{lien|Nickelallergie|de}}
+* {{lien|Nickelbrille|de}}
+* {{lien|vernickeln|de}}
+{{clr}}
+==== {{S|vocabulaire}} ====
+{{tableau périodique/de}}
+{{Liste|avant={{lien|Cobalt|de}} ou {{lien|Kobalt|de}}<br>([[Co#conv|Co]])|après={{lien|Kupfer|de}}<br>([[Cu#conv|Cu]])|liste=[[Thésaurus:tableau périodique des éléments/allemand|Éléments chimiques en allemand]]}}
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=de|Allemagne (Berlin)|ˈnɪkl̩|audio=LL-Q188 (deu)-Lucas Werkmeister-Nickel.wav}}
+* {{écouter|Berlin (Allemagne)||lang=de|audio=LL-Q188 (deu)-Sebastian Wallroth-Nickel.wav}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=de}}
+
+=== {{S|références}} ===
+* {{R:Duden|Nickel_Geldstueck}}
+* {{R:Duden|Nickel_Element_Metall}}
+
+== {{langue|lb}} ==
+=== {{S|étymologie}} ===
+: {{date|lang=lb}} {{ébauche-étym|lb}}
+{{note noms de famille}}
+
+=== {{S|nom de famille|lb}} ===
+{{lb-inv|ˈnikəl}}
+'''Nickel''' {{pron|ˈnikəl|lb}}
+# Nom de famille.
+#* {{exemple|lang=lb}}
+
+=== {{S|prononciation}} ===
+{{ébauche-pron-audio|lb}}
+
+=== {{S|anagrammes}} ===
+{{voir anagrammes|lb}}
+
+=== {{S|références}} ===
+* {{R:Luxemburger Familiennamenbuch}}

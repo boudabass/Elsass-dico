@@ -1,0 +1,21 @@
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: {{composé de|Griacha|Lànd|sens=Pays des Grecs|lang=gsw|m=1}}. Cognat avec l'allemand ''{{lien|Griechenland|de}}''.
+
+=== {{S|nom propre|gsw}} ===
+'''Griachalànd''' {{phon|'ɡ̊r̥iˑəχəˌlɒnd̥|gsw}} ou {{phon|'ɡ̊ʁiˑəχəˌlɒnd̥|gsw}}
+# {{Région mulhousienne|gsw}} {{lexique|géographie|gsw}} [[Grèce#fr|Grèce]].
+#* {{exemple | lang=gsw
+ | Ànna 2008 hàt  ìn '''Griachalànd''' a groossa Finànzkriisa ààg’fànga.
+ | En 2008, une grosse crise financière a débuté en Grèce.}}
+
+==== {{S|apparentés}} ====
+* {{lien|Griach|gsw}} — Grec
+* {{lien|griachisch|gsw}} — grec
+
+==== {{S|variantes dialectales}} ====
+* {{lien|Griechelànd|gsw}}
+* {{lien|Griecheland|gsw}}
+
+=== {{S|références}} ===
+* {{Ouvrage|langue=fr|prénom=André |nom=Nisslé|titre=D’ Lehrschtuwa: Dictionnaire français-alsacien / Wärterbüach elsassisch franzesch|éditeur=Association Culture et Patrimoine d’Alsace|ISBN=978-2-36702-058-7|page=|para=|année=2015}}.

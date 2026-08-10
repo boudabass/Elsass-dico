@@ -1,0 +1,91 @@
+{{voir/neon}}
+
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw}}
+
+=== {{S|nom|gsw}} ===
+'''Neon''' {{pron||gsw}}
+# {{éléments|gsw}} [[néon|Néon]].
+{{clr}}
+==== {{S|vocabulaire}} ====
+{{tableau périodique/gsw}}
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: {{date|lang=de}} De l’{{étyl|en|de|neon}}.
+
+=== {{S|nom|de}} ===
+{{légende élément/de|Ne}}
+[[Image:Neon_discharge_tube.jpg|thumb|'''Neon'''-Entladungsröhre.]]
+'''Neon''' {{pron||de}} {{n}} ({{p}}: '''—''')
+# {{éléments|de}} [[néon#fr|Néon]].
+#* {{exemple | lang=de | '''Neon''' wurde 1898 von Sir William Ramsay und Morris William Travers entdeckt.}}
+
+==== {{S|dérivés}} ====
+{{(|&nbsp;}}
+* {{lien|Helium-Neon-Laser|de}}
+* {{lien|Neonanlage|de}}
+* {{lien|Neonatom|de}}
+* {{lien|Neoneffekt|de}}
+* {{lien|Neonfisch|de}}
+* {{lien|Neongewinnung|de}}
+* {{lien|Neonlampe|de}}
+* {{lien|Neonleuchtröhre|de}}
+* {{lien|Neonlicht|de}}
+* {{lien|Neonproduktion|de}}
+* {{lien|Neonreklame|de}}
+* {{lien|Neonröhre|de}}
+* {{lien|Neonsalmler|de}}
+* {{lien|Neonschrift|de}}
+* {{lien|Neonspektrum|de}}
+* {{lien|Neontetra|de}}
+{{)}}
+
+{{clr}}
+==== {{S|vocabulaire}} ====
+* {{voir thésaurus|de|tableau périodique des éléments}}
+{{tableau périodique/de}}
+{{Liste|avant=[[Fluor#de-nom-2|Fluor]]<br>([[F#conv|F]])|après={{lien|Natrium|de}} ou {{lien|Sodium|de}}<br>([[Na#conv|Na]])|liste=[[Thésaurus:tableau périodique des éléments/allemand|Éléments chimiques en allemand]]}}
+
+=== {{S|prononciation}} ===
+* {{pron|ˈneːɔn|de}}
+* {{écouter|lang=de|{{AT|nocat=1}}|audio=De-at-Neon.ogg}}
+* {{écouter||ˈneːɔn|lang=de|audio=De-Neon.ogg}}
+* {{écouter|lang=de|Allemagne (Berlin)|audio=LL-Q188 (deu)-Lucas Werkmeister-Neon.wav}}
+* {{écouter|lang=de|Allemagne (Berlin)|audio=LL-Q188 (deu)-Sebastian Wallroth-Neon.wav}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=de}}
+
+== {{langue|la}} ==
+=== {{S|nom propre|la}} ===
+{{la-tab-3i-mf|Neon|Neon|sing=oui}}
+'''Neon''' {{pron||la}} {{m}}
+# {{variante de|Neo|la}}.
+#* {{exemple|lang=la}}
+
+=== {{S|références}} ===
+* {{R:Gaffiot}}
+
+== {{langue|lb}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|lb}}
+
+=== {{S|nom|lb}} ===
+{{lb-inv|nˈeːɔ̃ː}}
+'''Neon''' {{pron|nˈeːɔ̃ː|lb}} {{m}}, {{au singulier uniquement|lb}}
+# {{éléments|lb}} [[néon#fr|Néon]].
+#* {{exemple|lang=lb}}
+{{clr}}
+==== {{S|vocabulaire}} ====
+{{tableau périodique/lb}}
+
+=== {{S|prononciation}} ===
+* {{écouter|Angers (France)||niveau=bon|lang=lb|audio=LL-Q9051 (ltz)-Procrastineur49-Neon.wav}}
+
+=== {{S|références}} ===
+: {{R:LOD}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=lb}}

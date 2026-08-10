@@ -1,0 +1,103 @@
+== {{langue|gsw}} ==
+{{ébauche|gsw}}
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw}}
+
+=== {{S|nom propre|gsw}} ===
+'''Moskau''' {{pron||gsw}}
+# {{capitales|gsw}} [[Moscou]], capitale de la [[Russie]].
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=gsw}}
+
+[[Catégorie:Localités de Russie en alémanique]]
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|de}}
+
+=== {{S|nom propre|de}} ===
+{{de-nom-propre|genre=n|gs=Moskaus}}
+'''Moskau''' {{pron|ˈmɔskaʊ̯|de}} {{n}}
+# {{capitales|de}} [[Moscou]], capitale de la [[Russie]].
+#* {{exemple|Die Hauptstadt Russlands ist '''Moskau'''.|lang=de|sens=La capitale de la Russie est Moscou.}}
+#* {{exemple|Unter anderem geht es um einen angeblichen Vorfall in einem Hotel in '''Moskau''' im Jahr 2013, bei dem Prostituierte in Anwesenheit Trumps auf ein Bett uriniert haben sollen.|lang=de|sens=Il s’agit entre autres d’un prétendu incident dans un hôtel de Moscou en 2013, au cours duquel des prostituées auraient uriné sur un lit en présence de Trump.|source={{périodique|auteur=(SZ/dpa/gut/skp)|titre=Donald Trump scheitert mit Klage wegen Sex-Party-Dossiers|journal=Süddeutsche Zeitung|date=1 février 2024|texte=https://www.sueddeutsche.de/politik/trump-klage-sex-partys-russland-london-britischer-geheimdienst-1.6342716}}}}
+#* {{exemple|Der Terroranschlag in '''Moskau''' zeigt: Russlands riesiger Sicherheitsapparat schützt nur sich selbst, nicht die Bürger.|lang=de|sens=L'attaque terroriste à Moscou montre que l’énorme appareil de sécurité de la Russie ne protège que soi-même, pas les citoyens.|source={{périodique|auteur=Matthias Koch|titre=Putins scheinheilige Suche nach dem Sündenbock|journal=RedaktionsNetzwerk Deutschland|date=23 mars 2024|texte=https://www.rnd.de/politik/terror-in-moskau-putins-scheinheilige-suche-nach-dem-suendenbock-VZ4BKXRPV5EUNFOM6WFPTHKLIU.html}}}}
+# {{par métonymie|de}} Le [[gouvernement]] [[russe]].
+#* {{exemple|Auch vor ukrainischen Atom- und anderen Massenvernichtungswaffen warnt der Kreml seit langem. Was genau mit „Demilitarisierung“ gemeint ist, lässt aber auch '''Moskau''' offen.|lang=de|sens=Le Kremlin met également en garde depuis longtemps contre les armes nucléaires et autres armes de destruction massive ukrainiennes. Mais Moscou ne précise pas non plus ce que l’on veut dire exactement par « démilitarisation ».|source={{périodique|auteur=Florian Niederndorfer|titre=Warum Putin (noch) nicht mit Selenskyj reden will|journal=Der Standard|date=03 avril 2022|texte=https://www.derstandard.at/story/2000134641971/warum-putin-noch-nicht-mit-selenskyj-reden-will}}}}
+#* {{exemple|An diesem Punkt wäre Russland verwundbar. Bereits jetzt spürt '''Moskau''' die Folgen ukrainischer Drohnenangriffe auf Ölraffinerien in den vergangenen Monaten deutlich.|lang=de|sens=C'est là où la Russie serait vulnérable. Moscou ressent déjà clairement les conséquences des attaques de drones ukrainiens contre les raffineries de pétrole au cours des derniers mois.|source={{périodique|auteur=Sebastian Gierke|titre=Wo Russland wirklich verwundbar ist|journal=Süddeutsche Zeitung|date=24 septembre 2025|texte=https://www.sueddeutsche.de/politik/ukraine-rueckeroberung-trumps-kehrtwende-lage-front-li.3317035}}}}
+
+==== {{S|synonymes}} ====
+* {{lien|Drittes Rom|de}}
+
+==== {{S|hyperonymes}} ====
+* {{lien|Metropole|de}}
+* {{lien|Großstadt|de}}
+* {{lien|Hauptstadt|de}}
+* {{lien|Stadt|de}}
+
+==== {{S|dérivés}} ====
+{{(|}}
+* {{lien|Moskaubesuch|de}}
+* {{lien|Moskauer|de}}
+* {{lien|Moskauerin|de}}
+* {{lien|Moskowiter|de}}
+* {{lien|Moskowiterin|de}}
+{{)}}
+{{(|}}
+* {{lien|moskaufreundlich|de}}
+* {{lien|moskauhörig|de}}
+* {{lien|moskauisch|de}}
+* {{lien|moskaukritisch|de}}
+* {{lien|moskautreu|de}}
+* {{lien|moskowisch|de}}
+* {{lien|moskowitisch|de}}
+{{)}}
+
+=== {{S|prononciation}} ===
+* {{écouter|Berlin (Allemagne)|ˈmɔskaʊ̯|lang=de|audio=De-Moskau.ogg}}
+
+=== {{S|références}} ===
+* {{R:Duden|Moskau}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=de}}
+* {{WP|lang=de|Moskau (Begriffsklärung)}}
+* {{WQ|lang=de}}
+* {{VOY|lang=de}}
+
+[[Catégorie:Localités de Russie en allemand]]
+
+== {{langue|nds}} ==
+{{ébauche|nds}}
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|nds}}
+
+=== {{S|nom propre|nds}} ===
+'''Moskau''' {{pron||nds}}
+# {{capitales|nds}} [[Moscou]], capitale de la [[Russie]].
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=nds}}
+
+[[Catégorie:Localités de Russie en bas allemand]]
+
+== {{langue|lb}} ==
+{{ébauche|lb}}
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|lb}}
+
+=== {{S|nom propre|lb}} ===
+'''Moskau''' {{pron||lb}}
+# {{capitales|lb}} [[Moscou]], capitale de la [[Russie]].
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=lb|Luxembourg (Diekirch)|audio=LL-Q9051 (ltz)-Robby-Moskau.wav}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=lb}}
+
+[[Catégorie:Localités de Russie en luxembourgeois]]

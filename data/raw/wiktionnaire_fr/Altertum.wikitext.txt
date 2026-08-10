@@ -1,0 +1,28 @@
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: Mot {{composé de|Alter|sens1=âge|-tum|lang=gsw}}.
+
+=== {{S|nom|gsw}} ===
+'''Altertum''' {{n}} {{au singulier uniquement|gsw}}
+# [[Antiquité#fr|Antiquité]].
+
+=== {{S|voir aussi}} ===
+* {{WP|3=gsw}}
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: {{composé de|Alter|sens1=âge|-tum|lang=de|m=1}}.
+
+=== {{S|nom|de}} ===
+{{de-nom-n|sing=oui}}
+'''Altertum''' {{pron|ˈaltɐtuːm|de}} {{n}}
+# {{indénombrable|de}} {{lexique|histoire|de}} [[Antiquité#fr|Antiquité]].
+
+==== {{S|dérivés}} ====
+* ''{{lien|Altertumswissenschaft|de}}'' (« sciences de l'Antiquité »)
+
+=== {{S|prononciation}} ===
+* {{écouter||ˈaltɐtuːm|lang=de|audio=De-Altertum.ogg}}
+
+=== {{S|voir aussi}} ===
+* {{WP|3=de}}

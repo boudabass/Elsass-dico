@@ -1,0 +1,20 @@
+== {{langue|de}} ==
+=== {{S|nom|de|flexion}} ===
+{{de-nom-n-s-er|hɔlʦ|ˈhœlʦɐ|gse=oui|pgs=ˈhɔlʦəs|dse=opt|pds2=ˈhɔlʦə|np=Hölzer|ns=Holz}}
+'''Holze''' {{pron|ˈhɔlt͡sə|de}} {{n}}
+# ''Variante du datif singulier de'' [[Holz#de|Holz]].
+
+==== {{S|notes}} ====
+: {{de-note-ds2}}
+
+=== {{S|prononciation}} ===
+* {{écouter|Berlin|ˈhɔlt͡sə|lang=de|audio=De-Holze.ogg}}
+
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw}}
+
+=== {{S|nom propre|gsw}} ===
+'''Holze''' {{pron||gsw}}
+# {{Alsace|gsw}} {{localités|gsw|du département du Bas-Rhin}} [[Holtzheim#fr|Holtzheim]], [[commune]] [[français]]e, située dans le département du [[Bas-Rhin]].
+#* {{exemple|lang=gsw}}

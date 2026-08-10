@@ -1,0 +1,59 @@
+{{voir|hassium}}
+
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw}}
+
+=== {{S|nom|gsw}} ===
+'''Hassium''' {{pron||gsw}} {{genre|gsw}}
+# {{éléments|gsw}} {{métaux|gsw}} [[hassium#fr|Hassium]].
+{{clr}}
+==== {{S|vocabulaire}} ====
+{{tableau périodique/gsw}}
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|de}}
+
+=== {{S|nom|de}} ===
+{{légende élément/de|Hs|Hn|Uno}}
+'''Hassium''' {{pron|ˈhasiːʊm|de}} {{n}} {{au singulier uniquement|de}}
+# {{éléments|de}} {{métaux|de}} [[hassium#fr|Hassium]] (l’{{lien|élément chimique}} [[Hs#conv|Hs]]).
+#* {{exemple | lang=de | '''Hassium''' wurde 1984 erstmals hergestellt.}}
+
+==== {{S|synonymes}} ====
+* {{lien|Eka-Osmium|de}}
+* {{lien|Unniloctium|de}} {{désuet|nocat=1}}
+{{clr}}
+==== {{S|vocabulaire}} ====
+* {{voir thésaurus|de|tableau périodique des éléments}}
+{{tableau périodique/de}}
+{{Liste|avant={{lien|Bohrium|de}} ou {{lien|Eka-Rhenium|de}} {{désuet|nocat=1}} ou {{lien|Unnilseptium|de}} {{désuet|nocat=1}}<br>([[Bh#conv|Bh]])|après={{lien|Meitnerium|de}} ou {{lien|Eka-Iridium|de}} {{désuet|nocat=1}} ou {{lien|Unnilennium|de}} {{désuet|nocat=1}}<br>([[Mt#conv|Mt]])|liste=[[Thésaurus:tableau périodique des éléments/allemand|Éléments chimiques en allemand]]}}
+
+=== {{S|prononciation}} ===
+* {{pron|ˈhasiːʊm|de}}
+* {{écouter||ˈhasiːʊm|lang=de|audio=De-Hassium.ogg}}
+* {{écouter|lang=de|Allemagne (Berlin)|audio=LL-Q188 (deu)-Lucas Werkmeister-Hassium.wav}}
+* {{écouter|lang=de|Allemagne (Berlin)|audio=LL-Q188 (deu)-Sebastian Wallroth-Hassium.wav}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=de}}
+
+== {{langue|lb}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|lb}}
+
+=== {{S|nom|lb}} ===
+{{lb-inv|hˈɑsi̯um}}
+'''Hassium''' {{pron|hˈɑsi̯um|lb}} {{m}}, {{au singulier uniquement|lb}}
+# {{éléments|lb}} {{métaux|lb}} [[hassium#fr|Hassium]].
+#* {{exemple|lang=lb}}
+{{clr}}
+==== {{S|vocabulaire}} ====
+{{tableau périodique/lb}}
+
+=== {{S|références}} ===
+: {{R:LOD}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=lb}}

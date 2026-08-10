@@ -1,0 +1,464 @@
+{{voir/quebec}}
+== {{langue|fr}} ==
+
+=== {{S|étymologie}} ===
+: {{date|lang=fr|1601}} Première attestation sous la forme ''Quebecq''<ref name="TLFi_étym">{{R:TLFi|étym=oui}}</ref>, suivi d’attestations pour les formes ''Quebec'' et ''Kebec''<ref name="TLFi_étym" />.
+: Le mot serait un emprunt à une langue algonquienne, ''kebec'' ou ''kepac'', « rétrécissement, passage étroit »<ref name="TLFi_étym" />, sens qui fait référence au rétrécissement du fleuve Saint-Laurent rencontré avant d’arriver à Québec<ref name="TLFi_étym" />. Il serait donc aussi [[cognat]] au mot [[micmac]] ''[[gepe'g]]'' (« bouché »)<ref>{{Lien web|langue=fr |auteur=Commission de toponymie du Québec, gouvernement du Québec |titre=Québec (ville) |année=2024 |url=https://toponymie.gouv.qc.ca/ct/ToposWeb/Fiche.aspx?no_seq=51718#haut |site=toponymie.gouv.qc.ca |consulté le=01/04/2026}}.</ref>.
+: Le nom a d’abord été donné à la ville fondée en 1608 par {{w|Samuel de Champlain}}<ref>{{Lien web|langue=fr|auteur= Marcel Trudel et Mathieu d'Avignon, mis à jour par Tabitha Marshall et Andrew McIntosh, pour ''{{w|Historica Canada}}'' |titre=« Samuel de Champlain » (entrée) |année=2013/2021 |url=https://www.thecanadianencyclopedia.ca/fr/article/samuel-de-champlain |site= “{{w|L’Encyclopédie canadienne}}” : thecanadianencyclopedia.ca/fr |consulté le=01/04/2026}}. Voir aussi : {{Lien web|langue=fr |auteur=Jean Poirier, responsable de recherche à la Commission de toponymie du Québec |titre=L’ORIGINE ET LA SIGNIFICATION DU NOM DE LIEU QUÉBEC, ''in'' « Onomastica canadiana », vol. 72 |année=1990 |url=https://ojs.lib.uwo.ca/index.php/oc/article/view/18006/13591 |consulté le=01/04/2026}}. </ref>, sous l'égide de {{w|Pierre Dugua de Mons}}<ref>{{Lien web |titre=Biographie – DUGUA DE MONTS (Du Gua, de Mons), PIERRE – Volume I (1000-1700) – Dictionnaire biographique du Canada |url=http://www.biographi.ca/fr/bio/du_gua_de_monts_pierre_1F.html |site=biographi.ca |consulté le=1er avril 2026}}.</ref> ; par extension, il en vint à désigner un territoire français élargi{{R|CAN|Alan Rayburn, ''L’Encyclopédie canadienne''}}. Le mot ''Québec'' et ses dérivés ont renvoyé à des territoires différents au cours de l’histoire : ainsi lorsque ''Province of Quebec'' désignait les territoires anglais (situés au Québec et en Ontario actuels) de 1763 (dont en 1774 : « l'Acte de Québec ») à 1791{{R|CAN}}, date où leur appellation devient le « [[Bas-Canada]] », pour redevenir en 1867 le « Québec » au sein de la « [[Confédération canadienne]] »<ref>{{Lien web|langue=fr |auteur=Laurent Turcot |titre=Pourquoi le Québec s’appelle le Québec ? |année=2025 |url=https://www.instagram.com/reel/DGONVqTRGnV/ |site=instagram.com |consulté le=01/04/2026}}.</ref>.
+
+=== {{S|nom propre|fr}} ===
+{{fr-inv|ke.bɛk}}
+[[Image:Québec, Canada.svg|vignette|190px|Localisation du '''Québec''' (1)]]
+[[Image:Queque.jpg|vignette|190px|Localisation de la ville de '''Québec''' (2)]]
+[[File:Figvre de la terre nevve, grande riviere de Canada, et côtes de l'ocean en la Novvelle France 1609.jpg|vignette|190px|Première carte représentant la ville de ''Kebec'' (1609)]]
+[[Fichier:Flag of Quebec.svg|vignette|Drapeau du '''Québec''' depuis 1948.]]
+'''Québec''' {{pron|ke.bɛk|fr}} {{m}} {{invar}}
+# {{provinces|fr|du Canada}} [[province#fr|Province]] majoritairement [[francophone]] du [[Canada]] (''symbole postal'' '''[[QC]]'''), bordée par la [[baie d’Hudson]] au [[nord-ouest]], le [[Labrador]], le golfe du [[Saint-Laurent]] et le [[Nouveau-Brunswick]] à l’[[est]], les [[États-Unis]] au [[sud]], et l’[[Ontario]] au [[sud-ouest]].
+#* {{exemple | lang=fr
+ | Adopté sans difficulté en mars 1867 par le Parlement britannique, l’Acte de l’Amérique du Nord britannique réunissait sous une constitution de forme fédérative la Nouveau-Brunswick, la Nouvelle-Écosse, le Haut-Canada, qui devenait la province de l’Ontario, et le Bas-Canada, désormais désigné sous le nom de Province de '''Québec'''.
+ | source={{w|Jean Hamelin}} (dir.), ''Histoire du Québec'', Edisem, 1977, page 368}}
+#* {{exemple | lang=fr
+ | Le recours à des migrants à fort potentiel démographique se rencontre même dans des États fédéraux comme le Canada où la « Belle province », le '''Québec''', en panne démographique depuis quelques décennies mène une politique d’immigration francophone active pour maintenir son identité.
+ | source=Christian Pradeau et Jean-François Malterre, « Migrations et territoires », dans ''Les Cahiers d’Outre-Mer'' {{n°|234}}/volume 59, Presses universitaires de Bordeaux, 2006}}
+#* {{exemple | lang=fr
+ | Vive le '''Québec''' libre !
+ | source={{w|Charles de Gaulle}}, prononcé sur le balcon de l’hôtel de ville de {{w|Montréal}} le 24 juillet 1967}}
+#* {{exemple | lang=fr | J’habite au '''Québec'''.}}
+# {{localités|nocat|du Québec}} Ville [[canadien]]ne et [[capitale]] de la [[province]] du même nom.
+#* {{exemple|lang=fr|La ville de '''Québec'''.}}
+#* {{exemple|lang=fr
+ | Mathieu Simoneau est originaire de Saint-Ferdinand, dans le Centre-du-Québec, et vit à '''Québec'''. Il fait partie des 22 auteurs en lice pour le Prix de poésie Radio-Canada 2018.
+ | source={{w|Radio-Canada}}, « ''L’espace de liberté des rivières'', de Mathieu Simoneau », {{1er}} novembre 2018. Consulté le 5 août 2024.
+ | lien=https://ici.radio-canada.ca/nouvelle/1132363/mathieu-simoneau-liste-preliminaire-prix-poesie-2018-concours-ecriture}}
+# {{par métonymie|fr}} [[gouvernement|Gouvernement]] de la province de '''Québec'''.
+#* {{exemple | lang=fr
+ | '''Québec''' « avait le devoir de consulter les Mohawks pour que le règlement d’Oka soit valide » – Oka étant une création de la Couronne en droit du Québec, plutôt que de la Couronne en droit du Canada.
+ | source=Valérie Boisclair, ''La pinède comme site patrimonial : Kanesatake poursuit la municipalité d’Oka'', radio-canada.ca, 10 janvier 2021}}
+#* {{exemple | lang=fr
+ | Mais '''Québec''' piaffe d’impatience. La semaine dernière, M. Legault affirmait que si Ottawa ne bougeait pas, '''Québec''' le ferait.
+ | source={{w|Elsie Lefebvre}}, ''Voyages: Legault n’en peut plus d’attendre après Trudeau'', Le Journal de Québec, 27 janvier 2021}}
+
+==== {{S|notes}} ====
+; Distinction entre la ville et la province dans la syntaxe
+: On distingue la province de Québec de la ville de Québec en disant « le Québec » et « au Québec » dans le premier cas, et en n’utilisant aucun article dans le second cas.
+:* ''Je vis au Québec.'' ''Le Québec a tenu deux référendums sur son indépendance.'' (province)
+:* ''Je vis à Québec.'' ''Québec a toujours attiré les touristes.'' (ville)
+: On dit normalement « la province <u>de</u> Québec », par contre « le gouvernement <u>du</u> Québec ».
+: Chantal Bouchard déclare que : « {{exemple|lang=fr|Lorsqu’on écrivait à propos du '''Québec''', durant les années 1950, on faisait généralement référence à ''la province de '''Québec'''''. On écrira de plus en plus systématiquement ''le '''Québec''''', tout court, à partir du milieu des années 1960, en laissant tomber la référence à la province. En outre, lorsqu'on faisait référence à des situations, on écrivait qu'elles se produisaient ''dans le '''Québec''''', tandis qu’on écrira par la suite qu’elles ont lieu ''au '''Québec'''''. Ainsi, de manière subtile, la province semble se muer en État jusque dans la syntaxe.|source=Chantal Bouchard, ''La langue et le nombril'', Presses de l’Université de Montréal (PUM), 2020, page 238}} »
+
+==== {{S|synonymes}} ====
+; Province
+* [[Bas-Canada]] {{info lex|histoire}}
+* [[Belle Province]]
+
+; Ville
+* [[Stadacona]] ou {{w|Stadaconé}} [nom donné par les amérindiens ({{w|Iroquoiens du Saint-Laurent}}, et plus précisément [[Montagnais]]) au village du chef {{w|Donnacona}}, lequel se trouvait à l'emplacement de la future ville de Québec]
+* [[Vieille Capitale]]
+* [[Gibraltar de l’Amérique du Nord]]
+
+==== {{S|gentilés}} ====
+* {{lien|Québécois|fr}}, {{lien|Québécoise|fr}}, {{lien|québécois|fr}}
+{{(|Ville de Québec (Ces appellations sont des propositions qui ne sont pas passées dans l'usage)}}
+
+* [[Capitalien]] ''(2000)''
+* [[Capitalois]] ''(2004)''
+* [[Québec-Citéen]] ''(2004)''
+* [[Québecvillois]] ''(2005)''
+* [[Vielle-Capitalois]] (2004
+* [[Ville-de-Québécois]] ''(1976)''
+{{)}}
+
+==== {{S|dérivés}} ====
+{{(|colonnes=3}}
+* [[enquébéciser]]
+* [[français du Québec]]
+* {{lien|PQ|fr|nom-pr}}, [[P. Q.]]
+* [[QC]]
+* [[Québec inc.]]
+* [[québéciser]]
+* {{lien|québécisme|fr}}
+* {{lien|québéciste|fr}}
+* [[québécité]]
+* [[québécitude]]
+* [[québéco-]]
+* {{lien|Québécois|fr}}, {{lien|Québécoise|fr}}
+* {{lien|québécois|fr}}
+* {{lien|québécoiserie|fr}}
+* [[québéquicité]]
+{{)}}
+{{cf|lang=fr|Québécois}}
+
+==== {{S|méronymes}} ====
+{{cf|:Catégorie:Régions du Québec en français}}
+
+==== {{S|vocabulaire}} ====
+* [[⚜]] (fleur de lys, U+269C)
+
+==== {{S|vocabulaire}} ====
+* {{voir thésaurus|fr|pénis|musique|chanvre|WC|folie|barrage|unités de mesure|figue|automobile|objet|Noël|radio|bidule, truc, machin|retard|rien|vagin humain|boîte|théâtre|tortue|rêve|douleur|indifférence}}
+* [[Canada]]
+* [[Nouvelle-France]]
+
+==== {{S|traductions}} ====
+{{trad-début|Province}}
+* {{T|af}} : {{trad-|af|Québec}}
+* {{T|sq}} : {{trad-|sq|Kebeku}}
+* {{T|gsw}} : {{trad|gsw|Québec}}
+* {{T|de}} : {{trad+|de|Québec}}
+* {{T|am}} : {{trad-|am|ኩቤክ|tr=Kubēki}}
+* {{T|en}} : {{trad+|en|Quebec}}, {{trad+|en|Québec}}
+* {{T|ar}} : {{trad-|ar|كيبك|R={{transliterator|ar|كيبك}}}}
+* {{T|hy}} : {{trad-|hy|Քվեբեկ|tr=K’vebek}}
+* {{T|ast}} : {{trad-|ast|Quebec}}
+* {{T|atj}} : {{trad|atj|Kipek Aski}}
+* {{T|az}} : {{trad-|az|Kvebek}}
+* {{T|eu}} : {{trad-|eu|Quebec}}
+* {{T|bn}} : {{trad-|bn|ক্যুবেক|tr=Kyubēka}}
+* {{T|be}} : {{trad-|be|Квебек|tr=Kviebiek}}
+* {{T|my}} : {{trad-|my|ကွိဘက်|tr=kwi bhaat}}
+* {{T|bs}} : {{trad-|bs|Quebec}}
+* {{T|br}} : {{trad-|br|Kebek}}
+* {{T|bg}} : {{trad-|bg|Квебек|tr=Kvebek}}
+* {{T|yue}} : {{trad-|yue|魁北克|tr=fui1 bak1 hak1}}
+* {{T|ca}} : {{trad+|ca|Quebec}}
+* {{T|zh}} : {{trad+|zh|魁北克|R=Kuíběikè}}
+* {{T|ko}} : {{trad+|ko|퀘벡 주|tr=Kwebeg ju}}
+* {{T|kw}} : {{trad-|kw|Kebek}}
+* {{T|cr}} : {{trad-|cr|ᑯᐯᒃ}}
+* {{T|hr}} : {{trad-|hr|Québec}}
+* {{T|da}} : {{trad-|da|Quebec}}
+* {{T|es}} : {{trad+|es|Quebec}}
+* {{T|eo}} : {{trad-|eo|Kebekio}}
+* {{T|et}} : {{trad+|et|Québec}}
+* {{T|fi}} : {{trad+|fi|Québec}}
+* {{T|gd}} : {{trad-|gd|Quebec}}
+* {{T|ga}} : {{trad-|ga|Québec}}
+* {{T|gl}} : {{trad+|gl|Quebec}}
+* {{T|cy}} : {{trad-|cy|Québec}}
+* {{T|ka}} : {{trad-|ka|კვებეკი|tr=kvebeki}}
+* {{T|el}} : {{trad+|el|Κεμπέκ|R=Kebék}}
+* {{T|he}} : {{trad-|he|קוויבק}}
+* {{T|hi}} : {{trad-|hi|क्यूबेक|tr=Kyoobek}}
+* {{T|io}} : {{trad-|io|Quebec}}
+* {{T|id}} : {{trad-|id|Quebec}}
+* {{T|iu}} : {{trad-|iu|ᑯᐸᐃᒃ|R=Kupaik}}
+* {{T|is}} : {{trad-|is|Québec}}, {{trad-|is|Quebec}}
+* {{T|it}} : {{trad+|it|Québec}}
+* {{T|ja}} : {{trad-|ja|ケベック州|tr=Kebekku-shū}}
+* {{T|avk}} : {{trad|avk|Kebeka}}
+* {{T|la}} : {{trad-|la|Quebecum}}
+* {{T|lv}} : {{trad-|lv|Kvebeka}}
+* {{T|lt}} : {{trad-|lt|Kvėbekas}}
+* {{T|lb}} : {{trad-|lb|Québec}}
+* {{T|nl}} : {{trad+|nl|Québec}}
+* {{T|no}} : {{trad-|no|Québec}}
+* {{T|oc}} : {{trad-|oc|Quebèc}}
+* {{T|fa}} : {{trad+|fa|کبک}}
+* {{T|pl}} : {{trad+|pl|Quebec}}
+* {{T|pt}} : {{trad+|pt|Quebec}}
+* {{T|ro}} : {{trad-|ro|Québec}}
+* {{T|ru}} : {{trad+|ru|Квебек|tr=Kvebek}}
+* {{T|sgs}} : {{trad|sgs|Kvebeks}}
+* {{T|nds-nl}} : {{trad|nds-nl|Québec}}
+* {{T|sco}} : {{trad|sco|Quebec}}
+* {{T|sr}} : {{trad-|sr|Квебек|R=Kvebek}}
+* {{T|sh}} : {{trad-|sh|Quebec}}
+* {{T|scn}} : {{trad-|scn|Québec}}
+* {{T|sk}} : {{trad-|sk|Quebec}}
+* {{T|sl}} : {{trad-|sl|Quebec}}
+* {{T|sv}} : {{trad+|sv|Québec}}
+* {{T|tl}} : {{trad-|tl|Québec}}
+* {{T|cs}} : {{trad+|cs|Québec}}
+* {{T|tr}} : {{trad-|tr|Quebec}}
+* {{T|uk}} : {{trad-|uk|Квебек|R=Kvebek}}
+* {{T|vi}} : {{trad-|vi|Québec}}
+{{trad-fin}}
+
+{{trad-début|Ville}}
+* {{T|af}} : {{trad-|af|Québec}}
+* {{T|de}} : {{trad+|de|Québec}}
+* {{T|en}} : {{trad+|en|Quebec City}}, {{trad+|en|Québec City}}
+* {{T|atj}} : {{trad|atj|Opictikweak}}
+* {{T|eu}} : {{trad-|eu|Quebec Hiria}}
+* {{T|bg}} : {{trad-|bg|Квебек|tr=Kvebek}}
+* {{T|ca}} : {{trad+|ca|Quebec}}
+* {{T|zh}} : {{trad+|zh|魁北克市|R=Kuíběikè shì|tradi=魁北剋市}}
+* {{T|ko}} : {{trad-|ko|퀘벡 시|tr=Kwebeg si}}
+* {{T|hr}} : {{trad-|hr|Québec city}}
+* {{T|da}} : {{trad-|da|Québec}}
+* {{T|es}} : {{trad+|es|Quebec}}
+* {{T|eo}} : {{trad-|eo|Kebeko}}
+* {{T|fi}} : {{trad+|fi|Québec}}
+* {{T|gl}} : {{trad+|gl|Quebec}}
+* {{T|cy}} : {{trad-|cy|Québec}}
+* {{T|el}} : {{trad+|el|Κεμπέκ|R=Kebék}}
+* {{T|id}} : {{trad-|id|Kota Quebec}}
+* {{T|it}} : {{trad+|it|Québec}}
+* {{T|ja}} : {{trad-|ja|ケベック市|tr=Kebekku-shi}}
+* {{T|avk}} : {{trad|avk|Québec widava}}
+* {{T|la}} : {{trad-|la|Quebecum}}, {{trad-|la|Stenopolis}}
+* {{T|moh}} : {{trad|moh|Tekiatenontarí:kon}}, {{trad|moh|Tekiateniatarí:kon}}
+* {{T|nl}} : {{trad+|nl|Québec}}
+* {{T|fa}} : {{trad+|fa|کبک}}
+* {{T|pl}} : {{trad+|pl|Québec}}
+* {{T|pt}} : {{trad+|pt|Quebec}}
+* {{T|ro}} : {{trad-|ro|Orașul Québec}}
+* {{T|ru}} : {{trad+|ru|Квебек|tr=Kvebek}}
+* {{T|sr}} : {{trad-|sr|Квебек|R=Kvebek}}
+* {{T|sk}} : {{trad-|sk|Quebec}}
+* {{T|sv}} : {{trad+|sv|Québec}}
+* {{T|cs}} : {{trad+|cs|Québec}}
+* {{T|uk}} : {{trad-|uk|Квебек|R=Kvebek}}
+* {{T|vi}} : {{trad-|vi|Thành phố Québec}}
+{{trad-fin}}
+
+=== {{S|prononciation}} ===
+* {{pron-rimes|ke.bɛk|fr}}
+* {{écouter|Canada (Côte-Nord)|ke.bɛk|audio=FR-Québec.ogg|lang=fr}}
+* {{écouter|Céret (France)|ke.bɛk|lang=fr|audio=LL-Q150 (fra)-Fabricio Cardenas (Culex)-Québec.wav}}
+* {{écouter|Vendée (France)||lang=fr|audio=LL-Q150 (fra)-Sartus85-Québec.wav}}
+
+=== {{S|anagrammes}} ===
+{{voir anagrammes|fr}}
+
+=== {{S|voir aussi}} ===
+* {{WP}}
+* {{Vikidia}}
+* {{Le Dico des Ados}}
+* {{WP|Québec (ville)|titre=Ville de Québec}}
+* [[:fr:Catégorie:français du Québec|Français du Québec]]
+
+=== {{S|références}} ===
+{{Références}}
+
+{{Bonne entrée|français}}
+
+== {{langue|af}} ==
+=== {{S|étymologie}} ===
+: Du {{étylp|fr|af|mot=Québec}}.
+
+=== {{S|nom propre|af}} ===
+'''Québec''' {{pron||af}}
+# {{provinces|af|du Canada}} {{lien|Québec|fr}}, province du Canada.
+#* {{exemple|lang=af}}
+# {{localités|af|du Québec}} Québec, capitale de cette province.
+#* {{exemple|lang=af}}
+
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: Du {{étylp|fr|gsw|mot=Québec}}.
+
+=== {{S|nom propre|gsw}} ===
+'''Québec''' {{pron||gsw}}
+# {{provinces|gsw|du Canada}} {{lien|Québec|fr}}, province du Canada.
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: Du {{étylp|fr|de|mot=Québec}}.
+
+=== {{S|nom propre|de}} ===
+'''Québec''' {{pron|ke.ˈbɛk|de}}
+# {{provinces|de|du Canada}} {{lien|Québec|fr}}, province du Canada.
+#* {{exemple | lang=de
+ | Die Amtssprache von '''Québec''' ist Französisch.
+ | La langue officielle du '''Québec''' est le français.}}
+# {{localités|de|du Québec}} Québec, capitale de cette province.
+
+== {{langue|nds}} ==
+=== {{S|étymologie}} ===
+: Du {{étylp|fr|nds|mot=Québec}}.
+
+=== {{S|nom propre|nds}} ===
+'''Québec''' {{pron||nds}}
+# {{provinces|nds|du Canada}} {{lien|Québec|fr}}, province du Canada.
+
+== {{langue|hr}} ==
+=== {{S|étymologie}} ===
+: Du {{étylp|fr|hr|mot=Québec}}.
+
+=== {{S|nom propre|hr}} ===
+'''Québec''' {{pron||hr}}
+# {{provinces|hr|du Canada}} {{lien|Québec|fr}}, province du Canada.
+
+== {{langue|da}} ==
+=== {{S|étymologie}} ===
+: Du {{étylp|fr|da|mot=Québec}}.
+
+=== {{S|nom propre|da}} ===
+'''Québec''' {{pron||da}}
+# {{provinces|da|du Canada}} {{lien|Québec|fr}}, province du Canada.
+# {{localités|da|du Québec}} Québec, capitale de cette province.
+
+== {{langue|et}} ==
+=== {{S|étymologie}} ===
+: Du {{étylp|fr|et|mot=Québec}}.
+
+=== {{S|nom propre|et}} ===
+'''Québec''' {{pron||et}}
+# {{provinces|et|du Canada}} {{lien|Québec|fr}}, province du Canada.
+
+== {{langue|fi}} ==
+=== {{S|étymologie}} ===
+: Du {{étylp|fr|fi|mot=Québec}}.
+
+=== {{S|nom propre|fi}} ===
+'''Québec''' {{pron||fi}}
+# {{provinces|fi|du Canada}} {{lien|Québec|fr}}, province du Canada.
+# {{localités|fi|du Québec}} Québec, capitale de cette province.
+
+== {{langue|ga}} ==
+=== {{S|étymologie}} ===
+: Du {{étylp|fr|ga|mot=Québec}}.
+
+=== {{S|nom propre|ga}} ===
+'''Québec''' {{pron||ga}}
+# {{provinces|ga|du Canada}} {{lien|Québec|fr}}, province du Canada.
+
+== {{langue|cy}} ==
+=== {{S|étymologie}} ===
+: Du {{étylp|fr|cy|mot=Québec}}.
+
+=== {{S|nom propre|cy}} ===
+'''Québec''' {{pron||cy}}
+# {{provinces|cy|du Canada}} {{lien|Québec|fr}}, province du Canada.
+# {{localités|cy|du Québec}} Québec, capitale de cette province.
+
+== {{langue|is}} ==
+=== {{S|étymologie}} ===
+: Du {{étylp|fr|is|mot=Québec}}.
+
+=== {{S|nom propre|is}} ===
+'''Québec''' {{pron||is}}
+# {{provinces|is|du Canada}} {{lien|Québec|fr}}, province du Canada.
+
+== {{langue|it}} ==
+=== {{S|étymologie}} ===
+: Du {{étylp|fr|it|mot=Québec}}.
+
+=== {{S|nom propre|it}} ===
+'''Québec''' {{pron|ke.ˈbɛk|it}}
+# {{provinces|it|du Canada}} {{lien|Québec|fr}}, province du Canada.
+# {{localités|it|du Québec}} Québec, capitale de cette province.
+
+== {{langue|lb}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|lb}}
+
+=== {{S|nom propre|lb}} ===
+'''Québec''' {{pron||lb}}
+# {{lien|Québec|fr}}.
+#* {{exemple|lang=lb}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=lb}}
+
+== {{langue|nl}} ==
+=== {{S|étymologie}} ===
+: Du {{étylp|fr|nl|mot=Québec}}.
+
+=== {{S|nom propre|nl}} ===
+'''Québec''' {{pron||nl}}
+# {{provinces|nl|du Canada}} {{lien|Québec|fr}}, province du Canada.
+# {{localités|nl|du Québec}} Québec, capitale de cette province.
+
+=== {{S|prononciation}} ===
+* {{écouter|||lang=nl|audio=Nl-Québec.ogg}}
+
+== {{langue|no}} ==
+=== {{S|étymologie}} ===
+: Du {{étylp|fr|no|mot=Québec}}.
+
+=== {{S|nom propre|no}} ===
+'''Québec''' {{pron||no}}
+# {{provinces|no|du Canada}} {{lien|Québec|fr}}, province du Canada.
+
+== {{langue|pl}} ==
+=== {{S|étymologie}} ===
+: Du {{étylp|fr|pl|mot=Québec}}.
+
+=== {{S|nom propre|pl}} ===
+'''Québec''' {{pron||pl}}
+# {{provinces|pl|du Canada}} {{lien|Québec|fr}}, province du Canada.
+# {{localités|pl|du Québec}} Québec, capitale de cette province.
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=pl|Pologne (Varsovie)||audio=LL-Q809 (pol)-Olaf-Québec.wav}}
+
+== {{langue|ro}} ==
+=== {{S|étymologie}} ===
+: Du {{étylp|fr|ro|mot=Québec}}.
+
+=== {{S|nom propre|ro}} ===
+'''Québec''' {{pron||ro}}
+# {{provinces|ro|du Canada}} {{lien|Québec|fr}}, province du Canada.
+
+== {{langue|scn}} ==
+=== {{S|étymologie}} ===
+: Du {{étylp|fr|scn|mot=Québec}}.
+
+=== {{S|nom propre|scn}} ===
+'''Québec''' {{pron||scn}}
+# {{provinces|scn|du Canada}} {{lien|Québec|fr}}, province du Canada.
+
+=== {{S|prononciation}} ===
+* {{écouter|Gela (Italie)||lang=scn|audio=LL-Q33973 (scn)-XANA000-Québec.wav}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=scn}}
+
+== {{langue|sv}} ==
+=== {{S|étymologie}} ===
+: Du {{étylp|fr|sv|mot=Québec}}.
+
+=== {{S|nom propre|sv}} ===
+'''Québec''' {{pron||sv}}
+# {{provinces|sv|du Canada}} {{lien|Québec|fr}}, province du Canada.
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=sv}}
+
+== {{langue|tl}} ==
+=== {{S|étymologie}} ===
+: Du {{étylp|fr|tl|mot=Québec}}.
+
+=== {{S|nom propre|tl}} ===
+'''Québec''' {{pron||tl}}
+# {{provinces|tl|du Canada}} {{lien|Québec|fr}}, province du Canada.
+
+== {{langue|cs}} ==
+=== {{S|étymologie}} ===
+: Du {{étylp|fr|cs|mot=Québec}}.
+
+=== {{S|nom propre|cs}} ===
+{{cs-décl-nom-autre|sing=oui|rad=Québe|ns=c|vs=cu|vs2=ku|as=c|gs=cu|gs2=ku|ls=cu|ls2=ku|ds=cu|ds2=ku|is=cem|is2=kem}}
+'''Québec''' {{pron||cs}}
+# {{provinces|cs|du Canada}} {{lien|Québec|fr}}, province du Canada.
+#* {{exemple | lang=cs | kanadská provincie '''Québec'''.}}
+# {{localités|cs|du Québec}} Québec, capitale de cette province.
+#* {{exemple | lang=cs | pobyt ve městě '''Quebec'''.}}
+
+==== {{S|variantes}} ====
+* {{lien|Quebec|cs}}
+
+==== {{S|gentilés}} ====
+* {{lien|québecký|cs}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=cs}}
+
+=== {{S|références}} ===
+* {{R:ÚJČ}}
+
+== {{langue|vi}} ==
+=== {{S|étymologie}} ===
+: Du {{étylp|fr|vi|mot=Québec}}.
+
+=== {{S|nom propre|vi}} ===
+'''Québec''' {{pron|ke˦.ɓɛk˦˥|vi}}
+# {{provinces|vi|du Canada}} {{lien|Québec|fr}}, province du Canada.
+# {{localités|vi|du Québec}} Québec, capitale de cette province.
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=vi}}
+
+[[Catégorie:Toponymes dont l’origine est un paysage en français]]

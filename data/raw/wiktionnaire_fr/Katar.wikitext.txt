@@ -1,0 +1,294 @@
+{{voir|katar}}
+
+== {{langue|fr}} ==
+=== {{S|nom propre|fr}} ===
+{{fr-inv|ka.taʁ|inv_titre=Nom propre}}
+'''Katar''' {{pron|ka.taʁ|fr}}
+# {{variante ortho de|Qatar|fr}}.
+#* {{exemple | lang=fr
+ | Il existe des usines [de dessalement de l’eau de mer] au '''Katar''', en Israël, en Californie, en Floride, en Union soviétique, à Jersey et Guernesey, etc., et des micro-usines en de nombreux pays.
+ | source=[[w:Alfred Sauvy|Alfred {{pc|Sauvy}}]], ''Croissance zéro ?'', Paris, Calmann-Lévy, 331 pages, 1973}}
+
+==== {{S|gentilés}} ====
+* [[Katari]], [[Katarie]]
+* [[katari]], [[katarie]]
+* [[Katarien]], [[Katarienne]]
+* [[katarien]], [[katarienne]]
+* [[Katariote]] {{cf|lang=fr|-iote}}
+* [[katariote]]
+
+=== {{S|anagrammes}} ===
+{{voir anagrammes|fr}}
+
+[[Catégorie:Qatar en français|*]]
+
+== {{langue|af}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étylp|ar|af|mot=قطر|tr=Qaṭar}}.
+
+=== {{S|nom propre|af}} ===
+'''Katar''' {{pron||af}}
+# {{pays|af|d’Asie}} {{lien|Qatar|fr}}.
+#* {{exemple|lang=af}}
+
+== {{langue|gsw}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étylp|ar|gsw|mot=قطر|tr=Qaṭar}}.
+
+=== {{S|nom propre|gsw}} ===
+'''Katar''' {{pron||gsw}}
+# {{pays|gsw}} {{lien|Qatar|fr}}.
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=gsw}}
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|ar|de|mot=قطر|tr=Qaṭar}}.
+
+=== {{S|nom propre|de}} ===
+{{de-nom-propre|genre=n|gs=Katars}}
+'''Katar''' {{pron|kaˈtaːɐ̯|de}}, {{pron|ˈkataʁ|de}}, {{pron|ˈkaːtaʁ|de}} {{n}}
+# {{pays|de|d’Asie}} {{lien|Qatar|fr}}.
+#* {{exemple|Die WM nach '''Katar''' zu vergeben, war ein Fehler. Ich werde nicht hinfliegen.|lang=de|sens=Attribuer la Coupe du monde au Qatar était une erreur. Je n'y vais pas.|source={{périodique|auteur=Philipp Lahm|titre=Warum die WM nicht nach Katar gehört|journal=Die Zeit|date=13 novembre 2022|texte=https://www.zeit.de/sport/2022-11/fussball-wm-katar-menschenrechte-fifa-philipp-lahm}}}}
+
+=== {{S|prononciation}} ===
+* {{écouter|Berlin|kaˈtaːɐ̯|lang=de|audio=De-Katar.ogg}}
+
+[[Catégorie:Qatar en allemand|*]]
+
+== {{langue|nds}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étylp|ar|nds|mot=قطر|tr=Qaṭar}}.
+
+=== {{S|nom propre|nds}} ===
+'''Katar''' {{pron||nds}}
+# {{pays|nds|d’Asie}} {{lien|Qatar|fr}}.
+
+== {{langue|dsb}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étylp|ar|dsb|mot=قطر|tr=Qaṭar}}.
+
+=== {{S|nom propre|dsb}} ===
+'''Katar''' {{pron||dsb}}
+# {{pays|dsb}} {{lien|Qatar|fr}}.
+
+== {{langue|bs}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étylp|ar|bs|mot=قطر|tr=Qaṭar}}.
+
+=== {{S|nom propre|bs}} ===
+'''Katar''' {{pron||bs}}
+# {{pays|bs|d’Asie}} {{lien|Qatar|fr}}.
+
+== {{langue|br}} ==
+=== {{S|nom propre|br}} ===
+{{br-nom-pr|Katar}}
+'''Katar''' {{pron|ˈka.tar|br}}
+# {{variante ortho de|Qatar|br}}.
+#* {{exemple | lang=br
+ | Diouzh ar pezh a skrive Mohamed Jaham Al Kuwari, kannadour '''Katar''' e Bro-Cʼhall, e 2010 e oa mennet e vro da aozañ ar Gip evit abegoù sportel hag ekonomikel evel-just met ivez ha dreist-holl evit abegoù politikel ha sokial…
+ | D’après ce qu’écrivait Mohamed Jaham Al Kuwari, ambassadeur du Qatar en France, en 2010 le pays avait la volonté d’organiser la Coupe [du monde de football] pour des raisons sportives et économiques, mais aussi et surtout pour des raisons politiques et sociales…
+ | source=J.P. et M.J., ''Kib ar bed er Qatar'', in ''{{w|Ya !}}'', {{numéro|904}}, 7 octobre 2022, page 11}}
+
+== {{langue|kw}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étylp|ar|kw|mot=قطر|tr=Qaṭar}}.
+
+=== {{S|nom propre|kw}} ===
+'''Katar''' {{pron||kw}}
+# {{pays|kw}} {{lien|Qatar|fr}}.
+
+== {{langue|ht}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étylp|ar|ht|mot=قطر|tr=Qaṭar}}.
+
+=== {{S|nom propre|ht}} ===
+'''Katar''' {{pron||ht}}
+# {{pays|ht|d’Asie}} {{lien|Qatar|fr}}.
+
+== {{langue|hr}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étylp|ar|hr|mot=قطر|tr=Qaṭar}}.
+
+=== {{S|nom propre|hr}} ===
+'''Katar''' {{pron||hr}}
+# {{pays|hr|d’Asie}} {{lien|Qatar|fr}}.
+
+== {{langue|et}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étylp|ar|et|mot=قطر|tr=Qaṭar}}.
+
+=== {{S|nom propre|et}} ===
+'''Katar''' {{pron||et}}
+# {{pays|et|d’Asie}} {{lien|Qatar|fr}}.
+
+== {{langue|fy}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étylp|ar|fy|mot=قطر|tr=Qaṭar}}.
+
+=== {{S|nom propre|fy}} ===
+'''Katar''' {{pron||fy}}
+# {{pays|fy|d’Asie}} {{lien|Qatar|fr}}.
+
+== {{langue|hsb}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étylp|ar|hsb|mot=قطر|tr=Qaṭar}}.
+
+=== {{S|nom propre|hsb}} ===
+'''Katar''' {{pron||hsb}}
+# {{pays|hsb}} {{lien|Qatar|fr}}.
+
+== {{langue|hu}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étylp|ar|hu|mot=قطر|tr=Qaṭar}}.
+
+=== {{S|nom propre|hu}} ===
+'''Katar''' {{pron||hu}}
+# {{pays|hu|d’Asie}} {{lien|Qatar|fr}}.
+
+== {{langue|io}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étylp|ar|io|mot=قطر|tr=Qaṭar}}.
+
+=== {{S|nom propre|io}} ===
+'''Katar''' {{pron||io}}
+# {{pays|io|d’Asie}} {{lien|Qatar|fr}}.
+
+== {{langue|ie}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étylp|ar|ie|mot=قطر|tr=Qaṭar}}.
+
+=== {{S|nom propre|ie}} ===
+'''Katar''' {{pron||ie}}
+# {{pays|ie}} {{lien|Qatar|fr}}.
+
+== {{langue|is}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étylp|ar|is|mot=قطر|tr=Qaṭar}}.
+
+=== {{S|nom propre|is}} ===
+'''Katar''' {{pron||is}}
+# {{pays|is|d’Asie}} {{lien|Qatar|fr}}.
+
+== {{langue|li}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étylp|ar|li|mot=قطر|tr=Qaṭar}}.
+
+=== {{S|nom propre|li}} ===
+'''Katar''' {{pron||li}}
+# {{pays|li}} {{lien|Qatar|fr}}.
+
+== {{langue|nov}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étylp|ar|nov|mot=قطر|tr=Qaṭar}}.
+
+=== {{S|nom propre|nov}} ===
+'''Katar''' {{pron||nov}}
+# {{pays|nov|d’Asie}} {{lien|Qatar|fr}}.
+
+== {{langue|pl}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étylp|ar|pl|mot=قطر|tr=Qaṭar}}.
+
+=== {{S|nom propre|pl}} ===
+'''Katar''' {{pron||pl}}
+# {{pays|pl|d’Asie}} {{lien|Qatar|fr}}.
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=pl||audio=Pl-Katar.ogg}}
+
+[[Catégorie:Qatar en polonais|*]]
+
+== {{langue|sh}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étylp|ar|sh|mot=قطر|tr=Qaṭar}}.
+
+=== {{S|nom propre|sh}} ===
+'''Katar''' {{pron||sh}}
+# {{pays|sh|d’Asie}} {{lien|Qatar|fr}}.
+
+== {{langue|sk}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étylp|ar|sk|mot=قطر|tr=Qaṭar}}.
+
+=== {{S|nom propre|sk}} ===
+'''Katar''' {{pron||sk}}
+# {{pays|sk|d’Asie}} {{lien|Qatar|fr}}.
+
+== {{langue|sl}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étylp|ar|sl|mot=قطر|tr=Qaṭar}}.
+
+=== {{S|nom propre|sl}} ===
+{{sl-décl-nmm|Katar|pdp=oui}}
+'''Katar''' {{pron||sl}} {{m|i}} {{s}}
+# {{pays|sl|d’Asie}} {{lien|Qatar|fr}}.
+
+== {{langue|cs}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étylp|ar|cs|mot=قطر|tr=Qaṭar}}.
+
+=== {{S|nom propre|cs}} ===
+'''Katar''' {{pron||cs}}
+# {{pays|cs|d’Asie}} {{lien|Qatar|fr}}.
+
+==== {{S|gentilés}} ====
+* {{lien|Katařan|cs}}, {{lien|Katarec|cs}}
+* {{lien|Katarka|cs}}
+* {{lien|katarský|cs}}
+
+=== {{S|prononciation}} ===
+==== {{S|homophones|cs}} ====
+* {{lien|katar|cs}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=cs}}
+
+=== {{S|références}} ===
+* {{R:ÚJČ}}
+
+== {{langue|tr}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étylp|ar|tr|mot=قطر|tr=Qaṭar}}.
+
+=== {{S|nom propre|tr}} ===
+'''Katar''' {{pron||tr}}
+# {{pays|tr|d’Asie}} {{lien|Qatar|fr}}.
+
+=== {{S|prononciation}} ===
+* {{écouter|Izmir (Turquie)||lang=tr|audio=LL-Q256 (tur)-ToprakM-Katar.wav}}
+
+[[Catégorie:Qatar en turc|*]]
+
+== {{langue|tk}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étylp|ar|tk|mot=قطر|tr=Qaṭar}}.
+
+=== {{S|nom propre|tk}} ===
+'''Katar''' {{pron||tk}}
+# {{pays|tk}} {{lien|Qatar|fr}}.

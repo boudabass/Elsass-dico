@@ -1,0 +1,235 @@
+{{voir/italien}}
+
+== {{langue|fr}} ==
+=== {{S|étymologie}} ===
+: ''(~1265)'' Provient soit de l’italien ''[[italiano]]'', soit du mot ''[[Italie]]'' auquel s’est rajouté le suffixe ''[[-ien]]''.
+
+=== {{S|nom|fr}} ===
+{{fr-rég|i.ta.ljɛ̃}}
+'''Italien''' {{pron|i.ta.ljɛ̃|fr}} {{m}} {{équiv-pour|une femme|Italienne|lang=fr}}
+# {{gentilés|fr|d’Italie|clé=*}} [[habitant|Habitant]] ou [[originaire]] d’[[Italie]].
+#* ''J’avais hâte de revêtir ces beaux habits, mais avant de me les donner Vitalis leur fit subir une transformation qui me jeta dans un étonnement douloureux.<br
+/>En rentrant à l’auberge, il prit des ciseaux dans son sac et coupa les deux jambes de mon pantalon à la hauteur des genoux.<br
+/>Comme je le regardais avec des yeux ébahis :<br
+/>— Ceci est à seule fin, me dit-il, que tu ne ressembles pas à tout le monde. Nous sommes en France, je t’habille en '''Italien''' ; si nous allons en Italie, ce qui est possible, je t’habillerai en Français.'' {{source|{{w|Hector Malot}}, ''{{ws|Sans famille/Dentu, 1887/Première partie/1|Sans famille}}'', 1878}}
+#* {{exemple | lang=fr
+ | Il était '''Italien''' et il avait une insouciance, une amabilité, une facilité pour se plier aux difficultés sans se fâcher ou se révolter, que n’ont pas les gens de mon pays, plus disposés à la résistance et à la lutte.
+ | source=Hector Malot, ''{{ws|Sans famille/Dentu, 1887/Texte entier|Sans famille}}'', 1878}}
+#* {{exemple|lang=fr|
+Les '''Italiens''' prirent les armes avec nous, mais ces soldats ne sont propres qu’au pillage et au jeu. Il faut toujours être sur ses gardes avec ce peuple jaloux ; votre vie est en danger jour et nuit.
+|source={{w|Jean-Roch Coignet}}, « ''Les cahiers du capitaine Coignet (1799-1815)'' », Hachette, 1899, page 118}}
+#* {{exemple|lang=fr|À quoi tous, d’une seule voix, répondirent qu’un coquin italien en vaut trois et que trois '''Italiens''' honnêtes ne valent point le tiers d’un honnête François.|source={{w|Romain Rolland}}, ''Colas Breugnon'', 1919}}
+#* {{exemple | lang=fr
+ | […] et, malgré tout, les '''Italiens''' du Gers semblent ne pas être inaccessibles aux enveloppements qui devront conduire à leur assimilation.
+ | source={{Citation/Ludovic Naudeau/La France se regarde/1931}}}}
+#* {{exemple | lang=fr
+ | Elle n'était pas amoureuse, mais elle aimait paraître avec le bel '''Italien''' qui exhibait sa fortune de manière un peu ostentatoire et démontrait un dilettantisme ajoutant à son charme.
+ | source=Justine Laval, ''Les Romanesques'', tome 5 : ''L'enfant de l'amour'', Éditions 92, 2011, chapitre 3}}
+
+==== {{S|notes}} ====
+: {{note-gentilé|nocat}}
+
+==== {{S|synonymes}} ====
+* [[macaroni]] {{péjoratif|nocat=1}}
+* [[rital]] {{péjoratif|nocat=1}}
+
+==== {{S|traductions}} ====
+{{trad-début}}
+* {{T|de}} : {{trad+|de|Italiener}}
+* {{T|en}} : {{trad+|en|Italian}}
+* {{T|ast}} : {{trad+|ast|italianu}}
+* {{T|az}} : {{trad-|az|italyan}}
+* {{T|br}} : {{trad+|br|Italian|m}}, {{trad+|br|Italianed|p}}
+* {{T|bg}} : {{trad-|bg|италианец|m|tr=italianec}}, {{trad-|bg|италианка|f|tr=italianka}}
+* {{T|ca}} : {{trad+|ca|italià}}
+* {{T|ko}} : {{trad-|ko|이탈리아 사람|tr=Itallia saram}}
+* {{T|da}} : {{trad+|da|italiener}}
+* {{T|es}} : {{trad+|es|italiano}}
+* {{T|eo}} : {{trad-|eo|italo}} ''(homme ou femme)'', {{trad-|eo|italiĉo}} ''(homme)'', {{trad-|eo|italino}} ''(femme)''
+* {{T|et}} : {{trad-|et|itaallane}}
+* {{T|fi}} : {{trad+|fi|italialainen}}
+* {{T|el}} : {{trad+|el|Ιταλός|R=Italós}}
+* {{T|hu}} : {{trad+|hu|olasz}}
+* {{T|it}} : {{trad+|it|italiano|m}}
+* {{T|ja}} : {{trad+|ja|イタリア人|tr=Itariajin}}
+* {{T|lv}} : {{trad-|lv|itālis|m}}, {{trad-|lv|itālietis}}, {{trad-|lv|itāliete|f}}
+* {{T|lt}} : {{trad+|lt|italas|m}}, {{trad+|lt|italė|f}}
+* {{T|nl}} : {{trad+|nl|Italiaan|m}}, {{trad+|nl|Italiaanse|f}}
+* {{T|nb}} : {{trad-|no|italiener}}
+* {{T|nn}} : {{trad-|no|italienar}}
+* {{T|oc}} : {{trad+|oc|italian}}
+* {{T|pl}} : {{trad+|pl|Włoch|m}}, {{trad+|pl|Włoszka|f}}
+* {{T|pt}} : {{trad+|pt|italiano}}
+* {{T|ro}} : {{trad+|ro|italian|m}}, {{trad+|ro|italiană|f}}
+* {{T|ru}} : {{trad+|ru|итальянец|tr=ital’janec}}, {{trad+|ru|итальянка|f|tr=ital'janka}}
+* {{T|scn}} : {{trad+|scn|talianu|m}}
+* {{T|sk}} : {{trad+|sk|Talian|m}}, {{trad+|sk|Talianka|f}}
+* {{T|sl}} : {{trad+|sl|Italijan|m}}, {{trad-|sl|Italijanka|f}}
+* {{T|sv}} : {{trad+|sv|italienare}}
+* {{T|cs}} : {{trad+|cs|Ital|m}}, {{trad+|cs|Italka|f}}
+* {{T|uk}} : {{trad+|uk|італієць|m}}
+* {{T|vi}} : {{trad-|vi|người Ý}}
+* {{T|vo}} : {{trad-|vo|Litaliyänan}} ''(homme ou femme)'', {{trad-|vo|hi-Litaliyänan}} ''(homme)'', {{trad-|vo|ji-Litaliyänan}} ''(femme)''
+{{trad-fin}}
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=fr|France|audio=LL-Q150 (fra)-Fhala.K-Italien.wav}}
+* {{écouter|lang=fr|France (Paris)|audio=LL-Q150 (fra)-GrandCelinien-Italien.wav}}
+* {{écouter|Vendée (France)||lang=fr|audio=LL-Q150 (fra)-Sartus85-Italien.wav}}
+
+=== {{S|anagrammes}} ===
+{{voir anagrammes|fr}}
+
+=== {{S|voir aussi}} ===
+{{Autres projets
+|w=Italien (homonymie)}}
+
+[[Catégorie:Italie en français]]
+
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw}}
+
+=== {{S|nom propre|gsw}} ===
+'''Italien''' {{pron||gsw}}
+# {{term|Toponyme}} [[Italie#Français|Italie]] (pays d’Europe).
+
+[[Catégorie:Pays en alémanique]]
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: Du {{étylp|la|de|Italia}}.
+
+=== {{S|nom propre|de}} ===
+{{de-nom-propre|genre=n}}
+[[Fichier:EU-Italy.svg|vignette|'''Italien''' - Italie]]
+'''Italien''' {{pron|iˈtaːljən|de}} {{n}} {{au singulier uniquement|de}}
+# {{term|Toponyme}} [[Italie#Français|Italie]] (pays d’Europe).
+#* {{exemple|'''Italien''' kann auf eine ereignisreiche Geschichte zurückblicken.|sens=L’Italie peut se pencher sur une histoire riche en événements.|lang=de}}
+#* {{exemple|Detlef hat '''Italien''' viele Male bereist, deshalb kennt der das Land, seine Kultur und eine Traditionen ganz ausgezeichnet.|lang=de|sens=Detlef a voyagé de nombreuses fois en Italie, il connaît donc parfaitement le pays, sa culture et ses traditions.}}
+#* {{exemple|Pinocchio war das erste aller offiziellen EM-Maskottchen, und das in '''Italien''' 1980. Ob die Nase als Warnzeichen für Schiedsrichter oder Spieler gedacht war, gefälligst nicht zu flunkern, lässt sich heute nur mehr schwer deuten.|lang=de|sens=Pinocchio a été la première mascotte officielle du Championnat d'Europe, en Italie en 1980. Il est aujourd'hui difficile de interpréter si le nez a été conçu comme un signe d'avertissement pour les arbitres ou les joueurs afin qu'ils ne mentent pas.|source={{périodique|auteur=Michael Hausenblas|titre=EM-Maskottchen: Vom Gockel bis zur Lügennase|journal=Der Standard|date=8 juin 2024|texte=https://www.derstandard.at/story/3000000223028/em-maskottchen-vom-gockel-bis-zur-luegennase}}}}
+#* {{exemple|In '''Italien''' trägt man zum Jahresbeginn rote Unterwäsche, verspeist Linsen mit Cotechino, einer Schweinswurst, oder mit Zampone, gefülltem Schweinsfuß.|lang=de|sens=En Italie, on porte des sous-vêtements rouges en début d'année, on mange des lentilles avec du cotechino, une saucisse de porc, ou du zampone, un pied de porc farci.|source={{périodique|auteur=Titus Arnu|titre=Macht warm und glücklich: Linsencurry|journal=Süddeutsche Zeitung|date=2 janvier 2025|texte=https://www.sueddeutsche.de/stil/rezept-linsencurry-li.3136643}}}}
+
+==== {{S|notes}} ====
+En allemand, les pays n’ont généralement pas de déterminant.
+Si toutefois il y a besoin d'une déclinaison, ils sont supposés du genre neutre.
+
+==== {{S|synonymes}} ====
+* {{lien|Stiefel|de|sens=botte}}
+
+==== {{S|gentilés}} ====
+* [[Italiener]] (''Italien''), [[Italienerin]] (''Italienne'')
+* [[italienisch]] (''italien, italienne'')
+
+==== {{S|dérivés}} ====
+{{(}}
+* {{lien|Drittes Italien|de}}
+* {{lien|galloitalisch|de}}
+* {{lien|Italienaufenthalt|de}}
+* [[Italiener]] (''Italien''), [[Italienerin]] (''Italienne'')
+* {{lien|Italienfeldzug|de}}
+* {{lien|Italienfront|de}}
+* {{lien|italienisch|de|sens=italien, italienne}}
+* {{lien|Italienische Lira|de|sens=lire italienne}}
+* {{lien|Italienische Republik|de|sens=République italienne}}
+* {{lien|italienisieren|de|sens=italiniser}}
+* {{lien|Italienreise|de|sens=voyage en Italie}}
+* {{lien|Italienurlaub|de|sens=vacances en Italie}}
+* [[Italienurlauber]] (''vacancier en Italie''), [[Italienurlauberin]] (''vacancière en Italie'')
+* {{lien|Italienzug|de}}
+* {{lien|Mittelitalien|de}}
+* {{lien|mittelitalienisch|de}}
+* {{lien|Norditalien|de|sens=Italie du nord}}
+* {{lien|norditalienisch|de|sens=du nord de l'Italien}}
+* {{lien|Reichsitalien|de}}
+* {{lien|Süditalien|de|sens=Italie du sud}}
+* {{lien|süditalienisch|de|sens=du sud de l'Italie}}
+* {{lien|Oberitalien|de}}
+* {{lien|Unteritalien|de}}
+* {{lien|unteritalienisch|de}}
+* {{lien|unteritalienisch-keltisch|de}}
+* {{lien|unteritalienisch-normannisch|de}}
+{{)}}
+
+==== {{S|hyperonymes}} ====
+* {{lien|Land|de|sens=pays}}
+* {{lien|Staat|de|sens=pays}}
+
+=== {{S|prononciation}} ===
+* {{écouter|{{DE|nocat=1}}|iˈtaːli̯ən|lang=de|audio=De-Italien.ogg}}
+* {{écouter|{{DE|nocat=1}}|iˈtaːli̯ən|lang=de|audio=LL-Q188 (deu)-Natschoba-Italien.wav}}
+
+=== {{S|références}} ===
+{{Références}}
+
+==== {{S|sources}} ====
+* {{R:DWDS|Italien}}
+* {{R:Duden|Italien}}
+* {{Source-wikt|de|Italien}}
+
+==== {{S|bibliographie}} ====
+* Larousse - Dictionnaire allemand/français – français/allemand , éd. 1958, p 547.
+* Harrap’s de poche – Bordas Dictionnaire allemand/français, éd. 1997, ISBN 0-245-50308-0, p 159.
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=de}}
+
+=== {{S|anagrammes}} ===
+{{voir anagrammes|de}}
+
+[[Catégorie:Pays d’Europe en allemand]]
+[[Catégorie:Italie en allemand|*]]
+
+== {{langue|da}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|da|mot=Italien}}, issu du {{étylp|la|da|mot=Italia}}.
+
+=== {{S|nom propre|da}} ===
+'''Italien''' {{pron||da}}
+# {{term|Toponyme}} [[Italie#fr|Italie]] (pays d’Europe).
+
+[[Catégorie:Pays d’Europe en danois]]
+[[Catégorie:Italie en danois|*]]
+
+== {{langue|lb}} ==
+=== {{S|étymologie}} ===
+: Du {{étylp|la|lb|Italia}}.
+
+=== {{S|nom propre|lb}} ===
+{{lb-inv-en|pron=itˈaːliən|inv_titre=Nom propre}}
+'''Italien''' {{pron|itˈaːliən|lb}} {{n}}
+# {{pays|lb|d’Europe|pays=Italie|clé=*}} {{lien|Italie|fr}}.
+#* {{exemple|lang=lb}}
+
+==== {{S|notes}} ====
+* {{lb-n|np=oui}}
+
+==== {{S|gentilés}} ====
+* {{lien|Italieener|lb|sens=Italien}}, {{lien|Italieenerin|lb|sens=Italienne}}
+* {{lien|italieenesch|lb|sens=italien, italienne}}
+
+=== {{S|prononciation}} ===
+* {{pron|itˈaːliən|lb}}
+* {{écouter|lang=lb|Luxembourg|itˈaːliən|audio=Lb-Italien.ogg}}
+
+=== {{S|références}} ===
+: {{R:LOD}}
+
+== {{langue|sv}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|sv|mot=Italien}}, issu du {{étylp|la|sv|mot=Italia}}.
+
+=== {{S|nom propre|sv}} ===
+'''Italien''' {{pron||sv}}
+# {{term|Toponyme}} [[Italie#fr|Italie]] (pays d’Europe).
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=sv|Suède<!-- précisez svp la ville ou la région -->||audio=Sv-Italien.ogg}}
+* {{écouter|Suède||lang=sv|audio=LL-Q9027 (swe)-Moonhouse-Italien.wav}}
+
+[[Catégorie:Pays d’Europe en suédois]]
+[[Catégorie:Italie en suédois|*]]
+[[Catégorie:Toponymes dont l’origine est un ethnonyme en allemand]]
+[[Catégorie:Toponymes dont l’origine est un ethnonyme en danois]]
+[[Catégorie:Toponymes dont l’origine est un ethnonyme en luxembourgeois]]
+[[Catégorie:Toponymes dont l’origine est un ethnonyme en suédois]]

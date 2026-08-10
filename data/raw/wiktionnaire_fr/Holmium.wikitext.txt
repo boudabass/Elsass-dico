@@ -1,0 +1,63 @@
+{{voir|holmium}}
+
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw}}
+
+=== {{S|nom|gsw}} ===
+'''Holmium''' {{pron||gsw}} {{genre|gsw}}
+# {{éléments|gsw}} {{métaux|gsw}} [[holmium#fr|Holmium]].
+{{clr}}
+==== {{S|vocabulaire}} ====
+{{tableau périodique/gsw}}
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|de}}
+
+=== {{S|nom|de}} ===
+{{légende élément/de|Ho}}
+[[Image:Holmium2.jpg|thumb|'''Holmium'''.]]
+'''Holmium''' {{pron|ˈhɔlmi̯ʊm|de}} {{n}} {{au singulier uniquement|de}}
+# {{éléments|de}} {{métaux|de}} [[holmium#fr|Holmium]] (l’{{lien|élément chimique}} [[Ho#conv|Ho]]).
+#* {{exemple | lang=de | In der Natur kommt ''''Holmium'''' nur in Verbindungen vor.}}
+
+==== {{S|dérivés}} ====
+* {{lien|Holmiumfluorid|de}}
+* {{lien|Holmiumoxid|de}}
+{{clr}}
+==== {{S|vocabulaire}} ====
+* {{voir thésaurus|de|tableau périodique des éléments}}
+{{tableau périodique/de}}
+{{Liste|avant={{lien|Dysprosium|de}}<br>([[Dy#conv|Dy]])|après={{lien|Erbium|de}}<br>([[Er#conv|Er]])|liste=[[Thésaurus:tableau périodique des éléments/allemand|Éléments chimiques en allemand]]}}
+
+=== {{S|prononciation}} ===
+* {{pron|ˈhɔlmi̯ʊm|de}}
+* {{écouter||ˈhɔlmi̯ʊm|lang=de|audio=De-Holmium.ogg}}
+* {{écouter|lang=de|Allemagne (Berlin)|audio=LL-Q188 (deu)-Lucas Werkmeister-Holmium.wav}}
+* {{écouter|lang=de|Allemagne (Berlin)|audio=LL-Q188 (deu)-Sebastian Wallroth-Holmium.wav}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=de}}
+
+== {{langue|lb}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|lb}}
+
+=== {{S|nom|lb}} ===
+{{lb-inv|hˈolmi̯um}}
+'''Holmium''' {{pron|hˈolmi̯um|lb}} {{m}}, {{au singulier uniquement|lb}}
+# {{éléments|lb}} {{métaux|lb}} [[holmium#fr|Holmium]] (l’{{lien|élément chimique}} [[Ho#conv|Ho]]).
+{{clr}}
+==== {{S|vocabulaire}} ====
+{{tableau périodique/lb}}
+{{Liste|avant={{lien|Dysprosium|lb}}<br>([[Dy#conv|Dy]])|après={{lien|Erbium|lb}}<br>([[Er#conv|Er]])|liste=Éléments chimiques en luxembourgeois}}
+
+=== {{S|prononciation}} ===
+* {{écouter|Luxembourg||niveau=bon|lang=lb|audio=LL-Q9051 (ltz)-Procrastineur49-Holmium.wav}}
+
+=== {{S|références}} ===
+: {{R:LOD}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=lb}}

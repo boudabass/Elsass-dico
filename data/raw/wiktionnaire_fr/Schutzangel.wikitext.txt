@@ -1,0 +1,15 @@
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw}}
+
+=== {{S|nom|gsw}} ===
+'''Schutzangel''' {{pron||gsw}}
+# [[ange gardien|Ange gardien]].
+
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|nom|gsw-fr}} ===
+'''Schutzangel'''
+# [[ange gardien|Ange gardien]].

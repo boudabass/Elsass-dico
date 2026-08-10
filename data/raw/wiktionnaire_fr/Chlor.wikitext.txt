@@ -1,0 +1,109 @@
+{{voir|chlor}}
+
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw}}
+
+=== {{S|nom|gsw}} ===
+'''Chlor''' {{pron||gsw}}
+# {{éléments|gsw}} [[chlore|Chlore]].
+{{clr}}
+==== {{S|vocabulaire}} ====
+{{tableau périodique/gsw}}
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|de}}
+
+=== {{S|nom|de}} ===
+{{de-nom-n-sing}}
+{{légende élément/de|Cl|num=1}}
+[[Image:Chlorine_ampoule.jpg|thumb|'''Chlor'''. (2)]]
+'''Chlor''' {{pron|kloːɐ̯|de}} {{n}} ({{p}}: '''-''' )
+# {{éléments|de}} [[chlore#fr|Chlore]] (l’{{lien|élément chimique}} [[Cl#conv|Cl]]).
+#* {{exemple|Wir befüllen Pools mit Trinkwasser – und versetzen es dann mit '''Chlor'''. Wir waschen die Autos damit, spritzen die Terrasse ab.|lang=de|sens=Nous remplissons des piscines avec de l’eau potable - puis nous y ajoutons du chlore. Nous lavons les voitures avec, nous arrosons les terrasses.|source={{périodique|auteur=Guido Gluschitsch |titre=Trotz Wassermangels spülen wir das Klo mit Trinkwasser|journal=Der Standard|date=2 avril 2023|texte=https://www.derstandard.at/story/2000145110343/trotz-wassermangels-spuelen-wir-das-klo-mit-trinkwasser}}}}
+# {{info lex|chimie}} [[dichlore#fr|Dichlore]], chlore à l’état moléculaire (formule : {{fchim|Cl|2}}).
+
+==== {{S|synonymes}} ====
+* {{lien|Chlorgas|de}} (2)
+
+==== {{S|dérivés}} ====
+{{(|&nbsp;}}
+* {{lien|Antichlor|de}}
+* {{lien|Chloral|de}}
+* {{lien|Chloramin|de}}
+* {{lien|Chlorat|de}}
+* {{lien|Chlordioxid|de}}
+* {{lien|Chlordioxyd|de}}
+* {{lien|Chlorgas|de}}
+* {{lien|Chlorgeruch|de}}
+* {{lien|Chlorid|de}}
+* {{lien|Chlorit|de}}
+* {{lien|Chlorkalk|de}}
+* {{lien|Chlorkohlenstoff|de}}
+* {{lien|Chlorkohlenwasserstoff|de}}
+* {{lien|Chlornatrium|de}}
+* {{lien|Chlorsauerstoffsäure|de}}
+* {{lien|Chlorstickstoff|de}}
+* {{lien|Chlorsäure|de}}
+* {{lien|Chlorverbindung|de}}
+* {{lien|Chlorwasserstoff|de}}
+* {{lien|Chlorwasser|de}}
+* {{lien|Hyperchlorhydrie|de}}
+* {{lien|Hyperchlorämie|de}}
+* {{lien|Hypochlorhydrie|de}}
+* {{lien|Hypochlorämie|de}}
+* {{lien|Klinochlor|de}}
+* {{lien|Perchlorethylen|de}}
+* {{lien|Tetrachlorethylen|de}}
+* {{lien|Trichlorethylen|de}}
+* {{lien|chloren|de}}
+* {{lien|chlorfrei|de}}
+* {{lien|chlorhaltig|de}}
+* {{lien|chlorieren|de}}
+* {{lien|chlorig|de}}
+* {{lien|entchloren|de}}
+{{)}}
+{{clr}}
+==== {{S|vocabulaire}} ====
+* {{voir thésaurus|de|tableau périodique des éléments}}
+{{tableau périodique/de}}
+{{Liste|avant={{lien|Schwefel|de}} or {{lien|Sulfur|de}}<br>([[S#conv|S]])|après={{lien|Argon|de}}<br>([[Cl#conv|Cl]])|liste=[[Thésaurus:tableau périodique des éléments/allemand|Éléments chimiques en allemand]]}}
+
+==== {{S|hyperonymes}} ====
+* [[Bleichmittel]]
+* [[Giftgas]]
+* [[Halogen]] (1)
+* [[Desinfektionsmittel]]
+
+=== {{S|prononciation}} ===
+* {{écouter|Berlin|kloːɐ̯|lang=de|audio=De-Chlor2.ogg}}
+* {{écouter|{{DE|nocat=1}}|kloːɐ̯|lang=de|audio=De-Chlor.ogg}}
+* {{écouter|{{DE|nocat=1}}|kloːɐ̯|lang=de|audio=LL-Q188 (deu)-Lucas Werkmeister-Chlor.wav}}
+* {{écouter|Berlin|kloːɐ̯|lang=de|audio=LL-Q188 (deu)-Sebastian Wallroth-Chlor.wav}}
+* {{écouter|Munich|kloːɐ̯|lang=de|audio=LL-Q188 (deu)-Michael Schoenitzer (MichaelSchoenitzer)-Chlor.wav}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=de}}
+
+== {{langue|lb}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|lb}}
+
+=== {{S|nom|lb}} ===
+{{lb-inv|kloːʀ}}
+'''Chlor''' {{pron|kloːʀ|lb}} {{m}}, {{au singulier uniquement|lb}}
+# {{éléments|lb}} [[chlore#fr|Chlore]].
+#* {{exemple|lang=lb}}
+{{clr}}
+==== {{S|vocabulaire}} ====
+{{tableau périodique/lb}}
+
+=== {{S|prononciation}} ===
+* {{écouter|Angers (France)||niveau=bon|lang=lb|audio=LL-Q9051 (ltz)-Procrastineur49-Chlor.wav}}
+
+=== {{S|références}} ===
+: {{R:LOD}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=lb}}

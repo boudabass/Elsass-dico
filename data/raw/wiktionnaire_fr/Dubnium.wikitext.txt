@@ -1,0 +1,62 @@
+{{voir|dubnium}}
+
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw}}
+
+=== {{S|nom|gsw}} ===
+'''Dubnium''' {{pron||gsw}} {{genre|gsw}}
+# {{éléments|gsw}} {{métaux|gsw}} [[dubnium#fr|Dubnium]].
+{{clr}}
+==== {{S|vocabulaire}} ====
+{{tableau périodique/gsw}}
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|de}}
+
+=== {{S|nom|de}} ===
+{{légende élément/de|Db|Unp}}
+'''Dubnium''' {{pron|ˈdubniʊm|de}} {{n}} ({{p}}: '''—''' /-/)
+# {{éléments|de}} {{métaux|de}} [[dubnium#fr-nom-1|Dubnium]] (l’{{lien|élément chimique}} [[Db#conv|Db]].
+#* {{exemple | lang=de | '''Dubnium''' wurde 1967 entdeckt.}}
+
+==== {{S|synonymes}} ====
+* {{lien|Eka-Tantal|de}} {{désuet|nocat=1}}
+* {{lien|Hahnium|de}} {{désuet|nocat=1}}
+* {{lien|Joliotium|de}} {{désuet|nocat=1}}
+* {{lien|Nielsborhium|de}} {{désuet|nocat=1}}
+* {{lien|Unnilpentium|de}} {{désuet|nocat=1}}
+{{clr}}
+==== {{S|vocabulaire}} ====
+* {{voir thésaurus|de|tableau périodique des éléments}}
+{{tableau périodique/de}}
+{{Liste|avant={{lien|Rutherfordium|de}} ou {{lien|Unnilquadium|de}}<br>([[Rf#conv|Rf]])|après={{lien|Seaborgium|de}} ou {{lien|Eka-Wolfram|de}} {{désuet|nocat=1}} ou {{lien|Unnilhexium|de}} {{désuet|nocat=1}}<br>([[Db#conv|Db]])|liste=[[Thésaurus:tableau périodique des éléments/allemand|Éléments chimiques en allemand]]}}
+
+=== {{S|prononciation}} ===
+* {{pron|ˈdubniʊm|de}}
+* {{écouter||ˈdubniʊm|lang=de|audio=De-Dubnium.ogg}}
+* {{écouter|lang=de|Allemagne (Berlin)|audio=LL-Q188 (deu)-Lucas Werkmeister-Dubnium.wav}}
+* {{écouter|lang=de|Allemagne (Berlin)|audio=LL-Q188 (deu)-Sebastian Wallroth-Dubnium.wav}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=de}}
+
+== {{langue|lb}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|lb}}
+
+=== {{S|nom|lb}} ===
+{{lb-inv|dˈuːbni̯um}}
+'''Dubnium''' {{pron|dˈuːbni̯um|lb}} {{m}}, {{au singulier uniquement|lb}}
+# {{éléments|lb}} {{métaux|lb}} [[dubnium|Dubnium]].
+#* {{exemple|lang=lb}}
+{{clr}}
+==== {{S|vocabulaire}} ====
+{{tableau périodique/lb}}
+
+=== {{S|références}} ===
+: {{R:LOD}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=lb}}

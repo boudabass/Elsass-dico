@@ -1,0 +1,665 @@
+{{voir/er}}
+
+== {{langue|fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|fr}}
+
+=== {{S|nom|fr}} ===
+{{fr-rég|ɛʁ}}
+'''er''' {{pron|ɛʁ|fr}} {{m}}
+# Dix-huitième [[lettre]] de l’alphabet cyrillique, {{lien|р|ru}}.
+#* {{exemple|lang=fr}}
+# Trentième lettre de l’alphabet glagolitique, {{lien|Ⱏ|cu}}.
+#* {{exemple|lang=fr}}
+
+==== {{S|traductions}} ====
+{{trad-début|Lettre de l’alphabet cyrillique|1}}
+* {{T|it}} : {{trad+|it|er|f}}
+{{trad-fin}}
+
+{{trad-début|Lettre de l’alphabet glagolitique|2}}
+* {{T|it}} : {{trad-|it|jer|f}}, {{trad-|it|jer’|f}}
+{{trad-fin}}
+
+=== {{S|anagrammes}} ===
+{{voir anagrammes|fr}}
+
+== {{langue|adj}} ==
+=== {{S|étymologie}} ===
+: {{date|lang=adj}} {{ébauche-étym|adj}}
+
+=== {{S|nom|adj}} ===
+'''er''' {{pron||adj}}
+# {{lexique|anatomie|adj}} Les [[rein|reins]].
+#* {{exemple|lang=adj}}
+
+=== {{S|prononciation}} ===
+{{ébauche-pron-audio|adj}}
+
+== {{langue|af}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|af}}
+
+=== {{S|nom|af}} ===
+{{af-nom|n.s=er|n.pl=erre|n.pl2=ers|dim.s=erretjie|dim.pl=erretjies}}
+'''er''' {{pron||af}}
+# ''Nom de la lettre latine'' « [[R]], [[r]] ».
+#* {{exemple|lang=af}}
+
+=== {{S|prononciation}} ===
+* {{écouter|||lang=af|audio=LL-Q14196 (afr)-Oesjaar-er.wav}}
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw}}
+
+=== {{S|pronom personnel|gsw}} ===
+'''er''' {{pron||gsw}}
+# [[il|Il]].
+
+==== {{S|vocabulaire}} ====
+{{pronoms_personnels/gsw}}
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|gmh|de|er}}, du {{étyl|goh|de|er}}, du {{étyl|proto-germanique|de}} {{recons|lang-mot-vedette=de|[[Reconstruction:proto-germanique/*iz|iz]]}}. A remplacé les formes nordiques du {{goh}} avec {{pron|h|de}} initial.
+
+=== {{S|pronom personnel|de}} ===
+{{de-pronom|er|sie|es|sie|seiner|ihrer|seiner|ihrer|ihm|ihr|ihm|ihnen|ihn|sie|ihn|sie}}
+'''er''' {{pron|ʔɛʁ|de}}, {{pron|ʔeːɐ̯|de}} {{m}} {{nominatif|de}}
+# [[pronom personnel|Pronom personnel]] de la [[troisième personne du singulier]] [[masculin]] au [[nominatif]], pour parler d’une [[personne]], d’un animal ou d’un objet grammaticalement masculins ou directement d’une personne de sexe masculin (sans interposition d’un nom ayant un genre grammatical) : {{lien|il|fr}} (ou – selon le genre grammatical du nom français correspondant – {{lien|elle|fr}}).
+#* {{exemple|Ich sehe Ben nicht mehr. Wo ist '''er'''? ([[File:De-Ich sehe Ben nicht mehr. Wo ist er..ogg]])|lang=de|sens=Je ne vois plus Ben. Où est-il ?}}
+#* {{exemple|Schau mal da drüben. Ist '''er''' nicht süß? ([[File:De-Schau mal da drüben. Ist er nicht süß..ogg]])|lang=de|sens=Regarde là-bas. N’est-il pas mignon ?}}
+#* {{exemple|Im Frauengefängnis versuchte ein Häftling zu entkommen, aber '''er''' kam nicht weit. ([[File:De-Im Frauengefängnis versuchte ein Häftling zu flüchten, aber er kam nicht weit..ogg]])|lang=de|sens=Dans la prison pour femmes, une détenue a essayé de s’échapper, mais elle n’est pas allée bien loin.}}
+#* {{exemple|Der Kuchen steht auf dem Tisch. '''Er''' ist noch zu warm. ([[File:De-Der Kuchen steht auf dem Tisch. Er ist noch zu warm..ogg]])|lang=de|sens=Le gâteau est sur la table. Il est encore trop chaud.}}
+#* {{exemple|Mein Vater ist gegenwärtig in Wien. '''Er''' wird bald zurückkommen. ([[File:De-Mein Vater ist gegenwärtig in Wien. Er wird bald zurückkommen..ogg]])|lang=de|sens=Mon père est présentement à Vienne. Il va bientôt revenir.}}
+#* {{exemple|Hier ist mein Hund. '''Er''' heißt Waldi. ([[File:De-Hier ist mein Hund. Er heißt Waldi..ogg]])|lang=de|sens=Voici mon chien. Il s’appelle Waldi.}}
+#* {{exemple|Der Mond ist voll; '''er''' ist gut zu sehen. ([[File:De-Der Mond ist voll; er ist gut zu sehen..ogg]])|lang=de|sens=La lune est pleine ; elle est bien visible.}}
+
+==== {{S|vocabulaire}} ====
+{{pronoms_personnels/de}}
+
+=== {{S|prononciation}} ===
+* {{écouter|Berlin|eːɐ̯|lang=de|audio=De-er2.ogg}}
+* {{écouter||eːɐ̯|lang=de|audio=De-er-1.ogg}}
+* {{écouter|{{DE|nocat=1}}|eːɐ̯|lang=de|audio=De-er.ogg}}
+* {{écouter|{{DE|nocat=1}}|eːɐ̯|lang=de|audio=LL-Q188 (deu)-Lucas Werkmeister-er.wav}}
+* {{écouter|Genève (Suisse)|eːɐ̯|lang=de|audio=LL-Q188 (deu)-Nattes à chat-er.wav}}
+* {{écouter|{{FR|nocat=1}}|eːɐ̯|lang=de|audio=LL-Q188 (deu)-teste (Pamputt)-er.wav}}
+* {{écouter|Berlin|eːɐ̯|lang=de|audio=LL-Q188 (deu)-Sebastian Wallroth-er.wav}}
+* {{écouter|{{DE|nocat=1}}|eːɐ̯|lang=de|audio=LL-Q188 (deu)-Student16 de-er.wav}}
+* {{écouter|{{DE|nocat=1}}|eːɐ̯|lang=de|audio=LL-Q188 (deu)-Natschoba-er.wav}}
+* {{écouter|||lang=de|audio=LL-Q188 (deu)-Djknusper-er.wav}}
+* {{écouter|Munich (Allemagne)||lang=de|audio=LL-Q188 (deu)-Ionenlaser-er.wav}}
+
+=== {{S|références}} ===
+* {{R:DWDS|er}}
+* ''Duden'' : [http://www.duden.de/rechtschreibung/er er]
+
+== {{langue|pro}} ==
+=== {{S|adverbe|pro|num=1}} ===
+'''er'''
+# {{variante de|aora|pro}}.
+
+=== {{S|adverbe|pro|num=2}} ===
+'''er'''
+# {{variante de|her|pro}}.
+
+=== {{S|anagrammes}} ===
+* {{lien|re|pro}}
+
+=== {{S|références}} ===
+* {{R:Raynouard}}
+
+== {{langue|en}} ==
+=== {{S|étymologie}} ===
+: Onomatopée.
+
+=== {{S|interjection|en}} ===
+'''er''' {{pron|ə|en}} {{UK|nocat=1}}
+# [[euh|Euh]]. {{note}} Exprime l’hésitation dans un discours.
+
+==== {{S|variantes orthographiques}} ====
+* {{lien|uh|en}} {{US|nocat=1}}
+
+==== {{S|synonymes}} ====
+* {{lien|erm|en|interj}}
+
+=== {{S|verbe|en}} ===
+{{en-conj-rég-cons|r|inf.pron=ˈɜː|ppr.psuf=.ɹɪŋ}}
+'''er''' {{pron|ˈɜː|en}} {{UK|nocat=1}}
+# Hésiter souvent durant un discours. {{note}} Utilisé presque exclusivement dans l’expression ''{{lien|um and er|en}}''.
+#: {{exemple|He ummed and '''erred''' his way through the presentation.|.|lang=en}}
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=en|États-Unis <!-- précisez svp la ville ou la région -->|ɝ|audio=En-us-er.ogg}}
+* {{écouter|Sud de l'Angleterre (Royaume-Uni)||lang=en|audio=LL-Q1860 (eng)-Vealhurl-er.wav}}
+* {{écouter|Texas (États-Unis)||lang=en|audio=LL-Q1860 (eng)-Wodencafe-er.wav}}
+
+==== {{S|homophones|en}} ====
+* {{lien|err|en}}
+
+== {{langue|br}} ==
+=== {{S|préposition|br|flexion}} ===
+'''er''' {{pron|ɛr|br}}
+# [[préposition|Préposition]] [[contracté]]e, [[formé]]e de la préposition ''{{lien|e|br|prép}}'' (« [[dans]] ») et de l’article défini ''{{lien|ar|br|art-déf}}'' (« [[le]]/[[la]]/[[les]] ») devant une consonne autre que ''d'', ''h'', ''l'', ''n'' et ''t''.
+#* {{exemple | lang=br
+ | '''Er''' gwasked emañ war ribl ar stêr Aon a red he dour goustadik, evel gant keuz, war-du Kastellin.
+ | Elle est à l’abri au bord de l’Aulne dont l’eau coule lentement, comme avec regret, vers Châteaulin.
+ | source={{Citation/Jakez Riou/An ti satanazet/1944|9}}}}
+#* {{exemple | lang=br
+ | « Un dra gaer e ve », eme un all, « klevout fallañ gaouiad a zo '''er''' vro (nemet me e ve) o vont da brezeg deomp, evel an aotrou person '''er''' gador, diwar-benn ar wirionez ! »
+ | « Il serait curieux », dit un autre, « d’entendre le pire menteur dans le pays, moi excepté, venir nous prêcher, à l’instar de Monsieur le curé dans la chaire, sur la vérité ! »
+ | source={{Citation/Troude ha Milin/Labous ar Wirionez/1950|5}}}}
+
+==== {{S|variantes}} ====
+* {{lien|el|br|flex-prép}} (''devant la consonne l'')
+* {{lien|en|br|flex-prép-2}} (''devant les consonnes d, h, n, t et les voyelles'')
+
+==== {{S|dérivés}} ====
+* {{lien|er-maez|br}}
+
+=== {{S|pronom personnel|br}} ===
+'''er''' {{pron|er|br}} {{m}}
+# [[le#fr-pronom-pers|Le]] ([[complément d’objet direct]] placé avant le verbe).
+#* {{exemple|Ni rànco dont abenn da ellout en laza,<br />Pa '''er''' cʼhavimp cousqet ; ze a vo ar güella.
+|sens=Nous devrons parvenir à pouvoir le tuer, quand nous le trouverons endormi ; ce sera le mieux.
+|lang=br
+|source=Alexandre Lédan, ''Buez ar Pêvar Mab Emon'', Morlaix, [[s:br:Buez ar Pêvar Mab Emon|1848]], page 416}}
+#* {{exemple|'''Er''' gwelet a ran mat, amañ el liorzh : bez’ ez eus plant ha n’int ket bet hadet ganin hag a sav koulskoude hep bezañ goulennet aotre diganin.
+|sens=Je le vois bien, ici dans le jardin : il y a des plantes qui n’ont pas été semées par moi et qui poussent pourtant sans m’avoir demandé la permission.
+|lang=br
+|source={{w|Job an Irien}}, ''Hadañ'', in ''{{w|Ya !}}'', {{numéro|890}}, {{1er|juillet}} 2022, page 9}}
+
+;Note
+: Mutation de ''k'' en ''cʼh'' après le pronom personnel ''er''.
+
+==== {{S|variantes orthographiques}} ====
+* {{lien|her|br|pronom-pers}} {{vieilli|nocat}}
+
+==== {{S|variantes}} ====
+* {{lien|e|br|pronom-pers}}
+* {{lien|el|br|pronom-pers}} (''devant un verbe commençant par ''l)
+* {{lien|en|br|pronom-pers}} (''devant un verbe commençant par ''h'', ''n'', ''d'', ''t'' ou une voyelle, et parfois devant toute initiale'')
+
+==== {{S|synonymes}} ====
+* [[anezhañ]] (après le verbe)
+
+=== {{S|prononciation}} ===
+* {{écouter|Bretagne (France)||niveau=bon|lang=br|audio=LL-Q12107 (bre)-Ltranvz-er.wav}}
+
+=== {{S|anagrammes}} ===
+* {{lien|re|br}}
+
+== {{langue|kw}} ==
+=== {{S|étymologie}} ===
+: (Nom 1 et 3) Du {{étyl|proto-celtique|kw}} {{recons|lang-mot-vedette=kw|eriros|proto-celtique}}, lui-même issu du {{étyl|indo-européen commun|kw}} {{recons|lang-mot-vedette=kw|h₃érō|indo-européen commun}} désignant un « grand oiseau ». Comparé au breton ''{{lien|erer|br}}'', au gallois ''{{lien|eryr|cy}}'', et au vieil irlandais ''{{lien|irar|sga}}.
+
+=== {{S|nom|kw|num=1}} ===
+{{kw-nom|n.s=er|n.pl=eryon|n.pl2=eres}}
+'''er''' {{pron|ɛ:r|kw}}
+# [[aigle|Aigle]].
+
+=== {{S|nom|kw|num=2}} ===
+{{kw-nom|n.s=er|n.pl=erys}}
+'''er'''
+# [[héritier|Héritier]].
+
+=== {{S|nom|kw|num=3}} ===
+'''er'''
+# ''Mutation adoucie de'' {{lien|ger|kw}}.
+
+=== {{S|références}} ===
+* {{lien web|url= http://www.cornishdictionary.org.uk/browse?field_word_value=er|titre=er|site=cornishdictionary.org}}
+
+== {{langue|da}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|da}}
+
+=== {{S|verbe|da|flexion}} ===
+'''er''' {{pron|ˈæɐ̯|da}}
+# ''Présent de'' {{lien|være|da}}.
+#: ''En 26-årig mand '''er''' død, efter at han lørdag morgen blev ramt af et S-tog.''
+#:: Un homme de 26 ans '''est''' décédé samedi matin après avoir été touché par un sprinter.
+
+== {{langue|fo}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|fo}}
+
+=== {{S|verbe|fo|flexion}} ===
+'''er''' {{pron||fo}}
+# ''Présent de'' {{lien|vera|fo}}.
+#: ''Noreg er kongsveldi.''
+#:: La Norvège '''est''' une monarchie.
+
+== {{langue|frp}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|frp|mot=}}.
+
+=== {{S|nom|frp}} ===
+'''er''' {{pron||frp}} {{m}}
+# [[air#fr|Air]].
+
+==== {{S|notes}} ====
+: Forme du valdôtain d’Arnad, Brusson, Valgrisenche, Valtournenche.
+
+==== {{S|variantes}} ====
+{{(|Suisse romande}}
+* [[ê#frp|ê]] ''(valaisan de Bagnes)''
+{{)}}
+{{(|Val d’Aoste}}
+* [[è#frp|è]] ''(valdôtain de Courmayeur)''
+* [[èa]] ''(valdôtain d’Introd)''
+* [[èe]] ''(valdôtain de Charvensod)''
+* [[ér]] ''(valdôtain de Montjovet)''
+{{)}}
+
+=== {{S|références}} ===
+* {{lien brisé|consulté le=2013-05-05|url=http://www.patoisvda.org/gna/index.cfm/patois-glossaire-francoprovencal-dictionnaire.html|titre=Glossaire du valdôtain}}
+
+== {{langue|fy}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|fy}}
+
+=== {{S|pronom personnel|fy}} ===
+'''er''' {{pron||fy}}
+# [[il|Il]].
+#: ''Doe't '''er''' in swolch naam''.
+#: ''Quand '''il''' prit une hirondelle'' (littéralement : « quand il une hirondelle prit ».
+
+==== {{S|notes}} ====
+: « Er » s'emploie avant l'objet d'une phrase ou après le verbe, s'il y en a un. Il n'est jamais le premier mot d'une phrase.
+: Dans le discours narratif, '''er''' est utilisé au passé. Dans d'autres cas ''{{lien|hy|fy}}''.
+
+== {{langue|is}} ==
+=== {{S|verbe|is|flexion}} ===
+'''er''' {{pron||is}}
+# ''Première personne du singulier du présent de l’indicatif de'' {{lien|vera|is}}.
+# ''Troisième personne du singulier du présent de l’indicatif de'' {{lien|vera|is}}.
+
+=== {{S|prononciation}} ===
+* {{écouter|Islande||lang=is|audio=LL-Q294 (isl)-Stupidmarxon-er.wav}}
+
+=== {{S|références}} ===
+* {{R:Bjarnason|p=98}}
+
+== {{langue|it}} ==
+=== {{S|étymologie}} ===
+: {{date|lang=it}} {{ébauche-étym|it}}
+
+=== {{S|article défini|it}} ===
+'''er''' {{pron|er|it}} {{m}}
+# {{Rome|it}} [[le|Le]], ce … dont on parle maintenant. Déterminant marquant un nom masculin singulier, référant à une seule entité possible dans un contexte.
+
+=== {{S|nom|it}} ===
+{{it-inv}}
+'''er''' {{pron||it}} {{f}}
+# [[erre#fr|Erre]], dix-huitième lettre de l’alphabet cyrillique.
+#* {{exemple|lang=it}}
+
+=== {{S|anagrammes}} ===
+{{voir anagrammes|it}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=it}}
+
+== {{langue|xkw}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|xkw}}
+
+=== {{S|nom|xkw}} ===
+'''er''' {{pron||xkw}}
+# [[eau#fr|Eau]].
+
+=== {{S|références}} ===
+* Foley, William A. (2018). ''The languages of Northwest New Guinea''. Dans Palmer, Bill (ed.). [https://web.archive.org/web/20191001061524/https://www.degruyter.com/viewbooktoc/product/185025 The Languages and Linguistics of the New Guinea Area: A Comprehensive Guide. The World of Linguistics]. 4. Berlin: De Gruyter Mouton. pp. 433–568. ISBN 978-3-11-028642-7, page 463.
+
+== {{langue|avk}} ==
+=== {{S|verbe|avk|flexion}} ===
+{{avk-tab-conjug|é|e}}
+'''er''' {{pron|ɛr|er|avk}}
+# ''Troisième personne du singulier du présent de'' [[é#avk|é]]'' (« professer »).''
+
+=== {{S|anagrammes}} ===
+* {{lien|re|avk}}
+
+=== {{S|références}} ===
+*{{Kotapedia|h_e}}
+*{{R:avk-grammaire|p=23}}
+[[Catégorie:Mots en kotava suffixés avec -r]]
+
+== {{langue|la}} ==
+=== {{S|nom|la}} ===
+{{la-tab-3i-mf|er|er}}
+'''ēr''' {{pron-recons||la}} {{m}}
+# {{variante de|her|la}}.
+
+==== {{S|dérivés}} ====
+* [[ericius#la|ericius]]
+
+=== {{S|anagrammes}} ===
+* {{lien|re|la}}
+
+=== {{S|références}} ===
+* {{R:Gaffiot}}
+
+== {{langue|li}} ==
+=== {{S|étymologie}} ===
+: Mutation figée de ''{{lien|her|li}}''.
+
+=== {{S|adverbe|li}} ===
+'''er''' {{pron||li}}
+# [[ici|Ici]].
+
+=== {{S|prononciation}} ===
+* {{term|Etsbergs}} {{pron|ær|li}}
+
+=== {{S|références}} ===
+* {{ouvrage|auteur=Mathilde Jansen, Nicoline van der Sijs, Fieke van der Gucht, Johan De Caluwe|titre=Atlas van de Nederlandse Taal|éditeur=Lannoo|date=2017|passage=137}}
+
+== {{langue|lb}} ==
+=== {{S|étymologie}} ===
+{{ébauche-étym|lb}}
+
+=== {{S|pronom personnel|lb}} ===
+{{lb-inv|ɐ|inv_titre=Pronom}}
+'''er''' {{pron|ɐ|lb}} {{datif|lb}}
+# [[lui|Lui]], [[elle]].
+#* {{exemple|lang=lb}}
+
+==== {{S|vocabulaire}} ====
+{{pronoms personnels/lb}}
+
+=== {{S|références}} ===
+: {{R:LOD}}
+
+== {{langue|mrs}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|mrs}}
+
+=== {{S|pronom personnel|mrs}} ===
+'''er''' {{pron||mrs}} {{p}}
+# [[ils#fr|Ils]], [[elles]], [[les]].
+#* {{exemple|lang=mrs}}
+
+==== {{S|vocabulaire}} ====
+{{pronoms personnels/mrs}}
+
+=== {{S|références}} ===
+* {{R:Crowley 2006}}
+
+== {{langue|nl}} ==
+=== {{S|étymologie}} ===
+: (Adverbe 1) Forme affaiblie de ''{{lien|der|nl}}'', forme non accentuée de ''{{lien|daar|nl}}''.
+: (Adverbe 2) {{date|lang=nl|1237}} Du {{étyl|odt|nl|iro}}.
+
+=== {{S|adverbe|nl|num=1}} ===
+'''er'''
+# ''Adverbe indéfini de lieu'', [[quelque part]], [[là]], [[y]].
+#: ''We zijn er bijna.''
+#:: Nous '''y''' sommes presque.
+# ''Adverbe locatif'', [[lui]], [[elle]], [[eux]]. {{note}} il est dans ce cas accompagné d'une préposition : ''[[ermee]]'', etc.
+
+=== {{S|adverbe|nl|num=2}} ===
+'''er'''
+# ''Partitif avec omission de'' {{lien|van|nl}}.
+#: ''Hij heeft '''er''' drie van'' donne ''hij heeft '''er''' drie''.
+#:: Il '''en''' a trois.
+# Adverbe formant la forme impersonnelle des verbes transitifs au passif.
+#: '''''Er''' werden veel broden gebakken''.
+#:: ''Beaucoup de pains ont été cuits''.
+# Adverbe formant la forme impersonnelle des verbes non [[ergatif]] au passif.
+#: '''''Er''' werd gelachen en gejoeld''.
+#:: '''Il''' y avait des éclats de rire et des cris.
+
+==== {{S|synonymes}} ====
+* (Sens 1) {{lien|ervan|nl}}
+
+==== {{S|dérivés}} ====
+* {{lien|er zijn|nl}}
+
+=== {{S|taux de reconnaissance}} ===
+{{nl-taux|98,7|98,8|pourB=99|pourNL=99}}
+
+=== {{S|anagrammes}} ===
+* {{lien|re|nl}}
+
+=== {{S|prononciation}} ===
+* {{pron|ɛr|ər|nl}}
+** {{écouter|lang=nl|Pays-Bas <!-- précisez svp la ville ou la région -->||audio=nl-er.ogg}}
+
+=== {{S|références}} ===
+* {{lien web|url=http://woordenlijst.org/#/?q=er|titre=er|site=Woordenlijst Nederlandse Taal|auteur=Nederlandse Taalunie}}
+* {{ouvrage|titre=Chronologisch woordenboek, De ouderdom en herkomst van onze woorden en betekenissen|année=2001|prénom=Nicoline|nom=van der Sijs|passage=865|url=https://www.dbnl.org/tekst/sijs002chro01_01/sijs002chro01_01_0035.php}}
+{{Références}}
+
+== {{langue|no}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|no}}
+
+=== {{S|verbe|no|flexion}} ===
+'''er''' {{pron||no}}
+# ''Présent de'' {{lien|være|no}}.
+
+=== {{S|prononciation}} ===
+* {{écouter|Bærum (Norvège)||lang=no|audio=LL-Q9043 (nor)-Telaneo-er.wav}}
+
+== {{langue|nn}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|nn}}
+
+=== {{S|verbe|nn|flexion}} ===
+'''er'''
+# ''Présent de'' {{lien|vera|nn}}.
+# ''Présent de'' {{lien|vere|nn}}.
+
+== {{langue|oc}} ==
+=== {{S|article défini|oc|flexion}} ===
+{{oc-accord-mixte|ms=eth|pms=et͡ʃ|fs=era|pfs=ˈeɾo̯|mp=eths|pmp=et͡s|fp=eras|pfp=ˈeɾo̯s}}
+'''er''' {{pron|eɾ|oc}} {{oc-norme classique}} {{m}}
+# {{oc gascon}} {{variante ortho de|eth|oc}} (article défini masculin singulier), devant une voyelle, [[le#fr|le]].
+#* {{exemple|lang=oc|'''er''' amic.|l’ami.}}
+
+==== {{S|variantes orthographiques}} ====
+* [[eth#oc|eth]] {{oc gascon|nocat=1}}
+* [[er’#oc|er’]] {{oc gascon|nocat=1}}
+
+{{articles définis pyrénéens/oc gascon}}
+
+==== {{S|variantes dialectales}} ====
+* {{lien|lo|oc}} ''(occitan général)''
+
+=== {{S|références}} ===
+* {{R:Lo Congrès}}
+* {{R:Guilhemjoan Harrer}}
+* {{R:Guilhemjoan gram}}
+
+== {{langue|pl}} ==
+=== {{S|nom|pl|flexion}} ===
+'''er''' {{pron|ɛr|pl}}
+# ''Génitif pluriel de'' {{lien|era|pl}}.
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=pl|Pologne (Varsovie)||audio=LL-Q809 (pol)-Poemat-er.wav}}
+
+== {{langue|sco}} ==
+=== {{S|étymologie}} ===
+: ''(Adverbe, préposition, conjonction)'' Du {{étyl|vieil écossais|sco|er}}.
+
+=== {{S|adverbe|sco}} ===
+'''er''' {{pron|e:r|ɛr|ər|sco}}
+# [[tôt|Tôt]], [[bientôt]].
+
+==== {{S|variantes}} ====
+* {{lien|ere|sco}}
+* {{lien|air|sco}}
+* {{lien|ear|sco}}
+
+==== {{S|dérivés}} ====
+* {{lien|erist|sco}}
+* {{lien|erest|sco}}
+* {{lien|eerest|sco}}
+
+=== {{S|préposition|sco}} ===
+'''er''' {{pron|e:r|ɛr|ər|sco}}
+# [[avant|Avant]]. {{usage}} utilisé désormais dans des compositions.
+
+==== {{S|variantes}} ====
+* {{lien|ere|sco}}
+
+==== {{S|dérivés}} ====
+* {{lien|erefernyear|sco}}
+* {{lien|erethestreen|sco}}
+* {{lien|ereyesterday|sco}}
+
+=== {{S|conjonction|sco}} ===
+'''er''' {{pron|e:r|ɛr|ər|sco}}
+# [[avant|Avant]], [[jusqu'à]].
+
+==== {{S|variantes}} ====
+* {{lien|ere|sco}}
+
+=== {{S|nom|sco}} ===
+'''er''' {{pron|ɛ:r|sco}}
+# [[petite|Petite]] [[quantité]].
+
+==== {{S|variantes}} ====
+* {{lien|ar|sco}}
+
+=== {{S|références}} ===
+* {{R:DSL|ere_adv_prep_conj}}
+* {{R:DSL|snd8855}}
+
+== {{langue|sl}} ==
+=== {{S|nom|sl|flexion}} ===
+'''er''' {{pron||sl}} {{f}}
+# ''Génitif duel de'' [[era#sl|era]].
+# ''Génitif pluriel de'' [[era#sl|era]].
+
+== {{langue|sv}} ==
+=== {{S|étymologie}} ===
+: Contraction d'un ancien {{lien|eder|sv}}, de {{étyl|non|sv|yðr}}, issu du {{étyl|proto-germanique|sv}} {{recons|lang-mot-vedette=sv|izwiz|proto-germanique}}, datif/accusatif de ''{{recons|lang-mot-vedette=sv|jūz|proto-germanique}}''. Le proto-germanique provenait de l’{{étyl|indo-européen commun|sv}} {{recons|lang-mot-vedette=sv|yū́|indo-européen commun}}.
+
+=== {{S|pronom personnel|sv}} ===
+'''er''' {{pron|eːr|sv}}
+# [[vous|Vous]].
+# ''Forme réfléchie de'' {{lien|ni|sv}}, [[vous-même]].
+#: ''Skulle ni vilja lära '''er''' jonglera?''
+#:: Voudriez vous, vous, apprendre à jongler ?
+
+==== {{S|notes}} ====
+: Tant {{lien|ni|sv}} et ''er'' sont des formes de la seconde personne du pluriel, mais peuvent être utilisées comme forme de politesse à la deuxième personne du singulier (comme le ''[[vous]]'' en français).
+: La forme de courtoisie ''{{lien|ni|sv}}'' fut introduite en suédois en 1900 comme alternative aux modèles plus complexe utilisant la troisième personne du singulier conformément à leurs titres.
+
+==== {{S|apparentés}} ====
+{{pronoms personnels/sv}}
+
+=== {{S|pronom possessif|sv}} ===
+'''er''' {{pron|eːr|sv}}
+# [[votre|Votre]].
+
+==== {{S|notes}} ====
+: Bien que ''er'' et sa forme archaïque ''[[ers]]'' soient des pronoms possessifs, ils ont un génitif en ''[[ers]]'' et ''[[eders]]'', qui n'est utilisé que dans des expressions comme ''ers majestät'' (votre majesté) et ''ers höghet'' (votre majesté).
+
+=== {{S|prononciation}} ===
+* {{écouter|Suède||lang=sv|audio=LL-Q9027 (swe)-Ainali-er.wav}}
+
+== {{langue|crh}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|crh}}
+
+=== {{S|adjectif indéfini|crh}} ===
+'''er''' {{pron||crh}}
+# [[chaque|Chaque]].
+
+== {{langue|tr}} ==
+=== {{S|étymologie}} ===
+: (Adjectif) Issu du {{étyl|otk|tr|er}}, provenant de {{étyl|proto-turc|tr}} {{recons|lang-mot-vedette=tr|ẹ̄r|proto-turc}}, qui, selon l'hypothèse critiquée altaïque, est possiblement dérivée du {{étyl|proto-altaïque|tr}} {{recons|lang-mot-vedette=tr|ḗre|proto-altaïque}} (« tôt »).
+: (Nom, verbe) Du {{étyl|otk|tr|er}}, issu du {{étyl|proto-turc|tr}} {{recons|lang-mot-vedette=tr|ēr|proto-turc}} (« homme »), qui, selon l'hypothèse critiquée altaïque, est peut-être dérivée du {{étyl|proto-altaïque|tr}} {{recons|lang-mot-vedette=tr|ā́ri|proto-altaïque}} (~ {{recons|lang-mot-vedette=tr|ḗra|proto-altaïque}} (« homme »). Rapproché du suffixe formant des noms : ''{{lien|-er|tr}}''.
+
+=== {{S|adjectif|tr}} ===
+'''er''' {{pron||tr}}
+# [[tôt|Tôt]].
+
+=== {{S|nom|tr}} ===
+'''er''' {{pron||tr}}
+# [[brave|Brave]].
+# [[homme|Homme]], [[mâle]].
+# [[conscrit|Conscrit]].
+# [[membre|Membre]] d'une [[tribu]].
+# [[guerrier|Guerrier]].
+
+=== {{S|verbe|tr}} ===
+'''er''' {{pron||tr}}
+# [[atteindre|Atteindre]].
+
+=== {{S|prononciation}} ===
+* {{écouter|||lang=tr|audio=LL-Q256 (tur)-ToprakM-er.wav}}
+
+=== {{S|références}} ===
+* {{lien web|url=http://starling.rinet.ru/cgi-bin/response.cgi?single=1&basename=%2fdata%2falt%2faltet&text_number=+467&root=config&encoding=utf-eng|auteur= Sergei Starostin, Anna Dybo et Oleg Mudrak|année=2003|titre=Etymological dictionary of the Altaic languages (Handbuch der Orientalistik; VIII.8)|lieu=Leide, New York, Cologne|éditeur=E.J. Brill}}, entrée « ḗre ».
+* {{lien web|url=http://starling.rinet.ru/cgi-bin/response.cgi?single=1&basename=%2Fdata%2Falt%2Faltet&text_number=2764&root=config&encoding=utf-eng|auteur= Sergei Starostin, Anna Dybo et Oleg Mudrak|année=2003|titre=Etymological dictionary of the Altaic languages (Handbuch der Orientalistik; VIII.8)|lieu=Leide, New York, Cologne|éditeur=E.J. Brill}}, entrée « ā́ri ».
+
+== {{langue|tussentaal}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|tussentaal}}
+
+=== {{S|adverbe indéfini|tussentaal}} ===
+'''er''' {{pron||tussentaal}}
+# [[il|Il]] y a.
+
+=== {{S|références}} ===
+* {{R:Lefevre2011|p=77}}
+
+== {{langue|non}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|indo-européen commun|non}} {{recons|lang-mot-vedette=non|h₁es|non}}. Dérivé du vieux norrois {{lien|es|non}}. Le ''-s'' final fut remplacé par un ''-r'' à cause de l’analogie du pluriel de {{lien|vera|non}}.
+
+=== {{S|pronom|non}} ===
+'''er''' {{pron-recons||non}}
+# [[qui|Qui]], [[quel]], [[que]].
+
+=== {{S|conjonction|non}} ===
+'''er''' {{pron||osx}}
+# [[quand|Quand]].
+# [[où|Où]].
+
+=== {{S|verbe|non}} ===
+'''er''' {{pron-recons||non}}
+# ''Troisième personne du singulier de l’indicatif présent de'' {{lien|vera|non}}.
+
+==== {{S|dérivés autres langues}} ====
+* {{L|fo}} : {{lien|er|fo}}
+* {{L|is}} : {{lien|er|is}}
+
+=== {{S|références}} ===
+* {{lien web|auteur=Geir T. {{pc|Zoëga}} |année=1910|titre=A Concise Dictionary of Old Icelandic|lieu= Oxford|éditeur=Clarendon Press|url=http://www.perseus.tufts.edu/hopper/resolveform?type=exact&lookup=er&lang=non}}
+
+== {{langue|osx}} ==
+=== {{S|étymologie}} ===
+: {{term|Adjectif, Adverbe, Conjonction, Préposition}} Du {{étyl|proto-germanique|osx}} {{recons|lang-mot-vedette=osx|airiz|proto-germanique}}, d'où provient également le vieil anglais ''{{lien|ær|ang}}''.
+: {{term|Nom}} Du {{étyl|proto-germanique|osx}} {{recons|lang-mot-vedette=osx|aiz|proto-germanique}}, d'où le vieil anglais ''{{lien|ār|ang}}''.
+
+=== {{S|adjectif|osx}} ===
+'''ēr''' {{pron|eɪr|osx}}
+# [[tôt|Tôt]].
+
+=== {{S|adverbe|osx}} ===
+'''ēr''' {{pron|eɪr|osx}}
+# [[avant|Avant]], [[auparavant]].
+# [[anciennement|Anciennement]].
+
+=== {{S|conjonction|osx}} ===
+'''ēr''' {{pron|eɪr|osx}}
+# [[avant|Avant]].
+
+=== {{S|préposition |osx}} ===
+'''ēr''' {{pron|eɪr|osx}}
+# [[avant|Avant]]. {{note}} le terme qui suit est alors au datif.
+
+=== {{S|nom|osx}} ===
+'''ēr''' {{pron||osx}}
+# [[cuivre|Cuivre]], [[bronze]].
+# [[minerai|Minerai]].
+
+==== {{S|dérivés autres langues}} ====
+* {{L|gml}} : {{lien|er|gml}}

@@ -1,0 +1,75 @@
+== {{langue|sq}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|sq|mot=Bodensee}}.
+
+=== {{S|nom propre|sq}} ===
+'''Bodensee''' {{pron||sq}}
+# [[lac de Constance|Lac de Constance]].
+
+== {{langue|gsw}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|gsw|mot=Bodensee}}.
+
+=== {{S|nom propre|gsw}} ===
+'''Bodensee''' {{pron||gsw}}
+# [[lac de Constance|Lac de Constance]].
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: {{composé de|Bodman|See|sens=lac de Bodman|m=1|lang=de}} {{cf|Bodman-Ludwigshafen|lang=de}}.
+
+=== {{S|nom propre|de}} ===
+{{de-nom-m-s-e|sing=oui}}
+'''Bodensee''' {{pron|boːdənzeː|de}} {{m}}, {{au singulier uniquement|de}}.
+# {{plans d’eau|de|d’Europe|cat=Lacs}} [[lac de Constance#fr|Lac de Constance]].
+#* {{exemple | lang=de
+ | Der '''Bodensee''' grenzt auch an Österreich.
+ | Le lac de Constance a également une frontière avec l'Autriche.}}
+#* {{exemple|Warum packt ihr die Koffer? Fahrt ihr weg? -- Ja, wir machen Urlaub am '''Bodensee''' und wollen morgen früh losfahren.|lang=de|sens=Pourquoi faites-vous les valises ? Vous partez en voyage ? -- Oui, nous allons en vacances au lac de Constance et nous voulons partir demain matin.}}
+
+==== {{S|synonymes}} ====
+* [[Schwäbisches Meer]]
+==== {{S|dérivés}} ====
+{{(}}
+* [[Bodenseeabfluss]]
+* [[Bodenseeapfel]]
+* [[Bodenseehalbinsel]]
+* [[Bodenseeinsel]]
+* [[Bodenseeklima]]
+* [[Bodenseepegel]]
+* [[Bodenseeufer]]
+* [[Bodenseewasser]]
+* [[Bodenseewein]]
+* [[Bodenseezufluss]]
+{{)}}
+==== {{S|gentilés}} ====
+* [[Bodenseer]]
+
+=== {{S|prononciation}} ===
+* {{écouter|Berlin|ˈboːdn̩ˌzeː|lang=de|audio=De-Bodensee2.ogg}}
+* {{écouter|{{DE|nocat=1}}|ˈboːdn̩ˌzeː|lang=de|audio=De-Bodensee.ogg}}
+* {{écouter|Vienne|ˈboːdn̩ˌzeː|lang=de|audio=De-at-Bodensee.ogg}}
+
+=== {{S|voir aussi}} ===
+* {{Vikidia|lang=de}}
+* {{WP|lang=de}}
+
+== {{langue|cy}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|cy|mot=Bodensee}}.
+
+=== {{S|nom propre|cy}} ===
+'''Bodensee''' {{pron||cy}}
+# [[lac de Constance|Lac de Constance]].
+
+== {{langue|lb}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|lb|mot=Bodensee}}.
+
+=== {{S|nom propre|lb}} ===
+'''Bodensee''' {{pron||lb}}
+# [[lac de Constance#fr|Lac de Constance]].

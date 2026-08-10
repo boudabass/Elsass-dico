@@ -1,0 +1,59 @@
+== {{langue|gsw}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|gsw|mot=Rhein}}.
+
+=== {{S|nom propre|gsw}} ===
+'''Rhein''' {{pron||gsw}}
+# {{cours d’eau|gsw|d’Allemagne}} {{lien|Rhin|fr}}.
+#* {{exemple|lang=gsw}}
+
+== {{langue|de}} ==
+
+=== {{S|étymologie}} ===
+: Voir le {{étylp|la|de|mot=Rhenus}}.
+
+=== {{S|nom propre|de}} ===
+'''Rhein''' {{pron|ˈraɪn|de}} {{m}} {{s}}
+# {{cours d’eau|de|d’Allemagne}} {{lien|Rhin|fr}}.
+#* {{exemple | lang=de | Der '''Rhein''' zählt trotz seines kurzen Laufes von 1320 km wegen der Vielfalt seiner Landschaftsbilder zu den bedeutensten Flüssen der Welt.}}
+
+==== {{S|dérivés}} ====
+{{(}}
+* [[Rhein-Main-Donau-Kanal]]
+* [[Rhein-Rhone-Kanal]]
+* [[Rhein-Seiten-Kanal]]
+* [[Rheinbrücke]]
+* [[Rheinfall]]
+* [[Rheingold]]
+* [[Rheinhafen]]
+* [[Rheinland]]
+* [[Rheinland-Pfalz]]
+* [[Rheinschifffahrt]]
+* [[Rheinwein]]
+{{)}}
+
+==== {{S|hyperonymes}} ====
+* [[Wasserstraße]]
+* [[Fluss]]
+
+==== {{S|hyponymes}} ====
+* [[Rheineck]]
+* [[Hochrhein]]
+* [[Rheinau]]
+* [[Mittelrhein]]
+* [[Hinterrhein]]
+* [[Seerhein]]
+* [[Rheingau]]
+* [[See-Rhein]]
+* [[Alpenrhein]]
+* [[Oberrhein]]
+* [[Vorderrhein]]
+* [[Altenrhein]]
+* [[Niederrhein]]
+
+=== {{S|prononciation}} ===
+* {{écouter|Allemagne|ˈraɪn|lang=de|audio=De-Rhein.ogg}}
+
+==== {{S|homophones|de}} ====
+* [[rein]]

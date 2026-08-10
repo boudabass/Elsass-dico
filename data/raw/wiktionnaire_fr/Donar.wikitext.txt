@@ -1,0 +1,11 @@
+{{voir|donar}}
+
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw}}
+
+=== {{S|nom propre|gsw}} ===
+'''Donar''' {{pron||gsw}}
+# [[Thor#Français|Thor]] (dieu nordique).
+
+{{clé de tri}}

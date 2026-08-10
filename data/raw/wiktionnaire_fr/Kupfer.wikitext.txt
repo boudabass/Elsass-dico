@@ -1,0 +1,160 @@
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw}}
+
+=== {{S|nom|gsw}} ===
+'''Kupfer''' {{pron||gsw}}
+# {{éléments|gsw}} {{métaux|gsw}} [[cuivre|Cuivre]].
+{{clr}}
+
+==== {{S|vocabulaire}} ====
+{{tableau périodique/gsw}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=gsw}}
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: {{siècle|IX}}. Du {{étyl|gmh|de|mot=kupfer}}, ''[[kopfer]]'', du {{étyl|goh|de|mot=kupfar}}, ''[[kuffar]]'', issu du  {{étyl|la|de|mot=cuprum}}, ''[[cyprum]]'' et du {{étyl|grc|de|κύπϱιον|kýprion}}.<ref> Friedrich Kluge, bearbeitet von Elmar Seebold: Etymologisches Wörterbuch der deutschen Sprache. 24., durchgesehene und erweiterte Auflage. Walter de Gruyter, Berlin/New York 2001, ISBN 978-3-11-017473-1, DNB 965096742, Seite 547.</ref><ref>Wolfgang Pfeifer et al.: Etymologisches Wörterbuch des Deutschen. 8. Auflage. Deutscher Taschenbuch Verlag, München 2005, ISBN 3-423-32511-9, Seite 745</ref>.
+
+=== {{S|nom|de}} ===
+{{de-nom-n}}
+{{légende élément/de|Cu}}
+[[Image:Nickel_electrolytic_and_1cm3_cube.jpg|thumb|'''Kupfer'''.]]
+'''Kupfer''' {{pron|ˈkʊpfɐ|de}} {{n}}
+# {{éléments|de}} {{métaux|de}} [[cuivre#fr|Cuivre]] (l’{{lien|élément chimique}} [[Cu#conv|Cu]]).
+#* {{exemple|Carl Wilhelm Scheele entdeckt also durch seine Experimente mit Arsen und '''Kupfer''' ein wirtschaftlich vielversprechendes Produkt. Aber auf die Idee, es zu vermarkten kommt er nicht.|lang=de|sens=Carl Wilhelm Scheele découvre donc, grâce à ses expériences avec l’arsenic et le cuivre, un produit économiquement prometteur. Mais l’idée de le commercialiser ne lui vient pas.|source={{périodique|auteur=Vera Pache|titre=Eine giftige Farbe erobert die Welt|journal=Deutschlandfunk Nova|date=20 avril 2018|texte=https://www.deutschlandfunknova.de/beitrag/geschichte-farben-scheeles-gruen-und-schweinfurter-gruen}}}}
+#* {{exemple|Die Jäger haben sich mit den Regeln arrangiert, wenngleich auch sie Streuung und Durchschlagskraft der neuen Geschosse, zumeist sind sie aus Stahl, aber auch aus schädlichem '''Kupfer''' oder Zinn, bemängeln.|lang=de|sens=Les chasseurs se sont accommodés des règles, même s’ils critiquent eux aussi la dispersion et la force de pénétration des nouveaux projectiles, pour la plupart en acier, mais aussi en cuivre ou en étain, des matériaux nocifs.|source={{périodique|auteur=Markus Völker|titre=Ächtung von Bleimunition: Bummbumm mit Plumbum|journal=taz|date=16 février 2024|texte=https://taz.de/Aechtung-von-Bleimunition/!5990191/}}}}
+#* {{exemple|In Kichererbsen sind außerdem viele wichtige Nährstoffe enthalten. Die Vitamine B1 und B2 sind in der Kichererbse genauso zu finden wie Mangan, Folsäure, Kalium, Magnesium und Kalzium - dazu noch Zink, '''Kupfer''' und Eisen.|lang=de|sens=Les pois chiches contiennent également de nombreux nutriments importants. On peut trouver les vitamines B1 et B2 dans le pois chiche ainsi que du manganèse, de l’acide folique, du potassium, du magnésium et du calcium, ainsi que du zinc, du cuivre et du fer.|source={{périodique|auteur=Christiane Stauss|titre=Kichererbsen: Halten den Darm gesund, machen satt und schlank|journal=ARD1 Gesund|date=11 juillet 2025|texte=https://www.ndr.de/ratgeber/gesundheit/Kichererbsen-Halten-den-Darm-gesund-machen-satt-und-schlank,kichererbsen126.html}}}}
+
+==== {{S|synonymes}} ====
+* {{lien|Kupferstich|de}}
+
+==== {{S|dérivés}} ====
+{{(|&nbsp;}}
+* {{lien|abkupfern|sens=copier », « pomper}}
+* {{lien|Kupferacetat|de|sens=acétate de cuivre}}
+* {{lien|Kupferader|de}}
+* {{lien|Kupferakne|sens=couperose », « rosacée}}
+* {{lien|Kupferanode|de|sens=anode en cuivre}}
+* {{lien|kupferartig|de|sens=cuivreux, cuivreuse}}
+* {{lien|Kupferausschlag|de|sens=couperose}}
+* {{lien|Kupferazetat|de|sens=acétate de cuivre}}
+* {{lien|Kupferbarren|de|sens=lingot de cuivre}}
+* {{lien|Kupferbasis|de}}
+* {{lien|Kupferbergwerk|de|sens=mine de cuivre}}
+* {{lien|Kupferbeschlag|de}}
+* {{lien|kupferbeschlagen|de}}
+* {{lien|Kupferblech|de|sens=tôle de cuivre}}
+* {{lien|kupferbraun|de}}
+* {{lien|Kupferbronze|de}}
+* {{lien|Kupfercarbonat|de}}
+* {{lien|Kupferdach|de|sens=toiture en cuivre}}
+* {{lien|Kupferdraht|de|sens=fil de cuivre}}
+* {{lien|Kupferdruck|de|sens=gravure sur cuivre}}
+* [[Kupferdrucker]] (''graveur sur cuivre''), [[Kupferdruckerin]] (''graveuse sur cuivre'')
+* {{lien|Kupferelektrode|de|sens=électrode en cuivre}}
+* {{lien|Kupfererz|de|sens=minerai de cuivre}}
+* {{lien|kupferfarben|de|sens=cuivré}}
+* {{lien|kupferfarbig|de|sens=cuivré}}
+* {{lien|Kupferfasan|sens=faisan cuivré », « faisan scintillant}}
+* {{lien|Kupferfinne|sens=couperose », « rosacée}}
+* {{lien|Kupfergeld|de|sens=monnaie de cuivre}}
+* {{lien|Kupfergerät|de|sens=vaisselle en cuivre}}
+* {{lien|Kupfergeschirr|de|sens=vaisselle en cuivre}}
+* {{lien|Kupfergesicht|de|sens=visage couperosé}}
+* {{lien|Kupferglanz|de}}
+* {{lien|Kupferglucke|de|sens=feuille-morte du chêne}}
+* {{lien|Kupfergold|sens=cupro-alliage », « or doublé}}
+* {{lien|kupferhaltig|de|sens=cuprifère}}
+* {{lien|kupferhältig|de}}
+* {{lien|Kupferhammer|de|sens=marteau de cuivre}}
+* {{lien|Kupferhammerschlag|de|sens=oxyde de cuivre}}
+* {{lien|Kupferhaut|de}}
+* {{lien|Kupfericht|de|sens=cuivreux, cuivreuse}}
+* {{lien|Kupferhütte|de|sens=fonderie de cuivre}}
+* {{lien|kupferig|de|sens=cuivreux, cuivreuse}}
+* {{lien|Kupferkabel|de|sens=câble de cuivre}}
+* {{lien|Kupferkanne|de|sens=arrosoir en cuivre}}
+* {{lien|Kupferkessel|sens=marmite en cuivre », « bouilloire en cuivre}}
+* {{lien|Kupferkies|de|sens=chalcopyrite}}
+* {{lien|Kupferlegierung|de|sens=alliage de cuivre}}
+* {{lien|Kupferlitze|de|sens=fde cuivre toronné}}
+* {{lien|Kupfermine|de|sens=mine de cuivre}}
+* {{lien|Kupfermond|de}}
+* {{lien|Kupfermünze|de|sens=monnaie de cuivre}}
+* {{lien|kupfern|de|sens=de cuivre}}
+* {{lien|Kupfernase|de|sens=nez couperosé}}
+* {{lien|Kupferasche|de|sens=oxyde de cuivre}}
+* {{lien|Kupferoxid|de}} ou {{lien|Kupferoxyd|de|sens= oxyde de cuivre}}
+* {{lien|Kupferpfennig|de}}
+* {{lien|Kupferplatte|de|sens=plaque en cuivre}}
+* {{lien|Kupferpreis|sens=cours du cuivre », « prix du cuivre}}
+* {{lien|Kupferpulver|de}}
+* {{lien|Kupferraffination|de}}
+* {{lien|kupferreich|de|sens=riche en cuivre}}
+* {{lien|Kupferrohr|de|sens=tube de cuivre}}
+* {{lien|Kupferrose|sens=couperose », « rosacée}}
+* {{lien|Kupferrost|de|sens=oxyde de cuivre}}
+* {{lien|kupferrot|de|sens=cuivré}}
+* {{lien|Kupferschale|de}}
+* {{lien|Kupferschaum|de}}
+* {{lien|Kupferschiefer|de}}
+* {{lien|Kupferschmied|sens=chaudronnier », « dinandier}}
+* {{lien|Kupferschwamm|de}}
+* {{lien|Kupferstecher|sens=graveur sur cuivre », « pityogene}}
+* {{lien|Kupferstein|de}}
+* {{lien|Kupferstich|sens=gravure sur cuivre », « chalcographie}}
+* {{lien|Kupferstück|de}}
+* {{lien|Kupfersulfat|de}}
+* {{lien|Kupfertiefdruck|de}}
+* {{lien|Kupfertopf|sens=casserole en cuivre », « pot en cuivre}}
+* {{lien|Kupferverbindung|de}}
+* {{lien|Kupfervitriol|de}}
+* {{lien|Kupferwarre|de|sens=chaudronnerie}}
+* {{lien|Kupferwasser|de}}
+* {{lien|Kupferzeit|de}}
+* {{lien|kupfrig|de}}
+* {{lien|verkupfern|de|sens=plaqué de cuivre}}
+{{)}}
+{{clr}}
+
+==== {{S|vocabulaire}} ====
+* {{voir thésaurus|de|tableau périodique des éléments}}
+{{tableau périodique/de}}
+{{Liste|avant={{lien|Nickel|de}}<br>([[Ni#conv|Ni]])|après={{lien|Zink|de}}<br>([[Zn#conv|Zn]])|liste=[[Thésaurus:tableau périodique des éléments/allemand|Éléments chimiques en allemand]]}}
+
+==== {{S|hyperonymes}} ====
+* {{lien|Element|de}}
+* {{lien|Kabelmetall|de}}
+* {{lien|Metall|de}}
+* {{lien|Münzmetall|de}}
+* {{lien|Schwermetall|de}}
+
+==== {{S|hyponymes}} ====
+* {{lien|Elektrolytkupfer|de}}
+* {{lien|Reinkupfer|de}}
+* {{lien|Rohkupfer|de}}
+* {{lien|Titelkupfer|de}}
+
+=== {{S|prononciation}} ===
+* {{pron|ˈkʊpfɐ|de}}
+* {{écouter|Vienne (Autriche)|ˈkʊp͡fɐ|lang=de|audio=De-at-Kupfer.ogg}}
+* {{écouter|Berlin (Allemagne)|ˈkʊp͡fɐ|lang=de|audio=De-Kupfer.ogg}}
+* {{écouter|{{DE|nocat=1}}|ˈkʊp͡fɐ|lang=de|audio=LL-Q188 (deu)-Lucas Werkmeister-Kupfer.wav}}
+* {{écouter|Berlin (Allemagne)|ˈkʊp͡fɐ|lang=de|audio=LL-Q188 (deu)-Sebastian Wallroth-Kupfer.wav}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=de}}
+
+=== {{S|références}} ===
+<references />
+
+==== {{S|sources}} ====
+* {{R:DWDS|Kupfer}}
+* {{R:Duden|Kupfer}}
+* {{Source-wikt|de|Kupfer}}
+
+==== {{S|bibliographie}} ====
+* Larousse - Dictionnaire allemand/français – français/allemand , éd. 1958, p. 576
+* Harrap’s  de poche – Bordas Dictionnaire allemand/français, éd. 1997, ISBN 0-245-50308-0, p. 181

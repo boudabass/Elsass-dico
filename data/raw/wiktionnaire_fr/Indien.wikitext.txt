@@ -1,0 +1,319 @@
+{{voir|indien}}
+
+== {{langue|fr}} ==
+=== {{S|étymologie}} ===
+: ''([[#fr-nom|Nom]], sens 1)'' {{étyl|la|fr|mot=Indianus}} {{cf|lang=fr|Inde|-ien}}.
+: ''([[#fr-nom|Nom]], sens 2)'' De l’erreur par {{w|Christophe Colomb}}. {{cf|lang=fr|Indes occidentales}}.
+: ''([[#fr-nom-pr|Nom propre]])'' ''(1603)'' Introduite par Johann Bayer dans son ''Uranometria'', signifiant le sens 2 du nom commun.
+
+=== {{S|nom|fr}} ===
+{{fr-rég|ɛ̃.djɛ̃}}
+'''Indien''' {{pron|ɛ̃.djɛ̃|fr}} {{m}} {{équiv-pour|une femme|Indienne|lang=fr}}
+# {{gentilés|fr|d’Inde|clé=*}} Habitant de l’[[Inde]] ([[pays]] [[asiatique]]).
+#* {{exemple | lang=fr
+ | Les '''Indiennes''' offrent leurs puissants bras nus, des surfaces brunes et élastiques de chair entre leur jupe et le corselet étroit qui bande leurs omoplates et leurs seins.
+ | source={{w|Paul Nizan}}, ''{{w|Aden Arabie}}'', chapitre IX, Rieder, 1932 ; Maspéro, 1960}}
+#* {{exemple | lang=fr
+ | Sa culture était pluriraciale, puisqu’une grande partie de sa littérature philosophique est l’œuvre de chrétiens et de juifs, et que ses traités de médecine et de mathématiques sont celle de Persans et d’'''Indiens'''.
+ | source=Panayiotis Jerasimof Vatikiotis, ''L’Islam et l’État'', 1987, traduction d’Odette Guitard, 1992}}
+#* {{exemple | lang=fr
+ | Le maniement des ophidiens est plus délicat : ne s’improvise pas charmeur de serpents qui veut! Les '''Indiens''' et les Marocains excellent dans cet exercice délicat qui impressionne les touristes.
+ | source=''L’Élevage en France 10 000 ans d’histoire'', Éducagri, 1999, page 70}}
+#* {{exemple | lang=fr
+ | Depuis l’indépendance, en 1947, on a construit 3 300 barrages en Inde. Pourtant, 250 millions d’'''Indiens''' n’ont toujours pas d’eau véritablement potable.
+ | source=''{{w|L’Express}}'', 18 novembre 1999}}
+#* {{exemple | lang=fr
+ | À partir du moment où deux milliards de Chinois et d’'''Indiens''' se mirent à réclamer leurs parts, fabriquant eux-mêmes tables et couverts, il convenait que l’Europe aux anciens parapets changeât de braquet.
+ | source={{w|André Bercoff}}, ''Précis de décomposition française'', Éditions Albin Michel, 2008, page 16}}
+# {{info lex|géographie}} Habitant de l’[[Amérique]] dont les [[ancêtre]]s habitaient déjà le [[continent]] avant l’[[arrivée]] des [[Européen]]s.
+#* {{exemple | lang=fr
+ | À peine l’indépendance de l’Amérique du Nord fut-elle proclamée, la paix conclue avec l’ancienne métropole, que ces hommes qui criaient si haut à la tyrannie, à l’oppression, qui réclamaient contre la violation du droit des gens, dont, disaient-ils, ils étaient victimes, organisèrent avec cet implacable sang-froid qu’ils tiennent de leur origine une chasse aux '''Indiens'''.
+ | source={{w|Gustave Aimard}}, ''{{ws|Les Trappeurs de l’Arkansas}}'', 1858}}
+#* […]'' comme l'affirme l'Américain Pliny Miles, qui prétend avoir entendu le bruit des baleines à un ou deux milles de distance. Les Yankees ont peut-être hérité de l’ouïe des '''Indiens'''.'' {{source|Jules Leclercq, ''La Terre de glace, Féroë, Islande, les geysers, le mont Hékla'', Paris : E. Plon & Cie, 1883, page 38}}
+#* {{exemple | lang=fr
+ | Cuba n'était pas encore colonisée et servait de refuge aux malheureux '''Indiens''' que le désespoir chassait d’Hispaniola ; les forêts en étaient remplies, et plus d'une fois ils attaquèrent les naufragés.
+ | source=Washington Irving, ''Voyages et découvertes des compagnons de Colomb'', Paris : librairie Hachette & Cie, {{3e|éd.}}, 1893}}
+#* {{exemple | lang=fr
+ | Christophe Colomb, on le sait, lorsqu’il aborda en Amérique, crut avoir atteint les Indes par une nouvelle route maritime et nomma en conséquence « '''Indiens''' » les premiers habitants qu’il rencontra.
+ | source={{w|René Thévenin}} et {{w|Paul Coze}}, ''Mœurs et Histoire des Indiens Peaux-Rouges'', Payot, 1929, {{2e|édition}}, page 13}}
+#* {{exemple | lang=fr
+ | Les régions orientales de la Colombie, situées au-delà de la cordillère, ainsi que le Trapèze amazonien, ont été pendant des siècles considérées comme des « territoires sauvages », des espaces vides ou des « enfers verts ». Même aujourd'hui, quand on pense aux '''Indiens''' de l’Amazonie colombienne, on les imagine souvent comme des groupes d'individus isolés […].
+ | source=Luisa Fernanda Sánchez, ''Les fils du tabac à Bogotá : Migrations indiennes et reconstructions identitaires'', Éditions de l’IHEAL, 2007, chapitre 1}}
+#* {{exemple|L’idée d'une famille nucléaire originelle est consensuelle chez les anthropologues américains ''[…]'' Leur mérite n’est pas si grand : leurs sujets d’étude furent les '''Indiens''' de leur continent, dont la nucléarité familiale crevait les yeux.|source={{w|Emmanuel Todd}}, ''Où en sont-elles, Une esquisse de l’histoire des femmes'', Éditions du Seuil, 2022, p. 99|lang=fr}}
+#* {{exemple | lang=fr
+ | Peut-on dire que l’élimination des '''Indiens''' d’Amérique relève du génocide ?
+ | source=''{{w|L’Express}}'', 5 avril 2004}}
+#* {{exemple | lang=fr
+ | Ici, les '''Indiens''' de l’Amazonie sont loin d’être isolés et naïfs.
+ | source=''{{w|L’Express}}'', 8 août 2005}}
+
+==== {{S|notes}} ====
+: L’appellation '''Indiens''' a été donné aux premiers peuples d’Amérique par les premiers explorateurs européens, qui, aux {{siècle2|XVI}} et {{siècle2|XVII}} siècles, croyaient être arrivés aux Indes. Il est demeuré longtemps et est encore utilisé dans la langue populaire, dans les récits folkloriques et dans certains livres d’histoire, mais le terme ''[[Amérindiens]]'' a été proposé pour le remplacer au {{siècle2|XX}} siècle.
+: Il faut noter toutefois que la loi fédérale qui traite des Amérindiens s’appelle toujours ''{{w|Loi sur les Indiens|Loi sur les '''Indiens'''}}'', ce qui entraîne une survivance de ce terme dans certains contextes déterminés par la loi (par ex. ''[[Indien inscrit]]''). Il n’empêche que, dans l’administration fédérale canadienne, c’est le terme ''[[autochtone]]'' qui est couramment utilisé.
+: Le mot '''''Indien''''' demeure vivant en Europe pour désigner les [[Indien d’Amérique|Indiens d’Amérique]] du Nord et du Sud.
+: {{note-gentilé|fr}}
+
+==== {{S|synonymes}} ====
+; ''Habitant de l’Inde'' :
+* [[Indien d’Asie]]
+
+; ''Habitant de l’Amérique'' :
+* [[Amérindien]]
+* [[autochtone]]
+* [[Indien d’Amérique]]
+* [[Indien Peau-Rouge]] {{désuet|nocat=1}}
+* [[Peau-Rouge]] {{désuet|nocat=1}}
+* [[sauvage]] {{désuet|nocat=1}}
+
+==== {{S|vocabulaire}} ====
+* [[amérindien]]
+* [[indien]]
+* [[Indien inscrit]]
+* [[Premières Nations]]
+
+==== {{S|dérivés}} ====
+* [[été des Indiens]]
+{{cf|lang=fr|Inde|indien}}
+
+==== {{S|phrases}} ====
+* [[la vengeance est douce au cœur de l’Indien]]
+
+==== {{S|traductions}} ====
+{{trad-début|Habitant de l’Inde}}
+* {{T|de}} : {{trad+|de|Inder|m}}
+* {{T|en}} : {{trad+|en|Indian}}, {{trad+|en|Asian Indian}}
+* {{T|ar}} : {{trad-|ar|هندي|m|tr=hindiyy·un|dif=هِنْدِيٌّ}}, {{trad+|ar|هندية|f|tr=hindiyyat·un (hindiyyah)|dif=هِنْدِيَّةٌ}}
+* {{T|ast}} : {{trad+|ast|indiu}}, {{trad+|ast|hindú}}
+* {{T|bg}} : {{trad-|bg|индиец|tr=indiec}}, {{trad-|bg|индийка|tr=indiika}}
+* {{T|ca}} : {{trad+|ca|indi}}
+* {{T|zh}} : {{trad+|zh|印度人|tr=Yìndù-rén}}
+* {{T|ko}} : {{trad-|ko|인도인|tr=Indoin}}, {{trad-|ko|인도 사람|tr=Indo saram}}
+* {{T|da}} : {{trad+|da|inder}}
+* {{T|es}} : {{trad+|es|indio}}
+* {{T|eo}} : {{trad-|eo|baratano}} ''(homme ou femme)'', {{trad-|eo|barataniĉo}} ''(homme)'', {{trad-|eo|baratanino}} ''(femme)''
+* {{T|et}} : {{trad-|et|indialane}}
+* {{T|fi}} : {{trad+|fi|intialainen}}
+* {{T|el}} : {{trad+|el|Ινδός|m|tr=Indós}}
+* {{T|hu}} : {{trad+|hu|indiai}}
+* {{T|it}} : {{trad+|it|indiano}}
+* {{T|ja}} : {{trad+|ja|インド人|tr=Indojin}}
+* {{T|kk}} : {{trad-|kk|үнді|tr=ündi}}
+* {{T|lep}} : {{trad|lep|ᰃᰤᰃᰦᰲᰕᰫ}}
+* {{T|lv}} : {{trad-|lv|indietis|m}}, {{trad-|lv|indiete|f}}
+* {{T|lt}} : {{trad+|lt|indas|m}}, {{trad+|lt|indė|f}}
+* {{T|nl}} : {{trad+|nl|Indiër}}
+* {{T|nb}} : {{trad+|nb|inder}}
+* {{T|nn}} : {{trad+|no|indar}}
+* {{T|pl}} : {{trad+|pl|Hindus|m}}, {{trad+|pl|Hinduska|f}}
+* {{T|pt}} : {{trad-|pt|Indiano}}
+* {{T|ro}} : {{trad+|ro|indian}}
+* {{T|ru}} : {{trad+|ru|индиец|m|tr=indijec}}, {{trad+|ru|индианка|f|tr=indijanka}}
+* {{T|sco}} : {{trad|sco|Indien}}
+* {{T|zdj}} : {{trad|zdj|Mhindi}}
+* {{T|sk}} : {{trad+|sk|Ind|m}}, {{trad-|sk|Indka|f}}
+* {{T|sl}} : {{trad+|sl|Indijec|m}}, {{trad-|sl|Indijka|f}}
+* {{T|sv}} : {{trad+|sv|indier}}
+* {{T|sw}} : {{trad+|sw|Mhindi}}
+* {{T|cs}} : {{trad+|cs|Ind}}, {{trad+|cs|Indka}}
+* {{T|tr}} : {{trad+|tr|Hint}}
+* {{T|uk}} : {{trad-|uk|індієць|m}}
+* {{T|vo}} : {{trad+|vo|Lindänan}} ''(homme ou femme)'', {{trad-|vo|hi-Lindänan}} ''(homme)'', {{trad-|vo|ji-Lindänan}} ''(femme)''
+{{trad-fin}}
+
+''Habitant de l’Amérique'' :
+{{cf|lang=fr|Amérindien}}
+
+=== {{S|nom propre|fr}} ===
+[[Image:Indus constellation map-fr.png|thumb|La constellation de l’'''Indien'''.]]
+'''Indien''' {{pron|ɛ̃.djɛ̃|fr}} {{m}} {{s}}
+# {{constellations|fr}} [[constellation|Constellation]] du [[ciel]] [[austral]], bordée par la [[Grue]], le [[Microscope]], l’[[Octant]], le [[Paon]], le [[Télescope]] et le [[Toucan]].
+
+==== {{S|abréviations}} ====
+* [[Ind]]
+
+==== {{S|synonymes}} ====
+* [[Indus]]
+* [[Oiseau indien]] {{rare|nocat=1}}
+
+==== {{S|vocabulaire}} ====
+* [[ε Indi]] (la 19{{e}} étoile la plus proche du Soleil)
+{{tableau-constellations/fr}}
+
+==== {{S|traductions}} ====
+{{trad-début}}
+* {{T|de}} : {{trad+|de|Indianer}}
+* {{T|en}} : {{trad+|en|Indus}}
+* {{T|zh}} : {{trad+|zh|印第安座}}
+* {{T|ko}} : {{trad-|ko|인디언자리|tr=Indieonjari}}
+* {{T|gl}} : {{trad+|gl|Indio}}
+* {{T|ja}} : {{trad+|ja|インディアン座|tr=Indianza}}
+* {{T|la}} : {{trad-|la|Indus}}
+* {{T|pl}} : {{trad+|pl|Indianin}}
+* {{T|pt}} : {{trad-|pt|Hindu}}
+* {{T|ru}} : {{trad-|ru|Индеец|tr=Indeec}}
+* {{T|tr}} : {{trad+|tr|Hintli}}
+* {{T|vi}} : {{trad-|vi|Ấn Đệ An}}
+{{trad-fin}}
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=fr|France (Muntzenheim)|audio=LL-Q150 (fra)-0x010C-Indien.wav}}
+* {{écouter|lang=fr|France (Toulouse)|audio=LL-Q150 (fra)-Lepticed7-Indien.wav}}
+* {{écouter|lang=fr|Suisse (Lausanne)||audio=LL-Q150 (fra)-Eihel-Indien.wav}}
+* {{écouter|Manche (France)||lang=fr|audio=LL-Q150 (fra)-Pamputt-Indien.wav}}
+* {{écouter|Vendée (France)||lang=fr|audio=LL-Q150 (fra)-Sartus85-Indien.wav}}
+
+=== {{S|anagrammes}} ===
+{{voir anagrammes|fr}}
+
+=== {{S|voir aussi}} ===
+* {{WP}}
+* {{WP|Indien (constellation)}}
+
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw}}
+
+=== {{S|nom propre|gsw}} ===
+'''Indien''' {{pron||gsw}}
+# {{pays|gsw}} [[Inde]] (pays asiatique).
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|de}}
+
+=== {{S|nom propre|de}} ===
+{{de-nom-propre|genre=n|gs=Indien|gs2=Indiens}}
+'''Indien''' {{pron|ˈɪndi̯ən|de}} {{n}} {{au singulier uniquement|de}}
+# {{pays|de|d’Asie}} [[Inde]] (pays asiatique).
+#* {{exemple|Sollte sich das Klima um weitere 0,8 Grad erwärmen und 2 Grad über dem Niveau von 1850 liegen, dann werden Hitzewellen wie dieses Jahr gar zur Normalität. „Mindestens alle zwei Jahre“ müssten die Menschen in '''Indien''' und Bangladesch dann mit Extremhitze im April rechnen.|lang=de|sens=Si le climat se réchauffe encore de 0,8 degré et dépasse de 2 degrés le niveau de 1850, les vagues de chaleur comme celle de cette année deviendront même la norme. Les habitants de l'Inde et du Bangladesh devraient alors s’attendre à des chaleurs extrêmes en avril "au moins tous les deux ans".|source={{périodique|auteur=Christian Mihatsch|titre=54 Grad sind tödlich|journal=taz|date=17 mai 2023|texte=https://taz.de/Ungewoehnliche-hohe-Temperaturen-in-Asien/!5935350/}}}}
+#* {{exemple|Curryblätter stammen von einem 4 bis 6 m hohen Baum mit einer 4 m breiten Krone. (...) Die aus dem tropischen Asien stammende Pflanze wird heute vor allem in '''Indien''' und Afrika angebaut.|lang=de|sens=Les feuilles de curry proviennent d’un arbre de 4 à 6 mètres de haut avec une couronne de 4 mètres de large. (...) Originaire d'Asie tropicale, cette plante est aujourd'hui principalement cultivée en Inde et en Afrique.|source={{périodique|auteur=Klaus-Maria Einwanger|titre=Curryblätter|journal=Küchengötter|date=12 mai 2024|texte=https://www.kuechengoetter.de/warenkunde/curryblaetter}}}}
+#* {{exemple|Kichererbsen gehören zu den ältesten Nutzpflanzen der Welt. Insbesondere in '''Indien''' sind die kleinen Hülsenfrüchte seit jeher ein Grundnahrungsmittel. Auch bei uns sollten sie viel öfter auf dem Speiseplan stehen.|lang=de|sens=Les pois chiches font partie des plantes cultivées les plus anciennes au monde. En Inde notamment, ces petites légumineuses constituent depuis toujours un aliment de base. Chez nous aussi, ils devraient figurer beaucoup plus souvent au menu.|source={{périodique|auteur=Christiane Stauss|titre=Kichererbsen: Halten den Darm gesund, machen satt und schlank|journal=ARD1 Gesund|date=11 juillet 2025|texte=https://www.ndr.de/ratgeber/gesundheit/Kichererbsen-Halten-den-Darm-gesund-machen-satt-und-schlank,kichererbsen126.html}}}}
+
+==== {{S|synonymes}} ====
+* {{lien|Republik Indien|de}}
+
+==== {{S|hyperonymes}} ====
+* {{lien|Staat|de}}
+
+==== {{S|dérivés}} ====
+{{(}}
+* {{lien|Britisch-Indien|de}}
+* {{lien|Hinterindien|de}}
+* {{lien|Indianer|de}} ou {{lien|Indianerin|de}}
+* {{lien|Inder|de}} ou {{lien|Inderin|de}}
+* {{lien|Indienreise|de}}
+* {{lien|indisch|de}}
+* {{lien|Indo-Pazifik|de}}
+* {{lien|indoarisch|de}}
+* {{lien|indoeuropäisch|de}}
+* {{lien|indogermanisch|de}}
+* {{lien|Indonesien|de}}
+* {{lien|Niederländisch-Indien|de}}
+* {{lien|Nordindien|de}}
+* {{lien|Ostindien|de}}
+* {{lien|Südindien|de}}
+* {{lien|Vorderindien|de}}
+* {{lien|Westindien|de}}
+{{)}}
+
+=== {{S|prononciation}} ===
+* {{écouter|Berlin (Allemagne)|ˈɪndi̯ən|lang=de|audio=De-Indien.ogg}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=de}}
+
+=== {{S|références}} ===
+* {{R:DWDS|Indien}}
+* {{R:Duden|Indien}}
+
+[[Catégorie:Inde en allemand|*]]
+
+== {{langue|fro}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|fro}}
+
+=== {{S|nom|fro}} ===
+'''Indien''' {{pron-recons||fro}} {{m}}
+# [[Indien#fr|Indien]] (habitant d’Inde).
+
+==== {{S|notes}} ====
+: {{note-gentilé|fro}}
+
+==== {{S|dérivés autres langues}} ====
+* {{L|fr}} : {{lien|Indien|fr}}
+
+== {{langue|nds}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|nds}}
+
+=== {{S|nom propre|nds}} ===
+'''Indien''' {{pron||nds}}
+# {{pays|nds|d’Asie}} [[Inde]] (pays asiatique).
+
+== {{langue|bar}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|bar}}
+
+=== {{S|nom propre|bar}} ===
+'''Indien''' {{pron||bar}}
+# {{pays|bar}} [[Inde]] (pays asiatique).
+
+== {{langue|da}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|da}}
+
+=== {{S|nom propre|da}} ===
+'''Indien''' {{pron||da}}
+# {{pays|da|d’Asie}} [[Inde]] (pays asiatique).
+
+[[Catégorie:Inde en danois|*]]
+
+== {{langue|lb}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|lb}}
+
+=== {{S|nom propre|lb}} ===
+{{lb-inv|ˈindiən|inv_titre=Nom propre}}
+'''Indien''' {{pron|ˈindiən|lb}} {{n}}
+# {{pays|lb|d’Asie}} [[Inde]] (pays asiatique).
+#* {{exemple|lang=lb}}
+
+==== {{S|gentilés}} ====
+* {{lien|Inder|lb|sens=Indien}}, {{lien|Inderin|lb|sens=Indienne}}, {{lien|indesch|lb|sens=indien, indienne}}
+
+==== {{S|notes}} ====
+* {{lb-n}}
+
+=== {{S|prononciation}} ===
+* {{écouter|Luxembourg||lang=lb|audio=Lb-Indien.ogg}}
+
+=== {{S|références}} ===
+: {{R:LOD}}
+
+== {{langue|sco}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|sco}}
+
+=== {{S|adjectif|sco}} ===
+'''Indien''' {{pron||sco}}
+# [[indien#fr|Indien]].
+
+=== {{S|nom|sco}} ===
+'''Indien''' {{pron||sco}}
+# {{gentilés|sco|d’Europe}} [[Indien#fr|Indien]], [[Indienne]].
+
+=== {{S|références}} ===
+* {{R:WarldNames|p=4}}
+
+== {{langue|sv}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|sv}}
+
+=== {{S|nom propre|sv}} ===
+'''Indien''' {{pron||sv}}
+# {{pays|sv|d’Asie}} [[Inde]] (pays asiatique).
+
+=== {{S|prononciation}} ===
+* {{écouter|Suède||lang=sv|audio=LL-Q9027 (swe)-Moonhouse-Indien.wav}}
+
+[[Catégorie:Inde en suédois|*]]

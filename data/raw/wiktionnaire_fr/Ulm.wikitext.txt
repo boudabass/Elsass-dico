@@ -1,0 +1,323 @@
+{{voir/ulm}}
+
+== {{langue|fr}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|fr|mot=Ulm}}.
+
+=== {{S|nom|fr|num=1}} ===
+{{fr-inv|ulm|inv_titre=Nom propre}}
+'''Ulm''' {{pron|ulm|fr}} {{f}} {{s}}
+# {{localités|fr|d’Allemagne}} [[ville|Ville]], commune et arrondissement d’[[Allemagne]], située dans le [[Bade-Wurtemberg]].
+#* {{exemple | lang=fr | D’'''Ulm''' à Ratisbonne.}}
+#* {{exemple|lang=fr|
+Nous arrivâmes à '''Ulm''' de nuit, on nous donna nos billets de logement, mais après avoir mangé, la ''grenadière'' battit, il fallut prendre les armes et partir de suite.
+|source={{w|Jean-Roch Coignet}}, « ''Les cahiers du capitaine Coignet (1799-1815)'' », Hachette, 1899, page 238}}
+
+=== {{S|nom|fr|num=2}} ===
+{{fr-inv|ylm|inv_titre=Nom propre}}
+'''Ulm''' {{pron|ylm|fr}} {{f}} {{s}}
+# {{lexique|éducation|fr}} {{w|École normale supérieure}}, située rue d'Ulm, à Paris.
+#* {{exemple | lang=fr | Avoir fait '''Ulm'''.}}
+#* {{exemple | lang=fr | En mathématiques pures, '''Ulm''' est loin devant [les autres écoles], en informatique, Cachan est la plus réputée.}}
+
+==== {{S|dérivés}} ====
+{{(}}
+* [[ulmable]]
+* [[ulmien]]
+{{)}}
+
+==== {{S|traductions}} ====
+{{trad-début}}
+* {{T|gsw}} : {{trad|gsw|Ulm}}
+* {{T|de}} : {{trad+|de|Ulm}}
+* {{T|en}} : {{trad+|en|Ulm}}
+* {{T|bg}} : {{trad-|bg|Улм|tr=Ulm}}
+* {{T|ca}} : {{trad-|ca|Ulm}}
+* {{T|zh}} : {{trad-|zh|乌尔姆}}
+* {{T|hr}} : {{trad-|hr|Ulm}}
+* {{T|es}} : {{trad-|es|Ulm}}
+* {{T|eo}} : {{trad-|eo|Ulm}}
+* {{T|et}} : {{trad+|et|Ulm}}
+* {{T|fi}} : {{trad+|fi|Ulm}}
+* {{T|ka}} : {{trad-|ka|ულმი|tr=ulmi}}
+* {{T|el}} : {{trad+|el|Ουλμ}}
+* {{T|he}} : {{trad+|he|אולם}}
+* {{T|hu}} : {{trad-|hu|Ulm}}
+* {{T|id}} : {{trad-|id|Ulm}}
+* {{T|it}} : {{trad-|it|Ulma}}
+* {{T|ja}} : {{trad-|ja|ウルム|tr=urumu}}
+* {{T|la}} : {{trad-|la|Ulma}}
+* {{T|lt}} : {{trad-|lt|Ulmas}}
+* {{T|lmo}} : {{trad-|lmo|Ulm}}
+* {{T|mk}} : {{trad-|mk|Улм|tr=Ulm}}
+* {{T|nl}} : {{trad-|nl|Ulm}}
+* {{T|no}} : {{trad-|no|Ulm}}
+* {{T|nn}} : {{trad-|no|Ulm}}
+* {{T|fa}} : {{trad-|fa|اولم}}
+* {{T|pl}} : {{trad+|pl|Ulm}}
+* {{T|pt}} : {{trad-|pt|Ulm}}
+* {{T|ro}} : {{trad-|ro|Ulm}}
+* {{T|ru}} : {{trad+|ru|Ульм|tr=Ulʹm}}
+* {{T|sr}} : {{trad-|sr|Улм}}
+* {{T|sh}} : {{trad-|sh|Ulm}}
+* {{T|sk}} : {{trad-|sk|Ulm}}
+* {{T|sl}} : {{trad-|sl|Ulm}}
+* {{T|sv}} : {{trad-|sv|Ulm}}
+* {{T|cs}} : {{trad-|cs|Ulm}}
+* {{T|th}} : {{trad-|th|อูล์ม}}
+* {{T|tr}} : {{trad-|tr|Ulm}}
+* {{T|vo}} : {{trad-|vo|Ulm}}
+{{trad-fin}}
+
+=== {{S|anagrammes}} ===
+{{voir anagrammes|fr}}
+
+=== {{S|voir aussi}} ===
+* {{WP}}
+
+[[Catégorie:Arrondissements d’Allemagne en français]]
+
+== {{langue|gsw}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|gsw|mot=Ulm}}.
+
+=== {{S|nom propre|gsw}} ===
+'''Ulm''' {{pron||gsw}}
+# {{localités|gsw|d’Allemagne}} {{lien|Ulm|fr}}.
+
+== {{langue|de}} ==
+
+=== {{S|étymologie}} ===
+: D’origine pré-germanique, voir le {{étyl|la|de|mot=Ulma}} et ''{{lien|Ulmi|la}}''.
+
+=== {{S|nom propre|de}} ===
+{{de-nom|ns= Ulm |np=|as= Ulm |ap=|gs= Ulms |gp=|ds= Ulm |dp=}}
+'''Ulm''' {{pron|ʊlm|de}} {{n}}
+# {{localités|de|d’Allemagne}} {{lien|Ulm|fr}}.
+
+==== {{S|gentilés}} ====
+* [[Ulmer]], [[Ulmerin]]
+
+== {{langue|en}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|en|mot=Ulm}}.
+
+=== {{S|nom propre|en}} ===
+'''Ulm''' {{pron||en}}
+# {{localités|en|d’Allemagne}} {{lien|Ulm|fr}}.
+
+=== {{S|prononciation}} ===
+* {{écouter|Sud de l'Angleterre (Royaume-Uni)||lang=en|audio=LL-Q1860 (eng)-Vealhurl-Ulm.wav}}
+
+== {{langue|ca}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|ca|mot=Ulm}}.
+
+=== {{S|nom propre|ca}} ===
+'''Ulm''' {{pron||ca}}
+# {{localités|ca|d’Allemagne}} {{lien|Ulm|fr}}.
+
+=== {{S|anagrammes}} ===
+* [[mul]]
+
+== {{langue|es}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|es|mot=Ulm}}.
+
+=== {{S|nom propre|es}} ===
+'''Ulm''' {{pron||es}}
+# {{localités|es|d’Allemagne}} {{lien|Ulm|fr}}.
+
+== {{langue|eo}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|eo|mot=Ulm}} {{eo-excl-étyl|de}}.
+
+=== {{S|nom propre|eo}} ===
+'''Ulm''' {{pron|ulm|eo}}
+# {{localités|eo|d’Allemagne}} {{lien|Ulm|fr}}.
+
+=== {{S|voir aussi}} ===
+* {{WP|Ulm|lang=eo}}
+
+=== {{S|références}} ===
+'''Vocabulaire''':
+* {{R:AkadLand|rac=vv}}
+
+== {{langue|et}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|et|mot=Ulm}}.
+
+=== {{S|nom propre|et}} ===
+'''Ulm''' {{pron||et}}
+# {{localités|et|d’Allemagne}} {{lien|Ulm|fr}}.
+
+== {{langue|fi}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|fi|mot=Ulm}}.
+
+=== {{S|nom propre|fi}} ===
+'''Ulm''' {{pron||fi}}
+# {{localités|fi|d’Allemagne}} {{lien|Ulm|fr}}.
+
+== {{langue|hu}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|hu|mot=Ulm}}.
+
+=== {{S|nom propre|hu}} ===
+'''Ulm''' {{pron||hu}}
+# {{localités|hu|d’Allemagne}} {{lien|Ulm|fr}}.
+
+== {{langue|id}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|id|mot=Ulm}}.
+
+=== {{S|nom propre|id}} ===
+'''Ulm''' {{pron||id}}
+# {{localités|id|d’Allemagne}} {{lien|Ulm|fr}}.
+#* {{exemple|lang=id}}
+
+== {{langue|lmo}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|lmo|mot=Ulm}}.
+
+=== {{S|nom propre|lmo}} ===
+'''Ulm''' {{pron||lmo}}
+# {{localités|lmo|d’Allemagne}} {{lien|Ulm|fr}}.
+
+== {{langue|nl}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|nl|mot=Ulm}}.
+
+=== {{S|nom propre|nl}} ===
+'''Ulm''' {{pron||nl}}
+# {{localités|nl|d’Allemagne}} {{lien|Ulm|fr}}.
+
+== {{langue|no}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|no|mot=Ulm}}.
+
+=== {{S|nom propre|no}} ===
+'''Ulm''' {{pron||no}}
+# {{localités|no|d’Allemagne}} {{lien|Ulm|fr}}.
+
+== {{langue|nn}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étyl|no|nn|mot=Ulm}}.
+
+=== {{S|nom propre|nn}} ===
+'''Ulm''' {{pron||nn}}
+# {{localités|nn|d’Allemagne}} {{lien|Ulm|fr}}.
+
+== {{langue|pl}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|pl|mot=Ulm}}.
+
+=== {{S|nom propre|pl}} ===
+'''Ulm''' {{pron||pl}}
+# {{localités|pl|d’Allemagne}} {{lien|Ulm|fr}}.
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=pl|Pologne (Varsovie)||audio=LL-Q809 (pol)-Olaf-Ulm.wav}}
+
+== {{langue|pt}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|pt|mot=Ulm}}.
+
+=== {{S|nom propre|pt}} ===
+'''Ulm''' {{pron||pt}}
+# {{localités|pt|d’Allemagne}} {{lien|Ulm|fr}}.
+
+== {{langue|ro}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|ro|mot=Ulm}}.
+
+=== {{S|nom propre|ro}} ===
+'''Ulm''' {{pron||ro}}
+# {{localités|ro|d’Allemagne}} {{lien|Ulm|fr}}.
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=ro|||audio=LL-Q7913 (ron)-KlaudiuMihaila-Ulm.wav}}
+
+== {{langue|sh}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|sh|mot=Ulm}}.
+
+=== {{S|nom propre|sh}} ===
+'''Ulm''' {{pron||sh}}
+# {{localités|sh|d’Allemagne}} {{lien|Ulm|fr}}.
+
+== {{langue|sk}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|sk|mot=Ulm}}.
+
+=== {{S|nom propre|sk}} ===
+'''Ulm''' {{pron||sk}}
+# {{localités|sk|d’Allemagne}} {{lien|Ulm|fr}}.
+
+== {{langue|sl}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|sl|mot=Ulm}}.
+
+=== {{S|nom propre|sl}} ===
+'''Ulm''' {{pron||sl}}
+# {{localités|sl|d’Allemagne}} {{lien|Ulm|fr}}.
+
+== {{langue|sv}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|sv|mot=Ulm}}.
+
+=== {{S|nom propre|sv}} ===
+'''Ulm''' {{pron||sv}}
+# {{localités|sv|d’Allemagne}} {{lien|Ulm|fr}}.
+
+== {{langue|cs}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|cs|mot=Ulm}}.
+
+=== {{S|nom propre|cs}} ===
+{{cs-décl-nom-mi-dur|sing=oui}}
+'''Ulm''' {{pron||cs}} {{m|i}}
+# {{localités|cs|d’Allemagne}} {{lien|Ulm|fr}}.
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=cs}}
+
+== {{langue|tr}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|tr|mot=Ulm}}.
+
+=== {{S|nom propre|tr}} ===
+'''Ulm''' {{pron||tr}}
+# {{localités|tr|d’Allemagne}} {{lien|Ulm|fr}}.
+
+== {{langue|vo}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|vo|mot=Ulm}}.
+
+=== {{S|nom propre|vo}} ===
+'''Ulm''' {{pron||vo}}
+# {{localités|vo|d’Allemagne}} {{lien|Ulm|fr}}.

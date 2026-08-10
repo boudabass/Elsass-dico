@@ -1,0 +1,168 @@
+{{voir|erde}}
+
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: Voir ''{{lien|Erde|de}}'' en allemand.
+
+=== {{S|nom propre|gsw}} ===
+'''Erde'''
+# La planète [[Terre]].
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=gsw}}
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|goh|de|mot=erda}}, apparenté à ''{{lien|aarde|nl}}'' en néerlandais, ''{{lien|earth|en}}'' en anglais, ''{{lien|jord|da}}'' en danois.
+
+=== {{S|nom|de}} ===
+{{de-nom-f-n}}
+'''Erde''' {{pron|ˈeːɐ̯.də|de}} {{f}}
+# [[terre#fr|Terre]], dans le sens de la planète du système solaire.
+#* {{exemple | lang=de | Ohne Wasser könnte niemand auf der '''Erde''' leben.}}
+#* {{exemple|Bisher sei man davon ausgegangen, dass die klimatischen Bedingungen die '''Erde''' erst in einigen Milliarden Jahren für Säugetiere gänzlich unbewohnbar machen würden, sagte Jonathan Buzan von der Universität Bern, einer der Studienautoren.|lang=de|sens=Jusqu'à présent, on pensait que les conditions climatiques ne rendraient pas la Terre totalement inhabitable pour les mammifères avant plusieurs milliards d'années, a déclaré Jonathan Buzan de l'Université de Berne, l'un des auteurs de l’étude.|source={{périodique|auteur=(dare, APA)|titre=In 250 Millionen Jahren könnte die Erde für Säugetiere unbewohnbar sein|journal=Der Standard|date=27 septembre 2023|texte=https://www.derstandard.at/story/3000000188515/in-250-millionen-jahren-koennte-die-erde-fuer-saeugetiere-unbewohnbar-sein}}}}
+#* {{exemple|Diese lebhafte und spöttische, aber kalte Frau hatte folgerichtige, aber unerbauliche Gedanken, weil ihr Mann erbaulich und unlogisch dachte; da er verlogen und leichtgläubig war, zweifelte sie an allem: «Die Leute behaupten, die '''Erde''' drehe sich; woher wissen sie das eigentlich?»|lang=de|sens=Cette femme vive et malicieuse mais froide pensait droit et mal, parce que son mari pensait bien et de travers; parce qu'il était menteur et crédule, elle doutait de tout: « Ils prétendent que la terre tourne; qu’est-ce qu'ils en savent? »|source={{ouvrage|auteur={{w|Jean-Paul Sartre}}|trad=Hans Mayer|titre=Die Wörter|année=1965|éditeur=Rowohlt Verlag|lieu=Hamburg|url=}}}}
+#* {{exemple|Das reichste Land der '''Erde''' ist die Föderation der Vereinigten Arabischen Emirate; das zweitreichste ist die Schweiz.|lang=de|sens=Le pays le plus riche de la terre est la Fédération des Émirats arabes unis ; le second est la Suisse.|source={{ouvrage|auteur={{w|Jean Ziegler}}|trad=Friedrich Griese et Thorsten Schmidt|titre=Die Schweiz wäscht weisser|année=1990|éditeur=Piper|lieu=München et Zürich|url=}}}}
+# {{lexique|géographie|de}} [[terre ferme#fr|Terre ferme]], surface de notre planète qui n’est pas recouverte par les mers et les océans.
+#* {{exemple|lang=de}}
+# Terre, sol, terrain.
+#* {{exemple|Humboldt durchlief das Kurrikulum der (Bergbauakademie) in einem Vierteljahr. Morgens war er sechs Stunden unter der '''Erde''', nachmittags hörte er Vorlesungen, am Abend und die Hälfte der Nacht lernte er für den nächsten Tag. |lang=de|sens=Humboldt acheva le programme de l’académie (des mines) en trois mois. Le matin, il passait six heures sous terre, l’après-midi il assistait aux cours, le soir et la moitié de la nuit, il travaillait pour le jour suivant.|source={{ouvrage|auteur={{w|Daniel Kehlmann}}|titre=Die Vermessung der Welt|année=2005|éditeur=Rohwolt|url=}}}}
+#* {{exemple|Die gefrorene '''Erde''', die durch die anhaltende Kälte abstrakte Landschaft voller Weite und Weiß, die raue Freundschaft der Dorfbewohner: Diese Erfahrungen inspirieren ihn zu Gedichten, die, nachdem sie über viele Umwege Leningrad erreichen, zu Kultobjekten für mehr oder weniger alle Dissidentenkreise der Sowjetunion werden.|lang=de|sens=Terre glacée, paysage abstrait à force de froid, d’espace et de blancheur, rugueuse amitié des villageois : l’expérience lui inspire des poèmes qui, parvenant à Leningrad par des chemins détournés, deviennent des objets de culte pour tous les cercles plus ou moins dissidents de l’Union.|source={{ouvrage|auteur={{w|Emmanuel Carrère}}|trad=Claudia Hamm|titre=Limonow|année=2012|éditeur=MSB Matthes & Seitz Berlin Verlagsgesellschaft|lieu=Berlin|url=}}}}
+# [[terre#fr|Terre]], [[terreau]].
+#* {{exemple|'''Erde''' kneten, ein Loch bohren sind ebenso ursprüngliche Tätigkeiten wie die Umarmung, wie der Koitus: man irrt sich, wenn man in ihnen nur sexuelle Symbole sieht.|lang=de|sens=Pétrir la terre, creuser un trou, ce sont des activités aussi originelles que l’étreinte, que le coït : on se trompe en y voyant seulement des symboles sexuels ;|source={{ouvrage|auteur={{w|Simone de Beauvoir}}|trad=Uli Aumüller et Grete Osterwald|titre=Das andere Geschlecht|année=1992|éditeur=Rowohlt Verlag|url=}}}}
+# {{lexique|électricité|de}} [[prise de terre|Prise de terre]].
+#* {{exemple|lang=de}}
+# {{lexique|religion|de}} [[bas monde#fr|Bas monde]], par opposition au Ciel.
+#* {{exemple|lang=de}}
+
+==== {{S|synonymes}} ====
+{{(|Sol}}
+* {{lien|Ackerboden|de}}
+* {{lien|Boden|de}} ou {{lien|Erdboden|de}}
+* {{lien|Erdreich|de}}
+* {{lien|Grund|de}} ou {{lien|Untergrund|de}}
+* {{lien|Humus|de}}
+* {{lien|Mutterboden|de}}
+{{)}}
+{{(|Prise de terre}}
+* {{lien|Erdleitung|de}}
+{{)}}
+{{(|Masse de terre émergée}}
+* {{lien|Festland|de}}
+* {{lien|Land|de}}
+{{)}}
+{{(|bas monde}}
+* {{lien|Diesseits|de}}
+{{)}}
+
+==== {{S|antonymes}} ====
+* {{lien|Himmel|de}}
+* {{lien|Luft|de}}
+* {{lien|Stein|de}}
+* {{lien|Unland|de}}
+* {{lien|Wasser|de}}
+* {{lien|Mond|de}}
+* {{lien|Sonne|de}}
+* {{lien|Stern|de}}
+* {{lien|Meer|de}}
+* {{lien|Ozean|de}}
+* {{lien|Wasser|de}}
+* {{lien|Himmel|de}}
+* {{lien|Jenseits|de}}
+
+==== {{S|hyperonymes}} ====
+* {{lien|Planet|de}}
+
+==== {{S|hyponymes}} ====
+{{(|}}
+* {{lien|Heimaterde|de}}
+* {{lien|Blumenerde|de}}
+* {{lien|Gartenerde|de}}
+* {{lien|Heilerde|de}}
+* {{lien|Humuserde|de}}
+* {{lien|Komposterde|de}}
+* {{lien|Kieselerde|de}}
+* {{lien|Muttererde|de}}
+* {{lien|Pflanzenerde|de}}
+* {{lien|Porzellanerde|de}}
+* {{lien|Schwarzerde|de}}
+* {{lien|Tonerde|de}}
+* {{lien|Torferde|de}}
+* {{lien|Mittelerde|de}}
+* {{lien|Supererde|de}}
+{{)}}
+
+==== {{S|dérivés}} ====
+{{(|&nbsp;}}
+* {{lien|beerdigen|de|sens=enterrer}}
+* {{lien|Beerdigung|de|sens=enterrement}}
+* {{lien|Erdapfel|de|sens=pomme de terre}}
+* {{lien|Erdball|de|sens=Terre}}
+* {{lien|Erdbeben|de|sens=séisme}}
+* {{lien|Erdbeere|de|sens=fraise}}
+* {{lien|Erdbirne|de|sens=pomme de terre}}
+* {{lien|erden|sens=mettre en terre », « revenir sur terre}}
+* {{lien|Erdung|de|sens=mise à la terre}}
+* {{lien|Erdgas|de|sens=gaz naturel}}
+* {{lien|erdig|de|sens=terreux}}
+* {{lien|Erdkunde|de|sens=géographie}}
+* {{lien|Erdleitung|de|sens=prise de terre}}
+* {{lien|Erdloch|de}}
+* {{lien|Erdmännchen|de|sens=lutin}}
+* {{lien|Erdmantel|de|sens=manteau terrestre}}
+* {{lien|Erdnuss|de|sens=cacahuète}}
+* {{lien|Erdöl|de|sens=pétrole}}
+* {{lien|Erdreich|de|sens=sol, terre}}
+* {{lien|erdverwachsen|de}}
+{{)}}
+
+==== {{S|phrases}} ====
+* {{lien|auf der Erde bleiben|de|dif=auf der ''Erde'' bleiben}}
+* {{lien|die Hölle auf Erden|de|dif=die Hölle auf ''Erden''}}
+* {{lien|mit beiden Beinen fest auf der Erde stehen|de|dif=mit beiden Beinen fest auf der ''Erde'' stehen}}
+* {{lien|unter der Erde liegen|de|dif=unter der ''Erde'' liegen}}
+
+=== {{S|nom propre|de}} ===
+{{de-nom-propre|genre=f}}
+'''Erde''' {{pron|eːɐ̯.də|de}} {{f}} {{s}}
+# Planète {{lien|Terre|fr}}.
+#* {{exemple|lang=de}}
+
+==== {{S|synonymes}} ====
+{{(}}
+* [[Blauer Planet]]
+* [[Erdball]]
+* [[Gaia]]
+* [[Globus]]
+* [[Terra]]
+* [[Welt]]
+{{)}}
+
+=== {{S|prononciation}} ===
+* {{pron|ˈeːɐ̯də|de}}<ref>adapté par: Krech, Eva-Maria, Stock, Eberhard, Hirschfeld, Ursula, Anders, Lutz Christian: ''Deutsches Aussprachewörterbuch'', Walter de Gruyter, Berlin, New York, 2009, page 486</ref>
+* {{écouter|{{DE|nocat=1}}|ˈeːɐ̯də|lang=de|audio=De-Erde.ogg}}
+* {{écouter|{{DE|nocat=1}}|ˈeːɐ̯də|lang=de|audio=De-Erde2.ogg}}
+* {{écouter|Berlin (Allemagne)|ˈeːɐ̯də|lang=de|audio=De-Erde3.ogg}}
+* {{écouter|{{DE|nocat=1}}|ˈeːɐ̯də|lang=de|audio=LL-Q188 (deu)-Lucas Werkmeister-Erde.wav}}
+* {{écouter|Berlin (Allemagne)|ˈeːɐ̯də|lang=de|audio=LL-Q188 (deu)-Sebastian Wallroth-Erde.wav}}
+* {{écouter|{{DE|nocat=1}}|ˈeːɐ̯də|lang=de|audio=de-Erde.ogg}}
+* {{écouter|Munich (Allemagne)|ˈeːɐ̯də|lang=de|audio=LL-Q188 (deu)-Ionenlaser-Erde.wav}}
+
+=== {{S|anagrammes}} ===
+* {{lien|Eder|de}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=de}}
+
+=== {{S|références}} ===
+* {{R:DWDS|Erde}}
+* {{R:Duden|Erde}}
+
+==== {{S|sources}} ====
+{{Références}}
+
+==== {{S|bibliographie}} ====
+* {{R:Duden}}
+
+[[Catégorie:Lexique en allemand de l’astronomie]]
+[[Catégorie:Planètes en allemand]]

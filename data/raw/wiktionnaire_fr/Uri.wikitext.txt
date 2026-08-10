@@ -1,0 +1,362 @@
+{{voir/uri}}
+
+== {{langue|fr}} ==
+
+=== {{S|étymologie}} ===
+: {{term|canton suisse}} De l’{{étylp|de|fr|mot=Uri}}.
+: {{term|localité sarde}} De l’{{étylp|it|fr|mot=Uri}}.
+
+=== {{S|nom propre|fr|num=1}} ===
+{{fr-inv|y.ʁi}}
+'''Uri''' {{pron|y.ʁi|fr}} {{m}} {{s}} {{invar}}
+# [[canton|Canton]] de [[Suisse]] situé entre le [[lac des Quatre cantons]] et le massif du [[Gothard]].
+
+==== {{S|dérivés}} ====
+* [[Uranais]], [[Uranaise]] (gentilés)
+* [[uranais]]
+
+==== {{S|traductions}} ====
+{{trad-début}}
+* {{T|gsw}} : {{trad|gsw|Uri}}
+* {{T|de}} : {{trad+|de|Uri}}
+* {{T|en}} : {{trad+|en|Uri}}
+* {{T|an}} : {{trad-|an|Uri}}
+* {{T|bg}} : {{trad-|bg|Ури|tr=Uri}}
+* {{T|ca}} : {{trad-|ca|Uri}}
+* {{T|zh}} : {{trad-|zh|烏里州}}
+* {{T|es}} : {{trad+|es|Uri}}
+* {{T|eo}} : {{trad-|eo|Urio}}
+* {{T|et}} : {{trad-|et|Uri}}
+* {{T|fi}} : {{trad-|fi|Uri}}
+* {{T|frp}} : {{trad|frp|Ouri}}
+* {{T|he}} : {{trad+|he|אורי}}
+* {{T|id}} : {{trad-|id|Uri}}
+* {{T|it}} : {{trad-|it|Uri}}
+* {{T|ja}} : {{trad-|ja|ウーリ州}}
+* {{T|la}} : {{trad-|la|Urania}}
+* {{T|lb}} : {{trad-|lb|Uri}}
+* {{T|nl}} : {{trad+|nl|Uri}}
+* {{T|no}} : {{trad+|no|Uri}}
+* {{T|pl}} : {{trad+|pl|Uri}}
+* {{T|pt}} : {{trad-|pt|Uri}}
+* {{T|rm}} : {{trad-|rm|Uri}}
+* {{T|ru}} : {{trad+|ru|Ури|tr=Uri}}
+* {{T|sl}} : {{trad-|sl|Uri}}
+* {{T|sv}} : {{trad-|sv|Uri}}
+* {{T|cs}} : {{trad-|cs|Uri}}
+{{trad-fin}}
+
+=== {{S|nom propre|fr|num=2}} ===
+{{fr-inv|y.ʁi|inv_titre=Nom propre}}
+'''Uri''' {{pron|y.ʁi|fr}} {{f}} {{s}} {{invar}}
+# {{localités|fr|de Sardaigne}} [[commune|Commune]] d’[[Italie]] de la province de [[Sassari]] dans la région de [[Sardaigne]]. 
+
+==== {{S|traductions}} ====
+{{trad-début}}
+* {{T|en}} : {{trad+|en|Uri}}
+* {{T|eu}} : {{trad-|eu|Uri}}
+* {{T|eo}} : {{trad-|eo|Uri}}
+* {{T|it}} : {{trad-|it|Uri}}
+* {{T|nap}} : {{trad|nap|Uri}}
+* {{T|nl}} : {{trad+|nl|Uri}}
+* {{T|pl}} : {{trad+|pl|Uri}}
+* {{T|pt}} : {{trad-|pt|Uri}}
+{{trad-fin}}
+
+=== {{S|nom propre|fr|num=3}} ===
+'''Uri''' {{pron||fr}}
+# {{localités|fr|du département de Seine-et-Marne}} {{désuet|fr}} {{variante de|Ury}}.
+
+=== {{S|anagrammes}} ===
+{{voir anagrammes|fr}}
+
+=== {{S|références}} ===
+* {{R:Guilbert 1731}}
+
+=== {{S|voir aussi}} ===
+* {{WP}}
+
+[[Catégorie:Cantons de Suisse en français]]
+
+== {{langue|gsw}} ==
+
+=== {{S|étymologie}} ===
+: Voir l’{{étyl|de|gsw|mot=Uri}}.
+
+=== {{S|nom propre|gsw}} ===
+'''Uri''' {{pron||gsw}}
+# {{lien|Uri|fr}}, canton suisse.
+
+[[Catégorie:Cantons de Suisse en alémanique]]
+
+== {{langue|de}} ==
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|de}}
+
+=== {{S|nom propre|de}} ===
+'''Uri''' {{pron||de}}
+# {{lien|Uri|fr}}, canton suisse.
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=de|Allemagne||audio=De-Uri.ogg}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=de}}
+
+[[Catégorie:Cantons de Suisse en allemand]]
+
+== {{langue|en}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|en|mot=Uri}}.
+
+=== {{S|nom propre|en|num=1}} ===
+'''Uri''' {{pron||en}}
+# {{lien|Uri|fr}}, canton suisse.
+
+=== {{S|nom propre|en|num=2}} ===
+'''Uri''' {{pron||en}}
+# {{localités|en|d’Italie}} {{lien|Uri|fr}}, localité sarde.
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=en|Royaume-Uni (Sud de l'Angleterre)||audio=LL-Q1860 (eng)-Vealhurl-Uri.wav}}
+
+[[Catégorie:Cantons de Suisse en anglais]]
+
+== {{langue|an}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|an|mot=Uri}}.
+
+=== {{S|nom propre|an}} ===
+'''Uri''' {{pron||an}}
+# {{lien|Uri|fr}}, canton suisse.
+
+[[Catégorie:Cantons de Suisse en aragonais]]
+
+== {{langue|eu}} ==
+
+=== {{S|nom propre|eu}} ===
+'''Uri''' {{pron||eu}}
+# {{localités|eu|d’Italie}} {{lien|Uri|fr}}, localité sarde.
+
+== {{langue|ca}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|ca|mot=Uri}}.
+
+=== {{S|nom propre|ca}} ===
+'''Uri''' {{phon|ˈuɾi|ca}}
+# {{lien|Uri|fr}}, canton suisse.
+
+=== {{S|anagrammes}} ===
+* [[riu]]
+
+[[Catégorie:Cantons de Suisse en catalan]]
+
+== {{langue|es}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|es|mot=Uri}}.
+
+=== {{S|nom propre|es}} ===
+'''Uri''' {{pron||es}}
+# {{lien|Uri|fr}}, canton suisse.
+
+[[Catégorie:Cantons de Suisse en espagnol]]
+
+== {{langue|eo}} ==
+=== {{S|nom propre|eo}} ===
+'''Uri''' {{pron||eo}}
+# {{lien|Uri|fr}}, localité sarde.
+
+=== {{S|voir aussi}} ===
+* {{WP|Uri|lang=eo}}
+
+=== {{S|références}} ===
+'''Vocabulaire''':
+* {{R:AkadLand|rac=vv}}
+[[Catégorie:Localités d’Italie en espéranto]]
+
+== {{langue|et}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|et|mot=Uri}}.
+
+=== {{S|nom propre|et}} ===
+'''Uri''' {{pron||et}}
+# {{lien|Uri|fr}}, canton suisse.
+
+[[Catégorie:Cantons de Suisse en estonien]]
+
+== {{langue|fi}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|fi|mot=Uri}}.
+
+=== {{S|nom propre|fi}} ===
+'''Uri''' {{pron||fi}}
+# {{lien|Uri|fr}}, canton suisse.
+
+[[Catégorie:Cantons de Suisse en finnois]]
+
+== {{langue|id}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|id|mot=Uri}}.
+
+=== {{S|nom propre|id}} ===
+'''Uri''' {{pron||id}}
+# {{lien|Uri|fr}}, canton suisse.
+#* {{exemple|lang=id}}
+
+[[Catégorie:Cantons de Suisse en indonésien]]
+
+== {{langue|it}} ==
+
+=== {{S|étymologie}} ===
+: {{term|localités sarde}} {{ébauche-étym|it}}
+: {{term|canton suisse}} De l’{{étylp|de|fr|mot=Uri}}.
+
+=== {{S|nom propre|it|num=1}} ===
+'''Uri''' {{pron||it}}
+# {{localités|it|de Sardaigne}} {{lien|Uri|fr}}, commune d’Italie de la province de Sassari dans la région de Sardaigne.
+#* {{exemple|lang=it}}
+
+==== {{S|dérivés}} ====
+* {{lien|urese|it}}
+
+=== {{S|nom propre|it|num=2}} ===
+'''Uri''' {{pron||it}}
+# {{cantons|it|de Suisse}} {{lien|Uri|fr}}, canton suisse.
+#* {{exemple|lang=it}}
+
+=== {{S|prononciation}} ===
+{{ébauche-pron-audio|it}}
+
+=== {{S|anagrammes}} ===
+{{voir anagrammes|it}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=it}}
+* {{VOY|lang=it}}
+
+=== {{S|références}} ===
+==== {{S|bibliographie}} ====
+* {{R:SDAS}}
+
+== {{langue|lb}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|lb|mot=Uri}}.
+
+=== {{S|nom propre|lb}} ===
+'''Uri''' {{pron||lb}}
+# {{lien|Uri|fr}}, canton suisse.
+
+[[Catégorie:Cantons de Suisse en luxembourgeois]]
+
+== {{langue|nap}} ==
+
+=== {{S|nom propre|nap}} ===
+'''Uri''' {{pron||nap}}
+# {{localités|nap|d’Italie}} {{lien|Uri|fr}}, localité sarde.
+
+== {{langue|nl}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|nl|mot=Uri}}.
+
+=== {{S|nom propre|nl|num=1}} ===
+'''Uri''' {{pron||nl}}
+# {{lien|Uri|fr}}, canton suisse.
+
+=== {{S|prononciation}} ===
+* {{écouter|||lang=nl|audio=Nl-Uri.ogg}}
+
+=== {{S|nom propre|nl|num=2}} ===
+'''Uri''' {{pron||nl}}
+# {{localités|nl|d’Italie}} {{lien|Uri|fr}}, localité sarde.
+
+[[Catégorie:Cantons de Suisse en néerlandais]]
+
+== {{langue|no}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|no|mot=Uri}}.
+
+=== {{S|nom propre|no}} ===
+'''Uri''' {{pron||no}}
+# {{lien|Uri|fr}}, canton suisse.
+
+[[Catégorie:Cantons de Suisse en norvégien]]
+
+== {{langue|pl}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|pl|mot=Uri}}.
+
+=== {{S|nom propre|pl|num=1}} ===
+'''Uri''' {{pron||pl}}
+# {{lien|Uri|fr}}, canton suisse.
+
+=== {{S|nom propre|pl|num=2}} ===
+'''Uri''' {{pron||pl}}
+# {{localités|pl|d’Italie}} {{lien|Uri|fr}}, localité sarde.
+
+=== {{S|prononciation}} ===
+* {{écouter|Varsovie (Pologne)||lang=pl|audio=LL-Q809 (pol)-Poemat-Uri.wav}}
+
+[[Catégorie:Cantons de Suisse en polonais]]
+
+== {{langue|pt}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|pt|mot=Uri}}.
+
+=== {{S|nom propre|pt|num=1}} ===
+'''Uri''' {{pron||pt}}
+# {{lien|Uri|fr}}, canton suisse.
+
+=== {{S|nom propre|pt|num=2}} ===
+'''Uri''' {{pron||pt}}
+# {{localités|pt|d’Italie}} {{lien|Uri|fr}}, localité sarde.
+
+[[Catégorie:Cantons de Suisse en portugais]]
+
+== {{langue|sl}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|sl|mot=Uri}}.
+
+=== {{S|nom propre|sl}} ===
+'''Uri''' {{pron||sl}}
+# {{lien|Uri|fr}}, canton suisse.
+
+[[Catégorie:Cantons de Suisse en slovène]]
+
+== {{langue|sv}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|sv|mot=Uri}}.
+
+=== {{S|nom propre|sv}} ===
+'''Uri''' {{pron||sv}}
+# {{lien|Uri|fr}}, canton suisse.
+
+[[Catégorie:Cantons de Suisse en suédois]]
+
+== {{langue|cs}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|cs|mot=Uri}}.
+
+=== {{S|nom propre|cs}} ===
+'''Uri''' {{indéc|cs}} {{n}}
+# {{lien|Uri|fr}}, canton suisse.
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=cs}}
+
+[[Catégorie:Cantons de Suisse en tchèque]]

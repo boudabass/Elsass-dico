@@ -1,0 +1,103 @@
+{{voir/danemark}}
+
+== {{langue|gsw}} ==
+=== {{S|étymologie}} ===
+: {{date|lang=gsw}} Dérivé du danois ''[[Danmark]]''.
+
+=== {{S|nom propre|gsw}} ===
+'''Dänemark''' {{pron||gsw}}
+# {{pays|gsw}} [[Danemark]] (pays d’[[Europe]]).
+
+==== {{S|synonymes}} ====
+* [[Denmarik]]
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: {{date|lang=de}} du {{étyl|da|de|mot=Danmark}}.
+
+=== {{S|nom propre|de}} ===
+{{de-nom-propre|genre=n|gs=Dänemark|gs2=Dänemarks}}
+[[Fichier:Denmark in Europe.svg|vignette|Situation du '''Danemark''' en Europe.]]
+'''Dänemark''' {{pron|ˈdɛːnəˌmaʁk|de}} {{n}}, {{au singulier uniquement|de}}.
+# {{pays|de|d’Europe}} [[Danemark#fr|Danemark]] (pays, royaume d’[[Europe]] de l'ouest).
+#* {{exemple | lang=de | Der höchste Punkt '''Dänemarks''' erreicht gerade mal 173 Meter. | sens=Le point culminant ''Danemark'' n'atteint que 173 mètres.}}
+#* {{exemple | lang=de | Die Hauptstadt von '''Dänemark''' ist Kopenhagen. | sens=La capîtale du Danemark est Copenhague.}}
+#* {{exemple|US-amerikanische Milliardäre stehen ständig in den Schlagzeilen und die meisten Menschen haben vermutlich zumindest schon einmal ihre Namen gehört. Doch wie sieht es mit den Superreichen anderer Länder aus, zum Beispiel aus '''Dänemark'''?|lang=de|sens=Les milliardaires américains font constamment la une des journaux et la plupart des gens ont probablement déjà entendu leur nom au moins une fois. Mais qu’en est-il des super-riches d'autres pays, par exemple du Danemark ?|source={{périodique|auteur=Victoria Niemsch|titre=Jeder hat schon seine Kleidung getragen, aber kaum jemand kennt sein Gesicht – das ist der reichste Mensch aus Dänemark|journal=Business Insider|date=1 mai 2025|texte=https://www.businessinsider.de/wirtschaft/das-ist-der-reichste-mensch-aus-daenemark-bestimmt-kennt-ihr-ihn}}}}
+
+==== {{S|notes}} ====
+En allemand, les pays n’ont généralement pas de déterminant.
+Si toutefois il y a besoin d'une déclinaison, ils sont supposés du genre neutre.
+
+==== {{S|abréviations}} ====
+* [[DK#conv|DK]]
+* [[DEN]]
+
+==== {{S|synonymes}} ====
+* {{lien|Königreich Dänemark|de}}
+
+==== {{S|gentilés}} ====
+* [[Däne]], [[Dänin]]
+* [[dänisch]]
+
+==== {{S|hyperonymes}} ====
+* {{lien|Europa|de}}
+* {{lien|Königreich|de}}
+* {{lien|Land|de}}
+* {{lien|Staat|de}}
+
+==== {{S|phrases}} ====
+* {{lien|es ist was faul im Staate Dänemark|de}}
+
+=== {{S|prononciation}} ===
+* {{écouter|Berlin (Allemagne)|ˈdɛːnəˌmaʁk|lang=de|audio=De-Dänemark2.ogg}}
+* {{écouter|{{DE|nocat=1}}|ˈdɛːnəˌmaʁk|lang=de|audio=De-Dänemark.ogg}}
+* {{écouter|{{DE|nocat=1}}|ˈdɛːnəˌmaʁk|lang=de|audio=LL-Q188 (deu)-Natschoba-Dänemark.wav}}
+
+==== {{S|sources}} ====
+* {{R:Duden|Dänemark}}
+* {{Source-wikt|de|Dänemark}}
+* {{R:DWDS|Dänemark}}
+
+==== {{S|bibliographie}} ====
+* Larousse - Dictionnaire allemand/français – français/allemand , éd. 1958, p 430.
+* Harrap’s – Bordas Dictionnaire allemand/français, éd. 1997, p 69.
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=de}}
+
+=== {{S|anagrammes}} ===
+{{voir anagrammes|de}}
+
+[[Catégorie:Danemark en allemand|*]]
+
+== {{langue|ksh}} ==
+=== {{S|étymologie}} ===
+: {{date|lang=ksh}} Dérivé du {{étylp|da|ksh|Danmark}}.
+
+=== {{S|nom propre|ksh}} ===
+'''Dänemark''' {{pron||ksh}}
+# {{pays|ksh}} [[Danemark]].
+
+=== {{S|références}} ===
+* {{WP|lang=ksh}}
+[[Catégorie:Europe en francique ripuaire]]
+
+== {{langue|lb}} ==
+=== {{S|étymologie}} ===
+: Du {{étylp|da|lb|Danmark}}.
+
+=== {{S|nom propre|lb}} ===
+{{lb-inv|dˈɛːnəmɑʀk|inv_titre=Nom propre}}
+'''Dänemark''' {{pron|dˈɛːnəmɑʀk|lb}} {{n}}
+# {{pays|lb|d’Europe|pays=Danemark|clé=*}} {{lien|Danemark|fr}}.
+#* {{exemple|lang=lb}}
+
+==== {{S|gentilés}} ====
+* {{lien|Dän|lb|sens=Danois}}, {{lien|Dänin|lb|sens=Danoise}}
+* {{lien|dänesch|lb|sens=danois, danoise}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=lb}}
+
+=== {{S|références}} ===
+: {{R:LOD}}

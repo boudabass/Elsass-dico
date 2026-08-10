@@ -1,0 +1,89 @@
+{{voir|kelvin|degré Kelvin}}
+
+== {{langue|fr}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|en|fr|mot=Kelvin}}.
+
+=== {{S|nom propre|fr}} ===
+'''Kelvin''' {{pron||fr}} {{f}}
+# {{cours d’eau|fr|d’Écosse}} Affluent de la {{lien|Clyde|fr}} qui coule en Écosse.
+#* {{exemple|lang=fr}}
+
+==== {{S|traductions}} ====
+{{trad-début}}
+{{trad-fin}}
+
+=== {{S|nom de famille|fr}} ===
+{{fr-inv|}}
+'''Kelvin''' {{pron||fr}}
+# Nom de famille.
+#* {{exemple|lang=fr}}
+
+==== {{S|traductions}} ====
+{{trad-début}}
+{{trad-fin}}
+
+=== {{S|nom|fr}} ===
+{{fr-rég|kɛl.vɛ̃|pron2=kɛl.vin}}
+'''Kelvin''' {{pron|kɛl.vɛ̃|fr}} <small>ou</small> {{pron|kɛl.vin|fr}} {{m}}
+# {{variante de|kelvin|fr}}.
+#* {{exemple|lang=fr}}
+
+==== {{S|notes}} ====
+: {{attention}} La forme en minuscules est la seule acceptée, car il s’agit d’un nom commun.
+
+=== {{S|anagrammes}} ===
+{{voir anagrammes|fr}}
+
+=== {{S|voir aussi}} ===
+* {{WP|Kelvin (homonymie)}}
+* {{WP|Kelvin (rivière)}}
+[[Catégorie:Éponymes en français]]
+
+== {{langue|en}} ==
+=== {{S|étymologie}} ===
+: Du {{étylp|gd|en|mot=Cheilbhinn}}, {{composé de|caol|sens1=étroit|abhainn|sens2=rivière|lang=gd|nocat=1}}.
+
+=== {{S|nom propre|en}} ===
+'''Kelvin''' {{pron|kɛlvɪn|en}}
+# {{cours d’eau|en|d’Écosse}} {{lien|Kelvin|fr}}, rivière écossaise.
+#*{{exemple|lang=en|The {{w|river '''Kelvin'''}}.|La rivière Kelvin.}}
+
+==== {{S|dérivés}} ====
+* {{lien|Kelvinhead|en}}
+
+=== {{S|nom de famille|en}} ===
+{{en-nom-rég}}
+'''Kelvin''' {{pron|kɛlvɪn|en}}
+# Nom de famille.
+#* {{exemple|lang=en|{{w|Lord '''Kelvin'''|lang=en}}.|pas-trad=oui}}
+
+==== {{S|dérivés}} ====
+* {{lien|Kelvinator|en}}
+
+=== {{S|prénom|en|genre=m}} ===
+'''Kelvin''' {{pron|kɛlvɪn|en}}
+# Prénom masculin.
+#* {{exemple|lang=en|{{w|'''Kelvin''' MacKenzie|lang=en}}.|pas-trad=oui}}
+#* {{exemple|lang=en|{{w|'''Kelvin''' Harrison Jr.|lang=en}}.|pas-trad=oui}}
+
+=== {{S|nom|en}} ===
+{{en-nom-rég}}
+'''Kelvin''' {{pron|kɛlvɪn|en}}
+# {{variante de|kelvin|en}}.
+#*{{exemple|lang=en|William Thomson, 1st Baron Kelvin developed the concept of absolute zero and for whom the '''Kelvin''' temperature scale is named.}}
+
+=== {{S|prononciation}} ===
+* {{écouter|Sud de l'Angleterre (Royaume-Uni)||lang=en|audio=LL-Q1860 (eng)-Vealhurl-Kelvin.wav}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=en}}
+[[Catégorie:Éponymes en anglais]]
+
+== {{langue|gsw}} ==
+=== {{S|nom|gsw}} ===
+'''Kelvin''' {{pron||gsw}}
+# {{unités|gsw}} [[kelvin#fr|Kelvin]].
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=gsw}}

@@ -11,12 +11,12 @@
   "rubriques": [
     {
       "cle": "lexique_a_d",
-      "libelle": "Lexique français → alsacien, lettres A à D",
-      "statut": "extrait",
+      "libelle": "Lexique français → alsacien, lettres A à Z",
+      "statut": "inventorié",
       "type_terme": "mot, expression",
-      "volumetrie": 7260,
-      "emplacement": "Dictionnaire/{A,B,C,D}/{mots,expressions,notes}.json",
-      "notes": "Extraction antérieure au studio, non vérifiée par ed-verificateur. À reprendre au contrat data/README.md avant ingestion."
+      "volumetrie": 42468,
+      "emplacement": "data/raw/culture_alsace/page_{X}.htm et page_{X}f.htm (X = a…z, xy)",
+      "notes": "Campagne 3 : inventaire A-Z du miroir elsassisch.eu/culture.alsace.pagesperso-orange.archive/. REMPLACE le scrape antérieur au studio (dossier Dictionnaire/, lettres A-D, 7260 entrées, hors contrat) — il n'ajoute pas une source de plus (règle 2 : même auteur, même source_code). Volumétrie = somme des comptages bruts « .- » des 50 pages du dictionnaire (42468 lignes ; estimation : certaines entrées s'étendent sur plusieurs lignes, certaines pages portent des notes de prononciation en tête). Chaque page est documentée individuellement dans les rubriques dico_* ci-dessous, avec son URL et son comptage propre. Extraction studio à venir (ed-extracteur)."
     },
     {
       "cle": "dico_fr_als_a",

@@ -422,10 +422,35 @@ directe, pas le rapport du script d'ingestion) : `culture_alsace` 1132,
 
 **Prochaine étape** : le dossier `Dictionnaire/` (remplacement par la sortie
 du parseur, ~50 pages) est débloqué — plus aucune source de campagne 2 ne
-retient l'ingestion. Le périmètre des GATE (quelles décisions ont vraiment
-besoin d'une validation humaine explicite, et lesquelles pourraient être
-allégées sans affaiblir la garantie de la règle 4) reste à trancher avant de
-la lancer — cf. « Décisions prises ».
+retient l'ingestion.
+
+## Périmètre des GATE tranché (10/08/2026, décision de John)
+
+- **Ce qui s'allège** : l'extraction vers `attestations` (dépôt JSONL sur
+  `data`, ingestion candidate en base, statut non public) et le verdict
+  `ed-verificateur` / `ed-gardien` — Claude Code n'a plus besoin de refaire
+  systématiquement le contrôle octet à octet avant chaque étape de ce
+  périmètre. Un doute signalé dans un rapport de carte reste traité comme
+  avant (contrôle sur pièces).
+- **Ce qui reste inchangé, sans exception nouvelle** :
+  - l'arbitrage humain (`statut='valide'`, `/admin/arbitrage`, règle 4) —
+    c'est l'étape qui rend une donnée publique, elle n'a jamais été faite
+    par le studio (règle doctrinale 5 : aucun agent ne crée d'entrée) et
+    reste réservée à un admin ;
+  - le seuil de 2 sources distinctes de `arbitrer_entree()` (règle 2), y
+    compris pour le dossier `Dictionnaire/` lui-même : une reprise en masse
+    d'une source scrapée unique est exactement le cas que l'exception du
+    07/08/2026 exclut explicitement (« la règle vise la reprise en masse
+    d'une source scrapée, pas le témoignage d'un locuteur qu'un humain a
+    arbitré »). Le dossier reste donc bloqué à 1 source sur N tant qu'aucune
+    deuxième source indépendante ne recoupe chaque entrée.
+- Écarté en cours de clarification : faire compter un code postal cohérent
+  comme un deuxième élément de confiance pour un toponyme à source lexicale
+  unique. Il valide l'identité de la commune française, pas la forme
+  alsacienne — il ne recoupe rien au sens de la règle 2. Le vrai recoupement
+  reste lexical, entre deux sources qui s'accordent sur la même forme
+  alsacienne (comme la jointure `alsacien_wikipedia` × `culture_alsace` de la
+  campagne 2) : la règle actuelle le couvre déjà, sans changement de seuil.
 
 ## Règles de travail
 

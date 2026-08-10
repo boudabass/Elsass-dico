@@ -203,11 +203,15 @@ Coolify self-hosted v4.1.2 sur VPS OVH. Supabase self-hosted à déployer dessus
   `elsassdico` a créé le board et les six profils `ed-*` (article 725). La
   séparation évitait qu'un profil généraliste prenne des décisions engageant la
   doctrine ; elle a tenu.
-- Prochaine étape (révisée le 09/08/2026 au soir) : **trouver une deuxième
-  source**, pas extraire le dictionnaire. Cf. « Campagne 1 close ». Le dossier
-  Dictionnaire (7260 entrées A-D) sera *remplacé* par la sortie du parseur de
-  la campagne dictionnaire, pas repris : il vient de la même source, déjà
-  archivée dans data/raw/.
+- Prochaine étape (révisée le 10/08/2026) : **campagne dictionnaire**
+  (remplacement du dossier Dictionnaire, 7260 entrées A-D, ~50 pages —
+  archivé dans data/raw/, vient de la même source unique). La recherche
+  d'une deuxième source est terminée : trois sources retenues et ingérées
+  (`alsacien_wikipedia`, `martin_lienhart`, `wiktionnaire_fr`), cf.
+  « Campagne 2 close ». Le périmètre des GATE (quelles décisions ont
+  vraiment besoin d'une validation humaine explicite avant de continuer) est
+  à trancher en premier — décision de John en cours (10/08/2026), pas encore
+  actée ici.
 
 ## Première ingestion (09/08/2026)
 
@@ -379,6 +383,49 @@ rapport) à chaque étape, consignes tenues à jour dans l'article Odoo 725.
 (même chaîne que la campagne 1) avant tout GATE d'ingestion. La campagne sur
 le dossier `Dictionnaire/` (remplacement, ~50 pages) reste en attente que ces
 trois lots atteignent l'ingestion.
+
+## Campagne 2 close (10/08/2026)
+
+**2507 attestations, 0 entrée nouvelle.** Les trois sources prospectées ont
+toutes été tranchées : `alsacien_wikipedia` (597, approuvé et ingéré),
+`martin_lienhart` (5, approuvé et ingéré — plafond réel confirmé, la
+jointure toponymique n'a rien de plus à donner par cette méthode),
+`wiktionnaire_fr` (généralisé aux 834 pages de `Catégorie:alémanique`, 773
+attestations sur 755 pages productrices, approuvé et ingéré après une
+correction de parseur). Total recompté indépendamment en base (requête
+directe, pas le rapport du script d'ingestion) : `culture_alsace` 1132,
+`alsacien_wikipedia` 597, `martin_lienhart` 5, `wiktionnaire_fr` 773 = 2507.
+
+- **Un commit non poussé s'est fait passer pour un GATE tranché.** Le pilote
+  élargi de `wiktionnaire_fr` avait été produit et committé (`4934f86`) dans
+  le clone local du studio, jamais poussé sur `origin/data` — la carte
+  l'annonçait comme déposé. Le premier refus de Claude Code était donc
+  correct *au vu de ce qui était réellement sur le dépôt partagé*, mais fondé
+  sur un état périmé côté studio. Réconcilié par Claude Code (commit
+  `a75d1e0`) après vérification octet à octet que le commit local était un
+  vrai sur-ensemble du commit déjà poussé (`17a9eb5`) — même contenu sur les
+  5 lignes communes, rien perdu. Leçon retenue côté studio : les cartes de ce
+  type exigent désormais « commit ET push sur data », pas seulement
+  « commit », pour que la revue GATE voie l'état réel.
+- **Détection toponyme généralisée sans excès.** Le parseur `wiktionnaire_fr`
+  reste conservateur par construction (règle 3) : sur les 834 pages, 79 n'ont
+  produit aucune attestation, et 24 templates de tête inconnus ont laissé des
+  lignes omises plutôt que devinées. La seule commune du Haut-Rhin du corpus
+  (`Wìnkel`) partage son lemme avec le mot commun « angle » ; ses trois sens
+  communs sont extraits, son sens toponymique est omis faute de nom
+  identifiable dans la phrase — d'où `region=haut_rhin` à 0 sur ce lot, un
+  résultat correct et non un défaut du parseur.
+- Vérification indépendante systématique cette campagne : chaque décision
+  Claude Code s'est prise sur les fichiers `data/` poussés, jamais sur les
+  rapports de carte seuls — deux fois cela a changé la décision (le refus
+  initial de `wiktionnaire_fr`, la réconciliation du pilote élargi).
+
+**Prochaine étape** : le dossier `Dictionnaire/` (remplacement par la sortie
+du parseur, ~50 pages) est débloqué — plus aucune source de campagne 2 ne
+retient l'ingestion. Le périmètre des GATE (quelles décisions ont vraiment
+besoin d'une validation humaine explicite, et lesquelles pourraient être
+allégées sans affaiblir la garantie de la règle 4) reste à trancher avant de
+la lancer — cf. « Décisions prises ».
 
 ## Règles de travail
 

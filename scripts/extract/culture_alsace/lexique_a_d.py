@@ -50,8 +50,12 @@ RÈGLES APPLIQUÉES (article 720 + contrat data/README.md)
 - DÉCISION JOHN (GATE inventaire 08/08/2026) : le sens inverse
   (page_X.htm, alsacien → français) n'est JAMAIS une seconde attestation.
   Les pages page_X.htm ne sont lues ici que pour un contrôle de cohérence
-  interne (échantillon borné), rendu dans le rapport de carte, jamais dans
-  le JSONL.
+  interne (échantillon borné de 5 entrées par page), rendu dans le rapport
+  de carte, jamais dans le JSONL. Chaque équivalent alsacien normalisé
+  (article/proclitique et séparateur retirés) est cherché parmi les têtes
+  de la page inverse portant SA propre lettre initiale (« verloh » se
+  cherche dans page_v.htm). Les deux dictionnaires n'étant pas des miroirs
+  exacts, le taux de retrouvaille est rendu tel quel.
 - Dédoublonnage intra-source : les pages W et XY portent les mêmes entrées
   X/Y (parfois identiques au caractère près). Deux entrées identiques
   (francais, alsacien, contexte) de la MÊME source ne font qu'une
@@ -76,6 +80,7 @@ import html
 import json
 import re
 import sys
+import unicodedata
 from pathlib import Path
 
 REPO = Path(__file__).resolve().parents[3]
@@ -158,6 +163,63 @@ def alsacien_texte(corps: str) -> str:
     while txt.startswith("<"):
         txt = txt[1:].lstrip()
     return txt
+
+
+def inverse_heads(letter: str) -> set[str]:
+    """Têtes alsaciennes de page_{letter}.htm (sens inverse), nues.
+
+    Une tête d'entrée inverse est <B>mot.-</B> : on retire la balise,
+    on résout les entités et on ôte le séparateur final. Les notes de
+    prononciation en tête de page (contenu <B> sans « .- ») sont
+    exclues par construction. Résultat en minuscules, comparé à des
+    équivalents normalisés de la même façon.
+    """
+    path = RAW / f"page_{letter}.htm"
+    if not path.exists():
+        return set()
+    text = path.read_bytes().decode("latin1")
+    tetes: set[str] = set()
+    for m in re.finditer(r"<B\s*>(.*?)</B\s*>", text, re.S | re.I):
+        t = html.unescape(RE_TAG.sub("", m.group(1))).strip()
+        t2 = re.sub(r"[.,;:_'/!-]+$", "", t).strip().lower()
+        if t2 and t2 != t.lower():
+            tetes.add(t2)
+    return tetes
+
+
+RE_ARTICLE = re.compile(r"^(d['’]?r|d['’]|s['’]|z['’]|de|e|a)\s*", re.I)
+
+
+def equivalent_nu(equiv: str) -> str:
+    """Équivalent alsacien normalisé pour la comparaison au sens inverse.
+
+    Article ou proclitique initial retiré (d'r, d', s', z', de, e, a),
+    séparateur final retiré, minuscules. Ce n'est qu'une clé de
+    comparaison interne — jamais une réécriture du JSONL.
+    """
+    e = html.unescape(equiv).strip().lower()
+    e = RE_ARTICLE.sub("", e)
+    e = re.sub(r"[.,;:_'/!-]+$", "", e).strip()
+    return e
+
+
+def initiale_alsacien(mot: str) -> str | None:
+    """Page inverse portant la lettre initiale d'un équivalent.
+
+    La page inverse se choisit d'après la PREMIÈRE LETTRE DU MOT
+    ALSACIEN (x/y → page_xy.htm), jamais d'après la lettre de la page
+    française : « abandonner » (page_af.htm) donne « verloh », qui se
+    cherche dans page_v.htm.
+    """
+    m = re.sub(r"^[^a-zàâäéèêëîïôöùûüçœ]+", "", mot, flags=re.I)
+    if not m:
+        return None
+    ch = unicodedata.normalize("NFD", m[0].lower())[0]
+    if ch in "xy":
+        return "xy"
+    if "a" <= ch <= "z":
+        return ch
+    return None
 
 
 def parse_page(letter: str) -> tuple[list, list, list, list, int]:
@@ -286,27 +348,38 @@ def parse_page(letter: str) -> tuple[list, list, list, list, int]:
             })
 
     # Contrôle de cohérence interne (DÉCISION JOHN) : échantillon borné de
-    # 5 entrées, premier équivalent alsacien cherché dans le sens inverse.
-    sens_inverse = RAW / f"page_{letter}.htm"
-    if sens_inverse.exists():
-        inv = sens_inverse.read_bytes().decode("latin1")
-        n = len(attestations)
-        if n:
-            echantillon = sorted({0, n // 4, n // 2, 3 * n // 4, n - 1})
-            trouves = 0
-            for i in echantillon:
-                att = attestations[i]
-                premier = att["alsacien"].split(",")[0].strip()
-                if premier:
-                    if re.search(r"<B[^>]*>[^<]*" + re.escape(premier),
-                                 inv, re.I):
-                        trouves += 1
-            coherence.append({
-                "page": f"page_{letter}f.htm",
-                "sens_inverse": f"page_{letter}.htm",
-                "echantillon": len(echantillon),
-                "trouves": trouves,
-            })
+    # 5 entrées. Pour chaque entrée, chaque équivalent alsacien est
+    # normalisé (article/proclitique et séparateur retirés) puis cherché
+    # parmi les TÊTES de la page inverse portant sa propre lettre
+    # initiale (« verloh » se cherche dans page_v.htm, pas dans la page
+    # de la tête française). Les deux dictionnaires ne sont pas des
+    # miroirs exacts (le sens fr→als porte des phrases explicatives que
+    # le sens als→fr n'a pas en tête) : le taux est rendu tel quel dans
+    # le rapport, jamais dans le JSONL.
+    cache_tetes: dict[str, set[str]] = {}
+    n = len(attestations)
+    if n:
+        echantillon = sorted({0, n // 4, n // 2, 3 * n // 4, n - 1})
+        trouves = 0
+        for i in echantillon:
+            att = attestations[i]
+            for equiv in att["alsacien"].split(","):
+                nu = equivalent_nu(equiv)
+                init = initiale_alsacien(nu)
+                if not init:
+                    continue
+                if init not in cache_tetes:
+                    cache_tetes[init] = inverse_heads(init)
+                if nu and nu in cache_tetes[init]:
+                    trouves += 1
+                    break
+        coherence.append({
+            "page": f"page_{letter}f.htm",
+            "sens_inverse": "page_{x}.htm (x = lettre initiale de "
+                            "chaque équivalent)",
+            "echantillon": len(echantillon),
+            "trouves": trouves,
+        })
 
     return attestations, omissions, anomalies, coherence, n_lignes
 

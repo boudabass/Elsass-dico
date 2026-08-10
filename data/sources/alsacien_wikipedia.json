@@ -2,7 +2,7 @@
   "code": "alsacien_wikipedia",
   "nom": "Wikipedia en alsacien (als.wikipedia.org)",
   "url": "https://als.wikipedia.org/",
-  "type": "wiki",
+  "type": "site",
   "annee": null,
   "licence": "CC BY-SA 4.0",
   "fiabilite": 2,
@@ -11,13 +11,19 @@
     {
       "cle": "toponymes",
       "libelle": "Toponymes — communes (champ « nomalsacien » de l'infobox « Gemeinde in Frankreich »)",
-      "statut": "extrait",
+      "statut": "ingéré",
       "type_terme": "toponyme",
       "url": "https://als.wikipedia.org/wiki/<Commune>?action=raw (un article par commune)",
       "format_ligne": "{{Infobox Gemeinde in Frankreich\\n| nomalsacien = <forme alsacienne>",
       "volumetrie": 680,
       "emplacement": "data/raw/alsacien_wikipedia/<commune>.wikitext.txt",
-      "notes": "Généralisation (GATE John 09/08/2026, article 725, carte t_8efbd6d7) : 680 pages archivées sur les 947 noms distincts de culture_alsace (villes_villages_hr + br) — 371 articles directs + 299 titres français en redirection résolue vers l'article sous titre alsacien (ex. Strasbourg -> Straßburg, wikitext de la cible archivé tel quel). 267 communes sans aucune page (404), omises et listées au rapport de carte (règle 3). francais, contexte et region sont repris de la base culture_alsace (recoupement, jamais déduits de l'article)."
+      "notes": "Généralisation (GATE John 09/08/2026, article 725, carte t_8efbd6d7) : 680 pages archivées sur les 947 noms distincts de culture_alsace (villes_villages_hr + br) — 371 articles directs + 299 titres français en redirection résolue vers l'article sous titre alsacien (ex. Strasbourg -> Straßburg, wikitext de la cible archivé tel quel). 267 communes sans aucune page (404), omises et listées au rapport de carte (règle 3). francais, contexte et region sont repris de la base culture_alsace (recoupement, jamais déduits de l'article).",
+      "verification": {
+        "verdict": "CONFORME",
+        "par": "Claude Code (revue directe sur pièces, pas ed-verificateur — GATE délégué par John le 10/08/2026)",
+        "methode": "schema complet (597/597 lignes, clés obligatoires présentes) + zéro doublon (francais,contexte) + les 5 homonymes HR/BR (Bouxwiller, Buhl, Breitenbach, Herrlisheim, Steinbach) bien absents + cas Mulhouse/Eckartswiller élucidé : culture_alsace liste chacun 2x avec code postal et graphie différents mais même contexte (pas un homonyme inter-département comme Bouxwiller, juste 2 entrées source pour une seule commune) — dédoublonnage du parseur confirmé correct, pas une perte de commune + échantillon de 8 lignes comparées octet à octet au brut wikitext (8/8 verbatim).",
+        "date": "2026-08-10"
+      }
     }
   ],
   "inventaire_complet": false

@@ -2,8 +2,8 @@
   "code": "martin_lienhart",
   "nom": "Wörterbuch der elsässischen Mundarten (Martin & Lienhart, 1899-1907) — via Wörterbuchnetz (Trier)",
   "url": "https://www.woerterbuchnetz.de/ElsWB",
-  "type": "dictionnaire",
-  "annee": "1899-1907",
+  "type": "ouvrage",
+  "annee": 1899,
   "licence": "Œuvre imprimée (1899-1907, Nachdruck 1974) vraisemblablement dans le domaine public. Couche numérique (API, structuration, transcription Double-Keying) © Kompetenzzentrum – Trier Center for Digital Humanities, sans licence explicite de réutilisation (relevé CGU 09/08/2026, t_be26d629).",
   "fiabilite": 1,
   "notes": "RÉSERVE DROITS (GATE John 09/08/2026, article 725) : une demande de clarification est EN COURS auprès de kompetenzzentrum@uni-trier.de. Le pilote démarre en parallèle, statut « à valider » ; SI L'UNIVERSITÉ RÉPOND NON, ce qui a été extrait devra être retiré. Rien n'est publié sans validation humaine (règle 4).\n\nDoctrine (article 725) : Martin & Lienhart apparie l'alsacien à l'ALLEMAND, pas au français. Le dictionnaire est un instrument de validation de forme, PAS une deuxième source au sens de la règle 2 — déduire le français de l'allemand serait une traduction (règle 1). La seule extraction sûre est la JOINTURE TOPONYMIQUE : le lemme allemand (Straßburg) ↔ nom officiel français déjà présent dans culture_alsace (Strasbourg) par correspondance historique connue et non traduite. francais, contexte et region sont repris de la base culture_alsace, jamais du dictionnaire ; alsacien est copié verbatim de l'entrée (bloc de formes kopfinfos entre crochets, ou lemme si pas de bloc — cas Bruemt).\n\nInventaire toponymes (relevé 09/08/2026, liste complète des 33521 lemmes ElsWB + fulltext « Ortsname » + noms allemands historiques) : Straßburg, Hagenau, Ittene, Wasselen, Bruemt sont les SEULS lemmes correspondant à une commune de culture_alsace, tous en Bas-Rhin — ElsWB n'a aucun lemme toponymique pour le Haut-Rhin (Mülhausen, Kolmar, Zabern, Gebweiler… absents). Les homographes (Münster = cathédrale, Bühl = colline, Schirmeck = jeu, Niffer = nom commun, Selest/Bersch = prénoms) ont été vérifiés et écartés. Le vocabulaire général (hors toponymes) reste HORS PÉRIMÈTRE.",
@@ -11,13 +11,19 @@
     {
       "cle": "toponymes",
       "libelle": "Toponymes — communes (entrées API Wörterbuchnetz ElsWB, blocs de formes kopfinfos)",
-      "statut": "extrait",
+      "statut": "ingéré",
       "type_terme": "toponyme",
       "url": "https://api.woerterbuchnetz.de/dictionaries/ElsWB/articles/{formid}/formid (entrée par entrée, formid = wbnetzid du lemme)",
       "format_ligne": "{\"textid\":…,\"word\":…,\"elementtype\":\"lemma|leitwort|kopfinfos|rs|bdtg|…\",\"book\":…,\"col\":…,\"line\":…} — lemme = nom allemand, kopfinfos+rs = formes alsaciennes entre crochets, bdtg = glose « Ortsname … »",
       "volumetrie": 5,
       "emplacement": "data/raw/martin_lienhart/elswb_*.json",
-      "notes": "Lot restreint pilote de 5 communes (GATE John 09/08/2026, article 725), toutes en Bas-Rhin : ce sont les 5 seules entrées toponymiques de communes présentes dans ElsWB. La généralisation (vocabulaire général ou autres sources) ne se lance qu'après le GATE. francais, contexte et region sont repris de la base culture_alsace (recoupement, jamais déduits du dictionnaire). Coquille signalée (règle 1, jamais corrigée) : la base culture_alsace écrit « Brumaht » pour Brumath (CP 67170, alsacien « Bruemt » concordant)."
+      "notes": "Lot restreint pilote de 5 communes (GATE John 09/08/2026, article 725), toutes en Bas-Rhin : ce sont les 5 seules entrées toponymiques de communes présentes dans ElsWB — plafond réel, confirmé, rien à généraliser par cette méthode (jointure toponymique). Le vocabulaire général reste hors périmètre tant qu'aucune méthode d'extraction non traductrice n'est trouvée. francais, contexte et region sont repris de la base culture_alsace (recoupement, jamais déduits du dictionnaire). Coquille signalée (règle 1, jamais corrigée) : la base culture_alsace écrit « Brumaht » pour Brumath (CP 67170, alsacien « Bruemt » concordant).",
+      "verification": {
+        "verdict": "CONFORME",
+        "par": "Claude Code (revue directe sur pièces, pas ed-verificateur — GATE délégué par John le 10/08/2026)",
+        "methode": "revue complète des 5 lignes (pas un échantillon) : francais/contexte/region confirmés identiques à culture_alsace pour les 5 communes, y compris la coquille Brumaht reproduite verbatim ; alsacien confirmé verbatim bloc kopfinfos entre crochets (formes dialectales multiples préservées telles quelles, aucune ne choisie ni normalisée).",
+        "date": "2026-08-10"
+      }
     }
   ],
   "inventaire_complet": false

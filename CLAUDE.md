@@ -331,54 +331,75 @@ La section ci-dessus décrivait le dépôt ; la base, elle, était restée en ar
   est l'**indépendance** : deux sources dont l'une recopie l'autre comptent pour
   une seule.
 
-## Campagne 2 — deuxième source (09-10/08/2026)
+## Campagne 2 — deuxième source (09-10/08/2026, GATE tranché le 10/08/2026)
 
-**Statut : trois sources en cours de vérification/audit, aucune ingérée.** Le
-studio a prospecté trois candidates (`ed-prospecteur`, échantillons dans
+Le studio a prospecté trois candidates (`ed-prospecteur`, échantillons dans
 `data/raw/` sur la branche `data`, commit `184e2e6`) : `alsacien_wikipedia`
 (als.wikipedia.org), `wiktionnaire_fr` (fr.wiktionary.org), `martin_lienhart`
 (Wörterbuch der elsässischen Mundarten, Martin & Lienhart 1899-1907, via
-l'API Wörterbuchnetz de Trèves). GATE Claude Code rendu sur pièces (pas sur
-rapport) à chaque étape, consignes tenues à jour dans l'article Odoo 725.
+l'API Wörterbuchnetz de Trèves). Les 3 GATE ont été tranchés le 10/08/2026 par
+Claude Code, délégation explicite de John, revue faite directement sur les
+fichiers `data/` (pas sur les rapports de carte du studio) — canal direct
+Telegram vers `elsassdico` utilisé pour transmettre le verdict.
 
-- **`alsacien_wikipedia` — retenue, généralisée à 597 attestations.**
+- **`alsacien_wikipedia` — APPROUVÉE ET INGÉRÉE, 597 attestations.**
   Rédaction encyclopédique communautaire, licence CC BY-SA/GFDL, non dérivée
   de `culture_alsace`. Jointure par nom de commune (champ `nomalsacien` de
   l'infobox) avec les 954 toponymes déjà en base ; les 5 vrais homonymes
   HR/BR (`Bouxwiller`, `Buhl`, `Breitenbach`, `Herrlisheim`, `Steinbach`)
-  sont omis comme prévu. Point à vérifier avant arbitrage, non bloquant :
-  `Mulhouse` et `Eckartswiller` sont dédupliqués par le parseur comme des
-  doublons internes à la source (même `contexte` sur les deux lignes,
-  raisonnement calqué sur le précédent `Altenbach`), mais leurs formes
-  alsaciennes et codes postaux diffèrent contrairement à `Altenbach` — à
-  faire confirmer par `ed-gardien`.
-- **`wiktionnaire_fr` — retenue.** Pilote de 18 attestations (17 pages),
-  puis inventaire complet de `Catégorie:alémanique` : 834 pages (621
-  toponymes, 119 éléments chimiques, 62 mots, 33 noms propres), zéro
-  extraction sur ce lot. Généralisation en attente d'une carte dédiée.
-  Défaut mineur relevé : 3 entrées du pilote décrivant des communes sont
-  taguées `type: "mot"` au lieu de `toponyme`, à corriger au prochain lot.
-- **`martin_lienhart` — retenue sous réserve de droits, pilote à 5
-  communes.** Le dictionnaire apparie l'alsacien à l'**allemand**, jamais au
-  français : la seule extraction sûre est la **jointure toponymique** (le
-  lemme allemand correspond au nom officiel français déjà en base par
-  correspondance historique connue, jamais une traduction — règle 1). ElsWB
-  n'a que 5 lemmes toponymiques correspondant à une commune de
-  `culture_alsace`, tous en Bas-Rhin (`Strasbourg`, `Hagenau`, `Ittenheim`,
-  `Wasselonne`, `Brumaht`/Brumath) — plafond réel, pas un artefact du pilote.
-  Le vocabulaire général reste hors périmètre tant qu'aucune méthode
-  d'extraction non traductrice n'est trouvée. **Réserve juridique** : les
-  CGU de woerterbuchnetz.de ne montrent aucune licence explicite de
-  réutilisation ; une demande de clarification est en cours auprès de
-  `kompetenzzentrum@uni-trier.de`. Décision John (09/08/2026) : l'extraction
-  pilote démarre en parallèle de la demande (statut « à valider » comme
-  toute donnée du studio, règle 4) ; un refus impliquerait un retrait des
-  données déjà extraites.
+  confirmés omis. Point `Mulhouse`/`Eckartswiller` élucidé : `culture_alsace`
+  liste chacune 2 fois avec code postal et graphie différents mais même
+  `contexte` — pas un homonyme inter-département comme `Bouxwiller`, juste
+  2 entrées source pour une seule commune ; le dédoublonnage du parseur à 1
+  ligne est correct, aucune commune perdue. Schéma complet vérifié (597/597),
+  zéro doublon `(francais,contexte)`, échantillon de 8 lignes comparé
+  octet à octet au brut wikitext.
+- **`martin_lienhart` — APPROUVÉE ET INGÉRÉE, 5 attestations (pilote clos,
+  rien à généraliser).** Le dictionnaire apparie l'alsacien à l'**allemand**,
+  jamais au français : la seule extraction sûre est la **jointure
+  toponymique** (le lemme allemand correspond au nom officiel français déjà
+  en base par correspondance historique connue, jamais une traduction —
+  règle 1). ElsWB n'a que 5 lemmes toponymiques correspondant à une commune
+  de `culture_alsace`, tous en Bas-Rhin (`Strasbourg`, `Hagenau`,
+  `Ittenheim`, `Wasselonne`, `Brumaht`/Brumath) — plafond réel confirmé par
+  revue intégrale des 5 lignes, pas un artefact du pilote : rien à
+  généraliser par cette méthode, le vocabulaire général reste hors périmètre
+  tant qu'aucune méthode d'extraction non traductrice n'est trouvée.
+  **Réserve juridique toujours ouverte** : les CGU de woerterbuchnetz.de ne
+  montrent aucune licence explicite de réutilisation ; demande de
+  clarification en cours auprès de `kompetenzzentrum@uni-trier.de` — un refus
+  impliquerait un retrait des données déjà ingérées.
+- **`wiktionnaire_fr` — PAS APPROUVÉE, extraction généralisée aux 834 pages
+  bloquée.** Le défaut de tagage signalé (communes taguées `type: "mot"` au
+  lieu de `toponyme`) touche en réalité 5 des 18 lignes du pilote, pas 3 :
+  `Epfig`, `Handschuheim`, `Kauffenheim` **et** les 2 lignes `Strasbourg`
+  (`Schdroosburi`, `Strossburi`) — le motif de détection du parseur (phrase
+  « département du Bas-Rhin/Haut-Rhin ») ne couvre pas le patron des grandes
+  villes (« ville de France », sans mention de département). Défaut plus
+  bloquant trouvé au passage : pour ces 5 lignes, `francais` porte la phrase
+  entière du Wiktionnaire (`Epfig, commune française, située dans le
+  département du Bas-Rhin.`) au lieu du nom nu de la commune — même retaguées,
+  elles ne se recouperaient avec aucun toponyme existant (clé de jointure
+  cassée). Les 13 autres lignes du pilote sont propres. Pilote **non ingéré**
+  (statut reste `extrait`) pour ne pas faire entrer les 5 lignes défectueuses
+  en base. À faire avant tout nouveau GATE : corriger le parseur sur les deux
+  points, produire un nouveau pilote couvrant au moins tous les cas
+  villes + communes, repasser par `ed-verificateur`.
 
-**Suite** : les trois lots passent par `ed-verificateur` puis `ed-gardien`
-(même chaîne que la campagne 1) avant tout GATE d'ingestion. La campagne sur
-le dossier `Dictionnaire/` (remplacement, ~50 pages) reste en attente que ces
-trois lots atteignent l'ingestion.
+**Bug de schéma trouvé en ingérant, invisible tant qu'aucun des trois lots
+n'avait été ingéré** : `sources.annee` est `INTEGER` (migration
+`20260731120000`), `martin_lienhart.json` y mettait `"1899-1907"` (chaîne) ;
+`sources.type` a un `CHECK IN ('site','ouvrage','contribution')`, les fiches
+utilisaient `wiki` et `dictionnaire`, absents de la liste. Corrigé dans les
+fiches (`annee` -> `1899`, entier ; `type` `wiki`->`site`,
+`dictionnaire`->`ouvrage`), commit `093781e` sur `data`. Vocabulaire fermé à
+respecter pour toute future fiche source.
+
+**Suite** : `wiktionnaire_fr` retourne à `ed-extracteur` pour correction du
+parseur. La campagne sur le dossier `Dictionnaire/` (remplacement, ~50 pages)
+reste en attente d'une deuxième source généralisée à volume comparable —
+597 + 5 = 602 attestations recoupées, encore loin des ~44 000 lignes que le
+dictionnaire porterait.
 
 ## Règles de travail
 

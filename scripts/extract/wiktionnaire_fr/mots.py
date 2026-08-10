@@ -35,9 +35,25 @@ RÈGLES APPLIQUÉES (article 720 + spec carte t_1211f9ea)
   rend la vérification possible.
 - contexte : les libellés des parenthèses de contexte rendues, joints par
   « ; » dans l'ordre d'apparition, sinon « ».
-- type : « mot » (spec de carte).
+- type : « mot » par défaut, sauf reconnaissance d'un des deux patrons de
+  définition toponymique observés sur le pilote (fix GATE Claude Code
+  10/08/2026, cf. CLAUDE.md § Campagne 2) : « <Nom>, commune française,
+  située dans le département du Bas-Rhin/Haut-Rhin. » (Epfig, Handschuheim,
+  Kauffenheim) et « <Nom> (ville de France). » (Strasbourg, sans template de
+  contexte détectable — aucun autre signal disponible pour ce cas). Dans ces
+  deux cas : type devient « toponyme » et francais devient <Nom> seul (le nom
+  nu de la commune), sinon francais resterait une phrase entière et ne se
+  recouperait avec aucun toponyme d'aucune autre source (clé de jointure
+  cassée). Toute définition de commune qui ne correspond à AUCUN des deux
+  patrons reste « mot » avec sa phrase entière en francais — un doute ne se
+  comble pas (règle 3) : mieux vaut une entrée mal typée visible et corrigible
+  après coup par un futur patron qu'une extraction de nom inventée par une
+  regex trop permissive.
 - region : renseignée UNIQUEMENT si la définition porte littéralement un
-  département (« département du Bas-Rhin » → bas_rhin). Jamais déduite.
+  département (« département du Bas-Rhin » → bas_rhin). Jamais déduite —
+  y compris pour les entrées toponymiques du patron « ville de France » : le
+  texte source ne nomme aucun département, donc region reste absente même
+  quand le département est connu par ailleurs.
 - reference : https://fr.wiktionary.org/wiki/<Titre>#Alémanique — l'ancre
   « Alémanique » est le titre rendu de la section {{langue|gsw}} (constaté
   via l'API parse, prop=sections, le 09/08/2026).
@@ -85,6 +101,17 @@ RE_TEMPLATE_TETE = re.compile(r"^\{{\s*([^{}|]+?)\s*(?:\|([^{}]*?))?\}\}")
 RE_LIEN = re.compile(r"\[\[([^\]|]+)(?:\|([^\]]*))?\]\]")
 RE_ESPACES = re.compile(r" {2,}")
 
+# Patrons de définition toponymique observés littéralement sur le pilote
+# (18 attestations, 09/08/2026) — jamais un motif deviné. Un troisième
+# patron pourrait apparaître dans les pages non encore vues du reste de la
+# Catégorie:alémanique ; tant qu'il n'est pas observé et ajouté ici, une
+# commune qui ne matche ni l'un ni l'autre reste « mot » (règle 3).
+RE_TOPONYME_COMMUNE = re.compile(
+    r"^([^,]+), commune française, située dans le département du "
+    r"(Bas-Rhin|Haut-Rhin)\.$"
+)
+RE_TOPONYME_VILLE = re.compile(r"^(.+) \(ville de France\)\.$")
+
 
 def sections_gsw(texte: str) -> list[str]:
     """Découpe le wikicode en sections {{langue|gsw}} (titre inclus).
@@ -121,13 +148,18 @@ def resoudre_liens(texte: str) -> str:
     return RE_LIEN.sub(repl, texte)
 
 
-def traiter_definition(ligne: str) -> tuple[str | None, list[str], str | None]:
-    """Retourne (francais, contextes, region).
+def traiter_definition(
+    ligne: str,
+) -> tuple[str | None, list[str], str | None, str]:
+    """Retourne (francais, contextes, region, type_terme).
 
     francais = None si la définition est douteuse (template de tête
     inconnu ou template résiduel) : la ligne est alors OMISE.
     region = "bas_rhin"/"haut_rhin" si la définition porte littéralement
     « département du Bas-Rhin » / « département du Haut-Rhin », sinon None.
+    type_terme = "toponyme" si la définition matche un des deux patrons
+    connus (auquel cas francais est réduit au nom nu de la commune),
+    sinon "mot".
     """
     texte = ligne[2:]  # après « # »
     contextes: list[str] = []
@@ -141,12 +173,12 @@ def traiter_definition(ligne: str) -> tuple[str | None, list[str], str | None]:
         if nom == "lexique":
             p1 = args.split("|")[0].strip() if args else ""
             if not p1:
-                return None, contextes, None
+                return None, contextes, None, TYPE
             lib = p1[0].upper() + p1[1:]
         elif nom in CONTEXTES:
             lib = CONTEXTES[nom]
         else:
-            return None, contextes, None  # template de tête inconnu → doute
+            return None, contextes, None, TYPE  # template de tête inconnu → doute
         contextes.append(lib)
         texte = texte[m.end():].lstrip()
 
@@ -155,13 +187,13 @@ def traiter_definition(ligne: str) -> tuple[str | None, list[str], str | None]:
 
     # template résiduel (non résolu) → doute
     if "{{" in texte or "}}" in texte:
-        return None, contextes, None
+        return None, contextes, None, TYPE
 
     # espaces multiples : artefacts du retrait des templates
     texte = RE_ESPACES.sub(" ", texte).strip()
 
     if not texte:
-        return None, contextes, None
+        return None, contextes, None, TYPE
 
     region = None
     if "département du Bas-Rhin" in texte:
@@ -169,7 +201,18 @@ def traiter_definition(ligne: str) -> tuple[str | None, list[str], str | None]:
     elif "département du Haut-Rhin" in texte:
         region = "haut_rhin"
 
-    return texte, contextes, region
+    type_terme = TYPE
+    m_commune = RE_TOPONYME_COMMUNE.match(texte)
+    if m_commune:
+        type_terme = "toponyme"
+        texte = m_commune.group(1)
+    else:
+        m_ville = RE_TOPONYME_VILLE.match(texte)
+        if m_ville:
+            type_terme = "toponyme"
+            texte = m_ville.group(1)
+
+    return texte, contextes, region, type_terme
 
 
 def extraire() -> tuple[list[dict], list[dict]]:
@@ -200,7 +243,7 @@ def extraire() -> tuple[list[dict], list[dict]]:
             for ligne in section.split("\n"):
                 if not ligne.startswith("# "):
                     continue
-                francais, contextes, region = traiter_definition(ligne)
+                francais, contextes, region, type_terme = traiter_definition(ligne)
                 if francais is None:
                     anomalies.append({
                         "fichier": fichier.name,
@@ -213,7 +256,7 @@ def extraire() -> tuple[list[dict], list[dict]]:
                     "francais": francais,
                     "alsacien": lem,
                     "graphie_origine": section,
-                    "type": TYPE,
+                    "type": type_terme,
                     "contexte": " ; ".join(contextes),
                 }
                 if region is not None:

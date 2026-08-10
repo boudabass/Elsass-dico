@@ -12,21 +12,21 @@
     {
       "cle": "lexique_a_d",
       "libelle": "Lexique français → alsacien, lettres A à Z",
-      "statut": "inventorié",
+      "statut": "extrait",
       "type_terme": "mot, expression",
       "volumetrie": 42468,
       "emplacement": "data/raw/culture_alsace/page_{X}.htm et page_{X}f.htm (X = a…z, xy)",
-      "notes": "Campagne 3 : inventaire A-Z du miroir elsassisch.eu/culture.alsace.pagesperso-orange.archive/. REMPLACE le scrape antérieur au studio (dossier Dictionnaire/, lettres A-D, 7260 entrées, hors contrat) — il n'ajoute pas une source de plus (règle 2 : même auteur, même source_code). Volumétrie = somme des comptages bruts « .- » des 50 pages du dictionnaire (42468 lignes ; estimation : certaines entrées s'étendent sur plusieurs lignes, certaines pages portent des notes de prononciation en tête). Chaque page est documentée individuellement dans les rubriques dico_* ci-dessous, avec son URL et son comptage propre. Extraction studio à venir (ed-extracteur)."
+      "notes": "Campagne 3 : inventaire A-Z du miroir elsassisch.eu/culture.alsace.pagesperso-orange.archive/. REMPLACE le scrape antérieur au studio (dossier Dictionnaire/, lettres A-D, 7260 entrées, hors contrat) — il n'ajoute pas une source de plus (règle 2 : même auteur, même source_code). Volumétrie = somme des comptages bruts « .- » des 50 pages du dictionnaire (42468 lignes ; estimation : certaines entrées s'étendent sur plusieurs lignes, certaines pages portent des notes de prononciation en tête). Chaque page est documentée individuellement dans les rubriques dico_* ci-dessous, avec son URL et son comptage propre. Extraction studio à venir (ed-extracteur).\n\nEXTRACTION (carte t_21e6b05d, 10/08/2026) : parseur scripts/extract/culture_alsace/lexique_a_d.py — lit les 25 pages page_{X}f.htm (sens français → alsacien uniquement, jamais le sens inverse — décision John) et produit data/attestations/culture_alsace__lexique_a_d.jsonl : 23 851 attestations (A-Z). 2 omissions (règle 3) : la note de prononciation « a.- (première lettre) » de page_af.htm (contenu <I> explicatif en français, pas une traduction) et « travail à temps partiel » de page_tf.htm (marquage corrompu </IB>). 20 doublons intra-source retirés (10 entrées répétées dans la même page — ex. « battant de porte » deux fois dans page_bf.htm — et 10 entrées X/Y communes à page_wf.htm ET page_xyf.htm ; première occurrence gardée ; les entrées dont l'alsacien DIFFÈRE entre les deux pages — ex. « yeux », « yacht » — restent deux attestations). 390 coquilles de source copiées verbatim et signalées (séparateurs de tête non standard, parenthèses non fermées, « .- » final dans l'alsacien) — jamais corrigées (règle 1). Rejeu du parseur : JSONL identique octet à octet."
     },
     {
       "cle": "dico_fr_als_a",
       "libelle": "Dictionnaire français → alsacien — lettre A (page_af.htm)",
-      "statut": "inventorié",
+      "statut": "extrait",
       "type_terme": "mot, expression",
       "url": "https://www.elsassisch.eu/culture.alsace.pagesperso-orange.archive/page_af.htm",
       "format_ligne": "<français>.- <alsacien(s) séparés par des virgules>",
       "volumetrie_estimee": 1785,
-      "notes": "Comptage brut des lignes « .- » (certaines entrées s'étendent sur plusieurs lignes, certaines pages portent des notes de prononciation en tête)."
+      "notes": "Comptage brut des lignes « .- » (certaines entrées s'étendent sur plusieurs lignes, certaines pages portent des notes de prononciation en tête). Page extraite par lexique_a_d.py (carte t_21e6b05d) : attestations dans culture_alsace__lexique_a_d.jsonl."
     },
     {
       "cle": "dico_als_fr_a",
@@ -41,12 +41,12 @@
     {
       "cle": "dico_fr_als_b",
       "libelle": "Dictionnaire français → alsacien — lettre B (page_bf.htm)",
-      "statut": "inventorié",
+      "statut": "extrait",
       "type_terme": "mot, expression",
       "url": "https://www.elsassisch.eu/culture.alsace.pagesperso-orange.archive/page_bf.htm",
       "format_ligne": "<français>.- <alsacien(s) séparés par des virgules>",
       "volumetrie_estimee": 1285,
-      "notes": "Comptage brut des lignes « .- » (certaines entrées s'étendent sur plusieurs lignes, certaines pages portent des notes de prononciation en tête)."
+      "notes": "Comptage brut des lignes « .- » (certaines entrées s'étendent sur plusieurs lignes, certaines pages portent des notes de prononciation en tête). Page extraite par lexique_a_d.py (carte t_21e6b05d) : attestations dans culture_alsace__lexique_a_d.jsonl."
     },
     {
       "cle": "dico_als_fr_b",
@@ -61,12 +61,12 @@
     {
       "cle": "dico_fr_als_c",
       "libelle": "Dictionnaire français → alsacien — lettre C (page_cf.htm)",
-      "statut": "inventorié",
+      "statut": "extrait",
       "type_terme": "mot, expression",
       "url": "https://www.elsassisch.eu/culture.alsace.pagesperso-orange.archive/page_cf.htm",
       "format_ligne": "<français>.- <alsacien(s) séparés par des virgules>",
       "volumetrie_estimee": 2866,
-      "notes": "Comptage brut des lignes « .- » (certaines entrées s'étendent sur plusieurs lignes, certaines pages portent des notes de prononciation en tête)."
+      "notes": "Comptage brut des lignes « .- » (certaines entrées s'étendent sur plusieurs lignes, certaines pages portent des notes de prononciation en tête). Page extraite par lexique_a_d.py (carte t_21e6b05d) : attestations dans culture_alsace__lexique_a_d.jsonl."
     },
     {
       "cle": "dico_als_fr_c",
@@ -81,12 +81,12 @@
     {
       "cle": "dico_fr_als_d",
       "libelle": "Dictionnaire français → alsacien — lettre D (page_df.htm)",
-      "statut": "inventorié",
+      "statut": "extrait",
       "type_terme": "mot, expression",
       "url": "https://www.elsassisch.eu/culture.alsace.pagesperso-orange.archive/page_df.htm",
       "format_ligne": "<français>.- <alsacien(s) séparés par des virgules>",
       "volumetrie_estimee": 1348,
-      "notes": "Comptage brut des lignes « .- » (certaines entrées s'étendent sur plusieurs lignes, certaines pages portent des notes de prononciation en tête)."
+      "notes": "Comptage brut des lignes « .- » (certaines entrées s'étendent sur plusieurs lignes, certaines pages portent des notes de prononciation en tête). Page extraite par lexique_a_d.py (carte t_21e6b05d) : attestations dans culture_alsace__lexique_a_d.jsonl."
     },
     {
       "cle": "dico_als_fr_d",
@@ -101,12 +101,12 @@
     {
       "cle": "dico_fr_als_e",
       "libelle": "Dictionnaire français → alsacien — lettre E (page_ef.htm)",
-      "statut": "inventorié",
+      "statut": "extrait",
       "type_terme": "mot, expression",
       "url": "https://www.elsassisch.eu/culture.alsace.pagesperso-orange.archive/page_ef.htm",
       "format_ligne": "<français>.- <alsacien(s) séparés par des virgules>",
       "volumetrie_estimee": 1446,
-      "notes": "Comptage brut des lignes « .- » (certaines entrées s'étendent sur plusieurs lignes, certaines pages portent des notes de prononciation en tête)."
+      "notes": "Comptage brut des lignes « .- » (certaines entrées s'étendent sur plusieurs lignes, certaines pages portent des notes de prononciation en tête). Page extraite par lexique_a_d.py (carte t_21e6b05d) : attestations dans culture_alsace__lexique_a_d.jsonl."
     },
     {
       "cle": "dico_als_fr_e",
@@ -121,12 +121,12 @@
     {
       "cle": "dico_fr_als_f",
       "libelle": "Dictionnaire français → alsacien — lettre F (page_ff.htm)",
-      "statut": "inventorié",
+      "statut": "extrait",
       "type_terme": "mot, expression",
       "url": "https://www.elsassisch.eu/culture.alsace.pagesperso-orange.archive/page_ff.htm",
       "format_ligne": "<français>.- <alsacien(s) séparés par des virgules>",
       "volumetrie_estimee": 1322,
-      "notes": "Comptage brut des lignes « .- » (certaines entrées s'étendent sur plusieurs lignes, certaines pages portent des notes de prononciation en tête)."
+      "notes": "Comptage brut des lignes « .- » (certaines entrées s'étendent sur plusieurs lignes, certaines pages portent des notes de prononciation en tête). Page extraite par lexique_a_d.py (carte t_21e6b05d) : attestations dans culture_alsace__lexique_a_d.jsonl."
     },
     {
       "cle": "dico_als_fr_f",
@@ -141,12 +141,12 @@
     {
       "cle": "dico_fr_als_g",
       "libelle": "Dictionnaire français → alsacien — lettre G (page_gf.htm)",
-      "statut": "inventorié",
+      "statut": "extrait",
       "type_terme": "mot, expression",
       "url": "https://www.elsassisch.eu/culture.alsace.pagesperso-orange.archive/page_gf.htm",
       "format_ligne": "<français>.- <alsacien(s) séparés par des virgules>",
       "volumetrie_estimee": 968,
-      "notes": "Comptage brut des lignes « .- » (certaines entrées s'étendent sur plusieurs lignes, certaines pages portent des notes de prononciation en tête)."
+      "notes": "Comptage brut des lignes « .- » (certaines entrées s'étendent sur plusieurs lignes, certaines pages portent des notes de prononciation en tête). Page extraite par lexique_a_d.py (carte t_21e6b05d) : attestations dans culture_alsace__lexique_a_d.jsonl."
     },
     {
       "cle": "dico_als_fr_g",
@@ -161,12 +161,12 @@
     {
       "cle": "dico_fr_als_h",
       "libelle": "Dictionnaire français → alsacien — lettre H (page_hf.htm)",
-      "statut": "inventorié",
+      "statut": "extrait",
       "type_terme": "mot, expression",
       "url": "https://www.elsassisch.eu/culture.alsace.pagesperso-orange.archive/page_hf.htm",
       "format_ligne": "<français>.- <alsacien(s) séparés par des virgules>",
       "volumetrie_estimee": 429,
-      "notes": "Comptage brut des lignes « .- » (certaines entrées s'étendent sur plusieurs lignes, certaines pages portent des notes de prononciation en tête)."
+      "notes": "Comptage brut des lignes « .- » (certaines entrées s'étendent sur plusieurs lignes, certaines pages portent des notes de prononciation en tête). Page extraite par lexique_a_d.py (carte t_21e6b05d) : attestations dans culture_alsace__lexique_a_d.jsonl."
     },
     {
       "cle": "dico_als_fr_h",
@@ -181,12 +181,12 @@
     {
       "cle": "dico_fr_als_i",
       "libelle": "Dictionnaire français → alsacien — lettre I (page_if.htm)",
-      "statut": "inventorié",
+      "statut": "extrait",
       "type_terme": "mot, expression",
       "url": "https://www.elsassisch.eu/culture.alsace.pagesperso-orange.archive/page_if.htm",
       "format_ligne": "<français>.- <alsacien(s) séparés par des virgules>",
       "volumetrie_estimee": 849,
-      "notes": "Comptage brut des lignes « .- » (certaines entrées s'étendent sur plusieurs lignes, certaines pages portent des notes de prononciation en tête)."
+      "notes": "Comptage brut des lignes « .- » (certaines entrées s'étendent sur plusieurs lignes, certaines pages portent des notes de prononciation en tête). Page extraite par lexique_a_d.py (carte t_21e6b05d) : attestations dans culture_alsace__lexique_a_d.jsonl."
     },
     {
       "cle": "dico_als_fr_i",
@@ -201,12 +201,12 @@
     {
       "cle": "dico_fr_als_j",
       "libelle": "Dictionnaire français → alsacien — lettre J (page_jf.htm)",
-      "statut": "inventorié",
+      "statut": "extrait",
       "type_terme": "mot, expression",
       "url": "https://www.elsassisch.eu/culture.alsace.pagesperso-orange.archive/page_jf.htm",
       "format_ligne": "<français>.- <alsacien(s) séparés par des virgules>",
       "volumetrie_estimee": 270,
-      "notes": "Comptage brut des lignes « .- » (certaines entrées s'étendent sur plusieurs lignes, certaines pages portent des notes de prononciation en tête)."
+      "notes": "Comptage brut des lignes « .- » (certaines entrées s'étendent sur plusieurs lignes, certaines pages portent des notes de prononciation en tête). Page extraite par lexique_a_d.py (carte t_21e6b05d) : attestations dans culture_alsace__lexique_a_d.jsonl."
     },
     {
       "cle": "dico_als_fr_j",
@@ -221,12 +221,12 @@
     {
       "cle": "dico_fr_als_k",
       "libelle": "Dictionnaire français → alsacien — lettre K (page_kf.htm)",
-      "statut": "inventorié",
+      "statut": "extrait",
       "type_terme": "mot, expression",
       "url": "https://www.elsassisch.eu/culture.alsace.pagesperso-orange.archive/page_kf.htm",
       "format_ligne": "<français>.- <alsacien(s) séparés par des virgules>",
       "volumetrie_estimee": 37,
-      "notes": "Comptage brut des lignes « .- » (certaines entrées s'étendent sur plusieurs lignes, certaines pages portent des notes de prononciation en tête)."
+      "notes": "Comptage brut des lignes « .- » (certaines entrées s'étendent sur plusieurs lignes, certaines pages portent des notes de prononciation en tête). Page extraite par lexique_a_d.py (carte t_21e6b05d) : attestations dans culture_alsace__lexique_a_d.jsonl."
     },
     {
       "cle": "dico_als_fr_k",
@@ -241,12 +241,12 @@
     {
       "cle": "dico_fr_als_l",
       "libelle": "Dictionnaire français → alsacien — lettre L (page_lf.htm)",
-      "statut": "inventorié",
+      "statut": "extrait",
       "type_terme": "mot, expression",
       "url": "https://www.elsassisch.eu/culture.alsace.pagesperso-orange.archive/page_lf.htm",
       "format_ligne": "<français>.- <alsacien(s) séparés par des virgules>",
       "volumetrie_estimee": 667,
-      "notes": "Comptage brut des lignes « .- » (certaines entrées s'étendent sur plusieurs lignes, certaines pages portent des notes de prononciation en tête)."
+      "notes": "Comptage brut des lignes « .- » (certaines entrées s'étendent sur plusieurs lignes, certaines pages portent des notes de prononciation en tête). Page extraite par lexique_a_d.py (carte t_21e6b05d) : attestations dans culture_alsace__lexique_a_d.jsonl."
     },
     {
       "cle": "dico_als_fr_l",
@@ -261,12 +261,12 @@
     {
       "cle": "dico_fr_als_m",
       "libelle": "Dictionnaire français → alsacien — lettre M (page_mf.htm)",
-      "statut": "inventorié",
+      "statut": "extrait",
       "type_terme": "mot, expression",
       "url": "https://www.elsassisch.eu/culture.alsace.pagesperso-orange.archive/page_mf.htm",
       "format_ligne": "<français>.- <alsacien(s) séparés par des virgules>",
       "volumetrie_estimee": 1422,
-      "notes": "Comptage brut des lignes « .- » (certaines entrées s'étendent sur plusieurs lignes, certaines pages portent des notes de prononciation en tête)."
+      "notes": "Comptage brut des lignes « .- » (certaines entrées s'étendent sur plusieurs lignes, certaines pages portent des notes de prononciation en tête). Page extraite par lexique_a_d.py (carte t_21e6b05d) : attestations dans culture_alsace__lexique_a_d.jsonl."
     },
     {
       "cle": "dico_als_fr_m",
@@ -281,12 +281,12 @@
     {
       "cle": "dico_fr_als_n",
       "libelle": "Dictionnaire français → alsacien — lettre N (page_nf.htm)",
-      "statut": "inventorié",
+      "statut": "extrait",
       "type_terme": "mot, expression",
       "url": "https://www.elsassisch.eu/culture.alsace.pagesperso-orange.archive/page_nf.htm",
       "format_ligne": "<français>.- <alsacien(s) séparés par des virgules>",
       "volumetrie_estimee": 375,
-      "notes": "Comptage brut des lignes « .- » (certaines entrées s'étendent sur plusieurs lignes, certaines pages portent des notes de prononciation en tête)."
+      "notes": "Comptage brut des lignes « .- » (certaines entrées s'étendent sur plusieurs lignes, certaines pages portent des notes de prononciation en tête). Page extraite par lexique_a_d.py (carte t_21e6b05d) : attestations dans culture_alsace__lexique_a_d.jsonl."
     },
     {
       "cle": "dico_als_fr_n",
@@ -301,12 +301,12 @@
     {
       "cle": "dico_fr_als_o",
       "libelle": "Dictionnaire français → alsacien — lettre O (page_of.htm)",
-      "statut": "inventorié",
+      "statut": "extrait",
       "type_terme": "mot, expression",
       "url": "https://www.elsassisch.eu/culture.alsace.pagesperso-orange.archive/page_of.htm",
       "format_ligne": "<français>.- <alsacien(s) séparés par des virgules>",
       "volumetrie_estimee": 459,
-      "notes": "Comptage brut des lignes « .- » (certaines entrées s'étendent sur plusieurs lignes, certaines pages portent des notes de prononciation en tête)."
+      "notes": "Comptage brut des lignes « .- » (certaines entrées s'étendent sur plusieurs lignes, certaines pages portent des notes de prononciation en tête). Page extraite par lexique_a_d.py (carte t_21e6b05d) : attestations dans culture_alsace__lexique_a_d.jsonl."
     },
     {
       "cle": "dico_als_fr_o",
@@ -321,12 +321,12 @@
     {
       "cle": "dico_fr_als_p",
       "libelle": "Dictionnaire français → alsacien — lettre P (page_pf.htm)",
-      "statut": "inventorié",
+      "statut": "extrait",
       "type_terme": "mot, expression",
       "url": "https://www.elsassisch.eu/culture.alsace.pagesperso-orange.archive/page_pf.htm",
       "format_ligne": "<français>.- <alsacien(s) séparés par des virgules>",
       "volumetrie_estimee": 2476,
-      "notes": "Comptage brut des lignes « .- » (certaines entrées s'étendent sur plusieurs lignes, certaines pages portent des notes de prononciation en tête)."
+      "notes": "Comptage brut des lignes « .- » (certaines entrées s'étendent sur plusieurs lignes, certaines pages portent des notes de prononciation en tête). Page extraite par lexique_a_d.py (carte t_21e6b05d) : attestations dans culture_alsace__lexique_a_d.jsonl."
     },
     {
       "cle": "dico_als_fr_p",
@@ -341,12 +341,12 @@
     {
       "cle": "dico_fr_als_q",
       "libelle": "Dictionnaire français → alsacien — lettre Q (page_qf.htm)",
-      "statut": "inventorié",
+      "statut": "extrait",
       "type_terme": "mot, expression",
       "url": "https://www.elsassisch.eu/culture.alsace.pagesperso-orange.archive/page_qf.htm",
       "format_ligne": "<français>.- <alsacien(s) séparés par des virgules>",
       "volumetrie_estimee": 146,
-      "notes": "Comptage brut des lignes « .- » (certaines entrées s'étendent sur plusieurs lignes, certaines pages portent des notes de prononciation en tête)."
+      "notes": "Comptage brut des lignes « .- » (certaines entrées s'étendent sur plusieurs lignes, certaines pages portent des notes de prononciation en tête). Page extraite par lexique_a_d.py (carte t_21e6b05d) : attestations dans culture_alsace__lexique_a_d.jsonl."
     },
     {
       "cle": "dico_als_fr_q",
@@ -361,12 +361,12 @@
     {
       "cle": "dico_fr_als_r",
       "libelle": "Dictionnaire français → alsacien — lettre R (page_rf.htm)",
-      "statut": "inventorié",
+      "statut": "extrait",
       "type_terme": "mot, expression",
       "url": "https://www.elsassisch.eu/culture.alsace.pagesperso-orange.archive/page_rf.htm",
       "format_ligne": "<français>.- <alsacien(s) séparés par des virgules>",
       "volumetrie_estimee": 1511,
-      "notes": "Comptage brut des lignes « .- » (certaines entrées s'étendent sur plusieurs lignes, certaines pages portent des notes de prononciation en tête)."
+      "notes": "Comptage brut des lignes « .- » (certaines entrées s'étendent sur plusieurs lignes, certaines pages portent des notes de prononciation en tête). Page extraite par lexique_a_d.py (carte t_21e6b05d) : attestations dans culture_alsace__lexique_a_d.jsonl."
     },
     {
       "cle": "dico_als_fr_r",
@@ -381,12 +381,12 @@
     {
       "cle": "dico_fr_als_s",
       "libelle": "Dictionnaire français → alsacien — lettre S (page_sf.htm)",
-      "statut": "inventorié",
+      "statut": "extrait",
       "type_terme": "mot, expression",
       "url": "https://www.elsassisch.eu/culture.alsace.pagesperso-orange.archive/page_sf.htm",
       "format_ligne": "<français>.- <alsacien(s) séparés par des virgules>",
       "volumetrie_estimee": 1542,
-      "notes": "Comptage brut des lignes « .- » (certaines entrées s'étendent sur plusieurs lignes, certaines pages portent des notes de prononciation en tête)."
+      "notes": "Comptage brut des lignes « .- » (certaines entrées s'étendent sur plusieurs lignes, certaines pages portent des notes de prononciation en tête). Page extraite par lexique_a_d.py (carte t_21e6b05d) : attestations dans culture_alsace__lexique_a_d.jsonl."
     },
     {
       "cle": "dico_als_fr_s",
@@ -401,12 +401,12 @@
     {
       "cle": "dico_fr_als_t",
       "libelle": "Dictionnaire français → alsacien — lettre T (page_tf.htm)",
-      "statut": "inventorié",
+      "statut": "extrait",
       "type_terme": "mot, expression",
       "url": "https://www.elsassisch.eu/culture.alsace.pagesperso-orange.archive/page_tf.htm",
       "format_ligne": "<français>.- <alsacien(s) séparés par des virgules>",
       "volumetrie_estimee": 1365,
-      "notes": "Comptage brut des lignes « .- » (certaines entrées s'étendent sur plusieurs lignes, certaines pages portent des notes de prononciation en tête)."
+      "notes": "Comptage brut des lignes « .- » (certaines entrées s'étendent sur plusieurs lignes, certaines pages portent des notes de prononciation en tête). Page extraite par lexique_a_d.py (carte t_21e6b05d) : attestations dans culture_alsace__lexique_a_d.jsonl."
     },
     {
       "cle": "dico_als_fr_t",
@@ -421,12 +421,12 @@
     {
       "cle": "dico_fr_als_u",
       "libelle": "Dictionnaire français → alsacien — lettre U (page_uf.htm)",
-      "statut": "inventorié",
+      "statut": "extrait",
       "type_terme": "mot, expression",
       "url": "https://www.elsassisch.eu/culture.alsace.pagesperso-orange.archive/page_uf.htm",
       "format_ligne": "<français>.- <alsacien(s) séparés par des virgules>",
       "volumetrie_estimee": 104,
-      "notes": "Comptage brut des lignes « .- » (certaines entrées s'étendent sur plusieurs lignes, certaines pages portent des notes de prononciation en tête)."
+      "notes": "Comptage brut des lignes « .- » (certaines entrées s'étendent sur plusieurs lignes, certaines pages portent des notes de prononciation en tête). Page extraite par lexique_a_d.py (carte t_21e6b05d) : attestations dans culture_alsace__lexique_a_d.jsonl."
     },
     {
       "cle": "dico_als_fr_u",
@@ -441,12 +441,12 @@
     {
       "cle": "dico_fr_als_v",
       "libelle": "Dictionnaire français → alsacien — lettre V (page_vf.htm)",
-      "statut": "inventorié",
+      "statut": "extrait",
       "type_terme": "mot, expression",
       "url": "https://www.elsassisch.eu/culture.alsace.pagesperso-orange.archive/page_vf.htm",
       "format_ligne": "<français>.- <alsacien(s) séparés par des virgules>",
       "volumetrie_estimee": 773,
-      "notes": "Comptage brut des lignes « .- » (certaines entrées s'étendent sur plusieurs lignes, certaines pages portent des notes de prononciation en tête)."
+      "notes": "Comptage brut des lignes « .- » (certaines entrées s'étendent sur plusieurs lignes, certaines pages portent des notes de prononciation en tête). Page extraite par lexique_a_d.py (carte t_21e6b05d) : attestations dans culture_alsace__lexique_a_d.jsonl."
     },
     {
       "cle": "dico_als_fr_v",
@@ -461,12 +461,12 @@
     {
       "cle": "dico_fr_als_w",
       "libelle": "Dictionnaire français → alsacien — lettre W (page_wf.htm)",
-      "statut": "inventorié",
+      "statut": "extrait",
       "type_terme": "mot, expression",
       "url": "https://www.elsassisch.eu/culture.alsace.pagesperso-orange.archive/page_wf.htm",
       "format_ligne": "<français>.- <alsacien(s) séparés par des virgules>",
       "volumetrie_estimee": 48,
-      "notes": "Comptage brut des lignes « .- » (certaines entrées s'étendent sur plusieurs lignes, certaines pages portent des notes de prononciation en tête)."
+      "notes": "Comptage brut des lignes « .- » (certaines entrées s'étendent sur plusieurs lignes, certaines pages portent des notes de prononciation en tête). Page extraite par lexique_a_d.py (carte t_21e6b05d) : attestations dans culture_alsace__lexique_a_d.jsonl."
     },
     {
       "cle": "dico_als_fr_w",
@@ -481,12 +481,12 @@
     {
       "cle": "dico_fr_als_xy",
       "libelle": "Dictionnaire français → alsacien — lettre XY (page_xyf.htm)",
-      "statut": "inventorié",
+      "statut": "extrait",
       "type_terme": "mot, expression",
       "url": "https://www.elsassisch.eu/culture.alsace.pagesperso-orange.archive/page_xyf.htm",
       "format_ligne": "<français>.- <alsacien(s) séparés par des virgules>",
       "volumetrie_estimee": 12,
-      "notes": "Comptage brut des lignes « .- » (certaines entrées s'étendent sur plusieurs lignes, certaines pages portent des notes de prononciation en tête)."
+      "notes": "Comptage brut des lignes « .- » (certaines entrées s'étendent sur plusieurs lignes, certaines pages portent des notes de prononciation en tête). Page extraite par lexique_a_d.py (carte t_21e6b05d) : attestations dans culture_alsace__lexique_a_d.jsonl."
     },
     {
       "cle": "dico_als_fr_xy",
@@ -501,12 +501,12 @@
     {
       "cle": "dico_fr_als_z",
       "libelle": "Dictionnaire français → alsacien — lettre Z (page_zf.htm)",
-      "statut": "inventorié",
+      "statut": "extrait",
       "type_terme": "mot, expression",
       "url": "https://www.elsassisch.eu/culture.alsace.pagesperso-orange.archive/page_zf.htm",
       "format_ligne": "<français>.- <alsacien(s) séparés par des virgules>",
       "volumetrie_estimee": 47,
-      "notes": "Comptage brut des lignes « .- » (certaines entrées s'étendent sur plusieurs lignes, certaines pages portent des notes de prononciation en tête)."
+      "notes": "Comptage brut des lignes « .- » (certaines entrées s'étendent sur plusieurs lignes, certaines pages portent des notes de prononciation en tête). Page extraite par lexique_a_d.py (carte t_21e6b05d) : attestations dans culture_alsace__lexique_a_d.jsonl."
     },
     {
       "cle": "dico_als_fr_z",

@@ -331,6 +331,55 @@ La section ci-dessus décrivait le dépôt ; la base, elle, était restée en ar
   est l'**indépendance** : deux sources dont l'une recopie l'autre comptent pour
   une seule.
 
+## Campagne 2 — deuxième source (09-10/08/2026)
+
+**Statut : trois sources en cours de vérification/audit, aucune ingérée.** Le
+studio a prospecté trois candidates (`ed-prospecteur`, échantillons dans
+`data/raw/` sur la branche `data`, commit `184e2e6`) : `alsacien_wikipedia`
+(als.wikipedia.org), `wiktionnaire_fr` (fr.wiktionary.org), `martin_lienhart`
+(Wörterbuch der elsässischen Mundarten, Martin & Lienhart 1899-1907, via
+l'API Wörterbuchnetz de Trèves). GATE Claude Code rendu sur pièces (pas sur
+rapport) à chaque étape, consignes tenues à jour dans l'article Odoo 725.
+
+- **`alsacien_wikipedia` — retenue, généralisée à 597 attestations.**
+  Rédaction encyclopédique communautaire, licence CC BY-SA/GFDL, non dérivée
+  de `culture_alsace`. Jointure par nom de commune (champ `nomalsacien` de
+  l'infobox) avec les 954 toponymes déjà en base ; les 5 vrais homonymes
+  HR/BR (`Bouxwiller`, `Buhl`, `Breitenbach`, `Herrlisheim`, `Steinbach`)
+  sont omis comme prévu. Point à vérifier avant arbitrage, non bloquant :
+  `Mulhouse` et `Eckartswiller` sont dédupliqués par le parseur comme des
+  doublons internes à la source (même `contexte` sur les deux lignes,
+  raisonnement calqué sur le précédent `Altenbach`), mais leurs formes
+  alsaciennes et codes postaux diffèrent contrairement à `Altenbach` — à
+  faire confirmer par `ed-gardien`.
+- **`wiktionnaire_fr` — retenue.** Pilote de 18 attestations (17 pages),
+  puis inventaire complet de `Catégorie:alémanique` : 834 pages (621
+  toponymes, 119 éléments chimiques, 62 mots, 33 noms propres), zéro
+  extraction sur ce lot. Généralisation en attente d'une carte dédiée.
+  Défaut mineur relevé : 3 entrées du pilote décrivant des communes sont
+  taguées `type: "mot"` au lieu de `toponyme`, à corriger au prochain lot.
+- **`martin_lienhart` — retenue sous réserve de droits, pilote à 5
+  communes.** Le dictionnaire apparie l'alsacien à l'**allemand**, jamais au
+  français : la seule extraction sûre est la **jointure toponymique** (le
+  lemme allemand correspond au nom officiel français déjà en base par
+  correspondance historique connue, jamais une traduction — règle 1). ElsWB
+  n'a que 5 lemmes toponymiques correspondant à une commune de
+  `culture_alsace`, tous en Bas-Rhin (`Strasbourg`, `Hagenau`, `Ittenheim`,
+  `Wasselonne`, `Brumaht`/Brumath) — plafond réel, pas un artefact du pilote.
+  Le vocabulaire général reste hors périmètre tant qu'aucune méthode
+  d'extraction non traductrice n'est trouvée. **Réserve juridique** : les
+  CGU de woerterbuchnetz.de ne montrent aucune licence explicite de
+  réutilisation ; une demande de clarification est en cours auprès de
+  `kompetenzzentrum@uni-trier.de`. Décision John (09/08/2026) : l'extraction
+  pilote démarre en parallèle de la demande (statut « à valider » comme
+  toute donnée du studio, règle 4) ; un refus impliquerait un retrait des
+  données déjà extraites.
+
+**Suite** : les trois lots passent par `ed-verificateur` puis `ed-gardien`
+(même chaîne que la campagne 1) avant tout GATE d'ingestion. La campagne sur
+le dossier `Dictionnaire/` (remplacement, ~50 pages) reste en attente que ces
+trois lots atteignent l'ingestion.
+
 ## Règles de travail
 
 - Ne jamais inventer de traduction alsacienne, même pour un exemple ou un test.

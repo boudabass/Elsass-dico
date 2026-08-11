@@ -452,6 +452,64 @@ retient l'ingestion.
   alsacienne (comme la jointure `alsacien_wikipedia` × `culture_alsace` de la
   campagne 2) : la règle actuelle le couvre déjà, sans changement de seuil.
 
+## Campagne 3 — dictionnaire, close (10-11/08/2026)
+
+**24 983 attestations pour `culture_alsace` (+ 23 851), 0 entrée nouvelle.**
+La rubrique `lexique_a_d` de la fiche source (le dossier `Dictionnaire/`
+actuel, A-D, 7260 entrées, `statut: "extrait hors studio"`, jamais passé au
+contrat) a été reprise en entier au contrat `data/README.md` et étendue à
+tout l'alphabet — elle remplace ce dossier, elle n'ajoute pas une source.
+
+- **Chaîne de 4 cartes** (`ed-prospecteur` → `ed-extracteur` →
+  `ed-verificateur` → `ed-gardien`), sans carte GATE dédiée : la source
+  `culture_alsace` était déjà acceptée (GATE 1 non applicable), et le
+  périmètre GATE allégé ci-dessus couvrait déjà cette campagne (extraction →
+  attestations, verdicts `ed-verificateur`/`ed-gardien`).
+- **Parseur `scripts/extract/culture_alsace/lexique_a_d.py`** : lit les 25
+  pages `page_{X}f.htm` (sens français → alsacien uniquement — décision John
+  du 08/08/2026, le sens inverse n'est jamais une seconde attestation) et
+  produit 23 851 attestations. 2 omissions documentées (règle 3 du contrat :
+  un doute se signale, il ne se comble pas), 20 doublons intra-source
+  retirés (répétitions dans une page, ou entre `page_wf.htm`/`page_xyf.htm`
+  — première occurrence gardée, sauf quand l'alsacien diffère entre les
+  deux, auquel cas les deux attestations sont gardées), 390 coquilles de
+  source copiées verbatim et signalées, jamais corrigées (règle 1).
+- **Vérification `ed-verificateur`** : verdict CONFORME, échantillon 30/30 EN
+  SUS d'une reconstruction exhaustive des 23 851 lignes (0 écart), rejeu du
+  parseur identique octet à octet (md5 stable), `git diff` vide. Un vrai
+  écart trouvé en premier passage (balise `</I>` parasite dans `francais`,
+  L18829) a bloqué la carte, été corrigé (commit `57634ce`), puis re-vérifié
+  CONFORME — exactement le cycle « doute signalé → contrôle sur pièces →
+  reprise » que le périmètre allégé garde intact.
+- **Audit doctrinal `ed-gardien`** : verdict CONFORME sur les 7 règles du
+  SOUL.md (verbatim, rejeu, pas de clé service_role, pas de push sur main,
+  aucune trace `entrees`/arbitrage, pas de root, budget tenu — un run
+  d'extraction a timeout puis repris sans incident). Audit en lecture seule :
+  aucun commit sur `data`, livrable en commentaire de carte, pas d'article
+  Odoo (hors périmètre `ed-doc` pour cette campagne).
+- **Le canal Telegram direct s'est tu en cours de campagne sans prévenir.**
+  Les rapports d'avancement de l'extraction et de la vérification ne sont
+  jamais arrivés sur le canal (`getUpdates` s'arrêtait à « prospecteur en
+  cours », alors que 4 commits et un audit complet avaient déjà eu lieu).
+  Aucune erreur ni webhook en cause (`getWebhookInfo` propre) : le studio
+  n'avait simplement pas posté ces étapes-là sur ce canal. D'où la vérité
+  retrouvée sur les fichiers (`data/sources/culture_alsace.json`, le JSONL,
+  le compte de commits) plutôt que sur l'absence de messages — un canal muet
+  n'est pas une preuve que rien ne s'est passé, dans un sens comme dans
+  l'autre.
+- **Ingestion** (`--source culture_alsace --rubrique lexique_a_d --apply`,
+  depuis un worktree sur `data`) : 23 851 créées, 0 déjà présentes d'après le
+  script — recompté indépendamment en base par type (`mot` 17 954 +
+  `expression` 5 897 = 23 851 ; total source 24 983, `toponyme` et `prenom`
+  inchangés) plutôt que pris au mot du script, comme chaque campagne
+  précédente.
+- **Toujours bloqué à 1 source sur N.** `culture_alsace` reste une source
+  unique : `arbitrer_entree()` refusera toute validation de ces 23 851
+  candidats sans note d'arbitrage. Rien n'est publié. La suite naturelle est
+  la même deuxième source déjà utilisée pour les toponymes et prénoms
+  (`alsacien_wikipedia`, `wiktionnaire_fr`) — mais pour le lexique général
+  cette fois, pas encore recoupée.
+
 ## Règles de travail
 
 - Ne jamais inventer de traduction alsacienne, même pour un exemple ou un test.

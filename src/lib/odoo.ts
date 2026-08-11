@@ -12,6 +12,11 @@ export interface UtilisateurOdoo {
     username: string;
 }
 
+// Odoo est l'autorité sur les comptes : la création n'existe pas côté dico,
+// elle se fait sur le portail public The Elsassisch. Lien public, pas un
+// secret — safe à importer côté client.
+export const URL_INSCRIPTION_ODOO = "https://www.theelsassisch.com/web/signup";
+
 // Les variables sont lues à l'appel et non au chargement du module : une
 // vérification au niveau module casserait le build, qui n'a pas accès aux
 // variables runtime de Coolify.

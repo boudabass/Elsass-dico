@@ -3,6 +3,7 @@
 import { useEffect, useMemo, useState } from "react";
 import { createClient } from "@/utils/supabase/client";
 import { signInWithOdooAction } from "@/app/actions/odoo-auth";
+import { URL_INSCRIPTION_ODOO } from "@/lib/odoo";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
@@ -113,6 +114,16 @@ export default function LoginPage() {
               ? "Revenir à la connexion The Elsassisch"
               : "Connexion de secours"}
           </button>
+
+          {!modeSecours && (
+            <p className="mt-2 text-center text-xs text-muted-foreground">
+              Pas encore de compte ?{" "}
+              <a href={URL_INSCRIPTION_ODOO} className="underline hover:text-foreground">
+                Créez-en un sur The Elsassisch
+              </a>
+              .
+            </p>
+          )}
         </CardContent>
       </Card>
     </div>

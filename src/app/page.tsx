@@ -8,8 +8,11 @@ import { Badge } from "@/components/ui/badge";
 import { ArrowRight, CheckCircle2, BookOpenCheck, Loader2, Search } from "lucide-react";
 import { rechercherAction, type ResultatRecherche } from "@/app/actions/recherche";
 import { LIBELLES_REGION, LIBELLES_TYPE_TERME, type Region, type TypeTerme } from "@/lib/dictionnaire";
+import { URL_INSCRIPTION_ODOO } from "@/lib/odoo";
+import { useAuth } from "@/components/auth-provider";
 
 export default function AccueilPage() {
+  const { user, isLoading } = useAuth();
   const [terme, setTerme] = useState("");
   const [resultats, setResultats] = useState<ResultatRecherche[]>([]);
   const [recherche, setRecherche] = useState(false);
@@ -37,10 +40,31 @@ export default function AccueilPage() {
   }, [terme]);
 
   return (
-    <div className="min-h-screen bg-slate-950 text-white">
+    <div className="relative min-h-screen bg-slate-950 text-white">
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,_var(--tw-gradient-stops))] from-indigo-900/20 via-slate-950 to-slate-950 z-0"></div>
 
       <div className="relative z-10 container mx-auto px-6 py-16 max-w-3xl space-y-10">
+        <div className="flex justify-end">
+          {isLoading ? null : user ? (
+            <Link href="/dashboard">
+              <Button variant="outline" size="sm" className="border-white/20 bg-transparent text-white hover:bg-white/10">
+                Mon espace
+              </Button>
+            </Link>
+          ) : (
+            <div className="flex items-center gap-2">
+              <Link href="/login">
+                <Button variant="outline" size="sm" className="border-white/20 bg-transparent text-white hover:bg-white/10">
+                  Se connecter
+                </Button>
+              </Link>
+              <a href={URL_INSCRIPTION_ODOO}>
+                <Button size="sm">Créer un compte</Button>
+              </a>
+            </div>
+          )}
+        </div>
+
         <div className="text-center space-y-4">
           <h1 className="text-4xl md:text-6xl font-black tracking-tight leading-tight">
             Elsass Dico <br />
@@ -107,8 +131,12 @@ export default function AccueilPage() {
               Le dictionnaire se construit par recoupement : un mot n&apos;apparaît ici qu&apos;une
               fois attesté puis arbitré. Vous connaissez la traduction ?{" "}
               <Link href="/login" className="text-indigo-400 hover:underline">
-                Devenez contributeur
-              </Link>
+                Connectez-vous
+              </Link>{" "}
+              si vous avez déjà un compte, ou{" "}
+              <a href={URL_INSCRIPTION_ODOO} className="text-indigo-400 hover:underline">
+                créez-en un
+              </a>
               .
             </p>
           </div>

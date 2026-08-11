@@ -7,9 +7,12 @@ import { cn } from "@/lib/utils";
 
 export function LayoutWrapper({ children }: { children: React.ReactNode }) {
     const pathname = usePathname();
-    
-    // Logic to hide header on specific pages if needed
-    const hideHeader = false; 
+
+    // L'accueil a son propre bandeau sombre plein cadre (voir src/app/page.tsx) :
+    // le header clair générique flotterait au-dessus en laissant une bande
+    // blanche visible, d'autant plus voyant une fois intégré en iframe dans
+    // The Elsassisch, qui a déjà sa propre navigation.
+    const hideHeader = pathname === "/";
 
     return (
         <div className="flex-col md:flex min-h-screen">
@@ -23,8 +26,8 @@ export function LayoutWrapper({ children }: { children: React.ReactNode }) {
                     </div>
                 </div>
             )}
-            
-            <main className="flex-1 space-y-4 p-8 pt-6">
+
+            <main className={cn("flex-1", !hideHeader && "space-y-4 p-8 pt-6")}>
                 {children}
             </main>
         </div>

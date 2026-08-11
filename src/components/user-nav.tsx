@@ -14,6 +14,7 @@ import {
 } from "@/components/ui/dropdown-menu";
 import Link from "next/link";
 import { LogOut, User, Shield } from "lucide-react";
+import { URL_INSCRIPTION_ODOO } from "@/lib/odoo";
 
 export function UserNav() {
     const { user, role, isLoading, signOut } = useAuth();
@@ -30,9 +31,16 @@ export function UserNav() {
 
     if (!user) {
         return (
-            <Link href="/login">
-                <Button variant="outline" size="sm">Se connecter</Button>
-            </Link>
+            <div className="flex items-center gap-2">
+                <Link href="/login">
+                    <Button variant="outline" size="sm">Se connecter</Button>
+                </Link>
+                {/* Odoo gère les comptes, pas ce projet : la création renvoie
+                    vers le portail public The Elsassisch. */}
+                <a href={URL_INSCRIPTION_ODOO}>
+                    <Button size="sm">Créer un compte</Button>
+                </a>
+            </div>
         );
     }
 

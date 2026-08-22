@@ -1,0 +1,11 @@
+{{voir|Hans|hans}}
+
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|prénom|gsw-fr|genre=m}} ===
+'''Hàns''' {{pron||gsw-fr}} {{m}}
+# [[Jean]].
+
+{{clé de tri|Hans}}

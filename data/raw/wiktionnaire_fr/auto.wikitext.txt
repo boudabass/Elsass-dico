@@ -1,0 +1,446 @@
+{{voir/auto}}
+
+== {{langue|fr}} ==
+=== {{S|étymologie}} ===
+: {{date|lang=fr}} (nom commun) {{apocope|m=1|fr}} d’''[[automobile]]''.
+: {{date|lang=fr}} (adjectif) {{apocope|m=1|fr}} d’''[[automatique]]''.
+
+=== {{S|nom|fr}} ===
+{{fr-rég|o.to|pron2=ɔ.to}}
+'''auto''' {{pron|o.to|ɔ.to|fr}} {{f}}
+# [[automobile|Automobile]].
+#* {{exemple | lang=fr
+ | Ces jeunes gens avaient des '''autos''' à la porte. Ils ne parlaient qu'automobile. L'un d'eux déclara : « Quand je suis dans la pente de (j'ai oublié quelle localité) alors, là, j'existe ! »
+ | source={{w|Jehan Rictus}}, ''Journal quotidien'', cahier 127, {{nobr|p. 69}}, {{1er|mai}} 1926}}
+#* {{exemple | lang=fr
+ | Ils ont tous une '''auto''', un piano, de l’argenterie, des ameublements modernes, un appareil de T.S.F.
+ | source={{Citation/Ludovic Naudeau/La France se regarde/1931}}}}
+#* {{exemple | lang=fr
+ | Seul, Delcassé s'est rendu à l’Étoile en '''auto''' ouverte. Il espérait une ovation, mais la foule resta muette.
+ | source={{w|Michel Corday}}, ''L'envers de la guerre : journal inédit 1914-1916'', Flammarion, 1932, p.131}}
+#* ''Une '''auto''' qui venait en sens inverse éclaira un instant la borne kilométrique et Joseph Mittel se pencha juste à temps pour lire :'' Forges-les-Eaux, 2 km. {{source|{{w|Georges Simenon}}, ''[[w:Long Cours (roman)|Long cours]]'', Éditions Gallimard, 1936, chapitre 1}}
+#* {{exemple | lang=fr
+ | Je revenais dans l’'''auto''' des estafettes, portant des piles et d'autres accessoires lorsque nous offrîmes une place à une sorte d'ambulancier, […].
+ | source=[[w:Alain (philosophe)|Alain]], ''Souvenirs de guerre'', Hartmann, 1937, page 98}}
+#* {{exemple | lang=fr
+ | [Il] n'est peut-être pas moins dévoyé que le fils du notaire, à Rouen, qui comparaît devant les Assises pour un vol d’'''auto''', […].
+ | source={{w|Paul Nizan}}, ''{{w|La Conspiration}}'', 1938, p.77}}
+#* {{exemple | lang=fr
+ | L’'''auto''' stoppa devant le perron.
+ | source={{w|Out-el-Kouloub}}, ''Zaheira'', dans ''Trois contes de l'Amour et de la Mort'', 1940}}
+#* {{exemple | lang=fr
+ | Certains disposaient d''''autos''' et de bons d'essence, et s'en allaient chez des amis ; d'autres allaient à pied, ou en voiture bientôt en panne, et marchaient sans but.
+ | source={{w|Maurice Agulhon}}, ''La République II. Nouveaux drames et nouveaux espoirs (1932 à nos jours), Hachette Littératures, collection « Pluriel », 1997}}
+
+==== {{S|dérivés}} ====
+{{(}}
+* [[assurance auto]]
+* [[auto-tamponneuse]]
+* [[lave-auto]] {{Canada|nocat=1}}
+* [[petites autos]]
+* [[siège-auto]]
+* [[taxi-auto]]
+{{)}}
+
+==== {{S|hyponymes}} ====
+* [[conduite intérieure]]
+* [[limousine]]
+* [[cabriolet]]
+
+==== {{S|vocabulaire}} ====
+* {{voir thésaurus|fr|automobile|route}}
+
+=== {{S|notes}} ===
+
+Ce terme est courant au Québec, contrairement en France, où elle est connue mais peu employée.
+==== {{S|traductions}} ====
+
+{{trad-début}}
+* {{T|af}} : {{trad+|af|motor}}, {{trad+|af|kar}}
+* {{T|de}} : {{trad+|de|Auto}}, {{trad+|de|Automobil}}, {{trad+|de|Kraftwagen}}, {{trad+|de|Kraftfahrzeug}}, {{trad+|de|Mobil|n}}
+* {{T|en}} : {{trad+|en|automobile}}, {{trad+|en|auto}}, {{trad+|en|car}}, {{trad-|en|motor-car}}
+* {{T|ar}} : {{trad+|ar|سَيَّارَة}}
+* {{T|bg}} : {{trad+|bg|кола|tr=kola}}
+* {{T|ca}} : {{trad+|ca|auto}}, {{trad+|ca|automòbil}}, {{trad+|ca|cotxe}}
+* {{T|hr}} : {{trad-|hr|auto}}
+* {{T|da}} : {{trad+|da|bil}}, {{trad+|da|automobil}}
+* {{T|es}} : {{trad+|es|coche}} {{ES|nocat=1}}, {{trad+|es|carro}} (''Amérique Latine''), {{trad+|es|automóvil}}, {{trad+|es|auto}}
+* {{T|eo}} : {{trad+|eo|aŭto}}, {{trad+|eo|aŭtomobilo}}
+* {{T|fo}} : {{trad+|fo|bilur}}
+* {{T|fi}} : {{trad+|fi|auto}}
+* {{T|fy}} : {{trad+|fy|auto}}, {{trad-|fy|wein}}
+* {{T|el}} : {{trad+|el|αυτοκίνητο|R=aftokínito}}, {{trad+|el|αμάξι|R=amáxi}}
+* {{T|hu}} : {{trad+|hu|autó}}, {{trad+|hu|kocsi}}
+* {{T|io}} : {{trad+|io|auto}}
+* {{T|is}} : {{trad+|is|bifreið}}, {{trad+|is|bíll}}
+* {{T|it}} : {{trad+|it|auto}}, {{trad+|it|automobile}}
+* {{T|ja}} : {{trad+|ja|車|tr=kuruma}}
+* {{T|la}} : {{trad-|la|auto}}
+* {{T|ms}} : {{trad-|ms|motokar}}, {{trad+|ms|oto}}, {{trad+|ms|mobil}}
+* {{T|nl}} : {{trad+|nl|auto}}, {{trad+|nl|automobiel}}
+* {{T|no}} : {{trad+|no|bil}}
+* {{T|pap}} : {{trad|pap|outo}}
+* {{T|pl}} : {{trad+|pl|auto}}, {{trad+|pl|samochód}}
+* {{T|pt}} : {{trad+|pt|auto}}, {{trad+|pt|automóvel}}, {{trad+|pt|carro}}
+* {{T|ru}} : {{trad+|ru|автомашина|tr=avtomašína}}, {{trad+|ru|автомобиль|tr=avtomobíl’}}, {{trad+|ru|авто|tr=avtó}}, {{trad+|ru|машина|tr=mašína}}
+* {{T|se}} : {{trad|se|biila}}
+* {{T|sk}} : {{trad+|sk|auto}}
+* {{T|srn}} : {{trad|srn|oto}}
+* {{T|sv}} : {{trad+|sv|bil}}
+* {{T|tl}} : {{trad-|tl|awtomóbil}}
+* {{T|cs}} : {{trad+|cs|auto}}
+* {{T|tr}} : {{trad+|tr|otomobil}}
+* {{T|zu}} : {{trad+|zu|imoto}}
+{{trad-fin}}
+
+=== {{S|adjectif|fr}} ===
+{{fr-rég|o.to|pron2=ɔ.to}}
+'''auto''' {{pron|o.to|ɔ.to|fr}}
+# [[automatique|Automatique]].
+
+==== {{S|dérivés}} ====
+* [[boîte auto]]
+
+=== {{S|prononciation}} ===
+* {{pron|o.to|fr}}
+** {{écouter|lang=fr|France|y.n‿o.to|audio=Fr-auto.ogg}}
+* {{écouter|lang=fr|France (Vosges)||audio=LL-Q150 (fra)-LoquaxFR-auto.wav}}
+* {{écouter|lang=fr|France (Lyon)||audio=LL-Q150 (fra)-WikiLucas00-auto.wav}}
+* {{écouter|lang=fr|Suisse (Lausanne)||audio=LL-Q150 (fra)-Eihel-auto.wav}}
+* {{écouter|Vendée (France)||lang=fr|audio=LL-Q150 (fra)-Sartus85-auto.wav}}
+
+=== {{S|anagrammes}} ===
+{{voir anagrammes|fr}}
+
+[[Catégorie:Lexique en français de l’automobile]]
+
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|nom|gsw-fr}} ===
+'''auto''' {{pron||gsw-fr}}
+# [[auto#fr|Auto]], [[automobile#fr|automobile]].
+
+==== {{S|variantes orthographiques}} ====
+* [[weia]]
+
+== {{langue|en}} ==
+=== {{S|étymologie}} ===
+: (''Sens 1'') {{apocope|en|m=1}} de ''[[automobile#en|automobile]]'' (« [[auto#fr-nom|auto]], [[automobile#fr|automobile]] »).
+: (''Sens 2 et 3'') {{apocope|en|m=1}} de ''[[automatic transmission#en|automatic transmission]]'' (« [[transmission automatique#fr|transmission automatique]] »).
+
+=== {{S|nom|en}} ===
+{{en-nom-rég}}
+'''auto''' {{pron||en}}
+# {{États-Unis|en}} [[auto#fr|Auto]], [[automobile#fr|automobile]]. {{note}} Presque inusité en Grande-Bretagne.
+# {{lexique|automobile|mécanique|en}} [[boîte de vitesse#fr|Boîte de vitesse]] automatique, [[transmission automatique#fr|transmission automatique]].
+# {{lexique|automobile|en}} [[voiture#fr-nom|Voiture]] équipée d’une [[boîte de vitesse automatique]].
+
+==== {{S|synonymes}} ====
+* [[car#en|car]]
+* [[automobile#en|automobile]] {{US|nocat=1}}
+
+==== {{S|méronymes}} ====
+{{( |1}}
+* [[bumper#en|bumper]]
+* [[fender#en|fender]] {{US|nocat=1}}, [[wing#en|wing]] {{GB|nocat=1}}
+* [[muffler#en|muffler]] {{US|nocat=1}}, [[silencer#en|silencer]] {{GB|nocat=1}}
+* [[exhaust pipe#en|exhaust pipe]]
+* [[horn#en|horn]]
+* [[steering wheel#en|steering wheel]]
+* [[turn signal#en|turn signal]] {{US|nocat=1}}, [[indicator#en|indicator]] {{GB|nocat=1}}
+* [[windshield#en|windshield]] {{US|nocat=1}}, [[windscreen#en|windscreen]] {{GB|nocat=1}}
+* [[windshield wiper#en|windshield wiper]] {{US|nocat=1}}, [[windscreen wiper#en|windscreen wiper]] {{GB|nocat=1}}
+* [[hood#en|hood]] {{US|nocat=1}}, [[bonnet#en|bonnet]] {{GB|nocat=1}}
+* [[trunk#en|trunk]] {{US|nocat=1}}, [[boot#en|boot]] {{GB|nocat=1}}
+{{)}}
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=en|États-Unis (New Jersey)||audio=LL-Q1860 (eng)-Simplificationalizer-auto.wav}}
+* {{écouter|lang=en|Royaume-Uni (Sud de l'Angleterre)||audio=LL-Q1860 (eng)-Vealhurl-auto.wav}}
+* {{écouter|Texas (États-Unis)||lang=en|audio=LL-Q1860 (eng)-Wodencafe-auto.wav}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=en}}
+
+[[Catégorie:Lexique en anglais de l’automobile|*]]
+
+== {{langue|ca}} ==
+=== {{S|étymologie}} ===
+: {{apocope|m=1|ca}} de ''[[automòbil#ca|automòbil]]''.
+
+=== {{S|nom|ca}} ===
+{{ca-rég}}
+'''auto''' {{pron||ca}}
+# [[auto#fr|Auto]], [[automobile]].
+
+==== {{S|synonymes}} ====
+* [[cotxe#ca|cotxe]]
+
+== {{langue|es}} ==
+=== {{S|étymologie}} ===
+: (''[[#es-nom-1|Nom 1]]'') Du {{étyl|la|es|mot=actus|sens=acte}}.
+: (''[[#es-nom-2|Nom 2]]'') {{apocope|es|m=1}} de ''[[automóvil#es|automóvil]]''{{réf|1}}.
+
+=== {{S|nom|es|num=1}} ===
+{{es-rég|ˈau.to}}
+'''auto''' {{pron|ˈau.to|es}} {{m}}
+# {{lexique|droit|es}} [[arrêt#fr|Arrêt]], [[arrêté#fr|arrêté]], [[jugement#fr|jugement]].
+# [[drame#fr|Drame]] [[religieux]] (''XVI{{e}} et XVII{{e}} siècles'').
+
+==== {{S|dérivés}} ====
+* {{lien|auto de fe|es}}
+
+=== {{S|nom|es|num=2}} ===
+{{es-rég|ˈau.to}}
+'''auto''' {{pron|ˈau.to|es}} {{m}}
+# [[#fr|Auto]], [[voiture]].
+#* {{exemple | lang=es
+ | Ir en '''auto'''.
+ | Aller en voiture.}}
+
+==== {{S|synonymes}} ====
+* [[carro#es|carro]] {{Amérique latine|nocat=1}}
+* [[coche#es|coche]] {{ES|nocat=1}}
+* [[automóvil#es|automóvil]]
+
+=== {{S|prononciation}} ===
+* {{écouter|Carthagène des Indes (Colombie)||lang=es|audio=LL-Q1321 (spa)-AdrianAbdulBaha-auto.wav}}
+
+=== {{S|références}} ===
+* {{RÉF|1}}{{R:DRAE}}
+
+== {{langue|et}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|et}}
+
+=== {{S|nom|et}} ===
+'''auto''' {{pron||et}}
+# [[auto#fr|Auto]].
+
+== {{langue|fi}} ==
+=== {{S|étymologie}} ===
+{{ébauche-étym|fi}}
+
+=== {{S|nom|fi}} ===
+{{fi-décl-valo|aut|||o|a}}
+'''auto''' {{pron|ˈɑu.to|fi}}
+# [[voiture|Voiture]], [[automobile]], [[auto#fi|auto]].
+#* {{exemple | lang=fi
+ | Ajan '''autoa'''.
+ | Je conduis une voiture.}}
+#* {{exemple | lang=fi
+ | Kuljen '''autolla'''.
+ | Je me déplace en voiture.}}
+#* {{exemple | lang=fi
+ | Olen '''autossa'''.
+ | Je suis dans une/la voiture.}}
+#* {{exemple | lang=fi
+ | '''Auto''' on tuolla.
+ | La voiture est là-bas.}}
+#* {{exemple | lang=fi
+ | Tuolla on '''auto'''.
+ | Il y a une voiture là-bas.}}
+
+==== {{S|dérivés}} ====
+{{(}}
+* {{l|asuntoauto|sens=camping-car|fi}}
+* {{lien|autoilla|fi}}
+* {{lien|autokauppa|fi}} — concession automobile
+* {{lien|autokauppias|fi}}
+* {{lien|autokorjaamo|fi}} — garage (le commerce)
+* {{lien|automaatti|fi}} — automate
+* {{lien|automaattinen|fi}} — automatique
+* {{lien|automaatio|fi}}
+* {{lien|autoradio|fi}} — autoradio
+* {{lien|autonrengas|fi}} — pneu de voiture
+* {{lien|autotalli|fi}} — garage (le local)
+* {{lien|autotie|fi}}
+* {{lien|autovuokraamo|fi}} — location de voiture
+* {{lien|henkilöauto|fi}}
+* {{lien|kuorma-auto|fi}} — camion, poids lourd
+* {{lien|linja-auto|fi}} — autobus, autocar
+* {{lien|matkailuauto|sens=camping-car|fi}}
+* {{lien|pakettiauto|fi}} — camionnette
+* {{lien|paloauto|fi}} — voiture de pompiers
+* {{lien|poliisiauto|fi}} — voiture de police
+* {{lien|sairaankuljetusauto|fi}} — ambulance
+{{)}}
+
+=== {{S|nom|fi|flexion}} ===
+'''auto''' {{pron|ˈɑu.to|fi}}
+# ''Accusatif II singulier de '' [[auto#fi|auto]].
+
+=== {{S|références}} ===
+* {{R:Luukkonen|p=12}}
+* {{R:KTSK|consulté le=30 août 2025}}
+
+== {{langue|fy}} ==
+=== {{S|étymologie}} ===
+{{ébauche-étym|fy}}
+
+=== {{S|nom|fy}} ===
+'''auto''' {{pron||fy}}
+# [[auto#fr|Auto]], [[automobile]].
+
+==== {{S|synonymes}} ====
+* [[wein]]
+
+== {{langue|it}} ==
+=== {{S|étymologie}} ===
+: {{apocope|m=1|it}} de ''[[automobile#it|automobile]]''.
+
+=== {{S|nom|it}} ===
+{{it-inv|ˈaw.to}}
+'''auto''' {{pron|ˈaw.to|it}} {{f}} {{invariable}}
+# [[auto#fr|Auto]], [[automobile]].
+#* {{exemple|lang=it}}
+
+==== {{S|synonymes}} ====
+* {{lien|automobile|it}}
+
+==== {{S|dérivés}} ====
+{{(}}
+* {{lien|auto a guida autonoma|it|sens=voiture autonome}}
+* {{lien|auto di sicurezza|it|sens=voiture de sécurité}}
+* {{lien|auto elettrica|it|sens=voiture électrique}}
+* [[autoemoteca#it|autoemoteca]]
+* [[autolavaggio#it|autolavaggio]]
+{{)}}
+
+=== {{S|prononciation}} ===
+* {{écouter|||lang=it|audio=LL-Q652 (ita)-Crunchy Cloaky Crackdown-auto.wav}}
+
+=== {{S|références}} ===
+* {{R:De Mauro}}
+* {{R:Olivetti}}
+* {{R:SDAS}}
+* {{R:Treccani}}
+* {{R:VELI}}
+
+== {{langue|car}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|car}}
+
+=== {{S|nom|car}} ===
+'''auto''' {{pron||car}}
+# {{lexique|foyer|car}} [[case#fr|Case]], [[maison]].
+#* {{exemple|lang=car}}
+
+=== {{S|prononciation}} ===
+{{ébauche-pron-audio|car}}
+
+== {{langue|nl}} ==
+=== {{S|étymologie}} ===
+{{ébauche-étym|nl}}
+
+=== {{S|nom|nl}} ===
+{{nl-nom|n.s=auto|n.pl=auto’s|dim.s=autootje|dim.pl=autootjes}}
+'''auto''' {{pron|au.tɔ|nl}}
+# [[auto#fr|Auto]], [[automobile]].
+#* {{exemple|lang=nl}}
+
+=== {{S|taux de reconnaissance}} ===
+{{nl-taux|99,3|99,1|pourB=99|pourNL=99}}
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=nl|Pays-Bas|au.tɔ|audio=Nl-auto.ogg}}
+* {{écouter||au.tɔ|lang=nl|audio=Nl-auto-.ogg}}
+* {{écouter|lang=nl|Pays-Bas (partie continentale) (Wijchen)|audio=LL-Q7411 (nld)-Robin van der Vliet-auto.wav}}
+
+=== {{S|références}} ===
+{{références}}
+
+== {{langue|pl}} ==
+=== {{S|étymologie}} ===
+{{ébauche-étym|pl}}
+
+=== {{S|nom|pl}} ===
+'''auto''' {{pron||pl}}
+# [[auto#fr|Auto]], [[automobile]].
+
+==== {{S|synonymes}} ====
+* [[samochód#pl|samochód]]
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=pl||audio=Pl-auto-.ogg}}
+* {{écouter|lang=pl|Pologne||audio=Pl-auto.ogg}}
+
+== {{langue|pt}} ==
+=== {{S|étymologie}} ===
+:(''[[#pt-nom-1|Nom 1]]'') Du {{étyl|la|pt|mot=actus|sens=acte}}.
+:(''[[#pt-nom-2|Nom 2]]'') {{apocope|m=1|pt}} de ''[[automóvel#pt|automóvel]]''.
+
+=== {{S|nom|pt|num=1}} ===
+{{pt-accord-mf|s=auto|ps=|p=autos|pp=}}
+'''auto''' {{pron||pt}} {{m}}
+# [[acte#fr|Acte]], [[pièce]], [[document]].
+#* {{exemple|lang=pt}}
+
+==== {{S|synonymes}} ====
+* [[acto#pt|acto]]
+* [[escritura#pt|escritura]]
+* [[instrumento#pt|instrumento]]
+
+==== {{S|dérivés}} ====
+* [[auto-da-fé#pt|auto-da-fé]], acte de foi, autodafé
+
+=== {{S|nom|pt|num=2}} ===
+{{pt-accord-mf|s=auto|ps=|p=autos|pp=}}
+'''auto''' {{pron||pt}} {{m}}
+# [[#fr|Auto]], [[automobile]]
+
+==== {{S|synonymes}} ====
+* [[automóvel#pt|automóvel]]
+* [[carro#pt|carro]]
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=pt|Portugal (Porto)||audio=LL-Q5146 (por)-Santamarcanda-auto.wav}}
+* {{écouter|lang=pt|États-Unis||audio=LL-Q5146 (por)-Nelson Ricardo 2500-auto.wav}}
+
+=== {{S|voir aussi}} ===
+* {{WP|Auto (desambiguação)|auto|lang=pt}}
+
+== {{langue|sk}} ==
+=== {{S|étymologie}} ===
+: {{apocope|m=1|sk}} de ''[[automobil#sk|automobil]]''.
+
+=== {{S|nom|sk}} ===
+{{sk-décl-nom-n-o|aut|áut}}
+'''auto''' {{pron||sk}} {{n}}
+# [[auto#fr|Auto]], [[automobile]].
+
+=== {{S|prononciation}} ===
+* {{écouter|Slovaquie||lang=sk|audio=LL-Q9058 (slk)-TomášPolonec-auto.wav}}
+
+== {{langue|cs}} ==
+=== {{S|étymologie}} ===
+: {{apocope|m=1|cs}} de ''[[automobil#cs|automobil]]''.
+
+=== {{S|nom|cs}} ===
+{{cs-décl-nom-n-o|rad=aut}}
+'''auto''' {{pron|aʊ̯tɔ|cs}} {{n}}
+# [[auto#fr|Auto]], [[automobile]], [[voiture]].
+#* {{exemple|Jediné '''auto''', které jsem si kdy přál, je Porsche 911.
+|La seule voiture que j'ai toujours voulue est la Porsche 911.
+|lang=cs}}
+#* {{exemple|Sednul do '''auta''' a vydal se vstříc dobrodružství.
+|Il est monté dans sa voiture et est parti à la rencontre de l'aventure.
+|lang=cs
+}}
+#* {{exemple|Starý '''auto''' z bazaru většinou není žádnej kundolap.
+|Une vieille voiture d'occasion n'est généralement pas d'un aspirateur a gonzesses.
+|lang=cs
+}}
+#* {{exemple|Na co '''auto''', když bydlím ve velkoměstě?
+|Pourquoi avoir une voiture alors que je vis dans une grande ville ?
+|lang=cs}}
+
+=== {{S|prononciation}} ===
+* {{écouter|Hradec Králové (Tchéquie)||lang=cs|audio=LL-Q9056 (ces)-HondaCivic175-auto.wav}}
+
+=== {{S|références}} ===
+* {{R:ÚJČ}}
+
+[[Catégorie:Véhicules en tchèque]]

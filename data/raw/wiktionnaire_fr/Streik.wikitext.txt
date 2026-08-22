@@ -1,0 +1,114 @@
+== {{langue|de}} ==
+
+=== {{S|étymologie}} ===
+: {{siècle|XIX}} De l’{{étyl|en|de|mot=strike}}{{R|Duden|Streik}}.
+
+=== {{S|nom|de}} ===
+{{de-nom-m-s-e|gse=opt|dse=opt|npx2=Streiks|cat2=m-s-s}}
+'''Streik''' {{pron|ʃtraɪ̯k|de}} {{m}}
+# [[grève#fr|Grève]], (entente, accord des salariés pour cesser leur travail jusqu’à ce qu’ils aient obtenu des avantages sociaux).
+#*{{exemple|Für, gegen den '''Streik''' stimmen, in den '''Streik''' treten, im '''Streik''' stehen.|sens=Voter pour, contre la grève, se mettre en grève, être en grève.|lang=de}}
+
+==== {{S|dérivés}} ====
+{{(|&nbsp;}}
+* [[Bahnstreik]] (''grève des chemins de fer'')
+* [[Beamtenstreik]] (''grève des fonctionnaires'')
+* [[Bergarbeiterstreik]] (''grève des mineurs'')
+* [[Bummelstreik]] (''grève du zèle'')
+* [[Durststreik]] (''grève de la soif'')
+* [[Eisenbahnerstreik]] (''grève des cheminots'')
+* [[Erzwingungsstreik]] (''grève contrainte'')
+* [[Flächenstreik]] 
+* [[Fluglotsenstreik]] (''grève des contrôleurs aériens'')
+* [[Frauenstreik]] 
+* [[GDL-Streik]] (''grève par le syndicat des conducteurs de train'')
+* [[Gebärstreik]] 
+* [[Generalstreik]] (''grève générale'')
+* [[Großstreik]] 
+* [[Hungerstreik]] (''grève de la faim'')
+* [[Käuferstreik]] (''grève des acheteurs'')
+* [[Lehrerstreik]] (''grève des enseignants'')
+* [[Lohnstreik]]
+* [[Lokführerstreik]] (''grève des conducteurs de trains'')
+* [[Massenstreik]]
+* [[Metallarbeiterstreik]] (''grève des métallurgistes'')
+* [[Nahverkehrsstreik]] (''grève des transports en commun'')
+* [[Pilotenstreik]] (''grève des pilotes'')
+* [[Proteststreik]] (''grève de protestation'')
+* [[Rekordstreik]] (''grève record'')
+* [[Schulstreik]] (''grève scolaire'')
+* [[Schwerpunktstreik]] (''grève bouchon'')
+* [[Sitzstreik]] (''sit-in'')
+* [[Solidaritätsstreik]] (''grève par solidarité'')
+* [[Streikabstimmung]] (''vote d'une grève'')
+* [[Streikaktion]] (''action de grève'')
+* [[Streikandrohung]] (''menace de grève'')
+* [[Streikankündigung]] (''préavis de grève'')
+* [[Streikaufruf]] (''appel à la grève'')
+* [[Streikausbruch]]
+* [[Streikauswirkung]]
+* [[Streikbefehl]]
+* [[Streikbereitschaft]]
+* [[Streikbeschluss]]
+* [[Streikbewegung]] (''mouvement de grève'')
+* [[Streikbrecher]] (''briseur de grève''),  [[Streikbrecherin]] (''briseuse de grève'')
+* [[Streikbruch]]
+* [[streikbrüchig]]
+* [[Streikdauer]] 
+* [[Streikdrohung]] (''menace de grève'')
+* [[streiken]] (''faire grève'')
+* [[Streikende]], [[Streikender]] (''gréviste'')
+* [[Streikfonds]]
+* [[Streikfreiheit]]
+* [[Streikfront]]
+* [[Streikführer]] (''meneur de grève''), [[Streikführerin]] (''meneuse de grève'')
+* [[Streikgeld]] (''indemnité de grève'')
+* [[Streikkampf]]
+* [[Streikkasse]] 
+* [[Streikkomitee]] (''comité de grève'')
+* [[Streikleitung]] (''direction de grève'')
+* [[Streiklokal]] (''P.C. des grévistes'')
+* [[Streiklosung]]
+* [[streiklustig]] (''qui se met facilement en grève'')
+* [[Streikmarsch]]
+* [[Streikparole]]
+* [[Streikpause]] (''suspension de la grève'')
+* [[Streikposten]] (''piquet de grève'')
+* [[Streikrecht]] (''droit de grève'')
+* [[Streiksieg]]
+* [[Streiktag]] (''jour de grève'')
+* [[Streikunterstützung]]
+* [[Streikurabstimmung]] 
+* [[Streikverbot]]
+* [[Streikversammlung]]
+* [[Streikwelle]] (''vague de grèves'')
+* [[Sympathiestreik]]
+* [[U-Bahn-Streik]] (''grève du métro'')
+* [[Warnstreik]] (''grève d'avertissement'')
+* [[Wellenstreik]]
+{{)}}
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=de|||audio=De-Streik.ogg}}
+
+=== {{S|références}} ===
+{{Références}}
+==== {{S|sources}} ====
+* {{R:DWDS|Streik}}
+* {{R:Duden|Streik}} 
+* {{Source-wikt|de|Streik}}
+==== {{S|bibliographie}} ====
+* Larousse - dictionnaire Allemand/Français - Français/Allemand, éd. 1958, p 696.
+* Harrap’s  de poche – Bordas dictionnaire Allemand/Français, éd. 1997, ISBN 0-245-50308-0, p 281.
+
+== {{langue|gsw-fr}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étyl|de|gsw-fr|mot=Streik}}.
+
+=== {{S|nom|gsw-fr}} ===
+'''Streik'''
+# [[grève#fr|Grève]].
+
+[[Catégorie:Lexique en allemand du syndicalisme]]
+[[Catégorie:Lexique en alémanique alsacien du syndicalisme]]

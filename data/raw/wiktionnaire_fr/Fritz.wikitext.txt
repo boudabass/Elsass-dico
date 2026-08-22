@@ -1,0 +1,106 @@
+{{voir|fritz}}
+
+== {{langue|fr}} ==
+=== {{S|étymologie}} ===
+: Du prénom {{étyl|de|fr|mot=Fritz}}, diminutif du prénom ''[[Friedrich]]''.
+
+=== {{S|nom|fr}} ===
+'''Fritz''' {{pron|fʁits|fr}} {{m}} {{sp}}
+# {{vieilli|fr}} {{injurieux|fr}} [[Allemand]] et en particulier, [[soldat]] allemand. [[sobriquet|Sobriquet]] employé depuis la Première Guerre mondiale.
+#* {{exemple | lang=fr
+ | Qu'est-ce qu'ils se payent notre gueule, les '''Fritz''', depuis deux ans !
+ | source={{w|André Malraux}}, ''L'Espoir'', 1937}}
+#* ''Ses [[citation]]s ?<br
+/>– Je ne les ai pas sur moi, mon général, avait répondu Conan, mais ça va chercher dans les cinquante-deux '''Fritz''' [[esquinté]]s en dix-huit [[coup de main|coups de main]].'' {{source|{{w|Roger Vercel}}, ''Capitaine Conan'', Albin Michel, 1934, réédition Le Livre de Poche, page 19}}
+#* ''– Qu’est-ce que c’est ? C’est pour la poste ?<br
+/>– Tu ne vois pas que c’est pour les Fridolins ?<br
+/>– Merde ! C’est pour les '''Fritz''' !'' {{source|{{w|Elsa Triolet}}, ''{{w|Le premier accroc coûte deux cents francs}}'', 1944, réédition Cercle du Bibliophile, page 64}}
+#* {{exemple|lang=fr|
+– Alors quoi ? Pour peu qu’on lui rende son bœuf bourguignon et ses fusils, toute l’armée française est prête à marcher contre l’Anglais parce que le '''Fritz''' a la cigarette facile et qu’il tapote gentiment la joue des gosses ?
+|source={{w|Jacques Perret (écrivain)|Jacques Perret}}, ''Le Caporal épinglé'', Gallimard, 1947, page 30}}
+#* ''—Depuis le temps qu'on entend parler des '''Fritz''', je me demandais s'ils existaient vraiment. On peut dire ce qu'on veut, ça fait plaisir de se rencontrer avec une race supérieure.<br
+/>— Race supérieure de mes couilles, dit Alexandre. Maillat sourit.'' {{source|{{w|Robert Merle}}, ''Week-end à Zuydcoote'', 1949, réédition Le Livre de Poche, page 39}}
+#* {{exemple|lang=fr|— Ils sont en train de tondre les poules qui ont frayé avec les '''Fritz'''.|source={{w|Bernard Clavel}}, ''{{w|Les Fruits de l’hiver}}'', chapitre 41, Robert Laffont, 1968}}
+
+==== {{S|variantes}} ====
+* [[Friquet]]
+* [[fritz]]
+* [[frisé]]
+* [[frisou]]
+
+==== {{S|traductions}} ====
+{{trad-début}}
+* {{T|pl}} : {{trad+|pl|fryc|m}}
+{{trad-fin}}
+
+=== {{S|nom de famille|fr}} ===
+'''Fritz''' {{pron|fʁits|fr}} {{mf}}
+# Nom de famille.
+#* {{exemple | lang=fr
+ | Simon '''Fritz''', commandant en charge d’une partie des 65 pompiers arrivés d’outre-Rhin, et son équipe sont positionnés sur la D3 entre Saint-Magne et Belin-Béliet.
+ | source=journal ''Sud-Ouest'', édition ''Charente-Maritime / Charente'', 13 août 2022, page 3}}
+
+=== {{S|prénom|fr}} ===
+'''Fritz''' {{pron|fʁits|fr}} {{m}}
+# Prénom masculin.
+#* {{exemple | lang=fr
+ | '''Fritz''' Lang rajustait son monocle et disait : « Il faut toujours finir ce qu’on a commencé ».
+ | source=Éric Neuhoff, ''La Petite Française'', Albin Michel, 1997, page 143}}
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=fr|France (Toulouse)|audio=LL-Q150 (fra)-Lepticed7-Fritz.wav}}
+* {{écouter|lang=fr|France (Vosges)||audio=LL-Q150 (fra)-LoquaxFR-Fritz.wav}}
+
+=== {{S|références}} ===
+* {{R:TLFi|Fritz}}
+
+[[Catégorie:Gentilés informels en français]]
+[[Catégorie:Prénoms masculins en français]]
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: {{date|lang=de}} Diminutif de ''[[Friedrich]]''.
+
+=== {{S|prénom|de|genre=m}} ===
+'''Fritz''' {{pron||de}} {{m}}
+# Prénom masculin.
+
+=== {{S|prononciation}} ===
+* {{écouter|||lang=de|audio=De-Fritz.ogg}}
+
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|prénom|gsw-fr|genre=m}} ===
+'''Fritz''' {{pron||gsw-fr}} {{m}}
+# [[prénom|Prénom]] [[masculin]] [[alsacien]], correspondant à [[Frédéric]] en français.
+
+== {{langue|is}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|is}}
+
+=== {{S|prénom|is|genre=m}} ===
+{{is-décl-prénom}}
+'''Fritz''' {{pron||is}} {{m}}
+# [[prénom|Prénom]] [[masculin]] [[islandais]].
+
+== {{langue|lb}} ==
+=== {{S|étymologie}} ===
+: {{date|lang=lb}} {{ébauche-étym|lb}}
+{{note noms de famille}}
+
+=== {{S|nom de famille|lb}} ===
+{{lb-inv|fʀits}}
+'''Fritz''' {{pron|fʀits|lb}}
+# Nom de famille.
+#* {{exemple|lang=lb}}
+
+=== {{S|prononciation}} ===
+{{ébauche-pron-audio|lb}}
+
+=== {{S|anagrammes}} ===
+{{voir anagrammes|lb}}
+
+=== {{S|références}} ===
+* {{R:Luxemburger Familiennamenbuch}}

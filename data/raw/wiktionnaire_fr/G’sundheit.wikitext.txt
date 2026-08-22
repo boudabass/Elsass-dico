@@ -1,0 +1,10 @@
+{{voir|Gsundheit}}
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|interjection|gsw-fr}} ===
+'''G’sundheit !'''
+# À [[votre]] [[santé]]!
+
+{{clé de tri|Gsundheit}}

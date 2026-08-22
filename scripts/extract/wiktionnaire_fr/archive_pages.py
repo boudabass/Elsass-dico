@@ -13,7 +13,9 @@ Méthode
 -------
 - Entrée : data/raw/wiktionnaire_fr/categorie_alemanique.json — la liste
   des titres produite par inventaire_categorie.py (la copie brute du
-  relevé, jamais une liste retapée à la main).
+  relevé, jamais une liste retapée à la main). Option --inventaire pour
+  archiver un autre fichier de titres (ex. gsw_fr_lot.json du pilote
+  gsw-fr, carte t_bb75ea0e).
 - URL : https://fr.wiktionary.org/wiki/<titre encodé>?action=raw (wikitext
   brut, même méthode que le pilote — md5 identique à l'existant).
 - Fichier : data/raw/wiktionnaire_fr/<titre>.wikitext.txt — copie verbatim
@@ -47,7 +49,7 @@ from pathlib import Path
 
 REPO = Path(__file__).resolve().parents[3]
 RAW_DIR = REPO / "data" / "raw" / "wiktionnaire_fr"
-INVENTAIRE = RAW_DIR / "categorie_alemanique.json"
+INVENTAIRE_DEFAUT = RAW_DIR / "categorie_alemanique.json"
 
 WIKI = "https://fr.wiktionary.org/wiki/"
 UA = ("elsass-dico-studio/0.1 (archivage data/raw; "
@@ -60,13 +62,14 @@ REDIRECT_RE = re.compile(
     re.IGNORECASE)
 
 
-def titres() -> list[str]:
+def titres(inventaire: Path) -> list[str]:
     """Titres depuis l'inventaire (copie brute du relevé API)."""
-    if not INVENTAIRE.exists():
-        print(f"inventaire introuvable : {INVENTAIRE} "
-              "(lancer inventaire_categorie.py d'abord)", file=sys.stderr)
+    if not inventaire.exists():
+        print(f"inventaire introuvable : {inventaire} "
+              f"(lancer inventaire_categorie.py ou inventaire_gsw_fr.py "
+              f"d'abord)", file=sys.stderr)
         sys.exit(1)
-    with INVENTAIRE.open(encoding="utf-8") as fh:
+    with inventaire.open(encoding="utf-8") as fh:
         return json.load(fh)
 
 
@@ -104,10 +107,13 @@ def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--dry-run", action="store_true",
                     help="ne rien écrire, seulement rapporter les statuts")
+    ap.add_argument("--inventaire", type=Path, default=INVENTAIRE_DEFAUT,
+                    help="fichier de titres à archiver (défaut : "
+                         "categorie_alemanique.json)")
     args = ap.parse_args()
 
     RAW_DIR.mkdir(parents=True, exist_ok=True)
-    titles = titres()
+    titles = titres(args.inventaire)
     existing = {p.name.removesuffix(".wikitext.txt")
                 for p in RAW_DIR.glob("*.wikitext.txt")}
     missing = [t for t in titles if t not in existing]

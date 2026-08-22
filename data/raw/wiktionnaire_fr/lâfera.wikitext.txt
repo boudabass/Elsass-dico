@@ -1,0 +1,9 @@
+{{vérifier création automatique||gsw-fr}}
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|verbe|gsw-fr}} ===
+'''lâfera'''
+# [[faire|Faire]] le [[niais]], [[dire]] des [[bêtise]]s, [[déconner]]
+{{clé de tri|lafera}}

@@ -83,12 +83,40 @@ Cas constatés en généralisation (23/08/2026) :
 - Strossburi : gsw-fr « [[Strasbourg#Français|Strasbourg]]. » sans
   motif ; la section gsw jumelle porte « [[Strasbourg#Français|Strasbourg]]
   (ville de [[France]]). » ⇒ toponyme via le garde-fou.
-- Milhüsa / Milhüse / Milhüüse / Mïlhüsa (« Mulhouse »), Vogesa
-  (« Vosges »), Gawiller (« Guebwiller »), Zàwera (« Saverne »),
-  Spanïa (« Espagne (pays européen) »), Frankrïïch (« France »),
-  Suntiklàuis (« Saint-Nicolas »), Kindelesbrunnen (phrase descriptive),
-  Strossburg (« Strasbourg ») : nom propre sans motif ET sans section
-  gsw jumelle ⇒ type incertain, listées dans le rapport (règle 3).
+- Les 13 pages « type incertain » (nom propre sans motif commune/ville
+  ET sans section gsw jumelle pour trancher) ont été TRANCHÉES par
+  John le 22/08/2026 (article 725, carte t_2453a34f) : 7 toponymes /
+  6 mots — cf. section TRANCHAGE ci-dessous. Plus aucune ligne
+  « type incertain » dans le rapport.
+
+TRANCHAGE JOHN — 13 LIGNES « TYPE INCERTAIN » (décision 22/08/2026,
+article 725, transmise par la passerelle Claude, carte t_2453a34f)
+------------------------------------------------------------------
+Le rapport de généralisation t_06e56f33 signalait 13 lignes règle 3
+(motif gsw_jumelle_absente : nom propre sans motif commune/ville dans
+la section gsw-fr ET sans section gsw jumelle). John a tranché :
+
+- TOPONYME (7) : Milhüsa, Milhüse, Milhüüse, Mïlhüsa (Mulhouse),
+  Strossburg (Strasbourg), Gawiller (Guebwiller), Zàwera (Saverne).
+  CRITÈRE John : la rubrique toponyme vise les COMMUNES/VILLAGES avec
+  code postal 67/68 déjà présents dans culture_alsace — pas n'importe
+  quel nom propre de lieu. Contexte/region issus de la JOINTURE EXACTE
+  sur le nom français déjà présent dans culture_alsace (fichiers
+  data/attestations/culture_alsace__villes_villages_hr.jsonl et
+  __br.jsonl — même modèle que martin_lienhart/alsacien_wikipedia) :
+  la clé de jointure est le nom français porté par le premier lien de
+  la définition gsw-fr (« [[Mulhouse#fr|Mulhouse]]. » ⇒ « Mulhouse »),
+  jamais une traduction. Jointure échouée ou ambiguë (homonyme HR/BR)
+  ⇒ règle 3 : la ligne est OMISE et signalée (jointure_echec /
+  jointure_ambigue), jamais devinée. francais reste le rendu verbatim
+  de la définition (« Mulhouse. », « Strasbourg. » — règle 1) ; les
+  contextes de templates de ces lignes ne sont pas repris (la consigne
+  John fait foi : contexte/region viennent de la jointure).
+- MOT (6) : Vogesa (massif/département, pas une commune), Spanïa
+  (pays), Frankrïïch (pays), Suntiklàuis (figure/tradition),
+  Kindelesbrunnen (monument — puits de la cathédrale de Strasbourg),
+  Schwyz (pays) — hors périmètre commune. Émises en type « mot »,
+  francais verbatim (règle 1).
 - Scheenài / Strosbùri / Zàwere : définition gsw-fr avec motif
   « commune française » mais nom nu suivi d'un POINT-VIRGULE (« Saverne ;
   commune française… ») — la règle nom_nu du pilote n'accepte que la
@@ -212,6 +240,77 @@ CONTEXTES = {
     "ironique": "Ironique",
     "argot": "Argot",
 }
+
+# Base culture_alsace pour la jointure des toponymes du TRANCHAGE John
+# (même modèle que martin_lienhart/alsacien_wikipedia : nom français
+# officiel déjà en base, jamais une traduction). Les deux fichiers sont
+# versionnés dans data/attestations/ : la jointure est hors-ligne et
+# rejouable, comme la lecture de data/raw/.
+BASE_FILES = [
+    REPO / "data" / "attestations" / "culture_alsace__villes_villages_hr.jsonl",
+    REPO / "data" / "attestations" / "culture_alsace__villes_villages_br.jsonl",
+]
+
+# TRANCHAGE JOHN — 13 LIGNES « TYPE INCERTAIN » (décision 22/08/2026,
+# article 725, transmise par la passerelle Claude, carte t_2453a34f ;
+# consignée aussi dans la fiche data/sources/wiktionnaire_fr.json).
+# Le rapport de généralisation t_06e56f33 signalait 13 lignes règle 3
+# (motif gsw_jumelle_absente). John a décidé :
+#   - toponyme (7) : Milhüsa, Milhüse, Milhüüse, Mïlhüsa (Mulhouse),
+#     Strossburg (Strasbourg), Gawiller (Guebwiller), Zàwera (Saverne)
+#     — communes 67/68 déjà présentes dans culture_alsace (critère
+#     John : la rubrique toponyme vise les COMMUNES/VILLAGES avec code
+#     postal 67/68, pas n'importe quel nom propre de lieu) ;
+#   - mot (6) : Vogesa (massif/département), Spanïa, Frankrïïch,
+#     Schwyz (pays), Suntiklàuis (figure/tradition), Kindelesbrunnen
+#     (monument) — hors périmètre commune.
+# La clé de jointure n'est PAS dans ce dictionnaire : elle est portée
+# par la page elle-même (le nom français du premier lien de la
+# définition gsw-fr), jointe EXACTEMENT sur le francais de
+# culture_alsace. Jointure échouée ou ambiguë ⇒ règle 3 (omise,
+# signalée), jamais devinée.
+TRANCHAGE: dict[str, str] = {
+    "Milhüsa": "toponyme",
+    "Milhüse": "toponyme",
+    "Milhüüse": "toponyme",
+    "Mïlhüsa": "toponyme",
+    "Strossburg": "toponyme",
+    "Gawiller": "toponyme",
+    "Zàwera": "toponyme",
+    "Vogesa": "mot",
+    "Spanïa": "mot",
+    "Frankrïïch": "mot",
+    "Suntiklàuis": "mot",
+    "Kindelesbrunnen": "mot",
+    "Schwyz": "mot",
+}
+
+
+def load_base() -> dict[str, list[dict]]:
+    """Base culture_alsace : francais -> liste d'entrées (contexte, region).
+
+    Même fonction que alsacien_wikipedia/toponymes.py : une clé peut
+    porter plusieurs entrées quand la commune figure dans les deux pages
+    (homonyme HR/BR) — c'est précisément le cas à trancher. Les entrées
+    strictement identiques sont dédupliquées : Mulhouse (68100 et 68200)
+    porte une entrée unique (Haut-Rhin / haut_rhin). La jointure ne
+    réussit que si la clé existe ET porte une entrée unique.
+    """
+    base: dict[str, list[dict]] = {}
+    for f in BASE_FILES:
+        with f.open(encoding="utf-8") as fh:
+            for line in fh:
+                att = json.loads(line)
+                if att.get("type") != "toponyme":
+                    continue
+                key = att["francais"]
+                entry = {
+                    "contexte": att.get("contexte", ""),
+                    "region": att.get("region"),
+                }
+                if entry not in base.setdefault(key, []):
+                    base[key].append(entry)
+    return base
 
 # Motifs de désignation commune/ville — mêmes que mots.py (décision John
 # 09/08/2026, article 725), constatés sur le rendu des définitions.
@@ -343,33 +442,23 @@ def resoudre_liens(texte: str) -> str:
     return RE_LIEN.sub(repl_wiki, texte)
 
 
-def rendre_ligne(ligne: str) -> tuple[str | None, list[str], str | None]:
-    """Rendu d'une ligne « # » : templates de tête retirés, liens résolus.
+def depouiller_tete(texte_wiki: str) -> tuple[str | None, list[str], str | None]:
+    """Retire les templates de contexte en tête de définition.
 
-    Retourne (rendu, contextes, code_doute) :
-    - rendu = le texte après retrait des templates de contexte de tête et
-      résolution des liens, espaces multiples réduits (None si doute) ;
-    - contextes = libellés des parenthèses de contexte rendues ;
-    - code_doute = None si la ligne est exploitable, sinon la raison
-      (ligne_de_forme, template_tete_inconnu, template_residuel,
-      definition_vide).
+    Retourne (texte_restant, contextes, code_doute) : texte_restant est
+    le wikicode après retrait des templates de contexte (les liens
+    [[...]] et {{lien|...}} sont laissés en place — resoudre_liens s'en
+    charge) ; code_doute est None ou « template_tete_inconnu ».
     """
-    texte_wiki = ligne[2:]  # après « # »
     contextes: list[str] = []
-
-    # lignes de forme (Pluriel de…, Participe passé de…, variante de…)
-    if RE_FORME.search(ligne):
-        return None, contextes, "ligne_de_forme"
-
-    # templates de contexte en tête de définition
     while True:
         m = RE_TEMPLATE_TETE.match(texte_wiki)
         if not m:
             break
         nom_tpl, args = m.group(1), m.group(2) or ""
         if nom_tpl == "lien":
-            # {{lien|...}} est un lien, pas un template de contexte : on
-            # le laisse en place, resoudre_liens s'en charge.
+            # {{lien|...}} est un lien, pas un template de contexte :
+            # on le laisse en place, resoudre_liens s'en charge.
             break
         if nom_tpl in ("lexique", "term"):
             p1 = args.split("|")[0].strip() if args else ""
@@ -382,6 +471,48 @@ def rendre_ligne(ligne: str) -> tuple[str | None, list[str], str | None]:
             return None, contextes, "template_tete_inconnu"
         contextes.append(lib)
         texte_wiki = texte_wiki[m.end():].lstrip()
+    return texte_wiki, contextes, None
+
+
+def premier_nom_lien(texte_wiki: str) -> str | None:
+    """Nom français porté par le premier lien wiki (clé de jointure).
+
+    Pour les toponymes du TRANCHAGE John, la définition gsw-fr est
+    réduite au nom nu (« [[Mulhouse#fr|Mulhouse]]. », « [[Strasbourg]]. »,
+    « [[Guebwiller]] », « [[Saverne]] ») : le nom français officiel est
+    le texte affiché du premier lien — la même clé que celle déjà en
+    base culture_alsace (modèle martin_lienhart/alsacien_wikipedia :
+    nom français officiel déjà en base, jamais une traduction).
+    """
+    m = RE_LIEN_TETE.match(texte_wiki)
+    if not m:
+        return None
+    nom = m.group(2) if m.group(2) is not None else m.group(1).split("#", 1)[0]
+    return nom or None
+
+
+def rendre_ligne(ligne: str) -> tuple[str | None, list[str], str | None]:
+    """Rendu d'une ligne « # » : templates de tête retirés, liens résolus.
+
+    Retourne (rendu, contextes, code_doute) :
+    - rendu = le texte après retrait des templates de contexte de tête et
+      résolution des liens, espaces multiples réduits (None si doute) ;
+    - contextes = libellés des parenthèses de contexte rendues ;
+    - code_doute = None si la ligne est exploitable, sinon la raison
+      (ligne_de_forme, template_tete_inconnu, template_residuel,
+      definition_vide).
+    """
+    texte_wiki = ligne[2:]  # après « # »
+
+    # lignes de forme (Pluriel de…, Participe passé de…, variante de…)
+    if RE_FORME.search(ligne):
+        return None, [], "ligne_de_forme"
+
+    # templates de contexte en tête de définition
+    texte_wiki, contextes, code = depouiller_tete(texte_wiki)
+    if code is not None:
+        return None, contextes, code
+    assert texte_wiki is not None  # code None ⇒ texte_restant présent
 
     # liens wiki et {{lien}} → texte affiché (pour la détection et le rendu)
     rendu = resoudre_liens(texte_wiki)
@@ -447,10 +578,13 @@ def traiter_definition(ligne: str, type_sous_section: str,
 
     francais = None si la définition est douteuse (ligne de forme,
     template de tête inconnu, template résiduel, toponyme sans nom nu
-    identifiable, ou nom propre sans motif ET sans signal de la section
-    gsw jumelle) : la ligne est alors OMISE (règle 3) et code_doute
-    porte la raison (« type_incertain » pour le garde-fou — l'appelant
-    précise le motif gsw_jumelle_absente / gsw_jumelle_presente_sans_motif).
+    identifiable) : la ligne est alors OMISE (règle 3) et code_doute
+    porte la raison. Pour le garde-fou (nom propre sans motif ET sans
+    signal de la section gsw jumelle), code_doute = « type_incertain »
+    et francais = le rendu : l'appelant applique le TRANCHAGE John
+    (décision 22/08/2026, TRANCHAGE ci-dessus) si la page y figure,
+    sinon règle 3 (omise, signalée — l'appelant précise le motif
+    gsw_jumelle_absente / gsw_jumelle_presente_sans_motif).
     region = « bas_rhin »/« haut_rhin » si la définition porte
     littéralement « département du Bas-Rhin » / « département du
     Haut-Rhin », sinon None. Jamais déduite.
@@ -487,9 +621,11 @@ def traiter_definition(ligne: str, type_sous_section: str,
             return rendu, contextes, region, "toponyme", None
         # Garde-fou : la section gsw jumelle est absente ou ne porte
         # aucun motif commune/ville — impossible de trancher toponyme/mot
-        # sur pièces. Règle 3 : omise, signalée (l'appelant documente le
-        # motif exact).
-        return None, contextes, region, "mot", "type_incertain"
+        # sur pièces. Le rendu est conservé pour le TRANCHAGE John
+        # (décision 22/08/2026, TRANCHAGE ci-dessus) : l'appelant émet
+        # la ligne si la page y figure, sinon règle 3 (omise, signalée
+        # — l'appelant documente le motif exact).
+        return rendu, contextes, region, "mot", "type_incertain"
 
     return rendu, contextes, region, "mot", None
 
@@ -534,6 +670,7 @@ def extraire() -> tuple[list[dict], list[dict], list[str]]:
     attestations: list[dict] = []
     anomalies: list[dict] = []
     pages_sans_attestation: list[str] = []
+    base = load_base()  # jointure toponymes du TRANCHAGE (culture_alsace)
 
     for titre in titres_du_perimetre():
         fichier = RAW_DIR / f"{titre}.wikitext.txt"
@@ -582,25 +719,70 @@ def extraire() -> tuple[list[dict], list[dict], list[str]]:
                 francais, contextes, region, type_att, code_doute = \
                     traiter_definition(ligne, types_ss.get(i, ""),
                                        signal_jumelle)
-                if francais is None:
-                    if code_doute == "type_incertain":
-                        # Garde-fou : la section gsw jumelle est absente
-                        # ou ne porte aucun motif commune/ville — le
-                        # motif exact est documenté dans le rapport.
-                        motif = ("gsw_jumelle_presente_sans_motif"
-                                 if jumelle_presente
-                                 else "gsw_jumelle_absente")
+                if code_doute == "type_incertain":
+                    # Garde-fou : la section gsw jumelle est absente ou
+                    # ne porte aucun motif commune/ville. TRANCHAGE John
+                    # (décision 22/08/2026, carte t_2453a34f) pour les
+                    # 13 lignes du rapport t_06e56f33 ; toute autre page
+                    # reste règle 3 (omise, motif exact documenté).
+                    motif = ("gsw_jumelle_presente_sans_motif"
+                             if jumelle_presente
+                             else "gsw_jumelle_absente")
+                    decision = TRANCHAGE.get(titre)
+                    if decision is None:
                         anomalies.append({
                             "fichier": fichier.name,
                             "type": "type_incertain",
                             "detail": f"{motif} — {ligne[:120]}",
                         })
-                    else:
-                        anomalies.append({
-                            "fichier": fichier.name,
-                            "type": code_doute or "definition_douteuse",
-                            "detail": ligne[:120],
-                        })
+                        continue
+                    if decision == "toponyme":
+                        # Jointure EXACTE sur le nom français déjà
+                        # présent dans culture_alsace (modèle
+                        # martin_lienhart/alsacien_wikipedia : nom
+                        # français officiel déjà en base, jamais une
+                        # traduction). La clé est portée par la page :
+                        # le nom français du premier lien de la
+                        # définition gsw-fr. Échec ou homonyme (HR/BR)
+                        # ⇒ règle 3 : omise, signalée, jamais devinée.
+                        texte_nu, _, code_tete = depouiller_tete(ligne[2:])
+                        cle = (premier_nom_lien(texte_nu)
+                               if texte_nu is not None and code_tete is None
+                               else None)
+                        entrees = base.get(cle, []) if cle else []
+                        if not entrees:
+                            anomalies.append({
+                                "fichier": fichier.name,
+                                "type": "jointure_echec",
+                                "detail": (f"« {cle} » absent de "
+                                           f"culture_alsace — {ligne[:120]}"),
+                            })
+                            continue
+                        if len(entrees) > 1:
+                            anomalies.append({
+                                "fichier": fichier.name,
+                                "type": "jointure_ambigue",
+                                "detail": (f"homonyme « {cle} » en base "
+                                           f"({[e['contexte'] for e in entrees]})"
+                                           f" — {ligne[:120]}"),
+                            })
+                            continue
+                        # contexte/region issus de la jointure (consigne
+                        # John 22/08/2026) ; les contextes de templates
+                        # de ces lignes ne sont pas repris.
+                        base_entree = entrees[0]
+                        contextes = ([base_entree["contexte"]]
+                                     if base_entree["contexte"] else [])
+                        region = base_entree["region"]
+                        type_att = "toponyme"
+                    # décision « mot » : émission normale ci-dessous
+                    # (francais = rendu verbatim, règle 1).
+                elif francais is None:
+                    anomalies.append({
+                        "fichier": fichier.name,
+                        "type": code_doute or "definition_douteuse",
+                        "detail": ligne[:120],
+                    })
                     continue
                 att = {
                     "source_code": SOURCE_CODE,
@@ -643,6 +825,18 @@ def main() -> int:
     print(f"pages sans attestation : {len(pages_sans_attestation)}")
     if pages_sans_attestation:
         print("  " + ", ".join(sorted(pages_sans_attestation)))
+
+    print("\n--- TRANCHAGE JOHN (13 lignes, décision 22/08/2026) ---")
+    for titre in TRANCHAGE:
+        ref_t = f"https://fr.wiktionary.org/wiki/{titre}#{ANCRE_GSW_FR}"
+        lignes_t = [a for a in attestations if a["reference"] == ref_t]
+        if lignes_t:
+            a = lignes_t[0]
+            print(f"  {titre} : type={a['type']} | francais={a['francais']!r}"
+                  f" | contexte={a.get('contexte', '')!r}"
+                  f" | region={a.get('region')!r}")
+        else:
+            print(f"  {titre} : NON ÉMISE (règle 3) — voir anomalies")
 
     if anomalies:
         print(f"\n--- ANOMALIES (lignes OMISES, règle 3) ---")

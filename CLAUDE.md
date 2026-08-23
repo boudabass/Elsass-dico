@@ -56,8 +56,9 @@ alsacien publié sous cette marque serait un vrai problème.
 
 - Le front n'est plus vide : login adossé à Odoo, /admin (utilisateurs),
   /contributions (proposer, corriger, voter), /admin/arbitrage (file de
-  candidats et écran d'arbitrage), / (recherche publique dans les deux sens) et
-  /entree/[id] (détail avec sources).
+  candidats et écran d'arbitrage — un onglet « Recoupées » s'y est ajouté le
+  23/08/2026, cf. « Premières entrées publiées »), / (recherche publique dans
+  les deux sens) et /entree/[id] (détail avec sources).
 - La table entrees est désormais alimentée et lue. Migration
   supabase/migrations/20260808120000_arbitrage.sql : candidats_arbitrage(),
   detail_candidat(), arbitrer_entree(), entrees_par_statut(),
@@ -570,6 +571,21 @@ qui rende une donnée visible. 166 toponymes + 3 mois (`janvier`, `juillet`,
   des 30 candidats lexicaux à 2 sources sont de faux recoupements. Le critère
   d'accord sur la forme les écarte de fait ici, mais le regroupement reste à
   revoir avant d'ouvrir le lexique général.
+
+**L'outil** (`/admin/arbitrage`, onglet « Recoupées ») ne relâche jamais la
+garde SQL, il la resserre : il n'offre en lot que les candidats dont deux
+sources écrivent la même forme, et refuse côté serveur toute clé absente du lot
+qu'il vient lui-même de recalculer. Le reste de la file s'arbitre toujours un
+par un, à l'écran de détail. `traductionsRecoupees()`
+(`src/lib/dictionnaire.ts`) porte le critère, et donc la doctrine : elle est le
+bon endroit où regarder avant de toucher au seuil.
+
+**Ce que l'onglet vide signifie.** Après publication, « Recoupées (0) » est
+l'état normal et non une panne : `candidats_arbitrage()` exclut par
+construction toute attestation déjà rattachée à une entrée, donc un lot publié
+quitte la file. Les compteurs des deux autres onglets s'affichent en « 50+ » —
+`p_limite` plafonne les RPC de liste à 50, et afficher le nombre brut ferait
+lire une taille de page comme un total.
 
 ## Règles de travail
 

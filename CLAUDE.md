@@ -203,15 +203,16 @@ Coolify self-hosted v4.1.2 sur VPS OVH. Supabase self-hosted à déployer dessus
   `elsassdico` a créé le board et les six profils `ed-*` (article 725). La
   séparation évitait qu'un profil généraliste prenne des décisions engageant la
   doctrine ; elle a tenu.
-- Prochaine étape (révisée le 10/08/2026) : **campagne dictionnaire**
-  (remplacement du dossier Dictionnaire, 7260 entrées A-D, ~50 pages —
-  archivé dans data/raw/, vient de la même source unique). La recherche
-  d'une deuxième source est terminée : trois sources retenues et ingérées
-  (`alsacien_wikipedia`, `martin_lienhart`, `wiktionnaire_fr`), cf.
-  « Campagne 2 close ». Le périmètre des GATE (quelles décisions ont
-  vraiment besoin d'une validation humaine explicite avant de continuer) est
-  à trancher en premier — décision de John en cours (10/08/2026), pas encore
-  actée ici.
+- Prochaine étape (révisée le 23/08/2026) : la recherche d'une deuxième
+  source pour le lexique général est terminée (`wiktionnaire_fr` rubrique
+  `gsw_fr`, cf. « Campagne 4 close ») — `culture_alsace` (lexique A-Z) et
+  `wiktionnaire_fr` (mots + gsw_fr) se recoupent enfin sur le vocabulaire
+  courant, pas seulement sur les toponymes/prénoms. La suite naturelle n'est
+  pas encore actée ici : soit une nouvelle campagne d'extension de source
+  (une troisième source lexicale, ou l'élargissement de `wiktionnaire_fr`/
+  `culture_alsace` à d'autres rubriques), soit un passage côté arbitrage
+  (screening des candidats désormais recoupés dans `/admin/arbitrage`), à
+  trancher avec John.
 
 ## Première ingestion (09/08/2026)
 
@@ -509,6 +510,65 @@ tout l'alphabet — elle remplace ce dossier, elle n'ajoute pas une source.
   la même deuxième source déjà utilisée pour les toponymes et prénoms
   (`alsacien_wikipedia`, `wiktionnaire_fr`) — mais pour le lexique général
   cette fois, pas encore recoupée.
+
+## Campagne 4 — deuxième source pour le lexique général, close (22-23/08/2026)
+
+**1594 attestations pour `wiktionnaire_fr` (+ 826), 0 entrée nouvelle.** La
+rubrique `gsw_fr` de la fiche source (`data/sources/wiktionnaire_fr.json`) —
+les sections `{{langue|gsw-fr}}` (« alsacien de France ») du Wiktionnaire
+francophone, distinctes des sections `{{langue|gsw}}` déjà exploitées par la
+rubrique `mots` en campagne 2 — devient la **deuxième source lexicale**
+indépendante face à `culture_alsace` (23 851 attestations, lexique A-Z,
+campagne 3), jusqu'ici seule et donc bloquée à 1 source sur N pour tout le
+vocabulaire général.
+
+- **Garde-fou toponyme par section jumelle** (décision John, GATE `t_4aa8dee1`,
+  posé avant la généralisation) : la section `gsw-fr` seule ne distingue pas
+  un nom propre d'un mot commun (`Strossburi` « Strasbourg. », `Milhüsa`
+  « Mulhouse. » — aucun motif « commune française » dans cette section-là).
+  Le parseur consulte la section `gsw` jumelle de la même page comme signal ;
+  motif présent -> `toponyme`, `francais` = définition `gsw-fr` copiée
+  verbatim ; section jumelle absente ou sans motif -> ligne omise et
+  signalée « type incertain » (règle 3, rien n'est deviné).
+- **13 lignes « type incertain » tranchées par John** (carte `t_2453a34f`,
+  22/08/2026) plutôt que laissées omises : `Milhüsa`/`Milhüse`/`Milhüüse`/
+  `Mïlhüsa` -> Mulhouse, `Strossburg` -> Strasbourg, `Gawiller` ->
+  Guebwiller, `Zàwera` -> Saverne (7 toponymes, `contexte`/`region` par
+  **jointure exacte sur le nom français déjà présent dans `culture_alsace`**,
+  jamais une traduction — même méthode que `martin_lienhart`/
+  `alsacien_wikipedia` en campagne 2) ; `Vogesa`, `Spanïa`, `Frankrïïch`,
+  `Suntiklàuis`, `Kindelesbrunnen`, `Schwyz` (6 mots — noms propres hors
+  toponyme au sens du critère de John : la rubrique toponyme vise les
+  communes/villages à code postal 67/68 déjà en base, pas n'importe quel nom
+  propre de lieu). 813 -> 826 attestations.
+- **Résultat final** : 826 attestations sur 815 pages productrices (801 mot /
+  16 prénom / 9 toponyme), 21 pages sans attestation listées au rapport
+  (règle 3). Parseur `scripts/extract/wiktionnaire_fr/gsw_fr.py`, rejeu à
+  `git diff` vide.
+- **Ingestion** (`--source wiktionnaire_fr --rubrique gsw_fr --apply`) : 0
+  créée, 826 déjà présentes — le lot avait déjà été ingéré lors d'un tour
+  GATE antérieur le jour même ; l'appel a servi de confirmation idempotente,
+  pas d'ingestion réelle.
+- **Recompte indépendant en base** (requête directe PostgREST, pas le
+  rapport du script), comme chaque campagne précédente : `wiktionnaire_fr`
+  total 1594 = 520 toponyme + 16 prénom + 1058 mot. L'écart apparent avec
+  `773 (rubrique mots, campagne 2) + 826 (gsw_fr) = 1599` s'explique
+  entièrement par **5 recouvrements internes à la même source**, entre les
+  sections `gsw` et `gsw-fr` de 5 pages (`Allumé`/`Ân`, `Ange gardien`/
+  `Schutzangel`, `Bredele`, `Crucifixion`/`Krizigung`, `Confiture`/
+  `Kumfitür`) — même clé UNIQUE `(source_id, francais, alsacien, contexte)`
+  sur les deux rubriques d'une seule et même source, absorbée sans perte de
+  la même façon que le précédent `Altenbach`/`Mulhouse`/`Eckartswiller`. Une
+  répétition intra-source n'est jamais un recoupement au sens de la règle 2 ;
+  vérifié ligne à ligne entre les deux JSONL, exactement 5 triplets
+  `(francais, alsacien, contexte)` en commun, aucun doublon interne à
+  `gsw_fr` lui-même.
+
+**Ce que ça débloque** : les formes où `culture_alsace` et `wiktionnaire_fr`
+s'accordent sur le même mot deviennent arbitrables (règle 2, 2 sources
+distinctes) — c'était l'objectif de la campagne. Rien n'est encore validé :
+`arbitrer_entree()` reste la seule porte (règle 4), réservée à un admin via
+`/admin/arbitrage`.
 
 ## Règles de travail
 

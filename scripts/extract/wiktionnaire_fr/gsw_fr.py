@@ -126,6 +126,21 @@ Schwàrzàrwaiter…) — sont OMISES et signalées « ligne_de_forme » (règle
 extrait AUCUNE ligne de forme ; un doute de traitement (forme = entrée
 lexicale ou non) se signale, il ne se tranche pas ici.
 
+VARIANTES AJOUTÉES AU FIX t_387ae26e (re-vérification t_c125b133,
+23/08/2026) : trois variantes échappaient à RE_FORME et produisaient
+8 attestations dont le francais portait du markup wikitext résiduel
+(''/''' — ce n'est PAS le texte affiché) :
+- « Pluriel de '''X''' » sans italiques autour de « Pluriel de »
+  (cible en gras) : Neschter, Maidle, Wëtterfähnle, Nelike, Ërbeere ;
+- « ''Participe passé de '' » avec espace avant la fermeture d'italique
+  (« de '' » au lieu de « de'' ») : àbg’lààda, àbglààda ;
+- « ''Troisième personne du pluriel au présent de l'indicatif de'' »
+  (sinn — la page garde sa ligne légitime « Auxiliaire être. »).
+Ces 8 lignes sont désormais omises et signalées « ligne_de_forme » :
+821 → 813 attestations ; 7 pages (àbg’lààda, àbglààda, Neschter, Maidle,
+Wëtterfähnle, Nelike, Ërbeere) rejoignent les pages sans attestation
+(27 → 34).
+
 LEMME ≠ TITRE (cas Gald du lot)
 -------------------------------
 La page « Gald » porte le lemme '''Gãld''' : le titre et le lemme peuvent
@@ -208,8 +223,24 @@ RE_TOPONYME = re.compile(
 
 # Lignes de forme (omises, règle 3 — cf. docstring) : notes « Pluriel
 # de… », « Participe passé de… » en italique, template {{variante de|…}}.
+# Variantes ajoutées au fix t_387ae26e (re-vérification t_c125b133,
+# 23/08/2026) — trois variantes échappaient à la détection et produisaient
+# des attestations avec markup wikitext résiduel (''/''') dans francais :
+#   - « Pluriel de '''X''' » sans italiques autour de « Pluriel de »
+#     (cible en gras) — 5 pages : Neschter, Maidle, Wëtterfähnle, Nelike,
+#     Ërbeere ;
+#   - « ''Participe passé de '' » avec espace avant la fermeture
+#     d'italique (« de '' » au lieu de « de'' ») — 2 pages : àbg’lààda,
+#     àbglààda ;
+#   - « ''Troisième personne du pluriel au présent de l'indicatif de'' »
+#     — sinn (l'apostrophe de « l'indicatif » est U+2019 dans le brut,
+#     la classe ['’] couvre les deux graphies).
 RE_FORME = re.compile(
-    r"\{\{variante de\||''(?:Pluriel de|Participe passé de|pluriel de)''")
+    r"\{\{variante de\|"
+    r"|''(?:Pluriel de|Participe passé de|pluriel de)''"
+    r"|''Participe passé de ''"
+    r"|Pluriel de '''"
+    r"|''Troisième personne du pluriel au présent de l['’]indicatif de''")
 
 RE_TITRE_GSW_FR = re.compile(r"^== \{\{langue\|gsw-fr\}\} ==\n", re.M)
 RE_TITRE_GSW = re.compile(r"^== \{\{langue\|gsw\}\} ==\n", re.M)

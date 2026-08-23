@@ -1,6 +1,6 @@
 # Elsass Dico
 
-Traducteur français/alsacien, publié sur dico.theelsassisch.fr, adossé à la
+Traducteur français/alsacien, publié sur elsass-dico.theelsassisch.fr, adossé à la
 marque The Elsassisch. La crédibilité linguistique est critique : du faux
 alsacien publié sous cette marque serait un vrai problème.
 
@@ -158,7 +158,10 @@ Coolify self-hosted v4.1.2 sur VPS OVH. Supabase self-hosted à déployer dessus
   Coolify lui-même, pas par GitHub Actions). SUPABASE_SERVICE_ROLE_KEY reste
   une variable runtime Coolify uniquement, jamais marquée disponible au
   build.
-- Domaine : dico.theelsassisch.fr
+- Domaine (corrigé le 23/08/2026) : **elsass-dico.theelsassisch.fr**, seul FQDN
+  déclaré par l'application Coolify `elsass-dico:main-utdpj1qsxnn954id84t28rha`.
+  L'ancien `dico.theelsassisch.fr`, inscrit ici jusqu'à cette date, répond 503 —
+  un 503 sur cette URL n'est donc pas une panne du site.
 - Authentification (06/08/2026) : Odoo est l'autorité sur les mots de passe,
   Supabase reste l'autorité sur les sessions et les rôles. Le login vérifie
   les identifiants portail via un POST JSON-RPC sur

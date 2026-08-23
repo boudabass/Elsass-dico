@@ -38,6 +38,16 @@ function cleDe(c: { cle: string; contexte: string }) {
   return `${c.cle}|${c.contexte}`;
 }
 
+// listerCandidats() et listerEntrees() plafonnent à 50 (p_limite du RPC). Une
+// liste pleine signale donc « au moins 50 », jamais « exactement 50 » : afficher
+// le nombre brut ferait lire une taille de page comme un total — 169 entrées
+// s'affichaient « 50 ». L'onglet Recoupées n'est pas concerné, il pagine
+// jusqu'à épuisement.
+const PAGE_RPC = 50;
+function compteur(n: number) {
+  return n >= PAGE_RPC ? `${PAGE_RPC}+` : `${n}`;
+}
+
 export default function FileArbitragePage() {
   const { user, role, isLoading } = useAuth();
   const [terme, setTerme] = useState("");
@@ -136,8 +146,8 @@ export default function FileArbitragePage() {
       <Tabs defaultValue="recoupes">
         <TabsList>
           <TabsTrigger value="recoupes">Recoupées ({recoupes.length})</TabsTrigger>
-          <TabsTrigger value="candidats">File d&apos;arbitrage ({candidats.length})</TabsTrigger>
-          <TabsTrigger value="entrees">Entrées existantes ({entrees.length})</TabsTrigger>
+          <TabsTrigger value="candidats">File d&apos;arbitrage ({compteur(candidats.length)})</TabsTrigger>
+          <TabsTrigger value="entrees">Entrées existantes ({compteur(entrees.length)})</TabsTrigger>
         </TabsList>
 
         <TabsContent value="recoupes" className="mt-4 space-y-4">

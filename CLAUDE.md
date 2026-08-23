@@ -513,6 +513,64 @@ tout l'alphabet — elle remplace ce dossier, elle n'ajoute pas une source.
   (`alsacien_wikipedia`, `wiktionnaire_fr`) — mais pour le lexique général
   cette fois, pas encore recoupée.
 
+## Premières entrées publiées (23/08/2026)
+
+**169 entrées `statut='valide'`, 342 liens `entree_attestations`.** Le
+dictionnaire affiche enfin quelque chose : après quatre campagnes de collecte,
+c'est le premier franchissement de l'étape `attestations -> entrees`, la seule
+qui rende une donnée visible. 166 toponymes + 3 mois (`janvier`, `juillet`,
+`juin`), tous à 2 attestations, tous signés (`valide_le`, `valide_par`).
+
+- **Deux notions de recoupement, longtemps confondues.** `arbitrer_entree()`
+  compte des `source_id` distincts ; la doctrine demande que les sources
+  **s'accordent sur la même forme alsacienne**. Sur les candidats à 2 sources :
+  629 passent la garde SQL, mais **169 seulement** voient leurs sources écrire
+  la même forme. Les 460 autres divergent (`Range`/`Rànge`,
+  `Riaschpa`/`Rieschbi`, `Ewerburnhaipt`/`Ewer-Burnhäuipt`) et relèvent du
+  « Divergence entre sources = entrée marquée pour arbitrage manuel » de la
+  doctrine éditoriale : choisir la forme canonique **est** l'arbitrage, ça ne
+  part pas en lot. La garde SQL n'a pas été touchée — c'est l'interface qui est
+  plus stricte qu'elle, jamais l'inverse.
+- **`TYPES_TERME` ignorait `toponyme` et `prenom`**, pourtant ajoutés à l'enum
+  par la migration `20260808140000`. Comme `estTypeTermeValide()` garde
+  `arbitrerAction()`, **arbitrer une commune échouait sur « Type inconnu »**, y
+  compris une par une. Le blocage était dur et invisible : il n'apparaissait
+  qu'à la première tentative d'arbitrage, comme le retard de migration du
+  09/08 et le bug de schéma du 10/08 n'apparaissaient qu'à la première
+  écriture. **Rien ne signale une désynchronisation enum SQL / constante TS.**
+- **La clé `service_role` ne peut pas arbitrer.** `is_admin()` lit `auth.uid()`,
+  absent d'une clé de service : `candidats_arbitrage()` et `arbitrer_entree()`
+  répondent « Arbitrage réservé aux administrateurs ». Pré-remplir `entrees`
+  depuis un script aurait imposé un `INSERT` direct, contournant la fonction de
+  garde. D'où le choix inverse : `arbitrerLotAction()` fait tourner la session
+  admin de John, et la garde s'exécute réellement 169 fois. La règle 4 reste
+  une barrière technique.
+- **La forme publiée est toujours copiée verbatim d'une attestation** (règle 1).
+  La ponctuation finale de `culture_alsace` (`Jüli.` contre `Jüli`) est ignorée
+  pour *comparer* deux formes, jamais réécrite : quand une source écrit la forme
+  sans point, c'est cette graphie-là qui est retenue ; sinon la forme attestée
+  part telle quelle, point compris. Vérifié sur les 629 candidats réels avant
+  publication — zéro forme publiée que personne n'ait écrite.
+- **Vérification**, comme à chaque campagne, recomptée en base et non prise au
+  rapport de l'action : 169 entrées, toutes `valide`, `nb_attestations >= 2`
+  partout, 342 liens de traçabilité. Puis contrôle de l'affichage **avec la clé
+  anonyme** et non la clé de service : `rechercher_entrees()` rend
+  `Benfeld -> Banfald`, le sens inverse (`Banfald -> Benfeld`) fonctionne via
+  `entrees.alsacien_recherche`, `sources_entree()` expose bien les deux
+  sources, et `GET /attestations` rend 0 ligne à un visiteur — le brut ne fuite
+  pas.
+- **Le reste du stock demeure bloqué.** 26 309 candidats au total, dont
+  ~26 000 à source unique : `arbitrer_entree()` continuera de les refuser sans
+  note d'arbitrage. Publier davantage suppose soit une source de plus, soit un
+  arbitrage manuel candidat par candidat.
+- **Piège relevé, non traité** : `candidats_arbitrage()` regroupe sur
+  `immutable_unaccent(lower(btrim(francais)))`, donc `unaccent` fusionne des
+  mots français différents — `classé` (culture_alsace, « unter Dankmolschutz »)
+  avec `Classe` (wiktionnaire, « Klassa »), `affairé` avec `Affaire`. Plusieurs
+  des 30 candidats lexicaux à 2 sources sont de faux recoupements. Le critère
+  d'accord sur la forme les écarte de fait ici, mais le regroupement reste à
+  revoir avant d'ouvrir le lexique général.
+
 ## Règles de travail
 
 - Ne jamais inventer de traduction alsacienne, même pour un exemple ou un test.

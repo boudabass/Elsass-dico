@@ -1,0 +1,9 @@
+{{voir|frinde}}
+
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|nom|gsw-fr}} ===
+'''Frinde'''
+# [[ami|Ami]]

@@ -1,0 +1,21 @@
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|nom|gsw-fr}} ===
+{{gsw-fr-nom-f}}
+'''Käschtena''' {{pron||gsw-fr}} {{f}} {{invariable}}
+# {{fruits|gsw-fr}} {{Région mulhousienne|gsw-fr}} [[châtaigne|Châtaigne]], [[marron]].
+#* {{exemple|lang=gsw-fr}}
+
+==== {{S|variantes}} ====
+* [[Käschtana]]
+
+==== {{S|synonymes}} ====
+* [[Kescht]]
+
+=== {{S|prononciation}} ===
+{{ébauche-pron-audio|gsw-fr}}
+
+=== {{S|références}} ===
+* ''[https://www.alsatext.eu/vocabulaire_alsacien_Mulhouse.pdf Vocabulaire alsacien : Région de Mulhouse]'', www.alsatext.eu, 2024

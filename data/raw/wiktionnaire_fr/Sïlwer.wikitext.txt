@@ -1,0 +1,12 @@
+{{vérifier création automatique||gsw-fr}}
+{{voir|sïlwer|silwer}}
+
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|nom|gsw-fr}} ===
+'''Sïlwer'''
+# [[argent|Argent]] (métal)
+
+{{clé de tri|silwer}}

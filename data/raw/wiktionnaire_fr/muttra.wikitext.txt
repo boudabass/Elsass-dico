@@ -1,0 +1,19 @@
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|verbe|gsw-fr}} ===
+'''muttra'''
+# [[ronchonner|Ronchonner]], [[grogner]]
+
+== {{langue|sv}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|sv}}
+
+=== {{S|verbe|sv}} ===
+{{sv-conj-ar}}
+'''muttra''' {{pron||sv}}
+# [[marmonner|Marmonner]].
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=sv||audio=Sv-muttra.ogg}}

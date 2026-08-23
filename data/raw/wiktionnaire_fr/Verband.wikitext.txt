@@ -1,0 +1,289 @@
+{{voir|verband}}
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: {{siècle|XVIII}}. Substantivation du verbe ''[[verbinden#de|verbinden]]'', {{composé de|ver-|binden|sens1=|sens2=attacher|sens=relier, joindre, associer, combiner|lang=de}}, avec le sens d'« association » depuis le {{siècle2|XIX}}<ref>{{source|Dudenredaktion : Duden, Le dictionnaire des origines. ''Etymologie der deutschen Sprache''. Dans  ''Le Duden en 12 volumes. 5.'' Volume 7, éditions Duden, Berlin/Mannheim/Zürich 2013, ISBN 978-3-411-04075-9, mot-clé : binden.}}</ref>.
+
+=== {{S|nom|de}} ===
+{{de-nom-m-s-e|fɛɐ̯ˈbant|fɛɐ̯ˈbɛndə|ns=Verband|np=Verbände|gs2=Verbandes|ds2=Verbande}}
+'''Verband''' {{m}} {{pron|fɛɐ̯ˈbant|de}}
+# [[association|Association]], [[ligue]], [[fédération]].
+#* {{exemple|lang=de}}
+# {{lexique|militaire|de}} [[unité|Unité]].
+#* {{exemple|lang=de}}
+# {{lexique|médecine|de}} [[bandage|Bandage]].
+#* {{exemple|lang=de}}
+# {{lexique|architecture|maçonnerie|de}} [[appareil|Appareil]].
+#* {{exemple|lang=de}}
+
+==== {{S|synonymes}} ====
+''Association :''
+* [[Liga]] (''ligue'')
+* [[Verein]] (''association'')
+''Unité : ''
+* [[Einheit]] (''section'')
+
+==== {{S|dérivés}} ====
+{{(|&nbsp;}} 
+* [[Abwasserverband]] 
+* [[Akademikerverband]] 
+* [[Anwaltsverband]] 
+* [[Apothekerverband]] 
+* [[Arbeitgeberverband]] (''syndicat patronal'')
+* [[Arbeitnehmerverband]] (''association de travailleurs'')
+* [[Automatenverband]] 
+* [[Bankenverband]] 
+* [[Basketballverband]] (''fédération de basket'')
+* [[Bauernverband]] 
+* [[Bauindustrieverband]] (''syndicat patronal du secteur de la construction'')
+* [[Behindertenverband]] 
+* [[Berufsverband]] (''association professionnelle'')
+* [[Bezirksverband]] 
+* [[Bibliotheksverband]] 
+* [[Blindenverband]] 
+* [[Bomberverband]] 
+* [[Boxverband]] (''fédération de boxe'')
+* [[Branchenverband]] 
+* [[Bundesverband]] (''association fédérale'')
+* [[Bundeswehrverband]] 
+* [[Dachverband]] (''fédération''), (''confédération'')
+* [[Dachziegelverband]]
+* [[Deichverband]] (''association de propriétaires de digues'')
+* [[Druckverband]] (''bandage compressif'')
+* [[Einzelhandelsverband]] 
+* [[Eisenbahnverband]] 
+* [[Extensionsverband]]
+* [[Fachverband]] (''association professionnelle'')
+* [[Fahrgastverband]] 
+* [[Familienverband]] (''association familiale'')
+* [[Fechtverband]] (''fédération d'escrime'')
+* [[Fensterverband]]
+* [[Feuerwehrverband]] (''association de pompiers'')
+* [[Fliegerverband]] 
+* [[Flottenverband]] (''flotte'')
+* [[Frauenverband]] 
+* [[Fremdenverkehrsverband]] 
+* [[Fürsorgeverband]] 
+* [[Fußballverband]] (''fédération de football'')
+* [[Gaststättenverband]] 
+* [[Gehverband]] 
+* [[Gemeindeverband]]
+* [[Genossenschaftsverband]] (''association de coopératives'')
+* [[Gesamtverband]] 
+* [[Gewerbeverband]] 
+* [[Gewerkschaftsverband]] (''confédération syndicale'')
+* [[Gipsverband]] (''plâtre'')
+* [[Giroverband]] 
+* [[Großhandelsverband]] 
+* [[Großverband]]
+* [[Gruppenverband]] 
+* [[Handballverband]] (''fédération de handball'')
+* [[Handelsverband]] (''association commerciale'')
+* [[Hauptverband]] 
+* [[Herrschaftsverband]] 
+* [[Hochschulverband]] 
+* [[Holzverband]] 
+* [[Industrieverband]] 
+* [[Interessenverband]], [[Interessensverband]]
+* [[Islamverband]] 
+* [[Jagdverband]]
+* [[Journalistenverband]] (''association de journalistes'')
+* [[Judoverband]] (''fédération de judo'')
+* [[Jugendverband]] 
+* [[Kampfverband]] (''formation de combat'')
+* [[Kartellverband]] 
+* [[Kinoverband]] 
+* [[Klassenverband]] 
+* [[Klebeverband]] (''pansement adhésif'')
+* [[Kommunalverband]] 
+* [[Kompressionsverband]]
+* [[Kontentivverband]]
+* [[Kopfverband]] (''bandage de tête'')
+* [[Kornährenverband]] 
+* [[Kreisverband]] (''fédération de district''), (''fédération de l'arrondissement'')
+* [[Kreuzverband]] (''bandage croisé'')
+* [[Künstlerverband]] 
+* [[Länderverband]] 
+* [[Landesverband]] (''section du Land''), (''fédération nationale'')
+* [[Landeswohlfahrtsverband]] 
+* [[Landschaftsverband]] 
+* [[Lehrerinnenverband]]
+* [[Lehrerverband]] 
+* [[Leichtathletikverband]] (''fédération d'athlétisme'')
+* [[Ligaverband]] 
+* [[Mauerverband]]
+* [[Metallarbeiterverband]] 
+* [[Mieterverband]] 
+* [[Mitgliedsverband]] 
+* [[Monopolverband]] 
+* [[Musikverband]] 
+* [[Nachbarschaftsverband]] 
+* [[Nationalverband]] 
+* [[Naturschutzverband]] 
+* [[Notverband]] (''pansement provisoire''), (''bandage d'urgence'')
+* [[Okklusivverband]] 
+* [[Opferverband]] 
+* [[Ortsverband]] 
+* [[Panzerverband]] (''groupe de blindés'')
+* [[Partisanenverband]] (''groupe de partisans''), (''fédération de partisans'')
+* [[Pensionistenverband]] 
+* [[Personalverband]] 
+* [[Philologenverband]] 
+* [[Planungsverband]]
+* [[Planungsverband]] 
+* [[Pressverband]] 
+* [[Provinzialverband]] 
+* [[Radsportverband]] (''fédération de cyclisme'')
+* [[Raiffeisen-Verband]] 
+* [[Regionalverband]] 
+* [[Rucksackverband]] 
+* [[Ruderverband]] (''fédération d'aviron'')
+* [[Schaustellerverband]] (''association de forains'')
+* [[Schiverband]]
+* [[Schlauchverband]] 
+* [[Schnellverband]] 
+* [[Schriftstellerverband]] (''association d'écrivains'')
+* [[Schubverband]] 
+* [[Schulverband]] 
+* [[Schutzverband]]
+* [[Schwimmverband]] (''fédération de natation'')
+* [[Schwulenverband]] 
+* [[Sippenverband]] 
+* [[Skiverband]] (''fédération de ski'')
+* [[Sozialverband]] 
+* [[Sparkassenverband]] 
+* [[Spitzenverband]] (''confédération'')
+* [[Sportverband]] (''fédération sportive'')
+* [[Staatenverband]] 
+* [[Staatsverband]] 
+* [[Stadtverband]] 
+* [[Stammesverband]] (''association de tribus'')
+* [[Streckverband]] (''pansement extenseur'')
+* [[Studentenverband]] 
+* [[Studierendenverband]] 
+* [[Stützverband]] 
+* [[Tapeverband]], [[Tape-Verband]] (''bandage adhésif'')
+* [[Tennisverband]] (''fédération de tennis'')
+* [[Tourismusverband]]  
+* [[Truppenverband]] (''troupe''), (''unité'')
+* [[Turnverband]] (''fédération de gymnastique'')
+* [[Umlandverband]]
+* [[Umweltschutzverband]] (''association environnementale'')
+* [[Umweltverband]] 
+* [[Unternehmerverband]] 
+* [[verbandeln]] (''accoupler'')
+* [[Verbändestaat]]
+* [[Verbändevertreter]]
+* [[Verbandkasten]] (''trousse de secours'')
+* [[Verbandkissen]], [[Verbandskissen]] (''coussin hémostatique d'urgence'')
+* [[Verbandsklage]] (''action en justice d'une association''), (''action en justice d'un groupement'')
+* [[Verbandklammer]]
+* [[verbandlich]]
+* [[Verbandmaterial]] (''pansements'')
+* [[Verbandmull]]
+* [[Verbandpäckchen]], [[Verbandspäckchen]] 
+* [[Verbandplatz]], [[Verbandsplatz]] 
+* [[Verbandraum]], [[Verbandsraum]] (''salle de pansement'')
+* [[Verbandsabzeichen]]
+* [[Verbandsangelegenheiten]] (''affaires relative à l'association'')
+* [[Verbandsarbeit]]
+* [[Verbandschef]]
+* [[Verbandschere]] (''ciseaux à pansements'')
+* [[Verbandsdirektor]]
+* [[Verbandsebene]]
+* [[Verbandsflug]]
+* [[Verbandsführung]]
+* [[Verbandsfunktionär]]
+* [[Verbandsgemeinde]]
+* [[verbandsintern]]
+* [[Verbandskasse]]
+* [[Verbandskasten]]
+* [[Verbandsklage]]
+* [[Verbandsklammer]]
+* [[Verbandsleben]]
+* [[Verbandsleiter]]
+* [[Verbandsleitung]]
+* [[Verbandsliga]]
+* [[Verbandsmaterial]]
+* [[Verbandsmeister]]
+* [[Verbandsmitglied]]
+* [[Verbandsmull]]
+* [[Verbandsorgan]]
+* [[Verbandspäckchen]] (''paquet de bandages'')
+* [[Verbandsplatz]] (''poste de secours'')
+* [[Verbandspolitik]]
+* [[Verbandspresse]]
+* [[Verbandsrechner]]
+* [[Verbandsrecht]] (''droit des associations''), (''droit des groupements'')
+* [[Verbandsschere]]
+* [[Verbandssekretär]]
+* [[Verbandsspiel]]
+* [[Verbandsspitze]]
+* [[Verbandssprecher]]
+* [[Verbandsstoff]]
+* [[Verbandsstrafe]]
+* [[Verbandstasche]]
+* [[Verbandstoff]]
+* [[Verbandstrafe]]
+* [[Verbandstrainer]]
+* [[Verbandsübereinkunft]] (''convention entre groupements'')
+* [[Verbandsversammlung]]
+* [[Verbandsvertreter]]
+* [[Verbandsvorsitzende]]
+* [[Verbandsvorstand]]
+* [[Verbandswatte]], [[Verbandwatte]] (''coton hydrophile'')
+* [[Verbandswechsel]]
+* [[Verbandswechsel]]
+* [[Verbandswesen]]
+* [[Verbandszeichen]]
+* [[Verbandszeitschrift]]
+* [[Verbandszeitung]]
+* [[Verbandszeug]], [[Verbandzeug]] (''pansements'')
+* [[Verbandszimmer]]
+* [[Verbandtasche]]
+* [[Verbandwechsel]]
+* [[Verbandwechsel]]
+* [[Verbandzimmer]]
+* [[Verbraucherverband]] 
+* [[Verkehrsverband]] 
+* [[Verlegerverband]] 
+* [[Vertriebenenverband]] (''association d'expulsés'')
+* [[Wählerverband]] 
+* [[Währungsverband]]
+* [[Wehrmachtsverband]] 
+* [[Wehrverband]] (''association de défense'')
+* [[Weltverband]] (''fédération internationale''), (''association internationale'')
+* [[Wirtschaftsverband]] (''association économique''), (''groupement économique'')
+* [[Wohlfahrtsverband]] (''association caritative'')
+* [[Wundverband]] 
+* [[Zellverband]] 
+* [[Zentralverband]] 
+* [[Zerstörerverband]] (''flotte de destroyers'')
+* [[Zinkleimverband]]
+* [[Zollverband]] 
+* [[Zugverband]]
+* [[Zweckverband]] (''groupement d'intérêt public'')
+{{)}}
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=de|{{AT|nocat=1}}|audio=De-at-Verband.ogg}}
+* {{écouter||fɛɐ̯ˈbant|lang=de|audio=De-Verband.ogg}}
+* {{écouter|Mulhouse (France)||niveau=bon|lang=de|audio=LL-Q188 (deu)-Mathieu Kappler-Verband.wav}}
+
+=== {{S|références}} ===
+{{Références}}
+==== {{S|sources}} ====
+* {{R:DWDS|Verband}}
+* {{R:Duden|Verband}} 
+* {{Source-wikt|de|Verband}}
+==== {{S|bibliographie}} ====
+* Larousse - dictionnaire Allemand/Français - Français/Allemand, éd. 1958, p 734.
+* Harrap’s  de poche – Bordas dictionnaire Allemand/Français, éd. 1997, ISBN 0-245-50308-0, p 312.
+
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|nom|gsw-fr}} ===
+'''Verband'''
+# [[syndicat|Syndicat]], [[association]]

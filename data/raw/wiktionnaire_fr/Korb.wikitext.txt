@@ -1,0 +1,214 @@
+{{voir|korb}}
+
+== {{langue|fr}} ==
+{{ébauche|fr}}
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|fr}}
+
+=== {{S|nom propre|fr}} ===
+{{fr-inv||inv_titre=Nom propre}}
+'''Korb''' {{pron||fr}}
+# {{localités|fr|d’Allemagne}} [[commune|Commune]] d’[[Allemagne]], située dans le [[Bade-Wurtemberg]].
+
+==== {{S|traductions}} ====
+{{trad-début|}}
+
+{{trad-fin}}
+
+=== {{S|anagrammes}} ===
+{{voir anagrammes|fr}}
+
+=== {{S|voir aussi}} ===
+* {{WP}}
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: {{siècle|IX}}. Du {{étyl|gmh|de|mot=korp}}, du {{étyl|gml|de|mot=korf}}, du {{étyl|goh|de|mot=korb}}, issu du {{étyl|la|de|mot=corbis}}. Apparenté au moyen néerlandais {{lien|''corf''|dum}}, ''[[curf]]'' et au néerlandais {{lien|''korf''|nl}}<ref> {{source|Wolfgang {{pc|Pfeifer}}, ''Etymologisches Wörterbuch des Deutschen'', Éditions Deutscher Taschenbuch, 1997, ISBN-13: 978342-3325110 }} </ref>.
+
+=== {{S|nom|de}} ===
+{{de-nom-m-s-e|gs2=Korbes|np=Körbe}}
+'''Korb''' {{pron|kɔʁp|de}} {{m}}
+# [[panier|Panier]], [[corbeille]].
+#* {{exemple|Sie brachte ihrer Großmutter einen '''Korb''' Äpfel.|sens=Elle a apporté un panier / une corbeille de pommes à sa grand-mère.|lang=de}} 
+#* {{exemple|(Für die Ernte) werden unter den Olivenbäumen große Netze ausgelegt. (...) Die Oliven fallen dann sanft auf die aufgespannten Netze und können in '''Körbe''' oder Säcke gefüllt werden.|lang=de|sens=(Pour la récolte), de grands filets sont étendus sous les oliviers. (...) Les olives tombent alors doucement sur les filets tendus et peuvent être recueillies dans des paniers ou des sacs.|source={{périodique|auteur=|titre=Ernte und Herstellung von Olivenöl|journal=Oelea Olivenöl GmbH|date=28 octobre 2025|texte=https://www.oelea.de/olivenoel-herstellung-und-ernte}}}}
+# {{lexique|sports de balle|de}} [[panier|Panier]] (au basket).
+#* {{exemple|Einen '''Korb''' erzielen / schießen.|sens=Réussir / marquer un panier.|lang=de}}
+# {{familier|de}} [[refus|Refus]], [[rebuffade]].
+#* {{exemple|Sie hat ihm einen '''Korb''' gegeben.|sens=elle l'a envoyé promener.|lang=de}}
+#* {{exemple|Ich habe einen '''Korb''' bekommen / gekriegt.|sens=Je me suis fait envoyer sur les roses.|lang=de}}
+# {{lexique|construction|de}} [[fascine|Fascine]].
+#* {{exemple|lang=de}}
+# {{lexique|escrime|de}} [[coquille|Coquille]] du sabre.
+#* {{exemple|lang=de}}
+
+==== {{S|synonymes}} ====
+* {{lien|Faschine|de}}
+* {{lien|Beförderungskorb|de}}
+* {{lien|Fahrkorb|de}}
+* {{lien|Förderkorb|de}}
+* {{lien|Bienenkorb|de}}
+* {{lien|Fangkorb|de}}
+* {{lien|Fechtmaske|de}}
+* {{lien|Glocke|de}}
+
+==== {{S|hyponymes}} ====
+{{(|}}
+* {{lien|Aalkorb|de|sens=nasse à anguilles}}
+* {{lien|Abfallkorb|sens=corbeille de rue », « corbeille d'extérieur}}
+* {{lien|Apfelkorb|de}} (''panier à pommes'')
+* {{lien|Bastkorb|de}}
+* {{lien|Brotkorb|sens=corbeille à pain », « panière}}
+* {{lien|Brustkorb|de|sens=cage thoracique}}
+* {{lien|Drahtkorb|de|sens=panier en fils métalliques}}
+* {{lien|Einkaufskorb|de|sens=panier à provisions}}
+* {{lien|Fresskorb|de}}
+* {{lien|Handarbeitskorb|sens=corbeille à couture », « corbeille à ouvrage}}
+* {{lien|Maulkorb|de|sens=muselière}}
+* {{lien|Obstkorb|de|sens=corbeille à fruits}}
+* {{lien|Papierkorb|sens=corbeille à papier », « corbeille de PC}}
+* {{lien|Picknickkorb|de|sens=panier de pique-nique}}
+* {{lien|Präsentkorb|sens=panier garni », « panier gourmand}}
+* {{lien|Proviantkorb|de}}
+* {{lien|Schleifkorb|de}}
+* {{lien|Schlüsselkorb|de|sens=corbeille à clés}}
+* {{lien|Spankorb|de|sens=corbeille en copeaux de bois}}
+* {{lien|Strandkorb|sens=corbeille de plage », « fauteuil-cabine de plage en osier}}
+* {{lien|Warenkorb|sens=panier de la ménagère », « panier à courses}}
+* {{lien|Wäschekorb|de}} ou {{lien|Waschkorb|sens=corbeille à linge », « panier à linge}}
+* {{lien|Fahrkorb|de}}
+{{)}}
+
+==== {{S|vocabulaire}} ====
+* {{lien|Reuse|de}}
+
+==== {{S|diminutifs}} ====
+* [[Körbchen]] (''petite corbeille''), (''capitule''), (''bonnet'')
+* {{lien|Körblein|de|sens=petite corbeille}}
+
+==== {{S|antonymes}} ====
+* {{lien|Tasche|sens=sac », « poche}}
+
+==== {{S|dérivés}} ====
+{{(|&nbsp;}}
+* {{lien|Ablagekorb|de}}
+* {{lien|Arbeitskorb|de}}
+* {{lien|Babykorb|de}}
+* {{lien|Baggerkorb|de}}
+* {{lien|Beförderungskorb|de}}
+* {{lien|Beißkorb|de|sens=muselière}}
+* {{lien|Besteckkorb|de|sens=panier à couverts}}
+* {{lien|Bienenkorb|de|sens=ruche en paille}}
+* {{lien|Binsenkorb|de}}
+* {{lien|Blumenkorb|de}}
+* {{lien|Brötchenkorb|de|sens=corbeille à petits pains}}
+* {{lien|Deckelkorb|de|sens=panier à couvercle}}
+* {{lien|Degenkorb|de}}
+* {{lien|Eierkorb|de}}
+* {{lien|Einholekorb|de}}
+* {{lien|Einholkorb|de}}
+* {{lien|Essenkorb|de|sens=panier-repas}}
+* {{lien|Fahrerkorb|de}} ou {{lien|Fahrkorb|de}}
+* {{lien|Fangkorb|de}}
+* {{lien|Feldkorb|de}}
+* {{lien|Flickkorb|de}}
+* {{lien|Förderkorb|de}}
+* {{lien|Fruchtkorb|de|sens=corbeille à fruits}}
+* {{lien|Frühstückskorb|de}}
+* {{lien|Habichtskorb|de}}
+* {{lien|Handkorb|de}}
+* {{lien|Henkelkorb|de|sens=panier à anse}}
+* {{lien|Holzkorb|sens=panier à bûches », « panier à bois}}
+* {{lien|Kartoffelkorb|de}}
+* {{lien|Kinderkorb|de}}
+* {{lien|Korbball|sens=basket-ball », « basketball}}
+* {{lien|Korbballspiel|de}}
+* {{lien|Korbblüte|de}}
+* {{lien|Korbblütengewächs|de|sens=Astéracées}}
+* {{lien|Korbblütler|de}} ou {{lien|Körbchenblütler|de|sens= Astéracées}}
+* {{lien|Korbdeckel|de}}
+* {{lien|Korbdegen|de}}
+* {{lien|Korber|de}}
+* {{lien|körbeweise|de}}
+* {{lien|Korbflasche|de|sens=bouteille enveloppée d'osier}}
+* {{lien|Korbflechter|de}}
+* {{lien|Korbgeflecht|de|sens=tressage en corbeille}}
+* {{lien|Korbjäger|de|sens=chasseur de paniers (au basket-ball)}}
+* {{lien|Korbkinderwagen|de|sens=poussette en osier}}
+* {{lien|Korbleger|de}}
+* [[Korbmacher]] (''vannier''), [[Korbmacherin]] (''vannière'')
+* {{lien|Korbmacherei|de|sens=vannerie}}
+* {{lien|Korbmöbel|de|sens=meuble en osier}}
+* {{lien|Korbraum|de}}
+* {{lien|Korbreuse|de}}
+* {{lien|Korbschütze|de|sens=tireur au panier (au basket-ball)}}
+* {{lien|Korbsessel|de|sens=fauteuil en osier}}
+* {{lien|Korbstuhl|de|sens=chaise en osier}}
+* {{lien|Korbtisch|de|sens=table en osier}}
+* {{lien|Korbtrage|de}}
+* {{lien|Korbwagen|de|sens=pousette en osier}}
+* {{lien|Korbware|de|sens=objet en vannerie}}
+* {{lien|Korbweide|de}}
+* {{lien|korbweise|de}} ou {{lien|körbeweise|sens=en panier », « en quantité mesurée en paniers}}
+* {{lien|Korbwurf|de|sens=tir au panier (au basket-ball}}
+* {{lien|Liegekorb|de}}
+* {{lien|Marktkorb|de}}
+* {{lien|Mastkorb|de}}
+* {{lien|Nähkorb|de|sens=corbeille à couture}}
+* {{lien|Pflückkorb|de|sens=panier de jardin}}
+* {{lien|Reisekorb|de}}
+* {{lien|Rückenkorb|de|sens=hotte}}
+* {{lien|Säbelkorb|de}}
+* {{lien|Saugkorb|de}}
+* {{lien|Schanzkorb|de}}
+* {{lien|Schließkorb|de}}
+* {{lien|Selbstbedienungskorb|de|sens=panier en libre-service}}
+* {{lien|Sitzkorb|de}}
+* {{lien|Stopfkorb|de}}
+* {{lien|Strohkorb|de}}
+* {{lien|Tragekorb|de}} ou {{lien|Tragkorb|de}}
+* {{lien|Vorratskorb|de}}
+* {{lien|Währungskorb|de}}
+* {{lien|Weidenkorb|de}}
+{{)}}
+
+==== {{S|hyperonymes}} ====
+* {{lien|Behälter|de}}
+
+==== {{S|phrases}} ====
+* {{lien|Hahn im Korb|de}}
+* {{lien|alle Eier in einen Korb legen|de}}
+* {{lien|einen Korb bekommen|de}}
+* {{lien|einen Korb erhalten|de}}
+* {{lien|einen Korb geben|de}}
+* {{lien|einen Korb kassieren|de}}
+* {{lien|einen Korb kriegen|de}}
+* {{lien|nicht alle Eier in einen Korb legen|de}}
+* {{lien|sich einen Korb abholen|de}}
+* {{lien|sich einen Korb holen|de}}
+
+=== {{S|prononciation}} ===
+* {{écouter|Berlin (Allemagne)|kɔʁp|lang=de|audio=De-Korb.ogg}}
+
+=== {{S|références}} ===
+{{Références}}
+
+==== {{S|sources}} ====
+* {{R:DWDS|Korb}}
+* {{R:Duden|Korb}} 
+* {{Source-wikt|de|Korb}}
+
+==== {{S|bibliographie}} ====
+* Larousse - Dictionnaire allemand/français – français/allemand , éd. 1958, p 569.
+* Harrap’s  de poche – Bordas Dictionnaire allemand/français, éd. 1997, ISBN 0-245-50308-0, p 176.
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=de}}
+
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|de|gsw-fr|mot=Korb}}.
+
+=== {{S|nom|gsw-fr}} ===
+'''Korb''' ({{p}} : [[Kerb]])
+# [[panier|Panier]].

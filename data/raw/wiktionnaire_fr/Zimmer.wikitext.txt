@@ -1,0 +1,314 @@
+{{voir/zimmer}}
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: {{siècle|VIII}}. Du {{étyl|gmh|de|mot=zimber}}, ''[[zimer]]'', ''[[zimmer]]'', du {{étyl|goh|de|mot=zimbar|sens=bois de construction, construction en bois, habitation, logement}}, des {{étyl|gem|de|mot=*temra-}}<ref>{{source|Friedrich {{pc|Kluge}}, Elmar {{pc|Seebold}} : ''Etymologisches Wörterbuch der deutschen Sprache. 24.'', édition revue et augmentée. Éditeur Walter de Gruyter, Berlin/New York 2001, ISBN 978-3-11-017473-1, DNB 965096742, mot-clé: „Zimmer“, page 1012}}.</ref> ; apparenté à l’{{étyl|en|de|timber|nocat=1}}, au {{étyl|sv|de|timmer|nocat=1}} et au {{étyl|no|de|tømmer|nocat=1}}. Le sens ancien « bois de construction » se retrouve dans p. ex. dans {{l|''Zimmerer''|de|sens=[[charpentier]]}}.
+
+=== {{S|nom|de}} ===
+{{de-nom-n}}
+'''Zimmer''' {{pron|ˈt͡sɪmɐ|de}} {{n}}
+# {{lexique|habitat|de}} [[chambre|Chambre]].
+#* {{exemple|Das '''Zimmer''' befindet sich im Obergeschoss.|sens=La chambre se trouve à l'étage.|lang=de}}
+#* {{exemple|Noch später gehen sie zu Kostja und schließen sich in sein '''Zimmer''' ein, um weiterzutrinken – woraufhin dessen Mutter, eine Kriegswitwe, sich empört und zu jammern beginnt. »Halt’s Maul, alte Sau«, antwortet ihr der Sohn galant durch die Tür, »sonst kommt mein Kumpel Ed raus und fickt dich in den Arsch!«|lang=de|sens=Plus tard encore, ils vont chez Kostia dont la mère, veuve de guerre, proteste et se lamente quand ils s’enferment dans sa chambre pour continuer à boire. « Ta gueule, vieille chienne, répond élégamment son fils à travers la porte, sinon mon copain Ed va sortir t’enculer ! »|source={{ouvrage|auteur={{w|Emmanuel Carrère}}|trad=Claudia Hamm|titre=Limonow|année=2012|éditeur=MSB Matthes & Seitz Berlin Verlagsgesellschaft|lieu=Berlin|url=}}}}
+#* {{exemple|Vier-Sterne-Hotel, landesüblich. '''Zimmer''' mit voll eingerichtetem Bad, Föhn, Klimaanlage, Telefon, TV, Minibar, Privattresor gegen Gebühr, Balkon mit Poolblick (oder Meerblick gegen Aufpreis). (...)  Unfall- und Reiserücktrittskostenversicherung eingeschlossen.|lang=de|sens=Hôtel quatre étoiles sup., normes du pays. Chambres avec salle de bains complète, sèche-cheveux, air conditionné, téléphone, TV, minibar, coffre-fort individuel payant, balcon vue piscine (ou vue mer avec supplément). (...) Assurance assistance/annulation incluse.|source={{ouvrage|auteur={{w|Michel Houellebecq}}|trad=Hinrich Schmidt-Henkel|titre=Lanzarote|année=2000|éditeur=DuMont Buchverlag|lieu=Köln|url=}}}}
+# {{lexique|habitat|de}} [[pièce|Pièce]], [[local]], [[salle]].
+#* {{exemple|Wir stellen den Schrank in dieses '''Zimmer'''.|sens=Nous mettrons l'armoire dans cette pièce.|lang=de}}
+#* {{exemple|Unsere Firma renoviert nur leergeräumte '''Zimmer'''. Aber ich kann Ihnen auf Wunsch jemanden vermitteln, der das Haus entrümpelt.|lang=de|sens=Notre entreprise ne rénove que des pièces vidées de leur contenu. Mais je peux, si vous le souhaitez, vous mettre en contact avec quelqu’un qui désencombrera la maison.}}
+#* {{exemple|Und die kleine Antonie, achtjährig und zartgebaut, in einem Kleidchen aus ganz leichter changierender Seide, den hübschen Blondkopf ein wenig vom Gesichte des Großvaters abgewandt, blickte aus ihren graublauen Augen angestrengt nachdenkend und ohne etwas zu sehen ins '''Zimmer''' hinein, wiederholte noch einmal: (...)|lang=de|sens=Alors, la jeune Antonie, âgée de huit ans, gracile dans sa petite robe de légère soie changeante, détourna un peu sa jolie tête blonde du visage de son grand-père et, promenant dans la pièce, sans rien voir, son regard gris-bleu tendu par la réflexion, répéta pour la troisième fois : (...)|source={{ouvrage|auteur=Thomas Mann|trad=Geneviève Bianquis|titre=Buddenbrooks - Verfall einer Familie|année=1909|éditeur=S. Fischer Verlag|lieu=Berlin|url=}}}}
+# Ensemble du mobilier d’une [[pièce]] ou [[chambre]].
+
+==== {{S|synonymes}} ====
+* {{l|Kammer|de|sens=[[chambre]]}} – ''(1)''
+* {{l|Stube|de|sens=[[pièce]] » ; « [[salon]] », « [[dortoir]]}} – ''(2)''
+
+==== {{S|diminutifs}} ====
+* {{l|Zimmerchen|de|sens=[[petit]]e [[chambre]] », « [[chambrette]]}}
+
+==== {{S|dérivés}} ====
+{{(|Substantifs en ''-zimmer'', notamment [[hyponyme]]s}}
+* {{l|Amtszimmer|de|sens=[[bureau]] d’une [[administration]]}}
+* {{l|Ankleidezimmer|de|sens=[[dressing]] », « [[penderie]] », « [[garde-robe]]}}
+* {{l|Arbeitszimmer|de|sens=[[bureau]] », « [[cabinet de travail]] », « [[salle de travail]]}}
+* {{l|Audienzzimmer|de|sens=[[salle d’audience]]}}
+* {{l|Badezimmer|de|sens=[[salle de bains]]}}
+* {{l|Balkonzimmer|de|sens=[[pièce]] avec [[balcon]]}}
+* {{l|Bauernzimmer|de}}
+* {{l|Behandlungszimmer|de|sens=[[salle de soins]]}}
+* {{l|Beratungszimmer|de}}
+* {{l|Besprechungszimmer|de|sens=[[salle de réunion]]}}
+* {{l|Besucherzimmer|de|sens=[[parloir]]}}
+* {{l|Besuchszimmer|de|sens=[[parloir]]}}
+* {{l|Bettzimmer|de}}
+* {{l|Betzimmer|de|sens=[[pièce]] pour la [[prière]]}}
+* {{l|Bibliothekszimmer|de|sens=[[salle]] de [[bibliothèque]]}}
+* {{l|Billardzimmer|de|sens=[[salle de billard]]}}
+* {{l|Bordellzimmer|de|sens=[[chambre]] de [[bordel]] », « [[chambre]] de [[maison close]]}}
+* {{l|Bügelzimmer|de|sens=[[salle]] de [[repassage]]}}
+* {{l|Dachzimmer|de|sens=[[mansarde]]}}
+* {{l|Dienerzimmer|de|sens=[[chambre de bonne]]}}
+* {{l|Dienstbotenzimmer|de}}
+* {{l|Dienstzimmer|de|sens=[[bureau]] d’[[administration]]}}
+* {{l|Direktionszimmer|de}}
+* {{l|Direktorenzimmer|de}}
+* {{l|Direktorzimmer|de}}
+* {{l|Diwanzimmer|de|sens=[[salle]] [[équipé]]e de [[divan]]s}}
+* {{l|Doppelzimmer|de|sens=[[chambre double]]}}
+* {{l|Dunkelzimmer|de|sens=[[chambre noire]]}}
+* {{l|Durchgangszimmer|de}}
+* {{l|Eckzimmer|de|sens=[[chambre d’angle]]}}
+* {{l|Einzelzimmer|de|sens=[[chambre individuelle]]}}
+* {{l|Empfangszimmer|de|sens=[[salle de réception]]}}
+* {{l|Erdgeschosszimmer|de|sens=[[pièce]] du [[rez-de-chaussée]]}}
+* {{l|Erkerzimmer|de|sens=[[chambre]] avec [[encorbellement]]}}
+* {{l|Esszimmer|de|sens=[[salle à manger]]}}
+* {{l|Extrazimmer|de|sens=[[chambre]] [[supplémentaire]]}}
+* {{l|Fernsehzimmer|de|sens=[[salle]] de [[télévision]]}}
+* {{l|Frauenzimmer|de|sens=[[bonne-femme]]}}
+* {{l|Fremdenzimmer|de|sens=[[chambre d’hôtes]]}}
+* {{l|Frühstückszimmer|de|sens=[[salle de petit-déjeuner]]}}
+* {{l|Gartenzimmer|de|sens=[[pièce]] [[donner|donnant]] sur le [[jardin]]}}
+* {{l|Gassenzimmer|de}}
+* {{l|Gästezimmer|de}}, {{l|Gastzimmer|de|sens=[[chambre d’hôtes]]}}
+* {{l|Geschäftszimmer|de|sens=[[bureau]] d’[[entreprise]]}}
+* {{l|Gesellschaftszimmer|de|sens=[[salle de réunion]]}}
+* {{l|Gesindezimmer|de}}
+* {{l|Giebelzimmer|de|sens=[[salle]] sous les [[combles]]}}
+* {{l|Gipszimmer|de}}
+* {{l|Hauptzimmer|de|sens=[[chambre]] [[principale]]}}
+* {{l|Herrenzimmer|de|sens=[[cabinet]] pour [[messieurs]]}}
+* {{l|Hinterzimmer|de|sens=[[arrière-salle]] », « [[arrière-boutique]]}}
+* {{l|Hofzimmer|de}}
+* {{l|Hotelzimmer|de|sens=[[chambre d'hôtel]]}}
+* {{l|Isolationszimmer|de}}, {{l|Isolierzimmer|de|sens=[[chambre d'isolement]]}}
+* {{l|Jagdzimmer|de|sens=[[salle de chasse]]}}
+* {{l|Jugendzimmer|de|sens=[[chambre]] de [[jeune]]}}
+* {{l|Kaminzimmer|de|sens=[[pièce]] avec [[cheminée|cheminée(s)]]}}
+* {{l|Kartenzimmer|de|sens=[[salle des cartes]]}}
+* {{l|Kinderzimmer|de|sens=[[chambre d’enfant]]}}
+* {{l|Klassenzimmer|de}}, {{l|Klasszimmer|de|sens=[[salle de classe]]}}
+* {{l|Komfortzimmer|de|sens=[[chambre]] [[confortable]]}}
+* {{l|Konferenzzimmer|de|sens=[[salle de conférence]]}}
+* {{l|Krankenzimmer|de|sens=[[chambre de malade]] », « [[chambre d’hôpital]]}}
+* {{l|Kreißzimmer|de|sens=[[salle d’accouchement]]}}
+* {{l|Krisenzimmer|de}}
+* {{l|Künstlerzimmer|de}}
+* {{l|Lagezimmer|de}}
+* {{l|Leerzimmer|de|sens=[[salle]] [[vide]]}}
+* {{l|Lehrerzimmer|de|sens=[[salle des maîtres]] », « [[salle des professeurs]]}}
+* {{l|Lesezimmer|de|sens=[[salle de lecture]] », « [[salon de lecture]]}}
+* {{l|Mädchenzimmer|de|sens=[[chambre]] de [[jeune fille]] », « [[chambre de bonne]]}}
+* {{l|Mansardenzimmer|de|sens=[[mansarde]]}}
+* {{l|Mehrbettzimmer|de|sens=[[chambre]] à [[plusieurs]] [[lit]]s}}
+* {{l|Musikzimmer|de|sens=[[salle de musique]] », « [[salon de musique]]}}
+* {{l|Nachbarzimmer|de|sens=[[pièce]] [[voisin]]e », « [[chambre]] [[voisin]]e}}
+* {{l|Nebenzimmer|de|sens=[[pièce]] d’[[à côté]] », « [[chambre]] d’[[à côté]]}}
+* {{l|Nichtraucherzimmer|de|sens=[[chambre non-fumeur]]}}
+* {{l|Ordinationszimmer|de|sens=[[salle de consultation]]}}
+* {{l|Paradezimmer|de|sens=[[salle]] d’[[apparat]]}}
+* {{l|Patientenzimmer|de|sens=[[chambre de malade]] », « [[chambre d’hôpital]]}}
+* {{l|Prunkzimmer|de|sens=[[salle]] d’[[apparat]]}}
+* {{l|Privatzimmer|de|sens=[[chambre]] [[privée]]}}
+* {{l|Ratszimmer|de|sens=[[salle du conseil]]}}
+* {{l|Raucherzimmer|de}}, {{l|Rauchzimmer|de|sens=[[fumoir]]}}
+* {{l|Redaktionszimmer|de|sens=[[salle de rédaction]]}}
+* {{l|Rektoratszimmer|de}}
+* {{l|Säuglingszimmer|de}}
+* {{l|Schlafzimmer|de|sens=[[chambre à coucher]]}}
+* {{l|Schleuseninfektionszimmer|de|sens=[[chambre d’isolement]] avec [[sas]]}}
+* {{l|Schreibzimmer|de|sens=[[salle d'écriture]]}}
+* {{l|Schulzimmer|de|sens=[[salle de classe]]}}
+* {{l|Seezimmer|de}}
+* {{l|Seitenzimmer|de}}
+* {{l|Sitzungszimmer|de|sens=[[salle de réunion]]}}
+* {{l|Sommerzimmer|de|sens=[[pièce d'été]]}}
+* {{l|Sonderzimmer|de|sens=[[pièce]] [[spécial]]e}}
+* {{l|Speisezimmer|de|sens=[[salle à manger]]}}
+* {{l|Spielzimmer|de|sens=[[salle de jeu]]}}
+* {{l|Sprechzimmer|de|sens=[[salle de consultation]]}}
+* {{l|Sterbezimmer|de|sens=[[chambre mortuaire]]}}
+* {{l|Strickzimmer|de}}
+* {{l|Studierzimmer|de|sens=[[salle d'étude]]}}
+* {{l|Therapiezimmer|de|sens=[[salle de thérapie]]}}
+* {{l|Toilettezimmer|de|sens=[[salle de bain]]}}
+* {{l|Totenzimmer|de|sens=[[chambre mortuaire]]}}
+* {{l|Traditionszimmer|de|sens=[[salle]] [[traditionnel]]le}}
+* {{l|Turmzimmer|de|sens=[[salle]] dans une [[tour]]}}
+* {{l|Umkleidezimmer|de}}
+* {{l|Unterrichtszimmer|de|sens=[[salle de cours]] », « [[salle de classe]]}}
+* {{l|Untersuchungszimmer|de|sens=[[salle d'examen]]}}
+* {{l|Verbandszimmer|de}}, {{l|Verbandzimmer|de}}
+* {{l|Vereinszimmer|de}}
+* {{l|Verhörzimmer|de}}
+* {{l|Vorderzimmer|de|sens=[[salle de devant]]}}
+* {{l|Vorzimmer|de|sens=[[antichambre]]}}
+* {{l|Wachzimmer|de|sens=[[salle de garde]]}}
+* {{l|Wartezimmer|de|sens=[[salle d’attente]]}}
+* {{l|Weihnachtszimmer|de|sens=[[salle]] [[décoré]]e pour [[Noël]]}}
+* {{l|WG-Zimmer|de|sens=[[chambre communautaire]]}}
+* {{l|Winterzimmer|de|sens=[[pièce d’hiver]] », « [[salle d’hiver]]}}
+* {{l|Wirtszimmer|de}}
+* {{l|Wohnschlafzimmer|de}}
+* {{l|Wohnzimmer|de|sens=[[salon]] », « [[salle de séjour]]}}
+{{)}}
+{{(|Substantifs en ''Zimmer-''}}
+* {{l|Zimmerantenne|de|sens=[[antenne intérieure]]}}
+* {{l|Zimmeraralie|de}}
+* {{l|Zimmerarbeit|de}}
+* {{l|Zimmerarrest|de}}
+* {{l|Zimmerausstattung|de|sens=[[équipement]] de la [[pièce]]}}
+* {{l|Zimmerbeleuchtung|de}}
+* {{l|Zimmerbesen|de}}
+* {{l|Zimmerbestellung|de}}
+* {{l|Zimmerblume|de|sens=[[fleur]] d’[[intérieur]] », « [[fleur]] d’[[appartement]]}}
+* {{l|Zimmerbrand|de|sens=[[incendie]] d’une [[pièce]]}}
+* {{l|Zimmerbreite|de}}
+* {{l|Zimmerdecke|de|sens=[[plafond]]}}
+* {{l|Zimmerdekorateur|de|sens=[[décorateur d’intérieur]]}}
+* {{l|Zimmerdekoration|de|sens=[[décoration]] de [[pièce]]}}
+* {{l|Zimmerdienst|de|sens=service d'étage}}
+* {{l|Zimmerecke|de|sens=[[coin]] de [[pièce]] », « [[angle]] de [[pièce]]}}
+* {{l|Zimmerei|de|sens=[[charpenterie]] », « [[entreprise]] de [[charpentage]]}}
+* {{l|Zimmereinrichtung|de|sens=[[aménagement]] de [[chambre]]}}
+* {{l|Zimmerer|de|sens=[[charpentier]]}}
+* {{l|Zimmererin|de}}, {{l|Zimmerin|de|sens=[[charpentière]]}}
+* {{l|Zimmerfarn|de}}
+* {{l|Zimmerfenster|de|sens=[[fenêtre]] de [[chambre]]}}
+* {{l|Zimmerflucht|de|sens=[[enfilade]] de [[pièce]]s}}
+* {{l|Zimmerfrau|de|sens=[[charpentière]]}}
+* {{l|Zimmergenosse|de|sens=[[camarade]] de [[chambre]]}} – ''(lui)''
+* {{l|Zimmergenossin|de|sens=[[camarade]] de [[chambre]]}} – ''(elle)''
+* {{l|Zimmerhandwerk|de|sens=[[charpenterie]]}}
+* {{l|Zimmerherr|de|sens=[[colocataire]]}}
+* {{l|Zimmerholz|de|sens=[[bois]] de [[charpente]]}}
+* {{l|Zimmerkellner|de|sens=[[garçon d’étage]]}}
+* {{l|Zimmerkelnerin|de|sens=[[serveuse d’étage]]}}
+* {{l|Zimmerkollege|de|sens=[[camarade de chambre]]}}
+* {{l|Zimmerlampe|de|sens=[[lampe d’intérieur]]}}
+* {{l|Zimmerlautstärke|de|sens=[[sourdine]]}}
+* {{l|Zimmerleute|de|sens=[[charpentiers]]}}
+* {{l|Zimmerlinde|de|sens=[[tilleul d’appartement]]}}
+* {{l|Zimmerluft|de|sens=[[air ambiant]]}}
+* {{l|Zimmermädchen|de|sens=[[femme de chambre]] », « [[camériste]]}}
+* {{l|Zimmermädel|de|sens=[[femme de chambre]]}}
+* {{l|Zimmermann|de|sens=[[charpentier]]}}
+* {{l|Zimmermeister|de|sens=[[maître charpentier]]}}
+* {{l|Zimmermitte|de|sens=[[centre]] de la [[pièce]]}}
+* {{l|Zimmernachbar|de|sens=[[voisin de chambre]]}}
+* {{l|Zimmernachweis|de}}
+* {{l|Zimmernummer|de|sens=[[numéro de chambre]]}}
+* {{l|Zimmerofen|de|sens=[[poêle]] de [[chambre]]}}
+* {{l|Zimmerpalme|de|sens=[[palmier]] d’[[intérieur]]}}
+* {{l|Zimmerpflanze|de|sens=[[plante d’intérieur]] », « [[plante d’appartement]]}}
+* {{l|Zimmerpreis|de|sens=[[prix]] de la [[chambre]]}}
+* {{l|Zimmerrechnung|de|sens=[[facture]] de [[chambre]]}}
+* {{l|Zimmerreihe|de}}
+* {{l|zimmerrein|de}}
+* {{l|Zimmerreservierung|de|sens=[[réservation]] de [[chambre]]}}
+* {{l|Zimmerschlüssel|de|sens=[[clé]] de la [[chambre]] », « [[clé]] de la [[pièce]]}}
+* {{l|Zimmerschmuck|de}}
+* {{l|Zimmerservice|de|sens=[[service]] d’[[étage]]}}
+* {{l|Zimmersuche|de|sens=[[recherche]] d’une [[chambre]]}}
+* {{l|Zimmertanne|de|sens=[[pin de Norfolk]]}}
+* {{l|Zimmertemperatur|de|sens=[[température ambiante]] », « [[température de la pièce]]}}
+* {{l|Zimmertheater|de|sens=[[théâtre de chambre]]}}
+* {{l|Zimmerthermometer|de|sens=[[thermomètre]] d’[[intérieur]]}}
+* {{l|Zimmertrakt|de}}
+* {{l|Zimmertür|de|sens=[[porte]] de [[chambre]] », « [[porte]] de [[salle]]}}
+* {{l|Zimmeruhr|de|sens=[[horloge]] d’[[intérieur]]}}
+* {{l|Zimmerung|de}}
+* {{l|Zimmerventilator|de|sens=[[ventilateur]] de [[chambre]]}}
+* {{l|Zimmervermieter|de|sens=[[loueur]] de [[chambre]]}}
+* {{l|Zimmervermieterin|de|sens=[[loueuse]] de [[chambre]]}}
+* {{l|Zimmervermittlung|de|sens=[[location]] de [[chambre]]}}
+* {{l|Zimmerwand|de|sens=[[mur]] de la [[pièce]]}}
+* {{l|zimmerwarm|de}}
+* {{l|Zimmerwerk|de|sens=[[charpente]]}}
+* {{l|Zimmerwerkstatt|de|sens=[[atelier]] de[[ charpenterie]]}}
+* {{l|Zimmerwirt|de|sens=[[loueur]] de [[chambre]]}}
+* {{l|Zimmerwirtin|de|sens=[[loueuse]] de [[chambre]]}}
+{{)}}
+{{(|Autres substantifs}}
+* {{l|1-Zimmer-Appartment|de|sens=[[studio]]}}
+* {{l|1-Zimmer-Wohnung|de|sens=[[studio]]}}
+* {{l|2-Zimmer-Wohnung|de|sens=[[appartement]] [[deux pièces]]}}
+* {{l|3-Zimmer-Wohnung|de|sens=[[appartement]] [[trois pièces]]}}
+* {{l|4-Zimmer-Wohnung|de|sens=[[appartement]] [[quatre pièces]]}}
+* {{l|5-Zimmer-Wohnung|de|sens=[[appartement]] [[cinq pièces]]}}
+* {{l|Einzimmerwohnung|de|sens=[[studio]]}}
+* {{l|Dreizimmerwohnung|de|sens=[[appartement]] [[trois pièces]]}}
+* {{l|Vierzimmerwohnung|de|sens=[[appartement]] [[quatre pièces]]}}
+{{)}}
+{{(|Adjectifs}}
+* {{l|2-zimmerig|de}}, {{l|2-zimmrig|de|sens=à [[deux]] [[pièce]]s}}
+* {{l|dreizimmerig|de}}, {{l|dreizimmrig|de|sens=à [[trois]] [[pièce]]s}}
+* {{l|mehrzimmerig|de}}, {{l|mehrzimmrig|de|sens=à [[plusieurs]] [[pièce]]s}}
+* {{l|vielzimmerig|de}}, {{l|vielzimmrig|de|sens=à [[beaucoup de]] [[pièce]]s}}
+{{)}}
+{{(|Verbes}}
+* {{l|zimmern|de|sens=[[fabriquer]] », « [[construire]] », « [[charpenter]]}}
+{{)}}
+
+==== {{S|hyperonymes}} ====
+* {{l|Raum|de|sens=[[salle]] », « [[chambre]] », « [[pièce]] », « [[espace]] », « [[place]]}}
+
+==== {{S|hyponymes}} ====
+: ''Voir aussi dérivés''
+* {{l|Kabinett|de|sens=[[cabinet]]}} – ''(2)''
+* {{l|Salon|de|sens=[[salon]]}} – ''(2)''
+
+==== {{S|abréviations}} ====
+* {{l|Zi.|de}}
+* {{l|Zr.|de}}
+
+=== {{S|prononciation}} ===
+* {{écouter|Vienne|ˈt͡sɪmɐ|lang=de|audio=De-at-Zimmer.ogg}}
+* {{écouter|Berlin|ˈt͡sɪmɐ|lang=de|audio=De-Zimmer.oga}}
+
+=== {{S|voir}} ===
+* {{WP|lang=de}}
+
+=== {{S|références}} ===
+{{Références}}
+
+==== {{S|sources}} ====
+* {{R:DWDS|Zimmer}}
+* {{R:Duden|Zimmer}}
+* {{Source-wikt|de|Zimmer}}
+
+==== {{S|bibliographie}} ====
+* Larousse - Dictionnaire allemand/français – français/allemand , éd. 1958, p 776.
+* Harrap’s  de poche – Bordas Dictionnaire allemand/français, éd. 1997, ISBN 0-245-50308-0, p 350.
+
+=== {{S|anagrammes}} ===
+{{voir anagrammes|de}}
+
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|nom|gsw-fr}} ===
+'''Zimmer'''
+# [[chambre|Chambre]], [[pièce]].
+
+== {{langue|lb}} ==
+=== {{S|étymologie}} ===
+: {{date|lang=lb}} {{ébauche-étym|lb}}
+{{note noms de famille}}
+
+=== {{S|nom de famille|lb}} ===
+{{lb-inv|ˈzimɐ}}
+'''Zimmer''' {{pron|ˈzimɐ|lb}}
+# Nom de famille.
+#* {{exemple|lang=lb}}
+
+=== {{S|prononciation}} ===
+{{ébauche-pron-audio|lb}}
+
+=== {{S|anagrammes}} ===
+{{voir anagrammes|lb}}
+
+=== {{S|références}} ===
+* {{R:Luxemburger Familiennamenbuch}}
+
+[[Catégorie:Salles en allemand|*]]
+[[Catégorie:Lexique en allemand de la chambre]]

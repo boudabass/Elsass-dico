@@ -1,0 +1,38 @@
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|de}}
+
+=== {{S|nom|de}} ===
+{{de-nom-f-en}}
+'''Erinnerung''' {{pron|ɛɐ̯ˈʔɪnəʁʊŋ|de}} {{f}}
+# [[mémoire|Mémoire]].
+# [[souvenir|Souvenir]].
+#* {{exemple|Das Chaos (des Lockdowns von Shanghai) ruft bei den Leuten dunkle '''Erinnerungen''' wach: In den 60er Jahren löste Staatsgründer Mao Tse-tung mit seiner fehlgeleiteten Industrialisierungspolitik die größte Hungersnot des 20. Jahrhunderts aus.|lang=de|sens=Le chaos (du lockdown de Shanghai) évoque de sombres souvenirs aux gens : dans les années 60, le fondateur de l'État, Mao Tsé-toung, a causé, avec sa politique d'industrialisation malavisée, la plus grande famine du XXe siècle.|source={{périodique|auteur=Fabian Kretschmer|titre=Realität schlägt Propaganda|journal=taz|date=11 avril 2022|texte=https://taz.de/Lockdown-in-Shanghai/!5845028/}}}}
+#* {{exemple|Aber die Pest machte sie untätig, zwang sie dazu, sich in ihrer trostlosen Stadt im Kreis zu drehen, Tag um Tag den trügerischen Spielen der '''Erinnerung''' ausgeliefert.|lang=de|sens=Mais, en même temps, la peste les laissait oisifs, réduits à tourner en rond dans leur ville morne et livrés, jour après jour, aux jeux décevants du souvenir.|source={{ouvrage|auteur={{w|Albert Camus}}|trad=Uli Aumüller|titre=Die Pest|année=1997|éditeur=Rowohlt Verlag|url=}}}}
+#* {{exemple|Die Genossen, die sich als Kunstkritiker produzieren, sind der Meinung, seine Bilder sähen aus, als könne auch ein Esel sie malen, dem man einen Pinsel an den Schwanz bindet; und um ihm etwas figurativere Wirklichkeiten in '''Erinnerung''' zu rufen, schicken sie ihn einen Monat lang zum Ausheben von Gruben auf eine Baustelle;|lang=de|sens=Les camarades, s’improvisant critiques d’art, trouvent que ses tableaux, un âne pourrait les peindre avec un pinceau attaché à sa queue et, pour le rappeler à des réalités plus figuratives, l’envoient pendant un mois creuser des trous sur un chantier,|source={{ouvrage|auteur={{w|Emmanuel Carrère}}|trad=Claudia Hamm|titre=Limonow|année=2012|éditeur=MSB Matthes & Seitz Berlin Verlagsgesellschaft|lieu=Berlin|url=}}}}
+
+==== {{S|synonymes}} ====
+* [[Reminiszenz]] (2)
+* [[Retrospektive]] (2)
+* [[Erinnerungsvermögen]] (1)
+* [[Andenken]]
+* [[Denkmal]]
+
+==== {{S|apparentés}} ====
+* {{lien|erinnern|de}}
+
+==== {{S|hyperonymes}} ====
+* [[Gedächtnis]] (1)
+* [[Gedanke]] (1)
+
+=== {{S|prononciation}} ===
+* {{écouter|Berlin|ɛɐ̯ˈʔɪnəʁʊŋ|lang=de|audio=De-Erinnerung.ogg}}
+* {{écouter|Berlin|ɛɐ̯ˈʔɪnəʁʊŋ|lang=de|audio=LL-Q188 (deu)-Sebastian Wallroth-Erinnerung.wav}}
+
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|nom|gsw-fr}} ===
+'''Erinnerung'''
+# [[mémoire|Mémoire]]

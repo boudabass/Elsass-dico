@@ -1,0 +1,133 @@
+{{voir|holé}}
+
+== {{langue|en}} ==
+=== {{S|étymologie}} ===
+: Apparenté à ''{{lien|hollow|en}}''.
+
+=== {{S|nom|en}} ===
+{{en-nom-rég|ˈhoʊl}}
+'''hole''' {{pron|ˈhoʊl|en}}
+# [[trou|Trou]].
+#* {{exemple | lang=en | How big a '''hole''' did you dig?}}
+# {{lexique|golf|en}} [[trou|Trou]].
+#* {{exemple | lang=en | An eighteen '''hole''' golf course.}}
+# [[faille|Faille]].
+#* {{exemple | lang=en | There's a '''hole''' in your logic.}}
+
+==== {{S|dérivés}} ====
+* {{UK|nocat=1}} {{lien|arsehole|en|sens= trou du cul ; (injurieux) connard}}
+* {{lien|asshole|en|sens= trou du cul ; (injurieux) connard}}
+* {{lien|black hole|en|sens=trou noir}}
+* {{lien|cornhole|en}}
+* {{lien|glory hole|en}}
+* {{lien|loophole|en|sens=échappatoire}}
+* {{lien|manhole|en|sens=[bouche d’égout}}
+* {{lien|pothole|en|sens=nid de poule}}
+* {{lien|sinkhole|en|sens=doline d’effondrement}}
+* {{lien|toad in the hole|en}}, {{lien|toad-in-the-hole|en}}
+* {{lien|wormhole|en|sens=trou de ver}}
+
+=== {{S|verbe|en}} ===
+{{en-conj-rég-e|hol|inf.pron=ˈhoʊl|prét.psuf=d}}
+'''hole''' {{pron|ˈhoʊl|en}} {{t|en}}
+# Faire des trous dans, [[trouer]].
+
+=== {{S|prononciation}} ===
+* {{pron|ˈhoʊl|en}}
+* {{écouter|lang=en|États-Unis <!-- précisez svp la ville ou la région -->|ˈhoʊl|audio=En-us-hole.ogg}}
+* {{écouter|lang=en|Suisse (Genève)|audio=LL-Q1860 (eng)-Nattes à chat-hole.wav}}
+* {{écouter|{{AU|nocat=1}}||lang=en|audio=En-au-hole.ogg}}
+* {{écouter|Texas (États-Unis)||lang=en|audio=LL-Q1860 (eng)-Wodencafe-hole.wav}}
+* {{écouter|Connecticut (États-Unis)||lang=en|audio=LL-Q1860 (eng)-Grendelkhan-hole.wav}}
+
+==== {{S|homophones|en}} ====
+* [[whole#en|whole]]
+
+=== {{S|anagrammes}} ===
+* {{lien|helo|en}}
+
+=== {{S|voir aussi}} ===
+* {{WP|3=en}}
+* {{WP|trou|titre=trou}}
+
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|verbe|gsw-fr}} ===
+'''hole'''
+# Aller chercher.
+
+== {{langue|de}} ==
+=== {{S|verbe|de|flexion}} ===
+'''hole''' {{pron|ˈhoːlə|de}}
+# ''Deuxième personne du singulier du présent de l’impératif à la forme active de'' [[holen#de|holen]].
+# ''Première personne du singulier du présent de l’indicatif à la forme active de'' [[holen#de|holen]].
+# ''Première personne du singulier du présent du subjonctif 1 à la forme active de'' [[holen#de|holen]].
+# ''Troisième personne du singulier du présent du subjonctif 1 à la forme active de'' [[holen#de|holen]].
+
+== {{langue|bkz}} ==
+=== {{S|étymologie}} ===
+: Du proto-malayo-polynésien {{recons|lang-mot-vedette=bkz|saŋelaR}}.
+
+=== {{S|verbe|bkz}} ===
+'''hole''' {{pron||bkz}}
+# [[rôtir#fr|Rôtir]].
+
+=== {{S|références}} ===
+*David Mead, 1996, ''The Evidence for Final Consonants in Proto-Bungku-Tolaki'', Oceanic Linguistics, 35:2, pp. 180-194.
+
+== {{langue|ha}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|ha}}
+
+=== {{S|verbe|ha}} ===
+'''hole''' {{pron||ha}} 
+# [[se reposer|Se reposer]], se détendre.
+
+== {{langue|pap}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|pap}}
+
+=== {{S|verbe|pap}} ===
+'''hole'''
+# [[embaumer|Embaumer]], [[exhaler]] un [[odeur]], [[sentir]].
+
+==== {{S|synonymes}} ====
+* [[ole]]
+
+== {{langue|cs}} ==
+
+=== {{S|étymologie}} ===
+: {{composé de|holý|sens1=nu, chauve|-e|lang=cs|m=1}} ; comparer avec ''{{lien|hůl|cs}}''.
+
+=== {{S|nom|cs|num=1}} ===
+{{cs-décl-nom-n-e-ata|rad=hol}}
+'''hole''' {{pron|ɦɔlɛ|cs}} {{n}}
+# [[oisillon|Oisillon]] dépourvu de plumes.
+#*'''''Holata''' vypadla z hnízda,'' les oisillons sont tombés du nid.
+
+==== {{S|dérivés}} ====
+* {{lien|holátko|cs}}
+
+=== {{S|nom|cs|num=2}} ===
+{{cs-décl-nom-f-e|rad=hol}}
+'''hole''' {{pron|ɦɔlɛ|cs}} {{f}}
+# [[mont|Mont]] {{lien|chauve|fr}}, colline dépourvue de végétation.
+#* {{exemple | lang=cs
+ | V České republice se '''hole''' vyskytují pouze v Krkonoších, Hrubém Jeseníku a na Králickém Sněžníku.
+ | source={{WP|lang=cs}}}}
+
+==== {{S|variantes}} ====
+* {{lien|hola|cs}}
+
+=== {{S|nom|cs|flexion}} ===
+'''hole''' {{pron||cs}}
+# ''Génitif pluriel de'' {{lien|hůl|cs}}.
+# ''Nominatif, cocatif et accusatif pluriel de'' {{lien|hůl|cs}}.
+
+=== {{S|références}} ===
+* {{R:ÚJČ}}
+
+[[Catégorie:Oiseaux en tchèque]]
+[[Catégorie:Jeunes animaux en tchèque]]

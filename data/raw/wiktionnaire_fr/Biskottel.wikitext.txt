@@ -1,0 +1,7 @@
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+{{ébauche-étym|gsw-fr}}
+
+=== {{S|nom|gsw-fr}} ===
+'''Biskottel''' ({{p}}: '''[[Biskottle]]''')
+# [[biscotte|Biscotte]].

@@ -1,0 +1,16 @@
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|nom propre|gsw-fr}} ===
+'''Kolmer'''
+# [[Colmar]] (ville du sud de l’[[Alsace]]).
+#* {{exemple|lang=gsw-fr|Uf jeda Fàll, Anglisch màcht modern, aktüell ! Ma müaß punchy sìì, heißt ’s fìr d großa Plàkàta „Alsace rocks“ àm Wifascht ìn '''Kolmer''' z verteidiga !|source={{périodique
+ |auteur=Évelyne Troxler
+ |titre=« Alsace rocks » ! Müass ma jetz tàtsachlig bstandig Anglisch benutza fìr àlles ?
+ |journal=Land un Sproch : Les Cahiers du Bilinguisme
+ |ISSN=0045-3773
+ |no=223
+ |date=octobre 2022
+ }}
+}}

@@ -1,0 +1,250 @@
+{{voir|-acht|Acht}}
+
+== {{langue|de}} ==
+{{numéraux allemands}}
+
+=== {{S|étymologie}} ===
+: Du {{étyl|goh|de|mot=ahto}}, du {{étyl|proto-germanique|de}} {{LienRouge|lang=en|trad=Appendix:Proto-Germanic/ahtōu|fr=Reconstruction:proto-germanique/*ahtōu|texte=*ahtōu}}, de l'{{étyl|indo-européen commun|de}} {{recons|lang-mot-vedette=de|oḱtṓw|indo-européen commun}}{{R|DWDS|acht}}.
+
+=== {{S|adjectif numéral|de}} ===
+'''acht''' {{pron|aχt|de}}
+# [[huit|Huit]] (8).
+#* {{exemple|lang=de | Das Wort „achtzehn“ hat '''acht''' Buchstaben. | Le mot ''achtzehn'' contient huit lettres.}}
+#* {{exemple|lang=de | Während der Kulturrevolution verbrachte Li, der aus wohlhabendem Haus stammte, '''acht''' Jahre in Isolationshaft. | Pendant la Révolution culturelle, Li, qui était issu d’une famille aisée, a passé huit ans en détention en isolement. |source={{périodique|auteur=Marco Kauffmann Bossart|titre=Xi Jinping wenig gebildet? Die Kommunistische Partei moralisch verkommen? Peking fürchtet die Tagebücher eines Insiders|journal=Neue Zürcher Zeitung|date=23 août 2024}} |lien=https://www.nzz.ch/international/xi-jinping-wenig-gebildet-die-kommunistische-partei-moralisch-verkommen-peking-fuerchtet-die-tagebuecher-eines-insiders-ld.1844523}}
+#* {{exemple|Während der '''acht''' Ferientage der sogenannten Goldenen Woche Anfang Oktober, die traditionell zur Belebung des Konsums und des Reisens ged'''acht''' ist, übertrafen sich Anbieter mit mehr als günstigen Angeboten: verbilligte Kinotickets, aggressive Touristikdiscounts, Werbekampagnen aller Art.|lang=de|sens=Pendant les huit jours fériés de la « Golden Week » début octobre, traditionnellement destinés à stimuler la consommation et les voyages, les prestataires se sont surpassés avec des offres plus qu'avantageuses : billets de cinéma à prix réduit, remises agressives dans le secteur du tourisme, campagnes publicitaires en tout genre.|source={{périodique|auteur=Franka Lu|titre=Die guten Zeiten sind vorbei|journal=Die Zeit|date=28 octobre 2025|texte=https://www.zeit.de/politik/ausland/2025-10/wirtschaft-china-konsum-oekonomie-pandemie-unternehmen}}}}
+# {{lexique|temps|de}} {{lien|huit|fr|dif=Huit}} {{lien|heure|fr|dif=heures}}.
+#* {{exemple | lang=de | es ist '''acht'''. | sens=Il est huit heures.}}
+#* {{exemple|lang=de | Am anderen Morgen fand Hungertobel den Alten um halb '''acht''' nach dem Morgenessen beim Studium des Stadtanzeigers, etwas verwundert; denn der Arzt war früher als sonst gekommen, und Bärlach pflegte um diese Zeit wieder zu schlafen, oder doch wenigstens, die Hände hinter dem Kopf, vor sich hinzudösen. | À sept heures et demie le lendemain matin, quand Hungertobel entra dans la chambre immédiatement après le petit déjeuner, il fut un peu surpris de trouver le commissaire plongé dans la lecture du journal local. Le médecin se présentait plus tôt que d’habitude, à l’heure où Baerlach généralement se rendormait ou rêvassait, le regard vague, les mains croisées sous la nuque. |source={{ouvrage|auteur={{w|Friedrich Dürrenmatt}}|trad=Armel Guerne|titre=Der Verdacht|année=1961|éditeur=Verlagsanstalt Benziger & Co. AG.|lieu=Einsiedeln}}}}
+# {{lexique|temps|de}} {{lien|huit|fr|dif=Huit}} ans.
+#* {{exemple|lang=de | er ist '''acht'''. | sens=Il a huit ans.}}
+
+==== {{S|synonymes}} ====
+* acht {{lien|Uhr|de}}
+* {{lien|zwanzig|de}} Uhr
+* {{lien|achtjährig|de}}
+
+==== {{S|dérivés}} ====
+{{(}}
+* {{lien|Achtjähriger|de}} ou {{lien|Achtjährige|de}}
+* {{lien|achtstellig|de}}
+* {{lien|achtstündig|de}}
+* {{lien|achtundachtzig|de}}
+* {{lien|achtunddreißig|de}}
+* {{lien|achtundfünfzig|de}}
+* {{lien|achtundneunzig|de}}
+* {{lien|achtundsechzig|de}}
+* {{lien|achtundsiebzig|de}}
+* {{lien|achtundvierzig|de}}
+* {{lien|achtundzwanzig|de}}
+* {{lien|achtzehn|de}}
+{{)}}
+
+=== {{S|verbe|de|flexion}} ===
+'''acht''' {{pron|axt|de}}
+# ''Deuxième personne du singulier de l’impératif présent de'' {{lien|achten|de}}.
+
+=== {{S|prononciation}} ===
+* {{écouter|{{DE|nocat=1}}|axt|lang=de|audio=De-acht.ogg}}
+* {{écouter|Berlin (Allemagne)|axt|lang=de|audio=De-acht2.ogg}}
+* {{écouter|Berlin (Allemagne)|axt|lang=de|audio=LL-Q188 (deu)-Sebastian Wallroth-acht.wav}}
+* {{écouter|Bonn (Allemagne)|axt|lang=de|audio=LL-Q188 (deu)-SabriaDE (Yug)-acht.wav}}
+* {{écouter|{{DE|nocat=1}}|axt|lang=de|audio=LL-Q188 (deu)-Natschoba-acht.wav}}
+* {{écouter|Remiremont (France)|axt|lang=de|audio=LL-Q188 (deu)-Mathieu Kappler-acht.wav}}
+* {{écouter|{{DE|nocat=1}}|axt|lang=de|audio=LL-Q29540 (bar)-SarahFatimaK-acht.wav}}
+* {{écouter|{{DE|nocat=1}}|axt|lang=de|audio=LL-Q188 (deu)-SarahFatimaK-acht.wav}}
+
+=== {{S|anagrammes}} ===
+{{voir anagrammes|de}}
+
+==== {{S|sources}} ====
+{{Références}}
+
+==== {{S|bibliographie}} ====
+* {{R:DWDS|acht}}
+
+{{Bonne entrée|allemand}}
+
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|adverbe|gsw-fr}} ===
+'''acht'''
+# [[peut-être|Peut-être]], [[sans doute]], [[par hasard]].
+
+== {{langue|nds}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|nds}}
+
+=== {{S|adjectif numéral|nds}} ===
+'''acht''' {{pron||nds}}
+# [[huit|Huit]].
+
+[[Catégorie:Nombres en bas allemand]]
+
+== {{langue|fy}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|fy}}
+
+=== {{S|adjectif numéral|fy}} ===
+'''acht''' {{pron||fy}}
+# [[huit|Huit]].
+
+==== {{S|dérivés}} ====
+* [[achtste]], [[achtstepart]], [[achtris]], [[achttal]]
+
+[[Catégorie:Nombres en frison]]
+
+== {{langue|ga}} ==
+=== {{S|étymologie}} ===
+: {{laé|ga|nom|1}} Du {{étyl|la|ga|actus|dif=āctus}}.
+: {{laé|ga|nom|2}} {{laé|ga|prép}} {{laé|ga|conj}} {{laé|ga|adv}} Du {{étyl|sga|ga|acht|sens=sauf, excepté}}, issu du {{étyl|proto-celtique|ga}} {{recons|lang-mot-vedette=ga|ektos|proto-celtique}}, lui-même de l’{{étyl|indo-européen commun|ga}} {{recons|lang-mot-vedette=ga|h₁eǵʰs|indo-européen commun}}.
+
+=== {{S|nom|ga|num=1}} ===
+{{ga-decl-3m|a|cht|chta|chtanna}}
+'''acht''' {{m}}
+# [[décret|Décret]].
+# [[pacte|Pacte]].
+# [[condition|Condition]].
+
+==== {{S|dérivés}} ====
+* {{lien|achtachán|ga}}
+
+=== {{S|nom|ga|num=2}} ===
+{{ga-decl-3m-sanspl|a|cht|chta|chtanna}}
+'''acht''' {{m}}
+# [[doute|Doute]], [[incertitude]].
+
+=== {{S|conjonction|ga}} ===
+'''acht'''
+# {{désuet|ga}} ''Variante de'' {{lien|ach|ga}}.
+
+=== {{S|préposition|ga}} ===
+'''acht'''
+# {{désuet|ga}} ''Variante de'' {{lien|ach|ga}}.
+
+=== {{S|adverbe|ga}} ===
+'''acht'''
+# {{désuet|ga}} ''Variante de'' {{lien|ach|ga}}.
+
+==== {{S|dérivés}} ====
+* {{lien|ach oiread |ga}}
+
+=== {{S|prononciation}} ===
+* Pour les noms :
+** {{Munster|nocat=1}} {{pron|ɑxt̪ˠ|ga}}
+** {{Connacht|nocat=1}} {{Ulster|nocat=1}} {{pron|axt̪ˠ|ga}}
+* Pour les conjonction, préposition et adverbe :
+** {{Munster|nocat=1}} {{pron|ɑx|ga}}
+** {{Connacht|nocat=1}} {{Ulster|nocat=1}} {{pron|ax|ga}}
+
+=== {{S|références}} ===
+* {{R:Ó Dónaill}}
+* {{R:Bhaldraithe}}
+* {{R:NEID}}
+* « [https://web.archive.org/web/20191226020731/http://edil.qub.ac.uk/205 6 acht (‘decree, edict’)] » dans {{ouvrage|prénom1=C.|nom1=Marstrander|prénom2=E. G. |nom2=Quin|titre=Dictionary of the Irish Language: Based Mainly on Old and Middle Irish Materials|lieu=Dublin|éditeur=Royal Irish Academy}}
+* « [https://web.archive.org/web/20191225104557/http://edil.qub.ac.uk/200 1 acht (‘but, except’)] » dans {{ouvrage|prénom1=C.|nom1=Marstrander|prénom2=E. G. |nom2=Quin|titre=Dictionary of the Irish Language: Based Mainly on Old and Middle Irish Materials|lieu=Dublin|éditeur=Royal Irish Academy}}
+* « [https://web.archive.org/web/20191225222156/http://edil.qub.ac.uk/202 3 acht (‘stipulation, condition’)] » dans {{ouvrage|prénom1=C.|nom1=Marstrander|prénom2=E. G. |nom2=Quin|titre=Dictionary of the Irish Language: Based Mainly on Old and Middle Irish Materials|lieu=Dublin|éditeur=Royal Irish Academy}}
+* « [https://web.archive.org/web/20191226015229/http://edil.qub.ac.uk/203 4 acht (‘doubt’)] » dans {{ouvrage|prénom1=C.|nom1=Marstrander|prénom2=E. G. |nom2=Quin|titre=Dictionary of the Irish Language: Based Mainly on Old and Middle Irish Materials|lieu=Dublin|éditeur=Royal Irish Academy}}
+
+== {{langue|nl}} ==
+{{numéraux néerlandais}}
+
+=== {{S|adjectif numéral|nl}} ===
+'''acht''' {{pron|aχt|nl}}
+# [[huit|Huit]].
+#* '''''acht''' dagen'' : huit jours, huitaine.
+
+=== {{S|nom|nl}} ===
+'''acht''' {{pron|aχt|nl}} {{f}} {{indénombrable|nl}}
+# [[attention|Attention]].
+#* '''''acht''' geven, slaan op'' : faire attention à.
+#* ''in '''acht''' nemen'' : observer, respecter.
+#* ''een formaliteit in '''acht''' nemen'' : remplir une formalité.
+#* ''niet in '''acht''' nemen'' : contrevenir à.
+#* ''de wet in '''acht''' nemen'' se conformer à la loi.
+#* ''zich in '''acht''' nemen <gezondheid>'' : se ménager; ''<woorden>'' se surveiller.
+#* ''zich in '''acht''' nemen voor iemand'' : se garder de qn.
+#* {{lexique|militaire|nl}} ''geeft '''acht'''!'' : garde à vous!
+
+=== {{S|verbe|nl|flexion}} ===
+'''acht''' {{pron||nl}}
+# ''Première personne du singulier du présent de'' [[achten]].
+#* {{exemple|lang=nl}}
+# ''Deuxième personne du singulier du présent de'' [[achten]].
+#* {{exemple|lang=nl}}
+# ''Troisième personne du singulier du présent de'' [[achten]].
+#* {{exemple|lang=nl}}
+
+=== {{S|taux de reconnaissance}} ===
+{{nl-taux|99,3|100,0|pourB=100|pourNL=99}}
+
+=== {{S|prononciation}} ===
+* {{écouter||aχt|lang=nl|audio=Nl-acht.ogg}}
+* {{écouter|lang=nl|Pays-Bas (partie continentale) (Wijchen)|audio=LL-Q7411 (nld)-Robin van der Vliet-acht.wav}}
+
+=== {{S|anagrammes}} ===
+* {{lien|chat|nl}}
+
+=== {{S|références}} ===
+{{références}}
+
+[[Catégorie:Nombres en néerlandais]]
+
+== {{langue|pdc}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|pdc}}
+
+=== {{S|adjectif numéral|pdc}} ===
+'''acht''' {{pron||pdc}}
+# [[huit#fr|Huit]].
+#* {{exemple|lang=pdc}}
+
+== {{langue|swg}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|swg}}
+
+=== {{S|adjectif numéral|swg}} ===
+'''acht''' {{pron||swg}}
+# [[huit|Huit]].
+
+[[Catégorie:Nombres en souabe]]
+
+== {{langue|sga}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|proto-celtique|sga}} {{recons|lang-mot-vedette=sga|extos|proto-celtique}}, issu de l’{{étyl|indo-européen commun|sga}} {{recons|lang-mot-vedette=sga|h₁eǵʰsto-|indo-européen commun}}, dérivé de ''{{lien|h₁eǵʰs|indo-européen commun}}''.
+
+=== {{S|conjonction|sga}} ===
+'''acht''' {{pron-recons|axt|sga}}
+# [[mais|Mais]].
+# Dès lors que, à condition que. {{usage}} la conjonction est alors suivie par ''{{lien|ro-|sga}}'' et un verbe au subjonctif.
+# [[sauf|Sauf]] que. {{usage}} il est alors suivi d’une proposition relative nasalisante.
+
+=== {{S|verbe|sga|flexion}} ===
+'''·acht''' {{pron-recons||sga}}
+# ''Troisième personne du singulier du prétérit conjoint de'' {{lien|aigid|sga}}.
+# ''Singulier passif du prétérit conjoint de'' {{lien|aigid|sga}}.
+
+=== {{S|références}} ===
+* {{R:DIL|200|head=1 acht (‘but, except’)}}
+
+== {{langue|wae}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|wae}}
+
+=== {{S|adjectif numéral|wae}} ===
+'''acht''' {{pron||wae}}
+# [[huit#fr|Huit]].
+
+==== {{S|variantes dialectales}} ====
+* Alagna Valsesia : [[achti]]
+* Carcoforo : [[achti]]
+* Formazza : [[achti]]
+* Gressoney : [[achté]]
+* Rimella : [[achtwe]]
+
+==== {{S|notes}} ====
+Forme et orthographe du dialecte d’Issime.
+
+=== {{S|références}} ===
+*Ingeborg Geyer, Marco Angster, Marcella Benedetti, Luis Thomas Prader, 2014, ''[https://web.archive.org/web/20150923023500/http://www.isolelinguistiche.it/it/il-tesoro-linguistico.html?file=files%2FSprachinseln%2FPublikationen%2FWoerterbuch%2FWortschatzbuch%20als%20PDF.pdf Il tesoro linguistico delle isole germaniche in Italia]'', Luserna, Comitato unitario Isole Linguistiche Storiche Germaniche in Italia.

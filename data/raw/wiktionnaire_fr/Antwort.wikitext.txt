@@ -1,0 +1,74 @@
+{{voir|antwort}}
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|goh|de|mot=antwurti}}, attesté pour le {{siècle2|VIII}} siècle et du {{étyl|gmh|de|mot=antwürte}}.<ref>{{R:DWDS|Antwort}}</ref>
+: Du {{étyl|goh|de|mot=antwurti}}, équivalent du {{composé de|ent-|Wort|lang=de}}{{R|Duden|Antwort}}, apparenté au néerlandais {{lien|''antwoord''|nl}}.
+
+=== {{S|nom|de}} ===
+{{de-nom-f-en}}
+'''Antwort''' {{pron|ˈantvɔrt|de}} {{f}}
+# [[réponse#fr|Réponse]].
+#* {{exemple|lang=de|Sie müssen die Möglichkeit akzeptieren, dass Sie die '''Antwort''' auf diese Frage nie bekommen werden, Linda.|Vous devez accepter l’éventualité que vous n’aurez jamais la réponse à cette question, Linda.|source={{ouvrage|auteur={{w|Melanie Raabe}}|trad=Céline Maurice|titre=Die Falle|année=2015|éditeur=btb Verlag}}}}
+#* {{exemple|lang=de|Zunächst wird Cem Özdemir zu den Bauernprotesten befragt. Der spult routiniert die '''Antwort'''en ab, die er schon viele Male zuvor gegeben hat, so sehr sich die Moderatorin auch abmüht, ihn zu piesacken. Hätte man sich genauso gut schenken können.|(Le ministre de l’agriculture) est d'abord interrogé sur les manifestations des agriculteurs. Celui-ci donne avec routine les réponses qu'il a déjà données de nombreuses fois auparavant, même si la présentatrice s’efforce de le piquer au vif. On aurait tout aussi bien pu s’en passer.|source={{périodique|auteur=Peter Fahrenholz|titre="Einen Herrn Sellner kenne ich nicht"|journal=Süddeutsche Zeitung|date=24 janvier 2024|texte=https://www.sueddeutsche.de/medien/maischberger-tv-kritik-afd-tino-chrupalla-1.6337696}}}}
+#* {{exemple|Was hilft gegen Sodbrennen, wenn Hausmittel versagen, oder die Beschwerden gehäuft auftreten? Die '''Antwort''': Medikamente aus der Apotheke. Sie sind zum Teil freiverkäuflich, zum Teil rezeptpflichtig.|lang=de|sens=Qu’est-ce qui est efficace contre les brûlures d'estomac lorsque les remèdes de grand-mère échouent ou que les symptômes se produisent fréquemment ? La réponse : les médicaments vendus en pharmacie. Certains d'entre eux sont en vente libre, d'autres sont soumis à prescription médicale.|source={{périodique|auteur=Hanna Rutkowski et Martina Feichter|titre=Sodbrennen|journal=NetDoktor.com|date=12 septembre 2023|texte=https://www.netdoktor.de/symptome/sodbrennen/}}}}
+#* {{exemple|Lutz wollte wissen, wie lange denn Bärlach nach Meinung der Ärzte noch das Bett hüten müsse.<br />«Zwei Monate», gab der Kommissär zur '''Antwort''', «zwei Monate soll ich noch liegen.»|lang=de|sens=Lutz s’inquiéta alors du temps que Baerlach devrait garder le lit selon l’avis des médecins.<br />— Deux mois, lui répondit le commissaire : il faut que je reste deux mois couché, deux mois.|source={{ouvrage|auteur={{w|Friedrich Dürrenmatt}}|trad=Armel Guerne|titre=Der Verdacht|année=1961|éditeur=Verlagsanstalt Benziger & Co. AG.|lieu=Einsiedeln|url=}}}}
+
+==== {{S|synonymes}} ====
+* {{lien|Entgegnung|de}}, {{lien|Erwiderung|de}}, {{lien|Replik|de}}
+
+==== {{S|antonymes}} ====
+* {{lien|Frage|de}}
+
+==== {{S|hyponymes}} ====
+{{(|}}
+* {{lien|Briefantwort|de}}
+* {{lien|Drahtantwort|de}}
+* {{lien|Mehrfachantwort|de}}
+* {{lien|Rückantwort|de}}
+* {{lien|Standardantwort|de}}
+* {{lien|Zwischenantwort|de}}
+{{)}}
+
+==== {{S|dérivés}} ====
+{{(}}
+* {{lien|Anrufbeantworter|de}}
+* {{lien|Antwortbrief|de}}
+* {{lien|antworten|de}}
+* {{lien|Antwortkarte|de}}
+* {{lien|Antwortnote|de}}
+* {{lien|Antwortquote|de}}
+* {{lien|Antwortschein|de}}
+* {{lien|Antwortschreiben|de}}
+* {{lien|Antworttelegramm|de}}
+* {{lien|beantworten|de}}
+* {{lien|Immunantwort|de}}
+* {{lien|Internationaler Antwortschein|de}}
+* {{lien|Rede und Antwort stehen|de}}
+* {{lien|um eine Antwort verlegen sein|de}}
+{{)}}
+
+==== {{S|phrases}} ====
+* {{lien|wie die Frage, so die Antwort|de}}
+
+=== {{S|prononciation}} ===
+* {{écouter|{{DE|nocat=1}}|ˈantvɔʁt|lang=de|audio=De-Antwort.ogg}}
+* {{écouter|Berlin|ˈantvɔʁt|lang=de|audio=De-Antwort2.ogg}}
+* {{écouter|Vienne|ˈantvɔʁt|lang=de|audio=De-at-Antwort.ogg}}
+
+=== {{S|références}} ===
+{{Références}}
+* {{R:Duden|Antwort}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=de}}
+
+{{Bonne entrée|allemand}}
+
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|de|gsw-fr|mot=Antwort}}.
+
+=== {{S|nom|gsw-fr}} ===
+'''Antwort''' {{pron||gsw-fr}}
+# [[réponse|Réponse]].

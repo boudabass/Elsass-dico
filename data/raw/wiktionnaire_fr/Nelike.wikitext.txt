@@ -1,0 +1,4 @@
+== {{langue|gsw-fr}} ==
+=== {{S|nom|gsw-fr|flexion}} ===
+'''Nelike'''
+# Pluriel de '''[[Nelik]]'''

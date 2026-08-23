@@ -1,0 +1,14 @@
+== {{langue|gsw-fr}} ==
+{{ébauche|gsw-fr}}
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|nom|gsw-fr}} ===
+'''elsàss ['s]''' {{n}}
+# [[alsace]].
+
+==== {{S|variantes orthographiques}} ====
+* èlsàss ['s] {{n}}
+
+{{clé de tri|elsass}}

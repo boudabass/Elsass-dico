@@ -1,0 +1,100 @@
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+:Du {{étyl|goh|de}}, apparenté à ''{{lien|snuit|nl}}'' en néerlandais, ''{{lien|snout|en}}'' en anglais de même sens.
+
+=== {{S|nom|de}} ===
+{{de-nom-f-n|ˈʃnaʊ̯ʦə|pnp=ˈʃnaʊ̯t͡sn̩}}
+[[Image:Schnauze Bentheimer Landschwein.JPG|thumb|Schnauze eines '''Wildschweins'''.&nbsp;(1)]]
+'''Schnauze''' {{pron|ˈʃnaʊ̯ʦə|de}} {{f}}
+# [[museau#fr|Museau]], [[groin#fr|groin]] (pour les [[suidés#fr|suidés]], [[taupe#fr|taupes]] et [[musaraigne#fr|musaraignes]]).
+#* {{exemple
+|lang=de
+|Schäferhunde haben lange '''Schnauzen'''.
+|sens=Les chiens de berger ont de longs museaux.
+}}
+#* {{exemple
+|lang=de
+|Um die zehn Meter maß ein ausgewachsener Brachylophosaurier – von der an Enten erinnernden '''Schnauze''' über den mit einer Knochenplatte gepanzerten Schädel bis zur Schwanzspitze.
+|source={{périodique|prénom=Frank|nom=Ochmann|nolien=1|titre=Lebensspur aus der Urzeit|revue=Stern|no=7|date=2017|page=102–104
+}}
+}}
+#* {{exemple|In Marokko werden Touristen, die diesen Tieren die '''Schnauze''' streicheln möchten, häufig mehrere Finger abgebissen. »Ich habe der Dame gesagt, sie soll aufpassen!« klagt dann der heuchlerische Kameltreiber. »Kamel nicht gut …« Die Finger sind trotzdem ab und tatsächlich verschluckt.|lang=de|sens=Fréquemment, au Maroc, les touristes tentant de caresser le museau de l’animal se font arracher plusieurs doigts. « J'avais dit à la dame faire attention… se lamente alors hypocritement le chamelier. Chameau pas gentil… » ; il n'empêche que les doigts sont bel et bien dévorés.|source={{ouvrage|auteur={{w|Michel Houellebecq}}|trad=Hinrich Schmidt-Henkel|titre=Lanzarote|année=2000|éditeur=DuMont Buchverlag|lieu=Köln|url=}}}}
+# {{vulgaire|de}} [[bouche#fr-nom|Bouche]], [[gueule#fr-nom|gueule]].
+#* {{exemple
+|lang=de
+|Halt endlich deine '''Schnauze'''!
+|sens=Ferme ta gueule !
+}}
+# Partie [[avant#fr-nom|avant]] d’un [[véhicule#fr|véhicule]].
+#* {{exemple
+|lang=de
+|Die '''Schnauze''' mancher Autos wirkt aggressiv
+}}
+
+==== {{S|hyperonymes}} ====
+* {{lien|Gesicht|de}}
+* {{lien|Körperteil|de}}
+
+==== {{S|hyponymes}} ====
+* {{lien|Hundeschnauze|de}}
+
+==== {{S|synonymes}} ====
+''Museau, groin :''
+* [[Schnabel#de|Schnabel]]
+''Bouche :''
+* [[Mund#de|Mund]]
+''Avant d’un véhicule :''
+* [[Front#de|Front]]
+
+==== {{S|antonymes}} ====
+{{(|Museau, groin}}
+* [[Auge#de|Auge]]
+* [[Backe#de|Backe]]
+* [[Ohr#de|Ohr]]
+* [[Stirn#de|Stirn]]
+* [[Wange#de|Wange]]
+{{)}}
+{{(|Avant d’un véhicule :}}
+* [[Heck#de|Heck]]
+* [[Hintern#de|Hintern]]
+{{)}}
+
+==== {{S|dérivés}} ====
+* [[Schnauzbart#de|Schnauzbart]]
+
+==== {{S|phrases}} ====
+{{(}}
+* [[auf der Schnauze liegen#de|auf der Schnauze liegen]]
+* [[auf die Schnauze fallen#de|auf die Schnauze fallen]]
+* [[auf die Schnauze fliegen#de|auf die Schnauze fliegen]]
+* [[die Schnauze aufmachen#de|die Schnauze aufmachen]]
+* [[die Schnauze halten#de|die Schnauze halten]]
+* [[die Schnauze voll haben#de|die Schnauze voll haben]]
+* [[frei nach Schnauze#de|frei nach Schnauze]]
+* [[jemamdem die Schnauze polieren#de|jemamdem die Schnauze polieren]]
+* [[jemandem die Schnauze lackieren#de|jemandem die Schnauze lackieren]]
+{{)}}
+
+=== {{S|nom|de|flexion}} ===
+'''Schnauze''' {{pron|ˈʃnaʊ̯t͡sə|de}} 
+# ''Variante du datif singulier de'' {{lien|Schnauz|de}}.
+
+==== {{S|notes}} ====
+: {{de-note-ds2}}
+
+=== {{S|prononciation}} ===
+* {{écouter|Berlin|ˈʃnaʊ̯t͡sə|lang=de|audio=De-Schnauze.ogg}}
+
+=== {{S|voir}} ===
+* {{WP|lang=de}}
+
+=== {{S|références}} ===
+* {{source-wikt|de|3=8953067}}
+
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|nom|gsw-fr}} ===
+'''Schnauze'''
+# [[moustache|Moustache]], [[museau]]

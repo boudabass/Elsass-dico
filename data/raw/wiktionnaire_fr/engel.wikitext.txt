@@ -1,0 +1,64 @@
+{{voir|Engel}}
+
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|nom|gsw-fr}} ===
+'''engel''' {{m}}
+# [[ange#fr|Ange]].
+
+==== {{S|variantes orthographiques}} ====
+* {{lien|angel|gsw-fr}} {{m}}
+
+== {{langue|da}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|da}}
+
+=== {{S|nom|da}} ===
+'''engel''' {{m}}
+# [[ange|Ange]].
+
+== {{langue|nl}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|nl}}
+
+=== {{S|nom|nl}} ===
+'''engel''' {{pron|ɛŋ.ǝl|nl}} {{m}}
+# [[ange|Ange]].
+
+==== {{S|synonymes}} ====
+* [[vrouwelijke engel]]
+
+=== {{S|taux de reconnaissance}} ===
+{{nl-taux|98,8|100,0|pourB=100|pourNL=99}}
+
+=== {{S|prononciation}} ===
+* {{pron|ɛŋ.ǝl|nl}}
+** {{écouter|lang=nl|Pays-Bas|ɛŋ.ǝl|audio=Nl-engel.ogg}}
+
+=== {{S|références}} ===
+{{Références}}
+
+== {{langue|no}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|no}}
+
+=== {{S|nom|no}} ===
+'''engel''' {{m}} ('''engler''' {{p}})
+# [[ange|Ange]]
+
+[[Catégorie : Lexique en norvégien de la religion]]
+[[Catégorie:Créatures mythologiques en néerlandais]]
+[[Catégorie:Créatures mythologiques en vieil anglais]]
+[[Catégorie:Créatures mythologiques en danois]]
+[[Catégorie:Créatures mythologiques en norvégien]]
+[[Catégorie:Créatures mythologiques en alémanique alsacien]]
+
+== {{langue|ang}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|ang}}
+
+=== {{S|nom|ang}} ===
+'''engel'''
+# [[ange|Ange]].

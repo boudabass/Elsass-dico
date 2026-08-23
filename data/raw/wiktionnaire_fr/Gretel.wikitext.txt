@@ -1,0 +1,18 @@
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: {{cf|Margarete}}.
+
+=== {{S|prénom|de|genre=f}} ===
+'''Gretel''' {{pron|ˈɡreː.təl|de}} {{n}} et {{f}}
+# Prénom féminin allemand.
+
+=== {{S|prononciation}} ===
+* {{écouter||ˈɡreː.təl|lang=de|audio=De-Gretel.ogg}}
+
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|nom|gsw-fr}} ===
+'''Gretel'''
+# [[marguerite|Marguerite]]

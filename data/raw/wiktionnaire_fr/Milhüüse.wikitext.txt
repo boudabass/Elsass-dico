@@ -1,0 +1,16 @@
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|nom propre|gsw-fr}} ===
+'''Milhüüse''' {{pron||gsw-fr}}
+# [[Mulhouse#fr|Mulhouse]].
+#* {{exemple|lang=en}}
+
+==== {{S|synonymes}} ====
+* {{lien|Milhüsa|gsw-fr}}
+* {{lien|Milhüse|gsw-fr}}
+
+{{clé de tri|milhuuse}}
+
+[[Catégorie:Localités en alémanique]]

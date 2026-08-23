@@ -1,0 +1,16 @@
+{{voir|danká|danka|Danka}}
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|verbe|gsw-fr}} ===
+'''dànka''' {{pron||gsw-fr}}
+# [[remercier|Remercier]].
+
+==== {{S|dérivés}} ====
+* [[dànkbàr]]
+* [[Dànkbàrkait]]
+* [[Dànksàgung]]
+* [[Dànkschriwa]]
+* [[dànk dinner Helf]]
+* [[dànkenswart]]

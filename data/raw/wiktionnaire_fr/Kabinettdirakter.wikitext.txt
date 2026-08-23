@@ -1,0 +1,11 @@
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: Formé de ''{{lien|Kabinett|gsw-fr}}'' (« cabinet », en politique) et de ''{{lien|Dirakter|gsw-fr}}'' (« directeur »). Cognat avec l’allemand ''{{lien|Kabinettsdirektor|gsw-fr}}''.
+
+=== {{S|nom|gsw-fr}} ===
+'''Kabinettdirakter''' {{phon||gsw-fr}} {{m}}
+# {{lexique|politique|gsw-fr}} [[directeur de cabinet#fr|Directeur de cabinet]].
+#* {{exemple | lang=gsw-fr
+ | Mr han kä Füassbàllspìeler bi da Blàuia àwer dr Generàlsekretair vum Élysée, Alexis Kohler ìsch Strossburger […], un dr '''Kabinettdirakter''' vum Präsidant, Patrick Strzoda, ìsch vu Thann.
+ | Nous [les Alsaciens] n’avons pas de joueur de football parmi les Bleus, mais le secrétaire général de l’Élysée, Alexis Kohler, est strasbourgeois […] et le directeur de cabinet du Président, Patrick Strzoda, est de Thann.
+ | source=Patrick {{smcp|Fluckiger}}, « Uf Elsassisch: Liagerèi um kä And », ''[[:w:L’Alsace|L’Alsace]]'', samedi 4 août 2018.}}

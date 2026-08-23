@@ -1,0 +1,201 @@
+{{voir/sinn}}
+
+== {{langue|fr}} ==
+{{ébauche|fr}}
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|fr}}
+
+=== {{S|nom propre|fr}} ===
+{{fr-inv||inv_titre=Nom propre}}
+'''Sinn''' {{pron||fr}}
+# {{localités|fr|d’Allemagne}} [[commune|Commune]] d’[[Allemagne]], située dans la [[Hesse]].
+
+==== {{S|traductions}} ====
+{{trad-début|}}
+
+{{trad-fin}}
+
+=== {{S|anagrammes}} ===
+{{voir anagrammes|fr}}
+
+=== {{S|voir aussi}} ===
+* {{WP}}
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|gmh|de|sin|sens=sens}}, du {{étyl|goh|de|sin|sens=sens}}, du {{étyl|proto-germanique occidental|de}} {{recons|lang-mot-vedette=de|sinn|proto-germanique occidental}}, du {{étyl|proto-germanique|de}} {{recons|lang-mot-vedette=de|sinnaz|proto-germanique}}.
+
+=== {{S|nom|de}} ===
+{{de-nom-m-s-e|gs2= Sinnes|ds2= Sinne}}
+'''Sinn''' {{pron|zɪn|de}} {{m}}
+# {{lexique|biologie|de}} [[sens|Sens]].
+#* {{exemple|Welche '''Sinn'''e des Kindes müssen gereizt werden, damit es in den Schlaf findet? Braucht es taktile Reize wie Hautkontakt, (...) oder hilft ihm der Geschmack von Muttermilch oder Fläschchenmilch?|lang=de|sens=Quels sont les sens de l’enfant qui doivent être stimulés pour qu'il trouve le sommeil ? A-t-il besoin de stimuli tactiles comme le contact avec la peau, (...) ou le goût du lait maternel ou du lait du biberon l’aide-t-il ?|source={{périodique|auteur=Sara Peschke|titre=»Ich habe noch keinen Teenager im Bett seiner Eltern schlafen sehen«|journal=Süddeutsche Zeitung Magazin|date=08 mai 2023|texte=https://sz-magazin.sueddeutsche.de/familie/schlaf-kinder-babys-training-92647}}}}
+#* {{exemple|SMS von Aïda: »Ich muss gestehen, du hast mir gefehlt. Das ganze Jahr über habe ich mir verkniffen, dir zu schreiben. Um nicht das Gesicht zu verlieren. Um die Dinge nicht komplizierter zu machen. Aber die Dinge werden von allein komplizierter. Du fehlst mir noch immer. Alle meine '''Sinn'''e verlangen nach dir. (...)«|lang=de|sens=SMS d’Aïda : Tu me manquais, je te l’avoue. Je me suis retenue de t’écrire pendant toute cette année. Pour ne pas perdre la face. Pour ne pas compliquer les choses. Mais les choses se compliquent toutes seules. Tu me manques encore. Tous mes sens te réclament.|source={{ouvrage|auteur={{w|Mohamed Mbougar Sarr}}|trad=Holger Fock et Sabine Müller|titre=Die geheimste Erinnerung der Menschen|année=2022|éditeur=Carl Hanser Verlag|lieu=München|url=}}}}
+# [[sens|Sens]], [[signification]].
+#* {{exemple | lang=de | Dieses [[Wort]] wird in einem anderen '''Sinn''' gebraucht. | sens=Ce mot est employé avec un autre sens.}}
+#* {{exemple | lang=de | [[nennen|Nennen]] Sie mir den '''Sinn''', die [[Bedeutung]] dieses Symbols! | sens=Dites-moi le sens, la signification de ce symbole !}}
+#* ''In engerem '''Sinne''', nach dem Buchstaben des Gesetzes.'' (wörtlich: ... in aller Strenge des Buchstabens)
+#*: Au sens étroit, dans toute la rigueur de la lettre.
+#* {{exemple|Der Historiker hingegen billigte dem Konzept des Jahrhunderts als solchem eine gewisse Schlüssigkeit zu, wollte es aber doch im metaphorischen '''Sinn'''e verstanden wissen; so war das 19. Jahrhundert für ihn erst 1914 zu Ende gegangen.|lang=de|sens=L'historien, par contre, accordait une certaine pertinence au concept de siècle, tout en le prenant dans un sens métaphorique ; ainsi, selon lui, le XIXe siècle ne s’était véritablement achevé qu’en 1914.|source={{ouvrage|auteur={{w|Michel Houellebecq}}|trad=Hinrich Schmidt-Henkel|titre=Lanzarote|année=2000|éditeur=DuMont Buchverlag|lieu=Köln|url=}}}}
+#* {{exemple|Auf einen Abgabetermin hinzuarbeiten, hat meinem Dasein in den letzten Jahren immer wieder einen '''Sinn''' verliehen und mir mehr als einmal das Leben gerettet.|lang=de|sens=Ces dernières années, travailler avec une date de remise en tête a régulièrement donné un sens à mon existence et m’a sauvé la vie plus d’une fois.|source={{ouvrage|auteur={{w|Melanie Raabe}}|trad=Céline Maurice|titre=Die Falle|année=2015|éditeur=btb Verlag|url=}}}}
+# [[sentiment|Sentiment]], [[penchant]].
+# {{lien|but|fr|dif=But}}, {{lien|dessein|fr}}.
+#* {{exemple|Humboldts Miene hellte sich auf, als er erfuhr, daß an diesem Ort Curare angefertigt wurde. (...)<br />Humboldt fragte, ob man es trinken könne.<br />Man trage es auf Pfeile auf, sagte der Meister. Es zu trinken habe noch keiner versucht. Man sei ja nicht wahnsinnig.<br />Aber die getöteten Tiere könne man sofort essen?<br />Das könne man, sagte der Meister. Das sei der '''Sinn''' der Sache.|lang=de|sens=Le visage de Humboldt s’éclaira lorsqu’il apprit qu’à cet endroit on fabriquait du curare. (...)<br />Humboldt demanda si on pouvait le boire.<br />On l’étalait sur des flèches, répondit le maître. Personne n’avait jamais essayé de le boire, on n’était pas fou.<br />Mais on pouvait manger aussitôt les animaux ainsi tués ?<br />En effet, dit le maître. C’était tout l’intérêt de la chose.|source={{ouvrage|auteur={{w|Daniel Kehlmann}}|trad=Juliette Aubert|titre=Die Vermessung der Welt|année=2005|éditeur=Rohwolt|lieu=Hamburg|url=}}}}
+
+==== {{S|synonymes}} ====
+; signification
+* {{lien|Bedeutung|de}}
+
+==== {{S|antonymes}} ====
+* {{lien|Sinnlosigkeit|de}}
+
+==== {{S|hyperonymes}} ====
+{{(|}}
+* {{lien|Fluss|de}}
+* {{lien|Wasserlauf|de}}
+* {{lien|Fließgewässer|de}}
+* {{lien|Gewässer|de}}
+{{)}}
+
+==== {{S|hyponymes}} ====
+{{(|}}
+* {{lien|Hören|de}}
+* {{lien|Riechen|de}}
+* {{lien|Schmecken|de}}
+* {{lien|Sehen|de}}
+* {{lien|Tasten|de}}
+{{)}}
+{{(|}}
+* {{lien|Gefühlssinn|de}}
+* {{lien|Gehörsinn|de}}
+* {{lien|Geruchssinn|de}}
+* {{lien|Geschmackssinn|de}}
+* {{lien|Gesichtssinn|de}}
+* {{lien|Gleichgewichtssinn|de}}
+* {{lien|Hautsinn|de}}
+* {{lien|Lichtsinn|de}}
+* {{lien|Muskelsinn|de}}
+* {{lien|Orientierungssinn|de}}
+* {{lien|Ortssinn|de}}
+* {{lien|Raumsinn|de}}
+* {{lien|Sehsinn|de}}
+* {{lien|Spürsinn|de}}
+* {{lien|Tastsinn|de}}
+* {{lien|Temperatursinn|de}}
+* {{lien|Verkehrssinn|de}}
+* {{lien|Vibrationssinn|de}}
+* {{lien|Wärmesinn|de}}
+* {{lien|Zahlensinn|de}}
+{{)}}
+{{(|}}
+* {{lien|Biedersinn|de}}
+* {{lien|Bürgersinn|de}}
+* {{lien|Eigensinn|de}}
+* {{lien|Familiensinn|de}}
+* {{lien|Gemeinschaftssinn|de}}
+* {{lien|Gemeinsinn|de}}
+* {{lien|Gerechtigkeitssinn|de}}
+* {{lien|Kameradschaftssinn|de}}
+* {{lien|Rechtssinn|de}}
+{{)}}
+{{(|}}
+* {{lien|Edelsinn|de}}
+* {{lien|Feinsinn|de}}
+* {{lien|Frohsinn|de}}
+* {{lien|Hochsinn|de}}
+* {{lien|Leichtsinn|de}}
+* {{lien|Tiefsinn|de}}
+{{)}}
+{{(|}}
+* {{lien|Doppelsinn|de}}
+* {{lien|Gegensinn|de}}
+* {{lien|Literalsinn|de}}
+* {{lien|Nebensinn|de}}
+* {{lien|Satzsinn|de}}
+* {{lien|Textsinn|de}}
+* {{lien|Wortsinn|de}}
+{{)}}
+{{(|}}
+* {{lien|Abersinn|de}}
+* {{lien|Blödsinn|de}}
+* {{lien|Drehsinn|de}}
+* {{lien|Erwerbssinn|de}}
+* {{lien|Farbensinn|de}}
+* {{lien|Fernsinn|de}}
+* {{lien|Flattersinn|de}}
+* {{lien|Formensinn|de}}
+* {{lien|Freiheitssinn|de}}
+* {{lien|Freisinn|de}}
+* {{lien|Geschäftssinn|de}}
+* {{lien|Gesinnung|de}}
+* {{lien|Hintersinn|de}}
+* {{lien|Irrsinn|de}}
+* {{lien|Kaltsinn|de}}
+* {{lien|Kunstsinn|de}}
+* {{lien|Lebenssinn|de}}
+* {{lien|Opfersinn|de}}
+* {{lien|Ordnungssinn|de}}
+* {{lien|Quersinn|de}}
+* {{lien|Realitätssinn|de}}
+* {{lien|Reinlichkeitssinn|de}}
+* {{lien|Scharfsinn|de}}
+* {{lien|Schönheitssinn|de}}
+* {{lien|Schwachsinn|de}}
+* {{lien|Sprachsinn|de}}
+* {{lien|Starrsinn|de}}
+* {{lien|Strömungssinn|de}}
+* {{lien|Stumpfsinn|de}}
+* {{lien|Tatsachensinn|de}}
+* {{lien|Testsinn|de}}
+* {{lien|Trübsinn|de}}
+* {{lien|Uhrzeigersinn|de}}
+* {{lien|Unsinn|de}}
+* {{lien|Vollsinn|de}}
+* {{lien|Wahnsinn|de}}
+* {{lien|Wahrheitssinn|de}}
+* {{lien|Widersinn|de}}
+* {{lien|Wirklichkeitssinn|de}}
+* {{lien|Zartsinn|de}}
+* {{lien|Zeitsinn|de}}
+{{)}}
+
+==== {{S|vocabulaire}} ====
+* {{lien|Ziel|de}}
+* {{lien|Zweck|de}}
+
+==== {{S|phrases}} ====
+{{(|}}
+* {{lien|sechster Sinn|de|dif=sechster ''Sinn''}}
+* {{lien|wie von Sinnen|de|dif=wie von ''Sinnen''}}
+* {{lien|ohne Sinn und Verstand|de|dif=ohne ''Sinn'' und Verstand}}
+* {{lien|sich etwas aus dem Sinn schlagen|de|dif=sich etwas aus dem ''Sinn'' schlagen}}
+* {{lien|im wahrsten Sinne des Wortes|de|dif=im wahrsten ''Sinne'' des Wortes}}
+* {{lien|langer Rede kurzer Sinn|de|dif=langer Rede kurzer ''Sinn''}}
+{{)}}
+
+==== {{S|dérivés}} ====
+{{(|Sens (biologie)}}
+* {{lien|Sinnesorgan|de}}
+{{)}}
+{{(|sens (signification)}}
+{{)}}
+
+=== {{S|prononciation}} ===
+* {{écouter|Berlin (Allemagne)|zɪn|lang=de|audio=De-Sinn.ogg}}
+
+=== {{S|références}} ===
+* {{R:DWDS|Sinn}}
+* {{R:Duden|Sinn}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=de}}
+* {{WP|3=de}}
+
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|nom|gsw-fr}} ===
+'''Sinn''' {{pron||gsw-fr}}
+# [[sens|Sens]], [[signification]].

@@ -1,0 +1,42 @@
+{{voir|danká|Danka|dànka}}
+
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|verbe|gsw-fr}} ===
+'''danka''' {{pron||gsw-fr}}
+# [[penser|Penser]], [[réfléchir]].
+
+== {{langue|avk}} ==
+=== {{S|étymologie}} ===
+: Dérivé de ''[[dank#avk|dank]]'' (« chant »).
+
+=== {{S|nom|avk}} ===
+'''danka''' {{pron|ˈdanka|avk}}
+# [[chanson|Chanson]].
+#* {{exemple | lang=avk
+ | Koe gijaxe ke garia, cuggazdon remi balemoya safta kabdi kristnazbalaviel, kristnazbalavielafa '''danka''' zo dankad gan bemikeem.
+ | Dans le hall de la villa, presque tous les matins pendant l'Avent, des chansons de noël sont chantées par les élèves et par le personnel.
+ | source=[https://youtu.be/dxKFCcDqAZs?list=PLwgDqDH7vmpRo3PHSpxCAqSlFAlfg1quy&t=112 vidéo]}}
+
+==== {{S|dérivés}} ====
+* {{lien|danká|avk}}
+* {{lien|dankak|avk}}
+* {{lien|dankot|avk}}
+* {{lien|dankú|avk}}
+=== {{S|prononciation}} ===
+* {{écouter|lang=avk|France|ˈdanka|audio=danka.wav}}
+=== {{S|références}} ===
+* {{Kotapedia|danka}}
+[[Catégorie:Lexique en kotava de la musique]] 
+[[Catégorie:Mots en kotava répertoriés sur Kotapedia]]
+
+== {{langue|sl}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|sl}}
+
+=== {{S|nom|sl}} ===
+{{sl-décl-nf|dank}}
+'''danka''' {{pron||sl}} {{f}}
+# {{lexique|anatomie|sl}} [[rectum|Rectum]].

@@ -1,0 +1,118 @@
+{{voir/oi}}
+
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|adverbe|gsw-fr}} ===
+'''oi''' {{pron||gsw-fr}}
+# [[aussi|Aussi]], [[également]], de [[même]]
+
+== {{langue|pro}} ==
+=== {{S|adverbe|pro}} ===
+'''oi'''
+# {{variante de|hoi}}.
+
+=== {{S|références}} ===
+* {{R:Raynouard}}
+
+== {{langue|fi}} ==
+{{ébauche|fi}}
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|fi}}
+
+=== {{S|interjection|fi}} ===
+'''oi''' {{pron|oi|fi}}
+# [[ô|Ô]], [[oh]].
+
+== {{langue|meu}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|meu}}
+
+=== {{S|pronom personnel|meu}} ===
+'''oi''' {{pron||meu}}
+# [[tu#fr|Tu]].
+
+=== {{S|références}} ===
+* {{R:Lynch1998|p=100}}
+
+== {{langue|oc}} ==
+=== {{S|étymologie}} ===
+: Onomatopée.
+
+=== {{S|interjection|oc}} ===
+{{oc-inv|uj|inv_titre=Interjection}}
+'''oi''' {{pron|uj|oc}} {{oc-norme classique}}
+# [[ouille|Ouille]], [[aïe]], cri de douleur.
+
+==== {{S|synonymes}} ====
+* {{lien|oai|oc}}
+* {{lien|òi|oc}}
+* {{lien|ai|oc}}
+
+==== {{S|paronymes}} ====
+* {{lien|òi|oc|sens=oui}}
+
+=== {{S|références}} ===
+* {{R:Lo Congrès}}
+* {{R:Cantalausa}}
+* {{R:Laux-dict-oc-fr}}
+* {{R:Ubaud}}
+
+== {{langue|pt}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|pt}}
+
+=== {{S|interjection|pt}} ===
+'''oi''' {{pron|ˈoj|pt}} (Lisbonne) {{pron|ˈoj|pt}} (São Paulo)
+# [[salut|Salut]].
+
+=== {{S|prononciation}} ===
+* Lisbonne : {{pron|ˈoj|pt}} (langue standard), {{pron|ˈoj|pt}} (langage familier)
+* São Paulo : {{pron|ˈoj|pt}} (langue standard), {{pron|ˈoj|pt}} (langage familier)
+* Rio de Janeiro : {{pron|ˈoj|pt}} (langue standard), {{pron|ˈoj|pt}} (langage familier)
+* Maputo : {{pron|ˈoj|pt}} (langue standard), {{pron|ˈoj|pt}} (langage familier)
+* Luanda : {{pron|ˈoj|pt}}
+* Dili : {{pron|ˈoj|pt}}
+* {{écouter||ˈoj|lang=pt|audio=LL-Q5146 (por)-Cathodography-oi.wav}}
+* {{écouter|Porto (Portugal)|ˈoj|lang=pt|audio=LL-Q5146 (por)-Santamarcanda-oi.wav}}
+* {{écouter|États-Unis|ˈoj|lang=pt|audio=LL-Q5146 (por)-Nelson Ricardo 2500-oi.wav}}
+* {{écouter|États-Unis|ˈoj|lang=pt|audio=LL-Q5146 (por)-Nelson Ricardo 2500-oi (diphthong).wav}}
+
+=== {{S|anagrammes}} ===
+{{voir anagrammes|pt}}
+
+=== {{S|références}} ===
+* {{R:Priberam|oi}}
+* {{R:Michaelis|oi}}
+* {{R:Aulete|oi}}
+* {{R:DicionárioFonético|oi|id=22160}}
+
+== {{langue|ro}} ==
+=== {{S|nom|ro|flexion}} ===
+{{ro-nom-tab|gen={{f}}|ns=oaie|np=oi|as=oaia|ap=oile|ds=oii|dp=oilor|vs=oaio}}
+'''oi''' {{pron||ro}} {{f}}
+# Cas {{nominatif|ro}} et {{accusatif|ro}} pluriel de [[oaie#ro|oaie]].
+# Cas {{datif|ro}} et {{génitif|ro}} singulier de [[oaie#ro|oaie]].
+# Cas {{datif|ro}} et {{génitif|ro}} pluriel de [[oaie#ro|oaie]].
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=ro|||audio=LL-Q7913 (ron)-Andreea Teodoraa-oi.wav}}
+
+== {{langue|shp}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|shp}}
+
+=== {{S|nom|shp}} ===
+'''oi''' {{pron||shp}}
+# {{lexique|météorologie|shp}} [[pluie#fr|Pluie]].
+
+== {{langue|tri}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|tri}}
+
+=== {{S|nom|tri}} ===
+'''oi''' {{pron|oi|tri}}
+# {{lexique|botanique|tri}} [[herbe#fr|Herbe]].
+# {{lexique|géographie|tri}} [[savane#fr|Savane]].

@@ -1,0 +1,21 @@
+== {{langue|de}} ==
+ 
+=== {{S|verbe|de|flexion}} ===
+'''erinnert''' {{pron|ɛɐ̯ˈʔɪnɐt|de}} 
+ 
+# ''Deuxième personne du pluriel de l’impératif présent de'' [[erinnern#de|erinnern]].
+# ''Deuxième personne du pluriel du présent de l’indicatif de'' [[erinnern#de|erinnern]].
+# ''Participe passé de'' [[erinnern#de|erinnern]].
+# ''Troisième personne du singulier du présent de l’indicatif de'' [[erinnern#de|erinnern]].
+ 
+=== {{S|prononciation}} ===
+* {{écouter|Berlin|ɛɐ̯ˈʔɪnɐt|lang=de|audio=De-erinnert2.ogg}}
+
+{{vérifier création automatique||gsw-fr}}
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|verbe|gsw-fr}} ===
+'''erinnert'''
+# [[rappeler|Rappeler]], [[penser]], [[souvenir]]

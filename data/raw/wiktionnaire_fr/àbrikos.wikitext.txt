@@ -1,0 +1,13 @@
+{{voir|abrikos}}
+
+== {{langue|gsw-fr}} ==
+{{ébauche|gsw-fr}}
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|nom|gsw-fr}} ===
+'''àbrikos ['d]''' {{f}}
+# [[abricot|Abricot]].
+
+{{clé de tri|abrikos}}

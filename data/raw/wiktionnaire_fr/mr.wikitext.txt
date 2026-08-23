@@ -1,0 +1,14 @@
+{{voir/mr}}
+
+== {{langue|conv}} ==
+=== {{S|symbole|conv}} ===
+'''mr''' {{invar}}
+# {{lexique|linguistique|conv}} [[code|Code]] ISO 639-1 (alpha-2) du '''[[marathe]]'''.
+
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|pronom personnel|gsw-fr}} ===
+'''mr''' {{pron||gsw-fr}}
+# [[nous|Nous]], on.

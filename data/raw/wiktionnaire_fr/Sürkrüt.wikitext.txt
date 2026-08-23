@@ -1,0 +1,10 @@
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{date|lang=gsw-fr}} {{composé de|sür|Krüt|lang=gsw-fr|sens1=aigre|sens2=chou|m=1}} ; littéralement "chou aigre".
+
+=== {{S|nom|gsw-fr}} ===
+'''Sürkrüt''' {{pron||gsw-fr}}
+# [[choucroute|Choucroute]]
+#* {{exemple|lang=gsw-fr}}
+
+{{clé de tri|surkrut}}

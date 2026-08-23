@@ -1,0 +1,9 @@
+{{voir|síi|sii}}
+== {{langue|gsw-fr}} ==
+{{ébauche|gsw-fr}}
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|verbe|gsw-fr}} ===
+'''sìì''' {{pron||gsw-fr}} {{auxiliaire|gsw-fr}}
+# [[être#fr|Être]].

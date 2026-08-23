@@ -1,0 +1,21 @@
+== {{langue|gsw-fr}} ==
+{{ébauche|gsw-fr}}
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|préposition|gsw-fr}} ===
+'''üs''' {{pron||gsw-fr}} 
+# [[de#fr|De]] (indique la provenance). 
+
+{{clé de tri|us}}
+{{voir/us}}
+
+== {{langue|tr}} ==
+=== {{S|étymologie}} ===
+: <!--De l’{{étyl|<code langue...>|tr|mot=<...>|sens=<...>}}.-->
+
+=== {{S|nom|tr}} ===
+'''üs''' {{pron|ys|tr}} ({{p}}: '''[[üsler]]''')
+# [[base|Base]].
+
+{{clé de tri|us}}

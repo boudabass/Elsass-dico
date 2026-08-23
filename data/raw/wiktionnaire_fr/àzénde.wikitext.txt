@@ -1,0 +1,14 @@
+== {{langue|gsw-fr}} ==
+{{ébauche|gsw-fr}}
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|verbe|gsw-fr}} ===
+'''àzénde'''
+# [[allumer]].
+
+==== {{S|variantes orthographiques}} ====
+* agzunda
+
+{{clé de tri|Gschwar}}

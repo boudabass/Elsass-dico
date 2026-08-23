@@ -1,0 +1,22 @@
+{{voir|wàrte}}
+
+== {{langue|gsw-fr}} ==
+{{ébauche|gsw-fr}}
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|verbe|gsw-fr}} ===
+'''warte'''
+# [[attendre]].
+
+==== {{S|variantes orthographiques}} ====
+* [[wàrte]]
+
+== {{langue|de}} ==
+=== {{S|verbe|de|flexion}} ===
+'''warte''' {{pron|ˈvaʁtə|de}}
+# ''Première personne du singulier du présent de l’indicatif à la forme active de'' [[warten#de|warten]].
+# ''Première personne du singulier du présent du subjonctif 1 à la forme active de'' [[warten#de|warten]].
+# ''Troisième personne du singulier du présent du subjonctif 1 à la forme active de'' [[warten#de|warten]].
+# ''Deuxième personne du singulier du présent de l’impératif à la forme active de'' [[warten#de|warten]].

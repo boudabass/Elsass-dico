@@ -1,0 +1,17 @@
+{{voir|stínka}}
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|verbe|gsw-fr}} ===
+'''stinka'''
+# [[puer|Puer]], [[sentir]] [[mauvais]]
+
+== {{langue|sv}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|sv}}
+
+=== {{S|verbe|sv}} ===
+{{sv-conj-er|racine=stink|3=stank|4=stunkit|6=}}
+'''stinka''' {{pron||sv}}
+# [[puer#fr|Puer]], [[empester]].

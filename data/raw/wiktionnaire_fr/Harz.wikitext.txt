@@ -1,0 +1,81 @@
+{{voir|harz}}
+
+== {{langue|fr}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|fr|mot=Harz}}.
+
+=== {{S|nom propre|fr}} ===
+[[File:Harz map.png|vignette]]
+'''Harz''' {{pron||fr}} {{f}}
+# {{montagnes|fr|d’Allemagne}} Massif montagneux [[hercynien]] situé au centre-nord de l’{{lien|Allemagne|fr}}.
+#* {{exemple | lang=fr | {{ws|Voyages dans le '''Harz'''}}.}}
+#*''De toutes les provinces naturelles de l’Allemagne, il n’en est aucune qui soit plus nettement délimitée que le '''Harz''', Cette région montagneuse surgissant au milieu d’un pays de plaines doit à cet isolement son antique réputation''. {{source|Auguste Laugel, ''{{ws|Les Mineurs du Harz, souvenirs d’un voyage dans l’Allemagne du Nord}}'', 1861}}
+
+==== {{S|variantes}} ====
+* {{lien|Hartz|fr}}
+
+==== {{S|vocabulaire}} ====
+* {{voir thésaurus|fr|montagne}}
+* {{lien|hercynien|fr}}
+
+==== {{S|traductions}} ====
+{{trad-début|}}
+* {{T|de}} : {{trad+|de|Harz}}
+* {{T|en}} : {{trad+|en|Harz}}
+* {{T|cs}} : {{trad-|cs|Harc}}
+{{trad-fin}}
+
+=== {{S|voir aussi}} ===
+* {{WP}}
+
+== {{langue|de}} ==
+
+=== {{S|étymologie}} ===
+: {{lien-ancre-étym|de|nom}} Du germanique {{recons|lang-mot-vedette=de|hartą}}, apparenté au néerlandais ''{{lien|hars|nl|sens=résine}}'', à ''{{lien|Herz|de|sens=cœur}}'' : la résine provient du cœur du bois.
+: {{lien-ancre-étym|de|nom propre}} Forme collatérale de ''{{lien|Hart|de|sens=forêt}}'', apparenté à ''{{lien|Hardt|fr}}''.
+
+=== {{S|nom|de}} ===
+{{de-nom-n-s-e}}
+'''Harz''' {{pron|haːɐ̯t͡s|de}} {{n}}
+# [[résine#fr|Résine]].
+#* {{exemple|lang=de}}
+
+=== {{S|nom propre|de}} ===
+'''Harz''' {{pron|haːɐ̯t͡s|de}} {{n}}
+# {{montagnes|de|d’Allemagne}} {{lien|Harz|fr}}.
+#* {{exemple|lang=de}}
+
+==== {{S|dérivés}} ====
+* {{lien|Harzburg|de}}
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=de|Allemagne|haːɐ̯t͡s|audio=De-Harz.ogg}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=de}}
+
+=== {{S|références}} ===
+* {{R:Duden}}
+
+== {{langue|gsw-fr}} ==
+
+=== {{S|étymologie}} ===
+: Apparenté à l’allemand ''{{lien|Herz|de}}'' de même sens.
+
+=== {{S|nom|gsw-fr}} ===
+'''Harz'''
+# [[cœur#fr|Cœur]].
+
+== {{langue|en}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|fr|mot=Harz}}.
+
+=== {{S|nom propre|en}} ===
+'''Harz''' {{pron||en}}
+# {{montagnes|en|d’Allemagne}} {{lien|Harz|fr}}.
+#* {{exemple|lang=en}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=en}}

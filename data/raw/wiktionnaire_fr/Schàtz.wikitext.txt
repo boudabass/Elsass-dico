@@ -1,0 +1,12 @@
+{{voir|Schatz}}
+
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|nom|gsw-fr}} ===
+'''Schàtz''' {{pron||gsw-fr}}
+# [[trésor|Trésor]].
+# {{lien|chéri|dif=Chéri}}, chérie.
+
+{{clé de tri|schatz}}

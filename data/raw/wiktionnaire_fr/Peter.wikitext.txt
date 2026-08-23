@@ -1,0 +1,175 @@
+{{voir/peter}}
+
+== {{langue|fr}} ==
+=== {{S|étymologie}} ===
+: {{date|lang=fr}} De l’{{étyl|en|fr|mot=Peter}}.
+
+=== {{S|prénom|fr|genre=m}} ===
+'''Peter''' {{pron|pi.tœʁ|fr}} {{m}}
+# [[prénom|Prénom]] [[masculin]] [[anglo-saxon]] correspondant à ''[[Pierre]]'' en français.
+#* {{exemple | lang=fr
+ | C’est une deuxième défaite d’affilée pour les hommes de '''Peter''' Bosz, qui stagnent à la {{5e|place}} du classement de Ligue I, et voient revenir ceux de Philippe Clément à seulement deux petits points, à la {{7e|place}}.
+ | source=journal ''20 minutes'', édition Paris-IDF, 12 septembre 2022, page 22}}
+#* {{exemple | lang=fr
+ | Le réalisateur des deux premiers épisodes, Juan Antonio Bayona, s’inspire de la conception des films de '''Peter''' Jackson, elle-même inspirée par les artistes fétiches de Tolkien, John Howe et Alan Lee.
+ | source=journal ''20 minutes'', édition Paris-IDF, 2 septembre 2022, page 11}}
+
+==== {{S|diminutifs}} ====
+* [[Pete]]
+
+==== {{S|traductions}} ====
+{{trad-début}}
+* {{T|de}} : {{trad+|de|Peter|m}}
+* {{T|en}} : {{trad+|en|Peter}}
+* {{T|ca}} : {{trad+|ca|Pere|m}}
+* {{T|co}} : {{trad+|co|Petru|m}}
+* {{T|es}} : {{trad+|es|Pedro|m}}
+* {{T|eo}} : {{trad+|eo|Petro}}
+* {{T|francique rhénan}} : {{trad|francique rhénan|Peter}}
+* {{T|it}} : {{trad+|it|Pietro|m}}
+{{trad-fin}}
+
+=== {{S|anagrammes}} ===
+{{voir anagrammes|fr}}
+
+=== {{S|voir aussi}} ===
+{{Autres projets|w=Peter}}
+
+[[Catégorie:Prénoms anglais en français]]
+
+== {{langue|de}} ==
+
+=== {{S|étymologie}} ===
+: {{date|lang=de}} Du {{étylp|la|de|mot=Petrus}}, dérivé du {{étylp|grc|de|mot=Πέτρος|tr=Pétros}}.
+
+=== {{S|prénom|de|genre=m}} ===
+{{de-tab-cas
+|ns=(der) '''Peter'''
+|np=die '''Peter''' <br> ''<small>ou</small>'' [[Peters]]
+|as=(der) '''Peter'''
+|ap=die '''Peter''' <br> ''<small>ou</small>'' [[Peters]]
+|gs=(des) '''Peter''' <br> ''<small>ou</small>'' [[Peters]]
+|gp=der '''Peter''' <br> ''<small>ou</small>'' [[Peters]]
+|ds=(dem) '''Peter'''
+|dp=den [[Petern]] <br> ''<small>ou</small>'' [[Peters]]}}
+'''Peter''' {{pron|ˈpeː.tɐ|de}} {{m}}
+# [[Pierre]].
+#* {{exemple | lang=de
+ | '''Peter''' will ins Kino gehen.
+ | Pierre veut aller au cinéma.}}
+
+==== {{S|notes}} ====
+En allemand, les prénoms n’ont généralement pas d’article au singulier.
+Le pluriel sera employé lorsque plusieurs porteurs d'un même prénom doivent être désignés.
+
+==== {{S|dérivés}} ====
+* [[Hackepeter]]
+* [[Miesepeter]]
+* [[Petersburg]]
+* [[Petersdom]]
+* [[Petermännchen]]
+* [[Petersplatz]]
+* [[Peterwagen]]
+* [[Schwarzer Peter]]
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=de|Allemagne|ˈpeːtɐ|audio=De-Peter3.oga}}
+* {{écouter|lang=de|Allemagne|ˈpeːtɐ|audio=De-Peter.ogg}}
+* {{écouter|lang=de|Allemagne (Berlin)|ˈpeːtɐ|audio=De-Peter2.ogg}}
+
+== {{langue|gsw-fr}} ==
+
+=== {{S|étymologie}} ===
+: {{date|lang=gsw-fr}} Du {{étyl|la|de|mot=Petrus}}.
+
+=== {{S|prénom|gsw-fr|genre=m}} ===
+'''Peter''' {{pron||gsw-fr}} {{m}}
+# [[Pierre]].
+
+== {{langue|en}} ==
+
+=== {{S|étymologie}} ===
+: {{date|lang=en}} Du {{étylp|la|en|mot=Petrus}}, dérivé du {{étylp|grc|en|mot=Πέτρος|tr=Pétros}}.
+
+=== {{S|prénom|en|genre=m}} ===
+'''Peter''' {{pron|ˈpiː.tə|en}} {{UK|nocat=true}}, {{pron|ˈpi.tɚ|en}} {{UK|nocat=true}}
+# [[Pierre]].
+
+==== {{S|dérivés}} ====
+* [[blue peter]]
+* {{lien|Parkin|en}}
+* {{lien|Parkins|en}}
+* {{lien|Parkinson|en}}
+* {{lien|Pearce|en}}
+* {{lien|Pears|en}}
+* {{lien|Pearson|en}}
+* {{lien|Perkin|en}}
+* {{lien|Perkins|en}}
+* [[Peter Pan]]
+* [[Peter principle]]
+* {{lien|Peters|en}}
+* {{lien|Peterson|en}}
+* {{lien|Pierce|en}}
+* {{lien|Piers|en}}
+* {{lien|Pierson|en}}
+* [[rob Peter to pay Paul]]
+
+==== {{S|diminutifs}} ====
+* [[Pete]]
+* [[Petey]]
+
+=== {{S|prononciation}} ===
+* {{pron|ˈpiː.tə|en}} {{UK|nocat=true}}
+* {{pron|ˈpi.tɚ|en}} {{UK|nocat=true}}
+** {{écouter|lang=en|États-Unis|ˈpʰi.ɾɚ|audio=En-us-Peter.ogg}}
+
+== {{langue|is}} ==
+
+=== {{S|étymologie}} ===
+: {{date|lang=is}} Du {{étyl|la|is|mot=Petrus}}.
+
+=== {{S|prénom|is|genre=m}} ===
+{{is-décl-prénom|g=Peters}}
+'''Peter''' {{pron||is}} {{m}}
+# [[Pierre]].
+
+== {{langue|lb}} ==
+=== {{S|étymologie}} ===
+: {{date|lang=lb}} {{ébauche-étym|lb}}
+{{note noms de famille}}
+
+=== {{S|nom de famille|lb}} ===
+{{lb-inv|ˈpeːtɐ}}
+'''Peter''' {{pron|ˈpeːtɐ|lb}}
+# Nom de famille.
+#* {{exemple|lang=lb}}
+
+=== {{S|prononciation}} ===
+{{ébauche-pron-audio|lb}}
+
+=== {{S|anagrammes}} ===
+{{voir anagrammes|lb}}
+
+=== {{S|références}} ===
+* {{R:Luxemburger Familiennamenbuch}}
+
+== {{langue|no}} ==
+=== {{S|étymologie}} ===
+: Du {{étylp|la|no|mot=Petrus}}, dérivé du {{étylp|grc|no|mot=Πέτρος|tr=Pétros}}.
+
+=== {{S|prénom|no|genre=m}} ===
+'''Peter''' {{pron||no}} {{m}}
+# [[Pierre]].
+
+==== {{S|dérivés}} ====
+* {{lien|Petersen|no}}
+
+== {{langue|sk}} ==
+
+=== {{S|étymologie}} ===
+: {{date|lang=sk}} Du {{étylp|la|sk|mot=Petrus}}, dérivé du {{étylp|grc|sk|mot=Πέτρος|tr=Pétros}}.
+
+=== {{S|prénom|sk|genre=m}} ===
+{{sk-décl-nom-ma|rad=Pet|er|r|np=ovia|ip=ami}}
+'''Peter''' {{pron||sk}} {{m|a}}
+# [[Pierre]].

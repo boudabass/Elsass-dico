@@ -1,0 +1,8 @@
+== {{langue|gsw-fr}} ==
+{{ébauche|gsw-fr}}
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|conjonction de coordination|gsw-fr}} ===
+'''àwer''' {{pron||gsw-fr}}
+# [[mais#fr|Mais]].

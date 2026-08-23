@@ -1,0 +1,10 @@
+{{voir|rása|rasa|řasa}}
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|verbe|gsw-fr}} ===
+'''rãsa'''
+# [[foncer|Foncer]] (avec un véhicule)
+# [[foncer|Foncer]] à [[toute]] [[vitesse]], très vite
+{{clé de tri|rasa}}

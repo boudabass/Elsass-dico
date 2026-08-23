@@ -1,0 +1,9 @@
+{{vérifier création automatique||gsw-fr}}
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|nom|gsw-fr}} ===
+'''Schãltung'''
+# [[changement|Changement]] de [[vitesse]], [[commutation]]
+{{clé de tri|schaltung}}

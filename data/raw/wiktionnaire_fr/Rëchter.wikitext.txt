@@ -1,0 +1,11 @@
+{{vérifier création automatique||gsw-fr}}
+{{voir|rechter-|Rechter}}
+
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+{{ébauche-étym|gsw-fr}}
+
+=== {{S|nom|gsw-fr}} ===
+'''Rëchter'''
+# [[juge|Juge]]
+{{clé de tri|rechter}}

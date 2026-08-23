@@ -1,0 +1,15 @@
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|goh|gsw-fr|mot=muodi}}.
+
+=== {{S|adjectif|gsw-fr}} ===
+'''mìed''' {{phon|mɪːd̥|gsw-fr}} (''Nord-Alsace et Strasbourg''),
+{{phon|mɪ.əd̥|gsw-fr}} (''Centre-Alsace''),
+{{phon|mɪ.ad̥|gsw-fr}} (''Sud-Alsace'')<ref>https://woerterbuchnetz.de/?sigle=ElsWB&mode=Vernetzung&lemid=EM00049#2</ref> <ref>DtV Atlas zur Deutschen Sprache, Werner König</ref>
+# [[fatigué#fr|Fatigué]].
+#* {{exemple | lang=gsw-fr
+ | Hit bìn ìch àrig '''mìed'''.
+ | Aujourd'hui, je suis très fatigué.}}
+
+=== {{S|références}} ===
+{{références}}

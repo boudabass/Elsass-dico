@@ -1,0 +1,33 @@
+
+
+== {{langue|gsw-fr}} ==
+{{ébauche|gsw-fr}}
+=== {{S|étymologie}} ===
+: Composé de la particule séparable ''{{lien|àb-|gsw-fr}}'' et du verbe ''{{lien|làde|gsw-fr}}''. Cognat avec l’allemand ''{{lien|abladen|de}}''.
+
+=== {{S|verbe|gsw-fr}} ===
+'''àblàde''' {{phon|àplâtə|gsw-fr}} ''avec particule séparable'' (participe passé : ''{{lien|àbglàde|gsw-fr}}'' ou ''{{lien|àbg’làde}}'')
+# [[décharger#fr|Décharger]].
+#* {{exemple | lang=gsw-fr
+ | Mìr '''làde''' dr Camion '''àb'''.
+ | Nous déchargeons le camion.}}
+#* {{exemple | lang=gsw-fr
+ | Mìr hàn dr Camion '''àbg’làde'''.
+ | Nous avons déchargé le camion.}}
+
+==== {{S|variantes orthographiques}} ====
+* {{lien|àblààda|gsw-fr}}
+* {{lien|àblàda|gsw-fr}}
+* {{lien|ablade|gsw-fr}}
+* {{lien|alade|gsw-fr}}
+
+==== {{S|antonymes}} ====
+* {{lien|làde|gsw-fr}} — charger
+* {{lien|uflàde|gsw-fr}} — charger
+
+==== {{S|notes}} ====
+La graphie ''àblàde'' correspond à une prononciation usitée dans la partie sud de la [[Haute-Alsace]] (cf. ''Wörterbuch der elsässischen Mundarten'', 1899).
+
+=== {{S|références}} ===
+* (''{{en}}'') « unload », ''in:'' {{Ouvrage |titre=Learning Alsatian Through English: A Comparative Dictionary|prénom=Paul|nom=Adolf|éditeur=Springer|année=2007}}, [https://books.google.fr/books?id=KlgBDgAAQBAJ&pg=PA146&lpg=PA146&dq=%22àblàde%22&source=bl&ots=5YpGuPa_-0&sig=tJqhBF7iyNt0GVTuc61KyaSpYOg&hl=fr&sa=X&ved=2ahUKEwi7ifjMwaTcAhXnz4UKHfb3B9UQ6AEwAXoECAEQAQ#v=onepage&q=%22àblàde%22&f=false p. 146]
+* (''{{nom langue|de}}'') [http://woerterbuchnetz.de/cgi-bin/WBNetz/wbgui_py?sigle=ElsWB&mode=Gliederung&lemid=EL00339#XEL00340 « a(b)lade<sup>n</sup> »], ''in:'' {{Ouvrage |titre=Wörterbuch der elsässischen Mundarten |volume=1|prénom1=Ernst|nom1=Martin|prénom2=Hans |nom2=Lienhart|éditeur=Karl J. Trübner |année=1899|lieu=Strasbourg}}

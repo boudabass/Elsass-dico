@@ -1,0 +1,38 @@
+{{voir|guidon}}
+
+== {{langue|fr}} ==
+=== {{S|étymologie}} ===
+: Plusieurs hypothèses :
+:* Jean Totsi y voit un diminutif du prénom et nom de famille [[Guy]].
+:* {{w|Albert Dauzat}} y voit une origine par le sens (2) de « porteur de guidon », de [[guidon]]. Mais ce mot n’apparaît que vers 1500, cela rend l’hypothèse fragile puisque les noms de famille sont déjà fixé en grande partie à cette époque. 
+
+=== {{S|nom de famille|fr}} ===
+{{fr-inv|gi.dɔ̃|inv_titre=Nom de famille}}
+'''Guidon''' {{pron|ɡi.dɔ̃|fr}}
+# [[nom de famille|Nom de famille]] français.
+
+==== {{S|dérivés}} ====
+* [[Guidou]]
+* [[Guidoux]]
+
+==== {{S|traductions}} ====
+{{trad-début}}
+{{trad-fin}}
+
+=== {{S|anagrammes}} ===
+{{voir anagrammes|fr}}
+
+=== {{S|voir aussi}} ===
+* {{WP}}
+
+=== {{S|références}} ===
+* {{W|Albert Dauzat}}, ''Dictionnaire étymologique des noms de famille et prénoms de France'', Larousse, page 314, 1951 (réédition, revue et augmentée par Marie-Thérèse Morlet en 1980)
+* Jean Tosti, Les Noms de Famille sur ''jeantosti.com'' ([https://web.archive.org/web/20121128003123/http://jeantosti.com/noms/g8.htm Guidon])
+
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|nom|gsw-fr}} ===
+'''Guidon'''
+# [[guidon|Guidon]]

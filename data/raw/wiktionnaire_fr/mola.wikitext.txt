@@ -1,0 +1,248 @@
+{{voir/mola}}
+
+== {{langue|fr}} ==
+=== {{S|verbe|fr|flexion}} ===
+{{fr-verbe-flexion|moler|ind.ps.3s=oui}}
+'''mola''' {{pron||fr}}
+# ''Troisième personne du singulier du passé simple de'' [[moler]].
+
+=== {{S|anagrammes}} ===
+{{voir anagrammes|fr}}
+
+== {{langue|aa}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|aa}}
+
+=== {{S|nom|aa}} ===
+'''mola''' {{pron||aa}}
+# [[sevrage|Sevrage]].
+
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|verbe|gsw-fr}} ===
+'''mola''' {{pron||gsw-fr}}
+# [[dessiner|Dessiner]], [[peindre]]
+
+== {{langue|es}} ==
+=== {{S|verbe|es|flexion}} ===
+{{es-verbe-flexion|molar|ind.p.3s=oui|imp.p.2s=oui}}
+'''mola''' {{pron|ˈmo.la|es}}
+# ''Troisième personne du singulier du présent de l’indicatif de ''{{lien|molar|es}}''.
+# ''Deuxième personne du singulier de l’impératif de ''{{lien|molar|es}}''.''
+
+== {{langue|eo}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|eo|mot=mollis}}, du {{étyl|fr|eo|mot=molle}}, de l’{{étyl|it|eo|mot=molle}}.
+
+=== {{S|adjectif|eo}} ===
+{{eo-flexions|ˈmo.la}}
+'''mola''' {{pron|ˈmo.la|eo}}
+# [[mou|Mou]], [[moelleux]].
+#* {{exemple | lang=eo
+ | [[specialaĵo|Specialaĵoj]] de la montara [[regiono]] de Serra da Estela{{SIC}} estas [[mielo]] kaj '''mola''' [[fromaĝo]], produktita el ŝafa [[lakto]].
+ | Les spécialités de la région montagneuse de Serra da Estrela sont le miel et un fromage mou produit avec du lait de brebis.
+ | source=William Simcock, « ''Braga'' », ''Monato''}}
+# {{figuré|eo}} [[mou|Mou]], [[tendre]].
+#* {{exemple | lang=eo
+ | Ŝiaj vizaĝtrajtoj estis '''molaj''' kaj [[tenera]]j.
+ | Les traits de son visage étaient mous et tendres.
+ | source=Julian Modest, « ''Vetiha'' », ''Monato''}}
+# {{lexique|linguistique|eo}} [[mouillé|Mouillé]], [[mou]].
+#* {{exemple | lang=eo
+ | Kiel en la [[rusa#eo|rusa]], preskaŭ ĉiuj [[konsonanto]]j povas esti “'''molaj'''” aŭ “[[malmola]]j”.
+ | Comme en russe, presque toutes les consonnes peuvent être « mouillées » ou « dures ».
+ | source=Bradley Kendal, « ''La pola, la lingvo de Zamenhof'' », ''Monato''}}
+
+==== {{S|antonymes}} ====
+* [[malmola]]
+
+==== {{S|dérivés}} ====
+{{(}}
+* [[malmola]] ''(dur)''
+* [[malmole]] ''(durement)''
+* [[malmoleco]] ''(dureté)''
+* [[malmoligi]] ''(durcir)''
+* [[malmoliĝi]] ''(durcir)''
+* [[molaĵo]] ''(mou)''
+* [[mole#eo|mole]] ''(mollement)''
+* [[moleco]] ''(mollesse)''
+* [[moligi]] ''(ramollir)''
+* [[moliĝi]] ''(mollir)''
+* [[molmatura]] ''(blet)''
+{{)}}
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=eo|Pays-Bas (partie continentale) (Wijchen)|audio=LL-Q143 (epo)-Robin van der Vliet-mola.wav}}
+* {{écouter|lang=eo|France (Toulouse)|audio=LL-Q143 (epo)-Lepticed7-mola.wav}}
+
+=== {{S|anagrammes}} ===
+* {{lien|malo|eo}}
+* {{lien|lamo|eo}}
+
+== {{langue|io}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|io}}
+
+=== {{S|adjectif|io}} ===
+'''mola''' {{pron|ˈmɔ.la|io}}
+# [[mou|Mou]].
+
+=== {{S|prononciation}} ===
+* {{pron|ˈmɔ.la|io}}
+
+=== {{S|anagrammes}} ===
+* {{lien|lamo|io}}
+
+== {{langue|it}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|it}}
+
+=== {{S|nom|it}} ===
+{{it-flexion}}
+'''mola''' {{pron||it}} {{f}}
+# {{lien|meule|dif=Meule}}, roue en pierre, en bois, qui sert à broyer en tournant.
+# {{lien|meule|dif=Meule}}, roue de grès, de fer ou d’acier, de bois, etc., dont on se sert dans diverses professions pour aiguiser, user, polir, etc. 
+
+==== {{S|synonymes}} ====
+* {{lien|macina|it|sens=roue en pierre, en bois, qui sert à broyer en tournant.}}
+
+=== {{S|anagrammes}} ===
+{{voir anagrammes|it}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=it}}
+
+== {{langue|avk}} ==
+=== {{S|étymologie}} ===
+: {{avk-arbitraire}}<ref>{{avk-ref-arbitraire}}</ref>.
+
+=== {{S|nom|avk}} ===
+'''mola''' {{pron|ˈmɔla|avk}} <small>ou</small> {{pron|ˈmola|avk}} {{indénombrable|avk}}
+# [[appétit|Appétit]].
+#* {{exemple|lang=avk}}
+
+==== {{S|dérivés}} ====
+* [[molé]] 
+* [[moledjaf]]
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=avk|France|ˈmola|audio=mola (avk).wav}}
+
+=== {{S|anagrammes}} ===
+* {{lien|alom|avk}}
+* {{lien|loma|avk}}
+* {{lien|malo|avk}}
+* {{lien|olam|avk}}
+* {{lien|omal|avk}}
+
+=== {{S|références}} ===
+* {{Kotapedia|mola}}
+{{Références}}
+[[Catégorie:Mots en kotava répertoriés sur Kotapedia]]
+
+== {{langue|la}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|indo-européen commun|la}} {{recons|lang-mot-vedette=la}}''mel''{{réf}} (« moudre, battre, moulu > fin, menu ») dont est aussi issu {{lien|''molo''|la|sens=moudre}}, {{lien|''mollis''|la|sens=mou, faible}}, {{lien|''mulier''|la|sens=femme}}, {{lien|''marcus''|la|sens=marteau}}, {{lien|''malleus''|la|sens=marteau, maillet}}, {{lien|''milium''|la|sens=mil, millet}}, {{lien|''blandus''|la|sens=doux (via une forme archaïque {{recons|lang-mot-vedette=la|mlando-}})}}, {{lien|''malacus''|la|sens=mou, moëlleux}} via le {{grc}}.
+
+=== {{S|nom|la}} ===
+{{la-tab-1f|mol|gnr=f|ns=oui}}
+# [[meule|Meule]], {{au pluriel}} [[moulin]].
+#* {{exemple | lang=la
+ | '''molae''' oleariae
+ | moulin à olives.
+ | source=Varron}}
+#* {{exemple | lang=la
+ | '''molae''' aquariae
+ | moulin à eau.}}
+#* {{exemple | lang=la
+ | quae pumiceas versat asella '''molas'''
+ | l'ânesse qui tourne le moulin aux meules poreuses (comme la pierre ponce).
+ | source=Ovide}}
+#* {{exemple | lang=la
+ | '''mola''' salsa
+ | farine sacrée (farine de blé torréfié, mêlée de sel, qu'on répandait sur la tête des victimes).}}
+# {{lexique|médecine|la}} [[môle|Môle]] (masse de chair).
+# {{lexique|anatomie|la}} [[molaire|Molaire]] ; {{par métonymie|la}} [[mâchoire]].
+
+==== {{S|synonymes}} ====
+* {{lien|molinum|la|dif=molinum|sens=moulin}}
+* {{lien|molaris|la|dif=mŏlāris|sens=meule, pierre meulière, grosse pierre - la molaire}}
+
+==== {{S|dérivés}} ====
+{{(}}
+* {{lien|immolo|la|dif=immolo|sens=immoler}}
+** {{lien|immolatio|la|dif=immolātio|sens=immolation}}
+** {{lien|immolator|la|dif=immolātor|sens=sacrificateur}}
+* {{lien|molaris|la|dif=molāris|sens=de moulin, de meule}}
+* {{lien|molarius|la|dif=molārius|sens=de meule, qui tourne la meule}}
+* {{lien|molendarius|la|dif=molendārĭus|sens=de moulin}}
+* {{lien|molendinarius|la|adjectif|dif=molendīnārĭus|sens=de moulin}}
+* {{lien|molendinarius|la|nom|dif=molendīnārĭus|sens=meunier}}
+* {{lien|molendinum|la|dif=molendīnum|sens=endroit où l'on moud, moulin}}
+* {{lien|molendo|la|dif=molendo|sens=moudre}}
+* {{lien|moles|la|dif=moles|sens=masse}}
+* {{lien|molile|la|dif=molile|sens=attache de l'âne faisant tourner la meule}}
+* {{lien|molinarius|la|dif=molinarius|sens=meunier}}
+* {{lien|molinus|la|dif=molinus|sens=de meule}}
+{{)}}
+
+==== {{S|dérivés autres langues}} ====
+* {{L|es}} : [[muela#es|muela]]
+* {{L|fr}} : [[meule#fr|meule]]
+* {{L|it}} : [[mola#it|mola]]
+
+=== {{S|anagrammes}} ===
+* {{lien|almo|la}}
+* {{lien|malo|la}}
+
+=== {{S|références}} ===
+* {{R:Gaffiot}}
+* {{RÉF}} [//www.ieed.nl/cgi-bin/response.cgi?flags=eygtnrl&single=1&basename=/data/ie/pokorny&text_recno=1257&root=leiden Pokorny *''mel'']
+
+== {{langue|mvo}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|mvo}}
+
+=== {{S|nom|mvo}} ===
+'''mola''' {{pron||mvo}}
+# [[canoë#fr|Canoë]].
+
+=== {{S|références}} ===
+* {{R:marovo}}
+
+== {{langue|pt}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|pt}}
+
+=== {{S|nom|pt}} ===
+{{pt-accord-mf|s=mola|p=molas}}
+'''mola''' {{pron|mˈɔ.lɐ|pt}} (Lisbonne) {{pron|mˈɔ.lə|pt}} (São Paulo) {{f}}
+# [[ressort|Ressort]].
+
+==== {{S|synonymes}} ====
+* [[corda]]
+
+=== {{S|prononciation}} ===
+* Lisbonne : {{pron|mˈɔ.lɐ|pt}} (langue standard), {{pron|mˈɔ.lɐ|pt}} (langage familier)
+* São Paulo : {{pron|mˈɔ.lə|pt}} (langue standard), {{pron|mˈɔ.lə|pt}} (langage familier)
+* Rio de Janeiro : {{pron|mˈɔ.lɐ|pt}} (langue standard), {{pron|mˈɔ.lɐ|pt}} (langage familier)
+* Maputo : {{pron|mˈɔ.lɐ|pt}} (langue standard), {{pron|mˈɔ.lɐ|pt}} (langage familier)
+* Luanda : {{pron|mˈɔ.lɐ|pt}}
+* Dili : {{pron|mˈɔ.lə|pt}}
+* {{écouter|||lang=pt|audio=LL-Q5146 (por)-MedK1-mola.wav}}
+
+=== {{S|références}} ===
+* {{R:DicionárioFonético|mola|id=20882}}
+
+== {{langue|ses}} ==
+=== {{S|nom|ses}} ===
+'''mola''' {{pron||ses}}
+# [[ânesse|Ânesse]].
+
+== {{langue|cs}} ==
+=== {{S|nom|cs|flexion}} ===
+'''mola''' {{pron||cs}}
+# ''Accusatif singulier de'' [[mol#cs-nom-1|mol]].
+# ''Génitif singulier de'' [[mol#cs-nom-1|mol]].

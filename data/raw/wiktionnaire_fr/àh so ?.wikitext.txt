@@ -1,0 +1,11 @@
+== {{langue|gsw-fr}} ==
+{{ébauche|gsw-fr}}
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|interjection|gsw-fr}} ===
+'''àh so ?'''
+# [[ah|Ah]] [[bon]] ?
+
+{{clé de tri|ah so}}

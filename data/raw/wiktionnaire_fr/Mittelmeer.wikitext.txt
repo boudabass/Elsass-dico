@@ -1,0 +1,52 @@
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: Substantif {{composé de|mittel-|sens1=[[au milieu]] », « [[central]]|Meer|sens2=[[mer]]|lang=de}}.
+
+=== {{S|nom|de}} ===
+{{de-nom-n|gs2=Mittelmeeres|sing=oui}}
+'''Mittelmeer''' {{pron|ˈmɪtl̩meːɐ̯|de}} {{n}} {{au singulier uniquement|de}}
+# {{mers|de}} [[mer Méditerranée|Mer Méditerranée]], [[Méditerranée]]. (Mer intercontinentale située entre l’Afrique du Nord, l’Asie de l’Ouest et l’Europe.)
+#* {{exemple|Quallenplagen und Plastikmüll sind nur die augenfälligsten Symptome dafür, wie es um das '''Mittelmeer''' bestellt ist. Mit der Klimaerwärmung drohen dem kleinen Ozean zwischen Europa und Afrika langfristige Gefahren. |Les invasions de méduses et les déchets plastiques ne sont que les symptômes les plus visibles de l'état de la Méditerranée. Avec le réchauffement climatique, le petit océan entre l'Europe et l'Afrique est menacé par des dangers à long terme. |source=Frankfurter Allgemeine Zeitung, Warum der gesamte Mittelmeerraum unter Stress steht, 30 juillet 2022|lang=de}}
+[[Fichier:Mediterranean Sea location map.svg|vignette|'''Mittelmeer''' - mer Méditerrannée]]
+==== {{S|synonymes}} ====
+* [[Europäisches Mittelmeer]]
+* [[Mittelländisches Meer]]
+==== {{S|dérivés}} ====
+{{(|&nbsp;}} 
+* [[Mittelmeer-Route]] 
+* [[Mittelmeeranrainerstaat]] (''pays méditerranéen'')
+* [[Mittelmeerfieber]]
+* [[Mittelmeerflotte]] (''flotte de la mer Méditerranée'')
+* [[Mittelmeergebiet]] (''région méditerranéenne'')
+* [[Mittelmeerinsel]] (''île de la mer Méditerranée'')
+* [[mittelmeerisch]] (''méditerranéen, méditerranéenne'')
+* [[Mittelmeerklima]] (''climat de la mer Méditerranée'')
+* [[Mittelmeerkreuzfahrt]] (''croisière en mer Méditerranée'')
+* [[Mittelmeerküste]] (''côte de la mer Méditerranée'')
+* [[Mittelmeerland]] (''pays méditerranéen'')
+* [[Mittelmeerraum]] 
+* [[Mittelmeervegetation]] (''végétation méditerranéenne'')
+* [[Mittelmeerwelt]] (''monde méditerranéen'')
+{{)}}
+
+=== {{S|prononciation}} ===
+* {{écouter|||lang=de|audio=De-Mittelmeer.ogg}}
+=== {{S|références}} ===
+<references />
+==== {{S|sources}} ====
+* {{R:DWDS|Mittelmeer}}
+* {{R:Duden|Mittelmeer}} 
+* {{Source-wikt|de|Mittelmeer}}
+==== {{S|bibliographie}} ====
+* Larousse - Dctionnaire allemand/français – français/allemand , éd. 1958, p 604.
+* Harrap’s  de poche – Bordas Dictionnaire allemand/français, éd. 1997, ISBN 0-245-50308-0, p 203. 
+
+[[Catégorie:Mers en allemand]]
+
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|nom|gsw-fr}} ===
+'''Mittelmeer'''
+# [[méditerranée|Méditerranée]]

@@ -1,0 +1,231 @@
+{{voir|brand}}
+
+== {{langue|fr}} ==
+{{ébauche|fr}}
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|fr}}
+
+=== {{S|nom propre|fr}} ===
+{{fr-inv||inv_titre=Nom propre}}
+'''Brand''' {{pron||fr}}
+# {{localités|fr|d’Allemagne}} [[commune|Commune]] d’[[Allemagne]], située en [[Bavière]].
+# {{localités|fr|des Pays-Bas}} [[hameau|Hameau]] des [[Pays-Bas]] situé dans la commune de [[Nuth]].
+
+==== {{S|traductions}} ====
+{{trad-début|}}
+{{trad-fin}}
+
+=== {{S|voir aussi}} ===
+* {{WP}}
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|gmh|de|mot=brant}}, du {{étyl|goh|de|mot=prant}} ou ''[[prentî#goh|prentî]]''.
+
+=== {{S|nom|de}} ===
+{{de-nom-m-s-e|gse=opt|dse=opt|np=Brände}}
+'''Brand''' {{pron|bʀant|de}} {{m}}
+[[Image:Deerfire.jpg|vignette|(1) Unkontrollierter '''Brand''' des Bitterroot Waldes in Montana.]]
+# {{lexique|lutte contre l’incendie|de}} [[incendie|Incendie]], [[feu]].
+#* {{exemple|[[wer weiß|Wer weiß]], [[vielleicht]] hat das [[Gewitter]] den '''Brand''' [[verursachen|verursacht]].|lang=de|sens=Qui sait, peut-être l'orage a-t-il provoqué l'incendie.}}
+#* {{exemple|Die Feuerwehrleute öffneten mit Spezialwerkzeug ohne Gewalt die Türe und stellten einen Schwelbrand mit Rauch fest. Die beiden mit Atemschutzmasken ausgestatteten Retter löschten den '''Brand''' in der Küche, den wohl im Ofen vergessene Toastscheiben ausgelöst hatten.|lang=de|sens=Les pompiers ont ouvert la porte sans forcer à l'aide d'outils spéciaux et ont constaté un feu couvant avec de la fumée. Les deux sauveteurs, équipés de masques respiratoires, ont éteint le feu dans la cuisine, qui avait probablement été provoqué par des tranches de pain grillé oubliées dans le four.|source={{périodique|auteur=Heiner Effern|titre=Betrunkener greift Feuerwehrleute bei Einsatz an|journal=Süddeutsche Zeitung|date=6 février 2022|texte=https://www.sueddeutsche.de/muenchen/feuerwehrmaenner-loeschen-brand-und-werden-attackiert-1.5523071}}}}
+#* {{exemple|Der ausgebrannte Grenfell Tower im Westen Londons, in dem bei einem verheerenden '''Brand''' 72 Menschen ums Leben kamen, soll zurückgebaut werden.|lang=de|sens=La Grenfell Tower incendiée à l’ouest de Londres, dans laquelle 72 personnes ont perdu la vie dans un incendie dévastateur, sera déconstruite.|source={{périodique|auteur=|titre=Grenfell Tower soll abgerissen werden|journal=Süddeutsche Zeitung|date=7 février 2025|texte=https://www.sueddeutsche.de/panorama/grenfell-tower-abgerissen-ruine-london-brand-2017-li.3198141}}}}
+# {{familier|de}} [[gros|Gros]]se [[soif]].
+# {{lexique|médecine|de}} [[gangrène|Gangrène]], [[nécrose]].
+# {{lexique|céramique|de}} [[cuisson|Cuisson]] : [[céramique]], [[porcelaine]], [[émail]] ou [[glaçure]].
+# {{lexique|botanique|de}} Forme courte de [[Feuerbrand]] ou [[Bakterienbrand]] (« charbon »), maladie de certaines plantes.
+# [[eau-de-vie#fr|Eau-de-vie]].
+
+==== {{S|synonymes}} ====
+* (1) {{l|Feuer|de}}, {{l|Schadfeuer|de}}
+* (2) {{l|Durst|de}}
+* (3) {{l|Gangrän|de}}
+* (4) {{l|Sinterung|de}}
+* (5) {{l|Bakterienbrand|de}}, {{l|Feuerbrand|de}}
+
+==== {{S|dérivés}} ====
+{{(|Substantifs [[hyponyme]]s en ''-brand'' / ''-Brand''}}
+* {{lien|Birnenbrand|de|sens=[[eau-de-vie]] de [[poire]]}}
+* {{lien|Buschbrand|de|sens=[[feu de brousse]]}}
+* {{lien|Dachstuhlbrand|de|sens=[[feu]] de [[charpente]] de [[toit]]}}
+* {{lien|Doppelbrand|de|sens=[[distillation]] [[double]]}}
+* {{lien|Edelbrand|de|sens=[[eau-de-vie]] [[haut de gamme]]}}
+* {{lien|Einfachbrand|de|sens=[[distillation]] [[simple]]}}
+* {{lien|Entstehungsbrand|de|sens=[[incendie]] [[naissant]]}}
+* {{lien|Fahrzeugbrand|de|sens=[[incendie]] de [[véhicule]]}}
+* {{lien|Feinbrand|de|sens=[[second]]e [[distillation]] », « [[second]] [[distillat]] », « [[bonne chauffe]]}}
+* {{lien|Flächenbrand|de|sens=[[conflagration]]}} – ''(sens propre & figuré)''
+* {{lien|Flugbrand|de|sens=[[charbon du blé]]}}
+* {{lien|Flugzeugbrand|de|sens=[[incendie]] d’[[avion]]}}
+* {{lien|Gasbrand|de|sens=[[gangrène gazeuse]] », « [[feu]] de [[gaz]]}}
+* {{lien|Gletscherbrand|de|sens=[[coup de soleil]] [[aggraver|aggravé]] par la [[neige]]}}
+* {{lien|Grasbrand|de|sens=[[feu]] de [[prairie]]}}
+* {{lien|Großbrand|de|sens=[[gros]] [[incendie]]}}
+* {{lien|Grubenbrand|de|sens=[[feu de mine]]}}
+* {{lien|Hausbrand|de|sens=[[incendie]] de [[maison]]}}
+* {{lien|Heidebrand|de|sens=[[feu]] de [[prairie]]}}
+* {{lien|Kabelbrand|de|sens=[[feu]] de [[câble]]}}
+* {{lien|Kaminbrand|de|sens=[[feu de cheminée]]}}
+* {{lien|Kapellenbrand|de|sens=[[incendie]] de [[chapelle]]}}
+* {{lien|Kellerbrand|de|sens=[[feu]] de [[cave]]}}
+* {{lien|Knochenbrand|de}}
+* {{lien|Krankenhausbrand|de|sens=[[incendie]] d’[[hôpital]]}}
+* {{lien|Küchenbrand|de|sens=[[feu]] de [[cuisine]]}}
+* {{lien|Milzbrand|de|sens=[[maladie du charbon]]}}
+* {{lien|Moorbrand|de|sens=[[feu]] de [[tourbière]]}}
+* {{lien|Obstbrand|de|sens=[[eau-de-vie]] de [[fruit]]}}
+* {{lien|Palastbrand|de|sens=[[incendie]] de [[palais]]}}
+* {{lien|Raubrand|de|sens=[[premier|première]] [[distillation]] », « [[premier]] [[distillat]] », « [[première chauffe]] », « [[brouillis]]}}
+* {{lien|Rauchfangbrand|de|sens=[[feu de cheminée]]}}
+* {{lien|Reichstagsbrand|de|sens=[[incendie]] du [[Reichstag]]}}
+* {{lien|Rohbrand|de|sens=[[premier|première]] [[distillation]] », « [[premier]] [[distillat]] », « [[première chauffe]] », « [[brouillis]]}}
+* {{lien|Sägewerksbrand|de|sens=[[incendie]] de [[scierie]]}}
+* {{lien|Schornsteinbrand|de|sens=[[feu de cheminée]]}}
+* {{lien|Schwelbrand|de|sens=[[feu couvant]]}}
+* {{lien|Sonnenbrand|de|sens=[[coup de soleil]]}}
+* {{lien|Steppenbrand|de|sens=[[feu]] de [[steppe]]}}
+* {{lien|Torfbrand|de|sens=[[feu]] de [[tourbière]]}}
+* {{lien|Trafobrand|de|sens=[[feu]] de [[transformateur]]}}
+* {{lien|Transformatorbrand|de|sens=[[feu]] de [[transformateur]]}}
+* {{lien|Traubenbrand|de|sens=[[eau-de-vie]] de [[raisin]]}}
+* {{lien|Tresterbrand|de|sens=[[eau-de-vie]] de [[marc de raisin]] », « [[marc]]}}
+* {{lien|Vergaserbrand|de|sens=[[feu]] de [[carburateur]]}}
+* {{lien|Vollbrand|de|sens=[[incendie]] [[intégral]]}}
+* {{lien|Waldbrand|de|sens=[[feu de forêt]]}}
+* {{lien|Weinbrand|de|sens=[[eau-de-vie]] de [[vin]]}}
+* {{lien|Weltenbrand|de|sens={{w|Surt|embrasement du monde}} », ''soutenu'' – « [[guerre mondiale]]}}
+* {{lien|Werksbrand|de|sens=[[incendie]] d’[[usine]]}}
+* {{lien|Wohnhausbrand|de|sens=[[incendie]] d’[[habitation]]}}
+* {{lien|Wohnungsbrand|de|sens=[[feu]] d’[[appartement]]}}
+* {{lien|Zimmerbrand|de|sens=[[feu]] de [[chambre]]}}
+* {{lien|Wundbrand|de|sens=[[infection]] de [[plaie]]}}
+{{)}}
+{{(|Autres substantifs}}
+* {{lien|Brandabschnitt|de}}
+* {{lien|Brandalarm|de}}
+* {{lien|Brandanalyse|de}}
+* {{lien|Brandanalytiker|de}}
+* {{lien|Brandanschlag|de}}
+* {{lien|Brandausbreitung|de}}
+* {{lien|Brandauswirkung|de}}
+* {{lien|Brandbeginn|de}}
+* {{lien|Brandbekämpfung|de}}
+* {{lien|Brandbelastung|de}}
+* {{lien|Brandbereich|de}}
+* {{lien|Brandbeschleuniger|de}}
+* {{lien|Brandblase|de}}
+* {{lien|Brandbrigade|de}}
+* {{lien|Brandentstehung|de}}
+* {{lien|Brandeinwirkung|de}}
+* {{lien|Brandereignis|de}}
+* {{lien|Branderkennung|de}}
+* {{lien|Brandfolgen|de}}
+* {{lien|Brandfallmatrix|de}}
+* {{lien|Brandgas|de}}
+* {{lien|Brandgefahr|de}}
+* {{lien|Brandgeruch|de}}
+* {{lien|Brandgrab|de}}
+* {{lien|Brandherd|de}}
+* {{lien|Brandkatastrophe|de|sens=[[incendie]] [[catastrophique]]}}
+* {{lien|Brandknecht|de}}
+* {{lien|Brandlast|de}}
+* {{lien|Brandleiche|de}}
+* {{lien|Brandlöschung|de}}
+* {{lien|Brandmarkung|de}}
+* {{lien|Brandmauer|de}}
+* {{lien|Brandmeister|de}}
+* {{lien|Brandmeldeanlage|de}}
+* {{lien|Brandmelder|de}}
+* {{lien|Brandmeldung|de}}
+* {{lien|Brandnacht|de}}
+* {{lien|Brandnarbe|de}}
+* {{lien|Brandobjekt|de}}
+* {{lien|Brandopfer|de}}
+* {{lien|Brandort|de}}
+* {{lien|Brandrauch|de}}
+* {{lien|Brandrede|de}}
+* {{lien|Brandrelevanz|de}}
+* {{lien|Brandrisiko|de}}
+* {{lien|Brandrodung|de}}
+* {{lien|Brandsalbe|de}}
+* {{lien|Brandsatz|de}}
+* {{lien|Brandschaden|de}}
+* {{lien|Brandschau|de}}
+* {{lien|Brandschicht|de}}
+* {{lien|Brandschiefer|de}}
+* {{lien|Brandschneise|de}}
+* {{lien|Brandschott|de}}
+* {{lien|Brandschürze|de}}
+* {{lien|Brandschutt|de}}
+* {{lien|Brandschutz|de}}
+* {{lien|Brandschützer|de}}
+* {{lien|Brandsimulation|de}}
+* {{lien|Brandspur|de}}
+* {{lien|Brandstätte|de}}
+* {{lien|Brandstelle|de}}
+* {{lien|Brandstiftung|de|sens=[[incendie]] [[criminel]]}}
+* {{lien|Brandszenario|de}}
+* {{lien|Brandtag|de}}
+* {{lien|Brandursache|de}}
+* {{lien|Brandverhütung|de}}
+* {{lien|Brandverletzung|de}}
+* {{lien|Brandwache|de}}
+* {{lien|Brandwand|de}}
+* {{lien|Brandwahrscheinlichkeit|de}}
+* {{lien|Brandwirkung|de}}
+* {{lien|Brandwunde|de}}
+* {{lien|Brandzeichen|de}}
+{{)}}
+{{(|Verbes}}
+* {{lien|brandmarken|de}}
+* {{lien|brandschatzen|de}}
+{{)}}
+{{(|Adjectifs}}
+* {{lien|brandgefährlich|de}}
+* {{lien|brandphysikalisch|de}}
+* {{lien|brandspezifisch|de}}
+{{)}}
+
+==== {{S|hyperonymes}} ====
+* {{lien|Krankheit|de}} – ''(3)''
+* {{lien|Krankheitssymptom|de}} – ''(3)''
+* {{lien|körperlich|de|dif=körperliches}} {{lien|Bedürfnis|de|sens=[[besoin]] [[corporel]]}} – ''(2)''
+* {{lien|Schaden|de|sens=[[dégât]]}} – ''(1)''
+* {{lien|Symptom|de}} – ''(3)''
+* {{lien|Pflanzenkrankheit|de}} – ''(5)''
+
+==== {{S|hyponymes}} ====
+: ''Voir première liste des [[#Dérivés|dérivés]].''
+
+==== {{S|phrases}} ====
+* {{lien|etwas in Brand setzen|de|dif=etwas in ''Brand'' setzen}}
+
+=== {{S|nom propre|de}} ===
+{{de-nom-propre|genre=n}}
+'''Brand''' {{pron|bʀant|de}} {{m}}
+# [[quartier|Quartier]] d’[[Aix-la-Chapelle]].
+# [[quartier|Quartier]] de [[Brand-Erbisdorf]].
+
+=== {{S|prononciation}} ===
+* {{écouter|Berlin|bʁant|lang=de|audio=De-Brand.ogg}}
+* {{écouter|Berlin|bʁant|lang=de|audio=LL-Q188 (deu)-Sebastian Wallroth-Brand (Halbe).wav}}
+
+=== {{S|références}} ===
+* {{R:DWDS|Brand}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=de}}
+
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+{{ébauche-étym|gsw-fr}}
+
+=== {{S|nom|gsw-fr}} ===
+'''Brand'''
+# [[incendie|Incendie]]
+
+== {{langue|is}} ==
+=== {{S|prénom|is|flexion}} ===
+'''Brand''' {{pron||is}} {{m}}
+# ''Accusatif de'' [[Brandur#is|Brandur]].

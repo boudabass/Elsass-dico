@@ -1,0 +1,15 @@
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|nom|gsw-fr}} ===
+'''Oigscht''' {{pron||gsw-fr}} {{m}}
+# [[août#fr|Août]].
+
+==== {{S|variantes dialectales}} ====
+* [[Augscht]]
+
+=== {{S|références}} ===
+*[https://web.archive.org/web/20130926064631/http://culture.alsace.pagesperso-orange.fr/page_af.htm Dictionnaire français-alsacien]
+
+[[Catégorie:Mois de l’année en alémanique alsacien]]

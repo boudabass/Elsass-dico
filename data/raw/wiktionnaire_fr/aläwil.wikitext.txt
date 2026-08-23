@@ -1,0 +1,9 @@
+{{vérifier création automatique||gsw-fr}}
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|adverbe|gsw-fr}} ===
+'''aläwil'''
+# [[constamment|Constamment]], [[toujours]]
+{{clé de tri|alawil}}

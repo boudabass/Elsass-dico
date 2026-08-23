@@ -1,0 +1,234 @@
+{{voir/tal}}
+
+== {{langue|fr}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|he|fr|mot=טל|tr=Tal}}, littéralement « rosée du matin ».
+
+=== {{S|prénom|fr|genre=mf}} ===
+'''Tal''' {{pron|tal|fr}}
+# Prénom féminin hébreu.
+# Prénom masculin hébreu.
+#* {{exemple | lang=fr
+ | Sept gâteaux, en forme de chaussure, de sac à main ou de pochette sont à déguster, à 8 € pièce, dans une boutique éphémère ouverte par 24S.com en collaboration avec le pâtissier '''Tal''' Spiegel.
+ | source=journal ''20 minutes'', édition Paris-IDF, 7 décembre 2022, page 3}}
+
+=== {{S|nom de famille|fr|num=1}} ===
+'''Tal''' {{pron|tal|fr}}
+# Nom de famille hébreu.
+
+=== {{S|nom de famille|fr|num=2}} ===
+'''Tal''' {{pron|tal|fr}}
+# Nom de famille peul.
+#* {{exemple | lang=fr
+ | En marge de cette classification cohérente dans sa représentation, existe d’autres ''{{lang|ff|jettooje}}'', réservés aux Toro’b’be, une autre fraction des Peuls non identifiés comme pasteurs mais plus sédentaires. Ils ont comme noms claniques les plus répandus : Ly, Sy et '''Tal'''.
+ | source=Salamatou {Sow, « Les noms sociaux en fulfulde », ''Cahiers d’études africaines'', numéro 163-164, 2001, page 559}}
+
+==== {{S|traductions}} ====
+{{trad-début}}
+{{trad-fin}}
+
+=== {{S|prononciation}} ===
+==== {{S|homophones|fr}} ====
+* [[TAL]]
+* [[thalle]]
+
+=== {{S|anagrammes}} ===
+{{voir anagrammes|fr}}
+
+=== {{S|voir aussi}} ===
+* {{WP}}
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: {{siècle|lang=de|VIII}}. Du {{étyl|gmh|de|mot=tal}}, du {{étyl|goh|de|tal}}, des {{étyl|gem|de|mot=*dala-}} ; apparenté à ''{{lien|dale|en}}'' en anglais, ''{{lien|dal|nl}}'' en néerlandais.<ref>{{source|Friedrich {{pc|Kluge}}, Elmar {{pc|Seebold}} : ''Etymologisches Wörterbuch der deutschen Sprache. 24.'', édition revue et augmentée. Éditeur Walter de Gruyter, Berlin/New York 2001, ISBN 978-3-11-017473-1, DNB 965096742, mot-clé: „Tal“, page 904}}.</ref> Également écrit ''{{lien|Thal|de}}'' avant la réforme orthographique de 1901.
+
+=== {{S|nom|de}} ===
+{{de-nom-n-s-er|np=Täler|gs2=Tales|ds2=Tale}}
+'''Tal''' {{pron|taːl|de}} {{n}}
+# {{lexique|géographie|de}} [[vallée|Vallée]].
+#* {{exemple | lang=de | Im '''Tal''' fließt ein Fluss. | sens=Une rivière coule dans la vallée.}}
+#* {{exemple|Ein reißender Bergstrom, dessen steiniges Bett häufig trocken ist, nun aber infolge der Schneeschmelze gefüllt war, benetzt das '''Tal''', das von zwei parallellaufenden Höhenzügen, die auf allen Seiten von den Gipfeln Savoyens und der Dauphiné beherrscht werden, eingeengt wird.|lang=de|sens=Un torrent à lit pierreux souvent à sec, alors rempli par la fonte des neiges, arrose cette vallée serrée entre deux montagnes parallèles, que dominent de toutes parts les pics de la Savoie et ceux du Dauphiné.|source={{ouvrage|auteur={{w|Honoré de Balzac}}|trad=Paul Hansmann|titre=Der Landarzt|année=1925|éditeur=Georg Müller|url=https://www.projekt-gutenberg.org/balzac/landarzt/chap001.html}}}}
+#* {{exemple|Als die Sonne unterging, erreichten wir Geria, ein enges '''Tal''', das zwischen dunkelvioletten bis schwarzen Stein- und Geröllhängen verläuft. Im Laufe der Jahrhunderte haben die Inselbewohner die Steine aufgesammelt, halbkreisförmige Mäuerchen gebaut und auf deren Innenseite kleine Vertiefungen angelegt. In jede dieser Vertiefungen haben sie sodann windgeschützt eine Weinrebe gepflanzt.|lang=de|sens=Le soleil se couchait lorsque nous abordâmes la Geria. C'est une étroite vallée qui fraie son chemin entre des pentes de cailloux et de graviers allant du violet sombre au noir. Au cours des siècles les habitants de l'île ont ramassé les cailloux, édifié des murets semi-circulaires, creusé dans le gravier des excavations protégées par les murets. À l'intérieur de chaque excavation, à l’abri du vent, ils ont planté un pied de vigne.|source={{ouvrage|auteur={{w|Michel Houellebecq}}|trad=Hinrich Schmidt-Henkel|titre=Lanzarote|année=2000|éditeur=DuMont Buchverlag|lieu=Köln|url=}}}}
+
+==== {{S|synonymes}} ====
+* {{lien|Senke|de|sens=dépression}}
+
+==== {{S|antonymes}} ====
+* {{lien|Berg|de|sens=montagne}}
+* {{lien|Höhe|de|sens=hauteur}}
+
+==== {{S|diminutifs}} ====
+* {{lien|Tälchen|de|sens=vallon}}
+
+==== {{S|hyperonymes}} ====
+* {{lien|Gelände|de}}
+* {{lien|Landschaft|de}}
+
+==== {{S|hyponymes}} ====
+{{(|}}
+* {{lien|Canyon|de}}
+* {{lien|Klamm|de}}
+* {{lien|Schlucht|de}}
+* {{lien|Flusstal|de}}
+* {{lien|Gebirgstal|de}}
+* {{lien|Riesental|de}}
+* {{lien|Urstromtal|de}}
+* {{lien|Wellental|de}}
+{{)}}
+{{(|}}
+* {{lien|Ahrtal|de}}
+* {{lien|Alpental|de}}
+* {{lien|Andental|de}}
+* {{lien|Bodetal|de}}
+* {{lien|Donautal|de|sens=vallée du Danube}}
+* {{lien|Elbtal|de}}
+* {{lien|Industal|de}}
+* {{lien|Inntal|de}}
+* {{lien|Lahntal|de}}
+* {{lien|Moseltal|de}}
+* {{lien|Neckartal|de}}
+* {{lien|Mittelrheintal|de}}
+* {{lien|Oberrheintal|de}}
+* {{lien|Ötztal|de}}
+* {{lien|Rheintal|de}}
+* {{lien|Sulmtal|de}}
+* {{lien|Werratal|de}}
+* {{lien|Zillertal|de}}
+{{)}}
+
+==== {{S|phrases}} ====
+* {{lien|Tal der Tränen|de|dif=''Tal'' der Tränen}}
+
+==== {{S|variantes orthographiques}} ====
+* [[Thal]] {{désuet|nocat=1}}
+
+==== {{S|dérivés}} ====
+{{(|&nbsp;}}
+* {{lien|Aartal|de}}
+* {{lien|Aatal|de}}
+* {{lien|Achental|de}}
+* {{lien|Berg-und-Tal-Bahn|de}}
+* {{lien|Bigental|de}}
+* {{lien|Dünental|de}}
+* {{lien|Durchbruchstal|de}}
+* {{lien|Eisacktal|de}}
+* {{lien|Engtal|de}}
+* {{lien|Felsental|de}}
+* {{lien|Felstal|de}}
+* {{lien|Gasteinertal|de}}
+* {{lien|Gschnitztal|de}}
+* {{lien|Habachtal|de}}
+* {{lien|Hängetal|de}}
+* {{lien|Haupttal|de}}
+* {{lien|Jammertal|de}}
+* {{lien|Kaprunertal|de}}
+* {{lien|Kastental|de}}
+* {{lien|Kerbsohlental|de}}
+* {{lien|Kerbtal|de}}
+* {{lien|Klostertal|de}}
+* {{lien|Loiretal|de}}
+* {{lien|Maastal|de}}
+* {{lien|Muldental|de}}
+* {{lien|Nebental|de}}
+* {{lien|Niltal|de}}
+* {{lien|Rauristal|de}}
+* [[Rhonetal]], [[Rhônetal]], [[Rhône-Tal]]
+* {{lien|Seinetal|de}}
+* {{lien|Seitental|de}}
+* {{lien|Sohlental|de}}
+* {{lien|Stanzertal|de}}
+* {{lien|Stubachtal|de}}
+* {{lien|Stubaital|de}}
+* {{lien|tabab|de}}
+* {{lien|Tal der Tränen|de}}
+* {{lien|talab|de}}
+* {{lien|Talabhang|de}}
+* {{lien|talabwärts|de|sens=en aval}}
+* {{lien|Talabwind|de}}
+* {{lien|Talaue|de}}
+* {{lien|talauf|de}}
+* {{lien|talaufwärts|de|sens=en amont}}
+* {{lien|talaus|de}}
+* {{lien|talauswärts|de}}
+* {{lien|Talbecken|de}}
+* {{lien|Talbegrenzung|de}}
+* {{lien|Talboden|de}}
+* {{lien|Talbreite|de}}
+* {{lien|Talbrücke|de}}
+* {{lien|talein|de}}
+* {{lien|Taleingang|de}}
+* {{lien|Taleinschnitt|de}}
+* {{lien|taleinwärts|de}}
+* {{lien|Talenge|de}}
+* {{lien|Talfahrer|de}} ou {{lien|Talfahrerin|de}}
+* {{lien|Talfahrt|de}}
+* {{lien|Talforme|de}}
+* {{lien|Talgletscher|de}}
+* {{lien|Talgrund|de}}
+* {{lien|Talhang|de}}
+* {{lien|Talkessel|de}}
+* {{lien|Talmulde|de}}
+* {{lien|Talniederung|de}}
+* {{lien|Talpass|de}}
+* {{lien|Talrinne|de}}
+* {{lien|Talschlucht|de}}
+* {{lien|talseitig|de}}
+* {{lien|Talsenke|de}}
+* {{lien|Talsenkung|de}}
+* {{lien|Talski|de}}
+* {{lien|Talsohle|de}}
+* {{lien|Talsperre|de}}
+* {{lien|Talstation|de}}
+* {{lien|Talstufe|de}}
+* {{lien|Talwand|de}}
+* {{lien|talwärts|de}}
+* {{lien|Talwasserscheide|de}}
+* {{lien|Talweitung|de}}
+* {{lien|Talwiese|de}}
+* {{lien|Trockental|de}}
+* {{lien|Trogtal|de}}
+* {{lien|U-Tal|de}}
+* {{lien|V-Tal|de}}
+* {{lien|Waldtal|de}}
+* {{lien|Walsertal|de}}
+* {{lien|Wiesental|de}}
+* {{lien|zertalt|de}}
+{{)}}
+{{(|Toponymes}}
+* [[Elbtal]] (commune de la Hesse)
+* [[Emmental]] (district du canton de Berne en Suisse)
+* [[Lahntal]] (commune de la Hesse)
+* {{lien|Neandertal|de|sens=vallée de Néander en Rhénanie-du-Nord-Westphalie}}
+* [[Oberrheintal]] (ancien district du canton de Saint-Gall en Suisse)
+* [[Rheintal]] (district du canton de Saint-Gall en Suisse)
+* [[Simmental]] (vallée et rivière des Alpes bernoises)
+{{)}}
+
+=== {{S|prononciation}} ===
+* {{écouter|Berlin (Allemagne)|taːl|lang=de|audio=De-Tal.ogg}}
+
+=== {{S|anagrammes}} ===
+{{voir anagrammes|de}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=de}}
+
+=== {{S|références}} ===
+<references />
+
+==== {{S|sources}} ====
+* {{R:DWDS|Tal}}
+* {{R:Duden|Tal}}
+* {{Source-wikt|de|Tal}}
+
+==== {{S|bibliographie}} ====
+* Larousse - Dictionnaire allemand/français – français/allemand , éd. 1958, p 701.
+* Harrap’s de poche – Bordas Dictionnaire allemand/français, éd. 1997, ISBN 0-245-50308-0, p 286.
+
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|goh|gsw-fr|tal}}
+
+=== {{S|nom|gsw-fr}} ===
+'''Tal''' {{pron||gsw-fr}}
+# {{lexique|géographie|gsw-fr}} [[vallée|Vallée]].

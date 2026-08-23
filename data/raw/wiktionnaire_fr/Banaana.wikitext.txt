@@ -1,0 +1,16 @@
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|nom|gsw-fr}} ===
+'''Banaana''' {{pron||gsw-fr}} {{f}}
+# [[banane#fr|Banane]].
+
+==== {{S|variantes dialectales}} ====
+* [[Banan]]
+
+=== {{S|références}} ===
+*[https://web.archive.org/web/20130805153119/http://culture.alsace.pagesperso-orange.fr/page_bf.htm Dictionnaire français-alsacien]
+
+[[Catégorie:Fruits en alémanique alsacien]]
+[[Catégorie:Aliments en alémanique alsacien]]

@@ -1,0 +1,167 @@
+{{voir/grad}}
+
+== {{langue|conv}} ==
+=== {{S|symbole|conv}} ===
+'''Grad''' {{invariable}}
+# {{lexique|géométrie|métrologie|conv}} {{rare|conv}} [[symbole|Symbole]] du [[gigaradian#fr|'''gigaradian''']], [[unité de mesure]] d’[[angle plan]] du [[Système international]] (SI), valant '''[[Annexe:Principales puissances de 10|10{{e|9}}]]''' '''[[radian#fr-nom|radians]]'''.
+
+==== {{S|vocabulaire}} ====
+{{symboles-unités-SI|unité.symb=rad|unité.desc=d’angle plan}}
+
+=== {{S|voir aussi}} ===
+{{Autres projets
+|w=Grad}}
+
+== {{langue|fr}} ==
+
+=== {{S|étymologie}} ===
+: Du {{étyl|ru|fr|mot=град|tr=grad|sens=grêle}}.
+
+=== {{S|nom|fr}} ===
+'''Grad''' {{pron|gʁad|fr}}
+[[Fichier:Rocket launcher BM-21 "Grad" on Ural-375D chassis.jpg|vignette|droite]]
+# {{lexique|armement|fr}} Véhicule [[lance-roquette]]s. {{note}} Le nom complet est BM-21 Grad.
+# Les roquettes elles-mêmes.
+
+==== {{S|vocabulaire}} ====
+* {{lien|katioucha|fr}}
+
+=== {{S|anagrammes}} ===
+{{voir anagrammes|fr}}
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: {{siècle|Fin IX|début XI}} Du {{étyl|la|de|gradus}} {{cf|grade|lang=fr}}.
+
+=== {{S|nom|de}} ===
+{{de-nom-m-s-e|gs2=Grades|ds2=Grade|np2=Grad|ap2=Grad|gp2=Grad|dp2=Grad}}
+'''Grad''' {{pron|ˈɡraːt|de}} {{m}}
+# [[degré|Degré]], [[grade]], dans le sens de [[mesure]], [[ampleur]], [[extension]] ou [[niveau]].
+#* ''Schwierigkeits'''grad''''' – degré de difficulté
+#* ''Verbrennung zweiten '''Grades''''' – brûlure au deuxième degré
+# [[grade|Grade]], [[rang]].
+#* {{exemple|akademischer '''Grad'''|lang=de|sens=grade académique}}
+# {{lexique|mathématiques|de}} [[degré|Degré]] d’un [[objet]] [[mathématique]].
+#* {{exemple|Polynom zweiten '''Grades'''|lang=de|sens=polynôme du deuxième degré}}
+# [[degré|Degré]], unité de mesure de la [[température]].
+#* {{exemple|Die Temperatur ist nur zwei '''Grad''' plus.|lang=de|sens=La température n’est que de deux degrés.}}
+#* {{exemple|Sollte sich das Klima um weitere 0,8 '''Grad''' erwärmen und 2 '''Grad''' über dem Niveau von 1850 liegen, dann werden Hitzewellen wie dieses Jahr gar zur Normalität. „Mindestens alle zwei Jahre“ müssten die Menschen in Indien und Bangladesch dann mit Extremhitze im April rechnen.|lang=de|sens=Si le climat se réchauffe encore de 0,8 degré et dépasse de 2 degrés le niveau de 1850, les vagues de chaleur comme celle de cette année deviendront même la norme. Les habitants de l'Inde et du Bangladesh devraient alors s’attendre à des chaleurs extrêmes en avril "au moins tous les deux ans".|source={{périodique|auteur=Christian Mihatsch|titre=54 Grad sind tödlich|journal=taz|date=17 mai 2023|texte=https://taz.de/Ungewoehnliche-hohe-Temperaturen-in-Asien/!5935350/}}}}
+#* {{exemple|Ein 33-jähriger Vater hat seinen dreijährigen Sohn (...) in seinem heißen Auto zurückgelassen. (...) Der Dreijährige kam daraufhin in ein Krankenhaus. Zum Einsatzzeitpunkt habe die Außentemperatur laut Deutschem Wetterdienst 26 '''Grad''' betragen. Der Vater kam erst über eine Stunde nach dem Einsatz zurück zum Auto.|lang=de|sens=Un père de 33 ans a laissé son fils de trois ans dans sa voiture chaude (...). (...) Le garçon de trois ans a ensuite été hospitalisé. Au moment de l'intervention, la température extérieure était de 26 degrés, selon le service météorologique allemand. Le père n'est revenu à la voiture que plus d’une heure après l'intervention.|source={{périodique|auteur=(dpa Nordrhein-Westfalen)|titre=Vater bei Prostituierter - Dreijähriger im heißen Auto|journal=Die Zeit|date=13 août 2024|texte=https://www.zeit.de/news/2024-08/13/vater-bei-prostituierter-dreijaehriger-im-heissen-auto}}}}
+# [[degré|Degré]], [[unité de mesure]] d’[[angle]].
+#* {{exemple
+| Der Winkel eines ganzen Kreises beträgt 360 '''Grad'''.
+| L’angle d’un cercle complet est 360 degrés.
+|lang=de}}
+
+{{usage}} En tant qu’unité (4, 5), '''''Grad''''' est [[invariable]] derrière un [[adjectif numéral]], et souvent aussi autrement (cf. exemples).
+
+==== {{S|synonymes}} ====
+* {{l|Altgrad|de}} – ''(4, vieilli)''
+
+==== {{S|quasi-synonymes}} ====
+{{(|Degré, grade (mesure, ampleur, extension ou niveau|1}}
+* {{l|Ausmaß|de|sens=« [[étendue]] », « [[ampleur]]}}
+* {{l|Maß|de|sens=« [[degré]] », « [[mesure]] », « [[ampleur]]}}
+{{)}}
+{{(|Degré, rang|2}}
+* {{l|Rang|de|sens=[[rang]]}}
+* {{l|Titel|de|sens=[[titre]]}}
+{{)}}
+
+==== {{S|dérivés}} ====
+* {{lien|gradieren|de|sens=calibrer}}
+{{(|substantifs en ''-grad''}}
+* {{l|Abstraktionsgrad|de|sens=[[degré]] d’[[abstraction]]}}
+* {{l|Alphabetisierungsgrad|de|sens=[[taux]] d’[[alphabétisation]]}}
+* {{l|Altgrad|de}} – ''(synonyme de 5, vieilli)''
+* {{l|Äquatorgrad|de|sens=[[degré]] de [[longitude]] à l’[[équateur]]}}
+* {{l|Bekanntheitsgrad|de|sens=[[degré]] de [[notoriété]]}}
+* {{l|Bildungsgrad|de|sens=[[degré]] de [[formation]]}}
+* {{l|Breitengrad|de|sens=[[latitude]]}}
+* {{l|Detaillierungsgrad|de|sens=[[degré]] de [[détail]]}}
+* {{l|Dienstgrad|de|sens=[[grade]] dans le [[service]] », « [[rang]]}}
+* {{l|Doktorgrad|de|sens=[[grade]] de [[docteur]] », « [[diplôme]] de [[doctorat]]}}
+* {{l|Erfüllungsgrad|de|sens=[[degré]] d’[[accomplissement]] », « [[degré]] de [[réalisation]]}}
+* {{l|Freiheitsgrad|de|sens=[[degré de liberté]]}}
+* {{l|Geheimhaltungsgrad|de|sens=[[niveau de secret]]}}
+* {{l|Hitzegrad|de|sens=[[degré]] de [[fort]]e [[chaleur]]}}
+* {{l|Kältegrad|de|sens=[[degré]] de [[froid]]}}
+* {{l|Längengrad|de|sens=[[longitude]]}}
+* {{l|Lüftungsgrad|de|sens=[[taux]] de [[ventilation]]}}
+* {{l|Meridiangrad|de|sens=[[degré]] de [[longitude]]}}
+* {{l|Minusgrad|de|sens=[[degré]] [[négatif]]}}
+* {{l|Neugrad|de|sens=[[grade]]}} – ''(1/400 du cercle)''
+* {{l|Reifegrad|de|sens=[[degré]] de [[maturité]]}}
+* {{l|Reinheitsgrad|de|sens=[[degré]] de [[pureté]]}}
+* {{l|Schweregrad|de|sens=[[degré]] de [[gravité]]}}
+* {{l|Schwierigkeitsgrad|de|sens=[[degré]] de [[difficulté]]}}
+* {{l|Überdeckungsgrad|de|sens=[[degré]] de [[couverture]]}}
+* {{l|Vertraulichkeitsgrad|de|sens=[[niveau de confidentialité]]}}
+* {{l|Verwandtschaftsgrad|de|sens=[[degré]] de [[chaleur]]}}
+* {{l|Wärmegrad|de|sens=[[degré]] de [[chaleur]]}}
+* {{l|Wirkungsgrad|de|sens=[[rendement]]}}
+{{)}}
+{{(|hyponyme de température|4}}
+* {{l|Grad Celsius|de|sens=[[degré Celsius]]}}
+* {{l|Grad Fahrenheit|de|sens=[[degré Fahrenheit]]}}
+* {{l|Grad Kelvin|de|sens=[[degré Kelvin]]}} – ''(désuet ou familier, sinon : [[Kelvin]])''
+* {{l|Grad Réaumur|de|sens=[[degré Réaumur]]}}
+{{)}}
+{{(|Autres substantifs}}
+* {{l|Gradmesser|de|sens=[[indicateur]]}}
+* {{l|Gradpartikel|de|sens=[[adverbe de degré]]}}
+{{)}}
+
+==== {{S|vocabulaire}} ====
+{{(|Degré, grade, rang|2}}
+* {{l|Beförderung|de|sens=[[promotion]] », « [[avancement]]}}
+* {{l|Diplom|de|sens=[[diplôme]]}}
+* {{l|Promotion|de|sens=[[doctorat]]}}
+{{)}}
+{{(|Degré, mathématiques|3}}
+* {{l|Algebra|de|sens=[[algèbre]]}}
+* {{l|Polynom|de|sens=[[polynôme]]}}
+* {{l|Potenz|de|sens=[[puissance]]}}
+{{)}}
+{{(|Degré, température|4}}
+* {{l|Kelvin|de|sens=[[kelvin]]}}
+* {{l|Temperatur|de|sens=[[température]]}}
+* {{l|Thermometer|de|sens=[[thermomètre]]}}
+{{)}}
+{{(|Degré, angle|5}}
+* {{l|Bogen|de|sens=[[arc]]}}
+* {{l|Gon|de}}, {{l|Neugrad|de|sens=[[grade]]}} – ''(1/400 du cercle)''
+* {{l|Radiant|de|sens=[[radian]]}}
+* {{l|Winkel|de|sens=[[angle]]}}
+{{)}}
+
+==== {{S|phrases}} ====
+* {{lien|im höchsten Grade|de}}
+* {{lien|in höchstem Grade|de}}
+
+==== {{S|hyperonymes}} ====
+* {{lien|Bogenmaß|de}} – ''(5)''
+* {{lien|Winkelmaß|de}} – ''(5)''
+
+==== {{S|hyponymes}} ====
+: ''Voir dérivés''
+
+=== {{S|prononciation}} ===
+* {{écouter|Vienne|ɡʁaːt|lang=de|audio=De-at-Grad.ogg}}
+* {{écouter|Berlin|ɡʁaːt|lang=de|audio=De-Grad.ogg}}
+
+=== {{S|voir}} ===
+* {{WP|lang=de}}
+
+=== {{S|références}} ===
+* {{R:DWDS|Grad}}
+* {{R:Duden|Grad}}
+* {{R:DWb|Grad}}
+
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|nom|gsw-fr}} ===
+'''Grad''' {{pron||gsw-fr}}
+# [[degré|Degré]].

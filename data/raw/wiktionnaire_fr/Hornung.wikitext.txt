@@ -1,0 +1,35 @@
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|gmh|de|mot=hornunc}}, du {{étyl|goh|de|mot=hornung}}, du {{étyl|non|de|mot=hornungr}}, du {{étyl|ang|de|mot=hornungsunu}}, du {{étyl|frk|de}} {{recons|lang-mot-vedette=de|hōrni(n)g}}.
+
+=== {{S|nom|de}} ===
+{{de-nom-m-s-e|ˈhɔʁnʊŋ|gs2=Hornunges|ds2=Hornunge}}
+'''Hornung''' {{pron|ˈhɔʁnʊŋ|de}} {{m}}
+# {{désuet|de}} ''ou'' {{poétique|de}} {{lexique|temps|de}} [[février|Février]].
+
+==== {{S|synonymes}} ====
+* {{cf|Februar|lang=de}}
+
+==== {{S|antonymes}} ====
+* [[Hartung]]
+* [[Lenzing]]
+* [[Ostermond]]
+* [[Wonnemond]]
+* [[Brachet]]
+* [[Heuert]]
+* [[Ernting]]
+* [[Scheiding]]
+* [[Gilbhart]]
+* [[Nebelung]]
+* [[Julmond]]
+
+==== {{S|vocabulaire}} ====
+{{tableau-mois/de}}
+
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|nom|gsw-fr}} ===
+'''Hornung'''
+# [[février|Février]] (en alsacien ancien)

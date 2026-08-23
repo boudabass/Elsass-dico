@@ -1,0 +1,59 @@
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|gmh|de|smuz}} ; avec pour variante ''{{lien|Schmutt|de}}'', apparenté à l’anglais ''{{lien|smut|en}}, {{lien|smutch|en}}, {{lien|smudge|en}}''. Plus avant, apparenté{{R|Pokorny}} au latin ''{{lien|mundus|la}}'' (« propre »), au tchèque ''{{lien|mýt|cs}}'' (« laver ») avec, dans les langues germaniques, une évolution sémantique de « lavé, mouillé, trempé » vers « sale » ; voir le latin ''{{lien|mucus|la}}'' et ''{{lien|lustrum|la}}'' pour un mot qui unit les deux sens : « action de laver » et « ce qui est à laver, qui est mouillé, donc sale ».
+
+=== {{S|nom|de}} ===
+{{de-nom-m|gs=Schmutzes|sing=oui}}
+'''Schmutz''' {{pron|ʃmʊʦ|de}} {{m}} {{au singulier uniquement|de}} {{indénombrable|de}}
+# [[saleté#fr|Saleté]], [[ordure]].
+#* ''Nach Befahren der Uferstraße war das Auto voll '''Schmutz'''.
+#*: Après le passage sur le quai, la voiture était toute sale.''
+#* {{exemple|Dann strichen ihre Augen die langen Mauern der Bastionen hin; manchmal des Nachts hörte sie da die Schreie Ermordeter; und sie bohrte den Blick in die finstern Ecken und abgelegenen Winkel, schwarz von '''Schmutz''' und Feuchtigkeit, voller Angst, Lantiers Körper mit aufgeschlitztem Bauch zu entdecken.|lang=de|sens=Lentement, d’un bout à l’autre de l’horizon, elle suivait le mur de l’octroi, derrière lequel, la nuit, elle entendait parfois des cris d’assassinés ; et elle fouillait les angles écartés, les coins sombres, noirs d’humidité et d’ordure, avec la peur d’y découvrir le corps de Lantier, le ventre troué de coups de couteau. |source={{ouvrage|auteur={{w|Émile Zola}}|trad=Franz Blei|titre=Der Totschläger|année=1923|éditeur=Kurt Wolfs Verlag|url=https://www.projekt-gutenberg.org/zola/totschla/chap002.html}}}}
+#* {{exemple|(...) viele glauben, dass '''Schmutz''' der Gesundheit schadet. Doch schädlich für Gesundheit und Umwelt sind höchstens die Chemikalien, mit denen wir unserer Wäsche zu Leibe rücken.|lang=de|sens=Beaucoup de gens pensent que la saleté nuit à la santé. Pourtant, ce sont tout au plus les produits chimiques que nous utilisons pour nettoyer notre linge qui sont nocifs pour la santé et l’environnement.|source={{périodique|auteur=Violetta Simon et Iris Chaberny|titre="Unterwäsche soll gar nicht steril sein"|journal=Süddeutsche Zeitung|date=8 décembre 2023|texte=https://www.sueddeutsche.de/panorama/hygiene-unterhose-wechseln-unterwaesche-interview-1.6313775}}}}
+# [[navet#fr|Navet]] pour un film ou un livre.
+#* {{exemple | lang=de
+ | Statt klassische Literatur las er nur '''Schmutz'''.
+ | Il ne lisait que des navets au lieu de classiques littéraires.}}
+# [[graisse#fr|Graisse]] animale.
+#* {{exemple | lang=de
+ | Gemästete Tiere geben viel '''Schmutz'''.
+ | Les animaux engraissés donnent beaucoup de graisse.}}
+
+==== {{S|variantes}} ====
+* {{term|Allemagne du nord}} {{lien|Schmutt|de}}
+
+==== {{S|synonymes}} ====
+* {{lien|Dreck|de}}
+* {{lien|Schund|de}}
+* {{lien|Schmalz|de}}
+
+==== {{S|antonymes}} ====
+* [[Sauberkeit]]
+
+==== {{S|dérivés}} ====
+* {{lien|schmutzen|de}}
+* {{lien|schmutzig|de}}
+* [[Schmutzkübel]]
+* [[Schmutzfink]]
+
+==== {{S|apparentés}} ====
+* {{lien|Schmuddel|de}}
+
+=== {{S|prononciation}} ===
+* {{écouter|Berlin|ʃmʊt͡s|lang=de|audio=LL-Q188 (deu)-Sebastian Wallroth-Schmutz.wav}}
+
+=== {{S|références}} ===
+* {{R:Duden}}
+{{Références}}
+
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+Onomatopée
+
+=== {{S|nom|gsw-fr}} ===
+'''Schmutz'''
+# Un [[baiser]], un [[bisou]].
+
+[[Catégorie:Lexique en allemand des déchets]]
+[[Catégorie:Lexique en allemand du cinéma]]
+[[Catégorie:Termes péjoratifs en allemand]]

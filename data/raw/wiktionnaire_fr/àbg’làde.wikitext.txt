@@ -1,0 +1,13 @@
+{{voir|àbglàde}}
+== {{langue|gsw-fr}} ==
+=== {{S|verbe|gsw-fr|flexion}} ===
+'''àbg’làde''' {{phon|àpklâtə|gsw-fr}}
+# ''Participe passé de'' {{lien|àblàde|gsw-fr}}.
+
+==== {{S|variantes orthographiques}} ====
+* {{lien|àbglàde}} (''Haute-Alsace'')
+
+==== {{S|notes}} ====
+La graphie ''àbg’làde'' correspond à une prononciation usitée dans la partie sud de la [[Haute-Alsace]].
+
+{{clé de tri|àbglàde}}

@@ -1,0 +1,14 @@
+== {{langue|gsw-fr}} ==
+{{ébauche|gsw-fr}}
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|verbe|gsw-fr}} ===
+'''kaufa'''
+# [[acheter]].
+
+==== {{S|variantes orthographiques}} ====
+* kaife
+* koïfe
+* kaufe

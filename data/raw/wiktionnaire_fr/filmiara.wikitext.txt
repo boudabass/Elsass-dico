@@ -1,0 +1,11 @@
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|verbe|gsw-fr}} ===
+'''filmiara''' {{phon||gsw-fr}} ''régulier'' (participe passé : ''{{lien|filmiart|gsw-fr}}'')
+# [[filmer#fr|Filmer]] (tourner une vidéo).
+#* {{exemple | lang=gsw-fr
+ | Dàs han sina Chefs ìm Élysée nìt känna neigna :’s ìsch '''filmiart''' wora.
+ | Cela, ses chefs à l’Élysée n’ont pu le nier : ça a été filmé.
+ | source=Patrick {{smcp|Fluckiger}}, « Uf Elsassisch: Liagerèi um kä And », ''[[:w:L’Alsace|L’Alsace]]'', samedi 4 août 2018.}}

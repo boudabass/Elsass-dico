@@ -1,0 +1,21 @@
+{{voir|birka}}
+== {{langue|fr}} ==
+=== {{S|étymologie}} ===
+: {{siècle|?|lang=fr}} Du {{étylp|sv|fr|Birka}}.
+
+=== {{S|nom propre|fr}} ===
+'''Birka''' {{pron||fr}}
+# {{localités|fr|de Suède}} {{lexique|histoire|fr}} Ancienne ville de [[Suède]], ayant été habitée entre 750 et 950 environ, et située sur l’actuelle commune de [[Ekerö]].
+#* {{exemple|lang=fr|La présence d’un ou plusieurs cimetières témoigne de l’installation permanente d'une population d'importance variable : de 600 personnes à '''Birka''' en Suède à environ 3000 personnes à Hamwic en Angleterre.|source=Florian Mazel, ''Nouvelle Histoire du Moyen Âge'', Éditions du Seuil, 2021, page 106}}
+
+=== {{S|anagrammes}} ===
+{{voir anagrammes|fr}}
+
+== {{langue|gsw-fr}} ==
+{{vérifier création automatique||gsw-fr}}
+=== {{S|étymologie}} ===
+{{ébauche-étym|gsw-fr}}
+
+=== {{S|nom|gsw-fr}} ===
+'''Birka'''
+# [[bouleau|Bouleau]]

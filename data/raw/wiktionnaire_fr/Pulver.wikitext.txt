@@ -1,0 +1,43 @@
+{{voir|pulver}}
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|de|mot=pulvis}} via sa forme neutre pulver.
+
+=== {{S|nom|de}} ===
+{{de-nom-m-er}}
+'''Pulver''' {{pron|pʊlfɐ|de}} {{n}}
+# [[poudre#fr|Poudre]].
+#* {{exemple|In der Anlage von Nature Beta Technologies werden die Algen in offenen Salzwasserbecken gezüchtet und mit Zentrifugen geerntet. Dann werden sie zu einem orangefarbenen '''Pulver''' getrocknet.|lang=de|sens=Dans l'installation de Nature Beta Technologies, les algues sont cultivées dans des bassins d'eau salée ouverts et récoltées à l’aide de centrifugeuses. Elles sont ensuite séchées pour obtenir une poudre orange.|source={{périodique|auteur=Christine Kensche|titre=Eine Lösung für die Hungerkrisen der Zukunft|journal=Die Welt|date=25 avril 2023|texte=https://www.welt.de/politik/ausland/article244996648/Superfood-aus-der-Wueste-So-ruestet-sich-Israel-fuer-Nahrungsmittelkrisen.html}}}}
+# {{désuet|de}} [[poudre à canon#fr|Poudre à canon]].
+
+==== {{S|synonymes}} ====
+* [[Mehl]]
+* [[Staub]]
+
+==== {{S|dérivés}} ====
+{{(|}} 
+* [[Backpulver]] (''levure chimique'')
+* [[Brausepulver]] (''poudre effervescente'')
+* [[Kaffeepulver]] (''café soluble'')
+* [[Magermilchpulver]] (''lait écrémé en poudre'')
+* [[Milchpulver]] (''lait en poudre'')
+* [[pulverisieren]]
+* [[pulverisiert]]
+* [[Pulverturm]]
+* [[Schießpulver]] (''poudre à canon'')
+* [[verpulvern]]
+{{)}}
+
+=== {{S|prononciation}} ===
+* {{écouter|Berlin|ˈpʊlfɐ|lang=de|audio=De-Pulver2.ogg}}
+* {{écouter|Berlin|ˈpʊlfɐ|lang=de|audio=De-Pulver.ogg}}
+
+== {{langue|gsw-fr}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étyl|de|gsw-fr|mot=Pulver}}.
+
+=== {{S|nom|gsw-fr}} ===
+'''Pulver'''
+# [[poudre|Poudre]], [[fric]].

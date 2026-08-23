@@ -1,0 +1,8 @@
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|locution-phrase|gsw-fr}} ===
+'''’s ésch alles'''
+# C’est [[tout]]
+{{clé de tri|s esch alles}}

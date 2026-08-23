@@ -1,0 +1,8 @@
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|verbe|gsw-fr}} ===
+'''s’bâdschd'''
+# [[pleuvoir|Pleuvoir]] [[fort]]
+{{clé de tri|s’badschd}}

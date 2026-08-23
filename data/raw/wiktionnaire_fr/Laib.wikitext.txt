@@ -1,0 +1,23 @@
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|de}}
+ 
+=== {{S|nom|de}} ===
+{{de-nom-m-s-e|gs2=Laibes|ds2=Laibe}}
+'''Laib''' {{pron|laɪ̯p|de}} {{m}}
+# {{lexique|pâtisserie|de}} [[miche|Miche]] (de pain).
+#* {{exemple|Der Bäcker formt aus dem Teig '''Laibe''' zu je 750 Gramm, die er vor dem Backen noch eine Stunde in Gärkörben ruhen lässt.|lang=de|sens=Le boulanger forme de la pâte des miches de 750 grammes chacune, qu'il laisse encore reposer une heure dans des paniers de fermentation avant de les cuire.}}
+# [[meule|Meule]] (de fromage).
+#* {{exemple|Können Sie mir von diesem Käse ein Stück abschneiden oder muss ich diesen ganzen '''Laib''' kaufen?|lang=de|sens=Pouvez-vous me couper un morceau de ce fromage ou dois-je acheter toute cette meule ?}}
+
+=== {{S|prononciation}} ===
+* {{écouter|Berlin|laɪ̯p|lang=de|audio=De-Laib.ogg}}
+
+
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|nom|gsw-fr}} ===
+'''Laib'''
+# [[miche|Miche]] de [[pain]]

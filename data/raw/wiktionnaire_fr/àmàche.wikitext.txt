@@ -1,0 +1,11 @@
+{{vérifier création automatique||gsw-fr}}
+{{voir|amache}}
+
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|verbe|gsw-fr}} ===
+'''àmàche'''
+# [[mettre|Mettre]] en [[marche]], [[faire]] [[marcher]]
+{{clé de tri|amache}}

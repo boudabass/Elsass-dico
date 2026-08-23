@@ -1,0 +1,9 @@
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+{{ébauche-étym|gsw-fr}}
+
+=== {{S|nom|gsw-fr}} ===
+'''Bàschnai''' ({{p}} : '''[[Bàschnaie]]''')
+# [[carotte|Carotte]].
+
+{{clé de tri|baschnai}}

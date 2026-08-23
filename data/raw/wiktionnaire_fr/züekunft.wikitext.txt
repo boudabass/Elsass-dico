@@ -1,0 +1,13 @@
+{{voir|Züekunft}}
+
+== {{langue|gsw-fr}} ==
+{{ébauche|gsw-fr}}
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|nom|gsw-fr}} ===
+'''züekunft'''
+# [[avenir]].
+
+{{clé de tri|zuekunft}}

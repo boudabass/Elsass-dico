@@ -1,0 +1,20 @@
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|nom|gsw-fr}} ===
+'''Bohn''' ({{p}}: '''[[Bohne]]''')
+# [[haricot|Haricot]].
+
+== {{langue|francique rhénan}} ==
+{{ébauche|francique rhénan}}
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|francique rhénan}}
+
+=== {{S|nom|francique rhénan}} ===
+'''Bohn''' {{pron|ˈboːn|francique rhénan}} {{f}} ({{p}}: '''[[Bohne]]''')
+# [[haricot|Haricot]].
+
+[[Catégorie:Légumes en alémanique alsacien]]
+[[Catégorie:Légumes en francique rhénan]]

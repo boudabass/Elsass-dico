@@ -1,0 +1,9 @@
+{{voir|Rumpfla}}
+
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|verbe|gsw-fr}} ===
+'''rumpfla'''
+# [[froisser|Froisser]]

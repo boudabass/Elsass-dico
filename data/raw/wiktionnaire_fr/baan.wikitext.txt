@@ -1,0 +1,309 @@
+== {{langue|af}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|af}}
+
+=== {{S|nom|af}} ===
+'''baan''' {{pron||af}}
+# [[chemin|Chemin]], [[route]], [[voie]].
+#* {{exemple|lang=af}}
+# [[route|Route]], [[voie]].
+#* {{exemple|lang=af}}
+# [[trajectoire|Trajectoire]].
+#* {{exemple|lang=af}}
+# [[largeur|Largeur]], [[mesure]] de [[largeur]].
+#* {{exemple|lang=af}}
+# [[piste|Piste]].
+#* {{exemple|lang=af}}
+# [[chemin|Chemin]].
+#* {{exemple|lang=af}}
+
+==== {{S|synonymes}} ====
+* [[pad#af|pas]]
+
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|nom|gsw-fr}} ===
+'''baan ['d]''' {{pron||gsw-fr}} {{f}}
+# [[jambes|Jambes]].
+
+== {{langue|nld}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|nld}}
+
+=== {{S|verbe|nld}} ===
+'''baan''' {{pron||nld}}
+# [[construire|Construire]].
+
+==== {{S|variantes}} ====
+
+* {{lien|bèèn|nld}}
+* {{lien|bèèwn|nld}}
+* {{lien|baawn|nld}}
+=== {{S|références}} ===
+* {{R:Taeldeman|p=21 et 22}}
+
+== {{langue|nl}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|nl}}
+
+=== {{S|nom|nl}} ===
+{{nl-nom|n.s=baan|n.pl=banen|dim.s=baantje|dim.pl=baantjes}}
+'''baan''' {{pron|ba:n|nl}} {{f}}/{{m}}
+# [[emploi|Emploi]], [[poste]], [[travail]], [[job]].
+#* {{exemple | lang=nl
+ | Gesubsidieerde '''baan'''.
+ | Emploi aidé.}}
+#* {{exemple | lang=nl
+ | Ik heb twee '''banen'''.
+ | J’ai deux emplois.}}
+# [[route|Route]], [[voie]].
+#* {{exemple|lang=nl}}
+# [[piste|Piste]].
+#* {{figuré|nocat}} ''Iets op de lange '''baan''' schuiven.''
+#*: Renvoyer quelque chose aux calendes grecques, reporter quelque chose à la saint-glinglin.
+# [[trajectoire|Trajectoire]].
+#* {{exemple | lang=nl
+ | De '''baan''' van een satelliet.
+ | La trajectoire d’un satellite.}}
+# {{lexique|technique|nl}} [[convoyeur|Convoyeur]], [[tapis]], [[transporteur]].
+#* {{exemple|lang=nl}}
+
+==== {{S|synonymes}} ====
+'''emploi'''
+* [[betrekking]]
+* [[job#nl|job]]
+* [[werk]]
+* [[werkkring]]
+'''route'''
+* [[route#nl|route]]
+* [[traject]]
+* [[parcours#nl|parcours]]
+* [[weg#nl|weg]]
+'''piste'''
+* [[strook]]
+'''trajectoire'''
+* [[trajectorie]]
+'''convoyeur'''
+* [[transportbaan]]
+* [[transporteur#nl|transporteur]]
+
+==== {{S|dérivés}} ====
+{{(}}
+* [[aanvliegbaan]]
+* [[aardbaan]]
+* [[aardebaan]]
+* [[achtbaan]]
+* [[atletiekbaan]]
+* [[autobaan]]
+* [[baanatleet]]
+* [[baanatletiek]]
+* [[baanbed]]
+* [[baanbreken]]
+* [[baanbrekend]]
+* [[baanbreker]]
+* [[baanbus]]
+* [[baancommissaris]]
+* [[baander]]
+* [[baanelement]]
+* [[baanfiets]]
+* [[baangarantie]]
+* [[baangast]]
+* [[baanherstel]]
+* [[baanhoek]]
+* [[baanloos]]
+* [[baanloper]]
+* [[baanoog]]
+* [[baanopzichter]]
+* [[baanrecord]]
+* [[baanrenner]]
+* [[baanrestaurant]]
+* [[baanrots]]
+* [[baanruimer]]
+* [[baanschouwer]]
+* [[baanschuiver]]
+* [[baanseizoen]]
+* [[baansport]]
+* [[baanstroper]]
+* [[baantegel]]
+* [[baanvak]]
+* [[baanvast]]
+* [[baanveger]]
+* [[baanvlak]]
+* [[baanwachter]]
+* [[baanwedstrijd]]
+* [[baanwielrennen]]
+* [[baanwielrenner]]
+* [[baanwielrenster]]
+* [[banen]]
+* [[banencheck]]
+* [[banenmarkt]]
+* [[banenmotor]]
+* [[banenplan]]
+* [[banenpool]]
+* [[banenpooler]]
+* [[banensite]]
+* [[banenwinkel]]
+* [[bijbaan]]
+* [[binnenbaan]]
+* [[bloedbaan]]
+* [[bobbaan]]
+* [[bolbaan]]
+* [[borstelbaan]]
+* [[bowlingbaan]]
+* [[brugbaan]]
+* [[buitenbaan]]
+* [[bulderbaan]]
+* [[burgerbaan]]
+* [[busbaan]]
+* [[cabinebaan]]
+* [[deeltijdbaan]]
+* [[dieptebaan]]
+* [[drafbaan]]
+* [[driebaansweg]]
+* [[droombaan]]
+* [[duobaan]]
+* [[eenbaansweg]]
+* [[fietsbaan]]
+* [[flexibaan]]
+* [[fulltimebaan]]
+* [[garantiebaan]]
+* [[gletsjerbaan]]
+* [[glijbaan]]
+* [[golfbaan]]
+* [[gondelbaan]]
+* [[granatenbaan]]
+* [[grasbaan]]
+* [[gravelbaan]]
+* [[hamburgerbaan]]
+* [[hamerbaan]]
+* [[heerbaan]]
+* [[heibaan]]
+* [[heirbaan]]
+* [[hellingbaan]]
+* [[hindernisbaan]]
+* [[hinkelbaan]]
+* [[hondenbaan]]
+* [[hooglandbaan]]
+* [[id-baan]]
+* [[ijsbaan]]
+* [[ijshockeybaan]]
+* [[inloopbaan]]
+* [[inrijbaan]]
+* [[kaatsbaan]]
+* [[kabelbaan]]
+* [[kegelbaan]]
+* [[keilbaan]]
+* [[knikkerbaan]]
+* [[kogelbaan]]
+* [[kolfbaan]]
+* [[kortebaan]]
+* [[kortebaanrijden]]
+* [[kortebaanschaatsen]]
+* [[kortebaanwedstrijd]]
+* [[kraanbaan]]
+* [[krombaangeschut]]
+* [[kunstbaan]]
+* [[kunststofbaan]]
+* [[kustbaan]]
+* [[kwantumbaan]]
+* [[laaglandbaan]]
+* [[landingsbaan]]
+* [[langebaanrijder]]
+* [[levensbaan]]
+* [[lichtbaan]]
+* [[lijnbaan]]
+* [[loopbaan]]
+* [[luizenbaan]]
+* [[lymfbaan]]
+* [[lymfebaan]]
+* [[magneetbaan]]
+* [[maliebaan]]
+* [[melkertbaan]]
+* [[middenbaan]]
+* [[natuurbaan]]
+* [[natuurijsbaan]]
+* [[oefenbaan]]
+* [[omloopbaan]]
+* [[parallelbaan]]
+* [[parkeerbaan]]
+* [[parttimebaan]]
+* [[pijnbaan]]
+* [[piramidebaan]]
+* [[planeetbaan]]
+* [[planetenbaan]]
+* [[plumbaan]]
+* [[ponybaan]]
+* [[proefbaan]]
+* [[quantumbaan]]
+* [[racebaan]]
+* [[renbaan]]
+* [[rijbaan]]
+* [[rodelbaan]]
+* [[roeibaan]]
+* [[roetsjbaan]]
+* [[rolbaan]]
+* [[rollenbaan]]
+* [[rolschaatsbaan]]
+* [[rupsbaan]]
+* [[schaatsbaan]]
+* [[scheurbaan]]
+* [[schietbaan]]
+* [[sintelbaan]]
+* [[skatebaan]]
+* [[skeelerbaan]]
+* [[skelterbaan]]
+* [[skibaan]]
+* [[smetbaan]]
+* [[spiebaan]]
+* [[spoorbaan]]
+* [[squashbaan]]
+* [[startbaan]]
+* [[stormbaan]]
+* [[stroombaan]]
+* [[sullebaan]]
+* [[talibaan]]
+* [[tandradbaan]]
+* [[tartanbaan]]
+* [[taxibaan]]
+* [[tennisbaan]]
+* [[terugkeerbaan]]
+* [[testbaan]]
+* [[thuisbaan]]
+* [[tokkelbaan]]
+* [[touwbaan]]
+* [[trambaan]]
+* [[transportbaan]]
+* [[trimbaan]]
+* [[tweebaans]]
+* [[tweebaansweg]]
+* [[tweelingbaan]]
+* [[uitgroeibaan]]
+* [[uitzendbaan]]
+* [[vierbaansweg]]
+* [[voltijdbaan]]
+* [[waterskibaan]]
+* [[watersportbaan]]
+* [[wedstrijdbaan]]
+* [[wielerbaan]]
+* [[wildbaan]]
+* [[wildwaterbaan]]
+* [[zeepbaan]]
+* [[zenuwbaan]]
+* [[zesbaans]]
+* [[zonnebaan]]
+* [[zweefbaan]]
+* [[zwembaan]]
+{{)}}
+
+=== {{S|taux de reconnaissance}} ===
+{{nl-taux|99,3|100,0|pourB=100|pourNL=99}}
+
+=== {{S|prononciation}} ===
+* {{pron|ba:n|nl}}
+* {{écouter|lang=nl|Pays-Bas|baːn|audio=Nl-baan.ogg}}
+* {{écouter|lang=nl|Pays-Bas (partie continentale) (Wijchen)|audio=LL-Q7411 (nld)-Robin van der Vliet-baan.wav}}
+
+=== {{S|références}} ===
+{{références}}

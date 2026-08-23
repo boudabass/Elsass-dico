@@ -1,0 +1,17 @@
+{{voir/april}}
+
+== {{langue|gsw-fr}} ==
+{{ébauche|gsw-fr}}
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|nom|gsw-fr}} ===
+'''àpril''' {{pron||gsw-fr}}
+# [[avril|Avril]].
+
+==== {{S|variantes orthographiques}} ====
+* [[àwril]]
+
+{{clé de tri|april}}
+[[Catégorie:Mois de l’année en alémanique alsacien]]

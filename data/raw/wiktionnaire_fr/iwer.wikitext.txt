@@ -1,0 +1,14 @@
+== {{langue|gsw-fr}} ==
+{{ébauche|gsw-fr}}
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|adverbe|gsw-fr}} ===
+'''iwer'''
+# [[au-dessus]].
+# [[au sujet de]].
+
+==== {{S|variantes orthographiques}} ====
+* [[iwwer]]
+* [[éwer]]

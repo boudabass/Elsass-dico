@@ -1,0 +1,10 @@
+{{voir|Baiza}}
+
+== {{langue|gsw-fr}} ==
+{{ébauche|gsw-fr}}
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|nom|gsw-fr}} ===
+'''baiza''' {{pron||gsw-fr}}
+# [[troquet#fr|Troquet]].

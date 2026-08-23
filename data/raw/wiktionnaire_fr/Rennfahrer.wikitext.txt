@@ -1,0 +1,23 @@
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+De ''[[Rennen]]'' et ''[[Fahrer]]''.
+
+=== {{S|nom|de}} ===
+{{de-nom-m-er}}
+'''Rennfahrer''' {{pron||de}} {{m}}
+# {{lexique|cyclisme|de}} Coureur cycliste.
+#* {{exemple|lang=de}}
+# {{lexique|sports mécaniques|de}} Pilote de course (homme).
+#* {{exemple|lang=de}}
+
+==== {{S|apparentés}} ====
+* [[Rennfahrerin]]
+
+{{vérifier création automatique||gsw-fr}}
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|nom|gsw-fr}} ===
+'''Rennfahrer'''
+# [[pilote|Pilote]] de [[course]]

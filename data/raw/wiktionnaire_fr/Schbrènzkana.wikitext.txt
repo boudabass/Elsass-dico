@@ -1,0 +1,11 @@
+{{vérifier création automatique||gsw-fr}}
+{{voir|schbrènzkana}}
+
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|nom|gsw-fr}} ===
+'''Schbrènzkana'''
+# [[arrosoir|Arrosoir]]
+{{clé de tri|schbrenzkana}}

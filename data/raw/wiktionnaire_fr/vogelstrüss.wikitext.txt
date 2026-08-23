@@ -1,0 +1,14 @@
+== {{langue|gsw-fr}} ==
+{{ébauche|gsw-fr}}
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|nom|gsw-fr}} ===
+'''vogelstrüss [der]''' {{m}}
+# [[autruche]].
+
+==== {{S|variantes orthographiques}} ====
+* [[vöjelstrüss]] [der]
+
+{{clé de tri|vogelstruss}}

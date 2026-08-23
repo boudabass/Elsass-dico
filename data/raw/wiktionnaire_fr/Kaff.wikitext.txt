@@ -1,0 +1,46 @@
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|rom|de|gav}}.
+
+=== {{S|nom|de}} ===
+{{de-nom-n-s-e|gse=opt|np2=Käffer|cat2=n-s-er}}
+{{de-nom-n-s-s}}
+'''Kaff''' {{n}} {{pron|ˈkaf|de}}
+# {{péjoratif|de}} {{familier|de}} [[trou|Trou]], [[bled]], [[patelin]]
+#* {{exemple | lang=de | Was für ein Kaff! Hier ist ja überhaupt nichts los!}}
+
+==== {{S|synonymes}} ====
+* [[Nest]] (1)
+* [[Dorf]] (1)
+* [[Ort]] (1)
+* [[Flecken]] (1)
+* [[Ansiedlung]] (1)
+* [[Spreu]]
+* [[Siedlung]] (1)
+* [[Gemeinde]] (1)
+* [[Bauerndorf]] (1)
+* [[Klitsche]] (1)
+* [[Ortschaft]] (1)
+
+==== {{S|antonymes}} ====
+* [[Stadt]] (1)
+
+==== {{S|hyperonymes}} ====
+* [[Siedlungsart]] (1)
+
+==== {{S|hyponymes}} ====
+* [[Bauernkaff]] (1)
+* [[Kuhkaff]] (1)
+
+=== {{S|prononciation}} ===
+* {{pron|kaf|de}}
+* {{écouter||ˈkaf|lang=de|audio=De-Kaff.ogg}}
+
+
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|nom|gsw-fr}} ===
+'''Kaff'''
+# [[village|Village]], [[trou]] [[perdu]]

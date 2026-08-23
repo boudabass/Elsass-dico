@@ -1,0 +1,9 @@
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|verbe|gsw-fr}} ===
+'''àbholtza'''
+# [[déboiser|Déboiser]].
+
+{{clé de tri|abholtza}}

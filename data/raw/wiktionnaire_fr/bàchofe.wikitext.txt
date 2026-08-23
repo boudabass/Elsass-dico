@@ -1,0 +1,14 @@
+== {{langue|gsw-fr}} ==
+{{ébauche|gsw-fr}}
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|nom|gsw-fr}} ===
+'''bàchofe [der]''' {{m}}
+# [[four]] de cuisine.
+
+==== {{S|variantes orthographiques}} ====
+* [[bàchoffe]]
+
+{{clé de tri|bachofe}}

@@ -1,0 +1,9 @@
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|nom|gsw-fr}} ===
+'''Göalmann'''
+# [[gardien de but|Gardien de but]] 
+
+{{clé de tri|goalmann}}

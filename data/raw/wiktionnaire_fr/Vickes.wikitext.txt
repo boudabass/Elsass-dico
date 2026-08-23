@@ -1,0 +1,15 @@
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|prénom|gsw-fr|genre=m}} ===
+'''Vickes'''
+# [[Victor]].
+
+== {{langue|francique rhénan}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|francique rhénan}}
+
+=== {{S|prénom|francique rhénan|genre=m}} ===
+'''Vickes''' {{pron||francique rhénan}} {{m}}
+# [[Victor]].

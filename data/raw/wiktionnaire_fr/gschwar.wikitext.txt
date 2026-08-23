@@ -1,0 +1,10 @@
+{{voir|gschwär}}
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|nom|gsw-fr}} ===
+'''gschwar'''  {{pron||gsw-fr}} {{n}}
+# {{maladie|gsw-fr}} [[abcès#fr|Abcès]].
+
+{{clé de tri|Gschwar}}

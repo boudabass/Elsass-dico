@@ -1,0 +1,11 @@
+{{voir|Johr}}
+== {{langue|gsw-fr}} ==
+{{ébauche|gsw-fr}}
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|nom|gsw-fr}} ===
+'''johr ['s]''' {{n}}
+# [[an]].
+# [[année]].

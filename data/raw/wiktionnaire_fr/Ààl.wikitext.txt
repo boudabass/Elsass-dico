@@ -1,0 +1,17 @@
+{{voir/aal}}
+
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|nom|gsw-fr}} ===
+'''Ààl''' {{pron||gsw-fr}} {{m}}
+# [[anguille#fr|Anguille]].
+#* {{exemple|lang=gsw-fr}}
+
+=== {{S|références}} ===
+* [https://web.archive.org/web/20130926064631/http://culture.alsace.pagesperso-orange.fr/page_af.htm Dictionnaire français-alsacien]
+
+[[Catégorie:Poissons en alémanique alsacien]]
+
+{{clé de tri|aal}}

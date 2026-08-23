@@ -1,0 +1,44 @@
+{{voir|fons}}
+
+== {{langue|fr}} ==
+=== {{S|étymologie}} ===
+: Du latin ''{{lien|fons|la}}'' (« source »).
+
+=== {{S|nom propre|fr}} ===
+{{fr-inv|fɔ̃|inv_titre=Nom propre}}
+'''Fons''' {{pron|fɔ̃|fr}}
+# {{localités|fr|du département de l’Ardèche}} [[commune|Commune]] [[français]]e, située dans le département de l’[[Ardèche]].
+# {{localités|fr|du département du Gard}} Commune française, située dans le département du [[Gard]].
+# {{localités|fr|du département du Lot}} Commune française, située dans le département du [[Lot]].
+
+==== {{S|synonymes}} ====
+; commune du Gard de nom officiel ''Fons''
+* [[Fons-outre-Gardon]] (appellation locale)
+
+==== {{S|gentilés}} ====
+; commune du Gard, du Lot
+* [[Fonsois]], [[Fonsoise]], [[fonsois]]
+
+==== {{S|dérivés}} ====
+* [[Fons-sur-Lussan]]
+
+==== {{S|traductions}} ====
+{{trad-début}}
+{{trad-fin}}
+
+=== {{S|prononciation}} ===
+==== {{S|homophones|fr}} ====
+* [[fon]]
+* [[fond]], [[fonds]]
+* [[font]]
+
+=== {{S|voir aussi}} ===
+* {{Wikipédia|Fons}}
+
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|prénom|gsw-fr|genre=m}} ===
+'''Fons''' {{pron||gsw-fr}} {{m}}
+# [[Alphonse]] (prénom).

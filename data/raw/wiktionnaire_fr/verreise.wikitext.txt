@@ -1,0 +1,19 @@
+{{vérifier création automatique||gsw-fr}}
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|verbe|gsw-fr}} ===
+'''verreise'''
+# [[partir|Partir]] (en voyage)
+
+== {{langue|de}} ==
+=== {{S|verbe|de|flexion}} ===
+'''verreise''' {{pron|fɛɐ̯ˈʁaɪ̯zə|de}}
+# ''Deuxième personne du singulier de l’impératif présent de'' {{lien|verreisen|de}}.
+# ''Première personne du singulier du présent de l’indicatif de'' {{lien|verreisen|de}}.
+# ''Première personne du singulier du subjonctif présent I de'' {{lien|verreisen|de}}.
+# ''Troisième personne du singulier du subjonctif présent I de'' {{lien|verreisen|de}}.
+
+=== {{S|prononciation}} ===
+* {{écouter|Berlin|fɛɐ̯ˈʁaɪ̯zə|lang=de|audio=De-verreise.ogg}}

@@ -1,0 +1,164 @@
+{{voir/schloss}}
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|goh|de|mot=sloʒ}}, attesté pour le {{siècle2|VIII}} siècle, et du {{étyl|gmh|de|mot=sloʒ}}<ref>{{R:DWDS|Schloss}}</ref>.
+: {{siècle|VIII}} avec le sens de fermeture de porte, puis à partir du {{siècle|XIII}} pour désigner un château-fort.
+: Du {{étyl|goh|de|mot=sloz, slōz}}, {{étyl|gmh|de|mot=slōz}}. {{cf|schließen|Schlüssel}}.<ref>Friedrich Kluge, bearbeitet von Elmar Seebold: Etymologisches Wörterbuch der deutschen Sprache. 24., durchgesehene und erweiterte Auflage. Walter de Gruyter, Berlin/New York 2001, ISBN 978-3-11-017473-1, DNB 965096742, Stichwort: „Schloß“, Seite 811.</ref>
+
+=== {{S|nom|de}} ===
+{{de-nom-n-s-er|gs=Schlosses|ds2=Schlosse|np=Schlösser}}
+[[Fichier:Folklore Museum Sinarades 11.jpg|vignette|'''Schloss'''- Serrure]]
+[[Fichier:France Occitanie 12 Chateau de Galinieres 01.jpg|vignette|'''Schloss'''- Château]]
+'''Schloss''' {{pron|ʃlɔs|de}} {{n}}
+# [[serrure|Serrure]], [[fermeture]], [[fermoir]], [[cadenas]], [[antivol]], [[verrou]].
+#* {{exemple | lang=de | Er hat versehentlich den Schlüssel im '''Schloss''' stecken lassen. | sens=Il a laissé par mégarde la clé dans la serrure''}}
+#* {{exemple | lang=de | hinter '''Schloss''' und Riegel. | sens=Fermé à double tour''}}
+#* {{exemple|Also zuckte sie nur mit den Schultern, tastete in ihrer Handtasche nach ihrem Schlüsselbund, an dem sich auch ein Zweitschlüssel zu Brittas Wohnung befand, fand ihn, fummelte ihn ins '''Schloss''' und öffnete die Tür.|lang=de|sens=Elle haussa donc seulement les épaules, farfouilla dans son sac à main à la recherche de son trousseau de clés, qui comportait aussi une clé de secours pour l’appartement de Britta, le trouva (, le mania pour insérer dans la serrure) et ouvrit la porte.|source={{ouvrage|auteur={{w|Melanie Raabe}}|trad=Céline Maurice|titre=Die Falle|année=2015|éditeur=btb Verlag|lieu=München|url=}}}}
+# [[culasse|Culasse]] d'une [[arme à feu]] (''abréviation de'' [[Gewehrschloss]])
+#* {{exemple|lang=de}}
+# [[château|Château]].
+#* {{exemple | lang=de | Chambord ist ein '''Schloss''' im Renaissance-Stil, während '''Schloss''' Neuschwanstein im neugotischen Stil gehalten ist. | Chambord est un château de style Renaissance, alors que le château de Neuschwanstein est de style néogothique.}}
+
+==== {{S|anciennes orthographes}} ====
+* [[Schloß]] ''(Avant la réforme de 1996)''
+
+==== {{S|diminutifs}} ====
+* {{lien|Schlösslein|de}}
+* {{lien|Schlösschen|de}}
+
+==== {{S|synonymes}} ====
+* {{lien|Burg|de|sens=château-fort}}
+* {{lien|Herrenhaus|de}}
+* {{lien|Kastell|de}}
+* {{lien|Palais|de}}
+* {{lien|Stammsitz|de}}
+* {{lien|Pavillon|de|sens=pavillon}}
+* {{lien|Halle|de}}
+* {{lien|Pfalz|de}}
+* {{lien|Rotunde|de}}
+* {{lien|Königspalast|de|sens=palais royal}}
+* {{lien|Sommerresidenz|de|sens=résidence d'été}}
+* {{lien|Palast|de}}
+* {{lien|Fürstenhaus|de}}
+* {{lien|Landsitz|de}}
+
+==== {{S|antonymes}} ====
+* {{lien|Riegel|de}}
+* {{lien|Schlüssel|de}}
+
+==== {{S|hyponymes}} ====
+{{(|}}
+* {{lien|Bügelschloss|de}}
+* {{lien|Eisenschloss|de|sens=serrure en fer}}
+* {{lien|Fahrradschloss|de|sens=antivol de vélo}}
+* {{lien|Gürtelschloss|de|sens=boucle de ceinture}}
+* {{lien|Kombinationsschloss|de|sens=serrure à combinaison}}
+* {{lien|Koppelschloss|de|sens=boucle de ceinturon}}
+* {{lien|Möbelschloss|de|sens=serrure de meuble}}
+* {{lien|Pfandschloss|de}}
+* {{lien|Schalenschloss|de|sens=verrou de commutation}}
+* {{lien|Sicherheitsschloss|de|sens=serrure de sécurité}}
+* {{lien|Türschloss|de|sens=serrure de porte}}
+* {{lien|Vorhängeschloss|de|sens=cadenas}}
+* {{lien|Zylinderschloss|de|sens=serrure à cylindre}}
+{{)}}
+{{(|}}
+* {{lien|Adelsschloss|de|sens=château d'un noble}}
+* {{lien|Barockschloss|de|sens=château de style baroque}}
+* {{lien|Bergschloss|de}}
+* {{lien|Geisterschloss|de|sens=château hanté}}
+* {{lien|Hauptschloss|de}}
+* {{lien|Jagdschloss|de|sens=pavillon de chasse}}
+* {{lien|Königsschloss|de|sens=château royal}}
+* {{lien|Liebesschloss|de|sens=cadenas d'amour}}
+* {{lien|Luftschloss|de|sens=château en Espagne}}
+* {{lien|Lustschloss|de|sens=château de plaisance}}
+* {{lien|Märchenschloss|de|sens=château de conte de fées}}
+* {{lien|Nebenschloss|de}}
+* {{lien|Renaissanceschloss|de|sens=château de style Renaissance}}
+* {{lien|Residenzschloss|de|sens=palais résidentiel}}
+* {{lien|Sommerschloss|de|sens=château résidence d'été}}
+* {{lien|Spukschloss|de|sens=château hanté}}
+* {{lien|Stadtschloss|de}}
+* {{lien|Wasserschloss|de|sens=château entouré de douves}}
+* {{lien|Wehrschloss|de}}
+{{)}}
+{{(|}}
+* {{lien|Luntenschloss|sens=platine à mèche », « serpentine}}
+* {{lien|Perkussionsschloss|de}}
+* {{lien|Radschloss|de}}
+* {{lien|Steinschloss|de}}
+{{)}}
+
+==== {{S|dérivés}} ====
+{{(|&nbsp;}}
+* {{lien|Pflandschloss|de|sens=serrure à consigne}}
+* {{lien|Schloss-Doktrin|de}}
+* {{lien|Schlossanlage|de}}
+* {{lien|Schlossaufseher|de}}
+* {{lien|Schlossaufseher|de}}
+* {{lien|Schlossbaumeister|de}}
+* {{lien|Schlossberg|de}}
+* {{lien|Schlossbeschlag|de}}
+* {{lien|Schlossbeschläge|de}}
+* {{lien|Schlossblech|de}}
+* {{lien|Schlosscafé|de|sens=café du château}}
+* {{lien|Schlosser|de|sens=serrurier}}
+* {{lien|Schlossgang|de}}
+* {{lien|Schlossgarten|de|sens=jardin de château}}
+* {{lien|Schlossgespenst|de|sens=fantôme du château}}
+* {{lien|Schlossgraben|de|sens=douves du château}}
+* {{lien|Schlossherr|de|sens=châtelain}}
+* {{lien|Schlosshof|de|sens=cour du château}}
+* {{lien|Schlosshund|de|sens=chien de château}}
+* {{lien|Schlosskapelle|de|sens=chapelle castrale}}
+* {{lien|Schlosskindergarten|de}}
+* {{lien|Schlosskirche|de|sens=église castrale}}
+* {{lien|Schlosspark|de|sens=parc de château}}
+* {{lien|Schlossplatz|de|sens=place de château}}
+* {{lien|Schlossriegel|de|sens=verrou}}
+* {{lien|Schlossruine|de|sens=château en ruine}}
+* {{lien|Schlossverkäufer|de|sens=vendeur de château}}
+* {{lien|Schlossverwalter|de|sens=administrateur de château}}
+* {{lien|Schlossvogt|de}}
+* {{lien|Schlossweg|de}}
+{{)}}
+
+==== {{S|phrases}} ====
+* {{lien|hinter Schloss und Riegel sitzen|de}}
+* {{lien|ins Schloss fallen|de|sens=s'enfermer / se verrouiller}}
+
+==== {{S|hyperonymes}} ====
+* {{lien|Bauteil|de}}
+* {{lien|Verschluss|de}}
+* {{lien|Haus|de}}
+* {{lien|Gebäude|de}}
+
+=== {{S|prononciation}} ===
+* {{écouter|Berlin (Allemagne)|ʃlɔs|lang=de|audio=De-Schloss.ogg}}
+
+=== {{S|références}} ===
+{{Références}}
+
+==== {{S|sources}} ====
+* {{R:DWDS|Schloss}}
+* {{R:Duden|Schloss}} 
+* {{Source-wikt|de|Schloss}}
+
+==== {{S|bibliographie}} ====
+* Larousse - Dictionnaire allemand/français – français/allemand , éd. 1958, p 662.
+* Harrap’s  de poche – Bordas Dictionnaire allemand/français, éd. 1997, ISBN 0-245-50308-0, p 253. 
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=de}}
+
+[[Catégorie:Édifices en allemand]]
+
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|de|gsw-fr|mot=}} ''Schloss''.
+
+=== {{S|nom|gsw-fr}} ===
+'''Schloss''' {{pron||gsw-fr}}
+# [[château|Château]]

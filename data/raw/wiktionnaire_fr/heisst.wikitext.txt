@@ -1,0 +1,24 @@
+{{voir|heißt}}
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|verbe|gsw-fr}} ===
+'''heisst''' {{pron||gsw-fr}}
+# [[nommer|Nommer]], s’[[appeler]].
+
+== {{langue|de}} ==
+=== {{S|verbe|de|flexion}} ===
+'''heisst''' {{pron|haɪ̯st|de}}
+# ''Deuxième personne du singulier du présent de l’indicatif de'' {{lien|heissen|de}}.
+# ''Troisième personne du singulier du présent de l’indicatif de'' {{lien|heissen|de}}.
+# ''Deuxième personne du pluriel du présent de l’indicatif de'' {{lien|heissen|de}}.
+# ''Deuxième personne du pluriel de l’impératif présent de'' {{lien|heissen|de}}.
+
+==== {{S|variantes orthographiques}} ====
+* {{l|heißt}} ''(Allemagne, Autriche)''
+
+=== {{S|prononciation}} ===
+* {{écouter|{{DE|nocat=1}}|haɪ̯st|lang=de|audio=LL-Q188 (deu)-Natschoba-heißt.wav}}
+* {{écouter|Berlin|haɪ̯st|lang=de|audio=De-heißt.ogg}}
+* {{écouter|Vienne|haɪ̯st|lang=de|audio=De-at-heißt.ogg}}

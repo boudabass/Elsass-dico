@@ -1,0 +1,17 @@
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|nom|gsw-fr}} ===
+'''Ààsgaijer''' {{pron||gsw-fr}} {{m}}
+# [[vautour#fr|Vautour]].
+#* {{exemple|lang=gsw-fr}}
+
+==== {{S|vocabulaire}} ====
+{{thématique|vautours|gsw-fr}}
+
+=== {{S|prononciation}} ===
+{{ébauche-pron-audio|gsw-fr}}
+
+=== {{S|références}} ===
+* ''[https://www.elsassisch.eu/culture.alsace.pagesperso-orange.archive/dictionnaire_alsacien.htm Dictionnaire français-alsacien et alsacien-français]'', www.elsassisch.eu

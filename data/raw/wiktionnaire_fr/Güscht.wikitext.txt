@@ -1,0 +1,9 @@
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|prénom|gsw-fr|genre=m}} ===
+'''Güscht''' {{pron||gsw-fr}} {{m}}
+# [[Auguste]].
+
+{{clé de tri|Guscht}}

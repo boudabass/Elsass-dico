@@ -1,0 +1,11 @@
+{{voir/vie}}
+
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|nom|gsw-fr}} ===
+'''Vïë''' {{pron||gsw-fr}}
+# [[vin|Vin]].
+
+{{clé de tri|vie}}

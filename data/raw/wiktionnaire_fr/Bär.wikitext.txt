@@ -1,0 +1,235 @@
+{{voir/bar}}
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: [[#de-nom-1|Nom 1]]. {{siècle|IX|lang=de}} Du {{étyl|goh|de|mot=bero}} <ref>{{R:DWDS|Bär}}</ref>, du {{étyl|gmh|de|mot=bër}} et du {{étyl|gem|de|mot=berōn}} <ref> {{source|Wolfgang {{pc|Pfeifer}}, ''Etymologische Wörterbuch des Deutschen'', Éditions Deutscher Taschenbuch, 1997}} </ref> {{cf|bear|lang=en}} en anglais, ''[[beer#nl|beer]]'' en néerlandais, ''[[bjørn#da|bjørn]]'' en danois.
+: [[#de-nom-2|Nom 2]]. {{siècle|XIII|doute=oui|lang=de}} Peut-être du {{étyl|gmh|de|beren|sens=[[frapper]]}} – [[#Références|cf. DWb ci-dessous]].
+
+=== {{S|nom|de|num=1}} ===
+{{de-nom-m-faible-en}}
+{{de-nom-m-s-en}}
+[[File:Ours des pyrenees aspe 2002.jpg|thumb|'''Bär'''.]]
+'''Bär''' {{pron|bɛːɐ̯|de}} {{m}} {{équiv-pour|lang=de|une femelle|Bärin}}
+# {{mammifères|de}} [[ours#fr|Ours]] (animal).
+#* {{exemple
+|Der '''Bär''' ist auf dem Berliner Wappen zu sehen.
+|L’ours figure sur les armoiries de Berlin.
+|lang=de}}
+#* {{exemple|Nachdem Anfang April das '''Bär'''enweibchen JJ4 den jungen Mann getötet hatte, ist eine hitzige Debatte um das Zusammenleben von '''Bär''' und Mensch in Italien entbrannt.|lang=de|sens=Après que l’ourse JJ4 a tué le jeune homme début avril, un vif débat a éclaté sur la cohabitation entre l’ours et l’homme en Italie.|source={{périodique|auteur=(SZ/dpa/tpa)|titre=Bärenkadaver in Norditalien gefunden|journal=Süddeutsche Zeitung|date=1 mai 2023|texte=https://www.sueddeutsche.de/panorama/trentino-baerkadaver-norditalien-1.5831386}}}}
+#* {{exemple|Der dänische Unternehmer ist zudem Großgrundbesitzer. Allerdings nicht in Dänemark. Povlsen ist der größte private Grundbesitzer im Vereinigten Königreich – ihm gehört mehr als ein Prozent des gesamten Grundbesitzes in Schottland. Auch hat er ein großes Reservat in den rumänischen Karpaten, dessen Zweck der Schutz von Wölfen, '''Bär'''en und Luchsen ist.|lang=de|sens=L'entrepreneur danois est également un grand propriétaire terrien. Mais pas au Danemark. Povlsen est le plus grand propriétaire foncier privé du Royaume-Uni - il possède plus d’un pour cent de toutes les terres en Écosse. Il possède également une grande réserve dans les Carpates roumaines, dont le but est de protéger les loups, les ours et les lynx.|source={{périodique|auteur=Victoria Niemsch|titre=Jeder hat schon seine Kleidung getragen, aber kaum jemand kennt sein Gesicht – das ist der reichste Mensch aus Dänemark|journal=Business Insider|date=1 mai 2025|texte=https://www.businessinsider.de/wirtschaft/das-ist-der-reichste-mensch-aus-daenemark-bestimmt-kennt-ihr-ihn}}}}
+# {{constellations|de}} [[Grande Ourse#fr|Grande Ourse]] et [[Petite Ourse]], constellations de l'hémisphère nord. (Abréviation).
+#* {{exemple
+|Der Große '''Bär''' und der Kleine '''Bär''' sind beide Sternbilde des Nordhimmels.
+|La Grande Ourse et la Petite Ourse sont les deux des constellations de l’hémisphère céleste nord.
+|lang=de}}
+# {{papillons|de}} [[papillon|Papillon]] de la famille des [[Arctiidae]], abréviation de {{l|''Bärenspinner''|de}}.
+#* {{exemple
+|Der Braune '''Bär''' hat seinen Namen von der dichten, bräunlich-"bärenartigen" Behaarung der älteren Raupen.
+|L’écaille martre tire son nom [en allemand] de la pilosité dense, brunâtre « ursine » des chenilles matures.
+|source={{lien web
+ |titre=Brauner '''Bär''' ist Schmetterling des Jahres 2021
+ |site={{w|Bund für Umwelt und Naturschutz Deutschland}}
+ |date=2021
+ |url=https://www.bund.net/tiere-pflanzen/schmetterlinge/schmetterling-des-jahres-2022/schmetterling-des-jahres-2021}}
+|lang=de}}
+# {{lexique|chasse|de}} [[marmotte#|Marmotte]] [[mâle]].
+#* {{exemple
+|Das weibliche Murmeltier wird manchmal als „Katze“, das männliche als „'''Bär'''“ und Jungtiere als „Affe“ oder „Äffchen“ bezeichnet.
+|La marmotte femelle est parfois appelée « chatte », le mâle « ours » et les jeunes animaux « singe » ou « petit singe ».
+|source={{w|Murmeltiere|lang=de}}
+|lang=de}}
+# {{vulgaire|de}} [[toison#fr|Toison]] [[pubienne]] de la [[femme]].
+#* {{exemple|lang=de}}
+
+==== {{S|notes}} ====
+''Bär'' est un nom faible dans la langue standard, mais fait partie d'un groupe de noms qui ont une certaine tendance à avoir une déclinaison mixte dans l'usage général, donc on entendra ou lira souvent par exemple ''dem {{lien|Bär|de}}'' à la place de ''dem {{lien|Bären|de}}'', surtout familièrement.
+Pour le sens « gros [[marteau]] », voir [[#de-nom-2|ci-après]].
+
+==== {{S|synonymes}} ====
+* {{lien|Rammbär|de}}
+
+==== {{S|hyponymes}} ====
+{{(|Ours et ursidés en ''-bär''}}
+* {{l|Bambusbär|de|sens=[[panda]]}}
+* {{l|Grislibär|de}}, {{l|Grizzlybär|de|sens=[[grizzly]]}}
+* {{l|Höhlenbär|de|sens=[[ours des cavernes]]}}
+* {{l|Mondbär|de|sens=[[ours à collier]]}}
+* {{l|Braunbär|de|sens=[[ours brun]]}}
+* {{l|Brillenbär|de|sens=[[ours à lunettes]]}}
+* {{l|Eisbär|de|sens=[[ours polaire]]}}
+* {{l|Kamtschatkabär|de|sens=[[ours brun]] du [[Kamtchatka]]}}
+* {{l|Kodiakbär|de|sens=[[ours kodiak]]}}
+* {{l|Kragenbär|de|sens=[[ours à collier]]}}
+* {{l|Lippenbär|de|sens=[[ours lippu]]}}
+* {{l|Malaienbär|de|sens=[[ours malais]]}}
+* {{l|Pandabär|de|sens=[[panda]]}}
+* {{l|Polarbär|de|sens=[[ours polaire]]}}
+* {{l|Schwarzbär|de|sens=[[ours noir]] », « [[baribal]]}}
+{{)}}
+{{(|Autres animaux en ''-bär''}}
+* {{l|Ameisenbär|de|sens=[[fourmilier]]}}
+* {{l|Brauner Bär|de|sens=[[papillon]] [[écaille martre]]}}
+* {{l|Katzenbär|de|sens=[[panda roux]]}}
+* {{l|Kleinbär|de|sens=[[procyonidé]]}}
+* {{l|Nasenbär|de|sens=[[coati]]}}
+* {{l|Seebär|de|sens=[[otarie]]}}
+* {{l|Waschbär|de|sens=[[raton laveur]]}}
+{{)}}
+{{(|Représentations / sens figurés en ''-bär''}}
+* {{l|Brummbär|de|sens=[[grognon]]}}
+* {{l|Einschlafbär|de|sens=[[ours en peluche]]}}
+* {{l|Gummibär|de|sens=[[ourson gélifié]]}}
+* {{l|Käpt’n Blaubär|de|sens=capitaine Blaubär}}
+* {{l|Erklärbär|de|sens=[[ours]] [[explicatif]] / [[tutoriel]]}}
+* {{l|Knuddelbär|de|sens=[[ours en peluche]]}}
+* {{lien|Normalbär|de}}
+* {{lien|Problembär|de}}
+* {{lien|Risikobär|de}}
+* {{lien|Schadbär|de}}
+* {{lien|Störbär|de}}
+* {{l|Tanzbär|de|de|sens=[[ours dansant]]}}
+* {{l|Zirkusbär|de|sens=[[ours]] de [[cirque]]}}
+* {{lien|Plüschbär|de}}
+{{)}}
+{{(|}}
+* {{l|Teddybär|de|sens=[[ours en peluche]]}}
+* {{l|Kuschelbär|de|sens=[[ours en peluche]]}}
+* {{l|Großer Bär|de|sens=[[constellation]] de la [[Grande Ourse]]}}
+* {{l|Kleiner Bär|de|sens=[[constellation]] de la [[Petite Ourse]]}}
+* {{l|Rotrandbär|de|sens=[[papillon]] [[bordure ensanglantée]] / [[roussette]]}}
+* {{l|Berliner Bär|de|sens=[[ours]] de [[Berlin]]}}
+{{)}}
+
+==== {{S|vocabulaire}} ====
+* {{lien|Meister Petz|de}}
+* {{lien|Teddy|de}}
+* {{lien|Teddybär|de}}
+* {{lien|Wagen|de}}
+* {{lien|Dicker|de}}
+
+==== {{S|diminutifs}} ====
+* {{l|Bärchen|de|sens=[[ourson]]}}
+
+==== {{S|dérivés}} ====
+{{(|Autres mots}}
+* {{l|bärbeißig|de|sens=[[hargneux]]}}
+* {{l|Bärenbeißer|de|sens=[[bouledogue]]}}
+* {{l|Bärendecke|de|sens=[[couverture]] d’[[ours]]}}
+* {{l|Bärendienst|de|sens=[[mauvais]] [[service]] [[bien]] [[intention|intentionné]]}}
+* {{l|Bärendreck|de|sens=[[sucre]] de [[réglisse]]}}
+* {{l|Bärenfang|de|sens=[[liqueur]] au [[miel]]}}
+* {{l|Bärenfell|de|sens=[[peau]] d’[[ours]]}}
+* {{l|Bärenführer|de|sens=[[montreur]] d’[[ours]]}}
+* {{l|Bärengrotte|de|sens=[[caverne]] d’[[ours]]}}
+* {{l|Bärengruppe|de|sens=[[courant]] de la [[Grande Ourse]]}}
+* {{l|bärenhaft|de|sens=[[ursin]]}}
+* {{l|Bärenhatz|de}}, {{l|Bärenhetze|de|sens=[[chasse]] à l’[[ours]] par [[vénerie]]}}
+* {{l|Bärenhaut|de|sens=[[peau]] d’[[ours]]}}
+* {{l|Bärenhäuter|de|sens=[[fainéant]]}}
+* {{l|Bärenhöhle|de|sens=[[caverne]] d’[[ours]]}}
+* {{l|Bärenhunger|de|sens=[[faim de loup]]}}
+* {{l|Bärenjagd|de|sens=[[chasse]] à l’[[ours]]}}
+* {{l|Bärenjunge|de|sens=[[ourson]]}}
+* {{l|Bärenklau|de|sens=[[berce du Caucase]]}}
+* {{l|Bärenlauch|de|sens=[[ail des ours]]}}
+* {{l|Bärenmarkt|de|sens=[[marché]] [[baissier]]}}
+* {{l|Bärenmütze|de|sens=[[bonnet]] à [[poil]]s d’[[ours]]}}
+* {{l|Bärenpark|de|sens=[[parc]] à [[ours]]}}
+* {{l|Bärenpranke|de|sens=[[patte d’ours]]}}
+* {{l|Bärenrobbe|de|sens=[[otarie]] à [[fourrure]] du [[Nord]]}}
+* {{l|Bärenschinken|de|sens=[[jambon]] d’[[ours]]}}
+* {{l|Bärenschlaf|de|sens=[[sommeil]] [[profond]]}}
+* {{l|bärenstark|de|sens=[[fort]] comme un [[bœuf]]}}
+* {{l|Bärenstimme|de|sens=[[voix]] [[forte]] et [[puissante]]}}
+* {{l|Bärentatze|de|sens=[[patte d’ours]] », « [[berce du Caucase]]}}
+* {{l|Bärentöter|de|sens=[[tueur]] d’[[ours]]}}
+* {{l|Bärentraube|de|sens=[[raisin d’ours]] », « [[busserole]]}}
+* {{l|Bärentreiber|de|sens=[[montreur]] d’[[ours]]}}
+* {{l|Bärenzucker|de|sens=[[rouleau]] de [[réglisse]]}}
+* {{l|Bärenzwinger|de|sens=[[fosse aux ours]]}}
+* {{l|bärig|de|sens=[[costaud]]}}
+* {{l|Bärlapp|de|sens=[[lycopode]]}}
+* {{l|Bärlauch|de|sens=[[ail des ours]]}}
+{{)}}
+
+==== {{S|phrases}} ====
+* [[man soll das Fell des Bären nicht verteilen, bevor man ihn erlegt hat]] ''(il ne faut pas vendre la peau de l’ours avant de l’avoir tué).''
+* [[jemandem einen Bären aufbinden]] ''(monter un bateau à quelqu’un)''.
+
+==== {{S|hyperonymes}} ====
+{{(|Animal|1}}
+* {{l|Allesfresser|sens=[[omnivore]]}}
+* {{l|Säugetier|de|sens=[[mammifère]]}}
+* {{l|Sohlengänger|de|sens=[[plantigrade]]}}
+* {{l|Tier|de|sens=[[animal]]}}
+* {{l|Wirbeltier|de|sens=[[vertébré]]}}
+{{)}}
+
+=== {{S|nom|de|num=2}} ===
+[[Fichier:Olbernhau-Grünthal Althammer (10-2).jpg|vignette|alt=Un ancien martinet de forgeage.|''Ein alter '''Bär''' zum {{l|Schmieden|de}}.'' – Un ancien [[martinet]] de [[forgeage]].]]
+{{de-nom-m-s-en}}
+{{de-nom-m-s-e}}
+'''Bär''' {{pron|bɛːɐ̯|de}} {{m}}
+# {{lexique|industrie|technique|de}} {{outils|de}} Gros [[marteau]] (au sens industriel) : [[outil]] de [[frappe]] [[massif]] ([[martinet]], [[pilon]], [[mouton]] de [[sonnette]], [[bélier]], etc.).
+#* {{exemple
+|Im 19. Jahrhundert wogen '''Bären''' schon bis zu 400 kg.
+|Au XIX<sup>e</sup> siècle, les pilons pesaient déjà jusqu’à 400 kg.
+|source={{w|Bär (Werkzeug)|Bär - Werkzeug|lang=de}}
+|lang=de}}
+#* {{exemple
+|Je nach Pfahlart und Rammeigenschaft des Untergrundes kommen verschiedene Ramm- und Vibrations'''bäre''' zum Einsatz (Freifallbäre, Diesel'''bäre''', Schnellschlag'''bäre''', Vibrations'''bäre''', Hydraulik'''bäre'''). Die Auswahl des geeigneten Rammgerätes erfolgt unter Berücksichtigung des Pfahltyps, der Eigenlast, des Baustoffes, sowie des Baugrundes.
+|En fonction du type de pieu et comportement au battage du sous-sol, différents moutons de frappe et de vibration sont utilisés (moutons à chute libre, moutons diesel, marteaux à frappe rapide, moutons vibrants, moutons hydrauliques). L’appareil de battage approprié est choisi en tenant compte du type de pieu, de la charge propre, du matériau de construction et du sol où va être réalisée cette construction.
+|source={{ouvrage
+ |auteurs=Melanie Witzel
+ |directeur=H.-G. Kempfert
+ |titre=Zur Tragfähigkeit und Gebrauchstauglichkeit von vorgefertigten Verdrängungspfählen in bindigen und nichtbindigen Böden
+ |série=Schriftenreihe Geotechnik
+ |éditeur={{w|Université de Cassel}}
+ |lieu={{w|Cassel}}
+ |date=juin 2004
+ |volume=15
+ |passage=77
+ |url=https://www.uni-kassel.de/upress/online/frei/978-3-89958-091-4.volltext.frei.pdf}}
+|lang=de}}
+
+==== {{S|notes}} ====
+* Sous l’influence de [[#de-nom-1|l’autre substantif]], on retrouve parfois aussi la déclinaison faible dans ce cas aussi.
+* Le [[technolecte]] ({{l|''Fachsprache''|de}}) favorise le pluriel {{l|''Bäre''|de}} (cf. second exemple).
+
+==== {{S|quasi-synonymes}} ====
+* {{l|Rammbär|de|sens=[[mouton]] de [[sonnette]]}}
+
+=== {{S|prononciation}} ===
+* {{écouter|Berlin (Allemagne)|bɛːɐ̯|lang=de|audio=De-Bär2.ogg}}
+* {{écouter|{{DE|nocat=1}}|bɛːɐ̯|lang=de|audio=De-Bär.ogg}}
+* {{écouter|Berlin (Allemagne)|bɛːɐ̯|lang=de|audio=LL-Q188 (deu)-Sebastian Wallroth-Bär.wav}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=de}}
+
+==== {{S|sources}} ====
+<references />
+
+==== {{S|bibliographie}} ====
+* {{R:DWDS|Bär}}
+* {{R:DWb|Bär}}
+* {{R:Duden|Baer_Raubtier|Bär}} – ''(nom 1 : [[ours]], etc.)''
+* {{R:Duden|Baer_Rammklotz|Bär}} – ''(nom 2 : gros [[marteau]] / grosse [[masse]] à [[frapper]])''
+* {{Source-wikt|de|Bär}}
+* Larousse, ''Dictionnaire allemand/français - français/allemand'', éd. 1958, p. 398
+* ''Harrap’s – Bordas dictionnaire allemand/français'', éd. 1997, p. 40
+
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|goh|gsw-fr|mot=bero}}.
+
+=== {{S|nom|gsw-fr}} ===
+'''Bär''' ({{p}} : [[Bäre]]) {{m}}
+# {{mammifères|gsw-fr}} [[ours|Ours]].
+
+[[Catégorie:Ursidés en allemand]]
+[[Catégorie:Lexique en allemand de l’anatomie]]
+[[Catégorie:Ursidés en alémanique alsacien]]
+[[Catégorie:Rongeurs en allemand]]
+[[Catégorie:Animaux mâles en allemand]]
+[[Catégorie:Lexique en allemand de la gynécologie]]

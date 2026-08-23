@@ -1,0 +1,10 @@
+{{vérifier création automatique||gsw-fr}}
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|verbe|gsw-fr}} ===
+'''afond màche''' {{pron||nl}}
+# [[faire|Faire]] le [[ménage]] à [[fond]].
+
+{{clé de tri|afond mache}}

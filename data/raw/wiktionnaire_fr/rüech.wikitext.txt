@@ -1,0 +1,14 @@
+== {{langue|gsw-fr}} ==
+{{ébauche|gsw-fr}}
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|nom|gsw-fr}} ===
+'''rüech [der]''' {{m}}
+# [[avare]].
+
+==== {{S|variantes orthographiques}} ====
+* [[gitzig]]
+
+{{clé de tri|ruech}}

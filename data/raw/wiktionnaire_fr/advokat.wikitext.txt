@@ -1,0 +1,97 @@
+{{voir/advokat}}
+
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|nom|gsw-fr}} ===
+'''advokat'''
+# [[avocat|Avocat]].
+== {{langue|hr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|hr}}
+
+=== {{S|nom|hr}} ===
+'''advokat''' {{pron||hr}} {{m}}
+# [[avocat|Avocat]].
+
+=== {{S|références}} ===
+
+* {{lien web|url=https://www.dict.com/francusko-hrvatski/advokat|titre=advokat|site=Lingea}}
+
+== {{langue|da}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|da}}
+
+=== {{S|nom|da}} ===
+'''advokat''' {{c}}
+# [[avocat|Avocat]], [[défenseur]].
+
+==== {{S|synonymes}} ====
+* [[sagfører]]
+
+[[Catégorie:Métiers du droit en danois]]
+
+== {{langue|id}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|id}}
+
+=== {{S|nom|id}} ===
+'''advokat''' {{pron||id}}
+# [[avocat|Avocat]], [[défenseur]].
+#* {{exemple|lang=id}}
+
+[[Catégorie:Métiers du droit en indonésien]]
+
+== {{langue|no}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|no}}
+
+=== {{S|nom|no}} ===
+'''advokat''' {{m}}
+# [[avocat|Avocat]], [[défenseur]].
+
+=== {{S|prononciation}} ===
+* {{écouter|Bærum (Norvège)||lang=no|audio=LL-Q9043 (nor)-Telaneo-advokat.wav}}
+
+[[Catégorie:Métiers du droit en norvégien]]
+
+== {{langue|uz}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|uz}}
+
+=== {{S|nom|uz}} ===
+'''advokat''' (pluriel : [[advokatlar]])
+# [[avocat|Avocat]], [[défenseur]].
+
+[[Catégorie:Métiers du droit en ouzbek]]
+
+== {{langue|sl}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|sl}}
+
+=== {{S|nom|sl}} ===
+{{sl-décl-nmd|advokat|ani=oui}}
+'''advokat''' {{pron||sl}} {{m|a}}
+# {{lexique|droit|sl}} [[avocat|Avocat]].
+
+[[Catégorie:Métiers du droit en slovène]]
+
+== {{langue|sv}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|sv}}
+
+=== {{S|nom|sv}} ===
+{{sv-nom-c-er}}
+'''advokat''' {{pron||sv}} {{c}}
+# [[avocat|Avocat]], [[défenseur]].
+
+==== {{S|synonymes}} ====
+* [[sakförare]]
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=sv|Suède <!-- précisez svp la ville ou la région -->||audio=Sv-advokat.ogg}}
+
+[[Catégorie:Métiers du droit en suédois]]
+[[Catégorie:Métiers du droit en alémanique alsacien]]
+[[Catégorie:Métiers du droit en croate]]

@@ -1,0 +1,9 @@
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|nom propre|gsw-fr}} ===
+'''Zàwera'''
+# [[Saverne]]
+
+{{clé de tri|zawera}}

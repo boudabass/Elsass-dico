@@ -1,0 +1,11 @@
+{{voir|Blatt}}
+
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+{{ébauche-étym|gsw-fr}}
+
+=== {{S|nom|gsw-fr}} ===
+'''Blàtt''' ({{p}} : '''[[Blätter]]''')
+# [[feuille|Feuille]]
+
+{{clé de tri|blatt}}

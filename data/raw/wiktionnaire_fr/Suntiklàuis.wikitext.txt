@@ -1,0 +1,10 @@
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|nom propre|gsw-fr}} ===
+'''Suntiklàuis''' {{pron||gsw-fr}}
+# [[Saint-Nicolas]].
+
+=== {{S|références}} ===
+* [https://web.archive.org/web/20130926050951/http://culture.alsace.pagesperso-orange.fr/page_sf.htm Lettre S], ''Dictionnaire français-alsacien''.

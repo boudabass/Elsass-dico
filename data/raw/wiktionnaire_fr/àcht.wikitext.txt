@@ -1,0 +1,16 @@
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|goh|gsw-fr|mot=ahto}}, du {{étyl|proto-germanique|gsw-fr}} {{LienRouge|lang=en|trad=Appendix:Proto-Germanic/ahtōu|fr=Reconstruction:proto-germanique/*ahtōu|texte=*ahtōu}}, de l'{{étyl|ine-pie|gsw-fr}} {{recons|lang-mot-vedette=gsw-fr|oḱtṓw|ine-pie}}.
+
+=== {{S|adjectif numéral|gsw-fr}} ===
+'''àcht''' {{phon|ɒːxt|gsw-fr}}<ref>https://www.ami-hebdo.com/elsadico/?choix=1352&recherche=huit</ref>
+
+# [[huit|Huit]].
+#* ''Mìr sìn jetz '''àcht''' Milliarda Menscha uf der Walt.'' <ref>https://www.lalsace.fr/encadres/2022/11/18/acht-milliarda-un-zwei-grad</ref>
+#*: Nous sommes désormais ''huit'' milliards d'êtres humains dans le monde.
+
+==== {{S|variantes orthographiques}} ====
+* [[ààcht]]
+
+=== {{S|références}} ===
+{{références}}

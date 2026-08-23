@@ -1,0 +1,11 @@
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|nom|gsw-fr}} ===
+'''Àchselhehle''' {{pron||gsw-fr}} {{f}}
+# {{lexique|anatomie|gsw-fr}} [[aisselle#fr|Aisselle]].
+
+=== {{S|références}} ===
+*Raymond Matzen, Léon Daul, Christophe Lazé, Marie-Paule Cadieu, 1997, ''[http://books.google.de/books?id=NlmVWzEFOgMC&printsec=frontcover&dq=dictionnaire+alsacien&hl=fr&sa=X&ei=-H1KUuaPDKib0QWMtYC4CA&ved=0CDMQ6AEwAQ Mon premier dictionnaire français-alsacien en images]'', éditions Jean-Paul Gisserot.
+{{clé de tri|achselhehle}}

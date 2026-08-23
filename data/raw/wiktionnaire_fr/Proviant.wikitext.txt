@@ -1,0 +1,17 @@
+{{voir|proviant}}
+
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: Voyez l'allemand ''[[Proviant#de|Proviant]]''.
+
+=== {{S|nom|gsw-fr}} ===
+'''Proviant'''
+# [[ravitaillement|Ravitaillement]], [[réserve]].
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+:De l'ancien {{étyl|fr|de|mot=provende}}, apparenté à ''[[prébende]]''.
+
+=== {{S|nom|de}} ===
+'''Proviant''' {{m}}
+# [[ravitaillement|Ravitaillement]], [[réserve]].

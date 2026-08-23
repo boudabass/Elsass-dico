@@ -1,0 +1,286 @@
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: {{composé de|sicher|sens1=en sécurité|-heit|lang=de|m=1}}.
+
+=== {{S|nom|de}} ===
+{{de-nom-f-en|ˈzɪçɐˌhaɪ̯t}}
+'''Sicherheit''' {{pron|ˈzɪçɐˌhaɪ̯t|de}} {{f}}
+# [[sécurité#fr|Sécurité]], état d'être protégé de dangers.
+#* {{exemple|Ich war mehr als erleichtert, als ich die Wohnungstür hinter mir schloss. Zur '''Sicherheit''' schob ich den Türriegel vor.|lang=de|sens=J'étais plus que soulagé lorsque j'ai refermé la porte de l’appartement derrière moi. Par mesure de sécurité, j'ai poussé le verrou de la porte.|source={{périodique|auteur=Anastasia Zejneli|titre=Horror-Nachbar: Der Club|journal=Jetzt.de|date=23 octobre 2022|texte=https://www.jetzt.de/horror-nachbar-innen/horror-nachbar-der-club}}}}
+#* {{exemple|Ich setze mich an den Platz am Tisch, den ich mir reserviert habe, indem ich dort meine Kaffeetasse abgestellt habe. Es ist der Platz, der mir das stärkste Gefühl von '''Sicherheit''' vermittelt: eine Wand im Rücken, die Tür im Blick.|lang=de|sens=Je m’assieds à la place que je me suis réservée en y déposant ma tasse de café. C’est celle qui me procure la plus grande impression de sécurité : un mur dans le dos, la porte dans mon champ de vision.|source={{ouvrage|auteur={{w|Melanie Raabe}}|trad=Céline Maurice|titre=Die Falle|année=2015|éditeur=btb Verlag|url=}}}}
+# [[sécurité#fr|Sécurité]], absence de dangers.
+#* {{exemple|Wir sind der Auffassung, dass der Verkauf von Staatsbürgerschaften über sogenannte goldene Pässe nach EU-Recht illegal ist und unsere '''Sicherheit''' ernsthaft gefährdet.|lang=de|sens=Nous estimons que la vente de la citoyenneté au moyen de «passeports dorés» est illégale au regard du droit de l'Union et qu'elle présente de graves risques pour notre sécurité.|source={{périodique|auteur=|titre=Kommission drängt Mitgliedstaaten zum Handeln gegen „goldene Pässe“ und „goldene Visa“ sowie zu unmittelbaren Schritten im Zusammenhang mit der russischen Invasion der Ukraine|journal=Europäische Kommission|date=28 mars 2022|texte=https://ec.europa.eu/commission/presscorner/detail/de/ip_22_1731}}}}
+#* {{exemple|Unter Nikita Chruschtschow präsentiert sich die strahlende Zukunft als vernünftiges, freundliches Ziel, das '''Sicherheit''' proklamiert, eine Verbesserung des Lebensstandards und das friedliche Wachstum von fröhlichen sozialistischen Familien,|lang=de|sens=Sous Nikita Khrouchtchev, l’avenir radieux se présente comme un objectif raisonnable et bonhomme : sécurité, amélioration du niveau de vie, croissance paisible de joyeuses familles socialistes|source={{ouvrage|auteur={{w|Emmanuel Carrère}}|trad=Claudia Hamm|titre=Limonow|année=2012|éditeur=MSB Matthes & Seitz Berlin Verlagsgesellschaft|url=}}}}
+#* {{exemple|Da in der Luftfahrt '''Sicherheit''' an erster Stelle steht und Risiken vermieden werden sollen, gilt grundsätzlich, Gewitterzellen und alles, was danach aussehen könnte, mit gehörigem '''Sicherheit'''sabstand zu umfliegen.|lang=de|sens=Comme la sécurité est primordiale dans l’aviation et que les risques doivent être évités, il convient en principe de contourner les cellules orageuses et tout ce qui pourrait y ressembler en gardant une bonne distance de sécurité.|source={{périodique|auteur=Jens Flottau et Theresa Palm|titre=Trotz Warnung durchs Hagelgewitter geflogen|journal=Süddeutsche Zeitung|date=13 juin 2024|texte=https://www.sueddeutsche.de/panorama/austrian-airlines-unwetter-hagel-airbus-320-zerstoert-lux.LuWkEc1vYLGSbAYEcYwKkY}}}}
+# [[assurance#fr|Assurance]], [[certitude]].
+#* {{exemple | lang=de
+ | [[zeigen|Zeigen]] (haben) Sie mehr '''Sicherheit'''! Seine '''Sicherheit''' [[verlieren]]
+ | Ayez plus d’assurance. Montrez de l’assurance. Perdre son assurance.}}
+# [[contrat#fr|Contrat]], [[police#fr|police]] d'[[assurance]], [[garantie]] contre un sinistre ou pour une opération financière.
+#* {{exemple|Für einen Kredit in dieser Höhe müssen Sie mehr dingliche '''Sicherheiten''' stellen.|lang=de|sens=Pour un crédit de ce montant, vous devez fournir davantage de garanties réelles.}}
+#* {{exemple|Alte Strukturen und '''Sicherheit'''en, wie Großfamilien und beständige Arbeitsplätze, sind häufig nicht mehr vorhanden, moralische Werte, Normen und Traditionen in Frage gestellt. Dies führt zu einer enormen Verunsicherung und Belastung.|lang=de|sens=Les anciennes structures et sécurités, comme les familles élargies et les emplois stables, ont souvent disparu, les valeurs morales, les normes et les traditions sont remises en question. Il en résulte une grande insécurité et un stress considérable.|source={{ouvrage|auteur=Astrid Neuy-Lobkowicz|titre=ADHS – erfolgreiche Strategien für Erwachsene und Kinder|année=2023|éditeur=J. G. Cotta’sche Buchhandlung Nachfolger GmbH|numéro d’édition=11|isbn=978-3-608-20649-4|lieu=Stuttgart|url=}}}}
+
+==== {{S|synonymes}} ====
+''Sécurité :''
+* {{lien|Garantie|de}}
+* {{lien|Vertrauen|de}}
+* {{lien|Zuverlässigkeit|de}}
+''Assurance, certitude :''
+* {{lien|Gewissheit|de}}
+''Contrat d'assurance :''
+* {{lien|Bürgschaft|de}}
+* {{lien|Garantie|de}}
+* {{lien|Kaution|de}}
+* {{lien|Pfand|de}}
+* {{lien|Sicherheitsleistung|de}}
+* {{lien|Sicherung|de}}
+
+==== {{S|antonymes}} ====
+''Sécurité :''
+* {{lien|Unsicherheit|de}}
+''Assurance, certitude :''
+* {{lien|Ungewissheit|de}}
+
+==== {{S|hyponymes}} ====
+{{(|}}
+* {{l|Applikationssicherheit|de}}
+* {{l|Arbeitssicherheit|de|sens=[[sécurité au travail]]}}
+* {{l|Arzneimittelsicherheit|de|sens=[[sécurité]] des [[médicament]]s}}
+* {{l|Ausfallsicherheit|de}}
+* {{l|Banknotensicherheit|de}}
+* {{l|Betriebssicherheit|de|sens=[[sécurité d’exploitation]] », « [[sécurité de fonctionnement]]}}
+* {{l|Browsersicherheit|de|sens=[[sécurité]] du [[navigateur]]}}
+* {{l|Dateisicherheit|de|sens=[[sécurité]] des [[fichier]]s}}
+* {{l|Datensicherheit|de|sens=[[sécurité]] des [[donnée]]s}}
+* {{l|Ernährungssicherheit|de|sens=[[sécurité alimentaire]]}}
+* {{l|Existenzsicherheit|de}}
+* {{l|Fahrsicherheit|de|sens=[[sécurité de conduite]] », « [[sécurité au volant]]}}
+* {{l|Flugsicherheit|de|sens=[[sécurité aérienne]]}}
+* {{l|Frostsicherheit|de}}
+* {{l|Gesamtsicherheit|de}}
+* {{l|Informationssicherheit|de|sens=[[sécurité]] de l’[[information]]}}
+* {{l|Infrastruktursicherheit|de|sens=[[sécurité]] des [[infrastructure]]s}}
+* {{l|Internetsicherheit|de|sens=[[sécurité]] d’[[internet]]}}
+* {{l|IT-Sicherheitsfall|de}}
+* {{l|Lebensmittelsicherheit|de|sens=[[sécurité alimentaire]]}}
+* {{l|Luftfahrtsicherheit|de|sens=[[sécurité aérienne]]}}
+* {{l|Manipulationssicherheit|de}}
+* {{l|Mündelsicherheit|de}}
+* {{l|Netzsicherheit|de|sens=[[sécurité]] du [[réseau]]}}
+* {{l|Produktionssicherheit|de}}
+* {{l|Produktsicherheit|de}}
+* {{l|Reaktorsicherheit|de}}
+* {{l|Rechtssicherheit|de|sens=[[sécurité juridique]]}}
+* {{l|Schneesicherheit|de}}
+* {{l|Sicherheit am Arbeitsplatz|de|sens=[[sécurité au travail]]}}
+* {{l|Standsicherheit|de}}
+* {{l|Übertragungssicherheit|de}}
+* {{l|Verkehrssicherheit|de|sens=[[sécurité du trafic]]}}
+* {{l|Versorgungssicherheit|de|sens=[[sécurité d’approvisionnement]]}}
+{{)}}
+
+==== {{S|dérivés}} ====
+{{(|Autres termes}}
+* {{l|Sicherheit und Gesundheit am Arbeitsplatz|de|sens=[[sécurité et santé au travail]]}}
+* {{l|Sicherheitsabstand|de|sens=[[distance de sécurité]]}}
+* {{l|Sicherheitsaktualisierung|de|sens=[[mise à jour de sécurité]]}}
+* {{l|Sicherheitsalarm|de}}
+* {{l|Sicherheitsanforderung|de}}
+* {{l|Sicherheitsapparat|de|sens=[[organisme]] de [[sécurité]]}}
+* {{l|Sicherheitsarchitektur|de}}
+* {{l|Sicherheitsaspekt|de|sens=[[aspect]] [[sécuritaire]]}}
+* {{l|Sicherheitsauflage|de}}
+* {{l|Sicherheitsaufwand|de}}
+* {{l|Sicherheitsausschuss|de}}
+* {{l|Sicherheitsausstattung|de}}
+* {{l|Sicherheitsauto|de}}
+* {{l|Sicherheitsbeamte|de}}, {{l|Sicherheitsbeamter|de|sens=[[agent]] de [[sécurité]]}}
+* {{l|Sicherheitsbeauftragte|de}}
+* {{l|Sicherheitsbedenken|de}}
+* {{l|Sicherheitsbedürfnis|de|sens=[[besoin]] de [[sécurité]]}}
+* {{l|Sicherheitsbegriff|de}}
+* {{l|Sicherheitsbehälter|de}}
+* {{l|Sicherheitsbehörde|de|sens=[[service]] de [[sécurité]]}}
+* {{l|Sicherheitsbeitrag|de|sens=[[contribution]] à la [[sécurité]]}}
+* {{l|Sicherheitsbelang|de}}
+* {{l|Sicherheitsbeleuchtung|de|sens=[[éclairage de sécurité]]}}
+* {{l|Sicherheitsberater|de|sens=[[conseiller]] en [[sécurité]]}}
+* {{l|Sicherheitsberaterin|de|sens=[[conseillère]] en [[sécurité]]}}
+* {{l|Sicherheitsbereich|de|sens=[[périmètre de sécurité]]}}
+* {{l|Sicherheitsbericht|de|sens=[[rapport]] de [[sécurité]]}}
+* {{l|Sicherheitsbestand|de|sens=[[stock de sécurité]]}}
+* {{l|Sicherheitsbestimmung|de|sens=[[disposition]] de [[sécurité]]}}
+* {{l|Sicherheitsbetrag|de}}
+* {{l|Sicherheitsbindung|de|sens=[[fixation de sécurité]]}}
+* {{l|Sicherheitsbrille|de|sens=[[lunettes de sécurité]]}}
+* {{l|Sicherheitschef|de|sens=[[chef]] de la [[sécurité]]}}
+* {{l|Sicherheitscode|de}}
+* {{l|Sicherheitsdebatte|de|sens=[[débat]] sur la [[sécurité]]}}
+* {{l|Sicherheitsdenken|de}}
+* {{l|Sicherheitsdienst|de|sens=[[service de sécurité]]}}
+* {{l|Sicherheitsdokument|de|sens=[[document]] de [[sécurité]]}}
+* {{l|Sicherheitseinbehalt|de}}
+* {{l|Sicherheitseinrichtung|de}}
+* {{l|Sicherheitseinstellung|de}}
+* {{l|Sicherheitsempfinden|de}}
+* {{l|Sicherheitsexperte|de|sens=[[expert]] en [[sécurité]]}}
+* {{l|Sicherheitsfach|de}}
+* {{l|Sicherheitsfaden|de}}
+* {{l|Sicherheitsfahrrad|de}}
+* {{l|Sicherheitsfahrschaltung|de}}
+* {{l|Sicherheitsfaktor|de}}
+* {{l|Sicherheitsfall|de}}
+* {{l|Sicherheitsfarbe|de}}
+* {{l|Sicherheitsfilm|de}}
+* {{l|Sicherheitsfirma|de}}
+* {{l|Sicherheitsflasche|de}}
+* {{l|Sicherheitsforscher|de|sens=[[chercheur]] en [[sécurité]]}}
+* {{l|Sicherheitsforscherin|de|sens=[[chercheuse]] en [[sécurité]]}}
+* {{l|Sicherheitsforschung|de|sens=[[recherche]] sur la [[sécurité]]}}
+* {{l|Sicherheitsfrage|de|sens=[[question]] de [[sécurité]]}}
+* {{l|Sicherheitsfunktion|de}}
+* {{l|Sicherheitsfußball|de}}
+* {{l|Sicherheitsgarantie|de|sens=[[garantie]] de [[sécurité]]}}
+* {{l|Sicherheitsgefühl|de|sens=[[sentiment]] de [[sécurité]]}}
+* {{l|Sicherheitsgeleit|de}}
+* {{l|Sicherheitsgerät|de}}
+* {{l|Sicherheitsgesetz|de}}
+* {{l|Sicherheitsglas|de|sens=[[verre de sécurité]]}}
+* {{l|Sicherheitsgraben|de}}
+* {{l|Sicherheitsgrund|de|sens=[[raison]] de [[sécurité]]}}
+* {{l|Sicherheitsgurt|de|sens=[[ceinture de sécurité]]}}
+* {{l|Sicherheitsgürtel|de}}
+* {{l|Sicherheitsgut|de}}
+* {{l|Sicherheitsgutachten|de}}
+* {{l|Sicherheitshafen|de}}
+* {{l|Sicherheitshahn|de}}
+* {{l|sicherheitshalber|de|sens=par [[précaution]]}}
+* {{l|Sicherheitshinweis|de|sens=[[consigne]] de [[sécurité]]}}
+* {{l|Sicherheitshölzer|de}}
+* {{l|Sicherheitsingenieur|de|sens=[[ingénieur]] en [[sécurité]]}}
+* {{l|Sicherheitsinspektion|de}}
+* {{l|Sicherheitsinspektor|de|sens=[[inspecteur]] de la [[sécurité]]}}
+* {{l|Sicherheitsinteresse|de}}
+* {{l|Sicherheitskabinett|de}}
+* {{l|Sicherheitskettchen|de}}
+* {{l|Sicherheitskette|de}}
+* {{l|Sicherheitsklappe|de|sens=[[soupape de sécurité]]}}
+* {{l|Sicherheitskode|de|sens=[[code]] de [[sécurité]]}}
+* {{l|Sicherheitskoeffizient|de}}
+* {{l|Sicherheitskonferenz|de}}
+* {{l|Sicherheitskontrolle|de|sens=[[contrôle de sécurité]]}}
+* {{l|Sicherheitskonzept|de|sens=[[concept de sécurité]]}}
+* {{l|Sicherheitskopie|de|sens=[[copie de sauvegarde]]}}
+* {{l|Sicherheitskraft|de|sens=[[force]] de [[sûreté]]}}
+* {{l|Sicherheitskräfte|de|sens=[[forces de sûreté]] », « [[forces de l’ordre]]}}
+* {{l|Sicherheitskreis|de}}
+* {{l|sicherheitskritisch|de}}
+* {{l|Sicherheitslage|de|sens=[[situation]] [[sécuritaire]]}}
+* {{l|Sicherheitslampe|de|sens=[[lampe]] de [[sécurité]]}}
+* {{l|Sicherheitsleistung|de}}
+* {{l|Sicherheitsloch|de|sens=[[trou]] de [[sécurité]]}}
+* {{l|Sicherheitslücke|de|sens=[[lacune]] en matière de [[sécurité]]}}
+* {{l|Sicherheitsmangel|de|sens=[[manquement]] / [[lacune]] en matière de [[sécurité]]}}
+* {{l|Sicherheitsmann|de}}
+* {{l|Sicherheitsmarge|de|sens=[[marge de sécurité]]}}
+* {{l|Sicherheitsmaß|de}}
+* {{l|Sicherheitsmaßgabe|de}}
+* {{l|Sicherheitsmaßnahme|de|sens=[[mesure]] de [[sécurité]]}}
+* {{l|Sicherheitsmaßregel|de}}
+* {{l|Sicherheitsmerkmal|de}}
+* {{l|Sicherheitsminister|de|sens=[[ministre]] de la [[sûreté]]}}
+* {{l|Sicherheitsmuster|de}}
+* {{l|Sicherheitsnachweis|de}}
+* {{l|Sicherheitsnadel|de|sens=[[épingle de sûreté]] », « [[épingle à nourrice]]}}
+* {{l|Sicherheitsnetz|de}}
+* {{l|Sicherheitsniveau|de|sens=[[niveau]] de [[sécurité]]}}
+* {{l|Sicherheitsnotfall|de|sens=[[urgence]] [[sécuritaire]]}}
+* {{l|Sicherheitsorgan|de|sens=[[organisme]] de [[sécurité]]}}
+* {{l|Sicherheitspaket|de}}
+* {{l|Sicherheitspakt|de}}
+* {{l|Sicherheitspanne|de}}
+* {{l|Sicherheitspapier|de}}
+* {{l|Sicherheitspartnerschaft|de}}
+* {{l|Sicherheitspersonal|de|sens=[[personnel]] de [[sécurité]]}}
+* {{l|Sicherheitspfand|de}}
+* {{l|Sicherheitspolitik|de|sens=[[politique]] de [[sécurité]]}}
+* {{l|Sicherheitspolitiker|de}}
+* {{l|sicherheitspolitisch|de}}
+* {{l|Sicherheitspolizei|de|sens=[[police]] de [[sûreté]]}}
+* {{l|Sicherheitsproblem|de}}
+* {{l|Sicherheitsprotokoll|de|sens=[[protocole]] de [[sécurité]]}}
+* {{l|Sicherheitsprüfung|de|sens=[[contrôle]] de [[sécurité]]}}
+* {{l|Sicherheitsrasierapparat|de}}
+* {{l|Sicherheitsrast|de|sens=[[cran]] de [[sécurité]]}}
+* {{l|Sicherheitsrat|de|sens=[[conseil]] de [[sécurité]]}}
+* {{l|sicherheitsrelevant|de|sens=[[pertinent]] / [[important]] pour la [[sécurité]]}}
+* {{l|Sicherheitsrichtlinie|de}}
+* {{l|Sicherheitsrisiko|de|sens=[[risque]] pour la [[sécurité]]}}
+* {{l|Sicherheitsschiene|de|sens=[[barre]] [[anti-chute]] », « [[barre]] de [[sécurité]]}}
+* {{l|Sicherheitsschleuse|de|sens=[[sas]] de [[sécurité]]}}
+* {{l|Sicherheitsschloss|de|sens=[[serrure]] de [[sûreté]]}}
+* {{l|Sicherheitsschlüssel|de|sens=[[clé de sûreté]]}}
+* {{l|Sicherheitsschuh|de|sens=[[chaussure de sécurité]]}}
+* {{l|Sicherheitsschwachstelle|de|sens=[[point faible]] au niveau de la [[sécurité]]}}
+* {{l|Sicherheitsschwelle|de}}
+* {{l|Sicherheitsseil|de}}
+* {{l|Sicherheitssiegel|de|sens=[[sceau]] de [[sécurité]]}}
+* {{l|Sicherheitssprengstoff|de}}
+* {{l|Sicherheitsstaat|de}}
+* {{l|Sicherheitsstandard|de|sens=[[standard]] de [[sécurité]]}}
+* {{l|Sicherheitsstrategie|de|sens=[[stratégie]] de [[sécurité]]}}
+* {{l|Sicherheitsstruktur|de|sens=[[structure]] de [[sécurité]]}}
+* {{l|Sicherheitsstufe|de|sens=[[niveau]] de [[sécurité]] », « [[degré]] de [[sécurité]]}}
+* {{l|Sicherheitssystem|de}}
+* {{l|Sicherheitstechnik|de|sens=[[technique]] de [[sécurité]]}}
+* {{l|sicherheitstechnisch|de}}
+* {{l|Sicherheitstheater|de}}
+* {{l|Sicherheitstruppe|de|sens=[[force]]s de [[sécurité]]}}
+* {{l|Sicherheitsüberprüfung|de}}
+* {{l|Sicherheitsunternehmen|de}}
+* {{l|Sicherheitsupdate|de}}
+* {{l|Sicherheitsventil|de|sens=[[vanne de sécurité]] », « [[soupape de sécurité]]}}
+* {{l|Sicherheitsverschluss|de}}
+* {{l|Sicherheitsverwahrung|de}}
+* {{l|Sicherheitsvorfall|de}}
+* {{l|Sicherheitsvorkehrung|de|sens=[[mesure]] de [[sécurité]]}}
+* {{l|Sicherheitsvorrichtung|de}}
+* {{l|Sicherheitsvorschrift|de|sens=[[consigne]] de [[sécurité]]}}
+* {{l|Sicherheitswache|de}}
+* {{l|Sicherheitswahn|de|sens=[[délire]] [[sécuritaire]]}}
+* {{l|Sicherheitswarnung|de|sens=[[alerte]] de [[sécurité]]}}
+* {{l|Sicherheitswissenschaft|de|sens=[[science]] de la [[sécurité]]}}
+* {{l|Sicherheitszeugnis|de}}
+* {{l|Sicherheitszone|de|sens=[[zone]] de [[sécurité]]}}
+* {{l|Sicherheitszündholz|de}}
+* {{l|Sicherheitszündhölzchen|de}}
+{{)}}
+
+==== {{S|phrases}} ====
+* {{lien|jemanden in Sicherheit wiegen|de}}
+
+=== {{S|prononciation}} ===
+* {{écouter|Berlin (Allemagne)|ˈzɪçɐhaɪ̯t|lang=de|audio=De-Sicherheit.ogg}}
+
+==== {{S|sources}} ====
+* {{R:Duden|Sicherheit}}
+* {{R:DWDS|Sicherheit}}
+* {{Source-wikt|de|Sicherheit}}
+
+==== {{S|bibliographie}} ====
+* Larousse - Dictionnaire allemand/français – français/allemand , éd. 1958, p 677.
+* Harrap’s – Bordas Dictionnaire allemand/français, éd. 1997, p 263.
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=de}}
+
+[[Catégorie:Sentiments en allemand]]
+[[Catégorie:Sentiments en alémanique alsacien]]
+
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: Voir ''{{lien|Sicherheit|de}}''.
+
+=== {{S|nom|gsw-fr}} ===
+'''Sicherheit'''
+# [[sûreté|Sûreté]], [[sécurité]].

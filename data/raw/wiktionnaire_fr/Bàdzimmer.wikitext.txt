@@ -1,0 +1,12 @@
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|nom|gsw-fr}} ===
+'''Bàdzimmer''' {{pron|påt.tsįm.mʁ|gsw-fr}} {{n}}
+# [[salle de bain#fr|Salle de bain]].
+
+=== {{S|références}} ===
+*[https://web.archive.org/web/20130906191837/http://www.ami-hebdo.com/elsadico/index.php de Elsässich Web Diktionnair]
+
+[[Catégorie:Vie domestique en alémanique alsacien]]

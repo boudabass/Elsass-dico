@@ -1,0 +1,9 @@
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|verbe|gsw-fr}} ===
+'''àbkiahla'''
+# [[rafraîchir|Rafraîchir]], mettre au frais.
+
+{{clé de tri|abkiahla}}

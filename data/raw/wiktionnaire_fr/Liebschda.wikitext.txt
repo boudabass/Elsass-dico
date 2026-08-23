@@ -1,0 +1,7 @@
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|nom|gsw-fr}} ===
+'''Liebschda''' {{f}} ({{m}}: '''[[Liebschder]]''')
+# [[fiancée|Fiancée]]

@@ -1,0 +1,372 @@
+{{voir|Brand}}
+
+== {{langue|af}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|nl|af|mot=brand}}.
+
+=== {{S|nom|af}} ===
+'''brand''' {{pron||af}}
+# [[feu#fr|Feu]].
+#* {{exemple|lang=af}}
+
+=== {{S|verbe|af}} ===
+'''brand''' {{pron||af}}
+# [[brûler#fr|Brûler]].
+#* {{exemple|lang=af}}
+
+=== {{S|prononciation}} ===
+* {{écouter|Afrique du Sud||lang=af|audio=LL-Q14196 (afr)-Anon1314-brand.wav}}
+
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|verbe|gsw-fr}} ===
+'''brand''' {{pron||gsw-fr}}
+# [[incendier|Incendier]].
+
+== {{langue|de}} ==
+=== {{S|verbe|de|flexion}} ===
+'''brand''' {{pron|ˈbʁant|de}}
+# ''Deuxième personne du singulier de l’impératif présent de'' {{lien|branden|de}}.
+
+=== {{S|prononciation}} ===
+* {{écouter|Berlin|ˈbʁant|lang=de|audio=De-brand.ogg}}
+
+== {{langue|fro}} ==
+=== {{S|étymologie}} ===
+: {{date|lang=fro}} Du {{étyl|goh|fro|mot=brant|sens=tison}} ; le nom de tison ayant été donné à l’épée par une métaphore facile à comprendre. Voir aussi l’ancien scandinave ''[[brandr]]'' (« épée »).
+
+=== {{S|nom|fro}} ===
+'''brand''' {{pron-recons|bʁɑ̃|fro}} {{m}}
+# {{armes|fro|blanches}} {{archaïsme|fr}} Grosse [[épée]] qu’on maniait à deux [[main]]s.
+#* {{exemple | lang=fro
+ | Sanglant en ert li '''branz''' entresqu’à l’or.
+ | source=''Chanson de Roland, LXXXI'', {{siècle2|XI}} s}}
+#* {{exemple | lang=fro
+ | Et par maistrie fu ses ver '''brans''' fonduz.
+ | source=''Roncisv.'', page 54, {{siècle2|XII}} s.}}
+#* {{exemple | lang=fro
+ | Il tient l’espée, dont bien trenche li '''brant'''.
+ | source=''Raoul de C.'', 178, {{siècle2|XII}} s.}}
+#* {{exemple | lang=fro
+ | En son poing [il] tenoit le '''brant''' fourbi d’acier.
+ | source=''Berte'', XIX, {{siècle2|XIII}} s.}}
+#* {{exemple | lang=fro
+ | Jà te verras tot detrenchier ; Ne vois-tu ci mon '''branc''' d’acier ?
+ | source=''Ren.'', 21820}}
+#* {{exemple | lang=fro
+ | Ançois se defendirent aux bons asserez '''brans''', Tant que de nous occirent trois escuiers vaillans.
+ | source=''Guesclin.'', 16276, {{siècle2|XIV}} s.}}
+#* {{siècle|lang=fro|XVI}} ''Luy secouant au poing un '''brand''' armé de cloux, à la poincte d’acier, qui tranchoit des deux bouts.'' {{source|{{w|Pierre de Ronsard}}, 839}}
+
+==== {{S|apparentés}} ====
+* {{lien|brande|fr}} ''(embrasement, flamme)''
+
+==== {{S|dérivés autres langues}} ====
+{{(}}
+* {{L|it}} : {{lien|brando|it}}
+* {{L|oc}} : {{lien|bran|oc}}, {{lien|brenc|oc}}
+{{)}}
+
+=== {{S|références}} ===
+* {{R:Littré}}
+* {{R:TLFi}}
+
+== {{langue|en}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|ang|en|mot=brand}}, lui-même du proto-germanique {{recons|lang-mot-vedette=en|brandoz}}. Comparer avec le néerlandais ''[[#nl|brand]]'', l’allemand ''[[Brand]]'' et l’ancien français ''{{lien|brand|fro}}''.
+
+=== {{S|nom|en}} ===
+{{en-nom-rég|ˈbɹænd}}
+'''brand''' {{pron|ˈbɹænd|en}}
+# Marque faite au [[fer rouge]], par exemple sur du [[bétail]].
+#* {{exemple | lang=en | cattle '''brand'''|marque de bétail}}
+# {{par extension}} [[marque|Marque]] commerciale, [[image de marque]].
+#* {{exemple | lang=en | Coca cola has carefully developed its '''brand''' for over a hundred years.|Coca-Cola a soigneusement développé sa marque (/ son image) depuis plus d'un siècle.}}
+# {{archaïsme|en}} [[tison|Tison]].
+# {{archaïsme|en}} {{métaphore|en}} [[brand#fr|Brand]], épée.
+
+==== {{S|dérivés}} ====
+* [[umbrella brand]] (2)
+* [[branduit]]
+
+==== {{S|vocabulaire}} ====
+* {{lien|trademark|en}} ''(marque de commerce)''
+
+=== {{S|verbe|en}} ===
+{{en-conj-rég|inf.pron=ˈbɹænd|prét.pron=ˈbɹæn.dɪd|ppr.pron=ˈbɹæn.dɪŋ}}
+'''brand''' {{pron|ˈbɹænd|en}} {{t|en}}
+# [[marquer|Marquer]] au [[fer rouge]].
+#* {{exemple|lang=en|When James Naylor, a radical sectarian, re-enacted Christ’s entry into Jerusalem by riding into Bristol on a donkey, Parliament demanded his blood. Cromwell saved his life; but he was '''branded''', pilloried, bored through the tongue, flogged twice and sentenced to life imprisonment.|Lorsque James Naylor, un sectaire radical, reconstitue l'entrée du Christ à Jérusalem en arrivant à Bristol sur un âne, le Parlement exige sa mort. Cromwell lui sauve la vie, mais il est marqué au fer rouge, mis au pilori, percé de trous dans la langue, fouetté deux fois et condamné à la prison à vie.|source=Robert Tombs, ''The English and their History'', Penguin Books, 2014, page 246}}
+# [[stigmatiser|Stigmatiser]].
+#* {{exemple | lang=en
+ | [They] had long been in the habit of '''branding''' Noah, in the public streets, with the ignominous epithets of ’leathers’, ’charity’, and the like.
+ | Ils avaient eu longtemps l’habitude de stigmatiser Noé dans les rues par les épithètes ignobles de « lanières », « charité », et d’autres encore.
+ | source={{w|Charles Dickens}}, ''{{w|Oliver Twist}}''}}
+# {{par extension}} [[surnommer|Surnommer]].
+# {{lexique|marketing|en}} [[associer|Associer]] un [[bien]] ou un [[service]] [[marchand|marchands]] à une [[image]] ou à un [[nom]] de [[marque]].
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=en|États-Unis|bɹeənd|audio=En-us-brand.ogg}}<!-- æ tensing -->
+* {{écouter|Connecticut (États-Unis)||lang=en|audio=LL-Q1860 (eng)-Grendelkhan-brand.wav}}
+
+== {{langue|nl}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|nl}}
+
+=== {{S|nom|nl}} ===
+{{nl-nom-en-rég}}
+'''brand''' {{pron||nl}} {{m}}
+# [[incendie|Incendie]], [[feu]].
+#* {{exemple|lang=nl|Aangestoken '''brand'''|Incendie volontaire, incendie criminel.}}
+#* {{exemple|lang=nl|In '''brand''' vliegen|S’enflammer, prendre feu, s’embraser.}}
+#* {{exemple|lang=nl|Schade door '''brand'''|Dégâts occasionnés, causés par un incendie, dégâts consécutifs à un incendie, dégâts résultant d’un incendie, les dégâts attribuables, imputables à un incendie.}}
+#* {{exemple|lang=nl|Gebied van grote '''brand'''|Zone de conflagration.}}
+#* {{figuré|nl}} {{exemple|lang=nl|Iemand uit de '''brand''' helpen|Tirer quelqu’un de l’embarras, enlever, ôter, tirer une épine du pied de quelqu’un.}}
+
+==== {{S|synonymes}} ====
+* [[vuur]]
+* [[haard]]
+* [[fik]]
+
+==== {{S|dérivés}} ====
+{{(}}
+* [[aardbrand]]
+* [[autobrand]]
+* [[bedrijfsbrand]]
+* [[beheerbrand]]
+* [[bermbrand]]
+* [[binnenbrand]]
+* [[boombrand]]
+* [[bosbrand]]
+* [[brandaar]]
+* [[brandalarm]]
+* [[brandassurantie]]
+* [[brandbestrijding]]
+* [[brandbijl]]
+* [[brandbijt]]
+* [[brandblaar]]
+* [[brandblusapparaat]]
+* [[brandblusser]]
+* [[brandbom]]
+* [[brandbrief]]
+* [[brandcatastrofe]]
+* [[brandcilinder]]
+* [[brandcompartiment]]
+* [[branddating]]
+* [[branddeken]]
+* [[branddeur]]
+* [[brandeend]]
+* [[brandemmer]]
+* [[branden]]
+* [[Brandenburg]]
+* [[brandewijn]]
+* [[brandgang]]
+* [[brandgans]]
+* [[brandgat]]
+* [[brandgel]]
+* [[brandgerucht]]
+* [[brandgevaar]]
+* [[brandgevaarlijk]]
+* [[brandgevel]]
+* [[brandgierig]]
+* [[brandglas]]
+* [[brandgranaat]]
+* [[brandhaak]]
+* [[brandhaar]]
+* [[brandhaard]]
+* [[brandhelder]]
+* [[brandhout]]
+* [[brandig]]
+* [[brandijzer]]
+* [[brandkast]]
+* [[brandkeur]]
+* [[brandkist]]
+* [[brandklasse]]
+* [[brandklok]]
+* [[brandkluis]]
+* [[brandkogel]]
+* [[brandkoraal]]
+* [[brandkraan]]
+* [[brandkruid]]
+* [[brandladder]]
+* [[brandlijn]]
+* [[brandlucht]]
+* [[brandmanchet]]
+* [[brandmeester]]
+* [[brandmeldcentrale]]
+* [[brandmelder]]
+* [[brandmelding]]
+* [[brandmeldinstallatie]]
+* [[brandmerk]]
+* [[brandmerken]]
+* [[brandmiddel]]
+* [[brandmuis]]
+* [[brandmuur]]
+* [[brandnetel]]
+* [[brandnieuw]]
+* [[brandoffer]]
+* [[brandoven]]
+* [[brandpaal]]
+* [[brandpijl]]
+* [[brandpiket]]
+* [[brandplaat]]
+* [[brandplek]]
+* [[brandpolis]]
+* [[brandpreventie]]
+* [[brandpunt]]
+* [[brandput]]
+* [[brandraam]]
+* [[brandring]]
+* [[brandsas]]
+* [[brandschade]]
+* [[brandschel]]
+* [[brandscherm]]
+* [[brandschilderen]]
+* [[brandschoon]]
+* [[brandschouw]]
+* [[brandslang]]
+* [[brandspiegel]]
+* [[brandspiritus]]
+* [[brandspuit]]
+* [[brandstapel]]
+* [[brandsteen]]
+* [[brandstempel]]
+* [[brandstichten]]
+* [[brandstichter]]
+* [[brandstichting]]
+* [[brandstof]]
+* [[brandstok]]
+* [[brandstuk]]
+* [[brandteken]]
+* [[brandtoren]]
+* [[brandtrap]]
+* [[branduur]]
+* [[brandveilig]]
+* [[brandverf]]
+* [[brandversneller]]
+* [[brandvertrager]]
+* [[brandverzekering]]
+* [[brandvlak]]
+* [[brandvlek]]
+* [[brandvos]]
+* [[brandvrij]]
+* [[brandwaarborg]]
+* [[brandwacht]]
+* [[brandweer]]
+* [[brandweg]]
+* [[brandwerend]]
+* [[brandwijk]]
+* [[brandwillig]]
+* [[brandwond]]
+* [[brandwonde]]
+* [[brandzalf]]
+* [[brandzeil]]
+* [[brandziekte]]
+* [[brandzilver]]
+* [[brandzolder]]
+* [[brandzuinig]]
+* [[brandzwam]]
+* [[builenbrand]]
+* [[duinbrand]]
+* [[haardbrand]]
+* [[heidebrand]]
+* [[Hildebrand]]
+* [[hotelbrand]]
+* [[huisbrand]]
+* [[IJsbrand]]
+* [[natuurbrand]]
+* [[roggebrand]]
+* [[schipholbrand]]
+* [[schoorsteenbrand]]
+* [[stadsbrand]]
+* [[steenbrand]]
+* [[stokebrand]]
+* [[stuifbrand]]
+* [[veenbrand]]
+* [[voertuigbrand]]
+* [[vriesbrand]]
+* [[wereldbrand]]
+* [[woningbrand]]
+* [[wortelbrand]]
+* [[zeebrand]]
+* [[zonnebrand]]
+* [[zuurbrand]]
+{{)}}
+
+=== {{S|verbe|nl|flexion}} ===
+'''brand''' {{pron||nl}}
+# ''Première personne du singulier du présent de'' [[branden]].
+#* {{exemple|lang=nl}}
+
+=== {{S|taux de reconnaissance}} ===
+{{nl-taux|99,4|98,4|pourB=98|pourNL=99}}
+
+=== {{S|prononciation}} ===
+* {{écouter|||lang=nl|audio=Nl-brand.ogg}}
+
+=== {{S|références}} ===
+{{références}}
+
+== {{langue|oc}} ==
+=== {{S|étymologie}} ===
+: De ''[[brant]]'' (« fer de l’épée, grosse épée »), lui-même issu du germanique '''''brand''''' (« [[tison]] »), {{cf|lang=fr|brandir|brandon}}.
+
+=== {{S|nom|oc|num=1}} ===
+{{oc-rég|s=brand|ˈbɾant}}
+'''brand''' {{pron|ˈbɾant|oc}} {{m}}
+# [[branle|Branle]], [[balancement]].
+#* {{exemple|lang=oc|Sonar las campanas a '''brand'''.|Sonner les cloches à toute volée.}}
+#* {{exemple|lang=oc|Metre en '''brand'''.|Mettre en mouvement.}}
+
+=== {{S|nom|oc|num=2}} ===
+{{oc-rég|s=brand|ˈbɾant}}
+'''brand''' {{pron|ˈbɾant|oc}} {{m}}
+# [[tison|Tison]].
+
+=== {{S|nom|oc|num=3}} ===
+{{oc-rég|s=brand|ˈbɾant}}
+'''brand''' {{pron|ˈbɾant|oc}} {{m}}
+# Grosse [[épée#fr|épée]] (maniée à deux mains).
+
+==== {{S|vocabulaire}} ====
+* {{lien|brandar|oc|sens=mettre en mouvement}}
+* {{lien|brande|oc|sens=danse}}
+* {{lien|brandejar|oc|sens=danser}}
+* {{lien|brandida|oc|sens=secousse}}
+* {{lien|brandilhar|oc|sens=bouger}}
+* {{lien|brandiment|oc|sens=agitation}}
+* {{lien|brandol|oc|sens=branle}}
+* {{lien|brandolar|oc|sens=brandiller}}
+* {{lien|brandolejar|oc|sens=brandiller}}
+
+=== {{S|références}} ===
+* {{R:Cantalausa}}
+* {{R:Laux-dict-oc-fr}}
+* {{R:Ubaud}}
+
+== {{langue|sv}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|sv}}
+
+=== {{S|nom|sv}} ===
+{{sv-nom-c-er|rac-pl=bränd}}
+'''brand''' {{pron||sv}} {{c}}
+# [[incendie|Incendie]], [[feu]].
+
+==== {{S|dérivés}} ====
+{{(}}
+* {{lien|brandbil|sv|sens=fourgon d’incendie, camion de pompier utilisé principalement dans la lutte contre l'incendie}}
+* {{lien|brandböld|sv|sens=anthrax}}
+* {{lien|brandlarm|sv|sens=alarme incendie}}
+* {{lien|brandman|sv|sens=pompier}}
+* {{lien|brandskatta|sv|sens=rançonner, mettre à contribution}}
+* {{lien|brandsläckare|sv|sens=extincteur}}
+* {{lien|brandvarnare|sv|sens=détecteur de fumée}}
+* {{lien|gräsbrand|sv|sens=feu de prairie}}
+* {{lien|mordbrand|sv|sens=incendie criminel}}
+{{)}}
+
+=== {{S|prononciation}} ===
+* {{écouter|||lang=sv|audio=Sv-brand.ogg}}

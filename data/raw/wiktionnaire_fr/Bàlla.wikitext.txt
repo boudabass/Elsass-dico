@@ -1,0 +1,12 @@
+{{vérifier création automatique||gsw-fr}}
+
+{{voir|balla|bàlla|Bàlla|ballá}}
+
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+{{ébauche-étym|gsw-fr}}
+
+=== {{S|nom|gsw-fr}} ===
+'''Bàlla'''
+# [[balle|Balle]]
+{{clé de tri|balla}}

@@ -1,0 +1,95 @@
+{{voir/angel}}
+
+== {{langue|fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|fr}}
+
+=== {{S|prénom|fr|genre=mf}} ===
+'''Angel''' {{pron|ɑ̃.ʒɛl|fr}} {{mf}}
+# Prénom féminin.
+#* {{exemple | lang=fr | {{w|'''Angel''' Forrest}}, autrice, compositrice et chanteuse de blues.}}
+# Prénom masculin.
+#* {{exemple | lang=fr | {{w|'''Angel''' Chelala}}, sprinteur.}}
+
+==== {{S|traductions}} ====
+{{trad-début}}
+{{trad-fin}}
+
+=== {{S|anagrammes}} ===
+{{voir anagrammes|fr}}
+
+=== {{S|voir aussi}} ===
+* {{WP}}
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|de}}
+
+=== {{S|nom|de}} ===
+{{de-nom-f-n}}
+'''Angel''' {{pron|ˈa.ŋǝl|de}} {{f}}
+# [[canne|Canne]].
+# [[canne à pêche|Canne à pêche]].
+# [[gond|Gond]] d’une [[porte]].
+
+==== {{S|synonymes}} ====
+* [[Angelrute]] (2)
+
+==== {{S|dérivés}} ====
+* [[angeln]]
+* [[Angelausflug]] (''partie de pêche'')
+* [[Katzenangel]]
+* [[zwischen Tür und Angel]]
+
+=== {{S|prononciation}} ===
+* {{écouter||ˈa.ŋǝl|lang=de|audio=De-Angel.ogg}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=de}}
+
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|nom|gsw-fr}} ===
+'''Angel''' {{pron||gsw-fr}}
+# {{lexique|religion|gsw-fr}} [[ange|Ange]].
+
+== {{langue|nds}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|nds}}
+
+=== {{S|nom|nds}} ===
+'''Angel''' {{pron||nds}} {{f}}
+# [[canne à pêche|Canne à pêche]].
+
+==== {{S|apparentés}} ====
+* [[angeln]]
+
+== {{langue|sl}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|sl}}
+
+=== {{S|prénom|sl|genre=m}} ===
+{{sl-décl-nmd|Angel|ani=oui}}
+'''Angel''' {{pron||sl}} {{m|a}}
+# Prénom masculin [[slovène]].
+
+=== {{S|prénom|sl|flexion}} ===
+'''Angel''' {{pron||sl}} {{f}}
+# ''Génitif duel de'' [[Angela#sl|Angela]].
+# ''Génitif pluriel de'' [[Angela#sl|Angela]].
+
+=== {{S|voir aussi}} ===
+* {{WP|Angel (ime)|lang=sl|titre=Angel}}
+
+== {{langue|ang}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|ang}}
+
+=== {{S|nom propre|ang}} ===
+'''Angel''' {{pron-recons||ang}} {{n}} 
+# [[Angeln]], région du [[Schleswig]] d’où venaient les [[Angles]].
+
+=== {{S|références}} ===
+* {{R:ClarkHall1916|0019|p=19}}

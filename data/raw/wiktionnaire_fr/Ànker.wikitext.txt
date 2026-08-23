@@ -1,0 +1,15 @@
+{{voir|anker|Anker}}
+
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|nom|gsw-fr}} ===
+'''Ànker''' {{pron||gsw-fr}} {{m}}
+# [[ancre#fr|Ancre]].
+
+=== {{S|références}} ===
+*[https://web.archive.org/web/20130906191837/http://www.ami-hebdo.com/elsadico/index.php de Elsässich Web Diktionnair]
+
+[[Catégorie:Lexique en alémanique alsacien de la navigation]]
+{{clé de tri|anker}}

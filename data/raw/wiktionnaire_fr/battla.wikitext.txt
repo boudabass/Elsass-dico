@@ -1,0 +1,7 @@
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+{{ébauche-étym|gsw-fr}}
+
+=== {{S|verbe|gsw-fr}} ===
+'''battla''' {{pron||gsw-fr}}
+# [[mendier|Mendier]].

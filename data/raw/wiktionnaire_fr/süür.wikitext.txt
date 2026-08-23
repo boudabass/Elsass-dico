@@ -1,0 +1,16 @@
+{{voir/suur}}
+== {{langue|gsw-fr}} ==
+{{ébauche|gsw-fr}}
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|nom|gsw-fr}} ===
+'''süür'''
+# [[acide]].
+# [[aigre]].
+
+==== {{S|variantes orthographiques}} ====
+* sür
+
+{{clé de tri|suur}}

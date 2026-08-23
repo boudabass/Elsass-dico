@@ -1,0 +1,9 @@
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|verbe|gsw-fr}} ===
+'''àbkerza'''
+# [[écourter|Écourter]], [[raccourcir]].
+
+{{clé de tri|abkerza}}

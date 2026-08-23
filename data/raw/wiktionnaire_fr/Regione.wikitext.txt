@@ -1,0 +1,10 @@
+{{vérifier création automatique||gsw-fr}}
+{{voir|regione}}
+
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|nom|gsw-fr}} ===
+'''Regione'''
+# [[région|Région]]

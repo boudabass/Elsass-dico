@@ -1,0 +1,9 @@
+{{vérifier création automatique||gsw-fr}}
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|verbe|gsw-fr}} ===
+'''àfànge'''
+# [[commencer|Commencer]], [[débuter]]
+{{clé de tri|afange}}

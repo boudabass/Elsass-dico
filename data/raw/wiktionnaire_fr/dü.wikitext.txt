@@ -1,0 +1,36 @@
+== {{langue|gsw-fr}} ==
+{{ébauche|gsw-fr}}
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|pronom personnel|gsw-fr}} ===
+'''dü''' {{pron||gsw-fr}} 
+# [[tu#fr|Tu]].
+
+{{clé de tri|du}}
+
+== {{langue|sg}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|sg}}
+: Ellipse de [[dü môlengê]]
+
+=== {{S|verbe|sg}} ===
+{{sg-verb}}
+'''dü''' {{pron||sg}}
+# [[accoucher|Accoucher]]
+#* {{exemple | lang=sg
+ | Mo '''dü''' awë ?
+ | Tu as des enfants? [Tu as déjà accouché ?]}}
+# [[être|Être]] [[né]]
+#* {{exemple | lang=sg
+ | '''Adü''' mbï na juin
+ | Je suis né en juin [On m’a accouché en juin]}}
+
+== {{langue|vo}} ==
+=== {{S|étymologie}} ===
+: Du latin ''dum'' (= pendant que).
+
+=== {{S|préposition|vo}} ===
+'''dü'''
+# [[pendant|Pendant]], [[durant]].
+#* ''Dü neit'' = Pendant la nuit.

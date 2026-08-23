@@ -1,0 +1,105 @@
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|goh|de|mot=werunga}}, attesté pour le {{siècle2|X}} siècle, et du {{étyl|gmh|de|mot=werunge}}.<ref>{{R:DWDS|Währung}}</ref>
+
+=== {{S|nom|de}} ===
+{{de-nom-f-en|pron=ˈvɛːʀʊŋ}}
+'''Währung''' {{pron|ˈvɛːʀʊŋ|de}} {{f}}
+# {{lexique|économie|de}} {{lien|monnaie|fr|dif=Monnaie}}, {{lien|unité|fr}} de {{lien|mesure|fr}} de la {{lien|valeur|fr}} et d’{{lien|échange|fr}} [[commercial|commerciaux]] (généralement [[émis|émise]] par une {{lien|institution|fr}} {{lien|officielle|fr}}).
+#* {{exemple | lang=de | Dollar und Euro sind international die wichtigsten '''Währungen'''. | sens=Le dollar et l’euro sont les principales monnaies à l’international.}}
+#* {{exemple|Nach den Empfehlungen von Kommission und Zentralbank gilt es in Brüssel nun als Formsache, dass der Rat der 27 EU-Mitgliedsstaaten im Laufe des Juli die Aufnahme Kroatiens in die gemeinsame '''Währung''' zum Anfang des kommenden Jahres beschließen wird.|lang=de|sens=Suite aux recommandations de la Commission et de la Banque centrale, il est considéré maintenant, à Bruxelles, une formalité que le Conseil des 27 États membres de l’UE décide, dans le courant du mois de juillet, de l’intégration de la Croatie dans la monnaie unique au début de l’année prochaine.|source={{périodique|auteur=Tobias Zick|titre=Ein Land ist bereit für den Euro|journal=Süddeutsche Zeitung|date=03 juin 2022|texte=https://www.sueddeutsche.de/wirtschaft/kroatien-euro-eu-kommission-1.5596649}}}}
+#* {{exemple|Seine '''Währung''' ist eine der stärksten und stabilsten der Welt: Die Schweizer Nationalbank verfügte 1989 über Goldreserven von 2590 Tonnen – das ist der drittgrößte Schatz, den eine Zentralbank hütet.|lang=de|sens=Sa monnaie est une des plus fortes, des plus stables du monde : en 1989, la Banque nationale suisse détient des réserves d’or de 2 590 tonnes, soit le troisième trésor mondial détenu par une banque centrale.|source={{ouvrage|auteur={{w|Jean Ziegler}}|trad=Friedrich Griese et Thorsten Schmidt|titre=Die Schweiz wäscht weisser|année=1990|éditeur=Piper|lieu=München et Zürich|url=}}}}
+# {{lien|monnaie|fr|dif=Monnaie}}, {{lien|ensemble|fr}} des {{lien|billet|fr}}s ou {{lien|pièce|fr}}s utilisés comme monnaie dans les échanges [[commercial|commerciaux]].
+# {{lien|monnaie|fr|dif=Monnaie}}, tout {{lien|bien|fr}} {{lien|utilisé|fr}} par une {{lien|société|fr}} comme {{lien|ayant|fr}} une {{lien|valeur|fr}} {{lien|défini|fr}}e.
+# {{lien|monnaie|fr|dif=Monnaie}}, unité d'{{lien|échange|fr}} alternative, avec un champ d'application limité.
+
+==== {{S|synonymes}} ====
+* {{lien|Geld|de}}
+
+==== {{S|antonymes}} ====
+* {{lien|Naturalwährung|de}}
+
+==== {{S|hyperonymes}} ====
+* {{lien|Zahlungsmittel|de}}
+
+==== {{S|hyponymes}} ====
+{{(}}
+* {{lien|Digitalwährung|de}}
+* {{lien|Fakturierungswährung|de}}
+* {{lien|Fluchtwährung|de}}
+* {{lien|Fremdwährung|de}}
+* {{lien|Gemeinschaftswährung|de}}
+* {{lien|Goldwährung|de}}
+* {{lien|Komplementärwährung|de}}
+* {{lien|Kryptowährung|de}}
+* {{lien|Landeswährung|de}}
+* {{lien|Leitwährung|de}}
+* {{lien|Metallwährung|de}}
+* {{lien|Reservewährung|de}}
+* {{lien|Silberwährung|de}}
+* {{lien|Zigarettenwährung|de}}
+{{)}}
+{{(}}
+* {{lien|Amero|de}}
+* {{lien|Dollar|de}}
+* {{lien|Euro|de}}
+* {{lien|Hrywnja|de}}
+{{)}}
+
+==== {{S|vocabulaire}} ====
+* {{lien|Banknote|de}}
+* {{lien|Münze|de}}
+* {{lien|Sonderziehungsrecht|de}}
+
+==== {{S|dérivés}} ====
+{{(}}
+* {{lien|Naturalwährung|de}}
+* {{lien|Währungsabkommen|de}}
+* {{lien|Währungsabwertung|de}}
+* {{lien|Währungsangleichung|de}}
+* {{lien|Währungsanleihe|de}}
+* {{lien|Währungsaufwertung|de}}
+* {{lien|Währungsausgleich|de}}
+* {{lien|währungsbereinigt|de}}
+* {{lien|Währungseinheit|de}}
+* {{lien|Währungsfonds|de}}
+* {{lien|Währungsgebiet|de}}
+* {{lien|Währungshandel|de}}
+* {{lien|Währungshoheit|de}}
+* {{lien|Währungskonferenz|de}}
+* {{lien|Währungskrieg|de}}
+* {{lien|Währungskrise|de}}
+* {{lien|Währungsmanipulation|de}}
+* {{lien|Währungsparität|de}}
+* {{lien|Währungspolitik|de}}
+* {{lien|Währungsreform|de}}
+* {{lien|Währungsrembours|de}}
+* {{lien|Währungsschwankung|de}}
+* {{lien|Währungssystem|de}}
+* {{lien|Währungsstabilität|de}}
+* {{lien|Währungsturbulenz|de}}
+* {{lien|Währungsumstellung|de}}
+* {{lien|Währungsunion|de}}
+* {{lien|Währungsverfall|de}}
+* {{lien|Weltwährung|de}}
+{{)}}
+
+=== {{S|prononciation}} ===
+* {{écouter|{{DE|nocat=1}}|ˈvɛːʁʊŋ|lang=de|audio=De-Währung.ogg}}
+* {{écouter|Berlin (Allemagne)|ˈvɛːʁʊŋ|lang=de|audio=De-Währung2.ogg}}
+
+=== {{S|références}} ===
+{{Références}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=de}}
+
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|nom|gsw-fr}} ===
+'''Währung'''
+# [[devise|Devises]] (argent)
+
+{{clé de tri|wahrung}}

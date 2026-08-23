@@ -1,0 +1,17 @@
+{{voir/bare}}
+
+== {{langue|de}} ==
+=== {{S|nom|de|flexion}} ===
+{{de-nom-m-s-en|ns=Bär|np2=Bäre|ap2=Bäre|gp2=Bäre}}
+'''Bäre''' {{pron|ˈbɛːʁə|de}} {{m}} 
+# ''Pluriel, au nominatif, à l’accusatif et au génitif, de ''{{l|Bär|de|nom-2|sens=[[marteau]] [[industriel]]}}.
+
+=== {{S|prononciation}} ===
+* {{écouter|Allemagne (Berlin)|ˈbɛːʁə|de|audio=De-Bäre.ogg}}
+
+== {{langue|gsw-fr}} ==
+=== {{S|nom|gsw-fr|flexion}} ===
+'''Bäre'''
+# ''Pluriel de'' [[Bär]]
+
+{{clé de tri|bare}}

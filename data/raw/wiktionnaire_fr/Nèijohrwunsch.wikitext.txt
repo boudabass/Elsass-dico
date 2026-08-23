@@ -1,0 +1,14 @@
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: Formé des substantifs ''{{lien|Nèijohr|gsw-fr}}'' (« Nouvel An ») et ''{{lien|Wunsch|gsw-fr}}'' (« vœu »). Cognat avec l’allemand ''{{lien|Neujahrswunsch|de}}''.
+
+=== {{S|nom|gsw-fr}} ===
+'''Nèijohrwunsch''' {{phon||gsw-fr}} {{m}}
+# [[vœu#fr|Vœu]] pour le [[nouvel an]], [[souhait#fr|souhait]] pour la nouvelle année.
+#* {{exemple | lang=gsw-fr
+ | Mi '''Nèijohrwunsch''': àsses, ìn a pààr Moneta, oder Jährla, ìn àlla Sprocha wìrd heissa : lawa wìe Gott ìm… Elsàss.
+ | Mon souhait pour la nouvelle année : que d’ici quelques mois ou quelques années, l’on dise dans toutes les langues : « heureux comme Dieu… en Alsace ».
+ | source={{Article|auteur=Yves {{smcp|BISCH}}|titre=Lawa wìe Gott ìn Frànkrich|périodique=[[w:L’Alsace|L’Alsace]] |date=28 décembre 2019|pages=35}}}}
+
+==== {{S|variantes orthographiques}} ====
+* {{lien|Näijohrswensch|gsw-fr}}

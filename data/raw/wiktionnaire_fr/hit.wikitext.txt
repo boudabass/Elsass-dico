@@ -1,0 +1,247 @@
+{{voir/hit}}
+
+== {{langue|conv}} ==
+=== {{S|symbole|conv}} ===
+'''hit'''
+# {{lexique|linguistique|conv}} Code {{w|ISO 639-3}} du [[hittite]].
+
+=== {{S|références}} ===
+* {{R:SIL|hit}}
+
+== {{langue|fr}} ==
+=== {{S|étymologie}} ===
+: Emprunt à l’{{étyl|en|fr|hit}}.
+
+=== {{S|nom|fr}} ===
+{{fr-rég|it|préfpron={{h}}}}
+'''hit''' {{h}}{{pron|it|fr}} {{m}}
+# {{lexique|musique|fr}} {{anglicisme|fr}} [[tube|Tube]].
+#* {{exemple | lang=fr
+ | On pourrait l’enregistrer tout de suite  faire un '''hit''' avec, c’est un '''hit''' assuré !
+ | source={{w|Michel Tremblay}}, ''Quarante-quatre minutes, quarante-quatre secondes'', 1997}}
+# {{désuet|fr}} [[succès|Succès]].
+#* {{exemple|Derrière ce nom coloré, Solal, on retrouve les associés du Monkey Club, Soda Bar et de la Maison M., on a donc de bonnes raisons de penser que ce nouveau lieu qui est un bar à cocktails et un restaurant aux influences méditerranéennes risque d’être un '''hit''' (comme on disait en 2003).|source=Jean-Damien Dumas, « [https://www.heurebleue.fr/solal-un-nouveau-bar-a-cocktails-a-lyon-ouvre-dans-le-quartier-foch/ Solal : Un nouveau bar à cocktails à Lyon ouvre dans le quartier Foch] », ''Heure Bleue Lyon'', 9 janvier 2020.|lang=fr}}
+# [[claie|Claie]] en bois qui servait à [[égoutter]] les moules destinés à former les [[pain de sucre|pains de sucre]].
+# {{lexique|baseball|fr}} Au baseball, [[coup sûr]] : frappe qui permet au [[batteur]] d’atteindre une des bases. 
+#* {{exemple | lang=fr
+ | En 2023, le Vénézuélien est en tête au battering average, au nombre de '''hits''', au total de points produits et au nombre de home runs, le coup décisif au baseball.
+ | source=journal ''Sud Ouest'', édition Charente-Maritime, 19 août 2023, page 24}}
+
+==== {{S|traductions}} ====
+{{trad-début}}
+{{trad-fin}}
+
+=== {{S|voir aussi}} ===
+* {{WP}}
+
+[[Catégorie:-t prononcés /t/ en français]]
+
+== {{langue|gsw-fr}} ==
+{{ébauche|gsw-fr}}
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|adverbe|gsw-fr}} ===
+'''hit''' {{pron||gsw-fr}}
+# [[aujourd’hui|Aujourd’hui]].
+
+== {{langue|en}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|enm|en|hitten}}, du {{étyl|ang|en|hittan}}, du {{étyl|non|en|hitta}}, du {{étyl|proto-germanique|en}} {{recons|lang-mot-vedette=en|hittijaną|proto-germanique}}, du {{étyl|indo-européen commun|en}} {{recons|lang-mot-vedette=en|kh₂eyd-|indo-européen commun}}.
+
+=== {{S|verbe|en}} ===
+{{en-conj-irrég|hit|inf.pron=ˈhɪt|hits|p3s.pron=ˈhɪts|hit|prét.pron=ˈhɪt|hit|pp.pron=ˈhɪt|hitting|ppr.pron=ˈhɪt.ɪŋ}}
+'''hit''' {{pron|ˈhɪt|en}} {{t|en}}
+# [[frapper|Frapper]].
+# {{argot|en}} [[butter|Butter]] ([[assassiner]]).
+# {{lexique|navigation|en}} [[donner|Donner]] dans un [[banc]] de sable, dans une [[roche]].
+# {{lexique|navigation|en}} [[tosser|Tosser]], [[accuser]] [[durement]] le [[choc]] des [[vague]]s [[pendant]] la [[progression]].
+# [[taper|Taper]].
+#* '''''Hit''' any key'' : Appuyez sur une touche
+# [[atteindre|Atteindre]].
+#* '''''Hit''' the target'' : Atteindre le cible
+
+==== {{S|quasi-synonymes}} ====
+* {{lien|strike|en|sens=frapper}}
+
+==== {{S|dérivés}} ====
+* {{lien|hit at|en}}
+* {{lien|hit on|en}}
+* {{lien|hit one’s head against the wall|en}} ''(se cogner la tête contre le mur)''
+* {{lien|hit out|en}}
+* {{lien|hit upon|en}}
+* {{lien|hitter|en}}
+* {{lien|hitting|en}}
+
+==== {{S|vocabulaire}} ====
+* {{voir thésaurus|en|douleur}}
+* {{lien|achieve|en|sens=atteindre}}
+* {{lien|attain|en|sens=saisir}}
+* {{lien|bang|en|sens=cogner}}
+* {{lien|grasp|en|sens=atteindre}}
+* {{lien|hit|en}}, {{lien|collide|en|dif=collide with|sens=heurter, percuter}}
+* {{lien|reach|en|sens=atteindre ; parvenir}}
+* {{lien|slam|en|sens=claquer}}
+* {{lien|strike|en|sens=frapper}}
+
+=== {{S|nom|en}} ===
+{{en-nom-rég|ˈhɪt|s=s}}
+'''hit''' {{pron|ˈhɪt|en}}
+# [[coup|Coup]], [[frappe]], [[impact]].
+# [[succès|Succès]], [[tube]].
+#* {{exemple | lang=en | The film was a big '''hit'''.}}
+# [[assassinat|Assassinat]] par un [[tueur à gages]].
+# [[appel|Appel]] ou [[requête]] de [[fichier]], en parlant d’un [[site]] [[Web]] (surtout au pluriel).
+# [[touche|Touche]], [[réponse]] [[positif|positive]] ou [[correct]]e à un [[test]] ([[chimique]], [[biologique]], [[psychologique]], [[etc.]]) ou à une requête de [[recherche]] [[informatique]].
+# [[dose|Dose]] de [[drogue]].
+# {{lexique|baseball|en}} [[coup sûr|Coup sûr]].
+# {{term|Curling}} [[frappé|Frappé]].
+# {{term|jeu}} Dans [[certain]]s [[jeu]]x de [[carte]]s, carte [[supplémentaire]] [[demander|demandée]] dans le [[but]] d’[[améliorer]] la [[main]].
+
+==== {{S|antonymes}} ====
+* {{lien|miss|en}}
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=en|États-Unis (région ?)|audio=En-us-hit.ogg}}
+* {{écouter|lang=en|Suisse (Genève)|audio=LL-Q1860 (eng)-Nattes à chat-hit.wav}}
+* {{écouter|lang=en|Royaume-Uni (Londres)||audio=LL-Q1860 (eng)-Back ache-hit.wav}}
+* {{écouter|Sud de l'Angleterre (Royaume-Uni)||lang=en|audio=LL-Q1860 (eng)-Vealhurl-hit.wav}}
+* {{écouter|Texas (États-Unis)||lang=en|audio=LL-Q1860 (eng)-Wodencafe-hit.wav}}
+* {{écouter|Connecticut (États-Unis)||lang=en|audio=LL-Q1860 (eng)-Grendelkhan-hit.wav}}
+
+==== {{S|paronymes}} ====
+* [[its]]
+* [[it’s]]
+
+[[Catégorie:Verbes irréguliers en anglais]]
+
+== {{langue|hu}} ==
+{{ébauche|hu}}
+
+=== {{S|étymologie}} ===
+: De ''[[hisz]]'', « [[croire]] ».
+
+=== {{S|nom|hu}} ===
+'''hit''' {{pron|ˈhit|hu}} ({{p}} '''[[hitek]]''')
+# [[foi|Foi]], [[croyance]].
+
+==== {{S|dérivés}} ====
+* [[egyistenhit]]
+* [[hitetlen]]
+* [[hitvallás]]
+
+=== {{S|prononciation}} ===
+* {{écouter||ˈhit|lang=hu|audio=Hu-hit.ogg}}
+
+== {{langue|li}} ==
+{{ébauche|li}}
+
+=== {{S|étymologie}} ===
+: De l’anglais via le néerlandais.
+
+=== {{S|nom|li}} ===
+'''hit''' {{pron||li}} {{f}}
+# {{argot|li}} Chose populaire (livre, chanson, groupe, pays, etc.).
+
+==== {{S|synonymes}} ====
+* [[slaag]] {{plus courant}}
+
+=== {{S|voir aussi}} ===
+: ''(Flexions)'' :
+* [[hitje]], [[hitjes]] ''(nominatif diminutif, génitif diminutif)''
+* [[hittes]], [[hitteser]] ''(locatif)''
+* [[hitteske]], [[hitteskes]] ''(locatif diminutif)''
+
+== {{langue|no}} ==
+{{ébauche|no}}
+
+=== {{S|adverbe|no}} ===
+'''hit''' {{pron||no}}
+# [[ici|Ici]], en cet endroit.
+
+== {{langue|pl}} ==
+{{ébauche|pl}}
+
+=== {{S|étymologie}} ===
+: De l’anglais.
+
+=== {{S|nom|pl}} ===
+'''hit''' {{pron|xit̪|pl}} {{m}} ''(nominatif)'' ''(accusatif)''
+# [[succès|Succès]] (spécialement dans l’[[industrie]] du [[divertissement]]).
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=pl||audio=Pl-hit.ogg}}
+
+=== {{S|voir aussi}} ===
+: ''(Flexions)'' :
+* [[hicie]] ''(locatif singulier, vocatif singulier)''
+* [[hitach]] ''(locatif pluriel)''
+* [[hitami]] ''(instrumental pluriel)''
+* [[hitem]] ''(instrumental singulier)''
+* [[hitom]] ''(datif pluriel)''
+* [[hitów]] ''(génitif pluriel)''
+* [[hitowi]] ''(datif singulier)''
+* [[hitu]] ''(génitif singulier)''
+* [[hity]] ''(nominatif pluriel, accusatif pluriel, vocatif pluriel)''
+
+== {{langue|sv}} ==
+=== {{S|étymologie}} ===
+: ''(Nom)'' De l’{{étyl|en|sv|mot=hit}}.
+: ''(Adverbe)'' Du vieux frison ''hit'', *''hī''+''at''. ''hī'' de l’{{indo-européen commun}} ''kei-'' (voir le grec ancien {{lien|ἐκεῖ|grc|tr=ekei}} ; ''at'' du [[proto-germanique]] ''at'', de l’{{indo-européen commun}} ''ad'' (qui a aussi donné le suédois ''[[åt]]'').
+
+=== {{S|nom|sv}} ===
+{{sv-nom-c-ar|rac=hitt}}
+'''hit''' {{pron||sv}} {{c}}
+# {{lexique|musique|sv}} [[hit#fr|Hit]].
+
+=== {{S|adverbe|sv}} ===
+'''hit''' {{pron||sv}}
+# [[ici|Ici]], en cet endroit.
+#: ''Jag kom '''hit''' igår'' : Je suis venu ici hier.
+
+==== {{S|antonymes}} ====
+* [[dit]]
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=sv||audio=Sv-hit.ogg}}
+
+=== {{S|voir aussi}} ===
+* [[hitåt]]
+* [[hit och dit]]
+
+== {{langue|cs}} ==
+{{ébauche|cs}}
+
+=== {{S|nom|cs}} ===
+'''hit''' {{pron|hɪt|cs}}
+# [[succès|Succès]] ([[industrie]] du [[divertissement]]).
+
+==== {{S|synonymes}} ====
+* [[šlágr]]
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=cs||audio=Cs-hit.ogg}}
+
+== {{langue|ang}} ==
+{{ébauche|ang}}
+
+=== {{S|étymologie}} ===
+: Du [[proto-germanique]] ''hit'', « ceci, celui-ci », du {{indo-européen commun}} ''k’e-'', ''k’ey'', « ceci, ici ».
+
+=== {{S|pronom|ang}} ===
+'''hit''' {{n}} ''(accusatif)'' (''génitif'' [[his]], ''datif'' [[him]])
+# [[ceci|Ceci]], [[ça]].
+
+== {{langue|odt}} ==
+{{ébauche|odt}}
+
+=== {{S|étymologie}} ===
+: Du [[proto-germanique]] ''hit''.
+
+=== {{S|pronom|odt}} ===
+'''hit''' {{pron||odt}}
+# [[ceci|Ceci]], [[ça]].
+
+==== {{S|variantes}} ====
+* [[it]]

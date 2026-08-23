@@ -1,0 +1,12 @@
+== {{langue|gsw-fr}} ==
+{{ébauche|gsw-fr}}
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|nom|gsw-fr}} ===
+'''fleejer [der]''' {{m}}
+# [[avion]].
+
+==== {{S|variantes orthographiques}} ====
+* [[flieger]] [der]

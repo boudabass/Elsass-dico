@@ -1,0 +1,8 @@
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|verbe|gsw-fr}} ===
+'''a’ Büüch binda'''
+# [[relier|Relier]] un [[livre]]
+{{clé de tri|a’ buuch binda}}

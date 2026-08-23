@@ -1,0 +1,794 @@
+{{voir|land}}
+
+== {{langue|fr}} ==
+=== {{S|nom|fr}} ===
+{{fr-accord-mf|pron=lɑ̃d|p=Lands|p2=Länder|p2p=lɛn.dœʁ}}
+'''Land''' {{pron|lɑ̃d|fr}} {{m}}
+# {{variante ortho de|land}}.
+#* {{exemple | lang=fr
+ | Le ressentiment des laissés-pour-compte de la réunification, notamment dans les anciens '''Länders''' de l’Est, s’exprimera dans les urnes.
+ | source={{w|Odile Benyahia-Kouider}}, ''Lady Macbeth'', {{w|Le Canard Enchaîné}}, 20 septembre 2017, {{nobr|page 8}}}}
+
+==== {{S|notes}} ====
+: Ce nom débute toujours par une majuscule en allemand, comme tous les substantifs. L’usage en français n’est pas fixé : l’Académie française préconise d’écrire ''[[land]]'' sans majuscule.
+
+=== {{S|anagrammes}} ===
+{{voir anagrammes|fr}}
+
+=== {{S|voir aussi}} ===
+* {{Wikipédia|Land}}
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|gmh|de|mot=lant}}, du {{étyl|goh|de|mot=lant}}, du {{étyl|got|de|mot=land}} et des {{étyl|ine|de|mot=lendh}}.<ref> {{R:DWDS|Land}} </ref>
+
+=== {{S|nom|de}} ===
+{{de-nom-n-s-er|np=Länder|gs2=Landes|ds2=Lande|np2=Lande|cat2=n-s-e}}
+'''Land''' {{pron|lant|de}} {{n}}
+# {{lexique|géographie|de}} [[terre#fr|Terre]] [[émergée#fr|émergée]], [[terre ferme#fr|terre ferme]].
+#* {{exemple | lang=de | Einige Schildkröten leben nur auf dem '''Land'''. | sens=Certaines tortues ne vivent que sur la terre ferme.}}
+# {{lexique|géographie|de}} [[pays#fr|Pays]], [[État#fr|État]], entité politique.
+#* {{exemple | lang=de | Nigeria ist das bevölkerungsreichste '''Land''' Afrikas. | sens=Le Nigéria est le pays le plus peuplé d'Afrique.''}}
+#* {{exemple|Und im Netz fragen Nutzer auf Facebook: „Wer ist eigentlich dafür verantwortlich, dass wir von einem '''Land''' mit fruchtbarem Boden und frischem Wasser zum Anbau von Eukalyptus für die Herstellung von Toilettenpapier übergegangen sind?“|lang=de|sens=Et sur internet, des internautes demandent sur Facebook : "Qui est responsable du fait que nous soyons passés d’une terre aux sols fertiles et à l’eau fraîche à la culture d'eucalyptus pour la fabrication de papier toilette ?"|source={{périodique|auteur=Christoph Gurk|titre=Wenn nur noch Salzwasser aus der Leitung kommt|journal=Süddeutsche Zeitung|date=29 juin 2023|texte=https://www.sueddeutsche.de/projekte/artikel/politik/uruguay-wassermangel-montevideo-klimawandel-e650745/}}}}
+#* {{exemple|Der Bundesrat will die Rahmenbedingungen für den Gütertransport per Bahn und Schiff stärken, damit sie einen grösseren Beitrag zur Versorgungssicherheit im ganzen '''Land''' leisten kann. Hierfür hatte er vor einem Jahr zwei Varianten in die Vernehmlassung gegeben.|lang=de|sens=Le Conseil fédéral entend renforcer les conditions-cadre du fret ferroviaire et fluvial afin d’augmenter la sécurité d’approvisionnement de l’ensemble du pays. Il y a un an, il a mis en consultation deux variantes à cet effet.|source={{périodique|auteur=|titre=Bessere Rahmenbedingungen für zukunftstauglichen Güterverkehr|journal=Bundesamt für Verkehr|date=10 janvier 2024|texte=https://www.bav.admin.ch/bav/de/home/publikationen/medienmitteilungen.msg-id-99636.html}}}}
+# {{lexique|administration|géographie|de}} [[État#fr|État]] [[fédéré#fr|fédéré]] de la République fédérale d'Allemagne ou de la République d'Autriche ('''Bundesland''').
+#* {{exemple | lang=de | Die Bundesrepublik Deutschland besteht aus 16 '''Ländern'''. | sens=La République fédérale d'Allemagne se compose de 16 Länder.}}
+#* {{exemple|Nun ist nicht zu bestreiten, dass das '''Land''' Berlin in der Zwickmühle ist. Ohne die Mietstundung hätte Hertha womöglich die Lizenz für die zweite Liga nicht erhalten, und das hätte unter Umständen bedeutet, dass Berlins Olympiastadion seinen Hauptmieter verloren - und das '''Land''' ein noch größeres Problem gehabt hätte.|lang=de|sens=Il est quand-même indéniable que le Land de Berlin se trouve dans un dilemme. Sans le report de loyer, le Hertha n'aurait peut-être pas obtenu sa licence pour la deuxième division, ce qui aurait peut-être signifié que le stade olympique de Berlin aurait perdu son principal locataire - et que le Land aurait eu un problème encore plus grand.|source={{périodique|auteur=Javier Cáceres|titre=Sollnse halt Kuchen essen|journal=Süddeutsche Zeitung|date=29 juin 2023|texte=https://www.sueddeutsche.de/sport/hertha-bsc-stadionmiete-senat-stundung-kommentar-1.5980888}}}}
+# [[terre#fr|Terre]] que quelqu'un possède et exploite.
+#* {{exemple|Ausländische In­ves­to­ren haben Sierra Leones Kleinbauern mit Pachtverträgen über Jahrzehnte '''Land''' abgeluchst. Neue Gesetze sollen das nun verhindern.|lang=de|sens=Pendant des décennies, des investisseurs étrangers ont soutiré des terres aux petits paysans sierra-léonais par le biais de contrats de location. De nouvelles lois doivent désormais empêcher cela.|source={{périodique|auteur=Katrin Gänsler|titre=Besetzte Heimat|journal=taz|date=24 juin 2023|texte=https://taz.de/Landgrabbing-in-Sierra-Leone/!5939131/}}}}
+#* {{exemple|»Sie haben also '''Land''', das Ihnen gehört?« fragte der Major.<br />»Nein, mein Herr. Ich hatte welches, als mein Mann noch lebte; doch nach seinem Tode bin ich so unglücklich gewesen, daß ich mich gezwungen sah, es zu verkaufen.«|lang=de|sens=— Vous avez donc des terres à vous ? demanda le commandant.<br />— Non, monsieur. J’en ai eu du temps de défunt mon homme ; mais depuis sa mort j’ai été si malheureuse que j’ai été forcée de les vendre.|source={{ouvrage|auteur={{w|Honoré de Balzac}}|trad=Paul Hansmann|titre=Der Landarzt|année=1925|éditeur=Georg Müller|url=https://www.projekt-gutenberg.org/balzac/landarzt/chap001.html}}}}
+#* {{exemple|Jahrzehntelang war das Geschäft der chinesischen Immobilienentwickler äußerst einträglich: Sie nahmen den Provinzregierungen '''Land''' ab und bebauten es mit Wohnblöcken, in die Chinas Bevölkerung ihre Ersparnisse steckte.|lang=de|sens=Pendant des décennies, l’activité des promoteurs immobiliers chinois a été extrêmement lucrative : ils prenaient des terres aux gouvernements provinciaux et les construisaient avec des blocs d'habitation dans lesquels la population chinoise plaçait ses économies.|source={{périodique|auteur=Jens Mühling|titre=War es das mit dem chinesischen Wirtschaftswunder?|journal=Die Zeit|date=21 octobre 2024|texte=https://www.zeit.de/wirtschaft/2024-10/wirtschaftspolitik-china-konjunktur-immobilienkrise-schulden-arbeitslosigkeit}}}}
+#* {{exemple|In Guatemala werden ca. 270.000 Hektar '''Land''' für den Kaffeeanbau genutzt. Größtenteils sind es Kleinbauern, die den Kaffee auf ein bis zwei Hektar '''Land''' anbauen.|lang=de|sens=Au Guatemala, environ 270.000 hectares de terres sont utilisés pour la culture du café. Ce sont en grande partie des petits paysans qui cultivent le café sur un ou deux hectares.|source={{périodique|auteur=(Redaktion)|titre=Die Top 10 der Kaffee Anbauländer|journal=Coffee Circle|date=7 avril 2023|texte=https://www.coffeecircle.com/de/b/kaffee-anbaugebiete}}}}
+# {{indénombrable|de}} {{lexique|géographie|de}} [[campagne#fr|Campagne]] – au singulier uniquement.
+#* {{exemple | lang=de | Sie wohnt auf dem '''Land'''. | sens=Elle habite à la campagne.''}}
+#* {{exemple|(...) so wie (...) damals, als (Xi Jinping) während der Kulturrevolution 1969 als Sohn eines hochrangigen Beamten aufs '''Land''' verbannt wurde. Dort habe er in einer Höhle gelebt und musste jeden Tag hundert Kilo Weizen auf seinen Schultern über einen Bergpfad schleppen. So erzählt es zumindest die Staatspropaganda.|lang=de|sens=(...) comme (...) à l’époque où (Xi Jinping), fils d’un haut fonctionnaire, a été exilé à la campagne, en 1969, pendant la Révolution culturelle. Il y a vécu dans une grotte et a dû porter chaque jour cent kilos de blé sur ses épaules à travers un sentier de montagne. C'est du moins ce que raconte la propagande d'État.|source={{périodique|auteur=Florian Müller|titre=Euch braucht keiner|journal=Süddeutsche Zeitung|date=20 juin 2023|texte=https://www.sueddeutsche.de/projekte/artikel/politik/china-xi-jinping-jugendarbeitslosigkeit-kommunistische-partei-e368467/}}}}
+#* {{exemple|Die Bevölkerung des Mittelalters war zu mehr als 90 Prozent in der '''Land'''wirtschaft beschäftigt. Die Ritter waren Bestandteil dieser Agrargesellschaft und lebten zumeist auch auf dem '''Land'''.|lang=de|sens=Au Moyen Âge, plus de 90 % de la population travaillait dans l’agriculture. Les chevaliers faisaient partie intégrante de cette société agraire et vivaient pour la plupart à la campagne.|source={{périodique|auteur=|titre=Das Ritterleben|journal=Das Leben im Mittelalter|date=19 octobre 2025|texte=https://www.leben-im-mittelalter.net/alltag-im-mittelalter/alltagsfacetten/ritterleben.html}}}}
+
+==== {{S|notes}} ====
+Les pluriels '''Lande''' et '''Landen''' ne sont plus usités, sauf en langage poétique, langage recherché ou dans les locutions figées comme [[Niederlande]]. 
+
+==== {{S|synonymes}} ====
+''Terre émergée :''
+* {{lien|Boden|de}}
+* {{lien|Erdboden|de}}
+* {{lien|Erde|de}}
+* {{lien|Erdkrume|de}}
+* {{lien|Erdreich|de}}
+* {{lien|Festland|de}}
+* {{lien|Landmasse|de}}
+* {{lien|Terrain|de}}
+''Campagne :''
+* {{lien|Dorf|de}}
+''Pays, état :''
+* {{lien|Hoheitsgebiet|de}}
+* {{lien|Nation|de}}
+* {{lien|Staat|de}}
+* {{lien|Staatsgebiet|de}}
+* {{lien|Territorium|de}}
+
+==== {{S|antonymes}} ====
+* {{lien|See|de}}
+* {{lien|Meer|de}}
+* {{lien|Wasser|de}}
+* {{lien|Kolonie|de}}
+* {{lien|Bund|de}}
+* {{lien|Großstadt|de}}
+* {{lien|Stadt|de}}
+* {{lien|Berg|de}}
+* {{lien|Gebirge|de}}
+
+==== {{S|hyperonymes}} ====
+* {{lien|Erde|de}}
+* {{lien|Kontinent|de}}
+* {{lien|Wirtschaftsraum|de}}
+* {{lien|Staat|de}}
+* {{lien|Verwaltungsgebiet|de}}
+
+==== {{S|hyponymes}} ====
+{{(|}}
+* {{lien|Hauptland|de}}
+* {{lien|Lieblingsland|de}}
+* {{lien|Riesenland|de}}
+* {{lien|Wunschland|de}}
+{{)}}
+{{(|}}
+* {{lien|Baumland|de|sens=pays boisé}}
+* {{lien|Bergland|de|sens=région montagneuse}}
+* {{lien|Binnenland|de|sens=intérieur des terres}}
+* {{lien|Flachland|sens=pays plat », « plat pays}}
+* {{lien|Hochland|de|sens=hautes terres}}
+* {{lien|Inland|de}}
+* {{lien|Sonnenland|de|sens=pays ensoleillé}}
+* {{lien|Tiefland|de|sens=basse terre}}
+* {{lien|Traumland|de}}
+{{)}}
+{{(|}}
+* {{lien|Abenteuerland|de}}
+* {{lien|Abnahmeland|de}}
+* {{lien|Abnehmerland|de}}
+* {{lien|Absatzland|de}}
+* {{lien|Abwertungsland|de}}
+* {{lien|Agrarland|de}}
+* {{lien|Albtraumland|de}}
+* {{lien|Altland|de}}
+* {{lien|Anbauland|de}}
+* {{lien|Andenland|de}}
+* {{lien|Anlageland|de}}
+* {{lien|Anliegerland|de}}
+* {{lien|Anrainerland|de}}
+* {{lien|Ansässigkeitsland|de}}
+* {{lien|Anwerbeland|de}}
+* {{lien|Armutsland|de}}
+* {{lien|Asylland|de|sens=terre d'asile}}
+* {{lien|Atomland|de}}
+* {{lien|Aufenthaltsland|de}}
+* {{lien|Aufnahmeland|de|sens=pays d'accueil}}
+* {{lien|Ausfuhrland|de}}
+* {{lien|Ausland|de}}
+* {{lien|Ausrichterland|de}}
+* {{lien|Ausstellerland|de}}
+* {{lien|Austragungsland|de}}
+* {{lien|Auswandererland|de}}
+* {{lien|Auswanderungsland|de}}
+* {{lien|Autoland|de}}
+* {{lien|Balkanland|de}}
+* {{lien|Baltenland|de}}
+* {{lien|Bärenland|de}}
+* {{lien|Beitrittsland|de}}
+* {{lien|Bergbauland|de}}
+* {{lien|Bernsteinland|de}}
+* {{lien|Bestimmungsland|de}}
+* {{lien|Bewerberland|de}}
+* {{lien|Billigflaggenland|de}}
+* {{lien|Billigland|de}}
+* {{lien|Billiglohnland|de|sens=pays à bas salaires}}
+* {{lien|Boomland|de}}
+* {{lien|Bruderland|de}}
+* {{lien|Bündnisland|de}}
+* {{lien|Bürgerkriegsland|de|sens=pays en guerre civile}}
+* {{lien|Christenland|de}}
+* {{lien|Defizitland|de}}
+* {{lien|Destinationsland|de}}
+* {{lien|Donauland|de}}
+* {{lien|Drachenland|de}}
+* {{lien|Drittland|de|sens=pays tiers}}
+* {{lien|Drittweltland|de}}
+* {{lien|Durchfuhrland|de}}
+* {{lien|Durchgangsland|de}}
+* {{lien|Durchreiseland|de}}
+* {{lien|Durchzugsland|de}}
+* {{lien|Einfuhrland|de}}
+* {{lien|Einreiseland|de}}
+* {{lien|Einsatzland|de}}
+* {{lien|Einwandererland|de}}
+* {{lien|Einwanderungsland|de|sens=terre d'immigration}}
+* {{lien|Elendsland|de}}
+* {{lien|Emigrationsland|de}}
+* {{lien|Empfängerland|de}}
+* {{lien|Empfangsland|de}}
+* {{lien|Energieland|de}}
+* {{lien|Entsendeland|de}}
+* {{lien|Entwicklungsland|de|sens=pays en voie de développement}}
+* {{lien|Erbland|de}}
+* {{lien|Erdölförderland|de}}
+* {{lien|Erdölland|de}}
+* {{lien|Erfolgsland|de}}
+* {{lien|Erwerbsland|de}}
+* {{lien|Erzeugerland|de}}
+* {{lien|Exilland|de}}
+* {{lien|Exportland|de}}
+* {{lien|Feindland|de}}
+* {{lien|Ferienland|de}}
+* {{lien|Fernsehland|de}}
+* {{lien|Filmland|de}}
+* {{lien|Fluchtland|de}}
+* {{lien|Flüchtlingsland|sens=pays d'émigration », « pays de réfugiés}}
+* {{lien|Folterland|de}}
+* {{lien|Förderland|de}}
+* {{lien|Fremdland|de}}
+* {{lien|Freundesland|de}}
+* {{lien|Fußballland|de}}
+* {{lien|Gastgeberland|de}}
+* {{lien|Gastland|de}}
+* {{lien|Geberland|de}}
+* {{lien|Geburtsland|de|sens=pays natal}}
+* {{lien|Geldgeberland|de}}
+* {{lien|Gipfelland|de}}
+* {{lien|Gläubigerland|de}}
+* {{lien|Golfland|de}}
+* {{lien|Grenzland|de}}
+* {{lien|Gründerland|de}}
+* {{lien|Gründungsland|de}}
+* {{lien|Hartwährungsland|de}}
+* {{lien|Heimatland|de}}
+* {{lien|Herkunftsland|de|sens=pays d'origine}}
+* {{lien|Herstellerland|de}}
+* {{lien|Herstellungsland|de}}
+* {{lien|Hochlohnland|de|sens=pays à hauts salaires}}
+* {{lien|Hochpreisland|de}}
+* {{lien|Hochsteuerland|de}}
+* {{lien|Hochtechnologieland|de}}
+* {{lien|Hungerland|de}}
+* {{lien|Immigrationsland|de}}
+* {{lien|Importland|de}}
+* {{lien|Industrieland|de|sens=pays industrialisé}}
+* {{lien|Inselland|de}}
+* {{lien|Investitionsland|de}}
+* {{lien|Jugendland|de}}
+* {{lien|Kaffeeland|de}}
+* {{lien|Kandidatenland|de}}
+* {{lien|Karibikland|de}}
+* {{lien|Kartoffelland|de}}
+* {{lien|Käuferland|de}}
+* {{lien|Kaufland|de}}
+* {{lien|Kernland|de}}
+* {{lien|Kinderland|de}}
+* {{lien|Kinoland|de}}
+* {{lien|Kohleland|de}}
+* {{lien|Kolonialland|de}}
+* {{lien|Konkurrenzland|de}}
+* {{lien|Konsumentenland|de}}
+* {{lien|Krisenland|de}}
+* {{lien|Kronland|sens=royaume », « empire}}
+* {{lien|Leseland|de}}
+* {{lien|Lieferland|de}}
+* {{lien|Macholand|de}}
+* {{lien|Männerland|de}}
+* {{lien|Märchenland|de|sens=pays de conte de fées}}
+* {{lien|Medienland|de}}
+* {{lien|Mitgliedsland|de|sens=pays membre}}
+* {{lien|Mittelmeerland|de}}
+* {{lien|Mohrenland|de}}
+* {{lien|Musikland|de}}
+* {{lien|Musterland|de}}
+* {{lien|Mutterland|de|sens=métropole}}
+* {{lien|Nachbarland|de|sens=pays voisin}}
+* {{lien|Nachfolgeland|de}}
+* {{lien|Naziland|de}}
+* {{lien|Nehmerland|de}}
+* {{lien|Nichtverfolgerland|de}}
+* {{lien|Niederlassungsland|de}}
+* {{lien|Niedriglohnland|de|sens=pays à bas salaires}}
+* {{lien|Niedrigpreisland|de}}
+* {{lien|Niedrigsteuerland|de}}
+* {{lien|Nordland|de}}
+* {{lien|Ölförderland|de}}
+* {{lien|Ölland|de}}
+* {{lien|Ostland|de}}
+* {{lien|Partnerland|de}}
+* {{lien|Patenland|de}}
+* {{lien|Pionierland|de}}
+* {{lien|Problemland|de}}
+* {{lien|Produktionsland|de}}
+* {{lien|Produzentenland|de}}
+* {{lien|Reformland|de|sens=pays réformateur}}
+* {{lien|Reiseland|de|sens=pays touristique}}
+* {{lien|Risikoland|de}}
+* {{lien|Rohstoffland|de}}
+* {{lien|Sahelland|de}}
+* {{lien|Schengenland|de}}
+* {{lien|Schlüsselland|de}}
+* {{lien|Schuldenland|de}}
+* {{lien|Schuldnerland|de}}
+* {{lien|Schwachwährungsland|de}}
+* {{lien|Schwellenland|de|sens=pays émergent}}
+* {{lien|Schwerpunktland|de}}
+* {{lien|Schwesterland|de}}
+* {{lien|Sehnsuchtsland|de}}
+* {{lien|Siegerland|sens=pays vainqueur », « pays gagnant}}
+* {{lien|Sitzland|de}}
+* {{lien|Sowjetland|de}}
+* {{lien|Spitzenland|de}}
+* {{lien|Sportland|de}}
+* {{lien|Staatshandelsland|de}}
+* {{lien|Stammland|de|sens=pays d'origine}}
+* {{lien|Standortland|de}}
+* {{lien|Stationierungsland|de}}
+* {{lien|Steuerland|de}}
+* {{lien|Südland|de}}
+* {{lien|Täterland|de}}
+* {{lien|Teilnahmeland|de}}
+* {{lien|Teilnehmerland|de}}
+* {{lien|Theaterland|de}}
+* {{lien|Tigerland|de}}
+* {{lien|Tourismusland|de}}
+* {{lien|Touristenland|de}}
+* {{lien|Transformationsland|de}}
+* {{lien|Transitland|de|sens=pays de transit}}
+* {{lien|Tropenland|de}}
+* {{lien|Übergangsland|de}}
+* {{lien|Überschussland|de}}
+* {{lien|Überseeland|de}}
+* {{lien|Unionsland|de}}
+* {{lien|Unterzeichnerland|de}}
+* {{lien|Urlaubsland|sens=pays de villégiature », « pays touristique}}
+* {{lien|Ursprungsland|de|sens=pays d'origine}}
+* {{lien|Vaterland|sens=patrie », « terre natale}}
+* {{lien|Veranstalterland|de}}
+* {{lien|Verbraucherland|de}}
+* {{lien|Verbrauchsland|de}}
+* {{lien|Verfolgerland|de}}
+* {{lien|Vergleichsland|de}}
+* {{lien|Vertragsland|de}}
+* {{lien|Vorreiterland|de}}
+* {{lien|Vorzeigeland|de}}
+* {{lien|Wachstumsland|de}}
+* {{lien|Walfangland|de}}
+* {{lien|Weichwährungsland|de}}
+* {{lien|Weinbauland|de}}
+* {{lien|Westland|de}}
+* {{lien|Wintersportland|de}}
+* {{lien|Wirtschaftswunderland|de}}
+* {{lien|WM-Land|de}}
+* {{lien|Wohlstandsland|de}}
+* {{lien|Wohnsitzland|de}}
+* {{lien|Wunderland|de|sens=pays des merveilles}}
+* {{lien|Zahlerland|de}}
+* {{lien|Zielland|de|sens=pays de destination}}
+* {{lien|Zufluchtsland|de}}
+* {{lien|Zukunftsland|de}}
+* {{lien|Zuwanderungsland|de}}
+{{)}}
+{{(|}}
+* {{lien|Staat|de}}
+* {{lien|Amiland|de}}
+* {{lien|Beneluxland|de|sens=Benelux}}
+* {{lien|BRIC-Land|de}}
+* {{lien|DACH-Land|de}}
+* {{lien|Deutschland|de|sens=Allemagne}}
+* {{lien|EFTA-Land|de|sens=association européenne de libre-échange}}
+* {{lien|EG-Land|de}}
+* {{lien|England|de|sens=Angleterre}}
+* {{lien|Estland|de|sens=Estonie}}
+* {{lien|EU-Land|de|sens=pays de l'UE}}
+* {{lien|Euroland|de}}
+* {{lien|Europaratsland|de}}
+* {{lien|EWR-Land|de}}
+* {{lien|Finnland|de|sens=Finlande}}
+* {{lien|Griechenland|de}}
+* {{lien|Grönland|de|sens=Groenland}}
+* {{lien|Irland|de|sens=Irlande}}
+* {{lien|Island|de|sens=Islande}}
+* {{lien|Lettland|de|sens=Lettonie}}
+* {{lien|Niederlande|de|sens=Pays-Bas}}
+* {{lien|Neuseeland|de|sens=Nouvelle-Zélande}}
+* {{lien|Ostblockland|de|sens=pays du bloc de l'est}}
+* {{lien|Russland|de|sens=Russie}}
+* {{lien|Schweizerland|de}}
+* {{lien|Swasiland|de|sens=Swaziland}}
+* {{lien|Thailand|de|sens=Thaïlande}}
+* {{lien|Visegrád-Land|de|sens=groupe de Visegrád }}
+{{)}}
+{{(|}}
+* {{lien|Abendland|de}}
+* {{lien|Alpenland|de}}
+* {{lien|Getreideland|de}}
+* {{lien|Goldland|de}}
+* {{lien|Kulturland|de}}
+* {{lien|Küstenland|de}}
+* {{lien|Mittelland|de}}
+* {{lien|Wüstenland|de}}
+* {{lien|Feindesland|de|sens=pays ennemi}}
+{{)}}
+{{(|}}
+* {{lien|Bindestrichland|de}}
+* {{lien|BRD-Land|de}}
+* {{lien|Bundesland|de|sens=état fédéré}}
+* {{lien|Flächenland|de|sens=pays gigantesque}}
+* {{lien|Stadtstaat|sens=ville-État », « cité-État}}
+{{)}}
+{{(|}}
+* {{lien|Baselland|de}}
+* {{lien|Baskenland|de}}
+* {{lien|Bayernland|de}}
+* {{lien|Dixieland|de}}
+* {{lien|England|de|sens=Angleterre}}
+* {{lien|Friedland|de}}
+* {{lien|Friesland|de}}
+* {{lien|Gelderland|de}}
+* {{lien|Hessenland|de}}
+* {{lien|Kapland|de}}
+* {{lien|Nordirland|de|sens=Irlande du Nord}}
+* {{lien|Philisterland|de}}
+* {{lien|Saarland|de|sens=Sarre}}
+* {{lien|Sachsenland|de}}
+* {{lien|Schottland|de|sens=Écosse}}
+{{)}}
+{{(|}}
+* {{lien|Hinterland|de|sens=arrière-pays}}
+* {{lien|Neuland|de}}
+* {{lien|Niemandsland|de}}
+* {{lien|Oberland|de}}
+* {{lien|Umland|sens=périphérie d'une ville », « périphérie d'un plan d'eau}}
+* {{lien|Unterland|de}}
+* {{lien|Vorland|de|sens=contrefort de montagne}}
+* {{lien|Zwischenland|de}}
+{{)}}
+{{(|}}
+* {{lien|Burgenland|de|sens=état du Burgenland (en Autriche)}}
+* {{lien|Buchenland|de}}
+* {{lien|Egerland|de}}
+* {{lien|Emsland|de}}
+* {{lien|Feuerland|de|sens=Terre de Feu}}
+* {{lien|Fischland|de}}
+* {{lien|Frankenland|de}}
+* {{lien|Gondwanaland|de}}
+* {{lien|Helgeland|de}}
+* {{lien|Helgoland|de}}
+* {{lien|Holland|de}}
+* {{lien|Jeverland|de}}
+* {{lien|Jiddischland|de}}
+* {{lien|Jordanland|de}}
+* {{lien|Jütland|de}}
+* {{lien|Kannenbäckerland|de}}
+* {{lien|Kurland|de}}
+* {{lien|Langeland|de}}
+* {{lien|Lappland|de}}
+* {{lien|Livland|de}}
+* {{lien|Memelland|de|sens=territoire de Memel}}
+* {{lien|Markgräfler Land|de}}
+* {{lien|Massailand|de}}
+* {{lien|Mondseeland|de}}
+* {{lien|Morgenland|de}}
+* {{lien|Moselland|de}}
+* {{lien|Münsterland|de|sens=région du Münsterland}}
+* {{lien|Musikantenland|de}}
+* {{lien|Naheland|de}}
+* {{lien|Neckarland|de}}
+* {{lien|Neufünfland|de}}
+* {{lien|Niederlande|de|sens=Pays-Bas}}
+* {{lien|Nilland|de}}
+* {{lien|Norderland|de}}
+* {{lien|Oderland|de}}
+* {{lien|Ostfriesland|de|sens=Frise orientale}}
+* {{lien|Pommerland|de}}
+* {{lien|Rheinland|de|sens=Rhénanie}}
+* {{lien|Sauerland|de|sens=région du Sauerland}}
+* {{lien|Schwabenland|de}}
+* {{lien|Seeland|de}}
+* {{lien|Somaliland|de}}
+* {{lien|Sorbenland|de}}
+* {{lien|Stiftland|de}}
+* {{lien|Sudetenland|de}}
+* {{lien|Szeklerland|de}}
+* {{lien|Vogtland|de}}
+* {{lien|Voralpenland|de}}
+* {{lien|Waadtland|de}}
+* {{lien|Waterland|de}}
+* {{lien|Welschland|de}}
+* {{lien|Zululand|de}}
+* {{lien|Zweistromland|de}}
+* {{lien|Keltenland|de}}
+{{)}}
+{{(|}}
+* {{lien|Abbauland|de}}
+* {{lien|Ackerland|sens=terre labourable », « terrain agricole}}
+* {{lien|Artland|de}}
+* {{lien|Auenland|de}}
+* {{lien|Bauernland|de}}
+* {{lien|Bauerwartungsland|de}}
+* {{lien|Bauland|de}}
+* {{lien|Blockland|de}}
+* {{lien|Bodenreformland|de}}
+* {{lien|Brachland|sens=zone de friche », « jachère}}
+* {{lien|Buschland|de}}
+* {{lien|Deichland|de}}
+* {{lien|Dschungelland|de}}
+* {{lien|Dünenland|de}}
+* {{lien|Elfenland|de}}
+* {{lien|Engelland|de}}
+* {{lien|Ersatzland|de}}
+* {{lien|Fabelland|de}}
+* {{lien|Fantasieland|de}}
+* {{lien|Farmland|de}}
+* {{lien|Feenland|de}}
+* {{lien|Felsenland|de}}
+* {{lien|Fjordland|de}}
+* {{lien|Freiland|de}}
+* {{lien|Fruchtland|de}}
+* {{lien|Gartenland|de}}
+* {{lien|Gebirgsland|de}}
+* {{lien|Geestland|de}}
+* {{lien|Grabeland|de}}
+* {{lien|Grasland|de|sens=prairie}}
+* {{lien|Grünland|de}}
+* {{lien|Heideland|de}}
+* {{lien|Herzland|de}}
+* {{lien|Holzland|de}}
+* {{lien|Hopfenland|de}}
+* {{lien|Hügelland|de}}
+* {{lien|Indianerland|de}}
+* {{lien|Karstland|de}}
+* {{lien|Kornland|de}}
+* {{lien|Markland|de}}
+* {{lien|Marschland|de}}
+* {{lien|Moorland|de}}
+* {{lien|Nutzland|de}}
+* {{lien|Ödland|de}}
+* {{lien|Pachtland|de}}
+* {{lien|Parkland|de}}
+* {{lien|Plantagenland|de}}
+* {{lien|Rebland|de}}
+* {{lien|Regenwaldland|de}}
+* {{lien|Rodeland|de}}
+* {{lien|Rottland|de}}
+* {{lien|Schattenland|de}}
+* {{lien|Schlaraffenland|de}}
+* {{lien|Schneeland|de}}
+* {{lien|Schwemmland|de}}
+* {{lien|Seenland|de}}
+* {{lien|Siedlungsland|de|sens=terre à coloniser}}
+* {{lien|Sietland|de}}
+* {{lien|Spieleland|de}}
+* {{lien|Spielzeugland|de}}
+* {{lien|Steppenland|de}}
+* {{lien|Straßenland|de}}
+* {{lien|Sumpfland|de}}
+* {{lien|Tafelland|de}}
+* {{lien|Thermenland|de}}
+* {{lien|Unland|de}}
+* {{lien|Waldland|de}}
+* {{lien|Weideland|de}}
+* {{lien|Weinland|de}}
+* {{lien|Wiesenland|de}}
+* {{lien|Winterland|de}}
+* {{lien|Wirtschaftsland|de}}
+* {{lien|Wohnbauland|de}}
+* {{lien|Wohnland|de}}
+* {{lien|Wolkenland|de}}
+* {{lien|Zauberland|de}}
+* {{lien|Zwergenland|de}}
+{{)}}
+{{(|}}
+* {{lien|Eigenland|de}}
+* {{lien|Gemeindeland|de}}
+* {{lien|Gemeinschaftsland|de}}
+* {{lien|Kirchenland|de}}
+* {{lien|Privatland|de|sens=terrain privé}}
+* {{lien|Staatsland|de}}
+* {{lien|Stammesland|de}}
+{{)}}
+
+==== {{S|dérivés}} ====
+{{(|&nbsp;}} 
+* {{lien|Baulandsteuer|de|sens=impôt foncier}}
+* {{lien|EU-Mitgliedsland|de|sens=pays membre de l'UE}}
+* {{lien|Festland|de|sens=terre ferme}}
+* {{lien|Gelände|de|sens=terrain}}
+* {{lien|Kinderlandverschickung|de|sens=envoi d'enfants à la campagne}}
+* {{lien|Kiwiland|de|sens=nouvelle-Zélande}}
+* {{lien|Land unter|de|sens=zone de submersion}}
+* {{lien|Landadel|de|sens=noblesse campagnarde}}
+* {{lien|Landammann|de|sens=président de gouvernement cantonal}}
+* {{lien|Landarbeit|de|sens=travail des champs}}
+* [[Landarbeiter]] (''ouvrier agricole''), [[Landarbeiterin]] (ouvrière agricole'')
+* {{lien|Landarmee|de|sens=armée de terre}}
+* {{lien|Landarzt|de}} ou {{lien|Landärztin|de|sens= médecin de campagne}}* {{lien|Landaufenthalt|de}}
+* {{lien|Landbau|de}}
+* {{lien|Landbeschäler|de}}
+* {{lien|Landbesitz|de|sens=domaine rural}}
+* {{lien|Landbesitzer|de}} ou {{lien|Landbesitzerin|de|sens= propriétaire terrien}}* {{lien|Landbevölkerung|de|sens=population rurale}}
+* [[Landbewohner]] (''campagnard''), [[Landbewohnerin]] (''campagnarde'')
+* {{lien|Landbriefträger|de|sens=facteur rural}}
+* {{lien|Landbrot|de}}
+* {{lien|Landeanflug|de|sens=amorce d'atterrissage}}
+* {{lien|Landebahn|de|sens=piste d'atterrissage}}
+* {{lien|Landeerlaubnis|de|sens=autorisation d'atterrir}}
+* {{lien|Landei|de|sens=œuf de ferme}}
+* {{lien|landeinwärts|de|sens=à l'intérieur des terres}}
+* {{lien|Landeklappe|de|sens=volet de freinage}}
+* {{lien|landen|sens=atterrir », « accoster}}
+* {{lien|Landenge|de|sens=isthme}}
+* {{lien|Landepiste|de|sens=piste d'atterrissage}}
+* {{lien|Landeplatz|de|sens=terrain d'atterrissage}}
+* {{lien|Länderchef|de|sens=chef du gouvernement d'un État}}
+* {{lien|Landerei|sens=terre », « propriété foncière}}
+* {{lien|Länderfinanzausgleich|de|sens=péréquation financière entre les Länder}}
+* {{lien|Ländergrenze|de|sens=frontière nationale}}
+* {{lien|Länderkampf|de|sens=compétition sportive internationale}}
+* {{lien|Ländername|de|sens=nom de pays}}
+* {{lien|Länderrating|de|sens=notation par pays}}
+* {{lien|Länderrisiko|de|sens=risque pays}}
+* {{lien|Ländersache|de|sens=ressort des Länder}}
+* {{lien|Länderspiel|de|sens=rencontre sportive internationale}}
+* {{lien|länderübergreifend|de}}
+* {{lien|Landerziehungsheim|de|sens=maison d'éducation rurale}}
+* {{lien|Landesamt|de|sens=administration nationale}}
+* {{lien|Landesanwaltschaft|de|sens=ministère public du pays}}
+* {{lien|Landesarchiv|sens=archives d'un Land », « archives nationales}}
+* {{lien|Landesärztekammer|de|sens=ordre national des médecins}}
+* {{lien|Landesaufnahme|de|sens=relevé topographique national}}
+* {{lien|Landesbank|de|sens=banque régionale}}
+* {{lien|Landesbewohner|sens=résident du pays », « habitant du pays}}
+* {{lien|Landesbibliothek|de|sens=bibliothèque nationale}}
+* {{lien|Landesdurchschnitt|de|sens=moyenne nationale}}
+* {{lien|Landesebene|de|sens=ressort des Länder}}
+* {{lien|Landesfarben|de|sens=couleurs nationales}}
+* {{lien|Landesfeuerwehrkommando|de}}
+* {{lien|Landesfeuerwehrverband|de}}
+* {{lien|Landesgremium|de}}
+* {{lien|Landesgrenze|sens=frontière », « limite}}
+* {{lien|Landeshauptmann|sens=gouverneur du Land », « gouverneur provincial}}
+* {{lien|Landeshauptstadt|de|sens=capitale du Land}}
+* {{lien|Landeshaushalt|de|sens=budget du pays}}
+* {{lien|Landesherr|de|sens=souverain}}
+* {{lien|Landesinneres|de|sens=intérieur du pays}}
+* {{lien|Landesinnung|de}}
+* {{lien|Landeskasse|de|sens=trésor public}}
+* {{lien|Landeskenner|sens=spécialiste du pays », « connaisseur du pays}}
+* {{lien|Landeskind|de}}
+* {{lien|Landeskirche|de|sens=église nationale}}
+* {{lien|Landeskommandantur|de}}
+* {{lien|Landeskriminalamt|de|sens=direction nationale de la police judiciaire}}
+* {{lien|Landesküche|de|sens=cuisine nationale}}
+* {{lien|Landeskultur|de|sens=culture nationale}}
+* {{lien|Landeskunde|de|sens=civilisation}}
+* {{lien|Landesname|sens=nom de pays », « nom du pays}}
+* {{lien|Landesparteitag|de|sens=congrès national du parti}}
+* {{lien|Landespatron|de|sens=saint patron du pays}}
+* {{lien|Landespokal|de|sens=coupe nationale}}
+* {{lien|Landespolitik|de|sens=politique nationale}}
+* {{lien|Landespolitiker|de|sens=politicien national}}
+* {{lien|Landespolizei|de|sens=police d'un Land}}
+* {{lien|Landesrat|de|sens=conseiller régional (en Autriche)}}
+* {{lien|Landesrecht|sens=droit du pays », « droit national}}
+* {{lien|Landesrekord|de|sens=record national}}
+* {{lien|Landessanitätsdirektion|de}}
+* {{lien|Landessteuer|de|sens=impôt régional}}
+* {{lien|Landesteil|de|sens=partie de pays}}
+* {{lien|Landestheater|de}}
+* {{lien|Landesverband|de|sens=fédération nationale}}
+* {{lien|Landesverrat|de|sens=trahison de la patrie}}
+* {{lien|Landesverteidigung|de|sens=défense nationale}}
+* {{lien|Landeswährung|de|sens=monnaie nationale}}
+* {{lien|landesweit|sens=qui concerne le pays », « à l'échelle du pays}}
+* {{lien|Landflucht|de|sens=exode rural}}
+* {{lien|Landfracht|de}}
+* {{lien|Landfrau|sens=campagnarde », « paysanne}}
+* {{lien|landfremd|de}}
+* {{lien|Landfrieden|de}}
+* {{lien|Landgang|de}}
+* {{lien|Landgasthof|de|sens=auberge rurale}}
+* {{lien|Landgemeinde|de|sens=commune rurale}}
+* {{lien|Landgericht|de|sens=tribunal régional}}
+* {{lien|Landgewinnung|sens=gain de terres », « poldérisation}}
+* {{lien|Landgraf|de}} ou {{lien|Landgrafin|de|sens= landgrave}}* {{lien|Landhaus|de|sens=maison de campagne}}
+* {{lien|Landheer|de|sens=armée de terre}}
+* {{lien|Landheim|de|sens=foyer rural}}
+* {{lien|Landhoheit|de|sens=souveraineté}}
+* {{lien|Landhotel|de|sens=hôtel rural}}
+* {{lien|Ländjager|de|sens=gendarme à pied}}
+* {{lien|Landjugend|de}}
+* {{lien|Landkarte|de|sens=carte géographique}}
+* {{lien|Landkauf|de|sens=achat de terres}}
+* {{lien|Landkonflikt|de|sens=conflit territorial}}
+* {{lien|Landkreis|sens=district », « canton}}
+* {{lien|Landkrieg|de|sens=guerre terrestre}}
+* {{lien|landläufig|sens=consacré », « généralement admis}}
+* {{lien|Ländle|de}}
+* {{lien|Landleben|de|sens=vie champêtre}}
+* {{lien|Ländler|de|sens=valse lente}}
+* {{lien|Landleute|de|sens=campagnards}}
+* {{lien|ländlich|sens=champêtre », « rural(e)}}
+* {{lien|landlos|de|sens=sans terre}}
+* {{lien|Landluft|de|sens=air de la campagne}}
+* {{lien|Landmacht|de|sens=puissance continentale}}
+* {{lien|Landmann|de|sens=campagnard}}
+* {{lien|Landmaschine|de|sens=machine agricole}}
+* {{lien|Landmine|de|sens=mine terrestre}}
+* {{lien|Landnahme|de}}
+* {{lien|Landpartie|sens=partie de campagne », « excursion}}
+* {{lien|Landpfarrer|de|sens=curé de campagne}}
+* {{lien|Landplage|de|sens=fléau public}}
+* {{lien|Landpomeranze|de|sens=péquenaud(e)}}
+* {{lien|Landrat|sens=parlement cantonal », « chef de district}}
+* {{lien|Landratte|sens=marin d'eau douce », « terrien}}
+* {{lien|Landraub|de|sens=vol de terres}}
+* {{lien|Landregen|de|sens=pluie persistante}}
+* {{lien|Landreise|de|sens=voyage terrestre}}
+* {{lien|Landreiter|de|sens=gendarme à cheval}}
+* {{lien|Landrücken|de}}
+* {{lien|Landsasse|de}}
+* {{lien|Landsäuger|de}}
+* {{lien|Landsäugetier|de|sens=mammifère terrestre}}
+* {{lien|Landschaft|sens=paysage », « région}}
+* {{lien|Landschildkröte|de|sens=tortue terrestre}}
+* {{lien|Landschreiber|de}}
+* {{lien|Landschule|de|sens=école rurale}}
+* {{lien|Landschulheim|de|sens=maison d'éducation rurale}}
+* {{lien|Landseite|de}}
+* {{lien|landseits|de}}
+* {{lien|Landsitz|de|sens=domaine}}
+* {{lien|Landsknecht|de|sens=lansquenet}}
+* {{lien|Landsleute|de|sens=compatriotes}}
+* {{lien|Landsmann|de}} ou {{lien|Landsmännin|de|sens=  compatriote}}* {{lien|Landsmannschaft|de|sens=association patriotique}}
+* {{lien|Landspitze|de|sens=pointe de terre}}
+* {{lien|Landstadt|de|sens=ville moyenne}}
+* {{lien|Landstände|de|sens=états provinciaux}}
+* {{lien|Landstraße|sens=chaussée », « grand-route}}
+* {{lien|Landstreicher|de|sens=vagabond}}
+* {{lien|Landstreifen|de|sens=bande de terre}}
+* {{lien|Landstreitmacht|de|sens=armée de terre}}
+* {{lien|Landstreitkraft|de|sens=armée de terre}}
+* {{lien|Landstrich|de|sens=portion de territoire}}
+* {{lien|Landstück|de|sens=parcelle de terrain}}
+* {{lien|Landsturm|de|sens=armée territoriale}}
+* {{lien|Landtag|sens=parlement d'un Land », « diète}}
+* {{lien|Landtechnik|de}}
+* {{lien|Landteil|de}}
+* {{lien|Landtier|de|sens=animal terrestre}}
+* {{lien|Landtracht|de|sens=costume national}}
+* {{lien|landüblich|de|sens=usité dans le pays}}
+* {{lien|Landung|de|sens=atterrissage}}
+* {{lien|Landurlaub|de|sens=congés à terre}}
+* {{lien|Landvater|de|sens=souverain}}
+* {{lien|Landvermessung|de|sens=arpentage}}
+* {{lien|Landverrat|de|sens=haute trahison}}
+* {{lien|Landverräter|de|sens=traître à la patrie}}
+* {{lien|Landverräterisch|de|sens=traître à la patrie}}
+* {{lien|Landvogt|sens=bailli », « métayer}}
+* {{lien|Landvolk|de|sens=peuple de la campagne}}
+* {{lien|landwärts|de|sens=vers la terre}}
+* {{lien|Landweg|de|sens=voie terrestre}}
+* {{lien|Landwehr|de|sens=réserve de l'armée}}
+* {{lien|Landwein|de|sens=vin de pays}}
+* {{lien|Landwind|sens=vent de terre », « vent terrestre}}
+* [[Landwirt]] (''agriculteur''), [[Landwirtin]] (''agricultrice'')
+* {{lien|Landwirtschaft|de|sens=agriculture}}
+* {{lien|Landzunge|de|sens=langue de terre}}
+* {{lien|Landzuteilung|de|sens=attribution de terres}}
+* {{lien|Reichsland|de|sens=empire allemand}}
+* {{lien|V4-Land|de|sens=groupe de Visegrád}}
+{{)}}
+
+==== {{S|phrases}} ====
+* {{lien|aus aller Herren Länder|de|dif=aus aller Herren ''Länder''}}
+* {{lien|das Gelobte Land|de|dif=das ''Gelobte'' Land}}
+* {{lien|das Heilige Land|de|dif=das ''Heilige'' Land}}
+* {{lien|das Land, wo Milch und Honig fließt|de|dif=das ''Land'', wo Milch und Honig fließt}}
+* {{lien|in aller Herren Länder|de|dif=in aller Herren ''Länder''}}
+* {{lien|ins Land gehen|de|dif=ins ''Land'' gehen}}
+* {{lien|Land der aufgehenden Sonne|de|dif=''Land'' der aufgehenden Sonne}}
+* {{lien|Land der tausend Seen|de|dif=''Land'' der tausend Seen}}
+* {{lien|Land der unbegrenzten Möglichkeiten|de|dif=''Land'' der unbegrenzten Möglichkeiten}}
+* {{lien|Land der Verheißung|de|dif=''Land'' der Verheißung}}
+* {{lien|Land gewinnen|de|dif=''Land'' gewinnen}}
+* {{lien|Land in Sicht!|de|dif=''Land'' in Sicht!}}
+* {{lien|Land unter!|de|dif=''Land'' unter!}}
+* {{lien|mit dem Hut in der Hand kommt man durchs ganze Land|de|dif=mit dem Hut in der Hand kommt man durchs ganze ''Land''}}
+* {{lien|über Land|de|dif=über ''Land''}}
+* {{lien|Unschuld vom Lande|de|dif=Unschuld vom ''Lande''}}
+* {{lien|wer den Dichter will verstehe|de}}
+* {{lien|muss in Dichters Lande gehen|de|dif=wer den Dichter will verstehe}}
+* {{lien|muss in Dichters ''Lande'' gehen|de}}
+* {{lien|wieder im Land sein|de|dif=wieder im ''Land'' sein}}
+* {{lien|zusehen, dass jemand Land gewinnt|de|dif=zusehen, dass jemand ''Land'' gewinnt}}
+
+=== {{S|prononciation}} ===
+* {{écouter|Berlin (Allemagne)|lant|lang=de|audio=De-Land2.ogg}}
+* {{écouter|{{DE|nocat=1}}|lant|lang=de|audio=De-Land.ogg}}
+
+=== {{S|références}} ===
+<references />
+
+==== {{S|sources}} ====
+* {{R:Duden|Land}}
+* {{R:DWDS|Land}}
+
+* {{Source-wikt|de|Land}}
+
+==== {{S|bibliographie}} ====
+* Larousse - Dictionnaire allemand/français – français/allemand , édition 1958, page 579.
+* Harrap’s – Bordas Dictionnaire allemand/français, édition 1997, page 183.
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=de}}
+
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|nom|gsw-fr}} ===
+'''Land'''
+# [[campagne|Campagne]], [[champ]], [[contrée]], [[pays]], [[terre]] 
+#* ''Unser '''Land''''' : (litt. Notre pays) Parti régional alsacien.

@@ -1,0 +1,37 @@
+{{voir|witz}}
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|gmh|de|mot=witz}}, apparenté à ''{{lien|wissen|de}}'', à l’anglais ''{{lien|wit|en}}''.
+
+=== {{S|nom|de}} ===
+{{de-nom-m-s-e|gs=Witzes|np=Witze}}
+'''Witz''' {{pron|vɪt͡s|de}} {{m}}
+# [[mot d’esprit#fr|Mot d’esprit]].
+#* {{exemple|lang=de}}
+# [[blague|Blague]], [[plaisanterie]].
+#* {{exemple|Er kennt sehr gute '''Witze'''.|lang=de|sens=Il connaît de très bonnes blagues.}}
+#* {{exemple|Natürlich ist ein Krieg kein '''Witz''', aber im Krieg kann '''Witz''' eine Waffe sein.|lang=de|sens=Bien sûr, la guerre n'est pas une plaisanterie, mais en temps de guerre, l'humour peut être une arme. |source={{périodique|auteur=Christian Vooren|titre=Russische Witzfiguren|journal=Zeit Online|date=14 septembre 2022|texte=https://www.zeit.de/gesellschaft/zeitgeschehen/2022-09/ukraine-krieg-russland-soldaten-moral-5vor8}}}}
+#* {{exemple|Was, Detlef ist befördert worden? Ohne '''Witz'''? Da bin ich ehrlich gesagt baff.|lang=de|sens=Quoi, Detlef a été promu ? Sans blague? Je suis abasourdi pour être honnête.}}
+# [[esprit|Esprit]], vivacité dans la réflexion.
+#* {{exemple|lang=de}}
+
+==== {{S|synonymes}} ====
+* [[Scherz]] (''plaisanterie'')
+
+==== {{S|apparentés}} ====
+* {{lien|gewitzt|de|sens=finaud, rusé}}
+
+=== {{S|prononciation}} ===
+* {{écouter|Berlin|vɪt͡s|lang=de|audio=De-Witz.ogg}}
+
+== {{langue|gsw-fr}} ==
+
+=== {{S|étymologie}} ===
+: Voir l’{{étyl|de|gsw-fr|mot=Witz}}.
+
+=== {{S|nom|gsw-fr}} ===
+'''Witz'''
+# [[blague|Blague]].
+
+[[Catégorie:Lexique en allemand de l’humour]]
+[[Catégorie:Lexique en alémanique alsacien de l’humour]]

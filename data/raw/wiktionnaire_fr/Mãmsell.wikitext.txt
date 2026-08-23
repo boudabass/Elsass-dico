@@ -1,0 +1,11 @@
+{{voir|Mamsell|Mãmsell}}
+
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|fr|gsw-fr|mam’zelle}}.
+
+=== {{S|nom|gsw-fr}} ===
+'''Mãmsell''' {{f}}
+# [[mademoiselle#fr|Mademoiselle]].
+
+{{clé de tri|mamsell}}

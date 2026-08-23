@@ -1,0 +1,9 @@
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|nom|gsw-fr}} ===
+'''Wählerlista''' {{pron||gsw-fr}}
+# [[liste électorale|Liste électorale]].
+
+{{clé de tri|wahlerlista}}

@@ -1,0 +1,38 @@
+{{voir|bindé|Bindé|Binde}}
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|verbe|gsw-fr}} ===
+'''binde'''
+# [[lier|Lier]], [[relier]]
+
+== {{langue|de}} ==
+=== {{S|verbe|de|flexion}} ===
+'''binde''' {{pron|ˈbɪndə|de}}
+# ''Deuxième personne du singulier de l’impératif présent de'' {{lien|binden|de}}.
+# ''Première personne du singulier du présent de l’indicatif de'' {{lien|binden|de}}.
+# ''Première personne du singulier du subjonctif présent I de'' {{lien|binden|de}}.
+# ''Troisième personne du singulier du subjonctif présent I de'' {{lien|binden|de}}.
+
+=== {{S|prononciation}} ===
+* {{écouter|Berlin|ˈbɪndə|lang=de|audio=De-binde.ogg}}
+
+== {{langue|da}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|da}}
+
+=== {{S|verbe|da}} ===
+'''binde'''
+# [[attacher|Attacher]], [[nouer]], [[relier]].
+
+[[Catégorie:Verbes forts en danois]]
+
+== {{langue|it}} ==
+=== {{S|nom|it|flexion}} ===
+{{it-flexion|f=ae|ˈbin.d}}
+'''binde''' {{pron|ˈbin.de|it}} {{f}}
+# ''Pluriel de'' [[binda#it|binda]].
+
+=== {{S|anagrammes}} ===
+{{voir anagrammes|it}}

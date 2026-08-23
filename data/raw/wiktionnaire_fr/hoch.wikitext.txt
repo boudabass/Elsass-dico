@@ -1,0 +1,380 @@
+{{voir|hocʼh}}
+
+== {{langue|fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|fr}}
+
+=== {{S|nom|fr}} ===
+'''hoch''' {{pron||fr}} {{m}} {{pluriel ?|fr}}
+# {{vieilli|fr}} {{rare|fr}} Nom d'un [[jeu]] de [[ballon]] où les joueurs sont massés en deux groupes qui se renvoient le ballon.
+#* {{exemple | lang=fr
+ | Le '''hoch''' est un jeu donnant beaucoup d'agitation. Les joueurs se partagent en deux camps égaux en nombre. Un des joueurs d'un camp, saisissant un ballon en caoutchouc, le lance en l'air, de manière qu'il retombe sur ses camarades de l'autre groupe postés à quelques mètres de là. Tous les enfants crient alors “Hoch ! hoch !” Le ballon va d'un camp à l'autre, et c'est à qui trouvera le moyen de le lancer. Inutile d'ajouter que les joueurs se bousculent quelquefois pour renvoyer le ballon, et que les deux camps se trouvent réunis.
+ | source=Auguste Omont, ''Les jeux de l'enfance à l'école et dans la famille'', I{{e|re}} partie, chapitre {{1er}}, § 16 ; Librairie classique internationale A. Fouraut, Paris, 1894, page 19}}
+
+==== {{S|traductions}} ====
+{{trad-début}}
+{{trad-fin}}
+
+== {{langue|fro}} ==
+=== {{S|nom|fro}} ===
+'''hoch''' {{pron-recons||fro}} {{m}}
+# {{variante de|hoc|fro}}.
+
+=== {{S|références}} ===
+* {{R:Godefroy|hoc}}
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|goh|de|mot=hoh|dif=hōh}}.
+
+=== {{S|adjectif|de}} ===
+{{de-adj|hoch|höher|am [[höchsten]]}}
+'''hoch''' {{pron|hoːx|de}}
+# [[haut|Haut]].
+#* {{exemple | lang=de | Ein '''hoher''' Berg.}}
+#* {{exemple|Alexander von Humboldt war in ganz Europa berühmt wegen einer Expedition in die Tropen, die er fünfundzwanzig Jahre zuvor unternommen hatte. Er (...) hatte den natürlichen Kanal zwischen Orinoko und Amazonas entdeckt, den '''höchsten''' Berg der bekannten Welt bestiegen, Tausende Pflanzen und Hunderte Tiere, manche lebend, die meisten tot, gesammelt (...)|lang=de|sens=Alexander von Humboldt était célèbre dans l’Europe entière grâce à une expédition dans les tropiques qu’il avait faite vingt-cinq ans plus tôt. Il (...) avait découvert le canal naturel entre l’Orénoque et l’Amazone, gravi la plus haute montagne du monde connu, recueilli des milliers de plantes et des centaines d’animaux, vivants pour certains, morts pour la plupart,|source={{ouvrage|auteur={{w|Daniel Kehlmann}}|titre=Die Vermessung der Welt|année=2005|éditeur=Rohwolt|url=}}}}
+#* {{exemple|Curryblätter stammen von einem 4 bis 6 m '''hohen''' Baum mit einer 4 m breiten Krone. Die Blätter sind eiförmig und auf der Unterseite heller als auf der dunkelgrünen Oberseite.|lang=de|sens=Les feuilles de curry proviennent d’un arbre de 4 à 6 mètres de haut avec une couronne de 4 mètres de large. Les feuilles sont ovales et plus claires sur la face inférieure que sur la face supérieure vert foncé.|source={{périodique|auteur=Klaus-Maria Einwanger|titre=Curryblätter|journal=Küchengötter|date=12 mai 2024|texte=https://www.kuechengoetter.de/warenkunde/curryblaetter}}}}
+# [[élevé|Élevé]].
+#* {{exemple|'''hohe''' Temperaturen|lang=de|sens=températures élevées}}
+#* {{exemple|Testosteron ist ein Hormon, das bei Männern und Frauen vorkommt, bei Männern aber in viel '''höherer''' Dosierung.|lang=de|sens=La testostérone est une hormone présente chez les hommes et les femmes, mais à des doses beaucoup plus élevées chez les hommes.|source={{périodique|auteur=Simeon Koch et Frank Sommer|titre=»Testosteronkiller Nummer eins ist Zucker«|journal=Süddeutsche Zeitung Magazin|date=23 janvier 2024|texte=https://sz-magazin.sueddeutsche.de/gesundheit/testosteron-zucker-ernaehrung-sexualitaet-libido-93557}}}}
+#* {{exemple|Fast zehn Jahre lang hat in dem Dorf Mazan bei Avignon ein Mann seine Frau sediert und zur Vergewaltigung angeboten. (...) Betäubt mit einem lebensgefährlich '''hoch''' dosierten Schlafmittel, ganz weg für ein paar Stunden. Wie im Koma.|lang=de|sens=Pendant près de dix ans, dans le village de Mazan près d'Avignon, un homme a mis sa femme sous sédatif et l’a proposée au viol. (...) Endormie avec un somnifère à haute dose qui mettait sa vie en danger, totalement absente pendant quelques heures. Comme dans le coma.|source={{périodique|auteur=Oliver Meiler|titre=Nein, die Angeklagten von Avignon waren keine Monster|journal=Süddeutsche Zeitung|date=29 novembre 2024|texte=https://www.sueddeutsche.de/meinung/pelicot-prozess-monster-videos-kommentar-lux.YUYtzaABF7aWyhdN63AYxt}}}}
+#* {{exemple|Griechenland wirbt jetzt um deutsche Rentner, die im Winter vor den '''hohen''' Heizkosten der Heimat entfliehen wollen. Doch es gibt dabei viele Haken.|lang=de|sens=La Grèce cherche désormais à attirer les retraités allemands qui souhaitent fuir les coûts de chauffage élevés de leur pays en hiver. Mais les inconvénients sont nombreux.|source={{périodique|auteur=Ferry Batzoglou|titre=Überwintern auf Kreta?|journal=taz|date=17 juillet 2022|texte=https://taz.de/Sonne-statt-Heizkosten/!5865464/}}}}
+# [[grand|Grand]].
+#* {{exemple | lang=de | 'hohes''' Alter}}
+# [[calé|Calé]].
+#* ''Das ist mir zu '''hoch'''!'' — (Es [[übersteigen|übersteigt]] meine [[geistig]]en [[Fähigkeit]]en.)
+#*: C’est trop calé pour moi !
+# [[important#fr|Important]].
+#* {{exemple|Die Unfallopfer forderten von der Unfallverursacherin einen '''hohen''' Schadenersatz.|lang=de|sens=Les victimes de l'accident ont exigé à la responsable de l'accident des dommages et intérêts importants.}}
+# Qui a un rang [[haut]].
+#* {{exemple|Ramsan Kadyrow, der ungehobelte Machthaber Tschetscheniens, warf einem '''hohen''' General militärisches Versagen vor.|lang=de|sens=Ramzan Kadyrov, le dirigeant grossier de la Tchétchénie, a accusé un général de haut rang d'avoir échoué sur le plan militaire.|source={{périodique|auteur=Inna Hartwich|titre=Realität trifft auf Kremlherrscher|journal=taz|date=04 octobre 2022|texte=https://taz.de/Russlands-Krieg-gegen-die-Ukraine/!5886050/}}}}
+# Aux bords hauts.
+#* {{exemple|Kokosöl in einer '''hohen''' Pfanne, einem Topf oder im Wok erhitzen. Den Tofu in mundgerechte Würfel schneiden und darin kurz anbraten. Die Frühlingszwiebeln und den Ingwer schälen und in kleine Stücke schneiden. Beides kurz mitbraten. Dann mit der Gemüsebrühe ablöschen. Kokosmilch, Sojasauce und Currypaste hinzufügen.|lang=de|sens=Chauffer l’huile de coco dans une poêle haute, une casserole ou un wok. Couper le tofu en cubes de la taille d’une bouchée et le faire revenir brièvement. Eplucher les oignons de printemps et le gingembre et les couper en petits morceaux. Faire revenir les deux brièvement. Mouiller ensuite avec le bouillon de légumes. Ajouter le lait de coco, la sauce soja et la pâte de curry.|source={{périodique|auteur=l_bowen|titre=Pikante vegane Thai-Suppe|journal=Chefkoch|date=12 août 2020|texte=https://www.chefkoch.de/rezepte/3886201591525396/Pikante-vegane-Thai-Suppe.html}}}}
+
+==== {{S|synonymes}} ====
+* {{lien|fein|de}}
+* {{lien|vornehm|de}}
+* {{lien|groß|de}}
+
+==== {{S|antonymes}} ====
+* {{lien|niedrig|de}}
+* {{lien|nieder|de}}
+* {{lien|tief|de}}
+
+==== {{S|hyponymes}} ====
+{{(|}}
+* {{lien|baumhoch|de}}
+* {{lien|berghoch|de}}
+* {{lien|brusthoch|de}}
+* {{lien|deckenhoch|de}}
+* {{lien|fingerhoch|de}}
+* {{lien|fußhoch|de}}
+* {{lien|halbhoch|de}}
+* {{lien|handhoch|de}}
+* {{lien|haushoch|de}}
+* {{lien|himmelhoch|de}}
+* {{lien|hüfthoch|de}}
+* {{lien|kniehoch|de}}
+* {{lien|knöchelhoch|de}}
+* {{lien|mannshoch|de}}
+* {{lien|meterhoch|de}}
+* {{lien|raumhoch|de}}
+* {{lien|schulterhoch|de}}
+* {{lien|turmhoch|de}}
+* {{lien|wadenhoch|de}}
+* {{lien|wandhoch|de}}
+* {{lien|ranghoch|de}}
+{{)}}
+
+==== {{S|dérivés}} ====
+{{(}}
+* {{lien|aufhöhen|de}}
+* {{lien|Dreikäsehoch|de|sens=haut comme trois pommes}}
+* {{lien|erhöhen|de}}
+* {{lien|Hoch|de}}
+* {{lien|hoch begabt|de}}
+* {{lien|hoch besteuert|de}}
+* {{lien|hoch bezahlt|de}}
+* {{lien|hoch dekoriert|de}}
+* {{lien|hoch dotiert|de}}
+* {{lien|hoch empfindlich|de}}
+* {{lien|hoch entwickelt|de}}
+* {{lien|hoch geachtet|de}}
+* {{lien|hoch geehrt|de}}
+* {{lien|hoch gelegen|de}}
+* {{lien|hoch geschätzt|de}}
+* {{lien|hoch industrialisiert|de}}
+* {{lien|hoch liegend|de}}
+* {{lien|hoch mechanisiert|de}}
+* {{lien|hoch qualifiziert|de}}
+* {{lien|hoch schätzen|de}}
+* {{lien|hoch stehend|de}}
+* {{lien|hoch technisiert|de}}
+* {{lien|hoch verschuldet|de}}
+* {{lien|hoch zivilisiert|de}}
+* {{lien|hochachten|de}}
+* {{lien|hochachtung|de}}
+* {{lien|Hochachtung|de}}
+* {{lien|hochachtungsvoll|de}}
+* {{lien|Hochadel|de}}
+* {{lien|hochaktuell|de}}
+* {{lien|Hochaltar|de}}
+* {{lien|Hochamt|de}}
+* {{lien|hochanständig|de}}
+* {{lien|Hochbau|de}}
+* {{lien|hochbeglückt|de}}
+* {{lien|hochbetagt|de}}
+* {{lien|Hochbetrieb|de}}
+* {{lien|Hochbett|de}}
+* {{lien|Hochblüte|de}}
+* {{lien|hochbringen|de}}
+* {{lien|Hochburg|de}}
+* {{lien|Hochdeutsch|de}}
+* {{lien|hochdeutsch|de}}
+* {{lien|Hochdruck|de}}
+* {{lien|Hochdruckgebiet|de}}
+* {{lien|Hochebene|de}}
+* {{lien|Hochehrwürden|de}}
+* {{lien|Hochenergiephysik|de}}
+* {{lien|hocherfreut|de}}
+* {{lien|hocherhoben|de}}
+* {{lien|hochfahrend|de}}
+* {{lien|hochfein|de}}
+* {{lien|hochfeudal|de}}
+* {{lien|Hochfinanz|de}}
+* {{lien|Hochfläche|de}}
+* {{lien|hochfliegend|de}}
+* {{lien|Hochflut|de}}
+* {{lien|Hochformat|de}}
+* {{lien|hochfrequent|de}}
+* {{lien|Hochfrequenz|de}}
+* {{lien|hochgebildet|de}}
+* {{lien|Hochgebirge|de}}
+* {{lien|Hochgefühl|de}}
+* {{lien|hochgehen|de}}
+* {{lien|hochgelehrt|de}}
+* {{lien|hochgemut|de}}
+* {{lien|Hochgenuss|de}}
+* {{lien|Hochgericht|de}}
+* {{lien|hochgeschossen|de}}
+* {{lien|hochgeschürzt|de}}
+* {{lien|hochgesinnt|de}}
+* {{lien|hochgespannt|de}}
+* {{lien|hochgestellt|de}}
+* {{lien|hochgestimmt|de}}
+* {{lien|hochgestochen|de}}
+* {{lien|hochgewachsen|de}}
+* {{lien|hochgiftig|de}}
+* {{lien|Hochglanz|de}}
+* {{lien|hochgradig|de}}
+* {{lien|hochhackig|de}}
+* {{lien|hochhalten|de}}
+* {{lien|Hochhaus|de}}
+* {{lien|hochheben|de}}
+* {{lien|hochherzig|de}}
+* {{lien|hochinfektiös|de}}
+* {{lien|hochintelligent|de}}
+* {{lien|hochinteressant|de}}
+* {{lien|Hochjagd|de}}
+* {{lien|hochkant|de}}
+* {{lien|hochkantig|de}}
+* {{lien|hochkarätig|de}}
+* {{lien|Hochkirche|de}}
+* {{lien|hochklappen|de}}
+* {{lien|hochkommen|de}}
+* {{lien|Hochkommissar|de}}
+* {{lien|Hochkonjunktur|de}}
+* {{lien|hochkonzentriert|de}}
+* {{lien|hochkultiviert|de}}
+* {{lien|Hochkultur|de}}
+* {{lien|hochladen|de}}
+* {{lien|hochlagern|de}}
+* {{lien|Hochland|de}}
+* {{lien|Hochländer|de}}
+* {{lien|hochländisch|de}}
+* {{lien|Hochlautung|de}}
+* {{lien|hochleben|de}}
+* {{lien|Hochleistung|de}}
+* {{lien|Hochleitung|de}}
+* {{lien|Hochmeister|de}}
+* {{lien|hochmodern|de}}
+* {{lien|hochmodisch|de}}
+* {{lien|hochmolekular|de}}
+* {{lien|Hochmoor|de}}
+* {{lien|Hochmut|de}}
+* {{lien|hochmütig|de}}
+* {{lien|hochnäsig|de}}
+* {{lien|Hochnäsigkeit|de}}
+* {{lien|hochnehmen|de}}
+* {{lien|hochnotpeinlich|de}}
+* {{lien|Hochofen|de}}
+* {{lien|Hochphase|de}}
+* {{lien|Hochplateau|de}}
+* {{lien|hochprozentig|de}}
+* {{lien|Hochprozentiges|de}}
+* {{lien|hochrangig|de}}
+* {{lien|hochrechnen|de}}
+* {{lien|Hochrechnung|de}}
+* {{lien|Hochrelief|de}}
+* {{lien|hochrot|de}}
+* {{lien|Hochruf|de}}
+* {{lien|Hochschätzung|de}}
+* {{lien|hochschauen|de}}
+* {{lien|Hochschule|de}}
+* {{lien|Hochschüler|de}}
+* {{lien|hochschwanger|de}}
+* {{lien|Hochsee|de}}
+* {{lien|Hochseil|de}}
+* {{lien|Hochsinn|de}}
+* {{lien|hochsinnig|de}}
+* {{lien|Hochsitz|de}}
+* {{lien|Hochsommer|de}}
+* {{lien|Hochspannung|de}}
+* {{lien|hochspielen|de}}
+* {{lien|Hochsprache|de}}
+* {{lien|hochsprachlich|de}}
+* {{lien|hochspringen|de}}
+* {{lien|Hochsprung|de}}
+* {{lien|höchst|de}}
+* {{lien|Hochstand|de}}
+* {{lien|Hochstapelei|de}}
+* {{lien|hochstapeln|de}}
+* {{lien|Hochstapler|de}}
+* {{lien|Höchstbelastung|de}}
+* {{lien|Höchstbietende|de}}
+* {{lien|höchsteigen|de}}
+* {{lien|hochstellen|de}}
+* {{lien|höchstens|de}}
+* {{lien|Höchstgeschwindigkeit|de}}
+* {{lien|Höchstgewicht|de}}
+* {{lien|Hochstift|de}}
+* {{lien|Hochstimmung|de}}
+* {{lien|Höchstleistung|de}}
+* {{lien|Höchstmaß|de}}
+* {{lien|höchstpersönlich|de}}
+* {{lien|Höchstpreis|de}}
+* {{lien|Höchstsatz|de}}
+* {{lien|Höchststrafe|de}}
+* {{lien|Hochstraße|de}}
+* {{lien|hochstrebend|de}}
+* {{lien|Höchststufe|de|sens=[[superlatif]] », « plus [[haut]] [[niveau]]}}
+* {{lien|höchstwahrscheinlich|de}}
+* {{lien|Höchstwert|de}}
+* {{lien|höchstzulässig|de}}
+* {{lien|Hochtal|de}}
+* {{lien|Hochtemperaturreaktor|de}}
+* {{lien|Hochton|de}}
+* {{lien|hochtönend|de}}
+* {{lien|hochtonig|de}}
+* {{lien|Hochtour|de}}
+* {{lien|hochtourig|de}}
+* {{lien|Hochtourist|de}}
+* {{lien|Hochtouristik|de}}
+* {{lien|hochtrabend|de}}
+* {{lien|hochtragen|de}}
+* {{lien|hochverehrt|de}}
+* {{lien|Hochverrat|de}}
+* {{lien|Hochverräter|de}}
+* {{lien|hochverräterisch|de}}
+* {{lien|hochverzinslich|de}}
+* {{lien|Hochwald|de}}
+* {{lien|Hochwasser|de}}
+* {{lien|hochwertig|de}}
+* {{lien|Hochwertigkeit|de}}
+* {{lien|Hochwild|de}}
+* {{lien|hochwillkommen|de}}
+* {{lien|hochwirbeln|de}}
+* {{lien|hochwirksam|de}}
+* {{lien|hochwohlgeboren|de}}
+* {{lien|Hochwürden|de}}
+* {{lien|Hochzahl|de}}
+* {{lien|Hochzeit|de}}
+* {{lien|Hochzeiter|de}}
+* {{lien|Hochzeiterin|de}}
+* {{lien|hochzeitlich|de}}
+* {{lien|hochziehen|de}}
+* {{lien|Hochzucht|de}}
+* {{lien|hochzüchten|de}}
+* {{lien|Hoffart|de}}
+* {{lien|Höhe|de}}
+* {{lien|hohe See|de}}
+* {{lien|Hoheit|de}}
+* {{lien|Höherstufe|de|sens=[[comparatif]]}}
+* {{lien|hohes Ross|de}}
+* {{lien|hohes Haus|de}}
+* {{lien|in den höchsten Tönen loben|de}}
+{{)}}
+
+==== {{S|vocabulaire}} ====
+* {{lien|höchst|de}}
+
+==== {{S|phrases}} ====
+* {{lien|hohe See|de|dif=''hohe'' See}}
+* {{lien|die Latte höher legen|de|dif=die Latte ''höher'' legen}}
+* {{lien|hohe Wellen schlagen|de|dif=''hohe'' Wellen schlagen}}
+* {{lien|hohes Ross|de|dif=''hohen'' Ross}}
+* {{lien|auf die hohe Kante legen|de|dif=auf die ''hohe'' Kante legen}}
+* {{lien|in den höchsten Tönen loben|de|dif=in den ''höchsten'' Tönen loben}}
+* {{lien|hohes Haus|de|dif=''hohes'' Haus}}
+* {{lien|das höchste der Gefühle|de|dif=das ''höchste'' der Gefühle}}
+* {{lien|es ist höchste Eisenbahn|de|dif=es ist ''höchste'' Eisenbahn}}
+* {{lien|es ist höchste Zeit|de|dif=es ist ''höchste'' Zeit}}
+* {{lien|Kopf hoch|de|dif=Kopf ''hoch''}}
+
+=== {{S|prononciation}} ===
+* {{écouter|Berlin (Allemagne)|hoːx|lang=de|audio=De-hoch2.ogg}}
+* {{écouter|{{DE|nocat=1}}|hoːx|lang=de|audio=De-hoch.ogg}}
+* {{écouter|Vienne (Autriche)|hoːx|lang=de|audio=De-at-hoch.ogg}}
+* {{écouter|{{DE|nocat=1}}|hoːx|lang=de|audio=LL-Q188 (deu)-Natschoba-hoch.wav}}
+
+=== {{S|références}} ===
+* {{R:DWDS|hoch}}
+
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|adjectif|gsw-fr}} ===
+'''hoch''' {{pron||gsw-fr}}
+# [[grand#fr|Grand]].
+
+=== {{S|prononciation}} ===
+* {{écouter|1=France (Alsace)|2=|lang=gsw-fr|audio=Gsw-oberelsässisch (Zìllesa)-hoch.oga}}
+
+== {{langue|cs}} ==
+=== {{S|étymologie}} ===
+: {{composé de|holý|sens1=chauve », ici au sens de « sans poil, imberbe|-och|lang=cs|m=1}}, d’où le féminin ''[[holka#cs|hol-ka]]'' (« fille »), voyez ''[[holobrádek]]'' (« blanc-bec »), ''[[holec#cs|holec]], [[holečku]]''.
+
+=== {{S|nom|cs}} ===
+{{cs-décl-nom-ma-dur-ch|rad=ho}}
+'''hoch''' {{pron||cs}} {{m|a}}
+# [[garçon|Garçon]], [[gosse]], [[gamin]], [[gars]].
+#* {{exemple | lang=cs
+ | Pospěšte, '''hoši''' s děvčaty,<br/>vše ku [[rej#cs|reji]],<br/>lesy vás uzří dojaty,<br/>se zasmějí.
+ | {{source|[[s:Deux chansons|Victor Hugo, ''Chanson de Grand-père''.]]}}
+ | source=Victor Hugo, ''[[s:cs:Píseň dědečka|Píseň dědečka]]'', traduction : Jaroslav Vrchlický}}
+# [[bien-aimé|Bien-aimé]], [[mec]], bon [[ami]].
+#* {{exemple | lang=cs
+ | Jen [[hvízdni]], můj '''hochu''', a budu tu hned.
+ | Siffle-moi, mon aimé, et j'arriverai sur le champ.
+ | source=Robert Burns, ''[[s:cs:Výbor z písní a ballad/Jen hvizdni, můj hochu|Jen hvizdni, můj hochu]]'', traduction : Josef Václav Sládek, 1892}}
+
+==== {{S|synonymes}} ====
+* {{lien|chlapec|cs}}
+* {{lien|kluk|cs}}
+
+==== {{S|dérivés}} ====
+* {{lien|hošan|cs}}
+* {{lien|hošík|cs}}
+
+==== {{S|apparentés}} ====
+* {{lien|holota|cs|sens=bande de garçons, troupe}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=cs}}
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=cs|tchèque|hox|audio=Cs-hoch.ogg}}
+
+=== {{S|références}} ===
+* {{R:DÉT}}

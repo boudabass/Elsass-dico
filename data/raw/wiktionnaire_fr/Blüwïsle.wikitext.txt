@@ -1,0 +1,6 @@
+== {{langue|gsw-fr}} ==
+=== {{S|nom|gsw-fr|flexion}} ===
+'''Blüwïsle'''
+# [[crayon|Crayons]], pluriel de [[Blüwïssel]]
+
+{{clé de tri|bluwïsle}}

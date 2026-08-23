@@ -1,0 +1,9 @@
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|prénom|gsw-fr|genre=m}} ===
+'''Bàsche''' {{pron||gsw-fr}} {{m}}
+# [[Sébastien]].
+
+{{clé de tri|basche}}

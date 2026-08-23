@@ -1,0 +1,50 @@
+{{voir/han}}
+
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|nom|gsw-fr}} ===
+'''hàn''' {{pron||gsw-fr}}
+# [[avoir|Avoir]] (verbe).
+
+==== {{S|synonymes}} ====
+* [[hà]] (auxiliaire avoir)
+
+== {{langue|vi}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|vi}}
+
+=== {{S|adjectif|vi}} ===
+'''hàn''' {{pron|han˧˨|vi}}
+# {{désuet|vi}} [[titulaire|Titulaire]] d’un [[titre]] [[académique]] de [[mandarinat]].
+# [[froid|Froid]].
+# [[rafraîchissant|Rafraîchissant]].
+# {{lexique|technique|vi}} [[souder|Souder]].
+# {{lexique|médecine|vi}} [[plomber|Plomber]] (une dent).
+#* {{exemple | lang=vi
+ | Mối '''hàn'''
+ | Soudure}}
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=vi|Nord du Viêt Nam (Hanoï)|han˧˨}}
+* {{écouter|lang=vi|Sud du Viêt Nam (Ho Chi Minh-Ville)|ɦaŋ˧˨}}
+
+==== {{S|paronymes}} ====
+* [[han]]
+* [[hán]]
+* [[hạn]]
+* [[hấn]]
+* [[hắn]]
+* [[hằn]]
+* [[hận]]
+* [[hẳn]]
+
+=== {{S|anagrammes}} ===
+* {{lien|nhà|vi}}
+
+
+=== {{S|références}} ===
+* {{R:FVDP}}
+
+{{clé de tri|han}}

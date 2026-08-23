@@ -1,0 +1,30 @@
+== {{langue|fr}} ==
+=== {{S|nom de famille|fr}} ===
+'''Schorsch''' {{pron||fr}}
+# Nom de famille d’origine germanique.
+
+==== {{S|variantes}} ====
+* [[Schorch]]
+
+==== {{S|apparentés}} ====
+{{cf|Georges|lang=fr}}
+
+=== {{S|voir aussi}} ===
+* {{Géopatro}}
+* {{Nomdefamille.eu}}
+
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|prénom|gsw-fr|genre=m}} ===
+'''Schorsch''' {{pron||gsw-fr}} {{m}}
+# [[Georges]].
+
+== {{langue|francique rhénan}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|francique rhénan}}
+
+=== {{S|prénom|francique rhénan|genre=m}} ===
+'''Schorsch''' {{pron||francique rhénan}} {{m}}
+# [[Georges]].

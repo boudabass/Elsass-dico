@@ -1,0 +1,7 @@
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|verbe|gsw-fr|flexion}} ===
+'''gsprickelt''' ''participe passé''
+# [[tacheté|Tacheté]], [[moucheté]]

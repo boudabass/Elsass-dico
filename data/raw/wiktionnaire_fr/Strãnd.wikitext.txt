@@ -1,0 +1,10 @@
+{{voir|strand|Strand}}
+{{vérifier création automatique||gsw-fr}}
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|nom|gsw-fr}} ===
+'''Strãnd'''
+# [[plage|Plage]], [[rive]]
+{{clé de tri|strand}}

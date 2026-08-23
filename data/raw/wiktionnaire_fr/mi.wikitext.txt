@@ -1,0 +1,894 @@
+{{voir/mi}}
+
+== {{langue|conv}} ==
+=== {{S|symbole|conv}} ===
+'''mi''' {{invar}}
+# {{lexique|linguistique|conv}} [[code|Code]] ISO 639-1 (alpha-2) du '''[[maori]]'''.
+
+=== {{S|numéral|conv}} ===
+'''mi'''
+# [[1001]], en [[chiffre romain|chiffres romains]] [[minuscule]]s.
+
+== {{langue|fr}} ==
+=== {{S|étymologie}} ===
+: Des premières syllabes des hémistiches en latin de l'''Hymne de Saint Jean-Baptiste'' du poète [[w:Paul Diacre|Paul Diacre]], choisies par [[w:Guido d’Arezzo|Guido d’Arezzo]] au {{siècle2|10}} siècle pour la dénomination des notes :
+::'''Ut''' queant laxis '''re'''sonare fibris.
+::'''Mi'''ra gestorum '''fa'''muli tuorum.
+::'''Sol'''ue polluti '''la'''bili reatum.
+::'''S'''ancti '''I'''ohannes.
+::'''Do'''mine.
+
+=== {{S|nom|fr}} ===
+{{fr-inv|mi}}
+{{do ré mi}}
+'''''mi''''' {{pron|mi|fr}} {{m}} {{invar}}
+# {{lexique|musique|fr}} [[note|Note]] de [[musique]], [[troisième]] [[son]] de la [[gamme]] [[naturelle]].
+# {{en particulier}} ''Mi'' de l’[[octave]] du milieu dans la [[gamme]] d’un [[instrument de musique]] par opposition à l’octave inférieure ou supérieure.
+#* {{exemple | lang=fr | La gamme en cornemuse : ''sol'' grave, ''la'' grave, ''si'', ''do'', ''ré'', '''''mi''''', ''fa'', ''sol'' aigu, ''la'' aigu.}}
+
+==== {{S|notes}} ====
+{{note-italique-musique}}
+
+==== {{S|dérivés}} ====
+{{(}}
+* [[mi dièse mineur|''mi'' dièse majeur]]
+* [[mi majeur|''mi'' majeur]]
+* [[mi mineur|''mi'' mineur]]
+{{)}}
+
+==== {{S|vocabulaire}} ====
+* {{voir thésaurus|fr|musique|unités de mesure}}
+{{notes/fr}}
+
+==== {{S|traductions}} ====
+{{trad-début}}
+* {{T|en}} : {{trad+|en|mi}} ''(mobile)'', {{trad+|en|E}} ''(fixe)''
+* {{T|zh}} : {{trad+|zh|角|tr=jiǎo}}
+* {{T|ko}} : {{trad+|ko|미|tr=mi}}
+* {{T|es}} : {{trad+|es|mi|m}}
+* {{T|ja}} : {{trad+|ja|ミ|tr=mi}} ''(mobile)'', {{trad+|ja|ホ|tr=mi}} ''(fixe)'', {{trad+|ja|E}}
+* {{T|oc}} : {{trad+|oc|mi}}
+* {{T|ru}} : {{trad+|ru|ми|tr=mi}}
+{{trad-fin}}
+
+=== {{S|prononciation}} ===
+* {{pron|mi|fr}}
+* {{écouter|lang=fr|France (Île-de-France)|mi|audio=Fr-Paris--mi.ogg}}
+* {{écouter|lang=fr|France (Vosges)||audio=LL-Q150 (fra)-Poslovitch-mi.wav}}
+* {{écouter|Saint-Laurent-de-Cerdans (France)||lang=fr|audio=LL-Q150 (fra)-Helenou66-mi.wav}}
+
+==== {{S|homophones|fr}} ====
+* [[mie]], [[mies]]
+* [[mis]], [[mit]], [[mît]] {{cf|lang=fr|mettre}}
+* [[mye]], [[myes]]
+
+=== {{S|voir aussi}} ===
+* {{WP}}
+
+=== {{S|références}} ===
+* {{Import:DAF8}}
+{{Références}}
+
+== {{langue|abi}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|abi}}
+
+=== {{S|nom|abi}} ===
+'''mi''' {{pron||abi}}
+# {{insectes|abi}} [[guêpe|Guêpe]].
+
+=== {{S|références}} ===
+* Moïse Adjèbè Aka, Émile Yédé N’guessan, Jonas N’guessan et Chantal Tresbarats, ''Syllabaire abidji'', Les Nouvelles Éditions africaines, Abidjan, collection « Je lis ma langue », 1984
+
+== {{langue|sq}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|indo-européen commun|sq}} {{recons|lang-mot-vedette=sq|[[Reconstruction:indo-européen commun/*muh₂s|muh₂s]]}} : apparenté au latin ''{{lien|mus|la}}'', à l'anglais ''{{lien|mouse|en}}''.
+
+=== {{S|nom|sq}} ===
+{{sq-nom-m|mi|def=miu|pl=minj|defpl=minjtë}}
+'''mi''' {{pron|ˈmi|sq}} {{m}}
+# {{mammifères|sq}} [[souris#fr|Souris]].
+
+=== {{S|références}} ===
+{{R:Orel1998|p=265}}
+
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|adjectif possessif|gsw-fr}} ===
+'''mi''' {{pron||gsw-fr}}
+# [[mon|Mon]], à [[moi]].
+
+== {{langue|mud}} ==
+{{voir autres systèmes|mud|мы}}
+=== {{S|étymologie}} ===
+: Du {{étyl|ru|mud|мы}}.
+
+=== {{S|pronom personnel|mud}} ===
+'''mi''' {{pron||mud}}
+# ''Pronom personnel sujet de la première personne du pluriel'', [[nous]].
+
+=== {{S|références}} ===
+* {{R:Sekerina|p=23}}
+
+== {{langue|aqd}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|aqd}}
+
+=== {{S|nom|aqd}} ===
+'''mi''' {{pron||aqd}}
+# [[eau#fr|Eau]].
+
+=== {{S|références}} ===
+* Roger Blench, ''[//www.rogerblench.info/Language/Niger-Congo/Dogon/Ampari%20Pa%20wordlist%20paper.pdf Ampari Pa, a Dogon language in Northern Mali and its affinities]'', p. 7, 2005
+
+== {{langue|fro}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|fro|mei}}, nominatif pluriel de ''{{lien|meus|la}}''.
+
+=== {{S|pronom|fro|flexion}} ===
+'''mi''' {{pron||fro}}
+# ''Cas sujet masculin pluriel de'' {{lien|mon|fro}} ; [[mes#fr|mes]].
+#* {{exemple | lang=fro
+ | '''mi''' parent leal
+ |
+ | source=''La Chanson de Guillaume'', [http://www.bl.uk/manuscripts/Viewer.aspx?ref=add_ms_38663_fs001r f. 20r., {{3e|ligne}}], manuscrit de la British Library}}
+
+== {{langue|en}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|it|en|mot=mi|sens=mi}}.
+
+=== {{S|nom|en}} ===
+'''mi''' {{pron|miː|en}}
+# {{lexique|musique|en}} {{m-cour}} [[mi#fr-nom-1|''Mi'']].
+# {{lexique|musique|en}} {{plus courant}} Troisième [[note]] d’un mode [[majeur]], cinquième note d’un mode [[mineur]].
+
+==== {{S|notes}} ====
+: Les sens 1 et 2 sont identiques seulement dans le [[do majeur|''do'' majeur]] et dans le [[la mineur|''la'' mineur]].
+
+==== {{S|vocabulaire}} ====
+{{notes de musique/en}}
+
+=== {{S|symbole|en}} ===
+'''mi''' {{pron||en}} {{invar}}
+# {{lexique|métrologie|en}} Symbole du [[mile]] ([[mille]]).
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=en|États-Unis <!-- précisez svp la ville ou la région -->||audio=En-us-mi.ogg}}
+
+==== {{S|homophones|en}} ====
+* [[me#en|me]]
+
+== {{langue|awm}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|awm}}
+
+=== {{S|nom|awm}} ===
+'''mi''' {{pron||awm}}
+# {{insectes|awm}} [[pou#fr|Pou]].
+
+=== {{S|références}} ===
+* Johannes A. Z’Graggen, ''[https://web.archive.org/web/20121017062357/http://www.papuaweb.org/dlib/bk/pl/C38/02-8-2.pdf The Madang-Adelbert Range Sub-Phylum]'', page 602, 1975
+
+== {{langue|brm}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|brm}}
+
+=== {{S|nom|brm}} ===
+'''mazambura''' {{pron||brm}}
+# {{félins|brm}} [[lion#fr|Lion]].
+
+=== {{S|références}} ===
+* {{R:Brugger1912|page=77}}
+
+== {{langue|basco-islandais}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|basco-islandais}}
+
+=== {{S|pronom personnel|basco-islandais}} ===
+'''mi''' {{pron-recons||basco-islandais}}
+# [[moi|Moi]].
+
+=== {{S|pronom possessif|basco-islandais}} ===
+'''mi''' {{pron-recons||basco-islandais}}
+# [[mon|Mon]], [[ma]].
+#* {{exemple|lang=basco-islandais|Bocata for '''mi''' attora.|Nettoie ma chemise.|source ={{R:Hualde1991|p=129}}}}
+
+=== {{S|références}} ===
+* {{R:Hualde1991|p=129}}
+
+== {{langue|bi}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|en|bi|mot=me}}.
+
+=== {{S|pronom personnel|bi}} ===
+'''mi''' {{pron||bi}}
+# [[je|Je]], [[moi]] (pronom de la première [[personne]] du [[singulier]]).
+
+==== {{S|vocabulaire}} ====
+{{pronoms personnels/bi}}
+
+== {{langue|kea}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|kea}}
+
+=== {{S|pronom personnel|kea}} ===
+'''mi''' {{pron||kea}}
+# {{badiais}} Pronom personnel sujet de la première personne du singulier du verbe ''{{lien|sér|kea}}'' : [[je]]. {{usage}} il précède le verbe.
+# {{badiais}} Pronom de la première personne du singulier utilisé après la préposition ''{{lien|pa|kea}}'' (« pour ») : [[moi]].
+
+==== {{S|vocabulaire}} ====
+{{pronoms personnels/kea}}
+
+=== {{S|références}} ===
+* {{R:Quint|p=xxi}}
+
+== {{langue|gcf}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gcf}}
+
+=== {{S|verbe|gcf}} ===
+'''mi''' {{pron||gcf}}
+# [[voici#fr|Voici]], [[voilà]].
+#* {{exemple|lang=gcf}}
+
+=== {{S|adjectif exclamatif|gcf}} ===
+'''mi''' {{pron||gcf}}
+# [[quel#fr|Quel]], employé pour renforcer la portée du nom qu’il accompagne.
+#* {{exemple|lang=gcf}}
+{{usage}} Il est toujours utilisé en double (mi… mi), en plaçant le nom concerné entre les deux.
+
+=== {{S|adjectif|gcf}} ===
+'''mi''' {{pron||gcf}}
+# [[mûr#fr|Mûr]], qui a atteint son plein développement, en parlant des produits de la terre.
+#* {{exemple|lang=gcf}}
+
+=== {{S|références}} ===
+* {{R:Tourneux2011}}
+
+== {{langue|gcf-mq}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gcf-mq}}
+
+=== {{S|préposition|gcf-mq|num=1}} ===
+'''mi''' {{pron||gcf-mq}}
+# [[pour|Pour]].
+
+=== {{S|préposition|gcf-mq|num=2}} ===
+'''mi''' {{pron||gcf-mq}}
+# [[voici|Voici]], [[voilà]].
+
+=== {{S|références}} ===
+* {{R:PinalieBernabé|p=13}}
+
+== {{langue|rcf}} ==
+=== {{S|étymologie}} ===
+: {{date|lang=rcf}} Du {{étyl|fr|rcf|moi}}.
+
+=== {{S|pronom personnel|rcf}} ===
+'''mi''' {{pron|mi|rcf}}
+# [[je|Je]].
+#* {{exemple | lang=rcf
+ | – Kisa ? A moin ? Ou connaît kisa '''mi''' lé ?.
+ | – Qui ça ? Moi ? Tu sais qui je suis ?
+ | source={{w|Gaëlle Bélem}}, ''Le fruit le plus rare ou la vie d’Edmond Albius'', Gallimard, 2023|lang=fr }}
+
+== {{langue|dhi}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|dhi}}
+
+=== {{S|nom|dhi}} ===
+'''mi''' {{pron||dhi}}
+# [[nom#fr|Nom]] (de quelque chose, de quelqu’un).
+
+== {{langue|dyu}} ==
+{{ébauche|dyu}}
+=== {{S|étymologie}} ===
+: {{ébauche-étym|dyu}}
+
+=== {{S|adverbe|dyu}} ===
+'''mi''' {{pron||dyu}}
+# [[ou#fr|Ou]].
+
+=== {{S|verbe|dyu}} ===
+'''mi''' {{pron||dyu}}
+# [[boire#fr|Boire]].
+
+=== {{S|prononciation}} ===
+* {{écouter|Daloa (Côte d'Ivoire)||lang=dyu|audio=LL-Q32706 (dyu)-Silueinza47-mi.wav}}
+
+== {{langue|es}} ==
+=== {{S|étymologie}} ===
+: {{apocope|m=1|es}} de ''[[mío]]''.
+
+=== {{S|déterminant possessif|es}} ===
+{{es-rég|mi}}
+'''mi''' {{pron|mi|es}} {{mf}}
+# [[mon#Adjectif possessif|Mon]], [[ma#Adjectif possessif|ma]].
+#* {{exemple | lang=es
+ | No te asombres si te digo lo que fuiste,<br>una ingrata con '''mi''' pobre corazón,<br>[…].
+ | Ne sois pas étonnée (Ne tʼétonne pas) si je te dis ce que tu as été (tu fus),<br>une ingrate pour mon pauvre cœur,<br>…].
+ | source={{w|Enrique Dizeo}}, ''{{w|Que nadie sepa mi sufrir}}'', 1936}}
+
+==== {{S|vocabulaire}} ====
+{{Modèle:déterminants possessifs/es}}
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=es|France (Paris)||audio=LL-Q1321 (spa)-Eavqwiki-mi.wav}}
+
+== {{langue|eo}} ==
+=== {{S|étymologie}} ===
+: {{1e attestation|lang=eo|date=1887|titre={{w|Unua Libro}}|auteur={{w|Louis-Lazare Zamenhof}}}}. De l’{{étyl|en|eo}} ''[[me#en|me]]''.
+
+=== {{S|pronom personnel|eo}} ===
+{{eo-pronom|mi|n=mi}}
+'''mi''' {{pron|mi|eo}}
+# [[je|Je]] (première personne du singulier).
+#* {{exemple | lang=eo
+ | '''Mi''' vidas lin.
+ | Je le vois.}}
+#* {{exemple | lang=eo
+ | Li donis la hundo al '''mi'''.
+ | Il m’a donné le chien.}}
+#* {{exemple | lang=eo
+ | Mi diris al '''mi'''.
+ | Je me disais.}}
+
+==== {{S|dérivés}} ====
+* [[mia]]
+
+==== {{S|vocabulaire}} ====
+{{pronoms personnels/eo}}
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=eo|Pays-Bas (partie continentale) (Wijchen)|audio=LL-Q143 (epo)-Robin van der Vliet-mi.wav}}
+* {{écouter|lang=eo|Brésil|audio=LL-Q143 (epo)-NMaia-mi.wav}}
+* {{écouter|lang=eo|France (Toulouse)|audio=LL-Q143 (epo)-Lepticed7-mi.wav}}
+* {{écouter|lang=eo|France (Vosges)||audio=LL-Q143 (epo)-Poslovitch-mi.wav}}
+* {{écouter|Białystok (Pologne)||niveau=bon|lang=eo|audio=LL-Q143 (epo)-Wierzbowski-mi.wav}}
+* {{écouter|||niveau=moyen|lang=eo|audio=LL-Q143 (epo)-DanieruOtakuBoy-mi.wav}}
+
+== {{langue|cy}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|wlm|cy|mi}}, du {{étyl|vieux brittonique|cy}} {{recons|lang-mot-vedette=cy|mi|vieux brittonique}}, du {{étyl|proto-celtique|cy}} {{recons|lang-mot-vedette=cy|mī|proto-celtique}}.
+: À comparer au breton ''{{lien|me|br}}'' et au cornique ''{{lien|my|kw}}'' (sens identique).
+
+=== {{S|pronom personnel|cy}} ===
+'''mi''' {{pron|miː|cy}}
+# [[je|Je]].
+# [[moi|Moi]].
+
+== {{langue|bbr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|bbr}}
+
+=== {{S|nom|bbr}} ===
+'''mi''' {{pron||bbr}}
+# {{insectes|bbr}} [[pou#fr|Pou]].
+
+=== {{S|références}} ===
+* Johannes A. Z’Graggen, ''[https://web.archive.org/web/20121017062357/http://www.papuaweb.org/dlib/bk/pl/C38/02-8-2.pdf The Madang-Adelbert Range Sub-Phylum]'', page 602, 1975
+
+== {{langue|hsb}} ==
+=== {{S|pronom personnel|hsb|flexion}} ===
+'''mi''' {{pron||hsb}}
+# ''Datif de'' [[ja#hsb|ja]].
+
+==== {{S|variantes}} ====
+* [[mni]] (après une préposition)
+
+== {{langue|hu}} ==
+=== {{S|étymologie}} ===
+: (''Pronom interrogatif'') Du [[proto-finno-ougrien]] {{recons|lang-mot-vedette=hu|[[Reconstruction:proto-finno-ougrien/*mi|mi]]}}.
+: (''Pronom personnel'') Du [[proto-finno-ougrien]] {{recons|lang-mot-vedette=hu|[[Reconstruction:proto-finno-ougrien/*me|me]]}}.
+
+=== {{S|pronom interrogatif|hu}} ===
+'''mi''' {{pron|mi|hu}} ''nominatif singulier''
+# [[quoi|Quoi]], [[quel]].
+#* {{exemple | lang=hu
+ | '''Mi''' a probléma?
+ | C'est ''quoi'' le problème ?}}
+
+=== {{S|pronom personnel|hu}} ===
+'''mi''' {{pron|mi|hu}} ''nominatif pluriel''
+# [[nous|Nous]] (''avec emphase'')
+#* {{exemple | lang=hu
+ | '''Mi''' készen vagyunk.
+ | Nous, nous'' sommes prêts.}}
+
+=== {{S|prononciation}} ===
+* {{écouter||mi|lang=hu|audio=Hu-mi.ogg}}
+
+== {{langue|ia}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|ia|mot=meus|sens=mon}}.
+
+=== {{S|adjectif possessif|ia}} ===
+'''mi''' {{pron|ˈmi|ia}}
+# [[mon|Mon]], [[ma]], [[mes]].
+
+==== {{S|vocabulaire}} ====
+{{adjectifs possessifs/ia}}
+
+== {{langue|it}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|it}}
+
+=== {{S|pronom personnel|it}} ===
+'''mi''' {{pron|mi|it}} {{accusatif|it}}
+# [[pronom|Pronom]] de la [[première]] [[personne]] du [[singulier]] accusatif : [[moi]].
+#* {{exemple | lang=it
+ | Io '''mi''' chiamo Fabrizio e sono italiano!
+ | source=Eugenia Guerrieri, ''Il figlio illegittimo'', 2014, page 119}}
+
+==== {{S|vocabulaire}} ====
+{{pronoms personnels/it}}
+
+=== {{S|prononciation}} ===
+* {{écouter|Monopoli (Italie)||lang=it|audio=LL-Q652 (ita)-XANA000-mi.wav}}
+
+=== {{S|anagrammes}} ===
+{{voir anagrammes|it}}
+
+== {{langue|kgq}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|kgq}}
+
+=== {{S|nom|kgq}} ===
+'''mi''' {{pron||kgq}}
+# [[eau#fr|Eau]].
+
+=== {{S|références}} ===
+* C. L. Voorhoeve, 1975. ''[http://www.papuaweb.org/dlib/bk/pl/B31/_toc.html Languages of Irian Jaya Checklist]'', Canberra: Pacific Linguistics, [https://web.archive.org/web/20130517204250/http://www.papuaweb.org/dlib/bk/pl/B31/09.pdf page 100].
+
+== {{langue|kmf}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|kmf}}
+
+=== {{S|nom|kmf}} ===
+'''mi''' {{pron||kmf}}
+# {{insectes|kmf}} [[pou#fr|Pou]].
+
+=== {{S|références}} ===
+* Johannes A. Z’Graggen, ''[https://web.archive.org/web/20121017062357/http://www.papuaweb.org/dlib/bk/pl/C38/02-8-2.pdf The Madang-Adelbert Range Sub-Phylum]'', page 602, 1975
+
+== {{langue|avk}} ==
+=== {{S|étymologie}} ===
+: {{avk-arbitraire}}<ref>{{avk-ref-arbitraire}}</ref>.
+
+=== {{S|nom|avk}} ===
+'''mi''' {{pron|mi|avk}}
+# [[fait divers|Fait divers]].
+#* {{exemple|lang=avk}}
+
+==== {{S|dérivés}} ====
+* {{lien|miak|avk}}
+* {{lien|mieem|avk}}
+* {{lien|mixo|avk}}
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=avk|France|mi|audio=mi (avk).wav}}
+
+=== {{S|références}} ===
+* {{Kotapedia|mi}}
+{{Références}}
+
+[[Catégorie:Mots en kotava répertoriés sur Kotapedia]]
+
+== {{langue|la}} ==
+=== {{S|étymologie}} ===
+: {{cf|meus|lang=la}}.
+
+=== {{S|adjectif possessif|la|flexion}} ===
+'''mi''' {{pron|miː|la}} {{vocatif|la}}
+# ''[[vocatif|Vocatif]] singulier masculin de'' [[meus#la|meus]] (« [[mon]] »).
+
+== {{langue|skc}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|skc}}
+
+=== {{S|nom|skc}} ===
+'''mi''' {{pron||skc}}
+# [[eau#fr|Eau]].
+
+=== {{S|références}} ===
+* Ryan Pennington. 2016. ''[https://www.academia.edu/26189245/A_grammar_of_Ma_Manda_a_Papuan_language_of_Morobe_Province_Papua_New_Guinea A grammar of Ma Manda: A Papuan language of Morobe Province, Papua New Guinea.]'' (Doctoral dissertation, James Cook University; xxi+635pp.), page 111.
+
+== {{langue|dmb}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|dmb}}
+
+=== {{S|nom|dmb}} ===
+'''mi''' {{pron||dmb}}
+# [[eau#fr|Eau]].
+
+=== {{S|références}} ===
+* Roger Blench, ''[//www.rogerblench.info/Language/Niger-Congo/Dogon/Ana%20wordlist%20paper.pdf Ambaleeŋge of Kema, a language of the Dogon group in Northern Mali and its affinities], p. 6, 2005
+
+== {{langue|wlm}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|vieux brittonique|wlm}} {{recons|lang-mot-vedette=wlm|mi|vieux brittonique}}, du {{étyl|proto-celtique|wlm}} {{recons|lang-mot-vedette=wlm|mī|proto-celtique}}.
+
+=== {{S|pronom|wlm}} ===
+'''mi''' {{pron-recons||wlm}}
+# [[je|Je]].
+#* {{exemple|lang=wlm|'''Mi''' a uydaf porthawr y Arthur pob dyw kalan Ionawr.|J'ai l'habitude d'être le porteur d'Arthur chaque premier janvier.|source=George Broderik, « Latin and Celtic: the Substantive Verb », ''Glotta'', 2015}}
+# [[moi|Moi]].
+
+==== {{S|dérivés autres langues}} ====
+* {{L|cy}} : {{lien|mi|cy}}
+
+=== {{S|références}} ===
+*George Broderik, « Latin and Celtic: the Substantive Verb », ''Glotta'', 2015
+
+== {{langue|mtc}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|mtc}}
+
+=== {{S|nom|mtc}} ===
+'''mi''' {{pron||mtc}}
+# {{insectes|mtc}} [[pou#fr|Pou]].
+
+=== {{S|références}} ===
+* Johannes A. Z’Graggen, ''[https://web.archive.org/web/20121017062357/http://www.papuaweb.org/dlib/bk/pl/C38/02-8-2.pdf The Madang-Adelbert Range Sub-Phylum]'', page 602, 1975
+
+== {{langue|mwf}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|mwf}}
+
+=== {{S|nom|mwf}} ===
+'''mi''' {{pron||mwf}}
+# {{fruits|mwf|clé=*}} [[fruit#fr|Fruit]].
+
+=== {{S|références}} ===
+* {{R:en-mwf}}
+
+== {{langue|sba}} ==
+=== {{S|étymologie}} ===
+: {{date|lang=sba}} {{ébauche-étym|sba}}
+
+=== {{S|nom|sba}} ===
+'''mi''' {{pron||sba}}
+# {{primates|sba}} [[singe#fr|Singe]].
+#* {{exemple|'''Mi''' dame sé gandjé
+|sens=Le singe s’amuse avec les enfants |lang=sba}}
+# {{nombres|sba}} [[cinq#fr|Cinq]].
+#* {{exemple|Gandjé '''mi''' dah ré romdi
+|sens=Cinq enfants viennent vers moi !|lang=sba}}
+
+=== {{S|prononciation}} ===
+* {{écouter|Tchad||niveau=débutant|lang=sba|audio=LL-Q2372207 (sba)-Abakar B-mi.wav}}
+
+== {{langue|nop}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|nop}}
+
+=== {{S|nom|nop}} ===
+{{pron|mi|nop}}
+'''mi''' {{pron||nop}}
+# [[eau#fr|Eau]].
+
+==== {{S|notes}} ====
+: {{note-linguistique}}
+: Prononciation du village de Kawalang.
+
+==== {{S|variantes}} ====
+* [[ime#nop|ime]] ''(Tumung)''
+
+=== {{S|références}} ===
+* Rachel Gray, Margaret Potter, Thom Retsema, authors. 2009. ''[https://web.archive.org/web/20170808231321/http://www-01.sil.org/silesr/2009/silesr2009-015.pdf Mungkip: an endangered language.]'' SIL Electronic Survey Reports 2009-015: 35, page 25.
+
+== {{langue|nwm}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|nwm}}
+
+=== {{S|nom|nwm}} ===
+'''mi''' {{pron||nwm}}
+# [[eau#fr|Eau]].
+
+==== {{S|vocabulaire}} ====
+* [[nyɔrɔ#nwm|nyɔrɔ]] (nyamusa)
+
+==== {{S|notes}} ====
+: Forme du dialecte molo.
+
+=== {{S|références}} ===
+* Andrew M. Persson. 1997. [https://www.sil.org/system/files/reapdata/16/48/42/164842769933251038244316351561222705160/OPSL_7.pdf Grouping of the Bongo-Baka Languages]. ''Occasional Papers in the Study of Sudanese Languages'' 7. 19-39, page 36.
+
+== {{langue|oc}} ==
+=== {{S|étymologie}} ===
+: ''([[#oc-nom-1|Nom commun 1]])''
+: ''([[#oc-nom-2|Nom commun 2]])'' Du {{étyl|grc|oc|mot=μῦ|tr=mû|sens=μ}}.
+: ''Pronom personnel'' Du {{étyl|la|fr|mot=me|dif=mē}}, [[accusatif]] et [[ablatif]] de {{lien|''ego''|sens=je, moi|la}}.
+
+=== {{S|nom|oc|num=1}} ===
+'''mi''' {{pron|mi|oc}} {{oc-norme classique}} {{m}}
+# {{lexique|musique|oc}} [[mi#fr|Mi]], note de musique.
+{{notes de musique/oc}}
+
+=== {{S|nom|oc|num=2}} ===
+'''mi''' {{pron|mi|oc}} {{oc-norme classique}} {{m}}
+# [[μ]], [[Μ]], [[douzième]] [[lettre]] et [[huitième]] [[consonne]] de l’[[alphabet]] [[grec]].
+
+==== {{S|variantes}} ====
+{{variante de|mu|oc}}
+
+=== {{S|pronom personnel|oc}} ===
+'''mi''' {{pron|mi|oc}} {{oc-norme classique}} {{mf}}
+# [[me#fr|Me]] (pronom personnel), [[moi#fr|moi]].
+#* {{exemple|lang=oc|Parla '''mi'''.|Parle moi.}}
+
+{{cf|me|lang=oc}}
+
+==== {{S|notes}} ====
+: Utilisé dans certains parlers.
+
+=== {{S|prononciation}} ===
+* {{écouter|Béarn (France)||niveau=bon|lang=oc|audio=LL-Q14185 (oci)-Davidgrosclaude-mi.wav}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=oc}}
+
+=== {{S|références}} ===
+* {{R:Lo Congrès}}
+* {{R:Cantalausa}}
+* {{R:Laux-dict-oc-fr}}
+* {{R:Ubaud}}
+
+[[Catégorie:Noms des lettres grecques en occitan]]
+
+== {{langue|pln}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|es|pln|mot=mi}} (même sens).
+
+=== {{S|adjectif possessif|pln}} ===
+'''mi''' {{pron|mi|pln}}
+# [[mon|Mon]], [[ma]].
+#* {{exemple | lang=pln
+ | ¡Moná '''mi''', miní aká!
+ | Mon fils, viens ici!}}
+#* {{exemple | lang=pln
+ | Mailo '''mi''' é má bieho.
+ | Mon mari est plus vieux}}
+
+==== {{S|variantes orthographiques}} ====
+* [[mí]]
+
+=== {{S|pronom personnel|pln}} ===
+'''mi''' {{pron|mi|pln}}
+# [[moi|Moi]].
+#* {{exemple | lang=pln
+ | ¡Nu dejá '''mi''' te nu!
+ | Ne me laisse pas!}}
+#* {{exemple | lang=pln
+ | Ele a ablá-'''mi''' p’i miní akí.
+ | Il/Elle m’a demandé de venir ici}}
+
+==== {{S|variantes orthographiques}} ====
+* [[mí]]
+
+=== {{S|références}} ===
+* {{R:Schwegler}}
+
+== {{langue|fpe}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|en|fpe|my}}.
+
+=== {{S|adjectif possessif|fpe}} ===
+'''mi''' {{pron||fpe}}
+# [[mon|Mon]], [[ma]].
+
+=== {{S|références}} ===
+* {{R:Yakpo2009|p=363}}
+
+== {{langue|pl}} ==
+
+=== {{S|pronom personnel|pl|flexion}} ===
+'''mi''' {{pron|mʲi|pl}}
+# ''Datif atone de'' [[ja#pl|ja]].
+
+=== {{S|prononciation}} ===
+* {{écouter|||lang=pl|audio=LL-Q809 (pol)-Krokus-mi.wav}}
+* {{écouter|Będzin (Pologne)||lang=pl|audio=LL-Q809 (pol)-Olaf-mi.wav}}
+
+== {{langue|ro}} ==
+=== {{S|étymologie}} ===
+: {{réfnéc|De l’{{étyl|it|ro|it}}.|lang=ro}}
+
+=== {{S|nom|ro}} ===
+{{ro-nom-tab|gen={{m}}|ns=mi|np=-|as=-|ap=-|ds=-|dp=-|vs=-|vp=-}}
+'''mi''' {{m}} {{pron|mi|ro}}
+# [[mi#fr|Mi]].
+
+==== {{S|vocabulaire}} ====
+* {{voir thésaurus|ro|musique}}
+
+== {{langue|xse}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|xse}}
+
+=== {{S|nom|xse}} ===
+'''mi''' {{pron||xse}}
+# [[eau#fr|Eau]].
+
+== {{langue|stf}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|stf}}
+
+=== {{S|nom|stf}} ===
+'''mi''' {{pron||stf}}
+# [[eau#fr|Eau]].
+
+=== {{S|références}} ===
+* Donald C. Laycock. 1968. [http://www.jstor.org/stable/3622846 Languages of the Lumi Subdistrict.] ''Oceanic Linguistics'' VII. 36-66, page 58
+
+== {{langue|sbi}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|sbi}}
+
+=== {{S|nom|sbi}} ===
+'''mi''' {{pron||sbi}}
+# [[eau#fr|Eau]].
+
+=== {{S|références}} ===
+* Donald C. Laycock. 1968. [http://www.jstor.org/stable/3622846 Languages of the Lumi Subdistrict.] ''Oceanic Linguistics'' VII. 36-66, page 58
+
+== {{langue|sk}} ==
+=== {{S|pronom personnel|sk|flexion}} ===
+'''mi''' {{pron|mɪ|sk}}
+# ''Datif de'' [[ja#sk|ja]].
+
+==== {{S|notes}} ====
+: La variante ''[[mne#sk|mne]]'' est utilisée pour accentuer le pronom et après une [[préposition]].
+
+=== {{S|anagrammes}} ===
+* {{lien|im|sk}}
+
+=== {{S|références}} ===
+* C. L. Voorhoeve, 1975. ''[http://www.papuaweb.org/dlib/bk/pl/B31/_toc.html Languages of Irian Jaya Checklist]'', Canberra: Pacific Linguistics, [https://web.archive.org/web/20130517204250/http://www.papuaweb.org/dlib/bk/pl/B31/09.pdf page 100].
+
+== {{langue|solrésol}} ==
+=== {{S|étymologie}} ===
+: {{original}}.
+
+=== {{S|conjonction|solrésol}} ===
+'''mi''' {{pron|mi|solrésol}}
+# [[ou|Ou]].
+
+==== {{S|variantes orthographiques}} ====
+* {{lien|m|solrésol}}
+
+==== {{S|transcriptions}} ====
+* 3
+* [[image:solresol-m.png|thumbleft]]
+* [[image:solresol-m (2).png|thumbleft]]
+* [[image:solresol-m (3).png|thumbleft]]
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=solrésol|France|mi|audio=mi (m).wav}}
+
+=== {{S|références}} ===
+* {{R:fr-solrésol}}
+* {{R:solrésol-fr}}
+
+== {{langue|urw}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|urw}}
+
+=== {{S|nom|urw}} ===
+'''mi''' {{pron||urw}}
+# {{insectes|urw}} [[pou#fr|Pou]].
+
+=== {{S|références}} ===
+* Johannes A. Z’Graggen, ''[https://web.archive.org/web/20121017062357/http://www.papuaweb.org/dlib/bk/pl/C38/02-8-2.pdf The Madang-Adelbert Range Sub-Phylum]'', page 602, 1975
+
+== {{langue|six}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|six}}
+
+=== {{S|nom|six}} ===
+'''mi''' {{pron||six}}
+# {{insectes|six}} [[pou#fr|Pou]].
+
+=== {{S|références}} ===
+* Johannes A. Z’Graggen, ''[https://web.archive.org/web/20121017062357/http://www.papuaweb.org/dlib/bk/pl/C38/02-8-2.pdf The Madang-Adelbert Range Sub-Phylum]'', page 602, 1975
+
+== {{langue|cs}} ==
+=== {{S|pronom personnel|cs|flexion}} ===
+'''mi''' {{pron|mɪ|cs}} {{datif|cs}}
+# ''Datif singulier de'' [[já#cs|já]].
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=cs||audio=Cs-mi.ogg}}
+
+==== {{S|homophones|cs}} ====
+* [[my#cs|my]]
+
+== {{langue|tok}} ==
+=== {{S|étymologie}} ===
+: {{date|2001}} De l’{{étyl|eo|tok|mi}} et de l’{{étyl|en|tok|me}}{{R|SonaPona|32754|mi}}.
+
+=== {{S|pronom personnel|tok}} ===
+'''mi''' {{pron|mi|tok}}
+# [[je#fr|Je]], [[moi]], [[me]] ; [[nous]].
+#* {{exemple|lang=tok}}
+
+=== {{S|adjectif possessif|tok}} ===
+'''mi''' {{pron|mi|tok}}
+# [[mon#fr|Mon]], [[ma]], [[mes]] ; [[notre]], [[nos]].
+#* {{exemple|lang=tok}}
+
+=== {{S|écriture}} ===
+* [[File:Mi - sitelen pona in Sonja Lang's handwriting.svg|40px]] {{term|[[sitelen pona]]}}
+* [[File:Mi - sitelen sitelen word symbol.svg|40px]] {{term|[[sitelen sitelen]]}}
+
+=== {{S|taux de reconnaissance}} ===
+* {{tok-reconnaissance|2025|100|core}}
+* {{tok-reconnaissance|2024|100|core}}
+* {{tok-reconnaissance|2023|100|core}}
+* {{tok-reconnaissance|2022|100|core}}
+
+=== {{S|prononciation}} ===
+* {{écouter|Canada||tok|audio=Toki Pona - jan Lakuse - mi.ogg}}
+* {{écouter|Toulouse (France)||niveau=bon|lang=tok|audio=LL-Q36846-Lepticed7-mi.wav}}
+* {{écouter|Midwest (États-Unis)||lang=tok|audio=LL-Q36846 (tok)-Rdgscratch is back-mi.wav}}
+* {{écouter|||tok|audio=Toki Pona - kala Asi - mi.ogg}}
+* {{écouter|||tok|audio=LL-Q36846 (tok)-John Gordon Reid-mi.wav}}
+* {{écouter|||tok|audio=LL-Q36846 (tok)-Jan Ossen-mi.wav}}
+
+=== {{S|références}} ===
+==== {{S|sources}} ====
+{{Références}}
+
+==== {{S|bibliographie}} ====
+* {{R:SonaPona|32754}}
+
+== {{langue|tr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|tr}}
+
+=== {{S|particule|tr}} ===
+'''mi''' {{pron||tr}}
+# Particule interrogative. {{usage}} Les suffixes personnels sont ajoutés à la particule interrogative sous la forme de suffixes, ainsi que les suffixes marquant le passé. Cette forme est utilisée quand la dernière voyelle du mot précédent est « i » ou « e » (les autres formes du mot sont ''{{lien|mu|tr}}'', ''{{lien|mü|tr}}'' et ''{{lien|mı|tr}}''.
+
+=== {{S|prononciation}} ===
+* {{écouter|||lang=tr|audio=LL-Q256 (tur)-Veravi95-mi.wav}}
+* {{écouter|Izmir (Turquie)||lang=tr|audio=LL-Q256 (tur)-ToprakM-mi.wav}}
+
+=== {{S|références}} ===
+* {{R:FDT|21|particule|p=22}}
+
+== {{langue|usu}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|usu}}
+
+=== {{S|nom|usu}} ===
+'''mi''' {{pron||usu}}
+# {{insectes|usu}} [[pou#fr|Pou]].
+
+=== {{S|références}} ===
+* Johannes A. Z’Graggen, ''[https://web.archive.org/web/20121017062357/http://www.papuaweb.org/dlib/bk/pl/C38/02-8-2.pdf The Madang-Adelbert Range Sub-Phylum]'', page 602, 1975
+
+== {{langue|wtf}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|wtf}}
+
+=== {{S|nom|wtf}} ===
+'''mi''' {{pron||wtf}}
+# {{insectes|wtf}} [[pou#fr|Pou]].
+
+=== {{S|références}} ===
+* Johannes A. Z’Graggen, ''[https://web.archive.org/web/20121017062357/http://www.papuaweb.org/dlib/bk/pl/C38/02-8-2.pdf The Madang-Adelbert Range Sub-Phylum]'', page 602, 1975
+
+== {{langue|jaq}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|jaq}}
+
+=== {{S|nom|jaq}} ===
+'''mi''' {{pron||jaq}}
+# [[eau#fr|Eau]].
+
+=== {{S|références}} ===
+* C. L. Voorhoeve, 1975. ''[http://www.papuaweb.org/dlib/bk/pl/B31/_toc.html Languages of Irian Jaya Checklist]'', Canberra: Pacific Linguistics, [https://web.archive.org/web/20130517204250/http://www.papuaweb.org/dlib/bk/pl/B31/09.pdf page 95].
+* Lebold, Randy and Kriens, Ronald and Susanto, Yunita. 2013. ''[http://www.sil.org/system/files/reapdata/82/13/94/82139437219388097085703513422813561858/silesr2013_008.pdf A report on the Bamgi, Kia, and Lower Digul River language survey in Papua, Indonesia]''. SIL Electronic Survey Reports 2013-008. 1-52, page 40

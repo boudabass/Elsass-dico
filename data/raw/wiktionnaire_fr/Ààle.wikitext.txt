@@ -1,0 +1,8 @@
+{{voir|Aale}}
+
+== {{langue|gsw-fr}} ==
+=== {{S|nom|gsw-fr|flexion}} ===
+'''Ààle'''
+# Pluriel d’[[Ààl]]
+
+{{clé de tri|aale}}

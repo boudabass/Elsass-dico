@@ -1,0 +1,26 @@
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|gmh|de|mot=arc}}, du {{étyl|goh|gmh|mot=arg}} (''mauvais'', ''mal'', ''méchant''), du {{étyl|proto-germanique|de}} {{recons|lang-mot-vedette=de|[[Reconstruction:proto-germanique/*argaz|argaz]]}}. 
+: En allemand standard, ''{{lien|arg|de}}'' est surtout présent dans des dérivés comme ''{{lien|ärgern|de}}'', ''{{lien|ärgerlich|de}}''. 
+: Apparenté à l’anglais ''{{lien|eerie|en}}'' et au néerlandais ''{{lien|erg|nl}}''.
+
+=== {{S|adverbe|gsw-fr}} ===
+'''àrig''' {{phon|ɒːʀiʃ|gsw-fr}} (''Nord-Alsace et Strasbourg'')<ref>https://www.ami-hebdo.com/elsadico/?choix=3134&recherche=tr%C3%A8s</ref>,
+{{phon|ɒːʀi|gsw-fr}} (''Centre-Alsace''),
+{{phon|ɒːʀig̊|gsw-fr}} (''Sud-Alsace'')<ref>https://woerterbuchnetz.de/?sigle=ElsWB&mode=Vernetzung&lemid=EM00049#1</ref> <ref>DtV Atlas zur Deutschen Sprache, Werner König</ref>
+
+# [[très|Très]].
+#* {{exemple | lang=gsw-fr
+ | Ìch bìn '''àrig''' zefrìdde.
+ | Je suis ''très'' content.}}
+#* {{exemple | lang=gsw-fr
+ | Ar het epps '''àrig''' schlìmms gemàcht.
+ | Il a fait quelque chose de ''très'' mauvais.}}
+
+==== {{S|variantes orthographiques}} ====
+* [[àrich]]
+* [[àrisch]]
+* [[àri]]
+
+==={{S|références}}===
+{{références}}

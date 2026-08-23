@@ -1,0 +1,332 @@
+{{voir/ken}}
+
+== {{langue|conv}} ==
+=== {{S|symbole|conv}} ===
+'''ken'''
+# {{lexique|linguistique|conv}} Code {{w|ISO 639-3}} du [[kenyang]].
+
+=== {{S|voir aussi}} ===
+* {{Wikipédia|Ken}}
+=== {{S|références}} ===
+* {{Lien 639-3|ken}}
+
+== {{langue|fr}} ==
+=== {{S|étymologie}} ===
+:{{verlan}} [[apocope|Apocope]] de [[kéni]] ou [[quéni]] qui est le [[verlan]] de [[niquer]]. Sans rapport étymologique avec [[Ken]], le compagnon de [[Barbie]].
+
+=== {{S|verbe|fr}} ===
+'''ken''' {{pron|kɛn|fr}} {{t|fr}} ou {{i|fr}} {{verbe non standard|fr}}
+# {{vulgaire|fr}} [[niquer#fr-verbe-2|Niquer]] (au sens sexuel), [[faire l’amour]].
+#* {{exemple | lang=fr
+ | C’est vrai qu’on bandait à peine mais on voulait déjà '''ken'''.
+ | source=Neg Marron, « Le Bilan », sur l’album ''Le bilan'', 2000.}}
+#* {{exemple |– Allez, insista Steph. Tu l’as '''ken''' où ? |source={{w|Nicolas Mathieu}}, ''Leurs enfants après eux'', Actes Sud, 2018|lang=fr}}
+#* {{exemple | lang=fr
+ | C'est sur qu'elle est folle de moi !<br>J'crois y a moyen je '''ken'''
+ | source=Tweet de @gotpumbaa publié le 23 aout 2024 à 6h17
+ |lien=https://x.com/gotpumbaa/status/1826836222322307237}}
+# {{vulgaire|fr}} [[arnaquer|Arnaquer]].
+#* {{exemple | lang=fr
+ | On peut donc dire qu'il s'est fait '''ken'''…
+ | source=site fr.ubergizmo.com, 11 juin 2015}}
+
+==== {{S|notes}} ====
+* Cette forme reste généralement invariable, mais on retrouve parfois des formes variables :
+:: {{exemple| je '''[[kenerai]]''' toute les meufs de la cour|lien=https://x.com/pinhalcolada/status/580112852054380545|source=Tweet de @pinhalcolada publié le 23 mars 2015 à 22h04|lang=fr}}
+:: {{exemple| Si je comprends mal vous '''[[kenez]]''' juste pour vous mettre en couple?|lien=https://x.com/Onybalor/status/1693888164300050495|source=Tweet de @Onybalor publié le 22 aout 2023 à 9h29|lang=fr}}
+:: {{exemple|'''[[kennons]]''' ensemble cher camarade|source=Tweet de @miwstboo_ publié le 9 avril 2021 à 18h29|lang=fr|lien=https://x.com/miwstboo_/status/1380558418432438273}}
+
+==== {{S|variantes}} ====
+* [[kène]]
+
+==== {{S|synonymes}} ====
+{{cf|lang=fr|faire l’amour}}
+
+=== {{S|prononciation}} ===
+* {{pron-rimes|kɛn|fr}}
+* {{écouter|lang=fr|France (Lyon)||audio=LL-Q150 (fra)-WikiLucas00-ken.wav}}
+* {{écouter|lang=fr|France (Vosges)||audio=LL-Q150 (fra)-LoquaxFR-ken.wav}}
+* {{écouter|lang=fr|France (Toulouse)||audio=LL-Q150 (fra)-Loumaju-ken.wav}}
+
+==== {{S|homophones|fr}} ====
+* [[kenne]]
+
+=== {{S|références}} ===
+* https://web.archive.org/web/20160304233916/http://www.dico2rue.com/dictionnaire.php?q=ken
+
+[[Catégorie:en prononcés /ɛn/ en français]]
+
+== {{langue|aa}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|aa}}
+
+=== {{S|adjectif possessif|aa}} ===
+'''ken''' {{pron||aa}}
+# [[leur|Leur]](s).
+
+=== {{S|pronom possessif|aa}} ===
+'''ken''' {{pron||aa}}
+# [[eux|Eux]], [[elles]].
+
+== {{langue|af}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|af}}
+
+=== {{S|nom|af}} ===
+'''ken''' {{pron||af}}
+# {{lexique|anatomie|af}} Le [[menton]].
+
+=== {{S|verbe|af}} ===
+'''ken''' {{pron||af}}
+# [[connaître|Connaître]].
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=af|Afrique du Sud (Johannesbourg)|audio=LL-Q14196 (afr)-Oesjaar-ken.wav}}
+
+=== {{S|anagrammes}} ===
+* {{lien|nek|af}}
+
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|adjectif|gsw-fr}} ===
+'''ken''' {{pron||gsw-fr}}
+# [[aucun|Aucun]].
+
+==== {{S|variantes orthographiques}} ====
+* [[kè]]
+
+== {{langue|en}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|enm|en|kennen}}, du {{étyl|ang|en|cennan}}, d’origine germanique. Apparenté avec ''[[kennen]]'' en allemand et en néerlandais.
+
+=== {{S|nom|en}} ===
+{{en-nom-rég|kɛn}}
+'''ken''' {{pron|kɛn|en}}
+# {{désuet|en}} [[connaissance|Connaissance]].
+#* {{exemple|lang=en
+ | Totally unprepared am I to face a world of men.<br>Timid and shy and scared am I of things beyond my '''ken'''.<br>
+ | source={{w|Oscar Hammerstein II}}, ''Sixteen Going on Seventeen'', 1959}}
+# {{désuet|en}} [[perception|Perception]].
+#* {{exemple | lang=en
+ | Time ran on; thousands of pounds were offered in reward, for the death of Sir Danvers was resented as a public injury; but Mr Hyde had disappeared out of the '''ken''' of the police as though he had never existed.
+ | source={{w|Robert Louis Stevenson}}, ''[[w:L'Étrange Cas du docteur Jekyll et de M. Hyde|Strange Case of Dr Jekyll and Mr Hyde]]'', 1885}}
+# {{désuet|en}} Champ visuel nautique.
+#* {{exemple|lang=en}}
+
+==== {{S|dérivés}} ====
+* {{lien|beyond one’s ken|en}}
+* {{lien|kenlore|en}}
+* {{lien|kennetic|en}}
+* {{lien|swim into one’s ken|en}}
+
+=== {{S|verbe|en}} ===
+{{en-conj-rég-cons|inf.pron=kɛn|pp2=kent|prét2=kent|pp2.pron=kɛnt|prét2.pron=kɛnt}}
+'''ken''' {{pron|kɛn|en}} {{t|en}}
+# {{désuet|en}} [[savoir|Savoir]].
+#* {{exemple|lang=en}}
+# {{désuet|en}} [[apercevoir|Apercevoir]].
+#* {{exemple|lang=en}}
+# {{désuet|en}} [[comprendre|Comprendre]].
+#* {{exemple|lang=en}}
+
+==== {{S|dérivés}} ====
+{{(}}
+* {{lien|beken|en}}
+* {{lien|foreken|en}}
+* {{lien|kenner|en}}
+* {{lien|misken|en}}
+* {{lien|outken|en}}
+* {{lien|unken|en}}
+{{)}}
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=en|États-Unis||audio=En-us-ken.ogg}}
+* {{écouter|Connecticut (États-Unis)||lang=en|audio=LL-Q1860 (eng)-Grendelkhan-ken.wav}}
+
+== {{langue|br}} ==
+=== {{S|étymologie}} ===
+: ([[#br-adverbe|Adverbe]]) Du {{étyl|xbm|br|mot=quen}}{{R|CATH}}.
+: À comparer aux mots ''[[cyn]]'' en gallois et ''[[kyn]]'' en cornique (sens voisins).
+
+: ([[#br-adjectif|Adjectif]]) Mentionné dans le dictionnaire français-breton de Grégoire de Rostrenen (1732) : ''qen''.
+: À comparer aux mots ''[[cain]]'' en gallois et ''[[caoin]]'' en gaélique (sens voisins).
+
+=== {{S|adverbe|br}} ===
+'''ken''' {{pron|ˈkɛnː|br}}
+# [[tellement#fr|Tellement]], [[si]].
+# [[aussi#fr|Aussi]], [[autant]].
+#* {{exemple | lang=br
+ | '''Ken''' bev '''ken''' marv.
+ | Aussi vivant que mort.
+ | source=[[w:Roparz Hemon|Roparz Hemon]], ''Nouveau dictionnaire breton- français - Sixième édition. 1978, page 439}}
+# [[plus#fr|Plus]] (après un verbe au négatif).
+#* {{exemple | lang=br
+ | N'eus '''ken''' a vara.
+ | Il n'y a plus de pain. }}
+
+==== {{S|dérivés}} ====
+* {{lien|kentizh|br}}
+
+=== {{S|adjectif|br}} ===
+'''ken''' {{pron|ˈkɛnː|br}}
+# {{désuet|br}} [[beau#fr|Beau]].
+#* {{exemple | lang=br
+ | «  Mar cazr na '''quen''' oas a quenet ».
+ | Aussi beau que tu étais beau de beauté.
+ | source=[[w:Roparz Hemon|Roparz Hemon]], ''Trois poèmes en moyen breton (Édition originale de 1530) - The Dublin Institute for Advanced Studies. 1962}}
+
+==== {{S|synonymes}} ====
+* [[brav]]
+* [[kaer]]
+* [[kenedus]]
+
+==== {{S|dérivés}} ====
+* [[kened]]
+
+=== {{S|prononciation}} ===
+* {{écouter|Bretagne (France)||niveau=bon|lang=br|audio=LL-Q12107 (bre)-Ltranvz-ken.wav}}
+
+=== {{S|anagrammes}} ===
+* {{lien|enk|br}}
+
+=== {{S|références}} ===
+{{références}}
+
+== {{langue|fi}} ==
+=== {{S|étymologie}} ===
+: De la racine lexicale ''*ke-'' ([[kenen]], [[kenellä]]), {{cf|lang=fi|kuka}}. La racine ougrienne est ''*ki'', comparer le hongrois ''[[ki]]''.
+
+=== {{S|pronom interrogatif|fi}} ===
+'''ken''' {{pron|ken|fi}}
+# {{soutenu|fi}} {{poétique|fi}} [[qui|Qui]].
+#* ''Ken on maassa kaunehin?'' — Qui est la plus belle du pays ?
+
+=== {{S|pronom relatif|fi}} ===
+'''ken''' {{pron|ken|fi}}
+# {{soutenu|fi}} {{poétique|fi}} [[qui|Qui]].
+#* ''Sen voi uskoa, '''ken''' tahtoo.'' — Le croire qui veut.
+
+==== {{S|dérivés}} ====
+* [[kenties]]
+
+== {{langue|hre}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|hre}}
+
+=== {{S|nom|hre}} ===
+'''ken''' {{pron||hre}}
+# [[trompette#fr|Trompette]].
+#* {{exemple|lang=hre}}
+
+=== {{S|références}} ===
+* https://web.archive.org/web/20211206112907/https://www.webonary.org/hre/browse/browse-vernacular/?letter=a&key=hre-Latn-VN
+
+== {{langue|avk}} ==
+=== {{S|étymologie}} ===
+: {{avk-arbitraire}}<ref>{{avk-ref-arbitraire}}</ref>.
+
+=== {{S|préposition|avk}} ===
+'''ken''' {{pron|kɛn|ken|avk}}
+# [[le long de#fr|Le long de]], [[suivant]] (avec mouvement). 
+#* {{exemple | lang=avk
+ | '''Ken''' azekos laní.
+ | Je vais le long de la terrasse.
+ | source=[https://youtu.be/GcxBbKhxECI?list=PLwgDqDH7vmpRo3PHSpxCAqSlFAlfg1quy&t=22 vidéo], Luce Vergneaux, ''Gadikye Midur'', 2019}}
+==== {{S|dérivés}} ====
+* {{lien|kene|avk}}
+* {{lien|kengabé|avk}}
+* {{lien|keni|avk}}
+* {{lien|kenlakí|avk}}
+* {{lien|kenlaní|avk}}
+* {{lien|kenlapí|avk}}
+* {{lien|keno|avk}}
+* {{lien|kenu|avk}}
+
+=== {{S|verbe|avk|flexion}} ===
+'''ken''' {{pron|kɛn|ken|avk}}
+{{avk-participe-bt|ke|e}}
+# ''Participe passif présent de'' [[ké#avk|ké]]'' (« attendre »).''
+#* {{exemple | lang=avk
+ | Fotce, bonolkorik cinon '''ken''' ko tari ve lanid !
+ | Oh, les humains bestiaux que nous attendons sont en train d'entrer dans la foule !
+ | source=[https://youtu.be/FGdqiTJ7OxM&t=87 vidéo], Luce Vergneaux, ''Efuxiskafa Efurafa Jora'', 2020}}
+=== {{S|prononciation}} ===
+* {{écouter|lang=avk|France|ˈkɛn|audio=ken (avk).wav}}
+
+=== {{S|anagrammes}} ===
+* {{lien|enk|avk}}
+* {{lien|nek|avk}}
+
+=== {{S|références}} ===
+* {{Kotapedia|ken}}
+*{{Kotapedia|k_e}}
+*{{R:avk-grammaire|p=26}}
+{{Références}}
+[[Catégorie:Mots en kotava suffixés avec -n]]
+[[Catégorie:Prépositions locatives en kotava]]
+[[Catégorie:Mots en kotava répertoriés sur Kotapedia]]
+
+== {{langue|moh}} ==
+=== {{S|particule|moh}} ===
+'''ken''' 
+# Particule interrogative, souvent traduisible par ''[[est-ce que]]''.
+
+== {{langue|pap}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|pap}}
+
+=== {{S|pronom interrogatif|pap}} ===
+'''ken''' {{pron||pap}}
+# [[qui|Qui]], qui est-ce qui.
+
+==== {{S|synonymes}} ====
+* [[kén]]
+* [[kende]]
+
+=== {{S|anagrammes}} ===
+* {{lien|enk|pap}}
+
+== {{langue|tok}} ==
+=== {{S|étymologie}} ===
+: {{date|2001}} Du {{étyl|tpi|tok|ken}}, issu de l’anglais ''{{l|can|en}}''{{R|SonaPona|24493|ken}}.
+
+=== {{S|pré-verbe|tok}} ===
+'''ken''' {{pron|ken|tok}}
+# [[pouvoir|Pouvoir]].
+#* {{exemple|lang=tok}}
+
+=== {{S|nom|tok}} ===
+'''ken''' {{pron|ken|tok}}
+# [[possibilité|Possibilité]], [[capacité]].
+#* {{exemple|lang=tok}}
+
+=== {{S|adjectif|tok}} ===
+'''ken''' {{pron|ken|tok}}
+# [[possible|Possible]].
+#* {{exemple|lang=tok}}
+
+=== {{S|écriture}} ===
+* [[File:Ken - sitelen pona in Sonja Lang's handwriting.svg|40px]] {{term|[[sitelen pona]]}}
+* [[File:Ken - sitelen sitelen word symbol.svg|40px]] {{term|[[sitelen sitelen]]}}
+
+=== {{S|taux de reconnaissance}} ===
+* {{tok-reconnaissance|2024|100|core}}
+* {{tok-reconnaissance|2023|100|core}}
+* {{tok-reconnaissance|2022|99|core}}
+
+=== {{S|prononciation}} ===
+* {{écouter|Canada||tok|audio=Toki Pona - jan Lakuse - ken.ogg}}
+* {{écouter|Bandung (Indonésie)||tok|audio=LL-Q36846 (tok)-A. D. Prakasa-ken.wav}}
+* {{écouter|||tok|audio=Toki Pona - kala Asi - ken.ogg}}
+* {{écouter|||tok|audio=LL-Q36846 (tok)-John Gordon Reid-ken.wav}}
+* {{écouter|||tok|audio=LL-Q36846 (tok)-Jan Ossen-ken.wav}}
+* {{écouter|Midwest (États-Unis)||niveau=bon|lang=tok|audio=LL-Q36846 (tok)-Rdgscratch is back-ken.wav}}
+
+=== {{S|références}} ===
+==== {{S|sources}} ====
+{{Références}}
+
+==== {{S|bibliographie}} ====
+* {{R:SonaPona|24493}}

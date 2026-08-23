@@ -1,0 +1,18 @@
+{{voir|Geburtsdàg}}
+
+== {{langue|gsw-fr}} ==
+{{ébauche|gsw-fr}}
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|nom|gsw-fr}} ===
+'''geburtsdàg'''
+# [[anniversaire]] de naissance.
+
+==== {{S|variantes orthographiques}} ====
+* geburtsdàj
+* geburtsdoej
+* geburtsdàà
+
+{{clé de tri|geburtsdag}}

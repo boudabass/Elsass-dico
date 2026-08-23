@@ -1,0 +1,8 @@
+== {{langue|gsw-fr}} ==
+{{ébauche|gsw-fr}}
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|verbe|gsw-fr}} ===
+'''khoejfe''' {{pron||gsw-fr}}
+# [[acheter#fr|Acheter]].

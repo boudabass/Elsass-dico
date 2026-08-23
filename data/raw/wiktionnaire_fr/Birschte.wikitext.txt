@@ -1,0 +1,4 @@
+== {{langue|gsw-fr}} ==
+=== {{S|nom|gsw-fr|flexion}} ===
+'''Birschte'''
+# [[brosse|Brosses]], pluriel de [[Birscht]].

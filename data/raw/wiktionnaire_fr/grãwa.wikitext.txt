@@ -1,0 +1,11 @@
+{{voir|Grãwa}}
+
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|verbe|gsw-fr}} ===
+'''grãwa'''
+# [[creuser|Creuser]].
+
+{{clé de tri|grawa}}

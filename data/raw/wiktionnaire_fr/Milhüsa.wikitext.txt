@@ -1,0 +1,17 @@
+{{voir|Mïlhüsa}}
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|gmh|gsw-fr|mül|sens=moulin}}, lui-même issu du {{étyl|goh|gsw-fr|mulīn}} et du {{étyl|gmh|gsw-fr|hūs|sens=maison}}, lui-même issu du {{étyl|goh|gsw-fr}} et du {{étyl|proto-germanique|gsw-fr}} {{recons|lang-mot-vedette=gsw-fr|hūsą|lang=proto-germanique|sens=maison}}. Le pluriel de ''hüs'' en alsacien moderne prend en compte le umlaut, et devient donc ''hyser'', ''hiiser'' ; la désinence en -a dans ''Mìlhüsa'' est un archaïsme conservé dans le toponyme{{réf ?|lang=gsw-fr}}.
+
+=== {{S|nom propre|gsw-fr}} ===
+'''Milhüsa''' {{pron|mɪlˈhyːsa|gsw-fr}}
+# [[Mulhouse#fr|Mulhouse]].
+#* {{exemple|lang=gsw-fr}}
+
+==== {{S|synonymes}} ====
+* {{lien|Milhüse|gsw-fr}}
+* {{lien|Milhüüse|gsw-fr}}
+
+{{clé de tri|milhusa}}
+
+[[Catégorie:Localités en alémanique]]

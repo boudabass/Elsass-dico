@@ -1,0 +1,60 @@
+{{voir/rassa}}
+
+== {{langue|fr}} ==
+{{ébauche|fr}}
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|fr}}
+
+=== {{S|nom propre|fr}} ===
+{{fr-inv||inv_titre=Nom propre}}
+'''Rassa''' {{pron||fr}}
+# {{localités|fr|du Piémont}} [[commune|Commune]] d’[[Italie]] de la province de [[Verceil]] dans la région du [[Piémont]].
+
+==== {{S|traductions}} ====
+{{trad-début|}}
+* {{T|it}} : {{trad-|it|Rassa}}
+{{trad-fin}}
+
+=== {{S|anagrammes}} ===
+{{voir anagrammes|fr}}
+
+=== {{S|voir aussi}} ===
+* {{WP}}
+
+{{vérifier création automatique||gsw-fr}}
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+{{ébauche-étym|gsw-fr}}
+
+=== {{S|nom|gsw-fr}} ===
+'''Rassa'''
+# [[race|Race]]
+
+== {{langue|it}} ==
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|it}}
+
+=== {{S|nom propre|it}} ===
+{{it-inv||inv_titre=Nom propre}}
+'''Rassa''' {{pron||it}}
+# {{localités|it|du Piémont}} [[#fr|Rassa]], commune d’Italie de la province de Verceil dans la région du Piémont.
+#* {{exemple|lang=it}}
+
+==== {{S|gentilés}} ====
+* {{lien|rassese|it}}
+
+=== {{S|prononciation}} ===
+{{ébauche-pron-audio|it}}
+
+=== {{S|anagrammes}} ===
+{{voir anagrammes|it}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=it}}
+* {{VOY|lang=it}}
+
+=== {{S|références}} ===
+==== {{S|bibliographie}} ====
+* {{R:SDAS}}

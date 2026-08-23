@@ -1,0 +1,8 @@
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|verbe|gsw-fr}} ===
+'''àbghèie'''
+# [[tomber|Tomber]] (de quelque part)
+{{clé de tri|abgheie}}

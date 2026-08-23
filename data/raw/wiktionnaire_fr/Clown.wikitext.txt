@@ -1,0 +1,92 @@
+{{voir|clown}}
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+:De l'{{étyl|en|de|clown}}.
+
+=== {{S|nom|de}} ===
+{{de-nom-m-s-s}}
+'''Clown''' {{pron|klaʊ̯n|de}} {{m}}
+# {{lexique|art|cirque|de}} [[clown|Clown]].
+#* {{exemple|Grock war ein berühmter Clown.|lang=de|sens=Grock était un clown célèbre.}}
+#* {{exemple|Wenn der Akrobat auf die linke Seite der Wippe springt, wird der auf der rechten Seite sitzende '''Clown''' in die Höhe katapultiert.|lang=de|sens=Lorsque l’acrobate saute sur le côté gauche de la bascule, le clown assis sur le côté droit est catapulté dans les airs.}}
+#* {{exemple|Besser, ich verzog mich, mit diesen '''Clown'''s würde es schnell Ärger geben; wo steckte Rudi? Ich wanderte einmal langsam um den Platz, bis ich ihn fand, ins Gespräch mit einem der Azraëlisten vertieft.|lang=de|sens=Il valait mieux se tirer, les choses risquaient de dégénérer rapidement avec ces guignols. Où était passé Rudi ? Je fis lentement le tour de la place avant de l’apercevoir, en grande conversation avec un des raéliens.|source={{ouvrage|auteur={{w|Michel Houellebecq}}|trad=Hinrich Schmidt-Henkel|titre=Lanzarote|année=2000|éditeur=DuMont Buchverlag|lieu=Köln|url=}}}}
+
+==== {{S|hyperonymes}} ====
+* {{lien|Unterhalter|de}}
+
+==== {{S|hyponymes}} ====
+{{(|}}
+* {{lien|Gruselclown|de}}
+* {{lien|Musicalclown|de}}
+* {{lien|Musikclown|de}}
+* {{lien|Zirkusclown|de}}
+* {{lien|therapeutischer Clown|de}}
+* {{lien|Klinikclown|de}}
+* {{lien|Krankenhausclown|de}}
+* {{lien|Angstclown|de}}
+* {{lien|Horrorclown|de}}
+* {{lien|Klassenclown|de}}
+* {{lien|Pausenclown|de}}
+{{)}}
+
+==== {{S|vocabulaire}} ====
+{{(|}}
+* {{lien|Bajazzo|de}}
+* {{lien|dummer August|de}}
+* {{lien|Eulenspiegel|de}}
+* {{lien|Faxenmacher|de}}
+* {{lien|Hanswurst|de}}
+* {{lien|Harlekin|de}}
+* {{lien|Komiker|de}}
+* {{lien|Schelm|de}}
+* {{lien|Spaßmacher|de}}
+* {{lien|Spaßvogel|de}}
+* {{lien|Kasper|de}}
+* {{lien|Geck|de}}
+* {{lien|veraltend|de}}
+* {{lien|Possenmacher|de}}
+* {{lien|Possenreißer|de}}
+* {{lien|Schalk|de}}
+* {{lien|Narr|de}}
+{{)}}
+
+==== {{S|dérivés}} ====
+{{(|}}
+* {{lien|Clownerie|de}}
+* {{lien|clownesk|de}}
+* {{lien|Clownfisch|de}}
+* {{lien|clownisch|de}}
+* {{lien|Clownismus|de}}
+{{)}}
+
+==== {{S|phrases}} ====
+* {{lien|einen Clown gefrühstückt haben|de}}
+
+=== {{S|prononciation}} ===
+* {{pron|klaʊ̯n|de}}<ref>adapté par: Krech, Eva-Maria, Stock, Eberhard, Hirschfeld, Ursula, Anders, Lutz Christian: ''Deutsches Aussprachewörterbuch'', Walter de Gruyter, Berlin, New York, 2009, page 417</ref>
+* {{écouter|{{DE|nocat=1}}|klaʊ̯n|lang=de|audio=De-Clown.ogg}}
+* {{écouter|Berlin (Allemagne)|klaʊ̯n|lang=de|audio=De-Clown2.ogg}}
+
+=== {{S|références}} ===
+* {{R:DWDS|Clown}}
+* {{R:Duden|Clown}}
+
+{{Références}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=de}}
+
+[[Catégorie:Artistes en allemand]]
+[[Catégorie:Lexique en allemand de l’humour]]
+[[Catégorie:Artistes en alémanique alsacien]]
+[[Catégorie:Lexique en alémanique alsacien du cirque]]
+[[Catégorie:Lexique en alémanique alsacien de l’humour]]
+
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|nom|gsw-fr}} ===
+'''Clown'''
+# [[clown|Clown]]

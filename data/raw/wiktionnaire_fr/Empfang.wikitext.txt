@@ -1,0 +1,112 @@
+{{voir|empfang}}
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: {{siècle|IX}}. Du {{étyl|goh|de|mot=antfang}}, du {{étyl|gmh|de|mot=antvanc}}.<ref> {{source|Wolfgang {{pc|Pfeifer}}, ''Etymologisches Wörterbuch des Deutschen'', Éditions Deutscher Taschenbuch, 1997, ISBN-13: 978342-3325110 }} </ref> 
+: {{déverbal|de|de=empfangen|lang=de|m=1}} (« recevoir »).
+
+=== {{S|nom|de}} ===
+{{de-nom-m-s-e|gs2=Empfanges|ds2=Empfange|np=Empfänge}}
+'''Empfang''' {{pron|ɛmpˈfaŋ|de}} {{m}}
+# [[accueil|Accueil]], de personnes, le fait de recevoir.
+#* {{exemple | lang=de
+ | Der '''Empfang''' durch die Familie Weber war freundlich.
+ | L'accueil de la famille Weber a été sympathique.}}
+#* {{exemple|Alles an Solschenizyns Schicksal ist groß, und so wurde er (...) gewaltsam in ein Flugzeug nach Frankfurt gesetzt und dort von Willy Brandt wie ein Staatschef in '''Empfang''' genommen.|lang=de|sens=Tout est grand dans le destin de Soljenitsyne, qui (...) a été mis de force dans un avion pour Francfort et, là-bas, accueilli par Willy Brandt comme un chef d’État.|source={{ouvrage|auteur={{w|Emmanuel Carrère}}|trad=Claudia Hamm|titre=Limonow|année=2012|éditeur=MSB Matthes & Seitz Berlin Verlagsgesellschaft|url=}}}}
+# [[réception|Réception]] d'un message, d'une transmission.
+#* {{exemple | lang=de
+ | Wir warten auf den '''Empfang''' der Nachricht.
+ | Nous attendons la réception du message.}}
+# [[fête|Fête]].
+#* {{exemple | lang=de
+ | Der Botschafter gibt heute Abend einen '''Empfang'''.
+ | L'ambassadeur donne une réception ce soir.}}
+
+==== {{S|synonymes}} ====
+* [[Rezeption]] (''réception (lieu)'')
+==== {{S|dérivés}} ====
+{{(|&nbsp;}}
+* [[Abendempfang]] (''soirée'')
+* [[Befehlsempfang]]
+* [[Cocktailempfang]] 
+* [[Diplomatenempfang]]
+* [[Diversityempfang]] 
+* [[empfangbar]] 
+* [[Empfänger]] (''récepteur''), (''destinataire''), [[Empfängerin]] (''destinatrice'')
+* [[Empfänglich]] (''sensible''), (''réceptif'')
+* [[Empfangnahme]] (''réception'')
+* [[Empfägnis]] (''conception'')
+* [[Empfangsabend]] (''soir de réception'')
+* [[Empfangsadresse]] (''adresse de réception'')
+* [[Empfangsanlage]] 
+* [[Empfangsantenne]] (''antenne de réception'')
+* [[empfangsberechtigt]] 
+* [[empfangsbereit]] 
+* [[Empfangsbescheinigung]] 
+* [[Empfangsbestätigung]] (''accusé de réception''), (''reçu'')
+* [[Empfangsbüro]] (''réception''), (''accueil'')
+* [[Empfangschef]] (''chef réxceptionniste'')
+* [[Empfangsdame]] (''réceptionniste'')
+* [[Empfangseinrichtung]]
+* [[Empfangsfeierlichkeit]] 
+* [[Empfangsgebäude]] 
+* [[Empfangsgerät]] 
+* [[Empfangshalle]] (''hall de réception'')
+* [[Empfangskomitee]] (''comité de réception'')
+* [[Empfangsqualität]] (''qualité de réception'')
+* [[Empfangsraum]] (''espace d'accueil'')
+* [[Empfangssaal]]
+* [[Empfangssalon]] (''salon de réception'')
+* [[Empfangsschalter]] 
+* [[Empfangsschein]] (''quittance'')
+* [[Empfangsstaat]]
+* [[Empfangsstation]] 
+* [[Empfangsstelle]] (''bureau récepteur'')
+* [[Empfangsstörung]] 
+* [[Empfangstag]] (''jour de réception'')
+* [[Empfangstechnik]] (''technique de réception'')
+* [[Empfangsteppich]] 
+* [[Empfangstheke]] (''comptoir de réception'')
+* [[empfangstot]]
+* [[Empfangstrese]] 
+* [[Empfangszeit]] 
+* [[Empfangszimmer]] (''salon de réception'')
+* [[Fernsehempfang]] 
+* [[Galaempfang]] (''réception de gala'')
+* [[Geldempfang]]
+* [[Gemeinschaftsempfang]]
+* [[Morgenempfang]] 
+* [[Neujahrsempfang]]
+* [[Paketempfang]]
+* [[Presseempfang]] 
+* [[Radioempfang]] 
+* [[Rundfunkempfang]] 
+* [[Satellitenempfang]] (''réception par satellite'')
+* [[Schwarz-Weiß-Empfang]], [[Schwarzweißempfang]] (''réception en noir et blanc'')
+* [[Stehempfang]]
+* [[Stereoempfang]]
+* [[Warenempfang]] 
+{{)}}
+
+=== {{S|prononciation}} ===
+* {{écouter|Berlin|ɛmˈp͡faŋ|lang=de|audio=De-Empfang.ogg}}
+* {{écouter|Berlin|ɛmˈp͡faŋ|lang=de|audio=LL-Q188 (deu)-Sebastian Wallroth-Empfang.wav}}
+
+=== {{S|références}} ===
+<references />
+
+==== {{S|sources}} ====
+* {{R:DWDS|Empfang}}
+* {{R:Duden|Empfang}} 
+* {{Source-wikt|de|Empfang}}
+==== {{S|bibliographie}} ====
+* Larousse - Dctionnaire allemand/français – français/allemand , éd. 1958, p 459.
+* Harrap’s  de poche – Bordas Dictionnaire allemand/français, éd. 1997, ISBN 0-245-50308-0, p 89.
+
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|nom|gsw-fr}} ===
+'''Empfang'''
+# [[accueil|Accueil]].

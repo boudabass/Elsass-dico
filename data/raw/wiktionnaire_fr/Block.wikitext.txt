@@ -1,0 +1,93 @@
+{{voir|block}}
+== {{langue|fr}} ==
+=== {{S|étymologie}} ===
+:Nom {{étyl|de|fr|mot=Block}} ou {{étyl|nl|fr|mot=Block}}.
+
+=== {{S|nom de famille|fr}} ===
+'''Block''' {{pron|blɔk|fr}}
+# Nom de famille allemand.
+# Nom de famille néerlandais.
+
+=== {{S|voir aussi}} ===
+* {{WP}}
+* {{Géopatro}}
+* {{Familienaam}}
+* {{R:Nomdefamille.eu}}
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+:Du {{étyl|nl|de|mot=blok}}.
+
+=== {{S|nom|de}} ===
+{{de-nom-m-s-e|gs2=Blockes|ds2=Blocke|np=Blöcke|np2=Blocks|ap2=Blocks|gp2=Blocks|dp2=Blocks}}
+'''Block''' {{pron|blɔk|de}} {{m}} ({{p}} : '''die Blocks''')
+# {{lexique|urbanisme|de}} [[pâté de maisons|Pâté de maisons]], [[bloc#fr|bloc]].
+#* {{exemple|lang=de|Ich wohne zwei '''Blocks''' weiter.|sens=J’habite à deux pâtés.}}
+# [[bloc|Bloc]] pour [[écrire]], [[dessiner]].
+#* {{exemple|Ich nehme immer meinen Zeichen'''block''' mit.|lang=de|sens=J'emmène toujours mon bloc à dessin.}}
+# {{lexique|politique|de}} [[bloc#fr|Bloc]].
+#* {{exemple|Der KSE-Vertrag stammt aus der Endphase des Kalten Krieges, (...) Jeder '''Block''' sollte nicht mehr als 40 000 Kampfpanzer, 60 000 gepanzerte Fahrzeuge, 40 000 Artilleriewaffen, 13 600 Kampfflugzeuge und 4000 Angriffshubschrauber besitzen, dazu kamen regionale Obergrenzen.|lang=de|sens=Le traité FCE date de la phase finale de la guerre froide, (...) Chaque bloc ne devait pas posséder plus de 40 000 chars de combat, 60 000 véhicules blindés, 40 000 pièces d'artillerie, 13 600 avions de combat et 4 000 hélicoptères d'attaque, auxquels s’ajoutaient des plafonds régionaux.|source={{périodique|auteur=Silke Bigalke|titre=Russland kündigt KSE-Vertrag auf|journal=Süddeutsche Zeitung|date=15 mai 2023|texte=https://www.sueddeutsche.de/politik/russland-kse-vertrag-ruestungskontrolle-duma-1.5861300}}}}
+
+==== {{S|synonymes}} ====
+* [[Brocken]]
+* [[Häuserblock]] (''pâté de maisons'')
+* [[Klotz]]
+* [[Lager]]
+* [[Stock]]
+
+==== {{S|antonymes}} ====
+* [[Korn]]
+* [[Splitter]]
+* [[Tafel]]
+
+==== {{S|dérivés}} ====
+{{(}}
+* [[Blockflöte]]
+* [[blockfrei]]
+* [[Blockhaus]]
+* [[Blockpartei]]
+* [[Blockschokolade]]
+* [[Blockschrift]]
+* [[Eisblock]]
+* [[Felsblock]]
+* [[Ostblock]]
+* [[Schreibblock]]
+* [[Werbeblock]] (''bloc publicitaire'')
+* [[Wohblock]]
+* [[Zeichenblock]]
+{{)}}
+
+==== {{S|phrases}} ====
+* [[um den Block gehen]]
+
+==== {{S|hyperonymes}} ====
+* [[Abwehr]]
+* [[Rolle]]
+* [[Schreibware]]
+
+=== {{S|prononciation}} ===
+* {{écouter|Berlin|blɔk|lang=de|audio=De-Block.ogg}}
+
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|de|gsw|mot=Block}}.
+
+=== {{S|nom|gsw-fr}} ===
+'''Block''' {{pron||gsw-fr}}
+# [[bloc|Bloc]].
+
+== {{langue|lb}} ==
+=== {{S|étymologie}} ===
+: {{date|lang=lb}} {{ébauche-étym|lb}}
+
+=== {{S|nom de famille|lb}} ===
+{{lb-inv|blok}}
+'''Block''' {{pron|blok|lb}}
+# Nom de famille.
+#* {{exemple|lang=lb}}
+
+=== {{S|prononciation}} ===
+{{ébauche-pron-audio|lb}}
+
+=== {{S|références}} ===
+* {{R:Luxemburger Familiennamenbuch}}

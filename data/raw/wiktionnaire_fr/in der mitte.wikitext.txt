@@ -1,0 +1,13 @@
+== {{langue|gsw-fr}} ==
+{{ébauche|gsw-fr}}
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|préposition|gsw-fr}} ===
+'''in der mitte'''
+# [[au milieu de]].
+
+==== {{S|variantes orthographiques}} ====
+* [[in der mittle]]
+* [[medladrena]]

@@ -1,0 +1,19 @@
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|nom|gsw-fr}} ===
+{{gsw-fr-nom-f|ns=Kescht|np=Keschte}}
+'''Kescht''' {{pron||gsw-fr}} {{f}}
+# {{fruits|gsw-fr}} [[châtaigne|Châtaigne]], [[marron]].
+#* {{exemple|lang=gsw-fr}}
+
+==== {{S|synonymes}} ====
+* [[Käschtana]]
+* [[Käschtena]]
+
+=== {{S|prononciation}} ===
+{{ébauche-pron-audio|gsw-fr}}
+
+=== {{S|références}} ===
+* ''[https://www.ami-hebdo.com/elsadico/ de Elsässisch Web diktionnair vum Raymond Bitsch]'', www.ami-hebdo.com

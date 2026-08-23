@@ -1,0 +1,18 @@
+{{voir|Lachs}}
+
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|goh|de|mot=lahs}}.
+
+=== {{S|nom|gsw-fr}} ===
+'''Làchs''' {{pron|lɒks|gsw-fr}} {{m}} (pluriel: ''Làchs'')
+# [[saumon#fr|Saumon]].
+#* {{exemple|lang=gsw-fr}}
+
+=== {{S|références}} ===
+* [https://web.archive.org/web/20130926050951/http://culture.alsace.pagesperso-orange.fr/page_sf.htm Dictionnaire français-alsacien]
+* [https://www.ami-hebdo.com/elsadico/?choix=2751&recherche=saumon Dictionnaire français-alsacien avec audio]
+
+[[Catégorie:Poissons en alémanique alsacien]]
+
+{{clé de tri|lachs}}

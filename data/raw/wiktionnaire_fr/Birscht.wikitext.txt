@@ -1,0 +1,16 @@
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+{{ébauche-étym|gsw-fr}}
+
+=== {{S|nom|gsw-fr}} ===
+'''Birscht''' {{pron||gsw-fr}} {{f}} ({{p}}: [[Birschte]])
+# [[brosse#fr|Brosse]].
+
+==== {{S|variantes dialectales}} ====
+* [[Berscht]]
+* [[Berschta]]
+
+=== {{S|références}} ===
+*[https://web.archive.org/web/20130906191837/http://www.ami-hebdo.com/elsadico/index.php de Elsässich Web Diktionnair]
+
+[[Catégorie:Vie domestique en alémanique alsacien]]

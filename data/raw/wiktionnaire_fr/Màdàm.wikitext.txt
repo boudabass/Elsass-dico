@@ -1,0 +1,10 @@
+{{voir|madam}}
+
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|nom|gsw-fr}} ===
+'''Màdàm''' {{pron||gsw-fr}}
+# [[madame|Madame]]
+{{clé de tri|madam}}

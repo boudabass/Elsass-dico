@@ -1,0 +1,22 @@
+{{voir|Ool}}
+== {{langue|gsw-fr}} ==
+{{ébauche|gsw-fr}}
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|nom|gsw-fr}} ===
+'''ool [der]''' {{m}}
+# [[anguille]] (zool.)
+
+==== {{S|variantes orthographiques}} ====
+* '''ààl [der]''' {{m}}
+
+== {{langue|gag}} ==
+{{ébauche|gag}}
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gag}}
+
+=== {{S|nom|gag}} ===
+'''ool''' 
+# {{lexique|famille|gag}} [[fils|Fils]]

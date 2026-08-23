@@ -1,0 +1,6 @@
+== {{langue|gsw-fr}} ==
+=== {{S|nom|gsw-fr}} ===
+'''Bàschnaie'''
+# [[carotte|Carottes]], pluriel de [[Bàschnai]].
+
+{{clé de tri|baschnaie}}

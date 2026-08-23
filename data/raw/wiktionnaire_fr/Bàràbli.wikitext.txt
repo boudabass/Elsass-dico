@@ -1,0 +1,11 @@
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+{{ébauche-étym|gsw-fr}}
+
+=== {{S|nom|gsw-fr}} ===
+'''Bàràbli''' {{pron||gsw-fr}} {{m}}
+# [[parapluie#fr|Parapluie]].
+
+=== {{S|références}} ===
+*[https://web.archive.org/web/20130906191837/http://www.ami-hebdo.com/elsadico/index.php de Elsässich Web Diktionnair]
+{{clé de tri|barabli}}

@@ -1,0 +1,42 @@
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: {{déverbal|de|de=quatschen|lang=de|m=1}}, ''([[bavarder]])''. Attesté depuis le {{siècle|XVIII}} avec le sens de ''[[boue]]'', ''[[saleté]]'' et au {{siècle|XIX}} avec la signification de ''[[bêtise]]'', ''[[bavardage stupide]]''.<ref> {{source|Wolfgang {{pc|Pfeifer}}, ''Etymologisches Wörterbuch des Deutschen. 2.'', Éditions Deutscher Taschenbuch, 1993, ISBN 3-423-03358-4, mot-clé: „quatschen“}} </ref> 
+: Dans le nord de l'Allemagne ce terme désignait le crottin mouillé. {{réf?|lang=de}}
+
+=== {{S|nom|de}} ===
+{{de-nom-m-sing|gse=opt|dse=opt}}
+'''Quatsch''' {{pron|kvatʃ|de}} {{m}} {{au singulier uniquement|de}} {{indénombrable|de}}
+# {{familier|de}} [[balivernes|Balivernes]], [[bêtise]]s, [[connerie]]s, [[n’importe quoi]].
+#* {{exemple|lang=de|Das ist doch '''Quatsch''', so kann es gar nicht gewesen sein.|C'est vraiment n'importe quoi, ça n'a pas pu se passer comme ça.}}
+#* {{exemple|lang=de|Lasst den '''Quatsch''', jetzt wird aufgeräumt und Abendbrot gegessen!|Arrête tes conneries, c'est l'heure de ranger et de manger !}}
+
+==== {{S|dérivés}} ====
+* [[quatschig]]
+* [[Quatschkopf]] (''radoteur, radoteuse'')
+* [[Quatschmacher]] (''farceur''), (''plaisantin'')
+* [[Quatschmaul]]
+* [[quatschnass]]
+* [[Quatschtüte]]
+
+==== {{S|phrases}} ====
+* [[Quatsch mit Soße]] (''mon cul''), (''t’as qu’à croire'')
+
+=== {{S|prononciation}} ===
+* {{écouter||kvatʃ|lang=de|audio=De-Quatsch.ogg}}
+* {{écouter|lang=de|Allemagne (Berlin)|audio=LL-Q188 (deu)-Sebastian Wallroth-Quatsch.wav}}
+=== {{S|références}} ===
+<references />
+==== {{S|sources}} ====
+* {{R:DWDS|Quatsch}}
+* {{R:Duden|Quatsch}} 
+* {{Source-wikt|de|Quatsch}}
+==== {{S|bibliographie}} ====
+* Harrap’s  de poche – Bordas Dictionnaire allemand/français, éd. 1997, ISBN 0-245-50308-0, p 232.
+
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|nom|gsw-fr}} ===
+'''Quatsch''' {{pron||gsw-fr}}
+# [[baliverne|Balivernes]], [[bêtise]]s

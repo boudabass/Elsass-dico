@@ -1,0 +1,89 @@
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: {{composé de|regieren|-ung|lang=de|m=1}}.
+
+=== {{S|nom|de}} ===
+{{de-nom-f-en|ʁeˈɡiːʁʊŋ}}
+'''Regierung''' {{pron|ʁeˈɡiːʁʊŋ|de}} {{f}}
+# {{lexique|politique|de}} [[gouvernement#fr|Gouvernement]].
+#* {{exemple|Dieses Verhalten der '''Regierung''' Putin wurde von sehr vielen Mitgliedsstaaten als böser Affront gegen die Weltorganisation wahrgenommen.|lang=de|sens=Ce comportement du gouvernement Poutine a été perçu par de très nombreux Etats membres comme un affront malveillant à l'organisation mondiale.|source={{périodique|auteur=Andreas Zumach|titre=141 Staaten gegen Putin|journal=taz|date=3 mars 2022|texte=https://taz.de/UN-Generalversammlung-verurteilt-Krieg/!5839174/}}}}
+#* {{exemple|Der Konflikt zwischen Opposition und '''Regierung''' hat sich zugespitzt.|lang=de|sens=Le conflit entre l’opposition et le gouvernement s’est intensifié.}}
+#* {{exemple|Den seriösesten Historikern zufolge (Robert Conquest, Alec Nove, meiner Mutter) wurden in den vier Kriegsjahren zwanzig Millionen Russen von den Deutschen getötet und noch einmal zwanzig Millionen von ihrer eigenen '''Regierung''' während der fünfundzwanzig Jahre währenden Herrschaft Stalins.|lang=de|sens=D’après les historiens les plus sérieux (Robert Conquest, Alec Nove, ma mère), vingt millions de Russes ont été tués par les Allemands pendant les quatre années de la guerre, et vingt millions par leur propre gouvernement pendant les vingt-cinq ans du règne de Staline.|source={{ouvrage|auteur={{w|Emmanuel Carrère}}|trad=Claudia Hamm|titre=Limonow|année=2012|éditeur=MSB Matthes & Seitz Berlin Verlagsgesellschaft|lieu=Berlin|url=}}}}
+
+==== {{S|dérivés}} ====
+* [[Bundesregierung]]
+* [[Koalitionsregierung]]
+* [[Landesregierung]]
+* [[Linksregierung]]
+* [[Lokalregierung]]
+* [[Minderheitsregierung]]
+* [[Rechtsregierung]]
+* [[Regierungsarbeit]]
+* [[Regierungsauftrag]]
+* [[Regierungsbeschluss]]
+* [[Regierungsbeteiligung]]
+* [[Regierungsbildung]]
+* [[Regierungsbündnis]]
+* [[Regierungschef]], [[Regierungschefin]]
+* [[Regierungsgebäude]]
+* [[Regierungsgeschäfte]]
+* [[Regierungskoalition]]
+* [[Regierungskreis]]
+* [[Regierungskrise]]
+* [[Regierungslager]]
+* [[Regierungsmitglied]]
+* [[Regierungspalast]]
+* [[Regierungspartei]]
+* [[Regierungsprogramm]]
+* [[Regierungssprecher]], [[Regierungssprecherin]]
+* [[Regierungsverantwortung]]
+* [[Regierungsviertel]]
+* [[Regierungswechsel]]
+* [[Regionalregierung]]
+* [[Stadtregierung]]
+* [[Zentralregierung]]
+
+=== {{S|prononciation}} ===
+* {{écouter|Berlin|ʁeˈɡiːʁʊŋ|lang=de|audio=De-Regierung.ogg}}
+* {{écouter|Berlin|ʁeˈɡiːʁʊŋ|lang=de|audio=LL-Q188 (deu)-Sebastian Wallroth-Regierung.wav}}
+
+== {{langue|gsw-fr}} ==
+
+=== {{S|étymologie}} ===
+: Voir ''{{lien|Regierung|de}}'' en allemand.
+
+=== {{S|nom|gsw-fr}} ===
+'''Regierung''' {{genre ?|gsw-fr}}
+# [[gouvernement|Gouvernement]].
+
+== {{langue|lb}} ==
+=== {{S|étymologie}} ===
+: Emprunt de l’{{étyl|de|lb|Regierung}}. Les cognats luxembourgeois hérités, {{lien|''Regéierong''|lb}} ou {{lien|''Regéieronk''|lb}}, sont désuets.
+
+==== {{S|attestations}} ====
+* {{date|1950-1977}} {{lien|Regéierong|lb}}, {{lien|Regéieronk|lb}}, {{lien|Regirung|lb}}<ref>{{R:LWB|R00849}}</ref>
+
+=== {{S|nom|lb}} ===
+{{lb-nom-en|ps=ʀeʑˈiːʀuŋ}}
+'''Regierung''' {{pron|ʀeʑˈiːʀuŋ|lb}} {{f}}
+# {{lexique|politique|lb}} [[gouvernement|Gouvernement]], organe exécutif.
+#* {{exemple|lang=lb}}
+
+==== {{S|dérivés}} ====
+* {{lien|Regierungsgebai|lb}}
+* {{lien|Regierungsmember|lb}}
+* {{lien|Regierungspolitik|lb}}
+* {{lien|Regierungsprogramm|lb}}
+* {{lien|Regierungswiessel|lb}}
+
+==== {{S|synonymes}} ====
+* {{lien|Gouvernement|lb}}
+
+=== {{S|prononciation}} ===
+{{ébauche-pron-audio|lb}}
+
+=== {{S|références}} ===
+: {{R:LOD}}
+{{Références}}
+
+{{clé de tri|regierung}}

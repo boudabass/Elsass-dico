@@ -1,0 +1,9 @@
+{{vérifier création automatique||gsw-fr}}
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|verbe|gsw-fr}} ===
+'''fãhra'''
+# [[rouler|Rouler]] (en véhicule)
+{{clé de tri|fahra}}

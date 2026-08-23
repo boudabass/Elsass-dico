@@ -1,0 +1,12 @@
+{{voir|Muga|Müga|múǧa}}
+
+== {{langue|gsw-fr}} ==
+
+=== {{S|étymologie}} ===
+: Voir l’allemand ''{{lien|Mücke|de}}'' (« moustique »).
+
+=== {{S|nom|gsw-fr}} ===
+'''Müga''' {{pron||gsw-fr}}
+# {{insectes|gsw-fr}} [[mouche#fr|Mouche]].
+
+{{clé de tri|muga}}

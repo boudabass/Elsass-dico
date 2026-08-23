@@ -1,0 +1,16 @@
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|verbe|gsw-fr}} ===
+'''rella'''
+# [[décortiquer|Décortiquer]] des [[raisin]]s
+# [[mettre|Mettre]] des [[fruit]]s en petits [[morceau]]x
+
+== {{langue|pro}} ==
+=== {{S|nom|pro}} ===
+'''rella''' {{f}}
+# {{variante de|reilha}}.
+
+=== {{S|références}} ===
+* {{R:Raynouard}}

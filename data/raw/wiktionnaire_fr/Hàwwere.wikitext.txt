@@ -1,0 +1,11 @@
+{{vérifier création automatique||gsw-fr}}
+{{voir|hàwwere}}
+
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|nom|gsw-fr}} ===
+'''Hàwwere'''
+# [[avoine|Avoine]]
+{{clé de tri|hawwere}}

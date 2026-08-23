@@ -1,0 +1,11 @@
+{{vérifier création automatique||gsw-fr}}
+{{voir|beld}}
+
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+{{ébauche-étym|gsw-fr}}
+
+=== {{S|nom|gsw-fr}} ===
+'''Bëld'''
+# [[image|Image]], [[portrait]]
+{{clé de tri|beld}}

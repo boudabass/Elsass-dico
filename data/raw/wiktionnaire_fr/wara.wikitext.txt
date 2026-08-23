@@ -1,0 +1,47 @@
+{{voir/wara}}
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|nom|gsw-fr}} ===
+'''wara''' {{auxiliaire|gsw-fr}}
+# [[devenir#fr#verbe|Devenir]].
+
+[[Catégorie:Verbes auxiliaires en alémanique alsacien]]
+
+== {{langue|bm}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|bm}}
+
+=== {{S|nom|bm}} ===
+'''wara'''
+# [[lion|Lion]].
+
+[[Catégorie:Animaux en bambara]]
+[[Catégorie:Félins en bambara]]
+
+== {{langue|avk}} ==
+=== {{S|étymologie}} ===
+: {{composé de|m=1|wá|-ra|lang=avk}}.
+
+=== {{S|nom|avk}} ===
+'''wara''' {{pron|ˈwara|avk}} {{indénombrable|avk}}
+# [[action#fr|Action]], fait de [[gagner]].
+#* {{exemple | lang=avk
+ | Undeson va minafa rietara va triguca, vofat da eyafa trumera buiveyer da mecoba nuve zo rokazawar a zegarapa ik da va bask ta '''wara''' va erba nuve gotrasit ik da evartaca nuve tid riafa.
+ | En réfléchissant à notre idée de prospérité, nous nous apercevons que les conditionnements sociaux nous ont convaincus qu’on n’obtient rien sans se donner beaucoup de peine ou qu’il faut trouver une façon de gagner de l’argent ou que les opportunités sont en petit nombre.
+ | source=[https://www.youtube.com/watch?v=iql1mfivZKw&list=PLwgDqDH7vmpSzuW1doSIsqEyPRzsLCiM_&t=120 vidéo], Luce Vergneaux, ''Chopra Center Sibla'', 2025}}
+
+=== {{S|anagrammes}} ===
+* [[rawa#avk|rawa]]
+
+== {{langue|tpi}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|tpi}}
+
+=== {{S|nom|tpi}} ===
+'''wara''' {{pron||tpi}}
+# [[eau#fr|Eau]].
+
+=== {{S|références}} ===
+* [http://www.tok-pisin.com/sort-english.php?page=71 Tok Pisin - English Dictionary]

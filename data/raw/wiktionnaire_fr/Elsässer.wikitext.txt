@@ -1,0 +1,29 @@
+{{voir|elsässer}}
+
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|nom|gsw-fr}} ===
+'''Elsässer'''
+# [[alsacien|Alsacien]]
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|de}}
+
+=== {{S|adjectif|de}} ===
+{{de-adj|comparable=non|déclinable=non}}
+'''Elsässer''' {{pron|ˈɛlzɛsɐ|de}}
+# [[alsacien#fr|Alsacien]].
+#* {{exemple|Sie brachten vierzehn Tage im Elsaß zu, wobei ununterbrochen gegessen wurde: die Brüder erzählten sich zotige Geschichten im '''Elsässer''' Dialekt; von Zeit zu Zeit wandte sich der Pastor an Louise und übersetzte ihr, aus christlicher Nächstenliebe, diese Geschichten.|lang=de|sens=Ils passèrent quinze jours en Alsace sans quitter la table; les frères se racontaient en patois des histoires scatologiques; de temps en temps, le pasteur se tournait vers Louise et les lui traduisait, par charité chrétienne.|source={{ouvrage|auteur={{w|Jean-Paul Sartre}}|trad=Hans Mayer|titre=Die Wörter|année=1965|éditeur=Rowohlt Verlag|lieu=Hamburg|url=}}}}
+
+=== {{S|nom|de}} ===
+{{de-nom-m-er|ˈɛlzɛsɐ}}
+'''Elsässer''' {{pron|ˈɛlzɛsɐ|de}} {{m}} {{équiv-pour|lang=de|une femme|Elsässerin}}
+# {{gentilés|de|de France}} [[Alsacien]].
+
+=== {{S|prononciation}} ===
+* {{écouter|Berlin|ˈɛlzɛsɐ|lang=de|audio=De-Elsässer.ogg}}
+
+{{clé de tri|Elsasser}}

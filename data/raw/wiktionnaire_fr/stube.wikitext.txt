@@ -1,0 +1,13 @@
+{{voir|stubé|Stube}}
+
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+{{ébauche-étym|gsw-fr}} Provient de Étuve 
+
+=== {{S|nom|gsw-fr}} ===
+'''stube''' {{pron||gsw-fr}} {{f}}
+# [[pièce|Pièce]] chauffée, lounge, salon.
+
+==== {{S|dérivés}} ====
+* [[wynstub]] 
+* [[wynstube]]

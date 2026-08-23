@@ -1,0 +1,24 @@
+== {{langue|de}} ==
+
+=== {{S|étymologie}} ===
+: {{composé de|m=1|schmuggeln|-er|lang=de}}
+
+=== {{S|nom|de}} ===
+{{de-nom-m-er}}
+'''Schmuggler''' {{pron|ʃmuɡlər|de}} {{m}}
+# [[contrebandier#fr|Contrebandier]].
+
+==== {{S|synonymes}} ====
+* {{lien|Pascher|de}}
+
+=== {{S|prononciation}} ===
+* {{écouter||ʃmuɡlər|lang=de|audio=De-Schmuggler.ogg}}
+
+== {{langue|gsw-fr}} ==
+
+=== {{S|étymologie}} ===
+:Voir ''{{lien|Schmuggler|de}}''.
+
+=== {{S|nom|gsw-fr}} ===
+'''Schmuggler'''
+# [[contrebandier|Contrebandier]], [[passeur]].

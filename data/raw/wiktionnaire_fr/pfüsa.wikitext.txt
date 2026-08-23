@@ -1,0 +1,10 @@
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|verbe|gsw-fr}} ===
+'''pfüsa'''
+# [[siffler|Siffler]], se [[dégonfler]]
+# {{argot|gsw-fr}} [[dormir]]
+
+{{clé de tri|pfusa}}

@@ -1,0 +1,17 @@
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: Composé de ''{{lien|Müs|gsw-fr}}'' (« souris ») et de ''{{lien|Fàlla|gsw-fr}}'' (« piège »).
+
+=== {{S|nom|gsw-fr}} ===
+{{gsw-fr-nom-f}}
+'''Müsfàlla''' {{phon||gsw-fr}} {{f}}
+# [[souricière|Souricière]], [[piège]] à [[souris]].
+
+==== {{S|notes}} ====
+Forme du dialecte bas-alémanique du sud, parlé en Haute-Alsace.
+
+==== {{S|variantes dialectales}} ====
+* {{lien|Müsfàll|gsw-fr}} (dialecte strasbourgeois)
+
+=== {{S|références}} ===
+* « Müsfàlla », [https://web.archive.org/web/20150507222526/http://culture.alsace.pagesperso-orange.fr/page_m.htm page M], dictionnaire alsacien-français, culture.alsace.pagesperso-orange.fr

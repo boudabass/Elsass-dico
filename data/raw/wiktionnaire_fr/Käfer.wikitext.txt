@@ -1,0 +1,81 @@
+{{voir|kafer}}
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: {{siècle|IX}}. Du {{étyl|gmh|de|mot=këver, këvere}} du {{étyl|gmh|de|mot=chëvar, chëvaro}}.<ref> Friedrich Kluge, bearbeitet von Elmar Seebold: Etymologisches Wörterbuch der deutschen Sprache. 24., durchgesehene und erweiterte Auflage. Walter de Gruyter, Berlin/New York 2001, ISBN 978-3-11-017473-1, DNB 965096742, Seite 377.</ref>
+: Apparenté au {{étyl|nl|de|mot=kever}} et à l’{{étyl|en|de|mot=chafer}} de même sens.
+=== {{S|nom|de}} ===
+{{de-nom-m-er}}
+'''Käfer''' {{pron|ˈkɛːfɐ|de}} {{m}}
+# {{lexique|zoologie|de}} {{insectes|de}} [[coléoptère|Coléoptère]] ([[ordre]] d’[[insecte]]s), souvent : [[scarabée]]s, [[escarbot]]s.
+#* {{exemple | lang=de
+ | Die Igel finden immer weniger '''Käfer''' zum Fressen.
+ | Les hérissons trouvent de moins en moins de coléoptères à manger.}}
+# {{lexique|automobile|de}} {{term|par [[métaphore]]}} [[Coccinelle]] ([[automobile]] Volkswagen type 1).
+#* {{exemple | lang=de
+ | Der Volkswagen "'''Käfer'''" war das meistverkaufte Automobil der Welt.
+ | La Volkswagen "coccinelle" était l'automobile la plus vendue au monde.}}
+# {{vulgaire|de}} [[fille#fr|Fille]] [[jeune]] et [[jolie]].
+#* {{exemple | lang=de
+ | Ein netter, reizender '''Käfer'''.
+ | Une jolie et charmante fille.}}
+[[Fichier:Iconographie et histoire naturelle des coléoptères d'Europe; (1829) (20187953243).jpg|vignette|(1) '''Käfer''' - Coléoptères.]]
+[[Fichier:Volkswagen Beetle 5.jpg|vignette|(2) '''VW Käfer''' - VW coccinelle.]]
+==== {{S|diminutifs}} ====
+'' Coléoptère :''
+* [[Käferchen]]
+==== {{S|dérivés}} ====
+{{(|colonnes=2|Coléoptère}}
+* [[Aaskäfer]] (''silphidae'')
+* [[Bockkäfer]] (''capricorne'')
+* [[Bohrkäfer]] (''bostrichidae'')
+* [[Borkenkäfer]] (''scolyte'')
+* [[Glückskäfer]] (''scarabée porte-bonheur'')
+* [[Hirschkäfer]] (''lucane''), (''cerf-volant'')
+* [[Junikäfer]] (''hanneton'')
+* [[Käferforschung]] (''chasse aux coléoptères'')
+* [[Käferlarve]] (''larve de coléoptère'')
+* [[Käfersammlung]] (''collection de coléoptères'')
+* [[Käferschnecke]] (''chiton'')
+* [[Kartoffelkäfer]] (''doryphore'')
+* [[Laufkäfer]] (''carabe'')
+* [[Leuchtkäfer]] (''luciole''), (''ver luisant'')
+* [[Nebeltrinker-Käfer]] (''ténébrion du désert'')
+* [[Maikäfer]] (''hanneton'')
+* [[Marienkäfer]] (''coccinelle'')
+* [[Mistkäfer]] (''géotrupe''), (''bousier'')
+* [[Ölkäfer]] (''méloé'')
+* [[Rennkäfer]]
+* [[Rüsselkäfer]] (''charançon'')
+* [[Schwarzkäfer]] (''ténébrion'')
+* [[Seidenkäfer]]
+* [[Skarabäus-Käfer]]
+* [[Tabakkäfer]] (''vrillette du tabac'')
+* [[Totenkäfer]] (''scarabée funèbre''), (''scarabée puant'')
+* [[Wüstenkäfer]] (''scarabée du désert'')
+{{)}}
+==== {{S|hyperonymes}} ====
+* [[Insekt]]
+* [[Tier]]
+=== {{S|prononciation}} ===
+* {{écouter|lang=de|Allemagne (Berlin)|audio=LL-Q188 (deu)-Sebastian Wallroth-Käfer.wav}}
+=== {{S|références}} ===
+<references />
+==== {{S|sources}} ====
+* {{R:Duden|Käfer}}
+* {{R:DWDS|Käfer}}
+* {{Source-wikt|de|Käfer}}
+==== {{S|bibliographie}} ====
+* Larousse - Dctionnaire allemand/français – français/allemand , éd. 1958, p 551.
+* Harrap’s – Bordas Dictionnaire allemand/français, éd. 1997, p 162.
+{{clé de tri|kafer}}
+
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|nom|gsw-fr}} ===
+'''Käfer''' {{pron||gsw-fr}}
+# [[cafard|Cafard]].
+
+{{clé de tri|kafer}}

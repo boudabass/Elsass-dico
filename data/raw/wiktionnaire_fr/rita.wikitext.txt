@@ -1,0 +1,103 @@
+{{voir/rita}}
+
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|verbe|gsw-fr}} ===
+'''rita''' {{pron||gsw-fr}}
+# Aller à [[cheval]].
+
+== {{langue|is}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|is}}
+
+=== {{S|verbe|is}} ===
+'''rita''' {{pron|ˈrɪː.ta|is}}
+# [[écrire|Écrire]].
+
+==== {{S|synonymes}} ====
+* [[skrifa]]
+
+== {{langue|avk}} ==
+=== {{S|étymologie}} ===
+: {{avk-arbitraire}}<ref>{{avk-ref-arbitraire}}</ref>.
+
+=== {{S|nom|avk}} ===
+'''rita''' {{pron|ˈrita|avk}}
+# [[pause|Pause]].
+#* {{exemple | lang=avk
+ | Re tir '''rita''' isen pisidik va ina impavantar ta funtera va int.
+ | Maintenant est une pause et un stagiaire en profite pour s’entrainer.
+ | source=[https://youtu.be/pPEnowkhdc4?list=PLwgDqDH7vmpTqraYZXZ3xtpwFl61-L0Vg&t=61 vidéo], Luce Vergneaux, ''Pisida Icde Stutera Isu Lexura'', 2020}}
+
+==== {{S|augmentatifs}} ====
+* {{lien|ritapa|avk}}
+
+==== {{S|diminutifs}} ====
+* {{lien|ritama|avk}}
+
+==== {{S|dérivés}} ====
+* {{lien|ritá|avk}}
+* {{lien|ritagí|avk}}
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=avk|France|ˈrita|audio=rita (avk).wav}}
+
+=== {{S|anagrammes}} ===
+* {{lien|arti|avk}}
+* {{lien|atri|avk}}, {{lien|atrí|avk}}
+* {{lien|itar|avk}}
+* {{lien|tari|avk}}
+* {{lien|tira|avk}}
+
+=== {{S|références}} ===
+*{{Kotapedia|rita}}
+{{Références}}
+
+[[Catégorie:Mots en kotava répertoriés sur Kotapedia]]
+
+== {{langue|oc}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|oc}}
+
+=== {{S|nom|oc}} ===
+{{oc-rég|ˈri.to̯}}
+'''rita''' {{pron|ˈri.to̯|oc}} {{oc-norme classique}} {{f}} {{équiv-pour|un mâle|rit|lang=oc}}
+# {{canards|oc}} [[cane|Cane]].
+
+==== {{S|synonymes}} ====
+* {{lien|guita|oc}}
+* {{lien|aneda|oc}}
+
+==== {{S|variantes dialectales}} ====
+* {{lien|guitòta|oc}}, {{lien|guitona|oc}} {{oc gascon|nocat=1}}
+
+=== {{S|anagrammes}} ===
+{{voir anagrammes|oc}}
+
+=== {{S|références}} ===
+* {{R:Lo Congrès}}
+* {{R:Cantalausa}}
+* {{R:Laux-dict-oc-fr}}
+* {{R:Ubaud}}
+[[Catégorie:Animaux femelles en occitan]]
+[[Catégorie:Oiseaux en occitan]]
+
+== {{langue|sv}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|sv}}
+
+=== {{S|verbe|sv}} ===
+{{sv-conj-ar}}
+'''rita''' {{pron||sv}}
+# [[dessiner|Dessiner]].
+
+==== {{S|synonymes}} ====
+* [[teckna]]
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=sv|Suède <!-- précisez svp la ville ou la région -->||audio=Sv-rita.ogg}}
+
+=== {{S|anagrammes}} ===
+* {{lien|tira|sv}}

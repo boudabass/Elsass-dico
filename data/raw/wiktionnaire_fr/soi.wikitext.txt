@@ -1,0 +1,239 @@
+{{voir/soi}}
+
+== {{langue|conv}} ==
+=== {{S|symbole|conv}} ===
+'''soi'''
+# {{lexique|linguistique|conv}} Code {{w|ISO 639-3}} du [[sonha]].
+
+=== {{S|références}} ===
+* {{Lien 639-3|soi}}
+
+== {{langue|fr}} ==
+=== {{S|étymologie}} ===
+: (Pronom) Du {{étyl|la|fr|se}}.
+: (Nom) Emprunt non adapté du {{étyl|th|fr|ซอย}}.
+
+=== {{S|pronom personnel|fr}} ===
+'''soi''' {{pron|swa|fr}} {{mf}}, {{sp}}, {{invariable|fr}}
+# Pronom réfléchi de la troisième personne du singulier ou du pluriel.
+#* {{exemple | lang=fr
+ | Il huma une grande gorgée d’air glacé et, après avoir regardé à droite et à gauche, il rentra dans son cabaret, dont il referma soigneusement la porte derrière '''soi'''.
+ | source={{w|Pierre Mac Orlan}}, ‘’{{w|Le Quai des brumes (roman)|Le Quai des brumes}}’', Gallimard Folio 1972, page 73}}
+#* {{exemple | lang=fr
+ | Des riches encombrés par les objets précieux qu'ils traînaient avec '''soi''' périrent égorgés sur les routes avec leur petite troupe de serviteurs restés fidèles.
+ | source={{w|Marguerite Yourcenar}}, ''{{w|Archives du Nord}}'', Gallimard, 1977, page 33}}
+#* {{exemple | lang=fr
+ | La mégalomanie, ''quezaco'' ? Elle consiste en une surestimation de ses capacités qui se traduit par un désir immodéré de puissance et un amour exclusif ou excessif de '''soi'''.
+ | source=René Chiche, ''Le dico des mégalos'', Éditions de L’Archipel, 2019, dans le ''préambule''}}
+#* {{exemple |L’hôtel particulier était à '''soi''' seul un sacré capital… |source={{w|Pierre Lemaitre}}, ''Couleurs de l’incendie'', Albin Michel, 2018|lang=fr}}
+
+{{note}}
+: Ce mot s’emploie en général en complément, précédé d’une préposition. On trouve cependant l’expression ''être '''soi''','' où il est attribut. Quand on le dit des personnes, il se rapporte souvent à un sujet indéterminé.
+:* ''On doit parler rarement de '''soi'''.''
+:* ''Chacun travaille pour '''soi'''.''
+:* ''Quiconque rapporte tout à '''soi''' n’a pas beaucoup d’amis.''
+:* ''Prendre garde à '''soi'''.''
+:* ''Ne vivre que pour '''soi'''.''
+:* ''Prendre sur '''soi''' une affaire, un choix, une initiative, une décision.''
+:* ''N’avoir rien à '''soi'''.''
+:* ''L’amour de '''soi'''.'' Quand on le dit des choses, il peut se rapporter à un sujet déterminé.
+:* ''Un bienfait porte sa récompense avec '''soi'''.''
+:* ''Les remords que le crime traîne après '''soi'''.''
+:* ''Être '''soi''','' Garder son caractère propre, sa personnalité.
+:* ''Il faut toujours être '''soi'''.''
+:* ''Être à '''soi''','' Ne dépendre de rien, de personne être maître de son temps.
+:* ''Quand on est au service de quelqu’un, on n’est plus à '''soi'''.''
+:* ''L’ennui d’une journée si occupée, c’est qu’on ne peut être à '''soi''' un quart d’heure.''
+:* ''N’être pas à '''soi''''' signifie aussi Avoir perdu le sens.
+:* ''Dans l’ivresse, on n’est plus à '''soi'''.''
+:* ''Être hors de '''soi'''.'' Voyez « [[hors]] ».
+:* ''Rentrer en '''soi''','' faire des réflexions plus sérieuses, plus sages.
+:* ''[[revenir à soi]]''.
+:* ''Rentrer chez '''soi''','' retourner dans sa maison.
+:* ''Vivre chez '''soi''''' et substantivement.
+:* ''Avoir un chez-'''soi''','' avoir une habitation en propre.
+:* ''De '''soi''','' de sa nature.
+:* ''De '''soi''' le vice est odieux.''
+:* ''La vertu est aimable de '''soi'''.''
+:* ''Cette chose va de '''soi''','' elle est toute naturelle, elle ne souffre pas de difficulté.
+:* ''En '''soi''','' dans sa nature.
+:* ''Le repos est agréable en '''soi'''.''
+:* ''Sur '''soi''','' sur son corps, sur sa personne.
+:* ''Être propre sur '''soi'''.''
+:* ''Avoir de l’argent sur '''soi'''.''
+:* ''À part '''soi''' : {{familier|fr}} En son particulier, dans son for intérieur.''
+:** ''Faire des réflexions, une réflexion à part '''soi'''.''
+
+==== {{S|synonymes}} ====
+* [[lui]], [[elle]], [[eux]], [[elles]]
+
+==== {{S|dérivés}} ====
+{{(|colonnes=3}}
+* [[dépassement de soi]]
+* [[estime de soi]]
+* [[image de soi]]
+* [[porter son excuse avec soi]]
+* [[soi-même]]
+{{)}}
+
+==== {{S|phrases}} ====
+* [[charité bien ordonnée commence par soi-même]]
+
+==== {{S|traductions}} ====
+{{trad-début}}
+* {{T|de}} : {{trad+|de|selbst}}, {{trad+|de|sich}}
+* {{T|en}} : {{trad+|en|oneself}}
+* {{T|ar}} : {{trad-|ar|الذات}}, {{trad-|ar|الذات}}, {{trad-|ar|الذات}}
+* {{T|br}} : {{trad+|br|an-unan}}
+* {{T|ca}} : {{trad+|ca|si}}
+* {{T|zh}} : {{trad+|zh|自我}}
+* {{T|ko}} : {{trad+|ko|자신|tr=jasin}}
+* {{T|hr}} : {{trad+|hr|sebe}}
+* {{T|es}} : {{trad+|es|sí}}
+* {{T|eo}} : {{trad+|eo|mem}}
+* {{T|ja}} : {{trad+|ja|自身}}
+* {{T|avk}} : {{trad|avk|int}}
+* {{T|lep}} : {{trad|lep|ᰌᰨ}}
+* {{T|normand}} : {{trad|normand|sei}}
+* {{T|oc}} : {{trad+|oc|se}}
+* {{T|pt}} : {{trad+|pt|si}}
+* {{T|solrésol}} : {{trad|solrésol|dosol}}
+{{trad-fin}}
+
+=== {{S|nom|fr}} ===
+{{fr-inv|sɔj}}
+[[File:Soi in Chiang Mai.JPG|thumb|Un '''soi''' à [[Chiang Mai]]]]
+'''soi''' {{pron|sɔj|fr}} {{m}} {{invariable|fr}}
+# {{lexique|urbanisme|fr}} En Thaïlande, [[rue]] ou [[ruelle]] d’importance secondaire, qui coupe perpendiculairement une [[rue]] ou [[route]] principale (''[[thanon]]'', ถนน).
+
+=== {{S|prononciation}} ===
+* {{pron-rimes|swa|fr}}
+* {{pron-rimes|sɔj|fr}}
+* (Pronom) {{pron|swa|fr}}
+* (Nom) {{pron|sɔj|fr}}
+* {{écouter|||lang=fr|audio=LL-Q150 (fra)-WikiLucas00-soi.wav}}
+* {{écouter|canton de Fribourg (Suisse)||lang=fr|audio=LL-Q150 (fra)-CKali-soi.wav}}
+* {{écouter|Vendée (France)||lang=fr|audio=LL-Q150 (fra)-Sartus85-soi.wav}}
+
+==== {{S|homophones|fr}} ====
+* [[soie]]
+* [[soient]], [[sois]], [[soit]] ''(formes du verbe [[être]])''
+
+=== {{S|anagrammes}} ===
+{{voir anagrammes|fr}}
+
+=== {{S|voir aussi}} ===
+* {{WP|Soi}}
+* {{WP|Soi (Thaïlande)}}
+* {{Wikiquote}}
+* {{Annexe|Pronoms en français}}
+
+=== {{S|références}} ===
+* {{Import:DAF8}}
+
+[[Catégorie:Homographes non homophones en français]]
+[[Catégorie:Noms communs invariables en français]]
+
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+{{ébauche-étym|gsw-fr}}
+
+=== {{S|nom|gsw-fr}} ===
+dr '''Soi''' ({{p}} : d’'''Soie''')
+# [[cochon|Cochon]], [[porc]].
+
+=== {{S|prononciation}} ===
+* {{pron|sɔɪ|gsw-fr}}
+
+[[Catégorie:Animaux en alémanique alsacien|Soi]]
+
+== {{langue|fro}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|fro}}
+
+=== {{S|pronom personnel|fro}} ===
+'''soi''' {{pron-recons||fro}}
+# [[soi#fr|Soi]].
+# De temps en temps, on le trouve là où on attendrait [[se#fr|se]] en français moderne.
+#* {{exemple | lang=fro
+ | Chil que ne pot aler<br> de '''soi''' movoir ne remuer
+ | source={{w|Wace}}, ''Le Livre de Saint Nicolas'', [http://gallica.bnf.fr/ark:/12148/btv1b55000507q/f151.item.zoom f. 73r., vers la fin de la {{4e|colonne}} de ce manuscrit]}}
+#* {{exemple | lang=fro
+ | Mist '''soi''' en le procession
+ | Elle se mit dans la procession
+ | source=''Vie de sainte Marie l’Égyptienne'', [[manuscrit|ms.]] 23112 de la {{w|BnF}}, f. 336v. b.}}
+# [[lui|Lui]] ou [[elle]].
+#* {{exemple | lang=fro
+ | La ceinture ceint entur '''sei'''
+ | Elle serre la ceinture autour d’elle.
+ | source=''Éliduc'', {{w|Marie de France}}, [http://www.bl.uk/manuscripts/Viewer.aspx?ref=harley_ms_978_f154v f. 154v, 1{{re}} colonne de ce manuscrit de 1275-1300]}}
+
+==== {{S|variantes}} ====
+* {{lien|sei|fro}} ''(surtout ancien ou anglo-normand)''
+* {{lien|soy|fro}} ''(surtout ancien français tardif)''
+
+==== {{S|dérivés autres langues}} ====
+* {{L|fr}} : {{lien|soi|fr}}
+
+=== {{S|références}} ===
+* {{R:Godefroy}}
+
+== {{langue|oc}} ==
+=== {{S|verbe|oc|flexion}} ===
+'''soi''' {{pron|ˈsuj|oc}} {{oc-norme classique}}
+# {{oc languedocien}} ''Première personne du singulier du présent de l’indicatif d''’[[èsser#oc|èsser]].
+#* {{exemple|lang=oc|'''Soi''' pus jove que tu.|Je suis plus jeune que toi.}}
+# {{oc gascon}} ''Première personne du singulier du présent de l’indicatif d''’[[estar#oc|estar]].
+
+==== {{S|variantes dialectales}} ====
+* {{lien|sui|oc}}, {{lien|sei|oc}} {{oc limousin|nocat=1}}
+* {{lien|siáu|oc}} {{oc provençal|nocat=1}}
+* {{lien|sòi|oc}} {{oc gascon|nocat=1}}
+
+== {{langue|vi}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|vi}}
+
+=== {{S|verbe|vi}} ===
+'''soi''' {{pron||vi}}
+# Île d’[[alluvions]] (sur le cours d’une rivière).
+# [[éclairer|Éclairer]].
+#* {{exemple | lang=vi
+ | '''soi''' đèn
+ | Éclairer avec une lampe.}}
+# Se [[mirer]].
+#* {{exemple | lang=vi
+ | '''soi''' gương
+ | Se mirer dans un miroir.}}
+# [[mirer|Mirer]].
+#* {{exemple | lang=vi
+ | '''soi''' trứng
+ | Mirer un œuf.}}
+# [[pêcher|Pêcher]] au [[flambeau]]; [[pêcher]] en s’[[éclairant]] d’une [[torche]].
+#* {{exemple | lang=vi
+ | đèn '''soi''' trứng
+ | Mire-œufs.}}
+# [[averti|Averti]]; [[exercé]].
+#* {{exemple | lang=vi
+ | Người '''soi'''
+ | Personne avertie.}}
+
+=== {{S|prononciation}} ===
+* {{pron|ʃɔʲ˦|vi}}
+* {{écouter|lang=vi|Nord du Vietnam (Hanoï)|sɔʲ˦}}
+* {{écouter|lang=vi|Sud du Vietnam (Ho Chi Minh-Ville)|ʃɔʲ˦}}
+
+==== {{S|paronymes}} ====
+* [[sổi]]
+* [[sồi]]
+* [[sôi]]
+* [[sói]]
+* [[sõi]]
+* [[sỏi]]
+* [[sòi]]
+* [[sởi]]
+* [[sới]]
+* [[sợi]]
+
+=== {{S|références}} ===
+* {{R:FVDP}}

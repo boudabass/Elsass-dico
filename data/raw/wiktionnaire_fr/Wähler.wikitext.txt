@@ -1,0 +1,35 @@
+== {{langue|de}} ==
+
+=== {{S|étymologie}} ===
+: {{composé de|wählen|-er|lang=de|m=1}}
+
+=== {{S|nom|de}} ===
+{{de-nom-m-er|vɛːlɐ}}
+'''Wähler''' {{pron|vɛːlɐ|de}} {{m}} {{équiv-pour|lang=de|une femme|Wählerin}}
+# {{lexique|politique|de}} [[électeur#fr|Électeur]].
+#* {{exemple|Werden die '''Wähler''' bei den Kommunalwahlen die Regierungsparteien abstrafen?|lang=de|sens=Les électeurs vont-ils punir les partis au pouvoir lors des élections municipales ?}}
+
+==== {{S|apparentés}} ====
+* [[Wahl]]
+
+==== {{S|dérivés}} ====
+* {{lien|Nichtwähler|de|sens=abstentionniste}}
+* [[Wählergunst]]
+
+=== {{S|prononciation}} ===
+* {{écouter|{{DE|nocat=1}}|ˈvɛːlɐ|lang=de|audio=De-Wähler.ogg}}
+* {{écouter|Berlin|ˈvɛːlɐ|lang=de|audio=De-Wähler2.ogg}}
+
+== {{langue|gsw-fr}} ==
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|nom|gsw-fr}} ===
+'''Wähler''' {{m}} {{équiv-pour|lang=gsw-fr|une femme|Wählera}}
+# [[électeur|Électeur]].
+
+{{clé de tri|Wahler}}
+
+[[Catégorie:Lexique en allemand des systèmes électoraux]]
+[[Catégorie:Lexique en alémanique alsacien des systèmes électoraux]]

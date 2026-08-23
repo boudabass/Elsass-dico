@@ -1,0 +1,11 @@
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|nom propre|gsw-fr}} ===
+'''Strossburg''' {{pron||gsw-fr}}
+# {{localités|gsw-fr|du département du Bas-Rhin}} [[Strasbourg]].
+#* {{exemple|lang=gsw-fr}}
+
+=== {{S|prononciation}} ===
+{{ébauche-pron-audio|gsw-fr}}

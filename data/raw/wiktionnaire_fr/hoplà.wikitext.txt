@@ -1,0 +1,18 @@
+== {{langue|gsw-fr}} ==
+
+=== {{S|étymologie}} ===
+: {{composé de|m=1|hop|là|lang=gsw-fr}} {{cf|holà|lang=fr}}.
+
+=== {{S|interjection|gsw-fr}} ===
+'''Hoplà''' {{pron|ɔplaː|gsw}}
+# Nombreuses significations selon le contexte et l'intonation. Conclusif, impératif, constatatif, etc.
+# [[zou#fr|Zou]], {{lien|vite|fr}} ! Allez {{lien|ouste|fr}} !
+#* {{exemple | lang=gsw-fr
+ | '''Hopla''' Geiss, dr Bock hàt Hochzit.
+ | Dépêche-toi, chèvre, le bouc se marie !}}
+
+==== {{S|variantes orthographiques}} ====
+* [[hop-là]], [[hop là]]
+
+
+{{clé de tri|hopla}}

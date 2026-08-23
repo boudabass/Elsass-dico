@@ -1,0 +1,776 @@
+{{voir/mer}}
+
+== {{langue|conv}} ==
+=== {{S|symbole|conv}} ===
+'''mer'''
+# {{lexique|linguistique|conv}} Code {{w|ISO 639-3}} du [[meru]].
+
+=== {{S|références}} ===
+* {{Lien 639-3|mer}}
+
+== {{langue|fr}} ==
+=== {{S|étymologie}} ===
+: ''(1050)'' Du {{étyl|la|fr|mot=mare|sens=mer}}{{R|TLFi}}.
+
+=== {{S|nom|fr}} ===
+{{fr-rég|mɛʁ}}
+[[Image:La_mer_pour_motif_ou_fond.jpg|vignette|La '''mer''' (1)]]
+[[Image:Pagin 2020-03-08 14.jpg|vignette|Une '''mer''' de pétrole (3)]]
+[[Image:Vignes jeunes à Sarrians.jpg|vignette|Une '''mer''' de vignes (4)]]
+[[Image:Blason Saint-Aubin-sur-Mer.svg|vignette|150px|Armoiries avec une '''mer''' (5)]]
+'''mer''' {{pron|mɛʁ|fr}} {{f}}
+# {{info lex|géographie}} Vaste [[étendue]] d’eau [[saler|salée]] qui [[baigner|baigne]] les [[divers]]es [[partie]]s de la [[terre]].
+#* {{exemple | lang=fr | Le flux et le reflux de la '''mer'''.}} — #* {{exemple | lang=fr | Poisson, bain de '''mer'''.}} — {{exemple | lang=fr | Faire un voyage par '''mer''', en '''mer'''.}}
+#* {{exemple | lang=fr
+ | La '''mer''', c’est le placenta originel, la profondeur des fosses marines, les créatures baroques, les tempêtes effroyables, les vagues scélérates.
+ | source={{w|Pascal Bruckner}}, ''Dans l’amitié d’une montagne'', Grasset, 2022, page 173}}
+#* '''''Mer''' : a) Ensemble des eaux salées recouvrant la partie immergée de la planète terre. S’oppose à terre d). On dit aussi océan mondial. Les étendues d’eau fermées, même salées, situées à l’intérieur des terres (mer Caspienne, mer Morte, mer d’Aral) ne sont pas considérées malgré leur nom, comme faisant partie de la mer. Voir aussi HYDROSPHÈRE.<br
+/>b) Division géographique non majeure de l’océan mondial, caractérisée par ses limites continentales ou insulaires et éventuellement des particularités hydrologiques.'' {{source|[http://hd.iho.int/fr/index.php/Mer '''''Mer'''''], Dictionnaire hydrographique (S-32) de l’Organisation hydrographique internationale (OHI), 2010}}
+# {{lexique|marine|fr}} Son [[état]] pour la [[navigation]].
+#* {{exemple | lang=fr
+ | Le temps se modère un peu ; la '''mer''' toujours affreuse ; le navire se comporte toujours très-bien, la mâture ne bouge pas quoique le navire tangue beaucoup.
+ | source=« Les Feux flottants », dans le ''{{w|Magasin pittoresque}}'', vol. 36, 1868, page 118}}
+#* {{exemple | lang=fr
+ | Dès le 14 au matin, une effroyable tourmente du sud-ouest vint assaillir ces escadres, et, soulevant une '''mer''' monstrueuse, leur fit courir les plus grands périls.
+ | source=Frédéric Zurcher et Élie-PhilippeMargollé, ''Les Naufrages célèbres'', chapitre 19, Hachette, Paris, 1873, {{3e|édition}}, 1877, page 184}}
+#* {{exemple | lang=fr
+ | Après avoir laissé derrière nous les Orcades, nous entrâmes en plein Atlantique, et la '''mer''' s’enfla prodigieusement.
+ | source=Jules Leclercq, ''La Terre de glace, Féroë, Islande, les geysers, le mont Hékla'', E. Plon & Cie, Paris, 1883, page 29}}
+#* {{exemple | lang=fr
+ | Le ''Firecrest'' tanguait fortement contre une '''mer''' très dure, plongeant son étrave dans les lames.
+ | source={{w|Alain Gerbault}}, ''À la poursuite du soleil'' ; tome 1 : ''De New-York à Tahiti'', 1929}}
+#* {{exemple | lang=fr
+ | Comment allait se passer notre amerrissage sur une '''mer''' aussi démontée ?
+ | source={{w|Jean Mermoz}}, ''Mes vols'', Flammarion, 1937, page 72}}
+#* {{exemple | lang=fr
+ | '''Mer''' : ''[…]'' c) État d’agitation de la surface de la mer au sens a) sous l’effet des vagues et de la houle. Voir état de la mer.
+ | source=[http://hd.iho.int/fr/index.php/Mer '''''Mer'''''], Dictionnaire hydrographique (S-32) de l’Organisation hydrographique internationale (OHI), 2010}}
+# {{par hyperbole|fr}} Grande étendue de [[liquide]].
+#* {{exemple | lang=fr | La rivière débordée couvrait la campagne, c’était une vraie '''mer'''.}}
+#* {{exemple|lang=fr|Une '''mer''' de sang|sens=Une grande quantité de sang répandu.}}
+# {{par extension|fr}} {{par hyperbole|fr}} Vaste étendue d’un ensemble qui peut paraître homogène à la vue.
+#* {{exemple | lang=fr
+ | Nous trouvons des places au milieu d'une '''mer''' de chapeaux dans le brouhaha étouffé des conversations. La mariée arrive avec le retard de circonstance, […].
+ | source={{w|Mark Mills}}, ''En attendant Doggo'', traduit de l’anglais par Florence Hertz, éditions Belfond, 2016}}
+#* {{exemple | lang=fr
+ | Ces terrains secs et pierreux, ces sols très légers portaient jadis une '''mer''' de vignes de Saint-Michel à Junay sur la rive gauche de l’Armançon, de Maison Rouge à Dannemoine sur la rive droite.
+ | source=Loïc Abric, Jean-François Delorme et Hélène Liebert, « ''En Tonnerrois'' », dans ''Le Crémant de Bourgogne: Deux siècles d’effervescence'', sous la direction de Jean-François Bazin, Editions Dunod, 2015, page 72}}
+# {{meubles héraldiques|fr}} {{lien|meuble|fr|héraldique|dif=Meuble}} représentant une étendue liquide dans les {{lien|armoiries|fr}}. Il s’agit d'une zone colorée couvrant le tiers inférieur du champ (donc {{lien|mouvant|fr}} de la {{lien|pointe|fr}}) avec une ligne de découpe supérieure {{lien|ondée|fr}} rappelant les vagues ainsi que d’ombrages ou lignes également ondées sur la zone colorée. On la dit {{lien|ombrée|fr}} quand les vagues sont représentées d’un autre {{lien|émail|fr}}.
+#* ''D’azur, aux trois colonnes d’argent à chapiteau corinthien surmontées de trois coquilles du même et mouvant d’une '''mer''' de sinople, qui est de la commune de Saint-Aubin-sur-Mer du Calvados'' {{cf|lang=fr}} illustration « armoiries avec une mer »
+# {{lexique|astronomie|fr}} [[plaine|Plaine]] [[basaltique]] grande et sombre de la [[Lune]].
+#* {{exemple|lang=fr}}
+
+==== {{S|notes}} ====
+: ''Héraldique''
+: Si l’utilisation de ce terme se retrouve dans des blasonnements au début du {{siècle2|XIX}} siècle {{source|''Dictionnaire encyclopédique de la noblesse de France'', {{w|Nicolas Viton de Saint-Allais}}, 1816}}, ni {{w|Pierre Palliot}} {{source|''La vraye et parfaite science des armoiries'', 1664}}, ni {{w|Amédée de Foras}} {{source|''Le blason, dictionnaire et remarques'', 1883}} dans leurs dictionnaires ne mentionnent le terme. Il faut attendre le début du {{siècle2|XX}} siècle pour le voir apparaître dans les dictionnaires héraldiques (ou non) : {{source|''Armorial Général précédé d’un Dictionnaire des termes du Blason'', {{w|Jean-Baptiste Rietstap}}, 1887}}, {{source|''Dictionnaire archéologique et explicatif de la Science du Blason'', Alph. O’Kelly de Galway, 1901}} ou encore {{source|''Dictionnaire encyclopédique en 7 volumes'', Larousse, 1905}}.
+
+==== {{S|antonymes}} ====
+* [[terre]] (1)
+
+==== {{S|dérivés}} ====
+{{(|colonnes=5}}
+* [[accident de mer]]
+* [[accouplement en mer]] {{info lex|industrie}}
+* [[aigle de mer]]
+* [[aiguille de mer]]
+* [[air-mer]]
+* [[amande de mer]]
+* [[amerrir]]
+* [[amerrissage]]
+* [[ange de mer]]
+* [[anguille de mer]]
+* [[anémone de mer]]
+* [[araignée de mer]]
+* [[autoroute de la mer]], [[ADM]]
+* [[bain de mer]]
+* [[balayures de mer]]
+* [[banane de mer]]
+* [[bécasse de mer]]
+* [[bécassine de mer]]
+* [[Bény-sur-mer]]
+* [[biche-de-mer]]
+* [[biscuit de mer]]
+* [[boire la mer et les poissons]]
+* [[bouteille à la mer]]
+* [[bras de mer]]
+* [[brochet de mer]]
+* [[brème de mer]]
+* [[bêche-de-mer]]
+* [[brise de mer]]
+* [[canari de mer]], [[canari des mers]]
+* [[chat de mer]]
+* [[châtaigne-de-mer]], [[châtaigne de mer]]
+* [[chauve-souris de mer]]
+* [[cheval de mer]]
+* [[chien de mer]], [[chien-de-mer]]
+* [[choucroute de la mer]]
+* [[cigale de mer]]
+* [[citron de mer]]
+* [[clown de mer]]
+* [[cochon de mer]]
+* [[coco des mers]]
+* [[cocotier de mer]]
+* [[concombre de mer]]
+* [[corail de mer]]
+* [[corbeau de mer]]
+* [[coup de mer]]
+* [[coureur de mers]]
+* [[crapaud de mer]]
+* [[croix de mer]]
+* [[datte de mer]]
+* [[de la rivière à la mer]]
+* [[diable de mer]]
+* [[diable de mer méditerranéen]]
+* [[du fleuve à la mer]]
+* [[eau de mer]]
+* [[écume de mer]]
+* [[Édimbourg-des-Sept-Mers]]
+* [[éléphant de mer]]
+* [[entélure de mer]]
+* [[épinard de mer]]
+* [[épinoche de mer]]
+* [[étoile de mer]]
+* [[événement de mer]], [[évènement de mer]]
+* [[évêque de mer]]
+* [[escargot de mer]]
+* [[figue de mer]]
+* [[fortune de mer]]
+* [[front de mer]]
+* [[fruit de mer]]
+* [[grand aigle de mer]]
+* [[grand serpent de mer]]
+* [[grenouille de mer]]
+* [[groseille de mer]]
+* [[guitare de mer]]
+* [[guêpe de mer]]
+* [[haricot de mer]]
+* [[hérisson de mer]]
+* [[hirondelle de mer]]
+* [[incident de mer]]
+* [[jet à la mer]]
+* [[jeter du sel dans la mer]]
+* [[jeter une bouteille à la mer]]
+* [[kayak de mer]]
+* [[laisses de mer]]
+* [[laitue de mer]]
+* [[lavande de mer]]
+* [[léopard de mer]]
+* [[liberté des mers]]
+* [[licorne de mer]]
+* [[lilas de mer]]
+* [[limace de mer]]
+* [[lion de mer]]
+* [[liseron de mer]]
+* [[lièvre de mer]]
+* [[loche de mer]]
+* [[lotte de mer]]
+* [[loup de mer]]
+* [[loutre de mer]]
+* [[lune de mer]]
+* [[mal de mer]]
+* [[mer Adriatique]]
+* [[mer-air]]
+* [[mer Antarctique]]
+* [[mer Baltique]]
+* [[mer Baltique centrale]]
+* [[mer Blanche]]
+* [[mer carrée]]
+* [[mer Caspienne]]
+* [[mer Celtique]]
+* [[mer côtière de la côte ouest de l’Écosse]]
+* [[mer croisée]]
+* [[mer d’Alboran]]
+* [[mer d’Allemagne]] (du Nord)
+* [[mer d’Amundsen]]
+* [[mer d’Anadyr]] (le golfe d’Anadyr)
+* [[mer d’Arabie]]
+* [[mer d’Arafura]]
+* [[mer d’Aral]]
+* [[mer d’Aru]]
+* [[mer d’Azof]] {{désuet|nocat=1}}
+* [[mer d’Azov]]
+* [[mer d’Écosse]]
+* [[mer d’Émeraude]] (lagon malgache)
+* [[mer d’Halmahera]]
+* [[mer d’Hudson]] {{désuet|nocat=1}}
+* [[mer d’huile]]
+* [[mer d’Irlande]]
+* [[mer d’Iroise]]
+* [[mer d’Islande]]
+* [[mer d’Okhotsk]]
+* [[mer d’Oman]] (d’Arabie)
+* [[mer de Baffin]] {{désuet|nocat=1}}
+* [[mer de Bali]]
+* [[mer de Banda]]
+* [[mer de Barents]]
+* [[mer de Beaufort]]
+* [[mer de Behring]] {{désuet|nocat=1}}
+* [[mer de Bellingshausen]]
+* [[mer de Béring]]
+* [[mer de Biscaye]] {{désuet|nocat=1}} (le golfe de Gascogne)
+* [[mer de Bohol]]
+* [[mer de Botnie]]
+* [[mer de Cabot]] (le [[golfe Saint-Laurent]])
+* [[mer de Célèbes]]
+* [[mer de Céram]]
+* [[mer de Chine]]
+* [[mer de Chine méridionale]]
+* [[mer de Chine orientale]]
+* [[mer de Corail]]
+* [[mer de Corée]]
+* [[mer de Crète]]
+* [[mer de Davis]]
+* [[mer de Florès]]
+* [[mer de Galilée]] (lac de Tibériade)
+* [[mer de glace]]
+* [[mer de Harlem]]
+* [[mer de Herkend]] {{info lex|histoire}}
+* [[mer de Hudson]] {{désuet|nocat=1}} (d’Hudson)
+* [[mer de Java]]
+* [[mer de Kara]]
+* [[mer de Kelah]] {{info lex|histoire}}
+* [[mer de la Coopération]]
+* [[mer de la Sonde]] {{désuet|nocat=1}}
+* [[mer de la Tranquillité]] (mer lunaire)
+* [[mer de Larevy]]
+* [[mer de Lazarev]]
+* [[mer de l’Est]]
+* [[mer de Ligurie]]
+* [[mer de Lincoln]]
+* [[mer de l’Ouest]]
+* [[mer de Marmara]]
+* [[mer de Mawson]]
+* [[mer de McKinley]]
+* [[mer de Mindanao]] (de Bohol)
+* [[mer de Mindoro]] {{désuet|nocat=1}}
+* [[mer de Myrtos]] {{désuet|nocat=1}}
+* [[mer de Nigritie]] {{désuet|nocat=1}}
+* [[mer de Norvège]]
+* [[mer de portes]]
+* [[mer de Riiser-Larsen]]
+* [[mer de Ross]]
+* [[mer de sable]]
+* [[mer de Sawu]], [[mer de Savu]]
+* [[mer de Schelahat]] {{info lex|histoire}}
+* [[mer de Scotia]], [[mer du Scotia]]
+* [[mer de sel]]
+* [[mer de Seram]]
+* [[mer de Sibérie orientale]]
+* [[mer de Sibuyan]]
+* [[mer de Somov]]
+* [[mer de Soudan]] {{désuet|nocat=1}}
+* [[mer de Sulawesi]] (de Célèbes)
+* [[mer de Sulu]]
+* [[mer de Tasman]]
+* [[mer de Thrace]]
+* [[mer de Timor]]
+* [[mer de Wandel]]
+* [[mer de Weddell]]
+* [[mer des Andaman]]
+* [[mer des Antilles]]
+* [[mer des Baléares]]
+* [[mer des Bismarck]]
+* [[mer des Caraïbes]]
+* [[mer des Cosmonautes]]
+* [[mer des Hébrides]]
+* [[mer des Indes]] {{désuet|nocat=1}}
+* [[mer des Laptev]]
+* [[mer des Laquedives]]
+* [[mer des Moluques]]
+* [[mer des Natuna]]
+* [[mer des Philippines]]
+* [[mer des Salish]]
+* [[mer des Salomon]]
+* [[mer des Sargasses]]
+* [[mer des Tchouktches]]
+* [[mer des Visayas]]
+* [[mer des Wadden]]
+* [[mer du Groenland]]
+* [[mer du Japon]]
+* [[mer du Labrador]]
+* [[mer du Levant]]
+* [[mer du Nord]]
+* [[mer du Ponant]]
+* [[mer du Prince-Gustave-Adolphe]]
+* [[mer du Soudan]] {{désuet|nocat=1}}
+* [[mer du Sud]] {{désuet|nocat=1}}
+* [[mer Dumont-d’Urville]]
+* [[mer du vent]]
+* [[mer Égée]]
+* [[mer Érythrée]] {{désuet|nocat=1}}
+* [[mer fermée]]
+* [[mer Glaciale]] {{désuet|nocat=1}}
+* [[mer huileuse]]
+* [[mer Icarienne]] {{désuet|nocat=1}}
+* [[mer intérieure]]
+* [[mer Ionienne]]
+* [[mer Jaune]]
+* [[mer Ligurienne]] (de Ligurie)
+* [[mer marginale]]
+* [[mer Mauvaise]] {{désuet|nocat=1}}
+* [[mer Méditerranée]]
+* [[mer-mer]]
+* [[mer Morte]]
+* [[mer Noire]]
+* [[Mer Océane]] {{désuet|nocat=1}}
+* [[mer ouverte]]
+* [[mer Polaire]] {{désuet|nocat=1}}
+* [[mer Putride]]
+* [[mer Rouge]]
+* [[mer territoriale]], [[MT]]
+* [[mer Tyrrhénienne]]
+* [[mer Verte]] (le golfe Persique) {{désuet|nocat=1}}
+* [[mètre au-dessus du niveau de la mer]]
+* [[niveau de la mer]]
+* [[octroi de mer]]
+* [[œil de mer]]
+* [[œillet de mer]]
+* [[oie de mer]]
+* [[oiseau de mer]]
+* [[olive de mer]]
+* [[oreille de mer]]
+* [[oreille-de-mer]]
+* [[ortie de mer]]
+* [[oursin de mer]]
+* [[outre-mer]]
+* [[paille de mer]]
+* [[panicaut de mer]]
+* [[panthère de mer]]
+* [[papillon de mer]]
+* [[paquet de mer]]
+* [[passer la mer aux harengs]]
+* [[pelote de mer]]
+* [[perche de mer]]
+* [[perdrix de mer]]
+* [[permanence à la mer]]
+* [[perroquet de mer]]
+* [[peuples de la mer]]
+* [[pie de mer]]
+* [[pigeon de mer]]
+* [[poisson de mer]]
+* [[poule de mer]]
+* [[pourpier de mer]]
+* [[raisin de mer]]
+* [[rapport de mer]]
+* [[rat de mer]]
+* [[renard de mer]]
+* [[renard de mer commun]]
+* [[reprendre la mer]]
+* [[roquette de mer]]
+* [[rose-de-mer]]
+* [[sanglier de mer]]
+* [[sanglier de mer commun]]
+* [[scooter des mers]]
+* [[scorpion de mer]]
+* [[sel de mer]]
+* [[serpent de mer]]
+* [[souris de mer]]
+* [[soutien logistique à la mer]]
+* [[steak de la mer]]
+* [[taille-mer]]
+* [[tanche de mer]]
+* [[taupe de mer]]
+* [[tomate de mer]]
+* [[trompette de mer]]
+* [[trottinette des mers]]
+* [[truite de mer]]
+* [[une goutte d’eau dans la mer]]
+* [[vache de mer]]
+* [[veau de mer]]
+* [[vent de mer]]
+* [[vessie de mer]]
+* [[vieux loup de mer]]
+* [[violon de mer]]
+* [[vipère de mer]]
+{{)}}
+: {{Annexe|de mer}}
+
+==== {{S|phrases}} ====
+* [[ce n’est pas la mer à boire]]
+* [[c’est la mer à boire]]
+* [[je boirais la mer et les poissons]]
+* [[si la mer bouillait, il y aurait bien des poissons de cuits]]
+* [[un homme à la mer]]
+
+==== {{S|apparentés}} ====
+{{(}}
+* [[aigue-marine]]
+* [[amarinage]]
+* [[amariner]]
+* [[amarinite]]
+* [[anti-sous-marin]]
+* [[aurantiamarine]]
+* [[christe-marine]]
+* [[convallamarine]]
+* [[emmariner]]
+* [[fluvio-marin]]
+* [[garde-marine]]
+* [[héliomarin]]
+* [[marée]]
+* [[marin]]
+* [[marinade]]
+* [[marinage]]
+* [[marine]]
+* [[marinesque]]
+* [[marinette]]
+* [[marinier]]
+* [[marinisme]]
+* [[mariniste]]
+* [[maritime]]
+* [[sous-marin]]
+* [[sous-marinier]]
+* [[transmarin]]
+* [[ultra-marine]]
+{{)}}
+
+==== {{S|vocabulaire}} ====
+* {{voir thésaurus|fr|mer|océan|eau|eau de mer|cycle de l’eau|île|marée|tsunami|delta|bateau|navigation (transport)|aquaculture|plage|port|phare (bâtiment)|sous-marin|aviron|hydrographie|océanographie|écologie marine|faune aquatique|poisson|coquillage|crustacés|pieuvre|bivalves|nématodes|porifères|tardigrades|rotifères|géographie physique|Terre|montagne|tunnel|Jeux olympiques|héraldique|divination}}
+{{(}}
+* [[halieutique]]
+* [[océan]]
+* [[thalasso-]]
+* [[thalassophobie]]
+{{)}}
+
+==== {{S|traductions}} ====
+{{trad-début|Vaste étendue d’eau salée|1}}
+* {{T|af}} : {{trad+|af|see}}
+* {{T|akk}} : {{trad|akk|𒀀𒁀𒈠𒌅|tr=abamātu}}
+* {{T|sq}} : {{trad+|sq|det}}
+* {{T|de}} : {{trad+|de|Meer|n}}, {{trad+|de|See|f}}
+* {{T|am}} : {{trad-|am|ባሕር}}
+* {{T|en}} : {{trad+|en|sea}}
+* {{T|ang}} : {{trad-|ang|sæ}}
+* {{T|ar}} : {{trad+|ar|بحر|m|tr=baḥr|dif=بَحْر}}
+* {{T|akr}} : {{trad|akr|r̄asi}}
+* {{T|hy}} : {{trad+|hy|ծով|tr=cov}}
+* {{T|az}} : {{trad+|az|dəniz}}
+* {{T|ba}} : {{trad|ba|диңгеҙ}}
+* {{T|eu}} : {{trad-|eu|itsaso}}
+* {{T|be}} : {{trad+|be|мора|tr=mora}}
+* {{T|br}} : {{trad+|br|mor}}
+* {{T|bg}} : {{trad+|bg|море|tr=more}}
+* {{T|ca}} : {{trad+|ca|mar}}
+* {{T|shy}} : {{trad+|shy|ill}}, {{trad+|shy|ilel}}
+* {{T|chr}} : {{trad-|chr|ᎠᎺᏉᎯ|tr=amequohi}}
+* {{T|zh}} : {{trad+|zh|海|R=hǎi}}
+* {{T|cop}} : {{trad|cop|ⲫⲓⲟⲙ|tr=phiom}}, {{trad|cop|ⲓⲟⲙ|tr=iom}}
+* {{T|ko}} : {{trad+|ko|바다|tr=bada}} (1, 3)
+* {{T|kw}} : {{trad-|kw|mor}}
+* {{T|gcf}} : {{trad|gcf|lanmè}}
+* {{T|ht}} : {{trad|ht|lanmè}}
+* {{T|rcf}} : {{trad|rcf|la mèr}}
+* {{T|hr}} : {{trad+|hr|more}}
+* {{T|trl}} : {{trad|trl|pani}}
+* {{T|dmr}} : {{trad|dmr|ˈlur}}
+* {{T|da}} : {{trad+|da|hav|n}}, {{trad+|da|sø|c}}
+* {{T|egy}} : {{trad|egy|𓇋𓇋𓈗𓈘𓐰𓈅𓐱𓏤|tr=ym}}
+* {{T|es}} : {{trad+|es|mar|f}}
+* {{T|eo}} : {{trad+|eo|maro}}
+* {{T|et}} : {{trad+|et|meri}}
+* {{T|fo}} : {{trad+|fo|sjógvur}}
+* {{T|fi}} : {{trad+|fi|meri}}
+* {{T|vls}} : {{trad|vls|zai}}
+* {{T|frp}} : {{trad|frp|mar|m}}
+* {{T|fy}} : {{trad+|fy|see}}
+* {{T|gd}} : {{trad-|gd|fairge}}, {{trad-|gd|muir}}
+* {{T|ga}} : {{trad+|ga|farraige}}, {{trad+|ga|muir}}
+* {{T|gallo}} : {{trad|gallo|mè}}
+* {{T|cy}} : {{trad+|cy|môr}}
+* {{T|ka}} : {{trad+|ka|ზღვა|tr=zḡva}}
+* {{T|got}} : {{trad|got|𐌻𐌰𐌲𐌿𐍃|m|tr=laǥus}}, {{trad|got|𐌼𐌰𐍂𐌴𐌹|f|tr=marei}}, {{trad|got|𐍃𐌰𐌹𐍅𐍃|m|tr=sáiws}}
+* {{T|el}} : {{trad+|el|θάλασσα|R=thálassa|f}}
+* {{T|grc}} : {{trad|grc|θάλασσα|f|tr=thálassa}}
+* {{T|griko}} : {{trad|griko|tàlassa|f}}
+* {{T|haw}} : {{trad|haw|moana}}
+* {{T|he}} : {{trad+|he|ים|tr=yám}}
+* {{T|hbo}} : {{trad|hbo|ים|dif=יָם|m}}
+* {{T|hu}} : {{trad+|hu|tenger}}
+* {{T|io}} : {{trad+|io|maro}}
+* {{T|id}} : {{trad+|id|laut}}
+* {{T|ia}} : {{trad-|ia|mar}}
+* {{T|iu}} : {{trad-|iu|ᑕᕆᐅᖅ|R=[[tariuq]]}}
+* {{T|is}} : {{trad+|is|haf}}, {{trad+|is|sjór}}, {{trad+|is|ægir}}, {{trad+|is|úthaf}}
+* {{T|it}} : {{trad+|it|mare}}
+* {{T|ium}} : {{trad|ium|koiv}}
+* {{T|ja}} : {{trad+|ja|海|tr=umi}}
+* {{T|jje}} : {{trad|jje|바당}}
+* {{T|kab}} : {{trad|kab|levḥeṛ}}, {{trad|kab|ilel}}
+* {{T|car}} : {{trad|car|parana}}
+* {{T|kpg}} : {{trad|kpg|moana}}
+* {{T|krc}} : {{trad|krc|тенгиз}}
+* {{T|kk}} : {{trad+|kk|теңіз|tr=teñiz}}
+* {{T|kjh}} : {{trad|kjh|талай}}
+* {{T|ky}} : {{trad+|ky|деңиз|tr=den̦iz}}
+* {{T|kv}} : {{trad|kv|саридз|tr=saridz}}
+* {{T|avk}} : {{trad|avk|bira}}
+* {{T|kum}} : {{trad|kum|денгиз}}
+* {{T|ku}} : {{trad+|ku|derya}}, {{trad+|ku|behr}}
+* {{T|la}} : {{trad+|la|aequor}}, {{trad+|la|mare}}, {{trad-|la|pontus}}
+* {{T|lep}} : {{trad|lep|ᰊᰜᰤᰦᰌᰶ}}
+* {{T|lv}} : {{trad+|lv|jūra}}
+* {{T|lij}} : {{trad|lij|mä}}
+* {{T|lt}} : {{trad+|lt|jūra}}
+* {{T|lb}} : {{trad+|lb|Mier|n}}
+* {{T|mk}} : {{trad+|mk|море|tr=more}}
+* {{T|ayz}} : {{trad|ayz|sawan}}
+* {{T|ms}} : {{trad+|ms|laut}}
+* {{T|mg}} : {{trad+|mg|ranomasina}}
+* {{T|mt}} : {{trad-|mt|baħar}}
+* {{T|gv}} : {{trad+|gv|mooir|f}}
+* {{T|mi}} : {{trad+|mi|moana}}
+* {{T|crg}} : {{trad|crg|mayr}}
+* {{T|mn}} : {{trad+|mn|тэнгис|R=tengis|tradi=ᠲᠡᠩᠭᠢᠰ}}
+* {{T|jbn}} : {{trad|jbn|ilel}}
+* {{T|nl}} : {{trad+|nl|zee}}
+* {{T|nio}} : {{trad|nio|баагутә}}, {{trad|nio|дям}}, {{trad|nio|дямәрәә}}
+* {{T|niv}} : {{trad|niv|ӄер̌ӄ}}, {{trad|niv|ӄер̌ӄӈ}}
+* {{T|nog}} : {{trad|nog|тенъиз}}
+* {{T|normand}} : {{trad|normand|mé}}
+* {{T|no}} : {{trad+|no|sjø|c}}, {{trad+|no|hav}}
+* {{T|oc}} : {{trad+|oc|mar}}
+* {{T|oia}} : {{trad|oia|mata}}, {{trad|oia|ˈdomi}}
+* {{T|pap}} : {{trad|pap|lamá}}, {{trad|pap|laman}}
+* {{T|fa}} : {{trad+|fa|دریا|R=daryâ}}, {{trad+|fa|بحر}}
+* {{T|phn}} : {{trad|phn|𐤉𐤌|tr=yamm}}, {{trad|phn|ܝܡܐ|np|tr=Yammāʾ}}
+* {{T|pcd}} : {{trad|pcd|mèr|f}}, {{trad|pcd|mèrs|fp}}
+* {{T|myp}} : {{trad|myp|piigiotigai}}
+* {{T|pl}} : {{trad+|pl|morze}}
+* {{T|pt}} : {{trad+|pt|mar}}
+* {{T|qya}} : {{trad|qya|airë}}
+* {{T|rom}} : {{trad|rom|derǎv}}
+* {{T|ro}} : {{trad+|ro|mare}}
+* {{T|ru}} : {{trad+|ru|море|tr=more|n}}
+* {{T|ru}} : {{trad+|ru|море|tr=more}}
+* {{T|se}} : {{trad|se|mearra}}
+* {{T|sds}} : {{trad|sds|ilel}}
+* {{T|sr}} : {{trad+|sr|море}}
+* {{T|zdj}} : {{trad|zdj|bahari}}
+* {{T|svm}} : {{trad|svm|mor}}
+* {{T|sk}} : {{trad+|sk|more}}
+* {{T|sl}} : {{trad+|sl|morje}}
+* {{T|solrésol}} : {{trad|solrésol|fasollado}}, {{trad|solrésol|f'asollado}}
+* {{T|ses}} : {{trad|ses|teko}}
+* {{T|srn}} : {{trad|srn|se}}
+* {{T|sv}} : {{trad+|sv|hav}}, {{trad+|sv|sjö}}
+* {{T|sw}} : {{trad+|sw|bahari}}
+* {{T|tg}} : {{trad+|tg|баҳр}}
+* {{T|tl}} : {{trad-|tl|dágat}}
+* {{T|ta}} : {{trad+|ta|கடல்|R=kaḍal}}
+* {{T|tt}} : {{trad+|tt|диңгез}}
+* {{T|cs}} : {{trad+|cs|moře|n}}
+* {{T|cv}} : {{trad|cv|тинĕс}}
+* {{T|th}} : {{trad+|th|ทะเล|tr=tháleh}}
+* {{T|kim}} : {{trad|kim|далай}}
+* {{T|tkl}} : {{trad|tkl|moana}}
+* {{T|tsd}} : {{trad|tsd|θάσσα|f|tr=thássa}}
+* {{T|tsolyáni}} : {{trad|tsolyáni|chányukh}}
+* {{T|tsu}} : {{trad|tsu|etʉpʉ}}
+* {{T|tpw}} : {{trad|tpw|paraná}}
+* {{T|tr}} : {{trad+|tr|deniz}}
+* {{T|uk}} : {{trad+|uk|море|tr=more}}
+* {{T|uum}} : {{trad|uum|дэниз}}
+* {{T|vi}} : {{trad+|vi|biển}}, {{trad+|vi|hải}}
+* {{T|wa}} : {{trad+|wa|mer|f}}, {{trad+|wa|grande basse|f}}
+* {{T|yoi}} : {{trad|yoi|うんなが}}
+* {{T|zen}} : {{trad|zen|il}}, {{trad|zen|ellun|p}}
+* {{T|zu}} : {{trad+|zu|ulwandle}}
+{{trad-fin}}
+
+{{trad-début|Grande étendue de liquide|3}}
+* {{T|de}} : {{trad+|de|Meer|n}}
+* {{T|en}} : {{trad+|en|sea}}
+* {{T|ca}} : {{trad+|ca|mar}}
+* {{T|da}} : {{trad+|da|hav|n}}, {{trad+|da|sø|c}}, {{trad-|da|pøl|c}}
+* {{T|es}} : {{trad+|es|mar}}
+* {{T|fi}} : {{trad+|fi|meri}}
+* {{T|ia}} : {{trad-|ia|mar}}
+* {{T|it}} : {{trad+|it|mare}}, {{trad+|it|distesa}}
+{{trad-fin}}
+
+=== {{S|prononciation}} ===
+* {{pron-rimes|mɛʁ|fr}}
+* Français méridional : {{pron|ˈmɛʁ|fr}}
+* Canada : {{pron|mɛʁ|fr}}, {{phon|maɛ̯ʁ|fr}}
+** {{écouter|lang=fr|Canada (Montréal)|audio=Qc-mer.oga|maɛ̯ʁ}}
+* {{écouter|France (Paris)|yn mɛʁ|audio=Fr-mer.ogg|titre=une mer|lang=fr}}
+* {{écouter|lang=fr|France|mɛʁ|audio=LL-Q150 (fra)-Roll-Morton-mer.wav}}
+* {{écouter|lang=fr|France (Massy)|mɛʁ|audio=LL-Q150 (fra)-X-Javier-mer.wav}}
+* {{écouter|lang=fr|France|mɛʁ|audio=LL-Q150 (fra)-Fhala.K-mer.wav}}
+* {{écouter|lang=fr|France (Paris)|mɛʁ|audio=LL-Q150 (fra)-GrandCelinien-mer.wav}}
+* {{écouter|lang=fr|France (Paris)|mɛʁ|audio=LL-Q150 (fra)-Ash Crow-mer.wav}}
+* {{écouter|lang=fr|France (Toulouse)|mɛʁ|audio=LL-Q150 (fra)-Lepticed7-mer.wav}}
+* {{écouter|lang=fr|France (Grenoble)|mɛʁ|audio=LL-Q150 (fra)-GAllegre-mer.wav}}
+* {{écouter|France (Grenoble)|mɛʁ|lang=fr|audio=LL-Q150 (fra)-Opsylac-mer.wav}}
+* {{écouter|lang=fr|France (Vosges)|mɛʁ|audio=LL-Q150 (fra)-Poslovitch-mer.wav}}
+* {{écouter|lang=fr|France (Vosges)|mɛʁ|audio=LL-Q150 (fra)-LoquaxFR-mer.wav}}
+* {{écouter|lang=fr|France (Lyon)|mɛʁ|audio=LL-Q150 (fra)-WikiLucas00-mer.wav}}
+* {{écouter|lang=fr||mɛʁ|audio=LL-Q150 (fra)-Madehub-mer.wav}}
+* {{écouter|lang=fr|France (Hérault)|mɛʁ|audio=LL-Q150 (fra)-T. Le Berre-mer.wav}}
+* {{écouter|lang=fr||mɛʁ|audio=LL-Q150 (fra)-Kaderousse-mer.wav}}
+* {{écouter|lang=fr|France (Metz)|mɛʁ|audio=LL-Q150 (fra)-val (Eavq)-mer.wav}}
+* {{écouter|lang=fr|France (Cesseras)|mɛʁ|audio=LL-Q150 (fra)-Guilhelma-mer.wav}}
+* {{écouter|lang=fr||mɛʁ|audio=LL-Q150 (fra)-ClasseNoes-mer.wav}}
+* {{écouter|lang=fr|France|mɛʁ|audio=LL-Q150 (fra)-Mecanautes-mer.wav}}
+* {{écouter|lang=fr||mɛʁ|audio=LL-Q150 (fra)-Fabe56-mer.wav}}
+* {{écouter|Mulhouse (France)|mɛʁ|lang=fr|audio=LL-Q150 (fra)-Mathieu Kappler-mer.wav}}
+* {{écouter||mɛʁ|lang=fr|audio=LL-Q150 (fra)-Sagnamadr-mer.wav}}
+* {{écouter|Canet-en-Roussillon (France)|mɛʁ|lang=fr|audio=LL-Q150 (fra)-Damian B. (BiblioCanet66)-mer.wav}}
+* {{écouter|Courmayeur (Italie)|mɛʁ|niveau=moyen|lang=fr|audio=LL-Q150 (fra)-XANA000-mer.wav}}
+* {{écouter|Vendée (France)|mɛʁ|lang=fr|audio=LL-Q150 (fra)-Sartus85-mer.wav}}
+* {{écouter|lang=fr|Suisse (Lausanne)|mɛʁ|audio=LL-Q150 (fra)-Eihel-mer.wav}}
+* {{écouter|canton du Valais (Suisse)|mɛʁ|lang=fr|audio=LL-Q150 (fra)-LuneMarine (DSwissK)-mer.wav}}
+
+==== {{S|homophones|fr}} ====
+* [[maire]]
+* [[mère]]
+* [[Mère]]
+
+=== {{S|anagrammes}} ===
+{{voir anagrammes|fr}}
+
+=== {{S|voir aussi}} ===
+* {{WP}}
+* {{Vikidia}}
+* {{Le Dico des Ados}}
+* {{WQ}}
+* {{Commons|Category:Seas in heraldry|Mers en héraldique}}
+* {{thésaurus|fr|héraldique}}
+* {{WP|Liste des meubles héraldiques}}
+
+=== {{S|références}} ===
+* {{R:Littré}}
+{{Références}}
+
+[[Catégorie:Mers en français|*]]
+[[Catégorie:-er prononcés /ɛʁ/ en français]]
+[[Catégorie:Verbes d’émotion en wolof]]
+
+== {{langue|fro}} ==
+=== {{S|étymologie}} ===
+: (Nom) Du {{étyl|la|fro|mare}}.
+: (Adjectif) Du {{étyl|la|fro|mot=merus|sens=simple, pur}}.
+
+=== {{S|nom|fro}} ===
+'''mer''' {{pron-recons||fro}} {{f}}
+# [[mer#fr|Mer]].
+#* ''Il avint a .i. pescheor<br>qui en la '''mer''' aloit .i. jor'' {{source|''D’un preudome qui rescolt son compere de noier'', manuscrit 19152 de la {{w|BnF}}, f. 35v. c. ''Avint'' est le verbe ''{{lien|avenir|fro}}'', verbe impersonnel.}}
+
+==== {{S|variantes}} ====
+* {{lien|m̃|fro}} ''(abréviation)''
+
+=== {{S|adjectif|fro}} ===
+'''mer''' {{pron-recons||fro}}
+# [[pur|Pur]], [[simple]].
+#* {{exemple | lang=fro
+ | la bucle d’or '''mier'''
+ | source=La Chanson de Roland, vers {{numéro|1314}}, édition de Müller}}
+
+==== {{S|variantes}} ====
+* [[mier#fro|mier]]
+
+==== {{S|dérivés autres langues}} ====
+* {{L|en}} : [[mere#en|mere]]
+
+=== {{S|références}} ===
+* {{R:Godefroy}}
+
+== {{langue|angevin}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|angevin}}
+
+=== {{S|nom|angevin}} ===
+'''mer''' {{pron||angevin}} {{f}}
+# {{lexique|météorologie|angevin}} [[vent|Vent]] du [[sud]].
+
+=== {{S|références}} ===
+* {{R:VerrierOnillon|p=xxxi|vue=37}}
+
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|pronom personnel|gsw-fr}} ===
+'''mer''' {{pron||gsw-fr}}
+# [[nous|Nous]], on.
+
+== {{langue|francique rhénan}} ==
+{{ébauche|francique rhénan}}
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|francique rhénan}}
+
+=== {{S|pronom personnel|francique rhénan}} ===
+'''mer''' {{pron||francique rhénan}}
+# [[nous|Nous]].
+# [[on|On]].
+
+==== {{S|variantes}} ====
+* [[mìr#Francique rhénan|mìr]]
+
+== {{langue|cy}} ==
+=== {{S|adjectif|cy|flexion}} ===
+'''mer''' {{pron|mɛʁ|cy}} {{f}}
+# {{mutation de|ber|n|cy}}.
+
+== {{langue|idi}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|idi}}
+
+=== {{S|adjectif|idi}} ===
+'''mer''' {{pron||idi}}
+# [[bon|Bon]].
+
+=== {{S|références}} ===
+* {{ouvrage|auteur=Anonymous. n.d.|url=http://www.sil.org/pacific/png/pubs/928474542523/Idi.pdf|titre=Idi Organised Phonology Data|pages totales=6|passage=3}}
+
+== {{langue|lb}} ==
+=== {{S|étymologie}} ===
+{{ébauche-étym|lb}}
+
+=== {{S|pronom personnel|lb}} ===
+{{lb-inv|mɐ|inv_titre=Pronom}}
+'''mer''' {{pron|mɐ|lb}} {{nominatif|lb}}, {{datif|lb}}
+# [[nous|Nous]].
+#* {{exemple|lang=lb}}
+# [[me|Me]], [[moi]].
+#* {{exemple|lang=lb}}
+
+==== {{S|vocabulaire}} ====
+{{pronoms personnels/lb}}
+{{pronoms réfléchis/lb}}
+
+=== {{S|prononciation}} ===
+* {{écouter|Diekirch (Luxembourg)||lang=lb|audio=LL-Q9051 (ltz)-Robby-mer.wav}}
+
+=== {{S|références}} ===
+: {{R:LOD}}
+
+== {{langue|sv}} ==
+=== {{S|étymologie}} ===
+: Voir l’anglais ''[[more]]'', le néerlandais ''[[meer]]'' et l’allemand ''[[mehr]]''.
+
+=== {{S|adverbe|sv}} ===
+'''mer''' {{pron|meːr|sv}}
+# [[davantage|Davantage]], [[plus]].
+
+==== {{S|synonymes}} ====
+* [[mera]]
+
+=== {{S|prononciation}} ===
+* {{écouter|Suède (Gotland)|meːr|audio=Sv-mer.ogg|lang=sv}}
+
+== {{langue|wo}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|wo}}
+
+=== {{S|adjectif|wo}} ===
+'''mer''' {{pron||wo}}
+# [[fâché|Fâché]].
+
+=== {{S|verbe|wo}} ===
+'''mer''' {{pron||wo}}
+# Être [[mécontent]].
+
+=== {{S|prononciation}} ===
+* {{écouter||lang=wo|audio=Wo-mer.ogg}}

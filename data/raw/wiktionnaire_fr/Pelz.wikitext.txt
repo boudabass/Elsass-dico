@@ -1,0 +1,52 @@
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+:{{ébauche-étym|de}}
+
+=== {{S|nom|de}} ===
+{{de-nom-m-s-e|gse=oui}}
+'''Pelz''' {{pron|pɛlt͡s|de}} {{m}}
+# [[fourrure|Fourrure]].
+#* {{exemple | lang=de | Der zottige '''Pelz''' des Bären ziert die Wand des Jägers. | sens=Le fourrure villeuse de l’ours orne le mur du chasseur.}}
+#* {{exemple|In der Frühe, direkt nach Sonnenaufgang, brach der Ritter zur Jagd auf. (...) Das Niederwild war in erster Linie wegen des Fells begehrt, aus dem '''Pelz'''e gefertigt wurden.|lang=de|sens=Au petit matin, juste après le lever du soleil, le chevalier partit à la chasse. (...) Le petit gibier était principalement recherché pour sa fourrure, qui servait à fabriquer des manteaux de fourrure.|source={{périodique|auteur=|titre=Das Ritterleben|journal=Das Leben im Mittelalter|date=19 octobre 2025|texte=https://www.leben-im-mittelalter.net/alltag-im-mittelalter/alltagsfacetten/ritterleben.html}}}}
+#* {{exemple|Wertvolle '''Pelze''' galten als Symbole für Macht und Status, die vor allem den Herrschende vorbehalten waren. So durfte im Mittelalter in der Regel nur ein König Hermelin tragen.|source=« Wie der Pelz sein Ansehen verlor », in ''Süddeutsche Zeitung'', 09 janvier 2022|lang=de|sens=Les fourrures précieuses étaient considérées comme des symboles de pouvoir et de statut, réservés avant tout aux souverains. Ainsi, au Moyen Âge, seul un roi avait généralement le droit de porter de l'hermine.|lien=https://www.sueddeutsche.de/wirtschaft/mode-pelz-tierschuetzer-1.5502841}}
+# {{lexique|héraldique|de}} [[fourrure|Fourrure]].
+#* {{exemple | lang=de | Feh und Hermelin sind Beispiele von '''Pelze''' in der Heraldik. | sens=Le vair et l’hermine sont les exemples de fourrures dans l’héraldique.}}
+
+==== {{S|hyponymes}} ====
+{{(|}}
+* {{lien|Fuchspelz|de}}
+* {{lien|Marderpelz|de}}
+* {{lien|Schafspelz|de}}
+* {{lien|Tierpelz|de}}
+* {{lien|Zobelpelz|de}}
+* {{lien|Gehpelz|de}}
+* {{lien|Kuppelpelz|de}}
+{{)}}
+
+==== {{S|phrases}} ====
+* {{lien|den Pelz waschen|de}}
+* {{lien|den Pelz wasche|de}}
+* {{lien|aber nicht nass machen|de}}
+* {{lien|Schaf im Wolfspelz|de}}
+
+==== {{S|dérivés}} ====
+* {{lien|pelzig|de}}
+
+=== {{S|prononciation}} ===
+* {{écouter|Berlin (Allemagne)|pɛlt͡s|lang=de|audio=De-Pelz2.ogg}}
+* {{écouter|Bavière (Allemagne)|pɛlt͡s|lang=de|audio=De-Pelz.ogg}}
+
+=== {{S|références}} ===
+* {{R:DWDS|Pelz}}
+* {{R:Duden|Pelz}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=de}}
+
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|nom|gsw-fr}} ===
+'''Pelz'''
+# [[fourrure|Fourrure]].

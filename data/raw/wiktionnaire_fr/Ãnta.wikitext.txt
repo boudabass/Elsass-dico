@@ -1,0 +1,10 @@
+{{voir|anta|Anta}}
+
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+{{ébauche-étym|gsw-fr}}
+
+=== {{S|nom|gsw-fr}} ===
+'''Ãnta'''
+# [[canard|Canard]]
+{{clé de tri|anta}}

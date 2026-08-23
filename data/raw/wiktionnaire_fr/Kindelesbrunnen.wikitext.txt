@@ -1,0 +1,7 @@
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: De ''{{lien|kindeles|gsw-fr}}'' (« enfants ») et de ''{{lien|brunnen|gsw-fr}}'' (« fontaine », « puits »).
+
+=== {{S|nom propre|gsw-fr}} ===
+'''Kindelesbrunnen''' {{pron||gsw-fr}} {{m}}
+# [[puits|Puits]] permettant d’accéder à un lac sous la cathédrale de Strasbourg, où les âmes des enfants à naître attendaient que le gardien du lieu vienne les pêcher pour les confier à une [[cigogne]].

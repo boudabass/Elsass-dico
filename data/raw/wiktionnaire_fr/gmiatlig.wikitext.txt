@@ -1,0 +1,8 @@
+== {{langue|gsw-fr}} ==
+{{ébauche|gsw-fr}}
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|adverbe|gsw-fr}} ===
+'''gmiatlig''' {{pron||gsw-fr}}
+# [[tranquillement#fr|Tranquillement]].

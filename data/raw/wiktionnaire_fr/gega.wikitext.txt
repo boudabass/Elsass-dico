@@ -1,0 +1,16 @@
+== {{langue|gsw-fr}} ==
+{{ébauche|gsw-fr}}
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|préposition|gsw-fr}} ===
+'''gega''' {{pron||gsw-fr}}
+# [[contre#fr|Contre]].
+
+== {{langue|bm}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|bm}}
+
+=== {{S|nom|bm}} ===
+'''gega''' {{pron|ɡe.ɡa|bm}}
+# [[culotte]] [[chemise]] des [[circoncis]]

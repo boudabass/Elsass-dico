@@ -1,0 +1,10 @@
+{{voir|jétz}}
+
+== {{langue|gsw-fr}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étyl|de|gsw-fr|mot=jetzt}}.
+
+=== {{S|adverbe|gsw-fr}} ===
+'''jetz''' {{pron||gsw-fr}}
+# [[maintenant#fr|Maintenant]].

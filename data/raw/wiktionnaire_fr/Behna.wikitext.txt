@@ -1,0 +1,15 @@
+{{voir|Behna|běhna}}
+
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+{{ébauche-étym|gsw-fr}}
+
+=== {{S|nom|gsw-fr}} ===
+'''Behna''' {{pron||gsw-fr}} {{f}}
+# [[grenier#fr|Grenier]].
+
+==== {{S|variantes dialectales}} ====
+* [[Behn#gsw-fr|Behn]]
+
+=== {{S|références}} ===
+*[https://web.archive.org/web/20131021003023/http://culture.alsace.pagesperso-orange.fr/page_gf.htm Dictionnaire français-alsacien]

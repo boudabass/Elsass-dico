@@ -1,0 +1,11 @@
+{{vérifier création automatique||gsw-fr}}
+{{voir|müsikfrind}}
+
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|nom|gsw-fr}} ===
+'''Müsikfrind'''
+# [[amateur|Amateur]] de [[musique]], [[mélomane]]
+{{clé de tri|musikfrind}}

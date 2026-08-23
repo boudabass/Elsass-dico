@@ -1,0 +1,17 @@
+{{vérifier création automatique||gsw-fr}}
+
+== {{langue|de}} ==
+=== {{S|verbe|de|flexion}} ===
+'''schnall''' {{pron|ʃnal|de}}
+# ''Deuxième personne du singulier de l’impératif présent de'' {{lien|schnallen|de}}.
+
+=== {{S|prononciation}} ===
+* {{écouter|Berlin (Allemagne)|ʃnal|lang=de|audio=De-schnall.ogg}}
+
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|adverbe|gsw-fr}} ===
+'''schnall'''
+# [[vite|Vite]], [[rapide]]

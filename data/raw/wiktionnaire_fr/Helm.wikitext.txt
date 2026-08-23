@@ -1,0 +1,33 @@
+{{voir|helm|hełm}}
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+:Du germanique {{recons|lang-mot-vedette=de|helmaz}}, apparenté à ''{{lien|helm|nl}}'' en néerlandais, ''{{lien|helm|da}}'' en danois, ''{{lien|helme|fro}}'' en ancien français, ''{{lien|heaume|fr}}'', dérivé du radical indo-européen {{recons|lang-mot-vedette=de|ḱel-}} (« couvrir, cacher ») {{cf|celo|lang=la}} en latin.
+
+=== {{S|nom|de}} ===
+{{de-nom-m-s-e|gs2= Helmes|ds2=Helme}}
+'''Helm''' {{pron|ˈhɛlm|de}} {{m}}
+# {{lexique|habillement|de}} [[casque#fr|Casque]], armure défensive qui protège et couvre la tête.
+#* {{exemple|Ich schätze, es waren zwei-, dreihundert Menschen auf dem Platz vor dem Theater und rings um sie herum noch einmal genauso viele Angehörige des OMON, des russischen Äquivalents zu unserer Bereitschaftspolizei CRS und wie diese mit '''Helm'''en, Schutzschilden und Schlagstöcken bewaffnet.|lang=de|sens=Il y avait deux, trois cents personnes, je dirais, sur la place devant le théâtre, et autour d’elles autant d’OMON, qui sont l’équivalent russe de nos CRS, comme eux munis de casques, de boucliers et de lourdes matraques.|source={{ouvrage|auteur={{w|Emmanuel Carrère}}|trad=Claudia Hamm|titre=Limonow|année=2012|éditeur=MSB Matthes & Seitz Berlin Verlagsgesellschaft|url=}}}}
+# {{lexique|héraldique|de}}  [[casque|Casque]], ornement extérieur de l’écu représentant un heaume.
+
+==== {{S|dérivés}} ====
+* {{l|Stahlhelm|de|sens=[[casque]] d’[[acier]]}}
+* {{l|Topfhelm|de|sens=[[heaume]]}}
+
+=== {{S|prononciation}} ===
+* {{écouter|Berlin|hɛlm|lang=de|audio=De-Helm.ogg}}
+
+== {{langue|gsw-fr}} ==
+
+=== {{S|étymologie}} ===
+:Voir ''[[Helm#de|Helm]]'' en allemand.
+
+=== {{S|nom|gsw-fr}} ===
+'''Helm'''
+# [[casque#fr|Casque]].
+
+[[Catégorie:Couvre-chefs en allemand]]
+[[Catégorie:Armures en allemand]]
+[[Catégorie:Couvre-chefs en alémanique alsacien]]
+[[Catégorie:Armures en alémanique alsacien]]

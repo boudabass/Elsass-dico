@@ -1,0 +1,11 @@
+== {{langue|gsw-fr}} ==
+{{ébauche|gsw-fr}}
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|verbe|gsw-fr}} ===
+'''àriefe'''
+# [[appeler]] au téléphone.
+
+{{clé de tri|ariefe}}

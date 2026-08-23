@@ -1,0 +1,10 @@
+{{voir|Pflüma}}
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|verbe|gsw-fr}} ===
+'''pflüma''' {{pron||gsw-fr}}
+# Avoir une [[cuite]].
+
+{{clé de tri|pfluma}}

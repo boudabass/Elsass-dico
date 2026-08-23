@@ -1,0 +1,14 @@
+{{voir|Zahnarzt}}
+
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{composé de|m=1|Zàhn|Àrzt|lang=gsw-fr}}.
+
+=== {{S|nom|gsw-fr}} ===
+'''Zàhnàrzt''' {{pron||gsw-fr}}
+# [[dentiste|Dentiste]].
+
+[[Catégorie:Métiers de la santé en alémanique alsacien]]
+[[Catégorie:Lexique en alémanique alsacien de la dentisterie]]
+
+{{clé de tri|zahnarzt}}

@@ -1,0 +1,232 @@
+{{voir|schnèll}}
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: {{siècle|VIII}}.
+: Du {{étyl|gml|de|mot=snel}}, du {{étyl|gmh|de|mot=snel}} et du {{étyl|goh|de|mot=snël, snëlles}}. <ref> {{R:DWDS|schnell}} </ref>
+
+=== {{S|adjectif|de}} ===
+{{de-adj|schnell}}
+'''schnell''' {{pron|ʃnɛl|de}}
+# [[rapide|Rapide]], [[prompt]].
+#* {{exemple | lang=de | Dieser Zug ist '''schnell'''. | sens=Ce train est rapide.}}
+#* {{exemple | lang=de | Man muss '''schnell''' sein, um dieses Spiel zu gewinnen. | sens=Il faut être rapide pour gagner à ce jeu.}}
+#* {{exemple|Das Entstehen von Gasansammlungen im Magen-Darm-Trakt wird begünstigt durch: (...) Verschlucken von Luft, zum Beispiel durch hastiges Essen, '''schnell'''es Verschlingen von Nahrung oder beim Rauchen.|lang=de|sens=La formation d'accumulations de gaz dans le tractus gastro-intestinal est favorisée par : (...) avalage d'air, par exemple en mangeant trop vite, en engloutissant rapidement les aliments ou en fumant.|source={{périodique|auteur=|titre=Blähungen|journal=Doktor.De|date=4 avril 2023|texte=https://doktor.de/krankheiten-symptome/blaehungen/}}}}
+# [[vite#fr|Vite]], qui prend peu de temps.
+#* {{exemple|Dank der digitalen automatischen Kupplung (DAK) soll der Schienengüterverkehr einfacher, '''schnell'''er und wirtschaftlicher werden. Für die Einführung der DAK will der Bundesrat einmalig 180 Millionen Franken zur Verfügung stellen.|lang=de|sens=Grâce à l’attelage automatique numérique (DAC, de l’anglais digital automatic coupling), le fret ferroviaire deviendra plus simple, plus rapide et plus économique. Le Conseil fédéral veut mettre à disposition un montant unique de 180 millions de francs pour l’introduction du DAC.|source={{périodique|auteur=|titre=Bessere Rahmenbedingungen für zukunftstauglichen Güterverkehr|journal=Bundesamt für Verkehr|date=24 janvier 2024|texte=https://www.bav.admin.ch/bav/de/home/publikationen/medienmitteilungen.msg-id-99636.html}}}}
+# Se dit de quelque chose qui change très vite.
+#* {{exemple|Wir leben in einer atemberaubenden '''schnell'''en Zeit. Unsere Welt ist zunehmend globalisiert, und auch der Einzelne ist immer größerem Leistungsdruck und psychosozialem Stress ausgesetzt.|lang=de|sens=Nous vivons à une époque où tout va très vite. Notre monde est de plus en plus globalisé et l'individu est lui aussi soumis à une pression de plus en plus forte en termes de performance et au stress psychosocial.|source={{ouvrage|auteur=Astrid Neuy-Lobkowicz|titre=ADHS – erfolgreiche Strategien für Erwachsene und Kinder|année=2023|éditeur=J. G. Cotta’sche Buchhandlung Nachfolger GmbH|numéro d’édition=11|isbn=978-3-608-20649-4|lieu=Stuttgart|url=}}}}
+
+==== {{S|hyponymes}} ====
+{{(|}}
+* {{l|blitzschnell|de|sens=[[fulgurant]] », « [[rapide comme l’éclair]]}}
+* {{lien|rasend|de}}
+* {{lien|rasant|de}}
+* {{l|sekundenschnell|de|sens=qui ne [[prendre|prend]] que quelques [[seconde]]s », « en quelques [[seconde]]s}}
+* {{lien|überschnell|de}}
+* {{l|ultraschnell|de|sens=[[ultra-rapide]] », « [[ultra]]-[[vite]]}}
+* {{l|vorschnell|de|sens=[[hâtif]] », « [[hâtivement]]}}
+{{)}}
+* {{lien|glasfaserschnell|de}}
+
+==== {{S|vocabulaire}} ====
+{{(|}}
+* {{lien|fix|de}}
+* {{lien|flink|de}}
+* {{lien|flott|de}}
+* {{lien|geschwind|de}}
+* {{lien|hurtig|de}}
+* {{lien|rapide|de}}
+* {{lien|rasch|de}}
+* {{lien|schleunig|de}}
+* {{lien|unverzüglich|de}}
+* {{lien|zügig|de}}
+{{)}}
+* {{lien|eben|de}}
+
+==== {{S|synonymes}} ====
+* {{lien|flugs|de}}
+* {{lien|rapide|de}}
+* {{lien|rasch|de}}
+* {{lien|rasend|de}}
+
+==== {{S|antonymes}} ====
+* {{lien|langsam|de}}
+
+==== {{S|dérivés}} ====
+{{(|Adjectifs / adverbes, y. c. locutions}}
+* {{l|antrittsschnell|de}}
+* {{l|gedankenschnell|de}}
+* {{l|glasfaserschnell|de}}
+* {{l|pfeilschnell|de}}
+* {{l|reaktionsschnell|de}}
+* {{l|schnell wie der Blitz|de|sens=[[rapide comme l’éclair]]}}
+* {{l|schnellfristig|de}}
+* {{l|schnellfüßig|de}}
+* {{l|schnellläufig|de}}, {{l|schnell-läufig|de}}
+* {{l|schnelllebig|de}}, {{l|schnell-lebig|de|sens=[[agité]] », « [[fiévreux]]}}
+* {{l|schnellstens|de|sens=[[au plus vite]]}}
+* {{l|schnellstmöglich|de|sens=[[le plus rapidement possible]]}}
+* {{l|schnellwüchsig|de}}
+* {{l|spurtschnell|de}}
+* {{l|superschnell|de|sens=[[très]] [[rapide]] », « [[très]] [[vite]]}}
+* {{l|traumschnell|de}}
+* {{l|überschnell|de}}
+* {{l|zeitschnell|de}}
+{{)}}
+{{(|Substantifs, y. c. locutions}}
+* {{l|Hochleistungsschnellarbeitsstahl|de}}
+* {{l|Reaktorschnellabschaltung|de}}
+* {{l|Schnellabrollbahn|de}}
+* {{l|Schnellabschaltung|de}}
+* {{l|Schnellabwurfverschluss|de}}
+* {{l|Schnelladekanone|de}}
+* {{l|Schnellalterungstest|de}}
+* {{l|Schnellangriffseinrichtung|de}}
+* {{l|Schnellangriffsvorrichtung|de}}
+* {{l|Schnellarbeitsstahl|de}}
+* {{l|Schnellaufzug|de}}
+* {{l|Schnellbahn|de|sens=[[train]] de [[banlieue]]}}
+* {{l|Schnellbauweise|de}}
+* {{l|Schnellbinder|de}}
+* {{l|Schnellbleiche|de}}
+* {{l|Schnellbomber|de}}
+* {{l|Schnellboot|de|sens=[[navire]] [[rapide]] », « [[vedette]] [[rapide]]}}
+* {{l|Schnellbremse|de}}
+* {{l|Schnellbremsung|de}}
+* {{l|Schnellbrücke|de}}
+* {{l|Schnellbrüter|de}}
+* {{l|Schnellbügelei|de}}
+* {{l|Schnellbus|de}}
+* {{l|Schnellcheck|de}}
+* {{l|Schnellchecker|de}}
+* {{l|Schnelldampfer|de}}
+* {{l|Schnelldenker|de}}
+* {{l|Schnelldienst|de}}
+* {{l|Schnelldreher|de}}
+* {{l|Schnelldrucker|de}}
+* {{l|Schnelldurchlauf|de}}
+* {{l|schnelle Fourier-Transformation|de}}
+* {{l|Schnelle|de|sens=[[rapidité]]}}
+* {{l|Schnelleinkauf|de}}
+* {{l|Schnelleinsatzgruppe|de}}
+* {{l|Schnellfahrer|de}}
+* {{l|Schnellfahrstrecke|de}}
+* {{l|Schnellfahrt|de}}
+* {{l|Schnellfahrweiche|de}}
+* {{l|Schnellfeuer|de|sens=[[tir]] [[rapide]]}}
+* {{l|Schnellfilter|de}}
+* {{l|Schnellfrachter|de}}
+* {{l|Schnellgalgen|de}}
+* {{l|Schnellgang|de}}
+* {{l|Schnellgaststätte|de|sens=[[snack]]}}
+* {{l|Schnellgefrierverfahren|de}}
+* {{l|Schnellgericht|de|sens=[[plat]] [[cuisiné]] », « [[tribunal]] d’[[exception]]}}
+* {{l|Schnellhefter|de|sens=[[classeur]] [[chemise]]}}
+* {{l|Schnelligkeit|de|sens=[[rapidité]] », « [[vitesse]]}}
+* {{l|Schnellimbiss|de|sens=[[restauration rapide]] », « [[fastfood]] », « [[snack]]}}
+* {{l|Schnellimprovisation|de}}
+* {{l|Schnellkocher|de}}
+* {{l|Schnellkochplatte|de|sens=[[plaque de cuisson]] [[rapide]]}}
+* {{l|Schnellkochtopf|de|sens=[[autocuiseur]] », « [[cocotte-minute]]}}
+* {{l|Schnellküche|de}}
+* {{l|Schnellkurs|de|sens=[[cours]] [[accéléré]]}}
+* {{l|Schnellkursus|de}}
+* {{l|Schnellladegerät|de|sens=[[chargeur]] [[rapide]]}}
+* {{l|Schnelllader|de|sens=[[chargeur]] [[rapide]]}}
+* {{l|Schnellladung|de|sens=[[charge]] [[rapide]]}}
+* {{l|Schnelllauf|de}}, {{l|Schnell-Lauf|de}}
+* {{l|Schnellläufer|de}}, {{l|Schnell-Läufer|de}}
+* {{l|Schnellleser|de}}, {{l|Schnell-Leser|de}}
+* {{l|Schnellmerker|de}}
+* {{l|Schnellomnibus|de}}
+* {{l|Schnellpacket|de|sens=[[colis]] [[express]]}}
+* {{l|Schnellpresse|de}}
+* {{l|Schnellrechnen|de}}
+* {{l|Schnellrechner|de}}
+* {{l|Schnellreinigung|de|sens=[[nettoyage]] [[express]] », « [[pressing]] [[rapide]]}}
+* {{l|Schnellreparatur|de}}
+* {{l|Schnellrestaurant|de|sens=[[restaurant]] de [[type]] [[fast-food]] », « [[restaurant]] [[rapide]]}}
+* {{l|Schnellrichter|de}}
+* {{l|Schnellschach|de|sens=[[échecs]] [[rapide]]s », « [[jeu]] [[rapide]]}}
+* {{l|Schnellschreiber|de}}
+* {{l|Schnellschritt|de}}
+* {{l|Schnellschuss|de|sens=[[coup]] [[éditorial]]}}
+* {{l|Schnellsegler|de}}
+* {{l|Schnellsiedekurs|de}}
+* {{l|Schnellsiederkurs|de}}
+* {{l|Schnellspanner|de|sens=[[sauterelle]] de [[bridage]] », « [[attache]] [[rapide]] », « [[serrage]] [[rapide]]}}
+* {{l|Schnellstahl|de}}
+* {{l|Schnellstraße|de|sens=[[voie express]] », « [[voie rapide]]}}
+* {{l|Schnellstudie|de}}
+* {{l|Schnelltaste|de|sens=[[raccourci clavier]]}}
+* {{l|Schnelltest|de|sens=[[test]] [[rapide]]}}
+* {{l|Schnelltransporter|de}}
+* {{l|Schnelltrasse|de}}
+* {{l|Schnelltriebwagen|de}}
+* {{l|Schnellverband|de}}
+* {{l|Schnellverbindung|de}}
+* {{l|Schnellverfahren|de|sens=[[procédure]] [[rapide]] », « [[procédure]] [[accélérée]] », « [[référé]]}}
+* {{l|Schnellverkehr|de|sens=[[trafic]] [[express]]}}
+* {{l|Schnellwaage|de}}
+* {{l|schnellwachsend|de}}, {{l|schnell wachsend|de}}
+* {{l|Schnellwäscherei|de}}
+* {{l|Schnellwaschmittel|de}}
+* {{l|Schnellweg|de}}
+* {{l|Schnellzeichner|de}}
+* {{l|Schnellzug|de|sens=[[train]] [[express]] », « [[train]] [[rapide]]}}
+{{)}}
+{{(|Verbes}}
+* {{l|schnellen|de|sens=[[accélérer]] », « [[bondir]]}}
+* {{l|schnellnieten|de}}
+{{)}}
+
+==== {{S|phrases}} ====
+* {{lien|schneller als der Schall|de}}
+* {{lien|schneller als die Polizei erlaubt|de}}
+
+=== {{S|adverbe|de}} ===
+{{de-adv-comparable}}
+'''schnell''' {{pron|ʃnɛl|de}}
+# [[vite|Vite]], [[rapidement]], [[promptement]].
+#* {{exemple | lang=de
+ | Er lief, so '''schnell''' er konnte.
+ | Il a couru aussi vite qu'il a pu.}}
+#* {{exemple | lang=de
+ | He, mach '''schnell'''!
+ | Hé, fais vite ! / Hé, dépêche-toi !}}
+#* {{exemple|(im Video wird) '''schnell''' erzählt, mit vielen Schnitten, und flotten Sprüchen garniert: "Hier ist einer von den Taliban, hier einer von der örtlichen Mafia - liebenswerte Leute", hört man ihn sagen. Ob das alles bis ins letzte Detail stimmt, was Routledge da von sich gibt, lässt sich nicht nachprüfen.|lang=de|sens=(dans la vidéo,) on raconte vite, avec des scènes qui changent rapidement, et agrémentée de discours nonchalants : "Voici un taliban, voici un membre de la mafia locale - des gens adorables", entend-on dire. Impossible de vérifier si tout ce que Routledge raconte est vrai dans les moindres détails.|source={{périodique|auteur=Tobias Matern|titre=Gefahrentourismus:"Yo, Jungs, ich bin vom afghanischen Geheimdienst geschnappt worden"|journal=Süddeutsche Zeitung|date=5 juin 2023|texte=https://www.sueddeutsche.de/panorama/miles-routledge-afghanistan-gefahrentourismus-extremtourismus-youtube-reisen-verhaftet-influencer-1.5901907}}}}
+#* {{exemple|Sie fahren nicht wirklich '''schnell''', ein Hund kreuzt die Straße, der Aufprall bringt sie kaum aus der Spur, die Mutter schreit auf, bremst, viel zu heftig, der Wagen schlingert, der Motor säuft ab.|lang=de|sens=On ne roule pas si vite, un chien traverse la route, la secousse les déporte à peine, la mère crie, freine, trop fort, le véhicule zigzague, le moteur cale.|source={{ouvrage|auteur={{w|Hervé Le Tellier}}|trad=Romy Ritte et Jürgen Ritte|titre=Die Anomalie|année=2021|éditeur=Rowohlt Verlag|url=}}}}
+
+==== {{S|synonymes}} ====
+* [[flugs]]
+* [[geschwind]]
+
+=== {{S|verbe|de|flexion}} ===
+'''schnell''' {{pron|ʃnɛl|de}}
+# ''Deuxième personne du singulier de l’impératif présent de'' {{lien|schnellen|de}}.
+
+=== {{S|prononciation}} ===
+* {{écouter|{{DE|nocat=1}}|ʃnɛl|lang=de|audio=De-schnell.ogg}}
+* {{écouter|Berlin (Allemagne)|ʃnɛl|lang=de|audio=De-schnell2.ogg}}
+* {{écouter|Vienne (Autriche)|ʃnɛl|lang=de|audio=De-at-schnell.ogg}}
+* {{écouter|{{DE|nocat=1}}|ʃnɛl|lang=de|audio=LL-Q188 (deu)-Natschoba-schnell.wav}}
+
+=== {{S|références}} ===
+<references />
+
+==== {{S|sources}} ====
+* {{R:Duden|schnell}}
+* {{Source-wikt|de|schnell}}
+
+==== {{S|bibliographie}} ====
+* Larousse - Dictionnaire allemand/français – français/allemand , éd. 1958, p 665.
+* Harrap’s – Bordas Dictionnaire allemand/français, éd. 1997, p 255.
+
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|adverbe|gsw-fr}} ===
+'''schnell''' {{pron|ʃnɛl|gsw-fr}}
+# [[vite|Vite]], [[rapide]]

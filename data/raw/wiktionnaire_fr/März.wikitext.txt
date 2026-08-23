@@ -1,0 +1,72 @@
+{{voir|marz}}
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|de|mot=Martius}}.<ref>{{R:DWDS|März}}</ref>
+
+=== {{S|nom|de}} ===
+{{de-nom-m-s-e|gs=März|gs2=Märzes|cat2=m-gs0}}
+{{de-nom-m-s-e|gs=Märzen|ds=Märzen}}
+'''März''' {{pron|mɛʁts|de}} {{m}}
+# Le mois de [[mars]].
+#* {{exemple|Eduard ist zehn Jahre alt, als Stalin am 5. '''März''' 1953 stirbt. Seine Eltern und die Menschen ihrer Generation haben ihr ganzes Leben in seinem Schatten verbracht. Auf alle Fragen, die sie sich stellten, hatte er eine lakonische, barsche Antwort, die keinem Zweifel Raum ließ.|lang=de|sens=Il a dix ans quand Staline meurt, le 5 mars 1953. Ses parents et les gens de leur génération ont passé dans son ombre leur vie entière. À toutes les questions qu’ils se posaient, il avait la réponse, laconique et bourrue, ne laissant aucune place au doute.|source={{ouvrage|auteur={{w|Emmanuel Carrère}}|trad=Claudia Hamm|titre=Limonow|année=2012|éditeur=MSB Matthes & Seitz Berlin Verlagsgesellschaft|lieu=Berlin|url=}}}}
+#* {{exemple|Seit Mitte '''März''' wird Benzin immer teurer. 1,83 Euro kostete der Liter Super E10 nach ADAC-Angaben Anfang der Woche im bundesweiten Mittel.|lang=de|sens=Depuis mi-mars, l’essence est de plus en plus chère. Selon les données de l'ADAC, le litre de super E10 coûtait en début de semaine 1,83 euro en moyenne dans toute l'Allemagne.|source={{périodique|auteur=Anna-Lena Schlitt|titre=Tanken: Warum Benzin gerade so teuer ist|journal=Die Zeit|date=5 avril 2024|texte=https://www.zeit.de/wirtschaft/2024-04/tanken-sprit-preise-benzin-diesel-tankstelle-faq}}}}
+#* {{exemple|Erst Ende '''März''' starb ein niederösterreichisches Ehepaar an den Folgen einer Verwechslung. Offenbar waren versehentlich Blätter von Herbstzeitlosen in der Bärlauchsuppe gelandet. Das Paar wurde ins Krankenhaus gebracht, wenige Tage später waren beide tot.|lang=de|sens=Ce n'est que fin mars qu'un couple de Basse-Autriche est décédé des suites d’une confusion. Apparemment, des feuilles de colchiques avaient été ajoutées par erreur à la soupe à l’ail des ours. Le couple a été transporté à l’hôpital et quelques jours plus tard, ils étaient tous deux décédés.|source={{périodique|auteur=Karin Krichmayr|titre=Bärlauch ist kaum von seinen giftigen Doppelgängern unterscheidbar|journal=Der Standard|date=30 avril 2024|texte=https://www.derstandard.at/story/3000000218028/baerlauch-ist-kaum-von-seinen-giftigen-doppelgaengern-unterscheidbar}}}}
+#* {{exemple|In Kolumbien wird fast nur Arabica angebaut. Eine Besonderheit an kolumbianischem Kaffee ist, dass er zweimal jährlich geerntet wird. Die erste Ernteperiode dauert von '''März''' bis Juni, die zweite von September bis Dezember.|lang=de|sens=En Colombie, on ne cultive pratiquement que de l’arabica. L'une des particularités du café colombien est qu'il est récolté deux fois par an. La première période de récolte s’étend de mars à juin, la seconde de septembre à décembre.|source={{périodique|auteur=(Redaktion)|titre=Die Top 10 der Kaffee Anbauländer|journal=Coffee Circle|date=7 avril 2023|texte=https://www.coffeecircle.com/de/b/kaffee-anbaugebiete}}}}
+
+{{note}} La forme irrégulière {{l|''Märzen''|de}} pour le datif et le génitif singulier fait partie du registre littéraire ou poétique.
+
+==== {{S|synonymes}} ====
+{{(|}}
+* {{lien|Dritte|de}}
+* {{lien|Lenzing|de}}
+* {{lien|Frühlingsmonat|de}}
+{{)}}
+
+==== {{S|antonymes}} ====
+{{(|}}
+* {{lien|Januar|de}}
+* {{lien|Februar|de}}
+* {{lien|April|de}}
+* {{lien|Mai|de}}
+* {{lien|Juni|de}}
+* {{lien|Juli|de}}
+* {{lien|August|de}}
+* {{lien|September|de}}
+* {{lien|Oktober|de}}
+* {{lien|November|de}}
+* {{lien|Dezember|de}}
+{{)}}
+
+==== {{S|hyperonymes}} ====
+* {{lien|Monat|de}}
+
+==== {{S|dérivés}} ====
+* {{lien|ausmerzen|de|sens=éliminer}}
+
+==== {{S|vocabulaire}} ====
+{{tableau-mois/de}}
+
+=== {{S|prononciation}} ===
+* {{écouter|Berlin|mɛʁt͡s|lang=de|audio=De-März2.ogg}}
+* {{écouter|{{DE|nocat=1}}|mɛʁt͡s|lang=de|audio=De-März.ogg}}
+* {{écouter|Berlin|mɛʁt͡s|lang=de|audio=LL-Q188 (deu)-Sebastian Wallroth-März.wav}}
+* {{écouter|{{DE|nocat=1}}|mɛʁt͡s|lang=de|audio=LL-Q188 (deu)-Natschoba-März.wav}}
+
+=== {{S|références}} ===
+{{Références}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=de}}
+
+{{Bonne entrée|allemand}}
+
+[[Catégorie:Mois de l’année en allemand]]
+
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: Du latin.
+
+=== {{S|nom|gsw-fr}} ===
+'''März'''
+# Le mois de [[mars]].

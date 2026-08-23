@@ -1,0 +1,20 @@
+{{vérifier création automatique||gsw-fr}}
+
+== {{langue|de}} ==
+=== {{S|verbe|de|flexion}} ===
+'''laufe''' {{pron|ˈlaʊ̯fə|de}}
+# ''Deuxième personne du singulier de l’impératif présent à la forme active de'' {{lien|laufen|de}}.
+# ''Première personne du singulier du présent de l’indicatif à la forme active de'' {{lien|laufen|de}}.
+# ''Première personne du singulier du subjonctif présent I à la forme active de'' {{lien|laufen|de}}.
+# ''Troisième personne du singulier du subjonctif présent I à la forme active de'' {{lien|laufen|de}}.
+
+=== {{S|prononciation}} ===
+* {{écouter|Berlin|ˈlaʊ̯fə|lang=de|audio=De-laufe.ogg}}
+
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|verbe|gsw-fr}} ===
+'''laufe'''
+# [[courir|Courir]], [[marcher]]

@@ -1,0 +1,13 @@
+{{voir|Spánia|Spania}}
+
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|nom propre|gsw-fr}} ===
+'''Spanïa''' {{pron||gsw-fr}}
+# [[Espagne]] (pays européen).
+
+[[Catégorie:Pays en alémanique alsacien]]
+
+{{clé de tri|Spania}}

@@ -1,0 +1,181 @@
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: {{siècle|XIV}}. Du {{étyl|gmh|de|mot=geleis}}, du {{étyl|gmh|de|mot=leis}}, du {{étyl|goh|de|mot=-leisa}}<ref>{{source|Friedrich {{pc|Kluge}}, Elmar {{pc|Seebold}} : ''Etymologisches Wörterbuch der deutschen Sprache. 25.'', édition revue et augmentée. Éditeur Walter de Gruyter, Berlin/New York 2011, ISBN 978-3-11-022364-4, DNB 1012311937, mot-clé: „Geleise“, page 344 et mot-clé: „Gleis“, page 362}}.</ref>.
+
+=== {{S|nom|de}} ===
+{{de-nom-n-s-e|gs=Gleises|ds2=Gleise}}
+[[Fichier:Railway Track India.jpg|vignette|upright=0.6|'''Gleis''' - voie]]
+'''Gleis''' {{pron|ɡlaɪ̯s|de}} {{n}}
+# {{lexique|chemin de fer|de}} [[voie|Voie]].
+#* {{exemple|lang=de|[[Verzweigung]]en von '''Gleisen''' werden mit [[Eisenbahnweiche]]n realisiert.|sens= Les [[embranchement]]s de voies sont faits avec des [[aiguille]]s.}}
+#* {{exemple|Die Bombe war gegen 13.40 Uhr im Zuge von Grabungsarbeiten mit einem Bagger nahe den '''Gleis'''en entdeckt worden.|lang=de|sens=La bombe a été découverte vers 13h40 lors de travaux d'excavation à l’aide d’une pelleteuse près des voies ferrées.|source={{périodique|auteur=(APA)|titre=250-Kilo-Kriegsbombe in Tirol entschärft, Bahnverkehr wieder aufgenommen|journal=Der Standard|date=23 avril 2025|texte=https://www.derstandard.at/story/3000000266917/zugsperre-und-evakuierung-nach-fund-von-kriegsrelikt-in-tirol}}}}
+# {{lien|voie|fr|dif=Voie}}, {{lien|plateforme|fr}} dans une gare.
+#* {{exemple|lang=de|Der [[RE]] [[Nummer]] 32043 [[Richtung]] [[Hannover]] [[abfahren|fährt]] am '''Gleis''' 3 [[abfahren|ab]].|sens=Le train régional [[numéro]] 32043 à [[destination]] de [[Hanovre]] [[partir]]a [[voie]] 3.''}}
+# {{figuré|de}} {{lien|habitude|fr|dif=Habitude}}.
+# {{figuré|de}} {{lien|manière|fr|dif=Manière}} d'{{lien|agir|fr}}.
+
+==== {{S|anciennes orthographes}} ====
+* [[Geleis]]
+* [[Geleise]]
+
+==== {{S|antonymes}} ====
+* {{lien|Straße|sens=route », « rue}}
+
+==== {{S|hyperonymes}} ====
+* {{lien|Fahrweg|de}}
+* {{lien|Weg|de}}
+
+==== {{S|hyponymes}} ====
+{{(|}}
+* {{lien|Abfahrtsgleis|de}} ou {{lien|Abfahrtgleis|de|sens= voie de départ}}
+* {{lien|Abstellgleis|de|sens=voie de garage}}
+* {{lien|Aufstellgleis|sens=voie de placement », « voie de mise en place}}
+* {{lien|Ausfahrgleis|de}}
+* {{lien|Ausfahrtsgleis|de}} ou {{lien|Ausfahrtgleis|de|sens= voie de sortie}}
+* {{lien|Ausweichgleis|de|sens=voie de déviation}}
+* {{lien|Bahngleis|de|sens=voie ferrée}}
+* {{lien|Bahnhofsgleis|de|sens=voie de gare}}
+* {{lien|Einfahrgleis|de}}
+* {{lien|Einfahrtsgleis|de}} ou {{lien|Einfahrtgleis|de|sens= voie d'accès}}
+* {{lien|Freiladegleis|de|sens=voie de chargement accessible au public}}
+* {{lien|Gegengleis|de|sens=voie opposée}}
+* {{lien|Hauptgleis|de|sens=voie principale}}
+* {{lien|Ladegleis|de|sens=voie de chargement}}
+* {{lien|Nachbargleis|de|sens=voie adjacente}}
+* {{lien|Nebengleis|de|sens=voie secondaire}}
+* {{lien|Rangiergleis|de|sens=voie de manœuvre}}
+* {{lien|Regelgleis|de}}
+* {{lien|Straßenbahngleis|de}}
+* {{lien|Streckengleis|de}}
+* {{lien|Verschubgleis|de}}
+* {{lien|Schiene|de}}
+* {{lien|Trasse|de}}
+{{)}}
+
+==== {{S|dérivés}} ====
+{{(|&nbsp;}} 
+* {{lien|Abladegleis|de|sens=voie de déchargement}}
+* {{lien|Abzweiggleis|de|sens=voie de bifurcation}}
+* {{lien|Anschlussgleis|de|sens=voie de raccordement}}
+* {{lien|aufgleisen|de}}
+* {{lien|doppelgleisig|de|sens=à voie double}}
+* {{lien|dreigleisig|de|sens=à voie triple}}
+* {{lien|eingleisen|de|sens=mettre en voie}}
+* {{lien|eingleisig|de|sens=à voie unique}}
+* {{lien|Eisenbahngleis|sens=voie ferrée », « voie ferroviaire}}
+* {{lien|entgleisen|de|sens=dérailler}}
+* {{lien|Fahrgleis|de|sens=voie de circulation}}
+* {{lien|Feldgleis|de|sens=faisceau de voies}}
+* {{lien|Ferngleis|de|sens=voie ferroviaire à grande distance}}
+* {{lien|Gleisabstand|de|sens=espacement des voies}}
+* {{lien|Gleisänderung|de|sens=changement de voie}}
+* {{lien|Gleisanlage|de}}
+* {{lien|Gleisanschluss|de|sens=embranchement}}
+* {{lien|Gleisarbeit|de|sens=travail sur voie}}
+* [[Gleisarbeiter]] (''ouvrier d'entretien des voies ferrées''), [[Gleisarbeiterin]] (''ouvrière d'entretien des voies ferrées'')
+* {{lien|Gleisbau|de|sens=construction de voies}}
+* {{lien|Gleisbauarbeiten|de|sens=travaux de construction des voies}}
+* {{lien|Gleisbauer|de|sens=constructeur de voies}}
+* {{lien|Gleisbaumaschine|de|sens=engin de construction des voies}}
+* {{lien|Gleisbereich|de|sens=zone de voie ferrée}}
+* {{lien|Gleisberg|de}}
+* {{lien|Gleisbett|de|sens=ballast}}
+* {{lien|Gleisbettung|de|sens=revêtement de la voie}}
+* {{lien|Gleisbildstellwerk|de|sens=poste d'aiguillage}}
+* {{lien|Gleisblockade|de|sens=blocage de voie}}
+* {{lien|Gleisbogen|de|sens=voie en courbe}}
+* {{lien|Gleisbremse|de|sens=frein de voie}}
+* {{lien|Gleisbruch|de|sens=rupture de voie}}
+* [[Gleisdreieck]] (''triangle de voies'')
+* {{lien|Gleisfächer|de|sens=faisceau radial de voies}}
+* {{lien|Gleisfahrzeug|de|sens=véhicule ferroviaire}}
+* [[Gleisfreimeldeanlage]] (''dispositif de contrôle des trains sur la voie''), (''KVB''), (''ETCS'')
+* {{lien|Gleisgruppe|de|sens=faisceau de voies}}
+* {{lien|Gleisharfe|de|sens=faisceau de voies}}
+* {{lien|Gleiskette|de|sens=chenille (mécanique)}}
+* {{lien|Gleiskörper|de|sens=voie ferrée}}
+* {{lien|Gleislage|sens=position de la voie », « emplacement de la voie}}
+* {{lien|Gleisläufer|de}}
+* {{lien|gleislos|sens=sans voie », « sans rail}}
+* {{lien|Gleismessfahrzeug|de|sens=véhicule de mesure de voies}}
+* {{lien|Gleismitte|de|sens=milieu de la voie}}
+* {{lien|Gleisnetz|de|sens=réseau ferré}}
+* {{lien|Gleisquerung|de}}
+* {{lien|Gleisschleife|sens=boucle de voie », « boucle de retournement}}
+* {{lien|Gleisschotter|de|sens=ballast de voie}}
+* {{lien|Gleissperre|sens=taquet d'arrêt », « taquet dérailleur}}
+* {{lien|Gleisstellpult|de}}
+* {{lien|Gleisstrang|de}}
+* {{lien|Gleisstutzen|de|sens=voie de garage}}
+* {{lien|Gleisstrecke|de}}
+* {{lien|Gleistrog|de}}
+* {{lien|Gleisverlegung|de|sens=pose de voie}}
+* {{lien|Gleisverschlingung|de|sens=enchevêtrement de voies}}
+* {{lien|Gleiswaage|de|sens=bascule de voie}}
+* {{lien|Gleiswechsel|de|sens=changement de voie}}
+* {{lien|Gleiswerker|de}}
+* {{lien|Industriegleis|de|sens=voie industrielle}}
+* {{lien|Kopfgleis|de|sens=voie de garage}}
+* {{lien|mehrgleisig|de|sens=à plusieurs voies}}
+* {{lien|Sackgleis|sens=voie en impasse », « voie en cul-de-sac}}
+* {{lien|Schmalspurgleis|de|sens=voie étroite}}
+* {{lien|Seitengleis|de}}
+* {{lien|Stumpfgleis|de|sens=voie de garage}}
+* {{lien|Stutzgleis|de|sens=voie de garage}}
+* {{lien|Tramgleis|de|sens=voie de tram}}
+* {{lien|Verbindungsgleis|de}}
+* {{lien|vielgleisig|de}}
+* {{lien|viergleisig|de}}
+* {{lien|Werkgleis|de}} ou {{lien|Werksgleis|de}}
+* {{lien|zweigleisig|de|sens=à deux voies}}
+{{)}}
+
+=== {{S|prononciation}} ===
+* {{écouter|Vienne (Autriche)|ɡlaɪ̯s|lang=de|audio=De-at-Gleis.ogg}}
+* {{écouter|Berlin (Allemagne)|ɡlaɪ̯s|lang=de|audio=De-Gleis.ogg}}
+
+=== {{S|références}} ===
+{{Références}}
+
+==== {{S|sources}} ====
+* {{R:DWDS|Gleis}}
+* {{R:Duden|Gleis}} 
+* {{Source-wikt|de|Gleis}}
+
+==== {{S|bibliographie}} ====
+* Larousse - dictionnaire Allemand/Français - Français/Allemand, éd. 1958, p 510.
+* Harrap’s  de poche – Bordas dictionnaire Allemand/Français, éd. 1997, ISBN 0-245-50308-0, p 126.
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=de}}
+
+=== {{S|anagrammes}} ===
+{{voir anagrammes|de}}
+
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|nom|gsw-fr}} ===
+'''Gleis'''
+# [[rail|Rail]]
+
+== {{langue|lb}} ==
+=== {{S|étymologie}} ===
+: {{date|lang=lb}} {{ébauche-étym|lb}}
+{{note noms de famille}}
+
+=== {{S|nom de famille|lb}} ===
+{{lb-inv|ɡlɑɪs}}
+'''Gleis''' {{pron|ɡlɑɪs|lb}}
+# Nom de famille.
+#* {{exemple|lang=lb}}
+
+=== {{S|prononciation}} ===
+{{ébauche-pron-audio|lb}}
+
+=== {{S|anagrammes}} ===
+{{voir anagrammes|lb}}
+
+=== {{S|références}} ===
+* {{R:Luxemburger Familiennamenbuch}}

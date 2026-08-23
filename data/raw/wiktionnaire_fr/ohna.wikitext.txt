@@ -1,0 +1,8 @@
+== {{langue|gsw-fr}} ==
+{{ébauche|gsw-fr}}
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|préposition|gsw-fr}} ===
+'''ohna''' {{pron||gsw-fr}}
+# [[sans#fr|Sans]].

@@ -1,0 +1,13 @@
+== {{langue|gsw-fr}} ==
+{{ébauche|gsw-fr}}
+
+=== {{S|étymologie}} ===
+: Composé de ''{{lien|Itrìtt|gsw-fr}}'' (« entrée ») et de ''{{lien|Üswies|gsw-fr}}'' (« badge »). Cognat avec l’allemand ''{{lien|Eintrittsausweis|de}}'' (mot rare).
+
+=== {{S|nom|gsw-fr}} ===
+'''Itrìttüswies''' {{phon||gsw-fr}}
+# [[badge#fr|Badge]] d’[[entrée]].
+#* {{exemple | lang=gsw-fr
+ | Àwer kä Chance, dr Benalla ìsch güat ìn Pàris gsì. Ar hàt zwei Mol si '''Itrìttüswies''' ìm Parlamant benutzt…
+ | Mais pas de chance, Benalla était bien à Paris. Il a utilisé deux fois son badge d’entrée au parlement…
+ | source=Patrick {{smcp|Fluckiger}}, « Uf Elsassisch: Liagerèi um kä And », ''[[:w:L’Alsace|L’Alsace]]'', samedi 4 août 2018.}}

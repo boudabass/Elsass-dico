@@ -1,0 +1,10 @@
+{{vérifier création automatique||gsw-fr}}
+{{voir|kurwa|kurwą}}
+
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|nom|gsw-fr}} ===
+'''Kurwa'''
+# [[virage|Virage]]

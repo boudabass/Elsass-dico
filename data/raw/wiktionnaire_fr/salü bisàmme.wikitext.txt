@@ -1,0 +1,10 @@
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+: bisàmme est une concaténation de bi (''chez'') et de zàmme (''ensemble'', à rapprocher du haut-allemand ''zusammen'').
+: Une variante haut-rhinoise est binànder (contraction de bi ìhnè ànder, littéralement ''chez vous autres'').
+
+=== {{S|interjection|gsw-fr}} ===
+'''salü bisàmme !'''
+# [[salut|Salut]] à [[tous]] !
+{{clé de tri|salu bisamme}}

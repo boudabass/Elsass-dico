@@ -1,0 +1,9 @@
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|verbe|gsw-fr}} ===
+'''àbfànga'''
+# [[intercepter|Intercepter]], [[amortir]].
+
+{{clé de tri|abfanga}}

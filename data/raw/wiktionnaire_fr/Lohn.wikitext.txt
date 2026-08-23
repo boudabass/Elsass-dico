@@ -1,0 +1,293 @@
+== {{langue|fr}} ==
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|fr}}
+
+=== {{S|nom propre|fr}} ===
+{{fr-inv|lɔ͂|inv_titre=Nom propre}}
+'''Lohn''' {{pron|lɔ͂|fr}}
+# {{localités|fr|du canton des Grisons}} [[commune|Commune]] du canton des [[Grisons]] en [[Suisse]].
+# {{localités|fr|du canton de Schaffhouse}} [[commune|Commune]] du canton de [[Schaffhouse]] en [[Suisse]].
+
+==== {{S|traductions}} ====
+{{trad-début|}}
+{{trad-fin}}
+
+=== {{S|voir aussi}} ===
+* {{WP}}
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: {{siècle|VIII}}. Du {{étyl|gmh|de|mot=lōn}}, du {{étyl|gml|de|mot=lōn}}, du {{étyl|goh|de|mot=lōn|sens=récompense}}, du {{étyl|osx|de|mot=lōn}}, du {{étyl|got|de|mot=laun}}, du {{étyl|non|de|mot=laun}}, des {{étyl|gem|de|mot=*lāu-}}, [[*launa-]]. Apparenté au vieil anglais {{lien|''lēan''|ang}}, au moyen néerlandais {{lien|''loon''|dum}}, au néerlandais {{lien|''loon''|nl}}<ref>{{source|Friedrich {{pc|Kluge}}, Elmar {{pc|Seebold}} : ''Etymologisches Wörterbuch der deutschen Sprache. 24.'', édition revue et augmentée. Éditeur Walter de Gruyter, Berlin/New York 2001, ISBN 978-3-11-017473-1, DNB 965096742, mot-clé: „Lohn“, page 581}}.</ref><ref> {{source|Wolfgang {{pc|Pfeifer}}, ''Etymologisches Wörterbuch des Deutschen'', Éditions Deutscher Taschenbuch, 1997, ISBN-13: 978342-3325110 }} </ref>.
+
+=== {{S|nom|de}} ===
+{{de-nom-m-s-e|gs2=Lohnes|ds2=Lohne|np=Löhne}}
+'''Lohn''' {{pron|ˈloːn|de}} {{m}}
+# [[paie|Paie]], [[salaire]].
+#* {{exemple|Wirtschaftlich bilden Männer und Frauen fast zwei Kasten: bei gleichen Voraussetzungen haben die Männer vorteilhaftere Stellungen, höhere '''Löhne''', mehr Aufstiegschancen als ihre neuen Konkurrentinnen.|lang=de|sens=Économiquement hommes et femmes constituent presque deux castes ; toutes choses égales, les premiers ont des situations plus avantageuses, des salaires plus élevés, plus de chances de réussite que leurs concurrentes de fraîche date ;|source={{ouvrage|auteur={{w|Simone de Beauvoir}}|trad=Uli Aumüller et Grete Osterwald |titre=Das andere Geschlecht|année=1992|éditeur=Rowohlt Verlag |url=}}}}
+#* {{exemple|"Die Zahlen sind alarmierend", erklärt Ökonom Harald Glockner. (...) Vielen Beschäftigten sei weder bewusst, welchen enormen finanziellen Schaden sie ihrem Arbeitgeber durch ihre '''Löhne''' und Bezüge monatlich zufügen, noch dass sie damit letztlich gar ihren eigenen Arbeitsplatz gefährden.|lang=de|sens=« Les chiffres sont alarmants », explique l’économiste Harald Glockner. (...) De nombreux salariés ne sont pas conscients de l’énorme préjudice financier qu'ils causent chaque mois à leur employeur par le biais de leurs salaires et de leurs indemnités, ni du fait qu'ils mettent ainsi, en fin du compte, leur propre emploi en danger.|source={{périodique|auteur=(fed, dan, ssi)|titre=Studie: Lohnzahlungen verursachen Milliardenschäden für deutsche Unternehmen|journal=Der Postillon|date=21 août 2014|texte=https://www.der-postillon.com/2014/08/studie-lohnzahlungen-verursachen.html}}}}
+# [[récompense|Récompense]].
+#* {{exemple|Als '''Lohn''' für deine gute Arbeit gebe ich dir diese Süßigkeit.|lang=de|sens=En récompense de ton bon travail je te donne ce bonbon.}}
+
+==== {{S|synonymes}} ====
+* [[Entlohnung]]
+
+==== {{S|hyperonymes}} ====
+* [[Arbeitsentgelt]]
+* [[Entgelt]]
+
+==== {{S|hyponymes}} ====
+{{(|}}
+* [[Akkordlohn]] (''salaire à la tâche'')
+* [[Anteillohn]]
+* [[Arbeitslohn]] (''salaire'')
+* [[Barlohn]]
+* [[Bergelohn]]
+* [[Billiglohn]] (''bas salaire'')
+* [[Botenlohn]]
+* [[Bruttolohn]] (''salaire brut'')
+* [[Dumpinglohn]]
+* [[Durchschnittslohn]]
+* [[Ecklohn]]
+* [[Effektivlohn]]
+* [[Ehemaklerlohn]]
+* [[Ehemäklerlohn]]
+* [[Fährlohn]]
+* [[Fertigungslohn]]
+* [[Festlohn]]
+* [[Finderlohn]] (''récompense'')
+* [[Frachtlohn]]
+* [[Frauenlohn]]
+* [[Fuhrlohn]]
+* [[Garantielohn]]
+* [[Gedingelohn]]
+* [[Geldlohn]]
+* [[Gotteslohn]]
+* [[Grundlohn]]
+* [[Hochlohn]]
+* [[Höchstlohn]]
+* [[Hundelohn]]
+* [[Hungerlohn]] (''salaire de misère''), (''salaire de famine'')
+* [[Hurenlohn]]
+* [[Hütelohn]]
+* [[Indexlohn]]
+* [[Investivlohn]]
+* [[Jahreslohn]]
+* [[Judaslohn]]
+* [[Jugendlohn]]
+* [[Kombilohn]]
+* [[Kuppellohn]]
+* [[Leichtlohn]]
+* [[Leistungslohn]]
+* [[Lidlohn]]
+* [[Liebeslohn]]
+* [[Liedlohn]]
+* [[Macherlohn]]
+* [[Maximallohn]]
+* [[Mindestlohn]] (''salaire minimum'')
+* [[Mittellohn]]
+* [[Monatslohn]] (''salaire mensuel'')
+* [[Naturallohn]] (''salaire en nature'')
+* [[Nettolohn]] (''salaire net'')
+* [[Niedriglohn]] (''bas salaire'')
+* [[Nominallohn]]
+* [[Prämienlohn]]
+* [[Reallohn]]
+* [[Schichtlohn]]
+* [[Soziallohn]]
+* [[Stücklohn]]
+* [[Stundenlohn]] (''salaire horaire'')
+* [[Sündenlohn]]
+* [[Tagelohn]] (''salaire journalier'')
+* [[Tageslohn]]
+* [[Tariflohn]] (''salaire contractuel'')
+* [[Tieflohn]]
+* [[Trägerlohn]]
+* [[Unternehmerlohn]]
+* [[Wochenlohn]] (''salaire hebdomadaire'')
+* [[Zeitlohn]]
+{{)}}
+
+==== {{S|vocabulaire}} ====
+{{(|}}
+* [[Einkommen]]
+* [[Gehalt]]
+* [[Heuer]]
+* [[Sold]]
+* [[Verdienst]]
+{{)}}
+
+==== {{S|dérivés}} ====
+{{(|&nbsp;}}
+* [[Lohn-Preis-Spirale]] (''spirale inflationniste'')
+* [[Lohnabbau]] (''réduction de salaire'')
+* [[lohnabhängig]] (''salarié(e)'')
+* [[Lohnabhängige]] (''salariée''), [[Lohnabhängiger]] (''salarié'')
+* [[Lohnabrechnung]] (''bulletin de paie'')
+* [[Lohnabschlag]]
+* [[Lohnabschluss]] (''accords salariaux'')
+* [[Lohnabstand]]
+* [[Lohnabteilung]]
+* [[Lohnabzug]] (''retenue salariale''), (''retenue sur salaire'')
+* [[Lohnanhebung]] (''hausse du salaire'')
+* [[Lohnanpassung]] (''ajustement du salaire''), (''harmonisation des salaires'')
+* [[Lohnanspruch]] (''revendication salariale'')
+* [[Lohnanstieg]]
+* [[Lohnanteil]]
+* [[Lohnarbeit]] (''salariat'')
+* [[Lohnarbeiter]] (''salarié''), [[Lohnarbeiterin]] (''salariée'')
+* [[Lohnaufschlag]]
+* [[Lohnausfall]] (''perte de salaire'')
+* [[Lohnausgleich]] (''ajustement de salaire'')
+* [[Lohnauszahlung]]
+* [[Lohnbedienstete]]
+* [[Lohnbediente]]
+* [[Lohnberechnung]]
+* [[Lohnbescheinigung]] (''attestation de salaire'')
+* [[Lohnbewegung]]
+* [[lohnbezogen]] (''indexé(e) sur le salaire'')
+* [[Lohnbezug]]
+* [[Lohnbuch]] (''livre de paye'')
+* [[Lohnbuchhalter]] (''agent payeur'')
+* [[Lohnbuchhaltung]] (''comptabilité des salaires'')
+* [[Lohnbüro]] (''bureau de la paie'')
+* [[Lohndiener]] 
+* [[Lohndifferenz]]
+* [[Lohndifferenzierung]]
+* [[Lohndiktat]] (''dictat salarial'')
+* [[Lohndisziplin]]
+* [[Lohndrift]] (''différence entre salaire tarifaire et salaire réel'')
+* [[Lohndruck]]
+* [[Lohndrücker]], [[Lohndrückerin]]
+* [[Lohndumping]] (''dumping des salaires'')
+* [[Lohneinbuße]] (''perte de salaire'')
+* [[Lohneinkommen]]
+* [[Lohneinstufung]]
+* [[Lohnempfänger]] (''salarié''), [[Lohnempfängerin]] (''salariée'')
+* [[lohnen]] (''valoir la peine''), (''récompenser'')
+* [[löhnen]] (''casquer'')
+* [[lohnend]] (''profitable'')
+* [[lohnenswert]] (''qui vaut la peine'')
+* [[Lohnentwicklung]]
+* [[Lohnerhöhung]] (''hausse du salaire''), (''augmentation du salaire'')
+* [[Lohnersatzleistung]]
+* [[Lohnfindung]]
+* [[Lohnfolgekosten]]
+* [[Lohnfonds]]
+* [[Lohnforderung]] (''revendication salariale'')
+* [[Lohnfortzahlung]] (''maintien du salaire'')
+* [[Lohnfrage]]
+* [[Lohnfront]]
+* [[Lohnfuhre]]
+* [[Lohngarantie]]
+* [[Lohngefälle]] (''écart des salaires'')
+* [[Lohngefüge]] (''structure des salaires'')
+* [[Lohngeld]]
+* [[Lohngemeinkosten]] (''charges salariales'')
+* [[Lohngerechtigkeit]]
+* [[Lohngleichheit]]
+* [[Lohngruppe]] (''catégorie salariale'')
+* [[Lohnhierarchie]] (''hiérarchie salariale'')
+* [[Lohnhöhe]]
+* [[Lohninflation]] (''inflation des salaires'')
+* [[lohnintensiv]]
+* [[Lohninteresse]]
+* [[Lohnkampf]] (''lutte pour l'augmentation des salaires'')
+* [[Lohnkonto]]
+* [[Lohnkosten]] (''coûts salariaux'')
+* [[Lohnkürzung]] (''diminution salariale''), (''diminution de salaire'')
+* [[Lohnkutsche]]
+* [[Lohnkutscher]]
+* [[Lohnleitlinie]]
+* [[Lohnliste]] (''liste du personnel salarié'')
+* [[Lohnminderung]]
+* [[Lohnnebenkosten]] (''charges salariales annexes'')
+* [[Lohnnebenleistungen]] (''charges salariales annexes'')
+* [[Lohnniveau]] (''niveau des salaires'')
+* [[Lohnpause]]
+* [[Lohnpfändung]] (''saisie-arrêt sur salaire'')
+* [[Lohnpfändungsbeschluss]] (''ordonnance de saisie-arrêt sur salaire'')
+* [[Lohnplus]]
+* [[Lohnpolitik]] (''politique salariale'')
+* [[lohnpolitisch]] (''de la politique salariale'')
+* [[Lohnquote]] (''part des salariés dans le revenu national'')
+* [[Lohnraub]]
+* [[Lohnrechnerei]]
+* [[Lohnrechnung]]
+* [[lohnrelevant]]
+* [[Lohnrückstand]] (''arriéré de salaire'')
+* [[Lohnrunde]] (''négociations salariales'')
+* [[Lohnsackerl]] (''sac à salaire'')
+* [[Lohnsatz]] (''taux des salaires''), (''barème des salaires'')
+* [[Lohnschere]]
+* [[Lohnschreiber]]
+* [[Lohnsenkung]]
+* [[Lohnskala]] (''échelle des salaires'')
+* [[Lohnsklave]]
+* [[Lohnspreizung]]
+* [[Lohnsteigerung]] (''augmentation des salaires'')
+* [[Lohnsteuer]] (''impôt sur le salaire'')
+* [[Lohnstopp]] (''blocage des salaires'')
+* [[Lohnstreifen]] (''feuille de paie'')
+* [[Lohnstreik]]
+* [[Lohnstruktur]]
+* [[Lohnstückkosten]] (''part des charges salariales dans les coûts de production'')
+* [[Lohnsubvention]]
+* [[Lohnsumme]]
+* [[Lohnsystem]]
+* [[Lohntabelle]]
+* [[Lohntag]] (''jour de paie'')
+* [[Lohntarif]] (''tarif des salaires'')
+* [[Lohntarifvertrag]]
+* [[Lohntüte]] (''enveloppe contenant le salaire'')
+* [[Lohnungleichheit]]
+* [[Lohnuntergrenze]]
+* [[Lohnunterschied]] (''écart de salaire'')
+* [[Lohnveredelung]]
+* [[Lohnvereinbarung]]
+* [[Lohnverhältnis]]
+* [[Lohnverhandlung]] (''négociation sur les salaires'')
+* [[Lohnverteilung]]
+* [[Lohnverzicht]] (''renoncement au salaire'')
+* [[Lohnvorschuss]] (''acompte sur le salaire'')
+* [[Lohnzahlung]] (''paiement du salaire'')
+* [[Lohnzettel]] (''fiche de paie'')
+* [[Lohnzulage]] (''prime''), (''sursalaire'')
+* [[Lohnzurückhaltung]]
+* [[Lohnzusatzkosten]]
+* [[Lohnzuschlag]] (''complément salarial'')
+* [[Lohnzuschuss]]
+* [[Lohnzuwachs]]
+{{)}}
+
+==== {{S|phrases}} ====
+{{(|}}
+* [[in Lohn und Brot sein|in ''Lohn'' und Brot sein]]
+* [[in Lohn und Brot stehen|in ''Lohn'' und Brot stehen]]
+* [[jemanden in Lohn und Brot bringen|jemanden in ''Lohn'' und Brot bringen]]
+* [[jemanden um Lohn und Brot bringen|jemanden um ''Lohn'' und Brot bringen]]
+{{)}}
+
+=== {{S|prononciation}} ===
+* {{écouter|{{DE|nocat=1}}|loːn|lang=de|audio=De-Lohn.ogg}}
+* {{écouter|Berlin|loːn|lang=de|audio=De-Lohn2.ogg}}
+
+=== {{S|références}} ===
+{{Références}}
+
+==== {{S|sources}} ====
+* {{R:DWDS|Lohn}}
+* {{R:Duden|Lohn}} 
+* {{Source-wikt|de|Lohn}}
+
+==== {{S|bibliographie}} ====
+* Larousse - dictionnaire Allemand/Français - Français/Allemand, éd. 1958, p 590.
+* Harrap’s  de poche – Bordas dictionnaire Allemand/Français, éd. 1997, ISBN 0-245-50308-0, p 190.
+
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: de l’ancien haut-allemand ''[[lón]]'', « récompense », 
+
+=== {{S|nom|gsw-fr}} ===
+'''Lohn'''
+# [[salaire|Salaire]]

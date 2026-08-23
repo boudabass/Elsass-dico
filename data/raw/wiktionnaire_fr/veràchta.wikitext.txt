@@ -1,0 +1,12 @@
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|verbe|gsw-fr}} ===
+'''veràchta''' {{pron||gsw-fr}}
+# [[dédaigner|Dédaigner]], [[mépriser]].
+
+==== {{S|dérivés}} ====
+* [[Veràchtung]]
+
+{{clé de tri|verachta}}

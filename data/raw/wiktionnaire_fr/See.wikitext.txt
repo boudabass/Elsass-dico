@@ -1,0 +1,355 @@
+{{voir/see}}
+
+== {{langue|fr}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|fr|mot=See}}.
+
+=== {{S|nom propre|fr}} ===
+'''See''' {{pron||fr}}
+# {{territoires|sous-cat=Districts|fr|de Suisse}} Ancien [[district]] du [[canton]] de [[Saint-Gall]] en [[Suisse]].
+
+==== {{S|traductions}} ====
+{{trad-début}}
+{{trad-fin}}
+
+=== {{S|anagrammes}} ===
+{{voir anagrammes|fr}}
+
+=== {{S|voir aussi}} ===
+* {{WP}}
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: {{siècle|lang=de|VIII}}. Du {{étyl|gmh|de|mot=sē}}, du {{étyl|goh|de|mot=sēo}}, du germanique {{recons|lang-mot-vedette=de|saiwiz}}, du {{étyl|got|de|mot=saiws}}, apparenté à ''{{lien|sea|en}}'' en anglais, ''{{lien|zee|nl}}'' en néerlandais,<ref>{{source|Friedrich {{pc|Kluge}}, Elmar {{pc|Seebold}} : ''Etymologisches Wörterbuch der deutschen Sprache. 24.'', édition revue et augmentée. Éditeur Walter de Gruyter, Berlin/New York 2001, ISBN 978-3-11-017473-1, DNB 965096742, mot-clé: „See“, page 836f}}.</ref> ''{{lien|sø|da}}'' en danois.
+
+=== {{S|nom|de|num=1}} ===
+{{de-nom-m-s-n}}
+[[Fichier:Lac d'Espingo Oô.jpg|vignette|(der) '''See''' - lac]]
+'''See''' {{pron|zeː|de}} {{m}}
+# {{plans d’eau|de}} [[lac#fr|Lac]].
+#* {{exemple|In Süddeutschland gibt es zahlreiche '''See'''n.|lang=de|sens=L’Allemagne du sud est parsemée de nombreux lacs.}}
+#* {{exemple|Der Bodensee ist mit 254 Metern der tiefste '''See''' in Deutschland.|lang=de|sens=Le lac de Constance est le lac le plus profond d’Allemagne avec 254 mètres.}}
+#* {{exemple|Manchmal erscheint der '''See''' mir kühl und abweisend, dann wieder einladend und erfrischend, andere Male sieht er regelrecht verwunschen aus, so dass ich die Jungfrauen mit den Fischschwänzen dicht unter der Oberfläche erahnen kann, von denen die alten Sagen der Region erzählen.|lang=de|sens=Parfois, le lac me paraît froid et rebutant, pour ensuite redevenir frais et attirant. D’autres fois, il paraît littéralement enchanté, au point que je devine, juste sous la surface, les sirènes à queue de poisson dont parlent les vieilles légendes de la région.|source={{ouvrage|auteur={{w|Melanie Raabe}}|trad=Céline Maurice|titre=Die Falle|année=2015|éditeur=btb Verlag|url=}}}}
+
+==== {{S|antonymes}} ====
+{{(|}}
+* [[Himmel]]
+* [[Land]]
+* [[Bach]]
+* [[Fluss]]
+* [[Rinnsal]]
+* die [[See]]
+* [[Teich]]
+* [[Tümpel]]
+{{)}}
+
+==== {{S|hyperonymes}} ====
+* [[Binnengewässer]]
+* [[Gewässer]]
+
+==== {{S|dérivés}} ====
+{{(}}
+* [[Achensee]] (''lac Achen'')
+* [[Alpensee]] (''lac alpin'')
+* [[Attersee]] (''lac Attersee'')
+* [[Autobahnsee]] (''bassin de rétention des eaux d’autoroute'')
+* [[Badesee]] (''lac de baignade'')
+* [[Baggersee]] (''lac artificiel'')
+* [[Bergsee]] (''lac de montagne'')
+* [[Binnensee]] (''lac intérieur'')
+* [[Bodensee]] (''lac de Constance'')
+* [[Chiemsee]] (commune de Bavière) 
+* [[Flüssen und Seen]] (''fleuves et rivières'')
+* [[Gebirgssee]] (''lac de montagne'')
+* [[Gletschersee]] (''lac glaciaire'')
+* [[Grüner See]] (''nom de plusieurs lacs allemands et autrichiens'')
+* [[Kältesee]] (''lac d’air froid'')
+* [[Kaltluftsee]] (''lac d’air froid'')
+* [[Karsee]] (''lac de cirque'')
+* [[Landsee]]
+* [[Lavasee]] (''lac de lave'')
+* [[Mondsee]] (''lac et commune d’Autriche'')
+* [[Natronsee]] (''lac Natron en Tanzanie'')
+* [[Neusiedler See]] (''lac de Neusiedl à la frontière entre austro-hongroise'')
+* [[Salzsee]], [[Salzwassersee]] (''lac salé, chott'')
+* [[Seeabfluss]] (''débit du lac'')
+* [[Seeanstoß]]
+* [[seeartig]]
+* [[Seebucht]]
+* [[Seebühne]] (''rive de lac'')
+* [[Seefenster]]
+* [[Seeforelle]] (''truite de lac'')
+* [[Seekreuzer]]
+* [[Seelick]] (''vue sur le lac'')
+* [[Seengebiet]]
+* [[Seenkunde]]
+* [[Seenlandschaft]]
+* [[Seenplatte]]
+* [[Seepromenade]] (''promenade au bord du lac'')
+* [[Seerose]] (''nénufar, nymphéa'')
+* [[seeseitig]] 
+* [[Seestrand]]
+* [[Seeufer]] (''rive de lac'')
+* [[Seezimmer]]
+* [[Seezufluss]] (''affluent du lac'')
+* [[Speichersee]]
+* [[Stausee]] (''lac de barrage'')
+* [[Süßwassersee]] (''lac d’eau douce'')
+* [[Talsee]]
+* [[Titisee-Neustadt]] (commune de Bade-Wurtemberg)
+* [[Toplitzsee]] (''lac Toplitz en Autriche'')
+* [[Traunsee]] (''lac Traunsee en Autriche'')
+* [[Untersee]] (''lac inférieur du lac de Constance'')
+* [[Wolfgangsee]] (''lac Wolfgang'')
+* [[Wörthersee]] (''lac Wörthersee'')
+{{)}}
+
+=== {{S|nom|de|num=2}} ===
+{{de-nom-f-n}}
+[[Fichier:Kama sea, Laishevo (2021-07-14) 15.jpg|vignette|(die) '''See''' - mer]]
+'''See''' {{pron|zeː|de}} {{f}}
+# {{plans d’eau|de}} [[mer#fr|Mer]], (grande étendue d’eau salée).
+#* {{exemple | lang=de
+ | Die Schiffe fahren auf '''See'''.
+ | Les navires voguent sur la mer.}}
+#* {{exemple | lang=de
+ | Die '''See''' lag unbeweglich.
+ | La mer était immobile.}}
+#* {{exemple|» (...) das erinnert mich daran, daß ich Sie um vierzehn Tage Urlaub bitten muß.«<br />»Um Hochzeit zu halten?«<br />»Einmal das, und dann, um nach Paris zu reisen.<br />»Schön, schön, nehmen Sie sich so viel Zeit, wie Sie wollen, Dantès; das Ausladen des Schiffes wird etwa sechs Wochen in Anspruch nehmen, und wir werden vor Ablauf eines Vierteljahres wohl kaum wieder in '''See''' gehen … In einem Vierteljahr müssen Sie aber da sein.|lang=de|sens=— (...) cela me rappelle que j’aurai un congé de quinze jours à vous demander.<br />— Pour vous marier ?<br />— D’abord ; puis pour aller à Paris.<br />— Bon, bon ! vous prendrez le temps que vous voudrez, Dantès ; le temps de décharger le bâtiment nous prendra bien six semaines, et nous ne nous remettrons guère en mer avant trois mois… Seulement, dans trois mois, il faudra que vous soyez là.|source={{ouvrage|auteur={{w|Alexandre Dumas}}|trad=(inconnu)|titre=Der Graf von Monte Christo|année=1955|éditeur=Rütten & Loening|lieu=Frankfurt|url=}}}}
+
+==== {{S|synonymes}} ====
+* [[Meer]] (''mer'')
+* [[Ozean]] (''océan'')
+
+==== {{S|dérivés}} ====
+{{(}}
+* [[Dwarssee]] (''mer de travers'')
+* [[Hecksee]] (''sillage'')
+* [[Hochsee]] (''haute mer, eaux internationales'')
+* [[Kreuzsee]] (''mer croisée'')
+* [[Nordsee]] (''mer du Nord'')
+* [[Ostsee]] (''mer Baltique'')
+* [[Quersee]]
+* [[Seeaal]] (''congre'')
+* [[Seeadler]] (''pygargue à queue blanche'')
+* [[Seeamt]] (''affaires maritimes'')
+* [[Seeanemone]] (''anémone de mer'')
+* [[Seeanker]] (''ancre flottante'')
+* [[Seeausdruck]] (''terme de marine'')
+* [[Seebad]] (''bain de mer, station de thalassothérapie'')
+* [[Seebeben]] (''séisme sous-marin'')
+* [[seebeschädigt]] (''endommagé par la mer'')
+* [[Seebestattung]] (''funérailles en mer'')
+* [[Seeblick]] (''vue sur la mer'')
+* [[Seeblick]] (commune de Brandebourg)
+* [[Seeblockade]] (''blocus maritime'')
+* [[Seebrasse]] (''dorade de mer'')
+* [[Seebull]] (''chabot de mer'')
+* [[Seedrache]] (''dragon de mer'')
+* [[Seeebär]] (''otarie à fourrure, vieux loup de mer'')
+* [[Seeelefant]] (''éléphant de mer'')
+* [[seeerfahren]] (''sens marin'')
+* [[seefahrend]] (''naviguant'')
+* [[Seefahrer]] (''marin, coureur de mers'')
+* [[Seefahrer]] (''navigateur'')
+* [[Seefahrt]] (''navigation'')
+* [[Seefeder]] (''pennatule'')
+* [[seefest]] (''fête de la mer'')
+* [[Seefestung]] (''forteresse maritime'')
+* [[Seefisch]] (''poisson de mer'')
+* [[Seeflotte]] (''flotte maritime'')
+* [[Seefracht]] (''fret maritime'')
+* [[Seefracht]] (''fret maritime'')
+* [[Seefrau]] (''marin (femme)'')
+* [[Seefunk]] (''radio maritime'')
+* [[Seegang]] (''houle, mer houleuse'')
+* [[seegängig]] (''navigable'')
+* [[Seegat]], [[Seegatt]] (''passe'')
+* [[Seegebiet]] (''zone maritime'')
+* [[Seegefecht]] (''combat naval'')
+* [[seegehend]] (''en mer'')
+* [[Seegemälde]] (''peinture de marine, tableau de marine'')
+* [[Seegerichtshof]] (''tribunal maritime'')
+* [[seegestützt]]
+* [[Seegras]] (''zostère, varech'')
+* [[Seegrenze]] (''frontière maritime'')
+* [[seegrün]] (''vert-turquoise'')
+* [[Seegurke]] (''holothurie'')
+* [[Seehafen]] (''port maritime'')
+* [[Seehandel]] (''commerce maritime'')
+* [[Seehase]] (''lompe, aplysie, lièvre de mer'')
+* [[Seehecht]] (''merlu'')
+* [[Seeheer]] (''armée navale'')
+* [[Seeherrschaft]] (''domination maritime, contrôle de la mer'')
+* [[Seehöhe]] (''altitude au-dessus du niveau de la mer'')
+* [[Seehund]] (''phoque'')
+* [[Seeigel]] (''oursin'')
+* [[seeisch]] (''marin(e), de marine'')
+* [[Seejungfer]]
+* [[Seejungfrau]] (''la petite sirène'')
+* [[Seekabel]] (''câble sous-marin'')
+* [[Seekadett]] (''cadet de la marine'')
+* [[Seekalb]] (''veau marin'')
+* [[Seekanal]] (''canal maritime'')
+* [[Seekarte]] (''carte marine'')
+* [[seeklar]]
+* [[Seeklima]] (''climat océanique'')
+* [[seekrank]] (''ayant le mal de mer, naupathique'')
+* [[Seekrankheit]] (''mal de mer, naupathie'')
+* [[Seekrebs]] (''crabe de mer'')
+* [[Seekrieg]] (''guerre maritime, guerre navale'')
+* [[Seekuh]] (''sirénien, dugong, lamantin'')
+* [[Seeküste]] (''côte maritime'')
+* [[Seelachs]] (''lieu noir'')
+* [[Seeleopard]] (''léopard de mer'')
+* [[Seeleute]] (''marins, gens de mer'')
+* [[Seelilie]] (''crinoïdes, lys de mer'')
+* [[Seelöwe]] (''lion de mer'')
+* [[Seeluft]] (''air marin'')
+* [[Seemacht]] (''puissance maritime, puissance navale'')
+* [[Seemann]] (''marin (homme)''), [[Seemännin]] (''marin (femme)'')
+* [[seemännisch]] (''de marin, de marine'')
+* [[Seemanöver]] (''manœuvres navales'')
+* [[seemäßig]]
+* [[Seemaus]] (''souris de mer'')
+* [[Seemeile]] (''mille nautique'')
+* [[Seemine]] (''mine marine'')
+* [[Seemöwe]] (''mouette, goéland'')
+* [[Seenadel]] (''syngnathidés'')
+* [[Seenebel]] (''brume de mer'')
+* [[Seenot]] (''péril en mer'')
+* [[Seeoffizier]] (''officier de marine'')
+* [[Seeohr]] (''ormeau, abalone'')
+* [[Seeordnung]]
+* [[Seeotter]] (''loutre de mer'')
+* [[Seepferd]] (''hippocampe, cheval marin'')
+* [[Seepferdchen]] (''hippocampe'')
+* [[Seepflanze]] (''plante marine'')
+* [[Seeplatz]]
+* [[Seepost]] (''poste maritime'')
+* [[Seepromenade]] (''promenade au bord de la mer'')
+* [[Seeratte]] (''vieux loup de mer'')
+* [[Seeräuber]] (''pirate'')
+* [[Seerauberei]] (''piraterie'')
+* [[Seeraupe]] (''souris de mer'')
+* [[Seerecht]] (''droit maritime'')
+* [[Seereise]] (''croisière en mer'')
+* [[Seerettung]] (''sauvetage en mer'')
+* [[Seesack]] (''sac marin'')
+* [[Seesalz]] (''sel marin'')
+* [[Seesand]] (''sable marin'')
+* [[Seeschaden]] (''avarie'')
+* [[Seeschiff]] (''navire'')
+* [[Seeschiffahrt]] (''navigation maritime'')
+* [[Seeschildkröte]] (''tortue de mer'')
+* [[Seeschlacht]] (''bataille navale'')
+* [[Seeschlange]] (''serpent de mer'')
+* [[Seeschule]] (''école navale'')
+* [[Seeschwalbe]] (''sterne, guifette'')
+* [[Seeseite]] (''côté mer'')
+* [[seeseitig]]
+* [[Seesieg]]
+* [[Seesperre]] (''blocus maritime'')
+* [[Seespinne]] (''araignée de mer'')
+* [[Seestadt]] (''ville côtière, ville maritime'')
+* [[Seestern]] (''étoile de mer, astéride'')
+* [[Seestraße]] (''route maritime'')
+* [[Seestreitkraft]] (''force navale'')
+* [[Seestreitmacht]] (''force navale'')
+* [[Seestrich]] (''parage'')
+* [[Seestück]] (''peinture de marine'')
+* [[Seesturm]] (''tempête en mer'')
+* [[Seetang]] (''algue marine'')
+* [[Seetaucher]] (''plongeur sous-marin'')
+* [[seetauglich]] (''apte à naviguer'')
+* [[Seetonne]] (''balise'')
+* [[Seetransport]] (''transport maritime'')
+* [[Seetrift]] (''objet échoué'')
+* [[Seetruppen]] (''troupes de marine'')
+* [[seetüchtig]] (''apte à naviguer'')
+* [[seetüchtig]] (''apte à naviguer, qui a le pied marin'')
+* [[Seeufer]] (''bord de mer'')
+* [[Seeumschlag]]
+* [[Seeunfall]] (''accident maritime'')
+* [[Seeungeheuer]] (''monstre marin'')
+* [[seeuntüchtig]] (''inapte à naviguer'')
+* [[Seeurlaub]] (''vacances à la mer'')
+* [[Seeverbindung]] (''communication maritime'')
+* [[Seeverkehr]] (''trafic maritime'')
+* [[Seevermessung]]
+* [[Seeversicherung]] (''assurance maritime'')
+* [[Seevogel]] (''oiseau de mer, oiseau marin'')
+* [[Seevolk]] (''peuple de la mer'')
+* [[seewärtig]] (''du côté de la mer'')
+* [[seewärts]] (''vers la mer'')
+* [[Seewasser]] (''eau de mer'')
+* [[Seeweg]] (''route maritime, voie maritime'')
+* [[Seewesen]] (''marine'')
+* [[Seewetteramt]] (''bureau de la météo maritime'')
+* [[Seewetterbericht]] (''météo marine'')
+* [[Seewetterdienst]] (''service de la météo maritime'')
+* [[Seewind]] (''vent marin'')
+* [[Seewolf]] (''poisson-loup'')
+* [[Seezeichen]] (''signalisation maritime'')
+* [[Seezollgrenze]] (''frontière maritime'')
+* [[Seezollhafen]] (''port douanier maritime'')
+* [[Seezunge]] (''sole'')
+* [[Sturzsee]] (''vague déferlante'')
+* [[Südsee]] (''mer du sud'')
+* [[Tiefsee]] (''grand fond (marin)'')
+* [[Übersee]] (''commune de Bavière'')
+* [[Übersee]] (''outremer'')
+* [[Unterseeboot]] (''sous-marin'')
+{{)}}
+
+==== {{S|vocabulaire}} ====
+* [[Brecher]]
+
+==== {{S|phrases}} ====
+* [[auf See bleiben]]
+* [[in See stechen]]
+
+=== {{S|nom propre|de}} ===
+'''See''' {{pron|zeː|de}} {{m}} {{s}}
+# {{lexique|toponymie|de}} [[See#fr|See]], ancien canton suisse.
+#* {{exemple|lang=de}}
+
+=== {{S|nom de famille|de}} ===
+'''See''' {{pron|zeː|de}} {{mf}}
+# Nom de famille.
+#* {{exemple | lang=de | {{w|Dieter '''See'''|lang=de}} | sens= Dieter See, jouer de football dans les années 1960 et 1970}}
+
+=== {{S|prononciation}} ===
+* {{écouter|{{DE|nocat=1}}|zeː|lang=de|audio=De-See.OGG‎}}
+* {{écouter|Berlin|zeː|lang=de|audio=De-See2.ogg}}
+* {{écouter|{{DE|nocat=1}}|zeː|lang=de|audio=De-See.OGG}}
+* {{écouter|{{DE|nocat=1}}|zeː|lang=de|audio=De-See.ogg}}
+* {{écouter|{{DE|nocat=1}}|zeː|lang=de|audio=LL-Q188 (deu)-Lucas Werkmeister-See.wav}}
+* {{écouter|Berlin|zeː|lang=de|audio=LL-Q188 (deu)-Sebastian Wallroth-See.wav}}
+* {{écouter|Hamburg|zeː|lang=de|audio=LL-Q188 (deu)-CamelCaseNick-See.wav}}
+* {{écouter|lang=de|Berlin|zeː|audio=De-See.ogg}}
+* {{écouter|Munich (Allemagne)||lang=de|audio=LL-Q188 (deu)-Ionenlaser-See.wav}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=de}}
+
+=== {{S|références}} ===
+<references />
+
+==== {{S|sources}} ====
+* {{R:DWDS|See}}
+* {{R:Duden|See}}
+* {{Source-wikt|de|See}}
+
+==== {{S|bibliographie}} ====
+* Larousse, ''Dictionnaire allemand/français - français/allemand'', éd. 1958, p. 673
+* ''Harrap’s de poche – Bordas dictionnaire allemand/français'', éd. 1997, ISBN 0-245-50308-0, p. 260
+
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{siècle|lang=gsw-fr|VIII}}.
+: Du germanique {{recons|lang-mot-vedette=de|saiwiz}}, apparenté à ''{{lien|sea|en}}'' en anglais, ''{{lien|zee|nl}}'' en néerlandais, ''{{lien|sø|da}}'' en danois.
+
+=== {{S|nom|gsw-fr}} ===
+'''See''' {{pron||gsw}} {{m}}.
+# {{plans d’eau|gsw-fr}} [[lac#fr|Lac]].

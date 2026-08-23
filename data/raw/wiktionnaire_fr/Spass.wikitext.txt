@@ -1,0 +1,43 @@
+{{voir|spass|Spaß}}
+
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|nom|gsw-fr}} ===
+'''Spass'''
+# [[amusement|Amusement]], [[plaisanterie]].
+
+{{voir|Spass|Spaß}}
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: Cf. {{l|''Spaß''|de}}.
+
+=== {{S|nom|de|num=1}} ===
+{{de-nom-m-sing|gse=oui|dse=opt}}
+'''Spass''' {{pron|ʃpaːs|de}} {{m}} {{au singulier uniquement|de}}
+# {{indénombrable|de}} {{FL-CH}} / {{AT|de}} {{variante orthographique de|Spaß|lang=de|sens=[[divertissement]] », « [[plaisir]] », « [[amusement]]}}.
+
+==== {{S|variantes orthographiques}} ====
+* {{l|Spaß|de}} ''(Allemagne, partiellement en Autriche, … ; cf. pour autres informations)''
+
+=== {{S|nom|de|num=2}} ===
+{{de-nom-m-s-e|gse=oui|dse=opt|np=Spässe}}
+'''Spass''' {{pron|ʃpaːs|de}} {{m}}
+# {{dénombrable|de}} {{FL-CH}} / {{AT|de}} {{variante orthographique de|Spaß|lang=de|sens=[[plaisanterie]]}}.
+
+==== {{S|variantes orthographiques}} ====
+* {{l|Spaß|de}} ''(Allemagne, partiellement en Autriche, … ; cf. pour autres informations)''
+
+=== {{S|prononciation}} ===
+* {{écouter|Allemagne (Brême)|ʃpaːs|lang=de|audio=LL-Q188 (deu)-Lucy Fermented-Spass.wav}}
+* {{écouter|Allemagne (Berlin)|ʃpaːs|de|audio=De-Spaß.ogg}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=de}}
+
+=== {{S|références}} ===
+* {{R:DWDS|Spaß|Spass}}
+* {{R:Duden|Spasz|Spass}}
+* {{R:DWb|Spasz|Spass}}

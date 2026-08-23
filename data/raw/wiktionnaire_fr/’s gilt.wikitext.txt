@@ -1,0 +1,8 @@
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|interjection|gsw-fr}} ===
+'''’s gilt!'''
+# À [[votre]] [[santé]]!
+{{clé de tri|s gilt}}

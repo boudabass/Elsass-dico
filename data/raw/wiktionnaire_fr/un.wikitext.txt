@@ -1,0 +1,1248 @@
+{{voir/un}}
+
+== {{langue|fr}} ==
+{{cardinaux/fr}}
+=== {{S|étymologie}} ===
+: Du {{étyl|la|fr|mot=unus|dif=ūnus}}, adjectif numéral « un ».
+
+=== {{S|adjectif numéral|fr}} ===
+{{fr-accord-ind|pm=œ̃|pf=yn}}
+[[Fichier:Kiwi (Actinidia chinensis) 2 Luc Viatour.jpg|vignette|'''Un''' kiwi coupé en deux. (1)]]
+'''un''' {{pron|œ̃|fr}} {{cardinal|fr}}
+# {{term|antéposé}} Marque l’[[unité]], le fait qu’une personne ou une chose est [[seul]]e, [[unique]] en son [[espèce]].
+#* {{exemple | lang=fr | Quatre femmes et '''un''' homme.}}
+#* {{exemple | lang=fr | '''Un''' mètre.}}
+#* {{exemple | lang=fr | '''Une''' tonne.}}
+#* {{exemple | lang=fr | '''Un''' entre mille.}}
+#* {{exemple | lang=fr | Il est '''une''' heure.}}
+#* ''N’être qu’'''un''', ne faire qu’'''un''''' : Se dit pour exprimer une étroite, une intime union entre deux ou même plusieurs personnes.
+#* {{exemple|lang=fr|Nous ne faisions plus qu’'''un''' – mais lequel ?|source={{w|Pierre Assouline}}, ''Lutetia'', Gallimard, 2005, collection Folio, page 284}}
+# {{familier|fr}} Un très petit [[nombre]] [[indéterminé]].
+#* {{exemple | lang=fr | J’ai '''un''' mot à vous dire.}},
+#* {{exemple | lang=fr | J’en ai pour '''une''' minute.}}
+# {{term|postposé}} [[ordinal|Ordinal]] pour [[premier]]. {{note}} Comme adjectif ordinal postposé, « un » placé après un nom féminin est traditionnellement invariable. Mais comme le remarque Grevisse, l’« usage est hésitant » (591 a).
+#* {{exemple | lang=fr | Chapitre '''un'''.}}
+#* {{exemple | lang=fr | Page '''un'''.}}
+#* {{exemple | lang=fr | Page '''une'''.}}
+#* {{exemple | lang=fr
+ | Le numéro '''un''' marque pour moi un absolu. Quelque chose à quoi rien n’est supérieur. Peu importe où. J’ai l’illusion que c’est hors comparaison. Il n’est pas possible que ce que j’ai fait vienne après ce qu’a fait quelqu’un d’autre.
+ | source={{w|Nathalie Sarraute}}, ''{{w|Enfance}}'', Gallimard, 1983, collection Folio, page 217}}
+
+==== {{S|notes}} ====
+: Quand on utilise ce numéral avec une unité sans identité, on utilise parfois un [[déterminant]] au pluriel comme ''[[les#fr-flex-art-déf|les]]'' plutôt qu’au singulier.
+:* ''« […] Nous n’avions pas '''les un an''' de vie commune nécessaire pour les papiers et j’ai reçu une invitation à quitter le territoire français. »'' {{source|Blandine Grosjean, Charlotte Rotman, [http://www.liberation.fr/societe/0101442085-noces-sans-papiers ''Noces sans papiers''], ''Libération.fr'', 2003}}
+:* ''L’inflation a frôlé '''les 1%''' en 2009, atteignant 0,9% sur un an en décembre, selon les chiffres publiés par l’Insee ce mercredi.'' {{source|Guillaume Guichard, [http://www.lefigaro.fr/conjoncture/2010/01/13/04016-20100113ARTFIG00422-l-inflation-frole-les-1-en-2009-.php ''L’inflation frôle les 1% en 2009''], ''LeFigaro.fr'', 2010}}
+
+==== {{S|transcriptions}} ====
+* {{cf|lang=fr|1}}
+
+==== {{S|dérivés}} ====
+{{(}}
+* [[cinquante-et-un]]
+* [[d'un jour]]
+* [[mille et un]]
+* [[ne faire qu’un]]
+* [[ne faire ni une ni deux]] : ne pas hésiter, agir immédiatement
+* [[plus d’un]]
+* [[quarante-et-un]]
+* [[quatre-vingt-un]]
+* [[soixante-et-un]]
+* [[trente-et-un]]
+* [[unaire]]
+* [[une]]<!--en tant que substantif, la une (page une) du journal-->
+* [[un et un seul]]
+* [[uni]]
+* [[unième]]
+* [[unilatéral]]
+* [[union]]
+* [[unique]]
+* [[unir]]
+* [[unitaire]]
+* [[unité]]
+* [[un ou plusieurs]]
+* [[véhicule à un volume]]
+* [[vingt-et-un]]
+{{)}}
+
+==== {{S|vocabulaire}} ====
+* [[monade]]
+* [[monarchie]]
+* [[premier]], [[première]]
+* [[premièrement]]
+* [[solo]]
+* ''tous les mots en ''[[uni-]]'' ou ''[[mono-]]
+
+==== {{S|traductions}} ====
+{{trad-début|Marque l’unité|1}}
+* {{T|abx}} : {{trad|abx|adda}}
+* {{T|ady}} : {{trad|ady|зы|tr=zy}}
+* {{T|af}} : {{trad+|af|een}}
+* {{T|ain}} : {{trad|ain|シネㇷ゚}}, {{trad|ain|sinep}}
+* {{T|akm}} : {{trad|akm|lĭdĭgĭ}}
+* {{T|akz}} : {{trad|akz|cháffàaka}}
+* {{T|sq}} : {{trad+|sq|një}}
+* {{T|gsw}} : {{trad|gsw|aain|m}}
+* {{T|de}} : {{trad+|de|ein|m}}, {{trad+|de|eine|f}}, {{trad+|de|einer|m}} (''~ einer Einheit''), {{trad+|de|eine|f}} (''~ einer Einheit''), {{trad+|de|eins}}
+* {{T|alt}} : {{trad|alt|бир}}
+* {{T|am}} : {{trad+|am|አንድ}}
+* {{T|en}} : {{trad+|en|one}}
+* {{T|ar}} : {{trad+|ar|واحد|tr=wāḥid}}
+* {{T|ary}} : {{trad|ary|wa7ed}}
+* {{T|hy}} : {{trad+|hy|մեկ|tr=mek}}
+* {{T|ast}} : {{trad+|ast|un|m}}, {{trad+|ast|una|f}}
+* {{T|atj}} : {{trad|atj|peikw}}
+* {{T|av}} : {{trad-|av|цо}}
+* {{T|az}} : {{trad+|az|bir}}
+* {{T|ba}} : {{trad|ba|бер}}
+* {{T|bm}} : {{trad-|bm|kelen}}
+* {{T|eu}} : {{trad+|eu|bat}}
+* {{T|bar}} : {{trad|bar|oa|m}}, {{trad|bar|oa|f}}, {{trad|bar|oa|n}}
+* {{T|bn}} : {{trad+|bn|এক}}
+* {{T|be}} : {{trad+|be|адзін|tr=adzìn}}
+* {{T|bs}} : {{trad+|bs|jedan}}
+* {{T|br}} : {{trad+|br|unan}}
+* {{T|buw}} : {{trad|buw|mulé}}
+* {{T|bg}} : {{trad+|bg|един|tr=edin}}, {{trad+|bg|едно|tr=edno}}
+* {{T|krl}} : {{trad|krl|yksi}}
+* {{T|ca}} : {{trad+|ca|u}}
+* {{T|shy}} : {{trad+|shy|yict}}
+* {{T|zh}} : {{trad+|zh|一|tr=yī}}
+* {{T|cjs}} : {{trad|cjs|пир}}
+* {{T|ko}} : {{trad+|ko|일|tr=il}}, {{trad+|ko|하나|tr=hana}}
+* {{T|co}} : {{trad+|co|unu}}
+* {{T|gcf}} : {{trad|gcf|yonn}}
+* {{T|ht}} : {{trad|ht|en}}
+* {{T|rcf}} : {{trad|rcf|inn}}
+* {{T|hr}} : {{trad+|hr|jedan}}
+* {{T|dlm}} : {{trad|dlm|join}}
+* {{T|dmr}} : {{trad|dmr|meˈhan}}
+* {{T|da}} : {{trad+|da|en}}, {{trad+|da|et}}
+* {{T|dog}} : {{trad|dog|koturu}}
+* {{T|es}} : {{trad+|es|uno}}, {{trad+|es|un}}
+* {{T|eo}} : {{trad+|eo|unu}}
+* {{T|et}} : {{trad+|et|üks}}
+* {{T|fi}} : {{trad+|fi|yksi}}
+* {{T|fc}} : {{trad|fc|yun}}
+* {{T|frm}} : {{trad|frm|un}}, {{trad|frm|ung}}
+* {{T|frp}} : {{trad|frp|on|m|dif=yon}}
+* {{T|fud}} : {{trad|fud|tasi}}
+* {{T|gag}} : {{trad|gag|bir}}
+* {{T|gl}} : {{trad+|gl|un}}
+* {{T|gallo}} : {{trad|gallo|yun}}, {{trad|gallo|yin}}, {{trad|gallo|un}}, {{trad|gallo|in}}
+* {{T|cy}} : {{trad+|cy|un}}
+* {{T|gaulois}} : {{trad|gaulois|oino-}}
+* {{T|ka}} : {{trad+|ka|ერთი|tr=ert'i}}
+* {{T|aaa}} : {{trad|aaa|ɔ̀kpa}}
+* {{T|gil}} : {{trad|gil|teuana}}
+* {{T|el}} : {{trad+|el|ένας|tr=énas|m}}, {{trad+|el|μία|tr=mía|f}}, {{trad+|el|ένα|tr=éna|n}}
+* {{T|grc}} : {{trad|grc|εἷς|tr=heîs|m}}, {{trad|grc|μία|tr=mía|f}}, {{trad|grc|ἕν|tr=hén|n}}
+* {{T|griko}} : {{trad|griko|èna}}
+* {{T|gn}} : {{trad-|gn|peteĩ}}
+* {{T|gu}} : {{trad+|gu|એક|tr=ek}}
+* {{T|he}} : {{trad+|he|אחת}}
+* {{T|hi}} : {{trad+|hi|एक|tr=ek}}
+* {{T|mww}} : {{trad|mww|ib}}
+* {{T|hu}} : {{trad+|hu|egy}}
+* {{T|sah}} : {{trad|sah|биир}}
+* {{T|io}} : {{trad+|io|un}}
+* {{T|id}} : {{trad+|id|satu}}
+* {{T|ia}} : {{trad-|ia|unesime}}
+* {{T|iu}} : {{trad-|iu|ᐊᑕᐅᓯᖅ|tr=[[atausiq]]}}
+* {{T|it}} : {{trad+|it|uno}}, {{trad+|it|un|m}}, {{trad+|it|una}}, {{trad+|it|un’|f}}
+* {{T|ja}} : {{trad+|ja|一|tr=ichi}}
+* {{T|kab}} : {{trad|kab|iuen}}, {{trad|kab|yiwen}}
+* {{T|kl}} : {{trad+|kl|ataaseq}}
+* {{T|krc}} : {{trad|krc|бир}}
+* {{T|ks}} : {{trad+|ks|اَکھ}}
+* {{T|kk}} : {{trad+|kk|бір}}
+* {{T|kjh}} : {{trad|kjh|пiр}}
+* {{T|rw}} : {{trad-|rw|mwe}}
+* {{T|ky}} : {{trad+|ky|бир|tr=bir}}
+* {{T|avk}} : {{trad|avk|tanoy}}
+* {{T|kum}} : {{trad|kum|бир}}
+* {{T|ku}} : {{trad+|ku|yek}}
+* {{T|ldn}} : {{trad|ldn|nede}}
+* {{T|ryu}} : {{trad|ryu|ちー|tr=chii}}, {{trad|ryu|つぃー|tr=tsii}}
+* {{T|fsl}} : {{wikisign|un}}
+* {{T|lep}} : {{trad|lep|ᰀᰦᰳ}}
+* {{T|lv}} : {{trad+|lv|viens}}
+* {{T|ln}} : {{trad-|ln|mɔ̌kɔ́}}
+* {{T|lt}} : {{trad+|lt|vienas}}
+* {{T|src}} : {{trad|src|unu}}
+* {{T|lb}} : {{trad+|lb|ee|m}}/{{n}}, {{trad+|lb|een|m}}/{{n}}, {{trad+|lb|eng|f}}
+* {{T|mk}} : {{trad+|mk|еден|tr=eden}}
+* {{T|mg}} : {{trad+|mg|iray}}, {{trad+|mg|iray}}
+* {{T|mi}} : {{trad+|mi|tahi}}
+* {{T|mr}} : {{trad+|mr|एक}}
+* {{T|mrq}} : {{trad|mrq|tahi}}
+* {{T|mqm}} : {{trad|mqm|tahi}}
+* {{T|mn}} : {{trad+|mn|нэгэн|tr=negen|tradi=ᠨᠢᠭᠡᠨ}}
+* {{T|mvf}} : {{trad|mvf|ᠨᠢᠭᠡᠨ}}
+* {{T|nl}} : {{trad+|nl|één}}, {{trad+|nl|een}}, {{trad+|nl|'n}}
+* {{T|nog}} : {{trad|nog|бир}}
+* {{T|normand}} : {{trad|normand|eun}}, {{trad|normand|yeun}}, {{trad|normand|un}}
+* {{T|nb}} : {{trad+|nb|én}}
+* {{T|nn}} : {{trad+|no|ein}}
+* {{T|oc}} : {{trad+|oc|un}}, {{trad-|oc|'n}}, {{trad+|oc|v-un}}
+* {{T|ryu}} : {{trad|ryu|一}}, {{trad|ryu|いち|tr=ichi}}, {{trad|ryu|てぃー|tr=tii}}, {{trad|ryu|ちゅー|tr=chuu}}, {{trad|ryu|ふぃとぅ|tr=fitu}}
+* {{T|xum}} : {{trad|xum|𐌖𐌍𐌔|tr=uns}}
+* {{T|ur}} : {{trad+|ur|ایک}}
+* {{T|pa}} : {{trad+|pa|ਇੱਕ}}
+* {{T|fa}} : {{trad+|fa|یک|tr=yek}}
+* {{T|pcd}} : {{trad|pcd|eun’}}
+* {{T|myp}} : {{trad|myp|hói}}
+* {{T|poitevin-saintongeais}} : {{trad|poitevin-saintongeais|yin}}
+* {{T|pl}} : {{trad+|pl|jeden}}
+* {{T|pt}} : {{trad+|pt|um}}
+* {{T|ro}} : {{trad+|ro|un|m}}, {{trad+|ro|unu}}, {{trad+|ro|o|f}}
+* {{T|ru}} : {{trad+|ru|один|tr=odin}}
+* {{T|se}} : {{trad|se|okta}}
+* {{T|sa}} : {{trad-|sa|एकः|tr=ekaḥ|m}}, {{trad+|sa|एका|tr=ekā|f}}, {{trad+|sa|एकम्|tr=ekam|n}}
+* {{T|sc}} : {{trad-|sc|unu}}
+* {{T|sr}} : {{trad+|sr|један}}
+* {{T|sh}} : {{trad+|sh|jedan}}
+* {{T|wni}} : {{trad|wni|-moja}}
+* {{T|zdj}} : {{trad|zdj|-dzima}}
+* {{T|scn}} : {{trad+|scn|un}}, {{trad+|scn|nu}}, {{trad+|scn|n}}, {{trad-|scn|n’}}, {{trad-|scn|’n}}, {{trad+|scn|una}}, {{trad+|scn|na}}
+* {{T|sk}} : {{trad+|sk|jeden}}
+* {{T|sl}} : {{trad+|sl|ena}}
+* {{T|slovio}} : {{trad|slovio|din}}
+* {{T|solrésol}} : {{trad|solrésol|redodo}}
+* {{T|ses}} : {{trad|ses|affoo}}
+* {{T|sv}} : {{trad+|sv|ett}}
+* {{T|ty}} : {{trad|ty|tahi}}
+* {{T|ta}} : {{trad+|ta|ஒன்று}}
+* {{T|crh}} : {{trad|crh|bir}}
+* {{T|tt}} : {{trad+|tt|бер}}
+* {{T|cs}} : {{trad+|cs|jeden}}, {{trad+|cs|jedna}}
+* {{T|cv}} : {{trad|cv|пĕр}}, {{trad|cv|пĕрре}}
+* {{T|te}} : {{trad+|te|ఒకటి}}
+* {{T|th}} : {{trad+|th|หนึ่ง}}
+* {{T|bo}} : {{trad-|bo|གཅིག}}
+* {{T|ti}} : {{trad+|ti|ሓደ|m|tr=ḥadä}}, {{trad-|ti|ሓንቲ|f|tr=ḥanti}}
+* {{T|kim}} : {{trad|kim|бір}}
+* {{T|mlu}} : {{trad|mlu|teqe}}, {{trad|mlu|eta}}
+* {{T|tyv}} : {{trad|tyv|бир}}
+* {{T|tsolyáni}} : {{trad|tsolyáni|prún}}
+* {{T|tpw}} : {{trad|tpw|iepê}}
+* {{T|tr}} : {{trad+|tr|bir}}
+* {{T|tk}} : {{trad+|tk|bir}}
+* {{T|tru}} : {{trad|tru|ḥa}}
+* {{T|uk}} : {{trad+|uk|один}}
+* {{T|uum}} : {{trad|uum|бир}}
+* {{T|vec}} : {{trad+|vec|un|m}}, {{trad+|vec|na|f}}, {{trad-|vec|n’|mf}}
+* {{T|vi}} : {{trad+|vi|một}}
+* {{T|vo}} : {{trad+|vo|bal}}
+* {{T|wls}} : {{trad|wls|tahi}}
+* {{T|wa}} : {{trad+|wa|on}}
+* {{T|yim}} : {{trad|yim|khülang}}
+* {{T|esu}} : {{trad|esu|atauciq}}
+{{trad-fin}}
+
+{{trad-début|Pour indiquer un très petit nombre indéterminé|2}}
+* {{T|de}} : {{trad+|de|ein|m}}, {{trad+|de|eine|f}}
+* {{T|en}} : {{trad+|en|one}}
+* {{T|ar}} : {{trad+|ar|واحد|m}}, {{trad-|ar|واحدة|f}}
+* {{T|bar}} : {{trad|bar|oa|m}}, {{trad|bar|oa|f}}, {{trad|bar|oa|n}}
+* {{T|hr}} : {{trad+|hr|jedan}}, {{trad+|hr|jedan}}
+* {{T|eo}} : {{trad+|eo|iu}}
+* {{T|frm}} : {{trad|frm|un}}, {{trad|frm|ung}}
+* {{T|se}} : {{trad|se|muhtin}}
+{{trad-fin}}
+
+{{trad-début|Ordinal pour premier|3}}
+* {{T|de}} : {{trad+|de|eins|mf}}
+* {{T|en}} : {{trad+|en|one}}
+* {{T|ar}} : {{trad+|ar|واحد}}
+* {{T|vbb}} : {{trad|vbb|ˈmetl̩}}
+* {{T|bar}} : {{trad|bar|oans|m}}, {{trad|bar|oans|f}}, {{trad|bar|oans|n}}
+* {{T|hr}} : {{trad+|hr|prvi}}
+* {{T|eo}} : {{trad+|eo|unu}}
+* {{T|frm}} : {{trad|frm|un}}, {{trad|frm|ung}}
+* {{T|lb}} : {{trad+|lb|eent}}
+* {{T|mg}} : {{trad+|mg|isa}}
+* {{T|zdj}} : {{trad|zdj|-a hanɗa|tr=-a handa}}
+* {{T|gdr}} : {{trad|gdr|yepa}}
+{{trad-fin}}
+
+=== {{S|adjectif|fr}} ===
+{{fr-accord-ind|pm=œ̃|pf=yn}}
+'''un''' {{pron|œ̃|fr}} {{cardinal|fr}}
+# Qui est [[seul]], [[unique]], qui n’[[admettre|admet]] point de [[pluralité]].
+#* {{exemple | lang=fr | Dieu est '''un'''.}}
+#* {{exemple | lang=fr | Le moi est '''un'''.}}
+#* ''La vérité est toujours '''une''','' elle n’est jamais contraire à elle-même.
+#* {{exemple | lang=fr
+ | Et ainsi il voyait la fin de la soirée devant lui, '''une''' et pourtant alternative, précédée soit par la rencontre d’Odette qui abolirait son angoisse, soit par le renoncement forcé à la trouver ce soir, par l’acceptation de rentrer chez lui sans l’avoir vue.
+ | source={{w|Marcel Proust}}, ''{{w|Un amour de Swann}}'', 1913, réédition Le Livre de Poche, page 58}}
+# Où [[règne]] l’[[unité]], dont les [[partie]]s sont [[lier|liées]] entre elles de manière à former un tout.
+#* {{exemple|La position des autorités ukrainiennes, de l’armée et de la population est '''une''' et inébranlable : repousser l’armée russe, porter secours aux assiégés et aux personnes déplacées, tenter une négociation pour obtenir un cessez-le-feu, rassembler les preuves des crimes de guerre. Aucune dissension, aucune rumeur défaitiste, tous sont soudés derrière le président Zelensky et la défense nationale.|source={{Lien web |auteur=Marie Mendras |url=https://www.lemonde.fr/idees/article/2022/04/04/marie-mendras-la-folle-guerre-en-ukraine-annonce-la-fracture-de-la-dictature-russe_6120571_3232.html |titre=« Les Russes vivent pétrifiés par la violence de la propagande. Les élites politiques et économiques sont atterrées » |éditeur=''Le Monde'' |en ligne le=4 avril 2022}}|lang=fr}}
+
+==== {{S|dérivés}} ====
+* [[c’est tout un]]
+
+==== {{S|antonymes}} ====
+* [[multiple]]
+* [[dual]]
+* [[divisé]]
+* [[fragmenté]]
+
+==== {{S|traductions}} ====
+{{trad-début|Qui est seul, unique, qui n’admet point de pluralité|1}}
+* {{T|de}} : {{trad+|de|einzig}}
+* {{T|en}} : {{trad+|en|one}}
+* {{T|ar}} : {{trad+|ar|أَحَد}}, {{trad+|ar|واحد}}
+* {{T|ca}} : {{trad+|ca|u}}
+* {{T|hr}} : {{trad+|hr|jedan}}
+* {{T|es}} : {{trad+|es|uno}}
+* {{T|kab}} : {{trad|kab|awḥid}}
+* {{T|pt}} : {{trad+|pt|uno|m}}, {{trad+|pt|una|f}}
+* {{T|cs}} : {{trad+|cs|jednotný}}
+{{trad-fin}}
+
+{{trad-début|Où règne l’unité, dont les parties sont liées entre elles de manière à former un tout|2}}
+* {{T|hr}} : {{trad+|hr|jedan}}
+* {{T|zdj}} : {{trad|zdj|-dzima}}
+{{trad-fin}}
+
+=== {{S|article indéfini|fr}} ===
+{{fr-accord-mixte
+| ms=un
+| mp=des
+| fs=une
+| fp=des
+| pms=œ̃
+| pfs=yn
+| pmp=de
+| pmp2=dɛ
+| pfp=de
+| pfp2=dɛ
+}}
+'''un''' {{pron|œ̃|fr}}
+# [[déterminant|Déterminant]] placé devant un [[nom]] représentant un [[objet]] [[animé]] ou [[inanimé]] que l’on ne connaît pas avec précision. L’[[article]] [[indéfini]] a souvent le sens de « un (1) parmi d’autres ».
+#* {{exemple | lang=fr | Il y a '''un''' chien devant la maison.}}
+#* {{exemple | lang=fr | Je cherche '''un''' livre sur tel sujet.}}
+#* ''C’est '''un''' César, '''un''' Cicéron,'' etc. : c’est un homme aussi intrépide que César, aussi éloquent que Cicéron, etc.
+# [[tout|Tout]].
+#* {{exemple | lang=fr
+ | Premier scénario, le plus optimiste : nous assisterions moins à la fin ''du'' monde qu’à la fin ''d’'''un''''' monde, le nôtre, productiviste, consumériste, globalisé.
+ | source={{Lien web |auteur=Marianne Durano |url=https://www.lemonde.fr/festival/article/2019/07/24/marianne-durano-l-idee-de-fin-du-monde-est-un-remede-necessaire-a-l-absence-de-sens-de-la-civilisation-industrielle_5492684_4415198.html |titre=« Nous ne sommes pas la cause de la fin du monde, mais la fin du monde nous donne une cause : vivre la meilleure vie possible » |éditeur=''Le Monde'' |en ligne le=24 juillet 2019}}}}
+#* {{exemple | lang=fr | '''Un''' chrétien doit faire cela.}}
+#* {{exemple | lang=fr | '''Un''' honnête homme n’a qu’une parole.}}
+# Devant un nom propre, sert à annoncer qu'on désignera un aspect de la personne dont il est question.
+#* {{exemple | lang=fr
+ | Voici '''un''' Zweig proche du journalisme.
+ | source=''[[w:Nuit blanche (revue)|Nuit blanche]]'', {{n°|163}}, été 2021, page 46}}
+
+==== {{S|variantes orthographiques}} ====
+* [[1]] {{langage SMS|nocat=1}} {{argot Internet|nocat=1}}
+
+==== {{S|synonymes}} ====
+* [[quelque]] (Déterminant)
+
+==== {{S|dérivés}} ====
+* [[untel]], [[un tel]], [[une telle]]
+
+==== {{S|traductions}} ====
+{{trad-début|Déterminant placé devant un nom}}
+* {{T|af}} : {{trad+|af|’n}}
+* {{T|sq}} : {{trad+|sq|një}}, {{trad-|sq|-i}}, {{trad-|sq|-a}} (après un nom féminin)
+* {{T|de}} : {{trad+|de|ein|m}}, {{trad+|de|eine|f}}
+* {{T|en}} : {{trad+|en|a}}, {{trad+|en|an}}
+* {{T|an}} : {{trad-|an|un}}
+* {{T|ast}} : {{trad+|ast|un|m}}, {{trad+|ast|una|f}}
+* {{T|bm}} : {{trad-|bm|kɛlɛn}}
+* {{T|bar}} : {{trad|bar|a}}, {{trad|bar|a|n}}
+* {{T|brabançon}} : {{trad|brabançon|nen}}, {{trad|brabançon|een}}, {{trad|brabançon|ien}}
+* {{T|br}} : {{trad+|br|ur}}, {{trad+|br|un}} ''(devant une voyelle, n, d, t, et h)'', {{trad+|br|ul}} ''(devant l)''
+* {{T|ca}} : {{trad+|ca|un}}, {{trad+|ca|una}}
+* {{T|zh}} : {{trad+|zh|一个|tr=yīgè|tradi=一個}} ''(il y a beaucoup d’autres [[classificateur]]s)''
+* {{T|ht}} : {{trad|ht|yon}}
+* {{T|da}} : {{trad+|da|en}}(genre commun), {{trad+|da|et}}(neutre)
+* {{T|dog}} : {{trad|dog|koturu}}
+* {{T|es}} : {{trad+|es|un}}
+* {{T|eo}} : ''(il n’y a pas d’équivalent)''
+* {{T|vls}} : {{trad|vls|ne}}, {{trad|vls|e}}
+* {{T|nld}} : {{trad|nld|een}}, {{trad|nld|ne}}
+* {{T|frm}} : {{trad|frm|un}}, {{trad|frm|ung}}
+* {{T|frp}} : {{trad|frp|on}}
+* {{T|ga}} : {{trad+|ga|aon}}
+* {{T|gallo-italique de Sicile}} : {{trad|gallo-italique de Sicile|’n}}, {{trad|gallo-italique de Sicile|’m}}
+* {{T|el}} : {{trad+|el|ένας|tr=énas}}
+* {{T|griko}} : {{trad|griko|ena|m}}, {{trad|griko|enas|m}}, {{trad|griko|enam|m}}
+* {{T|hu}} : {{trad+|hu|egy}}
+* {{T|it}} : {{trad+|it|uno}}, {{trad+|it|un|m}}, {{trad+|it|una}}, {{trad+|it|un’|f}}
+* {{T|ja}} : {{trad+|ja|ある|tr=aru}}
+* {{T|kab}} : {{trad|kab|yiwen}}
+* {{T|avk}} : {{trad|avk|tan}}
+* {{T|li}} : {{trad-|li|’n}}
+* {{T|ln}} : {{trad-|ln|mɔ̌kɔ́}}
+* {{T|lb}} : {{trad+|lb|en|m}}/{{n}}, {{trad+|lb|eng|f}}
+* {{T|nl}} : {{trad+|nl|een}}, {{trad+|nl|'n}}
+* {{T|oc}} : {{trad+|oc|un}}
+* {{T|pln}} : {{trad|pln|un}}
+* {{T|pih}} : {{trad|pih|wan}}
+* {{T|poitevin-saintongeais}} : {{trad|poitevin-saintongeais|in}}, {{trad|poitevin-saintongeais|ùn}}
+* {{T|pt}} : {{trad+|pt|um}}
+* {{T|ro}} : {{trad+|ro|un}}
+* {{T|sco}} : {{trad+|ro|a}}, {{trad+|ro|an}}
+* {{T|ses}} : {{trad|ses|affoo}}
+* {{T|sv}} : {{trad+|sv|en|c}}, {{trad+|sv|ett|n}}
+* {{T|cs}} : {{trad+|cs|nějaký}}
+* {{T|tsolyáni}} : {{trad|tsolyáni|prù-}}
+* {{T|vec}} : {{trad+|vec|un|m}}, {{trad+|vec|na|f}}, {{trad-|vec|n’}} {{mf}}
+* {{T|vi}} : {{trad+|vi|một}}
+* {{T|wa}} : {{trad+|wa|on}}, {{trad+|wa|èn}}
+{{trad-fin}}
+
+{{trad-début|Tout}}
+* {{T|de}} : {{trad+|de|ein|m}}, {{trad+|de|eine|f}}
+* {{T|en}} : {{trad+|en|a}}, {{trad+|en|an}} (''devant un son vocalique'')
+* {{T|bar}} : {{trad|bar|a (jeda)|m}}, {{trad|bar|a (jede)|f}}, {{trad|bar|a (jeds)|n}}
+{{trad-fin}}
+
+=== {{S|pronom indéfini|fr}} ===
+{{fr-accord-ind|m=un|f=une|pm=œ̃|pf=yn}}
+'''un''' {{pron|œ̃|fr}}
+# Une personne ou une chose parmi plusieurs autres.
+#* {{exemple|lang=fr| […] l’inspection de monsieur Phallet s'était assez bien passée. Il avait obtenu une bonne participation des élèves et l’'''un''' d’eux avait employé, comme ça, spontanément, un verbe défectif sans faute ! |source= Clarisse Nicoïdski, ''Rumeurs dans la salle des profs'', Paris : chez Ramsay & chez de Cortanze, 1989, p. 188}}
+
+==== {{S|notes}} ====
+: Pour le pluriel, on utilise ''[[quelques-uns]]''.
+
+==== {{S|synonymes}} ====
+* [[l’un]]
+* [[quelqu’un]] {{vieilli|nocat=1}}
+
+==== {{S|dérivés}} ====
+* [[chacun]]
+* [[les uns]]
+* [[quelques-uns]]
+* [[quelqu’un]]
+* [[un à un]]
+
+==== {{S|traductions}} ====
+{{trad-début|Une personne ou une chose parmi plusieurs autres}}
+* {{T|de}} : {{trad+|de|einer|m}}, {{trad+|de|eine|f}}
+* {{T|en}} : {{trad+|en|one}}
+* {{T|ast}} : {{trad+|ast|ún}}, {{trad+|ast|unu|m}}, {{trad+|ast|una|f}}
+* {{T|bar}} : {{trad|bar|oana|m}}, {{trad|bar|oane|f}}, {{trad|bar|oans|n}}
+* {{T|br}} : {{trad+|br|unan}}
+* {{T|ca}} : {{trad+|ca|un|m}}, {{trad+|ca|una|f}}
+* {{T|ko}} : {{trad+|ko|하나|tr=hana}}
+* {{T|gcf-mq}} : {{trad|gcf-mq|yann}}
+* {{T|es}} : {{trad+|es|uno|m}}
+* {{T|ja}} : {{trad+|ja|一つ|tr=hitotsu}}, {{trad+|ja|一人|tr=hitori}}
+* {{T|avk}} : {{trad|avk|tan}}
+* {{T|nl}} : {{trad+|nl|een}}
+* {{T|oc}} : {{trad+|oc|un|m}}, {{trad+|oc|una|f}}
+* {{T|zdj}} : {{trad|zdj|mdzima}}
+* {{T|wa}} : {{trad+|wa|onk}}
+{{trad-fin}}
+
+=== {{S|nom|fr|num=1}} ===
+{{fr-rég|œ̃}}
+'''un''' {{pron|œ̃|fr}} {{m}}
+# Le [[nombre]] 1.
+#* {{exemple | lang=fr | '''Un''' précède deux et suit zéro.}}
+#* ''Le '''un''' de telle rue,'' La maison qui porte le numéro 1.
+# [[chiffre|Chiffre]] utilisé dans la numérotation décimale écrit ''[[1]]''.
+#* {{exemple | lang=fr | Le nombre 11 est écrit avec deux '''uns'''.}}
+
+==== {{S|vocabulaire}} ====
+* {{info lex|mathématiques}} x<sup>0</sup>, notamment [[Annexe:Principales puissances de 10|10<sup>0</sup>]]
+
+==== {{S|traductions}} ====
+{{trad-début|Le nombre 1}}
+* {{T|ady}} : {{trad|ady|зы|tr=zy}}
+* {{T|de}} : {{trad+|de|Eins|f}}, {{trad+|de|Eins|dif=Einsen}} {{f}} {{p}}
+* {{T|en}} : {{trad+|en|one}}
+* {{T|ast}} : {{trad+|ast|un}}, {{trad+|ast|unu|m}}
+* {{T|bar}} : {{trad|bar|Oansa|m}}
+* {{T|cak}} : {{trad|cak|jun}}
+* {{T|ca}} : {{trad+|ca|u}}
+* {{T|shi}} : {{trad|shi|ⵢⴰⵏ}}
+* {{T|gcf}} : {{trad|gcf|yonn}}
+* {{T|es}} : {{trad+|es|uno|m}}
+* {{T|eo}} : {{trad+|eo|unu}}
+* {{T|hu}} : {{trad+|hu|egy}}
+* {{T|iu}} : {{trad-|iu|ᐊᑕᐅᓯᖅ|tr=[[atausiq]]}}
+* {{T|it}} : {{trad+|it|uno|m}}
+* {{T|ki}} : {{trad|ki|ĩmwe}}
+* {{T|avk}} : {{trad|avk|tane}}
+* {{T|ku}} : {{trad+|ku|yek}}
+* {{T|lb}} : {{trad+|lb|Eent|f}}
+* {{T|ml}} : {{trad+|ml|ഒന്ന്|tr=onnu}}
+* {{T|mnw}} : {{trad+|mnw|မွဲ}}
+* {{T|mn}} : {{trad+|mn|нэг}}
+* {{T|mvf}} : {{trad|mvf|ᠨᠢᠭᠡ}}
+* {{T|oc}} : {{trad+|oc|un}}
+* {{T|pl}} : {{trad+|pl|jedynka}}
+* {{T|pt}} : {{trad+|pt|um|m}}
+* {{T|ro}} : {{trad+|ro|unu}}
+* {{T|se}} : {{trad|se|okta}}
+* {{T|zdj}} : {{trad|zdj|montsi}}
+* {{T|ses}} : {{trad|ses|affoo}}
+* {{T|ta}} : {{trad+|ta|ஒன்று|tr=oṉṟu}}
+* {{T|cs}} : {{trad+|cs|jednička}}
+* {{T|tsolyáni}} : {{trad|tsolyáni|prúkh}}
+* {{T|vec}} : {{trad+|vec|un|m}}
+* {{T|wa}} : {{trad+|wa|onk}}
+{{trad-fin}}
+
+{{trad-début|Chiffre utilisé dans la numérotation décimale écrit 1}}
+* {{T|ady}} : {{trad|ady|зы|tr=zy}}
+* {{T|de}} : {{trad+|de|Eins|f}}, {{trad+|de|Eins|dif=Einsen}} {{f}} {{p}}
+* {{T|bar}} : {{trad|bar|Oansa|m}}
+* {{T|eo}} : {{trad-|eo|unuo}}
+* {{T|avk}} : {{trad|avk|tane}}
+* {{T|lb}} : {{trad+|lb|Eent|f}}
+{{trad-fin}}
+
+* {{T|co}} : {{trad+|co|unu}} {{pron|ˈu.nu|it}}
+
+=== {{S|nom|fr|num=2}} ===
+{{fr-inv|œ̃}}
+'''un''' {{pron|œ̃|fr}} {{m}} {{équiv-pour|lang=fr|une femme|une}}
+# {{par métonymie|fr}} Une chose portant le numéro 1.
+#* {{exemple | lang=fr | Il habite au '''un'''.}}
+
+=== {{S|nom|fr|num=3}} ===
+{{fr-rég}}
+'''un''' {{pron||fr}} {{m}}
+# Vingtième lettre de l’[[alphabet géorgien]], {{lang|უ|ka}}.
+#* {{exemple|lang=fr}}
+
+==== {{S|traductions}} ====
+{{trad-début}}
+{{trad-fin}}
+
+=== {{S|prononciation}} ===
+* {{pron-rimes|œ̃|fr}}
+* {{pron|œ̃|fr}}
+* {{term|Accents avec fusion /œ̃/-/ɛ̃/}} {{pron|ɛ̃|fr}}<ref>{{Lien web|site=Français de nos régions|auteur=Mathieu Avanzi, Université de Neuchâtel|titre=Ces mots qui ne se prononcent pas de la même façon d’un bout à l’autre de la France|url=https://francaisdenosregions.com/2017/07/06/ces-mots-qui-ne-se-prononcent-pas-de-la-meme-facon-dun-bout-a-lautre-de-la-france/|date=6 juillet 2017|consulté le=9 août 2017}}</ref>
+* Français méridional : {{pron|œ̃|fr}}
+* Canada : {{pron|œ̃|fr}}, {{phon|œ̃˞|fr}}
+* {{écouter|France (Paris)|œ̃|audio=Fr-Un-fr-Paris.ogg|lang=fr}}
+* {{écouter|Belgique (Brabant wallon)|œ̃|audio=Fr-un-fr_BE.ogg|lang=fr}}
+* {{écouter|Canada (Montréal)|œ̃˞|audio=Qc-un.ogg|lang=fr}}
+* {{écouter|France (Paris)|æ̃|audio=Fr-Un-fr FR-Paris.ogg|lang=fr}}
+* {{écouter|France (Paris)|ɛ̃|audio=Fr-un.ogg|lang=fr}}
+* {{écouter||œ̃|lang=fr|audio=LL-Q150 (fra)-Guilhelma-un.wav}}
+* {{écouter||œ̃|lang=fr|audio=LL-Q150 (fra)-Jules78120-un.wav}}
+* {{écouter|lang=fr|France|audio=LL-Q150 (fra)-Roll-Morton-un.wav}}
+* {{écouter|lang=fr|France (Massy)|audio=LL-Q150 (fra)-X-Javier-un.wav}}
+* {{écouter|lang=fr|France (Paris)|audio=LL-Q150 (fra)-GrandCelinien-un.wav}}
+* {{écouter|lang=fr|France (Occitanie)|audio=LL-Q150 (fra)-Arthur Crbz-un.wav}}
+* {{écouter|lang=fr|Suisse (Genève)|audio=LL-Q150 (fra)-Nattes à chat-un.wav}}
+* {{écouter|lang=fr|France (Toulouse)|audio=Florian.ogg }}
+* {{écouter|lang=fr|France (Toulouse)|audio=LL-Q150 (fra)-Lepticed7-un.wav}}
+* {{écouter|lang=fr|France (Lorient)|audio=Marion.ogg }}
+* {{écouter|lang=fr|France (Muntzenheim)|audio=LL-Q150 (fra)-0x010C-un.wav}}
+* {{écouter|lang=fr|Suisse (canton du Valais)|audio=LL-Q150 (fra)-DSwissK-un.wav}}
+* {{écouter|lang=fr||audio=LL-Q150 (fra)-Justforoc-un.wav}}
+* {{écouter|lang=fr|France (Vosges)|audio=LL-Q150 (fra)-Poslovitch-un.wav}}
+* {{écouter|lang=fr|France (Montpouillan)|audio=LL-Q150 (fra)-Yug-un.wav}}
+* {{écouter|lang=fr|France (Paris)||audio=LL-Q150 (fra)-Ash Crow-un.wav}}
+* {{écouter|lang=fr|France (Vosges)||audio=LL-Q150 (fra)-LoquaxFR-un.wav}}
+* {{écouter|lang=fr|France (Saint-Berain-sous-Sanvignes)||audio=LL-Q150 (fra)-Chavagne-un.wav}}
+* {{écouter|lang=fr|||audio=LL-Q150 (fra)-Madehub-un.wav}}
+* {{écouter|lang=fr|France (Hérault)||audio=LL-Q150 (fra)-T. Le Berre-un.wav}}
+* {{écouter|lang=fr|Suisse (Lausanne)||audio=LL-Q150 (fra)-Eihel-un.wav}}
+* {{écouter|lang=fr|||audio=LL-Q150 (fra)-Kaderousse-un.wav}}
+* {{écouter|lang=fr|France (Metz)||audio=LL-Q150 (fra)-val (Eavq)-un.wav}}
+* {{écouter|lang=fr|France||audio=LL-Q150 (fra)-Mecanautes-un.wav}}
+* {{écouter|lang=fr|France (Lyon)||audio=LL-Q150 (fra)-Loizbec-un.wav}}
+* {{écouter|lang=fr|France (Paris)||audio=LL-Q150 (fra)-Eavq-un.wav}}
+* {{écouter|lang=fr|||audio=LL-Q150 (fra)-Fabe56-un.wav}}
+* {{écouter|Montpellier (France)||lang=fr|audio=LL-Q150 (fra)-GeoMechain-un.wav}}
+* {{écouter|Québec (Canada)||lang=fr|audio=LL-Q150 (fra)-Estrie-un.wav}}
+* {{écouter|Mulhouse (France)||lang=fr|audio=LL-Q150 (fra)-Mathieu Kappler-un.wav}}
+* {{écouter|||lang=fr|audio=LL-Q150 (fra)-Sagnamadr-un.wav}}
+* {{écouter|Grenoble (France)||lang=fr|audio=LL-Q150 (fra)-Opsylac-un.wav}}
+* {{écouter|Lyon (France)||lang=fr|audio=LL-Q150 (fra)-WikiLucas00-un.wav}}
+* {{écouter|Valence (France)||lang=fr|audio=LL-Q150 (fra)-Johanboss-un.wav}}
+* {{écouter|Liège (Belgique)||lang=fr|audio=LL-Q150 (fra)-Shareculture-un.wav}}
+* {{écouter|Courmayeur (Italie)||niveau=moyen|lang=fr|audio=LL-Q150 (fra)-XANA000-un.wav}}
+* {{écouter|Vendée (France)||lang=fr|audio=LL-Q150 (fra)-Sartus85-un.wav}}
+* {{écouter|Saint-Laurent-de-Cerdans (France)||lang=fr|audio=LL-Q150 (fra)-Helenou66-un.wav}}
+
+==== {{S|homophones|fr}} ====
+* [[hun]]/[[Hun]]
+{{term|Accents avec fusion /œ̃/-/ɛ̃/}}
+* [[Ain]]
+* [[ein]]
+* [[haim]]
+* [[hein]]
+
+=== {{S|anagrammes}} ===
+{{voir anagrammes|fr}}
+
+=== {{S|voir aussi}} ===
+* {{Annexe|Nombres en français}}
+* {{WP}}
+
+=== {{S|références}} ===
+{{Références}}
+* {{Import:DAF8}}
+
+== {{langue|ain}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|ain}}
+
+=== {{S|pronom personnel|ain}} ===
+'''un''' {{pron|un|ain}}
+# [[nous#fr|Nous]].
+#* {{exemple|lang=ain}}
+
+==== {{S|synonymes}} ====
+* {{lien|i|ain}}
+
+=== {{S|références}} ===
+==== {{S|bibliographie}} ====
+* {{R:Batchelor}}
+
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|adverbe|gsw-fr}} ===
+'''un''' {{pron||gsw-fr}}
+# [[ainsi que|Ainsi que]].
+
+== {{langue|fro}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|fro|mot=unus|dif=ūnus|sens='''un''' (adjectif numéral)}}.
+
+=== {{S|adjectif numéral|fro}} ===
+{{fro-adj|mss=uns|msp=un|mrs=un|mrp=uns|fs=une|fp=unes|n=-}}
+'''un''' {{pron-recons|ỹn|fro}}, {{pron-recons|ũn|fro}} {{cardinal|fro}}
+# [[un#fr|Un]].
+
+==== {{S|synonymes}} ====
+* [[empreu]]
+
+=== {{S|article indéfini|fro}} ===
+{{fro-adj|mss=uns|msp=un|mrs=un|mrp=uns|fs=une|fp=unes|n=-}}
+'''un''' {{pron-recons||fro}}
+# [[#fr|Un]].
+
+=== {{S|anagrammes}} ===
+{{voir anagrammes|fro}}
+
+== {{langue|az}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|az}}
+
+=== {{S|nom|az}} ===
+{{az-décl-nom|u|c}}
+'''un''' {{pron|un|az}} {{formes-possessives|az}}
+# [[farine|Farine]].
+
+== {{langue|bhg}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|bhg}}
+
+=== {{S|nom|bhg}} ===
+'''un''' {{pron||bhg}}
+# [[eau#fr|Eau]].
+
+=== {{S|références}} ===
+* WILSON, Jonathan, author. 1996. ''[//www.sil.org/pacific/png/pubs/928474543539/Binandere_Nominal_Structure.pdf Binandere nominal structures]''. M. A. in Linguistics, The University of Texas at Arlington. 137 pages, page 34
+
+== {{langue|br}} ==
+=== {{S|étymologie}} ===
+: {{date|lang=br|842}}{{R|Devri|u|un}} Du {{étyl|obt|br|un}}{{R|DVB-I}}{{R|Redon}}, apparenté au cornique ''{{lien|un|kw}}'', au gallois ''{{lien|un|cy}}'' au vieil irlandais ''{{lien|oin|sga}}'', issu d’un celtique {{recons|oino-s|lang-mot-vedette=br}} (« un »){{R|LEBM}}.
+
+=== {{S|article indéfini|br}} ===
+'''un''' {{pron|ỹn|œ̃n|br}}
+# [[#Français|Un]] ou [[une]] devant un mot commençant par ''n'', ''d'', ''t'', ''h'' ou une voyelle.
+#* '''''Un''' aval ; '''un''' nadoz ; '''un''' dant ; '''un''' ti ; '''un''' hailhon''.
+#*: Une pomme ; une aiguille , une dent ; une maison ; un voyou.
+# (''Devant un nombre'') [[quelque|Quelque]], [[environ]].
+#* ''’Benn '''un''' tri dewez a cʼhoude-ze,<br />A oa Ervoanik war ar pave […].'' {{source|[[w:Fañch an Uhel|Fañch an Uhel]], ''[[s:br:Gwerziou Breiz-Izel|Gwerziou Breiz-Izel I]]'', Lorient, 1868, page 552}}
+#*: Au bout de quelque trois jours après cela, Ervoanik était sur le pavé.
+#* {{exemple | lang=br
+ | Met allas ! ma cʼhordenn na oa ket hir a-walcʼh ; '''un''' ugent troatad, war-dro, a faote dezhi ; hag e kouezhis neuze war ur rocʼhell vras, ken rust, ma ’cʼh eas ma fenn don er maen.
+ | Mais hélas ! ma corde n’était pas assez longue ; il lui manquait, à peu près, une vingtaine de pieds ; et je tombai alors sur un gros rocher, si violemment que ma tête s’enfonça profondément dans la pierre.
+ | source={{Citation/Fañch an Uhel/Kontadennoù ar Bobl/1984-1994|4|44-45}}}}
+#* {{exemple | lang=br
+ | O, ya ! eme unan all ; '''un''' eizh real bennak, d’an nebeutañ.
+ | Oh oui ! fit un autre ; environ huit réaux, au moins.
+ | source={{Citation/Jakez Riou/Geotenn ar Wercʼhez/1957|96}}}}
+# (''Avec [[bennak]] encadrant un nom pluriel'') [[quelques|Quelques]]
+#* {{exemple | lang=br
+ | Eo, soñj he deus : '''un''' devezhioù bennak a-raok dezhañ tremen he doa gwelet ur seblant.
+ | Si, elle se souvient : quelques jours avant qu’il trépasse elle avait vu un fantôme.
+ | source={{w|Youenn Olier}}, ''Abardaez'', in ''{{w|Al Liamm}}'', {{numéro|72}}, janvier-février 1959, page 11}}
+
+==== {{S|variantes}} ====
+* {{lien|ul|br}} (''devant un l'')
+* {{lien|ur|br}} (''devant une consonne autre que d, h, l, n et t'')
+
+==== {{S|dérivés}} ====
+{{(}}
+* {{lien|a-un|br}}
+* {{lien|da-un|br}}
+* {{lien|e-un|br}}
+* {{lien|he-un|br}}
+* {{lien|ho-un|br}}
+* {{lien|hon-un|br}}
+* {{lien|ma-un|br}}
+* {{lien|o-un|br}}
+* {{lien|un-|br}}
+* {{lien|unan|br}}
+* {{lien|unded|br}}
+* {{lien|under|br}}
+* {{lien|unek|br}}
+* {{lien|unel|br}}
+* {{lien|unnek|br}}
+* {{lien|uniezh|br}}
+* {{lien|va-un|br}}
+{{)}}
+
+==== {{S|apparentés}} ====
+* {{lien|intañv|br}}
+* {{lien|intañvez|br}}
+
+=== {{S|pronom indéfini|br}} ===
+'''un''' {{pron|ỹn|br}} <small>ou</small>{{pron|œ̃n|br}} ({{p}} : {{lien|re|br|pronom}})
+# [[un#fr-pronom-indéf|Un]], [[quelqu’un]].
+#* {{exemple | lang=br
+ | Un tu bennak er malizennoù ez eus '''un'''.
+ | Quelque part dans les valises il y en a un.
+ | source={{w|Per Denez}}, ''Kontadenn e stumm ur pezh-cʼhoari'', in ''{{w|Al Liamm}}'', {{numéro|32-33}}, mai-août 1952, page 54}}
+
+==== {{S|variantes}} ====
+* {{lien|unan|br}}
+
+=== {{S|prononciation}} ===
+* {{écouter|Nantes (France)|ỹn|niveau=bon|lang=br|audio=LL-Q12107 (bre)-Adriendelucca-un.wav}}
+* {{écouter|Bretagne (France)|œ̃n|niveau=bon|lang=br|audio=LL-Q12107 (bre)-Ltranvz-un.wav}}
+
+=== {{S|références}} ===
+<references>
+{{R|Redon|{{w|Cartulaire de Redon}} : ''secundum '''un''' nant'' (« le long d’une vallée »}}
+</references>
+
+== {{langue|ca}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|ca}} [[unum#la|ūnum]] (« one »), accusatif de [[unus#la|ūnus]] (« one »).
+
+=== {{S|article indéfini|ca}} ===
+{{ca-accord-mixte|un}}
+'''un'''
+# [[#fr|Un]].
+
+=== {{S|adjectif numéral|ca}} ===
+'''un''' {{cardinal|ca}}
+# [[#fr|Un]].
+
+=== {{S|pronom indéfini|ca}} ===
+'''un'''
+# [[#fr|Un]].
+
+=== {{S|prononciation}} ===
+* {{écouter|El Prat de Llobregat (Espagne)||lang=ca|audio=LL-Q7026 (cat)-Unjoanqualsevol-un.wav}}
+
+== {{langue|kw}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|kw}}
+
+=== {{S|adjectif numéral|kw}} ===
+'''un''' {{pron||kw}}
+# [[#Français|Un]] (ou [[une]]).
+
+== {{langue|lou}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|lou}}
+
+=== {{S|adjectif numéral|lou}} ===
+'''un''' {{pron||lou}}
+# [[#Français|Un]].
+
+== {{langue|es}} ==
+{{numéraux en espagnol}}
+
+=== {{S|étymologie}} ===
+: {{apocope|es|m=1}} de ''[[uno#es|uno]]''.
+
+=== {{S|article indéfini|es}} ===
+'''un''' {{pron|un|es}} {{m}} ({{f}} : '''[[una]]''')
+# [[un|Un]] (article indéfini, forme du masculin singulier). Équivalent de ''[[uno]]'' mais uniquement devant les noms communs masculins ou les noms communs féminins commençant par ''a'' ou ''ha'' accentué.
+#* {{exemple | lang=es
+ | Es '''un''' chico.
+ | C’est un garçon.}}
+#* {{exemple | lang=es
+ | La cultura es '''un''' adorno y el negocio es el negocio.
+ | La culture est un ornement est les affaires sont les affaires.
+ | source={{w|Gabriel Celaya}}, ''{{w|Itinerario poético}}'', 1973.}}
+
+==== {{S|synonymes}} ====
+* [[uno#es|uno]]
+
+=== {{S|adjectif numéral|es}} ===
+'''un''' {{pron|un|es}} {{cardinal|es}} {{invar}}
+# [[#fr|Un]].
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=es|France|audio=LL-Q1321 (spa)-Anonymât (Kvardek du)-un.wav}}
+* {{écouter|lang=es|Allemagne (Berlin)||audio=LL-Q1321 (spa)-Guergana-un.wav}}
+== {{langue|francique mosellan}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|francique mosellan}}
+
+=== {{S|conjonction|francique mosellan}} ===
+'''un''' {{pron||francique mosellan}}
+# {{hunsrückisch}} [[et|Et]].
+#* {{exemple|lang=francique mosellan}}
+
+=== {{S|références}} ===
+* {{R:Alves2013|p=36}}
+
+== {{langue|fur}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|fur}}
+
+=== {{S|adjectif numéral|fur}} ===
+'''un''' {{pron||fur}}
+# [[un#fr|Un]].
+#* {{exemple|lang=fur}}
+
+== {{langue|gag}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gag}}
+
+=== {{S|nom|gag}} ===
+'''un''' {{pron||gag}}
+# [[farine|Farine]].
+
+== {{langue|gallo}} ==
+{{cardinaux/gallo}}
+=== {{S|étymologie}} ===
+: Du {{étyl|la|gallo|mot=unus|dif=ūnus}}, adjectif numéral « un ».
+
+=== {{S|adjectif numéral|gallo}} ===
+'''un''' {{m}} {{gallo-graphie|ABCD}}
+# ''Variante de'' {{lien|yun|gallo}}. {{usage}} cette forme s'utilise devant un nom commençant par une voyelle ou une consonne. Le féminin est ''{{lien|une|gallo}}'' ou ''{{lien|eune|gallo}}''.
+
+=== {{S|nom|gallo}} ===
+{{gallo-inv}}
+'''un''' {{m}} {{gallo-graphie|ABCD}}
+# ''Variante de'' {{lien|yun|gallo}}.
+
+=== {{S|article indéfini|gallo}} ===
+{{gallo-accord-mixte|titre=Graphie ABCD|ms=un|fs=ûne|mp=dez|fp=dez}}
+{{gallo-accord-mixte|titre=Graphie ELG|ms=un|fs=unn|mp=dez|fp=dez}}
+'''un''' {{m}} {{gallo-graphie|ABCD}} {{gallo-graphie|ELG}}
+# [[un#fr|Un]], [[une]].
+
+=== {{S|prononciation}} ===
+
+* {{term|Devant un nom commençant par une consonne}} {{pron|œ̃|gallo}}
+* {{term|Devant un nom commençant par une voyelle}} {{pron|yn|œ̃n|œn|gallo}}
+
+=== {{S|références}} ===
+* {{R:Chapè|p=60}}
+* {{lien web|url=http://web.archive.org/web/20071020044600/http://www.maezoe.com/maezoe-fr.htm|titre=Grammaire du gallo - L’article|site=maezoe.com (archivé)|consulté le=29 juillet 2019}}
+[[Catégorie:Cardinaux en gallo]]
+
+== {{langue|gallo-italique de Sicile}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gallo-italique de Sicile}}
+
+=== {{S|adjectif numéral|gallo-italique de Sicile}} ===
+'''un''' {{phon||gallo-italique de Sicile}}
+# {{San Fratello|gallo-italique de Sicile}} [[un#fr|Un]].
+#* {{exemple|lang=gallo-italique de Sicile}}
+
+=== {{S|références}} ===
+* {{R:Foti}}
+
+== {{langue|cy}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|cy}}
+
+=== {{S|adjectif numéral|cy}} ===
+'''un''' {{pron|ɨn|cy}}
+# [[#Français|Un]] (ou [[une]]).
+
+=== {{S|prononciation}} ===
+* {{écouter|Aberystwyth (Royaume-Uni)||lang=cy|audio=LL-Q9309 (cym)-Jason.nlw-un.wav}}
+
+== {{langue|io}} ==
+{{ébauche|io}}
+
+=== {{S|adjectif numéral|io}} ===
+'''un''' {{pron||io}}
+# [[#Français|Un]].
+
+== {{langue|ia}} ==
+{{numéraux ia}}
+{{cardinaux/ia}}
+=== {{S|étymologie}} ===
+:Du {{étyl|la|ia|mot=unus|dif=ūnus|sens=[[#Français|un]]}}.
+
+=== {{S|article indéfini|ia}} ===
+'''un''' {{pron|un|ia}}
+# [[un#fr|Un]].
+
+=== {{S|adjectif numéral|ia}} ===
+'''un''' {{pron|un|ia}}
+# [[un#fr|Un]].
+
+=== {{S|nom|ia}} ===
+'''un''' {{pron|un|ia}}
+# [[un#fr|Un]].
+
+== {{langue|it}} ==
+{{numéraux italiens}}
+
+=== {{S|étymologie}} ===
+: Du {{étyl|la|it|mot=unus|dif=ūnus|sens=[[#Français|un]] (adjectif numéral)}}.
+
+=== {{S|article indéfini|it}} ===
+{{it-flexion-ind
+|m=un|pm=un|mv=uno|mvp=ˈu.no
+|f=una|pf=ˈu.na|fv=un’|fvp=un}}
+'''un''' {{pron|un|it}}
+# [[#Français|Un]] (ou [[une]]).
+#* {{Lang|it|'''''Un''' cane.''}} : Un chien.
+#* {{Lang|it|'''''Un''' pianeta.''}} : Une planète.
+
+==== {{S|notes}} ====
+: En accord masculin singulier, on doit utiliser ce mot seulement devant les voyelles, la consonne « {{Lang|it|s}} » simple ou les autres consonnes sauf « {{Lang|it|z}} » et (préférablement) les groupes « {{Lang|it|gn}}, {{Lang|it|pn|it}} » et « {{Lang|it|ps}} » ; dans les autres cas on doit utiliser ''{{lien|uno|it}}''.
+: Au masculin pluriel il n’y a pas d’articles indéfinis en italien ; on peut utiliser les partitifs ''{{lien|dei|it}}'' ou ''{{lien|degli|it}}'', ou l’adjectif indéfini ''{{lien|alcuni|it}}''. Notez aussi qu’il y a des mots en italien qui s’accordent au masculin lorsque singuliers et au féminin lorsque pluriels ; dans ces cas, on doit utiliser le partitif ''{{lien|delle|it}}'' ou l’adjectif indéfini ''{{lien|alcune|it}}''.
+: « {{Lang|it|Un}} » sans l’élision est masculin, « {{lien|un’|it}} » avec l’élision est féminin.
+
+=== {{S|adjectif numéral|it}} ===
+{{it-flexion-ind
+|m=un|pm=un|mv=uno|mvp=ˈu.no
+|f=una|pf=ˈu.na|fv=un’|fvp=un}}
+'''un''' {{pron|un|it}} {{cardinal|it}}
+# [[#Français|Un]] (ou [[une]]).
+#* {{Lang|it|'''''Un''' coltello e due forchette.''}} : Un couteau et deux fourchettes.
+
+==== {{S|notes}} ====
+: En accord masculin singulier, on doit utiliser ce mot seulement devant les voyelles, la consonne « {{Lang|it|s}} » simple ou les autres consonnes sauf « {{Lang|it|z}} » et (préférablement) les groupes « {{Lang|it|gn, pn}} » et « {{Lang|it|ps}} » ; dans les autres cas on doit utiliser ''{{lien|uno|it}}''.
+: « {{Lang|it|Un}} » sans l’élision est masculin, « {{lien|un’|it}} » avec l’élision est féminin.
+
+=== {{S|prononciation}} ===
+* {{écouter|Monopoli (Italie)||lang=it|audio=LL-Q652 (ita)-XANA000-un.wav}}
+
+=== {{S|anagrammes}} ===
+{{voir anagrammes|it}}
+
+== {{langue|lld}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|lld}}
+
+=== {{S|adjectif numéral|lld}} ===
+'''un''' {{pron||lld}}
+# [[un#fr|Un]].
+#* {{exemple|lang=lld}}
+
+== {{langue|lv}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|lv}}
+
+=== {{S|conjonction|lv}} ===
+'''un''' {{pron|un|lv}}
+# {{lien|et|fr|dif=Et}}.
+#* {{exemple|lang=lv
+| Tēvzemei '''un''' brīvībai.
+|sens =Pour la patrie ''et'' la liberté.
+|source=Devise de la Lettonie}}
+#* {{exemple|lang=lv
+| Kiberas valdnieks karalis Poleandrs Partobons bija liels karotājs '''un''', būdams modernās stratēģijas cienītājs, augstāk par visu kara mākslā vērtēja kibernētiku.
+|source=Staņislavs Lems, ''Pasaka par Skaitļojamo Mašīnu, kas cīnījās ar Pūķi''}}
+
+==== {{S|synonymes}} ====
+* {{lien|ij|lv}}
+* {{lien|gan|lv}}
+
+=== {{S|prononciation}} ===
+{{ébauche-pron-audio|lv}}
+* {{écouter|Lettonie||lang=lv|audio=LL-Q9078 (lvs)-Archtheodus-un.wav}}
+
+=== {{S|anagrammes}} ===
+{{voir anagrammes|lv}}
+
+== {{langue|lij}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|lij}}
+
+=== {{S|adjectif numéral|lij}} ===
+'''un''' {{pron||lij}}
+# [[un#fr|Un]].
+#* {{exemple|lang=lij}}
+
+== {{langue|lmo}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|lmo}}
+
+=== {{S|article indéfini|lmo}} ===
+'''un''' {{pron||lmo}}
+# {{borgomanerese|lmo}} [[un#fr|Un]].
+
+=== {{S|références}} ===
+* {{R:Tortora2014|p=13}}
+
+== {{langue|mwl}} ==
+=== {{S|étymologie}} ===
+: Du latin ''[[unus#la|ūnus]]'', adjectif numéral « un ».
+
+=== {{S|adjectif numéral|mwl}} ===
+{{mwl-accord-ind
+| m=un
+| f=ũa
+| pm=
+| pf=
+}}
+'''un''' {{pron||mwl}} {{m}}
+# [[un#fr|Un]].
+
+=== {{S|article indéfini|mwl}} ===
+{{mwl-accord-mixte
+|ms=un |pms=
+|mp=uns |pmp=
+|fs=ũa |pfs=
+|fp=ũas |pfp=
+}}
+'''un''' {{pron||mwl}} {{m}}
+# [[un#fr|Un]].
+[[Catégorie:Cardinaux en mirandais]]
+
+== {{langue|frm}} ==
+=== {{S|étymologie}} ===
+: {{date|lang=frm}} {{ébauche-étym|frm}}
+
+=== {{S|adjectif numéral|frm}} ===
+'''un''' {{pron-recons|ỹ|frm}} {{m}}
+# [[un#fr|Un]].
+
+=== {{S|article indéfini|frm}} ===
+'''un''' {{pron-recons|ỹ|frm}} {{m}}
+# [[un#fr|Un]] (article indéfini masculin).
+
+==== {{S|dérivés autres langues}} ====
+* {{L|fr}} : {{lien|un|fr}}
+
+=== {{S|références}} ===
+* {{R:DMF}}
+
+== {{langue|oc}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|oc|mot=unus}}.
+
+=== {{S|article indéfini|oc}} ===
+{{oc-accord-mixte|ms=un|pms=ˈyn|mp=de|pmp=ˈde|fs=una|pfs=ˈy.no̞|fp=de|pfp=ˈde}}
+
+'''un''' {{pron|yn|oc}} {{oc-norme classique}} {{m}} ({{f}} : '''[[una#oc|una]]''')
+# [[un#fr|Un]].
+#* {{exemple|lang=oc|Me caldriá '''un''' bon informatician per me reparar l’ordinator.|Il me faudrait un bon informaticien pour réparer mon ordinateur.}}
+
+=== {{S|adjectif numéral|oc}} ===
+{{oc-inv|ˈyn|inv_titre=Adjectif numéral}}
+'''un''' {{pron|yn|oc}} {{oc-norme classique}} {{m}} ({{f}} : '''[[una#oc|una]]''')
+# [[un#fr|Un]].
+#* {{exemple|lang=oc|Pica '''una''' ora.|Il sonne une heure (''nombre cardinal'').}}
+#* {{exemple|lang=oc|Capitol '''un'''.|Chapitre un (''nombre ordinal'').}}
+
+==== {{S|vocabulaire}} ====
+* [[primièr#oc|primièr]]
+
+=== {{S|nom|oc}} ===
+'''un''' {{pron|yn|oc}} {{oc-norme classique}} {{m}}
+# [[un#fr|Un]].
+#* {{exemple|lang=oc|'''Un''' es un nombre qu’es avant dos e que seguís zèro.|Un est un nombre qui est avant deux et qui suit zéro.}}
+#* {{exemple|lang=oc|Lo '''un''' es l’element neutre de la multiplicacion.|Le un est l’élément neutre de la multiplication.}}
+#* {{exemple|lang=oc|Dos mai/plus '''un''' egala tres.|Deux plus un égale trois.}}
+
+=== {{S|pronom indéfini|oc}} ===
+'''un''' {{pron|yn|oc}} {{oc-norme classique}} {{m}}
+# [[un#fr|Un]].
+#* {{exemple|lang=oc|Èran tant contents de se saludar '''un''' coma l’autre.|sens=Ils étaient si contents de se saluer un comme l’autre.|source= {{w|Sèrgi Gairal|lang=oc}}, ''Delà la mar''}}
+#* {{exemple|lang=oc|L’omenàs de la barba blava, èra caçaire coma pas '''un'''.|sens=Le gros homme à la barbe bleue, était chasseur comme pas un.|source= {{w|Andrieu Lagarda|lang=oc}}, ''Tres palometas blancas'', 2003}}
+#* {{exemple|lang=oc|Encara '''un''' que lo tabat serà sa pèrda, s'aquò se tròba !|sens=Encore un pour qui le tabac sera sa perte, si cela se trouve !|source= {{w|Florian Vernet}}, ''Popre ficcion'', 2001}}{{réf|1}}
+
+==== {{S|transcriptions}} ====
+: {{cf|1}} en [[chiffre arabe]].
+: '''[[I]]''' en [[chiffre romain]] [[majuscule]].
+
+{{Liste|avant= [[zèro#oc|zèro]], [[zero#oc|zero]] (auv.)|après= [[dos#oc|dos]], [[doas#oc|doas]], [[dou#oc|dou]] (auv.) |liste=[[:Catégorie:Cardinaux en occitan|Cardinaux en occitan]]}}
+
+=== {{S|références}} ===
+* {{R:Lo Congrès}}
+* {{R:Cantalausa}}
+* {{R:Laux-dict-oc-fr}}
+* {{R:Ubaud}}
+* {{RÉF|1}} {{R:BaTelÒc}}
+[[Catégorie:Cardinaux en occitan]]
+
+== {{langue|pln}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|es|pln|mot=uno}} (même sens).
+
+=== {{S|article indéfini|pln}} ===
+'''un''' {{pron|un|pln}}
+# [[déterminant|Déterminant]] placé devant un [[nom]] représentant une instance d’un [[objet]] [[animé]] ou [[inanimé]]. L’[[article]] [[défini]] est omis. {{cf|ma}} pour le pluriel
+#* {{exemple | lang=pln | Ana kelé komblá '''un''' koka kola.}}
+#*Anna veut acheter un coca cola.
+
+=== {{S|références}} ===
+* {{R:Schwegler}}
+
+== {{langue|pdc}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|pdc}}
+
+=== {{S|conjonction|pdc}} ===
+'''un''' {{pron||pdc}}
+# [[et|Et]].
+
+=== {{S|références}} ===
+* « Learn Pennsylvania German » sur [https://web.archive.org/web/20131112224927/http://hiwwewiedriwwe.wordpress.com/learn-the-dialect/ Hiwwe wie Driwwe], Lesson 1: Introduction
+
+== {{langue|pms}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|pms}}
+
+=== {{S|adjectif numéral|pms}} ===
+'''un''' {{pron||pms}}
+# [[un#fr|Un]].
+#* {{exemple|lang=pms}}
+
+== {{langue|ro}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|ro|mot=unus}}.
+
+=== {{S|article indéfini|ro}} ===
+{{ro-art-décl|type=indéfini|nms=un|nmp=niște|nfs=o|nfp=niște|dms=unui|dmp=unor|dfs=unei|dfp=unor}}
+'''un''' {{pron|un|ro}}
+# [[#Français|Un]].
+#* {{exemple|Răsări-va o comoară <br>în adîncuri înfundată<br>'''Un''' șirag de piatră rară<br>pe moșie revărsată.
+|source={{W|Alexei Mateevici|lang=fr}}, ''{{W|Limba noastră|lang=en}}'', 1917
+|lang=ro}}
+
+=== {{S|écriture}} ===
+* {{lien|ун|ro}}
+
+=== {{S|prononciation}} ===
+* {{écouter|||lang=ro|audio=LL-Q7913 (ron)-Andreea Teodoraa-un.wav}}
+
+=== {{S|anagrammes}} ===
+{{voir anagrammes|ro}}
+
+== {{langue|srr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|srr}}
+
+=== {{S|verbe|srr}} ===
+'''un''' {{pron||srr}}
+# [[plier|Plier]].
+
+=== {{S|références}} ===
+*Gouvernement du Sénégal, ''Décret {{NO|2005-990}} du 21 octobre 2005''.
+
+== {{langue|crh}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|crh}}
+
+=== {{S|nom|crh}} ===
+'''un''' {{pron||crh}}
+# [[farine|Farine]].
+
+== {{langue|tr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|tr}}
+
+=== {{S|nom|tr}} ===
+'''un''' {{pron||tr}}
+# [[farine|Farine]].
+
+=== {{S|prononciation}} ===
+* {{écouter|||lang=tr|audio=LL-Q256 (tur)-ToprakM-un.wav}}
+
+== {{langue|tk}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|tk}}
+
+=== {{S|nom|tk}} ===
+'''un''' {{pron||tk}}
+# [[farine|Farine]].
+
+== {{langue|vec}} ==
+=== {{S|étymologie}} ===
+: Du latin ''[[unus|ūnus]]'' (« [[#Français|un]] », adjectif numéral).
+
+=== {{S|article indéfini|vec}} ===
+{{vec-accord-mixte
+|ms=un|pms=un|pms2=ʊn|msv=n'|msvp=n
+|fs=na|pfs=na|fsv=n'|fsvp=n
+|mp=-
+|fp=-}}
+'''un''' {{pron|un|ʊn|vec}}
+# [[#Français|Un]] ou [[une]].
+#* '''''Un''' can l'ha baià.'' : Un chien a aboyé.
+
+==== {{S|notes}} ====
+: Devant une voyelle ''un'' et ''[[na]]'' s’élident tous deux en "[[n’]]".
+: Il n’y a pas des articles indéfinis au pluriel en vénitien. On peut utiliser les partitifs ''[[di]]'' (masculin) ou ''[[de łe]]'' (féminin).
+
+==== {{S|variantes dialectales}} ====
+* [[on]] {{pron|ʊn|on|vec}}
+
+=== {{S|pronom indéfini|vec}} ===
+{{vec-accord-mixte|ms=un|pms=un|pms2=ʊn|fs=una|pfs=ˈu.na|pfs2=ˈʊ.na|mp=uni|pmp=ˈu.ni|pmp2=ˈʊ.ni|pcv=un|pcvp=un|pcvp2=ʊn|fp=une|pfp=ˈu.ne|pfp2=ˈʊ.ne}}
+'''un''' {{pron|un|vec}} ou {{pron|ʊn|vec}} <small>(''dialectal'')</small>
+# {{cf|lang=vec|uno}}.
+
+==== {{S|variantes orthographiques}} ====
+* [[uno]] {{vecunif}} {{m}} {{s}}
+* [[uni]] {{vecunif}} {{m}} {{p}}
+
+==== {{S|variantes dialectales}} ====
+* [[on]] {{pron|ʊn|vec}} ou {{pron|on|vec}} {{m}} {{s}} ou {{p}}
+* [[oni]] {{pron|ˈʊ.ni|vec}} ou {{pron|ˈo.ni|vec}} {{m}} {{p}}
+
+=== {{S|adjectif numéral|vec}} ===
+{{vec-accord-mixte
+|ms=un|pms=un|pms2=ʊn|msv=n'|msvp=n
+|fs=na|pfs=na|fsv=n'|fsvp=n
+|mp=-
+|fp=-}}
+'''un''' {{pron|un|ʊn|vec}}
+# [[#Français|Un]] ou [[une]].
+#* '''''Un''' piron e du cortełi.'' : Une fourchette et deux couteaux.
+
+==== {{S|notes}} ====
+: Devant une voyelle, ''un'' et ''[[na]]'' s’élident tous deux en ''[[n’]]''.
+
+==== {{S|variantes dialectales}} ====
+* [[on]] {{pron|ʊn|on|vec}}
+
+{{Liste|avant=[[zxéro]]|après=[[du]], [[dó]]|liste=[[:Catégorie:Cardinaux en vénitien|Cardinaux en vénitien]]}}
+
+=== {{S|nom|vec}} ===
+{{vec-accord-mf|s=un|ps=un|ps2=ʊn
+|p=uni|pp=ˈu.ni|pp2=ˈʊ.ni}}
+'''un''' {{pron|un|vec}} ou {{pron|ʊn|vec}} {{m}}
+# [[#Français|Un]].
+#* ''L’'''un''' el vien dopo del zxéro e prima del du.'' : Le un suit le zéro et précède le deux.
+
+==== {{S|variantes dialectales}} ====
+* [[on]] {{pron|ʊn|on|vec}}
+
+[[Catégorie:Cardinaux en vénitien]]
+
+== {{langue|obt}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|obt}}
+
+=== {{S|adjectif numéral|obt}} ===
+'''un''' {{pron-recons||obt}}
+# [[un#fr|Un]].
+
+=== {{S|références}} ===
+* {{article|auteur=Léon Fleuriot|titre= La découverte de nouvelles gloses en vieux-breton |journal=Comptes rendus des séances de l'Académie des Inscriptions et Belles-Lettres |date=1959|p=190}}

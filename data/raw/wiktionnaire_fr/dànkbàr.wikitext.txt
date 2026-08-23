@@ -1,0 +1,10 @@
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|adjectif|gsw-fr}} ===
+'''dànkbàr''' {{pron||gsw-fr}}
+# [[redevable|Redevable]] de [[remerciement|remerciements]].
+
+==== {{S|apparentés}} ====
+* [[dànka]]

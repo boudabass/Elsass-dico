@@ -1,0 +1,24 @@
+{{voir/granit}}
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|gmh|de|granit|dif=granīt}}, de l’{{étyl|it|de|granito}}.
+
+=== {{S|nom|de}} ===
+{{de-nom-m-s-e|gse=opt}}
+'''Granit''' {{pron|ɡʀa.ˈniːt|de}} {{m}}
+# [[granit|Granit]].
+
+=== {{S|prononciation}} ===
+* {{pron|ɡʀa.ˈniːt|de}}
+* {{écouter|lang=de|Autriche <!-- préciser ville ou région -->||audio=De-at-Granit.ogg}}
+* {{écouter||ɡʀa.ˈniːt|lang=de|audio=De-Granit.ogg}}
+
+
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|nom|gsw-fr}} ===
+'''Granit''' {{pron||gsw-fr}}
+# [[port|Port]].

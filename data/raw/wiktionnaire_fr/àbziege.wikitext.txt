@@ -1,0 +1,9 @@
+{{vérifier création automatique||gsw-fr}}
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|verbe|gsw-fr}} ===
+'''àbziege'''
+# [[déshabiller|Déshabiller]], [[enlever]], [[ôter]]
+{{clé de tri|abziege}}

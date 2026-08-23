@@ -1,0 +1,896 @@
+{{voir|dorf}}
+
+== {{langue|fr}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|fr|mot=Dorf}}.
+
+=== {{S|nom propre|fr}} ===
+'''Dorf''' {{pron||fr}}
+# {{localités|fr|du canton de Zurich}} [[commune|Commune]] du canton de [[Zurich]] en [[Suisse]].
+
+==== {{S|apparentés}} ====
+{{(}}
+* {{lien|Albestroff|de}}
+* {{lien|Bambiderstroff|de}}
+* {{lien|Bénestroff|de}}
+* {{lien|Bidestroff|de}}
+* {{lien|Bistroff|de}}
+* {{lien|Bourgaltroff|de}}
+* {{lien|Boustroff|de}}
+* {{lien|Distroff|de}}
+* {{lien|Erstroff|de}}
+* {{lien|Filstroff|de}}
+* {{lien|Flastroff|de}}
+* {{lien|Francaltroff|de}}
+* {{lien|Freistroff|de}}
+* {{lien|Frémestroff|de}}
+* {{lien|Grosbliederstroff|de}}
+* {{lien|Guébestroff|de}}
+* {{lien|Halstroff|de}}
+* {{lien|Helstroff|de}}
+* {{lien|Hestroff|de}}
+* {{lien|Launstroff|de}}
+* {{lien|Lostroff|de}}
+* {{lien|Moestroff|de}}
+* {{lien|Momerstroff|de}}
+* {{lien|Mühltroff|de}}
+* {{lien|Postroff|de}}
+* {{lien|Rustroff|de}}
+* {{lien|Sarraltroff|de}}
+* {{lien|Valmestroff|de}}
+* {{lien|Volstroff|de}}
+* {{lien|Waldweistroff|de}}
+{{)}}
+
+==== {{S|traductions}} ====
+{{trad-début|}}
+{{trad-fin}}
+
+=== {{S|anagrammes}} ===
+{{voir anagrammes|fr}}
+
+=== {{S|voir aussi}} ===
+* {{WP}}
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|goh|de|mot=thorf}}, attesté pour le {{siècle2|VIII}} siècle et du {{étyl|gmh|de|mot=dorf}}.<ref>{{R:DWDS|Dorf}}</ref>
+
+=== {{S|nom|de}} ===
+{{de-nom-n-s-er|dɔʁf|ˈdœʁ.fɐ|np=Dörfer|gs2=Dorfes|ds2=Dorfe}}
+'''Dorf''' {{pron|dɔʁf|de}} {{n}}
+# [[village#fr|Village]].
+#* {{exemple|Zu fünf Jahren Verbannung in den Hohen Norden in der Nähe von Archangelsk verurteilt, findet sich der Rotschopf beim Mistschaufeln in einem kleinen '''Dorf''' wieder.|lang=de|sens=Condamné à cinq ans de relégation dans le Grand Nord, près d’Arkhangelsk, le rouquin se retrouve à pelleter du fumier dans un petit village.|source={{ouvrage|auteur={{w|Emmanuel Carrère}}|trad=Claudia Hamm|titre=Limonow|année=2012|éditeur=MSB Matthes & Seitz Berlin Verlagsgesellschaft|lieu=Berlin|url=}}}}
+#* {{exemple|Davor hatte sie sich in ein '''Dorf''' zurückgezogen, in dem niemand sie kannte und wo sie unter anderem Namen lebte. Sie versteckte sich mit ihrer Scham. Dann aber beschloss sie, dass die Scham die Seite wechseln sollte. Und die Schande. „Sie haben mich auf dem Altar des Lasters geopfert“, sagte Gisèle Pelicot im Prozess.|lang=de|sens=Avant cela, elle s’était retirée dans un village où personne ne la connaissait et où elle vivait sous un autre nom. Elle s'y cachait avec sa honte. Mais ensuite, elle a décidé que la honte devait changer de camp. Et la disgrâce aussi. « Ils m'ont sacrifiée sur l’autel du vice », a déclaré Gisèle Pelicot lors de son procès.|source={{périodique|auteur=Oliver Meiler|titre=Nein, die Angeklagten von Avignon waren keine Monster|journal=Süddeutsche Zeitung|date=29 novembre 2024|texte=https://www.sueddeutsche.de/meinung/pelicot-prozess-monster-videos-kommentar-lux.YUYtzaABF7aWyhdN63AYxt}}}}
+# L'ensemble des {{lien|habitants|fr}} d’un {{lien|village|fr}}.
+#* {{exemple|Zwischen '''Dörfern''', Stämmen, Nationen, Klassen gibt es Kriege, Potlatchs, Handelsbeziehungen, Verträge und Fehden, die der Idee des Anderen ihren absoluten Sinn nehmen und ihre Relativität offenbaren; Individuen und Gruppen sind wohl oder übel gezwungen, die Wechselseitigkeit ihrer Beziehung anzuerkennen.|lang=de|sens=entre villages, clans, nations, classes, il y a des guerres, des potlatchs, des marchés, des traités, des luttes qui ôtent à l’idée de l’Autre son sens absolu et en découvrent la relativité ; bon gré, mal gré, individus et groupes sont bien obligés de reconnaître la réciprocité de leur rapport.|source={{ouvrage|auteur={{w|Simone de Beauvoir}}|trad=Uli Aumüller et Grete Osterwald|titre=Das andere Geschlecht|année=1992|éditeur=Rowohlt Verlag|lieu=Hamburg|url=}}}}
+
+==== {{S|synonymes}} ====
+{{(|}}
+* {{lien|Ort|de}}
+* {{lien|Ortschaft|de}}
+* {{lien|Siedlung|de}}
+* {{lien|Kaff|de}}
+* {{lien|Nest|de}}
+{{)}}
+
+==== {{S|antonymes}} ====
+* {{lien|Flecken|de}}
+* {{lien|Stadt|de}}
+* {{lien|Weiler|de}}
+
+==== {{S|hyperonymes}} ====
+* {{lien|Siedlungsart|de}}
+
+==== {{S|hyponymes}} ====
+{{(|}}
+* {{lien|Angerdorf|de}}
+* {{lien|Bauerndorf|de}}
+* {{lien|Bergdorf|de}}
+* {{lien|Containerdorf|de}}
+* {{lien|Eifeldorf|de}}
+* {{lien|Feriendorf|de}}
+* {{lien|Fischerdorf|de}}
+* {{lien|Flüchtlingsdorf|de}}
+* {{lien|Gebirgsdorf|de}}
+* {{lien|Geisterdorf|de}}
+* {{lien|Gewanndorf|de}}
+* {{lien|Grenzdorf|de}}
+* {{lien|Hafendorf|de}}
+* {{lien|Haufendorf|de}}
+* {{lien|Heidedorf|de}}
+* {{lien|Heimatdorf|de}}
+* {{lien|Holzfällerdorf|de}}
+* {{lien|Kannibalendorf|de}}
+* {{lien|Keltendorf|de}}
+* {{lien|Kinderdorf|de}}
+* {{lien|Kirchdorf|de}}
+* {{lien|Kuhdorf|de}}
+* {{lien|Moordorf|de}}
+* {{lien|Moseldorf|de}}
+* {{lien|Oasendorf|de}}
+* {{lien|Palästinenserdorf|de}}
+* {{lien|Pusztadorf|de}}
+* {{lien|Reihendorf|de}}
+* {{lien|Runddorf|de}}
+* {{lien|Straßendorf|de}}
+* {{lien|Taigadorf|de}}
+* {{lien|Waldhufendorf|de}}
+* {{lien|Weindorf|de}}
+* {{lien|Wüstendorf|de}}
+{{)}}
+
+==== {{S|dérivés}} ====
+{{(}}
+* {{lien|Athletendorf|de}}
+* {{lien|aus jedem Dorf einen Hund haben|de}}
+* {{lien|die Kirche im Dorf lassen|de}}
+* {{lien|Dorfälteste|de}}
+* {{lien|Dorfbewohner|de}}
+* {{lien|Dorfbewohnerin|de}}
+* {{lien|Dörfchen|de}}
+* {{lien|Dorfdepp|de}}
+* {{lien|Dorferneuerung|de}}
+* {{lien|Dorffest|de}}
+* {{lien|Dorfgemeinde|de}}
+* {{lien|Dorfgemeinschaft|de}}
+* {{lien|Dorfgeschichte|de}}
+* {{lien|dorfhaft|de}}
+* {{lien|dörfisch|de}}
+* {{lien|Dorfjugend|de}}
+* {{lien|Dorfkirche|de}}
+* {{lien|Dorfkrug|de}}
+* {{lien|Dörflein|de}}
+* {{lien|Dörfler|de}}
+* {{lien|Dörflerin|de}}
+* {{lien|dörflich|de}}
+* {{lien|Dorflinde|de}}
+* {{lien|Dorfpfaffe|de}}
+* {{lien|Dorfpfarrer|de}}
+* {{lien|Dorfplatz|de}}
+* {{lien|Dorfschaft|de}}
+* {{lien|Dorfschänke|de}}
+* {{lien|Dorfschenke|de}}
+* {{lien|Dorfschöne|de}}
+* {{lien|Dorfschönheit|de}}
+* {{lien|Dorfschule|de}}
+* {{lien|Dorfschullehrer|de}}
+* {{lien|Dorfschullehrerin|de}}
+* {{lien|Dorfschulmeister|de}}
+* {{lien|Dorfschulze|de}}
+* {{lien|Dorfstraße|de}}
+* {{lien|Dorfteich|de}}
+* {{lien|Dorftrottel|de}}
+* {{lien|Nachbardorf|de}}
+* {{lien|Todendorf|de}}
+{{)}}
+
+{{(|toponymes en -dorf}}
+* {{lien|Aadorf|de}}
+* {{lien|Adelheidsdorf|de}}
+* {{lien|Adelsdorf|de}}
+* {{lien|Adendorf|de}}
+* {{lien|Adorf|de}}
+* {{lien|Aedermannsdorf|de}}
+* {{lien|Ahlsdorf|de}}
+* {{lien|Albersdorf|de}}
+* {{lien|Alfdorf|de}}
+* {{lien|Allendorf|de}}
+* {{lien|Almdorf|de}}
+* {{lien|Alsdorf|de}}
+* {{lien|Altdorf|de}}
+* {{lien|Alteckendorf|de}}
+* {{lien|Altendorf|de}}
+* {{lien|Althüttendorf|de}}
+* {{lien|Ammerndorf|de}}
+* {{lien|Antdorf|de}}
+* {{lien|Apfeldorf|de}}
+* {{lien|Arisdorf|de}}
+* {{lien|Arnsdorf|de}}
+* {{lien|Arpsdorf|de}}
+* {{lien|Arsdorf|de}}
+* {{lien|Asendorf|de}}
+* {{lien|Augustdorf|de}}
+* {{lien|Aulendorf|de}}
+* {{lien|Badendorf|de}}
+* {{lien|Baerendorf|de}}
+* {{lien|Bahrdorf|de}}
+* {{lien|Baiersdorf|de}}
+* {{lien|Ballendorf|de}}
+* {{lien|Ballersdorf|de}}
+* {{lien|Barendorf|de}}
+* {{lien|Bassersdorf|de}}
+* {{lien|Bastendorf|de}}
+* {{lien|Batzendorf|de}}
+* {{lien|Bausendorf|de}}
+* {{lien|Beckdorf|de}}
+* {{lien|Beckedorf|de}}
+* {{lien|Beendorf|de}}
+* {{lien|Beetzendorf|de}}
+* {{lien|Behlendorf|de}}
+* {{lien|Behnkendorf|de}}
+* {{lien|Behrendorf|de}}
+* {{lien|Behrensdorf|de}}
+* {{lien|Beiersdorf|de}}
+* {{lien|Bekdorf|de}}
+* {{lien|Beldorf|de}}
+* {{lien|Bendorf|de}}
+* {{lien|Benndorf|de}}
+* {{lien|Bensdorf|de}}
+* {{lien|Berdorf|de}}
+* {{lien|Berndorf|de}}
+* {{lien|Bernsdorf|de}}
+* {{lien|Berthelsdorf|de}}
+* {{lien|Beschendorf|de}}
+* {{lien|Besdorf|de}}
+* {{lien|Betschdorf|de}}
+* {{lien|Betteldorf|de}}
+* {{lien|Bettendorf|de}}
+* {{lien|Bettendorf|de}}
+* {{lien|Betzdorf|de}}
+* {{lien|Betzendorf|de}}
+* {{lien|Bickendorf|de}}
+* {{lien|Biendorf|de}}
+* {{lien|Biesdorf|de}}
+* {{lien|Bilsdorf|de}}
+* {{lien|Birmensdorf|de}}
+* {{lien|Bissendorf|de}}
+* {{lien|Blekendorf|de}}
+* {{lien|Bliedersdorf|de}}
+* {{lien|Bliesdorf|de}}
+* {{lien|Bohnsdorf|de}}
+* {{lien|Boiensdorf|de}}
+* {{lien|Bokensdorf|de}}
+* {{lien|Bollendorf|de}}
+* {{lien|Bondorf|de}}
+* {{lien|Borgdorf-Seedorf|de}}
+* {{lien|Borsdorf|de}}
+* {{lien|Borstendorf|de}}
+* {{lien|Bösdorf|de}}
+* {{lien|Bossendorf|de}}
+* {{lien|Brachtendorf|de}}
+* {{lien|Braunsdorf|de}}
+* {{lien|Breddorf|de}}
+* {{lien|Brekendorf|de}}
+* {{lien|Brodersdorf|de}}
+* {{lien|Brokdorf|de}}
+* {{lien|Bubendorf|de}}
+* {{lien|Buchdorf|de}}
+* {{lien|Büdelsdorf|de}}
+* {{lien|Bühnsdorf|de}}
+* {{lien|Bundorf|de}}
+* {{lien|Bünsdorf|de}}
+* {{lien|Burgdorf|de}}
+* {{lien|Burkhardtsdorf|de}}
+* {{lien|Buschdorf|de}}
+* {{lien|Busdorf|de}}
+* {{lien|Chursdorf|de}}
+* {{lien|Consdorf|de}}
+* {{lien|Crispendorf|de}}
+* {{lien|Crottendorf|de}}
+* {{lien|Cursdorf|de}}
+* {{lien|Daisendorf|de}}
+* {{lien|Daldorf|de}}
+* {{lien|Dalkendorf|de}}
+* {{lien|Dalldorf|de}}
+* {{lien|Damendorf|de}}
+* {{lien|Damsdorf|de}}
+* {{lien|Danndorf|de}}
+* {{lien|Dassendorf|de}}
+* {{lien|Dauendorf|de}}
+* {{lien|Deggendorf|de}}
+* {{lien|Delingsdorf|de}}
+* {{lien|Denkendorf|de}}
+* {{lien|Dettmannsdorf|de}}
+* {{lien|Deutschneudorf|de}}
+* {{lien|Deyelsdorf|de}}
+* {{lien|Dickendorf|de}}
+* {{lien|Diedendorf|de}}
+* {{lien|Diedorf|de}}
+* {{lien|Dielsdorf|de}}
+* {{lien|Dierdorf|de}}
+* {{lien|Diesdorf|de}}
+* {{lien|Dillendorf|de}}
+* {{lien|Dingdorf|de}}
+* {{lien|Dittersdorf|de}}
+* {{lien|Dobersdorf|de}}
+* {{lien|Dockendorf|de}}
+* {{lien|Dohm-Lammersdorf|de}}
+* {{lien|Donndorf|de}}
+* {{lien|Donnersdorf|de}}
+* {{lien|Donzdorf|de}}
+* {{lien|Dorndorf|de}}
+* {{lien|Dörsdorf|de}}
+* {{lien|Dragensdorf|de}}
+* {{lien|Drahnsdorf|de}}
+* {{lien|Drelsdorf|de}}
+* {{lien|Driedorf|de}}
+* {{lien|Dübendorf|de}}
+* {{lien|Düchelsdorf|de}}
+* {{lien|Dudeldorf|de}}
+* {{lien|Duggendorf|de}}
+* {{lien|Durlinsdorf|de}}
+* {{lien|Dürrhennersdorf|de}}
+* {{lien|Düsseldorf|de}}
+* {{lien|Ebermannsdorf|de}}
+* {{lien|Ebersdorf|de}}
+* {{lien|Eckersdorf|de}}
+* {{lien|Ehndorf|de}}
+* {{lien|Ehrenfriedersdorf|de}}
+* {{lien|Eichendorf|de}}
+* {{lien|Eisdorf|de}}
+* {{lien|Eisendorf|de}}
+* {{lien|Ellenz-Poltersdorf|de}}
+* {{lien|Ellerdorf|de}}
+* {{lien|Elsdorf|de}}
+* {{lien|Elsendorf|de}}
+* {{lien|Emkendorf|de}}
+* {{lien|Emmendorf|de}}
+* {{lien|Ensdorf|de}}
+* {{lien|Epfendorf|de}}
+* {{lien|Eppeldorf|de}}
+* {{lien|Eppendorf|de}}
+* {{lien|Erbendorf|de}}
+* {{lien|Ermsdorf|de}}
+* {{lien|Eschdorf|de}}
+* {{lien|Etteldorf|de}}
+* {{lien|Ettendorf|de}}
+* {{lien|Euerdorf|de}}
+* {{lien|Eyendorf|de}}
+* {{lien|Fahrdorf|de}}
+* {{lien|Feilsdorf|de}}
+* {{lien|Fensdorf|de}}
+* {{lien|Feusdorf|de}}
+* {{lien|Filsdorf|de}}
+* {{lien|Fockendorf|de}}
+* {{lien|Frankendorf|de}}
+* {{lien|Frasdorf|de}}
+* {{lien|Frauendorf|de}}
+* {{lien|Fredersdorf-Vogelsdorf|de}}
+* {{lien|Fredesdorf|de}}
+* {{lien|Freirachdorf|de}}
+* {{lien|Frelsdorf|de}}
+* {{lien|Frenkendorf|de}}
+* {{lien|Frensdorf|de}}
+* {{lien|Friedrichsdorf|de}}
+* {{lien|Frielendorf|de}}
+* {{lien|Frohnsdorf|de}}
+* {{lien|Fuhlendorf|de}}
+* {{lien|Füllinsdorf|de}}
+* {{lien|Gaildorf|de}}
+* {{lien|Gammelsdorf|de}}
+* {{lien|Gattendorf|de}}
+* {{lien|Geiswiller-Zœbersdorf|de}}
+* {{lien|Geltendorf|de}}
+* {{lien|Georgsdorf|de}}
+* {{lien|Gersdorf|de}}
+* {{lien|Geschendorf|de}}
+* {{lien|Geversdorf|de}}
+* {{lien|Giesdorf|de}}
+* {{lien|Giesensdorf|de}}
+* {{lien|Gillersdorf|de}}
+* {{lien|Gilsdorf|de}}
+* {{lien|Gindorf|de}}
+* {{lien|Glandorf|de}}
+* {{lien|Godendorf|de}}
+* {{lien|Gœrsdorf|de}}
+* {{lien|Goersdorf|de}}
+* {{lien|Goesdorf|de}}
+* {{lien|Golmsdorf|de}}
+* {{lien|Gommersdorf|de}}
+* {{lien|Gondorf|de}}
+* {{lien|Gönnersdorf|de}}
+* {{lien|Göpfersdorf|de}}
+* {{lien|Gornsdorf|de}}
+* {{lien|Graben-Neudorf|de}}
+* {{lien|Gräfendorf|de}}
+* {{lien|Grammendorf|de}}
+* {{lien|Gransdorf|de}}
+* {{lien|Grassendorf|de}}
+* {{lien|Grattersdorf|de}}
+* {{lien|Grebs-Niendorf|de}}
+* {{lien|Gremersdorf|de}}
+* {{lien|Gremsdorf|de}}
+* {{lien|Großbardorf|de}}
+* {{lien|Großeutersdorf|de}}
+* {{lien|Großhabersdorf|de}}
+* {{lien|Großhansdorf|de}}
+* {{lien|Großhartmannsdorf|de}}
+* {{lien|Großhennersdorf|de}}
+* {{lien|Großnaundorf|de}}
+* {{lien|Großolbersdorf|de}}
+* {{lien|Großröhrsdorf|de}}
+* {{lien|Großwoltersdorf|de}}
+* {{lien|Grunow-Dammendorf|de}}
+* {{lien|Gudendorf|de}}
+* {{lien|Hagelsdorf|de}}
+* {{lien|Hägendorf|de}}
+* {{lien|Halenbeck-Rohlsdorf|de}}
+* {{lien|Hallerndorf|de}}
+* {{lien|Halsdorf|de}}
+* {{lien|Hamdorf|de}}
+* {{lien|Handorf|de}}
+* {{lien|Harmsdorf|de}}
+* {{lien|Harsdorf|de}}
+* {{lien|Hartmannsdorf|de}}
+* {{lien|Hartmannsdorf|de}}
+* {{lien|Haseldorf|de}}
+* {{lien|Hassendorf|de}}
+* {{lien|Haundorf|de}}
+* {{lien|Heidersdorf|de}}
+* {{lien|Heikendorf|de}}
+* {{lien|Heimersdorf|de}}
+* {{lien|Heisdorf|de}}
+* {{lien|Heisdorf|de}}
+* {{lien|Helbedündorf|de}}
+* {{lien|Helmsdorf|de}}
+* {{lien|Hennigsdorf|de}}
+* {{lien|Herdorf|de}}
+* {{lien|Hergisdorf|de}}
+* {{lien|Heringsdorf|de}}
+* {{lien|Hermsdorf|de}}
+* {{lien|Herrngiersdorf|de}}
+* {{lien|Herschdorf|de}}
+* {{lien|Hersdorf|de}}
+* {{lien|Heßdorf|de}}
+* {{lien|Heyersdorf|de}}
+* {{lien|Heygendorf|de}}
+* {{lien|Hilbersdorf|de}}
+* {{lien|Hochdorf|de}}
+* {{lien|Höckendorf|de}}
+* {{lien|Hodorf|de}}
+* {{lien|Hoesdorf|de}}
+* {{lien|Högersdorf|de}}
+* {{lien|Högsdorf|de}}
+* {{lien|Hohendorf|de}}
+* {{lien|Hohndorf|de}}
+* {{lien|Höhndorf|de}}
+* {{lien|Hoisdorf|de}}
+* {{lien|Holdorf|de}}
+* {{lien|Holldorf|de}}
+* {{lien|Holstenniendorf|de}}
+* {{lien|Holzdorf|de}}
+* {{lien|Hormersdorf|de}}
+* {{lien|Hornow-Wadelsdorf|de}}
+* {{lien|Hubersdorf|de}}
+* {{lien|Hugoldsdorf|de}}
+* {{lien|Hunderdorf|de}}
+* {{lien|Hundsdorf|de}}
+* {{lien|Hunsdorf|de}}
+* {{lien|Huttendorf|de}}
+* {{lien|Iffeldorf|de}}
+* {{lien|Igensdorf|de}}
+* {{lien|Ingeldorf|de}}
+* {{lien|Ingendorf|de}}
+* {{lien|Irndorf|de}}
+* {{lien|Jacobsdorf|de}}
+* {{lien|Jahnsdorf|de}}
+* {{lien|Jahrsdorf|de}}
+* {{lien|Jakobsdorf|de}}
+* {{lien|Jesendorf|de}}
+* {{lien|Jetzendorf|de}}
+* {{lien|Jonsdorf|de}}
+* {{lien|Kamsdorf|de}}
+* {{lien|Kapellendorf|de}}
+* {{lien|Karlsdorf|de}}
+* {{lien|Karsdorf|de}}
+* {{lien|Kasdorf|de}}
+* {{lien|Kasendorf|de}}
+* {{lien|Kasseedorf|de}}
+* {{lien|Kattendorf|de}}
+* {{lien|Kaufdorf|de}}
+* {{lien|Kaulsdorf|de}}
+* {{lien|Kaundorf|de}}
+* {{lien|Kesseldorf|de}}
+* {{lien|Kisdorf|de}}
+* {{lien|Kittendorf|de}}
+* {{lien|Klausdorf|de}}
+* {{lien|Kleinblittersdorf|de}}
+* {{lien|Kleinebersdorf|de}}
+* {{lien|Kleineutersdorf|de}}
+* {{lien|Knorrendorf|de}}
+* {{lien|Kobern-Gondorf|de}}
+* {{lien|Kodersdorf|de}}
+* {{lien|Königsdorf|de}}
+* {{lien|Kördorf|de}}
+* {{lien|Kraftsdorf|de}}
+* {{lien|Kreba-Neudorf|de}}
+* {{lien|Krempdorf|de}}
+* {{lien|Kromsdorf|de}}
+* {{lien|Kröppelshagen-Fahrendorf|de}}
+* {{lien|Krugsdorf|de}}
+* {{lien|Kühdorf|de}}
+* {{lien|Kuhlendorf|de}}
+* {{lien|Kuhlen-Wendorf|de}}
+* {{lien|Kühndorf|de}}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+* {{lien|Laasdorf|de}}
+* {{lien|Lachendorf|de}}
+* {{lien|Lägerdorf|de}}
+* {{lien|Lalendorf|de}}
+* {{lien|Langdorf|de}}
+* {{lien|Langenbernsdorf|de}}
+* {{lien|Langendorf|de}}
+* {{lien|Langenwetzendorf|de}}
+* {{lien|Langenwolschendorf|de}}
+* {{lien|Lappersdorf|de}}
+* {{lien|Latendorf|de}}
+* {{lien|Laupersdorf|de}}
+* {{lien|Leezdorf|de}}
+* {{lien|Lelkendorf|de}}
+* {{lien|Lengdorf|de}}
+* {{lien|Leubsdorf|de}}
+* {{lien|Leutersdorf|de}}
+* {{lien|Leutesdorf|de}}
+* {{lien|Lichterfeld-Schacksdorf|de}}
+* {{lien|Liebsdorf|de}}
+* {{lien|Ligsdorf|de}}
+* {{lien|Lindendorf|de}}
+* {{lien|Linsdorf|de}}
+* {{lien|Lippersdorf-Erdmannsdorf|de}}
+* {{lien|Lissendorf|de}}
+* {{lien|Litzendorf|de}}
+* {{lien|Loitzendorf|de}}
+* {{lien|Longsdorf|de}}
+* {{lien|Lüdersdorf|de}}
+* {{lien|Ludorf|de}}
+* {{lien|Lühmannsdorf|de}}
+* {{lien|Madlitz-Wilmersdorf|de}}
+* {{lien|Malgersdorf|de}}
+* {{lien|Mammendorf|de}}
+* {{lien|Männedorf|de}}
+* {{lien|Marienrachdorf|de}}
+* {{lien|Markdorf|de}}
+* {{lien|Markersdorf|de}}
+* {{lien|Marktoberdorf|de}}
+* {{lien|Matzendorf|de}}
+* {{lien|Maxdorf|de}}
+* {{lien|Meggerdorf|de}}
+* {{lien|Meldorf|de}}
+* {{lien|Melsdorf|de}}
+* {{lien|Memmelsdorf|de}}
+* {{lien|Mensdorf|de}}
+* {{lien|Menzendorf|de}}
+* {{lien|Merkendorf|de}}
+* {{lien|Mertendorf|de}}
+* {{lien|Mertesdorf|de}}
+* {{lien|Merzdorf|de}}
+* {{lien|Metelsdorf|de}}
+* {{lien|Mettendorf|de}}
+* {{lien|Michendorf|de}}
+* {{lien|Mielkendorf|de}}
+* {{lien|Milmersdorf|de}}
+* {{lien|Mitschdorf|de}}
+* {{lien|Mittelherwigsdorf|de}}
+* {{lien|Mixdorf|de}}
+* {{lien|Moersdorf|de}}
+* {{lien|Moesdorf|de}}
+* {{lien|Mogendorf|de}}
+* {{lien|Mohlsdorf|de}}
+* {{lien|Möhrendorf|de}}
+* {{lien|Moosseedorf|de}}
+* {{lien|Mörfelden-Walldorf|de}}
+* {{lien|Mörsdorf|de}}
+* {{lien|Mühldorf|de}}
+* {{lien|Mühledorf|de}}
+* {{lien|Mullendorf|de}}
+* {{lien|Münchenbernsdorf|de}}
+* {{lien|Münsterdorf|de}}
+* {{lien|Nachbardorf|de}}
+* {{lien|Nahrendorf|de}}
+* {{lien|Nahrendorf|de}}
+* {{lien|Narsdorf|de}}
+* {{lien|Natendorf|de}}
+* {{lien|Nauendorf|de}}
+* {{lien|Naundorf|de}}
+* {{lien|Nemsdorf-Göhrendorf|de}}
+* {{lien|Nenndorf|de}}
+* {{lien|Neudietendorf|de}}
+* {{lien|Neuendorf|de}}
+* {{lien|Neugernsdorf|de}}
+* {{lien|Neugersdorf|de}}
+* {{lien|Neversdorf|de}}
+* {{lien|Niederbetschdorf|de}}
+* {{lien|Niedercunnersdorf|de}}
+* {{lien|Niederdorf|de}}
+* {{lien|Niedergörsdorf|de}}
+* {{lien|Niederrohrdorf|de}}
+* {{lien|Niendorf|de}}
+* {{lien|Nindorf|de}}
+* {{lien|Nirmsdorf|de}}
+* {{lien|Nister-Möhrendorf|de}}
+* {{lien|Nittendorf|de}}
+* {{lien|Norddorf|de}}
+* {{lien|Nordendorf|de}}
+* {{lien|Nordermeldorf|de}}
+* {{lien|Nossendorf|de}}
+* {{lien|Nottensdorf|de}}
+* {{lien|Nürensdorf|de}}
+* {{lien|Nußdorf|de}}
+* {{lien|Oberaudorf|de}}
+* {{lien|Obercunnersdorf|de}}
+* {{lien|Oberdorf|de}}
+* {{lien|Obermodern-Zutzendorf|de}}
+* {{lien|Oberndorf|de}}
+* {{lien|Oberostendorf|de}}
+* {{lien|Oberrohrdorf|de}}
+* {{lien|Oberstdorf|de}}
+* {{lien|Oelixdorf|de}}
+* {{lien|Oersdorf|de}}
+* {{lien|Oettersdorf|de}}
+* {{lien|Offendorf|de}}
+* {{lien|Olbersdorf|de}}
+* {{lien|Oldendorf|de}}
+* {{lien|Ollendorf|de}}
+* {{lien|Olsdorf|de}}
+* {{lien|Onsdorf|de}}
+* {{lien|Osdorf|de}}
+* {{lien|Ottendorf|de}}
+* {{lien|Otterndorf|de}}
+* {{lien|Paitzdorf|de}}
+* {{lien|Papendorf|de}}
+* {{lien|Patersdorf|de}}
+* {{lien|Perasdorf|de}}
+* {{lien|Petersdorf|de}}
+* {{lien|Petershagen/Eggersdorf|de}}
+* {{lien|Pettendorf|de}}
+* {{lien|Pfullendorf|de}}
+* {{lien|Pillingsdorf|de}}
+* {{lien|Pisdorf|de}}
+* {{lien|Pohnsdorf|de}}
+* {{lien|Poppendorf|de}}
+* {{lien|Porschdorf|de}}
+* {{lien|Pöschendorf|de}}
+* {{lien|Poxdorf|de}}
+* {{lien|Pragsdorf|de}}
+* {{lien|Prasdorf|de}}
+* {{lien|Pretzschendorf|de}}
+* {{lien|Preuschdorf|de}}
+* {{lien|Priesendorf|de}}
+* {{lien|Prisdorf|de}}
+* {{lien|Puschendorf|de}}
+* {{lien|Quendorf|de}}
+* {{lien|Raedersdorf|de}}
+* {{lien|Rahnsdorf|de}}
+* {{lien|Rangsdorf|de}}
+* {{lien|Rasdorf|de}}
+* {{lien|Rastdorf|de}}
+* {{lien|Rathjensdorf|de}}
+* {{lien|Rathmannsdorf|de}}
+* {{lien|Rattelsdorf|de}}
+* {{lien|Rausdorf|de}}
+* {{lien|Reckendorf|de}}
+* {{lien|Reesdorf|de}}
+* {{lien|Regensdorf|de}}
+* {{lien|Reichmannsdorf|de}}
+* {{lien|Reinsdorf|de}}
+* {{lien|Reisdorf|de}}
+* {{lien|Reisdorf|de}}
+* {{lien|Remptendorf|de}}
+* {{lien|Rengsdorf|de}}
+* {{lien|Renthendorf|de}}
+* {{lien|Rentweinsdorf|de}}
+* {{lien|Riepsdorf|de}}
+* {{lien|Rietz-Neuendorf|de}}
+* {{lien|Rimsdorf|de}}
+* {{lien|Ringeldorf|de}}
+* {{lien|Ringendorf|de}}
+* {{lien|Rittersdorf|de}}
+* {{lien|Rodersdorf|de}}
+* {{lien|Roggendorf|de}}
+* {{lien|Rohrdorf|de}}
+* {{lien|Rosdorf|de}}
+* {{lien|Rosendorf|de}}
+* {{lien|Roßdorf|de}}
+* {{lien|Rottendorf|de}}
+* {{lien|Rückersdorf|de}}
+* {{lien|Rudersdorf|de}}
+* {{lien|Rugendorf|de}}
+* {{lien|Saalburg-Ebersdorf|de}}
+* {{lien|Salzhemmendorf|de}}
+* {{lien|Satteldorf|de}}
+* {{lien|Sauldorf|de}}
+* {{lien|Schacht-Audorf|de}}
+* {{lien|Schackendorf|de}}
+* {{lien|Schalkendorf|de}}
+* {{lien|Schattdorf|de}}
+* {{lien|Schiffdorf|de}}
+* {{lien|Schillersdorf|de}}
+* {{lien|Schillsdorf|de}}
+* {{lien|Schlagsdorf|de}}
+* {{lien|Schlaitdorf|de}}
+* {{lien|Schlammersdorf|de}}
+* {{lien|Schlehdorf|de}}
+* {{lien|Schnelldorf|de}}
+* {{lien|Schöfflisdorf|de}}
+* {{lien|Schönau-Berzdorf|de}}
+* {{lien|Schöndorf|de}}
+* {{lien|Schopsdorf|de}}
+* {{lien|Schorndorf|de}}
+* {{lien|Schulendorf|de}}
+* {{lien|Schülldorf|de}}
+* {{lien|Schulzendorf|de}}
+* {{lien|Schwandorf|de}}
+* {{lien|Schwasdorf|de}}
+* {{lien|Schweindorf|de}}
+* {{lien|Schwerinsdorf|de}}
+* {{lien|Schwinkendorf|de}}
+* {{lien|Seedorf|de}}
+* {{lien|Seifhennersdorf|de}}
+* {{lien|Selmsdorf|de}}
+* {{lien|Seukendorf|de}}
+* {{lien|Siegsdorf|de}}
+* {{lien|Sierksdorf|de}}
+* {{lien|Sigmaringendorf|de}}
+* {{lien|Simmelsdorf|de}}
+* {{lien|Sindelsdorf|de}}
+* {{lien|Sitzendorf|de}}
+* {{lien|Sommersdorf|de}}
+* {{lien|Sondersdorf|de}}
+* {{lien|Spardorf|de}}
+* {{lien|Speichersdorf|de}}
+* {{lien|Splietsdorf|de}}
+* {{lien|Stadtallendorf|de}}
+* {{lien|Stadtoldendorf|de}}
+* {{lien|Stahnsdorf|de}}
+* {{lien|Stakendorf|de}}
+* {{lien|Stedesdorf|de}}
+* {{lien|Steindorf|de}}
+* {{lien|Steinigtwolmsdorf|de}}
+* {{lien|Steinsdorf|de}}
+* {{lien|Stipsdorf|de}}
+* {{lien|Stockelsdorf|de}}
+* {{lien|Storbeck-Frankendorf|de}}
+* {{lien|Stördorf|de}}
+* {{lien|Stralendorf|de}}
+* {{lien|Strukdorf|de}}
+* {{lien|Strullendorf|de}}
+* {{lien|Struxdorf|de}}
+* {{lien|Stubbendorf|de}}
+* {{lien|Suddendorf|de}}
+* {{lien|Süderdorf|de}}
+* {{lien|Suhlendorf|de}}                         
+* {{lien|Tackesdorf|de}}
+* {{lien|Tagsdorf|de}}
+* {{lien|Tappendorf|de}}
+* {{lien|Tasdorf|de}}
+* {{lien|Tautendorf|de}}
+* {{lien|Techelsdorf|de}}
+* {{lien|Teichwolframsdorf|de}}
+* {{lien|Teisendorf|de}}
+* {{lien|Teschendorf|de}}
+* {{lien|Thandorf|de}}
+* {{lien|Thiendorf|de}}
+* {{lien|Thulendorf|de}}
+* {{lien|Thundorf|de}}
+* {{lien|Tirpersdorf|de}}
+* {{lien|Todendorf|de}}
+* {{lien|Tömmelsdorf|de}}
+* {{lien|Tonndorf|de}}
+* {{lien|Trebendorf|de}}
+* {{lien|Triesdorf|de}}
+* {{lien|Trockenborn-Wolfersdorf|de}}
+* {{lien|Troisdorf|de}}
+* {{lien|Tüttendorf|de}}                                                                                          
+* {{lien|Üdersdorf|de}}
+* {{lien|Uetendorf|de}}
+* {{lien|Ühlingen-Birkendorf|de}}
+* {{lien|Ummendorf|de}}
+* {{lien|Urdorf|de}}
+* {{lien|Utendorf|de}}
+* {{lien|Vachdorf|de}}
+* {{lien|Vachendorf|de}}
+* {{lien|Veilsdorf|de}}
+* {{lien|Villingendorf|de}}
+* {{lien|Voigtsdorf|de}}
+* {{lien|Volkmannsdorf|de}}
+* {{lien|Vordorf|de}}                                                                                                                                                                                                                                                       
+* {{lien|Wackersdorf|de}}
+* {{lien|Wakendorf|de}}
+* {{lien|Waldorf|de}}
+* {{lien|Waldsieversdorf|de}}
+* {{lien|Walkendorf|de}}
+* {{lien|Walldorf|de}}
+* {{lien|Wallendorf|de}}
+* {{lien|Wallersdorf|de}}
+* {{lien|Walsdorf|de}}
+* {{lien|Walsdorf|de}}
+* {{lien|Waltersdorf|de}}
+* {{lien|Wankendorf|de}}
+* {{lien|Warendorf|de}}
+* {{lien|Wattendorf|de}}
+* {{lien|Wedendorf|de}}
+* {{lien|Weigendorf|de}}
+* {{lien|Weisendorf|de}}
+* {{lien|Weißdorf|de}}
+* {{lien|Weißendorf|de}}
+* {{lien|Weitendorf|de}}
+* {{lien|Weitramsdorf|de}}
+* {{lien|Welschneudorf|de}}
+* {{lien|Wendorf|de}}
+* {{lien|Wenzendorf|de}}
+* {{lien|Werlaburgdorf|de}}
+* {{lien|Wermsdorf|de}}
+* {{lien|Wesendorf|de}}
+* {{lien|Westendorf|de}}
+* {{lien|Wiebelsdorf|de}}
+* {{lien|Wiegendorf|de}}
+* {{lien|Wiemersdorf|de}}
+* {{lien|Wiendorf|de}}
+* {{lien|Wiersdorf|de}}
+* {{lien|Wietzendorf|de}}
+* {{lien|Wilhelmsdorf|de}}
+* {{lien|Wilhermsdorf|de}}
+* {{lien|Wilnsdorf|de}}
+* {{lien|Windorf|de}}
+* {{lien|Winseldorf|de}}
+* {{lien|Wipperdorf|de}}
+* {{lien|Wißmannsdorf|de}}
+* {{lien|Wittersdorf|de}}
+* {{lien|Wittgendorf|de}}
+* {{lien|Wolfersdorf|de}}
+* {{lien|Wolfersdorf|de}}
+* {{lien|Wolmersdorf|de}}
+* {{lien|Wolsdorf|de}}
+* {{lien|Woltersdorf|de}}
+* {{lien|Wünschendorf|de}}
+* {{lien|Zadelsdorf|de}}
+* {{lien|Zahrensdorf|de}}
+* {{lien|Zapfendorf|de}}
+* {{lien|Zarrendorf|de}}
+* {{lien|Zeschdorf|de}}
+* {{lien|Ziegendorf|de}}
+* {{lien|Ziegra-Knobelsdorf|de}}
+* {{lien|Ziesendorf|de}}
+* {{lien|Zihlschlacht-Sitterdorf|de}}
+* {{lien|Ziltendorf|de}}
+* {{lien|Zirndorf|de}}
+* {{lien|Zœbersdorf|de}}
+* {{lien|Zoebersdorf|de}}
+* {{lien|Zutzendorf|de}}
+{{)}}
+
+==== {{S|phrases}} ====
+* {{lien|die Kirche im Dorf lassen|de|dif=die Kirche im ''Dorf'' lassen}}
+* {{lien|aus jedem Dorf einen Hund haben|de|dif=aus jedem ''Dorf'' einen Hund haben}}
+
+=== {{S|nom propre|de}} ===
+'''Dorf''' {{pron|dɔʁf|de}} {{n}}
+# {{localités|de|de Suisse}} {{lien|Dorf|fr}}, en Suisse.
+#* {{exemple|lang=de}}
+
+=== {{S|prononciation}} ===
+* {{écouter|{{DE|nocat=1}}|dɔʁf|lang=de|audio=De-Dorf.OGG}}
+* {{écouter|{{DE|nocat=1}}|dɔʁf|lang=de|audio=De-Dorf.ogg}}
+* {{écouter|Berlin (Allemagne)|dɔʁf|lang=de|audio=LL-Q188 (deu)-Sebastian Wallroth-Dorf.wav}}
+* {{écouter|Berlin (Allemagne)|dɔʁf|lang=de|audio=De-Dorf2.ogg}}
+
+=== {{S|références}} ===
+{{Références}}
+* {{R:Duden|Dorf}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=de}}
+
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|gsw-fr|mot=Dorf}}.
+
+=== {{S|nom|gsw-fr}} ===
+'''Dorf''' {{pron||gsw-fr}} {{n}}
+# [[village#fr|Village]].
+
+=== {{S|références}} ===
+* [https://web.archive.org/web/20131020090720/http://culture.alsace.pagesperso-orange.fr/page_vf.htm Dictionnaire français-alsacien]
+
+== {{langue|it}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|it}}
+
+=== {{S|nom propre|it}} ===
+{{it-inv||inv_titre=Nom propre}}
+'''Dorf''' {{pron||it}} {{invariable}}
+# {{localités|it|du Piémont}} Hameau de [[Alagna Valsesia]], localité italienne du [[Piémont]].
+#* {{exemple|lang=it}}
+
+[[Catégorie:Lexique en allemand de l’habitat]]
+[[Catégorie:Lexique en alémanique alsacien de l’habitat]]

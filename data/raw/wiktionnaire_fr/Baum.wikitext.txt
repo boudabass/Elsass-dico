@@ -1,0 +1,338 @@
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|gmh|de|mot=boum}}, apparenté au {{étyl|nl|de|nocat=1|boom|sens=[[arbre]]}} et donc au {{étyl|fr|de|nocat=1|bôme}}, au {{étyl|lb|de|nocat=1|Baam|sens=[[arbre]]}}, à {{étyl|en|de|nocat=1|beam|sens=[[poutre]]}}, plus avant, apparenté{{R|Pokorny}} à ''{{lien|bauen|de}}'' (étymologiquement : « être dans un endroit, habiter ») ; comparer avec le grec ancien {{polytonique|{{lien|φυτόν|grc}}|phutón|plante}}, de {{polytonique|{{lien|φύω|grc}}|phúô|être, générer, surgir}}. Le pluriel à [[umlaut]] est par [[analogie proportionnelle]] avec {{lien|Gast|de}}.
+
+=== {{S|nom|de}} ===
+{{de-nom-m-s-e|gs2=Baumes|ds2=Baume|np=Bäume}}
+[[Fichier:Madrid, Parterre del Retiro 1975 02.jpg|vignette|alt=Un grand arbre (sens 1).|''Ein {{l|groß|de|dif=großer}} '''Baum''' (1).'' – Un [[grand]] [[arbre]] (1).]]
+[[Fichier:Dülmen, Hausdülmen, Maibaum auf dem Dorfplatz -- 2018 -- 0055.jpg|vignette|alt=Un arbre de mai (sens 2).|''Ein {{l|Mai'''baum'''|de}} (2).'' – Un [[arbre de mai]] (2).]]
+[[Fichier:Boom (Sailing).svg|vignette|alt= La voile est attachée à une bôme (sens 3).|''Das {{l|Segel|de}} (Nr. 4 auf dem {{l|Bild|de}}) ist an einem '''Baum''' (3, Nr. 1 auf dem {{l|Bild|de}}) {{l|befestigen|de|dif=befestigt}}.'' – La [[voile]] (No 4 sur la [[figure]]) est [[fixer|fixée]] à une [[bôme]] (3, No 1 sur la [[figure]]).]]
+[[Fichier:Decision Tree on Uploading Images de.svg|vignette|alt=Arbre (sens 4) de décision pour le téléversement d’images sur Wikimedia Commons.|''{{l|Entscheidungs'''baum'''|de}} (4) für den {{l|Upload|de}} von {{l|Bild|de|dif=Bildern}} nach {{w|Wikimedia Commons|lang=de}}.'' – [[arbre de décision|Arbre (4) de décision]] pour le [[téléversement]] d’[[image]]s sur {{w|Wikimedia Commons}}.]]
+'''Baum''' {{pron|baʊ̯m|de}} {{m}}
+# {{plantes|de}} [[arbre#fr|Arbre]] : [[grand]] [[végétal]] dont le [[tronc]] est [[nu]] à la [[base]] et qui est [[chargé]] de [[branche]]s et de [[feuille]]s à son [[sommet]].
+#* {{exemple | lang=de
+| „Der General Sherman Tree“ ist der voluminöseste lebende '''Baum''' der Erde.
+| "L’arbre du général Sherman" est l’arbre le plus volumineux vivant sur terre.}}
+#* {{exemple | lang=de
+| Es gibt viele '''Bäume''' in diesem Wald!
+| Il y a beaucoup d’arbres dans cette forêt !}}
+#* {{exemple|Der Parque Batlle liegt im Süden von Uruguays Hauptstadt Montevideo, eine kreisrunde Grünfläche, mit '''Bäumen''' und Spielplätzen, dazu noch ein paar Statuen und Sportstätten, darunter auch das Estadio Centenario, Austragungsort der ersten Fußballweltmeisterschaft 1930.|lang=de|sens=Le Parque Batlle se trouve au sud de Montevideo, la capitale de l’Uruguay. C’est un espace vert circulaire, avec des arbres et des aires de jeux, ainsi que quelques statues et installations sportives, dont l’Estadio Centenario, qui a accueilli la première Coupe du monde de football en 1930.|source={{périodique|auteur=Christoph Gurk|titre=Wenn nur noch Salzwasser aus der Leitung kommt|journal=Süddeutsche Zeitung|date=29 juin 2023|texte=https://www.sueddeutsche.de/projekte/artikel/politik/uruguay-wassermangel-montevideo-klimawandel-e650745/}}}}
+#* {{exemple|Curryblätter stammen von einem 4 bis 6 m hohen '''Baum''' mit einer 4 m breiten Krone. Die Blätter sind eiförmig und auf der Unterseite heller als auf der dunkelgrünen Oberseite.|lang=de|sens=Les feuilles de curry proviennent d’un arbre de 4 à 6 mètres de haut avec une couronne de 4 mètres de large. Les feuilles sont ovales et plus claires sur la face inférieure que sur la face supérieure vert foncé.|source={{périodique|auteur=Klaus-Maria Einwanger|titre=Curryblätter|journal=Küchengötter|date=12 mai 2024|texte=https://www.kuechengoetter.de/warenkunde/curryblaetter}}}}
+#* {{exemple|Großeinsatz in Neuötting: Dort hat die örtliche Feuerwehr heute in einem fünfstündigen Einsatz ein Eichhörnchen von einem '''Baum''' gerettet.|lang=de|sens=Une intervention de grande envergure à Neuötting : les pompiers locaux y ont sauvé un écureuil d’un arbre aujourd'hui, au cours d’une intervention qui a duré cinq heures.|source={{périodique|auteur=(pme, ssi, dan)|titre=Fünfstündiger Einsatz: Feuerwehr rettet Eichhörnchen von Baum|journal=Der Postillon|date=18 avril 2019|texte=https://www.der-postillon.com/2019/04/feuerwehr-eichhoernchen.html}}}}
+# {{par extension|de}} [[arbre|Arbre]] : [[objet]] [[concret]] ayant la [[forme]] d’un [[arbre]] ou d’un [[tronc]] ; [[mât]].
+#* {{exemple| lang=de
+| Sie baumeln als '''Baum''' im Raucherauto oder stehen diskret hinterm WC: duftende Alltagsbegleiter, die unangenehmen Geruch verdrängen oder die Stimmung heben sollen. Statt Mief von Klo und Kippe gibt es Apfel-Zimt und Lemongras.
+| Ils pendillent en tant qu’arbre dans la voiture des fumeurs ou sont discrètement suspendus derrière les toilettes : des compagnons parfumés de tous les jours qui sont censés couvrir les odeurs désagréables ou remonter le moral. Au lieu de la puanteur des toilettes et de la poubelle, on a des odeurs de pomme-cannelle et de citronnelle.
+|source={{périodique
+ |auteur={{w|Deutsche Presse-Agentur|’’dpa’’}}
+ |titre=Das boomende Geschäft mit Lufterfrischern
+ |journal={{w|Münchner Merkur}}
+ |date=22 janvier 2021
+ |url=https://www.merkur.de/leben/wohnen/das-boomende-geschaeft-mit-lufterfrischern-zr-90177186.html}}}}
+# {{en particulier|de}} {{lexique|navigation|de}} [[bôme#fr|Bôme]] : [[barre]] [[rigide]] [[prendre appui|prenant appui]] en [[bas]] du [[mât]] d’un [[bateau à voile]] et sur laquelle est [[fixer|fixée]] la [[bordure]] ([[partie]] [[inférieur]]e) de la [[grand-voile]]).
+#* {{exemple| lang=de
+| Wird das Segel ohne '''Baum''' gefahren, beispielsweise bei einer Fock oder Genua, wird die Schot direkt am Schothorn befestigt.
+| Si la voile est utilisée sans bôme, par exemple dans le cas d’un foc ou d’un génois, l’écoute est fixée directement au point d’écoute.
+|source={{w|Liek|lang=de}}}}
+# {{par extension|de}} {{lexique|technique|théorie des graphes|de}} [[arbre|Arbre]] : [[abstraction]], [[concept]], [[représentation]] ([[graphique]], [[diagramme]]) de [[caractère]] [[arborescent]] ; [[arborescence]].
+#* {{exemple| lang=de
+| Um eine Klassifikation eines einzelnen Datenobjektes abzulesen, geht man vom Wurzelknoten entlang des '''Baumes''' abwärts. Bei jedem Knoten wird ein Attribut abgefragt und eine Entscheidung über die Auswahl des folgenden Knotens getroffen.
+| Pour établir la classification d’un objet de données individuel, il faut descendre du nœud racine le long de l’arborescence. Pour chaque nœud, un attribut est demandé et une décision est prise concernant la sélection du nœud suivant.
+|source={{w|Entscheidungs'''baum'''|lang=de}}}}
+
+==== {{S|diminutifs}} ====
+* {{lien|Baumchen|de}}
+* {{lien|Baumlein|de}}
+
+==== {{S|dérivés}} ====
+: ''[[#Hyponymes|voir aussi les hyponymes]].''
+{{(|Substantifs [[hyponyme]]s en ''-baum'' : [[arbre]], [[plante]]|1}}
+* {{lien|Affenbrotbaum|de|sens=[[baobab]]}}
+* {{lien|Alleebaum|de|sens=[[arbre]] [[border|bordant]] une [[allée]]}}
+* {{lien|Ahornbaum|de|sens=[[érable]]}}
+* {{lien|Apfelbaum|de|sens=[[pommier]]}}
+* {{lien|Apfelsinenbaum|de|sens=[[oranger]]}}
+* {{lien|Aprikosenbaum|de|sens=[[abricotier]]}}
+* {{lien|Birnbaum|de|sens=[[poirier]]}}
+* {{lien|Blauglockenbaum|de|sens=[[paulownia]]}}
+* {{lien|Bonsai|de|sens=[[bonsaï]]}}
+* {{lien|Buche|de|sens=[[hêtre]]}}
+* {{lien|Buchsbaum|de|sens=[[buis]]}}
+* {{lien|Chausseebaum|de|sens=[[arbre d’alignement]]}}
+* {{lien|Chinarindenbaum|de}}
+* {{lien|Christbaum|de|sens=[[arbre de Noël]]}}
+* {{lien|Cottonbaum|de}}
+* {{lien|Ebenholzbaum|de}}
+* {{lien|Eibischbaum|de}}
+* {{lien|Eichbaum|de|sens=[[chêne]]}}
+* {{lien|Feigenbaum|de|sens=[[figuier]]}}
+* {{lien|Formbaum|de|sens=[[arbre]] [[mettre en forme|mis en forme]]}}
+* {{lien|Formobstbaum|de}}
+* {{lien|Freiheitsbaum|de|sens=[[arbre de la liberté]]}}
+* {{lien|Götterbaum|de|sens=[[ailante]] [[glanduleux]]}}
+* {{lien|Granatapfelbaum|de|sens=[[grenadier]]}}
+* {{lien|Großbaum|de|sens=[[grand]] [[arbre]]}} – (''aussi 3'')
+* {{lien|Gummibaum|de|sens=[[caoutchouc]]}}
+* {{lien|Hickorybaum|de|sens=[[caryer]]}}
+* {{lien|Holderbaum|de}}
+* {{lien|Holunderbaum|de|sens=[[sureau]]}}
+* {{lien|Holzapfelbaum|sens=[[boquettier]] », « [[pommier]] [[sauvage]]}}
+* {{lien|Kastanienbaum|sens=[[châtaignier]] », « [[marronnier]]}}
+* {{lien|Kirschbaum|de|sens=[[cerisier]]}}
+* {{lien|Kirschenbaum|de|sens=[[cerisier]]}}
+* {{lien|Kleinbaum|de|sens=[[petit]] [[arbre]] », « [[arbuste]]}}
+* {{lien|Laubbaum|de|sens=[[arbre]] à [[feuille]]s [[caduque]]s}}
+* {{lien|Lebensbaum|de|sens=[[thuya]]}}
+* {{lien|Mahagonibaum|de|sens=[[acajou]]}}
+* {{lien|Mammutbaum|de|sens=[[séquoia]]}}
+* {{lien|Mandelbaum|de|sens=[[amandier]]}}
+* {{lien|Mangobaum|de|sens=[[manguier]]}}
+* {{lien|Mittelbaum|de|sens=[[arbre]] de [[taille]] [[moyen]]ne}}
+* {{lien|Nadelbaum|de|sens=[[conifère]]}}
+* {{lien|Nussbaum|de|sens=[[noyer]]}}
+* {{lien|Obstbaum|de|sens=[[arbre fruitier]]}}
+* {{lien|Ölbaum|de|sens=[[olivier]]}}
+* {{lien|Olivenbaum|de|sens=[[olivier]]}}
+* {{lien|Parkbaum|de|sens=[[arbre]] dans un [[parc]]}}
+* {{lien|Pekannussbaum|sens=[[pacanier]] », « [[noyer de pécan]]}}
+* {{lien|Kautschukbaum|de|sens=[[hévéa]]}}
+* {{lien|Lorbeerbaum|de|sens=[[laurier]]}}
+* {{lien|Pfirsichbaum|de|sens=[[pêcher]]}}
+* {{lien|Pflaumenbaum|de|sens=[[prunier]]}}
+* {{lien|Quittenbaum|de|sens=[[cognassier]]}}
+* {{lien|Straßenbaum|de|sens=[[arbre]] de [[rue]]}}
+* {{lien|Tamarindenbaum|de|sens=[[tamarinier]]}}
+* {{lien|Tannenbaum|de|sens=[[sapin]] », « [[sapin de Noël]]}}
+* {{lien|Teakbaum|de|sens=[[teck]]}}
+* {{lien|Trompetenbaum|de|sens=[[catalpa]]}}
+* {{lien|Vogelbeerbaum|de|sens=[[sorbier des oiseleurs]]}}
+* {{lien|Wacholderbaum|de|sens=[[genévrier commun]]}}
+* {{lien|Walnussbaum|de|sens=[[noyer]]}}
+* {{lien|Weichselbaum|de|sens=[[griottier]]}}
+* {{lien|Weidenbaum|de|sens=[[saule]]}}
+* {{lien|Weihnachtsbaum|de|sens=[[sapin de Noël]]}}
+* {{lien|Wunderbaum|de|sens=[[ricin]]}}
+* {{lien|Zimtbaum|de|sens=[[cannelier]]}}
+* {{lien|Zitronenbaum|de|sens=[[citronnier]]}}
+* {{lien|Zwergbaum|de|sens=[[bonsaï]]}}
+* {{lien|Zwetschgenbaum|de|sens=[[quetschier]]}}
+{{)}}
+{{(|Substantifs [[hyponyme]]s en ''-baum'' : [[arbre]], [[mât]]|2}}
+* {{lien|Duftbaum|sens=[[arbre parfumé]] », « [[arbre magique]]}}
+* {{lien|Einbaum|de|sens=[[pirogue]]}}
+* {{lien|Felgenbaum|de|sens=porte pneus vertical}}
+* {{lien|Galgenbaum|sens=[[arbre]] [[potence]] », « [[arbre]] du [[pendu]]}}
+* {{lien|Hebebaum|de|sens=[[levier]]}}
+* {{lien|Heubaum|de}}
+* {{lien|Kabelbaum|de|sens=[[faisceau]] de [[câble]]s}}
+* {{lien|Kletterbaum|de|sens=[[arbre]] à [[escalader]]}}
+* {{lien|Ladebaum|de|sens=[[mât]] de [[chargement]]}}
+* {{lien|Lichterbaum|de|sens=[[arbre]] [[lumineux]]}}
+* {{lien|Maibaum|de|sens=[[arbre de mai]]}}
+* {{lien|Mastbaum|de|sens=[[arbre]] en [[période]] de [[fort]]e [[production]] de [[fruit]]s}}
+* {{lien|Narrenbaum|de|sens=[[arbre]] des [[fou]]s}}
+* {{lien|Pfingstbaum|de|sens=[[arbre]] de la [[Pentecôte]]}}
+* {{lien|Purzelbaum|sens=[[roulade]] », « [[culbute]]}}
+* {{lien|Richtbaum|de|sens=[[bouquet final]]}}
+* {{lien|Schellenbaum|de|sens=[[chapeau chinois]]}}
+* {{lien|Schlagbaum|sens=[[barrière]] [[levant]]e », « [[piège]] pour la [[chasse]]}}
+* {{lien|Schwingbaum|de|sens=[[balancier]]}}
+* {{lien|Totenbaum|de|sens=[[cercueil]]}}
+* {{lien|Zauberbaum|de|sens=[[arbre]] [[magique]]}}
+** {{lien|Traumzauberbaum|de}}
+{{)}}
+{{(|Substantifs [[hyponyme]]s en ''-baum'' : [[bôme]]|3}}
+* {{lien|Besanbaum|de|sens=[[bôme]] d’[[artimont]]}}
+* {{lien|Gaffelbaum|de|sens=[[corne]] de [[mât]]}}
+* {{lien|Großbaum|de|sens=[[bôme]] de [[grand-voile]] », « [[bôme]] de [[grand mât]]}} – (''aussi 1'')
+{{)}}
+{{(|Substantifs [[hyponyme]]s en ''-baum'' : [[arbre]], [[arborescence]]|4}}
+* {{lien|Anwendungsbaum|de|sens=[[arborescence]] d’[[application]]}}
+* {{lien|B-Baum|de|sens=[[arbre B]]}}
+* {{lien|B*-Baum|de|sens=[[arbre B*]]}}
+* {{lien|Benutzerbaum|de|sens=[[arborescence]] [[utilisateur]]}}
+* {{lien|Binärbaum|de|sens=[[arbre binaire]]}}
+* {{lien|Binominalbaum|de|sens=[[arbre]] [[binominal]]}}
+* {{lien|Eigenschaftsbaum|de|sens=[[arbre]] des [[propriété]]s}}
+* {{lien|Entscheidungsbaum|de|sens=[[arbre de décision]]}}
+* {{lien|Fehlerbaum|de|sens=[[arbre de défaillances]]}}
+* {{lien|Hierarchiebaum|de|sens=[[arbre]] [[hiérarchique]]}}
+* {{lien|Objektbaum|de|sens=[[arbre]] d’[[objet]]s}}
+* {{lien|Spannbaum|de|sens=[[arbre couvrant]]}}
+* {{lien|Stammbaum|de|sens=[[arbre généalogique]]}}
+* {{lien|Strukturbaum|de|sens=[[arborescence]] [[structurel]]le}}
+* {{lien|Suchbaum|de|sens=[[arbre]] de [[recherche]]}}
+* {{lien|Übergangsbaum|de|sens=[[arbre]] de [[transformation]]}}
+* {{lien|Ursachenbaum|de|sens=[[arbre des causes]] », « [[arbre de causalité]] », « [[arbre causal]]}}
+* {{lien|Verzeichnisbaum|de|sens=[[arbre]] des [[répertoire]]s}}
+* {{lien|Zustandsübergangsbaum|de}}
+{{)}}
+{{(|Autres substantifs : [[arbre]]|1}}
+* {{lien|Baumaffe|de|sens=[[singe]] [[arboricole]]}}
+* {{lien|Baumallee|de|sens=[[allée]] [[planter|plantée]] d’[[arbre]]s}}
+* {{lien|Baumarbeit|de|sens=[[travail]] [[arboricole]]}}
+* {{lien|Baumgalgen|sens=[[arbre]] [[potence]] », « [[arbre]] du [[pendu]]}}
+* {{lien|Baumbestand|de|sens=[[peuplement]] [[forestier]]}}
+* {{lien|Baumblüte|de|sens=[[floraison]] d’[[arbre]]}}
+* {{lien|Baumfalke|de|sens=[[hobereau]]}}
+* {{lien|Baumfällung|de|sens=[[abattage]] d’[[arbre]]s}}
+* {{lien|Baumfarn|de|sens=[[fougère]] [[arborescent]]e}}
+* {{lien|Baumfeind|de|sens=[[ennemi]] des [[arbre]]s}}
+* {{lien|Baumfeindin|de|sens=[[ennemie]] des [[arbre]]s}}
+* {{lien|Baumfreund|de|sens=[[ami]] des [[arbre]]s}}
+* {{lien|Baumfreundin|de|sens=[[amie]] des [[arbre]]s}}
+* {{lien|Baumgarten|de|sens=[[verger]]}}
+* {{lien|Baumgrenze|de|sens=[[limite des arbres]]}}
+* {{lien|Baumgruppe|de|sens=[[bosquet]]}}
+* {{lien|Baumharz|de|sens=[[résine]] d’[[arbre]]}}
+* {{lien|Baumhasser|de|sens=[[homme]] [[détester|détestant]] les [[arbre]]s}}
+* {{lien|Baumhasserin|de|sens=[[femme]] [[détester|détestant]] les [[arbre]]s}}
+* {{lien|Baumhaus|de|sens=[[cabane]] dans un [[arbre]]}}
+* {{lien|Baumhöhle|de|sens=[[cavité]] dans un [[arbre]]}}
+* {{lien|Baumknospe|de|sens=[[bourgeon]] d’[[arbre]]}}
+* {{lien|Baumkrone|de|sens=[[couronne]] d’[[arbre]]}}
+* {{lien|Baumkultur|de|sens=[[culture]] d’[[arbre]]}}
+* {{lien|Baumland|de|sens=[[pays]] [[boisé]]}}
+* {{lien|Baumlaube|de|sens=[[tonnelle]] [[végétal]]e}}
+* {{lien|Baumläufer|de|sens=[[grimpereau]]}}
+* {{lien|Baumlaus|de|sens=[[puceron]] des [[arbre]]s}}
+* {{lien|Baummarder|de|sens=[[martre des pins]]}}
+* {{lien|Baummesser|de|sens=[[serpette]]}}
+* {{lien|Baummoos|de|sens=[[mousse]] d’[[arbre]]}}
+* {{lien|Baumpfahl|de|sens=[[tuteur]] pour [[arbre]]}}
+* {{lien|Baumpflanzung|de|sens=[[plantation]] d’[[arbre]]}}
+* {{lien|Baumpflege|de|sens=[[soin]] aux [[arbre]]s}}
+* {{lien|Baumpilz|de|sens=[[champignon]] [[arboricole]]}}
+* {{lien|Baumreihe|de|sens=rangée d’[[arbre]]s}}
+* {{lien|Baumriese|de|sens=[[arbre]] [[géant]]}}
+* {{lien|Baumrinde|de|sens=[[écorce]] d’[[arbre]]}}
+* {{lien|Baumsäge|de|sens=[[scie]] pour [[arbre]]}}
+* {{lien|Baumscheibe|de|sens=[[rondelle]] de [[tronc]]}}
+* {{lien|Baumschema|de}}
+* {{lien|Baumschere|de|sens=[[sécateur]]}}
+* {{lien|Baumschnitt|de|sens=[[taille]] d’[[arbre]]}}
+* {{lien|Baumschule|de|sens=[[pépinière]]}}
+* {{lien|Baumschutz|de|sens=[[protection]] de [[tronc d’arbre]]}}
+* {{lien|Baumstamm|de|sens=[[tronc d’arbre]]}}
+* {{lien|Baumsteckling|de}}
+* {{lien|Baumsterben|de|sens=[[dépérissement]] des [[arbres]]}}
+* {{lien|Baumstrunk|de|sens=[[souche]] d’[[arbre]]}}
+* {{lien|Baumstumpf|de|sens=[[souche]] d’[[arbre]]}}
+* {{lien|Baumtrieb|de|sens=[[pousse]] d’[[arbre]]}}
+* {{lien|Baumwachs|de|sens=[[mastic]] à [[greffer]]}}
+* {{lien|Baumwiese|de|sens=[[verger]]}}
+* {{lien|Baumwipfel|de|sens=[[cime]] d’[[arbre]]}}
+* {{lien|Baumwolle|de|sens=[[coton]]}}
+* {{lien|Baumwurzel|de|sens=[[racine]] d’[[arbre]]}}
+* {{lien|Baumzucht|de|sens=[[arboriculture]]}}
+* {{lien|Blauglockenbaumgewächse|de|sens=[[paulowniacées]]}}
+{{)}}
+{{(|Autres substantifs : [[arbre]], [[mât]]|2}}
+* {{lien|Baumkuchen|de|sens=[[gâteau]] à la [[broche]]}}
+{{)}}
+{{(|Autres substantifs : [[bôme]]|3}}
+* {{lien|Baumfock|de|sens=[[foc]] [[fixer|fixé]] à un [[bôme]]}}
+{{)}}
+{{(|Autres substantifs : [[arbre]], [[arborescence]]|4}}
+* {{lien|Baumdiagramm|de|sens=[[diagramme]] en [[arbre]]}}
+* {{lien|Baumstruktur|de|sens=[[structure]] [[arborescent]]e », « [[arborescence]]}}
+{{)}}
+{{(|Autres dérivés}}
+* {{lien|aufbäumen|de|sens=[[se cabrer]]}}
+* {{lien|baumarm|de|sens=avec peu d’[[arbre]]s}}
+* {{lien|baumartig|de|sens=[[arborescent]]}}
+* {{lien|baumeln|de|sens=[[pendiller]]}}
+* {{lien|baumgesäumt|de|sens=[[entouré]] d’[[arbre]]s », « [[bordé]] d’[[arbre]]s}}
+* {{lien|baumkantig|de|sens=[[coupé]] [[grossièrement]], [[laisser|laissant]] de l’[[écorce]] aux [[arête]]s}} – ''([[poutre]], [[carrelet]])''
+* {{lien|baumlang|de|sens=[[très]] [[long]]}}
+* {{lien|baumlos|de|sens=[[dépourvu]] d’[[arbre]]s}}
+* {{lien|baumreich|de|sens=[[riche]] en [[arbres]]}}
+* {{lien|baumstark|de|sens=[[solide]] comme un [[arbre]]}}
+{{)}}
+
+==== {{S|phrases}} ====
+* {{lien|alles, was nicht bei drei auf dem Baum ist|de}}
+* {{lien|alt wie ein Baum sein|de}}
+* {{lien|Bäume ausreißen können|de}}
+* {{lien|Baum der Erkenntnis|de}}
+* {{lien|Bäume wachsen nicht in den Himmel|de}}
+* {{lien|den Wald vor lauter Bäumen nicht sehen|de}}
+* {{lien|einen alten Baum versetzt man nicht|de}}
+* {{lien|ein Kerl wie ein Baum|de}}
+* {{lien|kein Baum und kein Strauch|de}}
+* {{lien|zwischen Baum und Borke stehen|de}}
+
+==== {{S|hyperonymes}} ====
+* {{lien|Pflanze|de|sens=[[plante]]}}
+
+==== {{S|hyponymes}} ====
+: ''Voir aussi les premières listes des [[#Dérivés|dérivés]].''
+{{(|Arbre}}
+* {{lien|Eiche|de|sens=[[chêne]]}}
+* {{lien|Esche|de|sens=[[frêne]]}}
+* {{lien|Fichte|de|sens=[[épicéa]]}}
+* {{lien|Föhre|de|sens=[[pin]]}}
+* {{lien|Hevea|de|sens=[[hévéa]]}}
+* {{lien|Kiefer|de|sens=[[pin]]}}
+* {{lien|Linde|de|sens=[[tilleul]]}}
+* {{lien|Maulbeere|de|sens=[[mûrier]]}}
+* {{lien|Palme|de|sens=[[palmier]]}}
+* {{lien|Pappel|de|sens=[[peuplier]]}}
+* {{lien|Pinie|de|sens=[[pin parasol]]}}
+* {{lien|Pistazie|de|sens=[[pistachier]]}}
+* {{lien|Sassafras|de|sens=[[sassafras]]}}
+* {{lien|Tanne|de|sens=[[sapin]]}}
+* {{lien|Vogelbeere|de|sens=[[sorbier des oiseleurs]]}}
+{{)}}
+
+=== {{S|prononciation}} ===
+* {{pron|baʊ̯m|de}}<ref>adapté par: Krech, Eva-Maria, Stock, Eberhard, Hirschfeld, Ursula, Anders, Lutz Christian: ''Deutsches Aussprachewörterbuch'', Walter de Gruyter, Berlin, New York, 2009, page 356</ref>
+* {{écouter|{{DE|nocat=1}}|baʊ̯m|lang=de|audio=De-Baum.ogg}}
+* {{écouter|Berlin (Allemagne)|baʊ̯m|lang=de|audio=De-Baum2.ogg}}
+* {{écouter|{{DE|nocat=1}}|baʊ̯m|lang=de|audio=LL-Q188 (deu)-Student16 de-Baum.wav}}
+* {{écouter|{{DE|nocat=1}}|baʊ̯m|lang=de|audio=LL-Q188 (deu)-ENERGY ENCHANTED-Baum.wav}}
+* {{écouter|{{FR|nocat=1}}|baʊ̯m|lang=de|audio=LL-Q188 (deu)-teste (Pamputt)-Baum.wav}}
+* {{écouter|Berlin (Allemagne)|baʊ̯m|lang=de|audio=LL-Q188 (deu)-Sebastian Wallroth-Baum.wav}}
+* {{écouter|Genève (Suisse)|baʊ̯m|lang=de|audio=LL-Q188 (deu)-Nattes à chat-Baum.wav}}
+* {{écouter|{{DE|nocat=1}}|baʊ̯m|lang=de|audio=LL-Q188 (deu)-Lucas Werkmeister-Baum.wav}}
+* {{écouter|Munich (Allemagne)|baʊ̯m|lang=de|audio=LL-Q188 (deu)-Ionenlaser-Baum.wav}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=de}}
+* {{Catégorie|Arbres en allemand}}
+
+=== {{S|références}} ===
+{{Références}}
+
+==== {{S|sources}} ====
+* {{R:Duden|Baum}}
+* {{R:DWDS|Baum}}
+* {{Source-wikt|de|Baum}}
+
+==== {{S|bibliographie}} ====
+* Larousse - Dictionnaire allemand/français – français/allemand , éd. 1958, p 399.
+* Harrap’s – Bordas Dictionnaire allemand/français, éd. 1997, p 41.
+
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: Apparenté à ''{{lien|Baum|de}}'' de même sens, en allemand.
+
+=== {{S|nom|gsw-fr}} ===
+'''Baum''' {{pron||gsw-fr}}
+# {{plantes|gsw-fr}} [[arbre#fr|Arbre]].
+
+== {{langue|lb}} ==
+=== {{S|étymologie}} ===
+: {{date|lang=lb}} {{ébauche-étym|lb}}
+
+=== {{S|nom de famille|lb}} ===
+{{lb-inv|bɑʊm}}
+'''Baum''' {{pron|bɑʊm|lb}}
+# Nom de famille.
+#* {{exemple|lang=lb}}
+
+=== {{S|prononciation}} ===
+{{ébauche-pron-audio|lb}}
+
+=== {{S|références}} ===
+* {{R:Luxemburger Familiennamenbuch}}

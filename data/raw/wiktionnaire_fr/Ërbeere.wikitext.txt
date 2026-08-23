@@ -1,0 +1,5 @@
+== {{langue|gsw-fr}} ==
+=== {{S|nom|gsw-fr|flexion}} ===
+'''Ërbeere'''
+# Pluriel de '''[[Ërbeer]]'''
+{{clé de tri|erbeere}}

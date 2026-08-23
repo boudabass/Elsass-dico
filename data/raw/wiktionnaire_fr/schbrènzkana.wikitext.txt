@@ -1,0 +1,17 @@
+{{voir|Schbrènzkana}}
+
+== {{langue|gsw-fr}} ==
+{{ébauche|gsw-fr}}
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|nom|gsw-fr}} ===
+'''schbrènzkana ['d]''' {{f}}
+# [[arrosoir]].
+
+==== {{S|variantes orthographiques}} ====
+* [[spritzkànn]]
+* [[spranzkànn]]
+
+{{clé de tri|schbrenzkana}}

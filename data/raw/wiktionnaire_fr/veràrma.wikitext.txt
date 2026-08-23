@@ -1,0 +1,9 @@
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+{{ébauche-étym|gsw-fr}}
+
+=== {{S|verbe|gsw-fr}} ===
+'''veràrma''' {{pron||gsw-fr}}
+# [[appauvrir|Appauvrir]].
+
+{{clé de tri|verarma}}

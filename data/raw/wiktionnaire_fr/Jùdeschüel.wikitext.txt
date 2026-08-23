@@ -1,0 +1,11 @@
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: De ''{{lien|Jude|gsw-fr}}'' (« juive ») et de ''{{lien|Schüel|gsw-fr}}'' (« école ») : « école juive ».
+
+=== {{S|nom|gsw-fr}} ===
+'''Jùdeschüel''' {{f}}
+# {{lexique|judaïsme|religion|gsw-fr}} [[synagogue|Synagogue]].
+
+[[Catégorie:Édifices religieux en alémanique alsacien]]
+
+{{clé de tri|judeschuel}}

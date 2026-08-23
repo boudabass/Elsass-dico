@@ -1,0 +1,10 @@
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|nom|gsw-fr}} ===
+'''Kas''' {{pron|kas|gsw-fr}} {{m}}
+# [[fromage#fr|Fromage]].
+
+=== {{S|références}} ===
+*[http://www.olcalsace.org/fr/lexique_petite_enfance Petit lexique français-alsacien de la petite enfance (OLCA)]

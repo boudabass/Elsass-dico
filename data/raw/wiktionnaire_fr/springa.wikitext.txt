@@ -1,0 +1,19 @@
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|verbe|gsw-fr}} ===
+'''springa'''
+# [[sauter|Sauter]] (en hauteur)
+
+== {{langue|sv}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|sv}}
+
+=== {{S|verbe|sv}} ===
+{{sv-conj-fort|att=spr|coda=ng|v1=i|v2=a|v3=u}}
+'''springa'''
+# Se [[précipiter]], [[s'élancer]].
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=sv|Suède <!-- précisez svp la ville ou la région -->||audio=Sv-springa.ogg}}

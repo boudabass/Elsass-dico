@@ -1,0 +1,9 @@
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|interjection|gsw-fr}} ===
+'''Mùmbitz'''
+# [[balivernes|Balivernes]]
+
+{{clé de tri|mumbitz}}

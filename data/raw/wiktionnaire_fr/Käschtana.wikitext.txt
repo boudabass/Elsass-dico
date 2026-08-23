@@ -1,0 +1,20 @@
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|nom|gsw-fr}} ===
+'''Käschtana''' {{pron||gsw-fr}} {{f}}
+# {{fruits|gsw-fr}} [[châtaigne|Châtaigne]], [[marron]].
+#* {{exemple|lang=gsw-fr}}
+
+==== {{S|variantes}} ====
+* [[Käschtena]]
+
+==== {{S|synonymes}} ====
+* [[Kescht]]
+
+=== {{S|prononciation}} ===
+{{ébauche-pron-audio|gsw-fr}}
+
+=== {{S|références}} ===
+* ''[https://www.elsassisch.eu/culture.alsace.pagesperso-orange.archive/dictionnaire_alsacien.htm Dictionnaire français-alsacien et alsacien-français]'', www.elsassisch.eu

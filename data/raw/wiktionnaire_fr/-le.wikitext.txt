@@ -1,0 +1,205 @@
+{{voir/le}}
+
+== {{langue|de}} ==
+
+=== {{S|étymologie}} ===
+: Forme dialectale de {{lien|''-lein''|de}}.
+
+=== {{S|suffixe|de}} ===
+'''-le''' {{pron||de}}
+# Suffixe diminutif.
+
+==== {{S|variantes}} ====
+* {{term|Suisse}} {{lien|-li|gsw}}
+
+==== {{S|dérivés}} ====
+* {{lien|Spätzle|de|sens=spätzle}} ← {{lien|Spatz|de|sens=moineau}}
+
+=== {{S|prononciation}} ===
+* {{écouter|Francfort-sur-le-Main (Allemagne)||lang=de|audio=LL-Q188 (deu)-Frank C. Müller--le.wav}}
+
+== {{langue|gsw-fr}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étyl|de|gsw-fr|mot=-le}}.
+
+=== {{S|suffixe|gsw-fr}} ===
+'''-le''' {{pron||gsw-fr}}
+# Suffixe diminutif.
+
+== {{langue|en}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|en}}
+
+=== {{S|suffixe|en|num=1}} ===
+'''-le''' {{pron||en}}
+# Suffixe [[fréquentatif]] sur base verbale.
+
+==== {{S|composés}} ====
+{{(}}
+* {{l|assle|en}}
+* {{l|buzzle|en}}
+* {{l|crackle|en}}
+* {{l|cuddle|en}}
+* {{l|dazzle|en}}
+* {{l|draggle|en}}
+* {{l|dribble|en}}
+* {{l|drizzle|en}}
+* {{l|fumble|en}}
+* {{l|gamble|en}}
+* {{l|grapple|en}}
+* {{l|handle|en}}
+* {{l|jostle|en}}
+* {{l|kissle|en}}
+* {{l|maddle|en}}
+* {{l|mingle|en}}
+* {{l|nestle|en}}
+* {{l|noddle|en}}
+* {{l|nuzzle|en}}
+* {{l|prattle|en}}
+* {{l|quible|en}}
+* {{l|ramble|en}}
+* {{l|rattle|en}}
+* {{l|ripple|en}}
+* {{l|scribble|en}}
+* {{l|sizzle|en}}
+* {{l|sniffle|en}}
+* {{l|snuggle|en}}
+* {{l|sparkle|en}}
+* {{l|startle|en}}
+* {{l|stopple|en}}
+* {{l|suckle|en}}
+* {{l|tattle|en}}
+* {{l|tickle|en}}
+* {{l|twinkle|en}}
+* {{l|topple|en}}
+* {{l|waggle|en}}
+* {{l|whemmle|en}}
+* {{l|wiggle|en}}
+* {{l|wrestle|en}}
+{{)}}
+
+=== {{S|suffixe|en|num=2}} ===
+'''-le''' {{pron||en}}
+# Suffixe sur base verbale, formant des adjectifs indiquant une tendance ou une capacité. (→ ''Comparer avec {{l|-ative|en}}'')
+
+==== {{S|composés}} ====
+{{(}}
+* {{l|brittle|en}}
+* {{l|fickle|en}}
+* {{l|nimble|en}}
+{{)}}
+
+=== {{S|suffixe|en|num=3}} ===
+'''-le''' {{pron||en}}
+# Suffixe sur base verbale, formant des noms (indiquant souvent un instrument).
+
+==== {{S|variantes}} ====
+* {{l|-el|en}} — {{note}} généralement après les lettres ''n'' ou ''e''.
+
+==== {{S|composés}} ====
+{{(}}
+* {{l|beadle|en}}
+* {{l|beetle|en}}
+* {{l|bridle|en}}
+* {{l|bundle|en}}
+* {{l|cripple|en}}
+* {{l|fettle|en}}
+* {{l|girdle|en}}
+* {{l|ladle|en}}
+* {{l|spindle|en}}
+* {{l|spittle|en}}
+* {{l|steeple|en}}
+* {{l|stile|en}}
+* {{l|stopple|en}}
+* {{l|thimble|en}}
+* {{l|trundle|en}}
+{{)}}
+
+=== {{S|références}} === 
+* {{source-wikt|en|-le|87216721}}
+
+== {{langue|bdy}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|bdy}}
+
+=== {{S|suffixe|bdy}} ===
+'''-le''' {{pron||bdy}} 
+# {{Gidabal}} Suffixe servant à marquer la répétition.
+
+==== {{S|notes}} ====
+: {{note-linguistique}}
+
+==== {{S|variantes}} ====
+* {{lien|-li|bdy}}
+* {{lien|-liː|bdy}}
+
+=== {{S|références}} ===
+* {{R:Geytenbeek1971|p=52}}
+
+== {{langue|eu}} ==
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|eu}}
+
+=== {{S|suffixe|eu}} ===
+'''-le''' {{pron||eu}}
+# Suffixe nominal sur une base verbale indiquant un agent.
+#* {{exemple|lang=eu}}
+
+==== {{S|dérivés}} ====
+* {{lien|begirale|eu|sens=surveillant, moniteur}} ← {{lien|begiratu|eu|sens=regarder, observer, surveiller}}
+* {{lien|egile|eu|sens=faiseur, auteur}} ← {{lien|egin|eu|sens=faire}}
+* {{lien|irakasle|eu|sens=enseignant}} ← {{lien|irakatsi|eu|sens=enseigner}}
+* [[:Catégorie:Mots en basque suffixés avec -le|Mots suffixés avec ''-le'']]
+
+== {{langue|dgr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|dgr}}
+
+=== {{S|suffixe|dgr}} ===
+'''-le''' {{pron||dgr}}
+# Suffixe adjectival ou verbal exprimant la négation.
+#* {{exemple|lang=dgr|Dejı̨'''-le'''.|sens=Il n’a pas peur.}}
+
+=== {{S|références}} ===
+* {{Ouvrage|lang=en|auteurs=Leslie Saxon, Mary Siemens|titre=A Dogrib Dictionary|lire en ligne=https://www.tlicho.ca/sites/default/files/DogribPrimaryDictionary_0.pdf|éditeur=Dogrib Divisional Board of Education|année première édition=1992|année=1996|lieu=Rae-Edzo (Behchokǫ̀)|isbn=1-896790-00-3|consulté le=26 mars 2025|passage=68}}.
+
+== {{langue|ro}} ==
+
+=== {{S|étymologie}} ===
+: Féminin et neutre pluriel de {{lien|''-l''|ro}} issu du {{étyl|la|ro|mot=ille}}.
+
+=== {{S|suffixe|ro|num=1}} ===
+{{ro-art-décl|type=défini|nms=-l|nmp=-i|nfs=-a|nfp=-le|dms=-lui|dmp=-lor|dfs=-i|dfp=-lor}}
+'''-le''' {{pron||ro}}
+# Article défini pluriel féminin et neutre : [[les]].
+#* ''sprincene,'' « sourcils » : ''sprincene'''le''','' « les sourcils ».
+#* ''nasuri,'' « nez » : ''nasuri'''le''','' « les nez ».
+#* ''statuie,'' « statues » : ''statuie'''le''','' « les statues ».
+# Variante de ''{{lien|-l|ro}}'' après un ''e'' : [[le]].
+#* {{exemple|lang=ro|câine →câine'''le'''|chien → le chien}}
+#* {{exemple|lang=ro|nume →nume'''le'''|nom → le nom}}
+
+=== {{S|suffixe|ro|num=2}} ===
+'''-le''' {{pron||ro}}
+# Forme le vocatif de certains noms et prénoms masculins : variante de ''{{lien|-e|ro}}''.
+#* {{exemple|lang=ro|Radu → Radu'''le'''!|Radu → Radu !}}
+
+== {{langue|sw}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|sw}}
+
+=== {{S|adverbe|sw}} ===
+{{sw-adv-le}}
+'''-le''' {{pron||sw}}
+# ''[[morphème|Morphème]] servant à former des démonstratifs''.
+
+==== {{S|vocabulaire}} ====
+* {{lien|hii|sw}}
+* {{lien|hiyo|sw}}
+
+=== {{S|prononciation}} ===
+* {{écouter|Kenya||sw|audio=Sw-ke-le.flac}}
+
+{{clé de tri|le}}

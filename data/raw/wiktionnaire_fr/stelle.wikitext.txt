@@ -1,0 +1,44 @@
+{{voir/stelle}}
+
+== {{langue|de}} ==
+=== {{S|verbe|de|flexion}} ===
+'''stelle ''' {{pron|ˈʃtɛlə|de}}
+# ''Première personne du singulier du présent de l’indicatif à la forme active de'' [[stellen#de|stellen]].
+# ''Première personne du singulier du présent du subjonctif 1 à la forme active de'' [[stellen#de|stellen]].
+# ''Troisième personne du singulier du présent du subjonctif 1 à la forme active de'' [[stellen#de|stellen]].
+# ''Deuxième personne du singulier du présent de l’impératif à la forme active de'' [[stellen#de|stellen]].
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=de||ˈʃtɛlə|audio=De-stelle.ogg}} 
+
+== {{langue|fy}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|fy}}
+
+=== {{S|verbe|fy}} ===
+'''stelle'''
+# [[appliquer|Appliquer]], [[mettre]], [[poser]].
+
+==== {{S|synonymes}} ====
+* [[lizze]]
+* [[pleatse]]
+
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|verbe|gsw-fr}} ===
+'''stelle'''
+# [[poser|Poser]] (verticalement) , [[mettre]]
+
+== {{langue|it}} ==
+=== {{S|nom|it|flexion}} ===
+{{it-flexion|f=ae|ˈstel.l}}
+'''stelle''' {{pron|ˈstel.le|it}} {{f}}
+# ''Pluriel de'' {{lien|stella|it}}.
+
+==== {{S|dérivés}} ====
+* {{lien|salire alle stelle|it|sens=monter en flèche}}
+
+=== {{S|anagrammes}} ===
+{{voir anagrammes|it}}

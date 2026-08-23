@@ -1,0 +1,99 @@
+{{voir|tater|tâter}}
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: {{composé de|lang=de|m=1|Tat|-er}}, mot attesté depuis le {{siècle2|XV}} siècle.<ref>{{R:DWDS|Täter}}</ref>
+
+=== {{S|nom|de}} ===
+{{de-nom-m-er}}
+'''Täter''' {{pron|ˈtɛː.tɛr|de}} {{m}} {{équiv-pour|lang=de|une femme|Täterin}}
+# [[coupable#fr|Coupable]], auteur d'un [[acte]], surtout d'un [[crime]].
+#* {{exemple|Nachdem die Richterin das Urteil verlesen hatte, soll sie den '''Täter''' gewarnt haben: „Wenn Sie nicht endlich aufhören, buchte ich Sie ein.“ Seitdem ist Ruhe.|lang=de|sens=Après avoir lu le verdict, la juge a, a'après les rapports, averti le coupable : "Si vous n'arrêtez pas, je vous coffre". Depuis, le calme est revenu.|source={{périodique|auteur=Simone Schmollack|titre=Nerventerror pur|journal=taz|date=11 juin 2016|texte=https://taz.de/Machtlosigkeit-gegen-Stalking/!5307950/}}}}
+#* {{exemple|Wegen eines Furzes, der im Zuge einer Amtshandlung bei einem Zeltfest zu Gelächter geführt hat, ist ein 20-jähriger Steirer zu einer Strafe von 50 Euro verdonnert worden. (...) Der "'''Täter'''" wollte allerdings die Angelegenheit rasch aus der Welt schaffen und zahlte die 50 Euro.|lang=de|sens=Un jeune styrien de 20 ans a été condamné à une amende de 50 euros pour un pet qui a provoqué des rires au cours d’une intervention officielle lors d’une fête sous la tente. (...) Le « coupable » a toutefois voulu régler l’affaire rapidement et a payé les 50 euros.|source={{périodique|auteur=(APA)|titre=Während Amtshandlung gefurzt - 50 Euro Strafe|journal=Der Standard|date=8 septembre 2009|texte=https://www.derstandard.at/story/1252036885884/graz-waehrend-amtshandlung-gefurzt---50-euro-strafe}}}}
+#* {{exemple|»Lassen Sie diesen Menschen suchen, mein Herr!« befahl der König dem Polizeiminister. »Denn wenn der General Quesnel, der uns in diesem Augenblick so nützlich gewesen wäre, das Opfer eines Meuchelmordes wurde, wie ich zu glauben geneigt bin, so will ich, daß die '''Täter''', sie mögen Bonapartisten sein oder nicht, hart bestraft werden.«|lang=de|sens=« Vous chercherez cet homme, monsieur, dit le roi au ministre de la police ; car si, comme tout me porte à le croire, le général Quesnel, qui nous eût été si utile en ce moment, a été victime d’un meurtre, bonapartistes ou non, je veux que ses assassins soient cruellement punis. »|source={{ouvrage|auteur={{w|Alexandre Dumas}}|trad=(inconnu)|titre=Der Graf von Monte Christo|année=1955|éditeur=Rütten & Loening|lieu=Frankfurt|url=}}}}
+
+==== {{S|antonymes}} ====
+* {{lien|Opfer|de}}
+
+==== {{S|hyperonymes}} ====
+* {{lien|Person|de}}
+
+==== {{S|hyponymes}} ====
+{{(|}}
+* {{lien|Alleintäter|de}}
+* {{lien|Attentäter|de}}
+* {{lien|Berufstäter|de}}
+* {{lien|Einzeltäter|de}}
+* {{lien|Ersttäter|de}}
+* {{lien|Gelegenheitstäter|de}}
+* {{lien|Gesinnungstäter|de}}
+* {{lien|Gewalttäter|de}}
+* {{lien|Gruppentäter|de}}
+* {{lien|Hangtäter|de}}
+* {{lien|Haupttäter|de}}
+* {{lien|Intensivtäter|de}}
+* {{lien|Mehrfachtäter|de}}
+* {{lien|Missetäter|de}}
+* {{lien|Mittäter|de}}
+* {{lien|Nachahmungstäter|de}}
+* {{lien|Nebentäter|de}}
+* {{lien|NS-Täter|de}}
+* {{lien|Okkulttäter|de}}
+* {{lien|Rohheitstäter|de}}
+* {{lien|Rückfalltäter|de}}
+* {{lien|Schreibtischtäter|de}}
+* {{lien|Serientäter|de}}
+* {{lien|Sexualtäter|de}}
+* {{lien|Situationstäter|de}}
+* {{lien|Straftäter|de}}
+* {{lien|Triebtäter|de}}
+* {{lien|Übeltäter|de}}
+* {{lien|Überzeugungstäter|de}}
+* {{lien|Untäter|de}}
+* {{lien|Unterlassungstäter|de}}
+* {{lien|Vielfachtäter|de}}
+* {{lien|Wiederholungstäter|de}}
+* {{lien|Wohltäter|de}}
+* {{lien|Wundertäter|de}}
+{{)}}
+
+==== {{S|vocabulaire}} ====
+* {{lien|Verbrecher|de}}
+* {{lien|Delinquent|de}}
+
+==== {{S|dérivés}} ====
+{{(|}}
+* {{lien|Täterbeschreibung|de}}
+* {{lien|Täterbild|de}}
+* {{lien|Tätergruppe|de}}
+* {{lien|Täterkreis|de}}
+* {{lien|Täterland|de}}
+* {{lien|Täterprofil|de}}
+* {{lien|Täterschaft|de}}
+* {{lien|Täterwissen|de}}
+* {{lien|Tätervolk|de}}
+{{)}}
+
+=== {{S|prononciation}} ===
+* {{écouter|Berlin (Allemagne)|ˈtɛːtɐ|lang=de|audio=De-Täter.ogg}}
+
+=== {{S|références}} ===
+{{Références}}
+* {{R:DWDS|Täter}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=de}}
+
+=== {{S|anagrammes}} ===
+{{voir anagrammes|de}}
+
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|nom|gsw-fr}} ===
+'''Täter''' {{pron||gsw-fr}}
+# [[meurtrier|Meurtrier]].
+#* {{exemple|lang=gsw-fr}}
+
+{{clé de tri|tater}}

@@ -1,0 +1,19 @@
+{{voir/ah}}
+
+== {{langue|gsw-fr}} ==
+{{ébauche|gsw-fr}}
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|interjection|gsw-fr}} ===
+'''àh !''' {{pron|oh|gsw}}
+# [[ah]] !
+
+==== {{S|variantes orthographiques}} ====
+* nàh !
+
+=== {{S|anagrammes}} ===
+* {{lien|hà|gsw-fr}}
+
+{{clé de tri|ah}}

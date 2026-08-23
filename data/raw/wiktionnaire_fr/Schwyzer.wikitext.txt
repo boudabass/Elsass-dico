@@ -1,0 +1,19 @@
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: {{composé de|lang=de|m=1|Schwyz|-er}}.
+
+=== {{S|nom|de}} ===
+{{de-nom-m-er}}
+'''Schwyzer''' {{pron|ˈʃviːt͡sɐ|de}} {{m}} {{équiv-pour|lang=de|une femme|Schwyzerin}}
+# {{gentilés|de|d’Europe}} Schwytzois, habitant ou originaire de [[Schwytz]] (ville, district ou canton).
+#* {{exemple | lang=de
+ | Der '''Schwyzer''' Karl Elsener hat die Messerfabrik Victorinox gegründet.
+ | Le Schwytzois Karl Elsener a fondé la fabrique de couteaux Victorinox.''}}
+
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|nom|gsw-fr}} ===
+'''Schwyzer'''
+# [[Suisse]] (habitant).

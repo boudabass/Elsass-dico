@@ -1,0 +1,7 @@
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|onomatopée|gsw-fr}} ===
+'''pflatscha !'''
+# [[bruit|Bruit]] de l’[[eau]] tombant au [[sol]]

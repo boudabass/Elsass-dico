@@ -1,0 +1,15 @@
+== {{langue|gsw-fr}} ==
+{{ébauche|gsw-fr}}
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|verbe|gsw-fr}} ===
+'''lieb hàn'''
+# [[aimer]].
+
+==== {{S|variantes orthographiques}} ====
+* liëbe hã
+* lieb hà
+
+{{clé de tri|lieb han}}

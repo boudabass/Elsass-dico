@@ -1,0 +1,8 @@
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|interjection|gsw-fr}} ===
+'''Güata morga'''
+# [[bonjour|Bonjour]] (le matin)
+{{clé de tri|guata morga}}

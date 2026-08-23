@@ -1,0 +1,428 @@
+{{voir/wort}}
+
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|goh|gsw-fr|mot=wort}} qui a donné l'allemand moderne [[Wort#Allemand|Wort]].
+
+=== {{S|nom|gsw-fr}} ===
+'''Wort''' {{pron|vɔʁt|gsw-fr}} {{n}} ({{p}}: '''[[Werter]]''')
+# [[mot#fr|Mot]].
+
+==== {{S|dérivés}} ====
+# [[Werterbüech]] : [[dictionnaire]]
+
+=== {{S|références}} ===
+*[https://web.archive.org/web/20130906191837/http://www.ami-hebdo.com/elsadico/index.php de Elsässich Web Diktionnair]
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: {{siècle|VIII|lang=de}} Du {{étyl|goh|de|mot=wort}} via le {{étyl|gmh|de|wort}}{{R|Duden|Wort}}{{R|DWDS|Wort}}, apparenté à {{lien|''word''|en}} en anglais, {{lien|''woord''|nl}} en néerlandais ; plus avant, avec le sens de « {{lien|tournure|fr}}, manière de s’exprimer », au latin {{lien|''verto''|la|sens=[[tourner]]}}{{R|Pokorny}}, aussi au {{étyl|la|de|nocat=1|verbum}}, donc au {{étyl|fr|de|nocat=1|verbe}} (qui en conservé le sens de « [[parole]] »).
+
+=== {{S|nom|de|num=1}} ===
+{{de-nom-n-s-er|gs2=Wortes|ds2=Worte|np=Wörter}}
+'''Wort''' {{pron|vɔrt|de}} {{n}}
+# {{lexique|linguistique|de}} [[mot#fr|Mot]] : [[unité]] [[lexical]]e.
+#* {{exemple | lang=de
+| Was meint das '''Wort''' Freiheit?
+| Que signifie le mot liberté ?}}
+#* {{exemple|Die Schweitzers waren Naturalisten und Puritaner - diese Mischung von Eigenschaften kommt häufiger vor, als man meint - und liebten als solche die eindeutigen '''Wörter''', die erkennen ließen, daß man zwar als guter Christ den Körper geringachte, aber doch mit seinen natürlichen Funktionen höchst einverstanden sei; Louise liebte die verhüllte Rede.|lang=de|sens=Naturalistes et puritains — cette combinaison de vertus est moins rare qu'on ne pense — les Schweitzer aimaient les mots crus qui, tout en rabaissant très chrétiennement le corps, manifestaient leur large consentement aux fonctions naturelles; Louise aimait les mots couverts.|source={{ouvrage|auteur={{w|Jean-Paul Sartre}}|trad=Hans Mayer|titre=Die Wörter|année=1965|éditeur=Rowohlt Verlag|lieu=Hamburg|url=}}}}
+#* {{exemple | lang=de
+| 20 Euro, in '''Worten''': zwanzig Euro.
+| 20 euros, en mots : vingt euros. <small>{{note}} Exemple avec le second pluriel.</small>}}
+#* {{exemple | lang=de
+| Ein Bild sagt mehr als tausend '''Worte'''.
+| Une image vaut mille mots. <small>{{note}} Exemple avec le second pluriel.</small>}}
+# {{par extension|de}} {{lexique|informatique|de}} [[mot#fr|Mot]] de [[donnée]]s d’un [[microprocesseur]], abréviation de {{l|''Datenwort''|de}}.
+#* {{exemple | lang=de
+| Modernen Rechner benützen 64 Bit lange '''Wörter'''.
+| Les ordinateurs modernes utilisent des mots de 64 bits.}}
+
+==== {{S|notes}} ====
+* Il y a deux catégories de sens, avec deux pluriels différents : [[unité]] [[lexical]]e (pluriel : {{l|''Wörter''|de}} / {{l|''Wörtern''|de}}), et [[parole]] (pluriel : {{l|''Worte''|de}} / {{l|''Worten''|de}}, cf. ci-dessous).
+* Dans la première catégorie, dans certaines expressions, on utilise quand même le second pluriel (cf. exemples).
+* Les dérivés sont tous répertoriés ci-dessous, car ils n’est pas possible de tous les classer dans l’une ou l’autre catégorie.
+
+=== {{S|nom|de|num=2}} ===
+{{de-nom-n-s-e|gs2=Wortes|ds2=Worte}}
+'''Wort''' {{pron|vɔrt|de}} {{n}}
+# {{lexique|linguistique|de}} [[mot#fr|Mot]] : [[parole]], (bref) [[discours]], [[expression]], [[allocution]], [[verbe]].
+#* {{exemple | lang=de
+| Ich habe während dieser Zeit so 2-3 mal nach '''Worten''' gerungen, aber das war nicht so schlimm.
+| J’ai cherché pendant ce temps 2-3 fois mes mots, mais ce n’était pas si grave.}}
+#* {{exemple | lang=de
+ | Als er diese '''Worte''' hörte, regte er sich auf.
+ | À ces mots, il s'énerva.}}
+#* {{exemple|Die Alexa-Entwicklung ist ein "kolossaler Reinfall". Mit diesen drastischen '''Worten''' beschreibt ein ehemaliger Mitarbeiter des Unternehmens gegenüber Business Insider die aktuelle Situation.|lang=de|sens=Le développement d'Alexa est un "fiasco colossal". C’est en ces termes dramatiques qu’un ancien employé de l’entreprise décrit la situation actuelle à Business Insider.|source={{périodique|auteur=Andreas Proschofsky|titre="Kolossaler Reinfall": Amazons Alexa-Abteilung soll allein dieses Jahr zehn Milliarden Dollar Verlust machen|journal={{w|Der Standard}}|date=22 novembre 2022|texte=https://www.derstandard.at/story/2000141084128/kolossaler-reinfall-amazons-alexa-abteilung-soll-allein-dieses-jahr-zehn}}}}
+# {{en particulier|de}} [[parole#fr|Parole]] : [[promesse]], [[engagement]].
+#* {{exemple | lang=de
+| Er hat mir sein '''Wort''' gegeben.
+| Il m’a donné sa parole.}}
+# {{lien|parole|fr|dif=Parole}}, le {{lien|droit|fr}} de {{lien|parler|fr}}.
+#* {{exemple|Er redete nicht viel. Er hörte zu; (...) Er mischte sich nie in die intellektuellen oder politischen Diskussionen ein, die im Salon vorherrschten. Doch niemand kreidete es ihm an. Als wäre er davon befreit gewesen, das '''Wort''' zu ergreifen.|lang=de|sens=Il ne parlait pas beaucoup. Il écoutait ; (...) Il n’intervenait jamais dans les discussions intellectuelles ou politiques qui dominaient le salon. Mais personne ne lui en tenait rigueur. Il était comme exempté de participer par la parole.|source={{ouvrage|auteur={{w|Mohamed Mbougar Sarr}}|trad=Holger Fock et Sabine Müller|titre=Die geheimste Erinnerung der Menschen|année=2022|éditeur=Carl Hanser Verlag|lieu=München|url=}}}}
+
+==== {{S|synonymes}} ====
+* {{lien|Ausdruck|de}}
+* {{lien|Lexem|de}}
+* {{lien|Vokabel|de}}
+* {{lien|Zeichenkette|de}}
+* {{lien|Binärwort|de}}
+
+==== {{S|antonymes}} ====
+* {{lien|Doppelwort|de}}
+* {{lien|Halbwort|de}}
+* {{lien|Langwort|de}}
+
+==== {{S|hyperonymes}} ====
+* {{lien|Lexikon|de}}
+* {{lien|Zeichenkette|de}}
+* {{lien|Datenwort|de}}
+
+==== {{S|hyponymes}} ====
+{{(|}}
+* {{l|Abkürzungswort|de|sens=[[mot]] d’[[abréviation]]}}
+* {{lien|Allerweltswort|de}}
+* {{lien|Angeberwort|de}}
+* {{lien|Ankerwort|de}}
+* {{lien|Anredewort|de}}
+* {{l|Artikelwort|de|sens=[[article]]}}
+* {{lien|Bandwurmwort|de}}
+* {{lien|Basiswort|de}}
+* {{lien|Bastardwort|de}}
+* {{lien|Beispielwort|de}}
+* {{lien|Bestimmungswort|de}}
+* {{lien|Beziehungswort|de}}
+* {{l|Bezugswort|de|sens=[[antécédent]]}} – ''(grammaire)''
+* {{l|Bindewort|de|sens=[[conjonction]]}}
+* {{lien|Brückenwort|de}}
+* {{lien|Buchstabenwort|de}}
+* {{l|Codewort|de|sens=[[nom de code]] », « [[mot de passe]]}}
+* {{lien|Dialektwort|de}}
+* {{lien|Dienstwort|de}}
+* {{lien|Duwort|de}}
+* {{lien|Echowort|de}}
+* {{lien|Einleitewort|de}}
+* {{lien|Einzelwort|de}}
+* {{lien|Endwort|de}}
+* {{l|Erbwort|de|sens=[[mot]] d’[[origine]] [[indigène]]}}
+* {{l|Fachwort|de|sens=[[terme]] [[technique]]}}
+* {{lien|Farbwort|de}}
+* {{lien|Formwort|de}}
+* {{l|Fragewort|de|sens=[[mot interrogatif]]}}
+* {{l|Fremdwort|de|sens=[[xénisme]]}}
+* {{lien|Füllwort|de}}
+* {{lien|Funktionswort|de}}
+* {{l|Gegenwort|de|sens=[[antonyme]]}}
+* {{lien|Geruchswort|de}}
+* {{lien|Gesamtwort|de}}
+* {{lien|Grundwort|de}}
+* {{lien|Hehlwort|de}}
+* {{lien|Hilfswort|de}}
+* {{lien|Hohnwort|de}}
+* {{lien|Hüllwort|de}}
+* {{lien|Inhaltswort|de}}
+* {{l|Initialwort|de|sens=[[sigle]]}}
+* {{lien|Januswort|de}}
+* {{lien|Jugendwort|de}}
+* {{l|Kennwort|de|sens=[[mot de passe]]}}
+* {{lien|Klappwort|de}}
+* {{l|Kofferwort|de|sens=[[mot-valise]]}}
+* {{lien|Kopfwort|de}}
+* {{l|Kunstwort|de|sens=[[mot]] [[artificiel]]}}
+* {{l|Kurzwort|de|sens=[[abréviation]]}}
+* {{lien|Lagewort|de}}
+* {{lien|Lallwort|de}}
+* {{lien|Leerwort|de}}
+* {{l|Lehnwort|de|sens=[[emprunt lexical]]}}
+* {{l|Leitwort|de|sens=[[devise]] », « [[mot-clef]]}}
+* {{lien|Lieblingswort|de}}
+* {{lien|Lösungswort|de}}
+* {{l|Negationswort|de|sens=[[négation|[mot de] négation]]}}
+* {{l|Neuwort|de|sens=[[néologisme]]}}
+* {{lien|Oppositionswort|de}}
+* {{l|Passwort|de|sens=[[mot de passe]]}}
+* {{l|Pluralwort|de|sens=[[pluriel]]}}
+* {{lien|Pro-Wort|de}}
+* {{lien|Pseudowort|de}}
+* {{lien|Raffwort|de}}
+* {{lien|Reimwort|de}}
+* {{lien|Rumpfwort|de}}
+* {{lien|Sanskritwort|de}}
+* {{lien|Satzwort|de}}
+* {{lien|Schachtelwort|de}}
+* {{lien|Schallwort|de}}
+* {{l|Scheltwort|de|sens=[[gros mot]] » ; « [[admonestation]] », « [[engueulade]]}}
+* {{l|Schimpfwort|de|sens=[[gros mot]]}}
+* {{l|Schlagwort|de|sens=[[slogan]] », « [[formule]] », « [[mot-clef]]}}
+* {{l|Schlüsselwort|de|sens=[[mot-clef]]}}
+* {{lien|Schmähwort|de}}
+* {{lien|Schmeichelwort|de}}
+* {{lien|Schwanzwort|de}}
+* {{lien|Schwurwort|de}}
+* {{lien|Sichtwort|de}}
+* {{lien|Siegerwort|de}}
+* {{lien|Silbenkurzwort|de}}
+* {{lien|Silbenwort|de}}
+* {{lien|Slangwort|de}}
+* {{lien|Spottwort|de}}
+* {{lien|Stammwort|de}}
+* {{lien|Steigerungswort|de}}
+* {{l|Stichwort|de|sens=[[mot-clef]] », « [[entrée]] d’[[index]] », « [[indice]] », « [[mot]] [[déclencheur]]}}
+* {{lien|Strukturwort|de}}
+* {{lien|Stummelwort|de}}
+* {{lien|Stützwort|de}}
+* {{lien|Systemwort|de}}
+* {{lien|Tarnwort|de}}
+* {{lien|Textwort|de}}
+* {{lien|Trabantenwort|de}}
+* {{lien|Übersetzungswort|de}}
+* {{lien|Unwort|de}}
+* {{lien|Urdu-Wort|de}}
+* {{lien|Urwort|de}}
+* {{lien|Vollwort|de}}
+* {{lien|Vulgärwort|de}}
+* {{lien|W-Wort|de}}
+* {{lien|Zielwort|de}}
+* {{lien|Zitatwort|de}}
+* {{lien|Zwillingswort|de}}
+* {{lien|Zwitterwort|de}}
+{{)}}
+{{(|}}
+* {{lien|Redeteil|de}}
+* {{l|Wortart|de|sens=[[partie]] du [[discours]] », « [[genre]] de [[mot]]s}}
+* {{l|Beiwort|de|sens=[[adjectif]]}}
+* {{l|Bindewort|de|sens=[[conjonction]]}}
+* {{lien|Dingwort|de}}
+* {{l|Eigenschaftswort|de|sens=[[adjectif]] », « [[qualificatif]]}}
+* {{l|Fürwort|de|sens=[[synonyme]]}}
+* {{l|Geschlechtswort|de|sens=[[article]]}}
+* {{l|Hauptwort|de|sens=[[substantif]]}}
+* {{lien|Hilfszeitwort|de}}
+* {{l|Mittelwort|de|sens=[[participe]]}}
+* {{lien|Namenwort|de}}
+* {{lien|Nebenwort|de}}
+* {{lien|Nennwort|de}}
+* {{lien|Tätigkeitswort|de}}
+* {{lien|Tuwort|de}}
+* {{l|Umstandswort|de|sens=[[adverbe]]}}
+* {{lien|Verhältniswort|de}}
+* {{l|Vorwort|de|sens=[[préface]]}}
+* {{l|Zahlwort|de|sens=[[numéral]]}}
+* {{l|Zeitwort|de|sens=[[verbe]]}}
+{{)}}
+{{(|}}
+* {{lien|Buchstabe|de}}
+* {{lien|Silbe|de}}
+* {{lien|Phonem|de}}
+* {{lien|Wortelement|de}}
+{{)}}
+* {{lien|leeres Wort|de}}
+
+==== {{S|vocabulaire}} ====
+* {{lien|Begriff|de}}
+
+==== {{S|phrases}} ====
+{{(|}}
+* {{lien|ein Man|de}}
+* {{lien|ein Wort|de|dif=Ein Man}}
+* {{lien|ein ''Wort''|de}}
+* {{lien|ein Man|de}}
+* {{lien|ein Wor|de}}
+* {{lien|eine Fra|de}}
+* {{lien|ein Wörterbuch|de|dif=Ein Man}}
+* {{lien|ein ''Wort'|de}}
+* {{lien|eine Fra|de}}
+* {{lien|ein Wörterbuch|de}}
+{{)}}
+* {{lien|Goethe|de}}
+* {{lien|Iphigenie|de}}
+
+==== {{S|dérivés}} ====
+{{(|Substantifs [[hyponyme]]s en ''-wort'' / ''-Wort''}}
+* {{l|Abschiedswort|de}}
+* {{l|Allerweltswort|de}}
+* {{l|Ausrufewort|de}}
+* {{l|Bandwurmwort|de}}
+* {{l|Bestimmungswort|de}}
+* {{l|Beziehungswort|de}}
+* {{l|Bibelwort|de}}
+* {{l|Blähwort|de}}
+* {{l|Brückenwort|de}}
+* {{l|Buchstabenwort|de}}
+* {{l|Dankeswort|de|sens=[[mot]] de [[remerciement]]}}
+* {{l|Datenwort|de|sens=[[mot]] de [[donnée]]s}} – ''(informatique)''
+* {{l|Deckwort|de|sens=[[nom de code]]}}
+* {{l|Dichterwort|de}}
+* {{l|Dienstwort|de}}
+* {{l|Dingwort|de}}
+* {{l|Echowort|de}}
+* {{l|Ehrenwort|de|sens=[[parole d’honneur]]}}
+* {{l|Einleitungswort|de|sens=[[allocution]] [[introductif|introductive]]}}
+* {{l|Einzelwort|de}}
+* {{l|Endwort|de}}
+* {{l|Erkennungswort|de|sens=[[mot de passe]]}}
+* {{l|Farbwort|de}}
+* {{l|Flickwort|de}}
+* {{l|Formwort|de}}
+* {{l|Füllwort|de}}
+* {{l|Funktionswort|de}}
+* {{l|Geruchswort|de}}
+* {{l|Gesamtwort|de}}
+* {{l|Grundwort|de}}
+* {{l|Hehlwort|de}}
+* {{l|Hilfswort|de}}
+* {{l|Hilfszeitwort|de}}
+* {{l|Hohnwort|de}}
+* {{l|Hüllwort|de}}
+* {{l|Inhaltswort|de}}
+* {{l|Januswort|de}}
+* {{l|Kanaladresswort|de}}
+* {{l|Kanalstatuswort|de}}
+* {{l|Klappwort|de}}
+* {{l|Kopfwort|de}}
+* {{l|Kosewort|de|sens=[[mot doux]]}}
+* {{l|Kraftwort|de}}
+* {{l|Lagewort|de}}
+* {{l|Lallwort|de}}
+* {{l|Leerwort|de}}
+* {{l|Lieblingswort|de}}
+* {{l|Lösungswort|de}}
+* {{l|Machtwort|de|sens=[[acte d’autorité]]}}
+* {{l|Manneswort|de}}
+* {{l|Merkerwort|de}}
+* {{l|Modewort|de}}
+* {{l|Namenwort|de}}
+* {{l|Nebenwort|de}}
+* {{l|Nennwort|de}}
+* {{l|Pro-Wort|de}}
+* {{l|Pseudowort|de}}
+* {{l|Raffwort|de}}
+* {{l|Reimwort|de}}
+* {{l|Reizwort|de}}
+* {{l|Rumpfwort|de}}
+* {{l|Satzwort|de}}
+* {{l|Schachtelwort|de}}
+* {{l|Schlusswort|de}}
+* {{l|Schmähwort|de}}
+* {{l|Schwanzwort|de}}
+* {{l|Schwurwort|de}}
+* {{l|Sichtwort|de}}
+* {{l|Silbenkurzwort|de}}
+* {{l|Silbenwort|de}}
+* {{l|Spottwort|de}}
+* {{l|Stammwort|de}}
+* {{l|Strukturwort|de}}
+* {{l|Stummelwort|de}}
+* {{l|Stützwort|de}}
+* {{l|Systemwort|de}}
+* {{l|Tarnwort|de}}
+* {{l|Tätigkeitswort|de}}
+* {{l|Textwort|de}}
+* {{l|Trabantenwort|de}}
+* {{l|Tuwort|de}}
+* {{l|Unwort|de}}
+* {{l|Urwort|de}}
+* {{l|Verhältniswort|de}}
+* {{l|Vollwort|de}}
+* {{l|W-Wort|de}}
+{{)}}
+{{(|Autres substantifs}}
+* {{l|Einwortsatz|de}}
+* {{l|Kreuzwortmosaik|de}}
+* {{l|Kreuzworträtsel|de|sens=[[mots croisés]]}}
+* {{l|Wortakzent|de}}
+* {{l|Wortanfang|de}}
+* {{l|Wortartikel|de}}
+* {{l|Wortbedeutung|de}}
+* {{l|Wortbeitrag|de}}
+* {{l|Wortbestand|de}}
+* {{l|Wortbetonung|de}}
+* {{l|Wortbildung|de|sens=[[formation]] de [[mot]]s}}
+* {{l|Wortbreite|de}}
+* {{l|Wortbruch|de}}
+* {{l|Wörtchen|de}}
+* {{l|Wortelement|de}}
+* {{l|Wortende|de}}
+* {{l|Wortendung|de}}
+* {{l|Wörterbuch|de|sens=[[dictionnaire]]}}
+* {{l|Wörterverzeichnis|de|sens=[[vocabulaire]]}} – ''(liste)''
+* {{l|Wortfamilie|de}}
+* {{l|Wortfeld|de}}
+* {{l|Wortfetzen|de}}
+* {{l|Wortfindung|de}}
+* {{l|Wortfindungsstörung|de}}
+* {{l|Wortfolge|de}}
+* {{l|Wortform|de}}
+* {{l|Wortforschung|de}}
+* {{l|Wortfrequenz|de}}
+* {{l|Wortführer|de}}
+* {{l|Wortgattung|de}}
+* {{l|Wortgebrauch|de}}
+* {{l|Wortgebühr|de}}
+* {{l|Wortgefecht|de|sens=[[joute oratoire]] », « [[joute verbale]]}}
+* {{l|Wortgeschichte|de}}
+* {{l|Wortgrammatik|de}}
+* {{l|Wortgrenze|de}}
+* {{l|Wortgruppe|de|sens=[[groupe]] de [[mot]]s}}
+* {{l|Wortgut|de}}
+* {{l|Worthäufigkeit|de}}
+* {{l|Wortherkunft|de}}
+* {{l|Wortklauber|de}}
+* {{l|Wortkombination|de}}
+* {{l|Wortkonstruktion|de}}
+* {{l|Wortkunde|de}}
+* {{l|Wortlänge|de}}
+* {{l|Wortlaut|de|sens=[[formulation]]}}
+* {{l|Wörtlein|de}}
+* {{l|Wortliste|de|sens=[[liste]] de [[mot]]s}}
+* {{l|Wortmarke|de|sens=[[marque]] [[verbal]]e}}
+* {{l|Wortmeldung|de|sens=[[demande]] de [[parole]] », « [[intervention]] [[orale]]}}
+* {{l|Wortmerker|de}}
+* {{l|Wortpaar|de}}
+* {{l|Wortschatz|de|sens=[[vocabulaire]]}}
+* {{l|Wortschöpfung|de}}
+* {{l|Wortschwall|de}}
+* {{l|Wortsemantik|de}}
+* {{l|Wortsilbe|de}}
+* {{l|Wortsinn|de|sens=[[sens]] de [[mot]]}}
+* {{l|Wortspiel|de|sens=[[jeu de mots]]}}
+* {{l|Wortstamm|de}}
+* {{l|Wortstellung|de}}
+* {{l|Wortstruktur|de}}
+* {{l|Wortteil|de}}
+* {{l|Worttrenner|de}}
+* {{l|Worttrennung|de}}
+* {{l|Wortungeheuer|de|sens=[[mot]] [[monstrueux]]}}
+* {{l|Wortungetüm|de|sens=[[mot]] [[monstrueux]]}}
+* {{l|Wortverbindung|de|sens=[[association de mots]]}}
+* {{l|Wortwahl|de}}
+* {{l|Wortwitz|de}}
+* {{l|Wortwurzel|de}}
+* {{l|Wortzauber|de}}
+* {{l|Zitatwort|de}}
+* {{l|Zwillingswort|de}}
+{{)}}
+{{(|Autres dérivés}}
+* {{l|wortarm|de|sens=[[taciturne]] », « [[laconique]]}}
+* {{l|wortgetreu|de|sens=[[à la lettre]] », « [[littéralement]]}}
+* {{l|wortgewaltig|de|sens=[[éloquent]]}}
+* {{l|wortgewandt|de|sens=[[éloquent]]}}
+* {{l|wortkarg|de|sens=[[taciturne]] », « [[laconique]]}}
+* {{l|wörtlich|de|sens=[[littéral]] » ; « [[littéralement]]}}
+* {{l|wortlos|de|sens=[[muet]] » ; « [[sans mot dire]]}}
+* {{l|wortmächtig|de|sens=[[éloquent]]}}
+* {{l|wortreich|de|sens=[[verbeux]]}}
+* {{l|wortwörtlich|de|sens=[[à la lettre]] », « [[littéralement]]}}
+{{)}}
+
+=== {{S|prononciation}} ===
+* {{écouter|Bade-Wurtemberg (Allemagne)|vɔʁt|lang=de|audio=De-Wort.ogg}}
+* {{écouter|Berlin (Allemagne)|vɔʁt|lang=de|audio=De-Wort2.ogg}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=de}}
+
+==== {{S|sources}} ====
+{{Références}}
+
+==== {{S|bibliographie}} ====
+* {{R:DWb|Wort|id=W26937}}

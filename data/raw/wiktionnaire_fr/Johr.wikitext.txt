@@ -1,0 +1,11 @@
+{{voir|johr}}
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|nom|gsw-fr}} ===
+'''Johr''' {{pron||gsw-fr}} {{n}}
+# [[année#fr|Année]].
+
+[[Catégorie:Calendrier en alémanique alsacien]]
+[[Catégorie:Unités de mesure en alémanique alsacien]]

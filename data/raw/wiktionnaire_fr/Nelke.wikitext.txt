@@ -1,0 +1,54 @@
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|goh|de|mot=negelli|dif=negellī}}.
+
+=== {{S|nom|de}} ===
+{{de-nom-f-n}}
+'''Nelke''' {{pron|ˈnɛlkə|de}} {{f}}
+# {{fleurs|de}} [[œillet|Œillet]].
+#* {{exemple | lang=de | Er trug eine '''Nelke''' im Knopfloch.}}
+# {{plantes|de}} {{épices|de}} [[clou de girofle|Clou de girofle]].
+#* {{exemple | lang=de | Ich spicke den Schweinebraten mit '''Nelken.'''|sens=Je pique le rôti de porc avec des clous de girofle.}}
+#* {{exemple|Das Berbere Gewürz ist eine scharfe äthiopische Gewürzmischung mit Pfeffer, Ingwer, Piment und Cayennepfeffer. Koriander verleiht der äthiopischen Gewürzmischung eine frische Note. '''Nelke'''n, Muskatnuss, Kreuzkümmel und Kardamom sorgen für den exotischen Duft der afrikanischen Küche.|lang=de|sens=Le berbéré est un mélange d'épices éthiopien piquant contenant du poivre, du gingembre, du piment de la Jamaïque et du poivre de Cayenne. La coriandre confère une note de fraîcheur au mélange d'épices éthiopien. Les clous de girofle, la noix de muscade, le cumin et la cardamome apportent le parfum exotique de la cuisine africaine.|source={{périodique|auteur=|titre=Berbere, afrikanische Gewürzmischung, gemahlen|journal=Bremer Gewürzhandel|date=5 mai 2024|texte=https://www.bremer-gewuerzhandel.de/berbere-afrikanische-gewuerzmischung-gemahlen}}}}
+#* {{exemple|Unser Glühweingewürz ist eine winterlich-duftende Gewürzmischung, mit der ganz einfach ein köstlicher Glühwein zubereitet werden kann. Das Punschgewürz enthält fruchtige Zitronenschalen, süßen Zimt und würzig-herbe '''Nelke'''n.|lang=de|sens=Notre épice pour vin chaud est un mélange d'épices aux senteurs hivernales qui permet de préparer très facilement un délicieux vin chaud. L'épice pour punch contient des zestes de citron fruités, de la cannelle douce et des clous de girofle épicés et amers.|source={{périodique|auteur=|titre=Glühweingewürz, geschrotet|journal=Bremer Gewürzhandel|date=5 mai 2024|texte=https://www.bremer-gewuerzhandel.de/gluehweingewuerz-geschrotet}}}}
+
+==== {{S|synonymes}} ====
+* [[Nägeli]]
+
+==== {{S|dérivés}} ====
+{{(}}
+* [[Gartennelke]]
+* [[Gewürznelke]]
+* [[Kornnelke]]
+* [[Kunstnelke]]
+* [[Lichtnelke]]
+* [[Mainelke]]
+* [[Nelkenbeet]]
+* [[Nelkenöl]]
+* [[Nelkenpulver]]
+* [[Nelkenrevolution]]
+* [[Nelkenstock]]
+* [[Nelkenwurz]]
+* [[Nelkenstrauß]]
+* [[Papiernelke]]
+* [[Pechnelke]]
+* [[Prachtnelke]]
+* [[schwarze Nelke]]
+* [[Steinnelke]]
+* [[Würznelke]]
+{{)}}
+
+==== {{S|phrases}} ====
+* [[Rosen, Tulpen, Nelken, alle Blumen welken]]
+
+==== {{S|hyperonymes}} ====
+* [[Gewürz]]
+* [[Blume]]
+
+=== {{S|prononciation}} ===
+* {{écouter|Berlin|ˈnɛlkə|lang=de|audio=De-Nelke.ogg}}
+
+== {{langue|gsw-fr}} ==
+=== {{S|nom|gsw-fr|flexion}} ===
+'''Nelke''' {{pron||gsw-fr}}
+# ''Pluriel de'' [[Nelk]].

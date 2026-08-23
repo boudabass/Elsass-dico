@@ -1,0 +1,33 @@
+== {{langue|fr}} ==
+{{ébauche|fr}}
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|fr}}
+
+=== {{S|nom propre|fr}} ===
+{{fr-inv||inv_titre=Nom propre}}
+'''Feria''' {{pron||fr}}
+# {{localités|fr|d’Espagne}} [[commune|Commune]] d’[[Espagne]], située dans la province de [[Badajoz]] et la Communauté autonome d’[[Estrémadure]].
+
+==== {{S|traductions}} ====
+{{trad-début|}}
+* {{T|es}} : {{trad-|es|Feria}}
+
+{{trad-fin}}
+
+=== {{S|anagrammes}} ===
+{{voir anagrammes|fr}}
+
+=== {{S|voir aussi}} ===
+* {{WP}}
+
+
+{{voir|feria}}
+
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|nom|gsw-fr}} ===
+'''Feria'''
+# [[vacances|Vacances]], [[congé]]

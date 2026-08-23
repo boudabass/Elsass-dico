@@ -1,0 +1,48 @@
+{{voir/locke}}
+
+== {{langue|fr}} ==
+=== {{S|verbe|fr|flexion}} ===
+{{fr-verbe-flexion|locker|ind.p.1s=oui|ind.p.3s=oui|sub.p.1s=oui|sub.p.3s=oui|imp.p.2s=oui}}
+'''locke''' {{pron|lɔk|fr}}
+# ''Première personne du singulier de l’indicatif présent du verbe'' [[locker]].
+# ''Troisième personne du singulier de l’indicatif présent du verbe'' [[locker]].
+# ''Première personne du singulier du subjonctif présent du verbe'' [[locker]].
+# ''Troisième personne du singulier du subjonctif présent du verbe'' [[locker]].
+# ''Deuxième personne du singulier de l’impératif du verbe'' [[locker]].
+
+=== {{S|anagrammes}} ===
+{{voir anagrammes|fr}}
+
+=== {{S|voir aussi}} ===
+{{Autres projets
+|w=Locke}}
+
+== {{langue|gsw-fr}} ==
+{{ébauche|gsw-fr}}
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|verbe|gsw-fr}} ===
+'''locke'''
+# [[attirer|Attirer]].
+
+== {{langue|de}} ==
+=== {{S|verbe|de|flexion}} ===
+'''locke''' {{pron|ˈlɔkə|de}}
+# ''Deuxième personne du singulier de l’impératif présent de'' {{lien|locken|de}}.
+# ''Première personne du singulier du présent de l’indicatif de'' {{lien|locken|de}}.
+# ''Première personne du singulier du subjonctif présent I de'' {{lien|locken|de}}.
+# ''Troisième personne du singulier du subjonctif présent I de'' {{lien|locken|de}}.
+
+=== {{S|prononciation}} ===
+* {{écouter|Berlin|ˈlɔkə|lang=de|audio=De-locke.ogg}}
+
+== {{langue|en}} ==
+=== {{S|étymologie}} ===
+: {{cf|lock}}
+
+=== {{S|nom|en}} ===
+{{en-nom-rég}}
+'''locke''' {{pron||en}}
+# {{archaïsme|en}} {{variante de|lock|en}}.

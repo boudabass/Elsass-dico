@@ -1,0 +1,10 @@
+{{voir|Júlí|júlí|juli|Juli}}
+{{vérifier création automatique||gsw-fr}}
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|nom|gsw-fr}} ===
+'''Jüli'''
+# [[juillet|Juillet]]
+{{clé de tri|juli}}

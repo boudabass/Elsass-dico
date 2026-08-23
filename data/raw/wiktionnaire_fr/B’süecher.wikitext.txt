@@ -1,0 +1,8 @@
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|nom|gsw-fr}} ===
+'''B’süecher'''
+# [[visiteur|Visiteur]]
+{{clé de tri|b’suecher}}

@@ -1,0 +1,48 @@
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|goh|de|ziegal}}, lui-même issu du {{étyl|la|de|mot=tegula|sens=tuile}}.
+
+=== {{S|nom|de}} ===
+{{de-nom-m-el|t͡siː.ɡl̩}}
+'''Ziegel''' {{pron|t͡siː.ɡl̩|de}} {{m}}
+# {{lexique|maçonnerie|de}} [[brique|Brique]].
+#* {{exemple|Das konstruktivistische Betongebäude, das in der Straße der Roten Armee die Offiziere des NKWD und ihre Familien beherbergt (...) blickt auf das, was einstmals der imposante Hauptbahnhof war und nun ein Chaos aus Steinen, '''Ziegel'''n und Metall ist (...)|lang=de|sens=Le bâtiment constructiviste en béton qui abrite, rue de l’Armée-Rouge, les officiers du NKVD et leurs familles (...) donne sur ce qui a été l’imposante gare centrale, à présent un chaos de pierre, de brique et de métal (...)|source={{ouvrage|auteur={{w|Emmanuel Carrère}}|trad=Claudia Hamm|titre=Limonow|année=2012|éditeur=MSB Matthes & Seitz Berlin Verlagsgesellschaft|url=}}}}
+# {{lexique|construction|de}} {{term|couverture|de}} [[tuile|Tuile]].
+
+==== {{S|synonymes}} ====
+{{(|Brique}}
+* [[Backstein]]
+* [[Ziegelstein]]
+{{)}}
+{{(|Tuile}}
+* [[Dachziegel]]
+{{)}}
+
+==== {{S|hyponymes}} ====
+{{(|Brique}}
+* [[Klinker]]
+* [[Pflasterziegel]]
+* [[Klinkermauerziegel]]
+* [[Vormauerziegel]]
+* [[Hintermauerziegel]]
+{{)}}
+{{(|Tuile}}
+* [[Dachpfanne]]
+* [[Hohlziegel]]
+* [[Breitziegel]]
+{{)}}
+
+=== {{S|prononciation}} ===
+* {{écouter|Berlin|ˈt͡siːɡl̩|lang=de|audio=De-Ziegel.ogg}}
+* {{écouter|Berlin|ˈt͡siːɡl̩|lang=de|audio=LL-Q188 (deu)-Sebastian Wallroth-Ziegel.wav}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=de}}
+
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|gsw-fr|tegula|sens=tuile}}.
+
+=== {{S|nom|gsw-fr}} ===
+'''Ziegel''' {{pron||gsw-fr}} {{genre|gsw-fr}}
+# {{lexique|construction|gsw-fr}} {{term|couverture|gsw-fr}} [[tuile|Tuile]].

@@ -1,0 +1,19 @@
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{date|lang=gsw-fr}} {{ébauche-étym|gsw-fr}}
+
+=== {{S|nom|gsw-fr}} ===
+'''Hìtzwalla''' {{pron||gsw-fr}}
+# Une vague de chaleur ou canicule
+#* {{exemple
+ | S letscht Johr hàt uns d erschta '''Hìtzwalla''' ands Jüni ewerfàlla.
+ | L'année dernière, la première vague de chaleur nous avait frappé en juin.
+ | source=Adrien Dentz,  ''As wìrd noh heisser'', Uf elsassisch, Dernières nouvelles d'Alsace du  31 mai 2026
+ | lien=https://www.dna.fr/culture-loisirs/2026/05/31/as-wird-noh-heisser
+ | lang=gsw-fr
+}}
+
+=== {{S|prononciation}} ===
+{{ébauche-pron-audio|gsw-fr}}
+
+{{clé de tri|}}

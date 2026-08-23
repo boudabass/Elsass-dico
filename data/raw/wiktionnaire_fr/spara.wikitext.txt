@@ -1,0 +1,26 @@
+{{voir|spåra}}
+
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|verbe|gsw-fr}} ===
+'''spara'''
+# [[économiser|Économiser]], [[épargner]]
+
+== {{langue|sv}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|sv}}
+
+=== {{S|verbe|sv}} ===
+{{sv-conj-ar}}
+'''spara''' {{pron||sv}}
+# [[garder|Garder]].
+# {{lexique|informatique|sv}} [[sauvegarder|Sauvegarder]].
+# [[économiser|Économiser]], [[épargner]].
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=sv|Suède <!-- précisez svp la ville ou la région -->||audio=Sv-spara.ogg}}
+
+=== {{S|références}} ===
+* {{source-wikt|sv}}

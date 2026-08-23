@@ -1,0 +1,15 @@
+{{voir/fanga}}
+== {{langue|gsw-fr}} ==
+{{ébauche|gsw-fr}}
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|verbe|gsw-fr}} ===
+'''fãnga'''
+# [[attraper]].
+
+==== {{S|variantes orthographiques}} ====
+* [[hole]]
+
+{{clé de tri|Gschwar}}

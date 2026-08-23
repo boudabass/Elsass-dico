@@ -1,0 +1,14 @@
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|nom propre|gsw-fr}} ===
+'''Strosbùri''' {{pron||gsw-fr}}
+# {{Wolschheim|gsw}} {{localités|gsw-fr|du département du Bas-Rhin}} [[Strasbourg#fr|Strasbourg]] ; [[commune]] [[français]]e, située dans le département du [[Bas-Rhin]].
+#* {{exemple|lang=gsw-fr}}
+
+=== {{S|prononciation}} ===
+{{ébauche-pron-audio|gsw-fr}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=gsw}}

@@ -1,0 +1,29 @@
+{{voir|autofahrer}}
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+De ''[[Auto]]'' et ''[[Fahrer]]''.
+
+=== {{S|nom|de}} ===
+{{de-nom-m-er}}
+'''Autofahrer''' {{pron|ˈaʊ̯toˌfaːʁɐ|de}} {{m}}
+# [[automobiliste|Automobiliste]], conducteur d'une automobile.
+#* {{exemple|Wird ein Fußgänger angefahren, entscheidet die Schuldfrage über die Sanktionen. Trägt der Fußgänger keine Schuld und wird verletzt, kann er den '''Autofahrer''' vor Gericht wegen Körperverletzung verklagen.|source=« Fußgänger angefahren: Wann haftet der Autofahrer und wann der Fußgänger? », in ''Bussgeldrechner.org'', 08 novembre 2021|lang=de|sens=Si un piéton est renversé, c'est la question de la responsabilité qui détermine les sanctions. Si le piéton n'est pas responsable et s'il est blessé, il peut poursuivre l'automobiliste en justice pour coups et blessures.|lien=https://www.bussgeldrechner.org/unfall/fussgaenger-angefahren.html}}
+#* {{exemple|Der ADAC empfiehlt Autofahrerinnen und '''Autofahrer'''n, lieber abends statt morgens zu tanken. Am günstigsten ist Kraftstoff demnach in der Regel zwischen 18 und 19 Uhr sowie zwischen 21 und 22 Uhr.|lang=de|sens=L'ADAC recommande aux automobilistes de faire le plein le soir plutôt que le matin. Le carburant est généralement le moins cher entre 18 et 19 heures et entre 21 et 22 heures.|source={{périodique|auteur=Anna-Lena Schlitt|titre=Tanken: Warum Benzin gerade so teuer ist|journal=Die Zeit|date=5 avril 2024|texte=https://www.zeit.de/wirtschaft/2024-04/tanken-sprit-preise-benzin-diesel-tankstelle-faq}}}}
+
+==== {{S|apparentés}} ====
+* [[Autofahrerin]]
+
+=== {{S|prononciation}} ===
+* {{écouter|Berlin|ˈaʊ̯toˌfaːʁɐ|lang=de|audio=De-Autofahrer.ogg}}
+* {{écouter|Vienne|ˈaʊ̯toˌfaːʁɐ|lang=de|audio=De-at-Autofahrer.ogg}}
+
+[[Catégorie:Lexique en allemand de l’automobile]]
+
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+{{ébauche-étym|gsw-fr}}
+
+=== {{S|nom|gsw-fr}} ===
+'''Autofahrer'''
+# [[automobiliste|Automobiliste]]

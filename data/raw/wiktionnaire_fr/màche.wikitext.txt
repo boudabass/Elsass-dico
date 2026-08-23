@@ -1,0 +1,11 @@
+{{voir/mache}}
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|goh|gsw-fr|mahhōn}}, du {{étyl|proto-germanique|gsw-fr}} {{recons|lang-mot-vedette=gsw-fr|[[Reconstruction:proto-germanique/*makōną|makōną]]}}, ultimement de l’indo-européen {{recons|lang-mot-vedette=gsw-fr|mag-}}. Cognat de l'allemand ''{{lien|machen|de}}''.
+
+=== {{S|verbe|gsw-fr}} ===
+'''màche''' {{pron|mɒːxɘ|gsw-fr}} (''participe passé :'' '''gemàcht''') 
+# [[faire#fr|Faire]]
+
+=== {{S|références}} ===
+*[https://web.archive.org/web/20130906191837/http://www.ami-hebdo.com/elsadico/index.php de Elsässich Web Diktionnair]

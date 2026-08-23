@@ -1,0 +1,607 @@
+{{voir|spiel}}
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: {{siècle|IX|lang=de}}. Du {{étyl|gmh|de|spil}}, du {{étyl|gml|de|mot=spel}}, {{lien|''spele''|gml}}, {{lien|''spil''|gml}}, {{lien|''spol''|gml}}, {{lien|''spole''|gml}}, issus du {{étyl|goh|de|mot=spil}} ; origine incertaine, possiblement des verbes en moyen haut allemand {{lien|''spilen''|gmh|sens=danser}}, en vieux haut allemand {{lien|''spilōn''|goh|sens=danser}}, vieux saxon {{lien|''spilon''|osx|sens=danser}}<ref>{{source|Friedrich {{pc|Kluge}}, Elmar {{pc|Seebold}} : ''Etymologisches Wörterbuch der deutschen Sprache. 25.'', édition revue et augmentée. Éditeur Walter de Gruyter, Berlin/New York 2011, ISBN 978-3-11-022364-4, DNB 1012311937, mot-clé: „Spiel“, page 867}}.</ref>. Apparenté au moyen néerlandais {{lien|''spel''|dum}}, au néerlandais {{lien|''spel''|nl}} et emprunté par les langues nordiques : en suédois {{lien|''spel''|sv}}, en danois {{lien|''spil''|da}}, en norvégien (bokmål) {{lien|''spill''|nb}}, en norvégien (nynorsk) {{lien|''spel''|nn}}, en féroïen {{lien|''spæl''|fo}} et en islandais {{lien|''spil''|is}} – <ref>{{source|DWb & DWDS}}</ref>.
+
+=== {{S|nom|de}} ===
+{{de-nom-n-s-e|gs2=Spieles|ds2=Spiele}}
+'''Spiel''' {{pron|ʃpiːl|de}} {{n}}
+# {{lexique|jeux|de}} [[jeu#fr|Jeu]] : [[fait]] de [[jouer]].
+#* {{exemple|Arbeit, Krieg, '''Spiel''' und Kunst definieren Seinsweisen in der Welt, die sich auf keine andere zurückführen lassen. Sie decken Eigenschaften auf, die sich mit denen überschneiden, die die Sexualität enthüllt.|lang=de|sens=Le travail, la guerre, le jeu, l’art définissent des manières d’être au monde qui ne se laissent réduire à aucune autre ; elles découvrent des qualités qui interfèrent avec celles que révèle la sexualité ;|source={{ouvrage|auteur={{w|Simone de Beauvoir}}|trad=Uli Aumüller et Grete Osterwald|titre=Das andere Geschlecht|année=1992|éditeur=Rowohlt Verlag|url=}}}}
+# {{lexique|jeux|de}} [[jeu#fr|Jeu]] : [[activité]] [[ludique]] avec un [[ensemble]] de [[règle]]s.
+#* {{exemple | lang=de
+| »{{w|Carcassonne (Spiel)|Carcassonne|lang=de}}« ist ein Klassiker! Das '''Spiel''' des Jahres 2001 steht in vielen Spieleregalen und ist ganz hervorragend gealtert.
+| « {{w|Carcassonne (jeu)|Carcassonne}} » est un classique ! Le jeu de l’année 2001 se trouve sur de nombreuses étagères de jeux et a très bien vieilli.
+|source={{périodique
+ |auteur=Diana Doert
+ |titre=Groß, größer, Big Box
+ |sous-titre=XXL-Brettspiele im Test
+ |journal={{w|Der Spiegel}}
+ |date=2 novembre 2024
+ |url=https://www.spiegel.de/tests/brettspiele/big-box-spiele-im-test-carcassonne-village-und-terraforming-mars-sammlerbox-a-807f7e39-ea21-45e9-bc4f-8e1738c236cf}}}}
+#* {{exemple|Die Architektur, das ist ein '''Spiel''', ein wissenschaftliches '''Spiel''', aber ein '''Spiel''', darüber brauchen wir nicht zu reden, doch der Bau, das ist kein '''Spiel''', das bedeutet, die Dinge gemeinsam zu machen … Verstehen Sie? Gemeinsam …|lang=de|sens=L’architecture, c’est un jeu, un jeu savant mais un jeu, nous n’en parlerons pas. La construction, ça ne joue pas, c’est faire des choses ensemble… Vous comprenez ? Ensemble…|source={{ouvrage|auteur={{w|Hervé Le Tellier}}|trad=Romy Ritte et Jürgen Ritte|titre=Die Anomalie|année=2021|éditeur=Rowohlt Verlag|lieu=Hamburg|url=}}}}
+# {{lexique|sport|jeux|de}} [[partie|Partie]], [[match]].
+#* {{exemple | lang=de
+ | Was für ein schönes '''Spiel'''!
+ | Quel beau match !}}
+# {{par extension|de}} {{lexique|musique|cinéma|théâtre|de}} [[jeu#fr|Jeu]] : [[façon]] de [[jouer]], d’[[interpréter]] une [[œuvre]] ou un [[rôle]].
+#* {{exemple | lang=de
+| {{w|Method Acting|Stanislawskis Ausarbeitung|lang=de}} der „physischen Handlung“ hält {{w|Bernd Stegemann (Dramaturg)|[Bernd] Stegemann|lang=de}} nicht für überholt, sondern bis heute für das Fundament des '''Spiels'''.
+| {{w|Bernd Stegemann (Dramaturg)|[Bernd] Stegemann|lang=de}} ne considère pas le {{w|Méthode (théâtre)|Système Stanislavski|de}} de « l’action physique » comme dépassé, mais comme restant le fondement du jeu jusqu’à aujourd'hui.
+|source={{périodique
+ |auteur=Peter Michalzik
+ |titre=So viel '''Spiel'''
+ |journal={{w|Frankfurter Rundschau}}
+ |date=23 janvier 2019
+ |url=https://www.fr.de/kultur/viel-spiel-11434827.html}}}}
+# {{par extension|de}} [[jeu#fr|Jeu]] : [[activité]] [[douteux|douteuse]]
+#* {{exemple | lang=de
+| Pass auf, spiel kein gewagtes '''Spiel'''!
+| Attention, ne joue pas à un jeu dangereux !}}
+# {{par extension|de}} {{lexique|mécanique|de}} [[jeu#fr|Jeu]] : [[espace]] [[libre]] entre [[pièce]]s [[permettre|permettant]] un [[mouvement]], une [[lubrification]], etc.
+#* {{exemple | lang=de
+| Über die Fertigungstoleranz und Passung von Einzelteilen lässt sich das zu erwartende '''Spiel''' nach dem Zusammenbau vorhersagen.
+| Les tolérances de fabrication et l’ajustement des pièces individuelles permettent de prédire le jeu attendu après assemblage.
+|source={{w|Spiel (Technik)|'''Spiel''' – Technik|lang=de}}}}
+
+==== {{S|synonymes}} ====
+{{(|}}
+* {{lien|Aufführung|de}}
+* {{lien|Darbietung|de}}
+* {{lien|Vorführung|de}}
+* {{lien|Wettbewerb|de}}
+* {{lien|Wettkampf|de}}
+* {{lien|Freizeitbeschäftigung|de}}
+* {{lien|musizieren|de|dif=Musizieren}}
+* {{lien|Zusammenspiel|de}}
+* {{lien|Spielraum|de}}
+{{)}}
+
+==== {{S|antonymes}} ====
+* {{lien|Arbeit|de}}
+* {{lien|Ernst|de}}
+
+==== {{S|dérivés}} ====
+{{(|Substantifs [[hyponyme]]s en ''-spiel'' / ''-Spiel''}}
+* {{l|Abschiedsspiel|de}}
+* {{l|Achtelfinalspiel|de}}
+* {{l|Anspiel|de}}
+* {{l|Aufstiegsspiel|de}}
+* {{l|Auftaktspiel|de}}
+* {{l|Ausscheidungsspiel|de}}
+* {{l|Auswärtsspiel|de}}
+* {{l|Axialspiel|de}}
+* {{l|Benefizspiel|de}}
+* {{l|Bühnenspiel|de}}
+* {{l|Dartspiel|de|sens=[[fléchettes]]}}
+* {{l|Entscheidungsspiel|de}}
+* {{l|Eröffnungsspiel|de}}
+* {{l|Farbenspiel|de}}
+* {{l|Farbspiel|de}}
+* {{l|Faustballspiel|de}}
+* {{l|Federspiel|de}}
+* {{l|Ferienspiel|de}}
+* {{l|Fernsehspiel|de}}
+* {{l|Fesselspiel|de}}
+* {{l|Finalspiel|de}}
+* {{l|Flohspiel|de}}
+* {{l|Flötenspiel|de}}
+* {{l|Formlegespiel|de}}
+* {{l|Gedankenspiel|de}}
+* {{l|Geigenspiel|de}}
+* {{l|Geisterspiel|de}}
+* {{l|Gesellschaftsspiel|de}}
+* {{l|Gespiele|de}}
+* {{l|Gewinnspiel|de}}
+* {{l|Gitarrespiel|de}}
+* {{l|Gratisspiel|de|sens=[[jeu]] [[gratuit]]}}
+* {{l|Handspiel|de}}
+* {{l|Hinspiel|de}}
+* {{l|Hörspiel|de}}
+* {{l|Intrigenspiel|de}}
+* {{l|Katz- und Mausspiel|de}}
+* {{l|Kegelspiel|de}}
+* {{l|Klavierspiel|de}}
+* {{l|königliche Spiel|de}}
+* {{l|Konsolenspiel|de}}
+* {{l|Krippenspiel|de}}
+* {{l|Kubusspiel|de}}
+* {{l|Kugelspiel|de}}
+* {{l|Länderspiel|de}}
+* {{l|Längsspiel|de}}
+* {{l|Langspielplatte|de|sens=[[trente-trois tours]]}}
+* {{l|Liebesspiel|de}}
+* {{l|Ligaspiel|de}}
+* {{l|Lottospiel|de}}
+* {{l|Machtspiel|de|sens=[[jeu]] de [[pouvoir]]}}
+* {{l|Märchenspiel|de|sens=[[féérie]]}}
+* {{l|Meisterschaftsspiel|de}}
+* {{l|Mensch-ärgere-dich-nicht-Spiel|de|sens=[[petits chevaux]]}}
+* {{l|Millionenspiel|de}}
+* {{l|Minispiel|de}}
+* {{l|Muskelspiel|de}}
+* {{l|Nachholspiel|de}}
+* {{l|Naturspiel|de}}
+* {{l|Ohnmachtsspiel|de}}
+* {{l|Olympische Spiele|de|sens=[[Jeux olympiques]]}}
+* {{l|Orgelspiel|de}}
+* {{l|Passspiel|de}}
+* {{l|Pfänderspiel|de}}
+* {{l|Pflichtspiel|de}}
+* {{l|Planspiel|de}}
+* {{l|Playoff-Spiel|de}}
+* {{l|Pokalspiel|de}}
+* {{l|Punktespiel|de}}
+* {{l|Punktspiel|de}}
+* {{l|Qualifikationsspiel|de}}
+* {{l|Ratespiel|de}}
+* {{l|Rechenspiel|de}}
+* {{l|Reiterspiel|de}}
+* {{l|Revanchespiel|de}}
+* {{l|Rückspiel|de}}
+* {{l|Saisonspiel|de}}
+* {{l|Schachspiel|de}}
+* {{l|Schlagzeugspiel|de}}
+* {{l|Seitenspiel|de}}
+* {{l|Sexspiel|de}}
+* {{l|Singspiel|de}}
+* {{l|Skatspiel|de}}
+* {{l|Tarotspiel|de}}
+* {{l|Telespiel|de}}
+* {{l|Testspiel|de}}
+* {{l|Turnierspiel|de}}
+* {{l|Verfolgungsspiel|de|sens=[[jeu de poursuite]]}}
+* {{l|Vielsummenspiel|de}}
+* {{l|Viererspiel|de}}
+* {{l|Viertelfinalspiel|de}}
+* {{l|Vorrundenspiel|de}}
+* {{l|Weihnachtsgewinnspiel|de}}
+* {{l|Weltmeisterschaftsspiel|de}}
+* {{l|Wettspiel|de}}
+* {{l|Wiederholungsspiel|de}}
+* {{l|Wortspiel|de}}
+* {{l|Würgespiel|de}}
+* {{l|Zahnradspiel|de|sens=[[jeu d’entredent]] », « [[jeu d’engrènement]]}}
+* {{l|Zitherspiel|de}}
+* {{l|Zusammenspiel|de|sens=[[interaction]]}}
+{{)}}
+{{(|Autres substantifs}}
+* {{l|Spielabbruch|de|sens=[[arrêt]] de [[jeu]]}}
+* {{l|Spielabend|de}}, {{l|Spieleabend|de|sens=[[soirée jeux]] », « [[soirée de jeux]]}}
+* {{l|Spielalter|de|sens=[[âge]] pour [[jouer]]}}
+* {{l|Spielanteil|de|sens=[[avantage]] de [[jeu]] », « [[proportion]] [[ludique]]}}
+* {{l|Spielanzug|de}}
+* {{l|Spielart|de}}
+* {{l|Spielausgang|de}}
+* {{l|Spielautomat|de|sens=[[machine]] de [[jeu]] », « [[machine à sous]]}}
+* {{l|Spielball|de|sens=[[ballon]] de [[jeu]] », « [[balle]] de [[jeu]] » ; ''(figuré)'' « [[jouet]]}}
+* {{l|Spielbank|de}}
+* {{l|Spielbeginn|de|sens=[[début]] de [[partie]]}}
+* {{l|Spielbein|de}}
+* {{l|Spielbetrieb|de}}
+* {{l|Spielbrett|de|sens=[[tablier]] de [[jeu]]}}
+* {{l|Spielchen|de|sens=[[petit]] [[jeu]]}} – ''(sens propre & figuré)''
+* {{l|Spielcomputer|de|sens=[[ordinateur]] de [[jeu]]}}
+* {{l|Spieldauer|de|sens=[[durée]] de [[partie]]}}
+* {{l|Spieldose|de|sens=[[boîte à musique]]}}
+* {{l|Spielende|de|sens=[[fin]] de [[partie]]}}
+* {{l|Spielfeld|de|sens=[[case]] », « [[terrain de jeu]] », « [[terrain de sport]]}}
+* {{l|Spielfigur|de|sens=[[pion]] », « [[figure]] », « [[pièce]] de [[jeu]]}}
+* {{l|Spielfilm|de}}
+* {{l|Spielfortsetzung|de|sens=[[poursuite]] / [[reprise]] de [[jeu]]}}
+* {{l|Spielfreude|de|sens=[[plaisir]] de [[jouer]]}}
+* {{l|Spielführer|de|sens=[[capitaine]] d’[[équipe]]}}
+* {{l|Spielgefährte|de|sens=[[compagnon]] de [[jeu]]}}
+* {{l|Spielgeld|de}}
+* {{l|Spielgerät|de}}
+* {{l|Spielgruppe|de}}
+* {{l|Spielhalle|de}}
+* {{l|Spielhölle|de}}
+* {{l|Spielkamerad|de}}
+* {{l|Spielkarte|de|sens=[[carte à jouer]]}}
+* {{l|Spielkasino|de}}
+* {{l|Spielklasse|de}}
+* {{l|Spielkonsole|de|sens=[[console de jeu]]}}
+* {{l|Spielkram|de}}
+* {{l|Spielleidenschaft|de}}
+* {{l|Spielleiter|de|sens=[[meneur de jeu]]}}
+* {{l|Spielmacher|de}}
+* {{l|Spielmanipulation|de}}
+* {{l|Spielmann|de|sens=[[ménestrel]] », « [[musicien]] [[ambulant]]}}
+* {{l|Spielmarke|de}}
+* {{l|Spielminute|de}}
+* {{l|Spielort|de}}
+* {{l|Spielothek|de|sens=[[ludothèque]]}}
+* {{l|Spielphase|de}}
+* {{l|Spielplan|de}}
+* {{l|Spielplatz|de|sens=[[terrain de jeux]] », « [[aire de jeux]]}}
+* {{l|Spielpotpourri|de}}
+* {{l|Spielratte|de}}
+* {{l|Spielraum|de|sens=[[marge de manœuvre]]}}
+* {{l|Spielregel|de|sens=[[règle]] de [[jeu]]}}
+* {{l|Spielsache|de}}
+* {{l|Spielsachen|de}}
+* {{l|Spielschuld|de|sens=[[dette]] de [[jeu]]}}
+* {{l|Spielschule|de}}
+* {{l|Spielstand|de}}
+* {{l|Spielstraße|de}}
+* {{l|Spielsucht|de|sens=[[jeu]] [[compulsif]] », « [[dépendance]] au [[jeu]]}}
+* {{l|Spieltag|de|sens=[[journée]] de [[match]]}}
+* {{l|Spielteufel|de|sens=[[démon]] du [[jeu]]}}
+* {{l|Spieltisch|de|sens=[[table]] de [[jeu]]}}
+* {{l|Spieltrieb|de|sens=[[goût]] du [[jeu]]}}
+* {{l|Spielunterbrechung|de|sens=[[interruption]] de [[jeu]]}}
+* {{l|Spieluhr|de}}
+* {{l|Spielverbot|de|sens=[[interdiction]] de [[jouer]]}}
+* {{l|Spielverderber|de}}
+* {{l|Spielvereinigung|de}}
+* {{l|Spielverlauf|de|sens=[[déroulement]] de [[partie]]}}
+* {{l|Spielware|de|sens=[[jouet]]}}
+* {{l|Spielweise|de|sens=[[façon]] de [[jouer]]}}
+* {{l|Spielwiese|de|sens=[[parc à jeux]]}}
+* {{l|Spielwerk|de}}
+* {{l|Spielwitz|de}}
+* {{l|Spielwürfel|de|sens=[[dé à jouer]]}}
+* {{l|Spielzeit|de}}
+* {{l|Spielzeug|de|sens=[[jouet]]}}
+* {{l|Spielzimmer|de|sens=[[salle de jeu]]}}
+* {{l|Spielzug|de|sens=[[mouvement]] », « [[action]]}}
+{{)}}
+{{(|Autres dérivés}}
+* {{l|auf dem Spiel stehen|de|sens=[[être en jeu]]}}
+* {{l|aufs Spiel setzen|de|sens=[[mettre en jeu]]}}
+* {{l|aus dem Spiel bleiben|de|sens=[[rester]] [[à l’écart]]}}
+* {{l|das Spiel zu weit treiben|de|sens=[[pousser le bouchon]]}}
+* {{l|die Hand im Spiel haben|de}}
+* {{l|gute Miene zum bösen Spiel machen|de|sens=[[faire contre mauvaise fortune bon cœur]]}}
+* {{l|im Spiel sein|de}}
+* {{l|leichtes Spiel haben|de|sens=[[avoir beau jeu]] », « [[avoir la partie facile]]}}
+* {{l|sein Spiel treiben|de}}
+* {{l|spielerisch|de|sens=[[ludique]]}}
+* {{l|spielstark|de|sens=[[fort]] au [[jeu]]}}
+{{)}}
+
+==== {{S|apparentés}} ====
+* {{lien|Gespielin|de}}
+* {{lien|spielen|de}}
+* {{lien|spielend|de}}
+* {{lien|Spieler|de}}
+
+==== {{S|phrases}} ====
+* {{l|das Spiel hat sich gewendet|sens=[[le vent tourne|le vent a tourné]]}}
+* {{l|das Spiel ist aus|de|sens=[[les jeux sont faits]] », « [[la messe est dite]] », « [[les carottes sont cuites]]}}
+
+==== {{S|hyponymes}} ====
+{{(|}}
+* {{lien|Abenteuerspiel|de}}
+* {{lien|Adelsspiel|de}}
+* {{lien|Alleinspiel|de}}
+* {{lien|Arztspiel|de}}
+* {{lien|Balancespiel|de}}
+* {{lien|Ballerspiel|de}}
+* {{lien|Bohnenspiel|de}}
+* {{l|Brettspiel|de|sens=[[jeu de société]]}}
+* {{lien|Doktorspiel|de}}
+* {{lien|Einzelspiel|de}}
+* {{lien|Erwachsenenspiel|de}}
+* {{lien|Fadenspiel|de}}
+* {{l|Familienspiel|de|sens=[[jeu]] [[familial]]}}
+* {{lien|Fangspiel|de}}
+* {{lien|Fantasiespiel|de}}
+* {{lien|Ferienspiel|de}}
+* {{lien|Funktionsspiel|de}}
+* {{lien|Gedankenspiel|de}}
+* {{lien|Gemeinschaftsspiel|de}}
+* {{lien|Gesellschaftsspiel|de}}
+* {{lien|Gespensterspiel|de}}
+* {{lien|Gewaltspiel|de}}
+* {{l|Golfspiel|de|sens=[[jeu]] de [[golf]]}}
+* {{l|Gruppenspiel|de|sens=[[match]] de [[groupe]]}}
+* {{lien|Handyspiel|de}}
+* {{l|Hasardspiel|de|sens=[[jeu de hasard]]}}
+* {{lien|Hinkelspiel|de}}
+* {{l|Hütchenspiel|de|sens=[[jeu]] de [[coquille]]s de [[noix|noix]]}}
+* {{l|Kartenspiel|de|sens=[[jeu de cartes]]}}
+* {{l|Kinderspiel|de|sens=[[jeu d’enfant]]}} – ''(sens propre & figuré)''
+* {{l|Kriegsspiel|de|sens=[[jeu de guerre]]}}
+* {{lien|Kugelspiel|de}}
+* {{lien|Legespiel|de}}
+* {{lien|Lehrerspiel|de}}
+* {{lien|Lesespiel|de}}
+* {{lien|Minispiel|de}}
+* {{lien|Mogelspiel|de}}
+* {{lien|Mühlespiel|de}}
+* {{lien|Neckspiel|de}}
+* {{lien|Partyspiel|de}}
+* {{lien|Pausenspiel|de}}
+* {{lien|Pfänderspiel|de}}
+* {{lien|Pikettspiel|de}}
+* {{lien|Prügelspiel|de}}
+* {{lien|Quizspiel|de}}
+* {{lien|Ratespiel|de}}
+* {{lien|Rätselspiel|de}}
+* {{lien|Raufspiel|de}}
+* {{lien|Regelspiel|de}}
+* {{lien|Risikospiel|de}}
+* {{l|Rollenspiel|de|sens=[[jeu de rôle]]}}
+* {{lien|Scherzspiel|de}}
+* {{lien|Schülerspiel|de}}
+* {{lien|Sexspiel|de}}
+* {{lien|Sexualspiel|de}}
+* {{lien|Stapelspiel|de}}
+* {{lien|Suchspiel|de}}
+* {{lien|Tarzanspiel|de}}
+* {{l|Trinkspiel|de|sens=[[jeu à boire]]}}
+* {{l|Versteckspiel|de|sens=[[partie]] de [[cache-cache]]}}
+* {{lien|Wortspiel|de}}
+* {{l|Würfelspiel|de|sens=[[jeu de dés]]}}
+{{)}}
+{{(|}}
+* {{l|Computerspiel|de|sens=[[jeu électronique]] », « [[jeu vidéo]]}}
+* {{lien|Elektronikspiel|de}}
+* {{lien|Handy-Spiel|de}}
+* {{l|Onlinespiel|de|sens=[[jeu en ligne]]}}
+* {{lien|Telespiel|de}}
+* {{lien|Smartphone-Spiel|de}}
+* {{l|Videospiel|de|sens=[[jeu vidéo]]}}
+{{)}}
+{{(|}}
+* {{lien|Defensivspiel|de}}
+* {{lien|Fesselspiel|de}}
+* {{lien|Liebesspiel|de}}
+* {{lien|Sexspiel|de}}
+* {{l|Offensivspiel|de|sens=[[jeu]] [[offensif]]}}
+{{)}}
+{{(|}}
+* {{lien|Auftaktspiel|de}}
+* {{l|Ballspiel|de|sens=[[jeu de balle]]}}
+* {{lien|Bewegungsspiel|de}}
+* {{l|Denkspiel|de|sens=[[jeu]] de [[réflexion]]}}
+* {{lien|Einzelspiel|de}}
+* {{lien|Foulspiel|de}}
+* {{lien|Geländespiel|de}}
+* {{lien|Geschicklichkeitsspiel|de}}
+* {{lien|Gladiatorenspiel|de}}
+* {{lien|Hüpfspiel|de}}
+* {{lien|Kampfspiel|de}}
+* {{lien|Katastrophenspiel|de}}
+* {{lien|Konstruktionsspiel|de}}
+* {{lien|Kreativspiel|de}}
+* {{lien|Kreiselspiel|de}}
+* {{lien|Kreisspiel|de}}
+* {{lien|Laufspiel|de}}
+* {{lien|Reigenspiel|de}}
+* {{lien|Ritterspiel|de}}
+* {{lien|Seniorenspiel|de}}
+* {{lien|Staffelspiel|de}}
+* {{lien|Straßenspiel|de}}
+* {{lien|Stubenspiel|de}}
+* {{lien|Tanzspiel|de}}
+* {{l|Vorspiel|de|sens=[[préliminaire]] », « [[prélude]]}}
+* {{lien|Wettspiel|de}}
+* {{lien|Wurfspiel|de}}
+* {{l|Zahlenspiel|de|sens=[[jeu de nombres]]}}
+* {{lien|Zielspiel|de}}
+* {{lien|Zitterspiel|de}}
+{{)}}
+{{(|}}
+* {{lien|Alleinspiel|de}}
+* {{lien|Abschiedsspiel|de}}
+* {{lien|Entscheidungsspiel|de}}
+* {{l|Freundschaftsspiel|de|sens=[[match amical]]}}
+* {{lien|Probespiel|de}}
+* {{l|Strategiespiel|de|sens=[[jeu de stratégie]]}}
+* {{lien|Pflichtspiel|de}}
+* {{lien|Punktspiel|de}}
+* {{lien|Qualifikationsspiel|de}}
+* {{lien|Testspiel|de}}
+* {{lien|Turnierspiel|de}}
+* {{l|Vorbereitungsspiel|de|sens=[[match]] de [[préparation]]}}
+* {{lien|Wiederholungsspiel|de}}
+{{)}}
+{{(|}}
+* {{lien|Interaktionsspiel|de}}
+* {{lien|Kreativspiel|de}}
+{{)}}
+{{(|}}
+* {{l|Damespiel|de|sens=[[jeu de dames]]}}
+* {{lien|Dominospiel|de}}
+* {{l|Glücksspiel|de|sens=[[jeu de hasard]]}}
+* {{lien|Lottospiel|de}}
+* {{lien|Mühlespiel|de}}
+* {{lien|Rubbelspiel|de}}
+* {{lien|Schachspiel|de}}
+* {{lien|Skatspiel|de}}
+* {{lien|Solitärspiel|de}}
+* {{lien|Tarotspiel|de}}
+* {{l|Vexierspiel|de|sens=[[casse-tête]]}}
+* {{lien|Wettspiel|de}}
+* {{l|Würfelspiel|de|sens=[[jeu de dés]]}}
+{{)}}
+{{(|}}
+* {{lien|Dämonenspiel|de}}
+* {{l|Doppelspiel|de|sens=[[double jeu]]}}
+* {{lien|Fastnachtsspiel|de}}
+* {{lien|Figurenspiel|de}}
+* {{lien|Handpuppenspiel|de}}
+* {{lien|Marionettenspiel|de}}
+* {{lien|Ritualspiel|de}}
+* {{lien|Tangramspiel|de}}
+* {{lien|Taktikspiel|de}}
+* {{lien|Verlustspiel|de}}
+{{)}}
+{{(|}}
+* {{lien|Entdeckerspiel|de}}
+* {{lien|Entspannungsspiel|de}}
+* {{lien|Falschspiel|de}}
+* {{lien|Gaukelspiel|de}}
+* {{lien|Leistungsspiel|de}}
+* {{lien|Schulwegspiel|de}}
+* {{lien|Sozialspiel|de}}
+* {{lien|Verkehrsspiel|de}}
+* {{lien|Wahrnehmungsspiel|de}}
+* {{lien|Zufallsspiel|de}}
+{{)}}
+{{(|}}
+* {{lien|Abendspiel|de}}
+* {{lien|Achtelfinalspiel|de}}
+* {{lien|Anspiel|de}}
+* {{lien|Aufstiegsspiel|de}}
+* {{lien|Ausscheidungsspiel|de}}
+* {{lien|Auswärtsspiel|de}}
+* {{lien|Baseballspiel|de}}
+* {{lien|Basketballspiel|de}}
+* {{lien|Benefizspiel|de}}
+* {{lien|Cricketspiel|de}}
+* {{l|Eishockeyspiel|de|sens=[[match]] de [[hockey]]}}
+* {{lien|Eröffnungsspiel|de}}
+* {{lien|Festspiel|de}}
+* {{lien|Finalspiel|de}}
+* {{lien|Footballspiel|de}}
+* {{lien|Freitagsspiel|de}}
+* {{l|Fußballspiel|de|sens=[[match]] de [[football]]}}
+* {{lien|Gastspiel|de}}
+* {{lien|Gebärdenspiel|de}}
+* {{lien|Geisterspiel|de}}
+* {{l|Gruppenspiel|de|sens=[[match]] de [[groupe]]}}
+* {{l|Halbfinalspiel|de|sens=[[match]] de [[demi-finale]]}}
+* {{lien|Hallenspiel|de}}
+* {{lien|Handballspiel|de}}
+* {{lien|Handspiel|de}}
+* {{l|Heimspiel|de|sens=[[match]] à [[domicile]]}}
+* {{lien|Hinspiel|de}}
+* {{l|Hochrisikospiel|de|sens=[[jeu]] très [[risqué]]}}
+* {{lien|Hockeyspiel|de}}
+* {{lien|Kasperlespiel|de}}
+* {{lien|Kreisligaspiel|de}}
+* {{lien|Länderspiel|de}}
+* {{lien|Ligaspiel|de}}
+* {{l|Mannschaftsspiel|de|sens=[[jeu]] d’[[équipe]]}}
+* {{lien|Meisterschaftsspiel|de}}
+* {{lien|Montagsspiel|de}}
+* {{lien|Mysterienspiel|de}}
+* {{lien|Nachholspiel|de}}
+* {{lien|Olympische Spiele|de|dif=Olympisches Spiel}}
+* {{lien|Parallelspiel|de}}
+* {{lien|Parteienspiel|de}}
+* {{lien|Partnerspiel|de}}
+* {{lien|Passionsspiel|de}}
+* {{lien|Passspiel|de}}
+* {{lien|Pflichtspiel|de}}
+* {{lien|Planspiel|de}}
+* {{lien|Playoff-Spiel|de}}
+* {{lien|Pokalspiel|de}}
+* {{lien|Pokerspiel|de}}
+* {{lien|Reiterspiel|de}}
+* {{lien|Rückspiel|de}}
+* {{lien|Rugbyspiel|de}}
+* {{lien|Saisonspiel|de}}
+* {{lien|Samstagsspiel|de}}
+* {{lien|Singspiel|de}}
+* {{l|Sommerspiel|de|sens=[[jeu]] d’[[été]] », ''[pl.]'' « [[Jeux olympiques]] d’[[été]]}}
+* {{lien|Sonntagsspiel|de}}
+* {{lien|Spitzenspiel|de}}
+* {{lien|Stierspiel|de}}
+* {{lien|Tennisspiel|de}}
+* {{lien|Theaterspiel|de}}
+* {{lien|Tischtennisspiel|de}}
+* {{lien|Topspiel|de}}
+* {{lien|Trauerspiel|de}}
+* {{lien|Umschaltspiel|de}}
+* {{lien|Viertelfinalspiel|de}}
+* {{lien|Vorrundenspiel|de}}
+* {{lien|Weltmeisterschaftsspiel|de}}
+* {{lien|Weltspiele|de}}
+* {{lien|Wettkampfspiel|de}}
+* {{l|Winterspiel|de|sens=[[jeu]] d’[[hiver]] », ''[pl.]'' « [[Jeux olympiques]] d’[[hiver]]}}
+* {{lien|Zuspiel|de}}
+{{)}}
+{{(|}}
+* {{lien|Anschlag|de}}
+* {{lien|Balalaikaspiel|de}}
+* {{lien|Bogenstrich|de}}
+* {{lien|Flötenspiel|de}}
+* {{lien|Geigenspiel|de}}
+* {{lien|Gitarrespiel|de}}
+* {{l|Glockenspiel|de|sens=[[carillon]] » , [[glockenspiel]]}}
+* {{lien|Klavierspiel|de}}
+* {{lien|Lautenspiel|de}}
+* {{lien|Orgelspiel|de}}
+* {{lien|Schlagzeugspiel|de}}
+* {{lien|Zitherspiel|de}}
+{{)}}
+* {{l|Doppelspiel|de|sens=[[double jeu]]}}
+* {{lien|Hämespiel|de}}
+* {{lien|Vabanquespiel|de}}
+{{(|}}
+* {{lien|Farbenspiel|de}}
+* {{lien|Mienenspiel|de}}
+* {{l|Wasserspiel|de|sens=[[jeu d’eau]] », « [[jeu]] [[aquatique]]}}
+* {{lien|Wechselspiel|de}}
+* {{lien|Wellenspiel|de}}
+{{)}}
+* {{l|Nullsummenspiel|de|sens=[[jeu à somme nulle]]}}
+* {{lien|Vielsummenspiel|de}}
+{{(|}}
+* {{lien|Hörspiel|de}}
+* {{lien|Lustspiel|de}}
+* {{lien|Puppenspiel|de}}
+* {{l|Schauspiel|de|sens=[[pièce de théâtre]] », « [[spectacle]]}}
+* {{lien|Schattenspiel|de}}
+* {{lien|Singspiel|de}}
+{{)}}
+* {{lien|Geduldsspiel|de}}
+* {{lien|Wortspiel|de}}
+{{(|}}
+* {{lien|Casinospiel|de}}
+* {{lien|Darstellungsspiel|de}}
+* {{lien|Entspannungsspiel|de}}
+* {{lien|Friedensspiel|de}}
+* {{lien|Gewinnspiel|de}}
+* {{lien|Helferspiel|de}}
+* {{lien|Intrigenspiel|de}}
+* {{lien|Lernspiel|de}}
+* {{lien|Planspiel|de}}
+* {{lien|Ränkespiel|de}}
+* {{lien|Simulationsspiel|de}}
+* {{lien|Verkehrskasperspiel|de}}
+* {{lien|Wahrnehmungsspiel|de}}
+{{)}}
+
+=== {{S|prononciation}} ===
+* {{écouter|Vienne (Autriche)|ʃpiːl|lang=de|audio=De-at-Spiel.ogg}}
+* {{écouter|Berlin (Allemagne)|ʃpiːl|lang=de|audio=De-Spiel.ogg}}
+* {{écouter|Berlin (Allemagne)|ʃpiːl|lang=de|audio=LL-Q188 (deu)-Sebastian Wallroth-Spiel.wav}}
+
+=== {{S|anagrammes}} ===
+{{voir anagrammes|de}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=de}}
+* {{WP|Spiel (Begriffsklärung)|Spiel|lang=de}}
+
+=== {{S|références}} ===
+{{Références}}
+
+==== {{S|sources}} ====
+* {{R:DWDS|Spiel}}
+* {{R:DWb|Spiel}}
+* {{R:Duden|Spiel}}
+* {{Source-wikt|de|Spiel}}
+
+==== {{S|bibliographie}} ====
+* Larousse - dictionnaire Allemand/Français - Français/Allemand, éd. 1958, p 684.
+* Harrap’s compact – dictionnaire Allemand/Français, éd. 2012, ISBN 978-2-81-870683-1, p 1529. 
+
+[[Catégorie:Jeux en allemand|*]]
+
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|nom|gsw-fr}} ===
+'''Spiel''' {{pron|ɡsw-fr|gsw-fr}}
+# [[jeu|Jeu]].
+
+[[Catégorie:Jeux en alémanique alsacien|*]]

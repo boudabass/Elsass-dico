@@ -1,0 +1,11 @@
+{{vérifier création automatique||gsw-fr}}
+{{voir|alège|alege}}
+
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|verbe|gsw-fr}} ===
+'''àlége'''
+# [[habiller|Habiller]], [[mettre]]
+{{clé de tri|alege}}

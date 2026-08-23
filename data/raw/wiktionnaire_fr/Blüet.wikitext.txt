@@ -1,0 +1,10 @@
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|goh|gsw-fr|mot=bluot}} qui a donné l'allemand moderne [[Blut#Allemand|Blut]].
+
+=== {{S|nom|gsw-fr}} ===
+'''Blüet''' {{pron|b̥lu:t|gsw-fr}} {{n}}
+# [[sang#fr|Sang]].
+
+=== {{S|références}} ===
+*[https://web.archive.org/web/20130906191837/http://www.ami-hebdo.com/elsadico/index.php de Elsässich Web Diktionnair]

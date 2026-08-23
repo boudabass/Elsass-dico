@@ -1,0 +1,7 @@
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|prénom|gsw-fr|genre=m}} ===
+'''Verele''' {{pron||gsw-fr}} {{m}}
+# Prénom (équivalent de [[Xavier]]).

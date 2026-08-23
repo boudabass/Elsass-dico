@@ -1,0 +1,11 @@
+== {{langue|gsw-fr}} ==
+{{ébauche|gsw-fr}}
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|nom|gsw-fr}} ===
+'''èlsasserditsch'''
+# {{lexique|linguistique|gsw-fr}} [[alsacien|Alsacien]].
+
+{{clé de tri|elsasserditsch}}

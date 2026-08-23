@@ -1,0 +1,9 @@
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|verbe|gsw-fr}} ===
+'''g’heje'''
+# [[tomber|Tomber]], [[chuter]]
+
+{{clé de tri|gheje}}

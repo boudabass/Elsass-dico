@@ -1,0 +1,19 @@
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: Cognat avec l’allemand ''{{lien|Karfreitag|de}}''.
+
+=== {{S|nom|gsw-fr}} ===
+'''Kàrfritig''' {{phon||gsw-fr}} {{m}}
+# {{lexique|christianisme|gsw-fr}} [[vendredi saint#fr|Vendredi saint]].
+#* {{exemple | lang=gsw-fr
+ | Àm '''Kàrfritig''', àm Tàg vum Tod Jesu Christi sìn àlli Glocka stumm. Sìe sìn furt uff Rom, heisst's.
+ | Le vendredi saint, jour de la mort de Jésus-Christ, tous les cloches sont muettes. Elles sont parties à Rome, dit-on.
+ | source={{Article |auteur=Adrien {{smcp|Dentz}}|url=https://www.lalsace.fr/actualite/2019/04/20/d-glocka-vu-notre-dame|titre=D’Glocka vu Notre-Dame |périodique=[[w:L’Alsace|L’Alsace]] |date=19 avril 2019|pages=39}}}}
+
+=== {{S|notes}} ===
+* Forme utilisée en bas alémanique du sud, parlé en [[Haute-Alsace#fr|Haute-Alsace]].
+
+=== {{S|références}} ===
+* {{Ouvrage |auteur=André Nisslé|titre=Dictionnaire alsacien-français|chap=[https://www.elsassisch.eu/culture.alsace.pagesperso-orange.archive/page_k.htm K] |para=Kàrfritig}}
+
+[[Catégorie:Calendrier en alémanique alsacien]]

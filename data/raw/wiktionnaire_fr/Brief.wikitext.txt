@@ -1,0 +1,371 @@
+{{voir|brief}}
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: {{siècle|XII}}. Du {{étyl|gmh|de|mot=brief}} et du {{étyl|goh|de|mot=brief}}, issus du {{étyl|la|de|mot=brevis, breve}}. <ref> {{R:Duden|Brief}} </ref> <ref>{{source|Wolfgang {{pc|Pfeifer}}, ''Etymologische Wörterbuch des Deutschen'', Éditions Deutscher Taschenbuch, 1997}} </ref> 
+
+=== {{S|nom|de}} ===
+{{de-nom-m-s-e|gs2=Briefes|ds2=Briefe}}
+[[Fichier:SS Canonbar 'rocket mail' special cover (1934).jpg|vignette|'''Brief''' -lettre]]  
+'''Brief''' {{pron|briːf|de}} {{m}}
+# [[lettre#fr|Lettre]], [[message#fr|message]] [[écrire#fr|écrit]] que l’on [[envoyer#fr|envoie]] par la [[poste#fr|poste]].
+#* {{exemple|Der '''Brief''' ist dringend.|sens=La lettre est urgente.|lang=de}}
+#* {{exemple|Tippen Sie den '''Brief'''?|sens=Tapez-vous la lettre ?|lang=de}}
+#* {{exemple|Unsere '''Briefe''' haben sich gekreuzt.|sens=Nos lettres se sont croisées.|lang=de}}
+#* {{exemple|Für zwei neue Schilder soll die Stadt Sangerhausen 181 000 Euro zahlen. Oberbürgermeister Sven Strauß (SPD) hat einen '''Brief''' an Verkehrsminister Volker Wissing (FDP) geschrieben und ihn (...) davon in Kenntnis gesetzt, was er von diesem bürokratischen Irrsinn hält.|lang=de|sens=La ville de Sangerhausen doit payer 181 000 euros pour deux nouveaux panneaux. Le maire Sven Strauß (SPD) a écrit une lettre au ministre des Transports Volker Wissing (FDP) pour l'informer (...) de ce qu'il pense de cette folie bureaucratique.|source={{périodique|auteur=Titus Arnu|titre=Nächste Ausfahrt: Baumschulgebiet Pinneberg|journal=Süddeutsche Zeitung|date=5 mars 2024|texte=https://www.sueddeutsche.de/panorama/autobahn-braune-hinweisschilder-werbetafeln-tourismus-straubing-abbau-1.6420240}}}}
+#* {{exemple|Beim Licht einer Ölfunzel, während der Wind immer mehr Schneeflocken vorbeitrug, versuchte Aimé Bonpland, einen '''Brief''' nach Hause zu schreiben. Denke er an die vergangenen Monate, so sei ihm, als habe er Dutzende Leben hinter sich, alle einander ähnlich und keines wiederholenswert.|lang=de|sens=A la lumière d’une petite lampe à huile, tandis que le vent faisait voler de plus en plus de flocons de neige, Aimé Bonpland essayait d’écrire une lettre à sa famille : lorsqu’il songeait aux mois écoulés, il lui semblait qu’il avait derrière lui des dizaines de vies se ressemblant toutes et dont aucune ne valait la peine d’être revécue.|source={{ouvrage|auteur={{w|Daniel Kehlmann}}|trad=Juliette Aubert|titre=Die Vermessung der Welt|année=2005|éditeur=Rohwolt|lieu=Hamburg|url=}}}}
+
+==== {{S|diminutifs}} ====
+* {{lien|Briefchen|de}}
+* {{lien|Brieflein|de}}
+
+==== {{S|synonymes}} ====
+* {{lien|Mitteilung|de|sens=communication}}
+* {{lien|Nachricht|sens=information », « nouvelle}}
+* {{lien|Post|de|sens=courrier}}
+
+==== {{S|hyperonymes}} ====
+* {{lien|Mitteilung|de}}
+* {{lien|Nachricht|de}}
+* {{lien|Schriftstück|de}}
+
+==== {{S|hyponymes}} ====
+{{(|}}
+* {{lien|Ablassbrief|de}}
+* {{lien|Absagebrief|de}}
+* {{lien|Abschiedsbrief|de}}
+* {{lien|Adelsbrief|de}}
+* {{lien|Antwortbrief|de|sens=lettre de réponse}}
+* {{lien|Ballonbrief|de}}
+* {{lien|Bedarfsbrief|de}}
+* {{lien|Begleitbrief|de|sens=lettre d'accompagnement}}
+* {{lien|Behördenbrief|de}}
+* {{lien|Beschwerdebrief|sens=lettre de réclamation », « lettre de plainte}}
+* {{lien|Brandbrief|de}}
+* {{lien|Butterbrief|de}}
+* {{lien|Dankesbrief|de|sens=lettre de remerciement}}
+* {{lien|Drohbrief|de}}
+* {{lien|E-Brief|sens=e-mail », « courriel}}
+* {{lien|Eilbrief|de}}
+* {{lien|Einschreibbrief|de}}
+* {{lien|Empfehlungsbrief|de|sens=lettre de recommandation}}
+* {{lien|Entschuldigungsbrief|de|sens=lettre d'excuses}}
+* {{lien|Ermahnungsbrief|de}}
+* {{lien|Erpresserbrief|de|sens=lettre de rançon}}
+* {{lien|Ersttagsbrief|sens=lettre oblitérée premier jour », « enveloppe premier jour}}
+* {{lien|Faltbrief|de}}
+* {{lien|Feldbrief|de}}
+* {{lien|Feldpostbrief|de}}
+* {{lien|Fensterbrief|de}}
+* {{lien|Formbrief|de}}
+* {{lien|Frachtbrief|de}}
+* {{lien|Freigabebrief|de}}
+* {{lien|Gemeindebrief|de}}
+* {{lien|Geschäftsbrief|de}}
+* {{lien|Händlerbrief|de}}
+* {{lien|Hirtenbrief|de}}
+* {{lien|Kaperbrief|de|sens=lettre de marque}}
+* {{lien|Kartenbrief|de|sens=carte-lettre}}
+* {{lien|Kettenbrief|de|sens=chaîne de lettres}}
+* {{lien|Kreisbrief|de}}
+* {{lien|Kurzbrief|de}}
+* {{lien|Liebesbrief|de|sens=lettre d'amour}}
+* {{lien|Luftpostbrief|de}}
+* {{lien|Mahnbrief|de|sens=lettre d'avertissement}}
+* {{lien|Musterbrief|de|sens=modèle de lettre}}
+* {{lien|Pfandbrief|de}}
+* {{lien|Pfarrbrief|de}}
+* {{lien|Rundbrief|de}}
+* {{lien|Sammlerbrief|de}}
+* {{lien|Satzbrief|de}}
+* {{lien|Schimmelbrief|de}}
+* {{lien|Schuldbrief|de}}
+* {{lien|Schutzbrief|de}}
+* {{lien|Serienbrief|de|sens=lettre circulaire}}
+* {{lien|Strafbrief|de}}
+* {{lien|Tauchbootbrief|de}}
+* {{lien|Uriasbrief|de}}
+* {{lien|Wahlbrief|de}}
+* {{lien|Werbebrief|de}}
+* {{lien|Wutbrief|de}}
+* {{lien|Handschreiben|de}}
+* {{lien|Billet|de}}
+* {{lien|Epistel|de}}
+* {{lien|Fahrzeugbrief|de}}
+* {{lien|blauer Brief|de|sens=lettre de démission}}
+* {{lien|offener Brief|de}}
+{{)}}
+
+==== {{S|phrases}} ====
+* {{lien|jemandem Brief und Siegel auf etwas geben|de|dif=jemandem ''Brief'' und Siegel auf etwas geben}}
+
+==== {{S|dérivés}} ====
+{{(|&nbsp;}}
+* {{lien|Aktionärsbrief|de}}
+* {{lien|Ankreuzbrief|de}}
+* {{lien|Apostelbrief|de}}
+* {{lien|Arztbrief|de}}
+* {{lien|Auslandsbrief|de}}
+* {{lien|Bankbrief|de}}
+* {{lien|Bannbrief|de}}
+* {{lien|Beileidsbrief|de}}
+* {{lien|Bestallungsbrief|de}}
+* {{lien|Bettelbrief|de}}
+* {{lien|Binnenbrief|de}}
+* {{lien|Bischofsbrief|de}}
+* {{lien|Bittbrief|de}}
+* {{lien|Börsenbrief|de}}
+* {{lien|Brief und Siegel|de}}
+* {{lien|Briefablage|de}}
+* {{lien|Briefadel|de}}
+* {{lien|Briefadresse|de}}
+* {{lien|Briefaktion|de}}
+* {{lien|Briefanfang|de}}
+* {{lien|Briefantwort|de}}
+* {{lien|Briefauszug|de}}
+* {{lien|Briefband|de}}
+* {{lien|Briefbeförderung|de}}
+* {{lien|Briefbehälter|de}}
+* {{lien|Briefbeschwerer|de|sens=presse-papier}}
+* {{lien|Briefbestellung|de}}
+* {{lien|Briefbeutel|de}}
+* {{lien|Briefblatt|de}}
+* {{lien|Briefblock|de|sens=bloc de papier à lettres}}
+* {{lien|Briefbogen|de|sens=feuille de papier à lettres}}
+* {{lien|Briefbombe|de}}
+* {{lien|Briefbote|de|sens=facteur}}
+* {{lien|Briefbündel|de}}
+* {{lien|Briefchen|de}}
+* {{lien|Briefdreier|de}}
+* {{lien|Briefdrucker|de}} ou {{lien|Briefdruckerin|de}}
+* {{lien|Briefdrucksache|de}}
+* {{lien|Briefeingang|de}}
+* {{lien|Briefeinwurf|de}}
+* {{lien|Briefempfänger|de}}
+* {{lien|Briefentwurf|de}}
+* {{lien|Briefeschreiber|de}}
+* {{lien|Brieffach|de}}
+* {{lien|Brieffenster|de}}
+* {{lien|Briefflut|de}}
+* {{lien|Briefform|de}}
+* {{lien|Briefformat|de}}
+* {{lien|Briefformular|de}}
+* {{lien|Brieffragment|de}}
+* [[Brieffreund]] (''correspondant''), [[Brieffreundin]] (''correspondante'')
+* {{lien|Brieffreundschaft|de}}
+* {{lien|Briefgeheimnis|de}}
+* {{lien|Briefgeld|de|sens=port de lettre}}
+* {{lien|Briefhefter|de}}
+* {{lien|Briefhülle|de}}
+* {{lien|Briefkarte|de|sens=carte-lettre}}
+* {{lien|Briefkasten|de|sens=boite aux lettres}}
+* {{lien|Briefkastenfirma|de}}
+* {{lien|Briefkastenonkel|de}}
+* {{lien|Briefkastenschlitz|de}}
+* {{lien|Briefkastentante|de}}
+* {{lien|Briefklammer|de}}
+* {{lien|Briefkontakt|de}}
+* {{lien|Briefkopf|de|sens=en-tête de lettre}}
+* {{lien|Briefkopie|de}}
+* {{lien|Briefkorb|de}}
+* {{lien|Briefkouvert|de}} ou {{lien|Briefkuvert|de}}
+* {{lien|Briefkreuzer|de}}
+* {{lien|Briefkurs|de}}
+* {{lien|Briefkuvert|de}}
+* {{lien|Brieflein|de}}
+* [[brieflich]] (''par écrit''), (par lettre'')
+* {{lien|Briefliteratur|de}}
+* {{lien|Briefmaler|de}} ou {{lien|Briefmalerin|de}}
+* {{lien|Briefmappe|de}}
+* {{lien|Briefmarder|de}}
+* {{lien|Briefmarke|de|sens=timbre-poste}}
+* {{lien|Briefmarkenalbum|de}}
+* {{lien|Briefmarkenautomat|de}}
+* {{lien|Briefmarkenblock|de}}
+* {{lien|Briefmarkenbogen|de}}
+* {{lien|Briefmarkendruck|de}}
+* {{lien|Briefmarkenentwurf|de}}
+* {{lien|Briefmarkenhändler|de}} ou {{lien|Briefmarkenhändlerin|de}}
+* {{lien|Briefmarkenheftchen|de}}
+* {{lien|Briefmarkenkunde|de|sens=philatélie}}
+* {{lien|Briefmarkensammler|de}} ou {{lien|Briefmarkensammlerin|de|sens= philatéliste}}
+* {{lien|Briefmarkensammlung|de|sens=collection de timbres-poste}}
+* {{lien|Briefmarkenserie|de}}
+* {{lien|Briefmarkt|de}}
+* {{lien|Briefmonopol|de}}
+* {{lien|Briefmuster|de}}
+* {{lien|Brieföffner|de|sens=coupe-papier}}
+* {{lien|Briefordner|de|sens=classeur}}
+* {{lien|Briefpacken|de}}
+* {{lien|Briefpapier|de|sens=papier à lettres}}
+* {{lien|Briefpartner|de}} ou {{lien|Briefpartnerin|de}}
+* {{lien|Briefporto|de|sens=port de lettre}}
+* {{lien|Briefpost|de|sens=poste-aux-lettres}}
+* {{lien|Briefroman|de}}
+* {{lien|Briefrückseite|de}}
+* {{lien|Briefsammlung|de}}
+* {{lien|Briefsammlungen|de}}
+* {{lien|Briefschaften|de|sens=correspondance}}
+* {{lien|Briefschalter|de}}
+* {{lien|Briefschlitz|de}}
+* {{lien|Briefschluss|de}}
+* {{lien|Briefschreiber|de}} ou {{lien|Briefschreiberin|de}}
+* {{lien|Briefschuld|de}}
+* {{lien|Briefseite|de}}
+* {{lien|Briefsendung|de}}
+* {{lien|Briefsiegel|de}}
+* {{lien|Briefsortierer|de}}
+* {{lien|Briefstapel|de}}
+* {{lien|Briefstecher|de}}
+* {{lien|Briefsteller|de}}
+* {{lien|Briefstellerkunst|de}}
+* {{lien|Briefstempel|de}}
+* {{lien|Briefstil|de|sens=style épistolaire}}
+* {{lien|Brieftasche|de|sens=portefeuille}}
+* {{lien|Brieftaube|de|sens=pigeon voyageur}}
+* {{lien|Brieftelegramm|de}}
+* {{lien|Brieftext|de}}
+* [[Briefträger]] (''facteur''), [[Briefträgerin]] (''factrice'')
+* {{lien|Briefumschlag|de|sens=enveloppe}}
+* {{lien|Briefverkehr|de|sens=correspondance}}
+* {{lien|Briefversender|de}} ou {{lien|Briefversenderin|de}}
+* {{lien|Briefvorderseite|de}}
+* {{lien|Briefwaage|de|sens=pèse-lettre}}
+* {{lien|Briefwahl|de|sens=vote par correspondance}}
+* {{lien|Briefwähler|de}} ou {{lien|Briefwählerin|de}}
+* {{lien|Briefwechsel|de|sens=correspondance}}
+* {{lien|Briefwechselliteratur|de}}
+* {{lien|Briefzeile|de}}
+* {{lien|Briefzensur|de}}
+* {{lien|Briefzentrum|de}}
+* [[Briefzusteller]], [[Briefzustellerin]] 
+* {{lien|Briefzustellung|de}}
+* {{lien|Dankbrief|de}}
+* {{lien|Doppelbrief|de}}
+* {{lien|Dunkelmännerbrief|de}}
+* {{lien|E-Briefkasten|de|sens=boite à e-mails}}
+* {{lien|Ehrenbrief|de}}
+* {{lien|Ehrenbürgerbrief|de}}
+* [[Einschreibbrief]], [[Einschreibebrief]] 
+* {{lien|Entlassungsbrief|de}}
+* {{lien|Epheserbrief|de}}
+* {{lien|Erpressungsbrief|de}}
+* {{lien|Expressbrief|de}}
+* {{lien|Facharbeiterbrief|de}}
+* {{lien|Fehdebrief|de}}
+* [[Frachtbrief]] (lettre de voiture'')
+* {{lien|Freibrief|sens=permis », « autorisation}}
+* {{lien|Freiheitsbrief|de}}
+* {{lien|Gadgetbrief|de}}
+* {{lien|Galaterbrief|de}}
+* {{lien|Ganzbrief|de}}
+* {{lien|Geburtstagsbrief|de}}
+* {{lien|Gehilfenbrief|de}}
+* {{lien|Geldbrief|de}}
+* {{lien|Geleitbrief|de}}
+* {{lien|Geleitsbrief|de}}
+* {{lien|Gesellenbrief|de}}
+* {{lien|Gevatterbrief|de}}
+* {{lien|Glückwunschbrief|de}}
+* {{lien|Gnadenbrief|de}}
+* {{lien|Gratulationsbrief|de|sens=lettre de félicitations}}
+* {{lien|Grundbrief|de}}
+* {{lien|Haftbrief|de}}
+* {{lien|Hebräerbrief|de}}
+* {{lien|Hörerbrief|de}}
+* {{lien|Hypothekenbrief|de}}
+* {{lien|Infobrief|de}}
+* {{lien|Inlandsbrief|de}}
+* {{lien|Jakobusbrief|de}}
+* {{lien|Kaufbrief|de}}
+* {{lien|Klagebrief|de}}
+* {{lien|Klöppelbrief|de}}
+* {{lien|Kolosserbrief|de}}
+* {{lien|Kondolenzbrief|de}}
+* {{lien|Korintherbrief|de}}
+* {{lien|Kraftfahrzeugbrief|de}}
+* {{lien|Kreditbrief|de}}
+* {{lien|Kündigungsbrief|de}}
+* {{lien|Lehensbrief|de}}
+* {{lien|Lehnsbrief|de}}
+* {{lien|Lehrbrief|de}}
+* {{lien|Leserbrief|de|sens=courrier des lecteurs}}
+* {{lien|Literaturbrief|de}}
+* {{lien|Luftpostleichtbrief|de}}
+* {{lien|Meisterbrief|de}}
+* {{lien|Messbrief|de}}
+* {{lien|Nadelbrief|de}}
+* {{lien|Neujahrsbrief|de}}
+* {{lien|Originalbrief|de}}
+* {{lien|Ortsbrief|de}}
+* {{lien|Pachtbrief|de}}
+* {{lien|Panisbrief|de}}
+* {{lien|Pastoralbrief|de}}
+* {{lien|Patenbrief|de}}
+* {{lien|Patientenbrief|de}}
+* {{lien|Paulusbrief|de}}
+* {{lien|Petrusbrief|de}}
+* {{lien|Postgirobrief|de}}
+* {{lien|Prämienbrief|de}}
+* {{lien|Privatbrief|de}} (''lettre personnelle''), (''courrier privé'')
+* {{lien|Protestbrief|de}}
+* {{lien|Rohrpostbrief|de}}
+* {{lien|Römerbrief|de}}
+* {{lien|Schatzbrief|de}}
+* {{lien|Scheidebrief|de}}
+* {{lien|Schemabrief|de}}
+* {{lien|Schenkungsbrief|de}}
+* {{lien|Schiffsbrief|de}}
+* {{lien|Schlussbrief|de}}
+* {{lien|Schmähbrief|de}}
+* {{lien|Schreibebrief|de}}
+* {{lien|Sendbrief|de}}
+* {{lien|Sparbrief|de}}
+* {{lien|Stadtbrief|de}}
+* {{lien|Standardbrief|de}}
+* {{lien|Steckbrief|de}}
+* {{lien|Studienbrief|de}}
+* {{lien|Telebrief|de}}
+* {{lien|Telegrafenbrief|de}}
+* {{lien|Telegraphenbrief|de}}
+* {{lien|Trauerbrief|de}}
+* {{lien|Trostbrief|de}}
+* {{lien|Unheilsbrief|de}}
+* {{lien|Unterrichtsbrief|de}}
+* {{lien|verbriefen|de|sens=titriser}}
+* {{lien|Wappenbrief|de}}
+* {{lien|Warnbrief|de}}
+* {{lien|Weihnachtsbrief|de}}
+* {{lien|Zunftbrief|de}}
+{{)}}
+
+=== {{S|prononciation}} ===
+* {{pron|briːf|de}}
+* {{écouter|Vienne (Autriche)|bʁiːf|lang=de|audio=De-at-Brief.ogg}}
+* {{écouter|Berlin (Allemagne)|bʁiːf|lang=de|audio=De-Brief.ogg}}
+* {{écouter|Berlin (Allemagne)|bʁiːf|lang=de|audio=LL-Q188 (deu)-Sebastian Wallroth-Brief.wav}}
+
+=== {{S|références}} ===
+<references />
+
+==== {{S|sources}} ====
+* {{R:Duden|Brief}}
+* {{R:DWDS|Brief}}
+* {{Source-wikt|de|Brief}}
+
+==== {{S|bibliographie}} ====
+* Larousse - Dictionnaire allemand/français – français/allemand , éd. 1958, p 423.
+* Harrap’s – Bordas Dictionnaire allemand/français, éd. 1997, p 63.
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=de}}
+
+[[Catégorie:Lexique en allemand de la philatélie]]
+
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+{{ébauche-étym|gsw-fr}}
+
+=== {{S|nom|gsw-fr}} ===
+'''Brief''' {{pron||gsw-fr}}
+# [[lettre|Lettre]].

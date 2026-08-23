@@ -1,0 +1,10 @@
+{{voir|disch}}
+
+== {{langue|gsw-fr}} ==
+
+=== {{S|étymologie}} ===
+: Apparenté à {{lien|''Tisch''|de|sens=table}} en allemand, du {{étyl|la|gsw-fr|mot=discus}}.
+
+=== {{S|nom|gsw-fr}} ===
+'''Disch'''
+# {{meubles|gsw-fr}} [[table#fr|Table]].

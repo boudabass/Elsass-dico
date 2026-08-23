@@ -1,0 +1,16 @@
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+{{ébauche-étym|gsw-fr}}
+
+=== {{S|nom|gsw-fr}} ===
+'''Beera''' {{pron||gsw-fr}} {{f}}
+# [[poire#fr|Poire]].
+
+==== {{S|variantes dialectales}} ====
+* [[Beer#gsw-fr|Beer]]
+
+=== {{S|références}} ===
+*[https://web.archive.org/web/20130926064641/http://culture.alsace.pagesperso-orange.fr/page_pf.htm Dictionnaire français-alsacien]
+
+[[Catégorie:Fruits en alémanique alsacien]]
+[[Catégorie:Aliments en alémanique alsacien]]

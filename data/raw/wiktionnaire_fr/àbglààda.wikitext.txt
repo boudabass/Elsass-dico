@@ -1,0 +1,11 @@
+{{voir|àbg’lààda}}
+== {{langue|gsw-fr}} ==
+=== {{S|verbe|gsw-fr|flexion}} ===
+'''àbglààda''' {{phon||gsw-fr}}
+# ''Participe passé de ''{{lien|àblààda|gsw-fr}}''.
+
+==== {{S|variantes orthographiques}} ====
+* {{lien|àbg’lààda|gsw-fr}}
+
+==== {{S|notes}} ====
+La graphie ''àbglààda'' correspond à une prononciation usitée en [[Haute-Alsace]].

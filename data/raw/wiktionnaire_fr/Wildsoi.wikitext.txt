@@ -1,0 +1,15 @@
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+"Wild" signifie sauvage, "soï" signifie cochon (équivalent au "Schwein" allemand) 
+
+=== {{S|nom|gsw-fr}} ===
+dr '''Wildsoi''' ({{p}}: d''''Wildsoie''')
+# Le [[sanglier]]
+
+=== {{S|prononciation}} ===
+* {{pron|vɪltsɔɪ|gsw-fr}}
+
+
+
+
+[[Catégorie:Animaux en alémanique alsacien|Wildsoi, dr]]

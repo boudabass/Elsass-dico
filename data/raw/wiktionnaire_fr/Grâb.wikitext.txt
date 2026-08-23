@@ -1,0 +1,12 @@
+{{voir|grab|Grab}}
+
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|nom|gsw-fr}} ===
+'''Grâb''' {{pron||gsw}}
+# [[corbeau|Corbeau]]
+{{clé de tri|grab}}
+
+[[Catégorie:Oiseaux en alémanique alsacien]]

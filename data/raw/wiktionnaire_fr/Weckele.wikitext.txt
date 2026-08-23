@@ -1,0 +1,7 @@
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+:Diminutif de ''[[Wecke]]'' (« pain »).
+
+=== {{S|nom|gsw-fr}} ===
+'''Weckele'''
+# [[tout|Tout]] [[petit]] [[pain]]

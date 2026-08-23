@@ -1,0 +1,122 @@
+== {{langue|fr}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|de|fr|Franz}}.
+
+=== {{S|nom de famille|fr}} ===
+'''Franz''' {{pron|frɑ̃ts|frants|fr}}
+# Nom de famille.
+#*{{exemple|lang=fr}}
+
+==== {{S|traductions}} ====
+{{trad-début}}
+{{trad-fin}}
+
+=== {{S|prénom|fr|genre=m}} ===
+'''Franz''' {{pron|frɑ̃ts|fr}}, {{pron|frants|fr}} {{m}}
+# Équivalent germanique de {{lien|François|fr}}.
+#*{{exemple|lang=fr|{{w|'''Franz''' Kafka}}.}}
+#*{{exemple|lang=fr|{{w|'''Franz''' Liszt}}.}}
+#*{{exemple|lang=fr|{{w|'''Franz''' Schubert}}.}}
+#* {{exemple|lang=fr|
+Les noms qu’il reçut lui furent tous donnés par sa mère, contre le gré de ses proches. Elle voulut qu’il s’appelât Rodolfo, comme le poète de ''La Vie de Bohème'', ce roman français que Monsieur Puccini lisait avec enthousiasme, et puis aussi Ladislas, que lui dictait son affection pour un lointain parent polonais, et enfin '''Franz''', on ne sait trop pourquoi. À cause de Liszt, peut-être…
+|source={{w|Edmonde Charles-Roux}}, ''{{w|Oublier Palerme (roman)|Oublier Palerme}}'', Grasset, 1966}}
+
+==== {{S|traductions}} ====
+{{trad-début}}
+{{trad-fin}}
+
+=== {{S|voir aussi}} ===
+* {{WP}}
+
+[[Catégorie:Noms de famille allemands en français]]
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: De {{lien|''Franziskus''|de}} issu du latin {{lien|''Franciscus''|la}} ; apparenté à {{lien|''Frank''|de}}.
+
+=== {{S|prénom|de|genre=m}} ===
+{{de-nom
+|ns= Franz |np=
+|as= Franz |ap=
+|gs= Franz |gp=
+|ds= Franz |dp=}}
+'''Franz''' {{pron|fʁant͡s|de}} {{m}}
+# {{lien|François|fr}}.
+#*{{exemple|lang=de|{{w|'''Franz''' von Assisi|lang=de}}.|François d’Assise.}}
+#*{{exemple|lang=de|{{w|'''Franz''' Liszt}}.|pas-trad=oui}}
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=de|allemand|fʁant͡s|audio=De-Franz.ogg}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=de}}
+
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|de|gsw-fr|mot=Franz}}.
+
+=== {{S|prénom|gsw-fr|genre=m}} ===
+'''Franz''' {{pron||gsw}} {{m}}
+# {{lien|François|fr}}.
+#*{{exemple|lang=gsw-fr|{{w|'''Franz''' von Assisi|lang=als}}.|François d’Assise.}}
+
+== {{langue|is}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|de|is|mot=Franz}}.
+
+=== {{S|prénom|is|genre=m}} ===
+{{is-décl-prénom}}
+'''Franz''' {{pron||is}} {{m}}
+# {{lien|François|fr}}.
+#*{{exemple|lang=is}}
+
+== {{langue|lb}} ==
+=== {{S|étymologie}} ===
+: {{date|lang=lb}} {{ébauche-étym|lb}}
+{{note noms de famille}}
+
+=== {{S|nom de famille|lb}} ===
+{{lb-inv|}}
+'''Franz''' {{pron||lb}}
+# Nom de famille.
+#* {{exemple|lang=lb}}
+
+=== {{S|prononciation}} ===
+{{ébauche-pron-audio|lb}}
+
+=== {{S|anagrammes}} ===
+{{voir anagrammes|lb}}
+
+=== {{S|références}} ===
+* {{R:Luxemburger Familiennamenbuch}}
+
+== {{langue|sl}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|de|sl|mot=Franz}}.
+
+=== {{S|prénom|sl|genre=m}} ===
+{{sl-décl-nmd|Franz|ani=oui|e=oui}}
+'''Franz''' {{pron||sl}} {{m|a}}
+# {{lien|Franz|fr}}.
+#*{{exemple|lang=sl}}
+
+==== {{S|variantes}} ====
+* {{lien|Franc|sl}}
+
+== {{langue|cs}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|de|cs|mot=Franz}}.
+
+=== {{S|prénom|cs|genre=m}} ===
+{{cs-décl-nom-ma-mou}}
+[[File:Kafka statue Prague.jpg|vignette|Pomník '''Franze '''Kafky v Praze.]]
+'''Franz''' {{pron||cs}} {{m|a}}
+# {{lien|Franz|fr}}.
+#*{{exemple|lang=cs|{{w|'''Franz''' Kafka|lang=cs}}.|pas-trad=oui}}
+#*{{exemple|lang=cs|Pomník '''Franzi''' Kafkovi byl odhalen 4. prosince 2003.|Le monument à Franz Kafka a été inauguré le 4 décembre 2003.}}
+
+==== {{S|synonymes}} ====
+* {{lien|František|cs}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=cs}}

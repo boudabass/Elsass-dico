@@ -1,0 +1,53 @@
+{{voir|brad}}
+
+== {{langue|fr}} ==
+=== {{S|étymologie}} ===
+: Utilisation du mot anglais.
+
+=== {{S|prénom|fr}} ===
+'''Brad''' {{pron||fr}}
+# Prénom masculin anglophone.
+#* {{exemple | lang=fr
+ | Au début de sa campagne, il est tombé sur un petit os, l’Américain '''Brad''' Funk, qui gérait mieux les premières courses.
+ | source=journal ''Le Télégramme'', édition Morlaix, 30 juillet 2022, pages sportives, page 5}}
+#* {{exemple | lang=fr
+ | '''Brad''' Moss, avocat à Washington, n’exclut pas « des facteurs imprévisibles, comme une potentielle loyauté politique » des trois juges nommés par l’ex-locataire de la Maison-Blanche.
+ | source=journal ''20 minutes'', édition Paris-IDF, 15 janvier 2024, page 4}}
+
+=== {{S|anagrammes}} ===
+{{voir anagrammes|fr}}
+
+[[Catégorie:Prénoms masculins en français]]
+
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+{{ébauche-étym|gsw-fr}}
+
+=== {{S|nom|gsw-fr}} ===
+'''Brad''' {{pron||gsw-fr}}
+# [[planche|Planche]]
+
+== {{langue|en}} ==
+=== {{S|étymologie}} ===
+: [[apocope|Apocope]] de [[Bradley]], [[Bradly]], ou [[Bradford]].
+
+=== {{S|prénom|en|genre=m}} ===
+'''Brad''' {{pron|bɹæd|en}}
+# Diminutif de [[Bradley]], [[Bradly]], ou [[Bradford]].
+#* {{exemple|lang=en}}
+
+=== {{S|prononciation}} ===
+* {{écouter|Sud de l'Angleterre (Royaume-Uni)||lang=en|audio=LL-Q1860 (eng)-Vealhurl-Brad.wav}}
+
+=== {{S|anagrammes}} ===
+* [[bard]]
+* [[darb]]
+* [[drab]]
+
+[[Catégorie:Diminutifs de prénoms en anglais]]
+
+== {{langue|br}} ==
+=== {{S|nom propre|br|flexion}} ===
+{{br-forme-mut|Prad|forme=Nom propre}}
+'''Brad''' {{pron|ˈbrɑːt|br}}
+# {{mutation de|Prad|a|br}}.

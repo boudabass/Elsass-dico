@@ -1,0 +1,23 @@
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: Composé de l’adjectif ''{{lien|schwàrz|gsw-fr}}'' (« noir ») et du substantif ''{{lien|Àrwaiter|gsw-fr}}'' (« travailleur »). Cognat avec l’allemand ''{{lien|Schwarzarbeiter|de}}''.
+
+=== {{S|nom|gsw-fr}} ===
+'''Schwàrzàrwaiter''' {{m}} {{phon||gsw-fr}} (pluriel : ''[[Schwàrzàrwaiter#Forme de nom commun|Schwàrzàrwaiter]]'')
+# {{lexique|travail|gsw-fr}} [[travailleur au noir#fr|Travailleur au noir]], travailleur non déclaré.
+#* {{exemple | lang=gsw-fr
+ | Ar hàt sina Sìtzflächa un si Karaasch vu '''Schwàrzàrwaiter''' loo bàuia.
+ | Il a fait construire sa terrasse et son garage par des travailleurs au noir.}}
+
+=== {{S|nom|gsw-fr|flexion}} ===
+'''Schwàrzàrwaiter''' {{phon||gsw-fr}}
+# ''Pluriel de'' ''{{lien|Schwàrzàrwaiter|gsw-fr}}.
+
+==== {{S|vocabulaire}} ====
+* {{lien|Schwàrzàrwet|gsw-fr}} — travail au noir, travail non déclaré
+
+==== {{S|notes}} ====
+Forme du bas-alémanique du Sud, parlé en Haute-Alsace.
+
+=== {{S|références}} ===
+* {{Ouvrage|langue=fr|prénom=André |nom=Nisslé|titre=D’ Lehrschtuwa: Dictionnaire français-alsacien / Wärterbüach elsassisch franzesch|éditeur=Association Culture et Patrimoine d’Alsace|ISBN=978-2-36702-058-7|page=810|para=Schwàrzàrwaiter|année=2015}}.

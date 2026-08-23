@@ -1,0 +1,11 @@
+{{vérifier création automatique||gsw-fr}}
+{{voir|warte}}
+
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|verbe|gsw-fr}} ===
+'''wàrte'''
+# [[attendre|Attendre]], [[patienter]]
+{{clé de tri|warte}}

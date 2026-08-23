@@ -1,0 +1,19 @@
+{{voir/appetit}}
+
+== {{langue|gsw-fr}} ==
+=== {{S|nom|gsw-fr}} ===
+'''appetit'''
+# {{variante de|Appetit|gsw-fr}}.
+
+== {{langue|da}} ==
+=== {{S|étymologie}} ===
+:Du {{étyl|la|da|mot=appetitus}}.
+
+=== {{S|nom|da}} ===
+'''appetit''' {{c}}
+# [[appétit|Appétit]].
+
+== {{langue|la}} ==
+=== {{S|verbe|la|flexion}} ===
+'''appetit''' {{pron||la}}
+# ''Troisième personne du singulier du présent de l’indicatif actif de ''[[appeto#la|appetō]].

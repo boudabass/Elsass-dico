@@ -1,0 +1,11 @@
+== {{langue|gsw-fr}} ==
+{{ébauche|gsw-fr}}
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|adjectif|gsw-fr}} ===
+'''àppetitlich''' {{pron||gsw-fr}}
+# [[appétissant|Appétissant]].
+
+{{clé de tri|appetitlich}}

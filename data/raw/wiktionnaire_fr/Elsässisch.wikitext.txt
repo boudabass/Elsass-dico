@@ -1,0 +1,39 @@
+{{voir|Elsassisch|Elsässisch|elsässisch}}
+
+== {{langue|gsw-fr}} ==
+{{ébauche|gsw-fr}}
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|nom|gsw-fr}} ===
+'''Elsässisch'''
+# [[alsacien|Alsacien]] (langue).
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: {{substantivation de|elsässisch|type=adjectif|lang=de|sens=[[alsacien]]|m=1}}.
+
+=== {{S|nom|de}} ===
+{{de-nom-langue|dialecte=1}}
+'''Elsässisch''' {{n}} {{au singulier uniquement|de}}
+# {{dialectes|de}} [[alsacien#fr|Alsacien]] ([[dialecte]]).
+#* {{exemple | lang=de
+| Die meisten Deutschschweizer können '''Elsässisch''' mindestens teilweise verstehen.
+| La plupart des Suisses allemands ont une compréhension au moins partielle de l’alsacien.}}
+
+==== {{S|apparentés}} ====
+* {{l|Elsass|de|sens=[[Alsace]]}}
+* {{l|Elsässer|de|sens=[[Alsacien]]}}
+* {{l|Elsässerin|de|sens=[[Alsacienne]]}}
+* {{l|elsässisch|de|sens=[[alsacien]]}}
+
+=== {{S|prononciation}} ===
+* {{écouter|Allemagne (Berlin)|ˈɛlzɛsɪʃ|lang=de|audio=De-Elsässisch.ogg}}
+
+=== {{S|voir}} ===
+* {{WP|lang=de}}
+
+=== {{S|références}} ===
+* {{R:DWDS|Elsässisch}}
+* {{R:Duden|Elsässisch}}

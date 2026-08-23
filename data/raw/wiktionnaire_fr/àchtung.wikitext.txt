@@ -1,0 +1,13 @@
+{{voir|Achtung}}
+
+== {{langue|gsw-fr}} ==
+{{ébauche|gsw-fr}}
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|interjection|gsw-fr}} ===
+'''àchtung'''
+# [[attention|Attention]] !
+
+{{clé de tri|achtung}}

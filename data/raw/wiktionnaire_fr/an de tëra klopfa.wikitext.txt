@@ -1,0 +1,9 @@
+{{vérifier création automatique||gsw-fr}}
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|verbe|gsw-fr}} ===
+'''an de tëra klopfa'''
+# [[frapper|Frapper]] à la [[porte]]
+{{clé de tri|an de tera klopfa}}

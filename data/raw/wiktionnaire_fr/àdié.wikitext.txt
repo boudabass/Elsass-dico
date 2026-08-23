@@ -1,0 +1,16 @@
+{{voir/adie}}
+
+== {{langue|gsw-fr}} ==
+
+=== {{S|étymologie}} ===
+:Du {{étyl|fr|gsw-fr|mot=adieu}}.
+
+=== {{S|interjection|gsw-fr}} ===
+'''àdié'''
+# [[au revoir]].
+
+==== {{S|variantes orthographiques}} ====
+* [[àdje]]
+* [[àdjee]]
+
+{{clé de tri|adie}}

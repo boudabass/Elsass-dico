@@ -1,0 +1,10 @@
+== {{langue|gsw-fr}} ==
+{{ébauche|gsw-fr}}
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|nom|gsw-fr}} ===
+'''tàuisig''' {{pron||gsw-fr}}
+# Le nombre [[mille#fr|1000]].
+
+[[Catégorie:Nombres en alémanique alsacien]]

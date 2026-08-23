@@ -1,0 +1,14 @@
+{{voir/bache}}
+
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|verbe|gsw-fr}} ===
+'''bàche''' {{pron||gsw-fr}}
+# {{lexique|cuisine|gsw-fr}} [[cuire|Cuire]] au [[four]].
+
+=== {{S|références}} ===
+*[https://web.archive.org/web/20160729185912/http://culture.alsace.pagesperso-orange.fr/page_cf.htm Dictionnaire français-alsacien]
+*[https://web.archive.org/web/20130906191837/http://www.ami-hebdo.com/elsadico/index.php de Elsässich Web Diktionnair]
+{{clé de tri|bache}}

@@ -1,0 +1,18 @@
+== {{langue|gsw-fr}} ==
+{{ébauche|gsw-fr}}
+=== {{S|étymologie}} ===
+: Composé de ''{{lien|Fàrb|gsw-fr}}'' (« couleur ») et du suffixe adjectival ''{{lien|-loos|gsw-fr}}'' indicant une absence. Cognat avec l’allemand ''{{lien|farblos|de}}''.
+
+=== {{S|adjectif|gsw-fr}} ===
+'''fàrbloos''' {{phon||gsw-fr}}
+# [[incolore#fr|Incolore]].
+
+==== {{S|antonymes}} ====
+* {{lien|fàrbig|gsw-fr}} — coloré
+* {{lien|bfàrbt|gsw-fr}} — coloré
+
+==== {{S|notes}} ====
+La graphie ''fàrbloos'' correspond à une prononciation usitée en [[Haute-Alsace]].
+
+=== {{S|références}} ===
+* [https://web.archive.org/web/20160413101630/http://culture.alsace.pagesperso-orange.fr/page_if.htm « I »], ''Dictionnaire français-alsacien'', sur ''culture.alsace.pagesperso-orange.fr'' (archive).

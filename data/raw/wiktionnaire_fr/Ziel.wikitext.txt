@@ -1,0 +1,167 @@
+{{voir|ziel}}
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|goh|de|mot=zil}}, attesté pour le {{siècle2|VIII}} siècle et du {{étyl|gmh|de|mot=til}} ou ''{{lien|tēl|gmh}}''.<ref>{{R:DWDS|Ziel}}</ref>
+
+=== {{S|nom|de}} ===
+{{de-nom-n-s-e|gse=opt|dse=opt}}
+'''Ziel''' {{pron|tsiːl|de}} {{n}}
+# [[but|But]], [[objectif]].
+#* {{exemple|Wir haben uns das '''Ziel''' gesetzt, den Umsatz in diesem Jahr um 10% zu steigern.|lang=de|sens=Nous nous sommes fixé pour objectif d'augmenter le chiffre d'affaires de 10% cette année.}}
+#* {{exemple|Getrieben vom '''Ziel''', möglichst schnell vom russischen Gas wegzukommen, war Bundeswirtschaftsminister Robert Habeck am Wochenende in Katar.|lang=de|sens=Poussé par l'objectif de s'affranchir le plus rapidement possible du gaz russe, le ministre allemand de l'économie Robert Habeck s'est rendu au Qatar ce week-end.|source={{périodique|auteur=Bernward Janzing|titre=Eine heikle Einkaufstour|journal=taz|date=20 mars 2022|texte=https://taz.de/Robert-Habeck-zu-Besuch-in-Katar/!5842662/}}}}
+#* {{exemple|Das Schreiben strengt mich an, aber auf eine gute Art. Es ist mein tägliches Krafttraining. Es tut mir gut, ein '''Ziel''' zu haben, ein echtes '''Ziel'''.|lang=de|sens=Écrire me fatigue, mais de manière positive. C’est ma musculation quotidienne. Avoir un objectif, un but véritable, est pour moi une bonne chose.|source={{ouvrage|auteur={{w|Melanie Raabe}}|trad=Céline Maurice|titre=Die Falle|année=2015|éditeur=btb Verlag|url=}}}}
+#* {{exemple|'''Ziel''' des heute vorgestellten Aktionsplans für den KI-Kontinent ist es, auf dem Gebiet der künstlichen Intelligenz (KI) weltweit führend zu werden.|lang=de|sens=L'objectif du plan d'action pour un continent de l'IA présenté aujourd'hui est de faire de l'Europe un acteur mondial de premier plan dans le domaine de l'intelligence artificielle (IA).|source={{périodique|auteur=|titre=Kommission strebt mit ehrgeizigem Aktionsplan für den KI-Kontinent nach europäischer Führungsrolle im KI-Bereich|journal=Europäische Kommission|date=9 avril 2025|texte=https://ec.europa.eu/commission/presscorner/detail/de/ip_25_1013}}}}
+#[[destination|Destination]] d'un voyage.
+#* {{exemple|Mein '''Ziel''' ist Australien.|lang=de|sens=Ma destination est l'Australie.}}
+#* {{exemple|Kai L. hat Humor und liest gerne satirische Texte. Oft muss er laut über die Gemeinheiten lachen, mit denen Satiriker gesellschaftliche Missstände, religiösen Wahn und Politiker durch den Kakao ziehen. Wenn jedoch eine Sache, die der 33-Jährige selbst vertritt, '''Ziel''' des Spottes wird, dann ist Schluss mit lustig.|lang=de|sens=Kai L. a de l’humour et aime lire des textes satiriques. Souvent, il ne peut s’empêcher de rire à gorge déployée des méchancetés avec lesquelles les satiristes se moquent des maux de la société, les délires religieux et les hommes politiques.  Mais lorsqu'une cause que le jeune homme de 33 ans défend lui-même devient la cible de moqueries, c'est fini la rigolade.|source={{périodique|auteur=(ssi, dan)|titre=Mann findet Satire super, solange sie sich über nichts lustig macht, was er gut findet|journal=Der Postillon|date=31 mars 2016|texte=https://www.der-postillon.com/2016/03/mann-findet-satire-super-solange.html}}}}
+# {{lien|but|fr|dif=But}}, {{lien|point|fr}} que l’on vise quand on {{lien|tirer|fr|dif=tire}} une {{lien|arme|fr}}.
+#* {{exemple|Unmittelbar neben den 30 Schießbahnen befindet sich die Strafrunde, die man im Biathlonsport besuchen muss, wenn man die '''Ziel'''scheiben nicht getroffen hat. Die Ausnahme von dieser Regel ist einerseits die Staffel, weil man drei Extrapatronen hat, um nochmals die '''Ziel'''e anzuvisieren und andererseits (...)|lang=de|sens=Juste à côté des 30 pistes de tir se trouve la boucle de pénalité auquel on doit se rendre en biathlon si l’on n’a pas atteint les cibles. L'exception à cette règle est d’une part le relais, car on dispose de trois cartouches supplémentaires pour viser à nouveau les cibles et (...)|source={{périodique|auteur=|titre=Strafrunde im Biathlonrennen|journal=Sportlexikon|date=6 avril 2025|texte=https://www.sportlexikon.com/biathlon-strafrunde}}}}
+# {{lexique|sport|de}} {{lien|ligne|fr|dif=Ligne}} d'{{lien|arrivée|fr}}, de {{lien|but|fr}}.
+# {{lien|délai|fr|dif=Délai}} de {{lien|paiement|fr}}.
+
+==== {{S|synonymes}} ====
+{{(|}}
+* {{lien|Absicht|de}}
+* {{lien|Destination|de}}
+* {{lien|Intention|de}}
+* {{lien|Vorhaben|de}}
+{{)}}
+
+==== {{S|antonymes}} ====
+* {{lien|Alternative|de}}
+* {{lien|Feind|de}}
+* {{lien|Nicht-Ziel|de}}
+
+==== {{S|hyponymes}} ====
+{{(|}}
+* {{lien|-Grad-Ziel|de}}
+* {{lien|Angriffsziel|de}}
+* {{lien|Anschlagsziel|de}}
+* {{lien|Arbeitsziel|de}}
+* {{lien|Aufklärungsziel|de}}
+* {{lien|Ausbildungsziel|de}}
+* {{l|Ausflugsziel|de|sens=[[but]] d’[[excursion]]}}
+* {{lien|Ausweichziel|de}}
+* {{lien|Berufsziel|de}}
+* {{lien|Bildungsziel|de}}
+* {{lien|Brandschutzziel|de}}
+* {{lien|Dreimonatsziel|de}}
+* {{lien|Einkaufsziel|de}}
+* {{lien|Endziel|de}}
+* {{lien|Erziehungsziel|de}}
+* {{lien|Etappenziel|de}}
+* {{l|Fahrziel|de|sens=[[destination]]}}
+* {{lien|Fahrtziel|de}}
+* {{l|Fernziel|de|sens=[[but]] [[lointain]] », « [[objectif]] [[à long terme]]}}
+* {{l|Forschungsziel|de|sens=[[objectif]] de [[recherche]]}}
+* {{lien|Gesellschaftsziel|de}}
+* {{lien|Gesundheitsziel|de}}
+* {{l|Gewinnziel|de|sens=[[objectif]] de [[profit]]s}}
+* {{lien|Inflationsziel|de}}
+* {{lien|IS-Ziel|de}}
+* {{lien|Klassenziel|de}}
+* {{l|Kriegsziel|de|sens=[[objectif]] de [[guerre]]}}
+* {{lien|Laufziel|de}}
+* {{l|Leitziel|de|sens=[[objectif]] de [[référence]]}}
+* {{lien|Lernziel|de}}
+* {{lien|Lüftungsziel|de}}
+* {{lien|Marktanteilsziel|de}}
+* {{lien|Marschziel|de}}
+* {{l|Minimalziel|de|sens=[[objectif]] [[minimal]]}}
+* {{lien|Modeeinkaufsziel|de}}
+* {{lien|Nachhaltigkeitsziel|de}}
+* {{l|Nahziel|de|sens=[[objectif]] [[à court terme]]}}
+* {{lien|Primärziel|de}}
+* {{l|Reiseziel|de|sens=[[destination]] de [[voyage]]}}
+* {{lien|Reviewziel|de}}
+* {{lien|Schutzziel|de}}
+* {{lien|Staatsziel|de}}
+* {{lien|Tagesziel|de}}
+* {{lien|Terrorziel|de}}
+* {{lien|Testziel|de}}
+* {{lien|Umsatzziel|de}}
+* {{l|Urlaubsziel|de|sens=[[destination]] de [[vacances]]}}
+* {{lien|Hauptziel|de}}
+* {{lien|Spielziel|de}}
+* {{lien|Hartziel|de}}
+* {{lien|Weichziel|de}}
+{{)}}
+
+==== {{S|phrases}} ====
+* {{lien|auf Ziel|de|dif=auf ''Ziel''}}
+
+==== {{S|dérivés}} ====
+{{(|Substantifs [[hyponyme]]s en ''-ziel''}}
+* {{l|Erziehungsziel|de}}
+* {{l|Fahrtziel|de}}
+* {{l|IS-Ziel|de}}
+* {{l|Lüftungsziel|de}}
+* {{l|Start-Ziel-Gerade|de}}
+* {{l|Zahlungsziel|de|sens=[[terme]] d’[[échéance]]}}
+{{)}}
+{{(|Autres substantifs}}
+* {{l|Zielachse|de}}
+* {{l|Zielbahnhof|de|sens=[[gare]] de [[destination]]}}
+* {{l|Zielband|de|sens=[[fil d’arrivée]]}}
+* {{l|Zieleinlauf|de}}
+* {{l|Zieleinrichtung|de}}
+* {{l|Zielfahndung|de|sens=[[recherche]]s [[ciblé]]es}}
+* {{l|Zielfehler|de}}
+* {{l|Zielentfernung|de|sens=[[distance de visée]]}}
+* {{l|Zielfernrohr|de|sens=[[lunette de visée]]}}
+* {{l|Zielfisch|de|sens=[[poisson]]-[[cible]]}}
+* {{l|Zielfoto|de|sens=[[photo-finish]]}}
+* {{l|Zielgenauigkeit|de}}
+* {{l|Zielgerade|de|sens=[[dernière ligne droite]]}}
+* {{l|Zielgruppe|de|sens=[[groupe cible]]}}
+* {{l|Zielkauf|de|sens=[[achat]] [[à terme]]}}
+* {{l|Zielland|de|sens=[[pays]] de [[destination]]}}
+* {{l|Ziellinie|de|sens=[[ligne d’arrivée]]}}
+* {{l|Zielmenge|de}}
+* {{l|Zielort|de|sens=[[destination]]}}
+* {{l|Zielperson|de|sens=[[personne]] [[cible]]}}
+* {{l|Zielscheibe|de|sens=[[cible]]}}
+* {{l|Zielschiff|de|sens=[[bateau]] [[cible]]}}
+* {{l|Zielsetzung|de|sens=[[objectif]] », « [[finalité]] », « [[but]]}}
+* {{l|Zielsprache|de|sens=[[langue]] [[cible]]}}
+* {{l|zielstrebig|de|sens=[[déterminé]] » ; « [[avec]] [[détermination]] », « [[avec]] [[sérieux]]}}
+* {{l|Zielstrebigkeit|de|sens=[[détermination]]}}
+* {{l|Zielstrecke|de|sens=[[ligne d’arrivée]]}}
+* {{l|Zielvereinbarung|de|sens=[[détermination]] d'[[objectifs]]}}
+* {{l|Zielvorgabe|de|sens=[[objectif]]}}
+* {{l|Zielwasser|de}}
+* {{l|Zielwert|de|sens=[[valeur cible]]}}
+{{)}}
+{{(|Autres dérivés}}
+* {{l|auf Ziel|de}}
+* {{l|zielen|de|sens=[[viser]]}}
+* {{l|zielführend|de|sens=[[menant au but]]}}
+* {{l|zielgenau|de|sens=[[précisément]] », « [[avec précision]]}}
+* {{l|zielgerichtet|de|sens=[[faire|fait]] dans un [[but]] [[précis]] », « [[dans un but précis]]}}
+* {{l|ziellos|de|sens=[[sans but]] », « qui n’a pas de [[but]]}}
+* {{l|zielorientiert|de|sens=[[ciblé]] » ; [[de manière]] [[ciblé]]e}}
+* {{l|zielsicher|de|sens=[[fin tireur]] », « [[fine tireuse]]}}
+{{)}}
+
+=== {{S|prononciation}} ===
+* {{écouter|{{DE|nocat=1}}|t͡siːl|lang=de|audio=De-Ziel.ogg}}
+* {{écouter|Berlin (Allemagne)|t͡siːl|lang=de|audio=De-Ziel2.ogg}}
+
+=== {{S|références}} ===
+{{Références}}
+* {{R:DWDS|Ziel}}
+* {{R:Duden|Ziel}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=de}}
+
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|nom|gsw-fr}} ===
+'''Ziel''' {{pron||gsw-fr}}
+# [[cible|Cible]].
+
+[[Catégorie:Lexique en allemand du capitalisme]]

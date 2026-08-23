@@ -1,0 +1,10 @@
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|verbe|gsw-fr}} ===
+'''schnétzle'''
+# [[sculpter|Sculpter]]
+# [[mettre|Mettre]] en [[petit]] [[morceau]]
+
+{{clé de tri|schnetzle}}

@@ -1,0 +1,16 @@
+== {{langue|fr}} ==
+=== {{S|verbe|fr|flexion}} ===
+{{fr-verbe-flexion|scheider|ind.ps.3s=oui}}
+'''scheida''' {{pron|ʃɛ.da|fr}}
+# ''Troisième personne du singulier du passé simple du verbe'' [[scheider]].
+
+=== {{S|anagrammes}} ===
+{{voir anagrammes|fr}}
+
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|verbe|gsw-fr}} ===
+'''scheida'''
+# [[divorcer|Divorcer]].

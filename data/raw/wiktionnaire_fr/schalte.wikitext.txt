@@ -1,0 +1,20 @@
+{{vérifier création automatique||gsw-fr}}
+
+== {{langue|de}} ==
+=== {{S|verbe|de|flexion}} ===
+'''schalte''' {{pron|ˈʃaltə|de}}
+# ''Deuxième personne du singulier de l’impératif présent de'' {{lien|schalten|de}}.
+# ''Première personne du singulier du présent de l’indicatif de'' {{lien|schalten|de}}.
+# ''Première personne du singulier du subjonctif présent I de'' {{lien|schalten|de}}.
+# ''Troisième personne du singulier du subjonctif présent I de'' {{lien|schalten|de}}.
+
+=== {{S|prononciation}} ===
+* {{écouter|Berlin|ˈʃaltə|lang=de|audio=De-schalte.ogg}}
+
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|verbe|gsw-fr}} ===
+'''schalte'''
+# [[gronder|Gronder]] (qn)

@@ -1,0 +1,35 @@
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|nom|gsw-fr}} ===
+'''Glatscher''' {{pron||gsw-fr}} {{m}} (pluriel : ''[[Glatscher#Forme de nom commun|Glatscher]]'')
+# {{lexique|géographie|glaciologie|gsw-fr}} [[glacier#fr|Glacier]].
+#* {{exemple | lang=gsw-fr
+ | — Wo häsch dü dann dìe gànze Dinos har? fröjt d’Sophie.<br>(...)<br>— Üss Eier, wie ich ùffeme '''Glatscher''' ìn Südàmerikà gfùnde hàb, erklärt se wittersch.
+ | — Mais d’où viennent tous tes dinosaures ? demande Sophie.<br>[...]<br>— Ils proviennent d’œufs que j’ai trouvés sur un glacier en Amérique du Sud, explique-t-elle encore [la grand-mère, NDLT].
+ | source={{Ouvrage|prénom1=Jörg|nom1=Ihle|prénom2=Dominik|nom2=Hochwald|prénom3=Petra|nom3=Fritz|trad=Joël Falcoz|éditeur=Éditions du Signe|ISBN=978-2-7468-4148-2|année=2021|lire en ligne=https://fliphtml5.com/drwnw/eind/basic|titre=Mamie Freudenreich|page=14|consulté le=5 avril 2022}}.}}
+#* {{exemple | lang=gsw-fr
+ | (...) Ehr kenne d'r Rundgàng vom Gaschney màche, do hàn ehr fer 5-6 Stendle, gemetli durich d'r àlte '''Glatscher'''.
+ | Vous pouvez faire le tour du Gaschney, là vous en avez pour 5 ou 6 heures, en passant tranquillement par le vieux glacier.
+ | source={{Lien web|auteur=Pierre Nuss|en ligne le=22 juin 2017|url=https://www.francebleu.fr/emissions/l-alsace-vue-par-le-net/elsass/le-gaschney|titre=Le Gaschney|site=L’Alsace vue par le net|éditeur={{w|France Bleu Elsass}}|consulté le=5 avril 2022}}.}}
+
+==== {{S|variantes dialectales}} ====
+* {{lien|Gletscher|gsw-fr}}
+
+==== {{S|dérivés}} ====
+* {{lien|Glatscherbrànd|gsw-fr}} — dermite des neiges
+* {{lien|Glatschergroll|gsw-fr}} — moraine
+* {{lien|Glatscheriss|gsw-fr}} — sérac
+* {{lien|Glatscherruckzug|gsw-fr}} — déglaciation
+* {{lien|Glatschersee|gsw-fr}} — lac de glace
+* {{lien|Glatscherspàlt|gsw-fr}}, {{lien|Glatscherschpàlt|gsw-fr}} — crevasse
+* {{lien|Glatscherwàsser|gsw-fr}} — eau de fonte, eau glaciaire
+
+==== {{S|notes}} ====
+Forme du bas-alémanique du Sud, parlé en Haute-Alsace. Également attesté dans des variantes plus septentrionales.
+
+=== {{S|références}} ===
+* {{Ouvrage|langue=fr|prénom=André |nom=Nisslé|titre=D’ Lehrschtuwa: Dictionnaire français-alsacien / Wärterbüach elsassisch franzesch|éditeur=Association Culture et Patrimoine d’Alsace|ISBN=978-2-36702-058-7|page=620|para=Glatscher|année=2015}}.
+* {{Lien web|url=https://www.alsatext.eu/vocabulaire_alsacien_Mulhouse.pdf|titre=Vocabulaire alsacien : région de Mulhouse|format=pdf|site=alsatext.eu|page=58|citation=Glatscher|consulté le=5 avril 2022}}
+* {{Lien web|url=https://www.olcalsace.org/sites/default/files/lexique_meteo_air.pdf|titre=Petit lexique français-alsacien-allemand de la météo et de la qualité de l’air|format=pdf|éditeur=Office pour la Langue et le Cultures d’Alsace et de Moselle|page=22|citation=glacier|consulté le=5 avril 2022}}

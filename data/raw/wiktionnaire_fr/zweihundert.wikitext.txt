@@ -1,0 +1,41 @@
+== {{langue|de}} ==
+{{numéraux allemands}}
+=== {{S|étymologie}} ===
+: {{composé de|zwei|sens1=deux|hundert|sens2=cent|lang=de|m=1}}.
+
+=== {{S|adjectif numéral|de}} ===
+'''zweihundert''' {{pron|ˈt͡svaɪ̯ˌhʊndɐt|de}}      
+# [[deux-cents#fr|Deux-cents]].
+#* ''Ich ziehe '''zweihundert''' Euro am Geldautomaten.
+#*: Je retire deux-cents euros du distributeur de monnaie.
+#* {{exemple|Für fünf Jobs werden '''zweihundert''' Bewerber eingeladen. Da kann man sich seine Chancen ausrechnen.|lang=de|sens=Pour cinq emplois, deux cents candidats sont invités. On peut donc évaluer  ses chances.|source={{périodique|auteur=Florian Müller|titre=Euch braucht keiner|journal=Süddeutsche Zeitung|date=20 juin 2023|texte=https://www.sueddeutsche.de/projekte/artikel/politik/china-xi-jinping-jugendarbeitslosigkeit-kommunistische-partei-e368467/}}}}
+
+==== {{S|dérivés}} ====
+{{(|}}
+* [[Zweihunderter]]
+* [[Zweihunderteuroschein]]
+* [[Zweihundertfrankennote]]
+* [[Zweihundertfrankenschein]]
+* [[Zweihundertjahrfeier]]
+* [[Zweihundertmarkschein]]
+* [[Zweihundertprozentig]]
+* [[zweihundertste]]
+* [[zweihunderttausend]]
+{{)}}
+
+=== {{S|prononciation}} ===
+* {{écouter|Berlin|ˈt͡svaɪ̯ˌhʊndɐt|lang=de|audio=De-zweihundert.ogg}}
+
+==== {{S|sources}} ====
+* {{R:Duden|zweihundert}}
+* {{R:DWDS|zweihundert}}
+* {{Source-wikt|de|zweihundert}}
+==== {{S|bibliographie}} ====
+* Harrap’s – Bordas Dictionnaire allemand/français, éd. 1997, p 357.
+
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+=== {{S|adjectif numéral|gsw-fr}} ===
+'''zweihundert'''
+# [[deux|Deux]] [[cents]]

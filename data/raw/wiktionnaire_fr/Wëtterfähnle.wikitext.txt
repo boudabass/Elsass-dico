@@ -1,0 +1,5 @@
+== {{langue|gsw-fr}} ==
+=== {{S|nom|gsw-fr|flexion}} ===
+'''Wëtterfähnle'''
+# Pluriel de '''[[Wëtterfähnel]]'''
+{{clé de tri|wetterfahnle}}

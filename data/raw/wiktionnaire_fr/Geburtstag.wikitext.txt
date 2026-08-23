@@ -1,0 +1,82 @@
+{{voir|geburtstag}}
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: {{composé de|Geburt|sens1=naissance|Tag|sens2=jour|lang=de|m=1}}, avec l'interfixe ''[[-s-]]''.
+=== {{S|nom|de}} ===
+{{de-nom-m-s-e|gs2=Geburtstages|ds2=Geburtstage}}
+'''Geburtstag''' {{pron|ɡəˈbuːɐ̯t͡sˌtaːk|de}} ou {{pron|ɡəˈbʊʁt͡sˌtaːk|de}} {{m}}
+# [[anniversaire#fr|Anniversaire]] (du jour de naissance d'un être).
+#* {{exemple | lang=de
+ | Zum '''Geburtstag''' viel Glück !'', ''Alles Gute zum '''Geburtstag''' !
+ | Joyeux anniversaire !''}}
+#* {{exemple|Es war an Gabis '''Geburtstag''' vor vier Jahren. Sie waren in einem Lokal, Anja* saß ihnen mit ihrem Partner gegenüber.|lang=de|sens=C'était l'anniversaire de Gabi, il y a quatre ans. Ils étaient dans un restaurant, Anja* était assise en face d'eux avec son partenaire.|source={{périodique|auteur=Lisa Breit|titre=Mama, Papa, es ist aus!|journal=Der Standard|date=23 mars 2022|texte=https://www.derstandard.at/story/2000134306172/mama-papa-es-ist-aus}}}}
+#* {{exemple|(Die britische Königin hat) einen offiziellen '''Geburtstag'''. Dieser steigt normalerweise am zweiten Samstag im Juni.|lang=de|sens=(La reine britannique a) un anniversaire officiel. Celui-ci a lieu normalement le deuxième samedi de juin.|source={{périodique|auteur=Sebastian Borger|titre=Queen Elizabeth II wird 96: Langsamer Abschied von einer Ikone|journal=Der Standard|date=21 avril 2022|texte=https://www.derstandard.at/story/2000135029989/queen-elizabeth-ii-wird-96-langsamer-abschied-von-einer-ikone}}}}
+#* {{exemple|Kleinkinder, also Reisende bis einen Tag vor ihrem sechsten '''Geburtstag''', können in Zügen und Bussen der ÖBB kostenlos und ohne Ticket in Begleitung einer oder eines Erwachsenen mitfahren.|lang=de|sens=Les enfants en bas âge, c’est-à-dire les voyageurs jusqu’à un jour avant leur sixième anniversaire, peuvent voyager gratuitement et sans billet dans les trains et les bus de l’ÖBB s’ils sont accompagnés d’un ou d’une adulte.|source={{périodique|auteur=Markus Böhm|titre=Für Anfänger und Wiedereinsteiger: Tipps für entspanntes Zugreisen|journal=Der Standard|date=30 juin 2022|texte=https://www.derstandard.at/story/2000137003541/fuer-anfaenger-und-wiedereinsteiger-tipps-fuer-entspanntes-zugreisen}}}}
+# [[jour|Jour]] de [[naissance]], [[date de naissance]].
+#* {{exemple|lang=de}}
+
+==== {{S|abréviations}} ====
+* [[Geb.]]
+* [[Geb.-T.]]
+* [[Geb.-Tag]]
+
+==== {{S|quasi-synonymes}} ====
+* [[Jahrestag]] (''anniversaire'')
+
+==== {{S|dérivés}} ====
+{{(|&nbsp;}}
+* [[Geburtstagsbowle]]
+* [[Geburtstagsbrauch]]
+* [[Geburtstagsbrief]]
+* [[Geburtstagsdatum]]
+* [[Geburtstagsfeier]] (''fête d'anniversaire'')
+* [[Geburtstagsfest]]
+* [[Geburtstagsfete]]
+* [[Geburtstagsfoto]] (''photo d'anniversaire'')
+* [[Geburtstagsgedicht]]
+* [[Geburtstagsgeschenk]] (''cadeau d'anniversaire'')
+* [[Geburtstagsglückwunsch]]
+* [[Geburtstagsgratulation]]
+* [[Geburtstagsgruß]]
+* [[Geburtstagskalender]]
+* [[Geburtstagskarte]]
+* [[Geburtstagskind]] (''celui qui fête son anniversaire'')
+* [[Geburtstagskuchen]] (''gâteau d'anniversaire'')
+* [[Geburtstagslied]]
+* [[Geburtstagsparadoxon]]
+* [[Geburtstagsparty]] (''fête d'anniversaire'')
+* [[Geburtstagsring]]
+* [[Geburtstagsschmaus]]
+* [[Geburtstagsständchen]]
+* [[Geburtstagsstimmung]]
+* [[Geburtstagsstrauß]]
+* [[Geburtstagstisch]]
+* [[Geburtstagstorte]] (''gâteau d'anniversaire'')
+* [[Geburtstagsüberraschung]]
+* [[Geburtstagswunsch]]
+* [[Kindergeburtstag]]
+{{)}}
+
+=== {{S|prononciation}} ===
+* {{écouter|Vienne|ɡəˈbuːɐ̯t͡sˌtaːk|lang=de|audio=De-at-Geburtstag.ogg}}
+* {{écouter|Berlin|ɡəˈbuːɐ̯t͡sˌtaːk|lang=de|audio=De-Geburtstag.ogg}}
+* {{écouter|Berlin|ɡəˈbuːɐ̯t͡sˌtaːk|lang=de|audio=De-Geburtstag2.ogg}}
+
+=== {{S|références}} ===
+==== {{S|sources}} ====
+* {{R:DWDS|Geburtstag}}
+* {{R:Duden|Geburtstag}}
+* {{Source-wikt|de|Geburtstag }}
+==== {{S|bibliographie}} ====
+* Harrap’s  de poche – Bordas Dictionnaire allemand/français, éd. 1997, ISBN 0-245-50308-0, p 114.
+
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|nom|gsw-fr}} ===
+'''Geburtstag'''
+# [[anniversaire|Anniversaire]]
+
+[[Catégorie:Calendrier en allemand]]

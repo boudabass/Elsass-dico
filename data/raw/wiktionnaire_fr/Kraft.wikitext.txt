@@ -1,0 +1,272 @@
+{{voir|kraft}}
+
+== {{langue|fr}} ==
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|fr|mot=Kraft}}.
+
+=== {{S|nom de famille|fr}} ===
+'''Kraft''' {{pron||fr}} {{mf}}
+# Nom de famille allemand.
+#* {{exemple | lang=fr
+ | L’école classique, attachée aux traditions du XVIIIe siècle, eut pour représentants principaux Pehr '''Kraft''', élève de David, Fredrik Westin, peintre d’allégories, le sculpteur Byström, auteur de ''Junon'' et ''Hercule enfant''.
+ | source=Clovis Lamarre, L. Gourraigne, ''Suède et Norwége et l’Exposition de 1878'', 1878, page 105}}
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|goh|de|mot=kraft}}, attesté pour le {{siècle2|VIII}} siècle, et du {{étyl|gmh|de|mot=kraft}}.<ref>{{R:DWDS|Kraft}}</ref>
+: Du {{étyl|goh|de|kraft}}. Apparenté au néerlandais ''{{lien|kracht|nl}}'' et à l’anglais ''{{lien|craft|en}}''.
+
+=== {{S|nom|de}} ===
+{{de-nom-f-e|ns=Kraft|np=Kräfte}}
+'''Kraft''' {{pron|kʁaft|de}} {{f}}
+# [[force|Force]].
+#* {{exemple|Seine (Solschenizyns) Ausbürgerung machte jedoch eines deutlich und verdross den aufbrausenden Podgorny ganz zu Recht so sehr: Dem sowjetischen System war die '''Kraft''' und die Lust ausgegangen, Angst einzuflößen; von nun an würde es die Zähne fletschen, ohne selbst an seine Drohgebärden zu glauben, und statt die unbeugsamen Geister zu exekutieren, würde es sie lieber wegschicken, damit sie der Teufel anderswo hole.|lang=de|sens=Ce que montre cependant son expulsion, ce qui chagrinait tant, et à si juste titre, le bouillant Podgorny, c’est que le système soviétique avait perdu le goût et la force de faire peur, qu’il montrait désormais les dents sans plus y croire vraiment et qu’au lieu de persécuter les esprits indociles il préférait les envoyer se faire pendre ailleurs.|source={{ouvrage|auteur={{w|Emmanuel Carrère}}|trad=Claudia Hamm|titre=Limonow|année=2012|éditeur=MSB Matthes & Seitz Berlin Verlagsgesellschaft|url=}}}}
+#* {{exemple|Ich habe keine '''Kraft''' in Armen und Beinen. Ich versuche es noch einmal, aber es ist, als kämen die schwachen Befehle meines Gehirns nicht bei meinen Gliedmaßen an.|lang=de|sens=Je n’ai plus de force dans les bras ni les jambes. J’essaie encore, mais les faibles ordres envoyés par mon cerveau ne semblent pas atteindre mes membres.|source={{ouvrage|auteur={{w|Melanie Raabe}}|trad=Céline Maurice|titre=Die Falle|année=2015|éditeur=btb Verlag|url=}}}}
+#* {{exemple|Er schlug mit aller '''Kraft''' zu. Die Frau stürzte zu Boden, schaffte es, sich halb hochzurappeln, und versuchte in Panik zu entkommen, hatte aber nicht den Hauch einer Chance.|lang=de|sens=Il frappa de toutes ses forces. La femme s’effondra, parvint à se redresser à moitié et tenta de s’enfuir, paniquée, mais elle n’avait pas l’ombre d’une chance.|source={{ouvrage|auteur={{w|Melanie Raabe}}|trad=Céline Maurice|titre=Die Falle|année=2015|éditeur=btb Verlag|url=}}}}
+# {{lexique|physique|de}} [[force|Force]].
+#* {{exemple|Die Einheit der '''Kraft''' wurde nach Isaac Newton benannt.|lang=de|sens=L’unité de force a été nommée d’après Isaac Newton.}}
+# [[énergie|Énergie]].
+# [[pouvoir#fr|Pouvoir]], [[capabilité]].
+#* {{exemple|(mein Gehirn) ersann die farbenfrohsten Abenteuer für mich, tropische Regenwälder mit sprechenden Tieren. Städte aus kunterbuntem Glas, bevölkert von Menschen mit magischen '''Kräften'''.|lang=de|sens=Il inventait pour moi les aventures les plus colorées, des forêts tropicales avec des animaux parlants, des villes en verre multicolore peuplées d’habitants aux pouvoirs magiques.|source={{ouvrage|auteur={{w|Melanie Raabe}}|trad=Céline Maurice|titre=Die Falle|année=|éditeur=btb Verlag|url=}}}}
+# {{lien|soldat|fr|dif=Soldat}}, {{lien|troupes|fr}} ou autres personnes sous un {{lien|commando|fr}}.
+#* {{exemple|Der Fund der Bombe hatte jedenfalls einen Großeinsatz zur Folge: 40 '''Kräfte''' der Polizei, 50 Feuerwehrleute aus Wörgl mit mehreren Fahrzeugen sowie Besatzungen mehrer Rettungswagen waren zugegen.|lang=de|sens=La découverte de la bombe a en tout cas donné lieu à une intervention massive : 40 forces de police, 50 pompiers de Wörgl avec plusieurs véhicules ainsi que des équipages de plusieurs ambulances étaient présents.|source={{périodique|auteur=(APA)|titre=250-Kilo-Kriegsbombe in Tirol entschärft, Bahnverkehr wieder aufgenommen|journal=Der Standard|date=23 avril 2025|texte=https://www.derstandard.at/story/3000000266917/zugsperre-und-evakuierung-nach-fund-von-kriegsrelikt-in-tirol}}}}
+# {{lien|efficacité|fr|dif=Efficacité}}.
+# {{lien|vigueur|fr|dif=Vigueur}}.
+# {{lexique|marine|de}} {{lien|vitesse|fr|dif=Vitesse}}, {{lien|accélération|fr}}.
+# {{lien|salarié|fr|dif=Salarié}}, {{lien|fonctionnaire|fr}}.
+# {{lien|force|fr|dif=Force}}, {{lien|facteur|fr}} (d’une évolution).
+
+==== {{S|synonymes}} ====
+* (1.) [[Stärke]]
+
+==== {{S|antonymes}} ====
+* (1.) [[Schwäche]]
+
+==== {{S|hyponymes}} ====
+{{(|}}
+* {{lien|Abwehrkraft|de}}
+* {{l|Atomkraft|de|sens=[[énergie nucléaire]]}}
+* {{lien|Anziehungskraft|de}}
+* {{lien|Auflagerkraft|de}}
+* {{lien|Auftriebskraft|de}}
+* {{lien|Bremskraft|de}}
+* {{lien|Druckkraft|de}}
+* {{lien|Durchschlagskraft|de}}
+* {{lien|Fliehkraft|de}}
+* {{lien|Gewichtskraft|de}}
+* {{lien|Gravitationskraft|de}}
+* {{lien|Höchstkraft|de}}
+* {{lien|Kaufkraft|de}}
+* {{lien|Kohlekraft|de}}
+* {{lien|Lorentzkraft|de}}
+* {{lien|Massenkraft|de}}
+* {{lien|Maximalkraft|de}}
+* {{lien|Normalkraft|de}}
+* {{lien|Saugkraft|de}}
+* {{lien|Schaumkraft|de}}
+* {{lien|Scheinkraft|de}}
+* {{lien|Schnellkraft|de}}
+* {{lien|Scherkraft|de}}
+* {{lien|Schreckkraft|de}}
+* {{lien|Schubkraft|de}}
+* {{lien|Schusskraft|de}}
+* {{l|Schwerkraft|de|sens=[[gravité]]}}
+* {{lien|Schwungkraft|de}}
+* {{lien|Skatingkraft|de}}
+* {{lien|Solarkraft|de}}
+* {{lien|Sonnenkraft|de}}
+* {{lien|Spannkraft|de}}
+* {{lien|Speicherkraft|de}}
+* {{lien|Sprengkraft|de}}
+* {{lien|Stoßkraft|de}}
+* {{lien|Tragkraft|de}}
+* {{l|Van-der-Waals-Kraft|de|sens=[[force de Van der Waals]]}}
+* {{lien|Wasserkraft|de}}
+* {{lien|Wirkkraft|de}}
+* {{l|Windkraft|de|sens=[[énergie éolienne]]}}
+* {{l|Zentrifugalkraft|de|sens=[[force centrifuge]]}}
+* {{lien|Zentripetalkraft|de}}
+* {{lien|Zerstörungskraft|de}}
+* {{l|Zugkraft|de|sens=[[force de traction]] », « [[attraction]]}}
+* {{lien|Zwangskraft|de}}
+{{)}}
+{{(|}}
+* {{lien|Ausdauerkraft|de}}
+* {{lien|Entschlusskraft|de}}
+* {{lien|Geisteskraft|de}}
+* {{lien|Kampfkraft|de}}
+* {{lien|Körperkraft|de}}
+* {{lien|Manneskraft|de}}
+* {{lien|Menschenkraft|de}}
+* {{lien|Muskelkraft|de}}
+* {{lien|Nervenkraft|de}}
+* {{lien|Schaffenskraft|de}}
+* {{lien|Schlagkraft|de}}
+* {{lien|Schöpferkraft|de}}
+* {{lien|Seelenkraft|de}}
+* {{lien|Sehkraft|de}}
+* {{lien|Selbstheilungskraft|de}}
+* {{lien|Sprungkraft|de}}
+* {{lien|Stimmkraft|de}}
+* {{lien|Tatkraft|de}}
+* {{l|Überzeugungskraft|de|sens=[[force]] de [[conviction]]}}
+* {{lien|Urteilskraft|de}}
+* {{lien|Verstandeskraft|de}}
+* {{lien|Vorstellungskraft|de}}
+* {{lien|Willenskraft|de}}
+* {{lien|Zeugungskraft|de}}
+{{)}}
+{{(|}}
+* {{lien|Heilkraft|de}}
+* {{lien|Gesetzeskraft|de}}
+* {{lien|Innovationskraft|de}}
+* {{lien|Lebenskraft|de}}
+* {{lien|Leuchtkraft|de}}
+* {{lien|Reinigungskraft|de}}
+* {{lien|Selbstreinigungskraft|de}}
+* {{lien|Strahlkraft|de}}
+* {{lien|Suggestionskraft|de}}
+* {{lien|Suggestivkraft|de}}
+* {{lien|Süßkraft|de}}
+* {{lien|Symbolkraft|de}}
+* {{lien|Waschkraft|de}}
+{{)}}
+{{(|}}
+* {{lien|ABM-Kraft|de}}
+* {{lien|Arbeitskraft|de}}
+* {{lien|Bürokraft|de}}
+* {{lien|Einsatzkraft|de}}
+* {{lien|Ersatzkraft|de}}
+* {{lien|Fachkraft|de}}
+* {{lien|Feuerwehrkraft|de}}
+* {{lien|Führungskraft|de}}
+* {{lien|Hilfskraft|de}}
+* {{lien|Kassenkraft|de}}
+* {{lien|Lehrkraft|de}}
+* {{lien|Ortskraft|de}}
+* {{lien|Polizeikraft|de}}
+* {{lien|Putzkraft|de}}
+* {{lien|Reinigungskraft|de}}
+* {{lien|Rettungskraft|de}}
+* {{lien|Schreibkraft|de}}
+* {{lien|Sicherheitskraft|de}}
+* {{lien|Servicekraft|de}}
+* {{lien|Spitzenkraft|de}}
+* {{lien|Streitkraft|de}}
+* {{lien|WEGA-Kraft|de}}
+{{)}}
+
+==== {{S|dérivés}} ====
+{{(|Substantifs en ''-kraft'' / ''-Kraft''}}
+* {{l|Arbeitskraft|de}}
+* {{l|Anziehungskraft|de}}
+* {{l|Auflagerkraft|de}}
+* {{l|Auftriebskraft|de}}
+* {{l|Ausdauerkraft|de}}
+* {{l|Aussagekraft|de}}
+* {{l|Bremskraft|de}}
+* {{l|Bürokraft|de}}
+* {{l|Druckkraft|de}}
+* {{l|Einsatzkraft|de}}
+* {{l|Ersatzkraft|de}}
+* {{l|Fachkraft|de}}
+* {{l|Farbkraft|de}}
+* {{l|Gewichtskraft|de}}
+* {{l|Gezeitenkraftwerk|de}}
+* {{l|Gluonenkraft|de}}
+* {{l|Heilkraft|de}}
+* {{l|Hilfskraft|de}}
+* {{l|Höchstkraft|de}}
+* {{l|Kampfkraft|de}}
+* {{l|Kassenkraft|de}}
+* {{l|Kaufkraft|de}}
+* {{l|Kernkraft|de}}
+* {{l|Körperkraft|de}}
+* {{l|Lebenskraft|de}}
+* {{l|Lorentzkraft|de}}
+* {{l|Manneskraft|de}}
+* {{l|Massenkraft|de}}
+* {{l|Maximalkraft|de}}
+* {{l|Pflegekraft|de}}
+* {{l|Putzkraft|de}}
+* {{l|Reinigungskraft|de}}
+* {{l|Scheinkraft|de}}
+* {{l|Schnellkraft|de}}
+* {{l|Scherkraft|de}}
+* {{l|Schreckkraft|de}}
+* {{l|Schreibkraft|de}}
+* {{l|Sicherheitskraft|de}}
+* {{l|Spannkraft|de}}
+* {{l|Spitzenkraft|de}}
+* {{l|Sprungkraft|de}}
+* {{l|Streitkraft|de}}
+* {{l|Tatkraft|de}}
+* {{l|Vorstellungskraft|de}}
+* {{l|Wasserkraft|de}}
+* {{l|Widerstandskraft|de}}
+* {{l|Willenskraft|de}}
+* {{l|Wirkkraft|de}}
+* {{l|Zerstörungskraft|de}}
+* {{l|Zwangskraft|de}}
+{{)}}
+{{(|Autres substantifs}}
+* {{l|Kraftanlage|de|sens=[[centrale électrique]]}}
+* {{l|Kraftaufwand|de}}
+* {{l|Kraftfahrzeug|de|sens=[[véhicule automobile]]}}
+* {{l|Kraftfahrzeugkennzeichen|de}}
+* {{l|Kraftfahrzeugsteuer|de}}
+* {{l|Kraftgas|de}}
+* {{l|Kraftgesetz|de}}
+* {{l|Kraftfahrstraße|de}}
+* {{l|Kraftfahrzeug|de}}
+* {{l|Kraftgrößenverfahren|de}}
+* {{l|Kraftmeier|de}}
+* {{l|Kraftpost|de}}
+* {{l|Kraftprobe|de}}
+* {{l|Kraftprotz|de}}
+* {{l|Kraftrad|de}}
+* {{l|Kraftsport|de}}
+* {{l|Kraftstoff|de|sens=[[carburant]]}}
+* {{l|Krafttraining|de|sens=[[musculation]]}}
+* {{l|Kraftübertragung|de}}
+* {{l|Kraftvergeudung|de}}
+* {{l|Kraftverkehr|de}}
+* {{l|Kraftverlust|de}}
+* {{l|Kraftwagen|de|sens=[[véhicule automobile]]}}
+* {{l|Kraftwerk|de|sens=[[centrale électrique]]}}
+{{)}}
+{{(|Autres dérivés}}
+* {{l|kräftig|de|sens=[[fort]] », « [[puissant]] », « [[vigoureux]] » ; « [[vigoureusement]]}}
+* {{l|kräftigen|de|sens=[[vitaliser]] », « [[affermir]]}} – ''(aussi réflexif)''
+* {{l|kraftlos|de|sens=[[faible]] ; « [[faiblement]]}}
+* {{l|kraftraubend|de}}
+* {{l|kraftschonend|de}}
+* {{l|kraftvoll|de|sens=[[puissant]] », « [[vigoureux]]}}
+* {{l|verkraften|de|sens=[[supporter]] », « [[endurer]] », « [[faire face]]}}
+{{)}}
+
+==== {{S|phrases}} ====
+* {{lien|ohne Saft und Kraft|de}}
+* {{lien|wo rohe Kräfte sinnlos walten|de}}
+
+=== {{S|prononciation}} ===
+* {{écouter|Vienne (Autriche)|kʁaft|lang=de|audio=De-at-Kraft.ogg}}
+* {{écouter|Berlin (Allemagne)|kʁaft|lang=de|audio=De-Kraft.ogg}}
+
+=== {{S|références}} ===
+{{Références}}
+* {{R:DWDS|Kraft}}
+* ''Duden'' : [https://web.archive.org/web/20170222212652/http://www.duden.de/rechtschreibung/kraft Kraft]
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=de}}
+
+[[Catégorie:Noms de famille allemands en français]]
+
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|nom|gsw-fr}} ===
+'''Kraft''' {{pron||gsw-fr}}
+# [[force|Force]], [[vigueur]], [[énergie]], [[puissance]].

@@ -1,0 +1,70 @@
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: Adjectif {{composé de|Moment|sens1=[[moment]]|-an|sens2=[[-ané]]|sens=[[momentané]]|lang=de}}.
+
+=== {{S|adjectif|de}} ===
+{{de-adj|momentan|comparable=non}}
+'''momentan''' {{pron|momɛnˈtaːn|de}}
+# [[momentané|Momentané]] : [[transitoire]], qui ne [[durer|dure]] qu’un [[court]] [[moment]].
+#* {{exemple
+|Trotz '''momentaner''' Schwierigkeiten bin ich bezüglich der langfristigen Entwicklung optimistisch.
+|Malgré des difficultés momentanées, je suis optimiste concernant l’évolution à long terme.
+|lang=de}}
+# [[actuel|Actuel]], [[présent]] : qui [[correspondre|correspond]] à la [[situation]] du [[moment]].
+#* {{exemple
+|Die '''momentane''' Lage ist gut, aber man darf sich keinesfalls auf seinen Lorbeeren ausruhen!
+|La situation actuelle est bonne, mais il ne faut absolument pas se reposer sur ses lauriers !
+|lang=de}}
+
+==== {{S|synonymes}} ====
+* {{lien|aktuell|sens=[[actuel]]}} ''(2)''
+* {{lien|augenblicklich|de}} ''(1, 2)''
+* {{lien|derzeitig|sens=[[actuel]]}} ''(2)''
+* {{lien|gegenwärtig|sens=[[présent]]}} ''(2)''
+* {{lien|jetzig|sens=[[actuel]]}} ''(2)''
+
+==== {{S|antonymes}} ====
+* {{lien|damalig|sens=[[passé]]}} ''(2)''
+* {{lien|dauerhaft|sens=[[persistant]]}} ''(1)''
+* {{lien|ehemalig|sens=[[passé]]}} ''(2)''
+* {{lien|einstig|sens=[[passé]]}} ''(2)''
+* {{lien|fortdauernd|sens=[[persistant]]}} ''(1)''
+* {{lien|früher|sens=[[passé]]}} ''(2)''
+* {{lien|langfristig|sens=[[à long terme]]}} ''(1)''
+* {{lien|permanent|sens=[[permanent]]}} ''(1)''
+* {{lien|zukünftig|sens=[[futur]]}} ''(2)''
+
+==== {{S|dérivés}} ====
+* {{lien|Momentanwert|sens=[[valeur instantanée]]}}
+
+=== {{S|adverbe|de}} ===
+'''momentan''' {{pron|momɛnˈtaːn|de}}
+# [[moment|Momentanément]] : [[actuellement]], pendant un [[court]] [[moment]].
+
+==== {{S|synonymes}} ====
+* {{lien|augenblicklich|de}}
+
+==== {{S|antonymes}} ====
+* {{lien|damals|de|sens=[[alors]]}} ''(en un temps passé)''
+* {{lien|ehemals|de|sens=[[autrefois]]}}
+* {{lien|einst|de|sens=[[jadis]]}}
+* {{lien|immer|de|sens=[[toujours]]}}
+* {{lien|nachher|de|sens=[[plus tard]]}}
+* {{lien|später|de|sens=[[plus tard]]}}
+* {{lien|vorher|de|sens=[[auparavant]]}}
+
+=== {{S|prononciation}} ===
+* {{écouter|{{AT|nocat=1}}|momɛnˈtaːn|de||audio=De-at-momentan.ogg}}
+* {{écouter|Allemagne (Berlin)|momɛnˈtaːn|de|audio=De-momentan.ogg}}
+
+=== {{S|références}} ===
+* {{R:DWDS|momentan}}
+* {{R:Duden|momentan}}
+
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|nom|gsw-fr}} ===
+'''momentan'''
+# En ce [[moment]].

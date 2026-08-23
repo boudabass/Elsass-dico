@@ -1,0 +1,14 @@
+== {{langue|gsw-fr}} ==
+{{ébauche|gsw-fr}}
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|verbe|gsw-fr}} ===
+'''wähla'''
+# [[adopter]].
+
+==== {{S|variantes orthographiques}} ====
+* üswähl
+
+{{clé de tri|wahla}}

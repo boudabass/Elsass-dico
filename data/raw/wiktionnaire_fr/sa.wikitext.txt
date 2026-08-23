@@ -1,0 +1,719 @@
+{{voir/sa}}
+
+== {{langue|conv}} ==
+=== {{S|symbole|conv}} ===
+'''sa''' {{invar}}
+# {{lexique|linguistique|conv}} [[code#fr|Code]] ISO 639-1 (alpha-2) du '''[[sanskrit]]'''.
+
+== {{langue|fr}} ==
+=== {{S|étymologie}} ===
+: ''([[sa#fr-adj-pos|Adjectif possessif]])'' Du {{étyl|la|fr|mot=sua}}, féminin de ''[[suus]]'' « [[son]] », pronom possessif.
+: ''([[#fr-nom|Nom]])'' {{ébauche-étym|fr}}
+
+=== {{S|déterminant possessif|fr}} ===
+{{fr-accord-mixte|ms=son|mp=ses|fs=sa|fp=ses|pms=sɔ̃|pmp=sɛ|pmp2=se|pfs=sa|pfp=sɛ|pfp2=se}}
+'''sa''' {{pron|sa|fr}} {{f}} {{s}}
+# Déterminant utilisé pour rendre l’idée de possession d’un objet ayant un rapport avec la personne dont on parle.
+#* {{exemple | lang=fr | Tu as vu '''sa''' jupe ?}}
+#* {{exemple | lang=fr | A-t-il pensé à prendre '''sa''' clé ?}}
+
+===== {{S|notes}} =====
+: Ce mot était précédemment grammaticalement rangé dans les « adjectifs possessifs », on trouve encore cette dénomination dans quelques dictionnaires et grammaires éditées aujourd’hui.
+
+==== {{S|vocabulaire}} ====
+{{déterminants possessifs/fr}}
+
+==== {{S|traductions}} ====
+{{cf|lang=fr|son#fr-adj-pos{{!}}son}}.
+
+=== {{S|nom|fr}} ===
+'''sa''' {{pron|sa|fr}} {{m}} {{s}}
+# [[langue#fr|Langue]] océanienne parlée au [[Vanuatu]] dans le [[sud]] de l’île de [[Pentecôte]], qui a pour code ISO 639-3 [[sax]].
+#* {{exemple|lang=fr}}
+
+==== {{S|traductions}} ====
+{{trad-début}}
+* {{T|en}} : {{trad+|en|Sa}}
+* {{T|vls}} : {{trad|vls|ze}}
+* {{T|it}} : {{trad+|it|sua}}
+* {{T|avk}} : {{trad|avk|Sa ava}}
+{{trad-fin}}
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=fr|France <!-- précisez svp la ville ou la région -->|sa|audio=Fr-sa.ogg}}
+* {{écouter|lang=fr|Canada (Shawinigan)||audio=LL-Q150 (fra)-DenisdeShawi-sa.wav}}
+* {{écouter|Cornimont (France)||lang=fr|audio=LL-Q150 (fra)-Poslovitch-sa.wav}}
+* {{écouter|Québec (Canada)||lang=fr|audio=LL-Q150 (fra)-Estrie-sa.wav}}
+* {{écouter|Vendée (France)||lang=fr|audio=LL-Q150 (fra)-Sartus85-sa.wav}}
+
+=== {{S|anagrammes}} ===
+{{voir anagrammes|fr}}
+=== {{S|voir aussi}} ===
+* {{WP}}
+
+=== {{S|références}} ===
+==== {{S|sources}} ====
+{{Références}}
+* {{Source-w|fr|sa (langue)|69864998}}
+
+[[Catégorie:Langues en français]]
+
+== {{langue|mtb}} ==
+=== {{S|étymologie}} ===
+: {{date|lang=mtb}} {{ébauche-étym|mtb}}
+
+=== {{S|nom|mtb}} ===
+'''sa''' {{pron||mtb}}
+# {{lexique|anatomie|mtb}} [[main#fr|Main]].
+#* {{exemple|lang=mtb}}
+
+=== {{S|prononciation}} ===
+{{ébauche-pron-audio|mtb}}
+
+[[Catégorie:agni morofoué de Cote d’Ivoire]]
+
+== {{langue|sq}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|sq}}
+
+=== {{S|adjectif|sq}} ===
+'''sa''' {{invariable}}
+# [[combien#fr|Combien]] de, [[quelle]] [[quantité]] de.
+#* {{exemple|lang=sq|'''Sa''' herë në ditë?|Combien de fois par jour ?}}
+
+=== {{S|pronom|sq}} ===
+{| class="flextable
+|+ Déclinaison
+! Cas
+! Pluriel
+|-
+! Nominatif
+| rowspan=2 | {{lien m|sa|sq}}
+|-
+! Accusatif
+|-
+! Datif
+| rowspan=2 | {{lien m|save|sq}}
+|-
+! Ablatif
+|}
+'''sa'''
+# [[combien#fr|Combien]].
+#* {{exemple|lang=sq|'''Sa''' kushton?|Combien ça coûte ?}}
+#* {{exemple|lang=sq|'''Save''' u keni thënë?|À combien l'avez-vous dit ?}}
+
+=== {{S|prononciation}} ===
+* {{pron|ˈsa|sq}}
+
+=== {{S|références}} ===
+* {{Source-wikt|sq|sa}}
+
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|pronom personnel|gsw-fr}} ===
+'''sa''' {{pron||gsw-fr}}
+# [[ils#fr|Ils]].
+#* {{exemple|lang=gsw-fr}}
+
+== {{langue|bcr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|bcr}}
+
+=== {{S|nom|bcr}} ===
+'''sa''' {{pron||bcr}}
+# {{lexique|astronomie|bcr}} [[soleil#fr|Soleil]].
+#* {{exemple|lang=bcr}}
+
+== {{langue|bm}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|bm}}
+
+=== {{S|nom|bm}} ===
+'''sa''' {{pron|sa|bm}}
+# {{lexique|mort|bm}} [[mort#fr|Mort]] (fin de la vie).
+#* {{exemple|lang=bm}}
+# {{animaux|bm}} [[serpent#fr|Serpent]].
+#* {{exemple|lang=bm}}
+
+=== {{S|verbe|bm}} ===
+'''sa''' {{pron||bm}}
+# [[mourir#fr|Mourir]].
+#* {{exemple|lang=bm}}
+
+[[Catégorie:Serpents en bambara|*]]
+
+== {{langue|bci}} ==
+{{ébauche|bci}}
+=== {{S|étymologie}} ===
+: {{ébauche-étym|bci}}
+
+=== {{S|nom|bci}} ===
+'''sa''' {{pron||bci}}
+# [[main#fr|Main]].
+#* '''sa''' bɛ.
+#*: La main gauche.
+
+=== {{S|prononciation}} ===
+* {{écouter|||niveau=bon|lang=bci|audio=LL-Q35107 (bci)-Aristidek5maya-sa.wav}}
+* {{écouter|Cocody (Côte d'Ivoire)||niveau=moyen|lang=bci|audio=LL-Q35107 (bci)-Laurekarell-sa.wav}}
+* {{écouter|||lang=bci|audio=LL-Q35107 (bci)-Koukfranck-sa.wav}}
+
+== {{langue|brm}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|brm}}
+
+=== {{S|nom|brm}} ===
+'''sa''' {{pron||brm}}
+# [[couteau#fr|Couteau]].
+
+=== {{S|références}} ===
+* {{R:Brugger1912|page=84}}
+
+== {{langue|ca}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|ca|sanus|dif=sānus}}.
+
+=== {{S|adjectif|ca}} ===
+{{ca-accord-mixte|ms=sa|fs=sana|mp=sans|fp=sanes}}
+'''sa''' {{pron||ca}} {{m}}
+# [[sain#fr|Sain]].
+#* {{exemple|lang=ca}}
+
+==== {{S|dérivés}} ====
+* {{lien|sa i estalvi|ca}} (sauf et sain)
+
+=== {{S|prononciation}} ===
+* {{écouter|El Prat de Llobregat (Espagne)||lang=ca|audio=LL-Q7026 (cat)-Unjoanqualsevol-sa.wav}}
+
+== {{langue|chp}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|chp}}
+
+=== {{S|nom|chp}} ===
+'''sa''' {{pron||chp}} {{m}}
+# {{lexique|astronomie|chp}} [[soleil#fr|Soleil]].
+#* {{exemple|lang=chp}}
+# {{par analogie|chp}} {{lexique|horlogerie|chp}} [[montre]] ([[horloge]]).
+#* {{exemple|lang=chp}}
+
+==== {{S|dérivés}} ====
+* {{lien|sa háɂá|chp|sens=lever de soleil}}
+* {{lien|sa náɂá|chp|sens=coucher de soleil}}
+
+== {{langue|shi}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|shi}}
+
+=== {{S|adjectif numéral|shi}} ===
+'''sa''' {{pron||shi}}
+# [[sept#fr|Sept]].
+#* {{exemple|lang=shi}}
+
+== {{langue|gcr}} ==
+=== {{S|étymologie}} ===
+: {{refnec|lang=gcr|Vraisemblablement du {{étyl|fr|gcr}} ''[[c’est#fr|c’est]]''.}}
+
+=== {{S|verbe|gcr}} ===
+'''sa''' {{pron||gcr}}
+# [[c’est|C’est]].
+#* {{exemple|lang=gcr}}
+
+=== {{S|pronom relatif|gcr}} ===
+'''sa''' {{pron||gcr}}
+# [[ce que|Ce que]].
+#* {{exemple|lang=gcr}}
+
+==== {{S|variantes}} ====
+* [[fika]] (verbe)
+
+=== {{S|prononciation}} ===
+* {{écouter|Guyane (France)||niveau=débutant|lang=gcr|audio=LL-Q1363072 (gcr)-Kowee-sa.wav}}
+* {{écouter|Mana (France)||niveau=débutant|lang=gcr|audio=LL-Q1363072 (gcr)-Eabelinti-sa.wav}}
+* {{écouter|Guyane (France)||niveau=bon|lang=gcr|audio=LL-Q1363072 (gcr)-LHORTH-sa.wav}}
+* {{écouter|Cayenne (France)||lang=gcr|audio=LL-Q1363072 (gcr)-RLucas973-sa.wav}}
+* {{écouter|Guyane (France)||lang=gcr|audio=LL-Q1363072 (gcr)-Marie-Michele973-sa.wav}}
+* {{écouter|Cayenne (France)||lang=gcr|audio=LL-Q1363072 (gcr)-Raissa973-sa.wav}}
+* {{écouter|Q24694781 (France)||niveau=débutant|lang=gcr|audio=LL-Q1363072 (gcr)-Alundy973-sa.wav}}
+
+== {{langue|ht}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|fr|ht|mot=ça}}.
+
+=== {{S|adjectif démonstratif|ht}} ===
+'''sa''' {{pron|sa|ht}}
+# [[ce#fr|Ce]], [[cette]].
+#* {{exemple | lang=ht | Fanm '''sa''' se sè mwen.}}
+#: Cette femme est ma sœur.
+
+=== {{S|pronom démonstratif|ht}} ===
+'''sa''' {{pron|sa|ht}}
+# [[ce#fr|Ce]].
+#* {{exemple|lang=ht}}
+# [[cela#fr|Cela]].
+#* {{exemple|lang=ht}}
+# [[ceci#fr|Ceci]].
+#* {{exemple|lang=ht}}
+# [[ça#fr|Ça]].
+#* {{exemple|lang=ht}}
+# [[celui-ci#fr|Celui-ci]], [[celle-ci]], [[ceux-ci]], [[celles-ci]].
+#* {{exemple|lang=ht}}
+# [[celui-là#fr|Celui-là]], [[celle-là]], [[ceux-là]], [[celles-là]].
+#* {{exemple|lang=ht}}
+
+=== {{S|pronom relatif|ht}} ===
+'''sa''' {{pron|sa|ht}}
+# [[ce que#fr|Ce que]].
+#* {{exemple|lang=ht}}
+
+==== {{S|dérivés}} ====
+* [[kisa]]
+
+== {{langue|gcf-mq}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|fr|gcf-mq|ça}}.
+
+=== {{S|adjectif démonstratif|gcf-mq}} ===
+'''sa''' {{pron||gcf-mq}}
+# [[ça#fr|Ça]].
+#* {{exemple|lang=gcf-mq}}
+
+=== {{S|pronom démonstratif|gcf-mq}} ===
+'''sa''' {{pron||gcf-mq}}
+# [[ça#fr|Ça]].
+#* {{exemple|lang=gcf-mq}}
+
+=== {{S|références}} ===
+* {{R:PinalieBernabé|p=15}}
+
+== {{langue|dhi}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|dhi}}
+
+=== {{S|nom|dhi}} ===
+'''sa''' {{pron||dhi}}
+# {{lexique|architecture|dhi}} [[maison#fr|Maison]].
+#* {{exemple|lang=dhi}}
+
+== {{langue|dbn}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|dbn}}
+
+=== {{S|nom|dbn}} ===
+'''sa''' {{pron||dbn}}
+# [[eau#fr|Eau]].
+#* {{exemple|lang=dbn}}
+
+=== {{S|références}} ===
+* C. L. Voorhoeve, 1975. ''[http://www.papuaweb.org/dlib/bk/pl/B31/_toc.html Languages of Irian Jaya Checklist]'', Canberra: Pacific Linguistics, [https://web.archive.org/web/20130517204250/http://www.papuaweb.org/dlib/bk/pl/B31/09.pdf page 104].
+
+== {{langue|dux}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|dux}}
+
+=== {{S|nom|dux}} ===
+'''sa''' {{pron||dux}}
+# [[feu#fr|Feu]].
+#* {{exemple|lang=dux}}
+
+=== {{S|références}} ===
+* [https://web.archive.org/web/20240630004652/https://www.sil-mali.org/sites/default/files/SIL-Mali-dux-2006-ABCdaire-duun-A4.pdf Duungooma ABC (alphabet duun)], page 26.
+
+== {{langue|xsl}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|xsl}}
+
+=== {{S|nom|xsl}} ===
+'''sa''' {{pron||xsl}} {{m}}
+# {{lexique|astronomie|xsl}} [[soleil#fr|Soleil]].
+#* {{exemple|lang=xsl}}
+
+==== {{S|dérivés}} ====
+* {{lien|sa náɂáh|xsl|sens=coucher de soleil}}, {{lien|sa náeɂáh|xsl|sens=coucher de soleil}}
+* {{lien|sa káeɂáh|xsl|sens=lever de soleil}}
+
+== {{langue|et}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|et}}
+
+=== {{S|pronom personnel|et}} ===
+{{et-decl-pronom
+|n1=sina|n2=sa
+|g1=sinu|g2=su
+|p1=sind
+|l1=sinu|l2=su|al2=sulle
+|tr1=sinuks
+|te1=sinuni|es1=sinuna
+|ab1=sinuta|co1=sinuga|co2=suga}}
+'''sa''' {{pron|sɑ|et}}
+# [[tu#fr|Tu]] : deuxième personne du singulier.
+#* {{exemple | lang=et
+ | Mida '''sa''' kirjutad?
+ | Qu'écris-'''tu''' ?}}
+#* {{exemple | lang=et
+ | Mida '''sa''' tahad?
+ | Que veux-'''tu''' ?}}
+
+==== {{S|vocabulaire}} ====
+{{pronoms personnels/et}}
+
+== {{langue|dgr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|dgr}}
+
+=== {{S|nom|dgr}} ===
+'''sa''' {{pron||dgr}}
+# {{lexique|astronomie|dgr}} [[soleil#fr|Soleil]].
+
+== {{langue|fi}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|fi}}
+
+=== {{S|verbe|fi|flexion}} ===
+'''sa''' {{pron|sɑ(ʔ)|fi}}
+# {{familier|fi}} ''(Tavastie) Remplace l’impératif conventionnel ''[[sano]]'' du verbe ''[[sanoa]] ; [[dis]], [[dites]].
+#* {{exemple | lang=fi
+ | '''Sa'''.
+ | Dis, dites.}}
+#* {{exemple | lang=fi
+ | '''Sa''' sille terveisiä.
+ | Dis lui des nouvelles.}}
+#* {{exemple | lang=fi
+ | Älä '''sa''', ettet tiedä.
+ | Ne dis pas que tu ne sais pas.}}
+#* {{exemple | lang=fi
+ | '''Sa''', että milloin tulet.
+ | Dis alors quand tu viens.}}
+#* {{exemple | lang=fi
+ | Älä '''sa''' muuta.
+ | Tu l’as bien dit. Il n’y a pas besoin d’en dire plus.}}
+#* {{exemple | lang=fi
+ | '''Sa''' nyt, mikä sen nimi on.
+ | Dis-moi quel est son nom.}}
+
+==== {{S|dérivés}} ====
+* sa[[-s#fi|s]] {{pron|sɑs|fi}}
+
+=== {{S|pronom personnel|fi}} ===
+'''sa''' {{pron|sɑ|fi}}
+# {{poétique|fi}} [[tu#fr|Tu]], [[toi]].
+#* {{exemple|lang=fi}}
+
+==== {{S|notes}} ====
+: Employé en poésie ou pour surplanter le pronom familier ''[[sä]]''.
+
+== {{langue|frp}} ==
+=== {{S|étymologie}} ===
+:''(Nom commun)'' Du {{étyl|la|frp|mot=sal}}.
+: ''(adjectif numéral)'' Du {{étyl|la|frp|mot=septem}}.
+
+=== {{S|nom|frp}} ===
+'''sa''' {{pron|sa|frp}} {{f}}
+# {{condiments|frp}} [[sel#fr|Sel]].
+#* {{exemple|lang=frp}}
+
+==== {{S|notes}} ====
+Forme du valdôtain des communes d’Arnad, Courmayeur, Brusson, Montjovet, Valgrisenche.
+
+==== {{S|variantes}} ====
+{{(|Orthographe globalisante de l’arpitan}}
+* [[sâl#frp|sâl]]
+{{)}}
+{{(|Val d’Aoste}}
+* [[so#frp|so]] ''(valdôtain de Charvensod, Introd, Valtournenche)''
+{{)}}
+
+=== {{S|adjectif numéral|frp}} ===
+'''sa''' {{pron|sa|frp}}
+# [[sept#fr|Sept]].
+#* {{exemple|lang=frp}}
+
+==== {{S|notes}} ====
+Forme du valaisan de Bagnes en Suisse romande.
+
+==== {{S|variantes}} ====
+{{(|Suisse romande}}
+* [[chatt]] ''(valaisan de Chermignon)''
+{{)}}
+
+=== {{S|références}} ===
+* [https://web.archive.org/web/20130611021812/http://www.patoisvda.org/gna/index.cfm/patois-glossaire-francoprovencal-dictionnaire.html Glossaire du valdôtain]
+* [http://www.irdp.ch/eole/eole_patois/glossaire_pluridialectal.pdf Eole et patois: glossaire pluridialectal, 2012]
+
+== {{langue|ga}} ==
+=== {{S|article défini|ga|flexion}} ===
+{|class="flextable"
+|+'''Contractions de ''i'' avec l'article défini'''
+! Devant
+! ''i + an''
+! ''i + na''
+|-
+! Consonne
+| {{lien m|sa|ga}}<sup>L</sup>
+| {{lien m|sna|ga}}
+|-
+! Voyelle
+| {{lien m|san|ga}}<sup>L</sup>
+| {{lien m|sna|ga}} h-
+|}
+'''sa''' {{pron|sˠə|ga}} (suivi du [[datif]], engendre la [[lénition]])
+# [[dans#fr|Dans]] le/la :'' contraction obligatoire de la préposition ''[[i#ga|i]]'' "dans, en" avec l'article défini singulier ''[[an#ga|an]].
+#* {{exemple|lang=ga|'''sa''' chuisneoir|'''dans le''' frigo}}
+
+== {{langue|gallo}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gallo}}
+
+=== {{S|pronom démonstratif|gallo}} ===
+{{gallo-inv}}
+'''sa''' {{pron||gallo}} {{gallo-graphie|MOGA}}
+# [[ça#fr|Ça]].
+#* {{exemple|lang=gallo}}
+
+=== {{S|adjectif possessif|gallo}} ===
+{{gallo-inv}}
+'''sa''' {{pron||gallo}} {{gallo-graphie|ELG}} {{gallo-graphie|MOGA}}
+# Adjectif possessif de la troisième personne du singulier devant un nom féminin, [[sa#fr|sa]].
+#* {{exemple|lang=gallo}}
+
+=== {{S|nom|gallo}} ===
+'''sa''' {{pron||gallo}} {{m}} {{gallo-graphie|inconnue}}
+# [[soir#fr|Soir]].
+#* {{exemple|lang=gallo}}
+
+=== {{S|références}} ===
+* {{lien web|auteur=Chubri|url=http://www.chubri-galo.bzh/chubri-galo_actualites_archives-actualites_chubendret-communes-des-cotes-d-armor-et-de-loire-atlantique_gl.htm|site=Chubri|titre=Pourr lé cmenn dé Côtt d’Ahaot e d la Louérr Atlauntiq, ChubEndret contt bin davantaïj de non, mézë|date=31 octobre 2018}}
+* {{lien web|auteur=Bèrtran Ôbrée|titre=Lire et écrire en gallo avec le « Moga » : Un standard pour une diversité d'usages|site=Cairn, Cahiers de sociolinguistique|url=https://www.cairn.info/revue-cahiers-de-sociolinguistique-2007-1-page-205.htm|date=2007}}
+* {{lien web|url=http://web.archive.org/web/20070928010517fw_/http://www.maezoe.com/maezoe-ga.htm|titre=Grammaire du gallo : Les adjectifs et pronoms possessifs|site=maezoe.com (archivé)|consulté le=29 juillet 2019}}
+* {{R:Trémeur|vue=s-t}}
+
+== {{langue|gallo-italique de Sicile}} ==
+=== {{S|verbe|gallo-italique de Sicile|flexion}} ===
+'''sa''' {{phon||gallo-italique de Sicile}} {{Roccella}}
+# ''Troisième personne du singulier de l’indicatif présent du verbe'' {{lien|savèr̄|gallo-italique de Sicile}}.
+#* {{exemple|lang=gallo-italique de Sicile}}
+
+== {{langue|grec cargésien}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|grec cargésien}}
+
+=== {{S|conjonction|grec cargésien}} ===
+'''sa''' {{pron||grec cargésien}}
+# [[comme#fr|Comme]]. 
+#* {{exemple|lang=grec cargésien}}
+
+==== {{S|variantes}} ====
+* {{lien|osá|grec cargésien}}
+* {{lien|osán|grec cargésien}}
+* {{lien|san|grec cargésien}}
+
+=== {{S|références}} ===
+* {{R:Eon2015|p=48}}
+{{Références}}
+
+== {{langue|griko}} ==
+=== {{S|pronom personnel|griko|flexion}} ===
+'''sa''' {{pron||griko}}
+# ''Génitif de'' {{lien|esì|griko}}.
+#* {{exemple|lang=griko}}
+
+== {{langue|wos}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|wos}}
+
+=== {{S|verbe|wos}} ===
+'''sa''' {{pron||wos}}
+# [[manger#fr|Manger]].
+#* {{exemple|lang=wos}}
+
+=== {{S|références}} ===
+* Anonymous. 2011. ''[https://www.sil.org/pacific/png/pubs/928474542335/Hanga_Hundi.pdf Hanga Hundi Organised Phonology Data.]'' [Manuscript]. : s.n. 5 pages, page 2.
+
+== {{langue|ha}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|ha}}
+
+=== {{S|nom|ha}} ===
+'''sa''' {{pron||ha}} {{m}} {{équiv-pour|la femelle|saniya|lang=ha}} ({{p}} : [[shanu]])
+# [[bœuf#fr|Bœuf]], taureau.
+#* {{exemple|lang=ha}}
+
+==== {{S|vocabulaire}} ====
+* {{voir thésaurus|ha|alimentation|élevage}}
+
+=== {{S|prononciation}} ===
+{{ébauche-pron-audio|ha}}
+
+== {{langue|it}} ==
+=== {{S|verbe|it|flexion}} ===
+{{it-verbe-flexion|ind.p.3s=oui|sapere}}
+'''sa''' {{pron|ˈsa|it}}
+# ''Troisième personne du singulier de l’indicatif présent de'' {{lien|sapere|it}}.
+#* {{exemple|lang=sa}}
+
+=== {{S|anagrammes}} ===
+{{voir anagrammes|it}}
+== {{langue|rw}} ==
+=== {{S|nom|rw}} ===
+'''sa''' {{pron||rw}} {{cl8}}
+# [[néant#fr|Néant]].
+#* {{exemple|lang=rw}}
+# [[zéro#fr|Zéro]].
+#* {{exemple|lang=rw}}
+
+=== {{S|adjectif|rw}} ===
+{{rw-tab-cla-pref|1s=musa|1p=basa|2s=musa|2p=misa|3s=nsa|3p=nsa|4s=risa|4p=masa|5s=gasa|5p=dusa|6s=gisa|6p=bisa|7s=rusa|7p=nsa|8=busa}}
+'''sa''' {{pron||rw}}
+# [[seul#fr|Seul]].
+#* {{exemple|lang=rw}}
+
+=== {{S|adverbe|rw}} ===
+'''sa''' {{pron||rw}}
+# [[seulement#fr|Seulement]]
+#* {{exemple|lang=rw}}
+
+== {{langue|kotoxo}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|kotoxo}}
+
+=== {{S|nom|kotoxo}} ===
+'''sa''' {{pron||kotoxo}}
+# [[eau#fr|Eau]].
+#* {{exemple|lang=kotoxo}}
+
+=== {{S|références}} ===
+* Márcio Silva Martins Andérbio, ''Revisão da família lingüística Kamakã proposta por Chestmir Loukotka'', Thèse, Université de Brasilia, 2007 [http://bdtd.bce.unb.br/tedesimplificado/tde_busca/arquivo.php?codArquivo=1954 copie en ligne], page 52.
+
+== {{langue|mls}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|mls}}
+
+=== {{S|nom|mls}} ===
+'''sa''' {{pron||mls}}
+# [[eau#fr|Eau]].
+#* {{exemple|lang=mls}}
+
+=== {{S|références}} ===
+* John Edgar, ''Masalit Phonology'', Reimer, 1989 ([https://archive.org/details/rosettaproject_mls_phon-1 lire en ligne]).
+
+== {{langue|frm}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|frm}}
+
+=== {{S|adjectif possessif|frm}} ===
+'''sa''' {{pron-recons||frm}} {{f}}
+# [[sa#fr|Sa]].
+#* {{exemple|lang=frm}}
+
+=== {{S|références}} ===
+* {{R:DMF}}
+
+== {{langue|ngh}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|ngh}}
+
+=== {{S|pronom personnel|ngh}} ===
+'''sa''' {{pron||ngh}}
+# [[nous#fr|Nous]].
+#* {{exemple|lang=ngh}}
+
+=== {{S|références}} ===
+* {{Ouvrage|prénom1=Ouma|nom1=Geelmeid|titre=Ouma Geelmeid ke kx'u ǁxaǁxa Nǀuu|url=http://open.uct.ac.za/bitstream/handle/11427/17432/Shah_N%c7%80uu%20_CALDi_2016.pdf?sequence=5|année=2016|éditeur=Centre for African Language Diversity|passage=14 et 92}}.
+
+== {{langue|oc}} ==
+{{ébauche|oc}}
+
+=== {{S|étymologie}} ===
+: Du {{étyl|la|oc|sua|dif=suā}}, féminin de {{lien|''suus''|la|sens=[[ton]]}}.
+
+=== {{S|adjectif possessif|oc}} ===
+{{adjectifs possessifs/oc}}
+'''sa''' {{pron|sa|oc}} {{f}} {{équiv-pour|lang=oc|un homme ou devant une voyelle|son}}
+# [[sa#fr|sa]].
+#* {{exemple|lang=oc|'''Sa''' maire.|Sa mère.}}
+
+==== {{S|variantes}} ====
+# [[son]] (devant voyelle)
+#* {{exemple|lang=oc|'''Son''' amiga.|Son amie.}}
+# [[la#oc|la]] : le déterminant possessif est souvent remplacé par l'article quand le rapport entre l'objet désigné et la personne n'a pas besoin d'être spécifié.
+#* {{exemple|lang=oc|A pres '''la''' veitura per anar en vila.|Il a pris sa voiture pour aller en ville.}}
+#* {{exemple|lang=oc|Aviái '''la''' femna de malauta.|Il avait sa femme malade.}}
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=oc|France (Béarn)|audio=LL-Q14185 (oci)-Davidgrosclaude-sa.wav}}
+
+=== {{S|anagrammes}} ===
+{{voir anagrammes|oc}}
+=== {{S|références}} ===
+* {{R:Cantalausa}}
+* {{R:Alibert-gram}}
+* {{R:Vernet}}
+
+== {{langue|sc}} ==
+{{ébauche|sc}}
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|sc}}
+
+=== {{S|article défini|sc}} ===
+'''sa''' {{pron||sc}}
+# [[la#fr|La]], {{lien|l’}}.
+#* {{exemple|lang=sc}}
+
+== {{langue|sk}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|sk}}
+
+=== {{S|pronom personnel|sk}} ===
+'''sa''' {{pron|sa|sk}}
+# [[se#fr|Se]] ([[pronom]] [[réfléchi]]).
+#* {{exemple|lang=sk}}
+
+==== {{S|notes}} ====
+* Comme le pronom réfléchi n’a pas de [[nominatif]], ''sa'' est l’[[accusatif]].
+* La variante ''[[seba#sk|seba]]'' est utilisée pour accentuer le pronom et après une préposition.
+* Contrairement au français, le même pronom réfléchi est utilisé pour toutes les personnes :
+** ''[[volať|Volám]] '''sa''', voláš '''sa''', volá '''sa'''…''
+**: Je m’appelle, tu t’appelles, il s’appelle…
+* Le pronom réfléchi est situé en deuxième position de la phrase :
+** ''Ako '''sa''' [[mať|máš]]? — Mám '''sa''' dobre.''
+**: Comment vas-tu ? — Je vais bien.
+
+==== {{S|vocabulaire}} ====
+{{pronoms personnels/sk}}
+
+== {{langue|tl}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|tl}}
+
+=== {{S|préposition|tl}} ===
+'''sa''' {{pron|sa|tl}}
+# [[de#fr|De]], [[hors#fr|hors de]].
+#* {{exemple|lang=tl}}
+# [[à#fr|À]], [[milieu#fr|au milieu de]], [[en]], [[dans]], [[parmi]].
+#* {{exemple|lang=tl}}
+
+=== {{S|prononciation}} ===
+* {{écouter|Philippines||lang=tl|audio=LL-Q34057 (tgl)-Kunokuno-sa.wav}}
+
+== {{langue|kps}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|kps}}
+
+=== {{S|nom|kps}} ===
+'''sa''' {{pron||kps}}
+# {{lexique|anatomie|kps}} [[tête#fr|Tête]].
+#* {{exemple|lang=kps}}
+
+=== {{S|références}} ===
+* {{R:TEHIT}}
+
+== {{langue|wo}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|wo}}
+
+=== {{S|adjectif possessif|wo}} ===
+'''sa''' {{pron|sa|wo}}
+# [[ton#fr|Ton]], [[ta]].
+#* {{exemple|lang=wo}}

@@ -1,0 +1,16 @@
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|nom|gsw-fr}} ===
+'''Ìmmala''' {{pron||gsw-fr}} {{n}}
+# [[abeille#fr|Abeille]].
+
+==== {{S|variantes dialectales}} ====
+* [[Emmala]]
+* [[Imm]]
+
+=== {{S|références}} ===
+*Yves Bisch, ''[https://web.archive.org/web/20140520223052/http://www.olcalsace.org/sites/default/files/lexique_nature_2010.pdf Petit lexique français-alsacien-allemand de la nature : d’ Nàtür]'', Office pour la Langue et la Culture d’Alsace. 
+
+[[Catégorie:Insectes en alémanique alsacien]]

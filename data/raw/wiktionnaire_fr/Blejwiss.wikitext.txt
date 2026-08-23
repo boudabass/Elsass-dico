@@ -1,0 +1,15 @@
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|nom|gsw-fr}} ===
+'''Blejwiss''' {{m}} ({{p}}: [[Blejwisser]])
+# [[crayon#fr|Crayon]].
+
+==== {{S|variantes dialectales}} ====
+* [[Bléiwis]]
+* [[Blüwisel]]
+* [[Blüwïssel]]
+
+=== {{S|références}} ===
+*[https://web.archive.org/web/20130906191837/http://www.ami-hebdo.com/elsadico/index.php de Elsässich Web Diktionnair]

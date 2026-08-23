@@ -1,0 +1,94 @@
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: {{siècle|IX}}. : Du {{étyl|goh|de|mot=githehtnissī̌}}, du {{étyl|gmh|de|mot=gedæhtnisse}} avec le sens de penser à quelque chose, du {{étyl|gml|de|mot=gedechtenisse, dechtnisse, dachtnisse}}. À rapprocher du néerlandais ''[[gedachtenis]]''<ref> {{source|Wolfgang {{pc|Pfeifer}}, ''Etymologische Wörterbuch des Deutschen'', Éditions Deutscher Taschenbuch, 1997, ISBN-13: 978342-3325110 }} </ref>.
+
+=== {{S|nom|de}} ===
+{{de-nom-n-is}}
+'''Gedächtnis''' {{pron|ɡəˈdɛçtnɪs|de}} {{n}}
+# [[mémoire|Mémoire]].
+#* {{exemple | lang=de
+ | Das '''Gedächtnis''' lässt mich langsam im Stich.
+ | La mémoire commence à me faire défaut.}}
+#* {{exemple|Er versuchte, in seinem Kopf zusammenzubringen, was er über diese Krankheit wusste. Zahlen schwirrten durch sein '''Gedächtnis''', und er sagte sich, dass die etwa dreißig großen Pestepidemien, die es in der Geschichte gegeben hatte, fast hundert Millionen Tote gefordert hatten.|lang=de|sens=Il essayait de rassembler dans son esprit ce qu’il savait de cette maladie. Des chiffres flottaient dans sa mémoire et il se disait que la trentaine de grandes pestes que l’histoire a connues avait fait près de cent millions de morts.|source={{ouvrage|auteur={{w|Albert Camus}}|trad=Uli Aumüller|titre=Die Pest|année=1997|éditeur=Rowohlt Verlag|url=}}}}
+
+==== {{S|synonymes}} ====
+* [[Andenken]] (''souvenir, mémoire'')
+* [[Erinnerung]] (''mémoire'')
+* [[Erinnerungsvermögen]] (''mémoire'')
+* [[Gedenken]] (''commémoration, souvenir'')
+* [[Mneme]] (''mémoire'')
+
+==== {{S|dérivés}} ====
+{{(|&nbsp;}} 
+* [[Arbeitsgedächtnis]]
+* [[Bombengedächtnis]]
+* [[Dankgedächtnis]]
+* [[Ehrengedächtnis]]
+* [[Elefantengedächtnis]] (''mémoire d’éléphant'')
+* [[Formgedächtnis]]
+* [[Gedächtnisarbeit]]
+* [[Gedächtnisausfall]]
+* [[Gedächtnisausstellung]]
+* [[Gedächtnisbelastung]]
+* [[Gedächtnisbildung]] 
+* [[Gedächtnisbrücke]]
+* [[Gedächtnisfehler]]
+* [[Gedächtnisfeier]] (''fête commémorative'')
+* [[Gedächtnisfest]] (''fête commémorative'')
+* [[Gedächtnisforschung]] (''recherche scientifique sur la mémoire'')
+* [[Gedächtnisgottesdienst]]
+* [[Gedächtnishilfe]]
+* [[Gedächtnisinhalt]] (''contenu de la mémoire'')
+* [[Gedächtniskapelle]]
+* [[Gedächtniskirche]] (''église du souvenir'')
+* [[Gedächtniskonzert]]
+* [[Gedächtniskraft]]
+* [[Gedächtniskram]]
+* [[Gedächtniskunst]]
+* [[Gedächtnisleistung]]
+* [[Gedächtnislücke]] (''trou de mémoire'')
+* [[Gedächtnismesse]]
+* [[Gedächtnisprotokoll]]
+* [[Gedächtnisrede]]
+* [[Gedächtnisschau]]
+* [[Gedächtnisschrift]]
+* [[Gedächtnisschulung]]
+* [[gedächtnisschwach]]
+* [[Gedächtnisschwäche]]
+* [[Gedächtnisschwund]] (''perte de la mémoire, amnésie'')
+* [[Gedächtnisstoff]]
+* [[Gedächtnisstörung]]
+* [[Gedächtnisstütze]] (''moyen mnémotechnique'')
+* [[Gedächtnistag]] (''jour du souvenir, anniversaire en mémoire de'')
+* [[Gedächtnistraining]]
+* [[Gedächtnisverlust]] (''perte de mémoire'')
+* [[Gedächtnisvorgang]]
+* [[Jahrgedächtnis]]
+* [[Kurzzeitgedächtnis]] (''mémoire à court terme'')
+* [[Langzeitgedächtnis]] (''mémoire à long terme'')
+* [[Namengedächtnis]], [[Namensgedächtnis]] (''mémoire des noms'')
+* [[Ortsgedächtnis]] (''mémoire des lieux'')
+* [[Personengedächtnis]] (''mémoire des visages'')
+* [[Sachgedächtnis]]
+* [[Totengedächtnis]]
+* [[Zahlengedächtnis]] (''mémoire des nombres'')
+{{)}}
+
+==== {{S|phrases}} ====
+* [[dem Gedächtnis auf die Sprünge helfen]]
+* [[Gedächtnis wie ein Elefant]]
+* [[Gedächtnis wie ein Sieb]]
+* [[seinem Gedächtnis auf die Sprünge helfen]]
+
+=== {{S|prononciation}} ===
+* {{écouter|{{DE|nocat=1}}|ɡəˈdɛçtnɪs|lang=de|audio=De-Gedächtnis.ogg}}
+
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|nom|gsw-fr}} ===
+'''Gedächtnis''' {{pron||gsw-fr}}
+# [[mémoire|Mémoire]].
+
+{{clé de tri|Gedaechtnis}}

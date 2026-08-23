@@ -1,0 +1,81 @@
+{{voir|Verband}}
+== {{langue|af}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|af}}
+
+=== {{S|nom|af}} ===
+'''verband''' {{pron||af}}
+# [[relation|Relation]], [[abord]].
+#* {{exemple|lang=af}}
+# [[bandage|Bandage]].
+#* {{exemple|lang=af}}
+
+== {{langue|de}} ==
+ 
+=== {{S|verbe|de|flexion}} ===
+'''verband''' {{pron|fɛɐ̯ˈbant|de}} 
+ 
+# ''Première personne du singulier du prétérit de'' [[verbinden#de|verbinden]].
+# ''Troisième personne du singulier du prétérit de'' [[verbinden#de|verbinden]].
+ 
+=== {{S|prononciation}} ===
+* {{écouter|Berlin|fɛɐ̯ˈbant|lang=de|audio=De-verband.ogg}}
+
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|nom|gsw-fr}} ===
+'''verband''' {{pron||gsw-fr}}
+# [[association|Association]].
+
+== {{langue|nl}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|nl}}
+
+=== {{S|nom|nl}} ===
+'''verband''' {{pron||nl}} {{n}}
+# [[relation|Relation]], [[rapport]].
+#* {{exemple | lang=nl
+ | Het '''verband''' leggen.
+ | Faire le rapprochement.}}
+#* {{exemple | lang=nl
+ | Een '''verband''' leggen tussen twee dingen.
+ | Établir un lien entre deux choses.}}
+#* {{exemple | lang=nl
+ | In '''verband''' met.
+ | En rapport avec, eu égard à, en relation avec, en vue de.}}
+#* {{exemple | lang=nl
+ | In onderling '''verband''' brengen.
+ | Mettre en corrélation.}}
+#* {{exemple | lang=nl
+ | In dat '''verband'''.
+ | Dans le même ordre d’idée(s).}}
+#* {{exemple | lang=nl
+ | In '''verband''' hiermee (derhalve).
+ | En conséquence de ce fait.}}
+#* {{exemple | lang=nl
+ | Causaal '''verband'''.
+ | Lien de causalité.}}
+# [[bandage|Bandage]], [[pansement]].
+# {{lexique|maçonnerie|nl}} [[appareil|Appareil]].
+#* {{exemple | lang=nl
+ | graatvormig '''verband'''.
+ | Appareil en épi.}}
+
+==== {{S|synonymes}} ====
+; relation
+* [[betrekking]]
+* [[context]]
+* [[zinsverband]]
+* [[omgang]]
+* [[verkeer]]
+* [[verstandhouding]]
+; bandage
+* [[zwachtel]]
+* [[windsel]]
+; appareil
+* [[metselwerk]]
+
+=== {{S|prononciation}} ===
+* {{écouter|||lang=nl|audio=Nl-verband.ogg}}

@@ -1,0 +1,10 @@
+{{voir|tráktor|traktor|Traktor}}
+{{vérifier création automatique||gsw-fr}}
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|nom|gsw-fr}} ===
+'''Traktör'''
+# [[tracteur|Tracteur]]
+{{clé de tri|traktor}}

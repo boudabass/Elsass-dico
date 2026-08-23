@@ -1,0 +1,89 @@
+{{voir|hummer}}
+
+== {{langue|fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|fr}}
+
+=== {{S|nom propre|fr}} ===
+'''Hummer''' {{pron||fr}} {{m}}
+# Constructeur automobile américain, qui fabrique des véhicules utilitaires.
+# Véhicule de cette marque.
+#* {{exemple | lang=fr
+ | Un énorme '''Hummer''' aux vitres teintées pénètre dans l’enceinte du General Hospital.
+ | source=Guillaume Musso, ''Parce que je t’aime'', 2007, chapitre 27}}
+
+==== {{S|traductions}} ====
+{{trad-début}}
+{{trad-fin}}
+
+=== {{S|voir aussi}} ===
+* {{WP}}, page à laquelle du texte a été emprunté.
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: {{siècle|XVI}}. Du {{étyl|nds|de|mot=Hummer}}, du {{étyl|nl|de|mot=hommer}}, issus du {{étyl|non|de|mot=humarr}}<ref> {{source|Wolfgang {{pc|Pfeifer}}, ''Etymologisches Wörterbuch des Deutschen'', Éditions Deutscher Taschenbuch, 1997, ISBN-13: 978342-3325110 }} </ref>.
+
+=== {{S|nom|de}} ===
+{{de-nom-m-er}}
+[[Fichier:KreeftbijDenOsse.jpg|vignette|'''Hummer''' - homard]]
+'''Hummer''' {{pron|ˈhʊmɐ|de}} {{m}} 
+# {{crustacés|de}} [[homard|Homard]], (crustacé décapode dont les deux pattes de devant ont la forme de pinces.) (''Homarus sp.'')
+#* {{exemple|lang=de|Der Europäische '''Hummer''' bewohnt Felsgrund bei Helgoland.|sens=Le homard européen vit dans les fonds rocheux près de Helgoland.}}
+#* {{exemple|Zum Wechsel des Kalenderjahrs blühen erstaunliche kulinarische Rituale auf. (...) Geflügel sollte man meiden an Silvester und Neujahr, denn sonst besteht die Gefahr, dass das Glück davonfliegt. Ähnliches gilt für '''Hummer''', da sich dieser rückwärts bewegt und für Rückschläge steht.|lang=de|sens=Au changement d'année civile, des rituels culinaires étonnants fleurissent. (...) La volaille est à éviter à la Saint-Sylvestre et au Nouvel An, car la chance risque de s’envoler. Il en va de même pour le homard, car il se déplace à l’envers et représente les revers.|source={{périodique|auteur=Titus Arnu|titre=Macht warm und glücklich: Linsencurry|journal=Süddeutsche Zeitung|date=2 janvier 2025|texte=https://www.sueddeutsche.de/stil/rezept-linsencurry-li.3136643}}}}
+
+==== {{S|synonymes}} ====
+* {{lien|Homarus|de}}
+
+==== {{S|hyperonymes}} ====
+{{(|}}
+* {{lien|Langschwänziger Krebs|de}}
+* {{lien|Seekrebs|de}}
+* {{lien|Krebs|de}}
+* {{lien|Tier|de}}
+{{)}}
+
+==== {{S|hyponymes}} ====
+* {{lien|Europäischer Hummer|de}}
+* {{lien|Schlanker Hummer|de}}
+* {{lien|Norwegischer Hummer|de}}
+
+==== {{S|dérivés}} ====
+{{(|&nbsp;}} 
+* {{lien|Hummerbesteck|de|sens=couverts à homard}}
+* {{lien|Hummerbutter|de|sens=beurre de homard}}
+* {{lien|Hummercocktail|de|sens=cocktail de homard}}
+* {{lien|Hummerfalle|de|sens=piège à homard}}
+* {{lien|Hummerfleisch|de|sens=chair de homard}}
+* {{lien|Hummergabel|de|sens=fourchette à homard}}
+* {{lien|Hummerkrabbe|sens=crevette bouquet », « bouquet commun}}
+* {{lien|Hummermayonnaise|de|sens=homard mayonnaise}}
+* {{lien|hummerrot|de|sens=rouge homard}}
+* {{lien|Hummersalat|de|sens=salade de homard}}
+* {{lien|Hummerzange|de|sens=pince à homard}}
+{{)}}
+
+=== {{S|prononciation}} ===
+* {{écouter|Berlin|ˈhʊmɐ|lang=de|audio=De-Hummer.ogg}}
+
+=== {{S|références}} ===
+{{Références}}
+
+==== {{S|sources}} ====
+* {{R:DWDS|Hummer}}
+* {{R:Duden|Hummer}} 
+* {{Source-wikt|de|Hummer}}
+
+==== {{S|bibliographie}} ====
+* Larousse - dictionnaire Allemand/Français - Français/Allemand, éd. 1958, p 542.
+* Harrap’s  de poche – Bordas dictionnaire Allemand/Français, éd. 1997, ISBN 0-245-50308-0, p 152.
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=de}}
+
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|nom|gsw-fr}} ===
+'''Hummer''' {{pron||gsw-fr}}
+# [[homard|Homard]].

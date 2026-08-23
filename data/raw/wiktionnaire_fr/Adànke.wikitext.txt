@@ -1,0 +1,11 @@
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+{{ébauche-étym|gsw-fr}}
+
+=== {{S|nom|gsw-fr}} ===
+'''Adànke'''
+# Le [[fait]] de se [[souvenir]]
+
+=== {{S|prononciation}} ===
+* {{pron|oː.da.nka|gsw-fr}}
+{{clé de tri|adanke}}

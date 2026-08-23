@@ -1,0 +1,87 @@
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|adverbe|gsw-fr}} ===
+'''nume'''
+# [[seulement|Seulement]], un peu
+
+== {{langue|it}} ==
+{{ébauche|it}}
+=== {{S|étymologie}} ===
+: Du {{étyl|la|pt|numen|sens=divinité}}.
+
+=== {{S|nom|it}} ===
+'''nume''' {{pron|ˈnu.me|it}} {{m}} ({{p}} ''[[numi]]'')
+# [[dieu#fr|Dieu]], [[divinité]] (surtout au sens de la [[mythologie]] [[classique]]).
+
+==== {{S|synonymes}} ====
+* [[potenza]] [[divina]], [[volontà]] divina
+* [[divinità]] [[pagana]], [[dio]] [[pagano]], dio
+* [[protettore]], [[guida]] {{figuré|nocat}}
+* [[luminare]], [[padreterno]], [[idolo]] {{figuré|nocat}}
+
+==== {{S|vocabulaire}} ====
+* [[annuire]], [[connivente]], [[renuente]]
+
+==== {{S|dérivés}} ====
+* [[santi numi]]! {{désuet|nocat}} exclamation de surprise, stupeur et incrédulité
+
+=== {{S|anagrammes}} ===
+{{voir anagrammes|it}}
+
+== {{langue|avk}} ==
+=== {{S|étymologie}} ===
+: Dérivé de ''[[num#avk|num]]'' (la conjonction de même sens mais lorsqu’il s’agit d’une liaison simple).
+=== {{S|conjonction|avk}} ===
+'''nume''' {{pron|ˈnumɛ|ˈnume|avk}}
+# Et [[donc]] (liaison de propositions homosubjectives<ref>Article réformateur rédigé en français au sujet des [http://www.kotava.org/fr/fr_teliz_kagluyasskedaxeem.pdf conjonctions de liaison en kotava].</ref>).
+#* {{exemple | lang=avk
+ | Cin tiv lorespusik '''nume''' relandewev.
+ | Nous sommes des skieurs donc nous nous amusons.
+ | source=[https://youtu.be/ZByrJCxbN5c&t=100 vidéo], Luce Vergneaux, ''Jonvielera Ta Lorespura'', 2020}}
+#* {{exemple|Pizauxa ke xala ke eyelt dimlicawer '''nume''' dratcer da en fu nyuwer.
+|Le rivet de la bretelle du sac se desserre donc menace de vraiment lâcher.
+|source=Kotavusa Virda, ''17<sup>-e</sup> Otuk'', 2024, page 4 
+|lien=https://www.calameo.com/read/007223618d0ebcdf1faa2
+|lang=avk}}
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=avk|France|ˈnumɛ|audio=nume (avk).wav}} 
+=== {{S|références}} ===
+* {{Kotapedia|nume}} 
+ [[Catégorie:Conjonctions de liaison en kotava]]
+ [[Catégorie:Mots en kotava répertoriés sur Kotapedia]]
+
+== {{langue|pt}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|pt|numen|sens=divinité}}.
+
+=== {{S|nom|pt}} ===
+{{pt-rég|}}
+'''nume''' {{pron||pt}} {{m}}
+# [[dieu#fr|Dieu]].
+#* {{exemple | lang=pt | os '''numes''' tutelares.}}
+
+==== {{S|synonymes}} ====
+* {{lien|deus|pt}}
+* [[divinidade]]
+
+=== {{S|anagrammes}} ===
+* {{lien|menu|pt}}
+
+== {{langue|ro}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|ro|mot=nomen|sens=nom}}.
+
+=== {{S|nom|ro}} ===
+{{ro-nom-tab|gen={{n}}|ns=nume|np=nume}}
+'''nume''' {{pron|ˈnu.me|ro}} {{n}}
+# [[nom|Nom]].
+
+==== {{S|dérivés}} ====
+* [[supranume]], (« surnom »).
+
+=== {{S|prononciation}} ===
+* {{écouter|Craiova (Roumanie)||lang=ro|audio=LL-Q7913 (ron)-Filosoful-nume.wav}}
+* {{écouter|||lang=ro|audio=LL-Q7913 (ron)-Andreea Teodoraa-nume.wav}}

@@ -1,0 +1,9 @@
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+{{ébauche-étym|gsw-fr}}
+
+=== {{S|nom|gsw-fr}} ===
+'''Presidàntewahle'''
+# [[élection|Élection]] [[présidentiel]]le
+
+{{clé de tri|presidantewahle}}

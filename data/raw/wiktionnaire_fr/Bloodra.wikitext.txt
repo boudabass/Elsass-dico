@@ -1,0 +1,10 @@
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+{{ébauche-étym|gsw-fr}}
+
+=== {{S|nom|gsw-fr}} ===
+'''Bloodra''' {{pron||gsw-fr}} {{f}}
+# {{lexique|médecine|gsw-fr}} [[ampoule#fr|Ampoule]], sur le corps.
+
+=== {{S|références}} ===
+*[https://web.archive.org/web/20130926064631/http://culture.alsace.pagesperso-orange.fr/page_af.htm Dictionnaire français-alsacien]

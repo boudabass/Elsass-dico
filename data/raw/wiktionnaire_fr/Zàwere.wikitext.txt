@@ -1,0 +1,13 @@
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|nom propre|gsw-fr}} ===
+'''Zàwere''' {{pron||gsw-fr}}
+# {{localités|gsw-fr|du département du Bas-Rhin}}  [[Saverne#Français|Saverne]] ; [[commune]] [[français]]e, située dans le département du [[Bas-Rhin]].
+#* {{exemple|lang=gsw-fr}}
+
+=== {{S|prononciation}} ===
+{{ébauche-pron-audio|gsw-fr}}
+
+{{clé de tri|Zawere}}

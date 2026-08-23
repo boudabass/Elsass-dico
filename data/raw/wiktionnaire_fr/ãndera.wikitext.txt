@@ -1,0 +1,9 @@
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|adjectif|gsw-fr}} ===
+'''ãndera''' {{pron||gsw-fr}}
+# [[autre|Autre]].
+
+{{clé de tri|andera}}

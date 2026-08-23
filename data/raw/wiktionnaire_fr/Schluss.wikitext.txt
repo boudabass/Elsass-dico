@@ -1,0 +1,353 @@
+{{voir|Schluß}}
+
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|nom|gsw-fr}} ===
+'''Schluss''' {{pron||gsw-fr}}
+# [[fin|Fin]] (ce qui termine).
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: Dérivation du verbe [[schließen#de|schließen]].
+
+=== {{S|nom|de}} ===
+{{de-nom-m-s-e|ʃlʊs|ˈʃlʏsə|np=Schlüsse|gs=Schlusses|pgs=ˈʃlʊsəs|ds2=Schlusse|pds2=ˈʃlʊsə}}
+'''Schluss''' {{pron|ʃlʊs|de}} {{m}}, {{généralement indénombrable|de}}
+# [[fin|Fin]], [[clôture#fr|clôture]].
+#* {{exemple
+|Der '''Schluss''' des Feuerwerks war grandios.
+|La fin du feu d'artifice fut grandiose.
+|lang=de}}
+#* {{exemple|Seit Fluglinien Spezialmenüs anbieten, scheint Chaos an Bord zu herrschen. Geht es nach den Flugbegleitern, soll wieder '''Schluss''' sein mit den Sonderwünschen.|lang=de|sens=Depuis que les compagnies aériennes proposent des menus spéciaux, le chaos semble régner à bord. Si l’on demande le personnel de bord, il faut remettre un terme aux demandes spéciales.|source={{périodique|auteur=Stefan Fischer|titre=Flugreise: Nüsschen oder nix|journal=Süddeutsche Zeitung|date=7 mars 2024|texte=https://www.sueddeutsche.de/auto/flugzeug-lufthansa-mahlzeit-1.6424149}}}}
+# {{désuet|de}} [[fermeture#fr|Fermeture]], [[clôture#fr|clôture]].
+#* {{exemple
+|Punkt zwölf ist '''Schluss''', und es ist fünf nach zwölf.
+|Ça ferme à midi pile et il est midi cinq.
+|lang=de}}
+# [[conclusion|Conclusion]], résultat final.
+#* {{exemple
+|Wir sind zum '''Schluss''' gekommen, dass noch weitere Verbesserungen vonnöten sind.
+|Nous sommes arrivés à la conclusion que des améliorations supplémentaires sont nécessaires.
+|lang=de}}
+#* {{exemple|Placebos, die schmerzhafte Nebenwirkungen haben, haben einen stärkeren Effekt als Placebos ohne spürbare Nebenwirkungen. Zu diesem '''Schluss''' kommt eine aktuelle Studie von Forschenden des Universitätsklinikums Eppendorf (UKE) in Hamburg.|lang=de|sens=Les placebos qui ont des effets secondaires douloureux ont un effet plus fort que les placebos sans effets secondaires perceptibles. C'est la conclusion d’une étude récente menée par des chercheurs de la clinique universitaire Eppendorf (UKE) à Hambourg.|source={{périodique|auteur=Katarina Fischer|titre=Betrunkene Würmer und andere Kuriositäten: Der Ig-Nobelpreis 2024|journal=National Geographic|date=17 septembre 2024|texte=https://www.nationalgeographic.de/wissenschaft/2024/09/betrunkene-wuermer-und-andere-kuriositaeten-der-ig-nobelpreis-2024?image=slnc-jugxgz8nifk-unsplash&gallery=63953}}}}
+# [[court-circuit#fr|Court-circuit]] électrique. (Abréviation de [[Kurzschluss]]).
+#* {{exemple
+|Die Sicherung des Stromkreises wurde durch einen '''Schluss''' zwischen Phase und Erde ausgelöst.
+|Le fusible du circuit électrique a été déclenché par un court-circuit entre la phase et la terre.
+|lang=de}}
+
+==== {{S|anciennes orthographes}} ====
+* [[Schluß]]
+
+==== {{S|synonymes}} ====
+{{(|Fin|1}}
+* {{lien|Abschluss|de}}
+* {{lien|Abschließen|de}}
+* {{lien|Beenden|de}}
+* {{lien|Beendigung|de}}
+* {{lien|Ende|de}}
+{{)}}
+{{(|Fermeture|2}}
+* {{lien|Schließen|de}}
+* {{lien|Zumachen|de}}
+{{)}}
+{{(|Conclusion|3}}
+* {{lien|Folgerung|de}}
+* {{lien|Schlussfolgerung|de}}
+{{)}}
+{{(|Court-circuit|4}}
+* {{lien|Kurzschluss|de}}
+{{)}}
+
+==== {{S|antonymes}} ====
+* {{lien|Aufschluss|de}}
+
+==== {{S|hyponymes}} ====
+{{(|}}
+* {{lien|Aktschluss|de}}
+* {{lien|Anmeldeschluss|de}}
+* {{lien|Annahmeschluss|de}}
+* {{lien|Anzeigenschluss|de}}
+* {{lien|Arbeitsschluss|de}}
+* {{lien|Betriebsschluss|de}}
+* {{lien|Bewerbungsschluss|de}}
+* {{lien|Börsenschluss|de}}
+* {{lien|Brennschluss|de}}
+* {{lien|Büroschluss|de}}
+* {{lien|Dienstschluss|de}}
+* {{lien|Drehschluss|de}}
+* {{lien|Eheschluss|de}}
+* {{lien|Einsendeschluss|de}}
+* {{lien|Filmschluss|de}}
+* {{lien|Freitagsschluss|de}}
+* {{lien|Friedensschluss|de}}
+* {{lien|Handelsschluss|de}}
+* {{lien|Jahresschluss|de}}
+* {{lien|Kassaschluss|de}}
+* {{lien|Konzertschluss|de}}
+* {{lien|Kriegsschluss|de}}
+* {{lien|Meldeschluss|de}}
+* {{lien|Messeschluss|de}}
+* {{lien|Monatsschluss|de}}
+* {{lien|Nennungsschluss|de}}
+* {{lien|Parkettschluss|de}}
+* {{lien|Postschluss|de}}
+* {{lien|Programmschluss|de}}
+* {{lien|Ratschluss|de}}
+* {{lien|Redaktionsschluss|de}}
+* {{lien|Romanschluss|de}}
+* {{lien|Rundenschluss|de}}
+* {{lien|Saisonschluss|de}}
+* {{lien|Satzschluss|de}}
+* {{lien|Schalterschluss|de}}
+* {{lien|Schichtschluss|de}}
+* {{lien|Schulschluss|de}}
+* {{lien|Semesterschluss|de}}
+* {{lien|Sendeschluss|de}}
+* {{lien|Sitzungsschluss|de}}
+* {{lien|Sommerschluss|de}}
+* {{lien|Spielschluss|de}}
+* {{lien|Talschluss|de}}
+* {{lien|Transferschluss|de}}
+* {{lien|Unterrichtsschluss|de}}
+* {{lien|Verkaufsschluss|de}}
+* {{lien|Vertragsschluss|de}}
+* {{lien|Vortagesschluss|de}}
+* {{lien|Vorwochenschluss|de}}
+* {{lien|Wochenschluss|de}}
+{{)}}
+{{(|}}
+* {{lien|Anschluss|de}}
+* {{lien|Einschluss|de}}
+* {{lien|Faustschluss|de}}
+* {{lien|Feinschluss|de}}
+* {{lien|Geschäftsschluss|de}}
+* {{lien|Kassenschluss|de}}
+* {{lien|Kletterschluss|de}}
+* {{lien|Kraftschluss|de}}
+* {{lien|Ladenschluss|de}}
+* {{lien|Lückenschluss|de}}
+* {{lien|Magenschluss|de}}
+* {{lien|Ringschluss|de}}
+* {{lien|Schulterschluss|de}}
+* {{lien|Toresschluss|de}}
+* {{lien|Umschluss|de}}
+* {{lien|Verschluss|de}}
+* {{lien|Zusammenschluss|de}}
+{{)}}
+{{(|}}
+* {{lien|Analogieschluss|de}}
+* {{lien|Entschluss|de}}
+* {{lien|Fangschluss|de}}
+* {{lien|Fehlschluss|de}}
+* {{lien|Gedankenschluss|de}}
+* {{lien|Kettenschluss|de}}
+* {{lien|Kreisschluss|de}}
+* {{lien|Repräsentationsschluss|de}}
+* {{lien|Rückschluss|de}}
+* {{lien|Trugschluss|de}}
+* {{lien|Umkehrschluss|de}}
+* {{lien|Vernunftschluss|de}}
+* {{lien|Wahrscheinlichkeitsschluss|de}}
+* {{lien|Zirkelschluss|de}}
+* {{lien|Erdschluss|de}}
+* {{lien|Hauptschluss|de}}
+* {{lien|Masseschluss|de}}
+* {{lien|Ganzschluss|de}}
+* {{lien|Halbschluss|de}}
+{{)}}
+
+==== {{S|dérivés}} ====
+{{(}}
+* {{lien|am Schluss|de}}
+* {{lien|Aufschluss|de}}
+* {{lien|Schluss-s|de}}
+* {{lien|Schlussabrechnung|de}}
+* {{lien|Schlussabsatz|de}}
+* {{lien|Schlussabschnitt|de}}
+* {{lien|Schlussabstimmung|de}}
+* {{lien|Schlussakkord|de}}
+* {{lien|Schlussakt|de}}
+* {{lien|Schlussakzent|de}}
+* {{lien|Schlussandacht|de}}
+* {{lien|Schlussangriff|de}}
+* {{lien|Schlussansprache|de}}
+* {{lien|Schlussanstieg|de}}
+* {{lien|Schlussantrag|de}}
+* {{lien|Schlussapotheose|de}}
+* {{lien|Schlussappell|de}}
+* {{lien|Schlussapplaus|de}}
+* {{lien|Schlussartikel|de}}
+* {{lien|Schlussauftritt|de}}
+* {{lien|Schlussball|de}}
+* {{lien|Schlussband|de}}
+* {{lien|Schlussbearbeitung|de}}
+* {{lien|Schlussbeifall|de}}
+* {{lien|Schlussbemerkung|de}}
+* {{lien|Schlussberatung|de}}
+* {{lien|Schlussbericht|de}}
+* {{lien|Schlussbesprechung|de}}
+* {{lien|Schlussbestimmung|de}}
+* {{lien|Schlussbetrachtung|de}}
+* {{lien|Schlussbilanz|de}}
+* {{lien|Schlussbild|de}}
+* {{lien|Schlussbogen|de}}
+* {{lien|Schlussbrief|de}}
+* {{lien|Schlusschor|de}}
+* {{lien|Schlusschoral|de}}
+* {{lien|Schlussdatum|de}}
+* {{lien|Schlussdebatte|de}}
+* {{lien|Schlussdeklaration|de}}
+* {{lien|Schlussdiskussion|de}}
+* {{lien|Schlussdividende|de}}
+* {{lien|Schlussdokument|de}}
+* {{lien|Schlussdoppel|de}}
+* {{lien|Schlussdreieck|de}}
+* {{lien|Schlussdrittel|de}}
+* {{lien|Schlussduett|de}}
+* {{lien|Schlusseffekt|de}}
+* {{lien|Schlusseinstellung|de}}
+* {{lien|Schlusseinzel|de}}
+* {{lien|schlussendlich|de}}
+* {{lien|Schlusserklärung|de}}
+* {{lien|Schlussetappe|de}}
+* {{lien|Schlussfassung|de}}
+* {{lien|Schlussfeier|de}}
+* {{lien|Schlussfeld|de}}
+* {{lien|Schlussfolge|de}}
+* {{lien|schlussfolgern|de}}
+* {{lien|Schlussfolgerung|de}}
+* {{lien|Schlussformel|de}}
+* {{lien|Schlussfrage|de}}
+* {{lien|Schlussfrau|de}}
+* {{lien|Schlussfuge|de}}
+* {{lien|Schlussgag|de}}
+* {{lien|Schlussgebet|de}}
+* {{lien|Schlussgedanke|de}}
+* {{lien|Schlussgerade|de}}
+* {{lien|Schlussgesang|de}}
+* {{lien|Schlussgesetz|de}}
+* {{lien|Schlussglocke|de}}
+* {{lien|Schlussgong|de}}
+* {{lien|Schlussgottesdienst|de}}
+* {{lien|Schlussgriff|de}}
+* {{lien|Schlussgutachten|de}}
+* {{lien|Schlusshälfte|de}}
+* {{lien|Schlusshang|de}}
+* {{lien|schlüssig|de}}
+* {{lien|Schlussjubel|de}}
+* {{lien|Schlusskampf|de}}
+* {{lien|Schlusskapitel|de}}
+* {{lien|Schlusskette|de}}
+* {{lien|Schlussklassement|de}}
+* {{lien|Schlusskommentar|de}}
+* {{lien|Schlusskommuniqué|de}}
+* {{lien|Schlusskonzert|de}}
+* {{lien|Schlusskundgebung|de}}
+* {{lien|Schlusskurs|de}}
+* {{lien|Schlussläufer|de}}
+* {{lien|Schlussleuchte|de}}
+* {{lien|Schlusslicht|de}}
+* {{lien|Schlusslied|de}}
+* {{lien|Schlussmann|de}}
+* {{lien|Schlussminute|de}}
+* {{lien|Schlussmoment|de}}
+* {{lien|Schlussmonolog|de}}
+* {{lien|Schlussmusik|de}}
+* {{lien|Schlussnahme|de}}
+* {{lien|Schlussnote|de}}
+* {{lien|Schlussnotierung|de}}
+* {{lien|Schlussnummer|de}}
+* {{lien|Schlussoffensive|de}}
+* {{lien|Schlusspaar|de}}
+* {{lien|Schlusspassage|de}}
+* {{lien|Schlusspfiff|de}}
+* {{lien|Schlussphase|de}}
+* {{lien|Schlussplädoyer|de}}
+* {{lien|Schlusspointe|de}}
+* {{lien|Schlussprobe|de}}
+* {{lien|Schlussprüfung|de}}
+* {{lien|Schlusspunkt|de}}
+* {{lien|Schlussquartal|de}}
+* {{lien|Schlussrast|de}}
+* {{lien|Schlussrechnung|de}}
+* {{lien|Schlussredakteur|de}}
+* {{lien|Schlussredaktion|de}}
+* {{lien|Schlussrede|de}}
+* {{lien|Schlussregel|de}}
+* {{lien|Schlussrekord|de}}
+* {{lien|Schlussresolution|de}}
+* {{lien|Schlussrunde|de}}
+* {{lien|Schlusssatz|de}}
+* {{lien|Schlussschein|de}}
+* {{lien|Schlussschritt|de}}
+* {{lien|Schlussschwimmer|de}}
+* {{lien|Schlusssegen|de}}
+* {{lien|Schlusssekunde|de}}
+* {{lien|Schlusssequenz|de}}
+* {{lien|Schlusssignal|de}}
+* {{lien|Schlusssirene|de}}
+* {{lien|Schlusssitzung|de}}
+* {{lien|Schlusssong|de}}
+* {{lien|Schlussspiel|de}}
+* {{lien|Schlussspieler|de}}
+* {{lien|Schlusssprung|de}}
+* {{lien|Schlussspurt|de}}
+* {{lien|Schlussstand|de}}
+* {{lien|Schlussstatement|de}}
+* {{lien|Schlussstein|de}}
+* {{lien|Schlussstellung|de}}
+* {{lien|Schlussstrich|de}}
+* {{lien|Schlussstrophe|de}}
+* {{lien|Schlussstück|de}}
+* {{lien|Schlussszene|de}}
+* {{lien|Schlusstabelle|de}}
+* {{lien|Schlusstableau|de}}
+* {{lien|Schlusstag|de}}
+* {{lien|Schlusstakt|de}}
+* {{lien|Schlussteil|de}}
+* {{lien|Schlusstermin|de}}
+* {{lien|Schlusstext|de}}
+* {{lien|Schlusston|de}}
+* {{lien|Schlussurteil|de}}
+* {{lien|Schlussveranstaltung|de}}
+* {{lien|Schlussverhandlung|de}}
+* {{lien|Schlussverkauf|de}}
+* {{lien|Schlussvers|de}}
+* {{lien|Schlussverteilung|de}}
+* {{lien|Schlussverzeichnis|de}}
+* {{lien|Schlussviertel|de}}
+* {{lien|Schlussviertelstunde|de}}
+* {{lien|Schlussvorhang|de}}
+* {{lien|Schlussvorschrift|de}}
+* {{lien|Schlussvortrag|de}}
+* {{lien|Schlussweise|de}}
+* {{lien|Schlusswendung|de}}
+* {{lien|Schlusswertung|de}}
+* {{lien|Schlusswort|de}}
+* {{lien|Schlusszeichen|de}}
+* {{lien|Schlusszeile|de}}
+* {{lien|Schlusszeit|de}}
+* {{lien|Schlusszeremonie|de}}
+* {{lien|Schlussziehung|de}}
+* {{lien|Schlusszitat|de}}
+* {{lien|Torschluss|de}}
+* {{lien|Vortagsschluss|de}}
+* {{lien|zum Schluss|de}}
+{{)}}
+
+==== {{S|phrases}} ====
+* {{lien|der Weisheit letzter Schluss sein|de|dif=der Weisheit letzter ''Schluss'' sein}}
+* {{lien|Schluss mit lustig|de|dif=''Schluss'' mit lustig}}
+
+=== {{S|prononciation}} ===
+* {{écouter|Berlin|ʃlʊs|lang=de|audio=De-Schluss.ogg}}
+
+=== {{S|références}} ===
+* {{R:DWDS|Schluss}}
+* {{R:Duden|Schluss}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=de}}

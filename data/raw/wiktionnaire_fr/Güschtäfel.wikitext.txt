@@ -1,0 +1,9 @@
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|prénom|gsw-fr|genre=m}} ===
+'''Güschtäfel''' {{pron||gsw-fr}} {{m}}
+# [[Gustave]].
+
+{{clé de tri|Guschtafel}}

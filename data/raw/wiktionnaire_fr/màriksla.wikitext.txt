@@ -1,0 +1,9 @@
+{{vérifier création automatique||gsw-fr}}
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|verbe|gsw-fr}} ===
+'''màriksla'''
+# [[faire|Faire]] la [[peau]], [[trancher]] la [[gorge]]
+{{clé de tri|mariksla}}

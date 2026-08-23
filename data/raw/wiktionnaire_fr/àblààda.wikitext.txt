@@ -1,0 +1,26 @@
+== {{langue|gsw-fr}} ==
+{{ébauche|gsw-fr}}
+=== {{S|étymologie}} ===
+: Composé de la particule ''{{lien|àb-|gsw-fr}}'' et du verbe ''{{lien|lààda|gsw-fr}}'' (« charger »). Cognat avec l’allemand ''{{lien|abladen|de}}''.
+
+=== {{S|verbe|gsw-fr}} ===
+'''àblààda''' {{phon||gsw-fr}} ''avec particule séparable'' (participe passé : ''{{lien|àbglààda|gsw-fr}}'' ou ''{{lien|àbg’lààda|gsw-fr}}'')
+# [[décharger|Décharger]].
+#* {{exemple | lang=gsw-fr
+ | Mìr '''lààda''' dr Camion '''àb'''.
+ | Nous déchargeons le camion.}}
+#* {{exemple | lang=gsw-fr
+ | Mìr hàn dr Camion '''àbg’lààda'''.
+ | Nous avons déchargé le camion.}}
+
+==== {{S|variantes orthographiques}} ====
+* {{lien|àblàda|gsw-fr}}
+* {{lien|àblàde|gsw-fr}}
+* {{lien|ablade|gsw-fr}}
+* {{lien|alade|gsw-fr}}
+
+==== {{S|notes}} ====
+La graphie ''àblààda'' correspond à une prononciation usitée en [[Haute-Alsace]].
+
+=== {{S|références}} ===
+* [https://web.archive.org/web/20160425102545/http://culture.alsace.pagesperso-orange.fr/page_a.htm « A »], ''Dictionnaire alsacien-français'', sur ''culture.alsace.pagesperso-orange.fr'' (archive).

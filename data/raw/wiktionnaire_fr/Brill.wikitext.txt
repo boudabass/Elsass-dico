@@ -1,0 +1,56 @@
+{{voir|brill}}
+== {{langue|fr}} ==
+{{ébauche|fr}}
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|fr}}
+
+=== {{S|nom propre|fr}} ===
+{{fr-inv||inv_titre=Nom propre}}
+'''Brill''' {{pron||fr}}
+# {{localités|fr|d’Angleterre}} [[paroisse civile|Paroisse civile]] d’[[Angleterre]] située dans le district de [[Aylesbury Vale]].
+# {{quartiers|fr|d’Esch-sur-Alzette}} [[quartier|Quartier]] de la ville d'[[Esch-sur-Alzette]] au [[Luxembourg]].
+
+==== {{S|traductions}} ====
+{{trad-début|}}
+* {{T|en}} : {{trad+|en|Brill}}
+* {{T|lb}} : {{trad-|lb|Brill}}
+{{trad-fin}}
+
+=== {{S|voir aussi}} ===
+* {{WP}}
+
+== {{langue|en}} ==
+{{ébauche|en}}
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|en}}
+
+=== {{S|nom propre|en}} ===
+{{en-inv||inv_titre=Nom propre}}
+'''Brill''' {{pron||en}}
+# {{localités|en|d’Angleterre}} [[paroisse civile|Paroisse civile]] d’[[Angleterre]] située dans le district de [[Aylesbury Vale]].
+
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|nom|gsw-fr}} ===
+'''Brill''' {{pron||gsw-fr}}
+# [[lunette|Lunettes]].
+#* {{exemple|lang=gsw-fr}}
+
+== {{langue|lb}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|lb}}
+
+=== {{S|nom propre|lb}} ===
+{{lb-inv|bʀil|inv_titre=Nom propre}}
+'''Brill''' {{pron|bʀil|lb}}
+# {{quartiers|lb|d’Esch-sur-Alzette}} [[#fr|Brill]].
+
+=== {{S|prononciation}} ===
+* {{écouter|Luxembourg|bʀil|lang=lb|audio=Lb-Brill.ogg}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=lb}}

@@ -1,0 +1,12 @@
+{{voir/guet}}
+
+== {{langue|gsw-fr}} ==
+{{ébauche|gsw-fr}}
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|nom|gsw-fr}} ===
+'''güet'''
+# [[agréable#fr|Agréable]].
+#* {{exemple|lang=gsw-fr}}

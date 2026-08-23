@@ -1,0 +1,16 @@
+{{voir/plakat}}
+
+== {{langue|gsw-fr}} ==
+{{ébauche|gsw-fr}}
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|nom|gsw-fr}} ===
+'''plàkàt ['s]''' {{n}}
+# [[affiche]].
+
+==== {{S|variantes orthographiques}} ====
+* plãkãt
+
+{{clé de tri|plakat}}

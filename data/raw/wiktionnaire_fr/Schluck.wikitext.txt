@@ -1,0 +1,33 @@
+{{voir|schluck}}
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+:De ''[[schlucken]]''.
+
+=== {{S|nom|de}} ===
+{{de-nom-m-s-e|gs2=Schluckes|ds2=Schlucke}}
+'''Schluck''' {{pron|ʃlʊk|de}} {{m}}
+# [[gorgée#fr|Gorgée]], quantité de liquide que l’on peut avaler en une seule fois.
+#* {{exemple|Ein '''Schluck''' Wasser benetzte meinen glühenden Mund; ein einziger, der aber genügte, das entfliehende Leben mir wieder zu geben.|lang=de|sens=Une gorgée d’eau vint humecter ma bouche en feu, une seule, mais elle suffit à rappeler en moi la vie qui s’échappait.|source={{ouvrage|auteur={{w|Jules Verne}}|titre=Reise nach dem Mittelpunkt der Erde|année=1874|éditeur=Hartleben|url=http://www.zeno.org/Literatur/M/Verne,+Jules/Romane/Reise+nach+dem+Mittelpunkt+der+Erde/21.+Capitel}}}}
+#* {{exemple|Nun ist ein Flugzeug (...) ein Transportmittel. Eines mit großer Reichweite allerdings. Weshalb es zwar auf einem Flug von Berlin nach Rom angehen mag, dass man den Passagieren ein Tütchen Erdnüsse anbietet nebst zwei '''Schluck'''en Cola oder Kaffee - und gut ist's. Aber auf Transatlantikrouten genügt ein bisschen Knabberzeug nicht.|lang=de|sens=Or, un avion (...) est un moyen de transport. Un moyen de transport à grande portée, certes. C'est pourquoi il peut être acceptable, sur un vol Berlin-Rome, d’offrir aux passagers un sachet de cacahuètes accompagné de deux gorgées de coca ou de café - et c'est bon. Mais sur les lignes transatlantiques, un peu de grignotage ne suffit pas.|source={{périodique|auteur=Stefan Fischer|titre=Flugreise: Nüsschen oder nix|journal=Süddeutsche Zeitung|date=7 mars 2024|texte=https://www.sueddeutsche.de/auto/flugzeug-lufthansa-mahlzeit-1.6424149}}}}
+# L'activité d'avaler une [[gorgée#fr|gorgée]] de liquide.
+#* {{exemple|Ich nehme einen Löffel, rühre um, trinke meinen Kaffee in kleinen '''Schluck'''en.|lang=de|sens=Je prends une cuillère, remue, et bois mon café à petites gorgées.|source={{ouvrage|auteur={{w|Melanie Raabe}}|trad=Céline Maurice|titre=Die Falle|année=2015|éditeur=btb Verlag|url=}}}}
+# {{familier|de}} [[boisson#fr|Boisson]] [[alcoholique]], souvent impliquant de haute gamme.
+
+==== {{S|diminutifs}} ====
+* [[Schlückchen]] (''petite gorgée'')
+
+==== {{S|dérivés autres langues}} ====
+* {{L|fr}} : [[schlouk#fr|schlouk]]
+* {{L|cs}} : [[šluk#cs|šluk]]
+
+=== {{S|prononciation}} ===
+* {{écouter|Berlin|ʃlʊk|lang=de|audio=De-Schluck.ogg}}
+
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|nom|gsw-fr}} ===
+'''Schluck'''
+# [[gorgée|Gorgée]], [[schlouk]].

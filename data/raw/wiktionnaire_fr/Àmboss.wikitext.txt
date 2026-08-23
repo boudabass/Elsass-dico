@@ -1,0 +1,19 @@
+{{voir|Amboss}}
+
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+{{ébauche-étym|gsw-fr}}
+
+=== {{S|nom|gsw-fr}} ===
+'''Àmboss''' {{pron||gsw-fr}} {{m}}
+# [[enclume#fr|Enclume]].
+
+==== {{S|variantes}} ====
+* [[Àmbos]]
+
+=== {{S|références}} ===
+*[https://web.archive.org/web/20131020100403/http://culture.alsace.pagesperso-orange.fr/page_ef.htm Dictionnaire français-alsacien]
+
+{{clé de tri|amboss}}
+
+[[Catégorie:Outils en alémanique alsacien]]

@@ -1,0 +1,11 @@
+== {{langue|gsw-fr}} ==
+{{ébauche|gsw-fr}}
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|nom|gsw-fr}} ===
+'''èlsassre ['d]''' {{f}}
+# [[alsacienne|Alsacienne]] (personne).
+
+{{clé de tri|elsassre}}

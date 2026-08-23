@@ -1,0 +1,42 @@
+{{voir|affär}}
+
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+{{ébauche-étym|gsw-fr}}
+
+=== {{S|nom|gsw-fr}} ===
+'''Affär'''
+# [[affaire|Affaire]]
+
+== {{langue|lb}} ==
+=== {{S|étymologie}} ===
+: {{date|lang=lb}} {{ébauche-étym|lb}}
+
+=== {{S|nom|lb}} ===
+{{lb-nom-en|ps=ɑfˈɛːʀ}}
+'''Affär''' {{pron|ɑfˈɛːʀ|lb}} {{f}}
+# [[affaire|Affaire]] (situation délicate)
+#* {{exemple|lang=lb}}
+# [[liaison amoureuse|Liaison amoureuse]].
+#* {{exemple|lang=lb}}
+# {{lexique|justice|lb}} [[affaire judiciaire|Affaire judiciaire]].
+#* {{exemple|lang=lb}}
+# [[affaire|Affaire]] (transaction commerciale).
+#* {{exemple|lang=lb}}
+
+==== {{S|variantes orthographiques}} ====
+* {{lien|Affaire|lb}}
+
+==== {{S|synonymes}} ====
+* (1) {{lien|Geschicht|lb}}
+* (2) {{lien|Verhältnis|lb}}
+* (3) {{lien|Geriichtsaffär|lb}}
+* (4) {{lien|Geschäft|lb}}
+
+=== {{S|prononciation}} ===
+{{ébauche-pron-audio|lb}}
+
+=== {{S|références}} ===
+: {{R:LOD}}
+
+{{clé de tri|affär}}

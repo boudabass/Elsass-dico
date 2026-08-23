@@ -1,0 +1,138 @@
+{{voir|Kraft}}
+== {{langue|fr}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étyl|de|fr|Kraft|force}}
+
+=== {{S|nom|fr}} ===
+{{fr-rég|kʁaft}}
+'''kraft''' {{pron|kʁaft|fr}} {{m}} 
+# ''Synonyme de'' [[papier kraft]].
+#* {{exemple | lang=fr
+ | [Les] papiers d'emballage (...) se répartissent en deux catégories : les lourds, (...) en général frictionnés sur une face, comprennent les '''krafts''', [[sulfite]]s, roux dorés, etc. Ils sont souvent teintés.
+ | source=Civilis. écr.,1939, p. 6-8}}
+# ''Synonyme de'' [[maladie du kraft]].
+
+=== {{S|prononciation}} ===
+* {{écouter|Strasbourg (France)||lang=fr|audio=LL-Q150 (fra)-A3nm-kraft.wav}}
+
+=== {{S|voir aussi}} ===
+* {{WP}}
+
+=== {{S|références}} ===
+* {{R:TLFi}}
+
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: Voir ''{{lien|Kraft|de}}'' en allemand.
+
+=== {{S|préposition|gsw-fr}} ===
+'''kraft''' {{pron||gsw-fr}}
+# [[au moyen de|Au moyen de]].
+
+== {{langue|da}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|non|da|mot=kraptr}}.
+
+=== {{S|nom|da}} ===
+'''kraft''' {{pron||da}} {{m}}
+# [[force|Force]].
+
+== {{langue|nb}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|non|nb|mot=kraptr}}.
+
+=== {{S|nom|nb}} ===
+{{nb-nom-mf-er}}
+'''kraft''' {{pron||nb}}
+# {{lexique|physique|nb}} [[force|Force]].
+# [[énergie|Énergie]].
+#* {{exemple | lang=nb
+ | Vann'''kraft''' er en alternativ energikilde.
+ | L’énergie hydraulique est une énergie alternative.}}
+
+==== {{S|dérivés}} ====
+* [[tre i kraft]] ''(entrer en vigueur)''
+
+=== {{S|références}} ===
+* {{source-wikt|no}}
+
+== {{langue|nn}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|non|nn|mot=kraptr}}.
+
+=== {{S|nom|nn}} ===
+{{nn-nom-f-er}}
+'''kraft''' {{pron||nn}}
+# {{lexique|physique|nn}} [[force|Force]].
+# [[énergie|Énergie]].
+
+=== {{S|références}} ===
+* {{source-wikt|no}}
+
+== {{langue|sv}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|vieux suédois|sv|mot=krapter}}, du vieux norrois ''[[kraptr]]''.
+
+=== {{S|nom|sv}} ===
+{{sv-nom-c-er}}
+'''kraft''' {{pron||sv}} {{c}}
+# [[force#fr|Force]].
+#* {{exemple | lang=sv
+ | Hans '''kraft''' är ännu obruten.
+ | Il jouit de la plénitude de ses forces.}}
+#* {{exemple | lang=sv
+ | Så långt '''krafterna''' räcka.
+ | Dans la limite de ses forces.}}
+#* {{exemple | lang=sv
+ | Anstränga alla sina '''krafter'''.
+ | Faire appel à toutes ses forces.}}
+#* {{exemple | lang=sv
+ | Befinna sig i sin '''krafts''' dagar.
+ | Être dans tout la force (à la fleur) de l'âge.}}
+#* {{exemple | lang=sv
+ | Ha '''kraft''' att
+ | Avoir la force de}}
+#* {{exemple | lang=sv
+ | Samla sina '''krafter'''.
+ | Rassembler ses forces.}}
+# [[force#fr|Force]], [[vigueur#fr|vigueur]].
+#* {{exemple | lang=sv
+ | Hans '''kraftiga''' stil.
+ | La vigueur de son style.}}
+#* {{exemple | lang=sv
+ | Träda i '''kraft'''.
+ | Entrer en vigueur.}}
+#* {{exemple | lang=sv
+ | Träda ur '''kraft'''.
+ | Être abrogé.}}
+# {{lexique|physique|sv}} [[force|Force]].
+
+==== {{S|synonymes}} ====
+* [[styrka]]
+
+==== {{S|dérivés}} ====
+{{(}}
+* {{lien|arbetskraft|sv|sens=main-d’œuvre}}
+* {{lien|domkraft|sv}}
+* {{lien|hästkraft|sv|sens=cheval-vapeur}}
+* {{lien|kraftfull|sv|sens=fort, puissant}}
+* {{lien|kraftig|sv}}
+* {{lien|kraftverk|sv|sens=centrale électrique}}
+* {{lien|kraftöverföring|sv|sens=transmission}}
+* {{lien|kärnkraft|sv|sens=énergie nucléaire}}
+* {{lien|köpkraft|sv|sens=pouvoir d’achat}}
+* {{lien|livskraft|sv|sens=vitalité}}
+* {{lien|lyftkraft|sv|sens=portance}}
+* {{lien|tjuskraft|sv|sens=charme, pouvoir de séduction}}
+* {{lien|träda i kraft|sv|sens=entrer en vigueur}}
+* {{lien|träda ikraft|sv|sens=entrer en vigueur}}
+* {{lien|viljekraft|sv}}
+* {{lien|vindkraft|sv|sens=énergie éolienne}}
+{{)}}
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=sv|Suède <!-- précisez svp la ville ou la région -->|kraft|audio=Sv-kraft.ogg}}
+
+=== {{S|références}} ===
+* {{R:Hellquist|436}}

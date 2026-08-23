@@ -1,0 +1,386 @@
+{{voir/mit}}
+
+== {{langue|conv}} ==
+=== {{S|symbole|conv}} ===
+'''mit'''
+# {{lexique|linguistique|conv}} Code {{w|ISO 639-3}} du [[mixtèque du sud de Puebla]].
+
+=== {{S|références}} ===
+* {{Lien 639-3|mit}}
+
+== {{langue|fr}} ==
+=== {{S|verbe|fr|flexion}} ===
+{{fr-verbe-flexion|mettre|grp=3|ind.ps.3s=oui}}
+'''mit''' {{pron|mi|fr}}
+# ''Troisième personne du singulier du passé simple de'' [[mettre]].
+#* {{exemple | lang=fr
+ | Il balbutia quelques mots, puis tira son couteau de sa poche, un eustache à manche de corne, coupa son pain par le milieu et en '''mit''' la moitié sur les genoux de la jeune mère, qui regarda étonnée ; mais il avait déjà tourné le coin de la rue.
+ | source=Anatole France, ''Les dieux ont soif'', Calmann-Lévy, 1912, chapitre 6}}
+#* {{exemple | lang=fr
+ | Elle '''se mit''' à rire, mais forcément.
+ | source=Honoré de Balzac, ''Les Chouans'', chapitre II}}
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=fr|France (Brétigny-sur-Orge)|audio=LL-Q150 (fra)-Pamputt-mit.wav}}
+* {{écouter|lang=fr|France (Vosges)||audio=LL-Q150 (fra)-Poslovitch-mit.wav}}
+* {{écouter|lang=fr|France (Cesseras)||audio=LL-Q150 (fra)-Guilhelma-mit.wav}}
+
+==== {{S|homophones|fr}} ====
+* [[mi]]
+* [[mie]]
+* [[mis]]
+* [[mye]]
+
+=== {{S|anagrammes}} ===
+{{voir anagrammes|fr}}
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|goh|de|mot=mit}}, attesté pour le {{siècle2|VIII}} siècle, du {{étyl|goh|de|mot=miti}}, attesté pour le {{siècle2|IX}} siècle, et du {{étyl|gmh|de|mot=mit}}.<ref>{{R:DWDS|mit}}</ref>
+: Du {{étyl|goh|de|mot=miti}}, du {{étyl|proto-germanique|de}} {{recons|lang-mot-vedette=de|[[Reconstruction:proto-germanique/*midi|midi]]}}. Cognat du suédois ''{{lien|med|sv}}''.
+
+=== {{S|préposition|de}} ===
+{{de-inv|mɪt}}
+'''mit''' {{pron|mɪt|de}} {{invariable|de}}, {{suivi|de|c1=datif}}
+# {{lien|avec|fr|dif=Avec}}, indique une activité faite {{lien|ensemble|fr}}.
+#* {{exemple | lang=de | Ich werde '''mit''' meinem Vater zum Laden gehen. | Je vais aller au magasin avec mon père.}}
+#* {{exemple|Und warum sind seine Gefährtinnen inzwischen so jung? Seine Freunde altern '''mit''' ihm, aber nicht die Frauen, die er liebt.|lang=de|sens=Et pourquoi ses compagnes sont-elles désormais si jeunes ? Ses amis vieillissent avec lui, mais pas les femmes qu’il aime.|source={{ouvrage|auteur={{w|Hervé Le Tellier}}|trad=Romy Ritte et Jürgen Ritte|titre=Die Anomalie|année=2021|éditeur=Rowohlt Verlag|lieu=Hamburg|url=}}}}
+# {{lien|avec|fr|dif=Avec}}, indique la réciprocité.
+#* {{exemple | lang=de | Ich will nicht '''mit''' dir reden. | Je ne veux pas parler avec toi.}}
+#* {{exemple|Kontakt (von Salzsäure) '''mit''' der Haut führt zu Verätzungen. Die Dämpfe sind reizend. Bei Berührung '''mit''' den Augen sofort gründlich '''mit''' Wasser abspülen und Arzt konsultieren. Bei Unfall oder Unwohlsein sofort Arzt hinzuziehen.|lang=de|sens=Le contact (de l’acide chlorhydrique) avec la peau provoque des brûlures. Les vapeurs sont irritantes. En cas de contact avec les yeux, rincer immédiatement et abondamment à l’eau et consulter un médecin. En cas d'accident ou de malaise, consulter immédiatement un médecin.|source={{périodique|auteur=|titre=Salzsäure|journal=chemie.de|date=9 novembre 2025|texte=https://www.chemie.de/lexikon/Salzs%C3%A4ure.html}}}}
+# {{lien|avec|fr|dif=Avec}}, {{lien|muni|fr}} de.
+#* {{exemple|Ich nehme Kaffee '''mit''' Milch und Zucker.|lang=de|sens=Je prends un café avec du lait et du sucre.}}
+#* {{exemple|Dies Wohnzimmer, eine große und freundliche Mansarde '''mit''' zwei Fenstern, sah schon nach wenigen Tagen anders aus als zur Zeit, da es von andern Mietern bewohnt gewesen war.|lang=de|sens=Celle-ci, une mansarde spacieuse et agréable, éclairée par deux fenêtres, prit en peu de jours seulement un aspect différent de celui qu’elle avait lorsqu’elle était occupée par d’autres locataires.|source={{ouvrage|auteur={{w|Hermann Hesse}}|trad=Alexandra Cade|titre=Der Steppenwolf|année=1974|éditeur=Suhrkamp Verlag|lieu=Berlin|url=}}}}
+# {{lien|avec|fr|dif=Avec}}, indique le moyen employé.
+#* {{exemple | lang=de | Ich schreibe '''mit''' einem Bleistift. | J’écris avec un crayon.}}
+#* {{exemple | lang=de | Ich fahre '''mit''' dem Zug nach Paris. | Je vais à Paris en train.}}
+#* {{exemple|Die Bombe war gegen 13.40 Uhr im Zuge von Grabungsarbeiten '''mit''' einem Bagger nahe den Gleisen entdeckt worden.|lang=de|sens=La bombe a été découverte vers 13h40 lors de travaux d'excavation à l’aide d’une pelleteuse près des voies ferrées.|source={{périodique|auteur=(APA)|titre=250-Kilo-Kriegsbombe in Tirol entschärft, Bahnverkehr wieder aufgenommen|journal=Der Standard|date=23 avril 2025|texte=https://www.derstandard.at/story/3000000266917/zugsperre-und-evakuierung-nach-fund-von-kriegsrelikt-in-tirol}}}}
+#* {{exemple|Die russischen Kraftstoffexporte erreichten (...) den niedrigsten Stand seit 2020, schreibt die Financial Times. Der Kreml verliert dadurch wichtige Einnahmen, '''mit''' denen bislang die Kriegsmaschinerie angetrieben wurde.|lang=de|sens=Les exportations russes de carburant ont atteint (...) leur niveau le plus bas depuis 2020, écrit le Financial Times. Le Kremlin perd ainsi d'importantes recettes qui servaient jusqu’à présent à alimenter la machine de guerre.|source={{périodique|auteur=Sebastian Gierke|titre=Wo Russland wirklich verwundbar ist|journal=Süddeutsche Zeitung|date=24 septembre 2025|texte=https://www.sueddeutsche.de/politik/ukraine-rueckeroberung-trumps-kehrtwende-lage-front-li.3317035}}}}
+# Exprime la cause. Avec, à cause de.
+#* {{exemple|Quallenplagen und Plastikmüll sind nur die augenfälligsten Symptome dafür, wie es um das Mittelmeer bestellt ist. '''Mit''' der Klimaerwärmung drohen dem kleinen Ozean zwischen Europa und Afrika langfristige Gefahren. |Les invasions de méduses et les déchets plastiques ne sont que les symptômes les plus visibles de l’état de la Méditerranée. Avec le réchauffement climatique, le petit océan entre l’Europe et l’Afrique est menacé par des dangers à long terme. |source=Frankfurter Allgemeine Zeitung, Warum der gesamte Mittelmeerraum unter Stress steht, 30 juillet 2022|lang=de}}
+#* {{exemple|Durchfall wird meist durch eine Infektion '''mit''' Viren ausgelöst, am häufigsten '''mit''' den sehr ansteckenden Noroviren und Rotaviren.|lang=de|sens=La diarrhée est généralement causée par une infection virale, le plus souvent par les norovirus et les rotavirus, qui sont très contagieux.|source={{périodique|auteur=|titre=Durchfall|journal=gesund.bund.de|date=8 mars 2024|texte=https://gesund.bund.de/durchfall}}}}
+# À l'âge de.
+#* {{exemple|'''Mit''' neun Jahren baute (Alexander von Humboldt) den von Benjamin Franklin erfundenen Blitzableiter nach und befestigte ihn auf dem Dach des Schlosses, das sie nahe der Hauptstadt bewohnten.|lang=de|sens=A neuf ans, il reproduisit le paratonnerre de Benjamin Franklin et le fixa sur le toit du château qu’ils habitaient à proximité de la capitale.|source={{ouvrage|auteur={{w|Daniel Kehlmann}}|titre=Die Vermessung der Welt|année=2005|éditeur=Rohwolt|url=}}}}
+# {{lien|avec|fr|dif=Avec}} ou {{lien|contre|fr}}.
+# {{lien|avec|fr|dif=Avec}}, indique que quelque chose est emporté par un courant.
+# {{lien|avec|fr|dif=Avec}}, indique l'{{lien|ensemble|fr}}.
+# {{lien|avec|fr|dif=Avec}}, indique les {{lien|circonstance|fr}}s.
+#* {{exemple|Nicht weit von ihrem Haus wurden Menschen versteigert. Muskulöse Männer und Frauen, Ketten um die Fußgelenke, sahen '''mit''' leeren Blicken die Landbesitzer an, welche in ihren Mündern stocherten, ihnen in die Ohren sahen und sich auf die Knie niederließen, um ihre After zu betasten.|lang=de|sens=A proximité de leur maison, des êtres humains étaient vendus aux enchères. Des hommes et des femmes musculeux avec des chaînes autour des chevilles contemplaient, le regard vide, les propriétaires terriens qui enfonçaient les doigts dans leur bouche, observaient l’intérieur de leurs oreilles et se mettaient à genoux pour palper leur anus.|source={{ouvrage|auteur={{w|Daniel Kehlmann}}|trad=Juliette Aubert|titre=Die Vermessung der Welt|année=2005|éditeur=Rohwolt|lieu=Hamburg|url=}}}}
+# {{lien|avec|fr|dif=Avec}}, indique la relation générale à l’objet.
+# {{lien|avec|fr|dif=Avec}}, indique l’objet de l’occupation.
+# {{lien|à|fr|dif=À}}, indique la {{lien|simultanéité|fr}}.
+#* {{exemple|'''Mit''' Beginn der Dämmerung werden die Farben intensiver – Gold-, Orange- und Rosétöne vermischt '''mit''' dem tiefen Blau der Nacht. Gleichzeitig steigen die Venus und der Mond höher in den Himmel auf.|lang=de|sens=Au crépuscule, les couleurs s’intensifient : des nuances dorées, orangées et rosées se mêlent au bleu profond de la nuit. Dans le même temps, Vénus et la Lune s’élèvent dans le ciel.|source={{ouvrage|auteur={{w|Hervé Le Tellier}}|trad=Romy Ritte et Jürgen Ritte|titre=Die Anomalie|année=2021|éditeur=Rowohlt Verlag|lieu=Hamburg|url=}}}}
+# {{lien|avec|fr|dif=Avec}}, indique l'{{lien|évolution|fr}} simultanée.
+# {{lien|avec|fr|dif=Avec}}, indique la {{lien|cause|fr}}.
+# Particule séparable de nombreux verbes, voir {{lien|mit-|de}}.
+
+==== {{S|synonymes}} ====
+; Instrumental
+* {{lien|mithilfe|de}}
+* {{lien|mittels|de}}
+
+==== {{S|antonymes}} ====
+* {{lien|ohne|de}}
+
+==== {{S|dérivés}} ====
+* {{lien|mit-|de}}
+
+==== {{S|phrases}} ====
+* {{lien|was ist mit dir|de}}
+
+=== {{S|adverbe|de}} ===
+{{de-inv|mɪt}}
+'''mit''' {{pron|mɪt|de}} {{invariable|de}}
+# [[parmi#fr|Parmi]] ou [[entre]] autres.
+#* {{exemple|Kebab ist '''mit''' das beliebteste Streetfood des Landes. Allein in Wien ist er an über 230 Imbissständen erhältlich.|lang=de|sens=Le kebab est l'un des aliments de rue les plus populaires du pays. Rien qu'à Vienne, il est disponible dans plus de 230 stands de restauration rapide.|source={{périodique|auteur=Eva Biringer|titre=Einmal alles mit scharf! Wie der Döner nach Österreich kam|journal=Der Standard|date=6 mars 2022|texte=https://b.staticfiles.at/elm/static/2022-03-doener/index.html?f9238hf9238f98f923}}}}
+#* {{exemple|(Christoph Heusgen) hat das Minsker Abkommen nach der russischen Annexion der Krim '''mit''' ausgehandelt, eine von vielen Vereinbarungen, die Putin missachtet hat, und Heusgen kann sie alle aufzählen.|lang=de|sens=(Christoph Heusgen) a contribué à négocier les accords de Minsk après l’annexion de la Crimée par la Russie, l'un des nombreux accords que Poutine a ignorés, et Heusgen peut les énumérer tous.|source={{périodique|auteur=Peter Fahrenholz|titre=Ein bisschen Frieden|journal=Süddeutsche Zeitung|date=6 mars 2023|texte=https://www.sueddeutsche.de/medien/kriege-in-der-ukraine-waffenlieferungen-verhandlungen-1.5762766}}}}
+# {{lien|ensemble|fr|dif=Ensemble}} (avec des autres).
+
+==== {{S|vocabulaire}} ====
+{{(|}}
+* {{lien|neben|de}}
+* {{lien|zusammen|de}}
+* {{lien|durch|de}}
+* {{lien|mithilfe|de}}
+* {{lien|mittels|de}}
+* {{lien|per|de}}
+* {{lien|contra|de}}
+{{)}}
+
+=== {{S|prononciation}} ===
+* {{écouter|Berlin (Allemagne)|mɪt|lang=de|audio=De-mit2.ogg}}
+* {{écouter|{{DE|nocat=1}}|mɪt|lang=de|audio=De-mit.ogg}}
+* {{écouter|{{DE|nocat=1}}|mɪt|lang=de|audio=LL-Q188 (deu)-Lucas Werkmeister-mit.wav}}
+* {{écouter|Berlin (Allemagne)|mɪt|lang=de|audio=LL-Q188 (deu)-Sebastian Wallroth-mit.wav}}
+* {{écouter|{{DE|nocat=1}}|mɪt|lang=de|audio=LL-Q188 (deu)-Natschoba-mit.wav}}
+* {{écouter|Munich (Allemagne)||lang=de|audio=LL-Q188 (deu)-Ionenlaser-mit.wav}}
+
+=== {{S|références}} ===
+{{Références}}
+* {{R:DWDS|mit}}
+* ''Duden'' : [https://www.duden.de/rechtschreibung/mit_inklusive_auch_mitsamt mit]
+
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|adverbe|gsw-fr}} ===
+'''mit'''
+# [[avec#fr|Avec]].
+#* {{exemple|lang=gsw-fr}}
+
+==== {{S|variantes orthographiques}} ====
+* [[meet]]
+
+== {{langue|ch}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|ch}}
+
+=== {{S|adjectif numéral|ch}} ===
+'''mit'''
+# [[mille#fr|Mille]].
+#* {{exemple|lang=ch}}
+
+== {{langue|shi}} ==
+=== {{S|étymologie}} ===
+: {{date||lang=shi}} {{ébauche-étym|shi}}
+
+=== {{S|nom|shi}} ===
+{{ber-formes||mit|{{lien|ⵎⵉⵜ|shi}}}}
+'''mit''' {{pron||shi}} {{m}}
+# Quoi.
+#* {{exemple|lang=shi}}
+# Qui.
+#* {{exemple|lang=shi}}
+
+=== {{S|prononciation}} ===
+{{ébauche-pron-audio|shi}}
+
+== {{langue|da}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|da}}
+
+=== {{S|adjectif possessif|da}} ===
+'''mit'''
+# [[ma#fr|Ma]], [[mon]].
+#* {{exemple|lang=da}}
+
+==== {{S|synonymes}} ====
+* [[min]]
+
+== {{langue|hu}} ==
+=== {{S|étymologie}} ===
+: {{composé de|m=1|lang=hu|mi|sens1=quoi|-t}}.
+
+=== {{S|pronom interrogatif|hu}} ===
+'''mit''' {{pron|mit|hu}} ''accusatif singulier''
+# [[que#fr|Que]].
+#* {{exemple | lang=hu
+ | '''Mit''' látsz?
+ | Que'' vois-tu ?}}
+
+=== {{S|prononciation}} ===
+* {{écouter||mit|lang=hu|audio=Hu-mit.ogg}}
+
+== {{langue|chn}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym |chn}}
+
+=== {{S|nom|chn}} ===
+'''mit''' {{pron||chn}}
+# [[pièce#fr|Pièce]] de dix centimes de dollar.
+#* {{exemple|lang=chn}}
+
+==== {{S|dérivés}} ====
+* {{lien|pit|chn}}
+* {{lien|bit|chn}}
+
+=== {{S|références}} ===
+* {{R:cayoosh}}
+
+== {{langue|avk}} ==
+=== {{S|étymologie}} ===
+: {{avk-arbitraire}}<ref>{{avk-ref-arbitraire}}</ref>.
+
+=== {{S|nom|avk}} ===
+'''mit''' {{pron|mit|avk}}
+# {{lexique|médecine|avk}} [[croûte#fr|Croûte]].
+#* {{exemple|lang=avk}}
+
+==== {{S|augmentatifs}} ====
+* {{lien|mitap|avk}}
+
+==== {{S|diminutifs}} ====
+* {{lien|mitam|avk}}
+
+==== {{S|dérivés}} ====
+* {{lien|mitiskaf|avk}}
+* {{lien|mitok|avk}}
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=avk|France|mit|audio=mit (avk).wav}}
+
+=== {{S|références}} ===
+* {{Kotapedia|mit}}
+{{Références}}
+
+[[Catégorie:Mots en kotava répertoriés sur Kotapedia]]
+
+== {{langue|pqm}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|pqm}}
+
+=== {{S|nom|pqm}} ===
+'''mit''' {{pron||pqm}} {{animé|pqm}} ({{p}} : [[mitiyik]])
+# {{arbres|pqm}} [[peuplier à grandes dents#fr|Peuplier à grandes dents]] (''Populus grandidentata'').
+#* {{exemple|lang=pqm}}
+
+==== {{S|dérivés}} ====
+* [[mitiyasq]]
+
+=== {{S|références}} ===
+* [https://pmportal.org/dictionary/mit Passamaquoddy/Maliseet Dictionary]
+
+== {{langue|vo}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|en|vo|mot=meat}}.
+
+=== {{S|nom|vo}} ===
+'''mit''' {{pron|mit|vo}}
+# {{aliments|vo}} [[viande#fr|Viande]].
+#* {{exemple|lang=vo}}
+
+==== {{S|dérivés}} ====
+{{(}}
+* [[babirutamit]]
+* [[babirutülamit]]
+* [[beramit]]
+* [[berülamit]]
+* [[bubamit]]
+* [[bubamitaloet]]
+* [[bubamitaruläd]]
+* [[bubasosit]]
+* [[bubülamit]]
+* [[bubülamitablögäd]]
+* [[dindunamit]]
+* [[dinosoaramit]]
+* [[dogamit]]
+* [[dogülamit]]
+* [[dökamit]]
+* [[cukamit]]
+* [[frogamit]]
+* [[fukamit]]
+* [[ganamit]]
+* [[geidnadamit]]
+* [[girafamit]]
+* [[gokamit]]
+* [[gokülamit]]
+* [[härodamit]]
+* [[himitan]]
+* [[hinudamit]]
+* [[hojipamit]]
+* [[humaramit]]
+* [[jakalamit]]
+* [[jakamit]]
+* [[jamodamit]]
+* [[jevodamit]]
+* [[jevodülamit]]
+* [[jipamit]]
+* [[jipülamit]]
+* [[jimitan]]
+* [[kanguramit]]
+* [[kaparamit]]
+* [[kaparülamit]]
+* [[kapreolamit]]
+* [[kapreolülamit]]
+* [[katamit]]
+* [[katülamit]]
+* [[kroligamit]]
+* [[krovamit]]
+* [[länatortugamit]]
+* [[lasäramit]]
+* [[leefadamit]]
+* [[leefadülamit]]
+* [[leonamit]]
+* [[leonatoaramit]]
+* [[lepamit]]
+* [[lievamit]]
+* [[lostitamit]]
+* [[melatortugamit]]
+* [[menamit]]
+* [[mitacan]]
+* [[mitaglöpil]]
+* [[mitakonsefot]]
+* [[mitaköl]]
+* [[mitakölik]]
+* [[mitameit]]
+* [[mitan]]
+* [[mitanadog]]
+* [[mitanadünan]]
+* [[mitanahidünan]]
+* [[mitanajidünan]]
+* [[mitanaklub]]
+* [[mitapijun]]
+* [[mitapijunül]]
+* [[mitapüladil]]
+* [[mitaruläd]]
+* [[mitasetrat]]
+* [[mitasup]]
+* [[mitavaet]]
+* [[mitazib]]
+* [[miticöp]]
+* [[miticöpablög]]
+* [[miticöpamastan]]
+* [[miticöpan]]
+* [[mitifid]]
+* [[mitifidaf]]
+* [[mitifidik]]
+* [[miticöpateab]]
+* [[miticöpön]]
+* [[miticöpöp]]
+* [[mitihicöpan]]
+* [[mitihixaman]]
+* [[mitijicöpan]]
+* [[mitijixaman]]
+* [[mitik]]
+* [[mitikratot]]
+* [[mitiselöp]]
+* [[mitixam]]
+* [[mitixaman]]
+* [[mövamit]]
+* [[mugamit]]
+* [[muludamit]]
+* [[piakamit]]
+* [[pijunamit]]
+* [[pijunülamit]]
+* [[räkunamit]]
+* [[ratamit]]
+* [[renaramit]]
+* [[ribamit]]
+* [[rulädamit]]
+* [[sagliedamit]]
+* [[salodabubamit]]
+* [[salodamit]]
+* [[salodasvinamit]]
+* [[sebradamit]]
+* [[sebradülamit]]
+* [[smokädamit]]
+* [[snekamit]]
+* [[stägamit]]
+* [[stägülamit]]
+* [[strutamit]]
+* [[strutülamit]]
+* [[svanamit]]
+* [[svinamit]]
+* [[svinamitasosit]]
+* [[svinülamit]]
+* [[tigridamit]]
+* [[tortugamit]]
+* [[valrodamit]]
+* [[valütamit]]
+* [[yatamit]]
+* [[züdöfamit]]
+{{)}}
+
+=== {{S|voir aussi}} ===
+* [[möt]]

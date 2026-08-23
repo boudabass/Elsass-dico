@@ -1,0 +1,76 @@
+{{voir/fir}}
+== {{langue|gsw-fr}} ==
+{{ébauche|gsw-fr}}
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|préposition|gsw-fr}} ===
+'''fir''' {{pron||gsw-fr}}
+# [[pour#fr|Pour]].
+
+== {{langue|en}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|en}}
+
+=== {{S|nom|en}} ===
+{{en-nom-rég|fɜː(r)}}
+[[Image:Abies_balsamea1.jpg|thumb|130px|A '''fir''' ''(Un sapin)'']]
+'''fir''' {{pron|fɜː(r)|en}}
+# {{conifères|en}} [[sapin|Sapin]].
+#* {{exemple|lang=en}}
+
+==== {{S|variantes}} ====
+* {{l|fir tree|en}}
+
+==== {{S|dérivés}} ====
+* {{l|Douglas fir|en|sens=sapin de Douglas}}
+* {{l|Vancouver fir|en|sens=sapin de Vancouver}}
+
+=== {{S|prononciation}} ===
+* {{pron|fɜː(r)|en}}
+* {{écouter|lang=en|USA (Californie)|fɜːr|audio=en-us-fir.ogg}}
+* {{écouter|lang=en|Royaume Uni <!-- précisez svp la ville ou la région -->|fɜː(r)|audio=En-uk-fir.ogg}}
+
+==== {{S|homophones|en}} ====
+* [[fur#en|fur]]
+
+=== {{S|voir aussi}} ===
+* {{WP|3=en}}
+
+== {{langue|ga}} ==
+=== {{S|nom|ga|flexion}} ===
+'''fir''' {{pron|fʲɪɾʲ|ga}} {{m}}
+# ''Vocatif singulier de ''[[fear#ga|fear]].
+# ''Génitif singulier de ''[[fear#ga|fear]].
+# ''Nominatif pluriel de ''[[fear#ga|fear]].
+
+=== {{S|références}} ===
+{{Source-wikt|en|fir|6645504}}
+
+== {{langue|lb}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|lb}}
+
+=== {{S|préposition|lb}} ===
+{{lb-inv|fiːɐ̯|inv_titre=Préposition}}
+'''fir''' {{pron|fiːɐ̯|lb}} {{accusatif|lb}}
+# [[pour#fr|Pour]].
+#* {{exemple|lang=lb
+ | Lescht Chance '''fir''' Luxusbuerg.
+ | Dernière chance pour le Luxusbuerg.
+ | source = Titre du tome 14 des aventures de ''De Superjhemp'', {{w|Lucien Czuga}}, 2000.}}
+
+==== {{S|vocabulaire}} ====
+{{prépositions/lb}}
+
+=== {{S|références}} ===
+{{R:LOD}}
+
+== {{langue|sga}} ==
+
+=== {{S|nom|sga}} ===
+'''fir''' {{pron|fʲir|sga}}
+# ''Pluriel de'' {{lien|fer|sga}}.
+
+=== {{S|références}} ===
+* {{R:Stifter2006|p=21}}

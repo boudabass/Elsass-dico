@@ -1,0 +1,31 @@
+{{voir|Regionalrat}}
+
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: Composé de ''{{lien|regionàl|gsw-fr}}'' (« régional ») et de ''{{lien|Ràt|gsw-fr}}'' (« conseil »).
+
+=== {{S|nom|gsw-fr}} ===
+{{gsw-fr-nom-m|np=Regionàlrät}}
+'''Regionàlràt''' {{phon||gsw-fr}} {{m}}
+# ''(Bas-alémanique du nord)'' {{lexique|politique|gsw-fr}} [[conseil#fr|Conseil]] {{lien|régional|fr}}.
+#* ''de '''Regionàlràt''' vùm Elsàss'' — le conseil régional d’Alsace
+#* {{exemple | lang=gsw-fr
+ | Es isch schunn e Monet her, dàss d’r […] Präsident vum elsässische '''Regionàlràt''', Adrien Zeller, à ’me Herzinfàrkt g’storwe isch.
+ | Cela fait déjà un mois que le Président du conseil régional alsacien, Adrien Zeller, est mort d’un infarctus du myocarde.
+ | source=Raymond {{smcp|Matzen}}, « [http://forum.lixium.fr/v-1853365815.htm Zeller : Elsässer un Europäer] », forum.lixium.fr, 27 septembre 2009}}
+#* {{exemple | lang=gsw-fr
+ | Mit d’r Ùnterstìtzùng vom '''Regionàlràt''' kenne d’ Ski-[S]tàtione sìch modernisìere ùn neui Inrìchtùnge ànbìete.
+ | Grâce au soutien du conseil régional, les stations de ski peuvent se moderniser et proposer de nouveaux aménagements.
+ | source=« La montagne ùf Elsässisch », ''[http://magazine.region.alsace/dynamic/documents/jra_68_bd.pdf Journal Région Alsace {{n°|68}}]'', page 7}}
+
+==== {{S|variantes dialectales}} ====
+* {{lien|Regionàlrot|gsw-fr}} ''(bas-alémanique du Sud)''
+
+==== {{S|hyperonymes}} ====
+* {{lien|Ràt|gsw-fr}} — conseil
+
+==== {{S|notes}} ====
+Forme du bas-alémanique du Nord, parlé en Basse-Alsace.
+
+=== {{S|références}} ===
+* [https://web.archive.org/web/20160729185912/http://culture.alsace.pagesperso-orange.fr/page_cf.htm « Conseil régional »], dictionnaire français-alsacien, culture.alsace.pagesperso-orange.fr.

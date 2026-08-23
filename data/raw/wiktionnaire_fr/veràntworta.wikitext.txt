@@ -1,0 +1,13 @@
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|verbe|gsw-fr}} ===
+'''veràntworta''' {{pron||gsw-fr}}
+# [[assumer|Assumer]].
+
+==== {{S|dérivés}} ====
+* [[veràntwortlig]]
+* [[Veràntwortung]]
+
+{{clé de tri|verantworta}}

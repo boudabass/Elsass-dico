@@ -1,0 +1,16 @@
+{{voir|kanton|Kanton}}
+
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|nom|gsw-fr}} ===
+{{gsw-fr-nom-m|np=Kàntona}}
+'''Kànton''' {{phon||gsw-fr}} {{m}}
+# {{lexique|toponymie|gsw-fr}} [[canton#fr|Canton]].
+#* {{exemple | lang=gsw-fr
+ | d’ Schwitzer '''Kàntona'''
+ | les cantons suisses}}
+#* {{exemple | lang=gsw-fr
+ | dr '''Kànton''' Roose
+ | le canton de Rosheim}}

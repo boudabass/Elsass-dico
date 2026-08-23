@@ -1,0 +1,51 @@
+{{voir|rucksack|rücksack}}
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: {{siècle|Seconde partie du XIX|lang=de}} {{composé de|Rücken|sens1=[[dos]]|Sack|sens2=[[sac]]|lang=de|m=1}}, mais avec une forme sans [[umlaut]] reprise des [[dialecte]]s [[alpin]]s de l’[[allemand supérieur]]{{R|Duden|Rucksack}}{{R|DWDS|Rucksack}}{{R|DWb|Rucksack}} ; apparenté au néerlandais {{lien|''rugzak''|nl}}, au suédois {{lien|''ryggsäck''|sv}}.
+
+=== {{S|nom|de}} ===
+{{de-nom-m-s-e|gse=opt|dse=opt|np= Rucksäcke}}
+'''Rucksack''' {{pron|ʁʊk.ˌzak|de}} {{m}}
+# [[sac à dos#fr|Sac à dos]].
+#* {{exemple|Blake faltet sein Handtuch sorgfältig zusammen, verstaut es in seinem '''Rucksack''', schiebt dann mit Sorgfalt die Feldflasche nach, bevor er flink eine Pistole herauszieht.|lang=de|sens=Blake replie la serviette avec soin, la range dans son sac à dos, puis il y glisse la gourde avec soin, avant de sortir vivement un pistolet.|source={{ouvrage|auteur={{w|Hervé Le Tellier}}|trad=Romy Ritte et Jürgen Ritte|titre=Die Anomalie|année=2021|éditeur=Rowohlt Verlag|url=}}}}
+#* {{exemple|Es ist zehn Uhr, der Termin war um neun Uhr. Von nun an wird nichts mehr dem Zufall überlassen: seine unverschämte Verspätung, seine Sandalen, seine verwaschenen Jeans und sein weißes Baumwollhemd mit Nehru-Kragen, sein '''Rucksack''' aus Leinen.|lang=de|sens=Il est dix heures, la réunion était à neuf heures. Rien n’est laissé au hasard, désormais : son retard indécent, ses sandales, son jean délavé et sa chemise de coton blanc au col Nehru, son sac à dos de toile.|source={{ouvrage|auteur={{w|Hervé Le Tellier}}|trad=Romy Ritte et Jürgen Ritte|titre=Die Anomalie|année=2021|éditeur=Rowohlt Verlag|lieu=Hamburg|url=}}}}
+
+==== {{S|synonymes}} ====
+* {{lien|Affe|de}}
+* {{lien|Knapsack|de}}
+
+==== {{S|antonymes}} ====
+* {{lien|Ranzen|de}}
+
+==== {{S|dérivés}} ====
+* {{lien|Rucksacktourismus|de}}
+* {{lien|Rucksacktourist|de}}
+
+==== {{S|hyperonymes}} ====
+* {{lien|Tasche|de}}
+
+==== {{S|hyponymes}} ====
+{{(|}}
+* {{lien|Düsenrucksack|de}}
+* {{lien|Laufrucksack|de}}
+* {{lien|Lawinenrucksack|de}}
+* {{lien|Notfallrucksack|de}}
+{{)}}
+
+=== {{S|prononciation}} ===
+* {{écouter|Berlin (Allemagne)|ˈʁʊkˌzak|lang=de|audio=De-Rucksack.ogg}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=de}}
+
+=== {{S|références}} ===
+{{Références}}
+
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|de|gsw-fr|mot=Rucksack}}.
+
+=== {{S|nom|gsw-fr}} ===
+'''Rucksack'''
+# [[sac à dos|Sac à dos]].

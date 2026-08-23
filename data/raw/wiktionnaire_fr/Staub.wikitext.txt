@@ -1,0 +1,134 @@
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: {{siècle|X|XI|lang=de}} Du {{étyl|goh|de|stoub}} / ''{{lien|stoup|goh}}'' {{circa|1000}}, en {{étyl|gmh|de|stoub}} / ''{{lien|stoup|gmh}}''{{R|DWDS|Staub}}{{R|DWb|Staub}}{{R|Duden|Staub}}. Cognat du danois ''{{lien|støv|da}}'', du norvégien ''{{lien|støv|no}}'', du gotique ''{{lien|𐍃𐍄𐌿𐌱𐌾𐌿𐍃|got}}'' et du néerlandais ''{{lien|stof|nl}}''.
+
+=== {{S|nom|de}} ===
+{{de-nom-m-s-e|gse=opt|dse=opt|np=Stäube|np2=Staube}}
+'''Staub''' {{pron|ʃtaʊ̯p|de}} {{m}}
+# [[poussière|Poussière]].
+#* {{exemple|Es wird empfohlen, die Bettwäsche täglich an der frischen Luft auszuschütteln, damit sich kein '''Staub''' darin ansammeln kann.|lang=de|sens=Il est recommandé de secouer la linge de lit tous les jours à l'air libre afin d'éviter que la poussière ne puisse s'y accumuler.}}
+#* {{exemple|Bevor wir unser Möbelstück lasieren können, müssen wir die Oberfläche abschmirgeln und den '''Staub''' absaugen.|lang=de|sens=Avant de pouvoir lasurer notre meuble, nous devons poncer la surface et aspirer la poussière.}}
+#* {{exemple|Der Grund dafür war, dass viele Menschen im Mittelalter an Lungenkrankheiten litten, ausgelöst durch den ständigen Rauch der verschiedensten Feuer zum Heizen, kochen in der Küche oder beim Arbeiten und durch '''Staub''', Kälte und Zugluft. Im Sitzen ist es der Atemmuskulatur besser möglich, die Atemarbeit zu unterstützen und so fiel es leichter, im Sitzen zu schlafen und so besser Luft holen zu können.|lang=de|sens=La raison en était qu'au Moyen Âge, de nombreuses personnes souffraient de maladies pulmonaires causées par la fumée constante des différents feux utilisés pour se chauffer, cuisiner ou travailler, ainsi que par la poussière, le froid et les courants d'air. En position assise, les muscles respiratoires peuvent mieux soutenir le travail respiratoire, il était donc plus facile de dormir assis et de mieux respirer.|source={{périodique|auteur=Jürgen Rieger|titre=Warum hatten die Menschen früher so kurze Betten?|journal=Dorf- und Heimatmuseum Winterbach|date=15 juin 2020|texte=https://heimatverein-winterbach.de/2020/06/15/warum-hatten-die-menschen-fruher-so-kurze-betten}}}}
+
+==== {{S|dérivés}} ====
+: Substantifs en ''-staub'' / ''-Staub'' : cf. [[#Hyponymes|hyponymes]]
+{{(|Autres substantifs}}
+* {{l|Bodenstaubsauger|de|sens=[[aspirateur]]-[[traîneau]]}}
+* {{l|Staubexplosion|de|sens=[[explosion]] de [[poussière]]}}
+* {{l|Staubbesen|de}}
+* {{l|Staubbeutel|de|sens=[[sac]] à [[poussière]]}}
+* {{l|Staubblatt|de}}
+* {{l|Stäubchen|de}}
+* {{l|Staubfaden|de}}
+* {{l|Staubfänger|de}}
+* {{l|Staubfilter|de|sens=[[filtre]] à [[poussière]]}}
+* {{l|Staubgefäß|de}}
+* {{l|Staubkamm|de}}
+* {{l|Staubkorn|de|sens=[[grain]] de [[poussière]]}}
+* {{l|Staublappen|de}}
+* {{l|Staublawine|de}}
+* {{l|Staublunge|de}}
+* {{l|Staubmantel|de}}
+* {{l|Staubpartikel|de|sens=[[particule]] de [[poussière]]}}
+* {{l|Staubsauger|de|sens=[[aspirateur]]}}
+* {{l|Staubschicht|de|sens=[[couche]] de [[poussière]]}}
+* {{l|Staubstrahlen|de|sens=[[gommage]]}} – ''([[procédé]] de [[traitement de surface]])''
+* {{l|Staubteilchen|de|sens=[[particule]] de [[poussière]]}}
+* {{l|Staubtuch|de}}
+* {{l|Staubwedel|de|sens=[[plumeau]]}}
+* {{l|Staubwolke|de|sens=[[nuage]] de [[poussière]]}}
+* {{l|Staubzucker|de|sens=[[sucre glace]]}}
+{{)}}
+{{(|Autres termes}}
+* {{l|abstauben|de}}
+* {{l|in den Staub treten|de}}
+* {{l|sich aus dem Staub machen|de|sens=[[décamper]] », « [[s’éclipser]]}}
+* {{l|staubabweisend|de}}
+* {{l|staubbedeckt|de}}
+* {{l|stauben|de}}
+* {{l|stäuben|de|sens=[[saupoudrer]] », « se [[disperser]] en [[poussière]]}}
+* {{l|staubfein|de|sens=[[fin]] comme la [[poussière]]}}
+* {{l|staubfrei|de|sens=[[exempt]] de [[poussière]]}}
+* {{l|staubig|de|sens=[[poussiéreux]]}}
+* {{l|staubsaugen|de|sens=[[aspirer]] », « [[passer l’aspirateur]]}}
+* {{l|staubtrocken|de|sens=[[sec]] comme la [[poussière]]}}
+{{)}}
+
+==== {{S|hyperonymes}} ====
+* {{l|Pulver|de|sens=[[poudre]]}}
+* {{l|Schmutz|de|sens=[[saleté]]}} – ''(souvent)''
+
+==== {{S|hyponymes}} ====
+{{(|Substantifs en ''-staub''}}
+* {{l|Aktenstaub|de}}
+* {{l|Asbeststaub|de|sens=[[poussière]] d’[[amiante]]}}
+* {{l|Blütenstaub|de|sens=[[pollen]]}}
+* {{l|Bohrstaub|de|sens=[[poussière]] de [[perçage]]}}
+* {{l|Braunkohlenstaub|de|sens=[[poussière]] de [[lignite]]}}
+* {{l|Bronzestaub|de|sens=[[limaille]] de [[bronze]]}}
+* {{l|Diamantenstaub|de|sens=[[poussière]] de [[diamant]]}}
+* {{l|Eisstaub|de|sens=[[poussière]] de [[glace]]}}
+* {{l|Eisenstaub|de|sens=[[limaille]] de [[fer]]}}
+* {{l|Feilstaub|de|sens=[[limaille]]}}
+* {{l|Feinstaub|de|sens=[[particules fines]] », « [[poussières fines]]}}
+* {{l|Feinststaub|de|sens=[[particules ultrafines]]}}
+* {{l|Flugstaub|de}}
+* {{l|Gesteinsstaub|de|sens=[[poussière]] de [[roche]]}}
+* {{l|Gipsstaub|de|sens=[[poussière]] de [[plâtre]]}}
+* {{l|Goldstaub|de|sens=[[limaille]] d’[[or]]}}
+* {{l|Grobstaub|de|sens=[[poussière]]s [[grossier|grossières]]}}
+* {{l|Hartholzstaub|de|sens=[[poussière]] de [[bois]] [[dur]]}}
+* {{l|Holzstaub|de|sens=[[poussière]] de [[bois]]}}
+* {{l|Hausstaub|de|sens=[[poussière]] [[domestique]]}}
+* {{l|Kalkstaub|de|sens=[[poussière]] de [[calcaire]]}}
+* {{l|Knochenstaub|de}}
+* {{l|Kohlenstaub|de|sens=[[poussière]] de [[charbon]]}}
+* {{l|Kreidestaub|de|sens=[[poussière]] de [[craie]]}}
+* {{l|Mehlstaub|de}}
+* {{l|Metallstaub|de|sens=[[limaille]] [[métallique]]}}
+* {{l|Mondstaub|de}}
+* {{l|Mörtelstaub|de|sens=[[poussière]] de [[mortier]]}}
+* {{l|Pollenstaub|de}}
+* {{l|Rasierstaub|de}}
+* {{l|Reisestaub|de}}
+* {{l|Schneestaub|de}}
+* {{l|Schwebstaub|de|sens=[[poussière]] en [[suspension]]}}
+* {{l|Steinkohlenstaub|de}}
+* {{l|Steinstaub|de|sens=[[poussière]] de [[pierre]]}}
+* {{l|Sternenstaub|de|sens=[[poussière]] d’[[étoile]]s}}
+* {{l|Straßenstaub|de}}
+* {{l|Ultrafeinstaub|de|sens=[[particules ultrafines]]}}
+* {{l|Wasserstaub|de}}
+* {{l|Zementstaub|de|sens=[[poussière]] de [[ciment]]}}
+* {{l|Ziegelstaub|de|sens=[[poussière]] de [[tuile]]}}
+{{)}}
+
+==== {{S|phrases}} ====
+* {{lien|sich aus dem Staub machen|de|dif=sich aus dem ''Staub'' machen}}
+* {{lien|in den Staub treten|de|dif=in den ''Staub'' treten}}
+* {{lien|Staub aufwirbeln|de|dif=''Staub'' aufwirbeln}}
+
+=== {{S|prononciation}} ===
+* {{pron|ʃtaʊ̯p|de}}
+* {{écouter|Berlin (Allemagne)|ʃtaʊ̯p|lang=de|audio=De-Staub.ogg}}
+* {{écouter|{{DE|nocat=1}}|ʃtaʊ̯p|lang=de|audio=LL-Q188 (deu)-Lucas Werkmeister-Staub.wav}}
+* {{écouter|Berlin (Allemagne)|ʃtaʊ̯p|lang=de|audio=LL-Q188 (deu)-Sebastian Wallroth-Staub.wav}}
+* {{écouter|Hamburg (Allemagne)|ʃtaʊ̯p|lang=de|audio=LL-Q188 (deu)-CamelCaseNick-Staub.wav}}
+* {{écouter|Munich (Allemagne)|ʃtaʊ̯p|lang=de|audio=LL-Q188 (deu)-Ionenlaser-Staub.wav}}
+
+=== {{S|anagrammes}} ===
+{{voir anagrammes|de}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=de}}
+
+=== {{S|références}} ===
+{{références}}
+
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|nom|gsw-fr}} ===
+'''Staub'''
+# [[poussière|Poussière]]

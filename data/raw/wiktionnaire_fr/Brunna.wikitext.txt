@@ -1,0 +1,8 @@
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: Voir ''{{lien|Brunnen|de}}'' en allemand.
+
+=== {{S|nom|gsw-fr}} ===
+'''Brunna'''
+# [[fontaine#fr|Fontaine]].
+#*{{exemple|lang=gsw-fr}}

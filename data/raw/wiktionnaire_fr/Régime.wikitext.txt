@@ -1,0 +1,10 @@
+{{voir/regime}}
+
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|fr|gsw-fr|régime}}.
+
+=== {{S|nom|gsw-fr}} ===
+'''Régime'''
+# [[régime#fr|Régime]] diététique.
+{{clé de tri|regime}}

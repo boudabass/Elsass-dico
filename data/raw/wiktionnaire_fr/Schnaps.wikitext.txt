@@ -1,0 +1,111 @@
+{{voir|schnaps}}
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: {{siècle|XVIII}}. Du {{étyl|nds|de|mot=schnaps|sens=gorgée}}. {{déverbal|de|de=schnappen|sens=saisir, attraper|lang=de|m=1}}<ref>{{source|Friedrich {{pc|Kluge}}, Elmar {{pc|Seebold}} : ''Etymologisches Wörterbuch der deutschen Sprache. 25.'', édition revue et augmentée. Éditeur Walter de Gruyter, Berlin/New York 2011, ISBN 978-3-11-022364-4, DNB 1012311937, mot-clé: „Schnaps“, page 818}}.</ref>.
+
+=== {{S|nom|de}} ===
+{{de-nom-m-s-e|ʃnaps|ˈʃnɛpsə|gs=Schnapses|pgs=ˈʃnapsəs|np=Schnäpse|ds2=Schnapse}} 
+[[Fichier:Schnapsglas-5692.jpg|vignette|135px|Ein Glas '''Schnaps''' ''(Un verre de schnaps)'']]
+'''Schnaps''' {{pron|ʃnaps|de}} {{m}}
+# {{alcools|de}} [[schnaps#fr|Schnaps]], [[eau-de-vie]].
+#* {{exemple|lang=de|Ich hätte gerne noch einen '''Schnaps'''.|sens=Je voudrais encore une autre eau de vie.}}
+#* {{exemple|Sie mochten jetzt, wenn sie wollten, zusehen, wie er zu einem Wandschränkchen ging, in dem er einen guten '''Schnaps''' aufbewahrte, wie er ein Gläschen zuerst zum Ersatz des Frühstücks leerte und wie er ein zweites Gläschen dazu bestimmte, sich Mut zu machen, das letztere nur aus Vorsicht für den unwahrscheinlichen Fall, daß es nötig sein sollte.|lang=de|sens=Ils le verraient aller chercher un bon vieux schnaps qu’il conservait au fond de son petit placard, vider un verre pour remplacer son déjeuner et un second pour se donner du courage, mais par prudence seulement, pour prévoir l’improbable cas où ce courage serait nécessaire.|source={{ouvrage|auteur={{w|Franz Kafka}}|trad=Alexandre Vialatte|titre=Der Prozess|année=1925|éditeur=Verlag Die Schmiede|url=}}}}
+#* {{exemple|Um kurz vor acht schauen sie mal rein. Drinnen ist da gleich diese Clubdunkelheit, unterbrochen von wenigen bunten Lichtern. Die Luft riecht leicht nach '''Schnaps''', die Musik wummert.|lang=de|sens=Ils entrent un peu avant huit heures. À l’intérieur, il y a tout de suite cette obscurité de club, interrompue par quelques lumières colorées. L’air sent légèrement l’eau-de-vie, la musique gronde.|source={{périodique|auteur=Elisa Britzelmeier|titre="Mama geht tanzen": Feiern, bis der Ehemann kommt|journal=Süddeutsche Zeitung|date=27 juin 2023|texte=https://www.sueddeutsche.de/panorama/mama-geht-tanzen-party-muetter-mutterschaft-feiern-clubs-wuppertal-eltern-1.6167668}}}}
+
+==== {{S|synonymes}} ====
+{{(|}}
+* [[Branntwein]] (''eau-de-vie'')
+* [[Feuerwasser]]
+* [[Lebenswasser]] (''eau-de-vie'')
+* [[Lötwasser]] (par plaisanterie)
+* [[Sprit]] (familier)
+{{)}}
+
+==== {{S|dérivés}} ====
+{{(|&nbsp;}}
+* [[Agavenschnaps]] 
+* [[Anisschnaps]] (''eau-de-vie anisée'')
+* [[Apfelschnaps]] (''eau-de-vie de pomme'')
+* [[Aprikosenschnaps]] (''eau-de-vie d'abricot'')
+* [[Birnenschnaps]] (''eau-de-vie de poire'')
+* [[Feigenschnaps]] (''eau-de-vie de figue'')
+* [[Gewürzschnaps]] 
+* [[Kirschenschnaps]] (''eau-de-vie de cerise'')
+* [[Kornschnaps]]
+* [[Kräuterschnaps]]
+* [[Magenschnaps]]
+* [[Marillenschnaps]] (''abricotine'')
+* [[Maulbeerenschnaps]] (''eau-de-vie de mûre'')
+* [[Obstschnaps]] (''eau-de-vie de fruits'')
+* [[Pfefferminzschnaps]] (''liqueur de menthe poivrée'')
+* [[Pfirsichschnaps]] (''eau-de-vie de pêche'')
+* [[Quittenschnaps]] (''eau-de-vie de coing'')
+* [[Reisschnaps]] (''eau-de-vie de riz''), (''choum'')
+* [[Schnapsatem]] (''haleine alcoolisée'')
+* [[Schnapsbrenner]] (''bouilleur''), (''distillateur''), [[Schnapsbrennerin]] (''bouilleuse''), (''distillatrice'')
+* [[Schnapsbrennerei]] (''distillerie'')
+* [[Schnapsbrett]] 
+* [[Schnapsbruder]] (''compagnon de beuverie'')
+* [[Schnapsbude]] (''bar à schnaps'')
+* [[Schnäpschen]] (''petit verre de schnaps''), (''goutte de schnaps'')
+* [[Schnapsdrossel]] (''alcoolique''), (''poivrot'') 
+* [[schnäpseln]]
+* [[schnapsen]]
+* [[Schnapsfabrik]]
+* [[Schnapsfahne]] (''haleine alcoolisée'')
+* [[Schnapsflasche]] (''bouteille d'eau-de-vie'')
+* [[Schnapsglas]] (''verre à liqueur'')
+* [[Schnapsidee]] (''idée loufoque''), (''idée saugrenue'')
+* [[Schnapskiste]]
+* [[Schnapskneipe]]
+* [[Schnapskonsum]]
+* [[Schnapsleiche]]
+* [[Schnapslieferung]]
+* [[Schnapsnase]]
+* [[Schnapspraline]]
+* [[Schnapspulle]]
+* [[Schnapsspelunke]]
+* [[Schnapstrinker]]
+* [[Schnapszahl]] (''nombre composé de plusieurs chiffres identiques'')
+* [[Tresterschnaps]] (''eau-de-vie de marc'')
+* [[Verdauungsschnaps]] (''digestif'')
+* [[Vogelbeerschnaps]] (''eau-de-vie de baies de sorbier'')
+* [[Wacholderschnaps]] (''eau-de-vie de genièvre'')
+* [[Weinhefeschnaps]]
+{{)}}
+
+==== {{S|hyperonymes}} ====
+* [[Alkohol]] (''alcool'')
+* [[Getränk]] (''boisson'')
+* [[Spirituose]] (''spiritueux'')
+
+==== {{S|hyponymes}} ====
+* [[Obstler]]
+* [[Rum]] (''rhum'')
+
+=== {{S|prononciation}} ===
+* {{écouter|Berlin|ʃnaps|lang=de|audio=De-Schnaps2.ogg}}
+* {{écouter|Berlin|ʃnaps|lang=de|audio=De-Schnaps.ogg}}
+* {{écouter|Berlin|ʃnaps|lang=de|audio=LL-Q188 (deu)-Sebastian Wallroth-Schnaps.wav}}
+
+=== {{S|références}} ===
+{{Références}}
+==== {{S|sources}} ====
+* {{R:DWDS|Schnaps}}
+* {{R:Duden|Schnaps}} 
+* {{Source-wikt|de|Schnaps}}
+==== {{S|bibliographie}} ====
+* Larousse - dictionnaire Allemand/Français - Français/Allemand, éd. 1958, p 665.
+* Harrap’s compact – dictionnaire Allemand/Français, éd. 2012, ISBN 978-2-81-870683-1, p 1496. 
+* Hachette – Langenscheidt – dictionnaire Français/Allemand – Allemand/Français, éd. 1995, ISBN 2-01280452-7, p 1368.
+
+{{Bonne entrée|allemand}}
+
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: Voir ''{{lien|Schnaps|de}}''.
+
+=== {{S|nom|gsw-fr}} ===
+'''Schnaps'''
+# [[eau-de-vie#fr|Eau-de-vie]].

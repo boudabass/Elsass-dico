@@ -1,0 +1,11 @@
+{{voir|Elsassisch|Elsässisch|elsässisch}}
+
+== {{langue|gsw-fr}} ==
+{{ébauche|gsw-fr}}
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|adjectif|gsw-fr}} ===
+'''elsässisch'''
+# [[alsacien]].

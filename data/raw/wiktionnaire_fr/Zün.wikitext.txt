@@ -1,0 +1,10 @@
+{{voir/zun}}
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: Apparenté à l’{{étyl|de|gsw-fr|mot=Zaun|sens=clôture}}.
+
+=== {{S|nom|gsw-fr}} ===
+'''Zün''' {{pron||gsw-fr}}
+# [[clôture#fr|Clôture]], [[enclos]]
+
+{{clé de tri|zun}}

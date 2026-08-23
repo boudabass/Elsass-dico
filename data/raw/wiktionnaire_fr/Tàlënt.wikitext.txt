@@ -1,0 +1,11 @@
+{{vérifier création automatique||gsw-fr}}
+{{voir|talent|Talent}}
+
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|nom|gsw-fr}} ===
+'''Tàlënt'''
+# [[talent|Talent]]
+{{clé de tri|talent}}

@@ -1,0 +1,20 @@
+{{voir|blatter|Blätter}}
+
+== {{langue|de}} ==
+=== {{S|nom|de|flexion}} ===
+{{de-nom-n|ns=Blatt|gs2=Blattes|ds2=Blatte|np=Blätter}}
+'''Blätter''' {{pron|ˈblɛtɐ|de}} {{n}}
+# ''Accusatif pluriel de'' [[Blatt#de|Blatt]].
+# ''Génitif pluriel de'' [[Blatt#de|Blatt]].
+# ''Nominatif pluriel de'' [[Blatt#de|Blatt]].
+
+=== {{S|prononciation}} ===
+* {{écouter|{{DE|nocat=1}}|ˈblɛtɐ|lang=de|audio=De-Blätter.ogg}}
+* {{écouter|Berlin|ˈblɛtɐ|lang=de|audio=De-Blätter2.ogg}}
+
+== {{langue|gsw-fr}} ==
+=== {{S|nom|gsw-fr|flexion}} ===
+'''Blätter''' {{pron||gsw-fr}}
+# [[feuille|Feuilles]], ''pluriel de'' {{lien|Blàtt|gsw-fr}}.
+
+{{clé de tri|blatter}}

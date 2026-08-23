@@ -1,0 +1,41 @@
+{{voir/ele}}
+
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|suffixe|gsw-fr}} ===
+'''-ele'''
+# Suffixe permettant de fabriquer des [[diminutif]]s
+
+== {{langue|fro}} ==
+=== {{S|étymologie}} ===
+: Féminin de ''{{lien|-el|fro}}''.
+
+=== {{S|nom|fro}} ===
+'''-ele''' {{pron-recons||fro}}
+# Suffixe permettant de fabriquer des [[diminutif]]s féminins.
+#* {{exemple | lang=fro | tour'''ele'}}
+
+==== {{S|variantes}} ====
+* {{lien|-elle|fro}} ''(forme tardive)''
+
+==== {{S|dérivés autres langues}} ====
+* {{L|fr}} : {{lien|-elle|fr}}
+
+== {{langue|ln}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|ln}}
+
+=== {{S|suffixe|ln}} ===
+'''-ele'''
+# Suffixe nominal pour les [[instrument]]s, utilisé avec les préfixes nominaux ''[[e-]]/[[bi-]]'' de classe 7 et 8, dont la voyelle {{pron|e|ln}} change selon l’harmonie vocalique avec les voyelles {{pron|ɛ|ln}} et {{pron|ɔ|ln}} du radical.
+
+==== {{S|variantes}} ====
+* [[-eli#ln|-eli]]
+
+==== {{S|vocabulaire}} ====
+* [[-eli#ln|-eli]]
+* [[-elo#ln|-elo]]
+
+{{clé de tri|ele}}

@@ -1,0 +1,60 @@
+{{voir/appetit}}
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: {{siècle|XV}}. Du {{étyl|fr|de|mot=appétit}}, de l’{{étyl|fro|de|mot=apetit}}, issu du {{étyl|la|de|mot=appetītus}}.<ref> {{source|Wolfgang {{pc|Pfeifer}}, ''Etymologisches Wörterbuch des Deutschen'', Éditions Deutscher Taschenbuch, 1997, ISBN-13: 978342-3325110 }} </ref>
+
+=== {{S|nom|de}} ===
+{{de-nom-m-sing|gse=opt|dse=opt}}
+'''Appetit''' {{pron|apeˈtiːt|de}} ou {{pron|apəˈtɪt|de}} {{m}}, {{au singulier uniquement|de}}.
+# [[appétit#fr|Appétit]].
+#* {{exemple|Er hat '''Appetit'''.|sens=Il a de l'appétit.|lang=de}}
+#* {{exemple|Das hat uns den '''Appetit''' verdorben.|sens=Cela nous a coupé l'appétit.|lang=de}}
+#* {{exemple|Guten '''Appetit'''!|sens=Bon appétit !|lang=de}}
+==== {{S|dérivés}} ====
+{{(|&nbsp;}} 
+* [[appetitanregend]] (''appétissant(e)'')
+* [[Appetitanreger]]
+* [[Appetitbrötchen]]
+* [[appetiterweckend]]
+* [[Appetithäppchen]]
+* [[Appetithappen]] (''amuse-gueule'')
+* [[Appetithemmer]]
+* [[appetitlich]] (''appétissant(e)'')
+* [[appetitlos]] (''sans appétit'')
+* [[Appetitlosigkeit]] (''manque d’appétit'')
+* [[Appetitsbrot]]
+* [[Appetitsbrötchen]]
+* [[Appetitshappen]]
+* [[Appetitzügler]] (''coupe-faim'')
+* [[Bombenappetit]]
+* [[Mordsappetit]] 
+* [[Risikoappetit]]
+{{)}}
+==== {{S|phrases}} ====
+* [[der Appetit kommt beim Essen]] (''l'appétit vient en mangeant'')
+
+=== {{S|prononciation}} ===
+* {{écouter||apəˈtɪt|lang=de|audio=De-Appetit.ogg}}
+=== {{S|références}} ===
+<references />
+==== {{S|sources}} ====
+* {{R:DWDS|Appetit}}
+* {{R:Duden|Appetit}} 
+* {{Source-wikt|de|Appetit}}
+==== {{S|bibliographie}} ====
+* Larousse - Dctionnaire allemand/français – français/allemand , éd. 1958, p 382.
+* Harrap’s  de poche – Bordas Dictionnaire allemand/français, éd. 1997, ISBN 0-245-50308-0, p 21.
+
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+:Du {{étyl|la|gsw-fr|mot=appetitus}}.
+
+=== {{S|nom|gsw-fr}} ===
+'''Appetit'''
+# [[appétit|Appétit]]
+
+[[Catégorie:Lexique en allemand de la physiologie]]
+[[Catégorie:Lexique en allemand de l’alimentation]]
+[[Catégorie:Lexique en alémanique alsacien de la physiologie]]
+[[Catégorie:Lexique en alémanique alsacien de l’alimentaire]]

@@ -1,0 +1,11 @@
+{{voir/laser}}
+
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|nom|gsw-fr}} ===
+'''Lãser''' {{pron||gsw-fr}}
+# [[lecteur|Lecteur]].
+
+{{clé de tri|laser}}

@@ -1,0 +1,11 @@
+{{vérifier création automatique||gsw-fr}}
+{{voir|-kɛndɛ|kende}}
+
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|nom|gsw-fr}} ===
+'''Kënde'''
+# [[enfant|Enfant]]
+{{clé de tri|kende}}

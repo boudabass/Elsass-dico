@@ -1,0 +1,11 @@
+{{vérifier création automatique||gsw-fr}}
+{{voir|Rise|rise|risé}}
+
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|verbe|gsw-fr}} ===
+'''rîse'''
+# [[tomber|Tomber]] [[goutte]] à [[goutte]]
+{{clé de tri|rise}}

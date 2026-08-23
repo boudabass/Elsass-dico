@@ -1,0 +1,42 @@
+{{voir/na}}
+
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|interjection|gsw-fr}} ===
+'''nà !'''
+# Ah !
+
+== {{langue|vi}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|vi}}
+
+=== {{S|nom|vi}} ===
+'''nà''' {{pron|na˧˨|vi}}
+# {{rare|vi}} [[lais|Lais]].
+#* {{exemple | lang=vi
+ | Trồng ngô ở '''nà''' Sông Hồng
+ | Planter du mais sur les lais du Fleuve Rouge}}
+# [[donc|Donc]]!; [[allons]]!
+#* {{exemple | lang=vi
+ | Ta đi '''nà'''
+ | Allons! partons}}
+#* {{exemple | lang=vi
+ | đâu '''nà''' ?
+ | Où donc?}}
+
+=== {{S|prononciation}} ===
+{{ébauche-pron-audio|vi}}
+
+==== {{S|paronymes}} ====
+* [[ná]]
+* [[nã]]
+* [[nả]]
+* [[na]]
+* [[nạ]]
+
+=== {{S|références}} ===
+* {{R:FVDP}}
+
+{{clé de tri|na}}

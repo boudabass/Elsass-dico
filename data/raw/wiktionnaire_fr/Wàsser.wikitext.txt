@@ -1,0 +1,11 @@
+{{voir/wasser}}
+
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|nom|gsw-fr}} ===
+'''Wàsser'''
+# [[eau|Eau]].
+
+{{clé de tri|wasser}}

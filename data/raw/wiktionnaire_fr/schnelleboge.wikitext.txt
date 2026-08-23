@@ -1,0 +1,12 @@
+== {{langue|gsw-fr}} ==
+{{ébauche|gsw-fr}}
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|nom|gsw-fr}} ===
+'''schnelleboge [der]''' {{m}}
+# [[arc]].
+
+==== {{S|variantes orthographiques}} ====
+* '''schiessböje [der]''' {{m}}

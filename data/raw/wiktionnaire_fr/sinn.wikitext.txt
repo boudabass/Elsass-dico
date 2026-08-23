@@ -1,0 +1,200 @@
+{{voir/sinn}}
+== {{langue|fr}} ==
+{{à formater}}
+=== {{S|étymologie}} ===
+De ''[[sinon#Français|sinon]]'', en appliquant l'abréviation ''[[non#Français|non]]'' → ''[[nn#Français|nn]]''.
+
+=== {{S|conjonction|fr}} ===
+'''sinn''' {{prononciation|si.nɔ̃|fr}} {{prononcé|sinon|fr}} {{invariable}}
+# {{langage SMS|fr}} {{extrêmement rare|fr}} [[sinon#Français|Sinon]].
+
+=== {{S|anagrammes}} ===
+{{voir anagrammes|fr}}
+
+== {{langue|de}} ==
+=== {{S|verbe|de|flexion}} ===
+'''sinn''' {{pron|zɪn|de}}
+# ''Deuxième personne du singulier de l’impératif présent de'' {{lien|sinnen|de}}.
+
+=== {{S|prononciation}} ===
+* {{écouter|Berlin|zɪn|lang=de|audio=De-sinn.ogg}}
+
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|verbe|gsw-fr}} ===
+'''sinn''' {{pron||gsw-fr}}
+# Auxiliaire [[être]].
+# ''Troisième personne du pluriel au présent de l’indicatif de'' '''sinn'''.
+
+== {{langue|fo}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|fo}}
+
+=== {{S|nom|fo}} ===
+{{fo-décl-nom-n9|si|n}}
+'''sinn''' {{pron|sɪnː|fo}} {{n}}
+# [[fois|Fois]].
+#* ''á '''sinni''''' : depuis cette fois.
+#* ''á hesum '''sinni''''' : cette fois-ci, maintenant.
+#* ''ikki á hvørjum '''sinni''''' : rarement.
+#* ''á síðsta '''sinni''''' : pour la dernière fois.
+#* ''ikki enn á '''sinni''''' : pas encore.
+
+== {{langue|francique rhénan}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|francique rhénan}}
+=== {{S|adjectif possessif|francique rhénan}} ===
+'''sinn''' {{pron|sin|francique rhénan}}
+# [[son|Son]], [[sa]], [[ses]].
+
+== {{langue|gd}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|sga|gd|mot=sinni}}.
+
+=== {{S|pronom personnel|gd}} ===
+'''sinn''' {{pron||gd}}
+# [[nous|Nous]].
+#* ''Thèid '''sinn''' dhan bhanca a-màireach; chì sibh sinn ann.'' : Nous irons à la banque demain ; vous nous verrez là-bas.
+
+==== {{S|synonymes}} ====
+* (emphatique) [[sinne]]
+
+== {{langue|ga}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|sga|ga|mot=sinni}}.
+
+=== {{S|pronom personnel|ga}} ===
+'''sinn''' {{pron|ʃɪnʲ|ga}}
+# [[nous|Nous]] (disjoint).
+# {{term|non-standard}} [[nous|Nous]] (conjoint).
+
+==== {{S|notes}} ====
+Dans le système traditionnel hérité du vieil irlandais, '''sinn''' est le pronom disjoint de la première personne du pluriel, et son équivalent sujet n'existe pas, le verbe portant toujours une désinence personnelle (''-imid'', ''-imis'', ''-amar'' etc.)
+
+Le pronom alternatif '''muid''', issu de la réinterprétation de la terminaison ''-imid'' (comme dans ''{{lien|táimid|ga}}'' → ''{{lien|tá|ga}}'' ''muid''), est désormais plus fréquent que '''sinn''' comme pronom objet, peut aussi être utilisé en pronom sujet.
+
+Le mannois et le gaélique écossais utilisent l'équivalent de '''sinn''' en tant que pronom sujet. Cet usage se retrouve dans certains parlers de l'Ulster (eg. « tá sinn »), mais il n'est pas considéré comme standard.
+
+==== {{S|vocabulaire}} ====
+{{pronoms personnels/ga}}
+
+=== {{S|prononciation}} ===
+* {{écouter|Irlande (Royaume-Uni)||niveau=bon|lang=ga|audio=LL-Q9142 (gle)-Ériugena-sinn.wav}}
+
+== {{langue|is}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|is}}
+
+=== {{S|adjectif|is}} ===
+'''sinn''' {{pron|sɪn|is}} ''(adjectif possessif)''
+# [[son|Son]], [[sa]], [[leur]].
+
+==== {{S|dérivés}} ====
+{{(}}
+* [[gera sitt til]]
+* [[hafa nóg á sinni könnu]]
+* [[láta sigla sinn sjó]]
+* [[leika við hvern sinn fingur]]
+* [[ota sínum tota]]
+* [[sitt hvoru megin]] ''(d’un côté ou de l’autre)''
+* [[sitt af hverju]] ''(ceci et cela)''
+* [[sitt á hvað]] ''(comme ceci)''
+* [[skara eld að sinni köku]]
+* [[varðveita eins og sjáaldur auga síns]]
+* [[vinna á sitt band]]
+{{)}}
+
+==== {{S|phrases}} ====
+* [[sinn er siður í landi hverju]] ''(autant de pays, autant de coutumes)''
+
+=== {{S|nom|is}} ===
+{{is-décl-nn-sb01}}
+'''sinn''' {{pron|sɪn|is}} {{n}}
+# [[fois|Fois]].
+
+==== {{S|dérivés}} ====
+{{(}}
+* [[af því sinni]]
+* [[einhverju sinni]]
+* [[einstaka sinnum]]
+* [[einu sinni]] ''(une fois)''
+* [[einu sinni var]] ''(il était une fois)''
+* [[eitthvert sinn]]
+* [[ekki einu sinni]] ''(pas exactement)''
+* [[endrum og sinnum]] ''(de temps en temps)''
+* [[enn einu sinni]]
+* [[fyrst um sinn]] ''(pour l’instant)''
+* [[í fyrsta sinni]] ''(la première fois)''
+* [[í hvert sinn]]
+* [[í þetta sinn]] ''(à cette occasion)''
+* [[mörgum sinnum]] ''(plusieurs fois)''
+* [[nokkrum sinnum]]
+* [[vera nóg að sinni]] ''(être tout pour le moment)''
+{{)}}
+
+== {{langue|lb}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|lb}}
+
+=== {{S|verbe|lb}} ===
+{{lb-conj|aux=sinn|pp=gewiescht}}
+'''sinn''' {{pron|ˈzɪnː|lb}} {{irrégulier|lb}}
+# {{auxiliaire|lb}} [[être|Être]].
+#* {{exemple|lang=lb}}
+
+==== {{S|notes}} ====
+{{lb-n|si}}
+
+=== {{S|verbe|lb|flexion}} ===
+{{lb-verbe-flexion|inf=sinn|ind.p.1s=oui|ind.p.1p=oui|ind.p.3p=oui}}
+'''sinn''' {{pron|ˈzɪnː|lb}}
+# ''Première personne du singulier du présent de l’indicatif du verbe'' {{lien|sinn|lb}}.
+#* {{exemple|lang=lb}}
+# ''Première personne du pluriel du présent de l’indicatif du verbe'' {{lien|sinn|lb}}.
+#* {{exemple|lang=lb}}
+# ''Troisième personne du pluriel du présent de l’indicatif du verbe'' {{lien|sinn|lb}}.
+#* {{exemple|lang=lb}}
+
+=== {{S|références}} ===
+: {{R:LOD}}
+
+== {{langue|no}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|nds|no}}.
+
+=== {{S|nom|no}} ===
+'''sinn''' {{pron||no}} {{n}}
+# [[pensée|Pensée]].
+# [[nature|Nature]], [[caractère]].
+
+==== {{S|synonymes}} ====
+* (2) [[gemytt]], [[natur]], [[sinnelag]]
+
+==== {{S|dérivés}} ====
+{{(}}
+* [[besinne]]
+* [[sindig]]
+* [[sinnelag]]
+* [[sinnslidelse]]
+* [[sinnslidende]]
+* [[sinnslikevekt]]
+* [[sinnsro]]
+* [[sinnsvak]]
+* [[sinnsyk]]
+{{)}}
+
+=== {{S|prononciation}} ===
+* {{écouter|Bærum (Norvège)||lang=no|audio=LL-Q9043 (nor)-Telaneo-sinn.wav}}
+[[Catégorie:français]]
+[[Catégorie:Termes familiers en français]]
+[[Catégorie:allemand]]
+[[Catégorie:alémanique alsacien]]
+[[Catégorie:féroïen]]
+[[Catégorie:francique rhénan]]
+[[Catégorie:gaélique écossais]]
+[[Catégorie:gaélique irlandais]]
+[[Catégorie:islandais]]
+[[Catégorie:luxembourgeois]]
+[[Catégorie:norvégien]]

@@ -1,0 +1,9 @@
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+{{ébauche-étym|gsw-fr}}
+
+=== {{S|nom|gsw-fr}} ===
+'''Pfundwècke'''
+# [[pain|Pain]] d’une [[livre]]
+
+{{clé de tri|pfundwecke}}

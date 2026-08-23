@@ -1,0 +1,9 @@
+{{voir|haa}}
+== {{langue|gsw-fr}} ==
+{{ébauche|gsw-fr}}
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|verbe|gsw-fr}} ===
+'''hàà''' {{pron||gsw-fr}} {{auxiliaire|gsw-fr}}
+# [[avoir#fr|Avoir]].

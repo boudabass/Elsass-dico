@@ -1,0 +1,19 @@
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|goh|gsw-fr|mot=buoh}} qui a donné l'allemand moderne [[Buch#Allemand|Buch]].
+
+=== Orthographes alternatives ===
+# [[Bööch]] (Strasbourg)
+# [[Büach]] (Haut-alémanique du Haut-Rhin)
+
+=== {{S|nom|gsw-fr}} ===
+'''Büech''' {{pron|b̥ø:x|gsw-fr}} (Nord de la zone bas-alémanique) , {{pron|b̥ø:ʃ|gsw-fr}} (Strasbourg, influence francique) ,  {{pron|b̥yəx|gsw-fr}} (Centre et Sud de la zone bas-alémanique)
+
+{{n}} ({{p}}: '''[[Biecher]]''')
+# [[livre#fr|Livre]]
+
+==== {{S|dérivés}} ====
+* [[Werterbüech]] ([[dictionnaire]])
+
+=== {{S|références}} ===
+*[https://web.archive.org/web/20130906191837/http://www.ami-hebdo.com/elsadico/index.php de Elsässich Web Diktionnair]

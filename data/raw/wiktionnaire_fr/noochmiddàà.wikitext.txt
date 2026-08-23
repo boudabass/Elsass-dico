@@ -1,0 +1,14 @@
+== {{langue|gsw-fr}} ==
+{{ébauche|gsw-fr}}
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|nom|gsw-fr}} ===
+'''noochmiddàà [der]''' {{m}}
+# [[après-midi]].
+
+==== {{S|variantes orthographiques}} ====
+* [[noochmiddàg]] [der] {{m}}
+
+{{clé de tri|noochmiddaa}}

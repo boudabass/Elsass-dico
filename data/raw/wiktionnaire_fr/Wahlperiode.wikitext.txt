@@ -1,0 +1,20 @@
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|nom|gsw-fr}} ===
+'''Wahlperiode'''
+# [[période|Période]] [[pré-électoral]]e
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|de}}
+
+=== {{S|nom|de}} ===
+{{de-nom-f-n}}
+'''Wahlperiode''' {{pron|ˈvaːlpeˌʁi̯oːdə|de}} {{f}}
+# [[législature#fr|Législature]], période [[législatif#fr|législative]].
+#* {{exemple|Allerdings hat Chamenei sichergestellt, dass der Wächterrat nur Konservative zulässt, die sich ihm beugen. Aussortiert wurde so unter anderem Hassan Rohani, der acht Jahre lang Präsident war und zwei '''Wahlperiode'''n Mitglied der Versammlung.|lang=de|sens=Toutefois, Khamenei a veillé à ce que le Conseil des gardiens n’autorise que les conservateurs qui se soumettent à lui. Hassan Rohani, qui a été président pendant huit ans et membre de l’assemblée pendant deux législatures, a ainsi été écarté, entre autres.|source={{périodique|auteur=Paul-Anton Krüger|titre=Das Regime geht auf Nummer sicher|journal=Süddeutsche Zeitung|date=20 mai 2024|texte=https://www.sueddeutsche.de/politik/iran-raisi-chamenei-nachfolge-1.7253650}}}}
+
+=== {{S|prononciation}} ===
+* {{écouter|Berlin|ˈvaːlpeˌʁi̯oːdə|lang=de|audio=De-Wahlperiode.ogg}}

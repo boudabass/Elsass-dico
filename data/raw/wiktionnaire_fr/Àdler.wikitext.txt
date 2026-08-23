@@ -1,0 +1,15 @@
+{{voir|Adler}}
+
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|nom|gsw-fr}} ===
+'''Àdler''' {{pron||gsw-fr}} {{m}}
+# [[aigle#fr|Aigle]].
+
+=== {{S|références}} ===
+* [https://web.archive.org/web/20130906191837/http://www.ami-hebdo.com/elsadico/index.php de Elsässich Web Diktionnair]
+
+[[Catégorie:Oiseaux en alémanique alsacien]]
+{{clé de tri|adler}}

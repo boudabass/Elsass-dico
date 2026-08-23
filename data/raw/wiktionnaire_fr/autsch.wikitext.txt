@@ -1,0 +1,37 @@
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|de}}
+
+=== {{S|interjection|de}} ===
+'''autsch''' {{pron|aʊ̯t͡ʃ|de}}
+# [[aïe]]
+#* {{exemple | lang=de | „'''Autsch'''! Das tat weh!“}}
+#* {{exemple|Hinweise auf eine Blinddarmentzündung sind Fieber plus Schmerzen rechts unterhalb des Bauchnabels (hier befindet sich der Blinddarm bei den meisten). Auf diese Stelle zu drücken tut oft weh, während es links vom Bauchnabel dann kurioserweise wieder guttut. Sobald man den Finger links wieder wegnimmt – '''autsch'''!|lang=de|sens=La fièvre et des douleurs à droite, plus bas que le nombril (là où se trouve l’appendice chez la plupart des gens), sont considérées comme les premiers signes d’une appendicite. Souvent, une pression au niveau de l’appendice s’avère douloureuse, alors qu’une pression sur la gauche, étrangement, paraît soulager la douleur. Et dès qu’on retire le doigt à gauche – aïe !|source={{ouvrage|auteur={{w|Giulia Enders}}|trad=Isabelle Liber|titre=Darm mit Charme|année=2014|éditeur=Ullstein Buchverlage GmbH|lieu=Berlin|url=}}}}
+
+==== {{S|synonymes}} ====
+* {{lien|au|de}}
+* {{lien|aua|de}}
+* {{lien|auweija|de}}
+
+=== {{S|prononciation}} ===
+* {{écouter|Berlin (Allemagne)|aʊ̯t͡ʃ|lang=de|audio=De-autsch.ogg}}
+
+=== {{S|références}} ===
+* {{R:DWDS|autsch}}
+* {{R:Duden|autsch}}
+
+=== {{S|anagrammes}} ===
+{{voir anagrammes|de}}
+
+== {{langue|gsw-fr}} ==
+{{ébauche|gsw-fr}}
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|interjection|gsw-fr}} ===
+'''autsch'''
+# [[aïe]]
+#* ''Autsch !'' — Aïe !
+
+{{clé de tri|autsch !}}

@@ -1,0 +1,10 @@
+{{vérifier création automatique||gsw-fr}}
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|verbe|gsw-fr}} ===
+'''loïfe'''
+# [[courir|Courir]], [[marcher]]
+
+{{clé de tri|loife}}

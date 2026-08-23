@@ -1,0 +1,20 @@
+{{voir|heiß}}
+
+== {{langue|gsw-fr}} ==
+{{ébauche|gsw-fr}}
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|adjectif|gsw-fr}} ===
+'''heiss''' {{pron||gsw-fr}}
+# [[ardent]].
+
+== {{langue|de}} ==
+=== {{S|adjectif|de}} ===
+{{de-adj|heiss||am {{lien|heissesten|de}}}}
+'''heiss''' {{pron|haɪ̯s|de}}
+# {{FL-CH|de}} {{variante orthographique de|heiß|de}} : [[très]] [[chaud]], [[torride]], [[brûlant]].
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=de|Allemagne (Berlin)|haɪ̯s|de|audio=De-heiß2.ogg}}
+* {{écouter|Brême (Allemagne)||lang=de|audio=LL-Q188 (deu)-Lucy Fermented-heiss.wav}}

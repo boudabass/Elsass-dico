@@ -1,0 +1,137 @@
+{{voir|durch-}}
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: {{siècle|lang=de|IX}} Du {{étyl|gmh|de|mot=durch}}, {{lien|''dur''|gmh}}{{réf|1}}, du {{étyl|goh|gmh|mot=thuruh}}, {{lien|''duruh''|de}}{{réf|1}}, du {{étyl|proto-germanique|de}} {{recons|lang-mot-vedette=de|[[Reconstruction:proto-germanique/*þurhw|þurhw]]}}. Apparenté à l’anglo-saxon ''{{lien|thuru|ang}}'' et à l’anglais ''{{lien|through|en}}'' qui a subi une métathèse.
+
+=== {{S|préposition|de}} ===
+'''durch''' {{pron|dʊʁç|de}} {{suivi|de|c1=accusatif}}
+# [[à travers|À travers]], [[par]], directement d’un bord à l’autre, en traversant.
+#* {{exemple | lang=de | '''Durch''' die Wand. | sens=À travers le mur.}}
+#* {{exemple | lang=de | Er kam '''durch''' die Tür. | sens=Il est venu par la porte.}}
+#* {{exemple|(...) und neben dem Lotsen, welcher die Leitung des »Pharao« '''durch''' die enge Einfahrt des Marseiller Hafens übernommen hatte, stand ein junger Mann, der jede Bewegung des Schiffes mit lebhaftem Auge überwachte und jeden Befehl des Lotsen schnell und sicher wiederholte.|lang=de|sens=(...) et près du pilote, qui s’apprêtait à diriger le Pharaon par l’étroite entrée du port de Marseille, était un jeune homme au geste rapide et à l’œil actif, qui surveillait chaque mouvement du navire et répétait chaque ordre du pilote.|source={{ouvrage|auteur={{w|Alexandre Dumas}}|trad=(inconnu)|titre=Der Graf von Monte Christo|année=1955|éditeur=Rütten & Loening|lieu=Frankfurt|url=}}}}
+#* {{exemple|Nach der Landung in Wien fehlte dem Airbus „A320“ die komplette Nase. (...) Im Mittelpunkt steht dabei die Frage, warum die Piloten überhaupt '''durch''' ein solches Schlechtwettergebiet geflogen sind und ob sie die Lage unterschätzt haben.|lang=de|sens=Après son atterrissage à Vienne, l'Airbus « A320 » manquait de tout son nez. (...) La question centrale est de savoir pourquoi les pilotes ont traversé une telle zone de mauvais temps et s’ils ont sous-estimé la situation.|source={{périodique|auteur=Jens Flottau et Theresa Palm|titre=Trotz Warnung durchs Hagelgewitter geflogen|journal=Süddeutsche Zeitung|date=13 juin 2024|texte=https://www.sueddeutsche.de/panorama/austrian-airlines-unwetter-hagel-airbus-320-zerstoert-lux.LuWkEc1vYLGSbAYEcYwKkY}}}}
+# [[à travers|À travers]], [[par]], dans tous sens par toute l’étendue de.
+#* {{exemple|Der 39-jährige Russe hat 2013 den Messengerdienst gegründet und jettet als digitaler Nomade '''durch''' die Welt. Am Wochenende wurde er in Frankreich festgenommen|lang=de|sens=L'homme russe de 39 ans a fondé le service de messagerie en 2013 et parcourt le monde en tant que nomade numérique. Ce week-end, il a été arrêté en France|source={{périodique|auteur=Andreas Danzer|titre=Pawel Durow, der Mann hinter dem umstrittenen Messenger Telegram|journal=Der Standard|date=25 août 2024|texte=https://www.derstandard.at/story/3000000233772/pawel-durow-der-mann-hinter-dem-umstrittenen-messenger-telegram}}}}
+#* {{exemple|Auf der Suche nach Nahrung streift der Luchs die ganze Nacht '''durch''' sein Revier.|lang=de|sens=À la recherche de nourriture, le lynx parcourt son territoire toute la nuit.}}
+#* {{exemple|Die Rikscha schlängelt sich mit raschen Beschleunigungen und schrillem Gehupe '''durch''' den lärmigen und stinkenden Strom bis zur Baustelle des Sūryayā Tower, und André wundert sich darüber, dass die Kotflügel der Autos keine Kratzer aufweisen, dass die Rückspiegel überleben.|lang=de|sens=Le rickshaw se faufile vers le chantier de la Sūryayā Tower dans le flux bruyant et puant, à coups d’accélérations sèches et de klaxon suraigu, et André s’étonne de l’absence d’éraflures sur les ailes des voitures, de la survie des rétroviseurs.|source={{ouvrage|auteur={{w|Hervé Le Tellier}}|trad=Romy Ritte et Jürgen Ritte|titre=Die Anomalie|année=2021|éditeur=Rowohlt Verlag|lieu=Hamburg|url=}}}}
+# [[via|Via]], [[par]], [[grâce à]].
+#* {{exemple | lang=de | Ich habe sie '''durch''' meinen Freund kennengelernt. | sens=Je l’ai connue par mon ami.}}
+#* {{exemple|Wir lassen dem Herrn Generaldirektor '''durch''' seine Assistentin ausrichten, dass wir ihn wie vereinbart am Dienstag bei uns im Haus erwarten.|lang=de|sens=Nous faisons savoir au directeur général par l'intermédiaire de son assistante que nous l’attendons chez nous mardi, comme convenu.}}
+#* {{exemple|'''Durch''' Zufall habe ich erfahren, dass Detlefs Großmutter verstorben ist. Ich habe ihm mein Beileid ausgedrückt.|lang=de|sens=J'ai appris par hasard que la grand-mère de Detlef était décédée. Je lui ai présenté mes condoléances.}}
+# ''(Pour introduire un complément dans une phrase passive, voir note)'' [[à cause de|À cause de]], [[par]].
+#* {{exemple | lang=de | Er wurde '''durch''' einen Schuss getötet. | sens=Il a été tué par un coup de feu.}}
+#* {{exemple|Nagellack, wie wir ihn heute kennen, ist aber eine moderne Erfindung, die erst '''durch''' die Automobilindustrie möglich wurde. Die Brüder Charles und Joseph Revson entwickelten zusammen mit einem Chemiker auf Basis von Autolacken den ersten Nagellack und brachten ihn 1932 unter dem Markennamen Revlon auf den Markt.|lang=de|sens=Le vernis à ongles tel que nous le connaissons aujourd'hui est cependant une invention moderne qui n’a été rendue possible que par l'industrie automobile. Les frères Charles et Joseph Revson, en collaboration avec un chimiste, ont créé le premier vernis à ongles à base de laque automobile et l’ont lancé sur le marché en 1932 sous le nom de marque Revlon.|source={{périodique|auteur=Viola Koegst|titre=Welcher rote Nagellack ist am besten?|journal=Süddeutsche Zeitung|date=13 juin 2024|texte=https://www.sueddeutsche.de/projekte/artikel/stil/nagellack-test-rot-e650270/}}}}
+#* {{exemple|Die Goldammer ist mit Abstand unsere häufigste Vertreterin der Familie der Ammern (Emberizidae). Sie profitierte als Bewohnerin offener Landschaften zunächst enorm von der allgegenwärtigen Landnutzung '''durch''' uns Menschen.|lang=de|sens=Le bruant jaune est de loin notre représentant le plus fréquent de la famille des embérizidés (Emberizidae). Habitant des paysages ouverts, il a d'abord énormément profité de l'utilisation omniprésente des terres par l’homme.|source={{périodique|auteur=Dominik Eulberg|titre=Zitronengelber Gast am winterlichen Futterhaus|journal=Spektrum der Wissenschaft|date=30 décembre 2024|texte=https://www.spektrum.de/kolumne/eulbergs-toenende-tierwelt-die-goldammer/2245694}}}}
+# {{lien|en raison de|fr|dif=En raison de}}, {{lien|grâce à|fr}}.
+#* {{exemple|'''Durch''' seinen Unfall ist er arbeitsunfähig geworden.|lang=de|sens=Son accident l’a rendu inapte au travail.}}
+#* {{exemple|'''Durch''' sein Benehmen ist er mit seiner Vorgesetzten in Konflikt geraten.|lang=de|sens=Son comportement l'a mis en conflit avec sa supérieure.}}
+#* {{exemple|Früher entwickelte der indische Kaffee '''durch''' den lang andauernden Monsunregen, den warmen Wind und die wochenlangen Schiffsreisen einen ganz eigentümlichen, würzigen Geschmack.|lang=de|sens=Autrefois, les pluies de mousson prolongées, le vent chaud et les voyages en bateau de plusieurs semaines donnaient au café indien un goût épicé très particulier.|source={{périodique|auteur=(Redaktion)|titre=Die Top 10 der Kaffee Anbauländer|journal=Coffee Circle|date=7 avril 2023|texte=https://www.coffeecircle.com/de/b/kaffee-anbaugebiete}}}}
+# {{lien|par|fr|dif=Par}}, indique l’auteur ou le responsable.
+#* {{exemple|Die Vertragsprüfung erfolgt '''durch''' einen Anwalt.|lang=de|sens=La vérification du contrat est effectuée par un avocat.}}
+#* {{exemple|Doch über viele Jahre hinweg hat Athen Warnungen ignoriert, Investitionen verschoben und Reformen vertrödelt – trotz Vertragsverletzungsverfahren, Mahnungen und sogar Sanktionen '''durch''' die EU.|lang=de|sens=Mais pendant de nombreuses années, Athènes a ignoré les avertissements, reporté les investissements et tergiversé sur les réformes, malgré les procédures d'infraction, les rappels et même les sanctions de l'UE.|source={{périodique|auteur=Gerd Höhler|titre=Wie Griechenland den Flugverkehr in Europa ausbremst|journal=RedaktionsNetzwerk Deutschland|date=8 août 2025|texte=https://www.rnd.de/reise/wie-griechenland-fuer-massive-flugverspaetungen-in-europa-sorgt-KORZWTHJORE27BMTDUWBSZII6Y.html}}}}
+# {{lexique|mathématiques|de}} [[divisé|Divisé]] par.
+#* {{exemple|Wieviel ist einhundert '''durch''' zehn?|lang=de|sens=Combien font cent divisé par dix ?}}
+
+{{usage}} La préposition ''durch'' est utilisée dans une phrase passive à la place de ''{{lien|von|de}}'' :
+* pour introduire un complément de cause ou d’agent quand le sujet logique n’est pas immédiatement le point de départ de l’action :
+: ''Er wurde '''durch''' den Präsidenten ausgezeichnet.'' – « Il a été distingué par le président. »
+* quand le sujet logique est un phénomène naturel :
+:''Die Fabrik wurde '''durch''' einen Brand vernichtet.'' – « La fabrique a été détruite par un incendie. »
+* dans les phrases comportant une substantivisation de la forme passive du verbe :
+: ''Die Entdeckung Amerikas durch Kolumbus.'' – « La découverte de l’Amérique par Colomb. »
+
+==== {{S|synonymes}} ====
+* {{lien|dank|de}} (2)
+* {{lien|mittels|de}} (2)
+* {{lien|vermittels|de}} (2)
+
+==== {{S|phrases}} ====
+* {{lien|ab durch die Mitte|dif=ab ''durch'' die Mitte!|de}}
+* {{lien|durch den Wind|dif=''durch'' den Wind|de}}
+* {{lien|durch die Bank|dif=''durch'' die Bank|de}}
+* {{lien|durch und durch|dif=''durch'' und ''durch''|de}}
+* {{l|durch Abwesenheit glänzen|de|sens=[[briller par son absence]]}}
+
+==== {{S|dérivés}} ====
+* {{l|durchaus|de|sens=[[absolument]]}}
+* {{l|durchbacken|de|sens=[[cuire à cœur]]}}
+* {{l|hindurch|de|sens=[[à travers]] », « [[durant]]}}
+
+=== {{S|postposition|de}} ===
+'''durch''' {{pron|dʊʁç|de}} {{précédé|de|c1=accusatif}}
+# {{informel|de}}{{réf|1}} [[durant|Durant]], (tout) [[au long de]].
+#* {{exemple | lang=de | Den ganzen Tag '''durch'''. | sens=Toute la journée durant.}}
+#* {{exemple|Es hat die ganze Nacht '''durch''' stark geregnet.|lang=de|sens=Il a plu très fort toute la nuit.}}
+#* {{exemple|Er hat sein ganzes Leben '''durch''' schwer gearbeitet.|lang=de|sens=Il a travaillé dur toute sa vie.}}
+
+=== {{S|adverbe|de}} ===
+'''durch''' {{pron|dʊʁç|de}}
+# {{lien|en raison de|fr|dif=En raison de}}, {{lien|grâce à|fr}}.
+# {{informel|de}} {{term|Avec un indicateur de temps}} [[passé|Passé]].
+#* {{exemple | lang=de | Es ist acht Uhr '''durch'''. | sens=Il est huit heures passées.}}
+# {{familier|de}} {{lien|passé|fr|dif=Passé}}, [[fait]], dans le contexte d’un véhicule, d’un évènement etc.
+#* {{exemple|Ist der Bus nach Berlin schon '''durch'''?|lang=de|sens=Le bus pour Berlin est-il déjà passé ?}}
+#* {{exemple|Die Entscheidung der Geschäftsleitung über unser Budget ist immer noch nicht '''durch'''.|lang=de|sens=La décision de la direction concernant notre budget n’a toujours pas été prise.}}
+# {{familier|de}} {{lien|cassé|fr|dif=Cassé}}, {{lien|détruit|fr}}.
+#* {{exemple|Detlef hat einen Autounfall verursacht. Er hat es überlebt, aber das Auto ist '''durch'''.|lang=de|sens=Detlef a causé un accident de voiture. Il a survécu, mais la voiture est détruite.}}
+#* {{exemple|Willst du diese Hose wirklich in der Arbeit tragen? Sie ist doch am Hintern schon fast '''durch'''!|lang=de|sens=Tu veux vraiment porter ce pantalon au travail ? Il est déjà presque troué aux fesses !}}
+# {{lien|cuit|fr|dif=Cuit}} ou {{lien|mûr|fr}} complètement.
+#* {{exemple|Wenn der Braten '''durch''' ist, können wir essen.|lang=de|sens=Quand le rôti sera cuit, nous pourrons manger.}}
+# ''avec un verbe modal, indique un passage''.
+#* {{exemple|Darf ich eben mal '''durch'''? Ich möchte aussteigen.|lang=de|sens=Puis-je passer ? Je voudrais descendre.}}
+#* {{exemple|Bitte fahren Sie sofort auf die Seite! Der Krankenwagen muss '''durch'''!|lang=de|sens=Veuillez vous garer immédiatement sur le côté ! L'ambulance doit passer !}}
+
+==== {{S|synonymes}} ====
+* {{lien|hindurch|de}} (1)
+* {{lien|während|de}} (1)
+
+=== {{S|prononciation}} ===
+* {{écouter|{{DE|nocat=1}}|dʊʁç|lang=de|audio=De-durch.ogg}}
+* {{écouter|Vienne (Autriche)|dʊʁç|lang=de|audio=De-at-durch.ogg}}
+* {{écouter|{{DE|nocat=1}}|dʊʁç|lang=de|audio=LL-Q188 (deu)-Lucas Werkmeister-durch.wav}}
+* {{écouter|Berlin (Allemagne)|dʊʁç|lang=de|audio=De-durch2.ogg}}
+
+=== {{S|anagrammes}} ===
+{{voir anagrammes|de}}
+
+=== {{S|références}} ===
+* {{RÉF|1}} {{R:DWDS|durch}}
+* {{R:Duden|durch_hindurch_mittels_waehrend}}
+
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: Voir l’{{étyl|de|gsw-fr|mot=durch}}.
+
+=== {{S|préposition|gsw-fr}} ===
+'''durch''' {{pron||gsw-fr}}
+# [[à travers#fr|À travers]], {{lien|par|fr}}.
+
+==== {{S|variantes orthographiques}} ====
+* [[durich]]
+
+== {{langue|cs}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|de|cs|mot=durch}}.
+
+=== {{S|nom|cs}} ===
+{{cs-décl-nom-mi-dur-ch|rad=dur}}
+'''durch''' {{pron|dʊrx|cs}} {{m|i}}
+# {{lexique|cartes à jouer|cs}} [[grand chelem|Grand chelem]] au jeu du ''{{lien|mariáš|cs}}''.
+#* {{exemple | lang=cs
+ | '''Durchem''' se hráč zavazuje, že vyhraje všechny [[štych]]y.
+ | En annonçant un grand chelem, le joueur s’engage à faire toutes les levées.}}
+
+==== {{S|antonymes}} ====
+* {{lien|betl|cs}}
+
+=== {{S|adverbe|cs}} ===
+'''durch''' {{pron|dʊrx|cs}}
+# {{familier|cs}} [[à travers#fr|À travers]], {{lien|par|fr}}.
+#* {{exemple | lang=cs | Když vstoupil do hospody, byl '''durch''' [[promoklý]] a [[promrzlý]].}}
+
+==== {{S|synonymes}} ====
+* {{lien|skrz|cs}}
+
+=== {{S|références}} ===
+* {{R:ÚJČ}}

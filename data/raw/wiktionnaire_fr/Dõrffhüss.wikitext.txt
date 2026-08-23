@@ -1,0 +1,9 @@
+{{vérifier création automatique||gsw-fr}}
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|nom|gsw-fr}} ===
+'''Dõrffhüss'''
+# [[salle polyvalente|Salle polyvalente]] ; [[salle]] du [[village]]
+{{clé de tri|dorffhuss}}

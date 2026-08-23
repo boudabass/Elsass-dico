@@ -1,0 +1,9 @@
+{{vérifier création automatique||gsw-fr}}
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|verbe|gsw-fr}} ===
+'''gràwalle'''
+# [[manifester|Manifester]] bruyamment, se [[bagarrer]]
+{{clé de tri|grawalle}}

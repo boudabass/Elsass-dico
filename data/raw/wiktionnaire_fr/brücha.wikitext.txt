@@ -1,0 +1,14 @@
+== {{langue|gsw-fr}} ==
+{{ébauche|gsw-fr}}
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|nom|gsw-fr}} ===
+'''brücha'''
+# avoir [[besoin]] de.
+
+==== {{S|variantes orthographiques}} ====
+* [[brüche]]
+
+{{clé de tri|brucha}}

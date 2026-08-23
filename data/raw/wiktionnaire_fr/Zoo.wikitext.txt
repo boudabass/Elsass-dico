@@ -1,0 +1,52 @@
+{{voir/zoo}}
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+{{siècle|Deuxième moitié du XIX}}.
+: {{abréviation|de|de=zoologischer Garten}}.
+
+=== {{S|nom|de}} ===
+{{de-nom-m-s-s}}
+'''Zoo''' {{pron|t͡soː|de}} ou {{pron|t͡soːo|de}}  {{m}}
+# [[zoo#fr|Zoo]].
+#* {{exemple | lang=de | Ich gehe heute mit meinen Kindern in den '''Zoo'''. | sens=Aujourd'hui je vais au zoo avec mes enfants.}}
+#* {{exemple|Weil die Werbetafeln für den Straubinger '''Zoo''' verblasst sind, müssten sie eigentlich ausgetauscht werden. Zwei Schilder kosten allerdings 83 000 Euro.|lang=de|sens=Les panneaux publicitaires pour le zoo de Straubing étant décolorés, ils devraient en fait être remplacés. Deux panneaux coûtent cependant 83 000 euros.|source={{périodique|auteur=Titus Arnu|titre=Nächste Ausfahrt: Baumschulgebiet Pinneberg|journal=Süddeutsche Zeitung|date=5 mars 2024|texte=https://www.sueddeutsche.de/panorama/autobahn-braune-hinweisschilder-werbetafeln-tourismus-straubing-abbau-1.6420240}}}}
+
+==== {{S|synonymes}} ====
+* [[Menagerie]]
+* [[Tierpark]]
+* [[Tierschau]]
+* [[Tiergarten]]
+* [[Zoologischer Garten]]
+
+==== {{S|dérivés}} ====
+* [[Zooarchitektur]]
+* [[Zoobesuch]]
+* [[Zoobiologie]]
+* [[Zoodirektor]]
+* [[Zooführer]]
+* [[Zoohaltung]]
+* [[Zoohandlung]]
+* [[Zootier]]
+* [[Zoowärter]]
+* [[:w:Bahnhof Zoo|Bahnhof Zoo (Berlin)]] 
+
+==== {{S|hyperonymes}} ====
+* [[Zoologie]]
+
+==== {{S|hyponymes}} ====
+* [[Kinderzoo]]
+* [[Streichelzoo]]
+
+=== {{S|prononciation}} ===
+* {{écouter|Berlin|t͡soː|lang=de|audio=De-Zoo.ogg}}
+* {{écouter|{{DE|nocat=1}}|t͡soː|lang=de|audio=LL-Q188 (deu)-PetiteTrolline-Zoo (Hannover).wav}}
+* {{écouter|{{DE|nocat=1}}|t͡soː|lang=de|audio=LL-Q188 (deu)-PetiteTrolline-Zoo.wav}}
+
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|nom|gsw-fr}} ===
+'''Zoo'''
+# Zoo

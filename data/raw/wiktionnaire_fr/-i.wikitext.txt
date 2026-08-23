@@ -1,0 +1,507 @@
+{{voir/i}}
+== {{langue|fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|fr}}
+
+=== {{S|suffixe|fr}} ===
+'''-i''' {{pron|i|fr}}
+# Sert à former des gentilés pour des mots d’origine arabe.
+
+==== {{S|dérivés}} ====
+{{(}}
+* [[Naili]], [[Naili]]
+* [[Djelfawi]], [[Djelfawi]]
+* [[Annabi]], [[annabi]]
+* [[Bahreïni]], [[bahreïni]]
+* [[Émirati]], [[émirati]]
+* [[Fassi]], [[fassi]]
+* [[Filali]], [[filali]]
+* [[Gadiri]], [[gadiri]]
+* [[Harrachi]], [[harrachi]]
+* [[Kabouli]], [[kabouli]]
+* [[Kacémi]], [[kacémi]]
+* [[Koweïti]], [[koweïti]]
+* [[Marrakchi]], [[marrakchi]]
+* [[Meknassi]], [[meknassi]]
+* [[Menzli]], [[menzli]]
+* [[Qatari]], [[qatari]]
+* [[Rabatti]], [[rabatti]]
+* [[Rbati]], [[rbati]]
+* [[Roudani]], [[roudani]]
+* [[Saoudi]], [[saoudi]]
+* [[Séfréoui]], [[séfréoui]]
+* [[Wajdi]], [[wajdi]]
+{{)}}
+
+==== {{S|traductions}} ====
+{{trad-début}}
+* {{T|br}} : {{trad+|br|-i}}
+{{trad-fin}}
+
+=== {{S|prononciation}} ===
+* {{écouter|Somain (France)||lang=fr|audio=LL-Q150 (fra)-Jérémy-Günther-Heinz Jähnick--i.wav}}
+
+[[Catégorie:Suffixes servant à créer des gentilés en français]]
+
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|goh|gsw-fr|mot=ih}}.
+
+=== {{S|pronom personnel|gsw-fr}} ===
+'''-i'''
+# Je (forme suffixée après un verbe).
+
+== {{langue|en}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|en}}
+
+=== {{S|suffixe|en}} ===
+'''-i''' {{pron|i|en}}
+# [[-i#Français|-i]], [[suffixe]] qui indique un [[gentilé]] (en particulier dans le [[Moyen-Orient]] et l’[[Inde]]).
+
+==== {{S|dérivés}} ====
+{{(}}
+* [[Azerbaijani]]
+* [[Baghdadi]]
+* [[Bahraini]]
+* [[Bangladeshi]]
+* [[Bengali]]
+* [[Bihari]]
+* [[Emirati]]
+* [[Gujarati]]
+* [[Iraqi]]
+* [[Israeli]]
+* [[Kashmiri]]
+* [[Kuwaiti]]
+* [[Marathi]]
+* [[Nepali]]
+* [[Omani]]
+* [[Pakistani]]
+* [[Punjabi]]
+* [[Qatari]]
+* [[Saudi]]
+* [[Sindhi]]
+* [[Yemeni]]
+{{)}}
+
+[[Catégorie:Suffixes servant à créer des gentilés en anglais]]
+
+== {{langue|eu}} ==
+=== {{S|suffixe|eu|num=1}} ===
+'''-i''' {{pron|i|eu}}
+# Suffixe verbal, en général indiquant un verbe au [[participe passé]]. En basque, la plupart des verbes finissent par [[-n#eu|-n]], '''-i''', [[-tu#eu|-tu]] ou [[-du#eu|-du]]. Il y a cependant quelques exceptions telles que ''[[ase#eu|ase]], [[erre#eu|erre]], [[hil#eu|hil]], [[jaio#eu|jaio]], [[bete#eu|bete]], [[gorde#eu|gorde]], [[ito#eu|ito]], [[jo#eu|jo]]''.
+#* ''[[ikusi#eu|ikus'''i''']]'' (voir)
+#* ''[[erdi#eu|erd'''i''']]'' (accoucher)
+
+==== {{S|synonymes}} ====
+* [[-tu#eu|-tu]]
+* [[-du#eu|-du]]
+* [[-n#eu|-n]]
+
+=== {{S|suffixe|eu|num=2}} ===
+'''-i''' {{pron|i|eu}}
+# Désinence du [[datif]].
+#* {{exemple|lang=eu|{{l|norbait}} → norbait'''i''' | quelqu'un → à quelqu'un}}
+#* {{exemple|lang=eu|Ezein gizon'''i''' ez zaio {{l|gertatu|eu}}.|Ce n'est arrivé à aucun homme.}}
+
+==== {{S|variantes}} ====
+* [[-ri#eu|-ri]] (après une voyelle)
+* [[-ari#eu|-ari]] (avec l'article singulier)
+* [[-ei#eu|-ei]] (avec l'article pluriel)
+
+== {{langue|br}} ==
+=== {{S|suffixe|br|num=1}} ===
+'''-i''' {{pron|i|br}}
+#[[désinence|Désinence]] de la deuxième personne du singulier du futur de l’indicatif des <u>verbes réguliers</u>.
+#* {{exemple | lang=br
+ | Evel ma kar'''i''' e r'''i'''.
+ | Tu feras comme tu voudras.
+ | source={{Citation/Jules Gros/Le Trésor du Breton Parlé - 2/1970|240}}}}
+
+==== {{S|notes}} ====
+Cette désinence ne s'applique pas au verbe irrégulier :
+* [[en devout]]/[[kaout]], « [[avoir]] » : [[az po]]/[[ez po]], [[az pezo]]/[[ez pezo]].
+
+=== {{S|suffixe|br|num=2}} ===
+'''-i''' {{pron|i|br}}
+#[[indiquer|Indique]] le [[pluriel]] de différents noms communs.
+:* de personnes : [[gisti]], [[kendirvi]], [[mistri]], [[mistrizi]], [[sujidi]]
+:* d'animaux : [[binvi]], [[bleizi]], [[brini]], [[brizhilli]], [[dridi]], [[driski]], [[girzi]], [[givri]], [[gleskeri]], [[golveni]], [[golvini]], [[gouelini]], [[gwazi]], [[gwizi]], [[houidi]], [[inizi]], [[kigi]], [[kirvi]], [[klujiri]], [[ligistri]], [[levrini]], [[marcʼhvrini]], [[meilhi]], [[mircʼhi]], [[morcʼhisti]], [[morvircʼhi]], [[morvleizi]], [[morvrini]], [[mouilcʼhi]], [[ounniri]], [[polezi]], [[tirvi]], [[tousegi]], [[tousigi]], [[tridi]]
+:* de choses : [[aerlistri]], [[armili]], [[asidi]], [[askilli]], [[beskilli]], [[bigi]], [[bilhidi]], [[biskilli]], [[bocʼhili]], [[bokidi]], [[bolidi]], [[boucʼhili]], [[boutigi]], [[egorlistri]], [[etivi]], [[glizi]], [[gobirri]], [[godilli]], [[golvizhi]], [[gwastilli]], [[hili]], [[inizi]], [[irvi]], [[iskilli]], [[izili]], [[izivi]], [[kili]], [[kirri]], [[kistilli]], [[klouidi]], [[kobiri]], [[kontilli]], [[lini]], [[listri]], [[lizhiri]], [[mantilli]], [[mirri]], [[neizhi]], [[podizi]], [[prenestri]], [[rastilli]], [[skudilli]], [[tikidi]].
+
+== {{langue|eo}} ==
+=== {{S|étymologie}} ===
+: De l’infinitif passif {{étyl|la|eo}} ; il rappelle également les infinitifs latins et italiens en ''{{lien|-ire|it}}'', les infinitifs français en ''{{lien|-ir|fr}}'', et les infinitifs allemands en ''{{lien|-ieren|de}}''.
+
+=== {{S|suffixe|eo}} ===
+'''-i''' {{pron|i|eo}}
+# Indique l’[[infinitif]] du [[verbe]].
+## Après un radical désignant une action ([[ago]]), '''-i''' signifie agir en ce sens (tr. ou intr. suivant le sens) :
+##* ''[[kuri]]'' : [[courir]].
+##* ''[[construi]]'' : [[construire]].
+## Après un radical désignant une qualité ([[eco]]), '''-i''' signifie agir avec cette propriété (agir X-e) (intr.) :
+##* ''[[rapida]]'' : [[rapide]] → ''[[rapidi]]'' : agir rapidement.
+##* ''[[kuraĝa]]'' : [[courageux]] → ''[[kuraĝi]]'' : agir de manière courageuse.
+## Après un radical désignant un état ([[stato]]), '''-i''' signifie être dans cet état (être X-a) (intr.) :
+##* ''[[preta]]'' : [[prêt]] → ''[[preti]]'' : être prêt.
+##* ''[[activa]]'' : [[actif]] → ''[[activi]]'' : être actif.
+## Après un radical désignant un outil ([[ilo]]), '''-i''' signifie agir en utilisant naturellement cet outil (tr.) :
+##* ''[[broso]]'' : [[brosse]] → ''[[brosi]]'' : [[brosser]].
+##* ''[[tamburo]]'' : [[tambour]] → ''[[tamburi]]'' : jouer du tambour.
+##* ''[[fingro]]'' : [[doigt]] → ''[[fingri]]'' : toucher du doigt.
+##* ''[[aŭto]]'' : [[automobile]] → ''[[aŭti]]'' : aller en voiture.
+## Après un radical désignant une substance ([[substanco]]), '''-i''' signifie ajouter ou fournir une telle substance (tr.) :
+##* ''[[akvo]]'' : [[eau]] → ''[[akvi]]'' : [[arroser]].
+##* ''[[oro]]'' : [[or]] → ''[[ori]]'' : [[dorer]], couvrir d’or.
+##* ''[[aero]]'' : [[air]] → ''[[aeri]]'' : remplir d’air.
+## Après un radical désignant un rôle ou un métier, '''-i''' signifie agir conformément à ce rôle ou métier (tr.) :
+##* ''[[tajloro]]'' : [[tailleur]] → ''[[tajlori]]'' : travailler comme un tailleur, réaliser un travail de couture.
+##* ''[[reĝo]]'' : [[roi]] → ''[[reĝi]]'' : [[régner]].
+##* Quand le rôle est assimilable à une qualité, le verbe est intransitif :
+##* ''[[gasto]]'' : [[invité]] → ''[[gasti]]'' : vivre comme un invité.
+## Après un radical désignant un animal, '''-i''' signifie agir conformément à un tel animal (suivant ce qu’il a de caractéristique) (intr.) :
+##* ''[[hundo]]'' : [[chien]] → ''[[hundi]]'' : vivre comme un chien, faire le chien.
+##* ''[[serpento]]'' : [[serpent]] → ''[[serpenti]]'' : [[serpenter]], aller comme un serpent.
+## Après un radical désignant un type de mouvement ou un phénomène, '''-i''' signifie agir d’une manière semblable à celui-ci (intr.) :
+##* ''[[ondo]]'' : [[onde]] → ''[[ondi]]'' : [[ondoyer]].
+##De nombreuses racines évoquent naturellement une action caractéristique, '''-i''' signifie alors cette action :
+##* ''[[fiŝo]]'' : [[poisson]] → ''[[fiŝi]]'' : [[pêcher]].
+##* ''[[poŝto]]'' : [[poste]] → ''[[poŝti]]'' : [[poster]].
+##* ''[[fino]]'' : [[fin]] → ''[[fini]]'' : [[achever]].
+##* ''[[oriento]]'' : ''[[orient]]'' → [[orienti]] : [[orienter]], donner une direction.
+##* ''[[regulo]]'' : ''[[règle]]'' → [[reguli]] : [[réguler]], [[régler]].
+<!-- http://bertilow.com/pmeg/vortfarado/principoj/finajhoj/verbaj.html -->
+==== {{S|vocabulaire}} ====
+{{cf|-as|-i|-is|-os|-u|-us|lang=eo}}
+
+=== {{S|prononciation}} ===
+* {{écouter|Toulouse (France)||niveau=bon|lang=eo|audio=LL-Q143 (epo)-Lepticed7--i.wav}}
+=== {{S|voir aussi}} ===
+* {{Annexe|Suffixes en espéranto}}
+
+* {{WP|-i|lang=eo}}
+
+=== {{S|références}} ===
+==== {{S|bibliographie}} ====
+* {{R:PV|UOA=1}}
+* {{R:PIV}}
+* {{R:Retavort|rac=i}}
+* {{R:AkadUniVort|rac1="-i"|UVn1=1664|cat=UV}}
+
+== {{langue|et}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|proto-fennique|et}} {{recons|lang-mot-vedette=et|-in|proto-fennique}}.
+
+=== {{S|suffixe|et}} ===
+'''-i''' {{pron||et}}
+# ''Forme des noms depuis des verbes indiquant que l’instrument est utilisé pour faire l’action dudit verbe.
+
+== {{langue|gallo-italique de Sicile}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gallo-italique de Sicile}}
+
+=== {{S|suffixe|gallo-italique de Sicile}} ===
+'''-i''' {{phon||gallo-italique de Sicile}} {{Roccella}}
+# {{Piazza Armerina|gallo-italique de Sicile}} Suffixe [[indiquer#fr|indiquant]] les [[infinitif#fr|infinitifs]] des verbes du deuxième groupe.
+#* {{exemple|lang=gallo-italique de Sicile}}
+
+=== {{S|références}} ===
+* {{R:Roccella}}
+
+== {{langue|gaulois}} ==
+=== {{S|étymologie}} ===
+: Terminaison attestée dans plusieurs inscriptions gauloises.
+: {{laé|gaulois|suf|2}} D’une forme archaïque en ''{{lien|-oi|gaulois}}''.
+
+=== {{S|suffixe|gaulois|num=1}} ===
+'''-i''' {{pron-recons||gaulois}}
+#[[terminaison|Terminaison]] qui indique le cas accusatif du singulier d’un nom de la déclinaison de thème en ''-a''.
+#[[terminaison|Terminaison]] qui indique le cas datif du singulier d’un nom de la déclinaison de thème en ''-a''.
+
+==== {{S|déclinaison}} ====
+{{gaul-décl-a-long}}
+
+=== {{S|suffixe|gaulois|num=2}} ===
+'''-ī''' {{pron-recons||gaulois}}
+#[[terminaison|Terminaison]] qui indique le cas génitif du singulier d’un nom de la déclinaison de thème en ''-e''/''-o''.
+#[[terminaison|Terminaison]] qui indique le cas nominatif du pluriel d’un nom de la déclinaison de thème en ''-e''/''-o''.
+
+==== {{S|déclinaison}} ====
+{{gaul-tab-o-e}}
+
+=== {{S|suffixe|gaulois|num=3}} ===
+'''-i''' {{pron-recons||gaulois}}
+#[[terminaison|Terminaison]] qui indique le cas nominatif du singulier d’un nom neutre de la déclinaison de thème en ''-i''.
+
+=== {{S|suffixe|gaulois|num=4}} ===
+'''-i''' {{pron-recons||gaulois}}
+#[[terminaison|Terminaison]] qui indique le cas datif du singulier d’un nom de la déclinaison de thème en ''-t'', ''-x'' et ''-p''.
+
+==== {{S|variantes}} ====
+: Dans le cas de la déclinaison des thèmes en ''-a'', la forme ''-i'' connait la variante ''[[-in#gaul|-in]]'', mais également une forme en ''[[-im#gaul|-im]]'' et une forme archaïque en ''[[-an#gaul|-an]]''.
+
+=== {{S|références}} ===
+* {{R:Delamarre2003|p=342}}
+* {{R:Savignac2004|p=}}
+* {{R:Lambert2018|p=51}}
+* {{R:RIIG|id=CDO-02-01|référencement=RIIG CDO-02-01 (G271 - L12)|nom=Stèle de Saint-Germain-Source-Seine}}
+
+=== {{S|voir aussi}} ===
+* Pour plus de détail sur les déclinaisons gauloises, voir l’[[Annexe:Grammaire gauloise#Déclinaisons|annexe sur la grammaire gauloise]].
+
+[[Catégorie:Mots attestés en gaulois]]
+
+== {{langue|hu}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|hu}}
+=== {{S|suffixe|hu|num=1}} ===
+'''-i''' {{pron|i|hu}}
+# Suffixe formateur d'adjectifs à partir de noms propres, communs ou de postpositions.
+#* {{exemple|Városban élek, tehát város'''i''' vagyok.|J'habite à la ville, donc je suis un citadin.|lang=hu}}
+#* {{exemple|A Guadeloupe és Martinique szigetek a tengeren túl állnak, azért tengerentúl'''i''' megyéknek hívják.|Les îles de la Guadeloupe et de la Martinique se trouvent de l'autre côté de l'océan, c'est pour cela qu'on les appelle des départements ultramarins.|lang=hu}}
+#* {{exemple|Nagyon kedves melbourne-'''i'''akkal találkoztunk ma délután.|sens=Cet après-midi, nous avons rencontré des melbourniens très sympas.|lang=hu}}
+
+===== {{S|synonymes}} =====
+* [[-beli]]
+
+=== {{S|suffixe|hu|num=2}} ===
+'''-i''' {{pron|i|hu}}
+# Suffixe possessif pour de multiples possessions ([[mes|mes]], [[tes|tes]], [[ses|ses]], [[nos|nos]], [[vos|vos]], [[leurs|leurs]]).
+#* {{exemple|Bemutatta nekem a plüsse'''i'''t.|Il m'a présenté ses peluches.|lang=hu}}
+#* {{exemple|A baráta'''i'''m baráta'''i''' az én baráta'''i'''m.|Les amis de mes amis sont mes amis.|lang=hu}}
+
+=== {{S|suffixe|hu|num=3}} ===
+'''-i''' {{pron|i|hu}}
+# Désinence de la troisième personne du singulier du présent à la conjugaison objective pour certains verbes.
+#* {{exemple|Kér'''i''' a számlát.|Il demande l'addition.|lang=hu}}
+
+=== {{S|suffixe|hu|num=4}} ===
+'''-i''' {{pron|i|hu}}
+# Diminutif employé pour les noms propres ou communs, plus couramment chez les plus jeunes.
+#* {{exemple|A kis Sár'''i'''kámat is hívtam meg!|J'ai aussi invité ma petite Sára !|lang=hu}}
+#* {{exemple|El sem tudod képzelni, mennyire szeretem a süt'''i'''ket!|Tu ne peux pas t'imaginer à quel point j'aime les cookies !|lang=hu}}
+
+== {{langue|io}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|io}}
+
+=== {{S|suffixe|io}} ===
+{{io-accord|-|<nowiki></nowiki>}}
+'''-i''' {{pron|i|io}}
+# Terminaison du pluriel de tous les noms communs.
+
+==== {{S|apparentés}} ====
+* [[-o]]
+
+== {{langue|id}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|id}}
+: Ancienne préposition locative ''[[i]]'' (''[[di]]'' en indonésien moderne)
+
+=== {{S|suffixe|id}} ===
+'''-i''' {{pron|i|id}}
+# Apposé à une base nominale ou verbale, forme un verbe transitif.
+#* {{exemple|lang=id}} 
+
+== {{langue|iu}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|iu}}
+
+=== {{S|suffixe|iu}} ===
+{{iu-formes|right|-i|-ᐃ}}
+'''&#45;i''' {{pron|u|iu}}
+# ''(Suffixe verbal produisant un verbe)'' S’ajoute aux racines verbales transitives pour conserver un sens transitif si celles-ci sont suivies de suffixes intransitifs qui, sans ce suffixe, prendraient un sens réflexif ou passif.
+
+==== {{S|notes}} ====
+: {{iu-réf|suffixe-médian}}
+
+== {{langue|is}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|is}}
+
+=== {{S|suffixe|is}} ===
+'''-i''' {{pron||is}}
+# Suffixe verbal de la première personne du singulier du prétérit de l'indicatif des verbes faibles.
+# Suffixe verbal de la troisième personne du singulier du prétérit de l'indicatif des verbes faibles.
+# Suffixe verbal de la première personne du singulier du présent du subjonctif.
+# Suffixe verbal de la troisième personne du singulier du présent du subjonctif.
+# Suffixe verbal de la troisième personne du pluriel du présent du subjonctif.
+# Suffixe verbal de la première personne du singulier du passé du subjonctif.
+# Suffixe verbal de la troisième personne du singulier du passé du subjonctif.
+
+=== {{S|références}} ===
+* {{R:Bjarnason|p=78}}
+
+== {{langue|it}} ==
+=== {{S|étymologie}} ===
+: ''(Suffixe nominal)'' Du {{étyl|la|it|-i}} et/ou ''{{lien|-os|la}}'', nominatif et accusatif pluriels de la deuxième déclinaison, et de ''{{lien|-es|la}}'', nominatif et accusatif pluriels de la troisième déclinaison.
+
+=== {{S|suffixe|it|num=1}} ===
+'''-i''' {{pron|i|it}}
+# Suffixe verbal de la deuxième personne du singulier du présent de l’indicatif des verbes.
+#* {{exemple|lang=it}}
+# Suffixe verbal du singulier du présent du subjonctif des verbes du premier groupe. 
+#* {{exemple|lang=it}}
+# Suffixe verbal du singulier de l'impératif positif des verbes du deuxième et troisième groupe. 
+#* {{exemple|lang=it}}
+
+=== {{S|suffixe|it|num=2}} ===
+'''-i''' {{pron|i|it}}
+# Désinence du pluriel des noms et adjectifs masculins en ''-o'' et ''-a''. 
+#* {{exemple|lang=it|il ragazzo > i ragazz'''i'''|le garçon > les garçons}}
+#* {{exemple|lang=it|il problema > i problem'''i'''|le problème > les problèmes}}
+#* {{exemple|lang=it|l'artista impressionista > gli artist'''i'''  impressionist'''i'''|l'artiste impressioniste > les artistes impressionistes}}
+# Désinence du pluriel des noms et adjectifs des deux genres en ''-e''. 
+#* {{exemple|lang=it|la voce forte > le voc'''i''' fort'''i'''|la voix forte > les voix fortes}}
+
+== {{langue|juc}} ==
+=== {{S|étymologie}} ===
+: Emprunt du {{étyl|zkg|juc}}, probablement lié à l'[[ancien coréen]] {{lien|-hi|okm}}.
+
+=== {{S|suffixe|juc}} ===
+'''-i''' {{pron|i|juc}}
+# [[marqueur|Marqueur]] du [[cas grammatical|cas]] [[génitif]].
+
+==== {{S|dérivés autres langues}} ====
+* {{L|mnc}} : {{lien|ᡳ|mnc}}
+
+=== {{S|prononciation}} ===
+* ''(Suffixe)'' {{pron|i|juc}}
+
+=== {{S|références}} ===
+* {{Ouvrage|prénom1=Alexander |nom1=Vovin|titre=From Koguryo to T'amna, Slowly riding to the South with speakers of Proto-Korean|éditeur=John Benjamins Publishing Company|année=2013|lire en ligne=https://www.academia.edu/6360018/From_Koguryo_to_Tamna|passage=224}}
+
+== {{langue|avk}} ==
+=== {{S|suffixe|avk}} ===
+'''-i''' {{pron|i|avk}}
+# Voyelle mobile euphonique servant à accorder les adjectifs ou les participes avec les noms qui se terminent par un i.
+#* ''[[listaf#avk|listaf]]'' : beau → ''listaf'''i''' [[zveri#avk|zveri]]'' : bel oiseau. 
+#* ''[[talas#avk|talas]]'' : participe actif du verbe ''[[talá#avk|talá]]'' → ''talas'''i''' zveri'' : oiseau qui vole.
+
+=== {{S|références}} ===
+* {{Kotapedia|qi}}
+
+[[Catégorie:Mots en kotava répertoriés sur Kotapedia]]
+
+== {{langue|mt}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|mt}}
+
+=== {{S|suffixe|mt}} ===
+'''-i''' {{pron|ɪ|mt}}
+# [[mon#fr|Mon]] en position suffixe.
+#* {{exemple|lang=mt}}
+
+==== {{S|variantes}} ====
+* {{lien|-ja|mt}}
+
+== {{langue|myp}} ==
+=== {{S|étymologie}} ===
+: Mot donné par Daniel L. Everett.
+
+=== {{S|suffixe|myp}} ===
+'''-i''' {{pron||myp}}
+# Suffixe verbal marquant la [[proximité]].
+# Suffixe verbal servant de connecteur.
+
+==== {{S|antonymes}} ====
+* {{lien|-á|myp}}
+
+=== {{S|références}} ===
+* {{R:Everett1983|p=6}}
+{{clé de tri|i}}
+
+== {{langue|pih}} ==
+=== {{S|étymologie}} ===
+: De l'{{étyl|en|pih|-y}}.
+
+=== {{S|suffixe|pih}} ===
+'''-i''' {{pron|i|pih}}
+# Suffixe servant à former des adjectifs, équivalent de l'anglais ''{{lien|-y|en}}''.
+
+=== {{S|références}} ===
+* {{R:Buffett|p=5}}
+
+== {{langue|poitevin-saintongeais}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|poitevin-saintongeais}}.
+
+=== {{S|suffixe|poitevin-saintongeais}} ===
+'''-i''' {{poit-saint-normalisé}}
+# Suffixe verbal des verbes du deuxième groupe.
+
+=== {{S|références}} ===
+* {{R:Dicopoitsaint|abandonner|consulté le=9 avril 2019}}
+
+== {{langue|ro}} ==
+=== {{S|étymologie}} ===
+: {{lien-ancre-étym|ro|suffixe|1}} Du {{étyl|la|ro|-i}} et/ou ''{{lien|-os|la}}'', nominatif et accusatif pluriels de la deuxième déclinaison, et de ''{{lien|-es|la}}'', nominatif et accusatif pluriels de la troisième déclinaison. Apparenté à l'italien ''{{lien|-i|it}}'' de même sens.
+: {{lien-ancre-étym|ro|suffixe|2}} Du {{étyl|la|ro|illi}}.
+
+=== {{S|suffixe|ro|num=1}} ===
+'''-i''' {{pron|ʲ|ro}} (après une consonne), {{pron|j|ro}} (après une voyelle), {{pron|i|ro}} (après certains groupes de consonnes)
+# marque du [[pluriel]] de tous les substantifs masculins et des substantifs féminins terminés par ''e'' et de quelques substantifs féminins en ''ă''. Le suffixe remplace une voyelle et dans certains cas un '''l''' final, et s’ajoute à une consonne finale. Il transforme un ''t'' final en ''ț''.
+#* ''apicultor'' {{pron|a.pi.kul.'tor|ro}} « apiculteur » : ''apicultor'''''i''' {{pron|a.pi.kul.'torʲ|ro}} « apiculteurs ». (cas général).
+#* ''bărbat'' {{pron|bər.ˈbat|ro}}  « homme » : ''bărbaț'''''i''' {{pron|bərˈbatsʲ|ro}} « hommes ». (transformation du ''t'' en ''ț'' sous l’influence du ''i'').
+#* ''copil'' {{pron|ko.'pil|ro}} « garçon » : ''copi'''''i''' {{pron|ko.'pij|ro}} « garçons ». (remplacement du ''l'' final par ''i'').
+#* ''fiu'' {{pron|'fiw|ro}} « fils » ({{s}}) : ''fi'''''i''' {{pron|'fij|ro}} « fils » ({{p}}). (remplacement de la voyelle finale par ''i'').
+#* ''metru'' {{pron|'me.tru|ro}} « mètre » : ''metr'''''i''' {{pron|'me.tri|ro}} « mètres ». (le groupe final « tr » nécessite d'être suivi par un son voyelle).
+#* ''floare'' {{pron|'flo̯a.re|ro}} « fleur » : ''flor'''''i''' {{pron|'florʲ|ro}} « fleurs ». (NB : Le ''e'' de floare transforme le ''o'' du radical en ''oa'' par alternance vocalique, il redevient ''o'' quand le ''e'' final disparaît).
+
+=== {{S|suffixe|ro|num=2}} ===
+'''-i''' {{pron|j|ro}} (après une voyelle), {{pron|i|ro}}  (après /j/)
+{{ro-art-décl|type=défini|nms=-l|nmp=-i|nfs=-a|nfp=-le|dms=-lui|dmp=-lor|dfs=-i|dfp=-lor}}
+# Article défini masculin pluriel : [[les#fr|les]]. Il s’ajoute à la fin du substantif au pluriel.
+#* ''apicultori'' « apiculteurs » : ''apicultori'''''i''' {{pron|a.pi.kul.to.rij|ro}} « les apiculteurs ».
+#* ''bărbați'' « hommes » : ''bărbați'''''i''' {{pron|bərˈba.tsij|ro}} « les hommes ».
+#* ''copii'' « garçons » : ''copii'''''i''' {{pron|ko.'pi.ji|ro}} « les garçons ».
+#* ''fii'' « fils » ({{p}}) : ''fii'''''i''' {{pron|'fi.ji|ro}} « les fils ».
+# Article défini féminin singulier au [[datif]] et au [[génitif]]. Il s’ajoute à la forme plurielle du substantif féminin. Ce suffixe marque également les noms propres féminins en ''-a''.
+#* ''fată'' « fille » - ''fete'' « filles » - ''fete'''''i''' « de la fille ».
+#* ''pisică'' « chat » - ''pisici'' « chats » - ''pisici'''''i''' « du chat ».
+#* ''femeie'' « femme » - ''femei'' « femmes » - ''femei'''''i''' « de la femme ».
+#* ''Maria'' « Marie » - ''Marie'''''i''' « de Marie ».
+
+== {{langue|tr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|tr}}
+
+=== {{S|suffixe|tr|num=1}} ===
+{{tr-accord|rad=?e?|-|i}}
+'''-i''' {{pron|i|tr}} {{nominatif|tr}} {{s}}
+# [[suffixe|Suffixe]] possessif, relatif à la troisième personne du singulier (elle désigne le possesseur qui peut être indiqué dans le mot précédent), qui s’ajoute à l’[[objet]] ou à l’[[individu]] [[posséder|possédé]] pour marquer son [[appartenance]]. Le nom ou l’adjectif ainsi suffixé (parfois appelé improprement « [[génitif]] » alors que l’appartenance est inversée) s’accorde et se décline indépendamment si d’autres suffixes ne sont pas ajoutés.
+#* {{exemple | lang=tr
+ | [[iş#tr-nom|İş]] [[ev#tr-nom|ev]]'''i'''.
+ | L’atelier (le travail + sa maison).}}
+
+==== {{S|notes}} ====
+: Le suffixe est précédé d’une apostrophe après un nom propre (commençant par une majuscule).
+: Ne pas confondre ce suffixe avec celui homonyme de l’accusatif singulier (la distinction se fait par la syntaxe, car l’accusatif ne suit pas un possesseur).
+: Le suffixe ne s’emploie qu’après un nom ou adjectif terminé par une ou plusieurs consonnes.
+: La voyelle précédant ces consonnes ne peut être qu’un ''e'' ou ''i'' si le morphème (mot ou suffixe) précédent respecte l’harmonie vocalique.
+
+==== {{S|vocabulaire}} ====
+* [[-si]] : possessif avec un ''s'' épenthétique sans consonne finale, après une voyelle ''a'' ou ''i''.
+* [[-ı]], [[-sı]] : possessif avec un ''s'' épenthétique si pas de consonne finale, après une voyelle ''a'' ou ''ı''.
+* [[-u]], [[-su]] : possessif avec un ''s'' épenthétique si pas de consonne finale, après une voyelle ''o'' ou ''u''.
+* [[-ü]], [[-sü]] : possessif avec un ''s'' épenthétique si pas de consonne finale, après une voyelle ''e'' ou ''i''.
+
+=== {{S|suffixe|tr|num=2}} ===
+{{tr-accord|?|e?|-|h=e}}
+'''-i''' {{pron|i|tr}} {{accusatif|tr}} {{s}}
+# [[suffixe|Suffixe]] de l’accusatif singulier, ajouté à un adjectif ou un nom désigné comme objet direct du verbe qui suit.
+#* {{exemple | lang=tr
+ | Bir [[ev#tr-nom|ev]]'''i''' [[almak]].
+ | Acheter une maison.}}
+
+==== {{S|notes}} ====
+: Le suffixe ne s’emploie qu’après un nom ou adjectif terminé par une ou plusieurs consonnes.
+: La voyelle précédant ces consonnes ne peut être qu’un ''e'' ou ''i'' si le morphème (mot ou suffixe) précédent respecte l’harmonie vocalique.
+
+==== {{S|vocabulaire}} ====
+* [[-yi]] : accusatif avec un ''y'' épenthétique sans consonne finale, après une voyelle ''a'' ou ''i''.
+* [[-ı]], [[-yı]] : accusatif avec un ''y'' épenthétique si pas de consonne finale, après une voyelle ''a'' ou ''ı''.
+* [[-u]], [[-yu]] : accusatif avec un ''y'' épenthétique si pas de consonne finale, après une voyelle ''o'' ou ''u''.
+* [[-ü]], [[-yü]] : accusatif avec un ''y'' épenthétique si pas de consonne finale, après une voyelle ''e'' ou ''i''.
+
+{{clé de tri|i}}

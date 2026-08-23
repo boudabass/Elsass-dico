@@ -1,0 +1,452 @@
+{{voir|Schütz}}
+
+== {{langue|fr}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étylp|de|fr|mot=Schutz}}.
+
+=== {{S|nom propre|fr}} ===
+'''Schutz''' {{pron||fr}}
+# {{localités|fr|d’Allemagne}} [[commune|Commune]] d’[[Allemagne]], située dans la [[Rhénanie-Palatinat]].
+
+==== {{S|traductions}} ====
+{{trad-début|}}
+{{trad-fin}}
+
+=== {{S|voir aussi}} ===
+* {{WP}}
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|gmh|de|mot=schuz}}.<ref>{{R:DWDS|Schutz}}</ref>
+: {{déverbal|de=schützen|lang=de|m=1}} ([[protéger]]).
+
+=== {{S|nom|de}} ===
+{{de-nom-m-s-e|gs=Schutzes|ds2=Schutze}}
+'''Schutz''' {{pron|ʃʊt͡s|de}} {{m}}
+# {{au singulier}} {{lexique|sécurité|de}} [[protection#fr|Protection]] : [[activité]], [[ensemble]] de [[mesure|mesures]] [[viser|visant]] à [[assurer]] la [[sécurité]] et [[éviter]] le [[danger]] ; [[abri]].
+#* {{exemple|Ich stelle dieses Kind unter Ihren '''Schutz'''.|sens=Je mets cet enfant sous votre protection.|lang=de}}
+#* {{exemple
+|Der Iran bietet etwa 25 hochrangigen Mitgliedern der terroristischen Einheit Al-Qaïda '''Schutz'''.
+|L’Iran abrite environ 25 hauts-membres du réseau terroriste Al-Qaïda.
+|source=Iran-resist, 28.10.2005
+|lien=http://www.iran-resist.org/article721
+|lang=de}}
+#* {{exemple|Die hier lebenden Muslime haben Anspruch auf '''Schutz''' vor rechtsextremer Gewalt – zurecht. Wenn sie angegriffen werden, muss dieser Anspruch eingelöst werden und das gleiche müssen sie jetzt einlösen, wenn Jüdinnen und Juden angegriffen werden.|lang=de|sens=Les musulmans qui vivent ici ont le droit d'être protégés contre la violence d'extrême droite - à juste titre. Lorsqu'ils sont attaqués, ce droit doit être respecté, et ils doivent faire de même lorsque des juifs sont attaqués.|source={{périodique|auteur=Robert Habeck|titre=Rede zu Israel und Antisemitismus|journal=Bundesministerium für Wirtschaft und Klimaschutz|date=1 novembre 2023|texte=https://www.bmwk.de/Redaktion/DE/Downloads/M-O/manuskripte-habeck-ueber-israel-und-antisemitismus-de.pdf?__blob=publicationFile&v=4}}}}
+#* {{exemple|Großbritannien begrenzt Werbung für ungesunde Lebensmittel. Zum '''Schutz''' von Kindern soll diese ab Oktober 2025 im Fernsehen tagsüber und gänzlich im Internet verboten werden.|lang=de|sens=La Grande-Bretagne limite la publicité pour les aliments malsains. Pour protéger les enfants, celle-ci sera interdite à la télévision pendant la journée et entièrement sur Internet à partir d’octobre 2025.|source={{périodique|auteur=(ZEIT ONLINE, AFP, dar)|titre=Großbritannien schränkt Werbung für ungesunde Lebensmittel ein|journal=Die Zeit|date=4 décembre 2024|texte=https://www.zeit.de/politik/ausland/2024-12/grossbritannien-werbung-ungesunde-lebensmittel-verbot-kinder}}}}
+#* {{exemple|Der dänische Unternehmer ist zudem Großgrundbesitzer. Allerdings nicht in Dänemark. Povlsen ist der größte private Grundbesitzer im Vereinigten Königreich – ihm gehört mehr als ein Prozent des gesamten Grundbesitzes in Schottland. Auch hat er ein großes Reservat in den rumänischen Karpaten, dessen Zweck der '''Schutz''' von Wölfen, Bären und Luchsen ist.|lang=de|sens=L'entrepreneur danois est également un grand propriétaire terrien. Mais pas au Danemark. Povlsen est le plus grand propriétaire foncier privé du Royaume-Uni - il possède plus d’un pour cent de toutes les terres en Écosse. Il possède également une grande réserve dans les Carpates roumaines, dont le but est de protéger les loups, les ours et les lynx.|source={{périodique|auteur=Victoria Niemsch|titre=Jeder hat schon seine Kleidung getragen, aber kaum jemand kennt sein Gesicht – das ist der reichste Mensch aus Dänemark|journal=Business Insider|date=1 mai 2025|texte=https://www.businessinsider.de/wirtschaft/das-ist-der-reichste-mensch-aus-daenemark-bestimmt-kennt-ihr-ihn}}}}
+#* {{exemple|Der dänische Unternehmer ist zudem Großgrundbesitzer. Allerdings nicht in Dänemark. Povlsen ist der größte private Grundbesitzer im Vereinigten Königreich – ihm gehört mehr als ein Prozent des gesamten Grundbesitzes in Schottland. Auch hat er ein großes Reservat in den rumänischen Karpaten, dessen Zweck der '''Schutz''' von Wölfen, Bären und Luchsen ist.|lang=de|sens=L'entrepreneur danois est également un grand propriétaire terrien. Mais pas au Danemark. Povlsen est le plus grand propriétaire foncier privé du Royaume-Uni - il possède plus d’un pour cent de toutes les terres en Écosse. Il possède également une grande réserve dans les Carpates roumaines, dont le but est de protéger les loups, les ours et les lynx.|source={{périodique|auteur=Victoria Niemsch|titre=Jeder hat schon seine Kleidung getragen, aber kaum jemand kennt sein Gesicht – das ist der reichste Mensch aus Dänemark|journal=Business Insider|date=1 mai 2025|texte=https://www.businessinsider.de/wirtschaft/das-ist-der-reichste-mensch-aus-daenemark-bestimmt-kennt-ihr-ihn}}}}
+# {{lexique|technique|sécurité|de}} [[protection#fr|protection]] : [[composant]] ou [[dispositif]] [[viser|visant]] à [[éviter]] le [[danger]]. {{note}} Dans ce sens (admettant le pluriel), il entre surtout dans les noms composés.
+#* {{exemple
+|Ein Verpolungs'''schutz''' oder Verpol'''schutz''' verhindert bei der Gleichspannungsversorgung (Vertauschen von Minus- und Pluspol) die falsche Polarität (Verpolung) und kann dadurch mögliche Schäden minimieren.
+|Une protection contre l’inversion de polarité empêche, pour une alimentation continue, la mauvaise polarité (inversion de polarité, permutation erronée des contacts positif et négatif) et peut donc minimiser les dommages possibles résultants.
+|source={{W|Verpolungsschutz|lang=de}}
+|lang=de}}
+# {{au singulier}} {{lexique|sécurité|de}} [[protection#fr|protection]] : [[réduction]] des [[risque|risques]] [[découler|découlant]] de (1, 2).
+#* {{exemple
+|Diese Chemiehandschuhe bieten einen hohen '''Schutz''' gegen Verätzungen.
+|Ces gants de chimie offrent une haute protection contre les brûlures chimiques.
+|lang=de}}
+
+==== {{S|quasi-synonymes}} ====
+* {{lien|Beschützung|de|sens=[[protection]]}} – ''(mesure active, objet ou dispositif)''
+
+==== {{S|antonymes}} ====
+{{(|}}
+* {{lien|Bedrohung|de|sens=[[menace]]}}
+* {{lien|Gefährdung|de|sens=[[mise en danger]]}}
+* {{lien|Gefahr|de|sens=[[danger]]}}
+* {{lien|Risiko|de|sens=[[risque]]}}
+* {{lien|Exposition|de|sens=[[exposition]]}}
+* {{lien|Gefahrenquelle|de|sens=[[source]] de [[danger]]}}
+* {{lien|Gefahrenstelle|de|sens=[[zone]] de [[danger]]}}
+* {{lien|Sicherheitslücke|de|sens=[[lacune]] de [[sécurité]]}}
+{{)}}
+
+==== {{S|dérivés}} ====
+{{(|Substantifs [[hyponyme]]s en ''-schutz'' / ''-Schutz''}}
+* {{lien|Arbeitsschutz|de|sens=[[sécurité]] et [[santé]] au [[travail]]}} {{info lex|sécurité}}
+* {{lien|Armschutz|de|sens=[[protection]] des [[bras]]}} {{info lex|sécurité}}
+* {{lien|Aromaschutz|de|sens=[[protection]] des [[arôme|arômes]]}} {{info lex|alimentaire}}
+* {{lien|Artenschutz|de|sens=[[conservation des espèces]]}} {{info lex|écologie}}
+* {{lien|Atemschutz|de|sens=[[protection]] [[respiratoire]]}} {{info lex|sécurité}}
+* {{lien|Aufprallschutz|de|sens=[[protection]] [[antichoc]]}} {{info lex|sécurité}}
+* {{lien|Augenschutz|de|sens=[[protection oculaire]]}} {{info lex|sécurité}}
+* {{lien|Ausstattungsschutz|de|sens=[[protection]] de l’[[aspect]] d’une [[marchandise]]}} {{info lex|droit|économie}}
+* {{lien|Balkonschutz|de|sens=[[pare-vue]] pour [[balcon]]}}
+* {{lien|Bauschutz|de|sens=[[protection]] des [[bâtiment|bâtiments]]}} {{info lex|droit|technique}}
+* {{lien|Begleitschutz|de|sens=[[escorte]]}}
+* {{lien|Beinschutz|de|sens=[[protection]] des [[jambe|jambes]]}} {{info lex|sécurité}}
+* {{lien|Betriebsschutz|de|sens=[[sécurité]] d’[[entreprise]]}} {{info lex|sécurité}}
+* {{lien|Blendschutz|de|sens=[[protection]] [[anti-éblouissement]]}} {{info lex|sécurité}}
+* {{lien|Blitzschutz|de|sens=[[paratonnerre]]}} {{info lex|sécurité}}
+* {{lien|Bodenschutz|de|sens=[[protection]] du [[sol]]}} {{info lex|écologie}}
+* {{lien|Bombenschutz|de|sens=[[protection]] contre les [[bombe|bombes]]}}
+* {{lien|Brandschutz|de|sens=[[protection incendie]]}} {{info lex|sécurité}}
+* {{lien|Brustschutz|de|sens=[[protège-poitrine]]}} {{info lex|sport}}
+* {{lien|Dammschutz|de|sens=[[protection]] du [[périnée]] lors de l’[[accouchement]]}} {{info lex|médecine}}
+* {{lien|Datenschutz|de|sens=[[protection]] des [[donnée|données]]}} {{info lex|informatique}}
+* {{lien|Dauerschutz|de|sens=[[protection]] à [[long terme]]}} {{info lex|technique}}
+* {{lien|Denkmalschutz|de|sens=[[protection]] des [[monument|monuments]]}}
+* {{lien|Diebstahlschutz|de|sens=[[protection]] contre le [[vol]]}} {{info lex|sécurité}}
+* {{lien|Differenzialschutz|de|sens=[[interrupteur]], [[disjoncteur]] [[différentiel]]}} {{info lex|électrotechnique|sécurité}}
+* {{lien|Ehrenschutz|de|sens=[[protection]] de l’[[honneur]]}} {{info lex|droit}}
+* {{lien|Eigenschutz|de|sens=[[protection]] de [[soi]]}} {{info lex|sécurité}}
+* {{lien|Einbruchschutz|de|sens=[[protection]] contre l’[[effraction]]}} {{info lex|sécurité}}
+* {{lien|Emissionsschutz|de|sens=[[limitation]] des [[émission|émissions]]}} {{info lex|écologie}}
+* {{lien|Erfinderschutz}} ''ou'' {{lien|Erfindungsschutz|de|sens=[[protection]] des [[invention|inventions]]}} {{info lex|droit|économie}}
+* {{lien|Erfindungsschutz|de}}
+* {{lien|Erosionsschutz|de|sens=[[protection]] contre l’[[érosion]]}} {{info lex|agriculture|écologie}}
+* {{lien|Feuchtigkeitsschutz|de}} ''ou'' {{lien|Feuchtschutz|de|sens=[[protection]] contre l’[[humidité]]}}
+* {{lien|Feuerschutz|de|sens=[[protection incendie]]}} {{info lex|écologie}}
+* {{lien|Flankenschutz|de|sens=[[protection]] des [[flanc|flancs]]}} {{info lex|chemin de fer|militaire}}
+* {{lien|Fliegenschutz|de|sens=[[moustiquaire]]}}
+* {{lien|Fliegerschutz|de|sens=[[DCA]]}} {{info lex|militaire}}
+* {{lien|Frostschutz|de|sens=[[protection]] contre le [[gel]]}}
+* {{lien|Forstschutz|de|sens=[[protection]] des [[forêt|forêts]]}} {{info lex|écologie}}
+* {{lien|Frauenschutz|de|sens=[[protection]] des [[femme|femmes]]}}
+* {{lien|Fremdschutz|de|sens=[[protection]] d’[[autrui]]}} {{info lex|sécurité}}
+* {{lien|Gasschutz|de|sens=[[protection]] par / contre les [[gaz]]}} ''(selon le contexte)''
+* {{lien|Gebrauchsmusterschutz|de|sens=[[protection]] du [[modèle d’utilité]]}} {{info lex|droit|économie}}
+* {{lien|Gefrierschutz|de|sens=[[protection]] contre le [[gel]]}}
+* {{lien|Geheimnisschutz|de|sens=[[protection]] du [[secret]]}}
+* {{lien|Gehörschutz|de|sens=[[protection]] [[auriculaire]]}} {{info lex|sécurité}}
+* {{lien|Geleitschutz|de|sens=[[escorte]] de [[protection]]}} {{info lex|sécurité}}
+* {{lien|Gesundheitsschutz|de|sens=[[protection]] de la [[santé]]}} {{info lex|médecine}}
+* {{lien|Gewässerschutz|de|sens=[[protection]] des [[eau|eaux]]}} {{info lex|écologie}}
+* {{lien|Gleitschutz|de|sens=[[dispositif]] [[antidérapant]]}} {{info lex|sécurité}}
+* {{lien|Grenzschutz|de|sens=[[protection]] des [[frontière|frontières]]}}
+* {{lien|Grundschutz|de|sens=[[protection]] de [[base]]}}
+* {{lien|Gummischutz|de|sens=[[préservatif]]}}
+* {{lien|Handschutz|de|sens=[[protection]] des [[main|mains]]}} {{info lex|sécurité}}
+* {{lien|Heimatschutz|de|sens=[[protection]] du [[patrimoine]]}}
+* {{lien|Hochwasserschutz|de|sens=[[protection]] contre les [[inondation|inondations]]}} {{info lex|sécurité}}
+* {{lien|Holzschutz|de|sens=[[protection]] du [[bois]]}} {{info lex|technique}}
+* {{lien|Ideenschutz|de|sens=[[protection]] des [[idée|idées]]}} {{info lex|droit|économie}}
+* {{lien|Immissionsschutz|de|sens=[[protection]] contre les [[immission|immissions]]}} {{info lex|écologie}}
+* {{lien|Impfschutz|de|sens=[[protection]] [[vaccinale]]}} {{info lex|médecine}}
+* {{lien|Infektionsschutz|de|sens=[[contrôle des infections]]}} {{info lex|médecine}}
+* {{lien|Informantenschutz|de|sens=[[protection]] des [[informateur|informateurs]]}} {{info lex|droit}}
+* {{lien|Inhaltsschutz|de|sens=[[protection]] du [[contenu]]}} {{info lex|droit|économie}}
+* {{lien|Insektenschutz|de|sens=[[protection]] des, contre les [[insecte|insectes]]}} ''(selon contexte)''
+* {{lien|Internetschutz|de|sens=[[protection]] contre les [[risque|risques]] de l’[[internet]]}}
+* {{lien|Investorenschutz|de|sens=[[protection]] de l’[[investisseur]]}} {{info lex|droit|économie}}
+* {{lien|Jagdschutz|de|sens=[[protection]] de la [[faune]]}} {{info lex|chasse|écologie}}
+* {{lien|Jugendschutz|de|sens=[[protection]] de la [[jeunesse]]}} {{info lex|droit}}
+* {{lien|Kälteschutz|de|sens=[[protection]] [[thermique]]}} ''(contre le froid)''
+* {{lien|Kariesschutz|de|sens=[[protection]] [[anticarie]]}} {{info lex|médecine}}
+* {{lien|Katastrophenschutz|de|sens=[[protection]] contre les [[catastrophe|catastrophes]]}}
+* {{lien|Kettenschutz|de|sens=[[carter de chaîne]]}} {{info lex|technique}}
+* {{lien|Kinderschutz|de|sens=[[protection]] des [[enfant|enfants]]}}
+* {{lien|Kinnschutz|de|sens=[[protection]] du [[menton]]}} {{info lex|sécurité}}
+* {{lien|Klimaschutz|de|sens=[[protection]] du [[climat]]}} {{info lex|écologie}}
+* {{lien|Knieschutz|de|sens=[[protection]] du [[genou]]}} {{info lex|sécurité}}
+* {{lien|Kopfschutz|de|sens=[[protection]] de la [[tête]]}} {{info lex|sécurité}}
+* {{lien|Kopierschutz|de|sens=[[protection]] [[anticopie]]}} {{info lex|droit|économie}}
+* {{lien|Korrosionsschutz|de|sens=[[protection]] [[anticorrosion]]}} {{info lex|technique}}
+* {{lien|Kreditschutz|de|sens=[[protection]] du [[crédit]]}} {{info lex|droit|économie}}
+* {{lien|Kündigungsschutz|de|sens=[[protection]] contre le [[licenciement]]}} {{info lex|droit|travail}}
+* {{lien|Küstenschutz|de|sens=[[protection]] [[côtier|côtière]]}}
+* {{lien|Landschaftsschutz|de|sens=[[protection]] du [[paysage]]}}
+* {{lien|Lärmschutz|de|sens=[[contrôle du bruit]]}}
+* {{lien|Lawinenschutz|de|sens=[[paravalanche]]}} {{info lex|sécurité}}
+* {{lien|Lebensschutz|de|sens=[[protection]] de la [[vie]]}} {{info lex|droit|sécurité}}
+* {{lien|Leistungsschutz|de|sens=[[protection]] des [[prestation|prestations]]}} {{info lex|droit|économie}}
+* {{lien|Lichtschutz|de|sens=[[photoprotection]]}} {{info lex|technique}}
+* {{lien|Luftschutz|de|sens=[[abri]] [[anti-aérien]]}}
+* {{lien|Markenschutz|de|sens=[[protection]] des [[marque|marques]]}} {{info lex|droit|économie}}
+* {{lien|Meeresschutz|de}}
+* {{lien|Metallschutz|de|sens=[[protection]] pour le [[métal]]}} {{info lex|technique}}
+* {{lien|Mieterschutz|de|sens=[[défense]] du [[locataire]]}} {{info lex|droit}}
+* {{lien|Minderheitenschutz|de|sens=[[protection]] des [[minorité|minorités]]}} {{info lex|droit}}
+* {{lien|Minderjährigenschutz|de|sens=[[protection]] des [[mineur|mineurs]]}} {{info lex|droit}}
+* {{lien|Modellschutz|de|sens=[[protection]] du [[modèle d’utilité]]}} {{info lex|droit|économie}}
+* {{lien|Mund-Nasen-Schutz|de|sens=[[masque chirurgical]]}} {{info lex|médecine|sécurité}}
+* {{lien|Mundschutz|de|sens=[[protection]] de la [[bouche]]}} ''(selon contexte)''
+* {{lien|Musterschutz|de|sens=[[protection]] du [[modèle d’utilité]]}} {{info lex|droit|économie}}
+* {{lien|Mutterschutz|de|sens=[[protection]] de la [[mère]]}}
+* {{lien|Nackenschutz|de|sens=[[protection]] de la [[nuque]]}} {{info lex|sécurité}}
+* {{lien|Naturschutz|de|sens=[[protection]] de la [[nature]]}} {{info lex|écologie}}
+* {{lien|Notenschutz|de|sens=[[non]] [[prise en compte]] de [[note|notes]]}} {{info lex|éducation}}
+* {{lien|Objektschutz|de|sens=[[protection]] des [[site|sites]]}} {{info lex|militaire|sécurité}}
+* {{lien|Opferschutz|de|sens=[[protection]] des [[victime|victimes]]}} {{info lex|droit}}
+* {{lien|Panzerschutz|de|sens=[[protection]] par [[blindage]]}} {{info lex|militaire|sécurité}}
+* {{lien|Patentschutz|de|sens=[[protection]] des [[brevet|brevets]]}} {{info lex|droit|économie}}
+* {{lien|Personenschutz|de|sens=[[protection]] des [[personne|personnes]]}} {{info lex|sécurité}}
+* {{lien|Persönlichkeitsschutz|de|sens=[[protection]] de la [[personnalité]]}} {{info lex|droit}}
+* {{lien|Pfändungsschutz|de|sens=[[insaisissabilité]]}} {{info lex|droit|économie}}
+* {{lien|Pflanzenschutz|de|sens=[[protection]] des [[plante|plantes]]}} {{info lex|agriculture}}
+* {{lien|Polizeischutz|de|sens=[[protection]] [[policier|policière]]}} {{info lex|droit}}
+* {{lien|Pollenschutz|de|sens=[[protection]] [[antipollen]]}}
+* {{lien|Prozessschutz|de|sens=[[protection]] de la [[nature]]}} ''(basée sur la non-perturbation)''
+* {{lien|Quellenschutz|de|sens=[[protection]] des [[source|sources]]}} {{info lex|droit}}
+* {{lien|Rauchschutz|de|sens=[[protection]] contre les [[fumée|fumées]]}} {{info lex|sécurité}}
+* {{lien|Rechtsschutz|de|sens=[[protection]] [[juridique]]}} {{info lex|droit}}
+* {{lien|Regenschutz|de|sens=[[protection]] contre la [[pluie]]}} {{info lex|technique}}
+* {{lien|Rostschutz|de|sens=[[protection]] [[antirouille]]}} {{info lex|technique}}
+* {{lien|Saalschutz|de|sens=[[service d’ordre]] pour les [[salle|salles]]}}
+* {{lien|Sachwertschutz|de|sens=[[protection]] des [[bien|biens]]}}
+* {{lien|Schallschutz|de|sens=[[contrôle du bruit]]}}
+* {{lien|Schreibschutz|de|sens=[[verrouillage]] en [[écriture]]}} {{info lex|informatique}}
+* {{lien|Selbstschutz|de|sens=[[autodéfense]]}}
+* {{lien|Seuchenschutz|de|sens=[[contrôle des infections]]}} {{info lex|médecine}}
+* {{lien|Sichtschutz|de|sens=[[protection oculaire]]}} {{info lex|sécurité}}
+* {{lien|Sonnenschutz|de|sens=[[protection]] [[solaire]]}}
+* {{lien|Sortenschutz|de|sens=[[conservation des espèces]]}} {{info lex|écologie}}
+* {{lien|Spannungsschutz|de|sens=[[protection]] contre la [[surtension]]}} {{info lex|électricité}}
+* {{lien|Splitterschutz|de|sens=[[protection]] [[anti-]][[éclat]]}} {{info lex|sécurité}}
+* {{lien|Spritzschutz|de|sens=[[protection]] [[anti-]][[éclaboussure]]}} {{info lex|sécurité}}
+* {{lien|Staatsschutz|de|sens=[[protection]] de l’[[État]]}} {{info lex|sécurité}}
+* {{lien|Störschutz|de}} ''ou'' {{lien|Störungsschutz|de|sens=[[protection]] contre les [[perturbation|perturbations]], le [[brouillage]]}} {{info lex|électronique|militaire}}
+* {{lien|Störungsschutz|de}}
+* {{lien|Strahlenschutz|de}} ''ou'' {{lien|Strahlungsschutz|de|sens=[[radioprotection]]}} {{info lex|sécurité}}
+* {{lien|Tendenzschutz|de|de|sens=[[droit]] de [[décision]] sur la [[tendance politique]] d’un [[média]]}}
+* {{lien|Tieffliegerschutz|de}}
+* {{lien|Tiefschlagschutz|de}} ''ou'' {{lien|Tiefschutz|de|sens=[[coquille]] de [[protection]] [[génital|génitale]]}} {{info lex|boxe}}
+* {{lien|Tiefschutz|de}}
+* {{lien|Tierschutz|de|sens=[[protection]] des [[animal|animaux]]}} {{info lex|droit}}
+* {{lien|Titelschutz|de|sens=[[protection]] des [[titre|titres]]}} ''(marques, œuvres ou titres universitaires)''
+* {{lien|Uferschutz|de|sens=[[protection]] des [[côte|côtes]]}} {{info lex|écologie}}
+* {{lien|Umweltschutz|de|sens=[[protection de l’environnement]], [[environnementalisme]]}} {{info lex|écologie}}
+* {{lien|Unfallschutz|de|sens=[[protection]] contre les [[accident|accidents]]}} {{info lex|sécurité}}
+* {{lien|Unterbodenschutz|de|sens=[[protection]] du [[bas de caisse]]}} {{info lex|automobile|technique}}
+* {{lien|Unterfahrschutz|de|sens=[[protection]] [[anti-]][[encastrement]]}} {{info lex|automobile|sécurité}}
+* {{lien|Urheberschutz|de|sens=[[défense]] du [[droit d’auteur]]}} {{info lex|droit|économie}}
+* {{lien|UV-Schutz|de|sens=[[protection]] [[anti-]][[UV]]}}
+* {{lien|Verbraucherschutz|de|sens=[[défense du consommateur]]}} {{info lex|droit}}
+* {{lien|Verfassungsschutz|de|sens=[[protection]] de la [[constitution]]}}
+* {{lien|Vermieterschutz|de|sens=[[défense]] du [[bailleur]]}} {{info lex|droit}}
+* {{lien|Verpolschutz|de}} ''ou'' {{lien|Verpolungsschutz|de|sens=[[protection]] contre l’[[inversion de polarité]]}} {{info lex|électricité|électronique}}
+* {{lien|Versicherungsschutz|de|sens=[[couverture]]}} {{info lex|assurance}}
+* {{lien|Virenschutz|de|sens=[[protection]] [[antivirus]]}} {{info lex|informatique|médecine}}
+* {{lien|Vogelschutz|de|sens=[[protection]] des [[oiseau|oiseaux]]}} {{info lex|écologie}}
+* {{lien|Wachschutz|de|sens=[[protection]] par une [[garde]]}} {{info lex|sécurité}}
+* {{lien|Waldschutz|de|sens=[[protection]] de la [[forêt]]}} {{info lex|écologie}}
+* {{lien|Warenzeichenschutz|de|sens=[[protection]] des [[marque|marques]]}} {{info lex|droit|économie}}
+* {{lien|Wärmeschutz|de|sens=[[protection]] [[thermique]]}} ''(contre le chaud)''
+* {{lien|Wasserschutz|de|sens=[[protection]] des [[eau|eaux]]}}} {{info lex|écologie}}
+* {{lien|Werkschutz|de|sens=[[sécurité]] d’[[entreprise]]}} {{info lex|sécurité}}
+* {{lien|Wetterschutz|de|sens=[[protection]] contre les [[intempérie|intempéries]], les [[élément|éléments]]}}
+* {{lien|Windschutz|de|sens=[[protection]] contre le [[vent]]}}
+* {{lien|Zeckenschutz|de|sens=[[protection]] [[antimoustique]]}}
+* {{lien|Zeichenschutz|de|sens=[[protection]] des [[marque|marques]]}} {{info lex|droit|économie}}
+* {{lien|Zivilschutz|de|sens=[[protection civile]]}} {{info lex|sécurité}}
+{{)}}
+{{(|Substantifs en ''Schutz-''}}
+* {{lien|Schutzalter|de|sens=[[majorité sexuelle]]}} {{info lex|droit}}
+* {{lien|Schutzanlage|de|sens=[[installation]] de [[protection]]}} {{info lex|sécurité}}
+* {{lien|Schutzanordnung|de|sens=[[directive]] de [[protection]]}} {{info lex|droit|sécurité}}
+* {{lien|Schutzanpassung|de|sens=[[adaptation]] [[protecteur|protectrice]]}} {{info lex|écologie}}
+* {{lien|Schutzanstrich|de|sens=[[peinture]] de [[protection]]}} {{info lex|technique}}
+* {{lien|Schutzanzug|de|sens=[[habit]] de [[protection]]}} {{info lex|sécurité}}
+* {{lien|Schutzaufsicht|de|sens=[[garde à vue]]}} {{info lex|droit|justice}}
+* {{lien|Schutzausrüstung|de|sens=[[équipement]] de [[protection]]}} {{info lex|sécurité}}
+* {{lien|Schutzbau|de|sens=[[ouvrage]] de [[protection]]}} {{info lex|sécurité}}
+* {{lien|Schutzbedürfnis|de|sens=[[besoin]] de [[protection]]}}
+* {{lien|Schutzbefohlener|de|sens=[[personne]] sous [[protection]]}}
+* {{lien|Schutzbehauptung|de|sens=[[mensonge protecteur]]}}
+* {{lien|Schutzbehälter|de|sens=[[emballage]] de [[protection]]}}
+* {{lien|Schutzbekleidung|de|sens=[[habit]] de [[protection]]}} {{info lex|sécurité}}
+* {{lien|Schutzbereich|de|sens=[[zone]] de [[protection]]}}
+* {{lien|Schutzblech|de|sens=[[tôle]] de [[protection]]}}
+* {{lien|Schutzboot|de|sens=[[garde-côte]]}} ''(bateau)''
+* {{lien|Schutzbrief|de|sens=[[attestation]]de [[protection]]}}
+* {{lien|Schutzbrille|de|sens=[[lunettes de sécurité]]}} {{info lex|sécurité}}
+* {{lien|Schutzbündnis|de|sens=[[alliance]] [[défensif|défensive]]}}
+* {{lien|Schutzbürger|de|sens=[[citoyen de seconde zone]]}} {{info lex|histoire}}
+* {{lien|Schutzdach|de|sens=[[toit]] de [[protection]]}}
+* {{lien|Schutzdamm|de|sens=[[barrage]] de [[protection]]}} {{info lex|sécurité}}
+* {{lien|Schutzeinrichtung|de|sens=[[dispositif]] de [[protection]]}} {{info lex|sécurité}}
+* {{lien|Schutzengel|de|sens=[[ange protecteur]]}} {{info lex|religion}}
+* {{lien|Schutzfarbe|de|sens=[[peinture]] de [[protection]]}} {{info lex|technique}}
+* {{lien|Schutzfärbung|de|sens=[[coloration]] de [[camouflage]]}} {{info lex|écologie|militaire}}
+* {{lien|Schutzfilm|de|sens=[[film protecteur]]}}
+* {{lien|Schutzfolie|de|sens=[[feuille protectrice]]}}
+* {{lien|Schutzfrist|de|sens=[[délai]] de [[protection]]}} {{info lex|droit|économie}}
+* {{lien|Schutzfunktion|de|sens=[[fonction]] de [[protection]]}} {{info lex|sécurité}}
+* {{lien|Schutzgas|de|sens=[[gaz protecteur]]}} {{info lex|technique}}
+* {{lien|Schutzgebiet|de|sens=[[zone]] de [[protection]]}}
+* {{lien|Schutzgebühr|de|sens=[[contribution]] de [[soutien]]}}
+* {{lien|Schutzgeist|de|sens=[[esprit]] [[protecteur]]}} {{info lex|ésotérisme}}
+* {{lien|Schutzgeländer|de|sens=[[rambarde]]}} {{info lex|sécurité}}
+* {{lien|Schutzgeld|de|sens=[[argent]] de [[racket]]}}
+* {{lien|Schutzgemeinschaft|de|sens=[[communauté]] de [[protection]]}}
+* {{lien|Schutzgenosse|de|sens=[[citoyen de seconde zone]]}} {{info lex|histoire}}
+* {{lien|Schutzgerät|de|sens=[[appareil]] de [[protection]]}}
+* {{lien|Schutzgesetz|de|sens=[[loi]] [[protecteur|protectrice]]}} {{info lex|droit}}
+* {{lien|Schutzgewahrsam|de|sens=[[garde à vue]]}} {{info lex|droit|justice}}
+* {{lien|Schutzgewalt|de|sens=[[protection]] [[tutélaire]]}}
+* {{lien|Schutzgitter|de|sens=[[grille]] de [[protection]]}} {{info lex|sécurité}}
+* {{lien|Schutzglas|de|sens=[[verre]] de [[protection]]}} {{info lex|sécurité}}
+* {{lien|Schutzglocke|de|sens=[[cloche]] de [[protection]]}} {{info lex|sécurité}}
+* {{lien|Schutzgott|de|sens=[[dieu]] [[protecteur]]}} {{info lex|religion}}
+* {{lien|Schutzhafen|de|sens=[[port de refuge]]}} {{info lex|navigation}}
+* {{lien|Schutzhaft|de|sens=[[détention préventive]]}} {{info lex|droit|justice}}
+* {{lien|Schutzhaube|de|sens=[[capot]] de [[protection]]}} {{info lex|sécurité}}
+* {{lien|Schutzheilige|de|sens=[[patron]]}} {{info lex|religion}}
+* {{lien|Schutzhelm|de|sens=[[casque]] de [[protection]]}} {{info lex|sécurité}}
+* {{lien|Schutzherr|de|sens=[[parrain]]}}
+* {{lien|Schutzhülle|de|sens=[[coque]] de [[protection]]}} {{info lex|sécurité}}
+* {{lien|Schutzhund|de|sens=[[Chien de garde]]}}
+* {{lien|Schutzhütte|de|sens=[[refuge de montagne]]}}
+* {{lien|Schutzimpfung|de|sens=[[vaccination]]}} {{info lex|médecine}}
+* {{lien|Schutzinsel|de|sens=[[îlot central]]}} {{info lex|sécurité routière}}
+* {{lien|Schutzjude|de|sens=[[Juif]] }} {{info lex|histoire}}
+* {{lien|Schutzkappe|de|sens=[[chapeau]], [[couvercle]] [[protecteur]]}} {{info lex|sécurité}}
+* {{lien|Schutzkarton|de|sens=[[étui]] [[protecteur]]}} ''(pour livres)''
+* {{lien|Schutzkittel|de|sens=[[blouse]] de [[protection]]}} {{info lex|sécurité}}
+* {{lien|Schutzklausel|de|sens=[[clause]] de [[protection]]}}
+* {{lien|Schutzkleidung|de|sens=[[habit]] de [[protection]]}} {{info lex|sécurité}}
+* {{lien|Schutzkontakt|de|sens=[[terre]], [[Schuko]]}} {{info lex|électricité|sécurité}}
+* {{lien|Schutzlack|de|sens=[[laque]] de [[protection]]}} {{info lex|technique}}
+* {{lien|Schutzleiste|de|sens=[[baguette]] de [[protection]]}} {{info lex|technique}}
+* {{lien|Schutzleistung|de|sens=[[fonction]] [[protecteur|protectrice]]}} {{info lex|technique|sécurité}}
+* {{lien|Schutzleute|de|sens=[[personnel]] de [[sûreté]]}}
+* {{lien|Schutzlüftung|de|sens=[[ventilation]] de [[protection]], de [[sécurité]]}}
+* {{lien|Schutzmacht|de|sens=[[puissance]] [[tutélaire]]}}
+* {{lien|Schutzmann|de|sens=[[homme]] de la [[police]] de [[sûreté]]}}
+* {{lien|Schutzmantel|de|sens=[[manteau]] de [[protection]]}} {{info lex|sécurité}}
+* {{lien|Schutzmarke|de|sens=[[marque]] [[protégé|protégée]]}}
+* {{lien|Schutzmaske|de|sens=[[masque de protection]]}} {{info lex|sécurité}}
+* {{lien|Schutzmaßnahme|de|sens=[[mesure]] de [[protection]]}} {{info lex|sécurité}}
+* {{lien|Schutzmaterial|de|sens=[[matériel]] de [[protection]]}} {{info lex|sécurité}}
+* {{lien|Schutzmauer|de|sens=[[mur]] de [[protection]]}} {{info lex|sécurité}}
+* {{lien|Schutzmechanismus|de|sens=[[mécanisme]] de [[protection]]}} {{info lex|sécurité}}
+* {{lien|Schutzmittel|de|sens=[[substance]] [[protecteur|protectrice]]}}
+* {{lien|Schutznetz|de|sens=[[filet]] de [[sécurité]]}} {{info lex|sécurité}}
+* {{lien|Schutzort|de|sens=[[abri]]}}
+* {{lien|Schutzpanzer|de|sens=[[armure]] de [[protection]]}}
+* {{lien|Schutzpatron|de|sens=[[patron]]}}
+* {{lien|Schutzpflanzung|de|sens=[[plantation]] [[protecteur|protectrice]]}}
+* {{lien|Schutzplane|de|sens=[[bâche]] de [[protection]]}}
+* {{lien|Schutzplatte|de|sens=[[plaque]] de [[protection]]}}
+* {{lien|Schutzpolizei|de|sens=[[police]] de [[sûreté]]}}
+* {{lien|Schutzpolizist|de|sens=[[agent]] de la [[police]] de [[sûreté]]}}
+* {{lien|Schutzpolster|de|sens=[[rembourrage]] de [[protection]]}} {{info lex|sécurité}}
+* {{lien|Schutzraum|de|sens=[[pièce]] [[abri]]}} {{info lex|sécurité}}
+* {{lien|Schutzrecht|de|sens=[[propriété intellectuelle]]}}
+* {{lien|Schutzschalter|de|sens=[[commutateur]] de [[sécurité]]}} {{info lex|sécurité}}
+* {{lien|Schutzscheibe|de|sens=[[glace]] de [[sécurité]]}} {{info lex|sécurité}}
+* {{lien|Schutzschicht|de|sens=[[couche]] de [[protection]]}} {{info lex|technique}}
+* {{lien|Schutzschild|de|sens=[[bouclier]] de [[protection]]}} {{info lex|sécurité}}
+* {{lien|Schutzschirm|de|sens=[[dôme]] [[protecteur]]}}
+* {{lien|Schutzsperre|de|sens=[[barrière]] de [[protection]]}} {{info lex|sécurité}}
+* {{lien|Schutzstaat|de|sens=[[protectorat]]}}
+* {{lien|Schutzstaffel|de|sens=[[SS]]}} ''(troupe de l’Allemagne nazie)''
+* {{lien|Schutzstation|de|sens=[[refuge]]}} ''(protection de la nature, de la faune)''
+* {{lien|Schutzstatus|de|sens=[[statut]] de [[protection]]}}
+* {{lien|Schutzstoff|de|sens=[[substance]] [[protecteur|protectrice]]}}
+* {{lien|Schutzstreifen|de|sens=[[bande]] de [[protection]]}}
+* {{lien|Schutztruppe|de|sens=[[troupe]] de [[protection]]}}
+* {{lien|Schutzüberzug|de|sens=[[survêtement]] de [[protection]]}}
+* {{lien|Schutzumschlag|de|sens=[[enveloppe]] de [[protection]]}}
+* {{lien|Schutzunterstand|de|sens=[[abri]]}} {{info lex|sécurité}}
+* {{lien|Schutzverband|de|sens=[[association]] de [[protection]], [[pansement]] [[protecteur]]}}
+* {{lien|Schutzverpflichtung|de|sens=[[obligation]] de [[protection]]}} {{info lex|droit}}
+* {{lien|Schutzvertrag|de|sens=[[contrat]] de [[protection]]}} {{info lex|droit}}
+* {{lien|Schutzvorkehrung|de|sens=[[mesure]] de [[protection]]}} {{info lex|sécurité}}
+* {{lien|Schutzvorrichtung|de|sens=[[dispositif]] de [[protection]]}} {{info lex|droit}}
+* {{lien|Schutzwaffe|de|sens=[[arme]] [[défensif|défensive]]}}
+* {{lien|Schutzwald|de|sens=[[forêt protectrice]]}} {{info lex|écologie|sécurité}}
+* {{lien|Schutzwall|de|sens=[[mur]] de [[protection]]}} {{info lex|sécurité}}
+* {{lien|Schutzweg|de|sens=[[passage protégé]]}} {{info lex|sécurité routière}}
+* {{lien|Schutzwehr|de|sens=[[légitime défense]]}} {{info lex|droit}}
+* {{lien|Schutzwirkung|de|sens=[[effet]] [[protecteur]]}} {{info lex|sécurité}}
+* {{lien|Schutzzauber|de|sens=[[magie]] [[protecteur|protectrice]]}} {{info lex|ésotérisme}}
+* {{lien|Schutzzaun|de|sens=[[clôture]] de [[protection]]}} {{info lex|sécurité}}
+* {{lien|Schutzziel|de|sens=[[objectif]] de [[sécurité]]}} {{info lex|sécurité}}
+* {{lien|Schutzzelt|de|sens=[[tente]] de [[protection]]}}
+* {{lien|Schutzzoll|de|sens=[[barrière tarifaire]]}}
+* {{lien|Schutzzone|de|sens=[[zone]] de [[protection]]}}
+{{)}}
+{{(|Autres substantifs}}
+* {{lien|Atemschutzmaske|de|sens=[[masque de protection]]}} {{info lex|sécurité}}
+* {{lien|Flammschutzmittel|de|sens=[[agent]] [[ignifuge]]}} {{info lex|sécurité}}
+* {{lien|Grippeschutzimpfung|de|sens=[[vaccin]] [[antigrippal]]}} {{info lex|médecine}}
+* {{lien|Unterschutzstellung|de|sens=[[mise]] sous [[protection]]}}
+{{)}}
+{{(|Autres dérivés}}
+* {{lien|schutzbedürftig|de|sens=en [[besoin]] de [[protection]]}}
+* {{lien|schutzfähig|de|sens=[[apte]] à [[protéger]]}}
+* {{lien|schutzimpfen|de|sens=[[vacciner]]}} {{info lex|médecine}}
+* {{lien|schutzlos|de|sens=[[sans]] [[protection]]}}
+* {{lien|schutzsuchend|de|sens=en [[quête]] de [[protection]]}}
+{{)}}
+
+==== {{S|apparentés}} ====
+* {{lien|Schütz|de|sens=[[contacteur]] [[électrique]]}} {{info lex|technique}}
+* {{lien|schützen|de|sens=[[protéger]]}}
+* {{lien|Schützling|de|sens=[[protégé]]}}
+
+==== {{S|vocabulaire}} ====
+{{(|}}
+* {{lien|Abschirmung|de|sens=[[aide]]}}
+* {{lien|Absperrung|de|sens=[[obstacle]] », « [[barrage]]}}
+* {{lien|Abwehr|de|sens=[[défense]]}}
+* {{lien|Beistand|de|sens=[[soutien]]}}
+* {{lien|Bewahrung|de|sens=[[préservation]]}}
+* {{lien|Hilfe|de|sens=[[aide]]}}
+* {{lien|Sicherheit|de|sens=[[sécurité]] », « [[sûreté]]}}
+* {{lien|Verteidigung|de|sens=[[aide]]}}
+* {{lien|Vorbeugemaßnahme|de|sens=[[mesure]] de [[prévention]]}}
+* {{lien|Vorbeugung|de|sens=[[prévention]]}}
+{{)}}
+
+==== {{S|phrases}} ====
+* {{lien|Schutz und Schirm|de|sens=[[protection]]}} ''(littéraire)''
+* {{lien|Schutz und Trutz|de|sens=[[protection]] et [[défense]]}}
+
+==== {{S|hyponymes}} ====
+: ''Voir la première liste des [[#Dérivés|dérivés]].''
+
+=== {{S|nom propre|de}} ===
+'''Schutz''' {{pron|ʃʊt͡s|de}} {{n}}
+# {{localités|de|d’Allemagne}} [[Schutz#fr|Schutz]] ([[commune]] d’[[Allemagne]], située dans la [[Rhénanie-Palatinat]]).
+
+=== {{S|nom de famille|de}} ===
+'''Schutz''' {{pron|ʃʊt͡s|de}} {{mf}}
+# Nom de famille.
+#* {{exemple | lang=de | {{w|Frère Roger|Roger '''Schutz'''}}.}}
+
+=== {{S|prononciation}} ===
+* {{écouter|Berlin (Allemagne)|ʃʊt͡s|lang=de|audio=De-Schutz.ogg}}
+
+=== {{S|références}} ===
+{{Références}}
+* {{R:Duden|Schutz}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=de}}
+* {{WP|Schutz (Begriffsklärung)|lang=de}}
+
+{{Bonne entrée|allemand}}
+
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{déverbal|de=schützen|lang=de|m=1}}.
+
+=== {{S|nom|gsw-fr}} ===
+'''Schutz''' {{pron||gsw-fr}}
+# [[protection#fr|Protection]].
+
+== {{langue|lb}} ==
+=== {{S|étymologie}} ===
+: {{date|lang=lb}} {{ébauche-étym|lb}}
+{{note noms de famille}}
+
+=== {{S|nom de famille|lb}} ===
+{{lb-inv|ʃyts}}
+'''Schutz''' {{pron|ʃyts|lb}}
+# Nom de famille.
+#* {{exemple|lang=lb}}
+
+=== {{S|prononciation}} ===
+{{ébauche-pron-audio|lb}}
+
+=== {{S|anagrammes}} ===
+{{voir anagrammes|lb}}
+
+=== {{S|références}} ===
+* {{R:Luxemburger Familiennamenbuch}}
+
+[[Catégorie:Lexique en allemand de la santé au travail]]

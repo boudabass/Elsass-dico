@@ -1,0 +1,123 @@
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|verbe|gsw-fr}} ===
+'''binda'''
+# [[attacher#fr|Attacher]].
+
+== {{langue|it}} ==
+=== {{S|étymologie}} ===
+: De l’ancien allemand ''winde''.
+
+=== {{S|nom|it}} ===
+{{it-flexion|ˈbin.d}}
+[[Image:Universalwinde.jpg|thumb|150px|'''Binda''' a cremagliera]]
+'''binda''' {{pron|ˈbin.da|it}} {{f}}
+# Appareil manuel de levage, sorte de [[cric]] à longue course permettant de soulever des charges.
+#* {{exemple | lang=it
+ | '''binda''' a cremagliera.
+ | cric à crémaillère.}}
+#* {{exemple | lang=it
+ | '''binda''' idraulica.
+ | cric hydraulique.}}
+
+==== {{S|synonymes}} ====
+* [[cric#it|cric]]
+
+==== {{S|vocabulaire}} ====
+* [[martinetto#it|martinetto]]
+
+=== {{S|anagrammes}} ===
+{{voir anagrammes|it}}
+
+== {{langue|avk}} ==
+=== {{S|étymologie}} ===
+: {{avk-arbitraire}}<ref>{{avk-ref-arbitraire}}</ref>.
+
+=== {{S|nom|avk}} ===
+'''binda''' {{pron|ˈbinda|avk}} {{indénombrable|avk}}
+# [[état|État]] de [[perte de connaissance]].
+
+==== {{S|dérivés}} ====
+* [[bindé]]
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=avk|France|ˈbinda|audio=Binda.wav}}
+
+=== {{S|références}} ===
+* {{Kotapedia|binda}}
+{{Références}}
+[[Catégorie:Mots en kotava répertoriés sur Kotapedia]]
+
+== {{langue|pln}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|pln}}
+: Origine bantoue
+
+=== {{S|nom|pln}} ===
+'''binda''' {{pron|ˈbin.da|pln}}
+# [[tresse|Tresse]] [[extérieur]]e
+#* {{exemple|lang=pln}}
+
+== {{langue|pl}} ==
+=== {{S|étymologie}} ===
+: De l’{{étyl|de|pl|mot=Binde|sens=}}{{R|SEJP|binda}}.
+
+=== {{S|nom|pl}} ===
+{{pl-décl-nom-f|bin|d}}
+'''binda''' {{pron||pl}} {{f}}
+# [[corde#fr|Corde]] pour attacher les paquets.
+#*{{exemple|lang=pl}}
+# [[bandeau#fr|Bandeau]], diadème en forme de bandeau.
+#*{{exemple|lang=pl}}
+# Moustache en forme de croc.[[File:Wilhelm II. (Deutsches Reich) im Couleur des Corps Borussia Bonn (farbig).jpg|vignette|''Wilhelm II z [[podkręcony]]mi [[wąs]]ami [[utrwalony]]mi '''bindą'''.'']]
+#*{{exemple|lang=pl}}
+
+==== {{S|synonymes}} ====
+* {{lien|opaska|pl}}
+
+==== {{S|dérivés}} ====
+* {{lien|bindować|pl}}
+
+=== {{S|prononciation}} ===
+* {{écouter|Będzin (Pologne)||lang=pl|audio=LL-Q809 (pol)-Olaf-binda.wav}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=pl}}
+
+=== {{S|références}} ===
+* {{Source-wikt|pl|binda}}
+{{Références}}
+
+== {{langue|sv}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|non|sv|mot=binda}}.
+
+=== {{S|verbe|sv}} ===
+'''binda''' {{pron||sv}} {{conjugaison|sv}}
+# [[attacher#fr|Attacher]], [[nouer]], [[lier]].
+# [[relier#fr|Relier]].
+
+==== {{S|synonymes}} ====
+* [[snöra]]
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=sv|Suède||audio=Sv-binda.ogg}}
+
+== {{langue|non}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|proto-germanique|non|*bindaną||lier, attacher}}, lui-même issu de l’{{indo-européen commun}} {{recons|lang-mot-vedette=non|bʰendʰ-}}.
+
+=== {{S|verbe|non}} ===
+'''binda'''
+# [[lier|Lier]], [[attacher]].
+
+==== {{S|dérivés autres langues}} ====
+{{(}}
+* {{L|da}} : {{lien|binde|da}}
+* {{L|fo}} : {{lien|binda|fo}}
+* {{L|is}} : {{lien|binda|is}}
+* {{L|no}} : {{lien|binde|no}}
+* {{L|sv}} : {{lien|binda|sv}}
+{{)}}

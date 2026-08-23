@@ -1,0 +1,154 @@
+{{voir/oh}}
+
+== {{langue|fr}} ==
+=== {{S|étymologie}} ===
+: {{siècle|lang=fr|?}} Du {{étyl|la|fr|mot=o}} ou ''{{lien|oh|la}}''.
+
+=== {{S|interjection|fr}} ===
+'''oh''' {{pron|o|fr}}
+# Marque l’[[étonnement]] ou la [[surprise]].
+#* {{exemple | lang=fr
+ | Il lit le titre, il fait '''oh !''' et il me regarde. […]. En tout cas il me regarde, je le regarde, et voilà que nous hochons la tête, tous les deux.
+ | source=[[w:Vercors (écrivain)|Vercors]], ''La marche à l’étoile'', éditions de Minuit, 1943, édition 1946, page 64}}
+#* {{exemple | lang=fr
+ | Il y eut un « '''ohhhh''' » collectif, un souffle, un silence respectueux.
+ | source=Les canards étaient à la fête à Bucklebury'', site figaro.fr, 29 avril 2011}}
+#* {{exemple | lang=fr
+ | '''Oh''' ! '''oh''' ! '''oh''' ! '''oh''' ! dit Nanon, quoi que c’est que ça, les marins de la garde ? C’est-y salé ? Ça va-t-il sur l’eau ?
+ | source={{Citation/Honoré de Balzac/Eugénie Grandet/1855|247}}}}
+# Marque la [[déception]].
+#* {{exemple | lang=fr | '''Oh''' ! Mon équipe favorite a perdu.}}
+#* ''— '''Oh''' !<br
+/>Le professeur prononce les «'''oh''' » ! comme d’autres donnent des coups de gong…'' {{source|{{w|Germaine Acremant}}, ''Ces dames aux chapeaux verts'', Plon, 1922, collection Le Livre de Poche, page 378}}
+# Marque la [[reconnaissance]].
+#* {{exemple | lang=fr | '''Oh''' ! Merci beaucoup pour votre gentillesse.}}
+# Marque l’[[admiration]].
+#* {{exemple | lang=fr | '''Oh''' ! Qu’il est beau.}}
+# Sert à [[donner]] au sens plus de [[force]] {{cf|ô|lang=fr}}.
+#* {{exemple | lang=fr | '''Oh''' ! Je me vengerai.}}
+#* {{exemple | lang=fr | '''Oh''' ! Combien j’aimerais à le voir !}}
+#* {{exemple | lang=fr
+ | la culture, '''oooooh''', c’était mieux avant.
+ | source=''[//rss.nouvelobs.com/c/32262/f/493634/s/cc2ad4d/l/0Ltempsreel0Bnouvelobs0N0Cactualite0Cculture0C20A10A0A7290BOBS78320C19980Evs0E20A10A0Ele0Ematch0E50E50Ela0Eculture0Ec0Eetait0Emieux0Eavant0Bhtml/story01.htm « La culture, c’était mieux avant ? »], nouvelObs.fr, 14 aout 2010}}
+
+==== {{S|notes}} ====
+: L’allongement de la syllabe se matérialise tantôt par l’ajout de ''o'' tantôt par l’ajout de ''h''.
+
+==== {{S|synonymes}} ====
+''étonnement'' :
+* [[hein]]
+* [[pas possible]]
+* [[tiens donc]]
+''admiration'' :
+* [[ah]]
+* [[ouah]]
+''déception'' :
+* [[rah]]
+* [[roh]]
+* [[zut]]
+
+==== {{S|dérivés}} ====
+* [[oh boy]]
+* [[oh fant]]
+* [[oh grand jamais]]
+* [[oh hisse]]
+* [[oh là là]]
+* [[oh non]]
+* [[hé oh]]
+
+==== {{S|vocabulaire}} ====
+* {{voir thésaurus|fr|étonnement}}
+
+==== {{S|traductions}} ====
+{{trad-début}}
+* {{T|af}} : {{trad+|af|a}}, {{trad+|af|aai}}, {{trad+|af|o}}, {{trad+|af|sjoe}}
+* {{T|de}} : {{trad+|de|ach}}, {{trad+|de|o}}, {{trad+|de|ho}}, {{trad+|de|oh}}, {{trad+|de|na}}
+* {{T|en}} : {{trad+|en|oh}}, {{trad+|en|oops}}, {{trad+|en|by Jove}}, {{trad+|en|I never}}, {{trad-|en|have you ever}}, {{trad+|en|well}}
+* {{T|ar}} : {{trad+|ar|يا|R=ya}}
+* {{T|bm}} : {{trad|bm|áà}}
+* {{T|ca}} : {{trad-|ca|oh}}
+* {{T|zh}} : {{trad+|zh|哦|R=ó}} (1)
+* {{T|ko}} : {{trad+|ko|어|tr=eo}} (2), {{trad+|ko|오|tr=o}} (1,3,4)
+* {{T|da}} : {{trad-|da|åh}}
+* {{T|es}} : {{trad+|es|ah}}, {{trad+|es|oh}}
+* {{T|eo}} : {{trad+|eo|ho}}
+* {{T|fo}} : {{trad-|fo|áh}}
+* {{T|fi}} : {{trad+|fi|oho}} (1), {{trad+|fi|voi}} (1, 2), {{trad+|fi|oi}} (5)
+* {{T|el}} : {{trad+|el|α|R=a}}
+* {{T|ja}} : {{trad+|ja|あ|tr=a}}
+* {{T|avk}} : {{trad|avk|ox}} (1)
+* {{T|nl}} : {{trad+|nl|o}}, {{trad+|nl|och}}, {{trad+|nl|allemachtig}}, {{trad+|nl|tjonge}}, {{trad+|nl|allemensen}}
+* {{T|no}} : {{trad-|no|åh}}
+* {{T|ryu}} : {{trad|ryu|あい|tr=ai}}
+* {{T|pt}} : {{trad+|pt|oh}}
+* {{T|ru}} : {{trad+|ru|ба|tr=ba}}, {{trad+|ru|ох|tr=okh}}
+* {{T|se}} : {{trad|se|vuoi}}
+* {{T|sv}} : {{trad+|sv|åh}}, {{trad+|sv|oj}}, {{trad+|sv|å}}
+* {{T|tr}} : {{trad+|tr|ah}}
+{{trad-fin}}
+
+=== {{S|prononciation}} ===
+* {{pron|o|fr}}
+** {{écouter|lang=fr|France (Muntzenheim)|o|audio=LL-Q150 (fra)-0x010C-oh.wav}}
+* {{écouter|lang=fr|France (Vosges)||audio=LL-Q150 (fra)-LoquaxFR-oh.wav}}
+* {{écouter|||lang=fr|audio=LL-Q150 (fra)-Marie-Sarah (Opsylac)-oh.wav}}
+
+==== {{S|homophones|fr}} ====
+{{(}}
+* [[au]], [[aux]]
+* [[aulx]]
+* [[eau]], [[eaux]]
+* [[haut]], [[hauts]]
+* [[ho]]
+* [[O]]
+* [[o]], [[ô]]
+* [[Oh]]
+* [[os]] ''(Pluriel)''
+{{)}}
+
+=== {{S|anagrammes}} ===
+{{voir anagrammes|fr}}
+== {{langue|en}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|en}}
+
+=== {{S|interjection|en}} ===
+'''oh''' {{pron|ˈoʊ|en}} {{États-Unis|nocat=1}}, {{pron|ˈəʊ|en}} {{Royaume-Uni|nocat=1}}
+# [[oh#fr|Oh]].
+
+==== {{S|dérivés}} ====
+* [[oh-so]]
+
+=== {{S|nom|en}} ===
+{{en-nom-rég|ˈoʊ|pron2=ˈəʊ}}
+'''oh''' {{pron|ˈoʊ|en}} {{États-Unis|nocat=1}}, {{pron|ˈəʊ|en}} {{Royaume-Uni|nocat=1}}
+# Lettre ''[[O]]'' ou ''[[o]]''.
+# Chiffre ''[[0]]'' (zéro). {{usage}} On utilise cette prononciation quand on dit un numéro chiffre par chiffre.
+
+==== {{S|variantes orthographiques}} ====
+* [[o#en|o]] {{plus courant}}
+
+==== {{S|synonymes}} ====
+* [[zero#en|zero]] (2)
+
+=== {{S|prononciation}} ===
+* {{pron|ˈoʊ|en}} {{États-Unis|nocat=1}}, {{pron|ˈəʊ|en}} {{Royaume-Uni|nocat=1}}
+** {{écouter|{{UK|nocat=1}}|ˈoʊ|lang=en|audio=En-uk-oh.ogg}}
+** {{écouter|lang=en|Royaume-Uni (Londres)|ˈoʊ|audio=LL-Q1860 (eng)-Back ache-oh.wav}}
+* {{écouter|Californie (États-Unis)||lang=en|audio=LL-Q1860 (eng)-She animates-oh.wav}}
+* {{écouter|Texas (États-Unis)||lang=en|audio=LL-Q1860 (eng)-Wodencafe-oh.wav}}
+* {{écouter|Connecticut (États-Unis)||lang=en|audio=LL-Q1860 (eng)-Grendelkhan-oh.wav}}
+* {{écouter|Irlande||lang=en|audio=LL-Q1860 (eng)-LetsgoLeeLee-oh.wav}}
+
+==== {{S|homophones|en}} ====
+* [[owe#en|owe]]
+
+=== {{S|anagrammes}} ===
+{{voir anagrammes|en}}
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|interjection|gsw-fr}} ===
+'''oh''' {{pron||gsw-fr}}
+# [[oh#fr|Oh]] !

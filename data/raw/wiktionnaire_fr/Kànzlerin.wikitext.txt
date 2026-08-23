@@ -1,0 +1,20 @@
+{{voir|Kanzlerin}}
+
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|nom|gsw-fr}} ===
+{{gsw-fr-nom-f}}
+'''Kànzlerin''' {{phon||gsw-fr}} {{f}} {{équiv-pour|lang=gsw-fr|un homme|Kànzler}}
+# {{lexique|politique|gsw-fr}} [[chancelière#fr|Chancelière]].
+#* {{exemple | lang=gsw-fr
+ | Sitter ànna 2005 han d’ Ditscha a vorsìchtiga '''Kànzlerin''' : kä Wort lütter àls a ànders, kä Bla Bla Bla, un kä “Bling Bling”.
+ | Depuis 2005, les Allemands ont une chancelière prudente : pas un mot de plus fort qu’un autre, pas de bla bla ni de bling bling.
+ | source=Patrick Fluckiger, « [http://www.lalsace.fr/actualite/2015/09/19/d-mama-merkel-hat-usgschalta D’ Màma Merkel hàt üsgschàlta] », ''[[w:L'Alsace|L’Alsace]]'', 19 septembre 2015}}
+
+==== {{S|dérivés}} ====
+* {{lien|Bundeskànzlerin|gsw-fr}} — chancelière fédérale
+
+==== {{S|hyperonymes}} ====
+* {{lien|Politikerin|gsw-fr}} — politicienne, femme politique

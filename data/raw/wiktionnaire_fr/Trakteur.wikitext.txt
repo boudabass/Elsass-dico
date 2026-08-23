@@ -1,0 +1,10 @@
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|nom|gsw-fr}} ===
+'''Trakteur''' {{pron|ˈtɾaktøɾ|gsw-fr}} {{m}}
+# [[tracteur#fr|Tracteur]].
+
+=== {{S|références}} ===
+*[https://www.olcalsace.org/fr/lexique_vin Petit lexique de la vigne au vin en alsacien, version 2006 (OLCA)]

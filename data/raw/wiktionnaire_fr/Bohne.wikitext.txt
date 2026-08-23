@@ -1,0 +1,162 @@
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: {{siècle|VIII}}. Du {{étyl|gmh|de|mot=bone|dif=bōne}}, du {{étyl|goh|de|mot=bona|dif=bōnâ}}, des {{étyl|gem|de|mot=*baunō-}}, à l'origine pour désigner les différentes variétés de [[fève]]s, légumineuses commestibles<ref>{{source|Friedrich {{pc|Kluge}}, Elmar {{pc|Seebold}} : ''Etymologisches Wörterbuch der deutschen Sprache. 24.'', édition revue et augmentée. Éditeur Walter de Gruyter, Berlin/New York 2001, ISBN 978-3-11-017473-1, DNB 965096742, mot-clé: „Bohne“, page 137}}.</ref>.
+
+=== {{S|nom|de}} ===
+{{de-nom-f-n|ˈboːnə}}
+[[Fichier:Phaseolus vulgaris.jpg|vignette|upright|'''Bohne''' - haricot]]
+'''Bohne''' {{pron|ˈboːnə|de}} {{f}}
+# {{légumes|de}} [[haricot|Haricot]], (plante potagère de la famille des fabacées).
+#* {{exemple|Ich habe im Gemüsegarten '''Bohnen''' gesät.|sens=J'ai semé des haricots dans le potager.|lang=de}}
+#* {{exemple|Die '''Bohne''' ist in Mittel- und Südamerika beheimatet.|sens=Le haricot est originaire d'Amérique centrale et d'Amérique du sud.|lang=de}}
+# {{lexique|gastronomie|de}} {{lien|haricot|fr|dif=Haricot}}, {{lien|légumes|fr}} issus des parties comestibles de la plante : la gousse et les graines.
+#* {{exemple|'''Bohnen''' eine Stunde bei niedriger Hitze köcheln lassen. Kurz vor Ende der Garzeit großzügig salzen und pfeffern.|lang=de|sens=Laisser mijoter les haricots pendant une heure à chaleur douce. Juste avant la fin de la cuisson, saler et poivrer généreusement.}}
+#* {{exemple|Das Entstehen von Gasansammlungen im Magen-Darm-Trakt wird begünstigt durch: (...) den Verzehr von Gemüse und Hülsenfrüchten wie Zwiebeln, Kohl, '''Bohne'''n, Erbsen oder Linsen,|lang=de|sens=La formation d'accumulations de gaz dans le tractus gastro-intestinal est favorisée par : (...) la consommation de légumes et de légumineuses tels que les oignons, le chou, les haricots, les pois ou les lentilles,|source={{périodique|auteur=|titre=Blähungen|journal=Doktor.De|date=4 avril 2023|texte=https://doktor.de/krankheiten-symptome/blaehungen/}}}}
+# {{lexique|gastronomie|de}} {{lien|fève|fr|dif=Fève}} de l'{{lien|haricot|fr}}.
+# [[grain#fr|Grain]], [[fève]] d'autres plantes comme le [[caféier]] ou du [[cacaoyer]].
+#* {{exemple|Ich stehe in der Küche (...) und fülle eine Handvoll Kaffeebohnen in meine altmodische kleine Mühle. (...) Ich beginne, die '''Bohne'''n zu mahlen, von Hand. Freue mich über das knackende, krachende Geräusch, das sie dabei machen.|lang=de|sens=Dans la cuisine (...) et mets une poignée de grains de café dans mon petit moulin à l’ancienne. (...) Je commence à moudre les grains à la main, heureuse d’entendre le bruit craquant et crépitant qu’ils produisent pendant l’opération.|source={{ouvrage|auteur={{w|Melanie Raabe}}|trad=Céline Maurice|titre=Die Falle|année=2015|éditeur=btb Verlag|url=}}}}
+#* {{exemple|(Die Bauern) haben mit dem Anbau der '''Bohne'''n zwar die meiste Arbeit in der Wertschöpfungskette, doch ihr Verdienst reicht oft kaum zum Überleben.|lang=de|sens=(Les agriculteurs) ont certes le plus de travail dans la chaîne de valeur ajoutée avec la culture des haricots, mais leurs revenus suffisent souvent à peine pour survivre.|source={{périodique|auteur=Katharina Nickoleit|titre=Das Geschäft mit dem Kaffee|journal=Das Erste|date=17 mars 2014|texte=https://www.daserste.de/information/wissen-kultur/w-wie-wissen/sendung/2010/das-geschaeft-mit-dem-kaffee-100.html}}}}
+
+==== {{S|synonymes}} ====
+* [[Fisole]] en {{Autriche|nocat=1}}
+
+==== {{S|diminutifs}} ====
+* {{lien|Böhnchen|de|sens=petit haricot}}
+
+==== {{S|hyponymes}} ====
+{{(|}}
+* {{lien|Ackerbohne|sens=féverole », « fève}}
+* {{lien|Augenbohne|de|sens=niébé}}
+* {{lien|breite Bohne|de}}
+* {{lien|Buschbohne|de|sens=haricot nain}}
+* {{lien|grüne Bohne|de|sens=haricot vert}}
+* {{lien|Pferdebohne|de|sens=féverole}}
+* {{lien|Puffbohne|de|sens=féverole}}
+* {{lien|Saubohne|de|sens=fève}}
+* {{lien|Sojabohne|de|sens=soja}}
+* {{lien|Stangenbohne|de|sens=haricot à rames}}
+* {{lien|Wachtelbohne|de|sens=haricot pinto}}
+* {{lien|Kaffeebohne|de|sens=grain de café}}
+* {{lien|Weinbrandbohne|de|sens=praline en forme de haricot fourrée d'eau-de-vie}}
+* {{lien|Feuerbohne|de|sens=haricot d’Espagne}}
+* {{lien|Buschbohne|de|sens=haricot nain}}
+* {{lien|Stangenbohne|de|sens=haricot à rames}}
+* {{lien|Brechbohne|de}}
+* {{lien|Schnittbohne|de|sens=haricot vert}}
+* {{lien|Kidneybohne|de|sens=haricot rouge}}
+* {{lien|Türkische Erbse|de}}
+{{)}}
+
+==== {{S|hyperonymes}} ====
+{{(}}
+* {{lien|Gemüse|de|sens=légumes}}
+* {{lien|Lebensmittel|de|sens=denrées alimentaires}}
+* {{lien|Lebewesen|de|sens=être vivant}}
+* {{lien|Nahrungsmittel|de|sens=produits alimentaires}}
+* {{lien|Pflanze|de|sens=plante}}
+{{)}}
+
+==== {{S|dérivés}} ====
+{{(|&nbsp;}}
+* {{lien|Bleibohne|de}}
+* {{lien|Bohnenanbau|de}}
+* {{lien|Bohnenblatt|de|sens=feuille de haricot}}
+* {{lien|Bohnenblüte|de}}
+* {{lien|Bohnenbrei|de}}
+* {{lien|Bohneneintopf|de|sens=potée de haricots}}
+* {{lien|Bohnenfeld|de|sens=champ de haricots}}
+* {{lien|Bohnenfest|de|sens=épiphanie}}
+* {{lien|bohnenförmig|de|sens=en forme de haricot}}
+* {{lien|Bohnengericht|de}}
+* {{lien|bohnengroß|de}}
+* {{lien|Bohnenhülse|de}}
+* {{lien|Bohnenkäfer|de|sens=bruche du haricot}}
+* {{lien|Bohnenkaffee|de}}
+* {{lien|Bohnenkraut|de}}
+* {{lien|Bohnenuchen|de|sens=galette des rois}}
+* {{lien|Bohnenlaube|de}}
+* {{lien|Bohnenlied|de}}
+* {{lien|Bohnenmehl|de}}
+* {{lien|Bohnenmus|de}}
+* {{lien|Bohnenorakel|de}}
+* {{lien|Bohnenproduzent|de}}
+* {{lien|Bohnenranke|de}}
+* {{lien|Bohnensalat|de|sens=salade de haricots}}
+* {{lien|Bohnensamen|de|sens=graine de haricot}}
+* {{lien|Bohnenspiel|de}}
+* {{lien|Bohnenstange|sens=rame à haricot », « perche}}
+* {{lien|Bohnenstroh|de}}
+* {{lien|Bohnensuppe|de|sens=soupe de haricots}}
+* {{lien|Bohnerz|de}}
+* {{lien|Cognacbohne|de}}
+* {{lien|Dicke Bohne|de|sens=féverole}}
+* {{lien|Fababohne|sens=féverole », « fève}}
+* {{lien|Faberbohne|de|sens=fève}}
+* {{lien|Favabohne|sens=féverole », « fève}}
+* {{lien|Feldbohne|de|sens=féverole}}
+* {{lien|Filetbohne|de}}
+* {{lien|Fitzbohne|de}}
+* {{lien|Gartenbohne|de|sens=haricot vert}}
+* {{lien|Kakaobohne|de|sens=fève de cacao}}
+* {{lien|Kernbohne|de|sens=haricot à grains}}
+* {{lien|Kognakbohne|de|sens=praline en forme de haricot fourrée de cognac}}
+* {{lien|Mokkabohne|de|sens=grain de café en chocolat}}
+* {{lien|Mondbohne|de|sens=haricot de Lima}}
+* {{lien|Pintobohne|de|sens=haricot pinto}}
+* {{lien|Prinzessbohne|de}}
+* {{lien|Saatbohne|de|sens=haricot de semence}}
+* {{lien|Schneidebohnen|de}}
+* {{lien|Schnippelbohne|de}}
+* {{lien|Schweinsbohne|de|sens=féverole}}
+* {{lien|Spargelbohne|sens=dolique asperge », « haricot kilomètre}}
+* {{lien|Spitzbohne|de}}
+* {{lien|Tonkabohne|de|sens=fève de tonka}}
+* {{lien|Trockenkochbohne|de|sens=haricot sec}}
+* {{lien|Viehbohne|de|sens=féverole}}
+* {{lien|Wachsbohne|de}}
+* {{lien|weiße Bohne|de|sens=haricot blanc}}
+* {{lien|Zwergbohne|de|sens=haricot nain}}
+{{)}}
+
+==== {{S|phrases}} ====
+* {{lien|blaue Bohne|sens=projectile d'arme à feu », « pruneau}}
+* {{lien|Bohnen in den Ohren haben|de|sens=ne rien entendre}}
+* {{lien|Das ist mir Bohne|de|sens=c'est ans importance}}
+* {{lien|Jedes Böhnchen gibt ein Tönchen|de}}
+* {{lien|nicht die Bohne|de|sens=pas du tout}}
+
+=== {{S|prononciation}} ===
+* {{écouter|Berlin (Allemagne)|ˈboːnə|lang=de|audio=De-Bohne.ogg}}
+
+=== {{S|références}} ===
+{{Références}}
+
+==== {{S|sources}} ====
+* {{R:DWDS|Bohne}}
+* {{R:Duden|Bohne}} 
+* {{Source-wikt|de|Bohne}}
+
+==== {{S|bibliographie}} ====
+* Larousse - Dictionnaire allemand/français – français/allemand , éd. 1958, p 420.
+* Harrap’s  de poche – Bordas Dictionnaire allemand/français, éd. 1997, ISBN 0-245-50308-0, p 60. 
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=de}}
+
+=== {{S|anagrammes}} ===
+{{voir anagrammes|de}}
+
+[[Catégorie:Légumes en allemand]]
+
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|nom|gsw-fr}} ===
+'''Bohne'''
+# [[haricot|Haricots]], pluriel de [[Bohn]].
+
+== {{langue|francique rhénan}} ==
+=== {{S|nom|francique rhénan|flexion}} ===
+'''Bohne''' {{pron|ˈboːnə|francique rhénan}}
+# Pluriel de [[Bohn#Francique_rh.C3.A9nanBohn|Bohn]].

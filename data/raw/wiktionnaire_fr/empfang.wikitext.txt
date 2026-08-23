@@ -1,0 +1,17 @@
+{{voir|Empfang}}
+
+== {{langue|de}} ==
+=== {{S|verbe|de|flexion}} ===
+'''empfang''' {{pron|ɛmˈp͡faŋ|de}}
+# ''Deuxième personne du singulier de l’impératif présent de'' [[empfangen#de|empfangen]].
+
+=== {{S|prononciation}} ===
+* {{écouter|Berlin|ɛmˈp͡faŋ|lang=de|audio=De-empfang.ogg}}
+
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|verbe|gsw-fr}} ===
+'''empfang'''
+# [[recevoir]]

@@ -1,0 +1,361 @@
+{{voir/bi}}
+
+== {{langue|conv}} ==
+=== {{S|symbole|conv}} ===
+'''bi''' {{invar}}
+# {{lexique|linguistique|conv}} [[code|Code]] ISO 639-1 (alpha-2) du '''[[bichlamar]]''' ou '''[[bêche-de-mer]]'''.
+
+==== {{S|synonymes}} ====
+* [[bis]] (code ISO 639-2 (alpha-3))
+
+== {{langue|fr}} ==
+=== {{S|étymologie}} ===
+: ''Cycle'' : Abréviation de ''[[bicycle]]''.
+: ''Sexualité'' : [[abréviation|Abréviation]] de « [[bisexuel]] » et de « [[biromantique]] ».
+: ''Travail'' : (1880) De l’anglais ''[[bee]]'', de même sens, ou de l’ancien français ''[[bien]]'', qui désignait un genre de [[corvée]].
+
+=== {{S|adjectif|fr}} ===
+{{fr-rég|pron=bi}}
+{{fr-accord-rég|pron=bi|ms=bi}}
+'''bi''' {{pron|bi|fr}} {{mf}} <small>ou</small> {{m}}
+# {{familier|fr}} [[bisexuel|Bisexuel]].
+#* {{exemple | lang=fr
+ | Tila est une "bachelorette" assez... délurée, comme dirait ma grand- mère. Elle a plus de 2 millions d'amis sur MySpace, recherche le grand amour et est bisexuelle - […]. Qui dit''' bi''', dit sollicitations multiples : 16 mâles et 16 filles tentent le coup.
+ | source=« ''Guide télé du lundi 11 février : [[w:Tila Tequila|Tila]], célib et bi <small>22.30 > MTV. Divertissement''</small> » dans ''{{w|Les Inrockuptibles}}'', {{n°|633}} à 639, Éditions Indépendantes, 2008, p. 292}}
+
+=== {{S|nom|fr|num=1}} ===
+{{fr-rég|bi}}
+'''bi''' {{pron|bi|fr}} {{m}}
+# {{ébauche-déf|fr}} ''Voir'' [[grand-bi]].
+
+=== {{S|nom|fr|num=2}} ===
+{{fr-rég|bi}}
+'''bi''' {{pron|bi|fr}} {{mf}} <small>ou</small> {{équiv-pour|une femme|bie|langue=fr}}
+# {{familier|fr}} Personne [[bisexuel|bisexuelle]] et/ou [[biromantique]].
+#* {{exemple
+| lang = fr|Nous attendons encore les études qui nous prouveraient que les relations extra-conjugales sont plus fréquentes chez les '''bi''' et les pan que chez les hétéros. En attendant, évitons de les interroger uniquement dans le cadre d’émissions consacrées au libertinage ou sur leur sexualité forcément débridée.
+| source = {{Lien web |auteur= |url=https://www.ajlgbt.info/informer-sans-discriminer/affirmer-existence-des-bisexuel-le-s
+|titre=Affirmer l’existence des personnes bi et pan
+|éditeur=''AJL - Association des journalistes lesbiennes, gays, bi•e•s, trans et intersexes'' |en ligne le=6 février 2025 }}
+}}
+
+=== {{S|nom|fr|num=3}} ===
+{{fr-rég|bi}}
+'''bi''' {{pron|bi|fr}} {{m}}
+# {{Québec|fr}} [[travail|Travail]] fait [[en commun]] pour aider quelqu’un.
+#* {{exemple||lang=fr}}
+
+==== {{S|variantes orthographiques}} ====
+* [[bee]]
+
+==== {{S|synonymes}} ====
+* [[corvée]]
+
+==== {{S|traductions}} ====
+{{trad-début}}
+* {{T|en}} : {{trad+|en|bee}}, {{trad+|en|AC/DC}}
+{{trad-fin}}
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=fr|France (Toulouse)||audio=LL-Q150 (fra)-Lepticed7-bi.wav}}
+* {{écouter|lang=fr|Canada (Shawinigan)||audio=LL-Q150 (fra)-DenisdeShawi-bi.wav}}
+* {{écouter|lang=fr|France (Vosges)||audio=LL-Q150 (fra)-LoquaxFR-bi.wav}}
+* {{écouter|Grenoble (France)||lang=fr|audio=LL-Q150 (fra)-Opsylac-bi.wav}}
+
+=== {{S|voir aussi}} ===
+* [[bi du bout]]
+
+[[Catégorie:Lexique en français de la sexualité]]
+
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+=== {{S|préposition|gsw-fr}} ===
+'''bi''' {{pron||gsw-fr}}
+# [[chez#fr|Chez]].
+
+== {{langue|ark}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|ark}}
+
+=== {{S|nom|ark}} ===
+'''bi''' {{pron||ark}}
+# [[eau#fr|Eau]].
+# {{lexique|géographie|ark}} [[rivière#fr|Rivière]].
+# [[boisson#fr|Boisson]].
+
+== {{langue|baa}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|baa}}
+
+=== {{S|nom|baa}} ===
+'''bi''' {{pron||baa}}
+# [[eau#fr|Eau]].
+
+=== {{S|références}} ===
+* Bill Palmer, 2014, ''An Innovated Possessor Suffix and Category in Central Choiseul'', Oceanic Linguistics 53:1, pp. 155-169.
+
+== {{langue|bm}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|bm}}
+
+=== {{S|adverbe|bm}} ===
+'''bi''' {{pron||bm}}
+# [[aujourd’hui|Aujourd’hui]].
+
+=== {{S|nom|bm}} ===
+'''bi''' {{pron||bm}}
+# [[dix|Dix]] fois, [[dizaine]].
+#* ''[[bi saba|'''Bi''' saba]]'' : [[trente|Trente]].
+#* ''[[bi naani|'''Bi''' naani]]'' : [[quarante|Quarante]].
+#* Mais :
+#* ''[[tan|Tan]]'' : Dix.
+#* ''[[mugan|Mugan]]'' : [[vingt|Vingt]].
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=bm|||audio=LL-Q33243 (bam)-Veloazerty-bi.wav}}
+* {{écouter|Abidjan (Côte d'Ivoire)||lang=bm|audio=LL-Q33243 (bam)-Ericcoul-bi.wav}}
+
+=== {{S|voir aussi}} ===
+* [[kunasini]] - [[kunun]] - '''bi''' - [[sini]] - [[sinikɛnɛ]]
+
+[[Catégorie:Lexique en bambara du temps]]
+[[Catégorie:Cardinaux en bambara]]
+
+== {{langue|eu}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|eu}}
+
+=== {{S|adjectif numéral|eu}} ===
+'''bi'''
+# [[deux#fr|Deux]] (2).
+
+==== {{S|dérivés autres langues}} ====
+* {{L|basco-islandais}} : {{lien|bÿ|basco-islandais}}
+
+=== {{S|nom|eu}} ===
+'''bi'''
+# [[deux#fr|Deux]] (2).
+
+{{Liste|avant=[[bat#eu|1. bat]]|liste=[[Modèle:nombres basques de 1 à 100|Nombres en basque]]|après=[[hiru#eu|3. hiru]]}}
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=eu|audio=Eus-bi.ogg}}
+* {{écouter|lang=eu|Espagne (Saint-Sébastien)|audio=LL-Q8752 (eus)-Xabier Cañas-bi.wav}}
+* {{écouter|lang=eu|Espagne (Saint-Sébastien)||audio=LL-Q8752 (eus)-Aioramu-bi.wav}}
+
+[[Catégorie:Nombres en basque]]
+
+== {{langue|br}} ==
+=== {{S|verbe|br|flexion}} ===
+{{br-verb-mut|bi}}
+'''bi''' {{pron|ˈbiː|br}}
+# ''Deuxième personne du singulier du futur de l’indicatif du verbe'' {{lien|bezañ|br}}, « [[être]] ».
+
+== {{langue|gcr}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|fr|gcr|but}}.
+
+=== {{S|nom|gcr}} ===
+'''bi'''
+# [[but|But]], [[objectif]].
+
+== {{langue|dux}} ==
+{{ébauche|dux}}
+=== {{S|étymologie}} ===
+: {{ébauche-étym|dux}}
+
+=== {{S|nom|dux}} ===
+'''bi''' {{pron||dux}}
+# {{lexique|anatomie|dux}} [[bas-ventre#fr|Bas-ventre]].
+#* {{exemple|lang=dux}}
+
+=== {{S|prononciation}} ===
+{{ébauche-pron-audio|dux}}
+
+=== {{S|références}} ===
+* {{R:LisonsDuungooma}}
+
+== {{langue|bpp}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|bpp}}
+
+=== {{S|nom|bpp}} ===
+'''bi''' {{pron||bpp}}
+# [[eau#fr|Eau]].
+
+=== {{S|références}} ===
+* C. L. Voorhoeve, 1975. ''[http://www.papuaweb.org/dlib/bk/pl/B31/_toc.html Languages of Irian Jaya Checklist]'', Canberra: Pacific Linguistics, [https://web.archive.org/web/20130517204250/http://www.papuaweb.org/dlib/bk/pl/B31/09.pdf page 114].
+
+== {{langue|mt}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|mt}}
+
+=== {{S|préposition|mt}} ===
+'''bi''' {{pron|bɪ|mt}}
+# [[avec#fr|Avec]].
+#* {{exemple|lang=mt}}
+
+==== {{S|notes}} ====
+: Utilisé avant un groupe de consonnes.
+
+==== {{S|variantes}} ====
+* {{lien|b’|mt}}
+* {{lien|imb|mt}}
+
+==== {{S|antonymes}} ====
+* {{lien|bla|mt}}
+
+==== {{S|dérivés}} ====
+{{(|Formes définies}}
+* {{lien|biċ-|mt}}
+* {{lien|bid-|mt}}
+* {{lien|bil-|mt}}
+* {{lien|bin-|mt}}
+* {{lien|bir-|mt}}
+* {{lien|bis-|mt}}
+* {{lien|bit-|mt}}
+* {{lien|bix-|mt}}
+* {{lien|biż-|mt}}
+* {{lien|biz-|mt}}
+* {{lien|bl-|mt}}
+{{)}}
+{{(|Formes possessives}}
+* {{lien|bih|mt}}
+* {{lien|biha|mt}}
+* {{lien|bihom|mt}}
+* {{lien|bija|mt}}
+* {{lien|bik|mt}}
+* {{lien|bikom|mt}}
+* {{lien|bina|mt}}
+{{)}}
+
+== {{langue|nxu}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|nxu}}
+
+=== {{S|nom|nxu}} ===
+'''bi''' {{pron||nxu}}
+# [[eau#fr|Eau]].
+
+=== {{S|références}} ===
+* C. L. Voorhoeve, 1975. ''[http://www.papuaweb.org/dlib/bk/pl/B31/_toc.html Languages of Irian Jaya Checklist]'', Canberra: Pacific Linguistics, [https://web.archive.org/web/20130517204250/http://www.papuaweb.org/dlib/bk/pl/B31/09.pdf page 115].
+
+== {{langue|owi}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|owi}}
+
+=== {{S|nom|owi}} ===
+'''bi''' {{pron||owi}}
+# [[eau#fr|Eau]].
+
+=== {{S|références}} ===
+* Foley, William A. (2018). ''The Languages of the Sepik-Ramu Basin and Environs''. Dans Palmer, Bill (ed.). The Languages and Linguistics of the New Guinea Area: A Comprehensive Guide. The World of Linguistics. 4. Berlin: De Gruyter Mouton. pp. 197–432. ISBN 978-3-11-028642-7, page 351.
+
+== {{langue|ses}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|ses}}
+
+=== {{S|adverbe|ses}} ===
+'''bi''' {{pron||ses}}
+# [[hier|Hier]].
+
+[[Catégorie:Lexique en songhaï koyraboro senni du temps]]
+
+== {{langue|sv}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|sv}}
+
+=== {{S|nom|sv}} ===
+{{sv-nom-n-n}}
+'''bi''' {{pron||sv}} {{n}}
+# [[abeille|Abeille]].
+# {{familier|sv}} [[bisexuel|Bisexuel]].
+
+=== {{S|adjectif|sv}} ===
+'''bi''' ''invariable'' {{pron||sv}}
+# {{familier|sv}} [[bisexuel|Bisexuel]].
+
+=== {{S|prononciation}} ===
+* {{écouter|Suède||lang=sv|audio=LL-Q9027 (swe)-Moonhouse-bi.wav}}
+
+=== {{S|références}} ===
+* {{R:Hammar|94}}
+
+== {{langue|vi}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|fr|vi|mot=bille}}.
+
+=== {{S|nom|vi}} ===
+'''bi''' {{pron||vi}}
+# [[bille#fr|Bille]].
+
+=== {{S|voir aussi}} ===
+* {{WP|3=vi}}
+
+== {{langue|goh}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|proto-germanique|goh|mot=bi}}.
+
+=== {{S|préposition|goh}} ===
+'''bi''' {{pron-recons|biː|goh}}
+# [[par|Par]].
+
+== {{langue|vo}} ==
+=== {{S|étymologie}} ===
+: De l’anglais ''[[because]]'' (« [[parce que]] »).
+
+=== {{S|conjonction|vo}} ===
+'''bi''' {{pron||vo}}
+# [[parce que|Parce que]].
+
+==== {{S|synonymes}} ====
+* [[ibä]]
+
+== {{langue|zag}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|zag}}
+
+=== {{S|nom|zag}} ===
+{{pron|bi|zag}}
+# [[eau#fr|Eau]].
+
+=== {{S|références}} ===
+* Suleiman Norein Osman, ''[https://web.archive.org/web/20120229192850/http://faculty.ksu.edu.sa/76644/Publications/Zaghawa%20phonology.pdf Phonology of Zaghawa Language in Sudan]'', page 7
+
+== {{langue|dje}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|dje}}
+: (''[[#dje-adj|Adjectif]]'') Cognat de {{lien|bii|ses}} en songhaï koyraboro senni.
+: (''[[#dje-nom-1|Nom commun 1]]'') Cognat de {{lien|bii|ses}} en songhaï koyraboro senni.
+
+=== {{S|adverbe|dje}} ===
+'''bi''' {{pron||dje}}
+# [[hier|Hier]].
+
+==== {{S|dérivés}} ====
+* {{lien|bi fo|dje}}
+
+=== {{S|verbe|dje}} ===
+'''bi''' {{pron||dje}}
+# [[filer|Filer]] (du coton).
+
+=== {{S|adjectif|dje}} ===
+'''bi''' {{pron||dje}}
+# [[noir|Noir]].
+
+=== {{S|nom|dje|num=1}} ===
+'''bi''' {{pron||dje}}
+# [[ombre|Ombre]], [[ombrage]].
+
+=== {{S|nom|dje|num=2}} ===
+'''bi''' {{pron||dje}}
+# [[blessure|Blessure]], [[plaie]].
+
+=== {{S|références}} ===
+* {{R:PC Niger 2001}}
+
+[[Catégorie:Lexique en zarma du temps]]
+[[Catégorie:Couleurs en zarma]]
+[[Catégorie:Lexique en zarma de la médecine]]
+[[Catégorie:Vocabulaire LGBTIQ en français]]

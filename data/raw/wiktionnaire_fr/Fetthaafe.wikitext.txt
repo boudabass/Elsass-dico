@@ -1,0 +1,9 @@
+== {{langue|gsw-fr}} ==
+{{ébauche|gsw-fr}}
+=== {{S|étymologie}} ===
+: De {{lien|''Fatt''|gsw-fr|sens=graisse}} et de {{lien|''Haafe''|gsw-fr}}.
+
+=== {{S|nom|gsw-fr}} ===
+'''Fetthaafe''' {{pron||gsw-fr}} {{genre ?|gsw-fr}}
+# {{désuet|gsw-fr}} [[pot#fr|Pot]] à [[graisse#fr|graisse]].
+#* {{exemple|Le pot à graisse '''(Fetthaafe)''' était présent dans chaque cuisine alsacienne il y a encore une génération. On y mettait principalement du beurre fondu (Anke), qui se conservait bien mieux sous cette forme.|source=Musée de Strasbourg, '' L’Intérieur paysan'', « Betschdorf, atelier Wingerter, XIXe siècle : Grès au sel »|lang=fr}}

@@ -1,0 +1,46 @@
+{{voir/klase}}
+
+== {{langue|gsw-fr}} ==
+{{ébauche|gsw-fr}}
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|nom|gsw-fr}} ===
+'''klase'''
+# [[classe]] [[scolaire]].
+
+== {{langue|pap}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|pap}}
+
+=== {{S|nom|pap}} ===
+'''klase'''
+# La [[classe]].
+
+==== {{S|synonymes}} ====
+* [[klas]]
+
+== {{langue|tl}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|tl}}
+
+=== {{S|nom|tl}} ===
+'''klase'''
+# La [[propriété]], la [[qualité]].
+# La [[classe]].
+
+==== {{S|synonymes}} ====
+* [[kláse]]
+* [[uri]]
+* [[urí]]
+* [[urì]]
+
+== {{langue|sv}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|sv}}
+
+=== {{S|nom|sv}} ===
+{{sv-nom-c-ar|e=}}
+'''klase''' {{pron||sv}} {{c}}
+# {{lexique|botanique|sv}} [[grappe|Grappe]], [[régime]].

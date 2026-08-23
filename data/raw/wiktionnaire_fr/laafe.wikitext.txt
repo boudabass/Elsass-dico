@@ -1,0 +1,19 @@
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|verbe|gsw-fr}} ===
+'''laafe'''
+# [[marcher|Marcher]], [[courir]]
+
+== {{langue|francique rhénan}} ==
+{{ébauche|francique rhénan}}
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|francique rhénan}}
+
+=== {{S|verbe|francique rhénan}} ===
+'''laafe''' {{pron|ˈlaːfə|francique rhénan}} {{i|francique rhénan}}
+# [[courir|Courir]]
+
+{{clé de tri|laafe}}

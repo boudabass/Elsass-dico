@@ -1,0 +1,33 @@
+{{voir|frog}}
+
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|nom|gsw-fr}} ===
+'''Frog'''
+# [[question|Question]].
+
+== {{langue|en}} ==
+=== {{S|étymologie}} ===
+: Originellement, les [[Anglais]] désignait ainsi les [[Néerlandais]] du fait d’habiter des [[marais]]<ref>http://news.bbc.co.uk/2/hi/uk_news/2913151.stm</ref>. Puis à la [[Révolution française]], le terme désigne progressivement les [[Français]] car réputés mangeurs de [[w:Cuisses de grenouille#France|cuisses de grenouille]] (''{{lien|frog-eaters|en}}'').
+
+=== {{S|nom|en}} ===
+{{en-nom-rég|ˈfɹɒɡ|ˈfɹɑɡ}}
+'''Frog''' {{pron|ˈfɹɒɡ|en}} {{UK|nocat=1}}, {{pron|ˈfɹɑɡ|en}} {{US|nocat=1}}
+# {{UK|en}} {{péjoratif|en}} {{injurieux|en}} [[Français]], [[Française]].
+# {{Canada|en}} {{péjoratif|en}} {{injurieux|en}} [[Québécois]], [[Québécoise]].
+
+==== {{S|variantes orthographiques}} ====
+* {{lien|frog|en}}
+
+==== {{S|synonymes}} ====
+* {{lien|Froggy|en}} {{péjoratif|nocat=1}} 
+* {{lien|frog-eater|en}} {{péjoratif|nocat=1}}
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=en|États-Unis <!-- précisez svp la ville ou la région -->|fɹɑɡ|audio=En-us-frog.ogg}}
+[[Catégorie:Gentilés informels en anglais]]
+
+=== {{S|références}} ===
+<references />

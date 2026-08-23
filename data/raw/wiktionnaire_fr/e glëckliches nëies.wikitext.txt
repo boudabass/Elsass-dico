@@ -1,0 +1,11 @@
+== {{langue|gsw-fr}} ==
+{{ébauche|gsw-fr}}
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|nom|gsw-fr}} ===
+'''e glëckliches nëies''' {{pron||gsw-fr}}
+# [[bonne année#fr|Bonne année]].
+
+=== {{S|références}} ===
+{{R:Freelang}}

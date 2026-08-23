@@ -1,0 +1,193 @@
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: {{siècle|VIII}}. Du {{étyl|gml|de|mot=ōrlof, ōrloft, ōrlef, ōrleve}}, du {{étyl|gmh|de|mot=urloup, urlop, urlob}}, du {{étyl|osx|de|mot=orlō̌f}}, du {{étyl|goh|de|mot=urloub}}. À rapprocher du moyen néerlandais ''[[orlof]]'', ''[[oorlof]]''.<ref> {{source|Wolfgang {{pc|Pfeifer}}, ''Etymologisches Wörterbuch des Deutschen'', Éditions Deutscher Taschenbuch, 1997, ISBN-13: 978342-3325110 }} </ref> 
+: Ancien {{déverbal|de=erlauben|lang=de}} (« permettre ») avec le sens initial de « permission, permission de sortir, congé ».<ref>{{source|Friedrich {{pc|Kluge}}, Elmar {{pc|Seebold}} : ''Etymologisches Wörterbuch der deutschen Sprache. 24.'', édition revue et augmentée. Éditeur Walter de Gruyter, Berlin/New York 2001, ISBN 978-3-11-017473-1, DNB 965096742, mot-clé: „Urlaub“, page 945}}.</ref>
+
+=== {{S|nom|de}} ===
+{{de-nom-m-s-e|gs2=Urlaubes|ds2=Urlaube}}
+'''Urlaub''' {{pron|ˈuːɐ̯ˌlaʊ̯p|de}} {{m}}
+# [[vacances#fr|Vacances]], [[congé]].
+# [[congé#fr|Congé]], permission de s’[[absenter]] d’un emploi.
+#* {{exemple|Meine Sekretärin hat '''Urlaub'''.|sens=Ma secrétaire est en vacances.|lang=de}}
+#* {{exemple|» (...) das erinnert mich daran, daß ich Sie um vierzehn Tage '''Urlaub''' bitten muß.«<br />»Um Hochzeit zu halten?«<br />»Einmal das, und dann, um nach Paris zu reisen.<br />»Schön, schön, nehmen Sie sich so viel Zeit, wie Sie wollen, Dantès; das Ausladen des Schiffes wird etwa sechs Wochen in Anspruch nehmen, und wir werden vor Ablauf eines Vierteljahres wohl kaum wieder in See gehen … In einem Vierteljahr müssen Sie aber da sein.|lang=de|sens=— (...) cela me rappelle que j’aurai un congé de quinze jours à vous demander.<br />— Pour vous marier ?<br />— D’abord ; puis pour aller à Paris.<br />— Bon, bon ! vous prendrez le temps que vous voudrez, Dantès ; le temps de décharger le bâtiment nous prendra bien six semaines, et nous ne nous remettrons guère en mer avant trois mois… Seulement, dans trois mois, il faudra que vous soyez là.|source={{ouvrage|auteur={{w|Alexandre Dumas}}|trad=(inconnu)|titre=Der Graf von Monte Christo|année=1955|éditeur=Rütten & Loening|lieu=Frankfurt|url=}}}}
+# [[congé#fr|Congé]], permission de s’[[absenter]] du service militaire.
+# [[voyage#fr|Voyage]] entrepris pendant le [[congé]].
+#* {{exemple|Wir fahren in '''Urlaub'''.|sens=Nous allons en vacances.|lang=de}}
+#* {{exemple|Ich mache '''Urlaub''' in Griechenland.|sens=Je passe les vacances en Grèce.|lang=de}}
+#* {{exemple|Sie nimmt in den '''Urlaub''' immer so viel Kleidung mit, dass sie den Koffer kaum zubekommt.|lang=de|sens=Elle emporte toujours tellement de vêtements aux vacances qu'elle arrive à peine à fermer sa valise.}}
+#* {{exemple|Zwischen Ostern und Pfingsten wird traditionell besonders viel Auto gefahren. Viele besuchen über die Feiertage ihre Familien oder fahren in den '''Urlaub'''.|lang=de|sens=Entre Pâques et la Pentecôte, on conduit traditionnellement beaucoup en voiture. Nombreux sont ceux qui rendent visite à leur famille ou partent en vacances pendant les fêtes.|source={{périodique|auteur=Anna-Lena Schlitt|titre=Tanken: Warum Benzin gerade so teuer ist|journal=Die Zeit|date=5 avril 2024|texte=https://www.zeit.de/wirtschaft/2024-04/tanken-sprit-preise-benzin-diesel-tankstelle-faq}}}}
+#* {{exemple|Als so genanntes Pizzagewürz darf Oregano auf keiner Pizza fehlen. Es verleiht Würze und einen leckeren Geschmack nach '''Urlaub''' und Süden. Der Oregano wird mit in die Tomatensauce gegeben oder zum Schluss über die Pizza gestreut.|lang=de|sens=En tant qu'épice à pizza, l’origan ne doit pas manquer sur une pizza. Il donne du piquant et un délicieux goût de vacances et de sud. L'origan est ajouté à la sauce tomate ou saupoudré sur la pizza à la fin.|source={{périodique|auteur=|titre=Oregano, gerebelt|journal=Bremer Gewürzhandel|date=7 mai 2024|texte=https://www.bremer-gewuerzhandel.de/oregano-gerebelt}}}}
+
+==== {{S|synonymes}} ====
+* [[Ferien]] (''vacances''), (''congés'')
+
+==== {{S|antonymes}} ====
+* [[Arbeit]] (''travail'')
+* [[Dienst]] (''service'')
+
+==== {{S|hyperonymes}} ====
+* [[Freizeit]]
+* [[Reise]]
+
+==== {{S|hyponymes}} ====
+{{(|vacances par occasion}}
+* [[Betriebsurlaub]] (''congés d'entreprise'')
+* [[Bildungsurlaub]] (''congé de formation'')
+* [[Elternurlaub]]
+* [[Erholungsurlaub]]
+* [[Erziehungsurlaub]]
+* [[Familienurlaub]] (''vacances en famille'')
+* [[Kurzurlaub]] (''courtes vacances''), (''court congé'')
+* [[Jahresurlaub]] (''vacances annuelles'')
+* [[Mutterschaftsurlaub]] (''congé de maternité'')
+* [[Nachturlaub]] (''permission de nuit''), (''permission nocturne'')
+* [[Resturlaub]]  (''reliquat de congés'')
+* [[Schwangerschaftsurlaub]]
+* [[Sommerurlaub]] (''vacances d'été''), (''vacances estivales'')
+* [[Sonntagsurlaub]] (''congé du dimanche'')
+* [[Sonderurlaub]] (''congé spécial'')
+* [[Traumurlaub]]
+* [[Weihnachtsurlaub]] (''vacances de Noël'')
+* [[Werksurlaub]], [[Werkurlaub]]
+* [[Winterurlaub]] (''vacances d'hiver'')
+* [[Wochenurlaub]] (''congés hebdomadaires'')
+* [[Zusatzurlaub]] (''congé supplémentaire'')
+* [[Zwangsurlaub]] (''congé obligatoire'')
+{{)}}
+{{(|vacances par activité}}
+* [[Abenteuerurlaub]] (''vacances d'aventure'')
+* [[Aktivurlaub]]
+* [[Angelurlaub]]
+* [[Badeurlaub]] (''vacances à la mer'')
+* [[Billigurlaub]] (''vacances bon marché''), (''vacances lowcost'')
+* [[Campingurlaub]]
+* [[Cluburlaub]] (''vacances en club'')
+* [[Heimaturlaub]] (''permission à domicile'')
+* [[Kreativurlaub]](''vacances pour des activités créatives'')
+* [[Kurlaub]]
+* [[Landurlaub]] (''congés à terre'')
+* [[Luxusurlaub]] (''vacances de luxe'')
+* [[Premiumurlaub]]
+* [[Reiturlaub]] (''vacances équestres'')
+* [[Schiurlaub]], [[Skiurlaub]] (''vacances au ski'')
+* [[Seeurlaub]] (''vacances à la mer'')
+* [[Segelurlaub]] (''vacances pour faire de la voile'')
+* [[Strandurlaub]] (''vacances à la plage'')
+* [[Studienurlaub]] (''vacances pour des activités instructives'')
+* [[Wanderurlaub]] (''vacances de randonnée'')
+* [[Wellnessurlaub]]
+* [[Zelturlaub]]
+{{)}}
+{{(|vacances par destination}}
+* [[Australienurlaub]] (''vacances en Australie'')
+* [[Griechenlandurlaub]] (''vacances en Grèce'')
+* [[Großbritannien-Urlaub]] (''vacances en Grande-Bretagne'')
+* [[Italienurlaub]] (''vacances en Italie'')
+* [[Kanarenurlaub]] (''vacances aux Îles Canaries'')
+* [[Karibikurlaub]] (''vacances aux Caraïbes'')
+* [[Mallorcaurlaub]] (''vacances à Majorque'')
+* [[Spanienurlaub]] (''vacances en Espagne'')
+{{)}}
+
+==== {{S|phrases}} ====
+* [[Urlaub auf Balkonien machen|''Urlaub'' auf Balkonien machen – Urlaub zu Hause auf dem Balkon]]
+* [[Urlaub in Gardenien|''Urlaub'' in Gardenien – Urlaub zu Hause im Garten]]
+
+==== {{S|dérivés}} ====
+{{(|&nbsp;}}
+* [[Anteilsurlaub]]
+* [[Anteilurlaub]]
+* [[Arbeitsurlaub]]
+* [[Fronturlaub]]
+* [[Genesungsurlaub]]
+* [[Gleitzeiturlaub]]
+* [[Grundurlaub]]
+* [[Hafturlaub]]
+* [[Heiratsurlaub]]
+* [[Karenzurlaub]] 
+* [[Kluburlaub]]
+* [[Langzeiturlaub]]
+* [[Mindesturlaub]]
+* [[Prämienurlaub]]
+* [[Städteurlaub]]
+* [[Stadturlaub]]
+* [[Treueurlaub]]
+* [[urlauben]]
+* [[Urlauber]] (''vacancier''), (''permissionnaire'') [[Urlauberin]] (''vacancière'') 
+* [[Urlaubsabbau]] 
+* [[Urlaubsanschrift]]
+* [[Urlaubsanspruch]] (''jours de congé légaux'')
+* [[Urlaubsantrag]]
+* [[Urlaubsantritt]]
+* [[Urlaubsbart]] (''barbe des vacances'')
+* [[Urlaubsbekanntschaft]] (''connaissance de vacances'')
+* [[Urlaubsdomizil]]
+* [[Urlaubsfahrt]]
+* [[Urlaubsflieger]] 
+* [[Urlaubsfoto]] (''photos de vacances'')
+* [[Urlaubsgast]]
+* [[Urlaubsgebiet]]
+* [[Urlaubsgeld]] (''prime de vacances'')
+* [[Urlaubsgestaltung]] (''organisation des vacances'')
+* [[Urlaubsgesuch]]
+* [[urlaubshalber]]
+* [[Urlaubshotel]] (''hôtel de vacances'')
+* [[Urlaubsinsel]] (''île pour les vacances''), (''île touristique'')
+* [[Urlaubskarte]]
+* [[Urlaubskatalog]] (''catalogue de vacances'')
+* [[Urlaubsland]] (''pays de villégiature''), (''pays touristique'')
+* [[Urlaubsliste]]
+* [[Urlaubsort]] (''lieu de vacances'')
+* [[Urlaubsparadies]]
+* [[Urlaubsplan]]
+* [[Urlaubsplatz]]
+* [[Urlaubsregelung]]
+* [[Urlaubsreich]] 
+* [[urlaubsreif]] (''avoir besoins de vacances'')
+* [[Urlaubsreise]] (''voyage de vacances'')
+* [[Urlaubsresort]]
+* [[Urlaubssaison]] (''saison des vacances'')
+* [[Urlaubsscheck]]
+* [[Urlaubsschein]] (''certificat de congé''), (''permission'')
+* [[Urlaubsschiff]] (''bateau de vacances''), (''saison des vacances'')
+* [[Urlaubsspaß]]
+* [[Urlaubssperre]] (''suspension de congé'')
+* [[Urlaubstag]] (''jour de congé'')
+* [[Urlaubstermin]] (''date de vacances'')
+* [[Urlaubsunterkunft]]
+* [[Urlaubsvergnügen]]
+* [[Urlaubsverlängerung]]
+* [[Urlaubsvertretung]] (''remplacement pour les vacances''), (''remplaçant pour les vacances'')
+* [[Urlaubsvideo]] (''vidéo de vacances'')
+* [[Urlaubszeit]] (''période de vacances'')
+* [[Urlaubszentrum]]
+* [[Urlaubsziel]] (''destination de vacances'')
+{{)}}
+
+=== {{S|prononciation}} ===
+* {{écouter|Vienne|ˈuːɐ̯ˌlaʊ̯p|lang=de|audio=De-at-Urlaub.ogg}}
+* {{écouter|lang=de|Berlin|ˈuːɐ̯ˌlaʊ̯p|audio=De-Urlaub.ogg}}
+
+=== {{S|références}} ===
+<references />
+
+==== {{S|sources}} ====
+* {{R:DWDS|Urlaub}}
+* {{R:Duden|Urlaub}} 
+* {{Source-wikt|de|Urlaub}}
+
+==== {{S|bibliographie}} ====
+* Larousse - Dictionnaire allemand/français – français/allemand , éd. 1958, p 732.
+* Harrap’s  de poche – Bordas Dictionnaire allemand/français, éd. 1997, ISBN 0-245-50308-0, p 311.
+
+=== {{S|anagrammes}} ===
+{{voir anagrammes|de}}
+
+== {{langue|gsw-fr}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étyl|de|gsw-fr|mot=Urlaub|sens=vacances}}.
+
+=== {{S|nom|gsw-fr}} ===
+'''Urlaub''' {{pron||gsw-fr}}
+# [[permission#fr|Permission]], [[vacances]]

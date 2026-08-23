@@ -1,0 +1,9 @@
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+{{ébauche-étym|gsw-fr}}
+
+=== {{S|nom|gsw-fr}} ===
+'''Mélchwèckle'''
+# [[petit|Petit]] [[pain]] au [[lait]]
+
+{{clé de tri|melchweckle}}

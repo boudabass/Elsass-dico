@@ -1,0 +1,96 @@
+{{voir|schmuck}}
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: {{siècle|XVI|lang=de}} Du {{étyl|gml|de|smuk}} – [[#Références|cf. DWb & DWDS ci-dessous]]. Apparenté entre autres à l’{{étyl|en|de|nocat=1|smock}}, au {{étyl|da|de|nocat=1|smyge}}, au {{étyl|no|de|nocat=1|smyge}} et à l’{{étyl|is|de|nocat=1|smjúga}} {{cf|schmiegen|schmuggeln|lang=de}}.
+
+=== {{S|nom|de}} ===
+{{de-nom-m-s-e|gs2=Schmuckes|ds2=Schmucke}}
+[[Fichier:Costume jewelry of Constance of Austria.jpg|vignette|alt=Des bijoux (sens 1).|'''''Schmuck'''''. – Des [[bijou]]x. (1)]]
+'''Schmuck''' {{pron|ʃmʊk|de}} {{m}} {{généralement indénombrable|de}}
+# {{lexique|joaillerie|de}} [[joaillerie|Joaillerie]], [[bijoux]] ; rarement [[bijou]].
+#* {{exemple|Sie war eine korpulente Dame mit dicken, weißen Locken über den Ohren, einem schwarz und hellgrau gestreiften Kleide ohne '''Schmuck''', das Einfachheit und Bescheidenheit verriet, und mit noch immer schönen und weißen Händen, in denen sie einen kleinen, sammetnen Pompadour auf dem Schoße hielt.|lang=de|sens=C’était une dame corpulente ; de lourdes boucles blanches retombaient sur ses oreilles ; sa robe rayée de noir et de gris clair et dépourvue de toute garniture décelait la simplicité et la modestie ; de ses mains encore belles et blanches, elle maintenait sur ses genoux un petit réticule de velours.|source={{ouvrage|auteur=Thomas Mann|trad=Geneviève Bianquis|titre=Buddenbrooks - Verfall einer Familie|année=1909|éditeur=S. Fischer Verlag|lieu=Berlin|url=}}}}
+# [[décoration|Décoration]], [[parure]].
+#* {{exemple | lang=de
+ | Man sollte bei Bildern nicht den Rahmen beachten, der ist meist nur '''Schmuck'''.
+ | On ne devrait pas tenir en compte le cadre des tableaux ; celui-ci n’est essentiellement que de la décoration.}}
+
+==== {{S|synonymes}} ====
+{{(|}}
+* {{l|Beiwerk|de}}
+* {{l|Dekoration|de}} - ''(2, hyperonyme de 1)''
+* {{l|Kleinod|de}}, {{l|Schmuckstück|de}} – ''(1, spécifiquement un bijou)''
+* {{l|Zierde|de}}
+* {{l|Verschönerung|de}}
+{{)}}
+
+==== {{S|dérivés}} ====
+{{(|Substantifs [[hyponyme]]s en ''-schmuck''}}
+* {{l|Blumenschmuck|de|sens=[[décoration]] [[florale]]}}
+* {{l|Fassadenschmuck|de|sens=[[décoration]] de [[façade]]}}
+* {{l|Federschmuck|de|sens=[[parure]] de [[plume]]s}}
+* {{l|Festschmuck|de|sens=[[décoration]] de [[fête]]}}
+* {{l|Flaggenschmuck|de|sens=[[pavoisement]]}}
+* {{l|Goldschmuck|de|sens=[[bijouterie]] en [[or]]}}
+* {{l|Halsschmuck|de|sens=[[collier]]s}}
+* {{l|Kopfschmuck|de|sens=[[coiffe]] », « [[coiffure]]}}
+* {{l|Luxusschmuck|de|sens=[[bijouterie]] de [[luxe]]}}
+* {{l|Markenschmuck|de|sens=[[bijouterie]] de [[marque]]}}
+* {{l|Modeschmuck|de|sens=[[bijouterie]] de [[mode]]}}
+* {{l|Ohrschmuck|de|sens=[[bijouterie]] pour les [[oreille]]s », « [[boucle d’oreille|boucles d’oreille]]}}
+* {{l|Platinschmuck|de|sens=[[bijouterie]] en [[platine]]}}
+* {{l|Silberschmuck|de|sens=[[bijouterie]] en [[argent]]}}
+{{)}}
+{{(|Autres substantifs}}
+* {{l|Schmuckbedürfnis|de}}
+* {{l|Schmuckelement|de}}
+* {{l|Schmuckgegenstand|de}}
+* {{l|Schmuckgeschäft|de|sens=[[bijouterie]] » « [[joaillerie]]}}
+* {{l|Schmuckkästchen|de}}
+* {{l|Schmucknadel|de}}
+* {{l|Schmucksachen|de}}
+* {{l|Schmuckschatulle|de}}
+* {{l|Schmuckstein|de}}
+* {{l|Schmuckstück|de|sens=[[bijou]]}} – ''(une pièce)''
+{{)}}
+
+==== {{S|apparentés}} ====
+* {{l|schmiegen|de|sens=[[se blottir]] », « [[épouser]] la [[forme]]}}
+* {{l|schmuck|de|sens=[[joli]]}}
+* {{l|schmücken|de|sens=[[décorer]] », « [[orner]] », « [[parer]]}}
+* {{l|schmuggeln|de|sens=[[faire]] de la [[contrebande]] », « [[faire]] [[passer]] en [[contrebande]]}}
+
+==== {{S|hyperonymes}} ====
+* {{l|Accessoire|de|sens=[[accessoire]]}}
+* {{l|Ornament|de|sens=[[ornement]]}}
+* {{l|Ziergegenstand|de}}
+* {{l|Wertgegenstand|de|sens=[[objet de valeur]]}}
+* * {{l|Gegenstand|de|sens=[[objet]]}}
+
+==== {{S|hyponymes}} ====
+''Voir aussi dérivés en -schmuck''
+* {{l|Armband|de|sens=[[bracelet]]}}
+* {{l|Armreif|de|sens=[[bracelet]]}}
+* {{l|Halsband|de|sens=[[collier]]}}
+* {{l|Halskette|de|sens=[[collier]] », « [[chaîne]] [[porter|portée]] autour du [[cou]]}}
+* {{l|Reif|de|sens=[[bracelet]] », « [[serre-tête]]}}
+* {{l|Ring|de|sens=[[bague]] », « [[anneau]]}}
+
+=== {{S|prononciation}} ===
+* {{écouter|Berlin|ʃmʊk|lang=de|audio=De-Schmuck.ogg}}
+
+=== {{S|voir}} ===
+* {{WP|lang=de}}
+
+=== {{S|références}} ===
+* {{R:DWDS|Schmuck}}
+* {{R:DWb|Schmuck}}
+* {{R:Duden|Schmuck}}
+
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|nom|gsw-fr}} ===
+'''Schmuck''' {{pron||gsw-fr}}
+# [[bijoux|Bijoux]].

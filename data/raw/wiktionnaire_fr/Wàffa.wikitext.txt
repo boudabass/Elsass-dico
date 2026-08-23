@@ -1,0 +1,15 @@
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|nom|gsw-fr}} ===
+'''Wàffa''' {{pron||gsw-fr}} {{f}}
+# [[arme#fr|Arme]].
+
+==== {{S|variantes dialectales}} ====
+* [[Waff]]
+
+=== {{S|références}} ===
+*[https://web.archive.org/web/20130926064631/http://culture.alsace.pagesperso-orange.fr/page_af.htm Dictionnaire français-alsacien]
+
+[[Catégorie:Armes en alémanique alsacien]]

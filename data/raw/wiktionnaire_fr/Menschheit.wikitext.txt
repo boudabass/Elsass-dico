@@ -1,0 +1,58 @@
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: {{date|1000}} Du {{étyl|gmh|de|menschheit|sens=tous les humains, nature et vie d’un humain, humanité}} ou du {{étyl|gmh|de|menscheit}} de même sens{{R|DWDS}}.
+
+=== {{S|nom|de}} ===
+{{de-nom-f-en|sing=oui}}
+'''Menschheit''' {{pron|ˈmɛnʃ.haɪ̯t|de}} {{f}}
+# L’[[humanité]], tous les [[être humain|êtres humains]].
+#* {{exemple|Von allen wird einmütig anerkannt, daß es innerhalb der menschlichen Spezies «Weibchen» gibt. Sie stellen heute wie ehedem etwa die Hälfte der '''Menschheit'''.|lang=de|sens=Tout le monde s’accorde à reconnaître qu’il y a dans l’espèce humaine des femelles ; elles constituent aujourd’hui comme autrefois à peu près la moitié de l’humanité |source={{ouvrage|auteur={{w|Simone de Beauvoir}}|trad=Uli Aumüller et Grete Osterwald|titre=Das andere Geschlecht|année=1992|éditeur=Rowohlt Verlag|url=}}}}
+#* {{exemple|Dieser Gerichtsfall ist, obgleich schon ein paar Jahre alt, nicht nur deshalb so unvergesslich, weil er um eine der fabelhaften Formulierungen kreist, mit denen die deutsche Jurisprudenz die '''Menschheit''' beschenkt hat: "nutzlos aufgewendete Urlaubszeit."|lang=de|sens=Ce cas judiciaire, bien que vieux de quelques années déjà, n'est pas seulement inoubliable parce qu'il tourne autour d’une des formules fabuleuses dont la jurisprudence allemande a gratifié l'humanité : "temps de vacances inutilement dépensé".|source={{périodique|auteur=Ronen Steinke|titre=Kein Sex im Urlaub|journal=Süddeutsche Zeitung|date=10 août 2023|texte=https://www.sueddeutsche.de/leben/menorca-reiseveranstalter-sex-klage-1.6115149}}}}
+#* {{exemple|Die Verhandlungen über ein globales Abkommen für den Seuchenfall sind gescheitert. Wie es weitergeht? Unklar. Die '''Menschheit''' ist gegen die nächste Krise genauso schlecht gewappnet wie gegen Corona.|lang=de|sens=Les négociations sur un accord mondial pour le cas d'épidémie ont échoué. Comment les choses vont-elles évoluer ? On ne sait pas. L'humanité est aussi mal armée contre la prochaine crise que contre Corona.|source={{périodique|auteur=Berit Uhlmann|titre=Die schwere Geburt eines Pandemievertrags|journal=Süddeutsche Zeitung|date=2 juin 2024|texte=https://www.sueddeutsche.de/gesundheit/who-pandemievertrag-scheitern-lux.XJVdueWPqStjoygZnbVmFo}}}}
+#* {{exemple|Frauen sind für (den Playboy-Gründer) "Sexobjekte", die Lippenstift und Miniröcke dazu benutzen, um die '''Menschheit''' vor dem Aussterben zu bewahren. Kein Bunny jenseits der vierzig durfte jemals seine Bettkante passieren.|lang=de|sens=Pour (le fondateur de Playboy), les femmes sont des « objets sexuels » qui utilisent le rouge à lèvres et les minijupes pour préserver l’humanité de l’extinction. Aucune Bunny de plus de quarante ans n’a jamais été autorisée à franchir le bord de son lit.|source={{périodique|auteur=Violetta Simon|titre="Ich bin Feminist"|journal=Süddeutsche Zeitung|date=25 juillet 2012|texte=https://www.sueddeutsche.de/leben/promis-und-liebe-schmachtwort-der-woche-ich-bin-feminist-1.1415433}}}}
+# {{vieilli|de}} [[humanité|Humanité]], [[essence]] de l’[[être humain]].
+
+==== {{S|synonymes}} ====
+* {{lien|Erdbevölkerung|de}}
+* {{lien|Menschengeschlecht|de}}
+* {{lien|Menschenmenge|de|sens=grand rassemblement de personnes}}
+
+==== {{S|dérivés}} ====
+* {{lien|Menschheitsbedrohung|de}}
+* {{lien|Menschheitsbeglückung|de}}
+* {{lien|Menschheitsentwicklung|de}}
+* {{lien|Menschheitsgeschichte|de}}
+* {{lien|Menschheitshöhe|de}}
+* {{lien|Menschheitsideal|de}}
+* {{lien|Menschheitsproblem|de}}
+* {{lien|Menschheitstraum|de}}
+* {{lien|Menschheitsverbrechen|de}}
+* {{lien|menschheitlich|de}}
+* {{lien|menschheitsgefährdend|de}}
+
+==== {{S|phrases}} ====
+* {{lien|jemanden auf die Menschheit loslassen|de|dif=jemanden auf die ''Menschheit'' loslassen}}
+
+=== {{S|prononciation}} ===
+* {{écouter|Berlin (Allemagne)|ˈmɛnʃhaɪ̯t|lang=de|audio=De-Menschheit.ogg}}
+* {{écouter|Berlin (Allemagne)|ˈmɛnʃhaɪ̯t|lang=de|audio=LL-Q188 (deu)-Sebastian Wallroth-Menschheit.wav}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=de}}
+
+=== {{S|références}} ===
+* {{R:DWDS|Menschheit}}
+* {{R:Duden|Menschheit}}
+
+{{Références}}
+
+=== {{S|anagrammes}} ===
+{{voir anagrammes|de}}
+
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+{{ébauche-étym|gsw-fr}}
+
+=== {{S|nom|gsw-fr}} ===
+'''Menschheit'''
+# L’[[humanité]]

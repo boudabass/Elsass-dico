@@ -1,0 +1,10 @@
+{{voir|Vater|Väter}}
+{{vérifier création automatique||gsw-fr}}
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|nom|gsw-fr}} ===
+'''Vàter'''
+# [[père|Père]]
+{{clé de tri|vater}}

@@ -1,0 +1,142 @@
+{{voir|lied}}
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|goh|de|mot=liod}}, attesté pour le {{siècle2|VIII}} siècle, et du {{étyl|gmh|de|mot=liet}}.<ref>{{R:DWDS|Lied}}</ref>
+: Du {{étyl|gmh|de|liet}}, du {{étyl|goh|de|liod}}, du {{étyl|proto-germanique|de}} {{recons|lang-mot-vedette=de|[[Reconstruction:proto-germanique/*leuþą|leuþą]]}} (« chanson »). Cognat du néerlandais ''{{lien|lied|nl}}'', de l’anglais dialectal ''{{lien|leed|en}}''.
+
+=== {{S|nom|de}} ===
+{{de-nom-n-s-er|gse=opt|dse=opt}}
+'''Lied''' {{pron|liːt|de}} {{n}}
+# [[chanson|Chanson]], [[chant]].
+#* {{exemple | lang=de | Ich höre oft französische '''Lieder'''. | sens=J’écoute souvent des chansons françaises''.}}
+#* {{exemple|"Ich habe ein Dutzend neue '''Lieder''' getextet, aber wir hatten noch keine Zeit, sie einzuspielen", erzählt der Sänger.|lang=de|sens=« J’ai écrit une douzaine de nouvelles chansons, mais nous n’avons pas encore eu le temps de les enregistrer », raconte le chanteur.}}
+#* {{exemple|Skurrile Szenen spielten sich heute im Garten des Weißen Hauses in Washington ab. Dort stand Donald Trump überraschend mit einer Gitarre unter einem der Fenster von Joe Bidens Wohnräumen und sang seinem Amtsnachfolger ein '''Lied''', in dem er sich ihn in den Wahlkampf ums Präsidentenamt zurückwünschte.|lang=de|sens=Des scènes bizarres se sont déroulées aujourd'hui dans le jardin de la Maison Blanche à Washington. Donald Trump s'y trouvait par surprise avec une guitare sous l'une des fenêtres des appartements de Joe Biden et a chanté à son successeur une chanson dans laquelle il souhaitait qu'il revienne dans la course à la présidence.|source={{périodique|auteur=(ssi, dan)|titre="Ich will dich zurück!" – Trump mit Gitarre und Blumenstrauß vor Bidens Fenster aufgetaucht|journal=Der Postillon|date=20 août 2024|texte=https://www.der-postillon.com/2024/08/trump-biden.html}}}}
+#* {{exemple|Kaffee galt (...) lange als gesundheitsschädlich, wie ein bis heute populärer Kanon aus dem 19. Jahrhundert nahelegt, in dem vor den furchtbaren Folgen des Konsums gewarnt wird. Das beliebte Aufputschmittel „schwächt die Nerven, macht dich blass und krank“, heißt es in dem '''Lied'''.|lang=de|sens=Le café (...) a longtemps été considéré comme dangereux pour la santé, comme le suggère un canon du XIXe siècle, toujours populaire aujourd'hui, qui met en garde contre les terribles conséquences de sa consommation. Le stimulant populaire « affaiblit les nerfs, te rend pâle et malade », dit la chanson.|source={{périodique|auteur=Werner Bartens|titre=„Trinkt Euren Kaffee und macht das morgens!“|journal=Süddeutsche Zeitung|date=09 janvier 2025|texte=https://www.sueddeutsche.de/gesundheit/kaffee-studie-gesund-herz-infarkt-diabetes-zeitpunkt-li.3177997}}}}
+#* {{exemple|«Fotografei você na minha Rolleiflex …» Durchs weite Foyer des Grand Hyatt Mumbai säuselt gedämpft der schmalzige Bossa-Nova von Stan Getz, Jobim und João Gilberto. Das '''Lied''' ist so alt wie der Mann, der kurzatmig und mit hängenden Schultern aus dem Aufzug tritt.|lang=de|sens=« Fotographei você na minha Rolleiflex… » Le vaste hall du Grand Hyatt Mumbai diffuse en sourdine la bossa-nova sirupeuse de Stan Getz, Jobim et João Gilberto. La chanson a l’âge de l’homme qui sort de l’ascenseur les épaules tombantes, le souffle court.|source={{ouvrage|auteur={{w|Hervé Le Tellier}}|trad=Romy Ritte et Jürgen Ritte|titre=Die Anomalie|année=2021|éditeur=Rowohlt Verlag|lieu=Hamburg|url=}}}}
+# {{lien|épopée|fr|dif=Épopée}}, {{lien|chanson|fr}}.
+#* {{exemple|das '''Lied''' der Nibelungen|lang=de|sens=la chanson des Nibelungen}}
+
+==== {{S|synonymes}} ====
+* {{lien|Gesang|de}}
+* {{lien|Sang|de}}
+
+==== {{S|antonymes}} ====
+{{(|}}
+* {{lien|Kantate|de}}
+* {{lien|Musical|de}}
+* {{lien|Oper|de}}
+* {{lien|Operette|de}}
+* {{lien|Oratorium|de}}
+{{)}}
+{{(|}}
+* {{lien|Ballett|de}}
+* {{lien|Instrumentalstück|de}}
+* {{lien|Konzert|de}}
+* {{lien|Rhapsodie|de}}
+* {{lien|Sinfonie|de}}
+{{)}}
+
+==== {{S|hyperonymes}} ====
+* {{lien|Gesangsstück|de}}
+* {{lien|Musikstück|de}}
+
+==== {{S|vocabulaire}} ====
+* {{lien|Song|de}}
+
+==== {{S|diminutifs}} ====
+* {{lien|Liedchen|de}}
+* {{lien|Liedlein|de}}
+
+==== {{S|dérivés}} ====
+{{(}}
+* {{lien|Adventslied|de}}
+* {{lien|Chorlied|de}}
+* {{lien|das Ende vom Lied|de}}
+* {{lien|Deutschlandlied|de}}
+* {{lien|ein Lied davon singen können|de}}
+* {{lien|ein Lied auf den Lippen|de}}
+* {{lien|Friedenslied|de}}
+* {{lien|Geburtstagslied|de}}
+* {{lien|Götterlied|de}}
+* {{lien|Heldenlied|de}}
+* {{lien|Hohelied|de}}
+* {{lien|immer das gleiche Lied|de}}
+* {{lien|Jagdlied|de}}
+* {{lien|Kampflied|de}}
+* {{lien|Kinderlied|de}}
+* {{lien|Kirchenlied|de}}
+* {{lien|Klagelied|de}}
+* {{lien|Kunstlied|de}}
+* {{lien|Liebeslied|de}}
+* {{lien|Lieblingslied|de}}
+* {{lien|Loblied|de}}
+* {{lien|Lied ohne Worte|de}}
+* {{lien|Lieddichter|de}} ou {{lien|Lieddichterin|de}}
+* {{lien|Liederabend|de}}
+* {{lien|Liederbuch|de}}
+* {{lien|Liederdichter|de}} ou {{lien|Liederdichterin|de}}
+* {{lien|Liederhalle|de}}
+* {{lien|Liederkranz|de}}
+* {{lien|Liedermacher|de}} ou {{lien|Liedermacherin|de}}
+* {{lien|Liedernummer|de}}
+* {{lien|Liedertafel|de}}
+* {{lien|Liedgut|de}}
+* {{lien|Liedform|de}}
+* {{lien|Liedschreiber|de}} ou {{lien|Liedschreiberin|de}}
+* {{lien|Liedtext|de}}
+* {{lien|Liedtexter|de}} ou {{lien|Liedtexterin|de}}
+* {{lien|Marschlied|de}}
+* {{lien|Nibelungenlied|de}}
+* {{lien|Seemannslied|de}}
+* {{lien|Spottlied|de}}
+* {{lien|Trinklied|de}}
+* {{lien|Volkslied|de}}
+* {{lien|Wanderlied|de}}
+* {{lien|Schlaflied|de}}
+* {{lien|Seemannslied|de}}
+* {{lien|Spottlied|de}}
+* {{lien|Trinklied|de}}
+* {{lien|Volkslied|de}}
+* {{lien|Wanderlied|de}}
+* {{l|Weihnachtslied|de|sens=[[chanson]] de [[Noël]]}}
+* {{lien|Wiegenlied|de}}
+{{)}}
+
+==== {{S|phrases}} ====
+* {{lien|wes Brot ich ess, des Lied ich sing|de}}
+* {{lien|wo man singt, da lass dich ruhig nieder, böse Menschen haben keine Lieder|de}}
+
+==== {{S|hyponymes}} ====
+* {{lien|Chanson|de}}
+* {{lien|Song|de}}
+
+=== {{S|prononciation}} ===
+* {{écouter|Berlin (Allemagne)|liːt|lang=de|audio=De-Lied.ogg}}
+* {{écouter|Vienne (Autriche)|liːt|lang=de|audio=De-at-Lied.ogg}}
+* {{écouter|Berlin (Allemagne)|liːt|lang=de|audio=LL-Q188 (deu)-Sebastian Wallroth-Lied.wav}}
+
+=== {{S|anagrammes}} ===
+{{voir anagrammes|de}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=de}}
+
+=== {{S|références}} ===
+{{Références}}
+* {{R:DWDS|Lied}}
+* {{R:Duden|Lied}}
+
+[[Catégorie:Lexique en allemand de la musique]]
+
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|nom|gsw-fr}} ===
+'''Lied''' {{pron||gsw-fr}}
+# [[chanson|Chanson]]
+
+[[Catégorie:Lexique en alémanique alsacien de la musique]]
+[[Catégorie:Genres musicaux en allemand]]
+[[Catégorie:Genres littéraires en allemand]]

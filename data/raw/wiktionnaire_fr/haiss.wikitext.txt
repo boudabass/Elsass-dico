@@ -1,0 +1,22 @@
+{{vérifier création automatique||gsw-fr}}
+
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|adverbe|gsw-fr}} ===
+'''haiss''' {{pron|gsw-fr}}
+# [[très|Très]] [[chaud]], [[brûlant]].
+#* {{exemple|lang=gsw-fr}}
+
+== {{langue|awaswas}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|awaswas}}
+
+=== {{S|nom|awaswas}} ===
+'''haiss''' {{pron||awaswas}}
+# {{lexique|menuiserie|awaswas}} [[porte#fr|Porte]].
+#* {{exemple|lang=awaswas}}
+
+=== {{S|références}} ===
+* {{R:CAIndian}}

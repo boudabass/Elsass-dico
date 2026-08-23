@@ -1,0 +1,9 @@
+{{vérifier création automatique||gsw-fr}}
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|verbe|gsw-fr}} ===
+'''spiele Bàlles'''
+# [[jouer|Jouer]] à la [[balle]], [[jouer]] au [[ballon]]
+{{clé de tri|spiele balles}}

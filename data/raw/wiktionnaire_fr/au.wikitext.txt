@@ -1,0 +1,383 @@
+{{voir/au}}
+
+== {{langue|conv}} ==
+=== {{S|étymologie}} ===
+: {{date|lang=conv|2012}} De l’{{étyl|en|conv|astronomical unit|sens=unité astronomique}}.
+
+=== {{S|symbole|conv}} ===
+'''au'''
+# {{lexique|astronomie|conv}} [[unité astronomique|Unité astronomique]].
+
+==== {{S|synonymes}} ====
+* [[AU#conv|AU]] ''(anglophonie)''
+* [[ua#conv|ua]] ''(francophonie)''
+
+=== {{S|références}} ===
+* L’Union astronomique internationale, [https://web.archive.org/web/20130816112418/http://www.iau.org/static/resolutions/IAU2012_English.pdf ''RESOLUTION B2 on the re-definition of the astronomical unit of length''], 2012
+
+== {{langue|fr}} ==
+=== {{S|étymologie}} ===
+: {{contraction|lang=fr|m=1|de=à|de2=le}}.
+
+=== {{S|article défini|fr|flexion}} ===
+{{fr-accord-mixte| ms=au| mp=aux| fs=à la| fp=aux| pms=o| pmp=o| pfs=a la| pfp=o}}
+'''au''' {{pron|o|fr}} {{m}} {{s}}
+# Contraction de la [[préposition]] ''[[à]]'' et de l'[[article]] défini ''[[le]]''.
+#* {{exemple | lang=fr | Je vais '''au''' marché.}}
+#* {{exemple | lang=fr | Ce train s’arrête '''au''' Mans.}}
+
+==== {{S|notes}} ====
+* Dans les noms propres :
+** La contraction s’opère avec l’article défini « ''[[le#fr-art-déf-1|Le]]'' » initial des toponymes : 
+***[[Le Mans]] → ''aller '''au''' Mans ;
+***[[Le Touquet]] → ''aller '''au''' Touquet ;
+***[[Le Havre]] → ''aller '''au''' Havre ;
+***[[Le Croisic]] → ''aller '''au''' Croisic ;
+***etc.
+**Mais pas avec ce même article s’il est préfixe des noms de famille : 
+**:''On doit cette architecture {{surligné|coul=#ff9|à Le}} Corbusier''.
+**:''Le prix Nobel de littérature fut décerné {{surligné|coul=#ff9|à Le}} Clézio''.
+* La contraction n’opère par ailleurs pas avec « ''[[le#fr-pronom-pers|le]]'' » en tant que pronom personnel :
+*:''Il était heureux et tenait {{surligné|coul=#ff9|à le}} rester.''
+*:''Si tu as besoin d’aide, n’hésite pas {{surligné|coul=#ff9|à le}} dire.''
+
+==== {{S|variantes}} ====
+* [[à l’]] (devant une voyelle)
+
+==== {{S|vocabulaire}} ====
+{{contractions/fr}}
+
+==== {{S|traductions}} ====
+{{trad-début}}
+* {{T|de}} : {{trad+|de|zu}}
+* {{T|ca}} : {{trad+|ca|al}}
+* {{T|es}} : {{trad+|es|al}}
+* {{T|gallo-italique de Basilicate}} : {{trad|gallo-italique de Basilicate|au}}
+* {{T|gallo-italique de Sicile}} : {{trad|gallo-italique de Sicile|au}}
+* {{T|el}} : {{trad+|el|στο}}, {{trad+|el|στον}}
+* {{T|grc}} : {{trad|grc|τῷ|m|tr=tôï}}
+* {{T|it}} : {{trad+|it|al}}
+* {{T|nl}} : {{trad-|nl|aan de}}, {{trad+|nl|aan het}}
+* {{T|pcd}} : {{trad|pcd|à ch’}}
+* {{T|pt}} : {{trad+|pt|ao}}
+* {{T|rm}} : {{trad-|rm|al}}
+* {{T|scn}} : {{trad+|scn|ô}}, {{trad+|scn|allu}}, {{trad+|scn|au}}, {{trad+|scn|a lu}}, {{trad+|scn|a u}}
+* {{T|af}} : {{trad+|af|in}}
+* {{T|angevin}} : {{trad|angevin|ou}}
+* {{T|en}} : {{trad+|en|Au}}
+* {{T|shy}} : {{trad+|shy|bu}}
+* {{T|gallo}} : {{trad|gallo|ô}}
+* {{T|oc}} : {{trad+|oc|al}}, {{trad-|oc|au}}
+* {{T|pt}} : {{trad+|pt|o}}
+{{trad-fin}}
+
+=== {{S|nom|fr}} ===
+'''au''' {{pron||fr}} {{m}} {{s}}
+# [[langue#fr|Langue]] [[torricelli]] parlée en [[Papouasie-Nouvelle-Guinée]] (code ISO 639-3 : [[avt#conv|avt]]).
+#* {{exemple||source=|lien=|lang=fr}}
+
+==== {{S|traductions}} ====
+{{trad-début}}
+{{trad-fin}}
+
+=== {{S|symbole|fr}} ===
+'''au''' {{pron|y.ni.te as.tʁo.no.mik|fr}} {{f}} {{invar}}
+# {{symboles unités|fr}} {{lexique|astronomie|fr}} [[abréviation|Abréviation]] pour '''[[unité astronomique]]'''.
+#* {{exemple||source=|lien=|lang=fr}}
+
+==== {{S|variantes}} ====
+* [[ua]]
+
+==== {{S|vocabulaire}} ====
+* {{voir thésaurus|fr|unités de mesure}}
+
+==== {{S|traductions}} ====
+{{trad-début}}
+{{trad-fin}}
+
+=== {{S|prononciation}} ===
+* {{pron-rimes|o|fr}}
+* {{pron|o|fr}}
+* {{écouter|lang=fr|France <!-- précisez svp la ville ou la région -->|o|audio=Fr-au.ogg}}
+* {{écouter|lang=fr|Suisse (canton du Valais)||audio=LL-Q150 (fra)-DSwissK-au.wav}}
+* {{écouter|Vosges (France)||lang=fr|audio=LL-Q150 (fra)-LoquaxFR-au.wav}}
+* {{écouter|Vendée (France)||lang=fr|audio=LL-Q150 (fra)-Sartus85-au.wav}}
+
+==== {{S|homophones|fr}} ====
+{{(}}
+* [[aulx]]
+* [[eau]]
+* [[haut]]
+* [[o]]
+* [[ô]]
+* [[oh]]
+* [[os]] ''(pluriel)''
+{{)}}
+
+=== {{S|anagrammes}} ===
+{{voir anagrammes|fr}}
+
+=== {{S|voir aussi}} ===
+* {{catégorie langue}}
+
+[[Catégorie:Contractions en français]]
+[[Catégorie:Mots sans consonne en français]]
+[[Catégorie:Langues en français]]
+
+== {{langue|abai sembuak}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|proto-murutique|abai sembuak}} {{recons|lang-mot-vedette=abai sembuak|aku|abai sembuak}}, issu du {{étyl|proto-Sabah du Sud-Ouest|abai sembuak}} {{recons|lang-mot-vedette=abai sembuak|aku|proto-Sabah du Sud-Ouest}}, issu du {{étyl|proto-malayo-polynésien|abai sembuak}} {{recons|lang-mot-vedette=abai sembuak|[[Reconstruction:proto-malayo-polynésien/*aku|aku]]}}.
+
+=== {{S|pronom personnel|abai sembuak}} ===
+'''au''' {{pron||abai sembuak}}
+# [[je#fr|Je]].
+
+=== {{S|références}} ===
+* {{R:Lobel2013}}
+
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|adverbe|gsw-fr}} ===
+'''au''' {{pron||gsw-fr}}
+# [[aussi]].
+
+==== {{S|variantes orthographiques}} ====
+* [[oei]]
+* [[oi]]
+
+== {{langue|angevin}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|angevin}}
+
+=== {{S|préposition|angevin}} ===
+'''au''' {{pron||angevin}}
+# [[avec|Avec]].
+# [[par|Par]] [[la]], [[du]] [[côté]].
+#* {{exemple |lang=angevin |'''au''' dret |sens='''du côté''' droit}}
+# [[chez|Chez]].
+
+=== {{S|préposition|angevin|flexion}} ===
+'''au''' {{pron||angevin}}
+# ''Flexion de la préposition'' {{lien|a|angevin|sens=par}}.
+
+=== {{S|références}} ===
+* {{R:Ménière|p=229|vue=239}}
+* {{R:VerrierOnillon|p=2|vue=42}}
+
+== {{langue|ca}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|ca}}
+
+=== {{S|nom|ca}} ===
+'''au''' {{pron||ca}} {{m}}
+# {{lexique|zoologie|ca}} [[oiseau|Oiseau]].
+
+==== {{S|synonymes}} ====
+* [[ocell]]
+
+=== {{S|prononciation}} ===
+* {{écouter|El Prat de Llobregat (Espagne)||lang=ca|audio=LL-Q7026 (cat)-Unjoanqualsevol-au.wav}}
+
+== {{langue|eo}} ==
+{{voir autres systèmes|eo|aŭ|aux}}
+
+=== {{S|variante typographique|eo}} ===
+'''au''' {{pron|aw|eo}}
+# {{eo-sys-h|aŭ}}.
+
+== {{langue|et}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|et}}
+
+=== {{S|nom|et}} ===
+'''au''' {{pron||et}}
+# [[honneur|Honneur]].
+
+== {{langue|gallo}} ==
+=== {{S|article défini|gallo|flexion}} ===
+'''au''' {{pron||gallo}} {{gallo-graphie|ELG}}
+# [[au#fr|Au]].
+
+=== {{S|références}} ===
+* {{lien web|auteur=Christophe Simon|titre=Graphier le gallo, Une analyse anthropologique du phénomène|site=Cairn, Cahiers de sociolinguistique|url=https://www.cairn.info/revue-cahiers-de-sociolinguistique-2007-1-page-183.htm|date=2007}}
+
+== {{langue|gallo-italique de Basilicate}} ==
+=== {{S|étymologie}} ===
+: {{contraction|lang=gallo-italique de Basilicate|de=a|de2=lu}}
+
+=== {{S|préposition|gallo-italique de Basilicate}} ===
+'''au''' {{pron||gallo-italique de Basilicate}}
+# {{Pignola|gallo-italique de Basilicate}} [[au#fr|Au]].
+#* {{exemple|lang=gallo-italique de Basilicate}}
+
+==== {{S|synonymes}} ====
+* {{lien|ô|gallo-italique de Basilicate}}
+* {{lien|a lu|gallo-italique de Basilicate}}
+
+=== {{S|références}} ===
+* {{R:Rizza}}
+
+== {{langue|gallo-italique de Sicile}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gallo-italique de Sicile}}
+
+=== {{S|article défini|gallo-italique de Sicile|flexion}} ===
+'''au''' {{phon||gallo-italique de Sicile}} {{m}} {{Roccella}}
+# {{Piazza Armerina|gallo-italique de Sicile}} [[au#fr|Au]].
+#* {{exemple|lang=gallo-italique de Sicile}}
+
+=== {{S|références}} ===
+* {{R:Roccella}}
+
+== {{langue|kqv}} ==
+=== {{S|étymologie}} ===
+: Du proto-murutique {{recons|lang-mot-vedette=kqv|aku}}, issu du proto-Sabah du Sud-Ouest {{recons|lang-mot-vedette=kqv|aku}}, issu du {{étyl|proto-malayo-polynésien|kqv}} {{recons|lang-mot-vedette=kqv|[[Reconstruction:proto-malayo-polynésien/*aku|aku]]}}.
+
+=== {{S|pronom personnel|kqv}} ===
+'''au''' {{pron||kqv}}
+# [[je#fr|Je]].
+
+=== {{S|références}} ===
+* Jason William Lobel, ''Southwest Sabah Revisited'', Oceanic Linguistics, 2013, 52:1, pages 36-68.
+
+== {{langue|slg}} ==
+=== {{S|étymologie}} ===
+: Du proto-murutique {{recons|lang-mot-vedette=slg|aku}}, issu du proto-Sabah du Sud-Ouest {{recons|lang-mot-vedette=slg|aku}}, issu du {{étyl|proto-malayo-polynésien|slg}} {{recons|lang-mot-vedette=slg|[[Reconstruction:proto-malayo-polynésien/*aku|aku]]}}.
+
+=== {{S|pronom personnel|slg}} ===
+'''au''' {{pron||slg}}
+# [[je#fr|Je]].
+
+=== {{S|références}} ===
+* Jason William Lobel, ''Southwest Sabah Revisited'', Oceanic Linguistics, 2013, 52:1, pages 36-68.
+
+== {{langue|nl}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|nl}}
+
+=== {{S|interjection|nl}} ===
+'''au''' {{pron||nl}}
+# [[aïe|Aïe]], [[ouille]].
+
+==== {{S|variantes orthographiques}} ====
+* {{lien|auw|nl}}
+
+==== {{S|dérivés}} ====
+* {{lien|autje|nl}}
+
+=== {{S|taux de reconnaissance}} ===
+{{nl-taux|85,3|66,9|pourB=67|pourNL=85}}
+
+=== {{S|prononciation}} ===
+* {{écouter|||lang=nl|audio=Nl-au.ogg}}
+
+=== {{S|voir aussi}} ===
+* [[autje]]
+
+=== {{S|références}} ===
+{{références}}
+
+== {{langue|oc}} ==
+=== {{S|étymologie}} ===
+: Forme enclitique de ''{{lien|a|oc}}'' et ''{{lien|lo|oc}}''.
+
+=== {{S|article défini|oc}} ===
+{{oc-rég|s=au|'aw|titre= Gascon}}
+{{oc-rég|s=au|ps='aw|p=ai|pp='aj|titre= Provençal}}
+'''au''' {{pron|aw|oc}} {{m}} {{s}} {{oc-norme classique}}
+# {{oc provençal}} {{oc gascon}} {{oc haut limousin}} [[au#fr|Au]] (article défini contracté).
+
+ {{S|notes}} 
+* Contraction de ''a lo''.
+* Au féminin, ''au'' redevient ''a la'' ou ''a l’''.
+* Au pluriel, ''a lei'' devient ''{{lien|ai|oc}}''; ''a leis'' devient ''{{lien|ais|oc}}''.
+
+=== {{S|anagrammes}} ===
+{{voir anagrammes|oc}}
+
+=== {{S|références}} ===
+* {{R:Lo Congrès}}       
+* {{R:Cantalausa}}
+* {{R:Martin-Moulin}}
+* {{R:Guilhemjoan Harrer}}
+* {{R:Guilhemjoan gram}}
+* {{R:Lavalade}}
+* {{R:Tintou}} 
+[[Catégorie:Contractions en occitan]]
+
+== {{langue|scn}} ==
+{{ébauche|scn}}
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|scn}}
+
+=== {{S|préposition|scn}} ===
+'''au''' {{pron|ˈa.ʊ|scn}}
+# [[au#fr|Au]].
+#* {{exemple|lang=scn}}
+
+ {{S|notes}} 
+{{note-accent-scn|àu}}
+
+=== {{S|prononciation}} ===
+* {{écouter|Gela (Italie)||lang=scn|audio=LL-Q33973 (scn)-XANA000-au.wav}}
+
+=== {{S|références}} ===
+* {{R:Traina}}
+
+== {{langue|srq}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|srq}}
+
+=== {{S|verbe|srq}} ===
+'''au''' {{pron|a.u|srq}} ''(statif)''
+# [[mûr|Mûr]] (pour un fruit), [[pulpeux]].
+
+==== {{S|synonymes}} ====
+* [[kiche]]
+
+==== {{S|antonymes}} ====
+* [[aki]]
+
+=== {{S|références}} ===
+* {{R:Siriono|34}}
+* Anne Priest et Perry N. Priest, ''[//www.sil.org/acpub/repository/19157.pdf Diccionario sirionó y castellano]'', 1985, page 9.
+
+== {{langue|vi}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|vi}}
+
+=== {{S|adjectif|vi}} ===
+'''au''' {{pron|au˦|vi}}
+# [[gai|Gai]], [[heureux]].
+
+=== {{S|prononciation}} ===
+* {{écouter|lang=vi|Viêt Nam (Hô-Chi-Minh-Ville)||audio=LL-Q9199 (vie)-Jessica Nguyen (Pamputt)-au.wav}}
+
+==== {{S|paronymes}} ====
+* [[âu]]
+* [[ẩu]]
+* [[ấu]]
+
+=== {{S|références}} ===
+* {{R:FVDP}}
+
+== {{langue|wls}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|wls}}
+
+=== {{S|pronom personnel|wls}} ===
+'''au''' {{pron||wls}}
+# [[je#fr|Je]].
+#* {{exemple | lang=wls
+ | ‘e '''au''' mahaki
+ | Je suis malade}}
+#* {{exemple | lang=wls
+ | Ne‘e '''au''' tupu i Uvea
+ | Je suis né à Wallis}}
+# [[moi#fr|Moi]]
+#* {{exemple | lang=wls
+ | ‘e ke fia ‘alu ‘o gelu mo '''au''' ‘apogipogi ?
+ | Est-ce que tu veux aller à la pêche avec moi demain ?{{source|Karl Rensch, ''Parler wallisien'', Archipelago Press, 2002}}}}

@@ -1,0 +1,15 @@
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+{{ébauche-étym|gsw-fr}}
+
+=== {{S|nom|gsw-fr}} ===
+'''Wisswin''' {{pron||gsw-fr}} {{m}}
+# [[vin blanc#fr|vin blanc]].
+
+==== {{S|variantes}} ====
+* [[Wisswi]]
+
+=== {{S|références}} ===
+* Paul-André Befort et Léon Daul, ''[http://www.olcalsace.org/sites/default/files/lexique_courses.pdf Petit lexique pour faire les courses en alsacien : Kommissione màche]'', Office pour la Langue et la Culture d’Alsace.
+
+[[Catégorie:Boissons alcoolisées en alémanique alsacien]]

@@ -1,0 +1,14 @@
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: Formé des substantifs ''{{lien|Glocka|gsw-fr}}'' (« cloche » ou « cloches ») et ''{{lien|Klàng|gsw-fr}}'' (« son »). Cognat avec l’allemand ''{{lien|Glockenklang|de}}''.
+
+=== {{S|nom|gsw-fr}} ===
+'''Glockaklàng''' {{phon||gsw-fr}} {{m}}
+# [[son#Nom commun 1|Son]] de {{lien|cloche|fr}}, son des cloches.
+#* {{exemple | lang=gsw-fr
+ | Dàsjohr wìrd ma àwer dr tiefa '''Glockaklàng''' vu Notre-Dame ìn Pàris nìt heera.
+ | Mais cette année, on n’entendra pas le son grave des cloches de Notre-Dame de Paris.
+ | source={{Article |auteur=Adrien {{smcp|Dentz}}|url=https://www.lalsace.fr/actualite/2019/04/20/d-glocka-vu-notre-dame|titre=D’Glocka vu Notre-Dame |périodique=[[w:L’Alsace|L’Alsace]] |date=20 avril 2019|pages=39}}}}
+
+=== {{S|notes}} ===
+* Forme utilisée en [[Haute-Alsace#fr|Haute-Alsace]].

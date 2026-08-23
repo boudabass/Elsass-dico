@@ -1,0 +1,19 @@
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: Composé de l’adjectif ''{{lien|schwàrz|gsw-fr}}'' (« noir ») et du substantif ''{{lien|Àrwet|gsw-fr}}'' (« travail »). Cognat avec l’allemand ''{{lien|Schwarzarbeit|de}}''.
+
+=== {{S|nom|gsw-fr}} ===
+'''Schwàrzàrwet''' {{f}} {{phon||gsw-fr}} (pluriel : ''[[Schwàrzàrweta]]'')
+# {{lexique|travail|gsw-fr}} [[travail au noir#fr|Travail au noir]].
+#* {{exemple | lang=gsw-fr
+ | Ar hàt sina Sìtzflächa un si Karaasch loo bàuia. Dàs àlles ìsch '''Schwàrzàrwet''' gsìì.
+ | Il a fait construire sa terrasse et son garage. Tout cela a été fait au noir [litt. « tout cela a été du travail au noir »].}}
+
+==== {{S|dérivés}} ====
+* {{lien|Schwàrzàrwaiter|gsw-fr}} — travailleur au noir
+
+==== {{S|notes}} ====
+Forme du bas-alémanique du Sud, parlé en Haute-Alsace.
+
+=== {{S|références}} ===
+* {{Ouvrage|langue=fr|prénom=André |nom=Nisslé|titre=D’ Lehrschtuwa: Dictionnaire français-alsacien / Wärterbüach elsassisch franzesch|éditeur=Association Culture et Patrimoine d’Alsace|ISBN=978-2-36702-058-7|page=810|para=Schwàrzàrwet|année=2015}}.

@@ -1,0 +1,26 @@
+{{voir|froġa}}
+
+== {{langue|gsw-fr}} ==
+{{vérifier création automatique||gsw-fr}}
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|verbe|gsw-fr}} ===
+'''froga''' {{pron||gsw-fr}}
+# [[questionner|Questionner]], [[demander]] 
+#* {{exemple|lang=gsw-fr}}
+
+== {{langue|eu}} ==
+=== {{S|étymologie}} ===
+: Du {{étyl|la|eu|mot=proba}}.
+
+=== {{S|nom|eu}} ===
+'''froga''' {{pron||eu}}
+# [[preuve#fr|Preuve]].
+#* {{exemple|lang=eu}}
+
+==== {{S|dérivés}} ====
+* {{lien|frogatu|eu|sens=prouver}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=eu}}

@@ -1,0 +1,11 @@
+{{voir|Verbesserung}}
+
+== {{langue|gsw-fr}} ==
+{{ébauche|gsw-fr}}
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|nom|gsw-fr}} ===
+'''verbesserung'''
+# [[amélioration]].

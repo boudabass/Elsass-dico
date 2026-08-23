@@ -1,0 +1,10 @@
+{{voir|Milhüsa}}
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|nom propre|gsw-fr}} ===
+'''Mïlhüsa'''
+# [[Mulhouse]]
+
+{{clé de tri|milhusa}}

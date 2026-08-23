@@ -1,0 +1,10 @@
+{{voir/mr}}
+
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|pronom personnel|gsw-fr}} ===
+'''m’r'''
+# [[nous|Nous]], [[on]]
+{{clé de tri|mr}}

@@ -1,0 +1,13 @@
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|verbe|gsw-fr}} ===
+'''quäla''' {{pron||gsw-fr}}
+# [[torturer|Torturer]], [[martyriser]].
+
+==== {{S|dérivés}} ====
+* [[Quälaräi]]
+
+=== {{S|références}} ===
+* [https://web.archive.org/web/20131206043034/http://culture.alsace.pagesperso-orange.fr/page_q.htm Dictionnaire alsacien-français], lettre Q.

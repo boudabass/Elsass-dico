@@ -1,0 +1,11 @@
+{{voir|verspràacha}}
+
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|nom|gsw-fr}} ===
+'''Verspràacha'''
+# [[promesse|Promesse]]
+
+{{clé de tri|verspraacha}}

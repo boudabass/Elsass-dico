@@ -1,0 +1,10 @@
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|nom|gsw-fr}} ===
+'''Durm''' {{pron||gsw-fr}} {{m}}
+# [[tour|Tour]] (bâtiment).
+
+=== {{S|références}} ===
+*[https://web.archive.org/web/20131020093731/http://culture.alsace.pagesperso-orange.fr/page_tf.htm Dictionnaire français-alsacien]

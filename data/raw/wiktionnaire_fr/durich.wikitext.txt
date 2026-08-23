@@ -1,0 +1,14 @@
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+
+: Voir l’{{étyl|de|gsw-fr|mot=durch}}.
+
+=== {{S|préposition|gsw-fr}} ===
+'''durich''' {{pron|d̥ʊʀiʃ|gsw-fr}}
+# [[à travers#fr|À travers]], {{lien|par|fr}}.
+#* {{exemple | lang=gsw-fr
+ | Ìch lauf '''durich''' de Wàld
+ | Je marche ''à travers'' la forêt.}}
+
+==== {{S|variantes orthographiques}} ====
+* [[durch]]

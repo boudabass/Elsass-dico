@@ -1,0 +1,11 @@
+{{vérifier création automatique||gsw-fr}}
+{{voir|trana}}
+
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|nom|gsw-fr}} ===
+'''Tràna'''
+# [[larme|Larme]]
+{{clé de tri|trana}}

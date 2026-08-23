@@ -1,0 +1,4 @@
+== {{langue|gsw-fr}} ==
+=== {{S|nom|gsw-fr|flexion}} ===
+'''Regionàlrät''' {{phon||gsw-fr}}
+# ''Pluriel de'' {{lien|Regionàlràt|gsw-fr}}.

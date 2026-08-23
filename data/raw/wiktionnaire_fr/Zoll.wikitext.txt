@@ -1,0 +1,305 @@
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: (''Douane'') {{siècle|lang=de|VIII}}. Du {{étyl|goh|de|mot=zol}}, du {{étyl|gmh|de|mot=zol}}, emprunt du {{étyl|la|de|mot=toloneum, telōnēum}}, issu du {{étyl|grc|de|mot=τελωνεῖον (teloneíon)}}.<ref>Friedrich Kluge, bearbeitet von Elmar Seebold: Etymologisches Wörterbuch der deutschen Sprache. 24., durchgesehene und erweiterte Auflage. Walter de Gruyter, Berlin/New York 2001, ISBN 978-3-11-017473-1, DNB 965096742, Stichwort: „Zoll2“, Seite 1016.</ref>
+: (''pouce'') {{siècle|lang=de|XI}}. Du {{étyl|goh|de|mot=zollo}}, du {{étyl|gmh|de|mot=zol}} avec le sens de billot, morceau coupé. Depuis le {{siècle|lang=de|XVI}}, avec le sens de mesure de longueur.<ref>Friedrich Kluge, bearbeitet von Elmar Seebold: Etymologisches Wörterbuch der deutschen Sprache. 24., durchgesehene und erweiterte Auflage. Walter de Gruyter, Berlin/New York 2001, ISBN 978-3-11-017473-1, DNB 965096742, Stichwort: „Zoll1“, Seite 1016.</ref>
+
+=== {{S|nom|de|num=1}} ===
+{{de-nom-m-s-e|gs2=Zolles|ds2=Zolle|np=Zölle}}
+'''Zoll''' {{pron|ˈt͡sɔl|de}} {{m}}
+# [[douane|Douane]], (autorité prélevant les droits de douane).
+#* {{exemple | lang=de
+ | Wir müssen durch den '''Zoll''' gehen.
+ | Nous devons passer la douane.}}
+#* {{exemple|Die Polizei hat in Zusammenarbeit mit dem '''Zoll''' einen Drogenhändlerring zerschlagen.|lang=de|sens=La police, en collaboration avec les douanes, a démantelé un réseau criminel de trafic de stupéfiants.}}
+#* {{exemple|Als er in JFK noch schläfrig an den '''Zoll''' tritt, scannt der Beamte seinen Pass, betrachtet ihn aufmerksam, hält ihn ein paar Minuten zurück, bis ein Mann und eine Frau dazustoßen.|lang=de|sens=À JFK, alors qu’il passe la douane, encore ensommeillé, l’officier scanne son passeport, l’observe attentivement, et le retient, quelques minutes, le temps qu’un homme et une femme les rejoignent.|source={{ouvrage|auteur={{w|Hervé Le Tellier}}|trad=Romy Ritte et Jürgen Ritte|titre=Die Anomalie|année=2021|éditeur=Rowohlt Verlag|lieu=Hamburg|url=}}}}
+# [[droit de douane|Droit de douane]], (impôt sur les marchandises importées).
+#* {{exemple | lang=de
+ | Dieses Gerät, das aus Japan kommt, hat mich eine Menge '''Zoll''' gekostet.
+ | Cet appareil, qui vient du Japon, m'a coûté cher en droits de douane.}}
+
+==== {{S|vocabulaire}} ====
+{{(|}}
+* {{lien|Fuß|de}}
+* {{lien|Yard|de}}
+* {{lien|Daumen|de}}
+* {{lien|Elle|de}}
+* {{lien|Fuß|de}}
+* {{lien|Klafter|de}}
+* {{lien|Meile|de}}
+* {{lien|Rute|de}}
+* {{lien|Schritt|de}}
+* {{lien|Spanne|de}}
+{{)}}
+
+==== {{S|hyponymes}} ====
+{{(|}}
+* {{lien|Abwehrzoll|de}}
+* {{lien|Agrarzoll|de}}
+* {{lien|Antidumpingzoll|de}}
+* {{lien|Ausfuhrzoll|de}}
+* {{lien|Außenzoll|de}}
+* {{lien|Benzinzoll|de}}
+* {{lien|Binnenzoll|de}}
+* {{lien|Differenzialzoll|de}}
+* {{lien|Durchfuhrzoll|de}}
+* {{lien|Einfuhrzoll|de}}
+* {{lien|Eingangszoll|de}}
+* {{lien|Erziehungszoll|de}}
+* {{lien|Exportzoll|de}}
+* {{lien|Faschingszoll|de}}
+* {{lien|Finanzzoll|de}}
+* {{lien|Fiskalzoll|de}}
+* {{lien|Gewichtszoll|de}}
+* {{lien|Importzoll|de}}
+* {{lien|Nachzoll|de}}
+* {{lien|Narrenzoll|de}}
+* {{lien|Ochsenzoll|de}}
+* {{lien|Optimalzoll|de}}
+* {{lien|Prohibitivzoll|de}}
+* {{lien|Protektionszoll|de}}
+* {{lien|Repressivzoll|de}}
+* {{lien|Retorsionszoll|de}}
+* {{lien|Schiffszoll|de}}
+* {{lien|Schutzzoll|de}}
+* {{lien|Sperrzoll|de}}
+* {{lien|Spitzenzoll|de}}
+* {{lien|Strafzoll|de|sens=amende douanière}}
+* {{lien|Transitzoll|de}}
+* {{lien|Vergeltungszoll|de}}
+* {{lien|Warenzoll|de}}
+* {{lien|Wertzoll|de}}
+* {{lien|Zusatzzoll|de}}
+* {{lien|Blutzoll|de}}
+{{)}}
+{{(|}}
+* {{lien|Brückenzoll|de|sens=péage de pont}}
+* {{lien|Straßenzoll|de}}
+* {{lien|Sundzoll|de}}
+* {{lien|Wegezoll|de}} ou {{lien|Wegzoll|de}}
+* {{lien|Grenzzoll|de}}
+* {{lien|Hafenzoll|de}}
+{{)}}
+
+==== {{S|dérivés}} ====
+{{(|colonnes=3}}
+* {{lien|Differentialzoll|de}}
+* {{lien|Getreidezoll|de}}
+* {{lien|Präferenzzoll|de}}
+* {{lien|Salzzoll|de}}
+* {{lien|Unionszollkodex|de|sens=code des douanes de l'Union}}
+* {{lien|verzollen|sens=payer les droits de douane », « déclarer en douane}}
+* {{lien|Zoll-Linie|de}}
+* {{lien|Zollabfertigung|de|sens=formalités de douane}}
+* {{lien|Zollabgabe|de}}
+* {{lien|Zollabkommen|de}}
+* {{lien|Zollamt|de|sens=bureau des douanes}}
+* {{lien|zollamtlich|de}}
+* {{lien|Zollangelegenheit|de}}
+* {{lien|Zollanmeldung|de}}
+* {{lien|Zollanschluss|de}}
+* {{lien|Zollaufkleber|de}}
+* {{lien|Zollaufschlag|de}}
+* {{lien|Zollausland|de}}
+* {{lien|Zollbarriere|de|sens=barrière douanière}}
+* {{lien|Zollbeamter|de|sens=douanier}}
+* {{lien|Zollbeamtin|de|sens=douanière}}
+* {{lien|zollbegünstigt|de}}
+* {{lien|Zollbegünstigung|de}}
+* {{lien|Zollbehandlung|de}}
+* {{lien|Zollbehörde|de|sens=service des douanes}}
+* {{lien|Zollbelastung|de}}
+* {{lien|Zollbeschau|de}}
+* {{lien|Zollbestimmung|de|sens=législation douanière}}
+* {{lien|Zollbetrag|de}}
+* {{lien|Zollbindung|de}}
+* {{lien|Zollboot|de|sens=Bateau des douanes}}
+* {{lien|Zollbürgschaft|de}}
+* {{lien|Zolldeklaration|de}}
+* {{lien|Zolldienst|de}}
+* {{lien|Zolldienststelle|de}}
+* {{lien|Zolldirektion|de}}
+* {{lien|Zolldokument|de}}
+* {{lien|Zolleinhebung|de}}
+* {{lien|Zolleinigung|de}}
+* {{lien|Zolleinnahme|de}}
+* {{lien|Zolleinnehmer|de}}
+* {{lien|zollen|de}}
+* {{lien|Zollenquete|de}} ou {{lien|Zollenquête|de}}
+* {{lien|Zollerhebung|de}}
+* {{lien|Zollerhöhung|de}}
+* {{lien|Zollerklärung|de|sens=déclaration en douane}}
+* {{lien|Zollerleichterung|de}}
+* {{lien|Zollermäßigung|de}}
+* {{lien|Zolleskalation|de}}
+* [[Zollfahnder]] (''contrôleur des douanes''), [[Zollfahnderin]] (''contrôleuse des douanes'')
+* {{lien|Zollfahndung|de}}
+* {{lien|Zollflagge|de}}
+* {{lien|Zollforderung|de}}
+* {{lien|Zollformalität|de}}
+* {{lien|Zollformular|de}}
+* {{lien|zollfrei|sens=exempt de droits de douane », « en franchise}}
+* {{lien|Zollfreibetrag|de}}
+* {{lien|Zollfreigebiet|de}}
+* {{lien|Zollfreiheit|de|sens=franchise douanière}}
+* {{lien|Zollfreilager|de}}
+* {{lien|Zollgebäude|de}}
+* {{lien|Zollgebiet|de|sens=zone douanière}}
+* {{lien|Zollgesetz|de}}
+* {{lien|Zollgrenzbezirk|de}}
+* {{lien|Zollgrenze|de|sens=frontière douanière}}
+* {{lien|Zollgut|de}}
+* {{lien|Zollhaus|de|sens=bâtiment des douanes}}
+* {{lien|Zollhinterziehung|de}}
+* {{lien|Zollhöhe|de}}
+* {{lien|Zollhoheit|de}}
+* {{lien|Zollhund|de}}
+* {{lien|Zollinformation|de}}
+* {{lien|Zollinhaltserklärung|de}}
+* {{lien|Zollinspektor|de}}
+* {{lien|Zollkodex|de}}
+* {{lien|Zollkontingent|de}}
+* {{lien|Zollkontrolle|de|sens=contrôle douanier}}
+* {{lien|Zollkreuzer|de}}
+* {{lien|Zollkrieg|de}}
+* {{lien|Zollkriminalamt|de}}
+* {{lien|Zollkutter|de}}
+* {{lien|Zolllager|de}}
+* {{lien|Zolllinie|de}}
+* {{lien|Zollmuseum|de}}
+* [[Zöllner]] (''douanier''), [[Zöllnerin]] (''douanière'')
+* {{lien|Zollniederlassung|de}}
+* {{lien|Zollnomenklatur|de}}
+* {{lien|Zollordnung|de}}
+* {{lien|Zollorgan|de}}
+* {{lien|Zollorganisation|de}}
+* {{lien|Zollpapier|de}}
+* {{lien|Zollpflicht|de}}
+* {{lien|zollpflichtig|sens=à déclarer en douane », « soumis aux droits de douane}}
+* {{lien|Zollplafond|de}}
+* {{lien|Zollplombe|de|sens=sceau de plomb}}
+* {{lien|Zollpolitik|de}}
+* {{lien|Zollrecht|de}}
+* {{lien|zollrechtlich|de}}
+* {{lien|Zollregal|de}}
+* {{lien|Zollreklamation|de}}
+* {{lien|Zollrevision|de}}
+* {{lien|Zollrevisor|de}}
+* {{lien|Zollsatz|de}}
+* {{lien|Zollschikane|de}}
+* {{lien|Zollschranke|de|sens=barrière douanière}}
+* {{lien|Zollschreiben|de}}
+* {{lien|Zollschuld|de}}
+* {{lien|Zollschuldbetrag|de}}
+* {{lien|Zollschutz|de}}
+* {{lien|Zollsekretär|de}}
+* {{lien|Zollsendung|de}}
+* {{lien|Zollsenkung|de|sens=réduction des droits de douane}}
+* {{lien|Zollspeicher|de}}
+* {{lien|Zollstation|de|sens=poste de douane}}
+* {{lien|Zollstelle|de|sens=bureau des douanes}}
+* {{lien|Zollstrafrecht|de}}
+* {{lien|Zollstraße|de}}
+* {{lien|Zollstreife|de}}
+* {{lien|Zolltarif|de|sens=tarif douanier}}
+* {{lien|zolltariflich|de}}
+* {{lien|Zollunion|de|sens=union douanière}}
+* {{lien|Zollverband|de}}
+* {{lien|Zollverein|de}}
+* {{lien|Zollverfahren|de}}
+* {{lien|Zollvergehen|de}}
+* {{lien|Zollverstoß|de}}
+* {{lien|Zollvertrag|de}}
+* {{lien|Zollverwaltung|de|sens=administration des douanes}}
+* {{lien|Zollvorschrift|de}}
+* {{lien|Zollwache|sens=garde douanière », « poste de douane}}
+* {{lien|Zollwächter|de|sens=garde douanier}}
+* {{lien|Zollwert|de}}
+* {{lien|Zollwertrecht|de}}
+* {{lien|Zollwesen|de|sens=douane}}
+* {{lien|Zollzahlung|de}}
+* {{lien|Zollzeichen|de}}
+{{)}}
+
+=== {{S|nom|de|num=2}} ===
+{{de-nom-m|npx=Zoll}}
+{{de-nom-n|npx=Zoll}}
+'''Zoll''' {{pron|ˈt͡sɔl|de}} {{m}} <small> ou </small>{{n}}
+# {{unités|de|de longueur}} [[pouce#fr|Pouce]], unité de mesure valant 2,54 cm dans le système de mesure anglo-américain.
+#* {{exemple | lang=de | Der Fernseher hat einen 20-'''Zoll'''-Monitor. | sens=Le poste de télé a un écran de 20 pouces.}}
+
+==== {{S|synonymes}} ====
+* {{lien|Englisches Zoll|de}}
+* {{lien|Inch|de}}
+* {{lien|Internationales Zoll|de}}
+
+==== {{S|hyperonymes}} ====
+* {{lien|Längeneinheit|de}}
+
+==== {{S|dérivés}} ====
+{{(}}
+* {{l|dreizöllig|de}}
+* {{l|fünfzöllig|de}}
+* {{l|Quadratzoll|de}}
+* {{l|Seezollgrenze|de}}
+* {{l|Seezollhafen|de}}
+* {{l|zollbreit|de}}
+* {{l|Zollbreit|de}}
+* {{l|zolldick|de}}
+* {{l|zollhoch|de}}
+* {{l|Zollstock|de|sens=[[mètre]]}}
+* {{l|zolltief|de}}
+* {{l|Zollwert|de}}
+{{)}}
+
+==== {{S|holonymes}} ====
+* {{lien|Fuß|de|sens=pied}}
+
+=== {{S|prononciation}} ===
+* {{écouter|Berlin (Allemagne)|t͡sɔl|lang=de|audio=De-Zoll.ogg}}
+* {{écouter|Berlin (Allemagne)|t͡sɔl|lang=de|audio=LL-Q188 (deu)-Sebastian Wallroth-Zoll.wav}}
+
+=== {{S|références}} ===
+<references />
+
+==== {{S|sources}} ====
+* {{R:DWDS|Zoll}}
+* {{R:Duden|Zoll}}
+* {{Source-wikt|de|Zoll}}
+
+==== {{S|bibliographie}} ====
+* Larousse - Dictionnaire allemand/français – français/allemand , éd. 1958, p 777.
+* Harrap’s de poche – Bordas Dictionnaire allemand/français, éd. 1997, ISBN 0-245-50308-0, p 351.
+
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|nom|gsw-fr}} ===
+'''Zoll''' {{pron||gsw-fr}}
+# [[douane|Douane]]
+
+== {{langue|lb}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|lb}}
+
+=== {{S|nom|lb}} ===
+{{lb-inv|tsol|sp=oui|titre=Nom commun}}
+'''Zoll''' {{pron|tsol|lb}} {{m}}, {{sp}}
+# {{lexique|droit fiscal|lb}} [[droit de douane|Droits de douane]].
+#* {{exemple|lang=lb}}
+# [[douane|Douane]] dans le sens de [[douanier]]s.
+#* {{exemple|lang=lb}}
+# {{unités|lb}} [[pouce|Pouce]], unité de mesure.
+#* {{exemple|lang=lb}}
+
+==== {{S|synonymes}} ====
+* (2) {{lien|Douane|lb}}
+
+=== {{S|voir aussi}} ===
+* {{WP|lang=lb}}
+
+=== {{S|références}} ===
+; (1 & 2) ''Douane''
+: {{R:LOD|sens=1}}
+; (3) ''Unité de mesure''
+: {{R:LOD|sens=2}}

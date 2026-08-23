@@ -1,0 +1,43 @@
+{{voir|schwyz}}
+== {{langue|fr}} ==
+{{ébauche|fr}}
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|fr}}
+
+=== {{S|nom propre|fr}} ===
+{{fr-inv||inv_titre=Nom propre}}
+'''Schwyz''' {{pron|ʃvit͡s|fr}}
+# {{localités|fr|du canton de Schwytz}} [[commune|Commune]] du canton de [[Schwytz]] en [[Suisse]].
+
+==== {{S|gentilés}} ====
+* [[Schwyzois]]
+* [[Schwyzoise]]
+* [[schwyzois]]
+
+==== {{S|synonymes}} ====
+* [[Schwytz]]
+
+==== {{S|dérivés}} ====
+{{(}}
+* [[chien courant de Schwyz]] ([[chien courant schwyzois]])
+* [[petit chien courant de Schwyz]] ([[petit chien courant schwyzois]])
+{{)}}
+
+==== {{S|traductions}} ====
+{{trad-début|}}
+{{trad-fin}}
+
+=== {{S|prononciation}} ===
+* {{écouter|Chicoutimi (Canada)||lang=fr|audio=LL-Q150 (fra)-Simon Villeneuve-Schwyz.wav}}
+
+=== {{S|voir aussi}} ===
+* {{WP}}
+
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|nom propre|gsw-fr}} ===
+'''Schwyz''' {{pron||gsw-fr}}
+# {{pays|gsw-fr}} [[suisse|Suisse]] (pays).

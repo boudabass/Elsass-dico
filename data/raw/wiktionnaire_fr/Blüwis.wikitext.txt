@@ -1,0 +1,15 @@
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|nom|gsw-fr}} ===
+'''Blüwis''' {{n}}
+# [[crayon#fr|Crayon]].
+
+==== {{S|variantes dialectales}} ====
+* [[Blejwiss]]
+* [[Blüwïssel]]
+
+=== {{S|références}} ===
+* Paul-André Befort, Léon Daul et Guy Eberlin, ''[http://www.olcalsace.org/fr/lexique_artisans Petit lexique français-alsacien-allemand des outils et des artisans]'', OLCA.
+{{clé de tri|bluwis}}

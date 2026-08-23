@@ -1,0 +1,225 @@
+{{voir/wo}}
+
+== {{langue|conv}} ==
+=== {{S|symbole|conv}} ===
+'''wo''' {{invar}}
+# {{lexique|linguistique|conv}} [[code|Code]] ISO 639-1 (alpha-2) du '''[[wolof]]'''.
+
+== {{langue|fr}} ==
+=== {{S|étymologie}} ===
+: {{term|interjection}} De l’{{étyl|en|fr|mot=whoa}}, appel utilisé pour ralentir ou arrêter un cheval ou autre animal de trait.
+: {{term|adjectif}} De l’argot de Grigny<ref name="Streetpress 2016">{{Lien web | auteur = Matthieu Bidan et Michela Cuccagna | titre = Comment l’argot de Grigny a envahi la France | jour = 29 | mois = mars | année = 2016 | url = http://www.streetpress.com/sujet/1459251456-comment-argot-grigny-envahi-france | site = http://www.streetpress.com | consulté le = 17 avril 2016}}</ref>.
+
+=== {{S|interjection|fr}} ===
+{{fr-inv|wo}}
+'''wo''' {{pron|wo|fr}} {{invariable|fr}}
+# {{Canada|fr}} Interjection indiquant de la [[désapprobation]].
+#* {{exemple | lang=fr
+ | '''Wo''', ça suffit, on n’accepte pas ça, c’est terminé.
+ | source=Institut de psychodynamique du travail du Québec, ''Espace de réflexion, espace d’action en santé mentale au travail'', 2006}}
+#* {{exemple | lang=fr
+ | '''Wo''' ! '''Wo''' ! Calme-toi…
+ | source=Robert Bellefeuille, ''Les Murs de nos villages'', 1993}}
+#* {{exemple | lang=fr
+ | — '''Wo wo wo''' arrête, cria Yanette, dont la coupe débordait.
+ | source=Gérard Bessette, ''La Garden-party de Christophine'', 1980}}
+#* {{exemple | lang=fr | '''Wo''' minute ! Tu ne partiras pas comme ça !}}
+
+=== {{S|adjectif|fr}} ===
+'''wo''' {{pron|wo|fr}}
+# {{France|fr}} {{argot|fr}} {{rare|fr}} Mauvais, nul.
+#* {{exemple | lang=fr
+ | Ouais, il est '''wo''' !
+ | source=Matthieu Bidan et Michela Cuccagna, ''[http://www.streetpress.com/sujet/1459251456-comment-argot-grigny-envahi-france Comment l’argot de Grigny a envahi la France]'', StreetPress, 2016}}
+
+==== {{S|variantes orthographiques}} ====
+* [[woh]]
+* [[wô]]
+
+=== {{S|prononciation}} ===
+* {{pron-rimes|wo|fr}}
+* {{écouter|lang=fr|France (Vosges)||audio=LL-Q150 (fra)-LoquaxFR-wo.wav}}
+
+=== {{S|anagrammes}} ===
+* {{lien|ow|fr}}
+
+=== {{S|références}} ===
+{{Références}}
+
+== {{langue|aa}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|aa}}
+
+=== {{S|pronom démonstratif|aa}} ===
+'''wo''' {{pron||aa}}
+# [[ce|Ce]].
+
+== {{langue|keu}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|keu}}
+
+=== {{S|verbe|keu}} ===
+'''wo''' {{pron||keu}}
+# [[manger]] de la viande.
+#* {{exemple|lang=keu}}
+
+==== {{S|quasi-synonymes}} ====
+* {{lien|ri|keu|sens=manger}}
+
+=== {{S|références}} ===
+* {{ouvrage
+ | auteur = Marthe Sossoukpe
+ | titre = Kə lə kə, kə la ŋʊrʊ Kəkpəə-kə = Guide pour aider les scolarisés en français à lire et écrire l’akébou (Guide de transition français - akébou)
+ | éditeur = SIL Togo
+ | année = 2014
+ | url = https://www.projetakebou.com/sites/www.projetakebou.com/files/uploads/Le%20guide%20pour%20lire%20et%20%C3%A9crire%20l%27ak%C3%A9bou.pdf
+}}
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: {{siècle|lang=de|VIII}}. Du {{étyl|gmh|de|mot=wā}}, ''[[wō]]'', ''[[wār]]'', du {{étyl|goh|de|mot=hwār}}, ''[[wār]]'', du {{étyl|proto-germanique|de}} {{recons|lang-mot-vedette=de|hwēr|proto-germanique}}, {{recons|lang-mot-vedette=de|hwar|proto-germanique}}. À rapprocher du moyen néerlandais ''[[waer]]'', ''[[wāre]]'', du néerlandais ''{{lien|waar|nl}}'', du vieil anglais ''{{lien|hwǣr|ang}}'', ''{{lien|hwā̌r|ang}}'', de l'anglais ''{{lien|where|en}}'' et du suédois ''{{lien|var|sv}}''.<ref> {{source|Wolfgang Pfeifer, ''Etymologisches Wörterbuch des Deutschen'', Éditions Deutscher Taschenbuch, 1997, ISBN-13: 978342-3325110 }} </ref>
+
+=== {{S|adverbe interrogatif|de}} ===
+{{de-inv|voː}}
+'''wo''' {{pron|voː|de}} {{invariable|de}} {{adverbe de lieu|de}}
+# [[où|Où]] (sans mouvement = locatif).
+#* {{exemple|'''Wo''' bist du?|sens=Où es-tu ?|lang=de}}
+
+=== {{S|adverbe relatif|de}} ===
+{{de-inv|voː}}
+'''wo''' {{pron|voː|de}} {{invariable|de}} {{adverbe de lieu|de}}
+# [[où|Où]] (sans mouvement = locatif).
+#* {{exemple|Sag mir doch, '''wo''' du warst !|sens=Dis-moi donc où tu étais !|lang=de}}
+#* {{exemple|Ich bin verloren, ich weiß nicht, '''wo''' ich bin.|sens=Je suis perdu, je ne sais pas où je suis.|lang=de}}
+#* {{exemple|Davor hatte sie sich in ein Dorf zurückgezogen, in dem niemand sie kannte und '''wo''' sie unter anderem Namen lebte. Sie versteckte sich mit ihrer Scham. Dann aber beschloss sie, dass die Scham die Seite wechseln sollte. Und die Schande. „Sie haben mich auf dem Altar des Lasters geopfert“, sagte Gisèle Pelicot im Prozess.|lang=de|sens=Avant cela, elle s’était retirée dans un village où personne ne la connaissait et où elle vivait sous un autre nom. Elle s'y cachait avec sa honte. Mais ensuite, elle a décidé que la honte devait changer de camp. Et la disgrâce aussi. « Ils m'ont sacrifiée sur l’autel du vice », a déclaré Gisèle Pelicot lors de son procès.|source={{périodique|auteur=Oliver Meiler|titre=Nein, die Angeklagten von Avignon waren keine Monster|journal=Süddeutsche Zeitung|date=29 novembre 2024|texte=https://www.sueddeutsche.de/meinung/pelicot-prozess-monster-videos-kommentar-lux.YUYtzaABF7aWyhdN63AYxt}}}}
+# [[où#fr|Où]], sens temporel.
+#* {{exemple|Zufällig war ich in dem Augenblick zugegen, '''wo''' der Steppenwolf zum erstenmal unser Haus betrat und bei meiner Tante sich einmietete.|lang=de|sens=Par hasard, je fus présent au moment où le Loup des steppes pénétra pour la première fois dans notre maison et devint le locataire de ma tante.|source={{ouvrage|auteur={{w|Hermann Hesse}}|trad=Alexandra Cade|titre=Der Steppenwolf|année=1974|éditeur=Suhrkamp Verlag|lieu=Berlin|url=}}}}
+#* {{exemple|Pawel Walerjewitsch Durow kam 1984 in Leningrad zur Welt, verbrachte seine Jugend allerdings in Turin, '''wo''' sein Vater, ein Linguist, an der Uni lehrte.|lang=de|sens=Pavel Valerievitch Dourov est né à Léningrad en 1984, mais a passé sa jeunesse à Turin, où son père, linguiste, enseignait à l'université.|source={{périodique|auteur=Andreas Danzer|titre=Pawel Durow, der Mann hinter dem umstrittenen Messenger Telegram|journal=Der Standard|date=25 août 2024|texte=https://www.derstandard.at/story/3000000233772/pawel-durow-der-mann-hinter-dem-umstrittenen-messenger-telegram}}}}
+# {{familier|de}} [[penses-tu|Penses-tu]]!
+#* {{exemple|lang=de}}
+
+==== {{S|dérivés}} ====
+{{(|adverbes interrogatifs ou relatifs}}
+* {{lien|allwo|de}}
+* {{lien|anderswo|de|sens=ailleurs}}
+* {{lien|irgendwo|sens=quelque part », « n'importe où}}
+* {{lien|nirgendswo|de}} ou {{lien|nirgendwo|de|sens= nulle part}}
+* {{lien|sonst wo|sens=autre part », « ailleurs}}
+* {{lien|woanders|de|sens=ailleurs}}
+* {{lien|woandershin|de|sens=ailleurs}}
+* {{lien|wobei|sens=alors que », « en quoi}}
+* {{lien|wodran|de}}
+* {{lien|wodrauf|de}}
+* [[wodurch]] (''comment''), (''par lequel''), (''par quoi''), (''par où'')
+* {{lien|wofern|sens=en tant que », « pourvu que}}
+* {{lien|wofür|sens=pour quoi », « à quoi}}
+* [[wogegen]] (''contre quoi''), (''contre lequel''), (''contre laquelle'')
+* {{lien|woher|sens=d’où », « de quel endroit}}
+* {{lien|woherum|de}}
+* {{lien|wohin|de|sens=vers où}}
+* {{lien|wohinauf|de}}
+* {{lien|wohinaus|de}}
+* {{lien|wohinein|de}}
+* {{lien|wohingegen|sens=tandis que », « alors que}}
+* {{lien|wohinter|de}}
+* {{lien|wohinunter|de}}
+* [[womit]] (''avec quoi''), (''avec lequel''), (''avec laquelle'')
+* {{lien|womöglich|sens=si possible », « peut-être}}
+* [[wonach]] (''après quoi''), (''d'après quoi''), (''à quoi'')
+* {{lien|woneben|de}}
+* {{lien|wonicht|de|sens=sinon}}
+* {{lien|worab|de}}
+* {{lien|woran|sens=à quoi », « où}}
+* [[worauf]] (''sur quoi''), (''sur lequel''), (''sur laquelle''), (''après quoi'')
+* {{lien|woraufhin|de|sens=à la suite de quoi}}
+* {{lien|woraus|sens=de quoi », « d'où}}
+* {{lien|worein|sens=dans quoi », « où}}
+* [[worin]] (''en quoi''), (''dans lequel''), (''dans quoi'')
+* [[worüber]] (''sur quoi''), (''de quoi''), (''dont'')
+* {{lien|worum|sens=pour quoi », « de quoi}}
+* [[worunter]] (''sous quoi''), (''sous lesquels''), (''parmi lesquels'')
+* {{lien|woselbst|de}}
+* {{lien|wovon|sens=de quoi », « dont}}
+* [[wovor]] (''devant quoi''), (''devant lequel''), (''devant laquelle'')
+* {{lien|wozu|sens=à quoi », « pour quoi}}
+* {{lien|wozwischen|de}}
+{{)}}
+
+=== {{S|conjonction|de}} ===
+'''wo''' {{pron|voː|de}}
+* [[d'autant que|D'autant que]].
+#* {{exemple|lang=de}}
+
+==== {{S|synonymes}} ====
+* {{lien|als|de}}
+* {{lien|der|de}}
+* {{lien|welcher|de}}
+* {{lien|irgendwo|de}}
+
+=== {{S|prononciation}} ===
+* {{écouter|{{DE|nocat=1}}|voː|lang=de|audio=De-Wo.OGG‎‎}}
+* {{écouter|Berlin|voː|lang=de|audio=De-wo2.ogg‎‎}}
+* {{écouter|{{DE|nocat=1}}|voː|lang=de|audio=De-wo.ogg‎‎}}
+* {{écouter||vo|lang=de|audio=De-wo.ogg}}
+* {{écouter|{{DE|nocat=1}}|voː|lang=de|audio=LL-Q188 (deu)-Lucas Werkmeister-wo.wav}}
+* {{écouter|Genève (Suisse)|voː|lang=de|audio=LL-Q188 (deu)-Nattes à chat-wo.wav}}
+* {{écouter|{{FR|nocat=1}}|voː|lang=de|audio=LL-Q188 (deu)-teste (Pamputt)-wo.wav}}
+* {{écouter|Berlin|voː|lang=de|audio=LL-Q188 (deu)-Sebastian Wallroth-wo.wav}}
+* {{écouter|{{DE|nocat=1}}|voː|lang=de|audio=LL-Q188 (deu)-Student16 de-wo.wav}}
+* {{écouter|Hamburg|voː|lang=de|audio=LL-Q188 (deu)-CamelCaseNick-wo.wav}}
+* {{écouter|{{DE|nocat=1}}|voː|lang=de|audio=LL-Q188 (deu)-Natschoba-wo.wav}}
+* {{écouter|lang=de|Allemagne (Berlin)|voː|audio=De-wo2.ogg}}
+* {{écouter|Munich|voː|lang=de|audio=LL-Q188 (deu)-Ionenlaser-wo.wav}}
+
+=== {{S|références}} ===
+<references />
+
+==== {{S|sources}} ====
+* {{R:DWDS|wo}}
+* {{R:Duden|wo}}
+* {{Source-wikt|de|woː}}
+
+==== {{S|bibliographie}} ====
+* Larousse - Dictionnaire allemand/français – français/allemand , éd. 1958, p 768.
+* Harrap’s de poche – Bordas Dictionnaire allemand/français, éd. 1997, ISBN 0-245-50308-0, p 343.
+
+[[Catégorie:Conjonctions de subordination en allemand]]
+
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|pronom relatif|gsw-fr}} ===
+'''wo''' {{pron||gsw-fr}}
+# [[qui|Qui]].
+
+== {{langue|bm}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|bm}}
+
+=== {{S|nom|bm}} ===
+'''wo''' {{pron||bm}}
+# L’[[ouverture]].
+# Le [[trou]].
+
+== {{langue|ggu}} ==
+=== {{S|étymologie}} ===
+: {{date|lang=ggu}} {{ébauche-étym|ggu}}
+
+=== {{S|verbe|ggu}} ===
+'''wo''' {{pron||ggu}}
+# [[porter#fr|Porter]].
+#* {{exemple |Ɛ kɛ nɩn ɩ wola titigbɔgbɩ lɩ '''wo'''. |sens=Tu veux porter ta chemise verte ? |lang=ggu}}
+
+=== {{S|prononciation}} ===
+{{ébauche-pron-audio|ggu}}
+
+[[Catégorie:gagou de Côte d’Ivoire]]
+
+== {{langue|yo}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|yo}}
+
+=== {{S|verbe|yo}} ===
+'''wo''' {{pron||yo}}
+# [[regarder|Regarder]].

@@ -1,0 +1,8 @@
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|verbe|gsw-fr}} ===
+'''schnïtzela'''
+# [[sculpter|Sculpter]] le [[bois]]
+{{clé de tri|schnitzela}}

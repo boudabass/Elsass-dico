@@ -1,0 +1,20 @@
+{{voir|Ōei}}
+
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|adverbe|gsw-fr}} ===
+'''oei'''
+# [[aussi|Aussi]], [[également]], de [[même]]
+
+== {{langue|tvk}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|tvk}}
+
+=== {{S|nom|tvk}} ===
+'''oei''' {{pron||tvk}}
+# [[eau#fr|Eau]].
+
+=== {{S|références}} ===
+* [https://web.archive.org/web/20130605132637/http://language.psy.auckland.ac.nz/austronesian/language.php?id=120 Austronesian Basic Vocabulary Database]

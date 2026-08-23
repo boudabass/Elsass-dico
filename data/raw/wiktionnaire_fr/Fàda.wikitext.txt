@@ -1,0 +1,16 @@
+{{voir/fada}}
+
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|nom|gsw-fr}} ===
+'''Fàda''' {{pron||gsw-fr}} {{m}}
+# [[fil#fr|Fil]].
+
+==== {{S|variantes dialectales}} ====
+* [[Fàde]]
+
+=== {{S|références}} ===
+*[https://web.archive.org/web/20130926050947/http://culture.alsace.pagesperso-orange.fr/page_ff.htm Dictionnaire français-alsacien]
+{{clé de tri|fada}}

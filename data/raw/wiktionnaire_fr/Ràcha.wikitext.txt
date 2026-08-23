@@ -1,0 +1,11 @@
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+{{ébauche-étym|gsw-fr}}
+
+=== {{S|nom|gsw-fr}} ===
+'''Ràcha''' {{pron||gsw-fr}} {{f}}
+# [[vengeance|Vengeance]].
+
+=== {{S|références}} ===
+*[https://web.archive.org/web/20131020090720/http://culture.alsace.pagesperso-orange.fr/page_vf.htm Dictionnaire français-alsacien]
+{{clé de tri|racha}}

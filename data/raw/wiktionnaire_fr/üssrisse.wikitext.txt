@@ -1,0 +1,15 @@
+== {{langue|gsw-fr}} ==
+{{ébauche|gsw-fr}}
+
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|verbe|gsw-fr}} ===
+'''üssrisse'''
+# [[arracher]].
+
+==== {{S|variantes orthographiques}} ====
+* [[rïsse]]
+* [[rïssa]]
+
+{{clé de tri|ussrisse}}

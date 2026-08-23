@@ -1,0 +1,19 @@
+{{voir|Essel}}
+== {{langue|fro}} ==
+=== {{S|nom|fro}} ===
+'''essel''' {{pron-recons||fro}} {{m}}
+# {{variante de|aissel|fro}}.
+
+=== {{S|références}} ===
+*{{R:Godefroy}}
+
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: Voir ''[[Esel#de|Esel]]''.
+
+=== {{S|nom|gsw-fr}} ===
+'''essel''' {{pron||gsw-fr}} {{m}}
+# [[âne#fr|Âne]].
+
+==== {{S|variantes orthographiques}} ====
+* [[esel]]

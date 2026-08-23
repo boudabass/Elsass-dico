@@ -1,0 +1,7 @@
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|interjection|gsw-fr}} ===
+'''mei-mei !'''
+# [[exclamation|Exclamation]] de [[menace]] pour des [[petit]]s [[enfant]]s

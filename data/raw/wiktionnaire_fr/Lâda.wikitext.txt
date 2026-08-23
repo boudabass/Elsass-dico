@@ -1,0 +1,10 @@
+{{voir/lada}}
+
+== {{langue|gsw-fr}} ==
+
+=== {{S|étymologie}} ===
+: De l’{{étyl|de|gsw-fr|mot=Lade}}.
+
+=== {{S|nom|gsw-fr}} ===
+'''Lâda''' {{pron||gsw-fr}}.
+# [[boîte#fr|Boîte]].

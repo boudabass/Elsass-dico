@@ -1,0 +1,4 @@
+== {{langue|gsw-fr}} ==
+=== {{S|verbe|gsw-fr|flexion}} ===
+'''filmiart''' {{phon||gsw-fr}}
+# ''Participe passé de'' {{lien|filmiara|gsw-fr}}.

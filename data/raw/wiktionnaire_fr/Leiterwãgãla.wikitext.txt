@@ -1,0 +1,9 @@
+{{vérifier création automatique||gsw-fr}}
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|nom|gsw-fr}} ===
+'''Leiterwãgãla'''
+# [[charrette|Charrette]] à [[main]] (en bois)
+{{clé de tri|leiterwagala}}

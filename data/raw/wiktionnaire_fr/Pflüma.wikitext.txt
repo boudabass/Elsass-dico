@@ -1,0 +1,11 @@
+{{voir|pflüma}}
+
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+{{ébauche-étym|gsw-fr}}
+
+=== {{S|nom|gsw-fr}} ===
+'''Pflüma'''
+# [[prune|Prune]]
+
+{{clé de tri|pfluma}}

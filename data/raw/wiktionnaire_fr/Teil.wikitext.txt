@@ -1,0 +1,222 @@
+{{voir|teil}}
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: {{déverbal|de=teilen|lang=de|m=1}}.
+
+=== {{S|nom|de|num=1}} ===
+{{de-nom-m-s-e|gse=opt|dse=opt}}
+'''Teil''' {{pron|taɪl|de}} {{m}}
+# [[part|Part]], [[partie]] (élément abstrait d'un ensemble).
+#* {{exemple | lang=de | Der rechte '''Teil''' des Bildes ist dunkel. | sens=La partie droite de l’image est sombre.}}
+#* {{exemple|Ich bahne mir einen Weg in den hinteren '''Teil''' meines Gewächshauses. Hier befindet sich mein persönlicher kleiner Orchideengarten. Die Pflanzen türmen sich auf Regalen, hängen in Töpfen von der Decke. Sie blühen verschwenderisch.|lang=de|sens=Je me fraye un chemin jusqu’au fond de ma serre. Ici se trouve mon petit jardin privé d’orchidées. Les plantes, empilées sur des étagères et pendant du plafond dans des pots, fleurissent avec opulence.|source={{ouvrage|auteur={{w|Melanie Raabe}}|trad=Céline Maurice|titre=Die Falle|année=2015|éditeur=btb Verlag|url=}}}}
+#* {{exemple|Eine Fontäne aus kochend heißem Wasser, Schlamm und Gestein verwüstete am 23. Juli '''Teil'''e der Promenade im Biscuit Basin im Yellowstone-Nationalpark.|lang=de|sens=Une fontaine d'eau bouillante, de boue et de roches a dévasté une partie de la promenade de Biscuit Basin, dans le parc national de Yellowstone, le 23 juillet.|source={{périodique|auteur=Marlene Erhart|titre=Hydrothermale Explosion schlägt Besucher im Yellowstone-Nationalpark in die Flucht|journal=Der Standard|date=24 juillet 2024|texte=https://www.derstandard.at/story/3000000229662/hydrothermale-explosion-schlaegt-besucher-im-yellowstone-nationalpark-in-die-flucht}}}}
+#* {{exemple|"Ich habe noch nie so ein reiches Land gesehen", erklärte Trump. "Überall stehen Paläste. Gold. Marmor. Sie schwelgen in Luxus da drüben. Der Vatikan ist viel schöner als Grönland oder Kanada oder der Gazastreifen. Er sollte '''Teil''' der USA werden. Das wäre für alle Seiten das Beste."|lang=de|sens=« Je n’ai jamais vu un pays aussi riche », a déclaré Trump. "Il y a des palais partout. De l’or. Du marbre. Ils se vautrent dans le luxe là-bas. Le Vatican est bien plus beau que le Groenland, le Canada ou la bande de Gaza. Il devrait faire partie des Etats-Unis. Ce serait mieux pour tout le monde".|source={{périodique|auteur=dan, ssi|titre=Beeindruckt nach Besuch im Petersdom: Trump will Vatikan als 51. Bundesstaat|journal=Der Postillon|date=28 avril 2025|texte=https://www.der-postillon.com/2025/04/vatikan-usa.html}}}}
+
+==== {{S|synonymes}} ====
+* {{lien|Part|de}}
+* {{lien|Kleidungsstück|de}}
+
+==== {{S|hyponymes}} ====
+{{(|}}
+* {{l|Abteil|de|sens=[[compartiment]]}}
+* {{lien|Anbauteil|de}}
+* {{lien|Ausbauteil|de}}
+* {{lien|Auslieferungsteil|de}}
+* {{lien|Automobilteil|de}}
+* {{l|Bauteil|de|sens=[[pièce]] », « [[composant]] » ; « [[partie]] de [[construction]]}}
+* {{lien|Einbauteil|de}}
+* {{l|Einzelteil|de|sens=[[élément]] », « [[pièce]] », « [[partie]] », « [[composant]]}}
+* {{lien|Elektronikteil|de}}
+* {{l|Ersatzteil|de|sens=[[pièce de rechange]]}}
+* {{l|Fahrzeugteil|de|sens=[[composant]] de [[véhicule]]}}
+* {{lien|Fertigteil|de}}
+* {{lien|Flügelteil|de}}
+* {{l|Geschlechtsteil|de|sens=[[organe sexuel]]}}
+* {{lien|Geschossteil|de}}
+* {{lien|Glasteil|de}}
+* {{lien|Gummiteil|de}}
+* {{lien|Gutteil|de}}
+* {{lien|Gussteil|de}}
+* {{l|Hinterteil|de|sens=[[postérieur]]}}
+* {{lien|Holzteil|de}}
+* {{lien|Karosserieteil|de}}
+* {{lien|Kinderteil|de}}
+* {{lien|Kleinteil|de}}
+* {{lien|Knochenteil|de}}
+* {{l|Kopfteil|de|sens=[[fronton]]}}
+* {{lien|Kristallteil|de}}
+* {{l|Kunststoffteil|de|sens=[[pièce]] en [[plastique]]}}
+* {{lien|Lüftungsteil|de}}
+* {{lien|Metallteil|de}}
+* {{l|Mittelteil|de|sens=[[partie]] [[central]]e », « [[Méttelteil]]}}
+* {{lien|Musterteil|de}}
+* {{lien|Paketteil|de}}
+* {{lien|Plastikteil|de}}
+* {{lien|Praxisteil|de}}
+* {{lien|Puzzleteil|de}}
+* {{lien|Raketenteil|de}}
+* {{lien|Rumpfteil|de}}
+* {{lien|Stahlteil|de}}
+* {{lien|Trümmerteil|de}}
+* {{lien|Wagenteil|de}}
+* {{lien|Werkteil|de}}
+* {{l|Wrackteil|de|sens=[[partie]] d’[[épave]]}}
+* {{lien|Zukaufteil|de}}
+* {{lien|Rückteil|de}}
+* {{l|Vorderteil|de|sens=[[partie]] [[avant]]}}
+* {{l|Oberteil|de|sens=[[partie]] [[supérieur]]e », « [[haut]]}}
+* {{l|Unterteil|de|sens=[[partie]] [[inférieur]]e », « [[Ònderteil]]}}
+* {{lien|Kristallteil|de}}
+{{)}}
+
+==== {{S|vocabulaire}} ====
+{{(|}}
+* {{lien|Element|de}}
+* {{lien|Stück|de}}
+* {{lien|Ding|de}}
+* {{lien|Dingens|de}}
+* {{lien|Dings|de}}
+* {{lien|Dingsbums|de}}
+* {{lien|Dingsda|de}}
+{{)}}
+
+==== {{S|phrases}} ====
+* {{lien|der Teil und das Ganze|de|dif=der ''Teil'' und das Ganze}}
+
+==== {{S|variantes orthographiques}} ====
+* {{désuet|nocat=1}} {{lien|Theil|de}} (supprimée par la Deuxième Conférence orthographique de Berlin, 1901).
+
+=== {{S|nom|de|num=2}} ===
+{{de-nom-n-s-e|gse=opt|dse=opt}}
+'''Teil''' {{pron|taɪl|de}} {{n}}
+# [[partie|Partie]] (élément concret considéré séparément).
+# [[pièce|Pièce]], [[élément]].
+#* {{exemple | lang=de | Das '''Teil''', das du gebracht hast, kann ich leider nicht identifizieren. | sens=Je ne peux hélas pas identifier la pièce que tu m’as apportée.}}
+#* {{exemple|Dombauhüttenleiter Matthias Baumüller zeigt beim Rundgang über das Gerüst steinerne Verzierungen, die mit Eisen befestigt sind. Jedes einzelne '''Teil''' werde auf seine Stabilität hin geprüft und bei Bedarf erneuert, erläutert er.|lang=de|sens=En faisant le tour de l’échafaudage, le directeur de l’atelier de la cathédrale Matthias Baumüller montre des ornements en pierre fixés avec des éléments en fer. Chaque pièce est contrôlée concernant sa stabilité et renouvelée si nécessaire, explique-t-il.|source={{périodique|auteur=(SZ/DPA/kaa)|titre=Regensburg: Die immerwährende Baustelle|journal=Süddeutsche Zeitung|date=1 décembre 2023|texte=https://www.sueddeutsche.de/bayern/regensburg-dombauhuette-jubilaeum-100-jahre-1.6312709}}}}
+
+==== {{S|dérivés}} ====
+{{note}} Il s’agit des dérivés des deux noms.
+{{(|Substantifs [[hyponyme]]s en ''-teil''}} 
+* {{l|Anbauteil|de}}
+* {{l|Altenteil|de}}
+* {{l|Anteil|de|sens=[[part]] », « [[participation]]}}
+* {{l|Ausbauteil|de}}
+* {{l|Auslieferungsteil|de}}
+* {{l|Automobilteil|de}}
+* {{l|Autoteil|de|sens=[[pièce détachée]] [[automobile]] », « [[composant]] [[automobile]]}}
+* {{l|Bestandteil|de|sens=[[élément]] », « [[composant]]}}
+* {{l|Einbauteil|de}}
+* {{l|Fertigteil|de}}
+* {{l|Flügelteil|de}}
+* {{l|Gebäudeteil|de}}
+* {{l|Gegenteil|de|sens=[[contraire]]}}
+* {{l|Geschossteil|de}}
+* {{l|Großteil|de|sens=[[majeure partie]] », « [[gros]]se [[partie]]}}
+* {{l|Gutteil|de}}
+* {{l|Gussteil|de}}
+* {{l|Karosserieteil|de}}
+* {{l|Kinderteil|de}}
+* {{l|Kleinteil|de}}
+* {{l|Körperteil|de|sens=[[partie]] du [[corps]]}}
+* {{l|Lüftungsteil|de}}
+* {{l|Musterteil|de}}
+* {{l|Nachteil|de|sens=[[inconvénient]]}}
+* {{l|Paketteil|de}}
+* {{l|Praxisteil|de}}
+* {{l|Raketenteil|de}}
+* {{l|Rückteil|de}}
+* {{l|Rumpfteil|de}}
+* {{l|Stadtteil|de|sens=[[quartier]]}}
+* {{l|Theorieteil|de|sens=[[partie]] [[théorique]]}}
+* {{l|Urteil|de|sens=[[jugement]] », « [[verdict]]}}
+* {{l|Vorteil|de|sens=[[avantage]]}}
+* {{l|Wagenteil|de}}
+* {{l|Werkteil|de}}
+* {{l|Zukaufteil|de}}
+{{)}}
+{{(|Autres substantifs}}
+* {{l|Teilbetrag|de|sens=[[montant]] [[partiel]]}}
+* {{l|Teilchen|de|sens=[[particule]]}}
+* {{l|Teilklasse|de|sens=[[sous-classe]]}}
+* {{l|Teilnehmer|de|sens=[[participant]]}}
+** {{l|Expeditionsteilnehmer|de}}
+** {{l|Besprechungsteilnehmer|de}}
+** {{l|Finalteilnehmer|de}}
+** {{l|Gipfelteilnehmer|de}}
+** {{l|Halbmarathon-Teilnehmer|de}}
+** {{l|Konferenzteilnehmer|de}}
+** {{l|Kongressteilnehmer|de}}
+** {{l|Kriegsteilnehmer|de}}
+** {{l|Kursteilnehmer|de}}
+** {{l|Marathon-Teilnehmer|de}}
+** {{l|Olympia-Teilnehmer|de}}
+** {{l|Schulungsteilnehmer|de}}
+** {{l|Seminarteilnehmer|de}}
+** {{l|Spielteilnehmer|de}}
+** {{l|Review-Teilnehmer|de}}
+** {{l|Tagungsteilnehmer|de}}
+** {{l|Trainingsteilnehmer|de}}
+** {{l|Triathlon-Teilnehmer|de}}
+** {{l|Turnierteilnehmer|de}}
+** {{l|Umfrageteilnehmer|de}}
+** {{l|Verkehrsteilnehmer|de}}
+** {{l|Versammlungsteilnehmer|de}}
+** {{l|Viertelfinalteilnehmer|de}}
+* {{l|Teilnehmerin|de|sens=[[participante]]}}
+** {{l|Besprechungsteilnehmerin|de}}
+** {{l|Expeditionsteilnehmerin|de}}
+** {{l|Finalteilnehmerin|de}}
+** {{l|Gipfelteilnehmerin|de}}
+** {{l|Halbmarathon-Teilnehmerin|de}}
+** {{l|Konferenzteilnehmerin|de}}
+** {{l|Kongressteilnehmerin|de}}
+** {{l|Kriegsteilnehmerin|de}}
+** {{l|Kursteilnehmerin|de}}
+** {{l|Marathon-Teilnehmerin|de}}
+** {{l|Olympia-Teilnehmerin|de}}
+** {{l|Schulungsteilnehmerin|de}}
+** {{l|Seminarteilnehmerin|de}}
+** {{l|Spielteilnehmerin|de}}
+** {{l|Review-Teilnehmerin|de}}
+** {{l|Tagungsteilnehmerin|de}}
+** {{l|Trainingsteilnehmerin|de}}
+** {{l|Triathlon-Teilnehmerin|de}}
+** {{l|Turnierteilnehmerin|de}}
+** {{l|Umfrageteilnehmerin|de}}
+** {{l|Verkehrsteilnehmerin|de}}
+** {{l|Versammlungsteilnehmerin|de}}
+** {{l|Viertelfinalteilnehmerin|de}}
+* {{l|Teilnehmerfeld|de}}
+* {{l|Teilnehmerkreis|de}}
+* {{l|Teilnehmerland|de}}
+* {{l|Teilnehmerliste|de}}
+* {{l|Teilnehmerpotenzial|de}}
+* {{l|Teilnehmerstrafbarkeit|de}}
+* {{l|Teilnehmervorstellung|de}}
+* {{l|Teilnehmerzahl|de|sens=[[nombre]] de [[participant]]s}}
+* {{l|Teilstaat|de|sens=[[État fédéré]]}}
+* {{l|Teilzeit|de|sens=[[temps partiel]]}}
+{{)}}
+{{(|Autres dérivés}}
+* {{l|teilnehmen|de|sens=[[participer]] », « [[prendre part]] », « [[assister]]}}
+* {{l|teils|de|sens=[[en partie]]}}
+* {{l|teilweise|de|sens=[[en partie]] », « [[partiellement]]}}
+{{)}}
+
+==== {{S|apparentés}} ====
+* {{l|teilen|de|sens=[[diviser]] », « [[partager]]}} ''et ses dérivés''
+
+=== {{S|prononciation}} ===
+* {{écouter|Berlin (Allemagne)|taɪ̯l|lang=de|audio=De-Teil.ogg}}
+
+=== {{S|anagrammes}} ===
+{{voir anagrammes|de}}
+
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|nom|gsw-fr}} ===
+'''Teil''' {{pron||gsw-fr}}
+# [[partie|Partie]].

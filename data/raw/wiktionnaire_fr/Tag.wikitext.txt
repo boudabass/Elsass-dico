@@ -1,0 +1,1129 @@
+{{voir/tag}}
+
+== {{langue|de}} ==
+=== {{S|étymologie}} ===
+: (''Nom commun 1'') {{siècle|VIII}}. Du {{étyl|gmh|de|mot=tac}}, ''[[tag#gmh|tag]]'', du {{étyl|goh|de|mot=tag}}, du {{étyl|osx|de|mot=dag}}, du, {{étyl|got|de|mot=dags}}, du {{étyl|non|de|mot=dagr}}, du {{étyl|proto-germanique|de}} {{recons|lang-mot-vedette=de|[[Reconstruction:proto-germanique/*dagaz|dagaz]]}}. Apparenté au vieil anglais {{lien|''dæg''|ang}}, au vieux frison {{lien|''dei''|ofs}}<ref>Online Etymology Dictionary</ref><ref>{{source|Friedrich {{pc|Kluge}}, Elmar {{pc|Seebold}} : ''Etymologisches Wörterbuch der deutschen Sprache. 25.'', édition revue et augmentée. Éditeur Walter de Gruyter, Berlin/New York 2011, ISBN 978-3-11-022364-4, DNB 1012311937, mot-clé: „Tag“, page 904}}.</ref>.
+: (''Nom commun 2'') De l'{{étyl|en|de|mot=tag}}.
+
+=== {{S|nom|de|num=1}} ===
+{{de-nom-m-s-e|taːk|ˈtaːɡə|ns=Tag|gs2=Tages|pgs2=ˈtaːɡəs|ds2=Tage|pds2=ˈtaːɡə|pdp=ˈtaːɡn̩}}
+'''Tag''' {{pron|taːk|de}} {{m}}
+# {{lexique|temps|de}} [[jour|Jour]], période d’une durée de 24 heures.
+#* {{exemple|„Sophie Scholl – Die letzten '''Tag'''e“ ist ein deutscher Film des Regisseurs Marc Rothemund.|lang=de|sens=« Sophie Scholl les derniers jours » est un film allemand du réalisateur Marc Rothemund.}}
+#* {{exemple|guten '''Tag'''!|lang=de|sens=Bonjour !}}
+#* {{exemple|am folgenden '''Tag'''.|lang=de|sens=Le lendemain.}}
+#* {{exemple|den ganzen '''Tag'''.|lang=de|sens=Toute la journée.}}
+#* {{exemple|eines '''Tag'''es.|lang=de|sens=Un beau jour.}}
+#* {{exemple|in acht '''Tag'''en / heute in acht '''Tag'''en.|lang=de|sens=Dans huit jours / d’aujourd’hui en huit.}}
+#* {{exemple|vom ersten '''Tag''' an.|lang=de|sens=Dès le premier jour.}}
+#* {{exemple|von '''Tag''' zu '''Tag'''.|lang=de|sens=De jour en jour / jour après jour.}}
+#* {{exemple|'''Tag''' für '''Tag'''.|lang=de|sens=Jour après jour.}}
+#* {{exemple|von einem '''Tag''' auf den anderen.|lang=de|sens=D’un jour à l’autre.}}
+#* {{exemple|vor acht '''Tag'''en.|lang=de|sens=Il y a huit jours.}}
+#* {{exemple|an den '''Tag''' kommen.|lang=de|sens=Se faire jour, apparaître.}}
+#* {{exemple|in den '''Tag''' hinein leben.|lang=de|sens=Vivre au jour le jour.}}
+#* {{exemple|Töten, das meint auch Fertigkeiten. An dem '''Tag''', da sein Onkel ihn mit auf die Jagd nimmt, stellt Blake fest, dass er alles hat, was er braucht. Drei Schüsse, drei Hasen, eine Art Begabung.|lang=de|sens=Tuer, c’est aussi des compétences. Blake découvre qu’il a tout ce qu’il faut le jour où son oncle Charles l’emmène chasser. Trois coups, trois lièvres, une espèce de don.|source={{ouvrage|auteur={{w|Hervé Le Tellier}}|trad=Romy Ritte et Jürgen Ritte|titre=Die Anomalie|année=2021|éditeur=Rowohlt Verlag|url=}}}}
+#* {{exemple|Man sollte jeden '''Tag''' eine frische Unterhose anziehen - das gilt als gesellschaftliche Norm. Doch wer hat diese Regel aufgestellt und ist das überhaupt nötig? Die Hygiene-Professorin Iris Chaberny klärt auf.|lang=de|sens=On devrait mettre un caleçon propre tous les jours —c’est considéré comme une norme sociale. Mais qui a établi cette règle et est-ce vraiment nécessaire ? La professeure d’hygiène Iris Chaberny nous éclaire.|source={{périodique|auteur=Violetta Simon et Iris Chaberny|titre=„Unterwäsche soll gar nicht steril sein“ |journal=Süddeutsche Zeitung |date=8 décembre 2023 |texte=https://www.sueddeutsche.de/panorama/hygiene-unterhose-wechseln-unterwaesche-interview-1.6313775}}}}
+# [[jour|Jour]], période comprise entre le lever et le coucher du [[soleil]].
+#* {{exemple | lang=de | Während des '''Tages''' scheint die Sonne. | Pendant la journée, le soleil brille.}}
+#* {{exemple|am hellichten '''Tag'''e.|lang=de|sens=En plein jour.}}
+#* {{exemple|Ich arbeite '''Tag''' und Nacht.|lang=de|sens=Je travaille jour et nuit.}}
+#* {{exemple | lang=de | das ist wie '''Tag''' und '''Nacht'''. | C’est comme le jour et la nuit.}}
+#* {{exemple|Als der Zug mit seiner nachtschwarzen bulligen Lok um kurz vor zehn Uhr in Kiruna einfährt, ist es hell, aber nicht wirklich '''Tag'''.|lang=de|sens=Lorsque le train et sa locomotive forte et noire comme la nuit entrent en gare de Kiruna peu avant dix heures, il fait jour, mais pas vraiment jour.|source={{périodique|auteur=Dominik Prantl|titre=Der Polarlicht-Express|journal=Süddeutsche Zeitung|date=9 décembre 2023|texte=https://www.sueddeutsche.de/projekte/artikel/reise/polarlichter-winterurlaub-reisen-mit-der-bahn-schweden-e666317/}}}}
+# {{désuet|de}} [[assemblée|Assemblée]], [[réunion]], (aujourd'hui uniquement utilisé dans des associations de mots comme [[Reichstag]], [[Bundestag]], etc.
+# {{lexique|industrie minière|de}} ''über/unter Tage'' À {{lien|ciel|fr}} {{lien|ouvert|fr}} / {{lien|sous|fr}} {{lien|terre|fr}}.
+# ''au pluriel:'' La {{lien|vie|fr}} de quelqu'un.
+
+==== {{S|diminutifs}} ====
+* {{lien|Tagchen|de}}
+
+==== {{S|synonymes}} ====
+* {{lien|24-Stunden-Tag|de}}
+* {{lien|Erdtag|de}}
+
+==== {{S|antonymes}} ====
+; ''Période de 24 heures :''
+* {{lien|Jahr|sens=an », « année}}
+* {{lien|Monat|de|sens=mois}}
+* {{lien|Stunde|de|sens=heure}}
+* {{lien|Woche|de|sens=semaine}}
+; '' Période de luminosité :''
+* {{lien|Nacht|de|sens=nuit}}
+
+==== {{S|dérivés}} ====
+{{(|&nbsp;}}
+* {{lien|1-tägig|sens=de la durée d'un jour », « qui dure un jour}}
+* {{lien|3-Tage-Woche|de}} ou {{lien|3-Tages-Woche|de|sens= semaine de trois jours}}
+* {{lien|4-Tage-Woche|de}} ou {{lien|4-Tages-Woche|de|sens= semaine de quatre jours}}
+* {{lien|5-Tage-Woche|de}} ou {{lien|5-Tages-Woche|de|sens= semaine de cinq jours}}
+* {{lien|6-Tage-Woche|de}} ou {{lien|6-Tages-Woche|de|sens= semaine de six jours}}
+* {{lien|6-tägig|sens=de la durée de six jours », « qui dure six jours}}
+* {{lien|7-Tage-Inzidenz|de}}
+* [[Altjahrtag]], [[Altjahrstag]], [[Altjahrestag]] (''jour de la Saint-Sylvestre'')
+* {{lien|Bachtag|de}}
+* {{lien|betagt|de|sens=âgé}}
+* {{lien|Drei-Tage-Woche|de}} ou {{lien|Dreitagewoche|de|sens=  semaine de trois jours}}
+* {{lien|Dreitagebart|de|sens=barbe de trois jours}}
+* {{lien|Dreitagefieber|de}}
+* {{lien|Dreitägig|de|sens=de trois jours}}
+* [[Ehrentag]] (''jour important''), (''jour d'hommage''), (''grand jour'')
+* {{lien|Eintagesrennen|de}}
+* {{lien|Eintagserfolg|de}}
+* {{lien|eintägig|sens=de la durée d'un jour », « qui dure un jour}}
+* {{lien|Eintagsfieber|de|sens=fièvre d'un jour}}
+* {{lien|Eintagsfliege|de|sens=éphémère (insecte)}}
+* {{lien|Eintagsküken|de|sens=poussin d'un jour}}
+* {{lien|Elternsprechtag|de|sens=journée de rencontre parents-professeurs}}
+* {{lien|Ergetag|de}} ou {{lien|Ertag|de|sens= mardi}}
+* {{lien|Ersttag|de|sens=premier jour}}
+* {{lien|Ersttagsblatt|de}}
+* {{lien|Ersttagsbrief|de|sens=lettre "premier jour"}}
+* {{lien|Ersttagsbriefumschlag|de}}
+* {{lien|Ersttagsstempel|de|sens=oblitération "premier jour"}}
+* {{lien|Fastentag|de}} ou {{lien|Fasttag|de|sens= jour de Carême}}
+* {{lien|Frühsommertag|de|sens=jour de l'été}}
+* {{lien|Fünftagefieber|de}}
+* {{lien|Fünftageswoche|de}} ou {{lien|Fünftagewoche|de|sens= semaine de cinq jours}}
+* {{lien|fünftägig|sens=de cinq jours », « d'une durée de cinq jours}}
+* {{lien|Ganztagesbetreuung|de}} ou {{lien|Ganztagsbetreuung|de|sens= accueil à temps plein}}
+* {{lien|Ganztagesschule|de}} ou {{lien|Ganztagsschule|sens=école à plein temps », « école à la journée}}
+* {{lien|Ganztagsangebot|de|sens=offre à plein temps}}
+* {{lien|Ganztagsarbeit|de|sens=travail à plein temps}}
+* {{lien|Ganztagsbeschäftigung|de|sens=emploi à plein temps}}
+* {{lien|Ganztagskindergarten|de|sens=jardin d'enfants à plein temps}}
+* {{lien|Ganztagskraft|de|sens=employé(e) à plein temps}}
+* {{lien|Ganztagesunterricht|de}} ou {{lien|Ganztagsunterricht|de|sens= enseignement à plein temps}}
+* {{lien|Ganztageswanderung|de}} ou {{lien|Ganztagswanderung|de|sens= randonnée d'une journée complète}}
+* {{lien|ganztägig|de}}
+* {{lien|Geografentag |de}} ou {{lien|Geographentag|de|sens= congrès allemand de géographie}}
+* {{lien|gleichentags|de|sens=le même jour}}
+* {{lien|halbtägig|de|sens=qui dure une demi-journée}}
+* {{lien|halbtäglich|de|sens=qui se répète tous les demi-jour}}
+* {{lien|halbtags|de|sens=à mi-temps}}
+* {{lien|heutigentags|de}}
+* {{lien|heutzutage|de|sens=de nos jours}}
+* [[Informationstag]], [[Informations-Tag]], [[Infotag]], [[Info-Tag]] 
+* {{lien|Jännertag|de}}
+* {{lien|Kampfestag|de}} ou {{lien|Kampftag|de|sens= journée de lutte}}
+* {{lien|Kompanietagesbefehl|de|sens=ordre du jour de la compagnie}}
+* {{lien|Kurztagpflanze|de}}
+* {{lien|Langtagpflanze|de}}
+* [[Lohntag]] (''journée du salaire''), (''jour du salaire''), (''jour de paie'')
+* {{lien|Lurtag|de|sens=jour décisif pour les travaux agricoles}}
+* {{lien|Maifeiertag|de|sens=Fête du Travail}}
+* {{lien|Märzentag|de}} ou {{lien|Märztag|de|sens= jour de mars}}
+* [[mehrtägig]] ('qui dure plusieurs jours'')
+* {{lien|Michaelstag|de}}
+* {{lien|Mittag|de|sens=midi}}
+* {{lien|Nachmittag|de|sens=après-midi}}
+* {{lien|neuntägig|sens=de neuf jours », « qui dure neuf jours}}
+* [[Niklastag]], [[Nikolastag]], [[Nikolaustag]] (''journée de la Saint-Nicolas'')
+* {{lien|Obertagearbeiter|de}}
+* {{lien|obertägig|de}}
+* {{lien|Osterfeiertag|de}}
+* {{lien|Pfinztag|de|sens=jeudi}}
+* {{lien|Pollenflugtag|de|sens=jour de pollinisation par le vent}}
+* {{lien|Rotelstag|de|sens=jour décisif pour les travaux agricoles}}
+* {{lien|Satertag|de|sens=samedi}}
+* {{lien|Sechstagerennen|de}}
+* {{lien|Sechstagewerk|de}}
+* {{lien|Sechstagewoche|de|sens=semaine de six jours}}
+* {{lien|sechstägig|sens=de six jours », « qui dure six jours}}
+* {{lien|Sieben-Tage-Inzidenz|de|sens=incidence sur sept jours}}
+* {{lien|Sieben-Tage-Schnitt|de|sens=période de sept jours}}
+* {{lien|Siebenten-Tags-Adventist|de|sens=église adventiste du septième jour}}
+* {{lien|Starkregentag|de|sens=jour de pluie diluvienne}}
+* [[Stefanitag]], [[Stephanitag]], [[Stefanstag]], [[Stephanstag]], [[Stephanustag]] (''jour de la Saint-Étienne'')
+* {{lien|Tachchen|de}}
+* {{lien|tagaktiv|de|sens=diurne}}
+* {{lien|tagaus|de|sens=jour après jour}}
+* {{lien|Tagbruch|de}}
+* {{lien|Tagebau|de|sens=mine à ciel ouvert}}
+* {{lien|Tageblatt|de|sens=journal quotidien}}
+* {{lien|Tagebuch|de|sens=journal intime}}
+* {{lien|Tagedieb|de|sens=fainéant(e)}}
+* {{lien|tagein|de|sens=par jour}}
+* {{lien|tagelang|de|sens=qui dure des jours entiers}}
+* {{lien|Tagelied|de}} ou {{lien|Taglied|de}}
+* {{lien|Tagelohn|de}} ou {{lien|Tageslohn|de|sens= salaire journalier}}
+* [[Tagelöhner]] (''journalier''), [[Tagelöhnerin]] (''journalière'')
+* {{lien|Tagemarsch|de}} ou {{lien|Tagesmarsch|sens=marche d'une journée », « jour de marche}}
+* {{lien|tagen|de|sens=siéger}}
+* {{lien|Tagereise|de}} ou {{lien|Tagesreise|sens=voyage d'une journée », « journée de voyage}}
+* {{lien|Tagesablauf|de|sens=déroulement de la journée}}
+* {{lien|Tagesabrechnung|de}}
+* {{lien|Tagesabschluss|de|sens=arrêt des comptes journaliers}}
+* {{lien|Tagesabschnitt|de}}
+* {{lien|tagesaktuell|de}}
+* {{lien|Tagesaktualität|de}}
+* {{lien|Tagesanbruch|sens=point du jour », « lever du jour}}
+* {{lien|Tagesanfang|sens=début de journée », « début du jour}}
+* {{lien|Tagesangriff|de|sens=attaque de jour}}
+* {{lien|Tagesanzug|de}}
+* {{lien|Tagesarbeit|de}}
+* {{lien|Tagesatz|de}} ou {{lien|Tagessatz|de|sens= prix de la journée}}
+* {{lien|Tagesausflug|de|sens=excursion d'une journée}}
+* {{lien|Tagesausflügler|de}}
+* {{lien|Tagesausgabe|de}}
+* {{lien|Tagesausstoß|de}}
+* {{lien|Tagesauszug|de}}
+* {{lien|Tagesbedarf|de|sens=besoin journalier}}
+* {{lien|Tagesbefehl|de|sens=ordre du jour}}
+* {{lien|Tagesbegebenheit|de}}
+* {{lien|Tagesbeginn|sens=début de journée », « début du jour}}
+* {{lien|Tagesbericht|de|sens=rapport journalier}}
+* {{lien|Tagesbesucher|de}}
+* {{lien|Tagesbilanz|sens=bilan journalier », « bilan quotidien}}
+* {{lien|Tagesblatt|de|sens=journal quotidien}}
+* {{lien|Tagesbruch|de}}
+* {{lien|Tagesbuchung|de}}
+* {{lien|Tagescafé|de}}
+* {{lien|Tagescreme|de}} ou {{lien|Tagescrème|de|sens= crème de jour}}
+* {{lien|Tagesdarlehen|de}}
+* {{lien|Tagesdecke|de|sens=couvre-lit}}
+* {{lien|Tagesdiäten|de}}
+* {{lien|Tagesdienst|de}} ou {{lien|Tagdienst|de}}
+* {{lien|Tagesdosis|de|sens=dose journalière}}
+* {{lien|Tagesdurchschnitt|de}}
+* {{lien|Tageseinkommen|de}}
+* {{lien|Tageseinnahme|de|sens=recette journalière}}
+* {{lien|Tageseinrichtung|de}}
+* {{lien|Tageseinteilung|de|sens=organisation de la journée}}
+* {{lien|Tagesende|de|sens=fin du jour}}
+* {{lien|Tagesereignis|de}}
+* {{lien|Tageserlös|de}}
+* {{lien|Tageserscheinung|de}}
+* {{lien|Tagesetappe|de|sens=étape du jour}}
+* {{lien|Tagesfahrt|sens=excursion d'une journée », « voyage d'un jour}}
+* {{lien|Tagesform|sens=humeur du jour », « forme du jour}}
+* {{lien|Tagesfrage|de}}
+* {{lien|Tagesfrau|de}}
+* {{lien|Tagesfrisur|de}}
+* {{lien|Tagesgang|de|sens=cycle diurne}}
+* {{lien|Tagesgast|de|sens=excursionniste}}
+* {{lien|Tagesgeld|sens=dépôt au jour le jour », « placement au jour le jour}}
+* {{lien|Tagesgericht|de|sens=plat du jour}}
+* {{lien|Tagesgeschäft|sens=affaires courantes », « tâche récurrente}}
+* {{lien|Tagesgeschehen|de|sens=actualités}}
+* {{lien|Tagesgeschmack|de|sens=goût du jour}}
+* {{lien|Tagesgespräch|sens=nouvelles du jour », « potin du jour}}
+* {{lien|Tagesgestirn|de|sens=astre du jour}}
+* {{lien|Tagesgetriebe|de}}
+* {{lien|Tagesgewinn|de|sens=bénéfice journalier}}
+* {{lien|Tagesgrauen|de|sens=aube}}
+* {{lien|Tageshälfte|sens=partie de la journée », « demie journée}}
+* {{lien|Tageshandel|de}}
+* {{lien|Tagesheim|de}}
+* {{lien|tageshell|de}} ou {{lien|taghell|de|sens= comme en plein jour}}
+* {{lien|Tageshelle|de}}
+* {{lien|Tageshoch|de}}
+* {{lien|Tageshöchstkurs|de|sens=cours maximal du jour}}
+* {{lien|Tageshöchstsatz|de|sens=taux maximal du jour}}
+* {{lien|Tageshöchsttemperatur|de|sens=température maximale du jour}}
+* {{lien|Tageshoroskop|de|sens=horoscope journalier}}
+* {{lien|Tagesjournal|sens=journal quotidien », « quotidien}}
+* {{lien|Tageskalender|de}}
+* {{lien|Tageskampf|de}}
+* [[Tageskarte]] (''menu du jour''), (''carte de transport journalier''), (''ticket journalier'')
+* [[Tageskasse]] (''bureau de location''), (''caisse ouverte en journée''), (''recette journalière'')
+* {{lien|Tageskauf|de|sens=achat journalier}}
+* {{lien|Tageskilometer|de|sens=kilomètres par jour}}
+* {{lien|Tageskind|de}}
+* {{lien|Tagesklinik|de|sens=hôpital de jour}}
+* {{lien|Tageskontingent|de}}
+* {{lien|Tageskrippe|de}}
+* {{lien|Tageskurs|de|sens=cours du jour}}
+* {{lien|Tageslage|de}}
+* {{lien|Tageslänge|de|sens=durée du jour}}
+* {{lien|Tageslärm|de}}
+* {{lien|Tageslauf|de|sens=course journalière}}
+* {{lien|Tagesleistung|de}}
+* {{lien|Tageslicht|de|sens=lumière du jour}}
+* {{lien|Tageslichtprojektor|de|sens=rétroprojecteur}}
+* {{lien|Tageslosung|de|sens=recette journalière}}
+* {{lien|Tagesmaximum|de}}
+* {{lien|Tagesmenge|de|sens=quantité journalière}}
+* {{lien|Tagesmenü|de}} ou {{lien|Tagesmenu|de|sens= menu du jour}}
+* {{lien|Tagesminimum|de}}
+* {{lien|Tagesminus|de}}
+* [[Tagesmitte]] (''mi-journée''), (''milieu de journée''), (''midi'')
+* {{lien|Tagesmittel|de}}
+* {{lien|Tagesmode|de}}
+* {{lien|Tagesmutter|de|sens=nourrice}}
+* {{lien|Tagesnachrichten|de|sens=nouvelles du jour}}
+* {{lien|Tagesneuigkeit|de|sens=nouvelles du jour}}
+* {{lien|Tagesniedrigstkurs|de|sens=cours journalier le plus bas}}
+* {{lien|Tagesordnung|de|sens=ordre du jour}}
+* {{lien|Tagesparole|de}}
+* {{lien|Tagespartie|de}}
+* {{lien|Tagespensum|de|sens=charge de travail journalière}}
+* {{lien|Tagespflege|de|sens=soins journaliers}}
+* {{lien|Tagesplan|de}}
+* {{lien|Tagespolitik|de}}
+* {{lien|tagespolitisch|de}}
+* {{lien|Tagesportion|de}}
+* {{lien|Tagespreis|de}}
+* {{lien|Tagespresse|de|sens=presse quotidienne}}
+* {{lien|Tagesproblem|de}}
+* {{lien|Tagesproduktion|de|sens=production journalière}}
+* {{lien|Tagesprogramm|de|sens=programme journalier}}
+* {{lien|Tagesquantum|de}}
+* {{lien|Tagesrapport|de}}
+* {{lien|Tagesration|de|sens=ration journalière}}
+* {{lien|Tagesraum|de}}
+* {{lien|Tagesrekord|de|sens=jour de record}}
+* {{lien|Tagesrhythmus|de|sens=rythme journalier}}
+* {{lien|Tagesroutine|de|sens=routine quotidienne}}
+* {{lien|Tagesrückblick|de}}
+* {{lien|Tagesschacht|de}}
+* {{lien|Tagesschau|de|sens=journal télévisé quotidien}}
+* [[Tagesschicht]], [[Tagschicht]] (''équipe de jour'') 
+* {{lien|Tagesschriftsteller|de}}
+* {{lien|Tagesschule|de}}
+* {{lien|Tagesschwankungen|de|sens=fluctuations journalières}}
+* {{lien|Tagessegen|de}}
+* {{lien|Tagessieg|de}}
+* {{lien|Tagessieger|de}} ou {{lien|Tagessiegerin|de}}
+* {{lien|Tagessoll|de|sens=objectif journalier}}
+* {{lien|Tagesspesen|de}}
+* {{lien|Tagesstation|de}}
+* {{lien|Tagesstätte|sens=garderie », « crèche}}
+* {{lien|Tagesstempel|de|sens=cachet du jour}}
+* {{lien|Tagestief|de}}
+* {{lien|Tagestiefstkurs|de|sens=cours minimal du jour}}
+* {{lien|Tagesstunde|de}}
+* {{lien|Tagestemperatur|de|sens=température du jour}}
+* {{lien|Tagesthema|sens=thème du jour », « sujet du jour}}
+* {{lien|Tagesticket|de}}
+* {{lien|Tagestour|sens=excursion d'un jour », « excursion d'une journée}}
+* [[Tagestourismus]] ('tourisme d'un jour'')
+* {{lien|Tagestourist|de}} ou {{lien|Tagestouristin|de|sens= touriste d'un jour}}
+* {{lien|Tagesumsatz|de|sens=chiffre d'affaires journalier}}
+* {{lien|Tagesvater|de}}
+* {{lien|Tagesverbrauch|de|sens=consommation journalière}}
+* {{lien|Tagesverlauf|de|sens=cours de journée}}
+* {{lien|Tagesverlierer|de}}
+* {{lien|Tagesverlust|de}}
+* {{lien|Tagesverpflegung|de}}
+* {{lien|Tagesvisum|de|sens=visa à la journée}}
+* {{lien|Tageswache|de}}
+* {{lien|Tageswanderung|de|sens=randonnée d'une journée}}
+* {{lien|Tageswechsel|de}} ou {{lien|Tagwechsel|de}}
+* {{lien|Tageswert|de|sens=valeur journalière}}
+* {{lien|Tageszeit|sens=heure du jour », « moment de la journée}}
+* {{lien|Tageszeitung|de|sens=journal quotidien}}
+* {{lien|Tageszentrum|de}}
+* {{lien|Tagesziel|de|sens=objectif journalier}}
+* {{lien|Tageszins|de}}
+* {{lien|Tageszug|de}}
+* {{lien|Tageszulassung|de}}
+* {{lien|Tagewählerei|de}}
+* {{lien|tageweise|de|sens=à la journée}}
+* {{lien|tageweit|de}}
+* {{lien|Tagewerk|de}} ou {{lien|Tagwerk|sens=tâche quotidienne », « labeur quotidien}}
+* [[Tagewerker]], [[Tagwerker]] 
+* {{lien|Tagfahrleuchte|de}}
+* {{lien|Tagfahrlicht|de|sens=feux de circulation diurne}}
+* {{lien|Tagfahrt|de}}
+* {{lien|Tagfalter|sens=papillon diurne », « papillon de jour}}
+* {{lien|Taggebäude|de}}
+* {{lien|Taggeld|de}} ou {{lien|Tagegeld|de|sens= indemnité journalière}}
+* {{lien|taggleich|de}}
+* {{lien|Tagjäger|de}}
+* {{lien|täglich]] (''journalier, journalière », « quotidien(ne)}}
+* {{lien|Taglilie|de|sens=hémérocalle}}
+* {{lien|Tagmond|de|sens=lune diurne}}
+* {{lien|Tagpfauenauge|de}}
+* {{lien|Tagportier|de}}
+* {{lien|tags|sens=le jour (clarté) », « la journée}}
+* {{lien|Tagsatzung|de|sens=jour d'audience}}
+* {{lien|Tagseite|de}}
+* {{lien|tagsüber|sens=pendant la journée », « de jour}}
+* {{lien|tagtäglich|sens=tous les jours », « quotidien(ne)}}
+* {{lien|Tagtier|de|sens=animal diurne}}
+* {{lien|Tagtraum|de|sens=rêve éveillé}}
+* {{lien|tagträumen|de|sens=rêvasser}}
+* {{lien|Tagträumer|de|sens=rêvasseur}}
+* {{lien|Tagundnachtgleiche|de}} ou {{lien|Tag-und-Nacht-Gleiche|de|sens= équinoxe}}
+* {{lien|Tagung|sens=congrès », « séance}}
+* {{lien|Tagwache|de|sens=réveil (militaire)}}
+* {{lien|Tagwäsche|de|sens=vêtement pour la journée}}
+* {{lien|Tagwechsel|de}}
+* {{lien|untertage|de}}
+* {{lien|untertägig|de|sens=sous terre}}
+* {{lien|untertags|de|sens=au cours de la journée}}
+* {{lien|Untertagschicht|de|sens=équipe de jour}}
+* {{lien|Verfalltag|de}} ou {{lien|Verfallstag|de|sens= date de péremption}}
+* {{lien|vertagen|sens=retarder », « ajourner}}
+* {{lien|Viertagewoche|de}} ou {{lien|Vier-Tage-Woche|de|sens= semaine de quatre jours}}
+* {{lien|viertägig|sens=qui dure quatre jours », « de quatre jours}}
+* {{lien|vierzehntägig|de|sens=qui dure quatorze jours}}
+* {{lien|vierzehntäglich|de}}
+* {{lien|Weltjugendtag|de|sens=journée mondiale de la jeunesse}}
+* {{lien|werktäglich|de|sens=tous les jours ouvrables}}
+* {{lien|werktags|sens=les jours ouvrables », « en semaine}}
+* {{lien|zutage|de|sens=au grand jour}}
+* {{lien|Zweitägig|de|sens=de deux jours}}
+* {{lien|Zwölf-Stunden-Tag|de|sens=journée de douze heures}}
+* {{lien|zwölftägig|sens=de douze jours », « qui dure douze jours}}
+{{)}}
+
+==== {{S|vocabulaire}} ====
+{{tableau-jours de la semaine/de}}
+
+==== {{S|phrases}} ====
+* {{lien|dem lieben Gott den Tag stehlen|de|sens=perdre son temps inutilement}}
+
+==== {{S|hyperonymes}} ====
+* {{lien|Zeitabschnitt|de}}
+
+==== {{S|hyponymes}} ====
+{{(|&nbsp;}}
+* {{lien|Abfahrtstag|de}} ou {{lien| Abfahrttag|de|sens= jour de départ}}
+* {{lien|Abflugtag|de}}
+* {{lien|Abfuhrtag|de}}
+* {{lien|Abholtag|de}}
+* {{lien|Abituriententag|de}}
+* {{lien|Ablasstag|de}}
+* {{lien|Abreisetag|de|sens=jour du départ}}
+* {{lien|Abschiedstag|de}}
+* {{lien|Abschlusstag|de}}
+* {{lien|Abstimmungstag|de}}
+* {{lien|Abstinenztag|sens=jour de jeûne », « jour d'abstinence}}
+* {{lien|Adventstag|de}}
+* {{lien|Aidstag|de}}
+* {{lien|Aktionstag|de|sens=journée d'action(s)}}
+* {{lien|Allerheiligentag|de}}
+* {{lien|Allerseelentag|de}}
+* {{lien|Alltag|de|sens=quotidien}}
+* {{lien|Altentag|de}}
+* {{lien|Altjahrstag|de}}
+* {{lien|Amtstag|de}}
+* {{lien|Anfangstag|de}}
+* {{lien|Ankunftstag|de|sens=jour d'arrivée}}
+* {{lien|Anmeldetag|de|sens=date de dépôt}}
+* {{lien|Anreisetag|de|sens=jour d'arrivée}}
+* {{lien|Anti-Drogen-Tag|de}}
+* {{lien|Antikriegstag|de}}
+* {{lien|Antirassismustag|de}}
+* {{lien|Antoniustag|de}}
+* {{lien|Apfeltag|de}}
+* {{lien|Apothekertag|de}}
+* {{lien|Arbeitstag|de|sens=jour ouvré}}
+* {{lien|Arbeitsunfähigkeitstag|de}}
+* {{lien|Architektentag|de}}
+* {{lien|Archivtag|de}}
+* {{lien|Aufbautag|de}}
+* {{lien|Aufenthaltstag|de}}
+* {{lien|Auferstehungstag|de}}
+* {{lien|Auffahrtstag|de}}
+* {{lien|Aufführungstag|de}}
+* {{lien|Aufgabetag|de}}
+* {{lien|Aufnahmetag|de}}
+* {{lien|Auktionstag|de}}
+* {{lien|Ausbildungstag|de}}
+* {{lien|Ausfalltag|de}}
+* {{lien|Ausflugstag|de}}
+* {{lien|Ausgehtag|de}}
+* {{lien|Ausländertag|de}}
+* {{lien|Ausstellungstag|de}}
+* {{lien|Autorentag|de}}
+* {{lien|Backtag|de}}
+* {{lien|Bädertag|de}}
+* {{lien|Badetag|de|sens=jour de baignade}}
+* {{lien|Balletttag|de}}
+* {{lien|Bankentag|de}}
+* {{lien|Barbaratag|de}}
+* {{lien|Bauerntag|de}}
+* {{lien|Bautag|de}}
+* {{lien|Beerdigungstag|de|sens=jour des obsèques}}
+* {{lien|Befragungstag|de}}
+* {{lien|Befreiungstag|de}}
+* {{lien|Begegnungstag|de|sens=jour de rencontre}}
+* {{lien|Begräbnistag|de|sens=jour de funérailles}}
+* {{lien|Behandlungstag|de}}
+* {{lien|Behördentag|de}}
+* {{lien|Bekenntnistag|de}}
+* {{lien|Beratungstag|de|sens=jour de consultation}}
+* {{lien|Berufsinformationstag|de}}
+* {{lien|Berufsschultag|de}}
+* {{lien|Berufstag|de}}
+* {{lien|Beschertag|de}}
+* {{lien|Besichtigungstag|de}}
+* {{lien|Besinnungstag|de}}
+* {{lien|Besuchertag|de}}
+* {{lien|Besuchstag|de|sens=jour de visite}}
+* {{lien|Betriebstag|de}}
+* {{lien|Bettag|de}}
+* {{lien|Bibeltag|de}}
+* {{lien|Bibliothekartag|de}}
+* {{lien|Bibliothekstag|de}}
+* {{lien|Bitttag|de}} ou {{lien|Bitt-Tag|de|sens= jour des Rogations}}
+* {{lien|Bläsertag|de}}
+* {{lien|Blockadetag|de}}
+* {{lien|Börsentag|de}}
+* {{lien|Brauttag|de}}
+* {{lien|Brückentag|de|sens=pont}}
+* {{lien|Brustkrebstag|de|sens=journée du cancer du sein}}
+* {{lien|Buchungstag|de}}
+* {{lien|Bundesländertag|de}}
+* {{lien|Bürotag|de}}
+* {{lien|Bußtag|de}} ou {{lien|Buß- und Bettag|de|sens= journée de pénitence}}
+* {{lien|Buß- und Bettag|de}}
+* {{lien|Chaostag|de|sens=jour de chaos}}
+* {{lien|Christtag|de|sens=jour de Noël}}
+* {{lien|Computertag|de}}
+* {{lien|Damentag|de}}
+* {{lien|Debattentag|de}}
+* {{lien|Dekanatstag|de}}
+* {{lien|Demonstrationstag|de}}
+* {{lien|Denkmaltag|de}}
+* {{lien|Deutschlandtag|de}}
+* {{lien|Diabetikertag|de}}
+* {{lien|Diensttag|de|sens=journée de service}}
+* {{lien|Diskussionstag|de}}
+* {{lien|Drehtag|sens=jour de tournage », « journée de tournage}}
+* {{lien|Dreikönigstag|de|sens=Épiphanie}}
+* {{lien|Ehetag|de}}
+* {{lien|Ehrentag|de}}
+* {{lien|Eichtag|de}}
+* {{lien|Einführungstag|de}}
+* {{lien|Eingangstag|de}}
+* {{lien|Einheitstag|de}}
+* {{lien|Einkaufstag|de}}
+* {{lien|Einkehrtag|de}}
+* {{lien|Einsatztag|de}}
+* {{lien|Einschiffungstag|de}}
+* {{lien|Einweihungstag|de}}
+* {{lien|Eisenbahntag|de}}
+* {{lien|Empfangstag|de}}
+* {{lien|Emissionstag|de}}
+* {{lien|Endspieltag|de}}
+* {{lien|Energietag|de}}
+* {{lien|Enkeltag|de}}
+* {{lien|Entlassungstag|de}}
+* {{lien|Entscheidungstag|de}}
+* {{lien|Erdentag|de}}
+* {{lien|Erdüberlastungstag|de|sens=jour du dépassement}}
+* {{lien|Erfindertag|de}}
+* {{lien|Erfüllungstag|de}}
+* {{lien|Erholungstag|de}}
+* {{lien|Erinnerungstag|de}}
+* {{lien|Erlebnistag|de}}
+* {{lien|Erntedanktag|de}}
+* {{lien|Eröffnungstag|sens=jour d'ouverture », « journée d'ouverture}}
+* {{lien|Erscheinungstag|de}}
+* {{lien|Erstausgabetag|de}}
+* {{lien|Erstkommunionstag|de|sens=jour de première communion}}
+* {{lien|Erstsemestertag|de}}
+* {{lien|Esoteriktag|de}}
+* {{lien|Europatag|de|sens=Journée de l'Europe}}
+* {{lien|Examenstag|de}}
+* {{lien|Fachbereichstag|de}}
+* {{lien|Fachbesuchertag|de}}
+* {{lien|Fachtag|de}}
+* {{lien|Fahrradtag|de}}
+* {{lien|Fälligkeitstag|de|sens=jour de l'échéance}}
+* {{lien|Familiengerichtstag|de}}
+* {{lien|Familientag|de|sens=journée de rassemblement familial}}
+* {{lien|Faschingstag|de}}
+* {{lien|Fastnachtstag|de}}
+* {{lien|Fasttag|de}}
+* {{lien|Fehltag|de}}
+* {{lien|Feiertag|de|sens=jour férié}}
+* {{lien|Fenstertag|de|sens=pont}}
+* {{lien|Ferialtag|de}} ou {{lien|Ferientag|de|sens= jour de vacances}}
+* {{lien|Ferientag|de}}
+* {{lien|Fernsehtag|de}}
+* {{lien|Festivaltag|de}}
+* {{lien|Festtag|de|sens=jour de fête}}
+* {{lien|Filmtag|de}}
+* {{lien|Finaltag|de}}
+* {{lien|Firmentag|de}}
+* {{lien|Fleischtag|de}}
+* {{lien|Flüchtlingstag|de}}
+* {{lien|Fluchttag|de}}
+* {{lien|Flugtag|de|sens=jour de meeting aérien}}
+* {{lien|Folgetag|sens=jour suivant », « lendemain}}
+* {{lien|Forschungstag|de}}
+* {{lien|Fortbildungstag|de}}
+* {{lien|Fototag|de}}
+* {{lien|Frauentag|de|sens=journée internationale des femmes}}
+* {{lien|Freiwilligentag|de}}
+* {{lien|Freudentag|de|sens=jour de joie}}
+* {{lien|Friedenstag|de}}
+* {{lien|Fronleichnamstag|sens=Fête-Dieu », « jour de la Fête-Dieu}}
+* {{lien|Fußballtag|de}}
+* {{lien|Galerientag|de}}
+* {{lien|Gammeltag|de}}
+* {{lien|Gartenbautag|de}}
+* {{lien|Gebetstag|de}}
+* {{lien|Geburtstag|sens=anniversaire de naissance », « jour de naissance}}
+* {{lien|Gedächtnistag|de|sens=jour du souvenir}}
+* {{lien|Gedenktag|sens=anniversaire », « jour de commémoration}}
+* {{lien|Gefängnistag|de}}
+* {{lien|Gerichtstag|de|sens=jour d'audience}}
+* {{lien|Germanistentag|de|sens=assemblée des germanistes}}
+* {{lien|Geschäftstag|de}}
+* {{lien|Gesprächstag|de}}
+* {{lien|Gesundheitstag|de}}
+* {{lien|Gipfeltag|de}}
+* {{lien|Glanztag|de}}
+* {{lien|Glückstag|de|sens=jour de chance}}
+* {{lien|Golftag|de}}
+* {{lien|Grilltag|de}}
+* {{lien|Gründertag|de}}
+* {{lien|Gründungstag|sens=jour de la création », « jour de la fondation}}
+* {{lien|Gruppentag|de}}
+* {{lien|Gültigkeitstag|de}}
+* {{lien|Hafentag|de}}
+* {{lien|Hafttag|de}}
+* {{lien|Handballtag|de}}
+* {{lien|Handelstag|de|sens=jour de bourse}}
+* {{lien|Handwerkertag|de}}
+* {{lien|Handwerkstag|de}}
+* {{lien|Hauptschultag|de}}
+* {{lien|Hauptverhandlungstag|de}}
+* {{lien|Hausarbeitstag|de|sens=jour des travaux ménagers}}
+* {{lien|Hausfrauentag|de}}
+* {{lien|Haushaltstag|de}} ou {{lien|Haushalttag|de|sens= jour des travaux ménagers}}
+* {{lien|Heimattag|de}}
+* {{lien|Heimspieltag|de}}
+* {{lien|Heringstag|de}}
+* {{lien|Herrentag|sens=jour du Seigneur », « dimanche}}
+* {{lien|Herztag|de|sens=journée du cœur}}
+* {{lien|Heultag|de}}
+* {{lien|Hexentag|de}}
+* {{lien|Himmelfahrtstag|de|sens=jour de l'Ascension}}
+* {{lien|Hochschultag|de}}
+* {{lien|Hochzeitstag|de|sens=jour du mariage}}
+* {{lien|Horrortag|de}}
+* {{lien|Hörspieltag|de}}
+* {{lien|Hubertustag|de|sens=jour de la Saint-Hubert}}
+* {{lien|Hundetag|de}}
+* {{lien|Hungertag|de}}
+* {{lien|Hurentag|de}}
+* {{lien|Informationstag|de}}
+* {{lien|Innovationstag|de}}
+* {{lien|Israeltag|de}}
+* {{lien|Jahrestag|de}} ou {{lien|Jahrtag|de|sens= anniversaire}}
+* {{lien|Jakobitag|de}}
+* {{lien|Jakobstag|de|sens=fête de la Saint-Jacques}}
+* {{lien|Jazztag|de}}
+* {{lien|Johannistag|de|sens=fête de la Saint Jean}}
+* {{lien|Journalistentag|de}}
+* {{lien|Jubeltag|de|sens=jour du jubilé}}
+* {{lien|Jubiläumstag|de}}
+* {{lien|Jugendgerichtstag|de}}
+* {{lien|Jugendhilfetag|de}}
+* {{lien|Jugendtag|sens=journée de la jeunesse », « période de la jeunesse}}
+* {{lien|Kalendertag|de|sens=jour du calendrier}}
+* {{lien|Kampftag|de}}
+* {{lien|Karenztag|de|sens=journée de carence}}
+* {{lien|Karnevalstag|sens=jour gras », « jour de carnaval}}
+* {{lien|Karrieretag|de}}
+* {{lien|Katastrophentag|de}}
+* {{lien|Kauftag|de}}
+* {{lien|Kennlerntag|de}}
+* {{lien|Kerwetag|de}}
+* {{lien|Kindergartentag|de}}
+* {{lien|Kindergottesdiensttag|de}}
+* {{lien|Kindertag|de|sens=journée de l'enfance}}
+* {{lien|Kindheitstag|de|sens=période de l'enfance}}
+* {{lien|Kinotag|de}}
+* {{lien|Kirchtag|de}}
+* {{lien|Kirchweihtag|de}}
+* {{lien|Kirtag|de|sens=kermesse}}
+* {{lien|Klausurtag|de}}
+* {{lien|Klimatag|de}}
+* {{lien|Kliniktag|de}}
+* {{lien|Knasttag|de}}
+* {{lien|Kohltag|de}}
+* {{lien|Kommunikationstag|de}}
+* {{lien|Konferenztag|de}}
+* {{lien|Kongresstag|de}}
+* {{lien|Konzerttag|de}}
+* {{lien|Krankenhaustag|de}}
+* {{lien|Krankenstandstag|de}}
+* {{lien|Krankentag|de}}
+* {{lien|Krankheitstag|de|sens=jour de maladie}}
+* {{lien|Krebstag|de|sens=journée du cancer}}
+* {{lien|Kriegstag|de|sens=jour de guerre}}
+* {{lien|Krisentag|de}}
+* {{lien|Krönungstag|de}}
+* {{lien|Kulturtag|de}}
+* {{lien|Künstlertag|de}}
+* {{lien|Kunsttag|de}}
+* {{lien|Kurstag|de}}
+* {{lien|Kurtag|de}}
+* {{lien|Kurzarbeitstag|de}}
+* {{lien|Kurzfilmtag|de|sens=journée du court-métrage}}
+* {{lien|Küstentag|de}}
+* {{lien|Lagertag|de}}
+* {{lien|Landfrauentag|de}}
+* {{lien|Landschaftstag|de}}
+* {{lien|Lebenstag|de|sens=jour de vie}}
+* {{lien|Lebtag|de}}
+* {{lien|Lehrgangstag|de}}
+* {{lien|Leopolditag|de|sens=jour de la Saint-Léopold}}
+* {{lien|Lesetag|de}}
+* {{lien|Liefertag|de|sens=jour de livraison}}
+* {{lien|Liegetag|de}}
+* {{lien|Literaturtag|de|sens=journée littéraire}}
+* {{lien|Lohntag|de}}
+* {{lien|Lostag|de|sens=jour décisif pour les travaux agricoles}}
+* {{lien|Mädchentag|de}}
+* {{lien|Männertag|de|sens=journée de l'homme}}
+* {{lien|Märchentag|de}}
+* {{lien|Marientag|de}}
+* {{lien|Markttag|de|sens=jour de marché}}
+* {{lien|Marschtag|de|sens=journée de marche}}
+* {{lien|Martinstag|de|sens=jour de la Saint-Martin}}
+* {{lien|Meditationstag|de}}
+* {{lien|Meisterschaftstag|de}}
+* {{lien|Menschenrechtstag|de|sens=journée internationale des droits de l'homme}}
+* {{lien|Messetag|sens=jour de foire », « jour de salon}}
+* {{lien|Metzeltag|de}}
+* {{lien|Michaelistag|de}}
+* {{lien|Misstag|de}}
+* {{lien|Monatstag|de}}
+* {{lien|Mondtag|de}}
+* {{lien|Mordtag|de}}
+* {{lien|Museumstag|de}}
+* {{lien|Musikschultag|de}}
+* {{lien|Muttertag|de|sens=fête des mères}}
+* {{lien|Nachkriegstag|de}}
+* {{lien|Nachsommertag|de}}
+* {{lien|Namenstag|de|sens=fête}}
+* {{lien|Nationaltag|de}}
+* {{lien|Naturschutztag|de}}
+* {{lien|Neujahrstag|de|sens=jour de l'an}}
+* {{lien|Nichtrauchertag|de}}
+* {{lien|Nikolaustag|de}}
+* {{lien|Nimmerleinstag|de}}
+* {{lien|Normaltag|de}}
+* {{lien|Obsttag|de|sens=jour de fruits}}
+* {{lien|Öffnungstag|de}}
+* {{lien|Ökoschuldentag|de|sens=jour du dépassement}}
+* {{lien|Olympiatag|de}}
+* {{lien|Operationstag|de}}
+* {{lien|OP-Tag|de}}
+* {{lien|Orientierungstag|de}}
+* {{lien|Ostertag|de|sens=jour de Pâques}}
+* {{lien|Parlamentstag|de}}
+* {{lien|Partnerschaftstag|de}}
+* {{lien|Patiententag|de}}
+* {{lien|Pechtag|de}}
+* {{lien|Pennälertag|de|sens=assemblée des étudiants}}
+* {{lien|Pfingsttag|de|sens=jour de la Pentecôte}}
+* {{lien|Pflegetag|de}}
+* {{lien|Pioniertag|de}}
+* {{lien|Polartag|de}}
+* {{lien|Posttag|de|sens=jour d'acheminement du courrier}}
+* {{lien|Präventionstag|de}}
+* {{lien|Prangertag|de}}
+* {{lien|Praxistag|de}}
+* {{lien|Premierentag|de}}
+* {{lien|Pressetag|de}}
+* {{lien|Probentag|de}}
+* {{lien|Produktionstag|de}}
+* {{lien|Programmtag|de}}
+* {{lien|Projekttag|de|sens=jour de projet}}
+* {{lien|Protesttag|de}}
+* {{lien|Prozesstag|de|sens=jour de procès}}
+* {{lien|Prüfungstag|de}}
+* {{lien|Publikumstag|de}}
+* {{lien|Putschtag|de}}
+* {{lien|Putztag|de}}
+* {{lien|Radiotag|de}}
+* {{lien|Radwandertag|de}}
+* {{lien|Rasttag|de|sens=jour décisif pour les travaux agricoles}}
+* {{lien|Räumungstag|de}}
+* {{lien|Recyclingtag|de}}
+* {{lien|Redaktionstag|de}}
+* {{lien|Reformationstag|sens=fête de la Réformation », « fête de la Réforme}}
+* {{lien|Regierungstag|de}}
+* {{lien|Reisetag|sens=jour de voyage », « journée de voyage}}
+* {{lien|Reistag|de}}
+* {{lien|Renntag|de|sens=jour de course}}
+* {{lien|Restetag|de}}
+* {{lien|Revolutionstag|de}}
+* {{lien|Rosentag|de}}
+* {{lien|Rotkreuztag|de|sens=journée internationale de la Croix-Rouge}}
+* {{lien|Ruhetag|sens=jour de repos », « jour de fermeture}}
+* {{lien|Ruhmestag|de|sens=jour de gloire}}
+* {{lien|Rüsttag|de}}
+* {{lien|Safttag|de|sens=jour de jus}}
+* {{lien|Saisontag|de}}
+* {{lien|Sammeltag|de}}
+* {{lien|Sankt-Nimmerleins-Tag|de}}
+* {{lien|Schachtag|de}}
+* {{lien|Schalttag|de|sens=jour intercalaire}}
+* {{lien|Scheißtag|de}}
+* {{lien|Schicksalstag|de}}
+* {{lien|Schießtag|de}}
+* {{lien|Schillertag|de}}
+* {{lien|Schlachttag|de|sens=jour d'abattage}}
+* {{lien|Schlaftag|de}}
+* {{lien|Schließtag|de|sens=jour de fermeture}}
+* {{lien|Schlusstag|de}}
+* {{lien|Schmerztag|de|sens=jour de congrès sur la douleur}}
+* {{lien|Schnuppertag|de}}
+* {{lien|Schöpfungstag|de|sens=jour de la création}}
+* {{lien|Schreckenstag|de}}
+* {{lien|Schülertag|de}}
+* {{lien|Schultag|sens=jour de classe », « jour d'école}}
+* {{lien|Sedantag|de}}
+* {{lien|Selbsthilfetag|de}}
+* {{lien|Seminartag|de}}
+* {{lien|Sendetag|de}}
+* {{lien|Seniorentag|de}}
+* {{lien|Sicherheitstag|de}}
+* {{lien|Siebenschläfertag|de}}
+* {{lien|Siegestag|de}}
+* {{lien|Silvestertag|de|sens=jour de la Saint-Sylvestre}}
+* {{lien|SI-Tag|de|sens=jour (dans le système international)}}
+* {{lien|Sitzungstag|de|sens=jour de réunion}}
+* {{lien|Skitag|de}}
+* {{lien|Solartag|de}}
+* {{lien|Soldatentag|de}}
+* {{lien|Solidaritätstag|de}}
+* {{lien|Spargeltag|de}}
+* {{lien|Spartag|de}}
+* {{lien|Spieltag|de|sens=journée de championnat}}
+* {{lien|Spitzentag|de}}
+* {{lien|Sporttag|de}}
+* {{lien|Sprechtag|de|sens=jour de consultation}}
+* {{lien|Staatstrauertag|de}}
+* {{lien|Starttag|de}}
+* {{lien|Stefanietag|de}}
+* {{lien|Stephanstag|de}}
+* {{lien|Stephanustag|de}}
+* {{lien|Sterbetag|de|sens=jour du décès}}
+* {{lien|Sterntag|de}}
+* {{lien|Stichtag|sens=jour fixé », « date limite}}
+* {{lien|Streiktag|de|sens=jour de grève}}
+* {{lien|Studententag|de}}
+* {{lien|Studientag|de|sens=journée d'étude}}
+* {{lien|Tag der Arbeit|de|sens=Fête du travail}}
+* {{lien|Tag der Befreiung|de}}
+* {{lien|Tag der Deutschen Einheit|de}}
+* {{lien|Tag der offenen Tür|de}}
+* {{lien|Tag des Gedenkens an die Opfer des Nationalsozialismus|de}}
+* {{lien|Tanztag|de}}
+* {{lien|Tattag|de}}
+* {{lien|Tauschtag|de}}
+* {{lien|Technologietag|de}}
+* {{lien|Tennistag|de}}
+* {{lien|Testtag|de}}
+* {{lien|Theatertag|de}}
+* {{lien|Thementag|de}}
+* {{lien|Theorietag|de}}
+* {{lien|Tierschutztag|de}}
+* {{lien|Todestag|de|sens=jour de la mort}}
+* {{lien|Trainingstag|de|sens=journée d'entraînement}}
+* {{lien|Transporttag|de}}
+* {{lien|Trauertag|de|sens=jour de tristesse}}
+* {{lien|Traumtag|de}}
+* {{lien|Trendtag|de}}
+* {{lien|Trompetentag|de}}
+* {{lien|Turniertag|de}}
+* {{lien|Turntag|de}}
+* {{lien|Übungstag|de}}
+* {{lien|Umwelttag|de}}
+* {{lien|Umzugstag|de|sens=jour de déménagement}}
+* {{lien|Unabhängigkeitstag|de|sens=jour de l'indépendance}}
+* {{lien|Unfalltag|de}}
+* {{lien|Unglückstag|de|sens=jour de malchance}}
+* {{lien|Universitätstag|de}}
+* {{lien|Unterrichtstag|de|sens=jour de cours}}
+* {{lien|Urlaubstag|de|sens=jour de vacances}}
+* {{lien|Valentinstag|de|sens=jour de la Saint-Valentin}}
+* {{lien|Vatertag|de|sens=fête des pères}}
+* {{lien|Veranstaltungstag|de}}
+* {{lien|Verfahrenstag|de}}
+* {{lien|Verfallstag|de}}
+* {{lien|Verfassungstag|de}}
+* {{lien|Verhandlungstag|de|sens=jour de négociation}}
+* {{lien|Verkaufstag|de|sens=jour de vente}}
+* {{lien|Verkehrssicherheitstag|de}}
+* {{lien|Verkehrstag|de}}
+* {{lien|Verlobungstag|de}}
+* {{lien|Vernehmungstag|de}}
+* {{lien|Versammlungstag|de}}
+* {{lien|Versöhnungstag|de}}
+* {{lien|Versteigerungstag|de}}
+* {{lien|Verwaltungstag|de}}
+* {{lien|Videotag|de}}
+* {{lien|Volkstrauertag|de|sens=jour de deuil national (allemand)}}
+* {{lien|Vorkriegstag|de}}
+* {{lien|Vorlesetag|de}}
+* {{lien|Vorrundentag|de}}
+* {{lien|Vorstellungstag|de}}
+* {{lien|Vortag|de|sens=veille}}
+* {{lien|Veggietag|de}}
+* {{lien|Wahlkampftag|de}}
+* {{lien|Wahltag|de|sens=jour d'élection}}
+* {{lien|Wallfahrtstag|de}}
+* {{lien|Wandertag|de|sens=journée de randonnée}}
+* {{lien|Warmbadetag|de|sens=journée de bain chaud}}
+* {{lien|Warntag|de}}
+* {{lien|Waschtag|de|sens=jour de lessive}}
+* {{lien|Wassertag|de}}
+* {{lien|Wehtag|de}}
+* {{lien|Weihnachtstag|de|sens=jour de Noël}}
+* {{lien|Weinbautag|de}}
+* {{lien|Weintag|de}}
+* {{lien|Weltautismustag|de}} ou {{lien|Welt-Autismus-Tag|de|sens= journée mondiale de l'autisme}}
+* {{lien|Welt-Down-Syndrom-Tag|de|sens=journée mondiale de la trisomie 21}}
+* {{lien|Weltdrogenstag|de|sens=journée mondiale de lutte contre la drogue}}
+* {{lien|Welternährungstag|de}}
+* {{lien|Welterschöpfungstag|de|sens=jour du dépassement}}
+* {{lien|Weltflüchtlingstag|de|sens=journée mondiale des réfugiés}}
+* {{lien|Weltfriedenstag|de|sens=journée internationale de la paix}}
+* {{lien|Weltgesundheitstag|de}}
+* {{lien|Welthändehygienetag|de|sens=journée mondiale de l'hygiène des mains}}
+* {{lien|Welthygienetag|de|sens=journée mondiale de l'hygiène}}
+* {{lien|Weltkrebstag|de|sens=journée mondiale contre le cancer}}
+* {{lien|Weltmeisterschaftstag|de}} ou {{lien|WM-Tag|de|sens= journée du championnat du monde}}
+* {{lien|Weltmenschtag|de|sens=journée mondiale de l'homme}}
+* {{lien|Weltmundgesundheitstag|de|sens=journée mondiale de la santé bucco-dentaire}}
+* {{lien|Weltnichtrauchertag|de|sens=journée mondiale sans tabac}}
+* {{lien|Welt-Nutella-Tag|de|sens=journée mondiale du Nutella}}
+* {{lien|Weltspartag|de|sens=journée mondiale de l'épargne}}
+* {{lien|Welttag|sens=journée internationale », « journée mondiale}}
+* {{lien|Wendetag|de}}
+* {{lien|Werkeltag|de}}
+* {{lien|Werktag|de|sens=jour ouvrable}}
+* {{lien|Westerntag|de}}
+* {{lien|Wettbewerbstag|de}}
+* {{lien|Wettkampftag|de|sens=jour de compétition}}
+* {{lien|Widerstandstag|de}}
+* {{lien|Wirtschaftstag|de}}
+* {{lien|Wissenschaftstag|de}}
+* {{lien|WM-Tag|de}}
+* {{lien|Wochenendtag|de}}
+* {{lien|Wochentag|de|sens=jour de la semaine}}
+* {{lien|Zahltag|de|sens=jour de paie}}
+* {{lien|Zeugnistag|de}}
+* {{lien|Zusatztag|de}}
+* {{lien|Zwickeltag|de|sens=pont}}
+{{)}}
+{{(|&nbsp;}}
+* {{lien|Eistag|de}}
+* {{lien|Frosttag|sens=jour de gel », « jour de gelée}}
+* {{lien|Gewittertag|de}}
+* {{lien|Hageltag|de}}
+* {{lien|Hitzetag|de|sens=jour de canicule}}
+* {{lien|Hundstage|de|sens=canicule}}
+* {{lien|Nebeltag|de|sens=jour de brume}}
+* {{lien|Regentag|sens=jour de pluie », « journée pluvieuse}}
+* {{lien|Schlechtwettertag|de}}
+* {{lien|Schneetag|de}}
+* {{lien|Sonnentag|sens=jour ensoleillé », « jour de soleil}}
+* {{lien|Sturmtag|de}}
+* {{lien|Tropentag|de|sens=journée tropicale}}
+* {{lien|Windtag|de}}
+* {{lien|Wolkentag|de}}
+* {{lien|Wüstentag|sens=jour de retraite dans le désert », « jour de canicule}}
+{{)}}
+{{(|jours de la semaine}}
+* {{lien|Montag|de|sens=lundi}}
+* {{lien|Dienstag|de|sens=mardi}}
+* {{lien|Mittwoch|de|sens=mercredi}}
+* {{lien|Donnerstag|de|sens=jeudi}}
+* {{lien|Freitag|de|sens=vendredi}}
+* {{lien|Samstag|de|sens=samedi}}
+* {{lien|Sonnabend|de|sens=samedi}}
+* {{lien|Sonntag|de|sens=dimanche}}
+* {{lien|Fischtag|de|sens=vendredi}}
+* {{lien|Kalendertag|de|sens=jour du calendrier}}
+{{)}}
+{{(|par mois}}
+* {{lien|Januartag|de|sens=jour de janvier}}
+* {{lien|Februartag|de|sens=jour de février}}
+* {{lien|Märztag|de}}
+* {{lien|Apriltag|de|sens=jour d'avril}}
+* {{lien|Maitag|de|sens=jour de mai}}
+* {{lien|Junitag|de|sens=jour de juin}}
+* {{lien|Julitag|de|sens=jour de juillet}}
+* {{lien|Augusttag|de|sens=jour d'août}}
+* {{lien|Septembertag|de|sens=jour de septembre}}
+* {{lien|Oktobertag|de|sens=jour d'octobre}}
+* {{lien|Novembertag|de|sens=jour de novembre}}
+* {{lien|Dezembertag|de|sens=jour de décembre}}
+{{)}}
+{{(|par planète}}
+* {{lien|Merkurtag|de|sens=journée mercurienne}}
+* {{lien|Venustag|de}}
+* {{lien|Marstag|de|sens=jour martien}}
+* {{lien|Jupiter-Tag|de}}
+* {{lien|Saturn-Tag|de|sens=journée saturnienne}}
+* {{lien|Uranus-Tag|de|sens=journée uranienne}}
+* {{lien|Neptun-Tag|de}}
+{{)}}
+{{(|par durée de travail}}
+* {{lien|Achtstundentag|de}} ou {{lien|Acht-Stunden-Tag|de|sens= journée de huit heures}}
+* {{lien|Achtzehn-Stunden-Tag|de|sens=journée de dix-huit heures}}
+* {{lien|Fünfzehnstundentag|de}}
+* {{lien|Ganztag|de}}
+* {{lien|Halbtag|de|sens=mi-temps}}
+* {{lien|Sechsstundentag|de}}
+* {{lien|Vierzehnstundentag|de}}
+* {{lien|Zehnstundentag|de}}
+* {{lien|Zwölfstundentag|de}}
+{{)}}
+{{(|par saison}}
+* {{lien|Frühjahrstag|de|sens=journée de printemps}}
+* {{lien|Frühlingstag|sens=jour du printemps », « journée de printemps}}
+* {{lien|Herbsttag|sens=jour d'automne », « journée d'automne}}
+* {{lien|Spätherbsttag|de}}
+* {{lien|Sommertag|de|sens=jour d'été}}
+* {{lien|Hochsommertag|de|sens=jour de plein été}}
+* {{lien|Spätsommertag|de}}
+* {{lien|Wintertag|sens=jour d'hiver », « journée d'hiver}}
+* {{lien|Spätwintertag|de}}
+{{)}}
+{{(|par personne honorée}}
+* {{lien|Musiktag|de}}
+* {{lien|Beethoventag|de}}
+* {{lien|Brucknertag|de}}
+* {{lien|Chopin-Tag|de}}
+* {{lien|Haydntag|de}}
+* {{lien|Heinrich-Schütz-Tag|de}}
+* {{lien|Malertag|de}}
+* {{lien|Mozart-Tag|de}}
+* {{lien|Telemann-Tag|de}}
+{{)}}
+{{(|mesures de distance}}
+* {{lien|Entfernungsmaß|de}}
+* {{lien|Lichttag|sens=période du jour naturellement éclairée », « jour-lumière}}
+{{)}}
+{{(|jours fériés anglo-américains}}
+* {{lien|Arbor Day|de}}
+* {{lien|Boxing-Day|de}}
+* {{lien|Boys' Day|de}}
+* {{lien|Cheatday|de}}
+* {{lien|Christopher-Street-Day|de}}
+* {{lien|D-Day|de}}
+* {{lien|Girls’ Day|de}}
+* {{lien|Independence Day|de}}
+* {{lien|Thanksgiving Day|de}}
+* {{lien|Veggieday|de}}
+{{)}}
+{{(|par profession}}
+* {{lien|Anwaltstag|de}}
+* {{lien|Ärztetag|de}}
+* {{lien|Baugewerbetag|de}}
+* {{lien|Bezirkstag|de}}
+* {{lien|Buchhändlertag|de}}
+* {{lien|Bundestag|sens=chambre des députés », « parlement fédéral}}
+* {{lien|Bürgertag|de}}
+* {{lien|Chortag|de}}
+* {{lien|Delegiertentag|de}}
+* {{lien|Diözesantag|de}}
+* {{lien|Existenzgründertag|de}}
+* {{lien|Fakultätentag|de}}
+* {{lien|Feuerwehrtag|de}}
+* {{lien|Fremdenverkehrstag|de}}
+* {{lien|Fürstentag|sens=conseil princier », « diète princière}}
+* {{lien|Gemeindetag|de|sens=assemblée des communes}}
+* {{lien|Geografentag|de}}
+* {{lien|Gewerkschaftstag|de|sens=réunion syndicale}}
+* {{lien|Handelskammertag|de|sens=assemblée des chambres de commerce}}
+* {{lien|Handwerkskammertag|de}}
+* {{lien|Hausärztetag|de}}
+* {{lien|Historikertag|de}}
+* {{lien|Juristentag|de|sens=assemblée de juristes}}
+* {{lien|Katholikentag|de|sens=congrès catholique}}
+* {{lien|Kirchentag|de}} ou {{lien|Kirchtag|de|sens=  congrès protestant}}
+* {{lien|Kreistag|de|sens=conseil de district}}
+* {{lien|Landestag|de}}
+* {{lien|Landkreistag|de|sens=assemblée des Landkreist}}
+* {{lien|Landtag|de|sens=parlement d'un Land allemand}}
+* {{lien|Lehrertag|de}}
+* {{lien|Maklertag|de}}
+* {{lien|Medientag|de|sens=jour des médias}}
+* {{lien|Mietertag|de}}
+* {{lien|Mineralientag|de}}
+* {{lien|Modellflugtag|de}}
+* {{lien|Modetag|de}}
+* {{lien|Motorradtag|de}}
+* {{lien|Mühlentag|de}}
+* {{lien|Mundarttag|de}}
+* {{lien|Naturheiltag|de}}
+* {{lien|Orgeltag|de}}
+* {{lien|Parteitag|de|sens=congrès du parti}}
+* {{lien|Reichstag|sens=chambre des députés », « diète d'empire}}
+* {{lien|Reitertag|de}}
+* {{lien|Richtertag|de}}
+* {{lien|Sängertag|de}}
+* {{lien|Schützentag|de}}
+* {{lien|Seglertag|de}}
+* {{lien|Soziologentag|de|sens=congrès des sociologues}}
+* {{lien|Sparkassentag|de}}
+* {{lien|Sportbundtag|de}}
+* {{lien|Städtetag|de|sens=congrès des maires}}
+* {{lien|Ständetag|de}}
+* {{lien|Steuerberatertag|de}}
+* {{lien|Strafverteidigertag|de}}
+* {{lien|Unternehmertag|de}}
+* {{lien|Verbandstag|de}}
+* {{lien|Vereinstag|de}}
+* {{lien|Werfertag|de}}
+* {{lien|Zahnärztetag|de}}
+{{)}}
+
+=== {{S|nom|de|num=2}} ===
+{{de-nom-m-s-s|genre=mn}}
+'''Tag''' {{pron|tæg|de}} ou {{pron|tɛk|de}} {{mn ?|de}}
+# {{lexique|art|de}} [[tag|Tag]], [[graffiti]], (inscription ou dessin griffonné sur des murs).
+#* {{exemple|lang=de}}
+
+==== {{S|dérivés}} ====
+* [[Hashtag]] (''hashtag'')
+* [[taggen]] (''taguer'')
+
+=== {{S|prononciation}} ===
+* {{écouter|Berlin (Allemagne)|tɛk|lang=de|audio=De-Tag3.ogg}}
+* {{écouter|{{DE|nocat=1}}|taːk|lang=de|audio=De-Tag(en).ogg}}
+* {{écouter|{{DE|nocat=1}}|taːk|lang=de|audio=De-Tag(de).ogg}}
+* {{écouter|{{DE|nocat=1}}|taːk|lang=de|audio=De-Tag.ogg}}
+* {{écouter|Berlin (Allemagne)|taːk|lang=de|audio=De-Tag2.ogg}}
+* {{écouter|Vienne (Autriche)|taːk|lang=de|audio=De-at-Tag.ogg}}
+* {{écouter|{{DE|nocat=1}}|taːk|lang=de|audio=LL-Q188 (deu)-Lucas Werkmeister-Tag.wav}}
+* {{écouter|Berlin (Allemagne)|taːk|lang=de|audio=LL-Q188 (deu)-Sebastian Wallroth-Tag.wav}}
+* {{écouter|Munich (Allemagne)|taːk|lang=de|audio=LL-Q188 (deu)-Ionenlaser-Tag.wav}}
+
+=== {{S|références}} ===
+<references />
+
+==== {{S|sources}} ====
+* {{R:Duden|Tag}}
+* {{R:DWDS|Tag}}
+* {{Source-wikt|de|Tag}}
+
+==== {{S|bibliographie}} ====
+* ''Larousse - Dictionnaire allemand/français – français/allemand'', éd. 1958, page 701
+* ''Harrap’s – Bordas Dictionnaire allemand/français'', éd. 1997, ISBN 0-245-50308-0, page 286
+
+=== {{S|anagrammes}} ===
+{{voir anagrammes|de}}
+
+[[Catégorie:Calendrier en allemand]]
+
+== {{langue|gsw-fr}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|gsw-fr}}
+
+=== {{S|nom|gsw-fr}} ===
+'''Tag''' {{pron||gsw-fr}} {{m}}
+# {{lexique|temps|gsw-fr}} [[jour|Jour]], [[journée]].
+
+== {{langue|pl}} ==
+=== {{S|étymologie}} ===
+: {{ébauche-étym|pl}}
+
+=== {{S|nom propre|pl}} ===
+'''Tag''' {{pron||pl}}
+# {{cours d’eau|pl}} [[Tage]] (fleuve).

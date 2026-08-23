@@ -114,66 +114,61 @@ export const SOURCES_MINIMUM = 2
 // La ponctuation finale est un artefact de source, pas une différence de forme :
 // culture_alsace termine ses entrées de lexique par un point (« Jüli. ») là où
 // wiktionnaire_fr ne le fait pas (« Jüli »). Les traiter comme deux formes
-// distinctes ferait manquer de vrais recoupements. Sert à COMPARER seulement —
-// ce qui est stocké reste une forme copiée telle quelle d'une source.
-export function normaliserFormeAttestee(forme: string): string {
-    return forme.trim().replace(/[.;,\s]+$/, '').trim()
+// distinctes ferait manquer de vrais recoupements. Sert de CLÉ de comparaison
+// seulement — ce qui est publié reste une graphie copiée telle quelle.
+function cleDeForme(alsacien: string): string {
+    return alsacien.trim().replace(/[.;,\s]+$/, '')
 }
 
-// Les formes alsaciennes sur lesquelles au moins SOURCES_MINIMUM sources
-// distinctes s'accordent, les mieux recoupées d'abord.
-export function formesRecoupees(variantes: VarianteAttestee[]): string[] {
-    const sourcesParForme = new Map<string, Set<string>>()
+// Une forme alsacienne attestée, avec ce qui la fonde. Les regrouper une fois
+// évite de re-normaliser les mêmes chaînes à chaque question posée : qui
+// l'atteste, quelle graphie publier, quelle région.
+interface FormeAttestee {
+    graphie: string
+    sources: Set<string>
+    region: Region | null
+}
+
+function grouperParForme(variantes: VarianteAttestee[]): FormeAttestee[] {
+    const parForme = new Map<string, FormeAttestee>()
+
     for (const v of variantes) {
-        const forme = normaliserFormeAttestee(v.alsacien)
-        if (!forme) continue
-        const sources = sourcesParForme.get(forme) ?? new Set<string>()
-        sources.add(v.source_id)
-        sourcesParForme.set(forme, sources)
-    }
-    return Array.from(sourcesParForme.entries())
-        .filter(([, sources]) => sources.size >= SOURCES_MINIMUM)
-        .sort((a, b) => b[1].size - a[1].size)
-        .map(([forme]) => forme)
-}
+        const cle = cleDeForme(v.alsacien)
+        if (!cle) continue
 
-// Parmi les attestations d'une même forme, la graphie à retenir. On préfère
-// celle qu'une source écrit sans ponctuation finale — c'est encore un verbatim,
-// pas une réécriture (règle 1). Si aucune source ne l'écrit ainsi, on garde la
-// forme attestée telle quelle, point compris : mieux vaut une coquille de source
-// qu'une forme que personne n'a écrite.
-function graphieRetenue(variantes: VarianteAttestee[], forme: string): string {
-    const correspondantes = variantes.filter((v) => normaliserFormeAttestee(v.alsacien) === forme)
-    const propre = correspondantes.find((v) => v.alsacien.trim() === forme)
-    return (propre ?? correspondantes[0])?.alsacien.trim() ?? forme
-}
-
-// Construit le tableau traductions d'un candidat recoupé : la forme d'accord en
-// index 0 (« Premier est Roi »), puis les autres formes attestées comme
-// variantes — la doctrine conserve les variantes quand elles diffèrent. Aucune
-// forme n'est inventée : toutes sortent des attestations reçues.
-export function traductionsRecoupees(variantes: VarianteAttestee[]): Traduction[] {
-    const recoupees = formesRecoupees(variantes)
-    if (recoupees.length === 0) return []
-
-    const vues = new Set<string>()
-    const ordonnees = [
-        ...recoupees,
-        ...variantes.map((v) => normaliserFormeAttestee(v.alsacien)).filter(Boolean),
-    ].filter((forme) => {
-        if (vues.has(forme)) return false
-        vues.add(forme)
-        return true
-    })
-
-    return ordonnees.map((forme) => {
-        const correspondantes = variantes.filter((v) => normaliserFormeAttestee(v.alsacien) === forme)
-        const region = correspondantes.find((v) => v.region !== null)?.region ?? null
-        return {
-            alsacien: graphieRetenue(variantes, forme),
-            region,
-            niveau: null,
-            note: null,
+        const graphie = v.alsacien.trim()
+        const connue = parForme.get(cle)
+        if (!connue) {
+            parForme.set(cle, { graphie, sources: new Set([v.source_id]), region: v.region })
+            continue
         }
-    })
+
+        connue.sources.add(v.source_id)
+        // On préfère la graphie qu'une source écrit sans ponctuation finale :
+        // c'est encore un verbatim, pas une réécriture (règle 1). À défaut, la
+        // première attestée part telle quelle — mieux vaut une coquille de
+        // source qu'une forme que personne n'a écrite.
+        if (connue.graphie !== cle && graphie === cle) connue.graphie = graphie
+        connue.region ??= v.region
+    }
+
+    return Array.from(parForme.values())
+}
+
+// Le tableau traductions d'un candidat recoupé, ou [] s'il ne l'est pas.
+// Trier par nombre de sources décroissant suffit à tout ordonner : la forme
+// d'accord se retrouve en index 0 — la canonique au sens « Premier est Roi » —
+// et les formes à source unique suivent comme variantes, que la doctrine
+// conserve quand elles diffèrent. Aucune forme n'est inventée.
+export function traductionsRecoupees(variantes: VarianteAttestee[]): Traduction[] {
+    const formes = grouperParForme(variantes).sort((a, b) => b.sources.size - a.sources.size)
+
+    if (!formes.length || formes[0].sources.size < SOURCES_MINIMUM) return []
+
+    return formes.map((f) => ({
+        alsacien: f.graphie,
+        region: f.region,
+        niveau: null,
+        note: null,
+    }))
 }

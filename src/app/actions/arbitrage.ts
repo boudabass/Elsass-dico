@@ -124,15 +124,16 @@ export interface CandidatRecoupe extends Candidat {
 // Les candidats que l'on peut publier sans arbitrage manuel : ceux dont au
 // moins deux sources distinctes écrivent LA MÊME forme alsacienne. Critère
 // strictement plus exigeant que la garde de arbitrer_entree() — voir le
-// commentaire de formesRecoupees() dans @/lib/dictionnaire.
+// commentaire de traductionsRecoupees() dans @/lib/dictionnaire.
 export async function listerCandidatsRecoupes(terme?: string): Promise<CandidatRecoupe[]> {
     const garde = await requireAdmin()
     if (!garde.authorized) return []
 
     const supabase = await createClient()
     const recoupes: CandidatRecoupe[] = []
+    let page = 0
 
-    for (let page = 0; page < MAX_PAGES_RECOUPEES; page++) {
+    for (; page < MAX_PAGES_RECOUPEES; page++) {
         const { data, error } = await supabase.rpc('candidats_arbitrage', {
             p_terme: terme?.trim() || null,
             p_limite: PAGE_CANDIDATS,
@@ -156,6 +157,16 @@ export async function listerCandidatsRecoupes(terme?: string): Promise<CandidatR
         // sources, les suivantes n'en porteront pas non plus.
         const encoreRecoupable = lot.some((c) => c.nb_sources >= SOURCES_MINIMUM)
         if (lot.length < PAGE_CANDIDATS || !encoreRecoupable) break
+    }
+
+    // Sortie par épuisement du compteur et non par la coupure naturelle : le lot
+    // est incomplet. Sans ce signal, un admin verrait moins de candidats qu'il
+    // n'en existe sans que rien ne le lui dise.
+    if (page === MAX_PAGES_RECOUPEES) {
+        console.warn(
+            `[Arbitrage] Lot recoupé tronqué : ${MAX_PAGES_RECOUPEES * PAGE_CANDIDATS} candidats parcourus ` +
+            `sans atteindre les candidats à source unique. Relever MAX_PAGES_RECOUPEES.`,
+        )
     }
 
     return recoupes

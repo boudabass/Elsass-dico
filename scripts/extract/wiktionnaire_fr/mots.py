@@ -100,11 +100,56 @@ RÈGLES APPLIQUÉES (article 720 + spec carte t_ade43e0f)
   « Alémanique » est le titre rendu de la section {{langue|gsw}} (constaté
   via l'API parse, prop=sections, le 09/08/2026).
 
+RECONTEXTUALISATION DES TOPONYMES — JOINTURE DÉPARTEMENT
+--------------------------------------------------------
+(carte t_de27b191, campagne 5 carte 2, décision John transmise par la
+passerelle Claude, article 725 — aligne mots sur gsw_fr, précédent
+t_2453a34f, décision John du 22/08/2026)
+
+Le contrat data/README.md réserve `contexte` au discriminant d'homonymie :
+les toponymes portent le département en clair (« Bas-Rhin » / « Haut-Rhin »),
+comme culture_alsace et alsacien_wikipedia. Or la page source porte les
+catégories thématiques (« Alsace ; Géographie », « Géographie ») : deux
+sources qui écrivent la MÊME forme alsacienne ne se rencontrent donc jamais
+dans candidats_arbitrage(), qui groupe sur (français normalisé, contexte).
+
+Pour les lignes type="toponyme" SEULES, contexte est donc remplacé par le
+département, déduit par JOINTURE EXACTE sur le nom français (francais) avec
+les toponymes culture_alsace déjà en base (data/attestations/
+culture_alsace__villes_villages_{br,hr}.jsonl — mêmes fichiers que
+gsw_fr.load_base()). Le département n'est JAMAIS deviné ni déduit d'un code
+postal : il est COPIÉ depuis la ligne jointe.
+
+  - clé présente avec UNE entrée unique  → contexte = département copié ;
+  - clé présente avec PLUSIEURS entrées (homonyme HR/BR : Bouxwiller, Buhl,
+    Breitenbach, Herrlisheim, Steinbach) → ligne CONSERVÉE telle quelle et
+    signalée (jointure_ambigue) ;
+  - clé ABSENTE → ligne CONSERVÉE telle quelle et signalée :
+      . contexte « Alsace ; Géographie » → sans_correspondance (commune
+        alsacienne absente de la base ou sous variante orthographique du
+        site de 2006 — œ/oe, tirets, Saint/St, accents — jamais rapprochée :
+        la carte exige une jointure EXACTE) ;
+      . autre contexte (« Géographie » ou « » — villes étrangères, capitales
+        : Berlin, Paris, Rome, Luxembourg…) → hors_perimetre (à examiner :
+        aucun département 67/68 possible, contexte thématique conservé).
+
+La ligne conservée est un « trou assumé » (règle 3 : un doute se signale, il
+ne se comble pas) : elle garde son contexte thématique d'origine, elle n'est
+pas inventée. Les lignes type="mot" ne sont JAMAIS touchées : leur contexte
+thématique (« Chimie ; Métallurgie »…) est un discriminant de sens légitime.
+
+À SAVOIR (comportement attendu, pas un défaut) : la clé UNIQUE porte sur
+source_id, toutes rubriques confondues. Après recontextualisation, quelques
+lignes de mots deviennent identiques à des lignes de gsw_fr et seront
+absorbées à la réingestion — à mentionner au rapport, pas à corriger ici.
+
 REJOUABILITÉ
 ------------
 Deux exécutions successives sur le même brut produisent un JSONL identique
 (git diff vide) : c'est la preuve qu'aucune ligne n'a été saisie à la main.
-Le parseur ne lit que data/raw/.
+Le parseur ne lit que data/raw/ et les fichiers versionnés de
+data/attestations/ (base culture_alsace de la jointure) : la jointure est
+hors-ligne et rejouable, comme la lecture du brut.
 """
 
 import json
@@ -135,6 +180,16 @@ CONTEXTES = {
     "métaux": "Métallurgie",
     "gâteaux": "Cuisine",
 }
+
+# Base culture_alsace pour la jointure des toponymes (carte t_de27b191).
+# Même modèle que gsw_fr.py (précédent t_2453a34f) : nom français officiel
+# déjà en base, jamais une traduction. Les deux fichiers sont versionnés
+# dans data/attestations/ : la jointure est hors-ligne et rejouable, comme
+# la lecture de data/raw/.
+BASE_FILES = [
+    REPO / "data" / "attestations" / "culture_alsace__villes_villages_hr.jsonl",
+    REPO / "data" / "attestations" / "culture_alsace__villes_villages_br.jsonl",
+]
 
 # Motifs de désignation commune/ville, constatés sur le rendu des définitions
 # (liens résolus) des pages du lot pilote élargi (t_ade43e0f, 10/08/2026).
@@ -292,15 +347,53 @@ def zones_etymologie(section: str) -> set[int]:
     return indices
 
 
-def extraire() -> tuple[list[dict], list[dict]]:
-    """Retourne (attestations, anomalies)."""
+def load_base() -> dict[str, list[dict]]:
+    """Base culture_alsace : francais -> liste d'entrées (contexte, region).
+
+    Même fonction que gsw_fr.load_base() (précédent t_2453a34f) : une clé
+    peut porter plusieurs entrées quand la commune figure dans les deux
+    pages (homonyme HR/BR — Bouxwiller, Buhl, Breitenbach, Herrlisheim,
+    Steinbach) : c'est précisément le cas à signaler. Les entrées
+    strictement identiques sont dédupliquées : Mulhouse (68100 et 68200)
+    porte une entrée unique (Haut-Rhin / haut_rhin). La jointure ne
+    réussit que si la clé existe ET porte une entrée unique.
+    """
+    base: dict[str, list[dict]] = {}
+    for f in BASE_FILES:
+        with f.open(encoding="utf-8") as fh:
+            for line in fh:
+                att = json.loads(line)
+                if att.get("type") != "toponyme":
+                    continue
+                key = att["francais"]
+                entry = {
+                    "contexte": att.get("contexte", ""),
+                    "region": att.get("region"),
+                }
+                if entry not in base.setdefault(key, []):
+                    base[key].append(entry)
+    return base
+
+
+def extraire() -> tuple[list[dict], list[dict], list[dict]]:
+    """Retourne (attestations, anomalies, signalements).
+
+    anomalies : lignes OMISES du JSONL (règle 3 — doute bloquant).
+    signalements : lignes CONSERVÉES telles quelles mais signalées au
+    rapport (jointure ambiguë, sans correspondance, hors périmètre) —
+    la recontextualisation ne les touche pas, leur contexte thématique
+    d'origine reste en place (carte t_de27b191).
+    """
     attestations: list[dict] = []
     anomalies: list[dict] = []
+    signalements: list[dict] = []
 
     fichiers = sorted(RAW_DIR.glob("*.wikitext.txt"))
     if not fichiers:
         print(f"aucun fichier brut dans {RAW_DIR}", file=sys.stderr)
-        return attestations, anomalies
+        return attestations, anomalies, signalements
+
+    base = load_base()  # jointure toponymes (carte t_de27b191)
 
     for fichier in fichiers:
         titre = fichier.name[:-len(".wikitext.txt")]
@@ -344,9 +437,46 @@ def extraire() -> tuple[list[dict], list[dict]]:
                 if region is not None:
                     att["region"] = region
                 att["reference"] = ref
+                if type_att == "toponyme":
+                    # Recontextualisation (carte t_de27b191) : contexte =
+                    # département, par jointure EXACTE sur le nom français
+                    # avec la base culture_alsace. Copié, jamais deviné.
+                    entrees = base.get(att["francais"], [])
+                    if len(entrees) == 1:
+                        att["contexte"] = entrees[0]["contexte"]
+                    elif len(entrees) > 1:
+                        signalements.append({
+                            "fichier": fichier.name,
+                            "type": "jointure_ambigue",
+                            "francais": att["francais"],
+                            "alsacien": lem,
+                            "contexte_origine": att["contexte"],
+                            "detail": "homonyme HR/BR dans culture_alsace — "
+                                      "contexte thématique conservé",
+                        })
+                    elif att["contexte"] == "Alsace ; Géographie":
+                        signalements.append({
+                            "fichier": fichier.name,
+                            "type": "sans_correspondance",
+                            "francais": att["francais"],
+                            "alsacien": lem,
+                            "contexte_origine": att["contexte"],
+                            "detail": "aucune clé exacte dans culture_alsace — "
+                                      "contexte thématique conservé",
+                        })
+                    else:
+                        signalements.append({
+                            "fichier": fichier.name,
+                            "type": "hors_perimetre",
+                            "francais": att["francais"],
+                            "alsacien": lem,
+                            "contexte_origine": att["contexte"],
+                            "detail": "ville étrangère/capitale hors 67/68 — "
+                                      "aucun département, contexte conservé",
+                        })
                 attestations.append(att)
 
-    return attestations, anomalies
+    return attestations, anomalies, signalements
 
 
 def main() -> int:
@@ -354,7 +484,7 @@ def main() -> int:
         print(f"dossier brut introuvable : {RAW_DIR}", file=sys.stderr)
         return 1
 
-    attestations, anomalies = extraire()
+    attestations, anomalies, signalements = extraire()
 
     OUT.parent.mkdir(parents=True, exist_ok=True)
     with OUT.open("w", encoding="utf-8") as fh:
@@ -365,6 +495,12 @@ def main() -> int:
     print(f"attestations produites : {len(attestations)}")
     toponymes = sum(1 for a in attestations if a["type"] == "toponyme")
     print(f"  dont toponymes : {toponymes}, mots : {len(attestations) - toponymes}")
+    if signalements:
+        print(f"\n--- SIGNALEMENTS (lignes CONSERVÉES telles quelles, règle 3) ---")
+        for s in signalements:
+            print(f"  [{s['type']}] {s['fichier']} : {s['francais']} / "
+                  f"{s['alsacien']} (contexte « {s['contexte_origine']} ») — "
+                  f"{s['detail']}")
     if anomalies:
         print(f"\n--- ANOMALIES (lignes OMISES, règle 3) ---")
         for a in anomalies:

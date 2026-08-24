@@ -740,6 +740,29 @@ mais **rubrique d'une source déjà en base et non troisième source**.
   choisir entre deux graphies attestées *est* l'arbitrage, et Orthal donne la
   règle. À ne pas confondre avec un gisement publiable en lot.
 
+### Le dictionnaire double : 332 entrées publiées (24/08/2026)
+
+**169 -> 332 entrées `valide`, 814 liens de traçabilité, en une journée et sans
+aucune donnée nouvelle.** 329 toponymes + 3 mois. Publiées en lot par John via
+l'onglet « Recoupées » après ingestion de la recontextualisation.
+
+Contrôles refaits en base après publication, comme le 23/08 :
+toutes `valide`, toutes signées (`valide_le`, `valide_par`), `nb_attestations >= 2`
+partout, aucune entrée sans lien, **0 forme publiée que personne n'ait écrite**
+(règle 1) et **0 forme canonique attestée par moins de 2 sources** (règle 2).
+Affichage vérifié avec la **clé anonyme** et non la clé de service :
+`Natzwiller -> Nàswil` et le sens inverse répondent, `sources_entree()` expose
+bien les trois sources, et `GET /attestations` rend `[]` à un visiteur — le brut
+ne fuite pas. La forme canonique est celle sur laquelle deux sources s'accordent,
+la variante à source unique suivant en second (« Premier est Roi ») :
+`Rangen -> ['Rànge', 'Range']`.
+
+**« Recoupées (0) » après publication a de nouveau été lu comme une panne.**
+C'est l'état normal, déjà documenté au 23/08 : `candidats_arbitrage()` exclut
+toute attestation rattachée à une entrée, donc un lot publié quitte la file. Le
+piège est réel — le compteur passe de 163 à 0 au moment précis où l'on réussit.
+Le contrôle qui tranche est le comptage des `entrees`, jamais l'onglet.
+
 ### Résultat des deux cartes (24/08/2026)
 
 **Recontextualisation ingérée : 169 -> 332 accords de forme, +163 candidats

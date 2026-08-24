@@ -207,7 +207,12 @@ Coolify self-hosted v4.1.2 sur VPS OVH. Supabase self-hosted à déployer dessus
   `elsassdico` a créé le board et les six profils `ed-*` (article 725). La
   séparation évitait qu'un profil généraliste prenne des décisions engageant la
   doctrine ; elle a tenu.
-- Prochaine étape (révisée le 23/08/2026) : **campagne 5, non tranchée.** Tout
+- Prochaine étape (tranchée le 24/08/2026) : **campagne 5 = troisième source
+  lexicale**, cf. la section « Campagne 5 » en fin de document. Le constat
+  ci-dessous, écrit le 23/08 quand la question était encore ouverte, reste exact
+  sur les chiffres — seule sa conclusion « non tranchée » est périmée.
+- (Conclusion périmée depuis le 24/08/2026, chiffres toujours valables)
+  Prochaine étape (révisée le 23/08/2026) : **campagne 5, non tranchée.** Tout
   ce qui précédait est fait — deuxième source (campagne 2), dictionnaire
   (campagne 3), deuxième source du lexique général (campagne 4), et
   169 premières entrées publiées. **Le goulot n'est plus le volume
@@ -689,6 +694,75 @@ construction toute attestation déjà rattachée à une entrée, donc un lot pub
 quitte la file. Les compteurs des deux autres onglets s'affichent en « 50+ » —
 `p_limite` plafonne les RPC de liste à 50, et afficher le nombre brut ferait
 lire une taille de page comme un total.
+
+## Campagne 5 — troisième source lexicale (lancée le 24/08/2026)
+
+**Décision de John : la troisième source, pas le chantier d'arbitrage** — des
+deux voies laissées ouvertes le 23/08. Carte de prospection `t_5858eff3`
+(`ed-prospecteur`, inventaire, **zéro extraction**), GATE avant tout pilote.
+Cadrage : critère de succès = **recoupements lexicaux**, jamais volume
+d'attestations ; critère de tri n°1 = la source doit apparier l'alsacien au
+**français** (un dictionnaire germanophone l'apparie à l'allemand — plafond
+Martin & Lienhart à 5 lignes, campagne 2) ; piège alémanique explicite
+(als.wikipedia et de.wiktionary mélangent suisse, souabe, badois). Piste
+secondaire à qualifier : le namespace `Wort:` d'als.wikipedia, jamais exploité,
+mais **rubrique d'une source déjà en base et non troisième source**.
+
+### Ce que le diagnostic préalable a établi (mesuré en base, pas estimé)
+
+- **La couverture est bien le goulot, pas la graphie.** `wiktionnaire_fr` ne
+  couvre que **0,8 %** des lemmes lexicaux de `culture_alsace` (184 sur 22 718).
+  Les deux sources ne parlent pas des mêmes mots — d'où une troisième source, et
+  non un travail sur les formes.
+- **165 accords bloqués par une convention de champ, pas par les données.**
+  `candidats_arbitrage()` groupe sur (français normalisé, **contexte**). Or la
+  rubrique `mots` de `wiktionnaire_fr` (campagne 2) porte `contexte =
+  "Alsace ; Géographie"` sur 490 toponymes, là où `culture_alsace` et
+  `alsacien_wikipedia` portent le département. Les deux ne se rencontrent donc
+  jamais, **même en écrivant exactement la même forme** (`Bàrr`, `Bìwelse`,
+  `Àndlöi`). 165 nets, hors `Breitenbach` et `Buhl` (homonymes réels). Le
+  regroupement par contexte est correct — c'est lui qui protège les deux
+  `Bouxwiller` ; c'est la donnée qui n'est pas au contrat. Carte studio envoyée
+  le 24/08 : régénération du JSONL par jointure exacte sur le nom français, puis
+  purge ciblée et réingestion par Claude Code (la clé UNIQUE est touchée, donc
+  `--resync` ne peut rien — précédent campagne 1). La rubrique `gsw_fr`
+  (campagne 4) applique déjà la bonne convention : c'est un alignement.
+- **L'article défini alsacien ne vaut pas un correctif.** `culture_alsace`
+  écrit `d'r lohn`, `s' schloss` (15 624 attestations lexicales sur 23 851),
+  ce qui fait échouer la comparaison avec `lohn`, `schloss`. L'ignorer pour
+  comparer ne gagne pourtant qu'**un** recoupement (`choucroute`). Un premier
+  chiffrage annonçait +13 : il était faux, produit par une normalisation qui
+  écrasait aussi casse et diacritiques. **Mesurer un recoupement avec une règle
+  plus permissive que `cleDeForme()` ne trouve rien, ça efface la question.**
+- **En revanche, 76 des 460 divergents ne diffèrent que par un diacritique**
+  (`Barr`/`Bàrr`, `Bischwiller`/`Bìschwiller`, `Àndloi`/`Àndlöi`). C'est un
+  volume d'**arbitrage manuel** rapide, jamais un recoupement automatique :
+  choisir entre deux graphies attestées *est* l'arbitrage, et Orthal donne la
+  règle. À ne pas confondre avec un gisement publiable en lot.
+
+### Clé d'arbitrage : `unaccent` fusionnait des mots français distincts
+
+Migration `20260824120000_cle_arbitrage_accents.sql`. La clé de groupement
+s'écrivait `immutable_unaccent(lower(btrim(francais)))`, ce qui réunissait
+`sur`/`sûr`, `ou`/`où`, `la`/`là`, `comte`/`comté`, `tache`/`tâche`,
+`ville`/`Villé` — **31 groupes**, présentés à l'arbitre comme un seul candidat
+mêlant deux sens. La clé devient `lower(btrim(francais))` dans les quatre
+fonctions qui la produisent ou la comparent (`candidats_arbitrage`,
+`detail_candidat`, `entrees_par_statut`, `propositions_orthal_candidat`).
+
+- La **recherche floue garde `unaccent`** — chercher « epreuve » doit trouver
+  « épreuve ». Elle s'écrit `lower(x)` sans `btrim`, elle n'est pas touchée.
+- **Aucune entrée publiée n'était fausse** : le critère d'accord sur la forme
+  les écartait de fait. Une seule voit sa clé se scinder, et c'est le cas
+  emblématique — `Villé`, commune du Bas-Rhin, aujourd'hui confondue avec le mot
+  `ville`. Le défaut était donc déjà à l'œuvre, sans dégât visible.
+- **L'index `ux_entrees_francais_contexte_normalise` n'est pas touché** : il
+  applique `immutable_unaccent` lui aussi, donc `sur` et `sûr` ne peuvent pas
+  coexister dans `entrees` sans contexte distinct. Décision du 24/08 : on le
+  laisse, ça ne gêne qu'au moment de publier les deux, et la doctrine sépare
+  déjà les homonymes par le contexte. À rouvrir si le cas se présente.
+- Comme toujours, **Coolify n'applique aucune migration** : à passer à la main
+  dans le SQL Editor du Studio.
 
 ## Règles de travail
 

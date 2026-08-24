@@ -740,6 +740,69 @@ mais **rubrique d'une source déjà en base et non troisième source**.
   choisir entre deux graphies attestées *est* l'arbitrage, et Orthal donne la
   règle. À ne pas confondre avec un gisement publiable en lot.
 
+### Résultat des deux cartes (24/08/2026)
+
+**Recontextualisation ingérée : 169 -> 332 accords de forme, +163 candidats
+recoupés, 0 perdu.** Le plus gros gain de recoupement depuis l'ouverture de la
+base, sans une seule donnée nouvelle. Les divergences tombent de 460 à 350.
+Total inchangé (27 179 attestations, `wiktionnaire_fr` 1594), recompté en base
+et non pris au rapport du script.
+
+- Diff contrôlé ligne à ligne avant purge : 349 lignes, **toutes `toponyme`,
+  toutes sur le seul champ `contexte`**, ordre préservé, aucune ligne perdue.
+- **349 recontextualisées et non ~490 comme la consigne l'annonçait** :
+  l'estimation était fausse, pas le travail. 154 des lignes non jointes sont des
+  communes que `culture_alsace` ne liste pas (`Bergbieten`, `Brumath`...) ou des
+  villes étrangères (`Berlin`, `Brême`). Les 8 non jointes dont le nom existe
+  pourtant côté `culture_alsace` sont les 5 homonymes attendus plus 3 cas où le
+  nom **français** diffère par un diacritique (`Sélestat`, `Seebach`,
+  `Lutzelhouse`) — jointure exacte, doute signalé, jamais deviné.
+- Purge sûre car vérifiée telle : **aucune des 349 ne fondait une entrée
+  publiée** (0 lien `entree_attestations`), sauvegarde complète écrite avant le
+  premier DELETE. Réingestion : 349 créées, 424 déjà présentes.
+- **Piège de mapping évité** : un premier plan de purge visait 350 lignes dont
+  une de type `mot`. Le JSONL porte deux `Neptune.` / `Neptun` (le dieu et la
+  planète), qu'un index par (français, alsacien) écrase l'un l'autre. **Le seul
+  mapping exact entre deux versions d'un JSONL est positionnel**, l'ordre des
+  lignes étant vérifié identique — pas une clé métier qu'on suppose unique.
+- **La simulation d'ingestion sert aussi à ça** : elle a révélé que le script
+  allait créer les trois sources candidates écartées (`elsadico`,
+  `freelang_alsacien`, `runneburger_benfeld`), présentes dans `data/sources/`
+  mais sans aucune attestation — `--source` ne filtre pas la création des
+  sources. `sources` étant exposée publiquement par `sources_entree()`, ces
+  fiches ont été retirées du sandbox avant `--apply`. La base garde 4 sources.
+
+**Prospection : il n'existe pas de troisième source lexicale libre de droits.**
+C'est le vrai résultat de la campagne, et il est négatif.
+
+- `elsadico` (3 333 mots) — **écartée sur l'indépendance** : dictionnaire de
+  Raymond Bitsch *avec la participation de Raymond Matzen*, or `culture_alsace`
+  est « Matzen et contributeurs ». Deux sources partageant le même linguiste ne
+  se recoupent pas, elles se répètent — règle 2 appliquée à la racine et non à
+  la surface. Droits réservés par ailleurs.
+- `freelang_alsacien` (5 478 entrées, bidirectionnel, auteurs indépendants
+  Alby/Muller) — la meilleure piste sur le fond, **bloquée sur les droits** :
+  les listes restent propriété des auteurs, pas de licence de réutilisation.
+- `runneburger_benfeld` (~98 720 entrées, parler de Benfeld) — probablement le
+  plus grand dictionnaire alsacien-français publié, **papier uniquement** : OCR
+  et saisie sont tous deux interdits par le contrat.
+- Aucune copie archivée pour ces trois-là — la question des droits se pose
+  **avant** la première copie.
+- Seule piste ouverte, **non extraite** : le namespace `Wort:` d'als.wikipedia
+  (CC BY-SA, ~970 couples, 8 pages archivées avec md5). C'est une **rubrique
+  d'`alsacien_wikipedia`**, jamais une troisième source. Son recoupement mesuré
+  est l'information décisive : **418 lemmes français communs sur 643 (65 %,
+  contre 0,8 % pour `wiktionnaire_fr`) mais 14 formes byte-identiques
+  seulement.** Au passage, `elsassisch.eu/LexiqueFrancaisAlsacien` s'est révélé
+  être un **miroir** de cette même page (398/468 identiques) — deuxième fois que
+  ce domaine tente de compter double.
+
+**Ce que ça change pour la suite.** Le goulot n'est plus la couverture mais
+**l'accord de graphie entre sources**. Une source de plus ne le règle pas : elle
+divergerait aussi. D'où la décision de John du 24/08 — **arbitrage manuel**,
+pas d'extraction supplémentaire. Le gisement est là : 350 divergences, dont 76
+ne diffèrent que par un diacritique et se tranchent à la règle Orthal.
+
 ### Clé d'arbitrage : `unaccent` fusionnait des mots français distincts
 
 Migration `20260824120000_cle_arbitrage_accents.sql`. La clé de groupement

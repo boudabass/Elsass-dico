@@ -1,6 +1,6 @@
 # Elsass Dico
 
-Traducteur français/alsacien, publié sur dico.theelsassisch.fr, adossé à la
+Traducteur français/alsacien, publié sur elsass-dico.theelsassisch.fr, adossé à la
 marque The Elsassisch. La crédibilité linguistique est critique : du faux
 alsacien publié sous cette marque serait un vrai problème.
 
@@ -56,8 +56,9 @@ alsacien publié sous cette marque serait un vrai problème.
 
 - Le front n'est plus vide : login adossé à Odoo, /admin (utilisateurs),
   /contributions (proposer, corriger, voter), /admin/arbitrage (file de
-  candidats et écran d'arbitrage), / (recherche publique dans les deux sens) et
-  /entree/[id] (détail avec sources).
+  candidats et écran d'arbitrage — un onglet « Recoupées » s'y est ajouté le
+  23/08/2026, cf. « Premières entrées publiées »), / (recherche publique dans
+  les deux sens) et /entree/[id] (détail avec sources).
 - La table entrees est désormais alimentée et lue. Migration
   supabase/migrations/20260808120000_arbitrage.sql : candidats_arbitrage(),
   detail_candidat(), arbitrer_entree(), entrees_par_statut(),
@@ -158,7 +159,10 @@ Coolify self-hosted v4.1.2 sur VPS OVH. Supabase self-hosted à déployer dessus
   Coolify lui-même, pas par GitHub Actions). SUPABASE_SERVICE_ROLE_KEY reste
   une variable runtime Coolify uniquement, jamais marquée disponible au
   build.
-- Domaine : dico.theelsassisch.fr
+- Domaine (corrigé le 23/08/2026) : **elsass-dico.theelsassisch.fr**, seul FQDN
+  déclaré par l'application Coolify `elsass-dico:main-utdpj1qsxnn954id84t28rha`.
+  L'ancien `dico.theelsassisch.fr`, inscrit ici jusqu'à cette date, répond 503 —
+  un 503 sur cette URL n'est donc pas une panne du site.
 - Authentification (06/08/2026) : Odoo est l'autorité sur les mots de passe,
   Supabase reste l'autorité sur les sessions et les rôles. Le login vérifie
   les identifiants portail via un POST JSON-RPC sur
@@ -203,15 +207,20 @@ Coolify self-hosted v4.1.2 sur VPS OVH. Supabase self-hosted à déployer dessus
   `elsassdico` a créé le board et les six profils `ed-*` (article 725). La
   séparation évitait qu'un profil généraliste prenne des décisions engageant la
   doctrine ; elle a tenu.
-- Prochaine étape (révisée le 10/08/2026) : **campagne dictionnaire**
-  (remplacement du dossier Dictionnaire, 7260 entrées A-D, ~50 pages —
-  archivé dans data/raw/, vient de la même source unique). La recherche
-  d'une deuxième source est terminée : trois sources retenues et ingérées
-  (`alsacien_wikipedia`, `martin_lienhart`, `wiktionnaire_fr`), cf.
-  « Campagne 2 close ». Le périmètre des GATE (quelles décisions ont
-  vraiment besoin d'une validation humaine explicite avant de continuer) est
-  à trancher en premier — décision de John en cours (10/08/2026), pas encore
-  actée ici.
+- Prochaine étape (révisée le 23/08/2026) : **campagne 5, non tranchée.** Tout
+  ce qui précédait est fait — deuxième source (campagne 2), dictionnaire
+  (campagne 3), deuxième source du lexique général (campagne 4), et
+  169 premières entrées publiées. **Le goulot n'est plus le volume
+  d'attestations mais le recoupement lexical** : sur 26 309 candidats,
+  ~25 680 n'ont qu'une source, et sur les 629 à deux sources, 460 voient
+  ces sources écrire des formes *différentes*. Deux voies possibles, à
+  trancher avec John : soit une **troisième source lexicale** (le lexique
+  général de `culture_alsace` reste très majoritairement seul), soit un
+  **chantier d'arbitrage manuel** sur les 460 divergents, qui ne demande
+  aucune donnée nouvelle. Pour les toponymes divergents en particulier, un
+  locuteur qui tranche entre deux graphies attestées vaut peut-être mieux
+  qu'une troisième source écrite — le circuit `/contributions` existe et un
+  contributeur = une source.
 
 ## Première ingestion (09/08/2026)
 
@@ -512,7 +521,10 @@ tout l'alphabet — elle remplace ce dossier, elle n'ajoute pas une source.
 
 ## Campagne 4 — deuxième source lexique général (gsw-fr), close (22-23/08/2026)
 
-**821 attestations ingérées côté `wiktionnaire_fr`, 0 entrée nouvelle.** Objet
+**826 attestations ingérées côté `wiktionnaire_fr`, 0 entrée nouvelle.** (La
+généralisation en avait produit 821, ramenées à 813 par le fix `RE_FORME` puis
+portées à 826 par le tranchage des 13 lignes — cf. le détail plus bas. 826 est
+le compte final, recoupé en base.) Objet
 de la campagne : le lexique général de `culture_alsace` (23 851 lignes,
 campagne 3) restait bloqué à 1 source sur N faute de deuxième source touchant
 autre chose que toponymes/prénoms. Avant de reprospecter depuis zéro,
@@ -604,6 +616,79 @@ plutôt qu'un worktree complet. Par ailleurs, le service Supabase self-hosted
 `exited` en cours de session (503 en simulation d'ingestion) — redémarré
 manuellement par John, aucun accès Coolify en écriture n'étant disponible
 depuis Claude Code pour le faire.
+
+## Premières entrées publiées (23/08/2026)
+
+**169 entrées `statut='valide'`, 342 liens `entree_attestations`.** Le
+dictionnaire affiche enfin quelque chose : après quatre campagnes de collecte,
+c'est le premier franchissement de l'étape `attestations -> entrees`, la seule
+qui rende une donnée visible. 166 toponymes + 3 mois (`janvier`, `juillet`,
+`juin`), tous à 2 attestations, tous signés (`valide_le`, `valide_par`).
+
+- **Deux notions de recoupement, longtemps confondues.** `arbitrer_entree()`
+  compte des `source_id` distincts ; la doctrine demande que les sources
+  **s'accordent sur la même forme alsacienne**. Sur les candidats à 2 sources :
+  629 passent la garde SQL, mais **169 seulement** voient leurs sources écrire
+  la même forme. Les 460 autres divergent (`Range`/`Rànge`,
+  `Riaschpa`/`Rieschbi`, `Ewerburnhaipt`/`Ewer-Burnhäuipt`) et relèvent du
+  « Divergence entre sources = entrée marquée pour arbitrage manuel » de la
+  doctrine éditoriale : choisir la forme canonique **est** l'arbitrage, ça ne
+  part pas en lot. La garde SQL n'a pas été touchée — c'est l'interface qui est
+  plus stricte qu'elle, jamais l'inverse.
+- **`TYPES_TERME` ignorait `toponyme` et `prenom`**, pourtant ajoutés à l'enum
+  par la migration `20260808140000`. Comme `estTypeTermeValide()` garde
+  `arbitrerAction()`, **arbitrer une commune échouait sur « Type inconnu »**, y
+  compris une par une. Le blocage était dur et invisible : il n'apparaissait
+  qu'à la première tentative d'arbitrage, comme le retard de migration du
+  09/08 et le bug de schéma du 10/08 n'apparaissaient qu'à la première
+  écriture. **Rien ne signale une désynchronisation enum SQL / constante TS.**
+- **La clé `service_role` ne peut pas arbitrer.** `is_admin()` lit `auth.uid()`,
+  absent d'une clé de service : `candidats_arbitrage()` et `arbitrer_entree()`
+  répondent « Arbitrage réservé aux administrateurs ». Pré-remplir `entrees`
+  depuis un script aurait imposé un `INSERT` direct, contournant la fonction de
+  garde. D'où le choix inverse : `arbitrerLotAction()` fait tourner la session
+  admin de John, et la garde s'exécute réellement 169 fois. La règle 4 reste
+  une barrière technique.
+- **La forme publiée est toujours copiée verbatim d'une attestation** (règle 1).
+  La ponctuation finale de `culture_alsace` (`Jüli.` contre `Jüli`) est ignorée
+  pour *comparer* deux formes, jamais réécrite : quand une source écrit la forme
+  sans point, c'est cette graphie-là qui est retenue ; sinon la forme attestée
+  part telle quelle, point compris. Vérifié sur les 629 candidats réels avant
+  publication — zéro forme publiée que personne n'ait écrite.
+- **Vérification**, comme à chaque campagne, recomptée en base et non prise au
+  rapport de l'action : 169 entrées, toutes `valide`, `nb_attestations >= 2`
+  partout, 342 liens de traçabilité. Puis contrôle de l'affichage **avec la clé
+  anonyme** et non la clé de service : `rechercher_entrees()` rend
+  `Benfeld -> Banfald`, le sens inverse (`Banfald -> Benfeld`) fonctionne via
+  `entrees.alsacien_recherche`, `sources_entree()` expose bien les deux
+  sources, et `GET /attestations` rend 0 ligne à un visiteur — le brut ne fuite
+  pas.
+- **Le reste du stock demeure bloqué.** 26 309 candidats au total, dont
+  ~26 000 à source unique : `arbitrer_entree()` continuera de les refuser sans
+  note d'arbitrage. Publier davantage suppose soit une source de plus, soit un
+  arbitrage manuel candidat par candidat.
+- **Piège relevé, non traité** : `candidats_arbitrage()` regroupe sur
+  `immutable_unaccent(lower(btrim(francais)))`, donc `unaccent` fusionne des
+  mots français différents — `classé` (culture_alsace, « unter Dankmolschutz »)
+  avec `Classe` (wiktionnaire, « Klassa »), `affairé` avec `Affaire`. Plusieurs
+  des 30 candidats lexicaux à 2 sources sont de faux recoupements. Le critère
+  d'accord sur la forme les écarte de fait ici, mais le regroupement reste à
+  revoir avant d'ouvrir le lexique général.
+
+**L'outil** (`/admin/arbitrage`, onglet « Recoupées ») ne relâche jamais la
+garde SQL, il la resserre : il n'offre en lot que les candidats dont deux
+sources écrivent la même forme, et refuse côté serveur toute clé absente du lot
+qu'il vient lui-même de recalculer. Le reste de la file s'arbitre toujours un
+par un, à l'écran de détail. `traductionsRecoupees()`
+(`src/lib/dictionnaire.ts`) porte le critère, et donc la doctrine : elle est le
+bon endroit où regarder avant de toucher au seuil.
+
+**Ce que l'onglet vide signifie.** Après publication, « Recoupées (0) » est
+l'état normal et non une panne : `candidats_arbitrage()` exclut par
+construction toute attestation déjà rattachée à une entrée, donc un lot publié
+quitte la file. Les compteurs des deux autres onglets s'affichent en « 50+ » —
+`p_limite` plafonne les RPC de liste à 50, et afficher le nombre brut ferait
+lire une taille de page comme un total.
 
 ## Règles de travail
 

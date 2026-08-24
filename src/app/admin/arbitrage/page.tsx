@@ -11,8 +11,10 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Loader2, Scale, Search, ArrowRight, AlertTriangle } from "lucide-react";
 import {
   listerCandidats,
+  listerCandidatsRecoupes,
   listerEntrees,
   type Candidat,
+  type CandidatRecoupe,
   type EntreeListee,
 } from "@/app/actions/arbitrage";
 import {
@@ -22,26 +24,36 @@ import {
   type StatutEntree,
   type TypeTerme,
 } from "@/lib/dictionnaire";
+import { OngletRecoupes } from "./onglet-recoupes";
+import { lienArbitrage } from "./liens";
 
-function lienArbitrage(cle: string, contexte: string) {
-  const query = contexte ? `?contexte=${encodeURIComponent(contexte)}` : "";
-  return `/admin/arbitrage/${encodeURIComponent(cle)}${query}`;
+// listerCandidats() et listerEntrees() plafonnent à 50 (p_limite du RPC). Une
+// liste pleine signale donc « au moins 50 », jamais « exactement 50 » : afficher
+// le nombre brut ferait lire une taille de page comme un total — 169 entrées
+// s'affichaient « 50 ». L'onglet Recoupées n'est pas concerné, il pagine
+// jusqu'à épuisement.
+const PAGE_RPC = 50;
+function compteur(n: number) {
+  return n >= PAGE_RPC ? `${PAGE_RPC}+` : `${n}`;
 }
 
 export default function FileArbitragePage() {
   const { user, role, isLoading } = useAuth();
   const [terme, setTerme] = useState("");
   const [candidats, setCandidats] = useState<Candidat[]>([]);
+  const [recoupes, setRecoupes] = useState<CandidatRecoupe[]>([]);
   const [entrees, setEntrees] = useState<EntreeListee[]>([]);
   const [chargement, setChargement] = useState(true);
 
   const rafraichir = async (recherche: string) => {
     setChargement(true);
-    const [c, e] = await Promise.all([
+    const [c, r, e] = await Promise.all([
       listerCandidats(recherche),
+      listerCandidatsRecoupes(recherche),
       listerEntrees(undefined, recherche),
     ]);
     setCandidats(c);
+    setRecoupes(r);
     setEntrees(e);
     setChargement(false);
   };
@@ -93,12 +105,20 @@ export default function FileArbitragePage() {
         </Button>
       </form>
 
-      <Tabs defaultValue="candidats">
+      <Tabs defaultValue="recoupes">
         <TabsList>
-          <TabsTrigger value="candidats">File d&apos;arbitrage ({candidats.length})</TabsTrigger>
-          <TabsTrigger value="entrees">Entrées existantes ({entrees.length})</TabsTrigger>
+          <TabsTrigger value="recoupes">Recoupées ({recoupes.length})</TabsTrigger>
+          <TabsTrigger value="candidats">File d&apos;arbitrage ({compteur(candidats.length)})</TabsTrigger>
+          <TabsTrigger value="entrees">Entrées existantes ({compteur(entrees.length)})</TabsTrigger>
         </TabsList>
 
+        <TabsContent value="recoupes" className="mt-4">
+          <OngletRecoupes
+            recoupes={recoupes}
+            chargement={chargement}
+            onPublie={() => rafraichir(terme)}
+          />
+        </TabsContent>
         <TabsContent value="candidats" className="mt-4">
           {chargement ? (
             <p className="text-center py-8 text-muted-foreground">Chargement…</p>

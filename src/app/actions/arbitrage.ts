@@ -6,6 +6,8 @@ import { revalidatePath } from "next/cache"
 import {
     estStatutValide,
     estTypeTermeValide,
+    traductionsRecoupees,
+    SOURCES_MINIMUM,
     type Entree,
     type StatutEntree,
     type Traduction,
@@ -102,6 +104,138 @@ export async function listerEntrees(statut?: string, terme?: string): Promise<En
         return []
     }
     return (data ?? []) as EntreeListee[]
+}
+
+// --- Lot recoupé -------------------------------------------------------------
+
+// Plafond de candidats parcourus pour constituer le lot. candidats_arbitrage()
+// trie par nb_sources DESC : tout ce qui a au moins deux sources arrive donc en
+// tête, et la pagination s'arrête d'elle-même dès la première page retombée à
+// une source. Inutile de balayer les 26 000 candidats à source unique.
+const PAGE_CANDIDATS = 200
+const MAX_PAGES_RECOUPEES = 10
+
+export interface CandidatRecoupe extends Candidat {
+    // La forme sur laquelle les sources s'accordent, telle qu'elle sera publiée.
+    formeCanonique: string
+    traductions: Traduction[]
+}
+
+// Les candidats que l'on peut publier sans arbitrage manuel : ceux dont au
+// moins deux sources distinctes écrivent LA MÊME forme alsacienne. Critère
+// strictement plus exigeant que la garde de arbitrer_entree() — voir le
+// commentaire de traductionsRecoupees() dans @/lib/dictionnaire.
+export async function listerCandidatsRecoupes(terme?: string): Promise<CandidatRecoupe[]> {
+    const garde = await requireAdmin()
+    if (!garde.authorized) return []
+
+    const supabase = await createClient()
+    const recoupes: CandidatRecoupe[] = []
+    let page = 0
+
+    for (; page < MAX_PAGES_RECOUPEES; page++) {
+        const { data, error } = await supabase.rpc('candidats_arbitrage', {
+            p_terme: terme?.trim() || null,
+            p_limite: PAGE_CANDIDATS,
+            p_offset: page * PAGE_CANDIDATS,
+        })
+
+        if (error) {
+            console.error(`[Arbitrage] Lot recoupé indisponible: ${error.message}`)
+            return []
+        }
+
+        const lot = (data ?? []) as Candidat[]
+        for (const candidat of lot) {
+            if (candidat.nb_sources < SOURCES_MINIMUM) continue
+            const traductions = traductionsRecoupees(candidat.variantes)
+            if (traductions.length === 0) continue
+            recoupes.push({ ...candidat, formeCanonique: traductions[0].alsacien, traductions })
+        }
+
+        // Le tri décroissant garantit qu'après une page sans candidat à deux
+        // sources, les suivantes n'en porteront pas non plus.
+        const encoreRecoupable = lot.some((c) => c.nb_sources >= SOURCES_MINIMUM)
+        if (lot.length < PAGE_CANDIDATS || !encoreRecoupable) break
+    }
+
+    // Sortie par épuisement du compteur et non par la coupure naturelle : le lot
+    // est incomplet. Sans ce signal, un admin verrait moins de candidats qu'il
+    // n'en existe sans que rien ne le lui dise.
+    if (page === MAX_PAGES_RECOUPEES) {
+        console.warn(
+            `[Arbitrage] Lot recoupé tronqué : ${MAX_PAGES_RECOUPEES * PAGE_CANDIDATS} candidats parcourus ` +
+            `sans atteindre les candidats à source unique. Relever MAX_PAGES_RECOUPEES.`,
+        )
+    }
+
+    return recoupes
+}
+
+export interface BilanLot {
+    reussies: number
+    echecs: { francais: string; contexte: string; message: string }[]
+}
+
+// Valide en une passe les candidats recoupés désignés. Chaque entrée passe par
+// arbitrer_entree(), donc par sa garde is_admin() et sa garde de la règle 2 :
+// ce sont 166 arbitrages réels, pas une écriture de masse qui contournerait la
+// chaîne. Aucune note d'arbitrage n'est jointe — elle ne sert qu'à publier sous
+// le seuil de recoupement, et ce lot est au-dessus par construction.
+export async function arbitrerLotAction(cles: { cle: string; contexte: string }[]): Promise<BilanLot> {
+    const garde = await requireAdmin()
+    if (!garde.authorized) {
+        return { reussies: 0, echecs: [{ francais: '', contexte: '', message: garde.error }] }
+    }
+
+    // On ne fait jamais confiance aux clés reçues du navigateur : le lot est
+    // recalculé côté serveur, et une clé absente de ce lot est refusée. Sans
+    // cela, l'action deviendrait un moyen de publier n'importe quel candidat
+    // sans passer par l'écran d'arbitrage.
+    const eligibles = await listerCandidatsRecoupes()
+    const parCle = new Map(eligibles.map((c) => [`${c.cle}|${c.contexte}`, c]))
+
+    const supabase = await createClient()
+    const bilan: BilanLot = { reussies: 0, echecs: [] }
+
+    for (const demande of cles) {
+        const candidat = parCle.get(`${demande.cle}|${demande.contexte}`)
+        if (!candidat) {
+            bilan.echecs.push({
+                francais: demande.cle,
+                contexte: demande.contexte,
+                message: "Candidat absent du lot recoupé : à arbitrer un par un.",
+            })
+            continue
+        }
+
+        const { error } = await supabase.rpc('arbitrer_entree', {
+            p_francais: candidat.francais.trim(),
+            p_contexte: candidat.contexte.trim(),
+            p_type: candidat.type,
+            p_traductions: candidat.traductions,
+            p_attestation_ids: candidat.variantes.map((v) => v.attestation_id),
+            p_statut: 'valide',
+            p_notes: null,
+            p_entree_id: candidat.entree_id,
+        })
+
+        if (error) {
+            bilan.echecs.push({
+                francais: candidat.francais,
+                contexte: candidat.contexte,
+                message: error.code === '23505'
+                    ? "Une entrée existe déjà pour ce français et ce contexte."
+                    : error.message,
+            })
+            continue
+        }
+        bilan.reussies++
+    }
+
+    revalidatePath('/admin/arbitrage')
+    revalidatePath('/')
+    return bilan
 }
 
 export interface SaisieArbitrage {

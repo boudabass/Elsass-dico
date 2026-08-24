@@ -1,13 +1,20 @@
 // Alignés sur les types ENUM de
-// supabase/migrations/20260731120000_schema_dictionnaire.sql.
+// supabase/migrations/20260731120000_schema_dictionnaire.sql, étendus par
+// 20260808140000_types_toponyme_prenom.sql (toponyme, prenom).
+//
+// Cette liste ne sert pas qu'à l'affichage : estTypeTermeValide() garde
+// arbitrerAction(). Un type absent d'ici rend le terme correspondant
+// impossible à arbitrer, alors même que la base l'accepte.
 
-export const TYPES_TERME = ['mot', 'expression', 'proverbe'] as const
+export const TYPES_TERME = ['mot', 'expression', 'proverbe', 'toponyme', 'prenom'] as const
 export type TypeTerme = typeof TYPES_TERME[number]
 
 export const LIBELLES_TYPE_TERME: Record<TypeTerme, string> = {
     mot: 'Mot',
     expression: 'Expression',
     proverbe: 'Proverbe',
+    toponyme: 'Toponyme',
+    prenom: 'Prénom',
 }
 
 export const REGIONS = ['bas_rhin', 'haut_rhin', 'commun'] as const
@@ -90,3 +97,78 @@ export interface VarianteAttestee {
 // note d'arbitrage (exception du 07/08/2026). Doit rester aligné sur la garde
 // de arbitrer_entree() — c'est la base qui tranche, pas l'interface.
 export const SOURCES_MINIMUM = 2
+
+// --- Recoupement lexical -----------------------------------------------------
+//
+// arbitrer_entree() compte des source_id distincts : deux sources qui parlent
+// du même mot français suffisent à passer sa garde. La doctrine demande plus —
+// que les sources s'accordent sur LA MÊME forme alsacienne. Les deux notions
+// coïncident souvent, pas toujours : sur les toponymes, 598 candidats ont deux
+// sources distinctes mais seuls 166 leur voient écrire la même forme. Les
+// autres relèvent du « Divergence entre sources = arbitrage manuel » de la
+// doctrine, et ne peuvent pas partir en lot : choisir la forme canonique EST
+// l'arbitrage.
+//
+// Ce module ne relâche donc jamais la garde SQL, il la resserre.
+
+// La ponctuation finale est un artefact de source, pas une différence de forme :
+// culture_alsace termine ses entrées de lexique par un point (« Jüli. ») là où
+// wiktionnaire_fr ne le fait pas (« Jüli »). Les traiter comme deux formes
+// distinctes ferait manquer de vrais recoupements. Sert de CLÉ de comparaison
+// seulement — ce qui est publié reste une graphie copiée telle quelle.
+function cleDeForme(alsacien: string): string {
+    return alsacien.trim().replace(/[.;,\s]+$/, '')
+}
+
+// Une forme alsacienne attestée, avec ce qui la fonde. Les regrouper une fois
+// évite de re-normaliser les mêmes chaînes à chaque question posée : qui
+// l'atteste, quelle graphie publier, quelle région.
+interface FormeAttestee {
+    graphie: string
+    sources: Set<string>
+    region: Region | null
+}
+
+function grouperParForme(variantes: VarianteAttestee[]): FormeAttestee[] {
+    const parForme = new Map<string, FormeAttestee>()
+
+    for (const v of variantes) {
+        const cle = cleDeForme(v.alsacien)
+        if (!cle) continue
+
+        const graphie = v.alsacien.trim()
+        const connue = parForme.get(cle)
+        if (!connue) {
+            parForme.set(cle, { graphie, sources: new Set([v.source_id]), region: v.region })
+            continue
+        }
+
+        connue.sources.add(v.source_id)
+        // On préfère la graphie qu'une source écrit sans ponctuation finale :
+        // c'est encore un verbatim, pas une réécriture (règle 1). À défaut, la
+        // première attestée part telle quelle — mieux vaut une coquille de
+        // source qu'une forme que personne n'a écrite.
+        if (connue.graphie !== cle && graphie === cle) connue.graphie = graphie
+        connue.region ??= v.region
+    }
+
+    return Array.from(parForme.values())
+}
+
+// Le tableau traductions d'un candidat recoupé, ou [] s'il ne l'est pas.
+// Trier par nombre de sources décroissant suffit à tout ordonner : la forme
+// d'accord se retrouve en index 0 — la canonique au sens « Premier est Roi » —
+// et les formes à source unique suivent comme variantes, que la doctrine
+// conserve quand elles diffèrent. Aucune forme n'est inventée.
+export function traductionsRecoupees(variantes: VarianteAttestee[]): Traduction[] {
+    const formes = grouperParForme(variantes).sort((a, b) => b.sources.size - a.sources.size)
+
+    if (!formes.length || formes[0].sources.size < SOURCES_MINIMUM) return []
+
+    return formes.map((f) => ({
+        alsacien: f.graphie,
+        region: f.region,
+        niveau: null,
+        note: null,
+    }))
+}

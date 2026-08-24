@@ -207,15 +207,20 @@ Coolify self-hosted v4.1.2 sur VPS OVH. Supabase self-hosted à déployer dessus
   `elsassdico` a créé le board et les six profils `ed-*` (article 725). La
   séparation évitait qu'un profil généraliste prenne des décisions engageant la
   doctrine ; elle a tenu.
-- Prochaine étape (révisée le 10/08/2026) : **campagne dictionnaire**
-  (remplacement du dossier Dictionnaire, 7260 entrées A-D, ~50 pages —
-  archivé dans data/raw/, vient de la même source unique). La recherche
-  d'une deuxième source est terminée : trois sources retenues et ingérées
-  (`alsacien_wikipedia`, `martin_lienhart`, `wiktionnaire_fr`), cf.
-  « Campagne 2 close ». Le périmètre des GATE (quelles décisions ont
-  vraiment besoin d'une validation humaine explicite avant de continuer) est
-  à trancher en premier — décision de John en cours (10/08/2026), pas encore
-  actée ici.
+- Prochaine étape (révisée le 23/08/2026) : **campagne 5, non tranchée.** Tout
+  ce qui précédait est fait — deuxième source (campagne 2), dictionnaire
+  (campagne 3), deuxième source du lexique général (campagne 4), et
+  169 premières entrées publiées. **Le goulot n'est plus le volume
+  d'attestations mais le recoupement lexical** : sur 26 309 candidats,
+  ~25 680 n'ont qu'une source, et sur les 629 à deux sources, 460 voient
+  ces sources écrire des formes *différentes*. Deux voies possibles, à
+  trancher avec John : soit une **troisième source lexicale** (le lexique
+  général de `culture_alsace` reste très majoritairement seul), soit un
+  **chantier d'arbitrage manuel** sur les 460 divergents, qui ne demande
+  aucune donnée nouvelle. Pour les toponymes divergents en particulier, un
+  locuteur qui tranche entre deux graphies attestées vaut peut-être mieux
+  qu'une troisième source écrite — le circuit `/contributions` existe et un
+  contributeur = une source.
 
 ## Première ingestion (09/08/2026)
 
@@ -513,6 +518,104 @@ tout l'alphabet — elle remplace ce dossier, elle n'ajoute pas une source.
   la même deuxième source déjà utilisée pour les toponymes et prénoms
   (`alsacien_wikipedia`, `wiktionnaire_fr`) — mais pour le lexique général
   cette fois, pas encore recoupée.
+
+## Campagne 4 — deuxième source lexique général (gsw-fr), close (22-23/08/2026)
+
+**826 attestations ingérées côté `wiktionnaire_fr`, 0 entrée nouvelle.** (La
+généralisation en avait produit 821, ramenées à 813 par le fix `RE_FORME` puis
+portées à 826 par le tranchage des 13 lignes — cf. le détail plus bas. 826 est
+le compte final, recoupé en base.) Objet
+de la campagne : le lexique général de `culture_alsace` (23 851 lignes,
+campagne 3) restait bloqué à 1 source sur N faute de deuxième source touchant
+autre chose que toponymes/prénoms. Avant de reprospecter depuis zéro,
+elsassdico a été interrogé sur ce qui avait déjà été exploré (canal Telegram
+direct) : aucune prospection dédiée n'avait visé le lexique général, la
+campagne 1 étant explicitement cadrée toponymes dès le départ.
+
+- **Prospection d'inventaire (`t_ebd325cf`, zéro extraction)** sur 3 pistes que
+  ce cadrage avait laissées de côté : (1) les sections `{{langue|gsw-fr}}`
+  (alsacien de France) du Wiktionnaire fr, **ignorées par le parseur
+  existant** (choix de prudence documenté en campagne 2, jamais une exclusion
+  doctrinale) — 836 pages, ~800 mots ; (2) complétude de
+  `Catégorie:alémanique` — confirmée exacte à 834 pages, rien à récupérer ;
+  (3) `als.wiktionary.org`, jamais examiné jusque-là — **découverte qu'il
+  s'agit d'un simple alias du wiki `alsacien_wikipedia` déjà en base**
+  (redirection vers le namespace `Wort:`), pas un projet indépendant ; le
+  compter à part aurait vidé la règle 2 (recoupement avec soi-même). Bon
+  réflexe d'`ed-prospecteur` d'avoir vérifié plutôt que pris pour acquis.
+- **Pilote d'extraction (`t_bb75ea0e`)** : la définition française existe et
+  est exploitable dans les sections `gsw-fr`, jamais traduite (règle 1) — 20
+  attestations sur 21 pages.
+- **Qualification indépendance (`t_1f833c6f`)** : **verdict INDÉPENDANCE
+  DÉMONTRÉE**. 59 % des pages viennent d'un transfert daté et documenté
+  (16-20 janvier 2008, depuis un dictionnaire français-alsacien de
+  Wikipédia), le reste de créations humaines organiques 2004-2007. Zéro
+  filiation vers Matzen/Beyer/`culture_alsace`, divergence de graphie
+  systématique (conventions propres à `gsw-fr` : `ã`, `ä`, `â`...), **0
+  coquille de `culture_alsace` reproduite** — un miroir aurait recopié les
+  bizarreries, ici non. Deux réserves honnêtement rapportées (page source
+  Wikipédia supprimée donc filiation profonde invérifiable ; correction du
+  « 0 copie stricte » de l'inventaire en 41 formes byte-identiques sur 70
+  recoupantes, conventions partagées et non des coquilles) : aucune n'inverse
+  le verdict.
+- **GATE John (`t_4aa8dee1`) : généraliser**, avec un garde-fou explicite posé
+  *avant* et non après — la section `gsw-fr` seule ne permet pas de trancher
+  toponyme/mot pour un nom propre (ex. `Strossburi` → « Strasbourg. » sans
+  motif) ; le parseur doit consulter la section `gsw` jumelle de la même page
+  comme second signal, motifs commune/ville déjà connus. Si la jumelle est
+  absente, la ligne est signalée « type incertain », jamais devinée (règle
+  3) — c'est arrivé sur 13 des 836 pages.
+- **Généralisation (`t_06e56f33`)** → 821 attestations (803 mot / 16 prénom /
+  2 toponyme). **Vérification `ed-verificateur` : NON CONFORME au premier
+  passage**, deux vrais défauts trouvés (pas un simple copier-coller de
+  vérification) — 8 lignes de forme fléchie mal extraites faute de variantes
+  manquantes dans le regex `RE_FORME` (markup wikitext résiduel dans le
+  français) ; un rapport parent inexact sur 2 entrées d'une liste annexe.
+  Fix appliqué (`0edf3b8`, 821 → 813), **re-vérifié CONFORME**.
+- **Les 13 lignes « type incertain » tranchées par John** sur le seul critère
+  qui tient : le rubrique toponyme vise les communes/villages 67/68 déjà
+  dans `culture_alsace`, pas n'importe quel nom propre de lieu. 7 lignes
+  (les 4 variantes de `Milhüsa`, `Strossburg`, `Gawiller`, `Zàwera`) → 4
+  communes alsaciennes déjà en base, jointure exacte sur le nom français, **0
+  homonyme, 0 échec**. 6 lignes (`Vogesa`, `Spanïa`, `Frankrïïch`,
+  `Suntiklàuis`, `Kindelesbrunnen`, `Schwyz`) → `mot`, ce sont des pays, une
+  figure/tradition et un monument, pas des communes — le rubrique toponyme ne
+  s'applique pas même à un nom propre de lieu. Appliqué (`12ec2b5`, 813 →
+  826), **re-vérifié CONFORME**.
+- **Ingestion** (`--source wiktionnaire_fr --rubrique gsw_fr --apply`, depuis
+  un sandbox minimal plutôt qu'un worktree complet — cf. note technique
+  ci-dessous) : 821 créées, 5 déjà présentes d'après le script — recompté
+  indépendamment via l'API PostgREST (jamais pris au mot du script) :
+  `wiktionnaire_fr` total 1594 = 773 (rubrique `mots`) + 821 (rubrique
+  `gsw_fr`) ; par type `mot` 1058, `toponyme` 520, `prenom` 16 — tout se
+  recoupe exactement. Total base tous sources : 27 179. Les 5 « déjà
+  présentes » sont un recoupement interne (pages portant à la fois une
+  section `gsw` et `gsw-fr`, déjà ingérées via la rubrique `mots` —
+  précédent `Altenbach`/`Strossburi` déjà noté en campagne 2), pas une
+  erreur.
+
+**Ce que ça change** : `gsw-fr` est la première vraie deuxième source pour le
+**lexique général** (`mot`/`expression`), là où seuls les toponymes et
+prénoms avaient un recoupement jusqu'ici. Les entrées du lexique général de
+`culture_alsace` qui matchent une attestation `gsw-fr` sont désormais
+éligibles à l'arbitrage humain (`/admin/arbitrage`) — c'était l'objectif de
+la campagne. Rien n'est publié tant qu'un admin n'arbitre pas (règle 4).
+
+**Note technique — checkout Windows et service Supabase arrêté.** Un
+`git worktree add` classique sur la branche `data` échoue sur ce poste :
+`data/raw/wiktionnaire_fr/` contient un nom de fichier avec un caractère `?`,
+invalide sur NTFS quel que soit `core.protectNTFS` — l'échec se produit dès
+la construction de l'index, avant même le checkout des fichiers, et `git
+archive` avec pathspec échoue pareillement (le tree entier est déballé même
+si `data/raw` est explicitement exclu du pathspec). Contournement : extraire
+au cas par cas les seuls fichiers nécessaires par `git show
+origin/data:<chemin> > fichier` (lecture de blob, pas de parcours d'arbre),
+dans un sandbox minimal (`scripts/`, `data/attestations/`, `data/sources/`)
+plutôt qu'un worktree complet. Par ailleurs, le service Supabase self-hosted
+(`supabase-seqe2htqfjva4ack7r2bnoeb` sur Coolify) s'est retrouvé à l'état
+`exited` en cours de session (503 en simulation d'ingestion) — redémarré
+manuellement par John, aucun accès Coolify en écriture n'étant disponible
+depuis Claude Code pour le faire.
 
 ## Premières entrées publiées (23/08/2026)
 

@@ -1,0 +1,63 @@
+<center>''Zruck zum [[Wort:Houptsyte|alemannische Wiktionary]]''</center>
+
+'''Wichtige Bemerkig/ Remarque importante:'''
+
+Cette page est pour l'instant une petite ébauche sans prétention d'un grand projet: rendre l'alémanique compréhensible aux francophones.
+Vos contributions sont attendues.
+
+La norme est pour l'instant la suivante: entre parenthèses, la traduction la plus évidente du terme. Entre crochets {}, une tentative phonétique afin que les francophones puissent prononcer la langue alémanique. Une explication suit si nécessaire.
+
+== aatätscht ==
+ (ivre, joyeux, bourré)
+On trouve aussi: agschlage
+
+
+== ds Alemannisch, alemannisch ==
+ (l'alémanique, alémanique)
+Loin de se limiter à un dialecte local, l'alémanique est pratiqué dans 5 pays par plusieurs millions de collocuteurs, qui se répartissent en Suisse (cantons de la Suisse alémanique, auxquels il faut ajouter les cantons bilingues de Fribourg et du Valais), en Allemagne (Sud du pays), en France (Alsace), au Liechtenstein et en Autriche (Vorarlberg).
+
+== ds Bärndütsch ==
+{ds' beerndutsch, le ä est prononcé comme dans Bär, mais avec un ä qui traîne la patte... on trouve d'ailleurs aussi dr Bäärndütsch}
+ (le (dialecte) bernois)
+Il forme l'un des grands sous-groupes des dialectes alémaniques en Suisse. Pratiqué dans la ville de Berne sous sa forme la plus "pure", son influence s'étend dans les cantons de Soleure, de Berne, de Fribourg, en Argovie et dans le Jura. La culture dialectale bernoise est une des plus dynamiques dans la sphère alémanique. Le folklore bernois est important, il comprend nombreuses oeuvres théâtrales, littéraires (de pièces humoristiques à la Bible), et des chanteurs. Le porte-drapeau de la culture alémanique bernoise était sans doute le chanteur [[Mani Matter]] (1936-1972).
+
+== gleitig ==
+{glèitig}
+ (vite, rapidement)
+
+
+== item ==
+{i-tem: marquer un léger arrêt entre le i et le t}
+ (ceci mis à part)
+Cet adverbe est difficilement traduisible en français. Il est très utilisé en alémanique, principalement en bernois. Il est utilisé comme connecteur: item permet de passer, dans une conversation, de l'argument 1 à l'argument 2.
+
+Exemple:
+
+
+== d Flöige ==
+{d' fleuigue}
+ (la mouche, ou le noeud de papillon)
+
+
+== dr Oobe ==
+{dr' oobe: insister sur un o ouvert}
+ (le soir)
+À noter que les Bernois diront plutôt ''Aabe'' {dr' aabe, insister sur un o ouvert et sensiblement plus long que dans la version alémanique}.
+
+
+== Salli! (ou: Solly!, Salü!) ==
+ (salut!)
+Formule de salutation amicale d'inspiration francophone. En Suisse alémanique, on observe une tendance à préférer utiliser un "hoi!" entre amis.
+
+
+== d Wildsou ==
+{d' vildsouw}
+ (le sanglier)
+
+== reue ==
+{reie}
+ (regretter)
+Pour "il regrette", on dira: ''es reut nä''
+Pour "elle regrette", on dire: 'es reut sä'
+
+[[Kategorie:Wikipedia:Wort|Alemannisch-Französisch]]

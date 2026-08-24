@@ -1,0 +1,66 @@
+{{DISPLAYTITLE:Milhüüser Wortschàtz: Miina}}
+[[Datei:Blason Mulhouse.svg|15px|left|Milhüüser Wàppa]]
+[[Elsässisch|Elsassisch]] vu dr [[Mülhausen (Elsass)|Milhüüsergegend]]
+
+
+{{WortMül|Miina|Mine|mine|mine|kat=N|gen=f|pl=Miina}}
+
+{{WortMül|Schàcht|Schacht|puits de mine|kat=N|gen=m|}}
+
+{{WortMül|Schàchtàrweiter|Bergmann|mineur|miner|kat=N|gen=m|pl=Schàchtàrweiter}}
+
+{{WortMül|Schàchtler|Bergmann|mineur|miner|kat=N|gen=m|}}
+
+{{WortMül|Steiger|Steiger|porion|pit foreman|kat=N|gen=m|pl=Steiger}}
+
+{{WortMül|Owersteiger|Obersteiger|chef porion||kat=N|gen=m|pl=Owersteiger}}
+
+{{WortMül|Sàlzkìnggala ''(pejorativ)''|Bergmann|mineur|miner|kat=N|gen=n|pl=Sàlzkìnggala}}
+
+{{WortMül|Kàlikumpel ''(umgàngssprochlig)''|Bergmann-Kamerad|copain mineur||kat=N|gen=m|pl=Kàlikumpel}}
+
+{{WortMül|Kàlibrüeder ''(umgàngssprochlig)''|Kalibruder|mineur|miner|kat=N|gen=m|pl=Kàlibriader}}
+
+{{WortMül|Sàlzschìcht|Salzschichten|couche de potasse|kat=N|gen=f|pl=Sàlzschìchta}}
+
+{{WortMül|Sàlzlàg|Salzlage|gisement de potasse|kat=N|gen=f|pl=Sàlzlàga}}
+
+{{WortMül|Gàlerie||galerie|kat=N|gen=f|pl=Gàleria}}
+
+{{WortMül|Dàch||toit, dans la sens : plafond|kat=N|gen=f|pl=Dacher}}
+
+{{WortMül|Sohla|Sohle|sol de la galerie|kat=N|gen=f|pl=Sohla}}
+
+{{WortMül|Stoß||côté, paroi de la galerie|kat=N|gen=m|pl=Stoßa}}
+
+{{WortMül|Seilfàhrt||montée et descente au fond|kat=N|gen=f|pl=Seilfahrt}}
+
+{{WortMül|Korb|Seilkorb|ascenseur|kat=N|gen=m|pl=Kärb}}
+
+{{WortMül|Spürlàtta|Spurlatte|planches guides pour l'ascenseur|kat=N|gen=f|pl=Spürlàtta}}
+
+{{WortMül|Sumpf|Schachtsumpf|puisard (fond de la mine)|kat=N|gen=m|pl=Sumpfa}}
+
+{{WortMül|Bàhnschlàppa||chaussures de mineurs, fabriquées artisanalement avec des bandes de caoutchouc||kat=N|gen=f|pl=Bàhnschlàppa}}
+
+{{WortMül|Schrämmmàschìna|Schrämmaschine|haveuse|kat=N|gen=f|pl=Schrämmmàschìna}}
+
+{{WortMül|Làdmàschìna|Lader|chargeuse|kat=N|gen=f|pl=Làdmàschìna}}
+
+{{WortMül|Broschiarmàschìna||brocheuse, boulonneuse|kat=N|gen=f|pl=Broschiarmàschìna}}
+
+{{WortMül|Broschastànga||broche|kat=N|gen=f|pl=Broschastànga}}
+
+{{WortMül|Bohrkrona ''oder'' Bohrmasser|Bohrkrone|taillant|kat=N|gen=f|pl=Bohrkrona}}
+
+{{WortMül|Ràuisàlz|Rohsalz|minerai de potasse|kat=N|gen=n|}}
+
+<gallery>
+Datei:2010 03 05 Ungersheim, carreau Rodolphe.jpg|Schàcht
+Datei:Fotothek df n-11 0000125.jpg|Spürlàtta
+Datei:Haveuse (mine Rodolphe).JPG|Schrämmmàschìna
+Datei:Chargeuse (mine Rodolphe).JPG|Làdmàschìna
+Datei:Brocheuse (mine Rodolphe).JPG|Broschiarmàschìna
+Datei:Broche (mine Rodolphe).JPG|Broschastànga
+Datei:Taillant (mine Rodolphe).JPG|Bohrkrona
+</gallery>

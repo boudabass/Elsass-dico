@@ -1,0 +1,13 @@
+{
+  "code": "runneburger_benfeld",
+  "nom": "Dictionnaire alsacien-français du parler de Benfeld (Henri Rünneburger, 3 volumes, ~98 720 entrées)",
+  "url": null,
+  "type": "ouvrage",
+  "annee": 2025,
+  "licence": "Œuvre contemporaine sous droits d'auteur (auteur vivant), diffusion par souscription (195 € les trois tomes, contact direct auteur) — droits de réutilisation NON clairs. Doute signalé, non comblé. Aucune copie archivée dans data/raw/.",
+  "fiabilite": 1,
+  "statut": "candidat",
+  "notes": "Qualification (prospection campagne 5, carte t_5858eff3, 24/08/2026 ; source : article L'Ami hebdo « Un nouveau dictionnaire français alsacien : une œuvre avec majuscule(s) ») :\n\n(a) APPARIEMENT alsacien↔français : OUI — dictionnaire alsacien→français (bilingue, sens principal alsacien-français) basé sur le parler de Benfeld (Bas-Rhin).\n\n(b) VOLUME : ~98 720 entrées exactement (déclaré par l'auteur), 3 tomes, ~2 500 pages — mots et expressions de la langue commune + termes spécialisés (botanique, médecine, sport, artisanat) + expressions figées, locutions imagées, proverbes et adages.\n\n(c) Part mot/expression : mots + expressions + proverbes ; 0 toponyme, 0 prénom (non annoncé).\n\n(d) RECOUVREMENT avec culture_alsace : NON MESURÉ — aucun accès numérique, pas de copie possible (droits).\n\n(e) INDÉPENDANCE : travail personnel de terrain déclaré par l'auteur (enregistrements de conversations quotidiennes et d'entretiens semi-dirigés depuis 1989, dépouillement de la littérature alsacienne à la BnF et à la BNU) ; aucune filiation déclarée avec Matzen ni avec culture_alsace. Indépendance a priori forte, non vérifiable sur pièces sans accès à l'ouvrage.\n\n(f) LICENCE / statut : sous droits d'auteur (auteur vivant), vente par souscription — pas de version numérique connue. À clarifier par contact direct (auteur / éditeur) si John le décide.\n\n(g) EXTRACTIBILITÉ : NON — ouvrage papier uniquement (pas de version numérique ni en ligne identifiée) ; une exploitation passerait par OCR ou saisie, interdits par le contrat (jamais de saisie). ÉCARTÉE pour l'extraction par parseur.\n\nVERDICT UNE PHRASE : probablement le plus grand dictionnaire alsacien-français jamais publié, mais inexploitable par parseur (papier, droits) — signalé à John pour information et éventuel contact éditeur, pas une candidate à l'extraction.",
+  "rubriques": [],
+  "inventaire_complet": false
+}

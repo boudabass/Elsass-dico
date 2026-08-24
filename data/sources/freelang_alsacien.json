@@ -1,0 +1,13 @@
+{
+  "code": "freelang_alsacien",
+  "nom": "Freelang — Dictionnaire en ligne Alsacien-Français-Alsacien (auteurs : François Alby, Eric Muller)",
+  "url": "https://www.freelang.com/enligne/alsacien.php",
+  "type": "site",
+  "annee": null,
+  "licence": "CGU Freelang (enligne/dic-cgu.php) : « Les listes de mots restent la propriété de leurs auteurs, et ne doivent donc pas être considérées comme étant dans le domaine public » ; la version en ligne est une version d'évaluation des dictionnaires à télécharger (notice complète : freelang.com/dictionnaire/dic-copyrights.php). Licence de réutilisation pour une publication dérivée NON précisée — doute signalé, non comblé. Aucune copie archivée dans data/raw/.",
+  "fiabilite": 2,
+  "statut": "candidat",
+  "notes": "Qualification (prospection campagne 5, carte t_5858eff3, 24/08/2026) :\n\n(a) APPARIEMENT alsacien↔français : OUI — dictionnaire BIDIRECTIONNEL (alsacien→français ET français→alsacien), interface de consultation en ligne (recherche mot entier, mot au hasard).\n\n(b) VOLUME : 5478 entrées (mention « Dernière mise à jour : 23/10/2024 - 5478 entrées »).\n\n(c) Part mot/expression : mots (dictionnaire de vocabulaire général ; part expressions à confirmer au GATE sur le contenu) ; 0 toponyme annoncé.\n\n(d) RECOUVREMENT avec culture_alsace : NON MESURÉ — les listes sont la propriété des auteurs, pas de licence de réutilisation, aucune copie ni lecture systématique. À mesurer si John obtient l'autorisation.\n\n(e) INDÉPENDANCE : auteurs identifiés (François Alby, Eric Muller) — projet collaboratif bénévole Freelang (Beaumont) ; aucune filiation déclarée avec culture_alsace ni avec Matzen. Indépendance de contenu non vérifiable sans accès aux listes (à confirmer au GATE par comparaison de formes).\n\n(f) LICENCE / statut : listes propriété des auteurs (CGU explicite, pas de domaine public) ; l'utilisation de la version en ligne implique l'acceptation des CGU ; pas de licence de réutilisation pour un dictionnaire dérivé. À clarifier par contact direct (Freelang / auteurs) — c'est John qui écrit, pas la prospection.\n\n(g) EXTRACTIBILITÉ : version en ligne par consultation (une recherche à la fois) ; les dictionnaires Freelang se téléchargent en fichier de listes (format texte) — structure très extractible par parseur SI autorisation. Zéro OCR.\n\nVERDICT UNE PHRASE : piste sérieuse par le volume (5478 entrées) et l'appariement français↔alsacien bidirectionnel, bloquée sur les droits (propriété des auteurs, CGU d'évaluation) — à réactiver uniquement sur décision de John après contact des auteurs.",
+  "rubriques": [],
+  "inventaire_complet": false
+}

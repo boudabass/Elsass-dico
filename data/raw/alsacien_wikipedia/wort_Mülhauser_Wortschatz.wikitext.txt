@@ -1,0 +1,1403 @@
+{{DISPLAYTITLE:Wortschàtz vum Milhüüser Dialekt}}
+[[Datei:Blason Mulhouse.svg|50px|right|Milhüüser Wàppa]]
+<center>''Zruck zum [[Wort:Houptsyte|àlemànnischa Wiktionary]]''</center>
+
+Do steht a Wortschàtz-Sàmmlung ìm [[Elsässisch|Elsassischa]] vu dr [[Mülhausen (Elsass)|Milhüüsergegend]].
+
+
+Bedittung vu da Àbkìrzunga:
+*N: Nomen (Subschtàntiv)
+*m: masculin
+*f: feminin
+*nt:neutrum
+*pl: pluràl
+*Adj: Adjectiv
+*Adv: Adverb
+*Lok: Lokution
+*Präp: Präposition
+*V: Verb
+
+
+== Zàhla ==
+[[Datei:Number.svg|100px|right|Zàhla]]
+{{WortMül|Zàhl|Zahl|nombre|number|kat=N|gen=f|pl=Zàhla}}
+
+
+{{Text_mit_Audio|1 2 3 4 5 6 7 8 9 10|Gsw-oberelsässisch (Milhüsa)-1 2 3 4 5 6 7 8 9 10.ogg}}
+
+{{WortMül|null|null|zéro|zero|kat=Zàhl}} (0)
+
+{{WortMül|eins|eins|un|one|kat=Zàhl}} (1)
+
+{{WortMül|zwei|zwei|deux|two|kat=Zàhl}} (2)
+
+{{WortMül|drèi|drei|trois|three|kat=Zàhl}} (3)
+
+{{WortMül|viar|vier|quatre|four|kat=Zàhl}} (4)
+
+{{WortMül|fìmf|fünf|cinq|five|kat=Zàhl}} (5)
+
+{{WortMül|sechs|sechs|six|six|kat=Zàhl}} (6)
+
+{{WortMül|sewena|sieben|sept|seven|kat=Zàhl}} (7)
+
+{{WortMül|àcht|acht|huit|eight|kat=Zàhl}} (8)
+
+{{WortMül|niin|neun|neuf|nine|kat=Zàhl}} (9)
+
+{{WortMül|zehna|zehn|dix|ten|kat=Zàhl}} (10)
+
+{{WortMül|elfa|elf|onze|eleven|kat=Zàhl}} (11)
+
+{{WortMül|zwälfa|zwölf|douze|twelve|kat=Zàhl}} (12)
+
+{{WortMül|dritzenna|dreizehn|treize|thirteen|kat=Zàhl}} (13)
+
+{{WortMül|viarzenna|vierzehn|quatorze|fourteen |kat=Zàhl}} (14)
+
+{{WortMül|fufzenna|fünfzehn|quinze|fifteen|kat=Zàhl}} (15)
+
+{{WortMül|sachzenna|sechzehn|seize|sixteen|kat=Zàhl}} (16)
+
+{{WortMül|sìbzenna|siebzehn|dix-sept|seventeen|kat=Zàhl}} (17)
+
+{{WortMül|àchtzenna|achtzehn|dix-huit|eighteen|kat=Zàhl}} (18)
+
+{{WortMül|niinzenna|neunzehn|dix-neuf|nineteen|kat=Zàhl}} (19)
+
+{{WortMül|zwànzig|zwanzig|vingt|twenty|kat=Zàhl}} (20)
+
+{{WortMül|drissig|dreißig|trente|thirty|kat=Zàhl}} (30)
+
+{{WortMül|viarzig|vierzig|quarante|forty|kat=Zàhl}} (40)
+
+{{WortMül|fufzig|fünfzig|cinquante|fifty|kat=Zàhl}} (50)
+
+{{WortMül|sachzig|sechzig|soixante|sixty|kat=Zàhl}} (60)
+
+{{WortMül|sìbtzig|siebzig|soixante-dix|seventy|kat=Zàhl}} (70)
+
+{{WortMül|àchtzig|achtzig|quatre-vingts|eighty|kat=Zàhl}} (80)
+
+{{WortMül|niinzig|neunzig|quatre-vingt-dix|ninety|kat=Zàhl}} (90)
+
+{{WortMül|hundert|hundert|cent|hundred|kat=Zàhl}} (100)
+
+{{WortMül|tàuisig|tausend|mille|thousand|kat=Zàhl}} (1000)
+
+
+
+{{WortMül|erscht|erster|premier|first|kat=Zàhl-Adj}}
+
+{{WortMül|zweit|zweiter|deuxième|second|kat=Zàhl-Adj}}
+
+{{WortMül|drìtt|dritter|troisième|third|kat=Zàhl-Adj}}
+
+{{WortMül|viart|vierter|quatrième|fourth|kat=Zàhl-Adj}}
+
+{{WortMül|fìmft|fünfter|cinquième|fifth|kat=Zàhl-Adj}}
+
+{{WortMül|sechst|sechster|sixième|sixth|kat=Zàhl-Adj}}
+
+{{WortMül|sìebt|siebter|septième|seventh|kat=Zàhl-Adj}}
+
+{{WortMül|àcht|achter|huitième|eighth|kat=Zàhl-Adj}}
+
+{{WortMül|niint|neunter|neuvième|ninth|kat=Zàhl-Adj}}
+
+{{WortMül|zenht|zehnter|dixième|thenth|kat=Zàhl-Adj}}
+
+{{WortMül|elft|elfter|onzième|eleventh|kat=Zàhl-Adj}}
+
+{{WortMül|zwälft|zwölfter|douzième|twelveth|kat=Zàhl-Adj}}
+
+{{WortMül|drittzent|dreizehnter|treizième|thirteenth|kat=Zàhl-Adj}}
+
+{{WortMül|viarzent|vierzehnter|quatorzième|fourteenth|kat=Zàhl-Adj}}
+
+{{WortMül|fufzent|fünfzehnter|qunzième|fifteenth|kat=Zàhl-Adj}}
+
+{{WortMül|sachzent|sechzehnter|seizième|sixteenth|kat=Zàhl-Adj}}
+
+{{WortMül|sìbzent|siebzehnter|dix-septième|seventeenth|kat=Zàhl-Adj}}
+
+{{WortMül|àchtzent|achtzehnter|dix-huitième|eighteenth|kat=Zàhl-Adj}}
+
+{{WortMül|niinzent|neunzehnter|dix-neuvième|nineteenth|kat=Zàhl-Adj}}
+
+{{WortMül|zwànzigscht|zwanzigster|vingtième|twentieth|kat=Zàhl-Adj}}
+
+
+
+{{WortMül|a hälfta|ein halb|un demi|half|kat=Quàntum}} (1/2)
+
+{{WortMül|ànderdhàlwa|eins un ein halb|un et demie|one and a half|kat=Quàntum}} (1 + 1/2)
+
+{{WortMül|zweiahàlb|zwei un ein halb|deux et demie|two and a half|kat=Quàntum}} (2 + 1/2)
+
+
+
+{{WortMül|z'hàlb zweit||à deux||kat=Lok}} ({{WortMül|Sa sìn z'hàlb zweit kumma.||Ils sont venus à deux (personnes).||}})
+
+{{WortMül|z'hàlb drìtt||à trois||kat=Lok}} ({{WortMül|Sa wohna z'hàlb drìtt ìn dam Hüss.||Ils vivent à trois dans cette maison.||}})
+
+{{WortMül|z'hàlb viart||à quatre||kat=Lok}}
+
+{{WortMül|z'hàlb fìmft||à cinq||kat=Lok}}
+
+{{WortMül|z'hàlb sechst||à six||kat=Lok}}
+
+{{WortMül|z'hàlb sìbt||à sept||kat=Lok}}
+
+{{WortMül|z'hàlb àcht||à huit||kat=Lok}}
+
+{{WortMül|z'hàlb niint||à neuf||kat=Lok}}
+
+{{WortMül|z'hàlb zehnt||à dix||kat=Lok}}
+
+== Fàrwa ==
+[[Datei:Farm-Fresh palette.png|60px|right|Fàrwa]]
+{{WortMül|Fàrb|Farbe|couleur|color|kat=N|gen=f|pl=Fàrwa}}
+
+
+{{Text_mit_Audio|{{WortMül|rot|rot|rouge|red|kat=Adj}} [[Datei:Solid red.svg|10px]]|Gsw-oberelsässisch (Milhüsa)-rot 2.ogg}}
+
+{{Text_mit_Audio|{{WortMül|rossarot|rosa|rose|pink|kat=Adj}} [[Datei:Chs2 Redl40.png|10px]]|Gsw-oberelsässisch (Milhüsa)-rossarot 2.ogg}}
+
+{{Text_mit_Audio|{{WortMül|orange|orange|orange|orange|kat=Adj}} [[Datei:Solid orange.svg|10px]]|Gsw-oberelsässisch (Milhüsa)-orange 2.ogg}}
+
+{{Text_mit_Audio|{{WortMül|gaal|gelb|jaune|yellow|kat=Adj}} [[Datei:Solid yellow.svg|10px]]|Gsw-oberelsässisch (Milhüsa)-gaal 2.ogg}}
+
+{{Text_mit_Audio|{{WortMül|grian|grün|vert|green|kat=Adj}} [[Datei:Solid green.svg|10px]]|Gsw-oberelsässisch (Milhüsa)-grian 2.ogg}}
+
+{{Text_mit_Audio|{{WortMül|blàui|blau|bleu|blue|kat=Adj}} [[Datei:Solid blue.svg|10px]]|Gsw-oberelsässisch (Milhüsa)-blàui 2.ogg}}
+
+{{Text_mit_Audio|{{WortMül|vèialett|violett|violet|purple|kat=Adj}} [[Datei:Solid purple.svg|10px]]|Gsw-oberelsässisch (Milhüsa)-vèialett 2.ogg}}
+
+{{Text_mit_Audio|{{WortMül|brüün|braun|brun|brown|kat=Adj}} [[Datei:Solid brown.svg|10px]]|Gsw-oberelsässisch (Milhüsa)-brüün 2.ogg}}
+
+{{Text_mit_Audio|{{WortMül|beige (bèèsch)|beige|beige|beige|kat=Adj}} [[Datei:Chem-de-H.svg|10px]]|Gsw-oberelsässisch (Milhüsa)-beige 2.ogg}}
+
+{{Text_mit_Audio|{{WortMül|wiss|weiß|blanc|white|kat=Adj}} [[Datei:Cosmic latte Illuminant E gamma.svg|10px]]|Gsw-oberelsässisch (Milhüsa)-wiss 2.ogg}}
+
+{{Text_mit_Audio|{{WortMül|gràui|grau|gris|grey|kat=Adj}} [[Datei:Solid grey.svg|10px]]|Gsw-oberelsässisch (Milhüsa)-gràui 2.ogg}}
+
+{{Text_mit_Audio|{{WortMül|schwàrz|schwarz|noir|black|kat=Adj}} [[Datei:Solid black.svg|10px]]|Gsw-oberelsässisch (Milhüsa)-schwàrtz 2.ogg}}
+
+
+{{Text_mit_Audio|{{WortMül|heiter|hell|clair|light|kat=Adj}} [[Datei:Vogelaugenahorn.jpg|15px]]|Gsw-oberelsässisch (Milhüsa)-heiter.ogg}}
+
+{{Text_mit_Audio|{{WortMül|dunkel|dunkel|foncé|dark|kat=Adj}} [[Datei:Eg-længdesnit.JPG|20px]]|Gsw-oberelsässisch (Milhüsa)-dunkel.ogg}}
+
+{{Text_mit_Audio|{{WortMül|heiterblàui|hellblau|bleu clair|lightblue|kat=Adj}} [[Datei:Color icon Light Cornflower blue.svg|10px]]|Gsw-oberelsässisch (Milhüsa)-heiterblàui.ogg}}
+
+{{Text_mit_Audio|{{WortMül|dunkelblàui|dunkelblau|bleu foncé|darkblue|kat=Adj}} [[Datei:000080 Navy Blue Square.svg|10px]]|Gsw-oberelsässisch (Milhüsa)-dunkelblàui.ogg}}
+
+{{Text_mit_Audio|{{WortMül|heiterbrüün|hellbraun|brun clair|lightbrown|kat=Adj}} [[Datei:Chem-de-Hm.svg|10px]] |Gsw-oberelsässisch (Milhüsa)-heiterbrüün.ogg}}
+
+{{Text_mit_Audio|{{WortMül|dunkelbrüün|dunkelbraun|brun foncé|darkbrown|kat=Adj}} [[Datei:Maroon.svg|14px]]|Gsw-oberelsässisch (Milhüsa)-dunkelbrüün.ogg}}
+
+== Fàmìlia ==
+[[Datei:StateLibQld 1 206125 Greham family group.jpg|100px|right|Fàmìlia]]
+{{WortMül|Fàmìlia|Familie|famille|family|kat=N|gen=f|pl=Fàmìlia}}
+
+
+{{WortMül|Mànn|Mann|mari|husband|kat=N|gen=m|pl=Manner}}
+
+{{WortMül|Fràui|Frau|femme|wife|kat=N|gen=m|pl=Fràuia}}
+
+{{WortMül|Vàtter|Vater|père|father|kat=N|gen=m|pl=Vatter}}
+
+{{WortMül|Müeter|Mutter|mère|mother|kat=N|gen=f|pl=Miater}}
+
+{{WortMül|Pàppa|Papa|Papa|Dad|kat=N|gen=f|pl=Pàppa}}
+
+{{WortMül|Màmma|Mama|Maman|Mumm|kat=N|gen=f|pl=Màmma}}
+
+{{WortMül|Unkel|Onkel|oncle|uncle|kat=N|gen=m|pl=Unkel}}
+
+{{WortMül|Tànta|Tante|tante|aunt|kat=N|gen=f|pl=Tànta}}
+
+{{WortMül|Großvàtter|Großvater|grand-père|grandfather|kat=N|gen=m|pl=Großvatter}}
+
+{{WortMül|Großmüeter|Großmutter|grand-mère|grandmother|kat=N|gen=f|pl=Großmiater}}
+
+{{WortMül|Papapa|Opa|Papi|Grandpa|kat=N|gen=f|pl=Papapa}}
+
+{{WortMül|Mamama|Oma|Mamie|Grandma|kat=N|gen=f|pl=Mamama}}
+
+{{WortMül|Großkìnd|Enkelkind|petit-enfant|grandchild|kat=N|gen=|pl=Großkìnder}}
+
+{{WortMül|Brüeder|Bruder|frère|brother|kat=N|gen=m|pl=Briader}}
+
+{{WortMül|Schweschter|Schwester|soeur|sister|kat=N|gen=f|pl=Schweschtra}}
+
+{{WortMül|Kìnd|Kind|enfant|child|kat=N|gen=nt|pl=Kìnder}}
+
+{{WortMül|Bubbala|Baby|bébé|baby|kat=N|gen=n|pl=Bubbala}}
+
+{{WortMül|Suhn|Sohn|fils|son|kat=N|gen=m|pl=Seehn}}
+
+{{WortMül|Tochter|Tochter|fille|daughter|kat=N|gen=n|pl=Tächter}}
+
+{{WortMül|Büe|Junge|garçon|boy|kat=N|gen=m|pl=Büe}}
+
+{{WortMül|Maidla|Mädchen|fille|girl|kat=N|gen=nt|pl=Maidla}}
+
+{{WortMül|Cousin|Cousin|cousin|cousin|kat=N|gen=m|pl=Cousin}}
+
+{{WortMül|Cousine|Cousine|cousine|cousin|kat=N|gen=s|pl=Cousine}}
+
+{{WortMül|Schwoger|Schwager|beau-frère|brother-in-law|kat=N|gen=m|pl=Schweeger}}
+
+{{WortMül|Schwìegermüeter|Schwiegermutter|belle-mère|mother-in-law|kat=N|gen=f|pl=Schwìegermiater}}
+
+{{WortMül|Schwìegera|Schwiegermutter|belle-mère|mother-in-law|kat=N|gen=f|pl=Schwìegera}}
+
+{{WortMül|Schwìegersuhn|Schwager|gendre|brother-in-law|kat=N|gen=m|pl=Schwìegerseehn}}
+
+{{WortMül|Gschwèi|Schwägerin|belle-soeur|sister-in-law|kat=N|gen=f|pl=Gschwèi}}
+
+{{WortMül|Tochtermànn|Schwiegersohn|gendre|son-in-law|kat=N|gen=m|pl=Tochtermanner}}
+
+{{WortMül|Suhnsfràui|Schwiegertochter|bru, belle-fille|daughter-in-law|kat=N|gen=f|pl=Suhnsfràuia}}
+
+== Tiarer ==
+[[Datei:Trillium Poncho cat dog.jpg|100px|right|Tiar]]
+{{WortMül|Tiar|Tier|animal|animal|kat=N|gen=nt|pl=Tiarer}}
+
+
+{{WortMül|Hund|Hund|chien|dog|kat=N|gen=m|pl=Hunda}}
+
+{{WortMül|Kàtz|Katze|chat|cat|kat=N|gen=f|pl=Kàtza}}
+
+{{WortMül|Kìnggala|Kaninchen|lapin|rabbit|kat=N|gen=nt|pl=Kìnggala}}
+
+{{WortMül|Hàs|Hase|lièvre|hare|kat=N|gen=m|pl=Hàsa}}
+
+{{WortMül|Hàmschter|Hamster|hamster|hamster|kat=N|gen=m|pl=Hàmschter}}
+
+{{WortMül|Müüs|Maus|souris|mouse|kat=N|gen=f|pl=Miis}}
+
+{{WortMül|Ràtta|Ratte|rat|rat|kat=N|gen=f|pl=Ràtta}}
+
+{{WortMül|Scharmüüs|Maulwurf|taupe|mole|kat=N|gen=f|pl=Scharmiis}}
+
+{{WortMül|Eichhärnla|Eichhörnchen|écureuil|squirrel|kat=N|gen=nt|pl=Eichhärnla}}
+
+{{WortMül|Schìldkrott|Schildkröte|tortue|turtle|kat=N|gen=m|pl=Schìldkrott}}
+
+{{WortMül|Ìgel|Igel|hérisson|hedgehog|kat=N|gen=m|pl=Ìgel}}
+
+{{WortMül|Ross|Pferd|cheval|horse|kat=N|gen=nt|pl=Rässer}}
+
+{{WortMül|Esel|Esel|âne|donkey|kat=N|gen=m|pl=Esel}}
+
+{{WortMül|Küeh|Kuh|vache|cow|kat=N|gen=f|pl=Kiah}}
+
+{{WortMül|Ochs|Ochse|bœuf|beef|kat=N|gen=m|pl=Ochsa}}
+
+{{WortMül|Stiar|Stier|taureau|bull|kat=N|gen=m|pl=Stiara}}
+
+{{WortMül|Kàlb|Kalb|veau|calf|kat=N|gen=nt|pl=Kalwa}}
+
+{{WortMül|Geis|Geiß|chèvre|goat|kat=N|gen=f|pl=Geisa}}
+
+{{WortMül|Schof|Schaf|mouton|sheep|kat=N|gen=m|pl=Scheef}}
+
+{{WortMül|Reh|Reh|chevreuil|roe|kat=N|gen=nt|pl=Reh}}
+
+{{WortMül|Saui|Schwein|cochon|pig|kat=N|gen=f|pl=Säi}}
+
+{{WortMül|Wìldsaui|Wildschwein|sanglier|wild boar|kat=N|gen=f|pl=Wìldsäi}}
+
+{{WortMül|Schnack|Schnecke|escargot|snail|kat=N|gen=m|pl=Schnacka}}
+
+{{WortMül|Wurm|Wurm|ver|worm|kat=N|gen=m|pl=Wìrm}}
+
+{{WortMül|Schlànga|Schlange|serpent|snake|kat=N|gen=f|pl=Schlànga}}
+
+{{WortMül|Frosch|Frosch|grenouille|frog|kat=N|gen=m|pl=Fräscha}}
+
+{{WortMül|Eidechsla|Eidechse|lézard|lizard|kat=N|gen=n|pl=Eidechsla}}
+
+{{WortMül|Kafer|Käfer|coléoptère|beetle|kat=N|gen=m|pl=Kafer}}
+
+{{WortMül|Maiakafer|Grille|grillon|cricket|kat=N|gen=m|pl=Maiakafer}}
+
+{{WortMül|Mucka|Fliege|mouche|fly|kat=N|gen=f|pl=Mucka}}
+
+{{WortMül|Schnok|Stechmücke|moustique|mosquito|kat=N|gen=m|pl=Schnoka}}
+
+{{WortMül|Summervogel|Schmetterling|papillon|butterfly|kat=N|gen=m|pl=Summerveegel}}
+
+{{WortMül|Ìmmala|Biene|abeille|bee|kat=N|gen=n|pl=Ìmmala}}
+
+{{WortMül|Waschpa|Wespe|guêpe|wasp|kat=N|gen=f|pl=Waschpa}}
+
+{{WortMül|Heigumber|Heuschrecke|sauterelle|grasshopper|kat=N|gen=m|pl=Heigumber}}
+
+{{WortMül|Omeisa|Ameise|fourmi|ant|kat=N|gen=f|pl=Omeisa}}
+
+{{WortMül|Schàwa|Motte|mite|moth|kat=N|gen=f|pl=Schàwa}}
+
+{{WortMül|Ohrapfatzer|Ohrwurm|pince-oreilles|earwig|kat=N|gen=m|pl=Ohrapfatzer}}
+
+{{WortMül|Ohragrìwler|Ohrwurm|perce-oreilles|earwig|kat=N|gen=m|pl=Ohragrìwler}}
+
+{{WortMül|Brama|Bremse|taon|horse-fly|kat=N|gen=f|pl=Brama}}
+
+{{WortMül|Rüppa|Raupe|chenille|caterpillar|kat=N|gen=f|pl=Rüppa}}
+
+{{WortMül|Vogel|Vogel|oiseau|bird|kat=N|gen=m|pl=Veegel}}
+
+{{WortMül|Àdler|Adler|aigle|eagle|kat=N|gen=m|pl=Adler}}
+
+{{WortMül|Agerschta|Elster|pie|magpie|kat=N|gen=f|pl=Agerschta}}
+
+{{WortMül|Àmsla|Amsel|merle|blackbird|kat=N|gen=f|pl=Àmsla}}
+
+{{WortMül|Spàtz|Spatz|moineau|sparrow|kat=N|gen=m|pl=Spàtza}}
+
+{{WortMül|Meisla|Meise|mésange|tit|kat=N|gen=nt|pl=Meisla}}
+
+{{WortMül|Nàchtigàll|Nachtigall|rossignol|nightingale|kat=N|gen=f|pl=Nàchtigàlla}}
+
+{{WortMül|Kuckuck|Kuckuck|coucou|cuckoo|kat=N|gen=m|pl=Kuckuck}}
+
+{{WortMül|Nàchtkütz|Eule|hibou|owl|kat=N|gen=m|pl=Nàchtkütza}}
+
+{{WortMül|Stork|Storch|cigogne|stork|kat=N|gen=m|pl=Storka}}
+
+{{WortMül|Schwalwala|Schwalbe|hirondelle|swallow|kat=N|gen=n|pl=Schwalwala}}
+
+{{WortMül|Rotschwànz|Rotschwanz|rouge-queue|redstart|kat=N|gen=m|pl=Rotschwanz}}
+
+{{WortMül|Tüüwa|Taube|pigeon|pigeon|kat=N|gen=d|pl=Tüüwa}}
+
+{{WortMül|Kràbb|Rabe, Krähe|corbeau|crow|kat=N|gen=m|pl=Kràbba}}
+
+{{WortMül|Hüehn|Huhn|poule|hen|kat=N|gen=d|pl=Hiahner}}
+
+{{WortMül|Gückel|Hahn|coq|cock|kat=N|gen=m|pl=Gickel}}
+
+{{WortMül|Glìckala|Küken|poussin|chick|kat=N|gen=s|pl=Glìckala}}
+
+{{WortMül|Walschhüehn|Truthahn|dindon|turkey|kat=N|gen=d|pl=Walschhiahner}}
+
+{{WortMül|Gàns|Gans|oie|goose|kat=N|gen=d|pl=Gans}}
+
+{{WortMül|Gàger|Ganter|jars|gander|kat=N|gen=m|pl=Gàger}}
+
+{{WortMül|Anta|Ente|canard|duck|kat=N|gen=d|pl=Anta}}
+
+{{WortMül|Pàppagei|Papagei|perroquet|parrot|kat=N|gen=m|pl=Pàppagei}}
+
+{{WortMül|Kànàrivogel|Kanarienvogel|canari|canary|kat=N|gen=m|pl=Kànàriveegel}}
+
+{{WortMül|Schnapf|Schnepfe|bécasse|woodcock|kat=N|gen=f|pl=Schnapfa}}
+
+{{WortMül|Fladermüüs|Fledermaus|chauve-souris|bat|kat=N|gen=f|pl=Fladermiis}}
+
+{{WortMül|Fìsch|Fisch|poisson|fish|kat=N|gen=m|pl=Fìsch}}
+
+{{WortMül|Haifìsch|Hai|requin|shark|kat=N|gen=m|pl=Haifìsch}}
+
+{{WortMül|Wàlfìsch|Wal|baleine|whale|kat=N|gen=m|pl=Wàlfìsch}}
+
+{{WortMül|Kàrpf|Karpfen|carpe|carp|kat=N|gen=m|pl=Kàrpfa}}
+
+{{WortMül|Foralla|Forelle|truite|trout|kat=N|gen=f|pl=Foralla}}
+
+{{WortMül|Làchs|Lachs|saumon|salmon|kat=N|gen=m|pl=Làchsa}}
+
+{{WortMül|Muschel|Muschel|moule|clam|kat=N|gen=d|pl=Muschla}}
+
+{{WortMül|Ool|Aal|anguille|eel|kat=N|gen=m|pl=Oola}}
+
+== Pflànza ==
+[[Datei:Dry_grass_halms.jpg|100px|right|Pflànza]]
+{{WortMül|Pflànza|Pflanze|plante|plant|kat=N|gen=f|pl=Pflànza}}
+
+
+
+=== Baim ===
+{{WortMül|Bàuim|Baum|arbre|tree|kat=N|gen=f|pl=Baim}}
+
+
+
+{{WortMül|Eicha|Eiche|chêne|oak|kat=N|gen=f|pl=Eicha}}
+
+{{WortMül|Tànna|Tanne|sapin|fir|kat=N|gen=f|pl=Tànna}}
+
+{{WortMül|Büecha|Buche|hêtre|beech|kat=N|gen=f|pl=Büecha}}
+
+{{WortMül|Pàppla|Pappel|peuplier|poplar|kat=N|gen=f|pl=Pàppla}}
+
+{{WortMül|Holdra|Holunder|sureau||kat=N|gen=m|pl=Holdra}}
+
+
+
+
+=== Blüema ===
+{{WortMül|Blüema|Blume|fleur|flower|kat=N|gen=f|pl=Blüema}}
+
+
+
+{{WortMül|Rosa|Rose|rose|rose|kat=N|gen=f|pl=Rosa}}
+
+{{WortMül|Maiagläckla|Maiglöckchen|muguet|lily of the valley|kat=N|gen=nt|pl=Maiaglìckla}}
+
+{{WortMül|Sunnablüema|Sonnenblume|tournesol|sunflower|kat=N|gen=f|pl=Sunnablüema}}
+
+{{WortMül|Butterblüema|Sonnenblume|tournesol|sunflower|kat=N|gen=f|pl=Butterblüema}}
+
+{{WortMül|Schlìsselbliamla|Primel|primevère|primrose|kat=N|gen=nt|pl=Schlìsselbliamla}}
+
+=== Obst ===
+{{WortMül|Obst|Obst|fruit|fruit|kat=N|gen=nt|pl=-}}
+
+
+
+{{WortMül|Äpfel|Apfel|pomme|apple|kat=N|gen=m|pl=Äpfel}}
+
+{{WortMül|Beera|Birne|poire|pear|kat=N|gen=f|pl=Beera}}
+
+{{WortMül|Oràscha|Orange|orange|orange|kat=N|gen=f|pl=Oràscha}}
+
+{{WortMül|Zitrona|Zitrone|citron|lemon|kat=N|gen=f|pl=Zitrona}}
+
+{{WortMül|Pamplemousse|Grapefruit|pamplemousse|grapefruit|kat=N|gen=f|pl=Pamplemousse}}
+
+{{WortMül|Bànàna|Banane|banane|banana|kat=N|gen=f|pl=Bànàna}}
+
+{{WortMül|Zwatschga|Zwetschge|quetsche|damson|kat=N|gen=f|pl=Zwatschga}}
+
+{{WortMül|Pflüüma|Pflaume|prune|plum|kat=N|gen=f|pl=Pflüüma}}
+
+{{WortMül|Mirabella|Mirabelle|mirabelle|mirabelle plum|kat=N|gen=f|pl=Mirabella}}
+
+{{WortMül|Mellala|Aprikose|abricot|apricot|kat=N|gen=nt|pl=Mellala}}
+
+{{WortMül|Triiwel|Traube|raisin|grape|kat=N|gen=f|pl=Triiwel}}
+
+{{WortMül|Kìrscha|Kirsche|cerise|cherry|kat=N|gen=f|pl=Kìrscha}}
+
+{{WortMül|Ardbeera|Erdbeere|fraise|strawberry|kat=N|gen=f|pl=Ardbeera}}
+
+{{WortMül|Xànderla|Johannisbeere|groseille|redcurrant|kat=N|gen=nt|pl=Xànderla}}
+
+{{WortMül|Krüsala|Stachelbeere|groseille à maquereau|gooseberry|kat=N|gen=nt|pl=Krüsala}}
+
+{{WortMül|Hìmbeera|Himbeere|framboise|raspberry|kat=N|gen=f|pl=Hìmbeera}}
+
+{{WortMül|Brumbeera|Brombeere|mûre|blackberry|kat=N|gen=f|pl=Brumbeera}}
+
+{{WortMül|Heidelbeera|Heidelbeere|myrtille|blueberry|kat=N|gen=f|pl=Heidelbeera}}
+
+{{WortMül|Hàgabutta|Hagebutte|églantine, cynorrhodon|rose hip|kat=N|gen=f|pl=Hàgabutta}}
+
+{{WortMül|Aschpala|Mispel|nèfle|medlar|kat=N|gen=|pl=Aschpala}}
+
+{{WortMül|Kìtta|Quitte|coing|quince|kat=N|gen=f|pl=Kìtta}}
+
+{{WortMül|Nussa|Walnuss|noix|nut|kat=N|gen=f|pl=Nussa}}
+
+{{WortMül|Hàselnussa|Haselnuss|noisette|hazelnut|kat=N|gen=f|pl=Hàselnussa}}
+
+{{WortMül|Màndla|Mandel|amande|almond|kat=N|gen=|pl=Màndla}}
+
+{{WortMül|Käschtena|Kastanie|châtaigne|chestnut|kat=N|gen=f|pl=Käschtena}}
+
+{{WortMül|Màrrona|Maroni|marron|chestnut|kat=N|gen=|pl=Màrrona}}
+
+
+=== Gmias ===
+{{WortMül|Gmias|Gemüse|légume|vegetable|kat=N|gen=nt|pl=-}}
+
+
+
+{{WortMül|Hartäpfel|Kartoffel|pomme de terre|potato|kat=N|gen=m|pl=Hartäpfel}}
+
+{{WortMül|Galriawla|Möhre|carotte|carrot|kat=N|gen=nt|pl=Galriawla}}
+
+{{WortMül|Bohna|Bohne|haricot|bean|kat=N|gen=f|pl=Bohna}}
+
+{{WortMül|Miasla|Erbse|petit-pois|pea|kat=N|gen=nt|pl=Miasla}}
+
+{{WortMül|Arbsa|Erbse|pois, pois cassé|pea|kat=N|gen=nt|pl=Arbsa}}
+
+{{WortMül|Ràhna|Rübe|betterave|beet|kat=N|gen=|pl=Ràhna}}
+
+{{WortMül|Sàlàt|Salat|salade|salade|kat=N|gen=m|pl=Salater}}
+
+{{WortMül|Hitscherla|Feldsalat|mâche|corn salad|kat=N|gen=|pl=Hitscherla}}
+
+{{WortMül|Krütt|Kraut|chou|cabbage|kat=N|gen=nt|pl=Krütt}}
+
+{{WortMül|Rotkrütt|Rotkohl|chou rouge|red cabbage|kat=N|gen=|pl=Rotkrütt}}
+
+{{WortMül|Sürkrütt|Sauerkraut|choucroute|sauerkraut|kat=N|gen=nt|pl=Sürkrütt}}
+
+{{WortMül|Schbrìsslerkehl|Rosenkohl|chou de Bruxelles|Brussels sprout|kat=N|gen=nt|pl=Schbrìsslerkehl}}
+
+{{WortMül|Àndivi|Chicorée|endive|chicory|kat=N|gen=|pl=Àndivi}}
+
+{{WortMül|Làuiech|Lauch|poireau|leek|kat=N|gen=m|pl=Làuiech}}
+
+{{WortMül|Màngold|Mangold|bette|mangold|kat=N|gen=m|pl=Màngold}}
+
+{{WortMül|Schwàrwurzla|Bocksbart|saisifi|salsify|kat=N|gen=f|pl=Schwàrwurzla}}
+
+{{WortMül|Zìwala|Zwiebel|oignon|onion|kat=N|gen=nt|pl=Zìwala}}
+
+{{WortMül|Schàlotta|Schalotte|échalote|shallot|kat=N|gen=f|pl=Schàlotta}}
+
+{{WortMül|Knowlig|Knoblauch|ail|garlic|kat=N|gen=m|pl=Knowlig}}
+
+=== Kärner ===
+{{WortMül|Korn|Korn|grain|grain|kat=N|gen=nt|pl=Kärner}}
+
+
+
+{{WortMül|Weiza|Weizen|blé|wheat|kat=N|gen=m|pl=Weiza}}
+
+{{WortMül|Rogga|Roggen|seigle|rye|kat=N|gen=m|pl=Rogga}}
+
+{{WortMül|Hàwer|Hafer|avoine|oat|kat=N|gen=m|pl=Hàwer}}
+
+{{WortMül|Walschkorn|Mais|maïs|maize|kat=N|gen=nt|pl=Walschkärner}}
+
+{{WortMül|Riss|Reis|riz|rice|kat=N|gen=m|pl=Riss}}
+
+=== Gràs ===
+{{WortMül|Gràs|Gras|herbe|grass|kat=N|gen=nt|pl=Gràsa}}
+
+
+
+{{WortMül|Schnìttlàuiech|Schnittlauch|ciboulette|chive|kat=N|gen=m|pl=Schnìttlàuiech}}
+
+{{WortMül|Barlàuiech|Sauerampfer|oseille|sorrel|kat=N|gen=m|pl=Barlàuiech}}
+
+{{WortMül|Bettbrunser|Löwenzahn|pissenlit|dandelion|kat=N|gen=m|pl=Bettbrunser}}
+
+{{WortMül|Kàtzawàdel|Schachtelhalm|prêle|horsetail|kat=N|gen=m|pl=Kàtzawadel}}
+
+{{WortMül|Pfaffermìnz|Pfefferminz|menthe|peppermint|kat=N|gen=nt|pl=Pfaffermìnz}}
+
+== Kärwer ==
+[[Datei:Homme-vitruve.jpg|60px|right|Kärwer]]
+→ [[Wort:Mülhauser Wortschatz/Körper|Milhüüser Wortschàtz/Kärwer]]
+
+
+== Mina ==
+[[Datei:Schlaegel und Eisen nach DIN 21800.svg|60px|right|Mina]]
+→ [[Wort:Mülhauser Wortschatz/Mine|Milhüüser Wortschàtz/Mina]]
+
+==Zitt==
+{{WortMül|Zitt|Zeit|temps|timel|kat=N|gen=f|pl=Zitta}}
+
+{{WortMül|z'Morga|morgens|le matin|in the morning|kat=Lok}}
+
+{{WortMül|z'Mittàg|mittags|l'après-midi|in the afternoon|kat=Lok}}
+
+{{WortMül|z'Owa|abends|le soir|in the evening|kat=Lok}}
+
+{{WortMül|z'Nàcht|nachts|la nuit|in the night|kat=Lok}}
+
+{{WortMül|àm àchta||à huit heures|at eight o'clock|kat=Lok}}
+
+{{WortMül|àm hàlwer niina||à huit heures et demie|at half past eight|kat=Lok}}
+
+{{WortMül|vor da àchta|vor acht Uhr|avant huit heures|before eight o'clock|kat=Lok}}
+
+{{WortMül|noh da àchta|nach acht Uhr|après huit heures|after eight o'clock|kat=Lok}}
+
+{{WortMül|'s ìsch niina|es ist neun Uhr|il est neuf heures|it is nine o'clock|kat=Lok}}
+
+{{WortMül|àchta|acht Uhr|huit heures|eight o'clock|kat=Lok}} [[Datei:Relogio08 00.svg|30px|08:00]]
+
+{{WortMül|fìmf àb àchta|fünf nach acht|huit heures cinq|five past eight|kat=Lok}} [[Datei:Relogio08 05.svg|30px|08:05]]
+
+{{WortMül|zeh àb àchta|zehn nach acht|huit heures dix|ten past eight|kat=Lok}} [[Datei:Relogio08 10.svg|30px|08:10]]
+
+{{WortMül|viartel àb àchta|viertel nach acht|huit heures et quart|quarter past eight|kat=Lok}} [[Datei:Relogio08 15.svg|30px|08:15]]
+
+{{WortMül|zwànzig àb àchta|zwanzig nach acht|huit heures vingt|twenty past eight|kat=Lok}} [[Datei:Relogio08 20.svg|30px|08:20]]
+
+{{WortMül|fìmf bis hàlwer niina|fünf vor halb neun|huit heures vingt-cinq|twenty-five past eight|kat=Lok}} [[Datei:Relogio08 25.svg|30px|08:25]]
+
+{{WortMül|hàlwer niina|halb neun|huit heures et demie|half past eight|kat=Lok}} [[Datei:Relogio08 30.svg|30px|08:30]]
+
+{{WortMül|fìmf àb hàlwer niina|fünf nach halb neun|neuf heures moins vingt-cinq|twenty-five to nine|kat=Lok}} [[Datei:Relogio08 35.svg|30px|08:35]]
+
+{{WortMül|zwànzig bis niina|zwanzig vor neun|neuf heures moins vingt|twenty to nine|kat=Lok}} [[Datei:Relogio08 40.svg|30px|08:40]]
+
+{{WortMül|viartel uf niina|viertel vor neun|neuf heures moins le quart|quarter to nine|kat=Lok}} [[Datei:Relogio08 45.svg|30px|08:45]]
+
+{{WortMül|zeh bis niina|zehn vor neun|neuf heures moins dix|ten to nine|kat=Lok}} [[Datei:Relogio08 50.svg|30px|08:50]]
+
+{{WortMül|fìmf bis niina|fünf vor neun|neuf heures moins cinq|five to nine|kat=Lok}} [[Datei:Relogio08 55.svg|30px|08:55]]
+
+{{WortMül|zwälfa|Mittag|midi|noon|kat=Lok}} [[Datei:Relogio00 00.svg|30px|12:00]]
+
+{{WortMül|zwälfa ''(z'Nàcht)'' / Mìtternàcht|Mitternacht|minuit|midnight|kat=Lok}} [[Datei:Relogio00 00.svg|30px|24:00]]
+
+
+== Làndschàft ==
+[[Datei:Ligne bleue.JPG|100px|right|Làndschàft]]
+{{WortMül|Làndschàft|Landschaft|paysage|landscape|kat=N|gen=f|pl=Làndschàfta}}
+
+
+{{WortMül|Àcker|Acker|champ|field|kat=N|gen=m|pl=Acker}}
+
+{{WortMül|Fald|Feld|champ|field|kat=N|gen=n|pl=Falder}}
+
+{{WortMül|Wiesa|Wiesen|pré|meadow|kat=N|gen=f|pl=Wiesa}}
+
+{{WortMül|Wàld|Wald|forêt|forest|kat=N|gen=m|pl=Wald}}
+
+{{WortMül|Dorf|Dorf|village|village|kat=N|gen=n|pl=Därfer}}
+
+{{WortMül|Stàdt|Stadt|ville|town|kat=N|gen=f|pl=Städter}}
+
+{{WortMül|Stroß|Stroß|route|road|kat=N|gen=f|pl=Stroßa}}
+
+{{WortMül|Barg|Berg|montagne|mountain|kat=N|gen=m|pl=Barga}}
+
+{{WortMül|Buckel|Hügel|colline|hill|kat=N|gen=m|pl=Bìckel}}
+
+{{WortMül|Glatscher|Gletscher|glacier|glacier|kat=N|gen=m|pl=Glatscher}}
+
+{{WortMül|Steirosselta|Moräne|moraine|moraine|kat=N|gen=f|pl=Steirosselta}}
+
+{{WortMül|Dàmm|Damm|digue|dam|kat=N|gen=m|pl=Dàmma}}
+
+{{WortMül|Brucka|Brücke|pont|bridge|kat=N|gen=f|pl=Brucka}}
+
+{{WortMül|Bàch|Bach|rivière|river|kat=N|gen=m|pl=Bach}}
+
+{{WortMül|Fluss|Fluss|fleuve|river|kat=N|gen=m|pl=Flìss}}
+
+{{WortMül|Runtz|Bächlein|ruisseau|brook|kat=N|gen=m|pl=Runtza}}
+
+{{WortMül|Strom|Strom|courant|stream|kat=N|gen=m|pl=Strom}}
+
+{{WortMül|Qualla|Quelle|source|spring|kat=N|gen=f|pl=Qualla}}
+
+{{WortMül|Wàsserloch|Wasserloch|trou d'eau|waterhole|kat=N|gen=n|pl=Wàsserlächer}}
+
+{{WortMül|Wèiech|Teich|étang|pond|kat=N|gen=m|pl=Wèiech}}
+
+{{WortMül|See|See|lac|lake|kat=N|gen=m|pl=See}}
+
+{{WortMül|Meer|Meer|mer|sea|kat=N|gen=n|pl=Meer}}
+
+{{WortMül|Ìnsel|Insel|île|island|kat=N|gen=f|pl=Ìnsel}}
+
+== Warkzig ==
+[[Datei:Møllebyggerjern.jpg|100px|right|Warkzig]]
+{{WortMül|Warkzig|Werkzeug|outil|tool|kat=N|gen=n|pl=Warkzig}}
+
+
+{{WortMül|Hàmmer|Hammer|marteau|hammer|kat=N|gen=m|pl=Hammer}}
+
+{{WortMül|Nàgel|Nagel|clou|nail|kat=N|gen=m|pl=Neegel}}
+
+{{WortMül|Meißel|Meißel|ciseau à bois|chisel|kat=N|gen=m|pl=Meißel}}
+
+{{WortMül|Strüüwa|Schraube|vis|screw|kat=N|gen=f|pl=Strüüwa}}
+
+{{WortMül|Strüüwaziager|Schraubenzieher|tournevis|screwdriver|kat=N|gen=m|pl=Strüüwaziager}}
+
+{{WortMül|Gwìnd|Gewinde|filetage|thread|kat=N|gen=n|pl=Gwìnd}}
+
+{{WortMül|Meter|Meter|mètre|meter|kat=N|gen=m|pl=Meter}}
+
+{{WortMül|Saga|Säge|scie|saw|kat=N|gen=f|pl=Saga}}
+
+{{WortMül|Schar|Schere|ciseaux|scissors|kat=N|gen=f|pl=Schara}}
+
+{{WortMül|Zànga|Zange|pince|pliers|kat=N|gen=f|pl=Zànga}}
+
+== Füeßbàll ==
+[[Datei:Soccer ball.svg|60px|right|Füeßbàll]]
+{{WortMül|Füeßbàll|Fußball|football|football|kat=N|gen=m|pl=}}
+
+
+{{WortMül|Corner|Eckball|corner|corner|kat=N|gen=|pl=Corner}}
+
+{{WortMül|Flìgel|Flügel|aile||kat=N|gen=m|pl=Flìgel}}
+
+{{WortMül|Fàul|Foul|faute|foul|kat=N|gen=n|pl=}}
+
+{{WortMül|Goal|Tor|but|goal|kat=N|gen=n|pl=Goal}}
+
+{{WortMül|Goalmànn|Torwart|gardien de but|goalkeeper|kat=N|gen=m|pl=Goalmanner}}
+
+{{WortMül|Spìeler|Spieler|joueur|player|kat=N|gen=m|pl=Spìeler}}
+
+{{WortMül|Trainer|Trainer|entraîneur|coach|kat=N|gen=m|pl=Trainer}}
+
+{{WortMül|Süpporter|Fan|supporter|supporter|kat=N|gen=m|pl=Süpporter}}
+
+{{WortMül|Händs|Handspiel|main|handball|kat=N|gen=|pl=}}
+
+{{WortMül|uf Sits|Abseits|hors-jeu|offside|kat=}}
+
+{{WortMül|holza|holzfällen|~bûcheronner, faire du petit bois, un jeu dur||kat=V|pp=gholzt}}
+
+{{WortMül|käpfla||jouer avec la tête||kat=V|pp=käpfelt}}
+
+{{WortMül|müüra|mauern|~bétonner||kat=V|pp=gmüürt}}
+
+== Tod ==
+{{WortMül|Tod|Tod|mort|death|kat=N|gen=m|pl=Toda}}
+
+
+{{WortMül|Àllerheiliga|Allerheiligen|Toussaint|All Saints' Day|kat=N|gen=f|pl=Àllerheiliga}}
+
+{{WortMül|Kìrchhoff|Friedhof|cimetière|cemetery|kat=N|gen=m|pl=Kìrchhäff}}
+
+{{WortMül|Liicht|Bestattung|funérailles/obsèques|funeral|kat=N|gen=f|pl=Liicht}}
+
+{{WortMül|Gràb|Grab|tombe|grave|kat=N|gen=n|pl=Greewer}}
+
+{{WortMül|Begrabnis|Begräbnis|enterrement|burial|kat=N|gen=n|pl=Begrabnissa}}
+
+{{WortMül|Leid|Trauer|deuil|mourning|kat=N|gen=n|pl=Leid}}
+
+{{WortMül|Leidslitt|trauernde Angehörige|famille en deuil||kat=N|gen=pl}}
+
+{{WortMül|Leicha|Leiche|cadavre|corpse|kat=N|gen=f|pl=Leicha}}
+
+{{WortMül|starwa|sterben|mourir|to die|kat=V|pp=gstorwa}}
+
+{{WortMül|vergràwa|begraben|enterrer|to bury|kat=V|pp=vergràwa}}
+
+== Faschter (un wàs derzüe gheert) ==
+[[Datei:Kalenderlys-tsca.jpeg|100px|right|Faschter]]
+{{WortMül|Fascht|Fest|fête|feast|kat=N|gen=nt|pl=Faschter}}
+
+
+{{WortMül|Nèijohr|Neujahr|nouvel an|New Year's Day|kat=N|gen=nt|pl=Nèijohr}}
+
+{{WortMül|Nèijohrswunsch|Neujahrswunsch|voeu de nouvel an|New Year's wish|kat=N|gen=nt|pl=Nèijohrswìnsch}}
+
+{{WortMül|Ooschtra|Ostern|Pâques|Easter|kat=N|gen=f|pl=Ooschtra}}
+
+{{WortMül|Pfìngschta|Pfingsten|Pentecôte|Pentecost|kat=N|gen=nt|pl=Pfìngschta}}
+
+{{WortMül|Sàntiklàuis|Sankt Nikolaus|Saint-Nicolas|Saint Nicholas|kat=N|gen=m|pl=}}
+
+{{WortMül|Rübbelz|Knecht Ruprecht|Père Fouettard|Knight Rupert|kat=N|gen=|pl=}}
+
+{{WortMül|Labküecha|Lebkuchen|pain d'épices|gingerbread|kat=N|gen=m|pl=Labküecha}}
+
+{{WortMül|Wiahnachta|Weihnachten|Noël|Christmas|kat=N|gen=f|pl=Wiahnachta}}
+
+{{WortMül|Wiahnàschtsowa|Weihnachtsabend|réveillon de Noël|Christmas Eve|kat=N|gen=nt|pl=Wiahnàtsowa}}
+
+{{WortMül|Staffestàg|Stephanstag|Saint-Etienne|St. Stephen's Day|kat=N|gen=m|pl=}}
+
+{{WortMül|Tànnabàuim|Weihnachtsbaum|arbre de Noël|Christmas tree|kat=N|gen=m|pl=Tànnabaim}}
+
+{{WortMül|Kerza|Kerze|bougie|candle|kat=N|gen=f|pl=Kerza}}
+
+{{WortMül|Mìtternàchtsmass|Mitternachtsmesse|messe de minuit|Midnight Mass|kat=N|gen=f|pl=Mìtternàchtsmass}}
+
+{{WortMül|Chrìschtkìnd|Christkind|enfant Jésus|Baby Jesus|kat=N|gen=nt|pl=Chrìschtkìnd}}
+
+{{WortMül|Krìppa|Krippe|crêche (grande, comme dans une église)|crib|kat=N|gen=f|pl=Krìppa}}
+
+{{WortMül|Krìppala|Krippe|crêche (petite, comme dans une maison)|crib|kat=N|gen=nt|pl=Krìppala}}
+
+{{WortMül|Wiahnàchtsmànn|Weihnachtsmann|Père Noël|Santa Claus|kat=N|gen=m|pl=Wiahnàchtsmanner}}
+
+== Verb ==
+[[Datei:Icon tools.svg|80px|right|Verb]]
+{{WortMül|Verb|Verb|verbe|verb|kat=N|gen=n|pl=Verb}}
+
+
+*Teil Pàrtikel sìn vum Verb untrennbàr: be-, emp-, ent-, er-, ge-, mìss-, ver-, wìder-, zer-...
+*Àndra Pàrtikel sìn vum Verb trennbàr: àà-, àb-, i-, noh-, uf-, üs-...
+
+S Zeicha ¦ bedittet àss d Pàrtikel vum Verb trennbàr ìsch.
+
+
+{{WortMül|sìì|sein|être|to be|kat=V|pp=gsìì}}
+
+{{WortMül|hàà|haben|avoir|to have|kat=V|pp=ghàà}}
+
+{{WortMül|wara|werden|devenir|to become|kat=V|pp=worra}}
+
+{{WortMül|düe|tun|faire|to do|kat=V|pp=-}}
+
+
+
+{{WortMül|därfa|dürfen|avoir le droit|to may|kat=V|pp=därfa}}
+
+{{WortMül|känna|können|pouvoir|to can|kat=V|pp=känna}}
+
+{{WortMül|meega|mögen|apprécier|to like|kat=V|pp=meega}}
+
+{{WortMül|müeßa|mussen|devoir|to have to|kat=V|pp=müeßa}}
+
+{{WortMül|solla|sollen|devoir|to shall|kat=V|pp=solla}}
+
+{{WortMül|wälla|wollen|vouloir|to want|kat=V|pp=wälla}}
+
+
+
+{{WortMül|bàuia|bauen|construire|to build|kat=V|pp=bàuia}}
+
+{{WortMül|''àà''¦bàuia|anbauen|construire en plus, à côté|to attach|kat=V|pp=ààbàuia}}
+
+{{WortMül|''i''¦bàuia|einbauen|aménager|to install|kat=V|pp=ibàuia}}
+
+{{WortMül|''uf''¦bàuia|aufbauen|reconstruire|to rebuild|kat=V|pp=ufbàuia}}
+
+{{WortMül|''um''¦bàuia|umbauen|modifier une construction|to convert|kat=V|pp=umbàuia}}
+
+{{WortMül|''ver''bàuia||construire (partout, trop ???)||kat=V|pp=verbàuia}}
+
+
+{{WortMül|danka|denken|penser|to think|kat=V|pp=dankt}}
+
+{{WortMül|''noh''¦danka|nachdenken|réfléchir|to ponder|kat=V|pp=nohdankt}}
+
+{{WortMül|''üs''¦danka|ausdenken|concevoir, mettre au point|to conceive|kat=V|pp=üsdankt}}
+
+
+
+
+{{WortMül|froga|fragen|demander|to ask|kat=V|pp=gfrogt}}
+
+{{WortMül|''àà''¦froga|''an''fragen|demander, en s'adressant à quelqu'un|to ask|kat=V|pp=ààgfrogt}} (Ìch bì ààgfrogt worra = Ma hàt mina Meinung wälla wìssa)
+
+{{WortMül|''noh''¦froga|''nach''fragen|s'intéresser, tenir à quelque chose|to like|kat=V|pp=nohgfrogt}} (Ar frog ìn sinera Àrwet nit noh = Sina Àrwet ìntressiart'na nìt)
+
+{{WortMül|''üs''¦froga|''aus''fragen|interroger|to interrogate|kat=V|pp=üsgfrogt}} (D Polizèi frogt'na üs)
+
+
+{{WortMül|gaa|geben|donner|to give|kat=V|pp=gaa}}
+
+{{WortMül|''àà''¦gaa|angeben|déclarer|to state|kat=V|pp=ààgaa}}
+
+{{WortMül|''àb''¦gaa|abgeben|déposer|to deliver|kat=V|pp=àbgaa}}
+
+{{WortMül|''i''¦gaa|eingeben|donner, entrer quelque chose|to input|kat=V|pp=igaa}}
+
+{{WortMül|''noh''¦gaa|nachgeben|céder (moralement)|to yield|kat=V|pp=nohgaa}}
+
+{{WortMül|''uf''¦gaa|aufgeben|abandonner|to give up|kat=V|pp=ufgaa}}
+
+{{WortMül|''üs''¦gaa|ausgeben|dépenser|to spend|kat=V|pp=üsgaa}}
+
+{{WortMül|''züe''¦gaa|zugeben|avouer|to admit|kat=V|pp=züegaa}}
+
+
+
+{{WortMül|geh|gehen|aller|to go|kat=V|pp=gànga}}
+
+{{WortMül|''àà''¦geh|''an''gehen|s'allumer ''ou'' concerner|to start ''or'' to concern|kat=V|pp=ààgànga}}  (Dr Motor geht àà ''- oder-'' As geht uns nit àà)
+
+{{WortMül|''àb''¦geh|abgehen|s'éteindre / partir|to stop / to leave|kat=V|pp=àbgànga}}
+
+{{WortMül|''i''¦geh|''ein''gehen|rétrécir|to shrink|kat=V|pp=igànga}}
+
+{{WortMül|''noh''¦geh|folgen|suivre|to follow|kat=V|pp=nohgànga}} (Ar geht ìhm noh)
+
+{{WortMül|''uf''¦geh|aufgehen|s'ouvrir|to open|kat=V|pp=ufgànga}}
+
+{{WortMül|''unter''¦geh|untergehen|couler, sombrer|to sink|kat=V|pp=untergànga}}
+
+{{WortMül|''ver''geh|schmelzen|fondre|to melt|kat=V|pp=vergànga}} (S Is vergeht)
+
+
+
+{{WortMül|hola|holen|chercher|to get|kat=V|pp=gholt}}
+
+{{WortMül|''i''¦hola|''ein''holen|rattraper|to catch up|kat=V|pp=igholt}} (Da Velorenner ìsch vorhar dr letscht gsìì, àwer ar holt jetzt d àndra i.)
+
+{{WortMül|''noh''¦hola|''nach''holen|rattraper|to catch up|kat=V|pp=nohgholt}} (Ar hàt mehrera Kurs verfahlt, ar müeßt sa jetzt nohhola.)
+
+
+
+
+{{WortMül|kàuifa|kaufen|acheter|to buy|kat=V|pp=kàuift}}
+
+{{WortMül|''àb''¦kàuifa|abkaufen|racheter|to buy out|kat=V|pp=àbkàuift}}
+
+{{WortMül|''i''¦kàuifa|einkaufen|faire des achats|to go shopping|kat=V|pp=ikàuift}}
+
+{{WortMül|''ver''kàuifa|verkaufen|vendre|to sell|kat=V|pp=verkàuift}}
+
+
+
+
+{{WortMül|kocha|kochen|cuisiner|to cook|kat=V|pp=kocht}}
+
+{{WortMül|''àà''¦kocha|ankochen|attacher à la casserole||kat=V|pp=ààkocht}}
+
+{{WortMül|''àb''¦kocha|abkochen|cuire nature (à l'eau)||kat=V|pp=àbkocht}}
+
+{{WortMül|''i''¦kocha|einkochen|trop cuire (plus d'eau !)||kat=V|pp=ikocht}}
+
+{{WortMül|''ìwer''¦kocha|überkochen|déborder à la cuisson||kat=V|pp=ìwerkocht}}
+
+{{WortMül|''uf''¦kocha|aufkochen|recuire (idée de complément)||kat=V|pp=ufkocht}}
+
+{{WortMül|''üs''¦kocha|auskochen|trop cuire (plus de saveur)||kat=V|pp=üskocht}}
+
+{{WortMül|''ver''kocha|verkochen|trop cuire (trop mou, purée)||kat=V|pp=verkocht}}
+
+{{WortMül|''vor''¦kocha|vorkochen|précuire||kat=V|pp=vorkocht}}
+
+
+
+{{WortMül|kumma|kommen|venir|to come|kat=V|pp=kumma}}
+
+{{WortMül|''àà''¦kumma|''an''kommen|arriver|to arrive|kat=V|pp=ààkumma}}
+
+{{WortMül|''dràà''¦kumma|''daran''kommen|arriver (~c'est le tour de)||kat=V|pp=drààkumma}} (Ìch hà làng müeßa wàrta, àwer jetzt kumm i dràà = 's ìsch jetzt àn mìr.)
+
+{{WortMül|''dràà''¦kumma|''an''schlagen|cogner|to hit|kat=V|pp=drààkumma}} (D Vàsa ìsch àwaghèit wial ìch drààkumma bì.)
+
+{{WortMül|''drüss''¦kumma|verstehen|s'en sortir, dans le sens de "comprendre"|to understand|kat=V|pp=drüsskumma}} ('s ìsch züe kompliziart, ma kummt nìt drüss)
+
+{{WortMül|''i''¦kumma|''ein''kommen|venir à l'idée|~to think of|kat=V|pp=ikumma}} (A güeta Idee ìsch mìr ikumma.)
+
+{{WortMül|''noh''¦kumma|''nach''kommen|suivre, dans le sens de "comprendre"|to understand|kat=V|pp=nohkumma}} (Kummsch noh, ìn dr Schüel?)
+
+{{WortMül|''uf''¦kumma|aufkommen|survenir (idée de rumeur)|to appear|kat=V|pp=ufkumma}}
+
+{{WortMül|''um''¦kumma|umkommen|périr de mort violente|to die|kat=V|pp=umkumma}}
+
+{{WortMül|''üs''¦kumma|''aus''kommen|bien s'entendre|to manage???|kat=V|pp=üskumma}}  (Mìr kämma mìt unsera Noochbera güet üs.)
+
+{{WortMül|''ver''kumma|verkommen|se décomposer, pourrir||kat=V|pp=verkumma}}
+
+{{WortMül|''vor''¦kumma|vorkommen|arriver|to happen|kat=V|pp=vorkumma}}
+
+
+
+
+{{WortMül|làuifa|gehen|marcher|to walk|kat=V|pp=gloffa}}
+
+{{WortMül|''àb''¦làuifa|aglaufen|s'écouler||kat=V|pp=àbgloffa}}
+
+{{WortMül|''ìwer''¦làuifa|überlaufen|déborder|to overflow|kat=V|pp=ìwergloffa}}
+
+{{WortMül|''noh''¦làuifa|auslaufen|suivre, marcher à la suite|to follow|kat=V|pp=üsgloffa}}
+
+{{WortMül|''üs''¦làuifa|auslaufen|fuire (idée d'un liquide qui s'écoule)||kat=V|pp=üsgloffa}}
+
+{{WortMül|''ver''làuifa|schmelzen|fondre|to melt|kat=V|pp=verloffa}}
+
+
+
+
+
+{{WortMül|màcha|machen|faire|to make|kat=V|pp=gmàcht}}
+
+{{WortMül|''àà''¦màcha|anmachen|allumer|to turn on|kat=V|pp=ààgmàcht}}
+
+{{WortMül|''àb''¦màcha||enlever||kat=V|pp=àbgmàcht}}
+
+{{WortMül|''i''¦màcha||mettre en conserve||kat=V|pp=igmàcht}}
+
+{{WortMül|''noh''¦màcha|imitieren|imiter|to imitate|kat=V|pp=nohgmàcht}}
+
+{{WortMül|''uf''¦màcha|aufmachen|ouvrir||kat=V|pp=ufgmàcht}} (un züemàcha)
+
+{{WortMül|''üs''¦màcha||éteindre / organiser / médire de...||kat=V|pp=üsgmàcht}}
+
+{{WortMül|''ver''màcha|vermachen|faire une donation||kat=V|pp=vermàcht}}
+
+{{WortMül|''züe''¦màcha|zumachen|fermer||kat=V|pp=züegmàcht}}
+
+
+
+{{WortMül|reda|reden|parler|to talk|kat=V|pp=gredt}}
+
+{{WortMül|''àà''¦reda|anreden|adresser la parole à ...|to talk to ...|kat=V|pp=ààgredt}}
+
+{{WortMül|''i''¦reda|einreden|influencer||kat=V|pp=igredt}}
+
+{{WortMül|''noh''¦reda||répéter, rapporter des nouvelles||kat=V|pp=nohgredt}}
+
+{{WortMül|''uf''¦reda|aufreden|répliquer (de manière effrontée)||kat=V|pp=ufgredt}}
+
+{{WortMül|''üs''¦reda|ausreden|dissuader||kat=V|pp=üsgredt}}
+
+{{WortMül|''ver''reda|aufreden|faire un lapsus, parler en se trompant||kat=V|pp=verredt}}
+
+
+
+{{WortMül|renna|laufen|courir|to run|kat=V|pp=grennt}}
+
+{{WortMül|àà¦renna||se cogner|to hit|kat=V|pp=ààgrennt}}
+
+{{WortMül|àb¦renna||s'enfuir|to flee|kat=V|pp=àbgrennt}}
+
+{{WortMül|i¦renna||foncer dans ...|to hit|kat=V|pp=igrennt}}
+
+{{WortMül|noh¦renna||poursuivre|to follow|kat=V|pp=nohgrennt}}
+
+{{WortMül|um¦renna||renverser (lors d'un déplacement)||kat=V|pp=umgrennt}}
+
+
+
+
+{{WortMül|schriiwa|schreiben|écrire|to write|kat=V|pp=gschrìewa}}
+
+{{WortMül|''àà''¦schriiwa|anschreiben|écrire (de manière publique)|to write|kat=V|pp=ààgschrìewa}}
+
+{{WortMül|''àb''¦schriiwa|abschreiben|copier|to copy|kat=V|pp=àbgschrìewa}}
+
+{{WortMül|''i''¦schriiwa|anschreiben|inscrire|to |kat=V|pp=igschrìewa}}
+
+{{WortMül|''uf''¦schriiwa|aufschreiben|noter||kat=V|pp=ufgschrìewa}}
+
+{{WortMül|''unter''schriiwa|unterschreiben|signer|to sign|kat=V|pp=unterschrìewa}}
+
+{{WortMül|''um''¦schriiwa|umschreiben|transcrire||kat=V|pp=umgschrìewa}}
+
+{{WortMül|''üs''¦schriiwa|ausschreiben|écrire en entier||kat=V|pp=üsgschrìewa}}
+
+{{WortMül|''ver''schriiwa|verschreiben|prescrire||kat=V|pp=verschrìewa}}
+
+
+
+
+{{WortMül|steh|stehen|se tenir debout|to stand|kat=V|pp=gstànda}}
+
+{{WortMül|''uf''¦steh|aufstehen|se lever|to stand up|kat=V|pp=ufgstànda}}
+
+{{WortMül|''unter''¦steh|unterstehen|s'abriter||kat=V|pp=untergstànda}}
+
+{{WortMül|''ver''steh|verstehen|comprendre|to understand|kat=V|pp=verstànda}}
+
+{{WortMül|''züe''¦steh|zustehen|admettre, être d'accord|to agree|kat=V|pp=züegstànda}}
+
+
+
+{{WortMül|stella|stellen|poser|to put|kat=V|pp=gstellt}}
+
+{{WortMül|''àà''¦stella|anstellen|employer / faire une bêtise|to employ|kat=V|pp=ààgstellt}}
+
+{{WortMül|''àb''¦stella|abstellen|résilier||kat=V|pp=àbgstellt}}
+
+{{WortMül|''har''¦stella|herstellen|fabriquer|to produce|kat=V|pp=hargstellt}}
+
+{{WortMül|''i''¦stella|einstellen|recruter / faire un réglage||kat=V|pp=igstellt}}
+
+{{WortMül|''uf''¦stella|aufstellen|ériger|to put up|kat=V|pp=ufgstellt}}
+
+{{WortMül|''um''¦stella|umstellen|déplacer, modifier (idée de transition)||kat=V|pp=umgstellt}}
+
+{{WortMül|''üs''¦stella|ausstellen|exposer|to exhibit|kat=V|pp=üsgstellt}}
+
+{{WortMül|''ver''stella|verstellen|dérégler||kat=V|pp=verstellt}}
+
+{{WortMül|sìch ''ver''stella|sich verstellen|feindre||kat=V|pp=sìch verstellt}}
+
+{{WortMül|''vor''¦stella|vorstellen|présenter|to present|kat=V|pp=vorgstellt}}
+
+
+
+{{WortMül|teila|teilen|partager|to split|kat=V|pp=teilt}}
+
+{{WortMül|''i''¦teila|''ein''teilen|répartir|to detail|kat=V|pp=iteilt}} (Mìr teila's güet i, noh langt's.)
+
+{{WortMül|''ur''teila|''ur''teilen|juger|to judge|kat=V|pp=urteilt}} (Dr Rìchter urteilt.)
+
+{{WortMül|''üs''¦teila|''aus''teilen|distribuer|to deal|kat=V|pp=üsteilt}} (Ìch teil d Kàrta üs.)
+
+{{WortMül|''ver''teila|''ver''teilen|partager|to split|kat=V|pp=verteilt}} (Mìr verteila d Bredala.)
+
+== Adverb ==
+{{WortMül|Adverb|Adverb|adverbe|adverb|kat=N|gen=n|pl=Adverb}}
+
+
+*Fer a Ort vo ma ànageht (zum Beispiel: „ar geht ...“)
+
+{{WortMül|vìra||devant||kat=Adv}}
+
+{{WortMül|hìntra||derrière (quelque chose)||kat=Adv}}
+
+{{WortMül|uffa|herauf|en-haut, vers le haut|upwards|kat=Adv}}
+
+{{WortMül|àwa|herunter|en-bas, vers le bas|down|kat=Adv}}
+
+{{WortMül|inna|hinein|à l'intérieur|inside|kat=Adv}}
+
+{{WortMül|drii|darin|dedans (dans quelque chose)||kat=Adv}}
+
+{{WortMül|üssa|heraus|à l'extérieur|outside|kat=Adv}}
+
+{{WortMül|drüss|daraus|dehors (hors de quelque chose)||kat=Adv}}
+
+{{WortMül|umma|herum|de côté (idée de tourner)||kat=Adv}}
+
+{{WortMül|ìwra||de l'autre côté (idée de traverser)|othersides|kat=Adv}}
+
+{{WortMül|heim|heim|à la maison|home|kat=Adv}}
+
+{{WortMül|gràdüs|geradeaus|droit devant|straight ahead|kat=Adv}}
+
+{{WortMül|hìntersi|rückwärts|en arrière|backwards|kat=Adv}}
+
+
+*Fer a Ort vo ma ìsch (zum Beispiel: „ar ìsch ...“, „ar blibt ...“)
+
+{{WortMül|vorna|davorn|devant||kat=Adv}}
+
+{{WortMül|dhìnta|dahinter|derrière||kat=Adv}}
+
+{{WortMül|dowa||en-haut||kat=Adv}}
+
+{{WortMül|dunta||en-bas||kat=Adv}}
+
+{{WortMül|dìnna||dedans||kat=Adv}}
+
+{{WortMül|duss||dehors||kat=Adv}}
+
+{{WortMül|drum umma|rund herum|tout autour|all around|kat=Adv}}
+
+{{WortMül|dheim|zu Hause|à la maison|at home|kat=Adv}}
+
+
+
+*Fer a Ort (ègàl äb mìt oder ohna Bewegung)
+{{WortMül|hìnta||derrière (en général)||kat=Adv}}
+
+{{WortMül|drìwer|darüber|par-dessus||kat=Adv}}
+
+{{WortMül|druf|darauf|dessus|thereon|kat=Adv}}
+
+{{WortMül|drunter|darunter|dessous|thereunder|kat=Adv}}
+
+{{WortMül|dernawa|daneben|à côté|besides|kat=Adv}}
+
+{{WortMül|derzwìscha|dazwischen|entre les deux||kat=Adv}}
+
+{{WortMül|owa|oben|en-haut||kat=Adv}}  <small>''(owa ìm Kanschterla... gànz owa...)''</small>
+
+{{WortMül|unta|unten|en-bas||kat=Adv}}  <small>''(unta ìm Kaller... noch mehr unta...)''</small>
+
+
+* Fer d Zitt
+
+{{WortMül|sallamols|damals|à l'époque, autrefois|formerly|kat=Adv}}
+
+{{WortMül|vorhar|vorher|avant|previously|kat=Adv}}
+
+{{WortMül|sitterhar|seither|depuis|since then|kat=Adv}}
+
+{{WortMül|friaih|früh|tôt|early|kat=Adv}}
+
+{{WortMül|friaiher|früher|plus tôt|earlier|kat=Adv}}
+
+{{WortMül|kìrzlig|kürzlich|récemment|recently|kat=Adv}}
+
+{{WortMül|doletscht|letztens|dernièrement|lately|kat=Adv}}
+
+{{WortMül|z'letscht|zuletzt|en dernier|last|kat=Adv}}
+
+{{WortMül|vorgescht|vorgestern|avant-hier||kat=adv}}
+
+{{WortMül|gescht|gestern|hier|yesterday|kat=adv}}
+
+{{WortMül|hìtt|heute|aujourd'hui|today|kat=adv}}
+
+{{WortMül|jetz|jetzt|maintenant|now|kat=Adv}}
+
+{{WortMül|momentàn|en ce moment|momentan|at the moment|kat=Adv}}
+
+{{WortMül|dàto|de nos jours|heutzutage|nowadays|kat=Adv}}
+
+{{WortMül|derwilscht|inzwischen|pendant ce temps|meanwhile|kat=Adv}}
+
+{{WortMül|zeerscht|zuerst|premièrement|first|kat=Adv}}
+
+{{WortMül|glich|sogleich|tout de suite|immediately|kat=Adv}}
+
+{{WortMül|boll|bald|bientôt|soon|kat=Adv}}
+
+{{WortMül|naachschtens|nächstens|prochainement|shortly|kat=Adv}}
+
+{{WortMül|noochhar|nachher|après|afterward|kat=Adv}}
+
+{{WortMül|dernoh|danach|ensuite|thereafter|kat=Adv}}
+
+{{WortMül|morn|morgen|demain|tomorrow|kat=adv}}
+
+{{WortMül|ìwermorn|übermorgen|après-demain||kat=adv}}
+
+{{WortMül|spot|spät|tard|late|kat=Adv}}
+
+{{WortMül|speeter|später|plus tard|later|kat=Adv}}
+
+{{WortMül|schliaßlig|schließlich|finalement|finally|kat=Adv}}
+
+== Mehr oder weniger ==
+[[Datei:Color progression examples value progression.PNG|200px|right|wenig → vìel]]
+{{WortMül|mehr|mehr|plus|more|kat=Adv}}<br />
+{{WortMül|weniger|weniger|moins|less|kat=Adv}}
+
+
+
+{{WortMül|wer?|wer?|qui ?|who?|kat=Ìnterrogativpronoma}}
+
+{{WortMül|niama ''oder'' niamens ''oder'' niamets|niemand|personne|nobody|kat=Ìndefinitepronoma}}
+
+{{WortMül|ma ''oder'' mr|man|on|one|kat=Ìndefinitepronoma}}
+
+{{WortMül|ebber|jemand|quelqu'un|somebody|kat=Ìndefinitepronoma}}
+
+{{WortMül|teil|einige|quelques|some|kat=Ìndefinitepronoma}}
+
+{{WortMül|mehrera|mehrere|plusieurs|several|kat=Ìndefinitepronoma}}
+
+{{WortMül|manka|manche|maints, beaucoup|many|kat=Ìndefinitepronoma}}
+
+{{WortMül|àlla|alle|tous|everybody|kat=Ìndefinitepronoma}}
+
+
+{{WortMül|wàs?|was?|quoi ?|what?|kat=Ìnterrogativpronoma}}
+
+{{WortMül|nit ''oder'' nix|nichts|rien|nothing|kat=Ìndefinitepronoma}}
+
+{{WortMül|s Grìnschta|das Geringste|le minimum|the least|kat=Lok}}
+
+{{WortMül|wenig|wenig|peu|few|kat=Ìndefinitepronoma}}
+
+{{WortMül|a bìtsi|ein bisschen|un peu|a bit|kat=Ìndefinitepronoma}}
+
+{{WortMül|ebbis|etwas|quelque chose|something|kat=Ìndefinitepronoma}}
+
+{{WortMül|manks|manches|beaucoup de choses|a lot|kat=Ìndefinitepronoma}}
+
+{{WortMül|vìel|viel|beaucoup|much|kat=Ìndefinitepronoma}}
+
+{{WortMül|s Greebschta|das Gröbste|le plus gros|the most|kat=Lok}}
+
+{{WortMül|s Meischta|das Meiste|la plupart|the most|kat=Lok}}
+
+{{WortMül|àlles|alles|tout|everything|kat=Ìndefinitepronoma}}
+
+
+
+{{WortMül|wo?|wo?|ou ?|where?|kat=Ìnterrogativpronoma}}
+
+{{WortMül|niana ''oder'' nianens ''oder'' nianets|nirgendwo, nirgends|nulle part|nowhere|kat=Adv}}
+
+{{WortMül|aneimens|irgendwo|quelque part|somewhere|kat=Adv}}
+
+{{WortMül|ìweràll|überall|partout|everywhere|kat=Adv}}
+
+
+
+{{WortMül|wenn?|wann?|quand ?|when?}}
+
+{{WortMül|nia ''oder'' niamols|nie, niemals|jamais|never|kat=Adv}}
+
+{{WortMül|amol|einmal|une fois|once|kat=Adv}}
+
+{{WortMül|àb un züe|ab und zu|de temps en temps|from time to time|kat=Lok}}
+
+{{WortMül|hì un dà|hin und wieder|de temps en temps|every now and then|kat=Lok}}
+
+{{WortMül|mankmol|manchmal|parfois|sometimes|kat=Adv}}
+
+{{WortMül|vìelmol|vielmals|souvent ''ou'' de nombreuses fois|often ''or'' many times|kat=Adv}}
+
+{{WortMül|ìmmer|immer|toujours|always, everytime|kat=Adv}}
+
+== Ursàcha un Wìrkunga ==
+[[Datei:Flecha horizontal derecha azul.png|60px|right|Ursàcha un Wìrkunga]]
+{{WortMül|Ursàcha|Ursache|cause|cause|kat=N|gen=f|pl=Ursàcha}}<br />
+{{WortMül|Wìrkung|Wirkung|conséquence|effect|kat=N|gen=f|pl=Wìrkunga}}
+
+
+
+:↑ stàrka Verbìndung
+
+{{WortMül|verschwiiga <small>(noch)</small>|um so mehr/um so weniger|ne parlons même pas de ...|a fortiori|kat=}} (Ar vertrajt kè Wii, verschwiiga noch Schnàps! [[Text:August_Lustig/Der_Hausfreund/%E2%80%9EDr_Orglemann%E2%80%9C_oder_%E2%80%9EE_ne%C3%BCe-n-Erfindung%E2%80%9C.|Dia wo s Piston blosa, sìe trìnka scho vìel, verschwiiga dia wo's dreiha!]]) 
+
+{{WortMül|bsundersch|besonders|surtout|especially|kat=Adv}} (Ma heert uns, bsundersch wenn dü so lütt redsch!)
+
+{{WortMül|gàr|besonders|surtout|especially|kat=Adv}} (Ma heert uns, gàr wenn dü so lütt redsch!)
+
+{{WortMül|meischtens|meistens|généralement|mostly|kat=Adv}} (Mìr gehn àls garn ge spàziara, meischtens wenn scheen Watter ìsch.)
+
+{{WortMül|wial|weil|parce que|because|kat=}} (Ma heert uns wial dü lütt redsch.)
+
+{{WortMül|denn|denn|car|because|kat=}} (Ma heert uns, denn dü redsch lütt.)
+
+{{WortMül|so|so|ainsi|so|kat=}} (Redt lütt, so versteht ma dìch besser!)
+
+{{WortMül|(so) àss|sodass|pour que|so that}} (Redt lütt, <font color="grey">(so)</font> àss ma dìch versteht!)
+
+{{WortMül|àlso|also|par conséquent|therefore|kat=Adv}} ('s hàltet mìt ragna, àlso geh'mr.)
+
+{{WortMül|noh|dann|alors|then|kat=Adv}} (Wenn's hàltet mìt ragna, noh känna mìr geh.)
+
+{{WortMül|un|und|et|and}} (Dü redsch lütt un ma versteht dìch güet.)
+
+{{WortMül|aui wenn|auch wenn|même si|even if|kat= }} (Aui wenn's ragent, geh' mìr morn ge spàziara.)
+
+{{WortMül|sogàr|sogar|même|even|kat=Adv}} (Ma heert uns, sogàr wenn ma zwiiselt.)
+
+{{WortMül|àwer|aber|mais|but|kat=}} (Dü redsch lütt, àwer ma versteht dìch nìt güet.)
+
+{{WortMül|obwohl àss|obwohl|bien que| though|kat= }} (Obwohl àss's ragent, geh' mr ge spàziara.)
+
+{{WortMül|trotzdam|trotzdem|cependant|however|kat= }} (Trotzdam àss's ragent, geh' mr ge spàziara.)
+
+{{WortMül|doch|doch|quand même|anyway|kat= }} (Mìr gehn doch ge spàziara.)
+
+:↓ gegasittiga Verbìndung
+
+== Wärter vu friahier ==
+[[Datei:ALustig AuserwählteGedichte pageV.jpg|80px|right|Àlta Wärter]]
+
+{{WortMül|schiargàr|fast|presque|almost|kat=Adv}}
+
+{{WortMül|sunderbàr|sonderbar|étrange|strange|kat=Adv}}
+
+{{WortMül|bossig|komisch|bizarre|strange|kat=Adv}}
+
+{{WortMül|Kalta ''oder'' Kaltnàcht|Abendgesellschaft|veillée|evening gathering|kat=N|pl=Kalta / Kaltnacht}} &nbsp; ('''Kwalta''' <small>z'Mìnschter</small>, [[Datei:Flag of Sweden.svg|14px|Schwedisch]] kväll)
+
+Üsdruck: {{WortMül|mìr gehn ge kalta||nous allons à la veillée}}
+
+{{WortMül|Bàlwiarer|Bartmacher, Rasierer, Friseur|barbier, coiffeur|barber, hairdresser|kat=N|gen=m|pl=Bàlwiarer}} <small>([http://woerterbuchnetz.de/LothWB/call_wbgui_py_from_form?sigle=LothWB&mode=Volltextsuche&hitlist=&patternlist=&lemid=CB00100) woerterbuchnetz.de])</small>
+
+
+=== Kìnderspìeler ===
+<small>(Ref: [http://projetbabel.org/forum/viewtopic.php?t=13745 http://projetbabel.org] - [[Datei:Flag of Sweden.svg|14px|Schwedisch]] lek=Spìel)</small>
+
+{{WortMül|Fàngerlis|Fangspiel|attrape|catch}}
+
+{{WortMül|Versteckerlis|Versteckspiel|cache-cache|hide and seek}}
+
+{{WortMül|Handwarferroterlis|Erraten den Handwerfer (Spiel)|devine qui t'a touché}}
+
+{{WortMül|Bàllis|Ball spielen|jeu de balle|ballgame}}
+
+{{WortMül|Hüpferlis|Hickelkasten|marelle|hopscotch}}
+
+{{WortMül|Bocksprìngerlis|Bock springen|saute-mouton}}
+
+{{WortMül|Dokterlis|Doktor spielen|jouer au docteur}}
+
+{{WortMül|Hüsserlis|mit der Puppenküche spielen|dinette}}
+
+{{WortMül|Stìnzerlis|Murmelspiel|jeu de billes}}
+
+{{WortMül|Stìnzer, Glìcker|Murmeln|billes}}
+
+[[Kategorie:Wikipedia:Wort|Mulhauser Wortschatz]]

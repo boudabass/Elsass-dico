@@ -850,6 +850,40 @@ fonctions qui la produisent ou la comparent (`candidats_arbitrage`,
 - Comme toujours, **Coolify n'applique aucune migration** : à passer à la main
   dans le SQL Editor du Studio.
 
+## Onglet « Divergentes » (24/08/2026)
+
+Le symétrique de « Recoupées », pour la voie d'arbitrage manuel retenue par John
+faute de troisième source. Il liste les candidats à **deux sources ou plus dont
+aucune forme n'est écrite pareil par deux d'entre elles** — 345 à l'ouverture —
+et propose, pour chacun, un bouton par forme attestée. Un clic publie une entrée
+avec cette forme en canonique, les autres conservées en variantes.
+
+- **Ce n'est pas un traitement de masse et ça ne doit jamais le devenir.**
+  « Divergence entre sources = arbitrage manuel » : choisir la graphie EST
+  l'arbitrage. L'onglet rend le geste rapide, il ne le supprime pas — une
+  décision humaine par entrée, `arbitrer_entree()` exécutant ses gardes comme
+  depuis l'écran de détail.
+- **Deux gardes serveur, parce que ce qui vient du navigateur ne fonde rien.**
+  `arbitrerDivergenceAction()` recalcule le candidat côté serveur et refuse une
+  clé absente de la file ; puis `traductionsArbitrees()` rend `[]` si la graphie
+  demandée n'est pas l'une des formes attestées — **rien ne peut publier une
+  forme que personne n'a écrite** (règle 1).
+- **`cleDeTri()` écrase casse et diacritiques, et ne sert QU'À TRIER.** Elle
+  remonte en tête les 28 divergences qui ne tiennent qu'à un accent
+  (`Hatte`/`Hàtte`, `Wolschwiller`/`Wolschwìller`), tranchables à la règle
+  ORTHAL. **Elle ne doit jamais servir à décider d'un recoupement** : en Orthal
+  les diacritiques notent des sons, et les confondre effacerait la question posée
+  à l'arbitre — c'est exactement l'erreur commise le 24/08 en annonçant « +13 »
+  là où le gain réel était de +1. Le reste des divergences sont de vraies
+  variantes dialectales (`Riaschpa`/`Rieschbi`, `Müeschbe`/`Müaschpa`), qui
+  demandent une décision de fond.
+- La pagination est factorisée avec l'onglet Recoupées
+  (`parcourirCandidatsMultiSources`) : sa condition d'arrêt est subtile — le tri
+  SQL par `nb_sources DESC` garantit qu'après une page sans candidat à deux
+  sources, les suivantes n'en portent pas non plus — et les deux onglets doivent
+  la partager. Leurs compteurs sont donc de vrais totaux, contrairement aux deux
+  autres plafonnés à « 50+ ».
+
 ## Règles de travail
 
 - Ne jamais inventer de traduction alsacienne, même pour un exemple ou un test.

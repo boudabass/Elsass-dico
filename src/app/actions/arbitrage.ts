@@ -4,11 +4,14 @@ import { createClient } from "@/utils/supabase/server"
 import { requireAdmin } from "@/utils/supabase/require-admin"
 import { revalidatePath } from "next/cache"
 import {
+    analyserDivergence,
     estStatutValide,
     estTypeTermeValide,
+    traductionsArbitrees,
     traductionsRecoupees,
     SOURCES_MINIMUM,
     type Entree,
+    type FormeCandidate,
     type StatutEntree,
     type Traduction,
     type TypeTerme,
@@ -125,12 +128,17 @@ export interface CandidatRecoupe extends Candidat {
 // moins deux sources distinctes écrivent LA MÊME forme alsacienne. Critère
 // strictement plus exigeant que la garde de arbitrer_entree() — voir le
 // commentaire de traductionsRecoupees() dans @/lib/dictionnaire.
-export async function listerCandidatsRecoupes(terme?: string): Promise<CandidatRecoupe[]> {
-    const garde = await requireAdmin()
-    if (!garde.authorized) return []
-
+// Parcourt la file jusqu'aux candidats à source unique et retient ce que
+// `retenir` accepte. Factorisé parce que la condition d'arrêt est subtile et
+// qu'elle doit rester la même pour les recoupées et les divergentes : les deux
+// vivent dans la tranche à deux sources ou plus, en tête du tri SQL.
+async function parcourirCandidatsMultiSources<T>(
+    terme: string | undefined,
+    etiquette: string,
+    retenir: (candidat: Candidat) => T | null,
+): Promise<T[]> {
     const supabase = await createClient()
-    const recoupes: CandidatRecoupe[] = []
+    const retenus: T[] = []
     let page = 0
 
     for (; page < MAX_PAGES_RECOUPEES; page++) {
@@ -141,22 +149,21 @@ export async function listerCandidatsRecoupes(terme?: string): Promise<CandidatR
         })
 
         if (error) {
-            console.error(`[Arbitrage] Lot recoupé indisponible: ${error.message}`)
+            console.error(`[Arbitrage] ${etiquette} indisponible: ${error.message}`)
             return []
         }
 
         const lot = (data ?? []) as Candidat[]
         for (const candidat of lot) {
             if (candidat.nb_sources < SOURCES_MINIMUM) continue
-            const traductions = traductionsRecoupees(candidat.variantes)
-            if (traductions.length === 0) continue
-            recoupes.push({ ...candidat, formeCanonique: traductions[0].alsacien, traductions })
+            const valeur = retenir(candidat)
+            if (valeur !== null) retenus.push(valeur)
         }
 
         // Le tri décroissant garantit qu'après une page sans candidat à deux
         // sources, les suivantes n'en porteront pas non plus.
-        const encoreRecoupable = lot.some((c) => c.nb_sources >= SOURCES_MINIMUM)
-        if (lot.length < PAGE_CANDIDATS || !encoreRecoupable) break
+        const encoreMultiSources = lot.some((c) => c.nb_sources >= SOURCES_MINIMUM)
+        if (lot.length < PAGE_CANDIDATS || !encoreMultiSources) break
     }
 
     // Sortie par épuisement du compteur et non par la coupure naturelle : le lot
@@ -164,12 +171,109 @@ export async function listerCandidatsRecoupes(terme?: string): Promise<CandidatR
     // n'en existe sans que rien ne le lui dise.
     if (page === MAX_PAGES_RECOUPEES) {
         console.warn(
-            `[Arbitrage] Lot recoupé tronqué : ${MAX_PAGES_RECOUPEES * PAGE_CANDIDATS} candidats parcourus ` +
+            `[Arbitrage] ${etiquette} tronqué : ${MAX_PAGES_RECOUPEES * PAGE_CANDIDATS} candidats parcourus ` +
             `sans atteindre les candidats à source unique. Relever MAX_PAGES_RECOUPEES.`,
         )
     }
 
-    return recoupes
+    return retenus
+}
+
+export async function listerCandidatsRecoupes(terme?: string): Promise<CandidatRecoupe[]> {
+    const garde = await requireAdmin()
+    if (!garde.authorized) return []
+
+    return parcourirCandidatsMultiSources(terme, 'Lot recoupé', (candidat) => {
+        const traductions = traductionsRecoupees(candidat.variantes)
+        if (traductions.length === 0) return null
+        return { ...candidat, formeCanonique: traductions[0].alsacien, traductions }
+    })
+}
+
+export interface CandidatDivergent extends Candidat {
+    formes: FormeCandidate[]
+    diacritiquesSeuls: boolean
+}
+
+// Le symétrique de listerCandidatsRecoupes() : deux sources ou plus, mais aucune
+// forme commune. Ces candidats ne partent jamais en lot — l'arbitre choisit la
+// forme canonique un par un. Les divergences qui ne tiennent qu'à un accent
+// (Barr / Bàrr) remontent en tête : ce sont les plus rapides à trancher, pas les
+// plus légitimes.
+export async function listerCandidatsDivergents(terme?: string): Promise<CandidatDivergent[]> {
+    const garde = await requireAdmin()
+    if (!garde.authorized) return []
+
+    const divergents = await parcourirCandidatsMultiSources(terme, 'Lot divergent', (candidat) => {
+        const divergence = analyserDivergence(candidat.variantes)
+        if (!divergence) return null
+        return { ...candidat, formes: divergence.formes, diacritiquesSeuls: divergence.diacritiquesSeuls }
+    })
+
+    return divergents.sort((a, b) => {
+        if (a.diacritiquesSeuls !== b.diacritiquesSeuls) return a.diacritiquesSeuls ? -1 : 1
+        if (a.formes.length !== b.formes.length) return a.formes.length - b.formes.length
+        return a.francais.localeCompare(b.francais, 'fr')
+    })
+}
+
+// Publie un candidat divergent avec la forme que l'arbitre a retenue. C'est un
+// arbitrage unitaire présenté commodément, jamais un traitement de masse : une
+// décision humaine par appel, et arbitrer_entree() exécute ses gardes comme
+// depuis l'écran de détail.
+export async function arbitrerDivergenceAction(demande: {
+    cle: string
+    contexte: string
+    graphie: string
+}): Promise<Resultat> {
+    const garde = await requireAdmin()
+    if (!garde.authorized) return { success: false, error: garde.error }
+
+    // Le candidat et ses formes sont recalculés côté serveur : ce qui vient du
+    // navigateur ne désigne qu'un choix, il ne le fonde pas. Sans ce recalcul,
+    // l'action publierait n'importe quelle graphie sous n'importe quelle clé.
+    const candidat = (await listerCandidatsDivergents()).find(
+        (c) => c.cle === demande.cle && c.contexte === demande.contexte,
+    )
+    if (!candidat) {
+        return { success: false, error: "Candidat absent de la file des divergentes : à rouvrir dans l'écran d'arbitrage." }
+    }
+
+    const traductions = traductionsArbitrees(
+        { formes: candidat.formes, diacritiquesSeuls: candidat.diacritiquesSeuls },
+        demande.graphie,
+    )
+    // Garde de la règle 1 : la forme publiée est copiée d'une attestation, ou
+    // rien n'est publié.
+    if (traductions.length === 0) {
+        return { success: false, error: `Forme non attestée pour ce candidat : ${demande.graphie}` }
+    }
+
+    const supabase = await createClient()
+    const { data, error } = await supabase.rpc('arbitrer_entree', {
+        p_francais: candidat.francais.trim(),
+        p_contexte: candidat.contexte.trim(),
+        p_type: candidat.type,
+        p_traductions: traductions,
+        p_attestation_ids: candidat.variantes.map((v) => v.attestation_id),
+        p_statut: 'valide',
+        p_notes: null,
+        p_entree_id: candidat.entree_id,
+    })
+
+    if (error) {
+        if (error.code === '23505') {
+            return {
+                success: false,
+                error: "Une entrée existe déjà pour ce français et ce contexte. Distinguez l'homonyme par le contexte.",
+            }
+        }
+        return { success: false, error: error.message }
+    }
+
+    revalidatePath('/admin/arbitrage')
+    revalidatePath('/')
+    return { success: true, message: `Publiée avec « ${demande.graphie} »`, entreeId: data as string }
 }
 
 export interface BilanLot {

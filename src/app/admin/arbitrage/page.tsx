@@ -11,9 +11,11 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Loader2, Scale, Search, ArrowRight, AlertTriangle } from "lucide-react";
 import {
   listerCandidats,
+  listerCandidatsDivergents,
   listerCandidatsRecoupes,
   listerEntrees,
   type Candidat,
+  type CandidatDivergent,
   type CandidatRecoupe,
   type EntreeListee,
 } from "@/app/actions/arbitrage";
@@ -25,13 +27,15 @@ import {
   type TypeTerme,
 } from "@/lib/dictionnaire";
 import { OngletRecoupes } from "./onglet-recoupes";
+import { OngletDivergentes } from "./onglet-divergentes";
 import { lienArbitrage } from "./liens";
 
 // listerCandidats() et listerEntrees() plafonnent à 50 (p_limite du RPC). Une
 // liste pleine signale donc « au moins 50 », jamais « exactement 50 » : afficher
 // le nombre brut ferait lire une taille de page comme un total — 169 entrées
-// s'affichaient « 50 ». L'onglet Recoupées n'est pas concerné, il pagine
-// jusqu'à épuisement.
+// s'affichaient « 50 ». Les onglets Recoupées et Divergentes ne sont pas
+// concernés : ils paginent jusqu'à épuisement des candidats à plusieurs sources,
+// leur compteur est donc un vrai total.
 const PAGE_RPC = 50;
 function compteur(n: number) {
   return n >= PAGE_RPC ? `${PAGE_RPC}+` : `${n}`;
@@ -42,18 +46,21 @@ export default function FileArbitragePage() {
   const [terme, setTerme] = useState("");
   const [candidats, setCandidats] = useState<Candidat[]>([]);
   const [recoupes, setRecoupes] = useState<CandidatRecoupe[]>([]);
+  const [divergents, setDivergents] = useState<CandidatDivergent[]>([]);
   const [entrees, setEntrees] = useState<EntreeListee[]>([]);
   const [chargement, setChargement] = useState(true);
 
   const rafraichir = async (recherche: string) => {
     setChargement(true);
-    const [c, r, e] = await Promise.all([
+    const [c, r, d, e] = await Promise.all([
       listerCandidats(recherche),
       listerCandidatsRecoupes(recherche),
+      listerCandidatsDivergents(recherche),
       listerEntrees(undefined, recherche),
     ]);
     setCandidats(c);
     setRecoupes(r);
+    setDivergents(d);
     setEntrees(e);
     setChargement(false);
   };
@@ -108,6 +115,7 @@ export default function FileArbitragePage() {
       <Tabs defaultValue="recoupes">
         <TabsList>
           <TabsTrigger value="recoupes">Recoupées ({recoupes.length})</TabsTrigger>
+          <TabsTrigger value="divergentes">Divergentes ({divergents.length})</TabsTrigger>
           <TabsTrigger value="candidats">File d&apos;arbitrage ({compteur(candidats.length)})</TabsTrigger>
           <TabsTrigger value="entrees">Entrées existantes ({compteur(entrees.length)})</TabsTrigger>
         </TabsList>
@@ -115,6 +123,13 @@ export default function FileArbitragePage() {
         <TabsContent value="recoupes" className="mt-4">
           <OngletRecoupes
             recoupes={recoupes}
+            chargement={chargement}
+            onPublie={() => rafraichir(terme)}
+          />
+        </TabsContent>
+        <TabsContent value="divergentes" className="mt-4">
+          <OngletDivergentes
+            divergents={divergents}
             chargement={chargement}
             onPublie={() => rafraichir(terme)}
           />

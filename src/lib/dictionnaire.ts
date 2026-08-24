@@ -127,6 +127,7 @@ interface FormeAttestee {
     graphie: string
     sources: Set<string>
     region: Region | null
+    nbAttestations: number
 }
 
 function grouperParForme(variantes: VarianteAttestee[]): FormeAttestee[] {
@@ -139,11 +140,17 @@ function grouperParForme(variantes: VarianteAttestee[]): FormeAttestee[] {
         const graphie = v.alsacien.trim()
         const connue = parForme.get(cle)
         if (!connue) {
-            parForme.set(cle, { graphie, sources: new Set([v.source_id]), region: v.region })
+            parForme.set(cle, {
+                graphie,
+                sources: new Set([v.source_id]),
+                region: v.region,
+                nbAttestations: 1,
+            })
             continue
         }
 
         connue.sources.add(v.source_id)
+        connue.nbAttestations++
         // On préfère la graphie qu'une source écrit sans ponctuation finale :
         // c'est encore un verbatim, pas une réécriture (règle 1). À défaut, la
         // première attestée part telle quelle — mieux vaut une coquille de
@@ -166,6 +173,88 @@ export function traductionsRecoupees(variantes: VarianteAttestee[]): Traduction[
     if (!formes.length || formes[0].sources.size < SOURCES_MINIMUM) return []
 
     return formes.map((f) => ({
+        alsacien: f.graphie,
+        region: f.region,
+        niveau: null,
+        note: null,
+    }))
+}
+
+// --- Divergences -------------------------------------------------------------
+//
+// Le symétrique du recoupement : deux sources ou plus attestent le mot, mais
+// aucune forme n'est écrite pareil par deux d'entre elles. La doctrine ne les
+// publie pas en lot — « Divergence entre sources = entrée marquée pour arbitrage
+// manuel ». Choisir la forme canonique EST l'arbitrage : ce module présente le
+// choix, il ne le fait jamais.
+
+// Normalisation volontairement plus lâche que cleDeForme : casse et diacritiques
+// écrasés. Elle ne sert QU'À TRIER — repérer les divergences où il n'y a qu'un
+// accent en jeu (Barr / Bàrr), qui se tranchent d'un coup d'œil à la règle
+// ORTHAL. Elle ne doit JAMAIS servir à décider d'un recoupement : en Orthal les
+// diacritiques notent des sons, deux graphies restent deux graphies, et les
+// confondre effacerait la question posée à l'arbitre.
+// U+0300..U+036F : les diacritiques combinants que NFD détache des lettres.
+// Échappés plutôt qu'écrits littéralement — un caractère combinant seul dans
+// une source se déplace au moindre aller-retour d'encodage. On n'emploie pas
+// \p{Mn}, qui exigerait une cible ES6 dans ce tsconfig.
+function cleDeTri(alsacien: string): string {
+    return cleDeForme(alsacien)
+        .normalize('NFD')
+        .replace(/[\u0300-\u036f]/g, '')
+        .toLowerCase()
+}
+
+// Une forme en lice, telle qu'elle sera proposée à l'arbitre. `graphie` est
+// toujours le verbatim d'une attestation (règle 1).
+export interface FormeCandidate {
+    graphie: string
+    nbSources: number
+    nbAttestations: number
+    region: Region | null
+}
+
+export interface Divergence {
+    // Triées : la plus attestée d'abord. Aucune n'est privilégiée par le code —
+    // l'ordre n'est qu'un confort de lecture, le choix reste entier.
+    formes: FormeCandidate[]
+    // Toutes les formes se ramènent à la même chaîne une fois casse et
+    // diacritiques ignorés. Sert à remonter les arbitrages faciles en tête.
+    diacritiquesSeuls: boolean
+}
+
+// Le détail d'un candidat divergent, ou null s'il ne l'est pas — soit qu'il
+// soit recoupé (deux sources sur la même forme), soit qu'il n'ait qu'une forme.
+export function analyserDivergence(variantes: VarianteAttestee[]): Divergence | null {
+    const formes = grouperParForme(variantes).sort(
+        (a, b) => b.sources.size - a.sources.size || b.nbAttestations - a.nbAttestations,
+    )
+
+    if (formes.length < 2) return null
+    // Recoupé : ce candidat relève de l'onglet des recoupées, pas d'ici.
+    if (formes[0].sources.size >= SOURCES_MINIMUM) return null
+
+    return {
+        formes: formes.map((f) => ({
+            graphie: f.graphie,
+            nbSources: f.sources.size,
+            nbAttestations: f.nbAttestations,
+            region: f.region,
+        })),
+        diacritiquesSeuls: new Set(formes.map((f) => cleDeTri(f.graphie))).size === 1,
+    }
+}
+
+// Le tableau traductions à publier quand l'arbitre a retenu `graphie` : la forme
+// choisie en index 0 — « Premier est Roi » — et les autres formes attestées
+// conservées derrière, la doctrine gardant les variantes quand elles diffèrent.
+// Retourne [] si la graphie n'est pas l'une des formes attestées : rien ne doit
+// pouvoir publier une forme que personne n'a écrite (règle 1).
+export function traductionsArbitrees(divergence: Divergence, graphie: string): Traduction[] {
+    const choisie = divergence.formes.find((f) => f.graphie === graphie)
+    if (!choisie) return []
+
+    return [choisie, ...divergence.formes.filter((f) => f.graphie !== graphie)].map((f) => ({
         alsacien: f.graphie,
         region: f.region,
         niveau: null,

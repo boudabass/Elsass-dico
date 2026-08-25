@@ -2,146 +2,151 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Palette alignée sur The Elsassisch (www.theelsassisch.com), relevée dans le
+   CSS compilé du site le 25/08/2026 :
+     --o-color-1 / --primary   #EFC631  or
+     --o-color-2 / --secondary #FF0000  rouge
+     .o_cc1                    fond #FFFFFF, texte #212529
+     --danger                  #dc3545
+   L'app est destinée à vivre en iframe dans une page du site : c'est le fond
+   blanc et le texte #212529 qui rendent la frontière de l'iframe invisible.
 
+   Deux contraintes de contraste commandent l'usage des deux couleurs de marque,
+   et elles ne se contournent pas :
+     * #EFC631 sur blanc = 1,8:1. L'or ne peut PAS porter du texte. Il sert de
+       fond (avec du texte quasi noir) ou d'aplat, jamais de couleur de libellé.
+     * #FF0000 sur blanc = 4,0:1, sous le seuil AA du texte courant. Rouge plein
+       avec texte blanc pour un bouton, oui ; lien inline en rouge, non.
+   D'où --marque-rouge-texte, un rouge assombri utilisable en texte, distinct du
+   rouge de marque employé en aplat.
+
+   Ce que --secondary et --accent NE sont PAS : les couleurs secondaires de la
+   marque. Dans shadcn ce sont des surfaces neutres discrètes (fond de badge,
+   survol de menu). Y verser #FF0000 rendrait rouge vif chaque
+   `Badge variant="secondary"` de la file d'arbitrage. Le rouge de marque vit
+   donc dans ses propres tokens, invoqués explicitement. */
 
 @layer base {
   :root {
-
     --background: 0 0% 100%;
-
-    --foreground: 0 0% 3.9%;
+    --foreground: 210 11% 15%;
 
     --card: 0 0% 100%;
-
-    --card-foreground: 0 0% 3.9%;
+    --card-foreground: 210 11% 15%;
 
     --popover: 0 0% 100%;
+    --popover-foreground: 210 11% 15%;
 
-    --popover-foreground: 0 0% 3.9%;
+    /* Or de la marque. Son foreground est le texte du site, pas du blanc. */
+    --primary: 47 86% 56%;
+    --primary-foreground: 210 11% 15%;
 
-    --primary: 0 0% 9%;
+    /* Surfaces neutres, teintées vers le 210 du texte pour rester dans la
+       même famille froide que #212529. */
+    --secondary: 210 17% 96%;
+    --secondary-foreground: 210 11% 15%;
 
-    --primary-foreground: 0 0% 98%;
+    --muted: 210 17% 96%;
+    --muted-foreground: 210 9% 42%;
 
-    --secondary: 0 0% 96.1%;
+    --accent: 210 17% 94%;
+    --accent-foreground: 210 11% 15%;
 
-    --secondary-foreground: 0 0% 9%;
+    /* Erreur = le --danger du site (#dc3545), volontairement distinct du rouge
+       de marque : une alerte ne doit pas se confondre avec un accent. */
+    --destructive: 354 70% 54%;
+    --destructive-foreground: 0 0% 100%;
 
-    --muted: 0 0% 96.1%;
+    /* --border sépare des surfaces : un trait discret y est correct.
+       --input DÉLIMITE un champ de saisie, et WCAG 1.4.11 lui demande 3:1
+       contre le fond — c'est ce trait qui dit à l'utilisateur où taper. Le
+       boilerplate donnait la même valeur aux deux (1,29:1) : le champ de
+       recherche, cœur de cette app, était à la limite du visible.
+       210 14% 59% = #8896A5, mesuré à 3,02:1 sur blanc. */
+    --border: 210 14% 89%;
+    --input: 210 14% 59%;
+    --ring: 47 86% 46%;
 
-    --muted-foreground: 0 0% 45.1%;
+    /* Couleurs de marque, à invoquer explicitement (bg-marque-or,
+       text-marque-rouge-texte…), jamais via les surfaces neutres. */
+    --marque-or: 47 86% 56%;
+    --marque-or-sombre: 47 86% 38%;
+    --marque-rouge: 0 100% 50%;
+    --marque-rouge-texte: 0 100% 38%;
 
-    --accent: 0 0% 96.1%;
+    --chart-1: 47 86% 56%;
+    --chart-2: 0 100% 50%;
+    --chart-3: 210 11% 15%;
+    --chart-4: 47 60% 72%;
+    --chart-5: 0 60% 68%;
 
-    --accent-foreground: 0 0% 9%;
+    --radius: 0.5rem;
 
-    --destructive: 0 84.2% 60.2%;
+    --sidebar-background: 210 17% 98%;
+    --sidebar-foreground: 210 11% 26%;
+    --sidebar-primary: 47 86% 56%;
+    --sidebar-primary-foreground: 210 11% 15%;
+    --sidebar-accent: 210 17% 94%;
+    --sidebar-accent-foreground: 210 11% 15%;
+    --sidebar-border: 210 14% 89%;
+    --sidebar-ring: 47 86% 46%;
+  }
 
-    --destructive-foreground: 0 0% 98%;
-
-    --border: 0 0% 89.8%;
-
-    --input: 0 0% 89.8%;
-
-    --ring: 0 0% 3.9%;
-
-    --chart-1: 12 76% 61%;
-
-    --chart-2: 173 58% 39%;
-
-    --chart-3: 197 37% 24%;
-
-    --chart-4: 43 74% 66%;
-
-    --chart-5: 27 87% 67%;
-
-    --radius: 0.5rem
-  ;
-
-    --sidebar-background: 0 0% 98%;
-
-    --sidebar-foreground: 240 5.3% 26.1%;
-
-    --sidebar-primary: 240 5.9% 10%;
-
-    --sidebar-primary-foreground: 0 0% 98%;
-
-    --sidebar-accent: 240 4.8% 95.9%;
-
-    --sidebar-accent-foreground: 240 5.9% 10%;
-
-    --sidebar-border: 220 13% 91%;
-
-    --sidebar-ring: 217.2 91.2% 59.8%}
+  /* Le site n'expose pas de thème sombre à ce jour ; cette variante existe
+     pour que .dark et next-themes, déjà présents, ne rendent pas des gris
+     boilerplate sans rapport avec la marque. Le noir est celui du site. */
   .dark {
+    --background: 210 11% 7%;
+    --foreground: 210 17% 96%;
 
-    --background: 0 0% 3.9%;
+    --card: 210 11% 11%;
+    --card-foreground: 210 17% 96%;
 
-    --foreground: 0 0% 98%;
+    --popover: 210 11% 11%;
+    --popover-foreground: 210 17% 96%;
 
-    --card: 0 0% 3.9%;
+    --primary: 47 86% 56%;
+    --primary-foreground: 210 11% 10%;
 
-    --card-foreground: 0 0% 98%;
+    --secondary: 210 11% 17%;
+    --secondary-foreground: 210 17% 96%;
 
-    --popover: 0 0% 3.9%;
+    --muted: 210 11% 17%;
+    --muted-foreground: 210 10% 65%;
 
-    --popover-foreground: 0 0% 98%;
+    --accent: 210 11% 20%;
+    --accent-foreground: 210 17% 96%;
 
-    --primary: 0 0% 98%;
+    --destructive: 354 60% 48%;
+    --destructive-foreground: 0 0% 100%;
 
-    --primary-foreground: 0 0% 9%;
+    /* Même règle en sombre : 210 11% 39% = #59636E, 3,07:1 sur le fond. */
+    --border: 210 11% 20%;
+    --input: 210 11% 39%;
+    --ring: 47 86% 56%;
 
-    --secondary: 0 0% 14.9%;
+    --marque-or: 47 86% 56%;
+    --marque-or-sombre: 47 86% 68%;
+    --marque-rouge: 0 100% 50%;
+    /* Sur fond sombre, le rouge doit s'éclaircir et non s'assombrir. */
+    --marque-rouge-texte: 0 100% 68%;
 
-    --secondary-foreground: 0 0% 98%;
+    --chart-1: 47 86% 56%;
+    --chart-2: 0 100% 62%;
+    --chart-3: 210 17% 90%;
+    --chart-4: 47 60% 44%;
+    --chart-5: 0 60% 46%;
 
-    --muted: 0 0% 14.9%;
-
-    --muted-foreground: 0 0% 63.9%;
-
-    --accent: 0 0% 14.9%;
-
-    --accent-foreground: 0 0% 98%;
-
-    --destructive: 0 62.8% 30.6%;
-
-    --destructive-foreground: 0 0% 98%;
-
-    --border: 0 0% 14.9%;
-
-    --input: 0 0% 14.9%;
-
-    --ring: 0 0% 83.1%;
-
-    --chart-1: 220 70% 50%;
-
-    --chart-2: 160 60% 45%;
-
-    --chart-3: 30 80% 55%;
-
-    --chart-4: 280 65% 60%;
-
-    --chart-5: 340 75% 55%
-  ;
-
-    --sidebar-background: 240 5.9% 10%;
-
-    --sidebar-foreground: 240 4.8% 95.9%;
-
-    --sidebar-primary: 224.3 76.3% 48%;
-
-    --sidebar-primary-foreground: 0 0% 100%;
-
-    --sidebar-accent: 240 3.7% 15.9%;
-
-    --sidebar-accent-foreground: 240 4.8% 95.9%;
-
-    --sidebar-border: 240 3.7% 15.9%;
-
-    --sidebar-ring: 217.2 91.2% 59.8%}
+    --sidebar-background: 210 11% 11%;
+    --sidebar-foreground: 210 17% 92%;
+    --sidebar-primary: 47 86% 56%;
+    --sidebar-primary-foreground: 210 11% 10%;
+    --sidebar-accent: 210 11% 20%;
+    --sidebar-accent-foreground: 210 17% 96%;
+    --sidebar-border: 210 11% 20%;
+    --sidebar-ring: 47 86% 56%;
+  }
 }
-
-
 
 @layer base {
   * {

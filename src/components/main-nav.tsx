@@ -27,7 +27,7 @@ export function MainNav({
                 href="/"
                 className="flex items-center gap-2 font-bold text-lg mr-4 text-primary hover:opacity-80 transition-opacity"
             >
-                <Languages className="w-6 h-6 text-indigo-500" /> Elsass Dico
+                <Languages className="w-6 h-6 text-marque-rouge-texte" /> Elsass Dico
             </Link>
 
             {user && (

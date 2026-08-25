@@ -164,8 +164,8 @@ export function OngletRecoupes({ recoupes, chargement, onPublie }: Props) {
                       </Badge>
                     </div>
                     <p className="text-sm mt-1 flex items-center gap-1.5 flex-wrap">
-                      <Crown className="w-3.5 h-3.5 text-amber-500 shrink-0" />
-                      <span className="font-medium text-indigo-600 dark:text-indigo-400">
+                      <Crown className="w-3.5 h-3.5 text-marque-or-sombre shrink-0" />
+                      <span className="font-semibold">
                         {c.formeCanonique}
                       </span>
                       {c.traductions.length > 1 && (

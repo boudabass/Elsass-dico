@@ -153,19 +153,19 @@ export function OngletDivergentes({ divergents, chargement, onPublie }: Props) {
                               d'état, il se lit comme un défaut d'affichage. */}
                           <span className="relative inline-flex h-4 w-4 shrink-0">
                             <Crown
-                              className={`absolute inset-0 text-amber-500 transition-[opacity,transform,filter] duration-300 ease-[cubic-bezier(0.2,0,0,1)] ${
+                              className={`absolute inset-0 text-marque-or-sombre transition-[opacity,transform,filter] duration-300 ease-doux ${
                                 choisi ? "opacity-0 scale-[0.25] blur-[4px]" : "opacity-100"
                               }`}
                             />
                             <Loader2
-                              className={`absolute inset-0 transition-[opacity,transform,filter] duration-300 ease-[cubic-bezier(0.2,0,0,1)] ${
+                              className={`absolute inset-0 transition-[opacity,transform,filter] duration-300 ease-doux ${
                                 choisi
                                   ? "animate-spin opacity-100"
                                   : "opacity-0 scale-[0.25] blur-[4px]"
                               }`}
                             />
                           </span>
-                          <span className="font-medium text-indigo-600 dark:text-indigo-400">
+                          <span className="font-semibold">
                             {f.graphie}
                           </span>
                           <span className="text-xs text-muted-foreground tabular-nums">

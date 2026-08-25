@@ -79,7 +79,7 @@ export default function DashboardPage() {
                         </Link>
                         {role === 'admin' && (
                             <Link href="/admin" className="block">
-                                <Button variant="outline" className="w-full justify-start border-indigo-200 bg-indigo-50 hover:bg-indigo-100 text-indigo-700">
+                                <Button variant="outline" className="w-full justify-start border-marque-or bg-marque-or/10 hover:bg-marque-or/20">
                                     <Settings className="mr-2 h-4 w-4" />
                                     Panneau d'administration
                                 </Button>

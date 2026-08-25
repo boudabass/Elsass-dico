@@ -43,6 +43,15 @@ export default {
   			border: 'hsl(var(--border))',
   			input: 'hsl(var(--input))',
   			ring: 'hsl(var(--ring))',
+  			// Couleurs de The Elsassisch. Séparées des surfaces neutres
+  			// (secondary, accent) à dessein : voir l'en-tête de globals.css.
+  			// `rouge-texte` est le seul rouge admissible sur du texte.
+  			marque: {
+  				or: 'hsl(var(--marque-or))',
+  				'or-sombre': 'hsl(var(--marque-or-sombre))',
+  				rouge: 'hsl(var(--marque-rouge))',
+  				'rouge-texte': 'hsl(var(--marque-rouge-texte))'
+  			},
   			chart: {
   				'1': 'hsl(var(--chart-1))',
   				'2': 'hsl(var(--chart-2))',
@@ -65,6 +74,13 @@ export default {
   			lg: 'var(--radius)',
   			md: 'calc(var(--radius) - 2px)',
   			sm: 'calc(var(--radius) - 4px)'
+  		},
+  		// Courbe unique des transitions d'état de l'app. Nommée plutôt
+  		// qu'arbitraire : `ease-[cubic-bezier(0.2,0,0,1)]` est rejeté par
+  		// Tailwind comme ambigu (« matches multiple utilities ») et ne produit
+  		// alors AUCUNE règle — la transition retombe silencieusement sur `ease`.
+  		transitionTimingFunction: {
+  			doux: 'cubic-bezier(0.2, 0, 0, 1)'
   		},
   		keyframes: {
   			'accordion-down': {

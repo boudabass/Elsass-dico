@@ -884,6 +884,52 @@ avec cette forme en canonique, les autres conservées en variantes.
   la partager. Leurs compteurs sont donc de vrais totaux, contrairement aux deux
   autres plafonnés à « 50+ ».
 
+## Identité visuelle alignée sur le site (25/08/2026)
+
+L'app est destinée à être **intégrée en iframe dans une page du site**, pour
+qu'elle fasse partie du site et non qu'elle y soit posée. Elle portait jusqu'ici
+la palette du boilerplate Dyad — indigo, cyan, fond `slate-950` — sans rapport
+avec The Elsassisch. **Décision de John : fond clair, palette du site.**
+
+- **Le site est `www.theelsassisch.com`** (site Odoo, même contenu que
+  `theelsassich.odoo.com`). Attention : `theelsassisch.fr` répond 503 en HTTPS
+  et 404 en HTTP, et `theelsassisch.com` sans `www` ne répond pas — seul le
+  sous-domaine `elsass-dico.theelsassisch.fr` est servi par Coolify, qui
+  n'héberge pas le site principal.
+- **Palette relevée dans le CSS compilé du site**, jamais inventée :
+  `--o-color-1` / `--primary` = `#EFC631` (or), `--o-color-2` = `#FF0000`
+  (rouge), `.o_cc1` = fond `#FFFFFF` / texte `#212529`, `--danger` = `#dc3545`.
+  Police : pile système, aucune webfont.
+- **Deux contraintes de contraste commandent l'usage des deux couleurs**, et
+  elles ne se contournent pas : l'or sur blanc donne **1,8:1** — il ne peut pas
+  porter de texte, seulement servir de fond ou d'aplat ; `#FF0000` sur blanc
+  donne **4,0:1**, sous le seuil AA du texte courant. D'où
+  `--marque-rouge-texte` (`#C20000`, 6,4:1), seul rouge admissible sur du texte.
+- **`--secondary` et `--accent` ne sont PAS les couleurs secondaires de la
+  marque.** Dans shadcn ce sont des surfaces neutres (fond de badge, survol) :
+  y verser `#FF0000` aurait rendu rouge vif chaque `Badge variant="secondary"`
+  de la file d'arbitrage. Le rouge et l'or vivent dans des tokens `marque-*`
+  dédiés, invoqués explicitement (`bg-marque-or`, `text-marque-rouge-texte`).
+- **`--input` est distinct de `--border`.** Le boilerplate leur donnait la même
+  valeur (1,29:1) : la bordure qui *délimite un champ* doit atteindre 3:1
+  (WCAG 1.4.11), sans quoi le champ de recherche — le cœur de cette app — est à
+  la limite du visible. `--input` vaut donc `210 14% 59%` (3,02:1), `--border`
+  reste discret pour les séparateurs.
+- **Le vert et l'ambre de `/admin/arbitrage` sont conservés** : ils portent un
+  sens (recoupé / divergence), ce ne sont pas des couleurs décoratives. Seul
+  l'indigo, qui n'en portait aucun, a été retiré. La couronne « forme
+  canonique » passe en revanche à l'or de marque, pour cesser de se confondre
+  avec l'ambre d'alerte.
+- **Piège Tailwind vérifié sur le CSS produit** : `ease-[cubic-bezier(0.2,0,0,1)]`
+  est rejeté comme ambigu (« matches multiple utilities ») et ne génère
+  **aucune** règle — la transition retombe silencieusement sur `ease`. La courbe
+  est devenue un token nommé, `ease-doux`. En revanche les opacités sur couleur
+  de marque (`bg-marque-or/[0.07]`) fonctionnent : Tailwind 3.4 produit bien
+  `hsl(var(--marque-or) / 0.07)` sans avoir besoin de `<alpha-value>`.
+- **Un changement de `tailwind.config.ts` n'est pas pris à chaud** : le serveur
+  de dev doit être redémarré, sans quoi on vérifie l'ancien CSS en croyant
+  tester le nouveau.
+
 ## Règles de travail
 
 - Ne jamais inventer de traduction alsacienne, même pour un exemple ou un test.

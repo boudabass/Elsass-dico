@@ -15,9 +15,9 @@ export default async function EntreePage({ params }: { params: Promise<{ id: str
   if (!entree) notFound();
 
   return (
-    <div className="min-h-screen bg-slate-950 text-white">
+    <div className="min-h-screen bg-background text-foreground">
       <div className="container mx-auto px-6 py-12 max-w-2xl space-y-8">
-        <Button asChild variant="ghost" className="h-11 -ml-4 text-slate-400 hover:bg-white/10 hover:text-white">
+        <Button asChild variant="ghost" className="h-11 -ml-4 text-muted-foreground">
           <Link href="/">
             <ArrowLeft className="w-4 h-4 mr-1" /> Recherche
           </Link>
@@ -27,54 +27,57 @@ export default async function EntreePage({ params }: { params: Promise<{ id: str
           <div className="flex items-center gap-3 flex-wrap">
             <h1 className="text-4xl font-black text-balance">{entree.francais}</h1>
             {entree.contexte && (
-              <Badge variant="outline" className="border-white/20 text-slate-300 font-normal">
+              <Badge variant="outline" className="font-normal">
                 {entree.contexte}
               </Badge>
             )}
           </div>
-          <p className="text-sm text-slate-500">
+          <p className="text-sm text-muted-foreground">
             {LIBELLES_TYPE_TERME[entree.type] ?? entree.type}
           </p>
         </div>
 
         <div className="space-y-3">
           {entree.traductions.map((t, i) => (
+            /* La forme canonique se distingue par la taille, la graisse et son
+               badge, jamais par la couleur seule : « Premier est Roi » doit
+               rester lisible pour qui ne perçoit pas la nuance. */
             <div
               key={i}
-              className="rounded-xl border border-white/10 bg-white/5 p-4 space-y-2"
+              className={`rounded-xl border p-4 space-y-2 shadow-sm ${
+                i === 0 ? "border-marque-or bg-marque-or/[0.07]" : "bg-card"
+              }`}
             >
               <div className="flex items-center gap-3 flex-wrap">
-                <span
-                  className={i === 0 ? "text-2xl font-bold text-indigo-300" : "text-lg text-slate-200"}
-                >
+                <span className={i === 0 ? "text-2xl font-bold" : "text-lg"}>
                   {t.alsacien}
                 </span>
                 {i === 0 && (
-                  <Badge className="gap-1 bg-amber-500 hover:bg-amber-500">
+                  <Badge className="gap-1 bg-marque-or text-foreground hover:bg-marque-or">
                     <Crown className="w-3 h-3" /> Forme canonique
                   </Badge>
                 )}
                 {t.region && (
-                  <Badge variant="secondary" className="bg-white/10 text-slate-300 font-normal">
+                  <Badge variant="secondary" className="font-normal">
                     {LIBELLES_REGION[t.region]}
                   </Badge>
                 )}
-                {t.niveau && <span className="text-xs text-slate-500">{t.niveau}</span>}
+                {t.niveau && <span className="text-xs text-muted-foreground">{t.niveau}</span>}
               </div>
-              {t.note && <p className="text-sm text-slate-400">{t.note}</p>}
+              {t.note && <p className="text-sm text-muted-foreground text-pretty">{t.note}</p>}
             </div>
           ))}
         </div>
 
         {/* La traçabilité est la défense contre l'accusation d'alsacien
             artificiel : on affiche sur quoi l'entrée s'appuie. */}
-        <div className="rounded-xl border border-white/10 bg-white/5 p-4 space-y-3">
+        <div className="rounded-xl border bg-card p-4 space-y-3 shadow-sm">
           <div className="flex items-center gap-2 text-sm font-semibold">
-            <ShieldCheck className="w-4 h-4 text-emerald-400" />
+            <ShieldCheck className="w-4 h-4 text-marque-or-sombre" />
             {entree.nb_attestations} attestation{entree.nb_attestations > 1 ? "s" : ""}
           </div>
           {entree.sources.length > 0 ? (
-            <ul className="space-y-1 text-sm text-slate-400">
+            <ul className="space-y-1 text-sm text-muted-foreground">
               {entree.sources.map((s) => (
                 <li key={s.nom}>
                   {s.url ? (
@@ -82,7 +85,7 @@ export default async function EntreePage({ params }: { params: Promise<{ id: str
                       href={s.url}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="inline-block py-1.5 transition-colors hover:text-indigo-300 hover:underline focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-indigo-400 focus-visible:ring-offset-2 focus-visible:ring-offset-slate-950 rounded"
+                      className="inline-block py-1.5 rounded transition-colors underline-offset-4 hover:text-marque-rouge-texte hover:underline focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
                     >
                       {s.nom}
                     </a>
@@ -93,7 +96,7 @@ export default async function EntreePage({ params }: { params: Promise<{ id: str
               ))}
             </ul>
           ) : (
-            <p className="text-sm text-slate-500">Sources non publiées.</p>
+            <p className="text-sm text-muted-foreground">Sources non publiées.</p>
           )}
         </div>
       </div>

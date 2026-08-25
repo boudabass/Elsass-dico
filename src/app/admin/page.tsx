@@ -131,7 +131,7 @@ export default function AdminPage() {
           ) : (
             <div className="border rounded-md overflow-hidden">
               <table className="w-full text-left text-sm">
-                <thead className="bg-slate-50 border-b">
+                <thead className="bg-muted border-b">
                   <tr>
                     <th className="p-3 font-semibold">Email</th>
                     <th className="p-3 font-semibold">Rôle</th>
@@ -142,7 +142,7 @@ export default function AdminPage() {
                   {usersList.map((u: any) => {
                     const currentRole = u.profile_role || "user";
                     return (
-                      <tr key={u.id} className="hover:bg-slate-50">
+                      <tr key={u.id} className="hover:bg-muted">
                         <td className="p-3">{u.email}</td>
                         <td className="p-3">
                           <Select

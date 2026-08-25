@@ -72,7 +72,7 @@ export function OngletRecoupes({ recoupes, chargement, onPublie }: Props) {
           </CardDescription>
         </CardHeader>
         <CardContent className="flex items-center justify-between gap-4 flex-wrap pt-0">
-          <p className="text-sm text-muted-foreground">
+          <p className="text-sm text-muted-foreground tabular-nums">
             {selection.length} sélectionnée(s) sur {recoupes.length}
           </p>
           <div className="flex gap-2">
@@ -87,7 +87,7 @@ export function OngletRecoupes({ recoupes, chargement, onPublie }: Props) {
             <Button
               disabled={enCours || selection.length === 0}
               onClick={validerLot}
-              className="bg-emerald-600 hover:bg-emerald-700"
+              className="bg-emerald-600 hover:bg-emerald-700 tabular-nums"
             >
               {enCours ? (
                 <>
@@ -140,11 +140,16 @@ export function OngletRecoupes({ recoupes, chargement, onPublie }: Props) {
             return (
               <Card key={k}>
                 <CardContent className="p-4 flex items-start gap-4">
+                  {/* La case fait 16px de côté ; `before:-inset-3` porte la
+                      zone cliquable à 40px sans la faire grossir à l'écran.
+                      Rien d'interactif ne se trouve à moins de 16px à droite,
+                      les cibles ne se chevauchent donc pas. */}
                   <Checkbox
                     checked={selection.includes(k)}
                     onCheckedChange={() => basculer(k)}
                     disabled={enCours}
-                    className="mt-1"
+                    aria-label={`Retenir ${c.francais} dans le lot à publier`}
+                    className="mt-1 relative before:absolute before:-inset-3 before:content-['']"
                   />
                   <div className="min-w-0 flex-1">
                     <div className="flex items-center gap-2 flex-wrap">
@@ -171,14 +176,18 @@ export function OngletRecoupes({ recoupes, chargement, onPublie }: Props) {
                     </p>
                   </div>
                   <div className="flex items-center gap-2 shrink-0">
-                    <Badge className="bg-emerald-600 hover:bg-emerald-600">
+                    <Badge className="bg-emerald-600 hover:bg-emerald-600 tabular-nums">
                       {c.nb_sources} sources
                     </Badge>
-                    <Link href={lienArbitrage(c.cle, c.contexte)}>
-                      <Button variant="ghost" size="sm">
+                    <Button asChild variant="ghost" size="icon" className="h-10 w-10">
+                      <Link
+                        href={lienArbitrage(c.cle, c.contexte)}
+                        title="Ouvrir l'écran d'arbitrage complet"
+                        aria-label={`Ouvrir l'écran d'arbitrage complet pour ${c.francais}`}
+                      >
                         <ArrowRight className="w-4 h-4" />
-                      </Button>
-                    </Link>
+                      </Link>
+                    </Button>
                   </div>
                 </CardContent>
               </Card>

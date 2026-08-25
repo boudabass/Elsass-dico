@@ -17,15 +17,15 @@ export default async function EntreePage({ params }: { params: Promise<{ id: str
   return (
     <div className="min-h-screen bg-slate-950 text-white">
       <div className="container mx-auto px-6 py-12 max-w-2xl space-y-8">
-        <Link href="/">
-          <Button variant="ghost" size="sm" className="text-slate-400 hover:text-white">
+        <Button asChild variant="ghost" className="h-11 -ml-4 text-slate-400 hover:bg-white/10 hover:text-white">
+          <Link href="/">
             <ArrowLeft className="w-4 h-4 mr-1" /> Recherche
-          </Button>
-        </Link>
+          </Link>
+        </Button>
 
         <div className="space-y-2">
           <div className="flex items-center gap-3 flex-wrap">
-            <h1 className="text-4xl font-black">{entree.francais}</h1>
+            <h1 className="text-4xl font-black text-balance">{entree.francais}</h1>
             {entree.contexte && (
               <Badge variant="outline" className="border-white/20 text-slate-300 font-normal">
                 {entree.contexte}
@@ -82,7 +82,7 @@ export default async function EntreePage({ params }: { params: Promise<{ id: str
                       href={s.url}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="hover:text-indigo-300 hover:underline"
+                      className="inline-block py-1.5 transition-colors hover:text-indigo-300 hover:underline focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-indigo-400 focus-visible:ring-offset-2 focus-visible:ring-offset-slate-950 rounded"
                     >
                       {s.nom}
                     </a>

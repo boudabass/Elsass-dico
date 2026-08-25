@@ -25,6 +25,10 @@ export default function AccueilPage() {
     if (requete.length < 2) {
       setResultats([]);
       setACherche(false);
+      // Sans ce retour à false, vider le champ pendant qu'une recherche est en
+      // vol laisse le spinner tourner indéfiniment sur un champ vide : le
+      // nettoyage annule bien le minuteur, mais personne ne réarme l'état.
+      setRecherche(false);
       return;
     }
 
@@ -45,32 +49,30 @@ export default function AccueilPage() {
 
       <div className="relative z-10 container mx-auto px-6 py-16 max-w-3xl space-y-10">
         <div className="flex justify-end">
+          {/* h-11 : l'accueil est la surface publique, donc consultée au doigt.
+              44px est la cible tactile, `size="sm"` n'en donnait que 32. */}
           {isLoading ? null : user ? (
-            <Link href="/dashboard">
-              <Button variant="outline" size="sm" className="border-white/20 bg-transparent text-white hover:bg-white/10">
-                Mon espace
-              </Button>
-            </Link>
+            <Button asChild variant="outline" className="h-11 border-white/20 bg-transparent text-white hover:bg-white/10">
+              <Link href="/dashboard">Mon espace</Link>
+            </Button>
           ) : (
             <div className="flex items-center gap-2">
-              <Link href="/login">
-                <Button variant="outline" size="sm" className="border-white/20 bg-transparent text-white hover:bg-white/10">
-                  Se connecter
-                </Button>
-              </Link>
-              <a href={URL_INSCRIPTION_ODOO}>
-                <Button size="sm">Créer un compte</Button>
-              </a>
+              <Button asChild variant="outline" className="h-11 border-white/20 bg-transparent text-white hover:bg-white/10">
+                <Link href="/login">Se connecter</Link>
+              </Button>
+              <Button asChild className="h-11">
+                <a href={URL_INSCRIPTION_ODOO}>Créer un compte</a>
+              </Button>
             </div>
           )}
         </div>
 
         <div className="text-center space-y-4">
-          <h1 className="text-4xl md:text-6xl font-black tracking-tight leading-tight">
+          <h1 className="text-4xl md:text-6xl font-black tracking-tight leading-tight text-balance">
             Elsass Dico <br />
             <span className="text-indigo-400">Français ⇄ Alsacien</span>
           </h1>
-          <p className="text-slate-400">
+          <p className="text-slate-400 text-pretty">
             Cherchez dans les deux sens. Seules les entrées validées à la main sont publiées.
           </p>
         </div>
@@ -81,18 +83,39 @@ export default function AccueilPage() {
             value={terme}
             onChange={(e) => setTerme(e.target.value)}
             placeholder="Un mot en français ou en alsacien…"
-            className="h-14 pl-12 pr-12 text-lg bg-white/5 border-white/10 text-white placeholder:text-slate-500"
+            className="h-14 rounded-xl pl-12 pr-12 text-lg bg-white/5 border-white/10 text-white placeholder:text-slate-500"
             autoFocus
           />
-          {recherche && (
-            <Loader2 className="absolute right-4 top-1/2 -translate-y-1/2 w-5 h-5 animate-spin text-slate-500" />
-          )}
+          {/* Toujours monté, jamais monté/démonté : une icône qui disparaît sec
+              se remarque plus que le chargement qu'elle signale. Le centrage vit
+              sur l'enveloppe et la rotation sur l'icône : les keyframes de
+              `animate-spin` réécrivent `transform` en entier et emporteraient le
+              `-translate-y-1/2` avec elles. */}
+          <span
+            aria-hidden
+            className={`absolute right-4 top-1/2 -translate-y-1/2 transition-[opacity,transform,filter] duration-300 ease-[cubic-bezier(0.2,0,0,1)] ${
+              recherche ? "opacity-100 blur-0" : "opacity-0 scale-[0.25] blur-[4px]"
+            }`}
+          >
+            <Loader2 className={`w-5 h-5 text-slate-500 ${recherche ? "animate-spin" : ""}`} />
+          </span>
+          {/* Le spinner est décoratif ; l'état de recherche se dit au lecteur
+              d'écran, qui ne voit pas tourner une icône. */}
+          <span role="status" aria-live="polite" className="sr-only">
+            {recherche ? "Recherche en cours" : ""}
+          </span>
         </div>
 
         {resultats.length > 0 && (
+          /* `block` sur le lien : un Link est un <a> inline, dont le rectangle
+             de focus se disloque autour d'un enfant en bloc. */
           <div className="space-y-3">
             {resultats.map((e) => (
-              <Link key={e.id} href={`/entree/${e.id}`}>
+              <Link
+                key={e.id}
+                href={`/entree/${e.id}`}
+                className="block rounded-xl focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-indigo-400 focus-visible:ring-offset-2 focus-visible:ring-offset-slate-950"
+              >
                 <div className="rounded-xl border border-white/10 bg-white/5 p-4 hover:border-indigo-400/50 transition-colors">
                   <div className="flex items-center gap-2 flex-wrap">
                     <span className="font-semibold">{e.francais}</span>
@@ -126,8 +149,8 @@ export default function AccueilPage() {
 
         {aCherche && !recherche && resultats.length === 0 && (
           <div className="rounded-xl border border-white/10 bg-white/5 p-6 text-center space-y-2">
-            <p className="text-slate-300">Aucune entrée validée pour « {terme.trim()} ».</p>
-            <p className="text-sm text-slate-500">
+            <p className="text-slate-300 text-pretty">Aucune entrée validée pour « {terme.trim()} ».</p>
+            <p className="text-sm text-slate-500 text-pretty">
               Le dictionnaire se construit par recoupement : un mot n&apos;apparaît ici qu&apos;une
               fois attesté puis arbitré. Vous connaissez la traduction ?{" "}
               <Link href="/login" className="text-indigo-400 hover:underline">
@@ -160,11 +183,11 @@ export default function AccueilPage() {
         </div>
 
         <div className="text-center">
-          <Link href="/login">
-            <Button variant="outline" className="border-white/20 bg-transparent hover:bg-white/10">
+          <Button asChild variant="outline" className="h-11 border-white/20 bg-transparent hover:bg-white/10">
+            <Link href="/login">
               Espace contributeur <ArrowRight className="ml-2 w-4 h-4" />
-            </Button>
-          </Link>
+            </Link>
+          </Button>
         </div>
       </div>
     </div>

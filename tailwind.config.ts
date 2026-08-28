@@ -9,6 +9,13 @@ export default {
   ],
   theme: {
   	extend: {
+  		fontFamily: {
+  			// Archivo (corps de texte) et Azimut (titres) — design system
+  			// « The Elsassisch Design Systeme », 28/08/2026. Chargées via
+  			// next/font dans layout.tsx, exposées ici en variables CSS.
+  			sans: ['var(--font-archivo)', 'ui-sans-serif', 'system-ui', 'sans-serif'],
+  			display: ['var(--font-azimut)', 'Georgia', 'serif']
+  		},
   		colors: {
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',
@@ -50,7 +57,28 @@ export default {
   				or: 'hsl(var(--marque-or))',
   				'or-sombre': 'hsl(var(--marque-or-sombre))',
   				rouge: 'hsl(var(--marque-rouge))',
-  				'rouge-texte': 'hsl(var(--marque-rouge-texte))'
+  				'rouge-texte': 'hsl(var(--marque-rouge-texte))',
+  				// Échelles complètes (design system, 28/08/2026) — bg-marque-rouge-500, etc.
+  				'rouge-50': 'hsl(var(--marque-rouge-50))',
+  				'rouge-100': 'hsl(var(--marque-rouge-100))',
+  				'rouge-200': 'hsl(var(--marque-rouge-200))',
+  				'rouge-300': 'hsl(var(--marque-rouge-300))',
+  				'rouge-400': 'hsl(var(--marque-rouge-400))',
+  				'rouge-500': 'hsl(var(--marque-rouge-500))',
+  				'rouge-600': 'hsl(var(--marque-rouge-600))',
+  				'rouge-700': 'hsl(var(--marque-rouge-700))',
+  				'rouge-800': 'hsl(var(--marque-rouge-800))',
+  				'rouge-900': 'hsl(var(--marque-rouge-900))',
+  				'or-50': 'hsl(var(--marque-or-50))',
+  				'or-100': 'hsl(var(--marque-or-100))',
+  				'or-200': 'hsl(var(--marque-or-200))',
+  				'or-300': 'hsl(var(--marque-or-300))',
+  				'or-400': 'hsl(var(--marque-or-400))',
+  				'or-500': 'hsl(var(--marque-or-500))',
+  				'or-600': 'hsl(var(--marque-or-600))',
+  				'or-700': 'hsl(var(--marque-or-700))',
+  				'or-800': 'hsl(var(--marque-or-800))',
+  				'or-900': 'hsl(var(--marque-or-900))'
   			},
   			chart: {
   				'1': 'hsl(var(--chart-1))',

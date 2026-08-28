@@ -65,7 +65,13 @@
        210 14% 59% = #8896A5, mesuré à 3,02:1 sur blanc. */
     --border: 210 14% 89%;
     --input: 210 14% 59%;
-    --ring: 47 86% 46%;
+    /* L'anneau de focus est le seul repère de qui navigue au clavier, et
+       WCAG 2.4.11 lui demande 3:1 contre le fond qu'il traverse. L'or de marque
+       n'y arrive pas (1,8:1) et 47 86% 46% n'y arrivait pas non plus (2,07:1) :
+       l'arbitrage enchaîne des centaines de tabulations sur un anneau qu'on ne
+       voyait pas. 47 86% 38% = #B4900D, mesuré à 3,06:1 sur blanc — c'est la
+       valeur de --marque-or-sombre, l'anneau reste donc doré sans disparaître. */
+    --ring: 47 86% 38%;
 
     /* Couleurs de marque, à invoquer explicitement (bg-marque-or,
        text-marque-rouge-texte…), jamais via les surfaces neutres. */
@@ -73,6 +79,38 @@
     --marque-or-sombre: 47 86% 38%;
     --marque-rouge: 0 100% 50%;
     --marque-rouge-texte: 0 100% 38%;
+
+    /* Échelles complètes rouge/or, issues du design system « The Elsassisch
+       Design Systeme » (claude.ai/design, 28/08/2026) — rouge mesuré sur le
+       logo (#a7070d), or confirmé comme couleur officielle de vêtement
+       (#b6841f). Distinctes des tokens ci-dessus (extraits du CSS Odoo du
+       site) : deux mesures différentes, pas une même couleur renommée.
+       Ajoutées à côté, jamais en remplacement — rien d'existant n'y touche.
+       rouge-500 atteint 7,84:1 en texte sur blanc (AAA), utilisable
+       directement contrairement à --marque-rouge. or-500 atteint seulement
+       3,33:1 en texte : même règle que --marque-or, fond uniquement, jamais
+       texte (5,67:1 avec du texte quasi noir dessus). */
+    --marque-rouge-50: 356 68% 95%;
+    --marque-rouge-100: 356 67% 88%;
+    --marque-rouge-200: 357 63% 75%;
+    --marque-rouge-300: 357 58% 62%;
+    --marque-rouge-400: 358 58% 47%;
+    --marque-rouge-500: 358 92% 34%;
+    --marque-rouge-600: 358 93% 28%;
+    --marque-rouge-700: 358 93% 22%;
+    --marque-rouge-800: 359 95% 15%;
+    --marque-rouge-900: 0 96% 9%;
+
+    --marque-or-50: 42 76% 93%;
+    --marque-or-100: 42 76% 84%;
+    --marque-or-200: 42 75% 70%;
+    --marque-or-300: 41 71% 58%;
+    --marque-or-400: 40 64% 50%;
+    --marque-or-500: 40 71% 42%;
+    --marque-or-600: 39 72% 34%;
+    --marque-or-700: 38 72% 25%;
+    --marque-or-800: 38 73% 17%;
+    --marque-or-900: 39 76% 10%;
 
     --chart-1: 47 86% 56%;
     --chart-2: 0 100% 50%;
@@ -89,7 +127,7 @@
     --sidebar-accent: 210 17% 94%;
     --sidebar-accent-foreground: 210 11% 15%;
     --sidebar-border: 210 14% 89%;
-    --sidebar-ring: 47 86% 46%;
+    --sidebar-ring: 47 86% 38%;
   }
 
   /* Le site n'expose pas de thème sombre à ce jour ; cette variante existe

@@ -7,6 +7,19 @@ import { Input } from "@/components/ui/input";
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
 import { Label } from "@/components/ui/label";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
+import {
+  AlertDialog,
+  AlertDialogAction,
+  AlertDialogCancel,
+  AlertDialogContent,
+  AlertDialogDescription,
+  AlertDialogFooter,
+  AlertDialogHeader,
+  AlertDialogTitle,
+  AlertDialogTrigger,
+} from "@/components/ui/alert-dialog";
+import { buttonVariants } from "@/components/ui/button";
+import { cn } from "@/lib/utils";
 import { toast } from "sonner";
 import {
   getUsersAction,
@@ -16,8 +29,9 @@ import {
   generateRecoveryLinkAction
 } from "@/app/actions/user-management";
 import { User } from "@supabase/supabase-js";
-import { Trash2, Users, UserPlus, Loader2, Copy, KeyRound } from "lucide-react";
+import { Trash2, Users, UserPlus, Loader2, Copy, KeyRound, RefreshCw } from "lucide-react";
 import { ROLES_AUTORISES, LIBELLES_ROLE } from "@/lib/roles";
+import { AppHeader } from "@/components/app-header";
 
 export default function AdminPage() {
   const { user, role, isLoading } = useAuth();
@@ -33,6 +47,19 @@ export default function AdminPage() {
       toast.success("Lien copié");
     } catch {
       toast.error("Copie impossible, sélectionnez le lien manuellement");
+    }
+  };
+
+  // La confirmation vit dans l'AlertDialog de la ligne. confirm() bloquait le
+  // fil du navigateur derrière un dialogue non traduisible et hors palette,
+  // devant l'action la plus irréversible de l'application.
+  const supprimerUtilisateur = async (id: string) => {
+    const res = await deleteUserAction(id);
+    if (res.success) {
+      toast.success(res.message);
+      refreshUsers();
+    } else {
+      toast.error(res.error);
     }
   };
 
@@ -53,12 +80,23 @@ export default function AdminPage() {
   if (!user || role !== 'admin') return <div className="p-8 text-center">Accès refusé</div>;
 
   return (
-    <div className="container mx-auto p-4 md:p-8 max-w-5xl space-y-8">
-      <div className="flex justify-between items-center">
-        <h1 className="text-3xl font-bold">Administration</h1>
-        <Button variant="outline" onClick={refreshUsers}>Actualiser</Button>
-      </div>
-
+    <div className="flex min-h-screen flex-col">
+      <AppHeader
+        variant="stack"
+        titre="Administration"
+        backHref="/dashboard"
+        trailing={
+          <button
+            type="button"
+            onClick={refreshUsers}
+            aria-label="Actualiser"
+            className="flex h-10 w-10 items-center justify-center rounded-full bg-neutre-100 text-foreground"
+          >
+            <RefreshCw className="h-[18px] w-[18px]" strokeWidth={2} />
+          </button>
+        }
+      />
+      <div className="container mx-auto max-w-5xl space-y-8 p-4 md:p-8">
       <Card>
         <CardHeader>
           <CardTitle className="flex items-center gap-2">
@@ -82,13 +120,21 @@ export default function AdminPage() {
             }
           }} className="grid grid-cols-1 md:grid-cols-3 gap-4 items-end">
             <div className="space-y-2">
-              <Label>Email</Label>
-              <Input name="email" type="email" placeholder="email@exemple.com" required />
+              <Label htmlFor="invitation-email">Email</Label>
+              <Input
+                id="invitation-email"
+                name="email"
+                type="email"
+                placeholder="email@exemple.com"
+                required
+              />
             </div>
             <div className="space-y-2">
-              <Label>Rôle</Label>
+              {/* Un <label for> vaut pour un <button>, donc pour le déclencheur
+                  Radix du Select. */}
+              <Label htmlFor="invitation-role">Rôle</Label>
               <Select name="role" defaultValue="user">
-                <SelectTrigger><SelectValue /></SelectTrigger>
+                <SelectTrigger id="invitation-role"><SelectValue /></SelectTrigger>
                 <SelectContent>
                   {ROLES_AUTORISES.map((role) => (
                     <SelectItem key={role} value={role}>{LIBELLES_ROLE[role]}</SelectItem>
@@ -107,8 +153,19 @@ export default function AdminPage() {
             Lien à transmettre à {lienGenere.email}
           </p>
           <div className="flex gap-2">
-            <Input readOnly value={lienGenere.url} className="font-mono text-xs" />
-            <Button type="button" variant="outline" onClick={() => copierLien(lienGenere.url)}>
+            <Input
+              readOnly
+              value={lienGenere.url}
+              className="font-mono text-xs"
+              aria-label={`Lien à transmettre à ${lienGenere.email}`}
+            />
+            <Button
+              type="button"
+              variant="outline"
+              onClick={() => copierLien(lienGenere.url)}
+              aria-label="Copier le lien"
+              title="Copier le lien"
+            >
               <Copy className="w-4 h-4" />
             </Button>
           </div>
@@ -154,7 +211,9 @@ export default function AdminPage() {
                               else { toast.error(res.error); }
                             }}
                           >
-                            <SelectTrigger className="w-44"><SelectValue /></SelectTrigger>
+                            <SelectTrigger className="w-44" aria-label={`Rôle de ${u.email}`}>
+                              <SelectValue />
+                            </SelectTrigger>
                             <SelectContent>
                               {ROLES_AUTORISES.map((role) => (
                                 <SelectItem key={role} value={role}>{LIBELLES_ROLE[role]}</SelectItem>
@@ -163,20 +222,49 @@ export default function AdminPage() {
                           </Select>
                         </td>
                         <td className="p-3 text-right space-x-2">
-                          <Button variant="outline" size="sm" title="Générer un lien de réinitialisation" onClick={async () => {
-                            const res = await generateRecoveryLinkAction(u.email!);
-                            if (res.success) {
-                              toast.success(res.message);
-                              setLienGenere({ email: u.email!, url: res.lien });
-                            } else { toast.error(res.error); }
-                          }}><KeyRound className="w-4 h-4" /></Button>
-                          <Button variant="destructive" size="sm" onClick={async () => {
-                            if (confirm(`Supprimer ${u.email} ?`)) {
-                              const res = await deleteUserAction(u.id);
-                              if (res.success) { toast.success(res.message); refreshUsers(); }
-                              else { toast.error(res.error); }
-                            }
-                          }}><Trash2 className="w-4 h-4" /></Button>
+                          <Button
+                            variant="outline"
+                            size="sm"
+                            title="Générer un lien de réinitialisation"
+                            aria-label={`Générer un lien de réinitialisation pour ${u.email}`}
+                            onClick={async () => {
+                              const res = await generateRecoveryLinkAction(u.email!);
+                              if (res.success) {
+                                toast.success(res.message);
+                                setLienGenere({ email: u.email!, url: res.lien });
+                              } else { toast.error(res.error); }
+                            }}
+                          ><KeyRound className="w-4 h-4" /></Button>
+                          <AlertDialog>
+                            <AlertDialogTrigger asChild>
+                              <Button
+                                variant="destructive"
+                                size="sm"
+                                title="Supprimer le compte"
+                                aria-label={`Supprimer le compte ${u.email}`}
+                              ><Trash2 className="w-4 h-4" /></Button>
+                            </AlertDialogTrigger>
+                            <AlertDialogContent>
+                              <AlertDialogHeader>
+                                <AlertDialogTitle>Supprimer le compte {u.email} ?</AlertDialogTitle>
+                                <AlertDialogDescription>
+                                  Le compte est supprimé du dictionnaire et ne pourra plus s&apos;y
+                                  connecter. Son compte The Elsassisch dans Odoo n&apos;est pas
+                                  touché : c&apos;est Odoo qui fait autorité sur les identifiants.
+                                  Cette action est définitive.
+                                </AlertDialogDescription>
+                              </AlertDialogHeader>
+                              <AlertDialogFooter>
+                                <AlertDialogCancel>Annuler</AlertDialogCancel>
+                                <AlertDialogAction
+                                  className={cn(buttonVariants({ variant: "destructive" }))}
+                                  onClick={() => supprimerUtilisateur(u.id)}
+                                >
+                                  Supprimer le compte
+                                </AlertDialogAction>
+                              </AlertDialogFooter>
+                            </AlertDialogContent>
+                          </AlertDialog>
                         </td>
                       </tr>
                     );
@@ -187,6 +275,7 @@ export default function AdminPage() {
           )}
         </CardContent>
       </Card>
+      </div>
     </div>
   );
 }

@@ -2,15 +2,15 @@
 
 import { useEffect, useMemo, useState } from "react";
 import { createClient } from "@/utils/supabase/client";
-import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
-import { Label } from "@/components/ui/label";
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { toast } from "sonner";
-import { Loader2 } from "lucide-react";
+import { Loader2, Unlink } from "lucide-react";
 
 const LONGUEUR_MINIMALE = 8;
 
+// Écrans 9 (lien valide) et 9b (lien expiré) du handoff mobile — pas de
+// header (écran d'arrivée après un lien d'invitation transmis à la main par
+// un admin, cf. CLAUDE.md, aucun envoi automatique). Juste le dégagement de
+// la barre de statut (env(safe-area-inset-top)) puis le contenu centré.
 export default function SetPasswordPage() {
     const supabase = useMemo(() => createClient(), []);
     const [motDePasse, setMotDePasse] = useState("");
@@ -60,70 +60,74 @@ export default function SetPasswordPage() {
         }
     };
 
-    if (sessionValide === null) {
-        return (
-            <div className="flex min-h-[60vh] items-center justify-center">
-                <Loader2 className="animate-spin" />
-            </div>
-        );
-    }
-
-    if (!sessionValide) {
-        return (
-            <div className="flex min-h-[60vh] items-center justify-center p-4">
-                <Card className="w-full max-w-md">
-                    <CardHeader>
-                        <CardTitle>Lien expiré</CardTitle>
-                        <CardDescription>
-                            Ce lien n&apos;est plus valide. Demandez à un administrateur de vous en
-                            générer un nouveau.
-                        </CardDescription>
-                    </CardHeader>
-                </Card>
-            </div>
-        );
-    }
-
     return (
-        <div className="flex min-h-[60vh] items-center justify-center p-4">
-            <Card className="w-full max-w-md">
-                <CardHeader>
-                    <CardTitle>Définir votre mot de passe</CardTitle>
-                    <CardDescription>
-                        Choisissez le mot de passe qui vous servira à vous connecter.
-                    </CardDescription>
-                </CardHeader>
-                <CardContent>
-                    <form onSubmit={soumettre} className="space-y-4">
-                        <div className="space-y-2">
-                            <Label htmlFor="motDePasse">Mot de passe</Label>
-                            <Input
+        <div className="flex min-h-screen flex-col" style={{ paddingTop: "env(safe-area-inset-top)" }}>
+            <main className="flex flex-1 flex-col items-center justify-center px-6 py-8">
+                {sessionValide === null ? (
+                    <Loader2 className="h-6 w-6 animate-spin text-neutre-400" />
+                ) : !sessionValide ? (
+                    <div className="flex flex-col items-center text-center">
+                        <Unlink className="h-10 w-10 text-neutre-400" strokeWidth={1.8} />
+                        <h1 className="mt-[18px] text-xl font-extrabold text-foreground">Lien expiré</h1>
+                        <p className="mt-2 text-sm leading-[1.5] text-muted-foreground">
+                            Ce lien n&apos;est plus valide. Demande à un administrateur de t&apos;en générer
+                            un nouveau.
+                        </p>
+                    </div>
+                ) : (
+                    <div className="w-full">
+                        <p className="font-display text-center text-[26px] text-marque-rouge-texte">
+                            Elsass Dico
+                        </p>
+                        <h1 className="mt-[18px] text-center text-xl font-extrabold text-foreground">
+                            Définir ton mot de passe
+                        </h1>
+                        <p className="mt-1.5 mb-[26px] text-center text-sm text-muted-foreground">
+                            Choisis le mot de passe qui te servira à te connecter.
+                        </p>
+
+                        <form onSubmit={soumettre} className="flex flex-col">
+                            <label htmlFor="motDePasse" className="mb-1.5 block text-[13px] font-semibold text-foreground">
+                                Mot de passe
+                            </label>
+                            <input
                                 id="motDePasse"
                                 type="password"
                                 value={motDePasse}
                                 onChange={(e) => setMotDePasse(e.target.value)}
+                                placeholder="••••••••"
                                 minLength={LONGUEUR_MINIMALE}
                                 required
+                                className="h-[46px] w-full rounded-sm border border-neutre-300 px-3 text-base text-foreground outline-none placeholder:text-neutre-400 focus-visible:ring-2 focus-visible:ring-ring"
                             />
-                        </div>
-                        <div className="space-y-2">
-                            <Label htmlFor="confirmation">Confirmer le mot de passe</Label>
-                            <Input
+                            <p className="mb-3.5 mt-1.5 text-xs text-neutre-400">8 caractères minimum.</p>
+
+                            <label htmlFor="confirmation" className="mb-1.5 block text-[13px] font-semibold text-foreground">
+                                Confirmer le mot de passe
+                            </label>
+                            <input
                                 id="confirmation"
                                 type="password"
                                 value={confirmation}
                                 onChange={(e) => setConfirmation(e.target.value)}
+                                placeholder="••••••••"
                                 minLength={LONGUEUR_MINIMALE}
                                 required
+                                className="mb-[22px] h-[46px] w-full rounded-sm border border-neutre-300 px-3 text-base text-foreground outline-none placeholder:text-neutre-400 focus-visible:ring-2 focus-visible:ring-ring"
                             />
-                        </div>
-                        <Button type="submit" className="w-full" disabled={enCours}>
-                            {enCours && <Loader2 className="mr-2 h-4 w-4 animate-spin" />}
-                            Enregistrer
-                        </Button>
-                    </form>
-                </CardContent>
-            </Card>
+
+                            <button
+                                type="submit"
+                                disabled={enCours}
+                                className="flex h-12 w-full items-center justify-center gap-2 rounded-lg bg-marque-rouge-500 text-sm font-semibold text-white transition-colors hover:bg-marque-rouge-600 disabled:opacity-50"
+                            >
+                                {enCours && <Loader2 className="h-4 w-4 animate-spin" />}
+                                Enregistrer
+                            </button>
+                        </form>
+                    </div>
+                )}
+            </main>
         </div>
     );
 }

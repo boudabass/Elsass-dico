@@ -1,18 +1,24 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
-import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
-import { Badge } from "@/components/ui/badge";
-import { ArrowRight, CheckCircle2, BookOpenCheck, Loader2, Search } from "lucide-react";
+import { Loader2, Search, SearchX } from "lucide-react";
+import { AppHeader } from "@/components/app-header";
+import { ListSkeleton } from "@/components/ui/list-skeleton";
 import { rechercherAction, type ResultatRecherche } from "@/app/actions/recherche";
-import { LIBELLES_REGION, LIBELLES_TYPE_TERME, type Region, type TypeTerme } from "@/lib/dictionnaire";
-import { URL_INSCRIPTION_ODOO } from "@/lib/odoo";
 import { useAuth } from "@/components/auth-provider";
 
+// Écran 1 (Recherche) + écran 10 (aucun résultat) du handoff mobile
+// design_handoff_mobile_app/ (Claude Design, 28/08/2026). Remplace la page
+// desktop du 25/08 : plus de bandeau marketing ni de boutons de connexion en
+// en-tête (portés désormais par l'onglet "compte" de AppHeader et par l'écran
+// Mon espace), fidèle au mockup qui réduit l'accueil à saluer + chercher.
+
+const CARACTERES_ORTHAL = ["à", "ì", "ü", "ù", "ë", "ö", "ä", "œ"];
+
 export default function AccueilPage() {
-  const { user, isLoading } = useAuth();
+  const { user } = useAuth();
+  const inputRef = useRef<HTMLInputElement>(null);
   const [terme, setTerme] = useState("");
   const [resultats, setResultats] = useState<ResultatRecherche[]>([]);
   const [recherche, setRecherche] = useState(false);
@@ -25,9 +31,6 @@ export default function AccueilPage() {
     if (requete.length < 2) {
       setResultats([]);
       setACherche(false);
-      // Sans ce retour à false, vider le champ pendant qu'une recherche est en
-      // vol laisse le spinner tourner indéfiniment sur un champ vide : le
-      // nettoyage annule bien le minuteur, mais personne ne réarme l'état.
       setRecherche(false);
       return;
     }
@@ -43,165 +46,136 @@ export default function AccueilPage() {
     return () => clearTimeout(minuteur);
   }, [terme]);
 
+  // Insère le caractère à l'endroit du curseur plutôt qu'en fin de chaîne :
+  // selectionStart/End restent lisibles sur l'input même après que le focus
+  // soit passé au bouton de la puce (le spec DOM les conserve). requestAnimationFrame
+  // laisse React committer le nouveau `value` avant qu'on repositionne le curseur.
+  function insererCaractere(car: string) {
+    const input = inputRef.current;
+    const debut = input?.selectionStart ?? terme.length;
+    const fin = input?.selectionEnd ?? terme.length;
+    setTerme(terme.slice(0, debut) + car + terme.slice(fin));
+    requestAnimationFrame(() => {
+      input?.focus();
+      const position = debut + car.length;
+      input?.setSelectionRange(position, position);
+    });
+  }
+
   return (
-    /* Fond du site, pas un fond à soi : cette page est destinée à une iframe
-       dans www.theelsassisch.com, et toute teinte propre y dessinerait la
-       frontière de l'iframe. Le halo doré reste sous 8 % d'opacité pour la
-       même raison. */
-    <div className="relative min-h-screen bg-background text-foreground">
-      <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,_var(--tw-gradient-stops))] from-marque-or/[0.18] via-background to-background z-0"></div>
+    <div className="flex min-h-screen flex-col">
+      <AppHeader variant="root" actif="recherche" />
 
-      <div className="relative z-10 container mx-auto px-6 py-16 max-w-3xl space-y-10">
-        <div className="flex justify-end">
-          {/* h-11 : l'accueil est la surface publique, donc consultée au doigt.
-              44px est la cible tactile, `size="sm"` n'en donnait que 32. */}
-          {isLoading ? null : user ? (
-            <Button asChild variant="outline" className="h-11">
-              <Link href="/dashboard">Mon espace</Link>
-            </Button>
-          ) : (
-            <div className="flex items-center gap-2">
-              <Button asChild variant="outline" className="h-11">
-                <Link href="/login">Se connecter</Link>
-              </Button>
-              <Button asChild className="h-11">
-                <a href={URL_INSCRIPTION_ODOO}>Créer un compte</a>
-              </Button>
-            </div>
-          )}
-        </div>
+      <main className="flex-1 px-4 pt-5 pb-8">
+        <h1 className="text-[21px] font-extrabold text-foreground">Salut !</h1>
+        <p className="mt-1 mb-[18px] text-sm text-muted-foreground">
+          Cherche un mot, français ou alsacien.
+        </p>
 
-        <div className="text-center space-y-4">
-          <h1 className="text-4xl md:text-6xl font-black tracking-tight leading-tight text-balance">
-            Elsass Dico <br />
-            {/* rouge-texte et non le rouge de marque : #FF0000 ne passe pas le
-                seuil AA sur blanc, même en gros titre on garde le rouge lisible. */}
-            <span className="text-marque-rouge-texte">Français ⇄ Alsacien</span>
-          </h1>
-          <p className="text-muted-foreground text-pretty">
-            Cherchez dans les deux sens. Seules les entrées validées à la main sont publiées.
-          </p>
-        </div>
-
-        <div className="relative">
-          <Search className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-muted-foreground" />
-          <Input
+        <div className="flex h-12 items-center gap-2.5 rounded-full border border-neutre-300 bg-background px-4">
+          <Search className="h-[18px] w-[18px] shrink-0 text-neutre-400" strokeWidth={2} />
+          <input
+            ref={inputRef}
             value={terme}
             onChange={(e) => setTerme(e.target.value)}
             placeholder="Un mot en français ou en alsacien…"
-            className="h-14 rounded-xl pl-12 pr-12 text-lg shadow-sm"
             autoFocus
+            className="min-w-0 flex-1 bg-transparent text-base font-semibold text-foreground outline-none placeholder:font-normal placeholder:text-neutre-400"
           />
-          {/* Toujours monté, jamais monté/démonté : une icône qui disparaît sec
-              se remarque plus que le chargement qu'elle signale. Le centrage vit
-              sur l'enveloppe et la rotation sur l'icône : les keyframes de
-              `animate-spin` réécrivent `transform` en entier et emporteraient le
-              `-translate-y-1/2` avec elles. */}
           <span
             aria-hidden
-            className={`absolute right-4 top-1/2 -translate-y-1/2 transition-[opacity,transform,filter] duration-300 ease-doux ${
+            className={`shrink-0 transition-[opacity,transform,filter] duration-300 ease-doux ${
               recherche ? "opacity-100 blur-0" : "opacity-0 scale-[0.25] blur-[4px]"
             }`}
           >
-            <Loader2 className={`w-5 h-5 text-muted-foreground ${recherche ? "animate-spin" : ""}`} />
+            <Loader2 className={`h-[18px] w-[18px] text-neutre-400 ${recherche ? "animate-spin" : ""}`} />
           </span>
-          {/* Le spinner est décoratif ; l'état de recherche se dit au lecteur
-              d'écran, qui ne voit pas tourner une icône. */}
           <span role="status" aria-live="polite" className="sr-only">
             {recherche ? "Recherche en cours" : ""}
           </span>
         </div>
 
-        {resultats.length > 0 && (
-          /* `block` sur le lien : un Link est un <a> inline, dont le rectangle
-             de focus se disloque autour d'un enfant en bloc. */
-          <div className="space-y-3">
-            {resultats.map((e) => (
-              <Link
-                key={e.id}
-                href={`/entree/${e.id}`}
-                className="block rounded-xl focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
-              >
-                <div className="rounded-xl border bg-card p-4 shadow-sm hover:border-marque-or transition-colors">
-                  <div className="flex items-center gap-2 flex-wrap">
-                    <span className="font-semibold">{e.francais}</span>
-                    {e.contexte && (
-                      <Badge variant="outline" className="font-normal">
-                        {e.contexte}
-                      </Badge>
-                    )}
-                    <span className="text-xs text-muted-foreground">
-                      {LIBELLES_TYPE_TERME[e.type as TypeTerme] ?? e.type}
-                    </span>
-                  </div>
-                  {/* La forme alsacienne est le contenu, pas un accent : elle
-                      reste en couleur de texte pleine, et c'est la graisse qui
-                      la met en avant. Réserver le rouge aux liens et au titre
-                      évite que trois choses se disputent le regard. */}
-                  <p className="text-lg font-semibold mt-1">
-                    {e.traductions[0]?.alsacien}
-                  </p>
-                  {e.traductions.length > 1 && (
-                    <p className="text-sm text-muted-foreground mt-1">
-                      aussi : {e.traductions.slice(1).map((t) => t.alsacien).join(" · ")}
+        <div className="mt-3.5 flex flex-wrap gap-1.5">
+          {CARACTERES_ORTHAL.map((car) => (
+            <button
+              key={car}
+              type="button"
+              onClick={() => insererCaractere(car)}
+              className="flex h-9 min-w-9 items-center justify-center rounded-lg border border-neutre-300 bg-background px-2.5 text-[15px] font-semibold text-foreground transition-colors hover:bg-neutre-50 active:scale-95"
+            >
+              {car}
+            </button>
+          ))}
+        </div>
+
+        {recherche && resultats.length === 0 && (
+          <div className="mt-[22px]">
+            <ListSkeleton lignes={3} />
+          </div>
+        )}
+
+        {!recherche && resultats.length > 0 && (
+          <div>
+            <p className="mb-2.5 mt-[22px] text-xs font-bold uppercase tracking-wide text-neutre-400">
+              Résultats
+            </p>
+            <div className="space-y-2.5">
+              {resultats.map((e) => (
+                <Link
+                  key={e.id}
+                  href={`/entree/${e.id}`}
+                  className="block rounded-lg focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
+                >
+                  <div className="rounded-lg border border-border bg-card p-3.5">
+                    <div className="flex flex-wrap items-center gap-2">
+                      <span className="font-bold text-foreground">{e.francais}</span>
+                      {e.contexte && (
+                        <span className="text-xs text-neutre-400">{e.contexte}</span>
+                      )}
+                    </div>
+                    <p className="mt-1 text-lg font-bold text-foreground">
+                      {e.traductions[0]?.alsacien}
                     </p>
-                  )}
-                  {e.traductions[0]?.region && (
-                    <Badge variant="secondary" className="mt-2 font-normal">
-                      {LIBELLES_REGION[e.traductions[0].region as Region]}
-                    </Badge>
-                  )}
-                </div>
-              </Link>
-            ))}
+                    {e.traductions.length > 1 ? (
+                      <p className="mt-1.5 text-sm text-muted-foreground">
+                        aussi : {e.traductions.slice(1).map((t) => t.alsacien).join(" · ")}
+                      </p>
+                    ) : e.traductions[0]?.region === "commun" ? (
+                      <span className="mt-2 inline-flex rounded-full bg-marque-or-50 px-2.5 py-0.5 text-xs font-semibold text-marque-or-700">
+                        Alsacien unifié
+                      </span>
+                    ) : e.traductions[0]?.region ? (
+                      <span className="mt-2 inline-flex rounded-full bg-neutre-100 px-2.5 py-0.5 text-xs font-semibold text-neutre-600">
+                        {e.traductions[0].region === "haut_rhin" ? "Haut-Rhin" : "Bas-Rhin"}
+                      </span>
+                    ) : null}
+                  </div>
+                </Link>
+              ))}
+            </div>
           </div>
         )}
 
         {aCherche && !recherche && resultats.length === 0 && (
-          <div className="rounded-xl border bg-card p-6 text-center space-y-2 shadow-sm">
-            <p className="text-pretty">Aucune entrée validée pour « {terme.trim()} ».</p>
-            <p className="text-sm text-muted-foreground text-pretty">
-              Le dictionnaire se construit par recoupement : un mot n&apos;apparaît ici qu&apos;une
-              fois attesté puis arbitré. Vous connaissez la traduction ?{" "}
-              <Link href="/login" className="text-marque-rouge-texte underline-offset-4 hover:underline">
-                Connectez-vous
-              </Link>{" "}
-              si vous avez déjà un compte, ou{" "}
-              <a href={URL_INSCRIPTION_ODOO} className="text-marque-rouge-texte underline-offset-4 hover:underline">
-                créez-en un
-              </a>
-              .
+          <div className="mt-3.5 flex flex-col items-center px-3 pb-2 pt-9 text-center">
+            <SearchX className="h-[34px] w-[34px] text-neutre-300" strokeWidth={1.8} />
+            <p className="mt-3 text-base font-bold text-foreground">
+              Aucun résultat pour « {terme.trim()} ».
             </p>
+            <p className="mt-1.5 text-sm text-muted-foreground">
+              Ce mot n&apos;est pas encore dans le dictionnaire.
+            </p>
+            {user && (
+              <Link
+                href={`/contributions/proposer?francais=${encodeURIComponent(terme.trim())}`}
+                className="mt-2.5 text-sm font-semibold text-marque-rouge-texte"
+              >
+                Proposer ce mot →
+              </Link>
+            )}
           </div>
         )}
-
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 pt-4 text-left">
-          <div className="p-4 rounded-xl border bg-card shadow-sm">
-            {/* L'or ne peut pas porter de texte sur blanc (1,8:1), mais une
-                icône n'est pas du texte : elle est doublée par son intitulé. */}
-            <CheckCircle2 className="w-6 h-6 text-marque-or-sombre mb-2" />
-            <h3 className="font-bold">Recoupement, pas génération</h3>
-            <p className="text-sm text-muted-foreground text-pretty">
-              Aucune entrée n&apos;est retenue si elle n&apos;est attestée que dans une seule source.
-            </p>
-          </div>
-          <div className="p-4 rounded-xl border bg-card shadow-sm">
-            <BookOpenCheck className="w-6 h-6 text-marque-rouge-texte mb-2" />
-            <h3 className="font-bold">Graphie ORTHAL 2023</h3>
-            <p className="text-sm text-muted-foreground text-pretty">
-              Chaque entrée validée est réécrite selon la norme de l&apos;association AGATE.
-            </p>
-          </div>
-        </div>
-
-        <div className="text-center">
-          <Button asChild variant="outline" className="h-11">
-            <Link href="/login">
-              Espace contributeur <ArrowRight className="ml-2 w-4 h-4" />
-            </Link>
-          </Button>
-        </div>
-      </div>
+      </main>
     </div>
   );
 }

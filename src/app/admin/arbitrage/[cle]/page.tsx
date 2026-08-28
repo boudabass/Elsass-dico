@@ -15,7 +15,6 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@
 import { toast } from "sonner";
 import {
   AlertTriangle,
-  ArrowLeft,
   ChevronDown,
   ChevronUp,
   Crown,
@@ -23,6 +22,7 @@ import {
   Plus,
   Trash2,
 } from "lucide-react";
+import { AppHeader } from "@/components/app-header";
 import { arbitrerAction, chargerCandidat, type DetailCandidat } from "@/app/actions/arbitrage";
 import {
   LIBELLES_REGION,
@@ -158,28 +158,28 @@ export default function ArbitragePage() {
 
   if (!detail) {
     return (
-      <div className="container mx-auto p-8 max-w-3xl space-y-4 text-center">
-        <p className="text-muted-foreground">
-          Aucune attestation ne correspond à « {cle} »{contexteUrl && ` (${contexteUrl})`}.
-        </p>
-        <Link href="/admin/arbitrage">
-          <Button variant="outline">Retour à la file</Button>
-        </Link>
+      <div className="flex min-h-screen flex-col">
+        <AppHeader variant="stack" titre="Arbitrage" backHref="/admin/arbitrage" />
+        <div className="container mx-auto max-w-3xl space-y-4 p-8 text-center">
+          <p className="text-muted-foreground">
+            Aucune attestation ne correspond à « {cle} »{contexteUrl && ` (${contexteUrl})`}.
+          </p>
+          <Link href="/admin/arbitrage">
+            <Button variant="outline">Retour à la file</Button>
+          </Link>
+        </div>
       </div>
     );
   }
 
   return (
-    <div className="container mx-auto p-4 md:p-8 max-w-6xl space-y-6">
-      <div className="flex items-center gap-3">
-        <Link href="/admin/arbitrage">
-          <Button variant="ghost" size="sm">
-            <ArrowLeft className="w-4 h-4 mr-1" /> File
-          </Button>
-        </Link>
-        <h1 className="text-2xl font-bold">{detail.francais}</h1>
-        {detail.entree_id && <Badge variant="outline">Entrée existante</Badge>}
-      </div>
+    <div className="flex min-h-screen flex-col">
+      <AppHeader variant="stack" titre={detail.francais} backHref="/admin/arbitrage" />
+      <div className="container mx-auto max-w-6xl space-y-6 p-4 md:p-8">
+
+      {detail.entree_id && (
+        <Badge variant="outline" className="whitespace-nowrap">Entrée existante</Badge>
+      )}
 
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 items-start">
         {/* Ce que disent les sources — jamais modifiable ici. */}
@@ -227,6 +227,7 @@ export default function ArbitragePage() {
                   variant="outline"
                   size="sm"
                   onClick={() => reprendreVariante(v.alsacien, v.region)}
+                  aria-label={`Reprendre « ${v.alsacien} » dans l'entrée`}
                 >
                   <Plus className="w-3 h-3 mr-1" /> Reprendre
                 </Button>
@@ -247,12 +248,17 @@ export default function ArbitragePage() {
           <CardContent className="space-y-4">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
               <div className="space-y-2">
-                <Label>Français</Label>
-                <Input value={francais} onChange={(e) => setFrancais(e.target.value)} />
+                <Label htmlFor="entree-francais">Français</Label>
+                <Input
+                  id="entree-francais"
+                  value={francais}
+                  onChange={(e) => setFrancais(e.target.value)}
+                />
               </div>
               <div className="space-y-2">
-                <Label>Contexte</Label>
+                <Label htmlFor="entree-contexte">Contexte</Label>
                 <Input
+                  id="entree-contexte"
                   value={contexte}
                   onChange={(e) => setContexte(e.target.value)}
                   placeholder="Sépare les homonymes"
@@ -261,9 +267,11 @@ export default function ArbitragePage() {
             </div>
 
             <div className="space-y-2">
-              <Label>Type</Label>
+              {/* Un <label for> vaut pour un <button> (élément étiquetable au
+                  sens HTML), donc pour le déclencheur Radix du Select. */}
+              <Label htmlFor="entree-type">Type</Label>
               <Select value={type} onValueChange={(v) => setType(v as TypeTerme)}>
-                <SelectTrigger>
+                <SelectTrigger id="entree-type">
                   <SelectValue />
                 </SelectTrigger>
                 <SelectContent>
@@ -276,9 +284,14 @@ export default function ArbitragePage() {
               </Select>
             </div>
 
-            <div className="space-y-3">
+            {/* « Traductions » titre un groupe de champs, il n'étiquette aucun
+                champ précis : un <Label> orphelin y annoncerait une association
+                qui n'existe pas. Le groupe porte le nom, chaque champ le sien. */}
+            <div className="space-y-3" role="group" aria-labelledby="titre-traductions">
               <div className="flex items-center justify-between">
-                <Label>Traductions</Label>
+                <span id="titre-traductions" className="text-sm font-medium leading-none">
+                  Traductions
+                </span>
                 <Button
                   type="button"
                   variant="outline"
@@ -289,8 +302,15 @@ export default function ArbitragePage() {
                 </Button>
               </div>
 
-              {traductions.map((t, i) => (
-                <div key={i} className="border rounded-md p-3 space-y-2">
+              {traductions.map((t, i) => {
+                const nomRang = i === 0 ? "la forme canonique" : `la variante ${i}`;
+                return (
+                <div
+                  key={i}
+                  className="border rounded-md p-3 space-y-2"
+                  role="group"
+                  aria-label={i === 0 ? "Forme canonique" : `Variante ${i}`}
+                >
                   <div className="flex items-center gap-2">
                     {i === 0 ? (
                       <Badge className="gap-1 bg-amber-500 hover:bg-amber-500 shrink-0">
@@ -302,12 +322,18 @@ export default function ArbitragePage() {
                       </Badge>
                     )}
                     <div className="ml-auto flex gap-1">
+                      {/* Trois boutons sans texte, répétés à chaque traduction :
+                          sans nom accessible, un lecteur d'écran annonce six
+                          fois « bouton » sur un écran où l'ordre des formes est
+                          justement la décision qu'on est en train de prendre. */}
                       <Button
                         type="button"
                         variant="ghost"
                         size="sm"
                         disabled={i === 0}
                         onClick={() => deplacerTraduction(i, -1)}
+                        aria-label={`Monter ${nomRang}`}
+                        title={`Monter ${nomRang}`}
                       >
                         <ChevronUp className="w-4 h-4" />
                       </Button>
@@ -317,6 +343,8 @@ export default function ArbitragePage() {
                         size="sm"
                         disabled={i === traductions.length - 1}
                         onClick={() => deplacerTraduction(i, 1)}
+                        aria-label={`Descendre ${nomRang}`}
+                        title={`Descendre ${nomRang}`}
                       >
                         <ChevronDown className="w-4 h-4" />
                       </Button>
@@ -326,16 +354,22 @@ export default function ArbitragePage() {
                         size="sm"
                         disabled={traductions.length === 1}
                         onClick={() => setTraductions((ts) => ts.filter((_, j) => j !== i))}
+                        aria-label={`Supprimer ${nomRang}`}
+                        title={`Supprimer ${nomRang}`}
                       >
                         <Trash2 className="w-4 h-4 text-destructive" />
                       </Button>
                     </div>
                   </div>
 
+                  {/* Ces champs n'ont qu'un placeholder à l'écran, et un
+                      placeholder disparaît à la première frappe : le nom
+                      accessible est porté par aria-label, qui lui reste. */}
                   <Input
                     value={t.alsacien}
                     onChange={(e) => modifierTraduction(i, "alsacien", e.target.value)}
                     placeholder="Forme alsacienne en Orthal"
+                    aria-label={`Forme alsacienne — ${nomRang}`}
                   />
 
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
@@ -345,7 +379,7 @@ export default function ArbitragePage() {
                         modifierTraduction(i, "region", v === AUCUNE_REGION ? null : v)
                       }
                     >
-                      <SelectTrigger>
+                      <SelectTrigger aria-label={`Région — ${nomRang}`}>
                         <SelectValue placeholder="Région" />
                       </SelectTrigger>
                       <SelectContent>
@@ -361,6 +395,7 @@ export default function ArbitragePage() {
                       value={t.niveau ?? ""}
                       onChange={(e) => modifierTraduction(i, "niveau", e.target.value || null)}
                       placeholder="Niveau de langue"
+                      aria-label={`Niveau de langue — ${nomRang}`}
                     />
                   </div>
 
@@ -368,15 +403,17 @@ export default function ArbitragePage() {
                     value={t.note ?? ""}
                     onChange={(e) => modifierTraduction(i, "note", e.target.value || null)}
                     placeholder="Note"
+                    aria-label={`Note — ${nomRang}`}
                   />
                 </div>
-              ))}
+                );
+              })}
             </div>
 
             <div className="space-y-2">
-              <Label>Statut</Label>
+              <Label htmlFor="entree-statut">Statut</Label>
               <Select value={statut} onValueChange={(v) => setStatut(v as StatutEntree)}>
-                <SelectTrigger>
+                <SelectTrigger id="entree-statut">
                   <SelectValue />
                 </SelectTrigger>
                 <SelectContent>
@@ -390,8 +427,9 @@ export default function ArbitragePage() {
             </div>
 
             <div className="space-y-2">
-              <Label>Note d&apos;arbitrage</Label>
+              <Label htmlFor="entree-notes">Note d&apos;arbitrage</Label>
               <Textarea
+                id="entree-notes"
                 value={notes}
                 onChange={(e) => setNotes(e.target.value)}
                 placeholder="Pourquoi cette forme, ce classement, ce rejet…"
@@ -433,6 +471,7 @@ export default function ArbitragePage() {
             )}
           </CardContent>
         </Card>
+      </div>
       </div>
     </div>
   );

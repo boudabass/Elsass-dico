@@ -930,6 +930,26 @@ avec The Elsassisch. **Décision de John : fond clair, palette du site.**
   de dev doit être redémarré, sans quoi on vérifie l'ancien CSS en croyant
   tester le nouveau.
 
+## App autonome, mobile-first (décision du 28/08/2026)
+
+**Renverse la décision du 25/08/2026.** L'app n'est plus destinée à être
+intégrée en iframe dans une page du site — elle devient une **app autonome,
+100% mobile-first**, et le site (`www.theelsassisch.com`) redirige vers elle
+par un simple lien si besoin, plutôt que de l'embarquer.
+
+- Motif : la maquette mobile (`design_handoff_mobile_app/`, handoff Claude
+  Design du 28/08) dessine une UI façon app native (status bar, home
+  indicator) qui n'a pas de sens nichée dans une page desktop. L'iframe posait
+  aussi de vrais problèmes techniques indépendants du design : session
+  Supabase en cookies tiers, pas de deep-link partageable vers une fiche de
+  mot (`/entree/[id]`).
+- Le travail d'identité visuelle du 25/08 (palette rouge/or du site,
+  contrastes AA) reste valide et sert la cohérence de marque — il ne dépendait
+  pas techniquement de l'iframe.
+- **Périmètre confirmé (28/08/2026) : toute l'app.** `/admin` et
+  `/admin/arbitrage` passent aussi mobile-first, pas seulement les 6 écrans
+  publics du handoff — John doit pouvoir arbitrer depuis son téléphone.
+
 ## Règles de travail
 
 - Ne jamais inventer de traduction alsacienne, même pour un exemple ou un test.

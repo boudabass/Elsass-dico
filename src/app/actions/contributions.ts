@@ -189,6 +189,34 @@ export async function voterAction(attestationId: string): Promise<Resultat> {
     return { success: true, message: "Validation enregistrée" }
 }
 
+// Écran "Mon espace" (6b/6c) du handoff mobile. propositions/promotions se
+// dérivent de mes_contributions() déjà chargée par l'appelant ; seul le
+// compte de votes exige un aller-retour, mes_votes_count() étant la seule
+// fonction à pouvoir lire les votes du profil courant (migration
+// 20260829010000_stats_contributeur.sql).
+export interface StatistiquesContributeur {
+    propositions: number
+    votes: number
+    promotions: number
+}
+
+export async function chargerStatistiquesContributeur(
+    mesContributions: MaContribution[],
+): Promise<StatistiquesContributeur> {
+    const supabase = await createClient()
+    const { data: votes, error } = await supabase.rpc('mes_votes_count')
+
+    if (error) {
+        console.error(`[Contributions] Lecture du compteur de votes échouée: ${error.message}`)
+    }
+
+    return {
+        propositions: mesContributions.length,
+        votes: votes ?? 0,
+        promotions: mesContributions.filter((c) => c.retenue).length,
+    }
+}
+
 export async function retirerVoteAction(attestationId: string): Promise<Resultat> {
     const supabase = await createClient()
     const { data: { user } } = await supabase.auth.getUser()

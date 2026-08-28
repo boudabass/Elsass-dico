@@ -1,0 +1,729 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+  <link rel="stylesheet" href="_ds/the-elsassisch-design-systeme-505fb5c2-a713-4116-8438-81f304a6fa25/tokens/colors.css">
+  <link rel="stylesheet" href="_ds/the-elsassisch-design-systeme-505fb5c2-a713-4116-8438-81f304a6fa25/tokens/fonts.css">
+  <link rel="stylesheet" href="_ds/the-elsassisch-design-systeme-505fb5c2-a713-4116-8438-81f304a6fa25/tokens/typography.css">
+  <link rel="stylesheet" href="_ds/the-elsassisch-design-systeme-505fb5c2-a713-4116-8438-81f304a6fa25/tokens/spacing.css">
+  <link rel="stylesheet" href="_ds/the-elsassisch-design-systeme-505fb5c2-a713-4116-8438-81f304a6fa25/tokens/effects.css">
+  <link rel="stylesheet" href="_ds/the-elsassisch-design-systeme-505fb5c2-a713-4116-8438-81f304a6fa25/styles.css">
+  <script src="_ds/the-elsassisch-design-systeme-505fb5c2-a713-4116-8438-81f304a6fa25/_ds_bundle.js"></script>
+  <style>
+    body{margin:0;background:var(--gray-100);font-family:var(--font-body)}
+    a{color:var(--link)}
+    a:hover{color:var(--link-hover)}
+    .cap{font:600 12px var(--font-body);letter-spacing:.06em;text-transform:uppercase;color:var(--gray-600);text-align:center}
+    .icobtn{width:40px;height:40px;border-radius:999px;display:flex;align-items:center;justify-content:center;flex-shrink:0}
+    .row{display:flex;align-items:center}
+    .chip{display:inline-flex;align-items:center;justify-content:center;height:36px;min-width:36px;padding:0 10px;border-radius:8px;font:600 15px var(--font-body);border:1px solid var(--border-subtle);color:var(--ink-900);background:var(--gray-0)}
+    @keyframes skelPulse{0%,100%{opacity:1}50%{opacity:.4}}
+    .skel{animation:skelPulse 1.4s ease-in-out infinite;border-radius:4px;background:var(--gray-200)}
+  </style>
+</helmet>
+
+<div style="padding:56px 56px 80px;background:var(--gray-100)">
+  <div style="max-width:900px;margin:0 0 40px">
+    <div style="font-family:var(--font-display);font-size:var(--text-3xl);color:var(--red-500);line-height:1.1">Elsass Dico</div>
+    <p style="font:var(--weight-medium) var(--text-base)/1.5 var(--font-body);color:var(--text-secondary);margin:8px 0 0;max-width:640px">Application mobile — dictionnaire Français ⇄ Alsacien. Navigation par icônes d'en-tête (pas de barre d'onglets) : Recherche, Dictionnaire, Compte. Vue contributeur connecté.</p>
+  </div>
+
+  <div style="display:flex;gap:40px;overflow-x:auto;padding-bottom:24px;align-items:flex-start">
+
+    <!-- SCREEN 1 : HOME / SEARCH -->
+    <div style="display:flex;flex-direction:column;gap:14px;align-items:center;flex-shrink:0">
+      <div class="cap">1 · Recherche</div>
+      <x-import component-from-global-scope="IOSDevice" from="./ios-frame.jsx" hint-size="402,874">
+        <div style="height:100%;display:flex;flex-direction:column;background:var(--surface-page)">
+          <div style="padding:54px 16px 12px;border-bottom:1px solid var(--border-subtle);display:flex;align-items:center;justify-content:space-between">
+            <div style="font-family:var(--font-display);font-size:20px;color:var(--red-500)">Elsass&nbsp;Dico</div>
+            <div class="row" style="gap:6px">
+              <div class="icobtn" style="background:var(--red-50)">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--red-500)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
+              </div>
+              <div class="icobtn">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--gray-400)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h6a3 3 0 013 3v13a3 3 0 00-3-3H4z"/><path d="M20 4h-6a3 3 0 00-3 3v13a3 3 0 013-3h6z"/></svg>
+              </div>
+              <div class="icobtn">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--gray-400)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="4"/><path d="M4 20c0-4 4-6 8-6s8 2 8 6"/></svg>
+              </div>
+            </div>
+          </div>
+          <div style="flex:1;overflow:auto;padding:20px 16px 32px">
+            <div style="font:800 21px var(--font-body);color:var(--ink-900)">Salut !</div>
+            <p style="font:var(--text-sm)/1.5 var(--font-body);color:var(--text-secondary);margin:4px 0 18px">Cherche un mot, français ou alsacien.</p>
+            <div style="height:48px;border-radius:999px;border:1px solid var(--border-default);background:var(--gray-0);display:flex;align-items:center;gap:10px;padding:0 16px">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--gray-400)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
+              <span style="font:600 16px var(--font-body);color:var(--ink-900)">à pied</span>
+            </div>
+            <div style="display:flex;flex-wrap:wrap;gap:6px;margin-top:14px">
+              <div class="chip">à</div><div class="chip">ì</div><div class="chip">ü</div><div class="chip">ù</div><div class="chip">ë</div><div class="chip">ö</div><div class="chip">ä</div><div class="chip">œ</div>
+            </div>
+
+            <div style="font:700 12px var(--font-body);letter-spacing:.06em;text-transform:uppercase;color:var(--text-muted);margin:22px 0 10px">Résultats</div>
+
+            <div style="border:1px solid var(--border-subtle);background:var(--surface-card);border-radius:var(--radius-md);padding:14px;margin-bottom:10px">
+              <div class="row" style="gap:8px;flex-wrap:wrap">
+                <span style="font:700 16px var(--font-body);color:var(--ink-900)">aller à pied</span>
+                <span style="font:var(--text-xs) var(--font-body);color:var(--text-muted)">expression</span>
+              </div>
+              <div style="font:700 18px var(--font-body);color:var(--ink-900);margin-top:4px">z'Füass geh</div>
+              <span style="display:inline-flex;margin-top:8px;padding:3px 10px;border-radius:999px;background:var(--gold-50);color:var(--gold-700);font:600 12px var(--font-body)">Alsacien unifié</span>
+            </div>
+
+            <div style="border:1px solid var(--border-subtle);background:var(--surface-card);border-radius:var(--radius-md);padding:14px">
+              <div class="row" style="gap:8px;flex-wrap:wrap">
+                <span style="font:700 16px var(--font-body);color:var(--ink-900)">à</span>
+                <span style="font:var(--text-xs) var(--font-body);color:var(--text-muted)">mot</span>
+              </div>
+              <div style="font:700 18px var(--font-body);color:var(--ink-900);margin-top:4px">z'füass</div>
+              <p style="font:var(--text-sm) var(--font-body);color:var(--text-secondary);margin:6px 0 0">aussi : ze fös (à pied), ze Schtrosburi</p>
+            </div>
+          </div>
+        </div>
+      </x-import>
+    </div>
+
+    <!-- SCREEN 2 : ENTRY DETAIL -->
+    <div style="display:flex;flex-direction:column;gap:14px;align-items:center;flex-shrink:0">
+      <div class="cap">2 · Fiche de mot</div>
+      <x-import component-from-global-scope="IOSDevice" from="./ios-frame.jsx" hint-size="402,874">
+        <div style="height:100%;display:flex;flex-direction:column;background:var(--surface-page)">
+          <div style="padding:54px 16px 12px;border-bottom:1px solid var(--border-subtle);display:flex;align-items:center;justify-content:space-between">
+            <div class="icobtn" style="background:var(--gray-100)">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--ink-900)" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg>
+            </div>
+            <div class="row" style="gap:6px">
+              <div class="icobtn" style="background:var(--red-50)">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--red-500)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
+              </div>
+              <div class="icobtn">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--gray-400)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h6a3 3 0 013 3v13a3 3 0 00-3-3H4z"/><path d="M20 4h-6a3 3 0 00-3 3v13a3 3 0 013-3h6z"/></svg>
+              </div>
+              <div class="icobtn">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--gray-400)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="4"/><path d="M4 20c0-4 4-6 8-6s8 2 8 6"/></svg>
+              </div>
+            </div>
+          </div>
+          <div style="flex:1;overflow:auto;padding:18px 16px 32px">
+            <div style="font:800 32px var(--font-body);color:var(--ink-900);line-height:1.1">à</div>
+            <div style="font:var(--text-sm) var(--font-body);color:var(--text-muted);margin-top:2px">mot</div>
+
+            <div style="display:flex;flex-direction:column;gap:10px;margin-top:16px">
+              <div style="border:1px solid var(--gold-500);background:rgba(182,132,31,0.07);border-radius:var(--radius-md);padding:14px">
+                <div class="row" style="gap:8px;flex-wrap:wrap">
+                  <span style="font:700 20px var(--font-body);color:var(--ink-900)">z' comme z'Mehlhüsa</span>
+                  <span style="display:inline-flex;align-items:center;gap:4px;padding:3px 10px;border-radius:999px;background:var(--gold-500);color:var(--ink-900);font:700 12px var(--font-body)">
+                    <svg width="11" height="11" viewBox="0 0 24 24" fill="var(--ink-900)"><path d="M2 20h20l-2-9-5 4-3-9-3 9-5-4z"/></svg> Canonique
+                  </span>
+                </div>
+              </div>
+              <div style="border:1px solid var(--border-subtle);background:var(--surface-card);border-radius:var(--radius-md);padding:14px;font:600 17px var(--font-body);color:var(--ink-900)">ze Schtrosburi</div>
+              <div style="border:1px solid var(--border-subtle);background:var(--surface-card);border-radius:var(--radius-md);padding:14px;font:600 17px var(--font-body);color:var(--ink-900)">z'füass</div>
+              <div style="border:1px solid var(--border-subtle);background:var(--surface-card);border-radius:var(--radius-md);padding:14px;font:600 17px var(--font-body);color:var(--ink-900)">ze fös (à pied)</div>
+            </div>
+
+            <div style="border:1px solid var(--border-subtle);background:var(--surface-card);border-radius:var(--radius-md);padding:14px;margin-top:18px">
+              <div class="row" style="gap:8px;font:700 14px var(--font-body);color:var(--ink-900)">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--gold-700)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l8 3v6c0 5-3.5 9-8 11-4.5-2-8-6-8-11V5z"/><path d="M9 12l2 2 4-4"/></svg>
+                3 attestations
+              </div>
+              <ul style="margin:10px 0 0;padding:0;list-style:none;display:flex;flex-direction:column;gap:6px">
+                <li><a href="#" style="font:var(--text-sm) var(--font-body);text-decoration:none">Dictionnaire Grasser (1961)</a></li>
+                <li><a href="#" style="font:var(--text-sm) var(--font-body);text-decoration:none">Norme ORTHAL 2023 — AGATE</a></li>
+              </ul>
+            </div>
+
+            <div style="display:flex;gap:10px;margin-top:20px">
+              <button style="flex:1;height:44px;border-radius:var(--radius-md);border:1px solid var(--border-strong);background:transparent;color:var(--ink-900);font:600 var(--text-sm) var(--font-body)">Copier</button>
+              <button style="flex:1;height:44px;border-radius:var(--radius-md);border:none;background:transparent;color:var(--red-500);font:600 var(--text-sm) var(--font-body);display:flex;align-items:center;justify-content:center;gap:6px">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--red-500)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 15V4l16 6-7 2-2 7z"/></svg> Signaler
+              </button>
+            </div>
+          </div>
+        </div>
+      </x-import>
+    </div>
+
+    <!-- SCREEN 3 : BROWSE A-Z -->
+    <div style="display:flex;flex-direction:column;gap:14px;align-items:center;flex-shrink:0">
+      <div class="cap">3 · Dictionnaire A–Z</div>
+      <x-import component-from-global-scope="IOSDevice" from="./ios-frame.jsx" hint-size="402,874">
+        <div style="height:100%;display:flex;flex-direction:column;background:var(--surface-page)">
+          <div style="padding:54px 16px 12px;border-bottom:1px solid var(--border-subtle);display:flex;align-items:center;justify-content:space-between">
+            <div style="font:800 20px var(--font-body);color:var(--ink-900)">Dictionnaire</div>
+            <div class="row" style="gap:6px">
+              <div class="icobtn">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--gray-400)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
+              </div>
+              <div class="icobtn" style="background:var(--red-50)">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--red-500)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h6a3 3 0 013 3v13a3 3 0 00-3-3H4z"/><path d="M20 4h-6a3 3 0 00-3 3v13a3 3 0 013-3h6z"/></svg>
+              </div>
+              <div class="icobtn">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--gray-400)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="4"/><path d="M4 20c0-4 4-6 8-6s8 2 8 6"/></svg>
+              </div>
+            </div>
+          </div>
+          <div style="padding:12px 16px 4px;display:flex;gap:6px;overflow-x:auto;border-bottom:1px solid var(--border-subtle)">
+            <div style="height:32px;min-width:32px;border-radius:999px;background:var(--gray-100);color:var(--gray-400);display:flex;align-items:center;justify-content:center;font:700 13px var(--font-body)">A</div>
+            <div style="height:32px;min-width:32px;border-radius:999px;background:var(--red-500);color:#fff;display:flex;align-items:center;justify-content:center;font:700 13px var(--font-body)">B</div>
+            <div style="height:32px;min-width:32px;border-radius:999px;background:var(--gray-100);color:var(--gray-400);display:flex;align-items:center;justify-content:center;font:700 13px var(--font-body)">C</div>
+            <div style="height:32px;min-width:32px;border-radius:999px;background:var(--gray-100);color:var(--gray-400);display:flex;align-items:center;justify-content:center;font:700 13px var(--font-body)">D</div>
+            <div style="height:32px;min-width:32px;border-radius:999px;color:var(--gray-300);display:flex;align-items:center;justify-content:center;font:700 13px var(--font-body)">E</div>
+            <div style="height:32px;min-width:32px;border-radius:999px;color:var(--gray-300);display:flex;align-items:center;justify-content:center;font:700 13px var(--font-body)">F</div>
+          </div>
+          <div style="flex:1;overflow:auto;padding:0 16px 32px">
+            <div style="font:800 26px var(--font-body);color:var(--ink-900);padding:16px 0 8px">B</div>
+            <div style="display:flex;flex-direction:column">
+              <div style="padding:12px 0;border-bottom:1px solid var(--border-subtle);display:flex;align-items:center;justify-content:space-between">
+                <div><div style="font:600 16px var(--font-body);color:var(--ink-900)">baba <span style="color:var(--text-muted);font-weight:400">(être)</span></div><div style="font:var(--text-sm) var(--font-body);color:var(--text-secondary)">baff schteh</div></div>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="var(--gray-300)" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18l6-6-6-6"/></svg>
+              </div>
+              <div style="padding:12px 0;border-bottom:1px solid var(--border-subtle);display:flex;align-items:center;justify-content:space-between">
+                <div><div style="font:600 16px var(--font-body);color:var(--ink-900)">baba <span style="color:var(--text-muted);font-weight:400">(le)</span></div><div style="font:var(--text-sm) var(--font-body);color:var(--text-secondary)">d'r Rossinlaküacha</div></div>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="var(--gray-300)" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18l6-6-6-6"/></svg>
+              </div>
+              <div style="padding:12px 0;border-bottom:1px solid var(--border-subtle);display:flex;align-items:center;justify-content:space-between">
+                <div><div style="font:600 16px var(--font-body);color:var(--ink-900)">bagou <span style="color:var(--text-muted);font-weight:400">(le)</span></div><div style="font:var(--text-sm) var(--font-body);color:var(--text-secondary)">d' Zungafärtikait</div></div>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="var(--gray-300)" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18l6-6-6-6"/></svg>
+              </div>
+              <div style="padding:12px 0;display:flex;align-items:center;justify-content:space-between">
+                <div><div style="font:600 16px var(--font-body);color:var(--ink-900)">bague <span style="color:var(--text-muted);font-weight:400">(la)</span></div><div style="font:var(--text-sm) var(--font-body);color:var(--text-secondary)">d'r Reng</div></div>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="var(--gray-300)" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18l6-6-6-6"/></svg>
+              </div>
+            </div>
+            <div style="font:800 26px var(--font-body);color:var(--ink-900);padding:20px 0 8px;border-top:1px solid var(--border-subtle);margin-top:8px">A</div>
+            <div style="padding:12px 0;display:flex;align-items:center;justify-content:space-between">
+              <div><div style="font:600 16px var(--font-body);color:var(--ink-900)">à</div><div style="font:var(--text-sm) var(--font-body);color:var(--text-secondary)">z'füass</div></div>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="var(--gray-300)" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18l6-6-6-6"/></svg>
+            </div>
+          </div>
+        </div>
+      </x-import>
+    </div>
+
+    <!-- SCREEN 4 : REPORT ERROR (redirect vers le forum) -->
+    <div style="display:flex;flex-direction:column;gap:14px;align-items:center;flex-shrink:0">
+      <div class="cap">4 · Signaler une erreur</div>
+      <x-import component-from-global-scope="IOSDevice" from="./ios-frame.jsx" hint-size="402,874">
+        <div style="height:100%;display:flex;flex-direction:column;background:var(--surface-page)">
+          <div style="padding:54px 16px 12px;border-bottom:1px solid var(--border-subtle);display:flex;align-items:center;justify-content:space-between">
+            <div class="icobtn" style="background:var(--gray-100)">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--ink-900)" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 6l12 12M18 6L6 18"/></svg>
+            </div>
+            <div style="font:700 17px var(--font-body);color:var(--ink-900)">Signaler une erreur</div>
+            <div style="width:40px"></div>
+          </div>
+          <div style="flex:1;overflow:auto;padding:20px 16px 32px">
+            <div style="border:1px solid var(--border-subtle);background:var(--gray-50);border-radius:var(--radius-md);padding:12px 14px;font:var(--text-sm) var(--font-body);color:var(--text-secondary)">
+              Segment concerné : <strong style="color:var(--ink-900)">à pied → z'füass</strong>
+            </div>
+
+            <p style="font:var(--text-base)/1.6 var(--font-body);color:var(--text-secondary);margin:22px 0 24px">Les signalements et propositions de correction se discutent sur le forum du dictionnaire, pas directement dans l'app.</p>
+
+            <button style="width:100%;height:44px;border-radius:var(--radius-md);border:1px solid var(--border-strong);background:transparent;color:var(--ink-900);display:flex;align-items:center;justify-content:center;gap:8px;font:600 var(--text-sm) var(--font-body)">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15V5a2 2 0 012-2h10"/></svg>
+              Copier le segment
+            </button>
+
+            <x-import component-from-global-scope="TheElsassischDesignSystem_505fb5.Button" hint-size="100%,48px" variant="primary" size="lg" style="width:100%;justify-content:center;margin-top:12px">Ouvrir le forum du dictionnaire ↗</x-import>
+            <p style="font:var(--text-xs) var(--font-body);color:var(--text-muted);text-align:center;margin-top:10px">Ça quitte l'app et ouvre theelsassisch.com dans un nouvel onglet.</p>
+          </div>
+        </div>
+      </x-import>
+    </div>
+
+    <!-- SCREEN 5 : LOGIN -->
+    <div style="display:flex;flex-direction:column;gap:14px;align-items:center;flex-shrink:0">
+      <div class="cap">5 · Connexion</div>
+      <x-import component-from-global-scope="IOSDevice" from="./ios-frame.jsx" hint-size="402,874">
+        <div style="height:100%;display:flex;flex-direction:column;background:var(--surface-page)">
+          <div style="padding:54px 16px 12px;border-bottom:1px solid var(--border-subtle);display:flex;align-items:center;justify-content:space-between">
+            <div class="icobtn" style="background:var(--gray-100)">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--ink-900)" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg>
+            </div>
+            <div style="font:700 17px var(--font-body);color:var(--ink-900)">Connexion</div>
+            <div style="width:40px"></div>
+          </div>
+          <div style="flex:1;overflow:auto;padding:32px 24px">
+            <div style="font-family:var(--font-display);font-size:26px;color:var(--red-500);text-align:center">Elsass Dico</div>
+            <div style="font:800 22px var(--font-body);color:var(--ink-900);text-align:center;margin-top:18px">Heureux de te revoir</div>
+            <p style="font:var(--text-sm) var(--font-body);color:var(--text-secondary);text-align:center;margin:6px 0 26px">Connecte-toi pour contribuer au dictionnaire.</p>
+
+            <x-import component-from-global-scope="TheElsassischDesignSystem_505fb5.Input" hint-size="100%,64px" label="Adresse email" placeholder="toi@example.com" style="margin-bottom:14px"></x-import>
+            <x-import component-from-global-scope="TheElsassischDesignSystem_505fb5.Input" hint-size="100%,64px" label="Mot de passe" placeholder="••••••••" type="password"></x-import>
+            <div style="text-align:right;margin:8px 0 20px"><a href="#" style="font:var(--text-sm) var(--font-body);text-decoration:none">Mot de passe oublié ?</a></div>
+
+            <x-import component-from-global-scope="TheElsassischDesignSystem_505fb5.Button" hint-size="100%,48px" variant="primary" size="lg" style="width:100%;justify-content:center">Se connecter</x-import>
+            <div style="text-align:center;color:var(--text-muted);font:var(--text-xs) var(--font-body);margin:16px 0">ou</div>
+            <x-import component-from-global-scope="TheElsassischDesignSystem_505fb5.Button" hint-size="100%,48px" variant="outline" size="lg" style="width:100%;justify-content:center">Créer un compte</x-import>
+
+            <p style="font:var(--text-xs) var(--font-body);color:var(--text-muted);text-align:center;margin-top:24px">En continuant, tu acceptes nos conditions.</p>
+          </div>
+        </div>
+      </x-import>
+    </div>
+
+    <!-- SCREEN 6a : MON ESPACE (LECTEUR) -->
+    <div style="display:flex;flex-direction:column;gap:14px;align-items:center;flex-shrink:0">
+      <div class="cap">6a · Mon espace (Lecteur)</div>
+      <x-import component-from-global-scope="IOSDevice" from="./ios-frame.jsx" hint-size="402,874">
+        <div style="height:100%;display:flex;flex-direction:column;background:var(--surface-page)">
+          <div style="padding:54px 16px 12px;border-bottom:1px solid var(--border-subtle);display:flex;align-items:center;justify-content:space-between">
+            <div style="font:800 20px var(--font-body);color:var(--ink-900)">Mon espace</div>
+            <div class="row" style="gap:6px">
+              <div class="icobtn">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--gray-400)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
+              </div>
+              <div class="icobtn">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--gray-400)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h6a3 3 0 013 3v13a3 3 0 00-3-3H4z"/><path d="M20 4h-6a3 3 0 00-3 3v13a3 3 0 013-3h6z"/></svg>
+              </div>
+              <div class="icobtn" style="background:var(--red-50)">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--red-500)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="4"/><path d="M4 20c0-4 4-6 8-6s8 2 8 6"/></svg>
+              </div>
+            </div>
+          </div>
+          <div style="flex:1;overflow:auto;padding:18px 16px 32px">
+            <div style="display:flex;align-items:center;gap:12px">
+              <div style="width:52px;height:52px;border-radius:999px;background:var(--ink-900);color:#fff;display:flex;align-items:center;justify-content:center;font:700 17px var(--font-body)">YS</div>
+              <div>
+                <div style="font:700 17px var(--font-body);color:var(--ink-900)">Yannick S.</div>
+                <span style="display:inline-flex;align-items:center;margin-top:2px;padding:2px 9px;border-radius:999px;background:var(--gray-100);color:var(--gray-600);font:600 12px var(--font-body)">Lecteur</span>
+              </div>
+            </div>
+
+            <div style="border:1px solid var(--border-subtle);background:var(--surface-card);border-radius:var(--radius-md);padding:16px;margin-top:22px">
+              <div style="font:700 15px var(--font-body);color:var(--ink-900)">Envie de compléter le dictionnaire ?</div>
+              <p style="font:var(--text-sm)/1.5 var(--font-body);color:var(--text-secondary);margin:6px 0 14px">Deviens contributeur pour proposer des mots et voter sur les traductions de la communauté.</p>
+              <x-import component-from-global-scope="TheElsassischDesignSystem_505fb5.Button" hint-size="100%,44px" variant="primary" style="width:100%;justify-content:center">Devenir contributeur</x-import>
+            </div>
+
+            <button style="width:100%;height:44px;margin-top:24px;border:none;background:transparent;color:var(--red-500);font:600 var(--text-sm) var(--font-body)">Se déconnecter</button>
+          </div>
+        </div>
+      </x-import>
+    </div>
+
+    <!-- SCREEN 6b : MON ESPACE (CONTRIBUTEUR) -->
+    <div style="display:flex;flex-direction:column;gap:14px;align-items:center;flex-shrink:0">
+      <div class="cap">6b · Mon espace (Contributeur)</div>
+      <x-import component-from-global-scope="IOSDevice" from="./ios-frame.jsx" hint-size="402,874">
+        <div style="height:100%;display:flex;flex-direction:column;background:var(--surface-page)">
+          <div style="padding:54px 16px 12px;border-bottom:1px solid var(--border-subtle);display:flex;align-items:center;justify-content:space-between">
+            <div style="font:800 20px var(--font-body);color:var(--ink-900)">Mon espace</div>
+            <div class="row" style="gap:6px">
+              <div class="icobtn">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--gray-400)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
+              </div>
+              <div class="icobtn">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--gray-400)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h6a3 3 0 013 3v13a3 3 0 00-3-3H4z"/><path d="M20 4h-6a3 3 0 00-3 3v13a3 3 0 013-3h6z"/></svg>
+              </div>
+              <div class="icobtn" style="background:var(--red-50)">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--red-500)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="4"/><path d="M4 20c0-4 4-6 8-6s8 2 8 6"/></svg>
+              </div>
+            </div>
+          </div>
+          <div style="flex:1;overflow:auto;padding:18px 16px 32px">
+            <div style="display:flex;align-items:center;gap:12px">
+              <div style="width:52px;height:52px;border-radius:999px;background:var(--ink-900);color:#fff;display:flex;align-items:center;justify-content:center;font:700 17px var(--font-body)">YS</div>
+              <div>
+                <div style="font:700 17px var(--font-body);color:var(--ink-900)">Yannick S.</div>
+                <span style="display:inline-flex;align-items:center;gap:4px;margin-top:2px;padding:2px 9px;border-radius:999px;background:var(--gold-50);color:var(--gold-700);font:600 12px var(--font-body)">
+                  <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9M16.5 3.5a2.1 2.1 0 013 3L7 19l-4 1 1-4z"/></svg> Contributeur
+                </span>
+              </div>
+            </div>
+
+            <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px;margin-top:18px">
+              <div style="border:1px solid var(--border-subtle);border-radius:var(--radius-md);padding:10px;text-align:center"><div style="font:800 19px var(--font-body);color:var(--ink-900)">12</div><div style="font:var(--text-xs) var(--font-body);color:var(--text-muted)">propositions</div></div>
+              <div style="border:1px solid var(--border-subtle);border-radius:var(--radius-md);padding:10px;text-align:center"><div style="font:800 19px var(--font-body);color:var(--ink-900)">34</div><div style="font:var(--text-xs) var(--font-body);color:var(--text-muted)">votes</div></div>
+              <div style="border:1px solid var(--border-subtle);border-radius:var(--radius-md);padding:10px;text-align:center"><div style="font:800 19px var(--font-body);color:var(--ink-900)">3</div><div style="font:var(--text-xs) var(--font-body);color:var(--text-muted)">promotions</div></div>
+            </div>
+
+            <div style="font:700 12px var(--font-body);letter-spacing:.06em;text-transform:uppercase;color:var(--text-muted);margin:22px 0 10px">Mes dernières contributions</div>
+            <div style="display:flex;flex-direction:column;gap:8px">
+              <div style="display:flex;align-items:center;justify-content:space-between;padding:10px 0;border-bottom:1px solid var(--border-subtle)">
+                <span style="font:600 15px var(--font-body);color:var(--ink-900)">bague → d'r Reng</span>
+                <span style="padding:2px 9px;border-radius:999px;background:var(--success-100);color:var(--success-500);font:600 12px var(--font-body)">Validée</span>
+              </div>
+              <div style="display:flex;align-items:center;justify-content:space-between;padding:10px 0">
+                <span style="font:600 15px var(--font-body);color:var(--ink-900)">baba (être) → baf schtehn</span>
+                <span style="padding:2px 9px;border-radius:999px;background:var(--warning-100);color:var(--warning-500);font:600 12px var(--font-body)">En attente</span>
+              </div>
+            </div>
+
+            <button style="width:100%;height:44px;margin-top:24px;border:none;background:transparent;color:var(--red-500);font:600 var(--text-sm) var(--font-body)">Se déconnecter</button>
+          </div>
+        </div>
+      </x-import>
+    </div>
+
+    <!-- SCREEN 6c : MON ESPACE (ADMIN) -->
+    <div style="display:flex;flex-direction:column;gap:14px;align-items:center;flex-shrink:0">
+      <div class="cap">6c · Mon espace (Admin)</div>
+      <x-import component-from-global-scope="IOSDevice" from="./ios-frame.jsx" hint-size="402,874">
+        <div style="height:100%;display:flex;flex-direction:column;background:var(--surface-page)">
+          <div style="padding:54px 16px 12px;border-bottom:1px solid var(--border-subtle);display:flex;align-items:center;justify-content:space-between">
+            <div style="font:800 20px var(--font-body);color:var(--ink-900)">Mon espace</div>
+            <div class="row" style="gap:6px">
+              <div class="icobtn">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--gray-400)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
+              </div>
+              <div class="icobtn">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--gray-400)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h6a3 3 0 013 3v13a3 3 0 00-3-3H4z"/><path d="M20 4h-6a3 3 0 00-3 3v13a3 3 0 013-3h6z"/></svg>
+              </div>
+              <div class="icobtn" style="background:var(--red-50)">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--red-500)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="4"/><path d="M4 20c0-4 4-6 8-6s8 2 8 6"/></svg>
+              </div>
+            </div>
+          </div>
+          <div style="flex:1;overflow:auto;padding:18px 16px 32px">
+            <div style="display:flex;align-items:center;gap:12px">
+              <div style="width:52px;height:52px;border-radius:999px;background:var(--ink-900);color:#fff;display:flex;align-items:center;justify-content:center;font:700 17px var(--font-body)">YS</div>
+              <div>
+                <div style="font:700 17px var(--font-body);color:var(--ink-900)">Yannick S.</div>
+                <span style="display:inline-flex;align-items:center;gap:4px;margin-top:2px;padding:2px 9px;border-radius:999px;background:var(--ink-900);color:#fff;font:600 12px var(--font-body)">
+                  <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l8 3v6c0 5-3.5 9-8 11-4.5-2-8-6-8-11V5z"/></svg> Admin
+                </span>
+              </div>
+            </div>
+
+            <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px;margin-top:18px">
+              <div style="border:1px solid var(--border-subtle);border-radius:var(--radius-md);padding:10px;text-align:center"><div style="font:800 19px var(--font-body);color:var(--ink-900)">12</div><div style="font:var(--text-xs) var(--font-body);color:var(--text-muted)">propositions</div></div>
+              <div style="border:1px solid var(--border-subtle);border-radius:var(--radius-md);padding:10px;text-align:center"><div style="font:800 19px var(--font-body);color:var(--ink-900)">34</div><div style="font:var(--text-xs) var(--font-body);color:var(--text-muted)">votes</div></div>
+              <div style="border:1px solid var(--border-subtle);border-radius:var(--radius-md);padding:10px;text-align:center"><div style="font:800 19px var(--font-body);color:var(--ink-900)">3</div><div style="font:var(--text-xs) var(--font-body);color:var(--text-muted)">promotions</div></div>
+            </div>
+
+            <div style="font:700 12px var(--font-body);letter-spacing:.06em;text-transform:uppercase;color:var(--text-muted);margin:22px 0 10px">À arbitrer</div>
+            <div style="border:1px solid var(--border-subtle);background:var(--surface-card);border-radius:var(--radius-md);padding:14px">
+              <div style="font:var(--text-sm) var(--font-body);color:var(--text-muted)">bagou (le)</div>
+              <div style="display:flex;align-items:center;justify-content:space-between;margin-top:8px">
+                <span style="font:700 16px var(--font-body);color:var(--ink-900)">d' Zungafärtikait</span>
+                <span style="padding:2px 8px;border-radius:999px;background:var(--gold-500);color:var(--ink-900);font:700 11px var(--font-body)">Canonique</span>
+              </div>
+              <div style="display:flex;align-items:center;justify-content:space-between;margin-top:10px;padding-top:10px;border-top:1px solid var(--border-subtle)">
+                <span style="font:600 16px var(--font-body);color:var(--ink-900)">d' Grosschnurra</span>
+                <button style="height:32px;padding:0 12px;border-radius:var(--radius-md);border:1px solid var(--border-strong);background:transparent;color:var(--ink-900);font:600 13px var(--font-body)">Promouvoir</button>
+              </div>
+            </div>
+
+            <div style="font:700 12px var(--font-body);letter-spacing:.06em;text-transform:uppercase;color:var(--text-muted);margin:22px 0 10px">Mes dernières contributions</div>
+            <div style="display:flex;flex-direction:column;gap:8px">
+              <div style="display:flex;align-items:center;justify-content:space-between;padding:10px 0;border-bottom:1px solid var(--border-subtle)">
+                <span style="font:600 15px var(--font-body);color:var(--ink-900)">bague → d'r Reng</span>
+                <span style="padding:2px 9px;border-radius:999px;background:var(--success-100);color:var(--success-500);font:600 12px var(--font-body)">Validée</span>
+              </div>
+              <div style="display:flex;align-items:center;justify-content:space-between;padding:10px 0">
+                <span style="font:600 15px var(--font-body);color:var(--ink-900)">baba (être) → baf schtehn</span>
+                <span style="padding:2px 9px;border-radius:999px;background:var(--warning-100);color:var(--warning-500);font:600 12px var(--font-body)">En attente</span>
+              </div>
+            </div>
+
+            <button style="width:100%;height:44px;margin-top:24px;border:none;background:transparent;color:var(--red-500);font:600 var(--text-sm) var(--font-body)">Se déconnecter</button>
+          </div>
+        </div>
+      </x-import>
+    </div>
+
+    <!-- SCREEN 7 : PROPOSER UN MOT -->
+    <div style="display:flex;flex-direction:column;gap:14px;align-items:center;flex-shrink:0">
+      <div class="cap">7 · Proposer un mot</div>
+      <x-import component-from-global-scope="IOSDevice" from="./ios-frame.jsx" hint-size="402,874">
+        <div style="height:100%;display:flex;flex-direction:column;background:var(--surface-page)">
+          <div style="padding:54px 16px 12px;border-bottom:1px solid var(--border-subtle);display:flex;align-items:center;justify-content:space-between">
+            <div class="icobtn" style="background:var(--gray-100)">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--ink-900)" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg>
+            </div>
+            <div style="font:700 17px var(--font-body);color:var(--ink-900)">Proposer un mot</div>
+            <div style="width:40px"></div>
+          </div>
+          <div style="flex:1;overflow:auto;padding:20px 16px 32px">
+            <p style="font:var(--text-sm)/1.5 var(--font-body);color:var(--text-secondary);margin:0 0 22px">Écris l'alsacien comme tu le prononces&nbsp;: la mise en graphie ORTHAL se fait à l'arbitrage.</p>
+
+            <label style="font:600 13px var(--font-body);color:var(--ink-900);display:block;margin-bottom:6px">Français <span style="color:var(--red-500)">*</span></label>
+            <div style="border:1px solid var(--border-default);border-radius:var(--radius-sm);height:46px;display:flex;align-items:center;padding:0 12px;font:var(--text-base) var(--font-body);color:var(--text-muted);margin-bottom:16px">ex : bagou</div>
+
+            <label style="font:600 13px var(--font-body);color:var(--ink-900);display:block;margin-bottom:6px">Alsacien <span style="color:var(--red-500)">*</span></label>
+            <div style="border:1px solid var(--border-default);border-radius:var(--radius-sm);height:46px;display:flex;align-items:center;padding:0 12px;font:var(--text-base) var(--font-body);color:var(--text-muted);margin-bottom:16px">ex : d' Zungafärtikait</div>
+
+            <label style="font:600 13px var(--font-body);color:var(--ink-900);display:block;margin-bottom:6px">Type</label>
+            <div style="border:1px solid var(--border-default);border-radius:var(--radius-sm);height:46px;display:flex;align-items:center;justify-content:space-between;padding:0 12px;margin-bottom:16px">
+              <span style="font:var(--text-base) var(--font-body);color:var(--ink-900)">Mot</span>
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="var(--gray-400)" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg>
+            </div>
+
+            <label style="font:600 13px var(--font-body);color:var(--ink-900);display:block;margin-bottom:6px">Secteur <span style="color:var(--text-muted);font-weight:400">(optionnel)</span></label>
+            <div style="border:1px solid var(--border-default);border-radius:var(--radius-sm);height:46px;display:flex;align-items:center;justify-content:space-between;padding:0 12px;margin-bottom:16px">
+              <span style="font:var(--text-base) var(--font-body);color:var(--text-muted)">Non précisé</span>
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="var(--gray-400)" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg>
+            </div>
+
+            <label style="font:600 13px var(--font-body);color:var(--ink-900);display:block;margin-bottom:6px">Contexte <span style="color:var(--text-muted);font-weight:400">(optionnel)</span></label>
+            <div style="border:1px solid var(--border-default);border-radius:var(--radius-sm);height:46px;display:flex;align-items:center;padding:0 12px;font:var(--text-base) var(--font-body);color:var(--text-muted);margin-bottom:24px">ex : le fruit</div>
+
+            <x-import component-from-global-scope="TheElsassischDesignSystem_505fb5.Button" hint-size="100%,48px" variant="primary" size="lg" style="width:100%;justify-content:center">Proposer</x-import>
+          </div>
+        </div>
+      </x-import>
+    </div>
+
+    <!-- SCREEN 8 : MES CONTRIBUTIONS -->
+    <div style="display:flex;flex-direction:column;gap:14px;align-items:center;flex-shrink:0">
+      <div class="cap">8 · Mes contributions</div>
+      <x-import component-from-global-scope="IOSDevice" from="./ios-frame.jsx" hint-size="402,874">
+        <div style="height:100%;display:flex;flex-direction:column;background:var(--surface-page);position:relative">
+          <div style="padding:54px 16px 12px;border-bottom:1px solid var(--border-subtle);display:flex;align-items:center;justify-content:space-between">
+            <div class="icobtn" style="background:var(--gray-100)">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--ink-900)" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg>
+            </div>
+            <div style="font:700 17px var(--font-body);color:var(--ink-900)">Mes contributions</div>
+            <div style="width:40px"></div>
+          </div>
+          <div style="flex:1;overflow:auto;padding:18px 16px 32px">
+
+            <div style="font:700 12px var(--font-body);letter-spacing:.06em;text-transform:uppercase;color:var(--text-muted);margin-bottom:10px">Mes propositions</div>
+            <div style="display:flex;flex-direction:column;gap:10px;margin-bottom:24px">
+              <div style="border:1px solid var(--border-subtle);background:var(--surface-card);border-radius:var(--radius-md);padding:14px">
+                <div style="font:700 16px var(--font-body);color:var(--ink-900)">bagou → d' Grosschnurra</div>
+                <div style="font:var(--text-sm) var(--font-body);color:var(--text-secondary);margin-top:2px">mot · le bagou</div>
+                <div style="display:flex;align-items:center;justify-content:space-between;margin-top:10px">
+                  <span style="font:700 14px var(--font-body);color:var(--ink-900)">2/5 confirmations</span>
+                  <div style="display:flex;gap:6px">
+                    <div class="icobtn" style="width:32px;height:32px;background:var(--gray-100)">
+                      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="var(--ink-900)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9M16.5 3.5a2.1 2.1 0 013 3L7 19l-4 1 1-4z"/></svg>
+                    </div>
+                    <div class="icobtn" style="width:32px;height:32px;background:var(--red-50)">
+                      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="var(--red-500)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 6h18M8 6V4a1 1 0 011-1h6a1 1 0 011 1v2m2 0l-1 14a1 1 0 01-1 1H7a1 1 0 01-1-1L5 6"/></svg>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div style="border:1px solid var(--border-subtle);background:var(--surface-card);border-radius:var(--radius-md);padding:14px">
+                <div style="font:700 16px var(--font-body);color:var(--ink-900)">bague → d'r Reng</div>
+                <div style="font:var(--text-sm) var(--font-body);color:var(--text-secondary);margin-top:2px">mot · la bague</div>
+                <div style="display:flex;align-items:center;justify-content:space-between;margin-top:10px">
+                  <span style="font:700 14px var(--font-body);color:var(--ink-900)">5/5 confirmations</span>
+                  <span style="display:inline-flex;align-items:center;gap:5px;padding:4px 10px;border-radius:999px;background:var(--gray-100);color:var(--gray-600);font:600 12px var(--font-body)">
+                    <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="10" width="16" height="10" rx="2"/><path d="M8 10V7a4 4 0 018 0v3"/></svg>
+                    Retenue dans une entrée
+                  </span>
+                </div>
+              </div>
+            </div>
+
+            <div style="font:700 12px var(--font-body);letter-spacing:.06em;text-transform:uppercase;color:var(--text-muted);margin-bottom:10px">À valider</div>
+            <div style="display:flex;flex-direction:column;gap:10px">
+              <div style="border:1px solid var(--border-subtle);background:var(--surface-card);border-radius:var(--radius-md);padding:14px">
+                <div style="font:700 16px var(--font-body);color:var(--ink-900)">baba → baff schteh</div>
+                <div style="font:var(--text-sm) var(--font-body);color:var(--text-secondary);margin-top:2px">Marie K. · (être)</div>
+                <div style="display:flex;align-items:center;justify-content:space-between;margin-top:10px">
+                  <span style="font:700 14px var(--font-body);color:var(--ink-900)">3/5 confirmations</span>
+                  <button style="height:32px;padding:0 12px;border-radius:var(--radius-md);border:1px solid var(--border-strong);background:transparent;color:var(--ink-900);font:600 13px var(--font-body)">Confirmer</button>
+                </div>
+              </div>
+              <div style="border:1px solid var(--border-subtle);background:var(--surface-card);border-radius:var(--radius-md);padding:14px">
+                <div style="font:700 16px var(--font-body);color:var(--ink-900)">à → ze fös (à pied)</div>
+                <div style="font:var(--text-sm) var(--font-body);color:var(--text-secondary);margin-top:2px">Thomas H.</div>
+                <div style="display:flex;align-items:center;justify-content:space-between;margin-top:10px">
+                  <span style="font:700 14px var(--font-body);color:var(--ink-900)">5/5 confirmations</span>
+                  <button style="height:32px;padding:0 12px;border-radius:var(--radius-md);border:none;background:var(--success-500);color:#fff;font:600 13px var(--font-body)">Confirmé</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- delete confirmation overlay -->
+          <div style="position:absolute;inset:0;background:rgba(17,17,17,0.45);display:flex;align-items:center;justify-content:center;padding:24px;z-index:70">
+            <div style="background:var(--gray-0);border-radius:var(--radius-lg);padding:20px;width:100%;box-shadow:0 12px 30px rgba(0,0,0,0.25)">
+              <div style="font:800 18px var(--font-body);color:var(--ink-900)">Supprimer « bagou » ?</div>
+              <p style="font:var(--text-sm)/1.5 var(--font-body);color:var(--text-secondary);margin:10px 0 18px">Ta proposition « d' Grosschnurra » quitte la file de validation avec les confirmations reçues. Tu pourras la reproposer, mais son score repart de zéro.</p>
+              <div style="display:flex;gap:10px">
+                <button style="flex:1;height:44px;border-radius:var(--radius-md);border:1px solid var(--border-strong);background:transparent;color:var(--ink-900);font:600 var(--text-sm) var(--font-body)">Annuler</button>
+                <button style="flex:1;height:44px;border-radius:var(--radius-md);border:none;background:var(--red-500);color:#fff;font:600 var(--text-sm) var(--font-body)">Supprimer</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </x-import>
+    </div>
+
+    <!-- SCREEN 9 : PREMIÈRE CONNEXION (LIEN VALIDE) -->
+    <div style="display:flex;flex-direction:column;gap:14px;align-items:center;flex-shrink:0">
+      <div class="cap">9 · Première connexion</div>
+      <x-import component-from-global-scope="IOSDevice" from="./ios-frame.jsx" hint-size="402,874">
+        <div style="height:100%;display:flex;flex-direction:column;background:var(--surface-page)">
+          <div style="height:54px"></div>
+          <div style="flex:1;overflow:auto;padding:24px 24px 32px">
+            <div style="font-family:var(--font-display);font-size:26px;color:var(--red-500);text-align:center">Elsass Dico</div>
+            <div style="font:800 22px var(--font-body);color:var(--ink-900);text-align:center;margin-top:18px">Définir ton mot de passe</div>
+            <p style="font:var(--text-sm) var(--font-body);color:var(--text-secondary);text-align:center;margin:6px 0 26px">Choisis le mot de passe qui te servira à te connecter.</p>
+
+            <x-import component-from-global-scope="TheElsassischDesignSystem_505fb5.Input" hint-size="100%,64px" label="Mot de passe" placeholder="••••••••" type="password" style="margin-bottom:6px"></x-import>
+            <p style="font:var(--text-xs) var(--font-body);color:var(--text-muted);margin:0 0 14px">8 caractères minimum.</p>
+            <x-import component-from-global-scope="TheElsassischDesignSystem_505fb5.Input" hint-size="100%,64px" label="Confirmer le mot de passe" placeholder="••••••••" type="password" style="margin-bottom:22px"></x-import>
+
+            <x-import component-from-global-scope="TheElsassischDesignSystem_505fb5.Button" hint-size="100%,48px" variant="primary" size="lg" style="width:100%;justify-content:center">Enregistrer</x-import>
+          </div>
+        </div>
+      </x-import>
+    </div>
+
+    <!-- SCREEN 9b : PREMIÈRE CONNEXION (LIEN EXPIRÉ) -->
+    <div style="display:flex;flex-direction:column;gap:14px;align-items:center;flex-shrink:0">
+      <div class="cap">9b · Lien expiré</div>
+      <x-import component-from-global-scope="IOSDevice" from="./ios-frame.jsx" hint-size="402,874">
+        <div style="height:100%;display:flex;flex-direction:column;background:var(--surface-page)">
+          <div style="height:54px"></div>
+          <div style="flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:24px 32px;text-align:center">
+            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="var(--gray-400)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 007 0l3-3a5 5 0 00-7-7l-1 1"/><path d="M14 11a5 5 0 00-7 0l-3 3a5 5 0 007 7l1-1"/><path d="M3 3l18 18"/></svg>
+            <div style="font:800 22px var(--font-body);color:var(--ink-900);margin-top:18px">Lien expiré</div>
+            <p style="font:var(--text-sm)/1.5 var(--font-body);color:var(--text-secondary);margin-top:8px">Ce lien n'est plus valide. Demande à un administrateur de t'en générer un nouveau.</p>
+          </div>
+        </div>
+      </x-import>
+    </div>
+
+    <!-- SCREEN 10 : RECHERCHE — AUCUN RÉSULTAT -->
+    <div style="display:flex;flex-direction:column;gap:14px;align-items:center;flex-shrink:0">
+      <div class="cap">10 · Recherche — aucun résultat</div>
+      <x-import component-from-global-scope="IOSDevice" from="./ios-frame.jsx" hint-size="402,874">
+        <div style="height:100%;display:flex;flex-direction:column;background:var(--surface-page)">
+          <div style="padding:54px 16px 12px;border-bottom:1px solid var(--border-subtle);display:flex;align-items:center;justify-content:space-between">
+            <div style="font-family:var(--font-display);font-size:20px;color:var(--red-500)">Elsass&nbsp;Dico</div>
+            <div class="row" style="gap:6px">
+              <div class="icobtn" style="background:var(--red-50)">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--red-500)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
+              </div>
+              <div class="icobtn">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--gray-400)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h6a3 3 0 013 3v13a3 3 0 00-3-3H4z"/><path d="M20 4h-6a3 3 0 00-3 3v13a3 3 0 013-3h6z"/></svg>
+              </div>
+              <div class="icobtn">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--gray-400)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="4"/><path d="M4 20c0-4 4-6 8-6s8 2 8 6"/></svg>
+              </div>
+            </div>
+          </div>
+          <div style="flex:1;overflow:auto;padding:20px 16px 32px">
+            <div style="font:800 21px var(--font-body);color:var(--ink-900)">Salut !</div>
+            <p style="font:var(--text-sm)/1.5 var(--font-body);color:var(--text-secondary);margin:4px 0 18px">Cherche un mot, français ou alsacien.</p>
+            <div style="height:48px;border-radius:999px;border:1px solid var(--border-default);background:var(--gray-0);display:flex;align-items:center;gap:10px;padding:0 16px">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--gray-400)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
+              <span style="font:600 16px var(--font-body);color:var(--ink-900)">flouzedibulle</span>
+            </div>
+            <div style="display:flex;flex-wrap:wrap;gap:6px;margin-top:14px">
+              <div class="chip">à</div><div class="chip">ì</div><div class="chip">ü</div><div class="chip">ù</div><div class="chip">ë</div><div class="chip">ö</div><div class="chip">ä</div><div class="chip">œ</div>
+            </div>
+
+            <div style="display:flex;flex-direction:column;align-items:center;text-align:center;padding:36px 12px 8px;margin-top:14px">
+              <svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="var(--gray-300)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/><path d="M4 4l16 16"/></svg>
+              <div style="font:700 16px var(--font-body);color:var(--ink-900);margin-top:12px">Aucun résultat pour « flouzedibulle ».</div>
+              <p style="font:var(--text-sm) var(--font-body);color:var(--text-secondary);margin-top:6px">Ce mot n'est pas encore dans le dictionnaire.</p>
+              <a href="#" style="font:600 var(--text-sm) var(--font-body);color:var(--red-500);text-decoration:none;margin-top:10px">Proposer ce mot →</a>
+            </div>
+          </div>
+        </div>
+      </x-import>
+    </div>
+
+    <!-- SCREEN 11 : DICTIONNAIRE — LETTRE VIDE -->
+    <div style="display:flex;flex-direction:column;gap:14px;align-items:center;flex-shrink:0">
+      <div class="cap">11 · Dictionnaire — lettre vide</div>
+      <x-import component-from-global-scope="IOSDevice" from="./ios-frame.jsx" hint-size="402,874">
+        <div style="height:100%;display:flex;flex-direction:column;background:var(--surface-page)">
+          <div style="padding:54px 16px 12px;border-bottom:1px solid var(--border-subtle);display:flex;align-items:center;justify-content:space-between">
+            <div style="font:800 20px var(--font-body);color:var(--ink-900)">Dictionnaire</div>
+            <div class="row" style="gap:6px">
+              <div class="icobtn">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--gray-400)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
+              </div>
+              <div class="icobtn" style="background:var(--red-50)">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--red-500)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h6a3 3 0 013 3v13a3 3 0 00-3-3H4z"/><path d="M20 4h-6a3 3 0 00-3 3v13a3 3 0 013-3h6z"/></svg>
+              </div>
+              <div class="icobtn">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--gray-400)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="4"/><path d="M4 20c0-4 4-6 8-6s8 2 8 6"/></svg>
+              </div>
+            </div>
+          </div>
+          <div style="padding:12px 16px 4px;display:flex;gap:6px;overflow-x:auto;border-bottom:1px solid var(--border-subtle)">
+            <div style="height:32px;min-width:32px;border-radius:999px;background:var(--gray-100);color:var(--gray-400);display:flex;align-items:center;justify-content:center;font:700 13px var(--font-body)">A</div>
+            <div style="height:32px;min-width:32px;border-radius:999px;background:var(--gray-100);color:var(--gray-400);display:flex;align-items:center;justify-content:center;font:700 13px var(--font-body)">B</div>
+            <div style="height:32px;min-width:32px;border-radius:999px;background:var(--red-500);color:#fff;display:flex;align-items:center;justify-content:center;font:700 13px var(--font-body)">C</div>
+            <div style="height:32px;min-width:32px;border-radius:999px;background:var(--gray-100);color:var(--gray-400);display:flex;align-items:center;justify-content:center;font:700 13px var(--font-body)">D</div>
+            <div style="height:32px;min-width:32px;border-radius:999px;color:var(--gray-300);display:flex;align-items:center;justify-content:center;font:700 13px var(--font-body)">E</div>
+            <div style="height:32px;min-width:32px;border-radius:999px;color:var(--gray-300);display:flex;align-items:center;justify-content:center;font:700 13px var(--font-body)">F</div>
+          </div>
+          <div style="flex:1;overflow:auto;padding:0 16px 32px">
+            <div style="font:800 26px var(--font-body);color:var(--ink-900);padding:16px 0 8px">C</div>
+            <div style="display:flex;flex-direction:column;align-items:center;text-align:center;padding:40px 12px">
+              <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="var(--gray-300)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h6a3 3 0 013 3v13a3 3 0 00-3-3H4z"/><path d="M20 4h-6a3 3 0 00-3 3v13a3 3 0 013-3h6z"/></svg>
+              <div style="font:700 15px var(--font-body);color:var(--ink-900);margin-top:12px">Aucune entrée validée pour la lettre C pour l'instant.</div>
+              <p style="font:var(--text-sm) var(--font-body);color:var(--text-secondary);margin-top:6px">De nouveaux mots arrivent chaque semaine.</p>
+            </div>
+          </div>
+        </div>
+      </x-import>
+    </div>
+
+    <!-- SCREEN 12 : MES CONTRIBUTIONS — VIDE -->
+    <div style="display:flex;flex-direction:column;gap:14px;align-items:center;flex-shrink:0">
+      <div class="cap">12 · Mes contributions — vide</div>
+      <x-import component-from-global-scope="IOSDevice" from="./ios-frame.jsx" hint-size="402,874">
+        <div style="height:100%;display:flex;flex-direction:column;background:var(--surface-page)">
+          <div style="padding:54px 16px 12px;border-bottom:1px solid var(--border-subtle);display:flex;align-items:center;justify-content:space-between">
+            <div class="icobtn" style="background:var(--gray-100)">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--ink-900)" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg>
+            </div>
+            <div style="font:700 17px var(--font-body);color:var(--ink-900)">Mes contributions</div>
+            <div style="width:40px"></div>
+          </div>
+          <div style="flex:1;overflow:auto;padding:18px 16px 32px">
+            <div style="font:700 12px var(--font-body);letter-spacing:.06em;text-transform:uppercase;color:var(--text-muted);margin-bottom:10px">Mes propositions</div>
+            <div style="border:1px dashed var(--border-default);border-radius:var(--radius-md);padding:22px 16px;text-align:center;margin-bottom:26px">
+              <div style="font:600 15px var(--font-body);color:var(--text-secondary)">Aucune proposition pour l'instant.</div>
+              <a href="#" style="display:inline-block;margin-top:8px;font:600 var(--text-sm) var(--font-body);color:var(--red-500);text-decoration:none">Proposer un mot →</a>
+            </div>
+
+            <div style="font:700 12px var(--font-body);letter-spacing:.06em;text-transform:uppercase;color:var(--text-muted);margin-bottom:10px">À valider</div>
+            <div style="border:1px dashed var(--border-default);border-radius:var(--radius-md);padding:22px 16px;text-align:center">
+              <div style="font:600 15px var(--font-body);color:var(--text-secondary)">Rien à valider pour l'instant.</div>
+            </div>
+          </div>
+        </div>
+      </x-import>
+    </div>
+
+    <!-- SCREEN 13 : CHARGEMENT (PATTERN GÉNÉRIQUE) -->
+    <div style="display:flex;flex-direction:column;gap:14px;align-items:center;flex-shrink:0">
+      <div class="cap">13 · Chargement (pattern générique)</div>
+      <x-import component-from-global-scope="IOSDevice" from="./ios-frame.jsx" hint-size="402,874">
+        <div style="height:100%;display:flex;flex-direction:column;background:var(--surface-page)">
+          <div style="padding:54px 16px 12px;border-bottom:1px solid var(--border-subtle);display:flex;align-items:center;justify-content:space-between">
+            <div style="font:800 20px var(--font-body);color:var(--ink-900)">Dictionnaire</div>
+            <div class="row" style="gap:6px">
+              <div class="icobtn"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--gray-400)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg></div>
+              <div class="icobtn" style="background:var(--red-50)"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--red-500)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h6a3 3 0 013 3v13a3 3 0 00-3-3H4z"/><path d="M20 4h-6a3 3 0 00-3 3v13a3 3 0 013-3h6z"/></svg></div>
+              <div class="icobtn"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--gray-400)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="4"/><path d="M4 20c0-4 4-6 8-6s8 2 8 6"/></svg></div>
+            </div>
+          </div>
+          <div style="flex:1;overflow:auto;padding:18px 16px 32px">
+            <div style="display:flex;flex-direction:column;gap:6px;padding:12px 0;border-bottom:1px solid var(--border-subtle)"><div class="skel" style="width:55%;height:15px"></div><div class="skel" style="width:35%;height:11px"></div></div>
+            <div style="display:flex;flex-direction:column;gap:6px;padding:12px 0;border-bottom:1px solid var(--border-subtle)"><div class="skel" style="width:62%;height:15px"></div><div class="skel" style="width:30%;height:11px"></div></div>
+            <div style="display:flex;flex-direction:column;gap:6px;padding:12px 0;border-bottom:1px solid var(--border-subtle)"><div class="skel" style="width:48%;height:15px"></div><div class="skel" style="width:40%;height:11px"></div></div>
+            <div style="display:flex;flex-direction:column;gap:6px;padding:12px 0;border-bottom:1px solid var(--border-subtle)"><div class="skel" style="width:58%;height:15px"></div><div class="skel" style="width:33%;height:11px"></div></div>
+            <div style="display:flex;flex-direction:column;gap:6px;padding:12px 0"><div class="skel" style="width:50%;height:15px"></div><div class="skel" style="width:38%;height:11px"></div></div>
+          </div>
+        </div>
+      </x-import>
+    </div>
+
+  </div>
+</div>
+
+</x-dc>
+</body>
+</html>

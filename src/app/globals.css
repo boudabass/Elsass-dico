@@ -118,7 +118,43 @@
     --chart-4: 47 60% 72%;
     --chart-5: 0 60% 68%;
 
+    /* Gris chauds du handoff mobile (design_handoff_mobile_app/, Claude
+       Design du 28/08/2026) — teinte ~20°, distincte du gris froid (~210°)
+       du reste de la palette. Mesurés sur les hex du handoff, sauf
+       --neutre-600 (absent de la liste de tokens documentée, interpolé dans
+       la même famille pour le texte secondaire sur puce claire, ex. la
+       pastille "Lecteur"). Utilisés par les écrans recréés du handoff
+       (recherche, fiche de mot, A-Z, mon espace…), pas un remplacement des
+       gris shadcn existants. */
+    --neutre-0: 0 0% 100%;
+    --neutre-50: 20 23% 97%;
+    --neutre-100: 24 15% 94%;
+    --neutre-300: 20 11% 79%;
+    --neutre-400: 20 8% 63%;
+    --neutre-600: 20 9% 42%;
+
+    /* --bordure-subtle n'est pas un nouveau token : c'est --border, qui joue
+       déjà ce rôle. --bordure-defaut reprend la valeur --neutre-300 (le
+       handoff réutilise le même hex pour les deux). --bordure-forte est le
+       "quasi-noir" des boutons outline pleine force du handoff (Copier,
+       Annuler…), distinct du --border-strong shadcn qui n'existe pas ici. */
+    --bordure-defaut: 20 11% 79%;
+    --bordure-forte: 0 0% 7%;
+
+    /* Pills de statut ("Validée" / "En attente"), hors du champ des couleurs
+       de marque — n'affecte pas emerald/amber déjà utilisés tels quels dans
+       /admin/arbitrage. */
+    --succes-500: 145 45% 34%;
+    --succes-100: 143 39% 91%;
+    --attention-500: 33 73% 45%;
+    --attention-100: 36 70% 90%;
+
     --radius: 0.5rem;
+    /* rounded-sm (4px) et rounded-lg (8px) de Tailwind couvrent déjà
+       radius-sm/radius-md du handoff — seul le radius-lg des cartes
+       modales (16px, ex. confirmation de suppression) manquait, exposé
+       via borderRadius.modal dans tailwind.config.ts. */
+    --radius-lg: 1rem;
 
     --sidebar-background: 210 17% 98%;
     --sidebar-foreground: 210 11% 26%;
@@ -174,6 +210,23 @@
     --chart-3: 210 17% 90%;
     --chart-4: 47 60% 44%;
     --chart-5: 0 60% 46%;
+
+    /* Même famille de gris chauds qu'en clair, inversée. Le site n'a pas de
+       thème sombre (cf. commentaire plus haut) : ces valeurs évitent
+       seulement un rendu incohérent si .dark s'active, sans être vérifiées
+       à l'œil comme le sont les couleurs de marque. */
+    --neutre-0: 20 9% 9%;
+    --neutre-50: 20 9% 14%;
+    --neutre-100: 20 8% 20%;
+    --neutre-300: 20 6% 38%;
+    --neutre-400: 20 6% 55%;
+    --neutre-600: 20 10% 78%;
+    --bordure-defaut: 20 6% 38%;
+    --bordure-forte: 0 0% 92%;
+    --succes-500: 145 40% 55%;
+    --succes-100: 145 25% 18%;
+    --attention-500: 33 70% 60%;
+    --attention-100: 33 30% 18%;
 
     --sidebar-background: 210 11% 11%;
     --sidebar-foreground: 210 17% 92%;

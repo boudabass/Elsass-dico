@@ -96,12 +96,38 @@ export default {
   				'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
   				border: 'hsl(var(--sidebar-border))',
   				ring: 'hsl(var(--sidebar-ring))'
+  			},
+  			// Gris chauds + sémantiques du handoff mobile (design_handoff_mobile_app/,
+  			// 28/08/2026) — voir le commentaire dans globals.css pour la mesure des
+  			// valeurs. Additifs : ne remplacent aucune couleur shadcn existante.
+  			neutre: {
+  				'0': 'hsl(var(--neutre-0))',
+  				'50': 'hsl(var(--neutre-50))',
+  				'100': 'hsl(var(--neutre-100))',
+  				'300': 'hsl(var(--neutre-300))',
+  				'400': 'hsl(var(--neutre-400))',
+  				'600': 'hsl(var(--neutre-600))'
+  			},
+  			bordure: {
+  				defaut: 'hsl(var(--bordure-defaut))',
+  				forte: 'hsl(var(--bordure-forte))'
+  			},
+  			succes: {
+  				'500': 'hsl(var(--succes-500))',
+  				'100': 'hsl(var(--succes-100))'
+  			},
+  			attention: {
+  				'500': 'hsl(var(--attention-500))',
+  				'100': 'hsl(var(--attention-100))'
   			}
   		},
   		borderRadius: {
   			lg: 'var(--radius)',
   			md: 'calc(var(--radius) - 2px)',
-  			sm: 'calc(var(--radius) - 4px)'
+  			sm: 'calc(var(--radius) - 4px)',
+  			// Coin des cartes modales du handoff (ex. confirmation de suppression),
+  			// distinct de `xl` par défaut de Tailwind pour ne rien changer ailleurs.
+  			modal: 'var(--radius-lg)'
   		},
   		// Courbe unique des transitions d'état de l'app. Nommée plutôt
   		// qu'arbitraire : `ease-[cubic-bezier(0.2,0,0,1)]` est rejeté par

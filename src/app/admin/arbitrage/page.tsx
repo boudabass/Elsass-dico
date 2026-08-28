@@ -8,7 +8,8 @@ import { Input } from "@/components/ui/input";
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import { Loader2, Scale, Search, ArrowRight, AlertTriangle } from "lucide-react";
+import { Loader2, Search, ArrowRight, AlertTriangle, Users } from "lucide-react";
+import { AppHeader } from "@/components/app-header";
 import {
   listerCandidats,
   listerCandidatsDivergents,
@@ -79,21 +80,26 @@ export default function FileArbitragePage() {
   if (!user || role !== "admin") return <div className="p-8 text-center">Accès refusé</div>;
 
   return (
-    <div className="container mx-auto p-4 md:p-8 max-w-6xl space-y-6">
-      <div className="flex items-center justify-between gap-4 flex-wrap">
-        <div>
-          <h1 className="text-3xl font-bold flex items-center gap-2 text-balance">
-            <Scale className="w-7 h-7" /> Arbitrage
-          </h1>
-          <p className="text-muted-foreground text-sm mt-1 text-pretty">
-            Une entrée n&apos;est retenue qu&apos;après recoupement. Les candidats attestés par
-            plusieurs sources indépendantes remontent en premier.
-          </p>
-        </div>
-        <Button asChild variant="outline" className="h-10">
-          <Link href="/admin">Utilisateurs</Link>
-        </Button>
-      </div>
+    <div className="flex min-h-screen flex-col">
+      <AppHeader
+        variant="stack"
+        titre="Arbitrage"
+        backHref="/dashboard"
+        trailing={
+          <Link
+            href="/admin"
+            aria-label="Utilisateurs"
+            className="flex h-10 w-10 items-center justify-center rounded-full bg-neutre-100 text-foreground"
+          >
+            <Users className="h-[18px] w-[18px]" strokeWidth={2} />
+          </Link>
+        }
+      />
+      <div className="container mx-auto max-w-6xl space-y-6 p-4 md:p-8">
+      <p className="text-muted-foreground text-sm text-pretty">
+        Une entrée n&apos;est retenue qu&apos;après recoupement. Les candidats attestés par
+        plusieurs sources indépendantes remontent en premier.
+      </p>
 
       <form
         className="flex gap-2"
@@ -257,6 +263,7 @@ export default function FileArbitragePage() {
           )}
         </TabsContent>
       </Tabs>
+      </div>
     </div>
   );
 }

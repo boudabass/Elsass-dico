@@ -1,50 +1,41 @@
 "use client";
 
 import { useCallback, useEffect, useState } from "react";
+import Link from "next/link";
 import { useAuth } from "@/components/auth-provider";
-import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
-import { Label } from "@/components/ui/label";
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
+import { AppHeader } from "@/components/app-header";
+import { ListSkeleton } from "@/components/ui/list-skeleton";
+import {
+    AlertDialog,
+    AlertDialogAction,
+    AlertDialogCancel,
+    AlertDialogContent,
+    AlertDialogDescription,
+    AlertDialogFooter,
+    AlertDialogHeader,
+    AlertDialogTitle,
+    AlertDialogTrigger,
+} from "@/components/ui/alert-dialog";
 import { toast } from "sonner";
-import { Loader2, Plus, Pencil, Trash2, Check, Lock, X } from "lucide-react";
+import { Check, Loader2, Lock, Pencil, Plus, Trash2 } from "lucide-react";
 import {
     listerMesContributions,
     listerContributionsAValider,
-    ajouterContributionAction,
-    modifierContributionAction,
     supprimerContributionAction,
     voterAction,
     retirerVoteAction,
     type MaContribution,
     type ContributionAValider,
 } from "@/app/actions/contributions";
-import {
-    TYPES_TERME,
-    LIBELLES_TYPE_TERME,
-    REGIONS,
-    LIBELLES_REGION,
-    SCORE_PLEIN,
-    type TypeTerme,
-} from "@/lib/dictionnaire";
+import { LIBELLES_TYPE_TERME, SCORE_PLEIN, type TypeTerme } from "@/lib/dictionnaire";
 
-const CHAMPS_VIDES = {
-    francais: "",
-    alsacien: "",
-    contexte: "",
-    type: "mot" as TypeTerme,
-    region: "",
-};
-
+// Écran 8 (+ écran 12, vide) du handoff mobile. Le formulaire de proposition,
+// inline ici jusqu'au 25/08, a son propre écran désormais (/contributions/proposer).
 export default function ContributionsPage() {
     const { role, isLoading } = useAuth();
     const [mesContributions, setMesContributions] = useState<MaContribution[]>([]);
     const [aValider, setAValider] = useState<ContributionAValider[]>([]);
     const [chargement, setChargement] = useState(true);
-    const [champs, setChamps] = useState(CHAMPS_VIDES);
-    const [editionId, setEditionId] = useState<string | null>(null);
-    const [enCours, setEnCours] = useState(false);
 
     const rafraichir = useCallback(async () => {
         setChargement(true);
@@ -65,61 +56,17 @@ export default function ContributionsPage() {
 
     if (isLoading) {
         return (
-            <div className="flex min-h-[60vh] items-center justify-center">
-                <Loader2 className="animate-spin" />
+            <div className="flex min-h-screen items-center justify-center">
+                <Loader2 className="h-6 w-6 animate-spin text-neutre-400" />
             </div>
         );
     }
 
     if (!autorise) {
-        return <div className="p-8 text-center">Accès réservé aux contributeurs</div>;
+        return <div className="p-8 text-center text-sm text-muted-foreground">Accès réservé aux contributeurs</div>;
     }
 
-    const reinitialiser = () => {
-        setChamps(CHAMPS_VIDES);
-        setEditionId(null);
-    };
-
-    const soumettre = async (evenement: React.FormEvent) => {
-        evenement.preventDefault();
-        setEnCours(true);
-
-        const donnees = new FormData();
-        donnees.set("francais", champs.francais);
-        donnees.set("alsacien", champs.alsacien);
-        donnees.set("contexte", champs.contexte);
-        donnees.set("type", champs.type);
-        donnees.set("region", champs.region);
-
-        const res = editionId
-            ? await modifierContributionAction(editionId, donnees)
-            : await ajouterContributionAction(donnees);
-
-        setEnCours(false);
-
-        if (res.success) {
-            toast.success(res.message);
-            reinitialiser();
-            rafraichir();
-        } else {
-            toast.error(res.error);
-        }
-    };
-
-    const editer = (contribution: MaContribution) => {
-        setEditionId(contribution.id);
-        setChamps({
-            francais: contribution.francais,
-            alsacien: contribution.alsacien,
-            contexte: contribution.contexte,
-            type: contribution.type as TypeTerme,
-            region: contribution.region ?? "",
-        });
-        window.scrollTo({ top: 0, behavior: "smooth" });
-    };
-
     const supprimer = async (contribution: MaContribution) => {
-        if (!confirm(`Supprimer « ${contribution.francais} » ?`)) return;
         const res = await supprimerContributionAction(contribution.id);
         if (res.success) {
             toast.success(res.message);
@@ -142,213 +89,148 @@ export default function ContributionsPage() {
     };
 
     return (
-        <div className="container mx-auto p-4 md:p-8 max-w-5xl space-y-8">
-            <div>
-                <h1 className="text-3xl font-bold">Mes contributions</h1>
-                <p className="text-muted-foreground mt-1">
-                    Vos propositions entrent comme attestations, au même titre qu&apos;un ouvrage ou
-                    un site. Elles ne sont publiées qu&apos;après arbitrage.
+        <div className="flex min-h-screen flex-col">
+            <AppHeader
+                variant="stack"
+                titre="Mes contributions"
+                backHref="/dashboard"
+                trailing={
+                    <Link
+                        href="/contributions/proposer"
+                        aria-label="Proposer un mot"
+                        className="flex h-10 w-10 items-center justify-center rounded-full bg-neutre-100 text-foreground"
+                    >
+                        <Plus className="h-[18px] w-[18px]" strokeWidth={2.2} />
+                    </Link>
+                }
+            />
+
+            <main className="flex-1 px-4 pt-[18px] pb-8">
+                <p className="mb-2.5 text-xs font-bold uppercase tracking-wide text-neutre-400">
+                    Mes propositions
                 </p>
-            </div>
-
-            <Card>
-                <CardHeader>
-                    <CardTitle className="flex items-center gap-2">
-                        {editionId ? <Pencil className="w-5 h-5" /> : <Plus className="w-5 h-5" />}
-                        {editionId ? "Modifier la contribution" : "Proposer une traduction"}
-                    </CardTitle>
-                    <CardDescription>
-                        Écrivez l&apos;alsacien comme vous le prononcez : la mise en graphie ORTHAL
-                        se fera à l&apos;arbitrage.
-                    </CardDescription>
-                </CardHeader>
-                <CardContent>
-                    <form onSubmit={soumettre} className="space-y-4">
-                        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                            <div className="space-y-2">
-                                <Label htmlFor="francais">Français</Label>
-                                <Input
-                                    id="francais"
-                                    value={champs.francais}
-                                    onChange={(e) => setChamps({ ...champs, francais: e.target.value })}
-                                    required
-                                />
-                            </div>
-                            <div className="space-y-2">
-                                <Label htmlFor="alsacien">Alsacien</Label>
-                                <Input
-                                    id="alsacien"
-                                    value={champs.alsacien}
-                                    onChange={(e) => setChamps({ ...champs, alsacien: e.target.value })}
-                                    required
-                                />
-                            </div>
-                        </div>
-
-                        <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-                            <div className="space-y-2">
-                                <Label>Type</Label>
-                                <Select
-                                    value={champs.type}
-                                    onValueChange={(valeur) => setChamps({ ...champs, type: valeur as TypeTerme })}
-                                >
-                                    <SelectTrigger><SelectValue /></SelectTrigger>
-                                    <SelectContent>
-                                        {TYPES_TERME.map((type) => (
-                                            <SelectItem key={type} value={type}>
-                                                {LIBELLES_TYPE_TERME[type]}
-                                            </SelectItem>
-                                        ))}
-                                    </SelectContent>
-                                </Select>
-                            </div>
-                            <div className="space-y-2">
-                                <Label>Secteur</Label>
-                                <Select
-                                    value={champs.region === "" ? "non_precise" : champs.region}
-                                    onValueChange={(valeur) =>
-                                        setChamps({ ...champs, region: valeur === "non_precise" ? "" : valeur })
-                                    }
-                                >
-                                    <SelectTrigger><SelectValue /></SelectTrigger>
-                                    <SelectContent>
-                                        <SelectItem value="non_precise">Non précisé</SelectItem>
-                                        {REGIONS.map((region) => (
-                                            <SelectItem key={region} value={region}>
-                                                {LIBELLES_REGION[region]}
-                                            </SelectItem>
-                                        ))}
-                                    </SelectContent>
-                                </Select>
-                            </div>
-                            <div className="space-y-2">
-                                <Label htmlFor="contexte">Contexte</Label>
-                                <Input
-                                    id="contexte"
-                                    placeholder="ex : le fruit"
-                                    value={champs.contexte}
-                                    onChange={(e) => setChamps({ ...champs, contexte: e.target.value })}
-                                />
-                            </div>
-                        </div>
-
-                        <div className="flex gap-2">
-                            <Button type="submit" disabled={enCours}>
-                                {enCours && <Loader2 className="mr-2 h-4 w-4 animate-spin" />}
-                                {editionId ? "Enregistrer" : "Proposer"}
-                            </Button>
-                            {editionId && (
-                                <Button type="button" variant="ghost" onClick={reinitialiser}>
-                                    <X className="mr-2 h-4 w-4" /> Annuler
-                                </Button>
-                            )}
-                        </div>
-                    </form>
-                </CardContent>
-            </Card>
-
-            <Card>
-                <CardHeader>
-                    <CardTitle>Mes propositions</CardTitle>
-                    <CardDescription>
-                        Le score indique combien d&apos;autres contributeurs ont confirmé la
-                        proposition. Il aide à l&apos;arbitrage, il ne publie rien.
-                    </CardDescription>
-                </CardHeader>
-                <CardContent>
-                    {chargement ? (
-                        <div className="flex justify-center py-6"><Loader2 className="animate-spin" /></div>
-                    ) : mesContributions.length === 0 ? (
-                        <p className="text-sm text-muted-foreground py-4">
-                            Aucune proposition pour l&apos;instant.
-                        </p>
-                    ) : (
-                        <ul className="divide-y">
-                            {mesContributions.map((contribution) => (
-                                <li key={contribution.id} className="flex items-center gap-4 py-3">
-                                    <div className="flex-1 min-w-0">
-                                        <p className="font-medium truncate">
-                                            {contribution.francais} → {contribution.alsacien}
-                                        </p>
-                                        <p className="text-xs text-muted-foreground">
-                                            {LIBELLES_TYPE_TERME[contribution.type as TypeTerme]}
-                                            {contribution.contexte && ` · ${contribution.contexte}`}
-                                            {contribution.retenue && " · retenue dans une entrée"}
-                                        </p>
-                                    </div>
-                                    <span className="text-sm tabular-nums text-muted-foreground shrink-0">
-                                        {contribution.score}/{SCORE_PLEIN}
+                {chargement ? (
+                    <ListSkeleton lignes={2} />
+                ) : mesContributions.length === 0 ? (
+                    <EtatVide texte="Aucune proposition pour l'instant." lien="/contributions/proposer" libelleLien="Proposer un mot →" />
+                ) : (
+                    <div className="mb-6 flex flex-col gap-2.5">
+                        {mesContributions.map((c) => (
+                            <div key={c.id} className="rounded-lg border border-border bg-card p-3.5">
+                                <p className="text-base font-bold text-foreground">
+                                    {c.francais} → {c.alsacien}
+                                </p>
+                                <p className="mt-0.5 text-sm text-muted-foreground">
+                                    {LIBELLES_TYPE_TERME[c.type as TypeTerme]}
+                                    {c.contexte && ` · ${c.contexte}`}
+                                </p>
+                                <div className="mt-2.5 flex items-center justify-between">
+                                    <span className="text-sm font-bold text-foreground">
+                                        {c.score}/{SCORE_PLEIN} confirmations
                                     </span>
-                                    {contribution.retenue ? (
-                                        <span
-                                            className="text-muted-foreground shrink-0"
-                                            title="Figée : elle justifie une entrée publiée"
-                                        >
-                                            <Lock className="w-4 h-4" />
+                                    {c.retenue ? (
+                                        <span className="inline-flex items-center gap-1.5 rounded-full bg-neutre-100 px-2.5 py-1 text-xs font-semibold text-neutre-600">
+                                            <Lock className="h-[11px] w-[11px]" />
+                                            Retenue dans une entrée
                                         </span>
                                     ) : (
-                                        <div className="flex gap-2 shrink-0">
-                                            <Button variant="outline" size="sm" onClick={() => editer(contribution)}>
-                                                <Pencil className="w-4 h-4" />
-                                            </Button>
-                                            <Button variant="destructive" size="sm" onClick={() => supprimer(contribution)}>
-                                                <Trash2 className="w-4 h-4" />
-                                            </Button>
+                                        <div className="flex gap-1.5">
+                                            <Link
+                                                href={`/contributions/proposer?id=${c.id}`}
+                                                aria-label={`Modifier « ${c.francais} » → « ${c.alsacien} »`}
+                                                className="flex h-8 w-8 items-center justify-center rounded-full bg-neutre-100 text-foreground"
+                                            >
+                                                <Pencil className="h-[15px] w-[15px]" />
+                                            </Link>
+                                            <AlertDialog>
+                                                <AlertDialogTrigger asChild>
+                                                    <button
+                                                        type="button"
+                                                        aria-label={`Supprimer « ${c.francais} » → « ${c.alsacien} »`}
+                                                        className="flex h-8 w-8 items-center justify-center rounded-full bg-marque-rouge-50 text-marque-rouge-500"
+                                                    >
+                                                        <Trash2 className="h-[15px] w-[15px]" />
+                                                    </button>
+                                                </AlertDialogTrigger>
+                                                <AlertDialogContent className="rounded-modal">
+                                                    <AlertDialogHeader>
+                                                        <AlertDialogTitle>Supprimer « {c.francais} » ?</AlertDialogTitle>
+                                                        <AlertDialogDescription>
+                                                            Ta proposition « {c.alsacien} » quitte la file de validation
+                                                            avec les confirmations reçues. Tu pourras la reproposer, mais
+                                                            son score repart de zéro.
+                                                        </AlertDialogDescription>
+                                                    </AlertDialogHeader>
+                                                    <AlertDialogFooter>
+                                                        <AlertDialogCancel>Annuler</AlertDialogCancel>
+                                                        <AlertDialogAction
+                                                            className="bg-marque-rouge-500 text-white hover:bg-marque-rouge-600"
+                                                            onClick={() => supprimer(c)}
+                                                        >
+                                                            Supprimer
+                                                        </AlertDialogAction>
+                                                    </AlertDialogFooter>
+                                                </AlertDialogContent>
+                                            </AlertDialog>
                                         </div>
                                     )}
-                                </li>
-                            ))}
-                        </ul>
-                    )}
-                </CardContent>
-            </Card>
+                                </div>
+                            </div>
+                        ))}
+                    </div>
+                )}
 
-            <Card>
-                <CardHeader>
-                    <CardTitle>Propositions des autres contributeurs</CardTitle>
-                    <CardDescription>
-                        Confirmez ce que vous savez juste. Vous ne pouvez pas voter pour vos propres
-                        propositions.
-                    </CardDescription>
-                </CardHeader>
-                <CardContent>
-                    {chargement ? (
-                        <div className="flex justify-center py-6"><Loader2 className="animate-spin" /></div>
-                    ) : aValider.length === 0 ? (
-                        <p className="text-sm text-muted-foreground py-4">
-                            Rien à valider pour l&apos;instant.
-                        </p>
-                    ) : (
-                        <ul className="divide-y">
-                            {aValider.map((contribution) => (
-                                <li key={contribution.id} className="flex items-center gap-4 py-3">
-                                    <div className="flex-1 min-w-0">
-                                        <p className="font-medium truncate">
-                                            {contribution.francais} → {contribution.alsacien}
-                                        </p>
-                                        <p className="text-xs text-muted-foreground">
-                                            {contribution.auteur}
-                                            {contribution.contexte && ` · ${contribution.contexte}`}
-                                        </p>
-                                    </div>
-                                    <span className="text-sm tabular-nums text-muted-foreground shrink-0">
-                                        {contribution.score}/{SCORE_PLEIN}
+                <p className="mb-2.5 text-xs font-bold uppercase tracking-wide text-neutre-400">À valider</p>
+                {chargement ? (
+                    <ListSkeleton lignes={2} />
+                ) : aValider.length === 0 ? (
+                    <EtatVide texte="Rien à valider pour l'instant." />
+                ) : (
+                    <div className="flex flex-col gap-2.5">
+                        {aValider.map((c) => (
+                            <div key={c.id} className="rounded-lg border border-border bg-card p-3.5">
+                                <p className="text-base font-bold text-foreground">
+                                    {c.francais} → {c.alsacien}
+                                </p>
+                                <p className="mt-0.5 text-sm text-muted-foreground">
+                                    {c.auteur}
+                                    {c.contexte && ` · ${c.contexte}`}
+                                </p>
+                                <div className="mt-2.5 flex items-center justify-between">
+                                    <span className="text-sm font-bold text-foreground">
+                                        {c.score}/{SCORE_PLEIN} confirmations
                                     </span>
-                                    <Button
-                                        variant={contribution.deja_vote ? "secondary" : "outline"}
-                                        size="sm"
-                                        className="shrink-0"
-                                        onClick={() => basculerVote(contribution)}
+                                    <button
+                                        type="button"
+                                        onClick={() => basculerVote(c)}
+                                        className={
+                                            c.deja_vote
+                                                ? "flex h-8 items-center gap-1 rounded-lg bg-succes-500 px-3 text-[13px] font-semibold text-white"
+                                                : "flex h-8 items-center gap-1 rounded-lg border border-bordure-forte px-3 text-[13px] font-semibold text-foreground"
+                                        }
                                     >
-                                        <Check className="w-4 h-4 mr-1" />
-                                        {contribution.deja_vote ? "Confirmé" : "Confirmer"}
-                                    </Button>
-                                </li>
-                            ))}
-                        </ul>
-                    )}
-                </CardContent>
-            </Card>
+                                        <Check className="h-3.5 w-3.5" />
+                                        {c.deja_vote ? "Confirmé" : "Confirmer"}
+                                    </button>
+                                </div>
+                            </div>
+                        ))}
+                    </div>
+                )}
+            </main>
+        </div>
+    );
+}
+
+function EtatVide({ texte, lien, libelleLien }: { texte: string; lien?: string; libelleLien?: string }) {
+    return (
+        <div className="mb-6 rounded-lg border border-dashed border-neutre-300 px-4 py-[22px] text-center">
+            <p className="text-[15px] font-semibold text-muted-foreground">{texte}</p>
+            {lien && (
+                <Link href={lien} className="mt-2 inline-block text-sm font-semibold text-marque-rouge-texte">
+                    {libelleLien}
+                </Link>
+            )}
         </div>
     );
 }

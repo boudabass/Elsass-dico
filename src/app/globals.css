@@ -2,146 +2,242 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Palette alignée sur The Elsassisch (www.theelsassisch.com), relevée dans le
+   CSS compilé du site le 25/08/2026 :
+     --o-color-1 / --primary   #EFC631  or
+     --o-color-2 / --secondary #FF0000  rouge
+     .o_cc1                    fond #FFFFFF, texte #212529
+     --danger                  #dc3545
+   L'app est destinée à vivre en iframe dans une page du site : c'est le fond
+   blanc et le texte #212529 qui rendent la frontière de l'iframe invisible.
 
+   Deux contraintes de contraste commandent l'usage des deux couleurs de marque,
+   et elles ne se contournent pas :
+     * #EFC631 sur blanc = 1,8:1. L'or ne peut PAS porter du texte. Il sert de
+       fond (avec du texte quasi noir) ou d'aplat, jamais de couleur de libellé.
+     * #FF0000 sur blanc = 4,0:1, sous le seuil AA du texte courant. Rouge plein
+       avec texte blanc pour un bouton, oui ; lien inline en rouge, non.
+   D'où --marque-rouge-texte, un rouge assombri utilisable en texte, distinct du
+   rouge de marque employé en aplat.
+
+   Ce que --secondary et --accent NE sont PAS : les couleurs secondaires de la
+   marque. Dans shadcn ce sont des surfaces neutres discrètes (fond de badge,
+   survol de menu). Y verser #FF0000 rendrait rouge vif chaque
+   `Badge variant="secondary"` de la file d'arbitrage. Le rouge de marque vit
+   donc dans ses propres tokens, invoqués explicitement. */
 
 @layer base {
   :root {
-
     --background: 0 0% 100%;
-
-    --foreground: 0 0% 3.9%;
+    --foreground: 210 11% 15%;
 
     --card: 0 0% 100%;
-
-    --card-foreground: 0 0% 3.9%;
+    --card-foreground: 210 11% 15%;
 
     --popover: 0 0% 100%;
+    --popover-foreground: 210 11% 15%;
 
-    --popover-foreground: 0 0% 3.9%;
+    /* Or de la marque. Son foreground est le texte du site, pas du blanc. */
+    --primary: 47 86% 56%;
+    --primary-foreground: 210 11% 15%;
 
-    --primary: 0 0% 9%;
+    /* Surfaces neutres, teintées vers le 210 du texte pour rester dans la
+       même famille froide que #212529. */
+    --secondary: 210 17% 96%;
+    --secondary-foreground: 210 11% 15%;
 
-    --primary-foreground: 0 0% 98%;
+    --muted: 210 17% 96%;
+    --muted-foreground: 210 9% 42%;
 
-    --secondary: 0 0% 96.1%;
+    --accent: 210 17% 94%;
+    --accent-foreground: 210 11% 15%;
 
-    --secondary-foreground: 0 0% 9%;
+    /* Erreur = le --danger du site (#dc3545), volontairement distinct du rouge
+       de marque : une alerte ne doit pas se confondre avec un accent. */
+    --destructive: 354 70% 54%;
+    --destructive-foreground: 0 0% 100%;
 
-    --muted: 0 0% 96.1%;
+    /* --border sépare des surfaces : un trait discret y est correct.
+       --input DÉLIMITE un champ de saisie, et WCAG 1.4.11 lui demande 3:1
+       contre le fond — c'est ce trait qui dit à l'utilisateur où taper. Le
+       boilerplate donnait la même valeur aux deux (1,29:1) : le champ de
+       recherche, cœur de cette app, était à la limite du visible.
+       210 14% 59% = #8896A5, mesuré à 3,02:1 sur blanc. */
+    --border: 210 14% 89%;
+    --input: 210 14% 59%;
+    /* L'anneau de focus est le seul repère de qui navigue au clavier, et
+       WCAG 2.4.11 lui demande 3:1 contre le fond qu'il traverse. L'or de marque
+       n'y arrive pas (1,8:1) et 47 86% 46% n'y arrivait pas non plus (2,07:1) :
+       l'arbitrage enchaîne des centaines de tabulations sur un anneau qu'on ne
+       voyait pas. 47 86% 38% = #B4900D, mesuré à 3,06:1 sur blanc — c'est la
+       valeur de --marque-or-sombre, l'anneau reste donc doré sans disparaître. */
+    --ring: 47 86% 38%;
 
-    --muted-foreground: 0 0% 45.1%;
+    /* Couleurs de marque, à invoquer explicitement (bg-marque-or,
+       text-marque-rouge-texte…), jamais via les surfaces neutres. */
+    --marque-or: 47 86% 56%;
+    --marque-or-sombre: 47 86% 38%;
+    --marque-rouge: 0 100% 50%;
+    --marque-rouge-texte: 0 100% 38%;
 
-    --accent: 0 0% 96.1%;
+    /* Échelles complètes rouge/or, issues du design system « The Elsassisch
+       Design Systeme » (claude.ai/design, 28/08/2026) — rouge mesuré sur le
+       logo (#a7070d), or confirmé comme couleur officielle de vêtement
+       (#b6841f). Distinctes des tokens ci-dessus (extraits du CSS Odoo du
+       site) : deux mesures différentes, pas une même couleur renommée.
+       Ajoutées à côté, jamais en remplacement — rien d'existant n'y touche.
+       rouge-500 atteint 7,84:1 en texte sur blanc (AAA), utilisable
+       directement contrairement à --marque-rouge. or-500 atteint seulement
+       3,33:1 en texte : même règle que --marque-or, fond uniquement, jamais
+       texte (5,67:1 avec du texte quasi noir dessus). */
+    --marque-rouge-50: 356 68% 95%;
+    --marque-rouge-100: 356 67% 88%;
+    --marque-rouge-200: 357 63% 75%;
+    --marque-rouge-300: 357 58% 62%;
+    --marque-rouge-400: 358 58% 47%;
+    --marque-rouge-500: 358 92% 34%;
+    --marque-rouge-600: 358 93% 28%;
+    --marque-rouge-700: 358 93% 22%;
+    --marque-rouge-800: 359 95% 15%;
+    --marque-rouge-900: 0 96% 9%;
 
-    --accent-foreground: 0 0% 9%;
+    --marque-or-50: 42 76% 93%;
+    --marque-or-100: 42 76% 84%;
+    --marque-or-200: 42 75% 70%;
+    --marque-or-300: 41 71% 58%;
+    --marque-or-400: 40 64% 50%;
+    --marque-or-500: 40 71% 42%;
+    --marque-or-600: 39 72% 34%;
+    --marque-or-700: 38 72% 25%;
+    --marque-or-800: 38 73% 17%;
+    --marque-or-900: 39 76% 10%;
 
-    --destructive: 0 84.2% 60.2%;
+    --chart-1: 47 86% 56%;
+    --chart-2: 0 100% 50%;
+    --chart-3: 210 11% 15%;
+    --chart-4: 47 60% 72%;
+    --chart-5: 0 60% 68%;
 
-    --destructive-foreground: 0 0% 98%;
+    /* Gris chauds du handoff mobile (design_handoff_mobile_app/, Claude
+       Design du 28/08/2026) — teinte ~20°, distincte du gris froid (~210°)
+       du reste de la palette. Mesurés sur les hex du handoff, sauf
+       --neutre-600 (absent de la liste de tokens documentée, interpolé dans
+       la même famille pour le texte secondaire sur puce claire, ex. la
+       pastille "Lecteur"). Utilisés par les écrans recréés du handoff
+       (recherche, fiche de mot, A-Z, mon espace…), pas un remplacement des
+       gris shadcn existants. */
+    --neutre-0: 0 0% 100%;
+    --neutre-50: 20 23% 97%;
+    --neutre-100: 24 15% 94%;
+    --neutre-300: 20 11% 79%;
+    --neutre-400: 20 8% 63%;
+    --neutre-600: 20 9% 42%;
 
-    --border: 0 0% 89.8%;
+    /* --bordure-subtle n'est pas un nouveau token : c'est --border, qui joue
+       déjà ce rôle. --bordure-defaut reprend la valeur --neutre-300 (le
+       handoff réutilise le même hex pour les deux). --bordure-forte est le
+       "quasi-noir" des boutons outline pleine force du handoff (Copier,
+       Annuler…), distinct du --border-strong shadcn qui n'existe pas ici. */
+    --bordure-defaut: 20 11% 79%;
+    --bordure-forte: 0 0% 7%;
 
-    --input: 0 0% 89.8%;
+    /* Pills de statut ("Validée" / "En attente"), hors du champ des couleurs
+       de marque — n'affecte pas emerald/amber déjà utilisés tels quels dans
+       /admin/arbitrage. */
+    --succes-500: 145 45% 34%;
+    --succes-100: 143 39% 91%;
+    --attention-500: 33 73% 45%;
+    --attention-100: 36 70% 90%;
 
-    --ring: 0 0% 3.9%;
+    --radius: 0.5rem;
+    /* rounded-sm (4px) et rounded-lg (8px) de Tailwind couvrent déjà
+       radius-sm/radius-md du handoff — seul le radius-lg des cartes
+       modales (16px, ex. confirmation de suppression) manquait, exposé
+       via borderRadius.modal dans tailwind.config.ts. */
+    --radius-lg: 1rem;
 
-    --chart-1: 12 76% 61%;
+    --sidebar-background: 210 17% 98%;
+    --sidebar-foreground: 210 11% 26%;
+    --sidebar-primary: 47 86% 56%;
+    --sidebar-primary-foreground: 210 11% 15%;
+    --sidebar-accent: 210 17% 94%;
+    --sidebar-accent-foreground: 210 11% 15%;
+    --sidebar-border: 210 14% 89%;
+    --sidebar-ring: 47 86% 38%;
+  }
 
-    --chart-2: 173 58% 39%;
-
-    --chart-3: 197 37% 24%;
-
-    --chart-4: 43 74% 66%;
-
-    --chart-5: 27 87% 67%;
-
-    --radius: 0.5rem
-  ;
-
-    --sidebar-background: 0 0% 98%;
-
-    --sidebar-foreground: 240 5.3% 26.1%;
-
-    --sidebar-primary: 240 5.9% 10%;
-
-    --sidebar-primary-foreground: 0 0% 98%;
-
-    --sidebar-accent: 240 4.8% 95.9%;
-
-    --sidebar-accent-foreground: 240 5.9% 10%;
-
-    --sidebar-border: 220 13% 91%;
-
-    --sidebar-ring: 217.2 91.2% 59.8%}
+  /* Le site n'expose pas de thème sombre à ce jour ; cette variante existe
+     pour que .dark et next-themes, déjà présents, ne rendent pas des gris
+     boilerplate sans rapport avec la marque. Le noir est celui du site. */
   .dark {
+    --background: 210 11% 7%;
+    --foreground: 210 17% 96%;
 
-    --background: 0 0% 3.9%;
+    --card: 210 11% 11%;
+    --card-foreground: 210 17% 96%;
 
-    --foreground: 0 0% 98%;
+    --popover: 210 11% 11%;
+    --popover-foreground: 210 17% 96%;
 
-    --card: 0 0% 3.9%;
+    --primary: 47 86% 56%;
+    --primary-foreground: 210 11% 10%;
 
-    --card-foreground: 0 0% 98%;
+    --secondary: 210 11% 17%;
+    --secondary-foreground: 210 17% 96%;
 
-    --popover: 0 0% 3.9%;
+    --muted: 210 11% 17%;
+    --muted-foreground: 210 10% 65%;
 
-    --popover-foreground: 0 0% 98%;
+    --accent: 210 11% 20%;
+    --accent-foreground: 210 17% 96%;
 
-    --primary: 0 0% 98%;
+    --destructive: 354 60% 48%;
+    --destructive-foreground: 0 0% 100%;
 
-    --primary-foreground: 0 0% 9%;
+    /* Même règle en sombre : 210 11% 39% = #59636E, 3,07:1 sur le fond. */
+    --border: 210 11% 20%;
+    --input: 210 11% 39%;
+    --ring: 47 86% 56%;
 
-    --secondary: 0 0% 14.9%;
+    --marque-or: 47 86% 56%;
+    --marque-or-sombre: 47 86% 68%;
+    --marque-rouge: 0 100% 50%;
+    /* Sur fond sombre, le rouge doit s'éclaircir et non s'assombrir. */
+    --marque-rouge-texte: 0 100% 68%;
 
-    --secondary-foreground: 0 0% 98%;
+    --chart-1: 47 86% 56%;
+    --chart-2: 0 100% 62%;
+    --chart-3: 210 17% 90%;
+    --chart-4: 47 60% 44%;
+    --chart-5: 0 60% 46%;
 
-    --muted: 0 0% 14.9%;
+    /* Même famille de gris chauds qu'en clair, inversée. Le site n'a pas de
+       thème sombre (cf. commentaire plus haut) : ces valeurs évitent
+       seulement un rendu incohérent si .dark s'active, sans être vérifiées
+       à l'œil comme le sont les couleurs de marque. */
+    --neutre-0: 20 9% 9%;
+    --neutre-50: 20 9% 14%;
+    --neutre-100: 20 8% 20%;
+    --neutre-300: 20 6% 38%;
+    --neutre-400: 20 6% 55%;
+    --neutre-600: 20 10% 78%;
+    --bordure-defaut: 20 6% 38%;
+    --bordure-forte: 0 0% 92%;
+    --succes-500: 145 40% 55%;
+    --succes-100: 145 25% 18%;
+    --attention-500: 33 70% 60%;
+    --attention-100: 33 30% 18%;
 
-    --muted-foreground: 0 0% 63.9%;
-
-    --accent: 0 0% 14.9%;
-
-    --accent-foreground: 0 0% 98%;
-
-    --destructive: 0 62.8% 30.6%;
-
-    --destructive-foreground: 0 0% 98%;
-
-    --border: 0 0% 14.9%;
-
-    --input: 0 0% 14.9%;
-
-    --ring: 0 0% 83.1%;
-
-    --chart-1: 220 70% 50%;
-
-    --chart-2: 160 60% 45%;
-
-    --chart-3: 30 80% 55%;
-
-    --chart-4: 280 65% 60%;
-
-    --chart-5: 340 75% 55%
-  ;
-
-    --sidebar-background: 240 5.9% 10%;
-
-    --sidebar-foreground: 240 4.8% 95.9%;
-
-    --sidebar-primary: 224.3 76.3% 48%;
-
-    --sidebar-primary-foreground: 0 0% 100%;
-
-    --sidebar-accent: 240 3.7% 15.9%;
-
-    --sidebar-accent-foreground: 240 4.8% 95.9%;
-
-    --sidebar-border: 240 3.7% 15.9%;
-
-    --sidebar-ring: 217.2 91.2% 59.8%}
+    --sidebar-background: 210 11% 11%;
+    --sidebar-foreground: 210 17% 92%;
+    --sidebar-primary: 47 86% 56%;
+    --sidebar-primary-foreground: 210 11% 10%;
+    --sidebar-accent: 210 11% 20%;
+    --sidebar-accent-foreground: 210 17% 96%;
+    --sidebar-border: 210 11% 20%;
+    --sidebar-ring: 47 86% 56%;
+  }
 }
-
-
 
 @layer base {
   * {

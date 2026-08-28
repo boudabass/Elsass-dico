@@ -23,11 +23,13 @@ interface Props {
 }
 
 export function OngletDivergentes({ divergents, chargement, onPublie }: Props) {
-  // Une seule décision en cours à la fois : la clé du candidat qu'on publie.
-  const [enCours, setEnCours] = useState<string | null>(null);
+  // Une seule décision en cours à la fois. La graphie fait partie de l'état :
+  // sans elle, les deux ou trois boutons d'un même candidat s'animent ensemble
+  // et l'écran ne dit plus laquelle des formes on vient de choisir.
+  const [enCours, setEnCours] = useState<{ cle: string; graphie: string } | null>(null);
 
   const choisir = async (candidat: CandidatDivergent, graphie: string) => {
-    setEnCours(cleDe(candidat));
+    setEnCours({ cle: cleDe(candidat), graphie });
     const resultat = await arbitrerDivergenceAction({
       cle: candidat.cle,
       contexte: candidat.contexte,
@@ -85,7 +87,10 @@ export function OngletDivergentes({ divergents, chargement, onPublie }: Props) {
         <div className="space-y-3">
           {divergents.map((c) => {
             const k = cleDe(c);
-            const occupe = enCours === k;
+            // `bloque` couvre toute la file, pas seulement cette carte : deux
+            // publications lancées en parallèle écraseraient l'indicateur de la
+            // première, qui reprendrait son état au repos requête en vol.
+            const bloque = enCours !== null;
             return (
               <Card key={k} className={c.diacritiquesSeuls ? "border-amber-300/70" : undefined}>
                 <CardContent className="p-4 space-y-3">
@@ -105,7 +110,7 @@ export function OngletDivergentes({ divergents, chargement, onPublie }: Props) {
                           variant="outline"
                           className="font-normal gap-1 text-amber-700 border-amber-400 dark:text-amber-400"
                         >
-                          <Sparkles className="w-3 h-3" /> accents seuls
+                          <Sparkles className="w-3 h-3" strokeWidth={1.5} /> accents seuls
                         </Badge>
                       )}
                       {c.entree_id && (
@@ -115,41 +120,60 @@ export function OngletDivergentes({ divergents, chargement, onPublie }: Props) {
                       )}
                     </div>
                     <div className="flex items-center gap-2 shrink-0">
-                      <Badge className="bg-emerald-600 hover:bg-emerald-600">
+                      <Badge className="bg-emerald-600 hover:bg-emerald-600 tabular-nums">
                         {c.nb_sources} sources
                       </Badge>
-                      <Link href={lienArbitrage(c.cle, c.contexte)}>
-                        <Button variant="ghost" size="sm" title="Ouvrir l'écran d'arbitrage complet">
+                      <Button asChild variant="ghost" size="icon" className="h-10 w-10">
+                        <Link
+                          href={lienArbitrage(c.cle, c.contexte)}
+                          title="Ouvrir l'écran d'arbitrage complet"
+                          aria-label={`Ouvrir l'écran d'arbitrage complet pour ${c.francais}`}
+                        >
                           <ArrowRight className="w-4 h-4" />
-                        </Button>
-                      </Link>
+                        </Link>
+                      </Button>
                     </div>
                   </div>
 
                   <div className="flex flex-wrap gap-2">
-                    {c.formes.map((f) => (
-                      <Button
-                        key={f.graphie}
-                        variant="outline"
-                        size="sm"
-                        disabled={occupe}
-                        onClick={() => choisir(c, f.graphie)}
-                        className="h-auto py-1.5 gap-2 font-normal"
-                        title={`Publier « ${f.graphie} » comme forme canonique`}
-                      >
-                        {occupe ? (
-                          <Loader2 className="w-3.5 h-3.5 animate-spin" />
-                        ) : (
-                          <Crown className="w-3.5 h-3.5 text-amber-500" />
-                        )}
-                        <span className="font-medium text-indigo-600 dark:text-indigo-400">
-                          {f.graphie}
-                        </span>
-                        <span className="text-xs text-muted-foreground">
-                          {f.nbSources} src · {f.nbAttestations} att.
-                        </span>
-                      </Button>
-                    ))}
+                    {c.formes.map((f) => {
+                      const choisi = enCours?.cle === k && enCours.graphie === f.graphie;
+                      return (
+                        <Button
+                          key={f.graphie}
+                          variant="outline"
+                          size="sm"
+                          disabled={bloque}
+                          onClick={() => choisir(c, f.graphie)}
+                          className="h-auto min-h-10 py-1.5 gap-2 font-normal"
+                          title={`Publier « ${f.graphie} » comme forme canonique`}
+                        >
+                          {/* Les deux icônes restent montées et se croisent :
+                              un échange sec ne se lit pas comme un changement
+                              d'état, il se lit comme un défaut d'affichage. */}
+                          <span className="relative inline-flex h-4 w-4 shrink-0">
+                            <Crown
+                              className={`absolute inset-0 text-marque-or-sombre transition-[opacity,transform,filter] duration-300 ease-doux ${
+                                choisi ? "opacity-0 scale-[0.25] blur-[4px]" : "opacity-100"
+                              }`}
+                            />
+                            <Loader2
+                              className={`absolute inset-0 transition-[opacity,transform,filter] duration-300 ease-doux ${
+                                choisi
+                                  ? "animate-spin opacity-100"
+                                  : "opacity-0 scale-[0.25] blur-[4px]"
+                              }`}
+                            />
+                          </span>
+                          <span className="font-semibold">
+                            {f.graphie}
+                          </span>
+                          <span className="text-xs text-muted-foreground tabular-nums">
+                            {f.nbSources} src · {f.nbAttestations} att.
+                          </span>
+                        </Button>
+                      );
+                    })}
                   </div>
                 </CardContent>
               </Card>

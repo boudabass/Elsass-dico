@@ -1,18 +1,24 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
-import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
-import { Badge } from "@/components/ui/badge";
-import { ArrowRight, CheckCircle2, BookOpenCheck, Loader2, Search } from "lucide-react";
+import { Loader2, Search, SearchX } from "lucide-react";
+import { AppHeader } from "@/components/app-header";
+import { ListSkeleton } from "@/components/ui/list-skeleton";
 import { rechercherAction, type ResultatRecherche } from "@/app/actions/recherche";
-import { LIBELLES_REGION, LIBELLES_TYPE_TERME, type Region, type TypeTerme } from "@/lib/dictionnaire";
-import { URL_INSCRIPTION_ODOO } from "@/lib/odoo";
 import { useAuth } from "@/components/auth-provider";
 
+// Écran 1 (Recherche) + écran 10 (aucun résultat) du handoff mobile
+// design_handoff_mobile_app/ (Claude Design, 28/08/2026). Remplace la page
+// desktop du 25/08 : plus de bandeau marketing ni de boutons de connexion en
+// en-tête (portés désormais par l'onglet "compte" de AppHeader et par l'écran
+// Mon espace), fidèle au mockup qui réduit l'accueil à saluer + chercher.
+
+const CARACTERES_ORTHAL = ["à", "ì", "ü", "ù", "ë", "ö", "ä", "œ"];
+
 export default function AccueilPage() {
-  const { user, isLoading } = useAuth();
+  const { user } = useAuth();
+  const inputRef = useRef<HTMLInputElement>(null);
   const [terme, setTerme] = useState("");
   const [resultats, setResultats] = useState<ResultatRecherche[]>([]);
   const [recherche, setRecherche] = useState(false);
@@ -25,6 +31,7 @@ export default function AccueilPage() {
     if (requete.length < 2) {
       setResultats([]);
       setACherche(false);
+      setRecherche(false);
       return;
     }
 
@@ -39,134 +46,136 @@ export default function AccueilPage() {
     return () => clearTimeout(minuteur);
   }, [terme]);
 
+  // Insère le caractère à l'endroit du curseur plutôt qu'en fin de chaîne :
+  // selectionStart/End restent lisibles sur l'input même après que le focus
+  // soit passé au bouton de la puce (le spec DOM les conserve). requestAnimationFrame
+  // laisse React committer le nouveau `value` avant qu'on repositionne le curseur.
+  function insererCaractere(car: string) {
+    const input = inputRef.current;
+    const debut = input?.selectionStart ?? terme.length;
+    const fin = input?.selectionEnd ?? terme.length;
+    setTerme(terme.slice(0, debut) + car + terme.slice(fin));
+    requestAnimationFrame(() => {
+      input?.focus();
+      const position = debut + car.length;
+      input?.setSelectionRange(position, position);
+    });
+  }
+
   return (
-    <div className="relative min-h-screen bg-slate-950 text-white">
-      <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,_var(--tw-gradient-stops))] from-indigo-900/20 via-slate-950 to-slate-950 z-0"></div>
+    <div className="flex min-h-screen flex-col">
+      <AppHeader variant="root" actif="recherche" />
 
-      <div className="relative z-10 container mx-auto px-6 py-16 max-w-3xl space-y-10">
-        <div className="flex justify-end">
-          {isLoading ? null : user ? (
-            <Link href="/dashboard">
-              <Button variant="outline" size="sm" className="border-white/20 bg-transparent text-white hover:bg-white/10">
-                Mon espace
-              </Button>
-            </Link>
-          ) : (
-            <div className="flex items-center gap-2">
-              <Link href="/login">
-                <Button variant="outline" size="sm" className="border-white/20 bg-transparent text-white hover:bg-white/10">
-                  Se connecter
-                </Button>
-              </Link>
-              <a href={URL_INSCRIPTION_ODOO}>
-                <Button size="sm">Créer un compte</Button>
-              </a>
-            </div>
-          )}
-        </div>
+      <main className="flex-1 px-4 pt-5 pb-8">
+        <h1 className="text-[21px] font-extrabold text-foreground">Salut !</h1>
+        <p className="mt-1 mb-[18px] text-sm text-muted-foreground">
+          Cherche un mot, français ou alsacien.
+        </p>
 
-        <div className="text-center space-y-4">
-          <h1 className="text-4xl md:text-6xl font-black tracking-tight leading-tight">
-            Elsass Dico <br />
-            <span className="text-indigo-400">Français ⇄ Alsacien</span>
-          </h1>
-          <p className="text-slate-400">
-            Cherchez dans les deux sens. Seules les entrées validées à la main sont publiées.
-          </p>
-        </div>
-
-        <div className="relative">
-          <Search className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-slate-500" />
-          <Input
+        <div className="flex h-12 items-center gap-2.5 rounded-full border border-neutre-300 bg-background px-4">
+          <Search className="h-[18px] w-[18px] shrink-0 text-neutre-400" strokeWidth={2} />
+          <input
+            ref={inputRef}
             value={terme}
             onChange={(e) => setTerme(e.target.value)}
             placeholder="Un mot en français ou en alsacien…"
-            className="h-14 pl-12 pr-12 text-lg bg-white/5 border-white/10 text-white placeholder:text-slate-500"
             autoFocus
+            className="min-w-0 flex-1 bg-transparent text-base font-semibold text-foreground outline-none placeholder:font-normal placeholder:text-neutre-400"
           />
-          {recherche && (
-            <Loader2 className="absolute right-4 top-1/2 -translate-y-1/2 w-5 h-5 animate-spin text-slate-500" />
-          )}
+          <span
+            aria-hidden
+            className={`shrink-0 transition-[opacity,transform,filter] duration-300 ease-doux ${
+              recherche ? "opacity-100 blur-0" : "opacity-0 scale-[0.25] blur-[4px]"
+            }`}
+          >
+            <Loader2 className={`h-[18px] w-[18px] text-neutre-400 ${recherche ? "animate-spin" : ""}`} />
+          </span>
+          <span role="status" aria-live="polite" className="sr-only">
+            {recherche ? "Recherche en cours" : ""}
+          </span>
         </div>
 
-        {resultats.length > 0 && (
-          <div className="space-y-3">
-            {resultats.map((e) => (
-              <Link key={e.id} href={`/entree/${e.id}`}>
-                <div className="rounded-xl border border-white/10 bg-white/5 p-4 hover:border-indigo-400/50 transition-colors">
-                  <div className="flex items-center gap-2 flex-wrap">
-                    <span className="font-semibold">{e.francais}</span>
-                    {e.contexte && (
-                      <Badge variant="outline" className="border-white/20 text-slate-300 font-normal">
-                        {e.contexte}
-                      </Badge>
-                    )}
-                    <span className="text-xs text-slate-500">
-                      {LIBELLES_TYPE_TERME[e.type as TypeTerme] ?? e.type}
-                    </span>
-                  </div>
-                  <p className="text-lg text-indigo-300 font-medium mt-1">
-                    {e.traductions[0]?.alsacien}
-                  </p>
-                  {e.traductions.length > 1 && (
-                    <p className="text-sm text-slate-400 mt-1">
-                      aussi : {e.traductions.slice(1).map((t) => t.alsacien).join(" · ")}
+        <div className="mt-3.5 flex flex-wrap gap-1.5">
+          {CARACTERES_ORTHAL.map((car) => (
+            <button
+              key={car}
+              type="button"
+              onClick={() => insererCaractere(car)}
+              className="flex h-9 min-w-9 items-center justify-center rounded-lg border border-neutre-300 bg-background px-2.5 text-[15px] font-semibold text-foreground transition-colors hover:bg-neutre-50 active:scale-95"
+            >
+              {car}
+            </button>
+          ))}
+        </div>
+
+        {recherche && resultats.length === 0 && (
+          <div className="mt-[22px]">
+            <ListSkeleton lignes={3} />
+          </div>
+        )}
+
+        {!recherche && resultats.length > 0 && (
+          <div>
+            <p className="mb-2.5 mt-[22px] text-xs font-bold uppercase tracking-wide text-neutre-400">
+              Résultats
+            </p>
+            <div className="space-y-2.5">
+              {resultats.map((e) => (
+                <Link
+                  key={e.id}
+                  href={`/entree/${e.id}`}
+                  className="block rounded-lg focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
+                >
+                  <div className="rounded-lg border border-border bg-card p-3.5">
+                    <div className="flex flex-wrap items-center gap-2">
+                      <span className="font-bold text-foreground">{e.francais}</span>
+                      {e.contexte && (
+                        <span className="text-xs text-neutre-400">{e.contexte}</span>
+                      )}
+                    </div>
+                    <p className="mt-1 text-lg font-bold text-foreground">
+                      {e.traductions[0]?.alsacien}
                     </p>
-                  )}
-                  {e.traductions[0]?.region && (
-                    <Badge variant="secondary" className="mt-2 bg-white/10 text-slate-300 font-normal">
-                      {LIBELLES_REGION[e.traductions[0].region as Region]}
-                    </Badge>
-                  )}
-                </div>
-              </Link>
-            ))}
+                    {e.traductions.length > 1 ? (
+                      <p className="mt-1.5 text-sm text-muted-foreground">
+                        aussi : {e.traductions.slice(1).map((t) => t.alsacien).join(" · ")}
+                      </p>
+                    ) : e.traductions[0]?.region === "commun" ? (
+                      <span className="mt-2 inline-flex rounded-full bg-marque-or-50 px-2.5 py-0.5 text-xs font-semibold text-marque-or-700">
+                        Alsacien unifié
+                      </span>
+                    ) : e.traductions[0]?.region ? (
+                      <span className="mt-2 inline-flex rounded-full bg-neutre-100 px-2.5 py-0.5 text-xs font-semibold text-neutre-600">
+                        {e.traductions[0].region === "haut_rhin" ? "Haut-Rhin" : "Bas-Rhin"}
+                      </span>
+                    ) : null}
+                  </div>
+                </Link>
+              ))}
+            </div>
           </div>
         )}
 
         {aCherche && !recherche && resultats.length === 0 && (
-          <div className="rounded-xl border border-white/10 bg-white/5 p-6 text-center space-y-2">
-            <p className="text-slate-300">Aucune entrée validée pour « {terme.trim()} ».</p>
-            <p className="text-sm text-slate-500">
-              Le dictionnaire se construit par recoupement : un mot n&apos;apparaît ici qu&apos;une
-              fois attesté puis arbitré. Vous connaissez la traduction ?{" "}
-              <Link href="/login" className="text-indigo-400 hover:underline">
-                Connectez-vous
-              </Link>{" "}
-              si vous avez déjà un compte, ou{" "}
-              <a href={URL_INSCRIPTION_ODOO} className="text-indigo-400 hover:underline">
-                créez-en un
-              </a>
-              .
+          <div className="mt-3.5 flex flex-col items-center px-3 pb-2 pt-9 text-center">
+            <SearchX className="h-[34px] w-[34px] text-neutre-300" strokeWidth={1.8} />
+            <p className="mt-3 text-base font-bold text-foreground">
+              Aucun résultat pour « {terme.trim()} ».
             </p>
+            <p className="mt-1.5 text-sm text-muted-foreground">
+              Ce mot n&apos;est pas encore dans le dictionnaire.
+            </p>
+            {user && (
+              <Link
+                href={`/contributions/proposer?francais=${encodeURIComponent(terme.trim())}`}
+                className="mt-2.5 text-sm font-semibold text-marque-rouge-texte"
+              >
+                Proposer ce mot →
+              </Link>
+            )}
           </div>
         )}
-
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 pt-4 text-left">
-          <div className="p-4 rounded-xl border border-white/5 bg-white/5">
-            <CheckCircle2 className="w-6 h-6 text-indigo-400 mb-2" />
-            <h3 className="font-bold">Recoupement, pas génération</h3>
-            <p className="text-sm text-slate-400">
-              Aucune entrée n&apos;est retenue si elle n&apos;est attestée que dans une seule source.
-            </p>
-          </div>
-          <div className="p-4 rounded-xl border border-white/5 bg-white/5">
-            <BookOpenCheck className="w-6 h-6 text-cyan-400 mb-2" />
-            <h3 className="font-bold">Graphie ORTHAL 2023</h3>
-            <p className="text-sm text-slate-400">
-              Chaque entrée validée est réécrite selon la norme de l&apos;association AGATE.
-            </p>
-          </div>
-        </div>
-
-        <div className="text-center">
-          <Link href="/login">
-            <Button variant="outline" className="border-white/20 bg-transparent hover:bg-white/10">
-              Espace contributeur <ArrowRight className="ml-2 w-4 h-4" />
-            </Button>
-          </Link>
-        </div>
-      </div>
+      </main>
     </div>
   );
 }

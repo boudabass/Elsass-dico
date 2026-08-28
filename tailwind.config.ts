@@ -9,6 +9,13 @@ export default {
   ],
   theme: {
   	extend: {
+  		fontFamily: {
+  			// Archivo (corps de texte) et Azimut (titres) — design system
+  			// « The Elsassisch Design Systeme », 28/08/2026. Chargées via
+  			// next/font dans layout.tsx, exposées ici en variables CSS.
+  			sans: ['var(--font-archivo)', 'ui-sans-serif', 'system-ui', 'sans-serif'],
+  			display: ['var(--font-azimut)', 'Georgia', 'serif']
+  		},
   		colors: {
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',
@@ -43,6 +50,36 @@ export default {
   			border: 'hsl(var(--border))',
   			input: 'hsl(var(--input))',
   			ring: 'hsl(var(--ring))',
+  			// Couleurs de The Elsassisch. Séparées des surfaces neutres
+  			// (secondary, accent) à dessein : voir l'en-tête de globals.css.
+  			// `rouge-texte` est le seul rouge admissible sur du texte.
+  			marque: {
+  				or: 'hsl(var(--marque-or))',
+  				'or-sombre': 'hsl(var(--marque-or-sombre))',
+  				rouge: 'hsl(var(--marque-rouge))',
+  				'rouge-texte': 'hsl(var(--marque-rouge-texte))',
+  				// Échelles complètes (design system, 28/08/2026) — bg-marque-rouge-500, etc.
+  				'rouge-50': 'hsl(var(--marque-rouge-50))',
+  				'rouge-100': 'hsl(var(--marque-rouge-100))',
+  				'rouge-200': 'hsl(var(--marque-rouge-200))',
+  				'rouge-300': 'hsl(var(--marque-rouge-300))',
+  				'rouge-400': 'hsl(var(--marque-rouge-400))',
+  				'rouge-500': 'hsl(var(--marque-rouge-500))',
+  				'rouge-600': 'hsl(var(--marque-rouge-600))',
+  				'rouge-700': 'hsl(var(--marque-rouge-700))',
+  				'rouge-800': 'hsl(var(--marque-rouge-800))',
+  				'rouge-900': 'hsl(var(--marque-rouge-900))',
+  				'or-50': 'hsl(var(--marque-or-50))',
+  				'or-100': 'hsl(var(--marque-or-100))',
+  				'or-200': 'hsl(var(--marque-or-200))',
+  				'or-300': 'hsl(var(--marque-or-300))',
+  				'or-400': 'hsl(var(--marque-or-400))',
+  				'or-500': 'hsl(var(--marque-or-500))',
+  				'or-600': 'hsl(var(--marque-or-600))',
+  				'or-700': 'hsl(var(--marque-or-700))',
+  				'or-800': 'hsl(var(--marque-or-800))',
+  				'or-900': 'hsl(var(--marque-or-900))'
+  			},
   			chart: {
   				'1': 'hsl(var(--chart-1))',
   				'2': 'hsl(var(--chart-2))',
@@ -59,12 +96,45 @@ export default {
   				'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
   				border: 'hsl(var(--sidebar-border))',
   				ring: 'hsl(var(--sidebar-ring))'
+  			},
+  			// Gris chauds + sémantiques du handoff mobile (design_handoff_mobile_app/,
+  			// 28/08/2026) — voir le commentaire dans globals.css pour la mesure des
+  			// valeurs. Additifs : ne remplacent aucune couleur shadcn existante.
+  			neutre: {
+  				'0': 'hsl(var(--neutre-0))',
+  				'50': 'hsl(var(--neutre-50))',
+  				'100': 'hsl(var(--neutre-100))',
+  				'300': 'hsl(var(--neutre-300))',
+  				'400': 'hsl(var(--neutre-400))',
+  				'600': 'hsl(var(--neutre-600))'
+  			},
+  			bordure: {
+  				defaut: 'hsl(var(--bordure-defaut))',
+  				forte: 'hsl(var(--bordure-forte))'
+  			},
+  			succes: {
+  				'500': 'hsl(var(--succes-500))',
+  				'100': 'hsl(var(--succes-100))'
+  			},
+  			attention: {
+  				'500': 'hsl(var(--attention-500))',
+  				'100': 'hsl(var(--attention-100))'
   			}
   		},
   		borderRadius: {
   			lg: 'var(--radius)',
   			md: 'calc(var(--radius) - 2px)',
-  			sm: 'calc(var(--radius) - 4px)'
+  			sm: 'calc(var(--radius) - 4px)',
+  			// Coin des cartes modales du handoff (ex. confirmation de suppression),
+  			// distinct de `xl` par défaut de Tailwind pour ne rien changer ailleurs.
+  			modal: 'var(--radius-lg)'
+  		},
+  		// Courbe unique des transitions d'état de l'app. Nommée plutôt
+  		// qu'arbitraire : `ease-[cubic-bezier(0.2,0,0,1)]` est rejeté par
+  		// Tailwind comme ambigu (« matches multiple utilities ») et ne produit
+  		// alors AUCUNE règle — la transition retombe silencieusement sur `ease`.
+  		transitionTimingFunction: {
+  			doux: 'cubic-bezier(0.2, 0, 0, 1)'
   		},
   		keyframes: {
   			'accordion-down': {

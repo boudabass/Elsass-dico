@@ -8,7 +8,8 @@ import { Input } from "@/components/ui/input";
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import { Loader2, Scale, Search, ArrowRight, AlertTriangle } from "lucide-react";
+import { Loader2, Search, ArrowRight, AlertTriangle, Users } from "lucide-react";
+import { AppHeader } from "@/components/app-header";
 import {
   listerCandidats,
   listerCandidatsDivergents,
@@ -79,21 +80,26 @@ export default function FileArbitragePage() {
   if (!user || role !== "admin") return <div className="p-8 text-center">Accès refusé</div>;
 
   return (
-    <div className="container mx-auto p-4 md:p-8 max-w-6xl space-y-6">
-      <div className="flex items-center justify-between gap-4 flex-wrap">
-        <div>
-          <h1 className="text-3xl font-bold flex items-center gap-2">
-            <Scale className="w-7 h-7" /> Arbitrage
-          </h1>
-          <p className="text-muted-foreground text-sm mt-1">
-            Une entrée n&apos;est retenue qu&apos;après recoupement. Les candidats attestés par
-            plusieurs sources indépendantes remontent en premier.
-          </p>
-        </div>
-        <Link href="/admin">
-          <Button variant="outline">Utilisateurs</Button>
-        </Link>
-      </div>
+    <div className="flex min-h-screen flex-col">
+      <AppHeader
+        variant="stack"
+        titre="Arbitrage"
+        backHref="/dashboard"
+        trailing={
+          <Link
+            href="/admin"
+            aria-label="Utilisateurs"
+            className="flex h-10 w-10 items-center justify-center rounded-full bg-neutre-100 text-foreground"
+          >
+            <Users className="h-[18px] w-[18px]" strokeWidth={2} />
+          </Link>
+        }
+      />
+      <div className="container mx-auto max-w-6xl space-y-6 p-4 md:p-8">
+      <p className="text-muted-foreground text-sm text-pretty">
+        Une entrée n&apos;est retenue qu&apos;après recoupement. Les candidats attestés par
+        plusieurs sources indépendantes remontent en premier.
+      </p>
 
       <form
         className="flex gap-2"
@@ -106,18 +112,23 @@ export default function FileArbitragePage() {
           value={terme}
           onChange={(e) => setTerme(e.target.value)}
           placeholder="Filtrer sur le français…"
+          className="h-10"
+          aria-label="Filtrer les candidats sur le français"
         />
-        <Button type="submit" variant="outline">
+        <Button type="submit" variant="outline" size="icon" className="h-10 w-10 shrink-0" aria-label="Filtrer">
           <Search className="w-4 h-4" />
         </Button>
       </form>
 
       <Tabs defaultValue="recoupes">
-        <TabsList>
-          <TabsTrigger value="recoupes">Recoupées ({recoupes.length})</TabsTrigger>
-          <TabsTrigger value="divergentes">Divergentes ({divergents.length})</TabsTrigger>
-          <TabsTrigger value="candidats">File d&apos;arbitrage ({compteur(candidats.length)})</TabsTrigger>
-          <TabsTrigger value="entrees">Entrées existantes ({compteur(entrees.length)})</TabsTrigger>
+        {/* tabular-nums : ces compteurs se décrémentent à chaque publication.
+            Avec des chiffres proportionnels, la largeur des onglets bouge sous
+            le curseur au moment précis où l'on enchaîne les arbitrages. */}
+        <TabsList className="h-auto flex-wrap tabular-nums">
+          <TabsTrigger value="recoupes" className="min-h-10">Recoupées ({recoupes.length})</TabsTrigger>
+          <TabsTrigger value="divergentes" className="min-h-10">Divergentes ({divergents.length})</TabsTrigger>
+          <TabsTrigger value="candidats" className="min-h-10">File d&apos;arbitrage ({compteur(candidats.length)})</TabsTrigger>
+          <TabsTrigger value="entrees" className="min-h-10">Entrées existantes ({compteur(entrees.length)})</TabsTrigger>
         </TabsList>
 
         <TabsContent value="recoupes" className="mt-4">
@@ -148,10 +159,17 @@ export default function FileArbitragePage() {
               </CardHeader>
             </Card>
           ) : (
+            /* `block` + anneau porté par le lien : un <a> inline autour d'une
+               Card ne prend pas le focus visible au clavier, et `cursor-pointer`
+               ne compensait que pour la souris. */
             <div className="space-y-3">
               {candidats.map((c) => (
-                <Link key={`${c.cle}|${c.contexte}`} href={lienArbitrage(c.cle, c.contexte)}>
-                  <Card className="hover:border-primary/50 transition-colors cursor-pointer">
+                <Link
+                  key={`${c.cle}|${c.contexte}`}
+                  href={lienArbitrage(c.cle, c.contexte)}
+                  className="block rounded-xl focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
+                >
+                  <Card className="hover:border-primary/50 transition-colors">
                     <CardContent className="p-4 flex items-start justify-between gap-4">
                       <div className="min-w-0">
                         <div className="flex items-center gap-2 flex-wrap">
@@ -184,7 +202,9 @@ export default function FileArbitragePage() {
                             {c.nb_sources} sources
                           </Badge>
                         )}
-                        <Badge variant="secondary">{c.nb_attestations} attest.</Badge>
+                        <Badge variant="secondary" className="tabular-nums">
+                          {c.nb_attestations} attest.
+                        </Badge>
                         <ArrowRight className="w-4 h-4 text-muted-foreground" />
                       </div>
                     </CardContent>
@@ -203,8 +223,12 @@ export default function FileArbitragePage() {
           ) : (
             <div className="space-y-3">
               {entrees.map((e) => (
-                <Link key={e.id} href={lienArbitrage(e.cle, e.contexte)}>
-                  <Card className="hover:border-primary/50 transition-colors cursor-pointer">
+                <Link
+                  key={e.id}
+                  href={lienArbitrage(e.cle, e.contexte)}
+                  className="block rounded-xl focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
+                >
+                  <Card className="hover:border-primary/50 transition-colors">
                     <CardContent className="p-4 flex items-start justify-between gap-4">
                       <div className="min-w-0">
                         <div className="flex items-center gap-2 flex-wrap">
@@ -226,7 +250,9 @@ export default function FileArbitragePage() {
                         >
                           {LIBELLES_STATUT[e.statut as StatutEntree] ?? e.statut}
                         </Badge>
-                        <Badge variant="secondary">{e.nb_attestations} attest.</Badge>
+                        <Badge variant="secondary" className="tabular-nums">
+                          {e.nb_attestations} attest.
+                        </Badge>
                         <ArrowRight className="w-4 h-4 text-muted-foreground" />
                       </div>
                     </CardContent>
@@ -237,6 +263,7 @@ export default function FileArbitragePage() {
           )}
         </TabsContent>
       </Tabs>
+      </div>
     </div>
   );
 }

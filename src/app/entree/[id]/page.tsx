@@ -1,11 +1,14 @@
-import Link from "next/link";
 import { notFound } from "next/navigation";
-import { Badge } from "@/components/ui/badge";
-import { Button } from "@/components/ui/button";
-import { ArrowLeft, Crown, ShieldCheck } from "lucide-react";
+import { Crown, ShieldCheck } from "lucide-react";
+import { AppHeader } from "@/components/app-header";
 import { chargerEntree } from "@/app/actions/recherche";
 import { LIBELLES_REGION, LIBELLES_TYPE_TERME } from "@/lib/dictionnaire";
+import { RangeeActions } from "./actions-row";
 
+// Écran 2 du handoff mobile : header racine avec chevron retour (l'onglet
+// "recherche" reste actif, cf. app-header.tsx) plutôt qu'un header empilé —
+// fidèle au mockup, qui garde les 3 icônes de nav visibles sur cet écran.
+//
 // Page publique : aucune session requise. chargerEntree() ne renvoie que des
 // entrées au statut 'valide', conformément au RLS.
 export default async function EntreePage({ params }: { params: Promise<{ id: string }> }) {
@@ -15,66 +18,58 @@ export default async function EntreePage({ params }: { params: Promise<{ id: str
   if (!entree) notFound();
 
   return (
-    <div className="min-h-screen bg-slate-950 text-white">
-      <div className="container mx-auto px-6 py-12 max-w-2xl space-y-8">
-        <Link href="/">
-          <Button variant="ghost" size="sm" className="text-slate-400 hover:text-white">
-            <ArrowLeft className="w-4 h-4 mr-1" /> Recherche
-          </Button>
-        </Link>
+    <div className="flex min-h-screen flex-col">
+      <AppHeader variant="root" actif="recherche" backHref="/" />
 
-        <div className="space-y-2">
-          <div className="flex items-center gap-3 flex-wrap">
-            <h1 className="text-4xl font-black">{entree.francais}</h1>
-            {entree.contexte && (
-              <Badge variant="outline" className="border-white/20 text-slate-300 font-normal">
-                {entree.contexte}
-              </Badge>
-            )}
-          </div>
-          <p className="text-sm text-slate-500">
-            {LIBELLES_TYPE_TERME[entree.type] ?? entree.type}
-          </p>
-        </div>
+      <main className="flex-1 px-4 pt-[18px] pb-8">
+        <h1 className="text-[32px] font-extrabold leading-[1.1] text-foreground">{entree.francais}</h1>
+        <p className="mt-0.5 text-sm text-neutre-400">
+          {entree.contexte || (LIBELLES_TYPE_TERME[entree.type] ?? entree.type)}
+        </p>
 
-        <div className="space-y-3">
+        <div className="mt-4 flex flex-col gap-2.5">
+          {/* La forme canonique se distingue par la taille, la graisse et son
+              badge, jamais par la couleur seule : « Premier est Roi » doit
+              rester lisible pour qui ne perçoit pas la nuance. */}
           {entree.traductions.map((t, i) => (
             <div
               key={i}
-              className="rounded-xl border border-white/10 bg-white/5 p-4 space-y-2"
+              className={
+                i === 0
+                  ? "rounded-lg border border-marque-or-500 bg-marque-or/[0.07] p-3.5"
+                  : "rounded-lg border border-border bg-card p-3.5"
+              }
             >
-              <div className="flex items-center gap-3 flex-wrap">
-                <span
-                  className={i === 0 ? "text-2xl font-bold text-indigo-300" : "text-lg text-slate-200"}
-                >
+              <div className="flex flex-wrap items-center gap-2">
+                <span className={i === 0 ? "text-xl font-bold text-foreground" : "text-[17px] font-semibold text-foreground"}>
                   {t.alsacien}
                 </span>
                 {i === 0 && (
-                  <Badge className="gap-1 bg-amber-500 hover:bg-amber-500">
-                    <Crown className="w-3 h-3" /> Forme canonique
-                  </Badge>
+                  <span className="inline-flex items-center gap-1 rounded-full bg-marque-or-500 px-2.5 py-0.5 text-xs font-bold text-foreground">
+                    <Crown className="h-[11px] w-[11px]" /> Canonique
+                  </span>
                 )}
-                {t.region && (
-                  <Badge variant="secondary" className="bg-white/10 text-slate-300 font-normal">
+                {t.region && t.region !== "commun" && (
+                  <span className="text-xs text-neutre-400">
                     {LIBELLES_REGION[t.region]}
-                  </Badge>
+                  </span>
                 )}
-                {t.niveau && <span className="text-xs text-slate-500">{t.niveau}</span>}
+                {t.niveau && <span className="text-xs text-neutre-400">{t.niveau}</span>}
               </div>
-              {t.note && <p className="text-sm text-slate-400">{t.note}</p>}
+              {t.note && <p className="mt-1 text-sm text-muted-foreground">{t.note}</p>}
             </div>
           ))}
         </div>
 
         {/* La traçabilité est la défense contre l'accusation d'alsacien
             artificiel : on affiche sur quoi l'entrée s'appuie. */}
-        <div className="rounded-xl border border-white/10 bg-white/5 p-4 space-y-3">
-          <div className="flex items-center gap-2 text-sm font-semibold">
-            <ShieldCheck className="w-4 h-4 text-emerald-400" />
+        <div className="mt-[18px] rounded-lg border border-border bg-card p-3.5">
+          <div className="flex items-center gap-2 text-sm font-bold text-foreground">
+            <ShieldCheck className="h-4 w-4 text-marque-or-700" />
             {entree.nb_attestations} attestation{entree.nb_attestations > 1 ? "s" : ""}
           </div>
           {entree.sources.length > 0 ? (
-            <ul className="space-y-1 text-sm text-slate-400">
+            <ul className="mt-2.5 flex flex-col gap-1.5 text-sm">
               {entree.sources.map((s) => (
                 <li key={s.nom}>
                   {s.url ? (
@@ -82,21 +77,23 @@ export default async function EntreePage({ params }: { params: Promise<{ id: str
                       href={s.url}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="hover:text-indigo-300 hover:underline"
+                      className="inline-block rounded py-0.5 underline-offset-4 transition-colors hover:text-marque-rouge-texte hover:underline focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
                     >
                       {s.nom}
                     </a>
                   ) : (
-                    s.nom
+                    <span className="text-muted-foreground">{s.nom}</span>
                   )}
                 </li>
               ))}
             </ul>
           ) : (
-            <p className="text-sm text-slate-500">Sources non publiées.</p>
+            <p className="mt-2.5 text-sm text-muted-foreground">Sources non publiées.</p>
           )}
         </div>
-      </div>
+
+        <RangeeActions entreeId={entree.id} formeCanonique={entree.traductions[0]?.alsacien ?? ""} />
+      </main>
     </div>
   );
 }

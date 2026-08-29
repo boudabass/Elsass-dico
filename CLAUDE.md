@@ -950,6 +950,87 @@ par un simple lien si besoin, plutôt que de l'embarquer.
   `/admin/arbitrage` passent aussi mobile-first, pas seulement les 6 écrans
   publics du handoff — John doit pouvoir arbitrer depuis son téléphone.
 
+## Mobile-first implémenté et déployé (29/08/2026)
+
+Les 13 flux/16 écrans du handoff (`design_handoff_mobile_app/`) ont été
+recréés dans l'app : nouveau `src/components/app-header.tsx` (icônes de nav
+racine / chevron retour empilé) en remplacement de `MainNav`/`UserNav`
+(supprimés), tokens neutres/succès/attention dans `globals.css`/
+`tailwind.config.ts`, écrans publics reconstruits (recherche, fiche de mot,
+signaler et dictionnaire A-Z — ces deux derniers nouveaux), auth restylée,
+« Mon espace » (fusion dashboard/profil/contributions par rôle,
+`/dashboard`, `/profile` redirige dessus), « Proposer un mot » autonome
+(`/contributions/proposer`), « Mes contributions » restylée, habillage
+mobile-first de `/admin` et `/admin/arbitrage/*` (contenu métier inchangé).
+Deux migrations ajoutées : `20260829000000_navigation_alphabet.sql`
+(`lettres_disponibles()`, `entrees_par_lettre()` — parcours A-Z) et
+`20260829010000_stats_contributeur.sql` (`mes_votes_count()` — compteur de
+Mon espace). **PR #16, mergée et déployée en prod le 29/08/2026.**
+
+Deux simplifications assumées faute de flux backend correspondant, à
+confirmer si besoin : le CTA « Devenir contributeur » (lecteur, Mon espace)
+pointe vers le forum plutôt qu'un changement de rôle self-service
+inexistant ; la carte « À arbitrer » (admin, Mon espace) est un teaser
+(compte + lien vers `/admin/arbitrage`) plutôt qu'un bouton « Promouvoir »
+inline sur une entrée déjà publiée, ce geste n'existant dans aucune action
+actuelle.
+
+**Bug trouvé dès la mise en prod, corrigé le jour même (PR #17) : l'app
+restait à largeur téléphone sur tablette/desktop.** `LayoutWrapper`
+plafonnait toutes les routes à `max-w-md` (402px, gabarit du handoff), y
+compris `/admin/*` dont les pages portent leurs propres conteneurs plus
+larges (`max-w-5xl`/`max-w-6xl`, hérités du 25/08) — imbriqués dans un
+parent plus étroit, ces conteneurs n'avaient plus aucun effet. Le handoff ne
+montre que des cadres de téléphone : rien dans le mockup ni dans la
+vérification initiale ne testait au-delà de cette largeur. Correctif :
+largeur conditionnelle à la route dans `LayoutWrapper` (`usePathname`) —
+progressive par palier pour les écrans app (`max-w-md` → `sm:max-w-lg` →
+`md:max-w-2xl` → `lg:max-w-3xl`, une colonne qui reste une colonne, pas de
+grille multi-colonnes), `max-w-6xl` fixe pour `/admin/*` pour laisser ses
+conteneurs internes reprendre la main. **Leçon pour toute future migration
+mobile-first sur ce modèle : vérifier plusieurs largeurs de viewport
+(mobile, tablette, desktop) avant de considérer le travail terminé, pas
+seulement la largeur du mockup fourni.**
+
+## Nav responsive : rail desktop/tablette + barre mobile (30/08/2026)
+
+Le header à icônes du 28/08 (`app-header.tsx`) était strictement identique à
+toutes les largeurs — aucune adaptation tablette/desktop de la nav
+elle-même, seule la colonne de contenu s'élargissait (correctif du 29/08
+ci-dessus). Corrigé en appliquant à Dico le standard de nav responsive
+documenté le même jour dans Claude Design (projet « The Elsassisch Design
+Systeme » -> composant AppNav, calqué sur `AppShell` d'Elsass Game) :
+
+- Nouveau `src/components/app-nav-shell.tsx` : barre d'onglets fixe en bas
+  sur mobile, rail vertical fixe à gauche dès la tablette (`md`, icônes
+  seules) puis desktop (`lg`, icônes + libellés) — mêmes destinations
+  qu'avant (Recherche/Dictionnaire/Mon espace). Overlay en position fixe,
+  pas un wrapper de layout : évite de retoucher `LayoutWrapper`, qui portait
+  déjà le correctif de largeur de la veille. Les 4 écrans concernés (`/`,
+  `/dictionnaire`, `/dashboard`, `/entree/[id]`) réservent la place via un
+  padding responsive sur leur propre conteneur (`md:pl-20 lg:pl-56` /
+  `pb-16 md:pb-0`).
+- `app-header.tsx` allégé : ne porte plus les icônes de nav (déplacées dans
+  `AppNavShell`), garde seulement le wordmark/titre et le chevron retour.
+- **4e destination conditionnelle : « Arbitrage »**, visible uniquement si
+  `role === "admin"` — même condition stricte que le middleware sur
+  `/admin/*`, pas juste « connecté » : un utilisateur ou contributeur
+  connecté serait de toute façon redirigé vers `/dashboard` en accédant à
+  `/admin/arbitrage`, un lien affiché pour lui n'aurait mené nulle part.
+  `/admin/arbitrage` garde son propre `AppHeader` en `variant="stack"`
+  inchangé (trailing vers `/admin`, retour vers `/dashboard`) : l'icône ne
+  s'affiche donc jamais « active » une fois sur la page elle-même, comme
+  `/admin` aujourd'hui — seulement en highlight d'entrée depuis les 3
+  autres écrans racine.
+
+Vérifié : `tsc --noEmit` propre, `next build` jusqu'au bout (types, lint,
+15/15 pages générées) — seul l'échec final est un `EPERM` sur les liens
+symboliques Windows du mode standalone, sans rapport avec le code. Testé en
+navigateur à 3 largeurs (mobile ~390px, tablette ~1024px, desktop ~1320px)
+et sur `/admin` (écran « stack », confirmé sans rail — comportement
+inchangé). Branche `feat/nav-adaptative-appnav`, PR ouverte vers `main`
+(protégé par ruleset, aucun push direct).
+
 ## Règles de travail
 
 - Ne jamais inventer de traduction alsacienne, même pour un exemple ou un test.

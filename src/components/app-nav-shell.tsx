@@ -1,8 +1,9 @@
 "use client";
 
 import Link from "next/link";
-import { BookOpen, Search, User, type LucideIcon } from "lucide-react";
+import { BookOpen, Gavel, Search, User, type LucideIcon } from "lucide-react";
 import { cn } from "@/lib/utils";
+import { useAuth } from "@/components/auth-provider";
 
 // Nav persistante des écrans racine (Recherche/Dictionnaire/Mon espace) :
 // barre d'onglets en bas sur mobile, rail vertical à gauche dès la tablette
@@ -19,16 +20,41 @@ import { cn } from "@/lib/utils";
 // 29/08 (PR #17) et n'a pas besoin d'un second changement structurel dans la
 // même semaine. Chaque écran racine réserve la place via un padding
 // responsive (`md:pl-20 lg:pl-56` / `pb-16 md:pb-0`) sur son propre conteneur.
+//
+// 4e destination conditionnelle (30/08) : « Arbitrage », visible seulement
+// pour role === "admin" (même condition stricte que le middleware sur
+// /admin/*, pas juste "connecté" — un utilisateur/contributeur connecté ne
+// peut de toute façon pas accéder à cette page). /admin/arbitrage garde son
+// propre AppHeader en variant="stack" (trailing vers /admin, retour vers
+// /dashboard) : cette icône ne s'affiche donc jamais "active" une fois sur
+// la page elle-même, comme /admin aujourd'hui — seulement en highlight
+// d'entrée depuis les 3 autres écrans racine.
 
-export type OngletRacine = "recherche" | "dictionnaire" | "compte";
+export type OngletRacine = "recherche" | "dictionnaire" | "compte" | "arbitrage";
 
-export const ONGLETS: { cle: OngletRacine; href: string; icone: LucideIcon; libelle: string }[] = [
+type Onglet = { cle: OngletRacine; href: string; icone: LucideIcon; libelle: string };
+
+export const ONGLETS: Onglet[] = [
   { cle: "recherche", href: "/", icone: Search, libelle: "Recherche" },
   { cle: "dictionnaire", href: "/dictionnaire", icone: BookOpen, libelle: "Dictionnaire" },
   { cle: "compte", href: "/dashboard", icone: User, libelle: "Mon espace" },
 ];
 
+// Réservé aux admins — même condition que le middleware sur /admin/* (rôle
+// admin strict, pas juste "connecté") : un utilisateur ou contributeur
+// connecté qui verrait cette icône se ferait rediriger vers /dashboard en
+// cliquant dessus, ce que /admin/arbitrage impose déjà.
+const ONGLET_ARBITRAGE: Onglet = {
+  cle: "arbitrage",
+  href: "/admin/arbitrage",
+  icone: Gavel,
+  libelle: "Arbitrage",
+};
+
 export function AppNavShell({ actif }: { actif: OngletRacine }) {
+  const { role } = useAuth();
+  const onglets = role === "admin" ? [...ONGLETS, ONGLET_ARBITRAGE] : ONGLETS;
+
   return (
     <>
       {/* Rail — tablette (icônes seules) et desktop (icônes + libellés) */}
@@ -36,7 +62,7 @@ export function AppNavShell({ actif }: { actif: OngletRacine }) {
         aria-label="Navigation"
         className="fixed inset-y-0 left-0 z-30 hidden w-20 flex-col items-center gap-1 border-r border-border bg-background py-4 md:flex lg:w-56 lg:items-stretch lg:px-4"
       >
-        {ONGLETS.map(({ cle, href, icone: Icone, libelle }) => {
+        {onglets.map(({ cle, href, icone: Icone, libelle }) => {
           const estActif = actif === cle;
           return (
             <Link
@@ -62,7 +88,7 @@ export function AppNavShell({ actif }: { actif: OngletRacine }) {
         aria-label="Navigation"
         className="fixed inset-x-0 bottom-0 z-30 flex h-16 border-t border-border bg-background pb-[env(safe-area-inset-bottom)] md:hidden"
       >
-        {ONGLETS.map(({ cle, href, icone: Icone, libelle }) => {
+        {onglets.map(({ cle, href, icone: Icone, libelle }) => {
           const estActif = actif === cle;
           return (
             <Link

@@ -2,25 +2,24 @@
 
 import Link from "next/link";
 import { useRouter } from "next/navigation";
-import { BookOpen, ChevronLeft, Search, User, X } from "lucide-react";
+import { ChevronLeft, X } from "lucide-react";
 import { cn } from "@/lib/utils";
+import { AppNavShell, type OngletRacine } from "@/components/app-nav-shell";
 
 // En-tête mobile-first du handoff design_handoff_mobile_app/ (Claude Design,
-// 28/08/2026) : navigation par icônes d'en-tête, pas de barre d'onglets basse.
-// Remplace MainNav/UserNav en haut de LayoutWrapper.
+// 28/08/2026), complété le 29/08 par le standard de nav responsive
+// documenté dans Claude Design (« The Elsassisch Design Systeme » -> AppNav) :
+// les 3 destinations (Recherche/Dictionnaire/Mon espace), jusque-là des
+// icônes fixes dans ce header à toutes les largeurs, sont maintenant portées
+// par AppNavShell — barre d'onglets en bas sur mobile, rail vertical à
+// gauche dès la tablette (`md`). Ce header ne garde que le wordmark/titre et
+// le chevron retour ; AppNavShell est monté en overlay fixe à côté (voir
+// AppHeader plus bas), pas dans le flux de ce header.
 //
 // Le mockup simule un padding-top de 54px pour dégager la fausse barre de
 // statut du bezel de démo (ios-frame.jsx). Ici l'app tourne dans un vrai
 // navigateur : on respecte plutôt env(safe-area-inset-top), qui ne vaut
 // quelque chose que sur mobile/PWA installée et reste à 0 ailleurs.
-
-type OngletRacine = "recherche" | "dictionnaire" | "compte";
-
-const ONGLETS: { cle: OngletRacine; href: string; icone: typeof Search; libelle: string }[] = [
-  { cle: "recherche", href: "/", icone: Search, libelle: "Recherche" },
-  { cle: "dictionnaire", href: "/dictionnaire", icone: BookOpen, libelle: "Dictionnaire" },
-  { cle: "compte", href: "/dashboard", icone: User, libelle: "Mon espace" },
-];
 
 interface AppHeaderRootProps {
   variant: "root";
@@ -48,18 +47,21 @@ const BOUTON_ICONE =
 
 export function AppHeader(props: AppHeaderProps) {
   return (
-    <header
-      className="sticky top-0 z-40 border-b border-border bg-background"
-      style={{ paddingTop: "env(safe-area-inset-top)" }}
-    >
-      <div className="flex h-14 items-center justify-between gap-2 px-4">
-        {props.variant === "root" ? <EnteteRacine {...props} /> : <EnteteEmpilee {...props} />}
-      </div>
-    </header>
+    <>
+      {props.variant === "root" ? <AppNavShell actif={props.actif} /> : null}
+      <header
+        className="sticky top-0 z-40 border-b border-border bg-background"
+        style={{ paddingTop: "env(safe-area-inset-top)" }}
+      >
+        <div className="flex h-14 items-center justify-between gap-2 px-4">
+          {props.variant === "root" ? <EnteteRacine {...props} /> : <EnteteEmpilee {...props} />}
+        </div>
+      </header>
+    </>
   );
 }
 
-function EnteteRacine({ actif, titre, backHref }: AppHeaderRootProps) {
+function EnteteRacine({ titre, backHref }: AppHeaderRootProps) {
   return (
     <>
       {backHref ? (
@@ -75,27 +77,6 @@ function EnteteRacine({ actif, titre, backHref }: AppHeaderRootProps) {
       ) : (
         <span className="font-display text-xl text-marque-rouge-texte">Elsass&nbsp;Dico</span>
       )}
-      <nav className="flex shrink-0 items-center gap-1.5">
-        {ONGLETS.map(({ cle, href, icone: Icone, libelle }) => {
-          const estActif = actif === cle;
-          return (
-            <Link
-              key={cle}
-              href={href}
-              aria-label={libelle}
-              aria-current={estActif ? "page" : undefined}
-              className={cn(
-                BOUTON_ICONE,
-                estActif
-                  ? "bg-marque-rouge-50 text-marque-rouge-500"
-                  : "text-neutre-400 hover:bg-neutre-100"
-              )}
-            >
-              <Icone className="h-5 w-5" strokeWidth={2} />
-            </Link>
-          );
-        })}
-      </nav>
     </>
   );
 }

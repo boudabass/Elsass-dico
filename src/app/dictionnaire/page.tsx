@@ -45,7 +45,7 @@ export default function DictionnairePage() {
   }, [lettre]);
 
   return (
-    <div className="flex min-h-screen flex-col">
+    <div className="flex min-h-screen flex-col pb-16 md:pb-0 md:pl-20 lg:pl-56">
       <AppHeader variant="root" actif="dictionnaire" titre="Dictionnaire" />
 
       <div className="flex gap-1.5 overflow-x-auto border-b border-border px-4 pb-1 pt-3">

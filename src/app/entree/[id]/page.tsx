@@ -18,7 +18,7 @@ export default async function EntreePage({ params }: { params: Promise<{ id: str
   if (!entree) notFound();
 
   return (
-    <div className="flex min-h-screen flex-col">
+    <div className="flex min-h-screen flex-col pb-16 md:pb-0 md:pl-20 lg:pl-56">
       <AppHeader variant="root" actif="recherche" backHref="/" />
 
       <main className="flex-1 px-4 pt-[18px] pb-8">

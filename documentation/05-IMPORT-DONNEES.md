@@ -1,5 +1,15 @@
 # 05 - Procédure d'import des données (Finalisée)
 
+> **Document périmé, conservé pour mémoire.** Décrit `import_from_json.py`,
+> qui insérait dans le schéma à 4 tables plates depuis le dossier
+> `Dictionnaire/` (supprimé le 30/08/2026). Ce script n'existe plus — la
+> procédure d'ingestion réelle est `scripts/ingest_attestations.py`
+> (idempotent, simulation par défaut, contrat dans `data/README.md` sur la
+> branche `data`), qui alimente `attestations`, jamais directement `entrees` :
+> le passage à une entrée publiée reste un arbitrage humain via
+> `arbitrer_entree()`. Voir « Décisions prises » et les sections « Campagne »
+> de `CLAUDE.md` à la racine du dépôt, qui fait foi.
+
 Ce document détaille le processus d'importation massive des 52 fichiers TXT sources vers les tables Supabase.
 
 ## 1. Fichiers sources (Structure A-Z)

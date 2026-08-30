@@ -1,5 +1,14 @@
 # 04 - Architecture Technique
 
+> **Document périmé, conservé pour mémoire.** Décrit une architecture jamais
+> construite (routes `/api/traduire`, `/api/dico`, composants
+> `TranslationBox`/`VirtualKeyboard`...) issue de la vision initiale de
+> traducteur de phrases. L'app réellement construite est un dictionnaire
+> (recherche bidirectionnelle, pas de traduction de texte libre), en Server
+> Actions Next.js + RPC Postgres sur Supabase self-hosted — cf. `CLAUDE.md` à
+> la racine du dépôt, qui fait foi pour l'architecture réelle. Le dossier
+> `Dictionnaire/` mentionné ci-dessous a été supprimé le 30/08/2026.
+
 Ce document détaille l'organisation des services, la structure des fichiers et le flux de données pour l'application Alsacien Traducteur.
 
 ## 1. Architecture Globale

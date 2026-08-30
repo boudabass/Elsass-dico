@@ -1,5 +1,13 @@
 # 03 - Décisions Techniques
 
+> **Document périmé, conservé pour mémoire.** Consigne des choix initiaux
+> (schéma à 4 tables, rôle « éditeur », sign-up désactivé, dossier
+> `Dictionnaire/`...) présentés comme figés mais depuis reconsidérés ou
+> abandonnés. Les décisions réellement en vigueur (modèle attestations/entrees,
+> rôles user/contributeur/admin, authentification adossée à Odoo, etc.) sont
+> consignées dans `CLAUDE.md` à la racine du dépôt, qui fait foi. Le dossier
+> `Dictionnaire/` a été supprimé le 30/08/2026.
+
 Ce document consigne les choix structurants pour le projet Alsacien Traducteur. Ces décisions sont désormais figées pour assurer la cohérence du développement.
 
 ## 1. Stack Technologique (Validée)

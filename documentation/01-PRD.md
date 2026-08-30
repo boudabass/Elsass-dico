@@ -1,5 +1,15 @@
 # PRD - Application de Traduction Français-Alsacien
 
+> **Document périmé, conservé pour mémoire.** Décrit la vision initiale du
+> projet (boilerplate pré-31/07/2026 : traduction assistée de texte complet,
+> crowdsourcing anonyme, dossier `Dictionnaire/`). Cette vision a été
+> abandonnée au profit d'un dictionnaire (pas d'un traducteur de phrases) bâti
+> sur un modèle à deux niveaux `attestations` → `entrees`, alimenté par
+> recoupement multi-sources et validé par un humain. Le dossier `Dictionnaire/`
+> mentionné ci-dessous a été supprimé le 30/08/2026 (repris et étendu par la
+> campagne 3, cf. `CLAUDE.md` à la racine du dépôt, qui fait foi pour l'état
+> réel et les décisions prises).
+
 ## 1. Vision & Objectifs
 - **Nom** : Elsass Dico
 - **Mission** : Sauvegarder et rendre accessible la langue alsacienne via un outil moderne et rapide.

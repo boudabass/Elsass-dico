@@ -34,7 +34,7 @@ Le point de divergence le plus critique pour l'unification de l'alsacien est la 
 Pour éviter de fragmenter la langue, le dictionnaire adopte une **posture tranchée** :
 1.  **Une Seule Forme Affichée** : L'utilisateur ne verra jamais "màche / màcha". Il verra une seule forme (définie par l'Index 0 de la donnée).
 2.  **Cohérence de Bloc** : Si un verbe est affiché en `-e`, son contexte doit suivre la même logique (articles en `de`, etc.) pour éviter les "phrases Frankenstein".
-3.  **Choix Éditorial** : Le choix entre `-e` et `-a` pour la forme canonique est déterminé lors de la constitution du dictionnaire (Dossier `Dictionnaire/`). Ce choix constitue la norme du projet.
+3.  **Choix Éditorial** : Le choix entre `-e` et `-a` pour la forme canonique suit la règle « Premier est Roi » (index 0 du tableau de traductions d'une entrée), arbitré par un humain — cf. la doctrine éditoriale de `CLAUDE.md` à la racine du dépôt.
 ```
 
 ---

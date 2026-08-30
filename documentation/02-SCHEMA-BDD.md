@@ -1,6 +1,14 @@
 # Cahier des charges - Schéma Base de Données (PostgreSQL)
 **Projet : Alsacien Traducteur v1.0**
 
+> **Document périmé, conservé pour mémoire.** Décrit le schéma initial à 4
+> tables plates (`mots_fr_als`, `expressions_fr_als`...), abandonné au profit
+> du modèle à deux niveaux (`sources`, `attestations`, `entrees`,
+> `entree_attestations`) — cf. la migration
+> `supabase/migrations/20260731120000_schema_dictionnaire.sql` et les
+> « Décisions prises » de `CLAUDE.md`, qui fait foi pour le schéma réel. Le
+> dossier `Dictionnaire/` mentionné ci-dessous a été supprimé le 30/08/2026.
+
 ## 1. Objectif du schéma
 Stockage et indexation de 46 000 entrées issues des extractions JSON consolidées (Dossier `Dictionnaire/`). Ce schéma supporte la recherche rapide, la priorisation des expressions et l'unification ORTHAL.
 

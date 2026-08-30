@@ -14,12 +14,17 @@ import { usePathname } from "next/navigation";
 // plafond enveloppait TOUTES les routes, y compris /admin/* dont les pages
 // portent déjà leurs propres conteneurs plus larges (max-w-5xl/max-w-6xl,
 // hérités du 25/08) — imbriqués dans un parent plus étroit, ces conteneurs
-// n'avaient plus aucun effet. La largeur est donc désormais conditionnelle :
-// progressive par palier pour les écrans app (une colonne qui reste une
-// colonne, juste plus large), large fixe pour /admin/* afin de laisser ses
-// conteneurs internes reprendre la main. Le fond neutre autour de la colonne
-// est conservé : sur grand écran, il signale que l'espacement est voulu.
-const LARGEUR_APP = "max-w-md sm:max-w-lg md:max-w-2xl lg:max-w-3xl";
+// n'avaient plus aucun effet.
+//
+// Révisé le 30/08/2026 (retour utilisateur) : plafonner la colonne app
+// (même progressivement, jusqu'à max-w-3xl) laissait encore de grandes
+// bandes de fond neutre de chaque côté sur tablette/desktop. Décision :
+// la colonne app prend toute la largeur disponible — aucun plafond — la
+// disposition mobile-first (une colonne, pas de grille multi-colonnes)
+// reste inchangée à l'intérieur ; seule la largeur du conteneur change.
+// /admin/* garde son plafond fixe, ses conteneurs internes reprenant la
+// main comme avant.
+const LARGEUR_APP = "";
 const LARGEUR_ADMIN = "max-w-6xl";
 
 export function LayoutWrapper({ children }: { children: React.ReactNode }) {

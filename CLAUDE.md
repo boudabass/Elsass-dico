@@ -1031,6 +1031,47 @@ et sur `/admin` (écran « stack », confirmé sans rail — comportement
 inchangé). Branche `feat/nav-adaptative-appnav`, PR ouverte vers `main`
 (protégé par ruleset, aucun push direct).
 
+## Largeur pleine page sur tablette/desktop (30/08/2026)
+
+**Révise le correctif du 29/08/2026 ci-dessus.** `LARGEUR_APP` plafonnait
+progressivement la colonne app jusqu'à `max-w-3xl` (768px), y compris sur
+grand écran — laissant de larges bandes de fond neutre de chaque côté,
+perçues par John comme un bug plutôt qu'un choix. Décision : la colonne app
+prend désormais toute la largeur disponible, sans plafond
+(`src/components/layout-wrapper.tsx`, `LARGEUR_APP = ""`). La disposition
+reste mobile-first à l'intérieur (une seule colonne, pas de grille
+multi-colonnes) — seul le conteneur s'élargit. `/admin/*` garde son plafond
+fixe `max-w-6xl`, inchangé. Les 4 écrans qui réservent la place du rail par
+leur propre padding (`md:pl-20 lg:pl-56`, cf. section précédente) n'étaient
+pas concernés et n'ont pas bougé. PR #19, mergée sur `main`.
+
+## Audit CPU du conteneur elsass-dico (30/08/2026)
+
+John coupe régulièrement `elsass-dico` et `supabase` sur Coolify quand le CPU
+du VPS sature. Revue du code (recherche publique, navigation A-Z,
+`auth-provider`, écrans d'arbitrage, `middleware.ts`, `next.config.ts`,
+`Dockerfile`, `package.json`) : **rien de flagrant** — recherche debounced
+250ms déléguée à une RPC Postgres plafonnée à 30 résultats, aucun
+`setInterval`/canal realtime/polling, pas de `next/image` ni de lib
+CPU-intensive, un seul process Node en prod.
+
+- **Trouvé côté Coolify (lecture seule) : `elsass-dico` n'avait aucune limite
+  CPU/RAM** (`limits_cpus: "0"`, `limits_memory: "0"` via `get_application`)
+  — rien n'empêche un pic de manger tout le CPU du VPS plutôt que d'être
+  contenu au conteneur. Toujours vrai à cette date, Claude Code n'a pas
+  d'accès en écriture Coolify pour le corriger.
+- **Les métriques Sentinel du serveur étaient désactivées**
+  (`is_metrics_enabled: false`) — aucun historique CPU par conteneur
+  n'existait, donc aucun diagnostic autre que la lecture de code n'était
+  possible. **John les a activées le 30/08/2026** : la prochaine fois que le
+  CPU sature, un vrai graphique par conteneur permettra de trancher
+  (trafic/bot vs boucle interne) au lieu de deviner depuis le code.
+- Point faible relevé, non corrigé : rien ne limite le trafic public
+  (pas de rate limiting), et `middleware.ts` appelle
+  `supabase.auth.getUser()` sur quasiment toute requête — un scraper agressif
+  amplifierait la charge sur Supabase à chaque hit, ce qui expliquerait que
+  les deux services saturent ensemble.
+
 ## Règles de travail
 
 - Ne jamais inventer de traduction alsacienne, même pour un exemple ou un test.

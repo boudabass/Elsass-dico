@@ -19,7 +19,7 @@ export default async function EntreePage({ params }: { params: Promise<{ id: str
 
   return (
     <div className="flex min-h-screen flex-col pb-16 md:pb-0 md:pl-20 lg:pl-56">
-      <AppHeader variant="root" actif="recherche" backHref="/" />
+      <AppHeader variant="root" actif="recherche" backHref />
 
       <main className="flex-1 px-4 pt-[18px] pb-8">
         <h1 className="text-[32px] font-extrabold leading-[1.1] text-foreground">{entree.francais}</h1>

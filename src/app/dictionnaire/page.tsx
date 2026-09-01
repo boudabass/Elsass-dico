@@ -1,7 +1,8 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { Suspense, useEffect, useState } from "react";
 import Link from "next/link";
+import { useRouter, useSearchParams } from "next/navigation";
 import { BookOpen, ChevronRight } from "lucide-react";
 import { AppHeader } from "@/components/app-header";
 import { ListSkeleton } from "@/components/ui/list-skeleton";
@@ -19,18 +20,41 @@ import type { Entree } from "@/lib/dictionnaire";
 const ALPHABET = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("");
 
 export default function DictionnairePage() {
+  return (
+    <Suspense fallback={<AppHeader variant="root" actif="dictionnaire" titre="Dictionnaire" />}>
+      <DictionnaireContenu />
+    </Suspense>
+  );
+}
+
+function DictionnaireContenu() {
+  const router = useRouter();
+  const searchParams = useSearchParams();
+  const lettreDepuisUrl = searchParams.get("lettre");
+
   const [disponibles, setDisponibles] = useState<Set<string> | null>(null);
   const [lettre, setLettre] = useState<string | null>(null);
   const [entrees, setEntrees] = useState<Entree[]>([]);
   const [chargement, setChargement] = useState(true);
 
+  // Lettre restaurée depuis l'URL au premier chargement (retour navigateur
+  // depuis une fiche de mot) plutôt que toujours repartir sur la première
+  // lettre disponible.
   useEffect(() => {
     lettresDisponiblesAction().then((lettres) => {
       const disponiblesSet = new Set(lettres);
       setDisponibles(disponiblesSet);
-      setLettre(lettres[0] ?? null);
+      const restauree =
+        lettreDepuisUrl && disponiblesSet.has(lettreDepuisUrl) ? lettreDepuisUrl : lettres[0] ?? null;
+      setLettre(restauree);
     });
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
+
+  function choisirLettre(car: string) {
+    setLettre(car);
+    router.replace(`/dictionnaire?lettre=${car}`, { scroll: false });
+  }
 
   useEffect(() => {
     if (!lettre) {
@@ -57,7 +81,7 @@ export default function DictionnairePage() {
               key={car}
               type="button"
               disabled={!dispo}
-              onClick={() => setLettre(car)}
+              onClick={() => choisirLettre(car)}
               className={
                 active
                   ? "flex h-8 min-w-8 shrink-0 items-center justify-center rounded-full bg-marque-rouge-500 text-[13px] font-bold text-white"

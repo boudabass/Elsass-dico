@@ -1072,6 +1072,49 @@ CPU-intensive, un seul process Node en prod.
   amplifierait la charge sur Supabase à chaque hit, ce qui expliquerait que
   les deux services saturent ensemble.
 
+## Retour depuis une fiche de mot restaure l'état d'origine (30/08/2026)
+
+**Bug remonté par John : le chevron retour de `/entree/[id]` renvoyait toujours
+vers `/`**, quelle que soit la page d'où venait l'utilisateur — perdant la
+lettre choisie dans le dictionnaire (retour systématique sur A) et le terme
+tapé dans la recherche (champ vide au retour). Deux causes distinctes,
+corrigées ensemble :
+
+- **La destination était figée.** `AppHeader` (`variant="root"`) ne savait
+  faire qu'un `Link` vers un `backHref` fixe ; `entree/[id]/page.tsx` codait en
+  dur `backHref="/"`. `backHref` accepte désormais aussi `true`, qui déclenche
+  `router.back()` (`src/components/app-header.tsx`) — la fiche de mot passe
+  cette valeur plutôt qu'une chaîne, donc le retour va réellement à la page
+  d'où on vient (recherche ou dictionnaire), pas à un lieu fixe.
+- **Revenir à la bonne page ne suffit pas si son état interne (lettre
+  sélectionnée, terme recherché) était en `useState` local** : une navigation
+  entre deux routes différentes remonte le composant, réinitialisant ses
+  `useState` à leur valeur par défaut même si l'URL redevient la bonne.
+  Corrigé en faisant porter cet état par l'URL plutôt que par du seul state
+  React : `/dictionnaire?lettre=B`, `/?q=Barr`, mis à jour par
+  `router.replace(..., { scroll: false })` (pas `push`, pour ne pas empiler
+  une entrée d'historique par lettre cliquée ou par recherche tapée) dans
+  `src/app/dictionnaire/page.tsx` et `src/app/page.tsx`. Au montage, l'état
+  initial se lit dans l'URL (`useSearchParams().get(...)`) plutôt que d'être
+  toujours la valeur par défaut.
+- **`useSearchParams()` impose un `<Suspense>`** autour de tout composant qui
+  l'appelle, sous peine d'échec de `next build` (« should be wrapped in a
+  suspense boundary »). Les deux pages sont donc scindées en une coquille
+  `export default` qui pose le `Suspense` (fallback : juste l'`AppHeader`, sans
+  contenu — l'écran est de toute façon rendu côté client) et un composant
+  `*Contenu` qui porte la logique existante.
+- **Un `next build` lancé pendant que `next dev` tournait a de nouveau cassé
+  ses assets** (cf. [[outillage-poste-john]], la mise en garde existait déjà et
+  a été enfreinte en vérifiant ce correctif) — le dev a dû être arrêté
+  (`taskkill`) et relancé après `rm -rf .next`. **Ne jamais lancer `next build`
+  pour vérifier un correctif tant qu'un `next dev` tourne** : utiliser
+  uniquement `tsc --noEmit`, ou arrêter le dev avant le build et le relancer
+  après.
+- Vérifié en navigateur (pas seulement à la lecture du code) : dictionnaire
+  lettre A → clic B → clic « Barr » → retour → lettre B toujours affichée ;
+  recherche « Barr » → clic résultat → retour → champ et résultats « Barr »
+  restaurés.
+
 ## Règles de travail
 
 - Ne jamais inventer de traduction alsacienne, même pour un exemple ou un test.

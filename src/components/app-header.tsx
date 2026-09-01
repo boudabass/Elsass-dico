@@ -26,8 +26,13 @@ interface AppHeaderRootProps {
   actif: OngletRacine;
   /** Absent : wordmark "Elsass Dico". Présent : titre de page (Dictionnaire, Mon espace…). */
   titre?: string;
-  /** Écran 2 du handoff (fiche de mot) : chevron retour à la place du wordmark/titre, mais les 3 icônes de nav restent affichées (l'onglet d'origine reste actif). */
-  backHref?: string;
+  /**
+   * Écran 2 du handoff (fiche de mot) : chevron retour à la place du wordmark/titre,
+   * mais les 3 icônes de nav restent affichées (l'onglet d'origine reste actif).
+   * `true` revient à l'historique du navigateur (recherche ou dictionnaire, scroll et
+   * état préservés par le cache du routeur) plutôt que vers une destination fixe.
+   */
+  backHref?: string | true;
 }
 
 interface AppHeaderStackProps {
@@ -62,14 +67,22 @@ export function AppHeader(props: AppHeaderProps) {
 }
 
 function EnteteRacine({ titre, backHref }: AppHeaderRootProps) {
+  const router = useRouter();
+  const classeBouton = cn(BOUTON_ICONE, "bg-neutre-100 text-foreground");
+
   return (
     <>
-      {backHref ? (
-        <Link
-          href={backHref}
+      {backHref === true ? (
+        <button
+          type="button"
+          onClick={() => router.back()}
           aria-label="Retour"
-          className={cn(BOUTON_ICONE, "bg-neutre-100 text-foreground")}
+          className={classeBouton}
         >
+          <ChevronLeft className="h-[18px] w-[18px]" strokeWidth={2.2} />
+        </button>
+      ) : backHref ? (
+        <Link href={backHref} aria-label="Retour" className={classeBouton}>
           <ChevronLeft className="h-[18px] w-[18px]" strokeWidth={2.2} />
         </Link>
       ) : titre ? (

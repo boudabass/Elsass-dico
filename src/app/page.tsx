@@ -1,7 +1,8 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { Suspense, useEffect, useRef, useState } from "react";
 import Link from "next/link";
+import { useRouter, useSearchParams } from "next/navigation";
 import { Loader2, Search, SearchX } from "lucide-react";
 import { AppHeader } from "@/components/app-header";
 import { ListSkeleton } from "@/components/ui/list-skeleton";
@@ -17,26 +18,42 @@ import { useAuth } from "@/components/auth-provider";
 const CARACTERES_ORTHAL = ["à", "ì", "ü", "ù", "ë", "ö", "ä", "œ"];
 
 export default function AccueilPage() {
+  return (
+    <Suspense fallback={<AppHeader variant="root" actif="recherche" />}>
+      <AccueilContenu />
+    </Suspense>
+  );
+}
+
+function AccueilContenu() {
   const { user } = useAuth();
+  const router = useRouter();
+  const searchParams = useSearchParams();
   const inputRef = useRef<HTMLInputElement>(null);
-  const [terme, setTerme] = useState("");
+  // Terme restauré depuis l'URL au premier chargement (retour navigateur
+  // depuis une fiche de mot) plutôt que toujours repartir d'une recherche vide.
+  const [terme, setTerme] = useState(() => searchParams.get("q") ?? "");
   const [resultats, setResultats] = useState<ResultatRecherche[]>([]);
   const [recherche, setRecherche] = useState(false);
   const [aCherche, setACherche] = useState(false);
 
   // Recherche différée : la frappe ne doit pas déclencher un aller-retour par
   // caractère, et la RPC refuse de toute façon les termes d'un seul caractère.
+  // L'URL est mise à jour (replace, pas push) au même rythme que la recherche,
+  // pour qu'un retour depuis une fiche de mot retombe sur la même requête.
   useEffect(() => {
     const requete = terme.trim();
     if (requete.length < 2) {
       setResultats([]);
       setACherche(false);
       setRecherche(false);
+      router.replace("/", { scroll: false });
       return;
     }
 
     setRecherche(true);
     const minuteur = setTimeout(async () => {
+      router.replace(`/?q=${encodeURIComponent(requete)}`, { scroll: false });
       const trouves = await rechercherAction(requete);
       setResultats(trouves);
       setACherche(true);
@@ -44,6 +61,7 @@ export default function AccueilPage() {
     }, 250);
 
     return () => clearTimeout(minuteur);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [terme]);
 
   // Insère le caractère à l'endroit du curseur plutôt qu'en fin de chaîne :

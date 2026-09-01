@@ -205,6 +205,100 @@ function cleDeTri(alsacien: string): string {
         .toLowerCase()
 }
 
+// Les deux traits dialectaux qui expliquent, à eux seuls, une divergence sur
+// cinq. Mesurés en base le 01/09/2026 sur les 27 179 attestations, pas supposés.
+//
+// 1. ALTERNANCE a ~ e. Il y a une vraie isoglosse, et culture_alsace la note :
+//    ses toponymes du Haut-Rhin finissent en -a à 99 % (149 contre 1), ceux du
+//    Bas-Rhin à 2 % (6 contre 238) ; ses digrammes valent ia/ua à 87 % au sud et
+//    0 % au nord. alsacien_wikipedia et wiktionnaire_fr écrivent -e et ie/ue
+//    partout, y compris pour une commune du Haut-Rhin. D'où le sens
+//    unidirectionnel du désaccord : sur 72 divergences a~e du Haut-Rhin, 71 ont
+//    culture_alsace du côté a. Ce n'est donc pas un désaccord entre deux
+//    témoins, c'est un témoin qui note le parler local et un autre qui ne le
+//    note pas.
+// 2. SONORISATION p~b, t~d, k~g (Mànschpàch / Mànschbàch).
+//
+// Ces normalisations servent à TRIER et à nommer l'écart, jamais à décider d'un
+// recoupement : deux graphies restent deux graphies, et les confondre effacerait
+// la question posée à l'arbitre. Même mise en garde que cleDeTri ci-dessus.
+function cleSansAlternanceAE(alsacien: string): string {
+    return cleDeTri(alsacien).replace(/[ae]/g, '@')
+}
+
+// sch et ch d'abord, sinon le c de sch serait pris pour une occlusive isolée.
+function cleSansSonorisation(alsacien: string): string {
+    return cleDeTri(alsacien)
+        .replace(/sch/g, '$')
+        .replace(/ch/g, '%')
+        .replace(/ck/g, 'k')
+        .replace(/b/g, 'p')
+        .replace(/d/g, 't')
+        .replace(/g/g, 'k')
+        .replace(/y/g, 'i')
+}
+
+function cleSansTraits(alsacien: string): string {
+    return cleSansSonorisation(alsacien).replace(/[ae]/g, '@')
+}
+
+// Ce à quoi tient l'écart entre les formes. Sert à ordonner la file et à dire à
+// l'arbitre ce qu'il regarde — jamais à trancher pour lui.
+export const NATURES_DIVERGENCE = [
+    'accents',
+    'alternance_regionale',
+    'sonorisation',
+    'traits_cumules',
+    'autre',
+] as const
+export type NatureDivergence = typeof NATURES_DIVERGENCE[number]
+
+export const LIBELLES_NATURE_DIVERGENCE: Record<NatureDivergence, string> = {
+    accents: 'accents seuls',
+    alternance_regionale: 'alternance a ~ e',
+    sonorisation: 'sonorisation p ~ b',
+    traits_cumules: 'a ~ e et sonorisation',
+    autre: '',
+}
+
+// Ordre d'affichage de la file : le plus mécanique d'abord. C'est un confort de
+// lecture, pas une hiérarchie de légitimité — chacune reste un arbitrage entier.
+const RANG_NATURE: Record<NatureDivergence, number> = {
+    accents: 0,
+    alternance_regionale: 1,
+    traits_cumules: 2,
+    sonorisation: 3,
+    autre: 4,
+}
+
+export function rangNature(nature: NatureDivergence): number {
+    return RANG_NATURE[nature]
+}
+
+function natureDe(graphies: string[]): NatureDivergence {
+    if (new Set(graphies.map(cleDeTri)).size === 1) return 'accents'
+    if (new Set(graphies.map(cleSansAlternanceAE)).size === 1) return 'alternance_regionale'
+    if (new Set(graphies.map(cleSansSonorisation)).size === 1) return 'sonorisation'
+    if (new Set(graphies.map(cleSansTraits)).size === 1) return 'traits_cumules'
+    return 'autre'
+}
+
+// La forme qui porte le trait du Haut-Rhin : finale -a, ou digramme ia/ua. Ne
+// vaut QUE pour une commune du Haut-Rhin et une divergence a~e — au Bas-Rhin les
+// 4 cas mesurés vont dans tous les sens, il n'y a rien à orienter, et inventer
+// une règle là où la mesure n'en montre pas serait pire que de ne rien dire.
+// Renvoie null dès que deux formes portent le trait : l'ambiguïté se signale,
+// elle ne se comble pas.
+function formeDuHautRhin(formes: FormeCandidate[], region: Region | null): string | null {
+    if (region !== 'haut_rhin') return null
+
+    const marquees = formes.filter((f) => {
+        const plat = cleDeTri(f.graphie)
+        return plat.endsWith('a') || /[iu]a/.test(plat)
+    })
+    return marquees.length === 1 ? marquees[0].graphie : null
+}
+
 // Une forme en lice, telle qu'elle sera proposée à l'arbitre. `graphie` est
 // toujours le verbatim d'une attestation (règle 1).
 export interface FormeCandidate {
@@ -215,12 +309,15 @@ export interface FormeCandidate {
 }
 
 export interface Divergence {
-    // Triées : la plus attestée d'abord. Aucune n'est privilégiée par le code —
-    // l'ordre n'est qu'un confort de lecture, le choix reste entier.
+    // Triées : la forme qui note le parler local d'abord s'il y en a une,
+    // sinon la plus attestée. Aucune n'est retenue par le code — l'ordre n'est
+    // qu'un confort de lecture, le choix reste entier.
     formes: FormeCandidate[]
-    // Toutes les formes se ramènent à la même chaîne une fois casse et
-    // diacritiques ignorés. Sert à remonter les arbitrages faciles en tête.
-    diacritiquesSeuls: boolean
+    // Ce à quoi tient l'écart. Sert à ordonner la file et à l'annoncer.
+    nature: NatureDivergence
+    // La forme qui note le parler du Haut-Rhin, quand la mesure permet de la
+    // désigner sans ambiguïté. Proposée en premier, jamais choisie d'office.
+    formeRegionale: string | null
 }
 
 // Le détail d'un candidat divergent, ou null s'il ne l'est pas — soit qu'il
@@ -234,14 +331,33 @@ export function analyserDivergence(variantes: VarianteAttestee[]): Divergence | 
     // Recoupé : ce candidat relève de l'onglet des recoupées, pas d'ici.
     if (formes[0].sources.size >= SOURCES_MINIMUM) return null
 
+    const candidates: FormeCandidate[] = formes.map((f) => ({
+        graphie: f.graphie,
+        nbSources: f.sources.size,
+        nbAttestations: f.nbAttestations,
+        region: f.region,
+    }))
+
+    const nature = natureDe(candidates.map((f) => f.graphie))
+    // La région d'un toponyme est celle de la commune : elle est la même sur
+    // toutes ses attestations, la première non nulle suffit donc.
+    const region = candidates.find((f) => f.region !== null)?.region ?? null
+    // L'orientation n'a de sens que là où la mesure l'établit : une divergence
+    // a~e (seule ou cumulée à la sonorisation) sur une commune du Haut-Rhin.
+    const formeRegionale =
+        nature === 'alternance_regionale' || nature === 'traits_cumules'
+            ? formeDuHautRhin(candidates, region)
+            : null
+
     return {
-        formes: formes.map((f) => ({
-            graphie: f.graphie,
-            nbSources: f.sources.size,
-            nbAttestations: f.nbAttestations,
-            region: f.region,
-        })),
-        diacritiquesSeuls: new Set(formes.map((f) => cleDeTri(f.graphie))).size === 1,
+        formes: formeRegionale
+            ? [
+                  ...candidates.filter((f) => f.graphie === formeRegionale),
+                  ...candidates.filter((f) => f.graphie !== formeRegionale),
+              ]
+            : candidates,
+        nature,
+        formeRegionale,
     }
 }
 
@@ -250,11 +366,11 @@ export function analyserDivergence(variantes: VarianteAttestee[]): Divergence | 
 // conservées derrière, la doctrine gardant les variantes quand elles diffèrent.
 // Retourne [] si la graphie n'est pas l'une des formes attestées : rien ne doit
 // pouvoir publier une forme que personne n'a écrite (règle 1).
-export function traductionsArbitrees(divergence: Divergence, graphie: string): Traduction[] {
-    const choisie = divergence.formes.find((f) => f.graphie === graphie)
+export function traductionsArbitrees(formes: FormeCandidate[], graphie: string): Traduction[] {
+    const choisie = formes.find((f) => f.graphie === graphie)
     if (!choisie) return []
 
-    return [choisie, ...divergence.formes.filter((f) => f.graphie !== graphie)].map((f) => ({
+    return [choisie, ...formes.filter((f) => f.graphie !== graphie)].map((f) => ({
         alsacien: f.graphie,
         region: f.region,
         niveau: null,

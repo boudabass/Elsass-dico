@@ -8,7 +8,11 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { toast } from "sonner";
 import { Loader2, ArrowRight, Crown, GitFork, Sparkles } from "lucide-react";
 import { arbitrerDivergenceAction, type CandidatDivergent } from "@/app/actions/arbitrage";
-import { LIBELLES_TYPE_TERME, type TypeTerme } from "@/lib/dictionnaire";
+import {
+  LIBELLES_NATURE_DIVERGENCE,
+  LIBELLES_TYPE_TERME,
+  type TypeTerme,
+} from "@/lib/dictionnaire";
 import { lienArbitrage } from "./liens";
 
 function cleDe(c: { cle: string; contexte: string }) {
@@ -44,7 +48,8 @@ export function OngletDivergentes({ divergents, chargement, onPublie }: Props) {
     setEnCours(null);
   };
 
-  const faciles = divergents.filter((c) => c.diacritiquesSeuls).length;
+  const accents = divergents.filter((c) => c.nature === "accents").length;
+  const regionales = divergents.filter((c) => c.formeRegionale !== null).length;
 
   return (
     <div className="space-y-4">
@@ -59,11 +64,19 @@ export function OngletDivergentes({ divergents, chargement, onPublie }: Props) {
             l&apos;arbitrage manuel : <strong>choisir la graphie canonique est un arbitrage</strong>,
             il ne se traite pas en lot. Chaque clic publie une seule entrée, avec une forme copiée
             telle quelle d&apos;une attestation — les autres formes sont conservées en variantes.
-            {faciles > 0 && (
+            {accents > 0 && (
               <>
                 {" "}
-                <strong>{faciles}</strong> ne diffèrent que par un accent et remontent en tête :
+                <strong>{accents}</strong> ne diffèrent que par un accent et remontent en tête :
                 elles se tranchent à la règle ORTHAL.
+              </>
+            )}
+            {regionales > 0 && (
+              <>
+                {" "}
+                <strong>{regionales}</strong> opposent une source qui note le parler du Haut-Rhin
+                (finale <em>-a</em>, digramme <em>ia</em>) à une source qui écrit la forme non
+                marquée : cette forme-là est proposée en premier, à vous de la retenir ou non.
               </>
             )}
           </CardDescription>
@@ -92,7 +105,7 @@ export function OngletDivergentes({ divergents, chargement, onPublie }: Props) {
             // première, qui reprendrait son état au repos requête en vol.
             const bloque = enCours !== null;
             return (
-              <Card key={k} className={c.diacritiquesSeuls ? "border-amber-300/70" : undefined}>
+              <Card key={k} className={c.nature !== "autre" ? "border-amber-300/70" : undefined}>
                 <CardContent className="p-4 space-y-3">
                   <div className="flex items-start justify-between gap-4">
                     <div className="flex items-center gap-2 flex-wrap min-w-0">
@@ -105,12 +118,13 @@ export function OngletDivergentes({ divergents, chargement, onPublie }: Props) {
                       <Badge variant="secondary" className="font-normal">
                         {LIBELLES_TYPE_TERME[c.type as TypeTerme] ?? c.type}
                       </Badge>
-                      {c.diacritiquesSeuls && (
+                      {c.nature !== "autre" && (
                         <Badge
                           variant="outline"
                           className="font-normal gap-1 text-amber-700 border-amber-400 dark:text-amber-400"
                         >
-                          <Sparkles className="w-3 h-3" strokeWidth={1.5} /> accents seuls
+                          <Sparkles className="w-3 h-3" strokeWidth={1.5} />{" "}
+                          {LIBELLES_NATURE_DIVERGENCE[c.nature]}
                         </Badge>
                       )}
                       {c.entree_id && (
@@ -138,6 +152,11 @@ export function OngletDivergentes({ divergents, chargement, onPublie }: Props) {
                   <div className="flex flex-wrap gap-2">
                     {c.formes.map((f) => {
                       const choisi = enCours?.cle === k && enCours.graphie === f.graphie;
+                      // La forme qui note le parler local est proposée en
+                      // premier et signalée comme telle. Elle n'est ni
+                      // présélectionnée ni privilégiée à la publication :
+                      // choisir reste un clic, et c'est l'arbitrage.
+                      const regionale = f.graphie === c.formeRegionale;
                       return (
                         <Button
                           key={f.graphie}
@@ -146,7 +165,11 @@ export function OngletDivergentes({ divergents, chargement, onPublie }: Props) {
                           disabled={bloque}
                           onClick={() => choisir(c, f.graphie)}
                           className="h-auto min-h-10 py-1.5 gap-2 font-normal"
-                          title={`Publier « ${f.graphie} » comme forme canonique`}
+                          title={
+                            regionale
+                              ? `Publier « ${f.graphie} » comme forme canonique — c'est la forme qui note le parler du Haut-Rhin`
+                              : `Publier « ${f.graphie} » comme forme canonique`
+                          }
                         >
                           {/* Les deux icônes restent montées et se croisent :
                               un échange sec ne se lit pas comme un changement
@@ -168,6 +191,11 @@ export function OngletDivergentes({ divergents, chargement, onPublie }: Props) {
                           <span className="font-semibold">
                             {f.graphie}
                           </span>
+                          {regionale && (
+                            <span className="text-xs text-amber-700 dark:text-amber-400">
+                              note le Haut-Rhin
+                            </span>
+                          )}
                           <span className="text-xs text-muted-foreground tabular-nums">
                             {f.nbSources} src · {f.nbAttestations} att.
                           </span>

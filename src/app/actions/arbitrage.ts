@@ -7,11 +7,13 @@ import {
     analyserDivergence,
     estStatutValide,
     estTypeTermeValide,
+    rangNature,
     traductionsArbitrees,
     traductionsRecoupees,
     SOURCES_MINIMUM,
     type Entree,
     type FormeCandidate,
+    type NatureDivergence,
     type StatutEntree,
     type Traduction,
     type TypeTerme,
@@ -192,14 +194,16 @@ export async function listerCandidatsRecoupes(terme?: string): Promise<CandidatR
 
 export interface CandidatDivergent extends Candidat {
     formes: FormeCandidate[]
-    diacritiquesSeuls: boolean
+    nature: NatureDivergence
+    formeRegionale: string | null
 }
 
 // Le symétrique de listerCandidatsRecoupes() : deux sources ou plus, mais aucune
 // forme commune. Ces candidats ne partent jamais en lot — l'arbitre choisit la
-// forme canonique un par un. Les divergences qui ne tiennent qu'à un accent
-// (Barr / Bàrr) remontent en tête : ce sont les plus rapides à trancher, pas les
-// plus légitimes.
+// forme canonique un par un. La file s'ordonne par nature de l'écart : accents
+// seuls, puis alternance a~e régionale, puis sonorisation, puis le reste. C'est
+// un ordre de commodité, pas une hiérarchie de légitimité — un candidat en tête
+// n'est pas plus fondé qu'un autre, il est plus rapide à regarder.
 export async function listerCandidatsDivergents(terme?: string): Promise<CandidatDivergent[]> {
     const garde = await requireAdmin()
     if (!garde.authorized) return []
@@ -207,11 +211,17 @@ export async function listerCandidatsDivergents(terme?: string): Promise<Candida
     const divergents = await parcourirCandidatsMultiSources(terme, 'Lot divergent', (candidat) => {
         const divergence = analyserDivergence(candidat.variantes)
         if (!divergence) return null
-        return { ...candidat, formes: divergence.formes, diacritiquesSeuls: divergence.diacritiquesSeuls }
+        return {
+            ...candidat,
+            formes: divergence.formes,
+            nature: divergence.nature,
+            formeRegionale: divergence.formeRegionale,
+        }
     })
 
     return divergents.sort((a, b) => {
-        if (a.diacritiquesSeuls !== b.diacritiquesSeuls) return a.diacritiquesSeuls ? -1 : 1
+        const rang = rangNature(a.nature) - rangNature(b.nature)
+        if (rang !== 0) return rang
         if (a.formes.length !== b.formes.length) return a.formes.length - b.formes.length
         return a.francais.localeCompare(b.francais, 'fr')
     })
@@ -239,10 +249,7 @@ export async function arbitrerDivergenceAction(demande: {
         return { success: false, error: "Candidat absent de la file des divergentes : à rouvrir dans l'écran d'arbitrage." }
     }
 
-    const traductions = traductionsArbitrees(
-        { formes: candidat.formes, diacritiquesSeuls: candidat.diacritiquesSeuls },
-        demande.graphie,
-    )
+    const traductions = traductionsArbitrees(candidat.formes, demande.graphie)
     // Garde de la règle 1 : la forme publiée est copiée d'une attestation, ou
     // rien n'est publié.
     if (traductions.length === 0) {

@@ -1115,6 +1115,70 @@ corrigées ensemble :
   recherche « Barr » → clic résultat → retour → champ et résultats « Barr »
   restaurés.
 
+## Ce à quoi tiennent réellement les divergences (01/09/2026)
+
+Mesuré en base sur les 27 179 attestations, à la demande de John, qui trouvait
+que « beaucoup ne diffèrent que par les accents ». La mesure corrige et précise
+cette impression, et elle réoriente l'arbitrage manuel.
+
+- **Les accents s'utilisent en alsacien et ils changent le mot.** ORTHAL 2023
+  les traite comme des oppositions de sons, pas comme un ornement : `< a >` /a/
+  clair contre `< à >` /a/ sombre, avec la paire minimale `wisse` (blancs) /
+  `wìsse` (savoir) ; `< ì >` note l'intermédiaire /i/–/é/. La norme admet en
+  revanche des **graphies équivalentes** — `ei`/`ai`, `ä`/`e`, `ù`/`u`. Donc
+  « un accent » ne désigne pas une seule chose : parfois un son différent,
+  parfois deux façons admises d'écrire le même.
+- **Les sources n'ont pas la même convention, et c'est ça qui fabrique les
+  divergences.** `culture_alsace` **suit l'isoglosse** : ses toponymes du
+  Haut-Rhin finissent en `-a` à 99 % (149 contre 1) et ceux du Bas-Rhin à 2 %
+  (6 contre 238) ; ses digrammes valent `ia`/`ua` à 87 % au sud et 0 % au nord.
+  `alsacien_wikipedia` et `wiktionnaire_fr` écrivent `-e` et `ie`/`ue` partout,
+  y compris pour une commune du Haut-Rhin. D'où un désaccord **unidirectionnel**
+  : sur 72 divergences a~e du Haut-Rhin, **71 ont `culture_alsace` du côté a**.
+  Ce n'est pas un désaccord entre deux témoins, c'est un témoin qui note le
+  parler local et un autre qui ne le note pas.
+- **`culture_alsace` n'écrit jamais `ì`** — 0 occurrence sur ses 24 983 formes,
+  contre 148 pour `alsacien_wikipedia` et 121 pour `wiktionnaire_fr` (toponymes).
+  Ni `ù` ni `ï`. Elle emploie en revanche `à` 15 962 fois. Donc une divergence
+  `i`/`ì` face à elle est une **lacune de convention** ; une divergence `a`/`à`
+  en est une vraie, puisqu'elle aurait pu écrire l'accent.
+- **Répartition des 344 divergents** : 27 accents seuls (8 %), 60 alternance
+  a~e seule (17 %, dont 56 au Haut-Rhin), 7 sonorisation `p~b`/`t~d`/`k~g`
+  (2 %), 4 les deux traits cumulés (1 %) — soit **98 (28 %) relevant d'un trait
+  connu**, et **246 (71 %) d'un écart réel**. L'impression que « presque tout
+  n'est qu'un accent » vient du tri de l'onglet, qui remonte volontairement ces
+  cas en tête : les premiers écrans montrés *sont* les plus faciles.
+
+**Ce qui a été implémenté** (`analyserDivergence`, `src/lib/dictionnaire.ts`) :
+la file s'ordonne désormais par `NatureDivergence` (accents → alternance a~e →
+traits cumulés → sonorisation → autre), et pour une commune du **Haut-Rhin**
+dont la divergence est une alternance a~e, la forme qui porte le trait local est
+**proposée en premier et signalée** (`formeRegionale`).
+
+- **Ordonner n'est pas décider.** Le choix reste un clic humain par entrée, et
+  `arbitrer_entree()` exécute ses gardes à chaque fois — l'onglet Divergentes
+  n'est toujours pas un traitement de masse, et ne doit pas le devenir. Un
+  critère uniforme appliqué en lot aux 64 cas orientés aurait été l'inverse
+  exact de la règle du 24/08.
+- **L'ambiguïté se signale, elle ne se comble pas** : `formeDuHautRhin()` rend
+  `null` dès que deux formes portent le trait — d'où **49 candidats orientés**
+  et non 64. Rien n'est orienté au Bas-Rhin : les 4 cas mesurés vont dans tous
+  les sens, et inventer une règle là où la mesure n'en montre aucune serait pire
+  que de se taire.
+- **Ces normalisations trient, elles ne recoupent jamais.** Confondre `a` et `e`
+  ou écraser les diacritiques pour *décider* d'un recoupement effacerait la
+  question posée à l'arbitre — c'est l'erreur du « +13 » du 24/08. Elles ne
+  servent qu'à nommer l'écart et à ordonner la file.
+- **Contrôle croisé** : le classement a été produit deux fois de façon
+  indépendante — un script Python sur l'API PostgREST, puis le **module TS réel
+  compilé et exécuté** sur les mêmes données. Mêmes chiffres exactement
+  (344 / 27 / 60 / 7 / 4 / 246). Vérifié en plus que `traductionsArbitrees()`
+  refuse une forme inventée, honore un choix autre que la forme proposée, et
+  conserve toutes les formes en variantes. `tsc --noEmit` propre, `next build`
+  jusqu'aux 15/15 pages (seul l'EPERM symlink Windows du mode standalone
+  échoue). **Non vérifié en navigateur** : `/admin/arbitrage` exige une session
+  admin, que Claude Code n'a pas — à confirmer par John à l'écran.
+
 ## Règles de travail
 
 - Ne jamais inventer de traduction alsacienne, même pour un exemple ou un test.

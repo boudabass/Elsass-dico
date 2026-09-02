@@ -5,6 +5,7 @@ import { useRouter } from "next/navigation";
 import { toast } from "sonner";
 import { Loader2 } from "lucide-react";
 import { AppHeader } from "@/components/app-header";
+import { invaliderCache } from "@/lib/cache-navigation";
 import { useAuth } from "@/components/auth-provider";
 import {
     Select,
@@ -112,6 +113,11 @@ export default function ProposerMotPage() {
 
         if (res.success) {
             toast.success(res.message);
+            // La liste des contributions et les compteurs de Mon espace ont
+            // changé : sans ça, on atterrirait sur une liste sans la
+            // proposition qu'on vient d'envoyer.
+            invaliderCache("contributions");
+            invaliderCache("dashboard");
             router.push("/contributions");
         } else {
             toast.error(res.error);

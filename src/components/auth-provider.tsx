@@ -1,10 +1,11 @@
 "use client";
 
-import { createContext, useContext, useEffect, useMemo, useState } from "react";
+import { createContext, useContext, useEffect, useMemo, useRef, useState } from "react";
 import { User, Session } from "@supabase/supabase-js";
 import { createClient } from "@/utils/supabase/client";
 import { useRouter } from "next/navigation";
 import { signOutAction } from "@/app/actions/auth";
+import { viderCache } from "@/lib/cache-navigation";
 
 interface AuthContextType {
   user: User | null;
@@ -32,6 +33,10 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
   const router = useRouter();
   const supabase = useMemo(() => createClient(), []);
   const userId = user?.id ?? null;
+  // Identité du dernier événement d'auth, pour ne purger le cache de
+  // navigation qu'à un vrai changement de compte — pas à chaque
+  // TOKEN_REFRESHED.
+  const identitePrecedente = useRef<string | null | undefined>(undefined);
 
   useEffect(() => {
     // Ce callback DOIT rester synchrone et ne faire aucun appel Supabase.
@@ -47,6 +52,17 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
       data: { subscription },
     } = supabase.auth.onAuthStateChange((event, session) => {
       console.log(`[Auth] Event: ${event} | Session: ${session ? 'Active' : 'None'}`);
+
+      // Filet contre une fuite d'un compte à l'autre : les clés d'écran
+      // authentifiées portent déjà l'identité, mais une purge franche évite
+      // d'avoir à en dépendre. viderCache() est un clear() synchrone — il ne
+      // viole pas la contrainte ci-dessus, qui interdit les appels Supabase,
+      // pas une écriture en mémoire.
+      const identite = session?.user?.id ?? null;
+      if (identitePrecedente.current !== undefined && identitePrecedente.current !== identite) {
+        viderCache();
+      }
+      identitePrecedente.current = identite;
 
       setSession(session);
       setUser(session?.user ?? null);

@@ -23,6 +23,7 @@ import {
   Trash2,
 } from "lucide-react";
 import { AppHeader } from "@/components/app-header";
+import { invaliderCache } from "@/lib/cache-navigation";
 import { arbitrerAction, chargerCandidat, type DetailCandidat } from "@/app/actions/arbitrage";
 import {
   LIBELLES_REGION,
@@ -140,6 +141,13 @@ export default function ArbitragePage() {
 
     if (res.success) {
       toast.success(res.message);
+      // Arbitrer retire ce candidat de la file et peut rendre l'entrée
+      // publique : les écrans qui gardent ces listes en mémoire doivent les
+      // oublier, sinon le retour afficherait un candidat déjà traité.
+      invaliderCache("arbitrage");
+      invaliderCache("dashboard");
+      invaliderCache("recherche");
+      invaliderCache("dictionnaire");
       const d = await chargerCandidat(cle, contexte);
       setDetail(d);
     } else {
@@ -174,7 +182,14 @@ export default function ArbitragePage() {
 
   return (
     <div className="flex min-h-screen flex-col">
-      <AppHeader variant="stack" titre={detail.francais} backHref="/admin/arbitrage" />
+      {/* Retour par l'historique et non par un <Link> : un push rouvrirait la
+          file sans son filtre, sans son onglet et en haut de page. */}
+      <AppHeader
+        variant="stack"
+        titre={detail.francais}
+        backHref="/admin/arbitrage"
+        retourHistorique
+      />
       <div className="container mx-auto max-w-6xl space-y-6 p-4 md:p-8">
 
       {detail.entree_id && (

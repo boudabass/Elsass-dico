@@ -1,6 +1,5 @@
 "use client";
 
-import { useCallback, useEffect, useState } from "react";
 import Link from "next/link";
 import { useAuth } from "@/components/auth-provider";
 import { AppHeader } from "@/components/app-header";
@@ -28,31 +27,38 @@ import {
     type ContributionAValider,
 } from "@/app/actions/contributions";
 import { LIBELLES_TYPE_TERME, SCORE_PLEIN, type TypeTerme } from "@/lib/dictionnaire";
+import { useListeMemorisee } from "@/hooks/use-liste-memorisee";
+import { useScrollMemorise } from "@/hooks/use-scroll-memorise";
+import { cleCache, invaliderCache } from "@/lib/cache-navigation";
+
+interface DonneesContributions {
+    miennes: MaContribution[];
+    file: ContributionAValider[];
+}
 
 // Écran 8 (+ écran 12, vide) du handoff mobile. Le formulaire de proposition,
 // inline ici jusqu'au 25/08, a son propre écran désormais (/contributions/proposer).
 export default function ContributionsPage() {
-    const { role, isLoading } = useAuth();
-    const [mesContributions, setMesContributions] = useState<MaContribution[]>([]);
-    const [aValider, setAValider] = useState<ContributionAValider[]>([]);
-    const [chargement, setChargement] = useState(true);
-
-    const rafraichir = useCallback(async () => {
-        setChargement(true);
-        const [miennes, file] = await Promise.all([
-            listerMesContributions(),
-            listerContributionsAValider(),
-        ]);
-        setMesContributions(miennes);
-        setAValider(file);
-        setChargement(false);
-    }, []);
-
+    const { user, role, isLoading } = useAuth();
     const autorise = role === "contributeur" || role === "admin";
 
-    useEffect(() => {
-        if (autorise) rafraichir();
-    }, [autorise, rafraichir]);
+    const cle = user && autorise ? cleCache("contributions", user.id) : null;
+    const { donnees, premierChargement, rafraichir } = useListeMemorisee<DonneesContributions>({
+        cle,
+        charger: async () => {
+            const [miennes, file] = await Promise.all([
+                listerMesContributions(),
+                listerContributionsAValider(),
+            ]);
+            return { miennes, file };
+        },
+    });
+
+    const mesContributions = donnees?.miennes ?? [];
+    const aValider = donnees?.file ?? [];
+    const chargement = premierChargement || (cle !== null && donnees === null);
+
+    useScrollMemorise(cle, donnees !== null);
 
     if (isLoading) {
         return (
@@ -66,10 +72,14 @@ export default function ContributionsPage() {
         return <div className="p-8 text-center text-sm text-muted-foreground">Accès réservé aux contributeurs</div>;
     }
 
+    // Ces deux gestes changent aussi les compteurs de Mon espace (propositions,
+    // votes) : sans invalidation croisée, on y reverrait les chiffres d'avant.
+    // rafraichir() suffit pour l'écran courant, il force le réseau.
     const supprimer = async (contribution: MaContribution) => {
         const res = await supprimerContributionAction(contribution.id);
         if (res.success) {
             toast.success(res.message);
+            invaliderCache("dashboard");
             rafraichir();
         } else {
             toast.error(res.error);
@@ -82,6 +92,7 @@ export default function ContributionsPage() {
             : await voterAction(contribution.id);
         if (res.success) {
             toast.success(res.message);
+            invaliderCache("dashboard");
             rafraichir();
         } else {
             toast.error(res.error);

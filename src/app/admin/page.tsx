@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { useAuth } from "@/components/auth-provider";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -32,11 +32,24 @@ import { User } from "@supabase/supabase-js";
 import { Trash2, Users, UserPlus, Loader2, Copy, KeyRound, RefreshCw } from "lucide-react";
 import { ROLES_AUTORISES, LIBELLES_ROLE } from "@/lib/roles";
 import { AppHeader } from "@/components/app-header";
+import { useListeMemorisee } from "@/hooks/use-liste-memorisee";
+import { cleCache } from "@/lib/cache-navigation";
 
 export default function AdminPage() {
   const { user, role, isLoading } = useAuth();
-  const [usersList, setUsersList] = useState<User[]>([]);
-  const [isUsersLoading, setIsUsersLoading] = useState(false);
+  const cleUtilisateurs = user && role === "admin" ? cleCache("admin-utilisateurs", user.id) : null;
+  const {
+    donnees: utilisateursCharges,
+    premierChargement: isUsersLoading,
+    rafraichir: refreshUsers,
+  } = useListeMemorisee<User[]>({
+    cle: cleUtilisateurs,
+    charger: async () => {
+      const res = await getUsersAction();
+      return res.success && res.users ? res.users : [];
+    },
+  });
+  const usersList = utilisateursCharges ?? [];
   // Tant que le SMTP n'est pas configuré, le lien est affiché ici pour que
   // l'administrateur le transmette lui-même au destinataire.
   const [lienGenere, setLienGenere] = useState<{ email: string; url: string } | null>(null);
@@ -63,18 +76,6 @@ export default function AdminPage() {
     }
   };
 
-  useEffect(() => {
-    refreshUsers();
-  }, []);
-
-  const refreshUsers = async () => {
-    setIsUsersLoading(true);
-    const res = await getUsersAction();
-    if (res.success && res.users) {
-      setUsersList(res.users);
-    }
-    setIsUsersLoading(false);
-  };
 
   if (isLoading) return <div className="flex h-screen items-center justify-center"><Loader2 className="animate-spin" /></div>;
   if (!user || role !== 'admin') return <div className="p-8 text-center">Accès refusé</div>;

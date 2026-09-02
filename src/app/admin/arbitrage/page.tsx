@@ -1,7 +1,8 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { Suspense, useState } from "react";
 import Link from "next/link";
+import { useRouter, useSearchParams } from "next/navigation";
 import { useAuth } from "@/components/auth-provider";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -30,6 +31,16 @@ import {
 import { OngletRecoupes } from "./onglet-recoupes";
 import { OngletDivergentes } from "./onglet-divergentes";
 import { lienArbitrage } from "./liens";
+import { useListeMemorisee } from "@/hooks/use-liste-memorisee";
+import { useScrollMemorise } from "@/hooks/use-scroll-memorise";
+import { cleCache, invaliderCache } from "@/lib/cache-navigation";
+
+interface DonneesArbitrage {
+  candidats: Candidat[];
+  recoupes: CandidatRecoupe[];
+  divergents: CandidatDivergent[];
+  entrees: EntreeListee[];
+}
 
 // listerCandidats() et listerEntrees() plafonnent à 50 (p_limite du RPC). Une
 // liste pleine signale donc « au moins 50 », jamais « exactement 50 » : afficher
@@ -43,32 +54,75 @@ function compteur(n: number) {
 }
 
 export default function FileArbitragePage() {
-  const { user, role, isLoading } = useAuth();
-  const [terme, setTerme] = useState("");
-  const [candidats, setCandidats] = useState<Candidat[]>([]);
-  const [recoupes, setRecoupes] = useState<CandidatRecoupe[]>([]);
-  const [divergents, setDivergents] = useState<CandidatDivergent[]>([]);
-  const [entrees, setEntrees] = useState<EntreeListee[]>([]);
-  const [chargement, setChargement] = useState(true);
+  // useSearchParams() impose une frontière Suspense, sans quoi `next build`
+  // échoue sur « should be wrapped in a suspense boundary » — même scission
+  // que / et /dictionnaire depuis la PR #22.
+  return (
+    <Suspense fallback={<AppHeader variant="stack" titre="Arbitrage" backHref="/dashboard" />}>
+      <FileArbitrageContenu />
+    </Suspense>
+  );
+}
 
-  const rafraichir = async (recherche: string) => {
-    setChargement(true);
-    const [c, r, d, e] = await Promise.all([
-      listerCandidats(recherche),
-      listerCandidatsRecoupes(recherche),
-      listerCandidatsDivergents(recherche),
-      listerEntrees(undefined, recherche),
-    ]);
-    setCandidats(c);
-    setRecoupes(r);
-    setDivergents(d);
-    setEntrees(e);
-    setChargement(false);
+function FileArbitrageContenu() {
+  const { user, role, isLoading } = useAuth();
+  const router = useRouter();
+  const searchParams = useSearchParams();
+
+  // Filtre et onglet actif portés par l'URL, comme la lettre du dictionnaire
+  // et le terme de la recherche. Le Tabs était jusqu'ici non contrôlé
+  // (defaultValue) : revenir d'une fiche candidat ouverte depuis
+  // « Divergentes » retombait toujours sur « Recoupées ».
+  const termeUrl = searchParams.get("q") ?? "";
+  const ongletUrl = searchParams.get("onglet") ?? "recoupes";
+  const [terme, setTerme] = useState(termeUrl);
+
+  const majUrl = (recherche: string, onglet: string) => {
+    const params = new URLSearchParams();
+    if (recherche) params.set("q", recherche);
+    if (onglet !== "recoupes") params.set("onglet", onglet);
+    const requete = params.toString();
+    // replace, pas push : sinon chaque onglet cliqué empilerait une entrée
+    // d'historique à remonter une par une au retour.
+    router.replace(requete ? `/admin/arbitrage?${requete}` : "/admin/arbitrage", { scroll: false });
   };
 
-  useEffect(() => {
-    rafraichir("");
-  }, []);
+  const cle = user && role === "admin" ? cleCache("arbitrage", user.id, termeUrl) : null;
+  const { donnees, premierChargement, rafraichir } = useListeMemorisee<DonneesArbitrage>({
+    cle,
+    charger: async () => {
+      const [c, r, d, e] = await Promise.all([
+        listerCandidats(termeUrl),
+        listerCandidatsRecoupes(termeUrl),
+        listerCandidatsDivergents(termeUrl),
+        listerEntrees(undefined, termeUrl),
+      ]);
+      return { candidats: c, recoupes: r, divergents: d, entrees: e };
+    },
+  });
+
+  const candidats = donnees?.candidats ?? [];
+  const recoupes = donnees?.recoupes ?? [];
+  const divergents = donnees?.divergents ?? [];
+  const entrees = donnees?.entrees ?? [];
+  const chargement = premierChargement || (cle !== null && donnees === null);
+
+  // L'onglet entre dans la clé de scroll (il change ce qui est rendu) mais pas
+  // dans celle des données : les quatre listes sont chargées ensemble et leurs
+  // quatre compteurs s'affichent en même temps sur la TabsList.
+  useScrollMemorise(cle ? cleCache(cle, ongletUrl) : null, donnees !== null);
+
+  // Publier retire les candidats de la file et rend l'entrée publique : les
+  // autres écrans doivent oublier ce qu'ils gardaient en mémoire, sinon on
+  // réafficherait une file déjà arbitrée ou un dictionnaire d'avant. Le
+  // préfixe emporte tous les filtres, pas seulement celui affiché.
+  const apresPublication = async () => {
+    invaliderCache("arbitrage");
+    invaliderCache("dashboard");
+    invaliderCache("recherche");
+    invaliderCache("dictionnaire");
+    await rafraichir();
+  };
 
   if (isLoading) {
     return (
@@ -105,7 +159,9 @@ export default function FileArbitragePage() {
         className="flex gap-2"
         onSubmit={(e) => {
           e.preventDefault();
-          rafraichir(terme);
+          // Le filtre passe par l'URL : c'est le changement de `q` qui change
+          // la clé de cache et déclenche (ou non) le chargement.
+          majUrl(terme.trim(), ongletUrl);
         }}
       >
         <Input
@@ -120,7 +176,7 @@ export default function FileArbitragePage() {
         </Button>
       </form>
 
-      <Tabs defaultValue="recoupes">
+      <Tabs value={ongletUrl} onValueChange={(onglet) => majUrl(termeUrl, onglet)}>
         {/* tabular-nums : ces compteurs se décrémentent à chaque publication.
             Avec des chiffres proportionnels, la largeur des onglets bouge sous
             le curseur au moment précis où l'on enchaîne les arbitrages. */}
@@ -135,14 +191,14 @@ export default function FileArbitragePage() {
           <OngletRecoupes
             recoupes={recoupes}
             chargement={chargement}
-            onPublie={() => rafraichir(terme)}
+            onPublie={apresPublication}
           />
         </TabsContent>
         <TabsContent value="divergentes" className="mt-4">
           <OngletDivergentes
             divergents={divergents}
             chargement={chargement}
-            onPublie={() => rafraichir(terme)}
+            onPublie={apresPublication}
           />
         </TabsContent>
         <TabsContent value="candidats" className="mt-4">

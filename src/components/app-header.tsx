@@ -42,6 +42,14 @@ interface AppHeaderStackProps {
   leading?: "retour" | "fermer";
   /** Lien de retour explicite. À défaut, revient à l'historique du navigateur. */
   backHref?: string;
+  /**
+   * Revient par l'historique plutôt que par un lien, en gardant `backHref` en
+   * secours si la page a été ouverte directement (rien où revenir).
+   * Un <Link> est un push : il rouvrirait l'écran d'origine sans ses filtres,
+   * sans son onglet et sans sa position — c'est le cas de /admin/arbitrage,
+   * dont l'état vit dans l'URL et le cache d'écran.
+   */
+  retourHistorique?: boolean;
   trailing?: React.ReactNode;
 }
 
@@ -94,11 +102,39 @@ function EnteteRacine({ titre, backHref }: AppHeaderRootProps) {
   );
 }
 
-function EnteteEmpilee({ titre, leading = "retour", backHref, trailing }: AppHeaderStackProps) {
+function EnteteEmpilee({
+  titre,
+  leading = "retour",
+  backHref,
+  retourHistorique,
+  trailing,
+}: AppHeaderStackProps) {
   const router = useRouter();
   const Icone = leading === "fermer" ? X : ChevronLeft;
   const libelle = leading === "fermer" ? "Fermer" : "Retour";
   const classeBouton = cn(BOUTON_ICONE, "bg-neutre-100 text-foreground");
+
+  // Ouvert directement (lien externe, onglet neuf) : il n'y a pas d'écran
+  // précédent dans l'app, on retombe sur la destination explicite.
+  const revenir = () => {
+    if (backHref && window.history.length <= 1) {
+      router.push(backHref);
+      return;
+    }
+    router.back();
+  };
+
+  if (retourHistorique) {
+    return (
+      <>
+        <button type="button" onClick={revenir} aria-label={libelle} className={classeBouton}>
+          <Icone className="h-[18px] w-[18px]" strokeWidth={2.2} />
+        </button>
+        <h1 className="flex-1 truncate text-center text-[17px] font-bold text-foreground">{titre}</h1>
+        <div className="flex h-10 w-10 shrink-0 items-center justify-center">{trailing}</div>
+      </>
+    );
+  }
 
   return (
     <>

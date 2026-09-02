@@ -1,6 +1,6 @@
 "use client";
 
-import { Suspense, useEffect, useState } from "react";
+import { Suspense, useEffect, useMemo, useState } from "react";
 import Link from "next/link";
 import { useRouter, useSearchParams } from "next/navigation";
 import { BookOpen, ChevronRight } from "lucide-react";
@@ -8,6 +8,9 @@ import { AppHeader } from "@/components/app-header";
 import { ListSkeleton } from "@/components/ui/list-skeleton";
 import { lettresDisponiblesAction, entreesParLettreAction } from "@/app/actions/navigation";
 import type { Entree } from "@/lib/dictionnaire";
+import { useListeMemorisee } from "@/hooks/use-liste-memorisee";
+import { useScrollMemorise } from "@/hooks/use-scroll-memorise";
+import { cleCache, memoriserUrlOnglet } from "@/lib/cache-navigation";
 
 // Écran 3 (Dictionnaire A-Z) + écran 11 (lettre vide) du handoff mobile.
 //
@@ -32,41 +35,44 @@ function DictionnaireContenu() {
   const searchParams = useSearchParams();
   const lettreDepuisUrl = searchParams.get("lettre");
 
-  const [disponibles, setDisponibles] = useState<Set<string> | null>(null);
-  const [lettre, setLettre] = useState<string | null>(null);
-  const [entrees, setEntrees] = useState<Entree[]>([]);
-  const [chargement, setChargement] = useState(true);
+  // L'alphabet disponible ne change qu'à une publication : il se garde plus
+  // longtemps que les listes, et cesse ainsi de coûter un appel par visite.
+  const { donnees: lettres } = useListeMemorisee<string[]>({
+    cle: cleCache("dictionnaire", "lettres"),
+    charger: lettresDisponiblesAction,
+    fraicheurMs: 5 * 60_000,
+  });
+  const disponibles = useMemo(() => (lettres ? new Set(lettres) : null), [lettres]);
 
   // Lettre restaurée depuis l'URL au premier chargement (retour navigateur
   // depuis une fiche de mot) plutôt que toujours repartir sur la première
   // lettre disponible.
+  const [lettre, setLettre] = useState<string | null>(() => lettreDepuisUrl);
+
   useEffect(() => {
-    lettresDisponiblesAction().then((lettres) => {
-      const disponiblesSet = new Set(lettres);
-      setDisponibles(disponiblesSet);
-      const restauree =
-        lettreDepuisUrl && disponiblesSet.has(lettreDepuisUrl) ? lettreDepuisUrl : lettres[0] ?? null;
-      setLettre(restauree);
-    });
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
+    if (!lettres) return;
+    setLettre((actuelle) => (actuelle && lettres.includes(actuelle) ? actuelle : lettres[0] ?? null));
+  }, [lettres]);
 
   function choisirLettre(car: string) {
     setLettre(car);
-    router.replace(`/dictionnaire?lettre=${car}`, { scroll: false });
+    const url = `/dictionnaire?lettre=${car}`;
+    router.replace(url, { scroll: false });
+    // La barre de nav rouvrira le dictionnaire sur cette lettre.
+    memoriserUrlOnglet("dictionnaire", url);
   }
 
-  useEffect(() => {
-    if (!lettre) {
-      setChargement(false);
-      return;
-    }
-    setChargement(true);
-    entreesParLettreAction(lettre).then((liste) => {
-      setEntrees(liste);
-      setChargement(false);
-    });
-  }, [lettre]);
+  const cleLettre = lettre ? cleCache("dictionnaire", "lettre", lettre) : null;
+  const { donnees: entreesChargees, premierChargement } = useListeMemorisee<Entree[]>({
+    cle: cleLettre,
+    charger: () => entreesParLettreAction(lettre as string),
+  });
+  const entrees = entreesChargees ?? [];
+  // Une revalidation en fond ne doit jamais remettre le squelette : la liste
+  // reste à l'écran et se met à jour quand la réponse arrive.
+  const chargement = premierChargement || (lettre !== null && entreesChargees === null);
+
+  useScrollMemorise(cleLettre, entrees.length > 0);
 
   return (
     <div className="flex min-h-screen flex-col pb-16 md:pb-0 md:pl-20 lg:pl-56">

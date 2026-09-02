@@ -1,6 +1,5 @@
 "use client";
 
-import { useEffect, useState } from "react";
 import Link from "next/link";
 import { useAuth } from "@/components/auth-provider";
 import { AppHeader } from "@/components/app-header";
@@ -14,6 +13,15 @@ import {
 } from "@/app/actions/contributions";
 import { listerCandidats } from "@/app/actions/arbitrage";
 import { URL_FORUM_DICTIONNAIRE } from "@/lib/liens-externes";
+import { useListeMemorisee } from "@/hooks/use-liste-memorisee";
+import { useScrollMemorise } from "@/hooks/use-scroll-memorise";
+import { cleCache } from "@/lib/cache-navigation";
+
+interface DonneesEspace {
+    miennes: MaContribution[];
+    stats: StatistiquesContributeur | null;
+    candidats: number | null;
+}
 
 // Écran 6 (3 variantes) du handoff mobile : "Mon espace" remplace le
 // Dashboard + Profil du 25/08 en un seul écran, rendu conditionnel sur le
@@ -28,37 +36,36 @@ import { URL_FORUM_DICTIONNAIRE } from "@/lib/liens-externes";
 // un teaser (nombre de candidats + lien vers la file complète).
 export default function MonEspacePage() {
     const { user, role, isLoading, signOut } = useAuth();
-    const [mesContributions, setMesContributions] = useState<MaContribution[]>([]);
-    const [stats, setStats] = useState<StatistiquesContributeur | null>(null);
-    const [candidatsEnAttente, setCandidatsEnAttente] = useState<number | null>(null);
-    const [chargement, setChargement] = useState(true);
-
     const estContributeur = role === "contributeur" || role === "admin";
     const estAdmin = role === "admin";
 
-    useEffect(() => {
-        if (!user || !estContributeur) {
-            setChargement(false);
-            return;
-        }
-        let annule = false;
-        setChargement(true);
-        (async () => {
+    // Une seule entrée de cache pour tout l'écran : les trois appels partent
+    // déjà ensemble, les découper n'apporterait qu'une invalidation à tenir en
+    // trois morceaux. La clé porte l'identité ET le rôle — un admin charge en
+    // plus la file de candidats, un contributeur non.
+    const cle = user && estContributeur ? cleCache("dashboard", user.id, role) : null;
+    const { donnees, premierChargement } = useListeMemorisee<DonneesEspace>({
+        cle,
+        charger: async () => {
             const miennes = await listerMesContributions();
             const [statistiques, candidats] = await Promise.all([
                 chargerStatistiquesContributeur(miennes),
                 estAdmin ? listerCandidats() : Promise.resolve(null),
             ]);
-            if (annule) return;
-            setMesContributions(miennes);
-            setStats(statistiques);
-            if (candidats) setCandidatsEnAttente(candidats.length);
-            setChargement(false);
-        })();
-        return () => {
-            annule = true;
-        };
-    }, [user, estContributeur, estAdmin]);
+            return {
+                miennes,
+                stats: statistiques,
+                candidats: candidats ? candidats.length : null,
+            };
+        },
+    });
+
+    const mesContributions = donnees?.miennes ?? [];
+    const stats = donnees?.stats ?? null;
+    const candidatsEnAttente = donnees?.candidats ?? null;
+    const chargement = premierChargement || (cle !== null && donnees === null);
+
+    useScrollMemorise(cle, donnees !== null);
 
     const handleSignOut = async () => {
         await signOut();

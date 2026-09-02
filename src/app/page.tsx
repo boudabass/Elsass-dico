@@ -8,6 +8,9 @@ import { AppHeader } from "@/components/app-header";
 import { ListSkeleton } from "@/components/ui/list-skeleton";
 import { rechercherAction, type ResultatRecherche } from "@/app/actions/recherche";
 import { useAuth } from "@/components/auth-provider";
+import { useListeMemorisee } from "@/hooks/use-liste-memorisee";
+import { useScrollMemorise } from "@/hooks/use-scroll-memorise";
+import { cleCache, memoriserUrlOnglet } from "@/lib/cache-navigation";
 
 // Écran 1 (Recherche) + écran 10 (aucun résultat) du handoff mobile
 // design_handoff_mobile_app/ (Claude Design, 28/08/2026). Remplace la page
@@ -33,36 +36,52 @@ function AccueilContenu() {
   // Terme restauré depuis l'URL au premier chargement (retour navigateur
   // depuis une fiche de mot) plutôt que toujours repartir d'une recherche vide.
   const [terme, setTerme] = useState(() => searchParams.get("q") ?? "");
-  const [resultats, setResultats] = useState<ResultatRecherche[]>([]);
-  const [recherche, setRecherche] = useState(false);
-  const [aCherche, setACherche] = useState(false);
+  // Terme réellement soumis, une fois la frappe retombée. C'est lui qui fait
+  // la clé de cache : deux visites du même terme ne rappellent pas le serveur.
+  const [requete, setRequete] = useState(() => (searchParams.get("q") ?? "").trim());
 
   // Recherche différée : la frappe ne doit pas déclencher un aller-retour par
   // caractère, et la RPC refuse de toute façon les termes d'un seul caractère.
   // L'URL est mise à jour (replace, pas push) au même rythme que la recherche,
   // pour qu'un retour depuis une fiche de mot retombe sur la même requête.
   useEffect(() => {
-    const requete = terme.trim();
-    if (requete.length < 2) {
-      setResultats([]);
-      setACherche(false);
-      setRecherche(false);
+    const saisie = terme.trim();
+    if (saisie === requete) return;
+
+    if (saisie.length < 2) {
+      setRequete("");
       router.replace("/", { scroll: false });
+      memoriserUrlOnglet("recherche", "/");
       return;
     }
 
-    setRecherche(true);
-    const minuteur = setTimeout(async () => {
-      router.replace(`/?q=${encodeURIComponent(requete)}`, { scroll: false });
-      const trouves = await rechercherAction(requete);
-      setResultats(trouves);
-      setACherche(true);
-      setRecherche(false);
+    const minuteur = setTimeout(() => {
+      const url = `/?q=${encodeURIComponent(saisie)}`;
+      setRequete(saisie);
+      router.replace(url, { scroll: false });
+      // La barre de nav rouvrira la recherche ici plutôt que sur un écran vide.
+      memoriserUrlOnglet("recherche", url);
     }, 250);
 
     return () => clearTimeout(minuteur);
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [terme]);
+  }, [terme, requete]);
+
+  const cle = requete.length >= 2 ? cleCache("recherche", requete) : null;
+  const { donnees, premierChargement } = useListeMemorisee<ResultatRecherche[]>({
+    cle,
+    charger: () => rechercherAction(requete),
+  });
+  const resultats = donnees ?? [];
+
+  // Le spinner couvre aussi la fenêtre de debounce : sans ça, taper une lettre
+  // de plus laisserait l'écran figé sur les résultats précédents sans rien
+  // indiquer.
+  const attenteFrappe = terme.trim().length >= 2 && terme.trim() !== requete;
+  const recherche = attenteFrappe || premierChargement;
+  const aCherche = cle !== null && donnees !== null;
+
+  useScrollMemorise(cle, resultats.length > 0);
 
   // Insère le caractère à l'endroit du curseur plutôt qu'en fin de chaîne :
   // selectionStart/End restent lisibles sur l'input même après que le focus

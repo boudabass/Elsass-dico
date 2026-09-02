@@ -38,6 +38,17 @@ interface AppHeaderRootProps {
 interface AppHeaderStackProps {
   variant: "stack";
   titre: string;
+  /**
+   * Écran empilé qui est AUSSI une destination de la nav : la barre/rail reste
+   * affichée, avec cet onglet actif. Cas de /admin/arbitrage (02/09/2026,
+   * retour utilisateur « sur la page arbitrage il n'y a aucun menu du tout »).
+   * Depuis que « Arbitrage » est une 4e destination pour les admins (30/08), une
+   * page où l'on arrive PAR la nav mais qui ne l'affiche pas est un cul-de-sac :
+   * seul le chevron retour en sort. Absent = écran empilé classique, sans nav
+   * (Signaler, Proposer un mot… — des écrans de tâche dont on ne « navigue »
+   * pas ailleurs).
+   */
+  actif?: OngletRacine;
   /** "fermer" pour les écrans modaux (Signaler) ; "retour" partout ailleurs (défaut). */
   leading?: "retour" | "fermer";
   /** Lien de retour explicite. À défaut, revient à l'historique du navigateur. */
@@ -61,7 +72,7 @@ const BOUTON_ICONE =
 export function AppHeader(props: AppHeaderProps) {
   return (
     <>
-      {props.variant === "root" ? <AppNavShell actif={props.actif} /> : null}
+      {props.actif ? <AppNavShell actif={props.actif} /> : null}
       <header
         className="sticky top-0 z-40 border-b border-border bg-background"
         style={{ paddingTop: "env(safe-area-inset-top)" }}

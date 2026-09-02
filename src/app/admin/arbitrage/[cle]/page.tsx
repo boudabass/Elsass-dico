@@ -166,8 +166,8 @@ export default function ArbitragePage() {
 
   if (!detail) {
     return (
-      <div className="flex min-h-screen flex-col">
-        <AppHeader variant="stack" titre="Arbitrage" backHref="/admin/arbitrage" />
+      <div className="flex min-h-screen flex-col pb-16 md:pb-0 md:pl-20 lg:pl-56">
+        <AppHeader variant="stack" actif="arbitrage" titre="Arbitrage" backHref="/admin/arbitrage" />
         <div className="container mx-auto max-w-3xl space-y-4 p-8 text-center">
           <p className="text-muted-foreground">
             Aucune attestation ne correspond à « {cle} »{contexteUrl && ` (${contexteUrl})`}.
@@ -181,11 +181,12 @@ export default function ArbitragePage() {
   }
 
   return (
-    <div className="flex min-h-screen flex-col">
+    <div className="flex min-h-screen flex-col pb-16 md:pb-0 md:pl-20 lg:pl-56">
       {/* Retour par l'historique et non par un <Link> : un push rouvrirait la
           file sans son filtre, sans son onglet et en haut de page. */}
       <AppHeader
         variant="stack"
+        actif="arbitrage"
         titre={detail.francais}
         backHref="/admin/arbitrage"
         retourHistorique

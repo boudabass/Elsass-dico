@@ -25,11 +25,16 @@ import { lireUrlOnglet } from "@/lib/cache-navigation";
 // 4e destination conditionnelle (30/08) : « Arbitrage », visible seulement
 // pour role === "admin" (même condition stricte que le middleware sur
 // /admin/*, pas juste "connecté" — un utilisateur/contributeur connecté ne
-// peut de toute façon pas accéder à cette page). /admin/arbitrage garde son
-// propre AppHeader en variant="stack" (trailing vers /admin, retour vers
-// /dashboard) : cette icône ne s'affiche donc jamais "active" une fois sur
-// la page elle-même, comme /admin aujourd'hui — seulement en highlight
-// d'entrée depuis les 3 autres écrans racine.
+// peut de toute façon pas accéder à cette page).
+//
+// Corrigé le 02/09/2026 (retour utilisateur) : /admin/arbitrage n'affichait
+// AUCUNE nav. Le choix initial — la page garde son AppHeader en
+// variant="stack", donc pas de rail — se tenait tant qu'« Arbitrage » n'était
+// pas une destination ; il en fait une un cul-de-sac depuis. La nav est donc
+// désormais montée sur les écrans d'arbitrage, onglet actif, via le prop
+// `actif` que variant="stack" accepte maintenant (cf. AppHeader). Les écrans
+// de TÂCHE (Signaler, Proposer un mot) restent sans nav : on ne « navigue »
+// pas depuis eux, on les termine ou on les ferme.
 
 export type OngletRacine = "recherche" | "dictionnaire" | "compte" | "arbitrage";
 

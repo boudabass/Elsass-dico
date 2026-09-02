@@ -8,13 +8,17 @@ alsacien publié sous cette marque serait un vrai problème.
 
 1. Aucune traduction générée par un LLM. Jamais. Une entrée inventée est pire
    que pas d'entrée.
-2. Aucune copie d'une source unique. La base se construit par recoupement : un
-   équivalent attesté dans plusieurs sources indépendantes est retenu, puis
-   réécrit en Orthal. Divergence entre sources = entrée marquée pour arbitrage
-   manuel. Seule exception, décidée le 07/08/2026 : un admin peut publier une
-   entrée à partir d'une contribution unique s'il en juge ainsi. La règle vise
-   la reprise en masse d'une source scrapée, pas le témoignage d'un locuteur
-   qu'un humain a arbitré.
+2. Le recoupement se déclare, il ne se cache pas. La base se construit par
+   recoupement : un équivalent attesté dans plusieurs sources indépendantes est
+   retenu, puis réécrit en Orthal. Divergence entre sources = entrée marquée
+   pour arbitrage manuel. **Révisée le 02/09/2026** (cf. « Modèle de confiance
+   à trois niveaux ») : une entrée peut être publiée à partir d'une source
+   unique **à condition d'afficher son niveau de confiance** — 1 source =
+   rouge, 2 = jaune, 3 et plus = vert. Le seuil binaire « 2 sources ou rien »
+   est remplacé par cette déclaration visible. Ce qui reste interdit :
+   présenter une entrée à 1 source comme si elle était recoupée. L'exception du
+   07/08/2026 (publication depuis une contribution unique de locuteur) est
+   absorbée par ce modèle.
 3. Chaque entrée porte un champ sources et un nombre d'attestations, qui sert
    de score de confiance.
 4. Rien ne passe en production sans validation humaine. Statut "à valider" par
@@ -1179,8 +1183,85 @@ dont la divergence est une alternance a~e, la forme qui porte le trait local est
   échoue). **Non vérifié en navigateur** : `/admin/arbitrage` exige une session
   admin, que Claude Code n'a pas — à confirmer par John à l'écran.
 
+## Cap produit et modèle de confiance (02/09/2026)
+
+Trois documents produit ont été écrits ce jour dans `documentation/`, après le
+constat que le projet avançait sans cible écrite côté app — la donnée avait une
+doctrine, le produit n'en avait aucune. `01-PRD.md` était périmé depuis le
+31/07 et rien ne l'avait remplacé.
+
+**Odoo est la source de vérité** — base de connaissance de tout l'univers The
+Elsassisch, tous projets confondus. Le dépôt n'en est qu'un consommateur :
+`documentation/` reste utilisé mais ne fait autorité sur rien, ses fichiers sont
+des renvois minimaux.
+
+- **Odoo 878** (racine du Knowledge, hors hub projet) — **la méthode et les
+  gabarits réutilisables, valables pour tous les projets présents et futurs**.
+  Sous-articles : gabarit 10 Vision produit (879), gabarit 11 Feuille de route
+  (881), gabarit 12 Checklists (880).
+- **Odoo 882** (hub 117) — cap produit : v1, utilisateur prioritaire, modèle de
+  confiance, périmètre.
+- **Odoo 883** (hub 117) — jalons et critères de sortie, séquencement, dettes de
+  qualité.
+- **Odoo 884** (hub 117) — checklists opérationnelles, chaque ligne datée de
+  l'incident réel dont elle vient.
+- **Odoo 669** — recentré sur l'**état des lieux** ; sa section « Prochaines
+  étapes » est remplacée par 883.
+- `documentation/orthal/` — reste dans le dépôt : référence normative externe,
+  elle ne périme pas et ne concurrence donc pas Odoo.
+
+Répartition **par nature, jamais par sujet** : `CLAUDE.md` fait foi sur le passé
+et les décisions prises, Odoo sur la méthode et la cible. Deux documents qui
+parlent du même sujet à deux endroits divergent en silence — c'est précisément
+le risque de doublon pour lequel GitHub Spec Kit a été évalué puis écarté le même
+jour (son dispositif doublonnait `CLAUDE.md` + le board Hermes + les GATE +
+Odoo). Ses **principes** sont retenus et écrits dans l'article 878.
+
+**`documentation/orthal/` était inutilisé alors qu'il tranche le chantier en
+cours.** Le 01/09, l'isoglosse a~e a été mesurée en base et « Orthal donne la
+règle » écrit ici même — sans jamais ouvrir ce dossier, qui documente cette
+règle (`06-VARIANTES.md`, continuum dialectal). À ouvrir avant tout arbitrage de
+forme.
+
+**Décisions de John du 02/09/2026 :**
+
+1. **Utilisateur prioritaire = l'apprenant / le curieux.** Arbitre tous les
+   conflits de conception.
+2. **La v1 se définit par un seuil de lexique courant**, pas par un volume
+   d'attestations ni par la complétude fonctionnelle. Cible proposée : 1 000
+   lemmes français fréquents couverts.
+3. **Modèle de confiance à trois niveaux, assouplissant la règle 2** : 1 source
+   = rouge, 2 = jaune, 3+ = vert. Motif : le seuil binaire bloquait ~26 000
+   candidats et laissait en ligne un dictionnaire de 334 entrées dont 329
+   toponymes — un annuaire de communes, pas un traducteur. Un visiteur tapant
+   « bonjour » ne trouvait rien.
+
+**Objection posée avant d'appliquer, et qui reste valable** : le badge règle le
+problème du *sourcing*, pas celui de la *qualité de graphie*. Deux dettes
+connues de `culture_alsace` ne sont pas couvertes par une couleur et doivent
+être traitées avant la v1 lexique —
+
+- **≈ 15 600 des 23 851 attestations lexicales portent l'article défini collé**
+  (`d'r lohn`, `s' schloss`). Publiées telles quelles, l'app répond `d'r lohn` à
+  qui cherche « salaire ». Piste retenue, à confirmer doctrinalement :
+  **décomposer** (`alsacien = "lohn"`, `article = "d'r"`), la concaténation
+  redonnant la chaîne attestée octet à octet — donc sans réécriture au sens de
+  la règle 1. Le PRD initial prévoyait déjà un champ `article`.
+- **390 coquilles de source connues**, signalées à l'extraction de la campagne
+  3. Liste finie : elles ne partent jamais dans un lot de publication.
+
+**Piège d'implémentation du badge** : il doit compter les **sources distinctes**,
+et `entrees.nb_attestations` n'est pas ce nombre (confusion déjà documentée au
+23/08). Afficher `nb_attestations` en croyant afficher des sources
+surestimerait la confiance — exactement la faute que le badge existe pour
+empêcher. Le badge doit aussi être visible **dans les résultats de recherche et
+la liste A-Z**, pas seulement sur la fiche : une entrée rouge partagée hors
+contexte doit rester lisible comme non recoupée.
+
 ## Règles de travail
 
 - Ne jamais inventer de traduction alsacienne, même pour un exemple ou un test.
-- Ne jamais remplir la base sans recoupement multi-sources.
+- Ne jamais publier une entrée sans afficher son niveau de confiance réel
+  (cf. modèle à trois niveaux du 02/09/2026). Publier peu recoupé est permis,
+  le faire passer pour recoupé ne l'est pas.
 - Toujours demander avant de supprimer des données existantes.

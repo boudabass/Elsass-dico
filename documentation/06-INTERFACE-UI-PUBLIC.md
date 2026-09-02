@@ -1,6 +1,19 @@
 # 06 - Spécifications Interface (UI) - PUBLIC V1
 **Cible** : Utilisateurs non connectés (Tout le monde)
 
+> **Document périmé, conservé pour mémoire.** Étiqueté le 02/09/2026 — il était
+> resté le seul du dossier à décrire une vision abandonnée sans le dire.
+> L'« écran principal - Traduction » ci-dessous (saisie d'un texte français,
+> découpage en segments) relève de la vision « traducteur de phrases »,
+> abandonnée le 31/07/2026. L'app réelle est un dictionnaire : recherche
+> bidirectionnelle, parcours A-Z, fiche de mot. L'interface effectivement
+> construite est décrite dans `CLAUDE.md` (sections mobile-first du 28-30/08) et
+> la cible dans `10-VISION-PRODUIT.md`.
+>
+> Ce qui reste valable ici : la philosophie « Alsacien unifié » (une forme
+> canonique affichée, pas de sélecteur de variante), reprise dans la doctrine
+> éditoriale sous la règle « Premier est Roi ».
+
 ## 1. Philosophie "Alsacien Unifié"
 > [!IMPORTANT]
 > **Une seule vérité.**

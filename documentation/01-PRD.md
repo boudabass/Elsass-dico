@@ -9,6 +9,9 @@
 > mentionné ci-dessous a été supprimé le 30/08/2026 (repris et étendu par la
 > campagne 3, cf. `CLAUDE.md` à la racine du dépôt, qui fait foi pour l'état
 > réel et les décisions prises).
+>
+> **Remplacé depuis le 02/09/2026 par `10-VISION-PRODUIT.md`**, qui porte la
+> cible produit vivante. Ne rien ajouter ici : ce fichier est une archive.
 
 ## 1. Vision & Objectifs
 - **Nom** : Elsass Dico

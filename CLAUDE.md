@@ -1258,6 +1258,75 @@ empêcher. Le badge doit aussi être visible **dans les résultats de recherche 
 la liste A-Z**, pas seulement sur la fiche : une entrée rouge partagée hors
 contexte doit rester lisible comme non recoupée.
 
+## Le retour conserve l'état complet de l'écran (02/09/2026)
+
+**Prolonge la PR #22 du 30/08**, qui n'avait traité que la *destination* du
+retour et la sélection (`?q=`, `?lettre=`). Le reste se perdait toujours :
+chaque écran de liste est un composant client qui charge ses données dans un
+`useEffect` au montage, donc une navigation entre deux routes démonte le
+composant — au retour l'état repart à sa valeur par défaut et l'effet refait
+l'appel réseau. La liste clignotait, le scroll était perdu. **PR #25, mergée.**
+
+Trois modules : `src/lib/cache-navigation.ts` (store mémoire des données, du
+scroll et de la dernière URL par onglet racine), `src/hooks/use-liste-memorisee.ts`
+(affiche le cache, revalide derrière) et `src/hooks/use-scroll-memorise.ts`.
+
+- **Un store maison plutôt que react-query ou swr.** Ces librairies ne couvrent
+  que la moitié du besoin — aucune ne restaure le scroll, qu'il aurait fallu
+  écrire de toute façon avec un second modèle de clés à tenir en phase. Et
+  leurs valeurs par défaut (`refetchOnWindowFocus`, `refetchOnReconnect`) vont
+  **contre** la contrainte de ce projet : le VPS n'a ni limite CPU ni rate
+  limiting, et chaque Server Action passe par `middleware.ts`, qui fait un
+  `getUser()` **plus** un select sur `profiles`. **Un appel évité, ce n'est pas
+  une requête économisée mais trois.** On aurait neutralisé 90 % de la
+  librairie.
+- **Jamais de `sessionStorage` ni de `localStorage`.** Le cache
+  d'`/admin/arbitrage` contient des **attestations non publiées** — du brut qui
+  ne sort jamais de la base pour un visiteur. Les écrire sur disque les
+  laisserait lisibles après une déconnexion, sur un poste partagé. Un cache
+  mémoire meurt avec la page : contrepartie acceptée, un F5 refetche tout —
+  « le retour conserve, le rechargement rafraîchit ».
+- **En deçà de 15 s le serveur n'est pas rappelé du tout.** Un aller-retour vers
+  une fiche prend 3 à 10 s : c'est le cas dominant. **Le nombre d'appels
+  n'augmente jamais** par rapport à l'existant — ce chantier sert donc aussi la
+  tenue en charge.
+- **Le scroll ne se restaure que sur un vrai retour** (`popstate`), jamais sur
+  un `<Link>` : retrouver ses filtres est utile, être déposé au milieu d'une
+  liste qu'on n'a pas quittée par un retour serait désorientant. Le cache est
+  purgé au changement d'identité (`auth-provider`).
+- **`next.config.ts` — `staleTimes.dynamic = 30`.** `/entree/[id]` lit des
+  cookies, donc chaque retour vers une fiche déjà vue refaisait la requête et
+  repassait par le middleware. Seul levier possible : ce sont des Server
+  Components, aucun cache client ne peut les couvrir.
+- **Un bloc `DEBUG TEMPORAIRE` exposait `window.__cacheNav`** — donc le cache
+  d'attestations non publiées — et n'a été vu qu'à la relecture du diff au
+  moment de commiter. Un « ça marche » ne l'aurait jamais montré.
+
+### La nav manquait entièrement sur les écrans d'arbitrage (PR #26)
+
+Signalé par John juste après : « sur la page arbitrage, il n'y a aucun menu du
+tout ». `AppHeader` ne montait `AppNavShell` que pour `variant="root"`, et
+`/admin/arbitrage` est en `variant="stack"`. Le choix se tenait le 30/08, quand
+« Arbitrage » n'était pas encore une destination ; **en faire la 4e icône du
+rail sans l'afficher sur la page elle-même en avait fait un cul-de-sac** — on y
+arrive par la nav, et la nav disparaît.
+
+- `variant="stack"` accepte désormais un prop `actif` optionnel. Présent, la
+  nav reste affichée avec cet onglet actif ; absent, l'écran reste sans nav —
+  **comportement voulu pour les écrans de tâche** (Signaler, Proposer un mot),
+  dont on ne navigue pas ailleurs : on les termine ou on les ferme.
+- Appliqué aux **trois écrans du flux** (la file, sa coquille `Suspense`, le
+  détail `[cle]` et ses deux branches), sinon la nav réapparaissait puis
+  disparaissait au premier candidat ouvert.
+- `AppNavShell` étant un overlay fixe, ces écrans réservent la place du rail
+  par le même padding que les écrans racine (`pb-16 md:pb-0 md:pl-20 lg:pl-56`),
+  sans quoi le rail passerait au-dessus du contenu vers 1024 px, là où le
+  conteneur `max-w-6xl` d'`/admin` touche le bord gauche.
+
+**Vérifié à l'écran par John** : les trois largeurs, le retour depuis la
+recherche, depuis le dictionnaire et depuis l'arbitrage, puis la présence des
+menus sur la page d'arbitrage après la PR #26.
+
 ## Règles de travail
 
 - Ne jamais inventer de traduction alsacienne, même pour un exemple ou un test.

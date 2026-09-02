@@ -58,7 +58,9 @@ export default function FileArbitragePage() {
   // échoue sur « should be wrapped in a suspense boundary » — même scission
   // que / et /dictionnaire depuis la PR #22.
   return (
-    <Suspense fallback={<AppHeader variant="stack" titre="Arbitrage" backHref="/dashboard" />}>
+    <Suspense
+      fallback={<AppHeader variant="stack" actif="arbitrage" titre="Arbitrage" backHref="/dashboard" />}
+    >
       <FileArbitrageContenu />
     </Suspense>
   );
@@ -134,9 +136,10 @@ function FileArbitrageContenu() {
   if (!user || role !== "admin") return <div className="p-8 text-center">Accès refusé</div>;
 
   return (
-    <div className="flex min-h-screen flex-col">
+    <div className="flex min-h-screen flex-col pb-16 md:pb-0 md:pl-20 lg:pl-56">
       <AppHeader
         variant="stack"
+        actif="arbitrage"
         titre="Arbitrage"
         backHref="/dashboard"
         trailing={

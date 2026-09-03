@@ -36,6 +36,7 @@ export interface EntreeDetaillee {
     type: TypeTerme
     traductions: Traduction[]
     nb_attestations: number
+    nb_sources: number
     sources: { nom: string; url: string | null }[]
 }
 
@@ -44,7 +45,7 @@ export async function chargerEntree(id: string): Promise<EntreeDetaillee | null>
 
     const { data: entree, error } = await supabase
         .from('entrees')
-        .select('id, francais, contexte, type, traductions, nb_attestations')
+        .select('id, francais, contexte, type, traductions, nb_attestations, nb_sources')
         .eq('id', id)
         .eq('statut', 'valide')
         .maybeSingle()

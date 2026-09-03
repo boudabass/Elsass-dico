@@ -73,7 +73,31 @@ export interface Entree {
     type: TypeTerme
     traductions: Traduction[]
     nb_attestations: number
+    nb_sources: number
     statut?: StatutEntree
+}
+
+// --- Modèle de confiance à trois niveaux (décision de John, 02/09/2026) -----
+//
+// nb_sources compte des sources DISTINCTES — jamais nb_attestations, qui
+// compte des attestations et peut monter sans qu'une seconde source
+// intervienne (piège déjà documenté le 23/08/2026 pour arbitrer_entree()).
+// Afficher nb_attestations en croyant afficher des sources surestimerait la
+// confiance, exactement ce que ce badge existe pour empêcher.
+
+export const NIVEAUX_CONFIANCE = ['rouge', 'jaune', 'vert'] as const
+export type NiveauConfiance = typeof NIVEAUX_CONFIANCE[number]
+
+export const LIBELLES_NIVEAU_CONFIANCE: Record<NiveauConfiance, string> = {
+    rouge: 'Non recoupée',
+    jaune: 'Recoupée (2 sources)',
+    vert: 'Bien recoupée',
+}
+
+export function niveauConfiance(nbSources: number): NiveauConfiance {
+    if (nbSources >= 3) return 'vert'
+    if (nbSources === 2) return 'jaune'
+    return 'rouge'
 }
 
 // Une variante telle que la renvoient candidats_arbitrage() et

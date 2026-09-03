@@ -1,6 +1,6 @@
 # Elsass Dico
 
-Traducteur français/alsacien, publié sur elsass-dico.theelsassisch.fr, adossé à la
+Traducteur français/alsacien, publié sur elsass-dico.theelsassisch.com, adossé à la
 marque The Elsassisch. La crédibilité linguistique est critique : du faux
 alsacien publié sous cette marque serait un vrai problème.
 
@@ -163,10 +163,20 @@ Coolify self-hosted v4.1.2 sur VPS OVH. Supabase self-hosted à déployer dessus
   Coolify lui-même, pas par GitHub Actions). SUPABASE_SERVICE_ROLE_KEY reste
   une variable runtime Coolify uniquement, jamais marquée disponible au
   build.
-- Domaine (corrigé le 23/08/2026) : **elsass-dico.theelsassisch.fr**, seul FQDN
-  déclaré par l'application Coolify `elsass-dico:main-utdpj1qsxnn954id84t28rha`.
-  L'ancien `dico.theelsassisch.fr`, inscrit ici jusqu'à cette date, répond 503 —
-  un 503 sur cette URL n'est donc pas une panne du site.
+- (Périmé depuis le 03/09/2026, cf. plus bas) Domaine (corrigé le 23/08/2026) :
+  **elsass-dico.theelsassisch.fr**, seul FQDN déclaré par l'application Coolify
+  `elsass-dico:main-utdpj1qsxnn954id84t28rha`. L'ancien `dico.theelsassisch.fr`,
+  inscrit ici jusqu'à cette date, répond 503 — un 503 sur cette URL n'est donc
+  pas une panne du site.
+- Domaine (révisé le 03/09/2026, décision de John) : wildcard `*.theelsassisch.com`
+  redirigé vers l'IP du serveur Coolify. **`.com` est désormais le domaine unique
+  de tout l'écosystème The Elsassisch** (Dico, Game, et les projets suivants) ;
+  `.fr` reste disponible pour les side projects hors écosystème. L'app Coolify
+  `elsass-dico:main-utdpj1qsxnn954id84t28rha` ne déclare donc plus qu'un FQDN,
+  **elsass-dico.theelsassisch.com** — le `.fr` a été retiré, pas seulement
+  complété. Une app Coolify distincte (même dépôt, branche `dev`) sert
+  **elsass-dico-dev.theelsassisch.com** pour tester avant merge sur `main`, sur
+  le modèle déjà en place pour elsass-game (`elsass-game-dev.theelsassisch.com`).
 - Authentification (06/08/2026) : Odoo est l'autorité sur les mots de passe,
   Supabase reste l'autorité sur les sessions et les rôles. Le login vérifie
   les identifiants portail via un POST JSON-RPC sur
@@ -898,8 +908,9 @@ avec The Elsassisch. **Décision de John : fond clair, palette du site.**
 - **Le site est `www.theelsassisch.com`** (site Odoo, même contenu que
   `theelsassich.odoo.com`). Attention : `theelsassisch.fr` répond 503 en HTTPS
   et 404 en HTTP, et `theelsassisch.com` sans `www` ne répond pas — seul le
-  sous-domaine `elsass-dico.theelsassisch.fr` est servi par Coolify, qui
-  n'héberge pas le site principal.
+  sous-domaine `elsass-dico.theelsassisch.fr` (**périmé depuis le 03/09/2026** :
+  `elsass-dico.theelsassisch.com`, cf. « Décisions prises ») est servi par
+  Coolify, qui n'héberge pas le site principal.
 - **Palette relevée dans le CSS compilé du site**, jamais inventée :
   `--o-color-1` / `--primary` = `#EFC631` (or), `--o-color-2` = `#FF0000`
   (rouge), `.o_cc1` = fond `#FFFFFF` / texte `#212529`, `--danger` = `#dc3545`.

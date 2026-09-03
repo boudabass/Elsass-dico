@@ -5,6 +5,7 @@ import Link from "next/link";
 import { useRouter, useSearchParams } from "next/navigation";
 import { Loader2, Search, SearchX } from "lucide-react";
 import { AppHeader } from "@/components/app-header";
+import { BadgeConfiance } from "@/components/badge-confiance";
 import { ListSkeleton } from "@/components/ui/list-skeleton";
 import { rechercherAction, type ResultatRecherche } from "@/app/actions/recherche";
 import { useAuth } from "@/components/auth-provider";
@@ -169,6 +170,7 @@ function AccueilContenu() {
                       {e.contexte && (
                         <span className="text-xs text-neutre-400">{e.contexte}</span>
                       )}
+                      <BadgeConfiance nbSources={e.nb_sources} className="ml-auto" />
                     </div>
                     <p className="mt-1 text-lg font-bold text-foreground">
                       {e.traductions[0]?.alsacien}

@@ -5,6 +5,7 @@ import Link from "next/link";
 import { useRouter, useSearchParams } from "next/navigation";
 import { BookOpen, ChevronRight } from "lucide-react";
 import { AppHeader } from "@/components/app-header";
+import { BadgeConfiance } from "@/components/badge-confiance";
 import { ListSkeleton } from "@/components/ui/list-skeleton";
 import { lettresDisponiblesAction, entreesParLettreAction } from "@/app/actions/navigation";
 import type { Entree } from "@/lib/dictionnaire";
@@ -131,7 +132,7 @@ function DictionnaireContenu() {
                       : "flex items-center justify-between gap-3 py-3 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-inset"
                   }
                 >
-                  <div className="min-w-0">
+                  <div className="min-w-0 flex-1">
                     <div className="truncate text-base font-semibold text-foreground">
                       {e.francais}
                       {e.contexte && <span className="font-normal text-neutre-400"> ({e.contexte})</span>}
@@ -140,6 +141,7 @@ function DictionnaireContenu() {
                       {e.traductions[0]?.alsacien}
                     </div>
                   </div>
+                  <BadgeConfiance nbSources={e.nb_sources} />
                   <ChevronRight className="h-3.5 w-3.5 shrink-0 text-neutre-300" strokeWidth={2.4} />
                 </Link>
               ))}

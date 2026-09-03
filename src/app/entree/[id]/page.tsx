@@ -1,6 +1,7 @@
 import { notFound } from "next/navigation";
 import { Crown, ShieldCheck } from "lucide-react";
 import { AppHeader } from "@/components/app-header";
+import { BadgeConfiance } from "@/components/badge-confiance";
 import { chargerEntree } from "@/app/actions/recherche";
 import { LIBELLES_REGION, LIBELLES_TYPE_TERME } from "@/lib/dictionnaire";
 import { RangeeActions } from "./actions-row";
@@ -23,9 +24,12 @@ export default async function EntreePage({ params }: { params: Promise<{ id: str
 
       <main className="flex-1 px-4 pt-[18px] pb-8">
         <h1 className="text-[32px] font-extrabold leading-[1.1] text-foreground">{entree.francais}</h1>
-        <p className="mt-0.5 text-sm text-neutre-400">
-          {entree.contexte || (LIBELLES_TYPE_TERME[entree.type] ?? entree.type)}
-        </p>
+        <div className="mt-1 flex flex-wrap items-center gap-2">
+          <p className="text-sm text-neutre-400">
+            {entree.contexte || (LIBELLES_TYPE_TERME[entree.type] ?? entree.type)}
+          </p>
+          <BadgeConfiance nbSources={entree.nb_sources} />
+        </div>
 
         <div className="mt-4 flex flex-col gap-2.5">
           {/* La forme canonique se distingue par la taille, la graisse et son

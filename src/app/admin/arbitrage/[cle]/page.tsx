@@ -221,6 +221,11 @@ export default function ArbitragePage() {
                 <div className="min-w-0 flex-1 space-y-1">
                   <div className="flex items-center gap-2 flex-wrap">
                     <span className="font-medium">{v.alsacien}</span>
+                    {v.article && v.alsacien_sans_article && (
+                      <Badge variant="outline" className="font-normal text-muted-foreground">
+                        article : {v.article.trim()}
+                      </Badge>
+                    )}
                     {v.region && (
                       <Badge variant="outline" className="font-normal">
                         {LIBELLES_REGION[v.region]}

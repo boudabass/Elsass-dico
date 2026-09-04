@@ -1,6 +1,6 @@
 # Elsass Dico
 
-Traducteur français/alsacien, publié sur elsass-dico.theelsassisch.fr, adossé à la
+Traducteur français/alsacien, publié sur elsass-dico.theelsassisch.com, adossé à la
 marque The Elsassisch. La crédibilité linguistique est critique : du faux
 alsacien publié sous cette marque serait un vrai problème.
 
@@ -163,10 +163,20 @@ Coolify self-hosted v4.1.2 sur VPS OVH. Supabase self-hosted à déployer dessus
   Coolify lui-même, pas par GitHub Actions). SUPABASE_SERVICE_ROLE_KEY reste
   une variable runtime Coolify uniquement, jamais marquée disponible au
   build.
-- Domaine (corrigé le 23/08/2026) : **elsass-dico.theelsassisch.fr**, seul FQDN
-  déclaré par l'application Coolify `elsass-dico:main-utdpj1qsxnn954id84t28rha`.
-  L'ancien `dico.theelsassisch.fr`, inscrit ici jusqu'à cette date, répond 503 —
-  un 503 sur cette URL n'est donc pas une panne du site.
+- (Périmé depuis le 03/09/2026, cf. plus bas) Domaine (corrigé le 23/08/2026) :
+  **elsass-dico.theelsassisch.fr**, seul FQDN déclaré par l'application Coolify
+  `elsass-dico:main-utdpj1qsxnn954id84t28rha`. L'ancien `dico.theelsassisch.fr`,
+  inscrit ici jusqu'à cette date, répond 503 — un 503 sur cette URL n'est donc
+  pas une panne du site.
+- Domaine (révisé le 03/09/2026, décision de John) : wildcard `*.theelsassisch.com`
+  redirigé vers l'IP du serveur Coolify. **`.com` est désormais le domaine unique
+  de tout l'écosystème The Elsassisch** (Dico, Game, et les projets suivants) ;
+  `.fr` reste disponible pour les side projects hors écosystème. L'app Coolify
+  `elsass-dico:main-utdpj1qsxnn954id84t28rha` ne déclare donc plus qu'un FQDN,
+  **elsass-dico.theelsassisch.com** — le `.fr` a été retiré, pas seulement
+  complété. Une app Coolify distincte (même dépôt, branche `dev`) sert
+  **elsass-dico-dev.theelsassisch.com** pour tester avant merge sur `main`, sur
+  le modèle déjà en place pour elsass-game (`elsass-game-dev.theelsassisch.com`).
 - Authentification (06/08/2026) : Odoo est l'autorité sur les mots de passe,
   Supabase reste l'autorité sur les sessions et les rôles. Le login vérifie
   les identifiants portail via un POST JSON-RPC sur
@@ -898,8 +908,9 @@ avec The Elsassisch. **Décision de John : fond clair, palette du site.**
 - **Le site est `www.theelsassisch.com`** (site Odoo, même contenu que
   `theelsassich.odoo.com`). Attention : `theelsassisch.fr` répond 503 en HTTPS
   et 404 en HTTP, et `theelsassisch.com` sans `www` ne répond pas — seul le
-  sous-domaine `elsass-dico.theelsassisch.fr` est servi par Coolify, qui
-  n'héberge pas le site principal.
+  sous-domaine `elsass-dico.theelsassisch.fr` (**périmé depuis le 03/09/2026** :
+  `elsass-dico.theelsassisch.com`, cf. « Décisions prises ») est servi par
+  Coolify, qui n'héberge pas le site principal.
 - **Palette relevée dans le CSS compilé du site**, jamais inventée :
   `--o-color-1` / `--primary` = `#EFC631` (or), `--o-color-2` = `#FF0000`
   (rouge), `.o_cc1` = fond `#FFFFFF` / texte `#212529`, `--danger` = `#dc3545`.
@@ -1326,6 +1337,82 @@ arrive par la nav, et la nav disparaît.
 **Vérifié à l'écran par John** : les trois largeurs, le retour depuis la
 recherche, depuis le dictionnaire et depuis l'arbitrage, puis la présence des
 menus sur la page d'arbitrage après la PR #26.
+
+## Article défini collé décomposé (03-04/09/2026)
+
+Chantier annoncé le 02/09 (« Cap produit et modèle de confiance »), réalisé par
+la migration `20260903010000_article_colle_attestations.sql`, PR #30.
+
+- **Le chiffre du 02/09 mélangeait deux populations.** Sur les 23 851
+  attestations lexicales `culture_alsace` : 12 786 à une seule forme
+  alsacienne, et 11 065 (46 %) qui empilent plusieurs synonymes séparés par
+  virgule/point-virgule (ex. « d'r Scheffégreff, d'Antrung. »). Décomposer
+  proprement ces dernières supposerait d'abord de scinder chaque attestation
+  en plusieurs lignes — chantier de nature différente, **explicitement hors
+  périmètre** (décision de John, 03/09/2026). Elles ne sont pas touchées.
+- **Colonnes dérivées, jamais une réécriture** (règle 1) : `article` et
+  `alsacien_sans_article` s'ajoutent à `attestations`, `alsacien` n'est pas
+  modifiée. Une `CHECK` (`chk_article_reconstruction`) garantit
+  `article || alsacien_sans_article = alsacien` au niveau du schéma, pas
+  seulement comme intention de script.
+- **Règle de reconnaissance, appliquée aux 12 786 lignes à forme unique** :
+  `d'r `/`s' `/`d' ` espacés (5 996, sans ambiguïté) ; `d'`/`s'` collé
+  seulement devant une majuscule (2 890, article élidé devant un nom propre) ;
+  collé devant une minuscule laissé de côté (130, ambigu — `d'frescha Luft`
+  contre `s'esch...` sont indiscernables sans analyse grammaticale, règle 3 du
+  studio) ; aucun préfixe reconnu ou hors périmètre de l'article défini (3 770,
+  ex. `z'`, `g'`, `sech`) non plus décomposé. **Total : 8 886 / 23 851.**
+- **Vérifié en base après application par John** (clé service_role, requêtes
+  PostgREST directes, pas pris au mot) : 8 886 lignes à `article` non nul,
+  exactement le chiffre annoncé ; 0 parmi elles ne contient de
+  virgule/point-virgule dans `alsacien` ; échantillon cohérent (`d'r Mai.` →
+  `d'r ` + `Mai.`).
+- **Rien côté code applicatif pour l'instant** : aucune recherche ni affichage
+  n'exploite encore `alsacien_sans_article`. C'est la suite naturelle — la
+  donnée existe, l'usage (recherche « salaire » → `lohn`) reste à câbler.
+
+### Suite (04/09/2026) : affichage dans l'arbitrage, recoupement non touché
+
+Migration `20260904000000_article_dans_variantes_arbitrage.sql`. Avant
+d'écrire quoi que ce soit, mesure en base (service_role, lecture seule,
+réplique la clé de groupement `lower(btrim(francais))` + `contexte` de
+`candidats_arbitrage()`) : **décomposer l'article ne débloque aujourd'hui
+aucun recoupement.** Seuls 25 candidats lexicaux ont 2 sources distinctes ou
+plus dans la file, et aucun n'est unifié par le retrait de l'article — la
+quasi-totalité des 8 886 attestations décomposées restent seules
+(`culture_alsace`, 1 source sur N), donc invisibles à toute logique de
+comparaison entre sources.
+
+- **Donc pur affichage, jamais un changement de la clé de recoupement.**
+  `article` et `alsacien_sans_article` s'ajoutent aux `variantes` renvoyées
+  par `candidats_arbitrage()` et `detail_candidat()`, affichés en badge
+  (« article : d'r ») dans l'écran de détail `/admin/arbitrage/[cle]`
+  uniquement — `cleDeForme()`/`grouperParForme()`
+  (`src/lib/dictionnaire.ts`) ne sont pas touchées, ni la clé de groupement
+  SQL. Toucher la comparaison sans mesure aurait répété l'erreur du « +13 »
+  du 24/08/2026 sur les accents.
+- **`reprendreVariante()` continue de reprendre `v.alsacien` tel quel** : le
+  badge est une annotation, jamais une forme alternative proposée à la
+  publication. Publier `alsacien_sans_article` séparément reste la piste « à
+  confirmer doctrinalement » du 02/09/2026, non tranchée ici — elle
+  suppose d'ajouter un champ `article` à `entrees` elle-même, une décision de
+  schéma et de doctrine que ce correctif ne prend pas.
+- Vérifié : `tsc --noEmit` propre. **Non vérifié en navigateur** (session
+  admin requise, indisponible depuis Claude Code) — à confirmer par John à
+  l'écran sur un candidat `culture_alsace` à article collé.
+
+**État à la clôture de session (04/09/2026) : PR #30 ouverte, non mergée.**
+Trois choses restent à faire, dans cet ordre, avant de considérer le chantier
+clos :
+1. Merger PR #30.
+2. Appliquer à la main dans le SQL Editor du Studio Supabase les **deux**
+   migrations de la PR, dans l'ordre : `20260903010000_article_colle_attestations.sql`
+   (déjà fait par John avant le merge, donc déjà en base — seule la seconde
+   reste réellement à jouer) puis `20260904000000_article_dans_variantes_arbitrage.sql`
+   (pas encore appliquée). Rappel : Coolify redéploie l'app au merge mais
+   n'exécute jamais les migrations lui-même.
+3. Vérifier à l'écran sur `/admin/arbitrage/[cle]` qu'un candidat
+   `culture_alsace` à article collé affiche le badge « article : d'r ».
 
 ## Règles de travail
 

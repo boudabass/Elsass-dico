@@ -1338,6 +1338,39 @@ arrive par la nav, et la nav disparaît.
 recherche, depuis le dictionnaire et depuis l'arbitrage, puis la présence des
 menus sur la page d'arbitrage après la PR #26.
 
+## Article défini collé décomposé (03-04/09/2026)
+
+Chantier annoncé le 02/09 (« Cap produit et modèle de confiance »), réalisé par
+la migration `20260903010000_article_colle_attestations.sql`, PR #30 mergée.
+
+- **Le chiffre du 02/09 mélangeait deux populations.** Sur les 23 851
+  attestations lexicales `culture_alsace` : 12 786 à une seule forme
+  alsacienne, et 11 065 (46 %) qui empilent plusieurs synonymes séparés par
+  virgule/point-virgule (ex. « d'r Scheffégreff, d'Antrung. »). Décomposer
+  proprement ces dernières supposerait d'abord de scinder chaque attestation
+  en plusieurs lignes — chantier de nature différente, **explicitement hors
+  périmètre** (décision de John, 03/09/2026). Elles ne sont pas touchées.
+- **Colonnes dérivées, jamais une réécriture** (règle 1) : `article` et
+  `alsacien_sans_article` s'ajoutent à `attestations`, `alsacien` n'est pas
+  modifiée. Une `CHECK` (`chk_article_reconstruction`) garantit
+  `article || alsacien_sans_article = alsacien` au niveau du schéma, pas
+  seulement comme intention de script.
+- **Règle de reconnaissance, appliquée aux 12 786 lignes à forme unique** :
+  `d'r `/`s' `/`d' ` espacés (5 996, sans ambiguïté) ; `d'`/`s'` collé
+  seulement devant une majuscule (2 890, article élidé devant un nom propre) ;
+  collé devant une minuscule laissé de côté (130, ambigu — `d'frescha Luft`
+  contre `s'esch...` sont indiscernables sans analyse grammaticale, règle 3 du
+  studio) ; aucun préfixe reconnu ou hors périmètre de l'article défini (3 770,
+  ex. `z'`, `g'`, `sech`) non plus décomposé. **Total : 8 886 / 23 851.**
+- **Vérifié en base après application par John** (clé service_role, requêtes
+  PostgREST directes, pas pris au mot) : 8 886 lignes à `article` non nul,
+  exactement le chiffre annoncé ; 0 parmi elles ne contient de
+  virgule/point-virgule dans `alsacien` ; échantillon cohérent (`d'r Mai.` →
+  `d'r ` + `Mai.`).
+- **Rien côté code applicatif pour l'instant** : aucune recherche ni affichage
+  n'exploite encore `alsacien_sans_article`. C'est la suite naturelle — la
+  donnée existe, l'usage (recherche « salaire » → `lohn`) reste à câbler.
+
 ## Règles de travail
 
 - Ne jamais inventer de traduction alsacienne, même pour un exemple ou un test.

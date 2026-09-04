@@ -1414,6 +1414,52 @@ clos :
 3. Vérifier à l'écran sur `/admin/arbitrage/[cle]` qu'un candidat
    `culture_alsace` à article collé affiche le badge « article : d'r ».
 
+## Filtre par type dans la file d'arbitrage (04/09/2026)
+
+Signalé par John : dans l'onglet « File d'arbitrage », il ne voyait que des
+toponymes, en soupçonnant lui-même la pagination (plus de 50 candidats).
+Mesuré avant d'écrire quoi que ce soit (lecture seule, service_role, réplique
+côté client le groupement et le tri de `candidats_arbitrage()` — la RPC
+elle-même refuse le service_role, `is_admin()` n'a pas de `auth.uid()` pour ce
+rôle) :
+
+- **343 candidats non liés ont 2 sources ou plus** — ce que le tri
+  (`nb_sources DESC, nb_attestations DESC`) place mécaniquement avant tout le
+  reste. Dessus : **320 toponymes, 22 mots, 1 prénom.** Il faut épuiser
+  ~7 pages de 50 avant qu'un seul candidat à source unique n'apparaisse.
+- **Sur les 25 778 candidats au total** : 18 850 mots, 5 881 expressions, 904
+  toponymes, 143 prénoms. Les toponymes ne sont que 3,5 % du stock, mais
+  occupent la quasi-totalité des 50 premières lignes affichées.
+- Diagnostic confirmé : ni un bug de la garde de recoupement (règle 2), ni des
+  onglets Recoupées/Divergentes (qui paginent déjà jusqu'à épuisement du
+  multi-sources via `parcourirCandidatsMultiSources()`) — seul l'onglet
+  général, plafonné à 50 lignes sans pagination ni filtre autre que la
+  recherche sur le français, est concerné.
+
+**Correctif : filtre par type, pas de pagination.** Migration
+`20260904010000_filtre_type_arbitrage.sql` ajoute un paramètre `p_type` à
+`candidats_arbitrage()` (`AND (p_type IS NULL OR a.type = p_type)`).
+
+- **Changement de signature = `DROP FUNCTION` avant `CREATE`**, pas une simple
+  `CREATE OR REPLACE` : ajouter un paramètre change l'arité, et Postgres
+  créerait une seconde fonction surchargée au lieu de remplacer l'existante —
+  les deux deviendraient ambiguës pour un appel RPC à arguments nommés.
+  Précédent : le même choix dans `20260903000000_niveau_confiance.sql`.
+- Threadé à travers `listerCandidats()`, `parcourirCandidatsMultiSources()`
+  (donc aussi Recoupées et Divergentes, par cohérence — pas seulement la file
+  générale) dans `src/app/actions/arbitrage.ts`, et exposé comme un `Select`
+  dans `/admin/arbitrage`, porté par l'URL (`?type=`) comme le terme et
+  l'onglet. `estTypeTermeValide()` garde la valeur lue dans l'URL, comme elle
+  garde déjà `arbitrerAction()`.
+- Pagination délibérément écartée : cohérent avec le choix déjà fait pour
+  cette liste (plafond « 50+ » assumé, cf. commentaire `PAGE_RPC` — cette file
+  affiche les candidats les plus prioritaires, pas un total exhaustif) et
+  suffisant pour retrouver les mots : un candidat lexical multi-source se
+  retrouve désormais en tête dès qu'on filtre sur « Mot », et le filtre
+  combiné à la recherche français couvre le reste.
+- Vérifié : `tsc --noEmit` propre. **Non vérifié en navigateur** (session
+  admin requise) — à confirmer par John.
+
 ## Règles de travail
 
 - Ne jamais inventer de traduction alsacienne, même pour un exemple ou un test.

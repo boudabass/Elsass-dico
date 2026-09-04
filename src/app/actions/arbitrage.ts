@@ -56,7 +56,7 @@ type Resultat =
     | { success: true; message: string; entreeId: string }
     | { success: false; error: string }
 
-export async function listerCandidats(terme?: string): Promise<Candidat[]> {
+export async function listerCandidats(terme?: string, type?: TypeTerme): Promise<Candidat[]> {
     const garde = await requireAdmin()
     if (!garde.authorized) return []
 
@@ -65,6 +65,7 @@ export async function listerCandidats(terme?: string): Promise<Candidat[]> {
         p_terme: terme?.trim() || null,
         p_limite: 50,
         p_offset: 0,
+        p_type: type ?? null,
     })
 
     if (error) {
@@ -138,6 +139,7 @@ async function parcourirCandidatsMultiSources<T>(
     terme: string | undefined,
     etiquette: string,
     retenir: (candidat: Candidat) => T | null,
+    type?: TypeTerme,
 ): Promise<T[]> {
     const supabase = await createClient()
     const retenus: T[] = []
@@ -148,6 +150,7 @@ async function parcourirCandidatsMultiSources<T>(
             p_terme: terme?.trim() || null,
             p_limite: PAGE_CANDIDATS,
             p_offset: page * PAGE_CANDIDATS,
+            p_type: type ?? null,
         })
 
         if (error) {
@@ -181,7 +184,7 @@ async function parcourirCandidatsMultiSources<T>(
     return retenus
 }
 
-export async function listerCandidatsRecoupes(terme?: string): Promise<CandidatRecoupe[]> {
+export async function listerCandidatsRecoupes(terme?: string, type?: TypeTerme): Promise<CandidatRecoupe[]> {
     const garde = await requireAdmin()
     if (!garde.authorized) return []
 
@@ -189,7 +192,7 @@ export async function listerCandidatsRecoupes(terme?: string): Promise<CandidatR
         const traductions = traductionsRecoupees(candidat.variantes)
         if (traductions.length === 0) return null
         return { ...candidat, formeCanonique: traductions[0].alsacien, traductions }
-    })
+    }, type)
 }
 
 export interface CandidatDivergent extends Candidat {
@@ -204,7 +207,7 @@ export interface CandidatDivergent extends Candidat {
 // seuls, puis alternance a~e régionale, puis sonorisation, puis le reste. C'est
 // un ordre de commodité, pas une hiérarchie de légitimité — un candidat en tête
 // n'est pas plus fondé qu'un autre, il est plus rapide à regarder.
-export async function listerCandidatsDivergents(terme?: string): Promise<CandidatDivergent[]> {
+export async function listerCandidatsDivergents(terme?: string, type?: TypeTerme): Promise<CandidatDivergent[]> {
     const garde = await requireAdmin()
     if (!garde.authorized) return []
 
@@ -217,7 +220,7 @@ export async function listerCandidatsDivergents(terme?: string): Promise<Candida
             nature: divergence.nature,
             formeRegionale: divergence.formeRegionale,
         }
-    })
+    }, type)
 
     return divergents.sort((a, b) => {
         const rang = rangNature(a.nature) - rangNature(b.nature)

@@ -1397,22 +1397,20 @@ comparaison entre sources.
   confirmer doctrinalement » du 02/09/2026, non tranchée ici — elle
   suppose d'ajouter un champ `article` à `entrees` elle-même, une décision de
   schéma et de doctrine que ce correctif ne prend pas.
-- Vérifié : `tsc --noEmit` propre. **Non vérifié en navigateur** (session
-  admin requise, indisponible depuis Claude Code) — à confirmer par John à
-  l'écran sur un candidat `culture_alsace` à article collé.
+- **Vérifié en navigateur (Chrome, session admin `theelsassisch@gmail.com`,
+  04/09/2026) sur `elsass-dico-dev.theelsassisch.com`** : les deux migrations
+  en attente (`20260904000000` et `20260904010000`) étaient déjà appliquées en
+  base au moment du test. Candidat « salaire » (contexte `(le)`) → attestation
+  `d'r Lohn.` affiche bien le badge « article : d'r », et la sélection ne
+  change rien à `reprendreVariante()` (le bouton Reprendre garde `d'r Lohn.`
+  verbatim).
 
-**État à la clôture de session (04/09/2026) : PR #30 ouverte, non mergée.**
-Trois choses restent à faire, dans cet ordre, avant de considérer le chantier
-clos :
-1. Merger PR #30.
-2. Appliquer à la main dans le SQL Editor du Studio Supabase les **deux**
-   migrations de la PR, dans l'ordre : `20260903010000_article_colle_attestations.sql`
-   (déjà fait par John avant le merge, donc déjà en base — seule la seconde
-   reste réellement à jouer) puis `20260904000000_article_dans_variantes_arbitrage.sql`
-   (pas encore appliquée). Rappel : Coolify redéploie l'app au merge mais
-   n'exécute jamais les migrations lui-même.
-3. Vérifier à l'écran sur `/admin/arbitrage/[cle]` qu'un candidat
-   `culture_alsace` à article collé affiche le badge « article : d'r ».
+**État à la clôture de session (04/09/2026) : PR #30 ouverte, non mergée sur
+`main`.** Son contenu a été mergé le jour même dans `dev` (déploiement de
+test), et les migrations qu'elle porte sont déjà jouées sur la base partagée
+— vérifié en base et à l'écran ci-dessus. Reste, avant de considérer le
+chantier clos : merger PR #30 vers `main` (rien à rejouer côté SQL à ce
+merge, Coolify redéploie seulement le code).
 
 ## Filtre par type dans la file d'arbitrage (04/09/2026)
 
@@ -1457,8 +1455,13 @@ rôle) :
   suffisant pour retrouver les mots : un candidat lexical multi-source se
   retrouve désormais en tête dès qu'on filtre sur « Mot », et le filtre
   combiné à la recherche français couvre le reste.
-- Vérifié : `tsc --noEmit` propre. **Non vérifié en navigateur** (session
-  admin requise) — à confirmer par John.
+- **Vérifié en navigateur (Chrome, session admin, 04/09/2026)** sur
+  `elsass-dico-dev.theelsassisch.com` : sans filtre, la file mène en tête sur
+  Mulhouse/Bassemberg/Crastatt (toponymes) — reproduit exactement le
+  signalement de John. Filtre `Type = Mot` appliqué : la file montre
+  immédiatement chauve, désert, aïe, août, avril — tous multi-sources, aucun
+  toponyme. `?type=` reflété dans l'URL, valeur conservée en changeant
+  d'onglet.
 
 ## Règles de travail
 

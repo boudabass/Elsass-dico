@@ -1338,6 +1338,131 @@ arrive par la nav, et la nav disparaît.
 recherche, depuis le dictionnaire et depuis l'arbitrage, puis la présence des
 menus sur la page d'arbitrage après la PR #26.
 
+## Article défini collé décomposé (03-04/09/2026)
+
+Chantier annoncé le 02/09 (« Cap produit et modèle de confiance »), réalisé par
+la migration `20260903010000_article_colle_attestations.sql`, PR #30.
+
+- **Le chiffre du 02/09 mélangeait deux populations.** Sur les 23 851
+  attestations lexicales `culture_alsace` : 12 786 à une seule forme
+  alsacienne, et 11 065 (46 %) qui empilent plusieurs synonymes séparés par
+  virgule/point-virgule (ex. « d'r Scheffégreff, d'Antrung. »). Décomposer
+  proprement ces dernières supposerait d'abord de scinder chaque attestation
+  en plusieurs lignes — chantier de nature différente, **explicitement hors
+  périmètre** (décision de John, 03/09/2026). Elles ne sont pas touchées.
+- **Colonnes dérivées, jamais une réécriture** (règle 1) : `article` et
+  `alsacien_sans_article` s'ajoutent à `attestations`, `alsacien` n'est pas
+  modifiée. Une `CHECK` (`chk_article_reconstruction`) garantit
+  `article || alsacien_sans_article = alsacien` au niveau du schéma, pas
+  seulement comme intention de script.
+- **Règle de reconnaissance, appliquée aux 12 786 lignes à forme unique** :
+  `d'r `/`s' `/`d' ` espacés (5 996, sans ambiguïté) ; `d'`/`s'` collé
+  seulement devant une majuscule (2 890, article élidé devant un nom propre) ;
+  collé devant une minuscule laissé de côté (130, ambigu — `d'frescha Luft`
+  contre `s'esch...` sont indiscernables sans analyse grammaticale, règle 3 du
+  studio) ; aucun préfixe reconnu ou hors périmètre de l'article défini (3 770,
+  ex. `z'`, `g'`, `sech`) non plus décomposé. **Total : 8 886 / 23 851.**
+- **Vérifié en base après application par John** (clé service_role, requêtes
+  PostgREST directes, pas pris au mot) : 8 886 lignes à `article` non nul,
+  exactement le chiffre annoncé ; 0 parmi elles ne contient de
+  virgule/point-virgule dans `alsacien` ; échantillon cohérent (`d'r Mai.` →
+  `d'r ` + `Mai.`).
+- **Rien côté code applicatif pour l'instant** : aucune recherche ni affichage
+  n'exploite encore `alsacien_sans_article`. C'est la suite naturelle — la
+  donnée existe, l'usage (recherche « salaire » → `lohn`) reste à câbler.
+
+### Suite (04/09/2026) : affichage dans l'arbitrage, recoupement non touché
+
+Migration `20260904000000_article_dans_variantes_arbitrage.sql`. Avant
+d'écrire quoi que ce soit, mesure en base (service_role, lecture seule,
+réplique la clé de groupement `lower(btrim(francais))` + `contexte` de
+`candidats_arbitrage()`) : **décomposer l'article ne débloque aujourd'hui
+aucun recoupement.** Seuls 25 candidats lexicaux ont 2 sources distinctes ou
+plus dans la file, et aucun n'est unifié par le retrait de l'article — la
+quasi-totalité des 8 886 attestations décomposées restent seules
+(`culture_alsace`, 1 source sur N), donc invisibles à toute logique de
+comparaison entre sources.
+
+- **Donc pur affichage, jamais un changement de la clé de recoupement.**
+  `article` et `alsacien_sans_article` s'ajoutent aux `variantes` renvoyées
+  par `candidats_arbitrage()` et `detail_candidat()`, affichés en badge
+  (« article : d'r ») dans l'écran de détail `/admin/arbitrage/[cle]`
+  uniquement — `cleDeForme()`/`grouperParForme()`
+  (`src/lib/dictionnaire.ts`) ne sont pas touchées, ni la clé de groupement
+  SQL. Toucher la comparaison sans mesure aurait répété l'erreur du « +13 »
+  du 24/08/2026 sur les accents.
+- **`reprendreVariante()` continue de reprendre `v.alsacien` tel quel** : le
+  badge est une annotation, jamais une forme alternative proposée à la
+  publication. Publier `alsacien_sans_article` séparément reste la piste « à
+  confirmer doctrinalement » du 02/09/2026, non tranchée ici — elle
+  suppose d'ajouter un champ `article` à `entrees` elle-même, une décision de
+  schéma et de doctrine que ce correctif ne prend pas.
+- **Vérifié en navigateur (Chrome, session admin `theelsassisch@gmail.com`,
+  04/09/2026) sur `elsass-dico-dev.theelsassisch.com`** : les deux migrations
+  en attente (`20260904000000` et `20260904010000`) étaient déjà appliquées en
+  base au moment du test. Candidat « salaire » (contexte `(le)`) → attestation
+  `d'r Lohn.` affiche bien le badge « article : d'r », et la sélection ne
+  change rien à `reprendreVariante()` (le bouton Reprendre garde `d'r Lohn.`
+  verbatim).
+
+**État à la clôture de session (04/09/2026) : PR #30 ouverte, non mergée sur
+`main`.** Son contenu a été mergé le jour même dans `dev` (déploiement de
+test), et les migrations qu'elle porte sont déjà jouées sur la base partagée
+— vérifié en base et à l'écran ci-dessus. Reste, avant de considérer le
+chantier clos : merger PR #30 vers `main` (rien à rejouer côté SQL à ce
+merge, Coolify redéploie seulement le code).
+
+## Filtre par type dans la file d'arbitrage (04/09/2026)
+
+Signalé par John : dans l'onglet « File d'arbitrage », il ne voyait que des
+toponymes, en soupçonnant lui-même la pagination (plus de 50 candidats).
+Mesuré avant d'écrire quoi que ce soit (lecture seule, service_role, réplique
+côté client le groupement et le tri de `candidats_arbitrage()` — la RPC
+elle-même refuse le service_role, `is_admin()` n'a pas de `auth.uid()` pour ce
+rôle) :
+
+- **343 candidats non liés ont 2 sources ou plus** — ce que le tri
+  (`nb_sources DESC, nb_attestations DESC`) place mécaniquement avant tout le
+  reste. Dessus : **320 toponymes, 22 mots, 1 prénom.** Il faut épuiser
+  ~7 pages de 50 avant qu'un seul candidat à source unique n'apparaisse.
+- **Sur les 25 778 candidats au total** : 18 850 mots, 5 881 expressions, 904
+  toponymes, 143 prénoms. Les toponymes ne sont que 3,5 % du stock, mais
+  occupent la quasi-totalité des 50 premières lignes affichées.
+- Diagnostic confirmé : ni un bug de la garde de recoupement (règle 2), ni des
+  onglets Recoupées/Divergentes (qui paginent déjà jusqu'à épuisement du
+  multi-sources via `parcourirCandidatsMultiSources()`) — seul l'onglet
+  général, plafonné à 50 lignes sans pagination ni filtre autre que la
+  recherche sur le français, est concerné.
+
+**Correctif : filtre par type, pas de pagination.** Migration
+`20260904010000_filtre_type_arbitrage.sql` ajoute un paramètre `p_type` à
+`candidats_arbitrage()` (`AND (p_type IS NULL OR a.type = p_type)`).
+
+- **Changement de signature = `DROP FUNCTION` avant `CREATE`**, pas une simple
+  `CREATE OR REPLACE` : ajouter un paramètre change l'arité, et Postgres
+  créerait une seconde fonction surchargée au lieu de remplacer l'existante —
+  les deux deviendraient ambiguës pour un appel RPC à arguments nommés.
+  Précédent : le même choix dans `20260903000000_niveau_confiance.sql`.
+- Threadé à travers `listerCandidats()`, `parcourirCandidatsMultiSources()`
+  (donc aussi Recoupées et Divergentes, par cohérence — pas seulement la file
+  générale) dans `src/app/actions/arbitrage.ts`, et exposé comme un `Select`
+  dans `/admin/arbitrage`, porté par l'URL (`?type=`) comme le terme et
+  l'onglet. `estTypeTermeValide()` garde la valeur lue dans l'URL, comme elle
+  garde déjà `arbitrerAction()`.
+- Pagination délibérément écartée : cohérent avec le choix déjà fait pour
+  cette liste (plafond « 50+ » assumé, cf. commentaire `PAGE_RPC` — cette file
+  affiche les candidats les plus prioritaires, pas un total exhaustif) et
+  suffisant pour retrouver les mots : un candidat lexical multi-source se
+  retrouve désormais en tête dès qu'on filtre sur « Mot », et le filtre
+  combiné à la recherche français couvre le reste.
+- **Vérifié en navigateur (Chrome, session admin, 04/09/2026)** sur
+  `elsass-dico-dev.theelsassisch.com` : sans filtre, la file mène en tête sur
+  Mulhouse/Bassemberg/Crastatt (toponymes) — reproduit exactement le
+  signalement de John. Filtre `Type = Mot` appliqué : la file montre
+  immédiatement chauve, désert, aïe, août, avril — tous multi-sources, aucun
+  toponyme. `?type=` reflété dans l'URL, valeur conservée en changeant
+  d'onglet.
+
 ## Règles de travail
 
 - Ne jamais inventer de traduction alsacienne, même pour un exemple ou un test.

@@ -6,7 +6,9 @@ import { useRouter, useSearchParams } from "next/navigation";
 import { useAuth } from "@/components/auth-provider";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
+import { Label } from "@/components/ui/label";
 import { Badge } from "@/components/ui/badge";
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Loader2, Search, ArrowRight, AlertTriangle, Users } from "lucide-react";
@@ -22,9 +24,11 @@ import {
   type EntreeListee,
 } from "@/app/actions/arbitrage";
 import {
+  estTypeTermeValide,
   LIBELLES_STATUT,
   LIBELLES_TYPE_TERME,
   SOURCES_MINIMUM,
+  TYPES_TERME,
   type StatutEntree,
   type TypeTerme,
 } from "@/lib/dictionnaire";
@@ -53,6 +57,11 @@ function compteur(n: number) {
   return n >= PAGE_RPC ? `${PAGE_RPC}+` : `${n}`;
 }
 
+// Valeur du Select pour « aucun filtre » : le paramètre d'URL ?type= est alors
+// simplement absent, jamais une chaîne vide passée à un SelectItem (interdit
+// par shadcn/Radix, qui réserve la chaîne vide au placeholder interne).
+const TOUS_LES_TYPES = "__tous__";
+
 export default function FileArbitragePage() {
   // useSearchParams() impose une frontière Suspense, sans quoi `next build`
   // échoue sur « should be wrapped in a suspense boundary » — même scission
@@ -77,26 +86,33 @@ function FileArbitrageContenu() {
   // « Divergentes » retombait toujours sur « Recoupées ».
   const termeUrl = searchParams.get("q") ?? "";
   const ongletUrl = searchParams.get("onglet") ?? "recoupes";
+  const typeParam = searchParams.get("type") ?? "";
+  // Un ?type= invalide (lien copié, ancienne valeur) redevient « tous » plutôt
+  // que de planter la requête : estTypeTermeValide() garde aussi ce filtre,
+  // comme elle garde déjà arbitrerAction().
+  const typeUrl = estTypeTermeValide(typeParam) ? typeParam : "";
   const [terme, setTerme] = useState(termeUrl);
 
-  const majUrl = (recherche: string, onglet: string) => {
+  const majUrl = (recherche: string, onglet: string, type: string) => {
     const params = new URLSearchParams();
     if (recherche) params.set("q", recherche);
     if (onglet !== "recoupes") params.set("onglet", onglet);
+    if (type) params.set("type", type);
     const requete = params.toString();
     // replace, pas push : sinon chaque onglet cliqué empilerait une entrée
     // d'historique à remonter une par une au retour.
     router.replace(requete ? `/admin/arbitrage?${requete}` : "/admin/arbitrage", { scroll: false });
   };
 
-  const cle = user && role === "admin" ? cleCache("arbitrage", user.id, termeUrl) : null;
+  const cle = user && role === "admin" ? cleCache("arbitrage", user.id, termeUrl, typeUrl) : null;
   const { donnees, premierChargement, rafraichir } = useListeMemorisee<DonneesArbitrage>({
     cle,
     charger: async () => {
+      const type = estTypeTermeValide(typeUrl) ? typeUrl : undefined;
       const [c, r, d, e] = await Promise.all([
-        listerCandidats(termeUrl),
-        listerCandidatsRecoupes(termeUrl),
-        listerCandidatsDivergents(termeUrl),
+        listerCandidats(termeUrl, type),
+        listerCandidatsRecoupes(termeUrl, type),
+        listerCandidatsDivergents(termeUrl, type),
         listerEntrees(undefined, termeUrl),
       ]);
       return { candidats: c, recoupes: r, divergents: d, entrees: e };
@@ -164,7 +180,7 @@ function FileArbitrageContenu() {
           e.preventDefault();
           // Le filtre passe par l'URL : c'est le changement de `q` qui change
           // la clé de cache et déclenche (ou non) le chargement.
-          majUrl(terme.trim(), ongletUrl);
+          majUrl(terme.trim(), ongletUrl, typeUrl);
         }}
       >
         <Input
@@ -179,7 +195,33 @@ function FileArbitrageContenu() {
         </Button>
       </form>
 
-      <Tabs value={ongletUrl} onValueChange={(onglet) => majUrl(termeUrl, onglet)}>
+      {/* Sans ce filtre, les candidats à 2+ sources (93 % de toponymes,
+          mesuré le 04/09/2026) saturent les 50 premières lignes de « File
+          d'arbitrage » et masquent le lexique général — la recherche sur le
+          français ne suffit pas quand on ne cherche pas un mot précis. */}
+      <div className="flex items-center gap-2">
+        <Label htmlFor="filtre-type" className="text-sm text-muted-foreground shrink-0">
+          Type
+        </Label>
+        <Select
+          value={typeUrl || TOUS_LES_TYPES}
+          onValueChange={(valeur) => majUrl(termeUrl, ongletUrl, valeur === TOUS_LES_TYPES ? "" : valeur)}
+        >
+          <SelectTrigger id="filtre-type" className="h-9 w-48">
+            <SelectValue />
+          </SelectTrigger>
+          <SelectContent>
+            <SelectItem value={TOUS_LES_TYPES}>Tous les types</SelectItem>
+            {TYPES_TERME.map((t) => (
+              <SelectItem key={t} value={t}>
+                {LIBELLES_TYPE_TERME[t]}
+              </SelectItem>
+            ))}
+          </SelectContent>
+        </Select>
+      </div>
+
+      <Tabs value={ongletUrl} onValueChange={(onglet) => majUrl(termeUrl, onglet, typeUrl)}>
         {/* tabular-nums : ces compteurs se décrémentent à chaque publication.
             Avec des chiffres proportionnels, la largeur des onglets bouge sous
             le curseur au moment précis où l'on enchaîne les arbitrages. */}

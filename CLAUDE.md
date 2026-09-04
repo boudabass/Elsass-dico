@@ -1371,6 +1371,36 @@ la migration `20260903010000_article_colle_attestations.sql`, PR #30 mergée.
   n'exploite encore `alsacien_sans_article`. C'est la suite naturelle — la
   donnée existe, l'usage (recherche « salaire » → `lohn`) reste à câbler.
 
+### Suite (04/09/2026) : affichage dans l'arbitrage, recoupement non touché
+
+Migration `20260904000000_article_dans_variantes_arbitrage.sql`. Avant
+d'écrire quoi que ce soit, mesure en base (service_role, lecture seule,
+réplique la clé de groupement `lower(btrim(francais))` + `contexte` de
+`candidats_arbitrage()`) : **décomposer l'article ne débloque aujourd'hui
+aucun recoupement.** Seuls 25 candidats lexicaux ont 2 sources distinctes ou
+plus dans la file, et aucun n'est unifié par le retrait de l'article — la
+quasi-totalité des 8 886 attestations décomposées restent seules
+(`culture_alsace`, 1 source sur N), donc invisibles à toute logique de
+comparaison entre sources.
+
+- **Donc pur affichage, jamais un changement de la clé de recoupement.**
+  `article` et `alsacien_sans_article` s'ajoutent aux `variantes` renvoyées
+  par `candidats_arbitrage()` et `detail_candidat()`, affichés en badge
+  (« article : d'r ») dans l'écran de détail `/admin/arbitrage/[cle]`
+  uniquement — `cleDeForme()`/`grouperParForme()`
+  (`src/lib/dictionnaire.ts`) ne sont pas touchées, ni la clé de groupement
+  SQL. Toucher la comparaison sans mesure aurait répété l'erreur du « +13 »
+  du 24/08/2026 sur les accents.
+- **`reprendreVariante()` continue de reprendre `v.alsacien` tel quel** : le
+  badge est une annotation, jamais une forme alternative proposée à la
+  publication. Publier `alsacien_sans_article` séparément reste la piste « à
+  confirmer doctrinalement » du 02/09/2026, non tranchée ici — elle
+  suppose d'ajouter un champ `article` à `entrees` elle-même, une décision de
+  schéma et de doctrine que ce correctif ne prend pas.
+- Vérifié : `tsc --noEmit` propre. **Non vérifié en navigateur** (session
+  admin requise, indisponible depuis Claude Code) — à confirmer par John à
+  l'écran sur un candidat `culture_alsace` à article collé.
+
 ## Règles de travail
 
 - Ne jamais inventer de traduction alsacienne, même pour un exemple ou un test.

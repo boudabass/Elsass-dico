@@ -105,6 +105,13 @@ export function niveauConfiance(nbSources: number): NiveauConfiance {
 export interface VarianteAttestee {
     attestation_id: string
     alsacien: string
+    // Article défini collé, isolé pour l'affichage seul (migrations
+    // 20260903010000 et 20260904000000). Ne sert jamais à décider d'un
+    // recoupement ni à publier une forme autre que v.alsacien tel quel
+    // (règle 1) — cf. mesure du 04/09/2026 : 0 candidat actuel n'est unifié
+    // par ce retrait.
+    article?: string | null
+    alsacien_sans_article?: string | null
     graphie_origine: string
     region: Region | null
     type: TypeTerme

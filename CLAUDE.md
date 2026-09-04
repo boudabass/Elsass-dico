@@ -1341,7 +1341,7 @@ menus sur la page d'arbitrage après la PR #26.
 ## Article défini collé décomposé (03-04/09/2026)
 
 Chantier annoncé le 02/09 (« Cap produit et modèle de confiance »), réalisé par
-la migration `20260903010000_article_colle_attestations.sql`, PR #30 mergée.
+la migration `20260903010000_article_colle_attestations.sql`, PR #30.
 
 - **Le chiffre du 02/09 mélangeait deux populations.** Sur les 23 851
   attestations lexicales `culture_alsace` : 12 786 à une seule forme
@@ -1400,6 +1400,19 @@ comparaison entre sources.
 - Vérifié : `tsc --noEmit` propre. **Non vérifié en navigateur** (session
   admin requise, indisponible depuis Claude Code) — à confirmer par John à
   l'écran sur un candidat `culture_alsace` à article collé.
+
+**État à la clôture de session (04/09/2026) : PR #30 ouverte, non mergée.**
+Trois choses restent à faire, dans cet ordre, avant de considérer le chantier
+clos :
+1. Merger PR #30.
+2. Appliquer à la main dans le SQL Editor du Studio Supabase les **deux**
+   migrations de la PR, dans l'ordre : `20260903010000_article_colle_attestations.sql`
+   (déjà fait par John avant le merge, donc déjà en base — seule la seconde
+   reste réellement à jouer) puis `20260904000000_article_dans_variantes_arbitrage.sql`
+   (pas encore appliquée). Rappel : Coolify redéploie l'app au merge mais
+   n'exécute jamais les migrations lui-même.
+3. Vérifier à l'écran sur `/admin/arbitrage/[cle]` qu'un candidat
+   `culture_alsace` à article collé affiche le badge « article : d'r ».
 
 ## Règles de travail
 

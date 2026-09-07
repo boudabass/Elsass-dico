@@ -34,6 +34,7 @@ import {
   SOURCES_MINIMUM,
   STATUTS_ENTREE,
   TYPES_TERME,
+  scinderSynonymes,
   traductionVide,
   type Region,
   type StatutEntree,
@@ -108,13 +109,19 @@ export default function ArbitragePage() {
     setSelection((s) => (s.includes(id) ? s.filter((x) => x !== id) : [...s, id]));
   };
 
-  const reprendreVariante = (alsacien: string, region: Region | null) => {
+  const reprendreFormes = (formes: string[], region: Region | null) => {
     setTraductions((ts) => {
-      if (ts.some((t) => t.alsacien.trim() === alsacien.trim())) return ts;
       const propre = ts.filter((t) => t.alsacien.trim() !== "");
-      return [...propre, { ...traductionVide(), alsacien, region }];
+      const nouvelles = formes
+        .map((f) => f.trim())
+        .filter((f) => f && !propre.some((t) => t.alsacien.trim() === f))
+        .map((f) => ({ ...traductionVide(), alsacien: f, region }));
+      return nouvelles.length ? [...propre, ...nouvelles] : ts;
     });
   };
+
+  const reprendreVariante = (alsacien: string, region: Region | null) =>
+    reprendreFormes([alsacien], region);
 
   const modifierTraduction = (index: number, champ: keyof Traduction, valeur: string | null) => {
     setTraductions((ts) => ts.map((t, i) => (i === index ? { ...t, [champ]: valeur } : t)));
@@ -213,7 +220,13 @@ export default function ArbitragePage() {
             </CardDescription>
           </CardHeader>
           <CardContent className="space-y-3">
-            {detail.variantes.map((v) => (
+            {detail.variantes.map((v) => {
+              // culture_alsace empile plusieurs équivalents dans un seul champ
+              // (« bleed, schwàchsennig. »). Quand le découpage est sûr, on
+              // l'offre EN PLUS de la reprise verbatim — jamais à sa place :
+              // c'est une proposition relue, pas une transformation imposée.
+              const synonymes = scinderSynonymes(v.alsacien);
+              return (
               <div
                 key={v.attestation_id}
                 className="flex gap-3 items-start border rounded-md p-3"
@@ -241,6 +254,19 @@ export default function ArbitragePage() {
                         {v.votes} validation{v.votes > 1 ? "s" : ""}
                       </Badge>
                     )}
+                    {/* Défaut relevé dans la source à l'extraction et copié
+                        verbatim (règle 1). L'arbitre est le seul à pouvoir en
+                        décider : la table signale, elle ne corrige pas. */}
+                    {v.anomalies?.map((a) => (
+                      <Badge
+                        key={a.type}
+                        variant="outline"
+                        className="font-normal gap-1 text-attention-500 border-attention-100"
+                        title={a.detail}
+                      >
+                        <AlertTriangle className="w-3 h-3" /> {a.type.replace(/_/g, " ")}
+                      </Badge>
+                    ))}
                   </div>
                   <p className="text-xs text-muted-foreground">
                     {v.source_nom} · fiabilité {v.fiabilite}/5
@@ -248,17 +274,32 @@ export default function ArbitragePage() {
                     {v.reference && ` · ${v.reference}`}
                   </p>
                 </div>
-                <Button
-                  type="button"
-                  variant="outline"
-                  size="sm"
-                  onClick={() => reprendreVariante(v.alsacien, v.region)}
-                  aria-label={`Reprendre « ${v.alsacien} » dans l'entrée`}
-                >
-                  <Plus className="w-3 h-3 mr-1" /> Reprendre
-                </Button>
+                <div className="flex flex-col gap-1 shrink-0">
+                  <Button
+                    type="button"
+                    variant="outline"
+                    size="sm"
+                    onClick={() => reprendreVariante(v.alsacien, v.region)}
+                    aria-label={`Reprendre « ${v.alsacien} » dans l'entrée`}
+                  >
+                    <Plus className="w-3 h-3 mr-1" /> Reprendre
+                  </Button>
+                  {synonymes.length > 1 && (
+                    <Button
+                      type="button"
+                      variant="ghost"
+                      size="sm"
+                      onClick={() => reprendreFormes(synonymes, v.region)}
+                      title={synonymes.join(" · ")}
+                      aria-label={`Reprendre séparément les ${synonymes.length} formes : ${synonymes.join(", ")}`}
+                    >
+                      <Plus className="w-3 h-3 mr-1" /> En {synonymes.length} formes
+                    </Button>
+                  )}
+                </div>
               </div>
-            ))}
+              );
+            })}
           </CardContent>
         </Card>
 

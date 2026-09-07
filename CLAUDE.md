@@ -1469,6 +1469,77 @@ attente — la piste doctrinale non tranchée (publier `alsacien_sans_article`
 séparément, champ `article` sur `entrees`) reste ouverte pour une prochaine
 décision de John, pas un blocage.
 
+## Publication sur source unique : la garde devient l'affichage (07/09/2026)
+
+**La règle 2 révisée le 02/09/2026 n'avait été appliquée qu'à moitié.** La
+migration `20260903000000_niveau_confiance.sql` a bien ajouté `entrees.nb_sources`,
+l'a exposé aux trois écrans publics et créé `BadgeConfiance` — son en-tête écrit
+même « l'affichage devient la garde qui reste » — mais son corps a conservé
+intacte la garde héritée de l'exception du 07/08/2026 : publier sous 2 sources
+exigeait une note d'arbitrage rédigée, entrée par entrée.
+
+Constat mesuré en base avant d'écrire quoi que ce soit : **335 entrées publiées,
+dont ZÉRO à une source** (189 à 2, 145 à 3, 1 à 4+), et **331 des 335 sont des
+toponymes contre 4 mots** (`janvier`, `juillet`, `juin`, `alsacien`). Les
+~25 700 candidats lexicaux à source unique restaient inatteignables — exactement
+le blocage que la décision du 02/09 devait lever, et ce qui empêche la cible v1
+(seuil de lexique courant). Un visiteur tapant « bonjour » ne trouve toujours rien.
+
+**Décision de John du 07/09/2026 : retirer la garde tout court**, sans la
+remplacer par un drapeau explicite. Migration
+`20260907000000_publication_source_unique.sql`.
+
+- **`arbitrer_entree()` ne refuse plus `nb_sources < 2`.** `CREATE OR REPLACE`,
+  signature inchangée, seul le bloc de garde disparaît. `v_nb_sources` reste
+  calculé et persisté : il n'est plus une condition de publication, il est ce qui
+  s'affiche au visiteur. `p_notes` reste dans la signature et alimente toujours
+  `notes_arbitrage` — la note devient facultative et documentaire.
+- **Toutes les autres gardes sont intactes** : `is_admin()` (règle 4), français
+  non vide, `p_traductions` tableau JSON, chaque traduction porteuse d'une forme
+  alsacienne, au moins une attestation (règle 3), attestation inconnue.
+- **Le lot reste interdit au mono-source.** L'interdiction de la « reprise en
+  masse d'une source scrapée » (périmètre des GATE, 10/08/2026) n'est pas levée :
+  la publication à 1 source passe par l'écran de détail, une décision humaine par
+  entrée. Les deux chemins de lot constituent leurs files via
+  `parcourirCandidatsMultiSources()`, qui écarte tout candidat sous
+  `SOURCES_MINIMUM`. **Après cette migration, ce filtre TypeScript
+  (`src/app/actions/arbitrage.ts`) est le SEUL endroit qui empêche un lot de
+  publier du mono-source** — la barrière a changé de couche, et il faut le savoir
+  avant d'y toucher.
+- **L'écran de détail cesse de pré-bloquer** : `justificationManquante` est
+  supprimée de `/admin/arbitrage/[cle]`, le bouton n'est plus désactivé pour une
+  source unique. Le bandeau ne dit plus « la base la refusera sinon » — il montre
+  le `BadgeConfiance` que le visiteur verra. `sourceUnique` et le comptage en
+  `Set` de `source_id` sont conservés : ils annoncent, ils ne bloquent plus.
+- **Les deux listes admin affichent enfin le niveau réel** : la file d'arbitrage
+  remplace son badge ad hoc binaire ambre/émeraude par `BadgeConfiance`, et
+  l'onglet « Entrées existantes » — qui n'affichait que `{nb_attestations} attest.`
+  sans jamais montrer `nb_sources`, pourtant présent dans `EntreeListee` — le
+  montre désormais. C'était la confusion que le badge existe pour empêcher,
+  installée dans l'écran même où l'on décide. Recoupées et Divergentes gardent
+  leur badge : leurs files sont ≥ 2 sources par construction.
+
+### Régression de clé sur `entrees_par_statut()`, corrigée dans la même migration
+
+`20260824120000_cle_arbitrage_accents.sql` avait retiré `immutable_unaccent` de la
+clé d'arbitrage dans les quatre fonctions concernées (elle fusionnait `sur`/`sûr`,
+`ville`/`Villé` — 31 groupes). **`20260903000000` a redéfini `entrees_par_statut()`
+pour y exposer `nb_sources`, et a recopié au passage l'ANCIENNE expression de clé**,
+annulant la correction pour cette fonction seule.
+
+- La clé n'est pas décorative : elle sert de lien vers l'écran de détail
+  (`admin/arbitrage/page.tsx` → `lienArbitrage(e.cle, …)` → `detail_candidat(p_cle)`,
+  qui compare `lower(btrim(a.francais)) = p_cle`). Une entrée dont le français
+  porte un accent rendait une clé désaccentuée qui ne retrouve pas son candidat.
+- **Invisible jusqu'ici parce que 331 des 335 entrées publiées sont des toponymes
+  sans accent** — et bloquant dès la première publication de lexique, c'est-à-dire
+  dès ce chantier. Même famille que le retard de migration du 09/08 et le
+  `TYPES_TERME` incomplet du 23/08 : un défaut qui n'apparaît qu'au premier usage
+  réel, jamais avant.
+- **Leçon** : redéfinir une fonction pour lui ajouter une colonne, c'est recopier
+  son corps — donc réimporter tous les défauts qu'il portait à la version copiée.
+  Aucun outil ne signale qu'on vient d'annuler un correctif plus récent.
+
 ## Règles de travail
 
 - Ne jamais inventer de traduction alsacienne, même pour un exemple ou un test.

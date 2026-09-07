@@ -1636,6 +1636,28 @@ sait pas nommer.
   multi-sources actuels porte une anomalie. C'est un filet pour la suite, pas
   un tri d'aujourd'hui — le dire évite de croire qu'on a nettoyé quelque chose.
 
+### La v1 n'a pas de seuil chiffré (décision de John, 07/09/2026)
+
+**Le « 1 000 lemmes français fréquents » du 02/09 n'a jamais été décidé.** La
+section « Cap produit » ci-dessus l'écrit correctement — « **cible proposée** » —
+mais la proposition a été reprise comme un acquis dans les articles Odoo 883,
+669 et 245, où elle était devenue un **critère de sortie mesurable**, donc un
+préalable bloquant : il aurait fallu trouver une liste de fréquence, vérifier
+ses droits et mesurer une couverture *avant* de publier un mot de plus.
+
+Tranché par John : **le chiffre n'a aucune importance, on reste sur ce qui est
+déjà publiable.** La v1 avance au rythme de l'arbitrage humain, sans objectif de
+volume. Les critères de sortie qui restent portent tous sur la *qualité* de ce
+qui est publié — badge exact, aucune forme absente de ses attestations, aucune
+coquille connue — et se vérifient à tout moment. Corrigé dans les quatre
+articles Odoo et dans `documentation/11-FEUILLE-DE-ROUTE.md`.
+
+**Ce que ce cas apprend, au-delà du chiffre** : une proposition écrite dans un
+document devient un acquis dès qu'un autre document la cite. Elle n'a eu besoin
+de traverser que deux articles pour se transformer en critère mesurable que
+personne n'avait tranché. Quand un chiffre apparaît dans une consigne, vérifier
+qui l'a décidé avant de le mesurer.
+
 ## Règles de travail
 
 - Ne jamais inventer de traduction alsacienne, même pour un exemple ou un test.

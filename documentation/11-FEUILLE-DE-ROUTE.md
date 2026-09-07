@@ -11,9 +11,12 @@ Ce fichier ne contient volontairement aucun contenu.
 0. **Fondations de confiance** — ✅ *atteint le 07/09/2026* : badge de sources
    distinctes, publication à source unique ouverte, 390 coquilles identifiées et
    exclues des lots, article défini décomposé.
-1. **V1 lexique courant** — 1 000 lemmes français fréquents couverts. *Chantier
-   courant, bloqué sur une décision et non sur du code : d'où vient la liste de
-   fréquence.*
+1. **V1 lexique courant** — *chantier courant, et il n'attend rien* : ni liste à
+   figer, ni droits à vérifier, ni couverture à mesurer. **Aucun objectif
+   chiffré** (décision de John du 07/09/2026) — on publie ce qui est publiable,
+   au rythme de l'arbitrage. Le « seuil de 1 000 lemmes fréquents » qui figurait
+   ici n'avait jamais été décidé : c'était une proposition, devenue un préalable
+   bloquant à force d'être recopiée.
 2. **Tenue en charge** — *doit précéder toute communication publique.*
 3. **Ouverture aux contributeurs** — le mécanisme qui fait passer le rouge au jaune.
 4. **Résorption des divergences** — en parallèle, une décision humaine par entrée.

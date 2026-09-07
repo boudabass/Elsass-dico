@@ -1540,6 +1540,102 @@ annulant la correction pour cette fonction seule.
   son corps — donc réimporter tous les défauts qu'il portait à la version copiée.
   Aucun outil ne signale qu'on vient d'annuler un correctif plus récent.
 
+## Les trois dettes du lexique traitées (07/09/2026)
+
+Trois chantiers menés à la suite du retrait de la garde, tous mesurés en base
+avant d'écrire une ligne — et deux des trois mesures ont corrigé l'annonce
+qu'on s'apprêtait à faire.
+
+### 1. La clé d'arbitrage ignore la ponctuation finale du français
+
+Migration `20260907020000_cle_francais_ponctuation.sql`. **618 attestations
+portent une ponctuation finale sur le champ `francais`** — 608 de
+`wiktionnaire_fr`, où le point clôt une définition (« Alphabet. »), 10 de
+`culture_alsace` dont 9 sont des abréviations de toponymes
+(« Sainte-Marie-aux-M. »). La clé étant `lower(btrim(francais))`, « accepter »
+et « accepter. » ne se rencontraient jamais, **même écrits par deux sources
+indépendantes**. Exactement le défaut de la recontextualisation du 24/08 : la
+donnée est là, la convention de champ l'empêche de se voir.
+
+- **341 -> 420 candidats à 2 sources ou plus.** Mais la répartition compte plus
+  que le total, et elle a corrigé l'annonce : **accord de forme 0 -> 7**
+  (onglet Recoupées, publiables en lot), **divergents 341 -> 413** (un par un).
+  Deux sources sur le même mot français ne veulent pas dire qu'elles écrivent
+  la même forme alsacienne — la confusion du 23/08, qu'il faut refaire
+  l'effort de ne pas commettre à chaque fois.
+- Les 7 accords sont `georges`, `incolore`, `mais`, `mardi`, `mulhouse`,
+  `sans`, `tu` — dont quatre où les deux sources écrivaient **rigoureusement la
+  même forme** (`ohna` / `ohna.`), que seule la clé française tenait séparés.
+- **Les parenthèses ne sont PAS touchées** : « griffon (vautour fauve) » n'est
+  pas « griffon ». Une mesure combinée les portait à 89 clés au lieu de 79 —
+  dix de plus pour un risque de fusion de sens, refusé. Même famille que le
+  « +13 » du 24/08.
+- **La clé devient une fonction nommée, `cle_francais()`**, appelée par les
+  quatre fonctions qui la portent (`candidats_arbitrage`, `detail_candidat`,
+  `entrees_par_statut`, `propositions_orthal_candidat`). C'était jusqu'ici une
+  expression recopiée à chaque redéfinition — et c'est ainsi que le correctif
+  du 24/08 s'est perdu le 03/09. Une fonction nommée rend la prochaine recopie
+  inoffensive.
+
+### 2. Les synonymes empilés se scindent à la publication
+
+`scinderSynonymes()` (`src/lib/dictionnaire.ts`) et un second bouton
+« En N formes » dans l'écran de détail. **`culture_alsace` empile plusieurs
+équivalents dans un seul champ** (`bleed, schwàchsennig.` pour « idiot », déjà
+publié tel quel) : 11 065 attestations, 46 % de son lexique.
+
+- **Scinder l'attestation reste hors périmètre** (décision du 03/09, inchangée).
+  Le découpage ne vit qu'à l'arbitrage, où le tableau `traductions` porte
+  justement plusieurs formes — « Premier est Roi » désigne la canonique. Le
+  bouton s'ajoute à « Reprendre », il ne le remplace pas : une proposition
+  relue, jamais une transformation imposée.
+- **Contrôle croisé, comme le 01/09** : la fonction TS réelle a été compilée et
+  exécutée sur les 27 179 chaînes de la base. **10 608 scindables, 461 refusées,
+  0 violation de la garantie** — chaque forme rendue est un fragment contigu de
+  la chaîne attestée, aucun caractère ajouté ni modifié (règle 1).
+- **Le piège redouté n'existait pas, et c'est la mesure qui l'a dit** : on
+  craignait les gloses à virgules internes (`z' comme z'Mehlhüsa, ze
+  Schtrosburi, z'füass (à pied).`) — **34 chaînes sur 11 069 contiennent une
+  parenthèse, et aucune n'a de virgule à l'intérieur**. Les gardes (aucune
+  parenthèse ni crochet, 2 à 6 fragments, 3 mots maximum par fragment, fidélité
+  vérifiée fragment par fragment) écartent les 461 restantes, dont les relevés
+  dialectaux entre crochets de `martin_lienhart`.
+
+### 3. Les 390 coquilles reconstituées, et matérialisées
+
+Migration `20260907010000_anomalies_source.sql`, table `anomalies_source`.
+**La liste n'existait nulle part** — ni dans le JSONL (aucun champ de
+signalement), ni dans le dépôt : elle n'a vécu que dans le rapport d'une carte
+Hermes, perdu. « Elles ne partent jamais dans un lot de publication » était donc
+une intention que **rien n'appliquait** : on ne peut pas exclure ce qu'on ne
+sait pas nommer.
+
+- Reconstituée en **rejouant le parseur du studio** (`lexique_a_d.py`, branche
+  `data`) sur les 73 pages brutes archivées, dans un sandbox du scratchpad. Le
+  JSONL régénéré est **identique octet à octet** à celui du dépôt (23 851
+  lignes, même md5 une fois les fins de ligne normalisées — la différence
+  initiale venait du mode texte Windows de Python, pas du parseur) : le rapport
+  décrit donc bien les données réellement en base.
+- **Le rapport imprimé plafonne à 80 anomalies** (`anomalies[:80]`, « … et N
+  autres »). La liste complète a été prise en important le module et en
+  rappelant `parse_page()` page par page. Un plafond d'affichage lu comme un
+  total aurait donné 80 coquilles au lieu de 390 — le même piège que les
+  compteurs « 50+ » de la file d'arbitrage.
+- **390 anomalies, 390/390 rattachées** à une attestation existante (386
+  distinctes, quatre lignes en portent deux), **0 sur une entrée déjà publiée**.
+  Trois types de gravité inégale : `separateur_tete_non_standard` (323, signal
+  de parsing, français et alsacien restent le plus souvent justes),
+  `parenthese_non_fermee` (37), et `alsacien_finissant_par_separateur` (30) — le
+  plus grave, la forme elle-même porte un `.-` parasite (`d'Schofgarwe.-`).
+- **La table signale, elle ne corrige pas** (règle 1). Exposée dans les
+  `variantes` via `anomalies_de()`, affichée en badge sur l'écran de détail, et
+  **décochée par défaut dans l'onglet Recoupées** — jamais retirée de la file :
+  faire disparaître un candidat le rendrait impubliable sans que rien ne le
+  dise.
+- **Effet immédiat : aucun, et c'est mesuré.** 0 des 420 candidats
+  multi-sources actuels porte une anomalie. C'est un filet pour la suite, pas
+  un tri d'aujourd'hui — le dire évite de croire qu'on a nettoyé quelque chose.
+
 ## Règles de travail
 
 - Ne jamais inventer de traduction alsacienne, même pour un exemple ou un test.

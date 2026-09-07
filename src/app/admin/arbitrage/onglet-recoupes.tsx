@@ -7,9 +7,14 @@ import { Badge } from "@/components/ui/badge";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Checkbox } from "@/components/ui/checkbox";
 import { toast } from "sonner";
-import { Loader2, ArrowRight, Crown, ShieldCheck } from "lucide-react";
+import { Loader2, ArrowRight, AlertTriangle, Crown, ShieldCheck } from "lucide-react";
 import { arbitrerLotAction, type BilanLot, type CandidatRecoupe } from "@/app/actions/arbitrage";
-import { LIBELLES_TYPE_TERME, SOURCES_MINIMUM, type TypeTerme } from "@/lib/dictionnaire";
+import {
+  aAnomalieDeSource,
+  LIBELLES_TYPE_TERME,
+  SOURCES_MINIMUM,
+  type TypeTerme,
+} from "@/lib/dictionnaire";
 import { lienArbitrage } from "./liens";
 
 function cleDe(c: { cle: string; contexte: string }) {
@@ -29,12 +34,14 @@ export function OngletRecoupes({ recoupes, chargement, onPublie }: Props) {
   const [enCours, setEnCours] = useState(false);
   const [bilan, setBilan] = useState<BilanLot | null>(null);
 
-  // Le lot par défaut est la sélection complète : c'est le geste courant,
-  // décocher reste possible pour écarter un candidat douteux. Se rejoue à
-  // chaque rechargement, sinon une sélection survivrait à des candidats qui ne
-  // sont plus là.
+  // Le lot par défaut est la sélection complète, SAUF les candidats portant une
+  // anomalie de source : « elles ne partent jamais dans un lot de publication »
+  // (CLAUDE.md, campagne 3). Elles restent visibles et cochables — les faire
+  // disparaître de la file les rendrait impubliables sans que rien ne le dise.
+  // Se rejoue à chaque rechargement, sinon une sélection survivrait à des
+  // candidats qui ne sont plus là.
   useEffect(() => {
-    setSelection(recoupes.map(cleDe));
+    setSelection(recoupes.filter((c) => !aAnomalieDeSource(c.variantes)).map(cleDe));
   }, [recoupes]);
 
   const basculer = (cle: string) =>
@@ -162,6 +169,18 @@ export function OngletRecoupes({ recoupes, chargement, onPublie }: Props) {
                       <Badge variant="secondary" className="font-normal">
                         {LIBELLES_TYPE_TERME[c.type as TypeTerme] ?? c.type}
                       </Badge>
+                      {aAnomalieDeSource(c.variantes) && (
+                        <Badge
+                          variant="outline"
+                          className="font-normal gap-1 text-attention-500 border-attention-100"
+                          title={c.variantes
+                            .flatMap((v) => v.anomalies ?? [])
+                            .map((a) => a.detail)
+                            .join(" · ")}
+                        >
+                          <AlertTriangle className="w-3 h-3" /> anomalie de source
+                        </Badge>
+                      )}
                     </div>
                     <p className="text-sm mt-1 flex items-center gap-1.5 flex-wrap">
                       <Crown className="w-3.5 h-3.5 text-marque-or-sombre shrink-0" />

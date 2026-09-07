@@ -120,13 +120,34 @@ export interface VarianteAttestee {
     source_type: string
     fiabilite: number
     reference: string | null
+    // Défauts observés dans la source et copiés verbatim (règle 1), rattachés
+    // par `reference` — table anomalies_source, migration 20260907010000. La
+    // liste des 390 de culture_alsace n'existait nulle part avant : « elles ne
+    // partent jamais dans un lot » était une intention qu'aucun code
+    // n'appliquait.
+    anomalies?: AnomalieSource[] | null
     votes: number
     retenue?: boolean
 }
 
-// Le seuil de recoupement de la règle 2 : en dessous, la publication exige une
-// note d'arbitrage (exception du 07/08/2026). Doit rester aligné sur la garde
-// de arbitrer_entree() — c'est la base qui tranche, pas l'interface.
+export interface AnomalieSource {
+    type: string
+    detail: string
+}
+
+// Un candidat porte une anomalie dès qu'une seule de ses attestations en porte
+// une : c'est ce qui le tient hors des lots cochés par défaut.
+export function aAnomalieDeSource(variantes: VarianteAttestee[]): boolean {
+    return variantes.some((v) => (v.anomalies?.length ?? 0) > 0)
+}
+
+// Le seuil de recoupement de la règle 2. Depuis le 07/09/2026, arbitrer_entree()
+// ne le fait plus respecter : publier sur source unique est permis, c'est
+// l'affichage du niveau de confiance qui porte la doctrine. Ce seuil ne gouverne
+// donc plus qu'une chose — quels candidats un LOT a le droit d'emporter (cf.
+// parcourirCandidatsMultiSources, src/app/actions/arbitrage.ts), la reprise en
+// masse d'une source scrapée restant interdite. C'est désormais la seule
+// barrière technique sur ce point : elle a quitté SQL pour TypeScript.
 export const SOURCES_MINIMUM = 2
 
 // --- Recoupement lexical -----------------------------------------------------
@@ -149,6 +170,65 @@ export const SOURCES_MINIMUM = 2
 // seulement — ce qui est publié reste une graphie copiée telle quelle.
 function cleDeForme(alsacien: string): string {
     return alsacien.trim().replace(/[.;,\s]+$/, '')
+}
+
+// --- Synonymes empilés dans une seule attestation ----------------------------
+//
+// culture_alsace écrit plusieurs équivalents dans un même champ, séparés par une
+// virgule ou un point-virgule : « bleed, schwàchsennig. » pour « idiot ».
+// 11 065 de ses 23 851 attestations lexicales sont dans ce cas (46 %) — publiées
+// telles quelles, l'app rend la chaîne entière à qui cherche le mot.
+//
+// Scinder l'attestation elle-même reste hors périmètre (décision de John,
+// 03/09/2026) : la ligne continue de dire ce que la source écrit. Ce découpage
+// ne vit qu'au moment d'arbitrer, où le tableau `traductions` d'une entrée est
+// justement fait pour porter plusieurs formes — « Premier est Roi » désigne la
+// canonique. La proposition est relue et modifiable avant publication.
+//
+// GARANTIE (règle 1) : aucun caractère n'est ajouté ni modifié. Chaque forme
+// rendue est un fragment contigu de la chaîne attestée, dont seuls des
+// séparateurs et de la ponctuation ont été retirés — c'est vérifié fragment par
+// fragment, et un découpage qui ne le vérifie pas n'est pas proposé.
+//
+// Trois gardes, parce qu'une virgule ne sépare pas toujours des synonymes :
+//   * aucune parenthèse ni crochet. Ils portent des gloses explicatives
+//     (« z' comme z'Mehlhüsa, ze Schtrosburi, z'füass (à pied). ») et les
+//     relevés dialectaux de martin_lienhart, où découper serait faux. Mesuré :
+//     34 chaînes sur 11 069 en contiennent, et aucune n'a de virgule à
+//     l'intérieur d'une parenthèse.
+//   * des fragments courts et peu nombreux — un fragment long signale une
+//     explication, pas une forme.
+//   * l'ambiguïté ne se comble pas : hors de ces bornes, [] est rendu et
+//     l'arbitre reprend la forme entière comme avant.
+const SEPARATEUR_SYNONYME = /(\s*[;,]\s*)/
+const GLOSE = /[()[\]]/
+const SYNONYMES_MAX = 6
+const MOTS_PAR_SYNONYME_MAX = 3
+
+export function scinderSynonymes(alsacien: string): string[] {
+    const brut = alsacien.trim()
+    if (GLOSE.test(brut)) return []
+
+    // Groupe capturant : les fragments tombent aux index pairs, les séparateurs
+    // aux impairs. Moins de 3 morceaux = aucun séparateur, rien à scinder.
+    const morceaux = brut.split(SEPARATEUR_SYNONYME)
+    if (morceaux.length < 3) return []
+
+    const fragments = morceaux.filter((_, i) => i % 2 === 0)
+    const formes = fragments.map(cleDeForme)
+
+    if (formes.length < 2 || formes.length > SYNONYMES_MAX) return []
+    if (formes.some((f) => !f || f.split(/\s+/).length > MOTS_PAR_SYNONYME_MAX)) return []
+
+    // Contrôle de fidélité : chaque forme doit être le début exact de son
+    // fragment, le reste n'étant que ponctuation ou espaces. C'est ce qui
+    // interdit qu'un caractère de la source disparaisse en silence.
+    const fidele = fragments.every((f, i) => {
+        const propre = f.trim()
+        return propre.startsWith(formes[i]) && /^[.;,\s]*$/.test(propre.slice(formes[i].length))
+    })
+
+    return fidele ? formes : []
 }
 
 // Une forme alsacienne attestée, avec ce qui la fonde. Les regrouper une fois

@@ -23,6 +23,7 @@ import {
   Trash2,
 } from "lucide-react";
 import { AppHeader } from "@/components/app-header";
+import { BadgeConfiance } from "@/components/badge-confiance";
 import { invaliderCache } from "@/lib/cache-navigation";
 import { arbitrerAction, chargerCandidat, type DetailCandidat } from "@/app/actions/arbitrage";
 import {
@@ -96,8 +97,12 @@ export default function ArbitragePage() {
     return sources.size;
   }, [detail, selection]);
 
+  // Publier sous SOURCES_MINIMUM n'est plus refusé — ni par la base depuis la
+  // migration 20260907000000, ni ici. Le compte sert désormais à annoncer le
+  // niveau de confiance qui sera affiché, pas à bloquer le bouton (règle 2
+  // révisée du 02/09/2026 : « publier peu recoupé est permis, le faire passer
+  // pour recoupé ne l'est pas »).
   const sourceUnique = nbSourcesRetenues < SOURCES_MINIMUM;
-  const justificationManquante = statut === "valide" && sourceUnique && notes.trim() === "";
 
   const basculerAttestation = (id: string) => {
     setSelection((s) => (s.includes(id) ? s.filter((x) => x !== id) : [...s, id]));
@@ -448,7 +453,9 @@ export default function ArbitragePage() {
             </div>
 
             <div className="space-y-2">
-              <Label htmlFor="entree-notes">Note d&apos;arbitrage</Label>
+              <Label htmlFor="entree-notes">
+                Note d&apos;arbitrage <span className="text-muted-foreground">(facultative)</span>
+              </Label>
               <Textarea
                 id="entree-notes"
                 value={notes}
@@ -458,38 +465,39 @@ export default function ArbitragePage() {
               />
             </div>
 
+            {/* Le bandeau annonce le niveau de confiance qui sera publié, au lieu
+                d'annoncer un refus de la base qui n'existe plus. C'est l'affichage
+                qui porte la règle 2 depuis le 02/09/2026 : l'arbitre doit voir ici
+                exactement ce que le visiteur verra. */}
             <div className="rounded-md border p-3 text-sm flex items-start gap-2">
               {sourceUnique ? (
                 <>
                   <AlertTriangle className="w-4 h-4 text-amber-500 mt-0.5 shrink-0" />
                   <span>
-                    <strong>{nbSourcesRetenues} source retenue.</strong> La règle 2 demande un
-                    recoupement d&apos;au moins {SOURCES_MINIMUM} sources indépendantes. Publier
-                    quand même est possible, mais exige une note d&apos;arbitrage — la base la
-                    refusera sinon.
+                    <strong>{nbSourcesRetenues} source retenue.</strong> Publier reste possible :
+                    l&apos;entrée s&apos;affichera partout avec{" "}
+                    <BadgeConfiance nbSources={nbSourcesRetenues} className="align-middle" />,
+                    en recherche comme dans le dictionnaire. La note ci-dessus est le bon
+                    endroit pour dire ce qui a été vérifié.
                   </span>
                 </>
               ) : (
-                <span className="text-emerald-700">
+                <span>
                   <strong>{nbSourcesRetenues} sources indépendantes</strong> justifient cette
-                  entrée.
+                  entrée. Elle s&apos;affichera avec{" "}
+                  <BadgeConfiance nbSources={nbSourcesRetenues} className="align-middle" />.
                 </span>
               )}
             </div>
 
             <Button
               className="w-full"
-              disabled={enCours || justificationManquante || selection.length === 0}
+              disabled={enCours || selection.length === 0}
               onClick={enregistrer}
             >
               {enCours && <Loader2 className="w-4 h-4 mr-2 animate-spin" />}
               {statut === "valide" ? "Valider et publier" : "Enregistrer"}
             </Button>
-            {justificationManquante && (
-              <p className="text-xs text-amber-600 text-center">
-                Renseignez la note d&apos;arbitrage pour publier sur source unique.
-              </p>
-            )}
           </CardContent>
         </Card>
       </div>

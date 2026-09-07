@@ -11,8 +11,9 @@ import { Badge } from "@/components/ui/badge";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import { Loader2, Search, ArrowRight, AlertTriangle, Users } from "lucide-react";
+import { Loader2, Search, ArrowRight, Users } from "lucide-react";
 import { AppHeader } from "@/components/app-header";
+import { BadgeConfiance } from "@/components/badge-confiance";
 import {
   listerCandidats,
   listerCandidatsDivergents,
@@ -27,7 +28,6 @@ import {
   estTypeTermeValide,
   LIBELLES_STATUT,
   LIBELLES_TYPE_TERME,
-  SOURCES_MINIMUM,
   TYPES_TERME,
   type StatutEntree,
   type TypeTerme,
@@ -294,15 +294,11 @@ function FileArbitrageContenu() {
                         </p>
                       </div>
                       <div className="flex items-center gap-2 shrink-0">
-                        {c.nb_sources < SOURCES_MINIMUM ? (
-                          <Badge variant="outline" className="gap-1 text-amber-600 border-amber-300">
-                            <AlertTriangle className="w-3 h-3" /> 1 source
-                          </Badge>
-                        ) : (
-                          <Badge className="bg-emerald-600 hover:bg-emerald-600">
-                            {c.nb_sources} sources
-                          </Badge>
-                        )}
+                        {/* Le même badge que voit le visiteur, et non un rendu
+                            binaire propre à l'admin : depuis que publier sur source
+                            unique est permis (règle 2 révisée du 02/09/2026),
+                            l'arbitre décide au vu du niveau exact qui sera affiché. */}
+                        <BadgeConfiance nbSources={c.nb_sources} />
                         <Badge variant="secondary" className="tabular-nums">
                           {c.nb_attestations} attest.
                         </Badge>
@@ -351,6 +347,12 @@ function FileArbitrageContenu() {
                         >
                           {LIBELLES_STATUT[e.statut as StatutEntree] ?? e.statut}
                         </Badge>
+                        {/* nb_attestations n'est PAS un nombre de sources — l'un
+                            compte des lignes, l'autre des témoins indépendants.
+                            Cette liste n'affichait que le premier : afficher les
+                            deux évite exactement la surestimation de confiance que
+                            le badge existe pour empêcher. */}
+                        <BadgeConfiance nbSources={e.nb_sources} />
                         <Badge variant="secondary" className="tabular-nums">
                           {e.nb_attestations} attest.
                         </Badge>

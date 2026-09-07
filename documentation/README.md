@@ -18,7 +18,7 @@
 | **Odoo 882** | Cap produit : v1, utilisateur prioritaire, modèle de confiance |
 | **Odoo 883** | Jalons et critères de sortie |
 | **Odoo 884** | Checklists opérationnelles |
-| **Odoo 669** | État des lieux au 01/09/2026 |
+| **Odoo 669** | État des lieux (mis à jour le 07/09/2026) |
 | **Odoo, hub 117** | Le reste du projet : doctrine, modèle de données, studio, campagnes |
 | **`../CLAUDE.md`** | Le passé : décisions prises, incidents, doctrine opérationnelle |
 | **`documentation/`** (ici) | Rien — renvois et références techniques durables |

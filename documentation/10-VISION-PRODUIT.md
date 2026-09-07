@@ -14,7 +14,8 @@ diverger en silence.
   conflits de conception ;
 - la définition de la v1 publiable et ses critères de sortie ;
 - le **modèle de confiance à trois niveaux** (1 source = rouge, 2 = jaune,
-  3+ = vert), qui assouplit la règle 2 depuis le 02/09/2026 ;
+  3+ = vert), qui assouplit la règle 2 — décidé le 02/09/2026, réellement
+  appliqué le 07/09/2026 seulement, quand la garde SQL a été retirée ;
 - le périmètre, et la liste opposable de ce qui en est exclu.
 
 ## Voir aussi

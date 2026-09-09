@@ -326,6 +326,15 @@ export function formesRetenuesNonPubliees(
         if (!selection.includes(v.attestation_id)) continue
         const cle = cleDeForme(v.alsacien)
         if (!cle || publiees.has(cle) || vues.has(cle)) continue
+        // Une source qui empile plusieurs équivalents dans un champ
+        // (« bleed, schwàchsennig. ») est couverte dès qu'UN de ses fragments
+        // est publié : scinderSynonymes() ne rend que du verbatim, et retenir
+        // un seul des synonymes d'une source est un arbitrage légitime, pas une
+        // perte de témoignage. Sans ce test, le bandeau crierait sur toute
+        // entrée passée par le bouton « En N formes » — c'est-à-dire sur le
+        // geste même qu'il est censé encourager, et sur 46 % du lexique de
+        // culture_alsace. Constaté à l'écran le 09/09/2026 en réparant « idiot ».
+        if (scinderSynonymes(v.alsacien).some((f) => publiees.has(cleDeForme(f)))) continue
         vues.add(cle)
         manquantes.push(v)
     }

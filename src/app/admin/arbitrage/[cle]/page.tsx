@@ -532,15 +532,23 @@ export default function ArbitragePage() {
               <div className="rounded-md border border-attention-500/40 bg-attention-100/40 p-3 text-sm space-y-3">
                 <div className="flex items-start gap-2">
                   <AlertTriangle className="w-4 h-4 text-attention-500 mt-0.5 shrink-0" />
+                  {/* Compter des ATTESTATIONS, jamais des « sources » : deux
+                      lignes de culture_alsace sur le même mot font deux
+                      attestations et un seul témoignage. Le premier libellé
+                      annonçait « 3 sources retenues » au-dessus d'un bandeau
+                      disant « 2 sources indépendantes » — la confusion même que
+                      le badge existe pour empêcher (23/08/2026), réinstallée
+                      dans l'écran où l'on décide. Vu en prod le 09/09/2026. */}
                   <span>
                     <strong>
-                      {formesManquantes.length} source{formesManquantes.length > 1 ? "s" : ""}{" "}
-                      retenue{formesManquantes.length > 1 ? "s" : ""} dont la forme n&apos;est pas
-                      publiée.
+                      {formesManquantes.length} attestation
+                      {formesManquantes.length > 1 ? "s" : ""} retenue
+                      {formesManquantes.length > 1 ? "s" : ""} dont la forme n&apos;est pas publiée.
                     </strong>{" "}
-                    Elle{formesManquantes.length > 1 ? "s comptent" : " compte"} dans le badge de
-                    confiance sans rien apporter à ce que lira le visiteur. Ajoute la forme en
-                    variante, ou décoche l&apos;attestation à gauche.
+                    {formesManquantes.length > 1
+                      ? "Leurs sources comptent dans le badge de confiance sans que rien de ce qu'elles écrivent n'atteigne le visiteur."
+                      : "Sa source compte dans le badge de confiance sans que rien de ce qu'elle écrit n'atteigne le visiteur."}{" "}
+                    Ajoute la forme en variante, ou décoche l&apos;attestation à gauche.
                   </span>
                 </div>
                 <ul className="space-y-2">

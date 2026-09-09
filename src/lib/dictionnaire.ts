@@ -291,6 +291,57 @@ export function traductionsRecoupees(variantes: VarianteAttestee[]): Traduction[
     }))
 }
 
+// --- Traçabilité contre contenu ----------------------------------------------
+//
+// Une entrée porte deux choses distinctes : les attestations RETENUES, qui
+// fondent son badge de confiance, et les formes PUBLIÉES, seules visibles du
+// visiteur. Rien ne les relie — on peut cocher deux sources et ne publier que
+// la forme de l'une. Mesuré en base le 08/09/2026 : 6 des 339 entrées valides
+// sont dans ce cas, dont « idiot » qui affiche 🟡 2 sources devant
+// « bleed, schwàchsennig. », forme que seule culture_alsace écrit, tandis que
+// le « Simbel » du wiktionnaire n'apparaît nulle part.
+//
+// La cause est structurelle et non une inattention : l'écran de détail coche
+// toutes les attestations à l'ouverture (traçabilité pleine) et démarre les
+// traductions à un champ vide. Reprendre une seule forme puis publier suffit.
+//
+// Cette fonction nomme l'écart. Elle ne le corrige pas : décocher la source ou
+// ajouter la forme sont deux arbitrages valides, et c'est l'humain qui tranche
+// (règle 4). La comparaison se fait à la ponctuation près, comme partout
+// ailleurs ici — « Jüli. » et « Jüli » sont la même forme (doctrine du
+// 23/08/2026), et crier dessus noierait les vrais écarts.
+export function formesRetenuesNonPubliees(
+    variantes: VarianteAttestee[],
+    selection: string[],
+    traductions: Traduction[],
+): VarianteAttestee[] {
+    const publiees = new Set(
+        traductions.map((t) => cleDeForme(t.alsacien)).filter((c) => c !== ''),
+    )
+
+    const vues = new Set<string>()
+    const manquantes: VarianteAttestee[] = []
+
+    for (const v of variantes) {
+        if (!selection.includes(v.attestation_id)) continue
+        const cle = cleDeForme(v.alsacien)
+        if (!cle || publiees.has(cle) || vues.has(cle)) continue
+        // Une source qui empile plusieurs équivalents dans un champ
+        // (« bleed, schwàchsennig. ») est couverte dès qu'UN de ses fragments
+        // est publié : scinderSynonymes() ne rend que du verbatim, et retenir
+        // un seul des synonymes d'une source est un arbitrage légitime, pas une
+        // perte de témoignage. Sans ce test, le bandeau crierait sur toute
+        // entrée passée par le bouton « En N formes » — c'est-à-dire sur le
+        // geste même qu'il est censé encourager, et sur 46 % du lexique de
+        // culture_alsace. Constaté à l'écran le 09/09/2026 en réparant « idiot ».
+        if (scinderSynonymes(v.alsacien).some((f) => publiees.has(cleDeForme(f)))) continue
+        vues.add(cle)
+        manquantes.push(v)
+    }
+
+    return manquantes
+}
+
 // --- Divergences -------------------------------------------------------------
 //
 // Le symétrique du recoupement : deux sources ou plus attestent le mot, mais

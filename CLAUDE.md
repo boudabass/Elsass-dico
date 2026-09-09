@@ -1658,6 +1658,84 @@ de traverser que deux articles pour se transformer en critère mesurable que
 personne n'avait tranché. Quand un chiffre apparaît dans une consigne, vérifier
 qui l'a décidé avant de le mesurer.
 
+## Traçabilité et contenu publié : deux choses sans lien (08-09/09/2026)
+
+**Le premier défaut visible du lexique publié ne venait pas des données mais de
+l'écran d'arbitrage.** Une entrée porte les **attestations retenues**, qui
+fondent son badge de confiance, et les **formes publiées**, seules visibles du
+visiteur — et rien ne reliait les deux. `idiot` affichait 🟡 « 2 sources »
+devant `bleed, schwàchsennig.`, forme que seule `culture_alsace` écrit, tandis
+que le `Simbel` du wiktionnaire n'apparaissait nulle part.
+
+- **La cause est structurelle, pas une inattention** : l'écran coche toutes les
+  attestations à l'ouverture (traçabilité pleine) et démarre les traductions à un
+  champ vide. Reprendre une seule forme puis publier suffit à créer l'écart.
+- **6 entrées sur 339** étaient dans ce cas : `alsacien`, `Alsacien (langue).`,
+  `idiot`, `mardi`, `Geiswiller`, `Bischheim`. Mesuré avec `cleDeForme()` et pas
+  plus permissif — un premier comptage octet à octet en annonçait 11, dont 5
+  n'étaient qu'un écart de ponctuation (`Jüli.` / `Jüli`), bénin depuis le 23/08.
+
+**Le garde-fou avertit, il ne bloque jamais** (PR #39). `formesRetenuesNonPubliees()`
+(`src/lib/dictionnaire.ts`) nomme l'écart et propose l'ajout en variante en un
+clic ; décocher la source reste un arbitrage aussi valide qu'ajouter la forme, et
+c'est l'humain qui tranche (règle 4).
+
+- **Faux positif trouvé à l'écran, pas à la lecture** : après le bouton
+  « En N formes », la chaîne d'origine était signalée comme non publiée alors que
+  ses fragments venaient de l'être. Le bandeau aurait crié sur le geste même
+  qu'il encourage, et sur 46 % du lexique `culture_alsace`. Une attestation est
+  donc couverte dès qu'**un** de ses fragments est publié.
+- **Un `tsc --noEmit` propre ne prouve pas qu'un build passera.** Un commentaire
+  `{/* … */}` glissé entre `&& (` et le `<div>` n'est pas un commentaire à cet
+  endroit mais un objet littéral vide : TypeScript l'accepte, SWC le rejette, et
+  le build Coolify a échoué. La vérification avait de plus tourné *avant* cette
+  dernière retouche. **Vérifier après la dernière édition, et par un vrai
+  `next build`** — sur ce poste il finit toujours en `EPERM symlink` (mode
+  standalone Windows), le contrôle est que le bundle de la route contienne bien
+  la nouvelle chaîne.
+
+### Les 6 entrées réparées, une par une (09/09/2026)
+
+Gestes faits à l'écran dans la session admin de John (le `service_role` ne peut
+pas arbitrer), sur `elsass-dico-dev` — la base est partagée avec la prod.
+
+- `idiot` → `bleed` / `schwàchsennig` / `Simbel` (chaîne scindée + forme
+  wiktionnaire ajoutée). `mardi` → `Zischtig` / `Dienschdàà`. `sans` → `ohna`.
+  `Geiswiller` → `Gaiswiller` / `Gäiswiller`. `Bischheim` → `Bische` / `Bìsche`
+  (vérifié au point de code : U+0069 contre U+00EC, deux graphies distinctes).
+- **`alsacien` : décocher valait mieux qu'ajouter.** L'attestation retenue
+  `Elsässer` traduit « Alsacien » **l'habitant**, pas la langue. Décochée ; et
+  `elsässisch` (wiktionnaire, adjectif), présente dans le candidat mais non
+  retenue, prend sa place — les deux sources attestent alors la même chose.
+  Décision de John.
+- **`Alsacien (langue).` passe en `rejete`** : doublon de `alsacien`, ses deux
+  attestations viennent de la même source, et l'interface ne permet pas de les
+  rattacher à `alsacien` (clés françaises différentes). Aucune donnée supprimée —
+  l'entrée sort du public, ses attestations restent. Décision de John.
+- Chaque geste porte sa **note d'arbitrage** ; elles sont facultatives depuis le
+  07/09 mais restent le seul endroit qui dise *pourquoi*.
+
+### La ponctuation publiée n'était pas un chantier
+
+Annoncée le 08/09 comme le troisième point à traiter, avec une décision
+doctrinale à prendre (« la ponctuation finale n'est pas une graphie »). **La
+mesure l'a réduite à 4 entrées sur 339, et aucune ne demandait cette décision** :
+`mardi` et `sans` avaient déjà une source écrivant `Zischtig` et `ohna` sans
+point — publier la forme attestée suffit, sans rien réécrire (règle 1) ;
+`alsacien` et `idiot` sont des chaînes à synonymes, réglées par le scindage.
+Après réparation, **0 forme publiée ne porte de ponctuation finale**.
+
+**Mesurer avant d'écrire a annulé un chantier, comme le 04/09** où la même
+mesure préalable avait montré que décomposer l'article ne débloquait aucun
+recoupement. Le réflexe vaut aussi dans ce sens-là : il évite de coder ce qui
+n'existe pas.
+
+**Contrôle final en base** (recompté, jamais pris aux toasts de l'interface) :
+338 entrées `valide` + 1 `rejete`, 829 liens ; **0 entrée perdant une forme
+attestée**, **0 forme publiée qu'aucune attestation n'écrive, fragments
+compris** (règle 1), **0 ponctuation finale publiée**. Vérifié en plus avec la
+**clé anonyme** : une recherche « alsacien » ne rend plus qu'une entrée.
+
 ## Règles de travail
 
 - Ne jamais inventer de traduction alsacienne, même pour un exemple ou un test.

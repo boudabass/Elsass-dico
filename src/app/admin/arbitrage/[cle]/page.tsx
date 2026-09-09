@@ -521,13 +521,14 @@ export default function ArbitragePage() {
                 publiées : une source cochée dont la forme n'est nulle part fait
                 dire à l'entrée « 2 sources » devant une graphie qu'une seule
                 écrit. Signalé ici, jamais corrigé d'office — décocher la source
-                est un arbitrage aussi valide qu'ajouter sa forme en variante. */}
+                est un arbitrage aussi valide qu'ajouter sa forme en variante.
+
+                `attention` n'a que deux nuances déclarées (100, 500) : un
+                `bg-attention-50` ne générerait aucune règle et le fond
+                retomberait en silence sur transparent — piège Tailwind déjà
+                rencontré le 25/08/2026. Le 100 est la nuance de fond (90 % de
+                clarté en thème clair, 18 % en sombre), le 500 le contour. */}
             {formesManquantes.length > 0 && (
-              {/* `attention` n'a que deux nuances déclarées (100, 500) : un
-                  `bg-attention-50` ne générerait aucune règle et le fond
-                  retomberait en silence sur transparent — piège Tailwind déjà
-                  rencontré le 25/08/2026. Le 100 est la nuance de fond (90 % de
-                  clarté en thème clair, 18 % en sombre), le 500 le contour. */}
               <div className="rounded-md border border-attention-500/40 bg-attention-100/40 p-3 text-sm space-y-3">
                 <div className="flex items-start gap-2">
                   <AlertTriangle className="w-4 h-4 text-attention-500 mt-0.5 shrink-0" />

@@ -34,6 +34,7 @@ import {
   SOURCES_MINIMUM,
   STATUTS_ENTREE,
   TYPES_TERME,
+  formesRetenuesNonPubliees,
   scinderSynonymes,
   traductionVide,
   type Region,
@@ -104,6 +105,16 @@ export default function ArbitragePage() {
   // révisée du 02/09/2026 : « publier peu recoupé est permis, le faire passer
   // pour recoupé ne l'est pas »).
   const sourceUnique = nbSourcesRetenues < SOURCES_MINIMUM;
+
+  // Une attestation cochée compte dans le badge de confiance sans que sa forme
+  // soit forcément publiée : l'écran coche tout à l'ouverture et démarre les
+  // traductions à vide, donc reprendre une seule forme suffit à créer l'écart.
+  // Il se signale, il ne se comble pas tout seul — décocher la source est un
+  // arbitrage aussi valide qu'ajouter la forme (cf. formesRetenuesNonPubliees).
+  const formesManquantes = useMemo(
+    () => formesRetenuesNonPubliees(detail?.variantes ?? [], selection, traductions),
+    [detail, selection, traductions]
+  );
 
   const basculerAttestation = (id: string) => {
     setSelection((s) => (s.includes(id) ? s.filter((x) => x !== id) : [...s, id]));
@@ -505,6 +516,56 @@ export default function ArbitragePage() {
                 rows={3}
               />
             </div>
+
+            {/* Le badge de confiance compte les sources retenues, pas les formes
+                publiées : une source cochée dont la forme n'est nulle part fait
+                dire à l'entrée « 2 sources » devant une graphie qu'une seule
+                écrit. Signalé ici, jamais corrigé d'office — décocher la source
+                est un arbitrage aussi valide qu'ajouter sa forme en variante. */}
+            {formesManquantes.length > 0 && (
+              {/* `attention` n'a que deux nuances déclarées (100, 500) : un
+                  `bg-attention-50` ne générerait aucune règle et le fond
+                  retomberait en silence sur transparent — piège Tailwind déjà
+                  rencontré le 25/08/2026. Le 100 est la nuance de fond (90 % de
+                  clarté en thème clair, 18 % en sombre), le 500 le contour. */}
+              <div className="rounded-md border border-attention-500/40 bg-attention-100/40 p-3 text-sm space-y-3">
+                <div className="flex items-start gap-2">
+                  <AlertTriangle className="w-4 h-4 text-attention-500 mt-0.5 shrink-0" />
+                  <span>
+                    <strong>
+                      {formesManquantes.length} source{formesManquantes.length > 1 ? "s" : ""}{" "}
+                      retenue{formesManquantes.length > 1 ? "s" : ""} dont la forme n&apos;est pas
+                      publiée.
+                    </strong>{" "}
+                    Elle{formesManquantes.length > 1 ? "s comptent" : " compte"} dans le badge de
+                    confiance sans rien apporter à ce que lira le visiteur. Ajoute la forme en
+                    variante, ou décoche l&apos;attestation à gauche.
+                  </span>
+                </div>
+                <ul className="space-y-2">
+                  {formesManquantes.map((v) => (
+                    <li
+                      key={v.attestation_id}
+                      className="flex items-center justify-between gap-3 flex-wrap"
+                    >
+                      <span className="min-w-0">
+                        <span className="font-medium">{v.alsacien}</span>{" "}
+                        <span className="text-muted-foreground text-xs">· {v.source_nom}</span>
+                      </span>
+                      <Button
+                        type="button"
+                        variant="outline"
+                        size="sm"
+                        onClick={() => reprendreVariante(v.alsacien, v.region)}
+                        aria-label={`Ajouter « ${v.alsacien} » en variante`}
+                      >
+                        <Plus className="w-3 h-3 mr-1" /> Ajouter en variante
+                      </Button>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            )}
 
             {/* Le bandeau annonce le niveau de confiance qui sera publié, au lieu
                 d'annoncer un refus de la base qui n'existe plus. C'est l'affichage

@@ -1736,6 +1736,30 @@ attestée**, **0 forme publiée qu'aucune attestation n'écrive, fragments
 compris** (règle 1), **0 ponctuation finale publiée**. Vérifié en plus avec la
 **clé anonyme** : une recherche « alsacien » ne rend plus qu'une entrée.
 
+### Le bandeau comptait des « sources » là où il y a des attestations (PR #41)
+
+Trouvé **en production**, sur un candidat neuf (`chauve`) et non sur les six
+entrées réparées : le bandeau annonçait « **3 sources retenues** » quatre lignes
+au-dessus de « **2 sources indépendantes justifient cette entrée** ». Les trois
+attestations viennent bien de deux sources — `culture_alsace` en fournit deux, et
+deux lignes d'une même source ne valent qu'un témoignage (règle 2).
+
+- **C'est la confusion que le badge existe pour empêcher** (déjà documentée le
+  23/08/2026), réinstallée dans l'écran même où l'on décide. Elle n'a pas résisté
+  au premier candidat multi-lignes rencontré : les 6 entrées réparées n'avaient
+  qu'une attestation par source, donc le libellé y était juste par accident.
+- Le bandeau compte désormais des **attestations**, et dit ce que *leurs sources*
+  font au badge plutôt que de se compter lui-même en sources.
+- **Un contrôle de déploiement qui marche sans deviner le nom des chunks** :
+  `performance.getEntriesByType('resource')` liste tout le JS réellement chargé,
+  y compris les chunks dynamiques que `document.querySelectorAll('script[src]')`
+  ne voit pas — c'est ce qui a permis de prouver que la prod servait bien le
+  garde-fou avant même de le voir à l'écran.
+
+**Vérifié en production le 09/09/2026** (session admin de John) : la fiche
+`idiot` rend ses trois formes, le bandeau s'affiche correctement sur un candidat
+non publié, et le libellé corrigé est servi après redéploiement.
+
 ## Règles de travail
 
 - Ne jamais inventer de traduction alsacienne, même pour un exemple ou un test.

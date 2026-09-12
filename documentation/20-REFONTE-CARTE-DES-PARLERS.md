@@ -237,27 +237,43 @@ signalements, gestion des sources écrites.
 
 ### 4. La carte
 
-- **Leaflet** : ~40 Ko contre 200+ pour MapLibre GL, et les tuiles viennent d'un
-  service externe — zéro charge serveur, ce qui compte ici.
-- **Fond de carte : la Géoplateforme de l'IGN** (`data.geopf.fr`), et non les
-  tuiles d'OpenStreetMap comme écrit jusqu'au 12/09/2026. Trois raisons,
-  vérifiées et non supposées :
-  - c'est la **source officielle française**, cohérente avec le référentiel
-    INSEE d'où viennent déjà nos 1 605 communes ;
-  - la diffusion d'images tuilées WMTS et de tuiles vectorielles TMS est
-    **explicitement exclue du plafonnement** de la Géoplateforme, là où les
-    autres API sont limitées (40 req/s en WMS, 50 en géocodage) ;
-  - la [Tile Usage Policy d'OSM](https://operations.osmfoundation.org/policies/tiles/)
-    dit au contraire que « l'accès peut être bloqué sans préavis » en cas d'usage
-    jugé lourd. Un dictionnaire public dont la carte est l'écran central n'a pas
-    à dépendre d'un service qui peut se couper sans prévenir.
+- **Aucune tuile, aucun service extérieur** (décision de John, 12/09/2026 —
+  révise ce que ce document prévoyait). Une carte à tuiles demande son fond à un
+  serveur tiers à chaque consultation : le jour où il change ses URL, plafonne
+  ou tombe, la carte est vide. Le projet ne peut pas en dépendre.
 
-  Testé le 12/09/2026 sur une tuile réelle de Colmar (z12) : `PLANIGNV2` répond
-  **200 sans clé d'API**. Licence Ouverte Etalab, usage commercial permis,
-  **mention « source : IGN » obligatoire** au titre de la paternité. OSM reste
-  un repli d'une ligne de configuration si la Géoplateforme déçoit.
-- **Points aux centroïdes, pas des polygones** : 1 605 communes en contours GeoJSON
-  pèsent plusieurs Mo, indéfendable en mobile-first.
+  Deux pistes ont été instruites puis écartées le même jour : les tuiles
+  d'OpenStreetMap, dont la
+  [Tile Usage Policy](https://operations.osmfoundation.org/policies/tiles/)
+  prévoit un blocage « sans préavis » ; et la Géoplateforme de l'IGN, meilleure
+  sur le papier (tuiles exclues de son plafonnement, testé à 200 sans clé) mais
+  qui reste un service qu'on ne maîtrise pas.
+
+- **Le fond est à nous** : `public/carte/contours.topojson`, produit par
+  `scripts/communes/generer-contours.js`. Les 1 605 communes en TopoJSON — les
+  frontières partagées n'y sont écrites qu'une fois — simplifié à 12 % des
+  sommets. **401 Ko, ~97 Ko compressés**, chargés une seule fois : moins que
+  trois tuiles d'une carte classique, qui elles se rechargent à chaque
+  déplacement.
+
+  Ce document affirmait que « 1 605 communes en contours GeoJSON pèsent
+  plusieurs Mo, indéfendable en mobile-first ». **Mesuré, c'est faux** : 1,6 Mo
+  en GeoJSON brut, et le format adapté à un maillage divise encore par quatre.
+  À 12 % des sommets, l'écart d'aire est de 0,017 % sur le Bas-Rhin et aucune
+  commune ne dégénère.
+
+  Contours IGN Admin Express sous Licence Ouverte : la mention de paternité est
+  affichée sur la carte et ne se replie pas sous un bouton.
+
+- **Leaflet**, mais pour ce qu'il fait bien : le pan, le zoom et le tactile.
+  Sans `tileLayer`, il n'émet aucune requête réseau. Une bibliothèque dans notre
+  bundle n'est pas un service extérieur — c'est toute la distinction, et elle
+  seule permet de ne pas tout réécrire. Rendu en canvas : 1 605 polygones en SVG
+  font ramer un téléphone d'entrée de gamme.
+
+- **Points aux centroïdes** pour les villages qui portent une forme ; le
+  maillage sert de fond. Pour un dictionnaire des parlers, ce maillage *dit*
+  quelque chose, là où une carte routière n'est qu'un décor.
 - Recherche d'un mot → les variantes s'affichent aux villages qui les revendiquent,
   une couleur par variante.
 - **Les formes sans lieu ne vont jamais sur la carte.** Elles s'affichent

@@ -1,0 +1,309 @@
+// Elsass Dico — schéma de la refonte « carte des parlers » (11/09/2026).
+//
+// Cible et décisions : documentation/20-REFONTE-CARTE-DES-PARLERS.md.
+// Le modèle y est rédigé ; ce fichier le reprend et complète ce qu'un schéma
+// exécutable exige en plus (enums, index, archive, slugs d'URL). Chaque ajout
+// au document porte un commentaire « AJOUT » : ce sont des décisions de schéma,
+// pas de doctrine, et elles se relisent une par une.
+//
+// Ce que le modèle dit, en une phrase : une forme alsacienne n'est plus
+// arbitrée, elle est TÉMOIGNÉE — par une source écrite, ou par un locuteur qui
+// dit d'où vient son parler. Toutes les variantes coexistent.
+//
+// Quatre points du doc 20 qui ne se négocient pas, et où ils vivent ici :
+//   1. `communeId` est porté par le témoignage, pas seulement par le profil.
+//   2. Un témoignage a soit une source, soit un membre+commune — jamais les
+//      deux, jamais aucun. Prisma ne sait pas l'exprimer : c'est un CHECK SQL,
+//      ajouté à la migration initiale (voir prisma/migrations/).
+//   3. `attestations` survit intacte, en archive lecture seule.
+//   4. L'édition d'une variante se ferme dès qu'un second témoignage arrive —
+//      règle applicative, pas de colonne dédiée : elle se lit en comptant les
+//      témoignages.
+
+generator client {
+  // Prisma 7 : plus de moteur Rust, provider `prisma-client` et `output`
+  // obligatoire. Le client s'instancie avec l'adapter `@prisma/adapter-pg`.
+  provider = "prisma-client"
+  output   = "../src/generated/prisma"
+}
+
+datasource db {
+  // Prisma 7 ne veut plus d'`url` ici : la connexion de la CLI vit dans
+  // prisma.config.ts, celle du client dans l'adapter.
+  provider = "postgresql"
+}
+
+// Tables et colonnes en snake_case : on interroge cette base à la main à chaque
+// chantier (« recompter en base, jamais croire le rapport d'un script »), et des
+// identifiants en casse mixte imposeraient des guillemets dans toutes ces
+// requêtes.
+
+enum TypeTerme {
+  mot
+  expression
+  proverbe
+  toponyme
+  prenom
+
+  @@map("type_terme")
+}
+
+enum Role {
+  membre
+  admin
+
+  @@map("role")
+}
+
+// AJOUT — reprend le CHECK de sources.type de l'ancien schéma, moins
+// 'contribution' : un locuteur témoigne d'un parler, il n'est plus une source
+// bibliographique (doc 20, « ce qu'on jette »).
+enum TypeSource {
+  site
+  ouvrage
+
+  @@map("type_source")
+}
+
+// --- Référentiel ------------------------------------------------------------
+
+model Commune {
+  id               Int      @id // code INSEE
+  // AJOUT — l'URL d'une page village doit être stable et unique, et deux
+  // communes portent le même nom dans deux départements (Bouxwiller 67 et 68,
+  // le cas qui a déjà piégé l'ingestion de la campagne 1). Le slug porte donc
+  // le code INSEE, il ne se dérive pas du seul nom.
+  slug             String   @unique
+  nom              String
+  departement      String // "67" | "68" | "57"
+  codesPostaux     String[] @map("codes_postaux")
+  // AJOUT — présente dans data/communes/communes.json, elle sert à ordonner un
+  // sélecteur de 1 605 entrées par ce que l'utilisateur cherche en premier.
+  population       Int?
+  latitude         Float // centroïde : un point, pas un polygone
+  longitude        Float
+  // "alsacien" pour le 67 et le 68, null pour toute la Moselle : il n'existe
+  // aucune liste officielle des communes germanophones du 57, et tracer cette
+  // limite nous-mêmes fabriquerait une donnée que personne n'a établie.
+  aireLinguistique String?  @map("aire_linguistique")
+
+  lemmes      Lemme[]
+  temoignages Temoignage[]
+  membres     Membre[]
+
+  @@index([departement])
+  @@index([nom])
+  @@map("communes")
+}
+
+// --- Le dictionnaire --------------------------------------------------------
+
+model Lemme {
+  id String @id @default(uuid())
+
+  francais String
+  cle      String // lower(btrim(francais)), indexée
+  contexte String    @default("") // sépare les homonymes
+  type     TypeTerme
+
+  // Un toponyme EST une commune : la fiche du mot et la page du village sont
+  // deux vues de la même chose.
+  communeId Int?     @map("commune_id")
+  commune   Commune? @relation(fields: [communeId], references: [id])
+
+  // AJOUT — les pages publiques `/prenom/[slug]` sont générées statiquement.
+  // Rempli pour les lemmes qui ont une page publique, null pour les autres :
+  // un slug unique garantit qu'aucune URL n'en écrase une autre.
+  slug String? @unique
+
+  creeLe    DateTime @default(now()) @map("cree_le")
+  variantes Variante[]
+
+  @@unique([cle, contexte])
+  @@index([cle])
+  @@index([type])
+  @@map("lemmes")
+}
+
+model Variante {
+  id      String @id @default(uuid())
+  lemmeId String @map("lemme_id")
+  lemme   Lemme  @relation(fields: [lemmeId], references: [id], onDelete: Cascade)
+
+  // Verbatim, jamais réécrite (règle 1). Rien ne publie une forme que personne
+  // n'a écrite — ni ici, ni ailleurs.
+  forme    String
+  cleForme String @map("cle_forme") // cleDeForme(), pour dédoublonner
+
+  // Article défini décomposé (migration 20260903010000) : la concaténation
+  // redonne la chaîne attestée octet à octet, donc ce n'est pas une réécriture.
+  article          String?
+  formeSansArticle String? @map("forme_sans_article")
+
+  // Membre auteur, si la variante vient d'une contribution et non d'une source.
+  creeParId String? @map("cree_par")
+  creePar   Membre? @relation(fields: [creeParId], references: [id], onDelete: SetNull)
+
+  // Modération : on masque, on ne supprime pas. Rien de ce qu'un membre a écrit
+  // n'est effacé de la base.
+  masquee Boolean  @default(false)
+  creeLe  DateTime @default(now()) @map("cree_le")
+
+  temoignages  Temoignage[]
+  signalements Signalement[]
+
+  @@unique([lemmeId, cleForme])
+  @@index([lemmeId])
+  @@map("variantes")
+}
+
+// Ce qui fonde une variante. Soit une source écrite — et elle n'a alors AUCUN
+// lieu, une source ne parle pas depuis un village. Soit un locuteur, et il a un
+// lieu. Les deux blocs restent distincts jusque dans l'affichage : on
+// n'additionne jamais un compte de sources et un compte de villages dans un
+// même chiffre (l'erreur exacte de la PR #41, trouvée en production le 09/09).
+model Temoignage {
+  id         String   @id @default(uuid())
+  varianteId String   @map("variante_id")
+  variante   Variante @relation(fields: [varianteId], references: [id], onDelete: Cascade)
+
+  // — soit une source écrite (aucun lieu) :
+  sourceId      String? @map("source_id")
+  source        Source? @relation(fields: [sourceId], references: [id])
+  // Remonte à l'archive brute : la dérivation est rejouable et vérifiable.
+  attestationId String? @map("attestation_id")
+  attestation   Attestation? @relation(fields: [attestationId], references: [id])
+
+  // — soit un locuteur (un lieu) :
+  membreId  String?  @map("membre_id")
+  membre    Membre?  @relation(fields: [membreId], references: [id], onDelete: Cascade)
+  // Porté par le témoignage et pas seulement par le profil : si quelqu'un
+  // corrige son village, ses témoignages passés ne bougent pas sur la carte.
+  communeId Int?     @map("commune_id")
+  commune   Commune? @relation(fields: [communeId], references: [id])
+
+  creeLe DateTime @default(now()) @map("cree_le")
+
+  // Un membre ne témoigne qu'une fois par variante ; une attestation n'en
+  // fonde qu'une. Les NULL ne collisionnent pas en Postgres, donc ces deux
+  // contraintes ne se gênent pas l'une l'autre.
+  @@unique([varianteId, membreId])
+  @@unique([varianteId, attestationId])
+  @@index([varianteId])
+  @@index([communeId])
+  @@map("temoignages")
+}
+
+// --- Les gens ---------------------------------------------------------------
+
+model Membre {
+  id      String @id @default(uuid())
+  email   String @unique
+  // Odoo reste l'autorité sur les mots de passe ; la session est un cookie
+  // signé côté app (doc 20, étape 2).
+  odooUid Int?   @unique @map("odoo_uid")
+  nom     String?
+  role    Role   @default(membre)
+
+  // Village par défaut : pré-remplit le « + », il ne le décide pas.
+  communeId Int?     @map("commune_id")
+  commune   Commune? @relation(fields: [communeId], references: [id])
+
+  creeLe      DateTime @default(now()) @map("cree_le")
+  vuLe        DateTime? @map("vu_le")
+
+  temoignages  Temoignage[]
+  variantes    Variante[]
+  signalements Signalement[]
+
+  @@map("membres")
+}
+
+model Signalement {
+  id         String   @id @default(uuid())
+  varianteId String   @map("variante_id")
+  variante   Variante @relation(fields: [varianteId], references: [id], onDelete: Cascade)
+  membreId   String   @map("membre_id")
+  membre     Membre   @relation(fields: [membreId], references: [id], onDelete: Cascade)
+
+  motif    String
+  creeLe   DateTime  @default(now()) @map("cree_le")
+  traiteLe DateTime? @map("traite_le")
+
+  @@index([traiteLe])
+  @@map("signalements")
+}
+
+// --- L'archive --------------------------------------------------------------
+//
+// AJOUT au doc 20, qui ne modélise pas ces trois tables mais y fait pointer
+// `Temoignage.attestationId` et `Temoignage.sourceId`. Comme Supabase sort,
+// l'archive doit vivre dans cette base-ci, sinon ces deux colonnes pointent
+// dans le vide. Colonnes et noms de tables repris À L'IDENTIQUE de l'ancien
+// schéma pour que le dump SQL de l'existant se recharge sans renommage.
+//
+// LECTURE SEULE. 27 179 lignes copiées verbatim de leurs sources, que la
+// dérivation lit et ne modifie jamais — c'est ce qui rend la dérivation
+// rejouable, donc vérifiable.
+
+model Source {
+  id         String     @id @default(uuid())
+  code       String     @unique
+  nom        String
+  url        String?
+  type       TypeSource
+  annee      Int?
+  licence    String?
+  fiabilite  Int        @db.SmallInt
+  // `notes` n'est pas repris de l'ancienne table : il contenait les e-mails des
+  // contributeurs, et « un contributeur = une source » est abandonné.
+
+  attestations Attestation[]
+  temoignages  Temoignage[]
+
+  @@map("sources")
+}
+
+model Attestation {
+  id       String    @id @default(uuid())
+  sourceId String    @map("source_id")
+  source   Source    @relation(fields: [sourceId], references: [id])
+
+  francais       String
+  alsacien       String
+  graphieOrigine String    @map("graphie_origine")
+  type           TypeTerme
+  contexte       String    @default("")
+  // L'ancienne enum region_alsace (bas_rhin|haut_rhin|commun) n'est pas
+  // reprise : la carte remplace ces trois cases par 1 605 communes. La colonne
+  // reste en texte pour ne rien perdre de l'archive.
+  region         String?
+  // Localisation précise dans la source : ligne brute, page ou URL. C'est la
+  // clé de rattachement des anomalies.
+  reference      String?
+
+  article               String?
+  alsacienSansArticle   String? @map("alsacien_sans_article")
+
+  creeLe      DateTime     @default(now()) @map("created_at")
+  temoignages Temoignage[]
+
+  @@unique([sourceId, francais, alsacien, contexte])
+  @@index([sourceId])
+  @@index([reference])
+  @@map("attestations")
+}
+
+// 390 coquilles connues de culture_alsace, reconstituées en rejouant le parseur
+// du studio. La table SIGNALE, elle ne corrige pas (règle 1).
+model AnomalieSource {
+  id        String   @id @default(uuid())
+  reference String // rattachement : attestations.reference
+  type      String
+  detail    String
+  creeLe    DateTime @default(now()) @map("created_at")
+
+  @@unique([reference, type])
+  @@index([reference])
+  @@map("anomalies_source")
+}

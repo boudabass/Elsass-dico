@@ -1835,6 +1835,115 @@ ainsi que le référentiel des 1 605 communes a été produit : paquet
 `@etalab/decoupage-administratif` pour l'identité INSEE, contours IGN clonés depuis
 GitHub pour calculer les centroïdes.
 
+## Socle de la refonte posé, base chargée (12/09/2026)
+
+**L'étape 1 du doc 20 est faite, et le dictionnaire dérivé est en base.**
+27 179 attestations → **25 864 lemmes, 41 646 variantes, 42 135 témoignages**,
+sans une seule décision humaine. Détail et commandes dans `21-REPRISE.md`.
+
+Ce que le dictionnaire rend, sur les mots qui servaient d'exemple à son échec :
+`bonjour` → `buschur` / `güata Tàg` / `göte Tàij` / `grias di wohl` ;
+`salaire` → `Lohn` et non `d'r lohn`. « Un visiteur tapant *bonjour* ne trouve
+rien » revenait depuis le 02/09.
+
+- **Prisma 7 sur Postgres 18**, et **`prisma migrate deploy` au démarrage du
+  conteneur** (`docker-entrypoint.sh`), qui refuse de monter si une migration
+  échoue. Un conteneur qui ne démarre pas se voit ; une app qui répond 200 sur un
+  schéma en retard, non — c'est ce qui a coûté trois incidents.
+- **Quatre pièges d'outillage**, tous rencontrés : `npm` est cassé sur ce dépôt
+  (c'est du pnpm) ; `prisma@latest` sert une release candidate, le tag `prev`
+  porte la stable ; pnpm 11 exige une décision explicite par script
+  d'installation ; et `prisma generate` tourne au build d'image, **où
+  `DATABASE_URL` n'existe pas exprès** — `env()` dans `prisma.config.ts` y
+  ferait échouer le build entier.
+
+### La source de vérité est le dépôt, plus la base
+
+**Décision de John** : repartir de données vierges, que quatre mois d'anciennes
+décisions n'ont pas altérées. La base se reconstruit des JSONL des parseurs
+versionnés ; Supabase sort du chemin.
+
+Une seule altération décisionnelle s'était glissée dans les JSONL, et le parseur
+la nommait lui-même : « contexte est remplacé […] dans `candidats_arbitrage()`,
+qui groupe sur (français normalisé, contexte) ». 349 contextes de
+`wiktionnaire_fr` recopiés de `culture_alsace` pour que l'ancienne file
+d'arbitrage fasse se rencontrer les candidats. **Annulée par la PR #44.** Tout le
+reste de l'historique est de la correction de fidélité, et a été gardé.
+
+- **Un toponyme EST une commune** : le lemme s'indexe par sa commune, pas par
+  (français, contexte). `Roeschwoog` et `Rœschwoog` portent leurs deux formes sur
+  la même fiche. C'est ce qui rend la recontextualisation inutile pour de bon.
+- Trois choses vivaient en base et pas dans le dépôt, **reconstruites par du code
+  et jamais réinventées** : la décomposition de l'article (8 886, le chiffre
+  exact de la migration SQL), les 390 coquilles connues (même répartition
+  323/37/30), et l'exclusion des trois fiches de sources écartées.
+- **Le rapport imprimé d'un parseur plafonne**, ici à 80 anomalies : on rappelle
+  `parse_page()` lettre par lettre plutôt que de lire sa sortie. Même piège que
+  les compteurs « 50+ » de l'ancienne file.
+
+### Le déterminisme tenait à l'ordre des UUID
+
+Trouvé en comparant la base de production à la base locale : **8 881 variantes à
+article ici, 8 882 là-bas**, mêmes données et même code. La dérivation lisait les
+attestations par `id`, or les UUID sont tirés au hasard à l'import — quand deux
+attestations écrivent la même forme, celle qui créait la variante changeait d'un
+chargement à l'autre.
+
+Un écart d'une unité qu'on pouvait mettre sur le compte du bruit. C'était une
+faille de la promesse « rejouable = même résultat », qui ne tenait que tant qu'on
+ne rechargeait pas l'archive. Corrigé par un ordre stable **et** par une règle
+qui ne dépend d'aucun ordre (à forme égale, la variante porteuse de l'article
+l'emporte), puis vérifié sur une base entièrement neuve.
+
+**Deux bases valent mieux qu'une** : sans le double chargement, le défaut restait
+invisible. C'est « recompter en base » appliqué à deux bases.
+
+### La carte ne dépend d'aucun service extérieur
+
+**Décision de John** : *« il faut notre propre carte, le projet ne doit dépendre
+d'aucun outil extérieur »*. Une carte à tuiles demande son fond à un serveur
+tiers à chaque consultation. Deux fonds instruits puis écartés le même jour : les
+tuiles d'OSM (blocage « sans préavis » prévu par leur politique) et la
+Géoplateforme de l'IGN (meilleure, mais service tiers quand même).
+
+Une distinction a permis de ne pas tout réécrire : un **service** répond à chaque
+consultation et nous échappe ; une **bibliothèque** est du code dans notre
+bundle ; des **données** téléchargées une fois et versionnées sont à nous.
+Leaflet est donc gardé — sans `tileLayer`, il n'émet aucune requête.
+
+- Le fond est `public/carte/contours.topojson`, produit par
+  `scripts/communes/generer-contours.js` : **401 Ko, ~97 Ko compressés**. Une
+  seule tuile en pèse 34, et une carte à tuiles en recharge à chaque
+  déplacement — **l'autonomie est ici plus légère que la dépendance**.
+- Le doc 20 écartait cette piste d'avance (« plusieurs Mo, indéfendable en
+  mobile-first ») : **mesuré, c'était faux**. 1,6 Mo en GeoJSON brut, et le
+  format adapté à un maillage divise encore par quatre.
+- 4 contours au millésime 2018 désignaient des communes fusionnées depuis :
+  écartés, sinon la carte dessinerait des frontières qui n'existent plus. Le
+  script **échoue** si une commune du référentiel n'a pas de contour — un trou
+  dans le fond, ça ne se découvre pas à l'écran.
+- **Vérifié sur l'artefact servi** : aucun chunk de `/carte` ne contient
+  `geopf.fr`, `tile.openstreetmap`, `mapbox`, `maptiler` ni `cartocdn`.
+
+**L'attribution a quitté la carte, pas le projet.** Le texte de la Licence
+Ouverte demande la source et son millésime **sans imposer d'emplacement** — il
+accepte même un simple renvoi par URL. La mention vit sur `/sources`. Elle n'est
+pas facultative : c'est la seule contrepartie d'une licence qui donne par
+ailleurs l'usage commercial, mondial, illimité et gratuit, et le projet a écarté
+trois sources lexicales sur cette question en campagne 5.
+
+### Deux décisions de simplification
+
+- **On s'en tient aux communes actuelles.** 249 noms de toponymes ne joignent
+  aucune commune — 57 fusionnées depuis la source, des noms mal orthographiés par
+  le site de 2006, des villes étrangères, des hameaux. Les 57 étaient
+  récupérables, mais les faire entrer supposait de décider quoi afficher pour un
+  village qui n'est plus une commune. **Complexité refusée**, la source
+  officielle INSEE fait foi.
+- **Le dump de Supabase est abandonné.** Il ne protégeait plus que ce qui
+  n'existait qu'en base — entrées arbitrées, comptes, votes — et qui n'a plus
+  d'intérêt.
+
 ## Règles de travail
 
 - Ne jamais inventer de traduction alsacienne, même pour un exemple ou un test.
@@ -1844,4 +1953,13 @@ GitHub pour calculer les centroïdes.
   dans un même chiffre** : c'est la confusion qui a produit le bug de la PR #41.
 - Toujours demander avant de supprimer des données existantes.
 - Mesurer avant d'écrire. Deux chantiers ont été annulés par la mesure préalable
-  (04/09, 09/09) : c'est un succès de la méthode, pas du temps perdu.
+  (04/09, 09/09) : c'est un succès de la méthode, pas du temps perdu. Et le
+  12/09, une mesure a démenti une affirmation de notre propre documentation —
+  « plusieurs Mo, indéfendable en mobile-first » valait 97 Ko.
+- **L'app ne dépend d'aucun service extérieur** (12/09/2026). Une bibliothèque
+  dans le bundle et des données versionnées sont à nous ; un serveur qu'on
+  interroge à l'exécution ne l'est pas, quelle que soit la qualité du
+  fournisseur.
+- **Respecter les licences des données qu'on réutilise**, y compris quand rien
+  ne nous y oblige en pratique. Le projet a écarté trois sources lexicales sur
+  ce motif ; une mention de paternité peut changer de place, jamais disparaître.

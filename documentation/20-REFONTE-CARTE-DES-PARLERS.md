@@ -176,30 +176,54 @@ il faut la garder en tête si le modèle semble familier.
   contributeurs — ils ne sont pas repris.
 
 **Perdu volontairement** : les 338 entrées arbitrées. Leur contenu est redérivable
-des attestations. **Faire un dump SQL complet avant la bascule.**
+des attestations. ~~Faire un dump SQL complet avant la bascule.~~ — **abandonné
+le 12/09/2026** (décision de John) : la base se reconstruit intégralement du
+dépôt, et ce qui n'existait qu'en base — entrées publiées, comptes, votes —
+n'a plus d'intérêt.
 
 ## Étapes
 
-### 1. Socle données — *en cours*
+### 1. Socle données — ✅ **fait le 12/09/2026**
 
-- Conteneur **Postgres 18** sur Coolify (vérifier l'image ; se rabattre sur 17 au
-  besoin).
-- `prisma/schema.prisma`, et **`prisma migrate deploy` au démarrage du conteneur**.
-  Ça tue la classe de bugs qui a frappé trois fois : migration passée à la main
-  dans le SQL Editor, oubliée, invisible jusqu'à la première écriture (09/08,
-  10/08, 23/08).
-- **Référentiel communes** — ✅ **fait**, cf. `data/communes/`.
-- **Script de dérivation** `scripts/deriver.ts` : `attestations` → `Lemme` /
-  `Variante` / `Temoignage`. Réutilise `scinderSynonymes()` et `cleDeForme()` tels
-  quels. Les 954 toponymes se joignent aux communes **par nom exact**, jamais
-  approché — un doute se signale (règle 3 du contrat `data/`).
-- Dump SQL complet de l'existant.
+Détail de la chaîne, de ses chiffres et de ses commandes : `21-REPRISE.md`.
 
-**Mesure à faire ici, pas avant** : le marqueur a~e (finale `-a`, digrammes
-`ia`/`ua`) n'a jamais été mesuré sur les 23 851 mots du lexique, seulement sur les
-toponymes. Il dira si le lexique écrit peut teinter une zone sur la carte. Une
-heure de travail, **et le résultat peut être négatif** — comme le 04/09, où la même
-mesure préalable avait annulé un chantier entier.
+- Conteneur **Postgres 18** sur Coolify — fait (`postgres:18-alpine`).
+- `prisma/schema.prisma` et **`prisma migrate deploy` au démarrage du conteneur**
+  (`docker-entrypoint.sh`), qui refuse de démarrer si une migration échoue. Ça
+  tue la classe de bugs qui a frappé trois fois : migration passée à la main dans
+  le SQL Editor, oubliée, invisible jusqu'à la première écriture (09/08, 10/08,
+  23/08).
+- **Référentiel communes** — fait, cf. `data/communes/`.
+- **Script de dérivation** `scripts/deriver.mts` : `attestations` → `Lemme` /
+  `Variante` / `Temoignage`. Réutilise `scinderSynonymes()` et `cleDeForme()`
+  telles quelles. 27 179 attestations → 25 864 lemmes, 41 646 variantes,
+  42 135 témoignages, **sans une décision humaine**.
+- ~~Dump SQL complet de l'existant~~ — **abandonné** (décision de John,
+  12/09/2026) : la base se reconstruit intégralement du dépôt, et ce qui
+  n'existait qu'en base n'a plus d'intérêt.
+
+**La source de vérité est le dépôt, pas la base** (décision du 12/09). Les
+données sont reconstruites depuis les JSONL des parseurs versionnés sur la
+branche `data`, jamais lues dans Supabase — qui portait quatre mois de purges,
+de réingestions et de colonnes ajoutées au fil de l'arbitrage. Une seule
+altération décisionnelle s'y était glissée, annulée par la **PR #44** : 349
+contextes de `wiktionnaire_fr` recopiés de `culture_alsace` pour que l'ancienne
+file d'arbitrage fasse se rencontrer les candidats.
+
+**Un toponyme EST une commune** : le lemme s'indexe par sa commune, pas par
+(français, contexte). `Roeschwoog` et `Rœschwoog` portent leurs deux formes sur
+la même fiche de village — ce qui rend la recontextualisation inutile, le
+département venant du référentiel INSEE et non d'une source recopiée sur une
+autre.
+
+**La mesure du marqueur a~e est faite, et positive** — `22-MESURE-MARQUEUR-AE.md`.
+Elle a répondu par un chemin qui n'était pas prévu : `culture_alsace` **déclare
+son parler elle-même** (« Fer s'Südliga Nederàlamànischa Üssdrucksgebiat », et sa
+propre carte délimite l'aire — « région de Colmar et de Mulhouse »). Le marqueur
+ne fait que confirmer, sans lien technique avec la déclaration : 99,9 % de
+finales `-a` sur les 18 pages sans bandeau de mélange, 80,0 % sur les 7 autres.
+D'où `Temoignage.aireDeclaree`, qui porte ce qu'une source dit d'elle-même et
+jamais ce qu'on en déduit.
 
 ### 2. Auth autonome, Supabase dehors
 
@@ -262,8 +286,14 @@ signalements, gestion des sources écrites.
   À 12 % des sommets, l'écart d'aire est de 0,017 % sur le Bas-Rhin et aucune
   commune ne dégénère.
 
-  Contours IGN Admin Express sous Licence Ouverte : la mention de paternité est
-  affichée sur la carte et ne se replie pas sous un bouton.
+  Contours IGN Admin Express sous **Licence Ouverte**. La mention de paternité
+  vit sur `/sources`, **pas sur la carte** : le texte de la licence demande la
+  source et son millésime sans imposer d'emplacement — il accepte même un simple
+  renvoi par URL. Elle n'est pas facultative pour autant. C'est la seule
+  contrepartie d'une licence qui donne par ailleurs l'usage commercial, mondial,
+  illimité et gratuit ; la retirer ne gagnerait aucun droit, elle ferait perdre
+  le seul qu'on ait. Le projet a déjà écarté trois sources lexicales sur cette
+  question en campagne 5.
 
 - **Leaflet**, mais pour ce qu'il fait bien : le pan, le zoom et le tactile.
   Sans `tileLayer`, il n'émet aucune requête réseau. Une bibliothèque dans notre
@@ -279,8 +309,16 @@ signalements, gestion des sources écrites.
 - **Les formes sans lieu ne vont jamais sur la carte.** Elles s'affichent
   au-dessus, en mobile-first : « personne n'a encore dit d'où ça vient ». La dette
   de données devient le moteur de contribution.
-- Au lancement la carte n'est pas vide : les **954 toponymes attestés sont des
-  communes**, chacune peut afficher son nom alsacien dès le premier jour.
+- Au lancement la carte n'est pas vide : **819 communes portent une forme
+  attestée** et peuvent afficher leur nom alsacien dès le premier jour. (Le
+  chiffre de 954 écrit ici jusqu'au 12/09 comptait des attestations, pas des
+  communes rattachées — 249 noms ne désignent aucune commune actuelle, cf.
+  `21-REPRISE.md`.)
+- **Prototype en place** : `/carte` et `/sources`, sur données réelles. Il sert à
+  trancher sur pièces — densité des points, lisibilité en mobile — pas à figurer
+  l'écran final. Deux points restent à traiter avant qu'il ne le devienne : les
+  819 villages sont envoyés d'un coup (127 Ko de HTML), et la couleur par
+  variante est prévue par le composant (`couleurDe`) mais pas encore utilisée.
 
 ### 5. Contribution
 
@@ -305,9 +343,24 @@ signalements, gestion des sources écrites.
 La règle de maison s'applique partout : **recompter en base, jamais croire le
 rapport d'un script**. Elle a rattrapé une erreur à chacune des cinq campagnes.
 
-- **Étape 1** : comptages par type et par source ; 0 forme dérivée qui ne soit un
-  fragment contigu d'une attestation (règle 1) ; dérivation rejouée deux fois =
-  même résultat.
+- **Étape 1** — ✅ fait, `scripts/verifier-derivation.mts` relit la base et sort
+  un code 1 si un contrôle échoue. 11 contrôles passent : 0 forme qu'aucun de ses
+  témoins n'écrit sur 41 646 (règle 1), 27 179/27 179 attestations ayant produit
+  une variante, 0 orpheline, 0 témoignage hybride, 0 ponctuation finale publiée,
+  une commune = un lemme.
+
+  **« Rejouée deux fois = même résultat » a failli être une promesse creuse.** La
+  dérivation lisait les attestations par `id`, or les UUID sont tirés au hasard à
+  l'import : quand deux attestations écrivent la même forme, celle qui créait la
+  variante changeait d'un chargement à l'autre. Écart constaté entre la base
+  locale et la production : **une variante à article sur 8 882**. Un chiffre
+  qu'on pouvait mettre sur le compte du bruit, et qui était une vraie faille.
+  Corrigé par un ordre de lecture stable **et** par une règle qui ne dépend
+  d'aucun ordre (à forme égale, la variante porteuse de l'article l'emporte),
+  puis vérifié en reconstruisant une base entièrement neuve.
+
+  **Deux bases valent mieux qu'une** : sans le double chargement, le défaut
+  restait invisible. C'est « recompter en base » appliqué à deux bases.
 - **Étape 2** : connexion Odoo bout en bout, session qui survit à un redémarrage,
   app inaccessible sans cookie valide, et **un middleware qui ne fait aucun appel
   réseau** — à vérifier au chrono, pas à la lecture.
@@ -323,8 +376,27 @@ rapport d'un script**. Elle a rattrapé une erreur à chacune des cinq campagnes
 
 ## Points ouverts
 
-- Marqueur a~e sur le lexique : à mesurer à l'étape 1, peut ne rien donner.
+- ~~Marqueur a~e sur le lexique~~ — ✅ mesuré le 12/09, **positif** :
+  `22-MESURE-MARQUEUR-AE.md`.
+- ~~Licences des deux jeux de données communes~~ — ✅ confirmées le 12/09 :
+  **Licence Ouverte** pour les deux. Identité administrative INSEE (via
+  `@etalab/decoupage-administratif` 6.0.0), contours IGN ADMIN EXPRESS COG
+  millésime 2018. Usage commercial permis, mention de paternité obligatoire —
+  portée par `/sources`.
+- ~~Communes fusionnées depuis la source~~ — ✅ tranché le 12/09 : on s'en tient
+  aux communes actuelles, 249 noms restent sans point (détail dans
+  `21-REPRISE.md`).
 - Auto-inscription du portail Odoo : à activer et tester.
 - Aire linguistique du 57 : laissée nulle, à qualifier plus tard ou jamais.
-- Licences des deux jeux de données communes : à confirmer avant publication.
 - Gameplay : hors périmètre, à concevoir une fois la carte vivante.
+
+### Ce que le prototype de carte laisse à trancher
+
+- **Combien de villages envoyer d'un coup.** Les 819 font 127 Ko de HTML —
+  tenable en desktop, discutable en mobile-first. L'écran final n'affichera
+  probablement que les villages du mot cherché.
+- **La densité des points.** 819 marqueurs tiennent en canvas, mais rien ne dit
+  qu'ils se lisent. À juger à l'écran, pas au raisonnement.
+- **Le fond est volontairement muet** (gris clair sur blanc) pour que les points
+  ne s'y noient pas. Deux valeurs à changer dans `carte-parlers.tsx` s'il est
+  trop pâle ou trop présent.

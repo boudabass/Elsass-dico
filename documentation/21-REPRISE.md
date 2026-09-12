@@ -86,15 +86,32 @@ autre.
 Ces 24 743 sont la dette de données qui devient le moteur de contribution :
 « personne n'a encore dit d'où ça vient ».
 
-### Ce qu'elle ne rattache pas, et pourquoi
+### Ce qu'elle ne rattache pas, et pourquoi — tranché le 12/09/2026
 
-**249 toponymes ne joignent aucune commune** : ce sont des communes fusionnées
-depuis la publication de la source (`Auenheim` → Rountzenheim-Auenheim,
-`Allenwiller` → Sommerau, `Altenbach` → Goldbach-Altenbach). Le référentiel
-INSEE ne connaît que les communes actuelles. Piste, non faite : les communes
-déléguées existent dans `@etalab/decoupage-administratif` et pourraient entrer
-au référentiel — mais leur donner un point sur la carte suppose de décider ce
-qu'on affiche pour un village qui n'est plus une commune.
+**249 noms de toponymes ne joignent aucune commune, et on s'en tient là.**
+Décision de John : *« partir de ce qui existe maintenant en évitant de
+complexifier, se référer aux sources officielles »*. La source officielle est le
+référentiel INSEE des communes **actuelles**, et c'est lui qui fait foi.
+
+Mesuré avant de trancher, pour savoir ce qu'on laisse :
+
+| cas | noms | exemple |
+|---|---:|---|
+| commune **fusionnée** depuis la source | 57 | `Auenheim` → Rountzenheim-Auenheim (2016) |
+| **nom différent** de l'officiel | ~dizaines | `Ballbronn`/Balbronn, `Bergbiden`/Bergbieten |
+| ville **étrangère** | ~10 | `Berlin`, `Moscou`, `Zurich` |
+| hameau ou lieu-dit | le reste | `Achbach`, `Brechlingen` |
+
+Les 57 fusionnées étaient récupérables mécaniquement (les communes déléguées
+sont dans `@etalab/decoupage-administratif`), mais les faire entrer supposait de
+décider quoi afficher pour un village qui n'est plus une commune — deux points
+au même endroit, ou des coordonnées à retrouver. **Complexité refusée.** 819
+communes portent une forme attestée, c'est la carte de départ.
+
+Les noms mal orthographiés par la source de 2006 ne sont **pas** rapprochés
+automatiquement : entre `Bergbiden` et `Bergbieten` il n'y a qu'une lettre, mais
+une règle qui tolère une lettre finirait par rattacher un village au mauvais
+voisin sans que rien ne le signale.
 
 **2 restent ambigus** (`Bouxwiller`, `Buhl` avec le contexte
 « Alsace ; Géographie ») : sans département, rien ne tranche entre les deux
@@ -102,11 +119,12 @@ communes homonymes. Le doute se signale, il ne se comble pas.
 
 ## Ce qui reste avant la bascule
 
-1. **Un dump SQL complet de Supabase**, avant tout (doc 20). Les 338 entrées
-   arbitrées sont perdues volontairement, mais volontairement ≠ sans filet.
-   *Moins critique depuis le 12/09* : la base se reconstruit désormais du dépôt,
-   donc le dump ne protège plus que ce qui n'était QU'en base — les entrées
-   arbitrées, les comptes et les votes.
+1. ~~Un dump SQL complet de Supabase~~ — **abandonné le 12/09/2026, décision de
+   John.** Le doc 20 le demandait pour ne pas perdre les 338 entrées arbitrées.
+   Il ne reste rien à protéger : la base se reconstruit intégralement du dépôt,
+   et ce qui n'existait qu'en base (entrées publiées, comptes, votes) n'a plus
+   d'intérêt — *« j'étais le seul à avoir fait quelque chose, le projet n'est
+   toujours pas public ; sinon on n'aurait pas recommencé en plein milieu »*.
 2. **Charger la chaîne dans le Postgres de Coolify**
    (`l11x6p591gah952rrbbgl24o`, postgres:18-alpine). Il est exposé
    publiquement sur le **port 5444** depuis le 12/09 — attention,

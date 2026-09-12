@@ -237,8 +237,25 @@ signalements, gestion des sources écrites.
 
 ### 4. La carte
 
-- **Leaflet + tuiles OpenStreetMap** : ~40 Ko contre 200+ pour MapLibre GL, et les
-  tuiles viennent d'un CDN — zéro charge serveur, ce qui compte ici.
+- **Leaflet** : ~40 Ko contre 200+ pour MapLibre GL, et les tuiles viennent d'un
+  service externe — zéro charge serveur, ce qui compte ici.
+- **Fond de carte : la Géoplateforme de l'IGN** (`data.geopf.fr`), et non les
+  tuiles d'OpenStreetMap comme écrit jusqu'au 12/09/2026. Trois raisons,
+  vérifiées et non supposées :
+  - c'est la **source officielle française**, cohérente avec le référentiel
+    INSEE d'où viennent déjà nos 1 605 communes ;
+  - la diffusion d'images tuilées WMTS et de tuiles vectorielles TMS est
+    **explicitement exclue du plafonnement** de la Géoplateforme, là où les
+    autres API sont limitées (40 req/s en WMS, 50 en géocodage) ;
+  - la [Tile Usage Policy d'OSM](https://operations.osmfoundation.org/policies/tiles/)
+    dit au contraire que « l'accès peut être bloqué sans préavis » en cas d'usage
+    jugé lourd. Un dictionnaire public dont la carte est l'écran central n'a pas
+    à dépendre d'un service qui peut se couper sans prévenir.
+
+  Testé le 12/09/2026 sur une tuile réelle de Colmar (z12) : `PLANIGNV2` répond
+  **200 sans clé d'API**. Licence Ouverte Etalab, usage commercial permis,
+  **mention « source : IGN » obligatoire** au titre de la paternité. OSM reste
+  un repli d'une ligne de configuration si la Géoplateforme déçoit.
 - **Points aux centroïdes, pas des polygones** : 1 605 communes en contours GeoJSON
   pèsent plusieurs Mo, indéfendable en mobile-first.
 - Recherche d'un mot → les variantes s'affichent aux villages qui les revendiquent,

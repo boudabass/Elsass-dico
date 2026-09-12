@@ -16,6 +16,7 @@
 |---|---|
 | **`20-REFONTE-CARTE-DES-PARLERS.md`** | **La cible**, depuis le 11/09/2026 — *exception temporaire, cf. ci-dessous* |
 | **`21-REPRISE.md`** | Où en est le chantier, et comment le reprendre |
+| **`22-MESURE-MARQUEUR-AE.md`** | Le résultat de la mesure du 12/09/2026 : `culture_alsace` déclare son parler |
 | **Odoo 878** | La méthode et les gabarits réutilisables — **tous projets** |
 | **Odoo 669** | État des lieux (mis à jour le 07/09/2026) |
 | **Odoo, hub 117** | Le reste du projet : doctrine, modèle de données, studio, campagnes |
@@ -46,6 +47,7 @@ dans Odoo, et ce dossier y renvoie.
 |---|---|
 | `20-REFONTE-CARTE-DES-PARLERS.md` | **La cible** : pourquoi, décisions, modèle de données, étapes |
 | `21-REPRISE.md` | État d'avancement et reprise en local |
+| `22-MESURE-MARQUEUR-AE.md` | Mesure du marqueur a~e sur le lexique — résultat, contrôles, limites |
 | `10-VISION-PRODUIT.md` | Renvoi vers Odoo 882 — **périmé** |
 | `11-FEUILLE-DE-ROUTE.md` | Renvoi vers Odoo 883 — **périmé** |
 | `12-CHECKLISTS.md` | Renvoi vers Odoo 884 — **partiellement périmé** (section D) |

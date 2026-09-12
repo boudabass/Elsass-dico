@@ -301,6 +301,20 @@ def main() -> int:
     lignes_melangees = 0
     exemples_melange: list[tuple[str, str]] = []
 
+    # Mesure 3 bis, ajoutée après lecture des échantillons du premier passage.
+    # Le critère ci-dessus (« deux formes qui ne diffèrent QUE par a~e ») rate
+    # `d'r Todawààga, de Todewàwe` — deux variantes régionales du même mot, qui
+    # diffèrent aussi par l'article et par ww/gg. Le bon critère est plus
+    # large : la ligne porte-t-elle à la fois une finale -a et une finale -e ?
+    # Et si oui, dans quel ORDRE — une source qui écrit systématiquement le sud
+    # puis le nord ne se teinte pas en bloc, elle se teinte forme par forme.
+    lignes_deux_finales = 0
+    lignes_deux_finales_sud_dabord = 0
+    exemples_deux_finales: list[tuple[str, str]] = []
+    profil_unique = Profil("culture_alsace lexique — attestation à UNE forme")
+    profil_premier = Profil("culture_alsace lexique — 1er fragment")
+    profil_suivants = Profil("culture_alsace lexique — fragments suivants")
+
     for a in attestations:
         code = sources.get(a["source_id"], "?")
         typ = a["type"]
@@ -333,6 +347,24 @@ def main() -> int:
                 if len(exemples_melange) < 200:
                     exemples_melange.append((a["francais"], a["alsacien"]))
 
+        if code == "culture_alsace" and typ in LEXIQUE:
+            if len(formes) == 1:
+                profil_unique.ajouter(formes[0], a["francais"])
+            else:
+                profil_premier.ajouter(formes[0], a["francais"])
+                for f in formes[1:]:
+                    profil_suivants.ajouter(f, a["francais"])
+
+                finales = [finale_atone(f) for f in formes]
+                presentes = {x for x in finales if x}
+                if presentes == {"a", "e"}:
+                    lignes_deux_finales += 1
+                    portees = [x for x in finales if x]
+                    if portees[0] == "a":
+                        lignes_deux_finales_sud_dabord += 1
+                    if len(exemples_deux_finales) < 200:
+                        exemples_deux_finales.append((a["francais"], a["alsacien"]))
+
     print("PROFIL a~e PAR GROUPE")
     print(ENTETE)
     print("-" * len(ENTETE))
@@ -346,6 +378,23 @@ def main() -> int:
     print(f"  dont deux formes ne diffèrent que par a~e : {lignes_melangees} ({pct:.1f} %)")
     for fr, als in exemples_melange[:args.echantillons]:
         print(f"    {fr:<28} {als}")
+    print()
+
+    print("LES DEUX FINALES DANS UNE MÊME LIGNE (critère large, lexique culture_alsace)")
+    n = lignes_deux_finales
+    print(f"  lignes portant à la fois une finale -a et une finale -e : {n}")
+    if n:
+        pct_ordre = 100 * lignes_deux_finales_sud_dabord / n
+        print(f"  dont le -a vient en premier : {lignes_deux_finales_sud_dabord} ({pct_ordre:.1f} %)")
+    for fr, als in exemples_deux_finales[:args.echantillons]:
+        print(f"    {fr:<28} {als}")
+    print()
+
+    print("OÙ VIT LE MARQUEUR DANS UNE LIGNE (lexique culture_alsace)")
+    print(ENTETE)
+    print("-" * len(ENTETE))
+    for p in (profil_unique, profil_premier, profil_suivants):
+        print(p.ligne())
     print()
 
     print("ÉCHANTILLONS")
@@ -368,13 +417,21 @@ def main() -> int:
     # se comparent pas. Sur les lemmes français que les deux couvrent, qui écrit
     # la forme du sud ?
     lexique_par_source: dict[str, dict[str, set[str]]] = defaultdict(lambda: defaultdict(set))
+    # Le PREMIER fragment de culture_alsace, à part : la mesure ci-dessus montre
+    # qu'il porte la forme du sud à 99,7 % et que les suivants sont des
+    # variantes ajoutées. Comparer l'ensemble des formes des deux sources
+    # mélangerait les deux populations et n'apprendrait rien.
+    premier_fragment: dict[str, set[str]] = defaultdict(set)
     for a in attestations:
         if a["type"] not in LEXIQUE:
             continue
         code = sources.get(a["source_id"], "?")
         cle_fr = re.sub(r"[.\s]+$", "", a["francais"].strip().lower())
-        for f in formes_d_une_attestation(a["alsacien"], a.get("alsacien_sans_article")):
+        formes = formes_d_une_attestation(a["alsacien"], a.get("alsacien_sans_article"))
+        for f in formes:
             lexique_par_source[code][cle_fr].add(f)
+        if code == "culture_alsace" and formes:
+            premier_fragment[cle_fr].add(formes[0])
 
     if "culture_alsace" in lexique_par_source:
         ca = lexique_par_source["culture_alsace"]
@@ -393,10 +450,41 @@ def main() -> int:
             print(f"LEMMES COMMUNS culture_alsace × {autre} : {len(communs)}")
             ca_a = sum(1 for _, _, _, fa, _ in desaccords if fa == {"a"})
             print(f"  désaccords de finale atone : {len(desaccords)}"
-                  f" — culture_alsace du côté -a dans {ca_a}")
+                  f" — culture_alsace exclusivement -a dans {ca_a}")
             for fr, x, y, fa, fb in desaccords[:args.echantillons]:
                 print(f"    {fr:<24} culture_alsace {x} ({'/'.join(sorted(fa))})"
                       f"   {autre} {y} ({'/'.join(sorted(fb))})")
+            print()
+
+            # Le test qui écarte le raisonnement circulaire. Si le lexique
+            # alsacien avait « naturellement » 99 % de finales -a, deux sources
+            # écriraient la même finale sur les mêmes mots. Si au contraire
+            # culture_alsace note un parler, elle doit se retrouver du côté -a
+            # nettement plus souvent que l'autre, sur les MÊMES lemmes.
+            face_a_face = 0
+            ca_sud = 0
+            autre_sud = 0
+            exemples_ff = []
+            for fr in communs:
+                fa = {finale_atone(f) for f in premier_fragment.get(fr, ())} - {None}
+                fb = {finale_atone(f) for f in lexique[fr]} - {None}
+                if len(fa) != 1 or len(fb) != 1:
+                    continue
+                face_a_face += 1
+                if fa == {"a"}:
+                    ca_sud += 1
+                if fb == {"a"}:
+                    autre_sud += 1
+                if fa != fb and len(exemples_ff) < 200:
+                    exemples_ff.append((fr, sorted(premier_fragment[fr]), sorted(lexique[fr])))
+            if face_a_face:
+                print(f"  MÊMES LEMMES, finale tranchée des deux côtés : {face_a_face}")
+                print(f"    culture_alsace (1er fragment) du côté -a : {ca_sud}"
+                      f" ({100 * ca_sud / face_a_face:.1f} %)")
+                print(f"    {autre} du côté -a : {autre_sud}"
+                      f" ({100 * autre_sud / face_a_face:.1f} %)")
+                for fr, x, y in exemples_ff[:args.echantillons]:
+                    print(f"      {fr:<24} {x}   ≠   {y}")
             print()
 
     return 0

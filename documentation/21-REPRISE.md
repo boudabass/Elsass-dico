@@ -10,9 +10,9 @@
 |---|---|
 | Vision et décisions | ✅ tranchées — `20-REFONTE-CARTE-DES-PARLERS.md` |
 | Référentiel des communes | ✅ fait — `data/communes/` |
-| Schéma Prisma | ⬜ à écrire (il est rédigé dans le doc 20, prêt à copier) |
+| Schéma Prisma | ✅ fait le 12/09 — `prisma/schema.prisma`, migration `20260912120000_init` |
 | Script de dérivation | ⬜ à écrire — demande un accès aux 27 179 attestations |
-| Mesure du marqueur a~e | ⬜ à faire — demande un accès à la base |
+| Mesure du marqueur a~e | ✅ faite le 12/09, **résultat positif** — `22-MESURE-MARQUEUR-AE.md` |
 | Le reste (auth, écrans, carte, contribution) | ⬜ étapes 2 à 5 |
 
 Rien n'a été supprimé, rien n'a été migré, la prod n'a pas bougé. La refonte

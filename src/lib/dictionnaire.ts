@@ -168,7 +168,11 @@ export const SOURCES_MINIMUM = 2
 // wiktionnaire_fr ne le fait pas (« Jüli »). Les traiter comme deux formes
 // distinctes ferait manquer de vrais recoupements. Sert de CLÉ de comparaison
 // seulement — ce qui est publié reste une graphie copiée telle quelle.
-function cleDeForme(alsacien: string): string {
+// Exportée depuis le 12/09/2026 : la dérivation `attestations` -> `Variante`
+// s'en sert pour dédoublonner, et elle doit utiliser EXACTEMENT cette
+// fonction-là. Une clé recalculée « à peu près » ailleurs finirait par diverger
+// de celle-ci sans que rien ne le signale.
+export function cleDeForme(alsacien: string): string {
     return alsacien.trim().replace(/[.;,\s]+$/, '')
 }
 

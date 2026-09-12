@@ -139,7 +139,17 @@ model Lemme {
   creeLe    DateTime @default(now()) @map("cree_le")
   variantes Variante[]
 
-  @@unique([cle, contexte])
+  // AJOUT — le doc 20 pose (cle, contexte). La mesure préalable à la
+  // dérivation a trouvé **6 clés portant deux types** : `urbain`, `marguerite`
+  // et `matthieu` sont à la fois un mot commun et un prénom, sans contexte pour
+  // les distinguer. Fusionner rangerait la fleur et la sainte au même endroit,
+  // alors que la doctrine sépare les homonymes. Le type entre donc dans la clé.
+  //
+  // Contrepartie assumée, et connue : `au revoir`, `frapper à la porte` et
+  // `aller chercher` sont classés `mot` par une source et `expression` par une
+  // autre, et donneront deux lemmes jumeaux. Trois cas sur 25 887, à réunir à
+  // la main un jour — jamais en devinant lequel des deux types est le bon.
+  @@unique([cle, contexte, type])
   @@index([cle])
   @@index([type])
   @@map("lemmes")

@@ -159,7 +159,7 @@ CREATE INDEX "lemmes_cle_idx" ON "lemmes"("cle");
 CREATE INDEX "lemmes_type_idx" ON "lemmes"("type");
 
 -- CreateIndex
-CREATE UNIQUE INDEX "lemmes_cle_contexte_key" ON "lemmes"("cle", "contexte");
+CREATE UNIQUE INDEX "lemmes_cle_contexte_type_key" ON "lemmes"("cle", "contexte", "type");
 
 -- CreateIndex
 CREATE INDEX "variantes_lemme_id_idx" ON "variantes"("lemme_id");

@@ -18,13 +18,18 @@ RUN pnpm install --frozen-lockfile
 # Copy the rest of the application code
 COPY . .
 
-# Build the Next.js application
-ARG NEXT_PUBLIC_SUPABASE_URL
-ARG NEXT_PUBLIC_SUPABASE_ANON_KEY
-
-ENV NEXT_PUBLIC_SUPABASE_URL=$NEXT_PUBLIC_SUPABASE_URL
-ENV NEXT_PUBLIC_SUPABASE_ANON_KEY=$NEXT_PUBLIC_SUPABASE_ANON_KEY
-
+# Build the Next.js application.
+#
+# Plus aucune variable de build depuis le 12/09/2026 : les deux
+# `NEXT_PUBLIC_SUPABASE_*` sont parties avec Supabase. Tout ce dont l'app a
+# besoin est désormais RUNTIME — `DATABASE_URL`, `SESSION_SECRET`, `ODOO_*` —
+# donc rien de sensible n'est gravé dans l'image. C'est aussi ce qui fait qu'une
+# variable oubliée se voit au démarrage et non au build : `SESSION_SECRET`
+# manquante fait échouer la vérification de session, bruyamment, au lieu de
+# déconnecter tout le monde en silence (cf. src/lib/session.ts).
+#
+# Les Build Variables correspondantes restent à retirer côté Coolify : elles
+# n'ont plus d'effet, mais les laisser ferait croire qu'elles en ont.
 RUN pnpm build
 
 # Stage 2: Create the production-ready image

@@ -7,8 +7,8 @@ import { Loader2, Search, SearchX } from "lucide-react";
 import { AppHeader } from "@/components/app-header";
 import { BadgeConfiance } from "@/components/badge-confiance";
 import { ListSkeleton } from "@/components/ui/list-skeleton";
-import { rechercherAction, type ResultatRecherche } from "@/app/actions/recherche";
-import { useAuth } from "@/components/auth-provider";
+import { rechercherAction } from "@/app/actions/recherche";
+import { precisionLemme, type LemmeResume } from "@/lib/dictionnaire";
 import { useListeMemorisee } from "@/hooks/use-liste-memorisee";
 import { useScrollMemorise } from "@/hooks/use-scroll-memorise";
 import { cleCache, memoriserUrlOnglet } from "@/lib/cache-navigation";
@@ -30,7 +30,6 @@ export default function AccueilPage() {
 }
 
 function AccueilContenu() {
-  const { user } = useAuth();
   const router = useRouter();
   const searchParams = useSearchParams();
   const inputRef = useRef<HTMLInputElement>(null);
@@ -69,7 +68,7 @@ function AccueilContenu() {
   }, [terme, requete]);
 
   const cle = requete.length >= 2 ? cleCache("recherche", requete) : null;
-  const { donnees, premierChargement } = useListeMemorisee<ResultatRecherche[]>({
+  const { donnees, premierChargement } = useListeMemorisee<LemmeResume[]>({
     cle,
     charger: () => rechercherAction(requete),
   });
@@ -165,29 +164,31 @@ function AccueilContenu() {
                   className="block rounded-lg focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
                 >
                   <div className="rounded-lg border border-border bg-card p-3.5">
-                    <div className="flex flex-wrap items-center gap-2">
+                    <div className="flex flex-wrap items-baseline gap-2">
                       <span className="font-bold text-foreground">{e.francais}</span>
-                      {e.contexte && (
-                        <span className="text-xs text-neutre-400">{e.contexte}</span>
+                      {precisionLemme(e) && (
+                        <span className="text-xs text-neutre-400">{precisionLemme(e)}</span>
                       )}
-                      <BadgeConfiance nbSources={e.nb_sources} className="ml-auto" />
                     </div>
-                    <p className="mt-1 text-lg font-bold text-foreground">
-                      {e.traductions[0]?.alsacien}
-                    </p>
-                    {e.traductions.length > 1 ? (
+                    {/* Toutes les formes, chacune avec ce qui la fonde. Plus de
+                        forme canonique depuis le 11/09/2026 : la première n'est
+                        pas « la bonne », c'est celle que le plus de témoins
+                        écrivent. */}
+                    <ul className="mt-1.5 space-y-1">
+                      {e.formes.map((f) => (
+                        <li key={f.forme} className="flex flex-wrap items-center gap-2">
+                          <span className="text-lg font-bold text-foreground">{f.forme}</span>
+                          <BadgeConfiance nbSources={f.nbSources} nbVillages={f.nbVillages} />
+                        </li>
+                      ))}
+                    </ul>
+                    {e.nbFormes > e.formes.length && (
                       <p className="mt-1.5 text-sm text-muted-foreground">
-                        aussi : {e.traductions.slice(1).map((t) => t.alsacien).join(" · ")}
+                        et {e.nbFormes - e.formes.length} autre
+                        {e.nbFormes - e.formes.length > 1 ? "s" : ""} forme
+                        {e.nbFormes - e.formes.length > 1 ? "s" : ""}
                       </p>
-                    ) : e.traductions[0]?.region === "commun" ? (
-                      <span className="mt-2 inline-flex rounded-full bg-marque-or-50 px-2.5 py-0.5 text-xs font-semibold text-marque-or-700">
-                        Alsacien unifié
-                      </span>
-                    ) : e.traductions[0]?.region ? (
-                      <span className="mt-2 inline-flex rounded-full bg-neutre-100 px-2.5 py-0.5 text-xs font-semibold text-neutre-600">
-                        {e.traductions[0].region === "haut_rhin" ? "Haut-Rhin" : "Bas-Rhin"}
-                      </span>
-                    ) : null}
+                    )}
                   </div>
                 </Link>
               ))}
@@ -204,14 +205,11 @@ function AccueilContenu() {
             <p className="mt-1.5 text-sm text-muted-foreground">
               Ce mot n&apos;est pas encore dans le dictionnaire.
             </p>
-            {user && (
-              <Link
-                href={`/contributions/proposer?francais=${encodeURIComponent(terme.trim())}`}
-                className="mt-2.5 text-sm font-semibold text-marque-rouge-texte"
-              >
-                Proposer ce mot →
-              </Link>
-            )}
+            {/* Le « Proposer ce mot → » de l'ancien circuit pointait vers
+                /contributions/proposer, supprimé le 12/09/2026 avec Supabase. Le
+                geste revient à l'étape 5 de la refonte (le même écran créera le
+                lemme ET sa première variante). Pas de lien en attendant : un lien
+                mort est pire qu'une absence. */}
           </div>
         )}
       </main>

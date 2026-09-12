@@ -7,8 +7,8 @@ import { BookOpen, ChevronRight } from "lucide-react";
 import { AppHeader } from "@/components/app-header";
 import { BadgeConfiance } from "@/components/badge-confiance";
 import { ListSkeleton } from "@/components/ui/list-skeleton";
-import { lettresDisponiblesAction, entreesParLettreAction } from "@/app/actions/navigation";
-import type { Entree } from "@/lib/dictionnaire";
+import { lettresDisponiblesAction, lemmesParLettreAction, type PageLettre } from "@/app/actions/navigation";
+import { precisionLemme } from "@/lib/dictionnaire";
 import { useListeMemorisee } from "@/hooks/use-liste-memorisee";
 import { useScrollMemorise } from "@/hooks/use-scroll-memorise";
 import { cleCache, memoriserUrlOnglet } from "@/lib/cache-navigation";
@@ -18,9 +18,9 @@ import { cleCache, memoriserUrlOnglet } from "@/lib/cache-navigation";
 // Interprétation retenue pour "tapping a letter scrolls/loads that letter's
 // group" (README du handoff) : un tap CHARGE le groupe de cette lettre (une
 // lettre affichée à la fois), plutôt qu'un long défilement continu A-Z avec
-// scroll-to — cohérent avec entrees_par_lettre() qui sert une lettre à la
-// fois (migration 20260829000000), et évite de charger tout le dictionnaire
-// d'un coup à mesure qu'il grossit.
+// scroll-to — cohérent avec `lemmesParLettreAction()` qui sert une lettre à la
+// fois, et évite de charger tout le dictionnaire d'un coup à mesure qu'il
+// grossit. Il y a 25 864 lemmes : le défilement continu n'était pas une option.
 const ALPHABET = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("");
 
 export default function DictionnairePage() {
@@ -64,16 +64,16 @@ function DictionnaireContenu() {
   }
 
   const cleLettre = lettre ? cleCache("dictionnaire", "lettre", lettre) : null;
-  const { donnees: entreesChargees, premierChargement } = useListeMemorisee<Entree[]>({
+  const { donnees: page, premierChargement } = useListeMemorisee<PageLettre>({
     cle: cleLettre,
-    charger: () => entreesParLettreAction(lettre as string),
+    charger: () => lemmesParLettreAction(lettre as string),
   });
-  const entrees = entreesChargees ?? [];
+  const lemmes = page?.lemmes ?? [];
   // Une revalidation en fond ne doit jamais remettre le squelette : la liste
   // reste à l'écran et se met à jour quand la réponse arrive.
-  const chargement = premierChargement || (lettre !== null && entreesChargees === null);
+  const chargement = premierChargement || (lettre !== null && page === null);
 
-  useScrollMemorise(cleLettre, entrees.length > 0);
+  useScrollMemorise(cleLettre, lemmes.length > 0);
 
   return (
     <div className="flex min-h-screen flex-col pb-16 md:pb-0 md:pl-20 lg:pl-56">
@@ -108,26 +108,35 @@ function DictionnaireContenu() {
           <div className="pt-4">
             <ListSkeleton />
           </div>
-        ) : !lettre || entrees.length === 0 ? (
+        ) : !lettre || lemmes.length === 0 ? (
           <div className="flex flex-col items-center px-3 pb-2 pt-10 text-center">
             <BookOpen className="h-[30px] w-[30px] text-neutre-300" strokeWidth={1.8} />
             <p className="mt-3 text-[15px] font-bold text-foreground">
-              Aucune entrée validée pour la lettre {lettre ?? "—"} pour l&apos;instant.
+              Aucun mot pour la lettre {lettre ?? "—"}.
             </p>
             <p className="mt-1.5 text-sm text-muted-foreground">
-              De nouveaux mots arrivent chaque semaine.
+              Le dictionnaire s&apos;enrichit des formes que les membres apportent.
             </p>
           </div>
         ) : (
           <div>
-            <h2 className="pt-4 pb-2 text-[26px] font-extrabold text-foreground">{lettre}</h2>
+            <div className="flex flex-wrap items-baseline gap-2 pt-4 pb-2">
+              <h2 className="text-[26px] font-extrabold text-foreground">{lettre}</h2>
+              {/* Un plafond qui mord se dit. Sans cette ligne, 200 mots sur
+                  3 006 se liraient comme la lettre entiere. */}
+              <span className="text-sm text-neutre-400">
+                {page && page.total > lemmes.length
+                  ? `${lemmes.length} premiers sur ${page.total}`
+                  : `${lemmes.length} mot${lemmes.length > 1 ? "s" : ""}`}
+              </span>
+            </div>
             <div className="flex flex-col">
-              {entrees.map((e, i) => (
+              {lemmes.map((e, i) => (
                 <Link
                   key={e.id}
                   href={`/entree/${e.id}`}
                   className={
-                    i < entrees.length - 1
+                    i < lemmes.length - 1
                       ? "flex items-center justify-between gap-3 border-b border-border py-3 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-inset"
                       : "flex items-center justify-between gap-3 py-3 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-inset"
                   }
@@ -135,13 +144,26 @@ function DictionnaireContenu() {
                   <div className="min-w-0 flex-1">
                     <div className="truncate text-base font-semibold text-foreground">
                       {e.francais}
-                      {e.contexte && <span className="font-normal text-neutre-400"> ({e.contexte})</span>}
+                      {precisionLemme(e) && (
+                        <span className="font-normal text-neutre-400"> ({precisionLemme(e)})</span>
+                      )}
                     </div>
                     <div className="truncate text-sm text-muted-foreground">
-                      {e.traductions[0]?.alsacien}
+                      {/* Les formes se lisent sur la fiche ; ici la premiere
+                          suffit a reconnaitre le mot, et son badge dit ce qui
+                          la fonde — jamais une forme sans son fondement. */}
+                      {e.formes[0]?.forme}
+                      {e.nbFormes > 1 && (
+                        <span className="text-neutre-400"> +{e.nbFormes - 1}</span>
+                      )}
                     </div>
                   </div>
-                  <BadgeConfiance nbSources={e.nb_sources} />
+                  {e.formes[0] && (
+                    <BadgeConfiance
+                      nbSources={e.formes[0].nbSources}
+                      nbVillages={e.formes[0].nbVillages}
+                    />
+                  )}
                   <ChevronRight className="h-3.5 w-3.5 shrink-0 text-neutre-300" strokeWidth={2.4} />
                 </Link>
               ))}

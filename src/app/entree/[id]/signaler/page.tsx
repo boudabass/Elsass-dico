@@ -1,17 +1,19 @@
 import { notFound } from "next/navigation";
 import { AppHeader } from "@/components/app-header";
-import { chargerEntree } from "@/app/actions/recherche";
+import { chargerLemme } from "@/app/actions/recherche";
 import { SignalerActions } from "./signaler-actions";
 
 // Écran 4 du handoff mobile : header empilé « fermer » (X), pas les 3 icônes
 // de nav — écran modal, pas un onglet racine.
 export default async function SignalerPage({ params }: { params: Promise<{ id: string }> }) {
   const { id } = await params;
-  const entree = await chargerEntree(id);
+  const lemme = await chargerLemme(id);
 
-  if (!entree) notFound();
+  if (!lemme) notFound();
 
-  const segment = `${entree.francais} → ${entree.traductions[0]?.alsacien ?? ""}`;
+  // Toutes les formes, pas seulement la premiere : un signalement porte
+  // souvent sur une variante precise, et le forum doit voir laquelle.
+  const segment = `${lemme.francais} → ${lemme.variantes.map((v) => v.forme).join(", ")}`;
 
   return (
     <div className="flex min-h-screen flex-col">

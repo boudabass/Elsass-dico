@@ -1,8 +1,7 @@
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
-import { createClient } from "@/utils/supabase/client";
-import { signInWithOdooAction } from "@/app/actions/odoo-auth";
+import { useState } from "react";
+import { connexionAction } from "@/app/actions/auth";
 import { URL_INSCRIPTION_ODOO } from "@/lib/odoo";
 import { AppHeader } from "@/components/app-header";
 import { toast } from "sonner";
@@ -11,57 +10,34 @@ import { Loader2 } from "lucide-react";
 // Écran 5 du handoff mobile. Le mockup montre un lien "Mot de passe oublié ?"
 // qui n'a pas d'équivalent ici : Odoo est l'autorité sur les mots de passe et
 // l'app n'a aucun flux de réinitialisation self-service (pas de SMTP, cf.
-// CLAUDE.md 07/08/2026) — l'ajouter serait un lien mort. Le toggle "connexion
-// de secours" (mot de passe Supabase si Odoo est injoignable) n'existe pas
-// dans le mockup mais reste une fonctionnalité réelle du projet, conservée.
-
-const MESSAGES_ERREUR: Record<string, string> = {
-  lien_invalide: "Ce lien est incomplet ou malformé.",
-  lien_expire: "Ce lien a expiré ou a déjà été utilisé.",
-};
+// CLAUDE.md 07/08/2026) — l'ajouter serait un lien mort.
+//
+// La « connexion de secours » (mot de passe Supabase si Odoo était injoignable)
+// a disparu le 12/09/2026 avec Supabase. Elle reposait sur un second annuaire de
+// mots de passe ; il n'y en a plus qu'un, et c'est Odoo.
 
 export default function LoginPage() {
-  const supabase = useMemo(() => createClient(), []);
   const [email, setEmail] = useState("");
   const [motDePasse, setMotDePasse] = useState("");
   const [enCours, setEnCours] = useState(false);
-  const [modeSecours, setModeSecours] = useState(false);
-
-  useEffect(() => {
-    const motif = new URLSearchParams(window.location.search).get("erreur");
-    if (motif) {
-      toast.error(MESSAGES_ERREUR[motif] ?? "Lien invalide.");
-    }
-  }, []);
 
   const soumettre = async (evenement: React.FormEvent) => {
     evenement.preventDefault();
     setEnCours(true);
 
-    if (modeSecours) {
-      const { error } = await supabase.auth.signInWithPassword({
-        email,
-        password: motDePasse,
-      });
-      setEnCours(false);
-      if (error) {
-        toast.error(error.message);
-        return;
-      }
-    } else {
-      const donnees = new FormData();
-      donnees.set("email", email);
-      donnees.set("password", motDePasse);
-      const resultat = await signInWithOdooAction(donnees);
-      setEnCours(false);
-      if (!resultat.success) {
-        toast.error(resultat.error);
-        return;
-      }
+    const donnees = new FormData();
+    donnees.set("email", email);
+    donnees.set("password", motDePasse);
+    const resultat = await connexionAction(donnees);
+    setEnCours(false);
+
+    if (!resultat.succes) {
+      toast.error(resultat.erreur);
+      return;
     }
 
     // Navigation complète volontaire : la session vient d'être posée en
-    // cookies côté serveur, et AuthProvider ne la relit qu'au montage.
+    // cookies côté serveur, et le layout racine ne la relit qu'au rendu.
     window.location.href = "/dashboard";
   };
 
@@ -75,9 +51,7 @@ export default function LoginPage() {
           Heureux de te revoir
         </h1>
         <p className="mt-1.5 mb-[26px] text-center text-sm text-muted-foreground">
-          {modeSecours
-            ? "Connexion de secours par mot de passe du dictionnaire."
-            : "Connecte-toi pour contribuer au dictionnaire."}
+          Connecte-toi avec ton compte The Elsassisch.
         </p>
 
         <form onSubmit={soumettre} className="flex flex-col gap-3.5">
@@ -130,14 +104,6 @@ export default function LoginPage() {
         >
           Créer un compte
         </a>
-
-        <button
-          type="button"
-          onClick={() => setModeSecours((actuel) => !actuel)}
-          className="mt-4 w-full text-center text-xs text-muted-foreground transition-colors hover:text-foreground"
-        >
-          {modeSecours ? "Revenir à la connexion The Elsassisch" : "Connexion de secours"}
-        </button>
 
         <p className="mt-6 text-center text-xs text-neutre-400">
           En continuant, tu acceptes nos conditions.

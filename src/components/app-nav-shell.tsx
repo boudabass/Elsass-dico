@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { BookOpen, Gavel, Search, User, type LucideIcon } from "lucide-react";
+import { BookOpen, Search, ShieldCheck, User, type LucideIcon } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { useAuth } from "@/components/auth-provider";
 import { lireUrlOnglet } from "@/lib/cache-navigation";
@@ -22,21 +22,19 @@ import { lireUrlOnglet } from "@/lib/cache-navigation";
 // même semaine. Chaque écran racine réserve la place via un padding
 // responsive (`md:pl-20 lg:pl-56` / `pb-16 md:pb-0`) sur son propre conteneur.
 //
-// 4e destination conditionnelle (30/08) : « Arbitrage », visible seulement
-// pour role === "admin" (même condition stricte que le middleware sur
-// /admin/*, pas juste "connecté" — un utilisateur/contributeur connecté ne
-// peut de toute façon pas accéder à cette page).
+// 4e destination conditionnelle (30/08) : réservée à role === "admin", même
+// condition stricte que le middleware sur /admin/* et pas juste « connecté ».
+// C'était « Arbitrage » ; c'est « Admin » depuis le 12/09/2026, l'écran
+// d'arbitrage ayant disparu avec la refonte.
 //
-// Corrigé le 02/09/2026 (retour utilisateur) : /admin/arbitrage n'affichait
-// AUCUNE nav. Le choix initial — la page garde son AppHeader en
-// variant="stack", donc pas de rail — se tenait tant qu'« Arbitrage » n'était
-// pas une destination ; il en fait une un cul-de-sac depuis. La nav est donc
-// désormais montée sur les écrans d'arbitrage, onglet actif, via le prop
-// `actif` que variant="stack" accepte maintenant (cf. AppHeader). Les écrans
-// de TÂCHE (Signaler, Proposer un mot) restent sans nav : on ne « navigue »
-// pas depuis eux, on les termine ou on les ferme.
+// La leçon du 02/09/2026 reste, et vaut pour tout écran d'admin à venir : une
+// destination de la nav qui n'affiche pas la nav est un cul-de-sac — on y
+// arrive par le rail, et le rail disparaît. Un écran en variant="stack" qui
+// figure dans cette liste doit donc passer `actif` à AppHeader. Les écrans de
+// TÂCHE (Signaler, Proposer un mot) restent sans nav : on ne « navigue » pas
+// depuis eux, on les termine ou on les ferme.
 
-export type OngletRacine = "recherche" | "dictionnaire" | "compte" | "arbitrage";
+export type OngletRacine = "recherche" | "dictionnaire" | "compte" | "admin";
 
 type Onglet = { cle: OngletRacine; href: string; icone: LucideIcon; libelle: string };
 
@@ -47,14 +45,18 @@ export const ONGLETS: Onglet[] = [
 ];
 
 // Réservé aux admins — même condition que le middleware sur /admin/* (rôle
-// admin strict, pas juste "connecté") : un utilisateur ou contributeur
-// connecté qui verrait cette icône se ferait rediriger vers /dashboard en
-// cliquant dessus, ce que /admin/arbitrage impose déjà.
-const ONGLET_ARBITRAGE: Onglet = {
-  cle: "arbitrage",
-  href: "/admin/arbitrage",
-  icone: Gavel,
-  libelle: "Arbitrage",
+// admin strict, pas juste "connecté") : un membre qui verrait cette icône se
+// ferait rediriger vers /dashboard en cliquant dessus.
+//
+// C'était « Arbitrage » jusqu'au 12/09/2026, vers /admin/arbitrage. Cet écran
+// n'existe plus : la refonte n'arbitre plus, toutes les variantes coexistent.
+// La destination devient l'administration elle-même, dont les membres sont le
+// premier écran.
+const ONGLET_ADMIN: Onglet = {
+  cle: "admin",
+  href: "/admin",
+  icone: ShieldCheck,
+  libelle: "Admin",
 };
 
 // Destination d'un onglet : la dernière URL qu'on y avait, si on en a une.
@@ -76,7 +78,7 @@ function destination(onglet: Onglet, estActif: boolean): string {
 
 export function AppNavShell({ actif }: { actif: OngletRacine }) {
   const { role } = useAuth();
-  const onglets = role === "admin" ? [...ONGLETS, ONGLET_ARBITRAGE] : ONGLETS;
+  const onglets = role === "admin" ? [...ONGLETS, ONGLET_ADMIN] : ONGLETS;
 
   return (
     <>

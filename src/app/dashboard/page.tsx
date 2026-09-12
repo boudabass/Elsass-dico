@@ -1,91 +1,45 @@
 "use client";
 
 import Link from "next/link";
-import { useAuth } from "@/components/auth-provider";
+import { ArrowRight, MapPin, Shield } from "lucide-react";
+
+import { monEspaceAction, type MonEspace } from "@/app/actions/membres";
 import { AppHeader } from "@/components/app-header";
+import { useAuth } from "@/components/auth-provider";
 import { ListSkeleton } from "@/components/ui/list-skeleton";
-import { Loader2, PenLine, Shield, ArrowRight } from "lucide-react";
-import {
-    listerMesContributions,
-    chargerStatistiquesContributeur,
-    type MaContribution,
-    type StatistiquesContributeur,
-} from "@/app/actions/contributions";
-import { listerCandidats } from "@/app/actions/arbitrage";
-import { URL_FORUM_DICTIONNAIRE } from "@/lib/liens-externes";
 import { useListeMemorisee } from "@/hooks/use-liste-memorisee";
-import { useScrollMemorise } from "@/hooks/use-scroll-memorise";
 import { cleCache } from "@/lib/cache-navigation";
 
-interface DonneesEspace {
-    miennes: MaContribution[];
-    stats: StatistiquesContributeur | null;
-    candidats: number | null;
-}
-
-// Écran 6 (3 variantes) du handoff mobile : "Mon espace" remplace le
-// Dashboard + Profil du 25/08 en un seul écran, rendu conditionnel sur le
-// rôle — 6a lecteur, 6b contributeur, 6c admin (+ teaser d'arbitrage).
+// Écran 6 du handoff mobile : « Mon espace ».
 //
-// Différence assumée avec le mockup : le CTA "Devenir contributeur" (6a) n'a
-// pas d'action self-service dans ce projet (les rôles sont assignés par un
-// admin, cf. CLAUDE.md) — il pointe vers le forum plutôt qu'un flux inventé.
-// La carte "À arbitrer" (6c) montre un bouton "Promouvoir" sur une variante
-// d'une entrée déjà publiée dans le mockup ; ce geste n'existe dans aucune
-// action actuelle et sortirait du périmètre de ce chantier — remplacée par
-// un teaser (nombre de candidats + lien vers la file complète).
+// Réécrit le 12/09/2026. Les trois cases de statistiques (propositions / votes /
+// promotions) mesuraient un circuit qui n'existe plus : plus de vote, plus de
+// promotion, plus d'arbitrage. Deux chiffres les remplacent, et ils disent ce
+// qu'un membre fait réellement dans le modèle actuel — combien de formes il a
+// apportées, et à combien il a attaché son village.
+//
+// Le CTA « Devenir contributeur » disparaît lui aussi : il n'y a plus de rôle à
+// obtenir. Tout membre contribue, c'était la raison d'être de ce rôle
+// intermédiaire.
 export default function MonEspacePage() {
-    const { user, role, isLoading, signOut } = useAuth();
-    const estContributeur = role === "contributeur" || role === "admin";
-    const estAdmin = role === "admin";
+    const { session, role, deconnexion } = useAuth();
 
-    // Une seule entrée de cache pour tout l'écran : les trois appels partent
-    // déjà ensemble, les découper n'apporterait qu'une invalidation à tenir en
-    // trois morceaux. La clé porte l'identité ET le rôle — un admin charge en
-    // plus la file de candidats, un contributeur non.
-    const cle = user && estContributeur ? cleCache("dashboard", user.id, role) : null;
-    const { donnees, premierChargement } = useListeMemorisee<DonneesEspace>({
-        cle,
-        charger: async () => {
-            const miennes = await listerMesContributions();
-            const [statistiques, candidats] = await Promise.all([
-                chargerStatistiquesContributeur(miennes),
-                estAdmin ? listerCandidats() : Promise.resolve(null),
-            ]);
-            return {
-                miennes,
-                stats: statistiques,
-                candidats: candidats ? candidats.length : null,
-            };
-        },
+    const { donnees, premierChargement } = useListeMemorisee<MonEspace | null>({
+        cle: session ? cleCache("mon-espace", session.membreId) : null,
+        charger: monEspaceAction,
     });
 
-    const mesContributions = donnees?.miennes ?? [];
-    const stats = donnees?.stats ?? null;
-    const candidatsEnAttente = donnees?.candidats ?? null;
-    const chargement = premierChargement || (cle !== null && donnees === null);
-
-    useScrollMemorise(cle, donnees !== null);
-
-    const handleSignOut = async () => {
-        await signOut();
-        window.location.href = "/";
-    };
-
-    if (isLoading) {
-        return (
-            <div className="flex min-h-screen items-center justify-center">
-                <Loader2 className="h-6 w-6 animate-spin text-neutre-400" />
-            </div>
-        );
-    }
+    const espace = donnees ?? null;
+    const chargement = premierChargement || (session !== null && donnees === null);
 
     return (
         <div className="flex min-h-screen flex-col pb-16 md:pb-0 md:pl-20 lg:pl-56">
             <AppHeader variant="root" actif="compte" titre="Mon espace" />
 
             <main className="flex-1 px-4 pt-[18px] pb-8">
-                {!user ? (
+                {!session ? (
+                    // Le middleware redirige déjà un visiteur sans cookie ; ce cas
+                    // ne se voit qu'en cours de déconnexion.
                     <div className="flex flex-col items-center pt-10 text-center">
                         <p className="text-sm text-muted-foreground">
                             Connecte-toi pour accéder à ton espace.
@@ -99,99 +53,60 @@ export default function MonEspacePage() {
                     </div>
                 ) : (
                     <>
-                        <IdentiteRow email={user.email ?? ""} role={role} />
+                        <Identite
+                            nom={espace?.nom ?? session.nom}
+                            email={espace?.email ?? session.email}
+                            role={role}
+                            village={espace?.village ?? null}
+                        />
 
-                        {!estContributeur ? (
-                            <div className="mt-[22px] rounded-lg border border-border bg-card p-4">
-                                <p className="text-[15px] font-bold text-foreground">
-                                    Envie de compléter le dictionnaire ?
-                                </p>
-                                <p className="mt-1.5 mb-3.5 text-sm leading-[1.5] text-muted-foreground">
-                                    Deviens contributeur pour proposer des mots et voter sur les traductions de
-                                    la communauté.
-                                </p>
-                                <a
-                                    href={URL_FORUM_DICTIONNAIRE}
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                    className="flex h-11 w-full items-center justify-center rounded-lg bg-marque-rouge-500 text-sm font-semibold text-white transition-colors hover:bg-marque-rouge-600"
-                                >
-                                    Devenir contributeur
-                                </a>
-                            </div>
-                        ) : chargement ? (
+                        {chargement ? (
                             <div className="mt-[22px]">
                                 <ListSkeleton lignes={2} />
                             </div>
                         ) : (
-                            <>
-                                <div className="mt-[18px] grid grid-cols-3 gap-2">
-                                    <StatCase valeur={stats?.propositions ?? 0} libelle="propositions" />
-                                    <StatCase valeur={stats?.votes ?? 0} libelle="votes" />
-                                    <StatCase valeur={stats?.promotions ?? 0} libelle="promotions" />
-                                </div>
+                            <div className="mt-[18px] grid grid-cols-2 gap-2">
+                                {/* Deux comptes distincts, et pas un total : apporter
+                                    une forme et dire d'où elle vient sont deux gestes
+                                    différents. */}
+                                <StatCase valeur={espace?.nbVariantes ?? 0} libelle="formes apportées" />
+                                <StatCase valeur={espace?.nbTemoignages ?? 0} libelle="villages attachés" />
+                            </div>
+                        )}
 
-                                {estAdmin && (
-                                    <>
-                                        <p className="mb-2.5 mt-[22px] text-xs font-bold uppercase tracking-wide text-neutre-400">
-                                            À arbitrer
-                                        </p>
-                                        <Link
-                                            href="/admin/arbitrage"
-                                            className="flex items-center justify-between gap-3 rounded-lg border border-border bg-card p-3.5"
-                                        >
-                                            <span className="text-sm text-foreground">
-                                                {candidatsEnAttente === null
-                                                    ? "…"
-                                                    : candidatsEnAttente >= 50
-                                                        ? "50+ candidats en attente"
-                                                        : candidatsEnAttente === 0
-                                                            ? "Aucun candidat en attente"
-                                                            : `${candidatsEnAttente} candidat${candidatsEnAttente > 1 ? "s" : ""} en attente`}
-                                            </span>
-                                            <span className="flex items-center gap-1 text-sm font-semibold text-marque-rouge-texte">
-                                                Voir la file <ArrowRight className="h-3.5 w-3.5" />
-                                            </span>
-                                        </Link>
-                                    </>
-                                )}
-
-                                <p className="mb-2.5 mt-[22px] text-xs font-bold uppercase tracking-wide text-neutre-400">
-                                    Mes dernières contributions
+                        {!chargement && !espace?.village && (
+                            <div className="mt-[18px] rounded-lg border border-border bg-card p-4">
+                                <p className="text-[15px] font-bold text-foreground">
+                                    D&apos;où vient ton alsacien ?
                                 </p>
-                                {mesContributions.length === 0 ? (
-                                    <p className="text-sm text-muted-foreground">
-                                        Aucune proposition pour l&apos;instant.
-                                    </p>
-                                ) : (
-                                    <div className="flex flex-col gap-2">
-                                        {mesContributions.slice(0, 2).map((c) => (
-                                            <div
-                                                key={c.id}
-                                                className="flex items-center justify-between gap-3 border-b border-border py-2.5 last:border-b-0"
-                                            >
-                                                <span className="truncate text-[15px] font-semibold text-foreground">
-                                                    {c.francais} → {c.alsacien}
-                                                </span>
-                                                <span
-                                                    className={
-                                                        c.retenue
-                                                            ? "shrink-0 rounded-full bg-succes-100 px-2.5 py-0.5 text-xs font-semibold text-succes-500"
-                                                            : "shrink-0 rounded-full bg-attention-100 px-2.5 py-0.5 text-xs font-semibold text-attention-500"
-                                                    }
-                                                >
-                                                    {c.retenue ? "Validée" : "En attente"}
-                                                </span>
-                                            </div>
-                                        ))}
-                                    </div>
-                                )}
+                                <p className="mt-1.5 text-sm leading-[1.5] text-muted-foreground">
+                                    Choisir ton village permettra de rattacher les formes
+                                    que tu reconnais. Le choix se fera dans une liste —
+                                    rien n&apos;est déduit de ta position.
+                                </p>
+                            </div>
+                        )}
+
+                        {role === "admin" && (
+                            <>
+                                <p className="mb-2.5 mt-[22px] text-xs font-bold uppercase tracking-wide text-neutre-400">
+                                    Administration
+                                </p>
+                                <Link
+                                    href="/admin"
+                                    className="flex items-center justify-between gap-3 rounded-lg border border-border bg-card p-3.5"
+                                >
+                                    <span className="text-sm text-foreground">Membres</span>
+                                    <span className="flex items-center gap-1 text-sm font-semibold text-marque-rouge-texte">
+                                        Ouvrir <ArrowRight className="h-3.5 w-3.5" />
+                                    </span>
+                                </Link>
                             </>
                         )}
 
                         <button
                             type="button"
-                            onClick={handleSignOut}
+                            onClick={deconnexion}
                             className="mt-6 h-11 w-full text-sm font-semibold text-marque-rouge-texte"
                         >
                             Se déconnecter
@@ -203,16 +118,34 @@ export default function MonEspacePage() {
     );
 }
 
-function IdentiteRow({ email, role }: { email: string; role: string | null }) {
-    const initiales = email.substring(0, 2).toUpperCase();
+function Identite({
+    nom,
+    email,
+    role,
+    village,
+}: {
+    nom: string | null;
+    email: string;
+    role: string | null;
+    village: string | null;
+}) {
+    const initiales = (nom ?? email).substring(0, 2).toUpperCase();
     return (
         <div className="flex items-center gap-3">
             <div className="flex h-[52px] w-[52px] shrink-0 items-center justify-center rounded-full bg-foreground text-[17px] font-bold text-background">
                 {initiales}
             </div>
             <div className="min-w-0">
-                <p className="truncate text-[17px] font-bold text-foreground">{email}</p>
-                <RolePill role={role} />
+                <p className="truncate text-[17px] font-bold text-foreground">{nom ?? email}</p>
+                <div className="flex flex-wrap items-center gap-1.5">
+                    <RolePill role={role} />
+                    {village && (
+                        <span className="inline-flex items-center gap-1 text-xs text-neutre-400">
+                            <MapPin className="h-3 w-3" strokeWidth={2.4} />
+                            {village}
+                        </span>
+                    )}
+                </div>
             </div>
         </div>
     );
@@ -226,16 +159,9 @@ function RolePill({ role }: { role: string | null }) {
             </span>
         );
     }
-    if (role === "contributeur") {
-        return (
-            <span className="mt-0.5 inline-flex items-center gap-1 rounded-full bg-marque-or-50 px-2.5 py-0.5 text-xs font-semibold text-marque-or-700">
-                <PenLine className="h-2.5 w-2.5" strokeWidth={3} /> Contributeur
-            </span>
-        );
-    }
     return (
         <span className="mt-0.5 inline-flex items-center rounded-full bg-neutre-100 px-2.5 py-0.5 text-xs font-semibold text-neutre-600">
-            Lecteur
+            Membre
         </span>
     );
 }

@@ -8,11 +8,15 @@ const nextConfig: NextConfig = {
   output: "standalone",
   // Durée pendant laquelle un retour arrière réutilise la charge RSC déjà
   // reçue au lieu de la redemander. La valeur par défaut de Next 15 est 0
-  // pour les routes dynamiques : /entree/[id] lit des cookies (client
-  // Supabase), donc chaque retour vers une fiche déjà vue refaisait la
-  // requête — et passait par middleware.ts, qui ajoute un getUser() plus un
-  // select sur profiles. C'est le SEUL levier pour ces deux pages : ce sont
-  // des Server Components, aucun cache client ne peut les couvrir.
+  // pour les routes dynamiques : /entree/[id] lit des cookies (la session),
+  // donc chaque retour vers une fiche déjà vue refaisait la requête. C'est le
+  // SEUL levier pour ces pages : ce sont des Server Components, aucun cache
+  // client ne peut les couvrir.
+  //
+  // L'économie était plus grosse encore avant le 12/09/2026, quand chaque
+  // requête traversait un middleware qui appelait `supabase.auth.getUser()` par
+  // le réseau plus un select sur `profiles`. Le middleware ne fait plus aucun
+  // I/O ; ce réglage garde sa raison d'être, une de moins.
   // `static` reste au défaut (300 s), il n'y avait rien à y gagner.
   // Contrepartie : une entrée modifiée peut mettre jusqu'à 30 s à se
   // rafraîchir sur un retour. Acceptable pour un dictionnaire, où les entrées

@@ -30,25 +30,58 @@ export DATABASE_URL="postgresql://postgres:…@localhost:55432/elsass_dico"
 
 pnpm exec prisma migrate deploy          # le schéma
 pnpm exec tsx scripts/seed-communes.mts  # 1 605 communes
-pnpm exec tsx scripts/importer-archive.mts   # Supabase -> archive (27 179)
-pnpm exec tsx scripts/deriver.mts            # -> Lemme / Variante / Temoignage
-pnpm exec tsx scripts/verifier-derivation.mts   # contrôles relus EN BASE
+
+# Les 390 coquilles connues : elles ne vivent dans aucun JSONL, on les
+# régénère en rejouant le parseur du studio sur les pages archivées.
+python scripts/mesures/anomalies_culture_alsace.py --sortie /tmp/anomalies.json
+
+pnpm exec tsx scripts/importer-data.mts --anomalies /tmp/anomalies.json
+pnpm exec tsx scripts/deriver.mts             # -> Lemme / Variante / Temoignage
+pnpm exec tsx scripts/verifier-derivation.mts # contrôles relus EN BASE
 ```
 
-Les quatre scripts sont **idempotents** et **n'effacent jamais rien**. Le
-dernier sort un code 1 si un contrôle échoue.
+Les scripts sont **idempotents** et **n'effacent jamais rien**. Le dernier sort
+un code 1 si un contrôle échoue.
+
+### La source de vérité est le dépôt, plus la base (décision du 12/09/2026)
+
+`importer-data.mts` lit les **JSONL des parseurs versionnés** sur la branche
+`data`, et non plus Supabase. Motif : la base portait quatre mois de purges, de
+réingestions et de colonnes ajoutées au fil de l'arbitrage ; le dépôt porte ce
+que les parseurs ont extrait des sources, et le contrat `data/README.md` exige
+qu'un rejeu produise un `git diff` vide.
+
+Une seule altération décisionnelle s'était glissée dans les JSONL — 349
+contextes de `wiktionnaire_fr` recopiés de `culture_alsace` pour que l'ancienne
+file d'arbitrage fasse se rencontrer les candidats. **Annulée par la PR #44.**
+
+Trois choses vivaient en base et pas dans les JSONL ; elles sont reconstruites
+par du code, jamais réinventées :
+
+| | où | contrôle |
+|---|---|---|
+| décomposition de l'article | `scripts/lib/article.mts` | 8 886 — le chiffre exact de la migration SQL du 03/09 |
+| 390 coquilles connues | `scripts/mesures/anomalies_culture_alsace.py` | 390, même répartition 323/37/30 |
+| fiches de sources écartées | `importer-data.mts` | `elsadico`, `freelang_alsacien`, `runneburger_benfeld` non créées |
 
 ### Ce que la dérivation produit, mesuré le 12/09/2026
 
 | | |
 |---|---:|
-| lemmes | 25 893 |
-| variantes | 41 662 |
+| attestations | 27 179 — *le total exact de Supabase* |
+| lemmes | 25 864 |
+| variantes | 41 646 |
 | témoignages | 42 135 |
-| toponymes rattachés à une commune | 862 |
-| communes ayant au moins une forme attestée | 819 / 1 605 |
+| communes ayant une fiche | 819 / 1 605 |
 | témoignages portant une aire déclarée | 17 392 |
 | témoignages sans aucun lieu | 24 743 |
+
+**Un toponyme EST une commune** : le lemme est indexé par sa commune, plus par
+(français, contexte). `Roeschwoog` de `culture_alsace` et `Rœschwoog` du
+wiktionnaire portent donc leurs deux formes sur la même fiche de village —
+c'est ce qui rend la recontextualisation définitivement inutile, le département
+venant du référentiel INSEE et non du contexte d'une source recopié sur une
+autre.
 
 Ces 24 743 sont la dette de données qui devient le moteur de contribution :
 « personne n'a encore dit d'où ça vient ».
@@ -71,11 +104,17 @@ communes homonymes. Le doute se signale, il ne se comble pas.
 
 1. **Un dump SQL complet de Supabase**, avant tout (doc 20). Les 338 entrées
    arbitrées sont perdues volontairement, mais volontairement ≠ sans filet.
-2. **Faire tourner la chaîne contre le Postgres de Coolify.** Son `DATABASE_URL`
-   est une URL **interne** au réseau Docker du VPS : elle n'est pas joignable
-   depuis un poste. Les migrations s'appliqueront donc au démarrage du conteneur
-   (`docker-entrypoint.sh`), et les trois scripts de chargement demandent soit un
-   accès temporaire depuis l'extérieur, soit une exécution depuis le serveur.
+   *Moins critique depuis le 12/09* : la base se reconstruit désormais du dépôt,
+   donc le dump ne protège plus que ce qui n'était QU'en base — les entrées
+   arbitrées, les comptes et les votes.
+2. **Charger la chaîne dans le Postgres de Coolify**
+   (`l11x6p591gah952rrbbgl24o`, postgres:18-alpine). Il est exposé
+   publiquement sur le **port 5444** depuis le 12/09 — attention,
+   `public_port_timeout` vaut 3 600 s, l'ouverture se referme d'elle-même.
+   **Refermer l'accès public une fois le chargement fait** : l'utilisateur est
+   `postgres` et la base est sur l'Internet ouvert le temps de l'opération.
+   Les migrations, elles, s'appliquent au démarrage du conteneur
+   (`docker-entrypoint.sh`) et n'ont pas besoin de cet accès.
 3. Les étapes 2 à 5 du doc 20 (auth sans Supabase, écrans, carte, contribution).
 
 ## Reprendre

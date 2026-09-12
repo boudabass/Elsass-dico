@@ -106,7 +106,19 @@ function formesDe(a: {
 try {
     titre("Lecture de l'archive")
     const [attestations, communes, sources] = await Promise.all([
-        prisma.attestation.findMany({ orderBy: { id: "asc" } }),
+        // Ordre STABLE, et surtout pas `id` : les UUID sont tirés au hasard à
+        // l'import, donc l'ordre changerait d'un chargement à l'autre. Quand
+        // deux attestations produisent la même forme, celle qui la crée doit
+        // être toujours la même — sinon « rejouable = même résultat » ne tient
+        // que tant qu'on ne recharge pas l'archive. Constaté pour de bon le
+        // 12/09/2026 : 8 882 variantes à article en local, 8 881 en production,
+        // mêmes données et même code.
+        prisma.attestation.findMany({
+            orderBy: [
+                { source: { code: "asc" } }, { francais: "asc" },
+                { alsacien: "asc" }, { contexte: "asc" },
+            ],
+        }),
         prisma.commune.findMany(),
         prisma.source.findMany(),
     ])
@@ -255,7 +267,14 @@ try {
             const cleForme = cleDeForme(f.forme)
             if (!cleForme) continue
             const cleVariante = `${cleLemme}${SEP}${cleForme}`
-            if (!variantes.has(cleVariante)) variantes.set(cleVariante, { cleLemme, ...f })
+            // Deux attestations peuvent écrire la même forme — une de
+            // `culture_alsace` dont l'article est décomposé, une d'une autre
+            // source où il ne l'est pas. On garde celle qui porte l'article :
+            // c'est une information en plus, et la retenir ne dépend alors plus
+            // de l'ordre de lecture.
+            const dejaLa = variantes.get(cleVariante)
+            if (!dejaLa) variantes.set(cleVariante, { cleLemme, ...f })
+            else if (!dejaLa.article && f.article) variantes.set(cleVariante, { cleLemme, ...f })
 
             const cleTemoignage = `${cleVariante}${SEP}${a.id}`
             if (temoignages.has(cleTemoignage)) { repetitionsInternes++; continue }
@@ -362,9 +381,27 @@ try {
     }))
 
     const variantesEnBase = await prisma.variante.findMany({
-        select: { id: true, lemmeId: true, cleForme: true },
+        select: { id: true, lemmeId: true, cleForme: true, article: true, creeParId: true },
     })
     const idVariante = new Map(variantesEnBase.map((v) => [`${v.lemmeId}${SEP}${v.cleForme}`, v.id]))
+
+    // Une variante écrite lors d'un passage antérieur peut avoir été créée
+    // depuis une attestation dont l'article n'était pas décomposé. On complète,
+    // jamais on n'écrase : une variante contribuée par un membre n'est pas
+    // touchée, et un article déjà posé reste tel quel.
+    let articlesCompletes = 0
+    for (const v of lignesVariantes) {
+        if (!v.article) continue
+        const enBase = variantesEnBase.find((x) =>
+            x.lemmeId === v.lemmeId && x.cleForme === v.cleForme)
+        if (!enBase || enBase.article || enBase.creeParId) continue
+        await prisma.variante.update({
+            where: { id: enBase.id },
+            data: { article: v.article, formeSansArticle: v.formeSansArticle },
+        })
+        articlesCompletes++
+    }
+    if (articlesCompletes) console.log(`  ${articlesCompletes} variantes complétées (article)`)
 
     const lignesTemoignages = [...temoignages.values()].map((t) => {
         const v = variantes.get(t.cleVariante)!

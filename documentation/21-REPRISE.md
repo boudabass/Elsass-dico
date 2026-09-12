@@ -11,12 +11,72 @@
 | Vision et décisions | ✅ tranchées — `20-REFONTE-CARTE-DES-PARLERS.md` |
 | Référentiel des communes | ✅ fait — `data/communes/` |
 | Schéma Prisma | ✅ fait le 12/09 — `prisma/schema.prisma`, migration `20260912120000_init` |
-| Script de dérivation | ⬜ à écrire — demande un accès aux 27 179 attestations |
+| Script de dérivation | ✅ fait le 12/09 — `scripts/deriver.mts`, rejoué deux fois |
 | Mesure du marqueur a~e | ✅ faite le 12/09, **résultat positif** — `22-MESURE-MARQUEUR-AE.md` |
+| Bascule vers la base de production | ⬜ reste à faire — cf. ci-dessous |
 | Le reste (auth, écrans, carte, contribution) | ⬜ étapes 2 à 5 |
 
-Rien n'a été supprimé, rien n'a été migré, la prod n'a pas bougé. La refonte
-n'existe pour l'instant que sur le papier, plus un référentiel de communes.
+Rien n'a été supprimé, rien n'a été migré, **la prod n'a pas bougé** : tout ce
+qui précède a été exécuté contre un Postgres 18 local, jamais contre la base
+Coolify. Supabase est intact et reste la base vivante de l'app actuelle.
+
+## La chaîne, dans l'ordre
+
+```bash
+# 1. Une base de test locale (Docker), si l'on veut refaire le parcours
+docker run -d --name elsass-pg -e POSTGRES_PASSWORD=… \
+    -e POSTGRES_DB=elsass_dico -p 55432:5432 postgres:18
+export DATABASE_URL="postgresql://postgres:…@localhost:55432/elsass_dico"
+
+pnpm exec prisma migrate deploy          # le schéma
+pnpm exec tsx scripts/seed-communes.mts  # 1 605 communes
+pnpm exec tsx scripts/importer-archive.mts   # Supabase -> archive (27 179)
+pnpm exec tsx scripts/deriver.mts            # -> Lemme / Variante / Temoignage
+pnpm exec tsx scripts/verifier-derivation.mts   # contrôles relus EN BASE
+```
+
+Les quatre scripts sont **idempotents** et **n'effacent jamais rien**. Le
+dernier sort un code 1 si un contrôle échoue.
+
+### Ce que la dérivation produit, mesuré le 12/09/2026
+
+| | |
+|---|---:|
+| lemmes | 25 893 |
+| variantes | 41 662 |
+| témoignages | 42 135 |
+| toponymes rattachés à une commune | 862 |
+| communes ayant au moins une forme attestée | 819 / 1 605 |
+| témoignages portant une aire déclarée | 17 392 |
+| témoignages sans aucun lieu | 24 743 |
+
+Ces 24 743 sont la dette de données qui devient le moteur de contribution :
+« personne n'a encore dit d'où ça vient ».
+
+### Ce qu'elle ne rattache pas, et pourquoi
+
+**249 toponymes ne joignent aucune commune** : ce sont des communes fusionnées
+depuis la publication de la source (`Auenheim` → Rountzenheim-Auenheim,
+`Allenwiller` → Sommerau, `Altenbach` → Goldbach-Altenbach). Le référentiel
+INSEE ne connaît que les communes actuelles. Piste, non faite : les communes
+déléguées existent dans `@etalab/decoupage-administratif` et pourraient entrer
+au référentiel — mais leur donner un point sur la carte suppose de décider ce
+qu'on affiche pour un village qui n'est plus une commune.
+
+**2 restent ambigus** (`Bouxwiller`, `Buhl` avec le contexte
+« Alsace ; Géographie ») : sans département, rien ne tranche entre les deux
+communes homonymes. Le doute se signale, il ne se comble pas.
+
+## Ce qui reste avant la bascule
+
+1. **Un dump SQL complet de Supabase**, avant tout (doc 20). Les 338 entrées
+   arbitrées sont perdues volontairement, mais volontairement ≠ sans filet.
+2. **Faire tourner la chaîne contre le Postgres de Coolify.** Son `DATABASE_URL`
+   est une URL **interne** au réseau Docker du VPS : elle n'est pas joignable
+   depuis un poste. Les migrations s'appliqueront donc au démarrage du conteneur
+   (`docker-entrypoint.sh`), et les trois scripts de chargement demandent soit un
+   accès temporaire depuis l'extérieur, soit une exécution depuis le serveur.
+3. Les étapes 2 à 5 du doc 20 (auth sans Supabase, écrans, carte, contribution).
 
 ## Reprendre
 

@@ -127,8 +127,14 @@ model Lemme {
   type     TypeTerme
 
   // Un toponyme EST une commune : la fiche du mot et la page du village sont
-  // deux vues de la même chose.
-  communeId Int?     @map("commune_id")
+  // deux vues de la même chose. D'où l'unicité — une commune a UNE fiche, et
+  // toutes les formes attestées de son nom s'y retrouvent, quelle que soit la
+  // source qui les écrit et quel que soit le `contexte` qu'elle emploie.
+  //
+  // C'est ce qui rend inutile la recontextualisation du 24/08/2026, annulée
+  // par la PR #44 : le département n'a plus à transiter par le `contexte`
+  // d'une source recopié sur une autre, il vient du référentiel INSEE.
+  communeId Int?     @unique @map("commune_id")
   commune   Commune? @relation(fields: [communeId], references: [id])
 
   // AJOUT — les pages publiques `/prenom/[slug]` sont générées statiquement.

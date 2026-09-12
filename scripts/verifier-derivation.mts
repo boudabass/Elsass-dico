@@ -132,6 +132,27 @@ try {
     controle("aucune ponctuation finale publiée", Number(ponctuation[0].n) === 0,
         `${ponctuation[0].n} forme(s) concernée(s)`)
 
+    // 6. Une commune, une fiche — et les formes des différentes sources s'y
+    //    retrouvent, quel que soit le `contexte` que chacune emploie. C'est ce
+    //    qui remplace la recontextualisation annulée par la PR #44.
+    const communesDoublees = await prisma.$queryRaw<{ n: bigint }[]>`
+        SELECT count(*) AS n FROM (
+            SELECT commune_id FROM lemmes WHERE commune_id IS NOT NULL
+            GROUP BY commune_id HAVING count(*) > 1
+        ) t`
+    controle("une commune, un lemme", Number(communesDoublees[0].n) === 0,
+        `${communesDoublees[0].n} commune(s) portant plusieurs lemmes`)
+
+    const regroupes = await prisma.lemme.findMany({
+        where: { commune: { nom: { in: ["Rœschwoog", "Epfig", "Sélestat"] } } },
+        select: { francais: true, commune: { select: { nom: true, departement: true } },
+                  variantes: { select: { forme: true } } },
+    })
+    for (const l of regroupes) {
+        console.log(`        ${l.commune?.nom} (${l.commune?.departement}) `
+            + `← « ${l.francais} » : ${l.variantes.map((v) => v.forme).join(", ")}`)
+    }
+
     titre("Ce que la carte pourra montrer")
     const lemmesLocalises = await prisma.lemme.count({ where: { NOT: { communeId: null } } })
     const avecAire = await prisma.temoignage.count({ where: { NOT: { aireDeclaree: null } } })

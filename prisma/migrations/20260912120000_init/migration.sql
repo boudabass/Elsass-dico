@@ -150,6 +150,9 @@ CREATE INDEX "communes_departement_idx" ON "communes"("departement");
 CREATE INDEX "communes_nom_idx" ON "communes"("nom");
 
 -- CreateIndex
+CREATE UNIQUE INDEX "lemmes_commune_id_key" ON "lemmes"("commune_id");
+
+-- CreateIndex
 CREATE UNIQUE INDEX "lemmes_slug_key" ON "lemmes"("slug");
 
 -- CreateIndex

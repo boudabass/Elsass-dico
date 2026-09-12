@@ -167,10 +167,63 @@ try {
         parTypographie: [] as string[],
     }
 
+    /** La commune que désigne un toponyme, ou null si rien ne permet de la
+     *  désigner sans deviner. Mémoïsée : appelée une fois par attestation. */
+    const communeConnue = new Map<string, number | null>()
+    function communeDe(francais: string, contexte: string): number | null {
+        const memo = `${francais}${SEP}${contexte}`
+        if (communeConnue.has(memo)) return communeConnue.get(memo)!
+
+        const departement = DEPARTEMENT_DU_CONTEXTE[contexte]
+        const filtrer = (liste: typeof communes | undefined) =>
+            (liste ?? []).filter((c) => !departement || c.departement === departement)
+        const nom = francais.trim().replace(/[.;,\s]+$/, "")
+
+        let resultat: number | null = null
+        const exacts = filtrer(parNomExact.get(nom))
+        if (exacts.length === 1) {
+            resultat = exacts[0].id
+            rapport.toponymes.exact++
+        } else if (exacts.length > 1) {
+            rapport.toponymes.ambigu++
+            rapport.ambigus.push(`${nom} [${contexte}]`)
+        } else {
+            // Seconde passe : égalité stricte après normalisation typographique
+            // du nom FRANÇAIS (ligature, diacritique, tiret). Ce n'est pas un
+            // rapprochement approché — et elle exige un candidat unique.
+            const proches = filtrer(parNomNormalise.get(nomNormalise(nom)))
+            if (proches.length === 1) {
+                resultat = proches[0].id
+                rapport.toponymes.typographie++
+                if (rapport.parTypographie.length < 100) {
+                    rapport.parTypographie.push(`${nom} → ${proches[0].nom}`)
+                }
+            } else if (proches.length > 1) {
+                rapport.toponymes.ambigu++
+                rapport.ambigus.push(`${nom} [${contexte}]`)
+            } else {
+                rapport.toponymes.sansCommune++
+                rapport.sansCommune.set(nom, contexte)
+            }
+        }
+        communeConnue.set(memo, resultat)
+        return resultat
+    }
+
     for (const a of attestations) {
         const cle = cleFrancais(a.francais)
         if (!cle) { rapport.sansForme++; continue }
-        const cleLemme = `${cle}${SEP}${a.contexte}${SEP}${a.type}`
+
+        // Un toponyme rattaché à une commune est indexé PAR CETTE COMMUNE, et
+        // non par (français, contexte) : `Roeschwoog` de culture_alsace et
+        // `Rœschwoog` du wiktionnaire désignent le même village et doivent
+        // porter leurs deux formes sur la même fiche. C'est aussi ce qui rend
+        // la recontextualisation du 24/08 inutile — les sources n'ont plus
+        // besoin d'écrire le même `contexte` pour se rencontrer.
+        const communeId = a.type === "toponyme" ? communeDe(a.francais, a.contexte) : null
+        const cleLemme = communeId !== null
+            ? `commune${SEP}${communeId}`
+            : `${cle}${SEP}${a.contexte}${SEP}${a.type}`
 
         const connu = lemmes.get(cleLemme)
         if (!connu) {
@@ -182,7 +235,7 @@ try {
                 // finale : c'est celui qu'un visiteur tape. Il reste toujours
                 // écrit tel quel par une source — rien n'est fabriqué.
                 francais: a.francais.trim().replace(/[.;,\s]+$/, "") || a.francais.trim(),
-                communeId: null,
+                communeId,
                 slug: null,
             })
         }
@@ -225,45 +278,9 @@ try {
         return "bas_alemanique_sud"
     }
 
-    // --- Toponymes : rattachement aux communes ------------------------------
-    for (const lemme of lemmes.values()) {
-        if (lemme.type !== "toponyme") continue
-        const departement = DEPARTEMENT_DU_CONTEXTE[lemme.contexte]
-        const filtrer = (liste: typeof communes | undefined) =>
-            (liste ?? []).filter((c) => !departement || c.departement === departement)
-
-        const exacts = filtrer(parNomExact.get(lemme.francais))
-        if (exacts.length === 1) {
-            lemme.communeId = exacts[0].id
-            rapport.toponymes.exact++
-            continue
-        }
-        if (exacts.length > 1) {
-            rapport.toponymes.ambigu++
-            rapport.ambigus.push(`${lemme.francais} [${lemme.contexte}]`)
-            continue
-        }
-
-        // Seconde passe : égalité stricte après normalisation typographique du
-        // nom FRANÇAIS (ligature, diacritique, tiret). Ce n'est pas un
-        // rapprochement approché — et elle exige un candidat unique.
-        const proches = filtrer(parNomNormalise.get(nomNormalise(lemme.francais)))
-        if (proches.length === 1) {
-            lemme.communeId = proches[0].id
-            rapport.toponymes.typographie++
-            if (rapport.parTypographie.length < 100) {
-                rapport.parTypographie.push(`${lemme.francais} → ${proches[0].nom}`)
-            }
-            continue
-        }
-        if (proches.length > 1) {
-            rapport.toponymes.ambigu++
-            rapport.ambigus.push(`${lemme.francais} [${lemme.contexte}]`)
-            continue
-        }
-        rapport.toponymes.sansCommune++
-        rapport.sansCommune.set(lemme.francais, lemme.contexte)
-    }
+    // Le rattachement aux communes s'est fait pendant la boucle ci-dessus :
+    // il détermine la CLÉ du lemme, il ne peut donc pas être une passe
+    // séparée. `communeDe()` porte la règle et tient les compteurs.
 
     // --- Slugs des prénoms (pages publiques générées statiquement) ----------
     const slugsPris = new Set<string>()
@@ -304,26 +321,28 @@ try {
     const lemmesEnBase = await prisma.lemme.findMany({
         select: { id: true, cle: true, contexte: true, type: true, communeId: true, slug: true },
     })
-    const idLemme = new Map(lemmesEnBase.map((l) =>
-        [`${l.cle}${SEP}${l.contexte}${SEP}${l.type}`, l.id]))
+    // La clé de relecture doit être CELLE DE LA DÉRIVATION, sinon un rejeu
+    // rattacherait les variantes au mauvais lemme : un toponyme rattaché est
+    // indexé par sa commune, les autres par (cle, contexte, type).
+    const cleEnBase = (l: { cle: string; contexte: string; type: string; communeId: number | null }) =>
+        l.communeId !== null
+            ? `commune${SEP}${l.communeId}`
+            : `${l.cle}${SEP}${l.contexte}${SEP}${l.type}`
+    const idLemme = new Map(lemmesEnBase.map((l) => [cleEnBase(l), l.id]))
+    const parCle = new Map(lemmesEnBase.map((l) => [cleEnBase(l), l]))
 
-    // Un lemme déjà présent d'un passage antérieur peut s'être vu rattacher une
-    // commune ou un slug depuis. On complète, on n'écrase jamais une valeur
-    // déjà posée.
+    // Un lemme déjà présent d'un passage antérieur peut s'être vu attribuer un
+    // slug depuis. On complète, on n'écrase jamais une valeur déjà posée.
     let complements = 0
     for (const l of lignesLemmes) {
-        const enBase = lemmesEnBase.find((x) =>
-            x.cle === l.cle && x.contexte === l.contexte && x.type === l.type)
+        const enBase = parCle.get(l.cleLemme)
         if (!enBase) continue
-        const patch: { communeId?: number; slug?: string } = {}
-        if (l.communeId && !enBase.communeId) patch.communeId = l.communeId
-        if (l.slug && !enBase.slug) patch.slug = l.slug
-        if (Object.keys(patch).length) {
-            await prisma.lemme.update({ where: { id: enBase.id }, data: patch })
+        if (l.slug && !enBase.slug) {
+            await prisma.lemme.update({ where: { id: enBase.id }, data: { slug: l.slug } })
             complements++
         }
     }
-    if (complements) console.log(`  ${complements} lemmes complétés (commune ou slug)`)
+    if (complements) console.log(`  ${complements} lemmes complétés (slug)`)
 
     const lignesVariantes = [...variantes.entries()].map(([cleVariante, v]) => ({
         cleVariante,
@@ -383,7 +402,11 @@ try {
     })
 
     titre("Rattachements")
-    console.log(`  toponymes rattachés à une commune : ${avecCommune}`)
+    console.log(`  toponymes rattachés à une commune : ${avecCommune} lemmes`)
+    // Les compteurs ci-dessous portent sur des couples (nom, contexte), pas sur
+    // des lemmes : plusieurs couples désignent la même commune et n'y font
+    // qu'une fiche. Leur somme dépasse donc le nombre de lemmes, et c'est
+    // normal — un total qui ne s'additionne pas doit dire pourquoi.
     console.log(`    par nom exact        ${rapport.toponymes.exact}`)
     console.log(`    par typographie      ${rapport.toponymes.typographie}`
         + `  (ligature, diacritique ou tiret ; candidat unique exigé)`)

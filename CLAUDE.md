@@ -1760,10 +1760,88 @@ deux lignes d'une même source ne valent qu'un témoignage (règle 2).
 `idiot` rend ses trois formes, le bandeau s'affiche correctement sur un candidat
 non publié, et le libellé corrigé est servi après redéploiement.
 
+## Refonte : la carte des parlers (décision de John, 11/09/2026)
+
+**Le projet change de doctrine. La cible complète est dans
+`documentation/20-REFONTE-CARTE-DES-PARLERS.md`, l'état d'avancement et la reprise
+dans `documentation/21-REPRISE.md`.** Tout ce qui précède dans ce fichier reste
+vrai comme histoire, mais la section « Doctrine éditoriale » et la règle 2 sont
+remplacées par ce qui suit.
+
+**Le constat qui l'a provoquée** : 27 179 attestations, cinq campagnes, quatre mois
+d'arbitrage — et **338 entrées publiées, dont 331 toponymes**. Un annuaire de
+communes, pas un traducteur. Le goulot n'était pas la donnée, c'était d'exiger
+qu'on désigne *une* forme juste dans une langue qui n'en a pas. `Riaschpa` contre
+`Rieschbi`, appelé « divergence à trancher » pendant des semaines : ce sont deux
+villages, et c'est l'information la plus intéressante de la base.
+
+- **Plus de forme canonique.** Toutes les variantes coexistent, portées par leurs
+  sources écrites et par les **villages** qui les revendiquent. La carte devient
+  l'écran central. « Premier est Roi » et l'index 0 disparaissent.
+- **Un vote = un village.** Le bouton `+` sur une variante y attache le village du
+  membre. Jamais de vote contre. Le village se **choisit dans une liste**, ne se
+  détecte jamais — et le mot « géolocalisation » ne paraît nulle part dans l'UI.
+- **La règle 2 (recoupement obligatoire) disparaît**, remplacée par l'affichage du
+  nombre de sources **et** de villages. Les règles 1 (rien d'inventé), 3 (sources
+  déclarées) et 4 (validation humaine, devenue modération) survivent — et la
+  règle 1 devient plus facile à tenir : on n'arbitre plus, donc on ne réécrit plus.
+- **Modèle** : `Commune` / `Lemme` / `Variante` / `Temoignage`. `attestations`
+  survit **intacte, en archive lecture seule** ; un script rejouable en dérive les
+  variantes. Différence essentielle avec `attestations → entrees` : la dérivation
+  est automatique et exhaustive, sans décision humaine par mot.
+- **Supprimé** : `entrees`, `entree_attestations`, `attestation_votes`,
+  `propositions_orthal`, `automates`, les 25 RPC, `/admin/arbitrage`,
+  `/contributions`, et tout `@supabase/*`.
+- **Stack** : Postgres + Prisma, Supabase sort (~8 conteneurs pour PostgREST, un
+  peu de RLS et un Studio, sur un VPS qui sature). `prisma migrate deploy` au
+  démarrage du conteneur tue la classe de bugs « migration oubliée dans le SQL
+  Editor » qui a frappé trois fois.
+- **Accès** : compte obligatoire, création renvoyée vers le portail Odoo. Deux
+  rôles, membre et admin — tout membre contribue. Public : une home de présentation
+  plus **une page par village et par prénom**, générées statiquement.
+- **Référentiel** : 67 + 68 + **tout le 57**, 1 605 communes, déjà produit dans
+  `data/communes/`. `aireLinguistique` reste **nulle pour la Moselle** — aucune
+  liste officielle des communes germanophones du 57 n'existe, et tracer cette
+  limite nous-mêmes fabriquerait une donnée que personne n'a établie.
+- **ORTHAL devient secondaire** comme arbitre, mais `documentation/orthal/` reste :
+  sans elle on lit `Barr`/`Bàrr` comme deux graphies d'un même son, alors que
+  l'accent note un /a/ sombre. C'est la clé de lecture de la carte.
+- **Livraison** : socle technique d'abord, tout sur `dev`, puis une PR qui remplace
+  `main`. Le gameplay est reporté.
+
+**Les articles Odoo 882, 883 et 884 sont périmés** par cette décision et restent à
+réécrire. En attendant, le document 20 fait foi sur la cible — exception assumée à
+la règle « ce dossier ne fait autorité sur rien », expliquée dans
+`documentation/README.md`.
+
+### Claude Code sur le web ne peut pas travailler sur les données (12/09/2026)
+
+Une session distante reçoit un **clone frais du dépôt, et rien d'autre**.
+`.env*` étant gitignoré, le `.env.local` n'y arrive jamais : pas d'accès Supabase,
+pas de mesure en base, pas d'ingestion. Le réseau sortant est bridé — npm, PyPI et
+GitHub passent, les API publiques non (`geo.api.gouv.fr` répond 403). Le disque
+local est invisible.
+
+**Ne jamais commiter `.env.local` pour contourner ça** : il porte la clé
+`service_role`, qui court-circuite toute la RLS en lecture et en écriture, et
+l'historique git la garderait de façon permanente. Si une session distante a besoin
+de la base, la voie est les variables d'environnement de l'environnement, jamais le
+dépôt.
+
+Donc : **tout ce qui touche à la base, aux données ou au réseau se fait en local.**
+Une session distante reste utile pour ce qui ne dépend que du dépôt — lecture de
+code, conception, documentation, et des données récupérables par npm ou git. C'est
+ainsi que le référentiel des 1 605 communes a été produit : paquet
+`@etalab/decoupage-administratif` pour l'identité INSEE, contours IGN clonés depuis
+GitHub pour calculer les centroïdes.
+
 ## Règles de travail
 
 - Ne jamais inventer de traduction alsacienne, même pour un exemple ou un test.
-- Ne jamais publier une entrée sans afficher son niveau de confiance réel
-  (cf. modèle à trois niveaux du 02/09/2026). Publier peu recoupé est permis,
-  le faire passer pour recoupé ne l'est pas.
+- Ne jamais afficher une forme sans dire ce qui la fonde — combien de sources
+  écrites, combien de villages. Peu attesté est publiable ; le faire passer pour
+  bien attesté ne l'est pas. **Ne jamais additionner des sources et des villages
+  dans un même chiffre** : c'est la confusion qui a produit le bug de la PR #41.
 - Toujours demander avant de supprimer des données existantes.
+- Mesurer avant d'écrire. Deux chantiers ont été annulés par la mesure préalable
+  (04/09, 09/09) : c'est un succès de la méthode, pas du temps perdu.

@@ -1,5 +1,14 @@
 # Feuille de route — renvoi
 
+> **Périmé depuis le 11/09/2026.** Les cinq jalons ci-dessous supposaient tous que
+> publier une entrée passe par un arbitrage humain. La refonte
+> (`20-REFONTE-CARTE-DES-PARLERS.md`) supprime cette étape : les 27 179 attestations
+> deviennent visibles par dérivation automatique. Les jalons 1, 3 et 4 n'ont donc
+> plus d'objet sous cette forme, et l'article Odoo 883 **reste à réécrire**.
+>
+> Le jalon 2 (tenue en charge) survit et se renforce : le retrait de Supabase et un
+> middleware sans appel réseau le servent directement.
+
 **La source de vérité est Odoo, article 883** — « 🎯 Jalons et critères de sortie »,
 sous le hub 117 « Dictionnaire Alsacien ». Établi le 02/09/2026, mis à jour le
 07/09/2026.

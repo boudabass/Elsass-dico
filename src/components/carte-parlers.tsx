@@ -100,12 +100,16 @@ export function CarteParlers({ points, couleurDe, className }: Props) {
                     .addTo(instance)
             }
 
-            // Licence Ouverte : la paternité se mentionne, et elle reste
-            // visible — pas repliée sous un bouton.
-            L.control
-                .attribution({ prefix: false })
-                .addAttribution("contours : IGN Admin Express — Licence Ouverte")
-                .addTo(instance)
+            // Pas de bandeau d'attribution SUR la carte : la Licence Ouverte
+            // demande de mentionner la paternité, jamais à un endroit imposé —
+            // vérifié dans son texte, qui accepte même une simple URL renvoyant
+            // vers l'information. La mention vit donc sur /sources, où elle est
+            // lisible sans encombrer l'écran central de l'app.
+            //
+            // Elle n'est pas facultative pour autant : c'est la seule condition
+            // d'une licence qui donne par ailleurs tout (usage commercial,
+            // monde entier, durée illimitée). Sans elle, on n'a plus de droit
+            // d'usage du tout sur ces contours.
         })()
 
         return () => {

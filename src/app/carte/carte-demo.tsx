@@ -1,6 +1,7 @@
 "use client"
 
 import dynamic from "next/dynamic"
+import Link from "next/link"
 import { useMemo, useState } from "react"
 
 import type { PointParler } from "@/components/carte-parlers"
@@ -61,9 +62,15 @@ export function CarteDemo({ points, nbFormes }: Props) {
                 className="h-[70vh] w-full overflow-hidden rounded-lg border"
             />
 
-            <p className="text-xs text-muted-foreground">
-                {filtres.length} village{filtres.length > 1 ? "s" : ""} affiché
-                {filtres.length > 1 ? "s" : ""}.
+            <p className="flex flex-wrap items-center justify-between gap-2 text-xs text-muted-foreground">
+                <span>
+                    {filtres.length} village{filtres.length > 1 ? "s" : ""} affiché
+                    {filtres.length > 1 ? "s" : ""}.
+                </span>
+                {/* La mention de paternité exigée par la Licence Ouverte vit ici
+                    plutôt que sur la carte : le texte de la licence n'impose
+                    aucun emplacement, et accepte même un simple renvoi. */}
+                <Link href="/sources" className="underline">Sources</Link>
             </p>
         </main>
     )

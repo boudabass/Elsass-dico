@@ -65,6 +65,26 @@ enum TypeSource {
   @@map("type_source")
 }
 
+// AJOUT (décision de John, 12/09/2026, après la mesure du doc 22) — l'aire
+// dialectale qu'une source écrite DÉCLARE pour son propre contenu.
+//
+// Les cinq valeurs ne sont pas de nous : ce sont les aires de la carte de
+// l'Office pour la Langue et la Culture d'Alsace (professeur Albert Hudlett),
+// que `culture_alsace` reproduit et dont elle se réclame. Elles gardent donc
+// la délimitation de cette carte, entre parenthèses ci-dessous.
+//
+// Une aire n'est JAMAIS un village : elle ne se compte pas avec les
+// témoignages de locuteurs et ne pose pas de point sur la carte.
+enum AireDialectale {
+  francique_rhenan_lorrain // extrémité nord-ouest, Sarre-Union
+  francique_rhenan_meridional // extrémité nord-est, Wissembourg
+  bas_alemanique_nord // Saverne, Haguenau, Strasbourg, Sélestat
+  bas_alemanique_sud // Colmar et Mulhouse
+  haut_alemanique // Saint-Louis, Altkirch, extrême sud
+
+  @@map("aire_dialectale")
+}
+
 // --- Référentiel ------------------------------------------------------------
 
 model Commune {
@@ -173,6 +193,17 @@ model Temoignage {
   // Remonte à l'archive brute : la dérivation est rejouable et vérifiable.
   attestationId String? @map("attestation_id")
   attestation   Attestation? @relation(fields: [attestationId], references: [id])
+
+  // Ce que la source déclare de son propre parler, quand elle le déclare —
+  // et rien quand elle ne le déclare pas. Mesuré et documenté dans
+  // documentation/22-MESURE-MARQUEUR-AE.md : 12 662 attestations de
+  // `culture_alsace` viennent de pages où la source ne revendique qu'une aire,
+  // les 11 189 autres de pages qu'elle dit mélangées sans dire où. Ces
+  // dernières restent à null : suggérer n'est pas attester.
+  //
+  // Réservé à la branche « source écrite » — un locuteur a une commune, pas
+  // une aire. C'est dans le CHECK.
+  aireDeclaree AireDialectale? @map("aire_declaree")
 
   // — soit un locuteur (un lieu) :
   membreId  String?  @map("membre_id")

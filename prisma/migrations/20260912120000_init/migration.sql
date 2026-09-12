@@ -10,6 +10,9 @@ CREATE TYPE "role" AS ENUM ('membre', 'admin');
 -- CreateEnum
 CREATE TYPE "type_source" AS ENUM ('site', 'ouvrage');
 
+-- CreateEnum
+CREATE TYPE "aire_dialectale" AS ENUM ('francique_rhenan_lorrain', 'francique_rhenan_meridional', 'bas_alemanique_nord', 'bas_alemanique_sud', 'haut_alemanique');
+
 -- CreateTable
 CREATE TABLE "communes" (
     "id" INTEGER NOT NULL,
@@ -60,6 +63,7 @@ CREATE TABLE "temoignages" (
     "variante_id" TEXT NOT NULL,
     "source_id" TEXT,
     "attestation_id" TEXT,
+    "aire_declaree" "aire_dialectale",
     "membre_id" TEXT,
     "commune_id" INTEGER,
     "cree_le" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP,
@@ -237,7 +241,6 @@ ALTER TABLE "signalements" ADD CONSTRAINT "signalements_membre_id_fkey" FOREIGN 
 
 -- AddForeignKey
 ALTER TABLE "attestations" ADD CONSTRAINT "attestations_source_id_fkey" FOREIGN KEY ("source_id") REFERENCES "sources"("id") ON DELETE RESTRICT ON UPDATE CASCADE;
-
 -- ============================================================================
 -- Ajouté à la main à la migration générée par Prisma.
 --
@@ -264,6 +267,11 @@ ALTER TABLE "temoignages" ADD CONSTRAINT "chk_temoignage_source_ou_locuteur" CHE
     AND "commune_id" IS NOT NULL
     AND "source_id" IS NULL
     AND "attestation_id" IS NULL
+    -- Une aire dialectale est ce qu'une SOURCE déclare d'elle-même. Un
+    -- locuteur dit son village, et c'est plus précis, pas moins : lui coller
+    -- une aire par-dessus reviendrait à le ranger dans une case qu'il n'a pas
+    -- choisie.
+    AND "aire_declaree" IS NULL
   )
 );
 

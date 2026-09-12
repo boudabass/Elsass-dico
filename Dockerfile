@@ -1,8 +1,11 @@
 # Stage 1: Build the Next.js application
 FROM node:20-alpine AS builder
 
-# Install pnpm (version pinnée : compatible avec lockfileVersion 9.0 du pnpm-lock.yaml)
-RUN corepack enable && corepack prepare pnpm@10.33.2 --activate
+# Install pnpm. Version alignée sur celle du poste qui écrit le lockfile : la
+# 10.33.2 lisait bien le lockfileVersion 9.0, mais elle ignore le bloc
+# `allowBuilds` de pnpm-workspace.yaml (nommé `onlyBuiltDependencies` chez elle)
+# — donc le postinstall de Prisma n'y tournerait pas, sans le dire.
+RUN corepack enable && corepack prepare pnpm@11.21.0 --activate
 
 WORKDIR /app
 
@@ -47,8 +50,26 @@ COPY --from=builder /app/public ./public
 COPY --from=builder /app/.next/standalone ./
 COPY --from=builder /app/.next/static ./.next/static
 
+# --- Migrations appliquées au démarrage -------------------------------------
+#
+# « Coolify n'applique aucune migration » a coûté trois incidents (09/08, 10/08,
+# 23/08) : une migration passée à la main dans le SQL Editor, oubliée, invisible
+# jusqu'à la première écriture — le site répondait 200 pendant ce temps. Le
+# conteneur applique donc lui-même ce qui manque, avant d'ouvrir le port.
+#
+# La CLI est réinstallée ici plutôt que copiée du builder : avec pnpm,
+# `node_modules/prisma` n'est qu'un lien symbolique vers le store `.pnpm`, et le
+# copier seul donnerait un lien cassé. `npm install` exécute au passage le
+# postinstall qui pose le schema-engine, dont `migrate deploy` a besoin.
+COPY --from=builder /app/prisma ./prisma
+COPY --from=builder /app/prisma.config.ts ./prisma.config.ts
+RUN npm install --no-save --no-package-lock prisma@7.10.0 dotenv
+
+COPY docker-entrypoint.sh /usr/local/bin/
+RUN chmod +x /usr/local/bin/docker-entrypoint.sh
+
 # Expose the port
 EXPOSE 3000
 
-# Command to run the Next.js application
+ENTRYPOINT ["docker-entrypoint.sh"]
 CMD ["node", "server.js"]

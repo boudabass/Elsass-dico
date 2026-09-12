@@ -16,7 +16,8 @@
 | **Base de production chargée** | ✅ **fait le 12/09**, 11 contrôles passent |
 | Fond de carte autonome | ✅ fait le 12/09 — `public/carte/contours.topojson` |
 | Prototype de carte | ✅ `/carte` et `/sources`, **à juger à l'écran** |
-| Le reste (auth, écrans, carte, contribution) | ⬜ étapes 2 à 5 |
+| **Auth autonome, Supabase dehors** | ✅ **fait le 13/09** — étape 2 |
+| Le reste (écrans, carte, contribution) | ⬜ étapes 3 à 5 |
 
 **La base Postgres de Coolify contient le dictionnaire dérivé.** Supabase est
 intact et reste la base de l'app actuelle, mais plus rien ne le lit : la chaîne
@@ -206,27 +207,131 @@ facultative : c'est la seule contrepartie d'une licence qui donne par ailleurs
 l'usage commercial, mondial, illimité et gratuit, et le projet a écarté trois
 sources lexicales sur cette même question en campagne 5.
 
+## L'étape 2, faite le 13/09/2026 : session autonome
+
+**Le middleware ne fait plus aucun appel réseau.** Il en faisait un par requête,
+visiteur anonyme compris (`supabase.auth.getUser()`), plus un `select profiles`
+sur `/admin` — sur un VPS sans limite CPU ni rate limiting (audit du 30/08), un
+robot d'indexation suffisait à amplifier la charge. Il vérifie désormais une
+signature, localement.
+
+### Deux jetons, et pourquoi le second ne porte pas le rôle
+
+| | durée | contenu |
+| --- | --- | --- |
+| `ed_session` | 30 min | identité **et rôle** — c'est lui que le middleware lit |
+| `ed_refresh` | 30 jours | l'identifiant du membre, **rien d'autre** |
+
+Le rôle est délibérément absent du jeton long : recopié de renouvellement en
+renouvellement, une promotion faite dans `/admin` n'atteindrait jamais un membre
+déjà connecté. Il est donc **relu en base** à chaque renouvellement, par
+`/api/session/refresh` — une requête par demi-heure et par membre actif, contre
+une par page vue auparavant.
+
+Trois points qui ne sont pas des détails :
+
+- **`SESSION_SECRET` absente fait échouer bruyamment**, au lieu de déconnecter
+  tout le monde en silence. Avaler l'erreur aurait reproduit le mode de panne qui
+  a coûté trois incidents à ce projet : le site répond 200 alors que rien ne va.
+- **Une revendication `typ` signée** empêche un jeton de renouvellement de servir
+  de jeton de session : sans rôle dedans, il serait lu « membre » — une
+  rétrogradation silencieuse, ou pire dans l'autre sens.
+- **`?suite=` est validé** dans la route de renouvellement. Sans ce contrôle,
+  elle serait une redirection ouverte portant notre domaine.
+
+La vraie barrière d'administration reste serveur : `adminExige()` relit le rôle
+en base. Le middleware n'est qu'un confort de navigation — c'est ce qu'il a
+toujours été, et il faut continuer de le lire ainsi.
+
+### Le premier admin s'amorce à la main
+
+    pnpm exec tsx scripts/promouvoir-admin.mts <email>
+
+Le membre doit s'être **connecté une fois** (c'est la connexion qui le crée). Un
+`ADMIN_EMAIL` d'environnement aurait rendu quelqu'un admin par configuration,
+donc silencieusement et de façon réversible au prochain déploiement. Le script
+refuse par ailleurs de retirer le dernier administrateur.
+
+### Ce qui est parti avec Supabase
+
+`/admin/arbitrage`, `/contributions`, leurs actions, les cinq fabriques de
+clients, `set-password`, `/auth/confirm`, `/api/auth/me`, et de
+`dictionnaire.ts` tout ce qui servait l'arbitrage. Trois gestes d'administration
+disparaissent aussi, et aucun n'est à réintroduire :
+
+- **inviter** et **générer un lien de réinitialisation** — Odoo est l'autorité
+  sur les comptes et les mots de passe, et il n'y a pas de SMTP côté dico ;
+- **supprimer un membre** — ses témoignages sont en cascade : l'effacer
+  effacerait des villages que personne d'autre ne porte. « On masque, on ne
+  supprime pas. »
+
+Les trois rôles deviennent deux, `membre` et `admin` : le rôle intermédiaire
+n'avait de sens que tant que contribuer demandait une habilitation.
+
+### Les écrans de lecture passent sur Prisma
+
+Ils lisaient les 338 entrées arbitrées ; ils lisent les **25 864 lemmes**. La
+fiche de mot perd la couronne « Canonique » — il n'y a plus de forme canonique —
+et montre pour **chaque** forme ses sources écrites et ses villages, dans deux
+blocs distincts. `BadgeConfiance` rend deux pastilles et jamais un total :
+additionner des sources et des villages est exactement le bug trouvé en
+production le 09/09.
+
+Migration `20260912140000_recherche` : `unaccent`, `pg_trgm` et leurs index GIN.
+`unaccent` vit dans la **recherche** — chercher « epreuve » trouve « épreuve » —
+et jamais dans une clé d'identité, où il fusionnait `sur`/`sûr` et `ville`/`Villé`
+(corrigé le 24/08).
+
+### Mesuré sur la base réelle, puis sur l'artefact produit
+
+`scripts/mesures/recherche.mts` exécute la requête exacte de `rechercherAction()` :
+
+| terme | résultat |
+| --- | --- |
+| `bonjour` | `buschur` [2 sources] · `göte Tàij` · `grias di wohl` · `güata Tàg` |
+| `salaire` | `Lohn`, et non `d'r lohn` |
+| `epreuve` | trouve `épreuve` — l'accent ne bloque plus |
+| `Milhüsa` | Mulhouse, **7 formes** — le sens alsacien → français marche |
+
+Puis sur le bundle servi, pas sur la source : **le middleware compilé ne contient
+ni `supabase`, ni `@prisma`, ni `pg`** — seulement `HS256` et `SESSION_SECRET`.
+Et sans cookie, `/` et `/dictionnaire` répondent 307 vers `/login` quand `/login`
+et `/sources` répondent 200.
+
+**Deux choses vues au passage, et laissées telles quelles.** Un lemme sur 25 864
+est injoignable par le parcours A-Z : `(espèce de) tordu`, dont le français
+commence par une parenthèse — verbatim de la source (règle 1), et la recherche le
+trouve. Et certaines lettres dépassent le plafond de 200 (C : 3 006, P : 2 622) :
+l'écran **affiche** « 200 premiers sur 3 006 » plutôt que de laisser lire une page
+comme un total.
+
 ## Ce qui reste
 
 1. **Refermer l'accès public de la base** (cf. plus haut) s'il ne s'est pas
    refermé seul.
-2. **Juger le prototype à l'écran** — `http://localhost:3000/carte`. Non vérifié
-   visuellement : l'extension Chrome force `https://` et le serveur de dev est en
-   HTTP ; `next dev --experimental-https` bute sur une élévation de privilèges
-   que mkcert demande.
-3. Les étapes 2 à 5 du doc 20 (auth sans Supabase, écrans, carte, contribution).
-   **L'étape 2 est la prochaine** : sortir Supabase du code applicatif, session
-   par cookie signé, middleware sans aucun I/O — c'est le gain CPU direct sur le
-   VPS qui sature.
+2. **Poser `SESSION_SECRET` dans Coolify** (runtime, jamais une Build Variable) —
+   32 caractères minimum, sinon l'app refuse de démarrer une session. Et retirer
+   les deux Build Variables `NEXT_PUBLIC_SUPABASE_*`, qui n'ont plus d'effet :
+   les laisser ferait croire qu'elles en ont.
+3. **Se connecter une fois**, puis lancer `scripts/promouvoir-admin.mts`.
+4. **Juger à l'écran** — le prototype de carte, et les écrans refaits à l'étape 2.
+   Non vérifiés visuellement, deux sessions de suite : Chrome force `https://` sur
+   le serveur de dev, qui est en HTTP, et `next dev --experimental-https` bute sur
+   l'élévation de privilèges que mkcert demande. Le contrôle s'est donc fait en
+   `curl` sur le HTML rendu et sur le bundle produit.
+5. Les étapes 3 à 5 du doc 20 (écrans publics, carte, contribution).
 
 ## Reprendre
 
-Tout est sur `dev`. `.env.local` porte `DATABASE_URL`, les variables Supabase
-(encore utilisées par l'app actuelle) et les variables Odoo.
+Tout est sur `dev`. `.env.local` porte `DATABASE_URL`, `SESSION_SECRET` et les
+variables Odoo — **les variables Supabase n'y servent plus à rien** et peuvent
+partir.
 
-Les trois premiers pas suggérés par ce document — mesure du marqueur, schéma
-Prisma, script de dérivation — **sont faits**. Le suivant est l'étape 2 du
-doc 20.
+Les quatre premiers pas de ce document — mesure du marqueur, schéma Prisma,
+script de dérivation, auth autonome — **sont faits**. Le suivant est l'étape 3 du
+doc 20 : les écrans publics générés statiquement (`/village/[slug]`,
+`/prenom/[slug]`), dont le filtre doit être **serveur** — une barrière qui vit
+dans le navigateur n'en est pas une.
 
 ## Ce que la session distante a appris, pour ne pas le refaire
 

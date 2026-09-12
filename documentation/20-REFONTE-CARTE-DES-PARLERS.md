@@ -225,20 +225,26 @@ finales `-a` sur les 18 pages sans bandeau de mélange, 80,0 % sur les 7 autres.
 D'où `Temoignage.aireDeclaree`, qui porte ce qu'une source dit d'elle-même et
 jamais ce qu'on en déduit.
 
-### 2. Auth autonome, Supabase dehors
+### 2. Auth autonome, Supabase dehors — ✅ faite le 13/09/2026
 
-- Odoo reste l'autorité sur les mots de passe. Ce qui disparaît, c'est le montage
-  `createUser` + `generateLink` + `verifyOtp` de `actions/odoo-auth.ts`.
-- Session par **cookie signé avec `jose`** (JWT court + refresh). Jamais de HMAC
-  maison.
-- **`middleware.ts` : plus aucun I/O.** Aujourd'hui il fait un `auth.getUser()`
-  **réseau à chaque page vue**, visiteur anonyme compris, plus un `select profiles`
-  sur `/admin` et `/contributions`. Demain : vérification de signature locale.
-  C'est le gain CPU direct sur le VPS qui sature (audit du 30/08).
-- Inscription : lien vers la création de compte du portail Odoo. **À vérifier côté
-  Odoo** que l'auto-inscription portail est activée — c'est une config, pas du code.
-- `Dockerfile` : les `ARG NEXT_PUBLIC_SUPABASE_*` sortent, `DATABASE_URL` entre en
-  runtime.
+- Odoo reste l'autorité sur les mots de passe. Le montage `createUser` +
+  `generateLink` + `verifyOtp` a disparu : la connexion vérifie les identifiants
+  auprès d'Odoo, crée ou retrouve le membre, et pose son propre cookie.
+- Session par **cookie signé avec `jose`**, jamais de HMAC maison. JWT court
+  (30 min, porte le rôle) + renouvellement (30 jours, **sans** le rôle) : le rôle
+  est relu en base à chaque renouvellement, sinon une promotion n'atteindrait
+  jamais un membre déjà connecté.
+- **`middleware.ts` : plus aucun I/O.** Il faisait un `auth.getUser()` réseau à
+  chaque page vue, visiteur anonyme compris, plus un `select profiles` sur
+  `/admin` et `/contributions`. C'est une vérification de signature locale.
+- **Deux rôles**, `membre` et `admin`. Le premier admin s'amorce par
+  `scripts/promouvoir-admin.mts`, après une première connexion.
+- Inscription : lien vers la création de compte du portail Odoo. **Reste à
+  vérifier côté Odoo** que l'auto-inscription portail est activée — c'est une
+  config, pas du code.
+- `Dockerfile` : les `ARG NEXT_PUBLIC_SUPABASE_*` sont sortis. Plus aucune
+  variable de build ; `SESSION_SECRET` et `DATABASE_URL` sont runtime, donc rien
+  de sensible n'est gravé dans l'image. **À poser dans Coolify.**
 
 ### 3. Écrans
 
@@ -361,9 +367,20 @@ rapport d'un script**. Elle a rattrapé une erreur à chacune des cinq campagnes
 
   **Deux bases valent mieux qu'une** : sans le double chargement, le défaut
   restait invisible. C'est « recompter en base » appliqué à deux bases.
-- **Étape 2** : connexion Odoo bout en bout, session qui survit à un redémarrage,
-  app inaccessible sans cookie valide, et **un middleware qui ne fait aucun appel
-  réseau** — à vérifier au chrono, pas à la lecture.
+- **Étape 2** — ✅ faite le 13/09/2026. Trois des quatre critères sont tenus et
+  vérifiés : l'app est **inaccessible sans cookie valide** (`/` et
+  `/dictionnaire` répondent 307 vers `/login`, `/login` et `/sources` 200), la
+  session **survit à un redémarrage** (rien n'est gardé côté serveur — un JWT
+  signé par `SESSION_SECRET`, qui est une variable d'environnement), et le
+  **middleware ne fait aucun appel réseau**. Ce dernier point s'est vérifié mieux
+  qu'au chrono, sur le bundle produit : il ne contient ni `supabase`, ni
+  `@prisma`, ni `pg` — seulement `HS256` et `SESSION_SECRET`.
+
+  Reste **la connexion Odoo bout en bout**, qui demande un vrai mot de passe :
+  à faire par John. Le code du login est en place, `authentifierAupresDOdoo()`
+  est inchangé, et c'est le seul chemin qui crée un membre.
+
+  Détail dans `21-REPRISE.md`.
 - **Étape 3** : les pages publiques ne rendent **que** villages et prénoms, y
   compris en appelant la Server Action directement avec un terme du lexique. Le
   filtre est serveur ; une barrière qui vit dans le navigateur n'en est pas une.

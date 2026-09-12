@@ -1944,6 +1944,65 @@ trois sources lexicales sur cette question en campagne 5.
   n'existait qu'en base — entrées arbitrées, comptes, votes — et qui n'a plus
   d'intérêt.
 
+## Session autonome, Supabase sorti du code (13/09/2026)
+
+**Étape 2 du doc 20 faite.** Le middleware ne fait plus aucun appel réseau, et
+`@supabase/*` ne figure plus dans `package.json`.
+
+- **Deux jetons signés avec `jose`.** `ed_session` (30 min) porte l'identité et
+  le rôle ; `ed_refresh` (30 jours) ne porte **que** l'identifiant. Le rôle est
+  absent du jeton long exprès : recopié de renouvellement en renouvellement, une
+  promotion faite dans `/admin` n'atteindrait jamais un membre déjà connecté. Il
+  est relu en base par `/api/session/refresh` — une requête par demi-heure et
+  par membre actif, contre une par page vue avec `supabase.auth.getUser()`.
+- **Une revendication `typ` signée** sépare les deux jetons. Sans elle, un jeton
+  de renouvellement passerait pour une session : il n'a pas de rôle, et un rôle
+  absent lu comme « membre » serait une rétrogradation silencieuse — ou une
+  escalade si le défaut penchait de l'autre côté.
+- **`SESSION_SECRET` absente fait échouer bruyamment.** La lecture de la clé est
+  hors du `try` : avalée, elle déconnecterait tout le monde pendant que le site
+  répond 200 — le mode de panne exact des trois incidents de migration.
+- **La barrière d'admin n'a pas bougé de couche** : `adminExige()` relit le rôle
+  en base. Le middleware reste un confort de navigation, comme il l'a toujours
+  été.
+- **Le premier admin s'amorce à la main** (`scripts/promouvoir-admin.mts`), après
+  une première connexion — c'est elle qui crée le membre. Un `ADMIN_EMAIL`
+  d'environnement aurait rendu quelqu'un admin par configuration, donc en
+  silence et réversiblement au prochain déploiement.
+
+**Trois gestes d'administration disparaissent, et aucun n'est à réintroduire** :
+inviter et générer un lien de réinitialisation (Odoo est l'autorité sur les
+comptes, et il n'y a pas de SMTP côté dico), et **supprimer un membre** — ses
+témoignages sont en cascade, l'effacer effacerait des villages que personne
+d'autre ne porte. Les trois rôles deviennent deux : le rôle intermédiaire
+n'avait de sens que tant que contribuer demandait une habilitation.
+
+**Les écrans de lecture passent sur Prisma**, des 338 entrées arbitrées aux
+25 864 lemmes. La fiche perd la couronne « Canonique » et montre, pour *chaque*
+forme, ses sources écrites et ses villages dans deux blocs distincts ;
+`BadgeConfiance` rend deux pastilles et jamais un total. Migration
+`20260912140000_recherche` : `unaccent` et `pg_trgm`. **`unaccent` vit dans la
+recherche et nulle part ailleurs** — dans une clé d'identité il fusionnait
+`sur`/`sûr` et `ville`/`Villé` (corrigé le 24/08).
+
+**Vérifié sur l'artefact, pas sur la source** : le middleware compilé ne contient
+ni `supabase`, ni `@prisma`, ni `pg` — seulement `HS256` et `SESSION_SECRET`.
+Sans cookie, `/` et `/dictionnaire` répondent 307 vers `/login`. La requête réelle
+de la recherche a été rejouée en base : `bonjour` rend ses quatre formes,
+`Milhüsa` retrouve Mulhouse et ses sept formes, `epreuve` trouve `épreuve`.
+
+**Non vérifié à l'écran, deux sessions de suite** : Chrome force `https://` sur le
+serveur de dev, qui est en HTTP, et `next dev --experimental-https` bute sur
+l'élévation de privilèges de mkcert. Le contrôle s'est fait en `curl` sur le HTML
+rendu. La connexion Odoo bout en bout reste à faire par John — elle demande un
+mot de passe.
+
+**Deux limites vues et laissées telles quelles, parce qu'elles se disent** : un
+lemme sur 25 864 est injoignable par le parcours A-Z (`(espèce de) tordu`,
+verbatim de la source, que la recherche trouve), et les grandes lettres dépassent
+le plafond de 200 — l'écran affiche « 200 premiers sur 3 006 » plutôt que de
+laisser lire une page comme un total.
+
 ## Règles de travail
 
 - Ne jamais inventer de traduction alsacienne, même pour un exemple ou un test.

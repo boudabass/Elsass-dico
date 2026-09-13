@@ -88,7 +88,10 @@ COPY --from=builder /app/.next/static ./.next/static
 # postinstall qui pose le schema-engine, dont `migrate deploy` a besoin.
 COPY --from=builder /app/prisma ./prisma
 COPY --from=builder /app/prisma.config.ts ./prisma.config.ts
-COPY --from=builder /app/package.json ./package.json
+# SURTOUT PAS `package.json` ici. Avec lui, `npm install` ne se contente plus
+# d'ajouter deux paquets : il résout tout le graphe du projet et meurt sur un
+# conflit de peer dependencies (react 19.1 contre 19.3, ERESOLVE). Ce répertoire
+# doit rester nu — la CLI Prisma n'a besoin que de `prisma/` et de sa config.
 RUN npm install --no-save --no-package-lock prisma@7.10.0 dotenv
 
 COPY docker-entrypoint.sh /usr/local/bin/

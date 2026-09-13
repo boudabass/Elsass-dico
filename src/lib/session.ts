@@ -18,7 +18,12 @@
 //
 // `jose` signe et vérifie (HS256). Jamais de HMAC écrit à la main.
 
-import { jwtVerify, SignJWT } from "jose"
+// Sous-chemins et non le paquet entier : `from "jose"` tire tout l'index, donc
+// le déchiffrement JWE, donc `CompressionStream` — une API Node que l'Edge
+// Runtime n'a pas. Next le signale à chaque build, et le middleware embarquait
+// du code qu'il n'exécutera jamais. On ne signe et ne vérifie que des JWS.
+import { SignJWT } from "jose/jwt/sign"
+import { jwtVerify } from "jose/jwt/verify"
 
 export const COOKIE_SESSION = "ed_session"
 export const COOKIE_REFRESH = "ed_refresh"

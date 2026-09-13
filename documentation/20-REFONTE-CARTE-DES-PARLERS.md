@@ -308,8 +308,15 @@ ensuite avec leurs villages. Les deux blocs restent visuellement distincts — o
 n'additionne jamais un compte de sources et un compte de villages dans un même
 chiffre. C'est l'erreur exacte de la PR #41, trouvée en production le 09/09.
 
-**Admin, trois écrans** : membres (`/admin` existe déjà et fonctionne), file des
-signalements, gestion des sources écrites.
+**Admin, trois écrans — tous faits le 13/09/2026** : membres (`/admin`),
+`/admin/signalements` (file des non traités, se vide au traitement), et
+`/admin/sources` (lecture seule — l'archive est figée, elle affiche licence
+et fiabilité sans les éditer). Le signalement lui-même devient in-app :
+`creerSignalementAction` attache le membre de la session à une variante
+précise, remplaçant le renvoi forum-only posé à l'étape 2 quand un
+signalement anonyme n'était pas faisable côté backend — le compte
+obligatoire lève ce blocage. Déployé (`c08a11d`), déploiement Coolify
+confirmé, **vérification à l'écran en attente** d'une reconnexion admin.
 
 ### 4. La carte
 

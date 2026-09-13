@@ -369,10 +369,30 @@ la reconnexion, sinon sous 30 minutes.
    --experimental-https` butant sur mkcert, mais rien n'empêche de les juger
    directement sur `elsass-dico-dev.theelsassisch.com`, en HTTPS réel, comme
    pour les trois premières.
-4. La suite de l'étape 3 : écran admin des signalements et des sources. (`/` en
-   présentation publique est fait, cf. ci-dessous.) Et les étapes 4-5 du doc 20
-   (carte, contribution).
-5. **Reporter les quatre correctifs de build sur `elsass-dico:main`** quand
+4. **La suite de l'étape 3 : écran admin des signalements et des sources —
+   fait et déployé le 13/09/2026** (commit `c08a11d`). Les trois écrans admin
+   du doc 20 sont désormais tous là. Deux volets :
+   - `creerSignalementAction` (`src/app/actions/signalements.ts`) attache le
+     membre de la session à une **variante précise** ; l'écran
+     `/entree/[id]/signaler` a été revu pour laisser choisir laquelle plutôt
+     que de signaler tout le lemme (il ne faisait de toute façon rien avant —
+     il renvoyait vers le forum, un choix daté de l'étape 2 quand un
+     signalement anonyme n'était pas faisable côté backend ; le compte
+     obligatoire lève ce blocage).
+   - `/admin/signalements` liste les signalements non traités (file qui se
+     vide au traitement, comme « Recoupées (0) » de l'ancien arbitrage — vide
+     = succès, pas panne). `/admin/sources` est en **lecture seule** :
+     `Source` fait partie de l'archive figée, l'écran donne à voir licence et
+     fiabilité déclarées, il ne les édite pas.
+   - Déploiement confirmé (`updated_at` Coolify passé de 14:28:28 à
+     14:32:58Z), mais **non vérifié à l'écran** : la session admin de John
+     avait expiré entre-temps (redirection vers `/login` en Chrome piloté).
+     À confirmer par John à la reconnexion.
+   Restent hors périmètre de cet écran : l'édition de sa propre variante et le
+   retrait de son propre `+` (doc 20, ligne « Correction »), qui relèvent de
+   l'étape 5 (contribution), pas de l'admin.
+5. Les étapes 4-5 du doc 20 (carte interactive, contribution).
+6. **Reporter les quatre correctifs de build sur `elsass-dico:main`** quand
    `dev` passera en PR — même `Dockerfile`, même besoin de Build Variable
    `DATABASE_URL`.
 
@@ -382,11 +402,12 @@ Tout est sur `dev`, déployé sur `elsass-dico-dev.theelsassisch.com`. `.env.loc
 porte `DATABASE_URL`, `SESSION_SECRET` et les variables Odoo — **les variables
 Supabase n'y servent plus à rien** et peuvent partir.
 
-Les sept premiers pas de ce document — mesure du marqueur, schéma Prisma,
+Les huit premiers pas de ce document — mesure du marqueur, schéma Prisma,
 script de dérivation, auth autonome, fiches publiques village/prénom,
-déploiement `dev`, `/` en présentation publique — **sont faits**. Le suivant
-est la suite de l'étape 3 : les écrans admin (membres — déjà là —,
-signalements, sources).
+déploiement `dev`, `/` en présentation publique, écrans admin
+signalements/sources — **sont faits**. Le suivant est la carte interactive ou
+la contribution (étapes 4-5 du doc 20), ou juger à l'écran ce qui reste en
+attente (point 3 ci-dessus).
 
 ## Ce que la session distante a appris, pour ne pas le refaire
 

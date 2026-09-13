@@ -2209,6 +2209,43 @@ où aller comprendre le projet avant qu'on lui demande un compte.
   automatique d'un membre connecté vers `/recherche` (demanderait de se
   connecter dans ce navigateur, réservé à John).
 
+## Écrans admin signalements et sources (13/09/2026)
+
+Complète les trois écrans admin du doc 20 (« Admin, trois écrans » —
+`/admin` existait déjà). PR sur `dev`, commit `c08a11d`.
+
+- **Le signalement devient in-app.** `/entree/[id]/signaler` renvoyait vers
+  le forum depuis l'étape 2 (« un signalement anonyme n'est pas faisable côté
+  backend aujourd'hui ») : c'était vrai avant le compte obligatoire, ça ne
+  l'est plus. `creerSignalementAction` (`src/app/actions/signalements.ts`)
+  attache le membre de la session à une **variante précise** — l'écran, qui
+  signalait tout le lemme en bloc via une chaîne concaténée, propose
+  désormais un choix de forme (`<select>` sur les variantes) et un motif
+  libre. Le forum reste en secours pour une discussion plus large, il n'est
+  plus le seul chemin.
+- **`/admin/signalements` ne montre que le non traité** — la file se vide au
+  traitement, sur le même principe que « Recoupées (0) » de l'ancien
+  arbitrage (23/08) : un écran vide est un succès, pas une panne. Marquer
+  traité ne touche ni la forme ni ses témoins ; la décision de fond (garder,
+  corriger, masquer la variante) reste un geste séparé pris ailleurs — cet
+  écran est une file, pas un exécuteur.
+- **`/admin/sources` est en lecture seule, et volontairement.** `Source` fait
+  partie de l'archive — « LECTURE SEULE » dans le schéma — donc l'écran
+  affiche licence et fiabilité déclarées sans bouton d'édition : les fiches
+  viennent de `data/sources/` sur la branche `data` et se régénèrent par
+  l'importeur, pas depuis l'app. **La fiabilité n'a pas d'échelle connue** :
+  seule `culture_alsace` a une fiche visible sur `dev` (`fiabilite: 3`, un
+  `SmallInt` sans borne documentée dans le schéma) — le chiffre brut est donc
+  affiché tel quel, sans suffixe `/5` inventé.
+- **Vérifié** : `tsc --noEmit` propre, et un vrai `pnpm build` (dev arrêté
+  avant, relancé après) a généré les 966 pages sans erreur — seul l'échec
+  final est l'EPERM symlink Windows connu, après « Generating static pages
+  (966/966) ». Déploiement Coolify confirmé (`get_application.updated_at`
+  passé de 14:28:28 à 14:32:58Z). **Non vérifié à l'écran** : la session
+  admin de John avait expiré entre-temps (Chrome piloté redirigé vers
+  `/login` en visitant `/admin/signalements`) — à confirmer à la
+  reconnexion.
+
 ## Règles de travail
 
 - Ne jamais inventer de traduction alsacienne, même pour un exemple ou un test.

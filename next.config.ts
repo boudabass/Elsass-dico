@@ -23,6 +23,19 @@ const nextConfig: NextConfig = {
   // publiées ne bougent presque jamais.
   experimental: {
     staleTimes: { dynamic: 30 },
+    // Un seul worker pour générer les pages statiques (13/09/2026). Le build
+    // Coolify est mort en silence — pas d'erreur, juste un arrêt net à
+    // « Generating static pages (240/963) », exit 255 sur le process
+    // englobant : la signature d'un SIGKILL, pas d'une exception applicative.
+    // Cause probable : Next fait tourner N pages en parallèle par défaut (N
+    // proche du nombre de cœurs), et /village + /prenom (950 des 963 pages)
+    // ouvrent chacune une vraie requête Postgres via generateStaticParams —
+    // plusieurs dizaines de connexions et de processus Node simultanés sur un
+    // VPS déjà connu pour saturer (audit du 30/08/2026, CLAUDE.md). `cpus: 1`
+    // sérialise la génération : plus lent, mais un seul processus à la fois.
+    // Non confirmé par une métrique mémoire (accès Sentinel hors de portée
+    // d'ici) — à retirer si une autre cause se confirme.
+    cpus: 1,
   },
   webpack: (config) => {
     if (process.env.NODE_ENV === "development") {

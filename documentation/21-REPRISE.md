@@ -301,12 +301,13 @@ ni `supabase`, ni `@prisma`, ni `pg`** — seulement `HS256` et `SESSION_SECRET`
 Et sans cookie, `/` et `/dictionnaire` répondent 307 vers `/login` quand `/login`
 et `/sources` répondent 200.
 
-**Deux choses vues au passage, et laissées telles quelles.** Un lemme sur 25 864
-est injoignable par le parcours A-Z : `(espèce de) tordu`, dont le français
-commence par une parenthèse — verbatim de la source (règle 1), et la recherche le
-trouve. Et certaines lettres dépassent le plafond de 200 (C : 3 006, P : 2 622) :
-l'écran **affiche** « 200 premiers sur 3 006 » plutôt que de laisser lire une page
-comme un total.
+**Deux choses vues au passage.** Un lemme sur 25 864 est injoignable par le
+parcours A-Z : `(espèce de) tordu`, dont le français commence par une
+parenthèse — verbatim de la source (règle 1), et la recherche le trouve.
+Laissé tel quel, aucune plainte à son sujet. Et certaines lettres dépassaient
+le plafond de 200 (C : 3 006, P : 2 622) sans moyen de voir la suite — **résolu
+le 14/09/2026 par une vraie pagination** (100/page, boutons Précédent/Suivant
+en haut et en bas), sur retour direct de John. Détail dans `CLAUDE.md`.
 
 ## `/village` et `/prenom` déployés et vérifiés en vrai (13/09/2026)
 

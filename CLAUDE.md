@@ -2001,7 +2001,8 @@ mot de passe.
 lemme sur 25 864 est injoignable par le parcours A-Z (`(espèce de) tordu`,
 verbatim de la source, que la recherche trouve), et les grandes lettres dépassent
 le plafond de 200 — l'écran affiche « 200 premiers sur 3 006 » plutôt que de
-laisser lire une page comme un total.
+laisser lire une page comme un total. **La seconde est résolue le 14/09/2026,
+cf. plus bas** — la première reste ouverte, aucune plainte à son sujet.
 
 ## Fiches publiques village et prénom (13/09/2026)
 
@@ -2311,6 +2312,73 @@ prise, puisqu'elle ne dépend d'aucune session existante à rejouer.
 - **Restent hors de cette tranche** : créer une nouvelle variante sur un mot
   (« ça se dit autrement chez moi »), éditer sa propre variante tant qu'elle
   est seule, et la carte interactive (étape 4, toujours à juger à l'écran).
+
+## Deux retours de John, deux correctifs (14/09/2026)
+
+### Le sélecteur de village : tri alphabétique, recherche, modifiable à tout moment
+
+Retour direct après la vérification à l'écran du 13/09 : « la liste des
+villages est en bordel total, elle devrait être classée par ordre alphabétique
+et avoir une barre de recherche », et « il faut pouvoir le changer à tout
+moment dans notre profil ».
+
+- `src/app/actions/communes.ts` : tri passé de `population` décroissante à
+  `nom` croissant. Le commentaire du schéma du 12/09 sur `population`
+  (« ordonner un sélecteur par ce que l'utilisateur cherche en premier »)
+  n'a pas résisté au premier usage réel — sur un `<select>` natif de
+  1 605 entrées sans recherche, un tri par population est illisible. La
+  recherche ajoutée côté client couvre désormais mieux cette intention qu'un
+  tri seul ne le pouvait.
+- `src/app/dashboard/village-profil.tsx` remplace `selecteur-village.tsx` :
+  un combobox (champ texte + liste filtrée en mémoire, 1 605 communes déjà
+  chargées, pas de aller-retour serveur par frappe) plutôt qu'un `<select>`
+  natif. Le composant porte aussi un état affichage/édition — le bloc « Ton
+  village » s'affiche désormais en permanence dans « Mon espace », avec le
+  village actuel et un bouton « Changer », plutôt que de n'apparaître que
+  tant que le village est vide.
+- **Vérifié à l'écran** (Chrome piloté, session de John,
+  `elsass-dico-dev.theelsassisch.com`) : recherche « mundolsheim » → un seul
+  résultat pertinent ; validation → toast « Village enregistré », profil mis
+  à jour ; bouton « Changer » réapparaît ensuite. Corrigé au passage le
+  village de test laissé la veille (Colmar → Mundolsheim, le vrai village de
+  John).
+
+### La pagination du dictionnaire A-Z
+
+Retour direct : « pour le dictionnaire, pour chaque lettre il n'affiche que
+les 200 premiers ! je fais comment pour voir les autres ? ». Le plafond du
+13/09 (« 200 premiers sur 3 006 ») se disait, mais n'offrait aucun moyen de
+voir la suite — exactement la même famille de défaut que les anciens
+compteurs « 50+ » de la file d'arbitrage et le rapport de parseur plafonné à
+80 anomalies : un plafond qui ne se contente pas de compter finit par
+bloquer.
+
+- **100 mots par page, pas 200** — tranché plutôt que redemandé : sur un VPS
+  sans limite CPU ni rate limiting, une page plus courte coûte moins par
+  requête, et l'argument pour 200 (moins de clics) ne tient plus une fois
+  qu'on peut réellement tourner les pages.
+- `lemmesParLettreAction(lettre, page)` (`src/app/actions/navigation.ts`) :
+  le compte total est lu **avant** le `LIMIT`/`OFFSET`, et la page demandée
+  est validée contre le vrai nombre de pages côté serveur — une page hors
+  bornes (lien trafiqué, lettre changée entre deux clics) ne rend jamais une
+  liste vide à tort.
+- Boutons **Précédent/Suivant en haut ET en bas** de la liste
+  (`src/app/dictionnaire/page.tsx`), page portée par l'URL
+  (`?lettre=C&page=3`). Un changement de page n'est pas un « retour » au sens
+  de `estRetourHistorique()` : `useScrollMemorise` ne remonte donc pas seul,
+  d'où un `window.scrollTo({top:0})` explicite après chaque clic — sinon on
+  resterait scrollé au niveau du bouton « Suivant » cliqué en bas de liste.
+- **Vérifié en base avant déploiement** (script jetable, lecture seule,
+  supprimé après usage) : C (3 006 mots) → 31 pages, dernière page 6 lignes ;
+  P (2 622) → 27 pages ; Z (68, sous le seuil) → 1 page. **Vérifié à l'écran**
+  ensuite sur la lettre C : page 1/31 → clic Suivant → page 2/31, remontée en
+  haut, URL à jour ; page 31/31 → 6 mots, bouton Suivant désactivé en haut et
+  en bas, Précédent actif.
+- Incident sans suite : un onglet Chrome de la session précédente s'est mis à
+  résoudre `elsass-dico-dev.theelsassisch.com` vers `0.0.0.0:3000` après un
+  aller-retour — confirmé propre au navigateur et non au serveur (`curl`
+  direct sur l'URL rend la redirection normale vers `/login`), résolu en
+  ouvrant un nouvel onglet.
 
 ## Règles de travail
 

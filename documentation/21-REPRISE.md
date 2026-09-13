@@ -19,7 +19,8 @@
 | **Auth autonome, Supabase dehors** | ✅ **fait le 13/09** — étape 2, connexion Odoo bout en bout confirmée par John |
 | **Fiches publiques village/prénom** | ✅ **fait et déployé le 13/09** — étape 3 partielle, vérifié sur `elsass-dico-dev.theelsassisch.com` |
 | **Premier admin amorcé** | ✅ **fait le 13/09** — `theelsassisch@gmail.com` |
-| Le reste (`/` présentation, carte, admin, contribution) | ⬜ suite de l'étape 3, étapes 4-5 |
+| **`/` en présentation publique** | ✅ **fait le 13/09** — recherche déplacée sur `/recherche`, vérifié à l'écran |
+| Le reste (admin signalements/sources, carte, contribution) | ⬜ suite de l'étape 3, étapes 4-5 |
 
 **La base Postgres de Coolify contient le dictionnaire dérivé.** Supabase est
 intact et reste la base de l'app actuelle, mais plus rien ne le lit : la chaîne
@@ -368,9 +369,9 @@ la reconnexion, sinon sous 30 minutes.
    --experimental-https` butant sur mkcert, mais rien n'empêche de les juger
    directement sur `elsass-dico-dev.theelsassisch.com`, en HTTPS réel, comme
    pour les trois premières.
-4. La suite de l'étape 3 (`/` en présentation publique — déplace la recherche
-   ailleurs, décision non prise ; écran admin des signalements et des sources)
-   et les étapes 4-5 du doc 20 (carte, contribution).
+4. La suite de l'étape 3 : écran admin des signalements et des sources. (`/` en
+   présentation publique est fait, cf. ci-dessous.) Et les étapes 4-5 du doc 20
+   (carte, contribution).
 5. **Reporter les quatre correctifs de build sur `elsass-dico:main`** quand
    `dev` passera en PR — même `Dockerfile`, même besoin de Build Variable
    `DATABASE_URL`.
@@ -381,11 +382,10 @@ Tout est sur `dev`, déployé sur `elsass-dico-dev.theelsassisch.com`. `.env.loc
 porte `DATABASE_URL`, `SESSION_SECRET` et les variables Odoo — **les variables
 Supabase n'y servent plus à rien** et peuvent partir.
 
-Les six premiers pas de ce document — mesure du marqueur, schéma Prisma, script
-de dérivation, auth autonome, fiches publiques village/prénom, déploiement
-`dev` — **sont faits**. Le suivant est la suite de l'étape 3 : soit la home de
-présentation publique à `/` (déplace la recherche authentifiée ailleurs, décision
-de routage non prise), soit les trois écrans admin (membres — déjà là —,
+Les sept premiers pas de ce document — mesure du marqueur, schéma Prisma,
+script de dérivation, auth autonome, fiches publiques village/prénom,
+déploiement `dev`, `/` en présentation publique — **sont faits**. Le suivant
+est la suite de l'étape 3 : les écrans admin (membres — déjà là —,
 signalements, sources).
 
 ## Ce que la session distante a appris, pour ne pas le refaire

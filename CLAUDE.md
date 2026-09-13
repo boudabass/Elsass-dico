@@ -2181,6 +2181,34 @@ lancé dans la foulée (port 5444 rouvert le temps de la commande, à refermer) 
 `membre -> admin`, confirmé par le script — ce qui clôt le dernier point ouvert
 de l'étape 2 (« connexion Odoo bout en bout à faire par John »).
 
+### `/` devient la présentation publique (décision de John, 13/09/2026)
+
+Tranché le jour même, sur la question laissée ouverte à la fin de l'étape 3 :
+`/` était encore l'écran de recherche authentifié, hérité du 28/08 — un
+visiteur anonyme y était redirigé vers `/login` sans jamais voir ce qu'est le
+site. Avec `/village/[slug]` et `/prenom/[slug]` désormais indexables, un
+lecteur qui arrive depuis Google sur une fiche de commune n'avait nulle part
+où aller comprendre le projet avant qu'on lui demande un compte.
+
+- **La recherche déménage sur `/recherche`**, intégralement — mêmes hooks de
+  cache et de scroll (`useListeMemorisee`, `useScrollMemorise`), seules les
+  deux URLs internes (`router.replace`, `memoriserUrlOnglet`) changent de
+  chemin. `AppNavShell` y pointe désormais pour l'onglet « Recherche ».
+- **`/` devient une page de présentation, publique.** Un membre déjà connecté
+  qui y arrive est redirigé côté serveur vers `/recherche` — inutile de lui
+  montrer un argumentaire pour un compte qu'il a déjà.
+- **Le middleware traite `/` en comparaison STRICTE**, jamais en préfixe
+  (`chemin === "/"`, pas `chemin.startsWith("/")`) : la liste `PUBLIC`
+  existante fonctionne par préfixe, et `/` est le début de **tout** chemin, y
+  compris `/admin` — l'y glisser avec le même mécanisme que les autres
+  entrées aurait rendu toute l'app publique.
+- **Vérifié à l'écran** (Chrome piloté, `elsass-dico-dev.theelsassisch.com`,
+  après redéploiement) : `/` rend la présentation et centre bien son contenu ;
+  `/recherche` redirige un visiteur anonyme (`curl`, 307) vers `/login` ; le
+  chevron retour de `/login` ramène à `/`. Non testée : la redirection
+  automatique d'un membre connecté vers `/recherche` (demanderait de se
+  connecter dans ce navigateur, réservé à John).
+
 ## Règles de travail
 
 - Ne jamais inventer de traduction alsacienne, même pour un exemple ou un test.

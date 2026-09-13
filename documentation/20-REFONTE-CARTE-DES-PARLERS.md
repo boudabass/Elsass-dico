@@ -248,10 +248,18 @@ jamais ce qu'on en déduit.
 
 ### 3. Écrans
 
-**`/village/[slug]` et `/prenom/[slug]` — ✅ faites le 13/09/2026.** `/` reste la
-recherche authentifiée pour l'instant ; en faire la home de présentation publique
-déplacerait la recherche ailleurs et touche à la nav (`AppNavShell`), une décision
-distincte non tranchée ici.
+**`/village/[slug]` et `/prenom/[slug]` — ✅ faites le 13/09/2026.**
+
+**`/` devient la présentation publique — ✅ faite le 13/09/2026** (décision de
+John, tranchée le jour même). La recherche authentifiée déménage sur
+`/recherche` — `AppNavShell` y pointe désormais, et le middleware traite `/`
+en comparaison **stricte** (jamais en préfixe : `/` est le début de tout
+chemin, y compris `/admin`). Un membre déjà connecté qui arrive sur `/` est
+redirigé serveur vers `/recherche` sans voir l'argumentaire — inutile pour
+qui a déjà un compte. Vérifié à l'écran (Chrome piloté) sur
+`elsass-dico-dev.theelsassisch.com` : `/` rend la présentation, `/recherche`
+redirige un visiteur anonyme vers `/login`, le chevron retour de `/login`
+ramène bien à `/`.
 
 Générées statiquement (`generateStaticParams`), sur le lemme rattaché à la
 commune (`Lemme.communeId`, unique — un toponyme EST une commune, pas un second
@@ -283,7 +291,8 @@ d'en douter). Repli appliqué : `ARG DATABASE_URL` classique, alimenté par une
 Build Variable Coolify — le mécanisme déjà éprouvé ici pour les
 `NEXT_PUBLIC_SUPABASE_*` avant le 12/09, avec le même compromis assumé (la
 valeur reste lisible dans l'historique des couches du builder, jamais dans
-l'étage final livré ni sur un registre public). **Reste à poser dans Coolify.**
+l'étage final livré ni sur un registre public). **Posée dans Coolify et
+vérifiée** : plusieurs déploiements `dev` réussis depuis.
 
 **Vérifié contre la vraie base** (port 5444 rouvert le temps du contrôle, comme le
 12/09) : `chargerVillage("colmar-68066")` rend `Kolmer` / `Colmer`, exactement ce

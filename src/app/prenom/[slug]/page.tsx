@@ -42,7 +42,7 @@ export default async function PrenomPage({
   if (!lemme || lemme.type !== "prenom") notFound();
 
   return (
-    <main className="mx-auto w-full max-w-3xl space-y-6 p-4 pb-16 md:pb-4 md:pl-20 lg:pl-56">
+    <main className="mx-auto w-full max-w-3xl space-y-6 p-4 pb-8">
       <header className="space-y-1">
         <p className="text-xs font-semibold uppercase tracking-wide text-neutre-400">Prénom</p>
         <h1 className="text-2xl font-bold text-foreground">{lemme.francais}</h1>

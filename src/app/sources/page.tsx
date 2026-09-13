@@ -24,7 +24,7 @@ export default async function PageSources() {
     })
 
     return (
-        <main className="mx-auto w-full max-w-3xl space-y-8 p-4 pb-16 md:pb-4 md:pl-20 lg:pl-56">
+        <main className="mx-auto w-full max-w-3xl space-y-8 p-4 pb-8">
             <header className="space-y-1">
                 <h1 className="text-xl font-semibold">Sources</h1>
                 <p className="text-sm text-muted-foreground">

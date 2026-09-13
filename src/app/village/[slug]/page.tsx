@@ -60,7 +60,7 @@ export default async function VillagePage({
   const nbFormes = village.lemme?.variantes.length ?? 0;
 
   return (
-    <main className="mx-auto w-full max-w-3xl space-y-6 p-4 pb-16 md:pb-4 md:pl-20 lg:pl-56">
+    <main className="mx-auto w-full max-w-3xl space-y-6 p-4 pb-8">
       <header className="space-y-1">
         <p className="text-xs font-semibold uppercase tracking-wide text-neutre-400">
           {departement}

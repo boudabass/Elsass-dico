@@ -8,7 +8,12 @@ import { prisma } from "@/lib/prisma"
 // par Prisma depuis le 12/09/2026 ; passait par les RPC `lettres_disponibles()`
 // et `entrees_par_lettre()`, disparues avec la table `entrees`.
 
-const LEMMES_PAR_LETTRE = 200
+// 100 et non 200 (retour de John, 14/09/2026, après le plafond sans suite du
+// 13/09) : sur ce VPS sans limite CPU ni rate limiting, une page plus courte
+// coûte moins par clic, et la navigation devient triviale avec les boutons —
+// l'argument pour 200 (moins de clics pour tout parcourir) ne tient plus une
+// fois qu'on peut effectivement tourner les pages.
+const TAILLE_PAGE = 100
 const FORMES_EN_APERCU = 3
 
 export async function lettresDisponiblesAction(): Promise<string[]> {
@@ -33,39 +38,48 @@ interface LigneLettre {
     departement: string | null
 }
 
-/** Le plafond se DIT. Certaines lettres portent plus de 3 000 lemmes (C : 3 006,
- *  P : 2 622) : rendre les 200 premières sans le signaler ferait lire une page
- *  comme un total — le piège des compteurs « 50+ » de l'ancienne file
- *  d'arbitrage, et celui du rapport de parseur plafonné à 80 anomalies. */
+/** Une page à la fois, jamais la lettre entière d'un coup — certaines lettres
+ *  portent plus de 3 000 lemmes (C : 3 006, P : 2 622). `page` et `nbPages`
+ *  remplacent le plafond muet du 13/09/2026 (« 200 premiers sur X », sans
+ *  moyen de voir la suite) — signalé par John le 14/09 : « il faut juste
+ *  faire en sorte de ne pas charger tous les mots en une fois et charger au
+ *  fur et à mesure de page vue ». */
 export interface PageLettre {
     lemmes: LemmeResume[]
     total: number
-    plafond: number
+    page: number
+    nbPages: number
 }
 
-export async function lemmesParLettreAction(lettre: string): Promise<PageLettre> {
-    const vide: PageLettre = { lemmes: [], total: 0, plafond: LEMMES_PAR_LETTRE }
+export async function lemmesParLettreAction(lettre: string, page = 1): Promise<PageLettre> {
+    const vide: PageLettre = { lemmes: [], total: 0, page: 1, nbPages: 1 }
 
     const initiale = lettre.trim().toUpperCase()
     if (!/^[A-Z]$/.test(initiale)) return vide
 
-    const [lignes, comptes] = await Promise.all([
-        prisma.$queryRaw<LigneLettre[]>`
-            SELECT l.id, l.francais, l.contexte, l.type::text AS type, c.departement
-            FROM lemmes l
-            LEFT JOIN communes c ON c.id = l.commune_id
-            WHERE upper(left(immutable_unaccent(l.cle), 1)) = ${initiale}
-            ORDER BY l.cle ASC
-            LIMIT ${LEMMES_PAR_LETTRE}
-        `,
-        prisma.$queryRaw<{ n: bigint }[]>`
-            SELECT count(*) AS n FROM lemmes
-            WHERE upper(left(immutable_unaccent(cle), 1)) = ${initiale}
-        `,
-    ])
-
+    // Le compte d'abord, séparément du LIMIT/OFFSET : sans lui, une page
+    // demandée hors bornes (lien trafiqué, lettre changée entre deux clics)
+    // rendrait une liste vide alors que la lettre ne l'est pas — on VALIDE la
+    // page demandée contre le vrai nombre de pages plutôt que de la croire.
+    const comptes = await prisma.$queryRaw<{ n: bigint }[]>`
+        SELECT count(*) AS n FROM lemmes
+        WHERE upper(left(immutable_unaccent(cle), 1)) = ${initiale}
+    `
     const total = Number(comptes[0]?.n ?? 0)
-    if (!lignes.length) return { ...vide, total }
+    if (total === 0) return vide
+
+    const nbPages = Math.max(1, Math.ceil(total / TAILLE_PAGE))
+    const pageValidee = Math.min(Math.max(1, Math.floor(page) || 1), nbPages)
+    const offset = (pageValidee - 1) * TAILLE_PAGE
+
+    const lignes = await prisma.$queryRaw<LigneLettre[]>`
+        SELECT l.id, l.francais, l.contexte, l.type::text AS type, c.departement
+        FROM lemmes l
+        LEFT JOIN communes c ON c.id = l.commune_id
+        WHERE upper(left(immutable_unaccent(l.cle), 1)) = ${initiale}
+        ORDER BY l.cle ASC
+        LIMIT ${TAILLE_PAGE} OFFSET ${offset}
+    `
 
     const apercus = await apercusParLemme(lignes.map((l) => l.id))
 
@@ -83,6 +97,7 @@ export async function lemmesParLettreAction(lettre: string): Promise<PageLettre>
             }
         }),
         total,
-        plafond: LEMMES_PAR_LETTRE,
+        page: pageValidee,
+        nbPages,
     }
 }

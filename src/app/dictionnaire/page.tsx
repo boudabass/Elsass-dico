@@ -3,7 +3,7 @@
 import { Suspense, useEffect, useMemo, useState } from "react";
 import Link from "next/link";
 import { useRouter, useSearchParams } from "next/navigation";
-import { BookOpen, ChevronRight } from "lucide-react";
+import { BookOpen, ChevronLeft, ChevronRight } from "lucide-react";
 import { AppHeader } from "@/components/app-header";
 import { BadgeConfiance } from "@/components/badge-confiance";
 import { ListSkeleton } from "@/components/ui/list-skeleton";
@@ -35,6 +35,7 @@ function DictionnaireContenu() {
   const router = useRouter();
   const searchParams = useSearchParams();
   const lettreDepuisUrl = searchParams.get("lettre");
+  const pageDepuisUrl = Number(searchParams.get("page")) || 1;
 
   // L'alphabet disponible ne change qu'à une publication : il se garde plus
   // longtemps que les listes, et cesse ainsi de coûter un appel par visite.
@@ -49,6 +50,7 @@ function DictionnaireContenu() {
   // depuis une fiche de mot) plutôt que toujours repartir sur la première
   // lettre disponible.
   const [lettre, setLettre] = useState<string | null>(() => lettreDepuisUrl);
+  const [pageNo, setPageNo] = useState(pageDepuisUrl);
 
   useEffect(() => {
     if (!lettres) return;
@@ -57,16 +59,29 @@ function DictionnaireContenu() {
 
   function choisirLettre(car: string) {
     setLettre(car);
+    setPageNo(1);
     const url = `/dictionnaire?lettre=${car}`;
     router.replace(url, { scroll: false });
     // La barre de nav rouvrira le dictionnaire sur cette lettre.
     memoriserUrlOnglet("dictionnaire", url);
   }
 
-  const cleLettre = lettre ? cleCache("dictionnaire", "lettre", lettre) : null;
+  function allerPage(n: number) {
+    if (!lettre) return;
+    setPageNo(n);
+    const url = `/dictionnaire?lettre=${lettre}&page=${n}`;
+    router.replace(url, { scroll: false });
+    memoriserUrlOnglet("dictionnaire", url);
+    // Un changement de page n'est pas un retour (cf. `estRetourHistorique()`) :
+    // `useScrollMemorise` ne remonte donc pas seul, et rester scrollé au
+    // niveau du bouton « Suivant » cliqué en bas de liste serait désorientant.
+    window.scrollTo({ top: 0, behavior: "instant" });
+  }
+
+  const cleLettre = lettre ? cleCache("dictionnaire", "lettre", lettre, String(pageNo)) : null;
   const { donnees: page, premierChargement } = useListeMemorisee<PageLettre>({
     cle: cleLettre,
-    charger: () => lemmesParLettreAction(lettre as string),
+    charger: () => lemmesParLettreAction(lettre as string, pageNo),
   });
   const lemmes = page?.lemmes ?? [];
   // Une revalidation en fond ne doit jamais remettre le squelette : la liste
@@ -122,14 +137,17 @@ function DictionnaireContenu() {
           <div>
             <div className="flex flex-wrap items-baseline gap-2 pt-4 pb-2">
               <h2 className="text-[26px] font-extrabold text-foreground">{lettre}</h2>
-              {/* Un plafond qui mord se dit. Sans cette ligne, 200 mots sur
-                  3 006 se liraient comme la lettre entiere. */}
               <span className="text-sm text-neutre-400">
-                {page && page.total > lemmes.length
-                  ? `${lemmes.length} premiers sur ${page.total}`
+                {page && page.nbPages > 1
+                  ? `${page.total} mots — page ${page.page} sur ${page.nbPages}`
                   : `${lemmes.length} mot${lemmes.length > 1 ? "s" : ""}`}
               </span>
             </div>
+
+            {page && page.nbPages > 1 && (
+              <ControlesPagination page={page.page} nbPages={page.nbPages} onPage={allerPage} />
+            )}
+
             <div className="flex flex-col">
               {lemmes.map((e, i) => (
                 <Link
@@ -168,9 +186,52 @@ function DictionnaireContenu() {
                 </Link>
               ))}
             </div>
+
+            {page && page.nbPages > 1 && (
+              <ControlesPagination page={page.page} nbPages={page.nbPages} onPage={allerPage} />
+            )}
           </div>
         )}
       </main>
+    </div>
+  );
+}
+
+// Répétés en haut et en bas de la liste (retour de John, 14/09/2026) : en
+// haut pour changer de page sans redescendre après un clic sur une lettre, en
+// bas pour tourner la page sans remonter après avoir lu jusqu'au dernier mot.
+function ControlesPagination({
+  page,
+  nbPages,
+  onPage,
+}: {
+  page: number;
+  nbPages: number;
+  onPage: (n: number) => void;
+}) {
+  return (
+    <div className="flex items-center justify-between gap-2 py-2.5">
+      <button
+        type="button"
+        disabled={page <= 1}
+        onClick={() => onPage(page - 1)}
+        className="flex h-9 items-center gap-1 rounded-full border border-bordure-forte px-3.5 text-sm font-semibold text-foreground transition-colors hover:bg-neutre-50 disabled:pointer-events-none disabled:opacity-40"
+      >
+        <ChevronLeft className="h-4 w-4" strokeWidth={2.4} />
+        Précédent
+      </button>
+      <span className="text-sm font-medium text-neutre-400">
+        {page} / {nbPages}
+      </span>
+      <button
+        type="button"
+        disabled={page >= nbPages}
+        onClick={() => onPage(page + 1)}
+        className="flex h-9 items-center gap-1 rounded-full border border-bordure-forte px-3.5 text-sm font-semibold text-foreground transition-colors hover:bg-neutre-50 disabled:pointer-events-none disabled:opacity-40"
+      >
+        Suivant
+        <ChevronRight className="h-4 w-4" strokeWidth={2.4} />
+      </button>
     </div>
   );
 }

@@ -92,6 +92,14 @@ COPY --from=builder /app/public ./public
 COPY --from=builder /app/.next/standalone ./
 COPY --from=builder /app/.next/static ./.next/static
 
+# La sortie standalone embarque une COPIE INTÉGRALE de package.json — pas un
+# extrait — avec tout le graphe de dépendances de l'app (react-hook-form,
+# @radix-ui/*, etc.). Rien à voir avec `node server.js`, qui ne le lit jamais :
+# Next l'y met pour un `npm start` que ce Dockerfile n'utilise pas. Retiré tout
+# de suite, avant qu'un `npm install` plus bas ne le trouve dans son répertoire
+# de travail et ne tente de résoudre tout ce graphe (cf. plus bas).
+RUN rm -f package.json
+
 # --- Migrations appliquées au démarrage -------------------------------------
 #
 # « Coolify n'applique aucune migration » a coûté trois incidents (09/08, 10/08,
@@ -105,10 +113,17 @@ COPY --from=builder /app/.next/static ./.next/static
 # postinstall qui pose le schema-engine, dont `migrate deploy` a besoin.
 COPY --from=builder /app/prisma ./prisma
 COPY --from=builder /app/prisma.config.ts ./prisma.config.ts
-# SURTOUT PAS `package.json` ici. Avec lui, `npm install` ne se contente plus
-# d'ajouter deux paquets : il résout tout le graphe du projet et meurt sur un
-# conflit de peer dependencies (react 19.1 contre 19.3, ERESOLVE). Ce répertoire
-# doit rester nu — la CLI Prisma n'a besoin que de `prisma/` et de sa config.
+# Régression trouvée sur le premier vrai déploiement Coolify de ce Dockerfile
+# (13/09/2026) : le commentaire disait « ce répertoire doit rester nu » en ne
+# pensant qu'à un `COPY package.json` explicite (retiré au commit précédent,
+# lui bien nu) — sans voir que le `package.json` de la sortie standalone,
+# copié juste au-dessus, en tenait lieu. `npm install` le trouvait donc quand
+# même et mourait sur le même ERESOLVE (react 19.1 contre react-dom 19.3 via
+# @radix-ui/react-accordion). Un `docker build` isolé dans un conteneur
+# `node:22-alpine` nu, comme la vérification du commit précédent, ne pouvait
+# pas voir cette copie implicite — elle n'existe que dans le VRAI enchaînement
+# multi-étages. Le `rm -f package.json` ci-dessus est ce qui rend ce répertoire
+# effectivement nu, plutôt que le commentaire seul.
 RUN npm install --no-save --no-package-lock prisma@7.10.0 dotenv
 
 COPY docker-entrypoint.sh /usr/local/bin/

@@ -2082,6 +2082,78 @@ du doc 20.
 **Non vérifié à l'écran** : comme le reste de l'étape 2, `next dev` bute sur
 l'HTTPS forcé par Chrome sur ce poste. À confirmer par John une fois déployé.
 
+### Déployé : quatre problèmes de build en cascade, un seul déploiement Coolify (13/09/2026)
+
+Chaque correctif révélait le suivant — invisible tant que le précédent
+bloquait le build plus tôt. Les trois premiers sont des problèmes de
+**build**, jamais de code applicatif ; `tsc` et la vérification en base ne
+pouvaient rien en dire.
+
+1. **`DATABASE_URL` manquante au build.** Essayé en secret BuildKit
+   (`--mount=type=secret`, jamais écrit dans une couche) pour ne rien devoir à
+   la règle du 12/09 sur les Build Variables — confirmé non fonctionnel sur ce
+   Coolify, le secret arrivait vide (discussion GitHub
+   coollabsio/coolify#5328, restée sans réponse, avait raison d'en douter).
+   Repli : `ARG DATABASE_URL` classique, alimenté par une Build Variable
+   Coolify — le mécanisme déjà éprouvé ici pour les `NEXT_PUBLIC_SUPABASE_*`
+   avant le 12/09. Bonus découvert au passage : cette variable pointe vers le
+   nom **interne** de la base (`l11x6p591gah952rrbbgl24o:5432`), donc le
+   port public 5444 n'a plus besoin d'être ouvert pour qu'un build Coolify
+   passe — seulement pour une vérification manuelle depuis ce poste.
+2. **`npm install` de la CLI Prisma résolvait tout le graphe du projet.** La
+   sortie standalone de Next embarque une copie **intégrale** de
+   `package.json` (pas un extrait) dans l'étage final — `rm -f package.json`
+   avant l'install. Sans `"type": "module"` dans ce fichier, le retirer ne
+   change rien à la façon dont `node server.js` interprète ses propres
+   fichiers.
+3. **Deux tentatives supplémentaires ont échoué pour la même cause
+   profonde**, avant la bonne solution : faire cohabiter deux
+   `node_modules` d'origines différentes dans `/app` — celui que pnpm résout
+   (copié par le traçage de fichiers, avec sa structure `.pnpm/` réelle
+   derrière les liens symboliques) et celui qu'`npm install` produit
+   classiquement.
+   - Installer directement dans `/app` (même sans `package.json`) faisait
+     scanner `node_modules/.pnpm/` par npm : plusieurs minutes
+     d'avertissements ERESOLVE sur des paquets sans aucun rapport (jest,
+     eslint-config-standard…), venus de devDependencies que pnpm avait
+     résolues pour tout autre chose que Prisma.
+   - Installer à part puis `cp -r` le résultat DANS `/app/node_modules`
+     échouait sur `cp: target '/app/node_modules/./react' is not a
+     directory` — Prisma embarque Prisma Studio (donc React, ~136 paquets
+     sans rapport avec l'app), et `cp` refuse d'écrire un dossier réel
+     par-dessus un lien symbolique pnpm.
+   - **Solution retenue : `/opt/prisma-cli`, un répertoire fermé sur
+     lui-même** — binaire, dépendances (`prisma`, `dotenv`), schéma ET
+     `prisma.config.ts` y vivent ensemble, aucun point de contact avec
+     `/app/node_modules`. Nécessaire pour une raison qu'un simple chemin de
+     binaire n'aurait pas réglée : `prisma.config.ts` importe lui-même
+     `dotenv` et `defineConfig` de `"prisma/config"`, et ces imports se
+     résolvent depuis l'**emplacement du fichier**, pas depuis celui du
+     binaire qui l'exécute — les laisser dans `/app` aurait fait échouer une
+     quatrième fois, différemment. `docker-entrypoint.sh` lance la CLI avec
+     ce répertoire en `cwd` (sous-shell, pour que `exec "$@"` garde `/app`).
+4. **Le build mourait en silence** (`exit 255`, aucune trace applicative) à
+   « Generating static pages (240/963) » — la signature d'un process tué
+   (probable OOM), pas d'une exception qu'on aurait pu attraper. Hypothèse
+   posée sans confirmation par une métrique mémoire (hors de portée depuis
+   Claude Code) : Next génère par défaut plusieurs pages en parallèle, et 950
+   des 963 pages de ce build (`/village` + `/prenom`) ouvrent chacune une
+   vraie requête Postgres — des dizaines de connexions et de processus Node
+   simultanés sur un VPS déjà identifié comme sujet à saturation (audit du
+   30/08/2026). `experimental.cpus = 1` (`next.config.ts`) sérialise la
+   génération.
+
+**Déployé et vérifié sur `elsass-dico-dev.theelsassisch.com`, en `curl`, pas
+seulement en base** : `/village/colmar-68066` → 200, titre « Colmar — Kolmer »
+(exactement ce que la couche de données rendait déjà) ; `/prenom/ambroise` →
+200, « Ambroise — Àmbrosi » ; un slug inexistant → 404 ; `/` (recherche
+authentifiée) → 307 vers `/login`, rien ne fuite à un visiteur anonyme.
+
+**Reste non vérifié dans un vrai navigateur** — même blocage HTTPS/mkcert que
+le reste de l'étape 2 — et à reporter sur `elsass-dico:main` quand `dev`
+passera en PR : les quatre correctifs de build ci-dessus s'appliquent au même
+`Dockerfile`, donc au même déploiement.
+
 ## Règles de travail
 
 - Ne jamais inventer de traduction alsacienne, même pour un exemple ou un test.

@@ -17,7 +17,7 @@
 | Fond de carte autonome | ✅ fait le 12/09 — `public/carte/contours.topojson` |
 | Prototype de carte | ✅ `/carte` et `/sources`, **à juger à l'écran** |
 | **Auth autonome, Supabase dehors** | ✅ **fait le 13/09** — étape 2 |
-| **Fiches publiques village/prénom** | ✅ **fait le 13/09** — étape 3 partielle, `/village/[slug]` + `/prenom/[slug]` |
+| **Fiches publiques village/prénom** | ✅ **fait et déployé le 13/09** — étape 3 partielle, vérifié sur `elsass-dico-dev.theelsassisch.com` |
 | Le reste (`/` présentation, carte, admin, contribution) | ⬜ suite de l'étape 3, étapes 4-5 |
 
 **La base Postgres de Coolify contient le dictionnaire dérivé.** Supabase est
@@ -306,47 +306,68 @@ trouve. Et certaines lettres dépassent le plafond de 200 (C : 3 006, P : 2 622)
 l'écran **affiche** « 200 premiers sur 3 006 » plutôt que de laisser lire une page
 comme un total.
 
+## `/village` et `/prenom` déployés et vérifiés en vrai (13/09/2026)
+
+**`elsass-dico:dev` construit et tourne** (`elsass-dico-dev.theelsassisch.com`),
+avec `/village/[slug]` et `/prenom/[slug]` pré-rendues. Quatre problèmes de build
+se sont révélés en cascade, chacun invisible tant que le précédent bloquait —
+détail complet dans `CLAUDE.md`, section « Fiches publiques village et prénom » :
+
+1. `generateStaticParams` a besoin de `DATABASE_URL` au build → posée comme
+   **Build Variable Coolify** (le secret BuildKit essayé d'abord ne passe pas
+   sur cette instance) — et elle pointe vers le nom **interne** de la base
+   (`l11x6p591gah952rrbbgl24o:5432`), donc le port public 5444 n'a plus besoin
+   d'être ouvert pour un build, seulement pour une vérification manuelle depuis
+   ce poste.
+2. La sortie standalone embarque une copie intégrale de `package.json` →
+   retirée avant tout `npm install` dans l'étage final.
+3. `node_modules/.pnpm/` (copié par le traçage de la sortie standalone) faisait
+   échouer ou traîner tout `npm install`/`cp` tenté dans `/app` → la CLI Prisma
+   vit maintenant dans `/opt/prisma-cli`, un répertoire fermé sur lui-même
+   (binaire, dépendances, schéma, `prisma.config.ts`), jamais mélangé à
+   `/app/node_modules`.
+4. Le build mourait en silence (exit 255, aucune erreur applicative) à
+   « Generating static pages (240/963) » — probable OOM sur les workers
+   parallèles de Next, jamais confirmé par une métrique mémoire (hors de
+   portée depuis Claude Code) → `experimental.cpus = 1` dans `next.config.ts`
+   sérialise la génération.
+
+**Vérifié en `curl` sur le vrai déploiement**, pas seulement en base :
+`/village/colmar-68066` → 200, titre « Colmar — Kolmer » ; `/prenom/ambroise` →
+200, « Ambroise — Àmbrosi » ; un slug inexistant → 404 ; `/` (recherche
+authentifiée) → 307 vers `/login`.
+
 ## Ce qui reste
 
-1. **Refermer l'accès public de la base** (cf. plus haut) — rouverte à nouveau le
-   13/09/2026 pour vérifier `/village` et `/prenom` contre les vraies données, à
-   refermer après.
-2. **Poser `SESSION_SECRET` dans Coolify** (runtime, jamais une Build Variable) —
+1. **Poser `SESSION_SECRET` dans Coolify** (runtime, jamais une Build Variable) —
    32 caractères minimum, sinon l'app refuse de démarrer une session. Et retirer
    les deux Build Variables `NEXT_PUBLIC_SUPABASE_*`, qui n'ont plus d'effet :
    les laisser ferait croire qu'elles en ont.
-3. **Poser `DATABASE_URL` comme Build Variable Coolify sur `elsass-dico:dev`**
-   (et `:main` le moment venu) — `generateStaticParams` de `/village` et
-   `/prenom` en a besoin au build. Le secret BuildKit essayé d'abord
-   (`--mount=type=secret`) s'est confirmé non fonctionnel sur ce Coolify au
-   premier déploiement du 13/09/2026 (build échoué avec le message d'erreur
-   prévu) ; le `Dockerfile` est repassé sur un `ARG DATABASE_URL` classique,
-   qui a besoin de cette Build Variable pour exister. Sans elle, `pnpm build`
-   échoue bruyamment au lieu de construire une image aux deux routes
-   silencieusement non pré-rendues.
-4. **Se connecter une fois**, puis lancer `scripts/promouvoir-admin.mts`.
-5. **Juger à l'écran** — le prototype de carte, les écrans refaits à l'étape 2, et
-   `/village`/`/prenom` (étape 3, vérifiés en base et par un `tsc` propre, jamais
-   vus rendus). Non vérifiés visuellement, trois sessions de suite : Chrome force
-   `https://` sur le serveur de dev, qui est en HTTP, et
-   `next dev --experimental-https` bute sur l'élévation de privilèges que mkcert
-   demande. Le contrôle s'est donc fait en `curl` sur le HTML rendu et sur le
-   bundle produit.
-6. La suite de l'étape 3 (`/` en présentation publique — déplace la recherche
+2. **Se connecter une fois**, puis lancer `scripts/promouvoir-admin.mts`.
+3. **Juger à l'écran** — le prototype de carte et les écrans refaits à l'étape 2
+   (`/village`/`/prenom` sont désormais vérifiés, cf. ci-dessus). Toujours pas vu
+   dans un vrai navigateur, trois sessions de suite : Chrome force `https://` sur
+   le serveur de dev, qui est en HTTP, et `next dev --experimental-https` bute
+   sur l'élévation de privilèges que mkcert demande.
+4. La suite de l'étape 3 (`/` en présentation publique — déplace la recherche
    ailleurs, décision non prise ; écran admin des signalements et des sources)
    et les étapes 4-5 du doc 20 (carte, contribution).
+5. **Reporter ces quatre correctifs de build sur `elsass-dico:main`** quand `dev`
+   passera en PR — même `Dockerfile`, même besoin de Build Variable
+   `DATABASE_URL`.
 
 ## Reprendre
 
-Tout est sur `dev`. `.env.local` porte `DATABASE_URL`, `SESSION_SECRET` et les
-variables Odoo — **les variables Supabase n'y servent plus à rien** et peuvent
-partir.
+Tout est sur `dev`, déployé sur `elsass-dico-dev.theelsassisch.com`. `.env.local`
+porte `DATABASE_URL`, `SESSION_SECRET` et les variables Odoo — **les variables
+Supabase n'y servent plus à rien** et peuvent partir.
 
-Les cinq premiers pas de ce document — mesure du marqueur, schéma Prisma, script
-de dérivation, auth autonome, fiches publiques village/prénom — **sont faits**.
-Le suivant est la suite de l'étape 3 : soit la home de présentation publique à
-`/` (déplace la recherche authentifiée ailleurs, décision de routage non prise),
-soit les trois écrans admin (membres — déjà là —, signalements, sources).
+Les six premiers pas de ce document — mesure du marqueur, schéma Prisma, script
+de dérivation, auth autonome, fiches publiques village/prénom, déploiement
+`dev` — **sont faits**. Le suivant est la suite de l'étape 3 : soit la home de
+présentation publique à `/` (déplace la recherche authentifiée ailleurs, décision
+de routage non prise), soit les trois écrans admin (membres — déjà là —,
+signalements, sources).
 
 ## Ce que la session distante a appris, pour ne pas le refaire
 

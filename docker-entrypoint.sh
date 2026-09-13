@@ -14,7 +14,12 @@ if [ -z "$DATABASE_URL" ]; then
 fi
 
 echo "→ prisma migrate deploy"
-npx --no-install prisma migrate deploy
+# /opt/prisma-cli est un répertoire à part entière (Dockerfile, étage final) :
+# binaire, dépendances, schéma ET config y vivent ensemble, pour que la
+# résolution de module de prisma.config.ts (dotenv, prisma/config) ne
+# traverse jamais vers /app. D'où le `cd` — en sous-shell, pour que le process
+# final (`exec "$@"` plus bas) garde /app comme répertoire courant.
+( cd /opt/prisma-cli && ./node_modules/.bin/prisma migrate deploy )
 
 echo "→ démarrage"
 exec "$@"

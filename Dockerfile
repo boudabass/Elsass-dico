@@ -107,33 +107,38 @@ RUN rm -f package.json
 # jusqu'à la première écriture — le site répondait 200 pendant ce temps. Le
 # conteneur applique donc lui-même ce qui manque, avant d'ouvrir le port.
 #
-# La CLI est réinstallée ici plutôt que copiée du builder : avec pnpm,
-# `node_modules/prisma` n'est qu'un lien symbolique vers le store `.pnpm`, et le
-# copier seul donnerait un lien cassé. `npm install` exécute au passage le
-# postinstall qui pose le schema-engine, dont `migrate deploy` a besoin.
+# La CLI Prisma vit dans /opt/prisma-cli, un répertoire COMPLÈTEMENT séparé de
+# /app — schéma, config ET dépendances y sont réunis, plutôt qu'éclatés entre
+# les deux comme dans les trois tentatives précédentes (13/09/2026) :
+#   1. `npm install` DANS `/app` — même sans `package.json` (la sortie
+#      standalone en embarque une copie intégrale, retirée plus haut), npm
+#      scanne `node_modules/.pnpm/` déjà présent (la structure RÉELLE que
+#      pnpm résout derrière ses liens symboliques, pas un `node_modules`
+#      classique) et part en plusieurs minutes d'avertissements ERESOLVE sur
+#      des paquets sans rapport (jest, eslint-config-standard…).
+#   2. Installer à part (`/tmp/prisma-cli`) puis `cp -r` le résultat DANS
+#      `/app/node_modules` — l'installation isolée réussit (prisma embarque
+#      Prisma Studio, donc React : ~136 paquets), mais `cp` refuse d'écrire
+#      par-dessus `node_modules/react`, lien symbolique pnpm côté standalone
+#      et non un dossier réel : « target (...) is not a directory ».
+# Les deux échouaient pour la même raison : faire cohabiter deux
+# `node_modules` d'origines différentes dans UN SEUL dossier. Le déplacement
+# résout ça, mais en ouvre une troisième, plus sournoise : `prisma.config.ts`
+# importe lui-même `dotenv` et `defineConfig` de `"prisma/config"` — deux
+# imports qui, une fois le fichier posé dans `/app`, se seraient résolus
+# depuis `/app/node_modules` (Node résout depuis l'EMPLACEMENT DU FICHIER, pas
+# depuis celui du binaire qui l'exécute). Ni l'un ni l'autre n'y existerait :
+# `dotenv` n'est dans le graphe d'aucune route Next (le traçage de la sortie
+# standalone ne l'embarque donc pas), et `prisma` n'y a jamais été installé.
+# D'où schéma et config copiés ICI, dans `/opt/prisma-cli` et non dans `/app` :
+# tout ce dont la CLI a besoin — binaire, dépendances, schéma, config — vit
+# désormais au même endroit, sans qu'aucune résolution ne traverse vers /app.
+RUN mkdir /opt/prisma-cli
+WORKDIR /opt/prisma-cli
+RUN npm install --no-save --no-package-lock prisma@7.10.0 dotenv
 COPY --from=builder /app/prisma ./prisma
 COPY --from=builder /app/prisma.config.ts ./prisma.config.ts
-
-# npm install la CLI Prisma + dotenv dans un répertoire VIDE, jamais dans /app.
-#
-# Deuxième régression trouvée sur le même déploiement Coolify (13/09/2026),
-# après le retrait de package.json ci-dessus : `node_modules/.pnpm/`, copié
-# par le traçage de fichiers de la sortie standalone, contient les vraies
-# dépendances résolues par pnpm — y compris des devDependencies transitives
-# (jest, eslint, @fast-check/jest…) qu'aucun package.json ne mentionne mais
-# qu'npm scanne quand même pour toute installation lancée dans ce dossier.
-# `npm install`, même sans package.json, réconcilie contre CE QUI EST DÉJÀ LÀ :
-# plusieurs minutes d'avertissements ERESOLVE sur des paquets sans aucun
-# rapport avec Prisma, et rien ne garantit que ça finisse par converger.
-#
-# Installé donc dans un répertoire à part, où npm ne voit qu'un `node_modules`
-# vide — exactement la situation déjà vérifiée dans un conteneur `node:22-alpine`
-# nu. Seuls les fichiers résultants sont copiés vers `/app/node_modules`
-# ensuite, par un `cp` qui ne repasse par aucune résolution npm.
-RUN mkdir /tmp/prisma-cli && cd /tmp/prisma-cli \
-    && npm install --no-save --no-package-lock prisma@7.10.0 dotenv \
-    && cp -r node_modules/. /app/node_modules/ \
-    && rm -rf /tmp/prisma-cli
+WORKDIR /app
 
 COPY docker-entrypoint.sh /usr/local/bin/
 RUN chmod +x /usr/local/bin/docker-entrypoint.sh

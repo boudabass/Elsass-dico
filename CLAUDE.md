@@ -2295,12 +2295,22 @@ prise, puisqu'elle ne dépend d'aucune session existante à rejouer.
   0 témoignage de locuteur n'existe encore (attendu, fonctionnalité neuve), et
   le seul membre de la base (`theelsassisch@gmail.com`) n'a pas de village —
   le sélecteur s'affichera bien pour lui à la prochaine connexion.
-- **Non vérifié à l'écran** : voter, retirer un vote et choisir un village
-  restent à cliquer en vrai une fois redéployé — même limite que le reste de
-  cette session, la session admin de John ayant expiré.
+- **Vérifié à l'écran le 13/09/2026**, une fois John reconnecté (Chrome
+  piloté, `elsass-dico-dev.theelsassisch.com`) : `+` sans village posé →
+  refusé avec le message exact ; sélecteur peuplé, trié par population
+  décroissante (Strasbourg, Metz, Mulhouse, Colmar…) ; village choisi →
+  « Village enregistré », profil mis à jour ; `+` repris sur « buschur »
+  (candidat « bonjour ») → badge « 2 sources · 1 village », village affiché,
+  bouton vert ; retiré → retour exact à l'état d'avant. `/admin/signalements`
+  et `/admin/sources` (commit `c08a11d`) confirmés au même passage — l'étape 3
+  est donc close pour de bon.
+  - Note opérationnelle : ce test a laissé Colmar comme village réel du
+    compte `theelsassisch@gmail.com` (seul moyen d'exercer le sélecteur en
+    conditions réelles) — à corriger ou laisser tel quel selon ce que John
+    veut y voir.
 - **Restent hors de cette tranche** : créer une nouvelle variante sur un mot
   (« ça se dit autrement chez moi »), éditer sa propre variante tant qu'elle
-  est seule, et la carte interactive (étape 4).
+  est seule, et la carte interactive (étape 4, toujours à juger à l'écran).
 
 ## Règles de travail
 

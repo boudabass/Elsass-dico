@@ -430,11 +430,16 @@ négociables du modèle, plus haut dans ce document).
   966/966 pages (dev arrêté avant, relancé après — seul l'EPERM symlink
   Windows connu suit). Sur la base réelle, en lecture seule : les 1 605
   communes portent toutes une population (Strasbourg en tête, 293 771),
-  0 témoignage de locuteur n'existe encore (attendu — fonctionnalité neuve),
-  le seul membre de la base (`theelsassisch@gmail.com`) n'a pas de village —
-  le sélecteur s'affichera bien pour lui. **Non vérifié à l'écran** : voter,
-  choisir un village et retirer un `+` restent à cliquer en vrai, une fois
-  redéployé.
+  0 témoignage de locuteur n'existe encore (attendu — fonctionnalité neuve).
+- **Vérifié à l'écran le 13/09/2026** (Chrome piloté, session admin de John,
+  `elsass-dico-dev.theelsassisch.com`), chemin complet : `+` sans village
+  posé → refusé avec le message attendu ; sélecteur peuplé et trié par
+  population décroissante (Strasbourg, Metz, Mulhouse, Colmar…) ; village
+  choisi → « Village enregistré », profil mis à jour ; `+` repris sur
+  « buschur » → badge passé à « 2 sources · 1 village », village affiché,
+  bouton devenu vert ; retiré → tout redevient exactement l'état d'avant.
+  `/admin/signalements` et `/admin/sources` (commit `c08a11d`) confirmés à
+  l'écran au même passage.
 
 ## Tranché par défaut, à corriger si besoin
 

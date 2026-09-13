@@ -362,13 +362,12 @@ la reconnexion, sinon sous 30 minutes.
    `/sources` le 13/09/2026 (Chrome piloté sur `elsass-dico-dev`) : un vrai bug
    trouvé au passage, `md:pl-20 lg:pl-56` réservait la place d'un rail de nav
    qu'aucune des trois pages ne monte — colonne plaquée à droite, corrigé.
-   Restent à juger : le prototype de carte, les écrans refaits à l'étape 2
-   (recherche, dictionnaire, fiche de mot), et `/admin` avec le compte
-   fraîchement promu — bloqué depuis trois sessions par le HTTPS forcé de
-   Chrome sur le serveur de dev **local** (en HTTP) et `next dev
-   --experimental-https` butant sur mkcert, mais rien n'empêche de les juger
-   directement sur `elsass-dico-dev.theelsassisch.com`, en HTTPS réel, comme
-   pour les trois premières.
+   **Fait aussi le 13/09/2026, plus tard dans la journée** : `/admin`,
+   `/admin/signalements`, `/admin/sources`, et le chemin complet du vote de
+   village (gate sans village, sélecteur trié par population, vote, retrait)
+   — tous confirmés avec la session admin de John, une fois reconnecté.
+   Restent à juger : le prototype de carte et les écrans refaits à l'étape 2
+   (recherche, dictionnaire, fiche de mot).
 4. **La suite de l'étape 3 : écran admin des signalements et des sources —
    fait et déployé le 13/09/2026** (commit `c08a11d`). Les trois écrans admin
    du doc 20 sont désormais tous là. Deux volets :
@@ -392,13 +391,12 @@ la reconnexion, sinon sous 30 minutes.
    retrait de son propre `+` (doc 20, ligne « Correction »), qui relèvent de
    l'étape 5 (contribution), pas de l'admin.
 5. Les étapes 4-5 du doc 20 (carte interactive, contribution). **Première
-   tranche de l'étape 5 faite le 13/09/2026** : le bouton `+` (un vote = un
-   village), son retrait, et le choix du village dans « Mon espace » — détail
-   dans le doc 20, section 5. Restent : créer une nouvelle variante sur un mot
-   («ça se dit autrement chez moi »), éditer sa propre variante tant qu'elle
-   est seule, et la carte interactive elle-même (étape 4, prototype à
-   `/carte`). Non vérifié à l'écran — mêmes vérifications en attente que le
-   reste (point 3).
+   tranche de l'étape 5 faite et vérifiée à l'écran le 13/09/2026** : le
+   bouton `+` (un vote = un village), son retrait, et le choix du village
+   dans « Mon espace » — détail dans le doc 20, section 5. Restent : créer une
+   nouvelle variante sur un mot (« ça se dit autrement chez moi »), éditer sa
+   propre variante tant qu'elle est seule, et la carte interactive elle-même
+   (étape 4, prototype à `/carte`, toujours à juger à l'écran).
 6. **Reporter les quatre correctifs de build sur `elsass-dico:main`** quand
    `dev` passera en PR — même `Dockerfile`, même besoin de Build Variable
    `DATABASE_URL`.

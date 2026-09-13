@@ -413,9 +413,11 @@ rapport d'un script**. Elle a rattrapé une erreur à chacune des cinq campagnes
   qu'au chrono, sur le bundle produit : il ne contient ni `supabase`, ni
   `@prisma`, ni `pg` — seulement `HS256` et `SESSION_SECRET`.
 
-  Reste **la connexion Odoo bout en bout**, qui demande un vrai mot de passe :
-  à faire par John. Le code du login est en place, `authentifierAupresDOdoo()`
-  est inchangé, et c'est le seul chemin qui crée un membre.
+  **Connexion Odoo bout en bout confirmée par John le 13/09/2026**, sur
+  `elsass-dico-dev.theelsassisch.com` — `authentifierAupresDOdoo()` a créé le
+  membre à sa première connexion, `SESSION_SECRET` est donc bien posée en
+  runtime (l'app aurait sinon refusé bruyamment). Premier admin amorcé dans la
+  foulée (`scripts/promouvoir-admin.mts theelsassisch@gmail.com`).
 
   Détail dans `21-REPRISE.md`.
 - **Étape 3 (`/village`, `/prenom`)** — ✅ vérifiée le 13/09/2026 par la barrière

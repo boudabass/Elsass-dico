@@ -16,8 +16,9 @@
 | **Base de production chargée** | ✅ **fait le 12/09**, 11 contrôles passent |
 | Fond de carte autonome | ✅ fait le 12/09 — `public/carte/contours.topojson` |
 | Prototype de carte | ✅ `/carte` et `/sources`, **à juger à l'écran** |
-| **Auth autonome, Supabase dehors** | ✅ **fait le 13/09** — étape 2 |
+| **Auth autonome, Supabase dehors** | ✅ **fait le 13/09** — étape 2, connexion Odoo bout en bout confirmée par John |
 | **Fiches publiques village/prénom** | ✅ **fait et déployé le 13/09** — étape 3 partielle, vérifié sur `elsass-dico-dev.theelsassisch.com` |
+| **Premier admin amorcé** | ✅ **fait le 13/09** — `theelsassisch@gmail.com` |
 | Le reste (`/` présentation, carte, admin, contribution) | ⬜ suite de l'étape 3, étapes 4-5 |
 
 **La base Postgres de Coolify contient le dictionnaire dérivé.** Supabase est
@@ -337,23 +338,37 @@ détail complet dans `CLAUDE.md`, section « Fiches publiques village et prénom
 200, « Ambroise — Àmbrosi » ; un slug inexistant → 404 ; `/` (recherche
 authentifiée) → 307 vers `/login`.
 
+## Connexion et premier admin — faits le 13/09/2026
+
+John s'est connecté sur `elsass-dico-dev.theelsassisch.com` avec
+`theelsassisch@gmail.com` (portail Odoo) : la connexion crée le membre à la
+première connexion, et elle a fonctionné — donc `SESSION_SECRET` est bien posée
+en runtime sur Coolify (l'app aurait sinon refusé bruyamment de créer une
+session, cf. `src/lib/session.ts`). `scripts/promouvoir-admin.mts
+theelsassisch@gmail.com` lancé dans la foulée (port 5444 rouvert le temps de la
+commande) : `membre -> admin`, confirmé par le script. Effectif immédiatement à
+la reconnexion, sinon sous 30 minutes.
+
 ## Ce qui reste
 
-1. **Poser `SESSION_SECRET` dans Coolify** (runtime, jamais une Build Variable) —
-   32 caractères minimum, sinon l'app refuse de démarrer une session. Et retirer
-   les deux Build Variables `NEXT_PUBLIC_SUPABASE_*`, qui n'ont plus d'effet :
-   les laisser ferait croire qu'elles en ont.
-2. **Se connecter une fois**, puis lancer `scripts/promouvoir-admin.mts`.
-3. **Juger à l'écran** — le prototype de carte et les écrans refaits à l'étape 2
-   (`/village`/`/prenom` sont désormais vérifiés, cf. ci-dessus). Toujours pas vu
-   dans un vrai navigateur, trois sessions de suite : Chrome force `https://` sur
-   le serveur de dev, qui est en HTTP, et `next dev --experimental-https` bute
-   sur l'élévation de privilèges que mkcert demande.
+1. **Refermer le port 5444** une fois cette session de vérifications finie —
+   rouvert à plusieurs reprises le 13/09/2026 (build, puis promotion admin),
+   Coolify le referme seul au bout d'une heure sinon.
+2. Retirer les deux Build Variables `NEXT_PUBLIC_SUPABASE_*` sur Coolify, qui
+   n'ont plus d'effet depuis le 12/09 : les laisser ferait croire qu'elles en
+   ont.
+3. **Juger à l'écran, en vrai navigateur** — le prototype de carte, les écrans
+   refaits à l'étape 2, `/village`/`/prenom` (vérifiés en `curl` seulement,
+   cf. ci-dessus), et `/admin` avec le compte fraîchement promu. Bloqué depuis
+   trois sessions par le HTTPS forcé de Chrome sur le serveur de dev local (en
+   HTTP), et `next dev --experimental-https` butant sur mkcert — mais rien
+   n'empêche de juger directement sur `elsass-dico-dev.theelsassisch.com`, en
+   HTTPS réel, maintenant que c'est déployé.
 4. La suite de l'étape 3 (`/` en présentation publique — déplace la recherche
    ailleurs, décision non prise ; écran admin des signalements et des sources)
    et les étapes 4-5 du doc 20 (carte, contribution).
-5. **Reporter ces quatre correctifs de build sur `elsass-dico:main`** quand `dev`
-   passera en PR — même `Dockerfile`, même besoin de Build Variable
+5. **Reporter les quatre correctifs de build sur `elsass-dico:main`** quand
+   `dev` passera en PR — même `Dockerfile`, même besoin de Build Variable
    `DATABASE_URL`.
 
 ## Reprendre

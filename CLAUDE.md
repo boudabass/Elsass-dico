@@ -2154,6 +2154,17 @@ le reste de l'étape 2 — et à reporter sur `elsass-dico:main` quand `dev`
 passera en PR : les quatre correctifs de build ci-dessus s'appliquent au même
 `Dockerfile`, donc au même déploiement.
 
+### Connexion Odoo bout en bout et premier admin, faits par John (13/09/2026)
+
+`elsass-dico-dev.theelsassisch.com`, `theelsassisch@gmail.com` : la connexion a
+créé le membre à la première connexion et posé une session — preuve en passant
+que `SESSION_SECRET` est bien réglée en runtime sur Coolify, sans quoi l'app
+aurait refusé bruyamment plutôt que de laisser passer une connexion (cf.
+`src/lib/session.ts`). `scripts/promouvoir-admin.mts theelsassisch@gmail.com`
+lancé dans la foulée (port 5444 rouvert le temps de la commande, à refermer) :
+`membre -> admin`, confirmé par le script — ce qui clôt le dernier point ouvert
+de l'étape 2 (« connexion Odoo bout en bout à faire par John »).
+
 ## Règles de travail
 
 - Ne jamais inventer de traduction alsacienne, même pour un exemple ou un test.

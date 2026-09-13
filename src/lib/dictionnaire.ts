@@ -44,6 +44,10 @@ export interface FormeAffichee {
 export interface VarianteDetaillee extends FormeAffichee {
     sources: { nom: string; url: string | null }[]
     villages: { id: number; nom: string; slug: string }[]
+    /** Le membre de la session a-t-il déjà attaché son village à cette forme ?
+     *  Absent sur les fiches publiques (/village, /prenom), qui n'ont pas de
+     *  session — seul `chargerLemme()` (/entree/[id]) le renseigne. */
+    monVote?: boolean
 }
 
 /** Une forme telle qu'elle apparaît dans une LISTE : la graphie, et de quoi

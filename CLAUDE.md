@@ -2246,6 +2246,62 @@ Complète les trois écrans admin du doc 20 (« Admin, trois écrans » —
   `/login` en visitant `/admin/signalements`) — à confirmer à la
   reconnexion.
 
+## Première tranche de la contribution : le vote et le village (13/09/2026)
+
+Suite logique après l'étape 3 (écrans admin) : la session admin de John avait
+expiré, bloquant la vérification à l'écran des écrans admin — plutôt
+qu'attendre, la première tranche de l'étape 5 du doc 20 (contribution) a été
+prise, puisqu'elle ne dépend d'aucune session existante à rejouer.
+
+- **Un vote = un village** (doctrine du 11/09) : `src/app/actions/votes.ts`
+  crée un `Temoignage{membreId, communeId}` — jamais `sourceId`/`attestationId`
+  — via `voterPourVarianteAction()`, et `retirerVoteAction()` le supprime.
+  `Membre.communeId` (posé par `definirVillageAction()`,
+  `src/app/actions/membres.ts`) ne fait que **pré-remplir** un futur vote : un
+  témoignage déjà posé ne bouge pas si le membre change de village ensuite,
+  parce que `communeId` est porté par le témoignage — un des quatre points non
+  négociables du modèle (doc 20).
+- **Le gate se relit en base, jamais sur le cookie.** La session (30 min) porte
+  `communeId` depuis l'étape 2, mais ne se resynchronise qu'à son
+  renouvellement : voter juste après avoir choisi son village doit marcher
+  tout de suite, donc `voterPourVarianteAction()` relit `Membre.communeId` en
+  base à chaque appel plutôt que de faire confiance au jeton.
+- **`upsert` sur `(varianteId, membreId)`, pas `create`** : un double clic ne
+  doit pas remonter une erreur de contrainte d'unicité à l'écran.
+- **Le sélecteur de village** (`src/app/dashboard/selecteur-village.tsx`) est
+  un `<select>` en ligne dans « Mon espace », triée par `Commune.population`
+  décroissante — c'est la raison d'être documentée de ce champ dans le schéma
+  depuis le 12/09 (« ordonner un sélecteur de 1 605 entrées par ce que
+  l'utilisateur cherche en premier »). **Simplification assumée** : le doc 20
+  parle d'une « modale » ; ici c'est un sélecteur en ligne, parce que la carte
+  qui l'entoure dans « Mon espace » ne s'affiche déjà que tant que le village
+  manque — même économie que les CTA simplifiés du 29/08/2026.
+- **`CarteVariante` reçoit un slot optionnel `accessoire`**, fourni seulement
+  par `/entree/[id]` (authentifié) : les fiches publiques `/village` et
+  `/prenom`, sans session, ne le passent pas et restent inchangées. Le bouton
+  lui-même (`VoteVariante`,`src/app/entree/[id]/vote-variante.tsx`) n'a pas
+  d'état local optimiste — un succès appelle `router.refresh()`, qui refait
+  tourner la page côté serveur, pour que `monVote` et le compte de villages
+  reviennent à jour ensemble.
+- **`chargerLemme()`** (`src/app/actions/recherche.ts`, le chemin authentifié)
+  ajoute `monVote` sur chaque variante quand une session existe ; les fiches
+  publiques, qui appellent `chargerLemmeDetaille()` directement, n'y touchent
+  pas.
+- **Vérifié** : `tsc --noEmit` propre ; un vrai `pnpm build` (dev arrêté avant,
+  relancé après) a généré les 966/966 pages, seul l'EPERM symlink Windows
+  connu suit. Sur la base réelle, en lecture seule (script jetable, supprimé
+  après usage — jamais d'écriture de test sur la production) : les 1 605
+  communes portent toutes une `population` (Strasbourg en tête, 293 771),
+  0 témoignage de locuteur n'existe encore (attendu, fonctionnalité neuve), et
+  le seul membre de la base (`theelsassisch@gmail.com`) n'a pas de village —
+  le sélecteur s'affichera bien pour lui à la prochaine connexion.
+- **Non vérifié à l'écran** : voter, retirer un vote et choisir un village
+  restent à cliquer en vrai une fois redéployé — même limite que le reste de
+  cette session, la session admin de John ayant expiré.
+- **Restent hors de cette tranche** : créer une nouvelle variante sur un mot
+  (« ça se dit autrement chez moi »), éditer sa propre variante tant qu'elle
+  est seule, et la carte interactive (étape 4).
+
 ## Règles de travail
 
 - Ne jamais inventer de traduction alsacienne, même pour un exemple ou un test.

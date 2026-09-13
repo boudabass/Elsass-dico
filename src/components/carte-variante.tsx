@@ -9,7 +9,18 @@ import type { VarianteDetaillee } from "@/lib/dictionnaire";
 // Deux blocs séparés, qui ne se totalisent jamais : une source écrite n'est
 // pas un village, un village n'est pas une source (erreur de la PR #41,
 // trouvée en production le 09/09/2026).
-export function CarteVariante({ variante: v }: { variante: VarianteDetaillee }) {
+//
+// `accessoire` est un slot optionnel pour le bouton de vote (doc 20, étape 5) :
+// il n'est fourni que par /entree/[id] (authentifié). Les fiches publiques
+// /village et /prenom, qui n'ont pas de session, ne le passent pas et ce
+// composant reste identique pour elles.
+export function CarteVariante({
+  variante: v,
+  accessoire,
+}: {
+  variante: VarianteDetaillee
+  accessoire?: React.ReactNode
+}) {
   return (
     <div className="rounded-lg border border-border bg-card p-3.5">
       <div className="flex flex-wrap items-center gap-2">
@@ -66,6 +77,8 @@ export function CarteVariante({ variante: v }: { variante: VarianteDetaillee }) 
           Personne n&apos;a encore dit d&apos;où vient cette forme.
         </p>
       )}
+
+      {accessoire && <div className="mt-2.5">{accessoire}</div>}
     </div>
   );
 }

@@ -9,6 +9,7 @@ import { useAuth } from "@/components/auth-provider";
 import { ListSkeleton } from "@/components/ui/list-skeleton";
 import { useListeMemorisee } from "@/hooks/use-liste-memorisee";
 import { cleCache } from "@/lib/cache-navigation";
+import { SelecteurVillage } from "./selecteur-village";
 
 // Écran 6 du handoff mobile : « Mon espace ».
 //
@@ -24,7 +25,7 @@ import { cleCache } from "@/lib/cache-navigation";
 export default function MonEspacePage() {
     const { session, role, deconnexion } = useAuth();
 
-    const { donnees, premierChargement } = useListeMemorisee<MonEspace | null>({
+    const { donnees, premierChargement, rafraichir } = useListeMemorisee<MonEspace | null>({
         cle: session ? cleCache("mon-espace", session.membreId) : null,
         charger: monEspaceAction,
     });
@@ -84,6 +85,7 @@ export default function MonEspacePage() {
                                     que tu reconnais. Le choix se fera dans une liste —
                                     rien n&apos;est déduit de ta position.
                                 </p>
+                                <SelecteurVillage onDefini={rafraichir} />
                             </div>
                         )}
 

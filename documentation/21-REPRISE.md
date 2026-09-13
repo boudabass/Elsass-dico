@@ -391,7 +391,14 @@ la reconnexion, sinon sous 30 minutes.
    Restent hors périmètre de cet écran : l'édition de sa propre variante et le
    retrait de son propre `+` (doc 20, ligne « Correction »), qui relèvent de
    l'étape 5 (contribution), pas de l'admin.
-5. Les étapes 4-5 du doc 20 (carte interactive, contribution).
+5. Les étapes 4-5 du doc 20 (carte interactive, contribution). **Première
+   tranche de l'étape 5 faite le 13/09/2026** : le bouton `+` (un vote = un
+   village), son retrait, et le choix du village dans « Mon espace » — détail
+   dans le doc 20, section 5. Restent : créer une nouvelle variante sur un mot
+   («ça se dit autrement chez moi »), éditer sa propre variante tant qu'elle
+   est seule, et la carte interactive elle-même (étape 4, prototype à
+   `/carte`). Non vérifié à l'écran — mêmes vérifications en attente que le
+   reste (point 3).
 6. **Reporter les quatre correctifs de build sur `elsass-dico:main`** quand
    `dev` passera en PR — même `Dockerfile`, même besoin de Build Variable
    `DATABASE_URL`.
@@ -402,12 +409,15 @@ Tout est sur `dev`, déployé sur `elsass-dico-dev.theelsassisch.com`. `.env.loc
 porte `DATABASE_URL`, `SESSION_SECRET` et les variables Odoo — **les variables
 Supabase n'y servent plus à rien** et peuvent partir.
 
-Les huit premiers pas de ce document — mesure du marqueur, schéma Prisma,
+Les neuf premiers pas de ce document — mesure du marqueur, schéma Prisma,
 script de dérivation, auth autonome, fiches publiques village/prénom,
 déploiement `dev`, `/` en présentation publique, écrans admin
-signalements/sources — **sont faits**. Le suivant est la carte interactive ou
-la contribution (étapes 4-5 du doc 20), ou juger à l'écran ce qui reste en
-attente (point 3 ci-dessus).
+signalements/sources, et une première tranche de la contribution (le `+`,
+son retrait, le choix du village) — **sont faits**. Le suivant est la carte
+interactive (étape 4), le reste de la contribution (nouvelle variante,
+édition de sa propre variante), ou juger à l'écran tout ce qui reste en
+attente (point 3 ci-dessus, désormais alourdi du vote et du sélecteur de
+village).
 
 ## Ce que la session distante a appris, pour ne pas le refaire
 

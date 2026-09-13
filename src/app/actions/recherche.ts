@@ -3,6 +3,7 @@
 import type { LemmeDetaille, LemmeResume, TypeTerme } from "@/lib/dictionnaire"
 import { apercusParLemme, chargerLemmeDetaille } from "@/lib/lemmes"
 import { prisma } from "@/lib/prisma"
+import { sessionActuelle } from "@/lib/session-serveur"
 
 // Recherche dans les deux sens — français → alsacien et alsacien → français.
 // Portée par Prisma depuis le 12/09/2026 ; elle passait jusque-là par la RPC
@@ -88,7 +89,25 @@ export async function rechercherAction(terme: string): Promise<LemmeResume[]> {
 /** La fiche d'un mot : toutes ses variantes, et pour chacune ce qui la fonde —
  *  sources écrites d'un côté, villages de l'autre. Jamais additionnés.
  *  Chargée par id — c'est le chemin authentifié (/entree/[id]) ; les fiches
- *  publiques (/village, /prenom) appellent `chargerLemmeDetaille()` directement. */
+ *  publiques (/village, /prenom) appellent `chargerLemmeDetaille()` directement.
+ *
+ *  Ajoute `monVote` sur chaque variante quand une session existe — c'est ce qui
+ *  distingue ce chemin du chemin public, qui ne connaît aucun membre. */
 export async function chargerLemme(id: string): Promise<LemmeDetaille | null> {
-    return chargerLemmeDetaille({ id })
+    const lemme = await chargerLemmeDetaille({ id })
+    if (!lemme) return null
+
+    const session = await sessionActuelle()
+    if (!session) return lemme
+
+    const mesTemoignages = await prisma.temoignage.findMany({
+        where: { membreId: session.membreId, varianteId: { in: lemme.variantes.map((v) => v.id) } },
+        select: { varianteId: true },
+    })
+    const mesVariantes = new Set(mesTemoignages.map((t) => t.varianteId))
+
+    return {
+        ...lemme,
+        variantes: lemme.variantes.map((v) => ({ ...v, monVote: mesVariantes.has(v.id) })),
+    }
 }

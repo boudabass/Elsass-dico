@@ -101,6 +101,29 @@ export async function monEspaceAction(): Promise<MonEspace | null> {
     }
 }
 
+/** Choix du village dans « Mon espace » (doc 20, étape 5 : « profil sans
+ *  village → une modale le demande une fois, et le mémorise »). Écrit sur le
+ *  profil, qui ne fait que PRÉ-REMPLIR un futur vote — un témoignage déjà posé
+ *  ne bouge pas si le membre corrige son village ensuite (`Temoignage.communeId`
+ *  est porté par le témoignage, pas seulement relu du profil). */
+export async function definirVillageAction(communeId: number): Promise<Resultat> {
+    const session = await sessionActuelle()
+    if (!session) return { succes: false, erreur: "Connexion requise" }
+
+    const commune = await prisma.commune.findUnique({ where: { id: communeId }, select: { id: true } })
+    if (!commune) return { succes: false, erreur: "Village introuvable" }
+
+    try {
+        await prisma.membre.update({ where: { id: session.membreId }, data: { communeId } })
+    } catch (erreur) {
+        console.error("[Membres] Village non enregistré:", erreur)
+        return { succes: false, erreur: "Enregistrement impossible" }
+    }
+
+    revalidatePath('/dashboard')
+    return { succes: true, message: "Village enregistré" }
+}
+
 export async function changerRoleAction(membreId: string, role: string): Promise<Resultat> {
     const admin = await adminExige()
     if (!admin) return { succes: false, erreur: REFUS }

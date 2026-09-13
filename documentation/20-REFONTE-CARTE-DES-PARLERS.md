@@ -381,12 +381,60 @@ confirmé, **vérification à l'écran en attente** d'une reconnexion admin.
 
 ### 5. Contribution
 
-- Sur un mot : « ça se dit autrement chez moi » → forme + village.
+- Sur un mot : « ça se dit autrement chez moi » → forme + village. **Pas fait.**
 - Sur une variante existante : bouton **`+`**, qui attache le village du profil en
   un clic. Profil sans village → une modale le demande une fois, et le mémorise.
-- Retirer son propre `+`, signaler une variante douteuse, éditer sa propre variante
-  tant qu'elle est seule.
-- Aucun vote contre, aucune suppression par les pairs.
+  **Première tranche faite le 13/09/2026** — voir plus bas.
+- Retirer son propre `+` — **fait le 13/09/2026**, même tranche. Signaler une
+  variante douteuse — fait à l'étape 3. Éditer sa propre variante tant qu'elle
+  est seule — **pas fait.**
+- Aucun vote contre, aucune suppression par les pairs — respecté :
+  `voterPourVarianteAction()` ne fait qu'ajouter ou retirer le témoignage du
+  membre courant, jamais celui d'un autre.
+
+**Première tranche — le `+` et le choix du village, faite le 13/09/2026.**
+`Temoignage.membreId + communeId` (« un vote = un village ») via
+`src/app/actions/votes.ts` (`voterPourVarianteAction`, `retirerVoteAction`) et
+`src/app/actions/communes.ts` (`listerCommunesAction`, triée par
+`population` décroissante — c'est la raison d'être de ce champ, posée en
+commentaire du schéma dès le 12/09). `definirVillageAction`
+(`src/app/actions/membres.ts`) écrit `Membre.communeId`, qui ne fait que
+**pré-remplir** un futur vote : un témoignage déjà posé ne bouge pas si le
+membre corrige son village ensuite, parce que `communeId` est porté par le
+témoignage et pas seulement relu du profil (un des quatre points non
+négociables du modèle, plus haut dans ce document).
+
+- **Simplification assumée** : la « modale » du doc devient un sélecteur en
+  ligne dans « Mon espace » (`src/app/dashboard/selecteur-village.tsx`) — la
+  carte qui l'entoure ne s'affiche déjà que tant que le village manque, ce qui
+  revient à ne le demander qu'une fois sans ouvrir un second écran. Même
+  economie de moyens que les CTA simplifiés du 29/08/2026.
+- **Le vote se gate en base, jamais sur le cookie de session.** `Session` porte
+  `communeId` depuis l'étape 2, mais le jeton court dure 30 min et ne se
+  resynchronise pas au fil de l'eau : `voterPourVarianteAction()` relit le
+  village du membre en base à chaque appel, pour qu'un village tout juste
+  choisi puisse voter immédiatement, pas seulement après un renouvellement de
+  jeton.
+- **`upsert` plutôt que `create`** sur `(varianteId, membreId)` : un double
+  clic ne doit pas remonter une erreur de contrainte d'unicité à l'écran, voter
+  deux fois pour son propre village est un no-op.
+- `VoteVariante` (`src/app/entree/[id]/vote-variante.tsx`) n'a pas d'état
+  local optimiste : un succès appelle `router.refresh()`, qui refait tourner
+  `/entree/[id]` côté serveur — `monVote` et le compte de villages reviennent à
+  jour ensemble, sans risque de désaccord entre les deux valeurs.
+- `CarteVariante` (`src/components/carte-variante.tsx`) reçoit un slot
+  optionnel `accessoire`, fourni seulement par `/entree/[id]` (authentifié) :
+  les fiches publiques `/village` et `/prenom`, sans session, ne le passent
+  pas et restent identiques.
+- **Vérifié** : `tsc --noEmit` propre, un vrai `pnpm build` a généré les
+  966/966 pages (dev arrêté avant, relancé après — seul l'EPERM symlink
+  Windows connu suit). Sur la base réelle, en lecture seule : les 1 605
+  communes portent toutes une population (Strasbourg en tête, 293 771),
+  0 témoignage de locuteur n'existe encore (attendu — fonctionnalité neuve),
+  le seul membre de la base (`theelsassisch@gmail.com`) n'a pas de village —
+  le sélecteur s'affichera bien pour lui. **Non vérifié à l'écran** : voter,
+  choisir un village et retirer un `+` restent à cliquer en vrai, une fois
+  redéployé.
 
 ## Tranché par défaut, à corriger si besoin
 

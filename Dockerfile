@@ -1,5 +1,12 @@
 # Stage 1: Build the Next.js application
-FROM node:20-alpine AS builder
+#
+# Node 22 et non 20 : pnpm 11 charge `node:sqlite`, un module interne apparu en
+# Node 22.13. Sur node:20-alpine, `pnpm install` meurt sur
+# ERR_UNKNOWN_BUILTIN_MODULE — pnpm le dit d'ailleurs dans un avertissement,
+# juste avant de planter. Découvert au premier build Coolify après le passage en
+# pnpm 11 : ce couple de versions ne se vérifie PAS en local, où Node est déjà
+# en 24. Un `tsc` et un `next build` propres ne prouvent rien sur l'image.
+FROM node:22-alpine AS builder
 
 # Install pnpm. Version alignée sur celle du poste qui écrit le lockfile : la
 # 10.33.2 lisait bien le lockfileVersion 9.0, mais elle ignore le bloc
@@ -9,8 +16,19 @@ RUN corepack enable && corepack prepare pnpm@11.21.0 --activate
 
 WORKDIR /app
 
-# Copy package files
-COPY package.json pnpm-lock.yaml* ./
+# Copy package files.
+#
+# `pnpm-workspace.yaml` EN FAIT PARTIE : c'est lui qui porte `allowBuilds`, donc
+# l'autorisation donnée au postinstall de Prisma d'installer son schema-engine.
+# Sans ce fichier, pnpm 11 saute ces scripts et l'image se construit quand même —
+# la panne n'apparaîtrait qu'au démarrage, sur `prisma migrate deploy`.
+COPY package.json pnpm-lock.yaml* pnpm-workspace.yaml ./
+
+# Le schéma AVANT l'installation : `postinstall` lance `prisma generate`, qui
+# cherche `prisma/schema.prisma`. Copier le reste du code après, comme le veut le
+# cache de couches Docker, laissait l'installation échouer sur un schéma absent.
+COPY prisma ./prisma
+COPY prisma.config.ts ./
 
 # Install dependencies
 RUN pnpm install --frozen-lockfile
@@ -32,8 +50,10 @@ COPY . .
 # n'ont plus d'effet, mais les laisser ferait croire qu'elles en ont.
 RUN pnpm build
 
-# Stage 2: Create the production-ready image
-FROM node:20-alpine
+# Stage 2: Create the production-ready image.
+# Même majeure que le builder : la sortie standalone embarque des dépendances
+# résolues pour cette version-là.
+FROM node:22-alpine
 
 # Install CA certificates for HTTPS requests
 RUN apk add --no-cache ca-certificates
@@ -68,6 +88,7 @@ COPY --from=builder /app/.next/static ./.next/static
 # postinstall qui pose le schema-engine, dont `migrate deploy` a besoin.
 COPY --from=builder /app/prisma ./prisma
 COPY --from=builder /app/prisma.config.ts ./prisma.config.ts
+COPY --from=builder /app/package.json ./package.json
 RUN npm install --no-save --no-package-lock prisma@7.10.0 dotenv
 
 COPY docker-entrypoint.sh /usr/local/bin/

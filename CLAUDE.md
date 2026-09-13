@@ -2003,6 +2003,85 @@ verbatim de la source, que la recherche trouve), et les grandes lettres dépasse
 le plafond de 200 — l'écran affiche « 200 premiers sur 3 006 » plutôt que de
 laisser lire une page comme un total.
 
+## Fiches publiques village et prénom (13/09/2026)
+
+**Début de l'étape 3 du doc 20** : `/village/[slug]` et `/prenom/[slug]`, les
+seules pages publiques indexables (compte obligatoire partout ailleurs).
+Générées statiquement (`generateStaticParams`). `/` reste pour l'instant la
+recherche authentifiée — en faire la home de présentation publique déplace la
+recherche ailleurs et touche `AppNavShell`, décision distincte non prise ici.
+
+- **Un toponyme EST une commune** (doc 20) : `/village/[slug]` n'est pas un
+  second modèle de données, c'est le lemme rattaché à la commune
+  (`Lemme.communeId`, `@unique`) vu depuis l'autre bout. `chargerVillage()`
+  (`src/lib/villages.ts`) délègue au même chargeur que la fiche authentifiée.
+- **819 communes sur 1 605 ont une forme attestée** au 13/09/2026 — chiffre
+  vérifié en base, qui corrige le 954 écrit dans le doc 20 avant le 12/09 (qui
+  comptait des attestations, pas des communes rattachées). Seules elles sont
+  pré-rendues ; les 786 autres restent joignables à la même URL, rendues à la
+  demande, en `noindex` posé par la page — sans lien vers une contribution qui
+  n'existe pas encore (étape 5), même règle que le « lien mort pire qu'une
+  absence » déjà appliquée à la page de recherche.
+- **131 prénoms attestés**, tous avec un slug : contrairement aux villages, un
+  lemme `prenom` naît toujours d'une attestation, donc n'a pas d'état « sans
+  forme » à gérer.
+- **`chargerLemmeDetaille()` extrait de `chargerLemme()`** (`src/lib/lemmes.ts`,
+  déplacé depuis `app/actions/recherche.ts`) : prend un sélecteur Prisma unique
+  plutôt qu'un id, pour être appelé par id (`/entree/[id]`, authentifié) ou par
+  slug (`/prenom/[slug]`, public). La fiche village s'y ajoute par `communeId`.
+- **`CarteVariante` extrait en composant** (`src/components/carte-variante.tsx`)
+  depuis `/entree/[id]` : trois écrans l'affichent maintenant, ce qui justifiait
+  l'extraction — elle ne l'aurait pas fait pour un seul.
+
+### `generateStaticParams` a besoin de la base au build — conflit avec la règle du 12/09
+
+Trouvé en écrivant ces deux routes, avant tout `git push` : le commentaire du
+`Dockerfile` du 12/09 dit « plus aucune variable de build, rien de sensible gravé
+dans l'image » — `DATABASE_URL` y est strictement runtime. Mais
+`generateStaticParams` tourne PENDANT `next build`, y compris dans le conteneur
+Coolify, et ces deux routes ont besoin de lire la base à ce moment-là. Les deux
+règles se contredisaient telles quelles.
+
+**Décision de John, 13/09/2026 : secret BuildKit, pas une Build Variable.**
+`Dockerfile` — `RUN --mount=type=secret,id=database_url`, qui monte la valeur en
+tmpfs pour la seule durée de l'instruction `pnpm build` et ne l'écrit dans aucune
+couche de l'image, contrairement à une Build Variable Coolify classique (qui
+persiste dans l'historique). Échoue bruyamment si le secret manque, plutôt que de
+construire une image aux deux routes silencieusement non pré-rendues. Ajout de
+`# syntax=docker/dockerfile:1` en toute première ligne du fichier — condition de
+BuildKit pour reconnaître `--mount`, qu'un commentaire ordinaire placé avant
+désactiverait sans erreur visible.
+
+**Non confirmé côté Coolify.** Une recherche sur le sujet est ambiguë : Coolify
+détecte bien si le serveur de build supporte BuildKit/secrets
+(`dockerSecretsSupported`, réglage `use_build_secrets`), mais une discussion
+GitHub ouverte par un utilisateur (coollabsio/coolify#5328, sans réponse) doute
+que l'UI expose un `--secret` à **id libre** comme `database_url` — le mécanisme
+réel pourrait plutôt être un fichier `.env` de build écrit avant coup puis
+remplacé, sans passer par la syntaxe `--mount` du Dockerfile. **À vérifier au
+prochain déploiement `dev`** : si `pnpm build` y échoue sur le secret manquant, le
+repli documenté dans le `Dockerfile` est de marquer `DATABASE_URL` disponible au
+build à l'ancienne (comme les `NEXT_PUBLIC_SUPABASE_*` avant le 12/09) — un
+compromis réel (le mot de passe atterrit dans l'historique des couches) mais
+moindre, l'image n'étant jamais poussée sur un registre public.
+
+### Vérifié contre la vraie base, pas seulement par `tsc`
+
+`tsc --noEmit` propre, mais un vrai `next build` local a échoué comme d'habitude
+sur l'EPERM symlink du mode standalone Windows — **après** avoir affiché
+« Generating static pages (963/963) », donc après avoir rendu les 819 + 131 pages
+sans une seule erreur de requête. Le `prerender-manifest.json` final n'a pas été
+écrit (le crash a coupé avant), donc le contrôle habituel sur l'artefact ne
+s'appliquait pas ; la couche de données a été vérifiée directement (`tsx`,
+`DATABASE_URL` injectée via `node --env-file`, port 5444 rouvert le temps du
+contrôle puis à refermer) : `chargerVillage("colmar-68066")` rend `Kolmer` /
+`Colmer`, exactement ce que `21-REPRISE.md` annonçait depuis le 12/09 ; un slug
+inexistant rend `null` (→ `notFound()`) ; les comptes de 819 et 131 recoupent ceux
+du doc 20.
+
+**Non vérifié à l'écran** : comme le reste de l'étape 2, `next dev` bute sur
+l'HTTPS forcé par Chrome sur ce poste. À confirmer par John une fois déployé.
+
 ## Règles de travail
 
 - Ne jamais inventer de traduction alsacienne, même pour un exemple ou un test.

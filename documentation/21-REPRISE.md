@@ -17,7 +17,8 @@
 | Fond de carte autonome | ✅ fait le 12/09 — `public/carte/contours.topojson` |
 | Prototype de carte | ✅ `/carte` et `/sources`, **à juger à l'écran** |
 | **Auth autonome, Supabase dehors** | ✅ **fait le 13/09** — étape 2 |
-| Le reste (écrans, carte, contribution) | ⬜ étapes 3 à 5 |
+| **Fiches publiques village/prénom** | ✅ **fait le 13/09** — étape 3 partielle, `/village/[slug]` + `/prenom/[slug]` |
+| Le reste (`/` présentation, carte, admin, contribution) | ⬜ suite de l'étape 3, étapes 4-5 |
 
 **La base Postgres de Coolify contient le dictionnaire dérivé.** Supabase est
 intact et reste la base de l'app actuelle, mais plus rien ne le lit : la chaîne
@@ -307,19 +308,32 @@ comme un total.
 
 ## Ce qui reste
 
-1. **Refermer l'accès public de la base** (cf. plus haut) s'il ne s'est pas
-   refermé seul.
+1. **Refermer l'accès public de la base** (cf. plus haut) — rouverte à nouveau le
+   13/09/2026 pour vérifier `/village` et `/prenom` contre les vraies données, à
+   refermer après.
 2. **Poser `SESSION_SECRET` dans Coolify** (runtime, jamais une Build Variable) —
    32 caractères minimum, sinon l'app refuse de démarrer une session. Et retirer
    les deux Build Variables `NEXT_PUBLIC_SUPABASE_*`, qui n'ont plus d'effet :
    les laisser ferait croire qu'elles en ont.
-3. **Se connecter une fois**, puis lancer `scripts/promouvoir-admin.mts`.
-4. **Juger à l'écran** — le prototype de carte, et les écrans refaits à l'étape 2.
-   Non vérifiés visuellement, deux sessions de suite : Chrome force `https://` sur
-   le serveur de dev, qui est en HTTP, et `next dev --experimental-https` bute sur
-   l'élévation de privilèges que mkcert demande. Le contrôle s'est donc fait en
-   `curl` sur le HTML rendu et sur le bundle produit.
-5. Les étapes 3 à 5 du doc 20 (écrans publics, carte, contribution).
+3. **Confirmer le secret de build Coolify pour `DATABASE_URL`** (ajouté le
+   13/09/2026, `Dockerfile`) : `generateStaticParams` de `/village` et `/prenom`
+   en a besoin au build. Écrit en secret BuildKit (`--mount=type=secret`), jamais
+   une Build Variable classique — mais l'UI Coolify n'expose peut-être pas de
+   `--secret` à id libre (doute non levé, discussion GitHub
+   coollabsio/coolify#5328 restée sans réponse). Si le prochain déploiement `dev`
+   échoue sur `pnpm build`, c'est le premier endroit à regarder ; le repli est
+   documenté dans le commentaire du `Dockerfile`.
+4. **Se connecter une fois**, puis lancer `scripts/promouvoir-admin.mts`.
+5. **Juger à l'écran** — le prototype de carte, les écrans refaits à l'étape 2, et
+   `/village`/`/prenom` (étape 3, vérifiés en base et par un `tsc` propre, jamais
+   vus rendus). Non vérifiés visuellement, trois sessions de suite : Chrome force
+   `https://` sur le serveur de dev, qui est en HTTP, et
+   `next dev --experimental-https` bute sur l'élévation de privilèges que mkcert
+   demande. Le contrôle s'est donc fait en `curl` sur le HTML rendu et sur le
+   bundle produit.
+6. La suite de l'étape 3 (`/` en présentation publique — déplace la recherche
+   ailleurs, décision non prise ; écran admin des signalements et des sources)
+   et les étapes 4-5 du doc 20 (carte, contribution).
 
 ## Reprendre
 
@@ -327,11 +341,11 @@ Tout est sur `dev`. `.env.local` porte `DATABASE_URL`, `SESSION_SECRET` et les
 variables Odoo — **les variables Supabase n'y servent plus à rien** et peuvent
 partir.
 
-Les quatre premiers pas de ce document — mesure du marqueur, schéma Prisma,
-script de dérivation, auth autonome — **sont faits**. Le suivant est l'étape 3 du
-doc 20 : les écrans publics générés statiquement (`/village/[slug]`,
-`/prenom/[slug]`), dont le filtre doit être **serveur** — une barrière qui vit
-dans le navigateur n'en est pas une.
+Les cinq premiers pas de ce document — mesure du marqueur, schéma Prisma, script
+de dérivation, auth autonome, fiches publiques village/prénom — **sont faits**.
+Le suivant est la suite de l'étape 3 : soit la home de présentation publique à
+`/` (déplace la recherche authentifiée ailleurs, décision de routage non prise),
+soit les trois écrans admin (membres — déjà là —, signalements, sources).
 
 ## Ce que la session distante a appris, pour ne pas le refaire
 

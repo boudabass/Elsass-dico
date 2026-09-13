@@ -248,12 +248,46 @@ jamais ce qu'on en déduit.
 
 ### 3. Écrans
 
-**Public, sans compte** — `/` présentation, `/village/[slug]` et `/prenom/[slug]`
-**générées statiquement** (`generateStaticParams`) : zéro requête au runtime, donc
-zéro CPU, et c'est tout ce que Google verra. Ne générer que les communes **qui ont
-au moins une forme attestée** (954 sur 1 605) : une page vide est du thin content
-qui dessert le référencement. Les autres répondent en `noindex`, avec un appel à
-contribution.
+**`/village/[slug]` et `/prenom/[slug]` — ✅ faites le 13/09/2026.** `/` reste la
+recherche authentifiée pour l'instant ; en faire la home de présentation publique
+déplacerait la recherche ailleurs et touche à la nav (`AppNavShell`), une décision
+distincte non tranchée ici.
+
+Générées statiquement (`generateStaticParams`), sur le lemme rattaché à la
+commune (`Lemme.communeId`, unique — un toponyme EST une commune, pas un second
+modèle). Ne génère que les communes **qui ont au moins une forme attestée** —
+**819 sur 1 605** au 13/09/2026, chiffre revu depuis le 954 écrit plus haut (qui
+comptait des attestations, pas des communes rattachées, cf. `21-REPRISE.md`) : une
+page vide est du thin content qui dessert le référencement. Les 786 autres restent
+joignables à la même URL (`dynamicParams` par défaut), rendues à la demande, en
+`noindex` posé par la page elle-même — sans lien vers un geste de contribution qui
+n'existe pas encore (étape 5), pour ne pas répéter l'erreur du lien mort. Les
+prénoms n'ont pas cette distinction : chaque lemme `prenom` naît d'une
+attestation, donc porte toujours un slug et une forme (131 au 13/09/2026).
+
+La carte de variante (sources écrites d'un bloc, villages de l'autre, jamais
+additionnés — l'erreur de la PR #41) est un composant partagé
+(`src/components/carte-variante.tsx`), extrait de la fiche authentifiée
+`/entree/[id]` : trois écrans l'affichent maintenant, ce qui justifiait
+l'extraction — elle ne l'aurait pas fait pour un seul.
+
+**Trouvé en construisant ces deux routes : `generateStaticParams` a besoin de la
+base AU BUILD**, y compris sur le serveur Coolify — ce qui contredit à la lettre
+le commentaire du `Dockerfile` du 12/09 (« plus aucune variable de build, rien de
+sensible gravé dans l'image »). Réglé côté `Dockerfile` par un secret BuildKit
+(`--mount=type=secret,id=database_url`, monté en tmpfs pour la seule instruction
+`pnpm build`, jamais écrit dans une couche) plutôt qu'une Build Variable Coolify
+classique. **Non confirmé côté Coolify** : une discussion GitHub
+(coollabsio/coolify#5328) suggère que l'UI n'expose peut-être pas de `--secret` à
+id libre — à vérifier avant le prochain déploiement `dev`, avec un repli documenté
+dans le `Dockerfile` si ce n'est pas le cas.
+
+**Vérifié contre la vraie base** (port 5444 rouvert le temps du contrôle, comme le
+12/09) : `chargerVillage("colmar-68066")` rend `Kolmer` / `Colmer`, exactement ce
+que `21-REPRISE.md` annonçait ; 819 villages et 131 prénoms comptés en
+interrogeant la couche de données directement (`tsx`, contournant l'échec EPERM du
+mode standalone Windows sur ce poste) ; un slug inexistant rend `null`
+(→ `notFound()`).
 
 **Authentifié** — recherche complète dans les deux sens (la recherche inverse
 alsacien → français est conservée). Une fiche de mot montre **toutes** les
@@ -381,9 +415,14 @@ rapport d'un script**. Elle a rattrapé une erreur à chacune des cinq campagnes
   est inchangé, et c'est le seul chemin qui crée un membre.
 
   Détail dans `21-REPRISE.md`.
-- **Étape 3** : les pages publiques ne rendent **que** villages et prénoms, y
-  compris en appelant la Server Action directement avec un terme du lexique. Le
-  filtre est serveur ; une barrière qui vit dans le navigateur n'en est pas une.
+- **Étape 3 (`/village`, `/prenom`)** — ✅ vérifiée le 13/09/2026 par la barrière
+  serveur, pas par le navigateur : `chargerVillage()` et `chargerLemmeDetaille()`
+  ne lisent que des variantes `masquee: false`, et le filtre par type de
+  `chargerLemmeDetaille({ slug })` refuse un lemme qui ne serait pas un `prenom`
+  même si son slug existe. Reste à vérifier une fois déployé sur `dev` (session
+  admin, John) : `tsc --noEmit` propre et 819/131 pages confirmées en base ne
+  disent rien du rendu à l'écran, ni du secret de build Coolify (non confirmé,
+  cf. plus haut).
 - **Étapes 4-5** : à l'écran, à trois largeurs (mobile ~390 px, tablette ~1024 px,
   desktop ~1320 px). La leçon du 29/08 — vérifier au-delà de la largeur du
   mockup — tient toujours.

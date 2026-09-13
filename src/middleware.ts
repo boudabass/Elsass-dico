@@ -16,12 +16,16 @@ import { NextResponse, type NextRequest } from "next/server"
 import { COOKIE_REFRESH, COOKIE_SESSION, lireRefresh, lireSession } from "@/lib/session"
 
 // Le compte est obligatoire (doc 20). Cette liste est donc l'exception, pas la
-// règle. L'étape 3 y ajoutera `/village/[slug]` et `/prenom/[slug]`, les seules
-// pages destinées à être indexées.
+// règle. `/village/[slug]` et `/prenom/[slug]` (étape 3, 13/09/2026) sont les
+// seules pages destinées à être indexées — y compris les communes sans forme
+// attestée, en `noindex` posé par la page elle-même : la barrière
+// d'indexation est dans les métadonnées, pas dans le middleware.
 const PUBLIC = [
     "/login",
     "/sources",
     "/api/session/",
+    "/village/",
+    "/prenom/",
 ]
 
 function estPublic(chemin: string): boolean {

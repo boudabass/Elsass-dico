@@ -1,7 +1,7 @@
 import { notFound } from "next/navigation";
 import { MapPin } from "lucide-react";
 import { AppHeader } from "@/components/app-header";
-import { BadgeConfiance } from "@/components/badge-confiance";
+import { CarteVariante } from "@/components/carte-variante";
 import { chargerLemme } from "@/app/actions/recherche";
 import { LIBELLES_TYPE_TERME } from "@/lib/dictionnaire";
 import { RangeeActions } from "./actions-row";
@@ -57,66 +57,7 @@ export default async function EntreePage({ params }: { params: Promise<{ id: str
 
         <div className="mt-2.5 flex flex-col gap-2.5">
           {lemme.variantes.map((v) => (
-            <div key={v.id} className="rounded-lg border border-border bg-card p-3.5">
-              <div className="flex flex-wrap items-center gap-2">
-                <span className="text-xl font-bold text-foreground">{v.forme}</span>
-                <BadgeConfiance nbSources={v.nbSources} nbVillages={v.nbVillages} />
-              </div>
-
-              {/* L'article défini est une colonne DÉRIVÉE : `article` +
-                  `formeSansArticle` redonne `forme` octet à octet (migration
-                  20260903010000). Rien n'est réécrit, on annote. */}
-              {v.article && (
-                <p className="mt-1 text-xs text-neutre-400">
-                  article : <span className="font-semibold">{v.article.trim()}</span>
-                </p>
-              )}
-
-              {/* Deux blocs séparés, et ils ne se totalisent jamais. Une source
-                  écrite n'est pas un village, un village n'est pas une source. */}
-              {v.sources.length > 0 && (
-                <div className="mt-2.5">
-                  <p className="text-xs font-semibold text-neutre-400">Sources écrites</p>
-                  <ul className="mt-1 flex flex-col gap-1 text-sm">
-                    {v.sources.map((s) => (
-                      <li key={s.nom}>
-                        {s.url ? (
-                          <a
-                            href={s.url}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="inline-block rounded py-0.5 underline-offset-4 transition-colors hover:text-marque-rouge-texte hover:underline focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
-                          >
-                            {s.nom}
-                          </a>
-                        ) : (
-                          <span className="text-muted-foreground">{s.nom}</span>
-                        )}
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-              )}
-
-              {v.villages.length > 0 && (
-                <div className="mt-2.5">
-                  <p className="text-xs font-semibold text-neutre-400">
-                    Villages qui disent cette forme
-                  </p>
-                  <p className="mt-1 text-sm text-muted-foreground">
-                    {v.villages.map((c) => c.nom).join(" · ")}
-                  </p>
-                </div>
-              )}
-
-              {/* La dette de données se dit, elle ne se cache pas : c'est elle
-                  qui appelle la contribution (doc 20). */}
-              {v.villages.length === 0 && (
-                <p className="mt-2.5 text-sm text-neutre-400">
-                  Personne n&apos;a encore dit d&apos;où vient cette forme.
-                </p>
-              )}
-            </div>
+            <CarteVariante key={v.id} variante={v} />
           ))}
         </div>
 

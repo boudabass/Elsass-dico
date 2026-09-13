@@ -1,7 +1,7 @@
 'use server'
 
-import type { LemmeDetaille, LemmeResume, TypeTerme, VarianteDetaillee } from "@/lib/dictionnaire"
-import { apercusParLemme } from "@/lib/lemmes"
+import type { LemmeDetaille, LemmeResume, TypeTerme } from "@/lib/dictionnaire"
+import { apercusParLemme, chargerLemmeDetaille } from "@/lib/lemmes"
 import { prisma } from "@/lib/prisma"
 
 // Recherche dans les deux sens — français → alsacien et alsacien → français.
@@ -86,80 +86,9 @@ export async function rechercherAction(terme: string): Promise<LemmeResume[]> {
 }
 
 /** La fiche d'un mot : toutes ses variantes, et pour chacune ce qui la fonde —
- *  sources écrites d'un côté, villages de l'autre. Jamais additionnés. */
+ *  sources écrites d'un côté, villages de l'autre. Jamais additionnés.
+ *  Chargée par id — c'est le chemin authentifié (/entree/[id]) ; les fiches
+ *  publiques (/village, /prenom) appellent `chargerLemmeDetaille()` directement. */
 export async function chargerLemme(id: string): Promise<LemmeDetaille | null> {
-    const lemme = await prisma.lemme.findUnique({
-        where: { id },
-        select: {
-            id: true,
-            francais: true,
-            contexte: true,
-            type: true,
-            commune: { select: { id: true, nom: true, slug: true, departement: true } },
-            variantes: {
-                where: { masquee: false },
-                select: {
-                    id: true,
-                    forme: true,
-                    article: true,
-                    formeSansArticle: true,
-                    temoignages: {
-                        select: {
-                            source: { select: { nom: true, url: true } },
-                            commune: { select: { id: true, nom: true, slug: true } },
-                        },
-                    },
-                },
-            },
-        },
-    })
-
-    if (!lemme) return null
-
-    const variantes: VarianteDetaillee[] = lemme.variantes.map((v) => {
-        // Dédoublonnage par identité, et séparément : une source qui atteste
-        // deux fois la même forme reste UNE source (règle 2 telle qu'elle
-        // survit — l'affichage de ce qui fonde), et deux membres d'un même
-        // village restent un village.
-        const sources = new Map<string, { nom: string; url: string | null }>()
-        const villages = new Map<number, { id: number; nom: string; slug: string }>()
-
-        for (const t of v.temoignages) {
-            if (t.source) sources.set(t.source.nom, t.source)
-            if (t.commune) villages.set(t.commune.id, t.commune)
-        }
-
-        return {
-            id: v.id,
-            forme: v.forme,
-            article: v.article,
-            formeSansArticle: v.formeSansArticle,
-            nbSources: sources.size,
-            nbVillages: villages.size,
-            sources: Array.from(sources.values()).sort((a, b) => a.nom.localeCompare(b.nom, 'fr')),
-            villages: Array.from(villages.values()).sort((a, b) => a.nom.localeCompare(b.nom, 'fr')),
-        }
-    })
-
-    // La forme la mieux attestée d'abord — ce n'est pas « la bonne », c'est
-    // celle que le plus de témoins écrivent. Plus de forme canonique depuis le
-    // 11/09/2026 : toutes coexistent, et l'ordre ne fait que présenter.
-    //
-    // Les deux comptes se comparent en CASCADE, jamais en somme. `nbSources +
-    // nbVillages` aurait été le chiffre unique que la doctrine interdit — une
-    // source écrite et un village ne sont pas deux unités du même genre. Ici
-    // les sources départagent d'abord, les villages ensuite.
-    variantes.sort((a, b) =>
-        b.nbSources - a.nbSources
-        || b.nbVillages - a.nbVillages
-        || a.forme.localeCompare(b.forme, 'fr'))
-
-    return {
-        id: lemme.id,
-        francais: lemme.francais,
-        contexte: lemme.contexte,
-        type: lemme.type,
-        commune: lemme.commune,
-        variantes,
-    }
+    return chargerLemmeDetaille({ id })
 }

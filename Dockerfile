@@ -1,3 +1,11 @@
+# syntax=docker/dockerfile:1
+#
+# La directive ci-dessus doit rester la toute première ligne du fichier — c'est
+# elle qui active la syntaxe BuildKit dont dépend `--mount=type=secret` plus
+# bas (13/09/2026). Un commentaire ordinaire avant elle la désactiverait sans
+# erreur visible : le build retomberait sur le parser classique, qui ne
+# connaît pas `--mount`.
+
 # Stage 1: Build the Next.js application
 #
 # Node 22 et non 20 : pnpm 11 charge `node:sqlite`, un module interne apparu en
@@ -38,17 +46,36 @@ COPY . .
 
 # Build the Next.js application.
 #
-# Plus aucune variable de build depuis le 12/09/2026 : les deux
-# `NEXT_PUBLIC_SUPABASE_*` sont parties avec Supabase. Tout ce dont l'app a
-# besoin est désormais RUNTIME — `DATABASE_URL`, `SESSION_SECRET`, `ODOO_*` —
-# donc rien de sensible n'est gravé dans l'image. C'est aussi ce qui fait qu'une
-# variable oubliée se voit au démarrage et non au build : `SESSION_SECRET`
-# manquante fait échouer la vérification de session, bruyamment, au lieu de
-# déconnecter tout le monde en silence (cf. src/lib/session.ts).
+# Revu le 13/09/2026 : `DATABASE_URL` redevient nécessaire ICI, et seulement
+# ici — `/village/[slug]` et `/prenom/[slug]` (doc 20, étape 3) lisent la base
+# dans `generateStaticParams` pour pré-rendre les fiches publiques. La règle
+# du 12/09 (« rien de sensible gravé dans l'image ») tient quand même : ce
+# n'est jamais une Build Variable Coolify (qui persisterait dans l'historique
+# des couches), mais un secret BuildKit — monté en tmpfs pour la seule durée
+# de cette instruction, jamais écrit sur le disque de l'image. `SESSION_SECRET`
+# et `ODOO_*` restent, eux, strictement RUNTIME : rien à leur sujet ne change.
 #
-# Les Build Variables correspondantes restent à retirer côté Coolify : elles
-# n'ont plus d'effet, mais les laisser ferait croire qu'elles en ont.
-RUN pnpm build
+# Échoue bruyamment si le secret manque, plutôt que de construire une image
+# aux deux routes silencieusement non pré-rendues (`dynamicParams` les
+# rendrait quand même à la demande, mais en perdant le "zéro requête au
+# runtime" qui est tout l'intérêt de la génération statique ici).
+#
+# NON CONFIRMÉ côté Coolify (13/09/2026) : la syntaxe `--mount=type=secret`
+# ci-dessous est le standard BuildKit et fonctionne avec un `docker build
+# --secret id=database_url,env=DATABASE_URL`. Mais si l'UI Coolify n'expose
+# pas un `--secret` à id libre (une discussion GitHub coollabsio/coolify#5328,
+# restée sans réponse, en doute), il faudra la solution de repli : marquer
+# `DATABASE_URL` « disponible au build » à l'ancienne (comme les
+# `NEXT_PUBLIC_SUPABASE_*` avant le 12/09), ce qui la grave dans l'historique
+# des couches de l'image — un compromis réel mais moindre, l'image n'étant
+# jamais poussée sur un registre public.
+RUN --mount=type=secret,id=database_url \
+    export DATABASE_URL="$(cat /run/secrets/database_url 2>/dev/null)" && \
+    if [ -z "$DATABASE_URL" ]; then \
+        echo "Secret de build 'database_url' manquant : requis pour generateStaticParams (/village, /prenom)." >&2; \
+        exit 1; \
+    fi && \
+    pnpm build
 
 # Stage 2: Create the production-ready image.
 # Même majeure que le builder : la sortie standalone embarque des dépendances

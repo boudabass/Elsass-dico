@@ -2042,28 +2042,28 @@ dans l'image » — `DATABASE_URL` y est strictement runtime. Mais
 Coolify, et ces deux routes ont besoin de lire la base à ce moment-là. Les deux
 règles se contredisaient telles quelles.
 
-**Décision de John, 13/09/2026 : secret BuildKit, pas une Build Variable.**
-`Dockerfile` — `RUN --mount=type=secret,id=database_url`, qui monte la valeur en
-tmpfs pour la seule durée de l'instruction `pnpm build` et ne l'écrit dans aucune
-couche de l'image, contrairement à une Build Variable Coolify classique (qui
-persiste dans l'historique). Échoue bruyamment si le secret manque, plutôt que de
-construire une image aux deux routes silencieusement non pré-rendues. Ajout de
-`# syntax=docker/dockerfile:1` en toute première ligne du fichier — condition de
-BuildKit pour reconnaître `--mount`, qu'un commentaire ordinaire placé avant
-désactiverait sans erreur visible.
+**Essayé d'abord en secret BuildKit, pas une Build Variable** — choix fait pour
+ne rien devoir à la règle du 12/09. `Dockerfile` : `RUN
+--mount=type=secret,id=database_url`, censé monter la valeur en tmpfs pour la
+seule durée de l'instruction `pnpm build` sans l'écrire dans aucune couche de
+l'image. Échoue bruyamment si le secret manque, plutôt que de construire une
+image aux deux routes silencieusement non pré-rendues.
 
-**Non confirmé côté Coolify.** Une recherche sur le sujet est ambiguë : Coolify
-détecte bien si le serveur de build supporte BuildKit/secrets
-(`dockerSecretsSupported`, réglage `use_build_secrets`), mais une discussion
-GitHub ouverte par un utilisateur (coollabsio/coolify#5328, sans réponse) doute
-que l'UI expose un `--secret` à **id libre** comme `database_url` — le mécanisme
-réel pourrait plutôt être un fichier `.env` de build écrit avant coup puis
-remplacé, sans passer par la syntaxe `--mount` du Dockerfile. **À vérifier au
-prochain déploiement `dev`** : si `pnpm build` y échoue sur le secret manquant, le
-repli documenté dans le `Dockerfile` est de marquer `DATABASE_URL` disponible au
-build à l'ancienne (comme les `NEXT_PUBLIC_SUPABASE_*` avant le 12/09) — un
-compromis réel (le mot de passe atterrit dans l'historique des couches) mais
-moindre, l'image n'étant jamais poussée sur un registre public.
+**Confirmé non fonctionnel sur ce Coolify au premier déploiement `dev`
+(13/09/2026, log lu par John)** : le build a échoué avec exactement le message
+prévu — « Secret de build 'database_url' manquant » — donc Coolify ne relaie pas
+de secret BuildKit à id libre ici. La discussion GitHub
+coollabsio/coolify#5328, ouverte par un utilisateur et restée sans réponse,
+avait raison d'en douter.
+
+**Repli appliqué dans la foulée** : `ARG DATABASE_URL` classique dans le
+`Dockerfile`, alimenté par une Build Variable Coolify — le mécanisme déjà
+éprouvé sur ce projet pour les `NEXT_PUBLIC_SUPABASE_*` avant le 12/09.
+Compromis assumé et documenté dans le `Dockerfile` : la valeur reste lisible
+dans l'historique des couches du builder, mais cette image n'est jamais
+poussée sur un registre public et l'étage final — seul livré — ne la copie
+pas. **Reste à poser dans Coolify** : marquer `DATABASE_URL` disponible au
+build sur `elsass-dico:dev`, puis rejouer le déploiement.
 
 ### Vérifié contre la vraie base, pas seulement par `tsc`
 

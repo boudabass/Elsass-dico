@@ -274,13 +274,16 @@ l'extraction — elle ne l'aurait pas fait pour un seul.
 **Trouvé en construisant ces deux routes : `generateStaticParams` a besoin de la
 base AU BUILD**, y compris sur le serveur Coolify — ce qui contredit à la lettre
 le commentaire du `Dockerfile` du 12/09 (« plus aucune variable de build, rien de
-sensible gravé dans l'image »). Réglé côté `Dockerfile` par un secret BuildKit
-(`--mount=type=secret,id=database_url`, monté en tmpfs pour la seule instruction
-`pnpm build`, jamais écrit dans une couche) plutôt qu'une Build Variable Coolify
-classique. **Non confirmé côté Coolify** : une discussion GitHub
-(coollabsio/coolify#5328) suggère que l'UI n'expose peut-être pas de `--secret` à
-id libre — à vérifier avant le prochain déploiement `dev`, avec un repli documenté
-dans le `Dockerfile` si ce n'est pas le cas.
+sensible gravé dans l'image »). Essayé d'abord en secret BuildKit
+(`--mount=type=secret,id=database_url`), **confirmé non fonctionnel sur ce
+Coolify** au premier déploiement `dev` du 13/09/2026 — le build a échoué avec
+exactement le message d'erreur prévu, Coolify ne relaie donc pas de secret
+BuildKit à id libre (la discussion GitHub coollabsio/coolify#5328 avait raison
+d'en douter). Repli appliqué : `ARG DATABASE_URL` classique, alimenté par une
+Build Variable Coolify — le mécanisme déjà éprouvé ici pour les
+`NEXT_PUBLIC_SUPABASE_*` avant le 12/09, avec le même compromis assumé (la
+valeur reste lisible dans l'historique des couches du builder, jamais dans
+l'étage final livré ni sur un registre public). **Reste à poser dans Coolify.**
 
 **Vérifié contre la vraie base** (port 5444 rouvert le temps du contrôle, comme le
 12/09) : `chargerVillage("colmar-68066")` rend `Kolmer` / `Colmer`, exactement ce

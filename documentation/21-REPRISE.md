@@ -315,14 +315,15 @@ comme un total.
    32 caractères minimum, sinon l'app refuse de démarrer une session. Et retirer
    les deux Build Variables `NEXT_PUBLIC_SUPABASE_*`, qui n'ont plus d'effet :
    les laisser ferait croire qu'elles en ont.
-3. **Confirmer le secret de build Coolify pour `DATABASE_URL`** (ajouté le
-   13/09/2026, `Dockerfile`) : `generateStaticParams` de `/village` et `/prenom`
-   en a besoin au build. Écrit en secret BuildKit (`--mount=type=secret`), jamais
-   une Build Variable classique — mais l'UI Coolify n'expose peut-être pas de
-   `--secret` à id libre (doute non levé, discussion GitHub
-   coollabsio/coolify#5328 restée sans réponse). Si le prochain déploiement `dev`
-   échoue sur `pnpm build`, c'est le premier endroit à regarder ; le repli est
-   documenté dans le commentaire du `Dockerfile`.
+3. **Poser `DATABASE_URL` comme Build Variable Coolify sur `elsass-dico:dev`**
+   (et `:main` le moment venu) — `generateStaticParams` de `/village` et
+   `/prenom` en a besoin au build. Le secret BuildKit essayé d'abord
+   (`--mount=type=secret`) s'est confirmé non fonctionnel sur ce Coolify au
+   premier déploiement du 13/09/2026 (build échoué avec le message d'erreur
+   prévu) ; le `Dockerfile` est repassé sur un `ARG DATABASE_URL` classique,
+   qui a besoin de cette Build Variable pour exister. Sans elle, `pnpm build`
+   échoue bruyamment au lieu de construire une image aux deux routes
+   silencieusement non pré-rendues.
 4. **Se connecter une fois**, puis lancer `scripts/promouvoir-admin.mts`.
 5. **Juger à l'écran** — le prototype de carte, les écrans refaits à l'étape 2, et
    `/village`/`/prenom` (étape 3, vérifiés en base et par un `tsc` propre, jamais

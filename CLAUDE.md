@@ -2380,6 +2380,46 @@ bloquer.
   direct sur l'URL rend la redirection normale vers `/login`), résolu en
   ouvrant un nouvel onglet.
 
+## Plan en attente : tri A-Z cassé par les accents, accès direct à un mot (14/09/2026)
+
+Deux nouveaux retours de John le même jour que les correctifs ci-dessus, **plan
+écrit et validé en fin de session, implémentation NON commencée** — à reprendre
+en priorité à la prochaine session.
+
+1. **Trop de clics pour atteindre un mot connu.** « bricoler » (lettre C)
+   demandait 12 clics sur Suivant, « cytise » 30. Confirmé en base avec le tri
+   actuel : bricoler rang 1190 (page 12), cytise rang 2939 (page 30) — chiffres
+   de John exacts.
+2. **Les mots accentués tombent en fin de liste.** Pour C : `cytise`, `câble`,
+   ... `çà` en dernier — pas un tri français. Cause identifiée :
+   `lemmesParLettreAction()` (`src/app/actions/navigation.ts`) trie par
+   `ORDER BY l.cle ASC` sans désaccentuer, et la collation Postgres classe les
+   caractères accentués après l'ASCII simple.
+
+**Solution retenue** (détaillée dans le plan) :
+- Point 2 (à corriger en premier, car il change le rang du point 1) :
+  `ORDER BY immutable_unaccent(l.cle) ASC, l.cle ASC` dans
+  `lemmesParLettreAction`. **Ce n'est PAS une violation de la doctrine du
+  24/08/2026** (« `unaccent` jamais dans une clé d'identité ») : ici
+  `immutable_unaccent` ne sert qu'à calculer un ordre d'affichage, aucune ligne
+  n'est fusionnée — c'est un troisième usage légitime, distinct de l'usage
+  interdit dans une clé de regroupement/identité.
+- Point 1 : nouveau champ « Aller à un mot » sur `/dictionnaire`, nouvelle
+  action `pageDuPrefixeAction(lettre, prefixe)` qui calcule le rang du préfixe
+  tapé avec EXACTEMENT le même tri que `lemmesParLettreAction` et saute à la
+  bonne page via `allerPage()` (déjà écrite). Alternatives écartées : rediriger
+  vers `/recherche` (John feuillette délibérément, il ne cherche pas un mot déjà
+  identifié) ; bigrammes cliquables façon dictionnaire papier (plus coûteux,
+  moins flexible qu'un champ texte).
+
+Plan complet (contexte, requêtes SQL exactes, plan de vérification) dans
+`C:\Users\George\.claude\plans\tranquil-meandering-rose.md` côté poste de
+Claude Code — pas versionné dans le dépôt. À la reprise : implémenter les deux
+points, mesurer en base (script jetable) que `ça`/`çà` précèdent bien `cabale`
+et que le saut de page atterrit sur le bon mot avec le nouveau tri, `tsc
+--noEmit` puis `pnpm build` réel, déployer sur `dev`, vérifier à l'écran avec
+John.
+
 ## Règles de travail
 
 - Ne jamais inventer de traduction alsacienne, même pour un exemple ou un test.

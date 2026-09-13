@@ -1,6 +1,7 @@
 "use client";
 
-import { RefreshCw, Users } from "lucide-react";
+import Link from "next/link";
+import { Flag, Library, RefreshCw, Users } from "lucide-react";
 import { toast } from "sonner";
 
 import { changerRoleAction, listerMembresAction } from "@/app/actions/membres";
@@ -77,6 +78,23 @@ export default function AdminPage() {
       />
 
       <div className="container mx-auto max-w-5xl space-y-8 p-4 pb-16 md:p-8 md:pb-8 md:pl-20 lg:pl-56">
+        <div className="flex flex-wrap gap-2.5">
+          <Link
+            href="/admin/signalements"
+            className="flex h-10 items-center gap-1.5 rounded-full border border-bordure-forte px-4 text-sm font-semibold text-foreground transition-colors hover:bg-neutre-50"
+          >
+            <Flag className="h-4 w-4" strokeWidth={2} />
+            Signalements
+          </Link>
+          <Link
+            href="/admin/sources"
+            className="flex h-10 items-center gap-1.5 rounded-full border border-bordure-forte px-4 text-sm font-semibold text-foreground transition-colors hover:bg-neutre-50"
+          >
+            <Library className="h-4 w-4" strokeWidth={2} />
+            Sources
+          </Link>
+        </div>
+
         <Card>
           <CardHeader>
             <CardTitle className="flex items-center gap-2">

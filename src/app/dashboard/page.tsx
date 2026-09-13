@@ -9,7 +9,7 @@ import { useAuth } from "@/components/auth-provider";
 import { ListSkeleton } from "@/components/ui/list-skeleton";
 import { useListeMemorisee } from "@/hooks/use-liste-memorisee";
 import { cleCache } from "@/lib/cache-navigation";
-import { SelecteurVillage } from "./selecteur-village";
+import { VillageProfil } from "./village-profil";
 
 // Écran 6 du handoff mobile : « Mon espace ».
 //
@@ -75,17 +75,17 @@ export default function MonEspacePage() {
                             </div>
                         )}
 
-                        {!chargement && !espace?.village && (
+                        {!chargement && (
                             <div className="mt-[18px] rounded-lg border border-border bg-card p-4">
                                 <p className="text-[15px] font-bold text-foreground">
-                                    D&apos;où vient ton alsacien ?
+                                    Ton village
                                 </p>
                                 <p className="mt-1.5 text-sm leading-[1.5] text-muted-foreground">
-                                    Choisir ton village permettra de rattacher les formes
-                                    que tu reconnais. Le choix se fera dans une liste —
-                                    rien n&apos;est déduit de ta position.
+                                    Il rattache les formes que tu reconnais aux villages qui
+                                    les disent. Choisi dans une liste — rien n&apos;est
+                                    déduit de ta position — et modifiable à tout moment.
                                 </p>
-                                <SelecteurVillage onDefini={rafraichir} />
+                                <VillageProfil villageActuel={espace?.village ?? null} onDefini={rafraichir} />
                             </div>
                         )}
 

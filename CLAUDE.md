@@ -2154,6 +2154,22 @@ le reste de l'étape 2 — et à reporter sur `elsass-dico:main` quand `dev`
 passera en PR : les quatre correctifs de build ci-dessus s'appliquent au même
 `Dockerfile`, donc au même déploiement.
 
+### Vu dans un vrai navigateur, et un vrai bug trouvé (13/09/2026)
+
+Premier passage à l'écran des trois pages publiques sans compte
+(`elsass-dico-dev.theelsassisch.com`, Chrome piloté). Les données rendaient
+bien — `Colmar → Kolmer, Colmer`, `Ambroise → Àmbrosi, Brosi` — mais la mise en
+page non : `/village`, `/prenom` **et `/sources`** réservaient `md:pl-20
+lg:pl-56`, la place du rail `AppNavShell` — copié du patron des écrans
+authentifiés sans vérifier qu'aucune des trois ne monte ce rail. À l'écran :
+une colonne de contenu plaquée loin à droite, plusieurs centaines de pixels de
+vide à gauche dès la largeur tablette. `/sources` portait déjà le défaut avant
+ce chantier — jamais vu faute d'avoir été ouvert à cette largeur : correct à la
+lecture du JSX, faux à l'écran, le même genre d'écart que la source ne prouve
+pas l'effet. Retiré sur les trois pages ; `mx-auto
+max-w-3xl` suffit à centrer une colonne de contenu qui ne partage l'écran avec
+aucune nav.
+
 ### Connexion Odoo bout en bout et premier admin, faits par John (13/09/2026)
 
 `elsass-dico-dev.theelsassisch.com`, `theelsassisch@gmail.com` : la connexion a

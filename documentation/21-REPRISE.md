@@ -357,13 +357,17 @@ la reconnexion, sinon sous 30 minutes.
 2. Retirer les deux Build Variables `NEXT_PUBLIC_SUPABASE_*` sur Coolify, qui
    n'ont plus d'effet depuis le 12/09 : les laisser ferait croire qu'elles en
    ont.
-3. **Juger à l'écran, en vrai navigateur** — le prototype de carte, les écrans
-   refaits à l'étape 2, `/village`/`/prenom` (vérifiés en `curl` seulement,
-   cf. ci-dessus), et `/admin` avec le compte fraîchement promu. Bloqué depuis
-   trois sessions par le HTTPS forcé de Chrome sur le serveur de dev local (en
-   HTTP), et `next dev --experimental-https` butant sur mkcert — mais rien
-   n'empêche de juger directement sur `elsass-dico-dev.theelsassisch.com`, en
-   HTTPS réel, maintenant que c'est déployé.
+3. **Juger à l'écran, en vrai navigateur** — fait pour `/village`, `/prenom` et
+   `/sources` le 13/09/2026 (Chrome piloté sur `elsass-dico-dev`) : un vrai bug
+   trouvé au passage, `md:pl-20 lg:pl-56` réservait la place d'un rail de nav
+   qu'aucune des trois pages ne monte — colonne plaquée à droite, corrigé.
+   Restent à juger : le prototype de carte, les écrans refaits à l'étape 2
+   (recherche, dictionnaire, fiche de mot), et `/admin` avec le compte
+   fraîchement promu — bloqué depuis trois sessions par le HTTPS forcé de
+   Chrome sur le serveur de dev **local** (en HTTP) et `next dev
+   --experimental-https` butant sur mkcert, mais rien n'empêche de les juger
+   directement sur `elsass-dico-dev.theelsassisch.com`, en HTTPS réel, comme
+   pour les trois premières.
 4. La suite de l'étape 3 (`/` en présentation publique — déplace la recherche
    ailleurs, décision non prise ; écran admin des signalements et des sources)
    et les étapes 4-5 du doc 20 (carte, contribution).

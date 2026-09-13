@@ -113,18 +113,27 @@ RUN rm -f package.json
 # postinstall qui pose le schema-engine, dont `migrate deploy` a besoin.
 COPY --from=builder /app/prisma ./prisma
 COPY --from=builder /app/prisma.config.ts ./prisma.config.ts
-# Régression trouvée sur le premier vrai déploiement Coolify de ce Dockerfile
-# (13/09/2026) : le commentaire disait « ce répertoire doit rester nu » en ne
-# pensant qu'à un `COPY package.json` explicite (retiré au commit précédent,
-# lui bien nu) — sans voir que le `package.json` de la sortie standalone,
-# copié juste au-dessus, en tenait lieu. `npm install` le trouvait donc quand
-# même et mourait sur le même ERESOLVE (react 19.1 contre react-dom 19.3 via
-# @radix-ui/react-accordion). Un `docker build` isolé dans un conteneur
-# `node:22-alpine` nu, comme la vérification du commit précédent, ne pouvait
-# pas voir cette copie implicite — elle n'existe que dans le VRAI enchaînement
-# multi-étages. Le `rm -f package.json` ci-dessus est ce qui rend ce répertoire
-# effectivement nu, plutôt que le commentaire seul.
-RUN npm install --no-save --no-package-lock prisma@7.10.0 dotenv
+
+# npm install la CLI Prisma + dotenv dans un répertoire VIDE, jamais dans /app.
+#
+# Deuxième régression trouvée sur le même déploiement Coolify (13/09/2026),
+# après le retrait de package.json ci-dessus : `node_modules/.pnpm/`, copié
+# par le traçage de fichiers de la sortie standalone, contient les vraies
+# dépendances résolues par pnpm — y compris des devDependencies transitives
+# (jest, eslint, @fast-check/jest…) qu'aucun package.json ne mentionne mais
+# qu'npm scanne quand même pour toute installation lancée dans ce dossier.
+# `npm install`, même sans package.json, réconcilie contre CE QUI EST DÉJÀ LÀ :
+# plusieurs minutes d'avertissements ERESOLVE sur des paquets sans aucun
+# rapport avec Prisma, et rien ne garantit que ça finisse par converger.
+#
+# Installé donc dans un répertoire à part, où npm ne voit qu'un `node_modules`
+# vide — exactement la situation déjà vérifiée dans un conteneur `node:22-alpine`
+# nu. Seuls les fichiers résultants sont copiés vers `/app/node_modules`
+# ensuite, par un `cp` qui ne repasse par aucune résolution npm.
+RUN mkdir /tmp/prisma-cli && cd /tmp/prisma-cli \
+    && npm install --no-save --no-package-lock prisma@7.10.0 dotenv \
+    && cp -r node_modules/. /app/node_modules/ \
+    && rm -rf /tmp/prisma-cli
 
 COPY docker-entrypoint.sh /usr/local/bin/
 RUN chmod +x /usr/local/bin/docker-entrypoint.sh

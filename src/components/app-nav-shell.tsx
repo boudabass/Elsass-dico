@@ -39,7 +39,7 @@ export type OngletRacine = "recherche" | "dictionnaire" | "compte" | "admin";
 type Onglet = { cle: OngletRacine; href: string; icone: LucideIcon; libelle: string };
 
 export const ONGLETS: Onglet[] = [
-  { cle: "recherche", href: "/", icone: Search, libelle: "Recherche" },
+  { cle: "recherche", href: "/recherche", icone: Search, libelle: "Recherche" },
   { cle: "dictionnaire", href: "/dictionnaire", icone: BookOpen, libelle: "Dictionnaire" },
   { cle: "compte", href: "/dashboard", icone: User, libelle: "Mon espace" },
 ];

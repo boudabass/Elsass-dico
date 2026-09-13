@@ -29,6 +29,12 @@ const PUBLIC = [
 ]
 
 function estPublic(chemin: string): boolean {
+    // Comparaison STRICTE pour la racine, jamais en préfixe : `/` est le
+    // début de tout chemin, y compris `/admin`. La glisser dans `PUBLIC`
+    // avec le même `startsWith` que les autres entrées rendrait toute l'app
+    // publique. `/` devient la présentation publique le 13/09/2026 (doc 20,
+    // étape 3) — la recherche authentifiée déménage vers `/recherche`.
+    if (chemin === "/") return true
     return PUBLIC.some((prefixe) => chemin === prefixe || chemin.startsWith(prefixe))
 }
 

@@ -4,7 +4,11 @@ import dynamic from "next/dynamic"
 import Link from "next/link"
 import { useMemo, useState } from "react"
 
+import { pointsCarteAction, type PointsCarte } from "@/app/actions/carte"
 import type { PointParler } from "@/components/carte-parlers"
+import { useListeMemorisee } from "@/hooks/use-liste-memorisee"
+import { cleCache } from "@/lib/cache-navigation"
+import { couleurDeForme } from "@/lib/couleur-carte"
 
 // `ssr: false` parce que Leaflet lit `window` à l'import : sans ça, le build
 // échoue au prérendu de la page.
@@ -21,13 +25,19 @@ function Cadre({ children }: { children: React.ReactNode }) {
     )
 }
 
-interface Props {
-    points: PointParler[]
-    nbFormes: number
-}
-
-export function CarteDemo({ points, nbFormes }: Props) {
+export function CarteDemo() {
     const [terme, setTerme] = useState("")
+
+    const { donnees, premierChargement } = useListeMemorisee<PointsCarte>({
+        // Donnée publique, la même pour tout le monde : pas de segment
+        // d'identité dans la clé, contrairement aux listes propres à un
+        // membre (`admin-membres`, `mon-espace`).
+        cle: cleCache("carte-parlers"),
+        charger: pointsCarteAction,
+    })
+
+    const points: PointParler[] = donnees?.points ?? []
+    const nbFormes = donnees?.nbFormes ?? 0
 
     const filtres = useMemo(() => {
         const t = terme.trim().toLowerCase()
@@ -44,7 +54,8 @@ export function CarteDemo({ points, nbFormes }: Props) {
                 <p className="text-sm text-muted-foreground">
                     Prototype — {points.length} villages portent {nbFormes} formes
                     attestées. Chaque point est une commune ; cliquer dessus montre
-                    les formes que les sources écrivent pour elle.
+                    les formes que les sources écrivent pour elle. Une couleur par
+                    forme : deux villages qui disent pareil se voient d'un coup d'œil.
                 </p>
             </header>
 
@@ -57,10 +68,15 @@ export function CarteDemo({ points, nbFormes }: Props) {
                 // sur le champ au focus et casse le cadrage de la carte.
             />
 
-            <CarteParlers
-                points={filtres}
-                className="h-[70vh] w-full overflow-hidden rounded-lg border"
-            />
+            {premierChargement ? (
+                <Cadre>Chargement des villages…</Cadre>
+            ) : (
+                <CarteParlers
+                    points={filtres}
+                    couleurDe={couleurDeForme}
+                    className="h-[70vh] w-full overflow-hidden rounded-lg border"
+                />
+            )}
 
             <p className="flex flex-wrap items-center justify-between gap-2 text-xs text-muted-foreground">
                 <span>

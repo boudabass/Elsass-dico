@@ -59,7 +59,7 @@ export default function AdminPage() {
   if (!estAdmin) return <div className="p-8 text-center">Accès refusé</div>;
 
   return (
-    <div className="flex min-h-screen flex-col">
+    <div className="flex min-h-screen flex-col pb-16 md:pb-0 md:pl-20 lg:pl-56">
       <AppHeader
         variant="stack"
         titre="Administration"
@@ -77,7 +77,7 @@ export default function AdminPage() {
         }
       />
 
-      <div className="container mx-auto max-w-5xl space-y-8 p-4 pb-16 md:p-8 md:pb-8 md:pl-20 lg:pl-56">
+      <div className="container mx-auto max-w-5xl space-y-8 p-4 md:p-8">
         <div className="flex flex-wrap gap-2.5">
           <Link
             href="/admin/signalements"

@@ -1,7 +1,3 @@
-"use client";
-
-import { usePathname } from "next/navigation";
-
 // Depuis le passage mobile-first du 28/08/2026 (design_handoff_mobile_app/),
 // chaque écran compose son propre <AppHeader> (racine à icônes ou empilé à
 // chevron retour) en tête de sa propre arborescence — les titres et l'onglet
@@ -22,18 +18,22 @@ import { usePathname } from "next/navigation";
 // la colonne app prend toute la largeur disponible — aucun plafond — la
 // disposition mobile-first (une colonne, pas de grille multi-colonnes)
 // reste inchangée à l'intérieur ; seule la largeur du conteneur change.
-// /admin/* garde son plafond fixe, ses conteneurs internes reprenant la
-// main comme avant.
-const LARGEUR_APP = "";
-const LARGEUR_ADMIN = "max-w-6xl";
-
+// /admin/* gardait alors son propre plafond fixe (max-w-6xl), ses
+// conteneurs internes reprenant la main comme avant.
+//
+// Ce plafond spécifique à /admin/* a été retiré le 14/09/2026 (retour
+// utilisateur : « elle ne prend pas toute la largeur »). Il datait d'avant
+// le rail de nav fixe (`AppNavShell`, position:fixed) devenu le layout
+// standard des trois écrans admin — centré sur la largeur TOTALE du
+// viewport, il ignorait que le rail mange déjà une bande à gauche, d'où une
+// bande vide entre le rail et le contenu, et le fond visible à droite. Les
+// trois pages /admin/* gèrent maintenant leur propre largeur en interne
+// (`md:pl-20 lg:pl-56` + leur propre plafond éventuel), exactement comme
+// dashboard/dictionnaire/recherche : plus besoin d'un cas particulier ici.
 export function LayoutWrapper({ children }: { children: React.ReactNode }) {
-    const pathname = usePathname();
-    const largeur = pathname?.startsWith("/admin") ? LARGEUR_ADMIN : LARGEUR_APP;
-
     return (
         <div className="min-h-screen bg-neutre-50">
-            <div className={`mx-auto min-h-screen w-full ${largeur} bg-background`}>{children}</div>
+            <div className="mx-auto min-h-screen w-full bg-background">{children}</div>
         </div>
     );
 }

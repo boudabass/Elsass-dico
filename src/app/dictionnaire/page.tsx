@@ -1,6 +1,6 @@
 "use client";
 
-import { Suspense, useEffect, useMemo, useState } from "react";
+import { Suspense, startTransition, useEffect, useMemo, useState } from "react";
 import Link from "next/link";
 import { useRouter, useSearchParams } from "next/navigation";
 import { BookOpen, ChevronLeft, ChevronRight, Search } from "lucide-react";
@@ -95,8 +95,17 @@ function DictionnaireContenu() {
     setRechercheEnCours(true);
     try {
       const n = await pageDuPrefixeAction(lettre, prefixe);
-      allerPage(n);
-      setPrefixe("");
+      // `allerPage` appelle `router.replace` : hors de la pile d'appel
+      // synchrone du clic (on est après un `await`), Next a besoin de
+      // `startTransition` pour traiter cette navigation normalement — sans
+      // ça, trouvé le 14/09/2026 en vérifiant à l'écran, l'état se met à
+      // jour (URL, pageNo) mais l'effet qui va chercher les mots de la
+      // nouvelle page ne se déclenche jamais : écran bloqué sur le
+      // squelette pour toujours, sans erreur ni requête réseau.
+      startTransition(() => {
+        allerPage(n);
+        setPrefixe("");
+      });
     } finally {
       setRechercheEnCours(false);
     }

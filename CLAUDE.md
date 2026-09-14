@@ -737,6 +737,48 @@ les écrans consommateurs n'ont rien à modifier.
   cas de 503 réel (impossible à provoquer à la demande — la reprise s'est
   vérifiée par lecture de code, pas en reproduisant un 503 sous contrôle).
 
+### La vraie cause : `router.replace` appelé après un `await`, hors transition
+
+Le correctif de reprise ci-dessus n'a pas suffi — le blocage restait
+reproductible à froid, sans le moindre 503 : les logs réseau interceptés
+(`window.fetch` patché depuis la console) montraient `pageDuPrefixeAction`
+répondre 200 en ~200 ms, l'URL passer bien à `&page=13`, mais **aucune
+quatrième requête** pour `lemmesParLettreAction` — jamais émise, pas une
+erreur, rien. Lecture directe de l'état React en mémoire (fibre du composant,
+`memoizedState` en chaîne) : `lettre="B"` et `pageNo=13` étaient bien à jour,
+mais `donnees` restait `null` et `enCours` restait `true` pour toujours —
+l'effet de `useListeMemorisee` ne s'était simplement jamais redéclenché pour
+la nouvelle clé.
+
+**Cause réelle** : `allerAuPrefixe()` appelle `allerPage(n)` — qui appelle
+`router.replace()` — depuis la continuation d'un `await`, donc **hors de la
+pile d'appel synchrone du clic**. Les boutons Précédent/Suivant appellent
+`allerPage` directement depuis `onClick`, synchrone, et n'ont jamais montré
+ce blocage. Next a besoin qu'une navigation déclenchée en dehors d'un
+gestionnaire d'événement synchrone soit explicitement dans une transition
+React (`startTransition`) pour rester cohérente avec Suspense — sans ça, la
+mise à jour d'état (URL, `pageNo`) passe, mais l'effet qui devait s'en
+resservir ne se réarme jamais.
+
+**Corrigé** en enveloppant `allerPage(n)` et `setPrefixe("")` dans
+`startTransition()` (`src/app/dictionnaire/page.tsx`). Diagnostiqué sans
+redéploiement supplémentaire grâce à deux outils de bord : un patch de
+`window.fetch` injecté par la console pour voir les vraies requêtes (pas
+celles supposées par lecture de code), et une marche directe de la fibre
+React (`__reactFiber$...`, chaîne `memoizedState`) pour lire l'état réel sans
+attendre qu'il s'affiche.
+
+**Incident sans rapport croisé en route** : un onglet Chrome de cette session
+s'est remis à résoudre `elsass-dico-dev.theelsassisch.com` vers
+`0.0.0.0:3000` après un aller-retour — même défaut déjà noté le 14/09/2026,
+propre au navigateur, pas au serveur. Fermer l'onglet et en rouvrir un neuf
+l'a réglé, comme la fois précédente.
+
+- **Vérifié** : `tsc --noEmit` propre, `pnpm build` a regénéré les 966/966
+  pages sans erreur.
+- **Reste à vérifier à l'écran après ce déploiement** : le champ « Aller à un
+  mot » doit désormais atterrir sur la bonne page sans jamais rester bloqué.
+
 ## Règles de travail
 
 - Ne jamais inventer de traduction alsacienne, même pour un exemple ou un test.

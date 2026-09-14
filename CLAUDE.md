@@ -847,6 +847,52 @@ la div de contenu interne — même patron que les trois autres écrans admin.
   `0.0.0.0:3000`) rencontré une fois de plus au premier essai, résolu de la
   même façon (fermer l'onglet, en rouvrir un neuf).
 
+### Second bug sur le même écran : le contenu ne prenait pas toute la largeur
+
+Retour immédiat de John après le correctif ci-dessus : « il n'y a pas que ça,
+elle ne prend pas toute la largeur contrairement aux autres pages, à gauche
+il y a une bande blanche et à droite on voit le fond ». Deux correctifs
+distincts, coup sur coup — John a signalé le risque : pousser trop vite
+peut faire vérifier un déploiement encore en cours, ou en faire sauter un
+que le suivant écrase avant qu'il finisse de builder. Chaque étape a donc
+attendu une confirmation explicite de `updated_at` (`get_application`) **et**
+une lecture directe de la classe CSS réellement présente dans le DOM déployé
+(`document.body.innerHTML.includes(...)`) avant tout screenshot — pas
+seulement un `updated_at` qui bouge, qui peut appartenir au déploiement
+précédent si les deux se chevauchent.
+
+Premier correctif tenté (largeur du conteneur interne de `/admin/page.tsx`,
+`container mx-auto max-w-5xl` retiré) : insuffisant, le rendu n'a pas changé.
+Cause réelle, plus profonde : `LayoutWrapper` (`src/components/layout-wrapper.tsx`)
+plafonnait **toutes** les routes `/admin/*` à `max-w-6xl`, centré sur la
+largeur TOTALE du viewport — une décision du 30/08/2026, écrite avant que
+`/admin` adopte le rail de nav fixe (`AppNavShell`, `position:fixed`, collé
+au vrai bord gauche de l'écran, donc hors du calcul de ce centrage). Le rail
+et la colonne centrée ne s'accordaient plus : bande vide entre le rail et le
+contenu (rail ~224px, colonne recommençant à ~366px sur un viewport 1884px),
+fond visible après la fin de la colonne. Mesuré en direct via
+`getBoundingClientRect()` sur le DOM déployé, pas deviné sur le JSX.
+
+**Corrigé** en retirant le cas particulier `/admin/*` de `LayoutWrapper` :
+toutes les routes reçoivent désormais le même traitement (aucun plafond
+global), exactement la même philosophie que la décision du 30/08 pour le
+reste de l'app — les trois écrans admin gèrent déjà leur propre largeur en
+interne (`md:pl-20 lg:pl-56`, et pour `/admin/sources`/`/admin/signalements`,
+leur propre `max-w-3xl` voulu). `LayoutWrapper` n'a plus besoin de
+`usePathname` : redevenu un composant serveur.
+
+- **Vérifié** : `tsc --noEmit` propre, `pnpm build` a régénéré les 966/966
+  pages.
+- **Vérifié à l'écran** (Chrome piloté, session de John,
+  `elsass-dico-dev.theelsassisch.com`, 1440×900), après confirmation en
+  direct que `max-w-6xl` n'apparaît plus nulle part dans le DOM déployé :
+  `/admin` remplit maintenant toute la largeur, collé au rail, jusqu'au bord
+  droit — plus de bande blanche ni de fond visible. `/admin/sources` et
+  `/admin/signalements` gardent leur propre colonne centrée (`max-w-3xl`,
+  un choix voulu de ces deux écrans, distinct du bug), mais désormais
+  correctement centrée par rapport à l'espace réellement disponible après le
+  rail, plutôt que par rapport au viewport entier.
+
 ## Règles de travail
 
 - Ne jamais inventer de traduction alsacienne, même pour un exemple ou un test.

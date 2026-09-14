@@ -33,1732 +33,7 @@ alsacien publié sous cette marque serait un vrai problème.
 - Homonymes séparés en entrées distinctes via le champ contexte.
 - Variantes Bas-Rhin / Haut-Rhin conservées quand elles diffèrent.
 
-## État réel (audit du 31/07/2026)
 
-- (Périmé depuis le 08/08/2026, cf. plus bas) Le front était un boilerplate
-  Dyad intact, zéro code métier.
-- Le schéma dictionnaire existe depuis
-  supabase/migrations/20260731120000_schema_dictionnaire.sql : tables
-  sources, attestations, entrees, entree_attestations, avec pg_trgm et
-  unaccent. Aucune donnée n'y est encore chargée — l'ingestion des 7260
-  entrées du dossier Dictionnaire vers attestations reste à faire (cf.
-  Décisions prises).
-- Le dossier Dictionnaire contient 7260 entrées (lettres A à D), mais c'est un
-  scrape mot pour mot d'une source unique : culture.alsace.pagesperso-orange.fr,
-  dont le miroir est commité dans temp_page_af.html. Cela viole la règle 2. À
-  traiter comme source 1 sur N, jamais comme base de référence.
-- Sur 14377 traductions, les champs variante, niveau, region et note sont
-  remplis 0 fois. tags vide à 100%, contexte vide à 99,9%. 227 clés
-  français+contexte en doublon, homonymes non arbitrés.
-- Les chiffres 46000 (README, doc schéma) et 30000 (doc import) sont des
-  objectifs, pas des existants. À corriger dans la doc.
-- (Périmé depuis le 08/08/2026) scripts/import_existing.py insérait dans des
-  tables inexistantes et n'implémentait aucune règle de la doctrine. Supprimé,
-  remplacé par scripts/ingest_attestations.py.
-
-## Mise à jour du 08/08/2026
-
-- Le front n'est plus vide : login adossé à Odoo, /admin (utilisateurs),
-  /contributions (proposer, corriger, voter), /admin/arbitrage (file de
-  candidats et écran d'arbitrage — un onglet « Recoupées » s'y est ajouté le
-  23/08/2026, cf. « Premières entrées publiées »), / (recherche publique dans
-  les deux sens) et /entree/[id] (détail avec sources).
-- La table entrees est désormais alimentée et lue. Migration
-  supabase/migrations/20260808120000_arbitrage.sql : candidats_arbitrage(),
-  detail_candidat(), arbitrer_entree(), entrees_par_statut(),
-  rechercher_entrees(), plus une colonne générée entrees.alsacien_recherche
-  qui rend la recherche alsacien -> français indexable.
-- (Périmé depuis le 09/08/2026, cf. « Première ingestion ») Aucune donnée
-  n'était chargée à cette date.
-
-## Studio Elsass Dico (08/08/2026)
-
-Équipe autonome de collecte de sources, montée sur le Kanban Swarm de Hermes,
-sur le modèle du studio Elsass Game. Board `elsassdico`, sept profils `ed-*`.
-Documentation Odoo, sous le hub 117 : board et rôles 716, profils 717
-(sous-articles 718-724), passerelle Claude <-> elsassdico 725, amorçage lu par
-le profil `default` 726.
-
-- **La frontière du studio est `attestations`.** Les agents cherchent,
-  extraient, vérifient et déposent du brut attesté. Ils ne créent jamais une
-  `entree` : le passage attestation -> entrée reste humain, via
-  `arbitrer_entree()` et /admin/arbitrage (règle 4, inchangée).
-- **Sept règles doctrinales**, écrites dans le SOUL.md de chaque profil et non
-  dans persona.md — l'investigation Hermes 712 a établi que seul SOUL.md est
-  réellement chargé : (1) aucune forme alsacienne qui ne soit copiée verbatim
-  d'une source, un doute se signale et ne se comble pas ; (2) extraction par
-  parseur versionné, jamais de saisie — une ligne qu'aucun parseur ne peut
-  regénérer est un défaut bloquant ; (3) aucun agent n'a
-  SUPABASE_SERVICE_ROLE_KEY ; (4) aucun push sur main (Coolify y redéploie) ;
-  (5) aucun agent ne crée d'entrée ; (6) jamais de root ni de modification de
-  /opt/hermes/ ; (7) dépasser son budget d'actions se solde par un blocage de
-  carte, jamais par plus d'efforts. Le bloc fait foi dans l'article Odoo 717 et
-  se recopie intégralement, de 1 à 7.
-- **Périmètre : données et sources uniquement.** Le code de l'app reste à
-  Claude Code.
-- **Dépôt** : `data/` versionné, contrat dans `data/README.md`. `data/raw/`
-  contient la copie brute des sources — sans elle une extraction n'est pas
-  vérifiable, et rejouer un parseur doit produire un `git diff` vide.
-- **Ingestion** : `scripts/ingest_attestations.py`, idempotent, simulation par
-  défaut, lancé à la main après relecture du diff. Remplace
-  `scripts/import_existing.py`, supprimé.
-- **elsassisch.eu n'est pas une source distincte** de
-  culture.alsace.pagesperso-orange.fr : le chemin d'URL du miroir se déclare
-  archive du même site. Même code `culture_alsace` — deux codes feraient
-  compter deux fois la même attestation et videraient la règle 2.
-- **type_terme étendu** à `toponyme` et `prenom` (migration
-  20260808140000) : les rubriques villes/villages et prénoms alsaciens entrent
-  dans `entrees` comme le reste. Les codes postaux 67/68 y remplissent enfin
-  le champ `region`, vide à 100 % jusqu'ici.
-- **ORTHAL** : un profil `ed-orthal` propose une graphie pour une forme déjà
-  attestée, jamais ne décide. Ses propositions vont dans `propositions_orthal`
-  (migration 20260808150000), **jamais dans `attestations`** — une graphie
-  transcodée dérive d'une attestation, elle n'en est pas une seconde, et l'y
-  verser gonflerait `nb_sources` d'un recoupement fictif. Il signe sous
-  l'identité `orthal_bot` de la table `automates`, explicitement désignée comme
-  automatique : personne ne doit prendre un transcodage pour le témoignage
-  d'un locuteur. Profil non activé avant qu'une première campagne complète
-  soit passée.
-
-### Studio monté le 08/08/2026 au soir
-
-- Profils en place : `elsassdico` (orchestrateur, port 8645, bot Telegram
-  dédié) et six workers — `ed-prospecteur` 8646, `ed-extracteur` 8647,
-  `ed-verificateur` 8648, `ed-orthal` 8649, `ed-gardien` 8650, `ed-doc` 8651.
-  Board `elsassdico` créé, repo cloné dans /opt/data/elsass-dico sur la branche
-  `data`.
-- **Un worker n'a ni bot Telegram ni gateway actif.** Le dispatcher est unique
-  sur la machine, vit dans le gateway de l'orchestrateur, et lance pour chaque
-  carte un sous-processus éphémère `hermes -p <assignee> chat -q "work kanban
-  task N"`. Les flags s6 `down` des `ed-*` restent en place. Donner un bot à un
-  worker ouvrirait un canal de consignes hors du board, donc une perte de
-  traçabilité.
-- Trois affirmations de la doc initiale ont été démenties par le relevé réel et
-  corrigées dans les articles : le port 8642 n'est pas occupé mais seulement la
-  valeur par défaut d'Hermes ; `api_server: connected` n'est un critère de
-  succès pour personne (aucun ne l'a actif dans ce build) ; le motif
-  d'inventaire des variables d'environnement doit accepter les chiffres
-  (`grep -oE '^[A-Z0-9_]+='`), faute de quoi il rate N8N_API_KEY.
-- **Le PAT git du conteneur est celui de l'owner du dépôt.** Tout profil peut
-  donc techniquement pousser sur main. Push suspendu jusqu'à substitution par
-  un jeton restreint (dépôt seul, Contents en écriture, pas d'Administration)
-  et pose d'une protection de branche sur main. La règle 4 doit être une
-  barrière technique, pas une promesse.
-
-## Infra
-
-Coolify self-hosted v4.1.2 sur VPS OVH. Supabase self-hosted à déployer dessus.
-
-## Décisions prises
-
-- Modèle de données à deux niveaux retenu : attestations brutes par source,
-  puis entrees dérivées par recoupement. Le schéma à 4 tables plates de la
-  doc initiale est abandonné.
-- Déploiement (révisé le 06/08/2026) : Coolify build directement depuis le
-  repo GitHub (Dockerfile, branche main), même mode que elsass-game —
-  redeploy automatique à chaque push, sans étape intermédiaire. Remplace
-  l'ancien pipeline GitHub Actions -> ghcr.io (image "pull-only"), abandonné
-  parce qu'il n'offrait pas de redeploy automatique sans webhook manuel. Les
-  NEXT_PUBLIC_* sont des Build Variables Coolify (gravées dans l'image par
-  Coolify lui-même, pas par GitHub Actions). SUPABASE_SERVICE_ROLE_KEY reste
-  une variable runtime Coolify uniquement, jamais marquée disponible au
-  build.
-- (Périmé depuis le 03/09/2026, cf. plus bas) Domaine (corrigé le 23/08/2026) :
-  **elsass-dico.theelsassisch.fr**, seul FQDN déclaré par l'application Coolify
-  `elsass-dico:main-utdpj1qsxnn954id84t28rha`. L'ancien `dico.theelsassisch.fr`,
-  inscrit ici jusqu'à cette date, répond 503 — un 503 sur cette URL n'est donc
-  pas une panne du site.
-- Domaine (révisé le 03/09/2026, décision de John) : wildcard `*.theelsassisch.com`
-  redirigé vers l'IP du serveur Coolify. **`.com` est désormais le domaine unique
-  de tout l'écosystème The Elsassisch** (Dico, Game, et les projets suivants) ;
-  `.fr` reste disponible pour les side projects hors écosystème. L'app Coolify
-  `elsass-dico:main-utdpj1qsxnn954id84t28rha` ne déclare donc plus qu'un FQDN,
-  **elsass-dico.theelsassisch.com** — le `.fr` a été retiré, pas seulement
-  complété. Une app Coolify distincte (même dépôt, branche `dev`) sert
-  **elsass-dico-dev.theelsassisch.com** pour tester avant merge sur `main`, sur
-  le modèle déjà en place pour elsass-game (`elsass-game-dev.theelsassisch.com`).
-- Authentification (06/08/2026) : Odoo est l'autorité sur les mots de passe,
-  Supabase reste l'autorité sur les sessions et les rôles. Le login vérifie
-  les identifiants portail via un POST JSON-RPC sur
-  /web/session/authenticate, puis ouvre une vraie session Supabase
-  (generateLink + verifyOtp côté serveur) : la RLS, profiles et
-  requireAdmin() fonctionnent inchangés. profiles.odoo_uid relie les deux
-  annuaires. Le modèle d'elsass-game (cookie HMAC maison, PostgreSQL sans
-  RLS, admin dérivé d'ADMIN_UID) a été écarté ici : la RLS du dico est
-  porteuse et non décorative, et il faut trois rôles, pas un booléen. Une
-  connexion de secours par mot de passe Supabase reste disponible si Odoo
-  est injoignable.
-- Pas de SMTP (07/08/2026) : les utilisateurs sont créés et gérés dans Odoo,
-  et les comptes créés à la main voient leur lien transmis à la main depuis
-  /admin. Aucun envoi d'e-mail automatique n'est donc à mettre en place — ne
-  pas reproposer de relais SMTP.
-- Rôles : user, contributeur, admin. Un contributeur propose et corrige mais
-  ne valide pas — le passage à statut='valide' reste réservé aux admins
-  (règle 4).
-- Contributions (07/08/2026) : une proposition de contributeur entre dans
-  attestations, jamais directement dans entrees. Un contributeur = une source
-  (sources.type='contribution', sources.profil_id), pour que deux
-  contributeurs proposant le même mot comptent comme deux attestations
-  distinctes — la contrainte UNIQUE d'attestations porte sur source_id. Le
-  nom de la source est pseudonyme, car sources_entree() expose nom et url
-  publiquement ; l'e-mail reste dans notes, réservé aux admins.
-- Validation par les pairs : un vote (table attestation_votes), distinct de
-  l'attestation. Voter ne crée pas d'attestation, donc le score n'est PAS un
-  recoupement au sens de la règle 2 — c'est une aide à l'arbitrage affichée
-  sur 5. Aucun seuil ne déclenche quoi que ce soit automatiquement. On ne vote
-  pas pour soi.
-- Une contribution se fige dès qu'elle est retenue dans une entrée
-  (entree_attestations) : ni modifiable ni supprimable par son auteur, sinon
-  la traçabilité mentirait sur ce qui a fondé la décision.
-- Arbitrage (08/08/2026) : la garde de la règle 2 vit dans
-  arbitrer_entree(), pas dans l'interface. Passer une entrée à statut='valide'
-  avec moins de 2 sources distinctes lève une exception, sauf si
-  notes_arbitrage est renseignée — c'est la forme technique de l'exception du
-  07/08/2026. L'interface reproduit la règle pour l'ergonomie, elle n'en est
-  pas la barrière.
-- Amorçage en deux temps (08/08/2026, fait) : le profil Hermes `default` a créé
-  le seul profil `elsassdico` (article Odoo 726) puis s'est arrêté, et
-  `elsassdico` a créé le board et les six profils `ed-*` (article 725). La
-  séparation évitait qu'un profil généraliste prenne des décisions engageant la
-  doctrine ; elle a tenu.
-- Prochaine étape (tranchée le 24/08/2026) : **campagne 5 = troisième source
-  lexicale**, cf. la section « Campagne 5 » en fin de document. Le constat
-  ci-dessous, écrit le 23/08 quand la question était encore ouverte, reste exact
-  sur les chiffres — seule sa conclusion « non tranchée » est périmée.
-- (Conclusion périmée depuis le 24/08/2026, chiffres toujours valables)
-  Prochaine étape (révisée le 23/08/2026) : **campagne 5, non tranchée.** Tout
-  ce qui précédait est fait — deuxième source (campagne 2), dictionnaire
-  (campagne 3), deuxième source du lexique général (campagne 4), et
-  169 premières entrées publiées. **Le goulot n'est plus le volume
-  d'attestations mais le recoupement lexical** : sur 26 309 candidats,
-  ~25 680 n'ont qu'une source, et sur les 629 à deux sources, 460 voient
-  ces sources écrire des formes *différentes*. Deux voies possibles, à
-  trancher avec John : soit une **troisième source lexicale** (le lexique
-  général de `culture_alsace` reste très majoritairement seul), soit un
-  **chantier d'arbitrage manuel** sur les 460 divergents, qui ne demande
-  aucune donnée nouvelle. Pour les toponymes divergents en particulier, un
-  locuteur qui tranche entre deux graphies attestées vaut peut-être mieux
-  qu'une troisième source écrite — le circuit `/contributions` existe et un
-  contributeur = une source.
-
-## Première ingestion (09/08/2026)
-
-**La base n'est plus vide : 396 attestations, 0 entrée.** Lot
-`culture_alsace__villes_villages_hr` — les communes du Haut-Rhin, premier
-aboutissement de la chaîne studio -> arbitrage.
-
-- La chaîne complète a tourné : inventaire (73 pages brutes archivées) ->
-  extraction par parseur versionné -> vérification -> audit doctrinal -> GATE
-  humain -> ingestion. Le vérificateur a **trouvé deux vraies erreurs** de
-  mapping de colonnes avant le GATE ; un dispositif qui ne trouve jamais rien
-  ne prouve rien.
-- 397 lignes au JSONL, 396 en base : la source liste `Altenbach` deux fois,
-  la contrainte UNIQUE l'absorbe. Le JSONL reste fidèle à la source, le
-  dédoublonnage est le travail de la base — ne jamais « nettoyer » un JSONL.
-- Ces 396 sont des candidats à **1 source sur N** : `arbitrer_entree()`
-  refusera de les valider sans note d'arbitrage. Rien n'est publié.
-- `region` est enfin rempli (393/396). Les 3 vides viennent de coquilles de
-  codes postaux dans la source (58500 pour 68500, etc.), non corrigées. D'où
-  la règle retenue pour la suite : **`region` se déduit de l'intitulé de page,
-  le code postal n'est plus qu'un contrôle** — le contrat data/README.md
-  autorise les deux, et la page ne comporte pas de coquille.
-
-**Coolify n'applique aucune migration.** Il construit l'image Next.js à chaque
-push, et rien d'autre : supabase/migrations/ ne s'exécute qu'à la main, dans le
-SQL Editor du Studio. Les migrations 20260808140000 et 20260808150000 avaient
-été oubliées, et rien ne le signalait — le site répondait 200. Le retard n'est
-apparu qu'à la première écriture, à mi-parcours, après création d'une source.
-`ingest_attestations.py` porte désormais une garde de schéma
-(`verifier_schema()`) : elle lit le schéma réellement exposé par PostgREST,
-refuse avant tout appel d'écriture (code de sortie 4) et nomme le fichier de
-migration à passer. Elle bloque sur ce que le lot va écrire et se contente
-d'avertir sur le reste.
-
-- Studio Supabase : `https://supabasekong-<uuid>.theelsassisch.fr/`,
-  authentification basique, identifiants dans les variables du service Coolify.
-- `main` est protégé depuis le 08/08/2026 au soir : ruleset
-  `protect-main-no-direct-push`, règles `pull_request` + `non_fast_forward` +
-  `deletion`, **aucun bypass** — la règle 4 est une barrière technique et non
-  plus une promesse. Toute modification de main passe par une PR, y compris les
-  nôtres. C'est la protection de branche, et non le remplacement du jeton, qui
-  porte la règle : elle vaut contre tous les jetons, owner compris.
-
-## Campagne 1 close (09/08/2026)
-
-**1 132 attestations, 0 entrée.** Source `culture_alsace`, trois rubriques :
-`villes_villages_hr` (397 lignes -> 396), `villes_villages_br` (558),
-`prenoms` (179 -> 178). 954 toponymes, 178 prénoms.
-
-- **Homonymes : `contexte`, jamais `region`.** `Bouxwiller` existe dans les deux
-  départements avec la même forme alsacienne. La clé UNIQUE portant sur
-  `(source_id, francais, alsacien, contexte)`, les deux communes fusionnaient et
-  l'une disparaissait en silence. Les toponymes portent donc `contexte` =
-  `Haut-Rhin` / `Bas-Rhin`, en clair car le champ s'affiche. `region` ne peut pas
-  jouer ce rôle : elle n'est pas dans la clé. C'est ce que dit déjà la doctrine
-  éditoriale — homonymes séparés via `contexte`.
-- **Une répétition interne à une source n'est jamais un recoupement.** Ni
-  `Altenbach` listé deux fois, ni `Schennla` partagée par deux entrées de la page
-  des prénoms, ni les deux sens du dictionnaire (`page_X` / `page_Xf`) ne
-  comptent double : ils gonfleraient `nb_attestations` d'un recoupement fictif.
-  Le sens inverse sert de contrôle de cohérence interne, à rendre au rapport,
-  jamais dans le JSONL.
-- **L'ingestion se fait rubrique par rubrique** (`--rubrique`). Les rubriques
-  d'une source n'avancent pas au même rythme : `--source` seul emporterait des
-  lots qui n'ont pas passé leur GATE, sans erreur ni avertissement.
-- **Un JSONL se nomme d'après la clé de rubrique de la fiche source**, jamais
-  d'après la page d'origine — le motif de `--rubrique` est
-  `<source>__<rubrique>.jsonl`. Le lot des prénoms s'appelait
-  `culture_alsace__prenomsalsaciens.jsonl` pour une rubrique `prenoms` :
-  `--rubrique prenoms` ne désignait rien et rendait un succès silencieux.
-  Depuis, un filtre explicite qui ne trouve aucun fichier **échoue** (code 1) en
-  listant les rubriques réellement déposées. Le brut, lui, garde le nom de la
-  page : c'est la copie de la source, pas un produit du studio.
-- **`--resync`** rattrape une correction de parseur appliquée après ingestion —
-  `ignore-duplicates` laisse sinon la ligne existante telle quelle, en silence.
-  Il ne peut rien quand la correction touche la clé elle-même : il faut alors
-  supprimer puis réingérer.
-- **`data/raw/** -text` dans `.gitattributes`** : la source a des fins de ligne
-  mixtes, et `core.autocrlf` les réécrivait au checkout. Sans cet attribut, les
-  73 md5 tombent faux et un aller-retour Windows modifie l'archive.
-- **La fiche source porte les verdicts de vérification** (bloc `verification` :
-  verdict, carte, échantillon, graine, date), préservés à la régénération comme
-  `statut`. Un rapport de carte est éphémère, le dépôt reste — et le verdict est
-  ce qui *autorise* l'ingestion.
-
-**Le goulot n'est plus l'extraction.** Tout vient d'une source unique, donc tout
-est à 1 source sur N et `arbitrer_entree()` refuse. Extraire les 50 pages du
-dictionnaire porterait le stock à ~44 000 lignes également bloquées. La campagne
-suivante est donc la **recherche d'une deuxième source** (article Odoo 725), et
-non le dictionnaire. Pour les toponymes, la deuxième source la plus solide n'est
-peut-être pas un site : le circuit `/contributions` existe déjà, un contributeur
-= une source, et 954 communes à confirmer est un objet de campagne fini.
-
-## Campagne 1 réellement close (09/08/2026, chantier Odoo 730)
-
-La section ci-dessus décrivait le dépôt ; la base, elle, était restée en arrière.
-**Elle est maintenant à 1 132 attestations et 0 entrée**, vérifiées par comptage :
-954 toponymes (396 `Haut-Rhin`, 558 `Bas-Rhin`), 178 prénoms, `region` rempli sur
-954/954, `Bouxwiller` présent deux fois — y compris dans `/admin/arbitrage`.
-
-- **Le dépôt à jour ne prouve pas la base à jour.** Le fix `contexte` était
-  commité, vérifié et mergé, et n'avait jamais atteint Supabase : 953 toponymes
-  y restaient à `contexte` vide, et le `Bouxwiller` du Bas-Rhin, absorbé par la
-  clé UNIQUE à l'ingestion, manquait en silence. Rien ne relie le dépôt à la
-  base, et rien ne le signale. **Après tout correctif touchant un JSONL déjà
-  ingéré, le contrôle est un comptage en base, pas un `git log`.** C'est le
-  pendant exact de Coolify, qui redéploie l'app sans appliquer une migration.
-- La réparation a été une **purge SQL ciblée** (`type='toponyme' and
-  contexte=''`, 953 lignes, lancée à la main dans le SQL Editor) puis une
-  réingestion rubrique par rubrique. `--resync` ne pouvait rien : la correction
-  portait sur la clé d'unicité elle-même.
-- **Un JSONL se nomme d'après la clé de rubrique de la fiche source**, jamais
-  d'après la page — cf. la règle plus haut. La clé est en dur dans
-  `inventaire_miroir.py`, qui s'en sert pour reprendre `statut` et
-  `verification` à chaque régénération : renommer une clé dans la fiche seule
-  les perdrait au prochain passage du générateur. C'est le fichier qu'on
-  renomme, pas la clé.
-- **Point de départ de la campagne 2** : trois échantillons candidats sont déjà
-  déposés dans `data/raw/` par `ed-prospecteur` — `alsacien_wikipedia`,
-  `martin_lienhart`, `wiktionnaire_fr`. Le GATE est humain, le critère décisif
-  est l'**indépendance** : deux sources dont l'une recopie l'autre comptent pour
-  une seule.
-
-## Campagne 2 — deuxième source (09-10/08/2026)
-
-**Statut : trois sources en cours de vérification/audit, aucune ingérée.** Le
-studio a prospecté trois candidates (`ed-prospecteur`, échantillons dans
-`data/raw/` sur la branche `data`, commit `184e2e6`) : `alsacien_wikipedia`
-(als.wikipedia.org), `wiktionnaire_fr` (fr.wiktionary.org), `martin_lienhart`
-(Wörterbuch der elsässischen Mundarten, Martin & Lienhart 1899-1907, via
-l'API Wörterbuchnetz de Trèves). GATE Claude Code rendu sur pièces (pas sur
-rapport) à chaque étape, consignes tenues à jour dans l'article Odoo 725.
-
-- **`alsacien_wikipedia` — retenue, généralisée à 597 attestations.**
-  Rédaction encyclopédique communautaire, licence CC BY-SA/GFDL, non dérivée
-  de `culture_alsace`. Jointure par nom de commune (champ `nomalsacien` de
-  l'infobox) avec les 954 toponymes déjà en base ; les 5 vrais homonymes
-  HR/BR (`Bouxwiller`, `Buhl`, `Breitenbach`, `Herrlisheim`, `Steinbach`)
-  sont omis comme prévu. Point à vérifier avant arbitrage, non bloquant :
-  `Mulhouse` et `Eckartswiller` sont dédupliqués par le parseur comme des
-  doublons internes à la source (même `contexte` sur les deux lignes,
-  raisonnement calqué sur le précédent `Altenbach`), mais leurs formes
-  alsaciennes et codes postaux diffèrent contrairement à `Altenbach` — à
-  faire confirmer par `ed-gardien`.
-- **`wiktionnaire_fr` — retenue.** Pilote de 18 attestations (17 pages),
-  puis inventaire complet de `Catégorie:alémanique` : 834 pages (621
-  toponymes, 119 éléments chimiques, 62 mots, 33 noms propres), zéro
-  extraction sur ce lot. Généralisation en attente d'une carte dédiée.
-  Défaut mineur relevé : 3 entrées du pilote décrivant des communes sont
-  taguées `type: "mot"` au lieu de `toponyme`, à corriger au prochain lot.
-- **`martin_lienhart` — retenue sous réserve de droits, pilote à 5
-  communes.** Le dictionnaire apparie l'alsacien à l'**allemand**, jamais au
-  français : la seule extraction sûre est la **jointure toponymique** (le
-  lemme allemand correspond au nom officiel français déjà en base par
-  correspondance historique connue, jamais une traduction — règle 1). ElsWB
-  n'a que 5 lemmes toponymiques correspondant à une commune de
-  `culture_alsace`, tous en Bas-Rhin (`Strasbourg`, `Hagenau`, `Ittenheim`,
-  `Wasselonne`, `Brumaht`/Brumath) — plafond réel, pas un artefact du pilote.
-  Le vocabulaire général reste hors périmètre tant qu'aucune méthode
-  d'extraction non traductrice n'est trouvée. **Réserve juridique** : les
-  CGU de woerterbuchnetz.de ne montrent aucune licence explicite de
-  réutilisation ; une demande de clarification est en cours auprès de
-  `kompetenzzentrum@uni-trier.de`. Décision John (09/08/2026) : l'extraction
-  pilote démarre en parallèle de la demande (statut « à valider » comme
-  toute donnée du studio, règle 4) ; un refus impliquerait un retrait des
-  données déjà extraites.
-
-**Suite** : les trois lots passent par `ed-verificateur` puis `ed-gardien`
-(même chaîne que la campagne 1) avant tout GATE d'ingestion. La campagne sur
-le dossier `Dictionnaire/` (remplacement, ~50 pages) reste en attente que ces
-trois lots atteignent l'ingestion.
-
-## Campagne 2 close (10/08/2026)
-
-**2507 attestations, 0 entrée nouvelle.** Les trois sources prospectées ont
-toutes été tranchées : `alsacien_wikipedia` (597, approuvé et ingéré),
-`martin_lienhart` (5, approuvé et ingéré — plafond réel confirmé, la
-jointure toponymique n'a rien de plus à donner par cette méthode),
-`wiktionnaire_fr` (généralisé aux 834 pages de `Catégorie:alémanique`, 773
-attestations sur 755 pages productrices, approuvé et ingéré après une
-correction de parseur). Total recompté indépendamment en base (requête
-directe, pas le rapport du script d'ingestion) : `culture_alsace` 1132,
-`alsacien_wikipedia` 597, `martin_lienhart` 5, `wiktionnaire_fr` 773 = 2507.
-
-- **Un commit non poussé s'est fait passer pour un GATE tranché.** Le pilote
-  élargi de `wiktionnaire_fr` avait été produit et committé (`4934f86`) dans
-  le clone local du studio, jamais poussé sur `origin/data` — la carte
-  l'annonçait comme déposé. Le premier refus de Claude Code était donc
-  correct *au vu de ce qui était réellement sur le dépôt partagé*, mais fondé
-  sur un état périmé côté studio. Réconcilié par Claude Code (commit
-  `a75d1e0`) après vérification octet à octet que le commit local était un
-  vrai sur-ensemble du commit déjà poussé (`17a9eb5`) — même contenu sur les
-  5 lignes communes, rien perdu. Leçon retenue côté studio : les cartes de ce
-  type exigent désormais « commit ET push sur data », pas seulement
-  « commit », pour que la revue GATE voie l'état réel.
-- **Détection toponyme généralisée sans excès.** Le parseur `wiktionnaire_fr`
-  reste conservateur par construction (règle 3) : sur les 834 pages, 79 n'ont
-  produit aucune attestation, et 24 templates de tête inconnus ont laissé des
-  lignes omises plutôt que devinées. La seule commune du Haut-Rhin du corpus
-  (`Wìnkel`) partage son lemme avec le mot commun « angle » ; ses trois sens
-  communs sont extraits, son sens toponymique est omis faute de nom
-  identifiable dans la phrase — d'où `region=haut_rhin` à 0 sur ce lot, un
-  résultat correct et non un défaut du parseur.
-- Vérification indépendante systématique cette campagne : chaque décision
-  Claude Code s'est prise sur les fichiers `data/` poussés, jamais sur les
-  rapports de carte seuls — deux fois cela a changé la décision (le refus
-  initial de `wiktionnaire_fr`, la réconciliation du pilote élargi).
-
-**Prochaine étape** : le dossier `Dictionnaire/` (remplacement par la sortie
-du parseur, ~50 pages) est débloqué — plus aucune source de campagne 2 ne
-retient l'ingestion.
-
-## Périmètre des GATE tranché (10/08/2026, décision de John)
-
-- **Ce qui s'allège** : l'extraction vers `attestations` (dépôt JSONL sur
-  `data`, ingestion candidate en base, statut non public) et le verdict
-  `ed-verificateur` / `ed-gardien` — Claude Code n'a plus besoin de refaire
-  systématiquement le contrôle octet à octet avant chaque étape de ce
-  périmètre. Un doute signalé dans un rapport de carte reste traité comme
-  avant (contrôle sur pièces).
-- **Ce qui reste inchangé, sans exception nouvelle** :
-  - l'arbitrage humain (`statut='valide'`, `/admin/arbitrage`, règle 4) —
-    c'est l'étape qui rend une donnée publique, elle n'a jamais été faite
-    par le studio (règle doctrinale 5 : aucun agent ne crée d'entrée) et
-    reste réservée à un admin ;
-  - le seuil de 2 sources distinctes de `arbitrer_entree()` (règle 2), y
-    compris pour le dossier `Dictionnaire/` lui-même : une reprise en masse
-    d'une source scrapée unique est exactement le cas que l'exception du
-    07/08/2026 exclut explicitement (« la règle vise la reprise en masse
-    d'une source scrapée, pas le témoignage d'un locuteur qu'un humain a
-    arbitré »). Le dossier reste donc bloqué à 1 source sur N tant qu'aucune
-    deuxième source indépendante ne recoupe chaque entrée.
-- Écarté en cours de clarification : faire compter un code postal cohérent
-  comme un deuxième élément de confiance pour un toponyme à source lexicale
-  unique. Il valide l'identité de la commune française, pas la forme
-  alsacienne — il ne recoupe rien au sens de la règle 2. Le vrai recoupement
-  reste lexical, entre deux sources qui s'accordent sur la même forme
-  alsacienne (comme la jointure `alsacien_wikipedia` × `culture_alsace` de la
-  campagne 2) : la règle actuelle le couvre déjà, sans changement de seuil.
-
-## Campagne 3 — dictionnaire, close (10-11/08/2026)
-
-**24 983 attestations pour `culture_alsace` (+ 23 851), 0 entrée nouvelle.**
-La rubrique `lexique_a_d` de la fiche source (le dossier `Dictionnaire/`
-actuel, A-D, 7260 entrées, `statut: "extrait hors studio"`, jamais passé au
-contrat) a été reprise en entier au contrat `data/README.md` et étendue à
-tout l'alphabet — elle remplace ce dossier, elle n'ajoute pas une source.
-
-- **Chaîne de 4 cartes** (`ed-prospecteur` → `ed-extracteur` →
-  `ed-verificateur` → `ed-gardien`), sans carte GATE dédiée : la source
-  `culture_alsace` était déjà acceptée (GATE 1 non applicable), et le
-  périmètre GATE allégé ci-dessus couvrait déjà cette campagne (extraction →
-  attestations, verdicts `ed-verificateur`/`ed-gardien`).
-- **Parseur `scripts/extract/culture_alsace/lexique_a_d.py`** : lit les 25
-  pages `page_{X}f.htm` (sens français → alsacien uniquement — décision John
-  du 08/08/2026, le sens inverse n'est jamais une seconde attestation) et
-  produit 23 851 attestations. 2 omissions documentées (règle 3 du contrat :
-  un doute se signale, il ne se comble pas), 20 doublons intra-source
-  retirés (répétitions dans une page, ou entre `page_wf.htm`/`page_xyf.htm`
-  — première occurrence gardée, sauf quand l'alsacien diffère entre les
-  deux, auquel cas les deux attestations sont gardées), 390 coquilles de
-  source copiées verbatim et signalées, jamais corrigées (règle 1).
-- **Vérification `ed-verificateur`** : verdict CONFORME, échantillon 30/30 EN
-  SUS d'une reconstruction exhaustive des 23 851 lignes (0 écart), rejeu du
-  parseur identique octet à octet (md5 stable), `git diff` vide. Un vrai
-  écart trouvé en premier passage (balise `</I>` parasite dans `francais`,
-  L18829) a bloqué la carte, été corrigé (commit `57634ce`), puis re-vérifié
-  CONFORME — exactement le cycle « doute signalé → contrôle sur pièces →
-  reprise » que le périmètre allégé garde intact.
-- **Audit doctrinal `ed-gardien`** : verdict CONFORME sur les 7 règles du
-  SOUL.md (verbatim, rejeu, pas de clé service_role, pas de push sur main,
-  aucune trace `entrees`/arbitrage, pas de root, budget tenu — un run
-  d'extraction a timeout puis repris sans incident). Audit en lecture seule :
-  aucun commit sur `data`, livrable en commentaire de carte, pas d'article
-  Odoo (hors périmètre `ed-doc` pour cette campagne).
-- **Le canal Telegram direct s'est tu en cours de campagne sans prévenir.**
-  Les rapports d'avancement de l'extraction et de la vérification ne sont
-  jamais arrivés sur le canal (`getUpdates` s'arrêtait à « prospecteur en
-  cours », alors que 4 commits et un audit complet avaient déjà eu lieu).
-  Aucune erreur ni webhook en cause (`getWebhookInfo` propre) : le studio
-  n'avait simplement pas posté ces étapes-là sur ce canal. D'où la vérité
-  retrouvée sur les fichiers (`data/sources/culture_alsace.json`, le JSONL,
-  le compte de commits) plutôt que sur l'absence de messages — un canal muet
-  n'est pas une preuve que rien ne s'est passé, dans un sens comme dans
-  l'autre.
-- **Ingestion** (`--source culture_alsace --rubrique lexique_a_d --apply`,
-  depuis un worktree sur `data`) : 23 851 créées, 0 déjà présentes d'après le
-  script — recompté indépendamment en base par type (`mot` 17 954 +
-  `expression` 5 897 = 23 851 ; total source 24 983, `toponyme` et `prenom`
-  inchangés) plutôt que pris au mot du script, comme chaque campagne
-  précédente.
-- **Toujours bloqué à 1 source sur N.** `culture_alsace` reste une source
-  unique : `arbitrer_entree()` refusera toute validation de ces 23 851
-  candidats sans note d'arbitrage. Rien n'est publié. La suite naturelle est
-  la même deuxième source déjà utilisée pour les toponymes et prénoms
-  (`alsacien_wikipedia`, `wiktionnaire_fr`) — mais pour le lexique général
-  cette fois, pas encore recoupée.
-
-## Campagne 4 — deuxième source lexique général (gsw-fr), close (22-23/08/2026)
-
-**826 attestations ingérées côté `wiktionnaire_fr`, 0 entrée nouvelle.** (La
-généralisation en avait produit 821, ramenées à 813 par le fix `RE_FORME` puis
-portées à 826 par le tranchage des 13 lignes — cf. le détail plus bas. 826 est
-le compte final, recoupé en base.) Objet
-de la campagne : le lexique général de `culture_alsace` (23 851 lignes,
-campagne 3) restait bloqué à 1 source sur N faute de deuxième source touchant
-autre chose que toponymes/prénoms. Avant de reprospecter depuis zéro,
-elsassdico a été interrogé sur ce qui avait déjà été exploré (canal Telegram
-direct) : aucune prospection dédiée n'avait visé le lexique général, la
-campagne 1 étant explicitement cadrée toponymes dès le départ.
-
-- **Prospection d'inventaire (`t_ebd325cf`, zéro extraction)** sur 3 pistes que
-  ce cadrage avait laissées de côté : (1) les sections `{{langue|gsw-fr}}`
-  (alsacien de France) du Wiktionnaire fr, **ignorées par le parseur
-  existant** (choix de prudence documenté en campagne 2, jamais une exclusion
-  doctrinale) — 836 pages, ~800 mots ; (2) complétude de
-  `Catégorie:alémanique` — confirmée exacte à 834 pages, rien à récupérer ;
-  (3) `als.wiktionary.org`, jamais examiné jusque-là — **découverte qu'il
-  s'agit d'un simple alias du wiki `alsacien_wikipedia` déjà en base**
-  (redirection vers le namespace `Wort:`), pas un projet indépendant ; le
-  compter à part aurait vidé la règle 2 (recoupement avec soi-même). Bon
-  réflexe d'`ed-prospecteur` d'avoir vérifié plutôt que pris pour acquis.
-- **Pilote d'extraction (`t_bb75ea0e`)** : la définition française existe et
-  est exploitable dans les sections `gsw-fr`, jamais traduite (règle 1) — 20
-  attestations sur 21 pages.
-- **Qualification indépendance (`t_1f833c6f`)** : **verdict INDÉPENDANCE
-  DÉMONTRÉE**. 59 % des pages viennent d'un transfert daté et documenté
-  (16-20 janvier 2008, depuis un dictionnaire français-alsacien de
-  Wikipédia), le reste de créations humaines organiques 2004-2007. Zéro
-  filiation vers Matzen/Beyer/`culture_alsace`, divergence de graphie
-  systématique (conventions propres à `gsw-fr` : `ã`, `ä`, `â`...), **0
-  coquille de `culture_alsace` reproduite** — un miroir aurait recopié les
-  bizarreries, ici non. Deux réserves honnêtement rapportées (page source
-  Wikipédia supprimée donc filiation profonde invérifiable ; correction du
-  « 0 copie stricte » de l'inventaire en 41 formes byte-identiques sur 70
-  recoupantes, conventions partagées et non des coquilles) : aucune n'inverse
-  le verdict.
-- **GATE John (`t_4aa8dee1`) : généraliser**, avec un garde-fou explicite posé
-  *avant* et non après — la section `gsw-fr` seule ne permet pas de trancher
-  toponyme/mot pour un nom propre (ex. `Strossburi` → « Strasbourg. » sans
-  motif) ; le parseur doit consulter la section `gsw` jumelle de la même page
-  comme second signal, motifs commune/ville déjà connus. Si la jumelle est
-  absente, la ligne est signalée « type incertain », jamais devinée (règle
-  3) — c'est arrivé sur 13 des 836 pages.
-- **Généralisation (`t_06e56f33`)** → 821 attestations (803 mot / 16 prénom /
-  2 toponyme). **Vérification `ed-verificateur` : NON CONFORME au premier
-  passage**, deux vrais défauts trouvés (pas un simple copier-coller de
-  vérification) — 8 lignes de forme fléchie mal extraites faute de variantes
-  manquantes dans le regex `RE_FORME` (markup wikitext résiduel dans le
-  français) ; un rapport parent inexact sur 2 entrées d'une liste annexe.
-  Fix appliqué (`0edf3b8`, 821 → 813), **re-vérifié CONFORME**.
-- **Les 13 lignes « type incertain » tranchées par John** sur le seul critère
-  qui tient : le rubrique toponyme vise les communes/villages 67/68 déjà
-  dans `culture_alsace`, pas n'importe quel nom propre de lieu. 7 lignes
-  (les 4 variantes de `Milhüsa`, `Strossburg`, `Gawiller`, `Zàwera`) → 4
-  communes alsaciennes déjà en base, jointure exacte sur le nom français, **0
-  homonyme, 0 échec**. 6 lignes (`Vogesa`, `Spanïa`, `Frankrïïch`,
-  `Suntiklàuis`, `Kindelesbrunnen`, `Schwyz`) → `mot`, ce sont des pays, une
-  figure/tradition et un monument, pas des communes — le rubrique toponyme ne
-  s'applique pas même à un nom propre de lieu. Appliqué (`12ec2b5`, 813 →
-  826), **re-vérifié CONFORME**.
-- **Ingestion** (`--source wiktionnaire_fr --rubrique gsw_fr --apply`, depuis
-  un sandbox minimal plutôt qu'un worktree complet — cf. note technique
-  ci-dessous) : 821 créées, 5 déjà présentes d'après le script — recompté
-  indépendamment via l'API PostgREST (jamais pris au mot du script) :
-  `wiktionnaire_fr` total 1594 = 773 (rubrique `mots`) + 821 (rubrique
-  `gsw_fr`) ; par type `mot` 1058, `toponyme` 520, `prenom` 16 — tout se
-  recoupe exactement. Total base tous sources : 27 179. Les 5 « déjà
-  présentes » sont un recoupement interne (pages portant à la fois une
-  section `gsw` et `gsw-fr`, déjà ingérées via la rubrique `mots` —
-  précédent `Altenbach`/`Strossburi` déjà noté en campagne 2), pas une
-  erreur.
-
-**Ce que ça change** : `gsw-fr` est la première vraie deuxième source pour le
-**lexique général** (`mot`/`expression`), là où seuls les toponymes et
-prénoms avaient un recoupement jusqu'ici. Les entrées du lexique général de
-`culture_alsace` qui matchent une attestation `gsw-fr` sont désormais
-éligibles à l'arbitrage humain (`/admin/arbitrage`) — c'était l'objectif de
-la campagne. Rien n'est publié tant qu'un admin n'arbitre pas (règle 4).
-
-**Note technique — checkout Windows et service Supabase arrêté.** Un
-`git worktree add` classique sur la branche `data` échoue sur ce poste :
-`data/raw/wiktionnaire_fr/` contient un nom de fichier avec un caractère `?`,
-invalide sur NTFS quel que soit `core.protectNTFS` — l'échec se produit dès
-la construction de l'index, avant même le checkout des fichiers, et `git
-archive` avec pathspec échoue pareillement (le tree entier est déballé même
-si `data/raw` est explicitement exclu du pathspec). Contournement : extraire
-au cas par cas les seuls fichiers nécessaires par `git show
-origin/data:<chemin> > fichier` (lecture de blob, pas de parcours d'arbre),
-dans un sandbox minimal (`scripts/`, `data/attestations/`, `data/sources/`)
-plutôt qu'un worktree complet. Par ailleurs, le service Supabase self-hosted
-(`supabase-seqe2htqfjva4ack7r2bnoeb` sur Coolify) s'est retrouvé à l'état
-`exited` en cours de session (503 en simulation d'ingestion) — redémarré
-manuellement par John, aucun accès Coolify en écriture n'étant disponible
-depuis Claude Code pour le faire.
-
-## Premières entrées publiées (23/08/2026)
-
-**169 entrées `statut='valide'`, 342 liens `entree_attestations`.** Le
-dictionnaire affiche enfin quelque chose : après quatre campagnes de collecte,
-c'est le premier franchissement de l'étape `attestations -> entrees`, la seule
-qui rende une donnée visible. 166 toponymes + 3 mois (`janvier`, `juillet`,
-`juin`), tous à 2 attestations, tous signés (`valide_le`, `valide_par`).
-
-- **Deux notions de recoupement, longtemps confondues.** `arbitrer_entree()`
-  compte des `source_id` distincts ; la doctrine demande que les sources
-  **s'accordent sur la même forme alsacienne**. Sur les candidats à 2 sources :
-  629 passent la garde SQL, mais **169 seulement** voient leurs sources écrire
-  la même forme. Les 460 autres divergent (`Range`/`Rànge`,
-  `Riaschpa`/`Rieschbi`, `Ewerburnhaipt`/`Ewer-Burnhäuipt`) et relèvent du
-  « Divergence entre sources = entrée marquée pour arbitrage manuel » de la
-  doctrine éditoriale : choisir la forme canonique **est** l'arbitrage, ça ne
-  part pas en lot. La garde SQL n'a pas été touchée — c'est l'interface qui est
-  plus stricte qu'elle, jamais l'inverse.
-- **`TYPES_TERME` ignorait `toponyme` et `prenom`**, pourtant ajoutés à l'enum
-  par la migration `20260808140000`. Comme `estTypeTermeValide()` garde
-  `arbitrerAction()`, **arbitrer une commune échouait sur « Type inconnu »**, y
-  compris une par une. Le blocage était dur et invisible : il n'apparaissait
-  qu'à la première tentative d'arbitrage, comme le retard de migration du
-  09/08 et le bug de schéma du 10/08 n'apparaissaient qu'à la première
-  écriture. **Rien ne signale une désynchronisation enum SQL / constante TS.**
-- **La clé `service_role` ne peut pas arbitrer.** `is_admin()` lit `auth.uid()`,
-  absent d'une clé de service : `candidats_arbitrage()` et `arbitrer_entree()`
-  répondent « Arbitrage réservé aux administrateurs ». Pré-remplir `entrees`
-  depuis un script aurait imposé un `INSERT` direct, contournant la fonction de
-  garde. D'où le choix inverse : `arbitrerLotAction()` fait tourner la session
-  admin de John, et la garde s'exécute réellement 169 fois. La règle 4 reste
-  une barrière technique.
-- **La forme publiée est toujours copiée verbatim d'une attestation** (règle 1).
-  La ponctuation finale de `culture_alsace` (`Jüli.` contre `Jüli`) est ignorée
-  pour *comparer* deux formes, jamais réécrite : quand une source écrit la forme
-  sans point, c'est cette graphie-là qui est retenue ; sinon la forme attestée
-  part telle quelle, point compris. Vérifié sur les 629 candidats réels avant
-  publication — zéro forme publiée que personne n'ait écrite.
-- **Vérification**, comme à chaque campagne, recomptée en base et non prise au
-  rapport de l'action : 169 entrées, toutes `valide`, `nb_attestations >= 2`
-  partout, 342 liens de traçabilité. Puis contrôle de l'affichage **avec la clé
-  anonyme** et non la clé de service : `rechercher_entrees()` rend
-  `Benfeld -> Banfald`, le sens inverse (`Banfald -> Benfeld`) fonctionne via
-  `entrees.alsacien_recherche`, `sources_entree()` expose bien les deux
-  sources, et `GET /attestations` rend 0 ligne à un visiteur — le brut ne fuite
-  pas.
-- **Le reste du stock demeure bloqué.** 26 309 candidats au total, dont
-  ~26 000 à source unique : `arbitrer_entree()` continuera de les refuser sans
-  note d'arbitrage. Publier davantage suppose soit une source de plus, soit un
-  arbitrage manuel candidat par candidat.
-- **Piège relevé, non traité** : `candidats_arbitrage()` regroupe sur
-  `immutable_unaccent(lower(btrim(francais)))`, donc `unaccent` fusionne des
-  mots français différents — `classé` (culture_alsace, « unter Dankmolschutz »)
-  avec `Classe` (wiktionnaire, « Klassa »), `affairé` avec `Affaire`. Plusieurs
-  des 30 candidats lexicaux à 2 sources sont de faux recoupements. Le critère
-  d'accord sur la forme les écarte de fait ici, mais le regroupement reste à
-  revoir avant d'ouvrir le lexique général.
-
-**L'outil** (`/admin/arbitrage`, onglet « Recoupées ») ne relâche jamais la
-garde SQL, il la resserre : il n'offre en lot que les candidats dont deux
-sources écrivent la même forme, et refuse côté serveur toute clé absente du lot
-qu'il vient lui-même de recalculer. Le reste de la file s'arbitre toujours un
-par un, à l'écran de détail. `traductionsRecoupees()`
-(`src/lib/dictionnaire.ts`) porte le critère, et donc la doctrine : elle est le
-bon endroit où regarder avant de toucher au seuil.
-
-**Ce que l'onglet vide signifie.** Après publication, « Recoupées (0) » est
-l'état normal et non une panne : `candidats_arbitrage()` exclut par
-construction toute attestation déjà rattachée à une entrée, donc un lot publié
-quitte la file. Les compteurs des deux autres onglets s'affichent en « 50+ » —
-`p_limite` plafonne les RPC de liste à 50, et afficher le nombre brut ferait
-lire une taille de page comme un total.
-
-## Campagne 5 — troisième source lexicale (lancée le 24/08/2026)
-
-**Décision de John : la troisième source, pas le chantier d'arbitrage** — des
-deux voies laissées ouvertes le 23/08. Carte de prospection `t_5858eff3`
-(`ed-prospecteur`, inventaire, **zéro extraction**), GATE avant tout pilote.
-Cadrage : critère de succès = **recoupements lexicaux**, jamais volume
-d'attestations ; critère de tri n°1 = la source doit apparier l'alsacien au
-**français** (un dictionnaire germanophone l'apparie à l'allemand — plafond
-Martin & Lienhart à 5 lignes, campagne 2) ; piège alémanique explicite
-(als.wikipedia et de.wiktionary mélangent suisse, souabe, badois). Piste
-secondaire à qualifier : le namespace `Wort:` d'als.wikipedia, jamais exploité,
-mais **rubrique d'une source déjà en base et non troisième source**.
-
-### Ce que le diagnostic préalable a établi (mesuré en base, pas estimé)
-
-- **La couverture est bien le goulot, pas la graphie.** `wiktionnaire_fr` ne
-  couvre que **0,8 %** des lemmes lexicaux de `culture_alsace` (184 sur 22 718).
-  Les deux sources ne parlent pas des mêmes mots — d'où une troisième source, et
-  non un travail sur les formes.
-- **165 accords bloqués par une convention de champ, pas par les données.**
-  `candidats_arbitrage()` groupe sur (français normalisé, **contexte**). Or la
-  rubrique `mots` de `wiktionnaire_fr` (campagne 2) porte `contexte =
-  "Alsace ; Géographie"` sur 490 toponymes, là où `culture_alsace` et
-  `alsacien_wikipedia` portent le département. Les deux ne se rencontrent donc
-  jamais, **même en écrivant exactement la même forme** (`Bàrr`, `Bìwelse`,
-  `Àndlöi`). 165 nets, hors `Breitenbach` et `Buhl` (homonymes réels). Le
-  regroupement par contexte est correct — c'est lui qui protège les deux
-  `Bouxwiller` ; c'est la donnée qui n'est pas au contrat. Carte studio envoyée
-  le 24/08 : régénération du JSONL par jointure exacte sur le nom français, puis
-  purge ciblée et réingestion par Claude Code (la clé UNIQUE est touchée, donc
-  `--resync` ne peut rien — précédent campagne 1). La rubrique `gsw_fr`
-  (campagne 4) applique déjà la bonne convention : c'est un alignement.
-- **L'article défini alsacien ne vaut pas un correctif.** `culture_alsace`
-  écrit `d'r lohn`, `s' schloss` (15 624 attestations lexicales sur 23 851),
-  ce qui fait échouer la comparaison avec `lohn`, `schloss`. L'ignorer pour
-  comparer ne gagne pourtant qu'**un** recoupement (`choucroute`). Un premier
-  chiffrage annonçait +13 : il était faux, produit par une normalisation qui
-  écrasait aussi casse et diacritiques. **Mesurer un recoupement avec une règle
-  plus permissive que `cleDeForme()` ne trouve rien, ça efface la question.**
-- **En revanche, 76 des 460 divergents ne diffèrent que par un diacritique**
-  (`Barr`/`Bàrr`, `Bischwiller`/`Bìschwiller`, `Àndloi`/`Àndlöi`). C'est un
-  volume d'**arbitrage manuel** rapide, jamais un recoupement automatique :
-  choisir entre deux graphies attestées *est* l'arbitrage, et Orthal donne la
-  règle. À ne pas confondre avec un gisement publiable en lot.
-
-### Le dictionnaire double : 332 entrées publiées (24/08/2026)
-
-**169 -> 332 entrées `valide`, 814 liens de traçabilité, en une journée et sans
-aucune donnée nouvelle.** 329 toponymes + 3 mois. Publiées en lot par John via
-l'onglet « Recoupées » après ingestion de la recontextualisation.
-
-Contrôles refaits en base après publication, comme le 23/08 :
-toutes `valide`, toutes signées (`valide_le`, `valide_par`), `nb_attestations >= 2`
-partout, aucune entrée sans lien, **0 forme publiée que personne n'ait écrite**
-(règle 1) et **0 forme canonique attestée par moins de 2 sources** (règle 2).
-Affichage vérifié avec la **clé anonyme** et non la clé de service :
-`Natzwiller -> Nàswil` et le sens inverse répondent, `sources_entree()` expose
-bien les trois sources, et `GET /attestations` rend `[]` à un visiteur — le brut
-ne fuite pas. La forme canonique est celle sur laquelle deux sources s'accordent,
-la variante à source unique suivant en second (« Premier est Roi ») :
-`Rangen -> ['Rànge', 'Range']`.
-
-**« Recoupées (0) » après publication a de nouveau été lu comme une panne.**
-C'est l'état normal, déjà documenté au 23/08 : `candidats_arbitrage()` exclut
-toute attestation rattachée à une entrée, donc un lot publié quitte la file. Le
-piège est réel — le compteur passe de 163 à 0 au moment précis où l'on réussit.
-Le contrôle qui tranche est le comptage des `entrees`, jamais l'onglet.
-
-### Résultat des deux cartes (24/08/2026)
-
-**Recontextualisation ingérée : 169 -> 332 accords de forme, +163 candidats
-recoupés, 0 perdu.** Le plus gros gain de recoupement depuis l'ouverture de la
-base, sans une seule donnée nouvelle. Les divergences tombent de 460 à 350.
-Total inchangé (27 179 attestations, `wiktionnaire_fr` 1594), recompté en base
-et non pris au rapport du script.
-
-- Diff contrôlé ligne à ligne avant purge : 349 lignes, **toutes `toponyme`,
-  toutes sur le seul champ `contexte`**, ordre préservé, aucune ligne perdue.
-- **349 recontextualisées et non ~490 comme la consigne l'annonçait** :
-  l'estimation était fausse, pas le travail. 154 des lignes non jointes sont des
-  communes que `culture_alsace` ne liste pas (`Bergbieten`, `Brumath`...) ou des
-  villes étrangères (`Berlin`, `Brême`). Les 8 non jointes dont le nom existe
-  pourtant côté `culture_alsace` sont les 5 homonymes attendus plus 3 cas où le
-  nom **français** diffère par un diacritique (`Sélestat`, `Seebach`,
-  `Lutzelhouse`) — jointure exacte, doute signalé, jamais deviné.
-- Purge sûre car vérifiée telle : **aucune des 349 ne fondait une entrée
-  publiée** (0 lien `entree_attestations`), sauvegarde complète écrite avant le
-  premier DELETE. Réingestion : 349 créées, 424 déjà présentes.
-- **Piège de mapping évité** : un premier plan de purge visait 350 lignes dont
-  une de type `mot`. Le JSONL porte deux `Neptune.` / `Neptun` (le dieu et la
-  planète), qu'un index par (français, alsacien) écrase l'un l'autre. **Le seul
-  mapping exact entre deux versions d'un JSONL est positionnel**, l'ordre des
-  lignes étant vérifié identique — pas une clé métier qu'on suppose unique.
-- **La simulation d'ingestion sert aussi à ça** : elle a révélé que le script
-  allait créer les trois sources candidates écartées (`elsadico`,
-  `freelang_alsacien`, `runneburger_benfeld`), présentes dans `data/sources/`
-  mais sans aucune attestation — `--source` ne filtre pas la création des
-  sources. `sources` étant exposée publiquement par `sources_entree()`, ces
-  fiches ont été retirées du sandbox avant `--apply`. La base garde 4 sources.
-
-**Prospection : il n'existe pas de troisième source lexicale libre de droits.**
-C'est le vrai résultat de la campagne, et il est négatif.
-
-- `elsadico` (3 333 mots) — **écartée sur l'indépendance** : dictionnaire de
-  Raymond Bitsch *avec la participation de Raymond Matzen*, or `culture_alsace`
-  est « Matzen et contributeurs ». Deux sources partageant le même linguiste ne
-  se recoupent pas, elles se répètent — règle 2 appliquée à la racine et non à
-  la surface. Droits réservés par ailleurs.
-- `freelang_alsacien` (5 478 entrées, bidirectionnel, auteurs indépendants
-  Alby/Muller) — la meilleure piste sur le fond, **bloquée sur les droits** :
-  les listes restent propriété des auteurs, pas de licence de réutilisation.
-- `runneburger_benfeld` (~98 720 entrées, parler de Benfeld) — probablement le
-  plus grand dictionnaire alsacien-français publié, **papier uniquement** : OCR
-  et saisie sont tous deux interdits par le contrat.
-- Aucune copie archivée pour ces trois-là — la question des droits se pose
-  **avant** la première copie.
-- Seule piste ouverte, **non extraite** : le namespace `Wort:` d'als.wikipedia
-  (CC BY-SA, ~970 couples, 8 pages archivées avec md5). C'est une **rubrique
-  d'`alsacien_wikipedia`**, jamais une troisième source. Son recoupement mesuré
-  est l'information décisive : **418 lemmes français communs sur 643 (65 %,
-  contre 0,8 % pour `wiktionnaire_fr`) mais 14 formes byte-identiques
-  seulement.** Au passage, `elsassisch.eu/LexiqueFrancaisAlsacien` s'est révélé
-  être un **miroir** de cette même page (398/468 identiques) — deuxième fois que
-  ce domaine tente de compter double.
-
-**Ce que ça change pour la suite.** Le goulot n'est plus la couverture mais
-**l'accord de graphie entre sources**. Une source de plus ne le règle pas : elle
-divergerait aussi. D'où la décision de John du 24/08 — **arbitrage manuel**,
-pas d'extraction supplémentaire. Le gisement est là : 350 divergences, dont 76
-ne diffèrent que par un diacritique et se tranchent à la règle Orthal.
-
-### Clé d'arbitrage : `unaccent` fusionnait des mots français distincts
-
-Migration `20260824120000_cle_arbitrage_accents.sql`. La clé de groupement
-s'écrivait `immutable_unaccent(lower(btrim(francais)))`, ce qui réunissait
-`sur`/`sûr`, `ou`/`où`, `la`/`là`, `comte`/`comté`, `tache`/`tâche`,
-`ville`/`Villé` — **31 groupes**, présentés à l'arbitre comme un seul candidat
-mêlant deux sens. La clé devient `lower(btrim(francais))` dans les quatre
-fonctions qui la produisent ou la comparent (`candidats_arbitrage`,
-`detail_candidat`, `entrees_par_statut`, `propositions_orthal_candidat`).
-
-- La **recherche floue garde `unaccent`** — chercher « epreuve » doit trouver
-  « épreuve ». Elle s'écrit `lower(x)` sans `btrim`, elle n'est pas touchée.
-- **Aucune entrée publiée n'était fausse** : le critère d'accord sur la forme
-  les écartait de fait. Une seule voit sa clé se scinder, et c'est le cas
-  emblématique — `Villé`, commune du Bas-Rhin, aujourd'hui confondue avec le mot
-  `ville`. Le défaut était donc déjà à l'œuvre, sans dégât visible.
-- **L'index `ux_entrees_francais_contexte_normalise` n'est pas touché** : il
-  applique `immutable_unaccent` lui aussi, donc `sur` et `sûr` ne peuvent pas
-  coexister dans `entrees` sans contexte distinct. Décision du 24/08 : on le
-  laisse, ça ne gêne qu'au moment de publier les deux, et la doctrine sépare
-  déjà les homonymes par le contexte. À rouvrir si le cas se présente.
-- Comme toujours, **Coolify n'applique aucune migration** : à passer à la main
-  dans le SQL Editor du Studio.
-
-## Onglet « Divergentes » (24/08/2026)
-
-Le symétrique de « Recoupées », pour la voie d'arbitrage manuel retenue par John
-faute de troisième source. Il liste les candidats à **deux sources ou plus dont
-aucune forme n'est écrite pareil par deux d'entre elles** — 345 à l'ouverture —
-et propose, pour chacun, un bouton par forme attestée. Un clic publie une entrée
-avec cette forme en canonique, les autres conservées en variantes.
-
-- **Ce n'est pas un traitement de masse et ça ne doit jamais le devenir.**
-  « Divergence entre sources = arbitrage manuel » : choisir la graphie EST
-  l'arbitrage. L'onglet rend le geste rapide, il ne le supprime pas — une
-  décision humaine par entrée, `arbitrer_entree()` exécutant ses gardes comme
-  depuis l'écran de détail.
-- **Deux gardes serveur, parce que ce qui vient du navigateur ne fonde rien.**
-  `arbitrerDivergenceAction()` recalcule le candidat côté serveur et refuse une
-  clé absente de la file ; puis `traductionsArbitrees()` rend `[]` si la graphie
-  demandée n'est pas l'une des formes attestées — **rien ne peut publier une
-  forme que personne n'a écrite** (règle 1).
-- **`cleDeTri()` écrase casse et diacritiques, et ne sert QU'À TRIER.** Elle
-  remonte en tête les 28 divergences qui ne tiennent qu'à un accent
-  (`Hatte`/`Hàtte`, `Wolschwiller`/`Wolschwìller`), tranchables à la règle
-  ORTHAL. **Elle ne doit jamais servir à décider d'un recoupement** : en Orthal
-  les diacritiques notent des sons, et les confondre effacerait la question posée
-  à l'arbitre — c'est exactement l'erreur commise le 24/08 en annonçant « +13 »
-  là où le gain réel était de +1. Le reste des divergences sont de vraies
-  variantes dialectales (`Riaschpa`/`Rieschbi`, `Müeschbe`/`Müaschpa`), qui
-  demandent une décision de fond.
-- La pagination est factorisée avec l'onglet Recoupées
-  (`parcourirCandidatsMultiSources`) : sa condition d'arrêt est subtile — le tri
-  SQL par `nb_sources DESC` garantit qu'après une page sans candidat à deux
-  sources, les suivantes n'en portent pas non plus — et les deux onglets doivent
-  la partager. Leurs compteurs sont donc de vrais totaux, contrairement aux deux
-  autres plafonnés à « 50+ ».
-
-## Identité visuelle alignée sur le site (25/08/2026)
-
-L'app est destinée à être **intégrée en iframe dans une page du site**, pour
-qu'elle fasse partie du site et non qu'elle y soit posée. Elle portait jusqu'ici
-la palette du boilerplate Dyad — indigo, cyan, fond `slate-950` — sans rapport
-avec The Elsassisch. **Décision de John : fond clair, palette du site.**
-
-- **Le site est `www.theelsassisch.com`** (site Odoo, même contenu que
-  `theelsassich.odoo.com`). Attention : `theelsassisch.fr` répond 503 en HTTPS
-  et 404 en HTTP, et `theelsassisch.com` sans `www` ne répond pas — seul le
-  sous-domaine `elsass-dico.theelsassisch.fr` (**périmé depuis le 03/09/2026** :
-  `elsass-dico.theelsassisch.com`, cf. « Décisions prises ») est servi par
-  Coolify, qui n'héberge pas le site principal.
-- **Palette relevée dans le CSS compilé du site**, jamais inventée :
-  `--o-color-1` / `--primary` = `#EFC631` (or), `--o-color-2` = `#FF0000`
-  (rouge), `.o_cc1` = fond `#FFFFFF` / texte `#212529`, `--danger` = `#dc3545`.
-  Police : pile système, aucune webfont.
-- **Deux contraintes de contraste commandent l'usage des deux couleurs**, et
-  elles ne se contournent pas : l'or sur blanc donne **1,8:1** — il ne peut pas
-  porter de texte, seulement servir de fond ou d'aplat ; `#FF0000` sur blanc
-  donne **4,0:1**, sous le seuil AA du texte courant. D'où
-  `--marque-rouge-texte` (`#C20000`, 6,4:1), seul rouge admissible sur du texte.
-- **`--secondary` et `--accent` ne sont PAS les couleurs secondaires de la
-  marque.** Dans shadcn ce sont des surfaces neutres (fond de badge, survol) :
-  y verser `#FF0000` aurait rendu rouge vif chaque `Badge variant="secondary"`
-  de la file d'arbitrage. Le rouge et l'or vivent dans des tokens `marque-*`
-  dédiés, invoqués explicitement (`bg-marque-or`, `text-marque-rouge-texte`).
-- **`--input` est distinct de `--border`.** Le boilerplate leur donnait la même
-  valeur (1,29:1) : la bordure qui *délimite un champ* doit atteindre 3:1
-  (WCAG 1.4.11), sans quoi le champ de recherche — le cœur de cette app — est à
-  la limite du visible. `--input` vaut donc `210 14% 59%` (3,02:1), `--border`
-  reste discret pour les séparateurs.
-- **Le vert et l'ambre de `/admin/arbitrage` sont conservés** : ils portent un
-  sens (recoupé / divergence), ce ne sont pas des couleurs décoratives. Seul
-  l'indigo, qui n'en portait aucun, a été retiré. La couronne « forme
-  canonique » passe en revanche à l'or de marque, pour cesser de se confondre
-  avec l'ambre d'alerte.
-- **Piège Tailwind vérifié sur le CSS produit** : `ease-[cubic-bezier(0.2,0,0,1)]`
-  est rejeté comme ambigu (« matches multiple utilities ») et ne génère
-  **aucune** règle — la transition retombe silencieusement sur `ease`. La courbe
-  est devenue un token nommé, `ease-doux`. En revanche les opacités sur couleur
-  de marque (`bg-marque-or/[0.07]`) fonctionnent : Tailwind 3.4 produit bien
-  `hsl(var(--marque-or) / 0.07)` sans avoir besoin de `<alpha-value>`.
-- **Un changement de `tailwind.config.ts` n'est pas pris à chaud** : le serveur
-  de dev doit être redémarré, sans quoi on vérifie l'ancien CSS en croyant
-  tester le nouveau.
-
-## App autonome, mobile-first (décision du 28/08/2026)
-
-**Renverse la décision du 25/08/2026.** L'app n'est plus destinée à être
-intégrée en iframe dans une page du site — elle devient une **app autonome,
-100% mobile-first**, et le site (`www.theelsassisch.com`) redirige vers elle
-par un simple lien si besoin, plutôt que de l'embarquer.
-
-- Motif : la maquette mobile (`design_handoff_mobile_app/`, handoff Claude
-  Design du 28/08) dessine une UI façon app native (status bar, home
-  indicator) qui n'a pas de sens nichée dans une page desktop. L'iframe posait
-  aussi de vrais problèmes techniques indépendants du design : session
-  Supabase en cookies tiers, pas de deep-link partageable vers une fiche de
-  mot (`/entree/[id]`).
-- Le travail d'identité visuelle du 25/08 (palette rouge/or du site,
-  contrastes AA) reste valide et sert la cohérence de marque — il ne dépendait
-  pas techniquement de l'iframe.
-- **Périmètre confirmé (28/08/2026) : toute l'app.** `/admin` et
-  `/admin/arbitrage` passent aussi mobile-first, pas seulement les 6 écrans
-  publics du handoff — John doit pouvoir arbitrer depuis son téléphone.
-
-## Mobile-first implémenté et déployé (29/08/2026)
-
-Les 13 flux/16 écrans du handoff (`design_handoff_mobile_app/`) ont été
-recréés dans l'app : nouveau `src/components/app-header.tsx` (icônes de nav
-racine / chevron retour empilé) en remplacement de `MainNav`/`UserNav`
-(supprimés), tokens neutres/succès/attention dans `globals.css`/
-`tailwind.config.ts`, écrans publics reconstruits (recherche, fiche de mot,
-signaler et dictionnaire A-Z — ces deux derniers nouveaux), auth restylée,
-« Mon espace » (fusion dashboard/profil/contributions par rôle,
-`/dashboard`, `/profile` redirige dessus), « Proposer un mot » autonome
-(`/contributions/proposer`), « Mes contributions » restylée, habillage
-mobile-first de `/admin` et `/admin/arbitrage/*` (contenu métier inchangé).
-Deux migrations ajoutées : `20260829000000_navigation_alphabet.sql`
-(`lettres_disponibles()`, `entrees_par_lettre()` — parcours A-Z) et
-`20260829010000_stats_contributeur.sql` (`mes_votes_count()` — compteur de
-Mon espace). **PR #16, mergée et déployée en prod le 29/08/2026.**
-
-Deux simplifications assumées faute de flux backend correspondant, à
-confirmer si besoin : le CTA « Devenir contributeur » (lecteur, Mon espace)
-pointe vers le forum plutôt qu'un changement de rôle self-service
-inexistant ; la carte « À arbitrer » (admin, Mon espace) est un teaser
-(compte + lien vers `/admin/arbitrage`) plutôt qu'un bouton « Promouvoir »
-inline sur une entrée déjà publiée, ce geste n'existant dans aucune action
-actuelle.
-
-**Bug trouvé dès la mise en prod, corrigé le jour même (PR #17) : l'app
-restait à largeur téléphone sur tablette/desktop.** `LayoutWrapper`
-plafonnait toutes les routes à `max-w-md` (402px, gabarit du handoff), y
-compris `/admin/*` dont les pages portent leurs propres conteneurs plus
-larges (`max-w-5xl`/`max-w-6xl`, hérités du 25/08) — imbriqués dans un
-parent plus étroit, ces conteneurs n'avaient plus aucun effet. Le handoff ne
-montre que des cadres de téléphone : rien dans le mockup ni dans la
-vérification initiale ne testait au-delà de cette largeur. Correctif :
-largeur conditionnelle à la route dans `LayoutWrapper` (`usePathname`) —
-progressive par palier pour les écrans app (`max-w-md` → `sm:max-w-lg` →
-`md:max-w-2xl` → `lg:max-w-3xl`, une colonne qui reste une colonne, pas de
-grille multi-colonnes), `max-w-6xl` fixe pour `/admin/*` pour laisser ses
-conteneurs internes reprendre la main. **Leçon pour toute future migration
-mobile-first sur ce modèle : vérifier plusieurs largeurs de viewport
-(mobile, tablette, desktop) avant de considérer le travail terminé, pas
-seulement la largeur du mockup fourni.**
-
-## Nav responsive : rail desktop/tablette + barre mobile (30/08/2026)
-
-Le header à icônes du 28/08 (`app-header.tsx`) était strictement identique à
-toutes les largeurs — aucune adaptation tablette/desktop de la nav
-elle-même, seule la colonne de contenu s'élargissait (correctif du 29/08
-ci-dessus). Corrigé en appliquant à Dico le standard de nav responsive
-documenté le même jour dans Claude Design (projet « The Elsassisch Design
-Systeme » -> composant AppNav, calqué sur `AppShell` d'Elsass Game) :
-
-- Nouveau `src/components/app-nav-shell.tsx` : barre d'onglets fixe en bas
-  sur mobile, rail vertical fixe à gauche dès la tablette (`md`, icônes
-  seules) puis desktop (`lg`, icônes + libellés) — mêmes destinations
-  qu'avant (Recherche/Dictionnaire/Mon espace). Overlay en position fixe,
-  pas un wrapper de layout : évite de retoucher `LayoutWrapper`, qui portait
-  déjà le correctif de largeur de la veille. Les 4 écrans concernés (`/`,
-  `/dictionnaire`, `/dashboard`, `/entree/[id]`) réservent la place via un
-  padding responsive sur leur propre conteneur (`md:pl-20 lg:pl-56` /
-  `pb-16 md:pb-0`).
-- `app-header.tsx` allégé : ne porte plus les icônes de nav (déplacées dans
-  `AppNavShell`), garde seulement le wordmark/titre et le chevron retour.
-- **4e destination conditionnelle : « Arbitrage »**, visible uniquement si
-  `role === "admin"` — même condition stricte que le middleware sur
-  `/admin/*`, pas juste « connecté » : un utilisateur ou contributeur
-  connecté serait de toute façon redirigé vers `/dashboard` en accédant à
-  `/admin/arbitrage`, un lien affiché pour lui n'aurait mené nulle part.
-  `/admin/arbitrage` garde son propre `AppHeader` en `variant="stack"`
-  inchangé (trailing vers `/admin`, retour vers `/dashboard`) : l'icône ne
-  s'affiche donc jamais « active » une fois sur la page elle-même, comme
-  `/admin` aujourd'hui — seulement en highlight d'entrée depuis les 3
-  autres écrans racine.
-
-Vérifié : `tsc --noEmit` propre, `next build` jusqu'au bout (types, lint,
-15/15 pages générées) — seul l'échec final est un `EPERM` sur les liens
-symboliques Windows du mode standalone, sans rapport avec le code. Testé en
-navigateur à 3 largeurs (mobile ~390px, tablette ~1024px, desktop ~1320px)
-et sur `/admin` (écran « stack », confirmé sans rail — comportement
-inchangé). Branche `feat/nav-adaptative-appnav`, PR ouverte vers `main`
-(protégé par ruleset, aucun push direct).
-
-## Largeur pleine page sur tablette/desktop (30/08/2026)
-
-**Révise le correctif du 29/08/2026 ci-dessus.** `LARGEUR_APP` plafonnait
-progressivement la colonne app jusqu'à `max-w-3xl` (768px), y compris sur
-grand écran — laissant de larges bandes de fond neutre de chaque côté,
-perçues par John comme un bug plutôt qu'un choix. Décision : la colonne app
-prend désormais toute la largeur disponible, sans plafond
-(`src/components/layout-wrapper.tsx`, `LARGEUR_APP = ""`). La disposition
-reste mobile-first à l'intérieur (une seule colonne, pas de grille
-multi-colonnes) — seul le conteneur s'élargit. `/admin/*` garde son plafond
-fixe `max-w-6xl`, inchangé. Les 4 écrans qui réservent la place du rail par
-leur propre padding (`md:pl-20 lg:pl-56`, cf. section précédente) n'étaient
-pas concernés et n'ont pas bougé. PR #19, mergée sur `main`.
-
-## Audit CPU du conteneur elsass-dico (30/08/2026)
-
-John coupe régulièrement `elsass-dico` et `supabase` sur Coolify quand le CPU
-du VPS sature. Revue du code (recherche publique, navigation A-Z,
-`auth-provider`, écrans d'arbitrage, `middleware.ts`, `next.config.ts`,
-`Dockerfile`, `package.json`) : **rien de flagrant** — recherche debounced
-250ms déléguée à une RPC Postgres plafonnée à 30 résultats, aucun
-`setInterval`/canal realtime/polling, pas de `next/image` ni de lib
-CPU-intensive, un seul process Node en prod.
-
-- **Trouvé côté Coolify (lecture seule) : `elsass-dico` n'avait aucune limite
-  CPU/RAM** (`limits_cpus: "0"`, `limits_memory: "0"` via `get_application`)
-  — rien n'empêche un pic de manger tout le CPU du VPS plutôt que d'être
-  contenu au conteneur. Toujours vrai à cette date, Claude Code n'a pas
-  d'accès en écriture Coolify pour le corriger.
-- **Les métriques Sentinel du serveur étaient désactivées**
-  (`is_metrics_enabled: false`) — aucun historique CPU par conteneur
-  n'existait, donc aucun diagnostic autre que la lecture de code n'était
-  possible. **John les a activées le 30/08/2026** : la prochaine fois que le
-  CPU sature, un vrai graphique par conteneur permettra de trancher
-  (trafic/bot vs boucle interne) au lieu de deviner depuis le code.
-- Point faible relevé, non corrigé : rien ne limite le trafic public
-  (pas de rate limiting), et `middleware.ts` appelle
-  `supabase.auth.getUser()` sur quasiment toute requête — un scraper agressif
-  amplifierait la charge sur Supabase à chaque hit, ce qui expliquerait que
-  les deux services saturent ensemble.
-
-## Retour depuis une fiche de mot restaure l'état d'origine (30/08/2026)
-
-**Bug remonté par John : le chevron retour de `/entree/[id]` renvoyait toujours
-vers `/`**, quelle que soit la page d'où venait l'utilisateur — perdant la
-lettre choisie dans le dictionnaire (retour systématique sur A) et le terme
-tapé dans la recherche (champ vide au retour). Deux causes distinctes,
-corrigées ensemble :
-
-- **La destination était figée.** `AppHeader` (`variant="root"`) ne savait
-  faire qu'un `Link` vers un `backHref` fixe ; `entree/[id]/page.tsx` codait en
-  dur `backHref="/"`. `backHref` accepte désormais aussi `true`, qui déclenche
-  `router.back()` (`src/components/app-header.tsx`) — la fiche de mot passe
-  cette valeur plutôt qu'une chaîne, donc le retour va réellement à la page
-  d'où on vient (recherche ou dictionnaire), pas à un lieu fixe.
-- **Revenir à la bonne page ne suffit pas si son état interne (lettre
-  sélectionnée, terme recherché) était en `useState` local** : une navigation
-  entre deux routes différentes remonte le composant, réinitialisant ses
-  `useState` à leur valeur par défaut même si l'URL redevient la bonne.
-  Corrigé en faisant porter cet état par l'URL plutôt que par du seul state
-  React : `/dictionnaire?lettre=B`, `/?q=Barr`, mis à jour par
-  `router.replace(..., { scroll: false })` (pas `push`, pour ne pas empiler
-  une entrée d'historique par lettre cliquée ou par recherche tapée) dans
-  `src/app/dictionnaire/page.tsx` et `src/app/page.tsx`. Au montage, l'état
-  initial se lit dans l'URL (`useSearchParams().get(...)`) plutôt que d'être
-  toujours la valeur par défaut.
-- **`useSearchParams()` impose un `<Suspense>`** autour de tout composant qui
-  l'appelle, sous peine d'échec de `next build` (« should be wrapped in a
-  suspense boundary »). Les deux pages sont donc scindées en une coquille
-  `export default` qui pose le `Suspense` (fallback : juste l'`AppHeader`, sans
-  contenu — l'écran est de toute façon rendu côté client) et un composant
-  `*Contenu` qui porte la logique existante.
-- **Un `next build` lancé pendant que `next dev` tournait a de nouveau cassé
-  ses assets** (cf. [[outillage-poste-john]], la mise en garde existait déjà et
-  a été enfreinte en vérifiant ce correctif) — le dev a dû être arrêté
-  (`taskkill`) et relancé après `rm -rf .next`. **Ne jamais lancer `next build`
-  pour vérifier un correctif tant qu'un `next dev` tourne** : utiliser
-  uniquement `tsc --noEmit`, ou arrêter le dev avant le build et le relancer
-  après.
-- Vérifié en navigateur (pas seulement à la lecture du code) : dictionnaire
-  lettre A → clic B → clic « Barr » → retour → lettre B toujours affichée ;
-  recherche « Barr » → clic résultat → retour → champ et résultats « Barr »
-  restaurés.
-
-## Ce à quoi tiennent réellement les divergences (01/09/2026)
-
-Mesuré en base sur les 27 179 attestations, à la demande de John, qui trouvait
-que « beaucoup ne diffèrent que par les accents ». La mesure corrige et précise
-cette impression, et elle réoriente l'arbitrage manuel.
-
-- **Les accents s'utilisent en alsacien et ils changent le mot.** ORTHAL 2023
-  les traite comme des oppositions de sons, pas comme un ornement : `< a >` /a/
-  clair contre `< à >` /a/ sombre, avec la paire minimale `wisse` (blancs) /
-  `wìsse` (savoir) ; `< ì >` note l'intermédiaire /i/–/é/. La norme admet en
-  revanche des **graphies équivalentes** — `ei`/`ai`, `ä`/`e`, `ù`/`u`. Donc
-  « un accent » ne désigne pas une seule chose : parfois un son différent,
-  parfois deux façons admises d'écrire le même.
-- **Les sources n'ont pas la même convention, et c'est ça qui fabrique les
-  divergences.** `culture_alsace` **suit l'isoglosse** : ses toponymes du
-  Haut-Rhin finissent en `-a` à 99 % (149 contre 1) et ceux du Bas-Rhin à 2 %
-  (6 contre 238) ; ses digrammes valent `ia`/`ua` à 87 % au sud et 0 % au nord.
-  `alsacien_wikipedia` et `wiktionnaire_fr` écrivent `-e` et `ie`/`ue` partout,
-  y compris pour une commune du Haut-Rhin. D'où un désaccord **unidirectionnel**
-  : sur 72 divergences a~e du Haut-Rhin, **71 ont `culture_alsace` du côté a**.
-  Ce n'est pas un désaccord entre deux témoins, c'est un témoin qui note le
-  parler local et un autre qui ne le note pas.
-- **`culture_alsace` n'écrit jamais `ì`** — 0 occurrence sur ses 24 983 formes,
-  contre 148 pour `alsacien_wikipedia` et 121 pour `wiktionnaire_fr` (toponymes).
-  Ni `ù` ni `ï`. Elle emploie en revanche `à` 15 962 fois. Donc une divergence
-  `i`/`ì` face à elle est une **lacune de convention** ; une divergence `a`/`à`
-  en est une vraie, puisqu'elle aurait pu écrire l'accent.
-- **Répartition des 344 divergents** : 27 accents seuls (8 %), 60 alternance
-  a~e seule (17 %, dont 56 au Haut-Rhin), 7 sonorisation `p~b`/`t~d`/`k~g`
-  (2 %), 4 les deux traits cumulés (1 %) — soit **98 (28 %) relevant d'un trait
-  connu**, et **246 (71 %) d'un écart réel**. L'impression que « presque tout
-  n'est qu'un accent » vient du tri de l'onglet, qui remonte volontairement ces
-  cas en tête : les premiers écrans montrés *sont* les plus faciles.
-
-**Ce qui a été implémenté** (`analyserDivergence`, `src/lib/dictionnaire.ts`) :
-la file s'ordonne désormais par `NatureDivergence` (accents → alternance a~e →
-traits cumulés → sonorisation → autre), et pour une commune du **Haut-Rhin**
-dont la divergence est une alternance a~e, la forme qui porte le trait local est
-**proposée en premier et signalée** (`formeRegionale`).
-
-- **Ordonner n'est pas décider.** Le choix reste un clic humain par entrée, et
-  `arbitrer_entree()` exécute ses gardes à chaque fois — l'onglet Divergentes
-  n'est toujours pas un traitement de masse, et ne doit pas le devenir. Un
-  critère uniforme appliqué en lot aux 64 cas orientés aurait été l'inverse
-  exact de la règle du 24/08.
-- **L'ambiguïté se signale, elle ne se comble pas** : `formeDuHautRhin()` rend
-  `null` dès que deux formes portent le trait — d'où **49 candidats orientés**
-  et non 64. Rien n'est orienté au Bas-Rhin : les 4 cas mesurés vont dans tous
-  les sens, et inventer une règle là où la mesure n'en montre aucune serait pire
-  que de se taire.
-- **Ces normalisations trient, elles ne recoupent jamais.** Confondre `a` et `e`
-  ou écraser les diacritiques pour *décider* d'un recoupement effacerait la
-  question posée à l'arbitre — c'est l'erreur du « +13 » du 24/08. Elles ne
-  servent qu'à nommer l'écart et à ordonner la file.
-- **Contrôle croisé** : le classement a été produit deux fois de façon
-  indépendante — un script Python sur l'API PostgREST, puis le **module TS réel
-  compilé et exécuté** sur les mêmes données. Mêmes chiffres exactement
-  (344 / 27 / 60 / 7 / 4 / 246). Vérifié en plus que `traductionsArbitrees()`
-  refuse une forme inventée, honore un choix autre que la forme proposée, et
-  conserve toutes les formes en variantes. `tsc --noEmit` propre, `next build`
-  jusqu'aux 15/15 pages (seul l'EPERM symlink Windows du mode standalone
-  échoue). **Non vérifié en navigateur** : `/admin/arbitrage` exige une session
-  admin, que Claude Code n'a pas — à confirmer par John à l'écran.
-
-## Cap produit et modèle de confiance (02/09/2026)
-
-Trois documents produit ont été écrits ce jour dans `documentation/`, après le
-constat que le projet avançait sans cible écrite côté app — la donnée avait une
-doctrine, le produit n'en avait aucune. `01-PRD.md` était périmé depuis le
-31/07 et rien ne l'avait remplacé.
-
-**Odoo est la source de vérité** — base de connaissance de tout l'univers The
-Elsassisch, tous projets confondus. Le dépôt n'en est qu'un consommateur :
-`documentation/` reste utilisé mais ne fait autorité sur rien, ses fichiers sont
-des renvois minimaux.
-
-- **Odoo 878** (racine du Knowledge, hors hub projet) — **la méthode et les
-  gabarits réutilisables, valables pour tous les projets présents et futurs**.
-  Sous-articles : gabarit 10 Vision produit (879), gabarit 11 Feuille de route
-  (881), gabarit 12 Checklists (880).
-- **Odoo 882** (hub 117) — cap produit : v1, utilisateur prioritaire, modèle de
-  confiance, périmètre.
-- **Odoo 883** (hub 117) — jalons et critères de sortie, séquencement, dettes de
-  qualité.
-- **Odoo 884** (hub 117) — checklists opérationnelles, chaque ligne datée de
-  l'incident réel dont elle vient.
-- **Odoo 669** — recentré sur l'**état des lieux** ; sa section « Prochaines
-  étapes » est remplacée par 883.
-- `documentation/orthal/` — reste dans le dépôt : référence normative externe,
-  elle ne périme pas et ne concurrence donc pas Odoo.
-
-Répartition **par nature, jamais par sujet** : `CLAUDE.md` fait foi sur le passé
-et les décisions prises, Odoo sur la méthode et la cible. Deux documents qui
-parlent du même sujet à deux endroits divergent en silence — c'est précisément
-le risque de doublon pour lequel GitHub Spec Kit a été évalué puis écarté le même
-jour (son dispositif doublonnait `CLAUDE.md` + le board Hermes + les GATE +
-Odoo). Ses **principes** sont retenus et écrits dans l'article 878.
-
-**`documentation/orthal/` était inutilisé alors qu'il tranche le chantier en
-cours.** Le 01/09, l'isoglosse a~e a été mesurée en base et « Orthal donne la
-règle » écrit ici même — sans jamais ouvrir ce dossier, qui documente cette
-règle (`06-VARIANTES.md`, continuum dialectal). À ouvrir avant tout arbitrage de
-forme.
-
-**Décisions de John du 02/09/2026 :**
-
-1. **Utilisateur prioritaire = l'apprenant / le curieux.** Arbitre tous les
-   conflits de conception.
-2. **La v1 se définit par un seuil de lexique courant**, pas par un volume
-   d'attestations ni par la complétude fonctionnelle. Cible proposée : 1 000
-   lemmes français fréquents couverts.
-3. **Modèle de confiance à trois niveaux, assouplissant la règle 2** : 1 source
-   = rouge, 2 = jaune, 3+ = vert. Motif : le seuil binaire bloquait ~26 000
-   candidats et laissait en ligne un dictionnaire de 334 entrées dont 329
-   toponymes — un annuaire de communes, pas un traducteur. Un visiteur tapant
-   « bonjour » ne trouvait rien.
-
-**Objection posée avant d'appliquer, et qui reste valable** : le badge règle le
-problème du *sourcing*, pas celui de la *qualité de graphie*. Deux dettes
-connues de `culture_alsace` ne sont pas couvertes par une couleur et doivent
-être traitées avant la v1 lexique —
-
-- **≈ 15 600 des 23 851 attestations lexicales portent l'article défini collé**
-  (`d'r lohn`, `s' schloss`). Publiées telles quelles, l'app répond `d'r lohn` à
-  qui cherche « salaire ». Piste retenue, à confirmer doctrinalement :
-  **décomposer** (`alsacien = "lohn"`, `article = "d'r"`), la concaténation
-  redonnant la chaîne attestée octet à octet — donc sans réécriture au sens de
-  la règle 1. Le PRD initial prévoyait déjà un champ `article`.
-- **390 coquilles de source connues**, signalées à l'extraction de la campagne
-  3. Liste finie : elles ne partent jamais dans un lot de publication.
-
-**Piège d'implémentation du badge** : il doit compter les **sources distinctes**,
-et `entrees.nb_attestations` n'est pas ce nombre (confusion déjà documentée au
-23/08). Afficher `nb_attestations` en croyant afficher des sources
-surestimerait la confiance — exactement la faute que le badge existe pour
-empêcher. Le badge doit aussi être visible **dans les résultats de recherche et
-la liste A-Z**, pas seulement sur la fiche : une entrée rouge partagée hors
-contexte doit rester lisible comme non recoupée.
-
-## Le retour conserve l'état complet de l'écran (02/09/2026)
-
-**Prolonge la PR #22 du 30/08**, qui n'avait traité que la *destination* du
-retour et la sélection (`?q=`, `?lettre=`). Le reste se perdait toujours :
-chaque écran de liste est un composant client qui charge ses données dans un
-`useEffect` au montage, donc une navigation entre deux routes démonte le
-composant — au retour l'état repart à sa valeur par défaut et l'effet refait
-l'appel réseau. La liste clignotait, le scroll était perdu. **PR #25, mergée.**
-
-Trois modules : `src/lib/cache-navigation.ts` (store mémoire des données, du
-scroll et de la dernière URL par onglet racine), `src/hooks/use-liste-memorisee.ts`
-(affiche le cache, revalide derrière) et `src/hooks/use-scroll-memorise.ts`.
-
-- **Un store maison plutôt que react-query ou swr.** Ces librairies ne couvrent
-  que la moitié du besoin — aucune ne restaure le scroll, qu'il aurait fallu
-  écrire de toute façon avec un second modèle de clés à tenir en phase. Et
-  leurs valeurs par défaut (`refetchOnWindowFocus`, `refetchOnReconnect`) vont
-  **contre** la contrainte de ce projet : le VPS n'a ni limite CPU ni rate
-  limiting, et chaque Server Action passe par `middleware.ts`, qui fait un
-  `getUser()` **plus** un select sur `profiles`. **Un appel évité, ce n'est pas
-  une requête économisée mais trois.** On aurait neutralisé 90 % de la
-  librairie.
-- **Jamais de `sessionStorage` ni de `localStorage`.** Le cache
-  d'`/admin/arbitrage` contient des **attestations non publiées** — du brut qui
-  ne sort jamais de la base pour un visiteur. Les écrire sur disque les
-  laisserait lisibles après une déconnexion, sur un poste partagé. Un cache
-  mémoire meurt avec la page : contrepartie acceptée, un F5 refetche tout —
-  « le retour conserve, le rechargement rafraîchit ».
-- **En deçà de 15 s le serveur n'est pas rappelé du tout.** Un aller-retour vers
-  une fiche prend 3 à 10 s : c'est le cas dominant. **Le nombre d'appels
-  n'augmente jamais** par rapport à l'existant — ce chantier sert donc aussi la
-  tenue en charge.
-- **Le scroll ne se restaure que sur un vrai retour** (`popstate`), jamais sur
-  un `<Link>` : retrouver ses filtres est utile, être déposé au milieu d'une
-  liste qu'on n'a pas quittée par un retour serait désorientant. Le cache est
-  purgé au changement d'identité (`auth-provider`).
-- **`next.config.ts` — `staleTimes.dynamic = 30`.** `/entree/[id]` lit des
-  cookies, donc chaque retour vers une fiche déjà vue refaisait la requête et
-  repassait par le middleware. Seul levier possible : ce sont des Server
-  Components, aucun cache client ne peut les couvrir.
-- **Un bloc `DEBUG TEMPORAIRE` exposait `window.__cacheNav`** — donc le cache
-  d'attestations non publiées — et n'a été vu qu'à la relecture du diff au
-  moment de commiter. Un « ça marche » ne l'aurait jamais montré.
-
-### La nav manquait entièrement sur les écrans d'arbitrage (PR #26)
-
-Signalé par John juste après : « sur la page arbitrage, il n'y a aucun menu du
-tout ». `AppHeader` ne montait `AppNavShell` que pour `variant="root"`, et
-`/admin/arbitrage` est en `variant="stack"`. Le choix se tenait le 30/08, quand
-« Arbitrage » n'était pas encore une destination ; **en faire la 4e icône du
-rail sans l'afficher sur la page elle-même en avait fait un cul-de-sac** — on y
-arrive par la nav, et la nav disparaît.
-
-- `variant="stack"` accepte désormais un prop `actif` optionnel. Présent, la
-  nav reste affichée avec cet onglet actif ; absent, l'écran reste sans nav —
-  **comportement voulu pour les écrans de tâche** (Signaler, Proposer un mot),
-  dont on ne navigue pas ailleurs : on les termine ou on les ferme.
-- Appliqué aux **trois écrans du flux** (la file, sa coquille `Suspense`, le
-  détail `[cle]` et ses deux branches), sinon la nav réapparaissait puis
-  disparaissait au premier candidat ouvert.
-- `AppNavShell` étant un overlay fixe, ces écrans réservent la place du rail
-  par le même padding que les écrans racine (`pb-16 md:pb-0 md:pl-20 lg:pl-56`),
-  sans quoi le rail passerait au-dessus du contenu vers 1024 px, là où le
-  conteneur `max-w-6xl` d'`/admin` touche le bord gauche.
-
-**Vérifié à l'écran par John** : les trois largeurs, le retour depuis la
-recherche, depuis le dictionnaire et depuis l'arbitrage, puis la présence des
-menus sur la page d'arbitrage après la PR #26.
-
-## Article défini collé décomposé (03-04/09/2026)
-
-Chantier annoncé le 02/09 (« Cap produit et modèle de confiance »), réalisé par
-la migration `20260903010000_article_colle_attestations.sql`, PR #30.
-
-- **Le chiffre du 02/09 mélangeait deux populations.** Sur les 23 851
-  attestations lexicales `culture_alsace` : 12 786 à une seule forme
-  alsacienne, et 11 065 (46 %) qui empilent plusieurs synonymes séparés par
-  virgule/point-virgule (ex. « d'r Scheffégreff, d'Antrung. »). Décomposer
-  proprement ces dernières supposerait d'abord de scinder chaque attestation
-  en plusieurs lignes — chantier de nature différente, **explicitement hors
-  périmètre** (décision de John, 03/09/2026). Elles ne sont pas touchées.
-- **Colonnes dérivées, jamais une réécriture** (règle 1) : `article` et
-  `alsacien_sans_article` s'ajoutent à `attestations`, `alsacien` n'est pas
-  modifiée. Une `CHECK` (`chk_article_reconstruction`) garantit
-  `article || alsacien_sans_article = alsacien` au niveau du schéma, pas
-  seulement comme intention de script.
-- **Règle de reconnaissance, appliquée aux 12 786 lignes à forme unique** :
-  `d'r `/`s' `/`d' ` espacés (5 996, sans ambiguïté) ; `d'`/`s'` collé
-  seulement devant une majuscule (2 890, article élidé devant un nom propre) ;
-  collé devant une minuscule laissé de côté (130, ambigu — `d'frescha Luft`
-  contre `s'esch...` sont indiscernables sans analyse grammaticale, règle 3 du
-  studio) ; aucun préfixe reconnu ou hors périmètre de l'article défini (3 770,
-  ex. `z'`, `g'`, `sech`) non plus décomposé. **Total : 8 886 / 23 851.**
-- **Vérifié en base après application par John** (clé service_role, requêtes
-  PostgREST directes, pas pris au mot) : 8 886 lignes à `article` non nul,
-  exactement le chiffre annoncé ; 0 parmi elles ne contient de
-  virgule/point-virgule dans `alsacien` ; échantillon cohérent (`d'r Mai.` →
-  `d'r ` + `Mai.`).
-- **Rien côté code applicatif pour l'instant** : aucune recherche ni affichage
-  n'exploite encore `alsacien_sans_article`. C'est la suite naturelle — la
-  donnée existe, l'usage (recherche « salaire » → `lohn`) reste à câbler.
-
-### Suite (04/09/2026) : affichage dans l'arbitrage, recoupement non touché
-
-Migration `20260904000000_article_dans_variantes_arbitrage.sql`. Avant
-d'écrire quoi que ce soit, mesure en base (service_role, lecture seule,
-réplique la clé de groupement `lower(btrim(francais))` + `contexte` de
-`candidats_arbitrage()`) : **décomposer l'article ne débloque aujourd'hui
-aucun recoupement.** Seuls 25 candidats lexicaux ont 2 sources distinctes ou
-plus dans la file, et aucun n'est unifié par le retrait de l'article — la
-quasi-totalité des 8 886 attestations décomposées restent seules
-(`culture_alsace`, 1 source sur N), donc invisibles à toute logique de
-comparaison entre sources.
-
-- **Donc pur affichage, jamais un changement de la clé de recoupement.**
-  `article` et `alsacien_sans_article` s'ajoutent aux `variantes` renvoyées
-  par `candidats_arbitrage()` et `detail_candidat()`, affichés en badge
-  (« article : d'r ») dans l'écran de détail `/admin/arbitrage/[cle]`
-  uniquement — `cleDeForme()`/`grouperParForme()`
-  (`src/lib/dictionnaire.ts`) ne sont pas touchées, ni la clé de groupement
-  SQL. Toucher la comparaison sans mesure aurait répété l'erreur du « +13 »
-  du 24/08/2026 sur les accents.
-- **`reprendreVariante()` continue de reprendre `v.alsacien` tel quel** : le
-  badge est une annotation, jamais une forme alternative proposée à la
-  publication. Publier `alsacien_sans_article` séparément reste la piste « à
-  confirmer doctrinalement » du 02/09/2026, non tranchée ici — elle
-  suppose d'ajouter un champ `article` à `entrees` elle-même, une décision de
-  schéma et de doctrine que ce correctif ne prend pas.
-- **Vérifié en navigateur (Chrome, session admin `theelsassisch@gmail.com`,
-  04/09/2026) sur `elsass-dico-dev.theelsassisch.com`** : les deux migrations
-  en attente (`20260904000000` et `20260904010000`) étaient déjà appliquées en
-  base au moment du test. Candidat « salaire » (contexte `(le)`) → attestation
-  `d'r Lohn.` affiche bien le badge « article : d'r », et la sélection ne
-  change rien à `reprendreVariante()` (le bouton Reprendre garde `d'r Lohn.`
-  verbatim).
-
-**PR #30 fusionnée sur `main` le 04/09/2026** — via PR #31 (`dev` -> `main`,
-cf. section suivante), qui embarquait le même contenu ; GitHub a détecté les
-commits déjà présents et marqué #30 fusionnée automatiquement, sans merge
-distinct. Chantier clos : migrations en base, code en prod.
-
-## Filtre par type dans la file d'arbitrage (04/09/2026)
-
-Signalé par John : dans l'onglet « File d'arbitrage », il ne voyait que des
-toponymes, en soupçonnant lui-même la pagination (plus de 50 candidats).
-Mesuré avant d'écrire quoi que ce soit (lecture seule, service_role, réplique
-côté client le groupement et le tri de `candidats_arbitrage()` — la RPC
-elle-même refuse le service_role, `is_admin()` n'a pas de `auth.uid()` pour ce
-rôle) :
-
-- **343 candidats non liés ont 2 sources ou plus** — ce que le tri
-  (`nb_sources DESC, nb_attestations DESC`) place mécaniquement avant tout le
-  reste. Dessus : **320 toponymes, 22 mots, 1 prénom.** Il faut épuiser
-  ~7 pages de 50 avant qu'un seul candidat à source unique n'apparaisse.
-- **Sur les 25 778 candidats au total** : 18 850 mots, 5 881 expressions, 904
-  toponymes, 143 prénoms. Les toponymes ne sont que 3,5 % du stock, mais
-  occupent la quasi-totalité des 50 premières lignes affichées.
-- Diagnostic confirmé : ni un bug de la garde de recoupement (règle 2), ni des
-  onglets Recoupées/Divergentes (qui paginent déjà jusqu'à épuisement du
-  multi-sources via `parcourirCandidatsMultiSources()`) — seul l'onglet
-  général, plafonné à 50 lignes sans pagination ni filtre autre que la
-  recherche sur le français, est concerné.
-
-**Correctif : filtre par type, pas de pagination.** Migration
-`20260904010000_filtre_type_arbitrage.sql` ajoute un paramètre `p_type` à
-`candidats_arbitrage()` (`AND (p_type IS NULL OR a.type = p_type)`).
-
-- **Changement de signature = `DROP FUNCTION` avant `CREATE`**, pas une simple
-  `CREATE OR REPLACE` : ajouter un paramètre change l'arité, et Postgres
-  créerait une seconde fonction surchargée au lieu de remplacer l'existante —
-  les deux deviendraient ambiguës pour un appel RPC à arguments nommés.
-  Précédent : le même choix dans `20260903000000_niveau_confiance.sql`.
-- Threadé à travers `listerCandidats()`, `parcourirCandidatsMultiSources()`
-  (donc aussi Recoupées et Divergentes, par cohérence — pas seulement la file
-  générale) dans `src/app/actions/arbitrage.ts`, et exposé comme un `Select`
-  dans `/admin/arbitrage`, porté par l'URL (`?type=`) comme le terme et
-  l'onglet. `estTypeTermeValide()` garde la valeur lue dans l'URL, comme elle
-  garde déjà `arbitrerAction()`.
-- Pagination délibérément écartée : cohérent avec le choix déjà fait pour
-  cette liste (plafond « 50+ » assumé, cf. commentaire `PAGE_RPC` — cette file
-  affiche les candidats les plus prioritaires, pas un total exhaustif) et
-  suffisant pour retrouver les mots : un candidat lexical multi-source se
-  retrouve désormais en tête dès qu'on filtre sur « Mot », et le filtre
-  combiné à la recherche français couvre le reste.
-- **Vérifié en navigateur (Chrome, session admin, 04/09/2026)** sur
-  `elsass-dico-dev.theelsassisch.com` : sans filtre, la file mène en tête sur
-  Mulhouse/Bassemberg/Crastatt (toponymes) — reproduit exactement le
-  signalement de John. Filtre `Type = Mot` appliqué : la file montre
-  immédiatement chauve, désert, aïe, août, avril — tous multi-sources, aucun
-  toponyme. `?type=` reflété dans l'URL, valeur conservée en changeant
-  d'onglet.
-
-**PR #31 (`dev` -> `main`) mergée le 04/09/2026, embarquant les deux
-chantiers ci-dessus.** `main` et `dev` sont synchronisés, les trois
-migrations (`20260903010000`, `20260904000000`, `20260904010000`) sont
-appliquées sur la base partagée. Session close sans suite immédiate en
-attente — la piste doctrinale non tranchée (publier `alsacien_sans_article`
-séparément, champ `article` sur `entrees`) reste ouverte pour une prochaine
-décision de John, pas un blocage.
-
-## Publication sur source unique : la garde devient l'affichage (07/09/2026)
-
-**La règle 2 révisée le 02/09/2026 n'avait été appliquée qu'à moitié.** La
-migration `20260903000000_niveau_confiance.sql` a bien ajouté `entrees.nb_sources`,
-l'a exposé aux trois écrans publics et créé `BadgeConfiance` — son en-tête écrit
-même « l'affichage devient la garde qui reste » — mais son corps a conservé
-intacte la garde héritée de l'exception du 07/08/2026 : publier sous 2 sources
-exigeait une note d'arbitrage rédigée, entrée par entrée.
-
-Constat mesuré en base avant d'écrire quoi que ce soit : **335 entrées publiées,
-dont ZÉRO à une source** (189 à 2, 145 à 3, 1 à 4+), et **331 des 335 sont des
-toponymes contre 4 mots** (`janvier`, `juillet`, `juin`, `alsacien`). Les
-~25 700 candidats lexicaux à source unique restaient inatteignables — exactement
-le blocage que la décision du 02/09 devait lever, et ce qui empêche la cible v1
-(seuil de lexique courant). Un visiteur tapant « bonjour » ne trouve toujours rien.
-
-**Décision de John du 07/09/2026 : retirer la garde tout court**, sans la
-remplacer par un drapeau explicite. Migration
-`20260907000000_publication_source_unique.sql`.
-
-- **`arbitrer_entree()` ne refuse plus `nb_sources < 2`.** `CREATE OR REPLACE`,
-  signature inchangée, seul le bloc de garde disparaît. `v_nb_sources` reste
-  calculé et persisté : il n'est plus une condition de publication, il est ce qui
-  s'affiche au visiteur. `p_notes` reste dans la signature et alimente toujours
-  `notes_arbitrage` — la note devient facultative et documentaire.
-- **Toutes les autres gardes sont intactes** : `is_admin()` (règle 4), français
-  non vide, `p_traductions` tableau JSON, chaque traduction porteuse d'une forme
-  alsacienne, au moins une attestation (règle 3), attestation inconnue.
-- **Le lot reste interdit au mono-source.** L'interdiction de la « reprise en
-  masse d'une source scrapée » (périmètre des GATE, 10/08/2026) n'est pas levée :
-  la publication à 1 source passe par l'écran de détail, une décision humaine par
-  entrée. Les deux chemins de lot constituent leurs files via
-  `parcourirCandidatsMultiSources()`, qui écarte tout candidat sous
-  `SOURCES_MINIMUM`. **Après cette migration, ce filtre TypeScript
-  (`src/app/actions/arbitrage.ts`) est le SEUL endroit qui empêche un lot de
-  publier du mono-source** — la barrière a changé de couche, et il faut le savoir
-  avant d'y toucher.
-- **L'écran de détail cesse de pré-bloquer** : `justificationManquante` est
-  supprimée de `/admin/arbitrage/[cle]`, le bouton n'est plus désactivé pour une
-  source unique. Le bandeau ne dit plus « la base la refusera sinon » — il montre
-  le `BadgeConfiance` que le visiteur verra. `sourceUnique` et le comptage en
-  `Set` de `source_id` sont conservés : ils annoncent, ils ne bloquent plus.
-- **Les deux listes admin affichent enfin le niveau réel** : la file d'arbitrage
-  remplace son badge ad hoc binaire ambre/émeraude par `BadgeConfiance`, et
-  l'onglet « Entrées existantes » — qui n'affichait que `{nb_attestations} attest.`
-  sans jamais montrer `nb_sources`, pourtant présent dans `EntreeListee` — le
-  montre désormais. C'était la confusion que le badge existe pour empêcher,
-  installée dans l'écran même où l'on décide. Recoupées et Divergentes gardent
-  leur badge : leurs files sont ≥ 2 sources par construction.
-
-### Régression de clé sur `entrees_par_statut()`, corrigée dans la même migration
-
-`20260824120000_cle_arbitrage_accents.sql` avait retiré `immutable_unaccent` de la
-clé d'arbitrage dans les quatre fonctions concernées (elle fusionnait `sur`/`sûr`,
-`ville`/`Villé` — 31 groupes). **`20260903000000` a redéfini `entrees_par_statut()`
-pour y exposer `nb_sources`, et a recopié au passage l'ANCIENNE expression de clé**,
-annulant la correction pour cette fonction seule.
-
-- La clé n'est pas décorative : elle sert de lien vers l'écran de détail
-  (`admin/arbitrage/page.tsx` → `lienArbitrage(e.cle, …)` → `detail_candidat(p_cle)`,
-  qui compare `lower(btrim(a.francais)) = p_cle`). Une entrée dont le français
-  porte un accent rendait une clé désaccentuée qui ne retrouve pas son candidat.
-- **Invisible jusqu'ici parce que 331 des 335 entrées publiées sont des toponymes
-  sans accent** — et bloquant dès la première publication de lexique, c'est-à-dire
-  dès ce chantier. Même famille que le retard de migration du 09/08 et le
-  `TYPES_TERME` incomplet du 23/08 : un défaut qui n'apparaît qu'au premier usage
-  réel, jamais avant.
-- **Leçon** : redéfinir une fonction pour lui ajouter une colonne, c'est recopier
-  son corps — donc réimporter tous les défauts qu'il portait à la version copiée.
-  Aucun outil ne signale qu'on vient d'annuler un correctif plus récent.
-
-## Les trois dettes du lexique traitées (07/09/2026)
-
-Trois chantiers menés à la suite du retrait de la garde, tous mesurés en base
-avant d'écrire une ligne — et deux des trois mesures ont corrigé l'annonce
-qu'on s'apprêtait à faire.
-
-### 1. La clé d'arbitrage ignore la ponctuation finale du français
-
-Migration `20260907020000_cle_francais_ponctuation.sql`. **618 attestations
-portent une ponctuation finale sur le champ `francais`** — 608 de
-`wiktionnaire_fr`, où le point clôt une définition (« Alphabet. »), 10 de
-`culture_alsace` dont 9 sont des abréviations de toponymes
-(« Sainte-Marie-aux-M. »). La clé étant `lower(btrim(francais))`, « accepter »
-et « accepter. » ne se rencontraient jamais, **même écrits par deux sources
-indépendantes**. Exactement le défaut de la recontextualisation du 24/08 : la
-donnée est là, la convention de champ l'empêche de se voir.
-
-- **341 -> 420 candidats à 2 sources ou plus.** Mais la répartition compte plus
-  que le total, et elle a corrigé l'annonce : **accord de forme 0 -> 7**
-  (onglet Recoupées, publiables en lot), **divergents 341 -> 413** (un par un).
-  Deux sources sur le même mot français ne veulent pas dire qu'elles écrivent
-  la même forme alsacienne — la confusion du 23/08, qu'il faut refaire
-  l'effort de ne pas commettre à chaque fois.
-- Les 7 accords sont `georges`, `incolore`, `mais`, `mardi`, `mulhouse`,
-  `sans`, `tu` — dont quatre où les deux sources écrivaient **rigoureusement la
-  même forme** (`ohna` / `ohna.`), que seule la clé française tenait séparés.
-- **Les parenthèses ne sont PAS touchées** : « griffon (vautour fauve) » n'est
-  pas « griffon ». Une mesure combinée les portait à 89 clés au lieu de 79 —
-  dix de plus pour un risque de fusion de sens, refusé. Même famille que le
-  « +13 » du 24/08.
-- **La clé devient une fonction nommée, `cle_francais()`**, appelée par les
-  quatre fonctions qui la portent (`candidats_arbitrage`, `detail_candidat`,
-  `entrees_par_statut`, `propositions_orthal_candidat`). C'était jusqu'ici une
-  expression recopiée à chaque redéfinition — et c'est ainsi que le correctif
-  du 24/08 s'est perdu le 03/09. Une fonction nommée rend la prochaine recopie
-  inoffensive.
-
-### 2. Les synonymes empilés se scindent à la publication
-
-`scinderSynonymes()` (`src/lib/dictionnaire.ts`) et un second bouton
-« En N formes » dans l'écran de détail. **`culture_alsace` empile plusieurs
-équivalents dans un seul champ** (`bleed, schwàchsennig.` pour « idiot », déjà
-publié tel quel) : 11 065 attestations, 46 % de son lexique.
-
-- **Scinder l'attestation reste hors périmètre** (décision du 03/09, inchangée).
-  Le découpage ne vit qu'à l'arbitrage, où le tableau `traductions` porte
-  justement plusieurs formes — « Premier est Roi » désigne la canonique. Le
-  bouton s'ajoute à « Reprendre », il ne le remplace pas : une proposition
-  relue, jamais une transformation imposée.
-- **Contrôle croisé, comme le 01/09** : la fonction TS réelle a été compilée et
-  exécutée sur les 27 179 chaînes de la base. **10 608 scindables, 461 refusées,
-  0 violation de la garantie** — chaque forme rendue est un fragment contigu de
-  la chaîne attestée, aucun caractère ajouté ni modifié (règle 1).
-- **Le piège redouté n'existait pas, et c'est la mesure qui l'a dit** : on
-  craignait les gloses à virgules internes (`z' comme z'Mehlhüsa, ze
-  Schtrosburi, z'füass (à pied).`) — **34 chaînes sur 11 069 contiennent une
-  parenthèse, et aucune n'a de virgule à l'intérieur**. Les gardes (aucune
-  parenthèse ni crochet, 2 à 6 fragments, 3 mots maximum par fragment, fidélité
-  vérifiée fragment par fragment) écartent les 461 restantes, dont les relevés
-  dialectaux entre crochets de `martin_lienhart`.
-
-### 3. Les 390 coquilles reconstituées, et matérialisées
-
-Migration `20260907010000_anomalies_source.sql`, table `anomalies_source`.
-**La liste n'existait nulle part** — ni dans le JSONL (aucun champ de
-signalement), ni dans le dépôt : elle n'a vécu que dans le rapport d'une carte
-Hermes, perdu. « Elles ne partent jamais dans un lot de publication » était donc
-une intention que **rien n'appliquait** : on ne peut pas exclure ce qu'on ne
-sait pas nommer.
-
-- Reconstituée en **rejouant le parseur du studio** (`lexique_a_d.py`, branche
-  `data`) sur les 73 pages brutes archivées, dans un sandbox du scratchpad. Le
-  JSONL régénéré est **identique octet à octet** à celui du dépôt (23 851
-  lignes, même md5 une fois les fins de ligne normalisées — la différence
-  initiale venait du mode texte Windows de Python, pas du parseur) : le rapport
-  décrit donc bien les données réellement en base.
-- **Le rapport imprimé plafonne à 80 anomalies** (`anomalies[:80]`, « … et N
-  autres »). La liste complète a été prise en important le module et en
-  rappelant `parse_page()` page par page. Un plafond d'affichage lu comme un
-  total aurait donné 80 coquilles au lieu de 390 — le même piège que les
-  compteurs « 50+ » de la file d'arbitrage.
-- **390 anomalies, 390/390 rattachées** à une attestation existante (386
-  distinctes, quatre lignes en portent deux), **0 sur une entrée déjà publiée**.
-  Trois types de gravité inégale : `separateur_tete_non_standard` (323, signal
-  de parsing, français et alsacien restent le plus souvent justes),
-  `parenthese_non_fermee` (37), et `alsacien_finissant_par_separateur` (30) — le
-  plus grave, la forme elle-même porte un `.-` parasite (`d'Schofgarwe.-`).
-- **La table signale, elle ne corrige pas** (règle 1). Exposée dans les
-  `variantes` via `anomalies_de()`, affichée en badge sur l'écran de détail, et
-  **décochée par défaut dans l'onglet Recoupées** — jamais retirée de la file :
-  faire disparaître un candidat le rendrait impubliable sans que rien ne le
-  dise.
-- **Effet immédiat : aucun, et c'est mesuré.** 0 des 420 candidats
-  multi-sources actuels porte une anomalie. C'est un filet pour la suite, pas
-  un tri d'aujourd'hui — le dire évite de croire qu'on a nettoyé quelque chose.
-
-### La v1 n'a pas de seuil chiffré (décision de John, 07/09/2026)
-
-**Le « 1 000 lemmes français fréquents » du 02/09 n'a jamais été décidé.** La
-section « Cap produit » ci-dessus l'écrit correctement — « **cible proposée** » —
-mais la proposition a été reprise comme un acquis dans les articles Odoo 883,
-669 et 245, où elle était devenue un **critère de sortie mesurable**, donc un
-préalable bloquant : il aurait fallu trouver une liste de fréquence, vérifier
-ses droits et mesurer une couverture *avant* de publier un mot de plus.
-
-Tranché par John : **le chiffre n'a aucune importance, on reste sur ce qui est
-déjà publiable.** La v1 avance au rythme de l'arbitrage humain, sans objectif de
-volume. Les critères de sortie qui restent portent tous sur la *qualité* de ce
-qui est publié — badge exact, aucune forme absente de ses attestations, aucune
-coquille connue — et se vérifient à tout moment. Corrigé dans les quatre
-articles Odoo et dans `documentation/11-FEUILLE-DE-ROUTE.md`.
-
-**Ce que ce cas apprend, au-delà du chiffre** : une proposition écrite dans un
-document devient un acquis dès qu'un autre document la cite. Elle n'a eu besoin
-de traverser que deux articles pour se transformer en critère mesurable que
-personne n'avait tranché. Quand un chiffre apparaît dans une consigne, vérifier
-qui l'a décidé avant de le mesurer.
-
-## Traçabilité et contenu publié : deux choses sans lien (08-09/09/2026)
-
-**Le premier défaut visible du lexique publié ne venait pas des données mais de
-l'écran d'arbitrage.** Une entrée porte les **attestations retenues**, qui
-fondent son badge de confiance, et les **formes publiées**, seules visibles du
-visiteur — et rien ne reliait les deux. `idiot` affichait 🟡 « 2 sources »
-devant `bleed, schwàchsennig.`, forme que seule `culture_alsace` écrit, tandis
-que le `Simbel` du wiktionnaire n'apparaissait nulle part.
-
-- **La cause est structurelle, pas une inattention** : l'écran coche toutes les
-  attestations à l'ouverture (traçabilité pleine) et démarre les traductions à un
-  champ vide. Reprendre une seule forme puis publier suffit à créer l'écart.
-- **6 entrées sur 339** étaient dans ce cas : `alsacien`, `Alsacien (langue).`,
-  `idiot`, `mardi`, `Geiswiller`, `Bischheim`. Mesuré avec `cleDeForme()` et pas
-  plus permissif — un premier comptage octet à octet en annonçait 11, dont 5
-  n'étaient qu'un écart de ponctuation (`Jüli.` / `Jüli`), bénin depuis le 23/08.
-
-**Le garde-fou avertit, il ne bloque jamais** (PR #39). `formesRetenuesNonPubliees()`
-(`src/lib/dictionnaire.ts`) nomme l'écart et propose l'ajout en variante en un
-clic ; décocher la source reste un arbitrage aussi valide qu'ajouter la forme, et
-c'est l'humain qui tranche (règle 4).
-
-- **Faux positif trouvé à l'écran, pas à la lecture** : après le bouton
-  « En N formes », la chaîne d'origine était signalée comme non publiée alors que
-  ses fragments venaient de l'être. Le bandeau aurait crié sur le geste même
-  qu'il encourage, et sur 46 % du lexique `culture_alsace`. Une attestation est
-  donc couverte dès qu'**un** de ses fragments est publié.
-- **Un `tsc --noEmit` propre ne prouve pas qu'un build passera.** Un commentaire
-  `{/* … */}` glissé entre `&& (` et le `<div>` n'est pas un commentaire à cet
-  endroit mais un objet littéral vide : TypeScript l'accepte, SWC le rejette, et
-  le build Coolify a échoué. La vérification avait de plus tourné *avant* cette
-  dernière retouche. **Vérifier après la dernière édition, et par un vrai
-  `next build`** — sur ce poste il finit toujours en `EPERM symlink` (mode
-  standalone Windows), le contrôle est que le bundle de la route contienne bien
-  la nouvelle chaîne.
-
-### Les 6 entrées réparées, une par une (09/09/2026)
-
-Gestes faits à l'écran dans la session admin de John (le `service_role` ne peut
-pas arbitrer), sur `elsass-dico-dev` — la base est partagée avec la prod.
-
-- `idiot` → `bleed` / `schwàchsennig` / `Simbel` (chaîne scindée + forme
-  wiktionnaire ajoutée). `mardi` → `Zischtig` / `Dienschdàà`. `sans` → `ohna`.
-  `Geiswiller` → `Gaiswiller` / `Gäiswiller`. `Bischheim` → `Bische` / `Bìsche`
-  (vérifié au point de code : U+0069 contre U+00EC, deux graphies distinctes).
-- **`alsacien` : décocher valait mieux qu'ajouter.** L'attestation retenue
-  `Elsässer` traduit « Alsacien » **l'habitant**, pas la langue. Décochée ; et
-  `elsässisch` (wiktionnaire, adjectif), présente dans le candidat mais non
-  retenue, prend sa place — les deux sources attestent alors la même chose.
-  Décision de John.
-- **`Alsacien (langue).` passe en `rejete`** : doublon de `alsacien`, ses deux
-  attestations viennent de la même source, et l'interface ne permet pas de les
-  rattacher à `alsacien` (clés françaises différentes). Aucune donnée supprimée —
-  l'entrée sort du public, ses attestations restent. Décision de John.
-- Chaque geste porte sa **note d'arbitrage** ; elles sont facultatives depuis le
-  07/09 mais restent le seul endroit qui dise *pourquoi*.
-
-### La ponctuation publiée n'était pas un chantier
-
-Annoncée le 08/09 comme le troisième point à traiter, avec une décision
-doctrinale à prendre (« la ponctuation finale n'est pas une graphie »). **La
-mesure l'a réduite à 4 entrées sur 339, et aucune ne demandait cette décision** :
-`mardi` et `sans` avaient déjà une source écrivant `Zischtig` et `ohna` sans
-point — publier la forme attestée suffit, sans rien réécrire (règle 1) ;
-`alsacien` et `idiot` sont des chaînes à synonymes, réglées par le scindage.
-Après réparation, **0 forme publiée ne porte de ponctuation finale**.
-
-**Mesurer avant d'écrire a annulé un chantier, comme le 04/09** où la même
-mesure préalable avait montré que décomposer l'article ne débloquait aucun
-recoupement. Le réflexe vaut aussi dans ce sens-là : il évite de coder ce qui
-n'existe pas.
-
-**Contrôle final en base** (recompté, jamais pris aux toasts de l'interface) :
-338 entrées `valide` + 1 `rejete`, 829 liens ; **0 entrée perdant une forme
-attestée**, **0 forme publiée qu'aucune attestation n'écrive, fragments
-compris** (règle 1), **0 ponctuation finale publiée**. Vérifié en plus avec la
-**clé anonyme** : une recherche « alsacien » ne rend plus qu'une entrée.
-
-### Le bandeau comptait des « sources » là où il y a des attestations (PR #41)
-
-Trouvé **en production**, sur un candidat neuf (`chauve`) et non sur les six
-entrées réparées : le bandeau annonçait « **3 sources retenues** » quatre lignes
-au-dessus de « **2 sources indépendantes justifient cette entrée** ». Les trois
-attestations viennent bien de deux sources — `culture_alsace` en fournit deux, et
-deux lignes d'une même source ne valent qu'un témoignage (règle 2).
-
-- **C'est la confusion que le badge existe pour empêcher** (déjà documentée le
-  23/08/2026), réinstallée dans l'écran même où l'on décide. Elle n'a pas résisté
-  au premier candidat multi-lignes rencontré : les 6 entrées réparées n'avaient
-  qu'une attestation par source, donc le libellé y était juste par accident.
-- Le bandeau compte désormais des **attestations**, et dit ce que *leurs sources*
-  font au badge plutôt que de se compter lui-même en sources.
-- **Un contrôle de déploiement qui marche sans deviner le nom des chunks** :
-  `performance.getEntriesByType('resource')` liste tout le JS réellement chargé,
-  y compris les chunks dynamiques que `document.querySelectorAll('script[src]')`
-  ne voit pas — c'est ce qui a permis de prouver que la prod servait bien le
-  garde-fou avant même de le voir à l'écran.
-
-**Vérifié en production le 09/09/2026** (session admin de John) : la fiche
-`idiot` rend ses trois formes, le bandeau s'affiche correctement sur un candidat
-non publié, et le libellé corrigé est servi après redéploiement.
 
 ## Refonte : la carte des parlers (décision de John, 11/09/2026)
 
@@ -1814,26 +89,809 @@ réécrire. En attendant, le document 20 fait foi sur la cible — exception ass
 la règle « ce dossier ne fait autorité sur rien », expliquée dans
 `documentation/README.md`.
 
-### Claude Code sur le web ne peut pas travailler sur les données (12/09/2026)
 
-Une session distante reçoit un **clone frais du dépôt, et rien d'autre**.
-`.env*` étant gitignoré, le `.env.local` n'y arrive jamais : pas d'accès Supabase,
-pas de mesure en base, pas d'ingestion. Le réseau sortant est bridé — npm, PyPI et
-GitHub passent, les API publiques non (`geo.api.gouv.fr` répond 403). Le disque
-local est invisible.
+## Socle de la refonte posé, base chargée (12/09/2026)
 
-**Ne jamais commiter `.env.local` pour contourner ça** : il porte la clé
-`service_role`, qui court-circuite toute la RLS en lecture et en écriture, et
-l'historique git la garderait de façon permanente. Si une session distante a besoin
-de la base, la voie est les variables d'environnement de l'environnement, jamais le
-dépôt.
+**L'étape 1 du doc 20 est faite, et le dictionnaire dérivé est en base.**
+27 179 attestations → **25 864 lemmes, 41 646 variantes, 42 135 témoignages**,
+sans une seule décision humaine. Détail et commandes dans `21-REPRISE.md`.
 
-Donc : **tout ce qui touche à la base, aux données ou au réseau se fait en local.**
-Une session distante reste utile pour ce qui ne dépend que du dépôt — lecture de
-code, conception, documentation, et des données récupérables par npm ou git. C'est
-ainsi que le référentiel des 1 605 communes a été produit : paquet
-`@etalab/decoupage-administratif` pour l'identité INSEE, contours IGN clonés depuis
-GitHub pour calculer les centroïdes.
+Ce que le dictionnaire rend, sur les mots qui servaient d'exemple à son échec :
+`bonjour` → `buschur` / `güata Tàg` / `göte Tàij` / `grias di wohl` ;
+`salaire` → `Lohn` et non `d'r lohn`. « Un visiteur tapant *bonjour* ne trouve
+rien » revenait depuis le 02/09.
+
+- **Prisma 7 sur Postgres 18**, et **`prisma migrate deploy` au démarrage du
+  conteneur** (`docker-entrypoint.sh`), qui refuse de monter si une migration
+  échoue. Un conteneur qui ne démarre pas se voit ; une app qui répond 200 sur un
+  schéma en retard, non — c'est ce qui a coûté trois incidents.
+- **Quatre pièges d'outillage**, tous rencontrés : `npm` est cassé sur ce dépôt
+  (c'est du pnpm) ; `prisma@latest` sert une release candidate, le tag `prev`
+  porte la stable ; pnpm 11 exige une décision explicite par script
+  d'installation ; et `prisma generate` tourne au build d'image, **où
+  `DATABASE_URL` n'existe pas exprès** — `env()` dans `prisma.config.ts` y
+  ferait échouer le build entier.
+
+### La source de vérité est le dépôt, plus la base
+
+**Décision de John** : repartir de données vierges, que quatre mois d'anciennes
+décisions n'ont pas altérées. La base se reconstruit des JSONL des parseurs
+versionnés ; Supabase sort du chemin.
+
+Une seule altération décisionnelle s'était glissée dans les JSONL, et le parseur
+la nommait lui-même : « contexte est remplacé […] dans `candidats_arbitrage()`,
+qui groupe sur (français normalisé, contexte) ». 349 contextes de
+`wiktionnaire_fr` recopiés de `culture_alsace` pour que l'ancienne file
+d'arbitrage fasse se rencontrer les candidats. **Annulée par la PR #44.** Tout le
+reste de l'historique est de la correction de fidélité, et a été gardé.
+
+- **Un toponyme EST une commune** : le lemme s'indexe par sa commune, pas par
+  (français, contexte). `Roeschwoog` et `Rœschwoog` portent leurs deux formes sur
+  la même fiche. C'est ce qui rend la recontextualisation inutile pour de bon.
+- Trois choses vivaient en base et pas dans le dépôt, **reconstruites par du code
+  et jamais réinventées** : la décomposition de l'article (8 886, le chiffre
+  exact de la migration SQL), les 390 coquilles connues (même répartition
+  323/37/30), et l'exclusion des trois fiches de sources écartées.
+- **Le rapport imprimé d'un parseur plafonne**, ici à 80 anomalies : on rappelle
+  `parse_page()` lettre par lettre plutôt que de lire sa sortie. Même piège que
+  les compteurs « 50+ » de l'ancienne file.
+
+### Le déterminisme tenait à l'ordre des UUID
+
+Trouvé en comparant la base de production à la base locale : **8 881 variantes à
+article ici, 8 882 là-bas**, mêmes données et même code. La dérivation lisait les
+attestations par `id`, or les UUID sont tirés au hasard à l'import — quand deux
+attestations écrivent la même forme, celle qui créait la variante changeait d'un
+chargement à l'autre.
+
+Un écart d'une unité qu'on pouvait mettre sur le compte du bruit. C'était une
+faille de la promesse « rejouable = même résultat », qui ne tenait que tant qu'on
+ne rechargeait pas l'archive. Corrigé par un ordre stable **et** par une règle
+qui ne dépend d'aucun ordre (à forme égale, la variante porteuse de l'article
+l'emporte), puis vérifié sur une base entièrement neuve.
+
+**Deux bases valent mieux qu'une** : sans le double chargement, le défaut restait
+invisible. C'est « recompter en base » appliqué à deux bases.
+
+### La carte ne dépend d'aucun service extérieur
+
+**Décision de John** : *« il faut notre propre carte, le projet ne doit dépendre
+d'aucun outil extérieur »*. Une carte à tuiles demande son fond à un serveur
+tiers à chaque consultation. Deux fonds instruits puis écartés le même jour : les
+tuiles d'OSM (blocage « sans préavis » prévu par leur politique) et la
+Géoplateforme de l'IGN (meilleure, mais service tiers quand même).
+
+Une distinction a permis de ne pas tout réécrire : un **service** répond à chaque
+consultation et nous échappe ; une **bibliothèque** est du code dans notre
+bundle ; des **données** téléchargées une fois et versionnées sont à nous.
+Leaflet est donc gardé — sans `tileLayer`, il n'émet aucune requête.
+
+- Le fond est `public/carte/contours.topojson`, produit par
+  `scripts/communes/generer-contours.js` : **401 Ko, ~97 Ko compressés**. Une
+  seule tuile en pèse 34, et une carte à tuiles en recharge à chaque
+  déplacement — **l'autonomie est ici plus légère que la dépendance**.
+- Le doc 20 écartait cette piste d'avance (« plusieurs Mo, indéfendable en
+  mobile-first ») : **mesuré, c'était faux**. 1,6 Mo en GeoJSON brut, et le
+  format adapté à un maillage divise encore par quatre.
+- 4 contours au millésime 2018 désignaient des communes fusionnées depuis :
+  écartés, sinon la carte dessinerait des frontières qui n'existent plus. Le
+  script **échoue** si une commune du référentiel n'a pas de contour — un trou
+  dans le fond, ça ne se découvre pas à l'écran.
+- **Vérifié sur l'artefact servi** : aucun chunk de `/carte` ne contient
+  `geopf.fr`, `tile.openstreetmap`, `mapbox`, `maptiler` ni `cartocdn`.
+
+**L'attribution a quitté la carte, pas le projet.** Le texte de la Licence
+Ouverte demande la source et son millésime **sans imposer d'emplacement** — il
+accepte même un simple renvoi par URL. La mention vit sur `/sources`. Elle n'est
+pas facultative : c'est la seule contrepartie d'une licence qui donne par
+ailleurs l'usage commercial, mondial, illimité et gratuit, et le projet a écarté
+trois sources lexicales sur cette question en campagne 5.
+
+### Deux décisions de simplification
+
+- **On s'en tient aux communes actuelles.** 249 noms de toponymes ne joignent
+  aucune commune — 57 fusionnées depuis la source, des noms mal orthographiés par
+  le site de 2006, des villes étrangères, des hameaux. Les 57 étaient
+  récupérables, mais les faire entrer supposait de décider quoi afficher pour un
+  village qui n'est plus une commune. **Complexité refusée**, la source
+  officielle INSEE fait foi.
+- **Le dump de Supabase est abandonné.** Il ne protégeait plus que ce qui
+  n'existait qu'en base — entrées arbitrées, comptes, votes — et qui n'a plus
+  d'intérêt.
+
+## Session autonome, Supabase sorti du code (13/09/2026)
+
+**Étape 2 du doc 20 faite.** Le middleware ne fait plus aucun appel réseau, et
+`@supabase/*` ne figure plus dans `package.json`.
+
+- **Deux jetons signés avec `jose`.** `ed_session` (30 min) porte l'identité et
+  le rôle ; `ed_refresh` (30 jours) ne porte **que** l'identifiant. Le rôle est
+  absent du jeton long exprès : recopié de renouvellement en renouvellement, une
+  promotion faite dans `/admin` n'atteindrait jamais un membre déjà connecté. Il
+  est relu en base par `/api/session/refresh` — une requête par demi-heure et
+  par membre actif, contre une par page vue avec `supabase.auth.getUser()`.
+- **Une revendication `typ` signée** sépare les deux jetons. Sans elle, un jeton
+  de renouvellement passerait pour une session : il n'a pas de rôle, et un rôle
+  absent lu comme « membre » serait une rétrogradation silencieuse — ou une
+  escalade si le défaut penchait de l'autre côté.
+- **`SESSION_SECRET` absente fait échouer bruyamment.** La lecture de la clé est
+  hors du `try` : avalée, elle déconnecterait tout le monde pendant que le site
+  répond 200 — le mode de panne exact des trois incidents de migration.
+- **La barrière d'admin n'a pas bougé de couche** : `adminExige()` relit le rôle
+  en base. Le middleware reste un confort de navigation, comme il l'a toujours
+  été.
+- **Le premier admin s'amorce à la main** (`scripts/promouvoir-admin.mts`), après
+  une première connexion — c'est elle qui crée le membre. Un `ADMIN_EMAIL`
+  d'environnement aurait rendu quelqu'un admin par configuration, donc en
+  silence et réversiblement au prochain déploiement.
+
+**Trois gestes d'administration disparaissent, et aucun n'est à réintroduire** :
+inviter et générer un lien de réinitialisation (Odoo est l'autorité sur les
+comptes, et il n'y a pas de SMTP côté dico), et **supprimer un membre** — ses
+témoignages sont en cascade, l'effacer effacerait des villages que personne
+d'autre ne porte. Les trois rôles deviennent deux : le rôle intermédiaire
+n'avait de sens que tant que contribuer demandait une habilitation.
+
+**Les écrans de lecture passent sur Prisma**, des 338 entrées arbitrées aux
+25 864 lemmes. La fiche perd la couronne « Canonique » et montre, pour *chaque*
+forme, ses sources écrites et ses villages dans deux blocs distincts ;
+`BadgeConfiance` rend deux pastilles et jamais un total. Migration
+`20260912140000_recherche` : `unaccent` et `pg_trgm`. **`unaccent` vit dans la
+recherche et nulle part ailleurs** — dans une clé d'identité il fusionnait
+`sur`/`sûr` et `ville`/`Villé` (corrigé le 24/08).
+
+**Vérifié sur l'artefact, pas sur la source** : le middleware compilé ne contient
+ni `supabase`, ni `@prisma`, ni `pg` — seulement `HS256` et `SESSION_SECRET`.
+Sans cookie, `/` et `/dictionnaire` répondent 307 vers `/login`. La requête réelle
+de la recherche a été rejouée en base : `bonjour` rend ses quatre formes,
+`Milhüsa` retrouve Mulhouse et ses sept formes, `epreuve` trouve `épreuve`.
+
+**Non vérifié à l'écran, deux sessions de suite** : Chrome force `https://` sur le
+serveur de dev, qui est en HTTP, et `next dev --experimental-https` bute sur
+l'élévation de privilèges de mkcert. Le contrôle s'est fait en `curl` sur le HTML
+rendu. La connexion Odoo bout en bout reste à faire par John — elle demande un
+mot de passe.
+
+**Deux limites vues et laissées telles quelles, parce qu'elles se disent** : un
+lemme sur 25 864 est injoignable par le parcours A-Z (`(espèce de) tordu`,
+verbatim de la source, que la recherche trouve), et les grandes lettres dépassent
+le plafond de 200 — l'écran affiche « 200 premiers sur 3 006 » plutôt que de
+laisser lire une page comme un total. **La seconde est résolue le 14/09/2026,
+cf. plus bas** — la première reste ouverte, aucune plainte à son sujet.
+
+## Fiches publiques village et prénom (13/09/2026)
+
+**Début de l'étape 3 du doc 20** : `/village/[slug]` et `/prenom/[slug]`, les
+seules pages publiques indexables (compte obligatoire partout ailleurs).
+Générées statiquement (`generateStaticParams`). `/` reste pour l'instant la
+recherche authentifiée — en faire la home de présentation publique déplace la
+recherche ailleurs et touche `AppNavShell`, décision distincte non prise ici.
+
+- **Un toponyme EST une commune** (doc 20) : `/village/[slug]` n'est pas un
+  second modèle de données, c'est le lemme rattaché à la commune
+  (`Lemme.communeId`, `@unique`) vu depuis l'autre bout. `chargerVillage()`
+  (`src/lib/villages.ts`) délègue au même chargeur que la fiche authentifiée.
+- **819 communes sur 1 605 ont une forme attestée** au 13/09/2026 — chiffre
+  vérifié en base, qui corrige le 954 écrit dans le doc 20 avant le 12/09 (qui
+  comptait des attestations, pas des communes rattachées). Seules elles sont
+  pré-rendues ; les 786 autres restent joignables à la même URL, rendues à la
+  demande, en `noindex` posé par la page — sans lien vers une contribution qui
+  n'existe pas encore (étape 5), même règle que le « lien mort pire qu'une
+  absence » déjà appliquée à la page de recherche.
+- **131 prénoms attestés**, tous avec un slug : contrairement aux villages, un
+  lemme `prenom` naît toujours d'une attestation, donc n'a pas d'état « sans
+  forme » à gérer.
+- **`chargerLemmeDetaille()` extrait de `chargerLemme()`** (`src/lib/lemmes.ts`,
+  déplacé depuis `app/actions/recherche.ts`) : prend un sélecteur Prisma unique
+  plutôt qu'un id, pour être appelé par id (`/entree/[id]`, authentifié) ou par
+  slug (`/prenom/[slug]`, public). La fiche village s'y ajoute par `communeId`.
+- **`CarteVariante` extrait en composant** (`src/components/carte-variante.tsx`)
+  depuis `/entree/[id]` : trois écrans l'affichent maintenant, ce qui justifiait
+  l'extraction — elle ne l'aurait pas fait pour un seul.
+
+### `generateStaticParams` a besoin de la base au build — conflit avec la règle du 12/09
+
+Trouvé en écrivant ces deux routes, avant tout `git push` : le commentaire du
+`Dockerfile` du 12/09 dit « plus aucune variable de build, rien de sensible gravé
+dans l'image » — `DATABASE_URL` y est strictement runtime. Mais
+`generateStaticParams` tourne PENDANT `next build`, y compris dans le conteneur
+Coolify, et ces deux routes ont besoin de lire la base à ce moment-là. Les deux
+règles se contredisaient telles quelles.
+
+**Essayé d'abord en secret BuildKit, pas une Build Variable** — choix fait pour
+ne rien devoir à la règle du 12/09. `Dockerfile` : `RUN
+--mount=type=secret,id=database_url`, censé monter la valeur en tmpfs pour la
+seule durée de l'instruction `pnpm build` sans l'écrire dans aucune couche de
+l'image. Échoue bruyamment si le secret manque, plutôt que de construire une
+image aux deux routes silencieusement non pré-rendues.
+
+**Confirmé non fonctionnel sur ce Coolify au premier déploiement `dev`
+(13/09/2026, log lu par John)** : le build a échoué avec exactement le message
+prévu — « Secret de build 'database_url' manquant » — donc Coolify ne relaie pas
+de secret BuildKit à id libre ici. La discussion GitHub
+coollabsio/coolify#5328, ouverte par un utilisateur et restée sans réponse,
+avait raison d'en douter.
+
+**Repli appliqué dans la foulée** : `ARG DATABASE_URL` classique dans le
+`Dockerfile`, alimenté par une Build Variable Coolify — le mécanisme déjà
+éprouvé sur ce projet pour les `NEXT_PUBLIC_SUPABASE_*` avant le 12/09.
+Compromis assumé et documenté dans le `Dockerfile` : la valeur reste lisible
+dans l'historique des couches du builder, mais cette image n'est jamais
+poussée sur un registre public et l'étage final — seul livré — ne la copie
+pas. **Reste à poser dans Coolify** : marquer `DATABASE_URL` disponible au
+build sur `elsass-dico:dev`, puis rejouer le déploiement.
+
+### Vérifié contre la vraie base, pas seulement par `tsc`
+
+`tsc --noEmit` propre, mais un vrai `next build` local a échoué comme d'habitude
+sur l'EPERM symlink du mode standalone Windows — **après** avoir affiché
+« Generating static pages (963/963) », donc après avoir rendu les 819 + 131 pages
+sans une seule erreur de requête. Le `prerender-manifest.json` final n'a pas été
+écrit (le crash a coupé avant), donc le contrôle habituel sur l'artefact ne
+s'appliquait pas ; la couche de données a été vérifiée directement (`tsx`,
+`DATABASE_URL` injectée via `node --env-file`, port 5444 rouvert le temps du
+contrôle puis à refermer) : `chargerVillage("colmar-68066")` rend `Kolmer` /
+`Colmer`, exactement ce que `21-REPRISE.md` annonçait depuis le 12/09 ; un slug
+inexistant rend `null` (→ `notFound()`) ; les comptes de 819 et 131 recoupent ceux
+du doc 20.
+
+**Non vérifié à l'écran** : comme le reste de l'étape 2, `next dev` bute sur
+l'HTTPS forcé par Chrome sur ce poste. À confirmer par John une fois déployé.
+
+### Déployé : quatre problèmes de build en cascade, un seul déploiement Coolify (13/09/2026)
+
+Chaque correctif révélait le suivant — invisible tant que le précédent
+bloquait le build plus tôt. Les trois premiers sont des problèmes de
+**build**, jamais de code applicatif ; `tsc` et la vérification en base ne
+pouvaient rien en dire.
+
+1. **`DATABASE_URL` manquante au build.** Essayé en secret BuildKit
+   (`--mount=type=secret`, jamais écrit dans une couche) pour ne rien devoir à
+   la règle du 12/09 sur les Build Variables — confirmé non fonctionnel sur ce
+   Coolify, le secret arrivait vide (discussion GitHub
+   coollabsio/coolify#5328, restée sans réponse, avait raison d'en douter).
+   Repli : `ARG DATABASE_URL` classique, alimenté par une Build Variable
+   Coolify — le mécanisme déjà éprouvé ici pour les `NEXT_PUBLIC_SUPABASE_*`
+   avant le 12/09. Bonus découvert au passage : cette variable pointe vers le
+   nom **interne** de la base (`l11x6p591gah952rrbbgl24o:5432`), donc le
+   port public 5444 n'a plus besoin d'être ouvert pour qu'un build Coolify
+   passe — seulement pour une vérification manuelle depuis ce poste.
+2. **`npm install` de la CLI Prisma résolvait tout le graphe du projet.** La
+   sortie standalone de Next embarque une copie **intégrale** de
+   `package.json` (pas un extrait) dans l'étage final — `rm -f package.json`
+   avant l'install. Sans `"type": "module"` dans ce fichier, le retirer ne
+   change rien à la façon dont `node server.js` interprète ses propres
+   fichiers.
+3. **Deux tentatives supplémentaires ont échoué pour la même cause
+   profonde**, avant la bonne solution : faire cohabiter deux
+   `node_modules` d'origines différentes dans `/app` — celui que pnpm résout
+   (copié par le traçage de fichiers, avec sa structure `.pnpm/` réelle
+   derrière les liens symboliques) et celui qu'`npm install` produit
+   classiquement.
+   - Installer directement dans `/app` (même sans `package.json`) faisait
+     scanner `node_modules/.pnpm/` par npm : plusieurs minutes
+     d'avertissements ERESOLVE sur des paquets sans aucun rapport (jest,
+     eslint-config-standard…), venus de devDependencies que pnpm avait
+     résolues pour tout autre chose que Prisma.
+   - Installer à part puis `cp -r` le résultat DANS `/app/node_modules`
+     échouait sur `cp: target '/app/node_modules/./react' is not a
+     directory` — Prisma embarque Prisma Studio (donc React, ~136 paquets
+     sans rapport avec l'app), et `cp` refuse d'écrire un dossier réel
+     par-dessus un lien symbolique pnpm.
+   - **Solution retenue : `/opt/prisma-cli`, un répertoire fermé sur
+     lui-même** — binaire, dépendances (`prisma`, `dotenv`), schéma ET
+     `prisma.config.ts` y vivent ensemble, aucun point de contact avec
+     `/app/node_modules`. Nécessaire pour une raison qu'un simple chemin de
+     binaire n'aurait pas réglée : `prisma.config.ts` importe lui-même
+     `dotenv` et `defineConfig` de `"prisma/config"`, et ces imports se
+     résolvent depuis l'**emplacement du fichier**, pas depuis celui du
+     binaire qui l'exécute — les laisser dans `/app` aurait fait échouer une
+     quatrième fois, différemment. `docker-entrypoint.sh` lance la CLI avec
+     ce répertoire en `cwd` (sous-shell, pour que `exec "$@"` garde `/app`).
+4. **Le build mourait en silence** (`exit 255`, aucune trace applicative) à
+   « Generating static pages (240/963) » — la signature d'un process tué
+   (probable OOM), pas d'une exception qu'on aurait pu attraper. Hypothèse
+   posée sans confirmation par une métrique mémoire (hors de portée depuis
+   Claude Code) : Next génère par défaut plusieurs pages en parallèle, et 950
+   des 963 pages de ce build (`/village` + `/prenom`) ouvrent chacune une
+   vraie requête Postgres — des dizaines de connexions et de processus Node
+   simultanés sur un VPS déjà identifié comme sujet à saturation (audit du
+   30/08/2026). `experimental.cpus = 1` (`next.config.ts`) sérialise la
+   génération.
+
+**Déployé et vérifié sur `elsass-dico-dev.theelsassisch.com`, en `curl`, pas
+seulement en base** : `/village/colmar-68066` → 200, titre « Colmar — Kolmer »
+(exactement ce que la couche de données rendait déjà) ; `/prenom/ambroise` →
+200, « Ambroise — Àmbrosi » ; un slug inexistant → 404 ; `/` (recherche
+authentifiée) → 307 vers `/login`, rien ne fuite à un visiteur anonyme.
+
+**Reste non vérifié dans un vrai navigateur** — même blocage HTTPS/mkcert que
+le reste de l'étape 2 — et à reporter sur `elsass-dico:main` quand `dev`
+passera en PR : les quatre correctifs de build ci-dessus s'appliquent au même
+`Dockerfile`, donc au même déploiement.
+
+### Vu dans un vrai navigateur, et un vrai bug trouvé (13/09/2026)
+
+Premier passage à l'écran des trois pages publiques sans compte
+(`elsass-dico-dev.theelsassisch.com`, Chrome piloté). Les données rendaient
+bien — `Colmar → Kolmer, Colmer`, `Ambroise → Àmbrosi, Brosi` — mais la mise en
+page non : `/village`, `/prenom` **et `/sources`** réservaient `md:pl-20
+lg:pl-56`, la place du rail `AppNavShell` — copié du patron des écrans
+authentifiés sans vérifier qu'aucune des trois ne monte ce rail. À l'écran :
+une colonne de contenu plaquée loin à droite, plusieurs centaines de pixels de
+vide à gauche dès la largeur tablette. `/sources` portait déjà le défaut avant
+ce chantier — jamais vu faute d'avoir été ouvert à cette largeur : correct à la
+lecture du JSX, faux à l'écran, le même genre d'écart que la source ne prouve
+pas l'effet. Retiré sur les trois pages ; `mx-auto
+max-w-3xl` suffit à centrer une colonne de contenu qui ne partage l'écran avec
+aucune nav.
+
+### Connexion Odoo bout en bout et premier admin, faits par John (13/09/2026)
+
+`elsass-dico-dev.theelsassisch.com`, `theelsassisch@gmail.com` : la connexion a
+créé le membre à la première connexion et posé une session — preuve en passant
+que `SESSION_SECRET` est bien réglée en runtime sur Coolify, sans quoi l'app
+aurait refusé bruyamment plutôt que de laisser passer une connexion (cf.
+`src/lib/session.ts`). `scripts/promouvoir-admin.mts theelsassisch@gmail.com`
+lancé dans la foulée (port 5444 rouvert le temps de la commande, à refermer) :
+`membre -> admin`, confirmé par le script — ce qui clôt le dernier point ouvert
+de l'étape 2 (« connexion Odoo bout en bout à faire par John »).
+
+### `/` devient la présentation publique (décision de John, 13/09/2026)
+
+Tranché le jour même, sur la question laissée ouverte à la fin de l'étape 3 :
+`/` était encore l'écran de recherche authentifié, hérité du 28/08 — un
+visiteur anonyme y était redirigé vers `/login` sans jamais voir ce qu'est le
+site. Avec `/village/[slug]` et `/prenom/[slug]` désormais indexables, un
+lecteur qui arrive depuis Google sur une fiche de commune n'avait nulle part
+où aller comprendre le projet avant qu'on lui demande un compte.
+
+- **La recherche déménage sur `/recherche`**, intégralement — mêmes hooks de
+  cache et de scroll (`useListeMemorisee`, `useScrollMemorise`), seules les
+  deux URLs internes (`router.replace`, `memoriserUrlOnglet`) changent de
+  chemin. `AppNavShell` y pointe désormais pour l'onglet « Recherche ».
+- **`/` devient une page de présentation, publique.** Un membre déjà connecté
+  qui y arrive est redirigé côté serveur vers `/recherche` — inutile de lui
+  montrer un argumentaire pour un compte qu'il a déjà.
+- **Le middleware traite `/` en comparaison STRICTE**, jamais en préfixe
+  (`chemin === "/"`, pas `chemin.startsWith("/")`) : la liste `PUBLIC`
+  existante fonctionne par préfixe, et `/` est le début de **tout** chemin, y
+  compris `/admin` — l'y glisser avec le même mécanisme que les autres
+  entrées aurait rendu toute l'app publique.
+- **Vérifié à l'écran** (Chrome piloté, `elsass-dico-dev.theelsassisch.com`,
+  après redéploiement) : `/` rend la présentation et centre bien son contenu ;
+  `/recherche` redirige un visiteur anonyme (`curl`, 307) vers `/login` ; le
+  chevron retour de `/login` ramène à `/`. Non testée : la redirection
+  automatique d'un membre connecté vers `/recherche` (demanderait de se
+  connecter dans ce navigateur, réservé à John).
+
+## Écrans admin signalements et sources (13/09/2026)
+
+Complète les trois écrans admin du doc 20 (« Admin, trois écrans » —
+`/admin` existait déjà). PR sur `dev`, commit `c08a11d`.
+
+- **Le signalement devient in-app.** `/entree/[id]/signaler` renvoyait vers
+  le forum depuis l'étape 2 (« un signalement anonyme n'est pas faisable côté
+  backend aujourd'hui ») : c'était vrai avant le compte obligatoire, ça ne
+  l'est plus. `creerSignalementAction` (`src/app/actions/signalements.ts`)
+  attache le membre de la session à une **variante précise** — l'écran, qui
+  signalait tout le lemme en bloc via une chaîne concaténée, propose
+  désormais un choix de forme (`<select>` sur les variantes) et un motif
+  libre. Le forum reste en secours pour une discussion plus large, il n'est
+  plus le seul chemin.
+- **`/admin/signalements` ne montre que le non traité** — la file se vide au
+  traitement, sur le même principe que « Recoupées (0) » de l'ancien
+  arbitrage (23/08) : un écran vide est un succès, pas une panne. Marquer
+  traité ne touche ni la forme ni ses témoins ; la décision de fond (garder,
+  corriger, masquer la variante) reste un geste séparé pris ailleurs — cet
+  écran est une file, pas un exécuteur.
+- **`/admin/sources` est en lecture seule, et volontairement.** `Source` fait
+  partie de l'archive — « LECTURE SEULE » dans le schéma — donc l'écran
+  affiche licence et fiabilité déclarées sans bouton d'édition : les fiches
+  viennent de `data/sources/` sur la branche `data` et se régénèrent par
+  l'importeur, pas depuis l'app. **La fiabilité n'a pas d'échelle connue** :
+  seule `culture_alsace` a une fiche visible sur `dev` (`fiabilite: 3`, un
+  `SmallInt` sans borne documentée dans le schéma) — le chiffre brut est donc
+  affiché tel quel, sans suffixe `/5` inventé.
+- **Vérifié** : `tsc --noEmit` propre, et un vrai `pnpm build` (dev arrêté
+  avant, relancé après) a généré les 966 pages sans erreur — seul l'échec
+  final est l'EPERM symlink Windows connu, après « Generating static pages
+  (966/966) ». Déploiement Coolify confirmé (`get_application.updated_at`
+  passé de 14:28:28 à 14:32:58Z). **Non vérifié à l'écran** : la session
+  admin de John avait expiré entre-temps (Chrome piloté redirigé vers
+  `/login` en visitant `/admin/signalements`) — à confirmer à la
+  reconnexion.
+
+## Première tranche de la contribution : le vote et le village (13/09/2026)
+
+Suite logique après l'étape 3 (écrans admin) : la session admin de John avait
+expiré, bloquant la vérification à l'écran des écrans admin — plutôt
+qu'attendre, la première tranche de l'étape 5 du doc 20 (contribution) a été
+prise, puisqu'elle ne dépend d'aucune session existante à rejouer.
+
+- **Un vote = un village** (doctrine du 11/09) : `src/app/actions/votes.ts`
+  crée un `Temoignage{membreId, communeId}` — jamais `sourceId`/`attestationId`
+  — via `voterPourVarianteAction()`, et `retirerVoteAction()` le supprime.
+  `Membre.communeId` (posé par `definirVillageAction()`,
+  `src/app/actions/membres.ts`) ne fait que **pré-remplir** un futur vote : un
+  témoignage déjà posé ne bouge pas si le membre change de village ensuite,
+  parce que `communeId` est porté par le témoignage — un des quatre points non
+  négociables du modèle (doc 20).
+- **Le gate se relit en base, jamais sur le cookie.** La session (30 min) porte
+  `communeId` depuis l'étape 2, mais ne se resynchronise qu'à son
+  renouvellement : voter juste après avoir choisi son village doit marcher
+  tout de suite, donc `voterPourVarianteAction()` relit `Membre.communeId` en
+  base à chaque appel plutôt que de faire confiance au jeton.
+- **`upsert` sur `(varianteId, membreId)`, pas `create`** : un double clic ne
+  doit pas remonter une erreur de contrainte d'unicité à l'écran.
+- **Le sélecteur de village** (`src/app/dashboard/selecteur-village.tsx`) est
+  un `<select>` en ligne dans « Mon espace », triée par `Commune.population`
+  décroissante — c'est la raison d'être documentée de ce champ dans le schéma
+  depuis le 12/09 (« ordonner un sélecteur de 1 605 entrées par ce que
+  l'utilisateur cherche en premier »). **Simplification assumée** : le doc 20
+  parle d'une « modale » ; ici c'est un sélecteur en ligne, parce que la carte
+  qui l'entoure dans « Mon espace » ne s'affiche déjà que tant que le village
+  manque — même économie que les CTA simplifiés du 29/08/2026.
+- **`CarteVariante` reçoit un slot optionnel `accessoire`**, fourni seulement
+  par `/entree/[id]` (authentifié) : les fiches publiques `/village` et
+  `/prenom`, sans session, ne le passent pas et restent inchangées. Le bouton
+  lui-même (`VoteVariante`,`src/app/entree/[id]/vote-variante.tsx`) n'a pas
+  d'état local optimiste — un succès appelle `router.refresh()`, qui refait
+  tourner la page côté serveur, pour que `monVote` et le compte de villages
+  reviennent à jour ensemble.
+- **`chargerLemme()`** (`src/app/actions/recherche.ts`, le chemin authentifié)
+  ajoute `monVote` sur chaque variante quand une session existe ; les fiches
+  publiques, qui appellent `chargerLemmeDetaille()` directement, n'y touchent
+  pas.
+- **Vérifié** : `tsc --noEmit` propre ; un vrai `pnpm build` (dev arrêté avant,
+  relancé après) a généré les 966/966 pages, seul l'EPERM symlink Windows
+  connu suit. Sur la base réelle, en lecture seule (script jetable, supprimé
+  après usage — jamais d'écriture de test sur la production) : les 1 605
+  communes portent toutes une `population` (Strasbourg en tête, 293 771),
+  0 témoignage de locuteur n'existe encore (attendu, fonctionnalité neuve), et
+  le seul membre de la base (`theelsassisch@gmail.com`) n'a pas de village —
+  le sélecteur s'affichera bien pour lui à la prochaine connexion.
+- **Vérifié à l'écran le 13/09/2026**, une fois John reconnecté (Chrome
+  piloté, `elsass-dico-dev.theelsassisch.com`) : `+` sans village posé →
+  refusé avec le message exact ; sélecteur peuplé, trié par population
+  décroissante (Strasbourg, Metz, Mulhouse, Colmar…) ; village choisi →
+  « Village enregistré », profil mis à jour ; `+` repris sur « buschur »
+  (candidat « bonjour ») → badge « 2 sources · 1 village », village affiché,
+  bouton vert ; retiré → retour exact à l'état d'avant. `/admin/signalements`
+  et `/admin/sources` (commit `c08a11d`) confirmés au même passage — l'étape 3
+  est donc close pour de bon.
+  - Note opérationnelle : ce test a laissé Colmar comme village réel du
+    compte `theelsassisch@gmail.com` (seul moyen d'exercer le sélecteur en
+    conditions réelles) — à corriger ou laisser tel quel selon ce que John
+    veut y voir.
+- **Restent hors de cette tranche** : créer une nouvelle variante sur un mot
+  (« ça se dit autrement chez moi »), éditer sa propre variante tant qu'elle
+  est seule, et la carte interactive (étape 4, toujours à juger à l'écran).
+
+## Deux retours de John, deux correctifs (14/09/2026)
+
+### Le sélecteur de village : tri alphabétique, recherche, modifiable à tout moment
+
+Retour direct après la vérification à l'écran du 13/09 : « la liste des
+villages est en bordel total, elle devrait être classée par ordre alphabétique
+et avoir une barre de recherche », et « il faut pouvoir le changer à tout
+moment dans notre profil ».
+
+- `src/app/actions/communes.ts` : tri passé de `population` décroissante à
+  `nom` croissant. Le commentaire du schéma du 12/09 sur `population`
+  (« ordonner un sélecteur par ce que l'utilisateur cherche en premier »)
+  n'a pas résisté au premier usage réel — sur un `<select>` natif de
+  1 605 entrées sans recherche, un tri par population est illisible. La
+  recherche ajoutée côté client couvre désormais mieux cette intention qu'un
+  tri seul ne le pouvait.
+- `src/app/dashboard/village-profil.tsx` remplace `selecteur-village.tsx` :
+  un combobox (champ texte + liste filtrée en mémoire, 1 605 communes déjà
+  chargées, pas de aller-retour serveur par frappe) plutôt qu'un `<select>`
+  natif. Le composant porte aussi un état affichage/édition — le bloc « Ton
+  village » s'affiche désormais en permanence dans « Mon espace », avec le
+  village actuel et un bouton « Changer », plutôt que de n'apparaître que
+  tant que le village est vide.
+- **Vérifié à l'écran** (Chrome piloté, session de John,
+  `elsass-dico-dev.theelsassisch.com`) : recherche « mundolsheim » → un seul
+  résultat pertinent ; validation → toast « Village enregistré », profil mis
+  à jour ; bouton « Changer » réapparaît ensuite. Corrigé au passage le
+  village de test laissé la veille (Colmar → Mundolsheim, le vrai village de
+  John).
+
+### La pagination du dictionnaire A-Z
+
+Retour direct : « pour le dictionnaire, pour chaque lettre il n'affiche que
+les 200 premiers ! je fais comment pour voir les autres ? ». Le plafond du
+13/09 (« 200 premiers sur 3 006 ») se disait, mais n'offrait aucun moyen de
+voir la suite — exactement la même famille de défaut que les anciens
+compteurs « 50+ » de la file d'arbitrage et le rapport de parseur plafonné à
+80 anomalies : un plafond qui ne se contente pas de compter finit par
+bloquer.
+
+- **100 mots par page, pas 200** — tranché plutôt que redemandé : sur un VPS
+  sans limite CPU ni rate limiting, une page plus courte coûte moins par
+  requête, et l'argument pour 200 (moins de clics) ne tient plus une fois
+  qu'on peut réellement tourner les pages.
+- `lemmesParLettreAction(lettre, page)` (`src/app/actions/navigation.ts`) :
+  le compte total est lu **avant** le `LIMIT`/`OFFSET`, et la page demandée
+  est validée contre le vrai nombre de pages côté serveur — une page hors
+  bornes (lien trafiqué, lettre changée entre deux clics) ne rend jamais une
+  liste vide à tort.
+- Boutons **Précédent/Suivant en haut ET en bas** de la liste
+  (`src/app/dictionnaire/page.tsx`), page portée par l'URL
+  (`?lettre=C&page=3`). Un changement de page n'est pas un « retour » au sens
+  de `estRetourHistorique()` : `useScrollMemorise` ne remonte donc pas seul,
+  d'où un `window.scrollTo({top:0})` explicite après chaque clic — sinon on
+  resterait scrollé au niveau du bouton « Suivant » cliqué en bas de liste.
+- **Vérifié en base avant déploiement** (script jetable, lecture seule,
+  supprimé après usage) : C (3 006 mots) → 31 pages, dernière page 6 lignes ;
+  P (2 622) → 27 pages ; Z (68, sous le seuil) → 1 page. **Vérifié à l'écran**
+  ensuite sur la lettre C : page 1/31 → clic Suivant → page 2/31, remontée en
+  haut, URL à jour ; page 31/31 → 6 mots, bouton Suivant désactivé en haut et
+  en bas, Précédent actif.
+- Incident sans suite : un onglet Chrome de la session précédente s'est mis à
+  résoudre `elsass-dico-dev.theelsassisch.com` vers `0.0.0.0:3000` après un
+  aller-retour — confirmé propre au navigateur et non au serveur (`curl`
+  direct sur l'URL rend la redirection normale vers `/login`), résolu en
+  ouvrant un nouvel onglet.
+
+## Plan en attente : tri A-Z cassé par les accents, accès direct à un mot (14/09/2026)
+
+Deux nouveaux retours de John le même jour que les correctifs ci-dessus, **plan
+écrit et validé en fin de session, implémentation NON commencée** — à reprendre
+en priorité à la prochaine session.
+
+1. **Trop de clics pour atteindre un mot connu.** « bricoler » (lettre C)
+   demandait 12 clics sur Suivant, « cytise » 30. Confirmé en base avec le tri
+   actuel : bricoler rang 1190 (page 12), cytise rang 2939 (page 30) — chiffres
+   de John exacts.
+2. **Les mots accentués tombent en fin de liste.** Pour C : `cytise`, `câble`,
+   ... `çà` en dernier — pas un tri français. Cause identifiée :
+   `lemmesParLettreAction()` (`src/app/actions/navigation.ts`) trie par
+   `ORDER BY l.cle ASC` sans désaccentuer, et la collation Postgres classe les
+   caractères accentués après l'ASCII simple.
+
+**Solution retenue** (détaillée dans le plan) :
+- Point 2 (à corriger en premier, car il change le rang du point 1) :
+  `ORDER BY immutable_unaccent(l.cle) ASC, l.cle ASC` dans
+  `lemmesParLettreAction`. **Ce n'est PAS une violation de la doctrine du
+  24/08/2026** (« `unaccent` jamais dans une clé d'identité ») : ici
+  `immutable_unaccent` ne sert qu'à calculer un ordre d'affichage, aucune ligne
+  n'est fusionnée — c'est un troisième usage légitime, distinct de l'usage
+  interdit dans une clé de regroupement/identité.
+- Point 1 : nouveau champ « Aller à un mot » sur `/dictionnaire`, nouvelle
+  action `pageDuPrefixeAction(lettre, prefixe)` qui calcule le rang du préfixe
+  tapé avec EXACTEMENT le même tri que `lemmesParLettreAction` et saute à la
+  bonne page via `allerPage()` (déjà écrite). Alternatives écartées : rediriger
+  vers `/recherche` (John feuillette délibérément, il ne cherche pas un mot déjà
+  identifié) ; bigrammes cliquables façon dictionnaire papier (plus coûteux,
+  moins flexible qu'un champ texte).
+
+Plan complet (contexte, requêtes SQL exactes, plan de vérification) dans
+`C:\Users\George\.claude\plans\tranquil-meandering-rose.md` côté poste de
+Claude Code — pas versionné dans le dépôt. À la reprise : implémenter les deux
+points, mesurer en base (script jetable) que `ça`/`çà` précèdent bien `cabale`
+et que le saut de page atterrit sur le bon mot avec le nouveau tri, `tsc
+--noEmit` puis `pnpm build` réel, déployer sur `dev`, vérifier à l'écran avec
+John.
+
+## Plan ci-dessus implémenté (14/09/2026)
+
+Les deux points du plan en attente sont codés et vérifiés en base ; reste la
+vérification à l'écran après déploiement.
+
+- **Point 2 (tri)** : `lemmesParLettreAction()` trie désormais par
+  `ORDER BY immutable_unaccent(l.cle) ASC, l.cle ASC` — exactement la requête
+  du plan, second critère en départage stable. **Mesuré en base** (script
+  jetable, lecture seule, supprimé après usage) : le début de C devient
+  `c'est tout`, `c'est-à-dire`, `ça`, `çà`, `ça et là`, `ça par exemple`,
+  `ça va !`, `cabale` — les mots accentués remontent bien en tête au lieu de
+  la queue.
+- **Point 1 (accès direct)** : `pageDuPrefixeAction(lettre, prefixe)`
+  (`src/app/actions/navigation.ts`) compte les lemmes qui précèdent le
+  préfixe avec le même tri désaccentué, puis renvoie la page — factorisé avec
+  `lemmesParLettreAction` via `nbPagesPour()`. Champ « Aller à un mot »
+  ajouté sur `/dictionnaire` (`ChampAllerAuMot`), affiché seulement quand
+  `nbPages > 1`, au-dessus des `ControlesPagination` du haut ; réutilise
+  `allerPage()` telle quelle. **Mesuré en base** avec le nouveau tri : avec
+  les rangs recalculés (`bricoler` → rang 1269, page 13 ; `cytise` → rang
+  3005, page 31 — différents des rangs 12/30 de l'ancien tri, cohérent avec
+  « les deux points sont liés » du plan), le mot tombe bien sur la page
+  calculée dans les deux cas.
+- **Vérifié** : `tsc --noEmit` propre ; `pnpm build` (aucun serveur dev en
+  cours) a généré les 966/966 pages sans erreur, seul l'EPERM symlink Windows
+  connu suit.
+- **Vérifié à l'écran** (Chrome piloté, session de John,
+  `elsass-dico-dev.theelsassisch.com`) : lettre C → `ça`, `çà`, `ça et là`
+  bien en tête, avant `cabale` ; champ « Aller à un mot » → « cytise » saute
+  page 31/31 (mot présent) et « bricoler » (lettre B, pas C — le mot du plan
+  était mal annoté) saute page 13/15 (mot présent).
+
+### Bug trouvé en vérifiant à l'écran : squelette bloqué pour toujours sur échec réseau
+
+Deux fois de suite, l'écran est resté bloqué sur le squelette de chargement
+après un clic « Aller », alors que l'URL avait pourtant changé vers la bonne
+page. Cause trouvée dans `read_network_requests` : de vrais **503** intermittents
+sur ce VPS partagé (déjà identifié comme sujet à saturation, audit du
+30/08/2026), qui touchaient aussi bien mon nouveau flux que des requêtes de
+préchargement Next.js sans rapport (`/entree/[id]`, `/recherche`…).
+
+Le vrai problème n'était pas les 503 eux-mêmes (transitoires, un simple `curl`
+répété sur `/` passait 5/5) mais **`useListeMemorisee`** (`src/hooks/use-liste-memorisee.ts`,
+utilisé par 6 écrans) : aucune reprise sur échec. Une requête ratée laissait
+`donnees` à `null` pour toujours, et rien ne redéclenchait l'effet puisque la
+clé de cache n'avait pas changé — l'écran restait bloqué sans erreur ni retenter,
+indéfiniment. Mon champ « Aller à un mot » n'a fait que révéler un défaut déjà
+latent, en ajoutant un aller-retour serveur de plus au même instant que le
+rendu de la page.
+
+**Corrigé par une seule nouvelle tentative après 1,2 s**, dans le hook
+partagé (`chargerAvecReprise()`) plutôt que dans chacun des 6 écrans — pas de
+boucle infinie, juste assez pour absorber un blip. Pas de changement d'API :
+les écrans consommateurs n'ont rien à modifier.
+
+- **Vérifié** : `tsc --noEmit` propre, `pnpm build` a regénéré les 966/966
+  pages sans erreur (seul l'EPERM symlink Windows connu suit).
+- **Non vérifié à l'écran après ce correctif précis** : reste à redéployer et
+  confirmer que le champ « Aller à un mot » ne se bloque plus, y compris en
+  cas de 503 réel (impossible à provoquer à la demande — la reprise s'est
+  vérifiée par lecture de code, pas en reproduisant un 503 sous contrôle).
+
+### La vraie cause : `router.replace` appelé après un `await`, hors transition
+
+Le correctif de reprise ci-dessus n'a pas suffi — le blocage restait
+reproductible à froid, sans le moindre 503 : les logs réseau interceptés
+(`window.fetch` patché depuis la console) montraient `pageDuPrefixeAction`
+répondre 200 en ~200 ms, l'URL passer bien à `&page=13`, mais **aucune
+quatrième requête** pour `lemmesParLettreAction` — jamais émise, pas une
+erreur, rien. Lecture directe de l'état React en mémoire (fibre du composant,
+`memoizedState` en chaîne) : `lettre="B"` et `pageNo=13` étaient bien à jour,
+mais `donnees` restait `null` et `enCours` restait `true` pour toujours —
+l'effet de `useListeMemorisee` ne s'était simplement jamais redéclenché pour
+la nouvelle clé.
+
+**Cause réelle** : `allerAuPrefixe()` appelle `allerPage(n)` — qui appelle
+`router.replace()` — depuis la continuation d'un `await`, donc **hors de la
+pile d'appel synchrone du clic**. Les boutons Précédent/Suivant appellent
+`allerPage` directement depuis `onClick`, synchrone, et n'ont jamais montré
+ce blocage. Next a besoin qu'une navigation déclenchée en dehors d'un
+gestionnaire d'événement synchrone soit explicitement dans une transition
+React (`startTransition`) pour rester cohérente avec Suspense — sans ça, la
+mise à jour d'état (URL, `pageNo`) passe, mais l'effet qui devait s'en
+resservir ne se réarme jamais.
+
+**Corrigé** en enveloppant `allerPage(n)` et `setPrefixe("")` dans
+`startTransition()` (`src/app/dictionnaire/page.tsx`). Diagnostiqué sans
+redéploiement supplémentaire grâce à deux outils de bord : un patch de
+`window.fetch` injecté par la console pour voir les vraies requêtes (pas
+celles supposées par lecture de code), et une marche directe de la fibre
+React (`__reactFiber$...`, chaîne `memoizedState`) pour lire l'état réel sans
+attendre qu'il s'affiche.
+
+**Incident sans rapport croisé en route** : un onglet Chrome de cette session
+s'est remis à résoudre `elsass-dico-dev.theelsassisch.com` vers
+`0.0.0.0:3000` après un aller-retour — même défaut déjà noté le 14/09/2026,
+propre au navigateur, pas au serveur. Fermer l'onglet et en rouvrir un neuf
+l'a réglé, comme la fois précédente.
+
+- **Vérifié** : `tsc --noEmit` propre, `pnpm build` a regénéré les 966/966
+  pages sans erreur.
+- **`startTransition` seul ne suffisait pas.** Déployé, revérifié à l'écran :
+  « bricoler » (lettre B) sautait bien à la page 13 la première fois, mais
+  « cytise » (lettre C) a rejoué le même blocage juste après — un test propre
+  supplémentaire, sans rien changer au code, a reproduit l'échec une seconde
+  fois. `startTransition` réduisait la fréquence du défaut sans l'éliminer :
+  une vraie course, pas un bug déterministe.
+
+### Correctif définitif : pré-remplir le cache avant de faire bouger `pageNo`
+
+Plutôt que de dépendre d'un effet qui doit se redéclencher de façon fiable
+après un `await` (fragile, quelle que soit la présence de `startTransition`),
+`allerAuPrefixe()` appelle maintenant directement `chargerAvecCache()`
+(`src/lib/cache-navigation.ts`, déjà exportée) pour peupler la clé de cache de
+la page cible **avant** d'appeler `allerPage(n)`. `useListeMemorisee` relit ce
+cache de façon **synchrone pendant le rendu** dès que sa clé change (son
+`cleRef`) — si l'entrée existe déjà, la liste s'affiche immédiatement, sans
+jamais dépendre du redéclenchement de l'effet. L'effet se déclenche quand
+même ensuite, mais trouve un cache frais et ne fait rien (`fraicheurMs`).
+
+- `tsc --noEmit` propre, `pnpm build` a régénéré les 966/966 pages.
+
+### Vérifié à l'écran — et un piège de méthode de test démêlé du vrai bug
+
+Premiers passages après ce déploiement : échecs encore, sur « cytise »,
+identiques aux précédents. Traçage fin (valeur du champ + URL relevées à
+plusieurs délais après le clic, `window.HTMLInputElement` natif plutôt que
+l'accessibilité) : **le champ était déjà vide AVANT même le clic** — le mot
+tapé par l'outil de frappe automatisée n'avait jamais atterri dans le bon
+champ. Cause probable : l'interaction partait alors que la page était encore
+sur son squelette de chargement (le champ n'existe pas dans cette branche du
+rendu), donc soit la frappe visait un nœud sur le point d'être démonté, soit
+l'outil de frappe lui-même a couru contre le montage du composant. **Une
+partie des échecs de cette session n'était donc pas un bug applicatif, mais
+un test lancé trop tôt** — leçon distincte du vrai bug de course déjà corrigé
+par le pré-remplissage du cache.
+
+**Vérifié ensuite, trois fois de suite, sans un seul échec** (en attendant
+que le contenu réel soit affiché — pas le squelette — avant d'interagir) :
+« cytise » (C) → page 31/31 ; « bricoler » (B) → page 13/15 ; « dorloter » (D,
+mot choisi au hasard) → page 14/15, les trois fois avec le mot bien présent
+sur la page annoncée. Les deux premiers via manipulation DOM directe (pour
+éliminer toute ambiguïté sur la frappe), le troisième en conditions réelles
+(clic + clavier, comme John l'utilisera) — les trois avec succès.
+
+**Statut** : implémentation et correctifs tenus pour solides. Les trois points
+du plan du 14/09/2026 (tri désaccentué, accès direct à un mot, résilience du
+chargement) sont faits et vérifiés à l'écran.
+
+## Bug trouvé et corrigé : header admin qui recouvrait le rail sur desktop (14/09/2026)
+
+Retour direct de John : « dans la page admin il y a un header qui traine et
+qui en plus recouvre le menu sur desktop ». `/admin` (`src/app/admin/page.tsx`)
+plaçait `<AppHeader>` **avant** la div qui porte `md:pl-20 lg:pl-56` (la place
+réservée au rail de `AppNavShell`), au lieu de l'englober comme le font
+`dashboard`, `admin/sources` et `admin/signalements`. Le header est `sticky
+top-0 z-40` pleine largeur (`src/components/app-header.tsx`) : sans ce
+décalage, il chevauchait le rail (`z-30`) au lieu d'être poussé à droite.
+
+Corrigé en déplaçant `pb-16 md:pb-0 md:pl-20 lg:pl-56` sur la div englobante
+(qui contient déjà `<AppHeader>` et le contenu), et en retirant ces classes de
+la div de contenu interne — même patron que les trois autres écrans admin.
+
+- **Vérifié** : `tsc --noEmit` propre ; `pnpm build` a généré les 966/966 pages
+  (seul l'EPERM symlink Windows connu suit).
+- **Vérifié à l'écran** (Chrome piloté, session de John,
+  `elsass-dico-dev.theelsassisch.com`, 1440×900) : `/admin` et `/admin/sources`
+  — le header ne recouvre plus le rail, correctement poussé à droite dès la
+  largeur desktop. Même incident Chrome que le 14/09 (onglet dérivé vers
+  `0.0.0.0:3000`) rencontré une fois de plus au premier essai, résolu de la
+  même façon (fermer l'onglet, en rouvrir un neuf).
+
+### Second bug sur le même écran : le contenu ne prenait pas toute la largeur
+
+Retour immédiat de John après le correctif ci-dessus : « il n'y a pas que ça,
+elle ne prend pas toute la largeur contrairement aux autres pages, à gauche
+il y a une bande blanche et à droite on voit le fond ». Deux correctifs
+distincts, coup sur coup — John a signalé le risque : pousser trop vite
+peut faire vérifier un déploiement encore en cours, ou en faire sauter un
+que le suivant écrase avant qu'il finisse de builder. Chaque étape a donc
+attendu une confirmation explicite de `updated_at` (`get_application`) **et**
+une lecture directe de la classe CSS réellement présente dans le DOM déployé
+(`document.body.innerHTML.includes(...)`) avant tout screenshot — pas
+seulement un `updated_at` qui bouge, qui peut appartenir au déploiement
+précédent si les deux se chevauchent.
+
+Premier correctif tenté (largeur du conteneur interne de `/admin/page.tsx`,
+`container mx-auto max-w-5xl` retiré) : insuffisant, le rendu n'a pas changé.
+Cause réelle, plus profonde : `LayoutWrapper` (`src/components/layout-wrapper.tsx`)
+plafonnait **toutes** les routes `/admin/*` à `max-w-6xl`, centré sur la
+largeur TOTALE du viewport — une décision du 30/08/2026, écrite avant que
+`/admin` adopte le rail de nav fixe (`AppNavShell`, `position:fixed`, collé
+au vrai bord gauche de l'écran, donc hors du calcul de ce centrage). Le rail
+et la colonne centrée ne s'accordaient plus : bande vide entre le rail et le
+contenu (rail ~224px, colonne recommençant à ~366px sur un viewport 1884px),
+fond visible après la fin de la colonne. Mesuré en direct via
+`getBoundingClientRect()` sur le DOM déployé, pas deviné sur le JSX.
+
+**Corrigé** en retirant le cas particulier `/admin/*` de `LayoutWrapper` :
+toutes les routes reçoivent désormais le même traitement (aucun plafond
+global), exactement la même philosophie que la décision du 30/08 pour le
+reste de l'app — les trois écrans admin gèrent déjà leur propre largeur en
+interne (`md:pl-20 lg:pl-56`, et pour `/admin/sources`/`/admin/signalements`,
+leur propre `max-w-3xl` voulu). `LayoutWrapper` n'a plus besoin de
+`usePathname` : redevenu un composant serveur.
+
+- **Vérifié** : `tsc --noEmit` propre, `pnpm build` a régénéré les 966/966
+  pages.
+- **Vérifié à l'écran** (Chrome piloté, session de John,
+  `elsass-dico-dev.theelsassisch.com`, 1440×900), après confirmation en
+  direct que `max-w-6xl` n'apparaît plus nulle part dans le DOM déployé :
+  `/admin` remplit maintenant toute la largeur, collé au rail, jusqu'au bord
+  droit — plus de bande blanche ni de fond visible. `/admin/sources` et
+  `/admin/signalements` gardent leur propre colonne centrée (`max-w-3xl`,
+  un choix voulu de ces deux écrans, distinct du bug), mais désormais
+  correctement centrée par rapport à l'espace réellement disponible après le
+  rail, plutôt que par rapport au viewport entier.
 
 ## Règles de travail
 
@@ -1844,4 +902,13 @@ GitHub pour calculer les centroïdes.
   dans un même chiffre** : c'est la confusion qui a produit le bug de la PR #41.
 - Toujours demander avant de supprimer des données existantes.
 - Mesurer avant d'écrire. Deux chantiers ont été annulés par la mesure préalable
-  (04/09, 09/09) : c'est un succès de la méthode, pas du temps perdu.
+  (04/09, 09/09) : c'est un succès de la méthode, pas du temps perdu. Et le
+  12/09, une mesure a démenti une affirmation de notre propre documentation —
+  « plusieurs Mo, indéfendable en mobile-first » valait 97 Ko.
+- **L'app ne dépend d'aucun service extérieur** (12/09/2026). Une bibliothèque
+  dans le bundle et des données versionnées sont à nous ; un serveur qu'on
+  interroge à l'exécution ne l'est pas, quelle que soit la qualité du
+  fournisseur.
+- **Respecter les licences des données qu'on réutilise**, y compris quand rien
+  ne nous y oblige en pratique. Le projet a écarté trois sources lexicales sur
+  ce motif ; une mention de paternité peut changer de place, jamais disparaître.

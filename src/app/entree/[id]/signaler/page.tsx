@@ -1,17 +1,15 @@
 import { notFound } from "next/navigation";
 import { AppHeader } from "@/components/app-header";
-import { chargerEntree } from "@/app/actions/recherche";
+import { chargerLemme } from "@/app/actions/recherche";
 import { SignalerActions } from "./signaler-actions";
 
 // Écran 4 du handoff mobile : header empilé « fermer » (X), pas les 3 icônes
 // de nav — écran modal, pas un onglet racine.
 export default async function SignalerPage({ params }: { params: Promise<{ id: string }> }) {
   const { id } = await params;
-  const entree = await chargerEntree(id);
+  const lemme = await chargerLemme(id);
 
-  if (!entree) notFound();
-
-  const segment = `${entree.francais} → ${entree.traductions[0]?.alsacien ?? ""}`;
+  if (!lemme) notFound();
 
   return (
     <div className="flex min-h-screen flex-col">
@@ -19,15 +17,17 @@ export default async function SignalerPage({ params }: { params: Promise<{ id: s
 
       <main className="flex-1 px-4 pt-5 pb-8">
         <div className="rounded-lg border border-border bg-neutre-50 p-3.5 text-sm text-muted-foreground">
-          Segment concerné : <strong className="text-foreground">{segment}</strong>
+          Mot concerné : <strong className="text-foreground">{lemme.francais}</strong>
         </div>
 
         <p className="my-[22px] text-base leading-[1.6] text-muted-foreground">
-          Les signalements et propositions de correction se discutent sur le forum du dictionnaire,
-          pas directement dans l&apos;app.
+          Le signalement va directement à un admin, qui décide — ni la forme ni
+          ses témoins ne changent tant que personne n&apos;a tranché.
         </p>
 
-        <SignalerActions segment={segment} />
+        <SignalerActions
+          variantes={lemme.variantes.map((v) => ({ id: v.id, forme: v.forme }))}
+        />
       </main>
     </div>
   );

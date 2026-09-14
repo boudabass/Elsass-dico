@@ -1,0 +1,5 @@
+# Les scripts shell entrent dans une image Linux : avec des fins de ligne CRLF,
+# le conteneur répond « bad interpreter: no such file or directory » — une
+# erreur qui ne ressemble en rien à sa cause. `core.autocrlf` du poste Windows
+# les réécrirait au checkout sans cette ligne.
+*.sh text eol=lf

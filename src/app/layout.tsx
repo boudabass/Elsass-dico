@@ -5,6 +5,7 @@ import "./globals.css";
 import { Toaster } from "@/components/ui/sonner";
 import { AuthProvider } from "@/components/auth-provider";
 import { LayoutWrapper } from "@/components/layout-wrapper";
+import { sessionActuelle } from "@/lib/session-serveur";
 
 // Corps de texte : Archivo, adoptée le 28/08/2026 (design system « The
 // Elsassisch Design Systeme ») en remplacement de la pile système mesurée
@@ -31,18 +32,23 @@ export const metadata: Metadata = {
     "Dictionnaire français-alsacien construit par recoupement de sources indépendantes, en graphie ORTHAL. Un projet de The Elsassisch.",
 };
 
-export default function RootLayout({
+// La session est lue ICI, côté serveur, à partir du cookie signé — et passée
+// au provider. C'est ce qui permet à `AuthProvider` de n'émettre aucune requête
+// (cf. le commentaire en tête de ce fichier-là).
+export default async function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const session = await sessionActuelle();
+
   return (
     <html lang="fr" suppressHydrationWarning>
       <body
         className={`${archivo.variable} ${azimut.variable} font-sans antialiased`}
         suppressHydrationWarning
       >
-        <AuthProvider>
+        <AuthProvider session={session}>
           <LayoutWrapper>
             {children}
           </LayoutWrapper>

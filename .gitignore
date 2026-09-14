@@ -47,6 +47,12 @@ next-env.d.ts
 # vérifiable (voir data/README.md).
 __pycache__/
 
+# Client Prisma généré. Il se regénère de `prisma/schema.prisma` (script
+# `postinstall`), donc le commiter n'ajouterait qu'un diff de 15 000 lignes à
+# chaque changement de modèle — et un client périmé qui compile est pire qu'un
+# client absent.
+/src/generated/
+
 # design-sync (import vers claude.ai/design)
 .ds-sync/
 ds-bundle/

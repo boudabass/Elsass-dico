@@ -65,13 +65,36 @@ export function useListeMemorisee<T>({ cle, charger, fraicheurMs = FRAICHEUR_MS 
 
         let annule = false;
         setEnCours(true);
-        chargerAvecCache<T>(cle, () => chargerRef.current())
+
+        // Une requête ratée (503 transitoire du VPS partagé, cf. audit du
+        // 30/08/2026) ne doit jamais laisser l'écran bloqué sur son squelette :
+        // sans reprise, `donnees` restait `null` pour toujours et rien ne
+        // redéclenchait l'effet (`cle` inchangée) — trouvé le 14/09/2026 en
+        // vérifiant le champ « Aller à un mot », dont l'aller-retour serveur
+        // supplémentaire au même instant que le rendu de la page a suffi à
+        // faire apparaître un 503 déjà latent. Une seule nouvelle tentative
+        // après un court délai, pas de boucle infinie.
+        async function chargerAvecReprise(): Promise<T> {
+            try {
+                return await chargerAvecCache<T>(cle as string, () => chargerRef.current());
+            } catch {
+                await new Promise((resoudre) => setTimeout(resoudre, 1200));
+                return chargerAvecCache<T>(cle as string, () => chargerRef.current());
+            }
+        }
+
+        chargerAvecReprise()
             .then((resultat) => {
                 // Deux gardes de course : le composant peut avoir été démonté,
                 // et la clé peut avoir changé pendant le vol (frappe rapide,
                 // changement de lettre). Le cache, lui, a toujours été écrit —
                 // il est keyé, donc jamais faux.
                 if (!annule && cleRef.current === cle) setDonnees(resultat);
+            })
+            .catch(() => {
+                // Deux échecs de suite : on abandonne plutôt que de retenter
+                // sans fin. La prochaine visite de cet écran (clé revue) ou un
+                // `rafraichir()` explicite retentera.
             })
             .finally(() => {
                 if (!annule) setEnCours(false);

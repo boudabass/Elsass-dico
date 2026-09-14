@@ -3,8 +3,9 @@
 // « ce couple identifiant/mot de passe est-il valide ? ». Le rôle applicatif
 // n'en est jamais dérivé, il est géré dans la table profiles.
 //
-// Le cookie de session renvoyé par Odoo n'est ni lu ni conservé : c'est Supabase
-// qui porte la session côté dico.
+// Le cookie de session renvoyé par Odoo n'est ni lu ni conservé : le dico porte
+// sa propre session, un cookie signé avec `jose` (src/lib/session.ts) depuis le
+// 12/09/2026 — c'était Supabase avant.
 
 export interface UtilisateurOdoo {
     uid: number;

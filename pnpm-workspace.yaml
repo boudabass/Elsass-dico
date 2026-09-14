@@ -1,2 +1,14 @@
 allowBuilds:
+  # pnpm 11 demande une décision explicite pour chaque script d'installation.
+  # Prisma en a besoin : son postinstall installe le schema-engine dont
+  # `migrate` se sert. Sans ça, la CLI marche sur ce poste (le binaire est
+  # livré dans le paquet) mais rien ne garantit qu'elle marchera dans l'image.
+  '@prisma/engines': true
+  prisma: true
   sharp: true
+  # Ces trois-là étaient déjà ignorés avant Prisma, et l'app se construit et
+  # tourne ainsi. `false` fige ce comportement au lieu de le laisser en
+  # question ouverte à chaque installation.
+  esbuild: false
+  msgpackr-extract: false
+  workerd: false

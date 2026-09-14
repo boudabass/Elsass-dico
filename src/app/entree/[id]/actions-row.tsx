@@ -6,10 +6,13 @@ import { toast } from "sonner";
 
 // Écran 2 du handoff : rangée d'actions Copier/Signaler. Extraite en composant
 // client parce que la page reste un composant serveur (chargerEntree()).
-export function RangeeActions({ entreeId, formeCanonique }: { entreeId: string; formeCanonique: string }) {
+// `premiereForme` et non `formeCanonique` : il n'y a plus de forme
+// canonique depuis le 11/09/2026. C'est la forme la mieux attestee, celle
+// qu'on copie par defaut — pas celle qui aurait raison.
+export function RangeeActions({ entreeId, premiereForme }: { entreeId: string; premiereForme: string }) {
   const copier = async () => {
     try {
-      await navigator.clipboard.writeText(formeCanonique);
+      await navigator.clipboard.writeText(premiereForme);
       toast.success("Copié.");
     } catch {
       toast.error("Impossible de copier.");

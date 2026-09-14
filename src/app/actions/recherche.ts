@@ -1,64 +1,113 @@
 'use server'
 
-import { createClient } from "@/utils/supabase/server"
-import type { Entree, Traduction, TypeTerme } from "@/lib/dictionnaire"
+import type { LemmeDetaille, LemmeResume, TypeTerme } from "@/lib/dictionnaire"
+import { apercusParLemme, chargerLemmeDetaille } from "@/lib/lemmes"
+import { prisma } from "@/lib/prisma"
+import { sessionActuelle } from "@/lib/session-serveur"
 
-// Recherche publique : accessible sans compte. Le client SSR est utilisé sans
-// garde de rôle à dessein — c'est le RLS (lecture_publique_entrees_validees)
-// qui borne ce qui sort, et rechercher_entrees() restreint en plus à
-// statut='valide' pour qu'un contributeur connecté ne voie pas de brouillon ici.
+// Recherche dans les deux sens — français → alsacien et alsacien → français.
+// Portée par Prisma depuis le 12/09/2026 ; elle passait jusque-là par la RPC
+// `rechercher_entrees()` et la table `entrees`, qui n'existent plus.
+//
+// Ce qui change pour l'utilisateur : les résultats ne sont plus les 338 entrées
+// arbitrées mais les 25 864 lemmes dérivés, chacun avec TOUTES ses formes. Le
+// mot « bonjour », qui ne rendait rien depuis l'ouverture, rend `buschur`,
+// `güata Tàg`, `göte Tàij`, `grias di wohl`.
 
-export interface ResultatRecherche extends Entree {
-    score: number
-}
+const LIMITE = 30
+const FORMES_EN_APERCU = 3
 
-export async function rechercherAction(terme: string): Promise<ResultatRecherche[]> {
-    const requete = terme.trim()
-    if (requete.length < 2) return []
-
-    const supabase = await createClient()
-    const { data, error } = await supabase.rpc('rechercher_entrees', {
-        p_terme: requete,
-        p_limite: 30,
-    })
-
-    if (error) {
-        console.error(`[Recherche] Échec: ${error.message}`)
-        return []
-    }
-    return (data ?? []) as ResultatRecherche[]
-}
-
-export interface EntreeDetaillee {
+interface LigneRecherche {
     id: string
     francais: string
     contexte: string
     type: TypeTerme
-    traductions: Traduction[]
-    nb_attestations: number
-    nb_sources: number
-    sources: { nom: string; url: string | null }[]
+    departement: string | null
+    score: number
 }
 
-export async function chargerEntree(id: string): Promise<EntreeDetaillee | null> {
-    const supabase = await createClient()
+export async function rechercherAction(terme: string): Promise<LemmeResume[]> {
+    const requete = terme.trim()
+    if (requete.length < 2) return []
 
-    const { data: entree, error } = await supabase
-        .from('entrees')
-        .select('id, francais, contexte, type, traductions, nb_attestations, nb_sources')
-        .eq('id', id)
-        .eq('statut', 'valide')
-        .maybeSingle()
+    // Les deux directions sont deux sous-requêtes réunies, et non deux appels :
+    // un mot peut correspondre par son français ET par une de ses formes
+    // (`Mulhouse` / `Milhüsa`), il ne doit apparaître qu'une fois.
+    //
+    // `similarity()` ordonne, `LIKE` filtre. L'égalité exacte reçoit un bonus
+    // franc pour que « mais » ne se retrouve pas derrière « jamais ».
+    const lignes = await prisma.$queryRaw<LigneRecherche[]>`
+        WITH t AS (SELECT immutable_unaccent(lower(btrim(${requete}))) AS q),
+        par_francais AS (
+            SELECT l.id,
+                   similarity(immutable_unaccent(l.cle), t.q)
+                     + CASE WHEN immutable_unaccent(l.cle) = t.q THEN 1 ELSE 0 END AS score
+            FROM lemmes l, t
+            WHERE immutable_unaccent(l.cle) LIKE '%' || t.q || '%'
+        ),
+        par_alsacien AS (
+            SELECT v.lemme_id AS id,
+                   max(similarity(immutable_unaccent(lower(v.forme)), t.q)
+                         + CASE WHEN immutable_unaccent(lower(v.forme)) = t.q THEN 1 ELSE 0 END) AS score
+            FROM variantes v, t
+            WHERE v.masquee = false
+              AND immutable_unaccent(lower(v.forme)) LIKE '%' || t.q || '%'
+            GROUP BY v.lemme_id
+        ),
+        reunis AS (
+            SELECT id, max(score) AS score
+            FROM (SELECT * FROM par_francais UNION ALL SELECT * FROM par_alsacien) x
+            GROUP BY id
+        )
+        SELECT l.id, l.francais, l.contexte, l.type::text AS type,
+               c.departement, r.score
+        FROM reunis r
+        JOIN lemmes l ON l.id = r.id
+        LEFT JOIN communes c ON c.id = l.commune_id
+        ORDER BY r.score DESC, length(l.francais) ASC, l.francais ASC
+        LIMIT ${LIMITE}
+    `
 
-    if (error || !entree) return null
+    if (!lignes.length) return []
 
-    // sources_entree() existe depuis la migration du schéma : elle expose le
-    // nom et l'URL des sources d'une entrée validée sans ouvrir le RLS des
-    // tables sources et attestations.
-    const { data: sources } = await supabase.rpc('sources_entree', { p_entree_id: id })
+    const apercus = await apercusParLemme(lignes.map((l) => l.id))
+
+    return lignes.map((l) => {
+        const formes = apercus.get(l.id) ?? []
+        return {
+            id: l.id,
+            francais: l.francais,
+            contexte: l.contexte,
+            type: l.type,
+            departement: l.departement,
+            formes: formes.slice(0, FORMES_EN_APERCU),
+            nbFormes: formes.length,
+        }
+    })
+}
+
+/** La fiche d'un mot : toutes ses variantes, et pour chacune ce qui la fonde —
+ *  sources écrites d'un côté, villages de l'autre. Jamais additionnés.
+ *  Chargée par id — c'est le chemin authentifié (/entree/[id]) ; les fiches
+ *  publiques (/village, /prenom) appellent `chargerLemmeDetaille()` directement.
+ *
+ *  Ajoute `monVote` sur chaque variante quand une session existe — c'est ce qui
+ *  distingue ce chemin du chemin public, qui ne connaît aucun membre. */
+export async function chargerLemme(id: string): Promise<LemmeDetaille | null> {
+    const lemme = await chargerLemmeDetaille({ id })
+    if (!lemme) return null
+
+    const session = await sessionActuelle()
+    if (!session) return lemme
+
+    const mesTemoignages = await prisma.temoignage.findMany({
+        where: { membreId: session.membreId, varianteId: { in: lemme.variantes.map((v) => v.id) } },
+        select: { varianteId: true },
+    })
+    const mesVariantes = new Set(mesTemoignages.map((t) => t.varianteId))
 
     return {
-        ...(entree as Omit<EntreeDetaillee, 'sources'>),
-        sources: (sources ?? []) as { nom: string; url: string | null }[],
+        ...lemme,
+        variantes: lemme.variantes.map((v) => ({ ...v, monVote: mesVariantes.has(v.id) })),
     }
 }

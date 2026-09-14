@@ -1,0 +1,222 @@
+"use client";
+
+import { Suspense, useEffect, useRef, useState } from "react";
+import Link from "next/link";
+import { useRouter, useSearchParams } from "next/navigation";
+import { Loader2, Search, SearchX } from "lucide-react";
+import { AppHeader } from "@/components/app-header";
+import { BadgeConfiance } from "@/components/badge-confiance";
+import { ListSkeleton } from "@/components/ui/list-skeleton";
+import { rechercherAction } from "@/app/actions/recherche";
+import { precisionLemme, type LemmeResume } from "@/lib/dictionnaire";
+import { useListeMemorisee } from "@/hooks/use-liste-memorisee";
+import { useScrollMemorise } from "@/hooks/use-scroll-memorise";
+import { cleCache, memoriserUrlOnglet } from "@/lib/cache-navigation";
+
+// Écran 1 (Recherche) + écran 10 (aucun résultat) du handoff mobile
+// design_handoff_mobile_app/ (Claude Design, 28/08/2026). Remplace la page
+// desktop du 25/08 : plus de bandeau marketing ni de boutons de connexion en
+// en-tête (portés désormais par l'onglet "compte" de AppHeader et par l'écran
+// Mon espace), fidèle au mockup qui réduit l'accueil à saluer + chercher.
+//
+// Déplacée de `/` vers `/recherche` le 13/09/2026 (doc 20, étape 3) : `/`
+// devient la présentation publique, sans compte — cet écran, lui, reste
+// entièrement derrière l'authentification.
+
+const CARACTERES_ORTHAL = ["à", "ì", "ü", "ù", "ë", "ö", "ä", "œ"];
+
+export default function RecherchePage() {
+  return (
+    <Suspense fallback={<AppHeader variant="root" actif="recherche" />}>
+      <RechercheContenu />
+    </Suspense>
+  );
+}
+
+function RechercheContenu() {
+  const router = useRouter();
+  const searchParams = useSearchParams();
+  const inputRef = useRef<HTMLInputElement>(null);
+  // Terme restauré depuis l'URL au premier chargement (retour navigateur
+  // depuis une fiche de mot) plutôt que toujours repartir d'une recherche vide.
+  const [terme, setTerme] = useState(() => searchParams.get("q") ?? "");
+  // Terme réellement soumis, une fois la frappe retombée. C'est lui qui fait
+  // la clé de cache : deux visites du même terme ne rappellent pas le serveur.
+  const [requete, setRequete] = useState(() => (searchParams.get("q") ?? "").trim());
+
+  // Recherche différée : la frappe ne doit pas déclencher un aller-retour par
+  // caractère, et la RPC refuse de toute façon les termes d'un seul caractère.
+  // L'URL est mise à jour (replace, pas push) au même rythme que la recherche,
+  // pour qu'un retour depuis une fiche de mot retombe sur la même requête.
+  useEffect(() => {
+    const saisie = terme.trim();
+    if (saisie === requete) return;
+
+    if (saisie.length < 2) {
+      setRequete("");
+      router.replace("/recherche", { scroll: false });
+      memoriserUrlOnglet("recherche", "/recherche");
+      return;
+    }
+
+    const minuteur = setTimeout(() => {
+      const url = `/recherche?q=${encodeURIComponent(saisie)}`;
+      setRequete(saisie);
+      router.replace(url, { scroll: false });
+      // La barre de nav rouvrira la recherche ici plutôt que sur un écran vide.
+      memoriserUrlOnglet("recherche", url);
+    }, 250);
+
+    return () => clearTimeout(minuteur);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [terme, requete]);
+
+  const cle = requete.length >= 2 ? cleCache("recherche", requete) : null;
+  const { donnees, premierChargement } = useListeMemorisee<LemmeResume[]>({
+    cle,
+    charger: () => rechercherAction(requete),
+  });
+  const resultats = donnees ?? [];
+
+  // Le spinner couvre aussi la fenêtre de debounce : sans ça, taper une lettre
+  // de plus laisserait l'écran figé sur les résultats précédents sans rien
+  // indiquer.
+  const attenteFrappe = terme.trim().length >= 2 && terme.trim() !== requete;
+  const recherche = attenteFrappe || premierChargement;
+  const aCherche = cle !== null && donnees !== null;
+
+  useScrollMemorise(cle, resultats.length > 0);
+
+  // Insère le caractère à l'endroit du curseur plutôt qu'en fin de chaîne :
+  // selectionStart/End restent lisibles sur l'input même après que le focus
+  // soit passé au bouton de la puce (le spec DOM les conserve). requestAnimationFrame
+  // laisse React committer le nouveau `value` avant qu'on repositionne le curseur.
+  function insererCaractere(car: string) {
+    const input = inputRef.current;
+    const debut = input?.selectionStart ?? terme.length;
+    const fin = input?.selectionEnd ?? terme.length;
+    setTerme(terme.slice(0, debut) + car + terme.slice(fin));
+    requestAnimationFrame(() => {
+      input?.focus();
+      const position = debut + car.length;
+      input?.setSelectionRange(position, position);
+    });
+  }
+
+  return (
+    <div className="flex min-h-screen flex-col pb-16 md:pb-0 md:pl-20 lg:pl-56">
+      <AppHeader variant="root" actif="recherche" />
+
+      <main className="flex-1 px-4 pt-5 pb-8">
+        <h1 className="text-[21px] font-extrabold text-foreground">Salut !</h1>
+        <p className="mt-1 mb-[18px] text-sm text-muted-foreground">
+          Cherche un mot, français ou alsacien.
+        </p>
+
+        <div className="flex h-12 items-center gap-2.5 rounded-full border border-neutre-300 bg-background px-4">
+          <Search className="h-[18px] w-[18px] shrink-0 text-neutre-400" strokeWidth={2} />
+          <input
+            ref={inputRef}
+            value={terme}
+            onChange={(e) => setTerme(e.target.value)}
+            placeholder="Un mot en français ou en alsacien…"
+            autoFocus
+            className="min-w-0 flex-1 bg-transparent text-base font-semibold text-foreground outline-none placeholder:font-normal placeholder:text-neutre-400"
+          />
+          <span
+            aria-hidden
+            className={`shrink-0 transition-[opacity,transform,filter] duration-300 ease-doux ${
+              recherche ? "opacity-100 blur-0" : "opacity-0 scale-[0.25] blur-[4px]"
+            }`}
+          >
+            <Loader2 className={`h-[18px] w-[18px] text-neutre-400 ${recherche ? "animate-spin" : ""}`} />
+          </span>
+          <span role="status" aria-live="polite" className="sr-only">
+            {recherche ? "Recherche en cours" : ""}
+          </span>
+        </div>
+
+        <div className="mt-3.5 flex flex-wrap gap-1.5">
+          {CARACTERES_ORTHAL.map((car) => (
+            <button
+              key={car}
+              type="button"
+              onClick={() => insererCaractere(car)}
+              className="flex h-9 min-w-9 items-center justify-center rounded-lg border border-neutre-300 bg-background px-2.5 text-[15px] font-semibold text-foreground transition-colors hover:bg-neutre-50 active:scale-95"
+            >
+              {car}
+            </button>
+          ))}
+        </div>
+
+        {recherche && resultats.length === 0 && (
+          <div className="mt-[22px]">
+            <ListSkeleton lignes={3} />
+          </div>
+        )}
+
+        {!recherche && resultats.length > 0 && (
+          <div>
+            <p className="mb-2.5 mt-[22px] text-xs font-bold uppercase tracking-wide text-neutre-400">
+              Résultats
+            </p>
+            <div className="space-y-2.5">
+              {resultats.map((e) => (
+                <Link
+                  key={e.id}
+                  href={`/entree/${e.id}`}
+                  className="block rounded-lg focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
+                >
+                  <div className="rounded-lg border border-border bg-card p-3.5">
+                    <div className="flex flex-wrap items-baseline gap-2">
+                      <span className="font-bold text-foreground">{e.francais}</span>
+                      {precisionLemme(e) && (
+                        <span className="text-xs text-neutre-400">{precisionLemme(e)}</span>
+                      )}
+                    </div>
+                    {/* Toutes les formes, chacune avec ce qui la fonde. Plus de
+                        forme canonique depuis le 11/09/2026 : la première n'est
+                        pas « la bonne », c'est celle que le plus de témoins
+                        écrivent. */}
+                    <ul className="mt-1.5 space-y-1">
+                      {e.formes.map((f) => (
+                        <li key={f.forme} className="flex flex-wrap items-center gap-2">
+                          <span className="text-lg font-bold text-foreground">{f.forme}</span>
+                          <BadgeConfiance nbSources={f.nbSources} nbVillages={f.nbVillages} />
+                        </li>
+                      ))}
+                    </ul>
+                    {e.nbFormes > e.formes.length && (
+                      <p className="mt-1.5 text-sm text-muted-foreground">
+                        et {e.nbFormes - e.formes.length} autre
+                        {e.nbFormes - e.formes.length > 1 ? "s" : ""} forme
+                        {e.nbFormes - e.formes.length > 1 ? "s" : ""}
+                      </p>
+                    )}
+                  </div>
+                </Link>
+              ))}
+            </div>
+          </div>
+        )}
+
+        {aCherche && !recherche && resultats.length === 0 && (
+          <div className="mt-3.5 flex flex-col items-center px-3 pb-2 pt-9 text-center">
+            <SearchX className="h-[34px] w-[34px] text-neutre-300" strokeWidth={1.8} />
+            <p className="mt-3 text-base font-bold text-foreground">
+              Aucun résultat pour « {terme.trim()} ».
+            </p>
+            <p className="mt-1.5 text-sm text-muted-foreground">
+              Ce mot n&apos;est pas encore dans le dictionnaire.
+            </p>
+            {/* Le « Proposer ce mot → » de l'ancien circuit pointait vers
+                /contributions/proposer, supprimé le 12/09/2026 avec Supabase. Le
+                geste revient à l'étape 5 de la refonte (le même écran créera le
+                lemme ET sa première variante). Pas de lien en attendant : un lien
+                mort est pire qu'une absence. */}
+          </div>
+        )}
+      </main>
+    </div>
+  );
+}

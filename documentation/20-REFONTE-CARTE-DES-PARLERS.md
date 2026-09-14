@@ -176,54 +176,130 @@ il faut la garder en tête si le modèle semble familier.
   contributeurs — ils ne sont pas repris.
 
 **Perdu volontairement** : les 338 entrées arbitrées. Leur contenu est redérivable
-des attestations. **Faire un dump SQL complet avant la bascule.**
+des attestations. ~~Faire un dump SQL complet avant la bascule.~~ — **abandonné
+le 12/09/2026** (décision de John) : la base se reconstruit intégralement du
+dépôt, et ce qui n'existait qu'en base — entrées publiées, comptes, votes —
+n'a plus d'intérêt.
 
 ## Étapes
 
-### 1. Socle données — *en cours*
+### 1. Socle données — ✅ **fait le 12/09/2026**
 
-- Conteneur **Postgres 18** sur Coolify (vérifier l'image ; se rabattre sur 17 au
-  besoin).
-- `prisma/schema.prisma`, et **`prisma migrate deploy` au démarrage du conteneur**.
-  Ça tue la classe de bugs qui a frappé trois fois : migration passée à la main
-  dans le SQL Editor, oubliée, invisible jusqu'à la première écriture (09/08,
-  10/08, 23/08).
-- **Référentiel communes** — ✅ **fait**, cf. `data/communes/`.
-- **Script de dérivation** `scripts/deriver.ts` : `attestations` → `Lemme` /
-  `Variante` / `Temoignage`. Réutilise `scinderSynonymes()` et `cleDeForme()` tels
-  quels. Les 954 toponymes se joignent aux communes **par nom exact**, jamais
-  approché — un doute se signale (règle 3 du contrat `data/`).
-- Dump SQL complet de l'existant.
+Détail de la chaîne, de ses chiffres et de ses commandes : `21-REPRISE.md`.
 
-**Mesure à faire ici, pas avant** : le marqueur a~e (finale `-a`, digrammes
-`ia`/`ua`) n'a jamais été mesuré sur les 23 851 mots du lexique, seulement sur les
-toponymes. Il dira si le lexique écrit peut teinter une zone sur la carte. Une
-heure de travail, **et le résultat peut être négatif** — comme le 04/09, où la même
-mesure préalable avait annulé un chantier entier.
+- Conteneur **Postgres 18** sur Coolify — fait (`postgres:18-alpine`).
+- `prisma/schema.prisma` et **`prisma migrate deploy` au démarrage du conteneur**
+  (`docker-entrypoint.sh`), qui refuse de démarrer si une migration échoue. Ça
+  tue la classe de bugs qui a frappé trois fois : migration passée à la main dans
+  le SQL Editor, oubliée, invisible jusqu'à la première écriture (09/08, 10/08,
+  23/08).
+- **Référentiel communes** — fait, cf. `data/communes/`.
+- **Script de dérivation** `scripts/deriver.mts` : `attestations` → `Lemme` /
+  `Variante` / `Temoignage`. Réutilise `scinderSynonymes()` et `cleDeForme()`
+  telles quelles. 27 179 attestations → 25 864 lemmes, 41 646 variantes,
+  42 135 témoignages, **sans une décision humaine**.
+- ~~Dump SQL complet de l'existant~~ — **abandonné** (décision de John,
+  12/09/2026) : la base se reconstruit intégralement du dépôt, et ce qui
+  n'existait qu'en base n'a plus d'intérêt.
 
-### 2. Auth autonome, Supabase dehors
+**La source de vérité est le dépôt, pas la base** (décision du 12/09). Les
+données sont reconstruites depuis les JSONL des parseurs versionnés sur la
+branche `data`, jamais lues dans Supabase — qui portait quatre mois de purges,
+de réingestions et de colonnes ajoutées au fil de l'arbitrage. Une seule
+altération décisionnelle s'y était glissée, annulée par la **PR #44** : 349
+contextes de `wiktionnaire_fr` recopiés de `culture_alsace` pour que l'ancienne
+file d'arbitrage fasse se rencontrer les candidats.
 
-- Odoo reste l'autorité sur les mots de passe. Ce qui disparaît, c'est le montage
-  `createUser` + `generateLink` + `verifyOtp` de `actions/odoo-auth.ts`.
-- Session par **cookie signé avec `jose`** (JWT court + refresh). Jamais de HMAC
-  maison.
-- **`middleware.ts` : plus aucun I/O.** Aujourd'hui il fait un `auth.getUser()`
-  **réseau à chaque page vue**, visiteur anonyme compris, plus un `select profiles`
-  sur `/admin` et `/contributions`. Demain : vérification de signature locale.
-  C'est le gain CPU direct sur le VPS qui sature (audit du 30/08).
-- Inscription : lien vers la création de compte du portail Odoo. **À vérifier côté
-  Odoo** que l'auto-inscription portail est activée — c'est une config, pas du code.
-- `Dockerfile` : les `ARG NEXT_PUBLIC_SUPABASE_*` sortent, `DATABASE_URL` entre en
-  runtime.
+**Un toponyme EST une commune** : le lemme s'indexe par sa commune, pas par
+(français, contexte). `Roeschwoog` et `Rœschwoog` portent leurs deux formes sur
+la même fiche de village — ce qui rend la recontextualisation inutile, le
+département venant du référentiel INSEE et non d'une source recopiée sur une
+autre.
+
+**La mesure du marqueur a~e est faite, et positive** — `22-MESURE-MARQUEUR-AE.md`.
+Elle a répondu par un chemin qui n'était pas prévu : `culture_alsace` **déclare
+son parler elle-même** (« Fer s'Südliga Nederàlamànischa Üssdrucksgebiat », et sa
+propre carte délimite l'aire — « région de Colmar et de Mulhouse »). Le marqueur
+ne fait que confirmer, sans lien technique avec la déclaration : 99,9 % de
+finales `-a` sur les 18 pages sans bandeau de mélange, 80,0 % sur les 7 autres.
+D'où `Temoignage.aireDeclaree`, qui porte ce qu'une source dit d'elle-même et
+jamais ce qu'on en déduit.
+
+### 2. Auth autonome, Supabase dehors — ✅ faite le 13/09/2026
+
+- Odoo reste l'autorité sur les mots de passe. Le montage `createUser` +
+  `generateLink` + `verifyOtp` a disparu : la connexion vérifie les identifiants
+  auprès d'Odoo, crée ou retrouve le membre, et pose son propre cookie.
+- Session par **cookie signé avec `jose`**, jamais de HMAC maison. JWT court
+  (30 min, porte le rôle) + renouvellement (30 jours, **sans** le rôle) : le rôle
+  est relu en base à chaque renouvellement, sinon une promotion n'atteindrait
+  jamais un membre déjà connecté.
+- **`middleware.ts` : plus aucun I/O.** Il faisait un `auth.getUser()` réseau à
+  chaque page vue, visiteur anonyme compris, plus un `select profiles` sur
+  `/admin` et `/contributions`. C'est une vérification de signature locale.
+- **Deux rôles**, `membre` et `admin`. Le premier admin s'amorce par
+  `scripts/promouvoir-admin.mts`, après une première connexion.
+- Inscription : lien vers la création de compte du portail Odoo. **Reste à
+  vérifier côté Odoo** que l'auto-inscription portail est activée — c'est une
+  config, pas du code.
+- `Dockerfile` : les `ARG NEXT_PUBLIC_SUPABASE_*` sont sortis. Plus aucune
+  variable de build ; `SESSION_SECRET` et `DATABASE_URL` sont runtime, donc rien
+  de sensible n'est gravé dans l'image. **À poser dans Coolify.**
 
 ### 3. Écrans
 
-**Public, sans compte** — `/` présentation, `/village/[slug]` et `/prenom/[slug]`
-**générées statiquement** (`generateStaticParams`) : zéro requête au runtime, donc
-zéro CPU, et c'est tout ce que Google verra. Ne générer que les communes **qui ont
-au moins une forme attestée** (954 sur 1 605) : une page vide est du thin content
-qui dessert le référencement. Les autres répondent en `noindex`, avec un appel à
-contribution.
+**`/village/[slug]` et `/prenom/[slug]` — ✅ faites le 13/09/2026.**
+
+**`/` devient la présentation publique — ✅ faite le 13/09/2026** (décision de
+John, tranchée le jour même). La recherche authentifiée déménage sur
+`/recherche` — `AppNavShell` y pointe désormais, et le middleware traite `/`
+en comparaison **stricte** (jamais en préfixe : `/` est le début de tout
+chemin, y compris `/admin`). Un membre déjà connecté qui arrive sur `/` est
+redirigé serveur vers `/recherche` sans voir l'argumentaire — inutile pour
+qui a déjà un compte. Vérifié à l'écran (Chrome piloté) sur
+`elsass-dico-dev.theelsassisch.com` : `/` rend la présentation, `/recherche`
+redirige un visiteur anonyme vers `/login`, le chevron retour de `/login`
+ramène bien à `/`.
+
+Générées statiquement (`generateStaticParams`), sur le lemme rattaché à la
+commune (`Lemme.communeId`, unique — un toponyme EST une commune, pas un second
+modèle). Ne génère que les communes **qui ont au moins une forme attestée** —
+**819 sur 1 605** au 13/09/2026, chiffre revu depuis le 954 écrit plus haut (qui
+comptait des attestations, pas des communes rattachées, cf. `21-REPRISE.md`) : une
+page vide est du thin content qui dessert le référencement. Les 786 autres restent
+joignables à la même URL (`dynamicParams` par défaut), rendues à la demande, en
+`noindex` posé par la page elle-même — sans lien vers un geste de contribution qui
+n'existe pas encore (étape 5), pour ne pas répéter l'erreur du lien mort. Les
+prénoms n'ont pas cette distinction : chaque lemme `prenom` naît d'une
+attestation, donc porte toujours un slug et une forme (131 au 13/09/2026).
+
+La carte de variante (sources écrites d'un bloc, villages de l'autre, jamais
+additionnés — l'erreur de la PR #41) est un composant partagé
+(`src/components/carte-variante.tsx`), extrait de la fiche authentifiée
+`/entree/[id]` : trois écrans l'affichent maintenant, ce qui justifiait
+l'extraction — elle ne l'aurait pas fait pour un seul.
+
+**Trouvé en construisant ces deux routes : `generateStaticParams` a besoin de la
+base AU BUILD**, y compris sur le serveur Coolify — ce qui contredit à la lettre
+le commentaire du `Dockerfile` du 12/09 (« plus aucune variable de build, rien de
+sensible gravé dans l'image »). Essayé d'abord en secret BuildKit
+(`--mount=type=secret,id=database_url`), **confirmé non fonctionnel sur ce
+Coolify** au premier déploiement `dev` du 13/09/2026 — le build a échoué avec
+exactement le message d'erreur prévu, Coolify ne relaie donc pas de secret
+BuildKit à id libre (la discussion GitHub coollabsio/coolify#5328 avait raison
+d'en douter). Repli appliqué : `ARG DATABASE_URL` classique, alimenté par une
+Build Variable Coolify — le mécanisme déjà éprouvé ici pour les
+`NEXT_PUBLIC_SUPABASE_*` avant le 12/09, avec le même compromis assumé (la
+valeur reste lisible dans l'historique des couches du builder, jamais dans
+l'étage final livré ni sur un registre public). **Posée dans Coolify et
+vérifiée** : plusieurs déploiements `dev` réussis depuis.
+
+**Vérifié contre la vraie base** (port 5444 rouvert le temps du contrôle, comme le
+12/09) : `chargerVillage("colmar-68066")` rend `Kolmer` / `Colmer`, exactement ce
+que `21-REPRISE.md` annonçait ; 819 villages et 131 prénoms comptés en
+interrogeant la couche de données directement (`tsx`, contournant l'échec EPERM du
+mode standalone Windows sur ce poste) ; un slug inexistant rend `null`
+(→ `notFound()`).
 
 **Authentifié** — recherche complète dans les deux sens (la recherche inverse
 alsacien → français est conservée). Une fiche de mot montre **toutes** les
@@ -232,31 +308,138 @@ ensuite avec leurs villages. Les deux blocs restent visuellement distincts — o
 n'additionne jamais un compte de sources et un compte de villages dans un même
 chiffre. C'est l'erreur exacte de la PR #41, trouvée en production le 09/09.
 
-**Admin, trois écrans** : membres (`/admin` existe déjà et fonctionne), file des
-signalements, gestion des sources écrites.
+**Admin, trois écrans — tous faits le 13/09/2026** : membres (`/admin`),
+`/admin/signalements` (file des non traités, se vide au traitement), et
+`/admin/sources` (lecture seule — l'archive est figée, elle affiche licence
+et fiabilité sans les éditer). Le signalement lui-même devient in-app :
+`creerSignalementAction` attache le membre de la session à une variante
+précise, remplaçant le renvoi forum-only posé à l'étape 2 quand un
+signalement anonyme n'était pas faisable côté backend — le compte
+obligatoire lève ce blocage. Déployé (`c08a11d`), déploiement Coolify
+confirmé, **vérification à l'écran en attente** d'une reconnexion admin.
 
 ### 4. La carte
 
-- **Leaflet + tuiles OpenStreetMap** : ~40 Ko contre 200+ pour MapLibre GL, et les
-  tuiles viennent d'un CDN — zéro charge serveur, ce qui compte ici.
-- **Points aux centroïdes, pas des polygones** : 1 605 communes en contours GeoJSON
-  pèsent plusieurs Mo, indéfendable en mobile-first.
+- **Aucune tuile, aucun service extérieur** (décision de John, 12/09/2026 —
+  révise ce que ce document prévoyait). Une carte à tuiles demande son fond à un
+  serveur tiers à chaque consultation : le jour où il change ses URL, plafonne
+  ou tombe, la carte est vide. Le projet ne peut pas en dépendre.
+
+  Deux pistes ont été instruites puis écartées le même jour : les tuiles
+  d'OpenStreetMap, dont la
+  [Tile Usage Policy](https://operations.osmfoundation.org/policies/tiles/)
+  prévoit un blocage « sans préavis » ; et la Géoplateforme de l'IGN, meilleure
+  sur le papier (tuiles exclues de son plafonnement, testé à 200 sans clé) mais
+  qui reste un service qu'on ne maîtrise pas.
+
+- **Le fond est à nous** : `public/carte/contours.topojson`, produit par
+  `scripts/communes/generer-contours.js`. Les 1 605 communes en TopoJSON — les
+  frontières partagées n'y sont écrites qu'une fois — simplifié à 12 % des
+  sommets. **401 Ko, ~97 Ko compressés**, chargés une seule fois : moins que
+  trois tuiles d'une carte classique, qui elles se rechargent à chaque
+  déplacement.
+
+  Ce document affirmait que « 1 605 communes en contours GeoJSON pèsent
+  plusieurs Mo, indéfendable en mobile-first ». **Mesuré, c'est faux** : 1,6 Mo
+  en GeoJSON brut, et le format adapté à un maillage divise encore par quatre.
+  À 12 % des sommets, l'écart d'aire est de 0,017 % sur le Bas-Rhin et aucune
+  commune ne dégénère.
+
+  Contours IGN Admin Express sous **Licence Ouverte**. La mention de paternité
+  vit sur `/sources`, **pas sur la carte** : le texte de la licence demande la
+  source et son millésime sans imposer d'emplacement — il accepte même un simple
+  renvoi par URL. Elle n'est pas facultative pour autant. C'est la seule
+  contrepartie d'une licence qui donne par ailleurs l'usage commercial, mondial,
+  illimité et gratuit ; la retirer ne gagnerait aucun droit, elle ferait perdre
+  le seul qu'on ait. Le projet a déjà écarté trois sources lexicales sur cette
+  question en campagne 5.
+
+- **Leaflet**, mais pour ce qu'il fait bien : le pan, le zoom et le tactile.
+  Sans `tileLayer`, il n'émet aucune requête réseau. Une bibliothèque dans notre
+  bundle n'est pas un service extérieur — c'est toute la distinction, et elle
+  seule permet de ne pas tout réécrire. Rendu en canvas : 1 605 polygones en SVG
+  font ramer un téléphone d'entrée de gamme.
+
+- **Points aux centroïdes** pour les villages qui portent une forme ; le
+  maillage sert de fond. Pour un dictionnaire des parlers, ce maillage *dit*
+  quelque chose, là où une carte routière n'est qu'un décor.
 - Recherche d'un mot → les variantes s'affichent aux villages qui les revendiquent,
   une couleur par variante.
 - **Les formes sans lieu ne vont jamais sur la carte.** Elles s'affichent
   au-dessus, en mobile-first : « personne n'a encore dit d'où ça vient ». La dette
   de données devient le moteur de contribution.
-- Au lancement la carte n'est pas vide : les **954 toponymes attestés sont des
-  communes**, chacune peut afficher son nom alsacien dès le premier jour.
+- Au lancement la carte n'est pas vide : **819 communes portent une forme
+  attestée** et peuvent afficher leur nom alsacien dès le premier jour. (Le
+  chiffre de 954 écrit ici jusqu'au 12/09 comptait des attestations, pas des
+  communes rattachées — 249 noms ne désignent aucune commune actuelle, cf.
+  `21-REPRISE.md`.)
+- **Prototype en place** : `/carte` et `/sources`, sur données réelles. Il sert à
+  trancher sur pièces — densité des points, lisibilité en mobile — pas à figurer
+  l'écran final. Deux points restent à traiter avant qu'il ne le devienne : les
+  819 villages sont envoyés d'un coup (127 Ko de HTML), et la couleur par
+  variante est prévue par le composant (`couleurDe`) mais pas encore utilisée.
 
 ### 5. Contribution
 
-- Sur un mot : « ça se dit autrement chez moi » → forme + village.
+- Sur un mot : « ça se dit autrement chez moi » → forme + village. **Pas fait.**
 - Sur une variante existante : bouton **`+`**, qui attache le village du profil en
   un clic. Profil sans village → une modale le demande une fois, et le mémorise.
-- Retirer son propre `+`, signaler une variante douteuse, éditer sa propre variante
-  tant qu'elle est seule.
-- Aucun vote contre, aucune suppression par les pairs.
+  **Première tranche faite le 13/09/2026** — voir plus bas.
+- Retirer son propre `+` — **fait le 13/09/2026**, même tranche. Signaler une
+  variante douteuse — fait à l'étape 3. Éditer sa propre variante tant qu'elle
+  est seule — **pas fait.**
+- Aucun vote contre, aucune suppression par les pairs — respecté :
+  `voterPourVarianteAction()` ne fait qu'ajouter ou retirer le témoignage du
+  membre courant, jamais celui d'un autre.
+
+**Première tranche — le `+` et le choix du village, faite le 13/09/2026.**
+`Temoignage.membreId + communeId` (« un vote = un village ») via
+`src/app/actions/votes.ts` (`voterPourVarianteAction`, `retirerVoteAction`) et
+`src/app/actions/communes.ts` (`listerCommunesAction`, triée par
+`population` décroissante — c'est la raison d'être de ce champ, posée en
+commentaire du schéma dès le 12/09). `definirVillageAction`
+(`src/app/actions/membres.ts`) écrit `Membre.communeId`, qui ne fait que
+**pré-remplir** un futur vote : un témoignage déjà posé ne bouge pas si le
+membre corrige son village ensuite, parce que `communeId` est porté par le
+témoignage et pas seulement relu du profil (un des quatre points non
+négociables du modèle, plus haut dans ce document).
+
+- **Simplification assumée** : la « modale » du doc devient un sélecteur en
+  ligne dans « Mon espace » (`src/app/dashboard/selecteur-village.tsx`) — la
+  carte qui l'entoure ne s'affiche déjà que tant que le village manque, ce qui
+  revient à ne le demander qu'une fois sans ouvrir un second écran. Même
+  economie de moyens que les CTA simplifiés du 29/08/2026.
+- **Le vote se gate en base, jamais sur le cookie de session.** `Session` porte
+  `communeId` depuis l'étape 2, mais le jeton court dure 30 min et ne se
+  resynchronise pas au fil de l'eau : `voterPourVarianteAction()` relit le
+  village du membre en base à chaque appel, pour qu'un village tout juste
+  choisi puisse voter immédiatement, pas seulement après un renouvellement de
+  jeton.
+- **`upsert` plutôt que `create`** sur `(varianteId, membreId)` : un double
+  clic ne doit pas remonter une erreur de contrainte d'unicité à l'écran, voter
+  deux fois pour son propre village est un no-op.
+- `VoteVariante` (`src/app/entree/[id]/vote-variante.tsx`) n'a pas d'état
+  local optimiste : un succès appelle `router.refresh()`, qui refait tourner
+  `/entree/[id]` côté serveur — `monVote` et le compte de villages reviennent à
+  jour ensemble, sans risque de désaccord entre les deux valeurs.
+- `CarteVariante` (`src/components/carte-variante.tsx`) reçoit un slot
+  optionnel `accessoire`, fourni seulement par `/entree/[id]` (authentifié) :
+  les fiches publiques `/village` et `/prenom`, sans session, ne le passent
+  pas et restent identiques.
+- **Vérifié** : `tsc --noEmit` propre, un vrai `pnpm build` a généré les
+  966/966 pages (dev arrêté avant, relancé après — seul l'EPERM symlink
+  Windows connu suit). Sur la base réelle, en lecture seule : les 1 605
+  communes portent toutes une population (Strasbourg en tête, 293 771),
+  0 témoignage de locuteur n'existe encore (attendu — fonctionnalité neuve).
+- **Vérifié à l'écran le 13/09/2026** (Chrome piloté, session admin de John,
+  `elsass-dico-dev.theelsassisch.com`), chemin complet : `+` sans village
+  posé → refusé avec le message attendu ; sélecteur peuplé et trié par
+  population décroissante (Strasbourg, Metz, Mulhouse, Colmar…) ; village
+  choisi → « Village enregistré », profil mis à jour ; `+` repris sur
+  « buschur » → badge passé à « 2 sources · 1 village », village affiché,
+  bouton devenu vert ; retiré → tout redevient exactement l'état d'avant.
+  `/admin/signalements` et `/admin/sources` (commit `c08a11d`) confirmés à
+  l'écran au même passage.
 
 ## Tranché par défaut, à corriger si besoin
 
@@ -272,15 +455,48 @@ signalements, gestion des sources écrites.
 La règle de maison s'applique partout : **recompter en base, jamais croire le
 rapport d'un script**. Elle a rattrapé une erreur à chacune des cinq campagnes.
 
-- **Étape 1** : comptages par type et par source ; 0 forme dérivée qui ne soit un
-  fragment contigu d'une attestation (règle 1) ; dérivation rejouée deux fois =
-  même résultat.
-- **Étape 2** : connexion Odoo bout en bout, session qui survit à un redémarrage,
-  app inaccessible sans cookie valide, et **un middleware qui ne fait aucun appel
-  réseau** — à vérifier au chrono, pas à la lecture.
-- **Étape 3** : les pages publiques ne rendent **que** villages et prénoms, y
-  compris en appelant la Server Action directement avec un terme du lexique. Le
-  filtre est serveur ; une barrière qui vit dans le navigateur n'en est pas une.
+- **Étape 1** — ✅ fait, `scripts/verifier-derivation.mts` relit la base et sort
+  un code 1 si un contrôle échoue. 11 contrôles passent : 0 forme qu'aucun de ses
+  témoins n'écrit sur 41 646 (règle 1), 27 179/27 179 attestations ayant produit
+  une variante, 0 orpheline, 0 témoignage hybride, 0 ponctuation finale publiée,
+  une commune = un lemme.
+
+  **« Rejouée deux fois = même résultat » a failli être une promesse creuse.** La
+  dérivation lisait les attestations par `id`, or les UUID sont tirés au hasard à
+  l'import : quand deux attestations écrivent la même forme, celle qui créait la
+  variante changeait d'un chargement à l'autre. Écart constaté entre la base
+  locale et la production : **une variante à article sur 8 882**. Un chiffre
+  qu'on pouvait mettre sur le compte du bruit, et qui était une vraie faille.
+  Corrigé par un ordre de lecture stable **et** par une règle qui ne dépend
+  d'aucun ordre (à forme égale, la variante porteuse de l'article l'emporte),
+  puis vérifié en reconstruisant une base entièrement neuve.
+
+  **Deux bases valent mieux qu'une** : sans le double chargement, le défaut
+  restait invisible. C'est « recompter en base » appliqué à deux bases.
+- **Étape 2** — ✅ faite le 13/09/2026. Trois des quatre critères sont tenus et
+  vérifiés : l'app est **inaccessible sans cookie valide** (`/` et
+  `/dictionnaire` répondent 307 vers `/login`, `/login` et `/sources` 200), la
+  session **survit à un redémarrage** (rien n'est gardé côté serveur — un JWT
+  signé par `SESSION_SECRET`, qui est une variable d'environnement), et le
+  **middleware ne fait aucun appel réseau**. Ce dernier point s'est vérifié mieux
+  qu'au chrono, sur le bundle produit : il ne contient ni `supabase`, ni
+  `@prisma`, ni `pg` — seulement `HS256` et `SESSION_SECRET`.
+
+  **Connexion Odoo bout en bout confirmée par John le 13/09/2026**, sur
+  `elsass-dico-dev.theelsassisch.com` — `authentifierAupresDOdoo()` a créé le
+  membre à sa première connexion, `SESSION_SECRET` est donc bien posée en
+  runtime (l'app aurait sinon refusé bruyamment). Premier admin amorcé dans la
+  foulée (`scripts/promouvoir-admin.mts theelsassisch@gmail.com`).
+
+  Détail dans `21-REPRISE.md`.
+- **Étape 3 (`/village`, `/prenom`)** — ✅ vérifiée le 13/09/2026 par la barrière
+  serveur, pas par le navigateur : `chargerVillage()` et `chargerLemmeDetaille()`
+  ne lisent que des variantes `masquee: false`, et le filtre par type de
+  `chargerLemmeDetaille({ slug })` refuse un lemme qui ne serait pas un `prenom`
+  même si son slug existe. Reste à vérifier une fois déployé sur `dev` (session
+  admin, John) : `tsc --noEmit` propre et 819/131 pages confirmées en base ne
+  disent rien du rendu à l'écran, ni du secret de build Coolify (non confirmé,
+  cf. plus haut).
 - **Étapes 4-5** : à l'écran, à trois largeurs (mobile ~390 px, tablette ~1024 px,
   desktop ~1320 px). La leçon du 29/08 — vérifier au-delà de la largeur du
   mockup — tient toujours.
@@ -290,8 +506,27 @@ rapport d'un script**. Elle a rattrapé une erreur à chacune des cinq campagnes
 
 ## Points ouverts
 
-- Marqueur a~e sur le lexique : à mesurer à l'étape 1, peut ne rien donner.
+- ~~Marqueur a~e sur le lexique~~ — ✅ mesuré le 12/09, **positif** :
+  `22-MESURE-MARQUEUR-AE.md`.
+- ~~Licences des deux jeux de données communes~~ — ✅ confirmées le 12/09 :
+  **Licence Ouverte** pour les deux. Identité administrative INSEE (via
+  `@etalab/decoupage-administratif` 6.0.0), contours IGN ADMIN EXPRESS COG
+  millésime 2018. Usage commercial permis, mention de paternité obligatoire —
+  portée par `/sources`.
+- ~~Communes fusionnées depuis la source~~ — ✅ tranché le 12/09 : on s'en tient
+  aux communes actuelles, 249 noms restent sans point (détail dans
+  `21-REPRISE.md`).
 - Auto-inscription du portail Odoo : à activer et tester.
 - Aire linguistique du 57 : laissée nulle, à qualifier plus tard ou jamais.
-- Licences des deux jeux de données communes : à confirmer avant publication.
 - Gameplay : hors périmètre, à concevoir une fois la carte vivante.
+
+### Ce que le prototype de carte laisse à trancher
+
+- **Combien de villages envoyer d'un coup.** Les 819 font 127 Ko de HTML —
+  tenable en desktop, discutable en mobile-first. L'écran final n'affichera
+  probablement que les villages du mot cherché.
+- **La densité des points.** 819 marqueurs tiennent en canvas, mais rien ne dit
+  qu'ils se lisent. À juger à l'écran, pas au raisonnement.
+- **Le fond est volontairement muet** (gris clair sur blanc) pour que les points
+  ne s'y noient pas. Deux valeurs à changer dans `carte-parlers.tsx` s'il est
+  trop pâle ou trop présent.

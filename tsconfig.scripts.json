@@ -1,0 +1,21 @@
+{
+  // Les scripts de `scripts/` tournent sous Node par `tsx`, jamais dans le
+  // navigateur : ils n'ont aucune raison de se plier à la cible ES5 du
+  // tsconfig de Next, qui refuse le `await` de haut niveau et l'itération des
+  // Map. Les inclure dans la vérification principale coûterait des
+  // contorsions au code applicatif ; les laisser hors de TOUTE vérification
+  // reviendrait à ne jamais les typer.
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "lib": ["ES2023"],
+    "types": ["node"],
+    "jsx": "preserve",
+    // `tsx` résout les imports en `.ts` / `.mts` ; TypeScript doit l'accepter.
+    "allowImportingTsExtensions": true,
+    "noEmit": true
+  },
+  "include": ["scripts/**/*.mts", "src/lib/dictionnaire.ts"]
+}

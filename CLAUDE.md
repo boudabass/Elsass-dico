@@ -824,6 +824,29 @@ sur la page annoncée. Les deux premiers via manipulation DOM directe (pour
 du plan du 14/09/2026 (tri désaccentué, accès direct à un mot, résilience du
 chargement) sont faits et vérifiés à l'écran.
 
+## Bug trouvé et corrigé : header admin qui recouvrait le rail sur desktop (14/09/2026)
+
+Retour direct de John : « dans la page admin il y a un header qui traine et
+qui en plus recouvre le menu sur desktop ». `/admin` (`src/app/admin/page.tsx`)
+plaçait `<AppHeader>` **avant** la div qui porte `md:pl-20 lg:pl-56` (la place
+réservée au rail de `AppNavShell`), au lieu de l'englober comme le font
+`dashboard`, `admin/sources` et `admin/signalements`. Le header est `sticky
+top-0 z-40` pleine largeur (`src/components/app-header.tsx`) : sans ce
+décalage, il chevauchait le rail (`z-30`) au lieu d'être poussé à droite.
+
+Corrigé en déplaçant `pb-16 md:pb-0 md:pl-20 lg:pl-56` sur la div englobante
+(qui contient déjà `<AppHeader>` et le contenu), et en retirant ces classes de
+la div de contenu interne — même patron que les trois autres écrans admin.
+
+- **Vérifié** : `tsc --noEmit` propre ; `pnpm build` a généré les 966/966 pages
+  (seul l'EPERM symlink Windows connu suit).
+- **Vérifié à l'écran** (Chrome piloté, session de John,
+  `elsass-dico-dev.theelsassisch.com`, 1440×900) : `/admin` et `/admin/sources`
+  — le header ne recouvre plus le rail, correctement poussé à droite dès la
+  largeur desktop. Même incident Chrome que le 14/09 (onglet dérivé vers
+  `0.0.0.0:3000`) rencontré une fois de plus au premier essai, résolu de la
+  même façon (fermer l'onglet, en rouvrir un neuf).
+
 ## Règles de travail
 
 - Ne jamais inventer de traduction alsacienne, même pour un exemple ou un test.

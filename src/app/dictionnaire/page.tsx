@@ -16,7 +16,7 @@ import {
 import { precisionLemme } from "@/lib/dictionnaire";
 import { useListeMemorisee } from "@/hooks/use-liste-memorisee";
 import { useScrollMemorise } from "@/hooks/use-scroll-memorise";
-import { cleCache, memoriserUrlOnglet } from "@/lib/cache-navigation";
+import { chargerAvecCache, cleCache, memoriserUrlOnglet } from "@/lib/cache-navigation";
 
 // Écran 3 (Dictionnaire A-Z) + écran 11 (lettre vide) du handoff mobile.
 //
@@ -95,13 +95,17 @@ function DictionnaireContenu() {
     setRechercheEnCours(true);
     try {
       const n = await pageDuPrefixeAction(lettre, prefixe);
-      // `allerPage` appelle `router.replace` : hors de la pile d'appel
-      // synchrone du clic (on est après un `await`), Next a besoin de
-      // `startTransition` pour traiter cette navigation normalement — sans
-      // ça, trouvé le 14/09/2026 en vérifiant à l'écran, l'état se met à
-      // jour (URL, pageNo) mais l'effet qui va chercher les mots de la
-      // nouvelle page ne se déclenche jamais : écran bloqué sur le
-      // squelette pour toujours, sans erreur ni requête réseau.
+      // Pré-remplit le cache de la page cible AVANT de faire bouger `pageNo` :
+      // `useListeMemorisee` relit le cache de façon SYNCHRONE pendant le
+      // rendu dès que sa clé change (son `cleRef`), donc si l'entrée existe
+      // déjà, la liste s'affiche immédiatement — sans dépendre de l'effet qui
+      // va chercher les données, dont le redéclenchement après un `await`
+      // s'est révélé intermittent à l'écran le 14/09/2026 (même avec
+      // `startTransition` autour de `allerPage`, gardé ci-dessous par
+      // prudence mais insuffisant seul pour fiabiliser à 100 %).
+      await chargerAvecCache(cleCache("dictionnaire", "lettre", lettre, String(n)), () =>
+        lemmesParLettreAction(lettre, n),
+      );
       startTransition(() => {
         allerPage(n);
         setPrefixe("");

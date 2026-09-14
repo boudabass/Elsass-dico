@@ -776,8 +776,29 @@ l'a réglé, comme la fois précédente.
 
 - **Vérifié** : `tsc --noEmit` propre, `pnpm build` a regénéré les 966/966
   pages sans erreur.
-- **Reste à vérifier à l'écran après ce déploiement** : le champ « Aller à un
-  mot » doit désormais atterrir sur la bonne page sans jamais rester bloqué.
+- **`startTransition` seul ne suffisait pas.** Déployé, revérifié à l'écran :
+  « bricoler » (lettre B) sautait bien à la page 13 la première fois, mais
+  « cytise » (lettre C) a rejoué le même blocage juste après — un test propre
+  supplémentaire, sans rien changer au code, a reproduit l'échec une seconde
+  fois. `startTransition` réduisait la fréquence du défaut sans l'éliminer :
+  une vraie course, pas un bug déterministe.
+
+### Correctif définitif : pré-remplir le cache avant de faire bouger `pageNo`
+
+Plutôt que de dépendre d'un effet qui doit se redéclencher de façon fiable
+après un `await` (fragile, quelle que soit la présence de `startTransition`),
+`allerAuPrefixe()` appelle maintenant directement `chargerAvecCache()`
+(`src/lib/cache-navigation.ts`, déjà exportée) pour peupler la clé de cache de
+la page cible **avant** d'appeler `allerPage(n)`. `useListeMemorisee` relit ce
+cache de façon **synchrone pendant le rendu** dès que sa clé change (son
+`cleRef`) — si l'entrée existe déjà, la liste s'affiche immédiatement, sans
+jamais dépendre du redéclenchement de l'effet. L'effet se déclenche quand
+même ensuite, mais trouve un cache frais et ne fait rien (`fraicheurMs`).
+
+- `tsc --noEmit` propre, `pnpm build` a regénéré les 966/966 pages.
+- **Reste à vérifier à l'écran, sur plusieurs passages consécutifs** (le
+  critère qui a fait tomber les deux correctifs précédents) après ce
+  déploiement.
 
 ## Règles de travail
 

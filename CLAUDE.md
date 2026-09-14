@@ -929,6 +929,55 @@ déjà — seul le résultat (le build a réussi) est observable d'ici.
 sans navigateur — la session Chrome pilotée de John n'a pas été rouverte sur
 le domaine de production dans cette session.
 
+## Carte des parlers : les deux points restants du prototype traités (14/09/2026)
+
+Reprise de l'étape 4 (doc 20). Le prototype `/carte` listait deux écarts avant
+de pouvoir devenir l'écran final : les 819 villages envoyés d'un coup dans le
+HTML de la page (127 Ko), et `couleurDe` prévu par `CarteParlers` mais jamais
+branché. **Portée délibérément restreinte à ces deux points** — la carte reste
+un écran « comment chaque village dit son propre nom » (les toponymes,
+`Lemme.communeId`), pas encore « chercher un mot quelconque et voir où on le
+dit » (qui suppose une requête par variante + témoignage, hors périmètre de
+cette reprise, tranché explicitement avant d'écrire une ligne).
+
+- `pointsCarteAction()` (`src/app/actions/carte.ts`) sort la requête Prisma de
+  `page.tsx`, qui devient un composant serveur trivial. `CarteDemo` la charge
+  désormais via `useListeMemorisee` (même hook que la pagination A-Z et
+  `/dashboard`) — cache par clé publique (`cleCache("carte-parlers")`, sans
+  segment d'identité, la donnée étant la même pour tout le monde), reprise
+  automatique sur échec déjà écrite dans le hook, sans rien coder de neuf pour
+  ça.
+- `couleurDeForme()` (`src/lib/couleur-carte.ts`) : hash déterministe
+  (djb2) vers une palette de 12 teintes. Déterministe et non `Math.random()` —
+  la même forme doit rendre la même couleur à chaque rendu, y compris après
+  une réhydratation.
+- **Vérifié** : `tsc --noEmit` propre, `pnpm build` (aucun serveur dev en
+  cours) a régénéré les 966/966 pages, seul l'EPERM symlink Windows connu
+  suit.
+- **Déploiement confirmé avec le même protocole que la session précédente** :
+  poussé sur `dev`, attente de 240 s avant tout contrôle (leçon du retour de
+  John plus haut dans ce fichier — ne pas vérifier un déploiement encore en
+  vol), `updated_at` Coolify avancé (15:57:28 → 16:15:58) avant tout
+  screenshot.
+- **Vérifié à l'écran** (Chrome piloté, session de John,
+  `elsass-dico-dev.theelsassisch.com/carte`) : 819 villages affichés, 1 353
+  formes, points de couleurs distinctes (contre un champ rouge uniforme
+  avant) ; clic sur un point → popup « Nàswil · Naswil — Natzwiller » ; filtre
+  « kolmer » → 1 seul village affiché, le bon. Un 503 intermittent (VPS
+  partagé, audit du 30/08/2026) est apparu sur l'appel de
+  `pointsCarteAction()` pendant ce contrôle — absorbé sans rien à faire par la
+  reprise déjà écrite dans `useListeMemorisee` le 14/09, la carte s'est quand
+  même affichée au premier essai.
+- Même incident Chrome que le reste du 14/09 rencontré une fois de plus au
+  premier essai (`0.0.0.0:3000`), résolu de la même façon (fermer l'onglet, en
+  rouvrir un neuf).
+
+**Reste hors de cette reprise** : la recherche par mot quelconque (n'importe
+quel lemme, pas seulement les toponymes) avec une couleur par variante et des
+points agrégés par témoignage — la vraie cible finale de l'étape 4, décision
+délibérée de John de la traiter comme un chantier séparé plutôt que de
+l'attaquer dans la même reprise que les deux correctifs ci-dessus.
+
 ## Règles de travail
 
 - Ne jamais inventer de traduction alsacienne, même pour un exemple ou un test.

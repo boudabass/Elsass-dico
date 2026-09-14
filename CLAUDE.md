@@ -893,6 +893,42 @@ leur propre `max-w-3xl` voulu). `LayoutWrapper` n'a plus besoin de
   correctement centrée par rapport à l'espace réellement disponible après le
   rail, plutôt que par rapport au viewport entier.
 
+## `dev` fusionné dans `main`, production sur la refonte (14/09/2026)
+
+**PR #45** (`dev` → `main`), fast-forward propre, aucun commit divergent sur
+`main` — fusionnée par commit de merge (`ec4aafa`) plutôt que par squash, pour
+garder l'historique détaillé que ce fichier référence commit par commit depuis
+le 11/09. `elsass-dico.theelsassisch.com` bascule ainsi de l'ancien site
+(Supabase, table `entrees`) vers la refonte complète : carte des parlers,
+Prisma, sessions `jose`, pages publiques village/prénom.
+
+**Coolify `elsass-dico:main` ne s'est pas redéployé tout de suite** : juste
+après la fusion, `get_application` rendait encore `exited:unhealthy` et un
+`updated_at` du 13/09 — antérieur à cette session. Un nouveau contrôle un peu
+plus tard a montré `status: running:unknown` et `updated_at` avancé au moment
+du merge : le déploiement automatique a fini par partir, avec un décalage,
+exactement le genre d'écart entre « ça vient d'être poussé » et « c'est
+déployé » que John avait signalé plus tôt dans cette session à propos de
+`dev`. `running:unknown` plutôt que `running:healthy` s'explique simplement :
+`health_check_enabled` est à `false` sur cette application, Coolify ne sait
+donc pas trancher — pas un signe de panne.
+
+**Vérifié sur l'artefact réel, pas sur le seul statut Coolify** (`curl`,
+depuis ce poste) : `/` → 200, titre « Elsass Dico — Traducteur
+français-alsacien » (la nouvelle présentation publique du 13/09, pas
+l'ancienne recherche) ; `/recherche` → 307 vers `/login`, la barrière d'auth
+fonctionne ; `/village/colmar-68066` → 200, « Colmar — Kolmer » — la page a
+donc bien pu lire la base **au build** (`generateStaticParams`), ce qui
+suppose que `DATABASE_URL` était disponible comme Build Variable sur cette
+application au moment du build, comme sur `dev` depuis le 13/09. **Non
+confirmé avec John** : je n'ai aucun moyen de voir, via le MCP Coolify en
+lecture seule, si c'est lui qui l'a réglée entre-temps ou si elle l'était
+déjà — seul le résultat (le build a réussi) est observable d'ici.
+
+**Non vérifié à l'écran** : ce contrôle s'est fait entièrement en `curl`,
+sans navigateur — la session Chrome pilotée de John n'a pas été rouverte sur
+le domaine de production dans cette session.
+
 ## Règles de travail
 
 - Ne jamais inventer de traduction alsacienne, même pour un exemple ou un test.

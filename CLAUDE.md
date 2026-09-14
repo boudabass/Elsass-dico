@@ -701,8 +701,41 @@ vérification à l'écran après déploiement.
 - **Vérifié** : `tsc --noEmit` propre ; `pnpm build` (aucun serveur dev en
   cours) a généré les 966/966 pages sans erreur, seul l'EPERM symlink Windows
   connu suit.
-- **Non vérifié à l'écran** : reste à déployer sur `dev` et confirmer avec
-  John que le champ saute à la bonne page et que C commence bien par `ça`/`çà`.
+- **Vérifié à l'écran** (Chrome piloté, session de John,
+  `elsass-dico-dev.theelsassisch.com`) : lettre C → `ça`, `çà`, `ça et là`
+  bien en tête, avant `cabale` ; champ « Aller à un mot » → « cytise » saute
+  page 31/31 (mot présent) et « bricoler » (lettre B, pas C — le mot du plan
+  était mal annoté) saute page 13/15 (mot présent).
+
+### Bug trouvé en vérifiant à l'écran : squelette bloqué pour toujours sur échec réseau
+
+Deux fois de suite, l'écran est resté bloqué sur le squelette de chargement
+après un clic « Aller », alors que l'URL avait pourtant changé vers la bonne
+page. Cause trouvée dans `read_network_requests` : de vrais **503** intermittents
+sur ce VPS partagé (déjà identifié comme sujet à saturation, audit du
+30/08/2026), qui touchaient aussi bien mon nouveau flux que des requêtes de
+préchargement Next.js sans rapport (`/entree/[id]`, `/recherche`…).
+
+Le vrai problème n'était pas les 503 eux-mêmes (transitoires, un simple `curl`
+répété sur `/` passait 5/5) mais **`useListeMemorisee`** (`src/hooks/use-liste-memorisee.ts`,
+utilisé par 6 écrans) : aucune reprise sur échec. Une requête ratée laissait
+`donnees` à `null` pour toujours, et rien ne redéclenchait l'effet puisque la
+clé de cache n'avait pas changé — l'écran restait bloqué sans erreur ni retenter,
+indéfiniment. Mon champ « Aller à un mot » n'a fait que révéler un défaut déjà
+latent, en ajoutant un aller-retour serveur de plus au même instant que le
+rendu de la page.
+
+**Corrigé par une seule nouvelle tentative après 1,2 s**, dans le hook
+partagé (`chargerAvecReprise()`) plutôt que dans chacun des 6 écrans — pas de
+boucle infinie, juste assez pour absorber un blip. Pas de changement d'API :
+les écrans consommateurs n'ont rien à modifier.
+
+- **Vérifié** : `tsc --noEmit` propre, `pnpm build` a regénéré les 966/966
+  pages sans erreur (seul l'EPERM symlink Windows connu suit).
+- **Non vérifié à l'écran après ce correctif précis** : reste à redéployer et
+  confirmer que le champ « Aller à un mot » ne se bloque plus, y compris en
+  cas de 503 réel (impossible à provoquer à la demande — la reprise s'est
+  vérifiée par lecture de code, pas en reproduisant un 503 sous contrôle).
 
 ## Règles de travail
 

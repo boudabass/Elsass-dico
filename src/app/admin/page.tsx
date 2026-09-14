@@ -77,7 +77,7 @@ export default function AdminPage() {
         }
       />
 
-      <div className="container mx-auto max-w-5xl space-y-8 p-4 md:p-8">
+      <div className="space-y-8 p-4 pb-8 md:p-8">
         <div className="flex flex-wrap gap-2.5">
           <Link
             href="/admin/signalements"

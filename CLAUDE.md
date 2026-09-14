@@ -795,10 +795,34 @@ cache de façon **synchrone pendant le rendu** dès que sa clé change (son
 jamais dépendre du redéclenchement de l'effet. L'effet se déclenche quand
 même ensuite, mais trouve un cache frais et ne fait rien (`fraicheurMs`).
 
-- `tsc --noEmit` propre, `pnpm build` a regénéré les 966/966 pages.
-- **Reste à vérifier à l'écran, sur plusieurs passages consécutifs** (le
-  critère qui a fait tomber les deux correctifs précédents) après ce
-  déploiement.
+- `tsc --noEmit` propre, `pnpm build` a régénéré les 966/966 pages.
+
+### Vérifié à l'écran — et un piège de méthode de test démêlé du vrai bug
+
+Premiers passages après ce déploiement : échecs encore, sur « cytise »,
+identiques aux précédents. Traçage fin (valeur du champ + URL relevées à
+plusieurs délais après le clic, `window.HTMLInputElement` natif plutôt que
+l'accessibilité) : **le champ était déjà vide AVANT même le clic** — le mot
+tapé par l'outil de frappe automatisée n'avait jamais atterri dans le bon
+champ. Cause probable : l'interaction partait alors que la page était encore
+sur son squelette de chargement (le champ n'existe pas dans cette branche du
+rendu), donc soit la frappe visait un nœud sur le point d'être démonté, soit
+l'outil de frappe lui-même a couru contre le montage du composant. **Une
+partie des échecs de cette session n'était donc pas un bug applicatif, mais
+un test lancé trop tôt** — leçon distincte du vrai bug de course déjà corrigé
+par le pré-remplissage du cache.
+
+**Vérifié ensuite, trois fois de suite, sans un seul échec** (en attendant
+que le contenu réel soit affiché — pas le squelette — avant d'interagir) :
+« cytise » (C) → page 31/31 ; « bricoler » (B) → page 13/15 ; « dorloter » (D,
+mot choisi au hasard) → page 14/15, les trois fois avec le mot bien présent
+sur la page annoncée. Les deux premiers via manipulation DOM directe (pour
+éliminer toute ambiguïté sur la frappe), le troisième en conditions réelles
+(clic + clavier, comme John l'utilisera) — les trois avec succès.
+
+**Statut** : implémentation et correctifs tenus pour solides. Les trois points
+du plan du 14/09/2026 (tri désaccentué, accès direct à un mot, résilience du
+chargement) sont faits et vérifiés à l'écran.
 
 ## Règles de travail
 

@@ -16,6 +16,10 @@ import { prisma } from "@/lib/prisma"
 const TAILLE_PAGE = 100
 const FORMES_EN_APERCU = 3
 
+function nbPagesPour(total: number): number {
+    return Math.max(1, Math.ceil(total / TAILLE_PAGE))
+}
+
 export async function lettresDisponiblesAction(): Promise<string[]> {
     // La lettre est désaccentuée : `Écureuil` se range sous E, pas dans une
     // vingt-septième case. Le tri, lui, est celui du français.
@@ -68,16 +72,24 @@ export async function lemmesParLettreAction(lettre: string, page = 1): Promise<P
     const total = Number(comptes[0]?.n ?? 0)
     if (total === 0) return vide
 
-    const nbPages = Math.max(1, Math.ceil(total / TAILLE_PAGE))
+    const nbPages = nbPagesPour(total)
     const pageValidee = Math.min(Math.max(1, Math.floor(page) || 1), nbPages)
     const offset = (pageValidee - 1) * TAILLE_PAGE
 
+    // Tri sur `immutable_unaccent(l.cle)` et non `l.cle` (retour de John,
+    // 14/09/2026) : la collation Postgres range les caractères accentués
+    // après l'ASCII simple, donc `ça`/`çà` tombaient en toute fin de C au lieu
+    // du début. `l.cle ASC` reste un second critère : simple départage
+    // stable entre mots devenus identiques une fois désaccentués
+    // (`cote`/`côte`/`côté`), jamais une fusion de lignes — donc pas une
+    // violation de la doctrine du 24/08/2026 sur `unaccent` dans une clé
+    // d'identité.
     const lignes = await prisma.$queryRaw<LigneLettre[]>`
         SELECT l.id, l.francais, l.contexte, l.type::text AS type, c.departement
         FROM lemmes l
         LEFT JOIN communes c ON c.id = l.commune_id
         WHERE upper(left(immutable_unaccent(l.cle), 1)) = ${initiale}
-        ORDER BY l.cle ASC
+        ORDER BY immutable_unaccent(l.cle) ASC, l.cle ASC
         LIMIT ${TAILLE_PAGE} OFFSET ${offset}
     `
 
@@ -100,4 +112,35 @@ export async function lemmesParLettreAction(lettre: string, page = 1): Promise<P
         page: pageValidee,
         nbPages,
     }
+}
+
+/** Retourne la page contenant `prefixe` sur la lettre donnée, avec EXACTEMENT
+ *  le même tri que `lemmesParLettreAction` (`immutable_unaccent`) — sinon la
+ *  page où l'on saute ne serait pas celle qui affiche vraiment le mot. Ne
+ *  suppose jamais que `prefixe` existe tel quel : un préfixe partiel ou
+ *  approximatif saute simplement à la page où il tomberait alphabétiquement.
+ *  Champ « Aller à un mot » du 14/09/2026 (retour de John : 12 clics pour
+ *  atteindre « bricoler », 30 pour « cytise »). */
+export async function pageDuPrefixeAction(lettre: string, prefixe: string): Promise<number> {
+    const initiale = lettre.trim().toUpperCase()
+    if (!/^[A-Z]$/.test(initiale)) return 1
+
+    const prefixeTrim = prefixe.trim()
+    if (!prefixeTrim) return 1
+
+    const comptes = await prisma.$queryRaw<{ n: bigint }[]>`
+        SELECT count(*) AS n FROM lemmes
+        WHERE upper(left(immutable_unaccent(cle), 1)) = ${initiale}
+    `
+    const total = Number(comptes[0]?.n ?? 0)
+    if (total === 0) return 1
+
+    const rangs = await prisma.$queryRaw<{ rang: bigint }[]>`
+        SELECT count(*) AS rang FROM lemmes
+        WHERE upper(left(immutable_unaccent(cle), 1)) = ${initiale}
+          AND immutable_unaccent(cle) < immutable_unaccent(${prefixeTrim})
+    `
+    const rang = Number(rangs[0]?.rang ?? 0)
+
+    return Math.min(Math.max(1, Math.floor(rang / TAILLE_PAGE) + 1), nbPagesPour(total))
 }

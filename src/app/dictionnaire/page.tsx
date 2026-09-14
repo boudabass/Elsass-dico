@@ -3,11 +3,16 @@
 import { Suspense, useEffect, useMemo, useState } from "react";
 import Link from "next/link";
 import { useRouter, useSearchParams } from "next/navigation";
-import { BookOpen, ChevronLeft, ChevronRight } from "lucide-react";
+import { BookOpen, ChevronLeft, ChevronRight, Search } from "lucide-react";
 import { AppHeader } from "@/components/app-header";
 import { BadgeConfiance } from "@/components/badge-confiance";
 import { ListSkeleton } from "@/components/ui/list-skeleton";
-import { lettresDisponiblesAction, lemmesParLettreAction, type PageLettre } from "@/app/actions/navigation";
+import {
+  lettresDisponiblesAction,
+  lemmesParLettreAction,
+  pageDuPrefixeAction,
+  type PageLettre,
+} from "@/app/actions/navigation";
 import { precisionLemme } from "@/lib/dictionnaire";
 import { useListeMemorisee } from "@/hooks/use-liste-memorisee";
 import { useScrollMemorise } from "@/hooks/use-scroll-memorise";
@@ -78,6 +83,25 @@ function DictionnaireContenu() {
     window.scrollTo({ top: 0, behavior: "instant" });
   }
 
+  // Champ « Aller à un mot » (retour de John, 14/09/2026) : 12 clics pour
+  // atteindre « bricoler », 30 pour « cytise ». `pageDuPrefixeAction` calcule
+  // la page avec le même tri que la liste, puis `allerPage` fait le reste —
+  // même mise à jour d'URL, même remontée en haut.
+  const [prefixe, setPrefixe] = useState("");
+  const [rechercheEnCours, setRechercheEnCours] = useState(false);
+
+  async function allerAuPrefixe() {
+    if (!lettre || !prefixe.trim() || rechercheEnCours) return;
+    setRechercheEnCours(true);
+    try {
+      const n = await pageDuPrefixeAction(lettre, prefixe);
+      allerPage(n);
+      setPrefixe("");
+    } finally {
+      setRechercheEnCours(false);
+    }
+  }
+
   const cleLettre = lettre ? cleCache("dictionnaire", "lettre", lettre, String(pageNo)) : null;
   const { donnees: page, premierChargement } = useListeMemorisee<PageLettre>({
     cle: cleLettre,
@@ -145,7 +169,15 @@ function DictionnaireContenu() {
             </div>
 
             {page && page.nbPages > 1 && (
-              <ControlesPagination page={page.page} nbPages={page.nbPages} onPage={allerPage} />
+              <>
+                <ChampAllerAuMot
+                  valeur={prefixe}
+                  onChange={setPrefixe}
+                  onValider={allerAuPrefixe}
+                  disabled={rechercheEnCours}
+                />
+                <ControlesPagination page={page.page} nbPages={page.nbPages} onPage={allerPage} />
+              </>
             )}
 
             <div className="flex flex-col">
@@ -233,5 +265,45 @@ function ControlesPagination({
         <ChevronRight className="h-4 w-4" strokeWidth={2.4} />
       </button>
     </div>
+  );
+}
+
+function ChampAllerAuMot({
+  valeur,
+  onChange,
+  onValider,
+  disabled,
+}: {
+  valeur: string;
+  onChange: (v: string) => void;
+  onValider: () => void;
+  disabled: boolean;
+}) {
+  return (
+    <form
+      onSubmit={(evt) => {
+        evt.preventDefault();
+        onValider();
+      }}
+      className="flex items-center gap-2 pt-1 pb-2.5"
+    >
+      <div className="relative flex-1">
+        <Search className="pointer-events-none absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-neutre-300" strokeWidth={2.4} />
+        <input
+          type="text"
+          value={valeur}
+          onChange={(evt) => onChange(evt.target.value)}
+          placeholder="Aller à un mot…"
+          className="h-9 w-full rounded-full border border-bordure-forte bg-background pl-9 pr-3 text-sm text-foreground placeholder:text-neutre-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
+        />
+      </div>
+      <button
+        type="submit"
+        disabled={disabled || !valeur.trim()}
+        className="flex h-9 shrink-0 items-center rounded-full bg-marque-rouge-500 px-3.5 text-sm font-semibold text-white transition-colors disabled:pointer-events-none disabled:opacity-40"
+      >
+        Aller
+      </button>
+    </form>
   );
 }

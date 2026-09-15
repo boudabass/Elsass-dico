@@ -978,6 +978,48 @@ points agrégés par témoignage — la vraie cible finale de l'étape 4, décis
 délibérée de John de la traiter comme un chantier séparé plutôt que de
 l'attaquer dans la même reprise que les deux correctifs ci-dessus.
 
+## Contribution : nouvelle variante sur un mot (15/09/2026)
+
+Reprise de l'étape 5 (doc 20). Deux points restaient : « ça se dit autrement
+chez moi » (nouvelle forme sur un mot) et éditer sa propre variante. **Le
+premier est fait et vérifié à l'écran** ; le second reste ouvert.
+
+- `creerVarianteAction(lemmeId, forme)` (`src/app/actions/variantes.ts`) crée
+  la `Variante` **et** son `Temoignage` (membre + village) dans la même
+  transaction — le doc dit « forme + village », pas deux gestes séparés, et
+  une variante sans aucun témoin naîtrait à 0 source et 0 village. Verbatim
+  (règle 1) : la forme est écrite telle que tapée, jamais recadrée vers
+  l'ORTHAL — c'est un témoignage de locuteur, pas une transcription de source,
+  donc `decomposerArticle()` ne s'applique pas ici (réservé à
+  `culture_alsace`).
+- **Même gate que le vote** (`votes.ts`) : village requis, relu en base à
+  chaque appel plutôt que pris du cookie de session (30 min, pas
+  resynchronisé au fil de l'eau).
+- **Dédoublonné avant écriture** par `cleDeForme()` sur `(lemmeId, cleForme)`,
+  plutôt que de laisser remonter l'erreur de contrainte d'unicité : si la
+  forme existe déjà et n'est pas masquée, le message renvoie vers le bouton
+  `+` plutôt que de créer un doublon. Si elle existe et **est** masquée, le
+  message reste générique (« déjà connue de la base ») — ne jamais révéler
+  qu'une forme a été modérée.
+- `NouvelleVariante` (`src/app/entree/[id]/nouvelle-variante.tsx`) : même
+  patron que `VoteVariante`, pas d'état optimiste, `router.refresh()` après
+  succès pour que badge et liste reviennent à jour ensemble.
+- **Vérifié en base avant déploiement** (script jetable, lecture seule) : la
+  requête de dédoublonnage retrouve bien une clé existante et rend `null`
+  pour une clé inventée. `tsc --noEmit` propre, `pnpm build` a régénéré les
+  966/966 pages (seul l'EPERM symlink Windows connu suit).
+- **Vérifié à l'écran, en conditions réelles** (Chrome piloté, session de
+  John, `elsass-dico-dev.theelsassisch.com`, sur demande explicite avant
+  d'écrire en base) : ajout de « zzz-test-a-supprimer-claude » sur « bonjour »
+  → toast « Forme ajoutée », carte avec badge « 1 village », village
+  Mundolsheim, bouton de vote déjà vert ; un second envoi de la même forme →
+  toast de doublon exact, aucune carte en plus. La ligne de test a été
+  supprimée juste après par un script direct en base (`Variante.delete`,
+  cascade sur son `Temoignage`) — pas de fonction de retrait dans l'UI
+  puisque « éditer/retirer sa propre variante » est le point suivant, non
+  fait. Page rechargée : retour exact aux 4 formes d'avant, rien laissé en
+  base.
+
 ## Règles de travail
 
 - Ne jamais inventer de traduction alsacienne, même pour un exemple ou un test.

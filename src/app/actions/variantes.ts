@@ -83,3 +83,65 @@ export async function creerVarianteAction(lemmeId: string, formeBrute: string): 
         return { succes: false, erreur: "Enregistrement impossible" }
     }
 }
+
+// Doc 20, « Correction » : « l'auteur édite sa variante tant que personne
+// d'autre ne l'a revendiquée ». Le verrou n'est pas un statut dédié, il se lit
+// en comptant les témoignages (schema.prisma, en-tête du fichier, point 4) :
+// tant qu'il n'y en a qu'un — celui de l'auteur, posé à la création, retiré ou
+// non — personne d'autre n'a cliqué `+` dessus. Un second témoignage ferme
+// l'édition, pour ne jamais réécrire une forme qu'un autre village a
+// entre-temps revendiquée.
+
+type ResultatSimple =
+    | { succes: true }
+    | { succes: false; erreur: string }
+
+export async function modifierVarianteAction(varianteId: string, formeBrute: string): Promise<ResultatSimple> {
+    const session = await sessionActuelle()
+    if (!session) return { succes: false, erreur: "Connexion requise" }
+
+    const forme = formeBrute.trim()
+    if (!forme) return { succes: false, erreur: "Écris une forme avant d'envoyer" }
+    if (forme.length > FORME_MAX) return { succes: false, erreur: "Trop long pour une forme" }
+
+    const variante = await prisma.variante.findUnique({
+        where: { id: varianteId },
+        select: {
+            lemmeId: true,
+            creeParId: true,
+            masquee: true,
+            _count: { select: { temoignages: true } },
+        },
+    })
+    if (!variante || variante.masquee) return { succes: false, erreur: "Forme introuvable" }
+    if (variante.creeParId !== session.membreId) {
+        return { succes: false, erreur: "Tu ne peux modifier que tes propres contributions" }
+    }
+    if (variante._count.temoignages > 1) {
+        return { succes: false, erreur: "Quelqu'un d'autre a déjà revendiqué cette forme, elle ne se modifie plus" }
+    }
+
+    const cleFormeCalculee = cleDeForme(forme)
+    if (!cleFormeCalculee) return { succes: false, erreur: "Écris une forme avant d'envoyer" }
+
+    const existante = await prisma.variante.findUnique({
+        where: { lemmeId_cleForme: { lemmeId: variante.lemmeId, cleForme: cleFormeCalculee } },
+        select: { id: true },
+    })
+    if (existante && existante.id !== varianteId) {
+        return { succes: false, erreur: "Cette forme existe déjà sur ce mot" }
+    }
+
+    try {
+        await prisma.variante.update({
+            where: { id: varianteId },
+            data: { forme, cleForme: cleFormeCalculee },
+        })
+    } catch (erreur) {
+        console.error("[Variantes] Non modifiée:", erreur)
+        return { succes: false, erreur: "Enregistrement impossible" }
+    }
+
+    revalidatePath(`/entree/${variante.lemmeId}`)
+    return { succes: true }
+}

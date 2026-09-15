@@ -106,8 +106,23 @@ export async function chargerLemme(id: string): Promise<LemmeDetaille | null> {
     })
     const mesVariantes = new Set(mesTemoignages.map((t) => t.varianteId))
 
+    // Éditables : les variantes que ce membre a lui-même créées et que
+    // personne d'autre n'a encore revendiquées (doc 20, « Correction ») — un
+    // seul témoignage dessus, forcément le sien. Requête séparée plutôt qu'un
+    // champ sur chargerLemmeDetaille() : ce chemin est partagé avec les fiches
+    // publiques /village et /prenom, qui n'ont pas de session.
+    const mesCreations = await prisma.variante.findMany({
+        where: { lemmeId: lemme.id, creeParId: session.membreId },
+        select: { id: true, _count: { select: { temoignages: true } } },
+    })
+    const modifiables = new Set(mesCreations.filter((v) => v._count.temoignages <= 1).map((v) => v.id))
+
     return {
         ...lemme,
-        variantes: lemme.variantes.map((v) => ({ ...v, monVote: mesVariantes.has(v.id) })),
+        variantes: lemme.variantes.map((v) => ({
+            ...v,
+            monVote: mesVariantes.has(v.id),
+            modifiable: modifiables.has(v.id),
+        })),
     }
 }

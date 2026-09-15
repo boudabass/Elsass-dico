@@ -1020,6 +1020,40 @@ premier est fait et vérifié à l'écran** ; le second reste ouvert.
   fait. Page rechargée : retour exact aux 4 formes d'avant, rien laissé en
   base.
 
+## Étape 5 close : éditer sa propre variante (15/09/2026)
+
+Dernier point de la contribution (doc 20, « Correction ») : « l'auteur édite
+sa variante tant que personne d'autre ne l'a revendiquée ».
+
+- `modifierVarianteAction()` (`src/app/actions/variantes.ts`) ferme l'édition
+  dès qu'un **second témoignage** existe sur la variante — compté, pas un
+  statut dédié (schema.prisma, point 4 de l'en-tête). L'auteur retire son
+  propre `+` sans perdre le droit d'éditer : le compte retombe à 0 ou 1, les
+  deux cas restent modifiables ; c'est un **deuxième** témoignage, de
+  n'importe qui, qui verrouille.
+- `chargerLemme()` calcule `modifiable` par une requête séparée
+  (`Variante.findMany({ creeParId: membreId })` + `_count.temoignages`),
+  jamais ajoutée à `chargerLemmeDetaille()` : ce chemin est partagé avec les
+  fiches publiques `/village`/`/prenom`, sans session.
+- **Vérifié par un test jetable en base** (Lemme/Variante/2 Temoignages
+  disposables, supprimés après) : 1 témoignage → modifiable ; 2 → verrouillé.
+  Le CHECK SQL n'oblige pas le 2e témoignage à venir d'un membre — un
+  témoignage de source suffit pour la logique de comptage, donc le test n'a
+  pas eu besoin d'un second compte réel (il n'y en a qu'un en base).
+- **Vérifié à l'écran, en conditions réelles** (Chrome piloté, session de
+  John) : création d'une variante de test → bouton « Modifier » présent →
+  clic, changement de forme, Enregistrer → toast « Forme modifiée », carte mise
+  à jour, bouton « Modifier » toujours là. Les formes issues de sources
+  (`buschur`, etc.) n'affichent, elles, aucun bouton « Modifier » — confirme
+  que le verrou tient aussi côté négatif. Ligne de test supprimée par script
+  juste après, page rechargée : retour exact aux 4 formes d'origine.
+- `tsc --noEmit` propre, `pnpm build` a régénéré les 966/966 pages (seul
+  l'EPERM symlink Windows connu suit).
+
+**Étape 5 (contribution) du doc 20 est close** : vote + retrait, choix du
+village, nouvelle variante, édition — les quatre points sont faits et
+vérifiés à l'écran.
+
 ## Règles de travail
 
 - Ne jamais inventer de traduction alsacienne, même pour un exemple ou un test.

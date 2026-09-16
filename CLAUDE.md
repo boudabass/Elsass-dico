@@ -1054,6 +1054,63 @@ sa variante tant que personne d'autre ne l'a revendiquée ».
 village, nouvelle variante, édition — les quatre points sont faits et
 vérifiés à l'écran.
 
+## Étape 4 close : recherche d'un mot quelconque sur la carte (16/09/2026)
+
+Dernier chantier ouvert du doc 20 (l'étape 4 s'était arrêtée le 14/09 aux deux
+correctifs du prototype toponymes). Manquait la vraie cible : chercher
+**n'importe quel lemme** — pas seulement un village — et voir ses variantes
+aux communes qui les revendiquent, une couleur par variante.
+
+- `pointsMotAction(lemmeId)` (`src/app/actions/carte.ts`) est **distincte** de
+  `pointsCarteAction()`, et volontairement : celle-ci montre les 819 toponymes
+  par leur PROPRE commune (`Lemme.communeId`) ; celle-là montre un lemme
+  quelconque par les communes de ses TÉMOINS (`Temoignage.communeId`, un vote
+  de locuteur) — deux canaux de données qui ne se recoupent pas. Un point par
+  (variante, village), jamais un tableau de formes par point comme sur la
+  carte par défaut : c'est ce qui permet à `couleurDeForme` déjà en place de
+  colorer par variante sans rien changer à `CarteParlers` ni à
+  `couleur-carte.ts`.
+- **Les formes sans aucun témoin de village ne vont jamais sur la carte**
+  (doc 20) : `formesSansLieu` les liste au-dessus, « Personne n'a encore dit
+  d'où vient : … ». Si aucune variante n'a de témoin, la carte reste vide avec
+  un message dédié plutôt qu'un cadre vide muet.
+- `/carte` porte désormais deux champs distincts : « Chercher un mot du
+  dictionnaire » (recherche plein texte via `rechercherAction`, bascule la
+  carte sur le mot choisi) et « Filtrer les villages affichés » (le filtre
+  local déjà en place, qui ne réduit que les 819 toponymes — masqué tant
+  qu'un mot est actif, pour ne pas laisser deux mécanismes de filtre se
+  chevaucher sur le même écran).
+- **Mesuré en base avant d'écrire** : un seul témoignage locuteur réel porte
+  un village à ce jour — « Mundelse » pour Mundolsheim, un vrai vote de John
+  sur sa propre commune (pas un reste de test, vérifié par la valeur du
+  lemme). Juste assez pour vérifier le chemin de bout en bout sans en
+  fabriquer.
+- `tsc --noEmit` propre, `pnpm build` a régénéré les 966/966 pages (seul
+  l'EPERM symlink Windows connu suit).
+- **Vérifié à l'écran** (Chrome piloté, `elsass-dico-dev.theelsassisch.com/carte`,
+  déploiement confirmé par `updated_at` Coolify avancé avant tout contrôle) :
+  recherche « Mundolsheim » → suggestion unique, sélection → « Carte de «
+  Mundolsheim » », 1 point violet sur la commune, popup « Mundelse ·
+  Mundolsheim », et « Mùndelse » (une graphie distincte, sans témoin) listée
+  au-dessus comme forme sans lieu ; recherche « bonjour » → 0 point, les
+  quatre formes connues (`buschur`, `güata Tàg`, `göte Tàij`, `grias di
+  wohl`) toutes listées sans lieu, message « Aucun village n'a encore
+  revendiqué une forme de « bonjour » » ; retour à la carte des villages →
+  819 points, filtre local réapparu, état identique à avant la recherche.
+- **Incident d'outillage sans rapport avec le code** : les clics simulés par
+  l'automatisation Chrome sur le bouton de suggestion n'aboutissaient pas
+  (aucun changement d'état après plusieurs tentatives, coordonnées et
+  référence d'élément), alors que le même bouton cliqué par `element.click()`
+  en JavaScript direct fonctionnait au premier essai — cohérent avec la leçon
+  du 14/09 (« un test lancé trop tôt » côté outillage, pas un bug
+  applicatif). Un clic réel au clavier/souris n'est pas concerné.
+
+**Le doc 20 est maintenant entièrement fait** : les cinq étapes (dérivation,
+session autonome, fiches publiques, admin, carte, contribution) sont toutes
+vérifiées à l'écran. Restent hors périmètre du doc, notés comme tels depuis
+le 12-13/09 : l'auto-inscription du portail Odoo, l'aire linguistique du 57,
+et le gameplay.
+
 ## Règles de travail
 
 - Ne jamais inventer de traduction alsacienne, même pour un exemple ou un test.

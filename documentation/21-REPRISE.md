@@ -20,7 +20,13 @@
 | **Fiches publiques village/prénom** | ✅ **fait et déployé le 13/09** — étape 3 partielle, vérifié sur `elsass-dico-dev.theelsassisch.com` |
 | **Premier admin amorcé** | ✅ **fait le 13/09** — `theelsassisch@gmail.com` |
 | **`/` en présentation publique** | ✅ **fait le 13/09** — recherche déplacée sur `/recherche`, vérifié à l'écran |
-| Le reste (admin signalements/sources, carte, contribution) | ⬜ suite de l'étape 3, étapes 4-5 |
+| Admin signalements/sources | ✅ **fait le 13/09**, vérifié à l'écran le 14/09 |
+| Contribution (vote, village, nouvelle variante, édition) | ✅ **fait le 13 et 15/09**, vérifié à l'écran |
+| Carte : toponymes + recherche d'un mot quelconque | ✅ **fait le 14 et 16/09**, vérifié à l'écran |
+
+**Les cinq étapes du doc 20 sont closes le 16/09/2026** — détail commit par
+commit dans `CLAUDE.md`. Ce document reste la trace de la reprise, mais pour
+« où on en est aujourd'hui », `CLAUDE.md` fait foi.
 
 **La base Postgres de Coolify contient le dictionnaire dérivé.** Supabase est
 intact et reste la base de l'app actuelle, mais plus rien ne le lit : la chaîne
@@ -351,72 +357,32 @@ theelsassisch@gmail.com` lancé dans la foulée (port 5444 rouvert le temps de l
 commande) : `membre -> admin`, confirmé par le script. Effectif immédiatement à
 la reconnexion, sinon sous 30 minutes.
 
-## Ce qui reste
+## Ce qui reste (mis à jour le 17/09/2026 — les points 3 à 6 d'origine sont faits)
 
-1. **Refermer le port 5444** une fois cette session de vérifications finie —
-   rouvert à plusieurs reprises le 13/09/2026 (build, puis promotion admin),
-   Coolify le referme seul au bout d'une heure sinon.
+Cette section listait, entre le 12 et le 14/09, tout ce qu'il restait à
+construire pour les étapes 3 à 5 du doc 20 (admin, carte, contribution). Les
+cinq étapes sont désormais closes et vérifiées à l'écran — détail commit par
+commit dans `CLAUDE.md`. Ce qui reste vraiment ouvert, hors périmètre du
+doc 20 :
+
+1. **Refermer le port 5444 sur la base Postgres de production**
+   (`l11x6p591gah952rrbbgl24o`) — **toujours ouvert au 17/09/2026** (`is_public:
+   true` côté Coolify, vérifié en lecture seule) malgré `public_port_timeout`
+   à 1h : il a été rouvert à plusieurs reprises pour des contrôles ponctuels
+   et rien ne l'a refermé depuis. Aucun outil de ce poste ne peut le faire
+   (MCP Coolify en lecture seule) — geste à faire par John dans l'UI Coolify.
 2. Retirer les deux Build Variables `NEXT_PUBLIC_SUPABASE_*` sur Coolify, qui
    n'ont plus d'effet depuis le 12/09 : les laisser ferait croire qu'elles en
    ont.
-3. **Juger à l'écran, en vrai navigateur** — fait pour `/village`, `/prenom` et
-   `/sources` le 13/09/2026 (Chrome piloté sur `elsass-dico-dev`) : un vrai bug
-   trouvé au passage, `md:pl-20 lg:pl-56` réservait la place d'un rail de nav
-   qu'aucune des trois pages ne monte — colonne plaquée à droite, corrigé.
-   **Fait aussi le 13/09/2026, plus tard dans la journée** : `/admin`,
-   `/admin/signalements`, `/admin/sources`, et le chemin complet du vote de
-   village (gate sans village, sélecteur trié par population, vote, retrait)
-   — tous confirmés avec la session admin de John, une fois reconnecté.
-   Restent à juger : le prototype de carte et les écrans refaits à l'étape 2
-   (recherche, dictionnaire, fiche de mot).
-4. **La suite de l'étape 3 : écran admin des signalements et des sources —
-   fait et déployé le 13/09/2026** (commit `c08a11d`). Les trois écrans admin
-   du doc 20 sont désormais tous là. Deux volets :
-   - `creerSignalementAction` (`src/app/actions/signalements.ts`) attache le
-     membre de la session à une **variante précise** ; l'écran
-     `/entree/[id]/signaler` a été revu pour laisser choisir laquelle plutôt
-     que de signaler tout le lemme (il ne faisait de toute façon rien avant —
-     il renvoyait vers le forum, un choix daté de l'étape 2 quand un
-     signalement anonyme n'était pas faisable côté backend ; le compte
-     obligatoire lève ce blocage).
-   - `/admin/signalements` liste les signalements non traités (file qui se
-     vide au traitement, comme « Recoupées (0) » de l'ancien arbitrage — vide
-     = succès, pas panne). `/admin/sources` est en **lecture seule** :
-     `Source` fait partie de l'archive figée, l'écran donne à voir licence et
-     fiabilité déclarées, il ne les édite pas.
-   - Déploiement confirmé (`updated_at` Coolify passé de 14:28:28 à
-     14:32:58Z), mais **non vérifié à l'écran** : la session admin de John
-     avait expiré entre-temps (redirection vers `/login` en Chrome piloté).
-     À confirmer par John à la reconnexion.
-   Restent hors périmètre de cet écran : l'édition de sa propre variante et le
-   retrait de son propre `+` (doc 20, ligne « Correction »), qui relèvent de
-   l'étape 5 (contribution), pas de l'admin.
-5. Les étapes 4-5 du doc 20 (carte interactive, contribution). **Première
-   tranche de l'étape 5 faite et vérifiée à l'écran le 13/09/2026** : le
-   bouton `+` (un vote = un village), son retrait, et le choix du village
-   dans « Mon espace » — détail dans le doc 20, section 5. Restent : créer une
-   nouvelle variante sur un mot (« ça se dit autrement chez moi »), éditer sa
-   propre variante tant qu'elle est seule, et la carte interactive elle-même
-   (étape 4, prototype à `/carte`, toujours à juger à l'écran).
-6. **Reporter les quatre correctifs de build sur `elsass-dico:main`** quand
-   `dev` passera en PR — même `Dockerfile`, même besoin de Build Variable
-   `DATABASE_URL`.
-
-## Reprendre
-
-Tout est sur `dev`, déployé sur `elsass-dico-dev.theelsassisch.com`. `.env.local`
-porte `DATABASE_URL`, `SESSION_SECRET` et les variables Odoo — **les variables
-Supabase n'y servent plus à rien** et peuvent partir.
-
-Les neuf premiers pas de ce document — mesure du marqueur, schéma Prisma,
-script de dérivation, auth autonome, fiches publiques village/prénom,
-déploiement `dev`, `/` en présentation publique, écrans admin
-signalements/sources, et une première tranche de la contribution (le `+`,
-son retrait, le choix du village) — **sont faits**. Le suivant est la carte
-interactive (étape 4), le reste de la contribution (nouvelle variante,
-édition de sa propre variante), ou juger à l'écran tout ce qui reste en
-attente (point 3 ci-dessus, désormais alourdi du vote et du sélecteur de
-village).
+3. **Reporter `dev` sur `elsass-dico:main`** — fusionné une première fois le
+   14/09 (PR #45), mais `dev` a avancé depuis (contribution du 15/09, carte
+   du 16/09) : `main` sert aujourd'hui une version de la refonte en retard de
+   deux jours de chantier. Pas de nouveau problème de build attendu (même
+   `Dockerfile`, même Build Variable `DATABASE_URL`), mais à confirmer comme
+   à chaque fusion.
+4. Hors périmètre du doc 20, notés comme tels depuis le 12-13/09 et jamais
+   repris depuis : auto-inscription du portail Odoo, aire linguistique du 57,
+   gameplay.
 
 ## Ce que la session distante a appris, pour ne pas le refaire
 

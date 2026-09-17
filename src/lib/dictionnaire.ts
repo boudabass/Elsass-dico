@@ -48,6 +48,10 @@ export interface VarianteDetaillee extends FormeAffichee {
      *  Absent sur les fiches publiques (/village, /prenom), qui n'ont pas de
      *  session — seul `chargerLemme()` (/entree/[id]) le renseigne. */
     monVote?: boolean
+    /** Le membre de la session peut-il éditer cette forme ? Vrai seulement
+     *  s'il en est l'auteur ET qu'aucun autre membre ne l'a encore revendiquée
+     *  (doc 20, « Correction »). Même statut d'absence que `monVote`. */
+    modifiable?: boolean
 }
 
 /** Une forme telle qu'elle apparaît dans une LISTE : la graphie, et de quoi

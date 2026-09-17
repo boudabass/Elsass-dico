@@ -5,6 +5,8 @@ import { CarteVariante } from "@/components/carte-variante";
 import { chargerLemme } from "@/app/actions/recherche";
 import { LIBELLES_TYPE_TERME } from "@/lib/dictionnaire";
 import { RangeeActions } from "./actions-row";
+import { EditerVariante } from "./editer-variante";
+import { NouvelleVariante } from "./nouvelle-variante";
 import { VoteVariante } from "./vote-variante";
 
 // Écran 2 du handoff mobile : header racine avec chevron retour (l'onglet
@@ -61,10 +63,17 @@ export default async function EntreePage({ params }: { params: Promise<{ id: str
             <CarteVariante
               key={v.id}
               variante={v}
-              accessoire={<VoteVariante varianteId={v.id} monVote={v.monVote ?? false} />}
+              accessoire={
+                <div className="flex flex-wrap items-center gap-3">
+                  <VoteVariante varianteId={v.id} monVote={v.monVote ?? false} />
+                  {v.modifiable && <EditerVariante varianteId={v.id} formeActuelle={v.forme} />}
+                </div>
+              }
             />
           ))}
         </div>
+
+        <NouvelleVariante lemmeId={lemme.id} />
 
         <RangeeActions entreeId={lemme.id} premiereForme={lemme.variantes[0]?.forme ?? ""} />
       </main>

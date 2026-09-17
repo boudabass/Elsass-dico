@@ -893,6 +893,394 @@ leur propre `max-w-3xl` voulu). `LayoutWrapper` n'a plus besoin de
   correctement centrée par rapport à l'espace réellement disponible après le
   rail, plutôt que par rapport au viewport entier.
 
+## `dev` fusionné dans `main`, production sur la refonte (14/09/2026)
+
+**PR #45** (`dev` → `main`), fast-forward propre, aucun commit divergent sur
+`main` — fusionnée par commit de merge (`ec4aafa`) plutôt que par squash, pour
+garder l'historique détaillé que ce fichier référence commit par commit depuis
+le 11/09. `elsass-dico.theelsassisch.com` bascule ainsi de l'ancien site
+(Supabase, table `entrees`) vers la refonte complète : carte des parlers,
+Prisma, sessions `jose`, pages publiques village/prénom.
+
+**Coolify `elsass-dico:main` ne s'est pas redéployé tout de suite** : juste
+après la fusion, `get_application` rendait encore `exited:unhealthy` et un
+`updated_at` du 13/09 — antérieur à cette session. Un nouveau contrôle un peu
+plus tard a montré `status: running:unknown` et `updated_at` avancé au moment
+du merge : le déploiement automatique a fini par partir, avec un décalage,
+exactement le genre d'écart entre « ça vient d'être poussé » et « c'est
+déployé » que John avait signalé plus tôt dans cette session à propos de
+`dev`. `running:unknown` plutôt que `running:healthy` s'explique simplement :
+`health_check_enabled` est à `false` sur cette application, Coolify ne sait
+donc pas trancher — pas un signe de panne.
+
+**Vérifié sur l'artefact réel, pas sur le seul statut Coolify** (`curl`,
+depuis ce poste) : `/` → 200, titre « Elsass Dico — Traducteur
+français-alsacien » (la nouvelle présentation publique du 13/09, pas
+l'ancienne recherche) ; `/recherche` → 307 vers `/login`, la barrière d'auth
+fonctionne ; `/village/colmar-68066` → 200, « Colmar — Kolmer » — la page a
+donc bien pu lire la base **au build** (`generateStaticParams`), ce qui
+suppose que `DATABASE_URL` était disponible comme Build Variable sur cette
+application au moment du build, comme sur `dev` depuis le 13/09. **Non
+confirmé avec John** : je n'ai aucun moyen de voir, via le MCP Coolify en
+lecture seule, si c'est lui qui l'a réglée entre-temps ou si elle l'était
+déjà — seul le résultat (le build a réussi) est observable d'ici.
+
+**Non vérifié à l'écran** : ce contrôle s'est fait entièrement en `curl`,
+sans navigateur — la session Chrome pilotée de John n'a pas été rouverte sur
+le domaine de production dans cette session.
+
+## Carte des parlers : les deux points restants du prototype traités (14/09/2026)
+
+Reprise de l'étape 4 (doc 20). Le prototype `/carte` listait deux écarts avant
+de pouvoir devenir l'écran final : les 819 villages envoyés d'un coup dans le
+HTML de la page (127 Ko), et `couleurDe` prévu par `CarteParlers` mais jamais
+branché. **Portée délibérément restreinte à ces deux points** — la carte reste
+un écran « comment chaque village dit son propre nom » (les toponymes,
+`Lemme.communeId`), pas encore « chercher un mot quelconque et voir où on le
+dit » (qui suppose une requête par variante + témoignage, hors périmètre de
+cette reprise, tranché explicitement avant d'écrire une ligne).
+
+- `pointsCarteAction()` (`src/app/actions/carte.ts`) sort la requête Prisma de
+  `page.tsx`, qui devient un composant serveur trivial. `CarteDemo` la charge
+  désormais via `useListeMemorisee` (même hook que la pagination A-Z et
+  `/dashboard`) — cache par clé publique (`cleCache("carte-parlers")`, sans
+  segment d'identité, la donnée étant la même pour tout le monde), reprise
+  automatique sur échec déjà écrite dans le hook, sans rien coder de neuf pour
+  ça.
+- `couleurDeForme()` (`src/lib/couleur-carte.ts`) : hash déterministe
+  (djb2) vers une palette de 12 teintes. Déterministe et non `Math.random()` —
+  la même forme doit rendre la même couleur à chaque rendu, y compris après
+  une réhydratation.
+- **Vérifié** : `tsc --noEmit` propre, `pnpm build` (aucun serveur dev en
+  cours) a régénéré les 966/966 pages, seul l'EPERM symlink Windows connu
+  suit.
+- **Déploiement confirmé avec le même protocole que la session précédente** :
+  poussé sur `dev`, attente de 240 s avant tout contrôle (leçon du retour de
+  John plus haut dans ce fichier — ne pas vérifier un déploiement encore en
+  vol), `updated_at` Coolify avancé (15:57:28 → 16:15:58) avant tout
+  screenshot.
+- **Vérifié à l'écran** (Chrome piloté, session de John,
+  `elsass-dico-dev.theelsassisch.com/carte`) : 819 villages affichés, 1 353
+  formes, points de couleurs distinctes (contre un champ rouge uniforme
+  avant) ; clic sur un point → popup « Nàswil · Naswil — Natzwiller » ; filtre
+  « kolmer » → 1 seul village affiché, le bon. Un 503 intermittent (VPS
+  partagé, audit du 30/08/2026) est apparu sur l'appel de
+  `pointsCarteAction()` pendant ce contrôle — absorbé sans rien à faire par la
+  reprise déjà écrite dans `useListeMemorisee` le 14/09, la carte s'est quand
+  même affichée au premier essai.
+- Même incident Chrome que le reste du 14/09 rencontré une fois de plus au
+  premier essai (`0.0.0.0:3000`), résolu de la même façon (fermer l'onglet, en
+  rouvrir un neuf).
+
+**Reste hors de cette reprise** : la recherche par mot quelconque (n'importe
+quel lemme, pas seulement les toponymes) avec une couleur par variante et des
+points agrégés par témoignage — la vraie cible finale de l'étape 4, décision
+délibérée de John de la traiter comme un chantier séparé plutôt que de
+l'attaquer dans la même reprise que les deux correctifs ci-dessus.
+
+## Contribution : nouvelle variante sur un mot (15/09/2026)
+
+Reprise de l'étape 5 (doc 20). Deux points restaient : « ça se dit autrement
+chez moi » (nouvelle forme sur un mot) et éditer sa propre variante. **Le
+premier est fait et vérifié à l'écran** ; le second reste ouvert.
+
+- `creerVarianteAction(lemmeId, forme)` (`src/app/actions/variantes.ts`) crée
+  la `Variante` **et** son `Temoignage` (membre + village) dans la même
+  transaction — le doc dit « forme + village », pas deux gestes séparés, et
+  une variante sans aucun témoin naîtrait à 0 source et 0 village. Verbatim
+  (règle 1) : la forme est écrite telle que tapée, jamais recadrée vers
+  l'ORTHAL — c'est un témoignage de locuteur, pas une transcription de source,
+  donc `decomposerArticle()` ne s'applique pas ici (réservé à
+  `culture_alsace`).
+- **Même gate que le vote** (`votes.ts`) : village requis, relu en base à
+  chaque appel plutôt que pris du cookie de session (30 min, pas
+  resynchronisé au fil de l'eau).
+- **Dédoublonné avant écriture** par `cleDeForme()` sur `(lemmeId, cleForme)`,
+  plutôt que de laisser remonter l'erreur de contrainte d'unicité : si la
+  forme existe déjà et n'est pas masquée, le message renvoie vers le bouton
+  `+` plutôt que de créer un doublon. Si elle existe et **est** masquée, le
+  message reste générique (« déjà connue de la base ») — ne jamais révéler
+  qu'une forme a été modérée.
+- `NouvelleVariante` (`src/app/entree/[id]/nouvelle-variante.tsx`) : même
+  patron que `VoteVariante`, pas d'état optimiste, `router.refresh()` après
+  succès pour que badge et liste reviennent à jour ensemble.
+- **Vérifié en base avant déploiement** (script jetable, lecture seule) : la
+  requête de dédoublonnage retrouve bien une clé existante et rend `null`
+  pour une clé inventée. `tsc --noEmit` propre, `pnpm build` a régénéré les
+  966/966 pages (seul l'EPERM symlink Windows connu suit).
+- **Vérifié à l'écran, en conditions réelles** (Chrome piloté, session de
+  John, `elsass-dico-dev.theelsassisch.com`, sur demande explicite avant
+  d'écrire en base) : ajout de « zzz-test-a-supprimer-claude » sur « bonjour »
+  → toast « Forme ajoutée », carte avec badge « 1 village », village
+  Mundolsheim, bouton de vote déjà vert ; un second envoi de la même forme →
+  toast de doublon exact, aucune carte en plus. La ligne de test a été
+  supprimée juste après par un script direct en base (`Variante.delete`,
+  cascade sur son `Temoignage`) — pas de fonction de retrait dans l'UI
+  puisque « éditer/retirer sa propre variante » est le point suivant, non
+  fait. Page rechargée : retour exact aux 4 formes d'avant, rien laissé en
+  base.
+
+## Étape 5 close : éditer sa propre variante (15/09/2026)
+
+Dernier point de la contribution (doc 20, « Correction ») : « l'auteur édite
+sa variante tant que personne d'autre ne l'a revendiquée ».
+
+- `modifierVarianteAction()` (`src/app/actions/variantes.ts`) ferme l'édition
+  dès qu'un **second témoignage** existe sur la variante — compté, pas un
+  statut dédié (schema.prisma, point 4 de l'en-tête). L'auteur retire son
+  propre `+` sans perdre le droit d'éditer : le compte retombe à 0 ou 1, les
+  deux cas restent modifiables ; c'est un **deuxième** témoignage, de
+  n'importe qui, qui verrouille.
+- `chargerLemme()` calcule `modifiable` par une requête séparée
+  (`Variante.findMany({ creeParId: membreId })` + `_count.temoignages`),
+  jamais ajoutée à `chargerLemmeDetaille()` : ce chemin est partagé avec les
+  fiches publiques `/village`/`/prenom`, sans session.
+- **Vérifié par un test jetable en base** (Lemme/Variante/2 Temoignages
+  disposables, supprimés après) : 1 témoignage → modifiable ; 2 → verrouillé.
+  Le CHECK SQL n'oblige pas le 2e témoignage à venir d'un membre — un
+  témoignage de source suffit pour la logique de comptage, donc le test n'a
+  pas eu besoin d'un second compte réel (il n'y en a qu'un en base).
+- **Vérifié à l'écran, en conditions réelles** (Chrome piloté, session de
+  John) : création d'une variante de test → bouton « Modifier » présent →
+  clic, changement de forme, Enregistrer → toast « Forme modifiée », carte mise
+  à jour, bouton « Modifier » toujours là. Les formes issues de sources
+  (`buschur`, etc.) n'affichent, elles, aucun bouton « Modifier » — confirme
+  que le verrou tient aussi côté négatif. Ligne de test supprimée par script
+  juste après, page rechargée : retour exact aux 4 formes d'origine.
+- `tsc --noEmit` propre, `pnpm build` a régénéré les 966/966 pages (seul
+  l'EPERM symlink Windows connu suit).
+
+**Étape 5 (contribution) du doc 20 est close** : vote + retrait, choix du
+village, nouvelle variante, édition — les quatre points sont faits et
+vérifiés à l'écran.
+
+## Étape 4 close : recherche d'un mot quelconque sur la carte (16/09/2026)
+
+Dernier chantier ouvert du doc 20 (l'étape 4 s'était arrêtée le 14/09 aux deux
+correctifs du prototype toponymes). Manquait la vraie cible : chercher
+**n'importe quel lemme** — pas seulement un village — et voir ses variantes
+aux communes qui les revendiquent, une couleur par variante.
+
+- `pointsMotAction(lemmeId)` (`src/app/actions/carte.ts`) est **distincte** de
+  `pointsCarteAction()`, et volontairement : celle-ci montre les 819 toponymes
+  par leur PROPRE commune (`Lemme.communeId`) ; celle-là montre un lemme
+  quelconque par les communes de ses TÉMOINS (`Temoignage.communeId`, un vote
+  de locuteur) — deux canaux de données qui ne se recoupent pas. Un point par
+  (variante, village), jamais un tableau de formes par point comme sur la
+  carte par défaut : c'est ce qui permet à `couleurDeForme` déjà en place de
+  colorer par variante sans rien changer à `CarteParlers` ni à
+  `couleur-carte.ts`.
+- **Les formes sans aucun témoin de village ne vont jamais sur la carte**
+  (doc 20) : `formesSansLieu` les liste au-dessus, « Personne n'a encore dit
+  d'où vient : … ». Si aucune variante n'a de témoin, la carte reste vide avec
+  un message dédié plutôt qu'un cadre vide muet.
+- `/carte` porte désormais deux champs distincts : « Chercher un mot du
+  dictionnaire » (recherche plein texte via `rechercherAction`, bascule la
+  carte sur le mot choisi) et « Filtrer les villages affichés » (le filtre
+  local déjà en place, qui ne réduit que les 819 toponymes — masqué tant
+  qu'un mot est actif, pour ne pas laisser deux mécanismes de filtre se
+  chevaucher sur le même écran).
+- **Mesuré en base avant d'écrire** : un seul témoignage locuteur réel porte
+  un village à ce jour — « Mundelse » pour Mundolsheim, un vrai vote de John
+  sur sa propre commune (pas un reste de test, vérifié par la valeur du
+  lemme). Juste assez pour vérifier le chemin de bout en bout sans en
+  fabriquer.
+- `tsc --noEmit` propre, `pnpm build` a régénéré les 966/966 pages (seul
+  l'EPERM symlink Windows connu suit).
+- **Vérifié à l'écran** (Chrome piloté, `elsass-dico-dev.theelsassisch.com/carte`,
+  déploiement confirmé par `updated_at` Coolify avancé avant tout contrôle) :
+  recherche « Mundolsheim » → suggestion unique, sélection → « Carte de «
+  Mundolsheim » », 1 point violet sur la commune, popup « Mundelse ·
+  Mundolsheim », et « Mùndelse » (une graphie distincte, sans témoin) listée
+  au-dessus comme forme sans lieu ; recherche « bonjour » → 0 point, les
+  quatre formes connues (`buschur`, `güata Tàg`, `göte Tàij`, `grias di
+  wohl`) toutes listées sans lieu, message « Aucun village n'a encore
+  revendiqué une forme de « bonjour » » ; retour à la carte des villages →
+  819 points, filtre local réapparu, état identique à avant la recherche.
+- **Incident d'outillage sans rapport avec le code** : les clics simulés par
+  l'automatisation Chrome sur le bouton de suggestion n'aboutissaient pas
+  (aucun changement d'état après plusieurs tentatives, coordonnées et
+  référence d'élément), alors que le même bouton cliqué par `element.click()`
+  en JavaScript direct fonctionnait au premier essai — cohérent avec la leçon
+  du 14/09 (« un test lancé trop tôt » côté outillage, pas un bug
+  applicatif). Un clic réel au clavier/souris n'est pas concerné.
+
+**Le doc 20 est maintenant entièrement fait** : les cinq étapes (dérivation,
+session autonome, fiches publiques, admin, carte, contribution) sont toutes
+vérifiées à l'écran. Restent hors périmètre du doc, notés comme tels depuis
+le 12-13/09 : l'auto-inscription du portail Odoo, l'aire linguistique du 57,
+et le gameplay.
+
+## Bug trouvé : la carte, annoncée comme écran central, était un cul-de-sac (17/09/2026)
+
+Retour direct de John : « la carte n'est jamais accessible alors que ça
+devait être un point central de l'app », et « le dropdown de la recherche de
+la carte passe derrière la carte et est donc inutilisable ». Les deux
+défauts existaient depuis la création de `/carte` (14/09) et n'avaient
+jamais été vus, parce que **chaque vérification à l'écran documentée dans ce
+fichier (14/09, 16/09) s'est faite en tapant l'URL `/carte` directement** —
+jamais par un clic dans la nav. La revue à l'écran prouvait que l'écran
+fonctionnait, pas qu'on pouvait l'atteindre : deux propriétés différentes.
+
+- **La carte n'était pas raccordée au shell applicatif.** `ONGLETS`
+  (`src/components/app-nav-shell.tsx`) ne listait que
+  recherche/dictionnaire/compte — `carte` n'existait ni dans `OngletRacine`
+  ni dans le tableau. Pire : `src/app/carte/page.tsx` ne montait ni
+  `<AppHeader>` ni `<AppNavShell>` du tout ; le commentaire du fichier disait
+  encore *« il n'est pas l'écran final »*, resté vrai littéralement alors que
+  l'étape 4 du doc 20 avait été déclarée close le 16/09. Corrigé : `carte`
+  rejoint `OngletRacine`/`ONGLETS` (icône `Map` de lucide-react), et
+  `CarteDemo` (`src/app/carte/carte-demo.tsx`) monte désormais
+  `<AppHeader variant="root" actif="carte" titre="Carte des parlers" />`
+  **à l'intérieur** du conteneur qui porte `md:pl-20 lg:pl-56` — pas avant
+  lui, sous peine de reproduire exactement le bug du 14/09 (header
+  recouvrant le rail sur desktop) que cette même session avait déjà corrigé
+  ailleurs.
+- **Le dropdown de suggestions passait sous la carte** parce que Leaflet pose
+  des panes de contrôle jusqu'à `z-index: 1000` (`.leaflet-top`/
+  `.leaflet-bottom`, les boutons +/-), et ni `<main>` ni le conteneur Leaflet
+  lui-même ne créent de contexte d'empilement propre — le `z-10` du dropdown
+  (`carte-demo.tsx`) se comparait donc directement à ces panes, dans le même
+  contexte racine, et perdait. Corrigé en `z-[1001]`, au-dessus du plafond
+  connu de Leaflet.
+- **Vérifié** : `tsc --noEmit` propre, `pnpm build` a régénéré les 966/966
+  pages (seul l'EPERM symlink Windows connu suit). Poussé sur `dev`
+  (`72c8015`), déploiement confirmé par `updated_at` Coolify avancé avant
+  tout contrôle.
+- **Vérifié à l'écran, en conditions réelles** (Chrome piloté, session de
+  John, `elsass-dico-dev.theelsassisch.com`) : « Carte » visible dans le
+  rail à côté de Recherche/Dictionnaire/Mon espace, clic → `/carte` s'ouvre
+  avec l'onglet actif en surbrillance, header et rail correctement placés
+  (aucun recouvrement) ; saisie « bonjour » dans le champ de recherche → le
+  dropdown de suggestions s'affiche **au-dessus** de la carte, lisible et
+  cliquable ; clic sur une suggestion → bascule vers « Carte de « bonjour » »
+  avec les quatre formes listées sans lieu, comme attendu.
+- **Leçon distincte du bug lui-même** : une vérification à l'écran ne
+  couvre que ce qu'elle exerce. Visiter une URL directement prouve que
+  l'écran marche, jamais qu'on peut l'atteindre depuis le reste de l'app —
+  il faut aussi cliquer depuis la nav, au moins une fois, pour un écran
+  destiné à être une destination permanente.
+
+### Un troisième bug de la même famille, trouvé aussitôt : la carte passait par-dessus le footer mobile
+
+Retour de John dans la foulée du correctif ci-dessus : « la carte passe par
+dessus le footer en mobile ». Même mécanisme que le dropdown, une couche
+plus profonde : Leaflet pose ses panes internes (`.leaflet-overlay-pane`,
+`.leaflet-marker-pane`, `.leaflet-top`/`.leaflet-bottom`…) avec des z-index
+allant de 400 à 1000, **sans jamais les confiner dans son propre
+conteneur** — ni `<main>`, ni la boîte `overflow-hidden` qui entoure la
+carte ne créent de contexte d'empilement. Ces z-index se comparaient donc
+directement au reste de la page dans le contexte racine : la barre
+d'onglets mobile fixe (`AppNavShell`, `z-30`) perdait face au contenu de la
+carte dès que leurs rectangles se chevauchaient à l'écran, quel que soit
+l'ordre du DOM.
+
+- **Corrigé à la racine plutôt qu'au symptôme** : `isolate` (CSS
+  `isolation: isolate`) sur le conteneur Leaflet lui-même
+  (`src/components/carte-parlers.tsx`), pas un z-index plus élevé sur
+  chaque élément concurrent un par un. Toute la pile interne de Leaflet
+  (jusqu'à 1000) reste désormais confinée dans son propre contexte
+  d'empilement, quel que soit ce qui l'entoure — le correctif du dropdown
+  (`z-[1001]`, plus haut) reste en place mais devient redondant : avec
+  `isolate`, la carte ne fuit plus nulle part.
+- **`tsc --noEmit` propre, `pnpm build` a régénéré les 966/966 pages** (seul
+  l'EPERM symlink Windows connu suit). Poussé sur `dev` (`eb003de`).
+- **Outillage** : `resize_window` (Chrome piloté) n'a eu aucun effet sur
+  cette session — la fenêtre est restée bloquée à 1884×876 quelle que soit
+  la taille demandée, contrairement aux sessions précédentes. Plutôt que de
+  deviner, vérifié le mécanisme directement : la vraie barre d'onglets
+  mobile existe déjà dans le DOM à toute largeur (juste masquée par
+  `md:hidden`), donc forcée visible par script, puis la page scrollée pour
+  que le rectangle de la carte chevauche géométriquement celui de la barre.
+  `document.elementFromPoint()` au centre de la zone de chevauchement a
+  rendu un lien de la barre de nav, pas un élément Leaflet — la barre gagne
+  désormais, dans l'exact scénario qui produisait le bug. Vérification au
+  mécanisme plutôt qu'à l'œil, faute d'un vrai viewport mobile disponible
+  dans cette session ; à confirmer visuellement par John sur un téléphone
+  réel ou un DevTools local.
+
+## La recherche de mot sur la carte devient un écran de contribution, sans scroll (17/09/2026)
+
+Troisième retour de John dans la même série. La recherche d'un mot sur
+`/carte` était globale depuis le 16/09 (n'importe quel lemme, pas seulement
+les toponymes), mais l'écran gardait trois réflexes hérités du prototype
+villages : un texte de retour qui ne servait qu'à naviguer, un paragraphe
+d'intro figé en haut, et une hauteur de carte fixe (`h-[70vh]`) qui
+scrollait la page entière sur petit écran.
+
+- **« ◀ Retour à la carte des villages » remplacé par un panneau de
+  contribution.** `pointsMotAction()` (`src/app/actions/carte.ts`) expose
+  désormais, pour chaque variante du mot actif, son `id`, son nombre de
+  villages et si le membre courant l'a déjà votée (`VarianteMot`) — avant,
+  seules des chaînes de formes sortaient, sans de quoi brancher un geste.
+  Le panneau réutilise **tels quels** `VoteVariante` et `NouvelleVariante`
+  (`src/app/entree/[id]/`), les mêmes composants que la fiche de mot,
+  plutôt que d'en écrire une version dédiée à la carte.
+- **`onSucces` optionnel ajouté aux deux composants**, par défaut
+  `router.refresh()` (comportement d'origine, inchangé sur /entree/[id]) :
+  la carte charge ses données par Server Action côté client
+  (`useListeMemorisee`), pas par le rendu serveur de la page, donc
+  `router.refresh()` n'y aurait rafraîchi qu'un composant serveur trivial —
+  `rafraichirMot` (le `rafraichir()` du hook) est passé à la place.
+  Aucun changement de comportement pour l'écran existant.
+- **Le texte d'intro fixe est retiré**, remplacé par un bouton carré « ? »
+  à droite de la barre de recherche, qui ouvre une modal (« Comment lire
+  cette carte ») avec le mode d'emploi — écrit en position/rôle générique,
+  jamais un chiffre figé (« 819 villages… ») qui se serait périmé au
+  premier import.
+- **Plus de scroll de page.** L'écran passe de `min-h-screen` (page qui
+  défile) à `h-dvh flex flex-col overflow-hidden` (hauteur de viewport
+  fixe) : la carte n'a plus de hauteur en `vh` mais `flex-1 min-h-0`, elle
+  prend ce qui reste après le header, la barre de recherche, le panneau de
+  contribution (s'il est ouvert) et le pied de page. Le panneau de
+  contribution garde son propre défilement interne (`max-h-[32vh]
+  overflow-y-auto`) : un mot à beaucoup de variantes doit faire défiler
+  CE panneau, jamais repousser la carte hors de l'écran ni la page
+  entière — `overflow-hidden` sur le conteneur racine est le filet de
+  sécurité si jamais un budget de hauteur était mal calculé quelque part.
+- **`tsc --noEmit` propre, `pnpm build` a régénéré les 966/966 pages**
+  (seul l'EPERM symlink Windows connu suit). Poussé sur `dev` (`1ab29f4`).
+- **Vérifié à l'écran, en conditions réelles** (Chrome piloté, session de
+  John) : texte d'intro disparu, bouton « ? » à sa place, modal lisible
+  par-dessus la carte ; recherche « bonjour » → panneau avec les quatre
+  formes et leur bouton « + Chez moi aussi », formulaire « Ça se dit
+  autrement chez moi ? » ; ajout d'une forme de test
+  (« zzz-test-carte-a-supprimer ») → toast, puce avec vote déjà vert,
+  point sur la carte, **rafraîchi sans recharger la page** (preuve que
+  `onSucces`/`rafraichirMot` fonctionne réellement, pas seulement en
+  théorie) ; forme supprimée juste après par script direct en base
+  (`Variante.delete`, cascade sur son `Temoignage`) — page rechargée,
+  retour exact aux 819 points d'avant. Toute la mise en page (recherche,
+  panneau, carte, pied de page) a tenu dans un seul écran sans scroll à
+  1568×682.
+
+### Bug trouvé aussitôt : la barre de recherche décalée par rapport au bouton « ? »
+
+Retour de John : la barre de recherche n'était pas alignée avec le bouton
+« ? », visiblement décalée vers le bas. Cause : le conteneur portait
+`space-y-1`, une classe qui ajoute une marge-top à chaque enfant suivant le
+premier — sur la seule base de l'ordre des enfants dans le DOM, sans
+regarder s'ils sont réellement dans le flux visuel. Le tout premier enfant
+était le `<label htmlFor="carte-recherche-mot" className="sr-only">`
+(nécessaire pour l'accessibilité du champ, jamais affiché) : `sr-only` le
+rend `position: absolute` et le retire du flux, mais `space-y-1` lui
+appliquait quand même sa règle, poussant la barre de recherche (le second
+enfant, réellement affiché) de quelques pixels vers le bas — le bouton
+« ? », lui, sans ce conteneur, restait à sa position d'origine.
+
+- **Corrigé en retirant `space-y-1`** (`src/app/carte/carte-demo.tsx`) :
+  inutile ici, un seul enfant du conteneur est réellement dans le flux.
+  Leçon générale au-delà de cet écran : `space-y-*`/`gap` sur un conteneur
+  qui mélange un label `sr-only` et du contenu visible peut créer ce même
+  décalage fantôme — à vérifier si un futur écran combine les deux.
+- **`tsc --noEmit` propre, `pnpm build`** a régénéré les 966/966 pages
+  (seul l'EPERM symlink Windows connu suit). Poussé sur `dev` (`9ebee3c`).
+- **Vérifié à l'écran** (Chrome piloté, `elsass-dico-dev.theelsassisch.com/carte`,
+  déploiement confirmé par `updated_at` Coolify avancé avant tout
+  contrôle) : capture zoomée sur la ligne barre de recherche + bouton —
+  les deux éléments sont maintenant sur la même ligne, bords haut et bas
+  alignés au pixel.
+
 ## Règles de travail
 
 - Ne jamais inventer de traduction alsacienne, même pour un exemple ou un test.

@@ -373,21 +373,24 @@ confirmé, **vérification à l'écran en attente** d'une reconnexion admin.
   chiffre de 954 écrit ici jusqu'au 12/09 comptait des attestations, pas des
   communes rattachées — 249 noms ne désignent aucune commune actuelle, cf.
   `21-REPRISE.md`.)
-- **Prototype en place** : `/carte` et `/sources`, sur données réelles. Il sert à
-  trancher sur pièces — densité des points, lisibilité en mobile — pas à figurer
-  l'écran final. Deux points restent à traiter avant qu'il ne le devienne : les
-  819 villages sont envoyés d'un coup (127 Ko de HTML), et la couleur par
-  variante est prévue par le composant (`couleurDe`) mais pas encore utilisée.
+- **Fait et vérifié à l'écran le 16/09/2026** : `/carte` montre par défaut les
+  819 toponymes (envoi client après montage, pas dans le HTML initial — voir
+  `21-REPRISE.md`), et un champ « Chercher un mot du dictionnaire » bascule
+  l'écran sur n'importe quel lemme (`pointsMotAction()`, distincte de la
+  requête par défaut) : ses variantes aux communes qui les revendiquent, une
+  couleur par variante via `couleurDe` — désormais utilisée. Détail dans
+  `CLAUDE.md`, section « Étape 4 close ».
 
 ### 5. Contribution
 
-- Sur un mot : « ça se dit autrement chez moi » → forme + village. **Pas fait.**
+- Sur un mot : « ça se dit autrement chez moi » → forme + village. **Fait et
+  vérifié à l'écran le 15/09/2026.**
 - Sur une variante existante : bouton **`+`**, qui attache le village du profil en
   un clic. Profil sans village → une modale le demande une fois, et le mémorise.
   **Première tranche faite le 13/09/2026** — voir plus bas.
 - Retirer son propre `+` — **fait le 13/09/2026**, même tranche. Signaler une
   variante douteuse — fait à l'étape 3. Éditer sa propre variante tant qu'elle
-  est seule — **pas fait.**
+  est seule — **fait et vérifié à l'écran le 15/09/2026.**
 - Aucun vote contre, aucune suppression par les pairs — respecté :
   `voterPourVarianteAction()` ne fait qu'ajouter ou retirer le témoignage du
   membre courant, jamais celui d'un autre.
@@ -497,9 +500,10 @@ rapport d'un script**. Elle a rattrapé une erreur à chacune des cinq campagnes
   admin, John) : `tsc --noEmit` propre et 819/131 pages confirmées en base ne
   disent rien du rendu à l'écran, ni du secret de build Coolify (non confirmé,
   cf. plus haut).
-- **Étapes 4-5** : à l'écran, à trois largeurs (mobile ~390 px, tablette ~1024 px,
-  desktop ~1320 px). La leçon du 29/08 — vérifier au-delà de la largeur du
-  mockup — tient toujours.
+- **Étapes 4-5** — ✅ faites et vérifiées le 15-16/09/2026 (Chrome piloté,
+  largeur desktop uniquement — pas encore confronté aux largeurs mobile
+  ~390 px ni tablette ~1024 px, la leçon du 29/08 tient toujours pour ce
+  point-là). Détail dans `CLAUDE.md`.
 - Avant chaque push : `tsc --noEmit` **puis** un vrai `next build`, après la
   dernière édition. Un `tsc` propre ne prouve pas qu'un build passe (PR #39 :
   commentaire JSX accepté par TS, rejeté par SWC).

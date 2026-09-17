@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { BookOpen, Search, ShieldCheck, User, type LucideIcon } from "lucide-react";
+import { BookOpen, Map, Search, ShieldCheck, User, type LucideIcon } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { useAuth } from "@/components/auth-provider";
 import { lireUrlOnglet } from "@/lib/cache-navigation";
@@ -34,13 +34,14 @@ import { lireUrlOnglet } from "@/lib/cache-navigation";
 // TÂCHE (Signaler, Proposer un mot) restent sans nav : on ne « navigue » pas
 // depuis eux, on les termine ou on les ferme.
 
-export type OngletRacine = "recherche" | "dictionnaire" | "compte" | "admin";
+export type OngletRacine = "recherche" | "dictionnaire" | "carte" | "compte" | "admin";
 
 type Onglet = { cle: OngletRacine; href: string; icone: LucideIcon; libelle: string };
 
 export const ONGLETS: Onglet[] = [
   { cle: "recherche", href: "/recherche", icone: Search, libelle: "Recherche" },
   { cle: "dictionnaire", href: "/dictionnaire", icone: BookOpen, libelle: "Dictionnaire" },
+  { cle: "carte", href: "/carte", icone: Map, libelle: "Carte" },
   { cle: "compte", href: "/dashboard", icone: User, libelle: "Mon espace" },
 ];
 

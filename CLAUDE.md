@@ -1254,6 +1254,33 @@ scrollait la page entière sur petit écran.
   panneau, carte, pied de page) a tenu dans un seul écran sans scroll à
   1568×682.
 
+### Bug trouvé aussitôt : la barre de recherche décalée par rapport au bouton « ? »
+
+Retour de John : la barre de recherche n'était pas alignée avec le bouton
+« ? », visiblement décalée vers le bas. Cause : le conteneur portait
+`space-y-1`, une classe qui ajoute une marge-top à chaque enfant suivant le
+premier — sur la seule base de l'ordre des enfants dans le DOM, sans
+regarder s'ils sont réellement dans le flux visuel. Le tout premier enfant
+était le `<label htmlFor="carte-recherche-mot" className="sr-only">`
+(nécessaire pour l'accessibilité du champ, jamais affiché) : `sr-only` le
+rend `position: absolute` et le retire du flux, mais `space-y-1` lui
+appliquait quand même sa règle, poussant la barre de recherche (le second
+enfant, réellement affiché) de quelques pixels vers le bas — le bouton
+« ? », lui, sans ce conteneur, restait à sa position d'origine.
+
+- **Corrigé en retirant `space-y-1`** (`src/app/carte/carte-demo.tsx`) :
+  inutile ici, un seul enfant du conteneur est réellement dans le flux.
+  Leçon générale au-delà de cet écran : `space-y-*`/`gap` sur un conteneur
+  qui mélange un label `sr-only` et du contenu visible peut créer ce même
+  décalage fantôme — à vérifier si un futur écran combine les deux.
+- **`tsc --noEmit` propre, `pnpm build`** a régénéré les 966/966 pages
+  (seul l'EPERM symlink Windows connu suit). Poussé sur `dev` (`9ebee3c`).
+- **Vérifié à l'écran** (Chrome piloté, `elsass-dico-dev.theelsassisch.com/carte`,
+  déploiement confirmé par `updated_at` Coolify avancé avant tout
+  contrôle) : capture zoomée sur la ligne barre de recherche + bouton —
+  les deux éléments sont maintenant sur la même ligne, bords haut et bas
+  alignés au pixel.
+
 ## Règles de travail
 
 - Ne jamais inventer de traduction alsacienne, même pour un exemple ou un test.

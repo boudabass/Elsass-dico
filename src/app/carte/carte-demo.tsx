@@ -120,7 +120,13 @@ export function CarteDemo() {
                 au lieu de céder sa place — exactement ce qu'on veut éviter. */}
             <main className="flex min-h-0 flex-1 flex-col gap-2 p-4 pb-16 md:pb-4">
                 <div className="flex shrink-0 items-start gap-2">
-                    <div className="relative min-w-0 flex-1 space-y-1">
+                    {/* Pas de `space-y-*` ici : le label est `sr-only` (donc
+                        `position: absolute`, retiré du flux), mais `space-y-*`
+                        ajoute quand même une marge-top à l'élément suivant sur
+                        la seule base de l'ordre des enfants dans le DOM — c'est
+                        ce qui décalait la barre de recherche vers le bas par
+                        rapport au bouton « ? ». */}
+                    <div className="relative min-w-0 flex-1">
                         <label htmlFor="carte-recherche-mot" className="sr-only">
                             Chercher un mot du dictionnaire
                         </label>

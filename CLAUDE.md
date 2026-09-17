@@ -1111,6 +1111,56 @@ vérifiées à l'écran. Restent hors périmètre du doc, notés comme tels depu
 le 12-13/09 : l'auto-inscription du portail Odoo, l'aire linguistique du 57,
 et le gameplay.
 
+## Bug trouvé : la carte, annoncée comme écran central, était un cul-de-sac (17/09/2026)
+
+Retour direct de John : « la carte n'est jamais accessible alors que ça
+devait être un point central de l'app », et « le dropdown de la recherche de
+la carte passe derrière la carte et est donc inutilisable ». Les deux
+défauts existaient depuis la création de `/carte` (14/09) et n'avaient
+jamais été vus, parce que **chaque vérification à l'écran documentée dans ce
+fichier (14/09, 16/09) s'est faite en tapant l'URL `/carte` directement** —
+jamais par un clic dans la nav. La revue à l'écran prouvait que l'écran
+fonctionnait, pas qu'on pouvait l'atteindre : deux propriétés différentes.
+
+- **La carte n'était pas raccordée au shell applicatif.** `ONGLETS`
+  (`src/components/app-nav-shell.tsx`) ne listait que
+  recherche/dictionnaire/compte — `carte` n'existait ni dans `OngletRacine`
+  ni dans le tableau. Pire : `src/app/carte/page.tsx` ne montait ni
+  `<AppHeader>` ni `<AppNavShell>` du tout ; le commentaire du fichier disait
+  encore *« il n'est pas l'écran final »*, resté vrai littéralement alors que
+  l'étape 4 du doc 20 avait été déclarée close le 16/09. Corrigé : `carte`
+  rejoint `OngletRacine`/`ONGLETS` (icône `Map` de lucide-react), et
+  `CarteDemo` (`src/app/carte/carte-demo.tsx`) monte désormais
+  `<AppHeader variant="root" actif="carte" titre="Carte des parlers" />`
+  **à l'intérieur** du conteneur qui porte `md:pl-20 lg:pl-56` — pas avant
+  lui, sous peine de reproduire exactement le bug du 14/09 (header
+  recouvrant le rail sur desktop) que cette même session avait déjà corrigé
+  ailleurs.
+- **Le dropdown de suggestions passait sous la carte** parce que Leaflet pose
+  des panes de contrôle jusqu'à `z-index: 1000` (`.leaflet-top`/
+  `.leaflet-bottom`, les boutons +/-), et ni `<main>` ni le conteneur Leaflet
+  lui-même ne créent de contexte d'empilement propre — le `z-10` du dropdown
+  (`carte-demo.tsx`) se comparait donc directement à ces panes, dans le même
+  contexte racine, et perdait. Corrigé en `z-[1001]`, au-dessus du plafond
+  connu de Leaflet.
+- **Vérifié** : `tsc --noEmit` propre, `pnpm build` a régénéré les 966/966
+  pages (seul l'EPERM symlink Windows connu suit). Poussé sur `dev`
+  (`72c8015`), déploiement confirmé par `updated_at` Coolify avancé avant
+  tout contrôle.
+- **Vérifié à l'écran, en conditions réelles** (Chrome piloté, session de
+  John, `elsass-dico-dev.theelsassisch.com`) : « Carte » visible dans le
+  rail à côté de Recherche/Dictionnaire/Mon espace, clic → `/carte` s'ouvre
+  avec l'onglet actif en surbrillance, header et rail correctement placés
+  (aucun recouvrement) ; saisie « bonjour » dans le champ de recherche → le
+  dropdown de suggestions s'affiche **au-dessus** de la carte, lisible et
+  cliquable ; clic sur une suggestion → bascule vers « Carte de « bonjour » »
+  avec les quatre formes listées sans lieu, comme attendu.
+- **Leçon distincte du bug lui-même** : une vérification à l'écran ne
+  couvre que ce qu'elle exerce. Visiter une URL directement prouve que
+  l'écran marche, jamais qu'on peut l'atteindre depuis le reste de l'app —
+  il faut aussi cliquer depuis la nav, au moins une fois, pour un écran
+  destiné à être une destination permanente.
+
 ## Règles de travail
 
 - Ne jamais inventer de traduction alsacienne, même pour un exemple ou un test.

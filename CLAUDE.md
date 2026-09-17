@@ -1199,6 +1199,61 @@ l'ordre du DOM.
   dans cette session ; à confirmer visuellement par John sur un téléphone
   réel ou un DevTools local.
 
+## La recherche de mot sur la carte devient un écran de contribution, sans scroll (17/09/2026)
+
+Troisième retour de John dans la même série. La recherche d'un mot sur
+`/carte` était globale depuis le 16/09 (n'importe quel lemme, pas seulement
+les toponymes), mais l'écran gardait trois réflexes hérités du prototype
+villages : un texte de retour qui ne servait qu'à naviguer, un paragraphe
+d'intro figé en haut, et une hauteur de carte fixe (`h-[70vh]`) qui
+scrollait la page entière sur petit écran.
+
+- **« ◀ Retour à la carte des villages » remplacé par un panneau de
+  contribution.** `pointsMotAction()` (`src/app/actions/carte.ts`) expose
+  désormais, pour chaque variante du mot actif, son `id`, son nombre de
+  villages et si le membre courant l'a déjà votée (`VarianteMot`) — avant,
+  seules des chaînes de formes sortaient, sans de quoi brancher un geste.
+  Le panneau réutilise **tels quels** `VoteVariante` et `NouvelleVariante`
+  (`src/app/entree/[id]/`), les mêmes composants que la fiche de mot,
+  plutôt que d'en écrire une version dédiée à la carte.
+- **`onSucces` optionnel ajouté aux deux composants**, par défaut
+  `router.refresh()` (comportement d'origine, inchangé sur /entree/[id]) :
+  la carte charge ses données par Server Action côté client
+  (`useListeMemorisee`), pas par le rendu serveur de la page, donc
+  `router.refresh()` n'y aurait rafraîchi qu'un composant serveur trivial —
+  `rafraichirMot` (le `rafraichir()` du hook) est passé à la place.
+  Aucun changement de comportement pour l'écran existant.
+- **Le texte d'intro fixe est retiré**, remplacé par un bouton carré « ? »
+  à droite de la barre de recherche, qui ouvre une modal (« Comment lire
+  cette carte ») avec le mode d'emploi — écrit en position/rôle générique,
+  jamais un chiffre figé (« 819 villages… ») qui se serait périmé au
+  premier import.
+- **Plus de scroll de page.** L'écran passe de `min-h-screen` (page qui
+  défile) à `h-dvh flex flex-col overflow-hidden` (hauteur de viewport
+  fixe) : la carte n'a plus de hauteur en `vh` mais `flex-1 min-h-0`, elle
+  prend ce qui reste après le header, la barre de recherche, le panneau de
+  contribution (s'il est ouvert) et le pied de page. Le panneau de
+  contribution garde son propre défilement interne (`max-h-[32vh]
+  overflow-y-auto`) : un mot à beaucoup de variantes doit faire défiler
+  CE panneau, jamais repousser la carte hors de l'écran ni la page
+  entière — `overflow-hidden` sur le conteneur racine est le filet de
+  sécurité si jamais un budget de hauteur était mal calculé quelque part.
+- **`tsc --noEmit` propre, `pnpm build` a régénéré les 966/966 pages**
+  (seul l'EPERM symlink Windows connu suit). Poussé sur `dev` (`1ab29f4`).
+- **Vérifié à l'écran, en conditions réelles** (Chrome piloté, session de
+  John) : texte d'intro disparu, bouton « ? » à sa place, modal lisible
+  par-dessus la carte ; recherche « bonjour » → panneau avec les quatre
+  formes et leur bouton « + Chez moi aussi », formulaire « Ça se dit
+  autrement chez moi ? » ; ajout d'une forme de test
+  (« zzz-test-carte-a-supprimer ») → toast, puce avec vote déjà vert,
+  point sur la carte, **rafraîchi sans recharger la page** (preuve que
+  `onSucces`/`rafraichirMot` fonctionne réellement, pas seulement en
+  théorie) ; forme supprimée juste après par script direct en base
+  (`Variante.delete`, cascade sur son `Temoignage`) — page rechargée,
+  retour exact aux 819 points d'avant. Toute la mise en page (recherche,
+  panneau, carte, pied de page) a tenu dans un seul écran sans scroll à
+  1568×682.
+
 ## Règles de travail
 
 - Ne jamais inventer de traduction alsacienne, même pour un exemple ou un test.

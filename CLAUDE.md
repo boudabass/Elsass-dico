@@ -1161,6 +1161,44 @@ fonctionnait, pas qu'on pouvait l'atteindre : deux propriétés différentes.
   il faut aussi cliquer depuis la nav, au moins une fois, pour un écran
   destiné à être une destination permanente.
 
+### Un troisième bug de la même famille, trouvé aussitôt : la carte passait par-dessus le footer mobile
+
+Retour de John dans la foulée du correctif ci-dessus : « la carte passe par
+dessus le footer en mobile ». Même mécanisme que le dropdown, une couche
+plus profonde : Leaflet pose ses panes internes (`.leaflet-overlay-pane`,
+`.leaflet-marker-pane`, `.leaflet-top`/`.leaflet-bottom`…) avec des z-index
+allant de 400 à 1000, **sans jamais les confiner dans son propre
+conteneur** — ni `<main>`, ni la boîte `overflow-hidden` qui entoure la
+carte ne créent de contexte d'empilement. Ces z-index se comparaient donc
+directement au reste de la page dans le contexte racine : la barre
+d'onglets mobile fixe (`AppNavShell`, `z-30`) perdait face au contenu de la
+carte dès que leurs rectangles se chevauchaient à l'écran, quel que soit
+l'ordre du DOM.
+
+- **Corrigé à la racine plutôt qu'au symptôme** : `isolate` (CSS
+  `isolation: isolate`) sur le conteneur Leaflet lui-même
+  (`src/components/carte-parlers.tsx`), pas un z-index plus élevé sur
+  chaque élément concurrent un par un. Toute la pile interne de Leaflet
+  (jusqu'à 1000) reste désormais confinée dans son propre contexte
+  d'empilement, quel que soit ce qui l'entoure — le correctif du dropdown
+  (`z-[1001]`, plus haut) reste en place mais devient redondant : avec
+  `isolate`, la carte ne fuit plus nulle part.
+- **`tsc --noEmit` propre, `pnpm build` a régénéré les 966/966 pages** (seul
+  l'EPERM symlink Windows connu suit). Poussé sur `dev` (`eb003de`).
+- **Outillage** : `resize_window` (Chrome piloté) n'a eu aucun effet sur
+  cette session — la fenêtre est restée bloquée à 1884×876 quelle que soit
+  la taille demandée, contrairement aux sessions précédentes. Plutôt que de
+  deviner, vérifié le mécanisme directement : la vraie barre d'onglets
+  mobile existe déjà dans le DOM à toute largeur (juste masquée par
+  `md:hidden`), donc forcée visible par script, puis la page scrollée pour
+  que le rectangle de la carte chevauche géométriquement celui de la barre.
+  `document.elementFromPoint()` au centre de la zone de chevauchement a
+  rendu un lien de la barre de nav, pas un élément Leaflet — la barre gagne
+  désormais, dans l'exact scénario qui produisait le bug. Vérification au
+  mécanisme plutôt qu'à l'œil, faute d'un vrai viewport mobile disponible
+  dans cette session ; à confirmer visuellement par John sur un téléphone
+  réel ou un DevTools local.
+
 ## Règles de travail
 
 - Ne jamais inventer de traduction alsacienne, même pour un exemple ou un test.

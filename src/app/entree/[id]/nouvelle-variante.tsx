@@ -10,7 +10,10 @@ import { creerVarianteAction } from "@/app/actions/variantes";
 // seul geste. Le succès efface le champ et redemande la page
 // (`router.refresh()`), comme VoteVariante : pas d'état local optimiste, la
 // nouvelle forme vient du serveur avec son badge déjà à jour.
-export function NouvelleVariante({ lemmeId }: { lemmeId: string }) {
+//
+// `onSucces` optionnel : voir la même note dans vote-variante.tsx — la carte
+// (17/09/2026) réutilise ce formulaire hors du rendu serveur de la page.
+export function NouvelleVariante({ lemmeId, onSucces }: { lemmeId: string; onSucces?: () => void }) {
     const [forme, setForme] = useState("");
     const [enCours, demarrer] = useTransition();
     const router = useRouter();
@@ -23,7 +26,8 @@ export function NouvelleVariante({ lemmeId }: { lemmeId: string }) {
             if (res.succes) {
                 setForme("");
                 toast.success("Forme ajoutée.");
-                router.refresh();
+                if (onSucces) onSucces();
+                else router.refresh();
             } else {
                 toast.error(res.erreur);
             }

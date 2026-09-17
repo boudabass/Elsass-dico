@@ -1,6 +1,7 @@
 'use server'
 
 import { prisma } from "@/lib/prisma"
+import { sessionActuelle } from "@/lib/session-serveur"
 
 export interface PointCarte {
     /** Code INSEE — sert de clé et de lien vers le contour, jamais affiché. */
@@ -56,29 +57,51 @@ export async function pointsCarteAction(): Promise<PointsCarte> {
 // commune (`Lemme.communeId`) ; celle-ci montre n'importe quel lemme par les
 // communes de ses TÉMOINS (`Temoignage.communeId`, un vote de locuteur), qui
 // n'ont rien à voir l'une avec l'autre.
+/** Une forme du lemme, pour le panneau de contribution qui accompagne la
+ *  recherche sur la carte (17/09/2026) : assez pour brancher les mêmes gestes
+ *  que /entree/[id] (`VoteVariante`, `NouvelleVariante`) directement ici,
+ *  plutôt que de renvoyer vers la fiche. `nbVillages` à 0 = la forme n'a
+ *  aucun point sur la carte (elle se liste au-dessus). */
+export interface VarianteMot {
+    id: string
+    forme: string
+    nbVillages: number
+    monVote: boolean
+}
+
 export interface PointsMot {
     francais: string
     /** Un point par (variante, village) : une couleur par variante suppose que
      *  chaque point ne porte qu'une seule forme, pas le tableau qu'utilise
      *  `pointsCarteAction()` pour ses villages toponymes. */
     points: PointCarte[]
-    /** Formes qu'aucun témoignage de locuteur ne rattache à un village. Ne
-     *  vont jamais sur la carte (doc 20) — elles se disent au-dessus. */
-    formesSansLieu: string[]
+    /** Toutes les formes du lemme, avec de quoi voter ou en ajouter une. */
+    variantes: VarianteMot[]
 }
 
 export async function pointsMotAction(lemmeId: string): Promise<PointsMot | null> {
+    const session = await sessionActuelle()
+
     const lemme = await prisma.lemme.findUnique({
         where: { id: lemmeId },
         select: {
             francais: true,
             variantes: {
                 where: { masquee: false },
+                orderBy: { creeLe: "asc" },
                 select: {
+                    id: true,
                     forme: true,
                     temoignages: {
+                        // Restreint aux témoignages de locuteurs : un vote de
+                        // membre porte toujours un village (voterPourVarianteAction),
+                        // les témoignages de sources écrites (communeId nul) ne
+                        // comptent ni pour `nbVillages` ni pour `monVote`.
                         where: { communeId: { not: null } },
-                        select: { commune: { select: { id: true, nom: true, latitude: true, longitude: true } } },
+                        select: {
+                            membreId: true,
+                            commune: { select: { id: true, nom: true, latitude: true, longitude: true } },
+                        },
                     },
                 },
             },
@@ -87,25 +110,24 @@ export async function pointsMotAction(lemmeId: string): Promise<PointsMot | null
     if (!lemme) return null
 
     const points: PointCarte[] = []
-    const formesSansLieu: string[] = []
+    const variantes: VarianteMot[] = []
 
     for (const v of lemme.variantes) {
         // Dédoublonné par commune : deux locuteurs du même village qui
         // témoignent de la même forme restent UN point, pas deux superposés.
         const villages = new Map<number, { id: number; nom: string; latitude: number; longitude: number }>()
+        let monVote = false
         for (const t of v.temoignages) {
             if (t.commune) villages.set(t.commune.id, t.commune)
-        }
-
-        if (!villages.size) {
-            formesSansLieu.push(v.forme)
-            continue
+            if (session && t.membreId === session.membreId) monVote = true
         }
 
         Array.from(villages.values()).forEach((c) => {
             points.push({ id: c.id, nom: c.nom, latitude: c.latitude, longitude: c.longitude, formes: [v.forme] })
         })
+
+        variantes.push({ id: v.id, forme: v.forme, nbVillages: villages.size, monVote })
     }
 
-    return { francais: lemme.francais, points, formesSansLieu }
+    return { francais: lemme.francais, points, variantes }
 }

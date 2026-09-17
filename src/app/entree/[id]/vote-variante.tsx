@@ -12,7 +12,21 @@ import { retirerVoteAction, voterPourVarianteAction } from "@/app/actions/votes"
 // refait tourner /entree/[id] côté serveur, donc le compte de villages et
 // `monVote` reviennent à jour ensemble, sans risque de désaccord entre les
 // deux.
-export function VoteVariante({ varianteId, monVote }: { varianteId: string; monVote: boolean }) {
+//
+// `onSucces` : la carte (17/09/2026) réutilise ce même bouton mais charge ses
+// données via un Server Action côté client (`useListeMemorisee`), pas par le
+// rendu serveur de la page — `router.refresh()` n'y rafraîchirait rien.
+// Optionnel et par défaut égal au comportement d'origine, pour ne rien
+// changer sur /entree/[id].
+export function VoteVariante({
+    varianteId,
+    monVote,
+    onSucces,
+}: {
+    varianteId: string;
+    monVote: boolean;
+    onSucces?: () => void;
+}) {
     const router = useRouter();
     const [enCours, demarrer] = useTransition();
 
@@ -22,7 +36,8 @@ export function VoteVariante({ varianteId, monVote }: { varianteId: string; monV
                 ? await retirerVoteAction(varianteId)
                 : await voterPourVarianteAction(varianteId);
             if (res.succes) {
-                router.refresh();
+                if (onSucces) onSucces();
+                else router.refresh();
             } else {
                 toast.error(res.erreur);
             }

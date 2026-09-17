@@ -1281,6 +1281,33 @@ enfant, réellement affiché) de quelques pixels vers le bas — le bouton
   les deux éléments sont maintenant sur la même ligne, bords haut et bas
   alignés au pixel.
 
+## `dev` refusionné dans `main` (17/09/2026)
+
+**PR #46** (`dev` → `main`), fusionnée par commit de merge (`b7145b3`) —
+même méthode que PR #45 du 14/09, pas de squash, pour garder l'historique
+détaillé que ce fichier référence commit par commit. `main` était à 50
+commits de retard, couvrant toute la session du 17/09 documentée
+ci-dessus : la carte raccordée à la nav, l'isolation du contexte
+d'empilement de Leaflet, la contribution directe sur la recherche de mot,
+l'écran sans scroll, et les deux corrections d'alignement/z-index qui ont
+suivi.
+
+- Branches locales mises à jour (`main` fast-forward sur `origin/main`,
+  retour sur `dev` pour la suite du travail).
+- **Déploiement Coolify de `elsass-dico:main` confirmé** par `updated_at`
+  avancé (16:03:51 → 19:16:43) après la fusion — même léger décalage entre
+  « fusionné » et « déployé » que le 14/09, pas un signe de panne.
+- **Vérifié sur l'artefact réel, en `curl`** (pas de session sur ce
+  domaine dans cette session) : `/` → 200 (présentation publique) ;
+  `/recherche`, `/dictionnaire`, `/carte` → 307 vers `/login` (barrière
+  d'auth active, rien ne fuite) ; `/village/colmar-68066`, `/sources` →
+  200. Aucune régression de routage détectée après la fusion.
+- **Non vérifié à l'écran sur `elsass-dico.theelsassisch.com`** : le code
+  fusionné est strictement identique à celui déjà vérifié à l'écran sur
+  `dev` à chaque étape de cette session — le seul risque propre à la
+  fusion était un problème de build/déploiement, écarté par le test de
+  fumée ci-dessus.
+
 ## Règles de travail
 
 - Ne jamais inventer de traduction alsacienne, même pour un exemple ou un test.

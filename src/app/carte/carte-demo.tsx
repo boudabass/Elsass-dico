@@ -6,6 +6,7 @@ import { useEffect, useMemo, useState } from "react"
 
 import { pointsCarteAction, pointsMotAction, type PointsCarte, type PointsMot } from "@/app/actions/carte"
 import { rechercherAction } from "@/app/actions/recherche"
+import { AppHeader } from "@/components/app-header"
 import type { PointParler } from "@/components/carte-parlers"
 import { useListeMemorisee } from "@/hooks/use-liste-memorisee"
 import { cleCache } from "@/lib/cache-navigation"
@@ -98,11 +99,13 @@ export function CarteDemo() {
     const pointsAffiches: PointParler[] = motActif ? (pointsMot?.points ?? []) : filtres
 
     return (
-        <main className="mx-auto w-full max-w-5xl space-y-4 p-4 pb-16 md:pb-4 md:pl-20 lg:pl-56">
+        <div className="min-h-screen pb-16 md:pb-0 md:pl-20 lg:pl-56">
+            <AppHeader variant="root" actif="carte" titre="Carte des parlers" />
+
+            <main className="mx-auto w-full max-w-5xl space-y-4 p-4">
             <header className="space-y-1">
-                <h1 className="text-xl font-semibold">Carte des parlers</h1>
                 <p className="text-sm text-muted-foreground">
-                    Prototype — {points.length} villages portent {nbFormes} formes
+                    {points.length} villages portent {nbFormes} formes
                     attestées. Chaque point est une commune ; cliquer dessus montre
                     les formes que les sources écrivent pour elle. Une couleur par
                     forme : deux villages qui disent pareil se voient d'un coup d'œil.
@@ -120,7 +123,11 @@ export function CarteDemo() {
                     // sur le champ au focus et casse le cadrage de la carte.
                 />
                 {afficherSuggestions && (
-                    <ul className="absolute z-10 mt-1 max-h-64 w-full overflow-y-auto rounded-md border bg-background shadow-md">
+                    // z-index au-dessus de celui des panes Leaflet (jusqu'à 1000
+                    // pour .leaflet-top/.leaflet-bottom, les contrôles de zoom) :
+                    // sans ça la liste de suggestions passe derrière la carte, qui
+                    // ne crée son propre contexte d'empilement nulle part au-dessus.
+                    <ul className="absolute z-[1001] mt-1 max-h-64 w-full overflow-y-auto rounded-md border bg-background shadow-md">
                         {(suggestions ?? []).length === 0 ? (
                             <li className="px-3 py-2 text-sm text-muted-foreground">Aucun résultat.</li>
                         ) : (
@@ -194,6 +201,7 @@ export function CarteDemo() {
                     aucun emplacement, et accepte même un simple renvoi. */}
                 <Link href="/sources" className="underline">Sources</Link>
             </p>
-        </main>
+            </main>
+        </div>
     )
 }

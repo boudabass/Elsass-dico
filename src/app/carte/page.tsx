@@ -2,15 +2,16 @@ import "leaflet/dist/leaflet.css"
 
 import { CarteDemo } from "./carte-demo"
 
-// Prototype de l'écran central de la refonte (doc 20, étape 4). Il n'est pas
-// l'écran final — il sert à trancher sur pièces plutôt que sur une maquette :
-// fond de carte, densité des points, lisibilité en mobile.
+// Écran central de la refonte (doc 20, étape 4) — raccordé à AppNavShell le
+// 17/09/2026 : jusque-là cet écran restait joignable uniquement en tapant
+// l'URL, absent de ONGLETS (src/components/app-nav-shell.tsx), ce qui en
+// faisait un cul-de-sac malgré l'étape 4 « close » du 16/09.
 //
 // Les 819 communes qui portent au moins une forme attestée ne sont plus lues
 // ici : `pointsCarteAction()` (`src/app/actions/carte.ts`) est appelée côté
 // client, après montage, pour que le rendu serveur de cette page reste léger.
 
-export const metadata = { title: "Carte des parlers — prototype" }
+export const metadata = { title: "Carte des parlers" }
 
 export default function PageCarte() {
     return <CarteDemo />

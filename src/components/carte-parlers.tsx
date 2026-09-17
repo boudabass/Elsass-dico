@@ -2,6 +2,8 @@
 
 import { useEffect, useRef } from "react"
 
+import { cn } from "@/lib/utils"
+
 // CARTE AUTONOME — aucun appel vers un service extérieur.
 //
 // Décision de John du 12/09/2026 : l'app ne doit dépendre d'aucun outil
@@ -118,5 +120,14 @@ export function CarteParlers({ points, couleurDe, className }: Props) {
         }
     }, [points, couleurDe])
 
-    return <div ref={conteneur} className={className} />
+    // `isolate` : Leaflet pose ses propres panes internes avec des z-index
+    // allant jusqu'à 1000 (`.leaflet-top`/`.leaflet-bottom`, les contrôles de
+    // zoom) SANS jamais les confiner dans son propre conteneur. Sans ce
+    // contexte d'empilement dédié, ces z-index se comparent directement au
+    // reste de la page dans le contexte racine — la carte passait ainsi
+    // par-dessus la barre d'onglets mobile fixe (`AppNavShell`, z-30) dès que
+    // leurs rectangles se chevauchaient à l'écran, quel que soit l'ordre du
+    // DOM. Trouvé le 17/09/2026 après un bug analogue sur le dropdown de
+    // recherche de la carte.
+    return <div ref={conteneur} className={cn("isolate", className)} />
 }

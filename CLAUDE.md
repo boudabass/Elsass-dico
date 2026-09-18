@@ -1308,6 +1308,55 @@ suivi.
   fusion était un problème de build/déploiement, écarté par le test de
   fumée ci-dessus.
 
+## Home publique : vitrine de mots et recherche village/prénom (18/09/2026)
+
+Retour de John sur l'auto-inscription (le bouton « Créer un compte » renvoie
+déjà vers Odoo, volontairement sans lien de retour — Odoo sert de SSO à
+d'autres projets, on n'y bricole rien) : la vraie question était la home non
+connectée elle-même. Elle existait depuis le 13/09 (doc 20, étape 3) mais ne
+montrait qu'un argumentaire et deux boutons — jamais un seul mot alsacien. Un
+visiteur qui arrivait dessus ne voyait rien du dico, seulement qu'il devait se
+connecter.
+
+- **Deux ajouts, choisis pour rester dans la doctrine « compte obligatoire »**
+  du doc 20 plutôt que de l'entamer : une vitrine statique et une recherche
+  interactive, toutes deux **sans session**.
+- **Vitrine** (`motsVitrineAction()`, `src/app/actions/accueil.ts`) : dix mots
+  de base de tout cours de débutant (bonjour, bonsoir, au revoir, merci,
+  pardon, oui, non, ami, maison, famille), choisis après une mesure en base
+  (script jetable, lecture seule) plutôt que devinés — certains candidats
+  évidents (« s'il vous plaît », « bienvenue », « village ») n'existent pas
+  encore dans la base et ont été écartés, pas inventés. Identifiés par
+  `(cle, contexte, type)` — la clé naturelle `@@unique` du schéma — plutôt que
+  par UUID, qui ne survit pas à une redérivation complète (leçon du 12/09).
+  Les formes affichées viennent de la base à chaque appel ; rien n'est codé en
+  dur (règle 1).
+- **Recherche** (`rechercherAccueilAction()`, même fichier) : restreinte aux
+  deux collections déjà publiques sans compte (communes avec forme attestée →
+  `/village/[slug]`, prénoms attestés → `/prenom/[slug]`) — jamais le
+  dictionnaire entier, qui reste derrière `/recherche` et le login. Chaque
+  suggestion mène donc à une vraie fiche, jamais à un mur de connexion
+  surprise. Requête SQL brute avec `immutable_unaccent` + `similarity`, même
+  patron que `rechercherAction()` (migration `unaccent`/`pg_trgm` du 13/09) —
+  vérifiée en base dans les deux sens (« sélestat » et « sélestat » trouvent
+  tous deux Sélestat).
+- **Les cartes de la vitrine ne sont pas des liens.** `/entree/[id]` est
+  authentifié ; en faire des liens aurait renvoyé un clic vers `/login` sans
+  contexte — exactement le défaut que cet écran corrige. La vitrine se
+  contente de montrer, la recherche est le seul chemin interactif.
+- **Composant client** (`src/app/recherche-accueil.tsx`) : même patron
+  debounce 250 ms + `useListeMemorisee`/`cleCache` que la recherche de mot sur
+  `/carte` (16/09) — repris tel quel plutôt que réinventé.
+- **Vérifié** : `tsc --noEmit` propre, `pnpm build` a régénéré les 966/966
+  pages (seul l'EPERM symlink Windows connu suit). Poussé sur `dev`
+  (`191cfbc`), déploiement confirmé par `updated_at` Coolify avancé
+  (19:16:43 → 16:05:54) avant tout contrôle.
+- **Vérifié à l'écran** (Chrome piloté, `elsass-dico-dev.theelsassisch.com/`) :
+  la vitrine affiche ses dix mots avec formes réelles et badges de confiance
+  (« buschur · 2 sources », etc.) ; recherche « colmar » → suggestion
+  « Colmar · Haut-Rhin » → clic → `/village/colmar-68066` en 200, sans aucune
+  redirection vers `/login`.
+
 ## Règles de travail
 
 - Ne jamais inventer de traduction alsacienne, même pour un exemple ou un test.

@@ -1281,6 +1281,191 @@ enfant, réellement affiché) de quelques pixels vers le bas — le bouton
   les deux éléments sont maintenant sur la même ligne, bords haut et bas
   alignés au pixel.
 
+## `dev` refusionné dans `main` (17/09/2026)
+
+**PR #46** (`dev` → `main`), fusionnée par commit de merge (`b7145b3`) —
+même méthode que PR #45 du 14/09, pas de squash, pour garder l'historique
+détaillé que ce fichier référence commit par commit. `main` était à 50
+commits de retard, couvrant toute la session du 17/09 documentée
+ci-dessus : la carte raccordée à la nav, l'isolation du contexte
+d'empilement de Leaflet, la contribution directe sur la recherche de mot,
+l'écran sans scroll, et les deux corrections d'alignement/z-index qui ont
+suivi.
+
+- Branches locales mises à jour (`main` fast-forward sur `origin/main`,
+  retour sur `dev` pour la suite du travail).
+- **Déploiement Coolify de `elsass-dico:main` confirmé** par `updated_at`
+  avancé (16:03:51 → 19:16:43) après la fusion — même léger décalage entre
+  « fusionné » et « déployé » que le 14/09, pas un signe de panne.
+- **Vérifié sur l'artefact réel, en `curl`** (pas de session sur ce
+  domaine dans cette session) : `/` → 200 (présentation publique) ;
+  `/recherche`, `/dictionnaire`, `/carte` → 307 vers `/login` (barrière
+  d'auth active, rien ne fuite) ; `/village/colmar-68066`, `/sources` →
+  200. Aucune régression de routage détectée après la fusion.
+- **Non vérifié à l'écran sur `elsass-dico.theelsassisch.com`** : le code
+  fusionné est strictement identique à celui déjà vérifié à l'écran sur
+  `dev` à chaque étape de cette session — le seul risque propre à la
+  fusion était un problème de build/déploiement, écarté par le test de
+  fumée ci-dessus.
+
+## Home publique : vitrine de mots et recherche village/prénom (18/09/2026)
+
+Retour de John sur l'auto-inscription (le bouton « Créer un compte » renvoie
+déjà vers Odoo, volontairement sans lien de retour — Odoo sert de SSO à
+d'autres projets, on n'y bricole rien) : la vraie question était la home non
+connectée elle-même. Elle existait depuis le 13/09 (doc 20, étape 3) mais ne
+montrait qu'un argumentaire et deux boutons — jamais un seul mot alsacien. Un
+visiteur qui arrivait dessus ne voyait rien du dico, seulement qu'il devait se
+connecter.
+
+- **Deux ajouts, choisis pour rester dans la doctrine « compte obligatoire »**
+  du doc 20 plutôt que de l'entamer : une vitrine statique et une recherche
+  interactive, toutes deux **sans session**.
+- **Vitrine** (`motsVitrineAction()`, `src/app/actions/accueil.ts`) : dix mots
+  de base de tout cours de débutant (bonjour, bonsoir, au revoir, merci,
+  pardon, oui, non, ami, maison, famille), choisis après une mesure en base
+  (script jetable, lecture seule) plutôt que devinés — certains candidats
+  évidents (« s'il vous plaît », « bienvenue », « village ») n'existent pas
+  encore dans la base et ont été écartés, pas inventés. Identifiés par
+  `(cle, contexte, type)` — la clé naturelle `@@unique` du schéma — plutôt que
+  par UUID, qui ne survit pas à une redérivation complète (leçon du 12/09).
+  Les formes affichées viennent de la base à chaque appel ; rien n'est codé en
+  dur (règle 1).
+- **Recherche** (`rechercherAccueilAction()`, même fichier) : restreinte aux
+  deux collections déjà publiques sans compte (communes avec forme attestée →
+  `/village/[slug]`, prénoms attestés → `/prenom/[slug]`) — jamais le
+  dictionnaire entier, qui reste derrière `/recherche` et le login. Chaque
+  suggestion mène donc à une vraie fiche, jamais à un mur de connexion
+  surprise. Requête SQL brute avec `immutable_unaccent` + `similarity`, même
+  patron que `rechercherAction()` (migration `unaccent`/`pg_trgm` du 13/09) —
+  vérifiée en base dans les deux sens (« sélestat » et « sélestat » trouvent
+  tous deux Sélestat).
+- **Les cartes de la vitrine ne sont pas des liens.** `/entree/[id]` est
+  authentifié ; en faire des liens aurait renvoyé un clic vers `/login` sans
+  contexte — exactement le défaut que cet écran corrige. La vitrine se
+  contente de montrer, la recherche est le seul chemin interactif.
+- **Composant client** (`src/app/recherche-accueil.tsx`) : même patron
+  debounce 250 ms + `useListeMemorisee`/`cleCache` que la recherche de mot sur
+  `/carte` (16/09) — repris tel quel plutôt que réinventé.
+- **Vérifié** : `tsc --noEmit` propre, `pnpm build` a régénéré les 966/966
+  pages (seul l'EPERM symlink Windows connu suit). Poussé sur `dev`
+  (`191cfbc`), déploiement confirmé par `updated_at` Coolify avancé
+  (19:16:43 → 16:05:54) avant tout contrôle.
+- **Vérifié à l'écran** (Chrome piloté, `elsass-dico-dev.theelsassisch.com/`) :
+  la vitrine affiche ses dix mots avec formes réelles et badges de confiance
+  (« buschur · 2 sources », etc.) ; recherche « colmar » → suggestion
+  « Colmar · Haut-Rhin » → clic → `/village/colmar-68066` en 200, sans aucune
+  redirection vers `/login`.
+
+### Refonte UI/UX de la home, retrait de l'argument ORTHAL (18/09/2026)
+
+Deuxième retour de John le même jour, sur la version qui vient d'être livrée :
+le pitch disait encore « en graphie ORTHAL », périmé depuis le 11/09
+(« ORTHAL devient secondaire comme arbitre », plus de forme canonique) — et
+les deux boutons `Se connecter`/`Créer un compte`, empilés pleine largeur
+juste sous la vitrine, « font tache et désordonné ». Passé par le skill
+`impeccable` (mode Persuade, refinement — le contenu et les fonctions
+restent, seule la présentation change).
+
+- **Copie réécrite** autour de ce que le produit vend réellement : aucune
+  forme n'est « la bonne », chaque village garde la sienne. Nouveau titre
+  (« Le français-alsacien, village par village. ») et nouveau sous-texte, sans
+  aucune mention d'ORTHAL — la graphie reste documentée dans
+  `documentation/orthal/` pour qui construit le dico, elle n'a plus à figurer
+  dans l'argumentaire d'un visiteur.
+- **Hiérarchie Persuade** : un seul bouton plein (« Créer un compte », l'action
+  de croissance) plutôt que deux boutons de poids égal. « Se connecter »
+  redescend en lien discret dans une barre du haut, pour qui revient déjà
+  équipé d'un compte — il n'a plus besoin de rivaliser visuellement.
+- **Rythme de page** : la recherche et la vitrine passent chacune dans leur
+  propre section avec un vrai titre (`<h2>`), la recherche encadrée d'un
+  panneau `bg-neutre-50` pour la distinguer du reste — plutôt que tout
+  empiler sur fond blanc uniforme, la source du « désordre » signalé.
+- **Détecteur mécanique impeccable** (`impeccable detect --json`) : aucun
+  défaut relevé sur les deux fichiers touchés.
+- **Vérifié** : `tsc --noEmit` propre, `pnpm build` a régénéré les 966/966
+  pages (seul l'EPERM symlink Windows connu suit). Poussé sur `dev`
+  (`bb33ea0`), déploiement confirmé par `updated_at` Coolify avancé
+  (16:05:54 → 19:51:29).
+- **Vérifié à l'écran** (Chrome piloté, `elsass-dico-dev.theelsassisch.com/`,
+  desktop) : plus aucune mention d'ORTHAL ; un seul bouton plein visible,
+  « Se connecter » en lien discret en haut à droite ; recherche « ambroise »
+  → suggestion « Ambroise », anneau de focus doré visible. **Non vérifié en
+  vrai viewport mobile** : `resize_window` (Chrome piloté) n'a eu aucun effet
+  cette session, même défaut d'outillage que le 17/09 — la mise en page
+  mobile (grille 2 colonnes, boutons pleine largeur) repose sur les mêmes
+  classes Tailwind responsive déjà éprouvées ailleurs dans l'app, mais reste
+  à confirmer par John sur un téléphone réel.
+
+## Correction d'attribution : culture_alsace n'est pas de Raymond Matzen (18/09/2026)
+
+Signalement de John, recherche web fournie à l'appui : le champ `nom` de la
+source `culture_alsace` (le scrape de culture.alsace.pagesperso-orange.fr,
+7260 entrées) créditait « Raymond Matzen », confondu avec l'universitaire
+strasbourgeois du même nom (1921-2014, auteur de dictionnaires imprimés —
+proverbes, gros mots alsaciens — sans aucun lien avec ce site). Le vrai
+auteur est **André Nisslé** : la page d'accueil du site archivé
+(elsassisch.eu) crédite elle-même ce dictionnaire comme « S elsassischa
+Wärterbüach (André Nisslé) », confirmé par un reportage France Bleu Alsace de
+2015 titré « le dictionnaire alsacien d'André Nisslé ».
+
+- **Grep du dépôt entier** : une seule occurrence réelle
+  (`data/sources/culture_alsace.json`, champ `nom`) — le seul autre résultat
+  (« Matzenheim », une commune du 67) est un faux positif. Aucune mention
+  dans le code, les migrations, la doc ou une page « à propos ».
+- **Pas de champ `auteur` dédié sur le modèle `Source`** (`prisma/schema.prisma`) :
+  l'attribution vit dans le texte libre du champ `nom`
+  (« Culture Alsace (site de X et contributeurs) »), affiché tel quel sur
+  `/sources` et `/admin/sources`. C'est bien le « libellé affiché » que la
+  correction devait viser, pas un identifiant technique — `code:
+  "culture_alsace"` n'a pas bougé, aucune référence dans `attestations` ou
+  `temoignages` n'est affectée.
+- **Corriger le JSON ne suffisait pas** : `scripts/importer-data.mts` est
+  idempotent par `code` et ne réécrit jamais un `Source` déjà présent en base
+  (`if (existante) { ...; continue }`) — un simple commit du fichier n'aurait
+  rien changé à l'écran tant qu'un réimport complet n'a pas lieu. Corrigé
+  aussi par une mise à jour directe du champ `nom` en base (script jetable,
+  supprimé après usage), sur le même principe que les autres corrections
+  ponctuelles de cette session.
+- **`dev` et `main` partagent la même base** : la mise à jour en base a donc
+  corrigé l'affichage sur les deux domaines en un seul geste, vérifié en
+  `curl` sur `elsass-dico-dev.theelsassisch.com/sources` **et**
+  `elsass-dico.theelsassisch.com/sources`. Le fichier JSON, lui, ne vit pour
+  l'instant que sur `dev` — il rejoindra `main` à la prochaine fusion, sans
+  urgence puisqu'il ne pilote qu'un futur réimport, jamais l'écran actuel.
+- Une note de traçabilité a été ajoutée directement dans le champ `notes` du
+  JSON (avec les deux preuves ci-dessus), pour qu'une relecture future ne
+  réintroduise pas « Matzen » sans revérifier.
+
+**Deuxième retour de John, même jour** : le nom disait encore « site d'André
+Nisslé **et contributeurs** », alors que Nisslé est décédé (un article France
+Bleu ultérieur, sur la réédition papier de son « Lehrstuwa », le nomme « le
+regretté André Nisslé » — date de décès non trouvée). Vérifié avant de
+corriger : la balise META `Author` de la page archivée (elsassisch.eu) ne
+nomme qu'André Nisslé, aucun contributeur — « et contributeurs » n'était donc
+pas seulement daté (site non maintenu, déjà noté), il affirmait quelque chose
+que la source elle-même ne dit pas. Retiré du `nom`
+(→ « Culture Alsace (site d'André Nisslé) ») dans le JSON et en base, même
+mécanisme que la correction précédente.
+
+## Clôture de session (18/09/2026)
+
+Neuf commits sur `dev` depuis la dernière fusion (PR #46, 17/09), pas encore
+proposés à `main` : la home publique enrichie (vitrine + recherche
+village/prénom), sa refonte UI/UX, et les deux correctifs d'attribution
+`culture_alsace`. Tout est vérifié à l'écran ou sur l'artefact déployé (cf.
+sections ci-dessus), rien n'est laissé à moitié fait — mais le code de
+`elsass-dico.theelsassisch.com` ne reflète pas encore la nouvelle home, à la
+différence des deux correctifs d'attribution (déjà visibles sur `main`
+puisqu'ils touchaient la base, partagée entre les deux applications
+Coolify, et non le code).
+
+État exact : `git log origin/main..origin/dev --oneline` liste `191cfbc` →
+`fde9eeb`. Aucun commit ne divergeait sur `main`, donc une PR future s'y
+fusionnerait par fast-forward ou simple merge commit, comme les PR #45 et
+#46. Reste hors du périmètre de cette session, comme documenté depuis le
+12-13/09 : auto-inscription Odoo, aire linguistique du 57, gameplay.
+
 ## Règles de travail
 
 - Ne jamais inventer de traduction alsacienne, même pour un exemple ou un test.

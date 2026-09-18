@@ -1437,6 +1437,17 @@ Wärterbüach (André Nisslé) », confirmé par un reportage France Bleu Alsace
   JSON (avec les deux preuves ci-dessus), pour qu'une relecture future ne
   réintroduise pas « Matzen » sans revérifier.
 
+**Deuxième retour de John, même jour** : le nom disait encore « site d'André
+Nisslé **et contributeurs** », alors que Nisslé est décédé (un article France
+Bleu ultérieur, sur la réédition papier de son « Lehrstuwa », le nomme « le
+regretté André Nisslé » — date de décès non trouvée). Vérifié avant de
+corriger : la balise META `Author` de la page archivée (elsassisch.eu) ne
+nomme qu'André Nisslé, aucun contributeur — « et contributeurs » n'était donc
+pas seulement daté (site non maintenu, déjà noté), il affirmait quelque chose
+que la source elle-même ne dit pas. Retiré du `nom`
+(→ « Culture Alsace (site d'André Nisslé) ») dans le JSON et en base, même
+mécanisme que la correction précédente.
+
 ## Règles de travail
 
 - Ne jamais inventer de traduction alsacienne, même pour un exemple ou un test.

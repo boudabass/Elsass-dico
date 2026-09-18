@@ -1,12 +1,12 @@
 {
   "code": "culture_alsace",
-  "nom": "Culture Alsace (site de Raymond Matzen et contributeurs)",
+  "nom": "Culture Alsace (site d'André Nisslé et contributeurs)",
   "url": "http://culture.alsace.pagesperso-orange.fr/",
   "type": "site",
   "annee": null,
   "licence": "non précisée — site personnel",
   "fiabilite": 3,
-  "notes": "Source unique, non recoupée. À traiter comme 1 source sur N : le dossier Dictionnaire (7260 entrées, lettres A-D) en est un scrape mot pour mot, et le miroir de la page A est commité dans temp_page_af.html.\n\nLe site d'origine n'étant plus maintenu, l'accès passe par le miroir https://www.elsassisch.eu/culture.alsace.pagesperso-orange.archive/ . Ce miroir n'est PAS une source distincte : le chemin d'URL le déclare lui-même archive du même site, donc même auteur. Lui attribuer un code propre reviendrait à se recouper avec soi-même et viderait la règle 2 de sa substance.",
+  "notes": "Source unique, non recoupée. À traiter comme 1 source sur N : le dossier Dictionnaire (7260 entrées, lettres A-D) en est un scrape mot pour mot, et le miroir de la page A est commité dans temp_page_af.html.\n\nLe site d'origine n'étant plus maintenu, l'accès passe par le miroir https://www.elsassisch.eu/culture.alsace.pagesperso-orange.archive/ . Ce miroir n'est PAS une source distincte : le chemin d'URL le déclare lui-même archive du même site, donc même auteur. Lui attribuer un code propre reviendrait à se recouper avec soi-même et viderait la règle 2 de sa substance.\n\nCorrection d'attribution (18/09/2026) : le champ `nom` créditait « Raymond Matzen », confondu avec l'universitaire strasbourgeois du même nom (1921-2014, auteur de dictionnaires imprimés distincts, sans lien avec ce site). Le vrai auteur est André Nisslé — la page d'accueil du site archivé (elsassisch.eu) crédite elle-même ce dictionnaire comme « S elsassischa Wärterbüach (André Nisslé) », confirmé par un reportage France Bleu Alsace de 2015 titré « le dictionnaire alsacien d'André Nisslé ». Ne pas réintroduire « Matzen » sans revérifier cette source.",
   "miroir": "https://www.elsassisch.eu/culture.alsace.pagesperso-orange.archive/",
   "rubriques": [
     {

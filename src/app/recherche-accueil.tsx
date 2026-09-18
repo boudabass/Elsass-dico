@@ -33,7 +33,7 @@ export function RechercheAccueil() {
     const afficherSuggestions = cle !== null
 
     return (
-        <div className="relative w-full max-w-xs text-left">
+        <div className="relative w-full max-w-sm text-left">
             <label htmlFor="accueil-recherche" className="sr-only">
                 Chercher un village ou un prénom
             </label>
@@ -43,10 +43,10 @@ export function RechercheAccueil() {
                 onChange={(e) => setTerme(e.target.value)}
                 placeholder="Un village, un prénom…"
                 autoComplete="off"
-                className="h-12 w-full rounded-lg border border-input bg-background px-3.5 text-base"
+                className="h-12 w-full rounded-lg border border-input bg-background px-3.5 text-base outline-none placeholder:text-neutre-400 focus-visible:ring-2 focus-visible:ring-ring"
             />
             {afficherSuggestions && (
-                <ul className="absolute z-10 mt-1 max-h-64 w-full overflow-y-auto rounded-lg border border-border bg-background shadow-md">
+                <ul className="absolute z-10 mt-1.5 max-h-64 w-full overflow-y-auto rounded-lg border border-border bg-background shadow-md">
                     {(suggestions ?? []).length === 0 ? (
                         <li className="px-3.5 py-2.5 text-sm text-muted-foreground">Aucun résultat.</li>
                     ) : (
@@ -54,7 +54,7 @@ export function RechercheAccueil() {
                             <li key={`${s.type}-${s.slug}`}>
                                 <Link
                                     href={s.type === "village" ? `/village/${s.slug}` : `/prenom/${s.slug}`}
-                                    className="flex items-center justify-between gap-2 px-3.5 py-2.5 text-sm hover:bg-neutre-50"
+                                    className="flex items-center justify-between gap-2 px-3.5 py-2.5 text-sm outline-none transition-colors hover:bg-neutre-100 focus-visible:bg-neutre-100"
                                 >
                                     <span className="font-medium text-foreground">{s.label}</span>
                                     {s.sousLabel && (

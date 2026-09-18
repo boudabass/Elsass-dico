@@ -1397,6 +1397,46 @@ restent, seule la présentation change).
   classes Tailwind responsive déjà éprouvées ailleurs dans l'app, mais reste
   à confirmer par John sur un téléphone réel.
 
+## Correction d'attribution : culture_alsace n'est pas de Raymond Matzen (18/09/2026)
+
+Signalement de John, recherche web fournie à l'appui : le champ `nom` de la
+source `culture_alsace` (le scrape de culture.alsace.pagesperso-orange.fr,
+7260 entrées) créditait « Raymond Matzen », confondu avec l'universitaire
+strasbourgeois du même nom (1921-2014, auteur de dictionnaires imprimés —
+proverbes, gros mots alsaciens — sans aucun lien avec ce site). Le vrai
+auteur est **André Nisslé** : la page d'accueil du site archivé
+(elsassisch.eu) crédite elle-même ce dictionnaire comme « S elsassischa
+Wärterbüach (André Nisslé) », confirmé par un reportage France Bleu Alsace de
+2015 titré « le dictionnaire alsacien d'André Nisslé ».
+
+- **Grep du dépôt entier** : une seule occurrence réelle
+  (`data/sources/culture_alsace.json`, champ `nom`) — le seul autre résultat
+  (« Matzenheim », une commune du 67) est un faux positif. Aucune mention
+  dans le code, les migrations, la doc ou une page « à propos ».
+- **Pas de champ `auteur` dédié sur le modèle `Source`** (`prisma/schema.prisma`) :
+  l'attribution vit dans le texte libre du champ `nom`
+  (« Culture Alsace (site de X et contributeurs) »), affiché tel quel sur
+  `/sources` et `/admin/sources`. C'est bien le « libellé affiché » que la
+  correction devait viser, pas un identifiant technique — `code:
+  "culture_alsace"` n'a pas bougé, aucune référence dans `attestations` ou
+  `temoignages` n'est affectée.
+- **Corriger le JSON ne suffisait pas** : `scripts/importer-data.mts` est
+  idempotent par `code` et ne réécrit jamais un `Source` déjà présent en base
+  (`if (existante) { ...; continue }`) — un simple commit du fichier n'aurait
+  rien changé à l'écran tant qu'un réimport complet n'a pas lieu. Corrigé
+  aussi par une mise à jour directe du champ `nom` en base (script jetable,
+  supprimé après usage), sur le même principe que les autres corrections
+  ponctuelles de cette session.
+- **`dev` et `main` partagent la même base** : la mise à jour en base a donc
+  corrigé l'affichage sur les deux domaines en un seul geste, vérifié en
+  `curl` sur `elsass-dico-dev.theelsassisch.com/sources` **et**
+  `elsass-dico.theelsassisch.com/sources`. Le fichier JSON, lui, ne vit pour
+  l'instant que sur `dev` — il rejoindra `main` à la prochaine fusion, sans
+  urgence puisqu'il ne pilote qu'un futur réimport, jamais l'écran actuel.
+- Une note de traçabilité a été ajoutée directement dans le champ `notes` du
+  JSON (avec les deux preuves ci-dessus), pour qu'une relecture future ne
+  réintroduise pas « Matzen » sans revérifier.
+
 ## Règles de travail
 
 - Ne jamais inventer de traduction alsacienne, même pour un exemple ou un test.

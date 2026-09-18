@@ -1448,6 +1448,24 @@ que la source elle-même ne dit pas. Retiré du `nom`
 (→ « Culture Alsace (site d'André Nisslé) ») dans le JSON et en base, même
 mécanisme que la correction précédente.
 
+## Clôture de session (18/09/2026)
+
+Neuf commits sur `dev` depuis la dernière fusion (PR #46, 17/09), pas encore
+proposés à `main` : la home publique enrichie (vitrine + recherche
+village/prénom), sa refonte UI/UX, et les deux correctifs d'attribution
+`culture_alsace`. Tout est vérifié à l'écran ou sur l'artefact déployé (cf.
+sections ci-dessus), rien n'est laissé à moitié fait — mais le code de
+`elsass-dico.theelsassisch.com` ne reflète pas encore la nouvelle home, à la
+différence des deux correctifs d'attribution (déjà visibles sur `main`
+puisqu'ils touchaient la base, partagée entre les deux applications
+Coolify, et non le code).
+
+État exact : `git log origin/main..origin/dev --oneline` liste `191cfbc` →
+`fde9eeb`. Aucun commit ne divergeait sur `main`, donc une PR future s'y
+fusionnerait par fast-forward ou simple merge commit, comme les PR #45 et
+#46. Reste hors du périmètre de cette session, comme documenté depuis le
+12-13/09 : auto-inscription Odoo, aire linguistique du 57, gameplay.
+
 ## Règles de travail
 
 - Ne jamais inventer de traduction alsacienne, même pour un exemple ou un test.

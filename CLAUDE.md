@@ -1357,6 +1357,46 @@ connecter.
   « Colmar · Haut-Rhin » → clic → `/village/colmar-68066` en 200, sans aucune
   redirection vers `/login`.
 
+### Refonte UI/UX de la home, retrait de l'argument ORTHAL (18/09/2026)
+
+Deuxième retour de John le même jour, sur la version qui vient d'être livrée :
+le pitch disait encore « en graphie ORTHAL », périmé depuis le 11/09
+(« ORTHAL devient secondaire comme arbitre », plus de forme canonique) — et
+les deux boutons `Se connecter`/`Créer un compte`, empilés pleine largeur
+juste sous la vitrine, « font tache et désordonné ». Passé par le skill
+`impeccable` (mode Persuade, refinement — le contenu et les fonctions
+restent, seule la présentation change).
+
+- **Copie réécrite** autour de ce que le produit vend réellement : aucune
+  forme n'est « la bonne », chaque village garde la sienne. Nouveau titre
+  (« Le français-alsacien, village par village. ») et nouveau sous-texte, sans
+  aucune mention d'ORTHAL — la graphie reste documentée dans
+  `documentation/orthal/` pour qui construit le dico, elle n'a plus à figurer
+  dans l'argumentaire d'un visiteur.
+- **Hiérarchie Persuade** : un seul bouton plein (« Créer un compte », l'action
+  de croissance) plutôt que deux boutons de poids égal. « Se connecter »
+  redescend en lien discret dans une barre du haut, pour qui revient déjà
+  équipé d'un compte — il n'a plus besoin de rivaliser visuellement.
+- **Rythme de page** : la recherche et la vitrine passent chacune dans leur
+  propre section avec un vrai titre (`<h2>`), la recherche encadrée d'un
+  panneau `bg-neutre-50` pour la distinguer du reste — plutôt que tout
+  empiler sur fond blanc uniforme, la source du « désordre » signalé.
+- **Détecteur mécanique impeccable** (`impeccable detect --json`) : aucun
+  défaut relevé sur les deux fichiers touchés.
+- **Vérifié** : `tsc --noEmit` propre, `pnpm build` a régénéré les 966/966
+  pages (seul l'EPERM symlink Windows connu suit). Poussé sur `dev`
+  (`bb33ea0`), déploiement confirmé par `updated_at` Coolify avancé
+  (16:05:54 → 19:51:29).
+- **Vérifié à l'écran** (Chrome piloté, `elsass-dico-dev.theelsassisch.com/`,
+  desktop) : plus aucune mention d'ORTHAL ; un seul bouton plein visible,
+  « Se connecter » en lien discret en haut à droite ; recherche « ambroise »
+  → suggestion « Ambroise », anneau de focus doré visible. **Non vérifié en
+  vrai viewport mobile** : `resize_window` (Chrome piloté) n'a eu aucun effet
+  cette session, même défaut d'outillage que le 17/09 — la mise en page
+  mobile (grille 2 colonnes, boutons pleine largeur) repose sur les mêmes
+  classes Tailwind responsive déjà éprouvées ailleurs dans l'app, mais reste
+  à confirmer par John sur un téléphone réel.
+
 ## Règles de travail
 
 - Ne jamais inventer de traduction alsacienne, même pour un exemple ou un test.

@@ -1475,6 +1475,59 @@ et sert la nouvelle home (« village par village », vitrine, recherche) ;
 `/village/colmar-68066` → 200 ; `/sources` affiche « Culture Alsace (site
 d'André Nisslé) ». `main` et `dev` sont maintenant alignés.
 
+## Revue qualité thermo-nucléaire du code applicatif (19/09/2026)
+
+Première revue de ce type sur ce projet, demandée hors de tout chantier de
+fonctionnalité — audit de l'ensemble du code applicatif (~6000 lignes hors
+Prisma généré et composants shadcn vendus), pas d'un diff. Verdict global :
+base disciplinée, aucune régression structurelle trouvée. Trois findings
+mineurs, tous corrigés :
+
+- **Motif garde-admin dupliqué 3×** (`admin/page.tsx`, `admin/sources/page.tsx`,
+  `admin/signalements/page.tsx`) : `estAdmin` + clé de cache + toast d'erreur +
+  repli `[]`, recopié à l'identique sur les trois écrans. Extrait dans
+  `src/hooks/use-liste-admin.ts` — même seuil que celui déjà appliqué à
+  `CarteVariante` le 13/09 (« trois écrans l'affichent, ce qui justifie
+  l'extraction »).
+- **Ternaire département** dans `entree/[id]/page.tsx` réinventant
+  `LIBELLES_DEPARTEMENT`, déjà importé dans le même fichier et déjà réutilisé
+  par `village/[slug]/page.tsx`. Remplacé par une relecture de la table.
+- **`.find()` linéaire évitable** dans `scripts/deriver.mts` (complétion des
+  articles au rejeu) : une Map indexée par la même clé existait déjà juste
+  au-dessus pour un besoin voisin (résolution d'id des témoignages), mais ne
+  portait que l'`id` — la boucle de complétion refaisait un balayage linéaire
+  de ~41 600 lignes pour chacune des ~8 886 lignes à article. Fusionné en une
+  seule Map portant l'enregistrement complet.
+
+**Un deuxième passage a revu la correction elle-même** (auto-relecture, avant
+tout commit) : `useListeAdmin()` tel qu'écrit au premier jet était générique
+sur la forme brute de chaque action (`R extends {succes:true}|{succes:false}`),
+ce qui forçait deux paramètres de type explicites à chaque appel et un cast
+interne (`as Extract<R,...>`) — TypeScript ne *narrow* pas un paramètre
+générique contraint à une union comme il narrow une union concrète. Corrigé en
+contractualisant le hook sur une forme uniforme `{succes:true; liste:T[]} |
+{succes:false; erreur}` : chaque écran normalise le champ propre à son action
+(`membres`/`sources`/`signalements` → `liste`) dans un adaptateur inline d'une
+ligne, le hook n'a plus qu'un seul paramètre de type et aucun cast. Leçon
+générale : une revue de qualité doit se retourner sur son propre correctif
+avant de le considérer clos, pas seulement sur le code d'origine.
+
+**Vérifié aux deux passages** : `pnpm run typecheck` (app + scripts, deux
+`tsconfig` distincts) et `pnpm build` (966/966 pages) propres, seul l'EPERM
+symlink Windows connu suit.
+
+Commité (`5ffe53d`) et poussé sur `dev`, puis fusionné dans `main` sur demande
+de John : **PR #48**, commit de merge `182dd49` — même méthode que les PR
+#45-47. **Déploiement Coolify non confirmé à la clôture** : `updated_at` de
+`elsass-dico:main` relu juste après la fusion (03:29:28Z) affichait encore
+01:37:10Z, donc antérieur au merge — contrairement aux fusions précédentes, le
+redéploiement automatique n'était pas encore parti au moment de vérifier. Un
+`curl` sur `/`, `/admin` et `/village/colmar-68066` a rendu les codes attendus
+(200/307/200), mais ça ne distingue pas l'ancien code du nouveau : ces trois
+changements sont des refactors purs, sans aucun effet observable côté écran.
+**À confirmer à la prochaine session** : que `elsass-dico:main` a bien
+redéployé depuis, en relisant `updated_at` avant tout autre contrôle.
+
 ## Règles de travail
 
 - Ne jamais inventer de traduction alsacienne, même pour un exemple ou un test.

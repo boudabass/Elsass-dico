@@ -1,14 +1,11 @@
 "use client";
 
 import { Library } from "lucide-react";
-import { toast } from "sonner";
 
 import { listerSourcesAction } from "@/app/actions/sources";
 import { AppHeader } from "@/components/app-header";
-import { useAuth } from "@/components/auth-provider";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { useListeMemorisee } from "@/hooks/use-liste-memorisee";
-import { cleCache } from "@/lib/cache-navigation";
+import { useListeAdmin } from "@/hooks/use-liste-admin";
 import type { SourceListe } from "@/lib/sources";
 
 // Troisième et dernier des trois écrans admin du doc 20. `Source` est de
@@ -17,22 +14,13 @@ import type { SourceListe } from "@/lib/sources";
 // elles viennent des fiches versionnées de `data/sources/`, pas de l'app.
 
 export default function AdminSourcesPage() {
-  const { session, role } = useAuth();
-  const estAdmin = Boolean(session) && role === "admin";
-
-  const { donnees: sourcesChargees, premierChargement } = useListeMemorisee<SourceListe[]>({
-    cle: estAdmin ? cleCache("admin-sources", session!.membreId) : null,
-    charger: async () => {
+  const { estAdmin, items: sources, premierChargement } = useListeAdmin<SourceListe>(
+    "admin-sources",
+    async () => {
       const res = await listerSourcesAction();
-      if (!res.succes) {
-        toast.error(res.erreur);
-        return [];
-      }
-      return res.sources;
+      return res.succes ? { succes: true, liste: res.sources } : res;
     },
-  });
-
-  const sources = sourcesChargees ?? [];
+  );
 
   if (!estAdmin) return <div className="p-8 text-center">Accès refusé</div>;
 

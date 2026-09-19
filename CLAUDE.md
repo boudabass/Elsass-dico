@@ -1466,6 +1466,15 @@ fusionnerait par fast-forward ou simple merge commit, comme les PR #45 et
 #46. Reste hors du périmètre de cette session, comme documenté depuis le
 12-13/09 : auto-inscription Odoo, aire linguistique du 57, gameplay.
 
+**Fusionné dans la foulée, sur demande de John** : PR #47 (`dev` → `main`),
+fusionnée par commit de merge (`ec6167b`) — même méthode que les PR #45/#46.
+Déploiement Coolify de `elsass-dico:main` confirmé par `updated_at` avancé
+(19:16:43 → 22:21:54). **Vérifié sur l'artefact réel** (`curl`) : `/` → 200
+et sert la nouvelle home (« village par village », vitrine, recherche) ;
+`/recherche` → 307 vers `/login` (barrière d'auth intacte) ;
+`/village/colmar-68066` → 200 ; `/sources` affiche « Culture Alsace (site
+d'André Nisslé) ». `main` et `dev` sont maintenant alignés.
+
 ## Règles de travail
 
 - Ne jamais inventer de traduction alsacienne, même pour un exemple ou un test.

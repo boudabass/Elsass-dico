@@ -6,11 +6,9 @@ import { toast } from "sonner";
 
 import { changerRoleAction, listerMembresAction } from "@/app/actions/membres";
 import { AppHeader } from "@/components/app-header";
-import { useAuth } from "@/components/auth-provider";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
-import { useListeMemorisee } from "@/hooks/use-liste-memorisee";
-import { cleCache } from "@/lib/cache-navigation";
+import { useListeAdmin } from "@/hooks/use-liste-admin";
 import { LIBELLES_ROLE, ROLES, type MembreListe } from "@/lib/membres";
 
 // Écran des membres. Réécrit le 12/09/2026 : il pilotait l'annuaire
@@ -32,26 +30,13 @@ function dateCourte(iso: string | null): string {
 }
 
 export default function AdminPage() {
-  const { session, role } = useAuth();
-  const estAdmin = Boolean(session) && role === "admin";
-
-  const {
-    donnees: membresCharges,
-    premierChargement,
-    rafraichir,
-  } = useListeMemorisee<MembreListe[]>({
-    cle: estAdmin ? cleCache("admin-membres", session!.membreId) : null,
-    charger: async () => {
+  const { estAdmin, items: membres, premierChargement, rafraichir } = useListeAdmin<MembreListe>(
+    "admin-membres",
+    async () => {
       const res = await listerMembresAction();
-      if (!res.succes) {
-        toast.error(res.erreur);
-        return [];
-      }
-      return res.membres;
+      return res.succes ? { succes: true, liste: res.membres } : res;
     },
-  });
-
-  const membres = membresCharges ?? [];
+  );
 
   // Le middleware redirige déjà un non-admin ; ce garde-fou n'est là que pour le
   // cas où il serait contourné. La vraie barrière est côté serveur —

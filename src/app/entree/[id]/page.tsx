@@ -3,7 +3,7 @@ import { MapPin } from "lucide-react";
 import { AppHeader } from "@/components/app-header";
 import { CarteVariante } from "@/components/carte-variante";
 import { chargerLemme } from "@/app/actions/recherche";
-import { LIBELLES_TYPE_TERME } from "@/lib/dictionnaire";
+import { LIBELLES_DEPARTEMENT, LIBELLES_TYPE_TERME } from "@/lib/dictionnaire";
 import { RangeeActions } from "./actions-row";
 import { EditerVariante } from "./editer-variante";
 import { NouvelleVariante } from "./nouvelle-variante";
@@ -44,11 +44,7 @@ export default async function EntreePage({ params }: { params: Promise<{ id: str
           {lemme.commune && (
             <span className="inline-flex items-center gap-1">
               <MapPin className="h-3.5 w-3.5" strokeWidth={2} />
-              {lemme.commune.departement === "67"
-                ? "Bas-Rhin"
-                : lemme.commune.departement === "68"
-                  ? "Haut-Rhin"
-                  : "Moselle"}
+              {LIBELLES_DEPARTEMENT[lemme.commune.departement] ?? lemme.commune.departement}
             </span>
           )}
         </div>

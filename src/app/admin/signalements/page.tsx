@@ -6,10 +6,8 @@ import { toast } from "sonner";
 
 import { listerSignalementsAction, traiterSignalementAction } from "@/app/actions/signalements";
 import { AppHeader } from "@/components/app-header";
-import { useAuth } from "@/components/auth-provider";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { useListeMemorisee } from "@/hooks/use-liste-memorisee";
-import { cleCache } from "@/lib/cache-navigation";
+import { useListeAdmin } from "@/hooks/use-liste-admin";
 import type { SignalementListe } from "@/lib/signalements";
 
 // Deuxième des trois écrans admin du doc 20 (« Admin, trois écrans : membres,
@@ -31,26 +29,13 @@ function dateCourte(iso: string): string {
 }
 
 export default function AdminSignalementsPage() {
-  const { session, role } = useAuth();
-  const estAdmin = Boolean(session) && role === "admin";
-
-  const {
-    donnees: signalementsCharges,
-    premierChargement,
-    rafraichir,
-  } = useListeMemorisee<SignalementListe[]>({
-    cle: estAdmin ? cleCache("admin-signalements", session!.membreId) : null,
-    charger: async () => {
+  const { estAdmin, items: signalements, premierChargement, rafraichir } = useListeAdmin<SignalementListe>(
+    "admin-signalements",
+    async () => {
       const res = await listerSignalementsAction();
-      if (!res.succes) {
-        toast.error(res.erreur);
-        return [];
-      }
-      return res.signalements;
+      return res.succes ? { succes: true, liste: res.signalements } : res;
     },
-  });
-
-  const signalements = signalementsCharges ?? [];
+  );
 
   if (!estAdmin) return <div className="p-8 text-center">Accès refusé</div>;
 

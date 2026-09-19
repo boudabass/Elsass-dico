@@ -383,7 +383,12 @@ try {
     const variantesEnBase = await prisma.variante.findMany({
         select: { id: true, lemmeId: true, cleForme: true, article: true, creeParId: true },
     })
-    const idVariante = new Map(variantesEnBase.map((v) => [`${v.lemmeId}${SEP}${v.cleForme}`, v.id]))
+    // Une seule Map, indexée par (lemmeId, cleForme) : elle sert à la fois de
+    // résolution d'id (lignesTemoignages plus bas) et de relecture pour la
+    // complétion d'article qui suit — un `.find()` répété sur
+    // `variantesEnBase` referait pour chacune des lignes à article un
+    // balayage linéaire déjà couvert ici.
+    const parCleVariante = new Map(variantesEnBase.map((v) => [`${v.lemmeId}${SEP}${v.cleForme}`, v]))
 
     // Une variante écrite lors d'un passage antérieur peut avoir été créée
     // depuis une attestation dont l'article n'était pas décomposé. On complète,
@@ -392,8 +397,7 @@ try {
     let articlesCompletes = 0
     for (const v of lignesVariantes) {
         if (!v.article) continue
-        const enBase = variantesEnBase.find((x) =>
-            x.lemmeId === v.lemmeId && x.cleForme === v.cleForme)
+        const enBase = parCleVariante.get(`${v.lemmeId}${SEP}${v.cleForme}`)
         if (!enBase || enBase.article || enBase.creeParId) continue
         await prisma.variante.update({
             where: { id: enBase.id },
@@ -408,7 +412,7 @@ try {
         const lemmeId = idLemme.get(v.cleLemme)!
         return {
             id: randomUUID(),
-            varianteId: idVariante.get(`${lemmeId}${SEP}${cleDeForme(v.forme)}`)!,
+            varianteId: parCleVariante.get(`${lemmeId}${SEP}${cleDeForme(v.forme)}`)!.id,
             sourceId: t.sourceId,
             attestationId: t.attestationId,
             aireDeclaree: t.aireDeclaree as any,

@@ -83,7 +83,7 @@ export default async function AccueilPubliquePage() {
                   key={mot.id}
                   className="rounded-xl border border-border bg-card p-3 text-left"
                 >
-                  <p className="text-xs font-semibold text-neutre-400">{mot.francais}</p>
+                  <p className="text-xs font-semibold text-muted-foreground">{mot.francais}</p>
                   <ul className="mt-1 space-y-1">
                     {mot.formes.map((f) => (
                       <li key={f.forme} className="flex flex-wrap items-center gap-1.5">
@@ -98,7 +98,7 @@ export default async function AccueilPubliquePage() {
           </section>
         )}
 
-        <p className="mt-14 text-xs text-neutre-400">
+        <p className="mt-14 text-xs text-muted-foreground">
           <Link href="/sources" className="underline underline-offset-2">
             Sources et licences
           </Link>

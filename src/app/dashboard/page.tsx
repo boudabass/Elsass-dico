@@ -81,9 +81,9 @@ export default function MonEspacePage() {
                                     Ton village
                                 </p>
                                 <p className="mt-1.5 text-sm leading-[1.5] text-muted-foreground">
-                                    Il rattache les formes que tu reconnais aux villages qui
-                                    les disent. Choisi dans une liste — rien n&apos;est
-                                    déduit de ta position — et modifiable à tout moment.
+                                    Choisis ton village pour pouvoir y rattacher les formes que
+                                    tu reconnais. Il se choisit dans une liste, rien n&apos;est
+                                    déduit de ta position, et reste modifiable à tout moment.
                                 </p>
                                 <VillageProfil villageActuel={espace?.village ?? null} onDefini={rafraichir} />
                             </div>
@@ -91,7 +91,7 @@ export default function MonEspacePage() {
 
                         {role === "admin" && (
                             <>
-                                <p className="mb-2.5 mt-[22px] text-xs font-bold uppercase tracking-wide text-neutre-400">
+                                <p className="mb-2.5 mt-[22px] text-xs font-bold uppercase tracking-wide text-muted-foreground">
                                     Administration
                                 </p>
                                 <Link
@@ -142,7 +142,7 @@ function Identite({
                 <div className="flex flex-wrap items-center gap-1.5">
                     <RolePill role={role} />
                     {village && (
-                        <span className="inline-flex items-center gap-1 text-xs text-neutre-400">
+                        <span className="inline-flex items-center gap-1 text-xs text-muted-foreground">
                             <MapPin className="h-3 w-3" strokeWidth={2.4} />
                             {village}
                         </span>
@@ -172,7 +172,7 @@ function StatCase({ valeur, libelle }: { valeur: number; libelle: string }) {
     return (
         <div className="rounded-lg border border-border p-2.5 text-center">
             <div className="text-[19px] font-extrabold text-foreground">{valeur}</div>
-            <div className="text-xs text-neutre-400">{libelle}</div>
+            <div className="text-xs text-muted-foreground">{libelle}</div>
         </div>
     );
 }

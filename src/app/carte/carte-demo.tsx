@@ -10,6 +10,9 @@ import { NouvelleVariante } from "@/app/entree/[id]/nouvelle-variante"
 import { VoteVariante } from "@/app/entree/[id]/vote-variante"
 import { AppHeader } from "@/components/app-header"
 import type { PointParler } from "@/components/carte-parlers"
+import { Command, CommandEmpty, CommandInput, CommandItem, CommandList } from "@/components/ui/command"
+import { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle, DialogTrigger } from "@/components/ui/dialog"
+import { Popover, PopoverAnchor, PopoverContent } from "@/components/ui/popover"
 import { useListeMemorisee } from "@/hooks/use-liste-memorisee"
 import { cleCache } from "@/lib/cache-navigation"
 import { couleurDeForme } from "@/lib/couleur-carte"
@@ -32,7 +35,17 @@ function Cadre({ children }: { children: React.ReactNode }) {
 
 export function CarteDemo() {
     const [terme, setTerme] = useState("")
+    const [termeDebattu, setTermeDebattu] = useState("")
     const [aideOuverte, setAideOuverte] = useState(false)
+
+    // Même patron que le débounce de la recherche de mot ci-dessous (250ms) :
+    // sans lui, chaque frappe recalculait `filtres` (nouvelle référence de
+    // tableau), ce qui forçait `CarteParlers` (effet dépendant de `points`)
+    // à détruire et reconstruire toute la carte Leaflet à chaque caractère.
+    useEffect(() => {
+        const minuteur = setTimeout(() => setTermeDebattu(terme), 250)
+        return () => clearTimeout(minuteur)
+    }, [terme])
 
     const { donnees, premierChargement } = useListeMemorisee<PointsCarte>({
         // Donnée publique, la même pour tout le monde : pas de segment
@@ -54,6 +67,11 @@ export function CarteDemo() {
     const [motSaisi, setMotSaisi] = useState("")
     const [requeteMot, setRequeteMot] = useState("")
     const [motActif, setMotActif] = useState<LemmeResume | null>(null)
+    // `afficherSuggestions` est dérivé du cache seul — sans cet état de
+    // fermeture explicite, un Popover contrôlé se rouvrirait aussitôt après
+    // une fermeture manuelle (Échap, clic extérieur), puisque la clé de
+    // cache ne change pas pour autant.
+    const [suggestionsFermees, setSuggestionsFermees] = useState(false)
 
     useEffect(() => {
         const saisie = motSaisi.trim()
@@ -70,7 +88,7 @@ export function CarteDemo() {
         cle: cleSuggestions,
         charger: () => rechercherAction(requeteMot),
     })
-    const afficherSuggestions = cleSuggestions !== null && !motActif
+    const popoverMotOuvert = cleSuggestions !== null && !motActif && !suggestionsFermees
 
     const clePointsMot = motActif ? cleCache("carte-mot", motActif.id) : null
     const {
@@ -86,6 +104,7 @@ export function CarteDemo() {
         setMotActif(lemme)
         setMotSaisi("")
         setRequeteMot("")
+        setSuggestionsFermees(false)
     }
 
     function revenirALaCarteDesVillages() {
@@ -95,22 +114,25 @@ export function CarteDemo() {
     }
 
     const filtres = useMemo(() => {
-        const t = terme.trim().toLowerCase()
+        const t = termeDebattu.trim().toLowerCase()
         if (!t) return points
         return points.filter((p) =>
             p.nom.toLowerCase().includes(t)
             || p.formes.some((f) => f.toLowerCase().includes(t)))
-    }, [points, terme])
+    }, [points, termeDebattu])
 
     const pointsAffiches: PointParler[] = motActif ? (pointsMot?.points ?? []) : filtres
 
     return (
-        // `overflow-hidden` : filet de sécurité — si le panneau de contribution
-        // grossit sur un petit écran (beaucoup de variantes), il a déjà son
-        // propre défilement interne (`overflow-y-auto` plus bas) ; sans cette
-        // ligne, un débordement de `main` remonterait quand même en scroll de
-        // PAGE, exactement ce qu'on cherche à supprimer.
-        <div className="flex h-dvh flex-col overflow-hidden md:pl-20 lg:pl-56">
+        // `Dialog` englobe tout l'écran : `DialogPrimitive.Root` ne rend aucun
+        // DOM lui-même, donc ça ne perturbe pas la mise en page flex ci-dessous.
+        <Dialog open={aideOuverte} onOpenChange={setAideOuverte}>
+            {/* `overflow-hidden` : filet de sécurité — si le panneau de contribution
+                grossit sur un petit écran (beaucoup de variantes), il a déjà son
+                propre défilement interne (`overflow-y-auto` plus bas) ; sans cette
+                ligne, un débordement de `main` remonterait quand même en scroll de
+                PAGE, exactement ce qu'on cherche à supprimer. */}
+            <div className="flex h-dvh flex-col overflow-hidden md:pl-20 lg:pl-56">
             <div className="shrink-0">
                 <AppHeader variant="root" actif="carte" titre="Carte des parlers" />
             </div>
@@ -126,64 +148,81 @@ export function CarteDemo() {
                         la seule base de l'ordre des enfants dans le DOM — c'est
                         ce qui décalait la barre de recherche vers le bas par
                         rapport au bouton « ? ». */}
-                    <div className="relative min-w-0 flex-1">
-                        <label htmlFor="carte-recherche-mot" className="sr-only">
-                            Chercher un mot du dictionnaire
-                        </label>
-                        <div className="relative">
-                            <input
-                                id="carte-recherche-mot"
-                                value={motSaisi}
-                                onChange={(e) => setMotSaisi(e.target.value)}
-                                placeholder="Chercher un mot : bonjour, salaire, Colmar…"
-                                className="w-full rounded-md border border-input bg-background px-3 py-2 pr-9 text-base"
-                                // `text-base` et non `text-sm` : en dessous de 16 px, iOS
-                                // zoome sur le champ au focus et casse le cadrage de la carte.
-                            />
-                            {motActif && (
-                                <button
-                                    type="button"
-                                    onClick={revenirALaCarteDesVillages}
-                                    aria-label="Revenir à la carte des villages"
-                                    className="absolute right-2 top-1/2 flex h-6 w-6 -translate-y-1/2 items-center justify-center rounded-full text-muted-foreground hover:bg-muted"
-                                >
-                                    ×
-                                </button>
-                            )}
-                        </div>
-                        {afficherSuggestions && (
-                            // z-index au-dessus de celui des panes Leaflet (jusqu'à 1000
-                            // pour .leaflet-top/.leaflet-bottom, les contrôles de zoom) :
-                            // sans ça la liste de suggestions passe derrière la carte, qui
-                            // ne crée son propre contexte d'empilement nulle part au-dessus.
-                            <ul className="absolute z-[1001] mt-1 max-h-64 w-full overflow-y-auto rounded-md border bg-background shadow-md">
-                                {(suggestions ?? []).length === 0 ? (
-                                    <li className="px-3 py-2 text-sm text-muted-foreground">Aucun résultat.</li>
-                                ) : (
-                                    (suggestions ?? []).map((s) => (
-                                        <li key={s.id}>
-                                            <button
-                                                type="button"
-                                                onClick={() => choisirMot(s)}
-                                                className="w-full px-3 py-2 text-left text-sm hover:bg-muted"
-                                            >
-                                                {s.francais}
-                                                {s.contexte ? <span className="text-muted-foreground"> — {s.contexte}</span> : null}
-                                            </button>
-                                        </li>
-                                    ))
-                                )}
-                            </ul>
-                        )}
-                    </div>
-                    <button
-                        type="button"
-                        onClick={() => setAideOuverte(true)}
-                        aria-label="Comment lire cette carte"
-                        className="flex h-10 w-10 shrink-0 items-center justify-center rounded-md border border-input bg-background text-sm font-semibold text-foreground hover:bg-muted"
+                    <Command
+                        shouldFilter={false}
+                        // cf. recherche-accueil.tsx : cmdk gère son propre id
+                        // interne pour l'input, un `<label htmlFor>` manuel se
+                        // retrouverait orphelin — `label` est le mécanisme
+                        // prévu par cmdk pour un libellé accessible non affiché.
+                        label="Chercher un mot du dictionnaire"
+                        className="relative min-w-0 flex-1 overflow-visible bg-transparent"
                     >
-                        ?
-                    </button>
+                        <Popover
+                            open={popoverMotOuvert}
+                            onOpenChange={(o) => { if (!o) setSuggestionsFermees(true) }}
+                        >
+                            <PopoverAnchor asChild>
+                                <div className="relative">
+                                    <CommandInput
+                                        value={motSaisi}
+                                        // Retaper efface directement le mot déjà actif : sans
+                                        // ça, `popoverMotOuvert` restait bloqué (`!motActif`)
+                                        // tant qu'on n'avait pas cliqué le × de retour.
+                                        onValueChange={(v) => { setMotSaisi(v); setSuggestionsFermees(false); setMotActif(null) }}
+                                        placeholder="Chercher un mot : bonjour, salaire, Colmar…"
+                                        wrapperClassName=""
+                                        showIcon={false}
+                                        className="w-full rounded-md border border-input bg-background px-3 py-2 pr-9 text-base"
+                                        // `text-base` et non `text-sm` : en dessous de 16 px, iOS
+                                        // zoome sur le champ au focus et casse le cadrage de la carte.
+                                    />
+                                    {motActif && (
+                                        <button
+                                            type="button"
+                                            onClick={revenirALaCarteDesVillages}
+                                            aria-label="Revenir à la carte des villages"
+                                            className="absolute right-2 top-1/2 flex h-8 w-8 -translate-y-1/2 items-center justify-center rounded-full text-muted-foreground hover:bg-muted"
+                                        >
+                                            ×
+                                        </button>
+                                    )}
+                                </div>
+                            </PopoverAnchor>
+                            <PopoverContent
+                                align="start"
+                                sideOffset={4}
+                                onOpenAutoFocus={(e) => e.preventDefault()}
+                                onCloseAutoFocus={(e) => e.preventDefault()}
+                                className="w-[--radix-popover-trigger-width] rounded-md p-0 shadow-md"
+                            >
+                                <CommandList className="max-h-64">
+                                    <CommandEmpty className="px-3 py-2 text-left text-sm text-muted-foreground">
+                                        Aucun résultat.
+                                    </CommandEmpty>
+                                    {(suggestions ?? []).map((s) => (
+                                        <CommandItem
+                                            key={s.id}
+                                            value={String(s.id)}
+                                            onSelect={() => choisirMot(s)}
+                                            className="w-full cursor-pointer justify-start gap-0 rounded-none px-3 py-2 text-left text-sm data-[selected=true]:bg-muted"
+                                        >
+                                            {s.francais}
+                                            {s.contexte ? <span className="text-muted-foreground"> — {s.contexte}</span> : null}
+                                        </CommandItem>
+                                    ))}
+                                </CommandList>
+                            </PopoverContent>
+                        </Popover>
+                    </Command>
+                    <DialogTrigger asChild>
+                        <button
+                            type="button"
+                            aria-label="Comment lire cette carte"
+                            className="flex h-10 w-10 shrink-0 items-center justify-center rounded-md border border-input bg-background text-sm font-semibold text-foreground hover:bg-muted"
+                        >
+                            ?
+                        </button>
+                    </DialogTrigger>
                 </div>
 
                 {motActif && (
@@ -251,60 +290,30 @@ export function CarteDemo() {
                 </p>
             </main>
 
-            {aideOuverte && <AideCarte onFermer={() => setAideOuverte(false)} />}
-        </div>
-    )
-}
-
-function AideCarte({ onFermer }: { onFermer: () => void }) {
-    useEffect(() => {
-        function surEchap(e: KeyboardEvent) {
-            if (e.key === "Escape") onFermer()
-        }
-        window.addEventListener("keydown", surEchap)
-        return () => window.removeEventListener("keydown", surEchap)
-    }, [onFermer])
-
-    return (
-        <div
-            className="fixed inset-0 z-[1100] flex items-center justify-center bg-black/40 p-4"
-            onClick={onFermer}
-        >
-            <div
-                role="dialog"
-                aria-modal="true"
-                aria-labelledby="aide-carte-titre"
-                className="max-w-md rounded-lg border bg-background p-5 shadow-lg"
-                onClick={(e) => e.stopPropagation()}
-            >
-                <div className="flex items-start justify-between gap-4">
-                    <h2 id="aide-carte-titre" className="text-base font-semibold text-foreground">
+            <DialogContent className="max-w-md gap-3 p-5">
+                <DialogHeader>
+                    <DialogTitle className="text-base font-semibold text-foreground">
                         Comment lire cette carte
-                    </h2>
-                    <button
-                        type="button"
-                        onClick={onFermer}
-                        aria-label="Fermer"
-                        className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full text-muted-foreground hover:bg-muted"
-                    >
-                        ×
-                    </button>
-                </div>
-                <div className="mt-3 space-y-2 text-sm text-muted-foreground">
-                    <p>
-                        Sans recherche, chaque point est un village : sa couleur suit la
-                        première forme qu'on lui connaît pour son propre nom.
-                    </p>
-                    <p>
-                        En cherchant un mot, chaque point devient une variante de ce mot —
-                        une couleur par variante, aux villages qui la revendiquent.
-                    </p>
-                    <p>
-                        Clique un point pour voir le détail. « + Chez moi aussi » et
-                        « Ça se dit autrement chez moi » ajoutent directement ton village.
-                    </p>
-                </div>
+                    </DialogTitle>
+                </DialogHeader>
+                <DialogDescription asChild>
+                    <div className="space-y-2 text-sm text-muted-foreground">
+                        <p>
+                            Sans recherche, chaque point est un village : sa couleur suit la
+                            première forme qu'on lui connaît pour son propre nom.
+                        </p>
+                        <p>
+                            En cherchant un mot, chaque point devient une variante de ce mot —
+                            une couleur par variante, aux villages qui la revendiquent.
+                        </p>
+                        <p>
+                            Clique un point pour voir le détail. « + Chez moi aussi » et
+                            « Ça se dit autrement chez moi » ajoutent directement ton village.
+                        </p>
+                    </div>
+                </DialogDescription>
+            </DialogContent>
             </div>
-        </div>
+        </Dialog>
     )
 }

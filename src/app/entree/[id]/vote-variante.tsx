@@ -52,8 +52,8 @@ export function VoteVariante({
             aria-pressed={monVote}
             className={
                 monVote
-                    ? "inline-flex h-8 items-center gap-1 rounded-full bg-succes-100 px-3 text-xs font-semibold text-succes-500 disabled:opacity-60"
-                    : "inline-flex h-8 items-center gap-1 rounded-full border border-bordure-forte px-3 text-xs font-semibold text-foreground transition-colors hover:bg-neutre-50 disabled:opacity-60"
+                    ? "inline-flex h-9 items-center gap-1 rounded-full bg-succes-100 px-3 text-xs font-semibold text-succes-500 disabled:opacity-60"
+                    : "inline-flex h-9 items-center gap-1 rounded-full border border-bordure-forte px-3 text-xs font-semibold text-foreground transition-colors hover:bg-neutre-50 disabled:opacity-60"
             }
         >
             {monVote ? "✓ Chez moi aussi" : "+ Chez moi aussi"}

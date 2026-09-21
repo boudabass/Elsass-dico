@@ -51,9 +51,9 @@ export default function AdminSourcesPage() {
                   <thead className="border-b bg-muted">
                     <tr>
                       <th className="p-3 font-semibold">Source</th>
-                      <th className="p-3 font-semibold">Licence</th>
+                      <th className="hidden p-3 font-semibold md:table-cell">Licence</th>
                       <th className="p-3 font-semibold text-right">Fiabilité</th>
-                      <th className="p-3 font-semibold text-right">Attestations</th>
+                      <th className="hidden p-3 font-semibold text-right md:table-cell">Attestations</th>
                       <th className="p-3 font-semibold text-right">Témoignages</th>
                     </tr>
                   </thead>
@@ -78,9 +78,9 @@ export default function AdminSourcesPage() {
                             {s.annee ? ` · ${s.annee}` : ""}
                           </span>
                         </td>
-                        <td className="p-3">{s.licence ?? "—"}</td>
+                        <td className="hidden p-3 md:table-cell">{s.licence ?? "—"}</td>
                         <td className="p-3 text-right tabular-nums">{s.fiabilite}</td>
-                        <td className="p-3 text-right tabular-nums">{s.nbAttestations}</td>
+                        <td className="hidden p-3 text-right tabular-nums md:table-cell">{s.nbAttestations}</td>
                         <td className="p-3 text-right tabular-nums">{s.nbTemoignages}</td>
                       </tr>
                     ))}

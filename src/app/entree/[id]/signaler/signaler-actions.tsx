@@ -40,10 +40,11 @@ export function SignalerActions({
 
   return (
     <>
-      <label className="block text-xs font-semibold uppercase tracking-wide text-neutre-400">
+      <label htmlFor="signaler-variante" className="block text-xs font-semibold uppercase tracking-wide text-muted-foreground">
         Forme concernée
       </label>
       <select
+        id="signaler-variante"
         value={varianteId}
         onChange={(e) => setVarianteId(e.target.value)}
         className="mt-1.5 h-11 w-full rounded-lg border border-bordure-forte bg-transparent px-3 text-sm text-foreground"
@@ -55,10 +56,11 @@ export function SignalerActions({
         ))}
       </select>
 
-      <label className="mt-4 block text-xs font-semibold uppercase tracking-wide text-neutre-400">
+      <label htmlFor="signaler-motif" className="mt-4 block text-xs font-semibold uppercase tracking-wide text-muted-foreground">
         Ce qui cloche
       </label>
       <textarea
+        id="signaler-motif"
         value={motif}
         onChange={(e) => setMotif(e.target.value)}
         rows={4}
@@ -83,7 +85,7 @@ export function SignalerActions({
       >
         Ouvrir le forum du dictionnaire ↗
       </a>
-      <p className="mt-2.5 text-center text-xs text-neutre-400">
+      <p className="mt-2.5 text-center text-xs text-muted-foreground">
         Pour une discussion plus large, ça quitte l&apos;app et ouvre
         theelsassisch.com dans un nouvel onglet.
       </p>

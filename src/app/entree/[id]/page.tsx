@@ -39,7 +39,7 @@ export default async function EntreePage({ params }: { params: Promise<{ id: str
         <h1 className="text-[32px] font-extrabold leading-[1.1] text-foreground">
           {lemme.francais}
         </h1>
-        <div className="mt-1 flex flex-wrap items-center gap-2 text-sm text-neutre-400">
+        <div className="mt-1 flex flex-wrap items-center gap-2 text-sm text-muted-foreground">
           <span>{lemme.contexte || (LIBELLES_TYPE_TERME[lemme.type] ?? lemme.type)}</span>
           {lemme.commune && (
             <span className="inline-flex items-center gap-1">
@@ -49,7 +49,7 @@ export default async function EntreePage({ params }: { params: Promise<{ id: str
           )}
         </div>
 
-        <p className="mt-4 text-xs font-bold uppercase tracking-wide text-neutre-400">
+        <p className="mt-4 text-xs font-bold uppercase tracking-wide text-muted-foreground">
           {lemme.variantes.length} forme{lemme.variantes.length > 1 ? "s" : ""} attestée
           {lemme.variantes.length > 1 ? "s" : ""}
         </p>

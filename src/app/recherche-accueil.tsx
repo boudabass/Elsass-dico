@@ -4,6 +4,8 @@ import Link from "next/link"
 import { useEffect, useState } from "react"
 
 import { rechercherAccueilAction, type SuggestionAccueil } from "@/app/actions/accueil"
+import { Command, CommandEmpty, CommandInput, CommandItem, CommandList } from "@/components/ui/command"
+import { Popover, PopoverAnchor, PopoverContent } from "@/components/ui/popover"
 import { useListeMemorisee } from "@/hooks/use-liste-memorisee"
 import { cleCache } from "@/lib/cache-navigation"
 
@@ -14,6 +16,10 @@ import { cleCache } from "@/lib/cache-navigation"
 export function RechercheAccueil() {
     const [terme, setTerme] = useState("")
     const [requete, setRequete] = useState("")
+    // Cf. carte-demo.tsx : `afficherSuggestions` dérivé du cache seul ne
+    // suffit pas à un Popover contrôlé, qui se rouvrirait aussitôt après une
+    // fermeture manuelle (Échap, clic extérieur) sans cet état explicite.
+    const [suggestionsFermees, setSuggestionsFermees] = useState(false)
 
     useEffect(() => {
         const saisie = terme.trim()
@@ -30,42 +36,68 @@ export function RechercheAccueil() {
         cle,
         charger: () => rechercherAccueilAction(requete),
     })
-    const afficherSuggestions = cle !== null
+    const popoverOuvert = cle !== null && !suggestionsFermees
 
     return (
-        <div className="relative w-full max-w-sm text-left">
-            <label htmlFor="accueil-recherche" className="sr-only">
-                Chercher un village ou un prénom
-            </label>
-            <input
-                id="accueil-recherche"
-                value={terme}
-                onChange={(e) => setTerme(e.target.value)}
-                placeholder="Un village, un prénom…"
-                autoComplete="off"
-                className="h-12 w-full rounded-lg border border-input bg-background px-3.5 text-base outline-none placeholder:text-neutre-400 focus-visible:ring-2 focus-visible:ring-ring"
-            />
-            {afficherSuggestions && (
-                <ul className="absolute z-10 mt-1.5 max-h-64 w-full overflow-y-auto rounded-lg border border-border bg-background shadow-md">
-                    {(suggestions ?? []).length === 0 ? (
-                        <li className="px-3.5 py-2.5 text-sm text-muted-foreground">Aucun résultat.</li>
-                    ) : (
-                        (suggestions ?? []).map((s) => (
-                            <li key={`${s.type}-${s.slug}`}>
+        <Command
+            shouldFilter={false}
+            // cmdk gère son propre id interne pour l'input (nécessaire à son
+            // câblage ARIA aria-controls/aria-activedescendant) et ignore un
+            // `id` passé de l'extérieur — un `<label htmlFor>` manuel se
+            // retrouverait donc orphelin. `label` est le mécanisme prévu par
+            // cmdk pour ce même besoin : un libellé accessible non affiché.
+            label="Chercher un village ou un prénom"
+            className="w-full max-w-sm overflow-visible bg-transparent"
+        >
+            <Popover
+                open={popoverOuvert}
+                onOpenChange={(o) => { if (!o) setSuggestionsFermees(true) }}
+            >
+                <PopoverAnchor asChild>
+                    <div className="relative w-full text-left">
+                        <CommandInput
+                            value={terme}
+                            onValueChange={(v) => { setTerme(v); setSuggestionsFermees(false) }}
+                            placeholder="Un village, un prénom…"
+                            autoComplete="off"
+                            wrapperClassName=""
+                            showIcon={false}
+                            className="h-12 w-full rounded-lg border border-input bg-background px-3.5 text-base outline-none placeholder:text-muted-foreground focus-visible:ring-2 focus-visible:ring-ring"
+                        />
+                    </div>
+                </PopoverAnchor>
+                <PopoverContent
+                    align="start"
+                    sideOffset={6}
+                    onOpenAutoFocus={(e) => e.preventDefault()}
+                    onCloseAutoFocus={(e) => e.preventDefault()}
+                    className="w-[--radix-popover-trigger-width] rounded-lg p-0 shadow-md"
+                >
+                    <CommandList className="max-h-64">
+                        <CommandEmpty className="px-3.5 py-2.5 text-left text-sm text-muted-foreground">
+                            Aucun résultat.
+                        </CommandEmpty>
+                        {(suggestions ?? []).map((s) => (
+                            <CommandItem
+                                key={`${s.type}-${s.slug}`}
+                                value={`${s.type}-${s.slug}`}
+                                asChild
+                                className="gap-0 rounded-none p-0"
+                            >
                                 <Link
                                     href={s.type === "village" ? `/village/${s.slug}` : `/prenom/${s.slug}`}
-                                    className="flex items-center justify-between gap-2 px-3.5 py-2.5 text-sm outline-none transition-colors hover:bg-neutre-100 focus-visible:bg-neutre-100"
+                                    className="flex w-full items-center justify-between gap-2 px-3.5 py-2.5 text-sm outline-none transition-colors hover:bg-neutre-100 focus-visible:bg-neutre-100 data-[selected=true]:bg-neutre-100"
                                 >
                                     <span className="font-medium text-foreground">{s.label}</span>
                                     {s.sousLabel && (
-                                        <span className="text-xs text-neutre-400">{s.sousLabel}</span>
+                                        <span className="text-xs text-muted-foreground">{s.sousLabel}</span>
                                     )}
                                 </Link>
-                            </li>
-                        ))
-                    )}
-                </ul>
-            )}
-        </div>
+                            </CommandItem>
+                        ))}
+                    </CommandList>
+                </PopoverContent>
+            </Popover>
+        </Command>
     )
 }

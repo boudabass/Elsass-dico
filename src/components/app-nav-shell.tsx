@@ -100,7 +100,7 @@ export function AppNavShell({ actif }: { actif: OngletRacine }) {
                 "flex items-center gap-3 rounded-xl px-3 py-2.5 text-sm font-medium transition-colors lg:px-4",
                 estActif
                   ? "bg-marque-rouge-500 text-white"
-                  : "text-neutre-400 hover:bg-neutre-100 hover:text-foreground"
+                  : "text-muted-foreground hover:bg-neutre-100 hover:text-foreground"
               )}
             >
               <Icone className="h-5 w-5 shrink-0" strokeWidth={estActif ? 2.4 : 1.8} />
@@ -125,7 +125,7 @@ export function AppNavShell({ actif }: { actif: OngletRacine }) {
               aria-current={estActif ? "page" : undefined}
               className={cn(
                 "flex flex-1 flex-col items-center justify-center gap-0.5 text-[10px] font-medium",
-                estActif ? "text-marque-rouge-texte" : "text-neutre-400"
+                estActif ? "text-marque-rouge-texte" : "text-muted-foreground"
               )}
             >
               <Icone className="h-5 w-5" strokeWidth={estActif ? 2.4 : 1.8} />

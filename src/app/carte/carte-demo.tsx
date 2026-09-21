@@ -165,7 +165,10 @@ export function CarteDemo() {
                                 <div className="relative">
                                     <CommandInput
                                         value={motSaisi}
-                                        onValueChange={(v) => { setMotSaisi(v); setSuggestionsFermees(false) }}
+                                        // Retaper efface directement le mot déjà actif : sans
+                                        // ça, `popoverMotOuvert` restait bloqué (`!motActif`)
+                                        // tant qu'on n'avait pas cliqué le × de retour.
+                                        onValueChange={(v) => { setMotSaisi(v); setSuggestionsFermees(false); setMotActif(null) }}
                                         placeholder="Chercher un mot : bonjour, salaire, Colmar…"
                                         wrapperClassName=""
                                         showIcon={false}

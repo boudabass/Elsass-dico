@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
+import { AppHeader } from "@/components/app-header";
 import { CarteVariante } from "@/components/carte-variante";
 import { chargerVillage, slugsVillagesAttestes } from "@/lib/villages";
 import { LIBELLES_DEPARTEMENT } from "@/lib/dictionnaire";
@@ -60,7 +61,9 @@ export default async function VillagePage({
   const nbFormes = village.lemme?.variantes.length ?? 0;
 
   return (
-    <main className="mx-auto w-full max-w-3xl space-y-6 p-4 pb-8">
+    <div className="flex min-h-screen flex-col">
+      <AppHeader variant="stack" titre={village.nom} backHref="/" />
+      <main className="mx-auto w-full max-w-3xl flex-1 space-y-6 p-4 pb-8">
       <header className="space-y-1">
         <p className="text-xs font-semibold uppercase tracking-wide text-muted-foreground">
           {departement}
@@ -99,6 +102,7 @@ export default async function VillagePage({
           Sources et licences
         </Link>
       </p>
-    </main>
+      </main>
+    </div>
   );
 }

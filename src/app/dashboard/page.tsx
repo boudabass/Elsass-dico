@@ -81,9 +81,9 @@ export default function MonEspacePage() {
                                     Ton village
                                 </p>
                                 <p className="mt-1.5 text-sm leading-[1.5] text-muted-foreground">
-                                    Il rattache les formes que tu reconnais aux villages qui
-                                    les disent. Choisi dans une liste — rien n&apos;est
-                                    déduit de ta position — et modifiable à tout moment.
+                                    Choisis ton village pour pouvoir y rattacher les formes que
+                                    tu reconnais. Il se choisit dans une liste, rien n&apos;est
+                                    déduit de ta position, et reste modifiable à tout moment.
                                 </p>
                                 <VillageProfil villageActuel={espace?.village ?? null} onDefini={rafraichir} />
                             </div>

@@ -67,7 +67,7 @@ export default function LoginPage() {
               onChange={(e) => setEmail(e.target.value)}
               placeholder="toi@example.com"
               required
-              className="h-[46px] w-full rounded-sm border border-neutre-300 px-3 text-base text-foreground outline-none placeholder:text-neutre-400 focus-visible:ring-2 focus-visible:ring-ring"
+              className="h-[46px] w-full rounded-sm border border-neutre-300 px-3 text-base text-foreground outline-none placeholder:text-muted-foreground focus-visible:ring-2 focus-visible:ring-ring"
             />
           </div>
           <div>
@@ -82,7 +82,7 @@ export default function LoginPage() {
               onChange={(e) => setMotDePasse(e.target.value)}
               placeholder="••••••••"
               required
-              className="h-[46px] w-full rounded-sm border border-neutre-300 px-3 text-base text-foreground outline-none placeholder:text-neutre-400 focus-visible:ring-2 focus-visible:ring-ring"
+              className="h-[46px] w-full rounded-sm border border-neutre-300 px-3 text-base text-foreground outline-none placeholder:text-muted-foreground focus-visible:ring-2 focus-visible:ring-ring"
             />
           </div>
 
@@ -96,7 +96,7 @@ export default function LoginPage() {
           </button>
         </form>
 
-        <p className="my-4 text-center text-xs text-neutre-400">ou</p>
+        <p className="my-4 text-center text-xs text-muted-foreground">ou</p>
 
         <a
           href={URL_INSCRIPTION_ODOO}
@@ -105,7 +105,7 @@ export default function LoginPage() {
           Créer un compte
         </a>
 
-        <p className="mt-6 text-center text-xs text-neutre-400">
+        <p className="mt-6 text-center text-xs text-muted-foreground">
           En continuant, tu acceptes nos conditions.
         </p>
       </main>

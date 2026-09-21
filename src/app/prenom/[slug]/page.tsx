@@ -44,7 +44,7 @@ export default async function PrenomPage({
   return (
     <main className="mx-auto w-full max-w-3xl space-y-6 p-4 pb-8">
       <header className="space-y-1">
-        <p className="text-xs font-semibold uppercase tracking-wide text-neutre-400">Prénom</p>
+        <p className="text-xs font-semibold uppercase tracking-wide text-muted-foreground">Prénom</p>
         <h1 className="text-2xl font-bold text-foreground">{lemme.francais}</h1>
       </header>
 

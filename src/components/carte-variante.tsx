@@ -32,14 +32,14 @@ export function CarteVariante({
           `formeSansArticle` redonne `forme` octet à octet (migration
           20260903010000). Rien n'est réécrit, on annote. */}
       {v.article && (
-        <p className="mt-1 text-xs text-neutre-400">
+        <p className="mt-1 text-xs text-muted-foreground">
           article : <span className="font-semibold">{v.article.trim()}</span>
         </p>
       )}
 
       {v.sources.length > 0 && (
         <div className="mt-2.5">
-          <p className="text-xs font-semibold text-neutre-400">Sources écrites</p>
+          <p className="text-xs font-semibold text-muted-foreground">Sources écrites</p>
           <ul className="mt-1 flex flex-col gap-1 text-sm">
             {v.sources.map((s) => (
               <li key={s.nom}>
@@ -63,7 +63,7 @@ export function CarteVariante({
 
       {v.villages.length > 0 && (
         <div className="mt-2.5">
-          <p className="text-xs font-semibold text-neutre-400">
+          <p className="text-xs font-semibold text-muted-foreground">
             Villages qui disent cette forme
           </p>
           <p className="mt-1 text-sm text-muted-foreground">
@@ -73,7 +73,7 @@ export function CarteVariante({
       )}
 
       {v.villages.length === 0 && (
-        <p className="mt-2.5 text-sm text-neutre-400">
+        <p className="mt-2.5 text-sm text-muted-foreground">
           Personne n&apos;a encore dit d&apos;où vient cette forme.
         </p>
       )}

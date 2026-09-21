@@ -247,3 +247,15 @@
     @apply bg-background text-foreground;
   }
 }
+
+/* Le signal « chargement en cours » (spinner, squelette) reste perceptible
+   pour un utilisateur sensible au mouvement — ralenti, pas supprimé à
+   0.01ms, qui effacerait le retour sans rien y substituer. */
+@media (prefers-reduced-motion: reduce) {
+  .animate-spin {
+    animation-duration: 1.5s;
+  }
+  .animate-pulse {
+    animation-duration: 3s;
+  }
+}

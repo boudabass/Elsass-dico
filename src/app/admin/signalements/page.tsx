@@ -83,7 +83,7 @@ export default function AdminSignalementsPage() {
                         >
                           {s.lemme.francais} → {s.variante.forme}
                         </Link>
-                        <p className="mt-1 text-xs text-neutre-400">
+                        <p className="mt-1 text-xs text-muted-foreground">
                           {s.membre.nom ?? s.membre.email} · {dateCourte(s.creeLe)}
                         </p>
                       </div>

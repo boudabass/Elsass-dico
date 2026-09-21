@@ -62,7 +62,7 @@ export default async function VillagePage({
   return (
     <main className="mx-auto w-full max-w-3xl space-y-6 p-4 pb-8">
       <header className="space-y-1">
-        <p className="text-xs font-semibold uppercase tracking-wide text-neutre-400">
+        <p className="text-xs font-semibold uppercase tracking-wide text-muted-foreground">
           {departement}
           {village.aireLinguistique === "alsacien" ? " · aire alsacienne" : ""}
         </p>
@@ -76,7 +76,7 @@ export default async function VillagePage({
 
       {village.lemme ? (
         <section className="space-y-2.5">
-          <h2 className="text-sm font-semibold text-neutre-400">
+          <h2 className="text-sm font-semibold text-muted-foreground">
             Nom{nbFormes > 1 ? "s" : ""} alsacien{nbFormes > 1 ? "s" : ""}
           </h2>
           <div className="flex flex-col gap-2.5">

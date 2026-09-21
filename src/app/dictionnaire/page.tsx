@@ -140,13 +140,14 @@ function DictionnaireContenu() {
               key={car}
               type="button"
               disabled={!dispo}
+              aria-current={active ? "true" : undefined}
               onClick={() => choisirLettre(car)}
               className={
                 active
-                  ? "flex h-8 min-w-8 shrink-0 items-center justify-center rounded-full bg-marque-rouge-500 text-[13px] font-bold text-white"
+                  ? "flex h-9 min-w-9 shrink-0 items-center justify-center rounded-full bg-marque-rouge-500 text-[13px] font-bold text-white"
                   : dispo
-                    ? "flex h-8 min-w-8 shrink-0 items-center justify-center rounded-full bg-neutre-100 text-[13px] font-bold text-neutre-400 transition-colors hover:bg-neutre-300/40"
-                    : "flex h-8 min-w-8 shrink-0 items-center justify-center rounded-full text-[13px] font-bold text-neutre-300"
+                    ? "flex h-9 min-w-9 shrink-0 items-center justify-center rounded-full bg-neutre-100 text-[13px] font-bold text-muted-foreground transition-colors hover:bg-neutre-300/40"
+                    : "flex h-9 min-w-9 shrink-0 items-center justify-center rounded-full text-[13px] font-bold text-neutre-300"
               }
             >
               {car}
@@ -174,7 +175,7 @@ function DictionnaireContenu() {
           <div>
             <div className="flex flex-wrap items-baseline gap-2 pt-4 pb-2">
               <h2 className="text-[26px] font-extrabold text-foreground">{lettre}</h2>
-              <span className="text-sm text-neutre-400">
+              <span className="text-sm text-muted-foreground">
                 {page && page.nbPages > 1
                   ? `${page.total} mots — page ${page.page} sur ${page.nbPages}`
                   : `${lemmes.length} mot${lemmes.length > 1 ? "s" : ""}`}
@@ -208,7 +209,7 @@ function DictionnaireContenu() {
                     <div className="truncate text-base font-semibold text-foreground">
                       {e.francais}
                       {precisionLemme(e) && (
-                        <span className="font-normal text-neutre-400"> ({precisionLemme(e)})</span>
+                        <span className="font-normal text-muted-foreground"> ({precisionLemme(e)})</span>
                       )}
                     </div>
                     <div className="truncate text-sm text-muted-foreground">
@@ -217,7 +218,7 @@ function DictionnaireContenu() {
                           la fonde — jamais une forme sans son fondement. */}
                       {e.formes[0]?.forme}
                       {e.nbFormes > 1 && (
-                        <span className="text-neutre-400"> +{e.nbFormes - 1}</span>
+                        <span className="text-muted-foreground"> +{e.nbFormes - 1}</span>
                       )}
                     </div>
                   </div>
@@ -265,7 +266,7 @@ function ControlesPagination({
         <ChevronLeft className="h-4 w-4" strokeWidth={2.4} />
         Précédent
       </button>
-      <span className="text-sm font-medium text-neutre-400">
+      <span className="text-sm font-medium text-muted-foreground">
         {page} / {nbPages}
       </span>
       <button

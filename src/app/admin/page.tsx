@@ -104,9 +104,9 @@ export default function AdminPage() {
                   <thead className="border-b bg-muted">
                     <tr>
                       <th className="p-3 font-semibold">Membre</th>
-                      <th className="p-3 font-semibold">Village</th>
+                      <th className="hidden p-3 font-semibold md:table-cell">Village</th>
                       <th className="p-3 font-semibold text-right">Témoignages</th>
-                      <th className="p-3 font-semibold">Vu le</th>
+                      <th className="hidden p-3 font-semibold md:table-cell">Vu le</th>
                       <th className="p-3 font-semibold">Rôle</th>
                     </tr>
                   </thead>
@@ -119,12 +119,12 @@ export default function AdminPage() {
                             <span className="block text-xs text-muted-foreground">{m.email}</span>
                           )}
                         </td>
-                        <td className="p-3">{m.village ?? "—"}</td>
+                        <td className="hidden p-3 md:table-cell">{m.village ?? "—"}</td>
                         {/* Des témoignages, jamais « des contributions » ni un
                             total mêlé de sources : ce chiffre compte ce que ce
                             membre a attaché à des formes, rien d'autre. */}
                         <td className="p-3 text-right tabular-nums">{m.nbTemoignages}</td>
-                        <td className="p-3 whitespace-nowrap">{dateCourte(m.vuLe)}</td>
+                        <td className="hidden p-3 whitespace-nowrap md:table-cell">{dateCourte(m.vuLe)}</td>
                         <td className="p-3">
                           <Select
                             value={m.role}

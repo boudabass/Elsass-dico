@@ -114,14 +114,14 @@ function RechercheContenu() {
         </p>
 
         <div className="flex h-12 items-center gap-2.5 rounded-full border border-neutre-300 bg-background px-4">
-          <Search className="h-[18px] w-[18px] shrink-0 text-neutre-400" strokeWidth={2} />
+          <Search className="h-[18px] w-[18px] shrink-0 text-muted-foreground" strokeWidth={2} />
           <input
             ref={inputRef}
             value={terme}
             onChange={(e) => setTerme(e.target.value)}
             placeholder="Un mot en français ou en alsacien…"
             autoFocus
-            className="min-w-0 flex-1 bg-transparent text-base font-semibold text-foreground outline-none placeholder:font-normal placeholder:text-neutre-400"
+            className="min-w-0 flex-1 bg-transparent text-base font-semibold text-foreground outline-none placeholder:font-normal placeholder:text-muted-foreground"
           />
           <span
             aria-hidden
@@ -129,7 +129,7 @@ function RechercheContenu() {
               recherche ? "opacity-100 blur-0" : "opacity-0 scale-[0.25] blur-[4px]"
             }`}
           >
-            <Loader2 className={`h-[18px] w-[18px] text-neutre-400 ${recherche ? "animate-spin" : ""}`} />
+            <Loader2 className={`h-[18px] w-[18px] text-muted-foreground ${recherche ? "animate-spin" : ""}`} />
           </span>
           <span role="status" aria-live="polite" className="sr-only">
             {recherche ? "Recherche en cours" : ""}
@@ -157,7 +157,7 @@ function RechercheContenu() {
 
         {!recherche && resultats.length > 0 && (
           <div>
-            <p className="mb-2.5 mt-[22px] text-xs font-bold uppercase tracking-wide text-neutre-400">
+            <p className="mb-2.5 mt-[22px] text-xs font-bold uppercase tracking-wide text-muted-foreground">
               Résultats
             </p>
             <div className="space-y-2.5">
@@ -171,7 +171,7 @@ function RechercheContenu() {
                     <div className="flex flex-wrap items-baseline gap-2">
                       <span className="font-bold text-foreground">{e.francais}</span>
                       {precisionLemme(e) && (
-                        <span className="text-xs text-neutre-400">{precisionLemme(e)}</span>
+                        <span className="text-xs text-muted-foreground">{precisionLemme(e)}</span>
                       )}
                     </div>
                     {/* Toutes les formes, chacune avec ce qui la fonde. Plus de

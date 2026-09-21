@@ -43,6 +43,19 @@ const CONTOURS = "/carte/contours.topojson"
 // centre et un zoom fixes, qui cadreraient mal selon la taille de l'écran.
 const CADRE: [[number, number], [number, number]] = [[47.40, 6.80], [49.60, 7.70]]
 
+// `formes`/`nom` viennent d'un champ saisi verbatim par un membre
+// (`creerVarianteAction`, jamais recadré — règle 1 du projet). Construire ce
+// contenu par `textContent` plutôt que par une chaîne HTML interpolée évite
+// toute injection : `bindPopup` accepte un `HTMLElement` directement, donc
+// rien n'est jamais interprété comme du balisage.
+function creerContenuPopup(formes: string[], nom: string): HTMLElement {
+    const conteneur = document.createElement("span")
+    const gras = document.createElement("strong")
+    gras.textContent = formes.join(" · ")
+    conteneur.append(gras, document.createElement("br"), document.createTextNode(nom))
+    return conteneur
+}
+
 export function CarteParlers({ points, couleurDe, className }: Props) {
     const conteneur = useRef<HTMLDivElement>(null)
 
@@ -98,7 +111,7 @@ export function CarteParlers({ points, couleurDe, className }: Props) {
                     fillColor: couleur,
                     fillOpacity: 0.95,
                 })
-                    .bindPopup(`<strong>${p.formes.join(" · ")}</strong><br>${p.nom}`)
+                    .bindPopup(creerContenuPopup(p.formes, p.nom))
                     .addTo(instance)
             }
 

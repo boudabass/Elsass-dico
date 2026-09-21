@@ -91,7 +91,16 @@ export function VillageProfil({
 
     return (
         <div className="relative mt-3">
-            <Command shouldFilter={false} className="overflow-visible bg-transparent">
+            <Command
+                shouldFilter={false}
+                // cmdk gère en interne son propre `aria-labelledby` sur
+                // l'input (nécessaire à son câblage ARIA) — il prendrait le
+                // pas sur un `aria-label` posé à la main, qui serait donc
+                // ignoré par les lecteurs d'écran. `label` est le mécanisme
+                // prévu par cmdk pour ce même besoin.
+                label="Chercher un village"
+                className="overflow-visible bg-transparent"
+            >
                 <Popover open={listeOuverte} onOpenChange={setListeOuverte}>
                     <PopoverAnchor asChild>
                         <div className="relative">
@@ -104,7 +113,6 @@ export function VillageProfil({
                                 }}
                                 onFocus={() => setListeOuverte(true)}
                                 placeholder="Chercher un village…"
-                                aria-label="Chercher un village"
                                 wrapperClassName=""
                                 showIcon={false}
                                 // `text-base` et non `text-sm` : sous 16 px, iOS zoome sur le

@@ -148,18 +148,22 @@ export function CarteDemo() {
                         la seule base de l'ordre des enfants dans le DOM — c'est
                         ce qui décalait la barre de recherche vers le bas par
                         rapport au bouton « ? ». */}
-                    <Command shouldFilter={false} className="relative min-w-0 flex-1 overflow-visible bg-transparent">
+                    <Command
+                        shouldFilter={false}
+                        // cf. recherche-accueil.tsx : cmdk gère son propre id
+                        // interne pour l'input, un `<label htmlFor>` manuel se
+                        // retrouverait orphelin — `label` est le mécanisme
+                        // prévu par cmdk pour un libellé accessible non affiché.
+                        label="Chercher un mot du dictionnaire"
+                        className="relative min-w-0 flex-1 overflow-visible bg-transparent"
+                    >
                         <Popover
                             open={popoverMotOuvert}
                             onOpenChange={(o) => { if (!o) setSuggestionsFermees(true) }}
                         >
                             <PopoverAnchor asChild>
                                 <div className="relative">
-                                    <label htmlFor="carte-recherche-mot" className="sr-only">
-                                        Chercher un mot du dictionnaire
-                                    </label>
                                     <CommandInput
-                                        id="carte-recherche-mot"
                                         value={motSaisi}
                                         onValueChange={(v) => { setMotSaisi(v); setSuggestionsFermees(false) }}
                                         placeholder="Chercher un mot : bonjour, salaire, Colmar…"

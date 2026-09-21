@@ -39,18 +39,23 @@ export function RechercheAccueil() {
     const popoverOuvert = cle !== null && !suggestionsFermees
 
     return (
-        <Command shouldFilter={false} className="w-full max-w-sm overflow-visible bg-transparent">
+        <Command
+            shouldFilter={false}
+            // cmdk gère son propre id interne pour l'input (nécessaire à son
+            // câblage ARIA aria-controls/aria-activedescendant) et ignore un
+            // `id` passé de l'extérieur — un `<label htmlFor>` manuel se
+            // retrouverait donc orphelin. `label` est le mécanisme prévu par
+            // cmdk pour ce même besoin : un libellé accessible non affiché.
+            label="Chercher un village ou un prénom"
+            className="w-full max-w-sm overflow-visible bg-transparent"
+        >
             <Popover
                 open={popoverOuvert}
                 onOpenChange={(o) => { if (!o) setSuggestionsFermees(true) }}
             >
                 <PopoverAnchor asChild>
                     <div className="relative w-full text-left">
-                        <label htmlFor="accueil-recherche" className="sr-only">
-                            Chercher un village ou un prénom
-                        </label>
                         <CommandInput
-                            id="accueil-recherche"
                             value={terme}
                             onValueChange={(v) => { setTerme(v); setSuggestionsFermees(false) }}
                             placeholder="Un village, un prénom…"

@@ -1528,6 +1528,124 @@ changements sont des refactors purs, sans aucun effet observable côté écran.
 **À confirmer à la prochaine session** : que `elsass-dico:main` a bien
 redéployé depuis, en relisant `updated_at` avant tout autre contrôle.
 
+## Audit technique, XSS corrigée, dix points d'accessibilité/performance, trois retours UX (21-22/09/2026)
+
+Première revue `/impeccable audit` sur ce projet. Détecteur mécanique
+(`impeccable detect`) : zéro finding sur tout `src/`. Le reste vient d'une
+lecture manuelle, dimension par dimension, avec vérification directe dans le
+code de chaque affirmation avant de la retenir.
+
+### P0 trouvé : injection HTML stockée dans le popup de `/carte`
+
+`src/components/carte-parlers.tsx:101` construisait le contenu du popup
+Leaflet par interpolation de chaîne à partir de `Variante.forme` — un champ
+enregistré **verbatim** (règle 1, jamais recadré) par `creerVarianteAction`,
+sans filtrage de caractères au-delà d'une limite de longueur. N'importe quel
+membre pouvait donc soumettre une forme du type `<img src=x
+onerror=...>`, exécutée dans le navigateur de tout visiteur ouvrant ce
+popup — vol de session possible. Seul endroit de toute l'app à construire du
+HTML à la main : partout ailleurs le contenu passe par du JSX, échappé
+automatiquement par React.
+
+**Corrigé** en construisant le contenu comme de vrais nœuds DOM
+(`document.createElement`/`textContent`), jamais comme une chaîne — Leaflet
+`bindPopup` accepte un `HTMLElement` directement, donc aucune dépendance
+d'échappement à écrire. **Vérifié par exploitation réelle** : une variante de
+test portant `<img src=x onerror="window.__xss_ok=true">` insérée
+directement en base (script jetable), popup affichant la charge en texte
+littéral, `window.__xss_ok` resté `false`, aucun élément `<img>` créé dans le
+DOM. Donnée de test supprimée aussitôt après (deux fois : une fois avant le
+déploiement du correctif par prudence, une fois après vérification finale) —
+le code vulnérable restait en ligne pendant l'attente du déploiement, la
+fenêtre d'exposition a été traitée comme un vrai risque, pas un détail de
+procédure.
+
+### Dix points restants (5 P1, 4 P2, 1 P3), hors attribution de police Azimut
+
+Fil conducteur : le projet a **deux familles de primitives shadcn/Radix déjà
+installées et vendues** dans `src/components/ui/` mais **jamais utilisées**
+— `dialog.tsx` (`@radix-ui/react-dialog`) et `command.tsx`+`popover.tsx`
+(`cmdk`+`@radix-ui/react-popover`). Trois dropdowns de suggestions faits main
+(`recherche-accueil.tsx`, `carte-demo.tsx`, `village-profil.tsx`) et la
+modale d'aide de la carte ont été remplacés par ces primitives plutôt que de
+coder un focus-trap ou une logique ARIA combobox à la main.
+
+- **Contraste** : `text-neutre-400` (≈2,6:1, sous le seuil AA) remplacé par
+  `text-muted-foreground` (≈5,4:1) dans 13 fichiers, 36 occurrences.
+- **Labels non liés** sur `/entree/[id]/signaler` (`htmlFor`/`id` posés).
+- **Perf carte** : le filtre local (« Filtrer les villages affichés »)
+  recalculait `filtres` à chaque frappe, forçant `CarteParlers` à détruire et
+  reconstruire toute la carte Leaflet (nouveau `fetch` du topojson inclus) à
+  chaque caractère. Débattu 250ms, même patron que la recherche de mot
+  déjà en place dans le même fichier. **Vérifié par instrumentation
+  réseau** (patch de `window.fetch` injecté en console) : 6 frappes rapides
+  ne déclenchent plus qu'un seul rechargement, 250ms après la dernière.
+- **Meta-description** de `layout.tsx` alignée sur la home (retrait de la
+  mention ORTHAL, périmée depuis le 18/09).
+- **`aria-current`** sur la lettre active de l'alphabet A-Z ; **cibles
+  tactiles** agrandies (puces A-Z 32→36px, bouton de vote 32→36px, boutons ×
+  de la carte 24→32px) ; **tableaux admin** dégradés sous `md` (colonnes
+  secondaires masquées plutôt que simple `overflow-x-auto`) ;
+  **`prefers-reduced-motion`** ralentit spinner/squelette au lieu de les
+  figer à `0.01ms` (le kill total aurait supprimé le signal « chargement en
+  cours » sans rien y substituer).
+
+**Bug trouvé en vérifiant à l'écran, corrigé dans la foulée** : le premier
+passage posait un `id`/`htmlFor` manuel sur chaque `CommandInput` — cmdk
+génère son propre id interne (nécessaire à son câblage
+`aria-controls`/`aria-activedescendant`) et **ignore silencieusement** un
+`id` externe. Les trois labels se sont retrouvés orphelins, pointant vers un
+id que l'input réel ne portait plus. Corrigé en utilisant la prop `label` de
+`<Command>`, le mécanisme prévu par cmdk lui-même pour un libellé accessible
+non affiché — trouvé en lisant `node_modules/cmdk/dist/index.d.ts` plutôt que
+deviné. Leçon : un id/label posé à la main sur un composant tiers qui gère
+déjà sa propre accessibilité interne peut se faire silencieusement écraser ;
+vérifier l'API du composant avant de reproduire un patron qui marche ailleurs
+dans le même fichier.
+
+**Vérifié à l'écran, point par point** (Chrome piloté, `dev` déployé) :
+rendu visuel identique aux 3 dropdowns et à la modale ; navigation clavier
+(flèches, Entrée, Échap) fonctionnelle sur les 3 combobox, capacité neuve
+absente avant ; focus trap et **restauration du focus sur le bouton « ? » à
+la fermeture** de la modale (gain réel, l'implémentation manuelle ne le
+faisait pas) ; clic extérieur ferme sans effacer le texte tapé.
+
+**Hors périmètre**, sur décision de John : l'attribution de la police
+Azimut (licence CC BY-ND 4.0 jamais créditée nulle part) — il en prépare une
+nouvelle et gère ce point séparément.
+
+### Trois retours UX après usage réel
+
+1. **« Ton village » (Mon espace)** : le texte décrivait le mécanisme sans
+   jamais dire qu'il faut choisir son village pour pouvoir y rattacher des
+   formes. Reformulé pour dire l'action d'abord, puis pourquoi.
+2. **Carte** : retaper un mot dans le champ de recherche pendant qu'un mot
+   est déjà affiché ne rouvrait jamais les suggestions
+   (`popoverMotOuvert` exigeait `!motActif`, jamais remis à `null` par la
+   frappe) — il fallait cliquer le bouton × d'abord. Corrigé en vidant
+   `motActif` dès la première frappe, comme le bouton × le fait déjà.
+3. **Pages publiques `/village/[slug]` et `/prenom/[slug]`** : aucun header,
+   aucun moyen de revenir en arrière, qu'on y arrive depuis la recherche de
+   la home ou directement par un lien externe (Google, partage). Ajout
+   d'`AppHeader` en mode empilé avec `backHref="/"` fixe, même patron que
+   `/login` — pas `retourHistorique`, puisque ces fiches sont aussi bien
+   atteintes sans historique interne que depuis la home.
+
+**Retour de John pendant la rédaction du texte du point 1** : jamais de
+tiret long (« — ») dans la copie affichée à l'écran, indépendamment de sa
+justesse grammaticale — reformulé en deux phrases courtes.
+
+**Vérifié à l'écran** (Chrome piloté, `dev` déployé) : nouvelle phrase
+affichée ; recherche « bonjour » puis, sans cliquer ×, « salaire » directement
+dans le même champ — les nouvelles suggestions apparaissent et la sélection
+fonctionne ; `/village/colmar-68066` et `/prenom/ambroise` affichent un
+chevron retour fonctionnel.
+
+**Quatre commits sur `dev`** : `4528880` (XSS), `1ad616f` (dix points),
+`7bbd1e7` (correctif label cmdk), `b4aedcb` (trois retours UX). `pnpm run
+typecheck` et `pnpm run build` (966/966 pages) propres après chaque groupe,
+pas seulement en fin de session.
+
 ## Règles de travail
 
 - Ne jamais inventer de traduction alsacienne, même pour un exemple ou un test.

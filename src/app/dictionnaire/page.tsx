@@ -17,6 +17,7 @@ import { precisionLemme } from "@/lib/dictionnaire";
 import { useListeMemorisee } from "@/hooks/use-liste-memorisee";
 import { useScrollMemorise } from "@/hooks/use-scroll-memorise";
 import { chargerAvecCache, cleCache, memoriserUrlOnglet } from "@/lib/cache-navigation";
+import { cn } from "@/lib/utils";
 
 // Écran 3 (Dictionnaire A-Z) + écran 11 (lettre vide) du handoff mobile.
 //
@@ -142,13 +143,14 @@ function DictionnaireContenu() {
               disabled={!dispo}
               aria-current={active ? "true" : undefined}
               onClick={() => choisirLettre(car)}
-              className={
+              className={cn(
+                "flex h-9 min-w-9 shrink-0 items-center justify-center rounded-full text-[13px] font-bold",
                 active
-                  ? "flex h-9 min-w-9 shrink-0 items-center justify-center rounded-full bg-marque-rouge-500 text-[13px] font-bold text-white"
+                  ? "bg-marque-rouge-500 text-white"
                   : dispo
-                    ? "flex h-9 min-w-9 shrink-0 items-center justify-center rounded-full bg-neutre-100 text-[13px] font-bold text-muted-foreground transition-colors hover:bg-neutre-300/40"
-                    : "flex h-9 min-w-9 shrink-0 items-center justify-center rounded-full text-[13px] font-bold text-neutre-300"
-              }
+                    ? "bg-neutre-100 text-muted-foreground transition-colors hover:bg-neutre-300/40"
+                    : "text-neutre-300",
+              )}
             >
               {car}
             </button>

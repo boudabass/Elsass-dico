@@ -1,5 +1,6 @@
 import Link from "next/link"
 
+import { FichePublique } from "@/components/fiche-publique"
 import { prisma } from "@/lib/prisma"
 
 // Les crédits du dictionnaire, en un seul endroit.
@@ -24,7 +25,7 @@ export default async function PageSources() {
     })
 
     return (
-        <main className="mx-auto w-full max-w-3xl space-y-8 p-4 pb-8">
+        <FichePublique titre="Sources" className="space-y-8">
             <header className="space-y-1">
                 <h1 className="text-xl font-semibold">Sources</h1>
                 <p className="text-sm text-muted-foreground">
@@ -97,6 +98,6 @@ export default async function PageSources() {
             <p className="text-xs text-muted-foreground">
                 <Link href="/carte" className="underline">Retour à la carte</Link>
             </p>
-        </main>
+        </FichePublique>
     )
 }

@@ -5,8 +5,7 @@ import { toast } from "sonner";
 
 import { listerCommunesAction, type CommuneOption } from "@/app/actions/communes";
 import { definirVillageAction } from "@/app/actions/membres";
-import { Command, CommandEmpty, CommandInput, CommandItem, CommandList } from "@/components/ui/command";
-import { Popover, PopoverAnchor, PopoverContent } from "@/components/ui/popover";
+import { ChampSuggestions } from "@/components/champ-suggestions";
 
 // Remplace `selecteur-village.tsx` le 13/09/2026, sur retour direct de John
 // après vérification à l'écran : un `<select>` natif de 1 605 communes triées
@@ -32,17 +31,14 @@ export function VillageProfil({
     const [communes, setCommunes] = useState<CommuneOption[] | null>(null);
     const [recherche, setRecherche] = useState("");
     const [choisie, setChoisie] = useState<CommuneOption | null>(null);
-    const [listeOuverte, setListeOuverte] = useState(false);
     const [enCours, setEnCours] = useState(false);
 
     useEffect(() => {
         if (enEdition && !communes) listerCommunesAction().then(setCommunes);
     }, [enEdition, communes]);
-    // Le clic extérieur est géré nativement par Radix Popover (DismissableLayer) —
-    // plus besoin de `ref`+`mousedown` fait main.
 
     const resultats = useMemo(() => {
-        if (!communes) return [];
+        if (!communes) return null;
         const q = recherche.trim().toLowerCase();
         const filtres = q ? communes.filter((c) => c.nom.toLowerCase().includes(q)) : communes;
         return filtres.slice(0, RESULTATS_MAX);
@@ -51,7 +47,6 @@ export function VillageProfil({
     function choisir(c: CommuneOption) {
         setChoisie(c);
         setRecherche(`${c.nom} (${c.departement})`);
-        setListeOuverte(false);
     }
 
     function annuler() {
@@ -90,68 +85,22 @@ export function VillageProfil({
     }
 
     return (
-        <div className="relative mt-3">
-            <Command
-                shouldFilter={false}
-                // cmdk gère en interne son propre `aria-labelledby` sur
-                // l'input (nécessaire à son câblage ARIA) — il prendrait le
-                // pas sur un `aria-label` posé à la main, qui serait donc
-                // ignoré par les lecteurs d'écran. `label` est le mécanisme
-                // prévu par cmdk pour ce même besoin.
+        <div className="mt-3">
+            <ChampSuggestions
                 label="Chercher un village"
-                className="overflow-visible bg-transparent"
-            >
-                <Popover open={listeOuverte} onOpenChange={setListeOuverte}>
-                    <PopoverAnchor asChild>
-                        <div className="relative">
-                            <CommandInput
-                                value={recherche}
-                                onValueChange={(v) => {
-                                    setRecherche(v);
-                                    setChoisie(null);
-                                    setListeOuverte(true);
-                                }}
-                                onFocus={() => setListeOuverte(true)}
-                                placeholder="Chercher un village…"
-                                wrapperClassName=""
-                                showIcon={false}
-                                // `text-base` et non `text-sm` : sous 16 px, iOS zoome sur le
-                                // champ au focus.
-                                className="h-10 w-full rounded-md border border-input bg-background px-3 text-base text-foreground"
-                            />
-                        </div>
-                    </PopoverAnchor>
-                    <PopoverContent
-                        align="start"
-                        sideOffset={4}
-                        onOpenAutoFocus={(e) => e.preventDefault()}
-                        onCloseAutoFocus={(e) => e.preventDefault()}
-                        className="w-[--radix-popover-trigger-width] rounded-md border-input p-0 shadow-lg"
-                    >
-                        <CommandList className="max-h-64">
-                            {!communes ? (
-                                <div className="px-3 py-2 text-sm text-muted-foreground">Chargement…</div>
-                            ) : (
-                                <>
-                                    <CommandEmpty className="px-3 py-2 text-left text-sm text-muted-foreground">
-                                        Aucun village trouvé
-                                    </CommandEmpty>
-                                    {resultats.map((c) => (
-                                        <CommandItem
-                                            key={c.id}
-                                            value={String(c.id)}
-                                            onSelect={() => choisir(c)}
-                                            className="block w-full cursor-pointer gap-0 rounded-none px-3 py-2 text-left text-sm data-[selected=true]:bg-neutre-50"
-                                        >
-                                            {c.nom} ({c.departement})
-                                        </CommandItem>
-                                    ))}
-                                </>
-                            )}
-                        </CommandList>
-                    </PopoverContent>
-                </Popover>
-            </Command>
+                valeur={recherche}
+                onValeurChange={(v) => {
+                    setRecherche(v);
+                    setChoisie(null);
+                }}
+                placeholder="Chercher un village…"
+                actif
+                suggestions={resultats}
+                cleDe={(c) => String(c.id)}
+                rendre={(c) => `${c.nom} (${c.departement})`}
+                onChoisir={choisir}
+                vide="Aucun village trouvé"
+            />
 
             <div className="mt-2 flex gap-2">
                 <button

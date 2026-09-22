@@ -1646,6 +1646,67 @@ chevron retour fonctionnel.
 typecheck` et `pnpm run build` (966/966 pages) propres après chaque groupe,
 pas seulement en fin de session.
 
+## Deuxième revue thermo-nucléaire, appliquée (23/09/2026)
+
+Revue du lot audit/XSS/UX du 21-22/09 (`4528880` → `b4aedcb`). Verdict : ce
+lot soignait des symptômes à trois endroits là où une cause unique existait.
+Tout est appliqué dans `5585055`.
+
+- **La carte ne se reconstruit plus.** `CarteParlers` avait un seul effet
+  `[points, couleurDe]` qui créait la carte, rechargeait le fond et remettait
+  le cadrage sur toute l'Alsace à chaque changement de points. Le débounce du
+  filtre, ajouté le 21/09, espaçait les reconstructions sans en supprimer la
+  cause. Et un membre zoomé sur son coin perdait sa vue **à chaque vote**
+  (`rafraichirMot` → nouveaux points). Désormais : un effet `[]` crée la carte
+  et le fond une fois, un `L.layerGroup()` porte les marqueurs, un second effet
+  les repose. Le débounce du filtre disparaît, et la carte reste montée pendant
+  les chargements (indicateur superposé au lieu de `<Cadre>`).
+- **`ChampSuggestions`** (`src/components/champ-suggestions.tsx`) remplace les
+  trois combobox recopiées (home, carte, Mon espace) et leurs trois modèles
+  d'ouverture. **`ui/command.tsx` revient à sa version shadcn d'origine** : les
+  props `wrapperClassName`/`showIcon` n'existaient que pour être désactivées
+  par leurs trois seuls appelants. Au passage : cliquer dans son propre champ
+  ne referme plus la liste, les champs de la carte et du village ont enfin un
+  anneau de focus, et un chargement affiche « Chargement… » plutôt
+  qu'« Aucun résultat. ».
+- **Bug réel trouvé en vérifiant : Entrée ne faisait rien sur la home.** Les
+  suggestions étaient des `<Link>` en `asChild` sans `onSelect`, or cmdk ne
+  déclenche que `onSelect` à l'Entrée. Confirmé sur la production (ancien
+  code) : suggestion « Colmar » sélectionnée, Entrée, on reste sur `/`. Sur
+  `dev` : `/village/colmar-68066`. Le choix passe maintenant par
+  `router.push`.
+- **Piège d'outillage** : la touche « Return » du navigateur intégré n'arrive
+  pas comme `Enter` à cmdk. Le premier test de la production, fait avec elle,
+  ne prouvait donc rien. Refait avec un vrai `KeyboardEvent` `key: "Enter"`
+  sur les deux déploiements avant de conclure.
+- **`useRequeteDebattue`** (`src/hooks/`) remplace quatre débounces recopiés
+  (carte, home, `/recherche`). Le vidage est immédiat, seul l'envoi attend.
+- **`CarteDemo` découpé** : `AideCarte` (un `Dialog` non contrôlé posé à côté
+  de son bouton : `DialogContent` passe déjà par un portail, englober tout
+  l'écran n'avait aucune raison d'être) et `PanneauContribution`.
+- **`FichePublique`** habille village, prénom et désormais `/sources`, qui
+  n'avait aucun chevron retour. `cn()` factorise les puces A-Z et le bouton de
+  vote, dont la base avait dû être modifiée trois fois le 21/09.
+
+**Vérifié** : `pnpm run typecheck` propre, `pnpm build` 966/966 (seul l'EPERM
+symlink Windows connu suit). **À l'écran**, Chrome piloté avec la session de
+John sur `dev` : zoom deux fois, filtre « heim » → 223 points, **même
+conteneur Leaflet (marqué avant le filtre), même translation, un seul
+chargement du topojson** ; recherche « bonjour » → liste au-dessus de la
+carte, clic → panneau des quatre formes ; vote sur « buschur » → 1 point à
+Mundolsheim, cadrage intact, puis vote retiré (retour à 0, rien laissé en
+base) ; × → retour aux 223 villages filtrés ; « ? » → modale, Échap, focus
+rendu au bouton. Mon espace : liste ouverte au focus, reclic dans le champ →
+toujours ouverte, « mundol » + Entrée → « Mundolsheim (67) » choisi, puis
+Annuler (aucune écriture).
+
+**Resté ouvert, noté sans être corrigé** : les fiches publiques (et `/login`,
+depuis plus longtemps) portent deux `<h1>`, celui de l'en-tête empilé et celui
+de la page. L'en-tête empilé est le seul titre des écrans admin, donc on ne
+peut pas le rétrograder partout. Il faudrait soit une prop dédiée, soit
+retirer le grand titre de la page : c'est une décision de mise en page, pas un
+correctif.
+
 ## Règles de travail
 
 - Ne jamais inventer de traduction alsacienne, même pour un exemple ou un test.

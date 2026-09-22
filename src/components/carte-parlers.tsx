@@ -1,6 +1,7 @@
 "use client"
 
-import { useEffect, useRef } from "react"
+import type { LayerGroup, Map as LeafletMap } from "leaflet"
+import { useEffect, useRef, useState } from "react"
 
 import { cn } from "@/lib/utils"
 
@@ -56,12 +57,24 @@ function creerContenuPopup(formes: string[], nom: string): HTMLElement {
     return conteneur
 }
 
+// Ce dont l'effet des points a besoin une fois la carte montée : Leaflet
+// lui-même (chargé dynamiquement) et la couche qui porte les marqueurs.
+interface CarteMontee {
+    L: typeof import("leaflet")
+    marqueurs: LayerGroup
+}
+
 export function CarteParlers({ points, couleurDe, className }: Props) {
     const conteneur = useRef<HTMLDivElement>(null)
+    const [carte, setCarte] = useState<CarteMontee | null>(null)
 
+    // La carte et son fond se construisent UNE fois. Seuls les marqueurs
+    // suivent `points` (effet suivant) : reconstruire toute la carte à chaque
+    // changement rechargeait le fond et remettait le cadrage à zéro — un
+    // membre zoomé sur son coin perdait sa vue à chaque filtre et à chaque vote.
     useEffect(() => {
         let annule = false
-        let instance: any = null
+        let instance: LeafletMap | null = null
 
         void (async () => {
             // Leaflet lit `window` dès son import : il ne peut pas être chargé
@@ -72,7 +85,7 @@ export function CarteParlers({ points, couleurDe, className }: Props) {
             ])
             if (annule || !conteneur.current) return
 
-            instance = L.map(conteneur.current, {
+            const map = L.map(conteneur.current, {
                 // Le zoom à la molette vole le défilement de la page sur une
                 // carte posée au milieu d'un écran mobile-first.
                 scrollWheelZoom: false,
@@ -81,39 +94,31 @@ export function CarteParlers({ points, couleurDe, className }: Props) {
                 preferCanvas: true,
                 attributionControl: false,
             }).fitBounds(CADRE)
+            instance = map
 
-            // Le fond d'abord, les points ensuite — sinon les points passent
-            // sous les communes.
+            // Le fond d'abord, la couche des points ensuite : sur un canvas,
+            // l'ordre d'ajout est l'ordre de peinture, et les points passeraient
+            // sous les communes. Un fond qui ne charge pas n'empêche pas les
+            // points de s'afficher.
             const reponse = await fetch(CONTOURS)
-            if (annule || !reponse.ok) return
-            const topo = await reponse.json()
             if (annule) return
-            const communes = feature(topo, topo.objects.communes) as any
-
-            L.geoJSON(communes, {
-                interactive: false,
-                style: {
-                    // Un fond qui se tait : le maillage se devine, il ne
-                    // concurrence pas les formes qu'on est venu lire.
-                    color: "#94a3b8",
-                    weight: 0.5,
-                    fillColor: "#f8fafc",
-                    fillOpacity: 1,
-                },
-            }).addTo(instance)
-
-            for (const p of points) {
-                const couleur = couleurDe?.(p.formes[0] ?? "") ?? "#C20000"
-                L.circleMarker([p.latitude, p.longitude], {
-                    radius: 5,
-                    weight: 1.5,
-                    color: "#ffffff",
-                    fillColor: couleur,
-                    fillOpacity: 0.95,
-                })
-                    .bindPopup(creerContenuPopup(p.formes, p.nom))
-                    .addTo(instance)
+            if (reponse.ok) {
+                const topo = await reponse.json()
+                if (annule) return
+                L.geoJSON(feature(topo, topo.objects.communes), {
+                    interactive: false,
+                    style: {
+                        // Un fond qui se tait : le maillage se devine, il ne
+                        // concurrence pas les formes qu'on est venu lire.
+                        color: "#94a3b8",
+                        weight: 0.5,
+                        fillColor: "#f8fafc",
+                        fillOpacity: 1,
+                    },
+                }).addTo(map)
             }
+
+            setCarte({ L, marqueurs: L.layerGroup().addTo(map) })
 
             // Pas de bandeau d'attribution SUR la carte : la Licence Ouverte
             // demande de mentionner la paternité, jamais à un endroit imposé —
@@ -130,8 +135,26 @@ export function CarteParlers({ points, couleurDe, className }: Props) {
         return () => {
             annule = true
             instance?.remove()
+            setCarte(null)
         }
-    }, [points, couleurDe])
+    }, [])
+
+    useEffect(() => {
+        if (!carte) return
+        const { L, marqueurs } = carte
+        marqueurs.clearLayers()
+        for (const p of points) {
+            L.circleMarker([p.latitude, p.longitude], {
+                radius: 5,
+                weight: 1.5,
+                color: "#ffffff",
+                fillColor: couleurDe?.(p.formes[0] ?? "") ?? "#C20000",
+                fillOpacity: 0.95,
+            })
+                .bindPopup(creerContenuPopup(p.formes, p.nom))
+                .addTo(marqueurs)
+        }
+    }, [carte, points, couleurDe])
 
     // `isolate` : Leaflet pose ses propres panes internes avec des z-index
     // allant jusqu'à 1000 (`.leaflet-top`/`.leaflet-bottom`, les contrôles de

@@ -10,6 +10,7 @@ import { ListSkeleton } from "@/components/ui/list-skeleton";
 import { rechercherAction } from "@/app/actions/recherche";
 import { precisionLemme, type LemmeResume } from "@/lib/dictionnaire";
 import { useListeMemorisee } from "@/hooks/use-liste-memorisee";
+import { useRequeteDebattue } from "@/hooks/use-requete-debattue";
 import { useScrollMemorise } from "@/hooks/use-scroll-memorise";
 import { cleCache, memoriserUrlOnglet } from "@/lib/cache-navigation";
 
@@ -42,36 +43,21 @@ function RechercheContenu() {
   const [terme, setTerme] = useState(() => searchParams.get("q") ?? "");
   // Terme réellement soumis, une fois la frappe retombée. C'est lui qui fait
   // la clé de cache : deux visites du même terme ne rappellent pas le serveur.
-  const [requete, setRequete] = useState(() => (searchParams.get("q") ?? "").trim());
+  const requete = useRequeteDebattue(terme);
 
-  // Recherche différée : la frappe ne doit pas déclencher un aller-retour par
-  // caractère, et la RPC refuse de toute façon les termes d'un seul caractère.
-  // L'URL est mise à jour (replace, pas push) au même rythme que la recherche,
-  // pour qu'un retour depuis une fiche de mot retombe sur la même requête.
+  // L'URL suit la requête (replace, pas push), pour qu'un retour depuis une
+  // fiche de mot retombe sur la même recherche. Rien à faire quand elle la
+  // porte déjà — c'est le cas au montage, restauré depuis l'URL.
   useEffect(() => {
-    const saisie = terme.trim();
-    if (saisie === requete) return;
-
-    if (saisie.length < 2) {
-      setRequete("");
-      router.replace("/recherche", { scroll: false });
-      memoriserUrlOnglet("recherche", "/recherche");
-      return;
-    }
-
-    const minuteur = setTimeout(() => {
-      const url = `/recherche?q=${encodeURIComponent(saisie)}`;
-      setRequete(saisie);
-      router.replace(url, { scroll: false });
-      // La barre de nav rouvrira la recherche ici plutôt que sur un écran vide.
-      memoriserUrlOnglet("recherche", url);
-    }, 250);
-
-    return () => clearTimeout(minuteur);
+    if (requete === (searchParams.get("q") ?? "").trim()) return;
+    const url = requete ? `/recherche?q=${encodeURIComponent(requete)}` : "/recherche";
+    router.replace(url, { scroll: false });
+    // La barre de nav rouvrira la recherche ici plutôt que sur un écran vide.
+    memoriserUrlOnglet("recherche", url);
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [terme, requete]);
+  }, [requete]);
 
-  const cle = requete.length >= 2 ? cleCache("recherche", requete) : null;
+  const cle = requete ? cleCache("recherche", requete) : null;
   const { donnees, premierChargement } = useListeMemorisee<LemmeResume[]>({
     cle,
     charger: () => rechercherAction(requete),

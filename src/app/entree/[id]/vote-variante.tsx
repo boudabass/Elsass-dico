@@ -5,6 +5,7 @@ import { useRouter } from "next/navigation";
 import { toast } from "sonner";
 
 import { retirerVoteAction, voterPourVarianteAction } from "@/app/actions/votes";
+import { cn } from "@/lib/utils";
 
 // Le bouton `+` du doc 20, étape 5 : « un vote = un village ». `monVote` vient
 // du serveur (chargerLemme()) ; après un aller-retour réussi on redemande la
@@ -50,11 +51,12 @@ export function VoteVariante({
             onClick={basculer}
             disabled={enCours}
             aria-pressed={monVote}
-            className={
+            className={cn(
+                "inline-flex h-9 items-center gap-1 rounded-full px-3 text-xs font-semibold disabled:opacity-60",
                 monVote
-                    ? "inline-flex h-9 items-center gap-1 rounded-full bg-succes-100 px-3 text-xs font-semibold text-succes-500 disabled:opacity-60"
-                    : "inline-flex h-9 items-center gap-1 rounded-full border border-bordure-forte px-3 text-xs font-semibold text-foreground transition-colors hover:bg-neutre-50 disabled:opacity-60"
-            }
+                    ? "bg-succes-100 text-succes-500"
+                    : "border border-bordure-forte text-foreground transition-colors hover:bg-neutre-50",
+            )}
         >
             {monVote ? "✓ Chez moi aussi" : "+ Chez moi aussi"}
         </button>

@@ -37,17 +37,10 @@ const CommandDialog = ({ children, ...props }: DialogProps) => {
 
 const CommandInput = React.forwardRef<
   React.ElementRef<typeof CommandPrimitive.Input>,
-  React.ComponentPropsWithoutRef<typeof CommandPrimitive.Input> & {
-    /** Remplace entièrement les classes du conteneur (pas de merge) — pour
-     *  les usages qui gèrent déjà leur propre habillage de champ. */
-    wrapperClassName?: string
-    /** Défaut `true` : préserve le comportement d'origine pour tout usage
-     *  qui n'a pas besoin de retirer l'icône loupe intégrée. */
-    showIcon?: boolean
-  }
->(({ className, wrapperClassName, showIcon = true, ...props }, ref) => (
-  <div className={wrapperClassName ?? "flex items-center border-b px-3"} cmdk-input-wrapper="">
-    {showIcon && <Search className="mr-2 h-4 w-4 shrink-0 opacity-50" />}
+  React.ComponentPropsWithoutRef<typeof CommandPrimitive.Input>
+>(({ className, ...props }, ref) => (
+  <div className="flex items-center border-b px-3" cmdk-input-wrapper="">
+    <Search className="mr-2 h-4 w-4 shrink-0 opacity-50" />
     <CommandPrimitive.Input
       ref={ref}
       className={cn(

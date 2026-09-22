@@ -1,8 +1,8 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
-import { AppHeader } from "@/components/app-header";
 import { CarteVariante } from "@/components/carte-variante";
+import { FichePublique } from "@/components/fiche-publique";
 import { chargerLemmeDetaille, slugsPrenomsAttestes } from "@/lib/lemmes";
 
 // Fiche publique d'un prénom (doc 20, étape 3) — même contenu que la fiche
@@ -43,9 +43,7 @@ export default async function PrenomPage({
   if (!lemme || lemme.type !== "prenom") notFound();
 
   return (
-    <div className="flex min-h-screen flex-col">
-      <AppHeader variant="stack" titre={lemme.francais} backHref="/" />
-      <main className="mx-auto w-full max-w-3xl flex-1 space-y-6 p-4 pb-8">
+    <FichePublique titre={lemme.francais} className="space-y-6">
       <header className="space-y-1">
         <p className="text-xs font-semibold uppercase tracking-wide text-muted-foreground">Prénom</p>
         <h1 className="text-2xl font-bold text-foreground">{lemme.francais}</h1>
@@ -64,7 +62,6 @@ export default async function PrenomPage({
           Sources et licences
         </Link>
       </p>
-      </main>
-    </div>
+    </FichePublique>
   );
 }

@@ -13,9 +13,9 @@ export function RangeeActions({ entreeId, premiereForme }: { entreeId: string; p
   const copier = async () => {
     try {
       await navigator.clipboard.writeText(premiereForme);
-      toast.success("Copié.");
+      toast.success("Copié");
     } catch {
-      toast.error("Impossible de copier.");
+      toast.error("Copie impossible");
     }
   };
 

@@ -25,12 +25,11 @@ export function PanneauContribution({
 }) {
     return (
         <div className="max-h-[32vh] shrink-0 space-y-2 overflow-y-auto rounded-md border bg-muted/30 p-3 text-sm">
-            <p className="font-medium text-foreground">
-                « {francais} »
-                {variantes === null ? " — chargement…" : null}
-            </p>
+            <p className="font-medium text-foreground">« {francais} »</p>
 
-            {variantes !== null && (
+            {variantes === null ? (
+                <p className="text-muted-foreground">Chargement des formes…</p>
+            ) : (
                 <>
                     {variantes.length > 0 && (
                         <div className="flex flex-wrap gap-2">

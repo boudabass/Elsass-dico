@@ -24,11 +24,12 @@ export async function generateMetadata({
   const lemme = await chargerLemmeDetaille({ slug });
   if (!lemme || lemme.type !== "prenom") return {};
 
-  const premiereForme = lemme.variantes[0]?.forme;
+  const formes = lemme.variantes.map((v) => v.forme);
+  const premiereForme = formes[0];
   return {
-    title: `${lemme.francais}${premiereForme ? ` — ${premiereForme}` : ""} — Elsass Dico`,
+    title: `${lemme.francais}${premiereForme ? ` (${premiereForme})` : ""} · Elsass Dico`,
     description: premiereForme
-      ? `Le prénom ${lemme.francais} en alsacien : ${premiereForme}. Sources et variantes attestées.`
+      ? `Le prénom ${lemme.francais} en alsacien : ${formes.slice(0, 3).join(", ")}. Chaque forme avec ses sources et ses villages.`
       : `Le prénom ${lemme.francais} dans Elsass Dico.`,
   };
 }

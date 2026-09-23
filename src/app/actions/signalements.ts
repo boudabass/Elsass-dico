@@ -22,7 +22,7 @@ export async function creerSignalementAction(
     motif: string,
 ): Promise<Resultat> {
     const session = await sessionActuelle()
-    if (!session) return { succes: false, erreur: "Connexion requise" }
+    if (!session) return { succes: false, erreur: "Connecte-toi pour continuer" }
 
     const propre = motif.trim().slice(0, MOTIF_MAX)
     if (!propre) return { succes: false, erreur: "Décris le problème" }
@@ -39,7 +39,7 @@ export async function creerSignalementAction(
         })
     } catch (erreur) {
         console.error("[Signalements] Non créé:", erreur)
-        return { succes: false, erreur: "Envoi impossible" }
+        return { succes: false, erreur: "Envoi impossible, réessaie dans un instant" }
     }
 
     return { succes: true, message: "Signalement envoyé" }
@@ -91,7 +91,7 @@ export async function traiterSignalementAction(id: string): Promise<Resultat> {
         await prisma.signalement.update({ where: { id }, data: { traiteLe: new Date() } })
     } catch (erreur) {
         console.error("[Signalements] Non marqué traité:", erreur)
-        return { succes: false, erreur: "Modification impossible" }
+        return { succes: false, erreur: "Modification impossible, réessaie dans un instant" }
     }
 
     revalidatePath('/admin/signalements')

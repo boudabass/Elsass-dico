@@ -27,7 +27,7 @@ export function EditerVariante({ varianteId, formeActuelle }: { varianteId: stri
         demarrer(async () => {
             const res = await modifierVarianteAction(varianteId, forme);
             if (res.succes) {
-                toast.success("Forme modifiée.");
+                toast.success("Forme modifiée");
                 setEnEdition(false);
                 router.refresh();
             } else {

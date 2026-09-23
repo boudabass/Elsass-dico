@@ -28,7 +28,7 @@ type Resultat =
 
 export async function creerVarianteAction(lemmeId: string, formeBrute: string): Promise<Resultat> {
     const session = await sessionActuelle()
-    if (!session) return { succes: false, erreur: "Connexion requise" }
+    if (!session) return { succes: false, erreur: "Connecte-toi pour continuer" }
 
     const forme = formeBrute.trim()
     if (!forme) return { succes: false, erreur: "Écris une forme avant d'envoyer" }
@@ -61,7 +61,7 @@ export async function creerVarianteAction(lemmeId: string, formeBrute: string): 
     if (existante) {
         return existante.masquee
             ? { succes: false, erreur: "Cette forme est déjà connue de la base" }
-            : { succes: false, erreur: "Cette forme existe déjà — ajoute plutôt ton village avec le bouton +" }
+            : { succes: false, erreur: "Cette forme existe déjà. Ajoute plutôt ton village avec « + Chez moi aussi »" }
     }
 
     try {
@@ -80,7 +80,7 @@ export async function creerVarianteAction(lemmeId: string, formeBrute: string): 
         return { succes: true, varianteId: variante.id }
     } catch (erreur) {
         console.error("[Variantes] Non créée:", erreur)
-        return { succes: false, erreur: "Enregistrement impossible" }
+        return { succes: false, erreur: "Enregistrement impossible, réessaie dans un instant" }
     }
 }
 
@@ -98,7 +98,7 @@ type ResultatSimple =
 
 export async function modifierVarianteAction(varianteId: string, formeBrute: string): Promise<ResultatSimple> {
     const session = await sessionActuelle()
-    if (!session) return { succes: false, erreur: "Connexion requise" }
+    if (!session) return { succes: false, erreur: "Connecte-toi pour continuer" }
 
     const forme = formeBrute.trim()
     if (!forme) return { succes: false, erreur: "Écris une forme avant d'envoyer" }
@@ -139,7 +139,7 @@ export async function modifierVarianteAction(varianteId: string, formeBrute: str
         })
     } catch (erreur) {
         console.error("[Variantes] Non modifiée:", erreur)
-        return { succes: false, erreur: "Enregistrement impossible" }
+        return { succes: false, erreur: "Enregistrement impossible, réessaie dans un instant" }
     }
 
     revalidatePath(`/entree/${variante.lemmeId}`)

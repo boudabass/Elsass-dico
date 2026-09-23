@@ -33,17 +33,20 @@ export async function generateMetadata({
 
   if (!village.lemme) {
     return {
-      title: `${village.nom} — Elsass Dico`,
+      title: `${village.nom} · Elsass Dico`,
       description: `${village.nom} (${departement}) n'a pas encore de nom alsacien attesté dans Elsass Dico.`,
       robots: { index: false, follow: true },
     };
   }
 
-  const premiereForme = village.lemme.variantes[0]?.forme;
+  // Aucune forme n'est « le » nom alsacien : la description les cite toutes
+  // (jusqu'à trois), la première n'étant que la plus attestée.
+  const formes = village.lemme.variantes.map((v) => v.forme);
+  const premiereForme = formes[0];
   return {
-    title: `${village.nom}${premiereForme ? ` — ${premiereForme}` : ""} — Elsass Dico`,
+    title: `${village.nom}${premiereForme ? ` (${premiereForme})` : ""} · Elsass Dico`,
     description: premiereForme
-      ? `Le nom alsacien de ${village.nom} (${departement}) : ${premiereForme}. Sources et variantes attestées.`
+      ? `${village.nom} (${departement}) en alsacien : ${formes.slice(0, 3).join(", ")}. Chaque forme avec ses sources et ses villages.`
       : `${village.nom} (${departement}) dans Elsass Dico.`,
   };
 }

@@ -58,7 +58,7 @@ export default async function PageSources() {
                             )}
                             {(s.annee || s.licence) && (
                                 <p className="mt-1 text-xs text-muted-foreground">
-                                    {[s.annee, s.licence].filter(Boolean).join(" — ")}
+                                    {[s.annee, s.licence].filter(Boolean).join(" · ")}
                                 </p>
                             )}
                         </li>
@@ -72,13 +72,13 @@ export default async function PageSources() {
                     <li className="rounded-lg border p-3">
                         <div className="font-medium">Communes d&apos;Alsace-Moselle</div>
                         <p className="mt-1 text-muted-foreground">
-                            Identité administrative des 1 605 communes — code INSEE, nom,
+                            Identité administrative des 1 605 communes : code INSEE, nom,
                             département, codes postaux, population.
                         </p>
                         <p className="mt-1 text-xs text-muted-foreground">
                             Source : INSEE, Code Officiel Géographique, via{" "}
                             <span className="font-mono">@etalab/decoupage-administratif</span>{" "}
-                            6.0.0 — Licence Ouverte.
+                            6.0.0, sous Licence Ouverte.
                         </p>
                     </li>
                     <li className="rounded-lg border p-3">
@@ -89,7 +89,7 @@ export default async function PageSources() {
                             service extérieur.
                         </p>
                         <p className="mt-1 text-xs text-muted-foreground">
-                            Source : IGN, ADMIN EXPRESS COG, millésime 2018 — Licence Ouverte.
+                            Source : IGN, ADMIN EXPRESS COG, millésime 2018, sous Licence Ouverte.
                         </p>
                     </li>
                 </ul>

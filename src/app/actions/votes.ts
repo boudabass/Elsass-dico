@@ -14,7 +14,7 @@ type Resultat = { succes: true } | { succes: false; erreur: string }
 
 export async function voterPourVarianteAction(varianteId: string): Promise<Resultat> {
     const session = await sessionActuelle()
-    if (!session) return { succes: false, erreur: "Connexion requise" }
+    if (!session) return { succes: false, erreur: "Connecte-toi pour continuer" }
 
     // Relu en base plutôt que pris du cookie : le jeton de session dure 30 min,
     // et un village tout juste choisi ne doit pas attendre son renouvellement
@@ -45,7 +45,7 @@ export async function voterPourVarianteAction(varianteId: string): Promise<Resul
         })
     } catch (erreur) {
         console.error("[Votes] Non enregistré:", erreur)
-        return { succes: false, erreur: "Enregistrement impossible" }
+        return { succes: false, erreur: "Enregistrement impossible, réessaie dans un instant" }
     }
 
     revalidatePath(`/entree/${variante.lemmeId}`)
@@ -54,7 +54,7 @@ export async function voterPourVarianteAction(varianteId: string): Promise<Resul
 
 export async function retirerVoteAction(varianteId: string): Promise<Resultat> {
     const session = await sessionActuelle()
-    if (!session) return { succes: false, erreur: "Connexion requise" }
+    if (!session) return { succes: false, erreur: "Connecte-toi pour continuer" }
 
     const variante = await prisma.variante.findUnique({
         where: { id: varianteId },

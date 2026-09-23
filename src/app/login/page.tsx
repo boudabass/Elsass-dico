@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { connexionAction } from "@/app/actions/auth";
-import { URL_INSCRIPTION_ODOO } from "@/lib/odoo";
+import { URL_CGU, URL_INSCRIPTION_ODOO } from "@/lib/odoo";
 import { AppHeader } from "@/components/app-header";
 import { toast } from "sonner";
 import { Loader2 } from "lucide-react";
@@ -106,7 +106,16 @@ export default function LoginPage() {
         </a>
 
         <p className="mt-6 text-center text-xs text-muted-foreground">
-          En continuant, tu acceptes nos conditions.
+          En continuant, tu acceptes nos{" "}
+          <a
+            href={URL_CGU}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="underline underline-offset-2 hover:text-foreground"
+          >
+            conditions générales d&apos;utilisation
+          </a>
+          .
         </p>
       </main>
     </div>

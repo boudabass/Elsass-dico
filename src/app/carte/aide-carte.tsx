@@ -31,8 +31,9 @@ export function AideCarte() {
                             première forme qu'on lui connaît pour son propre nom.
                         </p>
                         <p>
-                            En cherchant un mot, chaque point devient une variante de ce mot —
-                            une couleur par variante, aux villages qui la revendiquent.
+                            En cherchant un mot, chaque point devient une variante de ce mot,
+                            placée dans les villages qui la revendiquent. Chaque variante a
+                            sa couleur.
                         </p>
                         <p>
                             Clique un point pour voir le détail. « + Chez moi aussi » et

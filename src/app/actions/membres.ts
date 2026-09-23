@@ -108,7 +108,7 @@ export async function monEspaceAction(): Promise<MonEspace | null> {
  *  est porté par le témoignage, pas seulement relu du profil). */
 export async function definirVillageAction(communeId: number): Promise<Resultat> {
     const session = await sessionActuelle()
-    if (!session) return { succes: false, erreur: "Connexion requise" }
+    if (!session) return { succes: false, erreur: "Connecte-toi pour continuer" }
 
     const commune = await prisma.commune.findUnique({ where: { id: communeId }, select: { id: true } })
     if (!commune) return { succes: false, erreur: "Village introuvable" }
@@ -117,7 +117,7 @@ export async function definirVillageAction(communeId: number): Promise<Resultat>
         await prisma.membre.update({ where: { id: session.membreId }, data: { communeId } })
     } catch (erreur) {
         console.error("[Membres] Village non enregistré:", erreur)
-        return { succes: false, erreur: "Enregistrement impossible" }
+        return { succes: false, erreur: "Enregistrement impossible, réessaie dans un instant" }
     }
 
     revalidatePath('/dashboard')
@@ -142,7 +142,7 @@ export async function changerRoleAction(membreId: string, role: string): Promise
         await prisma.membre.update({ where: { id: membreId }, data: { role } })
     } catch (erreur) {
         console.error("[Membres] Rôle non modifié:", erreur)
-        return { succes: false, erreur: "Modification impossible" }
+        return { succes: false, erreur: "Modification impossible, réessaie dans un instant" }
     }
 
     // Le jeton du membre concerné porte encore l'ancien rôle. Il ne le portera

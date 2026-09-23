@@ -10,7 +10,7 @@ type ResultatConnexion =
 
 // Message volontairement identique quel que soit le motif : un message précis
 // transformerait le formulaire en oracle d'existence de comptes Odoo.
-const ERREUR_GENERIQUE = "Identifiants incorrects"
+const ERREUR_GENERIQUE = "Adresse email ou mot de passe incorrect"
 
 /** Connexion. Odoo reste l'autorité sur les mots de passe — il répond à une
  *  seule question, « ce couple est-il valide ? » — et le dico ouvre sa propre
@@ -24,7 +24,7 @@ export async function connexionAction(formData: FormData): Promise<ResultatConne
     const motDePasse = String(formData.get("password") ?? "")
 
     if (!email || !motDePasse) {
-        return { succes: false, erreur: "E-mail et mot de passe requis" }
+        return { succes: false, erreur: "Indique ton adresse email et ton mot de passe" }
     }
 
     const utilisateurOdoo = await authentifierAupresDOdoo(email, motDePasse)
@@ -46,12 +46,12 @@ export async function connexionAction(formData: FormData): Promise<ResultatConne
         })
     } catch (erreur) {
         console.error("[Auth] Membre non enregistré:", erreur)
-        return { succes: false, erreur: "Compte indisponible, contactez un administrateur" }
+        return { succes: false, erreur: "Compte indisponible, contacte un administrateur" }
     }
 
     const session = await ouvrirSession(membre.id)
     if (!session) {
-        return { succes: false, erreur: "Connexion impossible, réessayez" }
+        return { succes: false, erreur: "Connexion impossible, réessaie dans un instant" }
     }
 
     return { succes: true }

@@ -35,9 +35,9 @@ export default function AdminSourcesPage() {
               <Library className="h-5 w-5" /> Sources écrites ({sources.length})
             </CardTitle>
             <CardDescription>
-              L&apos;archive dont dérive le dictionnaire — lecture seule, elle
-              se régénère depuis <code>data/sources/</code>, pas depuis cet
-              écran.
+              L&apos;archive dont dérive le dictionnaire. Elle est en lecture
+              seule : elle se régénère depuis <code>data/sources/</code>, pas
+              depuis cet écran.
             </CardDescription>
           </CardHeader>
           <CardContent>
@@ -78,7 +78,7 @@ export default function AdminSourcesPage() {
                             {s.annee ? ` · ${s.annee}` : ""}
                           </span>
                         </td>
-                        <td className="hidden p-3 md:table-cell">{s.licence ?? "—"}</td>
+                        <td className="hidden p-3 md:table-cell">{s.licence ?? "Non déclarée"}</td>
                         <td className="p-3 text-right tabular-nums">{s.fiabilite}</td>
                         <td className="hidden p-3 text-right tabular-nums md:table-cell">{s.nbAttestations}</td>
                         <td className="p-3 text-right tabular-nums">{s.nbTemoignages}</td>

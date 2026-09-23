@@ -13,7 +13,7 @@ import { useListeMemorisee } from "@/hooks/use-liste-memorisee"
 import { useRequeteDebattue } from "@/hooks/use-requete-debattue"
 import { cleCache } from "@/lib/cache-navigation"
 import { couleurDeForme } from "@/lib/couleur-carte"
-import type { LemmeResume } from "@/lib/dictionnaire"
+import { precisionLemme, type LemmeResume } from "@/lib/dictionnaire"
 
 import { AideCarte } from "./aide-carte"
 import { PanneauContribution } from "./panneau-contribution"
@@ -122,7 +122,7 @@ export function CarteDemo() {
                         rendre={(s) => (
                             <>
                                 {s.francais}
-                                {s.contexte ? <span className="text-muted-foreground"> — {s.contexte}</span> : null}
+                                {precisionLemme(s) ? <span className="text-muted-foreground"> ({precisionLemme(s)})</span> : null}
                             </>
                         )}
                         onChoisir={choisirMot}

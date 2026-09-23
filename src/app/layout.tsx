@@ -27,7 +27,7 @@ const azimut = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Elsass Dico — Traducteur français-alsacien",
+  title: "Elsass Dico · Traducteur français-alsacien",
   description:
     "Le français-alsacien, village par village : recoupé à partir de sources écrites et de témoignages de locuteurs, jamais une traduction inventée. Un projet de The Elsassisch.",
 };

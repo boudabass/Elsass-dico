@@ -24,7 +24,7 @@ export function SignalerActions({
 
   const envoyer = async () => {
     if (!varianteId || !motif.trim()) {
-      toast.error("Choisis une forme et décris le problème.");
+      toast.error("Choisis une forme et décris le problème");
       return;
     }
     setEnvoi(true);

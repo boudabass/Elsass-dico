@@ -25,7 +25,7 @@ export function NouvelleVariante({ lemmeId, onSucces }: { lemmeId: string; onSuc
             const res = await creerVarianteAction(lemmeId, forme);
             if (res.succes) {
                 setForme("");
-                toast.success("Forme ajoutée.");
+                toast.success("Forme ajoutée");
                 if (onSucces) onSucces();
                 else router.refresh();
             } else {

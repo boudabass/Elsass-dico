@@ -167,7 +167,7 @@ function DictionnaireContenu() {
           <div className="flex flex-col items-center px-3 pb-2 pt-10 text-center">
             <BookOpen className="h-[30px] w-[30px] text-neutre-300" strokeWidth={1.8} />
             <p className="mt-3 text-[15px] font-bold text-foreground">
-              Aucun mot pour la lettre {lettre ?? "—"}.
+              {lettre ? `Aucun mot pour la lettre ${lettre}.` : "Aucun mot pour l'instant."}
             </p>
             <p className="mt-1.5 text-sm text-muted-foreground">
               Le dictionnaire s&apos;enrichit des formes que les membres apportent.
@@ -179,7 +179,7 @@ function DictionnaireContenu() {
               <h2 className="text-[26px] font-extrabold text-foreground">{lettre}</h2>
               <span className="text-sm text-muted-foreground">
                 {page && page.nbPages > 1
-                  ? `${page.total} mots — page ${page.page} sur ${page.nbPages}`
+                  ? `${page.total.toLocaleString("fr-FR")} mots, page ${page.page} sur ${page.nbPages}`
                   : `${lemmes.length} mot${lemmes.length > 1 ? "s" : ""}`}
               </span>
             </div>

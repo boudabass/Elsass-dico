@@ -21,7 +21,7 @@ import { LIBELLES_ROLE, ROLES, type MembreListe } from "@/lib/membres";
 // Reste ce qui décide de quelque chose : voir qui est là, et changer un rôle.
 
 function dateCourte(iso: string | null): string {
-  if (!iso) return "—";
+  if (!iso) return "Inconnu";
   return new Date(iso).toLocaleDateString("fr-FR", {
     day: "2-digit",
     month: "2-digit",
@@ -119,7 +119,7 @@ export default function AdminPage() {
                             <span className="block text-xs text-muted-foreground">{m.email}</span>
                           )}
                         </td>
-                        <td className="hidden p-3 md:table-cell">{m.village ?? "—"}</td>
+                        <td className="hidden p-3 md:table-cell">{m.village ?? "Aucun"}</td>
                         {/* Des témoignages, jamais « des contributions » ni un
                             total mêlé de sources : ce chiffre compte ce que ce
                             membre a attaché à des formes, rien d'autre. */}

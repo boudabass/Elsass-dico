@@ -29,7 +29,7 @@ const azimut = localFont({
 export const metadata: Metadata = {
   title: "Elsass Dico · Traducteur français-alsacien",
   description:
-    "Le français-alsacien, village par village : recoupé à partir de sources écrites et de témoignages de locuteurs, jamais une traduction inventée. Un projet de The Elsassisch.",
+    "Le français-alsacien, village par village : tiré de sources écrites et des Alsaciens qui le parlent, jamais une traduction inventée. Un projet de The Elsassisch.",
 };
 
 // La session est lue ICI, côté serveur, à partir du cookie signé — et passée

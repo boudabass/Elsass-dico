@@ -18,6 +18,10 @@ export interface UtilisateurOdoo {
 // secret — safe à importer côté client.
 export const URL_INSCRIPTION_ODOO = "https://www.theelsassisch.com/web/signup";
 
+// Les CGU sont communes à toutes les apps The Elsassisch et vivent sur le
+// site, pas dans ce dépôt (décision de John, 23/09/2026).
+export const URL_CGU = "https://www.theelsassisch.com/cgu";
+
 // Les variables sont lues à l'appel et non au chargement du module : une
 // vérification au niveau module casserait le build, qui n'a pas accès aux
 // variables runtime de Coolify.

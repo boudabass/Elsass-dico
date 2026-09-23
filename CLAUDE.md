@@ -1731,9 +1731,26 @@ et de témoignages de locuteurs », qui décrivait la doctrine d'avant le 11/09,
 devient « Tiré de sources écrites et des Alsaciens qui le parlent » (home et
 meta-description). **Reste ouvert** : « En continuant, tu acceptes nos
 conditions » sur `/login` ne renvoie à rien, The Elsassisch n'a pas encore de
-CGU (seulement mentions légales, CGV, retours, cookies). John crée une page
-de CGU sur le site The Elsassisch, commune à toutes les apps : y lier la
-phrase dès que son URL existe.
+CGU (seulement mentions légales, CGV, retours, cookies). John a créé la page, commune à toutes les apps.
+
+### CGU publiées, `/login` relié (23/09/2026)
+
+Texte rédigé avec John et publié sur https://www.theelsassisch.com/cgu (vue
+Odoo `ir.ui.view` 6479, bloc « Texte »), vouvoiement comme les autres pages
+légales du site. Trois choix de John : **licence non exclusive** sur les
+contributions ; **contributions gardées sous forme anonyme** à la suppression
+d'un compte ; **aucune gestion de l'âge** (une phrase renvoie l'accord
+parental des moins de 15 ans à l'utilisateur, l'éditeur ne vérifie rien).
+`/login` relie « conditions générales d'utilisation » à cette page
+(`URL_CGU`, `src/lib/odoo.ts`).
+
+**Écart à combler avant la première demande de suppression** : les CGU
+promettent l'anonymisation, mais le code efface encore les témoignages d'un
+membre en cascade (`Temoignage.membre`, `onDelete: Cascade`), et le CHECK
+`chk_temoignage_source_ou_locuteur` exige un membre pour un témoignage de
+locuteur. Aucune suppression n'est possible depuis l'app aujourd'hui (elle
+passe par un email), donc rien ne casse, mais la migration doit précéder la
+première demande. **Décidé par John : « on fera la modif de la DB après ».**
 
 ## Règles de travail
 

@@ -101,15 +101,17 @@ try {
     //    on le recompte quand même : une contrainte qu'on n'a jamais vue mordre
     //    n'est qu'une intention de plus.
     const ecrits = await prisma.temoignage.count({ where: { NOT: { sourceId: null } } })
-    const parles = await prisma.temoignage.count({ where: { NOT: { membreId: null } } })
+    // Un témoignage parlé se reconnaît à sa commune : son membre peut avoir été
+    // anonymisé (compte supprimé, migration 20260924120000).
+    const parles = await prisma.temoignage.count({ where: { NOT: { communeId: null } } })
     const hybrides = await prisma.temoignage.count({
-        where: { NOT: { sourceId: null }, AND: [{ NOT: { membreId: null } }] },
+        where: { NOT: { sourceId: null }, OR: [{ NOT: { membreId: null } }, { NOT: { communeId: null } }] },
     })
     const ecritsAvecLieu = await prisma.temoignage.count({
         where: { NOT: { sourceId: null }, communeId: { not: null } },
     })
     const parlesAvecAire = await prisma.temoignage.count({
-        where: { NOT: { membreId: null }, aireDeclaree: { not: null } },
+        where: { NOT: { communeId: null }, aireDeclaree: { not: null } },
     })
     controle("source XOR locuteur", hybrides === 0 && ecrits + parles === nTemoignages,
         `${ecrits} écrits, ${parles} parlés, ${hybrides} hybrides`)

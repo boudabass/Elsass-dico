@@ -1752,6 +1752,33 @@ locuteur. Aucune suppression n'est possible depuis l'app aujourd'hui (elle
 passe par un email), donc rien ne casse, mais la migration doit précéder la
 première demande. **Décidé par John : « on fera la modif de la DB après ».**
 
+### Anonymisation faite (24/09/2026)
+
+Écart comblé le lendemain, à la demande de John. Migration
+`20260924120000_anonymiser_temoignages` : la clé étrangère témoignage → membre
+passe de `CASCADE` à `SET NULL`, et `chk_temoignage_source_ou_locuteur`
+reconnaît un témoignage parlé à sa **commune**, avec ou sans membre (sans =
+un membre parti). Les variantes créées étaient déjà en `SET NULL` ; les
+signalements restent en `CASCADE` (messages à motif libre, pas des
+contributions au dictionnaire).
+
+- **Suppression sur demande** : `scripts/supprimer-membre.mts <email>`, à
+  blanc par défaut, `--confirmer` pour écrire. Transaction qui annule tout si
+  un seul témoignage disparaît au lieu d'être anonymisé ; refuse de supprimer
+  le dernier admin. **Le compte Odoo reste à supprimer à la main**, sinon la
+  personne peut se reconnecter et un membre vierge est recréé. Sa session en
+  cours (30 min au plus) n'est pas révoquée, mais toute écriture relit le
+  membre en base et échoue.
+- `scripts/verifier-derivation.mts` compte les témoignages parlés par
+  `commune_id`, plus par `membre_id`.
+- **Vérifié sur la base réelle** : migration appliquée au démarrage du
+  conteneur `dev` (base partagée avec `main`, changement compatible avec le
+  code déjà en production) ; `confdeltype = 'n'` ; test dans une transaction
+  annulée (membre créé, témoignage, membre supprimé → témoignage gardé,
+  `membre_id` nul, village intact, rien d'écrit) ; `verifier-derivation`
+  entièrement vert (42 135 écrits, 1 parlé, 0 hybride) ; le script de
+  suppression à blanc refuse bien le seul membre, dernier admin.
+
 ## Règles de travail
 
 - Ne jamais inventer de traduction alsacienne, même pour un exemple ou un test.

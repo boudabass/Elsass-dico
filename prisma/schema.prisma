@@ -222,8 +222,12 @@ model Temoignage {
   aireDeclaree AireDialectale? @map("aire_declaree")
 
   // — soit un locuteur (un lieu) :
+  // `membreId` nul sur un témoignage de locuteur = un membre parti. Supprimer
+  // un compte anonymise ses témoignages sans les effacer (CGU, article 9) :
+  // le village reste sur la carte. C'est le CHECK qui dit ce qu'est un
+  // témoignage parlé, et c'est sa commune, pas son membre.
   membreId  String?  @map("membre_id")
-  membre    Membre?  @relation(fields: [membreId], references: [id], onDelete: Cascade)
+  membre    Membre?  @relation(fields: [membreId], references: [id], onDelete: SetNull)
   // Porté par le témoignage et pas seulement par le profil : si quelqu'un
   // corrige son village, ses témoignages passés ne bougent pas sur la carte.
   communeId Int?     @map("commune_id")

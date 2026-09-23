@@ -1726,10 +1726,14 @@ de fiches qui citent toutes les formes au lieu d'un « nom alsacien » au
 singulier. Vérifié sur le HTML servi : zéro tiret long sur les pages
 publiques.
 
-**Laissé tel quel, en attente de John** : le mot « recoupé » (home et
-meta-description), qui décrit la doctrine d'avant le 11/09, et « En
-continuant, tu acceptes nos conditions » sur `/login`, qui renvoie à des
-conditions que rien ne publie.
+**Tranché par John le même jour** : « Recoupé à partir de sources écrites
+et de témoignages de locuteurs », qui décrivait la doctrine d'avant le 11/09,
+devient « Tiré de sources écrites et des Alsaciens qui le parlent » (home et
+meta-description). **Reste ouvert** : « En continuant, tu acceptes nos
+conditions » sur `/login` ne renvoie à rien, The Elsassisch n'a pas encore de
+CGU (seulement mentions légales, CGV, retours, cookies). John crée une page
+de CGU sur le site The Elsassisch, commune à toutes les apps : y lier la
+phrase dès que son URL existe.
 
 ## Règles de travail
 

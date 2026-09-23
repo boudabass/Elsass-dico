@@ -50,8 +50,8 @@ export default async function AccueilPubliquePage() {
           <span className="text-marque-rouge-texte">village par village</span>.
         </h1>
         <p className="mt-4 max-w-md text-balance text-base text-muted-foreground">
-          Recoupé à partir de sources écrites et de témoignages de locuteurs.
-          Jamais une traduction inventée. Chaque forme dit qui l&apos;atteste,
+          Tiré de sources écrites et des Alsaciens qui le parlent. Jamais une
+          traduction inventée. Chaque forme dit qui l&apos;atteste,
           sans en effacer aucune.
         </p>
 

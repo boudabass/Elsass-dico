@@ -1903,6 +1903,26 @@ usage : plus de page d'erreur au retour après 30 min.
 **Leçon** : un « caprice » qui revient à chaque première visite se reproduit en
 `curl -I` avant d'être classé incident.
 
+## Clôture de session (24/09/2026)
+
+Quatre PR fusionnées dans la journée (#55 à #58), **`main` et `dev` identiques
+à la clôture**, tout constaté en production. Livré : un seul `<h1>` par page et
+un A-Z complet ; les décisions de John (le locuteur est prioritaire,
+l'unification émerge sans s'imposer), consignées dans Odoo 882/883 et
+`PRODUCT.md` ; le journal des contributions et son export ; les sauvegardes
+quotidiennes, restauration vérifiée ; le premier parcours du membre ; le
+correctif de session `0.0.0.0:3000`.
+
+- **Export des contributions** relancé à la clôture : inchangé (1 événement,
+  la pose Mundelse). Les seuls votes du jour étaient des tests, effacés.
+- **Base à la clôture** : 25 864 lemmes, 41 646 variantes, 42 136 témoignages
+  (dont 1 parlé), 1 membre, 1 événement au journal.
+- **Reste à constater par John** : plus de page d'erreur au premier chargement
+  après 30 min d'inactivité.
+- **Ouvert** : faire venir des locuteurs (la priorité) ; mesure de
+  convergence quand il y aura des données ; auto-inscription Odoo, aire du 57,
+  gameplay, attribution Azimut (John).
+
 ## Règles de travail
 
 - Ne jamais inventer de traduction alsacienne, même pour un exemple ou un test.

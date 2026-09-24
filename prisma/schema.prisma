@@ -327,6 +327,7 @@ model Membre {
   evenements   EvenementContribution[]
   variantes    Variante[]
   signalements Signalement[]
+  parties      PartieJeu[]
 
   @@map("membres")
 }
@@ -344,6 +345,48 @@ model Signalement {
 
   @@index([traiteLe])
   @@map("signalements")
+}
+
+// AJOUT du 25/09/2026 : le jeu « Quel village dit ça ? ».
+//
+// Une ligne par partie. Le contenu d'une manche (le village à trouver, les
+// quatre choix) vient de la base de toponymes et se recalcule ; on le fige
+// quand même ici, parce que la RÉPONSE ne doit jamais partir vers le
+// navigateur avant que le membre ait répondu, et que le serveur doit pouvoir
+// la relire au moment où il répond.
+//
+//   * `jour` n'est rempli qu'en mode `jour` : l'unicité (membre, jour) fait
+//     un seul défi du jour par membre, et les NULL du mode libre ne
+//     collisionnent pas en Postgres.
+//   * CASCADE à la suppression d'un membre : ce sont ses parties, pas des
+//     contributions au dictionnaire. Rien n'y porte de village ni de forme.
+//   * Rien ne classe les membres ni les villages entre eux sur ces scores
+//     (brief du 25/09/2026) : ils ne servent qu'au bilan et à la série du
+//     membre lui-même.
+enum ModeJeu {
+  jour
+  libre
+
+  @@map("mode_jeu")
+}
+
+model PartieJeu {
+  id       String  @id @default(uuid())
+  membreId String  @map("membre_id")
+  membre   Membre  @relation(fields: [membreId], references: [id], onDelete: Cascade)
+  mode     ModeJeu
+  jour     DateTime? @db.Date
+
+  // [{ communeId, choix: number[], reponse: number | null }], dans l'ordre.
+  manches Json
+  score   Int     @default(0)
+  finie   Boolean @default(false)
+
+  creeLe DateTime @default(now()) @map("cree_le")
+
+  @@unique([membreId, jour])
+  @@index([membreId, mode])
+  @@map("parties_jeu")
 }
 
 // --- L'archive --------------------------------------------------------------

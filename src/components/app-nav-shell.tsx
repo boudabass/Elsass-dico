@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { BookOpen, Map, Search, ShieldCheck, User, type LucideIcon } from "lucide-react";
+import { BookOpen, Dices, Map, Search, ShieldCheck, User, type LucideIcon } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { useAuth } from "@/components/auth-provider";
 import { lireUrlOnglet } from "@/lib/cache-navigation";
@@ -34,7 +34,7 @@ import { lireUrlOnglet } from "@/lib/cache-navigation";
 // TÂCHE (Signaler, Proposer un mot) restent sans nav : on ne « navigue » pas
 // depuis eux, on les termine ou on les ferme.
 
-export type OngletRacine = "recherche" | "dictionnaire" | "carte" | "compte" | "admin";
+export type OngletRacine = "recherche" | "dictionnaire" | "carte" | "jeu" | "compte" | "admin";
 
 type Onglet = { cle: OngletRacine; href: string; icone: LucideIcon; libelle: string };
 
@@ -42,6 +42,9 @@ export const ONGLETS: Onglet[] = [
   { cle: "recherche", href: "/recherche", icone: Search, libelle: "Recherche" },
   { cle: "dictionnaire", href: "/dictionnaire", icone: BookOpen, libelle: "Dictionnaire" },
   { cle: "carte", href: "/carte", icone: Map, libelle: "Carte" },
+  // Le jeu « Quel village dit ça ? » (25/09/2026). Pas de nom propre : il fait
+  // partie du dico, l'onglet dit seulement ce qu'on y trouve.
+  { cle: "jeu", href: "/jeu", icone: Dices, libelle: "Jeu" },
   { cle: "compte", href: "/dashboard", icone: User, libelle: "Mon espace" },
 ];
 

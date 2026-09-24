@@ -1,6 +1,7 @@
 'use server'
 
-import type { LemmeResume, TypeTerme } from "@/lib/dictionnaire"
+import type { LemmeResume } from "@/lib/dictionnaire"
+import { MOTS_DE_BASE } from "@/lib/mots-de-base"
 import { apercusParLemme } from "@/lib/lemmes"
 import { prisma } from "@/lib/prisma"
 
@@ -20,24 +21,9 @@ import { prisma } from "@/lib/prisma"
 
 // --- Vitrine de mots de base --------------------------------------------------
 //
-// Identifiés par (cle, contexte, type) plutôt que par id : c'est la clé
-// naturelle et stable du schéma (`@@unique([cle, contexte, type])`), qui
-// survit à une redérivation complète de la base — un UUID, lui, ne le
-// garantit pas (leçon du 12/09/2026 sur le déterminisme de la dérivation).
-// Mesurés en base le 18/09/2026 (script jetable, lecture seule) avant d'écrire
-// cette liste : chaque entrée existe et porte au moins une forme réelle.
-const MOTS_VITRINE: { cle: string; contexte: string; type: TypeTerme }[] = [
-    { cle: "bonjour", contexte: "", type: "mot" },
-    { cle: "bonsoir", contexte: "", type: "mot" },
-    { cle: "au revoir", contexte: "", type: "expression" },
-    { cle: "merci", contexte: "", type: "mot" },
-    { cle: "pardon", contexte: "", type: "mot" },
-    { cle: "oui", contexte: "", type: "mot" },
-    { cle: "non", contexte: "", type: "mot" },
-    { cle: "ami", contexte: "(l')", type: "mot" },
-    { cle: "maison", contexte: "(la)", type: "mot" },
-    { cle: "famille", contexte: "(la)", type: "mot" },
-]
+// La liste vit dans `lib/mots-de-base.ts`, partagée avec la fin de partie du
+// jeu (25/09/2026).
+const MOTS_VITRINE = MOTS_DE_BASE
 
 /** La vitrine de la home publique : quelques mots de base, avec leurs vraies
  *  formes et ce qui les fonde. Jamais de traduction codée en dur (règle 1) —

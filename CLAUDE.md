@@ -1806,6 +1806,48 @@ contributions au dictionnaire).
   même jour (l'exception du doc 20 est close, cf. `documentation/README.md`),
   puis dans `PRODUCT.md`.
 
+## Préparation technique de l'unification : le journal des contributions (24/09/2026)
+
+Suite directe de la décision du même jour (« se préparer techniquement, ne rien
+imposer »). Plan validé par John, commit `0fb1eef`. Deux trous comblés, **rien
+ne change à l'écran** et les compteurs restent calculés sur `Temoignage`.
+
+- **L'historique se perdait.** Retirer un vote supprimait le témoignage,
+  modifier une forme l'écrasait. Or un village qui quitte une forme pour une
+  autre est le signal même d'une convergence. Table `evenements_contribution`
+  (migration `20260924180000_journal_contributions`), en ajout seul : `pose`,
+  `retrait`, `creation`, `modification`, écrits **dans la même transaction**
+  que le geste (`votes.ts`, `variantes.ts`). `temoignageId` sans clé étrangère
+  apparie une pose et son retrait ; `communeId` est le village au moment du
+  geste ; `membreId` en SET NULL comme les témoignages. Un CHECK fixe la forme
+  de chaque type. Rattrapage : la seule pose existante (Mundelse).
+  **Journal plutôt qu'une colonne `retireLe`** sur les témoignages : celle-ci
+  aurait obligé à filtrer chaque requête de comptage, et en oublier une aurait
+  gonflé un compteur en silence.
+- **Les contributions ne vivaient qu'en base**, en contradiction avec « la
+  source de vérité est le dépôt » (12/09) : une reconstruction à neuf les
+  aurait effacées. `scripts/exporter-contributions.mts` écrit
+  `data/contributions/journal.jsonl` (clés naturelles, **aucun membre, dates
+  au jour**, le dépôt est public) ; `scripts/importer-contributions.mts` le
+  rejoue après `deriver.mts`, idempotent. **À lancer à chaque clôture de
+  session qui a vu des contributions**, et avant toute opération lourde sur la
+  base.
+- `supprimer-membre.mts` contrôle aussi que le journal est anonymisé.
+- **Vérifié** : migration validée d'abord dans une transaction annulée sur la
+  vraie base, puis appliquée au démarrage du conteneur `dev`. À l'écran (session
+  de John) : vote et retrait sur `buschur`, création puis modification d'une
+  forme de test, six événements exacts. Reconstruction : forme de test
+  supprimée en base puis recréée par l'importeur (forme actuelle, témoignage
+  actif anonyme, trois événements, le vote retiré non recréé), second rejeu
+  sans effet. Tout le test nettoyé ensuite (1 événement, 1 témoignage parlé,
+  4 formes pour « bonjour »). `verifier-derivation` entièrement vert.
+- **La migration est déjà en base, partagée avec `main`**, mais seul le code de
+  `dev` journalise : tant que ce chantier n'est pas fusionné, les gestes faits
+  en production ne sont pas journalisés.
+- **Reste** : tester une restauration d'une sauvegarde Coolify (avec John,
+  l'outil de ce poste est en lecture seule). **Pas de mesure de convergence**
+  tant qu'il n'y a pas de données : un seul témoignage réel à ce jour.
+
 ## Règles de travail
 
 - Ne jamais inventer de traduction alsacienne, même pour un exemple ou un test.

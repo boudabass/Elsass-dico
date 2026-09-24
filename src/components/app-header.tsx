@@ -20,6 +20,11 @@ import { AppNavShell, type OngletRacine } from "@/components/app-nav-shell";
 // statut du bezel de démo (ios-frame.jsx). Ici l'app tourne dans un vrai
 // navigateur : on respecte plutôt env(safe-area-inset-top), qui ne vaut
 // quelque chose que sur mobile/PWA installée et reste à 0 ailleurs.
+//
+// Le titre de l'en-tête n'est jamais un <h1> (décision de John, 24/09/2026) :
+// les pages qui ont un titre de contenu (fiches village/prénom, /sources,
+// /login) portent le leur, et un second <h1> dans l'en-tête le doublait.
+// Même règle que la variante racine, qui n'en a jamais eu.
 
 interface AppHeaderRootProps {
   variant: "root";
@@ -141,7 +146,7 @@ function EnteteEmpilee({
         <button type="button" onClick={revenir} aria-label={libelle} className={classeBouton}>
           <Icone className="h-[18px] w-[18px]" strokeWidth={2.2} />
         </button>
-        <h1 className="flex-1 truncate text-center text-[17px] font-bold text-foreground">{titre}</h1>
+        <span className="flex-1 truncate text-center text-[17px] font-bold text-foreground">{titre}</span>
         <div className="flex h-10 w-10 shrink-0 items-center justify-center">{trailing}</div>
       </>
     );
@@ -158,7 +163,7 @@ function EnteteEmpilee({
           <Icone className="h-[18px] w-[18px]" strokeWidth={2.2} />
         </button>
       )}
-      <h1 className="flex-1 truncate text-center text-[17px] font-bold text-foreground">{titre}</h1>
+      <span className="flex-1 truncate text-center text-[17px] font-bold text-foreground">{titre}</span>
       <div className="flex h-10 w-10 shrink-0 items-center justify-center">{trailing}</div>
     </>
   );

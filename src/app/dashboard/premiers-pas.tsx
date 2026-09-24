@@ -38,7 +38,7 @@ export function PremiersPas({
     const [reussite, setReussite] = useState<{ forme: string; francais: string; lemmeId: string } | null>(null);
 
     return (
-        <section aria-labelledby="premiers-pas-titre" className="mt-[26px]">
+        <section aria-labelledby="premiers-pas-titre" className="mt-[26px] max-w-2xl">
             <h2 id="premiers-pas-titre" className="text-balance text-xl font-extrabold text-foreground">
                 Fais entrer ton village dans le dico
             </h2>

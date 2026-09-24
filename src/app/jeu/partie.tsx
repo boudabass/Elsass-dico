@@ -163,8 +163,14 @@ function Manche({
     useEffect(() => {
         if (!revelation) return;
         suiteRef.current?.focus({ preventScroll: true });
+        // `scrollIntoView({ block: "nearest" })` ne bouge presque pas quand la
+        // révélation est plus haute que l'écran (vu à 375 px) : on la place
+        // nous-mêmes vers 40 % de la hauteur, les choix colorés restant en
+        // partie visibles au-dessus. Rien ne bouge si elle est déjà en vue.
+        const haut = revelationRef.current?.getBoundingClientRect().top;
+        if (haut === undefined || haut < window.innerHeight * 0.6) return;
         const calme = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-        revelationRef.current?.scrollIntoView({ block: "nearest", behavior: calme ? "auto" : "smooth" });
+        window.scrollBy({ top: haut - window.innerHeight * 0.4, behavior: calme ? "auto" : "smooth" });
     }, [revelation]);
     useEffect(() => {
         if (revelation) return;
@@ -258,7 +264,7 @@ function Manche({
             </ul>
 
             {revelation && (
-                <div ref={revelationRef} className="scroll-mb-20">
+                <div ref={revelationRef}>
                     <Reponse revelation={revelation}>
                         <button
                             ref={suiteRef}

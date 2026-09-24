@@ -2,6 +2,7 @@
 
 import type { LemmeResume, TypeTerme } from "@/lib/dictionnaire"
 import { apercusParLemme } from "@/lib/lemmes"
+import { Prisma } from "@/generated/prisma/client"
 import { prisma } from "@/lib/prisma"
 
 // Parcours alphabétique (écran « Dictionnaire A-Z » du handoff mobile). Portée
@@ -16,6 +17,21 @@ import { prisma } from "@/lib/prisma"
 const TAILLE_PAGE = 100
 const FORMES_EN_APERCU = 3
 
+// La clé de parcours : désaccentuée, et débarrassée de ce qui précède la
+// première lettre. Comme dans un dictionnaire papier, `(espèce de) tordu` se
+// range sous E, à « espèce » ; lue sur son premier caractère, la parenthèse
+// ne donnait aucune lettre et le lemme était injoignable par l'A-Z (seul cas
+// en base, mesuré le 24/09/2026). Lettre, tri et saut de page passent tous
+// par cette même expression : si l'un s'en écartait, le saut tomberait sur
+// une page qui n'affiche pas le mot.
+function cleParcours(colonne: string): Prisma.Sql {
+    return Prisma.sql`regexp_replace(immutable_unaccent(${Prisma.raw(colonne)}), '^[^A-Za-z]+', '')`
+}
+
+function lettreDe(colonne: string): Prisma.Sql {
+    return Prisma.sql`upper(left(${cleParcours(colonne)}, 1))`
+}
+
 function nbPagesPour(total: number): number {
     return Math.max(1, Math.ceil(total / TAILLE_PAGE))
 }
@@ -24,7 +40,7 @@ export async function lettresDisponiblesAction(): Promise<string[]> {
     // La lettre est désaccentuée : `Écureuil` se range sous E, pas dans une
     // vingt-septième case. Le tri, lui, est celui du français.
     const lignes = await prisma.$queryRaw<{ lettre: string }[]>`
-        SELECT DISTINCT upper(left(immutable_unaccent(cle), 1)) AS lettre
+        SELECT DISTINCT ${lettreDe("cle")} AS lettre
         FROM lemmes
         WHERE cle <> ''
         ORDER BY lettre
@@ -67,7 +83,7 @@ export async function lemmesParLettreAction(lettre: string, page = 1): Promise<P
     // page demandée contre le vrai nombre de pages plutôt que de la croire.
     const comptes = await prisma.$queryRaw<{ n: bigint }[]>`
         SELECT count(*) AS n FROM lemmes
-        WHERE upper(left(immutable_unaccent(cle), 1)) = ${initiale}
+        WHERE ${lettreDe("cle")} = ${initiale}
     `
     const total = Number(comptes[0]?.n ?? 0)
     if (total === 0) return vide
@@ -88,8 +104,8 @@ export async function lemmesParLettreAction(lettre: string, page = 1): Promise<P
         SELECT l.id, l.francais, l.contexte, l.type::text AS type, c.departement
         FROM lemmes l
         LEFT JOIN communes c ON c.id = l.commune_id
-        WHERE upper(left(immutable_unaccent(l.cle), 1)) = ${initiale}
-        ORDER BY immutable_unaccent(l.cle) ASC, l.cle ASC
+        WHERE ${lettreDe("l.cle")} = ${initiale}
+        ORDER BY ${cleParcours("l.cle")} ASC, l.cle ASC
         LIMIT ${TAILLE_PAGE} OFFSET ${offset}
     `
 
@@ -115,7 +131,7 @@ export async function lemmesParLettreAction(lettre: string, page = 1): Promise<P
 }
 
 /** Retourne la page contenant `prefixe` sur la lettre donnée, avec EXACTEMENT
- *  le même tri que `lemmesParLettreAction` (`immutable_unaccent`) — sinon la
+ *  le même tri que `lemmesParLettreAction` (`cleParcours`) — sinon la
  *  page où l'on saute ne serait pas celle qui affiche vraiment le mot. Ne
  *  suppose jamais que `prefixe` existe tel quel : un préfixe partiel ou
  *  approximatif saute simplement à la page où il tomberait alphabétiquement.
@@ -130,15 +146,15 @@ export async function pageDuPrefixeAction(lettre: string, prefixe: string): Prom
 
     const comptes = await prisma.$queryRaw<{ n: bigint }[]>`
         SELECT count(*) AS n FROM lemmes
-        WHERE upper(left(immutable_unaccent(cle), 1)) = ${initiale}
+        WHERE ${lettreDe("cle")} = ${initiale}
     `
     const total = Number(comptes[0]?.n ?? 0)
     if (total === 0) return 1
 
     const rangs = await prisma.$queryRaw<{ rang: bigint }[]>`
         SELECT count(*) AS rang FROM lemmes
-        WHERE upper(left(immutable_unaccent(cle), 1)) = ${initiale}
-          AND immutable_unaccent(cle) < immutable_unaccent(${prefixeTrim})
+        WHERE ${lettreDe("cle")} = ${initiale}
+          AND ${cleParcours("cle")} < immutable_unaccent(${prefixeTrim})
     `
     const rang = Number(rangs[0]?.rang ?? 0)
 

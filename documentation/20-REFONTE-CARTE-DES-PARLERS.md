@@ -1,12 +1,13 @@
 # 20 — Refonte : la carte des parlers (11/09/2026)
 
-> **Ce document fait foi sur la cible**, par exception à la règle du dossier qui
-> renvoie tout vers Odoo. Motif : la refonte périme les articles Odoo 882, 883 et
-> 884, qui décrivent la cible précédente. Tant qu'ils n'ont pas été réécrits, deux
-> sources diraient deux choses — et c'est ici que se trouve la bonne.
->
-> **À réécrire dans Odoo une fois la refonte engagée**, puis ce fichier
-> redeviendra un renvoi comme les autres.
+> **Exception close le 24/09/2026.** Ce document a fait foi sur la cible par
+> exception à la règle du dossier, du 11/09/2026 (date où la refonte périmait
+> d'un coup les articles Odoo 882, 883, 884 — et, découvert le 24/09 en les
+> relisant, six autres articles du hub 117) jusqu'à leur réécriture. **Les neuf
+> articles ont été réécrits le 24/09/2026** ; ce fichier redevient donc un
+> renvoi comme les autres, au même titre que `10-`, `11-` et `12-`. Il reste
+> utile comme détail historique — chaque décision ci-dessous est datée et
+> argumentée — mais c'est **Odoo 882** qui fait foi en cas de divergence.
 
 ## Pourquoi
 

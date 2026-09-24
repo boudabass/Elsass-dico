@@ -1,14 +1,17 @@
 # Checklists opérationnelles — renvoi
 
-> **Partiellement périmé depuis le 11/09/2026.** La section **D. Avant de publier
-> des entrées** décrit l'arbitrage, que la refonte
-> (`20-REFONTE-CARTE-DES-PARLERS.md`) supprime — elle est sans objet. Les sections
-> **A, B, C, E, F** restent entièrement valables : chaque ligne vient d'un incident
-> réel, et ces incidents-là ne sont pas périmés par un changement de doctrine.
-> L'article Odoo 884 **reste à mettre à jour**.
+> **À jour depuis le 24/09/2026.** La section **D**, qui décrivait l'arbitrage
+> par entrée supprimé par la refonte du 11/09/2026
+> (`20-REFONTE-CARTE-DES-PARLERS.md`), a été remplacée dans l'article Odoo 884
+> par **« Avant une correction ou une modération en base »**. Les sections
+> **A, B, C, E, F** restent entièrement valables : chaque ligne vient d'un
+> incident réel, et ces incidents-là ne sont pas périmés par un changement de
+> doctrine — B a même reçu de nouveaux points tirés d'incidents post-refonte
+> (déploiement Coolify, navigation, Leaflet).
 
 **La source de vérité est Odoo, article 884** — « ✅ Checklists opérationnelles —
-Elsass Dico », sous le hub 117 « Dictionnaire Alsacien ».
+Elsass Dico », sous le hub 117 « Dictionnaire Alsacien ». Réécrit le
+24/09/2026.
 
 Ce fichier ne contient volontairement aucun contenu.
 
@@ -17,7 +20,7 @@ Ce fichier ne contient volontairement aucun contenu.
 - **A.** Avant un chantier front
 - **B.** Avant de dire qu'un chantier front est fini
 - **C.** Avant une migration SQL
-- **D.** Avant de publier des entrées
+- **D.** Avant une correction ou une modération en base
 - **E.** Avant une campagne de données
 - **F.** Avant d'annoncer publiquement
 

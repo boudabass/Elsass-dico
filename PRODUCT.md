@@ -28,11 +28,11 @@ de prénom, souvent depuis un moteur de recherche. Il doit comprendre ce
 qu'est le site et voir de vrais mots alsaciens avant qu'on lui demande un
 compte.
 
-**Décision ouverte** : le 02/09/2026, l'apprenant / le curieux avait été
-désigné comme l'utilisateur qui arbitre les conflits de conception. Ce rôle
-n'a pas été reconduit explicitement depuis que les membres construisent le
-contenu. Qui tranche quand l'apprenant et le locuteur ont des besoins
-opposés reste à décider.
+**Le locuteur est prioritaire** (décision de John, 24/09/2026). Quand
+l'apprenant et le locuteur ont des besoins opposés, on tranche pour le
+locuteur : la priorité est de sauvegarder et d'accumuler les parlers, et
+sans contributions il n'y a pas de carte. Remplace la désignation de
+l'apprenant / du curieux du 02/09/2026, jamais reconduite depuis la refonte.
 
 ## Product Purpose
 
@@ -52,10 +52,14 @@ est devenu une **carte des parlers** :
   vivre avec son parler.
 
 **But final, toujours visé : un alsacien unifié** (confirmé par John le
-23/09/2026). La carte en est la matière première. **Décision ouverte** :
-comment et quand un standard sera tiré de la carte. Rien dans le produit
-actuel ne promeut une forme plutôt qu'une autre, et la doctrine en vigueur
-reste « aucune forme n'est la bonne ».
+23/09/2026). La carte en est la matière première. **Précisé le 24/09/2026 :
+l'unification ne s'impose pas, elle doit se faire naturellement et dans le
+temps.** Aucune solution viable n'est connue pour amener des locuteurs à
+trancher sur une forme, et on ne peut pas en imposer une à tous. Le projet
+s'y prépare techniquement sans rien imposer : les données doivent permettre
+un jour de voir une convergence, mais rien dans le produit ne promeut une
+forme plutôt qu'une autre, et la doctrine en vigueur reste « aucune forme
+n'est la bonne ». Comment et quand un standard sera tiré reste ouvert.
 
 Le produit réussit quand un membre retrouve le parler de son village, avec
 ce qui fonde chaque forme, et peut y ajouter le sien.

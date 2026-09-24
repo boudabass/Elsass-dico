@@ -1894,6 +1894,12 @@ touchés** au premier chargement après 30 min d'inactivité ; le nouveau cookie
 était quand même posé, d'où l'onglet neuf qui « réglait » tout. Corrigé par une
 redirection relative (`0bddf8c`), vérifié servi par `dev` (`Location: /login`).
 Le middleware, lui, n'a pas ce défaut : Next y reconstruit l'URL publique.
+**En production le 24/09 (PR #57, avec le premier parcours)** : la sonde est
+passée de `Location: https://0.0.0.0:3000/login` à `Location: /login` trois
+minutes après la fusion, sans régression sur `/`, `/recherche` et une fiche
+village. Parcours réel vérifié avec la session de John : le renouvellement
+dépose sur `elsass-dico.theelsassisch.com/dashboard`. Reste à constater en
+usage : plus de page d'erreur au retour après 30 min.
 **Leçon** : un « caprice » qui revient à chaque première visite se reproduit en
 `curl -I` avant d'être classé incident.
 

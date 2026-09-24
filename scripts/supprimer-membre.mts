@@ -33,7 +33,7 @@ const membre = await prisma.membre.findUnique({
     where: { email },
     select: {
         id: true, email: true, nom: true, role: true,
-        _count: { select: { temoignages: true, variantes: true, signalements: true } },
+        _count: { select: { temoignages: true, variantes: true, signalements: true, evenements: true } },
     },
 })
 
@@ -50,9 +50,10 @@ if (membre.role === "admin" && (await prisma.membre.count({ where: { role: "admi
     process.exit(1)
 }
 
-const { temoignages, variantes, signalements } = membre._count
+const { temoignages, variantes, signalements, evenements } = membre._count
 console.log(`${membre.email}${membre.nom ? ` (${membre.nom})` : ""}`)
 console.log(`  ${temoignages} témoignage(s) et ${variantes} variante(s) créée(s) : gardés, anonymes`)
+console.log(`  ${evenements} événement(s) du journal des contributions : gardés, anonymes`)
 console.log(`  ${signalements} signalement(s) : supprimé(s) avec le compte`)
 
 if (!confirmer) {
@@ -62,14 +63,24 @@ if (!confirmer) {
 }
 
 // La suppression et le contrôle dans la même transaction : si un seul
-// témoignage disparaissait au lieu d'être anonymisé, rien n'est écrit.
+// témoignage ou événement du journal disparaissait au lieu d'être anonymisé,
+// rien n'est écrit.
 const anonymes = await prisma.$transaction(async (tx) => {
     const ids = (await tx.temoignage.findMany({ where: { membreId: membre.id }, select: { id: true } }))
         .map((t) => t.id)
+    const idsEvenements = (await tx.evenementContribution.findMany({
+        where: { membreId: membre.id }, select: { id: true },
+    })).map((e) => e.id)
     await tx.membre.delete({ where: { id: membre.id } })
     const restants = await tx.temoignage.count({ where: { id: { in: ids }, membreId: null } })
     if (restants !== ids.length) {
         throw new Error(`${ids.length - restants} témoignage(s) effacé(s) au lieu d'être anonymisé(s) : annulé.`)
+    }
+    const evenementsRestants = await tx.evenementContribution.count({
+        where: { id: { in: idsEvenements }, membreId: null },
+    })
+    if (evenementsRestants !== idsEvenements.length) {
+        throw new Error(`${idsEvenements.length - evenementsRestants} événement(s) du journal effacé(s) : annulé.`)
     }
     return restants
 })

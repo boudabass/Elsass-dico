@@ -104,7 +104,7 @@ function Progression({ manches, indice }: { manches: ManchePublique[]; indice: n
                             etat === "trouvee" && "bg-succes-500",
                             etat === "manquee" && "bg-marque-rouge-400",
                             etat === "courante" && "bg-foreground",
-                            etat === "a_venir" && "bg-neutre-200",
+                            etat === "a_venir" && "bg-neutre-300",
                         )}
                     >
                         <span className="sr-only">

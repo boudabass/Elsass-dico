@@ -96,23 +96,65 @@ export interface VillageJeu {
     /** `cleDeForme()` de toutes ses formes : deux villages qui en partagent une
      *  ne peuvent pas être proposés ensemble, la réponse serait double. */
     cles: string[]
-    /** Ressemblance (pg_trgm) entre sa forme la plus proche et son nom français. */
-    ressemblance: number
+    /** Écart entre son nom français et sa forme la plus proche (voir `ecart`). */
+    ecart: number
 }
 
-// Mesuré en base le 25/09/2026 sur les 819 villages à forme attestée : au-delà
-// de 0,7, le nom se lit dans la forme (`Lembach` ← `Lämbàch`, 141 villages) et
-// la manche ne demande rien. Le reste se répartit en cinq tranches, de la plus
-// transparente (`Rosenwiller` ← `Rosewiller`) à la plus opaque (`Saverne` ←
-// `Zawere`, `Châtenois` ← `Keschteholz`). Une manche par tranche, dans l'ordre :
-// la partie monte en difficulté.
+// Mesuré en base le 25/09/2026 sur les 819 villages à forme attestée, en
+// distance d'édition rapportée à la longueur (0 = même nom, 1 = rien en
+// commun). Sous 0,2, le nom se lit dans la forme (`Lembach` ← `Lämbàch`,
+// `Hœrdt` ← `Herdt`, `Colmar` ← `Colmer`) et la manche ne demande rien : 280
+// villages écartés. Les 539 autres se répartissent en cinq tranches de 97 à 124,
+// de `Gunstett` ← `Gunschtett` à `Sarre-Union` ← `Buckenum`. Une manche par
+// tranche, dans l'ordre : la partie monte en difficulté.
+//
+// Une première version mesurait la ressemblance en trigrammes (pg_trgm) : elle
+// laissait passer `Herdt` et rangeait `Süfflum` parmi les plus durs. Sur des
+// mots aussi courts, un trigramme de différence pèse trop lourd.
 const TRANCHES: [number, number][] = [
-    [0.5, 0.7],
-    [0.4, 0.5],
-    [0.3, 0.4],
     [0.2, 0.3],
-    [0, 0.2],
+    [0.3, 0.4],
+    [0.4, 0.5],
+    [0.5, 0.6],
+    [0.6, Infinity],
 ]
+
+/** Même normalisation que `nomNormalise()` des scripts : minuscules, accents
+ *  et ligatures réduits, séparateurs retirés. Sert à MESURER, jamais à écrire
+ *  ni à identifier une forme. */
+function normaliser(texte: string): string {
+    return texte
+        .toLowerCase()
+        .replace(/œ/g, "oe")
+        .replace(/æ/g, "ae")
+        .normalize("NFD")
+        .replace(/[̀-ͯ]+/g, "")
+        .replace(/[^a-z0-9]+/g, "")
+}
+
+function distanceEdition(a: string, b: string): number {
+    let precedente = Array.from({ length: b.length + 1 }, (_, j) => j)
+    for (let i = 1; i <= a.length; i++) {
+        const ligne = [i]
+        for (let j = 1; j <= b.length; j++) {
+            ligne[j] = Math.min(precedente[j] + 1, ligne[j - 1] + 1, precedente[j - 1] + (a[i - 1] === b[j - 1] ? 0 : 1))
+        }
+        precedente = ligne
+    }
+    return precedente[b.length]
+}
+
+/** L'écart entre le nom français et sa forme alsacienne la plus proche :
+ *  toutes les formes sont montrées, c'est la plus transparente qui compte. */
+function ecart(nom: string, formes: string[]): number {
+    const n = normaliser(nom)
+    return Math.min(
+        ...formes.map((f) => {
+            const x = normaliser(f)
+            return distanceEdition(x, n) / Math.max(x.length, n.length, 1)
+        }),
+    )
+}
 
 /** Rayon des distracteurs. Mesuré : dans 15 km, chaque village a au moins 13
  *  voisins attestés (58 en médiane). Des voisins, parce qu'un village à
@@ -146,14 +188,11 @@ export async function chargerReserve(): Promise<Reserve> {
             longitude: number
             formes: string[]
             cles: string[]
-            ressemblance: number
         }[]
     >`
         SELECT c.id, c.nom, c.departement, c.latitude, c.longitude,
                array_agg(v.forme ORDER BY v.forme) AS formes,
-               array_agg(v.cle_forme ORDER BY v.forme) AS cles,
-               max(similarity(immutable_unaccent(lower(v.forme)),
-                              immutable_unaccent(lower(c.nom))))::float AS ressemblance
+               array_agg(v.cle_forme ORDER BY v.forme) AS cles
         FROM lemmes l
         JOIN communes c ON c.id = l.commune_id
         JOIN variantes v ON v.lemme_id = l.id AND v.masquee = false
@@ -162,10 +201,8 @@ export async function chargerReserve(): Promise<Reserve> {
         ORDER BY c.id
     `
 
-    const tous: VillageJeu[] = lignes
-    const tranches = TRANCHES.map(([min, max]) =>
-        tous.filter((v) => v.ressemblance >= min && v.ressemblance < max),
-    )
+    const tous: VillageJeu[] = lignes.map((l) => ({ ...l, ecart: ecart(l.nom, l.formes) }))
+    const tranches = TRANCHES.map(([min, max]) => tous.filter((v) => v.ecart >= min && v.ecart < max))
     const valeur = { tous, tranches, parId: new Map(tous.map((v) => [v.id, v])) }
     reserve = { valeur, datee: Date.now() }
     return valeur
@@ -207,7 +244,7 @@ export interface MancheStockee {
 
 /** Le défi d'un jour. Dans chaque tranche, les villages passent tous une fois
  *  avant qu'un seul revienne : un ordre mélangé par cycle, parcouru jour après
- *  jour. La plus petite tranche compte 87 villages, soit près de trois mois
+ *  jour. La plus petite tranche compte 97 villages, soit plus de trois mois
  *  sans répétition. */
 export async function manchesDuJour(jour: string): Promise<MancheStockee[]> {
     const r = await chargerReserve()

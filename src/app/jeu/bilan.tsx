@@ -46,7 +46,9 @@ export function Bilan({
             <p className="text-sm font-semibold text-muted-foreground">
                 {partie.mode === "jour" ? `Défi n° ${partie.numero}` : "Partie libre"}
             </p>
-            <h1 className="mt-1 text-balance font-display text-[30px] leading-[1.15] text-foreground sm:text-[38px]">
+            {/* Pas d'Azimut ici : ses chiffres sont elzéviriens, et son « 1 » se
+                lit comme un « I ». */}
+            <h1 className="mt-1 text-balance text-[30px] font-extrabold leading-[1.15] tracking-[-0.02em] text-foreground sm:text-[38px]">
                 <span className="tabular-nums">
                     {score} village{score > 1 ? "s" : ""} sur {resultats.length}
                 </span>
@@ -117,7 +119,7 @@ export function Cases({ resultats, className }: { resultats: boolean[]; classNam
                 <span
                     key={i}
                     aria-hidden
-                    className={cn("h-5 w-5 rounded-[5px]", r ? "bg-succes-500" : "bg-neutre-200")}
+                    className={cn("h-5 w-5 rounded-[5px]", r ? "bg-succes-500" : "bg-neutre-300")}
                 />
             ))}
         </p>

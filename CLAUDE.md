@@ -1963,6 +1963,11 @@ attire par ce que les membres partagent, le résultat renvoie vers la home.
   seule dans la vue sur téléphone, où elle tombait sous le pli.
   **Le défi du jour n'a pas été joué**, pour laisser le n° 1 à John ; une partie
   libre de test reste dans ses parties.
+- **En production le 25/09 (PR #60, `ec47815`)** : `main` redéployé trois
+  minutes après la fusion (`updated_at` 23:46:24). Constaté à l'écran sur
+  `elsass-dico.theelsassisch.com/jeu` : John avait déjà joué le défi n° 1
+  (5 sur 5), ce qui valide aussi les deux états que Claude n'avait pas pu
+  exercer, le défi terminé et la série (« 1 jour de suite »).
 
 ## Règles de travail
 

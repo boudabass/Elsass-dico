@@ -3,6 +3,7 @@
 import { revalidatePath } from "next/cache"
 
 import { Prisma } from "@/generated/prisma/client"
+import { REFUS_VILLAGE_REQUIS, type EchecContribution } from "@/lib/contribution"
 import { prisma } from "@/lib/prisma"
 import { sessionActuelle } from "@/lib/session-serveur"
 
@@ -11,7 +12,7 @@ import { sessionActuelle } from "@/lib/session-serveur"
 // ni sourceId ni attestationId — la branche « locuteur » du CHECK SQL qui
 // interdit de mélanger les deux (schema.prisma, Temoignage).
 
-type Resultat = { succes: true } | { succes: false; erreur: string }
+type Resultat = { succes: true } | EchecContribution
 
 export async function voterPourVarianteAction(varianteId: string): Promise<Resultat> {
     const session = await sessionActuelle()
@@ -24,9 +25,7 @@ export async function voterPourVarianteAction(varianteId: string): Promise<Resul
         where: { id: session.membreId },
         select: { communeId: true },
     })
-    if (!membre?.communeId) {
-        return { succes: false, erreur: "Choisis d'abord ton village, dans Mon espace" }
-    }
+    if (!membre?.communeId) return REFUS_VILLAGE_REQUIS
 
     const variante = await prisma.variante.findUnique({
         where: { id: varianteId },

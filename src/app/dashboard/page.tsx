@@ -1,5 +1,6 @@
 "use client";
 
+import { useState } from "react";
 import Link from "next/link";
 import { ArrowRight, MapPin, Shield } from "lucide-react";
 
@@ -9,6 +10,7 @@ import { useAuth } from "@/components/auth-provider";
 import { ListSkeleton } from "@/components/ui/list-skeleton";
 import { useListeMemorisee } from "@/hooks/use-liste-memorisee";
 import { cleCache } from "@/lib/cache-navigation";
+import { PremiersPas } from "./premiers-pas";
 import { VillageProfil } from "./village-profil";
 
 // Écran 6 du handoff mobile : « Mon espace ».
@@ -32,6 +34,19 @@ export default function MonEspacePage() {
 
     const espace = donnees ?? null;
     const chargement = premierChargement || (session !== null && donnees === null);
+
+    // Premier parcours (24/09/2026) : pour un membre qui n'a encore ni attaché
+    // son village à une forme, ni apporté la sienne. Décidé UNE fois par visite,
+    // au premier chargement : son premier vote relance ce chargement, et le
+    // parcours ne doit pas disparaître sous ses yeux au moment même où il
+    // réussit. À la visite suivante, il a disparu pour de bon.
+    const [parcours, setParcours] = useState<boolean | null>(null);
+    // `?premiers-pas` le force, pour le revoir ou le montrer : le seul compte de
+    // la base a déjà contribué, et ne le verrait jamais autrement.
+    if (parcours === null && espace) {
+        const force = new URLSearchParams(window.location.search).has("premiers-pas");
+        setParcours(force || (espace.nbTemoignages === 0 && espace.nbVariantes === 0));
+    }
 
     return (
         <div className="flex min-h-screen flex-col pb-16 md:pb-0 md:pl-20 lg:pl-56">
@@ -65,6 +80,13 @@ export default function MonEspacePage() {
                             <div className="mt-[22px]">
                                 <ListSkeleton lignes={2} />
                             </div>
+                        ) : parcours ? (
+                            <PremiersPas
+                                membreId={session.membreId}
+                                village={espace?.village ?? null}
+                                onVillageDefini={rafraichir}
+                                onContribution={rafraichir}
+                            />
                         ) : (
                             <div className="mt-[18px] grid grid-cols-2 gap-2">
                                 {/* Deux comptes distincts, et pas un total : apporter
@@ -75,7 +97,7 @@ export default function MonEspacePage() {
                             </div>
                         )}
 
-                        {!chargement && (
+                        {!chargement && !parcours && (
                             <div className="mt-[18px] rounded-lg border border-border bg-card p-4">
                                 <p className="text-[15px] font-bold text-foreground">
                                     Ton village

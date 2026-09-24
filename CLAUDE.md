@@ -1841,12 +1841,61 @@ ne change à l'écran** et les compteurs restent calculés sur `Temoignage`.
   actif anonyme, trois événements, le vote retiré non recréé), second rejeu
   sans effet. Tout le test nettoyé ensuite (1 événement, 1 témoignage parlé,
   4 formes pour « bonjour »). `verifier-derivation` entièrement vert.
-- **La migration est déjà en base, partagée avec `main`**, mais seul le code de
-  `dev` journalise : tant que ce chantier n'est pas fusionné, les gestes faits
-  en production ne sont pas journalisés.
-- **Reste** : tester une restauration d'une sauvegarde Coolify (avec John,
-  l'outil de ce poste est en lecture seule). **Pas de mesure de convergence**
-  tant qu'il n'y a pas de données : un seul témoignage réel à ce jour.
+- **Fusionné dans `main` (PR #56)** : la migration était déjà dans la base
+  partagée, la fusion fait journaliser aussi les gestes de la production.
+- **Sauvegardes Coolify quotidiennes** (`0 3 * * *`, réglées par John), et
+  **une restauration vérifiée** : la sauvegarde du jour restaurée dans une base
+  VIDE (Postgres 18 jetable dans Docker, `pg_restore --exit-on-error`, code 0)
+  est identique à la production table par table (nombre de lignes et empreinte
+  md5 du contenu des 11 tables, extensions, 31 contraintes).
+  **Piège rencontré** : un premier essai de John a restauré DANS la
+  production (port 5444, ce poste n'a pas de Postgres local). Sans dégât, parce
+  que tout existait déjà et que chaque `COPY` a échoué dès sa première ligne,
+  mais sans rien prouver non plus. Avec `--clean`, le même geste aurait d'abord
+  supprimé les tables. **Une restauration de test se fait toujours dans une
+  base vide, jamais vers la production.**
+- **Pas de mesure de convergence** tant qu'il n'y a pas de données : un seul
+  témoignage réel à ce jour.
+
+## Premier parcours du membre, et le faux « bug Chrome » (24/09/2026)
+
+`/impeccable onboard`, suite de la décision « le locuteur est prioritaire ». Un
+nouveau membre arrivait dans « Mon espace » devant deux compteurs à zéro et un
+choix de village sans suite ; le refus « choisis d'abord ton village » était
+une impasse partout ailleurs.
+
+- **« Mon espace » devient un parcours en deux gestes** tant que le membre n'a
+  rien fait (`src/app/dashboard/premiers-pas.tsx`) : choisir son village, puis
+  reconnaître une forme de *bonjour*, *merci* ou *au revoir*
+  (`premiersMotsAction()`, clés naturelles, formes lues en base). Chaque clic
+  est un vrai vote. Le premier affiche « *märsi* se dit maintenant à
+  Mundolsheim » et ouvre **`/carte?mot=<id>`**, nouveau lien direct vers la
+  carte d'un mot. Décidé d'après les données, une fois par visite (le parcours
+  ne disparaît pas sous les yeux au moment de la réussite), rien de stocké.
+  `?premiers-pas` le force : le seul compte de la base a déjà contribué.
+- **Le refus « village requis » porte un bouton** « Choisir mon village »
+  (`REFUS_VILLAGE_REQUIS`, `signalerEchecContribution()`), sur la fiche et sur
+  la carte.
+- **Vérifié à l'écran** (session de John, `dev`) : parcours affiché, vote sur
+  *märsi* → étape cochée, message de réussite, « Voir sur la carte » → carte de
+  *merci* avec 1 point à Mundolsheim ; rendu 375 px vérifié dans un cadre de
+  cette largeur (`resize_window` inerte). Vote retiré et ses deux événements
+  effacés du journal ensuite. **Non vérifié** : l'étape 1 à vide (le seul
+  compte a déjà un village), qui réutilise `VillageProfil` tel quel.
+
+### « L'onglet Chrome qui dérive vers 0.0.0.0:3000 » était notre bug
+
+Noté cinq fois depuis le 14/09 comme incident propre au navigateur, contourné
+en ouvrant un onglet neuf. C'était `/api/session/refresh` : il redirigeait par
+`new URL(chemin, request.url)`, et derrière le proxy de Coolify, `request.url`
+d'une route vaut l'adresse d'écoute interne. Prouvé en `curl -I` sur le site
+servi (`Location: https://0.0.0.0:3000/login`). **Tous les membres étaient
+touchés** au premier chargement après 30 min d'inactivité ; le nouveau cookie
+était quand même posé, d'où l'onglet neuf qui « réglait » tout. Corrigé par une
+redirection relative (`0bddf8c`), vérifié servi par `dev` (`Location: /login`).
+Le middleware, lui, n'a pas ce défaut : Next y reconstruit l'URL publique.
+**Leçon** : un « caprice » qui revient à chaque première visite se reproduit en
+`curl -I` avant d'être classé incident.
 
 ## Règles de travail
 

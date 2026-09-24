@@ -5,6 +5,7 @@ import { useRouter } from "next/navigation";
 import { toast } from "sonner";
 
 import { creerVarianteAction } from "@/app/actions/variantes";
+import { signalerEchecContribution } from "@/lib/toast-contribution";
 
 // Doc 20, étape 5 : « ça se dit autrement chez moi » — forme + village, en un
 // seul geste. Le succès efface le champ et redemande la page
@@ -29,7 +30,7 @@ export function NouvelleVariante({ lemmeId, onSucces }: { lemmeId: string; onSuc
                 if (onSucces) onSucces();
                 else router.refresh();
             } else {
-                toast.error(res.erreur);
+                signalerEchecContribution(res, () => router.push("/dashboard"));
             }
         });
     }

@@ -26,11 +26,24 @@ function destinationSure(suite: string | null): string {
     return suite
 }
 
+/** Redirection RELATIVE, résolue par le navigateur sur le domaine qu'il est
+ *  en train d'afficher. Pas `new URL(chemin, request.url)` : dans le conteneur
+ *  (sortie standalone de Next, derrière le proxy de Coolify), `request.url`
+ *  d'une route vaut `http://0.0.0.0:3000/…`, l'adresse d'écoute interne.
+ *  Chaque session expirée renvoyait donc le membre vers `0.0.0.0:3000`, une
+ *  page d'erreur. Le nouveau cookie, lui, était posé : un onglet neuf
+ *  marchait, ce qui a fait passer le défaut pour un caprice de Chrome du 14 au
+ *  24/09/2026. Le middleware n'a pas ce défaut : Next y reconstruit l'URL
+ *  publique. */
+function rediriger(chemin: string): NextResponse {
+    return new NextResponse(null, { status: 307, headers: { Location: chemin } })
+}
+
 export async function GET(request: NextRequest) {
     const membreId = await lireRefresh(request.cookies.get(COOKIE_REFRESH)?.value)
 
     if (!membreId) {
-        return NextResponse.redirect(new URL("/login", request.url))
+        return rediriger("/login")
     }
 
     const prepare = await preparerSession(membreId)
@@ -38,15 +51,13 @@ export async function GET(request: NextRequest) {
     if (!prepare) {
         // Le membre n'existe plus : on efface, sinon le middleware renverrait
         // ici en boucle sur la foi d'un jeton qui ne désigne personne.
-        const versLogin = NextResponse.redirect(new URL("/login", request.url))
+        const versLogin = rediriger("/login")
         versLogin.cookies.delete(COOKIE_SESSION)
         versLogin.cookies.delete(COOKIE_REFRESH)
         return versLogin
     }
 
-    const reponse = NextResponse.redirect(
-        new URL(destinationSure(request.nextUrl.searchParams.get("suite")), request.url),
-    )
+    const reponse = rediriger(destinationSure(request.nextUrl.searchParams.get("suite")))
     for (const c of prepare.cookies) reponse.cookies.set(c.nom, c.valeur, c.options)
     return reponse
 }

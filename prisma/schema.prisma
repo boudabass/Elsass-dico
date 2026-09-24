@@ -109,6 +109,7 @@ model Commune {
 
   lemmes      Lemme[]
   temoignages Temoignage[]
+  evenements  EvenementContribution[]
   membres     Membre[]
 
   @@index([departement])
@@ -186,6 +187,7 @@ model Variante {
   creeLe  DateTime @default(now()) @map("cree_le")
 
   temoignages  Temoignage[]
+  evenements   EvenementContribution[]
   signalements Signalement[]
 
   @@unique([lemmeId, cleForme])
@@ -245,6 +247,64 @@ model Temoignage {
   @@map("temoignages")
 }
 
+// AJOUT du 24/09/2026 : le journal des contributions, en ajout seul.
+//
+// Décision de John : l'alsacien unifié doit émerger dans le temps, jamais
+// s'imposer ; on s'y prépare techniquement. Or `Temoignage` ne dit que l'état
+// présent : retirer un vote supprime la ligne, modifier une forme l'écrase.
+// Un village qui quitte une forme pour une autre, c'est justement le signal
+// d'une convergence, et il se perdait. Ce journal le garde.
+//
+// Rien ne le lit à l'écran, et rien ne doit le faire sans décision : afficher
+// « la forme qui gagne », ce serait déjà promouvoir. Les compteurs restent
+// calculés sur `Temoignage`, intacts.
+//
+//   * Écrit dans la MÊME transaction que le geste, sinon il peut mentir.
+//   * Jamais d'UPDATE ni de DELETE applicatif. La seule disparition possible
+//     est la cascade d'une variante supprimée (nettoyage d'un test).
+//   * `temoignageId` sans clé étrangère : il apparie une pose et son retrait,
+//     alors que le retrait supprime le témoignage.
+//   * `communeId` est le village AU MOMENT du geste, jamais relu plus tard sur
+//     le membre (qui peut changer de village).
+//   * `membreId` en SET NULL : même anonymisation que les témoignages (CGU,
+//     article 9).
+//   * Les témoignages de sources n'y entrent pas : leur date est celle d'un
+//     import, pas d'un geste.
+enum TypeEvenement {
+  pose // un village s'attache à une forme (bouton +, ou création)
+  retrait // il s'en détache
+  creation // une forme nouvelle, écrite par un membre
+  modification // son auteur la corrige tant que personne d'autre ne l'a revendiquée
+
+  @@map("type_evenement")
+}
+
+model EvenementContribution {
+  id   String        @id @default(uuid())
+  type TypeEvenement
+
+  varianteId String   @map("variante_id")
+  variante   Variante @relation(fields: [varianteId], references: [id], onDelete: Cascade)
+
+  temoignageId String? @map("temoignage_id")
+
+  communeId Int?     @map("commune_id")
+  commune   Commune? @relation(fields: [communeId], references: [id])
+
+  membreId String? @map("membre_id")
+  membre   Membre? @relation(fields: [membreId], references: [id], onDelete: SetNull)
+
+  // Nuls hors `modification`. La forme écrasée n'est plus perdue.
+  ancienneForme String? @map("ancienne_forme")
+  nouvelleForme String? @map("nouvelle_forme")
+
+  le DateTime @default(now())
+
+  @@index([varianteId])
+  @@index([communeId, le])
+  @@map("evenements_contribution")
+}
+
 // --- Les gens ---------------------------------------------------------------
 
 model Membre {
@@ -264,6 +324,7 @@ model Membre {
   vuLe        DateTime? @map("vu_le")
 
   temoignages  Temoignage[]
+  evenements   EvenementContribution[]
   variantes    Variante[]
   signalements Signalement[]
 

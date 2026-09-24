@@ -12,7 +12,14 @@ data/
   raw/<code>/<rubrique>.<ext>        copie brute de la source, telle que téléchargée
   attestations/<code>__<rub>.jsonl   attestations verbatim, prêtes à ingérer
   orthal/<code>__<rub>.jsonl         propositions de graphie ORTHAL (jamais des attestations)
+  contributions/journal.jsonl        journal des gestes des membres, anonyme (24/09/2026)
 ```
+
+`contributions/journal.jsonl` n'est pas une source : c'est l'export du journal
+des contributions (`scripts/exporter-contributions.mts`), pour que ce que les
+membres apportent survive à une reconstruction de la base comme le reste du
+dépôt. Aucun identifiant de membre n'y figure, les dates sont au jour.
+`scripts/importer-contributions.mts` le rejoue après `deriver.mts`.
 
 `<code>` est la valeur de `sources.code` en base. Deux rubriques d'une même source
 partagent le même `<code>` : ce sont des pages différentes du même auteur, pas deux

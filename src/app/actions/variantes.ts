@@ -70,8 +70,29 @@ export async function creerVarianteAction(lemmeId: string, formeBrute: string): 
                 data: { lemmeId, forme, cleForme: cleFormeCalculee, creeParId: session.membreId },
                 select: { id: true },
             })
-            await tx.temoignage.create({
+            const t = await tx.temoignage.create({
                 data: { varianteId: v.id, membreId: session.membreId, communeId: membre.communeId },
+                select: { id: true },
+            })
+            // Journal (24/09/2026) : la création, puis la pose de l'auteur, dans
+            // cet ordre et dans la même transaction que la forme elle-même.
+            await tx.evenementContribution.create({
+                data: {
+                    type: "creation",
+                    varianteId: v.id,
+                    communeId: membre.communeId,
+                    membreId: session.membreId,
+                    nouvelleForme: forme,
+                },
+            })
+            await tx.evenementContribution.create({
+                data: {
+                    type: "pose",
+                    varianteId: v.id,
+                    temoignageId: t.id,
+                    communeId: membre.communeId,
+                    membreId: session.membreId,
+                },
             })
             return v
         })
@@ -108,6 +129,7 @@ export async function modifierVarianteAction(varianteId: string, formeBrute: str
         where: { id: varianteId },
         select: {
             lemmeId: true,
+            forme: true,
             creeParId: true,
             masquee: true,
             _count: { select: { temoignages: true } },
@@ -121,6 +143,9 @@ export async function modifierVarianteAction(varianteId: string, formeBrute: str
         return { succes: false, erreur: "Quelqu'un d'autre a déjà revendiqué cette forme, elle ne se modifie plus" }
     }
 
+    // Rien n'a changé : pas d'écriture, donc pas de fausse modification au journal.
+    if (forme === variante.forme) return { succes: true }
+
     const cleFormeCalculee = cleDeForme(forme)
     if (!cleFormeCalculee) return { succes: false, erreur: "Écris une forme avant d'envoyer" }
 
@@ -133,10 +158,23 @@ export async function modifierVarianteAction(varianteId: string, formeBrute: str
     }
 
     try {
-        await prisma.variante.update({
-            where: { id: varianteId },
-            data: { forme, cleForme: cleFormeCalculee },
-        })
+        // La forme écrasée part au journal (24/09/2026) : corrigée, elle n'est
+        // plus perdue. Même transaction, sinon le journal peut mentir.
+        await prisma.$transaction([
+            prisma.variante.update({
+                where: { id: varianteId },
+                data: { forme, cleForme: cleFormeCalculee },
+            }),
+            prisma.evenementContribution.create({
+                data: {
+                    type: "modification",
+                    varianteId,
+                    membreId: session.membreId,
+                    ancienneForme: variante.forme,
+                    nouvelleForme: forme,
+                },
+            }),
+        ])
     } catch (erreur) {
         console.error("[Variantes] Non modifiée:", erreur)
         return { succes: false, erreur: "Enregistrement impossible, réessaie dans un instant" }

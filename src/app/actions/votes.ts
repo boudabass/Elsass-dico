@@ -2,6 +2,7 @@
 
 import { revalidatePath } from "next/cache"
 
+import { Prisma } from "@/generated/prisma/client"
 import { prisma } from "@/lib/prisma"
 import { sessionActuelle } from "@/lib/session-serveur"
 
@@ -33,19 +34,38 @@ export async function voterPourVarianteAction(varianteId: string): Promise<Resul
     })
     if (!variante || variante.masquee) return { succes: false, erreur: "Forme introuvable" }
 
-    try {
-        // `upsert` plutôt que `create` : un second clic (double envoi réseau,
-        // bouton pressé deux fois) ne doit pas échouer sur la contrainte
-        // d'unicité — voter deux fois pour son propre village est un no-op,
-        // pas une erreur à afficher.
-        await prisma.temoignage.upsert({
-            where: { varianteId_membreId: { varianteId, membreId: session.membreId } },
-            create: { varianteId, membreId: session.membreId, communeId: membre.communeId },
-            update: {},
-        })
-    } catch (erreur) {
-        console.error("[Votes] Non enregistré:", erreur)
-        return { succes: false, erreur: "Enregistrement impossible, réessaie dans un instant" }
+    // Plus d'`upsert` depuis le journal (24/09/2026) : il faut savoir si le
+    // témoignage vient d'être créé, pour n'écrire la pose qu'une fois. Un
+    // second clic (double envoi réseau, bouton pressé deux fois) reste un
+    // no-op, pas une erreur à afficher : déjà posé, ou perdu contre une course
+    // sur la contrainte d'unicité, c'est le même résultat pour le membre.
+    const dejaPose = await prisma.temoignage.findUnique({
+        where: { varianteId_membreId: { varianteId, membreId: session.membreId } },
+        select: { id: true },
+    })
+    if (!dejaPose) {
+        try {
+            await prisma.$transaction(async (tx) => {
+                const t = await tx.temoignage.create({
+                    data: { varianteId, membreId: session.membreId, communeId: membre.communeId },
+                    select: { id: true },
+                })
+                await tx.evenementContribution.create({
+                    data: {
+                        type: "pose",
+                        varianteId,
+                        temoignageId: t.id,
+                        communeId: membre.communeId,
+                        membreId: session.membreId,
+                    },
+                })
+            })
+        } catch (erreur) {
+            if (!estDoublon(erreur)) {
+                console.error("[Votes] Non enregistré:", erreur)
+                return { succes: false, erreur: "Enregistrement impossible, réessaie dans un instant" }
+            }
+        }
     }
 
     revalidatePath(`/entree/${variante.lemmeId}`)
@@ -61,10 +81,42 @@ export async function retirerVoteAction(varianteId: string): Promise<Resultat> {
         select: { lemmeId: true },
     })
 
-    await prisma.temoignage.deleteMany({
-        where: { varianteId, membreId: session.membreId },
-    })
+    // Le témoignage est supprimé, le retrait reste au journal avec son village :
+    // c'est lui qui dira un jour qu'un village a quitté cette forme.
+    try {
+        await prisma.$transaction(async (tx) => {
+            const t = await tx.temoignage.findUnique({
+                where: { varianteId_membreId: { varianteId, membreId: session.membreId } },
+                select: { id: true, communeId: true },
+            })
+            if (!t) return
+            await tx.temoignage.delete({ where: { id: t.id } })
+            await tx.evenementContribution.create({
+                data: {
+                    type: "retrait",
+                    varianteId,
+                    temoignageId: t.id,
+                    communeId: t.communeId,
+                    membreId: session.membreId,
+                },
+            })
+        })
+    } catch (erreur) {
+        // Deux retraits simultanés : le second ne trouve plus rien à supprimer.
+        if (!estIntrouvable(erreur)) {
+            console.error("[Votes] Retrait non enregistré:", erreur)
+            return { succes: false, erreur: "Enregistrement impossible, réessaie dans un instant" }
+        }
+    }
 
     if (variante) revalidatePath(`/entree/${variante.lemmeId}`)
     return { succes: true }
+}
+
+function estDoublon(erreur: unknown): boolean {
+    return erreur instanceof Prisma.PrismaClientKnownRequestError && erreur.code === "P2002"
+}
+
+function estIntrouvable(erreur: unknown): boolean {
+    return erreur instanceof Prisma.PrismaClientKnownRequestError && erreur.code === "P2025"
 }

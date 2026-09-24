@@ -1841,12 +1841,21 @@ ne change à l'écran** et les compteurs restent calculés sur `Temoignage`.
   actif anonyme, trois événements, le vote retiré non recréé), second rejeu
   sans effet. Tout le test nettoyé ensuite (1 événement, 1 témoignage parlé,
   4 formes pour « bonjour »). `verifier-derivation` entièrement vert.
-- **La migration est déjà en base, partagée avec `main`**, mais seul le code de
-  `dev` journalise : tant que ce chantier n'est pas fusionné, les gestes faits
-  en production ne sont pas journalisés.
-- **Reste** : tester une restauration d'une sauvegarde Coolify (avec John,
-  l'outil de ce poste est en lecture seule). **Pas de mesure de convergence**
-  tant qu'il n'y a pas de données : un seul témoignage réel à ce jour.
+- **Fusionné dans `main` (PR #56)** : la migration était déjà dans la base
+  partagée, la fusion fait journaliser aussi les gestes de la production.
+- **Sauvegardes Coolify quotidiennes** (`0 3 * * *`, réglées par John), et
+  **une restauration vérifiée** : la sauvegarde du jour restaurée dans une base
+  VIDE (Postgres 18 jetable dans Docker, `pg_restore --exit-on-error`, code 0)
+  est identique à la production table par table (nombre de lignes et empreinte
+  md5 du contenu des 11 tables, extensions, 31 contraintes).
+  **Piège rencontré** : un premier essai de John a restauré DANS la
+  production (port 5444, ce poste n'a pas de Postgres local). Sans dégât, parce
+  que tout existait déjà et que chaque `COPY` a échoué dès sa première ligne,
+  mais sans rien prouver non plus. Avec `--clean`, le même geste aurait d'abord
+  supprimé les tables. **Une restauration de test se fait toujours dans une
+  base vide, jamais vers la production.**
+- **Pas de mesure de convergence** tant qu'il n'y a pas de données : un seul
+  témoignage réel à ce jour.
 
 ## Règles de travail
 

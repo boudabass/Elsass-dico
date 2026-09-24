@@ -2,7 +2,7 @@
 
 import dynamic from "next/dynamic"
 import Link from "next/link"
-import { useMemo, useState } from "react"
+import { useEffect, useMemo, useState } from "react"
 
 import { pointsCarteAction, pointsMotAction, type PointsCarte, type PointsMot } from "@/app/actions/carte"
 import { rechercherAction } from "@/app/actions/recherche"
@@ -70,6 +70,19 @@ export function CarteDemo() {
         cle: motActif ? cleCache("carte-mot", motActif.id) : null,
         charger: () => pointsMotAction(motActif!.id),
     })
+
+    // Lien direct vers la carte d'un mot (`/carte?mot=<id>`), posé par le
+    // premier parcours de « Mon espace » (24/09/2026) : juste après son premier
+    // vote, le membre voit son village sur la carte de ce mot. Lu une fois au
+    // montage, puis retiré de l'URL : revenir aux villages avec × ne doit pas
+    // rouvrir le mot au prochain rechargement. Le libellé arrive avec les
+    // points du mot, d'où `francais` vide en attendant.
+    useEffect(() => {
+        const id = new URLSearchParams(window.location.search).get("mot")
+        if (!id) return
+        setMotActif({ id, francais: "", contexte: "", type: "mot", departement: null, formes: [], nbFormes: 0 })
+        window.history.replaceState(null, "", window.location.pathname)
+    }, [])
 
     function choisirMot(lemme: LemmeResume) {
         setMotActif(lemme)
@@ -145,7 +158,7 @@ export function CarteDemo() {
                 {motActif && (
                     <PanneauContribution
                         lemmeId={motActif.id}
-                        francais={motActif.francais}
+                        francais={motActif.francais || pointsMot?.francais || ""}
                         variantes={motEnChargement ? null : (pointsMot?.variantes ?? [])}
                         onSucces={rafraichirMot}
                     />

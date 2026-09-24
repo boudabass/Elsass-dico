@@ -2,6 +2,7 @@
 
 import { revalidatePath } from "next/cache"
 
+import { REFUS_VILLAGE_REQUIS, type EchecContribution } from "@/lib/contribution"
 import { cleDeForme } from "@/lib/dictionnaire"
 import { prisma } from "@/lib/prisma"
 import { sessionActuelle } from "@/lib/session-serveur"
@@ -24,7 +25,7 @@ const FORME_MAX = 200
 
 type Resultat =
     | { succes: true; varianteId: string }
-    | { succes: false; erreur: string }
+    | EchecContribution
 
 export async function creerVarianteAction(lemmeId: string, formeBrute: string): Promise<Resultat> {
     const session = await sessionActuelle()
@@ -41,9 +42,7 @@ export async function creerVarianteAction(lemmeId: string, formeBrute: string): 
         where: { id: session.membreId },
         select: { communeId: true },
     })
-    if (!membre?.communeId) {
-        return { succes: false, erreur: "Choisis d'abord ton village, dans Mon espace" }
-    }
+    if (!membre?.communeId) return REFUS_VILLAGE_REQUIS
 
     const lemme = await prisma.lemme.findUnique({ where: { id: lemmeId }, select: { id: true } })
     if (!lemme) return { succes: false, erreur: "Mot introuvable" }

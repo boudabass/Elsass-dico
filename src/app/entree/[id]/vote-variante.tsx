@@ -2,9 +2,8 @@
 
 import { useTransition } from "react";
 import { useRouter } from "next/navigation";
-import { toast } from "sonner";
-
 import { retirerVoteAction, voterPourVarianteAction } from "@/app/actions/votes";
+import { signalerEchecContribution } from "@/lib/toast-contribution";
 import { cn } from "@/lib/utils";
 
 // Le bouton `+` du doc 20, étape 5 : « un vote = un village ». `monVote` vient
@@ -40,7 +39,7 @@ export function VoteVariante({
                 if (onSucces) onSucces();
                 else router.refresh();
             } else {
-                toast.error(res.erreur);
+                signalerEchecContribution(res, () => router.push("/dashboard"));
             }
         });
     }

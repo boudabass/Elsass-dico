@@ -1,18 +1,19 @@
 # Vision produit — renvoi
 
-> **Périmé depuis le 11/09/2026.** La refonte décrite dans
-> `20-REFONTE-CARTE-DES-PARLERS.md` abandonne la forme canonique : toutes les
-> variantes coexistent, portées par des villages sur une carte. L'article Odoo 882
-> vers lequel ce fichier renvoie décrit la cible précédente et **reste à réécrire**.
-> En attendant, le document 20 fait foi.
+> **À jour depuis le 24/09/2026.** L'article Odoo 882 a été réécrit ce jour-là
+> pour refléter la refonte du 11/09/2026 (`20-REFONTE-CARTE-DES-PARLERS.md`) :
+> plus de forme canonique, toutes les variantes coexistent, portées par des
+> villages sur une carte. Entre le 11/09 et le 24/09, c'était le document 20 qui
+> faisait foi par exception ; ce n'est plus le cas, l'article 882 fait à nouveau
+> foi seul.
 >
-> Ce qui survit de la cible d'avant : l'utilisateur prioritaire (l'apprenant / le
-> curieux) et le modèle de confiance à trois niveaux, qui devient l'affichage du
-> nombre de sources **et** de villages.
+> Ce qui survit de la cible d'avant la refonte : l'utilisateur prioritaire
+> (l'apprenant / le curieux, remplacé par le locuteur le 24/09/2026) et le
+> principe du modèle de confiance à trois niveaux, devenu l'affichage du nombre
+> de sources **et** de villages, jamais additionnés.
 
-**La source de vérité est Odoo, article 882** — « 🧭 Cap produit — v1,
-utilisateur prioritaire et modèle de confiance (02/09/2026) », sous le hub 117
-« Dictionnaire Alsacien ».
+**La source de vérité est Odoo, article 882** — « 🧭 Cap produit — carte des
+parlers (maj 24/09/2026) », sous le hub 117 « Dictionnaire Alsacien ».
 
 Ce fichier ne contient volontairement aucun contenu : le dupliquer ici le ferait
 diverger en silence.

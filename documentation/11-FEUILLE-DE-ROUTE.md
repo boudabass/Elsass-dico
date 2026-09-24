@@ -1,42 +1,34 @@
 # Feuille de route — renvoi
 
-> **Périmé depuis le 11/09/2026.** Les cinq jalons ci-dessous supposaient tous que
-> publier une entrée passe par un arbitrage humain. La refonte
-> (`20-REFONTE-CARTE-DES-PARLERS.md`) supprime cette étape : les 27 179 attestations
-> deviennent visibles par dérivation automatique. Les jalons 1, 3 et 4 n'ont donc
-> plus d'objet sous cette forme, et l'article Odoo 883 **reste à réécrire**.
->
-> Le jalon 2 (tenue en charge) survit et se renforce : le retrait de Supabase et un
-> middleware sans appel réseau le servent directement.
+> **À jour depuis le 24/09/2026.** L'article Odoo 883 a été entièrement réécrit
+> ce jour-là. Les cinq jalons ci-dessous supposaient tous que publier une forme
+> passe par un arbitrage humain ; la refonte du 11/09/2026
+> (`20-REFONTE-CARTE-DES-PARLERS.md`) a supprimé cette étape, et avec elle ces
+> cinq jalons dans leur ensemble — ils n'ont plus d'objet, pas seulement les
+> jalons 1, 3 et 4. L'article 883 décrit désormais des jalons différents : vie
+> de la communauté, émergence d'un standard, aire linguistique du 57,
+> auto-inscription Odoo, gameplay, attribution de la police Azimut.
 
-**La source de vérité est Odoo, article 883** — « 🎯 Jalons et critères de sortie »,
-sous le hub 117 « Dictionnaire Alsacien ». Établi le 02/09/2026, mis à jour le
-07/09/2026.
+**La source de vérité est Odoo, article 883** — « 🎯 Jalons et points ouverts »,
+sous le hub 117 « Dictionnaire Alsacien ». Établi le 02/09/2026, réécrit le
+24/09/2026 après que les cinq étapes de la refonte (doc 20) ont toutes été
+closes et vérifiées à l'écran.
 
 Ce fichier ne contient volontairement aucun contenu.
 
-## Les cinq jalons
+## Ce qui a remplacé les cinq jalons de l'arbitrage
 
-0. **Fondations de confiance** — ✅ *atteint le 07/09/2026* : badge de sources
-   distinctes, publication à source unique ouverte, 390 coquilles identifiées et
-   exclues des lots, article défini décomposé.
-1. **V1 lexique courant** — *chantier courant, et il n'attend rien* : ni liste à
-   figer, ni droits à vérifier, ni couverture à mesurer. **Aucun objectif
-   chiffré** (décision de John du 07/09/2026) — on publie ce qui est publiable,
-   au rythme de l'arbitrage. Le « seuil de 1 000 lemmes fréquents » qui figurait
-   ici n'avait jamais été décidé : c'était une proposition, devenue un préalable
-   bloquant à force d'être recopiée.
-2. **Tenue en charge** — *doit précéder toute communication publique.*
-3. **Ouverture aux contributeurs** — le mécanisme qui fait passer le rouge au jaune.
-4. **Résorption des divergences** — en parallèle, une décision humaine par entrée.
-
-L'article détaille pour chacun son **critère de sortie mesurable**, les raisons
-du séquencement, et l'état des trois dettes de qualité que le badge ne couvre
-pas — article défini collé, 390 coquilles, synonymes empilés — traitées les 03,
-04 et 07/09/2026.
+Le socle de la refonte (dérivation des données, session autonome, fiches
+publiques, carte des parlers, contribution) est **entièrement livré** au
+24/09/2026 — ce n'est plus un chantier en cours. Les jalons actuels de
+l'article 883 portent sur ce qui reste réellement ouvert : la vie de la
+communauté (un seul témoignage réel de locuteur au 24/09), l'émergence d'un
+standard à partir de la carte (décision ouverte), l'aire linguistique du 57
+(laissée nulle volontairement), l'auto-inscription du portail Odoo, le
+gameplay, et l'attribution de la police Azimut.
 
 ## Voir aussi
 
 - **Odoo 882** — cap produit
-- **Odoo 669** — état des lieux (sa section « Prochaines étapes » est
-  remplacée par 883)
+- **Odoo 669** — état des lieux (sa section « Où lire la suite » renvoie
+  vers 883)

@@ -14,25 +14,29 @@
 
 | Support | Fait foi sur |
 |---|---|
-| **`20-REFONTE-CARTE-DES-PARLERS.md`** | **La cible**, depuis le 11/09/2026 — *exception temporaire, cf. ci-dessous* |
+| **Odoo 882** | Cap produit — carte des parlers (réécrit le 24/09/2026) |
+| **Odoo 883** | Jalons et points ouverts (réécrit le 24/09/2026) |
+| **Odoo 884** | Checklists opérationnelles (réécrit le 24/09/2026) |
+| **`20-REFONTE-CARTE-DES-PARLERS.md`** | Historique et détail de la refonte du 11/09/2026 : pourquoi, décisions, modèle de données Prisma complet, étapes — la cible qu'il documente est désormais reprise dans Odoo 882 |
 | **`21-REPRISE.md`** | Où en est le chantier, et comment le reprendre |
 | **`22-MESURE-MARQUEUR-AE.md`** | Le résultat de la mesure du 12/09/2026 : `culture_alsace` déclare son parler |
 | **Odoo 878** | La méthode et les gabarits réutilisables — **tous projets** |
-| **Odoo 669** | État des lieux (mis à jour le 07/09/2026) |
-| **Odoo, hub 117** | Le reste du projet : doctrine, modèle de données, studio, campagnes |
+| **Odoo 669** | État des lieux (mis à jour le 24/09/2026) |
+| **Odoo, hub 117** | Le reste du projet : vision, doctrine, modèle de données, modèle communautaire, studio, campagnes |
 | **`../CLAUDE.md`** | Le passé : décisions prises, incidents, doctrine opérationnelle |
-| ~~Odoo 882, 883, 884~~ | **Périmés le 11/09/2026** — cap produit, jalons et checklists d'avant la refonte. À réécrire. |
 
-### Pourquoi le document 20 fait foi alors que ce dossier ne fait foi sur rien
+### L'exception du 11/09/2026 est close depuis le 24/09/2026
 
-C'est une exception assumée et temporaire. La refonte du 11/09/2026 périme les
-articles Odoo 882, 883 et 884 d'un coup ; tant qu'ils n'ont pas été réécrits, les
-laisser seuls détenteurs de la cible ferait lire une cible abandonnée. La règle
-« deux documents sur le même sujet divergent en silence » est respectée autrement :
-les renvois `10-`, `11-` et `12-` portent un avertissement en tête qui dit où est
-la version vivante.
-
-**Une fois Odoo réécrit**, le document 20 redevient un renvoi comme les autres.
+Entre le 11/09 et le 24/09/2026, ce document 20 a fait foi sur la cible par
+exception assumée et temporaire : la refonte périmait d'un coup les articles
+Odoo 882, 883 et 884 (et, on l'a découvert le 24/09 en les relisant, six autres
+articles du hub — 665, 666, 667, 668, 669, 714), et les laisser seuls
+détenteurs de la cible aurait fait lire une cible abandonnée. **Les neuf
+articles ont été réécrits le 24/09/2026** ; le document 20 redevient donc un
+renvoi comme les autres, au même titre que `10-`, `11-` et `12-` ci-dessous. Il
+reste utile comme détail historique — chaque décision y est datée et
+argumentée, ce qu'un article Odoo condensé ne reprend pas toujours — mais ce
+n'est plus lui qui fait foi en cas de divergence : c'est Odoo 882.
 
 La répartition se fait **par nature, jamais par sujet** : deux documents qui
 parlent du même sujet à deux endroits divergent en silence.
@@ -45,12 +49,12 @@ dans Odoo, et ce dossier y renvoie.
 
 | Fichier | Rôle |
 |---|---|
-| `20-REFONTE-CARTE-DES-PARLERS.md` | **La cible** : pourquoi, décisions, modèle de données, étapes |
+| `20-REFONTE-CARTE-DES-PARLERS.md` | Historique de la refonte : pourquoi, décisions, modèle de données, étapes — la cible vit désormais dans Odoo 882 |
 | `21-REPRISE.md` | État d'avancement et reprise en local |
 | `22-MESURE-MARQUEUR-AE.md` | Mesure du marqueur a~e sur le lexique — résultat, contrôles, limites |
-| `10-VISION-PRODUIT.md` | Renvoi vers Odoo 882 — **périmé** |
-| `11-FEUILLE-DE-ROUTE.md` | Renvoi vers Odoo 883 — **périmé** |
-| `12-CHECKLISTS.md` | Renvoi vers Odoo 884 — **partiellement périmé** (section D) |
+| `10-VISION-PRODUIT.md` | Renvoi vers Odoo 882 — à jour depuis le 24/09/2026 |
+| `11-FEUILLE-DE-ROUTE.md` | Renvoi vers Odoo 883 — à jour depuis le 24/09/2026 |
+| `12-CHECKLISTS.md` | Renvoi vers Odoo 884 — à jour depuis le 24/09/2026 |
 | `orthal/` | **Référence ORTHAL 2023** — la seule ressource de fond du dossier |
 | `01-` à `06-` | Périmés, étiquetés en tête, conservés pour mémoire |
 | `archive/` | Documents traités ou obsolètes, plus le texte intégral d'ORTHAL 2023 |

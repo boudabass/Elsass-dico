@@ -1779,6 +1779,33 @@ contributions au dictionnaire).
   entièrement vert (42 135 écrits, 1 parlé, 0 hybride) ; le script de
   suppression à blanc refuse bien le seul membre, dernier admin.
 
+## Un seul titre par page, A-Z complet, le locuteur prioritaire (24/09/2026)
+
+- **Plus de `<h1>` dans l'en-tête** (décision de John) : les fiches village et
+  prénom, `/sources` et `/login` en portaient deux, celui de l'en-tête empilé
+  et celui de la page. Le titre de l'en-tête est désormais un `<span>`, comme
+  la variante racine l'a toujours été. Conséquence acceptée : les écrans
+  admin et « Signaler » n'ont plus de `<h1>`, comme la carte ou le
+  dictionnaire (ils ne sont pas indexés). Vérifié sur l'HTML servi par `dev` :
+  un seul `<h1>` par page publique.
+- **L'A-Z ignore la ponctuation de tête.** `(espèce de) tordu`, le seul lemme
+  injoignable (mesuré en base), se range maintenant sous E. La lettre, le tri
+  et le saut « Aller à un mot » passent tous par la même expression
+  (`cleParcours()`, `src/app/actions/navigation.ts`) : si l'un s'en écartait,
+  le saut tomberait sur une page qui n'affiche pas le mot. Vérifié en faisant
+  tourner les vraies actions contre la base : page 12 de E, entre `espèce` et
+  `espérance`, et `cytise`/`bricoler`/`ça` tombent toujours juste.
+- **Le locuteur est l'utilisateur prioritaire** (décision de John) : priorité à
+  sauvegarder et accumuler les parlers. Remplace l'apprenant du 02/09.
+- **L'unification ne s'impose pas** (décision de John) : elle doit se faire
+  naturellement et dans le temps, aucune méthode viable n'amène aujourd'hui des
+  locuteurs à trancher. **Se préparer techniquement, ne rien imposer.** Piste
+  notée dans Odoo 883, pas engagée : un vote retiré supprime son
+  `Temoignage`, donc on perd la trace d'un village qui change de forme.
+- **Consigné dans Odoo 882 et 883**, qui font foi depuis leur réécriture du
+  même jour (l'exception du doc 20 est close, cf. `documentation/README.md`),
+  puis dans `PRODUCT.md`.
+
 ## Règles de travail
 
 - Ne jamais inventer de traduction alsacienne, même pour un exemple ou un test.

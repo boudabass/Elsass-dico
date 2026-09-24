@@ -1923,6 +1923,47 @@ correctif de session `0.0.0.0:3000`.
   convergence quand il y aura des données ; auto-inscription Odoo, aire du 57,
   gameplay, attribution Azimut (John).
 
+## Le jeu « Quel village dit ça ? » (25/09/2026)
+
+Premier gameplay, cadré avec John par `/impeccable shape` (brief en mémoire,
+`gameplay-quel-village-dit-ca`). On montre **toutes** les formes attestées d'un
+village, le membre le retrouve parmi quatre voisins. Pas de nom de jeu (un
+onglet « Jeu »), pas de marque dans le partage, **membres seulement** : le jeu
+attire par ce que les membres partagent, le résultat renvoie vers la home.
+
+- **Défi du jour** (5 manches, le même pour tous, déduit de la date par un
+  générateur à graine, rien de stocké pour le tirer) et **partie libre**. Défi
+  n° 1 = le 25/09/2026 (`LANCEMENT`, `src/lib/jeu.ts`).
+- **Difficulté mesurée, pas devinée.** Distance d'édition entre le nom français
+  et la forme la plus proche, après normalisation. Sous 0,2 le village est
+  écarté (`Lembach` ← `Lämbàch`, `Hœrdt`, `Colmar` ← `Colmer`) : **539
+  jouables sur 819**, cinq tranches de 97 à 124, une manche par tranche. Une
+  première version en trigrammes (pg_trgm) a été **démentie à l'écran** : elle
+  laissait `Herdt` et classait `Süfflum` parmi les plus durs.
+- **Distracteurs** : voisins attestés à 15 km (13 au minimum, mesuré), sans
+  aucune forme commune avec la réponse ni même nom — 21 formes sont partagées
+  (`Arelse` = deux Ernolsheim), deux Bouxwiller existent.
+- **La réponse ne quitte le serveur qu'après la réponse du membre**
+  (`repondreAction`). Table `parties_jeu` (migration `20260925120000_jeu`) :
+  unicité (membre, jour), CHECK « seul le défi porte une date », cascade à la
+  suppression d'un membre (ses parties, pas des contributions).
+- **Fin de partie** : « et chez toi, on dit comment ? » sur un mot de base
+  (`src/lib/mots-de-base.ts`, sorti de `accueil.ts`), facultatif, jamais compté.
+- Les 3 transcriptions phonétiques entre crochets sont écartées du jeu
+  seulement ; elles restent sur la fiche.
+- **Trouvé en passant** : `neutre-200` n'existe pas dans les tokens, une classe
+  qui ne peint rien. Corrigé dans le jeu ; reste utilisé au survol d'un bouton
+  de `/admin/signalements`, non touché.
+- **Vérifié** : tirage rejoué contre la base (97 jours sans répétition ni
+  distracteur ambigu, même résultat à chaque appel), migration rejouée dans une
+  transaction annulée, `typecheck`, `build` 967/967. À l'écran (session de John,
+  `dev`) : onglet et invitation de « Mon espace », une partie libre complète au
+  clavier (1 à 4, Entrée), révélation avec sources et carte, bilan et mot de fin,
+  et le rendu 375 px (cadre, `resize_window` inerte). La révélation remonte
+  seule dans la vue sur téléphone, où elle tombait sous le pli.
+  **Le défi du jour n'a pas été joué**, pour laisser le n° 1 à John ; une partie
+  libre de test reste dans ses parties.
+
 ## Règles de travail
 
 - Ne jamais inventer de traduction alsacienne, même pour un exemple ou un test.

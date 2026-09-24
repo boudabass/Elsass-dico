@@ -138,6 +138,7 @@ function Manche({
     const revelation = manche.revelation;
     const titreRef = useRef<HTMLHeadingElement>(null);
     const suiteRef = useRef<HTMLButtonElement>(null);
+    const revelationRef = useRef<HTMLDivElement>(null);
 
     function repondre(id: number) {
         if (revelation || enCours) return;
@@ -157,8 +158,13 @@ function Manche({
     useEffect(() => {
         titreRef.current?.focus({ preventScroll: true });
     }, []);
+    // Sur téléphone, la révélation tombe sous le pli : on la fait remonter au
+    // lieu de laisser le membre chercher ce qui vient de se passer.
     useEffect(() => {
-        if (revelation) suiteRef.current?.focus({ preventScroll: true });
+        if (!revelation) return;
+        suiteRef.current?.focus({ preventScroll: true });
+        const calme = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+        revelationRef.current?.scrollIntoView({ block: "nearest", behavior: calme ? "auto" : "smooth" });
     }, [revelation]);
     useEffect(() => {
         if (revelation) return;
@@ -252,17 +258,19 @@ function Manche({
             </ul>
 
             {revelation && (
-                <Reponse revelation={revelation}>
-                    <button
-                        ref={suiteRef}
-                        type="button"
-                        onClick={onSuivante}
-                        className="inline-flex h-11 items-center gap-2 rounded-lg bg-marque-rouge-500 px-5 text-[15px] font-semibold text-white transition-colors hover:bg-marque-rouge-600"
-                    >
-                        {derniere ? "Voir le bilan" : "Manche suivante"}
-                        <ArrowRight className="h-4 w-4" strokeWidth={2.4} aria-hidden />
-                    </button>
-                </Reponse>
+                <div ref={revelationRef} className="scroll-mb-20">
+                    <Reponse revelation={revelation}>
+                        <button
+                            ref={suiteRef}
+                            type="button"
+                            onClick={onSuivante}
+                            className="inline-flex h-11 items-center gap-2 rounded-lg bg-marque-rouge-500 px-5 text-[15px] font-semibold text-white transition-colors hover:bg-marque-rouge-600"
+                        >
+                            {derniere ? "Voir le bilan" : "Manche suivante"}
+                            <ArrowRight className="h-4 w-4" strokeWidth={2.4} aria-hidden />
+                        </button>
+                    </Reponse>
+                </div>
             )}
         </div>
     );

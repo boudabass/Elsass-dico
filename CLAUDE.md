@@ -1973,6 +1973,18 @@ attire par ce que les membres partagent, le résultat renvoie vers la home.
   ça ? » n'en décrit qu'un. Il reste la consigne de ce type ; le titre de
   l'écran et le partage (« Le défi du jour n° 12 · 4/5 ») deviennent communs.
 
+## Point ouvert fermé : apprenant et locuteur ne sont pas deux profils (25/09/2026)
+
+`PRODUCT.md` listait depuis le 23/09 un point ouvert : « qui tranche entre
+apprenant et locuteur ». **Tranché par John : il n'y en a qu'un.** Le membre
+qui découvre l'alsacien et celui qui le parle depuis toujours ont les mêmes
+droits et les mêmes possibilités, rien ne les sépare côté produit — ce
+n'était jamais une question d'arbitrer entre deux catégories, il n'y en a
+qu'une. Remplace la formulation du 24/09/2026 (« le locuteur est
+prioritaire »), qui laissait entendre une hiérarchie entre deux profils
+distincts ; elle-même remplaçait la désignation de l'apprenant / du curieux
+du 02/09/2026. `PRODUCT.md` (§ Users) mis à jour dans la foulée.
+
 ## Règles de travail
 
 - Ne jamais inventer de traduction alsacienne, même pour un exemple ou un test.

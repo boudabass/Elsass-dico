@@ -79,11 +79,13 @@ function Accueil({ etat, onPartie }: { etat: EtatJeu; onPartie: (p: PartiePubliq
     return (
         <>
             <h1 className="text-balance font-display text-[30px] leading-[1.15] text-foreground sm:text-[38px]">
-                Quel village dit ça ?
+                Le défi du jour
             </h1>
+            {/* Titre global, décision de John du 25/09/2026 : le jeu accueillera
+                d'autres types de manches (mots, prénoms). « Quel village dit
+                ça ? » est la consigne d'un type, pas le nom du jeu. */}
             <p className="mt-2 max-w-[56ch] text-[15px] leading-[1.55] text-muted-foreground">
-                Des noms de villages, écrits comme on les dit en alsacien. Pour chacun, retrouve
-                le bon parmi quatre voisins.
+                Des formes alsaciennes attestées. À toi de retrouver ce qu&apos;elles disent.
             </p>
 
             <section
@@ -92,7 +94,7 @@ function Accueil({ etat, onPartie }: { etat: EtatJeu; onPartie: (p: PartiePubliq
             >
                 <div className="flex items-baseline justify-between gap-3">
                     <h2 id="defi-titre" className="text-lg font-extrabold text-foreground">
-                        Défi du jour <span className="tabular-nums">n° {etat.numero}</span>
+                        Défi <span className="tabular-nums">n° {etat.numero}</span>
                     </h2>
                     {etat.serie > 0 && (
                         <span className="inline-flex shrink-0 items-center gap-1 text-sm font-semibold tabular-nums text-marque-or-700">
@@ -122,7 +124,7 @@ function Accueil({ etat, onPartie }: { etat: EtatJeu; onPartie: (p: PartiePubliq
                         <p className="mt-2 text-[15px] leading-[1.5] text-muted-foreground">
                             {defi.etat === "en_cours"
                                 ? `Ta partie t'attend à la manche ${defi.manche} sur 5.`
-                                : "Cinq villages, du plus transparent au plus coriace. Le même défi pour tout le monde aujourd'hui."}
+                                : "Quel village dit ça ? Cinq noms alsaciens, du plus transparent au plus coriace. Le même défi pour tout le monde aujourd'hui."}
                         </p>
                         <button
                             type="button"

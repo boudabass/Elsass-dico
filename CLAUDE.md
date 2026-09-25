@@ -1968,6 +1968,10 @@ attire par ce que les membres partagent, le résultat renvoie vers la home.
   `elsass-dico.theelsassisch.com/jeu` : John avait déjà joué le défi n° 1
   (5 sur 5), ce qui valide aussi les deux états que Claude n'avait pas pu
   exercer, le défi terminé et la série (« 1 jour de suite »).
+- **Titre global « Le défi du jour »** (décision de John, même soir) : le jeu
+  accueillera d'autres types de manches (mots, prénoms), et « Quel village dit
+  ça ? » n'en décrit qu'un. Il reste la consigne de ce type ; le titre de
+  l'écran et le partage (« Le défi du jour n° 12 · 4/5 ») deviennent communs.
 
 ## Règles de travail
 

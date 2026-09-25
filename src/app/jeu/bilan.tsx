@@ -134,7 +134,7 @@ export function BoutonPartager({ numero, resultats }: { numero: number; resultat
         const score = resultats.filter(Boolean).length;
         const cases = resultats.map((r) => (r ? "🟩" : "⬜")).join("");
         const lien = `${window.location.origin}/`;
-        const texte = `Quel village dit ça ? Défi n° ${numero} · ${score}/${resultats.length}\n${cases}\n${lien}`;
+        const texte = `Le défi du jour n° ${numero} · ${score}/${resultats.length}\n${cases}\n${lien}`;
 
         // Le partage natif d'abord (téléphone), le presse-papiers sinon.
         if (navigator.share && window.matchMedia("(pointer: coarse)").matches) {

@@ -26,6 +26,11 @@ const PUBLIC = [
     "/api/session/",
     "/village/",
     "/prenom/",
+    // Machine-à-machine (25/09/2026) : la chaîne N8N n'a pas de cookie de
+    // session à présenter. Public ici ne veut pas dire sans protection — la
+    // route vérifie elle-même un jeton porteur (`AUTOMATISATION_API_TOKEN`)
+    // et rend 401 sans lui. Le middleware ne fait que la laisser passer.
+    "/api/automatisation/",
 ]
 
 function estPublic(chemin: string): boolean {

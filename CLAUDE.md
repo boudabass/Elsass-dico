@@ -2041,6 +2041,35 @@ côté dico une fois les points validés par John.
   sessions Claude Code communiquent en direct par messages inter-sessions
   pour cette coordination — cf. mémoire `automatisation-n8n-defi-dico`.
 
+## Route d'automatisation vérifiée en production, bascule N8N faite (25-26/09/2026)
+
+Suite de la reconnaissance du 25-26/09 : `elsass-dico:main` a redéployé
+(Build Variable `AUTOMATISATION_API_TOKEN` déjà identique à `dev`, confirmé
+par John), et la route a été testée en conditions réelles par la session
+« The Elsassisch World » via son credential N8N, pas par un `curl` local —
+je n'ai jamais eu ni besoin d'avoir la valeur du jeton, cohérent avec la
+doctrine « un secret ne transite pas entre sessions ».
+
+- **Faux positif d'abord** : un premier test annonçait un succès (exécution
+  N8N 2250) mais le nœud HTTP était épinglé sur des données de test, jamais
+  parti en réel — aucun appel authentifié n'avait donc jamais eu lieu, ni sur
+  `dev` ni sur `main`, malgré ce que l'historique N8N laissait croire.
+- **Vrai 401 ensuite, sur les deux environnements identiquement** : la cause
+  n'était pas une divergence de jeton entre `dev` et `main` (la piste
+  d'abord suivie, éliminée par John), mais `MET_DEFI_DICO_HEBDO` câblé sur le
+  mauvais credential N8N (« Bearer Auth account », générique, au lieu d'un
+  credential dédié `AUTOMATISATION_API_TOKEN`). Corrigé côté N8N par l'autre
+  session.
+- **Vérifié en production** : `GET
+  https://elsass-dico.theelsassisch.com/api/automatisation/defi-du-jour`
+  (sans `?reveler=`) → 200, `defiVeille` révèle le défi n°1 (5 villages,
+  formes et sources), `defiDuJour` expose le n°2 (manche en clair, 4 choix,
+  sans réponse). L'URL de prod est basculée dans le nœud HTTP de
+  `MET_DEFI_DICO_HEBDO`.
+- **Le workflow reste inactif** : la disponibilité technique confirmée ici
+  n'est pas le feu vert de lancement public, toujours entre les mains de
+  John (cf. section du 25-26/09 plus haut).
+
 ## Règles de travail
 
 - Ne jamais inventer de traduction alsacienne, même pour un exemple ou un test.

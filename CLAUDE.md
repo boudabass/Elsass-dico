@@ -1963,6 +1963,15 @@ attire par ce que les membres partagent, le résultat renvoie vers la home.
   seule dans la vue sur téléphone, où elle tombait sous le pli.
   **Le défi du jour n'a pas été joué**, pour laisser le n° 1 à John ; une partie
   libre de test reste dans ses parties.
+- **En production le 25/09 (PR #60, `ec47815`)** : `main` redéployé trois
+  minutes après la fusion (`updated_at` 23:46:24). Constaté à l'écran sur
+  `elsass-dico.theelsassisch.com/jeu` : John avait déjà joué le défi n° 1
+  (5 sur 5), ce qui valide aussi les deux états que Claude n'avait pas pu
+  exercer, le défi terminé et la série (« 1 jour de suite »).
+- **Titre global « Le défi du jour »** (décision de John, même soir) : le jeu
+  accueillera d'autres types de manches (mots, prénoms), et « Quel village dit
+  ça ? » n'en décrit qu'un. Il reste la consigne de ce type ; le titre de
+  l'écran et le partage (« Le défi du jour n° 12 · 4/5 ») deviennent communs.
 
 ## Règles de travail
 

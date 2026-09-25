@@ -28,11 +28,15 @@ de prénom, souvent depuis un moteur de recherche. Il doit comprendre ce
 qu'est le site et voir de vrais mots alsaciens avant qu'on lui demande un
 compte.
 
-**Le locuteur est prioritaire** (décision de John, 24/09/2026). Quand
-l'apprenant et le locuteur ont des besoins opposés, on tranche pour le
-locuteur : la priorité est de sauvegarder et d'accumuler les parlers, et
-sans contributions il n'y a pas de carte. Remplace la désignation de
-l'apprenant / du curieux du 02/09/2026, jamais reconduite depuis la refonte.
+**Il n'y a qu'un seul type de membre, pas deux** (précisé par John le
+25/09/2026). La distinction apprenant / locuteur n'existe pas côté produit :
+tout membre a les mêmes droits et les mêmes possibilités, qu'il découvre
+l'alsacien ou le parle depuis toujours. Ferme le point resté ouvert depuis le
+23/09/2026 (« qui tranche entre apprenant et locuteur ») : il n'y a rien à
+trancher, faute de deux catégories à départager. Remplace la formulation du
+24/09/2026 (« le locuteur est prioritaire »), qui laissait entendre une
+hiérarchie entre deux profils distincts ; elle-même remplaçait la désignation
+de l'apprenant / du curieux du 02/09/2026.
 
 ## Product Purpose
 

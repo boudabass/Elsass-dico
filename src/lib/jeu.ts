@@ -48,6 +48,15 @@ export function jourPrecedent(jour: string): string {
     return new Date(Date.parse(`${jour}T00:00:00Z`) - 86_400_000).toISOString().slice(0, 10)
 }
 
+/** L'inverse de `numeroDefi()` : le jour d'un défi numéroté. Sert à la route
+ *  d'automatisation (25/09/2026), qui doit pouvoir révéler un défi précis
+ *  plutôt que seulement « la veille ». */
+export function jourDuDefi(numero: number): string {
+    return new Date(Date.parse(`${LANCEMENT}T00:00:00Z`) + (numero - 1) * 86_400_000)
+        .toISOString()
+        .slice(0, 10)
+}
+
 // --- Le hasard, reproductible -------------------------------------------------
 //
 // Le défi du jour est le même pour tout le monde sans rien stocker : il se

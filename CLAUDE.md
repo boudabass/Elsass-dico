@@ -1985,6 +1985,62 @@ prioritaire »), qui laissait entendre une hiérarchie entre deux profils
 distincts ; elle-même remplaçait la désignation de l'apprenant / du curieux
 du 02/09/2026. `PRODUCT.md` (§ Users) mis à jour dans la foulée.
 
+## Route d'automatisation pour la publication sociale du jeu (25-26/09/2026)
+
+John veut faire venir des locuteurs via des posts réseaux sociaux qui
+s'appuient sur « Le défi du jour », en réutilisant la chaîne N8N existante
+(qui publie déjà l'agenda, le blog et les recettes de cuisine sous la marque
+The Elsassisch, gérée par une session Claude Code séparée, « The Elsassisch
+World »). Rapport de reconnaissance en lecture seule d'abord (chaîne N8N :
+`MET_AGENDA_HEBDO` → `MET_PUBLICATION` → `MET_VALIDATION_PUBLICATION` (mail
+Publier/Modifier/Laisser de côté) → `OP_META_POST`), puis implémentation
+côté dico une fois les points validés par John.
+
+- **`GET /api/automatisation/defi-du-jour`** (`src/app/api/automatisation/defi-du-jour/route.ts`),
+  ajoutée au préfixe `/api/automatisation/` dans `PUBLIC`
+  (`src/middleware.ts`) — publique au sens du middleware, mais protégée par
+  son propre jeton porteur (`AUTOMATISATION_API_TOKEN`, comparaison à temps
+  constant, secret lu hors du `try` comme `SESSION_SECRET`). Lecture seule,
+  aucune nouvelle logique métier : n'assemble que `lib/jeu.ts`,
+  `lib/lemmes.ts`, `lib/dictionnaire.ts`, déjà écrits et vérifiés.
+- **Ne révèle jamais un défi en cours.** `defiVeille` ne se remplit que si
+  une vraie veille existe déjà (`indiceDuJour`) — sans ce garde-fou, le tout
+  premier jour du jeu (`LANCEMENT`) aurait recalculé la veille comme étant le
+  défi du jour lui-même, encore en cours pour tout le monde. Vérifié en
+  conditions réelles le jour du lancement (`defiVeille: null`) puis le
+  lendemain, une fois qu'une vraie veille a existé (le défi n°1 s'est révélé
+  correctement, numéro passé à 2).
+- **Étendue le lendemain** pour le format de post que John voulait (question
+  + 4 choix, comme l'app, pas un teaser vague) : `?reveler=<numero>` révèle
+  un défi précis avec le même garde-fou (`jourDuDefi()`, l'inverse de
+  `numeroDefi()`, `lib/jeu.ts`) — nécessaire parce que N8N publie 2-3×/semaine
+  et doit rappeler le défi précédemment *teasé*, pas « hier » au sens
+  calendaire. `defiDuJour.manche` expose une manche du jour en clair (les
+  formes du village mystère + les 4 villages proposés, mélangés) —
+  **`formes` est l'indice, `choix` sont des villages, pas l'inverse** :
+  premier échange avec The Elsassisch World inversait les deux, corrigé
+  avant qu'ils écrivent le node de rédaction. Toujours la même position
+  (tranche la plus facile, indice 0), donc `revelation.manches[0]`
+  correspond toujours à ce qui a été teasé ce jour-là — pas d'identifiant
+  supplémentaire nécessaire, avec une réserve honnête : ça ne tient que tant
+  que la modération n'a pas fait bouger le pool de villages entre-temps.
+- **Un faux positif dissipé** : John a signalé un décalage (N8N « au défi
+  n°5 », l'app encore au défi n°1). Vérifié en direct contre l'heure réelle
+  du serveur et l'API — le vrai numéro était bien 1, rien côté dico ne
+  pouvait dériver comme ça. Cause réelle, confirmée par The Elsassisch
+  World : leur outil de test simule les appels HTTP avec des données
+  forgées, les numéros 2-5 étaient fictifs, jamais un vrai appel à l'API.
+- **PR #62** (`dev` → `main`), fusionnée par commit de merge (`f311eaa`),
+  même méthode que les précédentes. Déployé et vérifié sur
+  `elsass-dico.theelsassisch.com` en conditions réelles.
+- **Verrou de John, indépendant du déploiement technique** : le workflow N8N
+  (`MET_DEFI_DICO_HEBDO`, construit et testé de bout en bout côté The
+  Elsassisch World — mail de validation réel, image générique fixe fournie
+  par John, jamais une vraie publication) **ne sera activé qu'au lancement
+  public du jeu**, pas à la disponibilité de la route en `main`. Les deux
+  sessions Claude Code communiquent en direct par messages inter-sessions
+  pour cette coordination — cf. mémoire `automatisation-n8n-defi-dico`.
+
 ## Règles de travail
 
 - Ne jamais inventer de traduction alsacienne, même pour un exemple ou un test.

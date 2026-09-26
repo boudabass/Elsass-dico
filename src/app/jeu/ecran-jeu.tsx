@@ -18,7 +18,8 @@ import { useListeMemorisee } from "@/hooks/use-liste-memorisee";
 import { cleCache } from "@/lib/cache-navigation";
 import { cn } from "@/lib/utils";
 
-import { BoutonPartager, Cases, InvitationCompte } from "./bilan";
+import { Cases, InvitationCompte } from "./bilan";
+import { BoutonPartager } from "./partage";
 import { Partie } from "./partie";
 
 // L'écran du jeu (25/09/2026) : l'accueil (défi du jour, partie libre), puis

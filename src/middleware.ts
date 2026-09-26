@@ -31,6 +31,9 @@ const PUBLIC = [
     // route vérifie elle-même un jeton porteur (`AUTOMATISATION_API_TOKEN`)
     // et rend 401 sans lui. Le middleware ne fait que la laisser passer.
     "/api/automatisation/",
+    // L'image de partage du défi (26/09/2026) : lue par les robots des
+    // réseaux sociaux, qui n'ont pas de compte. Elle ne nomme aucun village.
+    "/api/partage/",
 ]
 
 // Ouvertes à tous, mais un membre y garde son compte (26/09/2026, /jeu joué

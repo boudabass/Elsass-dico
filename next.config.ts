@@ -6,6 +6,11 @@ const nextConfig: NextConfig = {
   // recopier node_modules en entier, ce qui saturait le disque du VPS et
   // finissait par faire échouer les déploiements.
   output: "standalone",
+  // La police de l'image de partage est lue sur le disque à l'exécution : le
+  // traçage ne la voit pas, sans cette ligne elle manquerait dans l'image.
+  outputFileTracingIncludes: {
+    "/api/partage/defi": ["./src/assets/polices/*.woff"],
+  },
   // Durée pendant laquelle un retour arrière réutilise la charge RSC déjà
   // reçue au lieu de la redemander. La valeur par défaut de Next 15 est 0
   // pour les routes dynamiques : /entree/[id] lit des cookies (la session),

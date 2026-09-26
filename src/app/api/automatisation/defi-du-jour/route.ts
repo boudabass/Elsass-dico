@@ -21,11 +21,11 @@ import { timingSafeEqual } from "node:crypto"
 
 import { LIBELLES_DEPARTEMENT } from "@/lib/dictionnaire"
 import {
-    chargerReserve,
     indiceDuJour,
     jourActuel,
     jourDuDefi,
     jourPrecedent,
+    mancheOuverteDuJour,
     manchesDuJour,
     numeroDefi,
 } from "@/lib/jeu"
@@ -117,16 +117,15 @@ export async function GET(request: NextRequest) {
     // même chose qu'un membre voit avant de répondre. Toujours la même
     // position (la tranche la plus facile, indice 0 de `manchesDuJour()`) :
     // pas un choix arbitraire, la partie monte en difficulté dans cet ordre.
-    const r = await chargerReserve()
-    const cible = (await manchesDuJour(jour))[0]
-    const villageCible = cible ? r.parId.get(cible.communeId) : undefined
-    const manche = villageCible
+    // La home publique montre la même (`mancheOuverteDuJour()`, 26/09/2026).
+    const ouverte = await mancheOuverteDuJour(jour)
+    const manche = ouverte
         ? {
-              formes: villageCible.formes,
-              choix: cible.choix.flatMap((id) => {
-                  const v = r.parId.get(id)
-                  return v ? [{ nom: v.nom, departement: LIBELLES_DEPARTEMENT[v.departement] ?? v.departement }] : []
-              }),
+              formes: ouverte.formes,
+              choix: ouverte.choix.map((c) => ({
+                  nom: c.nom,
+                  departement: LIBELLES_DEPARTEMENT[c.departement] ?? c.departement,
+              })),
           }
         : null
 

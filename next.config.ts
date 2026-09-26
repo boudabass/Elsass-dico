@@ -9,7 +9,7 @@ const nextConfig: NextConfig = {
   // La police de l'image de partage est lue sur le disque à l'exécution : le
   // traçage ne la voit pas, sans cette ligne elle manquerait dans l'image.
   outputFileTracingIncludes: {
-    "/api/partage/defi": ["./src/assets/polices/*.woff"],
+    "/api/partage/defi": ["./src/assets/polices/*.woff", "./src/assets/marque/signature.png"],
   },
   // Durée pendant laquelle un retour arrière réutilise la charge RSC déjà
   // reçue au lieu de la redemander. La valeur par défaut de Next 15 est 0

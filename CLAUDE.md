@@ -2266,6 +2266,14 @@ espace » devient une icône ronde à droite de l'en-tête (`BoutonCompte`,
 desktop le garde avec son libellé. Vérifié sur `dev` dans un cadre de 375 px :
 cinq onglets de 72 px, l'icône mène à `/dashboard` et s'y allume (`198c0a6`).
 
+## `/recherche` réduite à la barre (26/09/2026)
+
+Retour de John : plus de « Salut ! Cherche un mot… », plus de puces de
+caractères accentués sous la barre. La barre seule, bordure rouge de 2 px,
+20 % plus grande (48 → 58 px, texte 16 → 19 px). Le texte d'exemple devient
+« Français ou alsacien… », l'ancien était coupé à 375 px une fois agrandi.
+Vérifié sur `dev` dans un cadre de 375 px (`e4fd171`, `ebe7af0`).
+
 ## Règles de travail
 
 - Ne jamais inventer de traduction alsacienne, même pour un exemple ou un test.

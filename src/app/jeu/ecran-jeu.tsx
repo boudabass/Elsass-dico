@@ -61,7 +61,6 @@ export function EcranJeu() {
                         key={vue.partie.id}
                         initiale={vue.partie}
                         onQuitter={revenir}
-                        onRejouer={(p) => setVue({ type: "partie", partie: p })}
                     />
                 ) : premierChargement || !etat ? (
                     <ListSkeleton lignes={3} />

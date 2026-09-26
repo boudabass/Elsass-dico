@@ -57,6 +57,7 @@ export function Bilan({
                     {score} village{score > 1 ? "s" : ""} sur {resultats.length}
                 </span>
             </h1>
+            <Cases resultats={resultats} className="mt-3" />
 
             <ol className="mt-5 divide-y divide-border rounded-xl border border-border">
                 {partie.manches.map((m, i) => (

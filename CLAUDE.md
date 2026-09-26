@@ -2232,6 +2232,32 @@ les phrases robot »).
   `/carte` → 307, `/jeu` et les fiches village → 200 ; un membre connecté est
   toujours renvoyé vers `/recherche`. **Pas encore fusionné dans `main`.**
 
+## Le jeu relu par John (26/09/2026)
+
+Six retours après avoir joué, tous appliqués (`58fbaa3`) :
+
+- **Les formes en rouge**, et sous elles « Quel est le nom français de ce
+  village ? » au lieu de « Quel village dit ça ? ».
+- **Après la réponse, la page descend tout en bas** : « Manche suivante » est
+  le dernier élément et doit être à l'écran. Remplace le placement « à 40 % de
+  la hauteur », qui laissait le bouton sous le pli.
+- **« 2 formes : »** au lieu de « Ses 2 formes, et ce qui les fonde » (« ce qui
+  fonde » ne veut rien dire pour un humain, cf. `feedback-pas-de-jargon`), et
+  **« Voir la fiche de X »**.
+- **Plus de bouton Rejouer ni Partie libre au bilan** : rejouer un défi dont on
+  vient de voir les réponses n'a pas de sens. « Retour » devient « Terminer la
+  partie », qui ramène à l'accueil du jeu, où la partie libre reste.
+- **Le mot à dire chez soi** est posé en grand au-dessus des formes, hors de la
+  phrase, sous le titre « Pour finir : comment dis-tu ce mot dans ton
+  village ? ».
+- **Vérifié sur `dev`** (partie d'invité complète, cadre sans cookies de
+  375 px) : formes en `rgb(194, 0, 0)`, nouvelle question, descente jusqu'au
+  bouton après un vrai clic, « 1 forme : », « Voir la fiche de », bilan sans
+  « Rejouer ». **Piège de test** : un clic simulé en JavaScript dans un onglet
+  que le navigateur ne dessine pas ne fait pas défiler en mode fluide ; un
+  vrai clic, si. **Non vu à l'écran** : le bloc « Pour finir », réservé aux
+  membres (il aurait fallu jouer le défi de John).
+
 ## Règles de travail
 
 - Ne jamais inventer de traduction alsacienne, même pour un exemple ou un test.

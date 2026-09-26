@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useTransition } from "react";
+import Link from "next/link";
 import { Check, Share2, X } from "lucide-react";
 import { toast } from "sonner";
 
@@ -12,6 +13,7 @@ import { ListSkeleton } from "@/components/ui/list-skeleton";
 import { useListeMemorisee } from "@/hooks/use-liste-memorisee";
 import { cleCache } from "@/lib/cache-navigation";
 import type { LemmeDetaille } from "@/lib/dictionnaire";
+import { URL_INSCRIPTION_ODOO } from "@/lib/odoo";
 import { cn } from "@/lib/utils";
 
 // Le bilan d'une partie, puis le seul geste de contribution du jeu : « et chez
@@ -81,19 +83,21 @@ export function Bilan({
                 {partie.mode === "jour" && partie.numero !== null && (
                     <BoutonPartager numero={partie.numero} resultats={resultats} />
                 )}
-                <button
-                    type="button"
-                    onClick={rejouer}
-                    disabled={enCours}
-                    className={cn(
-                        "inline-flex h-11 items-center rounded-lg px-5 text-[15px] font-semibold transition-colors disabled:opacity-60",
-                        partie.mode === "jour"
-                            ? "border border-bordure-forte text-foreground hover:bg-neutre-50"
-                            : "bg-marque-rouge-500 text-white hover:bg-marque-rouge-600",
-                    )}
-                >
-                    {enCours ? "Chargement…" : partie.mode === "jour" ? "Partie libre" : "Rejouer"}
-                </button>
+                {!partie.invite && (
+                    <button
+                        type="button"
+                        onClick={rejouer}
+                        disabled={enCours}
+                        className={cn(
+                            "inline-flex h-11 items-center rounded-lg px-5 text-[15px] font-semibold transition-colors disabled:opacity-60",
+                            partie.mode === "jour"
+                                ? "border border-bordure-forte text-foreground hover:bg-neutre-50"
+                                : "bg-marque-rouge-500 text-white hover:bg-marque-rouge-600",
+                        )}
+                    >
+                        {enCours ? "Chargement…" : partie.mode === "jour" ? "Partie libre" : "Rejouer"}
+                    </button>
+                )}
                 <button
                     type="button"
                     onClick={onQuitter}
@@ -103,8 +107,37 @@ export function Bilan({
                 </button>
             </div>
 
-            <ChezToi mode={partie.mode} />
+            {partie.invite ? <InvitationCompte className="mt-10 border-t border-border pt-6" /> : <ChezToi mode={partie.mode} />}
         </>
+    );
+}
+
+/** Ce qu'un compte ajoute au jeu, pour qui joue sans. */
+export function InvitationCompte({ className }: { className?: string }) {
+    return (
+        <section aria-labelledby="compte-titre" className={className}>
+            <h2 id="compte-titre" className="text-[15px] font-bold text-foreground">
+                Avec un compte
+            </h2>
+            <p className="mt-1 max-w-[56ch] text-sm leading-[1.5] text-muted-foreground">
+                Tu gardes ta série de jours, tu lances autant de parties libres que tu veux, et tu
+                peux dire comment on parle dans ton village.
+            </p>
+            <div className="mt-3 flex flex-wrap items-center gap-x-4 gap-y-2">
+                <a
+                    href={URL_INSCRIPTION_ODOO}
+                    className="inline-flex h-10 items-center rounded-lg border border-bordure-forte px-4 text-sm font-semibold text-foreground transition-colors hover:bg-neutre-50"
+                >
+                    Créer un compte
+                </a>
+                <Link
+                    href="/login"
+                    className="inline-flex min-h-10 items-center text-sm font-semibold text-marque-rouge-texte underline-offset-4 hover:underline"
+                >
+                    Se connecter
+                </Link>
+            </div>
+        </section>
     );
 }
 

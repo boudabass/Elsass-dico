@@ -55,6 +55,8 @@ export interface PartiePublique {
     manches: ManchePublique[]
     score: number
     finie: boolean
+    /** Le jour du défi, pour une partie d'invité : elle n'existe pas en base. */
+    invite?: string
 }
 
 export interface EtatJeu {
@@ -64,7 +66,7 @@ export interface EtatJeu {
     serie: number
 }
 
-type Resultat<T> = { succes: true; valeur: T } | { succes: false; erreur: string }
+export type Resultat<T> = { succes: true; valeur: T } | { succes: false; erreur: string }
 
 const NON_CONNECTE = { succes: false, erreur: "Connecte-toi pour jouer" } as const
 
@@ -74,11 +76,11 @@ function lireManches(valeur: Prisma.JsonValue): MancheStockee[] {
 
 // --- État de l'écran d'accueil du jeu -----------------------------------------
 
-export async function etatJeuAction(): Promise<EtatJeu | null> {
-    const session = await sessionActuelle()
-    if (!session) return null
-
+export async function etatJeuAction(): Promise<EtatJeu> {
     const jour = jourActuel()
+    const session = await sessionActuelle()
+    if (!session) return { numero: numeroDefi(jour), defi: { etat: "a_jouer" }, serie: 0 }
+
     const parties = await prisma.partieJeu.findMany({
         where: { membreId: session.membreId, mode: "jour" },
         select: { jour: true, manches: true, finie: true },
@@ -197,6 +199,44 @@ export async function repondreAction(
     if (count === 0) return { succes: false, erreur: "Ta réponse est déjà enregistrée. Recharge la page pour continuer." }
 
     return { succes: true, valeur: { revelation: await reveler({ ...manche, reponse: communeId }), score, finie } }
+}
+
+// --- Le défi du jour sans compte (26/09/2026) --------------------------------------
+//
+// Décision de John : les posts du défi renvoient vers /jeu, un visiteur doit
+// pouvoir y jouer sans compte. Rien n'est enregistré pour lui (ni partie, ni
+// série) : le tirage du jour se déduit de la date, le serveur le recalcule à
+// chaque réponse. La règle du fichier tient toujours, la bonne réponse d'une
+// manche ne sort qu'une fois la réponse donnée.
+
+export async function commencerDefiInviteAction(): Promise<Resultat<PartiePublique>> {
+    const jour = jourActuel()
+    const manches = await manchesDuJour(jour)
+    const partie = await publier({
+        id: `invite-${jour}`,
+        mode: "jour",
+        jour: new Date(`${jour}T00:00:00Z`),
+        manches: manches as unknown as Prisma.JsonValue,
+        score: 0,
+        finie: false,
+    })
+    return { succes: true, valeur: { ...partie, invite: jour } }
+}
+
+export async function repondreInviteAction(
+    jour: string,
+    indice: number,
+    communeId: number,
+): Promise<Resultat<Revelation>> {
+    // Un défi à venir ne se révèle jamais. Un défi passé si : il est clos, et
+    // une partie commencée avant minuit doit pouvoir se finir après.
+    if (!/^\d{4}-\d{2}-\d{2}$/.test(jour) || Number.isNaN(Date.parse(`${jour}T00:00:00Z`)) || jour > jourActuel()) {
+        return { succes: false, erreur: "Ce défi n'est pas ouvert" }
+    }
+    const manche = (await manchesDuJour(jour))[indice]
+    if (!manche) return { succes: false, erreur: "Cette manche n'existe pas" }
+    if (!manche.choix.includes(communeId)) return { succes: false, erreur: "Ce village ne fait pas partie des choix" }
+    return { succes: true, valeur: await reveler({ ...manche, reponse: communeId }) }
 }
 
 async function publier(partie: {

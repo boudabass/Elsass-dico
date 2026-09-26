@@ -4,28 +4,39 @@ import { useState, useTransition } from "react";
 import { ArrowRight, Flame } from "lucide-react";
 import { toast } from "sonner";
 
-import { commencerPartieAction, etatJeuAction, type EtatJeu, type PartiePublique } from "@/app/actions/jeu";
+import {
+    commencerDefiInviteAction,
+    commencerPartieAction,
+    etatJeuAction,
+    type EtatJeu,
+    type PartiePublique,
+} from "@/app/actions/jeu";
 import { AppHeader } from "@/components/app-header";
 import { useAuth } from "@/components/auth-provider";
 import { ListSkeleton } from "@/components/ui/list-skeleton";
 import { useListeMemorisee } from "@/hooks/use-liste-memorisee";
 import { cleCache } from "@/lib/cache-navigation";
+import { cn } from "@/lib/utils";
 
-import { BoutonPartager, Cases } from "./bilan";
+import { BoutonPartager, Cases, InvitationCompte } from "./bilan";
 import { Partie } from "./partie";
 
 // L'écran du jeu (25/09/2026) : l'accueil (défi du jour, partie libre), puis
 // la partie, puis le bilan, sans changer d'URL. Une partie en cours vit en
 // base : la quitter et revenir la reprend à la manche où on l'a laissée.
+//
+// Sans compte (26/09/2026), seul le défi du jour se joue, et rien n'en reste.
+// Pas de rail de navigation : tous ses onglets mènent à des pages réservées.
 
 type Vue = { type: "accueil" } | { type: "partie"; partie: PartiePublique };
 
 export function EcranJeu() {
     const { session } = useAuth();
+    const invite = !session;
     const [vue, setVue] = useState<Vue>({ type: "accueil" });
 
-    const { donnees: etat, premierChargement, rafraichir } = useListeMemorisee<EtatJeu | null>({
-        cle: session ? cleCache("jeu-etat", session.membreId) : null,
+    const { donnees: etat, premierChargement, rafraichir } = useListeMemorisee<EtatJeu>({
+        cle: cleCache("jeu-etat", session?.membreId ?? "invite"),
         charger: etatJeuAction,
     });
 
@@ -36,8 +47,12 @@ export function EcranJeu() {
     }
 
     return (
-        <div className="flex min-h-screen flex-col pb-16 md:pb-0 md:pl-20 lg:pl-56">
-            <AppHeader variant="root" actif="jeu" titre="Jeu" />
+        <div className={cn("flex min-h-screen flex-col", !invite && "pb-16 md:pb-0 md:pl-20 lg:pl-56")}>
+            {invite ? (
+                <AppHeader variant="stack" titre="Jeu" backHref="/" />
+            ) : (
+                <AppHeader variant="root" actif="jeu" titre="Jeu" />
+            )}
 
             <main className="mx-auto w-full max-w-xl flex-1 px-4 pb-10 pt-[18px]">
                 {vue.type === "partie" ? (
@@ -50,21 +65,29 @@ export function EcranJeu() {
                 ) : premierChargement || !etat ? (
                     <ListSkeleton lignes={3} />
                 ) : (
-                    <Accueil etat={etat} onPartie={(p) => setVue({ type: "partie", partie: p })} />
+                    <Accueil etat={etat} invite={invite} onPartie={(p) => setVue({ type: "partie", partie: p })} />
                 )}
             </main>
         </div>
     );
 }
 
-function Accueil({ etat, onPartie }: { etat: EtatJeu; onPartie: (p: PartiePublique) => void }) {
+function Accueil({
+    etat,
+    invite,
+    onPartie,
+}: {
+    etat: EtatJeu;
+    invite: boolean;
+    onPartie: (p: PartiePublique) => void;
+}) {
     const [enCours, demarrer] = useTransition();
     const [mode, setMode] = useState<"jour" | "libre" | null>(null);
 
     function commencer(m: "jour" | "libre") {
         setMode(m);
         demarrer(async () => {
-            const res = await commencerPartieAction(m);
+            const res = invite ? await commencerDefiInviteAction() : await commencerPartieAction(m);
             if (res.succes) {
                 onPartie(res.valeur);
                 window.scrollTo({ top: 0 });
@@ -143,23 +166,27 @@ function Accueil({ etat, onPartie }: { etat: EtatJeu; onPartie: (p: PartiePubliq
                 )}
             </section>
 
-            <section aria-labelledby="libre-titre" className="mt-8">
-                <h2 id="libre-titre" className="text-[15px] font-bold text-foreground">
-                    Partie libre
-                </h2>
-                <p className="mt-1 max-w-[56ch] text-sm leading-[1.5] text-muted-foreground">
-                    Autant de parties que tu veux, tirées au hasard. Elles ne comptent pas dans ta
-                    série.
-                </p>
-                <button
-                    type="button"
-                    onClick={() => commencer("libre")}
-                    disabled={enCours}
-                    className="mt-3 inline-flex h-10 items-center rounded-lg border border-bordure-forte px-4 text-sm font-semibold text-foreground transition-colors hover:bg-neutre-50 disabled:opacity-60"
-                >
-                    {enCours && mode === "libre" ? "Chargement…" : "Lancer une partie libre"}
-                </button>
-            </section>
+            {invite ? (
+                <InvitationCompte className="mt-8" />
+            ) : (
+                <section aria-labelledby="libre-titre" className="mt-8">
+                    <h2 id="libre-titre" className="text-[15px] font-bold text-foreground">
+                        Partie libre
+                    </h2>
+                    <p className="mt-1 max-w-[56ch] text-sm leading-[1.5] text-muted-foreground">
+                        Autant de parties que tu veux, tirées au hasard. Elles ne comptent pas dans ta
+                        série.
+                    </p>
+                    <button
+                        type="button"
+                        onClick={() => commencer("libre")}
+                        disabled={enCours}
+                        className="mt-3 inline-flex h-10 items-center rounded-lg border border-bordure-forte px-4 text-sm font-semibold text-foreground transition-colors hover:bg-neutre-50 disabled:opacity-60"
+                    >
+                        {enCours && mode === "libre" ? "Chargement…" : "Lancer une partie libre"}
+                    </button>
+                </section>
+            )}
         </>
     );
 }

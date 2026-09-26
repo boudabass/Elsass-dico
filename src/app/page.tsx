@@ -66,7 +66,7 @@ export default async function AccueilPubliquePage() {
             </h1>
             <p className="mx-auto mt-4 max-w-lg text-balance text-base text-muted-foreground">
               L&apos;alsacien ne se dit pas pareil d&apos;un village à l&apos;autre. Ici, on
-              garde toutes les façons de le dire. Rien n&apos;est inventé : chaque mot vient
+              garde toutes les façons de le dire. Rien n&apos;est inventé&nbsp;: chaque mot vient
               d&apos;un dictionnaire ou d&apos;un Alsacien qui le parle.
             </p>
           </div>
@@ -105,7 +105,7 @@ export default async function AccueilPubliquePage() {
                     {manche.choix.map((c) => (
                       <span
                         key={c.nom}
-                        className="truncate rounded-lg border border-marque-rouge-200 bg-marque-rouge-50 px-3 py-2 text-sm font-semibold text-marque-rouge-texte"
+                        className="break-words rounded-lg border border-marque-rouge-200 bg-marque-rouge-50 px-3 py-2 text-sm font-semibold text-marque-rouge-texte"
                       >
                         {c.nom}
                       </span>
@@ -183,7 +183,7 @@ export default async function AccueilPubliquePage() {
                 <figcaption className="mt-4">
                   <span className="block text-lg font-bold text-foreground">La carte des parlers</span>
                   <span className="mt-1 block text-[15px] text-muted-foreground">
-                    Chaque point est un village dont on connaît le nom en alsacien : il y en
+                    Chaque point est un village dont on connaît le nom en alsacien&nbsp;: il y en
                     a déjà {nombre(apercu.carte.nbVillages)}. Une fois connecté, tape un mot et
                     regarde dans quels villages on le dit de telle ou telle façon.
                   </span>
@@ -193,12 +193,12 @@ export default async function AccueilPubliquePage() {
               <div className="flex flex-col gap-10">
                 <div>
                   <h3 className="text-lg font-bold text-foreground">
-                    Le dictionnaire : {nombre(apercu.nbMots)} mots
+                    Le dictionnaire&nbsp;: {nombre(apercu.nbMots)} mots
                   </h3>
                   <p className="mt-1 text-[15px] text-muted-foreground">
                     Cherche un mot ou feuillette-le de A à Z. Pour chaque mot, tu vois toutes
                     les façons de le dire et d&apos;où elles viennent. Aucune n&apos;est
-                    « la bonne ».
+                    «&nbsp;la bonne&nbsp;».
                   </p>
                   {apercu.exemple && (
                     <div className="mt-5 rounded-2xl border border-border bg-background p-5">

@@ -2104,6 +2104,37 @@ pour le seul défi du jour.
   inchangée (rail, série, partie libre), sans jouer le défi de John.
   `typecheck` et `build` (968/968) propres.
 
+### Le partage devient une image de résultat (26/09/2026)
+
+John croyait que « Partager mon résultat » ouvrait un vrai panneau de partage.
+Il copiait en fait trois lignes de texte (sur ordinateur, un simple toast), et
+le lien menait à la home.
+
+- **Un panneau** (`src/app/jeu/partage.tsx`) montre l'image du résultat et
+  propose « Partager » (panneau du téléphone, avec l'image en fichier),
+  « Télécharger l'image » et « Copier le texte ». Le lien pointe vers `/jeu`.
+  L'image est chargée à l'ouverture du panneau : le partage du téléphone
+  doit partir juste après le clic, sans attendre le réseau.
+- **Pourquoi une image** : depuis un site, Facebook et Instagram n'acceptent
+  ni texte pré-rempli ni image par lien. Tout ce qui donne envie de jouer est
+  donc DANS l'image : numéro, score en cases, la question de la manche 1 sans
+  sa réponse (déjà publique par la route d'automatisation), « À toi de jouer »
+  et l'adresse. **Aucun village n'y est nommé.**
+- **`/api/partage/defi`** dessine l'image avec `next/og` (bibliothèque du
+  bundle, aucun service). `?n=` ne sert jamais un défi à venir : au-delà du
+  jour, il retombe sur le défi du jour. `?format=og` donne l'aperçu 1200×630
+  que `/jeu` déclare dans ses balises Open Graph, pour qu'un lien collé sur un
+  réseau s'affiche avec le défi du jour.
+- **Police Archivo versionnée** dans `src/assets/polices/` (six fichiers
+  WOFF, licence OFL jointe), téléchargée une fois : c'est la police de l'app,
+  et Azimut reste écartée tant que sa licence n'est pas réglée.
+  `outputFileTracingIncludes` (`next.config.ts`) l'embarque dans l'image
+  Docker : lue sur le disque à l'exécution, le traçage ne la voyait pas.
+- **Vérifié sur `dev`** : images portrait et aperçu relues à l'œil ; panneau
+  ouvert après une partie d'invité, à 390 px. **Non vérifié** : le bouton
+  « Partager » du téléphone (pas de vrai téléphone ici, et un cadre de test
+  n'y a pas accès), à confirmer par John.
+
 ## Règles de travail
 
 - Ne jamais inventer de traduction alsacienne, même pour un exemple ou un test.

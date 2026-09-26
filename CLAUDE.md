@@ -2258,6 +2258,14 @@ Six retours après avoir joué, tous appliqués (`58fbaa3`) :
   vrai clic, si. **Non vu à l'écran** : le bloc « Pour finir », réservé aux
   membres (il aurait fallu jouer le défi de John).
 
+## « Mon espace » sort de la barre mobile (26/09/2026)
+
+Retour de John : six onglets chez un admin, trop petits. Sur mobile, « Mon
+espace » devient une icône ronde à droite de l'en-tête (`BoutonCompte`,
+`src/components/app-header.tsx`), rouge quand on y est. Le rail tablette et
+desktop le garde avec son libellé. Vérifié sur `dev` dans un cadre de 375 px :
+cinq onglets de 72 px, l'icône mène à `/dashboard` et s'y allume (`198c0a6`).
+
 ## Règles de travail
 
 - Ne jamais inventer de traduction alsacienne, même pour un exemple ou un test.

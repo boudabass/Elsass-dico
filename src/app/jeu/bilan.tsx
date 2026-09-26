@@ -2,7 +2,7 @@
 
 import { useState, useTransition } from "react";
 import Link from "next/link";
-import { Check, Share2, X } from "lucide-react";
+import { Check, X } from "lucide-react";
 import { toast } from "sonner";
 
 import { commencerPartieAction, motChezToiAction, type PartiePublique } from "@/app/actions/jeu";
@@ -15,6 +15,8 @@ import { cleCache } from "@/lib/cache-navigation";
 import type { LemmeDetaille } from "@/lib/dictionnaire";
 import { URL_INSCRIPTION_ODOO } from "@/lib/odoo";
 import { cn } from "@/lib/utils";
+
+import { BoutonPartager } from "./partage";
 
 // Le bilan d'une partie, puis le seul geste de contribution du jeu : « et chez
 // toi, on dit comment ? ». Facultatif et jamais compté (brief du 25/09/2026) :
@@ -156,45 +158,6 @@ export function Cases({ resultats, className }: { resultats: boolean[]; classNam
                 />
             ))}
         </p>
-    );
-}
-
-/** Le partage du défi du jour : le numéro, le score, les cases, et le lien de
- *  la home publique. Rien qui dévoile les villages, et pas de marque (brief du
- *  25/09/2026) : le lien suffit à dire d'où ça vient. */
-export function BoutonPartager({ numero, resultats }: { numero: number; resultats: boolean[] }) {
-    function partager() {
-        const score = resultats.filter(Boolean).length;
-        const cases = resultats.map((r) => (r ? "🟩" : "⬜")).join("");
-        const lien = `${window.location.origin}/`;
-        const texte = `Le défi du jour n° ${numero} · ${score}/${resultats.length}\n${cases}\n${lien}`;
-
-        // Le partage natif d'abord (téléphone), le presse-papiers sinon.
-        if (navigator.share && window.matchMedia("(pointer: coarse)").matches) {
-            navigator.share({ text: texte }).catch((e: unknown) => {
-                if ((e as Error)?.name !== "AbortError") copier(texte);
-            });
-        } else {
-            copier(texte);
-        }
-    }
-
-    function copier(texte: string) {
-        navigator.clipboard.writeText(texte).then(
-            () => toast.success("Résultat copié, il n'y a plus qu'à le coller"),
-            () => toast.error("La copie a échoué. Réessaie."),
-        );
-    }
-
-    return (
-        <button
-            type="button"
-            onClick={partager}
-            className="inline-flex h-11 items-center gap-2 rounded-lg bg-marque-rouge-500 px-5 text-[15px] font-semibold text-white transition-colors hover:bg-marque-rouge-600"
-        >
-            <Share2 className="h-4 w-4" strokeWidth={2.2} aria-hidden />
-            Partager mon résultat
-        </button>
     );
 }
 

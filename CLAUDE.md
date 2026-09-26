@@ -2070,6 +2070,40 @@ doctrine « un secret ne transite pas entre sessions ».
   n'est pas le feu vert de lancement public, toujours entre les mains de
   John (cf. section du 25-26/09 plus haut).
 
+## Le défi du jour se joue sans compte (26/09/2026)
+
+Demande relayée par « The Elsassisch World », **tranchée par John ici** : les
+vidéos et posts du défi affichent `elsass-dico.theelsassisch.com/jeu`, et un
+visiteur y tombait sur `/login`. Remplace le « membres seulement » du 25/09
+pour le seul défi du jour.
+
+- **Un invité joue les 5 manches du jour, rien n'est enregistré.** Le tirage
+  se déduit de la date (`manchesDuJour()`), donc `repondreInviteAction()` le
+  recalcule à chaque réponse : pas de ligne `parties_jeu`, pas de table
+  nouvelle. La règle du jeu tient : la bonne réponse d'une manche ne sort
+  qu'après la réponse. Un jour **à venir** est refusé ; un jour passé est
+  accepté (défi clos, et une partie commencée avant minuit doit se finir).
+- **Restent aux membres** : la série, la partie libre, « et chez toi, on dit
+  comment ? ». Une invitation (« Avec un compte ») les remplace, sur l'accueil
+  et au bilan. Pas de rail de navigation pour un invité : tous ses onglets
+  mènent à des pages réservées. Chevron vers la home, comme les fiches
+  publiques.
+- **`/jeu` a le compte facultatif**, pas public (`COMPTE_FACULTATIF`,
+  `src/middleware.ts`) : sans session mais avec un jeton de renouvellement
+  valide, le middleware passe quand même par `/api/session/refresh`. Mis dans
+  `PUBLIC`, un membre revenu après 30 minutes aurait joué en invité sans le
+  savoir, et perdu sa série.
+- **Limite connue, acceptée** : un membre peut voir les réponses du jour en
+  invité (fenêtre privée) avant de jouer son défi. Inhérent à un invité sans
+  stockage, et sans enjeu hors du score qu'il partage lui-même.
+- **Vérifié sur `dev`** : sans cookie, `/jeu` → 200 ; `/recherche`,
+  `/dashboard`, `/carte` → toujours 307 vers `/login`. Partie d'invité
+  complète dans un cadre sans cookies (`iframe credentialless`, 375 px) :
+  5 manches, révélations justes, bilan « 2 sur 5 » cohérent, invitation au
+  compte. La manche 1 est celle que l'API d'automatisation expose. Vue membre
+  inchangée (rail, série, partie libre), sans jouer le défi de John.
+  `typecheck` et `build` (968/968) propres.
+
 ## Règles de travail
 
 - Ne jamais inventer de traduction alsacienne, même pour un exemple ou un test.

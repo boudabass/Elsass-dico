@@ -2135,6 +2135,25 @@ le lien menait à la home.
   « Partager » du téléphone (pas de vrai téléphone ici, et un cadre de test
   n'y a pas accès), à confirmer par John.
 
+## Clôture de session (26/09/2026)
+
+Deux PR fusionnées (#64, #65), **`main` et `dev` au même contenu**, tout
+constaté en production. Livré : la route d'automatisation vérifiée en prod
+(le 401 venait d'un mauvais credential côté N8N), le défi du jour jouable
+sans compte, et le partage par image de résultat avec l'aperçu Open Graph de
+`/jeu`. La session « The Elsassisch World » a reçu le récap complet et les
+adresses de l'image.
+
+- **Export des contributions** non relancé : aucune contribution dans la
+  session (aucun vote, aucune forme).
+- **Reste à constater par John** : le bouton « Partager » sur un vrai
+  téléphone, et son propre bilan du défi (non joué par Claude).
+- **Décisions ouvertes pour John** : remplacer l'image générique fixe des
+  posts N8N par l'image du défi ; le feu vert du lancement public, qui active
+  le workflow.
+- **Ouvert, inchangé** : faire venir des locuteurs ; mesure de convergence ;
+  auto-inscription Odoo, aire du 57, attribution Azimut.
+
 ## Règles de travail
 
 - Ne jamais inventer de traduction alsacienne, même pour un exemple ou un test.

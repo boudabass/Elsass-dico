@@ -2154,6 +2154,51 @@ adresses de l'image.
 - **Ouvert, inchangé** : faire venir des locuteurs ; mesure de convergence ;
   auto-inscription Odoo, aire du 57, attribution Azimut.
 
+## Le partage du défi refait : un bouton, une image signée (26/09/2026)
+
+Retour de John après l'avoir essayé sur téléphone : « l'UX est complètement
+affreuse ». Vérifié dans un cadre de 375 px avant de toucher au code. **Ce
+n'était pas un bug, c'était la conception.** Le panneau d'aperçu prenait tout
+l'écran sans coins arrondis, et l'image affichée était une réduction de l'écran
+du jeu, sans cadre (même titre, mêmes cartes, faux bouton rouge « À toi de
+jouer »). On croyait la page rechargée et plantée. Il fallait aussi partager
+deux fois : le bouton, puis « Partager » dans le panneau.
+
+- **Un seul bouton, plus de panneau** (`src/app/jeu/partage.tsx`). Sur écran
+  tactile, il ouvre le menu de partage du téléphone avec l'image en fichier.
+  Sur ordinateur, il télécharge l'image et copie le texte, et un toast le dit.
+  L'image est préparée dès l'affichage du bilan : le téléphone refuse d'ouvrir
+  son menu si le toucher attend le réseau.
+- **Le texte partagé est en lignes.** D'un seul bloc, il était illisible une
+  fois collé dans une publication.
+- **L'image porte la signature The Elsassisch** (décision de John, qui remplace
+  le « pas de marque dans le partage » du 25/09) : sans elle, on ne comprenait
+  pas d'où venait l'image. La signature fournie par John est convertie une fois
+  en PNG recadré (`src/assets/marque/signature.png`, 1600×201), embarquée par
+  `outputFileTracingIncludes`, comme la police. L'original de 10 300 px ne
+  vit pas dans le dépôt.
+- **L'image ne contient plus aucune forme alsacienne.** Le cadre « Quel village
+  dit » montrait les formes de la manche 1, dont la réponse s'affichait juste
+  au-dessus, dans le bilan. Restent : la signature, avec sous elle autant d'air
+  qu'au-dessus, le numéro, le score en grand (« 3/5 »), les cases sur toute la
+  largeur, « À toi de jouer → » en texte simple (dans une image rien n'est
+  cliquable) et l'adresse de `/jeu`. La route ne lit donc plus la base.
+- **Le bilan affiche les cases**, pour que l'écran et l'image se ressemblent.
+- **Rien n'est stocké, et aucun nettoyage à prévoir** (question de John). L'image
+  est dessinée à chaque demande et n'est écrite nulle part, ni fichier ni cache
+  serveur. La route est absente des pages pré-rendues. Il en existe au plus 33
+  par défi. Les seules copies sont chez les gens : le cache de leur navigateur
+  (24 h), leur galerie, leurs publications.
+- **Les workflows N8N n'utilisent pas cette image** (John) : rien à signaler à
+  « The Elsassisch World ».
+- **Vérifié** : `typecheck`, `build` (969/969, seul l'EPERM symlink Windows
+  connu suit). L'image servie par `dev` est identique à l'octet près au rendu
+  local. Partie sans compte dans un cadre de 375 px : cases dans le bilan, un
+  clic télécharge l'image, copie le texte et affiche le toast. Le nouveau texte
+  est bien présent dans le script servi. **Le menu de partage natif est à
+  constater par John sur son téléphone** : le navigateur piloté se comporte
+  comme un ordinateur.
+
 ## Règles de travail
 
 - Ne jamais inventer de traduction alsacienne, même pour un exemple ou un test.

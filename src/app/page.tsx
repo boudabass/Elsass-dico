@@ -61,13 +61,13 @@ export default async function AccueilPubliquePage() {
         <section className="mx-auto w-full max-w-5xl px-6 pt-4 sm:px-10 sm:pt-10">
           <div className="mx-auto max-w-2xl text-center">
             <h1 className="text-balance font-display text-[34px] leading-[1.15] text-foreground sm:text-[46px]">
-              Le français-alsacien,{" "}
-              <span className="text-marque-rouge-texte">village par village</span>.
+              L&apos;alsacien,{" "}
+              <span className="text-marque-rouge-texte">village par village</span>
             </h1>
-            <p className="mx-auto mt-4 max-w-md text-balance text-base text-muted-foreground">
-              Tiré de sources écrites et des Alsaciens qui le parlent. Jamais une
-              traduction inventée. Chaque forme dit qui l&apos;atteste,
-              sans en effacer aucune.
+            <p className="mx-auto mt-4 max-w-lg text-balance text-base text-muted-foreground">
+              L&apos;alsacien ne se dit pas pareil d&apos;un village à l&apos;autre. Ici, on
+              garde toutes les façons de le dire. Rien n&apos;est inventé : chaque mot vient
+              d&apos;un dictionnaire ou d&apos;un Alsacien qui le parle.
             </p>
           </div>
 
@@ -81,31 +81,31 @@ export default async function AccueilPubliquePage() {
                 <span className="text-sm font-semibold tabular-nums text-white/80">n° {numero}</span>
               </span>
               <span className="mt-1 text-sm text-white/85">
-                Sans compte · {NB_MANCHES} manches
+                {NB_MANCHES} questions, sans compte
               </span>
 
               {manche ? (
-                <span className="mt-6 block">
+                <span className="mt-5 block rounded-xl bg-white p-4 text-foreground shadow-sm shadow-marque-rouge-900/20 sm:p-5">
                   <span className="sr-only">Quel village dit : </span>
                   <span
                     lang="gsw"
-                    className="block text-balance break-words font-display text-[30px] leading-[1.12] sm:text-[34px]"
+                    className="block text-balance break-words font-display text-[28px] leading-[1.12] sm:text-[32px]"
                   >
                     {manche.formes.map((f, i) => (
                       <span key={f}>
-                        {i > 0 && <span className="text-white/50"> · </span>}
+                        {i > 0 && <span className="text-muted-foreground/60"> · </span>}
                         {f}
                       </span>
                     ))}
                   </span>
-                  <span aria-hidden className="mt-2 block text-[15px] font-semibold text-white/85">
+                  <span aria-hidden className="mt-2 block text-[15px] font-semibold text-muted-foreground">
                     Quel village dit ça ?
                   </span>
-                  <span className="mt-4 flex flex-wrap gap-2">
+                  <span className="mt-4 grid grid-cols-2 gap-2">
                     {manche.choix.map((c) => (
                       <span
                         key={c.nom}
-                        className="rounded-full border border-white/35 px-3 py-1 text-sm font-medium"
+                        className="truncate rounded-lg border border-marque-rouge-200 bg-marque-rouge-50 px-3 py-2 text-sm font-semibold text-marque-rouge-texte"
                       >
                         {c.nom}
                       </span>
@@ -113,8 +113,8 @@ export default async function AccueilPubliquePage() {
                   </span>
                 </span>
               ) : (
-                <span className="mt-6 block text-[15px] text-white/85">
-                  Des formes alsaciennes, quatre villages : retrouve celui qui les dit.
+                <span className="mt-5 block text-[15px] text-white/85">
+                  On te montre un mot alsacien, tu devines de quel village il vient.
                 </span>
               )}
 
@@ -130,7 +130,7 @@ export default async function AccueilPubliquePage() {
             >
               <span className="font-display text-[26px] leading-tight">Participer au dictionnaire</span>
               <span className="mt-1 text-sm text-background/75">
-                Compte gratuit, sur le portail The Elsassisch
+                Gratuit, avec un compte The Elsassisch
               </span>
 
               <span className="mt-6 block">
@@ -138,8 +138,8 @@ export default async function AccueilPubliquePage() {
                   {nombre(apercu.nbMots)} mots
                 </span>
                 <span className="mt-2 block text-[15px] text-background/80">
-                  {nombre(apercu.nbFormes)} formes alsaciennes à chercher, à situer sur la
-                  carte, et à compléter avec celles de ton village.
+                  Cherche n&apos;importe quel mot, regarde sur la carte où on le dit, et
+                  ajoute la façon dont on le dit chez toi.
                 </span>
               </span>
 
@@ -153,9 +153,9 @@ export default async function AccueilPubliquePage() {
 
         {/* Sans compte : les fiches publiques. */}
         <section className="mx-auto mt-16 w-full max-w-2xl px-6 text-center sm:px-10">
-          <h2 className="text-lg font-bold text-foreground">Un village, un prénom, sans compte</h2>
+          <h2 className="text-lg font-bold text-foreground">Ton village, ton prénom en alsacien</h2>
           <p className="mt-1 text-sm text-muted-foreground">
-            Chaque commune et chaque prénom attestés ont leur fiche, ouverte à tous.
+            Tape-le ici, pas besoin de compte.
           </p>
           <div className="mt-4 flex justify-center">
             <RechercheAccueil />
@@ -167,12 +167,11 @@ export default async function AccueilPubliquePage() {
           <div className="mx-auto w-full max-w-5xl px-6 sm:px-10">
             <div className="max-w-2xl">
               <h2 className="text-balance font-display text-[28px] leading-tight text-foreground sm:text-[34px]">
-                Avec ton compte, tout le dico
+                Connecte-toi pour découvrir tout le dictionnaire
               </h2>
               <p className="mt-3 text-base text-muted-foreground">
-                La carte, le dictionnaire complet et la recherche s&apos;ouvrent aux
-                membres. Voici ce qui t&apos;attend, tiré de la base telle
-                qu&apos;elle est aujourd&apos;hui.
+                Et aide à sauvegarder la façon dont on parle dans ton village. Voici ce
+                que tu trouveras une fois connecté.
               </p>
             </div>
 
@@ -184,10 +183,9 @@ export default async function AccueilPubliquePage() {
                 <figcaption className="mt-4">
                   <span className="block text-lg font-bold text-foreground">La carte des parlers</span>
                   <span className="mt-1 block text-[15px] text-muted-foreground">
-                    Chaque point est l&apos;un des {nombre(apercu.carte.nbVillages)} villages
-                    qui disent leur nom en alsacien, en {nombre(apercu.carte.nbFormes)} formes.
-                    Avec ton compte, cherche n&apos;importe quel mot et vois où chacune de
-                    ses formes se dit.
+                    Chaque point est un village dont on connaît le nom en alsacien : il y en
+                    a déjà {nombre(apercu.carte.nbVillages)}. Une fois connecté, tape un mot et
+                    regarde dans quels villages on le dit de telle ou telle façon.
                   </span>
                 </figcaption>
               </figure>
@@ -195,11 +193,12 @@ export default async function AccueilPubliquePage() {
               <div className="flex flex-col gap-10">
                 <div>
                   <h3 className="text-lg font-bold text-foreground">
-                    Le dictionnaire, {nombre(apercu.nbMots)} mots
+                    Le dictionnaire : {nombre(apercu.nbMots)} mots
                   </h3>
                   <p className="mt-1 text-[15px] text-muted-foreground">
-                    Recherche un mot ou parcours-le de A à Z. Chaque mot montre toutes ses
-                    formes et ce qui fonde chacune. Aucune n&apos;est déclarée la bonne.
+                    Cherche un mot ou feuillette-le de A à Z. Pour chaque mot, tu vois toutes
+                    les façons de le dire et d&apos;où elles viennent. Aucune n&apos;est
+                    « la bonne ».
                   </p>
                   {apercu.exemple && (
                     <div className="mt-5 rounded-2xl border border-border bg-background p-5">
@@ -224,11 +223,12 @@ export default async function AccueilPubliquePage() {
                 </div>
 
                 <div>
-                  <h3 className="text-lg font-bold text-foreground">Ton parler, sur la carte</h3>
+                  <h3 className="text-lg font-bold text-foreground">Sauvegarde le parler de ton village</h3>
                   <p className="mt-1 text-[15px] text-muted-foreground">
-                    Choisis ton village. Rattache-le aux formes que tu dis déjà, ou ajoute
-                    celle qu&apos;on emploie chez toi. Tout membre contribue, qu&apos;il
-                    découvre l&apos;alsacien ou le parle depuis toujours.
+                    Indique d&apos;où tu viens. Quand un mot se dit comme chez toi, un clic
+                    suffit pour le confirmer. Quand on le dit autrement, ajoute ta version.
+                    Que tu parles alsacien depuis toujours ou que tu l&apos;apprennes, tout le
+                    monde peut participer.
                   </p>
                 </div>
               </div>
@@ -238,7 +238,7 @@ export default async function AccueilPubliquePage() {
 
         {motsVitrine.length > 0 && (
           <section className="mx-auto mt-16 w-full max-w-2xl px-6 sm:px-10">
-            <h2 className="text-center text-lg font-bold text-foreground">Quelques mots, pour voir</h2>
+            <h2 className="text-center text-lg font-bold text-foreground">Quelques mots de tous les jours</h2>
             <div className="mt-4 grid grid-cols-2 gap-2.5 sm:grid-cols-3">
               {motsVitrine.map((mot) => (
                 <div

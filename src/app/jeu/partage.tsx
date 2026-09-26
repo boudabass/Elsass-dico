@@ -40,7 +40,14 @@ export function BoutonPartager({ numero, resultats }: { numero: number; resultat
 
     function partager() {
         const lien = `${window.location.origin}/jeu`;
-        const texte = `Le défi du jour n° ${numero} · ${score}/${resultats.length}. À toi de jouer : ${lien}`;
+        // Une idée par ligne : collé d'un bloc dans une publication, il était illisible.
+        const texte = [
+            `The Elsassisch · Le défi du jour n° ${numero}`,
+            `${score}/${resultats.length} village${score > 1 ? "s" : ""} trouvé${score > 1 ? "s" : ""}`,
+            resultats.map((r) => (r ? "🟩" : "⬜")).join(""),
+            "",
+            `À toi de jouer : ${lien}`,
+        ].join("\n");
         const f = fichier.current;
         const peutPartager = typeof navigator.share === "function" && estTactile();
 

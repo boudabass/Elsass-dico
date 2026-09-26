@@ -78,7 +78,9 @@ export async function GET(request: NextRequest) {
     const hauteurLogo = og ? 64 : 84
 
     const entete = (
-        <div style={{ display: "flex", flexDirection: "column", gap: og ? 20 : 28 }}>
+        // Sous la signature, autant d'air qu'au-dessus (la marge du cadre) en portrait ;
+        // l'aperçu, deux fois moins haut, en garde un peu moins.
+        <div style={{ display: "flex", flexDirection: "column", gap: og ? 40 : 80 }}>
             <img src={logo} width={hauteurLogo * SIGNATURE_RATIO} height={hauteurLogo} alt="" />
             <div style={{ display: "flex", alignItems: "baseline", gap: 18 }}>
                 <span style={{ fontSize: og ? 44 : 56, fontWeight: 800, color: C.texte }}>Le défi du jour</span>
@@ -91,9 +93,9 @@ export async function GET(request: NextRequest) {
     const cote = Math.floor((largeur - ecart * (NB_MANCHES - 1)) / NB_MANCHES)
 
     const bilan = resultats ? (
-        <div style={{ display: "flex", flexDirection: "column", gap: og ? 20 : 32 }}>
+        <div style={{ display: "flex", flexDirection: "column", gap: og ? 16 : 32 }}>
             <div style={{ display: "flex", alignItems: "baseline", gap: 24 }}>
-                <span style={{ fontSize: og ? 120 : 220, fontWeight: 800, color: C.texte, lineHeight: 1 }}>
+                <span style={{ fontSize: og ? 96 : 220, fontWeight: 800, color: C.texte, lineHeight: 1 }}>
                     {score}/{resultats.length}
                 </span>
                 <span style={{ fontSize: og ? 36 : 48, fontWeight: 700, color: C.discret }}>
@@ -106,7 +108,7 @@ export async function GET(request: NextRequest) {
                         key={i}
                         style={{
                             width: cote,
-                            height: og ? 88 : cote,
+                            height: og ? 64 : cote,
                             borderRadius: og ? 16 : 24,
                             background: r ? C.vert : C.vide,
                         }}

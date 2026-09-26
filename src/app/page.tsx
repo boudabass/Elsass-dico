@@ -101,11 +101,11 @@ export default async function AccueilPubliquePage() {
                   <span aria-hidden className="mt-2 block text-[15px] font-semibold text-muted-foreground">
                     Quel village dit ça ?
                   </span>
-                  <span className="mt-4 grid grid-cols-2 gap-2">
+                  <span className="mt-4 flex flex-wrap gap-2">
                     {manche.choix.map((c) => (
                       <span
                         key={c.nom}
-                        className="break-words rounded-lg border border-marque-rouge-200 bg-marque-rouge-50 px-3 py-2 text-sm font-semibold text-marque-rouge-texte"
+                        className="whitespace-nowrap rounded-lg border border-marque-rouge-200 bg-marque-rouge-50 px-3 py-1.5 text-sm font-semibold text-marque-rouge-texte"
                       >
                         {c.nom}
                       </span>

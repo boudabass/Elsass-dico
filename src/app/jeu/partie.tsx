@@ -6,7 +6,14 @@ import Link from "next/link";
 import { ArrowRight, Check, X } from "lucide-react";
 import { toast } from "sonner";
 
-import { repondreAction, type ManchePublique, type PartiePublique, type Revelation } from "@/app/actions/jeu";
+import {
+    repondreAction,
+    repondreInviteAction,
+    type ManchePublique,
+    type PartiePublique,
+    type Resultat,
+    type Revelation,
+} from "@/app/actions/jeu";
 import { BadgeConfiance } from "@/components/badge-confiance";
 import type { PointParler } from "@/components/carte-parlers";
 import { LIBELLES_DEPARTEMENT } from "@/lib/dictionnaire";
@@ -19,6 +26,8 @@ const CarteParlers = dynamic(() => import("@/components/carte-parlers").then((m)
     ssr: false,
     loading: () => <div className="h-40 rounded-lg bg-neutre-50" />,
 });
+
+type ResultatReponse = Resultat<{ revelation: Revelation; score: number; finie: boolean }>;
 
 // Une partie : cinq manches, puis le bilan. La réponse d'une manche n'est connue
 // du navigateur qu'une fois donnée (`repondreAction`) ; avant, il n'a que les
@@ -42,6 +51,18 @@ export function Partie({
     });
 
     const total = partie.manches.length;
+
+    async function repondre(i: number, id: number): Promise<ResultatReponse> {
+        if (!partie.invite) return repondreAction(partie.id, i, id);
+        // Invité : rien en base, le score se tient ici.
+        const res = await repondreInviteAction(partie.invite, i, id);
+        if (!res.succes) return res;
+        const r = res.valeur;
+        return {
+            succes: true,
+            valeur: { revelation: r, score: partie.score + (r.reponseId === r.bonneId ? 1 : 0), finie: i === total - 1 },
+        };
+    }
 
     if (indice >= total) {
         return <Bilan partie={partie} onQuitter={onQuitter} onRejouer={onRejouer} />;
@@ -69,8 +90,7 @@ export function Partie({
 
             <Manche
                 key={indice}
-                partieId={partie.id}
-                indice={indice}
+                repondre={(id) => repondre(indice, id)}
                 manche={partie.manches[indice]}
                 derniere={indice === total - 1}
                 onReponse={(revelation, score, finie) =>
@@ -119,15 +139,13 @@ function Progression({ manches, indice }: { manches: ManchePublique[]; indice: n
 }
 
 function Manche({
-    partieId,
-    indice,
+    repondre: envoyer,
     manche,
     derniere,
     onReponse,
     onSuivante,
 }: {
-    partieId: string;
-    indice: number;
+    repondre: (id: number) => Promise<ResultatReponse>;
     manche: ManchePublique;
     derniere: boolean;
     onReponse: (r: Revelation, score: number, finie: boolean) => void;
@@ -144,7 +162,7 @@ function Manche({
         if (revelation || enCours) return;
         setChoisi(id);
         demarrer(async () => {
-            const res = await repondreAction(partieId, indice, id);
+            const res = await envoyer(id);
             if (res.succes) onReponse(res.valeur.revelation, res.valeur.score, res.valeur.finie);
             else {
                 setChoisi(null);

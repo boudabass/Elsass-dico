@@ -2041,6 +2041,69 @@ côté dico une fois les points validés par John.
   sessions Claude Code communiquent en direct par messages inter-sessions
   pour cette coordination — cf. mémoire `automatisation-n8n-defi-dico`.
 
+## Route d'automatisation vérifiée en production, bascule N8N faite (25-26/09/2026)
+
+Suite de la reconnaissance du 25-26/09 : `elsass-dico:main` a redéployé
+(Build Variable `AUTOMATISATION_API_TOKEN` déjà identique à `dev`, confirmé
+par John), et la route a été testée en conditions réelles par la session
+« The Elsassisch World » via son credential N8N, pas par un `curl` local —
+je n'ai jamais eu ni besoin d'avoir la valeur du jeton, cohérent avec la
+doctrine « un secret ne transite pas entre sessions ».
+
+- **Faux positif d'abord** : un premier test annonçait un succès (exécution
+  N8N 2250) mais le nœud HTTP était épinglé sur des données de test, jamais
+  parti en réel — aucun appel authentifié n'avait donc jamais eu lieu, ni sur
+  `dev` ni sur `main`, malgré ce que l'historique N8N laissait croire.
+- **Vrai 401 ensuite, sur les deux environnements identiquement** : la cause
+  n'était pas une divergence de jeton entre `dev` et `main` (la piste
+  d'abord suivie, éliminée par John), mais `MET_DEFI_DICO_HEBDO` câblé sur le
+  mauvais credential N8N (« Bearer Auth account », générique, au lieu d'un
+  credential dédié `AUTOMATISATION_API_TOKEN`). Corrigé côté N8N par l'autre
+  session.
+- **Vérifié en production** : `GET
+  https://elsass-dico.theelsassisch.com/api/automatisation/defi-du-jour`
+  (sans `?reveler=`) → 200, `defiVeille` révèle le défi n°1 (5 villages,
+  formes et sources), `defiDuJour` expose le n°2 (manche en clair, 4 choix,
+  sans réponse). L'URL de prod est basculée dans le nœud HTTP de
+  `MET_DEFI_DICO_HEBDO`.
+- **Le workflow reste inactif** : la disponibilité technique confirmée ici
+  n'est pas le feu vert de lancement public, toujours entre les mains de
+  John (cf. section du 25-26/09 plus haut).
+
+## Le défi du jour se joue sans compte (26/09/2026)
+
+Demande relayée par « The Elsassisch World », **tranchée par John ici** : les
+vidéos et posts du défi affichent `elsass-dico.theelsassisch.com/jeu`, et un
+visiteur y tombait sur `/login`. Remplace le « membres seulement » du 25/09
+pour le seul défi du jour.
+
+- **Un invité joue les 5 manches du jour, rien n'est enregistré.** Le tirage
+  se déduit de la date (`manchesDuJour()`), donc `repondreInviteAction()` le
+  recalcule à chaque réponse : pas de ligne `parties_jeu`, pas de table
+  nouvelle. La règle du jeu tient : la bonne réponse d'une manche ne sort
+  qu'après la réponse. Un jour **à venir** est refusé ; un jour passé est
+  accepté (défi clos, et une partie commencée avant minuit doit se finir).
+- **Restent aux membres** : la série, la partie libre, « et chez toi, on dit
+  comment ? ». Une invitation (« Avec un compte ») les remplace, sur l'accueil
+  et au bilan. Pas de rail de navigation pour un invité : tous ses onglets
+  mènent à des pages réservées. Chevron vers la home, comme les fiches
+  publiques.
+- **`/jeu` a le compte facultatif**, pas public (`COMPTE_FACULTATIF`,
+  `src/middleware.ts`) : sans session mais avec un jeton de renouvellement
+  valide, le middleware passe quand même par `/api/session/refresh`. Mis dans
+  `PUBLIC`, un membre revenu après 30 minutes aurait joué en invité sans le
+  savoir, et perdu sa série.
+- **Limite connue, acceptée** : un membre peut voir les réponses du jour en
+  invité (fenêtre privée) avant de jouer son défi. Inhérent à un invité sans
+  stockage, et sans enjeu hors du score qu'il partage lui-même.
+- **Vérifié sur `dev`** : sans cookie, `/jeu` → 200 ; `/recherche`,
+  `/dashboard`, `/carte` → toujours 307 vers `/login`. Partie d'invité
+  complète dans un cadre sans cookies (`iframe credentialless`, 375 px) :
+  5 manches, révélations justes, bilan « 2 sur 5 » cohérent, invitation au
+  compte. La manche 1 est celle que l'API d'automatisation expose. Vue membre
+  inchangée (rail, série, partie libre), sans jouer le défi de John.
+  `typecheck` et `build` (968/968) propres.
+
 ## Règles de travail
 
 - Ne jamais inventer de traduction alsacienne, même pour un exemple ou un test.

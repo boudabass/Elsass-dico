@@ -33,6 +33,16 @@ const PUBLIC = [
     "/api/automatisation/",
 ]
 
+// Ouvertes à tous, mais un membre y garde son compte (26/09/2026, /jeu joué
+// sans compte). À la différence de `PUBLIC`, une session expirée passe quand
+// même par le renouvellement : sinon un membre revenu après 30 minutes
+// jouerait en invité sans le savoir, et perdrait sa série.
+const COMPTE_FACULTATIF = ["/jeu"]
+
+function estCompteFacultatif(chemin: string): boolean {
+    return COMPTE_FACULTATIF.some((prefixe) => chemin === prefixe || chemin.startsWith(`${prefixe}/`))
+}
+
 function estPublic(chemin: string): boolean {
     // Comparaison STRICTE pour la racine, jamais en préfixe : `/` est le
     // début de tout chemin, y compris `/admin`. La glisser dans `PUBLIC`
@@ -61,6 +71,7 @@ export async function middleware(request: NextRequest) {
             vers.searchParams.set("suite", chemin + request.nextUrl.search)
             return NextResponse.redirect(vers)
         }
+        if (estCompteFacultatif(chemin)) return NextResponse.next()
         return NextResponse.redirect(new URL("/login", request.url))
     }
 

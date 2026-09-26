@@ -36,11 +36,9 @@ type ResultatReponse = Resultat<{ revelation: Revelation; score: number; finie: 
 export function Partie({
     initiale,
     onQuitter,
-    onRejouer,
 }: {
     initiale: PartiePublique;
     onQuitter: () => void;
-    onRejouer: (p: PartiePublique) => void;
 }) {
     const [partie, setPartie] = useState(initiale);
     // On reprend à la première manche sans réponse. Une manche répondue reste à
@@ -65,7 +63,7 @@ export function Partie({
     }
 
     if (indice >= total) {
-        return <Bilan partie={partie} onQuitter={onQuitter} onRejouer={onRejouer} />;
+        return <Bilan partie={partie} onQuitter={onQuitter} />;
     }
 
     return (
@@ -156,7 +154,6 @@ function Manche({
     const revelation = manche.revelation;
     const titreRef = useRef<HTMLHeadingElement>(null);
     const suiteRef = useRef<HTMLButtonElement>(null);
-    const revelationRef = useRef<HTMLDivElement>(null);
 
     function repondre(id: number) {
         if (revelation || enCours) return;
@@ -176,19 +173,19 @@ function Manche({
     useEffect(() => {
         titreRef.current?.focus({ preventScroll: true });
     }, []);
-    // Sur téléphone, la révélation tombe sous le pli : on la fait remonter au
-    // lieu de laisser le membre chercher ce qui vient de se passer.
+    // Une fois la réponse donnée, la page descend tout en bas : le bouton
+    // « Manche suivante » est le dernier élément, il doit être à l'écran sans
+    // que le joueur le cherche (retour de John, 26/09/2026). La carte se monte
+    // un peu après la révélation et allonge la page : on attend la frame
+    // suivante pour mesurer la hauteur finale.
     useEffect(() => {
         if (!revelation) return;
         suiteRef.current?.focus({ preventScroll: true });
-        // `scrollIntoView({ block: "nearest" })` ne bouge presque pas quand la
-        // révélation est plus haute que l'écran (vu à 375 px) : on la place
-        // nous-mêmes vers 40 % de la hauteur, les choix colorés restant en
-        // partie visibles au-dessus. Rien ne bouge si elle est déjà en vue.
-        const haut = revelationRef.current?.getBoundingClientRect().top;
-        if (haut === undefined || haut < window.innerHeight * 0.6) return;
         const calme = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-        window.scrollBy({ top: haut - window.innerHeight * 0.4, behavior: calme ? "auto" : "smooth" });
+        const id = requestAnimationFrame(() =>
+            window.scrollTo({ top: document.documentElement.scrollHeight, behavior: calme ? "auto" : "smooth" }),
+        );
+        return () => cancelAnimationFrame(id);
     }, [revelation]);
     useEffect(() => {
         if (revelation) return;
@@ -204,22 +201,22 @@ function Manche({
     return (
         <div className="mt-7">
             <h2 ref={titreRef} tabIndex={-1} className="outline-none">
-                <span className="sr-only">Quel village dit : </span>
+                <span className="sr-only">Nom alsacien : </span>
                 <span
                     lang="gsw"
-                    className="block text-balance break-words font-display text-[34px] leading-[1.12] text-foreground motion-safe:duration-500 motion-safe:ease-out motion-safe:animate-in motion-safe:fade-in-0 sm:text-[44px]"
+                    className="block text-balance break-words font-display text-[34px] leading-[1.12] text-marque-rouge-texte motion-safe:duration-500 motion-safe:ease-out motion-safe:animate-in motion-safe:fade-in-0 sm:text-[44px]"
                 >
                     {manche.formes.map((f, i) => (
                         <span key={f}>
-                            {i > 0 && <span className="text-muted-foreground/60"> · </span>}
+                            {i > 0 && <span className="text-marque-rouge-texte/40"> · </span>}
                             {f}
                         </span>
                     ))}
                 </span>
+                <span className="mt-3 block text-[15px] font-semibold text-muted-foreground">
+                    Quel est le nom français de ce village ?
+                </span>
             </h2>
-            <p aria-hidden className="mt-3 text-[15px] font-semibold text-muted-foreground">
-                Quel village dit ça ?
-            </p>
 
             <ul className="mt-4 grid gap-2 sm:grid-cols-2">
                 {manche.choix.map((c, n) => {
@@ -282,7 +279,7 @@ function Manche({
             </ul>
 
             {revelation && (
-                <div ref={revelationRef}>
+                <div>
                     <Reponse revelation={revelation}>
                         <button
                             ref={suiteRef}
@@ -334,7 +331,7 @@ function Reponse({ revelation, children }: { revelation: Revelation; children: R
             <div className="mt-4 grid gap-4 sm:grid-cols-[1fr_12rem]">
                 <div>
                     <p className="text-sm font-semibold text-muted-foreground">
-                        {variantes.length > 1 ? `Ses ${variantes.length} formes` : "Sa forme"}, et ce qui les fonde
+                        {variantes.length} forme{variantes.length > 1 ? "s" : ""}&nbsp;:
                     </p>
                     <ul className="mt-2 space-y-2.5">
                         {variantes.map((v) => (
@@ -363,7 +360,7 @@ function Reponse({ revelation, children }: { revelation: Revelation; children: R
                     href={`/village/${village.slug}`}
                     className="inline-flex min-h-10 items-center text-sm font-semibold text-marque-rouge-texte underline-offset-4 hover:underline"
                 >
-                    La fiche de {village.nom}
+                    Voir la fiche de {village.nom}
                 </Link>
             </div>
         </section>

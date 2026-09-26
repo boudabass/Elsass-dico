@@ -279,3 +279,24 @@ function mancheDe(cible: VillageJeu, r: Reserve, aleatoire: () => number): Manch
     const choix = melanger([cible, ...distracteurs(cible, r, aleatoire)], aleatoire).map((v) => v.id)
     return { communeId: cible.id, choix, reponse: null }
 }
+
+/** La manche 1 d'un défi, EN CLAIR mais sans réponse : les formes du village
+ *  mystère (l'indice) et les 4 villages proposés, mélangés. Exactement ce
+ *  qu'un joueur voit avant de répondre, et rien de plus. Toujours la manche 1
+ *  (la tranche la plus facile) : c'est celle que la route d'automatisation
+ *  publie (25/09/2026) et que la home montre (26/09/2026), la même partout. */
+export async function mancheOuverteDuJour(
+    jour: string,
+): Promise<{ formes: string[]; choix: { nom: string; departement: string }[] } | null> {
+    const r = await chargerReserve()
+    const cible = (await manchesDuJour(jour))[0]
+    const village = cible ? r.parId.get(cible.communeId) : undefined
+    if (!village) return null
+    return {
+        formes: village.formes,
+        choix: cible.choix.flatMap((id) => {
+            const v = r.parId.get(id)
+            return v ? [{ nom: v.nom, departement: v.departement }] : []
+        }),
+    }
+}

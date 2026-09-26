@@ -113,12 +113,14 @@ export function AppNavShell({ actif }: { actif: OngletRacine }) {
         })}
       </nav>
 
-      {/* Barre d'onglets — mobile uniquement */}
+      {/* Barre d'onglets — mobile uniquement. Sans « Mon espace » (26/09/2026,
+          retour de John : six onglets en admin, trop petits) : sur mobile, le
+          compte est l'icône ronde à droite de l'en-tête (BoutonCompte). */}
       <nav
         aria-label="Navigation"
         className="fixed inset-x-0 bottom-0 z-30 flex h-16 border-t border-border bg-background pb-[env(safe-area-inset-bottom)] md:hidden"
       >
-        {onglets.map((onglet) => {
+        {onglets.filter((o) => o.cle !== "compte").map((onglet) => {
           const { cle, icone: Icone, libelle } = onglet;
           const estActif = actif === cle;
           return (

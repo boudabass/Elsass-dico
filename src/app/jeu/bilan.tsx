@@ -1,11 +1,10 @@
 "use client";
 
-import { useState, useTransition } from "react";
+import { useState } from "react";
 import Link from "next/link";
 import { Check, X } from "lucide-react";
-import { toast } from "sonner";
 
-import { commencerPartieAction, motChezToiAction, type PartiePublique } from "@/app/actions/jeu";
+import { motChezToiAction, type PartiePublique } from "@/app/actions/jeu";
 import { NouvelleVariante } from "@/app/entree/[id]/nouvelle-variante";
 import { VoteVariante } from "@/app/entree/[id]/vote-variante";
 import { useAuth } from "@/components/auth-provider";
@@ -18,32 +17,23 @@ import { cn } from "@/lib/utils";
 
 import { BoutonPartager } from "./partage";
 
-// Le bilan d'une partie, puis le seul geste de contribution du jeu : « et chez
-// toi, on dit comment ? ». Facultatif et jamais compté (brief du 25/09/2026) :
-// un jeu qui récompenserait le vote pousserait à voter au hasard.
+// Le bilan d'une partie, puis le seul geste de contribution du jeu : dire
+// comment on dit un mot chez soi. Facultatif et jamais compté (brief du
+// 25/09/2026) : un jeu qui récompenserait le vote pousserait à voter au hasard.
+//
+// Pas de bouton « Rejouer » (retour de John, 26/09/2026) : rejouer le défi dont
+// on vient de voir toutes les réponses n'a pas de sens. La partie libre reste
+// sur l'accueil du jeu, où « Terminer la partie » ramène.
 
 export function Bilan({
     partie,
     onQuitter,
-    onRejouer,
 }: {
     partie: PartiePublique;
     onQuitter: () => void;
-    onRejouer: (p: PartiePublique) => void;
 }) {
     const resultats = partie.manches.map((m) => !!m.revelation && m.revelation.reponseId === m.revelation.bonneId);
     const score = resultats.filter(Boolean).length;
-    const [enCours, demarrer] = useTransition();
-
-    function rejouer() {
-        demarrer(async () => {
-            const res = await commencerPartieAction("libre");
-            if (res.succes) {
-                onRejouer(res.valeur);
-                window.scrollTo({ top: 0 });
-            } else toast.error(res.erreur);
-        });
-    }
 
     return (
         <>
@@ -86,27 +76,12 @@ export function Bilan({
                 {partie.mode === "jour" && partie.numero !== null && (
                     <BoutonPartager numero={partie.numero} resultats={resultats} />
                 )}
-                {!partie.invite && (
-                    <button
-                        type="button"
-                        onClick={rejouer}
-                        disabled={enCours}
-                        className={cn(
-                            "inline-flex h-11 items-center rounded-lg px-5 text-[15px] font-semibold transition-colors disabled:opacity-60",
-                            partie.mode === "jour"
-                                ? "border border-bordure-forte text-foreground hover:bg-neutre-50"
-                                : "bg-marque-rouge-500 text-white hover:bg-marque-rouge-600",
-                        )}
-                    >
-                        {enCours ? "Chargement…" : partie.mode === "jour" ? "Partie libre" : "Rejouer"}
-                    </button>
-                )}
                 <button
                     type="button"
                     onClick={onQuitter}
-                    className="inline-flex h-11 items-center rounded-lg px-4 text-[15px] font-semibold text-muted-foreground transition-colors hover:bg-neutre-100 hover:text-foreground"
+                    className="inline-flex h-11 items-center rounded-lg border border-bordure-forte px-5 text-[15px] font-semibold text-foreground transition-colors hover:bg-neutre-50"
                 >
-                    Retour
+                    Terminer la partie
                 </button>
             </div>
 
@@ -174,7 +149,7 @@ function ChezToi({ mode }: { mode: "jour" | "libre" }) {
     return (
         <section aria-labelledby="chez-toi-titre" className="mt-10 border-t border-border pt-6">
             <h2 id="chez-toi-titre" className="text-lg font-extrabold text-foreground">
-                Et chez toi, on dit comment ?
+                Pour finir : comment dis-tu ce mot dans ton village ?
             </h2>
             {premierChargement ? (
                 <div className="mt-3">
@@ -183,9 +158,12 @@ function ChezToi({ mode }: { mode: "jour" | "libre" }) {
             ) : !mot ? null : (
                 <>
                     <p className="mt-1 max-w-[56ch] text-sm leading-[1.5] text-muted-foreground">
-                        Pour dire <span className="font-semibold text-foreground">{mot.francais}</span>, si tu
-                        reconnais une forme, attache-lui ton village. Rien ne t&apos;y oblige, et ça ne compte
+                        Si tu le dis comme l&apos;une de ces façons, clique sur «&nbsp;Chez moi
+                        aussi&nbsp;». Sinon, ajoute la tienne. C&apos;est facultatif et ça ne compte
                         pas dans le score.
+                    </p>
+                    <p className="mt-4 font-display text-[28px] leading-tight text-foreground">
+                        {mot.francais}
                     </p>
                     <ul className="mt-3 space-y-2">
                         {mot.variantes.map((v) => (

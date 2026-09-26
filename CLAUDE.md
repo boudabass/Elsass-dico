@@ -2199,6 +2199,81 @@ deux fois : le bouton, puis « Partager » dans le panneau.
   constater par John sur son téléphone** : le navigateur piloté se comporte
   comme un ordinateur.
 
+## La home publique montre enfin l'app (26/09/2026)
+
+Retour de John : un visiteur ne comprenait pas qu'il y a, derrière le compte,
+tout le dictionnaire, la recherche et la carte, ni que le défi du jour se joue
+sans compte. Cadré par `/impeccable shape`, puis deux retours de John sur le
+texte (« les gens débarquent et ne savent strictement rien du projet, évite
+les phrases robot »).
+
+- **Titre** : « L'alsacien, village par village ». Sous-texte en phrases
+  simples, sans vocabulaire interne (forme, attester, témoin).
+- **Deux portes de même poids** (décision de John) : « Défi du jour » (rouge,
+  avec sa vraie manche 1 dans un encart blanc, choix en étiquettes rouges sur
+  fond clair, jamais la réponse) et « Participer au dictionnaire » (sombre,
+  vers Odoo). La manche 1 vient de `mancheOuverteDuJour()` (`lib/jeu.ts`),
+  désormais partagée avec la route d'automatisation : la home et les posts
+  montrent la même.
+- **« Connecte-toi pour découvrir tout le dictionnaire »** : trois aperçus
+  réels et non cliquables (un clic qui tombe sur `/login` sans prévenir est le
+  défaut corrigé). La carte des villages est dessinée **en SVG côté serveur**
+  (`lib/apercu-accueil.ts`) depuis notre topojson : contour, limites de
+  département, un point par village groupé par couleur (`M x y h0`, trait
+  rond). Environ 17 Ko, ni Leaflet ni script sur la home. Chiffres comptés en
+  base (mots, formes, villages) et *bonjour* avec toutes ses formes. Le tout est
+  gardé en cache une heure, comme la réserve du jeu.
+- **Piège** : `toLocaleString("fr-FR")` sépare les milliers par U+202F, que la
+  police ne dessine pas (« 41646 » à l'écran). Remplacé par une espace
+  insécable. Espaces insécables aussi avant les deux-points, sinon « : chaque »
+  tombe en début de ligne sur mobile.
+- **Vérifié sur `dev`** (cadres sans cookies, 1100 et 375 px) : les deux
+  portes, la carte, l'exemple, aucun défilement horizontal ; `/recherche` et
+  `/carte` → 307, `/jeu` et les fiches village → 200 ; un membre connecté est
+  toujours renvoyé vers `/recherche`. **Pas encore fusionné dans `main`.**
+
+## Le jeu relu par John (26/09/2026)
+
+Six retours après avoir joué, tous appliqués (`58fbaa3`) :
+
+- **Les formes en rouge**, et sous elles « Quel est le nom français de ce
+  village ? » au lieu de « Quel village dit ça ? ».
+- **Après la réponse, la page descend tout en bas** : « Manche suivante » est
+  le dernier élément et doit être à l'écran. Remplace le placement « à 40 % de
+  la hauteur », qui laissait le bouton sous le pli.
+- **« 2 formes : »** au lieu de « Ses 2 formes, et ce qui les fonde » (« ce qui
+  fonde » ne veut rien dire pour un humain, cf. `feedback-pas-de-jargon`), et
+  **« Voir la fiche de X »**.
+- **Plus de bouton Rejouer ni Partie libre au bilan** : rejouer un défi dont on
+  vient de voir les réponses n'a pas de sens. « Retour » devient « Terminer la
+  partie », qui ramène à l'accueil du jeu, où la partie libre reste.
+- **Le mot à dire chez soi** est posé en grand au-dessus des formes, hors de la
+  phrase, sous le titre « Pour finir : comment dis-tu ce mot dans ton
+  village ? ».
+- **Vérifié sur `dev`** (partie d'invité complète, cadre sans cookies de
+  375 px) : formes en `rgb(194, 0, 0)`, nouvelle question, descente jusqu'au
+  bouton après un vrai clic, « 1 forme : », « Voir la fiche de », bilan sans
+  « Rejouer ». **Piège de test** : un clic simulé en JavaScript dans un onglet
+  que le navigateur ne dessine pas ne fait pas défiler en mode fluide ; un
+  vrai clic, si. **Non vu à l'écran** : le bloc « Pour finir », réservé aux
+  membres (il aurait fallu jouer le défi de John).
+
+## « Mon espace » sort de la barre mobile (26/09/2026)
+
+Retour de John : six onglets chez un admin, trop petits. Sur mobile, « Mon
+espace » devient une icône ronde à droite de l'en-tête (`BoutonCompte`,
+`src/components/app-header.tsx`), rouge quand on y est. Le rail tablette et
+desktop le garde avec son libellé. Vérifié sur `dev` dans un cadre de 375 px :
+cinq onglets de 72 px, l'icône mène à `/dashboard` et s'y allume (`198c0a6`).
+
+## `/recherche` réduite à la barre (26/09/2026)
+
+Retour de John : plus de « Salut ! Cherche un mot… », plus de puces de
+caractères accentués sous la barre. La barre seule, bordure rouge de 2 px,
+20 % plus grande (48 → 58 px, texte 16 → 19 px). Le texte d'exemple devient
+« Français ou alsacien… », l'ancien était coupé à 375 px une fois agrandi.
+Vérifié sur `dev` dans un cadre de 375 px (`e4fd171`, `ebe7af0`).
+
 ## Règles de travail
 
 - Ne jamais inventer de traduction alsacienne, même pour un exemple ou un test.

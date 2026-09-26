@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { useRouter } from "next/navigation";
-import { ChevronLeft, X } from "lucide-react";
+import { ChevronLeft, User, X } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { AppNavShell, type OngletRacine } from "@/components/app-nav-shell";
 
@@ -83,10 +83,40 @@ export function AppHeader(props: AppHeaderProps) {
         style={{ paddingTop: "env(safe-area-inset-top)" }}
       >
         <div className="flex h-14 items-center justify-between gap-2 px-4">
-          {props.variant === "root" ? <EnteteRacine {...props} /> : <EnteteEmpilee {...props} />}
+          {props.variant === "root" ? (
+            <>
+              <EnteteRacine {...props} />
+              <BoutonCompte actif={props.actif} />
+            </>
+          ) : (
+            <EnteteEmpilee {...props} />
+          )}
         </div>
       </header>
     </>
+  );
+}
+
+// « Mon espace » sur mobile (26/09/2026) : la barre du bas en portait six
+// onglets chez un admin, trop petits pour le pouce. Le compte en sort et
+// devient cette icône ronde à droite de l'en-tête, comme sur la plupart des
+// apps. Dès la tablette, le rail le garde avec son libellé.
+function BoutonCompte({ actif }: { actif?: OngletRacine }) {
+  if (!actif) return null;
+  const estActif = actif === "compte";
+  return (
+    <Link
+      href="/dashboard"
+      aria-label="Mon espace"
+      aria-current={estActif ? "page" : undefined}
+      className={cn(
+        BOUTON_ICONE,
+        "md:hidden",
+        estActif ? "bg-marque-rouge-500 text-white" : "bg-neutre-100 text-foreground"
+      )}
+    >
+      <User className="h-[18px] w-[18px]" strokeWidth={estActif ? 2.4 : 2} />
+    </Link>
   );
 }
 
@@ -120,6 +150,7 @@ function EnteteRacine({ titre, backHref }: AppHeaderRootProps) {
 
 function EnteteEmpilee({
   titre,
+  actif,
   leading = "retour",
   backHref,
   retourHistorique,
@@ -147,7 +178,10 @@ function EnteteEmpilee({
           <Icone className="h-[18px] w-[18px]" strokeWidth={2.2} />
         </button>
         <span className="flex-1 truncate text-center text-[17px] font-bold text-foreground">{titre}</span>
-        <div className="flex h-10 w-10 shrink-0 items-center justify-center">{trailing}</div>
+        <div className="flex shrink-0 items-center justify-end gap-2 min-w-10">
+          {trailing}
+          <BoutonCompte actif={actif} />
+        </div>
       </>
     );
   }
@@ -164,7 +198,10 @@ function EnteteEmpilee({
         </button>
       )}
       <span className="flex-1 truncate text-center text-[17px] font-bold text-foreground">{titre}</span>
-      <div className="flex h-10 w-10 shrink-0 items-center justify-center">{trailing}</div>
+      <div className="flex shrink-0 items-center justify-end gap-2 min-w-10">
+        {trailing}
+        <BoutonCompte actif={actif} />
+      </div>
     </>
   );
 }

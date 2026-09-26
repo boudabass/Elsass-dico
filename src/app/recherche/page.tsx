@@ -1,6 +1,6 @@
 "use client";
 
-import { Suspense, useEffect, useRef, useState } from "react";
+import { Suspense, useEffect, useState } from "react";
 import Link from "next/link";
 import { useRouter, useSearchParams } from "next/navigation";
 import { Loader2, Search, SearchX } from "lucide-react";
@@ -18,13 +18,11 @@ import { cleCache, memoriserUrlOnglet } from "@/lib/cache-navigation";
 // design_handoff_mobile_app/ (Claude Design, 28/08/2026). Remplace la page
 // desktop du 25/08 : plus de bandeau marketing ni de boutons de connexion en
 // en-tête (portés désormais par l'onglet "compte" de AppHeader et par l'écran
-// Mon espace), fidèle au mockup qui réduit l'accueil à saluer + chercher.
+// Mon espace), réduit à la seule barre de recherche depuis le 26/09/2026.
 //
 // Déplacée de `/` vers `/recherche` le 13/09/2026 (doc 20, étape 3) : `/`
 // devient la présentation publique, sans compte — cet écran, lui, reste
 // entièrement derrière l'authentification.
-
-const CARACTERES_ORTHAL = ["à", "ì", "ü", "ù", "ë", "ö", "ä", "œ"];
 
 export default function RecherchePage() {
   return (
@@ -37,7 +35,6 @@ export default function RecherchePage() {
 function RechercheContenu() {
   const router = useRouter();
   const searchParams = useSearchParams();
-  const inputRef = useRef<HTMLInputElement>(null);
   // Terme restauré depuis l'URL au premier chargement (retour navigateur
   // depuis une fiche de mot) plutôt que toujours repartir d'une recherche vide.
   const [terme, setTerme] = useState(() => searchParams.get("q") ?? "");
@@ -73,41 +70,22 @@ function RechercheContenu() {
 
   useScrollMemorise(cle, resultats.length > 0);
 
-  // Insère le caractère à l'endroit du curseur plutôt qu'en fin de chaîne :
-  // selectionStart/End restent lisibles sur l'input même après que le focus
-  // soit passé au bouton de la puce (le spec DOM les conserve). requestAnimationFrame
-  // laisse React committer le nouveau `value` avant qu'on repositionne le curseur.
-  function insererCaractere(car: string) {
-    const input = inputRef.current;
-    const debut = input?.selectionStart ?? terme.length;
-    const fin = input?.selectionEnd ?? terme.length;
-    setTerme(terme.slice(0, debut) + car + terme.slice(fin));
-    requestAnimationFrame(() => {
-      input?.focus();
-      const position = debut + car.length;
-      input?.setSelectionRange(position, position);
-    });
-  }
-
   return (
     <div className="flex min-h-screen flex-col pb-16 md:pb-0 md:pl-20 lg:pl-56">
       <AppHeader variant="root" actif="recherche" />
 
       <main className="flex-1 px-4 pt-5 pb-8">
-        <h1 className="text-[21px] font-extrabold text-foreground">Salut !</h1>
-        <p className="mt-1 mb-[18px] text-sm text-muted-foreground">
-          Cherche un mot, français ou alsacien.
-        </p>
-
-        <div className="flex h-12 items-center gap-2.5 rounded-full border border-neutre-300 bg-background px-4">
-          <Search className="h-[18px] w-[18px] shrink-0 text-muted-foreground" strokeWidth={2} />
+        {/* Rien que la barre (26/09/2026, John) : plus de salut ni de puces
+            de caractères ; bordure rouge, 20 % plus grande (48 → 58 px). */}
+        <div className="flex h-[58px] items-center gap-3 rounded-full border-2 border-marque-rouge-500 bg-background px-5">
+          <Search className="h-[22px] w-[22px] shrink-0 text-marque-rouge-texte" strokeWidth={2} />
           <input
-            ref={inputRef}
+            aria-label="Chercher un mot en français ou en alsacien"
             value={terme}
             onChange={(e) => setTerme(e.target.value)}
-            placeholder="Un mot en français ou en alsacien…"
+            placeholder="Français ou alsacien…"
             autoFocus
-            className="min-w-0 flex-1 bg-transparent text-base font-semibold text-foreground outline-none placeholder:font-normal placeholder:text-muted-foreground"
+            className="min-w-0 flex-1 bg-transparent text-[19px] font-semibold text-foreground outline-none placeholder:font-normal placeholder:text-muted-foreground"
           />
           <span
             aria-hidden
@@ -115,24 +93,11 @@ function RechercheContenu() {
               recherche ? "opacity-100 blur-0" : "opacity-0 scale-[0.25] blur-[4px]"
             }`}
           >
-            <Loader2 className={`h-[18px] w-[18px] text-muted-foreground ${recherche ? "animate-spin" : ""}`} />
+            <Loader2 className={`h-[22px] w-[22px] text-muted-foreground ${recherche ? "animate-spin" : ""}`} />
           </span>
           <span role="status" aria-live="polite" className="sr-only">
             {recherche ? "Recherche en cours" : ""}
           </span>
-        </div>
-
-        <div className="mt-3.5 flex flex-wrap gap-1.5">
-          {CARACTERES_ORTHAL.map((car) => (
-            <button
-              key={car}
-              type="button"
-              onClick={() => insererCaractere(car)}
-              className="flex h-9 min-w-9 items-center justify-center rounded-lg border border-neutre-300 bg-background px-2.5 text-[15px] font-semibold text-foreground transition-colors hover:bg-neutre-50 active:scale-95"
-            >
-              {car}
-            </button>
-          ))}
         </div>
 
         {recherche && resultats.length === 0 && (

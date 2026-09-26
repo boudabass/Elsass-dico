@@ -2199,6 +2199,39 @@ deux fois : le bouton, puis « Partager » dans le panneau.
   constater par John sur son téléphone** : le navigateur piloté se comporte
   comme un ordinateur.
 
+## La home publique montre enfin l'app (26/09/2026)
+
+Retour de John : un visiteur ne comprenait pas qu'il y a, derrière le compte,
+tout le dictionnaire, la recherche et la carte, ni que le défi du jour se joue
+sans compte. Cadré par `/impeccable shape`, puis deux retours de John sur le
+texte (« les gens débarquent et ne savent strictement rien du projet, évite
+les phrases robot »).
+
+- **Titre** : « L'alsacien, village par village ». Sous-texte en phrases
+  simples, sans vocabulaire interne (forme, attester, témoin).
+- **Deux portes de même poids** (décision de John) : « Défi du jour » (rouge,
+  avec sa vraie manche 1 dans un encart blanc, choix en étiquettes rouges sur
+  fond clair, jamais la réponse) et « Participer au dictionnaire » (sombre,
+  vers Odoo). La manche 1 vient de `mancheOuverteDuJour()` (`lib/jeu.ts`),
+  désormais partagée avec la route d'automatisation : la home et les posts
+  montrent la même.
+- **« Connecte-toi pour découvrir tout le dictionnaire »** : trois aperçus
+  réels et non cliquables (un clic qui tombe sur `/login` sans prévenir est le
+  défaut corrigé). La carte des villages est dessinée **en SVG côté serveur**
+  (`lib/apercu-accueil.ts`) depuis notre topojson : contour, limites de
+  département, un point par village groupé par couleur (`M x y h0`, trait
+  rond). Environ 17 Ko, ni Leaflet ni script sur la home. Chiffres comptés en
+  base (mots, formes, villages) et *bonjour* avec toutes ses formes. Le tout est
+  gardé en cache une heure, comme la réserve du jeu.
+- **Piège** : `toLocaleString("fr-FR")` sépare les milliers par U+202F, que la
+  police ne dessine pas (« 41646 » à l'écran). Remplacé par une espace
+  insécable. Espaces insécables aussi avant les deux-points, sinon « : chaque »
+  tombe en début de ligne sur mobile.
+- **Vérifié sur `dev`** (cadres sans cookies, 1100 et 375 px) : les deux
+  portes, la carte, l'exemple, aucun défilement horizontal ; `/recherche` et
+  `/carte` → 307, `/jeu` et les fiches village → 200 ; un membre connecté est
+  toujours renvoyé vers `/recherche`. **Pas encore fusionné dans `main`.**
+
 ## Règles de travail
 
 - Ne jamais inventer de traduction alsacienne, même pour un exemple ou un test.

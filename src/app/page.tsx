@@ -37,7 +37,10 @@ export default async function AccueilPubliquePage() {
     mancheOuverteDuJour(jour),
   ]);
   const numero = numeroDefi(jour);
-  const nombre = (n: number) => n.toLocaleString("fr-FR");
+  // fr-FR sépare les milliers par une espace fine insécable (U+202F), que la
+  // police de l'app ne dessine pas : « 41646 » à l'écran. Espace insécable
+  // ordinaire à la place.
+  const nombre = (n: number) => n.toLocaleString("fr-FR").replace(/ /g, " ");
   // Le mot de l'aperçu du dictionnaire n'est pas répété dans la vitrine.
   const motsVitrine = vitrine.filter((m) => m.id !== apercu.exemple?.id);
 
@@ -131,7 +134,7 @@ export default async function AccueilPubliquePage() {
               </span>
 
               <span className="mt-6 block">
-                <span className="block font-display text-[30px] leading-[1.12] tabular-nums sm:text-[34px]">
+                <span className="block font-display text-[30px] leading-[1.12] sm:text-[34px]">
                   {nombre(apercu.nbMots)} mots
                 </span>
                 <span className="mt-2 block text-[15px] text-background/80">

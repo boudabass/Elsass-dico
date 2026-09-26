@@ -85,9 +85,20 @@ export async function GET(request: NextRequest) {
             }}
         >
             <span style={{ fontSize: og ? 30 : 38, fontWeight: 700, color: C.discret }}>Quel village dit :</span>
-            <span style={{ fontSize: og ? 64 : 92, fontWeight: 800, color: C.texte, lineHeight: 1.1 }}>
-                {formes.join(" · ") || "…"}
-            </span>
+            {og ? (
+                <span style={{ fontSize: 64, fontWeight: 800, color: C.texte, lineHeight: 1.1 }}>
+                    {formes.join(" · ") || "…"}
+                </span>
+            ) : (
+                // Une forme par ligne : un « · » en fin de ligne se lirait mal.
+                <div style={{ display: "flex", flexDirection: "column" }}>
+                    {(formes.length ? formes : ["…"]).map((f) => (
+                        <span key={f} style={{ fontSize: 92, fontWeight: 800, color: C.texte, lineHeight: 1.1 }}>
+                            {f}
+                        </span>
+                    ))}
+                </div>
+            )}
         </div>
     )
 
@@ -107,12 +118,12 @@ export async function GET(request: NextRequest) {
         </div>
     ) : (
         <span style={{ fontSize: og ? 32 : 42, fontWeight: 700, color: C.discret }}>
-            Cinq manches, un nouveau défi chaque jour.
+            Un nouveau défi chaque jour.
         </span>
     )
 
     const appel = (
-        <div style={{ display: "flex", flexDirection: "column", alignItems: og ? "flex-start" : "center", gap: 16 }}>
+        <div style={{ display: "flex", flexDirection: "column", alignItems: "flex-start", gap: 16 }}>
             <div
                 style={{
                     display: "flex",

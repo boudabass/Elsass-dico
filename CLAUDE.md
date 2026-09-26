@@ -2274,6 +2274,25 @@ caractères accentués sous la barre. La barre seule, bordure rouge de 2 px,
 « Français ou alsacien… », l'ancien était coupé à 375 px une fois agrandi.
 Vérifié sur `dev` dans un cadre de 375 px (`e4fd171`, `ebe7af0`).
 
+## Clôture de session (27/09/2026)
+
+**PR #68** (`dev` → `main`), fusionnée par commit de merge (`4e29acf`), même
+méthode que les précédentes. Elle portait la home publique (deux portes,
+aperçus réels), le jeu relu par John, « Mon espace » en icône dans l'en-tête
+mobile et `/recherche` réduite à la barre. Déploiement de `elsass-dico:main`
+confirmé par `updated_at` (23:42:18Z, trois minutes après la fusion). Sonde
+`curl` : `/` → 200 et sert la nouvelle home (« village par village », « Défi
+du jour », « Participer au dictionnaire ») ; `/recherche` → 307 ; `/jeu` et
+`/village/colmar-68066` → 200. **`main` et `dev` au même contenu.**
+
+- **Export des contributions** non relancé : aucun vote ni aucune forme dans
+  la session.
+- **Reste à constater par John** : le bouton « Partager » sur un vrai
+  téléphone, et le bloc « Pour finir » du jeu (réservé aux membres).
+- **Ouvert, inchangé** : faire venir des locuteurs ; feu vert du lancement
+  public (workflow N8N) ; mesure de convergence ; auto-inscription Odoo, aire
+  du 57, attribution Azimut.
+
 ## Règles de travail
 
 - Ne jamais inventer de traduction alsacienne, même pour un exemple ou un test.

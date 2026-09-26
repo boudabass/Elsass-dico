@@ -83,7 +83,7 @@ function RechercheContenu() {
             aria-label="Chercher un mot en français ou en alsacien"
             value={terme}
             onChange={(e) => setTerme(e.target.value)}
-            placeholder="Un mot en français ou en alsacien…"
+            placeholder="Français ou alsacien…"
             autoFocus
             className="min-w-0 flex-1 bg-transparent text-[19px] font-semibold text-foreground outline-none placeholder:font-normal placeholder:text-muted-foreground"
           />

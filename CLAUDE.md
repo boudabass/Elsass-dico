@@ -2399,9 +2399,39 @@ n'y a pas de pages en double. La carte suit aussi le sens.
 - **Vérifié à l'écran** (session de John, `dev`) : bascules répétées sur le
   dictionnaire (W : 108 mots / 1 620 formes, Q dans les deux sens), sur la
   recherche (`kolmer`) et sur la carte, toutes chargées sans rechargement.
-- **Vu en passant, non corrigé** : un contexte de source qui porte déjà ses
-  parenthèses s'affiche doublé (`salaire ((le))`), dans la liste A-Z comme
-  dans les suggestions de la carte. Antérieur à l'inverseur.
+- **Vu en passant, corrigé ensuite** : un contexte de source qui porte déjà
+  ses parenthèses s'affichait doublé (`salaire ((le))`), dans l'A-Z comme
+  dans les suggestions de la carte. `entreParentheses()` (15 000 contextes
+  sont un article entre parenthèses).
+
+### Problèmes découverts, corrigés à la demande de John (27/09/2026)
+
+- **Gloses de tête** : 23 formes de culture_alsace portent en tête la glose
+  française de l'article (`(le) d'Àrwet`, `l') d'Meschschtuwa`), et une
+  dizaine de la ponctuation avant un article élidé. L s'ouvrait sur
+  `l') d'Meschschtuwa`. Migration `20260927220000_glose_inverse` : la glose
+  est reconnue à sa parenthèse FERMANTE ; la ponctuation n'est retirée que
+  si un article élidé la suit (sinon `(être) brait` perdait sa parenthèse
+  ouvrante). **Les colonnes générées ne se recalculent pas quand leur
+  fonction change**, d'où un `UPDATE … SET cle_forme = cle_forme` limité aux
+  34 lignes concernées. Écrit `[)]` et non `\)` : ce serveur ne lit pas
+  l'antislash comme un échappement.
+- **URL du dictionnaire** : ouvert par la nav, il ne portait pas `?sens=als`.
+  L'URL suit maintenant lettre, page et sens depuis un seul effet. Un lien
+  partagé garde sa page quand l'écran adopte son sens.
+- **« Tout se charge sauf A »** (retour de John pendant la vérification) :
+  pas reproduit à froid, ni sur `dev` ni sur `main`, mais un **503 du VPS**
+  est apparu sur la première Server Action d'un dictionnaire ouvert par la
+  nav, et A est justement la lettre chargée à ce moment-là. Le hook partagé
+  `useListeMemorisee` ne faisait qu'une reprise : deux 503 à 1,2 s d'écart
+  laissaient l'écran sur son squelette pour toujours, sans rien dire. Il
+  tente maintenant trois fois (0, 1 s, 3 s) puis expose `echec`. Le
+  dictionnaire, la recherche et la carte affichent alors `EchecChargement`
+  (« Le chargement n'a pas abouti », bouton « Réessayer »). **Vérifié en
+  simulant les 503** (`window.fetch` patché) : deux échecs → la lettre charge
+  à la troisième tentative ; échecs continus → le message, puis la lettre au
+  clic sur « Réessayer ». **Reste à confirmer par John** que A se charge chez
+  lui : la cause exacte de ses 503 (côté VPS) n'est pas visible d'ici.
 
 ## Règles de travail
 

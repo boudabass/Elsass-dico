@@ -2293,6 +2293,73 @@ du jour », « Participer au dictionnaire ») ; `/recherche` → 307 ; `/jeu` et
   public (workflow N8N) ; mesure de convergence ; auto-inscription Odoo, aire
   du 57, attribution Azimut.
 
+## Le dico dans les deux sens : l'inverseur bleu/rouge (27/09/2026)
+
+Retour de John : la recherche rendait le français puis l'alsacien, « pas très
+clair ni pratique », alors que tout était pensé français → alsacien. La
+recherche mélangeait en fait les deux sens (`par_francais` UNION
+`par_alsacien`) sans dire ce qui avait correspondu : taper `Tàg` rendait une
+carte « bonjour ». Le dictionnaire A-Z et la carte ne connaissaient qu'un sens.
+
+**Décisions de John** : un inverseur tout en haut de l'app, pleine largeur,
+à la même place sur **tous les écrans connectés** ; deux boutons, « Français »
+à gauche et « Alsacien » à droite, et au milieu une flèche qui part de la
+langue de départ ; **bleu = français, rouge = alsacien**, et **toute
+l'interface suit** (onglet actif, boutons, barre de recherche, lettres A-Z).
+La recherche mélangée est supprimée. Les pages actuelles changent de sens, il
+n'y a pas de pages en double. La carte suit aussi le sens.
+
+- **Mesuré avant d'écrire** : 34 047 formes distinctes une fois l'article
+  élidé de tête retiré (`d'r`, `d'`, `s'`, `z'`). Sans ce retrait, D portait
+  11 003 formes et S 6 199, parce que 14 000 formes de culture_alsace
+  commencent par leur article sans avoir été décomposées. 86 % des formes
+  n'ont qu'un sens, le maximum est 11 (`Lohn` : salaire, paie, paye, gage,
+  Salaire).
+- **Migration `20260927120000_sens_inverse`** : trois fonctions SQL,
+  `forme_inverse` (sans article, un fragment contigu de la forme, jamais une
+  réécriture), `cle_inverse` (regroupe sans casse, **avec les accents** :
+  `Barr`/`Bàrr`), `parcours_inverse` (range et donne la lettre, seule à passer
+  par `unaccent`). Plus deux index : une page de S passe de 281 ms à 55 ms.
+  **Piège rencontré** : Postgres 18 construit un index avec un `search_path`
+  restreint à pg_catalog, donc les appels imbriqués sont préfixés `public.`
+  (« function forme_inverse(text) does not exist » sinon). Validée dans une
+  transaction annulée, puis appliquée par `prisma migrate deploy` depuis ce
+  poste (additive, compatible avec le code de `main`).
+- **Couleurs** : échelle `--bleu-*` (bleu-500 mesuré à 7,54:1 sur blanc, au
+  niveau de rouge-500) et tokens `--sens-*`, basculés par `data-sens` sur
+  `<html>`. Cookie `ed_sens`, lu par RootLayout comme la session, donc aucun
+  flash de la mauvaise couleur. Le rouge de marque (home publique, jeu,
+  partage, `/login`, wordmark) ne passe pas par `--sens-*`.
+- **Place réservée** par une seule variable, `--hauteur-inverseur` (0 sans
+  session) : en-tête sticky, rail et hauteur de la carte s'en décalent.
+  L'inverseur porte la marge de l'encoche à la place de l'en-tête.
+- **Côté alsacien** (`src/app/actions/formes.ts`) : recherche groupée par
+  forme, A-Z paginé avec « Aller à une forme », et fiche d'une forme
+  (`/forme?c=`, en paramètre et pas en segment : des formes contiennent une
+  barre oblique). Chaque sens y porte les témoins de SA variante, et on y
+  vote. Sur la carte, une forme montre ses villages avec **une couleur par
+  sens français** (`pointsFormeAction`).
+- **Aucun résultat** : un bouton « Chercher « x » en alsacien » (ou en
+  français) retourne le livre en un geste.
+- **Un lien partagé porte son sens** (`?sens=als`) et le fait adopter à
+  l'arrivée.
+- **Vérifié** : `typecheck`, `build` 970/970 (seul l'EPERM symlink Windows
+  suit). Actions rejouées contre la base : `Tàg` en alsacien rend
+  `güata Tàg → bonjour`, et plus « bonjour » en français ; « Aller à une
+  forme » tombe juste sur `lohn`, `d'r Lohn`, `schtàbil`, `güata`. **À
+  l'écran** (session de John, `dev`, en passant par la nav) : bascule des
+  couleurs et de la flèche, recherche et fiche de `Lohn`, A-Z (L page 10/12
+  avec `Lohn`), carte de `Mundelse` (1 point à Mundolsheim), retour au
+  français, bouton « aucun résultat », rendu 375 px dans un cadre sans
+  débordement. Sans compte, la home, `/jeu`, les fiches village et `/login`
+  n'ont pas d'inverseur.
+- **Limites vues, laissées telles quelles** : 4 variantes réduites à un
+  article seul (`d'`, `s'`, `d'r`) ne sont joignables que par la recherche.
+  L'A-Z alsacien s'ouvre sur des formes précédées de l'article indéfini `a`
+  (`a Äbmägerungskür mache`), qui n'est pas retiré parce qu'il est ambigu
+  (c'est aussi un mot). `/dictionnaire` ouvert par la nav ne porte `?sens=`
+  dans son URL qu'après le premier choix de lettre.
+
 ## Règles de travail
 
 - Ne jamais inventer de traduction alsacienne, même pour un exemple ou un test.

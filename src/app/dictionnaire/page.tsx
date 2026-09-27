@@ -14,8 +14,8 @@ import {
   pageDuPrefixeAction,
 } from "@/app/actions/navigation";
 import { formesParLettreAction, lettresFormesAction, pageDuPrefixeFormeAction } from "@/app/actions/formes";
-import { lienForme, precisionLemme, type FormeApercu } from "@/lib/dictionnaire";
-import { parametreSens, type Sens } from "@/lib/sens";
+import { entreParentheses, lienForme, precisionLemme, type FormeApercu } from "@/lib/dictionnaire";
+import { lireSens, parametreSens, type Sens } from "@/lib/sens";
 import { useListeMemorisee } from "@/hooks/use-liste-memorisee";
 import { useScrollMemorise } from "@/hooks/use-scroll-memorise";
 import { chargerAvecCache, cleCache, memoriserUrlOnglet, remplacerUrl } from "@/lib/cache-navigation";
@@ -131,34 +131,36 @@ function DictionnaireContenu() {
   // Retourner le livre garde la lettre (si l'autre moitié l'a) et repart de
   // la première page : la page 13 de B en français n'a aucun rapport avec la
   // page 13 de B en alsacien.
-  const sensPrecedent = useRef(sens);
+  // Un lien partagé (`?sens=als&page=3`) fait adopter son sens à l'arrivée :
+  // ce n'est pas un retournement, sa page ne doit pas repartir à 1.
+  const sensPrecedent = useRef(searchParams.get("sens") !== null ? lireSens(searchParams.get("sens")) : sens);
   useEffect(() => {
     if (sensPrecedent.current === sens) return;
     sensPrecedent.current = sens;
     setPageNo(1);
-    if (lettre) {
-      const url = urlDictionnaire(sens, lettre);
-      remplacerUrl(url);
-      memoriserUrlOnglet("dictionnaire", url);
-    }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [sens]);
+
+  // L'URL suit l'écran, en un seul endroit : lettre, page et sens. Elle
+  // s'écrivait auparavant au clic sur une lettre ou une page seulement, si
+  // bien qu'un dictionnaire ouvert par la nav, sur sa première lettre, ne
+  // portait pas son sens (`?sens=als`) dans son adresse.
+  useEffect(() => {
+    if (!lettre) return;
+    const url = urlDictionnaire(sens, lettre, pageNo > 1 ? pageNo : undefined);
+    if (window.location.pathname + window.location.search === url) return;
+    remplacerUrl(url);
+    // La barre de nav rouvrira le dictionnaire sur cette lettre.
+    memoriserUrlOnglet("dictionnaire", url);
+  }, [lettre, pageNo, sens]);
 
   function choisirLettre(car: string) {
     setLettre(car);
     setPageNo(1);
-    const url = urlDictionnaire(sens, car);
-    remplacerUrl(url);
-    // La barre de nav rouvrira le dictionnaire sur cette lettre.
-    memoriserUrlOnglet("dictionnaire", url);
   }
 
   function allerPage(n: number) {
     if (!lettre) return;
     setPageNo(n);
-    const url = urlDictionnaire(sens, lettre, n);
-    remplacerUrl(url);
-    memoriserUrlOnglet("dictionnaire", url);
     // Un changement de page n'est pas un retour (cf. `estRetourHistorique()`) :
     // `useScrollMemorise` ne remonte donc pas seul, et rester scrollé au
     // niveau du bouton « Suivant » cliqué en bas de liste serait désorientant.
@@ -296,7 +298,7 @@ function DictionnaireContenu() {
                     <div className="truncate text-base font-semibold text-foreground">
                       {e.titre}
                       {e.precision && (
-                        <span className="font-normal text-muted-foreground"> ({e.precision})</span>
+                        <span className="font-normal text-muted-foreground"> {entreParentheses(e.precision)}</span>
                       )}
                     </div>
                     <div className="truncate text-sm text-muted-foreground">

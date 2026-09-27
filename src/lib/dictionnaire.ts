@@ -139,6 +139,13 @@ export function lienForme(cle: string): string {
     return `/forme?c=${encodeURIComponent(cle)}`
 }
 
+/** Une précision entre parenthèses, sans les doubler : 15 000 contextes de
+ *  source sont déjà un article entre parenthèses (`(le)`, `(la)`, `(l')`),
+ *  et l'A-Z affichait `salaire ((le))`. */
+export function entreParentheses(texte: string): string {
+    return /^\(.*\)$/.test(texte) ? texte : `(${texte})`
+}
+
 export interface LemmeDetaille {
     id: string
     francais: string

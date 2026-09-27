@@ -22,7 +22,7 @@ import { useListeMemorisee } from "@/hooks/use-liste-memorisee"
 import { useRequeteDebattue } from "@/hooks/use-requete-debattue"
 import { cleCache } from "@/lib/cache-navigation"
 import { couleurDeForme } from "@/lib/couleur-carte"
-import { precisionLemme, type FormeResume, type LemmeResume } from "@/lib/dictionnaire"
+import { entreParentheses, precisionLemme, type FormeResume, type LemmeResume } from "@/lib/dictionnaire"
 
 import { AideCarte } from "./aide-carte"
 import { PanneauContribution } from "./panneau-contribution"
@@ -188,7 +188,7 @@ export function CarteDemo() {
                             s.lemme ? (
                                 <>
                                     {s.lemme.francais}
-                                    {precisionLemme(s.lemme) ? <span className="text-muted-foreground"> ({precisionLemme(s.lemme)})</span> : null}
+                                    {precisionLemme(s.lemme) ? <span className="text-muted-foreground"> {entreParentheses(precisionLemme(s.lemme))}</span> : null}
                                 </>
                             ) : (
                                 <>

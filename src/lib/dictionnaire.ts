@@ -146,6 +146,22 @@ export function entreParentheses(texte: string): string {
     return /^\(.*\)$/.test(texte) ? texte : `(${texte})`
 }
 
+/** Une forme alsacienne affichée comme dans un dictionnaire papier :
+ *  `d'r Lohn` devient `Lohn (d'r)` (décision de John, 27/09/2026). Seul
+ *  l'ordre d'affichage change : les deux morceaux sont ceux que la source a
+ *  écrits, rien n'est réécrit (règle 1). Un article seul reste tel quel. */
+const ARTICLE_EN_TETE =
+    /^(?:(d['’"‘´`]r|dr['’"‘´`]|d['’"‘´`]|s['’"‘´`]|['’"‘´`]s)\s*|(der|dr|de|die|dia|di|das|dàs|a|à|ä|e|en|ein|eine|ain)\s+)/i
+
+export function formeDictionnaire(forme: string): string {
+    const m = ARTICLE_EN_TETE.exec(forme)
+    if (!m) return forme
+    const reste = forme.slice(m[0].length)
+    // Une lettre au sens large (accents compris) : une lettre a une casse.
+    if (reste.toLowerCase() === reste.toUpperCase()) return forme
+    return `${reste} (${m[0].trim()})`
+}
+
 export interface LemmeDetaille {
     id: string
     francais: string

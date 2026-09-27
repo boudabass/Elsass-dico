@@ -15,7 +15,7 @@ import {
   pageDuPrefixeAction,
 } from "@/app/actions/navigation";
 import { formesParLettreAction, lettresFormesAction, pageDuPrefixeFormeAction } from "@/app/actions/formes";
-import { entreParentheses, lienForme, precisionLemme, type FormeApercu } from "@/lib/dictionnaire";
+import { entreParentheses, formeDictionnaire, lienForme, precisionLemme, type FormeApercu } from "@/lib/dictionnaire";
 import { lireSens, parametreSens, type Sens } from "@/lib/sens";
 import { useListeMemorisee } from "@/hooks/use-liste-memorisee";
 import { useScrollMemorise } from "@/hooks/use-scroll-memorise";
@@ -82,7 +82,7 @@ async function chargerPage(sens: Sens, lettre: string, page: number): Promise<Pa
       href: `/entree/${e.id}`,
       titre: e.francais,
       precision: precisionLemme(e),
-      sousTitre: e.formes[0]?.forme ?? "",
+      sousTitre: e.formes[0] ? formeDictionnaire(e.formes[0].forme) : "",
       nbAutres: e.nbFormes - 1,
       fondement: e.formes[0] ?? null,
     })),

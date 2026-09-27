@@ -32,12 +32,15 @@ export function SensProvider({ sensInitial, children }: { sensInitial: Sens; chi
     const [sens, setSens] = useState<Sens>(sensInitial);
 
     const definirSens = useCallback((suivant: Sens) => {
+        // Un choix du membre prime sur toute URL rouverte ensuite.
+        urlDejaLue = true;
         setSens(suivant);
         document.documentElement.dataset.sens = suivant;
         document.cookie = `${COOKIE_SENS}=${suivant}; path=/; max-age=${DUREE_COOKIE}; samesite=lax`;
     }, []);
 
     const inverser = useCallback(() => {
+        urlDejaLue = true;
         setSens((actuel) => {
             const suivant: Sens = actuel === "fr" ? "als" : "fr";
             document.documentElement.dataset.sens = suivant;
@@ -53,12 +56,24 @@ export function SensProvider({ sensInitial, children }: { sensInitial: Sens; chi
     );
 }
 
+// Le sens d'une URL ne s'adopte qu'une fois par chargement de l'app, sur le
+// premier écran affiché. Ensuite, le sens est global (retour de John,
+// 27/09/2026) : chaque écran écrit son sens dans son URL, que la barre de nav
+// mémorise et que le bouton retour rouvre. Adoptée à chaque montage, cette
+// URL ramenait la page dans le sens où on l'avait quittée : recherche en
+// français, dictionnaire passé en alsacien, retour à la recherche, et le sens
+// repassait en français.
+let urlDejaLue = false;
+
 /** Un lien partagé porte son sens (`?sens=als`) : l'écran qui l'ouvre l'adopte
  *  à l'arrivée, sinon le destinataire lirait la recherche dans l'autre sens
- *  que celui qu'on lui a envoyé. Lu une fois, au montage. */
+ *  que celui qu'on lui a envoyé. Seulement à l'arrivée dans l'app : une
+ *  navigation interne garde le sens choisi. */
 export function useSensDepuisUrl(parametre: string | null) {
     const { sens, definirSens } = useSens();
     useEffect(() => {
+        if (urlDejaLue) return;
+        urlDejaLue = true;
         if (parametre === null) return;
         const voulu = lireSens(parametre);
         if (voulu !== sens) definirSens(voulu);

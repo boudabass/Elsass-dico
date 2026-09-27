@@ -2562,6 +2562,12 @@ côté alsacien. Rapport de solutions, option B retenue, cadrée par
   transaction annulée (`d'r Zzztestwort` → article `d'r `, 1 témoignage,
   2 événements, colonne absente après rollback), `typecheck`, `build`
   974/974, détecteur impeccable vide.
+- **En production le 27/09 au soir (PR #75, `30d5ed4`)**. Redéploiement de
+  `main` confirmé par `updated_at` (21:11:18Z, après la fusion de 21:08), puis
+  à l'écran avec la session de John : le bouton remplace l'ancien champ sur la
+  fiche de « salaire », `/admin/mots` répond. **Piège de sonde** : sans session,
+  le middleware renvoie 307 sur TOUTE route, même inexistante ; un 307 sur une
+  nouvelle page ne prouve donc pas qu'elle est déployée.
 
 ## Règles de travail
 

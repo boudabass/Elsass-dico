@@ -2230,7 +2230,8 @@ les phrases robot »).
 - **Vérifié sur `dev`** (cadres sans cookies, 1100 et 375 px) : les deux
   portes, la carte, l'exemple, aucun défilement horizontal ; `/recherche` et
   `/carte` → 307, `/jeu` et les fiches village → 200 ; un membre connecté est
-  toujours renvoyé vers `/recherche`. **Pas encore fusionné dans `main`.**
+  toujours renvoyé vers `/recherche`. **En production le 27/09 (PR #74, `c47d756`)**, redéploiement de `main`
+confirmé par `updated_at` (19:35:40Z) ; `/` → 200, `/recherche` → 307.
 
 ## Le jeu relu par John (26/09/2026)
 

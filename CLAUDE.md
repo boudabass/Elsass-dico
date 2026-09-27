@@ -2495,6 +2495,19 @@ sens de lecture ») et `PRODUCT.md`.
   `build` et un jeu d'exemples (`d'r Lohn` → `Lohn (d'r)`, `de` → `de`,
   `buschur` inchangé).
 
+## Le sens est global d'un écran à l'autre (27/09/2026)
+
+Retour de John : recherche en français, dictionnaire passé en alsacien,
+retour à la recherche, et le sens repassait en français. Chaque écran écrit
+son sens dans son URL (`?sens=als`), la barre de nav rouvre la dernière URL de
+chaque onglet, et `useSensDepuisUrl()` adoptait ce paramètre à chaque montage :
+la page revenait dans le sens où on l'avait quittée. Le paramètre n'est plus
+lu qu'une fois par chargement de l'app, sur le premier écran, et jamais après
+un choix du membre (`src/components/sens-provider.tsx`). Un lien partagé garde
+son sens à l'arrivée. **Vérifié sur `dev`** (session de John) : le parcours de
+John, son inverse, le bouton retour, et un lien `?sens=als` ouvert à froid.
+**Pas encore fusionné dans `main`.**
+
 ## Règles de travail
 
 - Ne jamais inventer de traduction alsacienne, même pour un exemple ou un test.

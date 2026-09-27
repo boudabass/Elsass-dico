@@ -2360,6 +2360,49 @@ n'y a pas de pages en double. La carte suit aussi le sens.
   (c'est aussi un mot). `/dictionnaire` ouvert par la nav ne porte `?sens=`
   dans son URL qu'après le premier choix de lettre.
 
+### Trois retours de John sur l'inverseur, corrigés le même jour (27/09/2026)
+
+1. **« L'article ne compte pas, on ne compte pas le, la, les pour le
+   français. »** Migration `20260927180000_articles_inverse` : côté
+   alsacien, `forme_inverse` retire aussi l'article en toutes lettres
+   (`de` ouvrait encore 1 219 formes, `a` 153, `en` 152, `e` 23, plus `à`,
+   `a’`, `ein`, `eine`, `dr'`). Côté français, `cleParcours()` retire `le`,
+   `la`, `les`, `un`, `une`, `l'` : `la maison` passe sous M. **Un article
+   seul reste un mot** (demande de John) : on ne retire que s'il reste
+   quelque chose derrière. Les 7 formes réduites à un article sont désormais
+   dans l'A-Z. Un seul article retiré : dans `en a Kurva geh`, `en` est la
+   préposition « dans », et c'est ce qui reste sous A.
+2. **« La barre passe sous le header », global.** Mesuré : chaque écran
+   dépassait de la fenêtre de 52 px exactement, même vide (`min-h-screen` +
+   le `padding-top` réservé à l'inverseur). La page défilait donc toujours
+   un peu, et la barre de recherche glissait sous l'en-tête. Nouvelle
+   hauteur `min-h-ecran` (`100dvh - --hauteur-inverseur`) sur les 13 écrans.
+   Vérifié en mesurant chaque écran connecté : plus aucun débordement à vide.
+   Au passage, la bordure de l'inverseur mordait d'un pixel sur l'en-tête.
+3. **« Si je change de sens, la liste n'est pas chargée. »** Cause :
+   inverser relançait le chargement des lettres (une Server Action), puis
+   l'effet du sens réécrivait l'URL par `router.replace()` dans la foulée.
+   Une navigation du routeur fait abandonner l'action en vol, dont la
+   promesse ne se résout jamais. **C'est aussi la vraie cause du blocage
+   intermittent de « Aller à un mot » du 14/09**, contourné à l'époque par
+   un pré-remplissage du cache. Les écrans réécrivent désormais leur URL par
+   `remplacerUrl()` (`history.replaceState`, synchronisé par Next 15 avec
+   `useSearchParams`), sans rien interrompre.
+   - **Trouvé en vérifiant** : une fois débloqué, l'alphabet alsacien prenait
+     4,2 s et une page de S 1,3 s. L'index trouvait les lignes en 3 ms, mais
+     recalculer `cle_inverse()` coûtait 100 µs par ligne (la fonction ne
+     s'intègre plus à la requête). Migration
+     `20260927200000_cles_inverses_stockees` : deux colonnes **générées par
+     Postgres**, `cle_inv` et `parcours_inv`, indexées et absentes du schéma
+     Prisma exprès (le client ne doit jamais les écrire). 37 ms et 29 ms en
+     base. La migration réécrit la table (~17 s de verrou).
+- **Vérifié à l'écran** (session de John, `dev`) : bascules répétées sur le
+  dictionnaire (W : 108 mots / 1 620 formes, Q dans les deux sens), sur la
+  recherche (`kolmer`) et sur la carte, toutes chargées sans rechargement.
+- **Vu en passant, non corrigé** : un contexte de source qui porte déjà ses
+  parenthèses s'affiche doublé (`salaire ((le))`), dans la liste A-Z comme
+  dans les suggestions de la carte. Antérieur à l'inverseur.
+
 ## Règles de travail
 
 - Ne jamais inventer de traduction alsacienne, même pour un exemple ou un test.

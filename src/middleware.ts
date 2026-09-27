@@ -90,7 +90,9 @@ export const config = {
         // Tout sauf les fichiers servis tels quels. `topojson` est dans la
         // liste parce que le fond de carte (`/carte/contours.topojson`) est un
         // fichier statique de `public/` : le passer au middleware le rendrait
-        // inaccessible sans cookie, et la carte serait vide.
-        "/((?!_next/static|_next/image|favicon.ico|.*\\.(?:svg|png|jpg|jpeg|gif|webp|ico|topojson|json|txt|xml)$).*)",
+        // inaccessible sans cookie, et la carte serait vide. `webmanifest`
+        // pour la même raison : le téléphone le lit sans cookie, et sans lui
+        // l'app installée n'a pas d'icône.
+        "/((?!_next/static|_next/image|favicon.ico|.*\\.(?:svg|png|jpg|jpeg|gif|webp|ico|topojson|json|txt|xml|webmanifest)$).*)",
     ],
 }

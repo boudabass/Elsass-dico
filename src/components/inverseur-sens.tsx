@@ -14,6 +14,9 @@ import { cn } from "@/lib/utils";
 // Tout en haut, pleine largeur, et à la même place sur chaque écran connecté :
 // monté une seule fois par RootLayout, jamais par un écran. Toucher une langue
 // la prend comme départ ; toucher la flèche inverse.
+//
+// 51 px + 1 px de bordure = les 52 px que réserve --hauteur-inverseur : la
+// bordure comptée en plus recouvrait d'un pixel le haut de l'en-tête.
 
 const BOUTON =
   "flex h-10 min-w-0 flex-1 items-center justify-center rounded-lg px-3 text-[15px] font-bold transition-colors duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2";
@@ -27,7 +30,7 @@ export function InverseurSens() {
       className="fixed inset-x-0 top-0 z-50 border-b border-border bg-background"
       style={{ paddingTop: "env(safe-area-inset-top)" }}
     >
-      <div role="group" aria-label="Sens du dictionnaire" className="flex h-[52px] items-center gap-2 px-3 md:px-4">
+      <div role="group" aria-label="Sens du dictionnaire" className="flex h-[51px] items-center gap-2 px-3 md:px-4">
         <button
           type="button"
           aria-pressed={depuisFrancais}

@@ -12,7 +12,7 @@ export default async function SignalerPage({ params }: { params: Promise<{ id: s
   if (!lemme) notFound();
 
   return (
-    <div className="flex min-h-screen flex-col">
+    <div className="flex min-h-ecran flex-col">
       <AppHeader variant="stack" titre="Signaler une erreur" leading="fermer" backHref={`/entree/${id}`} />
 
       <main className="flex-1 px-4 pt-5 pb-8">

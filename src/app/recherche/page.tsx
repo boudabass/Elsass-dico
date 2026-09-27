@@ -2,7 +2,7 @@
 
 import { Suspense, useEffect, useState } from "react";
 import Link from "next/link";
-import { useRouter, useSearchParams } from "next/navigation";
+import { useSearchParams } from "next/navigation";
 import { Loader2, Search, SearchX } from "lucide-react";
 import { AppHeader } from "@/components/app-header";
 import { BadgeConfiance } from "@/components/badge-confiance";
@@ -16,7 +16,7 @@ import { parametreSens, type Sens } from "@/lib/sens";
 import { useListeMemorisee } from "@/hooks/use-liste-memorisee";
 import { useRequeteDebattue } from "@/hooks/use-requete-debattue";
 import { useScrollMemorise } from "@/hooks/use-scroll-memorise";
-import { cleCache, memoriserUrlOnglet } from "@/lib/cache-navigation";
+import { cleCache, memoriserUrlOnglet, remplacerUrl } from "@/lib/cache-navigation";
 
 // Écran 1 (Recherche) + écran 10 (aucun résultat) du handoff mobile
 // design_handoff_mobile_app/ (Claude Design, 28/08/2026). Remplace la page
@@ -51,7 +51,6 @@ export default function RecherchePage() {
 }
 
 function RechercheContenu() {
-  const router = useRouter();
   const searchParams = useSearchParams();
   useSensDepuisUrl(searchParams.get("sens"));
   const { sens, definirSens } = useSens();
@@ -69,7 +68,7 @@ function RechercheContenu() {
     const url = urlRecherche(requete, sens);
     const actuelle = urlRecherche((searchParams.get("q") ?? "").trim(), searchParams.get("sens") === "als" ? "als" : "fr");
     if (url === actuelle) return;
-    router.replace(url, { scroll: false });
+    remplacerUrl(url);
     // La barre de nav rouvrira la recherche ici plutôt que sur un écran vide.
     memoriserUrlOnglet("recherche", url);
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -101,7 +100,7 @@ function RechercheContenu() {
   useScrollMemorise(cle, nbResultats > 0);
 
   return (
-    <div className="flex min-h-screen flex-col pb-16 md:pb-0 md:pl-20 lg:pl-56">
+    <div className="flex min-h-ecran flex-col pb-16 md:pb-0 md:pl-20 lg:pl-56">
       <AppHeader variant="root" actif="recherche" />
 
       <main className="flex-1 px-4 pt-5 pb-8">

@@ -17,7 +17,7 @@ export function FichePublique({
   children: ReactNode;
 }) {
   return (
-    <div className="flex min-h-screen flex-col">
+    <div className="flex min-h-ecran flex-col">
       <AppHeader variant="stack" titre={titre} backHref="/" />
       <main className={cn("mx-auto w-full max-w-3xl flex-1 p-4 pb-8", className)}>{children}</main>
     </div>

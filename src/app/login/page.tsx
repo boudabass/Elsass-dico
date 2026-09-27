@@ -42,7 +42,7 @@ export default function LoginPage() {
   };
 
   return (
-    <div className="flex min-h-screen flex-col">
+    <div className="flex min-h-ecran flex-col">
       <AppHeader variant="stack" titre="Connexion" backHref="/" />
 
       <main className="flex-1 px-6 py-8">

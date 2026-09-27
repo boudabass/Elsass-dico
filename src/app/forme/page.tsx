@@ -27,7 +27,7 @@ export default async function FormePage({ searchParams }: { searchParams: Promis
   const nbSens = forme.sens.length;
 
   return (
-    <div className="flex min-h-screen flex-col pb-16 md:pb-0 md:pl-20 lg:pl-56">
+    <div className="flex min-h-ecran flex-col pb-16 md:pb-0 md:pl-20 lg:pl-56">
       <AppHeader variant="root" actif="recherche" backHref />
 
       <main className="flex-1 px-4 pt-[18px] pb-8">

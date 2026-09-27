@@ -2,7 +2,7 @@
 
 import { Suspense, startTransition, useEffect, useMemo, useRef, useState } from "react";
 import Link from "next/link";
-import { useRouter, useSearchParams } from "next/navigation";
+import { useSearchParams } from "next/navigation";
 import { BookOpen, ChevronLeft, ChevronRight, Search } from "lucide-react";
 import { AppHeader } from "@/components/app-header";
 import { BadgeConfiance } from "@/components/badge-confiance";
@@ -18,7 +18,7 @@ import { lienForme, precisionLemme, type FormeApercu } from "@/lib/dictionnaire"
 import { parametreSens, type Sens } from "@/lib/sens";
 import { useListeMemorisee } from "@/hooks/use-liste-memorisee";
 import { useScrollMemorise } from "@/hooks/use-scroll-memorise";
-import { chargerAvecCache, cleCache, memoriserUrlOnglet } from "@/lib/cache-navigation";
+import { chargerAvecCache, cleCache, memoriserUrlOnglet, remplacerUrl } from "@/lib/cache-navigation";
 import { cn } from "@/lib/utils";
 
 // Écran 3 (Dictionnaire A-Z) + écran 11 (lettre vide) du handoff mobile.
@@ -102,7 +102,6 @@ export default function DictionnairePage() {
 }
 
 function DictionnaireContenu() {
-  const router = useRouter();
   const searchParams = useSearchParams();
   const lettreDepuisUrl = searchParams.get("lettre");
   const pageDepuisUrl = Number(searchParams.get("page")) || 1;
@@ -139,7 +138,7 @@ function DictionnaireContenu() {
     setPageNo(1);
     if (lettre) {
       const url = urlDictionnaire(sens, lettre);
-      router.replace(url, { scroll: false });
+      remplacerUrl(url);
       memoriserUrlOnglet("dictionnaire", url);
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -149,7 +148,7 @@ function DictionnaireContenu() {
     setLettre(car);
     setPageNo(1);
     const url = urlDictionnaire(sens, car);
-    router.replace(url, { scroll: false });
+    remplacerUrl(url);
     // La barre de nav rouvrira le dictionnaire sur cette lettre.
     memoriserUrlOnglet("dictionnaire", url);
   }
@@ -158,7 +157,7 @@ function DictionnaireContenu() {
     if (!lettre) return;
     setPageNo(n);
     const url = urlDictionnaire(sens, lettre, n);
-    router.replace(url, { scroll: false });
+    remplacerUrl(url);
     memoriserUrlOnglet("dictionnaire", url);
     // Un changement de page n'est pas un retour (cf. `estRetourHistorique()`) :
     // `useScrollMemorise` ne remonte donc pas seul, et rester scrollé au
@@ -214,7 +213,7 @@ function DictionnaireContenu() {
   useScrollMemorise(cleLettre, lemmes.length > 0);
 
   return (
-    <div className="flex min-h-screen flex-col pb-16 md:pb-0 md:pl-20 lg:pl-56">
+    <div className="flex min-h-ecran flex-col pb-16 md:pb-0 md:pl-20 lg:pl-56">
       <AppHeader variant="root" actif="dictionnaire" titre="Dictionnaire" />
 
       <div className="flex gap-1.5 overflow-x-auto border-b border-border px-4 pb-1 pt-3">

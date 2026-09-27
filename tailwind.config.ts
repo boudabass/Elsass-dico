@@ -16,6 +16,13 @@ export default {
   			sans: ['var(--font-archivo)', 'ui-sans-serif', 'system-ui', 'sans-serif'],
   			display: ['var(--font-azimut)', 'Georgia', 'serif']
   		},
+  		// La hauteur d'un écran de l'app : la fenêtre moins l'inverseur de sens
+  		// (27/09/2026). `min-h-screen` seul faisait dépasser CHAQUE page de la
+  		// hauteur de l'inverseur, qui défilait alors même vide, et la barre de
+  		// recherche glissait sous l'en-tête. Sans session, la variable vaut 0.
+  		minHeight: {
+  			ecran: 'calc(100dvh - var(--hauteur-inverseur))'
+  		},
   		colors: {
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',

@@ -48,7 +48,7 @@ export function EcranJeu() {
     }
 
     return (
-        <div className={cn("flex min-h-screen flex-col", !invite && "pb-16 md:pb-0 md:pl-20 lg:pl-56")}>
+        <div className={cn("flex min-h-ecran flex-col", !invite && "pb-16 md:pb-0 md:pl-20 lg:pl-56")}>
             {invite ? (
                 <AppHeader variant="stack" titre="Jeu" backHref="/" />
             ) : (

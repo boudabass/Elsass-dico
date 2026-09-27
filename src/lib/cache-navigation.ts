@@ -170,3 +170,16 @@ if (typeof window !== "undefined") {
 export function estRetourHistorique(): boolean {
     return dernierRetour > 0 && performance.now() - dernierRetour < DELAI_RETOUR_MS
 }
+
+/** Réécrire l'URL d'un écran (filtres, lettre, page, sens) SANS navigation du
+ *  routeur. `router.replace()` en est une : lancée alors qu'une Server Action
+ *  est en vol, elle fait abandonner l'action, dont la promesse ne se résout
+ *  jamais. L'écran reste alors sur son squelette jusqu'au rechargement.
+ *  C'était le blocage intermittent de « Aller à un mot » (14/09/2026), et celui
+ *  du dictionnaire quand on inverse le sens (27/09/2026) : le chargement des
+ *  lettres partait, puis l'effet du sens réécrivait l'URL dans la foulée.
+ *  `history.replaceState` est synchronisé par Next 15 avec `useSearchParams`,
+ *  sans rien interrompre. */
+export function remplacerUrl(url: string): void {
+    window.history.replaceState(null, "", url)
+}

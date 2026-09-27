@@ -45,7 +45,7 @@ export default async function AccueilPubliquePage() {
   const motsVitrine = vitrine.filter((m) => m.id !== apercu.exemple?.id);
 
   return (
-    <div className="min-h-dvh bg-background">
+    <div className="min-h-ecran bg-background">
       <header className="mx-auto flex w-full max-w-5xl items-center justify-between px-6 py-6 sm:px-10">
         <span className="font-display text-xl text-marque-rouge-texte">Elsass Dico</span>
         <Link

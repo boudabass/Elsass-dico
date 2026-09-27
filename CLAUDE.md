@@ -2448,6 +2448,27 @@ n'y a pas de pages en double. La carte suit aussi le sens.
   `router.replace` ni à `history.replaceState`. Réécrire l'URL après, jamais
   pendant.
 
+### « Les listes commencent toutes par des articles » (27/09/2026)
+
+Retour de John après les corrections ci-dessus. Relevé des six premières
+formes de chaque lettre côté alsacien, en base : il en restait bien.
+L'article était écrit avec une autre apostrophe (`d"`, `s"`, `d&`, `Z´`,
+`s-`, `d(`, souvent un encodage abîmé à la source), ou sans apostrophe (`d `,
+`s `, `r `, `'r`), ou bien il y avait deux mots en tête (`en a Kurva geh`,
+`e …`), ou l'article était lié (`a-n-aigna`), ou encore c'était un article
+français recopié (`l'Àmpär`, `la Poliklinik`). Migration
+`20260927230000_articles_variantes` : jusqu'à deux articles retirés, toutes
+ces graphies reconnues, et 124 lignes recalculées. **Vérifié à l'écran** : A,
+D, E, L, R et S s'ouvrent sur des mots ; `d`, `d'`, `d'r`, `s`, `s'` seuls
+restent en tête de D et S, puisqu'un article seul compte comme un mot.
+**Laissés exprès** : `z` (« zu »), `f'r` (« für »), `g'` et `b'` (préfixes
+verbaux), qui ne sont pas des articles, et `à) làngschteelig` (glose abîmée,
+un seul cas).
+
+Côté français, les listes commencent bien par le mot. La forme alsacienne
+affichée sous chaque mot garde son article (`d'r Lohn`) : c'est la forme
+telle que la source l'écrit.
+
 ## Règles de travail
 
 - Ne jamais inventer de traduction alsacienne, même pour un exemple ou un test.

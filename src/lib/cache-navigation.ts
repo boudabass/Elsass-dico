@@ -83,12 +83,23 @@ function ecrireCache(cle: string, donnees: unknown): void {
 // une seule promesse. Le retrait d'EN_VOL se fait dans le finally de la
 // promesse et JAMAIS dans un cleanup d'effet — sinon le démontage du premier
 // passage StrictMode annulerait la déduplication qu'on vient de poser.
+const DELAI_MAX_MS = 8000
+
 export async function chargerAvecCache<T>(cle: string, charger: () => Promise<T>): Promise<T> {
     const enVol = EN_VOL.get(cle)
     if (enVol) return enVol as Promise<T>
 
     const version = VERSIONS.get(cle) ?? 0
-    const promesse = charger()
+    // Un appel qui ne répond jamais ne doit pas rester « en vol » : il serait
+    // resservi à chaque nouvelle demande de la même clé, et l'écran resterait
+    // sur son squelette jusqu'au rechargement (27/09/2026, lettre A du
+    // dictionnaire, Server Action abandonnée par Next). Passé ce délai, il
+    // échoue et sort d'EN_VOL ; la reprise de `useListeMemorisee` relance.
+    const promesse = Promise.race([
+        charger(),
+        new Promise<never>((_, rejeter) =>
+            setTimeout(() => rejeter(new Error("Délai dépassé")), DELAI_MAX_MS)),
+    ])
         .then((donnees) => {
             if ((VERSIONS.get(cle) ?? 0) === version) ecrireCache(cle, donnees)
             return donnees

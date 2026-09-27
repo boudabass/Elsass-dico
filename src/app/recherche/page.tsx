@@ -62,19 +62,6 @@ function RechercheContenu() {
   // la clé de cache : deux visites du même terme ne rappellent pas le serveur.
   const requete = useRequeteDebattue(terme);
 
-  // L'URL suit la requête (replace, pas push), pour qu'un retour depuis une
-  // fiche de mot retombe sur la même recherche. Rien à faire quand elle la
-  // porte déjà — c'est le cas au montage, restauré depuis l'URL.
-  useEffect(() => {
-    const url = urlRecherche(requete, sens);
-    const actuelle = urlRecherche((searchParams.get("q") ?? "").trim(), searchParams.get("sens") === "als" ? "als" : "fr");
-    if (url === actuelle) return;
-    remplacerUrl(url);
-    // La barre de nav rouvrira la recherche ici plutôt que sur un écran vide.
-    memoriserUrlOnglet("recherche", url);
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [requete, sens]);
-
   // Le sens entre dans la clé : inverser avec un terme saisi relance la
   // recherche dans l'autre langue, sans resservir la liste de la première.
   const cle = requete ? cleCache("recherche", sens, requete) : null;
@@ -99,6 +86,25 @@ function RechercheContenu() {
   const aCherche = cle !== null && resultats !== null;
 
   useScrollMemorise(cle, nbResultats > 0);
+
+  // L'URL suit la requête (replace, pas push), pour qu'un retour depuis une
+  // fiche de mot retombe sur la même recherche. Rien à faire quand elle la
+  // porte déjà — c'est le cas au montage, restauré depuis l'URL.
+  //
+  // Seulement une fois la recherche arrivée : Next intercepte
+  // `history.replaceState`, qui ferait abandonner une Server Action en vol
+  // (cf. dictionnaire, 27/09/2026).
+  useEffect(() => {
+    if (recherche) return;
+    const url = urlRecherche(requete, sens);
+    const actuelle = urlRecherche((searchParams.get("q") ?? "").trim(), searchParams.get("sens") === "als" ? "als" : "fr");
+    if (url === actuelle) return;
+    remplacerUrl(url);
+    // La barre de nav rouvrira la recherche ici plutôt que sur un écran vide.
+    memoriserUrlOnglet("recherche", url);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [requete, sens, recherche]);
+
 
   return (
     <div className="flex min-h-ecran flex-col pb-16 md:pb-0 md:pl-20 lg:pl-56">

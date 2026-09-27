@@ -141,19 +141,6 @@ function DictionnaireContenu() {
     setPageNo(1);
   }, [sens]);
 
-  // L'URL suit l'écran, en un seul endroit : lettre, page et sens. Elle
-  // s'écrivait auparavant au clic sur une lettre ou une page seulement, si
-  // bien qu'un dictionnaire ouvert par la nav, sur sa première lettre, ne
-  // portait pas son sens (`?sens=als`) dans son adresse.
-  useEffect(() => {
-    if (!lettre) return;
-    const url = urlDictionnaire(sens, lettre, pageNo > 1 ? pageNo : undefined);
-    if (window.location.pathname + window.location.search === url) return;
-    remplacerUrl(url);
-    // La barre de nav rouvrira le dictionnaire sur cette lettre.
-    memoriserUrlOnglet("dictionnaire", url);
-  }, [lettre, pageNo, sens]);
-
   function choisirLettre(car: string) {
     setLettre(car);
     setPageNo(1);
@@ -214,6 +201,25 @@ function DictionnaireContenu() {
   const chargement = premierChargement || (lettre !== null && page === null && !echecPage);
 
   useScrollMemorise(cleLettre, lemmes.length > 0);
+
+  // L'URL suit l'écran, en un seul endroit : lettre, page et sens. Elle
+  // s'écrivait auparavant au clic sur une lettre ou une page seulement, si
+  // bien qu'un dictionnaire ouvert par la nav, sur sa première lettre, ne
+  // portait pas son sens (`?sens=als`) dans son adresse.
+  //
+  // Et SEULEMENT une fois le chargement fini (27/09/2026). Next intercepte
+  // `history.replaceState` : lancé dans le même rendu qu'une Server Action,
+  // il la faisait abandonner, comme `router.replace` avant lui. Reproduit à
+  // coup sûr par John (français, C, alsacien, A, français : A restait vide),
+  // et disparu en neutralisant `replaceState` pour le test.
+  useEffect(() => {
+    if (!lettre || chargement || lettres === null) return;
+    const url = urlDictionnaire(sens, lettre, pageNo > 1 ? pageNo : undefined);
+    if (window.location.pathname + window.location.search === url) return;
+    remplacerUrl(url);
+    // La barre de nav rouvrira le dictionnaire sur cette lettre.
+    memoriserUrlOnglet("dictionnaire", url);
+  }, [lettre, pageNo, sens, chargement, lettres]);
 
   return (
     <div className="flex min-h-ecran flex-col pb-16 md:pb-0 md:pl-20 lg:pl-56">

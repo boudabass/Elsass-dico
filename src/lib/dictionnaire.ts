@@ -88,9 +88,55 @@ export const LIBELLES_DEPARTEMENT: Record<string, string> = {
 
 /** Ce qu'on affiche sous le mot français : le département s'il s'agit d'une
  *  commune, le contexte de la source sinon. */
-export function precisionLemme(lemme: LemmeResume): string {
+export function precisionLemme(lemme: Pick<LemmeResume, 'contexte' | 'departement'>): string {
     if (lemme.departement) return LIBELLES_DEPARTEMENT[lemme.departement] ?? lemme.departement
     return lemme.contexte
+}
+
+// --- L'autre sens : alsacien → français (27/09/2026) --------------------------
+//
+// Une entrée côté alsacien est une FORME, regroupée sans article ni casse
+// (`cle_inverse()` en base, migration 20260927120000), et ses sens français.
+// Une forme peut en avoir plusieurs (`Lohn` : salaire, paie, paye, gage) :
+// mesuré le 27/09/2026, 86 % des formes n'en ont qu'un, et le maximum est 11.
+
+/** Un sens français d'une forme, avec ce qui fonde CETTE variante : le couple
+ *  forme × sens est une variante, c'est elle qui porte sources et villages. */
+export interface SensForme {
+    lemmeId: string
+    francais: string
+    contexte: string
+    type: TypeTerme
+    departement: string | null
+    /** La graphie exacte de la variante, article compris (`d'r Lohn`). */
+    forme: string
+    nbSources: number
+    nbVillages: number
+}
+
+export interface FormeResume {
+    /** Clé de regroupement (`cle_inverse`) : sert d'adresse à la fiche. */
+    cle: string
+    /** La graphie la plus fréquente du groupe, sans article (`Lohn`). */
+    titre: string
+    /** Les premiers sens, le mieux attesté d'abord. */
+    sens: SensForme[]
+    nbSens: number
+}
+
+export interface SensDetaille {
+    lemme: { id: string; francais: string; contexte: string; type: TypeTerme; departement: string | null }
+    variantes: VarianteDetaillee[]
+}
+
+export interface FormeDetaillee {
+    cle: string
+    titre: string
+    sens: SensDetaille[]
+}
+
+export function lienForme(cle: string): string {
+    return `/forme?c=${encodeURIComponent(cle)}`
 }
 
 export interface LemmeDetaille {

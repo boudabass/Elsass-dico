@@ -80,6 +80,24 @@ export default {
   				'or-800': 'hsl(var(--marque-or-800))',
   				'or-900': 'hsl(var(--marque-or-900))'
   			},
+  			// Le bleu du français, et la couleur du sens courant (cf. globals.css,
+  			// 27/09/2026) : `bg-sens-500` est bleu en français, rouge en alsacien.
+  			bleu: {
+  				'50': 'hsl(var(--bleu-50))',
+  				'100': 'hsl(var(--bleu-100))',
+  				'200': 'hsl(var(--bleu-200))',
+  				'500': 'hsl(var(--bleu-500))',
+  				'600': 'hsl(var(--bleu-600))',
+  				texte: 'hsl(var(--bleu-texte))'
+  			},
+  			sens: {
+  				'50': 'hsl(var(--sens-50))',
+  				'100': 'hsl(var(--sens-100))',
+  				'200': 'hsl(var(--sens-200))',
+  				'500': 'hsl(var(--sens-500))',
+  				'600': 'hsl(var(--sens-600))',
+  				texte: 'hsl(var(--sens-texte))'
+  			},
   			chart: {
   				'1': 'hsl(var(--chart-1))',
   				'2': 'hsl(var(--chart-2))',

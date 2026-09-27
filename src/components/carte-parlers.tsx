@@ -27,6 +27,9 @@ export interface PointParler {
     longitude: number
     /** Les formes attestées pour ce village, dans l'ordre où elles viennent. */
     formes: string[]
+    /** La clé de couleur, si ce n'est pas la première forme (carte d'une forme
+     *  alsacienne : une couleur par sens français). */
+    couleurCle?: string
 }
 
 interface Props {
@@ -148,7 +151,7 @@ export function CarteParlers({ points, couleurDe, className }: Props) {
                 radius: 5,
                 weight: 1.5,
                 color: "#ffffff",
-                fillColor: couleurDe?.(p.formes[0] ?? "") ?? "#C20000",
+                fillColor: couleurDe?.(p.couleurCle ?? p.formes[0] ?? "") ?? "#C20000",
                 fillOpacity: 0.95,
             })
                 .bindPopup(creerContenuPopup(p.formes, p.nom))

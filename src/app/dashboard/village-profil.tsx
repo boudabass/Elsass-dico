@@ -76,7 +76,7 @@ export function VillageProfil({
                 <button
                     type="button"
                     onClick={() => setEnEdition(true)}
-                    className="text-sm font-semibold text-marque-rouge-texte"
+                    className="text-sm font-semibold text-sens-texte"
                 >
                     Changer
                 </button>
@@ -107,7 +107,7 @@ export function VillageProfil({
                     type="button"
                     onClick={valider}
                     disabled={!choisie || enCours}
-                    className="h-9 shrink-0 rounded-md bg-marque-rouge-500 px-4 text-sm font-semibold text-white transition-colors hover:bg-marque-rouge-600 disabled:opacity-50"
+                    className="h-9 shrink-0 rounded-md bg-sens-500 px-4 text-sm font-semibold text-white transition-colors hover:bg-sens-600 disabled:opacity-50"
                 >
                     Valider
                 </button>

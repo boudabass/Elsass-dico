@@ -1,19 +1,21 @@
 "use client";
 
-import { Suspense, startTransition, useEffect, useMemo, useState } from "react";
+import { Suspense, startTransition, useEffect, useMemo, useRef, useState } from "react";
 import Link from "next/link";
 import { useRouter, useSearchParams } from "next/navigation";
 import { BookOpen, ChevronLeft, ChevronRight, Search } from "lucide-react";
 import { AppHeader } from "@/components/app-header";
 import { BadgeConfiance } from "@/components/badge-confiance";
+import { useSens, useSensDepuisUrl } from "@/components/sens-provider";
 import { ListSkeleton } from "@/components/ui/list-skeleton";
 import {
   lettresDisponiblesAction,
   lemmesParLettreAction,
   pageDuPrefixeAction,
-  type PageLettre,
 } from "@/app/actions/navigation";
-import { precisionLemme } from "@/lib/dictionnaire";
+import { formesParLettreAction, lettresFormesAction, pageDuPrefixeFormeAction } from "@/app/actions/formes";
+import { lienForme, precisionLemme, type FormeApercu } from "@/lib/dictionnaire";
+import { parametreSens, type Sens } from "@/lib/sens";
 import { useListeMemorisee } from "@/hooks/use-liste-memorisee";
 import { useScrollMemorise } from "@/hooks/use-scroll-memorise";
 import { chargerAvecCache, cleCache, memoriserUrlOnglet } from "@/lib/cache-navigation";
@@ -29,6 +31,68 @@ import { cn } from "@/lib/utils";
 // grossit. Il y a 25 864 lemmes : le défilement continu n'était pas une option.
 const ALPHABET = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("");
 
+// Les deux moitiés du livre (27/09/2026, inverseur de sens) : côté français,
+// une ligne est un mot et sa première forme ; côté alsacien, une forme et son
+// premier sens. Les deux se ramènent ici à la même ligne affichée, pour que
+// la liste, la pagination et « Aller à un mot » restent un seul écran.
+interface LigneAffichee {
+  cle: string;
+  href: string;
+  titre: string;
+  precision: string;
+  sousTitre: string;
+  nbAutres: number;
+  /** Ce qui fonde la forme montrée : jamais une forme sans son fondement. */
+  fondement: FormeApercu | null;
+}
+
+interface PageAffichee {
+  lignes: LigneAffichee[];
+  total: number;
+  page: number;
+  nbPages: number;
+}
+
+async function chargerPage(sens: Sens, lettre: string, page: number): Promise<PageAffichee> {
+  if (sens === "als") {
+    const p = await formesParLettreAction(lettre, page);
+    return {
+      total: p.total,
+      page: p.page,
+      nbPages: p.nbPages,
+      lignes: p.formes.map((f) => ({
+        cle: f.cle,
+        href: lienForme(f.cle),
+        titre: f.titre,
+        precision: "",
+        sousTitre: f.sens[0]?.francais ?? "",
+        nbAutres: f.nbSens - 1,
+        fondement: f.sens[0] ?? null,
+      })),
+    };
+  }
+  const p = await lemmesParLettreAction(lettre, page);
+  return {
+    total: p.total,
+    page: p.page,
+    nbPages: p.nbPages,
+    lignes: p.lemmes.map((e) => ({
+      cle: e.id,
+      href: `/entree/${e.id}`,
+      titre: e.francais,
+      precision: precisionLemme(e),
+      sousTitre: e.formes[0]?.forme ?? "",
+      nbAutres: e.nbFormes - 1,
+      fondement: e.formes[0] ?? null,
+    })),
+  };
+}
+
+function urlDictionnaire(sens: Sens, lettre: string, page?: number): string {
+  const params = [`lettre=${lettre}`, page ? `page=${page}` : "", parametreSens(sens)].filter(Boolean);
+  return `/dictionnaire?${params.join("&")}`;
+}
+
 export default function DictionnairePage() {
   return (
     <Suspense fallback={<AppHeader variant="root" actif="dictionnaire" titre="Dictionnaire" />}>
@@ -42,12 +106,14 @@ function DictionnaireContenu() {
   const searchParams = useSearchParams();
   const lettreDepuisUrl = searchParams.get("lettre");
   const pageDepuisUrl = Number(searchParams.get("page")) || 1;
+  useSensDepuisUrl(searchParams.get("sens"));
+  const { sens } = useSens();
 
   // L'alphabet disponible ne change qu'à une publication : il se garde plus
   // longtemps que les listes, et cesse ainsi de coûter un appel par visite.
   const { donnees: lettres } = useListeMemorisee<string[]>({
-    cle: cleCache("dictionnaire", "lettres"),
-    charger: lettresDisponiblesAction,
+    cle: cleCache("dictionnaire", sens, "lettres"),
+    charger: sens === "als" ? lettresFormesAction : lettresDisponiblesAction,
     fraicheurMs: 5 * 60_000,
   });
   const disponibles = useMemo(() => (lettres ? new Set(lettres) : null), [lettres]);
@@ -63,10 +129,26 @@ function DictionnaireContenu() {
     setLettre((actuelle) => (actuelle && lettres.includes(actuelle) ? actuelle : lettres[0] ?? null));
   }, [lettres]);
 
+  // Retourner le livre garde la lettre (si l'autre moitié l'a) et repart de
+  // la première page : la page 13 de B en français n'a aucun rapport avec la
+  // page 13 de B en alsacien.
+  const sensPrecedent = useRef(sens);
+  useEffect(() => {
+    if (sensPrecedent.current === sens) return;
+    sensPrecedent.current = sens;
+    setPageNo(1);
+    if (lettre) {
+      const url = urlDictionnaire(sens, lettre);
+      router.replace(url, { scroll: false });
+      memoriserUrlOnglet("dictionnaire", url);
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [sens]);
+
   function choisirLettre(car: string) {
     setLettre(car);
     setPageNo(1);
-    const url = `/dictionnaire?lettre=${car}`;
+    const url = urlDictionnaire(sens, car);
     router.replace(url, { scroll: false });
     // La barre de nav rouvrira le dictionnaire sur cette lettre.
     memoriserUrlOnglet("dictionnaire", url);
@@ -75,7 +157,7 @@ function DictionnaireContenu() {
   function allerPage(n: number) {
     if (!lettre) return;
     setPageNo(n);
-    const url = `/dictionnaire?lettre=${lettre}&page=${n}`;
+    const url = urlDictionnaire(sens, lettre, n);
     router.replace(url, { scroll: false });
     memoriserUrlOnglet("dictionnaire", url);
     // Un changement de page n'est pas un retour (cf. `estRetourHistorique()`) :
@@ -95,7 +177,9 @@ function DictionnaireContenu() {
     if (!lettre || !prefixe.trim() || rechercheEnCours) return;
     setRechercheEnCours(true);
     try {
-      const n = await pageDuPrefixeAction(lettre, prefixe);
+      const n = sens === "als"
+        ? await pageDuPrefixeFormeAction(lettre, prefixe)
+        : await pageDuPrefixeAction(lettre, prefixe);
       // Pré-remplit le cache de la page cible AVANT de faire bouger `pageNo` :
       // `useListeMemorisee` relit le cache de façon SYNCHRONE pendant le
       // rendu dès que sa clé change (son `cleRef`), donc si l'entrée existe
@@ -104,8 +188,8 @@ function DictionnaireContenu() {
       // s'est révélé intermittent à l'écran le 14/09/2026 (même avec
       // `startTransition` autour de `allerPage`, gardé ci-dessous par
       // prudence mais insuffisant seul pour fiabiliser à 100 %).
-      await chargerAvecCache(cleCache("dictionnaire", "lettre", lettre, String(n)), () =>
-        lemmesParLettreAction(lettre, n),
+      await chargerAvecCache(cleCache("dictionnaire", sens, "lettre", lettre, String(n)), () =>
+        chargerPage(sens, lettre, n),
       );
       startTransition(() => {
         allerPage(n);
@@ -116,12 +200,13 @@ function DictionnaireContenu() {
     }
   }
 
-  const cleLettre = lettre ? cleCache("dictionnaire", "lettre", lettre, String(pageNo)) : null;
-  const { donnees: page, premierChargement } = useListeMemorisee<PageLettre>({
+  const cleLettre = lettre ? cleCache("dictionnaire", sens, "lettre", lettre, String(pageNo)) : null;
+  const { donnees: page, premierChargement } = useListeMemorisee<PageAffichee>({
     cle: cleLettre,
-    charger: () => lemmesParLettreAction(lettre as string, pageNo),
+    charger: () => chargerPage(sens, lettre as string, pageNo),
   });
-  const lemmes = page?.lemmes ?? [];
+  const lemmes = page?.lignes ?? [];
+  const unite = sens === "als" ? "forme" : "mot";
   // Une revalidation en fond ne doit jamais remettre le squelette : la liste
   // reste à l'écran et se met à jour quand la réponse arrive.
   const chargement = premierChargement || (lettre !== null && page === null);
@@ -146,7 +231,7 @@ function DictionnaireContenu() {
               className={cn(
                 "flex h-9 min-w-9 shrink-0 items-center justify-center rounded-full text-[13px] font-bold",
                 active
-                  ? "bg-marque-rouge-500 text-white"
+                  ? "bg-sens-500 text-white"
                   : dispo
                     ? "bg-neutre-100 text-muted-foreground transition-colors hover:bg-neutre-300/40"
                     : "text-neutre-300",
@@ -167,7 +252,7 @@ function DictionnaireContenu() {
           <div className="flex flex-col items-center px-3 pb-2 pt-10 text-center">
             <BookOpen className="h-[30px] w-[30px] text-neutre-300" strokeWidth={1.8} />
             <p className="mt-3 text-[15px] font-bold text-foreground">
-              {lettre ? `Aucun mot pour la lettre ${lettre}.` : "Aucun mot pour l'instant."}
+              {lettre ? `Aucun ${unite} pour la lettre ${lettre}.` : `Aucun ${unite} pour l'instant.`}
             </p>
             <p className="mt-1.5 text-sm text-muted-foreground">
               Le dictionnaire s&apos;enrichit des formes que les membres apportent.
@@ -179,14 +264,15 @@ function DictionnaireContenu() {
               <h2 className="text-[26px] font-extrabold text-foreground">{lettre}</h2>
               <span className="text-sm text-muted-foreground">
                 {page && page.nbPages > 1
-                  ? `${page.total.toLocaleString("fr-FR")} mots, page ${page.page} sur ${page.nbPages}`
-                  : `${lemmes.length} mot${lemmes.length > 1 ? "s" : ""}`}
+                  ? `${page.total.toLocaleString("fr-FR").replace(/\u202f/g, "\u00a0")} ${unite}s, page ${page.page} sur ${page.nbPages}`
+                  : `${lemmes.length} ${unite}${lemmes.length > 1 ? "s" : ""}`}
               </span>
             </div>
 
             {page && page.nbPages > 1 && (
               <>
                 <ChampAllerAuMot
+                  placeholder={sens === "als" ? "Aller à une forme…" : "Aller à un mot…"}
                   valeur={prefixe}
                   onChange={setPrefixe}
                   onValider={allerAuPrefixe}
@@ -199,8 +285,8 @@ function DictionnaireContenu() {
             <div className="flex flex-col">
               {lemmes.map((e, i) => (
                 <Link
-                  key={e.id}
-                  href={`/entree/${e.id}`}
+                  key={e.cle}
+                  href={e.href}
                   className={
                     i < lemmes.length - 1
                       ? "flex items-center justify-between gap-3 border-b border-border py-3 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-inset"
@@ -209,25 +295,26 @@ function DictionnaireContenu() {
                 >
                   <div className="min-w-0 flex-1">
                     <div className="truncate text-base font-semibold text-foreground">
-                      {e.francais}
-                      {precisionLemme(e) && (
-                        <span className="font-normal text-muted-foreground"> ({precisionLemme(e)})</span>
+                      {e.titre}
+                      {e.precision && (
+                        <span className="font-normal text-muted-foreground"> ({e.precision})</span>
                       )}
                     </div>
                     <div className="truncate text-sm text-muted-foreground">
-                      {/* Les formes se lisent sur la fiche ; ici la premiere
-                          suffit a reconnaitre le mot, et son badge dit ce qui
-                          la fonde — jamais une forme sans son fondement. */}
-                      {e.formes[0]?.forme}
-                      {e.nbFormes > 1 && (
-                        <span className="text-muted-foreground"> +{e.nbFormes - 1}</span>
+                      {/* Le détail se lit sur la fiche ; ici la première forme
+                          (ou le premier sens, côté alsacien) suffit à
+                          reconnaître l'entrée, et son badge dit ce qui la
+                          fonde. Jamais une forme sans son fondement. */}
+                      {e.sousTitre}
+                      {e.nbAutres > 0 && (
+                        <span className="text-muted-foreground"> +{e.nbAutres}</span>
                       )}
                     </div>
                   </div>
-                  {e.formes[0] && (
+                  {e.fondement && (
                     <BadgeConfiance
-                      nbSources={e.formes[0].nbSources}
-                      nbVillages={e.formes[0].nbVillages}
+                      nbSources={e.fondement.nbSources}
+                      nbVillages={e.fondement.nbVillages}
                     />
                   )}
                   <ChevronRight className="h-3.5 w-3.5 shrink-0 text-neutre-300" strokeWidth={2.4} />
@@ -285,11 +372,13 @@ function ControlesPagination({
 }
 
 function ChampAllerAuMot({
+  placeholder,
   valeur,
   onChange,
   onValider,
   disabled,
 }: {
+  placeholder: string;
   valeur: string;
   onChange: (v: string) => void;
   onValider: () => void;
@@ -309,14 +398,15 @@ function ChampAllerAuMot({
           type="text"
           value={valeur}
           onChange={(evt) => onChange(evt.target.value)}
-          placeholder="Aller à un mot…"
+          aria-label={placeholder.replace("…", "")}
+          placeholder={placeholder}
           className="h-9 w-full rounded-full border border-bordure-forte bg-background pl-9 pr-3 text-sm text-foreground placeholder:text-neutre-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
         />
       </div>
       <button
         type="submit"
         disabled={disabled || !valeur.trim()}
-        className="flex h-9 shrink-0 items-center rounded-full bg-marque-rouge-500 px-3.5 text-sm font-semibold text-white transition-colors disabled:pointer-events-none disabled:opacity-40"
+        className="flex h-9 shrink-0 items-center rounded-full bg-sens-500 px-3.5 text-sm font-semibold text-white transition-colors disabled:pointer-events-none disabled:opacity-40"
       >
         Aller
       </button>

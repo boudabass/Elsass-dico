@@ -61,7 +61,7 @@ export function EditerVariante({ varianteId, formeActuelle }: { varianteId: stri
             <button
                 type="submit"
                 disabled={enCours || !forme.trim()}
-                className="h-9 shrink-0 rounded-md bg-marque-rouge-500 px-3 text-xs font-semibold text-white transition-colors hover:bg-marque-rouge-600 disabled:opacity-50"
+                className="h-9 shrink-0 rounded-md bg-sens-500 px-3 text-xs font-semibold text-white transition-colors hover:bg-sens-600 disabled:opacity-50"
             >
                 Enregistrer
             </button>

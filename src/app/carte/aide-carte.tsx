@@ -36,6 +36,11 @@ export function AideCarte() {
                             sa couleur.
                         </p>
                         <p>
+                            Le bouton tout en haut choisit dans quelle langue tu cherches. En
+                            alsacien, tu tapes une forme et chaque point montre ce qu'elle veut
+                            dire là où on la dit : une couleur par sens.
+                        </p>
+                        <p>
                             Clique un point pour voir le détail. « + Chez moi aussi » et
                             « Ça se dit autrement chez moi » ajoutent directement ton village.
                         </p>

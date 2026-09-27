@@ -5,7 +5,8 @@ import { apercusParLemme, chargerLemmeDetaille } from "@/lib/lemmes"
 import { prisma } from "@/lib/prisma"
 import { sessionActuelle } from "@/lib/session-serveur"
 
-// Recherche dans les deux sens — français → alsacien et alsacien → français.
+// Recherche depuis le français (l'alsacien a son propre sens depuis le
+// 27/09/2026, cf. formes.ts).
 // Portée par Prisma depuis le 12/09/2026 ; elle passait jusque-là par la RPC
 // `rechercher_entrees()` et la table `entrees`, qui n'existent plus.
 //
@@ -30,34 +31,22 @@ export async function rechercherAction(terme: string): Promise<LemmeResume[]> {
     const requete = terme.trim()
     if (requete.length < 2) return []
 
-    // Les deux directions sont deux sous-requêtes réunies, et non deux appels :
-    // un mot peut correspondre par son français ET par une de ses formes
-    // (`Mulhouse` / `Milhüsa`), il ne doit apparaître qu'une fois.
+    // Depuis le français seulement (27/09/2026, décision de John). La
+    // recherche mélangeait les deux sens : taper `Tàg` rendait une carte
+    // « bonjour » sans dire ce qui avait correspondu. L'alsacien a désormais
+    // son propre sens, `rechercherFormesAction()` (formes.ts), choisi par
+    // l'inverseur en haut de l'app.
     //
     // `similarity()` ordonne, `LIKE` filtre. L'égalité exacte reçoit un bonus
     // franc pour que « mais » ne se retrouve pas derrière « jamais ».
     const lignes = await prisma.$queryRaw<LigneRecherche[]>`
         WITH t AS (SELECT immutable_unaccent(lower(btrim(${requete}))) AS q),
-        par_francais AS (
+        reunis AS (
             SELECT l.id,
                    similarity(immutable_unaccent(l.cle), t.q)
                      + CASE WHEN immutable_unaccent(l.cle) = t.q THEN 1 ELSE 0 END AS score
             FROM lemmes l, t
             WHERE immutable_unaccent(l.cle) LIKE '%' || t.q || '%'
-        ),
-        par_alsacien AS (
-            SELECT v.lemme_id AS id,
-                   max(similarity(immutable_unaccent(lower(v.forme)), t.q)
-                         + CASE WHEN immutable_unaccent(lower(v.forme)) = t.q THEN 1 ELSE 0 END) AS score
-            FROM variantes v, t
-            WHERE v.masquee = false
-              AND immutable_unaccent(lower(v.forme)) LIKE '%' || t.q || '%'
-            GROUP BY v.lemme_id
-        ),
-        reunis AS (
-            SELECT id, max(score) AS score
-            FROM (SELECT * FROM par_francais UNION ALL SELECT * FROM par_alsacien) x
-            GROUP BY id
         )
         SELECT l.id, l.francais, l.contexte, l.type::text AS type,
                c.departement, r.score

@@ -89,7 +89,7 @@ export function AppNavShell({ actif }: { actif: OngletRacine }) {
       {/* Rail — tablette (icônes seules) et desktop (icônes + libellés) */}
       <nav
         aria-label="Navigation"
-        className="fixed inset-y-0 left-0 z-30 hidden w-20 flex-col items-center gap-1 border-r border-border bg-background py-4 md:flex lg:w-56 lg:items-stretch lg:px-4"
+        className="fixed bottom-0 left-0 top-[var(--hauteur-inverseur)] z-30 hidden w-20 flex-col items-center gap-1 border-r border-border bg-background py-4 md:flex lg:w-56 lg:items-stretch lg:px-4"
       >
         {onglets.map((onglet) => {
           const { cle, icone: Icone, libelle } = onglet;
@@ -102,7 +102,7 @@ export function AppNavShell({ actif }: { actif: OngletRacine }) {
               className={cn(
                 "flex items-center gap-3 rounded-xl px-3 py-2.5 text-sm font-medium transition-colors lg:px-4",
                 estActif
-                  ? "bg-marque-rouge-500 text-white"
+                  ? "bg-sens-500 text-white"
                   : "text-muted-foreground hover:bg-neutre-100 hover:text-foreground"
               )}
             >
@@ -130,7 +130,7 @@ export function AppNavShell({ actif }: { actif: OngletRacine }) {
               aria-current={estActif ? "page" : undefined}
               className={cn(
                 "flex flex-1 flex-col items-center justify-center gap-0.5 text-[10px] font-medium",
-                estActif ? "text-marque-rouge-texte" : "text-muted-foreground"
+                estActif ? "text-sens-texte" : "text-muted-foreground"
               )}
             >
               <Icone className="h-5 w-5" strokeWidth={estActif ? 2.4 : 1.8} />

@@ -62,7 +62,7 @@ export default function MonEspacePage() {
                         </p>
                         <Link
                             href="/login"
-                            className="mt-4 flex h-11 items-center justify-center rounded-lg bg-marque-rouge-500 px-6 text-sm font-semibold text-white transition-colors hover:bg-marque-rouge-600"
+                            className="mt-4 flex h-11 items-center justify-center rounded-lg bg-sens-500 px-6 text-sm font-semibold text-white transition-colors hover:bg-sens-600"
                         >
                             Se connecter
                         </Link>
@@ -108,7 +108,7 @@ export default function MonEspacePage() {
                                         Cinq manches par jour, tirées des formes alsaciennes attestées.
                                     </span>
                                 </span>
-                                <ArrowRight className="h-4 w-4 shrink-0 text-marque-rouge-texte" strokeWidth={2.4} aria-hidden />
+                                <ArrowRight className="h-4 w-4 shrink-0 text-sens-texte" strokeWidth={2.4} aria-hidden />
                             </Link>
                         )}
 
@@ -136,7 +136,7 @@ export default function MonEspacePage() {
                                     className="flex items-center justify-between gap-3 rounded-lg border border-border bg-card p-3.5"
                                 >
                                     <span className="text-sm text-foreground">Membres</span>
-                                    <span className="flex items-center gap-1 text-sm font-semibold text-marque-rouge-texte">
+                                    <span className="flex items-center gap-1 text-sm font-semibold text-sens-texte">
                                         Ouvrir <ArrowRight className="h-3.5 w-3.5" />
                                     </span>
                                 </Link>
@@ -146,7 +146,7 @@ export default function MonEspacePage() {
                         <button
                             type="button"
                             onClick={deconnexion}
-                            className="mt-6 h-11 w-full text-sm font-semibold text-marque-rouge-texte"
+                            className="mt-6 h-11 w-full text-sm font-semibold text-sens-texte"
                         >
                             Se déconnecter
                         </button>

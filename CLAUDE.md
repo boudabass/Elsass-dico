@@ -2569,6 +2569,29 @@ côté alsacien. Rapport de solutions, option B retenue, cadrée par
   le middleware renvoie 307 sur TOUTE route, même inexistante ; un 307 sur une
   nouvelle page ne prouve donc pas qu'elle est déployée.
 
+## Clôture de session (27-28/09/2026)
+
+Une PR fusionnée (#75), le parcours de contribution refait, en production et
+vérifié à l'écran avec la session de John. `main` et `dev` alignés après la
+PR de clôture.
+
+- **Livré** : feuille « Ça se dit autrement chez moi ? » par étapes, dans les
+  deux sens ; création d'un mot français avec sa forme ; article facultatif,
+  stocké décomposé ; vérification toujours montrée ; `/admin/mots` ; mots et
+  articles des membres recréés à la reconstruction de la base.
+- **Export des contributions** relancé à la clôture : inchangé depuis le
+  commit `a220419` (2 poses, dont la première d'un second membre réel).
+- **Base à la clôture** : 25 864 lemmes (0 créé par un membre), 41 646
+  variantes, 42 137 témoignages (dont 2 parlés), 2 membres, 2 événements au
+  journal.
+- **Reste à constater par John** : le tiroir sur un vrai téléphone (vu
+  seulement dans un cadre de 375 px) ; le bouton « Partager » du jeu, en
+  attente depuis le 26/09.
+- **Ouvert, inchangé** : faire venir des locuteurs ; feu vert du lancement
+  public (workflow N8N) ; mesure de convergence ; auto-inscription Odoo, aire
+  du 57, attribution Azimut. À surveiller à l'usage : le seuil « proche »
+  (≤ 2 lettres et ≤ 25 %), trop large ou trop strict selon les retours.
+
 ## Règles de travail
 
 - Ne jamais inventer de traduction alsacienne, même pour un exemple ou un test.

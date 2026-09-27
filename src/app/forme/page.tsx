@@ -2,6 +2,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ChevronRight } from "lucide-react";
 import { AppHeader } from "@/components/app-header";
+import { BoutonContribuer } from "@/components/contribution/bouton-contribuer";
 import { CarteVariante } from "@/components/carte-variante";
 import { chargerFormeAction } from "@/app/actions/formes";
 import { precisionLemme } from "@/lib/dictionnaire";
@@ -16,8 +17,10 @@ import { VoteVariante } from "@/app/entree/[id]/vote-variante";
 // segment ne survit pas à tous les proxys.
 //
 // On vote ici comme sur la fiche d'un mot — le vote porte sur une variante,
-// c'est-à-dire sur un couple forme × sens. On n'y ajoute pas de forme : une
-// nouvelle graphie se propose sur la fiche du mot français.
+// c'est-à-dire sur un couple forme × sens. Depuis le 28/09/2026, « Ce mot veut
+// aussi dire… » rattache cette forme à un autre mot français, existant ou créé
+// pour l'occasion (on contribue dans les deux sens, décision de John). Une
+// autre GRAPHIE, elle, se propose sur la fiche du mot français.
 export default async function FormePage({ searchParams }: { searchParams: Promise<{ c?: string }> }) {
   const { c } = await searchParams;
   const forme = c ? await chargerFormeAction(c) : null;
@@ -69,6 +72,11 @@ export default async function FormePage({ searchParams }: { searchParams: Promis
             </section>
           ))}
         </div>
+
+        <BoutonContribuer
+          depart={{ type: "forme", forme: forme.sens[0]?.variantes[0]?.forme ?? forme.titre }}
+          className="mt-7"
+        />
       </main>
     </div>
   );

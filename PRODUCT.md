@@ -108,6 +108,12 @@ sans reconstruire sa doctrine.
 - **Rien d'inventé.** Aucune forme alsacienne générée par un LLM, jamais, pas
   même pour un exemple ou un test. Une forme de locuteur s'enregistre
   verbatim, jamais recadrée vers une graphie.
+- **Contribuer, dans les deux sens** (décision de John, 27/09/2026) : un
+  membre ajoute sa forme à un mot français, rattache une forme alsacienne à un
+  autre sens, ou **crée un mot français, jamais sans sa forme alsacienne**. La
+  seule précision demandée est l'article, facultative. Avant de publier, la
+  forme est toujours comparée aux formes de ce mot : identique, on ajoute son
+  village ; proche, on propose la plus proche sans jamais bloquer.
 - **Toujours dire ce qui fonde une forme** : sources écrites et villages, en
   deux chiffres distincts. Peu attesté est publiable ; le faire passer pour
   bien attesté ne l'est pas.

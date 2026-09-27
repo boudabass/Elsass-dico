@@ -9,9 +9,15 @@ export interface LigneJournal {
     id: string
     type: "pose" | "retrait" | "creation" | "modification"
     jour: string // AAAA-MM-JJ
-    lemme: { cle: string; contexte: string; type: string }
+    // `francais` et `parMembre` (28/09/2026) : un mot créé par un membre n'existe
+    // dans aucune source, il faut pouvoir le recréer. Absents des lignes plus
+    // anciennes et des mots de source, d'où facultatifs.
+    lemme: { cle: string; contexte: string; type: string; francais?: string; parMembre?: true }
     cleForme: string
     forme: string // forme ACTUELLE de la variante, celle qu'on retrouve au rejeu
+    // Son article décomposé (28/09/2026), pour qu'une forme de membre recréée
+    // garde `article + formeSansArticle = forme`. Absent sans article.
+    article?: string
     temoignageId: string | null
     commune: number | null // code INSEE
     ancienneForme: string | null

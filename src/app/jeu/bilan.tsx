@@ -5,7 +5,7 @@ import Link from "next/link";
 import { Check, X } from "lucide-react";
 
 import { motChezToiAction, type PartiePublique } from "@/app/actions/jeu";
-import { NouvelleVariante } from "@/app/entree/[id]/nouvelle-variante";
+import { BoutonContribuer } from "@/components/contribution/bouton-contribuer";
 import { VoteVariante } from "@/app/entree/[id]/vote-variante";
 import { useAuth } from "@/components/auth-provider";
 import { ListSkeleton } from "@/components/ui/list-skeleton";
@@ -175,7 +175,11 @@ function ChezToi({ mode }: { mode: "jour" | "libre" }) {
                             </li>
                         ))}
                     </ul>
-                    <NouvelleVariante lemmeId={mot.id} onSucces={rafraichir} />
+                    <BoutonContribuer
+                        depart={{ type: "mot", lemme: { id: mot.id, francais: mot.francais } }}
+                        onSucces={() => rafraichir()}
+                        className="mt-5"
+                    />
                 </>
             )}
         </section>

@@ -8,6 +8,7 @@ import { AppHeader } from "@/components/app-header";
 import { BadgeConfiance } from "@/components/badge-confiance";
 import { CarteForme } from "@/components/carte-forme";
 import { useSens, useSensDepuisUrl } from "@/components/sens-provider";
+import { BoutonContribuer } from "@/components/contribution/bouton-contribuer";
 import { EchecChargement } from "@/components/echec-chargement";
 import { ListSkeleton } from "@/components/ui/list-skeleton";
 import { rechercherFormesAction } from "@/app/actions/formes";
@@ -230,11 +231,16 @@ function RechercheContenu() {
             >
               Chercher «&nbsp;{terme.trim()}&nbsp;» en {autreSens === "als" ? "alsacien" : "français"}
             </button>
-            {/* Le « Proposer ce mot → » de l'ancien circuit pointait vers
-                /contributions/proposer, supprimé le 12/09/2026 avec Supabase. Le
-                geste revient à l'étape 5 de la refonte (le même écran créera le
-                lemme ET sa première variante). Pas de lien en attendant : un lien
-                mort est pire qu'une absence. */}
+            {/* Le mot manque : le membre l'ajoute (28/09/2026), toujours avec
+                sa forme alsacienne. Le terme cherché est repris dans sa langue :
+                un mot français à créer, ou une forme à rattacher à un mot. */}
+            <BoutonContribuer
+              key={`${sens}-${terme.trim()}`}
+              depart={sens === "fr" ? { type: "nouveau", francais: terme.trim() } : { type: "nouveau", forme: terme.trim() }}
+              libelle={`Ajouter « ${terme.trim()} » au dictionnaire`}
+              variante="cadre"
+              className="mt-3 h-auto min-h-12 max-w-sm px-4 py-2.5"
+            />
           </div>
         )}
       </main>

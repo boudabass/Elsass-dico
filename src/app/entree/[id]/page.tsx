@@ -1,12 +1,12 @@
 import { notFound } from "next/navigation";
 import { MapPin } from "lucide-react";
 import { AppHeader } from "@/components/app-header";
+import { BoutonContribuer } from "@/components/contribution/bouton-contribuer";
 import { CarteVariante } from "@/components/carte-variante";
 import { chargerLemme } from "@/app/actions/recherche";
 import { LIBELLES_DEPARTEMENT, LIBELLES_TYPE_TERME } from "@/lib/dictionnaire";
 import { RangeeActions } from "./actions-row";
 import { EditerVariante } from "./editer-variante";
-import { NouvelleVariante } from "./nouvelle-variante";
 import { VoteVariante } from "./vote-variante";
 
 // Écran 2 du handoff mobile : header racine avec chevron retour (l'onglet
@@ -62,14 +62,16 @@ export default async function EntreePage({ params }: { params: Promise<{ id: str
               accessoire={
                 <div className="flex flex-wrap items-center gap-3">
                   <VoteVariante varianteId={v.id} monVote={v.monVote ?? false} />
-                  {v.modifiable && <EditerVariante varianteId={v.id} formeActuelle={v.forme} />}
+                  {v.modifiable && (
+                    <EditerVariante varianteId={v.id} forme={v.forme} article={v.article} formeSansArticle={v.formeSansArticle} />
+                  )}
                 </div>
               }
             />
           ))}
         </div>
 
-        <NouvelleVariante lemmeId={lemme.id} />
+        <BoutonContribuer depart={{ type: "mot", lemme: { id: lemme.id, francais: lemme.francais } }} className="mt-5" />
 
         <RangeeActions entreeId={lemme.id} premiereForme={lemme.variantes[0]?.forme ?? ""} />
       </main>

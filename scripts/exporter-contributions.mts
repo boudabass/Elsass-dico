@@ -38,8 +38,8 @@ const evenements = await prisma.evenementContribution.findMany({
         ancienneForme: true, nouvelleForme: true,
         variante: {
             select: {
-                cleForme: true, forme: true,
-                lemme: { select: { cle: true, contexte: true, type: true } },
+                cleForme: true, forme: true, article: true,
+                lemme: { select: { cle: true, contexte: true, type: true, francais: true, parMembre: true } },
             },
         },
     },
@@ -52,9 +52,15 @@ const lignes: LigneJournal[] = evenements.map((e) => ({
     id: e.id,
     type: e.type,
     jour: e.le.toISOString().slice(0, 10),
-    lemme: { cle: e.variante.lemme.cle, contexte: e.variante.lemme.contexte, type: e.variante.lemme.type },
+    lemme: {
+        cle: e.variante.lemme.cle, contexte: e.variante.lemme.contexte, type: e.variante.lemme.type,
+        // Un mot créé par un membre (28/09/2026) : son libellé part avec lui pour
+        // être recréé au rejeu. L'auteur, lui, ne sort jamais.
+        ...(e.variante.lemme.parMembre ? { francais: e.variante.lemme.francais, parMembre: true as const } : {}),
+    },
     cleForme: e.variante.cleForme,
     forme: e.variante.forme,
+    ...(e.variante.article ? { article: e.variante.article } : {}),
     temoignageId: e.temoignageId,
     commune: e.communeId,
     ancienneForme: e.ancienneForme,

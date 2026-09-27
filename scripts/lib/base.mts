@@ -45,13 +45,10 @@ export function slugifier(texte: string): string {
     return nomNormalise(texte).replace(/\s+/g, "-")
 }
 
-/** Port exact de public.cle_francais() (migration 20260907020000) : minuscules,
- *  espaces extérieurs et ponctuation finale neutralisés. NE désaccentue pas —
- *  `sur` et `sûr` sont deux lemmes (correctif du 24/08/2026) — et ne touche pas
- *  aux parenthèses. Pendant exact de cleDeForme() côté alsacien. */
-export function cleFrancais(francais: string): string {
-    return (francais ?? "").trim().toLowerCase().replace(/[.;,\s]+$/, "")
-}
+// `cleFrancais()` vit dans src/lib/dictionnaire.ts depuis le 28/09/2026 : un
+// membre peut créer un mot, et l'app doit calculer `Lemme.cle` exactement comme
+// la dérivation. Réexportée ici pour les scripts.
+export { cleFrancais } from "../../src/lib/dictionnaire.ts"
 
 /** Exécute une insertion par paquets. Prisma envoie un seul INSERT par lot ;
  *  un lot trop gros dépasse la limite de paramètres de Postgres. */

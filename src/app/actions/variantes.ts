@@ -3,101 +3,70 @@
 import { revalidatePath } from "next/cache"
 
 import { REFUS_VILLAGE_REQUIS, type EchecContribution } from "@/lib/contribution"
+import { poserVariante, validerSaisie, villageDuMembre, type SaisieForme } from "@/lib/contribution-serveur"
 import { cleDeForme } from "@/lib/dictionnaire"
 import { prisma } from "@/lib/prisma"
+import { classerSaisie } from "@/lib/saisie-forme"
 import { sessionActuelle } from "@/lib/session-serveur"
 
-// Doc 20, étape 5, dernier morceau de la contribution qui restait à faire :
-// « ça se dit autrement chez moi » → forme + village, sur un mot qui a déjà
-// une fiche. Distinct du bouton `+` (votes.ts), qui revendique une forme
-// EXISTANTE — ici le membre en écrit une nouvelle.
+// Doc 20, étape 5 : « ça se dit autrement chez moi » → forme + village, sur un
+// mot qui a déjà une fiche. Distinct du bouton `+` (votes.ts), qui revendique
+// une forme EXISTANTE — ici le membre en écrit une nouvelle.
 //
 // Verbatim (règle 1) : ce que le membre tape est enregistré tel quel, jamais
-// recadré vers l'ORTHAL ni « corrigé ». C'est un témoignage de locuteur, pas
-// une transcription de source — la décomposition d'article (article.mts) ne
-// s'applique donc pas, elle est réservée à culture_alsace.
+// recadré vers l'ORTHAL ni « corrigé ». Depuis le 28/09/2026, l'article arrive
+// À PART (bouton, ou détaché du champ par src/lib/saisie-forme.ts) : il est
+// stocké décomposé comme celui de culture_alsace, et `article +
+// formeSansArticle` redonne la forme octet pour octet.
 //
 // La variante et son témoignage se posent dans la même transaction : le doc
 // dit « forme + village », pas deux gestes séparés. Sans ça, la forme naîtrait
 // à 0 source et 0 village, et il faudrait revoter dessus soi-même juste après.
 
-const FORME_MAX = 200
-
 type Resultat =
     | { succes: true; varianteId: string }
     | EchecContribution
 
-export async function creerVarianteAction(lemmeId: string, formeBrute: string): Promise<Resultat> {
+export async function creerVarianteAction(lemmeId: string, saisie: SaisieForme): Promise<Resultat> {
     const session = await sessionActuelle()
     if (!session) return { succes: false, erreur: "Connecte-toi pour continuer" }
 
-    const forme = formeBrute.trim()
-    if (!forme) return { succes: false, erreur: "Écris une forme avant d'envoyer" }
-    if (forme.length > FORME_MAX) return { succes: false, erreur: "Trop long pour une forme" }
+    const valide = validerSaisie(saisie)
+    if (!valide.ok) return { succes: false, erreur: valide.erreur }
 
-    // Relu en base, comme le vote (votes.ts) : le jeton de session dure 30 min
-    // et ne se resynchronise pas au fil de l'eau — un village tout juste choisi
-    // doit pouvoir servir tout de suite.
-    const membre = await prisma.membre.findUnique({
-        where: { id: session.membreId },
-        select: { communeId: true },
-    })
-    if (!membre?.communeId) return REFUS_VILLAGE_REQUIS
+    const communeId = await villageDuMembre(session.membreId)
+    if (!communeId) return REFUS_VILLAGE_REQUIS
 
     const lemme = await prisma.lemme.findUnique({ where: { id: lemmeId }, select: { id: true } })
     if (!lemme) return { succes: false, erreur: "Mot introuvable" }
 
-    const cleFormeCalculee = cleDeForme(forme)
-    if (!cleFormeCalculee) return { succes: false, erreur: "Écris une forme avant d'envoyer" }
-
-    // Le CHECK d'unicité (lemmeId, cleForme) couvre aussi les formes masquées :
-    // vérifié à l'avance pour rendre un message utile plutôt qu'une erreur de
-    // contrainte, et pour ne jamais suggérer de voter sur une forme masquée.
-    const existante = await prisma.variante.findUnique({
-        where: { lemmeId_cleForme: { lemmeId, cleForme: cleFormeCalculee } },
-        select: { masquee: true },
+    // La vérification de la feuille se refait ici : le navigateur ne fait pas
+    // autorité. Une forme IDENTIQUE (article mis de côté, cf. saisie-forme.ts)
+    // renvoie vers « Chez moi aussi » ; une forme seulement proche passe, le
+    // membre a dit qu'elle était différente. Les formes masquées comptent
+    // aussi, avec un message qui ne révèle jamais qu'une forme a été modérée.
+    const connues = await prisma.variante.findMany({
+        where: { lemmeId },
+        select: { forme: true, masquee: true },
     })
-    if (existante) {
-        return existante.masquee
+    const identique =
+        connues.find((c) => cleDeForme(c.forme) === valide.cle)
+        ?? (() => {
+            const r = classerSaisie(valide.forme, connues)
+            return r.statut === "identique" ? r.candidat : null
+        })()
+    if (identique) {
+        return identique.masquee
             ? { succes: false, erreur: "Cette forme est déjà connue de la base" }
-            : { succes: false, erreur: "Cette forme existe déjà. Ajoute plutôt ton village avec « + Chez moi aussi »" }
+            : { succes: false, erreur: "Cette forme existe déjà. Ajoute plutôt ton village avec « Chez moi aussi »" }
     }
 
     try {
-        const variante = await prisma.$transaction(async (tx) => {
-            const v = await tx.variante.create({
-                data: { lemmeId, forme, cleForme: cleFormeCalculee, creeParId: session.membreId },
-                select: { id: true },
-            })
-            const t = await tx.temoignage.create({
-                data: { varianteId: v.id, membreId: session.membreId, communeId: membre.communeId },
-                select: { id: true },
-            })
-            // Journal (24/09/2026) : la création, puis la pose de l'auteur, dans
-            // cet ordre et dans la même transaction que la forme elle-même.
-            await tx.evenementContribution.create({
-                data: {
-                    type: "creation",
-                    varianteId: v.id,
-                    communeId: membre.communeId,
-                    membreId: session.membreId,
-                    nouvelleForme: forme,
-                },
-            })
-            await tx.evenementContribution.create({
-                data: {
-                    type: "pose",
-                    varianteId: v.id,
-                    temoignageId: t.id,
-                    communeId: membre.communeId,
-                    membreId: session.membreId,
-                },
-            })
-            return v
-        })
-
+        const varianteId = await prisma.$transaction((tx) =>
+            poserVariante(tx, { lemmeId, forme: valide.forme, cle: valide.cle, membreId: session.membreId, communeId }),
+        )
         revalidatePath(`/entree/${lemmeId}`)
-        return { succes: true, varianteId: variante.id }
+        return { succes: true, varianteId }
     } catch (erreur) {
         console.error("[Variantes] Non créée:", erreur)
         return { succes: false, erreur: "Enregistrement impossible, réessaie dans un instant" }
@@ -116,13 +85,16 @@ type ResultatSimple =
     | { succes: true }
     | { succes: false; erreur: string }
 
-export async function modifierVarianteAction(varianteId: string, formeBrute: string): Promise<ResultatSimple> {
+export async function modifierVarianteAction(varianteId: string, saisie: SaisieForme): Promise<ResultatSimple> {
     const session = await sessionActuelle()
     if (!session) return { succes: false, erreur: "Connecte-toi pour continuer" }
 
-    const forme = formeBrute.trim()
-    if (!forme) return { succes: false, erreur: "Écris une forme avant d'envoyer" }
-    if (forme.length > FORME_MAX) return { succes: false, erreur: "Trop long pour une forme" }
+    // Recomposée comme à la création (28/09/2026) : réécrire `forme` sans
+    // toucher à l'article ferait échouer le CHECK sur toute forme qui en porte un.
+    const valide = validerSaisie(saisie)
+    if (!valide.ok) return { succes: false, erreur: valide.erreur }
+    const { forme: composee, cle: cleFormeCalculee } = valide
+    const forme = composee.forme
 
     const variante = await prisma.variante.findUnique({
         where: { id: varianteId },
@@ -145,9 +117,6 @@ export async function modifierVarianteAction(varianteId: string, formeBrute: str
     // Rien n'a changé : pas d'écriture, donc pas de fausse modification au journal.
     if (forme === variante.forme) return { succes: true }
 
-    const cleFormeCalculee = cleDeForme(forme)
-    if (!cleFormeCalculee) return { succes: false, erreur: "Écris une forme avant d'envoyer" }
-
     const existante = await prisma.variante.findUnique({
         where: { lemmeId_cleForme: { lemmeId: variante.lemmeId, cleForme: cleFormeCalculee } },
         select: { id: true },
@@ -162,7 +131,12 @@ export async function modifierVarianteAction(varianteId: string, formeBrute: str
         await prisma.$transaction([
             prisma.variante.update({
                 where: { id: varianteId },
-                data: { forme, cleForme: cleFormeCalculee },
+                data: {
+                    forme,
+                    cleForme: cleFormeCalculee,
+                    article: composee.article,
+                    formeSansArticle: composee.formeSansArticle,
+                },
             }),
             prisma.evenementContribution.create({
                 data: {

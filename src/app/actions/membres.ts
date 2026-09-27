@@ -101,6 +101,18 @@ export async function monEspaceAction(): Promise<MonEspace | null> {
     }
 }
 
+/** Le village du membre de la session, pour la feuille de contribution
+ *  (28/09/2026) : il y est demandé s'il manque, et affiché au récapitulatif. */
+export async function monVillageAction(): Promise<{ id: number; nom: string; departement: string } | null> {
+    const session = await sessionActuelle()
+    if (!session) return null
+    const membre = await prisma.membre.findUnique({
+        where: { id: session.membreId },
+        select: { commune: { select: { id: true, nom: true, departement: true } } },
+    })
+    return membre?.commune ?? null
+}
+
 /** Choix du village dans « Mon espace » (doc 20, étape 5 : « profil sans
  *  village → une modale le demande une fois, et le mémorise »). Écrit sur le
  *  profil, qui ne fait que PRÉ-REMPLIR un futur vote — un témoignage déjà posé

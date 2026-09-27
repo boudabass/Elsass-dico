@@ -2486,9 +2486,14 @@ sens de lecture ») et `PRODUCT.md`.
 - **Reste à constater par John** : A et les bascules de sens sur son propre
   navigateur, et le bouton « Partager » du jeu sur téléphone (en attente
   depuis le 26/09).
-- **Proposé, non tranché** : afficher la forme alsacienne sous un mot français
-  à la manière d'un dictionnaire papier (`Lohn (d'r)` plutôt que
-  `d'r Lohn`).
+- **Tranché par John dans la foulée** : sous un mot français, la forme
+  alsacienne s'affiche comme dans un dictionnaire papier, `Lohn (d'r)` et non
+  `d'r Lohn` (`formeDictionnaire()`, dictionnaire A-Z et recherche). Seul
+  l'ordre d'affichage change, les deux morceaux sont ceux de la source ; un
+  article seul reste tel quel. Fusionné par la PR #71. **Non vérifié à
+  l'écran** : John partait, le PC s'éteignait ; vérifié par `typecheck`,
+  `build` et un jeu d'exemples (`d'r Lohn` → `Lohn (d'r)`, `de` → `de`,
+  `buschur` inchangé).
 
 ## Règles de travail
 

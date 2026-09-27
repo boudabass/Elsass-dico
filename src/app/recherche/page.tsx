@@ -12,7 +12,7 @@ import { EchecChargement } from "@/components/echec-chargement";
 import { ListSkeleton } from "@/components/ui/list-skeleton";
 import { rechercherFormesAction } from "@/app/actions/formes";
 import { rechercherAction } from "@/app/actions/recherche";
-import { lienForme, precisionLemme, type FormeResume, type LemmeResume } from "@/lib/dictionnaire";
+import { formeDictionnaire, lienForme, precisionLemme, type FormeResume, type LemmeResume } from "@/lib/dictionnaire";
 import { parametreSens, type Sens } from "@/lib/sens";
 import { useListeMemorisee } from "@/hooks/use-liste-memorisee";
 import { useRequeteDebattue } from "@/hooks/use-requete-debattue";
@@ -189,7 +189,7 @@ function RechercheContenu() {
                     <ul className="mt-1.5 space-y-1">
                       {e.formes.map((f) => (
                         <li key={f.forme} className="flex flex-wrap items-center gap-2">
-                          <span className="text-lg font-bold text-foreground">{f.forme}</span>
+                          <span className="text-lg font-bold text-foreground">{formeDictionnaire(f.forme)}</span>
                           <BadgeConfiance nbSources={f.nbSources} nbVillages={f.nbVillages} />
                         </li>
                       ))}

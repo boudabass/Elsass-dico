@@ -50,7 +50,7 @@ export default function AdminSignalementsPage() {
   };
 
   return (
-    <div className="flex min-h-screen flex-col pb-16 md:pb-0 md:pl-20 lg:pl-56">
+    <div className="flex min-h-ecran flex-col pb-16 md:pb-0 md:pl-20 lg:pl-56">
       <AppHeader variant="stack" titre="Signalements" backHref="/admin" actif="admin" />
 
       <div className="mx-auto w-full max-w-3xl space-y-6 p-4 pb-8">

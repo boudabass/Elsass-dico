@@ -30,10 +30,14 @@
 // trois pages /admin/* gèrent maintenant leur propre largeur en interne
 // (`md:pl-20 lg:pl-56` + leur propre plafond éventuel), exactement comme
 // dashboard/dictionnaire/recherche : plus besoin d'un cas particulier ici.
+//
+// L'inverseur de sens (27/09/2026) est fixé tout en haut pour un membre
+// connecté : la page commence sous lui, d'où le `padding-top` réglé par
+// --hauteur-inverseur (0 sans session).
 export function LayoutWrapper({ children }: { children: React.ReactNode }) {
     return (
         <div className="min-h-screen bg-neutre-50">
-            <div className="mx-auto min-h-screen w-full bg-background">{children}</div>
+            <div className="mx-auto min-h-screen w-full bg-background pt-[var(--hauteur-inverseur)]">{children}</div>
         </div>
     );
 }

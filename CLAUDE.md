@@ -2293,6 +2293,203 @@ du jour », « Participer au dictionnaire ») ; `/recherche` → 307 ; `/jeu` et
   public (workflow N8N) ; mesure de convergence ; auto-inscription Odoo, aire
   du 57, attribution Azimut.
 
+## Le dico dans les deux sens : l'inverseur bleu/rouge (27/09/2026)
+
+Retour de John : la recherche rendait le français puis l'alsacien, « pas très
+clair ni pratique », alors que tout était pensé français → alsacien. La
+recherche mélangeait en fait les deux sens (`par_francais` UNION
+`par_alsacien`) sans dire ce qui avait correspondu : taper `Tàg` rendait une
+carte « bonjour ». Le dictionnaire A-Z et la carte ne connaissaient qu'un sens.
+
+**Décisions de John** : un inverseur tout en haut de l'app, pleine largeur,
+à la même place sur **tous les écrans connectés** ; deux boutons, « Français »
+à gauche et « Alsacien » à droite, et au milieu une flèche qui part de la
+langue de départ ; **bleu = français, rouge = alsacien**, et **toute
+l'interface suit** (onglet actif, boutons, barre de recherche, lettres A-Z).
+La recherche mélangée est supprimée. Les pages actuelles changent de sens, il
+n'y a pas de pages en double. La carte suit aussi le sens.
+
+- **Mesuré avant d'écrire** : 34 047 formes distinctes une fois l'article
+  élidé de tête retiré (`d'r`, `d'`, `s'`, `z'`). Sans ce retrait, D portait
+  11 003 formes et S 6 199, parce que 14 000 formes de culture_alsace
+  commencent par leur article sans avoir été décomposées. 86 % des formes
+  n'ont qu'un sens, le maximum est 11 (`Lohn` : salaire, paie, paye, gage,
+  Salaire).
+- **Migration `20260927120000_sens_inverse`** : trois fonctions SQL,
+  `forme_inverse` (sans article, un fragment contigu de la forme, jamais une
+  réécriture), `cle_inverse` (regroupe sans casse, **avec les accents** :
+  `Barr`/`Bàrr`), `parcours_inverse` (range et donne la lettre, seule à passer
+  par `unaccent`). Plus deux index : une page de S passe de 281 ms à 55 ms.
+  **Piège rencontré** : Postgres 18 construit un index avec un `search_path`
+  restreint à pg_catalog, donc les appels imbriqués sont préfixés `public.`
+  (« function forme_inverse(text) does not exist » sinon). Validée dans une
+  transaction annulée, puis appliquée par `prisma migrate deploy` depuis ce
+  poste (additive, compatible avec le code de `main`).
+- **Couleurs** : échelle `--bleu-*` (bleu-500 mesuré à 7,54:1 sur blanc, au
+  niveau de rouge-500) et tokens `--sens-*`, basculés par `data-sens` sur
+  `<html>`. Cookie `ed_sens`, lu par RootLayout comme la session, donc aucun
+  flash de la mauvaise couleur. Le rouge de marque (home publique, jeu,
+  partage, `/login`, wordmark) ne passe pas par `--sens-*`.
+- **Place réservée** par une seule variable, `--hauteur-inverseur` (0 sans
+  session) : en-tête sticky, rail et hauteur de la carte s'en décalent.
+  L'inverseur porte la marge de l'encoche à la place de l'en-tête.
+- **Côté alsacien** (`src/app/actions/formes.ts`) : recherche groupée par
+  forme, A-Z paginé avec « Aller à une forme », et fiche d'une forme
+  (`/forme?c=`, en paramètre et pas en segment : des formes contiennent une
+  barre oblique). Chaque sens y porte les témoins de SA variante, et on y
+  vote. Sur la carte, une forme montre ses villages avec **une couleur par
+  sens français** (`pointsFormeAction`).
+- **Aucun résultat** : un bouton « Chercher « x » en alsacien » (ou en
+  français) retourne le livre en un geste.
+- **Un lien partagé porte son sens** (`?sens=als`) et le fait adopter à
+  l'arrivée.
+- **Vérifié** : `typecheck`, `build` 970/970 (seul l'EPERM symlink Windows
+  suit). Actions rejouées contre la base : `Tàg` en alsacien rend
+  `güata Tàg → bonjour`, et plus « bonjour » en français ; « Aller à une
+  forme » tombe juste sur `lohn`, `d'r Lohn`, `schtàbil`, `güata`. **À
+  l'écran** (session de John, `dev`, en passant par la nav) : bascule des
+  couleurs et de la flèche, recherche et fiche de `Lohn`, A-Z (L page 10/12
+  avec `Lohn`), carte de `Mundelse` (1 point à Mundolsheim), retour au
+  français, bouton « aucun résultat », rendu 375 px dans un cadre sans
+  débordement. Sans compte, la home, `/jeu`, les fiches village et `/login`
+  n'ont pas d'inverseur.
+- **Limites vues, laissées telles quelles** : 4 variantes réduites à un
+  article seul (`d'`, `s'`, `d'r`) ne sont joignables que par la recherche.
+  L'A-Z alsacien s'ouvre sur des formes précédées de l'article indéfini `a`
+  (`a Äbmägerungskür mache`), qui n'est pas retiré parce qu'il est ambigu
+  (c'est aussi un mot). `/dictionnaire` ouvert par la nav ne porte `?sens=`
+  dans son URL qu'après le premier choix de lettre.
+
+### Trois retours de John sur l'inverseur, corrigés le même jour (27/09/2026)
+
+1. **« L'article ne compte pas, on ne compte pas le, la, les pour le
+   français. »** Migration `20260927180000_articles_inverse` : côté
+   alsacien, `forme_inverse` retire aussi l'article en toutes lettres
+   (`de` ouvrait encore 1 219 formes, `a` 153, `en` 152, `e` 23, plus `à`,
+   `a’`, `ein`, `eine`, `dr'`). Côté français, `cleParcours()` retire `le`,
+   `la`, `les`, `un`, `une`, `l'` : `la maison` passe sous M. **Un article
+   seul reste un mot** (demande de John) : on ne retire que s'il reste
+   quelque chose derrière. Les 7 formes réduites à un article sont désormais
+   dans l'A-Z. Un seul article retiré : dans `en a Kurva geh`, `en` est la
+   préposition « dans », et c'est ce qui reste sous A.
+2. **« La barre passe sous le header », global.** Mesuré : chaque écran
+   dépassait de la fenêtre de 52 px exactement, même vide (`min-h-screen` +
+   le `padding-top` réservé à l'inverseur). La page défilait donc toujours
+   un peu, et la barre de recherche glissait sous l'en-tête. Nouvelle
+   hauteur `min-h-ecran` (`100dvh - --hauteur-inverseur`) sur les 13 écrans.
+   Vérifié en mesurant chaque écran connecté : plus aucun débordement à vide.
+   Au passage, la bordure de l'inverseur mordait d'un pixel sur l'en-tête.
+3. **« Si je change de sens, la liste n'est pas chargée. »** Cause :
+   inverser relançait le chargement des lettres (une Server Action), puis
+   l'effet du sens réécrivait l'URL par `router.replace()` dans la foulée.
+   Une navigation du routeur fait abandonner l'action en vol, dont la
+   promesse ne se résout jamais. **C'est aussi la vraie cause du blocage
+   intermittent de « Aller à un mot » du 14/09**, contourné à l'époque par
+   un pré-remplissage du cache. Les écrans réécrivent désormais leur URL par
+   `remplacerUrl()` (`history.replaceState`, synchronisé par Next 15 avec
+   `useSearchParams`), sans rien interrompre.
+   - **Trouvé en vérifiant** : une fois débloqué, l'alphabet alsacien prenait
+     4,2 s et une page de S 1,3 s. L'index trouvait les lignes en 3 ms, mais
+     recalculer `cle_inverse()` coûtait 100 µs par ligne (la fonction ne
+     s'intègre plus à la requête). Migration
+     `20260927200000_cles_inverses_stockees` : deux colonnes **générées par
+     Postgres**, `cle_inv` et `parcours_inv`, indexées et absentes du schéma
+     Prisma exprès (le client ne doit jamais les écrire). 37 ms et 29 ms en
+     base. La migration réécrit la table (~17 s de verrou).
+- **Vérifié à l'écran** (session de John, `dev`) : bascules répétées sur le
+  dictionnaire (W : 108 mots / 1 620 formes, Q dans les deux sens), sur la
+  recherche (`kolmer`) et sur la carte, toutes chargées sans rechargement.
+- **Vu en passant, corrigé ensuite** : un contexte de source qui porte déjà
+  ses parenthèses s'affichait doublé (`salaire ((le))`), dans l'A-Z comme
+  dans les suggestions de la carte. `entreParentheses()` (15 000 contextes
+  sont un article entre parenthèses).
+
+### Problèmes découverts, corrigés à la demande de John (27/09/2026)
+
+- **Gloses de tête** : 23 formes de culture_alsace portent en tête la glose
+  française de l'article (`(le) d'Àrwet`, `l') d'Meschschtuwa`), et une
+  dizaine de la ponctuation avant un article élidé. L s'ouvrait sur
+  `l') d'Meschschtuwa`. Migration `20260927220000_glose_inverse` : la glose
+  est reconnue à sa parenthèse FERMANTE ; la ponctuation n'est retirée que
+  si un article élidé la suit (sinon `(être) brait` perdait sa parenthèse
+  ouvrante). **Les colonnes générées ne se recalculent pas quand leur
+  fonction change**, d'où un `UPDATE … SET cle_forme = cle_forme` limité aux
+  34 lignes concernées. Écrit `[)]` et non `\)` : ce serveur ne lit pas
+  l'antislash comme un échappement.
+- **URL du dictionnaire** : ouvert par la nav, il ne portait pas `?sens=als`.
+  L'URL suit maintenant lettre, page et sens depuis un seul effet. Un lien
+  partagé garde sa page quand l'écran adopte son sens.
+- **« Tout se charge sauf A »** (retour de John pendant la vérification) :
+  pas reproduit à froid, ni sur `dev` ni sur `main`, mais un **503 du VPS**
+  est apparu sur la première Server Action d'un dictionnaire ouvert par la
+  nav, et A est justement la lettre chargée à ce moment-là. Le hook partagé
+  `useListeMemorisee` ne faisait qu'une reprise : deux 503 à 1,2 s d'écart
+  laissaient l'écran sur son squelette pour toujours, sans rien dire. Il
+  tente maintenant trois fois (0, 1 s, 3 s) puis expose `echec`. Le
+  dictionnaire, la recherche et la carte affichent alors `EchecChargement`
+  (« Le chargement n'a pas abouti », bouton « Réessayer »). **Vérifié en
+  simulant les 503** (`window.fetch` patché) : deux échecs → la lettre charge
+  à la troisième tentative ; échecs continus → le message, puis la lettre au
+  clic sur « Réessayer ».
+- **La vraie cause de « tout sauf A »**, trouvée avec la séquence exacte
+  de John (français, C, alsacien, A, français) : A restait vide au retour en
+  français, **sans aucune requête émise**. Next intercepte aussi
+  `history.replaceState`, et une réécriture d'URL lancée dans le même rendu
+  qu'une Server Action la faisait encore abandonner. `chargerAvecCache`
+  resservait ensuite cette promesse morte (`EN_VOL`) à chaque nouveau clic
+  sur A. **Prouvé** : même départ, bloqué à chaque fois avec `replaceState`
+  actif, chargé avec `replaceState` neutralisé. Corrigé deux fois :
+  dictionnaire et recherche ne réécrivent leur URL qu'**une fois le
+  chargement fini**, et `chargerAvecCache` abandonne un appel sans réponse
+  après 8 s et le retire d'`EN_VOL`. Vérifié sur `dev` : la séquence
+  complète, deux fois de suite, charge chaque liste. Le 503 vu plus haut
+  était une piste réelle mais secondaire.
+  **Règle générale** : une Server Action en vol ne survit ni à
+  `router.replace` ni à `history.replaceState`. Réécrire l'URL après, jamais
+  pendant.
+
+### « Les listes commencent toutes par des articles » (27/09/2026)
+
+Retour de John après les corrections ci-dessus. Relevé des six premières
+formes de chaque lettre côté alsacien, en base : il en restait bien.
+L'article était écrit avec une autre apostrophe (`d"`, `s"`, `d&`, `Z´`,
+`s-`, `d(`, souvent un encodage abîmé à la source), ou sans apostrophe (`d `,
+`s `, `r `, `'r`), ou bien il y avait deux mots en tête (`en a Kurva geh`,
+`e …`), ou l'article était lié (`a-n-aigna`), ou encore c'était un article
+français recopié (`l'Àmpär`, `la Poliklinik`). Migration
+`20260927230000_articles_variantes` : jusqu'à deux articles retirés, toutes
+ces graphies reconnues, et 124 lignes recalculées. **Vérifié à l'écran** : A,
+D, E, L, R et S s'ouvrent sur des mots ; `d`, `d'`, `d'r`, `s`, `s'` seuls
+restent en tête de D et S, puisqu'un article seul compte comme un mot.
+**Laissés exprès** : `z` (« zu »), `f'r` (« für »), `g'` et `b'` (préfixes
+verbaux), qui ne sont pas des articles, et `à) làngschteelig` (glose abîmée,
+un seul cas).
+
+Côté français, les listes commencent bien par le mot. La forme alsacienne
+affichée sous chaque mot garde son article (`d'r Lohn`) : c'est la forme
+telle que la source l'écrit.
+
+## Clôture de session (27/09/2026)
+
+**PR #70** (`dev` → `main`) : le dico dans les deux sens (inverseur
+bleu/rouge, recherche sans mélange, fiche de forme, A-Z et carte côté
+alsacien), les articles ignorés dans l'ordre alphabétique, `min-h-ecran`, les
+clés alsaciennes stockées, la résilience du chargement et le correctif
+`replaceState`. Décision de John consignée dans Odoo 882 (section « Les deux
+sens de lecture ») et `PRODUCT.md`.
+
+- **Six migrations appliquées à la base partagée depuis ce poste**
+  (`20260927120000` à `20260927230000`), toutes additives, le code de `main`
+  d'avant la fusion ne s'en servait pas.
+- **Export des contributions** non relancé : aucun vote ni forme dans la
+  session (les votes de test des sessions précédentes avaient été retirés).
+- **Reste à constater par John** : A et les bascules de sens sur son propre
+  navigateur, et le bouton « Partager » du jeu sur téléphone (en attente
+  depuis le 26/09).
+- **Proposé, non tranché** : afficher la forme alsacienne sous un mot français
+  à la manière d'un dictionnaire papier (`Lohn (d'r)` plutôt que
+  `d'r Lohn`).
+
 ## Règles de travail
 
 - Ne jamais inventer de traduction alsacienne, même pour un exemple ou un test.

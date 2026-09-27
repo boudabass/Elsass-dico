@@ -72,7 +72,7 @@ export function SignalerActions({
         type="button"
         onClick={envoyer}
         disabled={envoi}
-        className="mt-4 flex h-12 w-full items-center justify-center rounded-lg bg-marque-rouge-500 text-sm font-semibold text-white transition-colors hover:bg-marque-rouge-600 disabled:opacity-60"
+        className="mt-4 flex h-12 w-full items-center justify-center rounded-lg bg-sens-500 text-sm font-semibold text-white transition-colors hover:bg-sens-600 disabled:opacity-60"
       >
         {envoi ? "Envoi…" : "Envoyer à l'admin"}
       </button>

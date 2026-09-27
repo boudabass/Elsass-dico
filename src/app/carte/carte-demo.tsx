@@ -2,21 +2,32 @@
 
 import dynamic from "next/dynamic"
 import Link from "next/link"
-import { useEffect, useMemo, useState } from "react"
+import { useEffect, useMemo, useRef, useState } from "react"
 
-import { pointsCarteAction, pointsMotAction, type PointsCarte, type PointsMot } from "@/app/actions/carte"
+import {
+    pointsCarteAction,
+    pointsFormeAction,
+    pointsMotAction,
+    type PointsCarte,
+    type PointsForme,
+    type PointsMot,
+} from "@/app/actions/carte"
+import { rechercherFormesAction } from "@/app/actions/formes"
 import { rechercherAction } from "@/app/actions/recherche"
 import { AppHeader } from "@/components/app-header"
 import type { PointParler } from "@/components/carte-parlers"
 import { ChampSuggestions } from "@/components/champ-suggestions"
+import { EchecChargement } from "@/components/echec-chargement"
+import { useSens } from "@/components/sens-provider"
 import { useListeMemorisee } from "@/hooks/use-liste-memorisee"
 import { useRequeteDebattue } from "@/hooks/use-requete-debattue"
 import { cleCache } from "@/lib/cache-navigation"
 import { couleurDeForme } from "@/lib/couleur-carte"
-import { precisionLemme, type LemmeResume } from "@/lib/dictionnaire"
+import { entreParentheses, precisionLemme, type FormeResume, type LemmeResume } from "@/lib/dictionnaire"
 
 import { AideCarte } from "./aide-carte"
 import { PanneauContribution } from "./panneau-contribution"
+import { PanneauForme } from "./panneau-forme"
 
 // `ssr: false` parce que Leaflet lit `window` à l'import : sans ça, le build
 // échoue au prérendu de la page.
@@ -36,8 +47,14 @@ const CarteParlers = dynamic(
 // ferait redessiner les marqueurs pour rien.
 const AUCUN_POINT: PointParler[] = []
 
+// Une suggestion du champ de recherche, dans l'un ou l'autre sens
+// (27/09/2026) : un mot français, ou une forme alsacienne.
+type Suggestion =
+    | { cle: string; lemme: LemmeResume; forme?: undefined }
+    | { cle: string; forme: FormeResume; lemme?: undefined }
+
 export function CarteDemo() {
-    const { donnees, premierChargement } = useListeMemorisee<PointsCarte>({
+    const { donnees, premierChargement, echec: echecVillages, rafraichir: rechargerVillages } = useListeMemorisee<PointsCarte>({
         // Donnée publique, la même pour tout le monde : pas de segment
         // d'identité dans la clé, contrairement aux listes propres à un
         // membre (`admin-membres`, `mon-espace`).
@@ -52,19 +69,39 @@ export function CarteDemo() {
     // n'importe quel lemme du dictionnaire et bascule la carte sur SES
     // villages témoins — qui n'ont souvent rien à voir avec le toponyme du
     // même nom.
+    //
+    // Le sens de l'inverseur (27/09/2026) choisit ce qu'on cherche : un mot
+    // français, dont on voit les formes, ou une forme alsacienne, dont on voit
+    // les sens. `motActif` et `formeActive` ne coexistent jamais.
+    const { sens } = useSens()
     const [motSaisi, setMotSaisi] = useState("")
     const [motActif, setMotActif] = useState<LemmeResume | null>(null)
+    const [formeActive, setFormeActive] = useState<FormeResume | null>(null)
     const requeteMot = useRequeteDebattue(motSaisi)
 
-    const cleSuggestions = requeteMot ? cleCache("carte-suggestions", requeteMot) : null
-    const { donnees: suggestions } = useListeMemorisee<LemmeResume[]>({
+    const cleSuggestions = requeteMot ? cleCache("carte-suggestions", sens, requeteMot) : null
+    const { donnees: suggestions } = useListeMemorisee<Suggestion[]>({
         cle: cleSuggestions,
-        charger: () => rechercherAction(requeteMot),
+        charger: async (): Promise<Suggestion[]> =>
+            sens === "als"
+                ? (await rechercherFormesAction(requeteMot)).map((f) => ({ cle: f.cle, forme: f }))
+                : (await rechercherAction(requeteMot)).map((l) => ({ cle: l.id, lemme: l })),
+    })
+
+    const {
+        donnees: pointsForme,
+        premierChargement: formeEnChargement,
+        echec: echecForme,
+        rafraichir: rafraichirForme,
+    } = useListeMemorisee<PointsForme | null>({
+        cle: formeActive ? cleCache("carte-forme", formeActive.cle) : null,
+        charger: () => pointsFormeAction(formeActive!.cle),
     })
 
     const {
         donnees: pointsMot,
         premierChargement: motEnChargement,
+        echec: echecMot,
         rafraichir: rafraichirMot,
     } = useListeMemorisee<PointsMot | null>({
         cle: motActif ? cleCache("carte-mot", motActif.id) : null,
@@ -84,8 +121,9 @@ export function CarteDemo() {
         window.history.replaceState(null, "", window.location.pathname)
     }, [])
 
-    function choisirMot(lemme: LemmeResume) {
-        setMotActif(lemme)
+    function choisir(s: Suggestion) {
+        if (s.lemme) setMotActif(s.lemme)
+        else setFormeActive(s.forme)
         setMotSaisi("")
     }
 
@@ -93,7 +131,19 @@ export function CarteDemo() {
     function saisirMot(valeur: string) {
         setMotSaisi(valeur)
         setMotActif(null)
+        setFormeActive(null)
     }
+
+    // Retourner le livre ramène à la carte des villages : un mot français
+    // affiché n'a plus de sens une fois qu'on cherche depuis l'alsacien.
+    // La carte, elle, reste montée et garde son cadrage.
+    const sensPrecedent = useRef(sens)
+    useEffect(() => {
+        if (sensPrecedent.current === sens) return
+        sensPrecedent.current = sens
+        saisirMot("")
+        // eslint-disable-next-line react-hooks/exhaustive-deps
+    }, [sens])
 
     // Pas de débounce : filtrer quelques centaines de points en mémoire ne
     // coûte rien, et la carte ne redessine que ses marqueurs.
@@ -107,14 +157,21 @@ export function CarteDemo() {
             || p.formes.some((f) => f.toLowerCase().includes(t)))
     }, [villages, filtre])
 
-    const pointsAffiches = motActif ? (pointsMot?.points ?? AUCUN_POINT) : villagesFiltres
-    const enChargement = motActif ? motEnChargement : premierChargement
+    const pointsAffiches = formeActive
+        ? (pointsForme?.points ?? AUCUN_POINT)
+        : motActif
+            ? (pointsMot?.points ?? AUCUN_POINT)
+            : villagesFiltres
+    const enChargement = formeActive ? formeEnChargement : motActif ? motEnChargement : premierChargement
+    const selection = motActif ?? formeActive
+    const echec = formeActive ? echecForme : motActif ? echecMot : echecVillages
+    const recharger = formeActive ? rafraichirForme : motActif ? rafraichirMot : rechargerVillages
 
     return (
         // `overflow-hidden` : filet de sécurité. Le panneau de contribution a
         // son propre défilement ; sans cette ligne, un débordement de `main`
         // remonterait quand même en scroll de PAGE.
-        <div className="flex h-dvh flex-col overflow-hidden md:pl-20 lg:pl-56">
+        <div className="flex h-[calc(100dvh-var(--hauteur-inverseur))] flex-col overflow-hidden md:pl-20 lg:pl-56">
             <div className="shrink-0">
                 <AppHeader variant="root" actif="carte" titre="Carte des parlers" />
             </div>
@@ -125,23 +182,34 @@ export function CarteDemo() {
             <main className="flex min-h-0 flex-1 flex-col gap-2 p-4 pb-16 md:pb-4">
                 <div className="flex shrink-0 items-start gap-2">
                     <ChampSuggestions
-                        label="Chercher un mot du dictionnaire"
+                        label={sens === "als" ? "Chercher une forme alsacienne" : "Chercher un mot français"}
                         valeur={motSaisi}
                         onValeurChange={saisirMot}
-                        placeholder="Chercher un mot : bonjour, salaire, Colmar…"
+                        placeholder={sens === "als" ? "Chercher en alsacien : buschur, Lohn, Kolmer…" : "Chercher en français : bonjour, salaire, Colmar…"}
                         actif={cleSuggestions !== null}
                         suggestions={suggestions}
-                        cleDe={(s) => String(s.id)}
-                        rendre={(s) => (
-                            <>
-                                {s.francais}
-                                {precisionLemme(s) ? <span className="text-muted-foreground"> ({precisionLemme(s)})</span> : null}
-                            </>
-                        )}
-                        onChoisir={choisirMot}
+                        cleDe={(s) => s.cle}
+                        rendre={(s) =>
+                            s.lemme ? (
+                                <>
+                                    {s.lemme.francais}
+                                    {precisionLemme(s.lemme) ? <span className="text-muted-foreground"> {entreParentheses(precisionLemme(s.lemme))}</span> : null}
+                                </>
+                            ) : (
+                                <>
+                                    {s.forme.titre}
+                                    {s.forme.sens[0] && (
+                                        <span className="text-muted-foreground">
+                                            {" "}({s.forme.sens[0].francais}{s.forme.nbSens > 1 ? `, +${s.forme.nbSens - 1}` : ""})
+                                        </span>
+                                    )}
+                                </>
+                            )
+                        }
+                        onChoisir={choisir}
                         inputClassName="pr-9"
                         className="min-w-0 flex-1"
-                        ornement={motActif && (
+                        ornement={selection && (
                             <button
                                 type="button"
                                 onClick={() => saisirMot("")}
@@ -154,6 +222,14 @@ export function CarteDemo() {
                     />
                     <AideCarte />
                 </div>
+
+                {formeActive && (
+                    <PanneauForme
+                        titre={formeActive.titre}
+                        sens={formeEnChargement ? null : (pointsForme?.sens ?? [])}
+                        onSucces={rafraichirForme}
+                    />
+                )}
 
                 {motActif && (
                     <PanneauContribution
@@ -173,6 +249,11 @@ export function CarteDemo() {
                         couleurDe={couleurDeForme}
                         className="h-full w-full overflow-hidden rounded-lg border"
                     />
+                    {echec && (
+                        <div className="absolute inset-x-3 top-3 z-[1001] mx-auto max-w-sm rounded-lg border bg-background shadow-md">
+                            <EchecChargement onReessayer={recharger} />
+                        </div>
+                    )}
                     {enChargement && (
                         <div className="pointer-events-none absolute inset-x-0 top-3 flex justify-center">
                             <span className="rounded-full border bg-background px-3 py-1 text-xs text-muted-foreground shadow-sm">
@@ -182,7 +263,7 @@ export function CarteDemo() {
                     )}
                 </div>
 
-                {!motActif && (
+                {!selection && (
                     <input
                         value={filtre}
                         onChange={(e) => setFiltre(e.target.value)}

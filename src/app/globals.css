@@ -112,6 +112,33 @@
     --marque-or-800: 38 73% 17%;
     --marque-or-900: 39 76% 10%;
 
+    /* Le sens du dictionnaire (27/09/2026, décision de John) : BLEU pour le
+       français, ROUGE pour l'alsacien. L'inverseur tout en haut de l'app porte
+       les deux ; le reste de l'interface (onglet actif, boutons, barre de
+       recherche, lettres A-Z) suit la langue de départ par les tokens
+       --sens-*, qu'un seul attribut `data-sens` sur <html> fait basculer. Le
+       rouge de marque (home publique, jeu, partage) ne passe pas par eux.
+       bleu-500 mesuré à 7,54:1 sur blanc, au niveau de rouge-500 (7,87:1). */
+    --bleu-50: 214 80% 96%;
+    --bleu-100: 214 75% 90%;
+    --bleu-200: 214 70% 78%;
+    --bleu-500: 214 85% 36%;
+    --bleu-600: 214 88% 29%;
+    --bleu-texte: 214 85% 36%;
+
+    --sens-50: var(--bleu-50);
+    --sens-100: var(--bleu-100);
+    --sens-200: var(--bleu-200);
+    --sens-500: var(--bleu-500);
+    --sens-600: var(--bleu-600);
+    --sens-texte: var(--bleu-texte);
+
+    /* Hauteur réservée à l'inverseur, qui n'existe que pour un membre
+       connecté (`data-inverseur` posé par RootLayout). En-tête sticky, rail
+       et carte s'en décalent tous par cette seule variable. */
+    --hauteur-inverseur: 0px;
+    --marge-encoche-entete: env(safe-area-inset-top);
+
     --chart-1: 47 86% 56%;
     --chart-2: 0 100% 50%;
     --chart-3: 210 11% 15%;
@@ -236,6 +263,24 @@
     --sidebar-accent-foreground: 210 17% 96%;
     --sidebar-border: 210 11% 20%;
     --sidebar-ring: 47 86% 56%;
+
+    --bleu-texte: 214 90% 68%;
+  }
+
+  /* Placés après .dark : ils ne font que rediriger vers des tokens déjà
+     déclinés en clair et en sombre. */
+  [data-sens="als"] {
+    --sens-50: var(--marque-rouge-50);
+    --sens-100: var(--marque-rouge-100);
+    --sens-200: var(--marque-rouge-200);
+    --sens-500: var(--marque-rouge-500);
+    --sens-600: var(--marque-rouge-600);
+    --sens-texte: var(--marque-rouge-texte);
+  }
+
+  html[data-inverseur] {
+    --hauteur-inverseur: calc(52px + env(safe-area-inset-top));
+    --marge-encoche-entete: 0px;
   }
 }
 

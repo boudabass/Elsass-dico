@@ -48,7 +48,7 @@ export function CarteVariante({
                     href={s.url}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-block rounded py-0.5 underline-offset-4 transition-colors hover:text-marque-rouge-texte hover:underline focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
+                    className="inline-block rounded py-0.5 underline-offset-4 transition-colors hover:text-sens-texte hover:underline focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
                   >
                     {s.nom}
                   </a>

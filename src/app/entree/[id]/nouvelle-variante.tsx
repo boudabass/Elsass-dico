@@ -52,7 +52,7 @@ export function NouvelleVariante({ lemmeId, onSucces }: { lemmeId: string; onSuc
                 <button
                     type="submit"
                     disabled={enCours || !forme.trim()}
-                    className="h-10 shrink-0 rounded-md bg-marque-rouge-500 px-4 text-sm font-semibold text-white transition-colors hover:bg-marque-rouge-600 disabled:opacity-50"
+                    className="h-10 shrink-0 rounded-md bg-sens-500 px-4 text-sm font-semibold text-white transition-colors hover:bg-sens-600 disabled:opacity-50"
                 >
                     Ajouter
                 </button>

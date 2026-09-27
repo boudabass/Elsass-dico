@@ -24,8 +24,19 @@ const FORMES_EN_APERCU = 3
 // en base, mesuré le 24/09/2026). Lettre, tri et saut de page passent tous
 // par cette même expression : si l'un s'en écartait, le saut tomberait sur
 // une page qui n'affiche pas le mot.
+//
+// L'article de tête ne compte pas non plus (27/09/2026, John : « on ne compte
+// pas le, la, les ») : `la maison` se range sous M, `l'eau` sous E. Seulement
+// s'il reste un mot derrière — `la` seul, la note, reste sous L. Un ordre
+// d'affichage, jamais une clé d'identité : aucune ligne n'est fusionnée.
+function parcoursDe(expression: Prisma.Sql): Prisma.Sql {
+    return Prisma.sql`regexp_replace(
+        regexp_replace(immutable_unaccent(${expression}), '^[^A-Za-z]+', ''),
+        '^((les?|la|une?)[[:space:]]+|l'')(?=[a-z])', '')`
+}
+
 function cleParcours(colonne: string): Prisma.Sql {
-    return Prisma.sql`regexp_replace(immutable_unaccent(${Prisma.raw(colonne)}), '^[^A-Za-z]+', '')`
+    return parcoursDe(Prisma.raw(colonne))
 }
 
 function lettreDe(colonne: string): Prisma.Sql {
@@ -154,7 +165,7 @@ export async function pageDuPrefixeAction(lettre: string, prefixe: string): Prom
     const rangs = await prisma.$queryRaw<{ rang: bigint }[]>`
         SELECT count(*) AS rang FROM lemmes
         WHERE ${lettreDe("cle")} = ${initiale}
-          AND ${cleParcours("cle")} < immutable_unaccent(${prefixeTrim})
+          AND ${cleParcours("cle")} < ${parcoursDe(Prisma.sql`lower(${prefixeTrim})`)}
     `
     const rang = Number(rangs[0]?.rang ?? 0)
 

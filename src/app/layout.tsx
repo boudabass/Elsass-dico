@@ -4,8 +4,12 @@ import localFont from "next/font/local";
 import "./globals.css";
 import { Toaster } from "@/components/ui/sonner";
 import { AuthProvider } from "@/components/auth-provider";
+import { InverseurSens } from "@/components/inverseur-sens";
 import { LayoutWrapper } from "@/components/layout-wrapper";
+import { SensProvider } from "@/components/sens-provider";
+import { COOKIE_SENS, lireSens } from "@/lib/sens";
 import { sessionActuelle } from "@/lib/session-serveur";
+import { cookies } from "next/headers";
 
 // Corps de texte : Archivo, adoptée le 28/08/2026 (design system « The
 // Elsassisch Design Systeme ») en remplacement de la pile système mesurée
@@ -41,18 +45,31 @@ export default async function RootLayout({
   children: React.ReactNode;
 }>) {
   const session = await sessionActuelle();
+  // Le sens est lu ici, comme la session, pour que <html> porte la bonne
+  // couleur dès le premier octet (cf. sens-provider.tsx).
+  const sens = lireSens((await cookies()).get(COOKIE_SENS)?.value);
 
   return (
-    <html lang="fr" suppressHydrationWarning>
+    <html
+      lang="fr"
+      data-sens={sens}
+      // L'inverseur n'existe que pour un membre : sans lui, aucune place
+      // n'est réservée en haut (--hauteur-inverseur, globals.css).
+      data-inverseur={session ? "" : undefined}
+      suppressHydrationWarning
+    >
       <body
         className={`${archivo.variable} ${azimut.variable} font-sans antialiased`}
         suppressHydrationWarning
       >
         <AuthProvider session={session}>
-          <LayoutWrapper>
-            {children}
-          </LayoutWrapper>
-          <Toaster />
+          <SensProvider sensInitial={sens}>
+            {session && <InverseurSens />}
+            <LayoutWrapper>
+              {children}
+            </LayoutWrapper>
+            <Toaster />
+          </SensProvider>
         </AuthProvider>
       </body>
     </html>

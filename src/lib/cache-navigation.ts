@@ -83,12 +83,23 @@ function ecrireCache(cle: string, donnees: unknown): void {
 // une seule promesse. Le retrait d'EN_VOL se fait dans le finally de la
 // promesse et JAMAIS dans un cleanup d'effet — sinon le démontage du premier
 // passage StrictMode annulerait la déduplication qu'on vient de poser.
+const DELAI_MAX_MS = 8000
+
 export async function chargerAvecCache<T>(cle: string, charger: () => Promise<T>): Promise<T> {
     const enVol = EN_VOL.get(cle)
     if (enVol) return enVol as Promise<T>
 
     const version = VERSIONS.get(cle) ?? 0
-    const promesse = charger()
+    // Un appel qui ne répond jamais ne doit pas rester « en vol » : il serait
+    // resservi à chaque nouvelle demande de la même clé, et l'écran resterait
+    // sur son squelette jusqu'au rechargement (27/09/2026, lettre A du
+    // dictionnaire, Server Action abandonnée par Next). Passé ce délai, il
+    // échoue et sort d'EN_VOL ; la reprise de `useListeMemorisee` relance.
+    const promesse = Promise.race([
+        charger(),
+        new Promise<never>((_, rejeter) =>
+            setTimeout(() => rejeter(new Error("Délai dépassé")), DELAI_MAX_MS)),
+    ])
         .then((donnees) => {
             if ((VERSIONS.get(cle) ?? 0) === version) ecrireCache(cle, donnees)
             return donnees
@@ -169,4 +180,17 @@ if (typeof window !== "undefined") {
 
 export function estRetourHistorique(): boolean {
     return dernierRetour > 0 && performance.now() - dernierRetour < DELAI_RETOUR_MS
+}
+
+/** Réécrire l'URL d'un écran (filtres, lettre, page, sens) SANS navigation du
+ *  routeur. `router.replace()` en est une : lancée alors qu'une Server Action
+ *  est en vol, elle fait abandonner l'action, dont la promesse ne se résout
+ *  jamais. L'écran reste alors sur son squelette jusqu'au rechargement.
+ *  C'était le blocage intermittent de « Aller à un mot » (14/09/2026), et celui
+ *  du dictionnaire quand on inverse le sens (27/09/2026) : le chargement des
+ *  lettres partait, puis l'effet du sens réécrivait l'URL dans la foulée.
+ *  `history.replaceState` est synchronisé par Next 15 avec `useSearchParams`,
+ *  sans rien interrompre. */
+export function remplacerUrl(url: string): void {
+    window.history.replaceState(null, "", url)
 }

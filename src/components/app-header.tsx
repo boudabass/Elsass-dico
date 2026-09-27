@@ -79,8 +79,10 @@ export function AppHeader(props: AppHeaderProps) {
     <>
       {props.actif ? <AppNavShell actif={props.actif} /> : null}
       <header
-        className="sticky top-0 z-40 border-b border-border bg-background"
-        style={{ paddingTop: "env(safe-area-inset-top)" }}
+        // Sous l'inverseur de sens quand il existe (membre connecté), qui
+        // porte alors la marge de l'encoche à sa place.
+        className="sticky top-[var(--hauteur-inverseur)] z-40 border-b border-border bg-background"
+        style={{ paddingTop: "var(--marge-encoche-entete)" }}
       >
         <div className="flex h-14 items-center justify-between gap-2 px-4">
           {props.variant === "root" ? (
@@ -112,7 +114,7 @@ function BoutonCompte({ actif }: { actif?: OngletRacine }) {
       className={cn(
         BOUTON_ICONE,
         "md:hidden",
-        estActif ? "bg-marque-rouge-500 text-white" : "bg-neutre-100 text-foreground"
+        estActif ? "bg-sens-500 text-white" : "bg-neutre-100 text-foreground"
       )}
     >
       <User className="h-[18px] w-[18px]" strokeWidth={estActif ? 2.4 : 2} />

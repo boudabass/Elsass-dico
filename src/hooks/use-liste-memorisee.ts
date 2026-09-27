@@ -15,6 +15,9 @@ import { chargerAvecCache, invaliderCache, lireCache } from "@/lib/cache-navigat
 // n'augmente jamais par rapport à l'existant.
 const FRAICHEUR_MS = 15_000;
 
+// Délais avant chaque tentative : tout de suite, puis 1 s, puis 3 s.
+const ATTENTES_REPRISE_MS = [0, 1000, 3000];
+
 interface Options<T> {
     // Clé d'écran. `null` = on ne charge rien (rôle pas encore résolu, accès
     // refusé) : le hook reste inerte au lieu d'appeler avec une identité vide.
@@ -32,6 +35,9 @@ interface Etat<T> {
     // Force le réseau et écrase le cache. Remplace les rafraichir()/refreshUsers()
     // que les pages appellent déjà après leurs propres mutations.
     rafraichir: () => Promise<void>;
+    // Toutes les tentatives ont échoué et rien n'est à l'écran : l'écran doit
+    // le dire et proposer `rafraichir()`, jamais rester sur son squelette.
+    echec: boolean;
 }
 
 export function useListeMemorisee<T>({ cle, charger, fraicheurMs = FRAICHEUR_MS }: Options<T>): Etat<T> {
@@ -47,6 +53,7 @@ export function useListeMemorisee<T>({ cle, charger, fraicheurMs = FRAICHEUR_MS 
     // hauteur et la restauration du scroll n'aurait rien où aller.
     const [donnees, setDonnees] = useState<T | null>(() => (cle ? lireCache<T>(cle)?.donnees ?? null : null));
     const [enCours, setEnCours] = useState(false);
+    const [echec, setEchec] = useState(false);
 
     // Au changement de clé, on re-dérive PENDANT le rendu (motif React
     // « ajuster l'état quand les props changent ») plutôt que dans un effet,
@@ -55,6 +62,7 @@ export function useListeMemorisee<T>({ cle, charger, fraicheurMs = FRAICHEUR_MS 
     if (cle !== cleRef.current) {
         cleRef.current = cle;
         setDonnees(cle ? lireCache<T>(cle)?.donnees ?? null : null);
+        setEchec(false);
     }
 
     useEffect(() => {
@@ -65,6 +73,7 @@ export function useListeMemorisee<T>({ cle, charger, fraicheurMs = FRAICHEUR_MS 
 
         let annule = false;
         setEnCours(true);
+        setEchec(false);
 
         // Une requête ratée (503 transitoire du VPS partagé, cf. audit du
         // 30/08/2026) ne doit jamais laisser l'écran bloqué sur son squelette :
@@ -72,15 +81,26 @@ export function useListeMemorisee<T>({ cle, charger, fraicheurMs = FRAICHEUR_MS 
         // redéclenchait l'effet (`cle` inchangée) — trouvé le 14/09/2026 en
         // vérifiant le champ « Aller à un mot », dont l'aller-retour serveur
         // supplémentaire au même instant que le rendu de la page a suffi à
-        // faire apparaître un 503 déjà latent. Une seule nouvelle tentative
-        // après un court délai, pas de boucle infinie.
+        // faire apparaître un 503 déjà latent.
+        //
+        // Trois tentatives espacées, pas une (27/09/2026) : le 503 tombe
+        // surtout au premier chargement d'un écran, quand la page, son code et
+        // ses actions arrivent ensemble, et deux échecs à 1,2 s d'écart
+        // suffisaient à laisser la lettre A du dictionnaire vide (retour de
+        // John). Toujours pas de boucle infinie : au-delà, `echec` le dit à
+        // l'écran, qui propose de réessayer.
         async function chargerAvecReprise(): Promise<T> {
-            try {
-                return await chargerAvecCache<T>(cle as string, () => chargerRef.current());
-            } catch {
-                await new Promise((resoudre) => setTimeout(resoudre, 1200));
-                return chargerAvecCache<T>(cle as string, () => chargerRef.current());
+            let derniere: unknown;
+            for (const attente of ATTENTES_REPRISE_MS) {
+                if (attente) await new Promise((resoudre) => setTimeout(resoudre, attente));
+                if (annule) throw new Error("abandonné");
+                try {
+                    return await chargerAvecCache<T>(cle as string, () => chargerRef.current());
+                } catch (erreur) {
+                    derniere = erreur;
+                }
             }
+            throw derniere;
         }
 
         chargerAvecReprise()
@@ -92,9 +112,10 @@ export function useListeMemorisee<T>({ cle, charger, fraicheurMs = FRAICHEUR_MS 
                 if (!annule && cleRef.current === cle) setDonnees(resultat);
             })
             .catch(() => {
-                // Deux échecs de suite : on abandonne plutôt que de retenter
-                // sans fin. La prochaine visite de cet écran (clé revue) ou un
-                // `rafraichir()` explicite retentera.
+                // Trois échecs de suite : on le dit plutôt que de retenter sans
+                // fin. `rafraichir()` (le bouton de l'écran) ou la prochaine
+                // visite de cette clé retentera.
+                if (!annule && cleRef.current === cle) setEchec(true);
             })
             .finally(() => {
                 if (!annule) setEnCours(false);
@@ -109,9 +130,12 @@ export function useListeMemorisee<T>({ cle, charger, fraicheurMs = FRAICHEUR_MS 
         if (!cle) return;
         invaliderCache(cle);
         setEnCours(true);
+        setEchec(false);
         try {
             const resultat = await chargerAvecCache<T>(cle, () => chargerRef.current());
             if (cleRef.current === cle) setDonnees(resultat);
+        } catch {
+            if (cleRef.current === cle) setEchec(true);
         } finally {
             setEnCours(false);
         }
@@ -122,5 +146,6 @@ export function useListeMemorisee<T>({ cle, charger, fraicheurMs = FRAICHEUR_MS 
         premierChargement: enCours && donnees === null,
         revalidation: enCours && donnees !== null,
         rafraichir,
+        echec: echec && donnees === null,
     };
 }

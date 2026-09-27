@@ -178,7 +178,7 @@ function PremiersMots({
                     </div>
                     <Link
                         href={`/entree/${mot.id}`}
-                        className="mt-2 inline-flex min-h-9 items-center text-[13px] font-semibold text-marque-rouge-texte underline-offset-4 hover:underline"
+                        className="mt-2 inline-flex min-h-9 items-center text-[13px] font-semibold text-sens-texte underline-offset-4 hover:underline"
                     >
                         Ça se dit autrement chez moi
                     </Link>
@@ -259,7 +259,7 @@ function Reussite({
             <div className="mt-3 flex flex-wrap gap-2">
                 <Link
                     href={`/carte?mot=${lemmeId}`}
-                    className="inline-flex h-10 items-center gap-1.5 rounded-lg bg-marque-rouge-500 px-4 text-sm font-semibold text-white transition-colors hover:bg-marque-rouge-600"
+                    className="inline-flex h-10 items-center gap-1.5 rounded-lg bg-sens-500 px-4 text-sm font-semibold text-white transition-colors hover:bg-sens-600"
                 >
                     <MapPin className="h-4 w-4" strokeWidth={2.2} aria-hidden />
                     Voir sur la carte

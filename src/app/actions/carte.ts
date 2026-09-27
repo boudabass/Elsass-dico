@@ -11,6 +11,9 @@ export interface PointCarte {
     longitude: number
     /** Les formes attestées pour ce village, dans l'ordre où elles viennent. */
     formes: string[]
+    /** Ce qui choisit la couleur, quand ce n'est pas la première forme : le
+     *  sens français, sur la carte d'une forme alsacienne. */
+    couleurCle?: string
 }
 
 export interface PointsCarte {
@@ -130,4 +133,80 @@ export async function pointsMotAction(lemmeId: string): Promise<PointsMot | null
     }
 
     return { francais: lemme.francais, points, variantes }
+}
+
+// L'autre sens de la carte (27/09/2026, inverseur) : on part d'une FORME
+// alsacienne et on voit où on la dit, un point par (variante, village). La
+// couleur suit le SENS français, pas la graphie : `Lohn` pour « salaire » et
+// `d'r Lohn` pour « salaire » sont la même chose dite, `Lohn` pour « gage »
+// une autre. Même clé de regroupement que le dictionnaire côté alsacien
+// (`cle_inverse`, migration 20260927120000).
+export interface SensFormeCarte {
+    varianteId: string
+    forme: string
+    francais: string
+    nbVillages: number
+    monVote: boolean
+}
+
+export interface PointsForme {
+    points: PointCarte[]
+    sens: SensFormeCarte[]
+}
+
+export async function pointsFormeAction(cle: string): Promise<PointsForme | null> {
+    const cleNette = cle.trim()
+    if (!cleNette) return null
+
+    const ids = await prisma.$queryRaw<{ id: string }[]>`
+        SELECT id FROM variantes
+        WHERE masquee = false AND cle_inv = ${cleNette}
+    `
+    if (!ids.length) return null
+
+    const session = await sessionActuelle()
+    const variantes = await prisma.variante.findMany({
+        where: { id: { in: ids.map((i) => i.id) } },
+        orderBy: [{ forme: "asc" }],
+        select: {
+            id: true,
+            forme: true,
+            lemme: { select: { francais: true } },
+            temoignages: {
+                // Même restriction que `pointsMotAction` : seuls les témoins
+                // de locuteurs ont un village.
+                where: { communeId: { not: null } },
+                select: {
+                    membreId: true,
+                    commune: { select: { id: true, nom: true, latitude: true, longitude: true } },
+                },
+            },
+        },
+    })
+
+    const points: PointCarte[] = []
+    const sens: SensFormeCarte[] = []
+
+    for (const v of variantes) {
+        const villages = new Map<number, { id: number; nom: string; latitude: number; longitude: number }>()
+        let monVote = false
+        for (const t of v.temoignages) {
+            if (t.commune) villages.set(t.commune.id, t.commune)
+            if (session && t.membreId === session.membreId) monVote = true
+        }
+        Array.from(villages.values()).forEach((c) => {
+            points.push({
+                id: c.id,
+                nom: c.nom,
+                latitude: c.latitude,
+                longitude: c.longitude,
+                formes: [`${v.forme} (${v.lemme.francais})`],
+                couleurCle: v.lemme.francais,
+            })
+        })
+        sens.push({ varianteId: v.id, forme: v.forme, francais: v.lemme.francais, nbVillages: villages.size, monVote })
+    }
+
+    sens.sort((a, b) => b.nbVillages - a.nbVillages || a.francais.localeCompare(b.francais, "fr") || a.forme.localeCompare(b.forme, "fr"))
+    return { points, sens }
 }

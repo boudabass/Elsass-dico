@@ -16,6 +16,13 @@ export default {
   			sans: ['var(--font-archivo)', 'ui-sans-serif', 'system-ui', 'sans-serif'],
   			display: ['var(--font-azimut)', 'Georgia', 'serif']
   		},
+  		// La hauteur d'un écran de l'app : la fenêtre moins l'inverseur de sens
+  		// (27/09/2026). `min-h-screen` seul faisait dépasser CHAQUE page de la
+  		// hauteur de l'inverseur, qui défilait alors même vide, et la barre de
+  		// recherche glissait sous l'en-tête. Sans session, la variable vaut 0.
+  		minHeight: {
+  			ecran: 'calc(100dvh - var(--hauteur-inverseur))'
+  		},
   		colors: {
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',
@@ -79,6 +86,24 @@ export default {
   				'or-700': 'hsl(var(--marque-or-700))',
   				'or-800': 'hsl(var(--marque-or-800))',
   				'or-900': 'hsl(var(--marque-or-900))'
+  			},
+  			// Le bleu du français, et la couleur du sens courant (cf. globals.css,
+  			// 27/09/2026) : `bg-sens-500` est bleu en français, rouge en alsacien.
+  			bleu: {
+  				'50': 'hsl(var(--bleu-50))',
+  				'100': 'hsl(var(--bleu-100))',
+  				'200': 'hsl(var(--bleu-200))',
+  				'500': 'hsl(var(--bleu-500))',
+  				'600': 'hsl(var(--bleu-600))',
+  				texte: 'hsl(var(--bleu-texte))'
+  			},
+  			sens: {
+  				'50': 'hsl(var(--sens-50))',
+  				'100': 'hsl(var(--sens-100))',
+  				'200': 'hsl(var(--sens-200))',
+  				'500': 'hsl(var(--sens-500))',
+  				'600': 'hsl(var(--sens-600))',
+  				texte: 'hsl(var(--sens-texte))'
   			},
   			chart: {
   				'1': 'hsl(var(--chart-1))',

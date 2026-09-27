@@ -30,7 +30,7 @@ export function RangeeActions({ entreeId, premiereForme }: { entreeId: string; p
       </button>
       <Link
         href={`/entree/${entreeId}/signaler`}
-        className="flex h-11 flex-1 items-center justify-center gap-1.5 rounded-lg text-sm font-semibold text-marque-rouge-texte transition-colors hover:bg-marque-rouge-50"
+        className="flex h-11 flex-1 items-center justify-center gap-1.5 rounded-lg text-sm font-semibold text-sens-texte transition-colors hover:bg-sens-50"
       >
         <Flag className="h-4 w-4" strokeWidth={2} />
         Signaler

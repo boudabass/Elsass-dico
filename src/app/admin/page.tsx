@@ -44,7 +44,7 @@ export default function AdminPage() {
   if (!estAdmin) return <div className="p-8 text-center">Accès refusé</div>;
 
   return (
-    <div className="flex min-h-screen flex-col pb-16 md:pb-0 md:pl-20 lg:pl-56">
+    <div className="flex min-h-ecran flex-col pb-16 md:pb-0 md:pl-20 lg:pl-56">
       <AppHeader
         variant="stack"
         titre="Administration"

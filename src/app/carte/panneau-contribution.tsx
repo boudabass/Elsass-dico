@@ -1,8 +1,8 @@
 "use client"
 
 import type { VarianteMot } from "@/app/actions/carte"
-import { NouvelleVariante } from "@/app/entree/[id]/nouvelle-variante"
 import { VoteVariante } from "@/app/entree/[id]/vote-variante"
+import { BoutonContribuer } from "@/components/contribution/bouton-contribuer"
 
 // Sous la recherche d'un mot : rattacher son village à une forme existante, ou
 // en apporter une nouvelle, sans quitter la carte. Mêmes boutons que la fiche
@@ -44,7 +44,11 @@ export function PanneauContribution({
                             ))}
                         </div>
                     )}
-                    <NouvelleVariante lemmeId={lemmeId} onSucces={onSucces} />
+                    <BoutonContribuer
+                        depart={{ type: "mot", lemme: { id: lemmeId, francais } }}
+                        onSucces={() => onSucces()}
+                        className="h-11"
+                    />
                 </>
             )}
         </div>

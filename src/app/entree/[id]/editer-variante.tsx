@@ -5,27 +5,54 @@ import { useRouter } from "next/navigation";
 import { toast } from "sonner";
 
 import { modifierVarianteAction } from "@/app/actions/variantes";
+import {
+    ChampForme,
+    formeDeValeur,
+    saisieDeValeur,
+    valeurDepuis,
+    type ValeurForme,
+} from "@/components/contribution/champ-forme";
 
 // Doc 20, « Correction » : l'auteur édite sa variante tant que personne
 // d'autre ne l'a revendiquée. Fermé côté serveur (`modifierVarianteAction`),
 // pas seulement caché ici — `v.modifiable` ne fait qu'éviter de montrer un
 // bouton qui échouerait de toute façon.
-export function EditerVariante({ varianteId, formeActuelle }: { varianteId: string; formeActuelle: string }) {
+//
+// Même bloc « article + forme » que la feuille de contribution (28/09/2026) :
+// une forme qui porte un article se corrige avec son article, sans quoi le
+// CHECK de reconstruction refuserait l'enregistrement.
+
+function valeurInitiale(forme: string, article: string | null, formeSansArticle: string | null): ValeurForme {
+    if (article && formeSansArticle !== null) return { prefixe: article, autre: false, reste: formeSansArticle };
+    return valeurDepuis(forme);
+}
+
+export function EditerVariante({
+    varianteId,
+    forme,
+    article,
+    formeSansArticle,
+}: {
+    varianteId: string;
+    forme: string;
+    article: string | null;
+    formeSansArticle: string | null;
+}) {
     const [enEdition, setEnEdition] = useState(false);
-    const [forme, setForme] = useState(formeActuelle);
+    const [valeur, setValeur] = useState(() => valeurInitiale(forme, article, formeSansArticle));
     const [enCours, demarrer] = useTransition();
     const router = useRouter();
 
     function annuler() {
         setEnEdition(false);
-        setForme(formeActuelle);
+        setValeur(valeurInitiale(forme, article, formeSansArticle));
     }
 
     function envoyer(e: React.FormEvent) {
         e.preventDefault();
-        if (!forme.trim()) return;
+        if (!formeDeValeur(valeur)) return;
         demarrer(async () => {
-            const res = await modifierVarianteAction(varianteId, forme);
+            const res = await modifierVarianteAction(varianteId, saisieDeValeur(valeur));
             if (res.succes) {
                 toast.success("Forme modifiée");
                 setEnEdition(false);
@@ -49,30 +76,25 @@ export function EditerVariante({ varianteId, formeActuelle }: { varianteId: stri
     }
 
     return (
-        <form onSubmit={envoyer} className="flex flex-1 min-w-[200px] gap-2">
-            <input
-                value={forme}
-                onChange={(e) => setForme(e.target.value)}
-                disabled={enCours}
-                aria-label="Modifier la forme"
-                // `text-base` : sous 16 px, iOS zoome sur le champ au focus.
-                className="h-9 flex-1 min-w-0 rounded-md border border-input bg-background px-2.5 text-base text-foreground disabled:opacity-60"
-            />
-            <button
-                type="submit"
-                disabled={enCours || !forme.trim()}
-                className="h-9 shrink-0 rounded-md bg-sens-500 px-3 text-xs font-semibold text-white transition-colors hover:bg-sens-600 disabled:opacity-50"
-            >
-                Enregistrer
-            </button>
-            <button
-                type="button"
-                onClick={annuler}
-                disabled={enCours}
-                className="h-9 shrink-0 rounded-md px-3 text-xs font-semibold text-muted-foreground"
-            >
-                Annuler
-            </button>
+        <form onSubmit={envoyer} className="flex w-full flex-col gap-2.5">
+            <ChampForme valeur={valeur} onChange={setValeur} desactive={enCours} autoFocus compact />
+            <div className="flex gap-2">
+                <button
+                    type="submit"
+                    disabled={enCours || !formeDeValeur(valeur)}
+                    className="h-9 shrink-0 rounded-md bg-sens-500 px-3 text-xs font-semibold text-white transition-colors hover:bg-sens-600 disabled:opacity-50"
+                >
+                    Enregistrer
+                </button>
+                <button
+                    type="button"
+                    onClick={annuler}
+                    disabled={enCours}
+                    className="h-9 shrink-0 rounded-md px-3 text-xs font-semibold text-muted-foreground"
+                >
+                    Annuler
+                </button>
+            </div>
         </form>
     );
 }

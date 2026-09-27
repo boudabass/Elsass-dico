@@ -204,6 +204,17 @@ export function niveauConfiance(nbSources: number): NiveauConfiance {
 // La dérivation `attestations` -> `Variante` s'en sert pour dédoublonner, et
 // elle doit utiliser EXACTEMENT cette fonction-là. Une clé recalculée « à peu
 // près » ailleurs finirait par diverger sans que rien ne le signale.
+/** Port exact de public.cle_francais() (migration 20260907020000) : minuscules,
+ *  espaces extérieurs et ponctuation finale neutralisés. NE désaccentue pas —
+ *  `sur` et `sûr` sont deux lemmes (correctif du 24/08/2026) — et ne touche pas
+ *  aux parenthèses. Pendant exact de cleDeForme() côté alsacien.
+ *
+ *  Ici et non dans scripts/lib/base.mts depuis le 28/09/2026 : un membre peut
+ *  créer un mot, et sa clé doit être celle que la dérivation aurait calculée. */
+export function cleFrancais(francais: string): string {
+    return (francais ?? "").trim().toLowerCase().replace(/[.;,\s]+$/, "")
+}
+
 export function cleDeForme(alsacien: string): string {
     return alsacien.trim().replace(/[.;,\s]+$/, '')
 }

@@ -2,11 +2,13 @@
 
 import type { SensFormeCarte } from "@/app/actions/carte"
 import { VoteVariante } from "@/app/entree/[id]/vote-variante"
+import { BoutonContribuer } from "@/components/contribution/bouton-contribuer"
 
 // Pendant de `PanneauContribution` côté alsacien → français (27/09/2026) :
 // sous la carte d'une forme, chacun de ses sens, et le `+` pour y rattacher
-// son village. Pas de « Ça se dit autrement chez moi » ici : on part d'une
-// forme, en proposer une autre n'a de sens que depuis un mot français.
+// son village. Depuis le 28/09/2026, « Ce mot veut aussi dire… » y rattache la
+// forme à un autre mot français (décision de John : on contribue dans les deux
+// sens). Proposer une AUTRE forme, elle, se fait depuis un mot français.
 export function PanneauForme({
     titre,
     sens,
@@ -38,6 +40,13 @@ export function PanneauForme({
                         </div>
                     ))}
                 </div>
+            )}
+            {sens !== null && (
+                <BoutonContribuer
+                    depart={{ type: "forme", forme: sens[0]?.forme ?? titre }}
+                    onSucces={() => onSucces()}
+                    className="h-11"
+                />
             )}
         </div>
     )

@@ -8,8 +8,8 @@
 // Ce qui disparaît : le membre (email, nom, identifiant Odoo, village,
 // dates) et ses signalements, dont le motif est un texte libre.
 // Ce qui reste, anonyme : ses témoignages (la forme et le village demeurent,
-// `membre_id` passe à NULL) et les variantes qu'il a créées (`cree_par` passe
-// à NULL). C'est la base qui le fait, par ses clés étrangères (migration
+// `membre_id` passe à NULL), les variantes et les mots qu'il a créés (`cree_par`
+// passe à NULL, `par_membre` reste vrai sur les mots). C'est la base qui le fait, par ses clés étrangères (migration
 // 20260924120000) : ce script ne fait que supprimer la ligne du membre.
 //
 //   pnpm exec tsx scripts/supprimer-membre.mts quelqu-un@example.com
@@ -33,7 +33,7 @@ const membre = await prisma.membre.findUnique({
     where: { email },
     select: {
         id: true, email: true, nom: true, role: true,
-        _count: { select: { temoignages: true, variantes: true, signalements: true, evenements: true } },
+        _count: { select: { temoignages: true, variantes: true, lemmes: true, signalements: true, evenements: true } },
     },
 })
 
@@ -50,9 +50,10 @@ if (membre.role === "admin" && (await prisma.membre.count({ where: { role: "admi
     process.exit(1)
 }
 
-const { temoignages, variantes, signalements, evenements } = membre._count
+const { temoignages, variantes, lemmes, signalements, evenements } = membre._count
 console.log(`${membre.email}${membre.nom ? ` (${membre.nom})` : ""}`)
 console.log(`  ${temoignages} témoignage(s) et ${variantes} variante(s) créée(s) : gardés, anonymes`)
+console.log(`  ${lemmes} mot(s) français créé(s) : gardé(s), anonyme(s)`)
 console.log(`  ${evenements} événement(s) du journal des contributions : gardés, anonymes`)
 console.log(`  ${signalements} signalement(s) : supprimé(s) avec le compte`)
 
@@ -71,6 +72,8 @@ const anonymes = await prisma.$transaction(async (tx) => {
     const idsEvenements = (await tx.evenementContribution.findMany({
         where: { membreId: membre.id }, select: { id: true },
     })).map((e) => e.id)
+    const idsLemmes = (await tx.lemme.findMany({ where: { creeParId: membre.id }, select: { id: true } }))
+        .map((l) => l.id)
     await tx.membre.delete({ where: { id: membre.id } })
     const restants = await tx.temoignage.count({ where: { id: { in: ids }, membreId: null } })
     if (restants !== ids.length) {
@@ -81,6 +84,12 @@ const anonymes = await prisma.$transaction(async (tx) => {
     })
     if (evenementsRestants !== idsEvenements.length) {
         throw new Error(`${idsEvenements.length - evenementsRestants} événement(s) du journal effacé(s) : annulé.`)
+    }
+    const lemmesRestants = await tx.lemme.count({
+        where: { id: { in: idsLemmes }, creeParId: null, parMembre: true },
+    })
+    if (lemmesRestants !== idsLemmes.length) {
+        throw new Error(`${idsLemmes.length - lemmesRestants} mot(s) créé(s) effacé(s) : annulé.`)
     }
     return restants
 })

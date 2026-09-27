@@ -8,6 +8,8 @@
  * ce script n'y ajoute que ce que les membres ont apporté.
  *
  * Ce qu'il recrée :
+ *   * les mots français créés par des membres (`parMembre`, 28/09/2026), sans
+ *     auteur ;
  *   * les variantes écrites par des membres (événement `creation`), sous leur
  *     forme actuelle, sans auteur (l'export est anonyme) ;
  *   * les témoignages encore actifs : une `pose` sans `retrait` apparié par
@@ -44,6 +46,7 @@ const SEP = "\u0000"
 // --- Lemmes, par clé naturelle -------------------------------------------------
 const lemmes = new Map<string, string>()
 const lemmesIntrouvables = new Set<string>()
+let lemmesRecrees = 0
 for (const l of lignes) {
     const cle = [l.lemme.cle, l.lemme.contexte, l.lemme.type].join(SEP)
     if (lemmes.has(cle) || lemmesIntrouvables.has(cle)) continue
@@ -51,8 +54,23 @@ for (const l of lignes) {
         where: { cle_contexte_type: { cle: l.lemme.cle, contexte: l.lemme.contexte, type: l.lemme.type as TypeTerme } },
         select: { id: true },
     })
-    if (lemme) lemmes.set(cle, lemme.id)
-    else lemmesIntrouvables.add(cle)
+    if (lemme) { lemmes.set(cle, lemme.id); continue }
+    // Un mot créé par un membre (28/09/2026) n'existe dans aucune source : il se
+    // recrée, anonyme, avec son libellé exporté. Un lemme de source absent, lui,
+    // reste signalé et jamais recréé à peu près.
+    if (l.lemme.parMembre && l.lemme.francais) {
+        const cree = await prisma.lemme.create({
+            data: {
+                francais: l.lemme.francais, cle: l.lemme.cle, contexte: l.lemme.contexte,
+                type: l.lemme.type as TypeTerme, parMembre: true,
+            },
+            select: { id: true },
+        })
+        lemmes.set(cle, cree.id)
+        lemmesRecrees++
+        continue
+    }
+    lemmesIntrouvables.add(cle)
 }
 
 // --- Variantes : retrouvées, ou recréées si un membre les a écrites ------------
@@ -122,6 +140,7 @@ await parLots(rejouables, 1000, async (lot) => {
 })
 
 console.log(`${lignes.length} événement(s) lu(s) dans ${FICHIER_JOURNAL}`)
+console.log(`  mots recréés              ${lemmesRecrees}`)
 console.log(`  variantes recréées        ${variantesRecreees}`)
 console.log(`  témoignages créés         ${temoignagesCrees}\t(${actives.length} actifs dans le journal)`)
 console.log(`  événements créés          ${evenementsCrees}\t(${rejouables.length} rejouables)`)

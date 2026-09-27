@@ -143,6 +143,17 @@ model Lemme {
   // un slug unique garantit qu'aucune URL n'en écrase une autre.
   slug String? @unique
 
+  // AJOUT du 28/09/2026 — membre auteur, si le mot français a été créé par une
+  // contribution (toujours avec sa première forme alsacienne) et non dérivé
+  // d'une source. SET NULL comme `Variante.creePar` : supprimer un compte
+  // anonymise ses mots sans les effacer (CGU, article 9).
+  creeParId String? @map("cree_par")
+  creePar   Membre? @relation("LemmesCrees", fields: [creeParId], references: [id], onDelete: SetNull)
+  // Survit à l'anonymisation, contrairement à `creeParId` : c'est lui qui dit à
+  // l'export des contributions qu'un mot est à recréer, et à l'admin qu'il ne
+  // vient d'aucune source.
+  parMembre Boolean @default(false) @map("par_membre")
+
   creeLe    DateTime @default(now()) @map("cree_le")
   variantes Variante[]
 
@@ -159,6 +170,7 @@ model Lemme {
   @@unique([cle, contexte, type])
   @@index([cle])
   @@index([type])
+  @@index([parMembre])
   @@map("lemmes")
 }
 
@@ -326,6 +338,7 @@ model Membre {
   temoignages  Temoignage[]
   evenements   EvenementContribution[]
   variantes    Variante[]
+  lemmes       Lemme[]      @relation("LemmesCrees")
   signalements Signalement[]
   parties      PartieJeu[]
 

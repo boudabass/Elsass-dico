@@ -2430,8 +2430,23 @@ n'y a pas de pages en double. La carte suit aussi le sens.
   (« Le chargement n'a pas abouti », bouton « Réessayer »). **Vérifié en
   simulant les 503** (`window.fetch` patché) : deux échecs → la lettre charge
   à la troisième tentative ; échecs continus → le message, puis la lettre au
-  clic sur « Réessayer ». **Reste à confirmer par John** que A se charge chez
-  lui : la cause exacte de ses 503 (côté VPS) n'est pas visible d'ici.
+  clic sur « Réessayer ».
+- **La vraie cause de « tout sauf A »**, trouvée avec la séquence exacte
+  de John (français, C, alsacien, A, français) : A restait vide au retour en
+  français, **sans aucune requête émise**. Next intercepte aussi
+  `history.replaceState`, et une réécriture d'URL lancée dans le même rendu
+  qu'une Server Action la faisait encore abandonner. `chargerAvecCache`
+  resservait ensuite cette promesse morte (`EN_VOL`) à chaque nouveau clic
+  sur A. **Prouvé** : même départ, bloqué à chaque fois avec `replaceState`
+  actif, chargé avec `replaceState` neutralisé. Corrigé deux fois :
+  dictionnaire et recherche ne réécrivent leur URL qu'**une fois le
+  chargement fini**, et `chargerAvecCache` abandonne un appel sans réponse
+  après 8 s et le retire d'`EN_VOL`. Vérifié sur `dev` : la séquence
+  complète, deux fois de suite, charge chaque liste. Le 503 vu plus haut
+  était une piste réelle mais secondaire.
+  **Règle générale** : une Server Action en vol ne survit ni à
+  `router.replace` ni à `history.replaceState`. Réécrire l'URL après, jamais
+  pendant.
 
 ## Règles de travail
 

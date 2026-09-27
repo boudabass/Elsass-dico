@@ -2509,6 +2509,60 @@ son sens à l'arrivée. **Vérifié sur `dev`** (session de John) : le parcours 
 John, son inverse, le bouton retour, et un lien `?sens=als` ouvert à froid.
 **Pas encore fusionné dans `main`.**
 
+## « Ça se dit autrement chez moi ? » refait, dans les deux sens (28/09/2026)
+
+Retour de John : le champ unique ne savait ni l'article, ni l'existant, ni le
+côté alsacien. Rapport de solutions, option B retenue, cadrée par
+`/impeccable shape`. Commit `4c096fd`.
+
+- **Une feuille par étapes** (`src/components/contribution/`) : tiroir vaul sur
+  mobile, fenêtre dès la tablette. Village s'il manque (choisi dans la feuille,
+  plus de renvoi vers Mon espace) → mot français (côté alsacien, ou création)
+  → ta forme → **vérification toujours montrée** → récapitulatif. Un seul
+  déclencheur, `BoutonContribuer` : fiche d'un mot, carte, jeu, fiche d'une
+  forme (« Ce mot veut aussi dire… ») et « aucun résultat » (« Ajouter « x »
+  au dictionnaire »). `nouvelle-variante.tsx` est supprimé.
+- **Décisions de John** : seule précision = l'article, facultatif ; un mot
+  français se crée **toujours avec sa forme alsacienne** et un type à choisir
+  (mot, expression, proverbe ; jamais toponyme ni prénom) ; comparaison aux
+  formes **de ce mot seulement** ; `/admin/mots` liste les mots ajoutés.
+- **Mesuré avant d'écrire** : `d'` et `s'` sont aussi souvent collés
+  qu'espacés (1 843 / 1 488 et 1 038 / 764), `de` ouvre 1 218 formes. Les
+  boutons collent `d'`/`s'`, un article tapé garde l'espacement tapé.
+  `s' Bigudi` / `de Bigudi` sont deux genres, donc « proches », jamais des
+  doublons. Seuil « proche » (≤ 2 lettres et ≤ 25 %) calé sur 21 314 paires :
+  9 % des paires d'un même mot, dont les vraies quasi-copies.
+- **L'article est enfin stocké décomposé** pour les formes de membres
+  (`src/lib/saisie-forme.ts`, CHECK de reconstruction vérifié). **Bug latent
+  corrigé** : `modifierVarianteAction` réécrivait `forme` sans l'article, le
+  CHECK aurait refusé la modification de toute forme à article.
+- **`lemmes.cree_par` et `lemmes.par_membre`** (migration
+  `20260928100000_contribution_mots`) : `par_membre` survit à l'anonymisation,
+  c'est lui qui fait recréer le mot par `importer-contributions.mts` (le
+  journal exporte alors son libellé, jamais son auteur).
+- **Piège évité** : les utilitaires partagés vivent dans
+  `src/lib/contribution-serveur.ts`, pas dans un fichier `'use server'`, où
+  `villageDuMembre(id)` serait devenu une action publique lisant le village de
+  n'importe qui.
+- `cleFrancais()` vit maintenant dans `src/lib/dictionnaire.ts` (réexportée
+  par `scripts/lib/base.mts`) : un mot créé doit avoir la clé que la
+  dérivation aurait calculée.
+- **L'export porte aussi l'article** d'une forme de membre : sans lui, une
+  forme recréée à la reconstruction perdait sa décomposition.
+- **Vérifié à l'écran** (session de John, `dev`, par la nav) : `d'r Lohn` sur
+  « salaire » → « Elle existe déjà » ; `Loon` → « Tu penses à celle-ci ? » ;
+  forme de test publiée avec son article, puis modifiée vers `s'` (le CHECK
+  tient) ; « aucun résultat » → mot créé, fiche ouverte ; fiche d'une forme →
+  « Ce mot veut aussi dire… » → rattachée à « salaire » ; `/admin/mots`.
+  **Reconstruction** : mot de test exporté, supprimé en base, réimporté
+  (anonyme, forme, témoignage, 2 événements, article), second import sans
+  effet. Tout le test nettoyé ensuite (« salaire » = `Lohn`, 0 mot de membre).
+  Le journal réexporté contient une vraie pose d'un second membre, versionnée.
+- **Vérifié** : logique de saisie (23 cas), écriture réelle dans une
+  transaction annulée (`d'r Zzztestwort` → article `d'r `, 1 témoignage,
+  2 événements, colonne absente après rollback), `typecheck`, `build`
+  974/974, détecteur impeccable vide.
+
 ## Règles de travail
 
 - Ne jamais inventer de traduction alsacienne, même pour un exemple ou un test.

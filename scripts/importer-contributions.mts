@@ -92,7 +92,14 @@ for (const l of lignes) {
     if (existante) { variantes.set(cle, existante.id); continue }
     if (!creees.has(cle)) { variantesIntrouvables.add(cle); continue } // variante de source absente
     const v = await prisma.variante.create({
-        data: { lemmeId, forme: l.forme, cleForme: l.cleForme },
+        data: {
+            lemmeId, forme: l.forme, cleForme: l.cleForme,
+            // L'article n'est repris que s'il redonne la forme octet pour octet
+            // (CHECK de reconstruction) : sinon, rien plutôt qu'un à-peu-près.
+            ...(l.article && l.forme.startsWith(l.article)
+                ? { article: l.article, formeSansArticle: l.forme.slice(l.article.length) }
+                : {}),
+        },
         select: { id: true },
     })
     variantes.set(cle, v.id)

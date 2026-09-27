@@ -742,7 +742,11 @@ function EtapeVerification({
                 titre={nouveauMot ? "C'est un nouveau mot" : "Personne ne l'a encore écrite"}
                 sousTitre={nouveauMot
                     ? <>«&nbsp;{francais}&nbsp;» n&apos;est pas encore dans le dictionnaire. {tapee} sera sa première forme.</>
-                    : <>{tapee} ne ressemble à aucune des {n} forme{n > 1 ? "s" : ""} déjà connue{n > 1 ? "s" : ""} pour «&nbsp;{francais}&nbsp;».</>}
+                    : n === 0
+                        ? <>{tapee} sera la première forme de «&nbsp;{francais}&nbsp;».</>
+                        : n === 1
+                            ? <>{tapee} ne ressemble pas à la seule forme déjà connue pour «&nbsp;{francais}&nbsp;».</>
+                            : <>{tapee} ne ressemble à aucune des {n} formes déjà connues pour «&nbsp;{francais}&nbsp;».</>}
                 onRetour={onRetour}
             >
                 {!nouveauMot && n > 0 && (

@@ -15,6 +15,9 @@ export interface LigneJournal {
     lemme: { cle: string; contexte: string; type: string; francais?: string; parMembre?: true }
     cleForme: string
     forme: string // forme ACTUELLE de la variante, celle qu'on retrouve au rejeu
+    // Son article décomposé (28/09/2026), pour qu'une forme de membre recréée
+    // garde `article + formeSansArticle = forme`. Absent sans article.
+    article?: string
     temoignageId: string | null
     commune: number | null // code INSEE
     ancienneForme: string | null

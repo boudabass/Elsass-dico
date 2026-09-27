@@ -38,7 +38,7 @@ const evenements = await prisma.evenementContribution.findMany({
         ancienneForme: true, nouvelleForme: true,
         variante: {
             select: {
-                cleForme: true, forme: true,
+                cleForme: true, forme: true, article: true,
                 lemme: { select: { cle: true, contexte: true, type: true, francais: true, parMembre: true } },
             },
         },
@@ -60,6 +60,7 @@ const lignes: LigneJournal[] = evenements.map((e) => ({
     },
     cleForme: e.variante.cleForme,
     forme: e.variante.forme,
+    ...(e.variante.article ? { article: e.variante.article } : {}),
     temoignageId: e.temoignageId,
     commune: e.communeId,
     ancienneForme: e.ancienneForme,

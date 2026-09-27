@@ -2469,6 +2469,27 @@ Côté français, les listes commencent bien par le mot. La forme alsacienne
 affichée sous chaque mot garde son article (`d'r Lohn`) : c'est la forme
 telle que la source l'écrit.
 
+## Clôture de session (27/09/2026)
+
+**PR #70** (`dev` → `main`) : le dico dans les deux sens (inverseur
+bleu/rouge, recherche sans mélange, fiche de forme, A-Z et carte côté
+alsacien), les articles ignorés dans l'ordre alphabétique, `min-h-ecran`, les
+clés alsaciennes stockées, la résilience du chargement et le correctif
+`replaceState`. Décision de John consignée dans Odoo 882 (section « Les deux
+sens de lecture ») et `PRODUCT.md`.
+
+- **Six migrations appliquées à la base partagée depuis ce poste**
+  (`20260927120000` à `20260927230000`), toutes additives, le code de `main`
+  d'avant la fusion ne s'en servait pas.
+- **Export des contributions** non relancé : aucun vote ni forme dans la
+  session (les votes de test des sessions précédentes avaient été retirés).
+- **Reste à constater par John** : A et les bascules de sens sur son propre
+  navigateur, et le bouton « Partager » du jeu sur téléphone (en attente
+  depuis le 26/09).
+- **Proposé, non tranché** : afficher la forme alsacienne sous un mot français
+  à la manière d'un dictionnaire papier (`Lohn (d'r)` plutôt que
+  `d'r Lohn`).
+
 ## Règles de travail
 
 - Ne jamais inventer de traduction alsacienne, même pour un exemple ou un test.

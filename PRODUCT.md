@@ -83,8 +83,17 @@ sans reconstruire sa doctrine.
   (28/08/2026) : barre d'onglets en bas sur mobile, rail latéral dès la
   tablette.
 - **Écrans authentifiés** : recherche, dictionnaire A-Z paginé, carte des
-  parlers (l'écran central), fiche de mot, « Mon espace » (choix du village),
-  signalement d'une forme, admin (membres, signalements, sources).
+  parlers (l'écran central), fiche de mot, fiche de forme, « Mon espace »
+  (choix du village), signalement d'une forme, admin (membres, signalements,
+  sources).
+- **Deux sens de lecture, jamais mélangés** (décision de John, 27/09/2026) :
+  français → alsacien et alsacien → français, comme un dictionnaire bilingue
+  qu'on retourne. Un inverseur tout en haut de l'app connectée (« Français »
+  à gauche, « Alsacien » à droite, une flèche au milieu) choisit la langue de
+  départ, et recherche, A-Z et carte changent de sens, sans pages en double.
+  Côté alsacien, une entrée est une forme et ses sens français. **L'article ne
+  compte pas dans l'ordre alphabétique**, dans les deux sens, et un article
+  seul reste un mot.
 - **Écrans publics**, les seuls indexables : la home de présentation, une
   page par village et par prénom attestés (générées statiquement), et
   `/sources`.
@@ -131,6 +140,10 @@ sans reconstruire sa doctrine.
     « Clique un point ») ;
   - **jamais de tiret long (« — »)** dans le texte affiché à l'écran, quelle
     que soit sa justesse grammaticale : deux phrases courtes, ou une virgule.
+- **Couleurs** (27/09/2026) : dans l'app connectée, **bleu pour le français,
+  rouge pour l'alsacien**, et toute l'interface suit le sens de lecture
+  (tokens `--sens-*`). Le rouge de marque reste celui de la home publique, du
+  jeu et de l'image de partage.
 - **Police des titres** : Azimut, celle du logotype du site The Elsassisch.
   Sa licence (CC BY-ND 4.0) demande une attribution qui n'est encore faite
   nulle part : John traite ce point séparément.

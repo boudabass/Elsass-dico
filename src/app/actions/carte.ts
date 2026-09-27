@@ -160,7 +160,7 @@ export async function pointsFormeAction(cle: string): Promise<PointsForme | null
 
     const ids = await prisma.$queryRaw<{ id: string }[]>`
         SELECT id FROM variantes
-        WHERE masquee = false AND cle_inverse(cle_forme) = ${cleNette}
+        WHERE masquee = false AND cle_inv = ${cleNette}
     `
     if (!ids.length) return null
 

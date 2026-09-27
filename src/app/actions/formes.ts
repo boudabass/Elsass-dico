@@ -9,7 +9,9 @@ import { sessionActuelle } from "@/lib/session-serveur"
 // plus — aucune donnée créée (règle 1).
 //
 // Les trois fonctions SQL de la migration 20260927120000 font tout le travail
-// de clé : `cle_inverse` regroupe (sans article, sans casse, accents gardés),
+// de clé, et leurs résultats sont stockés dans deux colonnes générées,
+// `cle_inv` et `parcours_inv` (20260927200000) : les recalculer à la lecture
+// coûtait 4 s pour l'alphabet. `cle_inverse` regroupe (sans article, sans casse, accents gardés),
 // `parcours_inverse` range et donne la lettre, `forme_inverse` donne le titre.
 // Lettre, tri et saut « Aller à un mot » passent par la même, comme côté
 // français (`cleParcours()`, navigation.ts).
@@ -34,9 +36,9 @@ type LemmeRattache = { id: string; francais: string; contexte: string; type: str
  *  s'exprime qu'en SQL, les témoins se lisent mieux par Prisma. */
 async function variantesDesCles(cles: string[]) {
     const brutes = await prisma.$queryRaw<VarianteBrute[]>`
-        SELECT id, cle_inverse(cle_forme) AS cle, forme_inverse(cle_forme) AS titre
+        SELECT id, cle_inv AS cle, forme_inverse(cle_forme) AS titre
         FROM variantes
-        WHERE masquee = false AND cle_inverse(cle_forme) = ANY(${cles})
+        WHERE masquee = false AND cle_inv = ANY(${cles})
     `
     const variantes = await prisma.variante.findMany({
         where: { id: { in: brutes.map((b) => b.id) } },
@@ -158,15 +160,15 @@ export async function rechercherFormesAction(terme: string): Promise<FormeResume
     // `Lohnerhöhung`, et devant `d'r Lohn` qui n'en diffère que par l'article.
     const lignes = await prisma.$queryRaw<{ cle: string }[]>`
         WITH t AS (SELECT immutable_unaccent(lower(btrim(${requete}))) AS q)
-        SELECT cle_inverse(v.cle_forme) AS cle
+        SELECT v.cle_inv AS cle
         FROM variantes v, t
         WHERE v.masquee = false
           AND immutable_unaccent(lower(v.forme)) LIKE '%' || t.q || '%'
         GROUP BY 1
         ORDER BY max(similarity(immutable_unaccent(lower(v.forme)), t.q)
-                     + CASE WHEN immutable_unaccent(cle_inverse(v.cle_forme)) = t.q THEN 1 ELSE 0 END) DESC,
-                 length(cle_inverse(v.cle_forme)) ASC,
-                 cle_inverse(v.cle_forme) ASC
+                     + CASE WHEN immutable_unaccent(v.cle_inv) = t.q THEN 1 ELSE 0 END) DESC,
+                 length(v.cle_inv) ASC,
+                 v.cle_inv ASC
         LIMIT ${LIMITE_RECHERCHE}
     `
     const cles = lignes.map((l) => l.cle)
@@ -175,7 +177,7 @@ export async function rechercherFormesAction(terme: string): Promise<FormeResume
 
 export async function lettresFormesAction(): Promise<string[]> {
     const lignes = await prisma.$queryRaw<{ lettre: string }[]>`
-        SELECT DISTINCT upper(left(parcours_inverse(cle_forme), 1)) AS lettre
+        SELECT DISTINCT upper(left(parcours_inv, 1)) AS lettre
         FROM variantes
         WHERE masquee = false
         ORDER BY lettre
@@ -192,8 +194,8 @@ export interface PageLettreFormes {
 
 async function totalLettre(initiale: string): Promise<number> {
     const comptes = await prisma.$queryRaw<{ n: bigint }[]>`
-        SELECT count(DISTINCT cle_inverse(cle_forme)) AS n FROM variantes
-        WHERE masquee = false AND upper(left(parcours_inverse(cle_forme), 1)) = ${initiale}
+        SELECT count(DISTINCT cle_inv) AS n FROM variantes
+        WHERE masquee = false AND upper(left(parcours_inv, 1)) = ${initiale}
     `
     return Number(comptes[0]?.n ?? 0)
 }
@@ -216,11 +218,11 @@ export async function formesParLettreAction(lettre: string, page = 1): Promise<P
     // `parcours_inverse` (elle ne dépend que de la clé) : `min()` ne choisit
     // rien, il ne fait que la remonter au niveau du groupe.
     const lignes = await prisma.$queryRaw<{ cle: string }[]>`
-        SELECT cle_inverse(cle_forme) AS cle
+        SELECT cle_inv AS cle
         FROM variantes
-        WHERE masquee = false AND upper(left(parcours_inverse(cle_forme), 1)) = ${initiale}
+        WHERE masquee = false AND upper(left(parcours_inv, 1)) = ${initiale}
         GROUP BY 1
-        ORDER BY min(parcours_inverse(cle_forme)) ASC, cle ASC
+        ORDER BY min(parcours_inv) ASC, cle ASC
         LIMIT ${TAILLE_PAGE} OFFSET ${(pageValidee - 1) * TAILLE_PAGE}
     `
     const cles = lignes.map((l) => l.cle)
@@ -240,10 +242,10 @@ export async function pageDuPrefixeFormeAction(lettre: string, prefixe: string):
     if (total === 0) return 1
 
     const rangs = await prisma.$queryRaw<{ rang: bigint }[]>`
-        SELECT count(DISTINCT cle_inverse(cle_forme)) AS rang FROM variantes
+        SELECT count(DISTINCT cle_inv) AS rang FROM variantes
         WHERE masquee = false
-          AND upper(left(parcours_inverse(cle_forme), 1)) = ${initiale}
-          AND parcours_inverse(cle_forme) < parcours_inverse(${prefixeTrim})
+          AND upper(left(parcours_inv, 1)) = ${initiale}
+          AND parcours_inv < parcours_inverse(${prefixeTrim})
     `
     const rang = Number(rangs[0]?.rang ?? 0)
     return Math.min(Math.max(1, Math.floor(rang / TAILLE_PAGE) + 1), nbPagesPour(total))

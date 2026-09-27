@@ -7,6 +7,7 @@ import { BookOpen, ChevronLeft, ChevronRight, Search } from "lucide-react";
 import { AppHeader } from "@/components/app-header";
 import { BadgeConfiance } from "@/components/badge-confiance";
 import { useSens, useSensDepuisUrl } from "@/components/sens-provider";
+import { EchecChargement } from "@/components/echec-chargement";
 import { ListSkeleton } from "@/components/ui/list-skeleton";
 import {
   lettresDisponiblesAction,
@@ -110,7 +111,7 @@ function DictionnaireContenu() {
 
   // L'alphabet disponible ne change qu'à une publication : il se garde plus
   // longtemps que les listes, et cesse ainsi de coûter un appel par visite.
-  const { donnees: lettres } = useListeMemorisee<string[]>({
+  const { donnees: lettres, echec: echecLettres, rafraichir: rechargerLettres } = useListeMemorisee<string[]>({
     cle: cleCache("dictionnaire", sens, "lettres"),
     charger: sens === "als" ? lettresFormesAction : lettresDisponiblesAction,
     fraicheurMs: 5 * 60_000,
@@ -202,7 +203,7 @@ function DictionnaireContenu() {
   }
 
   const cleLettre = lettre ? cleCache("dictionnaire", sens, "lettre", lettre, String(pageNo)) : null;
-  const { donnees: page, premierChargement } = useListeMemorisee<PageAffichee>({
+  const { donnees: page, premierChargement, echec: echecPage, rafraichir: rechargerPage } = useListeMemorisee<PageAffichee>({
     cle: cleLettre,
     charger: () => chargerPage(sens, lettre as string, pageNo),
   });
@@ -210,7 +211,7 @@ function DictionnaireContenu() {
   const unite = sens === "als" ? "forme" : "mot";
   // Une revalidation en fond ne doit jamais remettre le squelette : la liste
   // reste à l'écran et se met à jour quand la réponse arrive.
-  const chargement = premierChargement || (lettre !== null && page === null);
+  const chargement = premierChargement || (lettre !== null && page === null && !echecPage);
 
   useScrollMemorise(cleLettre, lemmes.length > 0);
 
@@ -245,7 +246,11 @@ function DictionnaireContenu() {
       </div>
 
       <main className="flex-1 px-4 pb-8">
-        {disponibles === null || chargement ? (
+        {echecLettres ? (
+          <EchecChargement onReessayer={rechargerLettres} />
+        ) : echecPage ? (
+          <EchecChargement onReessayer={rechargerPage} />
+        ) : disponibles === null || chargement ? (
           <div className="pt-4">
             <ListSkeleton />
           </div>

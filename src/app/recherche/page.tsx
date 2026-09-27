@@ -8,6 +8,7 @@ import { AppHeader } from "@/components/app-header";
 import { BadgeConfiance } from "@/components/badge-confiance";
 import { CarteForme } from "@/components/carte-forme";
 import { useSens, useSensDepuisUrl } from "@/components/sens-provider";
+import { EchecChargement } from "@/components/echec-chargement";
 import { ListSkeleton } from "@/components/ui/list-skeleton";
 import { rechercherFormesAction } from "@/app/actions/formes";
 import { rechercherAction } from "@/app/actions/recherche";
@@ -77,7 +78,7 @@ function RechercheContenu() {
   // Le sens entre dans la clé : inverser avec un terme saisi relance la
   // recherche dans l'autre langue, sans resservir la liste de la première.
   const cle = requete ? cleCache("recherche", sens, requete) : null;
-  const { donnees, premierChargement } = useListeMemorisee<Resultats>({
+  const { donnees, premierChargement, echec, rafraichir } = useListeMemorisee<Resultats>({
     cle,
     charger: async (): Promise<Resultats> =>
       sens === "als"
@@ -94,7 +95,7 @@ function RechercheContenu() {
   // de plus laisserait l'écran figé sur les résultats précédents sans rien
   // indiquer.
   const attenteFrappe = terme.trim().length >= 2 && terme.trim() !== requete;
-  const recherche = attenteFrappe || premierChargement || (cle !== null && resultats === null);
+  const recherche = attenteFrappe || premierChargement || (cle !== null && resultats === null && !echec);
   const aCherche = cle !== null && resultats !== null;
 
   useScrollMemorise(cle, nbResultats > 0);
@@ -128,6 +129,8 @@ function RechercheContenu() {
             {recherche ? "Recherche en cours" : ""}
           </span>
         </div>
+
+        {echec && !attenteFrappe && <EchecChargement onReessayer={rafraichir} />}
 
         {recherche && nbResultats === 0 && (
           <div className="mt-[22px]">

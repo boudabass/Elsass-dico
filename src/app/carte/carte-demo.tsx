@@ -17,6 +17,7 @@ import { rechercherAction } from "@/app/actions/recherche"
 import { AppHeader } from "@/components/app-header"
 import type { PointParler } from "@/components/carte-parlers"
 import { ChampSuggestions } from "@/components/champ-suggestions"
+import { EchecChargement } from "@/components/echec-chargement"
 import { useSens } from "@/components/sens-provider"
 import { useListeMemorisee } from "@/hooks/use-liste-memorisee"
 import { useRequeteDebattue } from "@/hooks/use-requete-debattue"
@@ -53,7 +54,7 @@ type Suggestion =
     | { cle: string; forme: FormeResume; lemme?: undefined }
 
 export function CarteDemo() {
-    const { donnees, premierChargement } = useListeMemorisee<PointsCarte>({
+    const { donnees, premierChargement, echec: echecVillages, rafraichir: rechargerVillages } = useListeMemorisee<PointsCarte>({
         // Donnée publique, la même pour tout le monde : pas de segment
         // d'identité dans la clé, contrairement aux listes propres à un
         // membre (`admin-membres`, `mon-espace`).
@@ -90,6 +91,7 @@ export function CarteDemo() {
     const {
         donnees: pointsForme,
         premierChargement: formeEnChargement,
+        echec: echecForme,
         rafraichir: rafraichirForme,
     } = useListeMemorisee<PointsForme | null>({
         cle: formeActive ? cleCache("carte-forme", formeActive.cle) : null,
@@ -99,6 +101,7 @@ export function CarteDemo() {
     const {
         donnees: pointsMot,
         premierChargement: motEnChargement,
+        echec: echecMot,
         rafraichir: rafraichirMot,
     } = useListeMemorisee<PointsMot | null>({
         cle: motActif ? cleCache("carte-mot", motActif.id) : null,
@@ -161,6 +164,8 @@ export function CarteDemo() {
             : villagesFiltres
     const enChargement = formeActive ? formeEnChargement : motActif ? motEnChargement : premierChargement
     const selection = motActif ?? formeActive
+    const echec = formeActive ? echecForme : motActif ? echecMot : echecVillages
+    const recharger = formeActive ? rafraichirForme : motActif ? rafraichirMot : rechargerVillages
 
     return (
         // `overflow-hidden` : filet de sécurité. Le panneau de contribution a
@@ -244,6 +249,11 @@ export function CarteDemo() {
                         couleurDe={couleurDeForme}
                         className="h-full w-full overflow-hidden rounded-lg border"
                     />
+                    {echec && (
+                        <div className="absolute inset-x-3 top-3 z-[1001] mx-auto max-w-sm rounded-lg border bg-background shadow-md">
+                            <EchecChargement onReessayer={recharger} />
+                        </div>
+                    )}
                     {enChargement && (
                         <div className="pointer-events-none absolute inset-x-0 top-3 flex justify-center">
                             <span className="rounded-full border bg-background px-3 py-1 text-xs text-muted-foreground shadow-sm">

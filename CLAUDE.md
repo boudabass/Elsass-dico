@@ -2630,7 +2630,8 @@ du jeu). L'habillage commun des feuilles est dans
 - **Resté au journal, pas de moi** : une pose puis un retrait de *viaräckig*
   (« quadrangulaire ») à Mundolsheim, à 1,4 s d'écart, le 28/09 à 13:32 UTC.
   C'est le toucher de trop que cette feuille supprime, fait sur la production
-  qui avait encore l'ancien bouton. Gardé : c'est un vrai geste.
+  qui avait encore l'ancien bouton. Confirmé par John : une erreur de sa part,
+  gardée à sa demande.
 - **Faux positif, commit annulé** (`7e3af57`, annulé par `34eb418`) : la liste
   des villages de « Mon espace » semblait rester ouverte par-dessus « Valider »
   après un choix. C'était le navigateur piloté : **l'onglet est caché
@@ -2645,6 +2646,21 @@ du jeu). L'habillage commun des feuilles est dans
   minutes après la fusion (`updated_at` 14:28:43Z). Constaté avec la session
   de John sur la fiche de « salaire » : le bouton ouvre la feuille, Annuler
   n'écrit rien. `main` et `dev` alignés.
+
+## Clôture de session (28/09/2026)
+
+Reprise après la coupure du PC de John dans la nuit : le travail de la nuit
+(feuille « Chez moi aussi ») était sauf, poussé et déployé sur `dev`. Vérifié
+à l'écran, documenté et fusionné (PR #77 et #78). **`main` et `dev`
+identiques**, production constatée.
+
+- **Export des contributions** à jour (3 poses, 1 retrait), versionné.
+- **Reste à constater par John** : la feuille sur un vrai téléphone (vue dans
+  un cadre de 375 px seulement) ; le bouton « Partager » du jeu, en attente
+  depuis le 26/09.
+- **Ouvert, inchangé** : faire venir des locuteurs ; feu vert du lancement
+  public (workflow N8N) ; mesure de convergence ; auto-inscription Odoo, aire
+  du 57, attribution Azimut ; seuil « proche » de la contribution à surveiller.
 
 ## Règles de travail
 

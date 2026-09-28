@@ -2,6 +2,7 @@
 
 import type { LemmeDetaille, LemmeResume, TypeTerme } from "@/lib/dictionnaire"
 import { apercusParLemme, chargerLemmeDetaille } from "@/lib/lemmes"
+import { mesVotes } from "@/lib/contribution-serveur"
 import { prisma } from "@/lib/prisma"
 import { sessionActuelle } from "@/lib/session-serveur"
 
@@ -89,11 +90,7 @@ export async function chargerLemme(id: string): Promise<LemmeDetaille | null> {
     const session = await sessionActuelle()
     if (!session) return lemme
 
-    const mesTemoignages = await prisma.temoignage.findMany({
-        where: { membreId: session.membreId, varianteId: { in: lemme.variantes.map((v) => v.id) } },
-        select: { varianteId: true },
-    })
-    const mesVariantes = new Set(mesTemoignages.map((t) => t.varianteId))
+    const votes = await mesVotes(session.membreId, lemme.variantes.map((v) => v.id))
 
     // Éditables : les variantes que ce membre a lui-même créées et que
     // personne d'autre n'a encore revendiquées (doc 20, « Correction ») — un
@@ -110,7 +107,7 @@ export async function chargerLemme(id: string): Promise<LemmeDetaille | null> {
         ...lemme,
         variantes: lemme.variantes.map((v) => ({
             ...v,
-            monVote: mesVariantes.has(v.id),
+            monVote: votes.get(v.id) ?? null,
             modifiable: modifiables.has(v.id),
         })),
     }

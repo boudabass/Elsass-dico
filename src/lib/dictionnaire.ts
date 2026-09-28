@@ -1,3 +1,4 @@
+import type { MonVote } from "@/lib/contribution"
 // Vocabulaire du dictionnaire — types d'affichage et normalisations de formes.
 //
 // Purgé le 12/09/2026 de tout ce qui servait l'arbitrage (`traductionsRecoupees`,
@@ -44,10 +45,10 @@ export interface FormeAffichee {
 export interface VarianteDetaillee extends FormeAffichee {
     sources: { nom: string; url: string | null }[]
     villages: { id: number; nom: string; slug: string }[]
-    /** Le membre de la session a-t-il déjà attaché son village à cette forme ?
+    /** Le témoignage du membre de la session sur cette forme, et son village.
      *  Absent sur les fiches publiques (/village, /prenom), qui n'ont pas de
-     *  session — seul `chargerLemme()` (/entree/[id]) le renseigne. */
-    monVote?: boolean
+     *  session ; `null` : pas de témoignage. */
+    monVote?: MonVote | null
     /** Le membre de la session peut-il éditer cette forme ? Vrai seulement
      *  s'il en est l'auteur ET qu'aucun autre membre ne l'a encore revendiquée
      *  (doc 20, « Correction »). Même statut d'absence que `monVote`. */

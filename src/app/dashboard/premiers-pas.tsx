@@ -1,16 +1,14 @@
 "use client";
 
-import { useState, useTransition } from "react";
+import { useState } from "react";
 import Link from "next/link";
-import { useRouter } from "next/navigation";
-import { Check, MapPin, Plus } from "lucide-react";
+import { Check, MapPin } from "lucide-react";
 
 import { premiersMotsAction, type PremierMot } from "@/app/actions/premiers-pas";
-import { retirerVoteAction, voterPourVarianteAction } from "@/app/actions/votes";
+import { BoutonChezMoi } from "@/components/contribution/bouton-chez-moi";
 import { ListSkeleton } from "@/components/ui/list-skeleton";
 import { useListeMemorisee } from "@/hooks/use-liste-memorisee";
 import { cleCache } from "@/lib/cache-navigation";
-import { signalerEchecContribution } from "@/lib/toast-contribution";
 import { cn } from "@/lib/utils";
 import { VillageProfil } from "./village-profil";
 
@@ -164,12 +162,13 @@ function PremiersMots({
                     </p>
                     <div className="mt-2 flex flex-wrap gap-2">
                         {mot.formes.map((f) => (
-                            <PuceForme
+                            <BoutonChezMoi
                                 key={f.id}
                                 varianteId={f.id}
-                                forme={f.forme}
                                 monVote={f.monVote}
-                                onFait={(vote) => {
+                                puce={<span lang="gsw">{f.forme}</span>}
+                                className="pl-3.5 pr-4 text-[15px]"
+                                onSucces={(vote) => {
                                     rafraichir();
                                     onVote(vote ? { forme: f.forme, francais: mot.francais, lemmeId: mot.id } : null);
                                 }}
@@ -185,51 +184,6 @@ function PremiersMots({
                 </div>
             ))}
         </div>
-    );
-}
-
-function PuceForme({
-    varianteId,
-    forme,
-    monVote,
-    onFait,
-}: {
-    varianteId: string;
-    forme: string;
-    monVote: boolean;
-    onFait: (vote: boolean) => void;
-}) {
-    const router = useRouter();
-    const [enCours, demarrer] = useTransition();
-
-    function basculer() {
-        demarrer(async () => {
-            const res = monVote ? await retirerVoteAction(varianteId) : await voterPourVarianteAction(varianteId);
-            if (res.succes) onFait(!monVote);
-            else signalerEchecContribution(res, () => router.push("/dashboard"));
-        });
-    }
-
-    return (
-        <button
-            type="button"
-            onClick={basculer}
-            disabled={enCours}
-            aria-pressed={monVote}
-            className={cn(
-                "inline-flex h-10 items-center gap-1.5 rounded-full px-4 text-[15px] font-semibold transition-colors disabled:opacity-60",
-                monVote
-                    ? "bg-succes-100 text-succes-500"
-                    : "border border-bordure-forte text-foreground hover:bg-neutre-50",
-            )}
-        >
-            {monVote ? (
-                <Check className="h-4 w-4" strokeWidth={2.6} aria-hidden />
-            ) : (
-                <Plus className="h-4 w-4" strokeWidth={2.4} aria-hidden />
-            )}
-            <span lang="gsw">{forme}</span>
-        </button>
     );
 }
 

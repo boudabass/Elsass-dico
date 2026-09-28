@@ -1,7 +1,7 @@
 "use client"
 
 import type { SensFormeCarte } from "@/app/actions/carte"
-import { VoteVariante } from "@/app/entree/[id]/vote-variante"
+import { BoutonChezMoi } from "@/components/contribution/bouton-chez-moi"
 import { BoutonContribuer } from "@/components/contribution/bouton-contribuer"
 
 // Pendant de `PanneauContribution` côté alsacien → français (27/09/2026) :
@@ -28,16 +28,17 @@ export function PanneauForme({
             ) : (
                 <div className="flex flex-wrap gap-2">
                     {sens.map((s) => (
-                        <div
+                        <BoutonChezMoi
                             key={s.varianteId}
-                            className="flex items-center gap-1.5 rounded-full border border-bordure-forte py-1 pl-3 pr-1.5 text-xs text-foreground"
-                        >
-                            <span>
-                                <span className="font-semibold">{s.francais}</span>
-                                {s.forme !== titre && <span className="text-muted-foreground"> ({s.forme})</span>}
-                            </span>
-                            <VoteVariante varianteId={s.varianteId} monVote={s.monVote} onSucces={onSucces} />
-                        </div>
+                            varianteId={s.varianteId}
+                            monVote={s.monVote}
+                            cote="als"
+                            puce={<>
+                                {s.francais}
+                                {s.forme !== titre && <span lang="gsw" className="font-normal opacity-80"> ({s.forme})</span>}
+                            </>}
+                            onSucces={() => onSucces()}
+                        />
                     ))}
                 </div>
             )}

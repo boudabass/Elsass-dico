@@ -1,6 +1,7 @@
 import type { Prisma } from "@/generated/prisma/client"
 import { cleDeForme } from "@/lib/dictionnaire"
 import { prisma } from "@/lib/prisma"
+import type { MonVote } from "@/lib/contribution"
 import { composerForme, type FormeComposee } from "@/lib/saisie-forme"
 
 // Ce que partagent la création d'une forme (variantes.ts) et celle d'un mot
@@ -67,4 +68,21 @@ export async function poserVariante(
         data: { type: "pose", varianteId: v.id, temoignageId: t.id, communeId, membreId },
     })
     return v.id
+}
+
+/** Mes témoignages sur ces variantes, avec le village qu'ils portent. Un
+ *  membre n'en a qu'un par variante (`@@unique([varianteId, membreId])`). */
+export async function mesVotes(membreId: string, varianteIds: string[]): Promise<Map<string, MonVote>> {
+    if (!varianteIds.length) return new Map()
+    const [temoignages, monVillage] = await Promise.all([
+        prisma.temoignage.findMany({
+            where: { membreId, varianteId: { in: varianteIds } },
+            select: { varianteId: true, communeId: true, commune: { select: { nom: true } } },
+        }),
+        villageDuMembre(membreId),
+    ])
+    return new Map(temoignages.map((t) => [t.varianteId, {
+        village: t.commune?.nom ?? "ton ancien village",
+        actuel: t.communeId !== null && t.communeId === monVillage,
+    }]))
 }

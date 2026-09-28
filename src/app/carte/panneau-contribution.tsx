@@ -1,7 +1,7 @@
 "use client"
 
 import type { VarianteMot } from "@/app/actions/carte"
-import { VoteVariante } from "@/app/entree/[id]/vote-variante"
+import { BoutonChezMoi } from "@/components/contribution/bouton-chez-moi"
 import { BoutonContribuer } from "@/components/contribution/bouton-contribuer"
 
 // Sous la recherche d'un mot : rattacher son village à une forme existante, ou
@@ -34,13 +34,13 @@ export function PanneauContribution({
                     {variantes.length > 0 && (
                         <div className="flex flex-wrap gap-2">
                             {variantes.map((v) => (
-                                <div
+                                <BoutonChezMoi
                                     key={v.id}
-                                    className="flex items-center gap-1.5 rounded-full border border-bordure-forte py-1 pl-3 pr-1.5 text-xs text-foreground"
-                                >
-                                    <span>{v.forme}</span>
-                                    <VoteVariante varianteId={v.id} monVote={v.monVote} onSucces={onSucces} />
-                                </div>
+                                    varianteId={v.id}
+                                    monVote={v.monVote}
+                                    puce={<span lang="gsw">{v.forme}</span>}
+                                    onSucces={() => onSucces()}
+                                />
                             ))}
                         </div>
                     )}

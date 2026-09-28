@@ -150,6 +150,12 @@ sans reconstruire sa doctrine.
   rouge pour l'alsacien**, et toute l'interface suit le sens de lecture
   (tokens `--sens-*`). Le rouge de marque reste celui de la home publique, du
   jeu et de l'image de partage.
+- **Badge des sources** (révisé le 28/09/2026) : 1 source en gris, 2 en
+  jaune, 3 et plus en vert. Le rouge d'alerte pour une source unique couvrait
+  l'écran d'un « douteux » contraire à « peu attesté est publiable », et se
+  confondait avec le rouge de l'alsacien.
+- **`/recherche` est la barre seule** (confirmé par John le 28/09/2026) : ni
+  salut, ni puces, ni mots d'exemple dessous.
 - **Police des titres** : Azimut, celle du logotype du site The Elsassisch.
   Sa licence (CC BY-ND 4.0) demande une attribution qui n'est encore faite
   nulle part : John traite ce point séparément.

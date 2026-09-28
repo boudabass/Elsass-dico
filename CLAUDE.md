@@ -2641,6 +2641,10 @@ du jeu). L'habillage commun des feuilles est dans
   présence.** Le tiroir, lui, reste sous l'écran pour la même raison.
 - **Export des contributions** relancé : 3 poses, 1 retrait (la paire
   *viaräckig* ajoutée).
+- **En production le 28/09 (PR #77, `ef96b4e`)** : `main` redéployé trois
+  minutes après la fusion (`updated_at` 14:28:43Z). Constaté avec la session
+  de John sur la fiche de « salaire » : le bouton ouvre la feuille, Annuler
+  n'écrit rien. `main` et `dev` alignés.
 
 ## Règles de travail
 

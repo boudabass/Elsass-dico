@@ -14,7 +14,7 @@ alsacien publié sous cette marque serait un vrai problème.
    pour arbitrage manuel. **Révisée le 02/09/2026** (cf. « Modèle de confiance
    à trois niveaux ») : une entrée peut être publiée à partir d'une source
    unique **à condition d'afficher son niveau de confiance** — 1 source =
-   rouge, 2 = jaune, 3 et plus = vert. Le seuil binaire « 2 sources ou rien »
+   rouge (gris depuis le 28/09/2026), 2 = jaune, 3 et plus = vert. Le seuil binaire « 2 sources ou rien »
    est remplacé par cette déclaration visible. Ce qui reste interdit :
    présenter une entrée à 1 source comme si elle était recoupée. L'exception du
    07/08/2026 (publication depuis une contribution unique de locuteur) est
@@ -2662,6 +2662,58 @@ identiques**, production constatée.
 - **Ouvert, inchangé** : faire venir des locuteurs ; feu vert du lancement
   public (workflow N8N) ; mesure de convergence ; auto-inscription Odoo, aire
   du 57, attribution Azimut ; seuil « proche » de la contribution à surveiller.
+
+## Revue avant publication : critique impeccable et corrections (28/09/2026)
+
+`/impeccable critique` sur toute l'app, avant sa publication sur le site The
+Elsassisch : deux évaluations séparées (revue de design, détecteur + mesures
+dans le navigateur), **25/40**, archivée dans `.impeccable/critique/`. Le
+détecteur ne trouvait rien dans le code source ; tout est venu du rendu. John
+a retenu les P0 et P1, corrigés dans `dad86de`, `23bd8e2` et `bf916ad`.
+
+- **Home mobile** : « Jouer le défi du jour » et « Créer mon compte » ne
+  faisaient que 20 px de haut, `flex-1` dans un conteneur en colonne écrasait
+  leur `h-12`. `sm:flex-1`. Aucun détecteur ne le voyait : trouvé en mesurant
+  dans une iframe de 375 px.
+- **Badge « 1 source » en gris** (décision de John, qui révise la règle du
+  02/09 « 1 = rouge ») : la plupart des formes n'ont qu'une source, et le
+  rouge d'alerte couvrait l'écran d'un « douteux » contraire à « peu attesté
+  est publiable », en plus de se confondre avec le rouge de l'alsacien. 2 =
+  jaune et 3+ = vert restent. Le jaune était à **2,8:1** (`attention-500`
+  foncé à 30 %), le vert à 4,24 (`succes-500` à 31 %) : les trois niveaux
+  passent 4,5:1. Les niveaux s'appellent `une`/`deux`/`plusieurs`, plus
+  d'après une couleur.
+- **Fiches village et prénom** : ces portes d'entrée depuis Google ne
+  disaient ni le nom du site ni ce qu'il est. En-tête avec « Elsass Dico »
+  cliquable, encart « Et chez toi, comment on le dit ? » (défi du jour,
+  compte, connexion). « aire alsacienne » retiré, et « Personne n'a encore dit
+  d'où vient cette forme » ne s'affiche plus que là où on peut y répondre
+  (absurde sur la fiche d'un village, dont c'est le nom).
+- **Carte** : les villages étaient colorés par un hachage de leur forme, des
+  couleurs sans signification ni légende. Désormais une seule couleur sans
+  recherche ; sur la carte d'un mot ou d'une forme, une couleur **par rang**
+  dans le panneau, qui sert de légende (pastille devant chaque forme), sans
+  rouge ni bleu. La home dessine ses villages en rouge de marque. **« Voir sur
+  la carte »** sur la fiche d'un mot et d'une forme (`?forme=` s'ajoute à
+  `?mot=`). Un mot sans aucun village le dit dans le panneau.
+- **Trouvé en vérifiant** : `?mot=`/`?forme=` étaient retirés de l'URL au
+  montage, ce qui abandonnait la Server Action du mot : la carte restait ~10 s
+  sur « Chargement… », jusqu'à la reprise. Même piège que le 27/09 ; l'URL
+  n'est nettoyée qu'une fois le chargement fini.
+- **Textes** : plus de « attestée(s) » à l'écran, aide de la carte juste
+  (« au-dessus », plus « sous la carte »), `/login` dit « Connecte-toi »,
+  les tirets longs des fiches de source rendus en point médian à l'affichage
+  (la donnée n'est pas touchée), « Retour à la carte » retiré de `/sources`,
+  espace avant les parenthèses des suggestions de la carte, champs de la
+  carte raccourcis pour le mobile, « Aller à un mot » en 16 px (l'iPhone
+  zoomait).
+- **Vérifié sur `dev`** : boutons à 48 px et fiche Colmar (en-tête,
+  invitation, badges) dans une iframe sans cookies de 375 px ; fiche de
+  *bonjour* → « Voir sur la carte » → panneau et message sans village ;
+  *Mundolsheim* → pastille verte devant *Mundelse*, point vert à Mundolsheim.
+- **Laissés pour plus tard (P2)** : fiche de mot condensée, contribution
+  remontée sous le titre, « Copier » rétrogradé, article demandé après la
+  forme dans la feuille de contribution, état vide de `/recherche`.
 
 ## Règles de travail
 

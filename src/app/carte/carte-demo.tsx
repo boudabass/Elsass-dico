@@ -108,6 +108,8 @@ export function CarteDemo() {
         charger: () => pointsMotAction(motActif!.id),
     })
 
+    const urlANettoyer = useRef(false)
+
     // Lien direct vers la carte d'un mot (`/carte?mot=<id>`), posé par le
     // premier parcours de « Mon espace » (24/09/2026) : juste après son premier
     // vote, le membre voit son village sur la carte de ce mot. Lu une fois au
@@ -128,8 +130,19 @@ export function CarteDemo() {
         } else {
             return
         }
-        window.history.replaceState(null, "", window.location.pathname)
+        urlANettoyer.current = true
     }, [])
+
+    // Le paramètre ne quitte l'URL qu'une fois le mot ou la forme chargés :
+    // `replaceState` abandonne une Server Action en vol, et la carte restait
+    // alors sur « Chargement… » jusqu'à la reprise (8 s). Cf. le piège du
+    // 27/09/2026 : réécrire l'URL après, jamais pendant.
+    useEffect(() => {
+        if (!urlANettoyer.current) return
+        if (!pointsMot && !pointsForme && (motActif || formeActive)) return
+        urlANettoyer.current = false
+        window.history.replaceState(null, "", window.location.pathname)
+    }, [pointsMot, pointsForme, motActif, formeActive])
 
     function choisir(s: Suggestion) {
         if (s.lemme) setMotActif(s.lemme)

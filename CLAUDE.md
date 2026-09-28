@@ -2655,8 +2655,9 @@ Reprise après la coupure du PC de John dans la nuit : le travail de la nuit
 identiques**, production constatée.
 
 - **Export des contributions** à jour (3 poses, 1 retrait), versionné.
-- **Reste à constater par John** : la feuille sur un vrai téléphone (vue dans
-  un cadre de 375 px seulement) ; le bouton « Partager » du jeu, en attente
+- **Constaté par John sur son smartphone** : la feuille « Chez moi aussi »
+  fonctionne.
+- **Reste à constater par John** : le bouton « Partager » du jeu, en attente
   depuis le 26/09.
 - **Ouvert, inchangé** : faire venir des locuteurs ; feu vert du lancement
   public (workflow N8N) ; mesure de convergence ; auto-inscription Odoo, aire

@@ -2737,9 +2737,14 @@ Commit `ef56098`, à la demande de John.
   bouton de contribution est à 198 px du haut sur téléphone, la page fait
   1 201 px. « d'r Test » tapé dans la feuille → « Test (d'r) », article
   ouvert sur `d'r`. Feuille fermée sans envoi.
-- **Pas fait, volontairement** : un état vide pour `/recherche` (mots
-  d'exemple sous la barre). John a demandé la barre seule le 26/09 ; la revue
-  le proposait, mais c'est à lui de revenir sur ce choix.
+- **`/recherche` reste la barre seule** (confirmé par John le 28/09) : la
+  revue proposait des mots d'exemple sous la barre, John garde son choix du
+  26/09. Ne pas le reproposer.
+- **En production le 28/09 (PR #83)** : fiche Colmar avec « Écrit dans »,
+  `/` et `/jeu` → 200, `/recherche` → 307.
+- **Mis à jour dans la foulée** : `PRODUCT.md` (badge gris, barre seule),
+  Odoo 882 (même chose), `documentation/10-VISION-PRODUIT.md`, mémoires.
+  Export des contributions non relancé : aucun vote ni forme dans la session.
 
 ## Règles de travail
 

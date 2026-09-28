@@ -149,8 +149,10 @@ export function CarteParlers({ points, couleurDe, className }: Props) {
         marqueurs.clearLayers()
         for (const p of points) {
             L.circleMarker([p.latitude, p.longitude], {
-                radius: 5,
-                weight: 1.5,
+                // Plus petits sans recherche : les villages d'une seule couleur
+                // formaient sinon une masse sombre au zoom d'ouverture.
+                radius: couleurDe ? 5 : 3.5,
+                weight: couleurDe ? 1.5 : 1,
                 color: "#ffffff",
                 fillColor: couleurDe?.(p.couleurCle ?? p.formes[0] ?? "") ?? COULEUR_VILLAGE,
                 fillOpacity: 0.95,

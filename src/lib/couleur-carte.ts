@@ -14,7 +14,7 @@
 // Ni rouge ni bleu dans la palette : dans l'app connectée, ce sont les couleurs
 // des deux langues (27/09/2026). Choisie pour rester lisible sur le fond pâle
 // du maillage (#f8fafc) et distincte du gris des frontières (#94a3b8).
-export const COULEUR_VILLAGE = "#57534e"
+export const COULEUR_VILLAGE = "#78716c"
 
 const PALETTE = [
     "#059669", "#d97706", "#7c3aed", "#db2777", "#0891b2",

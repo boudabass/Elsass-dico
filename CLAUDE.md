@@ -2592,6 +2592,56 @@ PR de clôture.
   du 57, attribution Azimut. À surveiller à l'usage : le seuil « proche »
   (≤ 2 lettres et ≤ 25 %), trop large ou trop strict selon les retours.
 
+## « Chez moi aussi » passe par une feuille (28/09/2026)
+
+Piste B choisie par John dans la nuit du 27 au 28/09 (commit `3204924`). Le
+bouton votait ou retirait dès le premier toucher, sans dire quel village :
+un toucher de trop écrivait un retrait au journal. **Il ouvre maintenant une
+feuille**, la même que l'ajout d'une forme (tiroir sur mobile, fenêtre dès la
+tablette) :
+
+- **pas de vote** → « Ça se dit comme ça chez toi ? » (côté alsacien : « Ça
+  veut dire ça chez toi ? Au sens de … »), village nommé, « Changer » ;
+- **vote de mon village** → « Retirer ton village ? », Retirer / Garder ;
+- **vote d'un ancien village** → « Tu l'as dite pour X », « La dire pour Y à
+  la place » (`remplacerVillageVoteAction`, retrait + pose au journal dans une
+  transaction), Retirer X, Garder X.
+
+`monVote` porte désormais le village du témoignage et s'il est encore le mien
+(`mesVotes()`), au lieu d'un booléen qui disait « chez moi » pour un ancien
+village. `BoutonChezMoi` remplace `VoteVariante` partout (fiche d'un mot,
+fiche d'une forme, carte où toute la pastille se touche, premiers pas, bilan
+du jeu). L'habillage commun des feuilles est dans
+`src/components/contribution/habillage.tsx`.
+
+- **Le PC de John a coupé juste après le push** : le commit était poussé et
+  déployé sur `dev` (04:03), mais ni vérifié à l'écran ni documenté.
+- **Vérifié le 28/09 sur `dev`** (session de John) : fiche de « salaire »,
+  Annuler n'écrit rien, vote → « 1 village », « Dit à Mundolsheim » ; feuille
+  de retrait → Garder ; village passé à Colmar → « Tu l'as dite pour
+  Mundolsheim » → « La dire pour Colmar à la place » → « Dit à Colmar » ;
+  village remis à Mundolsheim → « Retirer Colmar » → retour exact à l'état
+  d'origine. Carte (`/carte?mot=`) : vote et retrait par la pastille ;
+  `/forme?c=lohn` : formulation côté alsacien ; `?premiers-pas` : la feuille
+  s'ouvre au lieu de voter. Tiroir vaul à 375 px : pleine largeur, 476 px de
+  haut, aucun débordement. `typecheck` propre.
+- **Nettoyé** : les 6 événements de test sur `d'r Lohn` supprimés du journal,
+  aucun témoignage laissé, village de John remis à Mundolsheim.
+- **Resté au journal, pas de moi** : une pose puis un retrait de *viaräckig*
+  (« quadrangulaire ») à Mundolsheim, à 1,4 s d'écart, le 28/09 à 13:32 UTC.
+  C'est le toucher de trop que cette feuille supprime, fait sur la production
+  qui avait encore l'ancien bouton. Gardé : c'est un vrai geste.
+- **Faux positif, commit annulé** (`7e3af57`, annulé par `34eb418`) : la liste
+  des villages de « Mon espace » semblait rester ouverte par-dessus « Valider »
+  après un choix. C'était le navigateur piloté : **l'onglet est caché
+  (`visibilityState: hidden`), les animations de sortie de Radix ne finissent
+  jamais**, et un contenu déjà fermé (`data-state="closed"`) reste dans la
+  page. Même mesure sur la production, ancien code : fermée aussi. **Avant de
+  conclure qu'un élément reste ouvert, lire son `data-state`, pas sa
+  présence.** Le tiroir, lui, reste sous l'écran pour la même raison.
+- **Export des contributions** relancé : 3 poses, 1 retrait (la paire
+  *viaräckig* ajoutée).
+
 ## Règles de travail
 
 - Ne jamais inventer de traduction alsacienne, même pour un exemple ou un test.

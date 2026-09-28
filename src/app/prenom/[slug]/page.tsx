@@ -2,7 +2,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import { CarteVariante } from "@/components/carte-variante";
-import { FichePublique } from "@/components/fiche-publique";
+import { FichePublique, InvitationPublique } from "@/components/fiche-publique";
 import { chargerLemmeDetaille, slugsPrenomsAttestes } from "@/lib/lemmes";
 
 // Fiche publique d'un prénom (doc 20, étape 3) — même contenu que la fiche
@@ -44,7 +44,7 @@ export default async function PrenomPage({
   if (!lemme || lemme.type !== "prenom") notFound();
 
   return (
-    <FichePublique titre={lemme.francais} className="space-y-6">
+    <FichePublique className="space-y-6">
       <header className="space-y-1">
         <p className="text-xs font-semibold uppercase tracking-wide text-muted-foreground">Prénom</p>
         <h1 className="text-2xl font-bold text-foreground">{lemme.francais}</h1>
@@ -58,8 +58,10 @@ export default async function PrenomPage({
         </div>
       </section>
 
+      <InvitationPublique />
+
       <p className="text-xs text-muted-foreground">
-        <Link href="/sources" className="underline">
+        <Link href="/sources" className="inline-block py-2 underline underline-offset-4">
           Sources et licences
         </Link>
       </p>

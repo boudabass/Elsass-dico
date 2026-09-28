@@ -4,6 +4,8 @@ import type { SensFormeCarte } from "@/app/actions/carte"
 import { BoutonChezMoi } from "@/components/contribution/bouton-chez-moi"
 import { BoutonContribuer } from "@/components/contribution/bouton-contribuer"
 
+import { PastilleCouleur } from "./pastille-couleur"
+
 // Pendant de `PanneauContribution` côté alsacien → français (27/09/2026) :
 // sous la carte d'une forme, chacun de ses sens, et le `+` pour y rattacher
 // son village. Depuis le 28/09/2026, « Ce mot veut aussi dire… » y rattache la
@@ -13,11 +15,14 @@ export function PanneauForme({
     titre,
     sens,
     onSucces,
+    couleurDe,
 }: {
     titre: string
     /** `null` : en cours de chargement. */
     sens: SensFormeCarte[] | null
     onSucces: () => void
+    /** La couleur de chaque sens sur la carte : le panneau sert de légende. */
+    couleurDe?: (francais: string) => string
 }) {
     return (
         <div className="max-h-[32vh] shrink-0 space-y-2 overflow-y-auto rounded-md border bg-muted/30 p-3 text-sm">
@@ -34,6 +39,7 @@ export function PanneauForme({
                             monVote={s.monVote}
                             cote="als"
                             puce={<>
+                                {s.nbVillages > 0 && couleurDe && <PastilleCouleur couleur={couleurDe(s.francais)} />}
                                 {s.francais}
                                 {s.forme !== titre && <span lang="gsw" className="font-normal opacity-80"> ({s.forme})</span>}
                             </>}

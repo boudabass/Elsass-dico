@@ -1,4 +1,3 @@
-import Link from "next/link"
 
 import { FichePublique } from "@/components/fiche-publique"
 import { prisma } from "@/lib/prisma"
@@ -25,7 +24,7 @@ export default async function PageSources() {
     })
 
     return (
-        <FichePublique titre="Sources" className="space-y-8">
+        <FichePublique className="space-y-8">
             <header className="space-y-1">
                 <h1 className="text-xl font-semibold">Sources</h1>
                 <p className="text-sm text-muted-foreground">
@@ -41,9 +40,9 @@ export default async function PageSources() {
                     {sources.map((s) => (
                         <li key={s.code} className="rounded-lg border p-3">
                             <div className="flex flex-wrap items-baseline justify-between gap-2">
-                                <span className="font-medium">{s.nom}</span>
+                                <span className="font-medium">{sansTiretLong(s.nom)}</span>
                                 <span className="text-xs text-muted-foreground">
-                                    {s._count.attestations.toLocaleString("fr-FR")} attestations
+                                    {s._count.attestations.toLocaleString("fr-FR").replace(/ /g, " ")} entrées
                                 </span>
                             </div>
                             {s.url && (
@@ -58,7 +57,7 @@ export default async function PageSources() {
                             )}
                             {(s.annee || s.licence) && (
                                 <p className="mt-1 text-xs text-muted-foreground">
-                                    {[s.annee, s.licence].filter(Boolean).join(" · ")}
+                                    {[s.annee, s.licence && sansTiretLong(s.licence)].filter(Boolean).join(" · ")}
                                 </p>
                             )}
                         </li>
@@ -95,9 +94,14 @@ export default async function PageSources() {
                 </ul>
             </section>
 
-            <p className="text-xs text-muted-foreground">
-                <Link href="/carte" className="underline">Retour à la carte</Link>
-            </p>
         </FichePublique>
     )
+}
+
+// Les champs nom et licence viennent des fiches de source versionnées, qui
+// portent des tirets longs (« non précisée — site personnel »). La règle de
+// l'écran est de n'en afficher aucun (John, 23/09/2026) : on les rend en point
+// médian à l'affichage, sans toucher à la donnée.
+function sansTiretLong(texte: string) {
+    return texte.replace(/\s*—\s*/g, " · ")
 }

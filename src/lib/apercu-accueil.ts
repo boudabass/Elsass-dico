@@ -16,7 +16,6 @@ import { join } from "node:path"
 import { merge, mesh } from "topojson-client"
 
 import { pointsCarteAction } from "@/app/actions/carte"
-import { couleurDeForme } from "@/lib/couleur-carte"
 import type { FormeApercu } from "@/lib/dictionnaire"
 import { apercusParLemme } from "@/lib/lemmes"
 import { prisma } from "@/lib/prisma"
@@ -118,13 +117,13 @@ export async function chargerApercuAccueil(): Promise<ApercuAccueil> {
     const terre = merge(topo, communes.geometries)
     const limites = mesh(topo, communes, (a, b) => a !== b && departement(a) !== departement(b))
 
-    // Un point par village, groupés par couleur. La couleur est celle de la
-    // première forme du village, la même règle que la carte de l'app.
-    const parCouleur = new Map<string, string>()
+    // Un point par village, tous du rouge de marque (page publique). Les
+    // couleurs par forme, sans légende possible ici, ne signifiaient rien
+    // (revue du 28/09/2026).
+    let d = ""
     for (const p of points) {
-        const couleur = couleurDeForme(p.formes[0] ?? "")
         const [x, y] = projeter([p.longitude, p.latitude])
-        parCouleur.set(couleur, (parCouleur.get(couleur) ?? "") + `M${x} ${y}h0`)
+        d += `M${x} ${y}h0`
     }
 
     const valeur: ApercuAccueil = {
@@ -133,7 +132,7 @@ export async function chargerApercuAccueil(): Promise<ApercuAccueil> {
             hauteur: HAUTEUR,
             terre: trace(terre.coordinates.flat(), true),
             limites: trace(limites.coordinates, false),
-            points: Array.from(parCouleur, ([couleur, d]) => ({ couleur, d })),
+            points: [{ couleur: "#C20000", d }],
             nbVillages: points.length,
             nbFormes: nbFormesVillages,
         },

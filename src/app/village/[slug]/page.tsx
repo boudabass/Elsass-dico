@@ -2,7 +2,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import { CarteVariante } from "@/components/carte-variante";
-import { FichePublique } from "@/components/fiche-publique";
+import { FichePublique, InvitationPublique } from "@/components/fiche-publique";
 import { chargerVillage, slugsVillagesAttestes } from "@/lib/villages";
 import { LIBELLES_DEPARTEMENT } from "@/lib/dictionnaire";
 
@@ -34,7 +34,7 @@ export async function generateMetadata({
   if (!village.lemme) {
     return {
       title: `${village.nom} · Elsass Dico`,
-      description: `${village.nom} (${departement}) n'a pas encore de nom alsacien attesté dans Elsass Dico.`,
+      description: `${village.nom} (${departement}) n'a pas encore de nom alsacien dans Elsass Dico.`,
       robots: { index: false, follow: true },
     };
   }
@@ -64,11 +64,10 @@ export default async function VillagePage({
   const nbFormes = village.lemme?.variantes.length ?? 0;
 
   return (
-    <FichePublique titre={village.nom} className="space-y-6">
+    <FichePublique className="space-y-6">
       <header className="space-y-1">
         <p className="text-xs font-semibold uppercase tracking-wide text-muted-foreground">
           {departement}
-          {village.aireLinguistique === "alsacien" ? " · aire alsacienne" : ""}
         </p>
         <h1 className="text-2xl font-bold text-foreground">{village.nom}</h1>
         {village.population !== null && (
@@ -90,16 +89,17 @@ export default async function VillagePage({
           </div>
         </section>
       ) : (
-        // Pas de lien vers un geste qui n'existe pas encore : la contribution
-        // est l'étape 5 de la refonte, pas celle-ci. Un lien mort est pire
-        // qu'une absence (même règle que sur la page de recherche).
+        // L'invitation plus bas porte l'appel à contribuer : un compte suffit
+        // pour ajouter la forme de ce village.
         <p className="rounded-lg border border-dashed border-border p-4 text-sm text-muted-foreground">
           Personne n&apos;a encore proposé de nom alsacien pour {village.nom}.
         </p>
       )}
 
+      <InvitationPublique />
+
       <p className="text-xs text-muted-foreground">
-        <Link href="/sources" className="underline">
+        <Link href="/sources" className="inline-block py-2 underline underline-offset-4">
           Sources et licences
         </Link>
       </p>

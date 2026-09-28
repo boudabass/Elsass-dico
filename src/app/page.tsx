@@ -264,13 +264,13 @@ export default async function AccueilPubliquePage() {
         <section className="mx-auto mt-16 flex w-full max-w-2xl flex-col gap-3 px-6 sm:flex-row sm:px-10">
           <Link
             href="/jeu"
-            className="flex h-12 flex-1 items-center justify-center rounded-lg bg-marque-rouge-500 px-6 text-sm font-semibold text-white transition-colors hover:bg-marque-rouge-600 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
+            className="flex h-12 items-center sm:flex-1 justify-center rounded-lg bg-marque-rouge-500 px-6 text-sm font-semibold text-white transition-colors hover:bg-marque-rouge-600 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
           >
             Jouer le défi du jour
           </Link>
           <a
             href={URL_INSCRIPTION_ODOO}
-            className="flex h-12 flex-1 items-center justify-center rounded-lg bg-foreground px-6 text-sm font-semibold text-background transition-opacity hover:opacity-90 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
+            className="flex h-12 items-center sm:flex-1 justify-center rounded-lg bg-foreground px-6 text-sm font-semibold text-background transition-opacity hover:opacity-90 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
           >
             Créer mon compte
           </a>
@@ -292,7 +292,7 @@ function CarteApercu({ carte }: { carte: ApercuCarte }) {
     <svg
       viewBox={`0 0 ${carte.largeur} ${carte.hauteur}`}
       role="img"
-      aria-label={`Carte de l'Alsace et de la Moselle, avec un point pour chacun des ${carte.nbVillages} villages qui ont une forme alsacienne attestée.`}
+      aria-label={`Carte de l'Alsace et de la Moselle, avec un point pour chacun des ${carte.nbVillages} villages dont on connaît le nom en alsacien.`}
       className="mx-auto block h-auto max-h-[560px] w-full"
     >
       <path d={carte.terre} className="fill-neutre-100 stroke-neutre-300" strokeWidth={2} strokeLinejoin="round" />

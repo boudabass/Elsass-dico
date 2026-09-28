@@ -171,9 +171,9 @@
     /* Pills de statut ("Validée" / "En attente"), hors du champ des couleurs
        de marque — n'affecte pas emerald/amber déjà utilisés tels quels dans
        /admin/arbitrage. */
-    --succes-500: 145 45% 34%;
+    --succes-500: 145 45% 31%;
     --succes-100: 143 39% 91%;
-    --attention-500: 33 73% 45%;
+    --attention-500: 33 73% 30%;
     --attention-100: 36 70% 90%;
 
     --radius: 0.5rem;

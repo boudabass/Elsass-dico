@@ -72,7 +72,10 @@ export function CarteVariante({
         </div>
       )}
 
-      {v.villages.length === 0 && (
+      {/* Seulement là où l'on peut répondre (bouton de vote présent). Sur une
+          fiche publique, la phrase n'appelait aucun geste, et sur la fiche d'un
+          village elle était absurde : sa forme vient de ce village. */}
+      {v.villages.length === 0 && accessoire && (
         <p className="mt-2.5 text-sm text-muted-foreground">
           Personne n&apos;a encore dit d&apos;où vient cette forme.
         </p>

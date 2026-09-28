@@ -2718,6 +2718,29 @@ a retenu les P0 et P1, corrigés dans `dad86de`, `23bd8e2` et `bf916ad`.
   l'encart d'invitation, `/` et `/jeu` → 200, `/recherche` → 307, plus aucun
   tiret long sur `/sources`. `main` et `dev` alignés.
 
+### Les P2 dans la foulée (28/09/2026)
+
+Commit `ef56098`, à la demande de John.
+
+- **Carte de variante sur une ligne par provenance** (« Écrit dans : … »,
+  « Dit à : … ») au lieu d'un intertitre et d'une ligne par source. La phrase
+  « Personne n'a encore dit… » ne se répète plus sous chaque forme : la fiche
+  le dit une fois, quand aucun village n'est rattaché.
+- **Fiche d'un mot et d'une forme** : « Ça se dit autrement chez moi ? » et
+  « Voir sur la carte » sous le titre, redits en bas seulement quand la liste
+  est longue (plus de deux formes ou sens). Copier et Signaler deviennent deux
+  liens discrets : « Copier » pesait plus que la contribution.
+- **Feuille de contribution** : le champ de la forme d'abord, l'article
+  ensuite, replié derrière « + Préciser l'article (facultatif) ». Il s'ouvre
+  seul dès qu'un article existe (tapé dans le champ, ou forme pré-remplie).
+- **Vérifié sur `dev`** : fiche de *bonjour*, sur ordinateur et à 375 px. Le
+  bouton de contribution est à 198 px du haut sur téléphone, la page fait
+  1 201 px. « d'r Test » tapé dans la feuille → « Test (d'r) », article
+  ouvert sur `d'r`. Feuille fermée sans envoi.
+- **Pas fait, volontairement** : un état vide pour `/recherche` (mots
+  d'exemple sous la barre). John a demandé la barre seule le 26/09 ; la revue
+  le proposait, mais c'est à lui de revenir sur ce choix.
+
 ## Règles de travail
 
 - Ne jamais inventer de traduction alsacienne, même pour un exemple ou un test.

@@ -2781,8 +2781,8 @@ et en production (PR #81, #83), documentation à jour (PR #84, Odoo 882).
 vote ni forme dans la session.
 
 - **Prochaine session** : le plan ci-dessus.
-- **Reste à constater par John** : le bouton « Partager » du jeu sur téléphone
-  (en attente depuis le 26/09).
+- **Constaté par John sur son téléphone** (28/09) : le bouton « Partager » du
+  jeu fonctionne, dernier point en attente depuis le 26/09.
 - **Ouvert, inchangé** : faire venir des locuteurs ; feu vert du lancement
   public (workflow N8N du défi) ; mesure de convergence ; auto-inscription
   Odoo, aire du 57, attribution Azimut ; seuil « proche » de la contribution à

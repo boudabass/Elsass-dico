@@ -1,9 +1,13 @@
 import { niveauConfiance, LIBELLES_NIVEAU_CONFIANCE, type NiveauConfiance } from "@/lib/dictionnaire";
 
 // Ce qui fonde une forme, affiché à côté d'elle. Trois niveaux pour les sources
-// écrites (décision de John, 02/09/2026) : 1 = rouge, 2 = jaune, 3+ = vert. Le
-// badge ne se contente jamais de la couleur — le texte porte le compte — pour
-// rester lisible hors contexte et pour qui ne perçoit pas la teinte.
+// écrites (décision de John, 02/09/2026), révisée le 28/09/2026 : 1 = gris,
+// 2 = jaune, 3+ = vert. La plupart des formes n'ont qu'une source ; en rouge
+// d'alerte, elles couvraient l'écran de pastilles qui disaient « douteux »,
+// l'inverse de « peu attesté est publiable », et ce rouge se confondait avec
+// celui de l'alsacien. Le badge ne se contente jamais de la couleur (le texte
+// porte le compte) pour rester lisible hors contexte et pour qui ne perçoit pas
+// la teinte.
 //
 // DEUX PASTILLES, JAMAIS UNE. Depuis la refonte du 11/09/2026, une forme peut
 // être portée par des sources écrites, par des villages, ou par les deux. Les
@@ -13,13 +17,11 @@ import { niveauConfiance, LIBELLES_NIVEAU_CONFIANCE, type NiveauConfiance } from
 // et une source ne parle depuis aucun village.
 //
 // Styles réutilisés du vocabulaire de pastille succès/attention de l'app.
-// --destructive/10 remplace le rouge : aucun token danger-100 n'existe encore, et
-// --destructive est déjà le rouge d'alerte vérifié en accessibilité ailleurs
-// (form.tsx, alert.tsx) — distinct du rouge de marque, réservé aux CTA.
+// Texte des trois niveaux à 4,5:1 au moins sur son fond (mesuré le 28/09/2026).
 const STYLES: Record<NiveauConfiance, string> = {
-  rouge: "bg-destructive/10 text-destructive",
-  jaune: "bg-attention-100 text-attention-500",
-  vert: "bg-succes-100 text-succes-500",
+  une: "bg-neutre-100 text-neutre-600",
+  deux: "bg-attention-100 text-attention-500",
+  plusieurs: "bg-succes-100 text-succes-500",
 };
 
 const PASTILLE = "inline-flex shrink-0 items-center rounded-full px-2.5 py-0.5 text-xs font-semibold";

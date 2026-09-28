@@ -4,6 +4,7 @@ import { ChevronRight } from "lucide-react";
 import { AppHeader } from "@/components/app-header";
 import { BoutonContribuer } from "@/components/contribution/bouton-contribuer";
 import { CarteVariante } from "@/components/carte-variante";
+import { LienCarte } from "@/components/lien-carte";
 import { chargerFormeAction } from "@/app/actions/formes";
 import { precisionLemme } from "@/lib/dictionnaire";
 import { BoutonChezMoi } from "@/components/contribution/bouton-chez-moi";
@@ -38,6 +39,9 @@ export default async function FormePage({ searchParams }: { searchParams: Promis
         <p className="mt-1 text-sm text-muted-foreground">
           {nbSens > 1 ? `${nbSens} sens en français` : "1 sens en français"}
         </p>
+        <div className="mt-3">
+          <LienCarte href={`/carte?forme=${encodeURIComponent(c!)}&titre=${encodeURIComponent(forme.titre)}`} />
+        </div>
 
         <div className="mt-5 flex flex-col gap-7">
           {forme.sens.map(({ lemme, variantes }) => (

@@ -412,13 +412,13 @@ function ChampAllerAuMot({
           onChange={(evt) => onChange(evt.target.value)}
           aria-label={placeholder.replace("…", "")}
           placeholder={placeholder}
-          className="h-9 w-full rounded-full border border-bordure-forte bg-background pl-9 pr-3 text-sm text-foreground placeholder:text-neutre-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
+          className="h-10 w-full rounded-full border border-bordure-forte bg-background pl-9 pr-3 text-base text-foreground placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
         />
       </div>
       <button
         type="submit"
         disabled={disabled || !valeur.trim()}
-        className="flex h-9 shrink-0 items-center rounded-full bg-sens-500 px-3.5 text-sm font-semibold text-white transition-colors disabled:pointer-events-none disabled:opacity-40"
+        className="flex h-10 shrink-0 items-center rounded-full bg-sens-500 px-4 text-sm font-semibold text-white transition-colors disabled:pointer-events-none disabled:opacity-40"
       >
         Aller
       </button>

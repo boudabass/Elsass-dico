@@ -108,7 +108,7 @@ function Accueil({
                 d'autres types de manches (mots, prénoms). « Quel village dit
                 ça ? » est la consigne d'un type, pas le nom du jeu. */}
             <p className="mt-2 max-w-[56ch] text-[15px] leading-[1.55] text-muted-foreground">
-                Des formes alsaciennes attestées. À toi de retrouver ce qu&apos;elles disent.
+                De vrais mots alsaciens, tirés d&apos;un dictionnaire ou dits par des Alsaciens. À toi de retrouver ce qu&apos;ils disent.
             </p>
 
             <section

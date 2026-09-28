@@ -48,10 +48,10 @@ export default function LoginPage() {
       <main className="flex-1 px-6 py-8">
         <p className="font-display text-center text-[26px] text-marque-rouge-texte">Elsass Dico</p>
         <h1 className="mt-[18px] text-center text-xl font-extrabold text-foreground">
-          Heureux de te revoir
+          Connecte-toi
         </h1>
         <p className="mt-1.5 mb-[26px] text-center text-sm text-muted-foreground">
-          Connecte-toi avec ton compte The Elsassisch.
+          Avec ton compte The Elsassisch, le même que sur le site.
         </p>
 
         <form onSubmit={soumettre} className="flex flex-col gap-3.5">

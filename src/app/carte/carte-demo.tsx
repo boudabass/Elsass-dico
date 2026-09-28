@@ -22,7 +22,7 @@ import { useSens } from "@/components/sens-provider"
 import { useListeMemorisee } from "@/hooks/use-liste-memorisee"
 import { useRequeteDebattue } from "@/hooks/use-requete-debattue"
 import { cleCache } from "@/lib/cache-navigation"
-import { couleurDeForme } from "@/lib/couleur-carte"
+import { couleurParRang } from "@/lib/couleur-carte"
 import { entreParentheses, precisionLemme, type FormeResume, type LemmeResume } from "@/lib/dictionnaire"
 
 import { AideCarte } from "./aide-carte"
@@ -114,10 +114,20 @@ export function CarteDemo() {
     // montage, puis retiré de l'URL : revenir aux villages avec × ne doit pas
     // rouvrir le mot au prochain rechargement. Le libellé arrive avec les
     // points du mot, d'où `francais` vide en attendant.
+    //
+    // `?forme=<cle>&titre=<titre>` fait de même pour une forme alsacienne,
+    // depuis sa fiche (revue du 28/09/2026).
     useEffect(() => {
-        const id = new URLSearchParams(window.location.search).get("mot")
-        if (!id) return
-        setMotActif({ id, francais: "", contexte: "", type: "mot", departement: null, formes: [], nbFormes: 0 })
+        const params = new URLSearchParams(window.location.search)
+        const id = params.get("mot")
+        const cle = params.get("forme")
+        if (id) {
+            setMotActif({ id, francais: "", contexte: "", type: "mot", departement: null, formes: [], nbFormes: 0 })
+        } else if (cle) {
+            setFormeActive({ cle, titre: params.get("titre") ?? cle, sens: [], nbSens: 0 })
+        } else {
+            return
+        }
         window.history.replaceState(null, "", window.location.pathname)
     }, [])
 
@@ -167,6 +177,21 @@ export function CarteDemo() {
     const echec = formeActive ? echecForme : motActif ? echecMot : echecVillages
     const recharger = formeActive ? rafraichirForme : motActif ? rafraichirMot : rechargerVillages
 
+    // Une couleur par variante (ou par sens), dans l'ordre du panneau, qui sert
+    // de légende. Sans recherche, `undefined` : tous les villages d'une couleur.
+    const cles = formeActive
+        ? (pointsForme?.sens ?? []).map((s) => s.francais)
+        : motActif
+            ? (pointsMot?.variantes ?? []).map((v) => v.forme)
+            : null
+    const cleCouleurs = cles ? JSON.stringify(cles) : null
+    const couleurDe = useMemo(() => {
+        if (cleCouleurs === null) return undefined
+        const rangs = new Map<string, number>()
+        for (const c of JSON.parse(cleCouleurs) as string[]) if (!rangs.has(c)) rangs.set(c, rangs.size)
+        return (cle: string) => couleurParRang(rangs.get(cle) ?? 0)
+    }, [cleCouleurs])
+
     return (
         // `overflow-hidden` : filet de sécurité. Le panneau de contribution a
         // son propre défilement ; sans cette ligne, un débordement de `main`
@@ -185,7 +210,7 @@ export function CarteDemo() {
                         label={sens === "als" ? "Chercher une forme alsacienne" : "Chercher un mot français"}
                         valeur={motSaisi}
                         onValeurChange={saisirMot}
-                        placeholder={sens === "als" ? "Chercher en alsacien : buschur, Lohn, Kolmer…" : "Chercher en français : bonjour, salaire, Colmar…"}
+                        placeholder={sens === "als" ? "Une forme : buschur, Lohn…" : "Un mot : bonjour, salaire…"}
                         actif={cleSuggestions !== null}
                         suggestions={suggestions}
                         cleDe={(s) => s.cle}
@@ -193,14 +218,14 @@ export function CarteDemo() {
                             s.lemme ? (
                                 <>
                                     {s.lemme.francais}
-                                    {precisionLemme(s.lemme) ? <span className="text-muted-foreground"> {entreParentheses(precisionLemme(s.lemme))}</span> : null}
+                                    {precisionLemme(s.lemme) ? <span className="ml-1 text-muted-foreground">{entreParentheses(precisionLemme(s.lemme))}</span> : null}
                                 </>
                             ) : (
                                 <>
                                     {s.forme.titre}
                                     {s.forme.sens[0] && (
-                                        <span className="text-muted-foreground">
-                                            {" "}({s.forme.sens[0].francais}{s.forme.nbSens > 1 ? `, +${s.forme.nbSens - 1}` : ""})
+                                        <span className="ml-1 text-muted-foreground">
+                                            ({s.forme.sens[0].francais}{s.forme.nbSens > 1 ? `, +${s.forme.nbSens - 1}` : ""})
                                         </span>
                                     )}
                                 </>
@@ -227,6 +252,7 @@ export function CarteDemo() {
                     <PanneauForme
                         titre={formeActive.titre}
                         sens={formeEnChargement ? null : (pointsForme?.sens ?? [])}
+                        couleurDe={couleurDe}
                         onSucces={rafraichirForme}
                     />
                 )}
@@ -236,6 +262,7 @@ export function CarteDemo() {
                         lemmeId={motActif.id}
                         francais={motActif.francais || pointsMot?.francais || ""}
                         variantes={motEnChargement ? null : (pointsMot?.variantes ?? [])}
+                        couleurDe={couleurDe}
                         onSucces={rafraichirMot}
                     />
                 )}
@@ -246,7 +273,7 @@ export function CarteDemo() {
                 <div className="relative min-h-0 flex-1">
                     <CarteParlers
                         points={pointsAffiches}
-                        couleurDe={couleurDeForme}
+                        couleurDe={couleurDe}
                         className="h-full w-full overflow-hidden rounded-lg border"
                     />
                     {echec && (
@@ -268,7 +295,7 @@ export function CarteDemo() {
                         value={filtre}
                         onChange={(e) => setFiltre(e.target.value)}
                         aria-label="Filtrer les villages affichés"
-                        placeholder="Filtrer les villages affichés, par nom ou par forme…"
+                        placeholder="Filtrer par village ou par forme…"
                         className="w-full shrink-0 rounded-md border border-input bg-background px-3 py-2 text-base"
                     />
                 )}

@@ -105,7 +105,7 @@ export default function MonEspacePage() {
                                 <span className="min-w-0">
                                     <span className="block text-[15px] font-bold text-foreground">Le défi du jour</span>
                                     <span className="mt-0.5 block text-sm text-muted-foreground">
-                                        Cinq manches par jour, tirées des formes alsaciennes attestées.
+                                        Cinq questions par jour sur de vrais mots alsaciens.
                                     </span>
                                 </span>
                                 <ArrowRight className="h-4 w-4 shrink-0 text-sens-texte" strokeWidth={2.4} aria-hidden />

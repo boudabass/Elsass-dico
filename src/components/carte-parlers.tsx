@@ -4,6 +4,7 @@ import type { LayerGroup, Map as LeafletMap } from "leaflet"
 import { useEffect, useRef, useState } from "react"
 
 import { cn } from "@/lib/utils"
+import { COULEUR_VILLAGE } from "@/lib/couleur-carte"
 
 // CARTE AUTONOME — aucun appel vers un service extérieur.
 //
@@ -151,7 +152,7 @@ export function CarteParlers({ points, couleurDe, className }: Props) {
                 radius: 5,
                 weight: 1.5,
                 color: "#ffffff",
-                fillColor: couleurDe?.(p.couleurCle ?? p.formes[0] ?? "") ?? "#C20000",
+                fillColor: couleurDe?.(p.couleurCle ?? p.formes[0] ?? "") ?? COULEUR_VILLAGE,
                 fillOpacity: 0.95,
             })
                 .bindPopup(creerContenuPopup(p.formes, p.nom))

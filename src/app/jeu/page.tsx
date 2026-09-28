@@ -10,7 +10,7 @@ import { EcranJeu } from "./ecran-jeu"
 // Ouvert sans compte depuis le 26/09/2026 (décision de John) : les posts du
 // défi renvoient ici. Un invité joue le défi du jour, un membre a tout le jeu.
 
-const DESCRIPTION = "Des formes alsaciennes attestées : retrouve le village qui les dit. Un défi par jour, cinq manches."
+const DESCRIPTION = "De vrais mots alsaciens : retrouve le village qui les dit. Un défi par jour, cinq questions."
 
 // Le lien collé sur un réseau social s'affiche avec l'image du défi du jour.
 // Adresse absolue exigée par les robots : c'est celle de la production.

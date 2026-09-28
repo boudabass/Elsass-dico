@@ -180,19 +180,19 @@ export interface LemmeDetaille {
 // source peut fournir deux lignes sur le même mot sans que personne d'autre ne
 // la confirme (piège documenté le 23/08/2026, puis reproduit le 09/09).
 
-export const NIVEAUX_CONFIANCE = ['rouge', 'jaune', 'vert'] as const
+export const NIVEAUX_CONFIANCE = ['une', 'deux', 'plusieurs'] as const
 export type NiveauConfiance = typeof NIVEAUX_CONFIANCE[number]
 
 export const LIBELLES_NIVEAU_CONFIANCE: Record<NiveauConfiance, string> = {
-    rouge: 'Une source',
-    jaune: 'Deux sources',
-    vert: 'Trois sources ou plus',
+    une: 'Une source',
+    deux: 'Deux sources',
+    plusieurs: 'Trois sources ou plus',
 }
 
 export function niveauConfiance(nbSources: number): NiveauConfiance {
-    if (nbSources >= 3) return 'vert'
-    if (nbSources === 2) return 'jaune'
-    return 'rouge'
+    if (nbSources >= 3) return 'plusieurs'
+    if (nbSources === 2) return 'deux'
+    return 'une'
 }
 
 // --- Normalisation des formes ------------------------------------------------

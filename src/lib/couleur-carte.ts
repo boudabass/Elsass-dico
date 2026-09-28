@@ -1,26 +1,26 @@
-// Couleur par forme, pour la carte des parlers : deux villages qui disent
-// pareil se voient d'un coup d'œil (doc 20, étape 4). Déterministe — la même
-// forme rend toujours la même couleur, sans état ni aller-retour serveur.
+// Couleurs de la carte des parlers.
 //
-// Palette catégorielle (12 teintes), choisie pour rester lisible sur le fond
-// pâle du maillage (#f8fafc) : rien de trop clair, rien qui se confonde avec
-// le gris des frontières communales (#94a3b8).
+// Revue du 28/09/2026 : la carte des villages colorait chaque point par un
+// hachage de sa première forme. Deux voisins de même couleur ne partageaient
+// donc rien, sans légende, et le lecteur cherchait un motif qui n'existait
+// pas. Désormais :
+//   - sans recherche, tous les villages ont la même couleur (COULEUR_VILLAGE) :
+//     un point dit seulement « ce village a une forme connue » ;
+//   - sur la carte d'un mot ou d'une forme, chaque variante (ou chaque sens)
+//     reçoit une couleur par son RANG dans la liste du panneau, qui sert de
+//     légende. Par rang et non par hachage : deux variantes d'un même mot ne
+//     peuvent plus tomber sur la même teinte.
+//
+// Ni rouge ni bleu dans la palette : dans l'app connectée, ce sont les couleurs
+// des deux langues (27/09/2026). Choisie pour rester lisible sur le fond pâle
+// du maillage (#f8fafc) et distincte du gris des frontières (#94a3b8).
+export const COULEUR_VILLAGE = "#57534e"
+
 const PALETTE = [
-    "#C20000", "#2563eb", "#059669", "#d97706", "#7c3aed", "#db2777",
-    "#0891b2", "#65a30d", "#ea580c", "#4338ca", "#0d9488", "#be123c",
+    "#059669", "#d97706", "#7c3aed", "#db2777", "#0891b2",
+    "#65a30d", "#ea580c", "#0d9488", "#a16207", "#9333ea",
 ]
 
-// djb2 : simple, stable entre deux rendus (jamais Math.random, interdit dans
-// un composant serveur/client réhydraté).
-function hacher(texte: string): number {
-    let h = 5381
-    for (let i = 0; i < texte.length; i++) {
-        h = (h * 33) ^ texte.charCodeAt(i)
-    }
-    return h >>> 0
-}
-
-export function couleurDeForme(forme: string): string {
-    if (!forme) return PALETTE[0]
-    return PALETTE[hacher(forme) % PALETTE.length]
+export function couleurParRang(rang: number): string {
+    return PALETTE[rang % PALETTE.length]
 }

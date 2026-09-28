@@ -27,13 +27,13 @@ export function AideCarte() {
                 <DialogDescription asChild>
                     <div className="space-y-2 text-sm text-muted-foreground">
                         <p>
-                            Sans recherche, chaque point est un village : sa couleur suit la
-                            première forme qu'on lui connaît pour son propre nom.
+                            Sans recherche, chaque point est un village dont on connaît le nom
+                            en alsacien. Clique un point pour le lire.
                         </p>
                         <p>
-                            En cherchant un mot, chaque point devient une variante de ce mot,
-                            placée dans les villages qui la revendiquent. Chaque variante a
-                            sa couleur.
+                            En cherchant un mot, chaque point montre comment on le dit dans un
+                            village. Chaque façon de le dire a sa couleur, rappelée devant elle
+                            au-dessus de la carte.
                         </p>
                         <p>
                             Le bouton tout en haut choisit dans quelle langue tu cherches. En
@@ -41,9 +41,8 @@ export function AideCarte() {
                             dire là où on la dit : une couleur par sens.
                         </p>
                         <p>
-                            Clique un point pour voir le détail. Sous la carte, touche une
-                            forme pour y ajouter ton village, ou « Ça se dit autrement chez
-                            moi ? » pour proposer la tienne.
+                            Au-dessus de la carte, touche une forme pour y ajouter ton village,
+                            ou « Ça se dit autrement chez moi ? » pour proposer la tienne.
                         </p>
                     </div>
                 </DialogDescription>

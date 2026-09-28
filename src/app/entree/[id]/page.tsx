@@ -4,6 +4,7 @@ import { AppHeader } from "@/components/app-header";
 import { BoutonChezMoi } from "@/components/contribution/bouton-chez-moi";
 import { BoutonContribuer } from "@/components/contribution/bouton-contribuer";
 import { CarteVariante } from "@/components/carte-variante";
+import { LienCarte } from "@/components/lien-carte";
 import { chargerLemme } from "@/app/actions/recherche";
 import { LIBELLES_DEPARTEMENT, LIBELLES_TYPE_TERME } from "@/lib/dictionnaire";
 import { RangeeActions } from "./actions-row";
@@ -49,9 +50,14 @@ export default async function EntreePage({ params }: { params: Promise<{ id: str
           )}
         </div>
 
-        <p className="mt-4 text-xs font-bold uppercase tracking-wide text-muted-foreground">
-          {lemme.variantes.length} forme{lemme.variantes.length > 1 ? "s" : ""} attestée
-          {lemme.variantes.length > 1 ? "s" : ""}
+        <div className="mt-3">
+          <LienCarte href={`/carte?mot=${lemme.id}`} />
+        </div>
+
+        <p className="mt-5 text-xs font-bold uppercase tracking-wide text-muted-foreground">
+          {lemme.variantes.length > 1
+            ? `${lemme.variantes.length} façons de le dire`
+            : "1 façon de le dire"}
         </p>
 
         <div className="mt-2.5 flex flex-col gap-2.5">

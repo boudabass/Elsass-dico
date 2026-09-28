@@ -2781,6 +2781,11 @@ et en production (PR #81, #83), documentation à jour (PR #84, Odoo 882).
 vote ni forme dans la session.
 
 - **Prochaine session** : le plan ci-dessus.
+- **État de la base relu le 29/09** (lecture seule) : 2 membres, tous deux
+  avec un village ; 2 villages rattachés (*Mundelse* à Mundolsheim, *zö* à
+  Illkirch-Graffenstaden) ; 4 événements au journal (3 poses, 1 retrait), 0 mot
+  créé par un membre. **`journal.jsonl` est identique** : l'automatisation
+  n'aura rien à rattraper.
 - **Constaté par John sur son téléphone** (28/09) : le bouton « Partager » du
   jeu fonctionne, dernier point en attente depuis le 26/09.
 - **Ouvert, inchangé** : faire venir des locuteurs ; feu vert du lancement

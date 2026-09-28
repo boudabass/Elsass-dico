@@ -94,10 +94,7 @@ export function VillageProfil({
                     setChoisie(null);
                 }}
                 placeholder="Chercher un village…"
-                // Fermée une fois un village choisi : cmdk rend le focus au champ
-                // après le choix, et la liste rouverte (« Aucun village trouvé »
-                // pour « Colmar (68) ») recouvrait le bouton « Valider ».
-                actif={choisie === null}
+                actif
                 suggestions={resultats}
                 cleDe={(c) => String(c.id)}
                 rendre={(c) => `${c.nom} (${c.departement})`}

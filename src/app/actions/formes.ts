@@ -1,6 +1,8 @@
 'use server'
 
 import type { FormeDetaillee, FormeResume, SensDetaille, SensForme, TypeTerme, VarianteDetaillee } from "@/lib/dictionnaire"
+import type { MonVote } from "@/lib/contribution"
+import { mesVotes } from "@/lib/contribution-serveur"
 import { prisma } from "@/lib/prisma"
 import { sessionActuelle } from "@/lib/session-serveur"
 
@@ -262,6 +264,7 @@ export async function chargerFormeAction(cle: string): Promise<FormeDetaillee | 
     if (!brutes.length) return null
 
     const session = await sessionActuelle()
+    const votes = session ? await mesVotes(session.membreId, brutes.map((b) => b.id)) : new Map<string, MonVote>()
 
     const parLemme = new Map<string, SensDetaille>()
     for (const b of brutes) {
@@ -277,7 +280,7 @@ export async function chargerFormeAction(cle: string): Promise<FormeDetaillee | 
             nbVillages: villages.length,
             sources,
             villages,
-            monVote: !!session && v.temoignages.some((t) => t.membreId === session.membreId),
+            monVote: votes.get(v.id) ?? null,
         }
         const sens = parLemme.get(v.lemme.id) ?? { lemme: lemmeCourt(v.lemme), variantes: [] }
         sens.variantes.push(variante)

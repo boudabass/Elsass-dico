@@ -6,7 +6,7 @@ import { Check, X } from "lucide-react";
 
 import { motChezToiAction, type PartiePublique } from "@/app/actions/jeu";
 import { BoutonContribuer } from "@/components/contribution/bouton-contribuer";
-import { VoteVariante } from "@/app/entree/[id]/vote-variante";
+import { BoutonChezMoi } from "@/components/contribution/bouton-chez-moi";
 import { useAuth } from "@/components/auth-provider";
 import { ListSkeleton } from "@/components/ui/list-skeleton";
 import { useListeMemorisee } from "@/hooks/use-liste-memorisee";
@@ -171,7 +171,7 @@ function ChezToi({ mode }: { mode: "jour" | "libre" }) {
                                 <span lang="gsw" className="min-w-0 text-[17px] font-bold text-foreground">
                                     {v.forme}
                                 </span>
-                                <VoteVariante varianteId={v.id} monVote={v.monVote ?? false} onSucces={rafraichir} />
+                                <BoutonChezMoi varianteId={v.id} monVote={v.monVote} onSucces={() => rafraichir()} className="shrink-0" />
                             </li>
                         ))}
                     </ul>

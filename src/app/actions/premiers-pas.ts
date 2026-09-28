@@ -1,6 +1,7 @@
 'use server'
 
 import { chargerLemme } from "@/app/actions/recherche"
+import type { MonVote } from "@/lib/contribution"
 import type { TypeTerme } from "@/lib/dictionnaire"
 import { prisma } from "@/lib/prisma"
 import { sessionActuelle } from "@/lib/session-serveur"
@@ -25,7 +26,7 @@ const PREMIERS_MOTS: { cle: string; contexte: string; type: TypeTerme }[] = [
 export interface PremierMot {
     id: string
     francais: string
-    formes: { id: string; forme: string; monVote: boolean }[]
+    formes: { id: string; forme: string; monVote: MonVote | null }[]
 }
 
 export async function premiersMotsAction(): Promise<PremierMot[]> {
@@ -46,6 +47,6 @@ export async function premiersMotsAction(): Promise<PremierMot[]> {
     return details.flatMap((d) => d ? [{
         id: d.id,
         francais: d.francais,
-        formes: d.variantes.map((v) => ({ id: v.id, forme: v.forme, monVote: v.monVote ?? false })),
+        formes: d.variantes.map((v) => ({ id: v.id, forme: v.forme, monVote: v.monVote ?? null })),
     }] : [])
 }

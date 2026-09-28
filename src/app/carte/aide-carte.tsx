@@ -41,8 +41,9 @@ export function AideCarte() {
                             dire là où on la dit : une couleur par sens.
                         </p>
                         <p>
-                            Clique un point pour voir le détail. « + Chez moi aussi » et
-                            « Ça se dit autrement chez moi » ajoutent directement ton village.
+                            Clique un point pour voir le détail. Sous la carte, touche une
+                            forme pour y ajouter ton village, ou « Ça se dit autrement chez
+                            moi ? » pour proposer la tienne.
                         </p>
                     </div>
                 </DialogDescription>

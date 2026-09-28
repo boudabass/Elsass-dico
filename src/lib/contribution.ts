@@ -13,3 +13,12 @@ export const REFUS_VILLAGE_REQUIS = {
 } as const
 
 export type EchecContribution = { succes: false; erreur: string; villageRequis?: true }
+
+/** Mon témoignage sur une forme, s'il existe : le village qu'il porte, et si
+ *  c'est encore mon village (28/09/2026). Un booléen ne suffisait pas : après
+ *  un changement de village, le bouton affirmait « chez moi aussi » pour un
+ *  témoignage qui porte l'ancien village. `null` : pas de témoignage. */
+export interface MonVote {
+    village: string
+    actuel: boolean
+}

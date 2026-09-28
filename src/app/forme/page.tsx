@@ -6,7 +6,7 @@ import { BoutonContribuer } from "@/components/contribution/bouton-contribuer";
 import { CarteVariante } from "@/components/carte-variante";
 import { chargerFormeAction } from "@/app/actions/formes";
 import { precisionLemme } from "@/lib/dictionnaire";
-import { VoteVariante } from "@/app/entree/[id]/vote-variante";
+import { BoutonChezMoi } from "@/components/contribution/bouton-chez-moi";
 
 // La fiche d'une forme, côté alsacien → français (27/09/2026). Pendant de
 // /entree/[id] : là on part d'un mot français et on voit ses formes, ici on
@@ -65,7 +65,7 @@ export default async function FormePage({ searchParams }: { searchParams: Promis
                   <CarteVariante
                     key={v.id}
                     variante={v}
-                    accessoire={<VoteVariante varianteId={v.id} monVote={v.monVote ?? false} />}
+                    accessoire={<BoutonChezMoi varianteId={v.id} monVote={v.monVote} cote="als" />}
                   />
                 ))}
               </div>

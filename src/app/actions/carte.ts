@@ -1,5 +1,7 @@
 'use server'
 
+import type { MonVote } from "@/lib/contribution"
+import { mesVotes } from "@/lib/contribution-serveur"
 import { prisma } from "@/lib/prisma"
 import { sessionActuelle } from "@/lib/session-serveur"
 
@@ -62,14 +64,14 @@ export async function pointsCarteAction(): Promise<PointsCarte> {
 // n'ont rien à voir l'une avec l'autre.
 /** Une forme du lemme, pour le panneau de contribution qui accompagne la
  *  recherche sur la carte (17/09/2026) : assez pour brancher les mêmes gestes
- *  que /entree/[id] (`VoteVariante`, `NouvelleVariante`) directement ici,
+ *  que /entree/[id] (`BoutonChezMoi`, `BoutonContribuer`) directement ici,
  *  plutôt que de renvoyer vers la fiche. `nbVillages` à 0 = la forme n'a
  *  aucun point sur la carte (elle se liste au-dessus). */
 export interface VarianteMot {
     id: string
     forme: string
     nbVillages: number
-    monVote: boolean
+    monVote: MonVote | null
 }
 
 export interface PointsMot {
@@ -102,7 +104,6 @@ export async function pointsMotAction(lemmeId: string): Promise<PointsMot | null
                         // comptent ni pour `nbVillages` ni pour `monVote`.
                         where: { communeId: { not: null } },
                         select: {
-                            membreId: true,
                             commune: { select: { id: true, nom: true, latitude: true, longitude: true } },
                         },
                     },
@@ -111,6 +112,7 @@ export async function pointsMotAction(lemmeId: string): Promise<PointsMot | null
         },
     })
     if (!lemme) return null
+    const votes = session ? await mesVotes(session.membreId, lemme.variantes.map((v) => v.id)) : new Map<string, MonVote>()
 
     const points: PointCarte[] = []
     const variantes: VarianteMot[] = []
@@ -119,11 +121,10 @@ export async function pointsMotAction(lemmeId: string): Promise<PointsMot | null
         // Dédoublonné par commune : deux locuteurs du même village qui
         // témoignent de la même forme restent UN point, pas deux superposés.
         const villages = new Map<number, { id: number; nom: string; latitude: number; longitude: number }>()
-        let monVote = false
         for (const t of v.temoignages) {
             if (t.commune) villages.set(t.commune.id, t.commune)
-            if (session && t.membreId === session.membreId) monVote = true
         }
+        const monVote = votes.get(v.id) ?? null
 
         Array.from(villages.values()).forEach((c) => {
             points.push({ id: c.id, nom: c.nom, latitude: c.latitude, longitude: c.longitude, formes: [v.forme] })
@@ -146,7 +147,7 @@ export interface SensFormeCarte {
     forme: string
     francais: string
     nbVillages: number
-    monVote: boolean
+    monVote: MonVote | null
 }
 
 export interface PointsForme {
@@ -177,23 +178,22 @@ export async function pointsFormeAction(cle: string): Promise<PointsForme | null
                 // de locuteurs ont un village.
                 where: { communeId: { not: null } },
                 select: {
-                    membreId: true,
                     commune: { select: { id: true, nom: true, latitude: true, longitude: true } },
                 },
             },
         },
     })
 
+    const votes = session ? await mesVotes(session.membreId, variantes.map((v) => v.id)) : new Map<string, MonVote>()
     const points: PointCarte[] = []
     const sens: SensFormeCarte[] = []
 
     for (const v of variantes) {
         const villages = new Map<number, { id: number; nom: string; latitude: number; longitude: number }>()
-        let monVote = false
         for (const t of v.temoignages) {
             if (t.commune) villages.set(t.commune.id, t.commune)
-            if (session && t.membreId === session.membreId) monVote = true
         }
+        const monVote = votes.get(v.id) ?? null
         Array.from(villages.values()).forEach((c) => {
             points.push({
                 id: c.id,

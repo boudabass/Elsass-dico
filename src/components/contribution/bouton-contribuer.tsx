@@ -14,7 +14,7 @@ import { cn } from "@/lib/utils";
 // mot, la carte, le jeu, la fiche d'une forme et « aucun résultat » ouvrent la
 // même feuille, chacun avec son point de départ.
 //
-// `onSucces` : même contrat que VoteVariante. Par défaut, la feuille
+// `onSucces` : même contrat que BoutonChezMoi. Par défaut, la feuille
 // rafraîchit la page serveur (ou ouvre la fiche d'un mot créé) ; la carte et
 // le jeu, qui chargent leurs données côté client, passent leur `rafraichir`.
 

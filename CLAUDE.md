@@ -2714,6 +2714,9 @@ a retenu les P0 et P1, corrigés dans `dad86de`, `23bd8e2` et `bf916ad`.
 - **Laissés pour plus tard (P2)** : fiche de mot condensée, contribution
   remontée sous le titre, « Copier » rétrogradé, article demandé après la
   forme dans la feuille de contribution, état vide de `/recherche`.
+- **En production le 28/09 (PR #81, `ea7c1e0`)** : la fiche Colmar sert
+  l'encart d'invitation, `/` et `/jeu` → 200, `/recherche` → 307, plus aucun
+  tiret long sur `/sources`. `main` et `dev` alignés.
 
 ## Règles de travail
 

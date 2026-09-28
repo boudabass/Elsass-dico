@@ -2746,6 +2746,48 @@ Commit `ef56098`, à la demande de John.
   Odoo 882 (même chose), `documentation/10-VISION-PRODUIT.md`, mémoires.
   Export des contributions non relancé : aucun vote ni forme dans la session.
 
+## Plan en attente : automatiser l'export des contributions (28/09/2026)
+
+**Validé par John, à faire à la prochaine session.** Aujourd'hui,
+`scripts/exporter-contributions.mts` ne tourne que si Claude le lance à une
+clôture de session. La base est toujours à jour ; seul le fichier
+`data/contributions/journal.jsonl` peut prendre du retard. Il ne sert qu'à une
+régénération volontaire du dictionnaire (`deriver.mts` puis
+`importer-contributions.mts`). Contre une perte de la base, c'est la sauvegarde
+Coolify de 3 h qui protège.
+
+1. **Route protégée** `GET /api/automatisation/contributions`, même jeton
+   `AUTOMATISATION_API_TOKEN` et même forme que `/api/automatisation/defi-du-jour`.
+   Elle rend le contenu exact de l'export actuel (clés naturelles, aucun
+   membre, dates au jour : le dépôt est public). Le code d'export passe dans
+   `src/lib/` et le script l'appelle aussi, pour n'avoir qu'une seule version.
+2. **Workflow N8N quotidien** (vers 4 h, après la sauvegarde de 3 h) : appelle
+   la route, lit le fichier actuel par l'API GitHub, **ne commite sur `dev`
+   que si le contenu a changé**. Construit et testé par Claude, activé par
+   John.
+3. **Coolify** : exclure `data/contributions/` des chemins surveillés de
+   `elsass-dico:dev`, sinon chaque export relance un build.
+
+**À faire par John** : un credential GitHub dans N8N (jeton en écriture sur le
+seul dépôt `Elsass-dico`), et le réglage des chemins surveillés dans Coolify
+(le MCP Coolify est en lecture seule). Écarté : GitHub Actions, qui devrait
+atteindre Postgres et donc ouvrir le port 5444 en permanence.
+
+## Clôture de session (28/09/2026, soir)
+
+Revue `/impeccable critique` avant publication (25/40), P0, P1 et P2 corrigés
+et en production (PR #81, #83), documentation à jour (PR #84, Odoo 882).
+**`main` et `dev` identiques.** Export des contributions non relancé : aucun
+vote ni forme dans la session.
+
+- **Prochaine session** : le plan ci-dessus.
+- **Reste à constater par John** : le bouton « Partager » du jeu sur téléphone
+  (en attente depuis le 26/09).
+- **Ouvert, inchangé** : faire venir des locuteurs ; feu vert du lancement
+  public (workflow N8N du défi) ; mesure de convergence ; auto-inscription
+  Odoo, aire du 57, attribution Azimut ; seuil « proche » de la contribution à
+  surveiller.
+
 ## Règles de travail
 
 - Ne jamais inventer de traduction alsacienne, même pour un exemple ou un test.

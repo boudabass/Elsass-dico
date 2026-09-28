@@ -18,7 +18,7 @@ import { cn } from "@/lib/utils";
 // la même façon.
 //
 // L'article est facultatif (décision de John) : « Sans article » est choisi
-// d'office. S'il est tapé dans le champ (`d'r Lohn`), il en est détaché au
+// d'office, et le choix reste replié sous le champ tant qu'on ne l'ouvre pas. S'il est tapé dans le champ (`d'r Lohn`), il en est détaché au
 // moment de quitter le champ, et l'aperçu le montre déjà détaché pendant la
 // frappe : on voit ce qui sera publié, jamais une recomposition surprise.
 
@@ -78,6 +78,7 @@ export function ChampForme({
             ? "autre"
             : ARTICLES_PROPOSES.find((a) => a.libelle === libelleArticle(valeur.prefixe!))?.libelle ?? "autre";
     const apercu = formeDeValeur(valeur);
+    const [articleOuvert, setArticleOuvert] = useState(false);
 
     function choisir(libelle: string | null) {
         if (libelle === null) return onChange({ ...valeur, prefixe: null, autre: false });
@@ -94,72 +95,34 @@ export function ChampForme({
         if (d.prefixe) onChange({ prefixe: d.prefixe, autre: false, reste: d.reste });
     }
 
+    // L'article vient APRÈS la forme, replié tant qu'on ne l'ouvre pas (revue
+    // du 28/09/2026) : posé en premier, six boutons de grammairien passaient
+    // avant la seule question qui compte, « comment tu le dis ? ». Il s'ouvre
+    // de lui-même dès qu'un article existe, tapé dans le champ ou pré-rempli.
+    const articleVisible = articleOuvert || valeur.prefixe !== null;
+
     return (
         <div className={cn("flex flex-col", compact ? "gap-2" : "gap-3")}>
-            <div role="radiogroup" aria-label="Article, facultatif" className="flex flex-wrap gap-1.5">
-                {[{ libelle: null as string | null, texte: "Sans article" },
-                  ...ARTICLES_PROPOSES.map((a) => ({ libelle: a.libelle as string | null, texte: a.libelle })),
-                  { libelle: "autre", texte: "Autre" }].map((o) => {
-                    const actif = choisi === o.libelle;
-                    return (
-                        <button
-                            key={o.texte}
-                            type="button"
-                            role="radio"
-                            aria-checked={actif}
-                            disabled={desactive}
-                            onClick={() => choisir(o.libelle)}
-                            className={cn(
-                                PUCE,
-                                actif
-                                    ? "border-sens-500 bg-sens-500 text-white"
-                                    : "border-bordure-defaut bg-background text-foreground hover:border-sens-500",
-                            )}
-                            lang={o.libelle && o.libelle !== "autre" ? "gsw" : undefined}
-                        >
-                            {o.texte}
-                        </button>
-                    );
-                })}
-            </div>
-
-            <div className="flex gap-2">
-                {choisi === "autre" && (
-                    <input
-                        value={autreTexte}
-                        onChange={(e) => {
-                            setAutreTexte(e.target.value);
-                            onChange({ ...valeur, prefixe: prefixeAutre(e.target.value), autre: true });
-                        }}
-                        aria-label="Ton article"
-                        placeholder="dr, e…"
-                        lang="gsw"
-                        maxLength={10}
-                        disabled={desactive}
-                        className="h-11 w-20 shrink-0 rounded-md border border-input bg-background px-2.5 text-base text-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-sens-500 disabled:opacity-60"
-                    />
+            <label htmlFor={id} className="sr-only">Ta forme en alsacien</label>
+            <input
+                id={id}
+                value={valeur.reste}
+                onChange={(e) => onChange({ ...valeur, reste: e.target.value })}
+                onBlur={detacher}
+                placeholder={compact ? "" : "Comme tu l'écris"}
+                lang="gsw"
+                autoComplete="off"
+                autoCapitalize="off"
+                spellCheck={false}
+                autoFocus={autoFocus}
+                maxLength={200}
+                disabled={desactive}
+                // `text-base` : sous 16 px, iOS zoome sur le champ au focus.
+                className={cn(
+                    "w-full min-w-0 rounded-md border border-input bg-background px-3 text-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-sens-500 disabled:opacity-60",
+                    compact ? "h-9 text-base" : "h-12 text-lg font-semibold",
                 )}
-                <label htmlFor={id} className="sr-only">Ta forme en alsacien</label>
-                <input
-                    id={id}
-                    value={valeur.reste}
-                    onChange={(e) => onChange({ ...valeur, reste: e.target.value })}
-                    onBlur={detacher}
-                    placeholder={compact ? "" : "Comme tu l'écris"}
-                    lang="gsw"
-                    autoComplete="off"
-                    autoCapitalize="off"
-                    spellCheck={false}
-                    autoFocus={autoFocus}
-                    maxLength={200}
-                    disabled={desactive}
-                    // `text-base` : sous 16 px, iOS zoome sur le champ au focus.
-                    className={cn(
-                        "min-w-0 flex-1 rounded-md border border-input bg-background px-3 text-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-sens-500 disabled:opacity-60",
-                        compact ? "h-9 text-base" : "h-12 text-lg font-semibold",
-                    )}
-                />
-            </div>
+            />
 
             {!compact && (
                 <p className="min-h-6 text-sm text-muted-foreground" aria-live="polite">
@@ -174,6 +137,64 @@ export function ChampForme({
                         "Écris-la comme tu la prononces chez toi, sans chercher la « bonne » orthographe."
                     )}
                 </p>
+            )}
+
+            {articleVisible ? (
+                <div className="flex flex-col gap-1.5">
+                    <p className="text-sm font-semibold text-foreground">
+                        Article <span className="font-normal text-muted-foreground">(facultatif)</span>
+                    </p>
+                    <div role="radiogroup" aria-label="Article, facultatif" className="flex flex-wrap items-center gap-1.5">
+                        {[{ libelle: null as string | null, texte: "Sans article" },
+                          ...ARTICLES_PROPOSES.map((a) => ({ libelle: a.libelle as string | null, texte: a.libelle })),
+                          { libelle: "autre", texte: "Autre" }].map((o) => {
+                            const actif = choisi === o.libelle;
+                            return (
+                                <button
+                                    key={o.texte}
+                                    type="button"
+                                    role="radio"
+                                    aria-checked={actif}
+                                    disabled={desactive}
+                                    onClick={() => choisir(o.libelle)}
+                                    className={cn(
+                                        PUCE,
+                                        actif
+                                            ? "border-sens-500 bg-sens-500 text-white"
+                                            : "border-bordure-defaut bg-background text-foreground hover:border-sens-500",
+                                    )}
+                                    lang={o.libelle && o.libelle !== "autre" ? "gsw" : undefined}
+                                >
+                                    {o.texte}
+                                </button>
+                            );
+                        })}
+                        {choisi === "autre" && (
+                            <input
+                                value={autreTexte}
+                                onChange={(e) => {
+                                    setAutreTexte(e.target.value);
+                                    onChange({ ...valeur, prefixe: prefixeAutre(e.target.value), autre: true });
+                                }}
+                                aria-label="Ton article"
+                                placeholder="dr, e…"
+                                lang="gsw"
+                                maxLength={10}
+                                disabled={desactive}
+                                className="h-9 w-20 shrink-0 rounded-md border border-input bg-background px-2.5 text-base text-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-sens-500 disabled:opacity-60"
+                            />
+                        )}
+                    </div>
+                </div>
+            ) : (
+                <button
+                    type="button"
+                    onClick={() => setArticleOuvert(true)}
+                    disabled={desactive}
+                    className="self-start rounded-md py-1.5 text-sm font-semibold text-sens-texte underline-offset-4 hover:underline focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
+                >
+                    + Préciser l&apos;article (d&apos;r, d&apos;, s&apos;…), facultatif
+                </button>
             )}
         </div>
     );

@@ -37,47 +37,36 @@ export function CarteVariante({
         </p>
       )}
 
+      {/* Une ligne chacun (revue du 28/09/2026) : un intertitre et une ligne
+          par source faisaient de chaque carte un bloc de 170 px, et la fiche
+          de « bonjour » tenait sur quatre écrans de téléphone. */}
       {v.sources.length > 0 && (
-        <div className="mt-2.5">
-          <p className="text-xs font-semibold text-muted-foreground">Sources écrites</p>
-          <ul className="mt-1 flex flex-col gap-1 text-sm">
-            {v.sources.map((s) => (
-              <li key={s.nom}>
-                {s.url ? (
-                  <a
-                    href={s.url}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-block rounded py-0.5 underline-offset-4 transition-colors hover:text-sens-texte hover:underline focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
-                  >
-                    {s.nom}
-                  </a>
-                ) : (
-                  <span className="text-muted-foreground">{s.nom}</span>
-                )}
-              </li>
-            ))}
-          </ul>
-        </div>
+        <p className="mt-2 text-sm text-muted-foreground">
+          <span className="font-semibold">Écrit dans&nbsp;:</span>{" "}
+          {v.sources.map((s, i) => (
+            <span key={s.nom}>
+              {i > 0 && " · "}
+              {s.url ? (
+                <a
+                  href={s.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="rounded text-foreground underline decoration-border underline-offset-4 transition-colors hover:text-sens-texte hover:decoration-current focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
+                >
+                  {s.nom}
+                </a>
+              ) : (
+                s.nom
+              )}
+            </span>
+          ))}
+        </p>
       )}
 
       {v.villages.length > 0 && (
-        <div className="mt-2.5">
-          <p className="text-xs font-semibold text-muted-foreground">
-            Villages qui disent cette forme
-          </p>
-          <p className="mt-1 text-sm text-muted-foreground">
-            {v.villages.map((c) => c.nom).join(" · ")}
-          </p>
-        </div>
-      )}
-
-      {/* Seulement là où l'on peut répondre (bouton de vote présent). Sur une
-          fiche publique, la phrase n'appelait aucun geste, et sur la fiche d'un
-          village elle était absurde : sa forme vient de ce village. */}
-      {v.villages.length === 0 && accessoire && (
-        <p className="mt-2.5 text-sm text-muted-foreground">
-          Personne n&apos;a encore dit d&apos;où vient cette forme.
+        <p className="mt-1 text-sm text-muted-foreground">
+          <span className="font-semibold">Dit à&nbsp;:</span>{" "}
+          <span className="text-foreground">{v.villages.map((c) => c.nom).join(" · ")}</span>
         </p>
       )}
 

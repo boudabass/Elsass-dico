@@ -39,7 +39,12 @@ export default async function FormePage({ searchParams }: { searchParams: Promis
         <p className="mt-1 text-sm text-muted-foreground">
           {nbSens > 1 ? `${nbSens} sens en français` : "1 sens en français"}
         </p>
-        <div className="mt-3">
+        <div className="mt-3 flex flex-wrap items-center gap-2">
+          <BoutonContribuer
+            depart={{ type: "forme", forme: forme.sens[0]?.variantes[0]?.forme ?? forme.titre }}
+            variante="plein"
+            className="h-9"
+          />
           <LienCarte href={`/carte?forme=${encodeURIComponent(c!)}&titre=${encodeURIComponent(forme.titre)}`} />
         </div>
 
@@ -77,10 +82,12 @@ export default async function FormePage({ searchParams }: { searchParams: Promis
           ))}
         </div>
 
-        <BoutonContribuer
-          depart={{ type: "forme", forme: forme.sens[0]?.variantes[0]?.forme ?? forme.titre }}
-          className="mt-7"
-        />
+        {nbSens > 2 && (
+          <BoutonContribuer
+            depart={{ type: "forme", forme: forme.sens[0]?.variantes[0]?.forme ?? forme.titre }}
+            className="mt-7"
+          />
+        )}
       </main>
     </div>
   );

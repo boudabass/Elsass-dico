@@ -50,7 +50,15 @@ export default async function EntreePage({ params }: { params: Promise<{ id: str
           )}
         </div>
 
-        <div className="mt-3">
+        {/* Les deux gestes sous le titre (revue du 28/09/2026) : en bas de la
+            liste, « Ça se dit autrement chez moi ? » arrivait après quatre
+            écrans de téléphone sur « bonjour ». */}
+        <div className="mt-3 flex flex-wrap items-center gap-2">
+          <BoutonContribuer
+            depart={{ type: "mot", lemme: { id: lemme.id, francais: lemme.francais } }}
+            variante="plein"
+            className="h-9"
+          />
           <LienCarte href={`/carte?mot=${lemme.id}`} />
         </div>
 
@@ -59,6 +67,14 @@ export default async function EntreePage({ params }: { params: Promise<{ id: str
             ? `${lemme.variantes.length} façons de le dire`
             : "1 façon de le dire"}
         </p>
+
+        {/* Une fois pour toute la fiche, plutôt que sous chaque forme. */}
+        {lemme.variantes.length > 0 && lemme.variantes.every((v) => v.nbVillages === 0) && (
+          <p className="mt-1.5 text-sm text-muted-foreground">
+            Aucun village ne s&apos;est encore rattaché à ces formes. Si l&apos;une se dit chez toi,
+            touche « Chez moi aussi ».
+          </p>
+        )}
 
         <div className="mt-2.5 flex flex-col gap-2.5">
           {lemme.variantes.map((v) => (
@@ -77,7 +93,11 @@ export default async function EntreePage({ params }: { params: Promise<{ id: str
           ))}
         </div>
 
-        <BoutonContribuer depart={{ type: "mot", lemme: { id: lemme.id, francais: lemme.francais } }} className="mt-5" />
+        {/* Redit en bas quand la liste est longue : qui a tout lu sans trouver
+            sa forme n'a pas à remonter. */}
+        {lemme.variantes.length > 2 && (
+          <BoutonContribuer depart={{ type: "mot", lemme: { id: lemme.id, francais: lemme.francais } }} className="mt-5" />
+        )}
 
         <RangeeActions entreeId={lemme.id} premiereForme={lemme.variantes[0]?.forme ?? ""} />
       </main>

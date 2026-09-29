@@ -21,7 +21,7 @@ import { useScrollMemorise } from "@/hooks/use-scroll-memorise";
 import { cleCache, memoriserUrlOnglet, remplacerUrl } from "@/lib/cache-navigation";
 
 // Écran 1 (Recherche) + écran 10 (aucun résultat) du handoff mobile
-// design_handoff_mobile_app/ (Claude Design, 28/08/2026). Remplace la page
+// design_handoff_mobile_app/ dans l'historique git (Claude Design, 28/08/2026). Remplace la page
 // desktop du 25/08 : plus de bandeau marketing ni de boutons de connexion en
 // en-tête (portés désormais par l'onglet "compte" de AppHeader et par l'écran
 // Mon espace), réduit à la seule barre de recherche depuis le 26/09/2026.

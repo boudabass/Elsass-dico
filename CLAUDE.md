@@ -2793,6 +2793,22 @@ vote ni forme dans la session.
   Odoo, aire du 57, attribution Azimut ; seuil « proche » de la contribution à
   surveiller.
 
+## Ménage du dépôt (30/09/2026)
+
+Vu par John sur GitHub : des restes d'avant la refonte. Retirés (l'historique
+git les garde) : `supabase/` (18 migrations SQL, remplacées par `prisma/`
+depuis le 12/09), `design_handoff_mobile_app/` (implémenté le 28/08),
+`.design-sync/` avec ses entrées `.gitignore`, et `AI_RULES.md`, qui imposait
+encore un guide « Supabase self-hosted » avant toute opération en base. Le
+README est réécrit (carte des parlers, Prisma, pnpm, variables
+d'environnement, chaîne de reconstruction). Les commentaires de code qui
+citaient le dossier du handoff renvoient à l'historique git. Aucun fichier du
+build ni du `Dockerfile` ne s'en servait ; `typecheck` propre.
+
+**Laissé en place, à trancher par John** : `temp_dict_analysis.html`, copie
+de 2015 de la page du dictionnaire de culture_alsace. Aucun script ne le lit,
+mais c'est une page de source.
+
 ## Règles de travail
 
 - Ne jamais inventer de traduction alsacienne, même pour un exemple ou un test.

@@ -122,7 +122,7 @@ export default {
   				border: 'hsl(var(--sidebar-border))',
   				ring: 'hsl(var(--sidebar-ring))'
   			},
-  			// Gris chauds + sémantiques du handoff mobile (design_handoff_mobile_app/,
+  			// Gris chauds + sémantiques du handoff mobile (design_handoff_mobile_app/ dans l'historique git,
   			// 28/08/2026) — voir le commentaire dans globals.css pour la mesure des
   			// valeurs. Additifs : ne remplacent aucune couleur shadcn existante.
   			neutre: {

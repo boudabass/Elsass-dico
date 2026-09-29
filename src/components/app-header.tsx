@@ -6,7 +6,7 @@ import { ChevronLeft, User, X } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { AppNavShell, type OngletRacine } from "@/components/app-nav-shell";
 
-// En-tête mobile-first du handoff design_handoff_mobile_app/ (Claude Design,
+// En-tête mobile-first du handoff design_handoff_mobile_app/ dans l'historique git (Claude Design,
 // 28/08/2026), complété le 29/08 par le standard de nav responsive
 // documenté dans Claude Design (« The Elsassisch Design Systeme » -> AppNav) :
 // les 3 destinations (Recherche/Dictionnaire/Mon espace), jusque-là des

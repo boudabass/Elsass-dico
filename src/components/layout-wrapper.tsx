@@ -1,4 +1,4 @@
-// Depuis le passage mobile-first du 28/08/2026 (design_handoff_mobile_app/),
+// Depuis le passage mobile-first du 28/08/2026 (design_handoff_mobile_app/ dans l'historique git),
 // chaque écran compose son propre <AppHeader> (racine à icônes ou empilé à
 // chevron retour) en tête de sa propre arborescence — les titres et l'onglet
 // actif varient trop d'un écran à l'autre pour qu'un header générique basé

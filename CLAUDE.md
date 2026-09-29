@@ -2805,9 +2805,8 @@ d'environnement, chaîne de reconstruction). Les commentaires de code qui
 citaient le dossier du handoff renvoient à l'historique git. Aucun fichier du
 build ni du `Dockerfile` ne s'en servait ; `typecheck` propre.
 
-**Laissé en place, à trancher par John** : `temp_dict_analysis.html`, copie
-de 2015 de la page du dictionnaire de culture_alsace. Aucun script ne le lit,
-mais c'est une page de source.
+`temp_dict_analysis.html` (copie de 2015 de la page du dictionnaire de
+culture_alsace, lue par aucun script) retiré aussi, sur décision de John.
 
 ## Règles de travail
 

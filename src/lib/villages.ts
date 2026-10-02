@@ -7,6 +7,7 @@
 import { chargerLemmeDetaille } from "@/lib/lemmes"
 import { prisma } from "@/lib/prisma"
 import type { LemmeDetaille } from "@/lib/dictionnaire"
+import type { PointCarte, PointsCarte } from "@/app/actions/carte"
 
 export interface VillageDetaille {
     id: number
@@ -61,4 +62,35 @@ export async function slugsVillagesAttestes(): Promise<string[]> {
         select: { slug: true },
     })
     return communes.map((c) => c.slug)
+}
+
+/** Les villages qui ont une forme attestée de leur propre nom, pour la carte.
+ *  Hors de `actions/carte.ts` (02/10/2026) : tout ce qu'un fichier
+ *  `'use server'` exporte devient appelable depuis le navigateur. La home
+ *  publique en a besoin côté serveur ; l'action, elle, est réservée aux
+ *  membres. */
+export async function chargerPointsCarte(): Promise<PointsCarte> {
+    const villages = await prisma.lemme.findMany({
+        where: { NOT: { communeId: null }, commune: { isNot: null } },
+        select: {
+            commune: { select: { id: true, nom: true, latitude: true, longitude: true } },
+            variantes: {
+                where: { masquee: false },
+                select: { forme: true },
+                orderBy: { creeLe: "asc" },
+            },
+        },
+    })
+
+    const points: PointCarte[] = villages
+        .filter((v) => v.commune && v.variantes.length)
+        .map((v) => ({
+            id: v.commune!.id,
+            nom: v.commune!.nom,
+            latitude: v.commune!.latitude,
+            longitude: v.commune!.longitude,
+            formes: v.variantes.map((x) => x.forme),
+        }))
+
+    return { points, nbFormes: points.reduce((n, p) => n + p.formes.length, 0) }
 }

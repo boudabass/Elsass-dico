@@ -4,7 +4,7 @@ import type { LemmeDetaille, LemmeResume, TypeTerme } from "@/lib/dictionnaire"
 import { apercusParLemme, chargerLemmeDetaille } from "@/lib/lemmes"
 import { mesVotes } from "@/lib/contribution-serveur"
 import { prisma } from "@/lib/prisma"
-import { sessionActuelle } from "@/lib/session-serveur"
+import { estConnecte, sessionActuelle } from "@/lib/session-serveur"
 
 // Recherche depuis le français (l'alsacien a son propre sens depuis le
 // 27/09/2026, cf. formes.ts).
@@ -29,6 +29,7 @@ interface LigneRecherche {
 }
 
 export async function rechercherAction(terme: string): Promise<LemmeResume[]> {
+    if (!(await estConnecte())) return []
     const requete = terme.trim()
     if (requete.length < 2) return []
 
@@ -84,11 +85,12 @@ export async function rechercherAction(terme: string): Promise<LemmeResume[]> {
  *  Ajoute `monVote` sur chaque variante quand une session existe — c'est ce qui
  *  distingue ce chemin du chemin public, qui ne connaît aucun membre. */
 export async function chargerLemme(id: string): Promise<LemmeDetaille | null> {
+    // Lecture réservée aux membres (02/10/2026, cf. `estConnecte()`).
+    const session = await sessionActuelle()
+    if (!session) return null
+
     const lemme = await chargerLemmeDetaille({ id })
     if (!lemme) return null
-
-    const session = await sessionActuelle()
-    if (!session) return lemme
 
     const votes = await mesVotes(session.membreId, lemme.variantes.map((v) => v.id))
 

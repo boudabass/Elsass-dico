@@ -113,6 +113,18 @@ export async function fermerSession(): Promise<void> {
     bocal.delete(COOKIE_REFRESH)
 }
 
+/** La barrière de LECTURE du dictionnaire (02/10/2026, décision de John).
+ *  Le middleware ne suffit pas : Next expose sur chaque page toutes les
+ *  Server Actions que ses composants importent, et `/jeu` (ouvert sans
+ *  compte) embarque le parcours de contribution. Un `POST /jeu` avec
+ *  l'identifiant de `rechercherAction`, lisible dans le JS public, rendait le
+ *  dictionnaire à un visiteur anonyme (vérifié en production). Chaque action
+ *  de lecture le relit donc elle-même. Vérification locale du jeton, sans
+ *  requête en base : la lecture n'a pas besoin du rôle. */
+export async function estConnecte(): Promise<boolean> {
+    return (await sessionActuelle()) !== null
+}
+
 /** La vraie barrière d'administration : le rôle est relu EN BASE, jamais pris
  *  au cookie. Un jeton peut porter un rôle vieux d'une demi-heure ; une action
  *  d'admin ne s'autorise pas là-dessus.

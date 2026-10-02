@@ -15,7 +15,7 @@ import { readFile } from "node:fs/promises"
 import { join } from "node:path"
 import { merge, mesh } from "topojson-client"
 
-import { pointsCarteAction } from "@/app/actions/carte"
+import { chargerPointsCarte } from "@/lib/villages"
 import type { FormeApercu } from "@/lib/dictionnaire"
 import { apercusParLemme } from "@/lib/lemmes"
 import { prisma } from "@/lib/prisma"
@@ -99,7 +99,7 @@ export async function chargerApercuAccueil(): Promise<ApercuAccueil> {
 
     const [brut, { points, nbFormes: nbFormesVillages }, nbMots, nbFormes, lemmeExemple] = await Promise.all([
         readFile(join(process.cwd(), "public/carte/contours.topojson"), "utf8"),
-        pointsCarteAction(),
+        chargerPointsCarte(),
         prisma.lemme.count(),
         prisma.variante.count({ where: { masquee: false } }),
         prisma.lemme.findUnique({

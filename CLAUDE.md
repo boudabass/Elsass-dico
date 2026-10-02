@@ -2830,13 +2830,47 @@ sécurité : audit fait à part, code + `pnpm audit` + sondes sur la production)
   visible. **Faire une capture avant de conclure qu'un écran ne charge pas.**
 - `node_modules` pointait encore vers l'ancien emplacement du projet
   (`App/Elsass_dico`), d'où `ERR_PNPM_UNEXPECTED_VIRTUAL_STORE` : réinstallé.
-- **Restent ouverts** : le dictionnaire se lit sans compte en appelant les
-  Server Actions de `/jeu` et `/` (vérifié en production, les écritures sont
-  bien protégées ; décision de John attendue : verrouiller la lecture ou
-  limiter le débit) ; redirection ouverte dans `/api/session/refresh`
+- **Lecture du dictionnaire verrouillée** (décision de John, `bf140d8`). Next
+  expose sur chaque page toutes les Server Actions que ses composants
+  importent, et `/jeu`, ouvert sans compte, embarque le parcours de
+  contribution : un `POST /jeu` avec l'identifiant de `rechercherAction`
+  (lisible dans le JS public) rendait le dictionnaire à un anonyme, vérifié en
+  production. `estConnecte()` (`session-serveur.ts`) garde désormais les douze
+  actions de lecture (recherche, A-Z et saut de page dans les deux sens, fiche
+  d'un mot et d'une forme, trois actions de la carte). La home dessine sa
+  carte par `chargerPointsCarte()` (`lib/villages.ts`), plus par l'action.
+  **Vérifié sur `dev`** : sans cookie, `rechercherAction` rend `[]` et
+  `chargerLemme` `null` ; la home dessine toujours ses villages ; avec la
+  session de John, « salaire » rend ses résultats.
+  **Règle** : une Server Action de lecture se garde elle-même, le middleware
+  ne protège que la page d'où part le `POST`.
+- **Restent ouverts** : redirection ouverte dans `/api/session/refresh`
   (`?suite=/%09/site` passe le filtre) ; aucun en-tête de sécurité (HSTS,
   `frame-ancestors`, `nosniff`) ; aucune limite de tentatives sur la
   connexion ni les signalements ; proxy `/api/proxy/*` du gabarit, à retirer.
+
+## Clôture de session (02/10/2026)
+
+Audit de sécurité, deux correctifs poussés sur `dev` : Next 15.5.27
+(`74c8f93`) et lecture du dictionnaire réservée aux membres (`bf140d8`).
+
+- **PR #90 (`dev` → `main`) ouverte, PAS fusionnée** : la fusion sans
+  relecture est bloquée côté Claude Code, c'est à John de la fusionner. Elle
+  porte les deux correctifs (le second l'a rejointe en étant poussé sur
+  `dev`). **Tant qu'elle ne l'est pas, la production tourne sous Next 15.3.4,
+  avec les failles d'exécution de code à distance.** Priorité absolue de la
+  prochaine session : vérifier qu'elle est fusionnée, puis sonder la
+  production (build changé, `POST /jeu` + `rechercherAction` sans cookie →
+  `[]`, `/` 200 avec sa carte).
+- **À faire par John après la fusion** : changer `SESSION_SECRET`, le mot de
+  passe Postgres (`DATABASE_URL`, deux applications Coolify),
+  `AUTOMATISATION_API_TOKEN` et son credential N8N ; lire les journaux du
+  conteneur.
+- **Prochains correctifs prêts** : redirection ouverte de
+  `/api/session/refresh`, en-têtes de sécurité dans `next.config.ts`, retrait
+  du proxy `/api/proxy/*`, limite de tentatives sur la connexion.
+- **Export des contributions** non relancé : aucun vote ni aucune forme dans
+  la session.
 
 ## Règles de travail
 

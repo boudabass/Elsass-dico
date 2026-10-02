@@ -3,7 +3,8 @@
 import type { MonVote } from "@/lib/contribution"
 import { mesVotes } from "@/lib/contribution-serveur"
 import { prisma } from "@/lib/prisma"
-import { sessionActuelle } from "@/lib/session-serveur"
+import { estConnecte, sessionActuelle } from "@/lib/session-serveur"
+import { chargerPointsCarte } from "@/lib/villages"
 
 export interface PointCarte {
     /** Code INSEE — sert de clé et de lien vers le contour, jamais affiché. */
@@ -31,29 +32,12 @@ export interface PointsCarte {
 // aller-retour supplémentaire une fois la carte affichée : même compromis que
 // la pagination A-Z du même jour.
 export async function pointsCarteAction(): Promise<PointsCarte> {
-    const villages = await prisma.lemme.findMany({
-        where: { NOT: { communeId: null }, commune: { isNot: null } },
-        select: {
-            commune: { select: { id: true, nom: true, latitude: true, longitude: true } },
-            variantes: {
-                where: { masquee: false },
-                select: { forme: true },
-                orderBy: { creeLe: "asc" },
-            },
-        },
-    })
-
-    const points: PointCarte[] = villages
-        .filter((v) => v.commune && v.variantes.length)
-        .map((v) => ({
-            id: v.commune!.id,
-            nom: v.commune!.nom,
-            latitude: v.commune!.latitude,
-            longitude: v.commune!.longitude,
-            formes: v.variantes.map((x) => x.forme),
-        }))
-
-    return { points, nbFormes: points.reduce((n, p) => n + p.formes.length, 0) }
+    // Lecture réservée aux membres (02/10/2026, cf. `estConnecte()`). La home
+    // publique dessine sa propre carte côté serveur par `chargerPointsCarte()`,
+    // jamais par cette action : rien de ce qui est exposé n'y est lisible
+    // sans compte.
+    if (!(await estConnecte())) return { points: [], nbFormes: 0 }
+    return chargerPointsCarte()
 }
 
 // Étape 4 (doc 20) : « recherche d'un mot → les variantes s'affichent aux
@@ -86,6 +70,7 @@ export interface PointsMot {
 
 export async function pointsMotAction(lemmeId: string): Promise<PointsMot | null> {
     const session = await sessionActuelle()
+    if (!session) return null
 
     const lemme = await prisma.lemme.findUnique({
         where: { id: lemmeId },
@@ -156,6 +141,7 @@ export interface PointsForme {
 }
 
 export async function pointsFormeAction(cle: string): Promise<PointsForme | null> {
+    if (!(await estConnecte())) return null
     const cleNette = cle.trim()
     if (!cleNette) return null
 

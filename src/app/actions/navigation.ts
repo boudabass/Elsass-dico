@@ -4,6 +4,7 @@ import type { LemmeResume, TypeTerme } from "@/lib/dictionnaire"
 import { apercusParLemme } from "@/lib/lemmes"
 import { Prisma } from "@/generated/prisma/client"
 import { prisma } from "@/lib/prisma"
+import { estConnecte } from "@/lib/session-serveur"
 
 // Parcours alphabétique (écran « Dictionnaire A-Z » du handoff mobile). Portée
 // par Prisma depuis le 12/09/2026 ; passait par les RPC `lettres_disponibles()`
@@ -48,6 +49,7 @@ function nbPagesPour(total: number): number {
 }
 
 export async function lettresDisponiblesAction(): Promise<string[]> {
+    if (!(await estConnecte())) return []
     // La lettre est désaccentuée : `Écureuil` se range sous E, pas dans une
     // vingt-septième case. Le tri, lui, est celui du français.
     const lignes = await prisma.$queryRaw<{ lettre: string }[]>`
@@ -83,6 +85,7 @@ export interface PageLettre {
 }
 
 export async function lemmesParLettreAction(lettre: string, page = 1): Promise<PageLettre> {
+    if (!(await estConnecte())) return { lemmes: [], total: 0, page: 1, nbPages: 1 }
     const vide: PageLettre = { lemmes: [], total: 0, page: 1, nbPages: 1 }
 
     const initiale = lettre.trim().toUpperCase()
@@ -149,6 +152,7 @@ export async function lemmesParLettreAction(lettre: string, page = 1): Promise<P
  *  Champ « Aller à un mot » du 14/09/2026 (retour de John : 12 clics pour
  *  atteindre « bricoler », 30 pour « cytise »). */
 export async function pageDuPrefixeAction(lettre: string, prefixe: string): Promise<number> {
+    if (!(await estConnecte())) return 1
     const initiale = lettre.trim().toUpperCase()
     if (!/^[A-Z]$/.test(initiale)) return 1
 

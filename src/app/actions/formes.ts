@@ -4,7 +4,7 @@ import type { FormeDetaillee, FormeResume, SensDetaille, SensForme, TypeTerme, V
 import type { MonVote } from "@/lib/contribution"
 import { mesVotes } from "@/lib/contribution-serveur"
 import { prisma } from "@/lib/prisma"
-import { sessionActuelle } from "@/lib/session-serveur"
+import { estConnecte, sessionActuelle } from "@/lib/session-serveur"
 
 // Le dictionnaire côté alsacien (27/09/2026, décision de John) : on part d'une
 // forme et on trouve ses sens français. Un index inversé des variantes, rien de
@@ -155,6 +155,7 @@ function dansLOrdre(cles: string[], resumes: Map<string, FormeResume>): FormeRes
  *  mot français : taper `Tàg` rend `güata Tàg → bonjour`, pas une carte
  *  « bonjour » dont on ne sait pas ce qui a correspondu. */
 export async function rechercherFormesAction(terme: string): Promise<FormeResume[]> {
+    if (!(await estConnecte())) return []
     const requete = terme.trim()
     if (requete.length < 2) return []
 
@@ -178,6 +179,7 @@ export async function rechercherFormesAction(terme: string): Promise<FormeResume
 }
 
 export async function lettresFormesAction(): Promise<string[]> {
+    if (!(await estConnecte())) return []
     const lignes = await prisma.$queryRaw<{ lettre: string }[]>`
         SELECT DISTINCT upper(left(parcours_inv, 1)) AS lettre
         FROM variantes
@@ -205,6 +207,7 @@ async function totalLettre(initiale: string): Promise<number> {
 /** Même contrat que `lemmesParLettreAction()` : le compte d'abord, la page
  *  demandée validée contre lui, 100 formes à la fois. */
 export async function formesParLettreAction(lettre: string, page = 1): Promise<PageLettreFormes> {
+    if (!(await estConnecte())) return { formes: [], total: 0, page: 1, nbPages: 1 }
     const vide: PageLettreFormes = { formes: [], total: 0, page: 1, nbPages: 1 }
 
     const initiale = lettre.trim().toUpperCase()
@@ -236,6 +239,7 @@ export async function formesParLettreAction(lettre: string, page = 1): Promise<P
  *  `formesParLettreAction` — le préfixe passe par `parcours_inverse` lui
  *  aussi, donc `d'r Lo` saute bien à L. */
 export async function pageDuPrefixeFormeAction(lettre: string, prefixe: string): Promise<number> {
+    if (!(await estConnecte())) return 1
     const initiale = lettre.trim().toUpperCase()
     const prefixeTrim = prefixe.trim()
     if (!/^[A-Z]$/.test(initiale) || !prefixeTrim) return 1
@@ -257,6 +261,7 @@ export async function pageDuPrefixeFormeAction(lettre: string, prefixe: string):
  *  ses variantes du groupe (`Lohn` et `d'r Lohn`), chacune avec ses témoins.
  *  `monVote` comme sur /entree/[id], pour voter depuis la forme. */
 export async function chargerFormeAction(cle: string): Promise<FormeDetaillee | null> {
+    if (!(await estConnecte())) return null
     const cleNette = cle.trim()
     if (!cleNette) return null
 

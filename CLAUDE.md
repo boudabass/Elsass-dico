@@ -2854,14 +2854,11 @@ sécurité : audit fait à part, code + `pnpm audit` + sondes sur la production)
 Audit de sécurité, deux correctifs poussés sur `dev` : Next 15.5.27
 (`74c8f93`) et lecture du dictionnaire réservée aux membres (`bf140d8`).
 
-- **PR #90 (`dev` → `main`) ouverte, PAS fusionnée** : la fusion sans
-  relecture est bloquée côté Claude Code, c'est à John de la fusionner. Elle
-  porte les deux correctifs (le second l'a rejointe en étant poussé sur
-  `dev`). **Tant qu'elle ne l'est pas, la production tourne sous Next 15.3.4,
-  avec les failles d'exécution de code à distance.** Priorité absolue de la
-  prochaine session : vérifier qu'elle est fusionnée, puis sonder la
-  production (build changé, `POST /jeu` + `rechercherAction` sans cookie →
-  `[]`, `/` 200 avec sa carte).
+- **PR #90 fusionnée dans `main`** (`daab432`, par John). Production
+  redéployée et sondée sans cookie : `/`, `/jeu`, `/sources`, une fiche
+  village → 200 ; `/recherche`, `/admin` → 307 ; automatisation → 401 ;
+  `POST /jeu` avec `rechercherAction` → `[]` (rendait les résultats le
+  matin même) ; la home dessine toujours ses villages.
 - **À faire par John après la fusion** : changer `SESSION_SECRET`, le mot de
   passe Postgres (`DATABASE_URL`, deux applications Coolify),
   `AUTOMATISATION_API_TOKEN` et son credential N8N ; lire les journaux du

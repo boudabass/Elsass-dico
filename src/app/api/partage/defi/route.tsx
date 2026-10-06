@@ -118,7 +118,7 @@ export async function GET(request: NextRequest) {
         </div>
     ) : (
         <span style={{ fontSize: og ? 64 : 88, fontWeight: 800, color: C.texte, lineHeight: 1.1 }}>
-            Quel village dit ça ? Un nouveau défi chaque jour.
+            Un nom en alsacien, 4 réponses en français. Trouve la bonne !
         </span>
     )
 

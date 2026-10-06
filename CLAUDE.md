@@ -2869,6 +2869,67 @@ Audit de sécurité, deux correctifs poussés sur `dev` : Next 15.5.27
 - **Export des contributions** non relancé : aucun vote ni aucune forme dans
   la session.
 
+## Marketing : le public a 60 ans, le parcours d'inscription est le vrai frein (06/10/2026)
+
+Session ouverte sur le marketing, et tout de suite ramenée au produit par un
+retour de John : **le public a plutôt 60 ans que 40**. Toutes les personnes de
+plus de 60 ans à qui il a fait tester l'app l'ont regardée sans comprendre, et
+la moitié n'a pas su naviguer. Consigné dans Odoo 882, `PRODUCT.md` et la
+mémoire (`public-60-ans-clarte`).
+
+- **Textes du jeu réécrits** (« Le jeu te montre un nom en alsacien. Tu as 4
+  réponses en français : à toi de trouver la bonne. », « Aujourd'hui, 5
+  villages à retrouver. Le même défi pour tout le monde. »). Trois
+  propositions refusées avant celle-là, et c'est la leçon : **pas de
+  préambule** (« En Alsace, chaque village a aussi un nom en alsacien » a été
+  rejeté), pas de tournure littéraire (« du plus transparent au plus
+  coriace »), la règle du jeu directement, avec des chiffres.
+- **Le partage passe par un lien, plus par un fichier** (`0d0f2ce`). Vu sur
+  les captures de John (`documentation/Screenshot_1.png` et `_2.png`) : quand
+  l'image n'était pas chargée avant le toucher, seul le texte partait, Android
+  renvoyait parfois vers la galerie, et l'aperçu tiré du lien montrait le
+  défi du jour (n° 5) et non celui joué (n° 4). Le texte partagé porte
+  maintenant `/jeu?n=4&r=11110`, et `generateMetadata` de `/jeu` en tire un
+  aperçu Open Graph avec le score. L'écran ignore ces paramètres : on joue le
+  défi du jour. **Vérifié sur `dev`** en `curl` (`og:title` « Le défi du jour
+  n° 4 : 4/5 », image du score, nouvelle invitation sans « Quel village dit
+  ça ? »). L'image de l'aperçu est servie par le domaine de production
+  (`metadataBase`), qui savait déjà dessiner un score. **Reste à constater par
+  John sur son téléphone.** Pas encore fusionné dans `main`.
+- **Le vrai frein est le parcours d'inscription.** Après le défi, un invité
+  doit trouver le retour (pas de menu), comprendre sur la home que le dico
+  demande un compte, le créer sur theelsassisch.com, comprendre qu'il doit
+  revenir, se connecter. Rien ne l'explique.
+- **Décisions de John** : le dictionnaire reste réservé aux membres (sinon
+  personne ne découvre la carte ni la contribution) ; **pas de création de
+  compte depuis le dico** : un seul compte pour tous les projets, et le
+  passage par le site est l'entonnoir de la marque ; le retour après
+  inscription va vers **`/application`**, la page de l'univers, jamais vers un
+  projet (un client de la boutique ou d'Elsass Game ne doit pas se voir
+  proposer Elsass Dico).
+- **Vérifié en lecture seule sur Odoo** : version 19, inscription libre
+  (`auth_signup.invitation_scope = b2c`) et immédiate, le formulaire garde le
+  champ `redirect`. Le retour ne demande donc aucune modification d'Odoo :
+  seul le lien du dico (`/web/signup?redirect=/application`) le porte. **Non
+  prouvé** : qu'Odoo envoie bien sur `/application` après l'inscription, il
+  faut une vraie inscription test (par John, adresse jetable). La session
+  n'est pas partagée entre le site et le dico : chaque étape doit dire « même
+  email, même mot de passe ».
+- **`/application` n'est pas publiée** (404 public). Défauts relevés, à
+  corriger avec John avant publication : carte Elsass Dico avec l'ancienne
+  phrase « Salut ! Cherche un mot… » et un bouton vers la home plutôt que la
+  connexion ; section « En phase de TEST » qui expose `elsass-dico-dev` et
+  `elsass-game-dev` ; boutons Elsass Chat et « Vos idées » vers `/contactus`
+  avec des libellés copiés-collés ; images partagées entre cartes. **John veut
+  comprendre ce qu'on peut faire sur Odoo avant de toucher au site.**
+
+**Prochaine session, dans l'ordre** : (1) l'écran de fin de défi qui explique
+les deux étapes, bouton vers l'inscription avec retour ; (2) l'inscription
+test par John ; (3) les textes de `/application`, proposés avant toute
+modification ; (4) l'inventaire de tous les textes de l'app, présenté avant
+d'y toucher. Odoo 882 et 883 mis à jour (le 883 porte le plan).
+Export des contributions non relancé : aucun vote ni aucune forme.
+
 ## Règles de travail
 
 - Ne jamais inventer de traduction alsacienne, même pour un exemple ou un test.

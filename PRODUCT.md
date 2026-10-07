@@ -28,6 +28,13 @@ de prénom, souvent depuis un moteur de recherche. Il doit comprendre ce
 qu'est le site et voir de vrais mots alsaciens avant qu'on lui demande un
 compte.
 
+**Le public a plutôt 60 ans que 40** (constat de John, 06/10/2026). Toutes
+les personnes de plus de 60 ans à qui il a fait tester l'app l'ont regardée
+sans comprendre, et la moitié n'a pas su naviguer. Chaque texte dit tout de
+suite et concrètement ce qu'on fait (« Un nom en alsacien, 4 réponses en
+français : trouve la bonne »), sans préambule ni tournure littéraire, et
+chaque étape d'un parcours dit quoi faire et pourquoi.
+
 **Il n'y a qu'un seul type de membre, pas deux** (précisé par John le
 25/09/2026). La distinction apprenant / locuteur n'existe pas côté produit :
 tout membre a les mêmes droits et les mêmes possibilités, qu'il découvre
@@ -95,8 +102,8 @@ sans reconstruire sa doctrine.
   compte pas dans l'ordre alphabétique**, dans les deux sens, et un article
   seul reste un mot.
 - **Écrans publics**, les seuls indexables : la home de présentation, une
-  page par village et par prénom attestés (générées statiquement), et
-  `/sources`.
+  page par village et par prénom attestés (générées statiquement),
+  `/sources`, et le défi du jour (jouable sans compte depuis le 26/09/2026).
 - **Le village se choisit dans une liste**, il n'est jamais détecté. Le mot
   « géolocalisation » ne paraît nulle part dans l'interface : on demande d'où
   vient ton parler, pas où tu habites.
@@ -118,7 +125,12 @@ sans reconstruire sa doctrine.
   deux chiffres distincts. Peu attesté est publiable ; le faire passer pour
   bien attesté ne l'est pas.
 - **Compte obligatoire** hors des pages publiques ; la création de compte se
-  fait uniquement sur le portail Odoo, qui sert de SSO à d'autres projets.
+  fait uniquement sur le site The Elsassisch, qui sert de SSO à tous les
+  projets. **Confirmé par John le 06/10/2026 : pas de création de compte
+  depuis le dico.** Le passage par le site est l'entonnoir qui fait découvrir
+  l'univers The Elsassisch, et Elsass Dico n'est qu'un projet parmi d'autres.
+  Ce qu'il faut réparer, c'est l'explication de chaque étape et le chemin de
+  retour (après l'inscription, vers `/application`, jamais vers un projet).
 - **Modération humaine** : rien ne passe sans validation, via les
   signalements traités en admin.
 - **Aucun service extérieur à l'exécution.** Une bibliothèque dans le bundle
@@ -133,8 +145,8 @@ sans reconstruire sa doctrine.
   officielle n'existe, et la tracer nous-mêmes fabriquerait une donnée.
 - **ORTHAL** (AGATE, 2023) n'est plus l'arbitre des formes, mais reste la
   clé de lecture des graphies (`Barr` et `Bàrr` ne notent pas le même /a/).
-- **Hors périmètre, reportés** : le gameplay, l'auto-inscription hors Odoo,
-  l'aire linguistique du 57.
+- **Hors périmètre** : la création de compte hors du site The Elsassisch
+  (écartée le 06/10/2026), l'aire linguistique du 57.
 
 ## Brand Commitments
 

@@ -16,7 +16,13 @@ export interface UtilisateurOdoo {
 // Odoo est l'autorité sur les comptes : la création n'existe pas côté dico,
 // elle se fait sur le portail public The Elsassisch. Lien public, pas un
 // secret — safe à importer côté client.
-export const URL_INSCRIPTION_ODOO = "https://www.theelsassisch.com/web/signup";
+//
+// `redirect=/application` (décision de John, 06/10/2026) : après l'inscription,
+// Odoo envoie vers la page de l'univers, jamais vers un projet. Un client de
+// la boutique ou d'Elsass Game qui passe par le même formulaire ne doit pas se
+// voir proposer Elsass Dico. Odoo garde ce paramètre dans un champ caché du
+// formulaire.
+export const URL_INSCRIPTION_ODOO = "https://www.theelsassisch.com/web/signup?redirect=/application";
 
 // Les CGU sont communes à toutes les apps The Elsassisch et vivent sur le
 // site, pas dans ce dépôt (décision de John, 23/09/2026).

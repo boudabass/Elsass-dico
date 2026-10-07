@@ -108,7 +108,7 @@ function Accueil({
                 d'autres types de manches (mots, prénoms). « Quel village dit
                 ça ? » est la consigne d'un type, pas le nom du jeu. */}
             <p className="mt-2 max-w-[56ch] text-[15px] leading-[1.55] text-muted-foreground">
-                De vrais mots alsaciens, tirés d&apos;un dictionnaire ou dits par des Alsaciens. À toi de retrouver ce qu&apos;ils disent.
+                Le jeu te montre un nom en alsacien. Tu as 4 réponses en français : à toi de trouver la bonne.
             </p>
 
             <section
@@ -147,7 +147,7 @@ function Accueil({
                         <p className="mt-2 text-[15px] leading-[1.5] text-muted-foreground">
                             {defi.etat === "en_cours"
                                 ? `Ta partie t'attend à la manche ${defi.manche} sur 5.`
-                                : "Quel village dit ça ? Cinq noms alsaciens, du plus transparent au plus coriace. Le même défi pour tout le monde aujourd'hui."}
+                                : "Aujourd'hui, 5 villages à retrouver. Le même défi pour tout le monde."}
                         </p>
                         <button
                             type="button"

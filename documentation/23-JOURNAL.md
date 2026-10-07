@@ -2997,3 +2997,19 @@ le compte Odoo reste à supprimer par John. La section « phase de TEST » de
 lien, `CLAUDE.md` réduit et ce journal créé. Odoo 883 mis à jour (inscription
 faite, `/application` publiée). Export des contributions non relancé : aucun
 vote ni forme dans la session (le membre de test n'a rien contribué).
+
+### `/application` réécrite (08/10/2026)
+
+Textes proposés par Claude, appliqués par John dans l'éditeur du site
+(vouvoiement, comme le reste du site). En-tête : « Votre compte The Elsassisch
+vous ouvre tous ces projets. Le même email et le même mot de passe partout. »
+Carte Elsass Dico : « Le dictionnaire français-alsacien, village par village »,
+bouton « Ouvrir le dictionnaire » vers `/login`. Section test : plus aucun lien
+`-dev`, boutons « Me proposer comme testeur » vers `/contactus`. Relu sur la
+page servie : un point final collé à l'URL (`/login.`, 404) et une phrase
+coupée, corrigés par John dans la foulée. **Restent** : les boutons d'Elsass
+Chat et de « Vos idées » (libellés copiés-collés), et « Connectez-vous… » sous
+Cours et Forum, peut-être trompeur s'ils se lisent sans compte.
+**Piège** : des « � » vus dans le texte venaient de la console Windows qui
+décodait mal l'UTF-8, pas de la page (aucun U+FFFD dans le HTML). Lire les
+octets avant de signaler un caractère cassé.

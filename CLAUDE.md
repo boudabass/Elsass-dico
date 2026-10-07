@@ -144,10 +144,13 @@ VPS partagé ; `dev` et `main` **partagent la même base**.
 - Base : ~25 864 lemmes, 41 646 variantes, 2 membres, quelques témoignages
   parlés.
 - **Prochaine session, dans l'ordre** : (1) écran de fin de défi qui explique
-  l'inscription en deux étapes (même email, même mot de passe) ; (2) textes de
-  `/application` (publiée le 08/10, la section « phase de TEST » expose
-  l'adresse `-dev`), proposés à John avant toute modification d'Odoo ;
-  (3) inventaire des textes de l'app.
+  l'inscription en deux étapes (même email, même mot de passe) ;
+  (2) inventaire des textes de l'app.
+- **`/application`** (site Odoo, publiée et réécrite par John le 08/10) : la
+  carte Elsass Dico mène à `elsass-dico.theelsassisch.com/login`, plus aucun
+  lien `-dev`. Restent les boutons d'Elsass Chat (« Chercher un mot ») et de
+  « Vos idées » (« Se connecter pour jouer »), et la question de « Connectez-vous
+  avec votre compte » sous Cours et Forum, lisibles sans compte ?
 - **En attente côté John** : rotation des secrets après l'audit du 02/10
   (`SESSION_SECRET`, mot de passe Postgres, `AUTOMATISATION_API_TOKEN` + N8N) ;
   révoquer le jeton Coolify « Claude Full » (affiché en clair le 07/10) ; feu

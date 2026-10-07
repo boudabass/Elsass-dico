@@ -2989,3 +2989,11 @@ sur `/application`, connexion au dico avec les mêmes identifiants, membre cré�
 Membre de test supprimé ensuite (`supprimer-membre.mts`, aucune contribution) ;
 le compte Odoo reste à supprimer par John. La section « phase de TEST » de
 `/application` expose encore l'adresse `-dev`.
+
+## Clôture de session (08/10/2026)
+
+**PR #91** (`dev` → `main`), fusionnée par commit de merge : retour vers
+`/application`, correctif du 405 sur les Server Actions, partage du défi par
+lien, `CLAUDE.md` réduit et ce journal créé. Odoo 883 mis à jour (inscription
+faite, `/application` publiée). Export des contributions non relancé : aucun
+vote ni forme dans la session (le membre de test n'a rien contribué).

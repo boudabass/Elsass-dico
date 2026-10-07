@@ -129,28 +129,31 @@ VPS partagé ; `dev` et `main` **partagent la même base**.
   `scripts/supprimer-membre.mts` (anonymise, puis supprimer le compte Odoo).
 - Coolify via MCP : lecture seule.
 
-## État au 07/10/2026
+## État au 08/10/2026
 
 - Toutes les étapes de la refonte sont faites (dérivation, session, fiches
   publiques, admin, carte, contribution, jeu, deux sens).
-- `dev` a deux commits de code de plus que `main` : `92835b7` (une Server Action
-  renouvelle la session au lieu de tomber sur un 405, à constater après 30 min
-  d'inactivité) et `0d0f2ce` (partage du défi par lien `?n=&r=`,
-  textes du jeu ; à constater par John sur téléphone).
+- **`main` et `dev` alignés par la PR #91** (08/10) : retour vers
+  `/application` après l'inscription (testé de bout en bout par John), session
+  renouvelée dans les Server Actions au lieu d'un 405, partage du défi par
+  lien `?n=&r=`.
+- **À constater par John** : le partage par lien sur téléphone ; plus de 404 à
+  la réouverture de l'app après 30 min (cause non établie : session expirée ou
+  version déployée depuis ; capture demandée si ça revient) ; supprimer le
+  compte Odoo `theelsassisch+test@gmail.com`.
 - Base : ~25 864 lemmes, 41 646 variantes, 2 membres, quelques témoignages
   parlés.
 - **Prochaine session, dans l'ordre** : (1) écran de fin de défi qui explique
-  l'inscription en deux étapes, lien
-  `https://www.theelsassisch.com/web/signup?redirect=/application` ;
-  (2) ~~inscription test~~ faite le 08/10, retour vers `/application` en place sur `dev` ; (3) textes de `/application` proposés avant
-  toute modification d'Odoo ; (4) inventaire des textes de l'app.
+  l'inscription en deux étapes (même email, même mot de passe) ; (2) textes de
+  `/application` (publiée le 08/10, la section « phase de TEST » expose
+  l'adresse `-dev`), proposés à John avant toute modification d'Odoo ;
+  (3) inventaire des textes de l'app.
 - **En attente côté John** : rotation des secrets après l'audit du 02/10
   (`SESSION_SECRET`, mot de passe Postgres, `AUTOMATISATION_API_TOKEN` + N8N) ;
-  feu vert du lancement public (workflow N8N `MET_DEFI_DICO_HEBDO`) ; plan
-  d'export automatique des contributions (route + N8N + `watch_paths`
-  Coolify, cf. journal du 28/09).
-- **Ouvert** : le 404 suivi d'un rechargement à la réouverture de l'app, cause non
-  établie (session expirée ou version déployée depuis) ; capture demandée à John.
+  révoquer le jeton Coolify « Claude Full » (affiché en clair le 07/10) ; feu
+  vert du lancement public (workflow N8N `MET_DEFI_DICO_HEBDO`) ; plan d'export
+  automatique des contributions (route + N8N + `watch_paths` Coolify, cf.
+  journal du 28/09).
 - **Sécurité, restent ouverts** : redirection ouverte de `/api/session/refresh`
   (`?suite=/%09/site`), en-têtes de sécurité absents, pas de limite de
   tentatives, proxy `/api/proxy/*` à retirer.

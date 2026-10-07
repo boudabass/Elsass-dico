@@ -133,7 +133,9 @@ VPS partagé ; `dev` et `main` **partagent la même base**.
 
 - Toutes les étapes de la refonte sont faites (dérivation, session, fiches
   publiques, admin, carte, contribution, jeu, deux sens).
-- `dev` a un commit de code de plus que `main` (`0d0f2ce` : partage du défi par lien `?n=&r=`,
+- `dev` a deux commits de code de plus que `main` : `92835b7` (une Server Action
+  renouvelle la session au lieu de tomber sur un 405, à constater après 30 min
+  d'inactivité) et `0d0f2ce` (partage du défi par lien `?n=&r=`,
   textes du jeu ; à constater par John sur téléphone).
 - Base : ~25 864 lemmes, 41 646 variantes, 2 membres, quelques témoignages
   parlés.
@@ -147,6 +149,8 @@ VPS partagé ; `dev` et `main` **partagent la même base**.
   feu vert du lancement public (workflow N8N `MET_DEFI_DICO_HEBDO`) ; plan
   d'export automatique des contributions (route + N8N + `watch_paths`
   Coolify, cf. journal du 28/09).
+- **Ouvert** : le 404 suivi d'un rechargement à la réouverture de l'app, cause non
+  établie (session expirée ou version déployée depuis) ; capture demandée à John.
 - **Sécurité, restent ouverts** : redirection ouverte de `/api/session/refresh`
   (`?suite=/%09/site`), en-têtes de sécurité absents, pas de limite de
   tentatives, proxy `/api/proxy/*` à retirer.

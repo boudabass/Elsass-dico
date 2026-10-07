@@ -2956,3 +2956,25 @@ Export des contributions non relancé : aucun vote ni aucune forme.
 - **Respecter les licences des données qu'on réutilise**, y compris quand rien
   ne nous y oblige en pratique. Le projet a écarté trois sources lexicales sur
   ce motif ; une mention de paternité peut changer de place, jamais disparaître.
+
+## Le 404 à la réouverture de l'app (07/10/2026)
+
+Retour de John : en rouvrant l'app, une page « n'existe pas », puis un
+rechargement, puis l'app. **Cause non établie** : sa session était encore
+valide pendant le contrôle, donc pas de reproduction. Deux pistes : session
+expirée, ou version déployée depuis la dernière ouverture (ancienne app en
+mémoire qui demande des fichiers ou des actions disparus).
+
+**Défaut réel trouvé en chemin, corrigé (`92835b7`)** : avec une session courte
+expirée, le middleware redirigeait aussi les Server Actions vers
+`/api/session/refresh`. Un 307 garde la méthode POST, la route n'accepte que
+GET : 405, et le premier chargement d'un écran resté ouvert échouait. Le
+middleware laisse désormais passer une action (en-tête `next-action`) quand le
+jeton de renouvellement est valide, et `sessionActuelle()` renouvelle sur place
+(cookies posés quand Next le permet). Effet de bord voulu : `/`, adresse de
+démarrage de l'app installée, renvoie un membre à la session expirée vers
+`/recherche` au lieu de lui montrer la présentation.
+
+Vérifié : typecheck, build 974/974, sondes sur `dev` (pages publiques 200,
+`/recherche` 307, action anonyme ou à faux jeton → `/login`). **Non vérifié** :
+le cas réel d'une session expirée, à constater par John après 30 minutes.

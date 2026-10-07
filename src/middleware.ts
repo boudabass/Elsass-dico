@@ -69,6 +69,11 @@ export async function middleware(request: NextRequest) {
         // La vérification du jeton de renouvellement est locale elle aussi —
         // elle évite un aller-retour inutile quand les deux sont morts.
         const membreId = await lireRefresh(request.cookies.get(COOKIE_REFRESH)?.value)
+        // Une Server Action (POST, en-tête `next-action`) ne suit pas ce
+        // détour : un 307 garde la méthode POST, et la route de
+        // renouvellement, en GET, répondait 405 (07/10/2026). L'action
+        // renouvelle elle-même par `sessionActuelle()`, et se garde elle-même.
+        if (membreId && request.headers.has("next-action")) return NextResponse.next()
         if (membreId) {
             const vers = new URL("/api/session/refresh", request.url)
             vers.searchParams.set("suite", chemin + request.nextUrl.search)

@@ -2,6 +2,7 @@
 // Prisma — il n'est donc JAMAIS importable depuis le middleware, qui doit
 // rester sans I/O. Le middleware n'utilise que `session.ts`.
 
+import { cache } from "react"
 import { cookies } from "next/headers"
 
 import { prisma } from "@/lib/prisma"
@@ -10,6 +11,7 @@ import {
     COOKIE_SESSION,
     DUREE_REFRESH_S,
     DUREE_SESSION_S,
+    lireRefresh,
     lireSession,
     signerRefresh,
     signerSession,
@@ -42,11 +44,39 @@ function options(dureeS: number): CookieSession["options"] {
     }
 }
 
-/** La session portée par le cookie, sans aucun accès à la base. */
+/** La session portée par le cookie. Sans accès à la base tant que le jeton
+ *  court est valide, c'est-à-dire presque toujours.
+ *
+ *  Jeton court expiré mais renouvellement valide : on renouvelle ICI (07/10/2026).
+ *  Le middleware renvoie une page vers `/api/session/refresh`, mais il laisse
+ *  passer une Server Action : un 307 garde la méthode POST, et la route de
+ *  renouvellement, en GET, répondait 405. Un écran resté ouvert plus de
+ *  30 minutes voyait donc son premier chargement échouer. */
 export async function sessionActuelle(): Promise<Session | null> {
     const bocal = await cookies()
-    return lireSession(bocal.get(COOKIE_SESSION)?.value)
+    const session = await lireSession(bocal.get(COOKIE_SESSION)?.value)
+    if (session) return session
+    return renouveler(bocal.get(COOKIE_REFRESH)?.value)
 }
+
+// `cache` : une action qui relit la session plusieurs fois ne renouvelle
+// qu'une fois par requête.
+const renouveler = cache(async (jeton: string | undefined): Promise<Session | null> => {
+    const membreId = await lireRefresh(jeton)
+    if (!membreId) return null
+    const prepare = await preparerSession(membreId)
+    if (!prepare) return null
+    try {
+        // Permis dans une Server Action ou un Route Handler. Pendant le rendu
+        // d'une page, Next refuse : la session vaut pour cette requête, et le
+        // middleware renouvellera à la prochaine navigation.
+        const bocal = await cookies()
+        for (const c of prepare.cookies) bocal.set(c.nom, c.valeur, c.options)
+    } catch {
+        // rendu d'une page : rien à poser
+    }
+    return prepare.session
+})
 
 /** Signe les deux jetons à partir de l'état RÉEL du membre en base, sans rien
  *  écrire. C'est le seul endroit où le rôle entre dans un jeton, et il vient

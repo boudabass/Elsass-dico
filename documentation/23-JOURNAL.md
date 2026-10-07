@@ -2978,3 +2978,14 @@ démarrage de l'app installée, renvoie un membre à la session expirée vers
 Vérifié : typecheck, build 974/974, sondes sur `dev` (pages publiques 200,
 `/recherche` 307, action anonyme ou à faux jeton → `/login`). **Non vérifié** :
 le cas réel d'une session expirée, à constater par John après 30 minutes.
+
+## Retour vers `/application` après l'inscription (08/10/2026)
+
+`URL_INSCRIPTION_ODOO` porte désormais `?redirect=/application` (`256915e`) :
+les cinq boutons « Créer un compte » passent par cette constante. John a publié
+`/application` (`website.page` 29), auparavant en 404. **Testé de bout en bout
+par John** depuis `dev` (`theelsassisch+test@gmail.com`) : inscription, arrivée
+sur `/application`, connexion au dico avec les mêmes identifiants, membre créé.
+Membre de test supprimé ensuite (`supprimer-membre.mts`, aucune contribution) ;
+le compte Odoo reste à supprimer par John. La section « phase de TEST » de
+`/application` expose encore l'adresse `-dev`.

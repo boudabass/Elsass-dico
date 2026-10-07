@@ -142,7 +142,7 @@ VPS partagé ; `dev` et `main` **partagent la même base**.
 - **Prochaine session, dans l'ordre** : (1) écran de fin de défi qui explique
   l'inscription en deux étapes, lien
   `https://www.theelsassisch.com/web/signup?redirect=/application` ;
-  (2) inscription test par John ; (3) textes de `/application` proposés avant
+  (2) ~~inscription test~~ faite le 08/10, retour vers `/application` en place sur `dev` ; (3) textes de `/application` proposés avant
   toute modification d'Odoo ; (4) inventaire des textes de l'app.
 - **En attente côté John** : rotation des secrets après l'audit du 02/10
   (`SESSION_SECRET`, mot de passe Postgres, `AUTOMATISATION_API_TOKEN` + N8N) ;

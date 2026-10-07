@@ -23,7 +23,8 @@
 | **Odoo 878** | La méthode et les gabarits réutilisables — **tous projets** |
 | **Odoo 669** | État des lieux (mis à jour le 24/09/2026) |
 | **Odoo, hub 117** | Le reste du projet : vision, doctrine, modèle de données, modèle communautaire, studio, campagnes |
-| **`../CLAUDE.md`** | Le passé : décisions prises, incidents, doctrine opérationnelle |
+| **`../CLAUDE.md`** | Règles, état actuel, pièges et méthode (chargé à chaque session, gardé court) |
+| **`23-JOURNAL.md`** | Le passé : décisions datées et incidents du 11/09 au 06/10/2026, puis à chaque clôture de session |
 
 ### L'exception du 11/09/2026 est close depuis le 24/09/2026
 
@@ -52,6 +53,7 @@ dans Odoo, et ce dossier y renvoie.
 | `20-REFONTE-CARTE-DES-PARLERS.md` | Historique de la refonte : pourquoi, décisions, modèle de données, étapes — la cible vit désormais dans Odoo 882 |
 | `21-REPRISE.md` | État d'avancement et reprise en local |
 | `22-MESURE-MARQUEUR-AE.md` | Mesure du marqueur a~e sur le lexique — résultat, contrôles, limites |
+| `23-JOURNAL.md` | Journal daté du projet (ancien contenu de `CLAUDE.md`) |
 | `10-VISION-PRODUIT.md` | Renvoi vers Odoo 882 — à jour depuis le 24/09/2026 |
 | `11-FEUILLE-DE-ROUTE.md` | Renvoi vers Odoo 883 — à jour depuis le 24/09/2026 |
 | `12-CHECKLISTS.md` | Renvoi vers Odoo 884 — à jour depuis le 24/09/2026 |

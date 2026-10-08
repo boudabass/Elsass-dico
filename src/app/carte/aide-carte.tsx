@@ -37,11 +37,11 @@ export function AideCarte() {
                         </p>
                         <p>
                             Le bouton tout en haut choisit dans quelle langue tu cherches. En
-                            alsacien, tu tapes une forme et chaque point montre ce qu'elle veut
+                            alsacien, tu tapes un mot alsacien et chaque point montre ce qu'il veut
                             dire là où on la dit : une couleur par sens.
                         </p>
                         <p>
-                            Au-dessus de la carte, touche une forme pour y ajouter ton village,
+                            Au-dessus de la carte, touche une façon de dire pour y ajouter ton village,
                             ou « Ça se dit autrement chez moi ? » pour proposer la tienne.
                         </p>
                     </div>

@@ -293,7 +293,7 @@ function Parcours({
                         disabled={!composee || formes === null}
                         onClick={() => setEtape("verification")}
                     >
-                        {formes === null && composee ? "Chargement des formes…" : "Vérifier"}
+                        {formes === null && composee ? "Chargement des façons de dire…" : "Vérifier"}
                     </button>
                 </Cadre>
             );
@@ -315,7 +315,7 @@ function Parcours({
             return (
                 <Cadre titre="On publie ?" onRetour={() => setEtape("verification")}>
                     <dl className="divide-y divide-border rounded-lg border border-border">
-                        <Ligne terme="Ta forme">
+                        <Ligne terme="Ta façon de dire">
                             <span lang="gsw" className="text-xl font-bold text-foreground">{formeDictionnaire(composee?.forme ?? "")}</span>
                         </Ligne>
                         <Ligne terme="Pour">
@@ -383,7 +383,7 @@ function EtapeChoixMot({
             titre="Quel mot français ?"
             sousTitre={formeSaisie
                 ? <>Ce que veut dire <span lang="gsw" className="font-semibold text-foreground">{formeDictionnaire(formeSaisie)}</span> chez toi.</>
-                : "Le mot français que ta forme traduit."}
+                : "Le mot français que ta façon de dire traduit."}
         >
             <div className="relative">
                 <Search className="pointer-events-none absolute left-3 top-1/2 h-5 w-5 -translate-y-1/2 text-muted-foreground" aria-hidden />
@@ -407,7 +407,7 @@ function EtapeChoixMot({
                                 {precisionLemme(l) && <span className="block truncate text-sm text-muted-foreground">{precisionLemme(l)}</span>}
                             </span>
                             <span className="shrink-0 text-sm text-muted-foreground">
-                                {l.nbFormes} forme{l.nbFormes > 1 ? "s" : ""}
+                                {l.nbFormes} façon{l.nbFormes > 1 ? "s" : ""} de le dire
                             </span>
                         </button>
                     </li>
@@ -463,7 +463,7 @@ function EtapeNouveauMot({
     return (
         <Cadre
             titre="Le mot français"
-            sousTitre="Il entre dans le dictionnaire avec ta forme alsacienne, jamais sans elle."
+            sousTitre="Il entre dans le dictionnaire avec ta façon de le dire en alsacien, jamais sans elle."
             onRetour={onRetour}
         >
             <label className="text-sm font-semibold text-foreground" htmlFor="contribution-francais">En français</label>
@@ -510,10 +510,10 @@ function EtapeNouveauMot({
                                     <span className="min-w-0">
                                         <span className="block truncate font-semibold text-foreground">{m.francais}</span>
                                         <span className="block truncate text-sm text-muted-foreground">
-                                            {m.contexte || LIBELLES_TYPE_TERME[m.type]} · {m.nbFormes} forme{m.nbFormes > 1 ? "s" : ""}
+                                            {m.contexte || LIBELLES_TYPE_TERME[m.type]} · {m.nbFormes} façon{m.nbFormes > 1 ? "s" : ""} de le dire
                                         </span>
                                     </span>
-                                    <span className="shrink-0 text-sm font-semibold text-sens-texte">Ajouter ma forme ici</span>
+                                    <span className="shrink-0 text-sm font-semibold text-sens-texte">Ajouter ma façon de dire ici</span>
                                 </button>
                             </li>
                         ))}
@@ -573,12 +573,12 @@ function EtapeVerification({
             <Cadre
                 titre={nouveauMot ? "C'est un nouveau mot" : "Personne ne l'a encore écrite"}
                 sousTitre={nouveauMot
-                    ? <>«&nbsp;{francais}&nbsp;» n&apos;est pas encore dans le dictionnaire. {tapee} sera sa première forme.</>
+                    ? <>«&nbsp;{francais}&nbsp;» n&apos;est pas encore dans le dictionnaire. {tapee} sera sa première façon de le dire.</>
                     : n === 0
-                        ? <>{tapee} sera la première forme de «&nbsp;{francais}&nbsp;».</>
+                        ? <>{tapee} sera la première façon de dire «&nbsp;{francais}&nbsp;».</>
                         : n === 1
-                            ? <>{tapee} ne ressemble pas à la seule forme déjà connue pour «&nbsp;{francais}&nbsp;».</>
-                            : <>{tapee} ne ressemble à aucune des {n} formes déjà connues pour «&nbsp;{francais}&nbsp;».</>}
+                            ? <>{tapee} ne ressemble pas à la seule façon de dire déjà connue pour «&nbsp;{francais}&nbsp;».</>
+                            : <>{tapee} ne ressemble à aucune des {n} façons de dire déjà connues pour «&nbsp;{francais}&nbsp;».</>}
                 onRetour={onRetour}
             >
                 {!nouveauMot && n > 0 && (
@@ -589,7 +589,7 @@ function EtapeVerification({
                             onClick={() => setToutes(!toutes)}
                             className="flex w-full items-center justify-between px-3.5 py-3 text-sm font-semibold text-foreground"
                         >
-                            Voir les formes connues
+                            Voir les façons de dire connues
                             <span className="text-muted-foreground">{toutes ? "Masquer" : n}</span>
                         </button>
                         {toutes && (
@@ -617,14 +617,14 @@ function EtapeVerification({
             <Cadre titre="Elle existe déjà" sousTitre={<>{tapee} est déjà connue pour «&nbsp;{francais}&nbsp;». Ajoute simplement ton village.</>} onRetour={onRetour}>
                 <CarteCandidat v={candidat} action={boutonVote(candidat, "Chez moi aussi")} />
                 <button type="button" onClick={onRetour} className={cn(BOUTON_SECONDAIRE, "mt-3")}>
-                    Modifier ma forme
+                    Modifier ma façon de dire
                 </button>
             </Cadre>
         );
     }
 
     return (
-        <Cadre titre="Tu penses à celle-ci ?" sousTitre={<>Une forme proche de {tapee} existe déjà pour «&nbsp;{francais}&nbsp;».</>} onRetour={onRetour}>
+        <Cadre titre="Tu penses à celle-ci ?" sousTitre={<>Une façon de dire proche de {tapee} existe déjà pour «&nbsp;{francais}&nbsp;».</>} onRetour={onRetour}>
             <CarteCandidat v={candidat!} action={boutonVote(candidat!)} />
             {autres.length > 0 && (
                 <ul className="mt-3 flex flex-col gap-2">

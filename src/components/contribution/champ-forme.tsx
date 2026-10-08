@@ -103,7 +103,7 @@ export function ChampForme({
 
     return (
         <div className={cn("flex flex-col", compact ? "gap-2" : "gap-3")}>
-            <label htmlFor={id} className="sr-only">Ta forme en alsacien</label>
+            <label htmlFor={id} className="sr-only">Ton mot alsacien</label>
             <input
                 id={id}
                 value={valeur.reste}
@@ -128,7 +128,7 @@ export function ChampForme({
                 <p className="min-h-6 text-sm text-muted-foreground" aria-live="polite">
                     {apercu ? (
                         <>
-                            Sera publié ainsi&nbsp;:{" "}
+                            Elle sera publiée comme ça&nbsp;:{" "}
                             <span lang="gsw" className="text-base font-bold text-foreground">
                                 {formeDictionnaire(apercu.forme)}
                             </span>

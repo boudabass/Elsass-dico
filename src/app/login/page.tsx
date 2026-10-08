@@ -92,7 +92,7 @@ export default function LoginPage() {
             className="mt-1 flex h-12 w-full items-center justify-center gap-2 rounded-lg bg-marque-rouge-500 text-sm font-semibold text-white transition-colors hover:bg-marque-rouge-600 disabled:opacity-50"
           >
             {enCours && <Loader2 className="h-4 w-4 animate-spin" />}
-            Se connecter
+            Me connecter
           </button>
         </form>
 
@@ -102,7 +102,7 @@ export default function LoginPage() {
           href={URL_INSCRIPTION_ODOO}
           className="flex h-12 w-full items-center justify-center rounded-lg border border-bordure-forte text-sm font-semibold text-foreground transition-colors hover:bg-neutre-50"
         >
-          Créer un compte
+          Créer mon compte
         </a>
 
         <p className="mt-6 text-center text-xs text-muted-foreground">

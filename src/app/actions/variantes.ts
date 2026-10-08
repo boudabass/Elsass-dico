@@ -57,8 +57,8 @@ export async function creerVarianteAction(lemmeId: string, saisie: SaisieForme):
         })()
     if (identique) {
         return identique.masquee
-            ? { succes: false, erreur: "Cette forme est déjà connue de la base" }
-            : { succes: false, erreur: "Cette forme existe déjà. Ajoute plutôt ton village avec « Chez moi aussi »" }
+            ? { succes: false, erreur: "On la connaît déjà" }
+            : { succes: false, erreur: "Cette façon de dire existe déjà. Ajoute plutôt ton village avec « Chez moi aussi »" }
     }
 
     try {
@@ -106,12 +106,12 @@ export async function modifierVarianteAction(varianteId: string, saisie: SaisieF
             _count: { select: { temoignages: true } },
         },
     })
-    if (!variante || variante.masquee) return { succes: false, erreur: "Forme introuvable" }
+    if (!variante || variante.masquee) return { succes: false, erreur: "Introuvable, elle a peut-être été retirée" }
     if (variante.creeParId !== session.membreId) {
         return { succes: false, erreur: "Tu ne peux modifier que tes propres contributions" }
     }
     if (variante._count.temoignages > 1) {
-        return { succes: false, erreur: "Quelqu'un d'autre a déjà revendiqué cette forme, elle ne se modifie plus" }
+        return { succes: false, erreur: "Un autre village l'a déjà ajoutée chez lui : elle ne se modifie plus" }
     }
 
     // Rien n'a changé : pas d'écriture, donc pas de fausse modification au journal.
@@ -122,7 +122,7 @@ export async function modifierVarianteAction(varianteId: string, saisie: SaisieF
         select: { id: true },
     })
     if (existante && existante.id !== varianteId) {
-        return { succes: false, erreur: "Cette forme existe déjà sur ce mot" }
+        return { succes: false, erreur: "Cette façon de dire existe déjà sur ce mot" }
     }
 
     try {

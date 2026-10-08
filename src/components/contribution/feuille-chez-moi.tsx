@@ -62,7 +62,7 @@ export function FeuilleChezMoi({
             ouvert={ouvert}
             onOuvertChange={onOuvertChange}
             titre="Chez moi aussi"
-            description="Rattacher ton village à cette forme, ou l'en retirer."
+            description="Ajoute ton village à cette façon de dire, ou retire-le."
         >
             {ouvert && (
                 <Parcours varianteId={varianteId} cote={cote} fermer={() => onOuvertChange(false)} onSucces={onSucces} />
@@ -127,7 +127,7 @@ function Parcours({
     }
     if (donnees === null) {
         return (
-            <Cadre titre="Cette forme n'est plus là" sousTitre="Elle a peut-être été retirée entre-temps.">
+            <Cadre titre="Cette façon de dire n'est plus là" sousTitre="Elle a peut-être été retirée entre-temps.">
                 <button type="button" onClick={fermer} className={BOUTON_SECONDAIRE}>Fermer</button>
             </Cadre>
         );
@@ -244,7 +244,7 @@ function Parcours({
                 </Ligne>
             </dl>
             <p className="mt-3 text-sm text-muted-foreground">
-                {village?.nom} s&apos;ajoute aux villages de cette forme, sur la fiche et sur la carte.
+                {village?.nom} s&apos;ajoute aux villages de cette façon de dire, sur la fiche et sur la carte.
             </p>
             <button
                 type="button"

@@ -29,7 +29,7 @@ export async function generateMetadata({
   return {
     title: `${lemme.francais}${premiereForme ? ` (${premiereForme})` : ""} · Elsass Dico`,
     description: premiereForme
-      ? `Le prénom ${lemme.francais} en alsacien : ${formes.slice(0, 3).join(", ")}. Chaque forme avec ses sources et ses villages.`
+      ? `Le prénom ${lemme.francais} en alsacien : ${formes.slice(0, 3).join(", ")}. Chaque façon de dire avec ses sources et ses villages.`
       : `Le prénom ${lemme.francais} dans Elsass Dico.`,
   };
 }

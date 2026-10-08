@@ -26,10 +26,10 @@ export function validerSaisie(
     // Un préfixe d'article n'a jamais besoin de plus de quelques caractères.
     const prefixe = saisie.prefixe?.length ? saisie.prefixe.slice(0, 12) : null
     const forme = composerForme(prefixe, saisie.reste ?? "")
-    if (!forme) return { ok: false, erreur: "Écris une forme avant d'envoyer" }
-    if (forme.forme.length > FORME_MAX) return { ok: false, erreur: "Trop long pour une forme" }
+    if (!forme) return { ok: false, erreur: "Écris un mot alsacien avant d'envoyer" }
+    if (forme.forme.length > FORME_MAX) return { ok: false, erreur: "Trop long pour un mot alsacien" }
     const cle = cleDeForme(forme.forme)
-    if (!cle) return { ok: false, erreur: "Écris une forme avant d'envoyer" }
+    if (!cle) return { ok: false, erreur: "Écris un mot alsacien avant d'envoyer" }
     return { ok: true, forme, cle }
 }
 

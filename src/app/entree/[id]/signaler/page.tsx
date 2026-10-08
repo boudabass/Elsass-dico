@@ -22,7 +22,7 @@ export default async function SignalerPage({ params }: { params: Promise<{ id: s
 
         <p className="my-[22px] text-base leading-[1.6] text-muted-foreground">
           Ton signalement va directement à un admin, qui décide de la suite.
-          D&apos;ici là, la forme, ses sources et ses villages restent tels quels.
+          D&apos;ici là, la façon de dire, ses sources et ses villages restent tels quels.
         </p>
 
         <SignalerActions

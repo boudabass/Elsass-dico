@@ -77,7 +77,7 @@ export async function creerMotAction(
 
     // Refusé ici et pas seulement désactivé à l'écran : pas de mot sans forme.
     const valide = validerSaisie(forme)
-    if (!valide.ok) return { succes: false, erreur: "Ajoute sa forme alsacienne : un mot ne se crée pas sans elle" }
+    if (!valide.ok) return { succes: false, erreur: "Ajoute sa façon de le dire en alsacien : un mot ne se crée pas sans elle" }
 
     const communeId = await villageDuMembre(session.membreId)
     if (!communeId) return REFUS_VILLAGE_REQUIS
@@ -87,7 +87,7 @@ export async function creerMotAction(
         select: { id: true },
     })
     if (existant) {
-        return { succes: false, erreur: "Ce mot existe déjà. Ajoute ta forme sur sa fiche", lemmeExistant: existant.id }
+        return { succes: false, erreur: "Ce mot existe déjà. Ajoute ta façon de le dire sur sa fiche", lemmeExistant: existant.id }
     }
 
     try {

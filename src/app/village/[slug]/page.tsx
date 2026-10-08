@@ -46,7 +46,7 @@ export async function generateMetadata({
   return {
     title: `${village.nom}${premiereForme ? ` (${premiereForme})` : ""} · Elsass Dico`,
     description: premiereForme
-      ? `${village.nom} (${departement}) en alsacien : ${formes.slice(0, 3).join(", ")}. Chaque forme avec ses sources et ses villages.`
+      ? `${village.nom} (${departement}) en alsacien : ${formes.slice(0, 3).join(", ")}. Chaque façon de dire avec ses sources et ses villages.`
       : `${village.nom} (${departement}) dans Elsass Dico.`,
   };
 }
@@ -72,7 +72,7 @@ export default async function VillagePage({
         <h1 className="text-2xl font-bold text-foreground">{village.nom}</h1>
         {village.population !== null && (
           <p className="text-sm text-muted-foreground">
-            {village.population.toLocaleString("fr-FR")} habitants
+            {village.population.toLocaleString("fr-FR").replace(/\u202f/g, "\u00a0")} habitants
           </p>
         )}
       </header>

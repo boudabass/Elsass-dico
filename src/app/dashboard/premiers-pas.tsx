@@ -41,16 +41,14 @@ export function PremiersPas({
                 Fais entrer ton village dans le dico
             </h2>
             <p className="mt-1.5 max-w-[60ch] text-sm leading-[1.55] text-muted-foreground">
-                Deux gestes. Chaque forme que tu reconnais porte ensuite ton village, et
-                ton village apparaît sur la carte de ce mot.
+                2 étapes. Ensuite, chaque façon de dire que tu reconnais porte le nom de ton village, et ton village apparaît sur la carte de ce mot.
             </p>
 
             <ol className="mt-5">
                 <Etape numero={1} fait={village !== null} titre="D'où vient ton alsacien ?">
                     {village === null && (
                         <p className="mt-1 text-sm leading-[1.5] text-muted-foreground">
-                            Le village où tu as appris à le parler. Il se choisit dans la liste,
-                            rien n&apos;est déduit de ta position.
+                            Le village où tu as appris à le parler. Tu le choisis dans la liste.
                         </p>
                     )}
                     <VillageProfil villageActuel={village} onDefini={onVillageDefini} />
@@ -65,7 +63,7 @@ export function PremiersPas({
                 >
                     {village === null ? (
                         <p className="mt-1 text-sm text-muted-foreground">
-                            Dès que ton village est choisi.
+                            Choisis d&apos;abord ton village, juste au-dessus.
                         </p>
                     ) : (
                         <>

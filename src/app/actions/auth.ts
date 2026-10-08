@@ -46,7 +46,7 @@ export async function connexionAction(formData: FormData): Promise<ResultatConne
         })
     } catch (erreur) {
         console.error("[Auth] Membre non enregistré:", erreur)
-        return { succes: false, erreur: "Compte indisponible, contacte un administrateur" }
+        return { succes: false, erreur: "Connexion impossible, réessaie dans un instant" }
     }
 
     const session = await ouvrirSession(membre.id)

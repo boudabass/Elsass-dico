@@ -158,7 +158,7 @@ export function EtapeVillage({
     return (
         <Cadre
             titre="D'où vient ton parler ?"
-            sousTitre={actuel ? <>Aujourd&apos;hui : {actuel.nom}. Il sera aussi changé dans Mon espace.</> : "Chaque forme que tu ajoutes est rattachée à ton village. On ne le détecte pas : c'est toi qui le choisis."}
+            sousTitre={actuel ? <>Aujourd&apos;hui : {actuel.nom}. Il sera aussi changé dans Mon espace.</> : "Chaque façon de dire que tu ajoutes est rattachée à ton village. On ne le détecte pas : c'est toi qui le choisis."}
             onRetour={onRetour}
         >
             <div className="relative">

@@ -195,7 +195,7 @@ function DictionnaireContenu() {
     charger: () => chargerPage(sens, lettre as string, pageNo),
   });
   const lemmes = page?.lignes ?? [];
-  const unite = sens === "als" ? "forme" : "mot";
+  const unite = sens === "als" ? { un: "mot alsacien", pl: "mots alsaciens" } : { un: "mot", pl: "mots" };
   // Une revalidation en fond ne doit jamais remettre le squelette : la liste
   // reste à l'écran et se met à jour quand la réponse arrive.
   const chargement = premierChargement || (lettre !== null && page === null && !echecPage);
@@ -264,10 +264,10 @@ function DictionnaireContenu() {
           <div className="flex flex-col items-center px-3 pb-2 pt-10 text-center">
             <BookOpen className="h-[30px] w-[30px] text-neutre-300" strokeWidth={1.8} />
             <p className="mt-3 text-[15px] font-bold text-foreground">
-              {lettre ? `Aucun ${unite} pour la lettre ${lettre}.` : `Aucun ${unite} pour l'instant.`}
+              {lettre ? `Aucun ${unite.un} pour la lettre ${lettre}.` : `Aucun ${unite.un} pour l'instant.`}
             </p>
             <p className="mt-1.5 text-sm text-muted-foreground">
-              Le dictionnaire s&apos;enrichit des formes que les membres apportent.
+              Le dictionnaire s&apos;enrichit des façons de dire que les membres apportent.
             </p>
           </div>
         ) : (
@@ -276,15 +276,15 @@ function DictionnaireContenu() {
               <h2 className="text-[26px] font-extrabold text-foreground">{lettre}</h2>
               <span className="text-sm text-muted-foreground">
                 {page && page.nbPages > 1
-                  ? `${page.total.toLocaleString("fr-FR").replace(/\u202f/g, "\u00a0")} ${unite}s, page ${page.page} sur ${page.nbPages}`
-                  : `${lemmes.length} ${unite}${lemmes.length > 1 ? "s" : ""}`}
+                  ? `${page.total.toLocaleString("fr-FR").replace(/\u202f/g, "\u00a0")} ${unite.pl}, page ${page.page} sur ${page.nbPages}`
+                  : `${lemmes.length} ${lemmes.length > 1 ? unite.pl : unite.un}`}
               </span>
             </div>
 
             {page && page.nbPages > 1 && (
               <>
                 <ChampAllerAuMot
-                  placeholder={sens === "als" ? "Aller à une forme…" : "Aller à un mot…"}
+                  placeholder={sens === "als" ? "Aller à un mot alsacien…" : "Aller à un mot…"}
                   valeur={prefixe}
                   onChange={setPrefixe}
                   onValider={allerAuPrefixe}

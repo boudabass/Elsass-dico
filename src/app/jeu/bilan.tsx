@@ -90,31 +90,35 @@ export function Bilan({
     );
 }
 
-/** Ce qu'un compte ajoute au jeu, pour qui joue sans. */
+/**
+ * Ce qu'un compte apporte, pour qui joue sans. Le compte se crée sur le site, la session n'y est pas partagée : d'où « même email, même mot de passe ».
+ */
 export function InvitationCompte({ className }: { className?: string }) {
     return (
         <section aria-labelledby="compte-titre" className={className}>
-            <h2 id="compte-titre" className="text-[15px] font-bold text-foreground">
-                Avec un compte
+            <h2 id="compte-titre" className="text-lg font-extrabold text-foreground">
+                Avec un compte The Elsassisch
             </h2>
-            <p className="mt-1 max-w-[56ch] text-sm leading-[1.5] text-muted-foreground">
-                Tu gardes ta série de jours, tu lances autant de parties libres que tu veux, et tu
-                peux dire comment on parle dans ton village.
+            <p className="mt-1 max-w-[56ch] text-[15px] leading-[1.5] text-foreground">
+                Tu accèdes au dictionnaire, à la carte et tu joues autant que tu veux. Surtout, tu peux contribuer à la sauvegarde de l&apos;alsacien, là où il se parle et comment il se parle.
             </p>
-            <div className="mt-3 flex flex-wrap items-center gap-x-4 gap-y-2">
+            <div className="mt-4 flex flex-wrap items-center gap-3">
                 <a
                     href={URL_INSCRIPTION_ODOO}
-                    className="inline-flex h-10 items-center rounded-lg border border-bordure-forte px-4 text-sm font-semibold text-foreground transition-colors hover:bg-neutre-50"
+                    className="inline-flex h-11 items-center rounded-lg bg-marque-rouge-500 px-5 text-[15px] font-semibold text-white transition-colors hover:bg-marque-rouge-600"
                 >
-                    Créer un compte
+                    Créer mon compte
                 </a>
                 <Link
                     href="/login"
-                    className="inline-flex min-h-10 items-center text-sm font-semibold text-marque-rouge-texte underline-offset-4 hover:underline"
+                    className="inline-flex h-11 items-center rounded-lg border border-bordure-forte px-5 text-[15px] font-semibold text-foreground transition-colors hover:bg-neutre-50"
                 >
-                    Se connecter
+                    Me connecter
                 </Link>
             </div>
+            <p className="mt-3 max-w-[56ch] text-[15px] leading-[1.5] text-muted-foreground">
+                Le compte se crée sur theelsassisch.com. Reviens ensuite ici et connecte-toi avec le même email et le même mot de passe.
+            </p>
         </section>
     );
 }

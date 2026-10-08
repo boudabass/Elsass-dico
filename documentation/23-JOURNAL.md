@@ -3013,3 +3013,30 @@ Cours et Forum, peut-être trompeur s'ils se lisent sans compte.
 **Piège** : des « � » vus dans le texte venaient de la console Windows qui
 décodait mal l'UTF-8, pas de la page (aucun U+FFFD dans le HTML). Lire les
 octets avant de signaler un caractère cassé.
+
+### Fin de défi : l'invitation au compte (08/10/2026)
+
+- **`InvitationCompte`** (`src/app/jeu/bilan.tsx`) réécrite. Elle s'affiche en
+  fin de défi et sur l'accueil du jeu, pour les invités seulement. Un membre
+  voit à la place, en fin de défi, la question « comment dis-tu ce mot dans ton
+  village ? » et, sur l'accueil du jeu, « Partie libre ».
+- Une version en deux étapes numérotées (commit `a16b590`) a été jugée trop
+  lourde par John. Elle est remplacée.
+- **Texte final de John** : titre « Avec un compte The Elsassisch », puis « Tu
+  accèdes au dictionnaire, à la carte et tu joues autant que tu veux. Surtout,
+  tu peux contribuer à la sauvegarde de l'alsacien, là où il se parle et comment
+  il se parle. » Boutons « Créer mon compte » (plein) et « Me connecter »
+  (bordé). Puis : « Le compte se crée sur theelsassisch.com. Reviens ensuite ici
+  et connecte-toi avec le même email et le même mot de passe. »
+- **Ne pas écrire qu'un compte sert à « jouer tous les jours »** : le défi du
+  jour se joue sans compte.
+- **Accueil** : « 5 questions, sans compte » devient « 5 questions à la suite ».
+  **John : inutile de dire « sans compte »**.
+- Vérifié sur dev, en ordinateur et dans une iframe de 375 px, sans défilement
+  horizontal. PR #93 ouverte vers `main`, à merger par John.
+- **Méthode** : depuis le 08/10, une session Opus (« Elsass Dico Orchestrateur »)
+  planifie et relit, une session Haiku (« Elsas Dico Operateur ») exécute.
+- **Restent** : le constat de John sur téléphone ; les clics « par référence » de
+  Chrome piloté, qui ne naviguent pas toujours au premier coup (probable
+  artefact de l'outil, non prouvé).
+- Export des contributions non relancé : aucun vote ni forme dans la session.

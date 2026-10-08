@@ -4,6 +4,7 @@ import dynamic from "next/dynamic"
 import Link from "next/link"
 import { useEffect, useMemo, useRef, useState } from "react"
 import { ArrowLeft } from "lucide-react"
+import { useRouter } from "next/navigation"
 
 import {
     pointsCarteAction,
@@ -24,7 +25,7 @@ import { useListeMemorisee } from "@/hooks/use-liste-memorisee"
 import { useRequeteDebattue } from "@/hooks/use-requete-debattue"
 import { cleCache } from "@/lib/cache-navigation"
 import { couleurParRang } from "@/lib/couleur-carte"
-import { entreParentheses, lienForme, precisionLemme, type FormeResume, type LemmeResume } from "@/lib/dictionnaire"
+import { entreParentheses, precisionLemme, type FormeResume, type LemmeResume } from "@/lib/dictionnaire"
 
 import { AideCarte } from "./aide-carte"
 import { PanneauContribution } from "./panneau-contribution"
@@ -78,9 +79,12 @@ export function CarteDemo() {
     const [motSaisi, setMotSaisi] = useState("")
     const [motActif, setMotActif] = useState<LemmeResume | null>(null)
     const [formeActive, setFormeActive] = useState<FormeResume | null>(null)
-    // D'où l'on vient : la fiche qui a envoyé ici par « Voir sur la carte ». La carte
-    // est un onglet racine, sans chevron : ce lien sert de retour.
-    const [origine, setOrigine] = useState<{ href: string; id?: string; cle?: string; titre?: string } | null>(null)
+    // D'où l'on vient : la fiche qui a envoyé ici par « Voir sur la carte » (paramètre
+    // `retour=1`). La carte est un onglet racine, sans chevron : le retour passe par
+    // `router.back()` pour reprendre l'historique de la fiche. Un lien empilerait une
+    // entrée, et le chevron de la fiche ramènerait ici, sur une carte vide.
+    const router = useRouter()
+    const [origine, setOrigine] = useState<{ id?: string; cle?: string; titre?: string } | null>(null)
     const requeteMot = useRequeteDebattue(motSaisi)
 
     const cleSuggestions = requeteMot ? cleCache("carte-suggestions", sens, requeteMot) : null
@@ -127,11 +131,12 @@ export function CarteDemo() {
         const params = new URLSearchParams(window.location.search)
         const id = params.get("mot")
         const cle = params.get("forme")
+        const retour = params.get("retour") === "1"
         if (id) {
-            setOrigine({ href: `/entree/${id}`, id })
+            if (retour) setOrigine({ id })
             setMotActif({ id, francais: "", contexte: "", type: "mot", departement: null, formes: [], nbFormes: 0 })
         } else if (cle) {
-            setOrigine({ href: lienForme(cle), cle, titre: params.get("titre") ?? cle })
+            if (retour) setOrigine({ cle, titre: params.get("titre") ?? cle })
             setFormeActive({ cle, titre: params.get("titre") ?? cle, sens: [], nbSens: 0 })
         } else {
             return
@@ -199,7 +204,7 @@ export function CarteDemo() {
     // ou la forme venus de la fiche est encore celui affiché.
     const libelleOrigine = origine?.titre ?? (motActif?.francais || pointsMot?.francais) ?? ""
     const origineAffichee = origine && libelleOrigine && (origine.id ? motActif?.id === origine.id : formeActive?.cle === origine.cle)
-        ? { href: origine.href, libelle: libelleOrigine }
+        ? { libelle: libelleOrigine }
         : null
     const echec = formeActive ? echecForme : motActif ? echecMot : echecVillages
     const recharger = formeActive ? rafraichirForme : motActif ? rafraichirMot : rechargerVillages
@@ -233,13 +238,14 @@ export function CarteDemo() {
                 au lieu de céder sa place. */}
             <main className="flex min-h-0 flex-1 flex-col gap-2 p-4 pb-16 md:pb-4">
                 {origineAffichee && (
-                    <Link
-                        href={origineAffichee.href}
+                    <button
+                        type="button"
+                        onClick={() => router.back()}
                         className="inline-flex min-h-10 shrink-0 items-center gap-1.5 self-start text-[15px] font-semibold text-sens-texte underline-offset-4 hover:underline"
                     >
                         <ArrowLeft className="h-4 w-4" strokeWidth={2.4} aria-hidden />
                         Revenir à la fiche de « {origineAffichee.libelle} »
-                    </Link>
+                    </button>
                 )}
                 <div className="flex shrink-0 items-start gap-2">
                     <ChampSuggestions

@@ -108,7 +108,7 @@ function Accueil({
                 d'autres types de manches (mots, prénoms). « Quel village dit
                 ça ? » est la consigne d'un type, pas le nom du jeu. */}
             <p className="mt-2 max-w-[56ch] text-[15px] leading-[1.55] text-muted-foreground">
-                Le jeu te montre un nom en alsacien. Tu as 4 réponses en français : à toi de trouver la bonne.
+                On te montre le nom d&apos;un village en alsacien. Tu retrouves son nom en français parmi 4 réponses.
             </p>
 
             <section

@@ -72,7 +72,7 @@ export default async function VillagePage({
         <h1 className="text-2xl font-bold text-foreground">{village.nom}</h1>
         {village.population !== null && (
           <p className="text-sm text-muted-foreground">
-            {village.population.toLocaleString("fr-FR")} habitants
+            {village.population.toLocaleString("fr-FR").replace(/\u202f/g, "\u00a0")} habitants
           </p>
         )}
       </header>

@@ -56,7 +56,7 @@ export function BadgeConfiance({
           toujours d'un témoignage. Le dire plutôt que de n'afficher rien, sinon
           la forme apparaîtrait comme si elle se fondait d'elle-même. */}
       {nbSources === 0 && nbVillages === 0 && (
-        <span className={`${PASTILLE} bg-neutre-100 text-neutre-600`}>Sans témoin</span>
+        <span className={`${PASTILLE} bg-neutre-100 text-neutre-600`}>0 source, 0 village</span>
       )}
     </span>
   );

@@ -67,7 +67,7 @@ export function InvitationPublique() {
           href="/jeu"
           className="flex h-12 items-center justify-center rounded-lg bg-marque-rouge-500 px-6 text-sm font-semibold text-white transition-colors hover:bg-marque-rouge-600 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 sm:flex-1"
         >
-          Jouer au défi du jour
+          Jouer le défi du jour
         </Link>
         <a
           href={URL_INSCRIPTION_ODOO}
@@ -82,7 +82,7 @@ export function InvitationPublique() {
           href="/login"
           className="inline-block py-1.5 font-semibold text-foreground underline underline-offset-4 hover:text-marque-rouge-texte"
         >
-          Se connecter
+          Me connecter
         </Link>
       </p>
     </section>

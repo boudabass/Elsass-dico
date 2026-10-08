@@ -52,7 +52,7 @@ export default async function AccueilPubliquePage() {
           href="/login"
           className="rounded-md px-2 py-1 text-sm font-semibold text-foreground underline-offset-4 transition-colors hover:text-marque-rouge-texte hover:underline focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
         >
-          Se connecter
+          Me connecter
         </Link>
       </header>
 
@@ -86,7 +86,7 @@ export default async function AccueilPubliquePage() {
 
               {manche ? (
                 <span className="mt-5 block rounded-xl bg-white p-4 text-foreground shadow-sm shadow-marque-rouge-900/20 sm:p-5">
-                  <span className="sr-only">Quel village dit : </span>
+                  <span className="sr-only">Nom alsacien du village : </span>
                   <span
                     lang="gsw"
                     className="block text-balance break-words font-display text-[28px] leading-[1.12] sm:text-[32px]"
@@ -99,7 +99,7 @@ export default async function AccueilPubliquePage() {
                     ))}
                   </span>
                   <span aria-hidden className="mt-2 block text-[15px] font-semibold text-muted-foreground">
-                    Quel village dit ça ?
+                    Quel est son nom en français ?
                   </span>
                   <span className="mt-4 flex flex-wrap gap-2">
                     {manche.choix.map((c) => (
@@ -114,7 +114,7 @@ export default async function AccueilPubliquePage() {
                 </span>
               ) : (
                 <span className="mt-5 block text-[15px] text-white/85">
-                  On te montre un mot alsacien, tu devines de quel village il vient.
+                  On te montre le nom d&apos;un village en alsacien. Tu retrouves son nom en français parmi 4 réponses.
                 </span>
               )}
 

@@ -64,7 +64,7 @@ export default function MonEspacePage() {
                             href="/login"
                             className="mt-4 flex h-11 items-center justify-center rounded-lg bg-sens-500 px-6 text-sm font-semibold text-white transition-colors hover:bg-sens-600"
                         >
-                            Se connecter
+                            Me connecter
                         </Link>
                     </div>
                 ) : (
@@ -105,7 +105,7 @@ export default function MonEspacePage() {
                                 <span className="min-w-0">
                                     <span className="block text-[15px] font-bold text-foreground">Le défi du jour</span>
                                     <span className="mt-0.5 block text-sm text-muted-foreground">
-                                        Cinq questions par jour sur de vrais mots alsaciens.
+                                        On te montre le nom d&apos;un village en alsacien. Tu retrouves son nom en français parmi 4 réponses.
                                     </span>
                                 </span>
                                 <ArrowRight className="h-4 w-4 shrink-0 text-sens-texte" strokeWidth={2.4} aria-hidden />
@@ -118,9 +118,7 @@ export default function MonEspacePage() {
                                     Ton village
                                 </p>
                                 <p className="mt-1.5 text-sm leading-[1.5] text-muted-foreground">
-                                    Choisis ton village pour pouvoir y rattacher les formes que
-                                    tu reconnais. Il se choisit dans une liste, rien n&apos;est
-                                    déduit de ta position, et reste modifiable à tout moment.
+                                    Choisis le village où tu as appris l&apos;alsacien. Tu pourras le changer quand tu veux.
                                 </p>
                                 <VillageProfil villageActuel={espace?.village ?? null} onDefini={rafraichir} />
                             </div>

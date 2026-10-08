@@ -6,6 +6,8 @@ const nextConfig: NextConfig = {
   // recopier node_modules en entier, ce qui saturait le disque du VPS et
   // finissait par faire échouer les déploiements.
   output: "standalone",
+  // Pas d'en-tête `X-Powered-By` : il annoncerait Next à qui le lit.
+  poweredByHeader: false,
   // La police de l'image de partage est lue sur le disque à l'exécution : le
   // traçage ne la voit pas, sans cette ligne elle manquerait dans l'image.
   outputFileTracingIncludes: {
@@ -41,6 +43,27 @@ const nextConfig: NextConfig = {
     // Non confirmé par une métrique mémoire (accès Sentinel hors de portée
     // d'ici) — à retirer si une autre cause se confirme.
     cpus: 1,
+  },
+  // En-têtes de sécurité (audit du 02/10/2026). `X-Frame-Options: SAMEORIGIN` et
+  // non DENY : nos propres tests mobile chargent l'app dans une iframe de la même
+  // origine. Pas de CSP complète : elle demanderait des nonces pour les scripts
+  // inline de Next, hors de ce chantier ; `frame-ancestors 'self'` en tient lieu
+  // pour l'affichage dans un cadre. `geolocation=()` : le village se choisit,
+  // il ne se détecte jamais.
+  async headers() {
+    return [
+      {
+        source: "/:path*",
+        headers: [
+          { key: "Strict-Transport-Security", value: "max-age=31536000; includeSubDomains" },
+          { key: "X-Content-Type-Options", value: "nosniff" },
+          { key: "Referrer-Policy", value: "strict-origin-when-cross-origin" },
+          { key: "X-Frame-Options", value: "SAMEORIGIN" },
+          { key: "Content-Security-Policy", value: "frame-ancestors 'self'" },
+          { key: "Permissions-Policy", value: "camera=(), microphone=(), geolocation=(), payment=()" },
+        ],
+      },
+    ]
   },
   webpack: (config) => {
     if (process.env.NODE_ENV === "development") {

@@ -148,9 +148,12 @@ VPS partagé ; `dev` et `main` **partagent la même base**.
   lien `-dev`. Restent les boutons d'Elsass Chat (« Chercher un mot ») et de
   « Vos idées » (« Se connecter pour jouer »), et la question de « Connectez-vous
   avec votre compte » sous Cours et Forum, lisibles sans compte ?
-- **En attente côté John** : rotation des secrets après l'audit du 02/10
-  (`SESSION_SECRET`, mot de passe Postgres, `AUTOMATISATION_API_TOKEN` + N8N) ;
-  révoquer le jeton Coolify « Claude Full » (affiché en clair le 07/10) ; feu
+- **En attente côté John** : rotation des secrets après l'audit du 02/10 :
+  `SESSION_SECRET` changé sur main et dev le 08/10 ; restent le mot de passe
+  Postgres et `AUTOMATISATION_API_TOKEN` + N8N ; jeton Coolify « Claude Full »
+  révoqué le 08/10 : **le MCP Coolify s'en servait et ne répond plus**
+  (« rejected the Authorization header ») ; créer un jeton en lecture seule et
+  le mettre dans la config MCP ; feu
   vert du lancement public (workflow N8N `MET_DEFI_DICO_HEBDO`) ; plan d'export
   automatique des contributions (route + N8N + `watch_paths` Coolify, cf.
   journal du 28/09).

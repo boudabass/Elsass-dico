@@ -3017,8 +3017,9 @@ octets avant de signaler un caractère cassé.
 ### Fin de défi : l'invitation au compte (08/10/2026)
 
 - **`InvitationCompte`** (`src/app/jeu/bilan.tsx`) réécrite. Elle s'affiche en
-  fin de défi et sur l'accueil du jeu, pour les invités seulement : un membre
-  voit à la place la question « Chez moi aussi ».
+  fin de défi et sur l'accueil du jeu, pour les invités seulement. Un membre
+  voit à la place, en fin de défi, la question « comment dis-tu ce mot dans ton
+  village ? » et, sur l'accueil du jeu, « Partie libre ».
 - Une version en deux étapes numérotées (commit `a16b590`) a été jugée trop
   lourde par John. Elle est remplacée.
 - **Texte final de John** : titre « Avec un compte The Elsassisch », puis « Tu

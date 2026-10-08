@@ -244,7 +244,7 @@ function Parcours({
                 </Ligne>
             </dl>
             <p className="mt-3 text-sm text-muted-foreground">
-                {village?.nom} s&apos;ajoute aux villages de cette forme, sur la fiche et sur la carte.
+                {village?.nom} s&apos;ajoute aux villages de cette façon de dire, sur la fiche et sur la carte.
             </p>
             <button
                 type="button"

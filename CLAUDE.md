@@ -133,18 +133,17 @@ VPS partagé ; `dev` et `main` **partagent la même base**.
 
 - Toutes les étapes de la refonte sont faites (dérivation, session, fiches
   publiques, admin, carte, contribution, jeu, deux sens).
-- **`main` et `dev` alignés par la PR #93** (08/10) : fin de défi, invitation au
-  compte simplifiée (texte de John), accueil « 5 questions à la suite ». Avant,
-  PR #91 : retour vers `/application` après l'inscription (testé de bout en
-  bout par John), session renouvelée dans les Server Actions au lieu d'un 405,
-  partage du défi par lien `?n=&r=`.
+- **`main` et `dev` alignés par la PR #94** (08/10) : textes de l'app corrigés
+  après inventaire (« forme » remplacé, jeu expliqué juste, pages d'erreur en
+  français), retour de la carte vers la fiche. Avant, PR #93 : fin de défi,
+  invitation au compte simplifiée.
 - **À constater par John** : le partage par lien sur téléphone ; plus de 404 à
   la réouverture de l'app après 30 min (cause non établie : session expirée ou
   version déployée depuis ; capture demandée si ça revient) ; supprimer le
   compte Odoo `theelsassisch+test@gmail.com`.
 - Base : ~25 864 lemmes, 41 646 variantes, 2 membres, quelques témoignages
   parlés.
-- **Prochaine session, dans l'ordre** : (1) inventaire des textes de l'app.
+- **Prochaine session, dans l'ordre** : à définir avec John (inventaire des textes fait le 08/10).
 - **`/application`** (site Odoo, publiée et réécrite par John le 08/10) : la
   carte Elsass Dico mène à `elsass-dico.theelsassisch.com/login`, plus aucun
   lien `-dev`. Restent les boutons d'Elsass Chat (« Chercher un mot ») et de

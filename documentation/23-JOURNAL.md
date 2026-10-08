@@ -3041,3 +3041,14 @@ octets avant de signaler un caractère cassé.
   Chrome piloté, qui ne naviguent pas toujours au premier coup (probable
   artefact de l'outil, non prouvé).
 - Export des contributions non relancé : aucun vote ni forme dans la session.
+
+### Inventaire et correction des textes, retour depuis la carte (08/10/2026)
+
+- **Inventaire** : 577 textes relevés dans le code (`documentation/24-INVENTAIRE-TEXTES.md`, état AVANT corrections). Aucun tiret long, aucun vouvoiement.
+- **Le jeu était décrit faux à deux endroits** (« Quel village dit ça ? », « tu devines de quel village il vient ») : une seule phrase partout, « On te montre le nom d'un village en alsacien. Tu retrouves son nom en français parmi 4 réponses. » Métadonnées et image de partage inchangées.
+- **Décision de John : « forme » disparaît du texte affiché** : « façon de dire » pour la chose, « mot alsacien » pour ce qu'on tape, cherche ou parcourt. « Revendiquer » disparaît aussi. Les pages `/admin` gardent leur vocabulaire (lues par John seul ; restent « forme alsacienne » dans Mots ajoutés et « une forme précise » dans Signalements).
+- Pages introuvable et erreur en français (`src/app/not-found.tsx`, `src/app/error.tsx`) : avant, texte anglais par défaut de Next. **Peut-être le « 404 à la réouverture » vu par John** : non établi.
+- Titre « Traducteur » devient « Dictionnaire français-alsacien » (un traducteur évoque la traduction automatique). « Sans témoin » devient « 0 source, 0 village ». « Compte indisponible, contacte un administrateur » devient « Connexion impossible, réessaie dans un instant » (c'était une erreur de base). Population du village : espace fine U+202F remplacée. Libellés unifiés : « Jouer le défi du jour », « Me connecter », « Créer mon compte ».
+- **Carte : « Revenir à la fiche de « … » »** quand on arrive par « Voir sur la carte » (paramètre `retour=1` posé par `LienCarte` seul). **Piège** : un `<Link>` vers la fiche empilait une entrée, et le chevron de la fiche ramenait à la carte vidée ; c'est un `router.back()` (bug vu par John, corrigé dans `08d36c4`). Testé : Dictionnaire → B → Babette → carte → fiche → chevron → liste B. Non retesté : depuis une fiche `/forme`, et disparition du lien en tapant un autre mot.
+- PR #94 mergée, vérifiée en prod (updated_at + code servi).
+- Export des contributions non relancé : aucun vote ni forme.

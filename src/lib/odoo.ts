@@ -31,6 +31,19 @@ export const URL_CGU = "https://www.theelsassisch.com/cgu";
 // Les variables sont lues à l'appel et non au chargement du module : une
 // vérification au niveau module casserait le build, qui n'a pas accès aux
 // variables runtime de Coolify.
+/** Panne technique (configuration, réseau, réponse HTTP ou JSON inattendue) :
+ *  Odoo n'a pas répondu, il n'a pas refusé. Distinguée d'un refus pour que la
+ *  limite de tentatives ne compte que les vrais mauvais identifiants. */
+export class ErreurOdoo extends Error {
+    constructor(message: string) {
+        super(message);
+        this.name = "ErreurOdoo";
+    }
+}
+
+// Renvoie `null` quand Odoo refuse le couple (identifiant inconnu ou mot de
+// passe faux), et lève `ErreurOdoo` pour toute panne : le login reste fermé
+// dans les deux cas, seul le compteur de tentatives les distingue.
 export async function authentifierAupresDOdoo(
     login: string,
     password: string,
@@ -40,11 +53,12 @@ export async function authentifierAupresDOdoo(
 
     if (!url || !db) {
         console.error("[Odoo] ODOO_URL ou ODOO_DB manquante, authentification impossible");
-        return null;
+        throw new ErreurOdoo("configuration Odoo manquante");
     }
 
+    let reponse: Response;
     try {
-        const reponse = await fetch(`${url}/web/session/authenticate`, {
+        reponse = await fetch(`${url}/web/session/authenticate`, {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({
@@ -55,33 +69,38 @@ export async function authentifierAupresDOdoo(
             }),
             cache: "no-store",
         });
-
-        if (!reponse.ok) {
-            console.error(`[Odoo] Réponse HTTP ${reponse.status}`);
-            return null;
-        }
-
-        // Odoo répond 200 même en cas d'échec : l'erreur est dans le corps JSON.
-        const donnees = await reponse.json();
-
-        if (donnees.error) {
-            console.warn(`[Odoo] Authentification refusée: ${donnees.error.message ?? "raison inconnue"}`);
-            return null;
-        }
-
-        const resultat = donnees.result;
-        if (!resultat || typeof resultat.uid !== "number") {
-            return null;
-        }
-
-        return {
-            uid: resultat.uid,
-            name: resultat.name ?? login,
-            username: resultat.username ?? login,
-        };
     } catch (erreur) {
-        // Échec fermé : toute erreur réseau ou réponse inattendue vaut refus.
-        console.error("[Odoo] Erreur lors de l'authentification:", erreur);
+        console.error("[Odoo] Erreur réseau lors de l'authentification:", erreur);
+        throw new ErreurOdoo("réseau");
+    }
+
+    if (!reponse.ok) {
+        console.error(`[Odoo] Réponse HTTP ${reponse.status}`);
+        throw new ErreurOdoo(`HTTP ${reponse.status}`);
+    }
+
+    // Odoo répond 200 même en cas d'échec : l'erreur est dans le corps JSON.
+    let donnees;
+    try {
+        donnees = await reponse.json();
+    } catch (erreur) {
+        console.error("[Odoo] Réponse non JSON:", erreur);
+        throw new ErreurOdoo("réponse non JSON");
+    }
+
+    if (donnees.error) {
+        console.warn(`[Odoo] Authentification refusée: ${donnees.error.message ?? "raison inconnue"}`);
         return null;
     }
+
+    const resultat = donnees.result;
+    if (!resultat || typeof resultat.uid !== "number") {
+        return null;
+    }
+
+    return {
+        uid: resultat.uid,
+        name: resultat.name ?? login,
+        username: resultat.username ?? login,
+    };
 }

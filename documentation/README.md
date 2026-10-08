@@ -54,6 +54,7 @@ dans Odoo, et ce dossier y renvoie.
 | `21-REPRISE.md` | État d'avancement et reprise en local |
 | `22-MESURE-MARQUEUR-AE.md` | Mesure du marqueur a~e sur le lexique — résultat, contrôles, limites |
 | `23-JOURNAL.md` | Journal daté du projet (ancien contenu de `CLAUDE.md`) |
+| `24-INVENTAIRE-TEXTES.md` | Inventaire des textes affichés au 08/10/2026 (avant corrections) |
 | `10-VISION-PRODUIT.md` | Renvoi vers Odoo 882 — à jour depuis le 24/09/2026 |
 | `11-FEUILLE-DE-ROUTE.md` | Renvoi vers Odoo 883 — à jour depuis le 24/09/2026 |
 | `12-CHECKLISTS.md` | Renvoi vers Odoo 884 — à jour depuis le 24/09/2026 |

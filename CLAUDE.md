@@ -155,9 +155,8 @@ VPS partagé ; `dev` et `main` **partagent la même base**.
   vert du lancement public (workflow N8N `MET_DEFI_DICO_HEBDO`) ; plan d'export
   automatique des contributions (route + N8N + `watch_paths` Coolify, cf.
   journal du 28/09).
-- **Sécurité, restent ouverts** : redirection ouverte de `/api/session/refresh`
-  (`?suite=/%09/site`), en-têtes de sécurité absents, pas de limite de
-  tentatives, proxy `/api/proxy/*` à retirer.
+- **Sécurité** : les quatre failles de l'audit du 02/10 sont corrigées sur `dev`
+  (PR #<n>, à merger) ; reste une CSP complète (nonces).
 - **Ouvert, plus long terme** : faire venir des locuteurs, mesure de
   convergence, aire du 57, attribution de la police Azimut (John), seuil
   « proche » de la contribution (≤ 2 lettres et ≤ 25 %).

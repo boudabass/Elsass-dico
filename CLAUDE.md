@@ -133,10 +133,9 @@ VPS partagé ; `dev` et `main` **partagent la même base**.
 
 - Toutes les étapes de la refonte sont faites (dérivation, session, fiches
   publiques, admin, carte, contribution, jeu, deux sens).
-- **`main` et `dev` alignés par la PR #94** (08/10) : textes de l'app corrigés
-  après inventaire (« forme » remplacé, jeu expliqué juste, pages d'erreur en
-  français), retour de la carte vers la fiche. Avant, PR #93 : fin de défi,
-  invitation au compte simplifiée.
+- **`main` et `dev` alignés par la PR #95** (08/10) : les quatre failles de
+  l'audit du 02/10. Avant, PR #94 : textes de l'app corrigés après inventaire,
+  retour de la carte vers la fiche.
 - **À constater par John** : le partage par lien sur téléphone ; plus de 404 à
   la réouverture de l'app après 30 min (cause non établie : session expirée ou
   version déployée depuis ; capture demandée si ça revient) ; supprimer le
@@ -155,8 +154,8 @@ VPS partagé ; `dev` et `main` **partagent la même base**.
   vert du lancement public (workflow N8N `MET_DEFI_DICO_HEBDO`) ; plan d'export
   automatique des contributions (route + N8N + `watch_paths` Coolify, cf.
   journal du 28/09).
-- **Sécurité** : les quatre failles de l'audit du 02/10 sont corrigées sur `dev`
-  (PR #95, à merger) ; reste une CSP complète (nonces).
+- **Sécurité** : les quatre failles de l'audit du 02/10 sont corrigées
+  et en production (PR #95, 08/10) ; reste une CSP complète (nonces).
 - **Ouvert, plus long terme** : faire venir des locuteurs, mesure de
   convergence, aire du 57, attribution de la police Azimut (John), seuil
   « proche » de la contribution (≤ 2 lettres et ≤ 25 %).

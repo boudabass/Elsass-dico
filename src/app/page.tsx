@@ -81,7 +81,7 @@ export default async function AccueilPubliquePage() {
                 <span className="text-sm font-semibold tabular-nums text-white/80">n° {numero}</span>
               </span>
               <span className="mt-1 text-sm text-white/85">
-                {NB_MANCHES} questions, sans compte
+                {NB_MANCHES} questions à la suite
               </span>
 
               {manche ? (

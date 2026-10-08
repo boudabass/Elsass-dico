@@ -99,7 +99,7 @@ export function InvitationCompte({ className }: { className?: string }) {
     return (
         <section aria-labelledby="compte-titre" className={className}>
             <h2 id="compte-titre" className="text-lg font-extrabold text-foreground">
-                Pour jouer tous les jours et ouvrir le dictionnaire
+                Avec un compte, tu ouvres le dictionnaire et tu joues autant que tu veux
             </h2>
             <p className="mt-1 max-w-[56ch] text-[15px] leading-[1.5] text-muted-foreground">
                 Il faut un compte The Elsassisch. Ça se fait en 2 étapes :

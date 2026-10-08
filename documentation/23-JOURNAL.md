@@ -3033,7 +3033,8 @@ octets avant de signaler un caractère cassé.
 - **Accueil** : « 5 questions, sans compte » devient « 5 questions à la suite ».
   **John : inutile de dire « sans compte »**.
 - Vérifié sur dev, en ordinateur et dans une iframe de 375 px, sans défilement
-  horizontal. PR #93 ouverte vers `main`, à merger par John.
+  horizontal. PR #93 mergée par John, vérifiée en production (updated_at + code
+  servi).
 - **Méthode** : depuis le 08/10, une session Opus (« Elsass Dico Orchestrateur »)
   planifie et relit, une session Haiku (« Elsas Dico Operateur ») exécute.
 - **Restent** : le constat de John sur téléphone ; les clics « par référence » de

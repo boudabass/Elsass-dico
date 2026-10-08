@@ -133,12 +133,11 @@ VPS partagé ; `dev` et `main` **partagent la même base**.
 
 - Toutes les étapes de la refonte sont faites (dérivation, session, fiches
   publiques, admin, carte, contribution, jeu, deux sens).
-- **`main` et `dev` alignés par la PR #91** (08/10) : retour vers
-  `/application` après l'inscription (testé de bout en bout par John), session
-  renouvelée dans les Server Actions au lieu d'un 405, partage du défi par
-  lien `?n=&r=`.
-- **PR #93 ouverte** (fin de défi : invitation au compte simplifiée, texte de
-  John), à merger par John.
+- **`main` et `dev` alignés par la PR #93** (08/10) : fin de défi, invitation au
+  compte simplifiée (texte de John), accueil « 5 questions à la suite ». Avant,
+  PR #91 : retour vers `/application` après l'inscription (testé de bout en
+  bout par John), session renouvelée dans les Server Actions au lieu d'un 405,
+  partage du défi par lien `?n=&r=`.
 - **À constater par John** : le partage par lien sur téléphone ; plus de 404 à
   la réouverture de l'app après 30 min (cause non établie : session expirée ou
   version déployée depuis ; capture demandée si ça revient) ; supprimer le

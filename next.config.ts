@@ -76,21 +76,6 @@ const nextConfig: NextConfig = {
     }
     return config;
   },
-  async rewrites() {
-    const rewrites = [];
-
-    // Proxy API externe pour contourner les CORS (si nécessaire)
-    const externalApiUrl = process.env.EXTERNAL_API_URL;
-
-    if (externalApiUrl) {
-      rewrites.push({
-        source: '/api/proxy/:path*',
-        destination: `${externalApiUrl}/:path*`,
-      });
-    }
-
-    return rewrites;
-  },
 };
 
 export default nextConfig;

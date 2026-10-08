@@ -3062,3 +3062,20 @@ octets avant de signaler un caractère cassé.
 - Export des contributions non relancé : aucun vote ni forme.
 - PR #95 mergée, vérifiée en production (en-têtes par curl).
 - John a changé `SESSION_SECRET` (main et dev) et révoqué « Claude Full » ; le MCP Coolify utilisait ce jeton, il est coupé jusqu'à un nouveau jeton en lecture seule.
+
+### Liste d'insultes de dj.fabz.free.fr : en attente (08/10/2026)
+
+John propose d'importer http://www.dj.fabz.free.fr/insultes.htm. La page compte
+848 entrées en trois colonnes : l'alsacien, une traduction mot à mot et parfois
+le sens. C'est la page perso de « DJ Fab'z » sur free.fr (dernière mise à jour
+en 2005), sans auteur nommé, sans provenance, sans licence et sans village.
+Quelques ajouts récents sont visiblement des blagues (« deux chvaux frotz »).
+
+On n'importe pas telle quelle. Un badge « 1 source » ferait passer la page pour
+une source écrite (règle 2). La reprise en bloc d'une compilation sans accord
+ne respecte pas la règle des licences. Et les sens ne peuvent pas être écrits
+par un LLM. Trois voies ont été proposées : A, retrouver le livre d'origine
+(piste : un dictionnaire alsacien-français des jurons) ; B, écrire à l'auteur ;
+C, s'en servir sans rien publier pour croiser avec les lemmes existants et
+viser les entrées qu'une source reconnue ou un locuteur confirme.
+Recommandation : C, puis A. **Décision reportée à la prochaine session.**

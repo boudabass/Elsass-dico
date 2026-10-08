@@ -142,7 +142,7 @@ VPS partagé ; `dev` et `main` **partagent la même base**.
   compte Odoo `theelsassisch+test@gmail.com`.
 - Base : ~25 864 lemmes, 41 646 variantes, 2 membres, quelques témoignages
   parlés.
-- **Prochaine session, dans l'ordre** : à définir avec John (inventaire des textes fait le 08/10).
+- **Prochaine session, dans l'ordre** : décider du sort de la liste d'insultes de dj.fabz.free.fr (848 entrées sans source ni licence ; voies A/B/C au journal du 08/10, recommandation : croiser sans publier).
 - **`/application`** (site Odoo, publiée et réécrite par John le 08/10) : la
   carte Elsass Dico mène à `elsass-dico.theelsassisch.com/login`, plus aucun
   lien `-dev`. Restent les boutons d'Elsass Chat (« Chercher un mot ») et de

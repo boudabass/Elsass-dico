@@ -91,53 +91,34 @@ export function Bilan({
 }
 
 /**
- * Ce qu'un compte ajoute au jeu, pour qui joue sans. L'inscription se fait sur
- * theelsassisch.com, puis il faut revenir se connecter ici : la session ne passe
- * pas du site au dico, d'où les deux étapes, avec le même email et le même mot de passe.
+ * Ce qu'un compte apporte, pour qui joue sans. Le compte se crée sur le site, la session n'y est pas partagée : d'où « même email, même mot de passe ».
  */
 export function InvitationCompte({ className }: { className?: string }) {
     return (
         <section aria-labelledby="compte-titre" className={className}>
             <h2 id="compte-titre" className="text-lg font-extrabold text-foreground">
-                Avec un compte, tu ouvres le dictionnaire et tu joues autant que tu veux
+                Avec un compte The Elsassisch
             </h2>
-            <p className="mt-1 max-w-[56ch] text-[15px] leading-[1.5] text-muted-foreground">
-                Il faut un compte The Elsassisch. Ça se fait en 2 étapes :
+            <p className="mt-1 max-w-[56ch] text-[15px] leading-[1.5] text-foreground">
+                Tu accèdes au dictionnaire, à la carte et tu joues autant que tu veux. Surtout, tu peux contribuer à la sauvegarde de l&apos;alsacien, là où il se parle et comment il se parle.
             </p>
-            <ol className="mt-4 list-none space-y-6">
-                <li className="flex gap-3">
-                    <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-marque-rouge-500 text-sm font-bold text-white">
-                        1
-                    </span>
-                    <div className="min-w-0 flex-1">
-                        <p className="text-[15px] leading-[1.5] text-foreground">
-                            Crée ton compte sur le site theelsassisch.com. Tu choisis ton email et un mot de passe.
-                        </p>
-                        <a
-                            href={URL_INSCRIPTION_ODOO}
-                            className="mt-3 inline-flex h-11 items-center rounded-lg bg-marque-rouge-500 px-5 text-[15px] font-semibold text-white transition-colors hover:bg-marque-rouge-600"
-                        >
-                            Créer mon compte
-                        </a>
-                    </div>
-                </li>
-                <li className="flex gap-3">
-                    <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-marque-rouge-500 text-sm font-bold text-white">
-                        2
-                    </span>
-                    <div className="min-w-0 flex-1">
-                        <p className="text-[15px] leading-[1.5] text-foreground">
-                            Le site t&apos;amène ensuite sur la page des applications. Clique sur Elsass Dico, puis connecte-toi avec le même email et le même mot de passe.
-                        </p>
-                        <Link
-                            href="/login"
-                            className="mt-3 inline-flex h-11 items-center rounded-lg border border-bordure-forte px-5 text-[15px] font-semibold text-foreground transition-colors hover:bg-neutre-50"
-                        >
-                            J&apos;ai déjà un compte : me connecter
-                        </Link>
-                    </div>
-                </li>
-            </ol>
+            <div className="mt-4 flex flex-wrap items-center gap-3">
+                <a
+                    href={URL_INSCRIPTION_ODOO}
+                    className="inline-flex h-11 items-center rounded-lg bg-marque-rouge-500 px-5 text-[15px] font-semibold text-white transition-colors hover:bg-marque-rouge-600"
+                >
+                    Créer mon compte
+                </a>
+                <Link
+                    href="/login"
+                    className="inline-flex h-11 items-center rounded-lg border border-bordure-forte px-5 text-[15px] font-semibold text-foreground transition-colors hover:bg-neutre-50"
+                >
+                    Me connecter
+                </Link>
+            </div>
+            <p className="mt-3 max-w-[56ch] text-[15px] leading-[1.5] text-muted-foreground">
+                Le compte se crée sur theelsassisch.com. Reviens ensuite ici et connecte-toi avec le même email et le même mot de passe.
+            </p>
         </section>
     );
 }

@@ -11,20 +11,9 @@
 
 import { NextResponse, type NextRequest } from "next/server"
 
+import { destinationSure } from "@/lib/destination-sure"
 import { COOKIE_REFRESH, COOKIE_SESSION, lireRefresh } from "@/lib/session"
 import { preparerSession } from "@/lib/session-serveur"
-
-/** Une destination ne se prend jamais telle quelle dans l'URL : sans ce
- *  contrôle, `?suite=https://ailleurs` ferait de cette route une redirection
- *  ouverte, et un lien de phishing porterait notre domaine. */
-function destinationSure(suite: string | null): string {
-    if (!suite) return "/"
-    if (!suite.startsWith("/")) return "/"
-    // `//ailleurs.example` et `/\ailleurs.example` sont lus comme des URL
-    // absolues par les navigateurs.
-    if (suite.startsWith("//") || suite.startsWith("/\\")) return "/"
-    return suite
-}
 
 /** Redirection RELATIVE, résolue par le navigateur sur le domaine qu'il est
  *  en train d'afficher. Pas `new URL(chemin, request.url)` : dans le conteneur

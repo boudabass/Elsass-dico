@@ -3041,3 +3041,22 @@ octets avant de signaler un caractère cassé.
   Chrome piloté, qui ne naviguent pas toujours au premier coup (probable
   artefact de l'outil, non prouvé).
 - Export des contributions non relancé : aucun vote ni forme dans la session.
+
+### Inventaire et correction des textes, retour depuis la carte (08/10/2026)
+
+- **Inventaire** : 577 textes relevés dans le code (`documentation/24-INVENTAIRE-TEXTES.md`, état AVANT corrections). Aucun tiret long, aucun vouvoiement.
+- **Le jeu était décrit faux à deux endroits** (« Quel village dit ça ? », « tu devines de quel village il vient ») : une seule phrase partout, « On te montre le nom d'un village en alsacien. Tu retrouves son nom en français parmi 4 réponses. » Métadonnées et image de partage inchangées.
+- **Décision de John : « forme » disparaît du texte affiché** : « façon de dire » pour la chose, « mot alsacien » pour ce qu'on tape, cherche ou parcourt. « Revendiquer » disparaît aussi. Les pages `/admin` gardent leur vocabulaire (lues par John seul ; restent « forme alsacienne » dans Mots ajoutés et « une forme précise » dans Signalements).
+- Pages introuvable et erreur en français (`src/app/not-found.tsx`, `src/app/error.tsx`) : avant, texte anglais par défaut de Next. **Peut-être le « 404 à la réouverture » vu par John** : non établi.
+- Titre « Traducteur » devient « Dictionnaire français-alsacien » (un traducteur évoque la traduction automatique). « Sans témoin » devient « 0 source, 0 village ». « Compte indisponible, contacte un administrateur » devient « Connexion impossible, réessaie dans un instant » (c'était une erreur de base). Population du village : espace fine U+202F remplacée. Libellés unifiés : « Jouer le défi du jour », « Me connecter », « Créer mon compte ».
+- **Carte : « Revenir à la fiche de « … » »** quand on arrive par « Voir sur la carte » (paramètre `retour=1` posé par `LienCarte` seul). **Piège** : un `<Link>` vers la fiche empilait une entrée, et le chevron de la fiche ramenait à la carte vidée ; c'est un `router.back()` (bug vu par John, corrigé dans `08d36c4`). Testé : Dictionnaire → B → Babette → carte → fiche → chevron → liste B. Non retesté : depuis une fiche `/forme`, et disparition du lien en tapant un autre mot.
+- PR #94 mergée, vérifiée en prod (updated_at + code servi).
+- Export des contributions non relancé : aucun vote ni forme.
+
+### Les quatre failles de l'audit du 02/10 (08/10/2026)
+
+- **Redirection ouverte de `/api/session/refresh`** (`ddbbce8`) : `destinationSure()` vit dans `src/lib/destination-sure.ts`. Elle refuse les caractères de contrôle et l'antislash, résout l'URL sur une origine fictive, et renvoie la forme normalisée. **Piège** : `/./../..//site` se normalise en `//site`, qui est une URL absolue pour le navigateur ; une garde l'a ajouté. 14 entrées testées hors dépôt. Non rejouable en direct sans session expirée.
+- **En-têtes de sécurité** (`c92a535`) : HSTS sans preload, `nosniff`, `strict-origin-when-cross-origin`, `X-Frame-Options: SAMEORIGIN` avec `frame-ancestors 'self'` (nos tests mobile chargent l'app en iframe de même origine), `Permissions-Policy` (`geolocation=()` aussi par doctrine), et plus de `X-Powered-By`. **Pas de CSP complète** : elle demanderait des nonces pour les scripts inline de Next, chantier à part. Vérifié par `curl` sur `/`, `/jeu`, `/login` et l'image de partage ; la carte fonctionne.
+- **Proxy `/api/proxy/*` du gabarit retiré** (`3afab26`), aucun usage dans le dépôt. `EXTERNAL_API_URL` dans Coolify : non vérifiable par le MCP, à regarder par John.
+- **Limite de tentatives** (`8b1e463`) : en mémoire du process (`src/lib/limite-tentatives-serveur.ts`), remise à zéro à chaque déploiement, accepté. Connexion : **5 échecs par email, 20 par IP, sur 15 min**, vérifiés avant tout appel à Odoo ; seuls les refus comptent. **`lib/odoo.ts` distingue désormais un refus (`null`) d'une panne (`ErreurOdoo`)** : une panne d'Odoo affiche « Connexion impossible, réessaie dans un instant » au lieu de « mot de passe incorrect ». IP : `x-real-ip`, sinon la valeur la plus à droite de `x-forwarded-for`. **IP inconnue : pas de limite par IP** (sinon une clé partagée par tous les membres). Signalements : 10 par membre et par heure. Testé : limiteur seul (11 vérifications, hors dépôt) ; un refus réel sur dev avec un compte inexistant affiche bien « Adresse email ou mot de passe incorrect ». **Non constaté** : que le proxy pose `x-real-ip`.
+- Export des contributions non relancé : aucun vote ni forme.

@@ -92,7 +92,7 @@ export default function MonEspacePage() {
                                 {/* Deux comptes distincts, et pas un total : apporter
                                     une forme et dire d'où elle vient sont deux gestes
                                     différents. */}
-                                <StatCase valeur={espace?.nbVariantes ?? 0} libelle="formes apportées" />
+                                <StatCase valeur={espace?.nbVariantes ?? 0} libelle="façons de dire ajoutées" />
                                 <StatCase valeur={espace?.nbTemoignages ?? 0} libelle="villages attachés" />
                             </div>
                         )}

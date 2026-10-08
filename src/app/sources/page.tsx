@@ -28,7 +28,7 @@ export default async function PageSources() {
             <header className="space-y-1">
                 <h1 className="text-xl font-semibold">Sources</h1>
                 <p className="text-sm text-muted-foreground">
-                    Toute forme alsacienne affichée par ce dictionnaire est copiée
+                    Toute façon de dire en alsacien affichée par ce dictionnaire est copiée
                     d&apos;une de ces sources, ou proposée par un locuteur qui dit
                     d&apos;où vient son parler. Aucune n&apos;est inventée.
                 </p>

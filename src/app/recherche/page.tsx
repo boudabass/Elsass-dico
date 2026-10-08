@@ -198,8 +198,8 @@ function RechercheContenu() {
                     {e.nbFormes > e.formes.length && (
                       <p className="mt-1.5 text-sm text-muted-foreground">
                         et {e.nbFormes - e.formes.length} autre
-                        {e.nbFormes - e.formes.length > 1 ? "s" : ""} forme
-                        {e.nbFormes - e.formes.length > 1 ? "s" : ""}
+                        {e.nbFormes - e.formes.length > 1 ? "s" : ""} façon
+                        {e.nbFormes - e.formes.length > 1 ? "s" : ""} de le dire
                       </p>
                     )}
                   </div>
@@ -217,7 +217,7 @@ function RechercheContenu() {
             </p>
             <p className="mt-1.5 text-sm text-muted-foreground">
               {sens === "als"
-                ? "Aucune forme alsacienne ne s'écrit comme ça pour l'instant."
+                ? "Aucun mot alsacien ne s'écrit comme ça pour l'instant."
                 : "Aucun mot français ne s'écrit comme ça pour l'instant."}
             </p>
             {/* Plus de recherche mélangée : si le mot était de l'autre

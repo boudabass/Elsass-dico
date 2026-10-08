@@ -331,7 +331,7 @@ function Reponse({ revelation, children }: { revelation: Revelation; children: R
             <div className="mt-4 grid gap-4 sm:grid-cols-[1fr_12rem]">
                 <div>
                     <p className="text-sm font-semibold text-muted-foreground">
-                        {variantes.length} forme{variantes.length > 1 ? "s" : ""}&nbsp;:
+                        {variantes.length} façon{variantes.length > 1 ? "s" : ""} de le dire&nbsp;:
                     </p>
                     <ul className="mt-2 space-y-2.5">
                         {variantes.map((v) => (

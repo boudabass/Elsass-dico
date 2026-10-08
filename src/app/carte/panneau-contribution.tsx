@@ -33,12 +33,12 @@ export function PanneauContribution({
             <p className="font-medium text-foreground">« {francais} »</p>
             {variantes !== null && variantes.length > 0 && variantes.every((v) => v.nbVillages === 0) && (
                 <p className="text-muted-foreground">
-                    Aucun village n&apos;a encore dit comment il dit ce mot. Touche une forme si on la dit chez toi, et ton village apparaîtra sur la carte.
+                    Aucun village n&apos;a encore dit comment il dit ce mot. Touche une façon de dire si on la dit chez toi, et ton village apparaîtra sur la carte.
                 </p>
             )}
 
             {variantes === null ? (
-                <p className="text-muted-foreground">Chargement des formes…</p>
+                <p className="text-muted-foreground">Chargement des façons de dire…</p>
             ) : (
                 <>
                     {variantes.length > 0 && (

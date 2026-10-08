@@ -64,7 +64,7 @@ export default async function FormePage({ searchParams }: { searchParams: Promis
                   )}
                 </span>
                 <span className="flex shrink-0 items-center gap-1 text-sm font-semibold text-sens-texte group-hover:underline">
-                  Toutes ses formes
+                  Toutes les façons de le dire
                   <ChevronRight className="h-4 w-4" strokeWidth={2.4} />
                 </span>
               </Link>

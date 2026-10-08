@@ -46,7 +46,7 @@ export async function generateMetadata({
   return {
     title: `${village.nom}${premiereForme ? ` (${premiereForme})` : ""} · Elsass Dico`,
     description: premiereForme
-      ? `${village.nom} (${departement}) en alsacien : ${formes.slice(0, 3).join(", ")}. Chaque forme avec ses sources et ses villages.`
+      ? `${village.nom} (${departement}) en alsacien : ${formes.slice(0, 3).join(", ")}. Chaque façon de dire avec ses sources et ses villages.`
       : `${village.nom} (${departement}) dans Elsass Dico.`,
   };
 }

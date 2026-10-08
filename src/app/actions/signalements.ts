@@ -31,7 +31,7 @@ export async function creerSignalementAction(
         where: { id: varianteId },
         select: { id: true },
     })
-    if (!variante) return { succes: false, erreur: "Forme introuvable" }
+    if (!variante) return { succes: false, erreur: "Introuvable, elle a peut-être été retirée" }
 
     try {
         await prisma.signalement.create({

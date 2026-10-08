@@ -34,7 +34,7 @@ export async function voterPourVarianteAction(varianteId: string): Promise<Resul
         where: { id: varianteId },
         select: { lemmeId: true, masquee: true },
     })
-    if (!variante || variante.masquee) return { succes: false, erreur: "Forme introuvable" }
+    if (!variante || variante.masquee) return { succes: false, erreur: "Introuvable, elle a peut-être été retirée" }
 
     // Plus d'`upsert` depuis le journal (24/09/2026) : il faut savoir si le
     // témoignage vient d'être créé, pour n'écrire la pose qu'une fois. Un
@@ -143,7 +143,7 @@ export async function remplacerVillageVoteAction(varianteId: string): Promise<Re
     if (!communeId) return REFUS_VILLAGE_REQUIS
 
     const variante = await prisma.variante.findUnique({ where: { id: varianteId }, select: { lemmeId: true, masquee: true } })
-    if (!variante || variante.masquee) return { succes: false, erreur: "Forme introuvable" }
+    if (!variante || variante.masquee) return { succes: false, erreur: "Introuvable, elle a peut-être été retirée" }
 
     try {
         await prisma.$transaction(async (tx) => {

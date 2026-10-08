@@ -220,10 +220,10 @@ export function CarteDemo() {
             <main className="flex min-h-0 flex-1 flex-col gap-2 p-4 pb-16 md:pb-4">
                 <div className="flex shrink-0 items-start gap-2">
                     <ChampSuggestions
-                        label={sens === "als" ? "Chercher une forme alsacienne" : "Chercher un mot français"}
+                        label={sens === "als" ? "Chercher un mot alsacien" : "Chercher un mot français"}
                         valeur={motSaisi}
                         onValeurChange={saisirMot}
-                        placeholder={sens === "als" ? "Une forme : buschur, Lohn…" : "Un mot : bonjour, salaire…"}
+                        placeholder={sens === "als" ? "Un mot alsacien : buschur, Lohn…" : "Un mot : bonjour, salaire…"}
                         actif={cleSuggestions !== null}
                         suggestions={suggestions}
                         cleDe={(s) => s.cle}
@@ -308,7 +308,7 @@ export function CarteDemo() {
                         value={filtre}
                         onChange={(e) => setFiltre(e.target.value)}
                         aria-label="Filtrer les villages affichés"
-                        placeholder="Filtrer par village ou par forme…"
+                        placeholder="Filtrer par village ou par mot…"
                         className="w-full shrink-0 rounded-md border border-input bg-background px-3 py-2 text-base"
                     />
                 )}

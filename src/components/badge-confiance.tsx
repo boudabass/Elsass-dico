@@ -46,7 +46,7 @@ export function BadgeConfiance({
       )}
       {nbVillages > 0 && (
         <span
-          title={`${nbVillages} village${nbVillages > 1 ? "s" : ""} revendique${nbVillages > 1 ? "nt" : ""} cette forme`}
+          title={`Dit dans ${nbVillages} village${nbVillages > 1 ? "s" : ""}`}
           className={`${PASTILLE} bg-marque-or-50 text-marque-or-700`}
         >
           {nbVillages} village{nbVillages > 1 ? "s" : ""}

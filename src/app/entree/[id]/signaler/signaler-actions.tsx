@@ -24,7 +24,7 @@ export function SignalerActions({
 
   const envoyer = async () => {
     if (!varianteId || !motif.trim()) {
-      toast.error("Choisis une forme et décris le problème");
+      toast.error("Choisis la façon de dire et décris le problème");
       return;
     }
     setEnvoi(true);
@@ -41,7 +41,7 @@ export function SignalerActions({
   return (
     <>
       <label htmlFor="signaler-variante" className="block text-xs font-semibold uppercase tracking-wide text-muted-foreground">
-        Forme concernée
+        Laquelle ?
       </label>
       <select
         id="signaler-variante"

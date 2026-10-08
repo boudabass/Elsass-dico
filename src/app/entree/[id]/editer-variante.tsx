@@ -54,7 +54,7 @@ export function EditerVariante({
         demarrer(async () => {
             const res = await modifierVarianteAction(varianteId, saisieDeValeur(valeur));
             if (res.succes) {
-                toast.success("Forme modifiée");
+                toast.success("C'est modifié");
                 setEnEdition(false);
                 router.refresh();
             } else {

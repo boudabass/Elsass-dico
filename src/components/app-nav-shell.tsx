@@ -106,7 +106,7 @@ export function AppNavShell({ actif }: { actif: OngletRacine }) {
                   : "text-muted-foreground hover:bg-neutre-100 hover:text-foreground"
               )}
             >
-              <Icone className="h-5 w-5 shrink-0" strokeWidth={estActif ? 2.4 : 1.8} />
+              <Icone className="h-[30px] w-[30px] shrink-0" strokeWidth={estActif ? 2.4 : 1.8} />
               <span className="hidden lg:inline">{libelle}</span>
             </Link>
           );
@@ -133,7 +133,7 @@ export function AppNavShell({ actif }: { actif: OngletRacine }) {
                 estActif ? "text-sens-texte" : "text-muted-foreground"
               )}
             >
-              <Icone className="h-5 w-5" strokeWidth={estActif ? 2.4 : 1.8} />
+              <Icone className="h-[30px] w-[30px]" strokeWidth={estActif ? 2.4 : 1.8} />
               {libelle}
             </Link>
           );

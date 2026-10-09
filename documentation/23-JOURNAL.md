@@ -3132,5 +3132,6 @@ Recommandation : C, puis A. **Décision reportée à la prochaine session.**
   collé le mot de passe dans Coolify (ressource Postgres, `DATABASE_URL`
   runtime + build sur dev et main) et redéployé.
 - Vérifié : `/`, `/sources`, `/jeu`, `/village/strasbourg-67482` en 200 sur
-  main et dev, slug inconnu en 404 (lecture en base, pas 500).
+  main et dev, slug inconnu en 404 (lecture en base, pas 500). Sauvegarde
+  manuelle Coolify réussie (constatée par John).
 - Reste : `AUTOMATISATION_API_TOKEN` + N8N ; port 5444 toujours ouvert.

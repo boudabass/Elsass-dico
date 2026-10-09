@@ -160,7 +160,7 @@ VPS partagé ; `dev` et `main` **partagent la même base**.
   avec votre compte » sous Cours et Forum, lisibles sans compte ?
 - **En attente côté John** : rotation des secrets après l'audit du 02/10 :
   `SESSION_SECRET` changé sur main et dev le 08/10 ; mot de passe
-  Postgres changé le 09/10 ; reste `AUTOMATISATION_API_TOKEN` + N8N ;
+  Postgres et `AUTOMATISATION_API_TOKEN` (+ N8N) changés le 09/10 ;
   jeton Coolify « Claude Full » supprimé ; MCP Coolify rétabli le 09/10
   (nouveau jeton, `/mcp` > Reconnect dans chaque session) ; feu
   vert du lancement public (workflow N8N `MET_DEFI_DICO_HEBDO`) ; plan d'export

@@ -3134,4 +3134,6 @@ Recommandation : C, puis A. **Décision reportée à la prochaine session.**
 - Vérifié : `/`, `/sources`, `/jeu`, `/village/strasbourg-67482` en 200 sur
   main et dev, slug inconnu en 404 (lecture en base, pas 500). Sauvegarde
   manuelle Coolify réussie (constatée par John).
-- Reste : `AUTOMATISATION_API_TOKEN` + N8N ; port 5444 toujours ouvert.
+- `AUTOMATISATION_API_TOKEN` changé ensuite par John (main, dev, credential
+  N8N du même nom) ; faux jeton refusé en 401 sur les deux. Rotation des
+  secrets de l'audit terminée. Reste : port 5444 toujours public.

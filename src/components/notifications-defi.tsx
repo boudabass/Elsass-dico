@@ -89,14 +89,15 @@ export function useNotifications() {
         lire().catch(() => setEtat("indisponible"));
     }, [lire]);
 
-    const activer = useCallback(async () => {
-        if (!cle) return;
+    // Rend vrai si l'abonnement est pris : le tiroir passe alors à « C'est prêt ».
+    const activer = useCallback(async (): Promise<boolean> => {
+        if (!cle) return false;
         setOccupe(true);
         try {
             const permission = await Notification.requestPermission();
             if (permission !== "granted") {
                 setEtat(permission === "denied" ? "bloque" : "inactif");
-                return;
+                return false;
             }
             const enregistrement = await navigator.serviceWorker.register("/sw.js", { scope: "/" });
             await navigator.serviceWorker.ready;
@@ -106,12 +107,14 @@ export function useNotifications() {
             const r = await abonnerAction(abonnement.toJSON(), appareil());
             if (!r.succes) {
                 toast.error(r.erreur);
-                return;
+                return false;
             }
             setEtat("actif");
             toast.success("C'est fait. Le défi du jour arrivera chaque matin à 10 h.");
+            return true;
         } catch {
             toast.error("Le téléphone n'a pas accepté. Réessaie dans un moment.");
+            return false;
         } finally {
             setOccupe(false);
         }

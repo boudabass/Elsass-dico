@@ -55,8 +55,12 @@ function estTelephone(): boolean {
 export function TiroirAccueil() {
     const { session } = useAuth();
     const chemin = usePathname();
-    const [etape, setEtape] = useState<"installer" | "notifier" | null>(null);
+    const [etape, setEtape] = useState<"installer" | "notifier" | "fini" | null>(null);
+    // Installé depuis ce tiroir, à l'instant : le Dico tourne encore dans le
+    // navigateur, il faudra l'ouvrir depuis sa nouvelle icône.
     const [installeIci, setInstalleIci] = useState(false);
+    // Parti de l'installation : on numérote alors les deux étapes.
+    const [enDeuxTemps, setEnDeuxTemps] = useState(false);
     const notifications = useNotifications();
 
     const exclu = EXCLUS.some((p) => chemin.startsWith(p));
@@ -71,6 +75,7 @@ export function TiroirAccueil() {
         if (!estInstalle()) {
             if (force || !reporte(CLE_INSTALLER)) {
                 setEtape("installer");
+                setEnDeuxTemps(true);
                 ecrire(() => sessionStorage, CLE_VU, "1");
             }
             return;
@@ -86,80 +91,106 @@ export function TiroirAccueil() {
     if (!session) return null;
 
     const fermer = (plusTard: boolean) => {
-        if (plusTard && etape) ecrire(() => localStorage, etape === "installer" ? CLE_INSTALLER : CLE_NOTIFIER, String(Date.now()));
+        if (plusTard && (etape === "installer" || etape === "notifier"))
+            ecrire(() => localStorage, etape === "installer" ? CLE_INSTALLER : CLE_NOTIFIER, String(Date.now()));
         setEtape(null);
     };
 
-    const ouvert = etape !== null;
+    // Installé par le bouton : on enchaîne tout de suite sur les notifications,
+    // dans le même tiroir. Sur Android, l'abonnement pris dans le navigateur
+    // vaut aussi pour l'app installée (même site, même service worker).
+    const apresInstallation = () => {
+        setInstalleIci(true);
+        setEtape(notifications.etat === "inactif" ? "notifier" : "fini");
+    };
+
+    const activer = async () => {
+        if (await notifications.activer()) setEtape("fini");
+    };
+
+    const titre = "text-[22px] font-extrabold leading-tight text-foreground";
+    const texte = "mt-2 text-[15px] leading-[1.5] text-foreground";
 
     return (
-        <Drawer open={ouvert} onOpenChange={(o) => !o && fermer(true)} shouldScaleBackground={false}>
+        <Drawer open={etape !== null} onOpenChange={(o) => !o && fermer(true)} shouldScaleBackground={false}>
             <DrawerContent className="max-h-[92dvh]">
                 <div className="overflow-y-auto px-4 pb-[max(1.25rem,env(safe-area-inset-bottom))] pt-3">
+                    {enDeuxTemps && etape !== "fini" && (
+                        <p className="mb-1 text-sm font-semibold text-sens-texte">
+                            Étape {etape === "installer" ? 1 : 2} sur 2
+                        </p>
+                    )}
+
                     {etape === "installer" && (
                         <>
-                            <DrawerTitle className="text-[22px] font-extrabold leading-tight text-foreground">
-                                {installeIci ? "C'est installé" : "Mets le Dico sur ton téléphone"}
-                            </DrawerTitle>
-                            {installeIci ? (
-                                <DrawerDescription className="mt-2 text-[15px] leading-[1.5] text-foreground">
-                                    Ouvre le Dico depuis sa nouvelle icône, sur ton écran d&apos;accueil. Il te
-                                    proposera ensuite de recevoir le défi chaque matin.
-                                </DrawerDescription>
-                            ) : (
-                                <>
-                                    <DrawerDescription className="sr-only">
-                                        Ce que tu gagnes à installer le Dico, et comment faire.
-                                    </DrawerDescription>
-                                    <ul className="mt-4 space-y-3">
-                                        <Avantage icone={Smartphone}>
-                                            Il s&apos;ouvre d&apos;un seul appui, depuis ton écran d&apos;accueil, comme
-                                            une application.
-                                        </Avantage>
-                                        <Avantage icone={Bell}>
-                                            Le défi du jour arrive sur ton téléphone chaque matin à 10 h.
-                                        </Avantage>
-                                        <Avantage icone={Sparkles}>Tu es prévenu des nouveautés du Dico.</Avantage>
-                                    </ul>
-                                    <InstallerApp
-                                        className="mt-5"
-                                        invite="Choisis ton téléphone :"
-                                        onInstalle={() => setInstalleIci(true)}
-                                    />
-                                </>
-                            )}
+                            <DrawerTitle className={titre}>Mets le Dico sur ton téléphone</DrawerTitle>
+                            <DrawerDescription className="sr-only">
+                                Ce que tu gagnes à installer le Dico, et comment faire.
+                            </DrawerDescription>
+                            <ul className="mt-4 space-y-3">
+                                <Avantage icone={Smartphone}>
+                                    Il s&apos;ouvre d&apos;un seul appui, depuis ton écran d&apos;accueil, comme une
+                                    application.
+                                </Avantage>
+                                <Avantage icone={Bell}>
+                                    Le défi du jour arrive sur ton téléphone chaque matin à 10 h.
+                                </Avantage>
+                                <Avantage icone={Sparkles}>Tu es prévenu des nouveautés du Dico.</Avantage>
+                            </ul>
+                            <InstallerApp
+                                className="mt-5"
+                                invite="Choisis ton téléphone :"
+                                onInstalle={apresInstallation}
+                            />
                         </>
                     )}
 
                     {etape === "notifier" && (
                         <>
-                            <DrawerTitle className="text-[22px] font-extrabold leading-tight text-foreground">
-                                Recevoir le défi chaque matin
+                            <DrawerTitle className={titre}>
+                                {installeIci ? "C'est installé. Reçois le défi chaque matin" : "Recevoir le défi chaque matin"}
                             </DrawerTitle>
-                            <DrawerDescription className="mt-2 text-[15px] leading-[1.5] text-foreground">
+                            <DrawerDescription className={texte}>
                                 Une notification à 10 h, une fois par jour. Rien si tu as déjà joué. Tu
                                 l&apos;arrêtes quand tu veux dans «&nbsp;Mon espace&nbsp;».
                             </DrawerDescription>
+                            <p className={texte}>
+                                Appuie sur «&nbsp;Activer&nbsp;», puis sur «&nbsp;Autoriser&nbsp;».
+                            </p>
                             <button
                                 type="button"
                                 disabled={notifications.occupe}
-                                onClick={async () => {
-                                    await notifications.activer();
-                                    setEtape(null);
-                                }}
+                                onClick={activer}
                                 className="mt-5 flex h-14 w-full items-center justify-center rounded-lg bg-sens-500 px-5 text-[17px] font-semibold text-white transition-colors hover:bg-sens-600 disabled:opacity-60"
                             >
                                 Activer
                             </button>
+                            {notifications.etat === "bloque" && (
+                                <p className="mt-3 text-sm leading-[1.5] text-muted-foreground">
+                                    Le téléphone a bloqué les notifications pour ce site. Tu peux les autoriser dans
+                                    les réglages du navigateur, rubrique «&nbsp;Notifications&nbsp;».
+                                </p>
+                            )}
+                        </>
+                    )}
+
+                    {etape === "fini" && (
+                        <>
+                            <DrawerTitle className={titre}>C&apos;est prêt</DrawerTitle>
+                            <DrawerDescription className={texte}>
+                                {installeIci
+                                    ? "Ferme cette page et ouvre le Dico depuis sa nouvelle icône, sur ton écran d'accueil. Le prochain défi arrive à 10 h."
+                                    : "Le prochain défi arrive sur ton téléphone à 10 h."}
+                            </DrawerDescription>
                         </>
                     )}
 
                     <button
                         type="button"
-                        onClick={() => fermer(!installeIci)}
+                        onClick={() => fermer(etape !== "fini")}
                         className="mt-2 flex h-12 w-full items-center justify-center text-[15px] font-semibold text-muted-foreground"
                     >
-                        {installeIci ? "Fermer" : "Plus tard"}
+                        {etape === "fini" ? "Fermer" : "Plus tard"}
                     </button>
                 </div>
             </DrawerContent>

@@ -3157,3 +3157,26 @@ Recommandation : C, puis A. **Décision reportée à la prochaine session.**
   aucune ressource extérieure.
 - En production par la PR #96 (merge). Vérifié sur main par la nav : accueil,
   jeu (défi lancé), zéro blocage.
+
+### Export automatique des contributions (09/10/2026)
+
+Plan du 28/09, devenu urgent avec la fermeture du port 5444 (le script
+d'export demande maintenant d'ouvrir la base).
+
+- **Route** `GET /api/automatisation/contributions` (`0858fa7`) : rend le
+  contenu exact de `data/contributions/journal.jsonl`, même jeton que la
+  route du défi. Requête et format sortis du script vers
+  `src/lib/journal-contributions.ts` (le script et la route les partagent,
+  `scripts/lib/journal.mts` devient un relais) ; garde du jeton mise en commun
+  dans `src/lib/automatisation-serveur.ts`.
+- **Workflow N8N** `OP_EXPORT_CONTRIBUTIONS_DICO` (`O2DJ7R3WMhTtGMi8`),
+  inactif : chaque nuit à 4 h, lit la route sur main, lit le fichier sur `dev`
+  par l'API GitHub, ne commite que s'il a changé. **Refuse d'écrire si la base
+  a moins de lignes que le fichier** (le journal est en ajout seul : une base
+  vide ou en reconstruction n'écrasera jamais le dépôt). Toute erreur part au
+  workflow d'alerte habituel (`5VIeHpxV1Ve1QwY0`).
+- **À faire par John** : credential GitHub (jeton à granularité fine, dépôt
+  `Elsass-dico` seul, droit Contents en écriture) nommé « GitHub Elsass-dico
+  (contenu) » ; vérifier que les nœuds ont leurs credentials ; watch paths
+  Coolify de `elsass-dico:dev` (`**` puis `!data/contributions/**`, la
+  dernière règle gagne) ; activer.

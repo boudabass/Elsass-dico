@@ -133,7 +133,8 @@ VPS partagé ; `dev` et `main` **partagent la même base**.
 
 - Travail sur `dev`, PR `dev` → `main` **par commit de merge** (pas de squash).
 - Clôture de session : relancer `scripts/exporter-contributions.mts` s'il y a eu
-  des votes ou des formes, mettre à jour `documentation/23-JOURNAL.md`, Odoo 883
+  des votes ou des formes (tant que le workflow N8N
+  `OP_EXPORT_CONTRIBUTIONS_DICO` n'est pas actif), mettre à jour `documentation/23-JOURNAL.md`, Odoo 883
   si un jalon bouge. **Ce fichier-ci ne reçoit que ce qui change une règle, un
   piège ou l'état ci-dessous** : le récit va dans le journal.
 - Premier admin : `scripts/promouvoir-admin.mts` ; suppression d'un membre :

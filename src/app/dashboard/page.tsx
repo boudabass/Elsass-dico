@@ -8,6 +8,7 @@ import { monEspaceAction, type MonEspace } from "@/app/actions/membres";
 import { AppHeader } from "@/components/app-header";
 import { useAuth } from "@/components/auth-provider";
 import { ListSkeleton } from "@/components/ui/list-skeleton";
+import { CarteInstallation } from "@/components/installer-app";
 import { ReglageNotifications } from "@/components/notifications-defi";
 import { useListeMemorisee } from "@/hooks/use-liste-memorisee";
 import { cleCache } from "@/lib/cache-navigation";
@@ -114,6 +115,7 @@ export default function MonEspacePage() {
                         )}
 
                         {!chargement && !parcours && <ReglageNotifications className="mt-[18px]" />}
+                        {!chargement && !parcours && <CarteInstallation className="mt-[18px]" />}
 
                         {!chargement && !parcours && (
                             <div className="mt-[18px] rounded-lg border border-border bg-card p-4">

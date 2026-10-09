@@ -11,6 +11,7 @@ import {
     essaiAction,
     estAbonneAction,
 } from "@/app/actions/notifications";
+import { estInstalle, InstallerApp } from "@/components/installer-app";
 import { Switch } from "@/components/ui/switch";
 import { cn } from "@/lib/utils";
 
@@ -36,13 +37,6 @@ function estIphone(): boolean {
     return (
         /iPhone|iPad|iPod/.test(navigator.userAgent) ||
         (navigator.platform === "MacIntel" && navigator.maxTouchPoints > 1)
-    );
-}
-
-function estInstalle(): boolean {
-    return (
-        window.matchMedia("(display-mode: standalone)").matches ||
-        (navigator as Navigator & { standalone?: boolean }).standalone === true
     );
 }
 
@@ -302,14 +296,12 @@ export function ReglageNotifications({ className }: { className?: string }) {
 
 function AideIphone() {
     return (
-        <div className="mt-1 max-w-[56ch] text-[15px] leading-[1.5] text-foreground">
-            <p>Sur iPhone, il faut d&apos;abord mettre le Dico sur ton écran d&apos;accueil :</p>
-            <ol className="mt-2 list-decimal space-y-1 pl-5">
-                <li>Ouvre ce site dans Safari.</li>
-                <li>Appuie sur le bouton Partager (le carré avec une flèche vers le haut).</li>
-                <li>Choisis «&nbsp;Sur l&apos;écran d&apos;accueil&nbsp;».</li>
-                <li>Ouvre le Dico depuis sa nouvelle icône, puis reviens ici.</li>
-            </ol>
+        <div className="mt-1">
+            <p className="max-w-[56ch] text-[15px] leading-[1.5] text-foreground">
+                Sur iPhone, il faut d&apos;abord mettre le Dico sur ton écran d&apos;accueil, puis
+                l&apos;ouvrir depuis sa nouvelle icône.
+            </p>
+            <InstallerApp className="mt-3" />
         </div>
     );
 }

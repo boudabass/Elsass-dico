@@ -59,6 +59,10 @@ function politique(nonce: string): string {
         `script-src 'self' 'nonce-${nonce}' 'strict-dynamic'${dev ? " 'unsafe-eval'" : ""}`,
         "style-src 'self' 'unsafe-inline'",
         "img-src 'self' blob: data:",
+        // Le service worker des notifications (09/10/2026). Explicite parce que
+        // `'strict-dynamic'` annule `'self'` dans `script-src`, sur lequel
+        // `worker-src` retomberait : l'enregistrement de /sw.js serait bloqué.
+        "worker-src 'self'",
         "font-src 'self'",
         "object-src 'none'",
         "base-uri 'self'",
@@ -132,7 +136,8 @@ export const config = {
         // fichier statique de `public/` : le passer au middleware le rendrait
         // inaccessible sans cookie, et la carte serait vide. `webmanifest`
         // pour la même raison : le téléphone le lit sans cookie, et sans lui
-        // l'app installée n'a pas d'icône.
-        "/((?!_next/static|_next/image|favicon.ico|.*\\.(?:svg|png|jpg|jpeg|gif|webp|ico|topojson|json|txt|xml|webmanifest)$).*)",
+        // l'app installée n'a pas d'icône. `sw.js` (et lui seul, pas tous les
+        // `.js`) : le téléphone relit le service worker sans cookie.
+        "/((?!_next/static|_next/image|favicon.ico|sw\\.js$|.*\\.(?:svg|png|jpg|jpeg|gif|webp|ico|topojson|json|txt|xml|webmanifest)$).*)",
     ],
 }

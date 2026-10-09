@@ -341,8 +341,34 @@ model Membre {
   lemmes       Lemme[]      @relation("LemmesCrees")
   signalements Signalement[]
   parties      PartieJeu[]
+  abonnements  AbonnementPush[]
 
   @@map("membres")
+}
+
+// Notifications du défi du jour (Odoo 930, 09/10/2026) : un abonnement par
+// téléphone ou navigateur, toujours lié à un membre (pas d'invités en v1).
+//
+//   * CASCADE : supprimer un membre supprime ses abonnements, rien d'autre
+//     n'y renvoie.
+//   * `endpoint` est la clé : un même navigateur qui se réabonne sous un autre
+//     compte change de membre au lieu de doubler la ligne.
+//   * `dernierDefi` est le jour (Paris) du dernier défi annoncé : c'est lui qui
+//     empêche un double déclenchement de N8N d'envoyer deux fois.
+//   * dev et main partagent la base, donc cette table : une seule paire VAPID
+//     pour les deux, et N8N n'appelle que main.
+model AbonnementPush {
+  endpoint    String    @id
+  p256dh      String
+  auth        String
+  membreId    String    @map("membre_id")
+  membre      Membre    @relation(fields: [membreId], references: [id], onDelete: Cascade)
+  appareil    String?
+  creeLe      DateTime  @default(now()) @map("cree_le")
+  dernierDefi DateTime? @db.Date @map("dernier_defi")
+
+  @@index([membreId])
+  @@map("abonnements_push")
 }
 
 model Signalement {

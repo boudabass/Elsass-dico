@@ -94,6 +94,18 @@ export default async function PageSources() {
                 </ul>
             </section>
 
+            {/* Odoo 930 : la seule exception à « aucun service extérieur », dite
+                là où le site dit déjà d'où viennent ses données. */}
+            <section className="space-y-3">
+                <h2 className="text-base font-medium">Notifications du défi du jour</h2>
+                <p className="rounded-lg border p-3 text-sm text-muted-foreground">
+                    Si tu les actives, on garde seulement l&apos;adresse technique de ton téléphone,
+                    pour t&apos;envoyer le défi à 10 h. L&apos;envoi passe par Google (Android) ou
+                    Apple (iPhone), seul service extérieur du Dico. Tu les coupes dans «&nbsp;Mon
+                    espace&nbsp;» ; supprimer ton compte efface aussi cette adresse.
+                </p>
+            </section>
+
         </FichePublique>
     )
 }

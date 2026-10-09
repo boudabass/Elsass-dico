@@ -8,6 +8,7 @@ import { monEspaceAction, type MonEspace } from "@/app/actions/membres";
 import { AppHeader } from "@/components/app-header";
 import { useAuth } from "@/components/auth-provider";
 import { ListSkeleton } from "@/components/ui/list-skeleton";
+import { ReglageNotifications } from "@/components/notifications-defi";
 import { useListeMemorisee } from "@/hooks/use-liste-memorisee";
 import { cleCache } from "@/lib/cache-navigation";
 import { PremiersPas } from "./premiers-pas";
@@ -111,6 +112,8 @@ export default function MonEspacePage() {
                                 <ArrowRight className="h-4 w-4 shrink-0 text-sens-texte" strokeWidth={2.4} aria-hidden />
                             </Link>
                         )}
+
+                        {!chargement && !parcours && <ReglageNotifications className="mt-[18px]" />}
 
                         {!chargement && !parcours && (
                             <div className="mt-[18px] rounded-lg border border-border bg-card p-4">

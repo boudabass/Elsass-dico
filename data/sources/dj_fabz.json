@@ -1,0 +1,21 @@
+{
+  "code": "dj_fabz",
+  "nom": "Insultes alsaciennes (page de DJ Fab'z, dj.fabz.free.fr)",
+  "url": "http://www.dj.fabz.free.fr/insultes.htm",
+  "type": "site",
+  "annee": null,
+  "licence": "non précisée, site personnel",
+  "fiabilite": 4,
+  "notes": "Page personnelle de DJ Fab'z. Aucun auteur nommé, aucune provenance indiquée. La page elle-même ne porte aucune date : « dernière mise à jour 2005 » est une indication reçue, non vérifiable sur le brut, et n'est donc pas reprise dans annee.\n\nDécision de John du 09/10/2026 : les entrées sont intégrées comme culture_alsace, traitées à l'identique, sans correction. Aucune entrée n'est inventée ni corrigée (règle 1).\n\nCertaines entrées sont des blagues manifestes (sens fantaisistes, graphies de potache) : elles sont gardées verbatim, sans tri. Le badge de fiabilité et la règle 2 font le reste.\n\nFiabilité 4 : l'échelle va de 1 (la plus fiable : martin_lienhart, runneburger_benfeld, ouvrages de référence) à 3 (culture_alsace, site personnel). Cette page anonyme, sans provenance, est en dessous.\n\n874 entrées dans la page (26 en-têtes de lettres exclus). 863 lignes dans le JSONL : 11 lignes sans sens ni mot à mot sont omises, leur liste figure dans le rapport du parseur.",
+  "rubriques": [
+    {
+      "cle": "insultes",
+      "libelle": "Liste d'insultes alsaciennes, lettres A à Z",
+      "statut": "extrait",
+      "type_terme": "mot, expression",
+      "volumetrie": 874,
+      "emplacement": "data/raw/dj_fabz/insultes.htm",
+      "notes": "Tableau à trois colonnes : forme alsacienne, mot à mot, sens (souvent vide). Parseur scripts/extract/dj_fabz/insultes.py, qui produit data/attestations/dj_fabz__insultes.jsonl : 863 lignes. Contexte « insulte » pour toutes les lignes, pour séparer « âne (insulte) » de l'animal."
+    }
+  ]
+}

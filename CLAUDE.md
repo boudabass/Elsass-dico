@@ -158,7 +158,8 @@ VPS partagé ; `dev` et `main` **partagent la même base**.
   `SESSION_SECRET` changé sur main et dev le 08/10 ; restent le mot de passe
   Postgres (Coolify affiche des avertissements sur son remplacement : rapport
   demandé à la session Opérateur le 09/10) et `AUTOMATISATION_API_TOKEN` + N8N ;
-  jeton Coolify « Claude Full » supprimé, MCP Coolify de nouveau fonctionnel ; feu
+  jeton Coolify « Claude Full » supprimé ; MCP Coolify rétabli selon John, mais
+  les sessions Claude du 09/10 reçoivent encore un 401 (relancer la session) ; feu
   vert du lancement public (workflow N8N `MET_DEFI_DICO_HEBDO`) ; plan d'export
   automatique des contributions (route + N8N + `watch_paths` Coolify, cf.
   journal du 28/09).

@@ -57,14 +57,24 @@ export function CarteInstallation({ className }: { className?: string }) {
         <div className={cn("rounded-lg border border-border bg-card p-4", className)}>
             <p className="text-[15px] font-bold text-foreground">Le Dico sur ton écran d&apos;accueil</p>
             <p className="mt-1.5 text-sm leading-[1.5] text-muted-foreground">
-                Une icône sur ton téléphone, comme une application. Choisis ton téléphone :
+                Une icône sur ton téléphone, comme une application.
             </p>
-            <InstallerApp className="mt-3" />
+            <InstallerApp className="mt-3" invite="Choisis ton téléphone :" />
         </div>
     );
 }
 
-export function InstallerApp({ className, onInstalle }: { className?: string; onInstalle?: () => void }) {
+/** `invite` ne s'affiche qu'au-dessus des deux boutons : devant le seul
+ *  bouton « Installer », « choisis ton téléphone » n'aurait pas de sens. */
+export function InstallerApp({
+    className,
+    onInstalle,
+    invite,
+}: {
+    className?: string;
+    onInstalle?: () => void;
+    invite?: string;
+}) {
     const [pret, setPret] = useState(false);
     const [installe, setInstalle] = useState(true);
     const [, forcer] = useState(0);
@@ -105,6 +115,9 @@ export function InstallerApp({ className, onInstalle }: { className?: string; on
                 </button>
             ) : (
                 <>
+                    {invite && (
+                        <p className="col-span-2 text-sm font-semibold text-muted-foreground">{invite}</p>
+                    )}
                     <MarcheASuivre systeme="Android" etapes={ETAPES_ANDROID} />
                     <MarcheASuivre systeme="iPhone" etapes={ETAPES_IPHONE} />
                 </>

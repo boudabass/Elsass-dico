@@ -121,10 +121,11 @@ export function TiroirAccueil() {
                                         </Avantage>
                                         <Avantage icone={Sparkles}>Tu es prévenu des nouveautés du Dico.</Avantage>
                                     </ul>
-                                    <p className="mt-5 text-sm font-semibold text-muted-foreground">
-                                        Choisis ton téléphone :
-                                    </p>
-                                    <InstallerApp className="mt-2" onInstalle={() => setInstalleIci(true)} />
+                                    <InstallerApp
+                                        className="mt-5"
+                                        invite="Choisis ton téléphone :"
+                                        onInstalle={() => setInstalleIci(true)}
+                                    />
                                 </>
                             )}
                         </>

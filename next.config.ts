@@ -46,9 +46,9 @@ const nextConfig: NextConfig = {
   },
   // En-têtes de sécurité (audit du 02/10/2026). `X-Frame-Options: SAMEORIGIN` et
   // non DENY : nos propres tests mobile chargent l'app dans une iframe de la même
-  // origine. Pas de CSP complète : elle demanderait des nonces pour les scripts
-  // inline de Next, hors de ce chantier ; `frame-ancestors 'self'` en tient lieu
-  // pour l'affichage dans un cadre. `geolocation=()` : le village se choisit,
+  // origine. La CSP complète, avec nonce, est posée par le middleware (09/10/2026) ;
+  // `frame-ancestors 'self'` reste ici pour les fichiers que le middleware ne
+  // voit pas (images, manifeste). `geolocation=()` : le village se choisit,
   // il ne se détecte jamais.
   async headers() {
     return [

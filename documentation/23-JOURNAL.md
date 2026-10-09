@@ -3060,3 +3060,98 @@ octets avant de signaler un caractère cassé.
 - **Proxy `/api/proxy/*` du gabarit retiré** (`3afab26`), aucun usage dans le dépôt. `EXTERNAL_API_URL` dans Coolify : non vérifiable par le MCP, à regarder par John.
 - **Limite de tentatives** (`8b1e463`) : en mémoire du process (`src/lib/limite-tentatives-serveur.ts`), remise à zéro à chaque déploiement, accepté. Connexion : **5 échecs par email, 20 par IP, sur 15 min**, vérifiés avant tout appel à Odoo ; seuls les refus comptent. **`lib/odoo.ts` distingue désormais un refus (`null`) d'une panne (`ErreurOdoo`)** : une panne d'Odoo affiche « Connexion impossible, réessaie dans un instant » au lieu de « mot de passe incorrect ». IP : `x-real-ip`, sinon la valeur la plus à droite de `x-forwarded-for`. **IP inconnue : pas de limite par IP** (sinon une clé partagée par tous les membres). Signalements : 10 par membre et par heure. Testé : limiteur seul (11 vérifications, hors dépôt) ; un refus réel sur dev avec un compte inexistant affiche bien « Adresse email ou mot de passe incorrect ». **Non constaté** : que le proxy pose `x-real-ip`.
 - Export des contributions non relancé : aucun vote ni forme.
+- PR #95 mergée, vérifiée en production (en-têtes par curl).
+- John a changé `SESSION_SECRET` (main et dev) et révoqué « Claude Full » ; le MCP Coolify utilisait ce jeton, il est coupé jusqu'à un nouveau jeton en lecture seule.
+
+### Liste d'insultes de dj.fabz.free.fr : en attente (08/10/2026)
+
+John propose d'importer http://www.dj.fabz.free.fr/insultes.htm. La page compte
+848 entrées en trois colonnes : l'alsacien, une traduction mot à mot et parfois
+le sens. C'est la page perso de « DJ Fab'z » sur free.fr (dernière mise à jour
+en 2005), sans auteur nommé, sans provenance, sans licence et sans village.
+Quelques ajouts récents sont visiblement des blagues (« deux chvaux frotz »).
+
+On n'importe pas telle quelle. Un badge « 1 source » ferait passer la page pour
+une source écrite (règle 2). La reprise en bloc d'une compilation sans accord
+ne respecte pas la règle des licences. Et les sens ne peuvent pas être écrits
+par un LLM. Trois voies ont été proposées : A, retrouver le livre d'origine
+(piste : un dictionnaire alsacien-français des jurons) ; B, écrire à l'auteur ;
+C, s'en servir sans rien publier pour croiser avec les lemmes existants et
+viser les entrées qu'une source reconnue ou un locuteur confirme.
+Recommandation : C, puis A. **Décision reportée à la prochaine session.**
+
+### Liste d'insultes de dj.fabz.free.fr : intégrée (09/10/2026)
+
+- **Croisement d'abord (voie C)**, en lecture seule : la page compte 874
+  entrées (pas 848). Environ 7 seulement existaient déjà en base (bleed, essel,
+  klowe, lüsbüe, simbel, vüjel, wäckes), environ 39 sont des graphies voisines
+  et environ 828 sont absentes. Piège : `cleDeForme` tient compte des
+  majuscules (la base écrit « Lüsbüe », la liste « lüsbüe »).
+- **Piste du livre d'origine (voie A)** : *Le petit dictionnaire des injures
+  alsaciennes*, Raymond Matzen (Le Verger, 13e éd. 2010, ISBN
+  978-2-84574-089-1). Que la page le recopie n'est pas prouvé. Martin &
+  Lienhart (déjà source, 5 toponymes) : sens en allemand, couche numérique de
+  Trèves toujours sans licence (dépôt CLARIN.SI 11356/1642 : ni licence ni
+  fichier).
+- **Décision de John** : on intègre, sans démarche d'autorisation, « peu
+  importe le nombre de sources ». La page devient la source `dj_fabz`,
+  traitée comme `culture_alsace` (site perso sans licence) : brut versionné,
+  parseur rejouable `scripts/extract/dj_fabz/insultes.py`, formes verbatim,
+  crédit sur `/sources`, badge 1 source. `francais` = le sens de la page,
+  sinon son mot à mot ; `contexte` = « insulte » ; fiabilité 4 (l'échelle va
+  de 1, ouvrage de référence, à 3, `culture_alsace`). 11 lignes sans aucun
+  français omises. Résultat : 863 attestations, 668 fiches.
+- **Fiches en double corrigées** : typé d'abord par l'alsacien (espace =
+  expression), « alcoolique (insulte) » donnait deux fiches, puisque le type
+  entre dans la clé du lemme. Typé désormais par le français (`28094fb` sur
+  `data`). La base a été nettoyée par un script jetable lancé par John
+  (garde-fous : aucun vote, signalement ni contribution de membre sur ces
+  formes ; retrait des seules données `dj_fabz`), puis importer + deriver.
+  Base : 26 526 lemmes, 42 510 variantes. Vérifié à l'écran : une seule
+  fiche « alcoolique (insulte) », 17 formes, « Écrit dans : Insultes
+  alsaciennes (page de DJ Fab'z…) » ; `/sources` affiche 863 entrées sur main
+  et dev.
+- **Commit sur `data` depuis Windows** : la branche contient un nom de fichier
+  avec « ? », invalide sur NTFS. Ni checkout, ni reset, ni index possibles.
+  Les commits `fbddb54` et `28094fb` ont été construits par plumbing
+  (`hash-object`, `mktree`, `commit-tree`, `update-ref`), sans index ni
+  disque, et sans désactiver `core.protectNTFS`.
+- L'écriture en base de production est refusée à Claude par le garde-fou
+  automatique : c'est John qui lance `importer-data.mts` / `deriver.mts`.
+
+### Mot de passe Postgres changé (09/10/2026)
+
+- Avertissement Coolify : la case mot de passe de la ressource Postgres ne
+  change pas le rôle en base ; elle sert aux automatisations (sauvegardes) et
+  doit être resynchronisée à la main après tout changement en base.
+- `\password` dans le terminal web Coolify : impossible de coller, abandonné
+  sans effet (vérifié : ancien mot de passe toujours valide).
+- Méthode retenue : script jetable lancé par John depuis son PC via le port
+  5444 (`ALTER ROLE`, vérification avec le nouveau mot de passe, réécriture de
+  `.env.local`, copie dans le presse-papiers, jamais affiché). Puis John a
+  collé le mot de passe dans Coolify (ressource Postgres, `DATABASE_URL`
+  runtime + build sur dev et main) et redéployé.
+- Vérifié : `/`, `/sources`, `/jeu`, `/village/strasbourg-67482` en 200 sur
+  main et dev, slug inconnu en 404 (lecture en base, pas 500). Sauvegarde
+  manuelle Coolify réussie (constatée par John).
+- `AUTOMATISATION_API_TOKEN` changé ensuite par John (main, dev, credential
+  N8N du même nom) ; faux jeton refusé en 401 sur les deux. Rotation des
+  secrets de l'audit terminée. Reste : port 5444 toujours public.
+
+### CSP complète avec nonce (09/10/2026)
+
+- Dernier point de l'audit du 02/10. Le middleware pose à chaque page une CSP
+  avec un nonce neuf (`3ea953b`) : `script-src 'self' 'nonce-…'
+  'strict-dynamic'`, rien d'extérieur (aucun service extérieur, doctrine),
+  `style-src 'unsafe-inline'` (Leaflet, sonner, attributs `style`),
+  `frame-ancestors 'self'` (tests en iframe), `form-action 'self'`
+  (l'authentification Odoo se fait côté serveur), `object-src 'none'`.
+- Possible sans coût parce que toutes les pages sont déjà rendues à la
+  demande (`Cache-Control: no-store` partout, y compris `/village`) : le
+  `generateStaticParams` ne produit aucune page servie telle quelle. Si une
+  page devenait statique un jour, elle perdrait son JavaScript.
+- Chrome n'atteint pas le serveur local (`pnpm dev`) : testé sur dev.
+  Vérifié par la nav, avec écoute de `securitypolicyviolation` : accueil,
+  jeu (défi lancé), fiche village, tableau de bord, carte Leaflet,
+  recherche, fiche, inverseur de sens, dictionnaire, admin. Zéro blocage,
+  aucune ressource extérieure.

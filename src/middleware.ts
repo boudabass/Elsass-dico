@@ -42,6 +42,41 @@ const PUBLIC = [
 // jouerait en invité sans le savoir, et perdrait sa série.
 const COMPTE_FACULTATIF = ["/jeu"]
 
+// Politique de sécurité du contenu (09/10/2026, dernier point de l'audit du
+// 02/10). Un nonce neuf par requête : Next le lit dans l'en-tête de la REQUÊTE
+// et le pose lui-même sur ses scripts. Ça n'est possible que parce que toutes
+// les pages sont déjà rendues à la demande (le layout lit les cookies) : une
+// page statique n'aurait pas de nonce et ne chargerait plus son JavaScript.
+// `style-src 'unsafe-inline'` : Leaflet, sonner et les attributs `style` de
+// React écrivent des styles en ligne, qu'un nonce ne couvre pas. Rien
+// d'extérieur n'est autorisé, conformément à la doctrine : aucun service
+// extérieur à l'exécution. `frame-ancestors 'self'` et non 'none' : nos tests
+// mobile chargent l'app dans une iframe de la même origine.
+function politique(nonce: string): string {
+    const dev = process.env.NODE_ENV === "development"
+    return [
+        "default-src 'self'",
+        `script-src 'self' 'nonce-${nonce}' 'strict-dynamic'${dev ? " 'unsafe-eval'" : ""}`,
+        "style-src 'self' 'unsafe-inline'",
+        "img-src 'self' blob: data:",
+        "font-src 'self'",
+        "object-src 'none'",
+        "base-uri 'self'",
+        "form-action 'self'",
+        "frame-ancestors 'self'",
+        "upgrade-insecure-requests",
+    ].join("; ")
+}
+
+function suite(request: NextRequest): NextResponse {
+    const csp = politique(btoa(crypto.randomUUID()))
+    const entetes = new Headers(request.headers)
+    entetes.set("Content-Security-Policy", csp)
+    const reponse = NextResponse.next({ request: { headers: entetes } })
+    reponse.headers.set("Content-Security-Policy", csp)
+    return reponse
+}
+
 function estCompteFacultatif(chemin: string): boolean {
     return COMPTE_FACULTATIF.some((prefixe) => chemin === prefixe || chemin.startsWith(`${prefixe}/`))
 }
@@ -59,7 +94,7 @@ function estPublic(chemin: string): boolean {
 export async function middleware(request: NextRequest) {
     const chemin = request.nextUrl.pathname
 
-    if (estPublic(chemin)) return NextResponse.next()
+    if (estPublic(chemin)) return suite(request)
 
     const session = await lireSession(request.cookies.get(COOKIE_SESSION)?.value)
 
@@ -73,13 +108,13 @@ export async function middleware(request: NextRequest) {
         // détour : un 307 garde la méthode POST, et la route de
         // renouvellement, en GET, répondait 405 (07/10/2026). L'action
         // renouvelle elle-même par `sessionActuelle()`, et se garde elle-même.
-        if (membreId && request.headers.has("next-action")) return NextResponse.next()
+        if (membreId && request.headers.has("next-action")) return suite(request)
         if (membreId) {
             const vers = new URL("/api/session/refresh", request.url)
             vers.searchParams.set("suite", chemin + request.nextUrl.search)
             return NextResponse.redirect(vers)
         }
-        if (estCompteFacultatif(chemin)) return NextResponse.next()
+        if (estCompteFacultatif(chemin)) return suite(request)
         return NextResponse.redirect(new URL("/login", request.url))
     }
 
@@ -87,7 +122,7 @@ export async function middleware(request: NextRequest) {
         return NextResponse.redirect(new URL("/dashboard", request.url))
     }
 
-    return NextResponse.next()
+    return suite(request)
 }
 
 export const config = {

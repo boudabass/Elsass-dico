@@ -119,6 +119,8 @@ VPS partagé ; `dev` et `main` **partagent la même base**.
 - Déploiement : attendre que `updated_at` Coolify avance **et** que le code
   servi contienne le changement, avant toute capture.
 - **Vérifier à l'écran en passant par la nav**, pas seulement par l'URL.
+- Chrome piloté n'atteint pas `pnpm dev` en local (ses requêtes n'arrivent
+  pas au serveur) : tester sur dev.
 - Chrome piloté : l'onglet est caché (`visibilityState: hidden`) → faire une
   capture avant de conclure qu'un écran ne charge pas ; les animations de sortie
   Radix ne finissent pas (lire `data-state`, pas la présence) ; `resize_window`
@@ -145,36 +147,32 @@ VPS partagé ; `dev` et `main` **partagent la même base**.
 
 - Toutes les étapes de la refonte sont faites (dérivation, session, fiches
   publiques, admin, carte, contribution, jeu, deux sens).
-- **`main` et `dev` alignés par la PR #95** (08/10) : les quatre failles de
-  l'audit du 02/10. Avant, PR #94 : textes de l'app corrigés après inventaire,
-  retour de la carte vers la fiche.
-- **À constater par John** : plus de 404 à la réouverture de l'app après
-  30 min (cause non établie : session expirée ou version déployée depuis ;
-  capture demandée si ça revient). Partage par lien sur téléphone : confirmé
-  le 09/10. Le compte Odoo `theelsassisch+test@gmail.com` est **gardé**
-  (décision de John, ne plus proposer de le supprimer).
+- **En production** : PR #96 (CSP complète avec nonce) et PR #97 (route
+  d'export des contributions), 09/10. `dev` n'a en plus que de la doc et le
+  journal exporté.
+- **Sécurité : audit du 02/10 entièrement soldé.** Quatre failles (PR #95),
+  secrets changés (`SESSION_SECRET` le 08/10 ; mot de passe Postgres,
+  `AUTOMATISATION_API_TOKEN` + N8N, jeton Coolify le 09/10), port 5444 fermé,
+  CSP avec nonce. Toutes les pages sont rendues à la demande : une page
+  rendue statique perdrait son JavaScript.
+- **Export des contributions automatique** : workflow N8N
+  `OP_EXPORT_CONTRIBUTIONS_DICO` actif (4 h), watch paths Coolify de dev
+  `**` + `!data/contributions/**`. Premier passage le 09/10 : 8 événements.
 - Base : ~26 526 lemmes, 42 510 variantes (dont 863 insultes de la source
-  `dj_fabz`, intégrées le 09/10), 2 membres, quelques témoignages
-  parlés.
+  `dj_fabz`, intégrées le 09/10), 2 membres, 8 événements de contribution.
+- **À constater par John** : plus de 404 à la réouverture de l'app après
+  30 min (cause non établie ; capture demandée si ça revient) ; qu'aucun
+  déploiement de dev ne suit un commit `data:` de N8N. Le compte Odoo
+  `theelsassisch+test@gmail.com` est **gardé** (ne plus proposer de le
+  supprimer). Partage par lien sur téléphone : confirmé le 09/10.
+- **En attente côté John** : feu vert du lancement public (workflow N8N
+  `MET_DEFI_DICO_HEBDO`).
+- **`/application`** (site Odoo) : la carte Elsass Dico mène à
+  `elsass-dico.theelsassisch.com/login`. Restent les boutons d'Elsass Chat
+  (« Chercher un mot ») et de « Vos idées » (« Se connecter pour jouer »), et
+  « Connectez-vous avec votre compte » sous Cours et Forum.
 - **Prochaine session** : rien d'imposé. Les sources faibles s'intègrent
   comme `culture_alsace` (décision de John du 09/10), sans démarche préalable.
-- **`/application`** (site Odoo, publiée et réécrite par John le 08/10) : la
-  carte Elsass Dico mène à `elsass-dico.theelsassisch.com/login`, plus aucun
-  lien `-dev`. Restent les boutons d'Elsass Chat (« Chercher un mot ») et de
-  « Vos idées » (« Se connecter pour jouer »), et la question de « Connectez-vous
-  avec votre compte » sous Cours et Forum, lisibles sans compte ?
-- **En attente côté John** : rotation des secrets après l'audit du 02/10 :
-  `SESSION_SECRET` changé sur main et dev le 08/10 ; mot de passe
-  Postgres et `AUTOMATISATION_API_TOKEN` (+ N8N) changés le 09/10 ;
-  jeton Coolify « Claude Full » supprimé ; MCP Coolify rétabli le 09/10
-  (nouveau jeton, `/mcp` > Reconnect dans chaque session) ; feu
-  vert du lancement public (workflow N8N `MET_DEFI_DICO_HEBDO`) ; plan d'export
-  automatique des contributions (route + N8N + `watch_paths` Coolify, cf.
-  journal du 28/09).
-- **Sécurité** : les quatre failles de l'audit du 02/10 sont corrigées
-  et en production (PR #95, 08/10) ; CSP complète avec nonce posée par le
-  middleware, en production (PR #96, 09/10) (toutes les pages sont rendues à la demande : une page
-  rendue statique perdrait son JavaScript).
 - **Ouvert, plus long terme** : faire venir des locuteurs, mesure de
   convergence, aire du 57, attribution de la police Azimut (John), seuil
   « proche » de la contribution (≤ 2 lettres et ≤ 25 %).

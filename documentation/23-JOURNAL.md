@@ -3187,3 +3187,15 @@ d'export demande maintenant d'ouvrir la base).
   événements dont 4 jamais exportés (28/09 au 04/10), aucun membre dans le
   fichier. Second passage : rien à écrire, aucun commit. Le script
   d'export reste utilisable en secours (port 5444 à rouvrir).
+
+## Clôture de session (09/10/2026, soir)
+
+Audit de sécurité du 02/10 soldé : secrets changés (mot de passe Postgres,
+jeton d'automatisation, jeton Coolify), port 5444 fermé, CSP avec nonce en
+production (PR #96). Export des contributions automatisé (PR #97, workflow
+N8N actif). MCP Coolify rétabli : le 401 venait d'un jeton révoqué dans
+`~/.claude.json`, commun à toutes les sessions.
+
+- **Prochaine session** : rien d'imposé.
+- **Reste côté John** : feu vert du défi hebdomadaire ; boutons de
+  `/application` ; vérifier qu'un commit `data:` de N8N ne redéploie pas dev.

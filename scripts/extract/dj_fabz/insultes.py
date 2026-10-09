@@ -23,7 +23,10 @@ RÈGLES APPLIQUÉES (contrat data/README.md + décision John du 09/10/2026)
 - francais = TD3 (sens) si elle n'est pas vide, sinon TD2 (mot à mot), verbatim.
 - contexte = "insulte" pour toutes les lignes : sépare « âne (insulte) » de
   l'animal, qui a son propre lemme.
-- type = "expression" si l'alsacien contient une espace, sinon "mot".
+- type = "expression" si le FRANÇAIS retenu contient une espace, sinon "mot".
+  Le type entre dans la clé d'un lemme (cle, contexte, type), et le lemme est
+  le mot français : typer par l'alsacien coupait « alcoolique (insulte) » en
+  deux fiches, une par type (constaté en base le 09/10/2026, 6 clés).
 - graphie_origine = la ligne entière « TD1 | TD2 | TD3 », avant tout choix de
   francais.
 - reference = raw/dj_fabz/insultes.htm#L<n>, n = ligne physique du <TR>.
@@ -118,7 +121,7 @@ def main() -> int:
             omises.append((ligne, "entité HTML non décodée", graphie))
             continue
 
-        type_terme = "expression" if re.search(r"\s", forme) else "mot"
+        type_terme = "expression" if re.search(r"\s", francais) else "mot"
 
         lignes_jsonl.append({
             "source_code": SOURCE_CODE,

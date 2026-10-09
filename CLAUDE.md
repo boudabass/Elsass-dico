@@ -167,10 +167,8 @@ VPS partagé ; `dev` et `main` **partagent la même base**.
   supprimer). Partage par lien sur téléphone : confirmé le 09/10.
 - **En attente côté John** : feu vert du lancement public (workflow N8N
   `MET_DEFI_DICO_HEBDO`).
-- **`/application`** (site Odoo) : la carte Elsass Dico mène à
-  `elsass-dico.theelsassisch.com/login`. Restent les boutons d'Elsass Chat
-  (« Chercher un mot ») et de « Vos idées » (« Se connecter pour jouer »), et
-  « Connectez-vous avec votre compte » sous Cours et Forum.
+- **`/application`** (site Odoo) : terminé le 09/10 (carte Elsass Dico vers
+  `/login`, boutons d'Elsass Chat, « Vos idées », Cours et Forum).
 - **Prochaine session** : rien d'imposé. Les sources faibles s'intègrent
   comme `culture_alsace` (décision de John du 09/10), sans démarche préalable.
 - **Ouvert, plus long terme** : faire venir des locuteurs, mesure de

@@ -3199,3 +3199,6 @@ N8N actif). MCP Coolify rétabli : le 401 venait d'un jeton révoqué dans
 - **Prochaine session** : rien d'imposé.
 - **Reste côté John** : feu vert du défi hebdomadaire ; boutons de
   `/application` ; vérifier qu'un commit `data:` de N8N ne redéploie pas dev.
+- **Mise à jour (09/10, plus tard)** : boutons de `/application` faits par
+  John, point fermé (CLAUDE.md, Odoo 883). Lancement public prévu « très
+  bientôt », toujours en attente de son feu vert.

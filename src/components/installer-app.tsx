@@ -64,7 +64,7 @@ export function CarteInstallation({ className }: { className?: string }) {
     );
 }
 
-export function InstallerApp({ className }: { className?: string }) {
+export function InstallerApp({ className, onInstalle }: { className?: string; onInstalle?: () => void }) {
     const [pret, setPret] = useState(false);
     const [installe, setInstalle] = useState(true);
     const [, forcer] = useState(0);
@@ -87,7 +87,10 @@ export function InstallerApp({ className }: { className?: string }) {
         const { outcome } = await installation.userChoice;
         installation = null;
         forcer((n) => n + 1);
-        if (outcome === "accepted") setInstalle(true);
+        if (outcome === "accepted") {
+            setInstalle(true);
+            onInstalle?.();
+        }
     };
 
     return (

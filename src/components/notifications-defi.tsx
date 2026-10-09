@@ -67,7 +67,7 @@ async function abonnementActuel(): Promise<PushSubscription | null> {
     return (await enregistrement?.pushManager.getSubscription()) ?? null;
 }
 
-function useNotifications() {
+export function useNotifications() {
     const [etat, setEtat] = useState<Etat>("chargement");
     const [cle, setCle] = useState<string | null>(null);
     const [occupe, setOccupe] = useState(false);

@@ -3137,3 +3137,21 @@ Recommandation : C, puis A. **Décision reportée à la prochaine session.**
 - `AUTOMATISATION_API_TOKEN` changé ensuite par John (main, dev, credential
   N8N du même nom) ; faux jeton refusé en 401 sur les deux. Rotation des
   secrets de l'audit terminée. Reste : port 5444 toujours public.
+
+### CSP complète avec nonce (09/10/2026)
+
+- Dernier point de l'audit du 02/10. Le middleware pose à chaque page une CSP
+  avec un nonce neuf (`3ea953b`) : `script-src 'self' 'nonce-…'
+  'strict-dynamic'`, rien d'extérieur (aucun service extérieur, doctrine),
+  `style-src 'unsafe-inline'` (Leaflet, sonner, attributs `style`),
+  `frame-ancestors 'self'` (tests en iframe), `form-action 'self'`
+  (l'authentification Odoo se fait côté serveur), `object-src 'none'`.
+- Possible sans coût parce que toutes les pages sont déjà rendues à la
+  demande (`Cache-Control: no-store` partout, y compris `/village`) : le
+  `generateStaticParams` ne produit aucune page servie telle quelle. Si une
+  page devenait statique un jour, elle perdrait son JavaScript.
+- Chrome n'atteint pas le serveur local (`pnpm dev`) : testé sur dev.
+  Vérifié par la nav, avec écoute de `securitypolicyviolation` : accueil,
+  jeu (défi lancé), fiche village, tableau de bord, carte Leaflet,
+  recherche, fiche, inverseur de sens, dictionnaire, admin. Zéro blocage,
+  aucune ressource extérieure.

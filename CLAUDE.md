@@ -171,7 +171,9 @@ VPS partagé ; `dev` et `main` **partagent la même base**.
   automatique des contributions (route + N8N + `watch_paths` Coolify, cf.
   journal du 28/09).
 - **Sécurité** : les quatre failles de l'audit du 02/10 sont corrigées
-  et en production (PR #95, 08/10) ; reste une CSP complète (nonces).
+  et en production (PR #95, 08/10) ; CSP complète avec nonce posée par le
+  middleware le 09/10 (toutes les pages sont rendues à la demande : une page
+  rendue statique perdrait son JavaScript).
 - **Ouvert, plus long terme** : faire venir des locuteurs, mesure de
   convergence, aire du 57, attribution de la police Azimut (John), seuil
   « proche » de la contribution (≤ 2 lettres et ≤ 25 %).

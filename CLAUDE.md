@@ -139,10 +139,11 @@ VPS partagé ; `dev` et `main` **partagent la même base**.
 - **`main` et `dev` alignés par la PR #95** (08/10) : les quatre failles de
   l'audit du 02/10. Avant, PR #94 : textes de l'app corrigés après inventaire,
   retour de la carte vers la fiche.
-- **À constater par John** : le partage par lien sur téléphone ; plus de 404 à
-  la réouverture de l'app après 30 min (cause non établie : session expirée ou
-  version déployée depuis ; capture demandée si ça revient) ; supprimer le
-  compte Odoo `theelsassisch+test@gmail.com`.
+- **À constater par John** : plus de 404 à la réouverture de l'app après
+  30 min (cause non établie : session expirée ou version déployée depuis ;
+  capture demandée si ça revient). Partage par lien sur téléphone : confirmé
+  le 09/10. Le compte Odoo `theelsassisch+test@gmail.com` est **gardé**
+  (décision de John, ne plus proposer de le supprimer).
 - Base : ~26 526 lemmes, 42 510 variantes (dont 863 insultes de la source
   `dj_fabz`, intégrées le 09/10), 2 membres, quelques témoignages
   parlés.
@@ -155,10 +156,9 @@ VPS partagé ; `dev` et `main` **partagent la même base**.
   avec votre compte » sous Cours et Forum, lisibles sans compte ?
 - **En attente côté John** : rotation des secrets après l'audit du 02/10 :
   `SESSION_SECRET` changé sur main et dev le 08/10 ; restent le mot de passe
-  Postgres et `AUTOMATISATION_API_TOKEN` + N8N ; jeton Coolify « Claude Full »
-  révoqué le 08/10 : **le MCP Coolify s'en servait et ne répond plus**
-  (« rejected the Authorization header ») ; créer un jeton en lecture seule et
-  le mettre dans la config MCP ; feu
+  Postgres (Coolify affiche des avertissements sur son remplacement : rapport
+  demandé à la session Opérateur le 09/10) et `AUTOMATISATION_API_TOKEN` + N8N ;
+  jeton Coolify « Claude Full » supprimé, MCP Coolify de nouveau fonctionnel ; feu
   vert du lancement public (workflow N8N `MET_DEFI_DICO_HEBDO`) ; plan d'export
   automatique des contributions (route + N8N + `watch_paths` Coolify, cf.
   journal du 28/09).

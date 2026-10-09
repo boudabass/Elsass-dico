@@ -3155,3 +3155,5 @@ Recommandation : C, puis A. **Décision reportée à la prochaine session.**
   jeu (défi lancé), fiche village, tableau de bord, carte Leaflet,
   recherche, fiche, inverseur de sens, dictionnaire, admin. Zéro blocage,
   aucune ressource extérieure.
+- En production par la PR #96 (merge). Vérifié sur main par la nav : accueil,
+  jeu (défi lancé), zéro blocage.

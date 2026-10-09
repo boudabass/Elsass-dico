@@ -104,6 +104,10 @@ VPS partagé ; `dev` et `main` **partagent la même base**.
   recopier dans la ressource Postgres de Coolify (sinon les sauvegardes
   cassent) et dans `DATABASE_URL` runtime + build de dev et main. Le
   terminal web Coolify ne permet pas de coller.
+- **Port 5444 fermé** depuis le 09/10 (Coolify, ressource Postgres, case
+  « publicly available »). Les scripts locaux qui touchent la base
+  (`deriver.mts`, `importer-*.mts`, `exporter-contributions.mts`, mesures en
+  lecture) exigent que John le rouvre le temps du script, puis le referme.
 - Le middleware renvoie 307 sur **toute** route sans session, même inexistante :
   un 307 ne prouve pas qu'une page est déployée.
 

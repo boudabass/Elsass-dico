@@ -3180,3 +3180,10 @@ d'export demande maintenant d'ouvrir la base).
   (contenu) » ; vérifier que les nœuds ont leurs credentials ; watch paths
   Coolify de `elsass-dico:dev` (`**` puis `!data/contributions/**`, la
   dernière règle gagne) ; activer.
+- **Fait par John** : credential GitHub, watch paths Coolify de dev
+  (`**` puis `!data/contributions/**`), workflow activé. PR #97 fusionnée
+  (route sur main, 401 sans jeton).
+- **Testé** : premier passage manuel = commit `8f2c252` sur `dev`, 8
+  événements dont 4 jamais exportés (28/09 au 04/10), aucun membre dans le
+  fichier. Second passage : rien à écrire, aucun commit. Le script
+  d'export reste utilisable en secours (port 5444 à rouvrir).

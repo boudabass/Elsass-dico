@@ -17,8 +17,8 @@
 // reconstruire.
 
 import { NextResponse, type NextRequest } from "next/server"
-import { timingSafeEqual } from "node:crypto"
 
+import { autorise, jetonAttendu } from "@/lib/automatisation-serveur"
 import { LIBELLES_DEPARTEMENT } from "@/lib/dictionnaire"
 import {
     indiceDuJour,
@@ -32,30 +32,6 @@ import {
 import { chargerLemmeDetaille } from "@/lib/lemmes"
 
 const URL_JEU = "https://elsass-dico.theelsassisch.com/jeu"
-
-// Lu à l'APPEL et non au chargement du module : `next build` évalue le
-// module en prérendu, où les variables runtime de Coolify n'existent pas
-// encore (même motif que `SESSION_SECRET`, `src/lib/session.ts`).
-function jetonAttendu(): string {
-    const t = process.env.AUTOMATISATION_API_TOKEN
-    if (!t || t.length < 32) {
-        throw new Error(
-            "AUTOMATISATION_API_TOKEN manquante ou trop courte (32 caractères minimum).",
-        )
-    }
-    return t
-}
-
-function autorise(request: NextRequest, attendu: string): boolean {
-    const entete = request.headers.get("authorization") ?? ""
-    const fourni = entete.startsWith("Bearer ") ? entete.slice(7) : ""
-    // Comparaison à temps constant : la longueur du jeton fourni ne doit rien
-    // apprendre à qui essaie de le deviner.
-    const a = Buffer.from(fourni)
-    const b = Buffer.from(attendu)
-    if (a.length !== b.length) return false
-    return timingSafeEqual(a, b)
-}
 
 /** La révélation complète d'un défi déjà clos : ses 5 villages, chacun avec
  *  toutes ses formes attestées et ce qui les fonde. Jamais appelée sur un

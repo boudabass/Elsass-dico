@@ -20,7 +20,9 @@
  * modification.
  *
  * Sortie triée et stable : deux exports sans nouveau geste donnent le même
- * fichier, donc un diff vide.
+ * fichier, donc un diff vide. Le format et la requête vivent dans
+ * `src/lib/journal-contributions.ts`, partagés avec la route d'export
+ * automatique (`/api/automatisation/contributions`, 09/10/2026).
  *
  *   pnpm exec tsx scripts/exporter-contributions.mts
  */
@@ -28,47 +30,14 @@ import { mkdirSync, writeFileSync } from "node:fs"
 import { dirname } from "node:path"
 
 import { ouvrirBase } from "./lib/base.mts"
-import { FICHIER_JOURNAL, type LigneJournal } from "./lib/journal.mts"
+import { FICHIER_JOURNAL, lignesDuJournal, texteDuJournal } from "../src/lib/journal-contributions.ts"
 
 const prisma = ouvrirBase()
 
-const evenements = await prisma.evenementContribution.findMany({
-    select: {
-        id: true, type: true, le: true, temoignageId: true, communeId: true,
-        ancienneForme: true, nouvelleForme: true,
-        variante: {
-            select: {
-                cleForme: true, forme: true, article: true,
-                lemme: { select: { cle: true, contexte: true, type: true, francais: true, parMembre: true } },
-            },
-        },
-    },
-    // L'heure ordonne encore l'export, même si elle n'en sort pas : une pose et
-    // son retrait du même jour restent dans l'ordre où ils ont eu lieu.
-    orderBy: [{ le: "asc" }, { id: "asc" }],
-})
-
-const lignes: LigneJournal[] = evenements.map((e) => ({
-    id: e.id,
-    type: e.type,
-    jour: e.le.toISOString().slice(0, 10),
-    lemme: {
-        cle: e.variante.lemme.cle, contexte: e.variante.lemme.contexte, type: e.variante.lemme.type,
-        // Un mot créé par un membre (28/09/2026) : son libellé part avec lui pour
-        // être recréé au rejeu. L'auteur, lui, ne sort jamais.
-        ...(e.variante.lemme.parMembre ? { francais: e.variante.lemme.francais, parMembre: true as const } : {}),
-    },
-    cleForme: e.variante.cleForme,
-    forme: e.variante.forme,
-    ...(e.variante.article ? { article: e.variante.article } : {}),
-    temoignageId: e.temoignageId,
-    commune: e.communeId,
-    ancienneForme: e.ancienneForme,
-    nouvelleForme: e.nouvelleForme,
-}))
+const lignes = await lignesDuJournal(prisma)
 
 mkdirSync(dirname(FICHIER_JOURNAL), { recursive: true })
-writeFileSync(FICHIER_JOURNAL, lignes.map((l) => JSON.stringify(l)).join("\n") + (lignes.length ? "\n" : ""))
+writeFileSync(FICHIER_JOURNAL, texteDuJournal(lignes))
 
 const parType = new Map<string, number>()
 for (const l of lignes) parType.set(l.type, (parType.get(l.type) ?? 0) + 1)

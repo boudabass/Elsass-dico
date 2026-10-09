@@ -133,14 +133,15 @@ VPS partagé ; `dev` et `main` **partagent la même base**.
 
 - Travail sur `dev`, PR `dev` → `main` **par commit de merge** (pas de squash).
 - Clôture de session : relancer `scripts/exporter-contributions.mts` s'il y a eu
-  des votes ou des formes, mettre à jour `documentation/23-JOURNAL.md`, Odoo 883
+  des votes ou des formes (tant que le workflow N8N
+  `OP_EXPORT_CONTRIBUTIONS_DICO` n'est pas actif), mettre à jour `documentation/23-JOURNAL.md`, Odoo 883
   si un jalon bouge. **Ce fichier-ci ne reçoit que ce qui change une règle, un
   piège ou l'état ci-dessous** : le récit va dans le journal.
 - Premier admin : `scripts/promouvoir-admin.mts` ; suppression d'un membre :
   `scripts/supprimer-membre.mts` (anonymise, puis supprimer le compte Odoo).
 - Coolify via MCP : lecture seule.
 
-## État au 09/10/2026
+## État au 09/10/2026 (soir)
 
 - Toutes les étapes de la refonte sont faites (dérivation, session, fiches
   publiques, admin, carte, contribution, jeu, deux sens).
@@ -172,7 +173,7 @@ VPS partagé ; `dev` et `main` **partagent la même base**.
   journal du 28/09).
 - **Sécurité** : les quatre failles de l'audit du 02/10 sont corrigées
   et en production (PR #95, 08/10) ; CSP complète avec nonce posée par le
-  middleware le 09/10 (toutes les pages sont rendues à la demande : une page
+  middleware, en production (PR #96, 09/10) (toutes les pages sont rendues à la demande : une page
   rendue statique perdrait son JavaScript).
 - **Ouvert, plus long terme** : faire venir des locuteurs, mesure de
   convergence, aire du 57, attribution de la police Azimut (John), seuil

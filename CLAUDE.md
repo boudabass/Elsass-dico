@@ -100,6 +100,10 @@ VPS partagé ; `dev` et `main` **partagent la même base**.
 - **Branche `data` sous Windows** : un nom de fichier avec « ? » rend
   checkout, reset et index impossibles. Committer par plumbing (`mktree`,
   `commit-tree`, `update-ref`), jamais en désactivant `core.protectNTFS`.
+- **Mot de passe Postgres** : le changer en base (`ALTER ROLE`), puis le
+  recopier dans la ressource Postgres de Coolify (sinon les sauvegardes
+  cassent) et dans `DATABASE_URL` runtime + build de dev et main. Le
+  terminal web Coolify ne permet pas de coller.
 - Le middleware renvoie 307 sur **toute** route sans session, même inexistante :
   un 307 ne prouve pas qu'une page est déployée.
 
@@ -155,9 +159,8 @@ VPS partagé ; `dev` et `main` **partagent la même base**.
   « Vos idées » (« Se connecter pour jouer »), et la question de « Connectez-vous
   avec votre compte » sous Cours et Forum, lisibles sans compte ?
 - **En attente côté John** : rotation des secrets après l'audit du 02/10 :
-  `SESSION_SECRET` changé sur main et dev le 08/10 ; restent le mot de passe
-  Postgres (Coolify affiche des avertissements sur son remplacement : rapport
-  demandé à la session Opérateur le 09/10) et `AUTOMATISATION_API_TOKEN` + N8N ;
+  `SESSION_SECRET` changé sur main et dev le 08/10 ; mot de passe
+  Postgres changé le 09/10 ; reste `AUTOMATISATION_API_TOKEN` + N8N ;
   jeton Coolify « Claude Full » supprimé ; MCP Coolify rétabli selon John, mais
   les sessions Claude du 09/10 reçoivent encore un 401 (relancer la session) ; feu
   vert du lancement public (workflow N8N `MET_DEFI_DICO_HEBDO`) ; plan d'export

@@ -3118,3 +3118,19 @@ Recommandation : C, puis A. **Décision reportée à la prochaine session.**
   disque, et sans désactiver `core.protectNTFS`.
 - L'écriture en base de production est refusée à Claude par le garde-fou
   automatique : c'est John qui lance `importer-data.mts` / `deriver.mts`.
+
+### Mot de passe Postgres changé (09/10/2026)
+
+- Avertissement Coolify : la case mot de passe de la ressource Postgres ne
+  change pas le rôle en base ; elle sert aux automatisations (sauvegardes) et
+  doit être resynchronisée à la main après tout changement en base.
+- `\password` dans le terminal web Coolify : impossible de coller, abandonné
+  sans effet (vérifié : ancien mot de passe toujours valide).
+- Méthode retenue : script jetable lancé par John depuis son PC via le port
+  5444 (`ALTER ROLE`, vérification avec le nouveau mot de passe, réécriture de
+  `.env.local`, copie dans le presse-papiers, jamais affiché). Puis John a
+  collé le mot de passe dans Coolify (ressource Postgres, `DATABASE_URL`
+  runtime + build sur dev et main) et redéployé.
+- Vérifié : `/`, `/sources`, `/jeu`, `/village/strasbourg-67482` en 200 sur
+  main et dev, slug inconnu en 404 (lecture en base, pas 500).
+- Reste : `AUTOMATISATION_API_TOKEN` + N8N ; port 5444 toujours ouvert.

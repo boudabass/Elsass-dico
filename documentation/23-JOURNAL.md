@@ -3079,3 +3079,42 @@ par un LLM. Trois voies ont été proposées : A, retrouver le livre d'origine
 C, s'en servir sans rien publier pour croiser avec les lemmes existants et
 viser les entrées qu'une source reconnue ou un locuteur confirme.
 Recommandation : C, puis A. **Décision reportée à la prochaine session.**
+
+### Liste d'insultes de dj.fabz.free.fr : intégrée (09/10/2026)
+
+- **Croisement d'abord (voie C)**, en lecture seule : la page compte 874
+  entrées (pas 848). Environ 7 seulement existaient déjà en base (bleed, essel,
+  klowe, lüsbüe, simbel, vüjel, wäckes), environ 39 sont des graphies voisines
+  et environ 828 sont absentes. Piège : `cleDeForme` tient compte des
+  majuscules (la base écrit « Lüsbüe », la liste « lüsbüe »).
+- **Piste du livre d'origine (voie A)** : *Le petit dictionnaire des injures
+  alsaciennes*, Raymond Matzen (Le Verger, 13e éd. 2010, ISBN
+  978-2-84574-089-1). Que la page le recopie n'est pas prouvé. Martin &
+  Lienhart (déjà source, 5 toponymes) : sens en allemand, couche numérique de
+  Trèves toujours sans licence (dépôt CLARIN.SI 11356/1642 : ni licence ni
+  fichier).
+- **Décision de John** : on intègre, sans démarche d'autorisation, « peu
+  importe le nombre de sources ». La page devient la source `dj_fabz`,
+  traitée comme `culture_alsace` (site perso sans licence) : brut versionné,
+  parseur rejouable `scripts/extract/dj_fabz/insultes.py`, formes verbatim,
+  crédit sur `/sources`, badge 1 source. `francais` = le sens de la page,
+  sinon son mot à mot ; `contexte` = « insulte » ; fiabilité 4 (l'échelle va
+  de 1, ouvrage de référence, à 3, `culture_alsace`). 11 lignes sans aucun
+  français omises. Résultat : 863 attestations, 668 fiches.
+- **Fiches en double corrigées** : typé d'abord par l'alsacien (espace =
+  expression), « alcoolique (insulte) » donnait deux fiches, puisque le type
+  entre dans la clé du lemme. Typé désormais par le français (`28094fb` sur
+  `data`). La base a été nettoyée par un script jetable lancé par John
+  (garde-fous : aucun vote, signalement ni contribution de membre sur ces
+  formes ; retrait des seules données `dj_fabz`), puis importer + deriver.
+  Base : 26 526 lemmes, 42 510 variantes. Vérifié à l'écran : une seule
+  fiche « alcoolique (insulte) », 17 formes, « Écrit dans : Insultes
+  alsaciennes (page de DJ Fab'z…) » ; `/sources` affiche 863 entrées sur main
+  et dev.
+- **Commit sur `data` depuis Windows** : la branche contient un nom de fichier
+  avec « ? », invalide sur NTFS. Ni checkout, ni reset, ni index possibles.
+  Les commits `fbddb54` et `28094fb` ont été construits par plumbing
+  (`hash-object`, `mktree`, `commit-tree`, `update-ref`), sans index ni
+  disque, et sans désactiver `core.protectNTFS`.
+- L'écriture en base de production est refusée à Claude par le garde-fou
+  automatique : c'est John qui lance `importer-data.mts` / `deriver.mts`.

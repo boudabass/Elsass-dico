@@ -97,6 +97,9 @@ VPS partagé ; `dev` et `main` **partagent la même base**.
 - `space-y-*` compte aussi un label `sr-only`.
 - cmdk ignore un `id` externe : libellé par la prop `label` de `<Command>`.
 - Le rapport imprimé d'un parseur plafonne (80) : relire par lettre.
+- **Branche `data` sous Windows** : un nom de fichier avec « ? » rend
+  checkout, reset et index impossibles. Committer par plumbing (`mktree`,
+  `commit-tree`, `update-ref`), jamais en désactivant `core.protectNTFS`.
 - Le middleware renvoie 307 sur **toute** route sans session, même inexistante :
   un 307 ne prouve pas qu'une page est déployée.
 
@@ -129,7 +132,7 @@ VPS partagé ; `dev` et `main` **partagent la même base**.
   `scripts/supprimer-membre.mts` (anonymise, puis supprimer le compte Odoo).
 - Coolify via MCP : lecture seule.
 
-## État au 08/10/2026
+## État au 09/10/2026
 
 - Toutes les étapes de la refonte sont faites (dérivation, session, fiches
   publiques, admin, carte, contribution, jeu, deux sens).
@@ -140,9 +143,11 @@ VPS partagé ; `dev` et `main` **partagent la même base**.
   la réouverture de l'app après 30 min (cause non établie : session expirée ou
   version déployée depuis ; capture demandée si ça revient) ; supprimer le
   compte Odoo `theelsassisch+test@gmail.com`.
-- Base : ~25 864 lemmes, 41 646 variantes, 2 membres, quelques témoignages
+- Base : ~26 526 lemmes, 42 510 variantes (dont 863 insultes de la source
+  `dj_fabz`, intégrées le 09/10), 2 membres, quelques témoignages
   parlés.
-- **Prochaine session, dans l'ordre** : décider du sort de la liste d'insultes de dj.fabz.free.fr (848 entrées sans source ni licence ; voies A/B/C au journal du 08/10, recommandation : croiser sans publier).
+- **Prochaine session** : rien d'imposé. Les sources faibles s'intègrent
+  comme `culture_alsace` (décision de John du 09/10), sans démarche préalable.
 - **`/application`** (site Odoo, publiée et réécrite par John le 08/10) : la
   carte Elsass Dico mène à `elsass-dico.theelsassisch.com/login`, plus aucun
   lien `-dev`. Restent les boutons d'Elsass Chat (« Chercher un mot ») et de

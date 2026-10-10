@@ -160,7 +160,11 @@ VPS partagé ; `dev` et `main` **partagent la même base**.
 
 - Toutes les étapes de la refonte sont faites (dérivation, session, fiches
   publiques, admin, carte, contribution, jeu, deux sens).
-- **En production** : PR #102 (10/10) : la carte d'un mot s'ouvre en
+- **En production** : PR #103 (10/10), revue avant lancement : le défi
+  reprend après la fiche d'un village (sessionStorage, flèche « Revenir au
+  défi » via `?depuis=jeu`), connexion centrée sur ordinateur, licence
+  Martin & Lienhart lisible sur `/sources`, carte d'un mot cadrée
+  (ResizeObserver). PR #102 : la carte d'un mot s'ouvre en
   0,5 s depuis la fiche (9,1 s avant). Avant elle, PR #101 : le tiroir
   d'accueil propose installer puis **village** dans le navigateur, les
   notifications dans l'app installée seulement, puis « Faire le défi du

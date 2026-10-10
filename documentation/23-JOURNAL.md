@@ -3259,3 +3259,21 @@ session (section 0 « Avancement »), 883 à jour.
 - **Puis** : feu vert du lancement public (`MET_DEFI_DICO_HEBDO`) ; John
   réinstalle le Dico depuis le site public (l'icône installée depuis dev
   ouvre dev).
+
+## Le tiroir d'accueil demande aussi le village (10/10/2026)
+
+- **D4, matin du 10/10** : `DEFI_DICO_NOTIF_10H` a tourné à 10 h (succès) ;
+  John a reçu la notification, l'appui ouvre bien le défi dans l'app.
+- **Demande de John** : tout demander en une fois après la connexion :
+  installer, activer les notifications, **choisir son village**. Le tiroir
+  devient une file des seules étapes qui manquent (« Étape N sur M » si
+  plusieurs) : installer (pas installé), notifications (inactives, et Dico
+  installé ou en passe de l'être), village (profil sans village). « Plus
+  tard » remet l'étape une semaine **et passe à la suivante** ; glisser le
+  tiroir vers le bas ne remet que l'étape affichée. « C'est prêt » ne
+  conclut que si quelque chose a été fait dans le tiroir, et dit quoi.
+- La recherche de village de la contribution est sortie en
+  `RechercheVillage` (`habillage.tsx`), partagée avec `EtapeVillage`. Dans
+  le tiroir, pas d'`autoFocus` : le clavier cacherait l'explication.
+- Toujours téléphone seulement : sur ordinateur, « Mon espace » demande le
+  village.

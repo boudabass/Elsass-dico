@@ -135,6 +135,20 @@ export function EtapeVillage({
     onRetour?: () => void;
     onChoisi: (v: Village) => void;
 }) {
+    return (
+        <Cadre
+            titre="D'où vient ton parler ?"
+            sousTitre={actuel ? <>Aujourd&apos;hui : {actuel.nom}. Il sera aussi changé dans Mon espace.</> : "Chaque façon de dire que tu ajoutes est rattachée à ton village. On ne le détecte pas : c'est toi qui le choisis."}
+            onRetour={onRetour}
+        >
+            <RechercheVillage onChoisi={onChoisi} autoFocus />
+        </Cadre>
+    );
+}
+
+/** Le champ et sa liste : un appui sur un village l'enregistre sur le profil.
+ *  Partagé par les feuilles de contribution et par le tiroir d'accueil. */
+export function RechercheVillage({ onChoisi, autoFocus = false }: { onChoisi: (v: Village) => void; autoFocus?: boolean }) {
     const [communes, setCommunes] = useState<CommuneOption[] | null>(null);
     const [recherche, setRecherche] = useState("");
     const [envoi, demarrer] = useTransition();
@@ -156,11 +170,7 @@ export function EtapeVillage({
     }
 
     return (
-        <Cadre
-            titre="D'où vient ton parler ?"
-            sousTitre={actuel ? <>Aujourd&apos;hui : {actuel.nom}. Il sera aussi changé dans Mon espace.</> : "Chaque façon de dire que tu ajoutes est rattachée à ton village. On ne le détecte pas : c'est toi qui le choisis."}
-            onRetour={onRetour}
-        >
+        <>
             <div className="relative">
                 <Search className="pointer-events-none absolute left-3 top-1/2 h-5 w-5 -translate-y-1/2 text-muted-foreground" aria-hidden />
                 <input
@@ -168,7 +178,7 @@ export function EtapeVillage({
                     onChange={(e) => setRecherche(e.target.value)}
                     aria-label="Chercher ton village"
                     placeholder="Ton village"
-                    autoFocus
+                    autoFocus={autoFocus}
                     autoComplete="off"
                     className={cn(CHAMP, "pl-10")}
                 />
@@ -187,7 +197,7 @@ export function EtapeVillage({
                     </li>
                 ))}
             </ul>
-        </Cadre>
+        </>
     );
 }
 

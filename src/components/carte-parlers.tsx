@@ -84,6 +84,7 @@ export function CarteParlers({ points, couleurDe, className, zoomFin = false }: 
     useEffect(() => {
         let annule = false
         let instance: LeafletMap | null = null
+        let observateur: ResizeObserver | null = null
 
         void (async () => {
             // Leaflet lit `window` dès son import : il ne peut pas être chargé
@@ -105,6 +106,25 @@ export function CarteParlers({ points, couleurDe, className, zoomFin = false }: 
                 zoomSnap: zoomFin && window.matchMedia("(min-width: 768px)").matches ? 0.1 : 1,
             }).fitBounds(CADRE)
             instance = map
+
+            // Leaflet ne suit que la taille de la fenêtre. Quand un bloc apparaît
+            // au-dessus de la carte, le conteneur rétrécit sans rien signaler : le
+            // centre reste en place et le bas du cadre est coupé. D'où cette
+            // observation. Tant que la personne n'a pas touché la carte, on remet
+            // la taille à jour et on recadre ; dès qu'elle zoome, déplace la carte
+            // ou clique, on ne recadre plus.
+            let touchee = false
+            let recadrage = false
+            map.on("zoomstart dragstart click", () => {
+                if (!recadrage) touchee = true
+            })
+            observateur = new ResizeObserver(() => {
+                recadrage = true
+                map.invalidateSize({ animate: false })
+                if (!touchee) map.fitBounds(CADRE, { animate: false })
+                recadrage = false
+            })
+            observateur.observe(conteneur.current)
 
             // Le fond d'abord, la couche des points ensuite : sur un canvas,
             // l'ordre d'ajout est l'ordre de peinture, et les points passeraient
@@ -144,6 +164,7 @@ export function CarteParlers({ points, couleurDe, className, zoomFin = false }: 
 
         return () => {
             annule = true
+            observateur?.disconnect()
             instance?.remove()
             setCarte(null)
         }

@@ -3277,3 +3277,7 @@ session (section 0 « Avancement »), 883 à jour.
   le tiroir, pas d'`autoFocus` : le clavier cacherait l'explication.
 - Toujours téléphone seulement : sur ordinateur, « Mon espace » demande le
   village.
+- **Puis, à la fin** (demande de John, même jour) : « C'est prêt » propose
+  un gros bouton « Faire le défi du jour » vers `/jeu`, sauf si le Dico
+  vient d'être installé (le texte dit d'ouvrir l'icône) ou si on est déjà
+  sur `/jeu`. Écrit par la session « Operateur Elsass Dico » (Haiku), relu.

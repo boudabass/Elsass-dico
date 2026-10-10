@@ -3284,3 +3284,4 @@ session (section 0 « Avancement »), 883 à jour.
 - **PR #99** fusionnée par commit de merge (`57f19d4`), vérifiée en
   production : code servi contenant les deux changements, `/sw.js` 200,
   `notifier-defi` 401 sans jeton.
+  Odoo 883 à jour (livré, D4 du 10/10 reçue, point fermé).

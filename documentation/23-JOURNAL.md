@@ -3243,3 +3243,19 @@ N8N actif). MCP Coolify rétabli : le 401 venait d'un jeton révoqué dans
   sans jeton, CSP avec `worker-src 'self'`. Odoo 883 à jour. Reste D4
   (plan 930) : essai simulé N8N, publication de `DEFI_DICO_NOTIF_10H` sur
   accord de John, trois matins sans raté avant l'annonce publique.
+
+## Clôture de session (10/10/2026, nuit)
+
+Notifications du défi du jour en production (PR #98) et en service :
+`DEFI_DICO_NOTIF_10H` publié par la session « The Elsassisch World » sur
+accord de John (10 h, main seulement). Essai simulé avant publication :
+200, défi n° 16, 2 abonnés, 2 seraient prévenus. Odoo 930 tenu par l'autre
+session (section 0 « Avancement »), 883 à jour.
+
+- **Prochaine session** : rien d'imposé.
+- **D4 à constater par John** : notification à 10 h les 10, 11 et 12/10,
+  rien les matins où il a déjà fini le défi. Si elle manque ou arrive deux
+  fois : lire le bilan de `notifier-defi` (exécution N8N).
+- **Puis** : feu vert du lancement public (`MET_DEFI_DICO_HEBDO`) ; John
+  réinstalle le Dico depuis le site public (l'icône installée depuis dev
+  ouvre dev).

@@ -45,7 +45,7 @@ export default function LoginPage() {
     <div className="flex min-h-ecran flex-col">
       <AppHeader variant="stack" titre="Connexion" backHref="/" />
 
-      <main className="flex-1 px-6 py-8">
+      <main className="mx-auto w-full max-w-sm flex-1 px-6 py-8">
         <p className="font-display text-center text-[26px] text-marque-rouge-texte">Elsass Dico</p>
         <h1 className="mt-[18px] text-center text-xl font-extrabold text-foreground">
           Connecte-toi

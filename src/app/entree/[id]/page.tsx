@@ -59,7 +59,7 @@ export default async function EntreePage({ params }: { params: Promise<{ id: str
             variante="plein"
             className="h-9"
           />
-          <LienCarte href={`/carte?mot=${lemme.id}`} />
+          <LienCarte href={`/carte?mot=${lemme.id}&titre=${encodeURIComponent(lemme.francais)}`} />
         </div>
 
         <p className="mt-5 text-xs font-bold uppercase tracking-wide text-muted-foreground">

@@ -210,7 +210,7 @@ function Reussite({
             </p>
             <div className="mt-3 flex flex-wrap gap-2">
                 <Link
-                    href={`/carte?mot=${lemmeId}`}
+                    href={`/carte?mot=${lemmeId}&titre=${encodeURIComponent(francais)}`}
                     className="inline-flex h-10 items-center gap-1.5 rounded-lg bg-sens-500 px-4 text-sm font-semibold text-white transition-colors hover:bg-sens-600"
                 >
                     <MapPin className="h-4 w-4" strokeWidth={2.2} aria-hidden />

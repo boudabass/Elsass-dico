@@ -3323,3 +3323,34 @@ session (section 0 « Avancement »), 883 à jour.
   « Sélestat · Changer » s'affiche. Le cas complet (compte sans village)
   n'a pas pu être rejoué.
 - **PR #101** (`dev` → `main`), commit de merge. Odoo 883 à jour avant.
+
+## La carte d'un mot attendait 9 s depuis la fiche (10/10/2026)
+
+Retour de John : depuis une fiche, « Voir sur la carte » montrait « « » » et
+« Chargement des façons de dire… » plusieurs secondes. Mesuré sur dev :
+**9,1 s** par la fiche, 0,7 s en ouvrant l'adresse directement.
+
+- **Cause** : dans `carte-demo.tsx`, l'effet qui retire `?mot=` de l'URL
+  tourne dans le même passage que celui qui lit le paramètre. Sa garde
+  regardait `motActif`, encore nul à ce moment : l'URL était réécrite avant
+  le chargement, Next abandonnait l'action, et le mot n'arrivait qu'au
+  délai de `chargerAvecCache` (8 s) plus la reprise (1 s). Le piège du
+  27/09, revenu par l'ordre des effets.
+- **Correctif** (`d1428bc`) : la garde attend les données elles-mêmes et la
+  fin du chargement des villages. Le lien porte aussi le mot français
+  (`&titre=`, fiche et premiers pas), comme celui d'une forme : plus de
+  guillemets vides ; un vieux lien sans titre n'affiche rien au lieu de « ».
+- **Vérifié sur dev** par la fiche : 0,49 s et 0,57 s sur deux mots, URL
+  nettoyée après coup, « Revenir à la fiche de « à bon droit » » affiché.
+- **PR #102** (`dev` → `main`), commit de merge. Odoo 883 et CLAUDE.md à
+  jour avant.
+
+## Boucle de redirections à la première ouverture du jour (10/10/2026)
+
+Retour de John (capture) : en ouvrant l'app le matin, sur l'ordinateur comme
+sur le téléphone installé, `ERR_TOO_MANY_REDIRECTS`, puis « Actualiser »
+règle tout. Session courte expirée, renouvellement valide. **Non reproduit**
+dans un onglet sur dev : `/` → `/recherche` → `/api/session/refresh` →
+`/recherche`, 3 redirections, puis la page. Sans cookie, rien ne boucle sur
+main. Cause non établie ; probablement le même incident que le « 404 à la
+réouverture » du 07/10.

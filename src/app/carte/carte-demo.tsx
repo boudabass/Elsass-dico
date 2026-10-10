@@ -122,8 +122,9 @@ export function CarteDemo() {
     // premier parcours de « Mon espace » (24/09/2026) : juste après son premier
     // vote, le membre voit son village sur la carte de ce mot. Lu une fois au
     // montage, puis retiré de l'URL : revenir aux villages avec × ne doit pas
-    // rouvrir le mot au prochain rechargement. Le libellé arrive avec les
-    // points du mot, d'où `francais` vide en attendant.
+    // rouvrir le mot au prochain rechargement. `&titre=` porte le mot français
+    // (10/10/2026) : sans lui, le panneau montrait « » vides jusqu'à l'arrivée
+    // des points. Un vieux lien sans titre attend toujours le serveur.
     //
     // `?forme=<cle>&titre=<titre>` fait de même pour une forme alsacienne,
     // depuis sa fiche (revue du 28/09/2026).
@@ -133,8 +134,9 @@ export function CarteDemo() {
         const cle = params.get("forme")
         const retour = params.get("retour") === "1"
         if (id) {
-            if (retour) setOrigine({ id })
-            setMotActif({ id, francais: "", contexte: "", type: "mot", departement: null, formes: [], nbFormes: 0 })
+            const titre = params.get("titre") ?? ""
+            if (retour) setOrigine(titre ? { id, titre } : { id })
+            setMotActif({ id, francais: titre, contexte: "", type: "mot", departement: null, formes: [], nbFormes: 0 })
         } else if (cle) {
             if (retour) setOrigine({ cle, titre: params.get("titre") ?? cle })
             setFormeActive({ cle, titre: params.get("titre") ?? cle, sens: [], nbSens: 0 })
@@ -148,12 +150,20 @@ export function CarteDemo() {
     // `replaceState` abandonne une Server Action en vol, et la carte restait
     // alors sur « Chargement… » jusqu'à la reprise (8 s). Cf. le piège du
     // 27/09/2026 : réécrire l'URL après, jamais pendant.
+    //
+    // La garde ne regarde plus `motActif` (10/10/2026) : posé par l'effet
+    // ci-dessus dans le même passage, il était encore nul ici, et l'URL partait
+    // AVANT le chargement. Depuis une fiche, l'action était abandonnée et le
+    // mot n'arrivait qu'à la reprise : 9,1 s mesurées sur dev, 0,7 s en
+    // ouvrant l'adresse directement. On attend les données elles-mêmes, et que
+    // les villages ne soient plus en vol.
     useEffect(() => {
         if (!urlANettoyer.current) return
-        if (!pointsMot && !pointsForme && (motActif || formeActive)) return
+        if (!pointsMot && !pointsForme) return
+        if (premierChargement) return
         urlANettoyer.current = false
         window.history.replaceState(null, "", window.location.pathname)
-    }, [pointsMot, pointsForme, motActif, formeActive])
+    }, [pointsMot, pointsForme, premierChargement])
 
     function choisir(s: Suggestion) {
         setOrigine(null)

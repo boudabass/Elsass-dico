@@ -3238,3 +3238,8 @@ N8N actif). MCP Coolify rétabli : le 401 venait d'un jeton révoqué dans
   visite, « Plus tard » = une semaine, `?tiroir` le force.
 - **Testé par John sur son Android** (dev) : installation, notification
   d'essai reçue, parcours du tiroir.
+- **PR #98** (`dev` → `main`), fusionnée par commit de merge (`36afa80`).
+  Vérifiée en production : `/sw.js` 200 sans session, `notifier-defi` 401
+  sans jeton, CSP avec `worker-src 'self'`. Odoo 883 à jour. Reste D4
+  (plan 930) : essai simulé N8N, publication de `DEFI_DICO_NOTIF_10H` sur
+  accord de John, trois matins sans raté avant l'annonce publique.

@@ -155,9 +155,9 @@ VPS partagé ; `dev` et `main` **partagent la même base**.
 
 - Toutes les étapes de la refonte sont faites (dérivation, session, fiches
   publiques, admin, carte, contribution, jeu, deux sens).
-- **En production** : PR #96 (CSP complète avec nonce) et PR #97 (route
-  d'export des contributions), 09/10. `dev` n'a en plus que de la doc et le
-  journal exporté.
+- **En production** : PR #98 (notifications du défi, installation du Dico,
+  icônes du menu), 10/10, vérifiée (`/sw.js` 200, `notifier-defi` 401 sans
+  jeton, `worker-src`). `dev` n'a en plus que de la doc.
 - **Sécurité : audit du 02/10 entièrement soldé.** Quatre failles (PR #95),
   secrets changés (`SESSION_SECRET` le 08/10 ; mot de passe Postgres,
   `AUTOMATISATION_API_TOKEN` + N8N, jeton Coolify le 09/10), port 5444 fermé,

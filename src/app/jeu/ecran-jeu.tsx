@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useTransition } from "react";
+import { useEffect, useRef, useState, useTransition } from "react";
 import { ArrowRight, Flame } from "lucide-react";
 import { toast } from "sonner";
 
@@ -16,6 +16,7 @@ import { useAuth } from "@/components/auth-provider";
 import { ListSkeleton } from "@/components/ui/list-skeleton";
 import { useListeMemorisee } from "@/hooks/use-liste-memorisee";
 import { cleCache } from "@/lib/cache-navigation";
+import { effacerReprise, lireReprise } from "@/lib/jeu-reprise";
 import { cn } from "@/lib/utils";
 
 import { Cases, InvitationCompte } from "./bilan";
@@ -29,19 +30,32 @@ import { Partie } from "./partie";
 // Sans compte (26/09/2026), seul le défi du jour se joue, et rien n'en reste.
 // Pas de rail de navigation : tous ses onglets mènent à des pages réservées.
 
-type Vue = { type: "accueil" } | { type: "partie"; partie: PartiePublique };
+type Vue = { type: "accueil" } | { type: "partie"; partie: PartiePublique; indice?: number };
 
 export function EcranJeu() {
     const { session } = useAuth();
     const invite = !session;
+    const qui = session?.membreId ?? "invite";
     const [vue, setVue] = useState<Vue>({ type: "accueil" });
 
     const { donnees: etat, premierChargement, rafraichir } = useListeMemorisee<EtatJeu>({
-        cle: cleCache("jeu-etat", session?.membreId ?? "invite"),
+        cle: cleCache("jeu-etat", qui),
         charger: etatJeuAction,
     });
 
+    // Au retour sur l'écran (fiche d'un village, puis retour), la partie du défi
+    // du jour gardée dans la session reprend là où on en était. Une seule fois
+    // par montage. Après « Quitter » ou « Terminer la partie », rien n'est gardé.
+    const reprise = useRef(false);
+    useEffect(() => {
+        if (reprise.current || !etat) return;
+        reprise.current = true;
+        const gardee = lireReprise(qui, etat.numero);
+        if (gardee) setVue({ type: "partie", partie: gardee.partie, indice: gardee.indice });
+    }, [etat, qui]);
+
     function revenir() {
+        if (vue.type === "partie" && vue.partie.numero !== null) effacerReprise(qui, vue.partie.numero);
         setVue({ type: "accueil" });
         void rafraichir();
         window.scrollTo({ top: 0 });
@@ -60,6 +74,8 @@ export function EcranJeu() {
                     <Partie
                         key={vue.partie.id}
                         initiale={vue.partie}
+                        indiceInitial={vue.indice}
+                        qui={qui}
                         onQuitter={revenir}
                     />
                 ) : premierChargement || !etat ? (

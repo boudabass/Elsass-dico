@@ -57,7 +57,7 @@ export default async function PageSources() {
                             )}
                             {(s.annee || s.licence) && (
                                 <p className="mt-1 text-xs text-muted-foreground">
-                                    {[s.annee, s.licence && sansTiretLong(s.licence)].filter(Boolean).join(" · ")}
+                                    {[s.annee, licenceAffichee(s)].filter(Boolean).join(" · ")}
                                 </p>
                             )}
                         </li>
@@ -116,4 +116,16 @@ export default async function PageSources() {
 // médian à l'affichage, sans toucher à la donnée.
 function sansTiretLong(texte: string) {
     return texte.replace(/\s*—\s*/g, " · ")
+}
+
+// La fiche du Wörterbuch porte la mention brute de son relevé (« Nachdruck
+// 1974 », identifiants internes). On affiche à la place la mention voulue par
+// John. Affichage seulement : la donnée reste telle quelle. Repérée par son
+// code ou par son URL, jamais par son texte.
+const LICENCE_WOERTERBUCH =
+    "Livre imprimé de 1899 à 1907, sans doute dans le domaine public. Version numérique : © Kompetenzzentrum, Trier Center for Digital Humanities."
+
+function licenceAffichee(s: { code: string; url: string | null; licence: string | null }) {
+    if (s.code === "martin_lienhart" || s.url?.includes("woerterbuchnetz")) return LICENCE_WOERTERBUCH
+    return s.licence && sansTiretLong(s.licence)
 }

@@ -327,6 +327,7 @@ export function CarteDemo() {
                         points={pointsAffiches}
                         couleurDe={couleurDe}
                         className="h-full w-full overflow-hidden rounded-lg border"
+                        zoomFin
                     />
                     {echec && (
                         <div className="absolute inset-x-3 top-3 z-[1001] mx-auto max-w-sm rounded-lg border bg-background shadow-md">

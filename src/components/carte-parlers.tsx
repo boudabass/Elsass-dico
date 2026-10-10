@@ -39,6 +39,11 @@ interface Props {
      *  d'œil. Non fournie, tous les points sont de la même couleur. */
     couleurDe?: (forme: string) => string
     className?: string
+    /** Sur ordinateur (à partir de md), zoom au pas fin à l'ouverture : `fitBounds`
+     *  arrondit sinon vers le bas, et une carte haute ne remplit alors que la moitié
+     *  de sa hauteur. Réservé à la carte des parlers ; le jeu et la fiche gardent le
+     *  pas d'un niveau, et le téléphone ne change pas. */
+    zoomFin?: boolean
 }
 
 /** Le fond, servi par nous. Chargé une fois, mis en cache par le navigateur. */
@@ -68,7 +73,7 @@ interface CarteMontee {
     marqueurs: LayerGroup
 }
 
-export function CarteParlers({ points, couleurDe, className }: Props) {
+export function CarteParlers({ points, couleurDe, className, zoomFin = false }: Props) {
     const conteneur = useRef<HTMLDivElement>(null)
     const [carte, setCarte] = useState<CarteMontee | null>(null)
 
@@ -97,6 +102,7 @@ export function CarteParlers({ points, couleurDe, className }: Props) {
                 // gamme ; en canvas, c'est un seul élément à repeindre.
                 preferCanvas: true,
                 attributionControl: false,
+                zoomSnap: zoomFin && window.matchMedia("(min-width: 768px)").matches ? 0.1 : 1,
             }).fitBounds(CADRE)
             instance = map
 

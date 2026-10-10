@@ -33,6 +33,20 @@ export function VillageProfil({
     const [choisie, setChoisie] = useState<CommuneOption | null>(null);
     const [enCours, setEnCours] = useState(false);
 
+    // Le village peut arriver pendant que le composant est ouvert en édition : le
+    // cache de « Mon espace » date parfois d'avant le choix (tiroir d'accueil, 10/10).
+    // On ajuste pendant le rendu, comme use-liste-memorisee, pas dans un effet.
+    // Seul le passage de « aucun village » à un village referme l'édition.
+    const [villagePrecedent, setVillagePrecedent] = useState(villageActuel);
+    if (villageActuel !== villagePrecedent) {
+        setVillagePrecedent(villageActuel);
+        if (!villagePrecedent && villageActuel) {
+            setEnEdition(false);
+            setRecherche("");
+            setChoisie(null);
+        }
+    }
+
     useEffect(() => {
         if (enEdition && !communes) listerCommunesAction().then(setCommunes);
     }, [enEdition, communes]);

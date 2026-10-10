@@ -117,7 +117,10 @@ VPS partagé ; `dev` et `main` **partagent la même base**.
 - CSP : `'strict-dynamic'` annule `'self'` dans `script-src`. Un worker a
   besoin de son `worker-src 'self'` explicite.
 - Notifications : dev et main partagent la base, donc les abonnés et la même
-  paire VAPID ; N8N n'appelle que `main`.
+  paire VAPID ; N8N n'appelle que `main`. Sur Android, l'autorisation
+  donnée au **navigateur ne vaut pas pour l'app installée** : les demander
+  dans l'app. Un abonnement par appareil et par contexte (dédup par
+  abonnement, pas par membre).
 
 ## Vérification (méthode qui a fait ses preuves)
 
@@ -155,9 +158,10 @@ VPS partagé ; `dev` et `main` **partagent la même base**.
 
 - Toutes les étapes de la refonte sont faites (dérivation, session, fiches
   publiques, admin, carte, contribution, jeu, deux sens).
-- **En production** : PR #99 (10/10) : le tiroir d'accueil enchaîne
-  installer, notifications, **village**, puis propose le défi du jour.
-  Avant elle, PR #98 (notifications du défi, installation, icônes du menu).
+- **En production** : PR #101 (10/10) : le tiroir d'accueil propose
+  installer puis **village** dans le navigateur, les notifications dans
+  l'app installée seulement, puis « Faire le défi du jour ». Avant elle,
+  PR #99 et #98 (notifications du défi, installation, icônes du menu).
   Vérifiée (`/sw.js` 200, `notifier-defi` 401 sans jeton).
 - **Sécurité : audit du 02/10 entièrement soldé.** Quatre failles (PR #95),
   secrets changés (`SESSION_SECRET` le 08/10 ; mot de passe Postgres,

@@ -11,6 +11,7 @@ import { RechercheVillage, type Village } from "@/components/contribution/habill
 import { estInstalle, InstallerApp } from "@/components/installer-app";
 import { useNotifications } from "@/components/notifications-defi";
 import { Drawer, DrawerContent, DrawerDescription, DrawerTitle } from "@/components/ui/drawer";
+import { cleCache, invaliderCache } from "@/lib/cache-navigation";
 
 // Le parcours du téléphone (10/10/2026, demande de John) : un tiroir qui monte
 // du bas après la connexion, en trois temps au plus.
@@ -18,7 +19,8 @@ import { Drawer, DrawerContent, DrawerDescription, DrawerTitle } from "@/compone
 //   1. Le Dico n'est pas installé : on propose de le mettre sur l'écran
 //      d'accueil, en disant ce qu'on y gagne.
 //   2. Les notifications ne sont pas activées : on propose de recevoir le défi
-//      chaque matin. Seulement si le Dico est installé ou en passe de l'être.
+//      chaque matin. Seulement dans l'app installée : l'autorisation donnée au
+//      navigateur ne vaut pas pour l'app (Android, constaté le 10/10).
 //   3. Le membre n'a pas de village : on le lui fait choisir (ajouté le 10/10,
 //      pour tout demander en une fois). Choisi dans une liste, jamais détecté.
 //
@@ -106,7 +108,7 @@ export function TiroirAccueil() {
         const installe = estInstalle();
         const etapes: Etape[] = [];
         if (!installe && garde("installer")) etapes.push("installer");
-        if ((installe || etapes.length > 0) && notifications.etat === "inactif" && garde("notifier"))
+        if (installe && notifications.etat === "inactif" && garde("notifier"))
             etapes.push("notifier");
         if (village === null && garde("village")) etapes.push("village");
         setFile(etapes);
@@ -132,8 +134,9 @@ export function TiroirAccueil() {
         else setOuvert(false);
     };
 
-    // Installé par le bouton. Sur Android, l'abonnement pris dans le navigateur
-    // vaut aussi pour l'app installée (même site, même service worker).
+    // Installé par le bouton. Les notifications se demandent dans l'app installée,
+    // pas ici : le navigateur et l'app n'ont pas la même autorisation (constaté par
+    // John sur Android, 10/10).
     const apresInstallation = () => {
         setInstalleIci(true);
         suivante(true);
@@ -149,6 +152,9 @@ export function TiroirAccueil() {
     const apresVillage = (v: Village) => {
         setVillage(v);
         setVillageChoisi(true);
+        // « Mon espace » peut être ouvert derrière le tiroir : on lui dit de relire.
+        if (session) invaliderCache(cleCache("mon-espace", session.membreId));
+        window.dispatchEvent(new Event("ed-village-defini"));
         suivante(true);
     };
 
@@ -162,7 +168,7 @@ export function TiroirAccueil() {
     const bilan = [
         villageChoisi && village ? `Ton village : ${village.nom}.` : null,
         installeIci
-            ? "Ferme cette page et ouvre le Dico depuis sa nouvelle icône, sur ton écran d'accueil."
+            ? "Ferme cette page et ouvre le Dico depuis sa nouvelle icône, sur ton écran d'accueil. Là, tu pourras recevoir le défi chaque matin."
             : null,
         notifications.etat === "actif" ? "Le prochain défi arrive sur ton téléphone à 10 h." : null,
     ]
@@ -215,7 +221,7 @@ export function TiroirAccueil() {
                     {etape === "notifier" && (
                         <>
                             <DrawerTitle className={titre}>
-                                {installeIci ? "C'est installé. Reçois le défi chaque matin" : "Recevoir le défi chaque matin"}
+                                Recevoir le défi chaque matin
                             </DrawerTitle>
                             <DrawerDescription className={texte}>
                                 Une notification à 10 h, une fois par jour. Rien si tu as déjà joué. Tu

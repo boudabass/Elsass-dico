@@ -3306,3 +3306,20 @@ session (section 0 « Avancement »), 883 à jour.
 - Non touché : l'encart de fin de défi et « Mon espace » proposent toujours
   les notifications dans le navigateur, ce qui reste juste pour qui
   n'installe pas le Dico.
+- **Vérifié à l'écran sur dev** (compte de test, connecté par John) : dans
+  le navigateur, « Étape 1 sur 2 · Mets le Dico sur ton téléphone » sans
+  étape notifications ; « Plus tard » ; « Étape 2 sur 2 · Choisis ton
+  village » (Sélestat) ; « C'est prêt · Ton village : Sélestat » ; « Faire
+  le défi du jour » ouvre le défi n° 16 et ferme le tiroir. Le compte de
+  test garde Sélestat (aucun écran ne retire un village).
+- **Défaut trouvé pendant la vérification** : « Mon espace » ouvert derrière
+  le tiroir demandait encore le village, et au retour par le menu le champ
+  de recherche restait ouvert sous l'étape cochée (cache peint d'avant le
+  choix, `VillageProfil` ouvert en édition qui ne se refermait pas).
+  Correctif (« Operateur Elsass Dico », relu) : le tiroir invalide le cache
+  de « Mon espace » et envoie `ed-village-defini`, que la page écoute pour
+  se relire ; `VillageProfil` referme l'édition quand le village passe de
+  rien à une valeur. Vérifié sur dev : le signal relance le chargement,
+  « Sélestat · Changer » s'affiche. Le cas complet (compte sans village)
+  n'a pas pu être rejoué.
+- **PR #101** (`dev` → `main`), commit de merge. Odoo 883 à jour avant.

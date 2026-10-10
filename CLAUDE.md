@@ -155,9 +155,10 @@ VPS partagé ; `dev` et `main` **partagent la même base**.
 
 - Toutes les étapes de la refonte sont faites (dérivation, session, fiches
   publiques, admin, carte, contribution, jeu, deux sens).
-- **En production** : PR #98 (notifications du défi, installation du Dico,
-  icônes du menu), 10/10, vérifiée (`/sw.js` 200, `notifier-defi` 401 sans
-  jeton, `worker-src`). `dev` n'a en plus que de la doc.
+- **En production** : PR #99 (10/10) : le tiroir d'accueil enchaîne
+  installer, notifications, **village**, puis propose le défi du jour.
+  Avant elle, PR #98 (notifications du défi, installation, icônes du menu).
+  Vérifiée (`/sw.js` 200, `notifier-defi` 401 sans jeton).
 - **Sécurité : audit du 02/10 entièrement soldé.** Quatre failles (PR #95),
   secrets changés (`SESSION_SECRET` le 08/10 ; mot de passe Postgres,
   `AUTOMATISATION_API_TOKEN` + N8N, jeton Coolify le 09/10), port 5444 fermé,

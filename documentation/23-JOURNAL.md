@@ -3281,3 +3281,6 @@ session (section 0 « Avancement »), 883 à jour.
   un gros bouton « Faire le défi du jour » vers `/jeu`, sauf si le Dico
   vient d'être installé (le texte dit d'ouvrir l'icône) ou si on est déjà
   sur `/jeu`. Écrit par la session « Operateur Elsass Dico » (Haiku), relu.
+- **PR #99** fusionnée par commit de merge (`57f19d4`), vérifiée en
+  production : code servi contenant les deux changements, `/sw.js` 200,
+  `notifier-defi` 401 sans jeton.

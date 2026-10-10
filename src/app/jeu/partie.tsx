@@ -371,7 +371,7 @@ function Reponse({ revelation, children }: { revelation: Revelation; children: R
             <div className="mt-5 flex flex-wrap items-center gap-x-4 gap-y-2">
                 {children}
                 <Link
-                    href={`/village/${village.slug}`}
+                    href={`/village/${village.slug}?depuis=jeu`}
                     className="inline-flex min-h-10 items-center text-sm font-semibold text-marque-rouge-texte underline-offset-4 hover:underline"
                 >
                     Voir la fiche de {village.nom}

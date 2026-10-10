@@ -3354,3 +3354,8 @@ dans un onglet sur dev : `/` → `/recherche` → `/api/session/refresh` →
 `/recherche`, 3 redirections, puis la page. Sans cookie, rien ne boucle sur
 main. Cause non établie ; probablement le même incident que le « 404 à la
 réouverture » du 07/10.
+
+**Suite (10/10, soir)** : John n'a eu aucun souci sur main, seulement sur
+dev, qu'il est le seul à ouvrir chaque jour. Il pense à un cache propre à dev
+(dev redéploie souvent). Classé comme réglé pour main, **à rouvrir** si la
+boucle apparaît sur main (adresse complète à copier avant « Actualiser »).

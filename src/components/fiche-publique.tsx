@@ -17,9 +17,13 @@ import { cn } from "@/lib/utils";
 export function FichePublique({
   className,
   children,
+  retour,
 }: {
   className?: string;
   children: ReactNode;
+  // Où mène la flèche, quand la fiche n'a pas l'accueil pour origine (le défi
+  // du jour). Absent : la flèche va à l'accueil, comme avant.
+  retour?: { href: string; label: string };
 }) {
   return (
     <div className="flex min-h-ecran flex-col">
@@ -29,8 +33,8 @@ export function FichePublique({
       >
         <div className="flex h-14 items-center gap-2 px-4">
           <Link
-            href="/"
-            aria-label="Retour à l'accueil"
+            href={retour?.href ?? "/"}
+            aria-label={retour?.label ?? "Retour à l'accueil"}
             className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-neutre-100 text-foreground transition-colors hover:bg-neutre-300/60 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
           >
             <ChevronLeft className="h-[18px] w-[18px]" strokeWidth={2.2} />

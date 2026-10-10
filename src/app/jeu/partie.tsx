@@ -17,6 +17,7 @@ import {
 import { BadgeConfiance } from "@/components/badge-confiance";
 import type { PointParler } from "@/components/carte-parlers";
 import { LIBELLES_DEPARTEMENT } from "@/lib/dictionnaire";
+import { ecrireReprise } from "@/lib/jeu-reprise";
 import { cn } from "@/lib/utils";
 
 import { Bilan } from "./bilan";
@@ -35,18 +36,31 @@ type ResultatReponse = Resultat<{ revelation: Revelation; score: number; finie: 
 
 export function Partie({
     initiale,
+    indiceInitial,
+    qui,
     onQuitter,
 }: {
     initiale: PartiePublique;
+    indiceInitial?: number;
+    qui: string;
     onQuitter: () => void;
 }) {
     const [partie, setPartie] = useState(initiale);
     // On reprend à la première manche sans réponse. Une manche répondue reste à
     // l'écran (sa révélation) jusqu'à ce que le membre passe à la suivante.
+    // Une reprise depuis la session garde la manche exacte où l'on en était.
     const [indice, setIndice] = useState(() => {
+        if (indiceInitial !== undefined) return indiceInitial;
         const i = initiale.manches.findIndex((m) => m.revelation === null);
         return i === -1 ? initiale.manches.length : i;
     });
+
+    // Le défi du jour se garde pour revenir sur l'écran (voir jeu-reprise.ts).
+    useEffect(() => {
+        if (partie.mode === "jour" && partie.numero !== null) {
+            ecrireReprise(qui, partie.numero, { partie, indice });
+        }
+    }, [qui, partie, indice]);
 
     const total = partie.manches.length;
 
@@ -357,7 +371,7 @@ function Reponse({ revelation, children }: { revelation: Revelation; children: R
             <div className="mt-5 flex flex-wrap items-center gap-x-4 gap-y-2">
                 {children}
                 <Link
-                    href={`/village/${village.slug}`}
+                    href={`/village/${village.slug}?depuis=jeu`}
                     className="inline-flex min-h-10 items-center text-sm font-semibold text-marque-rouge-texte underline-offset-4 hover:underline"
                 >
                     Voir la fiche de {village.nom}

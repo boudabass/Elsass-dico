@@ -53,18 +53,23 @@ export async function generateMetadata({
 
 export default async function VillagePage({
   params,
+  searchParams,
 }: {
   params: Promise<{ slug: string }>;
+  searchParams: Promise<{ depuis?: string | string[] }>;
 }) {
   const { slug } = await params;
+  const { depuis } = await searchParams;
   const village = await chargerVillage(slug);
   if (!village) notFound();
 
   const departement = LIBELLES_DEPARTEMENT[village.departement] ?? village.departement;
   const nbFormes = village.lemme?.variantes.length ?? 0;
+  // Seule la valeur « jeu » est reconnue : jamais une adresse venue de l'URL.
+  const retour = depuis === "jeu" ? { href: "/jeu", label: "Revenir au défi" } : undefined;
 
   return (
-    <FichePublique className="space-y-6">
+    <FichePublique className="space-y-6" retour={retour}>
       <header className="space-y-1">
         <p className="text-xs font-semibold uppercase tracking-wide text-muted-foreground">
           {departement}

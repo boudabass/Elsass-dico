@@ -3354,3 +3354,37 @@ dans un onglet sur dev : `/` → `/recherche` → `/api/session/refresh` →
 `/recherche`, 3 redirections, puis la page. Sans cookie, rien ne boucle sur
 main. Cause non établie ; probablement le même incident que le « 404 à la
 réouverture » du 07/10.
+
+**Suite (10/10, soir)** : John n'a eu aucun souci sur main, seulement sur
+dev, qu'il est le seul à ouvrir chaque jour. Il pense à un cache propre à dev
+(dev redéploie souvent). Classé comme réglé pour main, **à rouvrir** si la
+boucle apparaît sur main (adresse complète à copier avant « Actualiser »).
+
+## Revue avant le lancement public (10/10/2026, soir)
+
+À trois (John, Opus orchestrateur, Haiku opérateur). Parcours d'un nouveau
+venu sur main, sans compte puis connecté, ordinateur et 375 px ; l'opérateur
+relit les textes du code (aucun tiret long, aucun vouvoiement, pas d'anglais
+monté, U+202F déjà neutralisé ; restent « Attestations », « Témoignages »,
+« forme » dans l'admin, laissés).
+
+- **Défi** : « Voir la fiche de X » en cours de partie faisait repartir de la
+  manche 1. État du défi du jour gardé en `sessionStorage` (clé avec le
+  numéro du défi, effacé par « Quitter » / « Terminer la partie »), et la
+  flèche de la fiche revient au défi (`?depuis=jeu`, seule valeur reconnue).
+  **Testé par John sur dev**, connecté et sans compte.
+- **Connexion** : formulaire étiré sur 1 856 px sur ordinateur, `max-w-sm`.
+- **`/sources`** : licence Martin & Lienhart réécrite à l'affichage (donnée
+  intacte), paternité © Kompetenzzentrum / Trier gardée.
+- **Fiche d'un mot sans village** : « Aucun village n'est encore indiqué
+  pour ce mot… », au singulier ou au pluriel.
+- **Carte d'un mot sur ordinateur** : `fitBounds` arrondissait le zoom vers
+  le bas (`zoomSnap` 0,1 sur `/carte` à partir de md), puis le bloc du mot
+  apparu au-dessus rétrécissait le conteneur sans que Leaflet le sache
+  (il ne suit que `window.resize`) : le Sundgau sortait du cadre.
+  `ResizeObserver` qui recadre tant qu'on n'a pas touché la carte. Vérifié
+  sur dev.
+- **Ouvert, sans urgence** : sur l'accueil public, « maison » montre aussi
+  « s' Unternamma » (sens « entreprise », de Culture Alsace). John : à
+  changer plus tard.
+- **PR #103** (`dev` → `main`), commit de merge.

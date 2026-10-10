@@ -160,7 +160,11 @@ VPS partagé ; `dev` et `main` **partagent la même base**.
 
 - Toutes les étapes de la refonte sont faites (dérivation, session, fiches
   publiques, admin, carte, contribution, jeu, deux sens).
-- **En production** : PR #102 (10/10) : la carte d'un mot s'ouvre en
+- **En production** : PR #103 (10/10), revue avant lancement : le défi
+  reprend après la fiche d'un village (sessionStorage, flèche « Revenir au
+  défi » via `?depuis=jeu`), connexion centrée sur ordinateur, licence
+  Martin & Lienhart lisible sur `/sources`, carte d'un mot cadrée
+  (ResizeObserver). PR #102 : la carte d'un mot s'ouvre en
   0,5 s depuis la fiche (9,1 s avant). Avant elle, PR #101 : le tiroir
   d'accueil propose installer puis **village** dans le navigateur, les
   notifications dans l'app installée seulement, puis « Faire le défi du
@@ -177,9 +181,9 @@ VPS partagé ; `dev` et `main` **partagent la même base**.
 - Base : ~26 526 lemmes, 42 510 variantes (dont 863 insultes de la source
   `dj_fabz`, intégrées le 09/10), 2 membres, 8 événements de contribution.
 - **À constater par John** : boucle de redirections
-  (`ERR_TOO_MANY_REDIRECTS`) à la première ouverture du jour, ordinateur
-  et téléphone, sans doute le « 404 à la réouverture » du 07/10 ; non
-  reproduite dans un onglet sur dev, capture de l'adresse demandée ; qu'aucun
+  (`ERR_TOO_MANY_REDIRECTS`) à la première ouverture du jour, vue sur dev
+  seulement, jamais sur main (10/10) : classée cache de dev, à rouvrir si
+  elle touche main ; qu'aucun
   déploiement de dev ne suit un commit `data:` de N8N. Le compte Odoo
   `theelsassisch+test@gmail.com` est **gardé** (ne plus proposer de le
   supprimer). Partage par lien sur téléphone : confirmé le 09/10.

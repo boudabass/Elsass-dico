@@ -3342,6 +3342,8 @@ Retour de John : depuis une fiche, « Voir sur la carte » montrait « « » » 
   guillemets vides ; un vieux lien sans titre n'affiche rien au lieu de « ».
 - **Vérifié sur dev** par la fiche : 0,49 s et 0,57 s sur deux mots, URL
   nettoyée après coup, « Revenir à la fiche de « à bon droit » » affiché.
+- **PR #102** (`dev` → `main`), commit de merge. Odoo 883 et CLAUDE.md à
+  jour avant.
 
 ## Boucle de redirections à la première ouverture du jour (10/10/2026)
 

@@ -84,6 +84,8 @@ VPS partagé ; `dev` et `main` **partagent la même base**.
   `experimental.cpus = 1` évite l'OOM du build.
 - **Une Server Action en vol ne survit ni à `router.replace` ni à
   `history.replaceState`** : réécrire l'URL après le chargement, jamais pendant.
+  La garde attend les données, pas un état posé dans le même passage
+  d'effets (encore nul à ce moment : 9 s de carte, 10/10).
 - **Une Server Action de lecture se garde elle-même** (`estConnecte()`) : Next
   expose toutes les actions importées par une page, y compris une page publique.
 - **Un fichier `'use server'` n'exporte que des actions publiques** : les
@@ -158,10 +160,11 @@ VPS partagé ; `dev` et `main` **partagent la même base**.
 
 - Toutes les étapes de la refonte sont faites (dérivation, session, fiches
   publiques, admin, carte, contribution, jeu, deux sens).
-- **En production** : PR #101 (10/10) : le tiroir d'accueil propose
-  installer puis **village** dans le navigateur, les notifications dans
-  l'app installée seulement, puis « Faire le défi du jour ». Avant elle,
-  PR #99 et #98 (notifications du défi, installation, icônes du menu).
+- **En production** : PR #102 (10/10) : la carte d'un mot s'ouvre en
+  0,5 s depuis la fiche (9,1 s avant). Avant elle, PR #101 : le tiroir
+  d'accueil propose installer puis **village** dans le navigateur, les
+  notifications dans l'app installée seulement, puis « Faire le défi du
+  jour » ; PR #99 et #98 (notifications du défi, installation, icônes du menu).
   Vérifiée (`/sw.js` 200, `notifier-defi` 401 sans jeton).
 - **Sécurité : audit du 02/10 entièrement soldé.** Quatre failles (PR #95),
   secrets changés (`SESSION_SECRET` le 08/10 ; mot de passe Postgres,
@@ -173,8 +176,10 @@ VPS partagé ; `dev` et `main` **partagent la même base**.
   `**` + `!data/contributions/**`. Premier passage le 09/10 : 8 événements.
 - Base : ~26 526 lemmes, 42 510 variantes (dont 863 insultes de la source
   `dj_fabz`, intégrées le 09/10), 2 membres, 8 événements de contribution.
-- **À constater par John** : plus de 404 à la réouverture de l'app après
-  30 min (cause non établie ; capture demandée si ça revient) ; qu'aucun
+- **À constater par John** : boucle de redirections
+  (`ERR_TOO_MANY_REDIRECTS`) à la première ouverture du jour, ordinateur
+  et téléphone, sans doute le « 404 à la réouverture » du 07/10 ; non
+  reproduite dans un onglet sur dev, capture de l'adresse demandée ; qu'aucun
   déploiement de dev ne suit un commit `data:` de N8N. Le compte Odoo
   `theelsassisch+test@gmail.com` est **gardé** (ne plus proposer de le
   supprimer). Partage par lien sur téléphone : confirmé le 09/10.

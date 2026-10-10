@@ -71,8 +71,10 @@ export default async function EntreePage({ params }: { params: Promise<{ id: str
         {/* Une fois pour toute la fiche, plutôt que sous chaque forme. */}
         {lemme.variantes.length > 0 && lemme.variantes.every((v) => v.nbVillages === 0) && (
           <p className="mt-1.5 text-sm text-muted-foreground">
-            Aucun village ne s&apos;est encore rattaché à ces façons de dire. Si l&apos;une se dit chez toi,
-            touche « Chez moi aussi ».
+            Aucun village n&apos;est encore indiqué pour ce mot.{" "}
+            {lemme.variantes.length > 1
+              ? <>Si on dit l&apos;une de ces façons chez toi, touche « Chez moi aussi ».</>
+              : <>Si on le dit comme ça chez toi, touche « Chez moi aussi ».</>}
           </p>
         )}
 

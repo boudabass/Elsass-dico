@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { Bell, Smartphone, Sparkles } from "lucide-react";
 
@@ -26,6 +27,8 @@ import { Drawer, DrawerContent, DrawerDescription, DrawerTitle } from "@/compone
 // semaine sur ce téléphone. Téléphone seulement : sur un ordinateur,
 // « installer » n'apporte rien à ce public, « Mon espace » demande le village
 // et l'encart de fin de défi propose les notifications. Une fois par visite.
+// À la fin, « Faire le défi du jour » mène à `/jeu` (10/10, demande de John),
+// sauf si le Dico vient d'être installé.
 
 type Etape = "installer" | "notifier" | "village";
 
@@ -149,6 +152,10 @@ export function TiroirAccueil() {
         suivante(true);
     };
 
+    // Pas proposé après une installation (le texte demande déjà d'ouvrir le
+    // Dico depuis sa nouvelle icône), ni depuis la page du défi.
+    const proposerDefi = !installeIci && !chemin.startsWith("/jeu");
+
     const titre = "text-[22px] font-extrabold leading-tight text-foreground";
     const texte = "mt-2 text-[15px] leading-[1.5] text-foreground";
 
@@ -252,6 +259,15 @@ export function TiroirAccueil() {
                         <>
                             <DrawerTitle className={titre}>C&apos;est prêt</DrawerTitle>
                             <DrawerDescription className={texte}>{bilan}</DrawerDescription>
+                            {proposerDefi && (
+                                <Link
+                                    href="/jeu"
+                                    onClick={() => setOuvert(false)}
+                                    className="mt-5 flex h-14 w-full items-center justify-center rounded-lg bg-sens-500 px-5 text-[17px] font-semibold text-white transition-colors hover:bg-sens-600"
+                                >
+                                    Faire le défi du jour
+                                </Link>
+                            )}
                         </>
                     )}
 
@@ -264,7 +280,7 @@ export function TiroirAccueil() {
                         }}
                         className="mt-2 flex h-12 w-full items-center justify-center text-[15px] font-semibold text-muted-foreground"
                     >
-                        {fini ? "Fermer" : "Plus tard"}
+                        {fini && !proposerDefi ? "Fermer" : "Plus tard"}
                     </button>
                 </div>
             </DrawerContent>

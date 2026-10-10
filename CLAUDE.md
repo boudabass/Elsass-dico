@@ -46,6 +46,8 @@ déjà tranchée.** Index : `documentation/README.md`.
 - **Aucun service extérieur à l'exécution.** Une bibliothèque dans le bundle et
   des données versionnées sont à nous ; un serveur interrogé ne l'est pas.
   Carte = Leaflet sans `tileLayer`, fond `public/carte/contours.topojson`.
+  **Seule exception** (John, 09/10) : les notifications du défi passent par
+  Google/Apple, envoyées par le serveur (Odoo 930).
 - **Licences respectées** : la mention de paternité peut changer de place,
   jamais disparaître (Licence Ouverte IGN/INSEE sur `/sources`).
   `culture_alsace` = site d'André Nisslé (pas Raymond Matzen).
@@ -110,6 +112,12 @@ VPS partagé ; `dev` et `main` **partagent la même base**.
   lecture) exigent que John le rouvre le temps du script, puis le referme.
 - Le middleware renvoie 307 sur **toute** route sans session, même inexistante :
   un 307 ne prouve pas qu'une page est déployée.
+- Un fichier de `public/` lu sans cookie (`sw.js`, `webmanifest`, `topojson`)
+  doit être **exclu du matcher** du middleware, sinon il part vers `/login`.
+- CSP : `'strict-dynamic'` annule `'self'` dans `script-src`. Un worker a
+  besoin de son `worker-src 'self'` explicite.
+- Notifications : dev et main partagent la base, donc les abonnés et la même
+  paire VAPID ; N8N n'appelle que `main`.
 
 ## Vérification (méthode qui a fait ses preuves)
 
@@ -143,7 +151,7 @@ VPS partagé ; `dev` et `main` **partagent la même base**.
   `scripts/supprimer-membre.mts` (anonymise, puis supprimer le compte Odoo).
 - Coolify via MCP : lecture seule.
 
-## État au 09/10/2026 (soir)
+## État au 10/10/2026
 
 - Toutes les étapes de la refonte sont faites (dérivation, session, fiches
   publiques, admin, carte, contribution, jeu, deux sens).
@@ -165,8 +173,13 @@ VPS partagé ; `dev` et `main` **partagent la même base**.
   déploiement de dev ne suit un commit `data:` de N8N. Le compte Odoo
   `theelsassisch+test@gmail.com` est **gardé** (ne plus proposer de le
   supprimer). Partage par lien sur téléphone : confirmé le 09/10.
+- **Notifications du défi du jour** (Odoo 930) : abonnement par le tiroir
+  après la connexion (installer, puis activer), l'encart de fin de défi ou
+  « Mon espace » ; envoi à 10 h par N8N (`DEFI_DICO_NOTIF_10H`, à publier
+  sur accord de John), route `notifier-defi`. Testé sur l'Android de John.
+  Reste D4 : trois matins sans raté avant l'annonce publique.
 - **En attente côté John** : feu vert du lancement public (workflow N8N
-  `MET_DEFI_DICO_HEBDO`).
+  `MET_DEFI_DICO_HEBDO`), après D4.
 - **`/application`** (site Odoo) : terminé le 09/10 (carte Elsass Dico vers
   `/login`, boutons d'Elsass Chat, « Vos idées », Cours et Forum).
 - **Prochaine session** : rien d'imposé. Les sources faibles s'intègrent

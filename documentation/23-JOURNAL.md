@@ -3285,3 +3285,24 @@ session (section 0 « Avancement »), 883 à jour.
   production : code servi contenant les deux changements, `/sw.js` 200,
   `notifier-defi` 401 sans jeton.
   Odoo 883 à jour (livré, D4 du 10/10 reçue, point fermé).
+
+## Les notifications se demandent dans l'app installée (10/10/2026)
+
+- **Constat de John sur Android** : après l'installation depuis le tiroir,
+  l'étape 2 (notifications) se faisait encore dans le navigateur. La
+  notification arrivait, mais dans l'app installée « Mon espace » affichait
+  « désactivé » ; rouvert depuis l'icône, le tiroir reproposait l'étape, qui
+  marchait cette fois. Le navigateur et l'app installée n'ont **pas la même
+  autorisation** : l'hypothèse du code (« l'abonnement pris dans le
+  navigateur vaut aussi pour l'app ») était fausse.
+- **Correctif** : l'étape notifications n'apparaît que dans l'app installée.
+  Dans le navigateur : installer, puis village ; « C'est prêt » dit d'ouvrir
+  le Dico depuis sa nouvelle icône, « Là, tu pourras recevoir le défi chaque
+  matin ». Écrit par « Operateur Elsass Dico », relu.
+- **Risque à constater le 11/10 à 10 h** : la déduplication se fait par
+  abonnement (`dernier_defi`), pas par membre. Si le téléphone de John garde
+  deux abonnements (navigateur et app), il reçoit la notification deux fois.
+  Pas mesurable en base (port 5444 fermé).
+- Non touché : l'encart de fin de défi et « Mon espace » proposent toujours
+  les notifications dans le navigateur, ce qui reste juste pour qui
+  n'installe pas le Dico.

@@ -1,29 +1,43 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { Bell, Smartphone, Sparkles } from "lucide-react";
 
+import { monVillageAction } from "@/app/actions/membres";
 import { useAuth } from "@/components/auth-provider";
+import { RechercheVillage, type Village } from "@/components/contribution/habillage";
 import { estInstalle, InstallerApp } from "@/components/installer-app";
 import { useNotifications } from "@/components/notifications-defi";
 import { Drawer, DrawerContent, DrawerDescription, DrawerTitle } from "@/components/ui/drawer";
 
 // Le parcours du téléphone (10/10/2026, demande de John) : un tiroir qui monte
-// du bas après la connexion, en deux temps.
+// du bas après la connexion, en trois temps au plus.
 //
 //   1. Le Dico n'est pas installé : on propose de le mettre sur l'écran
 //      d'accueil, en disant ce qu'on y gagne.
-//   2. Le Dico est installé (ouvert depuis son icône) mais les notifications
-//      ne sont pas activées : on propose de recevoir le défi chaque matin.
+//   2. Les notifications ne sont pas activées : on propose de recevoir le défi
+//      chaque matin. Seulement si le Dico est installé ou en passe de l'être.
+//   3. Le membre n'a pas de village : on le lui fait choisir (ajouté le 10/10,
+//      pour tout demander en une fois). Choisi dans une liste, jamais détecté.
 //
-// Téléphone seulement : sur un ordinateur, « installer » n'apporte rien à ce
-// public, et l'encart de fin de défi suffit. Une fois par visite au plus, et
-// « Plus tard » le fait taire une semaine sur ce téléphone.
+// Seules les étapes qui manquent sont montrées, numérotées si elles sont
+// plusieurs. « Plus tard » passe à la suivante et fait taire celle-ci une
+// semaine sur ce téléphone. Téléphone seulement : sur un ordinateur,
+// « installer » n'apporte rien à ce public, « Mon espace » demande le village
+// et l'encart de fin de défi propose les notifications. Une fois par visite.
+// À la fin, « Faire le défi du jour » mène à `/jeu` (10/10, demande de John),
+// sauf si le Dico vient d'être installé.
+
+type Etape = "installer" | "notifier" | "village";
 
 const PLUS_TARD_MS = 7 * 86_400_000;
-const CLE_INSTALLER = "ed_tiroir_installer";
-const CLE_NOTIFIER = "ed_tiroir_notifier";
+const CLES: Record<Etape, string> = {
+    installer: "ed_tiroir_installer",
+    notifier: "ed_tiroir_notifier",
+    village: "ed_tiroir_village",
+};
 const CLE_VU = "ed_tiroir_vu";
 
 // Pas sur ces écrans : on y entre ou on y travaille, un tiroir couperait le geste.
@@ -52,72 +66,125 @@ function estTelephone(): boolean {
     return window.matchMedia("(pointer: coarse)").matches && window.matchMedia("(max-width: 767px)").matches;
 }
 
+// `?tiroir` le force, pour le revoir ou le montrer (même idée que
+// `?premiers-pas` dans « Mon espace »).
+function estForce(): boolean {
+    return new URLSearchParams(window.location.search).has("tiroir");
+}
+
 export function TiroirAccueil() {
     const { session } = useAuth();
     const chemin = usePathname();
-    const [etape, setEtape] = useState<"installer" | "notifier" | "fini" | null>(null);
+    // `null` tant que rien n'est décidé ; une file vide = rien à proposer.
+    const [file, setFile] = useState<Etape[] | null>(null);
+    const [rang, setRang] = useState(0);
+    const [ouvert, setOuvert] = useState(false);
+    const [fini, setFini] = useState(false);
+    // `undefined` = pas encore lu.
+    const [village, setVillage] = useState<Village | null | undefined>(undefined);
+    const [villageChoisi, setVillageChoisi] = useState(false);
     // Installé depuis ce tiroir, à l'instant : le Dico tourne encore dans le
     // navigateur, il faudra l'ouvrir depuis sa nouvelle icône.
     const [installeIci, setInstalleIci] = useState(false);
-    // Parti de l'installation : on numérote alors les deux étapes.
-    const [enDeuxTemps, setEnDeuxTemps] = useState(false);
+    const [activeIci, setActiveIci] = useState(false);
     const notifications = useNotifications();
 
     const exclu = EXCLUS.some((p) => chemin.startsWith(p));
+    const candidat = !!session && !exclu && file === null;
+
+    // Le village n'est lu que s'il y a une chance d'ouvrir le tiroir.
+    useEffect(() => {
+        if (!candidat || village !== undefined) return;
+        if (!estForce() && (!estTelephone() || lire(() => sessionStorage, CLE_VU))) return;
+        monVillageAction().then((v) => setVillage(v ?? null));
+    }, [candidat, village]);
 
     useEffect(() => {
-        if (!session || exclu || etape !== null) return;
-        // `?tiroir` le force, pour le revoir ou le montrer (même idée que
-        // `?premiers-pas` dans « Mon espace »).
-        const force = new URLSearchParams(window.location.search).has("tiroir");
-        if (!force && !estTelephone()) return;
-        if (!force && lire(() => sessionStorage, CLE_VU)) return;
-        if (!estInstalle()) {
-            if (force || !reporte(CLE_INSTALLER)) {
-                setEtape("installer");
-                setEnDeuxTemps(true);
-                ecrire(() => sessionStorage, CLE_VU, "1");
-            }
-            return;
-        }
-        // Installé : il faut attendre de savoir où en sont les notifications.
-        if (notifications.etat === "chargement") return;
-        if (notifications.etat === "inactif" && (force || !reporte(CLE_NOTIFIER))) {
-            setEtape("notifier");
+        if (!candidat || village === undefined || notifications.etat === "chargement") return;
+        const force = estForce();
+        const garde = (e: Etape) => force || !reporte(CLES[e]);
+        const installe = estInstalle();
+        const etapes: Etape[] = [];
+        if (!installe && garde("installer")) etapes.push("installer");
+        if ((installe || etapes.length > 0) && notifications.etat === "inactif" && garde("notifier"))
+            etapes.push("notifier");
+        if (village === null && garde("village")) etapes.push("village");
+        setFile(etapes);
+        if (etapes.length > 0) {
+            setOuvert(true);
             ecrire(() => sessionStorage, CLE_VU, "1");
         }
-    }, [session, exclu, etape, notifications.etat]);
+    }, [candidat, village, notifications.etat]);
 
-    if (!session) return null;
+    if (!session || !file || file.length === 0) return null;
 
-    const fermer = (plusTard: boolean) => {
-        if (plusTard && (etape === "installer" || etape === "notifier"))
-            ecrire(() => localStorage, etape === "installer" ? CLE_INSTALLER : CLE_NOTIFIER, String(Date.now()));
-        setEtape(null);
+    const etape = fini ? null : file[rang];
+
+    const remettre = () => {
+        if (etape) ecrire(() => localStorage, CLES[etape], String(Date.now()));
     };
 
-    // Installé par le bouton : on enchaîne tout de suite sur les notifications,
-    // dans le même tiroir. Sur Android, l'abonnement pris dans le navigateur
+    // Étape faite ou remise : on passe à la suivante, ou on conclut s'il y a
+    // quelque chose à dire.
+    const suivante = (faite: boolean) => {
+        if (rang + 1 < file.length) setRang(rang + 1);
+        else if (faite || installeIci || villageChoisi || activeIci) setFini(true);
+        else setOuvert(false);
+    };
+
+    // Installé par le bouton. Sur Android, l'abonnement pris dans le navigateur
     // vaut aussi pour l'app installée (même site, même service worker).
     const apresInstallation = () => {
         setInstalleIci(true);
-        setEtape(notifications.etat === "inactif" ? "notifier" : "fini");
+        suivante(true);
     };
 
     const activer = async () => {
-        if (await notifications.activer()) setEtape("fini");
+        if (await notifications.activer()) {
+            setActiveIci(true);
+            suivante(true);
+        }
     };
+
+    const apresVillage = (v: Village) => {
+        setVillage(v);
+        setVillageChoisi(true);
+        suivante(true);
+    };
+
+    // Pas proposé après une installation (le texte demande déjà d'ouvrir le
+    // Dico depuis sa nouvelle icône), ni depuis la page du défi.
+    const proposerDefi = !installeIci && !chemin.startsWith("/jeu");
 
     const titre = "text-[22px] font-extrabold leading-tight text-foreground";
     const texte = "mt-2 text-[15px] leading-[1.5] text-foreground";
 
+    const bilan = [
+        villageChoisi && village ? `Ton village : ${village.nom}.` : null,
+        installeIci
+            ? "Ferme cette page et ouvre le Dico depuis sa nouvelle icône, sur ton écran d'accueil."
+            : null,
+        notifications.etat === "actif" ? "Le prochain défi arrive sur ton téléphone à 10 h." : null,
+    ]
+        .filter(Boolean)
+        .join(" ");
+
     return (
-        <Drawer open={etape !== null} onOpenChange={(o) => !o && fermer(true)} shouldScaleBackground={false}>
+        <Drawer
+            open={ouvert}
+            onOpenChange={(o) => {
+                if (o) return;
+                remettre();
+                setOuvert(false);
+            }}
+            repositionInputs={false}
+            shouldScaleBackground={false}
+        >
             <DrawerContent className="max-h-[92dvh]">
                 <div className="overflow-y-auto px-4 pb-[max(1.25rem,env(safe-area-inset-bottom))] pt-3">
-                    {enDeuxTemps && etape !== "fini" && (
+                    {file.length > 1 && etape && (
                         <p className="mb-1 text-sm font-semibold text-sens-texte">
-                            Étape {etape === "installer" ? 1 : 2} sur 2
+                            Étape {rang + 1} sur {file.length}
                         </p>
                     )}
 
@@ -174,23 +241,46 @@ export function TiroirAccueil() {
                         </>
                     )}
 
-                    {etape === "fini" && (
+                    {etape === "village" && (
+                        <>
+                            <DrawerTitle className={titre}>Choisis ton village</DrawerTitle>
+                            <DrawerDescription className={texte}>
+                                Quand tu dis comment on dit un mot chez toi, c&apos;est ton village qui apparaît
+                                sur la carte. Tu peux le changer quand tu veux dans «&nbsp;Mon espace&nbsp;».
+                            </DrawerDescription>
+                            <p className={texte}>Écris son nom, puis appuie dessus dans la liste.</p>
+                            <div className="mt-4">
+                                <RechercheVillage onChoisi={apresVillage} />
+                            </div>
+                        </>
+                    )}
+
+                    {fini && (
                         <>
                             <DrawerTitle className={titre}>C&apos;est prêt</DrawerTitle>
-                            <DrawerDescription className={texte}>
-                                {installeIci
-                                    ? "Ferme cette page et ouvre le Dico depuis sa nouvelle icône, sur ton écran d'accueil. Le prochain défi arrive à 10 h."
-                                    : "Le prochain défi arrive sur ton téléphone à 10 h."}
-                            </DrawerDescription>
+                            <DrawerDescription className={texte}>{bilan}</DrawerDescription>
+                            {proposerDefi && (
+                                <Link
+                                    href="/jeu"
+                                    onClick={() => setOuvert(false)}
+                                    className="mt-5 flex h-14 w-full items-center justify-center rounded-lg bg-sens-500 px-5 text-[17px] font-semibold text-white transition-colors hover:bg-sens-600"
+                                >
+                                    Faire le défi du jour
+                                </Link>
+                            )}
                         </>
                     )}
 
                     <button
                         type="button"
-                        onClick={() => fermer(etape !== "fini")}
+                        onClick={() => {
+                            if (fini) return setOuvert(false);
+                            remettre();
+                            suivante(false);
+                        }}
                         className="mt-2 flex h-12 w-full items-center justify-center text-[15px] font-semibold text-muted-foreground"
                     >
-                        {etape === "fini" ? "Fermer" : "Plus tard"}
+                        {fini && !proposerDefi ? "Fermer" : "Plus tard"}
                     </button>
                 </div>
             </DrawerContent>

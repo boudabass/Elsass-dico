@@ -155,9 +155,9 @@ VPS partagé ; `dev` et `main` **partagent la même base**.
 
 - Toutes les étapes de la refonte sont faites (dérivation, session, fiches
   publiques, admin, carte, contribution, jeu, deux sens).
-- **En production** : PR #96 (CSP complète avec nonce) et PR #97 (route
-  d'export des contributions), 09/10. `dev` n'a en plus que de la doc et le
-  journal exporté.
+- **En production** : PR #98 (notifications du défi, installation du Dico,
+  icônes du menu), 10/10, vérifiée (`/sw.js` 200, `notifier-defi` 401 sans
+  jeton, `worker-src`). `dev` n'a en plus que de la doc.
 - **Sécurité : audit du 02/10 entièrement soldé.** Quatre failles (PR #95),
   secrets changés (`SESSION_SECRET` le 08/10 ; mot de passe Postgres,
   `AUTOMATISATION_API_TOKEN` + N8N, jeton Coolify le 09/10), port 5444 fermé,
@@ -175,9 +175,10 @@ VPS partagé ; `dev` et `main` **partagent la même base**.
   supprimer). Partage par lien sur téléphone : confirmé le 09/10.
 - **Notifications du défi du jour** (Odoo 930) : abonnement par le tiroir
   après la connexion (installer, puis activer), l'encart de fin de défi ou
-  « Mon espace » ; envoi à 10 h par N8N (`DEFI_DICO_NOTIF_10H`, à publier
-  sur accord de John), route `notifier-defi`. Testé sur l'Android de John.
-  Reste D4 : trois matins sans raté avant l'annonce publique.
+  « Mon espace » ; envoi à 10 h par N8N (`DEFI_DICO_NOTIF_10H`, **publié
+  le 10/10**, main seulement), route `notifier-defi`. Testé sur l'Android de
+  John. Reste D4 : matins des 10, 11 et 12/10 sans raté (2 abonnés à
+  l'essai simulé), avant l'annonce publique.
 - **En attente côté John** : feu vert du lancement public (workflow N8N
   `MET_DEFI_DICO_HEBDO`), après D4.
 - **`/application`** (site Odoo) : terminé le 09/10 (carte Elsass Dico vers

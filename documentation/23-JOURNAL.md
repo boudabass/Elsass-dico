@@ -3238,3 +3238,46 @@ N8N actif). MCP Coolify rétabli : le 401 venait d'un jeton révoqué dans
   visite, « Plus tard » = une semaine, `?tiroir` le force.
 - **Testé par John sur son Android** (dev) : installation, notification
   d'essai reçue, parcours du tiroir.
+- **PR #98** (`dev` → `main`), fusionnée par commit de merge (`36afa80`).
+  Vérifiée en production : `/sw.js` 200 sans session, `notifier-defi` 401
+  sans jeton, CSP avec `worker-src 'self'`. Odoo 883 à jour. Reste D4
+  (plan 930) : essai simulé N8N, publication de `DEFI_DICO_NOTIF_10H` sur
+  accord de John, trois matins sans raté avant l'annonce publique.
+
+## Clôture de session (10/10/2026, nuit)
+
+Notifications du défi du jour en production (PR #98) et en service :
+`DEFI_DICO_NOTIF_10H` publié par la session « The Elsassisch World » sur
+accord de John (10 h, main seulement). Essai simulé avant publication :
+200, défi n° 16, 2 abonnés, 2 seraient prévenus. Odoo 930 tenu par l'autre
+session (section 0 « Avancement »), 883 à jour.
+
+- **Prochaine session** : rien d'imposé.
+- **D4 à constater par John** : notification à 10 h les 10, 11 et 12/10,
+  rien les matins où il a déjà fini le défi. Si elle manque ou arrive deux
+  fois : lire le bilan de `notifier-defi` (exécution N8N).
+- **Puis** : feu vert du lancement public (`MET_DEFI_DICO_HEBDO`) ; John
+  réinstalle le Dico depuis le site public (l'icône installée depuis dev
+  ouvre dev).
+
+## Le tiroir d'accueil demande aussi le village (10/10/2026)
+
+- **D4, matin du 10/10** : `DEFI_DICO_NOTIF_10H` a tourné à 10 h (succès) ;
+  John a reçu la notification, l'appui ouvre bien le défi dans l'app.
+- **Demande de John** : tout demander en une fois après la connexion :
+  installer, activer les notifications, **choisir son village**. Le tiroir
+  devient une file des seules étapes qui manquent (« Étape N sur M » si
+  plusieurs) : installer (pas installé), notifications (inactives, et Dico
+  installé ou en passe de l'être), village (profil sans village). « Plus
+  tard » remet l'étape une semaine **et passe à la suivante** ; glisser le
+  tiroir vers le bas ne remet que l'étape affichée. « C'est prêt » ne
+  conclut que si quelque chose a été fait dans le tiroir, et dit quoi.
+- La recherche de village de la contribution est sortie en
+  `RechercheVillage` (`habillage.tsx`), partagée avec `EtapeVillage`. Dans
+  le tiroir, pas d'`autoFocus` : le clavier cacherait l'explication.
+- Toujours téléphone seulement : sur ordinateur, « Mon espace » demande le
+  village.
+- **Puis, à la fin** (demande de John, même jour) : « C'est prêt » propose
+  un gros bouton « Faire le défi du jour » vers `/jeu`, sauf si le Dico
+  vient d'être installé (le texte dit d'ouvrir l'icône) ou si on est déjà
+  sur `/jeu`. Écrit par la session « Operateur Elsass Dico » (Haiku), relu.

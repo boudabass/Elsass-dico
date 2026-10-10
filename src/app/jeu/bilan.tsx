@@ -8,6 +8,7 @@ import { motChezToiAction, type PartiePublique } from "@/app/actions/jeu";
 import { BoutonContribuer } from "@/components/contribution/bouton-contribuer";
 import { BoutonChezMoi } from "@/components/contribution/bouton-chez-moi";
 import { useAuth } from "@/components/auth-provider";
+import { EncartNotifications } from "@/components/notifications-defi";
 import { ListSkeleton } from "@/components/ui/list-skeleton";
 import { useListeMemorisee } from "@/hooks/use-liste-memorisee";
 import { cleCache } from "@/lib/cache-navigation";
@@ -84,6 +85,10 @@ export function Bilan({
                     Terminer la partie
                 </button>
             </div>
+
+            {/* Le défi chaque matin (Odoo 930) : seulement pour un membre, à la fin
+                du défi du jour, le moment où l'envie de revenir existe. */}
+            {partie.mode === "jour" && !partie.invite && <EncartNotifications className="mt-8" />}
 
             {partie.invite ? <InvitationCompte className="mt-10 border-t border-border pt-6" /> : <ChezToi mode={partie.mode} />}
         </>

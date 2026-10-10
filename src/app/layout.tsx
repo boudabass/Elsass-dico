@@ -7,6 +7,7 @@ import { AuthProvider } from "@/components/auth-provider";
 import { InverseurSens } from "@/components/inverseur-sens";
 import { LayoutWrapper } from "@/components/layout-wrapper";
 import { SensProvider } from "@/components/sens-provider";
+import { TiroirAccueil } from "@/components/tiroir-accueil";
 import { COOKIE_SENS, lireSens } from "@/lib/sens";
 import { sessionActuelle } from "@/lib/session-serveur";
 import { cookies } from "next/headers";
@@ -68,6 +69,8 @@ export default async function RootLayout({
             <LayoutWrapper>
               {children}
             </LayoutWrapper>
+            {/* Installer le Dico, puis recevoir le défi chaque matin (10/10/2026). */}
+            {session && <TiroirAccueil />}
             <Toaster />
           </SensProvider>
         </AuthProvider>

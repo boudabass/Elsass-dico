@@ -46,6 +46,8 @@ déjà tranchée.** Index : `documentation/README.md`.
 - **Aucun service extérieur à l'exécution.** Une bibliothèque dans le bundle et
   des données versionnées sont à nous ; un serveur interrogé ne l'est pas.
   Carte = Leaflet sans `tileLayer`, fond `public/carte/contours.topojson`.
+  **Seule exception** (John, 09/10) : les notifications du défi passent par
+  Google/Apple, envoyées par le serveur (Odoo 930).
 - **Licences respectées** : la mention de paternité peut changer de place,
   jamais disparaître (Licence Ouverte IGN/INSEE sur `/sources`).
   `culture_alsace` = site d'André Nisslé (pas Raymond Matzen).
@@ -110,6 +112,12 @@ VPS partagé ; `dev` et `main` **partagent la même base**.
   lecture) exigent que John le rouvre le temps du script, puis le referme.
 - Le middleware renvoie 307 sur **toute** route sans session, même inexistante :
   un 307 ne prouve pas qu'une page est déployée.
+- Un fichier de `public/` lu sans cookie (`sw.js`, `webmanifest`, `topojson`)
+  doit être **exclu du matcher** du middleware, sinon il part vers `/login`.
+- CSP : `'strict-dynamic'` annule `'self'` dans `script-src`. Un worker a
+  besoin de son `worker-src 'self'` explicite.
+- Notifications : dev et main partagent la base, donc les abonnés et la même
+  paire VAPID ; N8N n'appelle que `main`.
 
 ## Vérification (méthode qui a fait ses preuves)
 
@@ -119,6 +127,8 @@ VPS partagé ; `dev` et `main` **partagent la même base**.
 - Déploiement : attendre que `updated_at` Coolify avance **et** que le code
   servi contienne le changement, avant toute capture.
 - **Vérifier à l'écran en passant par la nav**, pas seulement par l'URL.
+- Chrome piloté n'atteint pas `pnpm dev` en local (ses requêtes n'arrivent
+  pas au serveur) : tester sur dev.
 - Chrome piloté : l'onglet est caché (`visibilityState: hidden`) → faire une
   capture avant de conclure qu'un écran ne charge pas ; les animations de sortie
   Radix ne finissent pas (lire `data-state`, pas la présence) ; `resize_window`
@@ -132,49 +142,48 @@ VPS partagé ; `dev` et `main` **partagent la même base**.
 ## Conventions
 
 - Travail sur `dev`, PR `dev` → `main` **par commit de merge** (pas de squash).
-- Clôture de session : relancer `scripts/exporter-contributions.mts` s'il y a eu
-  des votes ou des formes (tant que le workflow N8N
-  `OP_EXPORT_CONTRIBUTIONS_DICO` n'est pas actif), mettre à jour `documentation/23-JOURNAL.md`, Odoo 883
+- Clôture de session : l'export des contributions est automatique (workflow
+  N8N `OP_EXPORT_CONTRIBUTIONS_DICO`, chaque nuit à 4 h, commit sur `dev`
+  seulement si le journal a changé) ; faire `git pull` avant de travailler, mettre à jour `documentation/23-JOURNAL.md`, Odoo 883
   si un jalon bouge. **Ce fichier-ci ne reçoit que ce qui change une règle, un
   piège ou l'état ci-dessous** : le récit va dans le journal.
 - Premier admin : `scripts/promouvoir-admin.mts` ; suppression d'un membre :
   `scripts/supprimer-membre.mts` (anonymise, puis supprimer le compte Odoo).
 - Coolify via MCP : lecture seule.
 
-## État au 09/10/2026 (soir)
+## État au 10/10/2026
 
 - Toutes les étapes de la refonte sont faites (dérivation, session, fiches
   publiques, admin, carte, contribution, jeu, deux sens).
-- **`main` et `dev` alignés par la PR #95** (08/10) : les quatre failles de
-  l'audit du 02/10. Avant, PR #94 : textes de l'app corrigés après inventaire,
-  retour de la carte vers la fiche.
-- **À constater par John** : plus de 404 à la réouverture de l'app après
-  30 min (cause non établie : session expirée ou version déployée depuis ;
-  capture demandée si ça revient). Partage par lien sur téléphone : confirmé
-  le 09/10. Le compte Odoo `theelsassisch+test@gmail.com` est **gardé**
-  (décision de John, ne plus proposer de le supprimer).
+- **En production** : PR #96 (CSP complète avec nonce) et PR #97 (route
+  d'export des contributions), 09/10. `dev` n'a en plus que de la doc et le
+  journal exporté.
+- **Sécurité : audit du 02/10 entièrement soldé.** Quatre failles (PR #95),
+  secrets changés (`SESSION_SECRET` le 08/10 ; mot de passe Postgres,
+  `AUTOMATISATION_API_TOKEN` + N8N, jeton Coolify le 09/10), port 5444 fermé,
+  CSP avec nonce. Toutes les pages sont rendues à la demande : une page
+  rendue statique perdrait son JavaScript.
+- **Export des contributions automatique** : workflow N8N
+  `OP_EXPORT_CONTRIBUTIONS_DICO` actif (4 h), watch paths Coolify de dev
+  `**` + `!data/contributions/**`. Premier passage le 09/10 : 8 événements.
 - Base : ~26 526 lemmes, 42 510 variantes (dont 863 insultes de la source
-  `dj_fabz`, intégrées le 09/10), 2 membres, quelques témoignages
-  parlés.
+  `dj_fabz`, intégrées le 09/10), 2 membres, 8 événements de contribution.
+- **À constater par John** : plus de 404 à la réouverture de l'app après
+  30 min (cause non établie ; capture demandée si ça revient) ; qu'aucun
+  déploiement de dev ne suit un commit `data:` de N8N. Le compte Odoo
+  `theelsassisch+test@gmail.com` est **gardé** (ne plus proposer de le
+  supprimer). Partage par lien sur téléphone : confirmé le 09/10.
+- **Notifications du défi du jour** (Odoo 930) : abonnement par le tiroir
+  après la connexion (installer, puis activer), l'encart de fin de défi ou
+  « Mon espace » ; envoi à 10 h par N8N (`DEFI_DICO_NOTIF_10H`, à publier
+  sur accord de John), route `notifier-defi`. Testé sur l'Android de John.
+  Reste D4 : trois matins sans raté avant l'annonce publique.
+- **En attente côté John** : feu vert du lancement public (workflow N8N
+  `MET_DEFI_DICO_HEBDO`), après D4.
+- **`/application`** (site Odoo) : terminé le 09/10 (carte Elsass Dico vers
+  `/login`, boutons d'Elsass Chat, « Vos idées », Cours et Forum).
 - **Prochaine session** : rien d'imposé. Les sources faibles s'intègrent
   comme `culture_alsace` (décision de John du 09/10), sans démarche préalable.
-- **`/application`** (site Odoo, publiée et réécrite par John le 08/10) : la
-  carte Elsass Dico mène à `elsass-dico.theelsassisch.com/login`, plus aucun
-  lien `-dev`. Restent les boutons d'Elsass Chat (« Chercher un mot ») et de
-  « Vos idées » (« Se connecter pour jouer »), et la question de « Connectez-vous
-  avec votre compte » sous Cours et Forum, lisibles sans compte ?
-- **En attente côté John** : rotation des secrets après l'audit du 02/10 :
-  `SESSION_SECRET` changé sur main et dev le 08/10 ; mot de passe
-  Postgres et `AUTOMATISATION_API_TOKEN` (+ N8N) changés le 09/10 ;
-  jeton Coolify « Claude Full » supprimé ; MCP Coolify rétabli le 09/10
-  (nouveau jeton, `/mcp` > Reconnect dans chaque session) ; feu
-  vert du lancement public (workflow N8N `MET_DEFI_DICO_HEBDO`) ; plan d'export
-  automatique des contributions (route + N8N + `watch_paths` Coolify, cf.
-  journal du 28/09).
-- **Sécurité** : les quatre failles de l'audit du 02/10 sont corrigées
-  et en production (PR #95, 08/10) ; CSP complète avec nonce posée par le
-  middleware, en production (PR #96, 09/10) (toutes les pages sont rendues à la demande : une page
-  rendue statique perdrait son JavaScript).
 - **Ouvert, plus long terme** : faire venir des locuteurs, mesure de
   convergence, aire du 57, attribution de la police Azimut (John), seuil
   « proche » de la contribution (≤ 2 lettres et ≤ 25 %).

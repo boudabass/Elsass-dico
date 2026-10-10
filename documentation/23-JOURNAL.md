@@ -3180,3 +3180,61 @@ d'export demande maintenant d'ouvrir la base).
   (contenu) » ; vérifier que les nœuds ont leurs credentials ; watch paths
   Coolify de `elsass-dico:dev` (`**` puis `!data/contributions/**`, la
   dernière règle gagne) ; activer.
+- **Fait par John** : credential GitHub, watch paths Coolify de dev
+  (`**` puis `!data/contributions/**`), workflow activé. PR #97 fusionnée
+  (route sur main, 401 sans jeton).
+- **Testé** : premier passage manuel = commit `8f2c252` sur `dev`, 8
+  événements dont 4 jamais exportés (28/09 au 04/10), aucun membre dans le
+  fichier. Second passage : rien à écrire, aucun commit. Le script
+  d'export reste utilisable en secours (port 5444 à rouvrir).
+
+## Clôture de session (09/10/2026, soir)
+
+Audit de sécurité du 02/10 soldé : secrets changés (mot de passe Postgres,
+jeton d'automatisation, jeton Coolify), port 5444 fermé, CSP avec nonce en
+production (PR #96). Export des contributions automatisé (PR #97, workflow
+N8N actif). MCP Coolify rétabli : le 401 venait d'un jeton révoqué dans
+`~/.claude.json`, commun à toutes les sessions.
+
+- **Prochaine session** : rien d'imposé.
+- **Reste côté John** : feu vert du défi hebdomadaire ; boutons de
+  `/application` ; vérifier qu'un commit `data:` de N8N ne redéploie pas dev.
+- **Mise à jour (09/10, plus tard)** : boutons de `/application` faits par
+  John, point fermé (CLAUDE.md, Odoo 883). Lancement public prévu « très
+  bientôt », toujours en attente de son feu vert.
+
+## Icônes du menu, notifications du défi du jour, installation (09-10/10/2026)
+
+- **Icônes du menu** agrandies de 50 % (20 → 30 px), rail et barre du bas
+  (demande de John).
+- **Notifications du défi du jour** (plan Odoo 930, écrit avec la session
+  « The Elsassisch World », même mécanique que l'app marketing, Odoo 929).
+  Décisions de John : exception à « aucun service extérieur » acceptée
+  (l'envoi passe par Google ou Apple, c'est le serveur qui leur parle) ;
+  10 h, une fois par jour ; membres seulement ; prêt AVANT l'annonce
+  publique ; texte « Défi du jour : 5 villages », sans durée (la forme
+  « <nombre> <ce qu'on devine> » servira à « 5 mots » plus tard).
+  - Table `abonnements_push` (endpoint, membre en cascade, `dernier_defi`).
+  - `public/sw.js`, exclu du matcher du middleware (lui seul, pas tous les
+    `.js`) ; **`worker-src 'self'` obligatoire** : `'strict-dynamic'` annule
+    `'self'` dans `script-src`, sur lequel `worker-src` retomberait.
+  - `POST /api/automatisation/notifier-defi` (jeton d'automatisation) :
+    rien à qui a FINI le défi (une partie est créée dès qu'on le commence),
+    une fois par jour même si N8N déclenche deux fois (réservation de
+    `dernier_defi` avant l'envoi), 404/410 = abonnement supprimé,
+    `?simuler=1` pour le workflow d'essai. N8N n'appelle que `main` : dev
+    partage la base, donc les abonnés, et la même paire VAPID.
+  - Clés VAPID générées dans un fichier du Bureau, collées par John dans
+    Coolify (dev et main), fichier supprimé.
+  - Workflows N8N `DEFI_DICO_NOTIF_10H` et `TEST_NOTIF_DEFI_DICO` construits
+    par l'autre session, en brouillon jusqu'à la PR sur main.
+- **Installation du Dico** (retours de John, 10/10) : une consigne iPhone
+  lue d'une traite perdait les gens sur Android. Deux gros boutons Android
+  et iPhone ouvrent chacun leur marche à suivre ; quand Chrome le permet,
+  un seul bouton « Installer » (`beforeinstallprompt`). Puis un **tiroir
+  après la connexion**, sur téléphone : « Étape 1 sur 2 · Mets le Dico sur
+  ton téléphone » (trois avantages), puis dans le même tiroir « Étape 2 sur
+  2 · Reçois le défi chaque matin », puis « C'est prêt ». Une fois par
+  visite, « Plus tard » = une semaine, `?tiroir` le force.
+- **Testé par John sur son Android** (dev) : installation, notification
+  d'essai reçue, parcours du tiroir.

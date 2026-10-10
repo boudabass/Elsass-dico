@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Link from "next/link";
 import { ArrowRight, MapPin, Shield } from "lucide-react";
 
@@ -33,6 +33,13 @@ export default function MonEspacePage() {
         cle: session ? cleCache("mon-espace", session.membreId) : null,
         charger: monEspaceAction,
     });
+
+    // Le tiroir d'accueil peut choisir le village pendant que la page est ouverte
+    // derrière (10/10) : on relit alors le profil.
+    useEffect(() => {
+        window.addEventListener("ed-village-defini", rafraichir);
+        return () => window.removeEventListener("ed-village-defini", rafraichir);
+    }, [rafraichir]);
 
     const espace = donnees ?? null;
     const chargement = premierChargement || (session !== null && donnees === null);

@@ -11,6 +11,7 @@ import { RechercheVillage, type Village } from "@/components/contribution/habill
 import { estInstalle, InstallerApp } from "@/components/installer-app";
 import { useNotifications } from "@/components/notifications-defi";
 import { Drawer, DrawerContent, DrawerDescription, DrawerTitle } from "@/components/ui/drawer";
+import { cleCache, invaliderCache } from "@/lib/cache-navigation";
 
 // Le parcours du téléphone (10/10/2026, demande de John) : un tiroir qui monte
 // du bas après la connexion, en trois temps au plus.
@@ -151,6 +152,9 @@ export function TiroirAccueil() {
     const apresVillage = (v: Village) => {
         setVillage(v);
         setVillageChoisi(true);
+        // « Mon espace » peut être ouvert derrière le tiroir : on lui dit de relire.
+        if (session) invaliderCache(cleCache("mon-espace", session.membreId));
+        window.dispatchEvent(new Event("ed-village-defini"));
         suivante(true);
     };
 

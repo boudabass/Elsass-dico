@@ -7,6 +7,8 @@ import { chargerLemme } from "@/app/actions/recherche"
 import { REFUS_VILLAGE_REQUIS, type EchecContribution } from "@/lib/contribution"
 import { villageDuMembre } from "@/lib/contribution-serveur"
 import type { VarianteDetaillee } from "@/lib/dictionnaire"
+import { depasse, noter } from "@/lib/limite-tentatives-serveur"
+import { MESSAGE_VOTES, VOTES_PAR_HEURE } from "@/lib/limites-contribution-serveur"
 import { prisma } from "@/lib/prisma"
 import { sessionActuelle } from "@/lib/session-serveur"
 
@@ -17,9 +19,16 @@ import { sessionActuelle } from "@/lib/session-serveur"
 
 type Resultat = { succes: true } | EchecContribution
 
+const UNE_HEURE_MS = 60 * 60 * 1000
+
 export async function voterPourVarianteAction(varianteId: string): Promise<Resultat> {
     const session = await sessionActuelle()
     if (!session) return { succes: false, erreur: "Connecte-toi pour continuer" }
+
+    const cleVote = `vote:${session.membreId}`
+    if (depasse(cleVote, VOTES_PAR_HEURE, UNE_HEURE_MS)) {
+        return { succes: false, erreur: MESSAGE_VOTES }
+    }
 
     // Relu en base plutôt que pris du cookie : le jeton de session dure 30 min,
     // et un village tout juste choisi ne doit pas attendre son renouvellement
@@ -46,6 +55,7 @@ export async function voterPourVarianteAction(varianteId: string): Promise<Resul
         select: { id: true },
     })
     if (!dejaPose) {
+        let cree = false
         try {
             await prisma.$transaction(async (tx) => {
                 const t = await tx.temoignage.create({
@@ -62,12 +72,16 @@ export async function voterPourVarianteAction(varianteId: string): Promise<Resul
                     },
                 })
             })
+            cree = true
         } catch (erreur) {
             if (!estDoublon(erreur)) {
                 console.error("[Votes] Non enregistré:", erreur)
                 return { succes: false, erreur: "Enregistrement impossible, réessaie dans un instant" }
             }
         }
+        // Compté seulement si un témoignage est réellement né : un second clic
+        // (déjà posé) ne consomme pas la limite.
+        if (cree) noter(cleVote)
     }
 
     revalidatePath(`/entree/${variante.lemmeId}`)
@@ -139,12 +153,20 @@ export async function remplacerVillageVoteAction(varianteId: string): Promise<Re
     const session = await sessionActuelle()
     if (!session) return { succes: false, erreur: "Connecte-toi pour continuer" }
 
+    const cleVote = `vote:${session.membreId}`
+    if (depasse(cleVote, VOTES_PAR_HEURE, UNE_HEURE_MS)) {
+        return { succes: false, erreur: MESSAGE_VOTES }
+    }
+
     const communeId = await villageDuMembre(session.membreId)
     if (!communeId) return REFUS_VILLAGE_REQUIS
 
     const variante = await prisma.variante.findUnique({ where: { id: varianteId }, select: { lemmeId: true, masquee: true } })
     if (!variante || variante.masquee) return { succes: false, erreur: "Introuvable, elle a peut-être été retirée" }
 
+    // Vrai seulement si la transaction a posé un témoignage (un village déjà
+    // le bon n'en pose pas : rien à compter).
+    let cree = false
     try {
         await prisma.$transaction(async (tx) => {
             const ancien = await tx.temoignage.findUnique({
@@ -165,6 +187,7 @@ export async function remplacerVillageVoteAction(varianteId: string): Promise<Re
             await tx.evenementContribution.create({
                 data: { type: "pose", varianteId, temoignageId: t.id, communeId, membreId: session.membreId },
             })
+            cree = true
         })
     } catch (erreur) {
         if (!estDoublon(erreur) && !estIntrouvable(erreur)) {
@@ -172,6 +195,7 @@ export async function remplacerVillageVoteAction(varianteId: string): Promise<Re
             return { succes: false, erreur: "Enregistrement impossible, réessaie dans un instant" }
         }
     }
+    if (cree) noter(cleVote)
 
     revalidatePath(`/entree/${variante.lemmeId}`)
     return { succes: true }

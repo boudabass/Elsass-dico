@@ -3483,3 +3483,29 @@ audit --prod`, sondes `curl` sur main. Rien corrigé, rapport seulement.
 - Déployé sur dev (Coolify 21:16). Abonnement puis essai de notification
   reçus sur l'Android de John : le filtre d'adresses laisse passer FCM. PR
   #106 `dev` → `main`.
+
+### Points mineurs du second audit (11/10/2026)
+
+Fait par la session Opérateur (`d738ea6`), relu.
+
+- Défi : un membre connecté qui n'a pas fini sa partie ne lit plus les
+  réponses par `repondreInviteAction`. Parties libres : 30 par heure.
+- Recherches (accueil, dictionnaire dans les deux sens, vérification d'un
+  mot) : au-delà de 100 caractères (`RECHERCHE_MAX`), résultat vide.
+- `sw.js` : une adresse hors du domaine ouvre `/jeu`.
+- **Jeton de renouvellement révocable** : `ed_refresh` porte un `jti`, id
+  d'une ligne `sessions_refresh` (migration additive
+  `20261011220000_sessions_refresh`, écrite à la main, non rejouée sur une
+  base). La déconnexion supprime la ligne ; le renouvellement garde le même
+  `jti` (pas de rotation, deux onglets ne se déconnectent pas l'un l'autre).
+  Les anciens jetons, sans `jti`, sont refusés : **chacun se reconnecte une
+  fois.** Le jeton court (30 min) reste sans état.
+- `x-real-ip` : Traefik 3.7 sans `trustedIPs`, qui écrase les en-têtes
+  `X-Forwarded-*` et `X-Real-Ip` venus du client (comportement documenté,
+  non observé directement). Tableau de bord Traefik (8080) fermé depuis
+  Internet (vérifié).
+- **Dépendances : mise à jour écartée.** `pnpm update` faisait passer les
+  alertes de 42 à 21 mais montait Radix, react-hook-form, TypeScript, etc.
+  Les 42 alertes sont toutes dans des outils de build ou des dépendances
+  internes de Prisma, aucune à l'exécution : pas de risque d'écran cassé
+  avant le lancement pour un gain nul en production. À refaire après.

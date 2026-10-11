@@ -68,7 +68,8 @@ déjà tranchée.** Index : `documentation/README.md`.
 ## Stack
 
 Next 15.5 (App Router, Server Actions), React 19.3, Prisma 7 sur Postgres 18,
-sessions `jose` (`ed_session` 30 min avec rôle, `ed_refresh` 30 j sans rôle,
+sessions `jose` (`ed_session` 30 min avec rôle, `ed_refresh` 30 j sans rôle, révocable par son `jti` = ligne de
+`sessions_refresh` supprimée à la déconnexion,
 claim `typ`), Tailwind + shadcn/Radix/cmdk, Leaflet, `next/og`. Coolify sur un
 VPS partagé ; `dev` et `main` **partagent la même base**.
 `prisma migrate deploy` tourne au démarrage du conteneur

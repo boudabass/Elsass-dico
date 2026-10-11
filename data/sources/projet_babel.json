@@ -1,0 +1,23 @@
+{
+  "code": "projet_babel",
+  "nom": "Projet Babel, prénoms alsaciens (page de Dany Rigal)",
+  "url": "https://projetbabel.org/alsacien_prenoms.htm",
+  "type": "site",
+  "annee": null,
+  "licence": "non précisée, site personnel",
+  "fiabilite": 4,
+  "notes": "Page de Dany Rigal, hébergée sur le site du Projet Babel. La page nomme son auteur (« auteur : Dany Rigal ») et porte un formulaire de contact, dont l'adresse n'est pas reprise ici. Elle ne porte aucune date : annee reste nulle. Aucune information de région dans la page.\n\nDeux colonnes alignées, ligne à ligne : prénoms français à gauche, prénoms alsaciens à droite. 50 lignes par colonne, 62 attestations : une par prénom français et par forme alsacienne. « Fernand, Ferdinand » donne deux prénoms français ; « Schang, Schängele, Hans, Hansel » donne quatre formes.\n\nLes formes séparées par une espace (« Schossef Sepp Seppel », « Madel Len », « Roll Rolles ») sont découpées en formes distinctes, comme le veut la règle de découpe. La page ne dit pas si ces mots sont des formes séparées ou une seule expression : signalé ici.\n\nRecoupement constaté (non tranché) : 5 couples exacts (français, alsacien) sont aussi dans la fiche culture_alsace, rubrique prenoms. Les auteurs sont différents, donc deux sources distinctes au sens de la règle 2 ; l'origine commune éventuelle de ces formes n'est pas établie.\n\nFiabilité 4, comme dj_fabz : page personnelle, sans provenance indiquée pour les formes.",
+  "rubriques": [
+    {
+      "cle": "prenoms",
+      "libelle": "Prénoms alsaciens",
+      "statut": "extrait",
+      "type_terme": "prenom",
+      "url": "https://projetbabel.org/alsacien_prenoms.htm",
+      "format_ligne": "Colonne française (prénom(s) français) | colonne alsacienne (forme(s) séparée(s) par des virgules ou des espaces), ligne i à ligne i",
+      "volumetrie": 50,
+      "emplacement": "data/raw/projet_babel/prenoms.htm",
+      "notes": "Tableau à deux colonnes alignées, entrées séparées par <br>. Parseur scripts/extract/projet_babel/prenoms.py, qui produit data/attestations/projet_babel__prenoms.jsonl : 62 attestations pour 50 lignes source, aucune omission. Graphie_origine = « prénom français  forme(s) alsacienne(s) » (deux espaces), dans l'ordre de la source. Rejeu du parseur : JSONL identique octet à octet. Brut copié octet pour octet, sha256 ca04d53ed391b5bbc8f8a70bb4941da1d24fff40fb0a86a645838689a49052d6."
+    }
+  ]
+}

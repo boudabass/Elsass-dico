@@ -3480,3 +3480,6 @@ audit --prod`, sondes `curl` sur main. Rien corrigé, rapport seulement.
   (demande de John, masquées comprises). Compteurs en mémoire, comme la
   connexion. Typecheck passe ; `pnpm build` local bloque sur
   `generateStaticParams` (port 5444 fermé) : le build de Coolify fera foi.
+- Déployé sur dev (Coolify 21:16). Abonnement puis essai de notification
+  reçus sur l'Android de John : le filtre d'adresses laisse passer FCM. PR
+  #106 `dev` → `main`.

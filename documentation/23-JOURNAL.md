@@ -3442,3 +3442,41 @@ ne renvoie qu'à elle et au miroir Nisslé. Rien d'autre en ligne.
   Alfred…), le reste mêle prénoms allemands et anglais (Ludwig, Siegfried,
   Ronald, Jack). Les fiches donnent étymologie et chiffres INSEE ; celle de
   « Katel » n'indique pas Catherine. Rien à attester.
+
+## Second audit de sécurité, avant le lancement public (11/10/2026)
+
+Code relu (16 fichiers d'actions, 5 routes, middleware, `sw.js`), `pnpm
+audit --prod`, sondes `curl` sur main. Rien corrigé, rapport seulement.
+
+- **P1, notifications** : `abonnerAction` accepte n'importe quelle adresse
+  `https://` comme abonnement, et le serveur y envoie un `POST` (`essaiAction`
+  à la demande, sans limite ; l'envoi de 10 h pour toutes les lignes, en
+  parallèle sans plafond). Un membre (compte Odoo libre) fait donc appeler par
+  le VPS l'adresse qu'il veut, et la réponse distingue 404/410, autre refus et
+  succès. Aucune limite du nombre d'abonnements par membre. Correctif proposé :
+  liste blanche des services de push (`fcm.googleapis.com`,
+  `*.push.apple.com`, `updates.push.services.mozilla.com`,
+  `*.notify.windows.com`), 5 abonnements par membre, limite sur l'essai.
+  Lu dans le code, pas rejoué (dev et main partagent la base).
+- **P2** : aucune limite sur les contributions (formes, mots, votes), publiées
+  tout de suite ; les signalements en ont une (10/h).
+- **P3** : invité peut lire les réponses du défi par `repondreInviteAction`
+  avant de jouer sa partie enregistrée (série) ; parties libres illimitées en
+  base ; `rechercherAccueilAction` (publique) sans longueur maximale ; `sw.js`
+  ouvre l'URL du message sans vérifier l'origine ; jeton de renouvellement
+  (30 j) non révocable ; `x-real-ip` du proxy toujours non constaté ; 42
+  avis `pnpm audit`, tous dans des dépendances de build ou de Prisma, aucun
+  sur Next 15.5.27.
+- **Tient** : les 12 lectures et toutes les écritures se gardent elles-mêmes,
+  rôle admin relu en base, désabonnement limité à ses propres lignes, CSP avec
+  nonce et en-têtes en production, jeton d'automatisation à temps constant,
+  `/entree/x.json` et `/admin.txt` (hors matcher) en 404.
+- **P1 et P2 corrigés** (`597c3a0`, fait par la session Opérateur, relu) :
+  `endpointAccepte()` (Google, Mozilla, Apple, Microsoft seulement, https,
+  port 443, sans identifiants), 5 abonnements par membre (les plus anciens
+  remplacés), 5 essais par heure, l'envoi de 10 h ignore les adresses
+  refusées (`ignores` au bilan). Contributions : 30 formes ou mots par heure,
+  100 votes par heure, et **5 formes au plus par membre sur un même mot**
+  (demande de John, masquées comprises). Compteurs en mémoire, comme la
+  connexion. Typecheck passe ; `pnpm build` local bloque sur
+  `generateStaticParams` (port 5444 fermé) : le build de Coolify fera foi.

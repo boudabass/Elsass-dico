@@ -25,7 +25,11 @@ self.addEventListener('push', function (ev) {
 // sinon on en ouvre une.
 self.addEventListener('notificationclick', function (ev) {
   ev.notification.close();
+  // Audit du 11/10/2026 : une adresse d'une autre origine ramène au défi, jamais
+  // ailleurs (le message vient du serveur, mais une notification ne doit pas
+  // ouvrir un site extérieur).
   var url = new URL((ev.notification.data && ev.notification.data.url) || '/jeu', self.location.origin).href;
+  if (new URL(url).origin !== self.location.origin) url = new URL('/jeu', self.location.origin).href;
   ev.waitUntil(self.clients.matchAll({ type: 'window', includeUncontrolled: true }).then(function (fenetres) {
     for (var i = 0; i < fenetres.length; i++) {
       var f = fenetres[i];

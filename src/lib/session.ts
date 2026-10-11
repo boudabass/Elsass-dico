@@ -9,12 +9,15 @@
 //
 //   - `ed_session` (30 min) porte l'identité ET le rôle. C'est lui que le
 //     middleware vérifie, localement, sans un seul appel réseau.
-//   - `ed_refresh` (30 jours) ne porte QUE l'identifiant du membre. Le rôle en
-//     est délibérément absent : sinon une promotion ou une rétrogradation
-//     n'atteindrait jamais un membre déjà connecté, son jeton la recopiant de
-//     renouvellement en renouvellement. Le rôle est donc relu en base à chaque
-//     renouvellement — une requête toutes les 30 minutes par membre actif, pas
-//     une par page vue comme le faisait `supabase.auth.getUser()`.
+//   - `ed_refresh` (30 jours) ne porte que l'identifiant du membre et un `jti`,
+//     l'identifiant de sa session en base (`SessionRefresh`, audit du 11/10/2026).
+//     Le rôle en est délibérément absent : sinon une promotion ou une
+//     rétrogradation n'atteindrait jamais un membre déjà connecté, son jeton la
+//     recopiant de renouvellement en renouvellement. Le rôle est donc relu en
+//     base à chaque renouvellement — une requête toutes les 30 minutes par membre
+//     actif, pas une par page vue comme le faisait `supabase.auth.getUser()`.
+//     Le `jti` sert à révoquer : se déconnecter supprime la ligne, et le jeton
+//     n'ouvre plus rien, même s'il n'a pas expiré.
 //
 // `jose` signe et vérifie (HS256). Jamais de HMAC écrit à la main.
 
@@ -78,10 +81,11 @@ export async function signerSession(session: Session): Promise<string> {
         .sign(cle())
 }
 
-export async function signerRefresh(membreId: string): Promise<string> {
+export async function signerRefresh(membreId: string, jti: string): Promise<string> {
     return new SignJWT({ typ: TYPE_REFRESH })
         .setProtectedHeader({ alg: "HS256" })
         .setSubject(membreId)
+        .setJti(jti)
         .setIssuedAt()
         .setExpirationTime(`${DUREE_REFRESH_S}s`)
         .sign(cle())
@@ -117,14 +121,17 @@ export async function lireSession(jeton: string | undefined): Promise<Session | 
     }
 }
 
-/** Rend l'identifiant du membre porté par un jeton de renouvellement. */
-export async function lireRefresh(jeton: string | undefined): Promise<string | null> {
+/** Rend le membre et la session portés par un jeton de renouvellement. Un jeton
+ *  sans `jti` (émis avant la révocation, 11/10/2026) est refusé : son membre doit
+ *  se reconnecter une fois. Pas d'I/O ici : le middleware l'appelle aussi. */
+export async function lireRefresh(jeton: string | undefined): Promise<{ membreId: string; jti: string } | null> {
     if (!jeton) return null
     const secret = cle()
     try {
         const { payload } = await jwtVerify(jeton, secret)
         if (payload.typ !== TYPE_REFRESH) return null
-        return typeof payload.sub === "string" ? payload.sub : null
+        if (typeof payload.sub !== "string" || typeof payload.jti !== "string") return null
+        return { membreId: payload.sub, jti: payload.jti }
     } catch {
         return null
     }

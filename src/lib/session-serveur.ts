@@ -62,9 +62,9 @@ export async function sessionActuelle(): Promise<Session | null> {
 // `cache` : une action qui relit la session plusieurs fois ne renouvelle
 // qu'une fois par requête.
 const renouveler = cache(async (jeton: string | undefined): Promise<Session | null> => {
-    const membreId = await lireRefresh(jeton)
-    if (!membreId) return null
-    const prepare = await preparerSession(membreId)
+    const refresh = await lireRefresh(jeton)
+    if (!refresh) return null
+    const prepare = await preparerSession(refresh.membreId, refresh.jti)
     if (!prepare) return null
     try {
         // Permis dans une Server Action ou un Route Handler. Pendant le rendu
@@ -85,15 +85,39 @@ const renouveler = cache(async (jeton: string | undefined): Promise<Session | nu
  *  Rend les cookies plutôt que de les poser : une Server Action les pose par
  *  `cookies()`, un Route Handler les pose sur sa réponse. Poser par `cookies()`
  *  puis retourner une `NextResponse.redirect()` fabriquée à côté, c'est
- *  dépendre d'une fusion implicite — ici on applique, on ne parie pas. */
+ *  dépendre d'une fusion implicite — ici on applique, on ne parie pas.
+ *
+ *  Sans `jti` (connexion) : une session neuve en base, et le ménage des sessions
+ *  de CE membre restées sans usage plus de 30 jours. Avec `jti` (renouvellement) :
+ *  la session doit encore exister pour ce membre, sinon elle a été révoquée à la
+ *  déconnexion et rien ne se renouvelle. Le `jti` est gardé, sans rotation : deux
+ *  onglets qui renouvellent en même temps ne se déconnectent pas l'un l'autre.
+ *  Coût : une écriture de plus à chaque renouvellement, soit une fois toutes les
+ *  30 minutes par membre actif, comme la lecture du rôle (11/10/2026). */
 export async function preparerSession(
     membreId: string,
+    jti?: string,
 ): Promise<{ session: Session; cookies: CookieSession[] } | null> {
     const membre = await prisma.membre.findUnique({
         where: { id: membreId },
         select: { id: true, email: true, nom: true, role: true, communeId: true },
     })
     if (!membre) return null
+
+    let identifiant: string
+    if (jti === undefined) {
+        const plusVieille = new Date(Date.now() - DUREE_REFRESH_S * 1000)
+        await prisma.sessionRefresh.deleteMany({ where: { membreId: membre.id, vuLe: { lt: plusVieille } } })
+        const ligne = await prisma.sessionRefresh.create({ data: { membreId: membre.id }, select: { id: true } })
+        identifiant = ligne.id
+    } else {
+        const vue = await prisma.sessionRefresh.updateMany({
+            where: { id: jti, membreId: membre.id },
+            data: { vuLe: new Date() },
+        })
+        if (vue.count === 0) return null
+        identifiant = jti
+    }
 
     const session: Session = {
         membreId: membre.id,
@@ -119,7 +143,7 @@ export async function preparerSession(
             },
             {
                 nom: COOKIE_REFRESH,
-                valeur: await signerRefresh(membre.id),
+                valeur: await signerRefresh(membre.id, identifiant),
                 options: options(DUREE_REFRESH_S),
             },
         ],
@@ -137,10 +161,20 @@ export async function ouvrirSession(membreId: string): Promise<Session | null> {
     return prepare.session
 }
 
+/** Déconnexion : la session de renouvellement disparaît de la base, donc le jeton
+ *  qu'on aurait copié cesse de renouveler dès maintenant (audit du 11/10/2026).
+ *  Les cookies partent dans tous les cas, même si la base ne répond pas. */
 export async function fermerSession(): Promise<void> {
     const bocal = await cookies()
-    bocal.delete(COOKIE_SESSION)
-    bocal.delete(COOKIE_REFRESH)
+    try {
+        const refresh = await lireRefresh(bocal.get(COOKIE_REFRESH)?.value)
+        if (refresh) {
+            await prisma.sessionRefresh.deleteMany({ where: { id: refresh.jti, membreId: refresh.membreId } })
+        }
+    } finally {
+        bocal.delete(COOKIE_SESSION)
+        bocal.delete(COOKIE_REFRESH)
+    }
 }
 
 /** La barrière de LECTURE du dictionnaire (02/10/2026, décision de John).

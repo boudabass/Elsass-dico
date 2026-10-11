@@ -342,8 +342,24 @@ model Membre {
   signalements Signalement[]
   parties      PartieJeu[]
   abonnements  AbonnementPush[]
+  sessions     SessionRefresh[]
 
   @@map("membres")
+}
+
+// Sessions de renouvellement révocables (audit du 11/10/2026). Une ligne par
+// connexion ; le jeton `ed_refresh` en porte l'identifiant (`jti`). Se déconnecter
+// supprime la ligne : un jeton volé perd sa validité tout de suite, et non au bout
+// de 30 jours. CASCADE : supprimer un membre supprime ses sessions.
+model SessionRefresh {
+  id       String   @id @default(uuid())
+  membreId String   @map("membre_id")
+  membre   Membre   @relation(fields: [membreId], references: [id], onDelete: Cascade)
+  creeLe   DateTime @default(now()) @map("cree_le")
+  vuLe     DateTime @default(now()) @map("vu_le")
+
+  @@index([membreId])
+  @@map("sessions_refresh")
 }
 
 // Notifications du défi du jour (Odoo 930, 09/10/2026) : un abonnement par

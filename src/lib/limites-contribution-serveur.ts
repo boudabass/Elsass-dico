@@ -17,6 +17,10 @@ export const VOTES_PAR_HEURE = 100
 /** Formes proposées par un même membre sur un même mot. */
 export const PROPOSITIONS_PAR_MOT = 5
 
+/** Parties libres lancées par heure et par membre (11/10/2026 : elles ne
+ *  s'enregistrent qu'en partie, rien ne bornait leur nombre). */
+export const PARTIES_LIBRES_PAR_HEURE = 30
+
 export const MESSAGE_CONTRIBUTIONS =
     `Tu as déjà ajouté ${CONTRIBUTIONS_PAR_HEURE} façons de dire cette heure-ci. Réessaie un peu plus tard.`
 
@@ -25,3 +29,6 @@ export const MESSAGE_VOTES =
 
 export const MESSAGE_PROPOSITIONS =
     `Tu as déjà proposé ${PROPOSITIONS_PAR_MOT} façons de dire ce mot.`
+
+export const MESSAGE_PARTIES_LIBRES =
+    `Tu as déjà lancé ${PARTIES_LIBRES_PAR_HEURE} parties cette heure-ci. Réessaie un peu plus tard.`

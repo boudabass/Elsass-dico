@@ -1,6 +1,6 @@
 'use server'
 
-import type { LemmeDetaille, LemmeResume, TypeTerme } from "@/lib/dictionnaire"
+import { RECHERCHE_MAX, type LemmeDetaille, type LemmeResume, type TypeTerme } from "@/lib/dictionnaire"
 import { apercusParLemme, chargerLemmeDetaille } from "@/lib/lemmes"
 import { mesVotes } from "@/lib/contribution-serveur"
 import { prisma } from "@/lib/prisma"
@@ -31,7 +31,7 @@ interface LigneRecherche {
 export async function rechercherAction(terme: string): Promise<LemmeResume[]> {
     if (!(await estConnecte())) return []
     const requete = terme.trim()
-    if (requete.length < 2) return []
+    if (requete.length < 2 || requete.length > RECHERCHE_MAX) return []
 
     // Depuis le français seulement (27/09/2026, décision de John). La
     // recherche mélangeait les deux sens : taper `Tàg` rendait une carte

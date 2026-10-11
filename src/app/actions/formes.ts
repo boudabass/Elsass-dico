@@ -1,6 +1,6 @@
 'use server'
 
-import type { FormeDetaillee, FormeResume, SensDetaille, SensForme, TypeTerme, VarianteDetaillee } from "@/lib/dictionnaire"
+import { RECHERCHE_MAX, type FormeDetaillee, type FormeResume, type SensDetaille, type SensForme, type TypeTerme, type VarianteDetaillee } from "@/lib/dictionnaire"
 import type { MonVote } from "@/lib/contribution"
 import { mesVotes } from "@/lib/contribution-serveur"
 import { prisma } from "@/lib/prisma"
@@ -157,7 +157,7 @@ function dansLOrdre(cles: string[], resumes: Map<string, FormeResume>): FormeRes
 export async function rechercherFormesAction(terme: string): Promise<FormeResume[]> {
     if (!(await estConnecte())) return []
     const requete = terme.trim()
-    if (requete.length < 2) return []
+    if (requete.length < 2 || requete.length > RECHERCHE_MAX) return []
 
     // Bonus d'égalité sur la clé SANS article : `lohn` doit passer devant
     // `Lohnerhöhung`, et devant `d'r Lohn` qui n'en diffère que par l'article.

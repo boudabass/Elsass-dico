@@ -161,7 +161,11 @@ VPS partagé ; `dev` et `main` **partagent la même base**.
 
 - Toutes les étapes de la refonte sont faites (dérivation, session, fiches
   publiques, admin, carte, contribution, jeu, deux sens).
-- **En production** : PR #106 (11/10), second audit de sécurité : seules les
+- **En production** : PR #107 (11/10), points mineurs du second audit :
+  jeton de 30 j révocable (`sessions_refresh`, chacun s'est reconnecté une
+  fois), réponses du défi fermées au chemin invité pour un membre connecté,
+  30 parties libres par heure, recherches limitées à 100 caractères.
+  PR #106 (11/10), second audit de sécurité : seules les
   adresses des services de push sont acceptées, 5 abonnements et 5 essais par
   heure par membre, 30 formes ou mots et 100 votes par heure, **5 formes au
   plus par membre sur un même mot**. PR #105 (11/10), la dérivation garde le slug d'un
@@ -179,7 +183,7 @@ VPS partagé ; `dev` et `main` **partagent la même base**.
 - **Sécurité : audit du 02/10 entièrement soldé.** Quatre failles (PR #95),
   secrets changés (`SESSION_SECRET` le 08/10 ; mot de passe Postgres,
   `AUTOMATISATION_API_TOKEN` + N8N, jeton Coolify le 09/10), port 5444 fermé,
-  CSP avec nonce. Second audit le 11/10 (PR #106). Toutes les pages sont rendues à la demande : une page
+  CSP avec nonce. Second audit le 11/10 (PR #106 et #107), dépendances de build à mettre à jour après le lancement. Toutes les pages sont rendues à la demande : une page
   rendue statique perdrait son JavaScript.
 - **Export des contributions automatique** : workflow N8N
   `OP_EXPORT_CONTRIBUTIONS_DICO` actif (4 h), watch paths Coolify de dev

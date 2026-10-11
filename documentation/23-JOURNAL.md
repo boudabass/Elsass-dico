@@ -3509,3 +3509,6 @@ Fait par la session Opérateur (`d738ea6`), relu.
   Les 42 alertes sont toutes dans des outils de build ou des dépendances
   internes de Prisma, aucune à l'exécution : pas de risque d'écran cassé
   avant le lancement pour un gain nul en production. À refaire après.
+- Déployé sur dev. Testé par John sur son téléphone : reconnexion demandée
+  (ancien jeton refusé), connexion, déconnexion vers `/login`, reconnexion,
+  essai de notification reçu (abonnement intact). PR #107 `dev` → `main`.

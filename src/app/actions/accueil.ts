@@ -1,6 +1,6 @@
 'use server'
 
-import type { LemmeResume } from "@/lib/dictionnaire"
+import { RECHERCHE_MAX, type LemmeResume } from "@/lib/dictionnaire"
 import { MOTS_DE_BASE } from "@/lib/mots-de-base"
 import { apercusParLemme } from "@/lib/lemmes"
 import { prisma } from "@/lib/prisma"
@@ -82,7 +82,7 @@ const LIMITE = 8
  *  distingue cette action de `rechercherAction()`, réservée aux membres. */
 export async function rechercherAccueilAction(terme: string): Promise<SuggestionAccueil[]> {
     const requete = terme.trim()
-    if (requete.length < 2) return []
+    if (requete.length < 2 || requete.length > RECHERCHE_MAX) return []
 
     const lignes = await prisma.$queryRaw<LigneSuggestion[]>`
         WITH t AS (SELECT immutable_unaccent(lower(btrim(${requete}))) AS q)

@@ -29,13 +29,15 @@ function rediriger(chemin: string): NextResponse {
 }
 
 export async function GET(request: NextRequest) {
-    const membreId = await lireRefresh(request.cookies.get(COOKIE_REFRESH)?.value)
+    const refresh = await lireRefresh(request.cookies.get(COOKIE_REFRESH)?.value)
 
-    if (!membreId) {
+    if (!refresh) {
         return rediriger("/login")
     }
 
-    const prepare = await preparerSession(membreId)
+    // Une session révoquée (déconnexion) rend `null` : on efface, comme pour un
+    // membre supprimé.
+    const prepare = await preparerSession(refresh.membreId, refresh.jti)
 
     if (!prepare) {
         // Le membre n'existe plus : on efface, sinon le middleware renverrait

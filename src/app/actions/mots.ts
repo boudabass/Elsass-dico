@@ -5,7 +5,7 @@ import { revalidatePath } from "next/cache"
 import type { TypeTerme } from "@/generated/prisma/client"
 import { REFUS_VILLAGE_REQUIS, type EchecContribution } from "@/lib/contribution"
 import { poserVariante, validerSaisie, villageDuMembre, type SaisieForme } from "@/lib/contribution-serveur"
-import { cleFrancais } from "@/lib/dictionnaire"
+import { cleFrancais, RECHERCHE_MAX } from "@/lib/dictionnaire"
 import { depasse, noter } from "@/lib/limite-tentatives-serveur"
 import { CONTRIBUTIONS_PAR_HEURE, MESSAGE_CONTRIBUTIONS } from "@/lib/limites-contribution-serveur"
 import { prisma } from "@/lib/prisma"
@@ -45,6 +45,7 @@ export interface MotExistant {
 export async function verifierMotAction(francais: string): Promise<MotExistant[]> {
     const session = await sessionActuelle()
     if (!session) return []
+    if (francais.trim().length > RECHERCHE_MAX) return []
     const cle = cleFrancais(francais)
     if (!cle) return []
 

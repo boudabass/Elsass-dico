@@ -13,10 +13,14 @@ import {
     indiceDuJour,
     type MancheStockee,
 } from "@/lib/jeu"
+import { depasse, noter } from "@/lib/limite-tentatives-serveur"
+import { MESSAGE_PARTIES_LIBRES, PARTIES_LIBRES_PAR_HEURE } from "@/lib/limites-contribution-serveur"
 import { chargerLemmeDetaille } from "@/lib/lemmes"
 import { MOTS_DE_BASE } from "@/lib/mots-de-base"
 import { prisma } from "@/lib/prisma"
 import { sessionActuelle } from "@/lib/session-serveur"
+
+const UNE_HEURE_MS = 60 * 60 * 1000
 
 // Le jeu « Quel village dit ça ? » (25/09/2026). La logique du tirage vit dans
 // `lib/jeu.ts` ; ici, ce qui sort vers le navigateur.
@@ -149,6 +153,12 @@ export async function commencerPartieAction(mode: "jour" | "libre"): Promise<Res
         }
     }
 
+    // Parties libres : rien n'est enregistré au-delà de la partie, mais chacune
+    // tire des manches et lit la réserve. Bornées par membre (audit du 11/10/2026).
+    const cleLibre = `partie-libre:${session.membreId}`
+    if (depasse(cleLibre, PARTIES_LIBRES_PAR_HEURE, UNE_HEURE_MS)) {
+        return { succes: false, erreur: MESSAGE_PARTIES_LIBRES }
+    }
     const partie = await prisma.partieJeu.create({
         data: {
             membreId: session.membreId,
@@ -156,6 +166,7 @@ export async function commencerPartieAction(mode: "jour" | "libre"): Promise<Res
             manches: (await manchesLibres()) as unknown as Prisma.InputJsonValue,
         },
     })
+    noter(cleLibre)
     return { succes: true, valeur: await publier(partie) }
 }
 
@@ -232,6 +243,19 @@ export async function repondreInviteAction(
     // une partie commencée avant minuit doit pouvoir se finir après.
     if (!/^\d{4}-\d{2}-\d{2}$/.test(jour) || Number.isNaN(Date.parse(`${jour}T00:00:00Z`)) || jour > jourActuel()) {
         return { succes: false, erreur: "Ce défi n'est pas ouvert" }
+    }
+    // Un membre connecté a une partie enregistrée : sans l'avoir finie, il ne
+    // doit pas lire les réponses par ce chemin (audit du 11/10/2026). Une partie
+    // déjà finie ne révèle plus rien de nouveau.
+    const session = await sessionActuelle()
+    if (session) {
+        const partie = await prisma.partieJeu.findUnique({
+            where: { membreId_jour: { membreId: session.membreId, jour: new Date(`${jour}T00:00:00Z`) } },
+            select: { finie: true },
+        })
+        if (!partie?.finie) {
+            return { succes: false, erreur: "Tu es connecté : ta partie est enregistrée. Recharge la page pour la continuer." }
+        }
     }
     const manche = (await manchesDuJour(jour))[indice]
     if (!manche) return { succes: false, erreur: "Cette manche n'existe pas" }

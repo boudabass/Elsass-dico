@@ -1,4 +1,9 @@
 import type { MonVote } from "@/lib/contribution"
+
+// Longueur maximale d'un terme libre envoyé à une recherche (audit du 11/10/2026).
+// Au-delà, la requête ne part pas en base : une chaîne de plusieurs milliers de
+// caractères ne sert à aucune recherche de mot.
+export const RECHERCHE_MAX = 100
 // Vocabulaire du dictionnaire — types d'affichage et normalisations de formes.
 //
 // Purgé le 12/09/2026 de tout ce qui servait l'arbitrage (`traductionsRecoupees`,

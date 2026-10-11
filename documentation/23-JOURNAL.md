@@ -3388,3 +3388,18 @@ monté, U+202F déjà neutralisé ; restent « Attestations », « Témoignages 
   « s' Unternamma » (sens « entreprise », de Culture Alsace). John : à
   changer plus tard.
 - **PR #103** (`dev` → `main`), commit de merge.
+
+## « pain » remplace « maison » dans les mots de base (11/10/2026)
+
+L'accueil public montrait « s' Unternamma » (entreprise) sous « maison » :
+Culture Alsace range les deux sous la même entrée. Plutôt que toucher la
+donnée (verbatim, règle 3), le mot de vitrine change : `pain (le)`, une seule
+forme (`s' Brot.`, Culture Alsace). Candidats relus dans les JSONL de la
+branche `data` : « eau » écarté (`d'r Gansaschnàps`), « chat » douteux
+(`d'r Kàder`). Même liste pour la fin de partie du jeu.
+
+D4 : notifications de 10 h reçues les 10 et 11/10.
+
+Note : la branche `data` garde encore « Raymond Matzen » dans
+`data/sources/culture_alsace.json` ; `dev`, `main` et la base disent
+« André Nisslé » depuis le 18/09. Laissé (archive, non lue par le site).

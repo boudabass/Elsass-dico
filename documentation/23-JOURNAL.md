@@ -3425,3 +3425,14 @@ ne renvoie qu'à elle et au miroir Nisslé. Rien d'autre en ligne.
   signalé dans la fiche.
 - Commit `4c00042` sur `data`, par plumbing (outil jetable : `hash-object`,
   `mktree` récursif, `commit-tree`), 4 fichiers ajoutés, rien d'autre.
+- **Ingestion** (port 5444 ouvert par John, scripts lancés à sa demande) :
+  `importer-data.mts` passe, 62 attestations `projet_babel`. `deriver.mts`
+  s'arrête sur « 1 variantes sans lemme » **après** avoir créé les lemmes :
+  les slugs de prénoms étaient recalculés sur tout l'ordre alphabétique, et
+  le nouveau « Josephine » prenait `josephine`, déjà tenu en base par
+  « Joséphine » (culture_alsace, clé distincte : pas d'`unaccent` dans une
+  clé). `skipDuplicates` écartait le lemme. 16 fiches prénom sont restées
+  quelques minutes sans forme. Correctif : un slug déjà en base reste à son
+  lemme, seuls les nouveaux en reçoivent un. Rejeu : 148 prénoms, aucun sans
+  forme, « Josephine » → `josephine-2`. Georges → « Schorsch » a 3 sources.
+  `/prenom/catherine` (Katel) et `/sources` vérifiés sur main et dev.

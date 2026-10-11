@@ -3403,3 +3403,25 @@ D4 : notifications de 10 h reçues les 10 et 11/10.
 Note : la branche `data` garde encore « Raymond Matzen » dans
 `data/sources/culture_alsace.json` ; `dev`, `main` et la base disent
 « André Nisslé » depuis le 18/09. Laissé (archive, non lue par le site).
+
+## Prénoms : nouvelle source `projet_babel` (11/10/2026)
+
+Demande de John : d'autres sources pour les prénoms (131 lemmes, tous de
+Culture Alsace, plus 16 du Wiktionnaire). Recherche web (OLCA, Heimetsproch,
+Wikipédia alémanique et allemande, généalogie, Lexilogos) : une seule liste
+nouvelle, « Prénoms alsaciens » de Dany Rigal sur projetbabel.org. Lexilogos
+ne renvoie qu'à elle et au miroir Nisslé. Rien d'autre en ligne.
+
+- Indépendante de Culture Alsace (autres graphies : Berri / Bäri,
+  Schossef / Säpp). 50 lignes, 51 prénoms français, **62 attestations**,
+  17 prénoms absents jusque-là (Catherine, Bernard, Madeleine…). 5 couples
+  identiques chez les deux auteurs (Georges → Schorsch, Jeanne → Schann…) :
+  ils passent à 2 sources.
+- Fiche `data/sources/projet_babel.json` (fiabilité 4, comme `dj_fabz`),
+  brut, parseur `scripts/extract/projet_babel/prenoms.py` (rejeu identique),
+  JSONL. Page en UTF-8 mêlant entités et caractères littéraux (« Nàndel ») :
+  décodage UTF-8 puis `html.unescape`. Formes séparées par une espace
+  (« Schossef Sepp Seppel », « Madel Len », « Roll Rolles ») découpées,
+  signalé dans la fiche.
+- Commit `4c00042` sur `data`, par plumbing (outil jetable : `hash-object`,
+  `mktree` récursif, `commit-tree`), 4 fichiers ajoutés, rien d'autre.

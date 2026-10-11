@@ -9,6 +9,7 @@ import type { TypeTerme } from "@/lib/dictionnaire"
 // Sorti de `actions/accueil.ts` le 25/09/2026 : la vitrine de la home et la fin
 // de partie du jeu tendent les mêmes mots, et un fichier `'use server'`
 // n'exporte que des fonctions.
+// 11/10/2026 : « maison » remplacé par « pain » ; Culture Alsace y range aussi « s' Unternamma » (entreprise), qui s'affichait sur l'accueil.
 export const MOTS_DE_BASE: { cle: string; contexte: string; type: TypeTerme }[] = [
     { cle: "bonjour", contexte: "", type: "mot" },
     { cle: "bonsoir", contexte: "", type: "mot" },
@@ -18,6 +19,6 @@ export const MOTS_DE_BASE: { cle: string; contexte: string; type: TypeTerme }[] 
     { cle: "oui", contexte: "", type: "mot" },
     { cle: "non", contexte: "", type: "mot" },
     { cle: "ami", contexte: "(l')", type: "mot" },
-    { cle: "maison", contexte: "(la)", type: "mot" },
+    { cle: "pain", contexte: "(le)", type: "mot" },
     { cle: "famille", contexte: "(la)", type: "mot" },
 ]

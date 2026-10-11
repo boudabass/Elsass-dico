@@ -6,8 +6,12 @@ import type { TypeTerme } from "@/generated/prisma/client"
 import { REFUS_VILLAGE_REQUIS, type EchecContribution } from "@/lib/contribution"
 import { poserVariante, validerSaisie, villageDuMembre, type SaisieForme } from "@/lib/contribution-serveur"
 import { cleFrancais } from "@/lib/dictionnaire"
+import { depasse, noter } from "@/lib/limite-tentatives-serveur"
+import { CONTRIBUTIONS_PAR_HEURE, MESSAGE_CONTRIBUTIONS } from "@/lib/limites-contribution-serveur"
 import { prisma } from "@/lib/prisma"
 import { adminExige, sessionActuelle } from "@/lib/session-serveur"
+
+const UNE_HEURE_MS = 60 * 60 * 1000
 
 // Un membre crée un mot français (décision de John, 27/09/2026) : jamais seul,
 // TOUJOURS avec sa première forme alsacienne. Un mot sans forme ne dirait rien
@@ -68,6 +72,11 @@ export async function creerMotAction(
     const session = await sessionActuelle()
     if (!session) return { succes: false, erreur: "Connecte-toi pour continuer" }
 
+    const cleContribution = `contribution:${session.membreId}`
+    if (depasse(cleContribution, CONTRIBUTIONS_PAR_HEURE, UNE_HEURE_MS)) {
+        return { succes: false, erreur: MESSAGE_CONTRIBUTIONS }
+    }
+
     const libelle = francais.trim().replace(/\s+/g, " ")
     const cle = cleFrancais(libelle)
     if (!cle) return { succes: false, erreur: "Écris le mot français" }
@@ -104,6 +113,7 @@ export async function creerMotAction(
             })
             return lemme.id
         })
+        noter(cleContribution)
         revalidatePath("/admin/mots")
         return { succes: true, lemmeId }
     } catch (erreur) {

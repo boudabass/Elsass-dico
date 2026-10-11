@@ -1,8 +1,18 @@
 'use server'
 
-import { configurationVapid, MESSAGE_ESSAI, pousser } from "@/lib/notifications-serveur"
+import { depasse, noter } from "@/lib/limite-tentatives-serveur"
+import {
+    ABONNEMENTS_PAR_MEMBRE,
+    configurationVapid,
+    endpointAccepte,
+    ESSAIS_PAR_HEURE,
+    MESSAGE_ESSAI,
+    pousser,
+} from "@/lib/notifications-serveur"
 import { prisma } from "@/lib/prisma"
 import { sessionActuelle } from "@/lib/session-serveur"
+
+const UNE_HEURE_MS = 60 * 60 * 1000
 
 // Notifications du défi du jour, côté membre (Odoo 930, 09/10/2026) : la clé
 // publique, s'abonner, se désabonner, s'envoyer un essai. Chaque action se
@@ -37,7 +47,7 @@ export async function abonnerAction(abonnement: AbonnementNavigateur, appareil: 
     const auth = abonnement?.keys?.auth
     if (
         typeof endpoint !== "string" ||
-        !/^https:\/\//.test(endpoint) ||
+        !endpointAccepte(endpoint) ||
         endpoint.length > 1000 ||
         typeof p256dh !== "string" ||
         p256dh.length > 200 ||
@@ -47,11 +57,30 @@ export async function abonnerAction(abonnement: AbonnementNavigateur, appareil: 
         return { succes: false, erreur: "Le téléphone a renvoyé un abonnement illisible" }
     }
 
+    const nomAppareil = (typeof appareil === "string" ? appareil : "").slice(0, 120) || null
+
+    // Un téléphone réinstallé n'est pas refusé : au-delà de la limite, on
+    // remplace les abonnements les plus anciens du membre (11/10/2026).
+    const existant = await prisma.abonnementPush.findUnique({ where: { endpoint }, select: { membreId: true } })
+    if (existant?.membreId !== session.membreId) {
+        const siens = await prisma.abonnementPush.findMany({
+            where: { membreId: session.membreId },
+            orderBy: { creeLe: "asc" },
+            select: { endpoint: true },
+        })
+        const enTrop = siens.length - (ABONNEMENTS_PAR_MEMBRE - 1)
+        if (enTrop > 0) {
+            await prisma.abonnementPush.deleteMany({
+                where: { endpoint: { in: siens.slice(0, enTrop).map((a) => a.endpoint) } },
+            })
+        }
+    }
+
     // Un même navigateur réabonné sous un autre compte change de membre.
     await prisma.abonnementPush.upsert({
         where: { endpoint },
-        create: { endpoint, p256dh, auth, membreId: session.membreId, appareil: appareil.slice(0, 120) || null },
-        update: { p256dh, auth, membreId: session.membreId, appareil: appareil.slice(0, 120) || null },
+        create: { endpoint, p256dh, auth, membreId: session.membreId, appareil: nomAppareil },
+        update: { p256dh, auth, membreId: session.membreId, appareil: nomAppareil },
     })
     return { succes: true, valeur: null }
 }
@@ -82,7 +111,14 @@ export async function essaiAction(endpoint: string): Promise<Resultat> {
     if (!configurationVapid()) return COUPE
     const cible = await prisma.abonnementPush.findFirst({ where: { endpoint, membreId: session.membreId } })
     if (!cible) return { succes: false, erreur: "Ce téléphone n'est pas abonné" }
+
+    const cleEssai = `essai-notif:${session.membreId}`
+    if (depasse(cleEssai, ESSAIS_PAR_HEURE, UNE_HEURE_MS)) {
+        return { succes: false, erreur: `Tu as déjà fait ${ESSAIS_PAR_HEURE} essais cette heure-ci. Réessaie un peu plus tard.` }
+    }
     const r = await pousser(cible, MESSAGE_ESSAI)
+    // Compté réussi ou non : c'est l'envoi qui est limité, pas le succès.
+    noter(cleEssai)
     if (r.ok) return { succes: true, valeur: null }
     return {
         succes: false,

@@ -24,6 +24,33 @@ export function configurationVapid(): { publique: string; privee: string; sujet:
     return { publique, privee, sujet }
 }
 
+/** Abonnements gardés par membre. Un téléphone réinstallé ne bloque pas le
+ *  membre : au-delà, on remplace les plus anciens (11/10/2026). */
+export const ABONNEMENTS_PAR_MEMBRE = 5
+
+/** Essais d'une notification par heure et par membre. */
+export const ESSAIS_PAR_HEURE = 5
+
+/** Seuls les services de push des navigateurs sont appelés par le serveur. Sans
+ *  ce contrôle, un membre pourrait faire appeler par le serveur l'adresse de
+ *  son choix (audit du 11/10/2026). */
+const HOTES_EXACTS = ["fcm.googleapis.com", "android.googleapis.com", "updates.push.services.mozilla.com"]
+const SUFFIXES_HOTES = [".push.apple.com", ".notify.windows.com"]
+
+export function endpointAccepte(endpoint: string): boolean {
+    let url: URL
+    try {
+        url = new URL(endpoint)
+    } catch {
+        return false
+    }
+    if (url.protocol !== "https:") return false
+    if (url.username !== "" || url.password !== "") return false
+    if (url.port !== "" && url.port !== "443") return false
+    const hote = url.hostname.toLowerCase()
+    return HOTES_EXACTS.includes(hote) || SUFFIXES_HOTES.some((suffixe) => hote.endsWith(suffixe))
+}
+
 export interface Message {
     titre: string
     corps: string
@@ -101,6 +128,9 @@ export interface BilanDefi {
     dejaEnvoye: number
     envoyes: number
     supprimes: number
+    /** Abonnements dont l'adresse n'est pas celle d'un service de push : ni
+     *  envoi, ni suppression, la ligne reste à relire. */
+    ignores: number
     erreurs: string[]
     simule: boolean
 }
@@ -116,7 +146,8 @@ export async function annoncerDefi({ simuler = false } = {}): Promise<BilanDefi>
     const date = new Date(`${jour}T00:00:00Z`)
     const message = messageDefi(jour)
 
-    const abonnements = await prisma.abonnementPush.findMany()
+    const toutes = await prisma.abonnementPush.findMany()
+    const abonnements = toutes.filter((a) => endpointAccepte(a.endpoint))
     const finis = new Set(
         (
             await prisma.partieJeu.findMany({
@@ -134,6 +165,7 @@ export async function annoncerDefi({ simuler = false } = {}): Promise<BilanDefi>
         dejaEnvoye: 0,
         envoyes: 0,
         supprimes: 0,
+        ignores: toutes.length - abonnements.length,
         erreurs: [],
         simule: simuler,
     }

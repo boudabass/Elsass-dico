@@ -5,9 +5,13 @@ import { revalidatePath } from "next/cache"
 import { REFUS_VILLAGE_REQUIS, type EchecContribution } from "@/lib/contribution"
 import { poserVariante, validerSaisie, villageDuMembre, type SaisieForme } from "@/lib/contribution-serveur"
 import { cleDeForme } from "@/lib/dictionnaire"
+import { depasse, noter } from "@/lib/limite-tentatives-serveur"
+import { CONTRIBUTIONS_PAR_HEURE, MESSAGE_CONTRIBUTIONS, MESSAGE_PROPOSITIONS, PROPOSITIONS_PAR_MOT } from "@/lib/limites-contribution-serveur"
 import { prisma } from "@/lib/prisma"
 import { classerSaisie } from "@/lib/saisie-forme"
 import { sessionActuelle } from "@/lib/session-serveur"
+
+const UNE_HEURE_MS = 60 * 60 * 1000
 
 // Doc 20, étape 5 : « ça se dit autrement chez moi » → forme + village, sur un
 // mot qui a déjà une fiche. Distinct du bouton `+` (votes.ts), qui revendique
@@ -30,6 +34,11 @@ type Resultat =
 export async function creerVarianteAction(lemmeId: string, saisie: SaisieForme): Promise<Resultat> {
     const session = await sessionActuelle()
     if (!session) return { succes: false, erreur: "Connecte-toi pour continuer" }
+
+    const cleContribution = `contribution:${session.membreId}`
+    if (depasse(cleContribution, CONTRIBUTIONS_PAR_HEURE, UNE_HEURE_MS)) {
+        return { succes: false, erreur: MESSAGE_CONTRIBUTIONS }
+    }
 
     const valide = validerSaisie(saisie)
     if (!valide.ok) return { succes: false, erreur: valide.erreur }
@@ -61,10 +70,18 @@ export async function creerVarianteAction(lemmeId: string, saisie: SaisieForme):
             : { succes: false, erreur: "Cette façon de dire existe déjà. Ajoute plutôt ton village avec « Chez moi aussi »" }
     }
 
+    // Un membre ne propose pas plus de PROPOSITIONS_PAR_MOT formes sur le même
+    // mot. Les formes masquées comptent : la limite ne dépend pas de la modération.
+    const proposees = await prisma.variante.count({ where: { lemmeId, creeParId: session.membreId } })
+    if (proposees >= PROPOSITIONS_PAR_MOT) {
+        return { succes: false, erreur: MESSAGE_PROPOSITIONS }
+    }
+
     try {
         const varianteId = await prisma.$transaction((tx) =>
             poserVariante(tx, { lemmeId, forme: valide.forme, cle: valide.cle, membreId: session.membreId, communeId }),
         )
+        noter(cleContribution)
         revalidatePath(`/entree/${lemmeId}`)
         return { succes: true, varianteId }
     } catch (erreur) {

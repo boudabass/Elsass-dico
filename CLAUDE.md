@@ -160,7 +160,8 @@ VPS partagé ; `dev` et `main` **partagent la même base**.
 
 - Toutes les étapes de la refonte sont faites (dérivation, session, fiches
   publiques, admin, carte, contribution, jeu, deux sens).
-- **En production** : PR #104 (11/10), « pain » remplace « maison » dans
+- **En production** : PR #105 (11/10), la dérivation garde le slug d'un
+  prénom déjà en base. PR #104, « pain » remplace « maison » dans
   les mots de base (accueil et fin de jeu). PR #103 (10/10), revue avant lancement : le défi
   reprend après la fiche d'un village (sessionStorage, flèche « Revenir au
   défi » via `?depuis=jeu`), connexion centrée sur ordinateur, licence
@@ -179,8 +180,9 @@ VPS partagé ; `dev` et `main` **partagent la même base**.
 - **Export des contributions automatique** : workflow N8N
   `OP_EXPORT_CONTRIBUTIONS_DICO` actif (4 h), watch paths Coolify de dev
   `**` + `!data/contributions/**`. Premier passage le 09/10 : 8 événements.
-- Base : ~26 526 lemmes, 42 510 variantes (dont 863 insultes de la source
-  `dj_fabz`, intégrées le 09/10), 2 membres, 8 événements de contribution.
+- Base : ~26 543 lemmes, 42 563 variantes (dont 863 insultes de la source
+  `dj_fabz`, intégrées le 09/10), 148 prénoms (source `projet_babel`
+  ajoutée le 11/10), 2 membres, 8 événements de contribution.
 - **À constater par John** : boucle de redirections
   (`ERR_TOO_MANY_REDIRECTS`) à la première ouverture du jour, vue sur dev
   seulement, jamais sur main (10/10) : classée cache de dev, à rouvrir si

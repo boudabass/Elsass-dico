@@ -3436,3 +3436,9 @@ ne renvoie qu'à elle et au miroir Nisslé. Rien d'autre en ligne.
   lemme, seuls les nouveaux en reçoivent un. Rejeu : 148 prénoms, aucun sans
   forme, « Josephine » → `josephine-2`. Georges → « Schorsch » a 3 sources.
   `/prenom/catherine` (Katel) et `/sources` vérifiés sur main et dev.
+- **unprenom.fr, catégorie « Prénoms alsaciens » (proposée par John) :
+  écartée.** 120 prénoms sans aucune forme dialectale en regard : la moitié
+  reprend dans le même ordre la colonne française de Babel (Albert, Alexis,
+  Alfred…), le reste mêle prénoms allemands et anglais (Ludwig, Siegfried,
+  Ronald, Jack). Les fiches donnent étymologie et chiffres INSEE ; celle de
+  « Katel » n'indique pas Catherine. Rien à attester.

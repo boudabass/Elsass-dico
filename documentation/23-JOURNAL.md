@@ -3403,3 +3403,42 @@ D4 : notifications de 10 h reçues les 10 et 11/10.
 Note : la branche `data` garde encore « Raymond Matzen » dans
 `data/sources/culture_alsace.json` ; `dev`, `main` et la base disent
 « André Nisslé » depuis le 18/09. Laissé (archive, non lue par le site).
+
+## Prénoms : nouvelle source `projet_babel` (11/10/2026)
+
+Demande de John : d'autres sources pour les prénoms (131 lemmes, tous de
+Culture Alsace, plus 16 du Wiktionnaire). Recherche web (OLCA, Heimetsproch,
+Wikipédia alémanique et allemande, généalogie, Lexilogos) : une seule liste
+nouvelle, « Prénoms alsaciens » de Dany Rigal sur projetbabel.org. Lexilogos
+ne renvoie qu'à elle et au miroir Nisslé. Rien d'autre en ligne.
+
+- Indépendante de Culture Alsace (autres graphies : Berri / Bäri,
+  Schossef / Säpp). 50 lignes, 51 prénoms français, **62 attestations**,
+  17 prénoms absents jusque-là (Catherine, Bernard, Madeleine…). 5 couples
+  identiques chez les deux auteurs (Georges → Schorsch, Jeanne → Schann…) :
+  ils passent à 2 sources.
+- Fiche `data/sources/projet_babel.json` (fiabilité 4, comme `dj_fabz`),
+  brut, parseur `scripts/extract/projet_babel/prenoms.py` (rejeu identique),
+  JSONL. Page en UTF-8 mêlant entités et caractères littéraux (« Nàndel ») :
+  décodage UTF-8 puis `html.unescape`. Formes séparées par une espace
+  (« Schossef Sepp Seppel », « Madel Len », « Roll Rolles ») découpées,
+  signalé dans la fiche.
+- Commit `4c00042` sur `data`, par plumbing (outil jetable : `hash-object`,
+  `mktree` récursif, `commit-tree`), 4 fichiers ajoutés, rien d'autre.
+- **Ingestion** (port 5444 ouvert par John, scripts lancés à sa demande) :
+  `importer-data.mts` passe, 62 attestations `projet_babel`. `deriver.mts`
+  s'arrête sur « 1 variantes sans lemme » **après** avoir créé les lemmes :
+  les slugs de prénoms étaient recalculés sur tout l'ordre alphabétique, et
+  le nouveau « Josephine » prenait `josephine`, déjà tenu en base par
+  « Joséphine » (culture_alsace, clé distincte : pas d'`unaccent` dans une
+  clé). `skipDuplicates` écartait le lemme. 16 fiches prénom sont restées
+  quelques minutes sans forme. Correctif : un slug déjà en base reste à son
+  lemme, seuls les nouveaux en reçoivent un. Rejeu : 148 prénoms, aucun sans
+  forme, « Josephine » → `josephine-2`. Georges → « Schorsch » a 3 sources.
+  `/prenom/catherine` (Katel) et `/sources` vérifiés sur main et dev.
+- **unprenom.fr, catégorie « Prénoms alsaciens » (proposée par John) :
+  écartée.** 120 prénoms sans aucune forme dialectale en regard : la moitié
+  reprend dans le même ordre la colonne française de Babel (Albert, Alexis,
+  Alfred…), le reste mêle prénoms allemands et anglais (Ludwig, Siegfried,
+  Ronald, Jack). Les fiches donnent étymologie et chiffres INSEE ; celle de
+  « Katel » n'indique pas Catherine. Rien à attester.

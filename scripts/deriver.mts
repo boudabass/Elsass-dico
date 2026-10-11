@@ -302,9 +302,21 @@ try {
     // séparée. `communeDe()` porte la règle et tient les compteurs.
 
     // --- Slugs des prénoms (pages publiques générées statiquement) ----------
-    const slugsPris = new Set<string>()
+    // Un slug déjà en base reste à son lemme : recalculer tout l'ordre
+    // donnait « josephine » au nouveau « Josephine » (projet_babel), déjà pris
+    // par « Joséphine » (culture_alsace) ; `skipDuplicates` écartait le lemme
+    // et ses variantes restaient orphelines (11/10/2026). Une URL publiée ne
+    // change pas non plus.
+    const slugsEnBase = await prisma.lemme.findMany({
+        where: { type: "prenom", slug: { not: null } },
+        select: { cle: true, contexte: true, slug: true },
+    })
+    const slugDe = new Map(slugsEnBase.map((l) => [`${l.cle}${SEP}${l.contexte}`, l.slug!]))
+    const slugsPris = new Set(slugsEnBase.map((l) => l.slug!))
     for (const lemme of [...lemmes.values()].sort((a, b) => a.cle.localeCompare(b.cle))) {
         if (lemme.type !== "prenom") continue
+        const existant = slugDe.get(`${lemme.cle}${SEP}${lemme.contexte}`)
+        if (existant) { lemme.slug = existant; continue }
         const racine = slugifier(lemme.francais) || "prenom"
         let slug = racine
         for (let n = 2; slugsPris.has(slug); n++) slug = `${racine}-${n}`

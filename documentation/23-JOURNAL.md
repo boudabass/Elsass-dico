@@ -3512,3 +3512,15 @@ Fait par la session Opérateur (`d738ea6`), relu.
 - Déployé sur dev. Testé par John sur son téléphone : reconnexion demandée
   (ancien jeton refusé), connexion, déconnexion vers `/login`, reconnexion,
   essai de notification reçu (abonnement intact). PR #107 `dev` → `main`.
+
+### D4 tenu, notifications prêtes pour le lancement (12/10/2026)
+
+- `DEFI_DICO_NOTIF_10H` a réussi les trois matins (10, 11 et 12/10, 10 h).
+  Bilan du 12/10 : défi n° 18, 4 abonnements, 4 envois, 0 supprimé, 0 ignoré,
+  aucune erreur.
+- John a reçu la notification les trois matins, **une seule fois** le 11 et
+  le 12 : pas de double abonnement sur son téléphone.
+- **D4 est clos.** Le lancement public (`MET_DEFI_DICO_HEBDO`) n'attend plus
+  que le feu vert de John. Odoo 883 à jour.
+- Aucun commit `data:` cette nuit (pas de contribution) : le non-redéploiement
+  de dev après un tel commit reste à constater.

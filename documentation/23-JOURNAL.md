@@ -3524,3 +3524,9 @@ Fait par la session Opérateur (`d738ea6`), relu.
   que le feu vert de John. Odoo 883 à jour.
 - Aucun commit `data:` cette nuit (pas de contribution) : le non-redéploiement
   de dev après un tel commit reste à constater.
+- Bande-annonce du Dico (session « Orchestrateur The Elsassisch World »,
+  lecture seule) : « sanglier à six moteurs » = `sechsmotorigewildsaü` et
+  « chieur de papier peint » = `dàpéteschiesser`, une forme, source
+  `dj_fabz`, contexte « insulte ». « sechsmotorigi Wildsau » n'est pas dans le
+  Dico. Lu dans les JSONL de la branche `data` ; capture sur main à faire par
+  cette session avant de figer la vidéo.

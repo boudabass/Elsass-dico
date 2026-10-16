@@ -163,10 +163,10 @@ model Lemme {
   // les distinguer. Fusionner rangerait la fleur et la sainte au même endroit,
   // alors que la doctrine sépare les homonymes. Le type entre donc dans la clé.
   //
-  // Contrepartie assumée, et connue : `au revoir`, `frapper à la porte` et
-  // `aller chercher` sont classés `mot` par une source et `expression` par une
-  // autre, et donneront deux lemmes jumeaux. Trois cas sur 25 887, à réunir à
-  // la main un jour — jamais en devinant lequel des deux types est le bon.
+  // Une locution attestée `mot` par une source et `expression` par une autre
+  // est UNE fiche, en expression (deriver.mts, 16/10/2026). Les trois cas
+  // d'avant (`au revoir`, `frapper à la porte`, `aller chercher`) sont réunis
+  // par scripts/fusionner-jumeaux.mts.
   @@unique([cle, contexte, type])
   @@index([cle])
   @@index([type])

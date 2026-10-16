@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { useRouter } from "next/navigation";
-import { ChevronLeft, User, X } from "lucide-react";
+import { ChevronLeft, X } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { AppNavShell, type OngletRacine } from "@/components/app-nav-shell";
 
@@ -75,50 +75,33 @@ const BOUTON_ICONE =
   "flex h-10 w-10 shrink-0 items-center justify-center rounded-full transition-colors";
 
 export function AppHeader(props: AppHeaderProps) {
+  // Racine sans chevron (16/10/2026) : sur mobile, l'en-tête ne sert à rien.
+  // Le titre de page est déjà dit par l'onglet actif de la barre du bas, et
+  // l'inverseur de sens reste en haut. L'en-tête ne reste qu'à partir de `md`.
+  // Les écrans avec chevron retour gardent le leur : sans lui, pas de retour.
+  const cache = props.variant === "root" && !props.backHref;
   return (
     <>
       {props.actif ? <AppNavShell actif={props.actif} /> : null}
       <header
         // Sous l'inverseur de sens quand il existe (membre connecté), qui
-        // porte alors la marge de l'encoche à sa place.
-        className="sticky top-[var(--hauteur-inverseur)] z-40 border-b border-border bg-background"
+        // porte alors la marge de l'encoche à sa place. Sans en-tête sur
+        // mobile, c'est lui seul qui la porte : aucune marge n'est perdue.
+        className={cn(
+          "sticky top-[var(--hauteur-inverseur)] z-40 border-b border-border bg-background",
+          cache && "hidden md:block"
+        )}
         style={{ paddingTop: "var(--marge-encoche-entete)" }}
       >
         <div className="flex h-14 items-center justify-between gap-2 px-4">
           {props.variant === "root" ? (
-            <>
-              <EnteteRacine {...props} />
-              <BoutonCompte actif={props.actif} />
-            </>
+            <EnteteRacine {...props} />
           ) : (
             <EnteteEmpilee {...props} />
           )}
         </div>
       </header>
     </>
-  );
-}
-
-// « Mon espace » sur mobile (26/09/2026) : la barre du bas en portait six
-// onglets chez un admin, trop petits pour le pouce. Le compte en sort et
-// devient cette icône ronde à droite de l'en-tête, comme sur la plupart des
-// apps. Dès la tablette, le rail le garde avec son libellé.
-function BoutonCompte({ actif }: { actif?: OngletRacine }) {
-  if (!actif) return null;
-  const estActif = actif === "compte";
-  return (
-    <Link
-      href="/dashboard"
-      aria-label="Mon espace"
-      aria-current={estActif ? "page" : undefined}
-      className={cn(
-        BOUTON_ICONE,
-        "md:hidden",
-        estActif ? "bg-sens-500 text-white" : "bg-neutre-100 text-foreground"
-      )}
-    >
-      <User className="h-[18px] w-[18px]" strokeWidth={estActif ? 2.4 : 2} />
-    </Link>
   );
 }
 
@@ -152,7 +135,6 @@ function EnteteRacine({ titre, backHref }: AppHeaderRootProps) {
 
 function EnteteEmpilee({
   titre,
-  actif,
   leading = "retour",
   backHref,
   retourHistorique,
@@ -182,7 +164,6 @@ function EnteteEmpilee({
         <span className="flex-1 truncate text-center text-[17px] font-bold text-foreground">{titre}</span>
         <div className="flex shrink-0 items-center justify-end gap-2 min-w-10">
           {trailing}
-          <BoutonCompte actif={actif} />
         </div>
       </>
     );
@@ -202,7 +183,6 @@ function EnteteEmpilee({
       <span className="flex-1 truncate text-center text-[17px] font-bold text-foreground">{titre}</span>
       <div className="flex shrink-0 items-center justify-end gap-2 min-w-10">
         {trailing}
-        <BoutonCompte actif={actif} />
       </div>
     </>
   );

@@ -1,7 +1,8 @@
 'use server'
 
-import type { LemmeResume, TypeTerme } from "@/lib/dictionnaire"
+import { lireFiltre, type FiltreDico, type LemmeResume, type TypeTerme } from "@/lib/dictionnaire"
 import { apercusParLemme } from "@/lib/lemmes"
+import { conditionFiltre } from "@/lib/filtre-dico-serveur"
 import { Prisma } from "@/generated/prisma/client"
 import { prisma } from "@/lib/prisma"
 import { estConnecte } from "@/lib/session-serveur"
@@ -48,14 +49,15 @@ function nbPagesPour(total: number): number {
     return Math.max(1, Math.ceil(total / TAILLE_PAGE))
 }
 
-export async function lettresDisponiblesAction(): Promise<string[]> {
+export async function lettresDisponiblesAction(filtreBrut?: string): Promise<string[]> {
     if (!(await estConnecte())) return []
+    const filtre = lireFiltre(filtreBrut)
     // La lettre est désaccentuée : `Écureuil` se range sous E, pas dans une
     // vingt-septième case. Le tri, lui, est celui du français.
     const lignes = await prisma.$queryRaw<{ lettre: string }[]>`
         SELECT DISTINCT ${lettreDe("cle")} AS lettre
         FROM lemmes
-        WHERE cle <> ''
+        WHERE cle <> '' AND ${conditionFiltre(filtre, "lemmes")}
         ORDER BY lettre
     `
     // Un lemme qui commence par un chiffre ou un signe existe (les sources en
@@ -84,9 +86,10 @@ export interface PageLettre {
     nbPages: number
 }
 
-export async function lemmesParLettreAction(lettre: string, page = 1): Promise<PageLettre> {
+export async function lemmesParLettreAction(lettre: string, page = 1, filtreBrut?: string): Promise<PageLettre> {
     if (!(await estConnecte())) return { lemmes: [], total: 0, page: 1, nbPages: 1 }
     const vide: PageLettre = { lemmes: [], total: 0, page: 1, nbPages: 1 }
+    const filtre = lireFiltre(filtreBrut)
 
     const initiale = lettre.trim().toUpperCase()
     if (!/^[A-Z]$/.test(initiale)) return vide
@@ -97,7 +100,7 @@ export async function lemmesParLettreAction(lettre: string, page = 1): Promise<P
     // page demandée contre le vrai nombre de pages plutôt que de la croire.
     const comptes = await prisma.$queryRaw<{ n: bigint }[]>`
         SELECT count(*) AS n FROM lemmes
-        WHERE ${lettreDe("cle")} = ${initiale}
+        WHERE ${lettreDe("cle")} = ${initiale} AND ${conditionFiltre(filtre, "lemmes")}
     `
     const total = Number(comptes[0]?.n ?? 0)
     if (total === 0) return vide
@@ -118,7 +121,7 @@ export async function lemmesParLettreAction(lettre: string, page = 1): Promise<P
         SELECT l.id, l.francais, l.contexte, l.type::text AS type, c.departement
         FROM lemmes l
         LEFT JOIN communes c ON c.id = l.commune_id
-        WHERE ${lettreDe("l.cle")} = ${initiale}
+        WHERE ${lettreDe("l.cle")} = ${initiale} AND ${conditionFiltre(filtre, "l")}
         ORDER BY ${cleParcours("l.cle")} ASC, l.cle ASC
         LIMIT ${TAILLE_PAGE} OFFSET ${offset}
     `
@@ -151,8 +154,9 @@ export async function lemmesParLettreAction(lettre: string, page = 1): Promise<P
  *  approximatif saute simplement à la page où il tomberait alphabétiquement.
  *  Champ « Aller à un mot » du 14/09/2026 (retour de John : 12 clics pour
  *  atteindre « bricoler », 30 pour « cytise »). */
-export async function pageDuPrefixeAction(lettre: string, prefixe: string): Promise<number> {
+export async function pageDuPrefixeAction(lettre: string, prefixe: string, filtreBrut?: string): Promise<number> {
     if (!(await estConnecte())) return 1
+    const filtre = lireFiltre(filtreBrut)
     const initiale = lettre.trim().toUpperCase()
     if (!/^[A-Z]$/.test(initiale)) return 1
 
@@ -161,7 +165,7 @@ export async function pageDuPrefixeAction(lettre: string, prefixe: string): Prom
 
     const comptes = await prisma.$queryRaw<{ n: bigint }[]>`
         SELECT count(*) AS n FROM lemmes
-        WHERE ${lettreDe("cle")} = ${initiale}
+        WHERE ${lettreDe("cle")} = ${initiale} AND ${conditionFiltre(filtre, "lemmes")}
     `
     const total = Number(comptes[0]?.n ?? 0)
     if (total === 0) return 1
@@ -169,6 +173,7 @@ export async function pageDuPrefixeAction(lettre: string, prefixe: string): Prom
     const rangs = await prisma.$queryRaw<{ rang: bigint }[]>`
         SELECT count(*) AS rang FROM lemmes
         WHERE ${lettreDe("cle")} = ${initiale}
+          AND ${conditionFiltre(filtre, "lemmes")}
           AND ${cleParcours("cle")} < ${parcoursDe(Prisma.sql`lower(${prefixeTrim})`)}
     `
     const rang = Number(rangs[0]?.rang ?? 0)

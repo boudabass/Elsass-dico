@@ -113,14 +113,15 @@ export function AppNavShell({ actif }: { actif: OngletRacine }) {
         })}
       </nav>
 
-      {/* Barre d'onglets — mobile uniquement. Sans « Mon espace » (26/09/2026,
-          retour de John : six onglets en admin, trop petits) : sur mobile, le
-          compte est l'icône ronde à droite de l'en-tête (BoutonCompte). */}
+      {/* Barre d'onglets — mobile uniquement, cinq onglets au plus (16/10/2026,
+          retour de John : six onglets chez un admin, trop petits). L'admin n'y
+          est pas : il reste un lien dans Mon espace (/dashboard), et le rail
+          le garde dès la tablette. */}
       <nav
         aria-label="Navigation"
         className="fixed inset-x-0 bottom-0 z-30 flex h-16 border-t border-border bg-background pb-[env(safe-area-inset-bottom)] md:hidden"
       >
-        {onglets.filter((o) => o.cle !== "compte").map((onglet) => {
+        {onglets.filter((o) => o.cle !== "admin").map((onglet) => {
           const { cle, icone: Icone, libelle } = onglet;
           const estActif = actif === cle;
           return (

@@ -157,11 +157,18 @@ VPS partagé ; `dev` et `main` **partagent la même base**.
   `scripts/supprimer-membre.mts` (anonymise, puis supprimer le compte Odoo).
 - Coolify via MCP : lecture seule.
 
-## État au 10/10/2026
+## État au 17/10/2026
 
 - Toutes les étapes de la refonte sont faites (dérivation, session, fiches
   publiques, admin, carte, contribution, jeu, deux sens).
-- **En production** : PR #107 (11/10), points mineurs du second audit :
+- **En production** : PR #108 (17/10), filtre du dictionnaire A-Z (Tout,
+  Mots, Expressions, Insultes, Villages, Prénoms, deux sens ; **insulte =
+  `contexte = 'insulte'`, pas un type**, prédicat `correspondAuFiltre()` et
+  son miroir SQL `conditionFiltre()` à garder identiques), barre du haut
+  retirée sur mobile (Mon espace dans la barre du bas, Admin hors de la
+  barre mobile : 5 onglets au plus), case « C'est une insulte » à la
+  contribution, fiches jumelles mot/expression réunies en expression.
+  PR #107 (11/10), points mineurs du second audit :
   jeton de 30 j révocable (`sessions_refresh`, chacun s'est reconnecté une
   fois), réponses du défi fermées au chemin invité pour un membre connecté,
   30 parties libres par heure, recherches limitées à 100 caractères.
@@ -188,7 +195,7 @@ VPS partagé ; `dev` et `main` **partagent la même base**.
 - **Export des contributions automatique** : workflow N8N
   `OP_EXPORT_CONTRIBUTIONS_DICO` actif (4 h), watch paths Coolify de dev
   `**` + `!data/contributions/**`. Premier passage le 09/10 : 8 événements.
-- Base : ~26 543 lemmes, 42 563 variantes (dont 863 insultes de la source
+- Base : ~26 540 lemmes, 42 563 variantes (dont 863 insultes de la source
   `dj_fabz`, intégrées le 09/10), 148 prénoms (source `projet_babel`
   ajoutée le 11/10), 2 membres, 8 événements de contribution.
 - **À constater par John** : boucle de redirections
@@ -202,14 +209,17 @@ VPS partagé ; `dev` et `main` **partagent la même base**.
   après la connexion (installer, puis activer), l'encart de fin de défi ou
   « Mon espace » ; envoi à 10 h par N8N (`DEFI_DICO_NOTIF_10H`, **publié
   le 10/10**, main seulement), route `notifier-defi`. Testé sur l'Android de
-  John. Reste D4 : matins des 10, 11 et 12/10 sans raté (10 et 11 reçus) (2 abonnés à
-  l'essai simulé), avant l'annonce publique.
+  John. **D4 tenu le 12/10** : reçue les 10, 11 et 12/10, une seule fois
+  chaque matin (4 abonnements au 12/10).
 - **En attente côté John** : feu vert du lancement public (workflow N8N
-  `MET_DEFI_DICO_HEBDO`), après D4.
+  `MET_DEFI_DICO_HEBDO`), plus rien d'autre ne le bloque.
 - **`/application`** (site Odoo) : terminé le 09/10 (carte Elsass Dico vers
   `/login`, boutons d'Elsass Chat, « Vos idées », Cours et Forum).
 - **Prochaine session** : rien d'imposé. Les sources faibles s'intègrent
   comme `culture_alsace` (décision de John du 09/10), sans démarche préalable.
+- **Thèmes classés par IA** (décision de John, 16/10) : pilote de 300 mots
+  mis de côté, rien en base (`documentation/themes-pilote/`). L'IA ne lit
+  que le français. Reste à choisir la validation avant les 26 000 mots.
 - **Ouvert, plus long terme** : faire venir des locuteurs, mesure de
   convergence, aire du 57, attribution de la police Azimut (John), seuil
   « proche » de la contribution (≤ 2 lettres et ≤ 25 %).

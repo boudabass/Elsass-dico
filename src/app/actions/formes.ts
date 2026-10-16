@@ -1,8 +1,9 @@
 'use server'
 
-import { RECHERCHE_MAX, type FormeDetaillee, type FormeResume, type SensDetaille, type SensForme, type TypeTerme, type VarianteDetaillee } from "@/lib/dictionnaire"
+import { RECHERCHE_MAX, correspondAuFiltre, lireFiltre, type FiltreDico, type FormeDetaillee, type FormeResume, type SensDetaille, type SensForme, type TypeTerme, type VarianteDetaillee } from "@/lib/dictionnaire"
 import type { MonVote } from "@/lib/contribution"
 import { mesVotes } from "@/lib/contribution-serveur"
+import { conditionFiltre, jointureFiltre } from "@/lib/filtre-dico-serveur"
 import { prisma } from "@/lib/prisma"
 import { estConnecte, sessionActuelle } from "@/lib/session-serveur"
 
@@ -106,7 +107,11 @@ function comparerSens(a: SensForme, b: SensForme): number {
     return b.nbSources - a.nbSources || b.nbVillages - a.nbVillages || a.francais.localeCompare(b.francais, "fr")
 }
 
-async function resumerFormes(cles: string[]): Promise<Map<string, FormeResume>> {
+/** En mode filtré, une forme n'a de titre, de sens et de compte que par ses
+ *  variantes qui correspondent au filtre. Une variante écartée ne compte nulle
+ *  part dans l'aperçu : c'est ce qui fait tenir `nbSens` sur les seuls sens
+ *  visibles. La fiche (`chargerFormeAction`) reste complète, elle. */
+async function resumerFormes(cles: string[], filtre: FiltreDico = "tout"): Promise<Map<string, FormeResume>> {
     if (!cles.length) return new Map()
     const { brutes, parId } = await variantesDesCles(cles)
 
@@ -116,6 +121,7 @@ async function resumerFormes(cles: string[]): Promise<Map<string, FormeResume>> 
     for (const b of brutes) {
         const v = parId.get(b.id)
         if (!v) continue
+        if (!correspondAuFiltre({ type: v.lemme.type as TypeTerme, contexte: v.lemme.contexte }, filtre)) continue
         titres.set(b.cle, [...(titres.get(b.cle) ?? []), b.titre])
 
         const { sources, villages } = temoinsDe(v.temoignages)
@@ -178,12 +184,13 @@ export async function rechercherFormesAction(terme: string): Promise<FormeResume
     return dansLOrdre(cles, await resumerFormes(cles))
 }
 
-export async function lettresFormesAction(): Promise<string[]> {
+export async function lettresFormesAction(filtreBrut?: string): Promise<string[]> {
     if (!(await estConnecte())) return []
+    const filtre = lireFiltre(filtreBrut)
     const lignes = await prisma.$queryRaw<{ lettre: string }[]>`
-        SELECT DISTINCT upper(left(parcours_inv, 1)) AS lettre
-        FROM variantes
-        WHERE masquee = false
+        SELECT DISTINCT upper(left(v.parcours_inv, 1)) AS lettre
+        FROM variantes v ${jointureFiltre(filtre)}
+        WHERE v.masquee = false AND ${conditionFiltre(filtre, "l")}
         ORDER BY lettre
     `
     return lignes.map((l) => l.lettre).filter((l) => /^[A-Z]$/.test(l))
@@ -196,24 +203,26 @@ export interface PageLettreFormes {
     nbPages: number
 }
 
-async function totalLettre(initiale: string): Promise<number> {
+async function totalLettre(initiale: string, filtre: FiltreDico): Promise<number> {
     const comptes = await prisma.$queryRaw<{ n: bigint }[]>`
-        SELECT count(DISTINCT cle_inv) AS n FROM variantes
-        WHERE masquee = false AND upper(left(parcours_inv, 1)) = ${initiale}
+        SELECT count(DISTINCT v.cle_inv) AS n FROM variantes v ${jointureFiltre(filtre)}
+        WHERE v.masquee = false AND upper(left(v.parcours_inv, 1)) = ${initiale}
+          AND ${conditionFiltre(filtre, "l")}
     `
     return Number(comptes[0]?.n ?? 0)
 }
 
 /** Même contrat que `lemmesParLettreAction()` : le compte d'abord, la page
  *  demandée validée contre lui, 100 formes à la fois. */
-export async function formesParLettreAction(lettre: string, page = 1): Promise<PageLettreFormes> {
+export async function formesParLettreAction(lettre: string, page = 1, filtreBrut?: string): Promise<PageLettreFormes> {
     if (!(await estConnecte())) return { formes: [], total: 0, page: 1, nbPages: 1 }
     const vide: PageLettreFormes = { formes: [], total: 0, page: 1, nbPages: 1 }
+    const filtre = lireFiltre(filtreBrut)
 
     const initiale = lettre.trim().toUpperCase()
     if (!/^[A-Z]$/.test(initiale)) return vide
 
-    const total = await totalLettre(initiale)
+    const total = await totalLettre(initiale, filtre)
     if (total === 0) return vide
 
     const nbPages = nbPagesPour(total)
@@ -223,35 +232,38 @@ export async function formesParLettreAction(lettre: string, page = 1): Promise<P
     // `parcours_inverse` (elle ne dépend que de la clé) : `min()` ne choisit
     // rien, il ne fait que la remonter au niveau du groupe.
     const lignes = await prisma.$queryRaw<{ cle: string }[]>`
-        SELECT cle_inv AS cle
-        FROM variantes
-        WHERE masquee = false AND upper(left(parcours_inv, 1)) = ${initiale}
+        SELECT v.cle_inv AS cle
+        FROM variantes v ${jointureFiltre(filtre)}
+        WHERE v.masquee = false AND upper(left(v.parcours_inv, 1)) = ${initiale}
+          AND ${conditionFiltre(filtre, "l")}
         GROUP BY 1
-        ORDER BY min(parcours_inv) ASC, cle ASC
+        ORDER BY min(v.parcours_inv) ASC, v.cle_inv ASC
         LIMIT ${TAILLE_PAGE} OFFSET ${(pageValidee - 1) * TAILLE_PAGE}
     `
     const cles = lignes.map((l) => l.cle)
 
-    return { formes: dansLOrdre(cles, await resumerFormes(cles)), total, page: pageValidee, nbPages }
+    return { formes: dansLOrdre(cles, await resumerFormes(cles, filtre)), total, page: pageValidee, nbPages }
 }
 
 /** La page où tombe `prefixe`, avec exactement le tri de
  *  `formesParLettreAction` — le préfixe passe par `parcours_inverse` lui
  *  aussi, donc `d'r Lo` saute bien à L. */
-export async function pageDuPrefixeFormeAction(lettre: string, prefixe: string): Promise<number> {
+export async function pageDuPrefixeFormeAction(lettre: string, prefixe: string, filtreBrut?: string): Promise<number> {
     if (!(await estConnecte())) return 1
+    const filtre = lireFiltre(filtreBrut)
     const initiale = lettre.trim().toUpperCase()
     const prefixeTrim = prefixe.trim()
     if (!/^[A-Z]$/.test(initiale) || !prefixeTrim) return 1
 
-    const total = await totalLettre(initiale)
+    const total = await totalLettre(initiale, filtre)
     if (total === 0) return 1
 
     const rangs = await prisma.$queryRaw<{ rang: bigint }[]>`
-        SELECT count(DISTINCT cle_inv) AS rang FROM variantes
-        WHERE masquee = false
-          AND upper(left(parcours_inv, 1)) = ${initiale}
-          AND parcours_inv < parcours_inverse(${prefixeTrim})
+        SELECT count(DISTINCT v.cle_inv) AS rang FROM variantes v ${jointureFiltre(filtre)}
+        WHERE v.masquee = false
+          AND upper(left(v.parcours_inv, 1)) = ${initiale}
+          AND v.parcours_inv < parcours_inverse(${prefixeTrim})
+          AND ${conditionFiltre(filtre, "l")}
     `
     const rang = Number(rangs[0]?.rang ?? 0)
     return Math.min(Math.max(1, Math.floor(rang / TAILLE_PAGE) + 1), nbPagesPour(total))

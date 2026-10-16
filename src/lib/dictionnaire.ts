@@ -1,4 +1,5 @@
 import type { MonVote } from "@/lib/contribution"
+import type { Sens } from "@/lib/sens"
 
 // Longueur maximale d'un terme libre envoyé à une recherche (audit du 11/10/2026).
 // Au-delà, la requête ne part pas en base : une chaîne de plusieurs milliers de
@@ -27,6 +28,72 @@ export const LIBELLES_TYPE_TERME: Record<TypeTerme, string> = {
 
 export function estTypeTermeValide(valeur: string): valeur is TypeTerme {
     return (TYPES_TERME as readonly string[]).includes(valeur)
+}
+
+// --- Filtre par catégorie (16/10/2026, décision de John) ---------------------
+//
+// Une rangée de boutons au-dessus de l'alphabet, dans les deux sens. Les valeurs
+// sont celles de l'URL (`filtre=`). `insulte` n'est pas un type : ce sont les
+// attestations dj_fabz, dont le lemme porte `contexte = 'insulte'`, qu'il soit
+// mot ou expression. Mots et Expressions gardent leurs insultes.
+//
+// Le prédicat JS ci-dessous et sa condition SQL (`conditionFiltre()`, dans
+// src/lib/filtre-dico-serveur.ts) doivent dire EXACTEMENT la même chose.
+
+export const FILTRES_DICO = ['tout', 'mot', 'expression', 'insulte', 'toponyme', 'prenom'] as const
+export type FiltreDico = typeof FILTRES_DICO[number]
+
+export const LIBELLES_FILTRE_DICO: Record<FiltreDico, string> = {
+    tout: 'Tout',
+    mot: 'Mots',
+    expression: 'Expressions',
+    insulte: 'Insultes',
+    toponyme: 'Villages',
+    prenom: 'Prénoms',
+}
+
+/** Une valeur d'URL inconnue ou absente retombe sur « tout » : un lien trafiqué
+ *  ne doit ni casser l'écran ni filtrer sur une valeur qui n'existe pas. */
+export function lireFiltre(valeur: string | null | undefined): FiltreDico {
+    return (FILTRES_DICO as readonly string[]).includes(valeur ?? '') ? (valeur as FiltreDico) : 'tout'
+}
+
+export function correspondAuFiltre(lemme: { type: TypeTerme; contexte: string }, filtre: FiltreDico): boolean {
+    if (filtre === 'tout') return true
+    if (filtre === 'insulte') return lemme.contexte === 'insulte'
+    return lemme.type === filtre
+}
+
+/** Ce qu'un écran dit de ce qu'il liste : le compteur, et le message vide. Les
+ *  accords suivent le mot (« Aucune expression », « Aucun village »). */
+export interface UniteAffichee {
+    un: string
+    pl: string
+    aucun: string
+}
+
+const UNITE_FR_MOT: UniteAffichee = { un: 'mot', pl: 'mots', aucun: 'Aucun mot' }
+const UNITES_FR: Record<FiltreDico, UniteAffichee> = {
+    tout: UNITE_FR_MOT,
+    mot: UNITE_FR_MOT,
+    expression: { un: 'expression', pl: 'expressions', aucun: 'Aucune expression' },
+    insulte: { un: 'insulte', pl: 'insultes', aucun: 'Aucune insulte' },
+    toponyme: { un: 'village', pl: 'villages', aucun: 'Aucun village' },
+    prenom: { un: 'prénom', pl: 'prénoms', aucun: 'Aucun prénom' },
+}
+
+const UNITE_ALS_MOT: UniteAffichee = { un: 'mot alsacien', pl: 'mots alsaciens', aucun: 'Aucun mot alsacien' }
+const UNITES_ALS: Record<FiltreDico, UniteAffichee> = {
+    tout: UNITE_ALS_MOT,
+    mot: UNITE_ALS_MOT,
+    expression: { un: 'expression alsacienne', pl: 'expressions alsaciennes', aucun: 'Aucune expression alsacienne' },
+    insulte: { un: 'insulte alsacienne', pl: 'insultes alsaciennes', aucun: 'Aucune insulte alsacienne' },
+    toponyme: { un: 'nom de village', pl: 'noms de villages', aucun: 'Aucun nom de village' },
+    prenom: { un: 'prénom alsacien', pl: 'prénoms alsaciens', aucun: 'Aucun prénom alsacien' },
+}
+
+export function uniteFiltre(filtre: FiltreDico, sens: Sens): UniteAffichee {
+    return sens === 'als' ? UNITES_ALS[filtre] : UNITES_FR[filtre]
 }
 
 // --- Ce qui fonde une forme --------------------------------------------------

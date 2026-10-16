@@ -222,9 +222,23 @@ try {
         return resultat
     }
 
+    // Une même locution écrite « mot » par une source et « expression » par une
+    // autre (même libellé, même contexte) est UNE fiche, en expression (16/10/2026,
+    // décision de John). Ce sont des trous d'attestation, pas deux mots : « aller
+    // chercher », « au revoir », « frapper à la porte » en étaient les trois cas.
+    // La règle porte sur tout couple attesté dans les deux types, sans liste de
+    // mots en dur. Seul « mot » se range en expression : un proverbe n'est jamais
+    // une locution, et un toponyme ou un prénom ne passe pas par ici.
+    const enExpression = new Set(
+        attestations
+            .filter((a) => a.type === "expression")
+            .map((a) => `${cleFrancais(a.francais)}${SEP}${a.contexte}`),
+    )
+
     for (const a of attestations) {
         const cle = cleFrancais(a.francais)
         if (!cle) { rapport.sansForme++; continue }
+        const typeDuLemme = a.type === "mot" && enExpression.has(`${cle}${SEP}${a.contexte}`) ? "expression" : a.type
 
         // Un toponyme rattaché à une commune est indexé PAR CETTE COMMUNE, et
         // non par (français, contexte) : `Roeschwoog` de culture_alsace et
@@ -235,14 +249,14 @@ try {
         const communeId = a.type === "toponyme" ? communeDe(a.francais, a.contexte) : null
         const cleLemme = communeId !== null
             ? `commune${SEP}${communeId}`
-            : `${cle}${SEP}${a.contexte}${SEP}${a.type}`
+            : `${cle}${SEP}${a.contexte}${SEP}${typeDuLemme}`
 
         const connu = lemmes.get(cleLemme)
         if (!connu) {
             lemmes.set(cleLemme, {
                 cle,
                 contexte: a.contexte,
-                type: a.type,
+                type: typeDuLemme,
                 // Le français retenu est celui qui ne porte pas de ponctuation
                 // finale : c'est celui qu'un visiteur tape. Il reste toujours
                 // écrit tel quel par une source — rien n'est fabriqué.

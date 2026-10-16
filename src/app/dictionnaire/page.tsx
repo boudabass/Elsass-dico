@@ -15,7 +15,18 @@ import {
   pageDuPrefixeAction,
 } from "@/app/actions/navigation";
 import { formesParLettreAction, lettresFormesAction, pageDuPrefixeFormeAction } from "@/app/actions/formes";
-import { entreParentheses, formeDictionnaire, lienForme, precisionLemme, type FormeApercu } from "@/lib/dictionnaire";
+import {
+  FILTRES_DICO,
+  LIBELLES_FILTRE_DICO,
+  entreParentheses,
+  formeDictionnaire,
+  lienForme,
+  lireFiltre,
+  precisionLemme,
+  uniteFiltre,
+  type FiltreDico,
+  type FormeApercu,
+} from "@/lib/dictionnaire";
 import { lireSens, parametreSens, type Sens } from "@/lib/sens";
 import { useListeMemorisee } from "@/hooks/use-liste-memorisee";
 import { useScrollMemorise } from "@/hooks/use-scroll-memorise";
@@ -54,9 +65,9 @@ interface PageAffichee {
   nbPages: number;
 }
 
-async function chargerPage(sens: Sens, lettre: string, page: number): Promise<PageAffichee> {
+async function chargerPage(sens: Sens, filtre: FiltreDico, lettre: string, page: number): Promise<PageAffichee> {
   if (sens === "als") {
-    const p = await formesParLettreAction(lettre, page);
+    const p = await formesParLettreAction(lettre, page, filtre);
     return {
       total: p.total,
       page: p.page,
@@ -72,7 +83,7 @@ async function chargerPage(sens: Sens, lettre: string, page: number): Promise<Pa
       })),
     };
   }
-  const p = await lemmesParLettreAction(lettre, page);
+  const p = await lemmesParLettreAction(lettre, page, filtre);
   return {
     total: p.total,
     page: p.page,
@@ -89,8 +100,13 @@ async function chargerPage(sens: Sens, lettre: string, page: number): Promise<Pa
   };
 }
 
-function urlDictionnaire(sens: Sens, lettre: string, page?: number): string {
-  const params = [`lettre=${lettre}`, page ? `page=${page}` : "", parametreSens(sens)].filter(Boolean);
+function urlDictionnaire(sens: Sens, filtre: FiltreDico, lettre: string, page?: number): string {
+  const params = [
+    `lettre=${lettre}`,
+    page ? `page=${page}` : "",
+    parametreSens(sens),
+    filtre === "tout" ? "" : `filtre=${filtre}`,
+  ].filter(Boolean);
   return `/dictionnaire?${params.join("&")}`;
 }
 
@@ -108,12 +124,16 @@ function DictionnaireContenu() {
   const pageDepuisUrl = Number(searchParams.get("page")) || 1;
   useSensDepuisUrl(searchParams.get("sens"));
   const { sens } = useSens();
+  // Le filtre par catégorie (16/10/2026) : lu de l'URL une fois, puis piloté
+  // par les boutons. Une valeur inconnue retombe sur « tout ».
+  const [filtre, setFiltre] = useState<FiltreDico>(() => lireFiltre(searchParams.get("filtre")));
 
   // L'alphabet disponible ne change qu'à une publication : il se garde plus
   // longtemps que les listes, et cesse ainsi de coûter un appel par visite.
+  // Il dépend du filtre : une lettre n'existe que si elle a un mot de ce type.
   const { donnees: lettres, echec: echecLettres, rafraichir: rechargerLettres } = useListeMemorisee<string[]>({
-    cle: cleCache("dictionnaire", sens, "lettres"),
-    charger: sens === "als" ? lettresFormesAction : lettresDisponiblesAction,
+    cle: cleCache("dictionnaire", sens, filtre, "lettres"),
+    charger: () => (sens === "als" ? lettresFormesAction(filtre) : lettresDisponiblesAction(filtre)),
     fraicheurMs: 5 * 60_000,
   });
   const disponibles = useMemo(() => (lettres ? new Set(lettres) : null), [lettres]);
@@ -146,6 +166,15 @@ function DictionnaireContenu() {
     setPageNo(1);
   }
 
+  // Changer de filtre repart de la page 1. La lettre est gardée si elle existe
+  // encore pour ce filtre : c'est l'effet sur `lettres` qui le décide, quand
+  // l'alphabet du nouveau filtre arrive.
+  function choisirFiltre(nouveau: FiltreDico) {
+    if (nouveau === filtre) return;
+    setFiltre(nouveau);
+    setPageNo(1);
+  }
+
   function allerPage(n: number) {
     if (!lettre) return;
     setPageNo(n);
@@ -167,8 +196,8 @@ function DictionnaireContenu() {
     setRechercheEnCours(true);
     try {
       const n = sens === "als"
-        ? await pageDuPrefixeFormeAction(lettre, prefixe)
-        : await pageDuPrefixeAction(lettre, prefixe);
+        ? await pageDuPrefixeFormeAction(lettre, prefixe, filtre)
+        : await pageDuPrefixeAction(lettre, prefixe, filtre);
       // Pré-remplit le cache de la page cible AVANT de faire bouger `pageNo` :
       // `useListeMemorisee` relit le cache de façon SYNCHRONE pendant le
       // rendu dès que sa clé change (son `cleRef`), donc si l'entrée existe
@@ -177,8 +206,8 @@ function DictionnaireContenu() {
       // s'est révélé intermittent à l'écran le 14/09/2026 (même avec
       // `startTransition` autour de `allerPage`, gardé ci-dessous par
       // prudence mais insuffisant seul pour fiabiliser à 100 %).
-      await chargerAvecCache(cleCache("dictionnaire", sens, "lettre", lettre, String(n)), () =>
-        chargerPage(sens, lettre, n),
+      await chargerAvecCache(cleCache("dictionnaire", sens, filtre, "lettre", lettre, String(n)), () =>
+        chargerPage(sens, filtre, lettre, n),
       );
       startTransition(() => {
         allerPage(n);
@@ -189,13 +218,13 @@ function DictionnaireContenu() {
     }
   }
 
-  const cleLettre = lettre ? cleCache("dictionnaire", sens, "lettre", lettre, String(pageNo)) : null;
+  const cleLettre = lettre ? cleCache("dictionnaire", sens, filtre, "lettre", lettre, String(pageNo)) : null;
   const { donnees: page, premierChargement, echec: echecPage, rafraichir: rechargerPage } = useListeMemorisee<PageAffichee>({
     cle: cleLettre,
-    charger: () => chargerPage(sens, lettre as string, pageNo),
+    charger: () => chargerPage(sens, filtre, lettre as string, pageNo),
   });
   const lemmes = page?.lignes ?? [];
-  const unite = sens === "als" ? { un: "mot alsacien", pl: "mots alsaciens" } : { un: "mot", pl: "mots" };
+  const unite = uniteFiltre(filtre, sens);
   // Une revalidation en fond ne doit jamais remettre le squelette : la liste
   // reste à l'écran et se met à jour quand la réponse arrive.
   const chargement = premierChargement || (lettre !== null && page === null && !echecPage);
@@ -214,41 +243,68 @@ function DictionnaireContenu() {
   // et disparu en neutralisant `replaceState` pour le test.
   useEffect(() => {
     if (!lettre || chargement || lettres === null) return;
-    const url = urlDictionnaire(sens, lettre, pageNo > 1 ? pageNo : undefined);
+    const url = urlDictionnaire(sens, filtre, lettre, pageNo > 1 ? pageNo : undefined);
     if (window.location.pathname + window.location.search === url) return;
     remplacerUrl(url);
     // La barre de nav rouvrira le dictionnaire sur cette lettre.
     memoriserUrlOnglet("dictionnaire", url);
-  }, [lettre, pageNo, sens, chargement, lettres]);
+  }, [lettre, pageNo, sens, filtre, chargement, lettres]);
 
   return (
     <div className="flex min-h-ecran flex-col pb-16 md:pb-0 md:pl-20 lg:pl-56">
       <AppHeader variant="root" actif="dictionnaire" titre="Dictionnaire" />
 
-      <div className="flex gap-1.5 overflow-x-auto border-b border-border px-4 pb-1 pt-3">
-        {ALPHABET.map((car) => {
-          const dispo = disponibles?.has(car) ?? false;
-          const active = lettre === car;
-          return (
-            <button
-              key={car}
-              type="button"
-              disabled={!dispo}
-              aria-current={active ? "true" : undefined}
-              onClick={() => choisirLettre(car)}
-              className={cn(
-                "flex h-9 min-w-9 shrink-0 items-center justify-center rounded-full text-[13px] font-bold",
-                active
-                  ? "bg-sens-500 text-white"
-                  : dispo
-                    ? "bg-neutre-100 text-muted-foreground transition-colors hover:bg-neutre-300/40"
-                    : "text-neutre-300",
-              )}
-            >
-              {car}
-            </button>
-          );
-        })}
+      <div className="border-b border-border">
+        {/* Le filtre se lit avant l'alphabet : il change les lettres. Même
+            défilement horizontal que l'alphabet, sur mobile. Actif = contour
+            et fond de sens, pour se distinguer des pastilles pleines. */}
+        <div role="group" aria-label="Catégorie" className="flex gap-2 overflow-x-auto px-4 pb-2 pt-3">
+          {FILTRES_DICO.map((f) => {
+            const actif = filtre === f;
+            return (
+              <button
+                key={f}
+                type="button"
+                aria-pressed={actif}
+                onClick={() => choisirFiltre(f)}
+                className={cn(
+                  "flex h-9 shrink-0 items-center rounded-full border px-3.5 text-sm font-semibold transition-colors",
+                  actif
+                    ? "border-sens-500 bg-sens-50 text-sens-texte"
+                    : "border-bordure-forte text-foreground hover:bg-neutre-50",
+                )}
+              >
+                {LIBELLES_FILTRE_DICO[f]}
+              </button>
+            );
+          })}
+        </div>
+
+        <div className="flex gap-1.5 overflow-x-auto px-4 pb-1 pt-1">
+          {ALPHABET.map((car) => {
+            const dispo = disponibles?.has(car) ?? false;
+            const active = lettre === car;
+            return (
+              <button
+                key={car}
+                type="button"
+                disabled={!dispo}
+                aria-current={active ? "true" : undefined}
+                onClick={() => choisirLettre(car)}
+                className={cn(
+                  "flex h-9 min-w-9 shrink-0 items-center justify-center rounded-full text-[13px] font-bold",
+                  active
+                    ? "bg-sens-500 text-white"
+                    : dispo
+                      ? "bg-neutre-100 text-muted-foreground transition-colors hover:bg-neutre-300/40"
+                      : "text-neutre-300",
+                )}
+              >
+                {car}
+              </button>
+            );
+          })}
+        </div>
       </div>
 
       <main className="flex-1 px-4 pb-8">
@@ -264,7 +320,7 @@ function DictionnaireContenu() {
           <div className="flex flex-col items-center px-3 pb-2 pt-10 text-center">
             <BookOpen className="h-[30px] w-[30px] text-neutre-300" strokeWidth={1.8} />
             <p className="mt-3 text-[15px] font-bold text-foreground">
-              {lettre ? `Aucun ${unite.un} pour la lettre ${lettre}.` : `Aucun ${unite.un} pour l'instant.`}
+              {lettre ? `${unite.aucun} pour la lettre ${lettre}.` : `${unite.aucun} pour l'instant.`}
             </p>
             <p className="mt-1.5 text-sm text-muted-foreground">
               Le dictionnaire s&apos;enrichit des façons de dire que les membres apportent.

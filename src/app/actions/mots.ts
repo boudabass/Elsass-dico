@@ -22,9 +22,13 @@ const UNE_HEURE_MS = 60 * 60 * 1000
 // plus `parMembre`, qui survit à l'anonymisation : c'est ce qui le fait
 // recréer par `importer-contributions.mts` et lister dans /admin/mots.
 //
-// Pas de contexte à la création (décision de John : le mot et son type, rien
-// d'autre). Les toponymes et les prénoms en sont exclus : un toponyme EST une
-// commune du référentiel, et un prénom a une page publique générée au build.
+// Pas de contexte à la création, sauf « insulte » (16/10/2026, demande de John) :
+// le membre coche « C'est une insulte » et le mot prend le même contexte que
+// les insultes de la source dj_fabz, donc le filtre Insultes le prend sans autre
+// changement. Un mot sans case reste sans contexte, et une insulte est une
+// autre fiche, comme en base. Ajouter une forme à un mot existant ne change
+// jamais sa catégorie. Les toponymes et les prénoms sont exclus : un toponyme
+// EST une commune du référentiel, et un prénom a une page publique générée au build.
 
 const FRANCAIS_MAX = 120
 
@@ -68,7 +72,7 @@ type ResultatMot =
     | { succes: false; erreur: string; lemmeExistant?: string; villageRequis?: true }
 
 export async function creerMotAction(
-    { francais, type, forme }: { francais: string; type: string; forme: SaisieForme },
+    { francais, type, forme, insulte }: { francais: string; type: string; forme: SaisieForme; insulte?: boolean },
 ): Promise<ResultatMot | EchecContribution> {
     const session = await sessionActuelle()
     if (!session) return { succes: false, erreur: "Connecte-toi pour continuer" }
@@ -84,6 +88,8 @@ export async function creerMotAction(
     if (libelle.length > FRANCAIS_MAX) return { succes: false, erreur: "Trop long pour un mot" }
     if (!TYPES_MEMBRE.includes(type as TypeMotMembre)) return { succes: false, erreur: "Choisis s'il s'agit d'un mot, d'une expression ou d'un proverbe" }
     const typeMot = type as TypeMotMembre
+    // Le contexte d'une insulte, le même que dj_fabz : la clé du lemme le porte.
+    const contexte = insulte === true ? "insulte" : ""
 
     // Refusé ici et pas seulement désactivé à l'écran : pas de mot sans forme.
     const valide = validerSaisie(forme)
@@ -93,7 +99,7 @@ export async function creerMotAction(
     if (!communeId) return REFUS_VILLAGE_REQUIS
 
     const existant = await prisma.lemme.findUnique({
-        where: { cle_contexte_type: { cle, contexte: "", type: typeMot } },
+        where: { cle_contexte_type: { cle, contexte, type: typeMot } },
         select: { id: true },
     })
     if (existant) {
@@ -104,7 +110,7 @@ export async function creerMotAction(
         const lemmeId = await prisma.$transaction(async (tx) => {
             const lemme = await tx.lemme.create({
                 data: {
-                    francais: libelle, cle, contexte: "", type: typeMot,
+                    francais: libelle, cle, contexte, type: typeMot,
                     parMembre: true, creeParId: session.membreId,
                 },
                 select: { id: true },

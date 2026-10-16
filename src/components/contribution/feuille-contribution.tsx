@@ -11,6 +11,7 @@ import { chargerLemme, rechercherAction } from "@/app/actions/recherche";
 import { creerVarianteAction } from "@/app/actions/variantes";
 import { remplacerVillageVoteAction, voterPourVarianteAction } from "@/app/actions/votes";
 import { BadgeConfiance } from "@/components/badge-confiance";
+import { Checkbox } from "@/components/ui/checkbox";
 import {
     ChampForme,
     VALEUR_VIDE,
@@ -88,6 +89,8 @@ interface MotChoisi {
 interface MotNouveau {
     francais: string;
     type: TypeMotMembre;
+    /** Classé parmi les insultes (contexte « insulte »), à la création seulement. */
+    insulte: boolean;
 }
 
 const TYPES: { valeur: TypeMotMembre; libelle: string }[] = [
@@ -219,7 +222,7 @@ function Parcours({
         demarrer(async () => {
             const saisie = saisieDeValeur(valeur);
             if (motNouveau) {
-                const res = await creerMotAction({ francais: motNouveau.francais, type: motNouveau.type, forme: saisie });
+                const res = await creerMotAction({ francais: motNouveau.francais, type: motNouveau.type, forme: saisie, insulte: motNouveau.insulte });
                 if (res.succes) {
                     reussir(`« ${motNouveau.francais} » ajouté au dictionnaire`, { lemmeId: res.lemmeId, nouveauMot: true });
                 } else if ("villageRequis" in res && res.villageRequis) {
@@ -267,13 +270,13 @@ function Parcours({
                 <EtapeChoixMot
                     formeSaisie={formeDeValeur(valeur)?.forme ?? null}
                     onChoisi={(m) => { setMot(m); setMotNouveau(null); setEtape("forme"); }}
-                    onCreer={(francais) => { setMotNouveau({ francais, type: typeDevine(francais) }); setEtape("nouveau-mot"); }}
+                    onCreer={(francais) => { setMotNouveau({ francais, type: typeDevine(francais), insulte: false }); setEtape("nouveau-mot"); }}
                 />
             );
         case "nouveau-mot":
             return (
                 <EtapeNouveauMot
-                    initial={motNouveau ?? { francais: depart.type === "nouveau" ? depart.francais ?? "" : "", type: typeDevine(depart.type === "nouveau" ? depart.francais ?? "" : "") }}
+                    initial={motNouveau ?? { francais: depart.type === "nouveau" ? depart.francais ?? "" : "", type: typeDevine(depart.type === "nouveau" ? depart.francais ?? "" : ""), insulte: false }}
                     onRetour={depart.type === "nouveau" && depart.francais ? undefined : () => setEtape("choix-mot")}
                     onExistant={(m) => { setMot(m); setMotNouveau(null); setEtape("forme"); }}
                     onValide={(m) => { setMotNouveau(m); setMot(null); setFormes([]); setEtape("forme"); }}
@@ -322,7 +325,7 @@ function Parcours({
                             <Francais>{motNouveau?.francais ?? mot?.francais}</Francais>
                             {motNouveau && (
                                 <span className="block text-sm text-muted-foreground">
-                                    Nouveau dans le dictionnaire · {LIBELLES_TYPE_TERME[motNouveau.type]}
+                                    Nouveau dans le dictionnaire · {LIBELLES_TYPE_TERME[motNouveau.type]}{motNouveau.insulte ? ", classé parmi les insultes" : ""}
                                 </span>
                             )}
                         </Ligne>
@@ -442,6 +445,7 @@ function EtapeNouveauMot({
 }) {
     const [francais, setFrancais] = useState(initial.francais);
     const [type, setType] = useState<TypeMotMembre>(initial.type);
+    const [insulte, setInsulte] = useState(initial.insulte);
     const [existants, setExistants] = useState<MotExistant[] | null>(null);
     const [envoi, demarrer] = useTransition();
 
@@ -449,14 +453,17 @@ function EtapeNouveauMot({
     useEffect(() => { setExistants(null); }, [francais]);
 
     const libelle = francais.trim().replace(/\s+/g, " ");
-    const memeType = existants?.find((m) => m.type === type && !m.contexte);
+    // Une insulte et le mot ordinaire sont deux fiches : « alcoolique » et
+    // « alcoolique (insulte) » ne se font pas la même place.
+    const contexteVise = insulte ? "insulte" : "";
+    const memeType = existants?.find((m) => m.type === type && m.contexte === contexteVise);
 
     function verifier() {
         if (!libelle) return;
         demarrer(async () => {
             const r = await verifierMotAction(libelle);
             if (r.length) setExistants(r);
-            else onValide({ francais: libelle, type });
+            else onValide({ francais: libelle, type, insulte });
         });
     }
 
@@ -498,6 +505,19 @@ function EtapeNouveauMot({
                 ))}
             </div>
 
+            <div className="mt-5 flex items-start gap-3">
+                <Checkbox
+                    id="contribution-insulte"
+                    checked={insulte}
+                    onCheckedChange={(coche) => { setInsulte(coche === true); setExistants(null); }}
+                    className="mt-1 h-5 w-5"
+                />
+                <label htmlFor="contribution-insulte" className="min-w-0">
+                    <span className="block text-sm font-semibold text-foreground">C&apos;est une insulte</span>
+                    <span className="block text-sm text-muted-foreground">Il ira dans la liste des insultes du dictionnaire.</span>
+                </label>
+            </div>
+
             {existants && (
                 <div className="mt-5 rounded-lg border border-border p-3.5" aria-live="polite">
                     <p className="font-semibold text-foreground">
@@ -519,7 +539,7 @@ function EtapeNouveauMot({
                         ))}
                     </ul>
                     {!memeType && (
-                        <button type="button" onClick={() => onValide({ francais: libelle, type })} className={cn(BOUTON_SECONDAIRE, "mt-3")}>
+                        <button type="button" onClick={() => onValide({ francais: libelle, type, insulte })} className={cn(BOUTON_SECONDAIRE, "mt-3")}>
                             Non, c&apos;est un autre mot
                         </button>
                     )}

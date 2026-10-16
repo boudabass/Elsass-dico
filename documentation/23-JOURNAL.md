@@ -3530,3 +3530,43 @@ Fait par la session Opérateur (`d738ea6`), relu.
   `dj_fabz`, contexte « insulte ». « sechsmotorigi Wildsau » n'est pas dans le
   Dico. Lu dans les JSONL de la branche `data` ; capture sur main à faire par
   cette session avant de figer la vidéo.
+
+### Filtre du dictionnaire, barre mobile, insultes, thèmes (16-17/10/2026)
+
+Fait par la session Opérateur (Haiku), relu par l'Orchestrateur.
+
+- **Filtre par catégorie au dictionnaire A-Z** (`9c47ca6`), dans les deux
+  sens : Tout, Mots, Expressions, Insultes, Villages, Prénoms. Mesuré sur la
+  branche `data` : ~19 100 mots, ~6 300 expressions, ~1 460 toponymes,
+  ~160 prénoms ; « proverbe » n'a aucune fiche, donc pas de bouton.
+  **Insultes = `contexte = 'insulte'`**, pas un type : Mots et Expressions
+  gardent leurs insultes. Prédicat unique `correspondAuFiltre()`
+  (`lib/dictionnaire.ts`) et son miroir SQL `conditionFiltre()`
+  (`lib/filtre-dico-serveur.ts`). URL `?filtre=`. Côté alsacien, l'aperçu
+  d'une forme ne garde que les sens du filtre ; la fiche reste complète.
+  Pas de phrase d'avertissement sous « Insultes » (John : trop d'info).
+- **Barre du haut retirée sur mobile** (`a67f5d2`) pour les écrans racine
+  (inverseur 52 px + en-tête 56 px, trop haut). L'inverseur reste et porte
+  l'encoche ; les écrans à chevron retour gardent leur en-tête. « Mon
+  espace » revient dans la barre du bas, **Admin en sort sur mobile** (le
+  piège du 26/09 : six onglets trop petits) et reste par le bouton
+  « Membres » de Mon espace et par le rail dès la tablette.
+- **Case « C'est une insulte »** à la création d'un nouveau mot (`70f7b3d`) :
+  `contexte = 'insulte'`, que l'export et l'import du journal transportent
+  déjà.
+- **Fiches jumelles mot/expression** (`0d4b791`) : 3 cas seulement (« aller
+  chercher », « au revoir », « frapper à la porte »). `deriver.mts` type
+  désormais en expression une (cle, contexte) attestée sous les deux types.
+  `scripts/fusionner-jumeaux.mts` (dry-run par défaut) : passage à blanc
+  lancé par Claude (3 couples, 1 variante chacun, aucun vote, signalement
+  ni événement), puis `--appliquer` lancé par John le 16/10, port ouvert.
+  Revérifié : 0 jumeau restant. Journal des contributions inchangé.
+  Réserve connue du script : un même membre votant sur les deux fiches
+  donnerait un `retrait` au journal qui, au rejeu, pourrait retirer aussi
+  le vote gardé ; sans objet ici, à revoir si le script resert.
+- `pnpm build` complet passé (993 pages) pendant que le port était ouvert.
+- **Thèmes classés par IA** (décision de John) : pilote de 300 mots, deux
+  passes, puis **mis de côté** le 17/10. Détail et chiffres dans
+  `documentation/themes-pilote/README.md`. Rien en base, rien publié.
+- Code servi par dev vérifié (« Aucune insulte » dans les chunks) ; pas de
+  capture d'écran faite par Claude. PR `dev` → `main`.

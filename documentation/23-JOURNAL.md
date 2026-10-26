@@ -3570,3 +3570,21 @@ Fait par la session Opérateur (Haiku), relu par l'Orchestrateur.
   `documentation/themes-pilote/README.md`. Rien en base, rien publié.
 - Code servi par dev vérifié (« Aucune insulte » dans les chunks) ; pas de
   capture d'écran faite par Claude. PR `dev` → `main`.
+
+## Remise à zéro des défis pour le lancement public (26/10/2026)
+
+Coordonné avec l'Orchestrateur World ; accord de John (« oui, oui », puis
+confirmé directement).
+- **Défi n° 1 = mardi 27/10/2026** : `LANCEMENT` passe du 25/09 au 27/10
+  (`lib/jeu.ts`, `7af3b22`). Numéros, villages tirés, mot de base, route
+  `defi-du-jour` et notification de 10 h suivent seuls. Le 26/10 au soir,
+  l'indice plafonné à 0 donne déjà « n° 1 » (autres villages que le 27) :
+  accepté, aucun joueur public encore.
+- **54 parties effacées** (`parties_jeu`, tous modes), à la demande de John,
+  port 5444 ouvert : John 30, Carine Zaug 11, Fernand Zaug 13. Les séries se
+  recalculent des parties, donc repartent à 0. Script jetable supprimé.
+- La base compte **6 membres** (et non 2 comme l'indiquait l'état).
+- `MET_DEFI_DICO_HEBDO` reste inactif ; World vide sa table de rotation
+  avant toute activation (il lit `?reveler=` dans cette table).
+- Preuve attendue par World le 27/10 au matin : `defi-du-jour` avec
+  `numero: 1`.

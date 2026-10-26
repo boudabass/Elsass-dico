@@ -14,8 +14,10 @@ import { prisma } from "@/lib/prisma"
 
 // --- Le calendrier ------------------------------------------------------------
 
-/** Le jour du défi n°1. Le numéro d'un défi compte les jours depuis celui-ci. */
-const LANCEMENT = "2026-09-25"
+/** Le jour du défi n°1. Le numéro d'un défi compte les jours depuis celui-ci.
+ *  Remis à zéro pour le lancement public (accord de John, 26/10/2026) ; avant,
+ *  le 25/09/2026. */
+const LANCEMENT = "2026-10-27"
 
 export const NB_MANCHES = 5
 

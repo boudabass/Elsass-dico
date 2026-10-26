@@ -157,10 +157,14 @@ VPS partagé ; `dev` et `main` **partagent la même base**.
   `scripts/supprimer-membre.mts` (anonymise, puis supprimer le compte Odoo).
 - Coolify via MCP : lecture seule.
 
-## État au 17/10/2026
+## État au 26/10/2026
 
 - Toutes les étapes de la refonte sont faites (dérivation, session, fiches
   publiques, admin, carte, contribution, jeu, deux sens).
+- **Défis remis à zéro pour le lancement public** (26/10) : **défi n° 1 =
+  27/10/2026** (`LANCEMENT`, `lib/jeu.ts`), toutes les parties effacées
+  (séries à 0). Ne plus changer `LANCEMENT` : les numéros publiés en
+  dépendent.
 - **En production** : PR #108 (17/10), filtre du dictionnaire A-Z (Tout,
   Mots, Expressions, Insultes, Villages, Prénoms, deux sens ; **insulte =
   `contexte = 'insulte'`, pas un type**, prédicat `correspondAuFiltre()` et
@@ -197,7 +201,7 @@ VPS partagé ; `dev` et `main` **partagent la même base**.
   `**` + `!data/contributions/**`. Premier passage le 09/10 : 8 événements.
 - Base : ~26 540 lemmes, 42 563 variantes (dont 863 insultes de la source
   `dj_fabz`, intégrées le 09/10), 148 prénoms (source `projet_babel`
-  ajoutée le 11/10), 2 membres, 8 événements de contribution.
+  ajoutée le 11/10), 6 membres, 8 événements de contribution.
 - **À constater par John** : boucle de redirections
   (`ERR_TOO_MANY_REDIRECTS`) à la première ouverture du jour, vue sur dev
   seulement, jamais sur main (10/10) : classée cache de dev, à rouvrir si
@@ -212,7 +216,8 @@ VPS partagé ; `dev` et `main` **partagent la même base**.
   John. **D4 tenu le 12/10** : reçue les 10, 11 et 12/10, une seule fois
   chaque matin (4 abonnements au 12/10).
 - **En attente côté John** : feu vert du lancement public (workflow N8N
-  `MET_DEFI_DICO_HEBDO`), plus rien d'autre ne le bloque.
+  `MET_DEFI_DICO_HEBDO`, inactif ; World vide sa table de rotation avant
+  de l'activer), plus rien d'autre ne le bloque.
 - **`/application`** (site Odoo) : terminé le 09/10 (carte Elsass Dico vers
   `/login`, boutons d'Elsass Chat, « Vos idées », Cours et Forum).
 - **Prochaine session** : rien d'imposé. Les sources faibles s'intègrent

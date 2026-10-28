@@ -68,9 +68,11 @@ déjà tranchée.** Index : `documentation/README.md`.
 ## Stack
 
 Next 15.5 (App Router, Server Actions), React 19.3, Prisma 7 sur Postgres 18,
-sessions `jose` (`ed_session` 30 min avec rôle, `ed_refresh` 30 j sans rôle, révocable par son `jti` = ligne de
-`sessions_refresh` supprimée à la déconnexion,
-claim `typ`), Tailwind + shadcn/Radix/cmdk, Leaflet, `next/og`. Coolify sur un
+sessions `jose` (`ed_session` **30 j** avec rôle, seul jeton lu par le
+middleware, **sans détour de renouvellement** depuis le 28/10, PR #110 : ne
+pas le remettre ; `ed_refresh` 30 j sans rôle, repli de `sessionActuelle()`,
+révocable par son `jti` = ligne de `sessions_refresh` supprimée à la
+déconnexion, claim `typ`), Tailwind + shadcn/Radix/cmdk, Leaflet, `next/og`. Coolify sur un
 VPS partagé ; `dev` et `main` **partagent la même base**.
 `prisma migrate deploy` tourne au démarrage du conteneur
 (`docker-entrypoint.sh`, CLI isolée dans `/opt/prisma-cli`).
@@ -157,7 +159,7 @@ VPS partagé ; `dev` et `main` **partagent la même base**.
   `scripts/supprimer-membre.mts` (anonymise, puis supprimer le compte Odoo).
 - Coolify via MCP : lecture seule.
 
-## État au 26/10/2026
+## État au 28/10/2026
 
 - Toutes les étapes de la refonte sont faites (dérivation, session, fiches
   publiques, admin, carte, contribution, jeu, deux sens).
@@ -202,10 +204,12 @@ VPS partagé ; `dev` et `main` **partagent la même base**.
 - Base : ~26 540 lemmes, 42 563 variantes (dont 863 insultes de la source
   `dj_fabz`, intégrées le 09/10), 148 prénoms (source `projet_babel`
   ajoutée le 11/10), 6 membres, 8 événements de contribution.
-- **À constater par John** : boucle de redirections
-  (`ERR_TOO_MANY_REDIRECTS`) à la première ouverture du jour, vue sur dev
-  seulement, jamais sur main (10/10) : classée cache de dev, à rouvrir si
-  elle touche main ; qu'aucun
+- **Boucle `ERR_TOO_MANY_REDIRECTS` à l'ouverture** (vue depuis le 10/10,
+  pas un cache de dev) : traitée le 28/10 par un seul jeton de 30 j
+  (PR #110, merge `2ecad3e`, retour arrière `git revert -m 1 2ecad3e`).
+  Cause exacte jamais établie. **À confirmer par John** : ouverture le
+  matin avec son compte, PC et téléphone installé.
+- **À constater par John** : qu'aucun
   déploiement de dev ne suit un commit `data:` de N8N. Le compte Odoo
   `theelsassisch+test@gmail.com` est **gardé** (ne plus proposer de le
   supprimer). Partage par lien sur téléphone : confirmé le 09/10.

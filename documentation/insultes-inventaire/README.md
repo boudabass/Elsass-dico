@@ -21,3 +21,6 @@ mot à mot seulement ; 6 seulement ont une seconde source (`wiktionnaire_fr`) ;
 604 fiches n'ont qu'une forme. 184 ont un sens et aucun mot repéré.
 
 Rien n'est écrit ici : chaque texte vient de la page de DJ Fab'z.
+
+**`a-choisir.csv`** : les 241 insultes avec un sens, seules publiables, dans
+l'ordre du post (forme, mot à mot, sens). John met « oui » dans `garder`.

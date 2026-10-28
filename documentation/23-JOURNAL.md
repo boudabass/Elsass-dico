@@ -3620,3 +3620,20 @@ jeton long, sans détour). **Ne pas remettre le détour de renouvellement.**
 - Cause exacte de la boucle jamais établie (dans un onglet neuf, le détour
   marchait).
 - Retour arrière : `git revert -m 1 2ecad3e` sur main.
+
+## L'insulte du week-end : un post, pas un défi (28/10/2026)
+
+- Idée d'un défi des insultes « comme pour les villages » écartée par John :
+  les insultes n'ont aucun village (source `dj_fabz`), et beaucoup de sens se
+  recoupent. À la place, **un post le samedi** sur les réseaux, fait par
+  World (N8N), prévenu.
+- Inventaire en lecture seule depuis la branche `data`
+  (`documentation/insultes-inventaire/`) : 662 fiches ; **241 seulement ont
+  un sens donné par la page**, les 421 autres n'ont qu'un mot à mot et ne
+  sont pas publiables (il faudrait inventer le sens). 6 ont une seconde
+  source. `a-choisir.csv` : les 241, John choisit (colonne `garder`).
+- Post : forme, mot à mot, sens, tout repris de la page. **Lien : l'adresse
+  du Dico seule** (décision de John). Pas de crédit dans le post (règle de
+  World pour les réseaux, 14 et 20/10) : la mention de DJ Fab'z reste sur
+  `/sources`, publique. Rien à construire dans le Dico.
+- En attente : la sélection de John, puis l'envoi de la liste à World.

@@ -47,11 +47,10 @@ function options(dureeS: number): CookieSession["options"] {
 /** La session portée par le cookie. Sans accès à la base tant que le jeton
  *  court est valide, c'est-à-dire presque toujours.
  *
- *  Jeton court expiré mais renouvellement valide : on renouvelle ICI (07/10/2026).
- *  Le middleware renvoie une page vers `/api/session/refresh`, mais il laisse
- *  passer une Server Action : un 307 garde la méthode POST, et la route de
- *  renouvellement, en GET, répondait 405. Un écran resté ouvert plus de
- *  30 minutes voyait donc son premier chargement échouer. */
+ *  Jeton expiré mais renouvellement valide : on renouvelle ICI. Depuis le
+ *  28/10/2026 le jeton dure 30 jours et le middleware ne fait plus de détour ;
+ *  ce repli sert aux pages ouvertes à tous (/jeu, /) et pose un jeton neuf
+ *  quand Next le permet (Server Action). */
 export async function sessionActuelle(): Promise<Session | null> {
     const bocal = await cookies()
     const session = await lireSession(bocal.get(COOKIE_SESSION)?.value)

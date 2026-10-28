@@ -157,10 +157,9 @@ export async function changerRoleAction(membreId: string, role: string): Promise
         return { succes: false, erreur: "Modification impossible, réessaie dans un instant" }
     }
 
-    // Le jeton du membre concerné porte encore l'ancien rôle. Il ne le portera
-    // plus au prochain renouvellement (30 min au plus), parce que
-    // `/api/session/refresh` relit le rôle en base — c'est précisément pourquoi
-    // le jeton de renouvellement ne le transporte pas.
+    // Le jeton du membre concerné porte encore l'ancien rôle jusqu'à sa
+    // prochaine connexion. Sans conséquence : `adminExige()` relit le rôle en
+    // base, le rôle du jeton ne sert qu'à afficher ou non /admin.
     revalidatePath('/admin')
     return { succes: true, message: "Rôle mis à jour" }
 }

@@ -3588,3 +3588,35 @@ confirmé directement).
   avant toute activation (il lit `?reveler=` dans cette table).
 - Preuve attendue par World le 27/10 au matin : `defi-du-jour` avec
   `numero: 1`.
+
+## Un seul jeton de 30 jours, fin de la boucle de redirections (28/10/2026)
+
+Fait par l'Orchestrateur World, décision de John (« comme Racing », un seul
+jeton long, sans détour). **Ne pas remettre le détour de renouvellement.**
+- La boucle `ERR_TOO_MANY_REDIRECTS` (« Cette page ne fonctionne pas ») à
+  l'ouverture n'avait pas disparu : John l'avait à chaque ouverture (PC et
+  téléphone installé), des membres publics s'en plaignaient (capture du
+  28/10 sur dev, `/dictionnaire?lettre=C`). C'est celle du 10/10, classée à
+  tort « cache de dev ».
+- `c0a2424` sur dev, PR #110 dev → main (merge `2ecad3e`), en production à
+  20 h 00 :
+  - `src/lib/session.ts` : `DUREE_SESSION_S` = 30 jours (au lieu de 30 min) ;
+  - `src/middleware.ts` : plus de redirection vers `/api/session/refresh` ;
+    sans jeton valide → `/login` (sauf `/jeu`, compte facultatif) ;
+    `/api/session/` retiré de `PUBLIC` ;
+  - `src/app/api/session/refresh/route.ts` supprimé ;
+  - `sessionActuelle()` garde son repli sur `ed_refresh` (pages publiques,
+    Server Actions) ; `adminExige()` relit toujours le rôle en base ;
+  - commentaires à jour (`membres.ts`, `session-serveur.ts`,
+    `scripts/supprimer-membre.mts`).
+- Conséquences : chaque membre se reconnecte une fois ; un changement de rôle
+  n'atteint le jeton qu'à la reconnexion (sans effet sur la sécurité,
+  `adminExige()` relit la base) ; un membre supprimé garde l'affichage de
+  ses pages jusqu'à l'expiration du jeton, mais ses actions échouent.
+- Vérifié après déploiement (dev et main) : pages publiques 200, pages
+  réservées 307 → `/login`, `/api/session/*` 307 → `/login`.
+- **Pas encore vérifié** : l'ouverture le lendemain matin avec un vrai compte
+  (John teste le 29/10).
+- Cause exacte de la boucle jamais établie (dans un onglet neuf, le détour
+  marchait).
+- Retour arrière : `git revert -m 1 2ecad3e` sur main.

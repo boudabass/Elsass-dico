@@ -95,8 +95,9 @@ const anonymes = await prisma.$transaction(async (tx) => {
 })
 
 console.log(`\nSupprimé. ${anonymes} témoignage(s) anonymisé(s), toujours sur la carte.`)
-// Son jeton de reconnexion ne rouvrira plus de session : /api/session/refresh
-// relit le membre en base et ne le trouve plus.
+// Son jeton de session (30 jours depuis le 28/10/2026) reste lisible jusqu'à
+// expiration : il voit encore les pages, mais ses actions relisent le membre
+// en base et ne le trouvent plus.
 console.log("Reste à faire à la main : supprimer son compte sur le site The Elsassisch (Odoo),")
 console.log("sinon il pourra se reconnecter et un nouveau membre, vierge, sera créé.")
 

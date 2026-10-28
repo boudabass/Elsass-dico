@@ -13,7 +13,7 @@
 
 import { NextResponse, type NextRequest } from "next/server"
 
-import { COOKIE_REFRESH, COOKIE_SESSION, lireRefresh, lireSession } from "@/lib/session"
+import { COOKIE_SESSION, lireSession } from "@/lib/session"
 
 // Le compte est obligatoire (doc 20). Cette liste est donc l'exception, pas la
 // règle. `/village/[slug]` et `/prenom/[slug]` (étape 3, 13/09/2026) sont les
@@ -23,7 +23,6 @@ import { COOKIE_REFRESH, COOKIE_SESSION, lireRefresh, lireSession } from "@/lib/
 const PUBLIC = [
     "/login",
     "/sources",
-    "/api/session/",
     "/village/",
     "/prenom/",
     // Machine-à-machine (25/09/2026) : la chaîne N8N n'a pas de cookie de
@@ -37,9 +36,7 @@ const PUBLIC = [
 ]
 
 // Ouvertes à tous, mais un membre y garde son compte (26/09/2026, /jeu joué
-// sans compte). À la différence de `PUBLIC`, une session expirée passe quand
-// même par le renouvellement : sinon un membre revenu après 30 minutes
-// jouerait en invité sans le savoir, et perdrait sa série.
+// sans compte).
 const COMPTE_FACULTATIF = ["/jeu"]
 
 // Politique de sécurité du contenu (09/10/2026, dernier point de l'audit du
@@ -103,21 +100,9 @@ export async function middleware(request: NextRequest) {
     const session = await lireSession(request.cookies.get(COOKIE_SESSION)?.value)
 
     if (!session) {
-        // Jeton de session expiré (30 min) mais renouvellement encore valide :
-        // on passe par la route de renouvellement, qui relit le rôle en base.
-        // La vérification du jeton de renouvellement est locale elle aussi —
-        // elle évite un aller-retour inutile quand les deux sont morts.
-        const refresh = await lireRefresh(request.cookies.get(COOKIE_REFRESH)?.value)
-        // Une Server Action (POST, en-tête `next-action`) ne suit pas ce
-        // détour : un 307 garde la méthode POST, et la route de
-        // renouvellement, en GET, répondait 405 (07/10/2026). L'action
-        // renouvelle elle-même par `sessionActuelle()`, et se garde elle-même.
-        if (refresh && request.headers.has("next-action")) return suite(request)
-        if (refresh) {
-            const vers = new URL("/api/session/refresh", request.url)
-            vers.searchParams.set("suite", chemin + request.nextUrl.search)
-            return NextResponse.redirect(vers)
-        }
+        // Plus de détour de renouvellement (28/10/2026) : le jeton dure 30 jours,
+        // et sans lui on se reconnecte. Le détour par `/api/session/refresh`
+        // bouclait chez les membres à l'ouverture de l'app.
         if (estCompteFacultatif(chemin)) return suite(request)
         return NextResponse.redirect(new URL("/login", request.url))
     }

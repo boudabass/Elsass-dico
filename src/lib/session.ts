@@ -7,8 +7,14 @@
 //
 // Deux jetons, et la distinction compte :
 //
-//   - `ed_session` (30 min) porte l'identité ET le rôle. C'est lui que le
-//     middleware vérifie, localement, sans un seul appel réseau.
+//   - `ed_session` (30 jours depuis le 28/10/2026, 30 min avant) porte
+//     l'identité ET le rôle. C'est lui que le middleware vérifie, localement,
+//     sans un seul appel réseau. À 30 minutes, chaque ouverture de l'app passait
+//     par un détour de renouvellement (`/api/session/refresh`) qui finissait en
+//     `ERR_TOO_MANY_REDIRECTS` chez les membres (vu du 10/10 au 28/10, jamais
+//     reproduit). Détour supprimé, comme Elsass Racing : un seul jeton long.
+//     Le rôle du jeton ne sert qu'au confort de navigation ; `adminExige()`
+//     le relit en base.
 //   - `ed_refresh` (30 jours) ne porte que l'identifiant du membre et un `jti`,
 //     l'identifiant de sa session en base (`SessionRefresh`, audit du 11/10/2026).
 //     Le rôle en est délibérément absent : sinon une promotion ou une
@@ -31,7 +37,7 @@ import { jwtVerify } from "jose/jwt/verify"
 export const COOKIE_SESSION = "ed_session"
 export const COOKIE_REFRESH = "ed_refresh"
 
-export const DUREE_SESSION_S = 30 * 60
+export const DUREE_SESSION_S = 30 * 24 * 60 * 60
 export const DUREE_REFRESH_S = 30 * 24 * 60 * 60
 
 /** Les deux rôles de la refonte (doc 20) : tout membre contribue. */

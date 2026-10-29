@@ -224,6 +224,10 @@ VPS partagé ; `dev` et `main` **partagent la même base**.
   de l'activer), plus rien d'autre ne le bloque.
 - **`/application`** (site Odoo) : terminé le 09/10 (carte Elsass Dico vers
   `/login`, boutons d'Elsass Chat, « Vos idées », Cours et Forum).
+- **Insulte du week-end** (28/10) : un post du samedi fait par World, **pas
+  un défi** (écarté par John). Rien à faire dans le Dico ; John choisit dans
+  `documentation/insultes-inventaire/a-choisir.csv` (241 publiables sur 662,
+  les autres n'ont qu'un mot à mot).
 - **Prochaine session** : rien d'imposé. Les sources faibles s'intègrent
   comme `culture_alsace` (décision de John du 09/10), sans démarche préalable.
 - **Thèmes classés par IA** (décision de John, 16/10) : pilote de 300 mots

@@ -89,7 +89,7 @@ export async function chargerLemmeDetaille(
             nbVillages: villages.size,
             sources: Array.from(sources.values()).sort((a, b) => a.nom.localeCompare(b.nom, 'fr')),
             villages: Array.from(villages.values()).sort((a, b) => a.nom.localeCompare(b.nom, 'fr')),
-            ajoutePar: nomAffiche(v, options),
+            ajoutePar: auteurAffiche(v, options),
         }
     })
 
@@ -116,22 +116,31 @@ export async function chargerLemmeDetaille(
     }
 }
 
-/** Le nom de l'auteur d'une forme, s'il peut être montré ici : la page le
- *  demande, le membre l'a confirmé, la forme ne vient pas d'une source, et,
- *  sans compte, la forme est validée pour le défi. Une forme de source n'a
- *  jamais d'auteur affiché, même si un membre l'a aussi écrite. */
-function nomAffiche(
+/** Qui a ajouté une forme, s'il peut être montré ici. La page doit le
+ *  demander (`auteurs`) ; sans compte, seule une forme validée pour le défi
+ *  le montre ; une forme de source n'a jamais d'auteur affiché, même si un
+ *  membre l'a aussi écrite.
+ *
+ *  - `cree_par` renseigné : le nom du membre, seulement s'il l'a confirmé.
+ *  - `cree_par` nul (membre supprimé, ou base reconstruite par l'importeur,
+ *    qui ne recrée pas le lien) : « un ancien membre ». Décision de John du
+ *    04/11 : c'est un chemin de secours, il ne montre aucun nom.
+ *
+ *  Les deux cas suivent les mêmes conditions de page. */
+function auteurAffiche(
     v: {
         creePar: { nom: string | null; nomConfirmeLe: Date | null } | null
         valideeDefiLe: Date | null
         temoignages: { source: { nom: string } | null }[]
     },
     options: OptionsFiche,
-): string | null {
-    if (!options.auteurs || !v.creePar?.nomConfirmeLe || !v.creePar.nom) return null
+): { nom: string } | "ancien" | null {
+    if (!options.auteurs) return null
     if (v.temoignages.some((t) => t.source)) return null
     if (!options.dictionnaire && !v.valideeDefiLe) return null
-    return v.creePar.nom
+    if (!v.creePar) return "ancien"
+    if (!v.creePar.nomConfirmeLe || !v.creePar.nom) return null
+    return { nom: v.creePar.nom }
 }
 
 /** Les prénoms qui ont une forme publique (source ou validée), ce que

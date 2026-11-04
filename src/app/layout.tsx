@@ -9,7 +9,7 @@ import { LayoutWrapper } from "@/components/layout-wrapper";
 import { SensProvider } from "@/components/sens-provider";
 import { TiroirAccueil } from "@/components/tiroir-accueil";
 import { COOKIE_SENS, lireSens } from "@/lib/sens";
-import { sessionActuelle } from "@/lib/session-serveur";
+import { marquerVu, sessionActuelle } from "@/lib/session-serveur";
 import { cookies } from "next/headers";
 
 // Corps de texte : Archivo, adoptée le 28/08/2026 (design system « The
@@ -46,6 +46,7 @@ export default async function RootLayout({
   children: React.ReactNode;
 }>) {
   const session = await sessionActuelle();
+  if (session) marquerVu(session.membreId);
   // Le sens est lu ici, comme la session, pour que <html> porte la bonne
   // couleur dès le premier octet (cf. sens-provider.tsx).
   const sens = lireSens((await cookies()).get(COOKIE_SENS)?.value);

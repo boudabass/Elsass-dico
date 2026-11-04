@@ -160,6 +160,22 @@ export async function ouvrirSession(membreId: string): Promise<Session | null> {
     return prepare.session
 }
 
+/** « Vu le » à l'ouverture d'une page. Depuis le jeton de 30 jours (28/10/2026),
+ *  `preparerSession()` ne passe plus qu'à la connexion : sans ceci, la date ne
+ *  disait plus si un membre revient. Appelé par le layout seul, pas par
+ *  `sessionActuelle()` que les actions relisent sans cesse. Au plus une écriture
+ *  par heure et par membre. Sans `await` : la page n'attend pas cette mesure, et
+ *  une écriture ratée ne refuse rien. */
+export function marquerVu(membreId: string): void {
+    const ilYAUneHeure = new Date(Date.now() - 3_600_000)
+    prisma.membre
+        .updateMany({
+            where: { id: membreId, OR: [{ vuLe: null }, { vuLe: { lt: ilYAUneHeure } }] },
+            data: { vuLe: new Date() },
+        })
+        .catch((erreur) => console.warn("[Session] vu_le non enregistré:", erreur))
+}
+
 /** Déconnexion : la session de renouvellement disparaît de la base, donc le jeton
  *  qu'on aurait copié cesse de renouveler dès maintenant (audit du 11/10/2026).
  *  Les cookies partent dans tous les cas, même si la base ne répond pas. */

@@ -3637,3 +3637,20 @@ jeton long, sans détour). **Ne pas remettre le détour de renouvellement.**
   World pour les réseaux, 14 et 20/10) : la mention de DJ Fab'z reste sur
   `/sources`, publique. Rien à construire dans le Dico.
 - En attente : la sélection de John, puis l'envoi de la liste à World.
+
+## « Vu le » remis en marche (04/11/2026)
+
+- Point d'après lancement avec John : la colonne « Vu le » de `/admin` ne
+  bougeait plus qu'à la connexion. Depuis le jeton de 30 jours (PR #110),
+  `sessionActuelle()` rend la session sans toucher la base, et
+  `preparerSession()`, seul à écrire `vu_le`, ne passe plus au quotidien.
+  Impossible donc de savoir si un membre revient.
+- Correctif : `marquerVu()` (`session-serveur.ts`), appelé par le layout
+  seulement, jamais par `sessionActuelle()` que les actions relisent sans cesse.
+  Au plus une écriture par heure et par membre, sans `await` : la page n'attend
+  pas la mesure.
+- Limite connue : le layout ne passe qu'au chargement complet d'une page. Une
+  app restée ouverte en arrière-plan puis reprise ne compte pas tant que le
+  téléphone ne l'a pas rechargée.
+- Les dates d'avant ce correctif restent celles de la dernière connexion : la
+  mesure du retour commence le jour du déploiement.

@@ -20,8 +20,11 @@ déjà tranchée.** Index : `documentation/README.md`.
    attesté est publiable ; le faire passer pour bien attesté ne l'est pas.
    Badge : 1 source = gris, 2 = jaune, 3+ = vert.
 3. Les formes sont enregistrées **verbatim** (jamais recadrées vers l'ORTHAL).
-4. Rien ne passe sans modération humaine. Toujours demander avant de supprimer
-   des données existantes.
+4. **Modération** (John, 04/11) : un texte de membre est visible tout de suite
+   par les membres connectés ; John voit tout dans `/admin/contributions` et
+   peut agir à tout moment. **Rien de membre ne se montre sans compte ni dans
+   le défi sans sa validation.** Toujours demander avant de supprimer des données
+   existantes.
 
 ## Doctrine (refonte du 11/09/2026, « carte des parlers »)
 
@@ -214,11 +217,23 @@ VPS partagé ; `dev` et `main` **partagent la même base**.
   `dj_fabz`, intégrées le 09/10), 148 prénoms (source `projet_babel`
   ajoutée le 11/10), 15 membres, 18 événements de contribution exportés au
   03/11.
-- **Boucle `ERR_TOO_MANY_REDIRECTS` à l'ouverture** (vue depuis le 10/10,
-  pas un cache de dev) : traitée le 28/10 par un seul jeton de 30 j
-  (PR #110, merge `2ecad3e`, retour arrière `git revert -m 1 2ecad3e`).
-  Cause exacte jamais établie. **À confirmer par John** : ouverture le
-  matin avec son compte, PC et téléphone installé.
+- **Boucle `ERR_TOO_MANY_REDIRECTS` à l'ouverture** (vue depuis le 10/10) :
+  réglée par un seul jeton de 30 j (PR #110, merge `2ecad3e`), confirmé par
+  John le 04/11. Cause exacte jamais établie.
+- **Page Contributions** (`/admin/contributions`, 04/11) : textes nouveaux,
+  corrections et gestes de John, sans les votes. Masquer et réafficher,
+  valider et annuler, chaque geste dans `moderations`, rejoué par le journal.
+  **Qui voit quoi** : tout passe par `lib/visibilite-serveur.ts`. Dictionnaire
+  (connectés) = non masquée. Sans compte = non masquée et (de source ou
+  validée). **Tirage du défi = sources seulement** (`formeSourceSql`) : une
+  validation ne déplace aucun défi publié. Une forme de source se reconnaît à
+  son témoignage `source_id`, jamais à `cree_par` nul.
+- **Étape 2 en cours sur dev** (Operateur) : nom de l'auteur affiché sur son
+  texte, jamais sur un vote ; prénom + nom exigés pour écrire ; nom modifiable
+  dans Mon espace, plus écrasé par Odoo. Sur un ancien texte, le nom n'apparaît
+  qu'après confirmation par son auteur. Suivront « Écrire à ce membre », le
+  blocage, le retrait de la catégorie insulte, les CGU du site, puis la
+  notification quotidienne à John.
 - Le compte Odoo `theelsassisch+test@gmail.com` est **gardé** (ne plus
   proposer de le supprimer). Partage par lien sur téléphone : confirmé le 09/10.
 - **Notifications du défi du jour** (Odoo 930) : abonnement par le tiroir

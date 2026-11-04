@@ -100,7 +100,9 @@ export default async function VillagePage({
         // L'invitation plus bas porte l'appel à contribuer : un compte suffit
         // pour ajouter la forme de ce village.
         <p className="rounded-lg border border-dashed border-border p-4 text-sm text-muted-foreground">
-          Personne n&apos;a encore proposé de nom alsacien pour {village.nom}.
+          {connecte
+            ? `Personne n'a encore proposé de nom alsacien pour ${village.nom}.`
+            : `Pas encore de nom alsacien validé pour ${village.nom}.`}
         </p>
       )}
 

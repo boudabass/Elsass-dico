@@ -83,8 +83,9 @@ export async function rechercherAction(terme: string): Promise<LemmeResume[]> {
 /** La fiche d'un mot : toutes ses variantes, et pour chacune ce qui la fonde —
  *  sources écrites d'un côté, villages de l'autre. Jamais additionnés.
  *  Chargée par id — c'est le chemin authentifié (/entree/[id]) ; les fiches
- *  publiques (/village, /prenom) appellent `chargerLemmeDetaille()` directement. Par défaut, c'est le dictionnaire
- *  complet (chemin membre) ; passer `{}` pour les seules formes publiques.
+ *  publiques (/village, /prenom) appellent `chargerLemmeDetaille()` directement.
+ *  Par défaut, c'est le dictionnaire complet (chemin membre) ;
+ *  passer `{}` pour les seules formes publiques.
  *
  *  Ajoute `monVote` sur chaque variante quand une session existe — c'est ce qui
  *  distingue ce chemin du chemin public, qui ne connaît aucun membre. */

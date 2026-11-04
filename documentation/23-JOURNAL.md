@@ -3695,3 +3695,11 @@ jeton long, sans détour). **Ne pas remettre le détour de renouvellement.**
 - Limites acceptées : une forme validée peut être identique à celle d'un village
   proposé dans la même manche (réponse ambiguë, rare, sous le contrôle de John).
   Intégrer une nouvelle source peut toujours changer le tirage, comme avant.
+- Le même soir, décisions de John après son test (Masquer et Réafficher marchent) :
+  **pas de votes sur cet écran**, ils alourdissent la liste, donc plus de bouton
+  pour en retirer un (`retrait_vote` reste dans l'enum, sans effet) ; et **tout ce
+  qui est public ou dans le défi ne montre que les formes de source et les formes
+  validées** (accueil, `/village`, `/prenom`, jeu, posts N8N). Seul un membre
+  connecté voit tout de suite un texte non validé (`FORME_PUBLIQUE`,
+  `src/lib/visibilite-serveur.ts`, règle par défaut : un écran oublié ne montre
+  rien de trop).

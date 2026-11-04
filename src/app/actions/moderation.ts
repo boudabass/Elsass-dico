@@ -76,7 +76,7 @@ export async function masquerFormeAction(varianteId: string): Promise<Resultat> 
         select: { id: true, temoignages: { where: { sourceId: { not: null } }, select: { id: true }, take: 1 } },
     })
     if (!v) return { succes: false, erreur: "Cette forme n'existe plus" }
-    if (v.temoignages.length) return { succes: false, erreur: "Une forme de source ne se masque pas : elle vient d'une source écrite, elle est publique et sert au défi" }
+    if (v.temoignages.length) return { succes: false, erreur: "Une forme de source ne se masque pas : elle vient d'une source écrite, elle peut être montrée sans compte et sert au défi" }
 
     // `updateMany` avec la condition dans le WHERE : deux clics simultanés ne
     // journalisent pas deux fois le même masquage.
@@ -110,7 +110,7 @@ export async function reafficherFormeAction(varianteId: string): Promise<Resulta
 
 // --- Valider une forme pour le défi -------------------------------------------
 
-/** Une forme de membre devient publique et entre dans le défi. Refusé sur une forme de source :
+/** Une forme de membre peut être montrée sans compte et entrer dans le défi. Refusé sur une forme de source :
  *  elle y est déjà. */
 export async function validerPourDefiAction(varianteId: string): Promise<Resultat> {
     const admin = await adminExige()
@@ -121,7 +121,7 @@ export async function validerPourDefiAction(varianteId: string): Promise<Resulta
         select: { id: true, temoignages: { where: { sourceId: { not: null } }, select: { id: true }, take: 1 } },
     })
     if (!v) return { succes: false, erreur: "Cette forme n'existe plus" }
-    if (v.temoignages.length) return { succes: false, erreur: "Une forme de source est déjà publique et dans le défi" }
+    if (v.temoignages.length) return { succes: false, erreur: "Une forme de source est déjà montrée sans compte et dans le défi" }
 
     const fait = await prisma.$transaction(async (tx) => {
         const { count } = await tx.variante.updateMany({

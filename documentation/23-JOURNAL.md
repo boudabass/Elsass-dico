@@ -3588,3 +3588,85 @@ confirmé directement).
   avant toute activation (il lit `?reveler=` dans cette table).
 - Preuve attendue par World le 27/10 au matin : `defi-du-jour` avec
   `numero: 1`.
+
+## Un seul jeton de 30 jours, fin de la boucle de redirections (28/10/2026)
+
+Fait par l'Orchestrateur World, décision de John (« comme Racing », un seul
+jeton long, sans détour). **Ne pas remettre le détour de renouvellement.**
+- La boucle `ERR_TOO_MANY_REDIRECTS` (« Cette page ne fonctionne pas ») à
+  l'ouverture n'avait pas disparu : John l'avait à chaque ouverture (PC et
+  téléphone installé), des membres publics s'en plaignaient (capture du
+  28/10 sur dev, `/dictionnaire?lettre=C`). C'est celle du 10/10, classée à
+  tort « cache de dev ».
+- `c0a2424` sur dev, PR #110 dev → main (merge `2ecad3e`), en production à
+  20 h 00 :
+  - `src/lib/session.ts` : `DUREE_SESSION_S` = 30 jours (au lieu de 30 min) ;
+  - `src/middleware.ts` : plus de redirection vers `/api/session/refresh` ;
+    sans jeton valide → `/login` (sauf `/jeu`, compte facultatif) ;
+    `/api/session/` retiré de `PUBLIC` ;
+  - `src/app/api/session/refresh/route.ts` supprimé ;
+  - `sessionActuelle()` garde son repli sur `ed_refresh` (pages publiques,
+    Server Actions) ; `adminExige()` relit toujours le rôle en base ;
+  - commentaires à jour (`membres.ts`, `session-serveur.ts`,
+    `scripts/supprimer-membre.mts`).
+- Conséquences : chaque membre se reconnecte une fois ; un changement de rôle
+  n'atteint le jeton qu'à la reconnexion (sans effet sur la sécurité,
+  `adminExige()` relit la base) ; un membre supprimé garde l'affichage de
+  ses pages jusqu'à l'expiration du jeton, mais ses actions échouent.
+- Vérifié après déploiement (dev et main) : pages publiques 200, pages
+  réservées 307 → `/login`, `/api/session/*` 307 → `/login`.
+- **Pas encore vérifié** : l'ouverture le lendemain matin avec un vrai compte
+  (John teste le 29/10).
+- Cause exacte de la boucle jamais établie (dans un onglet neuf, le détour
+  marchait).
+- Retour arrière : `git revert -m 1 2ecad3e` sur main.
+
+## L'insulte du week-end : un post, pas un défi (28/10/2026)
+
+- Idée d'un défi des insultes « comme pour les villages » écartée par John :
+  les insultes n'ont aucun village (source `dj_fabz`), et beaucoup de sens se
+  recoupent. À la place, **un post le samedi** sur les réseaux, fait par
+  World (N8N), prévenu.
+- Inventaire en lecture seule depuis la branche `data`
+  (`documentation/insultes-inventaire/`) : 662 fiches ; **241 seulement ont
+  un sens donné par la page**, les 421 autres n'ont qu'un mot à mot et ne
+  sont pas publiables (il faudrait inventer le sens). 6 ont une seconde
+  source. `a-choisir.csv` : les 241, John choisit (colonne `garder`).
+- Post : forme, mot à mot, sens, tout repris de la page. **Lien : l'adresse
+  du Dico seule** (décision de John). Pas de crédit dans le post (règle de
+  World pour les réseaux, 14 et 20/10) : la mention de DJ Fab'z reste sur
+  `/sources`, publique. Rien à construire dans le Dico.
+- En attente : la sélection de John, puis l'envoi de la liste à World.
+
+## « Vu le » remis en marche (04/11/2026)
+
+- Point d'après lancement avec John : la colonne « Vu le » de `/admin` ne
+  bougeait plus qu'à la connexion. Depuis le jeton de 30 jours (PR #110),
+  `sessionActuelle()` rend la session sans toucher la base, et
+  `preparerSession()`, seul à écrire `vu_le`, ne passe plus au quotidien.
+  Impossible donc de savoir si un membre revient.
+- Correctif : `marquerVu()` (`session-serveur.ts`), appelé par le layout
+  seulement, jamais par `sessionActuelle()` que les actions relisent sans cesse.
+  Au plus une écriture par heure et par membre, sans `await` : la page n'attend
+  pas la mesure.
+- Limite connue : le layout ne passe qu'au chargement complet d'une page. Une
+  app restée ouverte en arrière-plan puis reprise ne compte pas tant que le
+  téléphone ne l'a pas rechargée.
+- Les dates d'avant ce correctif restent celles de la dernière connexion : la
+  mesure du retour commence le jour du déploiement.
+
+## Point d'après lancement (04/11/2026)
+
+- Pub « sanglier » du 26/10 au 04/11 : 18,69 €, 309 clics sur le lien (Facebook
+  265 à 0,04 €, Instagram 44 à 0,21 €). Objectifs réglés sur les visites de la
+  page Facebook et les interactions, pas sur le Dico.
+- 17 comptes créés sur le site depuis le 27/10 (toutes origines), membres du
+  Dico de 6 à 15, 4 nouveaux membres ont contribué. Journal : 18 événements
+  exportés au 03/11.
+- Tourne sans panne : notifications de 10 h (6 abonnés), défi sur les réseaux
+  (3 publications sur 3), sauvegardes de nuit, et aucun déploiement de dev
+  derrière les 3 commits `data:`.
+- Reste à voir avec John : nombre de parties (port 5444), réglage de la pub,
+  sauvegardes sur le même VPS, mot ajouté « Grand est », boucle de redirections
+  à confirmer.
+- PR #111 : le correctif de « Vu le » ci-dessus.

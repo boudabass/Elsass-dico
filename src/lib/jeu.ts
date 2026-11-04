@@ -11,7 +11,7 @@
 // que le membre ait répondu.
 
 import { prisma } from "@/lib/prisma"
-import { formeDefiSql } from "@/lib/visibilite-serveur"
+import { formeDefiSql, formeSourceSql } from "@/lib/visibilite-serveur"
 
 // --- Le calendrier ------------------------------------------------------------
 
@@ -103,12 +103,15 @@ export interface VillageJeu {
     departement: string
     latitude: number
     longitude: number
-    /** Les formes montrées pendant la manche. */
+    /** Les formes montrées pendant la manche : celles du défi (source ou validées).
+     *  Affichage seulement, jamais le tirage. */
     formes: string[]
-    /** `cleDeForme()` de toutes ses formes : deux villages qui en partagent une
+    /** `cleDeForme()` des formes DE SOURCE : deux villages qui en partagent une
      *  ne peuvent pas être proposés ensemble, la réponse serait double. */
     cles: string[]
-    /** Écart entre son nom français et sa forme la plus proche (voir `ecart`). */
+    /** Écart entre son nom français et sa forme de source la plus proche (voir
+     *  `ecart`). Calculé sur les formes de source seulement, pour que le tirage
+     *  ne bouge pas quand un membre valide ou masque une forme. */
     ecart: number
 }
 
@@ -189,16 +192,22 @@ export function viderReserve(): void {
     reserve = null
 }
 
-/** Les villages jouables, relus au plus une fois par heure : une modération
- *  (forme masquée, validée) finit par s'y voir, sans relancer la requête à chaque
- *  clic sur un VPS sans limite CPU. Une forme n'y entre que si elle est de source
- *  ou validée pour le défi (`formeDefiSql`). */
+/** Les villages jouables, relus au plus une fois par heure. Un village n'y entre
+ *  que s'il a une forme de source non masquée. Le tirage (écart, tranches,
+ *  distracteurs) ne lit que ces formes de source ; `formes` (ce qu'on montre)
+ *  prend en plus les formes validées pour le défi (`formeDefiSql`). */
 export async function chargerReserve(): Promise<Reserve> {
     if (reserve && Date.now() - reserve.datee < FRAICHEUR_RESERVE_MS) return reserve.valeur
 
     // Les transcriptions phonétiques entre crochets (`[Itənə Str.; …]`, trois au
     // 25/09/2026) ne sont pas des graphies qu'un locuteur lirait : écartées du
     // jeu seulement, elles restent sur la fiche du village.
+    //
+    // Le TIRAGE ne lit que les formes de source (`formeSourceSql`) : un village
+    // n'entre que s'il en a une. Pourquoi : une forme de membre validée ou masquée
+    // ne doit déplacer aucun défi. Les formes de membre validées s'affichent
+    // (`formes`), mais elles ne comptent ni pour l'écart, ni pour les tranches,
+    // ni pour les distracteurs (04/11/2026, décision de John).
     const lignes = await prisma.$queryRaw<
         {
             id: number
@@ -207,21 +216,33 @@ export async function chargerReserve(): Promise<Reserve> {
             latitude: number
             longitude: number
             formes: string[]
+            formesSource: string[]
             cles: string[]
         }[]
     >`
         SELECT c.id, c.nom, c.departement, c.latitude, c.longitude,
-               array_agg(v.forme ORDER BY v.forme) AS formes,
-               array_agg(v.cle_forme ORDER BY v.forme) AS cles
+               array_agg(v.forme ORDER BY v.forme) FILTER (WHERE ${formeDefiSql("v")}) AS formes,
+               array_agg(v.forme ORDER BY v.forme) FILTER (WHERE ${formeSourceSql("v")}) AS "formesSource",
+               array_agg(v.cle_forme ORDER BY v.forme) FILTER (WHERE ${formeSourceSql("v")}) AS cles
         FROM lemmes l
         JOIN communes c ON c.id = l.commune_id
-        JOIN variantes v ON v.lemme_id = l.id AND ${formeDefiSql("v")}
+        JOIN variantes v ON v.lemme_id = l.id AND v.masquee = false
         WHERE ltrim(v.forme) NOT LIKE '[%'
         GROUP BY c.id
+        HAVING count(*) FILTER (WHERE ${formeSourceSql("v")}) > 0
         ORDER BY c.id
     `
 
-    const tous: VillageJeu[] = lignes.map((l) => ({ ...l, ecart: ecart(l.nom, l.formes) }))
+    const tous: VillageJeu[] = lignes.map((l) => ({
+        id: l.id,
+        nom: l.nom,
+        departement: l.departement,
+        latitude: l.latitude,
+        longitude: l.longitude,
+        formes: l.formes,
+        cles: l.cles,
+        ecart: ecart(l.nom, l.formesSource),
+    }))
     const tranches = TRANCHES.map(([min, max]) => tous.filter((v) => v.ecart >= min && v.ecart < max))
     const valeur = { tous, tranches, parId: new Map(tous.map((v) => [v.id, v])) }
     reserve = { valeur, datee: Date.now() }

@@ -68,6 +68,16 @@ export async function masquerFormeAction(varianteId: string): Promise<Resultat> 
     const admin = await adminExige()
     if (!admin) return REFUS
 
+    // Une forme de source ne se masque pas : elle vient d'une source écrite, et
+    // le tirage du défi ne lit que ces formes-là. Réafficher reste permis, pour
+    // pouvoir toujours défaire.
+    const v = await prisma.variante.findUnique({
+        where: { id: varianteId },
+        select: { id: true, temoignages: { where: { sourceId: { not: null } }, select: { id: true }, take: 1 } },
+    })
+    if (!v) return { succes: false, erreur: "Cette forme n'existe plus" }
+    if (v.temoignages.length) return { succes: false, erreur: "Une forme de source ne se masque pas : elle vient d'une source écrite et sert au défi" }
+
     // `updateMany` avec la condition dans le WHERE : deux clics simultanés ne
     // journalisent pas deux fois le même masquage.
     const fait = await prisma.$transaction(async (tx) => {

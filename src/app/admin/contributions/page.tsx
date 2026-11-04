@@ -303,72 +303,75 @@ export default function AdminContributionsPage() {
                                             )}
                                         </div>
 
-                                        <div className="flex flex-wrap gap-2 pt-1">
-                                            {l.masquee ? (
-                                                <Button
-                                                    variant="outline"
-                                                    className="h-11"
-                                                    disabled={enCours !== null}
-                                                    onClick={() =>
-                                                        executer(`reafficher-${l.varianteId}`, () => reafficherFormeAction(l.varianteId), "Forme réaffichée")
-                                                    }
-                                                >
-                                                    <Eye />
-                                                    {occupe(`reafficher-${l.varianteId}`) ? "…" : "Réafficher"}
-                                                </Button>
-                                            ) : (
-                                                <Button
-                                                    variant="outline"
-                                                    className="h-11"
-                                                    disabled={enCours !== null}
-                                                    onClick={() =>
-                                                        executer(`masquer-${l.varianteId}`, () => masquerFormeAction(l.varianteId), "Forme masquée")
-                                                    }
-                                                >
-                                                    <EyeOff />
-                                                    {occupe(`masquer-${l.varianteId}`) ? "…" : "Masquer"}
-                                                </Button>
-                                            )}
+                                        {l.genre === "evenement" && (
+                                            <div className="flex flex-wrap gap-2 pt-1">
+                                                {!l.source &&
+                                                    (l.masquee ? (
+                                                        <Button
+                                                            variant="outline"
+                                                            className="h-11"
+                                                            disabled={enCours !== null}
+                                                            onClick={() =>
+                                                                executer(`reafficher-${l.varianteId}`, () => reafficherFormeAction(l.varianteId), "Forme réaffichée")
+                                                            }
+                                                        >
+                                                            <Eye />
+                                                            {occupe(`reafficher-${l.varianteId}`) ? "…" : "Réafficher"}
+                                                        </Button>
+                                                    ) : (
+                                                        <Button
+                                                            variant="outline"
+                                                            className="h-11"
+                                                            disabled={enCours !== null}
+                                                            onClick={() =>
+                                                                executer(`masquer-${l.varianteId}`, () => masquerFormeAction(l.varianteId), "Forme masquée")
+                                                            }
+                                                        >
+                                                            <EyeOff />
+                                                            {occupe(`masquer-${l.varianteId}`) ? "…" : "Masquer"}
+                                                        </Button>
+                                                    ))}
 
-                                            {!l.source && l.membre && !l.validee && !l.masquee && (
-                                                <Button
-                                                    variant="outline"
-                                                    className="h-11"
-                                                    disabled={enCours !== null}
-                                                    onClick={() =>
-                                                        executer(`valider-${l.varianteId}`, () => validerPourDefiAction(l.varianteId), "Forme validée pour le défi")
-                                                    }
-                                                >
-                                                    <CheckCircle2 />
-                                                    {occupe(`valider-${l.varianteId}`) ? "…" : "Valider pour le défi"}
-                                                </Button>
-                                            )}
-                                            {l.validee && (
-                                                <Button
-                                                    variant="outline"
-                                                    className="h-11"
-                                                    disabled={enCours !== null}
-                                                    onClick={() =>
-                                                        executer(`annuler-${l.varianteId}`, () => annulerValidationDefiAction(l.varianteId), "Validation annulée")
-                                                    }
-                                                >
-                                                    <Undo2 />
-                                                    {occupe(`annuler-${l.varianteId}`) ? "…" : "Annuler la validation"}
-                                                </Button>
-                                            )}
+                                                {!l.source && l.membre && !l.validee && !l.masquee && (
+                                                    <Button
+                                                        variant="outline"
+                                                        className="h-11"
+                                                        disabled={enCours !== null}
+                                                        onClick={() =>
+                                                            executer(`valider-${l.varianteId}`, () => validerPourDefiAction(l.varianteId), "Forme validée pour le défi")
+                                                        }
+                                                    >
+                                                        <CheckCircle2 />
+                                                        {occupe(`valider-${l.varianteId}`) ? "…" : "Valider pour le défi"}
+                                                    </Button>
+                                                )}
+                                                {!l.source && l.validee && (
+                                                    <Button
+                                                        variant="outline"
+                                                        className="h-11"
+                                                        disabled={enCours !== null}
+                                                        onClick={() =>
+                                                            executer(`annuler-${l.varianteId}`, () => annulerValidationDefiAction(l.varianteId), "Validation annulée")
+                                                        }
+                                                    >
+                                                        <Undo2 />
+                                                        {occupe(`annuler-${l.varianteId}`) ? "…" : "Annuler la validation"}
+                                                    </Button>
+                                                )}
 
-                                            {l.voteActif && l.membreId && (
-                                                <Button
-                                                    variant="outline"
-                                                    className="h-11 text-destructive"
-                                                    disabled={enCours !== null}
-                                                    onClick={() => setAConfirmer(l)}
-                                                >
-                                                    <UserX />
-                                                    Retirer le vote
-                                                </Button>
-                                            )}
-                                        </div>
+                                                {l.type === "pose" && l.voteActif && l.membreId && (
+                                                    <Button
+                                                        variant="outline"
+                                                        className="h-11 text-destructive"
+                                                        disabled={enCours !== null}
+                                                        onClick={() => setAConfirmer(l)}
+                                                    >
+                                                        <UserX />
+                                                        Retirer le vote
+                                                    </Button>
+                                                )}
+                                            </div>
+                                        )}
                                     </li>
                                 ))}
                             </ul>

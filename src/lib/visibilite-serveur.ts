@@ -40,6 +40,15 @@ export function formeDefiSql(alias: string): Prisma.Sql {
         SELECT 1 FROM temoignages t WHERE t.variante_id = ${a}.id AND t.source_id IS NOT NULL)))`
 }
 
+/** Condition SQL « forme de source » sur un alias de `variantes` : non masquée
+ *  et écrite par au moins une source. C'est la seule base du tirage du défi
+ *  (04/11/2026) : une validation ou un masquage de membre n'y touche pas. */
+export function formeSourceSql(alias: string): Prisma.Sql {
+    const a = Prisma.raw(alias)
+    return Prisma.sql`(${a}.masquee = false AND EXISTS (
+        SELECT 1 FROM temoignages t WHERE t.variante_id = ${a}.id AND t.source_id IS NOT NULL))`
+}
+
 /** Condition SQL « mot visible » sur un alias de `lemmes` : une forme au
  *  dictionnaire au moins. Miroir de `MOT_VISIBLE`. */
 export function motVisibleSql(alias: string): Prisma.Sql {

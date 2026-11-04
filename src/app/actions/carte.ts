@@ -96,7 +96,8 @@ export async function pointsMotAction(lemmeId: string): Promise<PointsMot | null
             },
         },
     })
-    if (!lemme) return null
+    // Un mot dont toutes les formes sont masquées n'a plus de carte.
+    if (!lemme || !lemme.variantes.length) return null
     const votes = session ? await mesVotes(session.membreId, lemme.variantes.map((v) => v.id)) : new Map<string, MonVote>()
 
     const points: PointCarte[] = []

@@ -1,10 +1,11 @@
 'use server'
 
 import { RECHERCHE_MAX, type LemmeDetaille, type LemmeResume, type TypeTerme } from "@/lib/dictionnaire"
-import { apercusParLemme, chargerLemmeDetaille } from "@/lib/lemmes"
+import { apercusParLemme, chargerLemmeDetaille, type OptionsFiche } from "@/lib/lemmes"
 import { mesVotes } from "@/lib/contribution-serveur"
 import { prisma } from "@/lib/prisma"
 import { estConnecte, sessionActuelle } from "@/lib/session-serveur"
+import { motVisibleSql } from "@/lib/visibilite-serveur"
 
 // Recherche depuis le français (l'alsacien a son propre sens depuis le
 // 27/09/2026, cf. formes.ts).
@@ -49,6 +50,7 @@ export async function rechercherAction(terme: string): Promise<LemmeResume[]> {
                      + CASE WHEN immutable_unaccent(l.cle) = t.q THEN 1 ELSE 0 END AS score
             FROM lemmes l, t
             WHERE immutable_unaccent(l.cle) LIKE '%' || t.q || '%'
+              AND ${motVisibleSql("l")}
         )
         SELECT l.id, l.francais, l.contexte, l.type::text AS type,
                c.departement, r.score
@@ -84,12 +86,12 @@ export async function rechercherAction(terme: string): Promise<LemmeResume[]> {
  *
  *  Ajoute `monVote` sur chaque variante quand une session existe — c'est ce qui
  *  distingue ce chemin du chemin public, qui ne connaît aucun membre. */
-export async function chargerLemme(id: string): Promise<LemmeDetaille | null> {
+export async function chargerLemme(id: string, options: OptionsFiche = {}): Promise<LemmeDetaille | null> {
     // Lecture réservée aux membres (02/10/2026, cf. `estConnecte()`).
     const session = await sessionActuelle()
     if (!session) return null
 
-    const lemme = await chargerLemmeDetaille({ id })
+    const lemme = await chargerLemmeDetaille({ id }, options)
     if (!lemme) return null
 
     const votes = await mesVotes(session.membreId, lemme.variantes.map((v) => v.id))

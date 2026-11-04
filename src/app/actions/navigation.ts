@@ -6,6 +6,7 @@ import { conditionFiltre } from "@/lib/filtre-dico-serveur"
 import { Prisma } from "@/generated/prisma/client"
 import { prisma } from "@/lib/prisma"
 import { estConnecte } from "@/lib/session-serveur"
+import { motVisibleSql } from "@/lib/visibilite-serveur"
 
 // Parcours alphabétique (écran « Dictionnaire A-Z » du handoff mobile). Portée
 // par Prisma depuis le 12/09/2026 ; passait par les RPC `lettres_disponibles()`
@@ -57,7 +58,7 @@ export async function lettresDisponiblesAction(filtreBrut?: string): Promise<str
     const lignes = await prisma.$queryRaw<{ lettre: string }[]>`
         SELECT DISTINCT ${lettreDe("cle")} AS lettre
         FROM lemmes
-        WHERE cle <> '' AND ${conditionFiltre(filtre, "lemmes")}
+        WHERE cle <> '' AND ${conditionFiltre(filtre, "lemmes")} AND ${motVisibleSql("lemmes")}
         ORDER BY lettre
     `
     // Un lemme qui commence par un chiffre ou un signe existe (les sources en
@@ -100,7 +101,7 @@ export async function lemmesParLettreAction(lettre: string, page = 1, filtreBrut
     // page demandée contre le vrai nombre de pages plutôt que de la croire.
     const comptes = await prisma.$queryRaw<{ n: bigint }[]>`
         SELECT count(*) AS n FROM lemmes
-        WHERE ${lettreDe("cle")} = ${initiale} AND ${conditionFiltre(filtre, "lemmes")}
+        WHERE ${lettreDe("cle")} = ${initiale} AND ${conditionFiltre(filtre, "lemmes")} AND ${motVisibleSql("lemmes")}
     `
     const total = Number(comptes[0]?.n ?? 0)
     if (total === 0) return vide
@@ -121,7 +122,7 @@ export async function lemmesParLettreAction(lettre: string, page = 1, filtreBrut
         SELECT l.id, l.francais, l.contexte, l.type::text AS type, c.departement
         FROM lemmes l
         LEFT JOIN communes c ON c.id = l.commune_id
-        WHERE ${lettreDe("l.cle")} = ${initiale} AND ${conditionFiltre(filtre, "l")}
+        WHERE ${lettreDe("l.cle")} = ${initiale} AND ${conditionFiltre(filtre, "l")} AND ${motVisibleSql("l")}
         ORDER BY ${cleParcours("l.cle")} ASC, l.cle ASC
         LIMIT ${TAILLE_PAGE} OFFSET ${offset}
     `
@@ -165,7 +166,7 @@ export async function pageDuPrefixeAction(lettre: string, prefixe: string, filtr
 
     const comptes = await prisma.$queryRaw<{ n: bigint }[]>`
         SELECT count(*) AS n FROM lemmes
-        WHERE ${lettreDe("cle")} = ${initiale} AND ${conditionFiltre(filtre, "lemmes")}
+        WHERE ${lettreDe("cle")} = ${initiale} AND ${conditionFiltre(filtre, "lemmes")} AND ${motVisibleSql("lemmes")}
     `
     const total = Number(comptes[0]?.n ?? 0)
     if (total === 0) return 1
@@ -173,7 +174,7 @@ export async function pageDuPrefixeAction(lettre: string, prefixe: string, filtr
     const rangs = await prisma.$queryRaw<{ rang: bigint }[]>`
         SELECT count(*) AS rang FROM lemmes
         WHERE ${lettreDe("cle")} = ${initiale}
-          AND ${conditionFiltre(filtre, "lemmes")}
+          AND ${conditionFiltre(filtre, "lemmes")} AND ${motVisibleSql("lemmes")}
           AND ${cleParcours("cle")} < ${parcoursDe(Prisma.sql`lower(${prefixeTrim})`)}
     `
     const rang = Number(rangs[0]?.rang ?? 0)

@@ -4,6 +4,7 @@ import { RECHERCHE_MAX, type LemmeResume } from "@/lib/dictionnaire"
 import { MOTS_DE_BASE } from "@/lib/mots-de-base"
 import { apercusParLemme } from "@/lib/lemmes"
 import { prisma } from "@/lib/prisma"
+import { MOT_VISIBLE, motVisibleSql } from "@/lib/visibilite-serveur"
 
 // Ce que la home publique (`/`, non connectée) montre pour donner un aperçu
 // réel du dico, retour de John du 18/09/2026 : la page ne disait jusque-là que
@@ -31,7 +32,7 @@ const MOTS_VITRINE = MOTS_DE_BASE
  *  base à chaque appel. */
 export async function motsVitrineAction(): Promise<LemmeResume[]> {
     const lemmes = await prisma.lemme.findMany({
-        where: { OR: MOTS_VITRINE.map((m) => ({ cle: m.cle, contexte: m.contexte, type: m.type })) },
+        where: { AND: [{ OR: MOTS_VITRINE.map((m) => ({ cle: m.cle, contexte: m.contexte, type: m.type })) }, MOT_VISIBLE] },
         select: { id: true, francais: true, contexte: true, type: true, cle: true },
     })
 
@@ -107,6 +108,7 @@ export async function rechercherAccueilAction(terme: string): Promise<Suggestion
         FROM lemmes l, t
         WHERE l.type = 'prenom' AND l.slug IS NOT NULL
           AND immutable_unaccent(lower(l.francais)) LIKE '%' || t.q || '%'
+          AND ${motVisibleSql("l")}
         ORDER BY score DESC, label ASC
         LIMIT ${LIMITE}
     `

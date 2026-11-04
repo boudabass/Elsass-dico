@@ -7,7 +7,14 @@
 
 import type { FormeApercu, LemmeDetaille, VarianteDetaillee } from "@/lib/dictionnaire"
 import { prisma } from "@/lib/prisma"
+import { FORME_AU_DEFI, FORME_AU_DICTIONNAIRE, MOT_VISIBLE } from "@/lib/visibilite-serveur"
 import type { Prisma } from "@/generated/prisma/client"
+
+export interface OptionsFiche {
+    /** Ne garder que les formes du défi (`FORME_AU_DEFI`), jamais celles du
+     *  seul dictionnaire. Le jeu, la fin de partie et la route N8N le demandent. */
+    defi?: boolean
+}
 
 /** La fiche d'un lemme : toutes ses variantes, et pour chacune ce qui la
  *  fonde — sources écrites d'un côté, villages de l'autre. Jamais additionnés.
@@ -15,9 +22,14 @@ import type { Prisma } from "@/generated/prisma/client"
  *  Prend un sélecteur unique plutôt qu'un id : la même fiche se charge par
  *  identifiant (/entree/[id], authentifié) ou par slug (/prenom/[slug],
  *  public et généré statiquement) — un toponyme s'y ajoute par `communeId`
- *  depuis la page village. */
+ *  depuis la page village.
+ *
+ *  Renvoie `null` quand il ne reste aucune forme à montrer (toutes masquées,
+ *  ou, pour le défi, aucune forme de source ni validée) : la page répond
+ *  « introuvable », sans erreur. */
 export async function chargerLemmeDetaille(
     where: Prisma.LemmeWhereUniqueInput,
+    options: OptionsFiche = {},
 ): Promise<LemmeDetaille | null> {
     const lemme = await prisma.lemme.findUnique({
         where,
@@ -28,7 +40,7 @@ export async function chargerLemmeDetaille(
             type: true,
             commune: { select: { id: true, nom: true, slug: true, departement: true } },
             variantes: {
-                where: { masquee: false },
+                where: options.defi ? FORME_AU_DEFI : FORME_AU_DICTIONNAIRE,
                 select: {
                     id: true,
                     forme: true,
@@ -45,7 +57,7 @@ export async function chargerLemmeDetaille(
         },
     })
 
-    if (!lemme) return null
+    if (!lemme || !lemme.variantes.length) return null
 
     const variantes: VarianteDetaillee[] = lemme.variantes.map((v) => {
         // Dédoublonnage par identité, et séparément : une source qui atteste
@@ -102,7 +114,7 @@ export async function chargerLemmeDetaille(
  *  la dernière. */
 export async function slugsPrenomsAttestes(): Promise<string[]> {
     const lemmes = await prisma.lemme.findMany({
-        where: { type: "prenom", slug: { not: null }, variantes: { some: { masquee: false } } },
+        where: { AND: [{ type: "prenom", slug: { not: null } }, MOT_VISIBLE] },
         select: { slug: true },
     })
     return lemmes.map((l) => l.slug!)

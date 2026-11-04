@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { BookPlus, Flag, Library, RefreshCw, Users } from "lucide-react";
+import { BookPlus, Flag, Library, ListChecks, RefreshCw, Users } from "lucide-react";
 import { toast } from "sonner";
 
 import { changerRoleAction, listerMembresAction } from "@/app/actions/membres";
@@ -84,6 +84,13 @@ export default function AdminPage() {
           >
             <BookPlus className="h-4 w-4" strokeWidth={2} />
             Mots ajoutés
+          </Link>
+          <Link
+            href="/admin/contributions"
+            className="flex h-10 items-center gap-1.5 rounded-full border border-bordure-forte px-4 text-sm font-semibold text-foreground transition-colors hover:bg-neutre-50"
+          >
+            <ListChecks className="h-4 w-4" strokeWidth={2} />
+            Contributions
           </Link>
         </div>
 

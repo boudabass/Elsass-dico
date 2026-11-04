@@ -11,6 +11,7 @@
 // que le membre ait répondu.
 
 import { prisma } from "@/lib/prisma"
+import { formeDefiSql } from "@/lib/visibilite-serveur"
 
 // --- Le calendrier ------------------------------------------------------------
 
@@ -181,9 +182,17 @@ interface Reserve {
 let reserve: { valeur: Reserve; datee: number } | null = null
 const FRAICHEUR_RESERVE_MS = 60 * 60 * 1000
 
+/** Oublie la réserve lue : appelé par la modération (masquer, réafficher,
+ *  valider, annuler). Ce processus la relit tout de suite ; un autre (dev et
+ *  main partagent la base, pas la mémoire) la relit au plus une heure après. */
+export function viderReserve(): void {
+    reserve = null
+}
+
 /** Les villages jouables, relus au plus une fois par heure : une modération
- *  (forme masquée) finit par s'y voir, sans relancer la requête à chaque clic
- *  sur un VPS sans limite CPU. */
+ *  (forme masquée, validée) finit par s'y voir, sans relancer la requête à chaque
+ *  clic sur un VPS sans limite CPU. Une forme n'y entre que si elle est de source
+ *  ou validée pour le défi (`formeDefiSql`). */
 export async function chargerReserve(): Promise<Reserve> {
     if (reserve && Date.now() - reserve.datee < FRAICHEUR_RESERVE_MS) return reserve.valeur
 
@@ -206,7 +215,7 @@ export async function chargerReserve(): Promise<Reserve> {
                array_agg(v.cle_forme ORDER BY v.forme) AS cles
         FROM lemmes l
         JOIN communes c ON c.id = l.commune_id
-        JOIN variantes v ON v.lemme_id = l.id AND v.masquee = false
+        JOIN variantes v ON v.lemme_id = l.id AND ${formeDefiSql("v")}
         WHERE ltrim(v.forme) NOT LIKE '[%'
         GROUP BY c.id
         ORDER BY c.id

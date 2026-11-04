@@ -3703,3 +3703,24 @@ jeton long, sans détour). **Ne pas remettre le détour de renouvellement.**
   connecté voit tout de suite un texte non validé (`FORME_PUBLIQUE`,
   `src/lib/visibilite-serveur.ts`, règle par défaut : un écran oublié ne montre
   rien de trop).
+
+- **Tests sur dev (04/11, soir)**, faits sur la session admin de John :
+  - Liste : aucun vote ; filtres type et membre OK ; « Voir plus » non testé
+    (moins de 20 lignes).
+  - Validation de « Stetskopf » (forme de « têtu », Mundolsheim) : le badge
+    « Validée : publique et dans le défi » apparaît, puis l'annulation le
+    remet à « Visible par les membres seulement ».
+  - **Deux lignes `moderations` restent sur la base partagée** (dev et main),
+    faites par John : `validation_defi` et `annulation_validation_defi` sur
+    cette forme, le 04/11 à 23:25. Port 5444 fermé : pas de nettoyage. L'état
+    d'origine est retrouvé (non validée, non masquée).
+  - Aucune page publique n'affiche « Stetskopf » : « têtu » n'est ni dans la
+    vitrine (`MOTS_DE_BASE`) ni sur une fiche village. La visibilité publique
+    d'une forme validée de mot n'a donc pas pu être vérifiée.
+  - Sans compte : accueil, `/jeu` et `/village/strasbourg-67482` répondent 200.
+    La page d'un village sans nom validé (« Pas encore de nom alsacien
+    validé ») n'a pas été testée : aucune commune sans forme n'a été trouvée.
+  - Membre connecté : « laanger steehl » reste visible dans la recherche
+    (« longue tige »).
+  - Défi du jour : même n° 9 et mêmes choix sur dev et main.
+  - « Grand est » n'a pas été touchée.

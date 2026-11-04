@@ -12,6 +12,7 @@ import { CarteInstallation } from "@/components/installer-app";
 import { ReglageNotifications } from "@/components/notifications-defi";
 import { useListeMemorisee } from "@/hooks/use-liste-memorisee";
 import { cleCache } from "@/lib/cache-navigation";
+import { NomProfil } from "./nom-profil";
 import { PremiersPas } from "./premiers-pas";
 import { VillageProfil } from "./village-profil";
 
@@ -84,6 +85,14 @@ export default function MonEspacePage() {
                             role={role}
                             village={espace?.village ?? null}
                         />
+
+                        {!chargement && (
+                            <NomProfil
+                                nomActuel={espace?.nom ?? null}
+                                confirme={espace?.nomConfirme ?? false}
+                                onEnregistre={rafraichir}
+                            />
+                        )}
 
                         {chargement ? (
                             <div className="mt-[22px]">

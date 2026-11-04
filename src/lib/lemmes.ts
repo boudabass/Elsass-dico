@@ -16,6 +16,10 @@ export interface OptionsFiche {
      *  Sans cette option, seules les formes PUBLIQUES sortent (de source ou
      *  validées) : c'est ce que voit un visiteur sans compte. */
     dictionnaire?: boolean
+    /** Le nom de l'auteur de chaque forme ajoutée par un membre, quand il est
+     *  confirmé. Demandé seulement par les fiches qui l'affichent : le défi,
+     *  le jeu et l'API n'en reçoivent jamais. */
+    auteurs?: boolean
 }
 
 /** La fiche d'un lemme : toutes ses variantes, et pour chacune ce qui la
@@ -48,6 +52,8 @@ export async function chargerLemmeDetaille(
                     forme: true,
                     article: true,
                     formeSansArticle: true,
+                    valideeDefiLe: true,
+                    creePar: { select: { nom: true, nomConfirmeLe: true } },
                     temoignages: {
                         select: {
                             source: { select: { nom: true, url: true } },
@@ -83,6 +89,7 @@ export async function chargerLemmeDetaille(
             nbVillages: villages.size,
             sources: Array.from(sources.values()).sort((a, b) => a.nom.localeCompare(b.nom, 'fr')),
             villages: Array.from(villages.values()).sort((a, b) => a.nom.localeCompare(b.nom, 'fr')),
+            ajoutePar: nomAffiche(v, options),
         }
     })
 
@@ -107,6 +114,24 @@ export async function chargerLemmeDetaille(
         commune: lemme.commune,
         variantes,
     }
+}
+
+/** Le nom de l'auteur d'une forme, s'il peut être montré ici : la page le
+ *  demande, le membre l'a confirmé, la forme ne vient pas d'une source, et,
+ *  sans compte, la forme est validée pour le défi. Une forme de source n'a
+ *  jamais d'auteur affiché, même si un membre l'a aussi écrite. */
+function nomAffiche(
+    v: {
+        creePar: { nom: string | null; nomConfirmeLe: Date | null } | null
+        valideeDefiLe: Date | null
+        temoignages: { source: { nom: string } | null }[]
+    },
+    options: OptionsFiche,
+): string | null {
+    if (!options.auteurs || !v.creePar?.nomConfirmeLe || !v.creePar.nom) return null
+    if (v.temoignages.some((t) => t.source)) return null
+    if (!options.dictionnaire && !v.valideeDefiLe) return null
+    return v.creePar.nom
 }
 
 /** Les prénoms qui ont une forme publique (source ou validée), ce que

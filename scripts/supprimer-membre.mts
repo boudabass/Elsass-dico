@@ -74,6 +74,10 @@ const anonymes = await prisma.$transaction(async (tx) => {
     })).map((e) => e.id)
     const idsLemmes = (await tx.lemme.findMany({ where: { creeParId: membre.id }, select: { id: true } }))
         .map((l) => l.id)
+    // Le nom et sa confirmation partent avec le compte. La cascade le ferait
+    // aussi, mais on le dit ici, puisque c'est une donnée personnelle.
+    await tx.nomMembre.deleteMany({ where: { membreId: membre.id } })
+    await tx.membre.update({ where: { id: membre.id }, data: { nom: null, nomConfirmeLe: null } })
     await tx.membre.delete({ where: { id: membre.id } })
     const restants = await tx.temoignage.count({ where: { id: { in: ids }, membreId: null } })
     if (restants !== ids.length) {

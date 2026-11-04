@@ -91,7 +91,7 @@ export async function rechercherAction(terme: string): Promise<LemmeResume[]> {
  *  distingue ce chemin du chemin public, qui ne connaît aucun membre. */
 export async function chargerLemme(
     id: string,
-    options: OptionsFiche = { dictionnaire: true },
+    options: OptionsFiche = { dictionnaire: true, auteurs: true },
 ): Promise<LemmeDetaille | null> {
     // Lecture réservée aux membres (02/10/2026, cf. `estConnecte()`).
     const session = await sessionActuelle()

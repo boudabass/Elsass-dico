@@ -62,12 +62,15 @@ export async function connexionAction(formData: FormData): Promise<ResultatConne
     // JAMAIS dérivé d'Odoo : Odoo authentifie, le dico autorise. `role` est
     // donc absent de l'`update` — une promotion faite dans /admin ne doit pas
     // être annulée à la prochaine connexion.
+    // Le nom n'est repris d'Odoo qu'à la création. Ensuite, c'est le membre qui
+    // le choisit et le confirme dans Mon espace (04/11/2026) : une connexion ne
+    // doit pas l'écraser.
     let membre
     try {
         membre = await prisma.membre.upsert({
             where: { email },
             create: { email, odooUid: utilisateurOdoo.uid, nom: utilisateurOdoo.name },
-            update: { odooUid: utilisateurOdoo.uid, nom: utilisateurOdoo.name },
+            update: { odooUid: utilisateurOdoo.uid },
             select: { id: true },
         })
     } catch (erreur) {

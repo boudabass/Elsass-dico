@@ -63,7 +63,7 @@ export default async function VillagePage({
   const { depuis } = await searchParams;
   // Sans compte : formes publiques. Un membre connecté voit tout le dictionnaire.
   const connecte = await estConnecte();
-  const village = await chargerVillage(slug, { dictionnaire: connecte });
+  const village = await chargerVillage(slug, { dictionnaire: connecte, auteurs: true });
   if (!village) notFound();
 
   const departement = LIBELLES_DEPARTEMENT[village.departement] ?? village.departement;

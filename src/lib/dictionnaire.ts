@@ -125,6 +125,10 @@ export interface VarianteDetaillee extends FormeAffichee {
      *  s'il en est l'auteur ET qu'aucun autre membre ne l'a encore revendiquée
      *  (doc 20, « Correction »). Même statut d'absence que `monVote`. */
     modifiable?: boolean
+    /** Le prénom et le nom de l'auteur, quand la forme vient d'un membre qui a
+     *  confirmé son nom et que la page peut le montrer (voir lemmes.ts). Absent
+     *  ou nul sinon : une forme de source n'a jamais d'auteur affiché. */
+    ajoutePar?: string | null
 }
 
 /** Une forme telle qu'elle apparaît dans une LISTE : la graphie, et de quoi

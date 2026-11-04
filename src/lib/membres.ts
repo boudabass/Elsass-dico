@@ -27,4 +27,7 @@ export interface MembreListe {
     creeLe: string
     vuLe: string | null
     nbTemoignages: number
+    /** Les noms que ce membre a remplacés, le plus récent d'abord. Visibles à
+     *  l'administration seulement. */
+    nomsAnterieurs: { nom: string; le: string }[]
 }

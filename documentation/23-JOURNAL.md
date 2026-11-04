@@ -3670,3 +3670,28 @@ jeton long, sans détour). **Ne pas remettre le détour de renouvellement.**
   sauvegardes sur le même VPS, mot ajouté « Grand est », boucle de redirections
   à confirmer.
 - PR #111 : le correctif de « Vu le » ci-dessus.
+
+## Gérer les contributions : étape 1 (04/11/2026)
+
+- Décisions de John : un texte de membre reste **publié tout de suite** ; John
+  voit tout et agit à tout moment ; une contribution de membre **n'entre dans le
+  défi que validée par lui**. L'ancien `/admin/arbitrage` (validation avant
+  publication, supprimé le 13/09) n'est pas remis.
+- Constat : `masquee` existait et était respecté partout, mais rien ne
+  l'écrivait. « Marquer traité » ne faisait que vider la file. Une façon de dire
+  ajoutée à un mot existant n'apparaissait sur aucun écran.
+- `/admin/contributions` : gestes des membres et de l'admin dans une liste,
+  20 par page. Masquer, réafficher, retirer un vote, valider pour le défi.
+- Table `moderations` à part : `TypeEvenement` n'est pas touché, car dev et main
+  partagent la base et le client Prisma de main ne connaîtrait pas ses nouvelles
+  valeurs. Le journal exporté ajoute ces gestes, sans dire qui les a faits, et
+  `importer-contributions.mts` les rejoue.
+- **Tirage du défi sur les seules formes de source** : écart, tranches et
+  distracteurs. Sinon masquer ou valider une forme change la tranche d'un
+  village, donc la cible de tous les jours de cette tranche, y compris des défis
+  déjà publiés. Une forme de source ne se masque donc pas.
+- Reconnaître une forme de source : un témoignage avec `source_id`, jamais
+  `cree_par` nul (un compte supprimé le met à nul).
+- Limites acceptées : une forme validée peut être identique à celle d'un village
+  proposé dans la même manche (réponse ambiguë, rare, sous le contrôle de John).
+  Intégrer une nouvelle source peut toujours changer le tirage, comme avant.

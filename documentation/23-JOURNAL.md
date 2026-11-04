@@ -3740,3 +3740,34 @@ jeton long, sans détour). **Ne pas remettre le détour de renouvellement.**
     l'orchestrateur sur `/village/metz-57463` et `/village/thionville-57672`.
   - Stetskopf absente des pages publiques : normal. Il n'y a pas de page publique
     de mot, le dictionnaire reste réservé aux membres.
+
+- **Étape 2 : « Ajouté par Prénom Nom » (04/11/2026, soir)**, décisions de
+  l'orchestrateur après le plan :
+  - Un membre n'écrit un texte (mot, expression, forme alsacienne) qu'après avoir
+    confirmé son prénom et son nom. La trace est `membres.nom_confirme_le`, posée
+    par `enregistrerNomAction` (`src/app/actions/nom.ts`) et nulle part ailleurs.
+    Garde-fou côté serveur dans `creerMotAction`, `creerVarianteAction` et
+    `modifierVarianteAction` (retour `nomRequis`). Le vote reste permis sans nom.
+  - La feuille de contribution ouvre le champ du nom quand il n'est pas confirmé,
+    avec la phrase « Ton nom sera affiché à côté de ce que tu ajoutes. » Le texte
+    reste dans la feuille, rien ne renvoie vers Mon espace.
+  - Connexion : `auth.ts` ne réécrit plus `nom` à chaque login. Odoo ne fournit le
+    nom qu'à la création du compte.
+  - Affichage (`lemmes.ts`, `nomAffiche`) : le nom sort seulement si la page le
+    demande (`auteurs`, fiches membre, village et prénom), si le membre l'a
+    confirmé, si la forme ne vient pas d'une source, et, sans compte, si la forme
+    est validée pour le défi. Le défi, le jeu et l'API N8N ne reçoivent aucun nom.
+  - Changer de nom garde l'ancien dans `noms_membre`, daté. Maximum 3 changements
+    par 24 h. Admin > Membres affiche les anciens noms avec leur date.
+  - `supprimer-membre.mts` efface les anciens noms et le nom avec le compte.
+  - Le journal public ne contient aucun nom : `journal-contributions.ts` ne lit
+    ni `nom` ni `email` (vérifié à la lecture).
+  - Migration `20261104130000_nom_membre` : additive (une colonne nullable, une
+    table neuve). Aucun nom n'existe encore : tout est à confirmer.
+  - **Non fait, décision attendue : « Ajouté par un ancien membre ».** L'importeur
+    ne recrée ni `creeParId` ni la table des membres. Sur une base reconstruite,
+    les textes de membres n'ont donc pas d'auteur, et aucun nom ne s'affiche. Ce
+    n'est pas une fuite, c'est une perte d'attribution.
+  - **Précaution** : l'ancien code de `main` réécrit encore `nom` à chaque
+    connexion. Tant que `main` n'a pas ce code, un membre qui se connecte sur
+    `main` peut voir son nom confirmé remplacé par le nom Odoo.

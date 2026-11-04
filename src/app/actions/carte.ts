@@ -37,7 +37,7 @@ export async function pointsCarteAction(): Promise<PointsCarte> {
     // jamais par cette action : rien de ce qui est exposé n'y est lisible
     // sans compte.
     if (!(await estConnecte())) return { points: [], nbFormes: 0 }
-    return chargerPointsCarte()
+    return chargerPointsCarte({ dictionnaire: true })
 }
 
 // Étape 4 (doc 20) : « recherche d'un mot → les variantes s'affichent aux

@@ -5,7 +5,7 @@
 // unique) vu depuis l'autre bout. Une commune n'a donc au plus qu'un lemme.
 
 import { chargerLemmeDetaille, type OptionsFiche } from "@/lib/lemmes"
-import { FORME_PUBLIQUE } from "@/lib/visibilite-serveur"
+import { FORME_AU_DICTIONNAIRE, FORME_PUBLIQUE } from "@/lib/visibilite-serveur"
 import { prisma } from "@/lib/prisma"
 import type { LemmeDetaille } from "@/lib/dictionnaire"
 import type { PointCarte, PointsCarte } from "@/app/actions/carte"
@@ -70,14 +70,16 @@ export async function slugsVillagesAttestes(): Promise<string[]> {
  *  Hors de `actions/carte.ts` (02/10/2026) : tout ce qu'un fichier
  *  `'use server'` exporte devient appelable depuis le navigateur. La home
  *  publique en a besoin côté serveur ; l'action, elle, est réservée aux
- *  membres. */
-export async function chargerPointsCarte(): Promise<PointsCarte> {
+ *  membres.
+ *  Par défaut, les formes publiques (la home) ; `dictionnaire: true` pour la
+ *  carte des membres. */
+export async function chargerPointsCarte(options: OptionsFiche = {}): Promise<PointsCarte> {
     const villages = await prisma.lemme.findMany({
         where: { NOT: { communeId: null }, commune: { isNot: null } },
         select: {
             commune: { select: { id: true, nom: true, latitude: true, longitude: true } },
             variantes: {
-                where: { masquee: false },
+                where: options.dictionnaire ? FORME_AU_DICTIONNAIRE : FORME_PUBLIQUE,
                 select: { forme: true },
                 orderBy: { creeLe: "asc" },
             },

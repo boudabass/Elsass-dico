@@ -8,7 +8,8 @@
 //   2. PUBLIC : une forme y entre si elle n'est pas masquée ET (qu'un témoignage
 //      de source l'écrit, OU qu'elle a été validée). C'est ce que voit un visiteur
 //      sans compte : accueil, fiches `/village` et `/prenom`, recherche de
-//      l'accueil, aperçus et métadonnées. Le défi montre les mêmes formes. Un
+//      l'accueil, aperçus, chiffres et points de carte de l'accueil, métadonnées. Le défi montre
+//      les mêmes formes. Un
 //      témoignage de source se reconnaît à `source_id` non nul, jamais à
 //      `cree_par` nul : un compte supprimé le met à nul, et une base reconstruite
 //      aussi.

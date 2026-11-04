@@ -19,7 +19,7 @@ import { chargerPointsCarte } from "@/lib/villages"
 import type { FormeApercu } from "@/lib/dictionnaire"
 import { apercusParLemme } from "@/lib/lemmes"
 import { prisma } from "@/lib/prisma"
-import { MOT_VISIBLE } from "@/lib/visibilite-serveur"
+import { FORME_PUBLIQUE, MOT_PUBLIC } from "@/lib/visibilite-serveur"
 
 export interface ApercuCarte {
     largeur: number
@@ -99,15 +99,17 @@ export function viderCacheAccueil(): void {
 }
 
 /** Relu au plus une fois par heure, comme la réserve du jeu : la home est la
- *  page la plus vue, et ces chiffres ne bougent qu'à une contribution. */
+ *  page la plus vue, et ces chiffres ne bougent qu'à une contribution.
+ *  Chiffres et points : formes publiques seulement, comme tout ce que voit
+ *  un visiteur sans compte. */
 export async function chargerApercuAccueil(): Promise<ApercuAccueil> {
     if (cache && Date.now() - cache.datee < FRAICHEUR_MS) return cache.valeur
 
     const [brut, { points, nbFormes: nbFormesVillages }, nbMots, nbFormes, lemmeExemple] = await Promise.all([
         readFile(join(process.cwd(), "public/carte/contours.topojson"), "utf8"),
         chargerPointsCarte(),
-        prisma.lemme.count({ where: MOT_VISIBLE }),
-        prisma.variante.count({ where: { masquee: false } }),
+        prisma.lemme.count({ where: MOT_PUBLIC }),
+        prisma.variante.count({ where: FORME_PUBLIQUE }),
         prisma.lemme.findUnique({
             where: { cle_contexte_type: EXEMPLE },
             select: { id: true, francais: true },

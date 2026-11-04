@@ -24,6 +24,18 @@ export const TYPES_CONTRIBUTION = [
 
 export type TypeContribution = (typeof TYPES_CONTRIBUTION)[number]
 
+/** Ce que le filtre « Type de geste » propose. Les votes (`pose`, `retrait`) et
+ *  leurs retraits (`retrait_vote`) ne sont plus gérés ici (John, 04/11) : ils
+ *  restent au journal, mais ne s'affichent pas sur cet écran. */
+export const TYPES_FILTRE_CONTRIBUTION: readonly TypeContribution[] = [
+    "creation",
+    "modification",
+    "masquage",
+    "demasquage",
+    "validation_defi",
+    "annulation_validation_defi",
+]
+
 export const LIBELLES_CONTRIBUTION: Record<TypeContribution, string> = {
     pose: "Ajout d'un vote",
     retrait: "Vote retiré par le membre",
@@ -50,8 +62,6 @@ export interface LigneContribution {
     varianteId: string
     /** Une forme de source écrite : elle est déjà dans le défi, rien à valider. */
     source: boolean
-    /** Le membre a encore son vote actif sur cette forme : on peut le retirer. */
-    voteActif: boolean
     /** Le village du geste (ou de la création de la forme pour un geste admin). */
     village: string | null
     mot: { id: string; francais: string; contexte: string; type: string; visible: boolean }

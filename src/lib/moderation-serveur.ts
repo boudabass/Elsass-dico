@@ -47,7 +47,6 @@ interface LigneBrute {
     lemme_visible: boolean
     variante_id: string
     source: boolean
-    vote_actif: boolean
 }
 
 export async function lirePageContributions(filtres: FiltresContributions): Promise<PageContributions> {
@@ -67,6 +66,7 @@ export async function lirePageContributions(filtres: FiltresContributions): Prom
                    e.membre_id, e.commune_id,
                    NULL::text AS acteur_id, e.ancienne_forme, e.nouvelle_forme
             FROM evenements_contribution e
+            WHERE e.type IN ('creation', 'modification')
             UNION ALL
             SELECT 'moderation', m.id, m.type::text, m.le, m.variante_id,
                    CASE WHEN m.type = 'retrait_vote' THEN r.membre_id ELSE v.cree_par END,
@@ -99,8 +99,7 @@ export async function lirePageContributions(filtres: FiltresContributions): Prom
                lem.id AS lemme_id, lem.francais, lem.contexte, lem.type::text AS lemme_type,
                ${motVisibleSql("lem")} AS lemme_visible,
                v.id AS variante_id,
-               EXISTS (SELECT 1 FROM temoignages t WHERE t.variante_id = v.id AND t.source_id IS NOT NULL) AS source,
-               EXISTS (SELECT 1 FROM temoignages t WHERE t.variante_id = v.id AND t.membre_id = f.membre_id) AS vote_actif
+               EXISTS (SELECT 1 FROM temoignages t WHERE t.variante_id = v.id AND t.source_id IS NOT NULL) AS source
         FROM filtrees f
         JOIN variantes v ON v.id = f.variante_id
         JOIN lemmes lem ON lem.id = v.lemme_id
@@ -120,7 +119,6 @@ export async function lirePageContributions(filtres: FiltresContributions): Prom
         membreId: b.membre_id,
         varianteId: b.variante_id,
         source: b.source,
-        voteActif: b.vote_actif,
         village: b.commune_nom,
         mot: { id: b.lemme_id, francais: b.francais, contexte: b.contexte, type: b.lemme_type, visible: b.lemme_visible },
         forme: b.forme,

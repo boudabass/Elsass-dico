@@ -44,14 +44,14 @@ export async function listerContributionsAction(
     return { succes: true, valeur: await lirePageContributions({ page: filtres.page, type, membreId, depuis }) }
 }
 
-/** Les membres qui ont un geste au journal : ce que le filtre « Membre » propose. */
+/** Les membres qui ont créé ou corrigé une forme : ce que le filtre « Membre » propose. */
 export async function listerMembresContributeursAction(): Promise<
     { succes: true; membres: { id: string; nom: string }[] } | { succes: false; erreur: string }
 > {
     if (!(await adminExige())) return REFUS
 
     const membres = await prisma.membre.findMany({
-        where: { evenements: { some: {} } },
+        where: { evenements: { some: { type: { in: ["creation", "modification"] } } } },
         select: { id: true, nom: true, email: true },
         orderBy: { creeLe: "asc" },
         take: 500,
@@ -105,41 +105,6 @@ export async function reafficherFormeAction(varianteId: string): Promise<Resulta
     if (!fait) return { succes: false, erreur: "Cette forme n'est pas masquée, ou n'existe plus" }
 
     rafraichirDefi()
-    return { succes: true }
-}
-
-// --- Retirer un vote ----------------------------------------------------------
-
-/** Retire le vote d'un membre sur une forme. Un membre n'a qu'un témoignage par
- *  forme (`varianteId`, `membreId` unique), donc le couple suffit. Refusé sur un
- *  témoignage de source : une source écrite ne vote pas, et n'a pas de village. */
-export async function retirerVoteModereAction(varianteId: string, membreId: string): Promise<Resultat> {
-    const admin = await adminExige()
-    if (!admin) return REFUS
-
-    const t = await prisma.temoignage.findUnique({
-        where: { varianteId_membreId: { varianteId, membreId } },
-        select: { id: true, varianteId: true, membreId: true, communeId: true, sourceId: true },
-    })
-    if (!t) return { succes: false, erreur: "Ce vote n'existe plus" }
-    if (t.sourceId) return { succes: false, erreur: "C'est le témoignage d'une source écrite : il ne se retire pas comme un vote" }
-
-    const fait = await prisma.$transaction(async (tx) => {
-        // Le témoignage est supprimé dans la transaction : un second retrait
-        // simultané ne trouve plus rien et ne journalise rien.
-        const { count } = await tx.temoignage.deleteMany({ where: { id: t.id, sourceId: null } })
-        if (!count) return false
-        await tx.evenementContribution.create({
-            data: { type: "retrait", varianteId: t.varianteId, temoignageId: t.id, communeId: t.communeId, membreId: t.membreId },
-        })
-        await tx.moderation.create({
-            data: { type: "retrait_vote", varianteId: t.varianteId, temoignageId: t.id, acteurId: admin.membreId },
-        })
-        return true
-    })
-    if (!fait) return { succes: false, erreur: "Ce vote n'existe plus" }
-
-    revalidatePath("/admin/contributions")
     return { succes: true }
 }
 

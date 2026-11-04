@@ -2,7 +2,7 @@
 
 import { useCallback, useEffect, useRef, useState } from "react";
 import Link from "next/link";
-import { CheckCircle2, EyeOff, Eye, MapPin, Undo2, UserX } from "lucide-react";
+import { CheckCircle2, EyeOff, Eye, MapPin, Undo2 } from "lucide-react";
 import { toast } from "sonner";
 
 import {
@@ -11,20 +11,9 @@ import {
     listerMembresContributeursAction,
     masquerFormeAction,
     reafficherFormeAction,
-    retirerVoteModereAction,
     validerPourDefiAction,
 } from "@/app/actions/moderation";
 import { AppHeader } from "@/components/app-header";
-import {
-    AlertDialog,
-    AlertDialogAction,
-    AlertDialogCancel,
-    AlertDialogContent,
-    AlertDialogDescription,
-    AlertDialogFooter,
-    AlertDialogHeader,
-    AlertDialogTitle,
-} from "@/components/ui/alert-dialog";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { useListeAdmin } from "@/hooks/use-liste-admin";
@@ -32,16 +21,17 @@ import { formeDictionnaire } from "@/lib/dictionnaire";
 import {
     categorieDe,
     LIBELLES_CONTRIBUTION,
-    TYPES_CONTRIBUTION,
+    TYPES_FILTRE_CONTRIBUTION,
     type LigneContribution,
     type PageContributions,
     type TypeContribution,
 } from "@/lib/moderation";
 
-// Les gestes des membres et ceux de l'admin, dans une seule liste (04/11/2026).
-// Décisions de John : un texte de membre reste publié tout de suite ; John voit
-// tout et peut agir à tout moment ; rien n'est effacé. Une forme entre dans le
-// défi si elle vient d'une source ou si tu la valides ici.
+// Les formes créées ou corrigées par les membres, et les gestes de l'admin, dans
+// une seule liste (04/11/2026). Décisions de John : un texte de membre reste
+// publié tout de suite ; John voit tout et peut agir à tout moment ; rien n'est
+// effacé. Une forme entre dans le défi si elle vient d'une source ou si tu la
+// valides ici. Les votes ne se gèrent pas sur cet écran.
 
 /** Où l'on note la dernière visite, pour le filtre « depuis ma dernière visite ». */
 const CLE_DERNIERE_VISITE = "ed-admin-contributions-vu";
@@ -77,7 +67,6 @@ export default function AdminContributionsPage() {
     const [plusDeLignes, setPlusDeLignes] = useState(false);
     const [chargement, setChargement] = useState(true);
     const [enCours, setEnCours] = useState<string | null>(null);
-    const [aConfirmer, setAConfirmer] = useState<LigneContribution | null>(null);
 
     // Lu une fois, avant d'écrire la visite du jour : sinon la visite d'à côté
     // effacerait la précédente. `useRef` évite le double passage du mode strict.
@@ -159,9 +148,9 @@ export default function AdminContributionsPage() {
                     <CardHeader>
                         <CardTitle>Ce qui se passe chez les membres</CardTitle>
                         <CardDescription>
-                            Un texte de membre est publié tout de suite. Une forme n&apos;entre dans le défi
-                            que si elle vient d&apos;une source ou si tu la valides ici. Tu peux masquer une
-                            forme, la réafficher, retirer un vote ou valider une forme. Rien n&apos;est
+                            Un texte de membre est publié tout de suite. Le défi et l&apos;accueil ne montrent
+                            que les formes de source et celles que tu valides ici. Tu peux masquer une forme,
+                            la réafficher, ou la valider pour le défi et l&apos;accueil. Rien n&apos;est
                             effacé : chaque geste reste dans la liste.
                         </CardDescription>
                     </CardHeader>
@@ -175,7 +164,7 @@ export default function AdminContributionsPage() {
                                     onChange={(e) => setFiltreType(e.target.value as TypeContribution | "tout")}
                                 >
                                     <option value="tout">Tous les gestes</option>
-                                    {TYPES_CONTRIBUTION.map((t) => (
+                                    {TYPES_FILTRE_CONTRIBUTION.map((t) => (
                                         <option key={t} value={t}>
                                             {LIBELLES_CONTRIBUTION[t]}
                                         </option>
@@ -290,12 +279,12 @@ export default function AdminContributionsPage() {
                                             {l.validee && (
                                                 <span className="inline-flex items-center gap-1 rounded-full border border-emerald-700 px-2.5 py-0.5 text-emerald-700 dark:border-emerald-400 dark:text-emerald-400">
                                                     <CheckCircle2 className="h-3.5 w-3.5" aria-hidden />
-                                                    Validée pour le défi
+                                                    Validée pour le défi et l&apos;accueil
                                                 </span>
                                             )}
                                             {!l.masquee && !l.validee && !l.source && l.membre && (
                                                 <span className="rounded-full border border-border px-2.5 py-0.5 text-muted-foreground">
-                                                    Au dictionnaire, pas dans le défi
+                                                    Au dictionnaire, pas dans le défi ni l&apos;accueil
                                                 </span>
                                             )}
                                             {l.acteur && (
@@ -303,7 +292,7 @@ export default function AdminContributionsPage() {
                                             )}
                                         </div>
 
-                                        {l.genre === "evenement" && (
+                                        {(l.type === "creation" || l.type === "modification") && (
                                             <div className="flex flex-wrap gap-2 pt-1">
                                                 {!l.source &&
                                                     (l.masquee ? (
@@ -342,7 +331,7 @@ export default function AdminContributionsPage() {
                                                         }
                                                     >
                                                         <CheckCircle2 />
-                                                        {occupe(`valider-${l.varianteId}`) ? "…" : "Valider pour le défi"}
+                                                        {occupe(`valider-${l.varianteId}`) ? "…" : "Valider pour le défi et l'accueil"}
                                                     </Button>
                                                 )}
                                                 {!l.source && l.validee && (
@@ -356,18 +345,6 @@ export default function AdminContributionsPage() {
                                                     >
                                                         <Undo2 />
                                                         {occupe(`annuler-${l.varianteId}`) ? "…" : "Annuler la validation"}
-                                                    </Button>
-                                                )}
-
-                                                {l.type === "pose" && l.voteActif && l.membreId && (
-                                                    <Button
-                                                        variant="outline"
-                                                        className="h-11 text-destructive"
-                                                        disabled={enCours !== null}
-                                                        onClick={() => setAConfirmer(l)}
-                                                    >
-                                                        <UserX />
-                                                        Retirer le vote
                                                     </Button>
                                                 )}
                                             </div>
@@ -392,37 +369,6 @@ export default function AdminContributionsPage() {
                     </CardContent>
                 </Card>
             </div>
-
-            <AlertDialog open={aConfirmer !== null} onOpenChange={(ouvert) => !ouvert && setAConfirmer(null)}>
-                <AlertDialogContent>
-                    <AlertDialogHeader>
-                        <AlertDialogTitle>Retirer ce vote ?</AlertDialogTitle>
-                        <AlertDialogDescription>
-                            {aConfirmer
-                                ? `Le village de ${aConfirmer.membre ?? "ce membre"} ne figure plus sur « ${formeDictionnaire(aConfirmer.forme)} ». Le retrait reste visible dans la liste.`
-                                : ""}
-                        </AlertDialogDescription>
-                    </AlertDialogHeader>
-                    <AlertDialogFooter>
-                        <AlertDialogCancel className="h-11">Garder le vote</AlertDialogCancel>
-                        <AlertDialogAction
-                            className="h-11 bg-destructive text-destructive-foreground hover:bg-destructive/90"
-                            onClick={() => {
-                                const cible = aConfirmer;
-                                setAConfirmer(null);
-                                if (cible?.membreId)
-                                    void executer(
-                                        `retirer-${cible.varianteId}`,
-                                        () => retirerVoteModereAction(cible.varianteId, cible.membreId!),
-                                        "Vote retiré",
-                                    );
-                            }}
-                        >
-                            Retirer le vote
-                        </AlertDialogAction>
-                    </AlertDialogFooter>
-                </AlertDialogContent>
-            </AlertDialog>
         </div>
     );
 }

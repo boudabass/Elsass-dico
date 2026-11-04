@@ -3654,3 +3654,19 @@ jeton long, sans détour). **Ne pas remettre le détour de renouvellement.**
   téléphone ne l'a pas rechargée.
 - Les dates d'avant ce correctif restent celles de la dernière connexion : la
   mesure du retour commence le jour du déploiement.
+
+## Point d'après lancement (04/11/2026)
+
+- Pub « sanglier » du 26/10 au 04/11 : 18,69 €, 309 clics sur le lien (Facebook
+  265 à 0,04 €, Instagram 44 à 0,21 €). Objectifs réglés sur les visites de la
+  page Facebook et les interactions, pas sur le Dico.
+- 17 comptes créés sur le site depuis le 27/10 (toutes origines), membres du
+  Dico de 6 à 15, 4 nouveaux membres ont contribué. Journal : 18 événements
+  exportés au 03/11.
+- Tourne sans panne : notifications de 10 h (6 abonnés), défi sur les réseaux
+  (3 publications sur 3), sauvegardes de nuit, et aucun déploiement de dev
+  derrière les 3 commits `data:`.
+- Reste à voir avec John : nombre de parties (port 5444), réglage de la pub,
+  sauvegardes sur le même VPS, mot ajouté « Grand est », boucle de redirections
+  à confirmer.
+- PR #111 : le correctif de « Vu le » ci-dessus.

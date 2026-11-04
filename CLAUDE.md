@@ -159,10 +159,18 @@ VPS partagé ; `dev` et `main` **partagent la même base**.
   `scripts/supprimer-membre.mts` (anonymise, puis supprimer le compte Odoo).
 - Coolify via MCP : lecture seule.
 
-## État au 28/10/2026
+## État au 04/11/2026
 
 - Toutes les étapes de la refonte sont faites (dérivation, session, fiches
   publiques, admin, carte, contribution, jeu, deux sens).
+- **Lancement public fait** : annonce et pub depuis le 26/10, défi sur les
+  réseaux depuis le 28/10 (`MET_DEFI_DICO_HEBDO`, dimanche et mercredi à
+  17 h). Au 04/11 : 15 membres, 6 abonnés aux notifications.
+- **« Vu le » de `/admin`** (PR #111, 04/11) : mis à jour par le layout à
+  l'ouverture d'une page, au plus une fois par heure (`marquerVu()`). Les
+  dates d'avant ce jour sont celles de la dernière connexion.
+- **Sauvegardes** : chaque nuit, mais sur le même VPS (pas de S3). Signalé à
+  John le 04/11, rien de décidé.
 - **Défis remis à zéro pour le lancement public** (26/10) : **défi n° 1 =
   27/10/2026** (`LANCEMENT`, `lib/jeu.ts`), toutes les parties effacées
   (séries à 0). Ne plus changer `LANCEMENT` : les numéros publiés en
@@ -200,28 +208,25 @@ VPS partagé ; `dev` et `main` **partagent la même base**.
   rendue statique perdrait son JavaScript.
 - **Export des contributions automatique** : workflow N8N
   `OP_EXPORT_CONTRIBUTIONS_DICO` actif (4 h), watch paths Coolify de dev
-  `**` + `!data/contributions/**`. Premier passage le 09/10 : 8 événements.
+  `**` + `!data/contributions/**`. Constaté le 04/11 : 3 commits `data:`
+  depuis le 29/10, aucun déploiement de dev derrière.
 - Base : ~26 540 lemmes, 42 563 variantes (dont 863 insultes de la source
   `dj_fabz`, intégrées le 09/10), 148 prénoms (source `projet_babel`
-  ajoutée le 11/10), 6 membres, 8 événements de contribution.
+  ajoutée le 11/10), 15 membres, 18 événements de contribution exportés au
+  03/11.
 - **Boucle `ERR_TOO_MANY_REDIRECTS` à l'ouverture** (vue depuis le 10/10,
   pas un cache de dev) : traitée le 28/10 par un seul jeton de 30 j
   (PR #110, merge `2ecad3e`, retour arrière `git revert -m 1 2ecad3e`).
   Cause exacte jamais établie. **À confirmer par John** : ouverture le
   matin avec son compte, PC et téléphone installé.
-- **À constater par John** : qu'aucun
-  déploiement de dev ne suit un commit `data:` de N8N. Le compte Odoo
-  `theelsassisch+test@gmail.com` est **gardé** (ne plus proposer de le
-  supprimer). Partage par lien sur téléphone : confirmé le 09/10.
+- Le compte Odoo `theelsassisch+test@gmail.com` est **gardé** (ne plus
+  proposer de le supprimer). Partage par lien sur téléphone : confirmé le 09/10.
 - **Notifications du défi du jour** (Odoo 930) : abonnement par le tiroir
   après la connexion (installer, puis activer), l'encart de fin de défi ou
   « Mon espace » ; envoi à 10 h par N8N (`DEFI_DICO_NOTIF_10H`, **publié
   le 10/10**, main seulement), route `notifier-defi`. Testé sur l'Android de
   John. **D4 tenu le 12/10** : reçue les 10, 11 et 12/10, une seule fois
   chaque matin (4 abonnements au 12/10).
-- **En attente côté John** : feu vert du lancement public (workflow N8N
-  `MET_DEFI_DICO_HEBDO`, inactif ; World vide sa table de rotation avant
-  de l'activer), plus rien d'autre ne le bloque.
 - **`/application`** (site Odoo) : terminé le 09/10 (carte Elsass Dico vers
   `/login`, boutons d'Elsass Chat, « Vos idées », Cours et Forum).
 - **Insulte du week-end** (28/10) : un post du samedi fait par World, **pas

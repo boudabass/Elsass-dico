@@ -3724,3 +3724,19 @@ jeton long, sans détour). **Ne pas remettre le détour de renouvellement.**
     (« longue tige »).
   - Défi du jour : même n° 9 et mêmes choix sur dev et main.
   - « Grand est » n'a pas été touchée.
+
+- **Correctifs après le test de l'étape 1 (04/11, soir)**, demandés par
+  l'orchestrateur après relecture :
+  - Carte et chiffres de l'accueil : un village ne met un point, et ne compte,
+    que s'il a une forme publique (de source ou validée). Les compteurs passent
+    aussi en formes publiques (`MOT_PUBLIC`, `FORME_PUBLIQUE`). La carte des
+    membres (`pointsCarteAction`) garde le dictionnaire :
+    `chargerPointsCarte({ dictionnaire: true })`.
+  - Libellés : bouton « Valider : peut être montrée sans compte », état
+    « Validée : peut être montrée sans compte et dans le défi ». Le tirage ne
+    change pas : il ne lit que les formes de source, et une validation ne
+    déplace aucun défi.
+  - Texte « Pas encore de nom alsacien validé pour X. » vérifié sans compte par
+    l'orchestrateur sur `/village/metz-57463` et `/village/thionville-57672`.
+  - Stetskopf absente des pages publiques : normal. Il n'y a pas de page publique
+    de mot, le dictionnaire reste réservé aux membres.

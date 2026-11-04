@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import { CarteVariante } from "@/components/carte-variante";
 import { FichePublique, InvitationPublique } from "@/components/fiche-publique";
+import { estConnecte } from "@/lib/session-serveur";
 import { chargerVillage, slugsVillagesAttestes } from "@/lib/villages";
 import { LIBELLES_DEPARTEMENT } from "@/lib/dictionnaire";
 
@@ -60,7 +61,9 @@ export default async function VillagePage({
 }) {
   const { slug } = await params;
   const { depuis } = await searchParams;
-  const village = await chargerVillage(slug);
+  // Sans compte : formes publiques. Un membre connecté voit tout le dictionnaire.
+  const connecte = await estConnecte();
+  const village = await chargerVillage(slug, { dictionnaire: connecte });
   if (!village) notFound();
 
   const departement = LIBELLES_DEPARTEMENT[village.departement] ?? village.departement;
@@ -97,7 +100,9 @@ export default async function VillagePage({
         // L'invitation plus bas porte l'appel à contribuer : un compte suffit
         // pour ajouter la forme de ce village.
         <p className="rounded-lg border border-dashed border-border p-4 text-sm text-muted-foreground">
-          Personne n&apos;a encore proposé de nom alsacien pour {village.nom}.
+          {connecte
+            ? `Personne n'a encore proposé de nom alsacien pour ${village.nom}.`
+            : `Pas encore de nom alsacien validé pour ${village.nom}.`}
         </p>
       )}
 

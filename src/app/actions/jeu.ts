@@ -299,6 +299,8 @@ async function publier(partie: {
     }
 }
 
+// Les formes d'un village TELLES QU'ELLES SONT AU DÉFI (04/11/2026) : une forme
+// de membre non validée ne sort jamais du jeu, ni en manche ni en révélation.
 async function formesDe(communeId: number): Promise<string[]> {
     const lemme = await chargerLemmeDetaille({ communeId })
     return lemme?.variantes.map((v) => v.forme) ?? []
@@ -339,6 +341,7 @@ export async function motChezToiAction(mode: "jour" | "libre"): Promise<LemmeDet
         where: { cle_contexte_type: { cle, contexte, type } },
         select: { id: true },
     })
-    return lemme ? chargerLemme(lemme.id) : null
+    // Fin de partie : seulement les formes publiques, comme le reste du jeu.
+    return lemme ? chargerLemme(lemme.id, {}) : null
 }
 

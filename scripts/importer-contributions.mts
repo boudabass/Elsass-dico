@@ -21,24 +21,45 @@
  * témoignage, `(lemme, cleForme)` pour une variante), donc un second passage,
  * ou un passage sur la base qui a produit l'export, ne crée rien.
  *
+ * Depuis le 04/11/2026, les gestes de l'admin aussi (`moderations`) : une forme
+ * remise masquée, une forme validée pour le défi, et leur annulation. Le
+ * dernier geste d'une forme donne son état ; le fichier est en ordre
+ * chronologique, c'est lui qui le dit. Un retrait de vote n'a rien à rejouer
+ * de plus : son événement `retrait` est déjà dans le journal.
+ *
  * **Ne devine rien** : un lemme, une variante de source ou un village
- * introuvable est compté et signalé, jamais recréé à peu près.
+ * introuvable est compté et signalé, jamais recréé à peu près. Une ligne d'un
+ * type inconnu n'est ni rejouée ni supprimée : elle est comptée et signalée.
  *
  *   pnpm exec tsx scripts/importer-contributions.mts
  */
 import { existsSync, readFileSync } from "node:fs"
 
-import type { TypeTerme } from "../src/generated/prisma/client.ts"
+import type { TypeEvenement, TypeModeration, TypeTerme } from "../src/generated/prisma/client.ts"
 import { ouvrirBase, parLots } from "./lib/base.mts"
-import { FICHIER_JOURNAL, type LigneJournal } from "./lib/journal.mts"
+import {
+    FICHIER_JOURNAL,
+    TYPES_EVENEMENT_JOURNAL,
+    TYPES_MODERATION_JOURNAL,
+    type LigneJournal,
+} from "./lib/journal.mts"
 
 if (!existsSync(FICHIER_JOURNAL)) {
     console.error(`${FICHIER_JOURNAL} introuvable : lancer d'abord exporter-contributions.mts.`)
     process.exit(1)
 }
 
-const lignes: LigneJournal[] = readFileSync(FICHIER_JOURNAL, "utf-8")
+// Une ligne d'un type inconnu (un fichier plus récent que ce script) n'entre
+// dans aucune table : elle est comptée à part, jamais écrite à moitié. C'est ce
+// que faisait mal l'ancienne version : `createMany` rejetait l'enum, le script
+// s'arrêtait en plein milieu, après les mots et les variantes déjà écrits.
+const TYPES_EVENEMENT = new Set<string>(TYPES_EVENEMENT_JOURNAL)
+const TYPES_MODERATION = new Set<string>(TYPES_MODERATION_JOURNAL)
+
+const lignesLues: LigneJournal[] = readFileSync(FICHIER_JOURNAL, "utf-8")
     .split("\n").filter((l) => l.trim()).map((l) => JSON.parse(l))
+const lignes = lignesLues.filter((l) => TYPES_EVENEMENT.has(l.type) || TYPES_MODERATION.has(l.type))
+const typesInconnus = lignesLues.length - lignes.length
 
 const prisma = ouvrirBase()
 const SEP = "\u0000"
@@ -119,8 +140,10 @@ const communeDe = (l: LigneJournal) => (l.commune !== null && connues.has(l.comm
 const date = (l: LigneJournal) => new Date(`${l.jour}T00:00:00Z`)
 
 const rejouables = lignes.filter((l) => varianteDe(l))
-const retires = new Set(rejouables.filter((l) => l.type === "retrait").map((l) => l.temoignageId))
-const actives = rejouables.filter((l) => l.type === "pose" && !retires.has(l.temoignageId) && communeDe(l) !== null)
+const evenements = rejouables.filter((l) => TYPES_EVENEMENT.has(l.type))
+const moderations = rejouables.filter((l) => TYPES_MODERATION.has(l.type))
+const retires = new Set(evenements.filter((l) => l.type === "retrait").map((l) => l.temoignageId))
+const actives = evenements.filter((l) => l.type === "pose" && !retires.has(l.temoignageId) && communeDe(l) !== null)
 
 let temoignagesCrees = 0
 await parLots(actives, 1000, async (lot) => {
@@ -134,10 +157,10 @@ await parLots(actives, 1000, async (lot) => {
 })
 
 let evenementsCrees = 0
-await parLots(rejouables, 1000, async (lot) => {
+await parLots(evenements, 1000, async (lot) => {
     const r = await prisma.evenementContribution.createMany({
         data: lot.map((l) => ({
-            id: l.id, type: l.type, varianteId: varianteDe(l)!, temoignageId: l.temoignageId,
+            id: l.id, type: l.type as TypeEvenement, varianteId: varianteDe(l)!, temoignageId: l.temoignageId,
             communeId: communeDe(l), ancienneForme: l.ancienneForme, nouvelleForme: l.nouvelleForme,
             le: date(l),
         })),
@@ -146,16 +169,51 @@ await parLots(rejouables, 1000, async (lot) => {
     evenementsCrees += r.count
 })
 
-console.log(`${lignes.length} événement(s) lu(s) dans ${FICHIER_JOURNAL}`)
+// --- Gestes de l'admin : les lignes, puis l'état de chaque forme ----------------
+// Le journal de modération est rejoué dans l'ordre du fichier. Le dernier geste
+// d'une forme dit son état : masquée ou non, validée pour le défi ou non. Rejouer
+// deux fois donne le même état, donc rien ne se double.
+let moderationsCreees = 0
+await parLots(moderations, 1000, async (lot) => {
+    const r = await prisma.moderation.createMany({
+        data: lot.map((l) => ({
+            id: l.id, type: l.type as TypeModeration, varianteId: varianteDe(l)!,
+            temoignageId: l.temoignageId, le: date(l),
+        })),
+        skipDuplicates: true,
+    })
+    moderationsCreees += r.count
+})
+
+const etatDesFormes = new Map<string, { masquee?: boolean; valideeDefiLe?: Date | null }>()
+for (const l of moderations) {
+    const id = varianteDe(l)!
+    const etat = etatDesFormes.get(id) ?? {}
+    if (l.type === "masquage") etat.masquee = true
+    else if (l.type === "demasquage") etat.masquee = false
+    else if (l.type === "validation_defi") etat.valideeDefiLe = date(l)
+    else if (l.type === "annulation_validation_defi") etat.valideeDefiLe = null
+    etatDesFormes.set(id, etat)
+}
+let formesModerees = 0
+for (const [id, etat] of etatDesFormes) {
+    await prisma.variante.update({ where: { id }, data: etat })
+    formesModerees++
+}
+
+console.log(`${lignesLues.length} ligne(s) lue(s) dans ${FICHIER_JOURNAL}`)
 console.log(`  mots recréés              ${lemmesRecrees}`)
 console.log(`  variantes recréées        ${variantesRecreees}`)
 console.log(`  témoignages créés         ${temoignagesCrees}\t(${actives.length} actifs dans le journal)`)
-console.log(`  événements créés          ${evenementsCrees}\t(${rejouables.length} rejouables)`)
+console.log(`  événements créés          ${evenementsCrees}\t(${evenements.length} rejouables)`)
+console.log(`  gestes de l'admin créés   ${moderationsCreees}\t(${moderations.length} rejouables)`)
+console.log(`  formes remises à leur état  ${formesModerees}`)
 const manques = [
     [lemmesIntrouvables.size, "lemme(s) introuvable(s)"],
     [variantesIntrouvables.size, "variante(s) de source introuvable(s)"],
     [communesIntrouvables.length, `village(s) introuvable(s) : ${communesIntrouvables.join(", ")}`],
+    [typesInconnus, "ligne(s) d'un type inconnu : ce script est plus ancien que le journal, non rejoué(s)"],
 ] as const
-for (const [n, quoi] of manques) if (n) console.log(`  ATTENTION ${n} ${quoi}, non rejoué(s)`)
+for (const [n, quoi] of manques) if (n) console.log(`  ATTENTION ${n} ${quoi}`)
 
 await prisma.$disconnect()

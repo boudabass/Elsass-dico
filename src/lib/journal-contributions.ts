@@ -20,10 +20,31 @@ import type { PrismaClient } from "../generated/prisma/client"
 
 export const FICHIER_JOURNAL = "data/contributions/journal.jsonl"
 
-/** Une ligne du fichier : anonyme (aucun membre), en clés naturelles. */
+/** Les gestes des membres (table `evenements_contribution`). */
+export const TYPES_EVENEMENT_JOURNAL = ["pose", "retrait", "creation", "modification"] as const
+
+/** Les gestes de l'admin (table `moderations`, 04/11/2026). */
+export const TYPES_MODERATION_JOURNAL = [
+    "masquage",
+    "demasquage",
+    "retrait_vote",
+    "validation_defi",
+    "annulation_validation_defi",
+] as const
+
+export type TypeLigneJournal = (typeof TYPES_EVENEMENT_JOURNAL)[number] | (typeof TYPES_MODERATION_JOURNAL)[number]
+
+/** Une ligne du fichier : anonyme (aucun membre), en clés naturelles.
+ *
+ *  Depuis le 04/11/2026, le fichier porte aussi les gestes de l'admin
+ *  (`masquage`, `demasquage`, `retrait_vote`, `validation_defi`,
+ *  `annulation_validation_defi`), ajoutés APRÈS les événements : le début du
+ *  fichier ne bouge pas, N8N ne voit qu'un ajout. Une ligne de modération n'a
+ *  ni village ni ancienne/nouvelle forme ; `temoignageId` y est celui du vote
+ *  retiré. Jamais l'admin qui l'a faite (`acteurId`). */
 export interface LigneJournal {
     id: string
-    type: "pose" | "retrait" | "creation" | "modification"
+    type: TypeLigneJournal
     jour: string // AAAA-MM-JJ
     // `francais` et `parMembre` (28/09/2026) : un mot créé par un membre n'existe
     // dans aucune source, il faut pouvoir le recréer. Absents des lignes plus
@@ -57,7 +78,7 @@ export async function lignesDuJournal(prisma: PrismaClient): Promise<LigneJourna
         orderBy: [{ le: "asc" }, { id: "asc" }],
     })
 
-    return evenements.map((e) => ({
+    const lignesEvenements: LigneJournal[] = evenements.map((e) => ({
         id: e.id,
         type: e.type,
         jour: e.le.toISOString().slice(0, 10),
@@ -75,6 +96,40 @@ export async function lignesDuJournal(prisma: PrismaClient): Promise<LigneJourna
         ancienneForme: e.ancienneForme,
         nouvelleForme: e.nouvelleForme,
     }))
+
+    // Les gestes de l'admin, à la suite : le début du fichier reste octet pour
+    // octet le même, N8N ne voit qu'un ajout. Anonymes : `acteurId` ne sort pas.
+    const moderations = await prisma.moderation.findMany({
+        select: {
+            id: true, type: true, le: true, temoignageId: true,
+            variante: {
+                select: {
+                    cleForme: true, forme: true, article: true,
+                    lemme: { select: { cle: true, contexte: true, type: true, francais: true, parMembre: true } },
+                },
+            },
+        },
+        orderBy: [{ le: "asc" }, { id: "asc" }],
+    })
+
+    const lignesModeration: LigneJournal[] = moderations.map((m) => ({
+        id: m.id,
+        type: m.type,
+        jour: m.le.toISOString().slice(0, 10),
+        lemme: {
+            cle: m.variante.lemme.cle, contexte: m.variante.lemme.contexte, type: m.variante.lemme.type,
+            ...(m.variante.lemme.parMembre ? { francais: m.variante.lemme.francais, parMembre: true as const } : {}),
+        },
+        cleForme: m.variante.cleForme,
+        forme: m.variante.forme,
+        ...(m.variante.article ? { article: m.variante.article } : {}),
+        temoignageId: m.temoignageId,
+        commune: null,
+        ancienneForme: null,
+        nouvelleForme: null,
+    }))
+
+    return [...lignesEvenements, ...lignesModeration]
 }
 
 /** Le contenu exact du fichier. Trié et stable : deux exports sans nouveau

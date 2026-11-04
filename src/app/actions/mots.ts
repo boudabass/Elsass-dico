@@ -10,6 +10,7 @@ import { depasse, noter } from "@/lib/limite-tentatives-serveur"
 import { CONTRIBUTIONS_PAR_HEURE, MESSAGE_CONTRIBUTIONS } from "@/lib/limites-contribution-serveur"
 import { prisma } from "@/lib/prisma"
 import { adminExige, sessionActuelle } from "@/lib/session-serveur"
+import { FORME_AU_DICTIONNAIRE, MOT_VISIBLE } from "@/lib/visibilite-serveur"
 
 const UNE_HEURE_MS = 60 * 60 * 1000
 
@@ -53,11 +54,13 @@ export async function verifierMotAction(francais: string): Promise<MotExistant[]
     const cle = cleFrancais(francais)
     if (!cle) return []
 
+    // Un mot dont toutes les formes sont masquées n'existe plus pour le membre :
+    // il ne s'affiche pas, même pour dire qu'il existe déjà.
     const lemmes = await prisma.lemme.findMany({
-        where: { cle },
+        where: { AND: [{ cle }, MOT_VISIBLE] },
         select: {
             id: true, francais: true, contexte: true, type: true,
-            _count: { select: { variantes: { where: { masquee: false } } } },
+            _count: { select: { variantes: { where: FORME_AU_DICTIONNAIRE } } },
         },
         orderBy: [{ type: "asc" }, { contexte: "asc" }],
         take: 10,
@@ -98,11 +101,15 @@ export async function creerMotAction(
     const communeId = await villageDuMembre(session.membreId)
     if (!communeId) return REFUS_VILLAGE_REQUIS
 
+    // Un mot masqué occupe sa clé en base : on ne le recrée pas. Mais sa fiche
+    // n'existe plus pour le membre, donc on ne donne pas de lien, et le message
+    // ne dit rien de la modération.
     const existant = await prisma.lemme.findUnique({
         where: { cle_contexte_type: { cle, contexte, type: typeMot } },
-        select: { id: true },
+        select: { id: true, variantes: { where: FORME_AU_DICTIONNAIRE, select: { id: true }, take: 1 } },
     })
     if (existant) {
+        if (!existant.variantes.length) return { succes: false, erreur: "Ce mot existe déjà" }
         return { succes: false, erreur: "Ce mot existe déjà. Ajoute ta façon de le dire sur sa fiche", lemmeExistant: existant.id }
     }
 

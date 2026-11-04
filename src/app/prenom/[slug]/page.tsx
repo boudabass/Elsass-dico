@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import { CarteVariante } from "@/components/carte-variante";
 import { FichePublique, InvitationPublique } from "@/components/fiche-publique";
+import { estConnecte } from "@/lib/session-serveur";
 import { chargerLemmeDetaille, slugsPrenomsAttestes } from "@/lib/lemmes";
 
 // Fiche publique d'un prénom (doc 20, étape 3) — même contenu que la fiche
@@ -40,7 +41,9 @@ export default async function PrenomPage({
   params: Promise<{ slug: string }>;
 }) {
   const { slug } = await params;
-  const lemme = await chargerLemmeDetaille({ slug });
+  // Sans compte : formes publiques seulement. Un membre connecté voit le dictionnaire.
+  const connecte = await estConnecte();
+  const lemme = await chargerLemmeDetaille({ slug }, { dictionnaire: connecte });
   if (!lemme || lemme.type !== "prenom") notFound();
 
   return (

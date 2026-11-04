@@ -3670,3 +3670,73 @@ jeton long, sans détour). **Ne pas remettre le détour de renouvellement.**
   sauvegardes sur le même VPS, mot ajouté « Grand est », boucle de redirections
   à confirmer.
 - PR #111 : le correctif de « Vu le » ci-dessus.
+
+## Gérer les contributions : étape 1 (04/11/2026)
+
+- Décisions de John : un texte de membre reste **publié tout de suite** ; John
+  voit tout et agit à tout moment ; une contribution de membre **n'entre dans le
+  défi que validée par lui**. L'ancien `/admin/arbitrage` (validation avant
+  publication, supprimé le 13/09) n'est pas remis.
+- Constat : `masquee` existait et était respecté partout, mais rien ne
+  l'écrivait. « Marquer traité » ne faisait que vider la file. Une façon de dire
+  ajoutée à un mot existant n'apparaissait sur aucun écran.
+- `/admin/contributions` : gestes des membres et de l'admin dans une liste,
+  20 par page. Masquer, réafficher, retirer un vote, valider pour le défi.
+- Table `moderations` à part : `TypeEvenement` n'est pas touché, car dev et main
+  partagent la base et le client Prisma de main ne connaîtrait pas ses nouvelles
+  valeurs. Le journal exporté ajoute ces gestes, sans dire qui les a faits, et
+  `importer-contributions.mts` les rejoue.
+- **Tirage du défi sur les seules formes de source** : écart, tranches et
+  distracteurs. Sinon masquer ou valider une forme change la tranche d'un
+  village, donc la cible de tous les jours de cette tranche, y compris des défis
+  déjà publiés. Une forme de source ne se masque donc pas.
+- Reconnaître une forme de source : un témoignage avec `source_id`, jamais
+  `cree_par` nul (un compte supprimé le met à nul).
+- Limites acceptées : une forme validée peut être identique à celle d'un village
+  proposé dans la même manche (réponse ambiguë, rare, sous le contrôle de John).
+  Intégrer une nouvelle source peut toujours changer le tirage, comme avant.
+- Le même soir, décisions de John après son test (Masquer et Réafficher marchent) :
+  **pas de votes sur cet écran**, ils alourdissent la liste, donc plus de bouton
+  pour en retirer un (`retrait_vote` reste dans l'enum, sans effet) ; et **tout ce
+  qui est public ou dans le défi ne montre que les formes de source et les formes
+  validées** (accueil, `/village`, `/prenom`, jeu, posts N8N). Seul un membre
+  connecté voit tout de suite un texte non validé (`FORME_PUBLIQUE`,
+  `src/lib/visibilite-serveur.ts`, règle par défaut : un écran oublié ne montre
+  rien de trop).
+
+- **Tests sur dev (04/11, soir)**, faits sur la session admin de John :
+  - Liste : aucun vote ; filtres type et membre OK ; « Voir plus » non testé
+    (moins de 20 lignes).
+  - Validation de « Stetskopf » (forme de « têtu », Mundolsheim) : le badge
+    « Validée : publique et dans le défi » apparaît, puis l'annulation le
+    remet à « Visible par les membres seulement ».
+  - **Deux lignes `moderations` restent sur la base partagée** (dev et main),
+    faites par John : `validation_defi` et `annulation_validation_defi` sur
+    cette forme, le 04/11 à 23:25. Port 5444 fermé : pas de nettoyage. L'état
+    d'origine est retrouvé (non validée, non masquée).
+  - Aucune page publique n'affiche « Stetskopf » : « têtu » n'est ni dans la
+    vitrine (`MOTS_DE_BASE`) ni sur une fiche village. La visibilité publique
+    d'une forme validée de mot n'a donc pas pu être vérifiée.
+  - Sans compte : accueil, `/jeu` et `/village/strasbourg-67482` répondent 200.
+    La page d'un village sans nom validé (« Pas encore de nom alsacien
+    validé ») n'a pas été testée : aucune commune sans forme n'a été trouvée.
+  - Membre connecté : « laanger steehl » reste visible dans la recherche
+    (« longue tige »).
+  - Défi du jour : même n° 9 et mêmes choix sur dev et main.
+  - « Grand est » n'a pas été touchée.
+
+- **Correctifs après le test de l'étape 1 (04/11, soir)**, demandés par
+  l'orchestrateur après relecture :
+  - Carte et chiffres de l'accueil : un village ne met un point, et ne compte,
+    que s'il a une forme publique (de source ou validée). Les compteurs passent
+    aussi en formes publiques (`MOT_PUBLIC`, `FORME_PUBLIQUE`). La carte des
+    membres (`pointsCarteAction`) garde le dictionnaire :
+    `chargerPointsCarte({ dictionnaire: true })`.
+  - Libellés : bouton « Valider : peut être montrée sans compte », état
+    « Validée : peut être montrée sans compte et dans le défi ». Le tirage ne
+    change pas : il ne lit que les formes de source, et une validation ne
+    déplace aucun défi.
+  - Texte « Pas encore de nom alsacien validé pour X. » vérifié sans compte par
+    l'orchestrateur sur `/village/metz-57463` et `/village/thionville-57672`.
+  - Stetskopf absente des pages publiques : normal. Il n'y a pas de page publique
+    de mot, le dictionnaire reste réservé aux membres.

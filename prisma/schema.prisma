@@ -198,9 +198,16 @@ model Variante {
   masquee Boolean  @default(false)
   creeLe  DateTime @default(now()) @map("cree_le")
 
+  // AJOUT du 04/11/2026 — la forme entre dans le défi du jour dès qu'un
+  // modérateur la valide (ou dès qu'une source l'écrit, sans validation). Nulle
+  // pour une forme de membre non validée : elle reste au dictionnaire, hors du
+  // jeu. Règle complète dans `src/lib/visibilite-serveur.ts`.
+  valideeDefiLe DateTime? @map("validee_defi_le")
+
   temoignages  Temoignage[]
   evenements   EvenementContribution[]
   signalements Signalement[]
+  moderations  Moderation[]
 
   @@unique([lemmeId, cleForme])
   @@index([lemmeId])
@@ -317,6 +324,45 @@ model EvenementContribution {
   @@map("evenements_contribution")
 }
 
+// AJOUT du 04/11/2026 : le journal de modération, en ajout seul (comme
+// `EvenementContribution`). Un geste de l'admin sur une forme ou sur un vote y
+// laisse une ligne ; rien ne s'y modifie ni ne s'y supprime.
+//
+//   * `temoignageId` n'a pas de clé étrangère : le témoignage d'un retrait
+//     n'existe plus après le geste, et la ligne doit survivre.
+//   * `acteurId` en SET NULL : supprimer un compte modérateur anonymise ses
+//     gestes sans les effacer (CGU, article 9).
+//   * Un retrait de vote crée AUSSI l'événement `retrait` existant : la ligne
+//     ici ne sert qu'à dire que c'était un geste de l'admin.
+enum TypeModeration {
+  masquage
+  demasquage
+  retrait_vote
+  validation_defi
+  annulation_validation_defi
+
+  @@map("type_moderation")
+}
+
+model Moderation {
+  id   String         @id @default(uuid())
+  type TypeModeration
+
+  varianteId String   @map("variante_id")
+  variante   Variante @relation(fields: [varianteId], references: [id], onDelete: Cascade)
+
+  temoignageId String? @map("temoignage_id")
+
+  acteurId String? @map("acteur_id")
+  acteur   Membre? @relation("ModerationsFaites", fields: [acteurId], references: [id], onDelete: SetNull)
+
+  le DateTime @default(now())
+
+  @@index([varianteId])
+  @@index([le])
+  @@map("moderations")
+}
+
 // --- Les gens ---------------------------------------------------------------
 
 model Membre {
@@ -343,6 +389,7 @@ model Membre {
   parties      PartieJeu[]
   abonnements  AbonnementPush[]
   sessions     SessionRefresh[]
+  moderationsFaites Moderation[] @relation("ModerationsFaites")
 
   @@map("membres")
 }

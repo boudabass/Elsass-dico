@@ -34,7 +34,8 @@ import { chargerLemmeDetaille } from "@/lib/lemmes"
 const URL_JEU = "https://elsass-dico.theelsassisch.com/jeu"
 
 /** La révélation complète d'un défi déjà clos : ses 5 villages, chacun avec
- *  toutes ses formes attestées et ce qui les fonde. Jamais appelée sur un
+ *  ses formes DU DÉFI (source ou validée, jamais une forme de membre encore
+ *  non validée, 04/11/2026) et ce qui les fonde. Jamais appelée sur un
  *  défi encore en cours — les deux appelants ci-dessous le garantissent
  *  chacun à sa façon avant d'y arriver. */
 async function reveleDefi(jour: string) {

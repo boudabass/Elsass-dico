@@ -19,6 +19,7 @@ import { chargerPointsCarte } from "@/lib/villages"
 import type { FormeApercu } from "@/lib/dictionnaire"
 import { apercusParLemme } from "@/lib/lemmes"
 import { prisma } from "@/lib/prisma"
+import { FORME_PUBLIQUE, MOT_PUBLIC } from "@/lib/visibilite-serveur"
 
 export interface ApercuCarte {
     largeur: number
@@ -92,21 +93,29 @@ function trace(lignes: number[][][], fermer: boolean): string {
 const FRAICHEUR_MS = 60 * 60 * 1000
 let cache: { valeur: ApercuAccueil; datee: number } | null = null
 
+/** Oublie l'aperçu lu : appelé par la modération, comme `viderReserve()`. */
+export function viderCacheAccueil(): void {
+    cache = null
+}
+
 /** Relu au plus une fois par heure, comme la réserve du jeu : la home est la
- *  page la plus vue, et ces chiffres ne bougent qu'à une contribution. */
+ *  page la plus vue, et ces chiffres ne bougent qu'à une contribution.
+ *  Chiffres et points : formes publiques seulement, comme tout ce que voit
+ *  un visiteur sans compte. */
 export async function chargerApercuAccueil(): Promise<ApercuAccueil> {
     if (cache && Date.now() - cache.datee < FRAICHEUR_MS) return cache.valeur
 
     const [brut, { points, nbFormes: nbFormesVillages }, nbMots, nbFormes, lemmeExemple] = await Promise.all([
         readFile(join(process.cwd(), "public/carte/contours.topojson"), "utf8"),
         chargerPointsCarte(),
-        prisma.lemme.count(),
-        prisma.variante.count({ where: { masquee: false } }),
+        prisma.lemme.count({ where: MOT_PUBLIC }),
+        prisma.variante.count({ where: FORME_PUBLIQUE }),
         prisma.lemme.findUnique({
             where: { cle_contexte_type: EXEMPLE },
             select: { id: true, francais: true },
         }),
     ])
+    // Formes publiques (de source ou validées) : l'aperçu est vu sans compte.
     const formesExemple = lemmeExemple ? ((await apercusParLemme([lemmeExemple.id])).get(lemmeExemple.id) ?? []) : []
 
     const topo = JSON.parse(brut) as Topo

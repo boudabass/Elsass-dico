@@ -42,7 +42,7 @@ async function reveleDefi(jour: string) {
     const manches = await manchesDuJour(jour)
     const villages = await Promise.all(
         manches.map(async (manche) => {
-            const lemme = await chargerLemmeDetaille({ communeId: manche.communeId }, { defi: true })
+            const lemme = await chargerLemmeDetaille({ communeId: manche.communeId })
             if (!lemme?.commune) return null
             return {
                 village: {

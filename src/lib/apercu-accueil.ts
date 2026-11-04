@@ -113,6 +113,7 @@ export async function chargerApercuAccueil(): Promise<ApercuAccueil> {
             select: { id: true, francais: true },
         }),
     ])
+    // Formes publiques (de source ou validées) : l'aperçu est vu sans compte.
     const formesExemple = lemmeExemple ? ((await apercusParLemme([lemmeExemple.id])).get(lemmeExemple.id) ?? []) : []
 
     const topo = JSON.parse(brut) as Topo

@@ -1,9 +1,9 @@
 // Ce que l'écran Contributions de l'admin manipule (04/11/2026). Pas d'accès à la
 // base ici : ce fichier est importé par l'écran, donc par le navigateur.
 //
-// Décisions de John du 04/11 : un texte de membre reste publié tout de suite,
+// Décisions de John du 04/11 : un texte de membre est visible tout de suite pour les membres connectés,
 // John voit tout et peut agir à tout moment, rien n'est effacé. Une forme de
-// membre n'entre dans le défi que si elle a été validée.
+// membre n'est publique, ni dans le défi, que si elle a été validée.
 
 /** Vingt lignes par page, puis « Voir plus » : jamais de liste infinie. */
 export const TAILLE_PAGE_CONTRIBUTIONS = 20
@@ -44,7 +44,7 @@ export const LIBELLES_CONTRIBUTION: Record<TypeContribution, string> = {
     masquage: "Forme masquée",
     demasquage: "Forme réaffichée",
     retrait_vote: "Vote retiré par l'admin",
-    validation_defi: "Forme validée pour le défi",
+    validation_defi: "Forme validée : publique et dans le défi",
     annulation_validation_defi: "Validation annulée",
 }
 
@@ -60,7 +60,7 @@ export interface LigneContribution {
     membre: string | null
     membreId: string | null
     varianteId: string
-    /** Une forme de source écrite : elle est déjà dans le défi, rien à valider. */
+    /** Une forme de source écrite : elle est déjà publique et dans le défi, rien à valider. */
     source: boolean
     /** Le village du geste (ou de la création de la forme pour un geste admin). */
     village: string | null

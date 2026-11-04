@@ -63,7 +63,8 @@ export async function rechercherAction(terme: string): Promise<LemmeResume[]> {
 
     if (!lignes.length) return []
 
-    const apercus = await apercusParLemme(lignes.map((l) => l.id))
+    // Membres seulement (garde ci-dessus) : le dictionnaire complet.
+    const apercus = await apercusParLemme(lignes.map((l) => l.id), { dictionnaire: true })
 
     return lignes.map((l) => {
         const formes = apercus.get(l.id) ?? []
@@ -82,11 +83,15 @@ export async function rechercherAction(terme: string): Promise<LemmeResume[]> {
 /** La fiche d'un mot : toutes ses variantes, et pour chacune ce qui la fonde —
  *  sources écrites d'un côté, villages de l'autre. Jamais additionnés.
  *  Chargée par id — c'est le chemin authentifié (/entree/[id]) ; les fiches
- *  publiques (/village, /prenom) appellent `chargerLemmeDetaille()` directement.
+ *  publiques (/village, /prenom) appellent `chargerLemmeDetaille()` directement. Par défaut, c'est le dictionnaire
+ *  complet (chemin membre) ; passer `{}` pour les seules formes publiques.
  *
  *  Ajoute `monVote` sur chaque variante quand une session existe — c'est ce qui
  *  distingue ce chemin du chemin public, qui ne connaît aucun membre. */
-export async function chargerLemme(id: string, options: OptionsFiche = {}): Promise<LemmeDetaille | null> {
+export async function chargerLemme(
+    id: string,
+    options: OptionsFiche = { dictionnaire: true },
+): Promise<LemmeDetaille | null> {
     // Lecture réservée aux membres (02/10/2026, cf. `estConnecte()`).
     const session = await sessionActuelle()
     if (!session) return null

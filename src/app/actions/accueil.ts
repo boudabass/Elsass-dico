@@ -4,7 +4,7 @@ import { RECHERCHE_MAX, type LemmeResume } from "@/lib/dictionnaire"
 import { MOTS_DE_BASE } from "@/lib/mots-de-base"
 import { apercusParLemme } from "@/lib/lemmes"
 import { prisma } from "@/lib/prisma"
-import { MOT_VISIBLE, motVisibleSql } from "@/lib/visibilite-serveur"
+import { MOT_PUBLIC, formePubliqueSql, motPubliqueSql } from "@/lib/visibilite-serveur"
 
 // Ce que la home publique (`/`, non connectée) montre pour donner un aperçu
 // réel du dico, retour de John du 18/09/2026 : la page ne disait jusque-là que
@@ -19,6 +19,8 @@ import { MOT_VISIBLE, motVisibleSql } from "@/lib/visibilite-serveur"
 //     `/recherche` et le login.
 //
 // Aucune des deux n'exige de session : c'est tout le sens de cet écran.
+// Et elles ne montrent que les formes PUBLIQUES (de source ou validées) : une
+// forme de membre encore en attente ne sort jamais d'ici (04/11/2026).
 
 // --- Vitrine de mots de base --------------------------------------------------
 //
@@ -26,13 +28,13 @@ import { MOT_VISIBLE, motVisibleSql } from "@/lib/visibilite-serveur"
 // jeu (25/09/2026).
 const MOTS_VITRINE = MOTS_DE_BASE
 
-/** La vitrine de la home publique : quelques mots de base, avec leurs vraies
- *  formes et ce qui les fonde. Jamais de traduction codée en dur (règle 1) —
+/** La vitrine de la home publique : quelques mots de base, avec leurs formes
+ *  publiques et ce qui les fonde. Jamais de traduction codée en dur (règle 1) —
  *  seules les CLÉS de recherche sont fixées ici, les formes viennent de la
  *  base à chaque appel. */
 export async function motsVitrineAction(): Promise<LemmeResume[]> {
     const lemmes = await prisma.lemme.findMany({
-        where: { AND: [{ OR: MOTS_VITRINE.map((m) => ({ cle: m.cle, contexte: m.contexte, type: m.type })) }, MOT_VISIBLE] },
+        where: { AND: [{ OR: MOTS_VITRINE.map((m) => ({ cle: m.cle, contexte: m.contexte, type: m.type })) }, MOT_PUBLIC] },
         select: { id: true, francais: true, contexte: true, type: true, cle: true },
     })
 
@@ -78,8 +80,8 @@ interface LigneSuggestion {
 const LIMITE = 8
 
 /** Recherche restreinte aux deux collections déjà publiques sans compte : les
- *  communes qui ont une forme attestée (`/village/[slug]`) et les prénoms
- *  attestés (`/prenom/[slug]`). Jamais le reste du dictionnaire — c'est ce qui
+ *  communes qui ont une forme publique (`/village/[slug]`) et les prénoms
+ *  publics (`/prenom/[slug]`). Jamais le reste du dictionnaire — c'est ce qui
  *  distingue cette action de `rechercherAction()`, réservée aux membres. */
 export async function rechercherAccueilAction(terme: string): Promise<SuggestionAccueil[]> {
     const requete = terme.trim()
@@ -99,7 +101,7 @@ export async function rechercherAccueilAction(terme: string): Promise<Suggestion
           AND EXISTS (
               SELECT 1 FROM lemmes l
               JOIN variantes v ON v.lemme_id = l.id
-              WHERE l.commune_id = c.id AND v.masquee = false
+              WHERE l.commune_id = c.id AND ${formePubliqueSql("v")}
           )
         UNION ALL
         SELECT l.slug, l.francais AS label, 'prenom' AS type, NULL AS "sousLabel",
@@ -108,7 +110,7 @@ export async function rechercherAccueilAction(terme: string): Promise<Suggestion
         FROM lemmes l, t
         WHERE l.type = 'prenom' AND l.slug IS NOT NULL
           AND immutable_unaccent(lower(l.francais)) LIKE '%' || t.q || '%'
-          AND ${motVisibleSql("l")}
+          AND ${motPubliqueSql("l")}
         ORDER BY score DESC, label ASC
         LIMIT ${LIMITE}
     `

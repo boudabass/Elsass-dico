@@ -28,9 +28,9 @@ import {
 } from "@/lib/moderation";
 
 // Les formes créées ou corrigées par les membres, et les gestes de l'admin, dans
-// une seule liste (04/11/2026). Décisions de John : un texte de membre reste
-// publié tout de suite ; John voit tout et peut agir à tout moment ; rien n'est
-// effacé. Une forme entre dans le défi si elle vient d'une source ou si tu la
+// une seule liste (04/11/2026). Décisions de John : un texte de membre est visible
+// tout de suite pour les membres connectés ; John voit tout et peut agir à tout moment ; rien n'est
+// effacé. Une forme est publique et entre dans le défi si elle vient d'une source ou si tu la
 // valides ici. Les votes ne se gèrent pas sur cet écran.
 
 /** Où l'on note la dernière visite, pour le filtre « depuis ma dernière visite ». */
@@ -148,9 +148,9 @@ export default function AdminContributionsPage() {
                     <CardHeader>
                         <CardTitle>Ce qui se passe chez les membres</CardTitle>
                         <CardDescription>
-                            Un texte de membre est publié tout de suite. Le défi et l&apos;accueil ne montrent
-                            que les formes de source et celles que tu valides ici. Tu peux masquer une forme,
-                            la réafficher, ou la valider pour le défi et l&apos;accueil. Rien n&apos;est
+                            Un texte de membre est visible tout de suite pour les membres connectés. Le public
+                            et le défi ne le voient qu&apos;après ta validation. Tu peux masquer une forme,
+                            la réafficher, ou la valider pour le public et le défi. Rien n&apos;est
                             effacé : chaque geste reste dans la liste.
                         </CardDescription>
                     </CardHeader>
@@ -279,12 +279,12 @@ export default function AdminContributionsPage() {
                                             {l.validee && (
                                                 <span className="inline-flex items-center gap-1 rounded-full border border-emerald-700 px-2.5 py-0.5 text-emerald-700 dark:border-emerald-400 dark:text-emerald-400">
                                                     <CheckCircle2 className="h-3.5 w-3.5" aria-hidden />
-                                                    Validée pour le défi et l&apos;accueil
+                                                    Validée : publique et dans le défi
                                                 </span>
                                             )}
                                             {!l.masquee && !l.validee && !l.source && l.membre && (
                                                 <span className="rounded-full border border-border px-2.5 py-0.5 text-muted-foreground">
-                                                    Au dictionnaire, pas dans le défi ni l&apos;accueil
+                                                    Visible par les membres seulement
                                                 </span>
                                             )}
                                             {l.acteur && (
@@ -327,11 +327,11 @@ export default function AdminContributionsPage() {
                                                         className="h-11"
                                                         disabled={enCours !== null}
                                                         onClick={() =>
-                                                            executer(`valider-${l.varianteId}`, () => validerPourDefiAction(l.varianteId), "Forme validée pour le défi")
+                                                            executer(`valider-${l.varianteId}`, () => validerPourDefiAction(l.varianteId), "Forme validée : publique et dans le défi")
                                                         }
                                                     >
                                                         <CheckCircle2 />
-                                                        {occupe(`valider-${l.varianteId}`) ? "…" : "Valider pour le défi et l'accueil"}
+                                                        {occupe(`valider-${l.varianteId}`) ? "…" : "Valider pour le public et le défi"}
                                                     </Button>
                                                 )}
                                                 {!l.source && l.validee && (

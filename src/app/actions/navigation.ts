@@ -127,7 +127,8 @@ export async function lemmesParLettreAction(lettre: string, page = 1, filtreBrut
         LIMIT ${TAILLE_PAGE} OFFSET ${offset}
     `
 
-    const apercus = await apercusParLemme(lignes.map((l) => l.id))
+    // Membres seulement (garde de `lemmesParLettreAction`) : le dictionnaire complet.
+    const apercus = await apercusParLemme(lignes.map((l) => l.id), { dictionnaire: true })
 
     return {
         lemmes: lignes.map((l) => {

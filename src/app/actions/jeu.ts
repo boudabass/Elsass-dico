@@ -302,13 +302,13 @@ async function publier(partie: {
 // Les formes d'un village TELLES QU'ELLES SONT AU DÉFI (04/11/2026) : une forme
 // de membre non validée ne sort jamais du jeu, ni en manche ni en révélation.
 async function formesDe(communeId: number): Promise<string[]> {
-    const lemme = await chargerLemmeDetaille({ communeId }, { defi: true })
+    const lemme = await chargerLemmeDetaille({ communeId })
     return lemme?.variantes.map((v) => v.forme) ?? []
 }
 
 async function reveler(manche: MancheStockee): Promise<Revelation> {
     const [lemme, commune] = await Promise.all([
-        chargerLemmeDetaille({ communeId: manche.communeId }, { defi: true }),
+        chargerLemmeDetaille({ communeId: manche.communeId }),
         prisma.commune.findUniqueOrThrow({
             where: { id: manche.communeId },
             select: { nom: true, slug: true, departement: true, latitude: true, longitude: true },
@@ -341,7 +341,7 @@ export async function motChezToiAction(mode: "jour" | "libre"): Promise<LemmeDet
         where: { cle_contexte_type: { cle, contexte, type } },
         select: { id: true },
     })
-    // Fin de partie : seulement les formes du défi, comme le reste du jeu.
-    return lemme ? chargerLemme(lemme.id, { defi: true }) : null
+    // Fin de partie : seulement les formes publiques, comme le reste du jeu.
+    return lemme ? chargerLemme(lemme.id, {}) : null
 }
 

@@ -7,13 +7,15 @@
 
 import type { FormeApercu, LemmeDetaille, VarianteDetaillee } from "@/lib/dictionnaire"
 import { prisma } from "@/lib/prisma"
-import { FORME_AU_DEFI, FORME_AU_DICTIONNAIRE, MOT_VISIBLE } from "@/lib/visibilite-serveur"
+import { FORME_AU_DICTIONNAIRE, FORME_PUBLIQUE, MOT_PUBLIC } from "@/lib/visibilite-serveur"
 import type { Prisma } from "@/generated/prisma/client"
 
 export interface OptionsFiche {
-    /** Ne garder que les formes du défi (`FORME_AU_DEFI`), jamais celles du
-     *  seul dictionnaire. Le jeu, la fin de partie et la route N8N le demandent. */
-    defi?: boolean
+    /** Le dictionnaire complet : formes non masquées, validées ou non. Réservé
+     *  aux membres connectés, qui y retrouvent ce qu'ils viennent d'écrire.
+     *  Sans cette option, seules les formes PUBLIQUES sortent (de source ou
+     *  validées) : c'est ce que voit un visiteur sans compte. */
+    dictionnaire?: boolean
 }
 
 /** La fiche d'un lemme : toutes ses variantes, et pour chacune ce qui la
@@ -25,7 +27,7 @@ export interface OptionsFiche {
  *  depuis la page village.
  *
  *  Renvoie `null` quand il ne reste aucune forme à montrer (toutes masquées,
- *  ou, pour le défi, aucune forme de source ni validée) : la page répond
+ *  hors dictionnaire, aucune forme de source ni validée) : la page répond
  *  « introuvable », sans erreur. */
 export async function chargerLemmeDetaille(
     where: Prisma.LemmeWhereUniqueInput,
@@ -40,7 +42,7 @@ export async function chargerLemmeDetaille(
             type: true,
             commune: { select: { id: true, nom: true, slug: true, departement: true } },
             variantes: {
-                where: options.defi ? FORME_AU_DEFI : FORME_AU_DICTIONNAIRE,
+                where: options.dictionnaire ? FORME_AU_DICTIONNAIRE : FORME_PUBLIQUE,
                 select: {
                     id: true,
                     forme: true,
@@ -107,14 +109,13 @@ export async function chargerLemmeDetaille(
     }
 }
 
-/** Les prénoms qui ont une forme alsacienne visible — ce que
+/** Les prénoms qui ont une forme publique (source ou validée), ce que
  *  `generateStaticParams` de /prenom/[slug] pré-rend (doc 20, étape 3). Tout
- *  lemme `prenom` porte un slug (`scripts/deriver.mts`) ; le filtre sur
- *  `variantes` est défensif, pour le jour où une modération en aurait masqué
- *  la dernière. */
+ *  lemme `prenom` porte un slug (`scripts/deriver.mts`). Un prénom sans forme
+ *  publique n'a pas de page : il n'est ni pré-rendu, ni ouvert. */
 export async function slugsPrenomsAttestes(): Promise<string[]> {
     const lemmes = await prisma.lemme.findMany({
-        where: { AND: [{ type: "prenom", slug: { not: null } }, MOT_VISIBLE] },
+        where: { AND: [{ type: "prenom", slug: { not: null } }, MOT_PUBLIC] },
         select: { slug: true },
     })
     return lemmes.map((l) => l.slug!)
@@ -125,11 +126,14 @@ export async function slugsPrenomsAttestes(): Promise<string[]> {
  *  Une liste de 30 résultats qui interroge la base une fois par ligne, c'est 31
  *  allers-retours pour un écran — et ce projet tourne sur un VPS sans limite CPU
  *  ni rate limiting (audit du 30/08/2026). */
-export async function apercusParLemme(ids: string[]): Promise<Map<string, FormeApercu[]>> {
+export async function apercusParLemme(
+    ids: string[],
+    options: OptionsFiche = {},
+): Promise<Map<string, FormeApercu[]>> {
     if (!ids.length) return new Map()
 
     const variantes = await prisma.variante.findMany({
-        where: { lemmeId: { in: ids }, masquee: false },
+        where: { lemmeId: { in: ids }, ...(options.dictionnaire ? FORME_AU_DICTIONNAIRE : FORME_PUBLIQUE) },
         select: {
             lemmeId: true,
             forme: true,

@@ -11,7 +11,7 @@
 // que le membre ait répondu.
 
 import { prisma } from "@/lib/prisma"
-import { formeDefiSql, formeSourceSql } from "@/lib/visibilite-serveur"
+import { formePubliqueSql, formeSourceSql } from "@/lib/visibilite-serveur"
 
 // --- Le calendrier ------------------------------------------------------------
 
@@ -195,7 +195,7 @@ export function viderReserve(): void {
 /** Les villages jouables, relus au plus une fois par heure. Un village n'y entre
  *  que s'il a une forme de source non masquée. Le tirage (écart, tranches,
  *  distracteurs) ne lit que ces formes de source ; `formes` (ce qu'on montre)
- *  prend en plus les formes validées pour le défi (`formeDefiSql`). */
+ *  prend en plus les formes publiques (`formePubliqueSql`). */
 export async function chargerReserve(): Promise<Reserve> {
     if (reserve && Date.now() - reserve.datee < FRAICHEUR_RESERVE_MS) return reserve.valeur
 
@@ -221,7 +221,7 @@ export async function chargerReserve(): Promise<Reserve> {
         }[]
     >`
         SELECT c.id, c.nom, c.departement, c.latitude, c.longitude,
-               array_agg(v.forme ORDER BY v.forme) FILTER (WHERE ${formeDefiSql("v")}) AS formes,
+               array_agg(v.forme ORDER BY v.forme) FILTER (WHERE ${formePubliqueSql("v")}) AS formes,
                array_agg(v.forme ORDER BY v.forme) FILTER (WHERE ${formeSourceSql("v")}) AS "formesSource",
                array_agg(v.cle_forme ORDER BY v.forme) FILTER (WHERE ${formeSourceSql("v")}) AS cles
         FROM lemmes l

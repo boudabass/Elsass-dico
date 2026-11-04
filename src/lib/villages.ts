@@ -4,7 +4,8 @@
 // second modèle, c'est le lemme rattaché à la commune (`Lemme.communeId`,
 // unique) vu depuis l'autre bout. Une commune n'a donc au plus qu'un lemme.
 
-import { chargerLemmeDetaille } from "@/lib/lemmes"
+import { chargerLemmeDetaille, type OptionsFiche } from "@/lib/lemmes"
+import { FORME_PUBLIQUE } from "@/lib/visibilite-serveur"
 import { prisma } from "@/lib/prisma"
 import type { LemmeDetaille } from "@/lib/dictionnaire"
 import type { PointCarte, PointsCarte } from "@/app/actions/carte"
@@ -22,7 +23,8 @@ export interface VillageDetaille {
     lemme: LemmeDetaille | null
 }
 
-export async function chargerVillage(slug: string): Promise<VillageDetaille | null> {
+/** Par défaut, seules les formes publiques ; `dictionnaire: true` pour un membre connecté. */
+export async function chargerVillage(slug: string, options: OptionsFiche = {}): Promise<VillageDetaille | null> {
     const commune = await prisma.commune.findUnique({
         where: { slug },
         select: {
@@ -39,7 +41,7 @@ export async function chargerVillage(slug: string): Promise<VillageDetaille | nu
 
     // `communeId` est `@unique` sur Lemme : au plus une ligne.
     const idLemme = commune.lemmes[0]?.id
-    const lemme = idLemme ? await chargerLemmeDetaille({ id: idLemme }) : null
+    const lemme = idLemme ? await chargerLemmeDetaille({ id: idLemme }, options) : null
 
     return {
         id: commune.id,
@@ -52,13 +54,13 @@ export async function chargerVillage(slug: string): Promise<VillageDetaille | nu
     }
 }
 
-/** Les communes qui ont au moins une forme alsacienne attestée — celles que
+/** Les communes qui ont au moins une forme publique (source ou validée) : celles que
  *  `generateStaticParams` pré-rend, les seules indexables (doc 20, étape 3).
  *  819 sur 1 605 au 13/09/2026 (cf. 21-REPRISE.md) ; les autres restent
  *  joignables à l'URL, rendues à la demande, en `noindex`. */
 export async function slugsVillagesAttestes(): Promise<string[]> {
     const communes = await prisma.commune.findMany({
-        where: { lemmes: { some: { variantes: { some: { masquee: false } } } } },
+        where: { lemmes: { some: { variantes: { some: FORME_PUBLIQUE } } } },
         select: { slug: true },
     })
     return communes.map((c) => c.slug)

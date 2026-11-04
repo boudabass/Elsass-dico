@@ -20,7 +20,7 @@ type Resultat = { succes: true } | { succes: false; erreur: string }
 
 const REFUS = { succes: false, erreur: "Réservé aux administrateurs" } as const
 
-/** Ce qui change dans le défi doit se voir tout de suite sur cette instance,
+/** Ce qui change dans le public ou le défi doit se voir tout de suite sur cette instance,
  *  et sur les pages qui montrent le jeu et l'accueil. */
 function rafraichirDefi(): void {
     viderReserve()
@@ -76,7 +76,7 @@ export async function masquerFormeAction(varianteId: string): Promise<Resultat> 
         select: { id: true, temoignages: { where: { sourceId: { not: null } }, select: { id: true }, take: 1 } },
     })
     if (!v) return { succes: false, erreur: "Cette forme n'existe plus" }
-    if (v.temoignages.length) return { succes: false, erreur: "Une forme de source ne se masque pas : elle vient d'une source écrite et sert au défi" }
+    if (v.temoignages.length) return { succes: false, erreur: "Une forme de source ne se masque pas : elle vient d'une source écrite, elle est publique et sert au défi" }
 
     // `updateMany` avec la condition dans le WHERE : deux clics simultanés ne
     // journalisent pas deux fois le même masquage.
@@ -110,7 +110,7 @@ export async function reafficherFormeAction(varianteId: string): Promise<Resulta
 
 // --- Valider une forme pour le défi -------------------------------------------
 
-/** Une forme de membre entre dans le défi. Refusé sur une forme de source :
+/** Une forme de membre devient publique et entre dans le défi. Refusé sur une forme de source :
  *  elle y est déjà. */
 export async function validerPourDefiAction(varianteId: string): Promise<Resultat> {
     const admin = await adminExige()
@@ -121,7 +121,7 @@ export async function validerPourDefiAction(varianteId: string): Promise<Resulta
         select: { id: true, temoignages: { where: { sourceId: { not: null } }, select: { id: true }, take: 1 } },
     })
     if (!v) return { succes: false, erreur: "Cette forme n'existe plus" }
-    if (v.temoignages.length) return { succes: false, erreur: "Une forme de source est déjà dans le défi" }
+    if (v.temoignages.length) return { succes: false, erreur: "Une forme de source est déjà publique et dans le défi" }
 
     const fait = await prisma.$transaction(async (tx) => {
         const { count } = await tx.variante.updateMany({
@@ -132,7 +132,7 @@ export async function validerPourDefiAction(varianteId: string): Promise<Resulta
         await tx.moderation.create({ data: { type: "validation_defi", varianteId, acteurId: admin.membreId } })
         return true
     })
-    if (!fait) return { succes: false, erreur: "Cette forme est déjà validée pour le défi" }
+    if (!fait) return { succes: false, erreur: "Cette forme est déjà validée" }
 
     rafraichirDefi()
     return { succes: true }
@@ -151,7 +151,7 @@ export async function annulerValidationDefiAction(varianteId: string): Promise<R
         await tx.moderation.create({ data: { type: "annulation_validation_defi", varianteId, acteurId: admin.membreId } })
         return true
     })
-    if (!fait) return { succes: false, erreur: "Cette forme n'est pas validée pour le défi" }
+    if (!fait) return { succes: false, erreur: "Cette forme n'est pas validée" }
 
     rafraichirDefi()
     return { succes: true }

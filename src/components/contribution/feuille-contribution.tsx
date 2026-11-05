@@ -7,11 +7,14 @@ import { toast } from "sonner";
 
 import { monVillageAction } from "@/app/actions/membres";
 import { creerMotAction, verifierMotAction, type MotExistant, type TypeMotMembre } from "@/app/actions/mots";
+import { enregistrerNomAction, monNomAction } from "@/app/actions/nom";
 import { chargerLemme, rechercherAction } from "@/app/actions/recherche";
 import { creerVarianteAction } from "@/app/actions/variantes";
 import { remplacerVillageVoteAction, voterPourVarianteAction } from "@/app/actions/votes";
+import { useAuth } from "@/components/auth-provider";
 import { BadgeConfiance } from "@/components/badge-confiance";
 import { Checkbox } from "@/components/ui/checkbox";
+import { decouperNom } from "@/lib/nom";
 import {
     ChampForme,
     VALEUR_VIDE,
@@ -152,6 +155,14 @@ function Parcours({
                 : VALEUR_VIDE,
     );
     const [envoi, demarrer] = useTransition();
+    /** Le serveur a refusé le texte faute de nom confirmé. Le bloc du nom
+     *  s'ouvre à la place du bouton, et le texte reste dans la feuille. */
+    const [besoinNom, setBesoinNom] = useState(false);
+    /** Le nom du membre, lu à l'ouverture : tant qu'il n'est pas confirmé, le
+     *  bloc du nom s'affiche dès le récapitulatif. */
+    const [nomEtat, setNomEtat] = useState<{ nom: string | null; confirme: boolean } | null>(null);
+    const nomManquant = nomEtat !== null && !nomEtat.confirme;
+    const { session } = useAuth();
 
     // Le village d'abord : sans lui, rien ne se publie (un vote = un village).
     useEffect(() => {
@@ -164,6 +175,7 @@ function Parcours({
                 setEtape("village");
             }
         });
+        monNomAction().then((n) => { if (actif) setNomEtat(n); });
         return () => { actif = false; };
         // eslint-disable-next-line react-hooks/exhaustive-deps
     }, []);
@@ -225,6 +237,8 @@ function Parcours({
                 const res = await creerMotAction({ francais: motNouveau.francais, type: motNouveau.type, forme: saisie, insulte: motNouveau.insulte });
                 if (res.succes) {
                     reussir(`« ${motNouveau.francais} » ajouté au dictionnaire`, { lemmeId: res.lemmeId, nouveauMot: true });
+                } else if ("nomRequis" in res && res.nomRequis) {
+                    setBesoinNom(true);
                 } else if ("villageRequis" in res && res.villageRequis) {
                     allerVillage();
                 } else if ("lemmeExistant" in res && res.lemmeExistant) {
@@ -243,6 +257,8 @@ function Parcours({
             const res = await creerVarianteAction(mot.id, saisie);
             if (res.succes) {
                 reussir(`« ${formeDictionnaire(composee?.forme ?? "")} » ajoutée à ${village?.nom ?? "ton village"}`, { lemmeId: mot.id, nouveauMot: false });
+            } else if (res.nomRequis) {
+                setBesoinNom(true);
             } else if (res.villageRequis) {
                 allerVillage();
             } else {
@@ -344,12 +360,50 @@ function Parcours({
                     <p className="mt-3 text-sm text-muted-foreground">
                         Tout le monde la verra. Tu pourras la modifier tant que personne d&apos;autre ne l&apos;a ajoutée chez lui.
                     </p>
-                    <button type="button" className={cn(BOUTON_PRINCIPAL, "mt-5")} disabled={envoi || !composee} onClick={publier}>
-                        {envoi ? "Publication…" : "Publier"}
-                    </button>
+                    {besoinNom || nomManquant ? (
+                        <BlocNom
+                            nomInitial={nomEtat?.nom ?? session?.nom ?? null}
+                            onEnregistre={() => { setBesoinNom(false); setNomEtat({ nom: null, confirme: true }); publier(); }}
+                        />
+                    ) : (
+                        <button type="button" className={cn(BOUTON_PRINCIPAL, "mt-5")} disabled={envoi || !composee} onClick={publier}>
+                            {envoi ? "Publication…" : "Publier"}
+                        </button>
+                    )}
                 </Cadre>
             );
     }
+}
+
+/** Le prénom et le nom, demandés sur place quand le texte est refusé faute de
+ *  nom confirmé. Pré-remplis avec le nom enregistré, qui peut venir d'Odoo. */
+function BlocNom({ nomInitial, onEnregistre }: { nomInitial: string | null; onEnregistre: () => void }) {
+    const depart = decouperNom(nomInitial);
+    const [prenom, setPrenom] = useState(depart.prenom);
+    const [nomFamille, setNomFamille] = useState(depart.nomFamille);
+    const [envoi, demarrer] = useTransition();
+
+    function enregistrer() {
+        demarrer(async () => {
+            const res = await enregistrerNomAction({ prenom, nom: nomFamille });
+            if (res.succes) onEnregistre();
+            else toast.error(res.erreur);
+        });
+    }
+
+    return (
+        <div className="mt-5 rounded-lg border border-border p-3.5">
+            <p className="text-sm font-semibold text-foreground">Ton prénom et ton nom</p>
+            <p className="mt-1 text-sm text-muted-foreground">Ton nom sera affiché à côté de ce que tu ajoutes.</p>
+            <div className="mt-3 grid grid-cols-2 gap-2">
+                <input className={CHAMP} value={prenom} onChange={(e) => setPrenom(e.target.value)} placeholder="Prénom" aria-label="Prénom" autoComplete="given-name" />
+                <input className={CHAMP} value={nomFamille} onChange={(e) => setNomFamille(e.target.value)} placeholder="Nom" aria-label="Nom" autoComplete="family-name" />
+            </div>
+            <button type="button" className={cn(BOUTON_PRINCIPAL, "mt-4")} disabled={envoi} onClick={enregistrer}>
+                {envoi ? "Enregistrement…" : "Enregistrer mon nom et publier"}
+            </button>
+        </div>
+    );
 }
 
 function typeDevine(francais: string): TypeMotMembre {

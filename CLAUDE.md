@@ -129,6 +129,10 @@ VPS partagé ; `dev` et `main` **partagent la même base**.
   donnée au **navigateur ne vaut pas pour l'app installée** : les demander
   dans l'app. Un abonnement par appareil et par contexte (dédup par
   abonnement, pas par membre).
+- Odoo, vue traduite : écrire `arch_db` sur une vue traduite laisse l'ancienne
+  phrase française quand la nouvelle lui ressemble (appariement approché des
+  traductions). Vérifier la page servie avec curl ; corriger par
+  `update_field_translations` avec `field_name: arch_db` et `fr_FR`.
 
 ## Vérification (méthode qui a fait ses preuves)
 
@@ -162,7 +166,7 @@ VPS partagé ; `dev` et `main` **partagent la même base**.
   `scripts/supprimer-membre.mts` (anonymise, puis supprimer le compte Odoo).
 - Coolify via MCP : lecture seule.
 
-## État au 04/11/2026
+## État au 05/11/2026
 
 - Toutes les étapes de la refonte sont faites (dérivation, session, fiches
   publiques, admin, carte, contribution, jeu, deux sens).
@@ -228,12 +232,12 @@ VPS partagé ; `dev` et `main` **partagent la même base**.
   validée). **Tirage du défi = sources seulement** (`formeSourceSql`) : une
   validation ne déplace aucun défi publié. Une forme de source se reconnaît à
   son témoignage `source_id`, jamais à `cree_par` nul.
-- **Étape 2 en cours sur dev** (Operateur) : nom de l'auteur affiché sur son
-  texte, jamais sur un vote ; prénom + nom exigés pour écrire ; nom modifiable
-  dans Mon espace, plus écrasé par Odoo. Sur un ancien texte, le nom n'apparaît
-  qu'après confirmation par son auteur. Suivront « Écrire à ce membre », le
-  blocage, le retrait de la catégorie insulte, les CGU du site, puis la
-  notification quotidienne à John.
+- **Étape 2 « Ajouté par Prénom Nom »** : nom de l'auteur affiché sur son texte
+  (PR #113, 05/11), jamais sur un vote ; prénom + nom exigés pour écrire ; modifiable
+  dans Mon espace, plus écrasé par Odoo ; sur un ancien texte, le nom n'apparaît
+  qu'après confirmation par son auteur ; CGU et confidentialité à jour le
+  05/11. Suivront « Écrire à ce membre », le blocage, le retrait de la catégorie
+  insulte, puis la notification quotidienne à John.
 - Le compte Odoo `theelsassisch+test@gmail.com` est **gardé** (ne plus
   proposer de le supprimer). Partage par lien sur téléphone : confirmé le 09/10.
 - **Notifications du défi du jour** (Odoo 930) : abonnement par le tiroir
@@ -245,7 +249,7 @@ VPS partagé ; `dev` et `main` **partagent la même base**.
 - **`/application`** (site Odoo) : terminé le 09/10 (carte Elsass Dico vers
   `/login`, boutons d'Elsass Chat, « Vos idées », Cours et Forum).
 - **Insulte du week-end** (28/10) : un post du samedi fait par World, **pas
-  un défi** (écarté par John). Rien à faire dans le Dico ; John choisit dans
+  un défi** (écarté par John). Rien à faire dans le Dico ; John a choisi le 04/11 (173 oui, 68 non) dans
   `documentation/insultes-inventaire/a-choisir.csv` (241 publiables sur 662,
   les autres n'ont qu'un mot à mot).
 - **Prochaine session** : rien d'imposé. Les sources faibles s'intègrent

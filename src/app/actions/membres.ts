@@ -43,6 +43,7 @@ export async function listerMembresAction(): Promise<
             vuLe: true,
             commune: { select: { nom: true } },
             _count: { select: { temoignages: true } },
+            nomsAnterieurs: { select: { nom: true, le: true }, orderBy: { le: 'desc' } },
         },
         orderBy: [{ creeLe: 'asc' }],
     })
@@ -60,6 +61,7 @@ export async function listerMembresAction(): Promise<
             creeLe: m.creeLe.toISOString(),
             vuLe: m.vuLe?.toISOString() ?? null,
             nbTemoignages: m._count.temoignages,
+            nomsAnterieurs: m.nomsAnterieurs.map((n) => ({ nom: n.nom, le: n.le.toISOString() })),
         })),
     }
 }
@@ -72,6 +74,9 @@ export interface MonEspace {
     nbTemoignages: number
     /** Nombre de formes qu'il a lui-même apportées. */
     nbVariantes: number
+    /** Vrai une fois le nom confirmé. Sans lui, rien de ce qu'il ajoute ne
+     *  s'affiche avec son nom, et il ne peut pas écrire de texte. */
+    nomConfirme: boolean
 }
 
 /** Les chiffres de « Mon espace ». Lus pour le membre de la session, jamais pour
@@ -87,6 +92,7 @@ export async function monEspaceAction(): Promise<MonEspace | null> {
             email: true,
             nom: true,
             commune: { select: { nom: true } },
+            nomConfirmeLe: true,
             _count: { select: { temoignages: true, variantes: true } },
         },
     })
@@ -98,6 +104,7 @@ export async function monEspaceAction(): Promise<MonEspace | null> {
         village: membre.commune?.nom ?? null,
         nbTemoignages: membre._count.temoignages,
         nbVariantes: membre._count.variantes,
+        nomConfirme: membre.nomConfirmeLe != null,
     }
 }
 

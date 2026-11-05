@@ -372,6 +372,9 @@ model Membre {
   // signé côté app (doc 20, étape 2).
   odooUid Int?   @unique @map("odoo_uid")
   nom     String?
+  // Posé quand le membre a confirmé son prénom et son nom dans Mon espace.
+  // Sans cette trace, son nom n'est affiché nulle part (ni à côté de ses textes).
+  nomConfirmeLe DateTime? @map("nom_confirme_le")
   role    Role   @default(membre)
 
   // Village par défaut : pré-remplit le « + », il ne le décide pas.
@@ -390,6 +393,7 @@ model Membre {
   abonnements  AbonnementPush[]
   sessions     SessionRefresh[]
   moderationsFaites Moderation[] @relation("ModerationsFaites")
+  nomsAnterieurs    NomMembre[]
 
   @@map("membres")
 }
@@ -563,4 +567,18 @@ model AnomalieSource {
   @@unique([reference, type])
   @@index([reference])
   @@map("anomalies_source")
+}
+
+// Un nom remplacé par le membre : celui qu'il avait avant la modification. Le nom
+// courant reste sur `Membre.nom`. Effacé avec le membre (anonymisation).
+model NomMembre {
+  id       String   @id @default(uuid())
+  membreId String   @map("membre_id")
+  membre   Membre   @relation(fields: [membreId], references: [id], onDelete: Cascade)
+
+  nom String
+  le  DateTime @default(now())
+
+  @@index([membreId])
+  @@map("noms_membre")
 }

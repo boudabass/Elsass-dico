@@ -7,6 +7,7 @@ import { poserVariante, validerSaisie, villageDuMembre, type SaisieForme } from 
 import { cleDeForme } from "@/lib/dictionnaire"
 import { depasse, noter } from "@/lib/limite-tentatives-serveur"
 import { CONTRIBUTIONS_PAR_HEURE, MESSAGE_CONTRIBUTIONS, MESSAGE_PROPOSITIONS, PROPOSITIONS_PAR_MOT } from "@/lib/limites-contribution-serveur"
+import { MESSAGE_NOM_REQUIS, nomConfirme } from "@/lib/nom-serveur"
 import { prisma } from "@/lib/prisma"
 import { classerSaisie } from "@/lib/saisie-forme"
 import { sessionActuelle } from "@/lib/session-serveur"
@@ -34,6 +35,10 @@ type Resultat =
 export async function creerVarianteAction(lemmeId: string, saisie: SaisieForme): Promise<Resultat> {
     const session = await sessionActuelle()
     if (!session) return { succes: false, erreur: "Connecte-toi pour continuer" }
+
+    // Écrire un texte exige un nom confirmé : il s'affichera à côté. Le vote, lui,
+    // reste permis sans nom (voir votes.ts).
+    if (!(await nomConfirme(session.membreId))) return { succes: false, erreur: MESSAGE_NOM_REQUIS, nomRequis: true }
 
     const cleContribution = `contribution:${session.membreId}`
     if (depasse(cleContribution, CONTRIBUTIONS_PAR_HEURE, UNE_HEURE_MS)) {
@@ -100,11 +105,12 @@ export async function creerVarianteAction(lemmeId: string, saisie: SaisieForme):
 
 type ResultatSimple =
     | { succes: true }
-    | { succes: false; erreur: string }
+    | { succes: false; erreur: string; nomRequis?: true }
 
 export async function modifierVarianteAction(varianteId: string, saisie: SaisieForme): Promise<ResultatSimple> {
     const session = await sessionActuelle()
     if (!session) return { succes: false, erreur: "Connecte-toi pour continuer" }
+    if (!(await nomConfirme(session.membreId))) return { succes: false, erreur: MESSAGE_NOM_REQUIS, nomRequis: true }
 
     // Recomposée comme à la création (28/09/2026) : réécrire `forme` sans
     // toucher à l'article ferait échouer le CHECK sur toute forme qui en porte un.

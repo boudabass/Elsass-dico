@@ -70,6 +70,18 @@ export function CarteVariante({
         </p>
       )}
 
+      {/* data-nosnippet : le nom n'entre pas dans les extraits des moteurs de
+          recherche. Ce n'est pas une garantie absolue, seulement une précaution. */}
+      {v.ajoutePar === "ancien" && (
+        <p className="mt-1 text-sm text-muted-foreground">Ajouté par un ancien membre</p>
+      )}
+      {v.ajoutePar && v.ajoutePar !== "ancien" && (
+        <p className="mt-1 text-sm text-muted-foreground">
+          <span className="font-semibold">Ajouté par&nbsp;:</span>{" "}
+          <span className="text-foreground" data-nosnippet="">{v.ajoutePar.nom}</span>
+        </p>
+      )}
+
       {accessoire && <div className="mt-2.5">{accessoire}</div>}
     </div>
   );

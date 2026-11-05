@@ -132,6 +132,11 @@ export default function AdminPage() {
                           {m.nom && (
                             <span className="block text-xs text-muted-foreground">{m.email}</span>
                           )}
+                          {m.nomsAnterieurs.length > 0 && (
+                            <span className="block text-xs text-muted-foreground">
+                              Anciens noms : {m.nomsAnterieurs.map((n) => `${n.nom} (${dateCourte(n.le)})`).join(" · ")}
+                            </span>
+                          )}
                         </td>
                         <td className="hidden p-3 md:table-cell">{m.village ?? "Aucun"}</td>
                         {/* Des témoignages, jamais « des contributions » ni un

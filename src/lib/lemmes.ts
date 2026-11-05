@@ -16,6 +16,10 @@ export interface OptionsFiche {
      *  Sans cette option, seules les formes PUBLIQUES sortent (de source ou
      *  validées) : c'est ce que voit un visiteur sans compte. */
     dictionnaire?: boolean
+    /** Le nom de l'auteur de chaque forme ajoutée par un membre, quand il est
+     *  confirmé. Demandé seulement par les fiches qui l'affichent : le défi,
+     *  le jeu et l'API n'en reçoivent jamais. */
+    auteurs?: boolean
 }
 
 /** La fiche d'un lemme : toutes ses variantes, et pour chacune ce qui la
@@ -48,6 +52,8 @@ export async function chargerLemmeDetaille(
                     forme: true,
                     article: true,
                     formeSansArticle: true,
+                    valideeDefiLe: true,
+                    creePar: { select: { nom: true, nomConfirmeLe: true } },
                     temoignages: {
                         select: {
                             source: { select: { nom: true, url: true } },
@@ -83,6 +89,7 @@ export async function chargerLemmeDetaille(
             nbVillages: villages.size,
             sources: Array.from(sources.values()).sort((a, b) => a.nom.localeCompare(b.nom, 'fr')),
             villages: Array.from(villages.values()).sort((a, b) => a.nom.localeCompare(b.nom, 'fr')),
+            ajoutePar: auteurAffiche(v, options),
         }
     })
 
@@ -107,6 +114,33 @@ export async function chargerLemmeDetaille(
         commune: lemme.commune,
         variantes,
     }
+}
+
+/** Qui a ajouté une forme, s'il peut être montré ici. La page doit le
+ *  demander (`auteurs`) ; sans compte, seule une forme validée pour le défi
+ *  le montre ; une forme de source n'a jamais d'auteur affiché, même si un
+ *  membre l'a aussi écrite.
+ *
+ *  - `cree_par` renseigné : le nom du membre, seulement s'il l'a confirmé.
+ *  - `cree_par` nul (membre supprimé, ou base reconstruite par l'importeur,
+ *    qui ne recrée pas le lien) : « un ancien membre ». Décision de John du
+ *    04/11 : c'est un chemin de secours, il ne montre aucun nom.
+ *
+ *  Les deux cas suivent les mêmes conditions de page. */
+function auteurAffiche(
+    v: {
+        creePar: { nom: string | null; nomConfirmeLe: Date | null } | null
+        valideeDefiLe: Date | null
+        temoignages: { source: { nom: string } | null }[]
+    },
+    options: OptionsFiche,
+): { nom: string } | "ancien" | null {
+    if (!options.auteurs) return null
+    if (v.temoignages.some((t) => t.source)) return null
+    if (!options.dictionnaire && !v.valideeDefiLe) return null
+    if (!v.creePar) return "ancien"
+    if (!v.creePar.nomConfirmeLe || !v.creePar.nom) return null
+    return { nom: v.creePar.nom }
 }
 
 /** Les prénoms qui ont une forme publique (source ou validée), ce que

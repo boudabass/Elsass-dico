@@ -43,7 +43,7 @@ export default async function PrenomPage({
   const { slug } = await params;
   // Sans compte : formes publiques seulement. Un membre connecté voit le dictionnaire.
   const connecte = await estConnecte();
-  const lemme = await chargerLemmeDetaille({ slug }, { dictionnaire: connecte });
+  const lemme = await chargerLemmeDetaille({ slug }, { dictionnaire: connecte, auteurs: true });
   if (!lemme || lemme.type !== "prenom") notFound();
 
   return (

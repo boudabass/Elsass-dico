@@ -8,6 +8,7 @@ import { poserVariante, validerSaisie, villageDuMembre, type SaisieForme } from 
 import { cleFrancais, RECHERCHE_MAX } from "@/lib/dictionnaire"
 import { depasse, noter } from "@/lib/limite-tentatives-serveur"
 import { CONTRIBUTIONS_PAR_HEURE, MESSAGE_CONTRIBUTIONS } from "@/lib/limites-contribution-serveur"
+import { MESSAGE_NOM_REQUIS, nomConfirme } from "@/lib/nom-serveur"
 import { prisma } from "@/lib/prisma"
 import { adminExige, sessionActuelle } from "@/lib/session-serveur"
 import { FORME_AU_DICTIONNAIRE, MOT_VISIBLE } from "@/lib/visibilite-serveur"
@@ -72,7 +73,7 @@ export async function verifierMotAction(francais: string): Promise<MotExistant[]
 
 type ResultatMot =
     | { succes: true; lemmeId: string }
-    | { succes: false; erreur: string; lemmeExistant?: string; villageRequis?: true }
+    | { succes: false; erreur: string; lemmeExistant?: string; villageRequis?: true; nomRequis?: true }
 
 export async function creerMotAction(
     { francais, type, forme, insulte }: { francais: string; type: string; forme: SaisieForme; insulte?: boolean },
@@ -84,6 +85,9 @@ export async function creerMotAction(
     if (depasse(cleContribution, CONTRIBUTIONS_PAR_HEURE, UNE_HEURE_MS)) {
         return { succes: false, erreur: MESSAGE_CONTRIBUTIONS }
     }
+
+    // Créer un mot exige un nom confirmé, comme ajouter une forme.
+    if (!(await nomConfirme(session.membreId))) return { succes: false, erreur: MESSAGE_NOM_REQUIS, nomRequis: true }
 
     const libelle = francais.trim().replace(/\s+/g, " ")
     const cle = cleFrancais(libelle)

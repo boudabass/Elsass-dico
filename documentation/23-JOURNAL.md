@@ -3792,6 +3792,7 @@ jeton long, sans détour). **Ne pas remettre le détour de renouvellement.**
     feuille de contribution (le refus serveur est en place), le nom sur une page
     publique (se contrôlera à la première validation réelle), la limite de 3
     changements par jour.
-  - Reste : le message aux 15 membres (CGU art. 3), envoyé seulement par John.
+  - Message aux membres (CGU art. 3) : lancé par John le 05/11 depuis Email
+    Marketing d'Odoo (mailing 28, liste 5), signé « L'équipe The Elsassisch ».
   - `documentation/insultes-inventaire/a-choisir.csv` rempli par John le 04/11 :
     173 oui, 68 non.

@@ -3771,3 +3771,27 @@ jeton long, sans détour). **Ne pas remettre le détour de renouvellement.**
   - **Précaution** : l'ancien code de `main` réécrit encore `nom` à chaque
     connexion. Tant que `main` n'a pas ce code, un membre qui se connecte sur
     `main` peut voir son nom confirmé remplacé par le nom Odoo.
+
+- **Clôture de l'étape 2 (05/11/2026)**, avec l'accord de John :
+  - Le point « Ajouté par un ancien membre » ci-dessus est tranché : un texte
+    dont `cree_par` est nul affiche « Ajouté par un ancien membre » (commit
+    `24bc49c`). Le texte n'est pas réécrit.
+  - John a enregistré « Johnny Zaug » dans Mon espace. Vérifié à l'écran sur dev :
+    « Ajouté par : Johnny Zaug » sur Stetskopf, et les anciens noms dans
+    Admin > Membres.
+  - CGU (`ir.ui.view` 6479) art. 7 et 9, et confidentialité (6480) art. 5, 6 et 7,
+    publiées le 05/11 avec l'accord de John, date de mise à jour 5 novembre 2026.
+    Deux erreurs anciennes corrigées au passage : la durée du cookie de session
+    (30 jours depuis la PR #110, et non 30 minutes), et la mention de Google et
+    Apple pour les notifications.
+  - Piège rencontré : écrire `arch_db` sur une vue Odoo traduite laisse l'ancienne
+    phrase française quand la nouvelle lui ressemble (appariement approché des
+    traductions). Vérifier la page servie avec curl ; corriger par
+    `update_field_translations` avec `field_name: arch_db` et `fr_FR`.
+  - Pas testé à l'écran, relu dans le code seulement : le bloc du nom dans la
+    feuille de contribution (le refus serveur est en place), le nom sur une page
+    publique (se contrôlera à la première validation réelle), la limite de 3
+    changements par jour.
+  - Reste : le message aux 15 membres (CGU art. 3), envoyé seulement par John.
+  - `documentation/insultes-inventaire/a-choisir.csv` rempli par John le 04/11 :
+    173 oui, 68 non.

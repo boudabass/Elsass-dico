@@ -233,7 +233,7 @@ VPS partagé ; `dev` et `main` **partagent la même base**.
   validation ne déplace aucun défi publié. Une forme de source se reconnaît à
   son témoignage `source_id`, jamais à `cree_par` nul.
 - **Étape 2 « Ajouté par Prénom Nom »** : nom de l'auteur affiché sur son texte
-  (PR à venir), jamais sur un vote ; prénom + nom exigés pour écrire ; modifiable
+  (PR #113, 05/11), jamais sur un vote ; prénom + nom exigés pour écrire ; modifiable
   dans Mon espace, plus écrasé par Odoo ; sur un ancien texte, le nom n'apparaît
   qu'après confirmation par son auteur ; CGU et confidentialité à jour le
   05/11. Suivront « Écrire à ce membre », le blocage, le retrait de la catégorie

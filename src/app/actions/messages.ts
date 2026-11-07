@@ -20,7 +20,7 @@ const REFUS = { succes: false, erreur: "Réservé aux administrateurs" } as cons
 const MESSAGE_PUSH: Message = {
     titre: "Message de l'équipe The Elsassisch",
     corps: "Tu as un nouveau message dans ton espace.",
-    url: "/profile",
+    url: "/dashboard",
     tag: "message-equipe",
 }
 

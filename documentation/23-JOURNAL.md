@@ -3796,3 +3796,9 @@ jeton long, sans détour). **Ne pas remettre le détour de renouvellement.**
     Marketing d'Odoo (mailing 28, liste 5), signé « L'équipe The Elsassisch ».
   - `documentation/insultes-inventaire/a-choisir.csv` rempli par John le 04/11 :
     173 oui, 68 non.
+
+- **Correctif mobile de la page Contributions (07/11/2026)** :
+  - Cause : la liste « Type de geste » prenait la largeur de son choix le plus long (« Forme validée : peut être montrée sans compte et dans le défi », 484 px sur un écran de 375), et les boutons à long texte ne revenaient pas à la ligne (`whitespace-nowrap` de `Button`). La page faisait 525 px de large.
+  - Correction (`src/app/admin/contributions/page.tsx`) : liste en `w-full min-w-0`, grille en `grid-cols-1` sur mobile, boutons en `h-auto min-h-11 whitespace-normal`.
+  - Vérification sur dev, dans une iframe de 375 px : la page tient en 360 px (aucun défilement horizontal), les listes font 319 px, aucun bouton ne déborde.
+  - Commit `8321b44`.

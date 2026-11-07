@@ -2,6 +2,7 @@
 
 import { revalidatePath } from "next/cache"
 
+import { refusSiBloque } from "@/lib/blocage-serveur"
 import { REFUS_VILLAGE_REQUIS, type EchecContribution } from "@/lib/contribution"
 import { poserVariante, validerSaisie, villageDuMembre, type SaisieForme } from "@/lib/contribution-serveur"
 import { cleDeForme } from "@/lib/dictionnaire"
@@ -35,6 +36,9 @@ type Resultat =
 export async function creerVarianteAction(lemmeId: string, saisie: SaisieForme): Promise<Resultat> {
     const session = await sessionActuelle()
     if (!session) return { succes: false, erreur: "Connecte-toi pour continuer" }
+
+    const bloque = await refusSiBloque(session.membreId)
+    if (bloque) return { succes: false, erreur: bloque }
 
     // Écrire un texte exige un nom confirmé : il s'affichera à côté. Le vote, lui,
     // reste permis sans nom (voir votes.ts).
@@ -110,6 +114,9 @@ type ResultatSimple =
 export async function modifierVarianteAction(varianteId: string, saisie: SaisieForme): Promise<ResultatSimple> {
     const session = await sessionActuelle()
     if (!session) return { succes: false, erreur: "Connecte-toi pour continuer" }
+
+    const bloque = await refusSiBloque(session.membreId)
+    if (bloque) return { succes: false, erreur: bloque }
     if (!(await nomConfirme(session.membreId))) return { succes: false, erreur: MESSAGE_NOM_REQUIS, nomRequis: true }
 
     // Recomposée comme à la création (28/09/2026) : réécrire `forme` sans

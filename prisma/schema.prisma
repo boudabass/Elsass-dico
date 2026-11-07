@@ -375,6 +375,10 @@ model Membre {
   // Posé quand le membre a confirmé son prénom et son nom dans Mon espace.
   // Sans cette trace, son nom n'est affiché nulle part (ni à côté de ses textes).
   nomConfirmeLe DateTime? @map("nom_confirme_le")
+  // Posé par un admin (Admin > Membres). Le compte bloqué lit le dictionnaire et
+  // fait le défi, mais n'écrit plus : ni mot, ni forme, ni vote, ni signalement,
+  // ni nom. Rien de ce qu'il a déjà écrit n'est masqué ni effacé.
+  bloqueLe DateTime? @map("bloque_le")
   role    Role   @default(membre)
 
   // Village par défaut : pré-remplit le « + », il ne le décide pas.

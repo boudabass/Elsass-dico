@@ -4,8 +4,20 @@ import Link from "next/link";
 import { BookPlus, Flag, Library, ListChecks, RefreshCw, Users } from "lucide-react";
 import { toast } from "sonner";
 
-import { changerRoleAction, listerMembresAction } from "@/app/actions/membres";
+import { changerRoleAction, definirBlocageAction, listerMembresAction } from "@/app/actions/membres";
 import { AppHeader } from "@/components/app-header";
+import {
+  AlertDialog,
+  AlertDialogAction,
+  AlertDialogCancel,
+  AlertDialogContent,
+  AlertDialogDescription,
+  AlertDialogFooter,
+  AlertDialogHeader,
+  AlertDialogTitle,
+  AlertDialogTrigger,
+} from "@/components/ui/alert-dialog";
+import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { useListeAdmin } from "@/hooks/use-liste-admin";
@@ -20,13 +32,61 @@ import { LIBELLES_ROLE, ROLES, type MembreListe } from "@/lib/membres";
 //
 // Reste ce qui décide de quelque chose : voir qui est là, et changer un rôle.
 
+// Date à la main : `toLocaleDateString` ne donne pas la même barre oblique selon
+// les navigateurs (et `toLocaleString` met une espace fine que la police ne dessine pas).
 function dateCourte(iso: string | null): string {
   if (!iso) return "Inconnu";
-  return new Date(iso).toLocaleDateString("fr-FR", {
-    day: "2-digit",
-    month: "2-digit",
-    year: "numeric",
-  });
+  const d = new Date(iso);
+  const jour = String(d.getDate()).padStart(2, "0");
+  const mois = String(d.getMonth() + 1).padStart(2, "0");
+  return `${jour}/${mois}/${d.getFullYear()}`;
+}
+
+function BoutonBlocage({ membre, onFait }: { membre: MembreListe; onFait: () => void }) {
+  const estBloque = membre.bloqueLe !== null;
+  const nom = membre.nom ?? membre.email;
+
+  async function basculer() {
+    const res = await definirBlocageAction(membre.id, !estBloque);
+    if (res.succes) {
+      toast.success(res.message);
+      onFait();
+    } else {
+      toast.error(res.erreur);
+    }
+  }
+
+  return (
+    <AlertDialog>
+      <AlertDialogTrigger asChild>
+        <Button
+          variant={estBloque ? "outline" : "destructive"}
+          size="sm"
+          className="mt-2 h-auto min-h-11 whitespace-normal"
+        >
+          {estBloque ? "Débloquer" : "Bloquer"}
+        </Button>
+      </AlertDialogTrigger>
+      <AlertDialogContent>
+        <AlertDialogHeader>
+          <AlertDialogTitle>
+            {estBloque ? `Débloquer ${nom} ?` : `Bloquer ${nom} ?`}
+          </AlertDialogTitle>
+          <AlertDialogDescription>
+            {estBloque
+              ? "Son compte pourra de nouveau ajouter et modifier."
+              : "Son compte pourra encore lire le dictionnaire et faire le défi, mais il ne pourra plus rien ajouter ni modifier. Rien de ce qu'il a écrit n'est effacé."}
+          </AlertDialogDescription>
+        </AlertDialogHeader>
+        <AlertDialogFooter>
+          <AlertDialogCancel>Annuler</AlertDialogCancel>
+          <AlertDialogAction onClick={basculer}>
+            {estBloque ? "Débloquer" : "Bloquer"}
+          </AlertDialogAction>
+        </AlertDialogFooter>
+      </AlertDialogContent>
+    </AlertDialog>
+  );
 }
 
 export default function AdminPage() {
@@ -136,6 +196,16 @@ export default function AdminPage() {
                             <span className="block text-xs text-muted-foreground">
                               Anciens noms : {m.nomsAnterieurs.map((n) => `${n.nom} (${dateCourte(n.le)})`).join(" · ")}
                             </span>
+                          )}
+                          {m.bloqueLe && (
+                            <span className="block text-xs font-semibold text-destructive">
+                              Bloqué depuis le {dateCourte(m.bloqueLe)}
+                            </span>
+                          )}
+                          {/* Un admin ne se bloque pas lui-même, ni un autre admin :
+                              le serveur le refuse aussi. */}
+                          {!m.estMoi && (m.role !== "admin" || m.bloqueLe) && (
+                            <BoutonBlocage membre={m} onFait={rafraichir} />
                           )}
                         </td>
                         <td className="hidden p-3 md:table-cell">{m.village ?? "Aucun"}</td>

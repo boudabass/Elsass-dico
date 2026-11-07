@@ -31,7 +31,8 @@ const REFUS = "Réservé aux administrateurs"
 export async function listerMembresAction(): Promise<
     { succes: true; membres: MembreListe[] } | { succes: false; erreur: string }
 > {
-    if (!(await adminExige())) return { succes: false, erreur: REFUS }
+    const admin = await adminExige()
+    if (!admin) return { succes: false, erreur: REFUS }
 
     const membres = await prisma.membre.findMany({
         select: {
@@ -41,6 +42,7 @@ export async function listerMembresAction(): Promise<
             role: true,
             creeLe: true,
             vuLe: true,
+            bloqueLe: true,
             commune: { select: { nom: true } },
             _count: { select: { temoignages: true } },
             nomsAnterieurs: { select: { nom: true, le: true }, orderBy: { le: 'desc' } },
@@ -62,6 +64,8 @@ export async function listerMembresAction(): Promise<
             vuLe: m.vuLe?.toISOString() ?? null,
             nbTemoignages: m._count.temoignages,
             nomsAnterieurs: m.nomsAnterieurs.map((n) => ({ nom: n.nom, le: n.le.toISOString() })),
+            bloqueLe: m.bloqueLe?.toISOString() ?? null,
+            estMoi: m.id === admin.membreId,
         })),
     }
 }
@@ -77,6 +81,8 @@ export interface MonEspace {
     /** Vrai une fois le nom confirmé. Sans lui, rien de ce qu'il ajoute ne
      *  s'affiche avec son nom, et il ne peut pas écrire de texte. */
     nomConfirme: boolean
+    /** Posé quand un admin a bloqué ce compte : il ne peut plus écrire. */
+    bloqueLe: string | null
 }
 
 /** Les chiffres de « Mon espace ». Lus pour le membre de la session, jamais pour
@@ -93,6 +99,7 @@ export async function monEspaceAction(): Promise<MonEspace | null> {
             nom: true,
             commune: { select: { nom: true } },
             nomConfirmeLe: true,
+            bloqueLe: true,
             _count: { select: { temoignages: true, variantes: true } },
         },
     })
@@ -105,6 +112,7 @@ export async function monEspaceAction(): Promise<MonEspace | null> {
         nbTemoignages: membre._count.temoignages,
         nbVariantes: membre._count.variantes,
         nomConfirme: membre.nomConfirmeLe != null,
+        bloqueLe: membre.bloqueLe?.toISOString() ?? null,
     }
 }
 
@@ -169,4 +177,39 @@ export async function changerRoleAction(membreId: string, role: string): Promise
     // base, le rôle du jeton ne sert qu'à afficher ou non /admin.
     revalidatePath('/admin')
     return { succes: true, message: "Rôle mis à jour" }
+}
+
+// Bloquer un membre (07/11/2026) : il lit le dictionnaire et fait le défi, mais
+// n'écrit plus (voir lib/blocage-serveur.ts). Rien n'est masqué ni effacé.
+// On ne bloque ni soi-même ni un administrateur : sinon un admin pourrait se
+// retrouver sans rien pouvoir faire, ou un autre admin hors d'atteinte.
+export async function definirBlocageAction(membreId: string, bloquer: boolean): Promise<Resultat> {
+    const admin = await adminExige()
+    if (!admin) return { succes: false, erreur: REFUS }
+
+    const cible = await prisma.membre.findUnique({
+        where: { id: membreId },
+        select: { role: true, bloqueLe: true },
+    })
+    if (!cible) return { succes: false, erreur: "Membre introuvable" }
+
+    if (bloquer) {
+        if (membreId === admin.membreId) return { succes: false, erreur: "Tu ne peux pas bloquer ton propre compte" }
+        if (cible.role === "admin") return { succes: false, erreur: "On ne bloque pas un administrateur" }
+        // Déjà bloqué : on garde la date du premier blocage.
+        if (cible.bloqueLe) return { succes: true, message: "Membre déjà bloqué" }
+    }
+
+    try {
+        await prisma.membre.update({
+            where: { id: membreId },
+            data: { bloqueLe: bloquer ? new Date() : null },
+        })
+    } catch (erreur) {
+        console.error("[Membres] Blocage non enregistré:", erreur)
+        return { succes: false, erreur: "Enregistrement impossible, réessaie dans un instant" }
+    }
+
+    revalidatePath('/admin')
+    return { succes: true, message: bloquer ? "Membre bloqué" : "Membre débloqué" }
 }

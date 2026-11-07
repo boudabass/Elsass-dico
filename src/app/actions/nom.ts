@@ -1,5 +1,6 @@
 'use server'
 
+import { refusSiBloque } from "@/lib/blocage-serveur"
 import { CHANGEMENTS_NOM_PAR_JOUR, validerNom } from "@/lib/nom"
 import { prisma } from "@/lib/prisma"
 import { sessionActuelle } from "@/lib/session-serveur"
@@ -19,6 +20,9 @@ export async function enregistrerNomAction(
 ): Promise<{ succes: true } | { succes: false; erreur: string }> {
     const session = await sessionActuelle()
     if (!session) return { succes: false, erreur: "Connecte-toi pour continuer" }
+
+    const bloque = await refusSiBloque(session.membreId)
+    if (bloque) return { succes: false, erreur: bloque }
 
     const valide = validerNom(saisie.prenom, saisie.nom)
     if (!valide.ok) return { succes: false, erreur: valide.erreur }

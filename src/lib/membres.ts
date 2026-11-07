@@ -30,4 +30,8 @@ export interface MembreListe {
     /** Les noms que ce membre a remplacés, le plus récent d'abord. Visibles à
      *  l'administration seulement. */
     nomsAnterieurs: { nom: string; le: string }[]
+    /** ISO, quand un admin a bloqué ce compte. `null` : il écrit normalement. */
+    bloqueLe: string | null
+    /** Vrai pour la ligne de l'admin qui regarde la liste : il ne se bloque pas. */
+    estMoi: boolean
 }

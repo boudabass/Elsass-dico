@@ -3,6 +3,7 @@
 import { revalidatePath } from "next/cache"
 
 import type { TypeTerme } from "@/generated/prisma/client"
+import { refusSiBloque } from "@/lib/blocage-serveur"
 import { REFUS_VILLAGE_REQUIS, type EchecContribution } from "@/lib/contribution"
 import { poserVariante, validerSaisie, villageDuMembre, type SaisieForme } from "@/lib/contribution-serveur"
 import { cleFrancais, RECHERCHE_MAX } from "@/lib/dictionnaire"
@@ -80,6 +81,9 @@ export async function creerMotAction(
 ): Promise<ResultatMot | EchecContribution> {
     const session = await sessionActuelle()
     if (!session) return { succes: false, erreur: "Connecte-toi pour continuer" }
+
+    const bloque = await refusSiBloque(session.membreId)
+    if (bloque) return { succes: false, erreur: bloque }
 
     const cleContribution = `contribution:${session.membreId}`
     if (depasse(cleContribution, CONTRIBUTIONS_PAR_HEURE, UNE_HEURE_MS)) {

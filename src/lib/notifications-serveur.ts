@@ -241,10 +241,19 @@ export function messageContributions(compte: number): Message {
     }
 }
 
+/** Le message d'essai (`?essai=1`) : vérifie que la chaîne d'envoi marche, sans compte. */
+const MESSAGE_ESSAI_CONTRIBUTIONS: Message = {
+    titre: "Elsass Dico : contributions",
+    corps: "Essai : la notification du soir marche.",
+    url: "/admin/contributions",
+    tag: "admin-contributions",
+}
+
 /** L'envoi du soir. Sans rien de nouveau (compte nul), rien ne part. Sinon, un message à
  *  chaque abonnement d'un membre admin. Un envoi refusé n'est pas repris : le compte
- *  ne porte que sur les 24 dernières heures. */
-export async function annoncerContributionsAdmin({ simuler = false } = {}): Promise<BilanContributionsAdmin> {
+ *  ne porte que sur les 24 dernières heures. `essai` : n'arrête pas sur compte nul, et
+ *  envoie le message d'essai à chaque abonnement admin. */
+export async function annoncerContributionsAdmin({ simuler = false, essai = false } = {}): Promise<BilanContributionsAdmin> {
     const depuis = new Date(Date.now() - VINGT_QUATRE_HEURES_MS)
     // Les gestes de l'admin lui-même ne comptent pas : on garde les événements dont
     // l'auteur n'est pas admin, et ceux d'un compte supprimé (auteur nul).
@@ -259,7 +268,7 @@ export async function annoncerContributionsAdmin({ simuler = false } = {}): Prom
     const bilan: BilanContributionsAdmin = {
         compte, abonnes: 0, envoyes: 0, supprimes: 0, ignores: 0, erreurs: [], simule: simuler,
     }
-    if (compte === 0) return bilan
+    if (compte === 0 && !essai) return bilan
 
     const toutes = await prisma.abonnementPush.findMany({ where: { membre: { role: "admin" } } })
     const abonnements = toutes.filter((a) => endpointAccepte(a.endpoint))
@@ -271,7 +280,7 @@ export async function annoncerContributionsAdmin({ simuler = false } = {}): Prom
         return bilan
     }
 
-    const message = messageContributions(compte)
+    const message = essai ? MESSAGE_ESSAI_CONTRIBUTIONS : messageContributions(compte)
     await Promise.all(
         abonnements.map(async (a) => {
             const r = await pousser(a, message)

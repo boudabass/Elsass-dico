@@ -3,7 +3,7 @@
 import { revalidatePath } from "next/cache"
 
 import { lirePageContributions } from "@/lib/moderation-serveur"
-import { TYPES_CONTRIBUTION, type FiltresContributions, type PageContributions } from "@/lib/moderation"
+import { type FiltresContributions, type PageContributions } from "@/lib/moderation"
 import { viderCacheAccueil } from "@/lib/apercu-accueil"
 import { viderReserve } from "@/lib/jeu"
 import { Prisma } from "@/generated/prisma/client"
@@ -36,30 +36,9 @@ export async function listerContributionsAction(
 ): Promise<{ succes: true; valeur: PageContributions } | { succes: false; erreur: string }> {
     if (!(await adminExige())) return REFUS
 
-    const type = filtres.type && (TYPES_CONTRIBUTION as readonly string[]).includes(filtres.type)
-        ? filtres.type
-        : undefined
-    const depuis = filtres.depuis && !Number.isNaN(Date.parse(filtres.depuis)) ? filtres.depuis : undefined
-    const membreId = filtres.membreId?.trim() || undefined
-
-    return { succes: true, valeur: await lirePageContributions({ page: filtres.page, type, membreId, depuis }) }
-}
-
-/** Les membres qui ont créé ou corrigé une forme : ce que le filtre « Membre » propose. */
-export async function listerMembresContributeursAction(): Promise<
-    { succes: true; membres: { id: string; nom: string }[] } | { succes: false; erreur: string }
-> {
-    if (!(await adminExige())) return REFUS
-
-    const membres = await prisma.membre.findMany({
-        where: { evenements: { some: { type: { in: ["creation", "modification"] } } } },
-        select: { id: true, nom: true, email: true },
-        orderBy: { creeLe: "asc" },
-        take: 500,
-    })
     return {
         succes: true,
-        membres: membres.map((m) => ({ id: m.id, nom: m.nom ?? m.email })),
+        valeur: await lirePageContributions({ page: filtres.page, aRegarder: filtres.aRegarder === true }),
     }
 }
 

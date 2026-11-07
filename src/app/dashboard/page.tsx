@@ -13,6 +13,7 @@ import { ReglageNotifications } from "@/components/notifications-defi";
 import { useListeMemorisee } from "@/hooks/use-liste-memorisee";
 import { cleCache } from "@/lib/cache-navigation";
 import { MESSAGE_BLOQUE } from "@/lib/blocage";
+import { MessagesEquipe } from "./messages-equipe";
 import { NomProfil } from "./nom-profil";
 import { PremiersPas } from "./premiers-pas";
 import { VillageProfil } from "./village-profil";
@@ -86,6 +87,8 @@ export default function MonEspacePage() {
                             role={role}
                             village={espace?.village ?? null}
                         />
+
+                        <MessagesEquipe actif={session !== null} />
 
                         {!chargement && espace?.bloqueLe && (
                             <div className="mt-[18px] rounded-lg border border-destructive/40 bg-destructive/5 p-4">

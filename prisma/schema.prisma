@@ -399,6 +399,8 @@ model Membre {
   sessions     SessionRefresh[]
   moderationsFaites Moderation[] @relation("ModerationsFaites")
   changementsCategorieFaits ChangementCategorie[] @relation("ChangementsCategorieFaits")
+  messagesRecus  MessageMembre[] @relation("MessagesRecus")
+  messagesEnvoyes MessageMembre[] @relation("MessagesEnvoyes")
   nomsAnterieurs    NomMembre[]
 
   @@map("membres")
@@ -599,6 +601,28 @@ model ChangementCategorie {
   @@index([lemmeId])
   @@index([le])
   @@map("changements_categorie")
+}
+
+// Message de l'équipe à un membre (07/11/2026). Texte brut, 1 à 2000 caractères,
+// signé « L'équipe The Elsassisch » à l'affichage seulement.
+//
+//   * CASCADE sur le destinataire : supprimer un membre emporte les messages qu'il a reçus.
+//   * `auteurId` en SET NULL : supprimer un admin garde le message, sans auteur.
+//   * `luLe` est posé à l'ouverture de Mon espace, une seule fois.
+model MessageMembre {
+  id      String @id @default(uuid())
+  membreId String @map("membre_id")
+  membre   Membre @relation("MessagesRecus", fields: [membreId], references: [id], onDelete: Cascade)
+
+  auteurId String? @map("auteur_id")
+  auteur   Membre? @relation("MessagesEnvoyes", fields: [auteurId], references: [id], onDelete: SetNull)
+
+  texte  String
+  creeLe DateTime  @default(now()) @map("cree_le")
+  luLe   DateTime? @map("lu_le")
+
+  @@index([membreId])
+  @@map("messages_membre")
 }
 
 model NomMembre {

@@ -17,6 +17,7 @@ import {
   AlertDialogTitle,
   AlertDialogTrigger,
 } from "@/components/ui/alert-dialog";
+import { EcrireMembre } from "@/components/ecrire-membre";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
@@ -62,7 +63,7 @@ function BoutonBlocage({ membre, onFait }: { membre: MembreListe; onFait: () => 
         <Button
           variant={estBloque ? "outline" : "destructive"}
           size="sm"
-          className="mt-2 h-auto min-h-11 whitespace-normal"
+          className="h-auto min-h-11 whitespace-normal"
         >
           {estBloque ? "Débloquer" : "Bloquer"}
         </Button>
@@ -204,9 +205,18 @@ export default function AdminPage() {
                           )}
                           {/* Un admin ne se bloque pas lui-même, ni un autre admin :
                               le serveur le refuse aussi. */}
-                          {!m.estMoi && (m.role !== "admin" || m.bloqueLe) && (
-                            <BoutonBlocage membre={m} onFait={rafraichir} />
-                          )}
+                          <div className="mt-2 flex flex-wrap gap-2">
+                            {!m.estMoi && (m.role !== "admin" || m.bloqueLe) && (
+                              <BoutonBlocage membre={m} onFait={rafraichir} />
+                            )}
+                            {!m.estMoi && (
+                              <EcrireMembre membreId={m.id} nom={m.nom ?? m.email} historique>
+                                <Button variant="outline" size="sm" className="h-auto min-h-11 whitespace-normal">
+                                  Écrire à ce membre
+                                </Button>
+                              </EcrireMembre>
+                            )}
+                          </div>
                         </td>
                         <td className="hidden p-3 md:table-cell">{m.village ?? "Aucun"}</td>
                         {/* Des témoignages, jamais « des contributions » ni un

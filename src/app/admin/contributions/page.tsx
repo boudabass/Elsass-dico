@@ -15,6 +15,7 @@ import {
     validerPourDefiAction,
 } from "@/app/actions/moderation";
 import { AppHeader } from "@/components/app-header";
+import { EcrireMembre } from "@/components/ecrire-membre";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { useListeAdmin } from "@/hooks/use-liste-admin";
@@ -307,6 +308,16 @@ export default function AdminContributionsPage() {
                                                 >
                                                     {occupe(`insulte-${l.mot.id}`) ? "…" : "Ce n'est pas une insulte"}
                                                 </Button>
+                                            </div>
+                                        )}
+
+                                        {l.membreId && l.membre && (
+                                            <div className="flex flex-wrap gap-2 pt-1">
+                                                <EcrireMembre membreId={l.membreId} nom={l.membre}>
+                                                    <Button variant="outline" className="h-auto min-h-11 whitespace-normal py-2 text-left">
+                                                        Écrire à ce membre
+                                                    </Button>
+                                                </EcrireMembre>
                                             </div>
                                         )}
 

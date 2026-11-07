@@ -2,6 +2,7 @@
 
 import { revalidatePath } from "next/cache"
 
+import { refusSiBloque } from "@/lib/blocage-serveur"
 import type { SignalementListe } from "@/lib/signalements"
 import { prisma } from "@/lib/prisma"
 import { depasse, noter } from "@/lib/limite-tentatives-serveur"
@@ -29,7 +30,10 @@ export async function creerSignalementAction(
     const session = await sessionActuelle()
     if (!session) return { succes: false, erreur: "Connecte-toi pour continuer" }
 
-    const cleSignalement = `signalement:${session.membreId}`
+    const bloque = await refusSiBloque(session.membreId)
+    if (bloque) return { succes: false, erreur: bloque }
+
+    const cleSignalement =`signalement:${session.membreId}`
     if (depasse(cleSignalement, SIGNALEMENTS_PAR_HEURE, UNE_HEURE_MS)) {
         return { succes: false, erreur: "Tu as déjà envoyé 10 signalements cette heure-ci. Réessaie un peu plus tard." }
     }

@@ -77,6 +77,10 @@ const anonymes = await prisma.$transaction(async (tx) => {
     // Le nom et sa confirmation partent avec le compte. La cascade le ferait
     // aussi, mais on le dit ici, puisque c'est une donnée personnelle.
     await tx.nomMembre.deleteMany({ where: { membreId: membre.id } })
+    // Les messages que l'équipe lui a écrits vivent dans son espace : ils partent avec
+    // le compte (la cascade le ferait aussi). Ceux qu'un admin a écrits à d'autres
+    // membres ne sont pas touchés ; leur auteur, s'il est supprimé, reste nul.
+    await tx.messageMembre.deleteMany({ where: { membreId: membre.id } })
     await tx.membre.update({ where: { id: membre.id }, data: { nom: null, nomConfirmeLe: null } })
     await tx.membre.delete({ where: { id: membre.id } })
     const restants = await tx.temoignage.count({ where: { id: { in: ids }, membreId: null } })

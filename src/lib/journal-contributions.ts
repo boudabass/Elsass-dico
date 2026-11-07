@@ -32,7 +32,15 @@ export const TYPES_MODERATION_JOURNAL = [
     "annulation_validation_defi",
 ] as const
 
-export type TypeLigneJournal = (typeof TYPES_EVENEMENT_JOURNAL)[number] | (typeof TYPES_MODERATION_JOURNAL)[number]
+/** Le geste de l'admin sur le mot seul (07/11/2026) : retirer la catégorie « insulte ».
+ *  Ajouté en FIN de fichier, comme les gestes de modération. Pas de forme : `cleForme`
+ *  et `forme` sont vides, `nouveauContexte` dit le contexte après le geste. */
+export const TYPES_CATEGORIE_JOURNAL = ["categorie_insulte_retiree"] as const
+
+export type TypeLigneJournal =
+    | (typeof TYPES_EVENEMENT_JOURNAL)[number]
+    | (typeof TYPES_MODERATION_JOURNAL)[number]
+    | (typeof TYPES_CATEGORIE_JOURNAL)[number]
 
 /** Une ligne du fichier : anonyme (aucun membre), en clés naturelles.
  *
@@ -59,6 +67,9 @@ export interface LigneJournal {
     commune: number | null // code INSEE
     ancienneForme: string | null
     nouvelleForme: string | null
+    /** Seulement pour `categorie_insulte_retiree` : le contexte du mot APRÈS le geste
+     *  (`lemme.contexte` donne celui d'AVANT). */
+    nouveauContexte?: string
 }
 
 export async function lignesDuJournal(prisma: PrismaClient): Promise<LigneJournal[]> {
@@ -129,7 +140,36 @@ export async function lignesDuJournal(prisma: PrismaClient): Promise<LigneJourna
         nouvelleForme: null,
     }))
 
-    return [...lignesEvenements, ...lignesModeration]
+    // Le retrait de la catégorie « insulte » (07/11/2026), à la suite. Le mot y est
+    // désigné AVANT le geste (`contexte` = « insulte »), et `nouveauContexte` dit ce
+    // qu'il est devenu. Les autres lignes du mot portent son contexte ACTUEL, comme
+    // le reste du journal : l'importeur recrée donc le mot sous sa clé finale.
+    const changements = await prisma.changementCategorie.findMany({
+        select: {
+            id: true, le: true, ancienContexte: true, nouveauContexte: true,
+            lemme: { select: { cle: true, type: true, francais: true, parMembre: true } },
+        },
+        orderBy: [{ le: "asc" }, { id: "asc" }],
+    })
+
+    const lignesCategorie: LigneJournal[] = changements.map((c) => ({
+        id: c.id,
+        type: "categorie_insulte_retiree",
+        jour: c.le.toISOString().slice(0, 10),
+        lemme: {
+            cle: c.lemme.cle, contexte: c.ancienContexte, type: c.lemme.type,
+            ...(c.lemme.parMembre ? { francais: c.lemme.francais, parMembre: true as const } : {}),
+        },
+        cleForme: "",
+        forme: "",
+        temoignageId: null,
+        commune: null,
+        ancienneForme: null,
+        nouvelleForme: null,
+        nouveauContexte: c.nouveauContexte,
+    }))
+
+    return [...lignesEvenements, ...lignesModeration, ...lignesCategorie]
 }
 
 /** Le contenu exact du fichier. Trié et stable : deux exports sans nouveau

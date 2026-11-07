@@ -156,6 +156,7 @@ model Lemme {
 
   creeLe    DateTime @default(now()) @map("cree_le")
   variantes Variante[]
+  changementsCategorie ChangementCategorie[]
 
   // AJOUT — le doc 20 pose (cle, contexte). La mesure préalable à la
   // dérivation a trouvé **6 clés portant deux types** : `urbain`, `marguerite`
@@ -375,6 +376,10 @@ model Membre {
   // Posé quand le membre a confirmé son prénom et son nom dans Mon espace.
   // Sans cette trace, son nom n'est affiché nulle part (ni à côté de ses textes).
   nomConfirmeLe DateTime? @map("nom_confirme_le")
+  // Posé par un admin (Admin > Membres). Le compte bloqué lit le dictionnaire et
+  // fait le défi, mais n'écrit plus : ni mot, ni forme, ni vote, ni signalement,
+  // ni nom. Rien de ce qu'il a déjà écrit n'est masqué ni effacé.
+  bloqueLe DateTime? @map("bloque_le")
   role    Role   @default(membre)
 
   // Village par défaut : pré-remplit le « + », il ne le décide pas.
@@ -393,6 +398,9 @@ model Membre {
   abonnements  AbonnementPush[]
   sessions     SessionRefresh[]
   moderationsFaites Moderation[] @relation("ModerationsFaites")
+  changementsCategorieFaits ChangementCategorie[] @relation("ChangementsCategorieFaits")
+  messagesRecus  MessageMembre[] @relation("MessagesRecus")
+  messagesEnvoyes MessageMembre[] @relation("MessagesEnvoyes")
   nomsAnterieurs    NomMembre[]
 
   @@map("membres")
@@ -571,6 +579,52 @@ model AnomalieSource {
 
 // Un nom remplacé par le membre : celui qu'il avait avant la modification. Le nom
 // courant reste sur `Membre.nom`. Effacé avec le membre (anonymisation).
+// Un admin retire la catégorie « insulte » d'un mot (07/11/2026). Le mot garde sa
+// fiche et ses formes : seul `contexte` repasse à vide. L'ancien contexte reste ici,
+// avec l'admin qui a fait le geste, et part au journal (categorie_insulte_retiree).
+//
+//   * `acteurId` en SET NULL : supprimer un compte admin anonymise le geste sans l'effacer.
+//   * CASCADE sur le mot : un mot supprimé emporte sa trace.
+model ChangementCategorie {
+  id      String @id @default(uuid())
+  lemmeId String @map("lemme_id")
+  lemme   Lemme  @relation(fields: [lemmeId], references: [id], onDelete: Cascade)
+
+  ancienContexte  String @map("ancien_contexte")
+  nouveauContexte String @map("nouveau_contexte")
+
+  acteurId String?  @map("acteur_id")
+  acteur   Membre?  @relation("ChangementsCategorieFaits", fields: [acteurId], references: [id], onDelete: SetNull)
+
+  le DateTime @default(now())
+
+  @@index([lemmeId])
+  @@index([le])
+  @@map("changements_categorie")
+}
+
+// Message de l'équipe à un membre (07/11/2026). Texte brut, 1 à 2000 caractères,
+// signé « L'équipe The Elsassisch » à l'affichage seulement.
+//
+//   * CASCADE sur le destinataire : supprimer un membre emporte les messages qu'il a reçus.
+//   * `auteurId` en SET NULL : supprimer un admin garde le message, sans auteur.
+//   * `luLe` est posé à l'ouverture de Mon espace, une seule fois.
+model MessageMembre {
+  id      String @id @default(uuid())
+  membreId String @map("membre_id")
+  membre   Membre @relation("MessagesRecus", fields: [membreId], references: [id], onDelete: Cascade)
+
+  auteurId String? @map("auteur_id")
+  auteur   Membre? @relation("MessagesEnvoyes", fields: [auteurId], references: [id], onDelete: SetNull)
+
+  texte  String
+  creeLe DateTime  @default(now()) @map("cree_le")
+  luLe   DateTime? @map("lu_le")
+
+  @@index([membreId])
+  @@map("messages_membre")
+}
+
 model NomMembre {
   id       String   @id @default(uuid())
   membreId String   @map("membre_id")

@@ -11,9 +11,11 @@ import {
     listerMembresContributeursAction,
     masquerFormeAction,
     reafficherFormeAction,
+    retirerCategorieInsulteAction,
     validerPourDefiAction,
 } from "@/app/actions/moderation";
 import { AppHeader } from "@/components/app-header";
+import { EcrireMembre } from "@/components/ecrire-membre";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { useListeAdmin } from "@/hooks/use-liste-admin";
@@ -155,11 +157,11 @@ export default function AdminContributionsPage() {
                         </CardDescription>
                     </CardHeader>
                     <CardContent className="space-y-4">
-                        <div className="grid gap-3 sm:grid-cols-2">
-                            <label className="flex flex-col gap-1.5 text-sm font-medium">
+                        <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">
+                            <label className="flex min-w-0 flex-col gap-1.5 text-sm font-medium">
                                 Type de geste
                                 <select
-                                    className="h-11 rounded-md border border-input bg-background px-3 text-base"
+                                    className="h-11 w-full min-w-0 rounded-md border border-input bg-background px-3 text-base"
                                     value={filtreType}
                                     onChange={(e) => setFiltreType(e.target.value as TypeContribution | "tout")}
                                 >
@@ -171,10 +173,10 @@ export default function AdminContributionsPage() {
                                     ))}
                                 </select>
                             </label>
-                            <label className="flex flex-col gap-1.5 text-sm font-medium">
+                            <label className="flex min-w-0 flex-col gap-1.5 text-sm font-medium">
                                 Membre
                                 <select
-                                    className="h-11 rounded-md border border-input bg-background px-3 text-base"
+                                    className="h-11 w-full min-w-0 rounded-md border border-input bg-background px-3 text-base"
                                     value={filtreMembre}
                                     onChange={(e) => setFiltreMembre(e.target.value)}
                                 >
@@ -191,7 +193,7 @@ export default function AdminContributionsPage() {
                         <Button
                             type="button"
                             variant={depuisVisite ? "default" : "outline"}
-                            className="h-11 w-full sm:w-auto"
+                            className="h-auto min-h-11 w-full whitespace-normal py-2 sm:w-auto"
                             aria-pressed={depuisVisite}
                             disabled={!derniereVisite}
                             onClick={() => setDepuisVisite((v) => !v)}
@@ -246,9 +248,9 @@ export default function AdminContributionsPage() {
                                             <span className="font-medium text-foreground">{LIBELLES_CONTRIBUTION[l.type]}</span>
                                             {" · "}
                                             {categorieDe(l.mot)}
-                                            {l.membre ? ` · ${l.membre}` : ""}
-                                            {!l.membre && l.source ? " · Forme de source" : ""}
-                                            {!l.membre && !l.source ? " · Compte supprimé" : ""}
+                                            {l.genre !== "changement" && l.membre ? ` · ${l.membre}` : ""}
+                                            {l.genre !== "changement" && !l.membre && l.source ? " · Forme de source" : ""}
+                                            {l.genre !== "changement" && !l.membre && !l.source ? " · Compte supprimé" : ""}
                                         </p>
 
                                         {l.village && (
@@ -292,13 +294,40 @@ export default function AdminContributionsPage() {
                                             )}
                                         </div>
 
+                                        {/* Le mot est une insulte et aucune source ne le porte : l'admin peut
+                                            lui retirer la catégorie. Le mot garde sa fiche et ses formes. */}
+                                        {l.mot.contexte === "insulte" && l.motSansSource && (
+                                            <div className="flex flex-wrap gap-2 pt-1">
+                                                <Button
+                                                    variant="outline"
+                                                    className="h-auto min-h-11 whitespace-normal py-2 text-left"
+                                                    disabled={enCours !== null}
+                                                    onClick={() =>
+                                                        executer(`insulte-${l.mot.id}`, () => retirerCategorieInsulteAction(l.mot.id), "Catégorie insulte retirée")
+                                                    }
+                                                >
+                                                    {occupe(`insulte-${l.mot.id}`) ? "…" : "Ce n'est pas une insulte"}
+                                                </Button>
+                                            </div>
+                                        )}
+
+                                        {l.membreId && l.membre && (
+                                            <div className="flex flex-wrap gap-2 pt-1">
+                                                <EcrireMembre membreId={l.membreId} nom={l.membre}>
+                                                    <Button variant="outline" className="h-auto min-h-11 whitespace-normal py-2 text-left">
+                                                        Écrire à ce membre
+                                                    </Button>
+                                                </EcrireMembre>
+                                            </div>
+                                        )}
+
                                         {(l.type === "creation" || l.type === "modification") && (
                                             <div className="flex flex-wrap gap-2 pt-1">
                                                 {!l.source &&
                                                     (l.masquee ? (
                                                         <Button
                                                             variant="outline"
-                                                            className="h-11"
+                                                            className="h-auto min-h-11 whitespace-normal py-2 text-left"
                                                             disabled={enCours !== null}
                                                             onClick={() =>
                                                                 executer(`reafficher-${l.varianteId}`, () => reafficherFormeAction(l.varianteId), "Forme réaffichée")
@@ -310,7 +339,7 @@ export default function AdminContributionsPage() {
                                                     ) : (
                                                         <Button
                                                             variant="outline"
-                                                            className="h-11"
+                                                            className="h-auto min-h-11 whitespace-normal py-2 text-left"
                                                             disabled={enCours !== null}
                                                             onClick={() =>
                                                                 executer(`masquer-${l.varianteId}`, () => masquerFormeAction(l.varianteId), "Forme masquée")
@@ -324,7 +353,7 @@ export default function AdminContributionsPage() {
                                                 {!l.source && l.membre && !l.validee && !l.masquee && (
                                                     <Button
                                                         variant="outline"
-                                                        className="h-11"
+                                                        className="h-auto min-h-11 whitespace-normal py-2 text-left"
                                                         disabled={enCours !== null}
                                                         onClick={() =>
                                                             executer(`valider-${l.varianteId}`, () => validerPourDefiAction(l.varianteId), "Forme validée : peut être montrée sans compte et dans le défi")
@@ -337,7 +366,7 @@ export default function AdminContributionsPage() {
                                                 {!l.source && l.validee && (
                                                     <Button
                                                         variant="outline"
-                                                        className="h-11"
+                                                        className="h-auto min-h-11 whitespace-normal py-2 text-left"
                                                         disabled={enCours !== null}
                                                         onClick={() =>
                                                             executer(`annuler-${l.varianteId}`, () => annulerValidationDefiAction(l.varianteId), "Validation annulée")
@@ -358,7 +387,7 @@ export default function AdminContributionsPage() {
                             <div className="mt-4 flex justify-center">
                                 <Button
                                     variant="outline"
-                                    className="h-11 w-full sm:w-auto"
+                                    className="h-auto min-h-11 w-full whitespace-normal py-2 sm:w-auto"
                                     disabled={chargement}
                                     onClick={() => chargerPages(pagesChargees + 1)}
                                 >

@@ -27,6 +27,9 @@
  * chronologique, c'est lui qui le dit. Un retrait de vote n'a rien à rejouer
  * de plus : son événement `retrait` est déjà dans le journal.
  *
+ * Depuis le 07/11/2026, le retrait de la catégorie « insulte » (`categorie_insulte_retiree`)
+ * aussi : le mot est recréé sous son contexte final, puis le geste en garde la trace.
+ *
  * **Ne devine rien** : un lemme, une variante de source ou un village
  * introuvable est compté et signalé, jamais recréé à peu près. Une ligne d'un
  * type inconnu n'est ni rejouée ni supprimée : elle est comptée et signalée.
@@ -39,6 +42,7 @@ import type { TypeEvenement, TypeModeration, TypeTerme } from "../src/generated/
 import { ouvrirBase, parLots } from "./lib/base.mts"
 import {
     FICHIER_JOURNAL,
+    TYPES_CATEGORIE_JOURNAL,
     TYPES_EVENEMENT_JOURNAL,
     TYPES_MODERATION_JOURNAL,
     type LigneJournal,
@@ -55,11 +59,19 @@ if (!existsSync(FICHIER_JOURNAL)) {
 // s'arrêtait en plein milieu, après les mots et les variantes déjà écrits.
 const TYPES_EVENEMENT = new Set<string>(TYPES_EVENEMENT_JOURNAL)
 const TYPES_MODERATION = new Set<string>(TYPES_MODERATION_JOURNAL)
+const TYPES_CATEGORIE = new Set<string>(TYPES_CATEGORIE_JOURNAL)
 
 const lignesLues: LigneJournal[] = readFileSync(FICHIER_JOURNAL, "utf-8")
     .split("\n").filter((l) => l.trim()).map((l) => JSON.parse(l))
 const lignes = lignesLues.filter((l) => TYPES_EVENEMENT.has(l.type) || TYPES_MODERATION.has(l.type))
-const typesInconnus = lignesLues.length - lignes.length
+// Le retrait de la catégorie « insulte » (07/11/2026) : il ne porte pas de forme.
+// Il vise le mot sous son contexte FINAL, pour que le mot se recrée une seule fois.
+const categories = lignesLues.filter((l) => TYPES_CATEGORIE.has(l.type))
+const lignesMot: LigneJournal[] = [
+    ...lignes,
+    ...categories.map((c) => ({ ...c, lemme: { ...c.lemme, contexte: c.nouveauContexte ?? "" } })),
+]
+const typesInconnus = lignesLues.length - lignes.length - categories.length
 
 const prisma = ouvrirBase()
 const SEP = "\u0000"
@@ -68,7 +80,7 @@ const SEP = "\u0000"
 const lemmes = new Map<string, string>()
 const lemmesIntrouvables = new Set<string>()
 let lemmesRecrees = 0
-for (const l of lignes) {
+for (const l of lignesMot) {
     const cle = [l.lemme.cle, l.lemme.contexte, l.lemme.type].join(SEP)
     if (lemmes.has(cle) || lemmesIntrouvables.has(cle)) continue
     const lemme = await prisma.lemme.findUnique({
@@ -185,6 +197,25 @@ await parLots(moderations, 1000, async (lot) => {
     moderationsCreees += r.count
 })
 
+// --- Retraits de la catégorie « insulte » : la trace, sur le mot déjà recréé ----
+// Le mot est sous sa clé finale (contexte vide) depuis la première boucle. Un
+// geste rejoué deux fois ne se double pas (id stable, skipDuplicates).
+let categoriesRetirees = 0
+const categoriesIntrouvables: string[] = []
+await parLots(categories, 1000, async (lot) => {
+    const donnees = []
+    for (const c of lot) {
+        const lemmeId = lemmes.get([c.lemme.cle, c.nouveauContexte ?? "", c.lemme.type].join(SEP))
+        if (!lemmeId) { categoriesIntrouvables.push(c.id); continue }
+        donnees.push({
+            id: c.id, lemmeId, ancienContexte: c.lemme.contexte,
+            nouveauContexte: c.nouveauContexte ?? "", le: date(c),
+        })
+    }
+    const r = await prisma.changementCategorie.createMany({ data: donnees, skipDuplicates: true })
+    categoriesRetirees += r.count
+})
+
 const etatDesFormes = new Map<string, { masquee?: boolean; valideeDefiLe?: Date | null }>()
 for (const l of moderations) {
     const id = varianteDe(l)!
@@ -208,6 +239,7 @@ console.log(`  témoignages créés         ${temoignagesCrees}\t(${actives.leng
 console.log(`  événements créés          ${evenementsCrees}\t(${evenements.length} rejouables)`)
 console.log(`  gestes de l'admin créés   ${moderationsCreees}\t(${moderations.length} rejouables)`)
 console.log(`  formes remises à leur état  ${formesModerees}`)
+console.log(`  catégories insulte retirées ${categoriesRetirees}\t(${categories.length} dans le journal)`)
 const manques = [
     [lemmesIntrouvables.size, "lemme(s) introuvable(s)"],
     [variantesIntrouvables.size, "variante(s) de source introuvable(s)"],

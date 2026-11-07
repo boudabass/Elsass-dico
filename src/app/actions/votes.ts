@@ -5,6 +5,7 @@ import { revalidatePath } from "next/cache"
 import { Prisma } from "@/generated/prisma/client"
 import { chargerLemme } from "@/app/actions/recherche"
 import { REFUS_VILLAGE_REQUIS, type EchecContribution } from "@/lib/contribution"
+import { refusSiBloque } from "@/lib/blocage-serveur"
 import { villageDuMembre } from "@/lib/contribution-serveur"
 import type { VarianteDetaillee } from "@/lib/dictionnaire"
 import { depasse, noter } from "@/lib/limite-tentatives-serveur"
@@ -24,6 +25,9 @@ const UNE_HEURE_MS = 60 * 60 * 1000
 export async function voterPourVarianteAction(varianteId: string): Promise<Resultat> {
     const session = await sessionActuelle()
     if (!session) return { succes: false, erreur: "Connecte-toi pour continuer" }
+
+    const bloque = await refusSiBloque(session.membreId)
+    if (bloque) return { succes: false, erreur: bloque }
 
     const cleVote = `vote:${session.membreId}`
     if (depasse(cleVote, VOTES_PAR_HEURE, UNE_HEURE_MS)) {
@@ -92,6 +96,9 @@ export async function retirerVoteAction(varianteId: string): Promise<Resultat> {
     const session = await sessionActuelle()
     if (!session) return { succes: false, erreur: "Connecte-toi pour continuer" }
 
+    const bloque = await refusSiBloque(session.membreId)
+    if (bloque) return { succes: false, erreur: bloque }
+
     const variante = await prisma.variante.findUnique({
         where: { id: varianteId },
         select: { lemmeId: true },
@@ -152,6 +159,9 @@ export async function chargerVoteAction(
 export async function remplacerVillageVoteAction(varianteId: string): Promise<Resultat> {
     const session = await sessionActuelle()
     if (!session) return { succes: false, erreur: "Connecte-toi pour continuer" }
+
+    const bloque = await refusSiBloque(session.membreId)
+    if (bloque) return { succes: false, erreur: bloque }
 
     const cleVote = `vote:${session.membreId}`
     if (depasse(cleVote, VOTES_PAR_HEURE, UNE_HEURE_MS)) {

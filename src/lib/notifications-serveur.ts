@@ -246,8 +246,14 @@ export function messageContributions(compte: number): Message {
  *  ne porte que sur les 24 dernières heures. */
 export async function annoncerContributionsAdmin({ simuler = false } = {}): Promise<BilanContributionsAdmin> {
     const depuis = new Date(Date.now() - VINGT_QUATRE_HEURES_MS)
+    // Les gestes de l'admin lui-même ne comptent pas : on garde les événements dont
+    // l'auteur n'est pas admin, et ceux d'un compte supprimé (auteur nul).
     const compte = await prisma.evenementContribution.count({
-        where: { type: { in: ["creation", "modification"] }, le: { gte: depuis } },
+        where: {
+            type: { in: ["creation", "modification"] },
+            le: { gte: depuis },
+            OR: [{ membreId: null }, { membre: { role: { not: "admin" } } }],
+        },
     })
 
     const bilan: BilanContributionsAdmin = {

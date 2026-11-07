@@ -211,3 +211,72 @@ export async function annoncerDefi({ simuler = false } = {}): Promise<BilanDefi>
 
     return bilan
 }
+
+// --- Le soir, aux administrateurs : ce qui a bougé chez les membres (07/11/2026) ---
+// Un message par administrateur abonné, pas un par geste. Compte les textes ajoutés
+// ou corrigés par les membres dans les 24 dernières heures. Les votes et les gestes
+// de l'admin ne comptent pas.
+
+const VINGT_QUATRE_HEURES_MS = 24 * 60 * 60 * 1000
+
+export interface BilanContributionsAdmin {
+    compte: number
+    abonnes: number
+    envoyes: number
+    supprimes: number
+    /** Abonnements dont l'adresse n'est pas celle d'un service de push : ni envoi ni suppression. */
+    ignores: number
+    erreurs: string[]
+    simule: boolean
+}
+
+export function messageContributions(compte: number): Message {
+    return {
+        titre: "Elsass Dico : contributions",
+        corps: compte === 1
+            ? "1 texte nouveau ou corrigé depuis hier."
+            : `${compte} textes nouveaux ou corrigés depuis hier.`,
+        url: "/admin/contributions",
+        tag: "admin-contributions",
+    }
+}
+
+/** L'envoi du soir. Sans rien de nouveau (compte nul), rien ne part. Sinon, un message à
+ *  chaque abonnement d'un membre admin. Un envoi refusé n'est pas repris : le compte
+ *  ne porte que sur les 24 dernières heures. */
+export async function annoncerContributionsAdmin({ simuler = false } = {}): Promise<BilanContributionsAdmin> {
+    const depuis = new Date(Date.now() - VINGT_QUATRE_HEURES_MS)
+    const compte = await prisma.evenementContribution.count({
+        where: { type: { in: ["creation", "modification"] }, le: { gte: depuis } },
+    })
+
+    const bilan: BilanContributionsAdmin = {
+        compte, abonnes: 0, envoyes: 0, supprimes: 0, ignores: 0, erreurs: [], simule: simuler,
+    }
+    if (compte === 0) return bilan
+
+    const toutes = await prisma.abonnementPush.findMany({ where: { membre: { role: "admin" } } })
+    const abonnements = toutes.filter((a) => endpointAccepte(a.endpoint))
+    bilan.abonnes = abonnements.length
+    bilan.ignores = toutes.length - abonnements.length
+
+    if (simuler) {
+        bilan.envoyes = abonnements.length
+        return bilan
+    }
+
+    const message = messageContributions(compte)
+    await Promise.all(
+        abonnements.map(async (a) => {
+            const r = await pousser(a, message)
+            if (r.ok) {
+                bilan.envoyes += 1
+            } else if (r.supprime) {
+                bilan.supprimes += 1
+            } else {
+                bilan.erreurs.push(r.code ? `Refus ${r.code}` : "Envoi impossible")
+            }
+        }),
+    )
+    return bilan
+}

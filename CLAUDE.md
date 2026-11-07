@@ -227,7 +227,7 @@ VPS partagé ; `dev` et `main` **partagent la même base**.
 - **Page Contributions** (`/admin/contributions`, 04/11) : textes nouveaux,
   corrections et gestes de John, sans les votes. Masquer et réafficher,
   valider et annuler, chaque geste dans `moderations`, rejoué par le journal.
-  Vue par défaut « À décider » (07/11) : une carte par mot, seules les formes à décider, sans filtres.
+  Vue par défaut « À décider » (07/11, PR #115) : une carte par mot, seules les formes à décider, sans filtres.
   **Qui voit quoi** : tout passe par `lib/visibilite-serveur.ts`. Dictionnaire
   (connectés) = non masquée. Sans compte = non masquée et (de source ou
   validée). **Tirage du défi = sources seulement** (`formeSourceSql`) : une

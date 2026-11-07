@@ -3819,5 +3819,6 @@ jeton long, sans détour). **Ne pas remettre le détour de renouvellement.**
   - **Mode d'essai de la notification** (`21af926`) : `POST /api/automatisation/notifier-admin?essai=1` n'arrête pas sur compte nul et envoie un message d'essai à chaque abonnement admin. Sans le paramètre, rien ne change.
   - **Essai réel** : exécution N8N 3173 sur dev, par un workflow temporaire à une seule requête, archivé ensuite. Réponse : `compte` 0, `abonnes` 3, `envoyes` 3, `supprimes` 0, `erreurs` vide. Accord de John.
   - **Vérifié sur dev à 375 px** (lecture seule) : « À décider » affiche « Rien à décider : tout est traité » ; « Tout » montre trois cartes, une par mot. Aucun débordement.
+  - **PR #115** (dev vers main), mergée par commit de merge `e99812d` le 07/11/2026.
   - **Fausse alerte** : l'exécution N8N 3169 a appelé la route avant son déploiement sur main et a reçu un 404. Le nœud de vérification a donc déclenché le sous-workflow Alerter : une alerte de test est partie. Ce n'était pas une panne.
   - **Coupure signalée par John** vers 15 h 50 (heure de Paris), cause non établie. Sur le VPS, cinq déploiements en vingt minutes, dont deux sur dev pour de la doc seule. Serveur non saturé (CPU ~40 %, load ≤ 4). Recommandation à John : ajouter `!documentation/**` et `!*.md` aux watch paths de dev, pour que la doc ne redéploie pas.

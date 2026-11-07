@@ -3822,3 +3822,4 @@ jeton long, sans détour). **Ne pas remettre le détour de renouvellement.**
   - **PR #115** (dev vers main), mergée par commit de merge `e99812d` le 07/11/2026.
   - **Fausse alerte** : l'exécution N8N 3169 a appelé la route avant son déploiement sur main et a reçu un 404. Le nœud de vérification a donc déclenché le sous-workflow Alerter : une alerte de test est partie. Ce n'était pas une panne.
   - **Coupure signalée par John** vers 15 h 50 (heure de Paris), cause non établie. Sur le VPS, cinq déploiements en vingt minutes, dont deux sur dev pour de la doc seule. Serveur non saturé (CPU ~40 %, load ≤ 4). Recommandation à John : ajouter `!documentation/**` et `!*.md` aux watch paths de dev, pour que la doc ne redéploie pas.
+  - **Watch paths de dev** : John a ajouté `!documentation/**` et `!*.md` le 07/11. Vérifié : le push de `0c35f21` (doc seule) n'a lancé aucun déploiement.

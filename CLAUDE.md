@@ -215,7 +215,9 @@ VPS partagé ; `dev` et `main` **partagent la même base**.
   rendue statique perdrait son JavaScript.
 - **Export des contributions automatique** : workflow N8N
   `OP_EXPORT_CONTRIBUTIONS_DICO` actif (4 h), watch paths Coolify de dev
-  `**` + `!data/contributions/**`. Constaté le 04/11 : 3 commits `data:`
+  `**`, `!data/contributions/**`, `!documentation/**`, `!*.md` (les deux derniers
+  ajoutés par John le 07/11 : un push de doc seule ne redéploie plus dev, vérifié
+  avec 0c35f21). Constaté le 04/11 : 3 commits `data:`
   depuis le 29/10, aucun déploiement de dev derrière.
 - Base : ~26 540 lemmes, 42 563 variantes (dont 863 insultes de la source
   `dj_fabz`, intégrées le 09/10), 148 prénoms (source `projet_babel`

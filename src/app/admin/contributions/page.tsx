@@ -155,11 +155,11 @@ export default function AdminContributionsPage() {
                         </CardDescription>
                     </CardHeader>
                     <CardContent className="space-y-4">
-                        <div className="grid gap-3 sm:grid-cols-2">
-                            <label className="flex flex-col gap-1.5 text-sm font-medium">
+                        <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">
+                            <label className="flex min-w-0 flex-col gap-1.5 text-sm font-medium">
                                 Type de geste
                                 <select
-                                    className="h-11 rounded-md border border-input bg-background px-3 text-base"
+                                    className="h-11 w-full min-w-0 rounded-md border border-input bg-background px-3 text-base"
                                     value={filtreType}
                                     onChange={(e) => setFiltreType(e.target.value as TypeContribution | "tout")}
                                 >
@@ -171,10 +171,10 @@ export default function AdminContributionsPage() {
                                     ))}
                                 </select>
                             </label>
-                            <label className="flex flex-col gap-1.5 text-sm font-medium">
+                            <label className="flex min-w-0 flex-col gap-1.5 text-sm font-medium">
                                 Membre
                                 <select
-                                    className="h-11 rounded-md border border-input bg-background px-3 text-base"
+                                    className="h-11 w-full min-w-0 rounded-md border border-input bg-background px-3 text-base"
                                     value={filtreMembre}
                                     onChange={(e) => setFiltreMembre(e.target.value)}
                                 >
@@ -191,7 +191,7 @@ export default function AdminContributionsPage() {
                         <Button
                             type="button"
                             variant={depuisVisite ? "default" : "outline"}
-                            className="h-11 w-full sm:w-auto"
+                            className="h-auto min-h-11 w-full whitespace-normal py-2 sm:w-auto"
                             aria-pressed={depuisVisite}
                             disabled={!derniereVisite}
                             onClick={() => setDepuisVisite((v) => !v)}
@@ -298,7 +298,7 @@ export default function AdminContributionsPage() {
                                                     (l.masquee ? (
                                                         <Button
                                                             variant="outline"
-                                                            className="h-11"
+                                                            className="h-auto min-h-11 whitespace-normal py-2 text-left"
                                                             disabled={enCours !== null}
                                                             onClick={() =>
                                                                 executer(`reafficher-${l.varianteId}`, () => reafficherFormeAction(l.varianteId), "Forme réaffichée")
@@ -310,7 +310,7 @@ export default function AdminContributionsPage() {
                                                     ) : (
                                                         <Button
                                                             variant="outline"
-                                                            className="h-11"
+                                                            className="h-auto min-h-11 whitespace-normal py-2 text-left"
                                                             disabled={enCours !== null}
                                                             onClick={() =>
                                                                 executer(`masquer-${l.varianteId}`, () => masquerFormeAction(l.varianteId), "Forme masquée")
@@ -324,7 +324,7 @@ export default function AdminContributionsPage() {
                                                 {!l.source && l.membre && !l.validee && !l.masquee && (
                                                     <Button
                                                         variant="outline"
-                                                        className="h-11"
+                                                        className="h-auto min-h-11 whitespace-normal py-2 text-left"
                                                         disabled={enCours !== null}
                                                         onClick={() =>
                                                             executer(`valider-${l.varianteId}`, () => validerPourDefiAction(l.varianteId), "Forme validée : peut être montrée sans compte et dans le défi")
@@ -337,7 +337,7 @@ export default function AdminContributionsPage() {
                                                 {!l.source && l.validee && (
                                                     <Button
                                                         variant="outline"
-                                                        className="h-11"
+                                                        className="h-auto min-h-11 whitespace-normal py-2 text-left"
                                                         disabled={enCours !== null}
                                                         onClick={() =>
                                                             executer(`annuler-${l.varianteId}`, () => annulerValidationDefiAction(l.varianteId), "Validation annulée")
@@ -358,7 +358,7 @@ export default function AdminContributionsPage() {
                             <div className="mt-4 flex justify-center">
                                 <Button
                                     variant="outline"
-                                    className="h-11 w-full sm:w-auto"
+                                    className="h-auto min-h-11 w-full whitespace-normal py-2 sm:w-auto"
                                     disabled={chargement}
                                     onClick={() => chargerPages(pagesChargees + 1)}
                                 >

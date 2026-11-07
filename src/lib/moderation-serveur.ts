@@ -24,7 +24,7 @@ import { prisma } from "@/lib/prisma"
 import { motVisibleSql } from "@/lib/visibilite-serveur"
 
 interface LigneBrute {
-    genre: "evenement" | "moderation"
+    genre: "evenement" | "moderation" | "changement"
     id: string
     type: TypeContribution
     le: Date
@@ -47,6 +47,7 @@ interface LigneBrute {
     lemme_visible: boolean
     variante_id: string
     source: boolean
+    mot_sans_source: boolean
 }
 
 export async function lirePageContributions(filtres: FiltresContributions): Promise<PageContributions> {
@@ -84,6 +85,17 @@ export async function lirePageContributions(filtres: FiltresContributions): Prom
                 WHERE e.variante_id = m.variante_id AND e.type = 'creation'
                 ORDER BY e.le ASC LIMIT 1
             ) c ON TRUE
+            UNION ALL
+            -- Le retrait de la catégorie insulte vise le mot, pas une forme : la ligne
+            -- porte la première forme du mot pour l'affichage, et rien d'autre.
+            SELECT 'changement', c.id, 'categorie_insulte_retiree', c.le, pv.id,
+                   NULL::text, NULL::integer, c.acteur_id, NULL::text, NULL::text
+            FROM changements_categorie c
+            JOIN LATERAL (
+                SELECT v.id FROM variantes v
+                WHERE v.lemme_id = c.lemme_id
+                ORDER BY v.cree_le ASC LIMIT 1
+            ) pv ON TRUE
         ),
         filtrees AS (
             SELECT * FROM lignes l ${ou}
@@ -94,12 +106,19 @@ export async function lirePageContributions(filtres: FiltresContributions): Prom
                f.membre_id, mb.nom AS membre_nom, mb.email AS membre_email,
                co.nom AS commune_nom,
                f.acteur_id, ac.nom AS acteur_nom, ac.email AS acteur_email,
-               v.forme, v.masquee, v.validee_defi_le IS NOT NULL AS validee,
+               v.forme,
+               CASE WHEN f.genre = 'changement' THEN FALSE ELSE v.masquee END AS masquee,
+               CASE WHEN f.genre = 'changement' THEN FALSE ELSE v.validee_defi_le IS NOT NULL END AS validee,
                f.ancienne_forme, f.nouvelle_forme,
                lem.id AS lemme_id, lem.francais, lem.contexte, lem.type::text AS lemme_type,
                ${motVisibleSql("lem")} AS lemme_visible,
                v.id AS variante_id,
-               EXISTS (SELECT 1 FROM temoignages t WHERE t.variante_id = v.id AND t.source_id IS NOT NULL) AS source
+               EXISTS (SELECT 1 FROM temoignages t WHERE t.variante_id = v.id AND t.source_id IS NOT NULL) AS source,
+               NOT EXISTS (
+                   SELECT 1 FROM temoignages t
+                   JOIN variantes vs ON vs.id = t.variante_id
+                   WHERE vs.lemme_id = lem.id AND t.source_id IS NOT NULL
+               ) AS mot_sans_source
         FROM filtrees f
         JOIN variantes v ON v.id = f.variante_id
         JOIN lemmes lem ON lem.id = v.lemme_id
@@ -121,6 +140,7 @@ export async function lirePageContributions(filtres: FiltresContributions): Prom
         source: b.source,
         village: b.commune_nom,
         mot: { id: b.lemme_id, francais: b.francais, contexte: b.contexte, type: b.lemme_type, visible: b.lemme_visible },
+        motSansSource: b.mot_sans_source,
         forme: b.forme,
         ancienneForme: b.ancienne_forme,
         nouvelleForme: b.nouvelle_forme,

@@ -11,6 +11,7 @@ import {
     listerMembresContributeursAction,
     masquerFormeAction,
     reafficherFormeAction,
+    retirerCategorieInsulteAction,
     validerPourDefiAction,
 } from "@/app/actions/moderation";
 import { AppHeader } from "@/components/app-header";
@@ -246,9 +247,9 @@ export default function AdminContributionsPage() {
                                             <span className="font-medium text-foreground">{LIBELLES_CONTRIBUTION[l.type]}</span>
                                             {" · "}
                                             {categorieDe(l.mot)}
-                                            {l.membre ? ` · ${l.membre}` : ""}
-                                            {!l.membre && l.source ? " · Forme de source" : ""}
-                                            {!l.membre && !l.source ? " · Compte supprimé" : ""}
+                                            {l.genre !== "changement" && l.membre ? ` · ${l.membre}` : ""}
+                                            {l.genre !== "changement" && !l.membre && l.source ? " · Forme de source" : ""}
+                                            {l.genre !== "changement" && !l.membre && !l.source ? " · Compte supprimé" : ""}
                                         </p>
 
                                         {l.village && (
@@ -291,6 +292,23 @@ export default function AdminContributionsPage() {
                                                 <span className="font-normal text-muted-foreground">Fait par {l.acteur}</span>
                                             )}
                                         </div>
+
+                                        {/* Le mot est une insulte et aucune source ne le porte : l'admin peut
+                                            lui retirer la catégorie. Le mot garde sa fiche et ses formes. */}
+                                        {l.mot.contexte === "insulte" && l.motSansSource && (
+                                            <div className="flex flex-wrap gap-2 pt-1">
+                                                <Button
+                                                    variant="outline"
+                                                    className="h-auto min-h-11 whitespace-normal py-2 text-left"
+                                                    disabled={enCours !== null}
+                                                    onClick={() =>
+                                                        executer(`insulte-${l.mot.id}`, () => retirerCategorieInsulteAction(l.mot.id), "Catégorie insulte retirée")
+                                                    }
+                                                >
+                                                    {occupe(`insulte-${l.mot.id}`) ? "…" : "Ce n'est pas une insulte"}
+                                                </Button>
+                                            </div>
+                                        )}
 
                                         {(l.type === "creation" || l.type === "modification") && (
                                             <div className="flex flex-wrap gap-2 pt-1">

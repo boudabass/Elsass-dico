@@ -156,6 +156,7 @@ model Lemme {
 
   creeLe    DateTime @default(now()) @map("cree_le")
   variantes Variante[]
+  changementsCategorie ChangementCategorie[]
 
   // AJOUT — le doc 20 pose (cle, contexte). La mesure préalable à la
   // dérivation a trouvé **6 clés portant deux types** : `urbain`, `marguerite`
@@ -397,6 +398,7 @@ model Membre {
   abonnements  AbonnementPush[]
   sessions     SessionRefresh[]
   moderationsFaites Moderation[] @relation("ModerationsFaites")
+  changementsCategorieFaits ChangementCategorie[] @relation("ChangementsCategorieFaits")
   nomsAnterieurs    NomMembre[]
 
   @@map("membres")
@@ -575,6 +577,30 @@ model AnomalieSource {
 
 // Un nom remplacé par le membre : celui qu'il avait avant la modification. Le nom
 // courant reste sur `Membre.nom`. Effacé avec le membre (anonymisation).
+// Un admin retire la catégorie « insulte » d'un mot (07/11/2026). Le mot garde sa
+// fiche et ses formes : seul `contexte` repasse à vide. L'ancien contexte reste ici,
+// avec l'admin qui a fait le geste, et part au journal (categorie_insulte_retiree).
+//
+//   * `acteurId` en SET NULL : supprimer un compte admin anonymise le geste sans l'effacer.
+//   * CASCADE sur le mot : un mot supprimé emporte sa trace.
+model ChangementCategorie {
+  id      String @id @default(uuid())
+  lemmeId String @map("lemme_id")
+  lemme   Lemme  @relation(fields: [lemmeId], references: [id], onDelete: Cascade)
+
+  ancienContexte  String @map("ancien_contexte")
+  nouveauContexte String @map("nouveau_contexte")
+
+  acteurId String?  @map("acteur_id")
+  acteur   Membre?  @relation("ChangementsCategorieFaits", fields: [acteurId], references: [id], onDelete: SetNull)
+
+  le DateTime @default(now())
+
+  @@index([lemmeId])
+  @@index([le])
+  @@map("changements_categorie")
+}
+
 model NomMembre {
   id       String   @id @default(uuid())
   membreId String   @map("membre_id")

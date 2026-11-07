@@ -6,6 +6,7 @@ import { lirePageContributions } from "@/lib/moderation-serveur"
 import { TYPES_CONTRIBUTION, type FiltresContributions, type PageContributions } from "@/lib/moderation"
 import { viderCacheAccueil } from "@/lib/apercu-accueil"
 import { viderReserve } from "@/lib/jeu"
+import { Prisma } from "@/generated/prisma/client"
 import { prisma } from "@/lib/prisma"
 import { adminExige } from "@/lib/session-serveur"
 
@@ -152,6 +153,62 @@ export async function annulerValidationDefiAction(varianteId: string): Promise<R
         return true
     })
     if (!fait) return { succes: false, erreur: "Cette forme n'est pas validée" }
+
+    rafraichirDefi()
+    return { succes: true }
+}
+
+// --- Retirer la catégorie « insulte » d'un mot (07/11/2026) ---------------------
+
+const MESSAGE_MOT_EXISTANT = "Ce mot existe déjà sans la catégorie insulte. Masque plutôt ce texte."
+
+/** Le mot garde sa fiche et ses formes ; seul son contexte repasse à vide. Refusé si une
+ *  source écrite porte ce mot (elle le donne comme insulte, l'admin ne la contredit pas)
+ *  et refusé s'il existe déjà sans la catégorie : pas de fusion. */
+export async function retirerCategorieInsulteAction(lemmeId: string): Promise<Resultat> {
+    const admin = await adminExige()
+    if (!admin) return REFUS
+
+    const lemme = await prisma.lemme.findUnique({
+        where: { id: lemmeId },
+        select: { cle: true, type: true, contexte: true },
+    })
+    if (!lemme) return { succes: false, erreur: "Ce mot n'existe plus" }
+    if (lemme.contexte !== "insulte") return { succes: false, erreur: "Ce mot n'est pas dans la catégorie insulte" }
+
+    const sourcees = await prisma.temoignage.count({
+        where: { sourceId: { not: null }, variante: { lemmeId } },
+    })
+    if (sourcees) return { succes: false, erreur: "Une source écrite porte ce mot : sa catégorie ne se retire pas" }
+
+    const existant = await prisma.lemme.findUnique({
+        where: { cle_contexte_type: { cle: lemme.cle, contexte: "", type: lemme.type } },
+        select: { id: true },
+    })
+    if (existant) return { succes: false, erreur: MESSAGE_MOT_EXISTANT }
+
+    try {
+        // Le changement et sa trace dans la même transaction : un geste sans trace n'existe pas.
+        const fait = await prisma.$transaction(async (tx) => {
+            const { count } = await tx.lemme.updateMany({
+                where: { id: lemmeId, contexte: "insulte" },
+                data: { contexte: "" },
+            })
+            if (!count) return false
+            await tx.changementCategorie.create({
+                data: { lemmeId, ancienContexte: "insulte", nouveauContexte: "", acteurId: admin.membreId },
+            })
+            return true
+        })
+        if (!fait) return { succes: false, erreur: "Ce mot n'est plus dans la catégorie insulte" }
+    } catch (erreur) {
+        // Un mot identique a été créé entre la lecture et l'écriture : même refus.
+        if (erreur instanceof Prisma.PrismaClientKnownRequestError && erreur.code === "P2002") {
+            return { succes: false, erreur: MESSAGE_MOT_EXISTANT }
+        }
+        console.error("[Moderation] Catégorie non retirée:", erreur)
+        return { succes: false, erreur: "Enregistrement impossible, réessaie dans un instant" }
+    }
 
     rafraichirDefi()
     return { succes: true }

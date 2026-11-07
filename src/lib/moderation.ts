@@ -20,6 +20,7 @@ export const TYPES_CONTRIBUTION = [
     "retrait_vote",
     "validation_defi",
     "annulation_validation_defi",
+    "categorie_insulte_retiree",
 ] as const
 
 export type TypeContribution = (typeof TYPES_CONTRIBUTION)[number]
@@ -34,6 +35,7 @@ export const TYPES_FILTRE_CONTRIBUTION: readonly TypeContribution[] = [
     "demasquage",
     "validation_defi",
     "annulation_validation_defi",
+    "categorie_insulte_retiree",
 ]
 
 export const LIBELLES_CONTRIBUTION: Record<TypeContribution, string> = {
@@ -46,13 +48,15 @@ export const LIBELLES_CONTRIBUTION: Record<TypeContribution, string> = {
     retrait_vote: "Vote retiré par l'admin",
     validation_defi: "Forme validée : peut être montrée sans compte et dans le défi",
     annulation_validation_defi: "Validation annulée",
+    categorie_insulte_retiree: "Catégorie insulte retirée",
 }
 
 /** Une ligne de l'écran. Les deux familles y ont la même forme. */
 export interface LigneContribution {
     id: string
-    /** `evenement` : une ligne du journal. `moderation` : un geste de l'admin. */
-    genre: "evenement" | "moderation"
+    /** `evenement` : une ligne du journal. `moderation` : un geste de l'admin sur une forme.
+     *  `changement` : un geste de l'admin sur le mot seul (catégorie insulte retirée). */
+    genre: "evenement" | "moderation" | "changement"
     type: TypeContribution
     /** ISO, avec l'heure : l'écran l'affiche, le journal public ne la garde pas. */
     le: string
@@ -65,6 +69,8 @@ export interface LigneContribution {
     /** Le village du geste (ou de la création de la forme pour un geste admin). */
     village: string | null
     mot: { id: string; francais: string; contexte: string; type: string; visible: boolean }
+    /** Vrai si aucune forme de ce mot ne vient d'une source : seul un tel mot peut perdre la catégorie insulte. */
+    motSansSource: boolean
     forme: string
     /** Renseignés pour une modification seulement. */
     ancienneForme: string | null

@@ -1,15 +1,15 @@
-// Ce que l'écran Contributions de l'admin manipule (04/11/2026). Pas d'accès à la
-// base ici : ce fichier est importé par l'écran, donc par le navigateur.
+// Ce que l'écran Contributions de l'admin manipule (04/11/2026, refondu le 07/11 :
+// une carte par mot, avec ses formes dedans). Pas d'accès à la base ici : ce fichier
+// est importé par l'écran, donc par le navigateur.
 //
 // Décisions de John du 04/11 : un texte de membre est visible tout de suite pour les membres connectés,
 // John voit tout et peut agir à tout moment, rien n'est effacé. Une forme de
 // membre n'est montrée sans compte, ni dans le défi, que si elle a été validée.
 
-/** Vingt lignes par page, puis « Voir plus » : jamais de liste infinie. */
-export const TAILLE_PAGE_CONTRIBUTIONS = 20
+/** Dix mots par page, puis « Voir plus » : jamais de liste infinie. */
+export const TAILLE_PAGE_CONTRIBUTIONS = 10
 
-/** Les gestes du journal (événements) et ceux de la modération. Les deux
- *  familles ne se recouvrent pas : c'est ce qui permet de les lire ensemble. */
+/** Les gestes du journal (événements) et ceux de la modération. */
 export const TYPES_CONTRIBUTION = [
     "pose",
     "retrait",
@@ -25,19 +25,6 @@ export const TYPES_CONTRIBUTION = [
 
 export type TypeContribution = (typeof TYPES_CONTRIBUTION)[number]
 
-/** Ce que le filtre « Type de geste » propose. Les votes (`pose`, `retrait`) et
- *  leurs retraits (`retrait_vote`) ne sont plus gérés ici (John, 04/11) : ils
- *  restent au journal, mais ne s'affichent pas sur cet écran. */
-export const TYPES_FILTRE_CONTRIBUTION: readonly TypeContribution[] = [
-    "creation",
-    "modification",
-    "masquage",
-    "demasquage",
-    "validation_defi",
-    "annulation_validation_defi",
-    "categorie_insulte_retiree",
-]
-
 export const LIBELLES_CONTRIBUTION: Record<TypeContribution, string> = {
     pose: "Ajout d'un vote",
     retrait: "Vote retiré par le membre",
@@ -46,53 +33,70 @@ export const LIBELLES_CONTRIBUTION: Record<TypeContribution, string> = {
     masquage: "Forme masquée",
     demasquage: "Forme réaffichée",
     retrait_vote: "Vote retiré par l'admin",
-    validation_defi: "Forme validée : peut être montrée sans compte et dans le défi",
+    validation_defi: "Forme validée",
     annulation_validation_defi: "Validation annulée",
     categorie_insulte_retiree: "Catégorie insulte retirée",
 }
 
-/** Une ligne de l'écran. Les deux familles y ont la même forme. */
-export interface LigneContribution {
-    id: string
-    /** `evenement` : une ligne du journal. `moderation` : un geste de l'admin sur une forme.
-     *  `changement` : un geste de l'admin sur le mot seul (catégorie insulte retirée). */
-    genre: "evenement" | "moderation" | "changement"
+/** Un geste sur une forme (ou sur le mot). */
+export interface GesteContribution {
+    /** `evenement` : une ligne du journal. `moderation` : un geste de l'admin sur une forme. */
+    genre: "evenement" | "moderation"
     type: TypeContribution
-    /** ISO, avec l'heure : l'écran l'affiche, le journal public ne la garde pas. */
+    /** ISO, avec l'heure. */
     le: string
     /** Le membre concerné : l'auteur d'une forme, ou le votant pour un retrait. */
     membre: string | null
     membreId: string | null
-    varianteId: string
-    /** Une forme de source écrite : elle est déjà montrée sans compte et dans le défi, rien à valider. */
-    source: boolean
     /** Le village du geste (ou de la création de la forme pour un geste admin). */
     village: string | null
-    mot: { id: string; francais: string; contexte: string; type: string; visible: boolean }
-    /** Vrai si aucune forme de ce mot ne vient d'une source : seul un tel mot peut perdre la catégorie insulte. */
-    motSansSource: boolean
-    forme: string
+    /** L'admin qui a fait le geste. Nul pour le journal des membres. */
+    acteur: string | null
     /** Renseignés pour une modification seulement. */
     ancienneForme: string | null
     nouvelleForme: string | null
+}
+
+/** Une forme du mot, avec son état actuel et son dernier geste. */
+export interface FormeContribution {
+    varianteId: string
+    forme: string
+    /** Une forme de source écrite : elle est déjà montrée sans compte et dans le défi, rien à valider. */
+    source: boolean
     masquee: boolean
     validee: boolean
-    /** L'admin qui a fait le geste. Nul pour le journal des membres. */
-    acteur: string | null
+    /** Le nombre de gestes sur cette forme. */
+    nbGestes: number
+    /** Une forme de membre, ni validée, ni masquée, ni de source : elle attend la décision de l'admin. */
+    aDecider: boolean
+    dernier: GesteContribution
+}
+
+/** Un mot de l'écran : toutes ses formes qui ont eu un geste dans la période. */
+export interface MotContribution {
+    mot: { id: string; francais: string; contexte: string; type: string; visible: boolean }
+    /** Vrai si aucune forme de ce mot ne vient d'une source : seul un tel mot peut perdre la catégorie insulte. */
+    motSansSource: boolean
+    /** ISO : le geste le plus récent sur ce mot. */
+    dernier: string
+    /** Tous les gestes du mot, formes et retrait de catégorie compris. */
+    nbGestes: number
+    /** Le dernier retrait de la catégorie insulte, s'il y en a un. */
+    retraitInsulte: { le: string; acteur: string | null } | null
+    /** Les formes, du geste le plus récent au plus ancien. */
+    formes: FormeContribution[]
 }
 
 export interface FiltresContributions {
     page: number
-    type?: TypeContribution
-    membreId?: string
-    /** ISO : seules les lignes postérieures à ce moment. */
-    depuis?: string
+    /** Vrai (la vue par défaut) : seuls les mots avec une forme à décider, et seules ces formes. */
+    aRegarder: boolean
 }
 
 export interface PageContributions {
-    lignes: LigneContribution[]
+    mots: MotContribution[]
     page: number
-    plusDeLignes: boolean
+    plusDeMots: boolean
 }
 
 /** Le nom affiché d'un membre : son nom, à défaut son identifiant de connexion. */
@@ -100,7 +104,7 @@ export function nomAffiche(nom: string | null, email: string | null): string | n
     return nom ?? email
 }
 
-/** La catégorie visible d'une ligne : « Insulte » si le mot est une insulte,
+/** La catégorie visible d'un mot : « Insulte » si le mot est une insulte,
  *  sinon son type. Une insulte est un contexte, jamais un type (PR #108). */
 export function categorieDe(mot: { type: string; contexte: string }): string {
     if (mot.contexte === "insulte") return "Insulte"

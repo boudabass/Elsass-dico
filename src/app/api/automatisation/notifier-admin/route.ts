@@ -1,6 +1,7 @@
 // Le soir, aux administrateurs : combien de textes de membres ont été ajoutés ou
 // corrigés dans les 24 dernières heures (07/11/2026). N8N appelle cette route une
 // fois par soir (main seulement, après le merge). `?simuler=1` compte sans rien envoyer.
+// `?essai=1` envoie un message d'essai à chaque admin abonné, même sans rien de nouveau.
 //
 // Même garde que `notifier-defi` : jeton porteur, 401 sans lui. Une route
 // `/api/automatisation/` est déjà laissée passer par le middleware.
@@ -27,7 +28,8 @@ export async function POST(request: NextRequest) {
     }
 
     const simuler = request.nextUrl.searchParams.get("simuler") === "1"
-    const bilan = await annoncerContributionsAdmin({ simuler })
+    const essai = request.nextUrl.searchParams.get("essai") === "1"
+    const bilan = await annoncerContributionsAdmin({ simuler, essai })
     return NextResponse.json(bilan, {
         status: bilan.erreurs.length > 0 ? 502 : 200,
         headers: { "Cache-Control": "no-store" },
